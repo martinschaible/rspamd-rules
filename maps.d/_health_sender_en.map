@@ -31,7 +31,7 @@
 /slimming.gummies/i
 
 /weight.?loss/i
-/lose.?weight/i
+/lose.{1,10}weight/i
 
 #
 #
@@ -66,6 +66,7 @@
 # Fungus
 # ------------------------------------------------------------------------------
 /anti.fung(al|us)/i
+/nail.fungus/i
 
 # Hair growth
 # ------------------------------------------------------------------------------
@@ -96,6 +97,7 @@
 # ------------------------------------------------------------------------------
 /cardione/i
 /circulaxil/i
+/liba/i
 /suromexil/i
 /prostadine/i
 /varilux/i

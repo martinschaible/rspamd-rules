@@ -38,7 +38,7 @@
 # ------------------------------------------------------------------------------
 /(dating|hookup).?website.{1,10}(anschauen|bei mir|fortzusetzen|treffen)/i
 
-/(beste|intime).{1,10}(dating|hookup).?sites?/i
+/(beste|intime|profil).{1,15}(dating|hookup).?sites?/i
 /unsere.{1,10}dating.?site/i
 
 /seite ist kostenlos/i
@@ -47,7 +47,8 @@
 
 # Fotos
 # ------------------------------------------------------------------------------
-/möchten.{1,15}fotos mit dir tauschen/iu
+/meine intimen.{1,10}(bilder|fotos)/i
+/möchten.{1,15}(bilder|fotos) mit dir tauschen/iu
 
 # Girls
 # ------------------------------------------------------------------------------
@@ -68,6 +69,8 @@
 
 /mein.{1,10}profil.{1,10}(dating.?seite|ist hier)/i
 /mein.{1,10}profil.{1,10}dating.?web.?site/i
+/mein.{1,10}profil.{1,10}wartet audf dich/i
+/mein.{1,10}profil.{1,10}zuzugreifen.{1,10}mehr zu erfahren/i
 
 # Pussy
 # ------------------------------------------------------------------------------
@@ -95,3 +98,4 @@
 # Website
 # ------------------------------------------------------------------------------
 /ich erwarte dich hier/i
+/auf der web.?site warten/i

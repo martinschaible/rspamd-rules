@@ -33,13 +33,17 @@
 
 # Pay Fees
 # ------------------------------------------------------------------------------
+/gebühr wird erhoben.{1,10}handeln sie schnell/iu
+
 /wartet auf.{1,10}zustellung.{1,10}bestätigen sie die zahlung/iu
 
 /paket.{1,10}bekommen.{1,10}ist eine zahlung notwendig/i
 
-/gebühr wird erhoben.{1,10}handeln sie schnell/iu
-
 /die sendung unterliegt.{1,10}lieferabgaben/i
+
+/lieferung erhalten.{1,15}zahlung verpflichtend/i
+/sendung wartet auf.{1,10}zahlung/i
+/sendung zu bezahlen.{1,10}zu verfolgen/i
 
 # Tracking
 # ------------------------------------------------------------------------------
