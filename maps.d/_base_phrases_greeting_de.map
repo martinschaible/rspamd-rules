@@ -41,6 +41,7 @@
 
 #
 /ich bin (frau|herr).{5,25}aus abidjan/i
+/ich bin (frau|herr).{5,25}der leiter/i
 
 # My name is ...
 /guten morgen.{1,5}mein name ist/i
@@ -76,5 +77,8 @@
 
 # Bad German
 # ------------------------------------------------------------------------------
+/diese e?.?mail sie in einem.{1,10}guten zustand erreicht/i
 /diese e?.?mail wird sie gut treffen/i
+
 /guten morgen.{1,10}ehrenwert/i
+
