@@ -1,0 +1,57 @@
+# ==============================================================================
+# Phishing: Related to Accounts
+#
+# -> Add bad senders here: "_phishing_sender_de.map"
+#
+# ----|----------------|
+#  10 | German         |
+# ==============================================================================
+
+# Locking
+# ------------------------------------------------------------------------------
+/ihr konto vorsorglich sperren/i
+
+# Confirm Identity
+# ------------------------------------------------------------------------------
+/bestätigen sie.{1,10}ihre telefon.?nummer/iu
+/bestätigen sie.{1,10}ihre konto.?daten/iu
+
+/konto.?daten.{1,10}daher vorsorglich bestätigen/iu
+/konto.?daten.{1,10}wir im system hinterlegen/iu
+
+/nicht.{1,10}identifikations.?prozess.{1,10}abgeschlossen/i
+
+/verpflichtet ihre daten zu bestätigen/iu
+
+/sie den bestätigungs.?prozess.{1,10}nicht durchlaufen haben/iu
+
+/daten unserer kunden zu überprüfen.{1,15}ein konto.{1,15}besitzen/iu
+
+# Activation
+# ------------------------------------------------------------------------------
+/telefonnummer noch nicht aktiviert haben.{1,10}damit sie ihr.{1,25}konto/i
+
+# Authentification
+# ------------------------------------------------------------------------------
+/ihr authentifizierungsdienst/i
+
+# Registration
+# ------------------------------------------------------------------------------
+/konto zuzugreifen.{1,10}die registrierung durchzuführen/iu
+
+/alle kunden sich registrieren.{1,10}andernfalls/i
+
+#
+#
+#
+
+# EMail and Hosting
+# ------------------------------------------------------------------------------
+
+#
+#
+#
+
+# Bad german
+# ------------------------------------------------------------------------------
+/dass unser system uns mitteilt/i

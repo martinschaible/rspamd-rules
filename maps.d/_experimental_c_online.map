@@ -1,0 +1,43 @@
+# ==============================================================================
+# Experimental Rules: Map Type "content" and Filter "oneline"
+#
+# ----|
+#   5 |
+# ==============================================================================
+
+# Link only Mail
+# ------------------------------------------------------------------------------
+
+# Content-Transfer-Encoding: quoted-printable
+#
+# [https://alexhh.com/index.php/campaigns/qg1833ejjl34c/track-url/xp8885hxfz8=
+# af/5e7dc60e64ea5561d826289c285ef84e0b4f3d36]
+#
+#
+/content-transfer-encoding: quoted-printable.{2,10}https:\/\/[a-z]{5,15}\.com/index\.php/campaigns/i
+
+# IP address
+# ------------------------------------------------------------------------------
+/https?:\/\/\d{2,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}(\/|\.)/i
+
+# Companies
+# ------------------------------------------------------------------------------
+/pelema.pte.{1,5}ltd/i
+/time.travel.promotion.lp/i
+
+# Image only Spam
+# ------------------------------------------------------------------------------
+/beitreten.{1,15}https:\/\/bit\.ly/i
+/(erhalten|jetzt kaufen|nachricht).{1,15}https:\/\/tinyurl\.com/i
+
+/https:\/\/tinyurl\.com.{1,15}klicken sie/i
+
+
+# Virus
+# ------------------------------------------------------------------------------
+/ihr.{1,10}system wurde mit.{1,10}viren infiziert/i
+
+# Google
+# ------------------------------------------------------------------------------
+www\.google\.[a-z]{2,3}\/url\?q=/i
+

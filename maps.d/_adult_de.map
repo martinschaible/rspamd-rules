@@ -1,0 +1,97 @@
+# ==============================================================================
+# Adult: Dating and Porn
+#
+# -> Add bad senders here: "_base_bad_sender_de.map"
+#
+# ----|----------------|
+# 10  | German         |
+# ==============================================================================
+
+# Intros
+# ------------------------------------------------------------------------------
+/ich lebe in.{1,20}ich bin.{1,10}jahre alt/i
+
+#
+#
+#
+
+# Chat
+# ------------------------------------------------------------------------------
+/chat ist kostenlos/i
+/sex.?chat.mitglied/i
+
+# Cams
+# ------------------------------------------------------------------------------
+/unsere.{1,10}live.?cams/i
+
+/sexy.cam.show/i
+
+# Dating
+# ------------------------------------------------------------------------------
+/sex.dating.{0,10}club/i
+
+/online.?sex.?dating/i
+
+/ich möchte einen.{1,10}mann treffen/iu
+
+# Dating Sites
+# ------------------------------------------------------------------------------
+/(dating|hookup).?website.{1,10}(anschauen|bei mir|fortzusetzen|treffen)/i
+
+/(beste|intime).{1,10}(dating|hookup).?sites?/i
+/unsere.{1,10}dating.?site/i
+
+/seite ist kostenlos/i
+
+/kostenlos auf unserer seite/i
+
+# Fotos
+# ------------------------------------------------------------------------------
+/möchten.{1,15}fotos mit dir tauschen/iu
+
+# Girls
+# ------------------------------------------------------------------------------
+/(finden|suchen) sie ein.{1,15}mädchen/iu
+
+# Penis
+# ------------------------------------------------------------------------------
+/geilen.schwanz/i
+
+# Profile
+# ------------------------------------------------------------------------------
+/(gehe zu|ihnen einen link).{1,10}zu meinem.{1,10}profil/i
+
+/klicke? hier.{1,10}um ihre.{1,10}profile?/i
+
+/echte.{1,10}profile basierend auf/i
+/ohne gefälschte profile/iu
+
+/mein.{1,10}profil.{1,10}(dating.?seite|ist hier)/i
+/mein.{1,10}profil.{1,10}dating.?web.?site/i
+
+# Pussy
+# ------------------------------------------------------------------------------
+/muschi.{1,10}(leckst|lecken)/i
+/(lieblings|saubere).{0,10}pussy/i
+
+# Sex, Fuck
+# ------------------------------------------------------------------------------
+/kostenlos.{1,10}sex/iu
+
+/fick.?treffen/i
+
+/fuck-?buddies in der/i
+
+# Message, Writing
+# ------------------------------------------------------------------------------
+/schreib mir hier/i
+/schreiben sie mir bitte hier/i
+
+/ansehen.{1,10}was sie geschrieben hat/i
+/jetzt kostenlos antworten/i
+
+/nachricht von einer frau aus.{1,10}deiner/i
+
+# Website
+# ------------------------------------------------------------------------------
+/ich erwarte dich hier/i

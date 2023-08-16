@@ -1,0 +1,22 @@
+# ==============================================================================
+# Base: Phrases Unsubscribe from mailings
+#
+# ----|----------------|
+#  10 | English        |
+# ==============================================================================
+
+/if you doesn?.?t.{1,10}like this.{1,10}please click here/i
+
+/remove.me.from.the.gift.list/i
+
+/stop.future.communications.{1,10}send.post.?mail to/i
+
+/you.do.not.want.{1,10}receive.{1,10}e?.?mails.from.us.{1,10}you.{1,10}go.right.here/i
+/you would no longer.{1,10}to receive.{1,10}e?.?mail.advertisements from/i
+
+/click here.{1,10}or write us at.{1,10}\d{2,5}/i
+
+# Post Mail
+# ------------------------------------------------------------------------------
+/stop recei?ving.{1,10}e?.?mail from us.{1,10}send post.?mail to/i
+/newsletters.{1,10}click here.{1,15}send post.?mail to/i

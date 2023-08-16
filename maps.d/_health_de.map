@@ -1,0 +1,28 @@
+# ==============================================================================
+# Health: Anything
+#
+# -> Add bad senders here: "_health_sender_de.map"
+#
+# ----|----------------|
+#  5  | German         |
+# ==============================================================================
+
+# Heart, blood pressure
+# ------------------------------------------------------------------------------
+/blut(hoch)?druck.{1,10}auf.{1,10}normal/i
+/blut(hoch)?druck.{1,10}kann.eine/i
+/blut(hoch)?druck.{1,10}wird ihnen dabei behilflich/i
+
+/hoher.blutdruck/i
+/regulierung.{1,10}blut(hoch)?druck/i
+
+/hypertonie.{1,10}detaillierte informationen/i
+
+/normalisiert den blut(hoch)?druck/i
+
+#
+#
+#
+
+# Miracle, Breaktrough
+# ------------------------------------------------------------------------------

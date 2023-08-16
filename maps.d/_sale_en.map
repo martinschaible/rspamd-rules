@@ -1,0 +1,70 @@
+# ==============================================================================
+# Sale: Anything
+#
+# -> Add bad senders here: "_sale_sender_en.map"
+#
+# ----|----------------|
+#  5  | English        |
+# ==============================================================================
+
+# Sale related phrases
+# ------------------------------------------------------------------------------
+
+
+# Introduction
+# ------------------------------------------------------------------------------
+/we are.{1,10}professional.{1,10}manufacturer of/i
+
+#
+#
+#
+
+# Apps
+# ------------------------------------------------------------------------------
+/building your.{1,10}mobile.?apps/i
+
+/you be interested.{1,10}(develop|building).{1,10}(mobile)?.?app/i
+/you want.{1,10}mobile.?apps?/i
+
+/offers.{1,10}wide range.{1,10}mobile.?app/i
+/share your app.{1,10}idea/i
+
+/we are.{1,10}mobile.?app.?development/i
+/we have expertise in.{1,20}app/i
+/we can make any kind of.{1,10}app/i
+
+# SEO
+# ------------------------------------------------------------------------------
+/provide your web.?site 1st/i
+
+/reputed seo.company/i
+/you need.{1,10}seo.?services/i
+
+/i went through your.{1,10}web.?site.{1,10}found/i
+
+# Lies
+/your web.?site has.{1,10}broken links/i
+
+# SEO India
+# ------------------------------------------------------------------------------
+
+# Streaming TV
+# ------------------------------------------------------------------------------
+/\d{3,4}.{1,10}worldwide.channels/i
+
+/movies.{1,10}series.{1,10}subscribe now/i
+
+# Translator
+# ------------------------------------------------------------------------------
+
+# Watches, Replicas
+# ------------------------------------------------------------------------------
+/rolex.?watch(es)?.{1,10}start at/i
+
+# Web-Design/Development
+# ------------------------------------------------------------------------------
+/you be interested in build.{1,15}your.{1,10}web.?site/i
+
+# WordPress
+/i am a professional.{1,10}wordpress/i
+/you looking.{1,10}experienced.{1,10}wordpress/i

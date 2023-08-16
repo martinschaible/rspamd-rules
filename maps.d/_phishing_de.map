@@ -1,0 +1,41 @@
+# ==============================================================================
+# Phishing: Anything
+#
+# -> Add bad senders here: "_phishing_sender_de.map"
+#
+# ----|----------------|
+#  10 | German         |
+# ==============================================================================
+
+# Fake orders
+# ------------------------------------------------------------------------------
+
+#
+#
+#
+
+# Surveys
+# ------------------------------------------------------------------------------
+/beantworten sie unseren.{1,10}fragebogen/i
+
+/einige fragen und erhalten.{1,10}sie ihr/i
+
+# Winning, Free stuff, Surveys
+# ------------------------------------------------------------------------------
+/gewinn innerhalb von.{1,10}stunden erhalten/i
+
+/geschenke.{1,10}in beschränkter zahl verfügbar/iu
+/geschenke.{1,10}sie verfügbar sind/iu
+
+/unsere.{1,10}gewinner des brandneuen/i
+
+# Link
+/klicken sie hier.{1,10}um die belohnung/i
+
+#
+#
+#
+
+# Bad german
+# ------------------------------------------------------------------------------
+

@@ -1,0 +1,92 @@
+# ==============================================================================
+# Sale: Anything
+#
+# -> Add bad senders here: "_sale_sender_de.map"
+#
+# ----|----------------|
+#  5  | German         |
+# ==============================================================================
+
+# Sale related phrases
+# ------------------------------------------------------------------------------
+/shop.online.now/i
+
+/top.quality.{1,10}low.cost/i
+
+# Introduction
+# ------------------------------------------------------------------------------
+
+#
+#
+#
+
+# Apps
+# ------------------------------------------------------------------------------
+
+# Boxes
+# ------------------------------------------------------------------------------
+/aluminiumkiste.{1,10}transportbox/i
+
+# 
+# Pen
+# ------------------------------------------------------------------------------
+/kugelschreiber.{1,10}(gummierung|gummiert|softgriff)/i
+/kugelschreiber.{1,10}werbeeindruck/i
+
+/(die neuen|gummierte|softgriff).{1,10}kugelschreiber/i
+
+/neue.{1,10}werbe.?kugelschreiber/i
+
+# Safe
+# ------------------------------------------------------------------------------
+
+# SEO
+# ------------------------------------------------------------------------------
+/bonus.{1,10}seo.?(check|web.?site)/i
+
+/sie sich ein top.?google.?ranking/i
+
+# Surveillence Camera
+# ------------------------------------------------------------------------------
+
+# Suitcase set
+# ------------------------------------------------------------------------------
+/kofferset.{1,10}teilig.{1,10}statt uvp.{1,10}nur/i
+
+# Translator
+# ------------------------------------------------------------------------------
+/sofort.?sprach.?übersetzer/iu
+/sofort.?übersetzer.{1,10}jetzt gleich/iu
+/zwei.?wege.sofort.?übersetzer/iu
+
+# Umbrellas
+# ------------------------------------------------------------------------------
+/(meter|patenter|sonnen).ampelschirm/i
+/schirm.{1,10}ampelschirm/i
+
+/ampelschirme?.{1,10}alu mit/i
+
+# Watches, Replicas
+# ------------------------------------------------------------------------------
+
+# Web-Design/Development
+# ------------------------------------------------------------------------------
+/wir sind ein.{1,10}web.?site.?entwicklung/i
+/wir sind ein in (china|indien).{1,15}web.?site/i
+
+/web.?site.?design.{1,10}entwicklungs.?dienste/i
+
+/ihre aktuelle.{1,10}web.?site aktualisieren/i
+/sie eine neue.{1,10}web.?site erstellen/i
+/suche nach einem.{1,10}web.?design/i
+
+#
+#
+#
+
+# How to order
+# ------------------------------------------------------------------------------
+/einfach mit.{1,10}adresse.{1,10}wir senden dann.{1,15}frei haus/i
+
+/zum antworten bestellen.{1,10}lieferung auf rechnung/i
+/zum bestellen.{1,10}ganz einfach auf diese.{1,10}e?.?mail antworten/i

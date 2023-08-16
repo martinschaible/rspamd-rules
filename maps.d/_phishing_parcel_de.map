@@ -1,0 +1,46 @@
+# ==============================================================================
+# Phishing: Related to Parcel
+#
+# -> Add bad senders here: "_phishing_sender_de.map"
+#
+# ----|----------------|
+#  10 | German         |
+# ==============================================================================
+
+# Address
+# ------------------------------------------------------------------------------
+/paket angegebene lieferadresse ist unvollständig/iu
+
+/klicken sie hier.{1,10}um die adresse zu/i
+
+# Delivery
+# ------------------------------------------------------------------------------
+/paket fast bereit.{1,10}lieferung ist/i
+
+# Delivery problems
+# ------------------------------------------------------------------------------
+/zustellung ihres pakets.{1,30}ist ein fehler aufgetreten/i
+
+/paket kann nicht zugestellt werden.{1,20}aktualisieren sie.{1,10}adresse/i
+
+# Pay Customs
+# ------------------------------------------------------------------------------
+/nicht geliefert werden.{1,10}kein zoll bezahlt wurde/i
+
+/zölle anfallen.{1,10}die bezahlt werden müssen/iu
+
+/zoll.?gebühren.{1,10}der betrag beträgt/iu
+
+# Pay Fees
+# ------------------------------------------------------------------------------
+/wartet auf.{1,10}zustellung.{1,10}bestätigen sie die zahlung/iu
+
+/paket.{1,10}bekommen.{1,10}ist eine zahlung notwendig/i
+
+/gebühr wird erhoben.{1,10}handeln sie schnell/iu
+
+/die sendung unterliegt.{1,10}lieferabgaben/i
+
+# Tracking
+# ------------------------------------------------------------------------------
+/besuchen sie die tracking.?seite hier/i

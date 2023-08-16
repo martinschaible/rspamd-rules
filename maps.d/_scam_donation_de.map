@@ -1,0 +1,77 @@
+# ==============================================================================
+# Scam: Donation and Winning
+#
+# -> Add bad senders here: "_base_bad_sender_de.map"
+#
+# ----|----------------|
+#  10 | German         |
+# ==============================================================================
+
+# Big numbers
+# ------------------------------------------------------------------------------
+/von \d{1,2}.{1,5}millionen euros? ausgewählt/iu
+
+/\d{3}.{0,5}\d{3}.{1,10}wurden an sie gespendet/i
+
+/\d{3}.{0,5}\d{3}.{1,10}(millionen|dollar|euro?|gbp|usd).{1,10}für sie/iu
+/\d{3}.{0,5}\d{3}.{1,10}(millionen|dollar|euro?|gbp|usd).{1,10}e?.?mail für details jetzt/iu
+/\d{3}.{0,5}\d{3}.{1,10}(millionen|dollar|euro?|gbp|usd).{1,10}wurden ihnen von/i
+
+/millionen.{1,10}(dollar|euro?|gbp|usd).{1,10}an sie zu spenden/i
+/euro gewährt.{1,10}antworten.{1,15}weitere details/iu
+
+# Contact
+# ------------------------------------------------------------------------------
+/millionen.{1,10}(dollar|euro?|gbp|usd).{1,10}kontaktieren sie mich.{1,10}e?.?mail/i
+/millionen.{1,10}(dollar|euro?|gbp|usd).{1,10}e?.?mail für details/iu
+
+/kontaktieren sie barr/i
+
+# Donation
+# ------------------------------------------------------------------------------
+/spende.{1,10}erhalten.{1,10}sie.{1,10}interessiert/i
+/spende.{1,10}erhalten.{1,10}die.{1,10}zugesandt wurde/i
+/spende.{1,10}in höhe von.{1,20}(dollar|euro?|gbp|usd) (ausgewählt|wurde ihnen von)/iu
+
+/spenden.?anforderung.{1,10}wenden sie sich/i
+
+/ihre e?.?mail.?adresse wurde für eine.{1,10}spende/iu
+
+/(ich|sie) haben? eine.{1,10}spende.{1,10}(in höhe)?.{0,10}von.{1,10}\d{3}.{0,5}\d{3}/iu
+/(ich|sie) haben? eine.{1,10}spende.{1,10}(in höhe)?.{0,10}von.{1,10}million/iu
+
+/sie haben einen.{1,10}zuschuss in höhe von/iu
+/sie wurden für eine.{1,10}spende in höhe von/iu
+/sie wurden ausgewählt.{1,10}um eine.{1,10}spende/iu
+
+/eine spende.{1,10}(in höhe)?.{0,10}von.{10,20}wurde ihnen/iu
+
+/wurden sie für eine.{1,10}spende/iu
+
+/gespendet.{1,10}weitere informationen wenden sie sich/i
+
+/privat.?spende für sie/iu
+
+/beantragung ihrer spende/i
+
+#
+/ich spende an.{1,10}zufällig ausgewählte personen/iu
+/ich spende ihnen die summe von/i
+
+#
+#
+#
+
+# Winning
+# ------------------------------------------------------------------------------
+/\d{3}.{1,5}\d{3}.{1,10}(dollar|euro?|gbp|usd) gewonnen{1,10}zahlungsnummer/i
+
+/geehrter?.?gewinner/i
+
+#
+#
+#
+
+# Bad german
+# ------------------------------------------------------------------------------
+/begunstigter/i

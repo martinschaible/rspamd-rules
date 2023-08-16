@@ -1,0 +1,80 @@
+# ==============================================================================
+# Base: Phrases Greetings with intros
+#
+# ----|----------------|
+#  10 | German         |
+# ==============================================================================
+
+/(grüße|hallo geliebte).{1,10}ich.bin.(frau|herr)/i
+/grüße.{1,10}mein.name.ist/iu
+/grüße.{1,10}in bester gesundheit/iu
+/grüße.{1,10}mein lieber/i
+
+/guten tag.{1,10}(madam|sir)/i
+/(guten tag|hallo).{1,10}ich bin.{5,25}(frau|herr).{1,10}eine/i
+/guten tag.{1,10}ich bin.{5,25}eine.{1,20}investor(in)?/i
+
+/hallo.{1,10}freund.{1,10}mein.name.ist/i
+/hallo.{1,10}mein.name.ist.{5,20}(barrister|gewinner|ich.arbeite|ich.komme.aus)/i
+
+/hallo.{1,10}ich bin.{5,25}und schreibe dir/i
+/hallo.{1,10}ich bin.{5,25}eine.{1,15}(geschäfts)?frau/iu
+/hallo.{1,10}ich bin.{5,25}aus.{1,10}deutschland/i
+
+/hallo.{1,10}unsere namen sind/i
+
+/hallo.{1,10}sie wurden von einem online/i
+
+/hallo.{1,10}(bezaubernder|geheimnisvoller|unbekannter)/i
+/hallo.{1,10}begünstigter/iu
+
+/(liebe|madam|sir).{1,10}mein.name.ist/i
+
+/lieber freund.{1,15}mich ihnen vorstellen/i
+/(glückwunsch|liebste).{1,10}ich bin.{1,10}(frau|herr)/i
+
+/mein.name.ist.(frau|herr|mrs?)/i
+/mein.name.ist.{5,25}ich schreibe ihnen/i
+
+/sehr.geehrter.{1,10}(begünstigter|empfänger)/iu
+/sehr.geehrter? (frau|herr).{1,10}hoffe es geht dir gut/i
+
+#
+/ich bin (frau|herr).{5,25}aus abidjan/i
+
+# My name is ...
+/guten morgen.{1,5}mein name ist/i
+
+/wie geht es dir.{1,5}mein name ist/i
+
+# Excuses
+# ------------------------------------------------------------------------------
+
+# Introduction
+# ------------------------------------------------------------------------------
+/ich bin.{5,25}(der|die) gewinner(in)? des/i
+/mich ihnen vorstellen.{1,10}ich bin/i
+
+# Introduction, Title
+# ------------------------------------------------------------------------------
+/ich bin.{1,5}barrister/i
+
+# E-Mail
+# ------------------------------------------------------------------------------
+/ich hoffe.{1,10}e?.?mail kommt bei ihnen an/i
+/ich hoffe.{1,10}sie haben meinen brief erhalten/i
+
+/lieber e?.?mail.?benutzer/i
+
+# Help
+# ------------------------------------------------------------------------------
+/ich brauche.{1,10}hilfe.{1,10}mein name ist/i
+
+#
+#
+#
+
+# Bad German
+# ------------------------------------------------------------------------------
+/diese e?.?mail wird sie gut treffen/i
+/guten morgen.{1,10}ehrenwert/i

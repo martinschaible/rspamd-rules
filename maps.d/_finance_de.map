@@ -1,0 +1,35 @@
+# ==============================================================================
+# Finance: Loans, Lending, Invest...
+#
+# -> Add bad senders here: "_base_bad_sender_de.map"
+#
+# ----|----------------|
+#  10 | German         |
+# ==============================================================================
+
+# Intros
+# ------------------------------------------------------------------------------
+
+# Loans
+# ------------------------------------------------------------------------------
+/benötigen.sie.{1,10}(darlehen|kredit)/iu
+
+/einfaches.{1,10}kredit.?angebot/i
+/wir.(bieten|gewähren|vergeben).{1,10}(alle arten von)?.{0,10}(darlehen|kredit)/iu
+
+/zuverlässiges.{1,10}kredit.?angebot/i
+
+/garantiert.günstigen.zinssatz/i
+
+/(darlehen|kredit).{1,10}jetzt beantragen/i
+/(darlehen|kredit).{1,10}geschäftlich.{1.10}privat/iu
+/(darlehen|kredit).{1,10}zu einem günstigen zins.?satz/iu
+/(darlehen|kredit).{1,10}mit einem zins.?satz von/i
+
+/sie auf der suche nach.{1,15}(darlehen|kredit)/i
+
+#
+/geschäfts.?kredit.{1,10}und.{1,10}privat.?kredit/iu
+
+# Mortgage
+# ------------------------------------------------------------------------------

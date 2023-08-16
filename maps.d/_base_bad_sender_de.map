@@ -1,0 +1,65 @@
+# ==============================================================================
+# Base: Bad sender
+#
+# ----|----------------|
+#  10 | German         |
+# ==============================================================================
+
+# Unclassified
+# ------------------------------------------------------------------------------
+/(achtung|eilmeldung)/i
+/lies.jetzt/i
+
+/herr\s/i
+
+/wie man/i
+
+# People pretending be a philanthropist
+# ------------------------------------------------------------------------------
+/maria.elisabeth.schaeffler/i
+/susanne.klatten/i
+
+#
+#
+#
+
+# Adult: Dating and Porn
+# ------------------------------------------------------------------------------
+/(russische|urkrainische).{1,15}schönheiten/iu
+
+# A
+/arsch.?luder/i
+
+# F
+/fickt.?uns/i
+/finde.{1,15}frauen/i
+/flirten.mit/i
+/frauen.(finen|in.deiner)/i
+
+# G
+/geiles/i
+
+# L
+/live.{0,10}treffen/i
+
+# P
+/profil.?vorschlag/i
+
+# Casino, Gambling
+# ------------------------------------------------------------------------------
+/legal.spielen/i
+
+# Finance
+# ------------------------------------------------------------------------------
+/(darlehen|kredit).angebot/i
+
+# Make Money
+# ------------------------------------------------------------------------------
+/bitcoin.?(bulletin|geld|handel|händler|nachrichten)/i
+
+/lukrative.gelegenheit/i
+/neue.investitionen/i
+
+# Winning, Lottery
+# ------------------------------------------------------------------------------
+/gewinn.?spiel/i

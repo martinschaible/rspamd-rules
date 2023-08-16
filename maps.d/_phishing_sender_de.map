@@ -1,0 +1,66 @@
+# ==============================================================================
+# Phishing: Bad sender
+#
+# ----|----------------|
+#  10 | German         |
+# ==============================================================================
+
+# Accounts
+# ------------------------------------------------------------------------------
+/konto.?(aktivität|hilfe)/iu
+
+/aktualisierung.{0,15}konto/iu
+
+# Banking
+# ------------------------------------------------------------------------------
+
+# Cards
+# ------------------------------------------------------------------------------
+/ihre karte wurde mit sofortiger wirkung gesperrt/i
+
+# EMail, Cloud, Security and Server support
+# ------------------------------------------------------------------------------
+
+# Hosting
+# ------------------------------------------------------------------------------
+
+# Hosting: Cloud storage
+# ------------------------------------------------------------------------------
+/cloud.?speicher/i
+/speicher.icloud/i
+
+# Parcel
+# ------------------------------------------------------------------------------
+
+/liefer.?status?.meldungen/i
+/paket.?(bestaetigungen|status)/i
+/post.?lieferung.?updates/i
+/post.?nachrichten/i
+
+/sendungs.?mitteilung/
+/sofortige.zustellung/i
+
+/versand.?hinweise/i
+/versand.?status.?team/i
+
+/zustell.?(aktualisierung|nachrichten|status)/i
+
+# Parcel - Companies
+# ------------------------------------------------------------------------------
+/dpd-ch/i
+/diepost/i
+
+/sbbch/i
+
+/swisspass.{1,5}(sbb|support)/i
+
+# Account - Companies
+# ------------------------------------------------------------------------------
+
+
+#
+#
+#
+
+# Winning, Free stuff, Surveys
+# ------------------------------------------------------------------------------
