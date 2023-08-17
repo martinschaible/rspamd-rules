@@ -9,16 +9,22 @@
 
 # Cards
 # ------------------------------------------------------------------------------
-/ihre karte wurde mit sofortiger wirkung gesperrt/i
+/ihre karte.{1,10}wurde mit sofortiger wirkung gesperrt/i
+/ihre karte.{1,10}vorsorglich sperren.{1,10}damit sie wieder/i
 
 # Silly lies
 # ------------------------------------------------------------------------------
 /zahlungs.?richtlinie sind wir dazu verpflichtet/i
+/wir ihre daten in unserem system.{1,15}den neuen regeln/i
 
 # Data no more valid
 # ------------------------------------------------------------------------------
 /ihre hinterlegten daten nicht mehr aktuell sind/i
 /legitimierung ihrer hinterlegten daten unbedingt notwendig/i
+
+# New Systems, Security, Technology, TAN
+# ------------------------------------------------------------------------------
+/vorzustellen.{1,10}das neue s.?push.?tan/i
 
 #
 #

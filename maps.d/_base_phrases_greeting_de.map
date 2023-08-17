@@ -5,6 +5,13 @@
 #  10 | German         |
 # ==============================================================================
 
+# Attention, Important
+# ------------------------------------------------------------------------------
+/achtung.{1,10}offizielle mitteilung/i
+
+# Greetings
+# ------------------------------------------------------------------------------
+
 /(grüße|hallo geliebte).{1,10}ich.bin.(frau|herr)/i
 /grüße.{1,10}mein.name.ist/iu
 /grüße.{1,10}in bester gesundheit/iu
@@ -20,6 +27,8 @@
 /hallo.{1,10}ich bin.{5,25}und schreibe dir/i
 /hallo.{1,10}ich bin.{5,25}eine.{1,15}(geschäfts)?frau/iu
 /hallo.{1,10}ich bin.{5,25}aus.{1,10}deutschland/i
+/hallo.{1,10}ich bin.{5,25}ich komme aus/i
+/hallo.{1,10}ich bin.{5,25}ich bin.{1,10}jahre alt/
 
 /hallo.{1,10}unsere namen sind/i
 

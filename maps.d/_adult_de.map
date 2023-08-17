@@ -38,7 +38,7 @@
 # ------------------------------------------------------------------------------
 /(dating|hookup).?website.{1,10}(anschauen|bei mir|fortzusetzen|treffen)/i
 
-/(beste|intime|profil).{1,15}(dating|hookup).?sites?/i
+/(beste|einziartige|intime|profil).{1,15}(dating|hookup).?(plattform|(web)?sites?)/i
 /unsere.{1,10}dating.?site/i
 
 /seite ist kostenlos/i
@@ -62,6 +62,7 @@
 # ------------------------------------------------------------------------------
 /(gehe zu|ihnen einen link).{1,10}zu meinem.{1,10}profil/i
 
+/ich bin zufällig auf.{1,10}profil/iu
 /klicke? hier.{1,10}um ihre.{1,10}profile?/i
 
 /echte.{1,10}profile basierend auf/i
@@ -71,6 +72,8 @@
 /mein.{1,10}profil.{1,10}dating.?web.?site/i
 /mein.{1,10}profil.{1,10}wartet audf dich/i
 /mein.{1,10}profil.{1,10}zuzugreifen.{1,10}mehr zu erfahren/i
+
+/meinem anonymen.{1,10}profil/i
 
 # Pussy
 # ------------------------------------------------------------------------------
@@ -84,6 +87,8 @@
 /fick.?treffen/i
 
 /fuck-?buddies in der/i
+/zum sex treffen/i
+/sie brauchen sex/i
 
 # Message, Writing
 # ------------------------------------------------------------------------------

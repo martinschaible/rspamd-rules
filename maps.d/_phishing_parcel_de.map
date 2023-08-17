@@ -34,6 +34,7 @@
 # Pay Fees
 # ------------------------------------------------------------------------------
 /gebühr wird erhoben.{1,10}handeln sie schnell/iu
+/erfordert die zahlung von einfuhr.?umsatz.?steuern/i
 
 /wartet auf.{1,10}zustellung.{1,10}bestätigen sie die zahlung/iu
 
@@ -41,7 +42,8 @@
 
 /die sendung unterliegt.{1,10}lieferabgaben/i
 
-/lieferung erhalten.{1,15}zahlung verpflichtend/i
+/lieferung erhalten.{1,15}zahlung.{1,10}(notwendig|verpflichtend)/i
+
 /sendung wartet auf.{1,10}zahlung/i
 /sendung zu bezahlen.{1,10}zu verfolgen/i
 

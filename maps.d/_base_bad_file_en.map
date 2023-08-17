@@ -20,6 +20,9 @@
 # Sample: RFQ-PO2023080904072235AM_pdf.gz
 /[a-z0-9]{3,15}_pdf\.gz/i
 
+# Sample: RQ038023.PDF.001
+/[a-z0-9]{3,15}\.pdf\.001/i
+
 # Sample:
 /[a-z0-9]{3,15}pdf\.7z/i
 
@@ -34,6 +37,8 @@
 # Sample: Booking031726pdf.7z
 /booking\d[2,10]pdf\.7z/i
 
+# Sample: Booking06972pdf (3).7z
+/booking\d[2,10]pdf.{0,5}\.7z/i
 
 # Inquiries, Orders, Quotes, Invoices
 # ------------------------------------------------------------------------------
@@ -56,6 +61,8 @@
 
 # Sample: RFQ_No.8964502.gz
 /rfq.?no.?\d{4,10}\.(7z|doc|gz|htm|rar|xls|zip)/i
+
+#/rfq\.zip/i
 
 # Invoices
 # ------------------------------------------------------------------------------
