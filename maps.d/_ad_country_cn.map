@@ -9,16 +9,17 @@
 # ------------------------------------------------------------------------------
 /this is.{5,20}from.{5,25}in shenzhen/i
 
-/glad to hear that you.{1,10}on the market for/i
+/glad to (know|hear) that you.{1,10}on the market for/i
+/glad to (know|hear) that you.{1,10}are in.{1,15}business/i
 
 # Intros, specific China
 # ------------------------------------------------------------------------------
 /china.{1,10}we are.{1,10}(company|manufacturer|supplier)/i
 
-/we are.{1,10}professional.{1,20}product.{1,10}(company|manufacturer?|supplier)/i
-/we are.{1,10}(china|guangzhou).?based.{1,10}(company|manufacturer?|supplier).{1,10}(of|offering)/i
+/we are.{1,10}(china|guangzhou|shenzhen).?based.{1,10}(company|manufacturer?|supplier).{1,10}(of|offering)/i
+/we are.{1,10}professional.{1,15}manufacture.{1,10}(china|guangzhou|shenzhen)/i
 
-/we are.{1,10}professional.{1,15}manufacture.{1,10}china/i
+/with.{1,10}years experience.{1,10}(china|guangzhou|shenzhen)/i
 
 /your sourcing agent.{1,10}china/i
 
@@ -27,7 +28,11 @@
 /you looking for.{1,10}factory who can/i
 
 /we are.{1,10}manufacturer of/i
+/we are.{1,10}leading manufacturer.{1,10}of/i
+/we are.{1,10}professional.{1,20}product.{1,10}(company|manufacturer?|supplier)/i
 
 # Products
 # ------------------------------------------------------------------------------
 /you need to purchase.{1,10}(pcb|printed circuit boards)/i
+
+/we.?a?re.{1,10}(pc|printed circuit board) manufacturer/i

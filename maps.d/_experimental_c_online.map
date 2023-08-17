@@ -2,7 +2,7 @@
 # Experimental Rules: Map Type "content" and Filter "oneline"
 #
 # ----|
-#   5 |
+#  10 |
 # ==============================================================================
 
 # Link only Mail
@@ -24,14 +24,6 @@
 # ------------------------------------------------------------------------------
 /pelema.pte.{1,5}ltd/i
 /time.travel.promotion.lp/i
-
-# Image only Spam
-# ------------------------------------------------------------------------------
-/beitreten.{1,15}https:\/\/bit\.ly/i
-/(erhalten|jetzt kaufen|nachricht).{1,15}https:\/\/tinyurl\.com/i
-
-/https:\/\/tinyurl\.com.{1,15}klicken sie/i
-
 
 # Virus
 # ------------------------------------------------------------------------------

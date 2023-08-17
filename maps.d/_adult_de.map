@@ -29,6 +29,7 @@
 # Dating
 # ------------------------------------------------------------------------------
 /sex.dating.{0,10}club/i
+/geiles.date/i
 
 /online.?sex.?dating/i
 
@@ -41,7 +42,7 @@
 /(beste|einziartige|intime|profil).{1,15}(dating|hookup).?(plattform|(web)?sites?)/i
 /unsere.{1,10}dating.?site/i
 
-/seite ist kostenlos/i
+/seite ist.{1,10}kostenlos/i
 
 /kostenlos auf unserer seite/i
 
@@ -50,9 +51,10 @@
 /meine intimen.{1,10}(bilder|fotos)/i
 /möchten.{1,15}(bilder|fotos) mit dir tauschen/iu
 
-# Girls
+# Girls, Women
 # ------------------------------------------------------------------------------
 /(finden|suchen) sie ein.{1,15}mädchen/iu
+/geile frauen/i
 
 # Penis
 # ------------------------------------------------------------------------------
@@ -84,7 +86,7 @@
 # ------------------------------------------------------------------------------
 /kostenlos.{1,10}sex/iu
 
-/fick.?treffen/i
+/(fick|sex).?treffen/i
 
 /fuck-?buddies in der/i
 /zum sex treffen/i
