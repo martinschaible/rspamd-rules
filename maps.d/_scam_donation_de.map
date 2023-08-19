@@ -13,17 +13,17 @@
 
 /\d{3}.{0,5}\d{3}.{1,10}wurden an sie gespendet/i
 
-/\d{3}.{0,5}\d{3}.{1,10}(millionen|dollar|euro?|gbp|usd).{1,10}für sie/iu
-/\d{3}.{0,5}\d{3}.{1,10}(millionen|dollar|euro?|gbp|usd).{1,10}e?.?mail für details jetzt/iu
-/\d{3}.{0,5}\d{3}.{1,10}(millionen|dollar|euro?|gbp|usd).{1,10}wurden ihnen von/i
+/\d{3}.{0,5}\d{3}.{1,10}(millionen|tausend|dollar|euro?|gbp|usd).{1,10}für sie/iu
+/\d{3}.{0,5}\d{3}.{1,10}(millionen|tausend|dollar|euro?|gbp|usd).{1,10}e?.?mail für details jetzt/iu
+/\d{3}.{0,5}\d{3}.{1,10}(millionen|tausend|dollar|euro?|gbp|usd).{1,10}wurden ihnen von/i
 
-/millionen.{1,10}(dollar|euro?|gbp|usd).{1,10}an sie zu spenden/i
+/(millionen|tausend).{1,10}(dollar|euro?|gbp|usd).{1,10}an sie zu spenden/i
 /euro gewährt.{1,10}antworten.{1,15}weitere details/iu
 
 # Contact
 # ------------------------------------------------------------------------------
-/millionen.{1,10}(dollar|euro?|gbp|usd).{1,10}kontaktieren sie mich.{1,10}e?.?mail/i
-/millionen.{1,10}(dollar|euro?|gbp|usd).{1,10}e?.?mail für details/iu
+/(millionen|tausend).{1,10}(dollar|euro?|gbp|usd).{1,10}kontaktieren sie mich.{1,10}e?.?mail/i
+/(millionen|tausend).{1,10}(dollar|euro?|gbp|usd).{1,10}e?.?mail für details/iu
 
 /kontaktieren sie barr/i
 
@@ -37,8 +37,8 @@
 
 /eine.{1,10}spende an sie geleistet hat/i
 
-/ihre e?.?mail.?adresse wurde für eine.{1,10}spende/iu
-/ihre e?.?mail.?adresse wurde ausgewählt.{1,10}um eine.{1,10}spende/iu
+/ihre e?.?mail.?adresse.{1,10}wurde für eine.{1,10}spende/iu
+/ihre e?.?mail.?adresse.{1,10}wurde ausgewählt.{1,10}um eine.{1,10}spende/iu
 
 /(ich|sie) haben? eine.{1,15}spende.{1,10}(in höhe)?.{0,10}von.{1,10}\d{3}.{0,5}\d{3}/iu
 /(ich|sie) haben? eine.{1,15}spende.{1,10}(in höhe)?.{0,10}von.{1,10}million/iu
@@ -67,7 +67,7 @@
 
 # Payments
 # ------------------------------------------------------------------------------
-/ihnen.{1,10}(millionen|dollar|euro?|gbp|usd).{1,10}als entschädigung zu zahlen/iu
+/ihnen.{1,10}(millionen|tausend|dollar|euro?|gbp|usd).{1,10}als entschädigung zu zahlen/iu
 
 #
 #
@@ -75,9 +75,11 @@
 
 # Winning
 # ------------------------------------------------------------------------------
-/\d{3}.{1,5}\d{3}.{1,10}(dollar|euro?|gbp|usd) gewonnen{1,10}zahlungsnummer/i
+/\d{3}.{1,5}\d{3}.{1,10}(dollar|euro?|gbp|usd) gewonnen.{1,10}zahlungsnummer/i
 
 /geehrter?.?gewinner/i
+
+/ihre e?.?mail.?adresse.{1,10}hat.{1,15}(millionen|tausend).{1,20}(dollar|euro?|gbp|usd).{1,20}gewonnen/i
 
 #
 #

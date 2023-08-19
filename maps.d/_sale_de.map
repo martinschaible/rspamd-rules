@@ -27,6 +27,9 @@
 # ------------------------------------------------------------------------------
 /aluminiumkiste.{1,10}transportbox/i
 
+# Drone
+# ------------------------------------------------------------------------------
+
 # Intercom
 # ------------------------------------------------------------------------------
 /unsere.{1,10}video.{1,10}türsprechanlage/iu
@@ -34,7 +37,12 @@
 /wlan.?full.?hd.{1,10}video.{1,10}türsprechanlage/iu
 /wlan.?internet.{1,10}türsprechanlage/iu
 
-# 
+# Knives
+# ------------------------------------------------------------------------------
+/huusk.{1,10}absoluter/i
+/huusk.{1,10}lieben/i
+/huusk.{1,10}messer.{1,10}bestellen/i
+
 # Pen
 # ------------------------------------------------------------------------------
 /kugelschreiber.{1,10}(gummierung|gummiert|softgriff)/i
@@ -102,3 +110,8 @@
 /lieferung auf rechnung.{1,10}statt uvp.{1,10}nur.{1,10}plus/i
 
 /statt uvp.{1,10}nur.{1,10}plu.{1,10}mwst/i
+
+# This company is very annoying
+# ------------------------------------------------------------------------------
+/premium.box.gmbh/i
+/handelsregister:.{1,10}1.?0.?9.?3.?0.?0/i

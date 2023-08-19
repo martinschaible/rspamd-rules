@@ -1,0 +1,85 @@
+# ==============================================================================
+# Base: Bad Files
+#
+# ----|----------------|
+#  10 | English        |
+# ==============================================================================
+
+# Unclassified
+# ------------------------------------------------------------------------------
+
+# Sample: J0370600140.rar
+/\d{10,15}\.rar/i
+
+# Sample: 30791146258.zip
+\d{5,15}\.zip/i
+
+# Double Extension
+# ------------------------------------------------------------------------------
+
+# Sample: RFQ-PO2023080904072235AM_pdf.gz
+/[a-z0-9]{3,15}_pdf\.gz/i
+
+# Sample: RQ038023.PDF.001, Scan_Copy227466.PDF.html
+/[a-z0-9]{3,15}\.pdf\.(001|html)/i
+
+/[a-z0-9]{3,15}pdf\.7z/i
+
+/sheet\.xls\.html/i
+
+#
+#
+#
+
+# Bookings
+# ------------------------------------------------------------------------------
+# Sample: Booking031726pdf.7z
+/booking\d[2,10]pdf\.7z/i
+
+# Sample: Booking06972pdf (3).7z
+/booking\d[2,10]pdf.{0,5}\.7z/i
+
+# Inquiries, Orders, Quotes, Invoices
+# ------------------------------------------------------------------------------
+# Sample: Inquiry No.230802-02.zip
+/(inquiry|invoice|order|quote).?(no\.)?.{0,15}\.(7z|doc|gz|htm|rar|xls|zip)/i
+
+# Sample: P.O No_033672023.gz
+/p\.?o.?no_?[0-9]{2,15}\.(7z|doc|gz|htm|rar|xls|zip)/i
+
+# Sample: "P.O 2023-0021.zip
+/p\.?o.?\d{4}-\d{4}\.(7z|doc|gz|htm|rar|xls|zip)/i
+
+# Sample: 004414- ENQ.rar
+/\d{4,10}.{0,4}enq\.(7z|doc|gz|htm|rar|xls|zip)/i
+
+/trial.?order\.(7z|doc|gz|htm|rar|xls|zip)/i
+
+# Sample: QUOTATION_AUG7FIBA00541.z
+/quotation_[a-z0-9]{3,15}\.z/i
+
+# Sample: RFQ_No.8964502.gz
+/rfq.?no.?\d{4,10}\.(7z|doc|gz|htm|rar|xls|zip)/i
+
+#/rfq\.zip/i
+
+# Invoices
+# ------------------------------------------------------------------------------
+
+# Sample: INV00934.htm
+/inv.?\d{4,10}\.(7z|doc|gz|htm|rar|xls|zip)/i
+
+# Payments
+# ------------------------------------------------------------------------------
+/remittance.?slip.(7z|doc|gz|htm|rar|xls|zip)/i
+/payment.{0,5}(copy|rfq).{0,5}\.(7z|doc|gz|htm|rar|xls|zip)/i
+/(confirmation|payment).{0,5}\.(7z|doc|gz|htm|rar|xls|zip)/i
+
+# Shipment
+# ------------------------------------------------------------------------------
+/(delivery|shipment).?documents?.?pdf\.zip/i
+/(delivery|shipment).?documents?\.(7z|doc|gz|htm|rar|xls|zip)/i
+
+# Swift
+# ------------------------------------------------------------------------------
+/swift.?copy.{1,20}\.doc/i

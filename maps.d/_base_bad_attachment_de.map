@@ -1,48 +1,31 @@
 # ==============================================================================
-# Phishing: Anything
-#
-# -> Add bad senders here: "_phishing_sender_de.map"
+# Base: Bad Attachment
 #
 # ----|----------------|
 #  10 | German         |
 # ==============================================================================
 
-# Fake orders
+# Unclassified
 # ------------------------------------------------------------------------------
 
 #
 #
 #
 
-# Cloud storage
+# Bookings
 # ------------------------------------------------------------------------------
-/deine dokumente.{1,10}bilder sind gefährdet/iu
 
-# Surveys
+# Inquiries, Orders, Quotes, Invoices
 # ------------------------------------------------------------------------------
-/beantworten sie unseren.{1,10}fragebogen/i
+/anfrage.?\.(7z|doc|gz|htm|rar|xls|zip)/i
+/anfrage.?\d{4,10}\.(7z|doc|gz|htm|rar|xls|zip)/i
 
-/einige fragen und erhalten.{1,10}sie ihr/i
-
-# Winning, Free stuff, Surveys
+# Invoices
 # ------------------------------------------------------------------------------
-/gewinn innerhalb von.{1,10}stunden erhalten/i
 
-/geschenke.{1,10}in beschränkter zahl verfügbar/iu
-/geschenke.{1,10}sie verfügbar sind/iu
-
-/unsere.{1,10}gewinner des brandneuen/i
-
-# Link
-/klicken sie hier.{1,10}um die belohnung/i
-
-# Survey
-/umfrage.{1,10}registrierung.{1,10}bestätigt/i
-
-#
-#
-#
-
-# Bad german
+# Payments
 # ------------------------------------------------------------------------------
-/in erwartung einer lieferung/i
+/zahlung.?\d{4,10}.(7z|doc|gz|htm|rar|xls|zip)/i
+
+# Shipment
+# ------------------------------------------------------------------------------

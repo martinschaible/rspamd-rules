@@ -95,8 +95,10 @@
 # Message, Writing
 # ------------------------------------------------------------------------------
 /schreib mir hier/i
-/schreiben sie mir bitte hier/i
+/schreib mir auf meinem.{1,10}profil/i
+/schreiben sie mir.{1,10}(bitte hier|profil)/i
 
+/besuchen sie mein.{1,10}profil/i
 /ansehen.{1,10}was sie geschrieben hat/i
 /jetzt kostenlos antworten/i
 
