@@ -17,6 +17,7 @@
 # Beneficiary
 # ------------------------------------------------------------------------------
 /lieber.{1,15}begünstigter/iu
+/achtung.{1,10}begünstigte/iu
 
 /ihr name ist unter den.{1,10}begünstigten/iu
 
@@ -36,9 +37,12 @@
 
 /geschäft im wert von.{1,15}millionen.{1,10}zu besprechen/iu
 
-# Transacton
+/beide seiten vorteilhaftes geschäft im wert von/iu
+
+# Transaction
 # ------------------------------------------------------------------------------
-/ihre hilfe.{1,10}eine.{1,10}transaktion im wert von/i
+/ihre hilfe.{1,10}eine.{1,10}transaktion.{1,10}im wert von/i
+
 #
 #
 #

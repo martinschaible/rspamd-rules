@@ -27,6 +27,7 @@
 /greetings.{1,15}(business|investment).{1,15}partnership/i
 
 /hello.{1,15}this e?.?mail finds you well/i
+/hello.{1,10}glad to connect/i
 
 /hi.{1,5}greetings.for.the.day/i
 /hi.{1,5}po is attached/i
@@ -40,6 +41,8 @@
 
 # My name is ...
 /my name is.{5,25}a purchase.representative/i
+/my name is.{5,25}i.?a?m sales.manager/i
+
 /my name is mrs?.{5,25}from/i
 
 /e.?mail finds you well.{1,10}my name is/i
@@ -49,6 +52,7 @@
 # Excuses
 # ------------------------------------------------------------------------------
 /i am sorry to invade your privacy in this way/i
+/this unexpected message from me to you/i
 
 # Introduction
 # ------------------------------------------------------------------------------
@@ -62,8 +66,9 @@
 
 # Introduction, Title
 # ------------------------------------------------------------------------------
-/i.?a?m an.{1,10}investment.portfolio.manager/i
+/i.?a?m a.{1,10}investment.portfolio.manager/i
 /i.?a?m a.{1,10}digital.marketing.expert/i
+/i.?a?m a.{1,10}attorney.{1,10}solicitor/i
 
 /we have over.{1,10}years.{1,10}experience in/i
 

@@ -17,6 +17,7 @@
 
 # Parcel
 # ------------------------------------------------------------------------------
+
 /bestellung.{1,10}die noch auf.{1,10}bezahlung wartet/i
 
 /warten auf abholung/i
@@ -24,6 +25,9 @@
 /paket kann nicht zugestellt werden.{1,20}aktualisieren sie.{1,10}adresse/i
 
 /aktualisieren sie.{1,10}ihre lieferadresse/i
+
+# DPD
+/dpd.?ch.{1,10}betreff/i
 
 # Winning, Free stuff, Surveys
 # ------------------------------------------------------------------------------

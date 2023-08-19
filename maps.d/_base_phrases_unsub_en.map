@@ -5,6 +5,8 @@
 #  10 | English        |
 # ==============================================================================
 
+# Unsubscribe
+# ------------------------------------------------------------------------------
 /if you doesn?.?t.{1,10}like this.{1,10}please click here/i
 
 /remove.me.from.the.gift.list/i
@@ -20,3 +22,7 @@
 # ------------------------------------------------------------------------------
 /stop recei?ving.{1,10}e?.?mail from us.{1,10}send post.?mail to/i
 /newsletters.{1,10}click here.{1,15}send post.?mail to/i
+
+# Why somebody gets the advertising, which are lies
+# ------------------------------------------------------------------------------
+/you opted in.{1,10}receive.{1,10}e?.?mails.{1,10}you requested information.{1,10}entered.{1,15}contests/i

@@ -4,3 +4,10 @@
 # ----|
 #  10 |
 # ==============================================================================
+
+# Combination Text and Domain
+# ------------------------------------------------------------------------------
+
+/https:\/\/tinyurl\.com.{1,15}klicken sie/i
+
+/(anmeldung|erhalten|jetzt kaufen|nachricht).{1,15}https:\/\/tinyurl\.com/i

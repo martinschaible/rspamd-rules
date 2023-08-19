@@ -18,7 +18,8 @@
 
 /exclusives?.loan/i
 
-/we.(are.offering|offer).{1,15}(business|corporate|personal).{1,15}loan/i
+/we (are offering|offer|offering).{1,15}(business|corporate|personal).{1,15}loan/i
+/we are currently offering.{1,10}loans/i
 
 /we grant loans/i
 

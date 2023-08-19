@@ -16,6 +16,7 @@
 # ------------------------------------------------------------------------------
 /china.{1,10}we are.{1,10}(company|manufacturer|supplier)/i
 
+/we are.{1,10}chinese leading/i
 /we are.{1,10}(china|guangzhou|shenzhen).?based.{1,10}(company|manufacturer?|supplier).{1,10}(of|offering)/i
 /we are.{1,10}professional.{1,15}manufacture.{1,10}(china|guangzhou|shenzhen)/i
 
@@ -30,6 +31,8 @@
 /we are.{1,10}manufacturer of/i
 /we are.{1,10}leading manufacturer.{1,10}of/i
 /we are.{1,10}professional.{1,20}product.{1,10}(company|manufacturer?|supplier)/i
+
+/we are.{1,10}national high.?tech.{1,10}enterprise/i
 
 # Products
 # ------------------------------------------------------------------------------

@@ -37,12 +37,14 @@
 
 /eine.{1,10}spende an sie geleistet hat/i
 
+/ihre e?.?mail.?adresse.{1,10}ausgewählt.{1,10}um zu.{1,10}begünstigten/iu
 /ihre e?.?mail.?adresse.{1,10}wurde für eine.{1,10}spende/iu
 /ihre e?.?mail.?adresse.{1,10}wurde ausgewählt.{1,10}um eine.{1,10}spende/iu
 
 /(ich|sie) haben? eine.{1,15}spende.{1,10}(in höhe)?.{0,10}von.{1,10}\d{3}.{0,5}\d{3}/iu
 /(ich|sie) haben? eine.{1,15}spende.{1,10}(in höhe)?.{0,10}von.{1,10}million/iu
 
+/sie ausgewählt wurden.{1,10}den betrag von.{1,10}\d{3}.{0,5}\d{3}/iu
 /sie haben einen.{1,10}zuschuss in höhe von/iu
 /sie wurden für eine.{1,15}spende in höhe von/iu
 /sie wurden ausgewählt.{1,10}um eine.{1,10}spende/iu
@@ -88,3 +90,4 @@
 # Bad german
 # ------------------------------------------------------------------------------
 /begunstigter/i
+/zuwendungsspende/i

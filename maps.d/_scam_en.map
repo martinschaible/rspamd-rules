@@ -40,6 +40,8 @@
 
 /i have.{1,10}investor.{1,10}want to invest/i
 
+/you in request for.{1,10}investment/i
+
 # Partnership, Business
 # ------------------------------------------------------------------------------
 /partnership.{1,10}proposal for you here/i
@@ -49,7 +51,9 @@
 
 /share with you.{1,10}business.{1,10}insights/i
 
-# Transacton
+/urgent business proposal.{1,10}to you/i
+
+# Transaction
 # ------------------------------------------------------------------------------
 
 #
@@ -73,6 +77,7 @@
 
 # Greencard
 # ------------------------------------------------------------------------------
-/american.{1,10}green.?card.{1,10}now for only/i
+/green.?card.{1,10}now for only/i
+/green.?card.lottery.program/i
 
-/apply for{1,10}american.{1,10}green.?card/i
+/(apply for|chance to win).{1,20}green.?card/i
