@@ -12,7 +12,9 @@
 
 /burns.{1,10}belly.?fat.{1,15}(crazy|faster)/i
 
-/solve your weight.?loss/i
+/you struggling.{1,10}lose weight/i
+
+/(achieve|solve) your.{1,10}weight.?loss/i
 
 # Stupid Promises
 # ------------------------------------------------------------------------------

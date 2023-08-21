@@ -25,8 +25,12 @@
 # ------------------------------------------------------------------------------
 /(attn|attention|dear).{1,10}beneficiary/i
 
+# Fake Organisations
+# ------------------------------------------------------------------------------
+
 # Funds, Money
 # ------------------------------------------------------------------------------
+/your funds.{1,10}worth the sum of.{1,10}million/i
 
 # Inhertance
 # ------------------------------------------------------------------------------
@@ -49,6 +53,7 @@
 # Partnership, Business
 # ------------------------------------------------------------------------------
 /partnership.{1,10}proposal for you here/i
+/proposals will not embarrass you/i
 
 /business.{1,10}opportunity.{1,10}please get back to me/i
 /talk to you about.{1,10}business.{1,10}opportunity/i

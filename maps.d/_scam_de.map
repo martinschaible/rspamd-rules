@@ -26,6 +26,10 @@
 /sie wurden unter den.{1,15}begünstigten aufgeführt/iu
 /sie als einer der.{1,15}begünstigten ausgewählt/iu
 
+# Fake Organisations
+# ------------------------------------------------------------------------------
+/entschädigungs.?kommission.{1,10}vereinten nationen/i
+
 # Funds, Money
 # ------------------------------------------------------------------------------
 /wir haben einen nicht beanspruchten geldbetrag/i
@@ -44,13 +48,13 @@
 
 /beide seiten vorteilhaftes geschäft im wert von/iu
 
-# Transaction
-# ------------------------------------------------------------------------------
-/ihre hilfe.{1,10}eine.{1,10}transaktion.{1,10}im wert von/i
-
 # Payments, Compensations
 # ------------------------------------------------------------------------------
 /ihre zahlung zu genehmigen.{1,15}registrieren/i
+
+# Transaction
+# ------------------------------------------------------------------------------
+/ihre hilfe.{1,10}eine.{1,10}transaktion.{1,10}im wert von/i
 
 #
 #
