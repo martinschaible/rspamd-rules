@@ -14,7 +14,8 @@
 
 # Intros, specific China
 # ------------------------------------------------------------------------------
-/china.{1,10}we are.{1,10}(company|manufacturer|supplier)/i
+/(china|guangzhou|shenzhen).{1,10}our company offers/i
+/(china|guangzhou|shenzhen).{1,10}we are.{1,10}(company|manufacturer|supplier)/i
 
 /we are.{1,10}chinese leading/i
 /we are.{1,10}(china|guangzhou|shenzhen).?based.{1,10}(company|manufacturer?|supplier).{1,10}(of|offering)/i
@@ -28,14 +29,20 @@
 # ------------------------------------------------------------------------------
 /you looking for.{1,10}factory who can/i
 
+/we are.{1,10}factory with.{1,10}years experience/i
 /we are.{1,10}manufacturer of/i
 /we are.{1,10}leading manufacturer.{1,10}of/i
+
 /we are.{1,10}professional.{1,20}product.{1,10}(company|manufacturer?|supplier)/i
+/we are.{1,10}professional.{1,10}supplier of/i
 
 /we are.{1,10}national high.?tech.{1,10}enterprise/i
 
 # Products
 # ------------------------------------------------------------------------------
 /you need to purchase.{1,10}(pcb|printed circuit boards)/i
+/you looking.{1,10}electronic.components/i
 
-/we.?a?re.{1,10}(pc|printed circuit board) manufacturer/i
+/we.?a?re.{1,10}(pc|printed.circuit.board).{1,10}manufacturer/i
+/we.?a?re.{1,10}reliable.plastic.injection/i
+/we.?a?re.{1,10}leading.precisi?on.machining/i

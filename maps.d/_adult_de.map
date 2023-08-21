@@ -28,12 +28,22 @@
 
 # Dating
 # ------------------------------------------------------------------------------
+/date.{1,10}(treffen|vereinbaren)/i
+/dating.{1,10}in deiner stadt/i
+
+/beste online.?dating/i
+
 /sex.dating.{0,10}club/i
 /geiles.date/i
 
-/online.?sex.?dating/i
+/online.?dating.?club/i
+/(kostenlos|online).?sex.?dating/i
 
 /ich möchte einen.{1,10}mann treffen/iu
+
+/(direkt zum|jetzt ein|noch heute).{1,10}date/i
+
+/suche nach einem.{1,10}dating/i
 
 # Dating Sites
 # ------------------------------------------------------------------------------
@@ -46,15 +56,28 @@
 
 /kostenlos auf unserer seite/i
 
+# Dating free
+# ------------------------------------------------------------------------------
+/kostenlos.{1,10}diskret.{1,10}anonym/i
+
 # Fotos
 # ------------------------------------------------------------------------------
+/bilder.{1,10}live ansehen/i
+
 /meine intimen.{1,10}(bilder|fotos)/i
 /möchten.{1,15}(bilder|fotos) mit dir tauschen/iu
+
+/neue bilder von.{5,25}sind live/i
+/meine privaten bilder ansehen/?
 
 # Girls, Women
 # ------------------------------------------------------------------------------
 /(finden|suchen) sie ein.{1,15}mädchen/iu
 /geile frauen/i
+
+# Man
+# ------------------------------------------------------------------------------
+/ich suche einen mann.{1,10}der nicht/i
 
 # Penis
 # ------------------------------------------------------------------------------
@@ -91,7 +114,7 @@
 # ------------------------------------------------------------------------------
 /kostenlos.{1,10}sex/iu
 
-/(fick|sex).?treffen/i
+/(fick|sex).?(seite|treffen)/i
 
 /fuck-?buddies in der/i
 /zum sex treffen/i
@@ -99,8 +122,9 @@
 
 # Message, Writing
 # ------------------------------------------------------------------------------
-/schreib mir hier/i
-/schreib mir auf meinem.{1,10}profil/i
+/schreibe? mir hier/i
+/schreibe? mir auf meinem.{1,10}profil/i
+/schreibe? mir auf der web.?site/i
 /schreiben sie mir.{1,10}(bitte hier|profil)/i
 
 /besuchen sie mein.{1,10}profil/i
@@ -113,3 +137,11 @@
 # ------------------------------------------------------------------------------
 /ich erwarte dich hier/i
 /auf der web.?site warten/i
+
+#
+#
+#
+
+# Silly Phrases
+# ------------------------------------------------------------------------------
+/ich bin eine.{1,10}attraktive person/i

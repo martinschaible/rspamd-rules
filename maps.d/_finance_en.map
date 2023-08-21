@@ -11,6 +11,7 @@
 # ------------------------------------------------------------------------------
 /we.are.independent.financial/i
 /we.are.{1,15}financial.advisors/i
+/We are.{1,10}financial consulting company/i
 
 # Loans
 # ------------------------------------------------------------------------------
@@ -24,6 +25,9 @@
 /we grant loans/i
 
 /you looking for an?.{1,15}loan/i
+
+/business loan.{1,10}investment loan/i
+/personal loan.{1,10}business loan/i
 
 # Mortgage
 # ------------------------------------------------------------------------------

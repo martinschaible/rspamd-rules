@@ -32,17 +32,20 @@
 /spende.{1,10}erhalten.{1,10}sie.{1,10}interessiert/i
 /spende.{1,10}erhalten.{1,10}die.{1,10}zugesandt wurde/i
 /spende.{1,10}in höhe von.{1,20}(dollar|euro?|gbp|usd) (ausgewählt|wurde ihnen von)/iu
+/spende.{1,10}ist für die ersten.{1,10}personen/i
 
 /spenden.?anforderung.{1,10}wenden sie sich/i
 
 /eine.{1,10}spende an sie geleistet hat/i
 
+/ihnen eine spende in höhe von.{1,20}(dollar|euro?|gbp|usd).{1,10}gemacht/iu
+
 /ihre e?.?mail.?adresse.{1,10}ausgewählt.{1,10}um zu.{1,10}begünstigten/iu
 /ihre e?.?mail.?adresse.{1,10}wurde für eine.{1,10}spende/iu
 /ihre e?.?mail.?adresse.{1,10}wurde ausgewählt.{1,10}um eine.{1,10}spende/iu
 
-/(ich|sie) haben? eine.{1,15}spende.{1,10}(in höhe)?.{0,10}von.{1,10}\d{3}.{0,5}\d{3}/iu
-/(ich|sie) haben? eine.{1,15}spende.{1,10}(in höhe)?.{0,10}von.{1,10}million/iu
+/(ich|sie) haben? eine.{1,15}spende.{1,10}(in höhe)?.{0,10}von.{2,10}\d{3}.{0,5}\d{3}/iu
+/(ich|sie) haben? eine.{1,15}spende.{1,10}(in höhe)?.{0,10}von.{2,10}million/iu
 
 /sie ausgewählt wurden.{1,10}den betrag von.{1,10}\d{3}.{0,5}\d{3}/iu
 /sie haben einen.{1,10}zuschuss in höhe von/iu
@@ -64,8 +67,11 @@
 /sie an meiner.{1,15}spende interessiert sind/i
 
 #
-/ich spende an.{1,10}zufällig ausgewählte personen/iu
-/ich spende ihnen die summe von/i
+/ich spende.{1,10}an.{1,10}zufällig ausgewählte personen/iu
+/ich spende.{1,10}ihnen die summe von/i
+/ich spende.{1,10}prozent meines.{1,10}vermögens/iu
+#
+/um ihre spende (an|ein)zufordern/i
 
 # Payments
 # ------------------------------------------------------------------------------

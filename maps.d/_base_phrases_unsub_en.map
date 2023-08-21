@@ -17,6 +17,7 @@
 /you would no longer.{1,10}to receive.{1,10}e?.?mail.advertisements from/i
 
 /click here.{1,10}or write us at.{1,10}\d{2,5}/i
+/unsubscribe from this offer.{1,10}click or write to/i
 
 # Post Mail
 # ------------------------------------------------------------------------------
@@ -25,4 +26,4 @@
 
 # Why somebody gets the advertising, which are lies
 # ------------------------------------------------------------------------------
-/you opted in.{1,10}receive.{1,10}e?.?mails.{1,10}you requested information.{1,10}entered.{1,15}contests/i
+/receive.{1,10}e?.?mails.{1,10}you requested information.{1,10}entered.{1,20}contests/i

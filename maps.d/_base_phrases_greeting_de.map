@@ -24,8 +24,10 @@
 /hallo.{1,10}freund.{1,10}mein.name.ist/i
 /hallo.{1,10}mein.name.ist.{5,20}(barrister|gewinner|ich.arbeite|ich.komme.aus)/i
 
+/hallo.{1,10}ich bin.{5,25}eine?.{1,15}(geschäfts)?(frau|mann)/iu
+/hallo.{1,10}ich bin.{5,25}eine?.{1,15}indischer?/i
+
 /hallo.{1,10}ich bin.{5,25}und schreibe dir/i
-/hallo.{1,10}ich bin.{5,25}eine.{1,15}(geschäfts)?frau/iu
 /hallo.{1,10}ich bin.{5,25}aus.{1,10}deutschland/i
 /hallo.{1,10}ich bin.{5,25}ich komme aus/i
 /hallo.{1,10}ich bin.{5,25}ich bin.{1,10}jahre alt/
@@ -41,6 +43,7 @@
 
 /(liebe|madam|sir).{1,10}mein.name.ist/i
 
+/lieber herr.{5,25}ich bin dr\./i
 /lieber freund.{1,15}mich ihnen vorstellen/i
 /(glückwunsch|liebste).{1,10}ich bin.{1,10}(frau|herr)/i
 
@@ -58,10 +61,11 @@
 /guten morgen.{1,5}mein name ist/i
 
 /wie geht es dir.{1,5}mein name ist/i
+/wie fühlst du dich.{1,10}mein name ist/iu
 
 /mein name ist leutnant/i
 
-# Excuses
+# Excuses and other silly stuff
 # ------------------------------------------------------------------------------
 
 # Introduction

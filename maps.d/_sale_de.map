@@ -20,12 +20,20 @@
 #
 #
 
+# Air Conditioning
+# ------------------------------------------------------------------------------
+/klimageräte?.{1,15}ein angenehmes raumklima/i
+
 # Apps
 # ------------------------------------------------------------------------------
 
 # Boxes
 # ------------------------------------------------------------------------------
 /aluminiumkiste.{1,10}transportbox/i
+
+# Chair
+# ------------------------------------------------------------------------------
+/exklusiver chefsessel/i
 
 # Drone
 # ------------------------------------------------------------------------------
@@ -74,6 +82,12 @@
 /sofort.?übersetzer.{1,10}jetzt gleich/iu
 /zwei.?wege.sofort.?übersetzer/iu
 
+# Trolley
+# ------------------------------------------------------------------------------
+/(werkstatt|werkzeug).?wagen.{1,10}gefüllt mit/i
+/(werkstatt|werkzeug).?wagen.{1,10}mit.{1,10}schubladen/i
+/(werkstatt|werkzeug).?wagen.{1,10}ist aus robustem/i
+
 # Umbrellas
 # ------------------------------------------------------------------------------
 /(meter|patenter|sonnen).ampelschirm/i
@@ -87,12 +101,15 @@
 # Web-Design/Development
 # ------------------------------------------------------------------------------
 /wir sind ein.{1,10}web.?site.?entwicklung/i
-/wir sind ein in (china|indien).{1,15}web.?site/i
+/wir sind ein in (china|indien).{1,15}(unternehmen|web.?site)/i
 
 /web.?site.?design.{1,10}entwicklungs.?dienste/i
 
 /ihre aktuelle.{1,10}web.?site aktualisieren/i
-/sie eine neue.{1,10}web.?site erstellen/i
+
+/sie eine neue.{1,15}web.?site erstellen/i
+/sie ihre web.?site mit einem neuen/i
+
 /suche nach einem.{1,10}web.?design/i
 
 #
@@ -101,17 +118,18 @@
 
 # How to order
 # ------------------------------------------------------------------------------
-/einfach mit.{1,10}adresse.{1,10}wir senden dann.{1,15}frei haus/i
-/einfach mit.{1,10}adresse.{1,10}diese e?.?mail.{1,15}wir senden ihnen/i
+/einfach mit.{1,10}adresse.{1,15}wir senden dann.{1,15}(frei haus|umgehend per)/i
+/einfach mit.{1,10}adresse.{1,15}diese e?.?mail.{1,15}wir senden ihnen/i
 
-/zum antworten bestellen.{1,10}lieferung auf rechnung/i
+/zum antworten bestellen.{1,15}lieferung auf rechnung/i
 /zum bestellen.{1,15}einfach auf dieses?.{1,10}(e?.?mail|schreiben) antworten/i
 
 /lieferung auf rechnung.{1,10}statt uvp.{1,10}nur.{1,10}plus/i
+/liefern direkt auf rechnung.{1,10}risikolos.{1,10}einkaufen/i
 
-/statt uvp.{1,10}nur.{1,10}plu.{1,10}mwst/i
+/statt uvp.{1,10}nur.{1,10}(plus|zzgl).{1,10}mwst/i
 
 # This company is very annoying
 # ------------------------------------------------------------------------------
 /premium.box.gmbh/i
-/handelsregister:.{1,10}1.?0.?9.?3.?0.?0/i
+/handelsregister:.{1,25}1.?0.?9.?3.?0.?0/i
