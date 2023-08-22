@@ -37,6 +37,7 @@
 
 /sex.dating.{0,10}club/i
 /geiles.date/i
+/privat.{1,10}intimes.{1,10}treffen/i
 
 /online.?dating.?club/i
 /(kostenlos|online).?sex.?dating/i
@@ -102,6 +103,7 @@
 
 /meinem anonymen.{1,10}profil/i
 
+/profil.{1,10}gehen.{1,10}mir dort schreiben/i
 /profil.{1,10}schreiben sie mir/i
 /profil.{1,10}auf unserer seite erstellt/i
 
@@ -125,7 +127,7 @@
 # Message, Writing
 # ------------------------------------------------------------------------------
 /schreibe? mir hier/i
-/schreibe? mir auf meinem.{1,10}profil/i
+/schreibe? mir (auf|in) meinem.{1,10}profil/i
 /schreibe? mir auf der web.?site/i
 /schreiben sie mir.{1,10}(bitte hier|profil)/i
 

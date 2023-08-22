@@ -11,23 +11,30 @@
 # ------------------------------------------------------------------------------
 /we.are.independent.financial/i
 /we.are.{1,15}financial.advisors/i
-/We are.{1,10}financial consulting company/i
+/we are.{1,10}financial consulting company/i
 
 # Loans
 # ------------------------------------------------------------------------------
 /loan.{1,10}apply/i
 
-/exclusives?.loan/i
+/exclusives?.loans?/i
 
-/we (are offering|offer|offering).{1,15}(business|corporate|personal).{1,15}loan/i
-/we are currently offering.{1,10}loans/i
+/get.{1,10}affordable loan/i
+
+/we (are offering|offer|offering).{1,15}(business|corporate|personal).{1,15}loans?/i
+/we are currently offering.{1,10}loans?/i
+/we are offering.{1,10}loans?/i
 
 /we grant loans/i
 
-/you looking for an?.{1,15}loan/i
+/you looking for an?.{1,15}loans?/i
 
-/business loan.{1,10}investment loan/i
-/personal loan.{1,10}business loan/i
+/business loan.{1,10}investment loans?/i
+/personal loan.{1,10}business loans?/i
+
+# Financing
+# ------------------------------------------------------------------------------
+we offer.{1,10}personal.{1,10}business financial/i
 
 # Mortgage
 # ------------------------------------------------------------------------------

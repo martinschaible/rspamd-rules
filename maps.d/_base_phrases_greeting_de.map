@@ -25,7 +25,7 @@
 /hallo.{1,10}mein.name.ist.{5,20}(barrister|gewinner|ich.arbeite|ich.komme.aus)/i
 
 /hallo.{1,10}ich bin.{5,25}eine?.{1,15}(geschäfts)?(frau|mann)/iu
-/hallo.{1,10}ich bin.{5,25}eine?.{1,15}indischer?/i
+/hallo.{1,10}ich bin.{5,25}eine?.{1,15}(australisch|indisch)/i
 
 /hallo.{1,10}ich bin.{5,25}und schreibe dir/i
 /hallo.{1,10}ich bin.{5,25}aus.{1,10}deutschland/i
@@ -76,6 +76,7 @@
 # Introduction, Title
 # ------------------------------------------------------------------------------
 /ich bin.{1,5}barrister/i
+/ich bin (frau|herr).{5,25}vorsitzender/i
 
 # E-Mail
 # ------------------------------------------------------------------------------

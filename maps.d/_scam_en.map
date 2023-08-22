@@ -25,11 +25,15 @@
 # ------------------------------------------------------------------------------
 /(attn|attention|dear).{1,10}beneficiary/i
 
+/you have been selected as one of.{1,20}beneficiaries/i
+
 # Fake Organisations
 # ------------------------------------------------------------------------------
 
 # Funds, Money
 # ------------------------------------------------------------------------------
+/i have some funds.{1,10}million/i
+
 /your funds.{1,10}worth the sum of.{1,10}million/i
 
 # Inhertance
@@ -38,6 +42,8 @@
 
 # Investment
 # ------------------------------------------------------------------------------
+/you help me invest.{1,10}funds/i
+
 /investor can invest in.{1,10}viable/i
 /investing in your country.{1,15}needs your.{1,10}assistance/i
 
@@ -50,7 +56,7 @@
 
 /you in request for.{1,10}investment/i
 
-# Partnership, Business
+# Partnership, Business, Proposal
 # ------------------------------------------------------------------------------
 /partnership.{1,10}proposal for you here/i
 /proposals will not embarrass you/i
@@ -62,11 +68,23 @@
 
 /urgent business proposal.{1,10}to you/i
 
+/contacting you regarding.{1,10}proposal/i
+
 # Payments, Compensations
 # ------------------------------------------------------------------------------
 /attention.{1,10}you have been compensated/i
 
 # Transaction
+# ------------------------------------------------------------------------------
+
+#
+#
+#
+
+# Dead Customers, Family Members
+# ------------------------------------------------------------------------------
+
+# Next Of Kin
 # ------------------------------------------------------------------------------
 
 #
@@ -87,6 +105,9 @@
 /eu.business.register/i
 
 /your company inserted in the.{1,15}business.?register/i
+
+# Nomination
+# ------------------------------------------------------------------------------
 
 # Greencard
 # ------------------------------------------------------------------------------

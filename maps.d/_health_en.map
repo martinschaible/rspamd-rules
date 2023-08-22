@@ -27,7 +27,13 @@
 
 # Tinnitus
 # ------------------------------------------------------------------------------
-/tinnitus cure banned/i
+/tinnitus.{1,10}cure banned/i
+/tinnitus.{1,10}reversing method/i
+
+/reverse.{1,10}tinnitus with this/i
+
+/breakthrough.{1,10}tinnitus/i
+
 #
 #
 #
