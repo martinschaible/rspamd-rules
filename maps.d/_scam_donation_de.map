@@ -12,6 +12,7 @@
 /von \d{1,2}.{1,5}millionen euros? ausgewählt/iu
 
 /\d{3}.{0,5}\d{3}.{1,10}wurden an sie gespendet/i
+/\d{3}.{0,5}\d{3}.{1,10}bitte kontaktieren sie/i
 
 /\d{3}.{0,5}\d{3}.{1,10}(millionen|tausend|dollar|euro?|gbp|usd).{1,10}für sie/iu
 /\d{3}.{0,5}\d{3}.{1,10}(millionen|tausend|dollar|euro?|gbp|usd).{1,10}e?.?mail für details jetzt/iu
@@ -102,3 +103,5 @@
 # ------------------------------------------------------------------------------
 /begunstigter/i
 /zuwendungsspende/i
+
+/wir einen spendenvorschlag für sie erstellt/iu

@@ -33,7 +33,7 @@
 # Funds, Money
 # ------------------------------------------------------------------------------
 /i have some funds.{1,10}million/i
-
+/acquire this money in my name/i
 /your funds.{1,10}worth the sum of.{1,10}million/i
 
 # Inhertance
@@ -54,6 +54,7 @@
 
 /i have.{1,10}investor.{1,10}want to invest/i
 
+/my need for assistance.{1,10}profiling.{1,20}(funds|investment)/i
 /you in request for.{1,10}investment/i
 
 # Partnership, Business, Proposal
@@ -112,6 +113,6 @@
 # Greencard
 # ------------------------------------------------------------------------------
 /green.?card.{1,10}now for only/i
-/green.?card.lottery.program/i
+/green.?card.lottery.{1,10}(expert|program)/i
 
-/(apply for|chance to win).{1,20}green.?card/i
+/(apply for|chance to win|you deserve).{1,20}green.?card/i

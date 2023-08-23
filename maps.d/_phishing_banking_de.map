@@ -12,6 +12,10 @@
 /ihre karte.{1,10}wurde mit sofortiger wirkung gesperrt/i
 /ihre karte.{1,10}vorsorglich sperren.{1,10}damit sie wieder/i
 
+/haben wir ihre.{1,10}karte.{1,10}eingeschränkt/iu
+
+/karte.{1,10}ist ein ungewöhnlicher fehler aufgetreten/iu
+
 # Silly lies
 # ------------------------------------------------------------------------------
 /zahlungs.?richtlinie sind wir dazu verpflichtet/i
@@ -24,8 +28,11 @@
 
 # New Systems, Security, Technology, TAN
 # ------------------------------------------------------------------------------
+/photo.?tan.?aktivierungsbrief/i
+
 /vorzustellen.{1,10}das neue s.?push.?tan/i
 
+/zur aktivierung des photo.?tan.?verfahrens/i
 
 # Domains
 # ------------------------------------------------------------------------------

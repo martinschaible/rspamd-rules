@@ -22,9 +22,10 @@
 
 # Donation
 # ------------------------------------------------------------------------------
-/investitionszuschuss/i
-/spendenbelohnung/i
+/investitions.?zuschuss/i
+/spenden.?belohnung/i
 
+/spende investitions.?programm/i
 /sie haben eine.{1,10}spende/i
 
 # Partnership, Business

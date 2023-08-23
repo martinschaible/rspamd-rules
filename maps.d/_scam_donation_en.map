@@ -9,7 +9,7 @@
 
 # Big numbers
 # ------------------------------------------------------------------------------
-/\d{2,3}.{0.5}\d{2,3}.{1.10}dollars to you/i
+/\d{2,3}.{0.5}\d{2,3}.{1.10}(dollar|euro?|gbp|usd).{1,10}to you/i
 
 # Contact
 # ------------------------------------------------------------------------------
@@ -17,9 +17,13 @@
 # 
 # Donation
 # ------------------------------------------------------------------------------
-/you have been awarded.{1,10}\d{3}.{0,3}\d{3}/i
+/you have been awarded.{1,10}\d{3}.{0,5}\d{3}/i
 
 /donation.{1,15}contact her to claim/i
+
+/donate.{1,10}\d{3}.{0,5}\d{3}.{1,15}for you/i
+/donate.{1,10}(dollar|euro?|gbp|usd)for you/i
+
 /donated some amount to you/i
 
 /was selected randomly.{1,10}receive.{1,15}donation/i

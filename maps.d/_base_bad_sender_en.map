@@ -18,6 +18,12 @@
 # Sample: [iPad Pro]
 /\[.{5,10}\]/i
 
+# People pretending be a philanthropist
+# ------------------------------------------------------------------------------
+/maria.elisabeth.schaeffler/i
+/susanne.klatten/i
+/warren.{1,5} buffett/i
+
 # Strange senders
 # ------------------------------------------------------------------------------
 /info\gmail\.com/i
@@ -30,6 +36,7 @@
 
 # Adult: Dating and Porn
 # ------------------------------------------------------------------------------
+/adult.?dating/i
 /casual.?adults/i
 /dating.?team/i
 
@@ -38,6 +45,10 @@
 
 # Organisations
 /euro.jack.pot/i
+
+# Finance
+# ------------------------------------------------------------------------------
+/financial.?help/i
 
 # Make Money
 # ------------------------------------------------------------------------------

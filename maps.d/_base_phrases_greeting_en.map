@@ -18,22 +18,26 @@
 /(dear|hello).{1,10}(madam|sir).{1,10}greetings of the day/i
 
 /(dear|hello).{1,10}(sir|madam).{1,10}good day/i
+/(dear|hello).{1,10}(sir|madam).{1,10}i.?a?m.{5,25}purchase.manager/i
 
 /dear friend.{1,10}i am mrs?/i
 /dear manager.{1,10}nice day/i
-/dear purchasing.manager/
+/dear purchasing.?manager/i
+/dear web.?owner/i
 
 /dear (manager|supplier).{1,10}do you need/i
 /dear (manager|supplier).{1,10}this is mrs?/i
 /dear (manager|supplier).{1,10}this is.{5,25}from/i
 
 /good (day|morning).{1,10}i.?a?m.{5,25}from/i
+/good (day|morning).{1,10}i.?a?m mrs?/i
 /good (day|morning).{1,10}with trust/i
 
 /greetings.{1,15}(business|investment).{1,15}partnership/i
 
 /hello.{1,15}this e?.?mail finds you well/i
 /hello.{1,10}glad to connect/i
+/hello.{1,10}valued customer.{1,10}how are you/i
 
 /hi.{1,5}greetings.for.the.day/i
 /hi.{1,5}po is attached/i
@@ -80,7 +84,8 @@
 /i.?a?m a?.{0,10}digital.marketing.expert/i
 /i.?a?m a?.{0,10}attorney.{1,10}solicitor/i
 /i.?a?m a?.{0,10}consultant mr/i
- i.?a?m a?.{5,25}financial consultant/i
+/i.?a?m a?.{5,25}financial consultant/i
+
 /i am.{5,25}a.{1,10}investor.{1,10}philanthropist/i
 
 /we have over.{1,10}years.{1,10}experience in/i
