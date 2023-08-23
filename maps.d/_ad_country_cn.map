@@ -20,17 +20,20 @@
 /we are.{1,10}chinese leading/i
 /we are.{1,10}(china|guangzhou|shenzhen).?based.{1,10}(company|manufacturer?|supplier).{1,10}(of|offering)/i
 /we are.{1,10}professional.{1,15}manufacture.{1,10}(china|guangzhou|shenzhen)/i
+/we are.{1,20}manufacturer directly.{1,10}(china|guangzhou|shenzhen)/i
 
 /with.{1,10}years experience.{1,10}(china|guangzhou|shenzhen)/i
 
 /your sourcing agent.{1,10}china/i
+
+/leading supplier of.{1,15}capacitors.{1,15}in china/i
 
 # Intros
 # ------------------------------------------------------------------------------
 /you looking for.{1,10}factory who can/i
 
 /we are.{1,10}factory with.{1,10}years experience/i
-/we are.{1,10}manufacturer of/i
+/we are.{1,10}(manufacturer|manufactuer) of/i
 /we are.{1,10}leading manufacturer.{1,10}of/i
 
 /we are.{1,10}professional.{1,20}product.{1,10}(company|manufacturer?|supplier)/i
@@ -46,6 +49,8 @@
 /we.?a?re.{1,10}(pc|printed.circuit.board).{1,10}manufacturer/i
 /we.?a?re.{1,10}reliable.plastic.injection/i
 /we.?a?re.{1,10}leading.precisi?on.machining/i
+
+/we.?a?re.{1,10}distributor for.{1,20}(components|electronics)/i
 
 /we focus on pcb/i
 /you to proceed your pcb.{1,10}project/i
