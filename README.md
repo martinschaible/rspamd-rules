@@ -1,6 +1,6 @@
 ## rspamd-rules - Curated Multimaps and Rules for Rspamd
 
-*Rspamd* works quite well out-of-the-box, but it needs some serious tweaking.
+*Rspamd* works well out-of-the-box, but it needs some serious tweaking.
 
 Rspamd offers so called **Multimaps** and their **Maps**. This cool stuff allows regex-based rules to parse an email.
 Unfortunately content filtering is needed. Without too many incoming spam mails wouldn't be recognized as spam.
