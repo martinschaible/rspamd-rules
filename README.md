@@ -90,6 +90,8 @@ As i did it in *Declude* i created maps related to different categories mostly f
 * \_experimental_c_rawtext
 * \_experimental_c_text
 
+I will add a description and details about the files in the next few days.
+
 **The rules will be updated on a daily base.**
 
 To be honest, I haven't understood everything yet and therefore not every rules is perfect.
