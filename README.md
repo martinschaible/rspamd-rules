@@ -97,6 +97,8 @@ I will add a description and details about the files in the next few days.
 To be honest, I haven't understood everything yet and therefore not every rules is perfect.
 Sometimes it is hard to understand the documentation for me.
 
-Feel free to use these maps on your Rspamd server.
+🍀 Feel free to use these maps on your Rspamd server.
 
-If you have any question or feedback then drop me line at the [discussions](https://github.com/martinschaible/rspamd-rules/discussions).
+📢 If you have any question or feedbackdrop me line at the [discussions](https://github.com/martinschaible/rspamd-rules/discussions).
+
+🐛 Yes, bugs might happen. Add them here: [Issues](https://github.com/martinschaible/rspamd-rules/issues).
