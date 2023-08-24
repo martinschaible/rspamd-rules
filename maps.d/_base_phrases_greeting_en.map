@@ -60,7 +60,7 @@
 /my name is.{5,25}a purchase.representative/i
 /my name is.{5,25}i.?a?m sales.manager/i
 /my name is.{1,25}attorney/i
-7my name is.{1,25}i am a citizen of/i
+7my name is.{1,25}i am.{1,10}(adviser|citizen of)/i
 
 /my name is mrs?.{5,25}from/i
 

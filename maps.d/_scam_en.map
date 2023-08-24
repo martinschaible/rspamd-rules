@@ -104,8 +104,12 @@
 
 # Ransom
 # ------------------------------------------------------------------------------
-/i have obtained access.{1,10}your devices/i
+/i have (gained|obtained).{1,10}access.{1,10}your devices/i
 /i have managed.{1,10}install.{1,15}(trojan|virus)/i
+
+/i am.{1,10}professional hacker/i
+
+/managed to hack.{1,10}your operating system/i
 
 # Ransom, Payment
 # ------------------------------------------------------------------------------

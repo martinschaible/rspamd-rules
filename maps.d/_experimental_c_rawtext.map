@@ -43,6 +43,15 @@
 /&#\d{5};&#\d{5};&#\d{5};&#\d{5};&#\d{5};&#\d{5};&#\d{5};&#\d{5};&#\d{5};/i
 
 
-# Non SSL Link to somethign mail'ish?
+# Non SSL Link to something mail'ish?
 # ------------------------------------------------------------------------------
-/<a href=3d"http://mail\./i
+/<a href=3d.?http://mail\./i
+
+# Charsets
+# ------------------------------------------------------------------------------
+
+# Russia
+/charset="windows-1251"/i
+
+#
+/ihre antwort genügt.{1,10}wir senden sofort zu ihnen/iu

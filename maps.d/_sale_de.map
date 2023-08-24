@@ -138,7 +138,18 @@
 /statt uvp.{1,10}nur.{1,10}(plus|zzgl).{1,10}mwst/i
 /uvp.{1,10}des herstellers.{1,15}unser unschlagbarer preis.{1,10}nur/i
 
+/wir senden sofort zu ihnen.{1,10}sie bezahlen nur/i
+
 # This company is very annoying
 # ------------------------------------------------------------------------------
 /premium.box.gmbh/i
 /handelsregister:.{1,25}1.?0.?9.?3.?0.?0/i
+
+#
+#
+#
+
+# Offer to sell vehicles
+# ------------------------------------------------------------------------------
+/gedanken ihr fahrzeug zu verkaufen/i
+/wir kaufen fahrzeuge aller art/i
