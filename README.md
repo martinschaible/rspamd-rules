@@ -94,11 +94,14 @@ I will add a description and details about the files in the next few days.
 
 :boom: **The rules will be updated on a daily base.** :boom:
 
-To be honest, I haven't understood everything yet and therefore not every rules is perfect.
-Sometimes it is hard to understand the documentation for me.
-
 🍀 Feel free to use these maps on your Rspamd server.
 
 📢 If you have any question or feedbackdrop me line at the [discussions](https://github.com/martinschaible/rspamd-rules/discussions).
 
 🐛 Bugs and problems can be reported here: [Issues](https://github.com/martinschaible/rspamd-rules/issues).
+
+
+To be honest, I haven't understood everything yet and therefore not every rules is perfect.
+Sometimes it is hard to understand the documentation for me.
+:bulb: That is a good reason to start a [Wiki](https://github.com/martinschaible/rspamd-rules/wiki).
+
