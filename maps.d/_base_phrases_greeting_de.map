@@ -9,6 +9,8 @@
 # ------------------------------------------------------------------------------
 /achtung.{1,10}offizielle mitteilung/i
 
+/attn.{0,10}der.{1,10}gewinner/i
+
 # Greetings
 # ------------------------------------------------------------------------------
 
@@ -51,7 +53,8 @@
 /mein.name.ist.{5,25}ich schreibe ihnen/i
 
 /sehr.geehrter.{1,10}(begünstigter|empfänger)/iu
-/sehr.geehrter? (frau|herr).{1,10}hoffe es geht dir gut/i
+/sehr.geehrter?.{1,10}(frau|herr).{1,10}hoffe es geht dir gut/i
+/sehr geehrter?.{1,10}(frau|herr).{1,10}ich schreibe ihnen/i
 
 #
 /ich bin (frau|herr).{5,25}aus abidjan/i

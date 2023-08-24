@@ -35,11 +35,16 @@
 
 # Pay Customs
 # ------------------------------------------------------------------------------
+/begleichen sie eine zollgebühr/iu
+
 /nicht geliefert werden.{1,10}kein zoll bezahlt wurde/i
 
 /zölle anfallen.{1,10}die bezahlt werden müssen/iu
 
-/zoll.?gebühren.{1,10}der betrag beträgt/iu
+/zoll.?gebühr(en)?.{1,10}der betrag beträgt/iu
+/zoll.?gebühr(en)?.{1,10}von.{1,10}chf.{1,15}den unten.?stehenden link/i
+
+/steuern.{1,10}abgaben nicht beglichen hat/i
 
 # Pay Fees
 # ------------------------------------------------------------------------------

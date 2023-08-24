@@ -12,7 +12,9 @@
 /\d{10,15}\.rar/i
 
 # Sample: 30791146258.zip
-\d{5,15}\.zip/i
+/\d{5,15}\.zip/i
+
+/excel\.htm/i
 
 # Double Extension
 # ------------------------------------------------------------------------------
@@ -63,7 +65,10 @@
 
 #/rfq\.zip/i
 
-/product.?list\.zip/i
+/product.?list\.(7z|doc|gz|htm|r11|rar|xls|zip)/i
+/updated.?price\.(7z|doc|gz|htm|r11|rar|xls|zip)/i
+
+/po.{4,10}picture\.(7z|doc|gz|htm|r11|rar|xls|zip)/i
 
 # Invoices
 # ------------------------------------------------------------------------------
@@ -78,7 +83,7 @@
 
 # Payments
 # ------------------------------------------------------------------------------
-/remittance.?slip.(7z|doc|gz|htm|rar|xls|zip)/i
+/(bank|remittance).?slip.(7z|doc|gz|htm|rar|xls|zip)/i
 /payment.{0,5}(copy|rfq).{0,5}\.(7z|doc|gz|htm|r11|rar|xls|zip)/i
 /(confirmation|payment).{0,5}\.(7z|doc|gz|htm|r11|rar|xls|zip)/i
 
@@ -91,6 +96,8 @@
 /(delivery|shipment).?documents?.?pdf\.zip/i
 /(delivery|shipment).?documents?\.(7z|doc|gz|htm|r11|rar|xls|zip)/i
 
+/documents?.{1,10}commercial\.(7z|doc|gz|htm|r11|rar|xls|zip)/i
+
 # Swift
 # ------------------------------------------------------------------------------
-/swift.?copy.{1,20}\.doc/i
+/swift.?copy.{1,20}\.(7z|doc|gz|htm|r11|rar|xls|zip)/i

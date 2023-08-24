@@ -30,6 +30,8 @@
 
 # Intros
 # ------------------------------------------------------------------------------
+/has been in this field for more than.{1,10}years/i
+
 /you looking for.{1,10}factory who can/i
 
 /we are.{1,10}factory with.{1,10}years experience/i
@@ -46,10 +48,12 @@
 /you need to purchase.{1,10}(pcb|printed circuit boards)/i
 /you looking.{1,10}electronic.components/i
 
+/we.?a?re.{1,10}bag.?factory/i
 /we.?a?re.{1,10}(pc|printed.circuit.board).{1,10}manufacturer/i
 /we.?a?re.{1,10}reliable.plastic.injection/i
 /we.?a?re.{1,10}leading.precisi?on.machining/i
 
+/we.?a?re.{1,10}electronic.?components.?broker/i
 /we.?a?re.{1,10}distributor for.{1,20}(components|electronics)/i
 
 /we focus on pcb/i

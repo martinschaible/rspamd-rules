@@ -127,6 +127,8 @@
 /einfach mit.{1,10}adresse.{1,15}wir senden dann.{1,15}(frei haus|umgehend per)/i
 /einfach mit.{1,10}adresse.{1,15}diese e?.?mail.{1,15}wir senden ihnen/i
 
+/ihre antwort genügt.{1,10}wir senden sofort zu ihnen/iu
+
 /zum antworten bestellen.{1,15}lieferung auf rechnung/i
 /zum bestellen.{1,15}einfach auf dieses?.{1,10}(e?.?mail|schreiben) antworten/i
 
@@ -134,6 +136,7 @@
 /liefern direkt auf rechnung.{1,10}risikolos.{1,10}einkaufen/i
 
 /statt uvp.{1,10}nur.{1,10}(plus|zzgl).{1,10}mwst/i
+/uvp.{1,10}des herstellers.{1,15}unser unschlagbarer preis.{1,10}nur/i
 
 # This company is very annoying
 # ------------------------------------------------------------------------------

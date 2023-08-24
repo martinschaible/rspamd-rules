@@ -9,14 +9,21 @@
 
 # Fake Organisations
 # ------------------------------------------------------------------------------
+/euromillions.nationale.lotterie/i
 
 # Prize
 # ------------------------------------------------------------------------------
 /berechtigt sie zu einem hauptpreis/i
 
+/sie ein preisgeld.{1,10}von.{1,15}millionen.{1,15}gewonnen/i
+
 # Payments
 # ------------------------------------------------------------------------------
 /zahlung nicht beanspruchter preisgelder/i
+
+#
+#
+#
 
 # Casino
 # ------------------------------------------------------------------------------

@@ -25,7 +25,10 @@
 # Return for double payed invoices
 # ------------------------------------------------------------------------------
 /ihre letzte rechnung.{1,10}den monat.{1,20}doppelt bezahlt wurde/i
-/ihren eindeutigen rückerstattungs.?link/iu
+
+/doppelte zahlung.{1,15}rechnung.{1,15}verursacht wurden/i
+
+/rückerstattungs.?link/iu
 
 # Surveys
 # ------------------------------------------------------------------------------

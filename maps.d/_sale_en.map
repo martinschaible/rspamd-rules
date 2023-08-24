@@ -24,8 +24,11 @@
 
 # Address lists for spamming
 # ------------------------------------------------------------------------------
-/you are interested.{1,10}acquiring.{1,10}(attendees|visitors).{1,10}list/i
-/you are interested.{1,10}acquiring.{1,10}list/i
+/you are interested.{1,10}acquiring.{1,15}(attendees|visitors).{1,10}list/i
+/you are interested.{1,10}acquiring.{1,15}list/i
+
+# 
+/we are.{1,10}leading b2b.data.solutions/i
 
 # Apps
 # ------------------------------------------------------------------------------
@@ -54,10 +57,15 @@
 
 # SEO
 # ------------------------------------------------------------------------------
+/seo.?services?.{1,10}proposal/i
+/seo.?services?.{1,10}include/i
+
+/comprehensive.{1,10}seo.?services?/i
+/you need.{1,10}seo.?services?/i
+
 /provide your web.?site 1st/i
 
 /reputed seo.company/i
-/you need.{1,10}seo.?services/i
 /you looking for.{1,10}seo/i
 
 /i went through your.{1,10}web.?site.{1,10}found/i
