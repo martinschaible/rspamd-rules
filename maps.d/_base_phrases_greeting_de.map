@@ -8,6 +8,7 @@
 # Attention, Important
 # ------------------------------------------------------------------------------
 /achtung.{1,10}offizielle mitteilung/i
+/achtung.{1,10}wir bitten um ihre dringende/i
 
 /attn.{0,10}der.{1,10}gewinner/i
 
@@ -47,6 +48,8 @@
 
 /lieber herr.{5,25}ich bin dr\./i
 /lieber freund.{1,15}mich ihnen vorstellen/i
+/lieber freund.{1,15}wie geht es ihnen heute/i
+
 /(glückwunsch|liebste).{1,10}ich bin.{1,10}(frau|herr)/i
 
 /mein.name.ist.(frau|herr|mrs?)/i
