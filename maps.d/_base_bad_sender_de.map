@@ -14,6 +14,10 @@
 
 /wie man/i
 
+# Fake Departments or Companies
+# ------------------------------------------------------------------------------
+/kundenservice.{0,5}team/i
+
 # People pretending be a philanthropist
 # ------------------------------------------------------------------------------
 # > Moved to the english version of this file
@@ -29,6 +33,9 @@
 
 # A
 /arsch.?luder/i
+
+#
+/chatten/if
 
 # F
 /fick.?treffen/i
@@ -48,7 +55,7 @@
 /live.{0,10}treffen/i
 
 # P
-/profil.?vorschlag/i
+/profil.?(von|vorschlag)/i
 /neues.?profil/i
 
 # R
@@ -60,7 +67,8 @@
 
 # Finance
 # ------------------------------------------------------------------------------
-/(darlehen|kredit).angebot/i
+/(darlehen|kredit).(anfrage|angebot)/i
+/(kostenlos|schnell).{1,5}kredit/i
 
 # Make Money
 # ------------------------------------------------------------------------------

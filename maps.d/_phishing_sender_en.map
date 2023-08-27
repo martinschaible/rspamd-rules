@@ -19,6 +19,7 @@
 # ------------------------------------------------------------------------------
 /email.support/i
 /security.notification/i
+/webmail.?server/i
 
 # Hosting
 # ------------------------------------------------------------------------------
@@ -48,4 +49,4 @@
 /gift.?card/i
 /giveaway.?notification/i
 
-/(ace.?hardware|costco|cvs|delta|epson|harbor.?freight|home.depot|lowes|milwaukee|stanley|staples|ups|walmart).{0,15}(feedback|gift.?card|giveaways?|opinion|rewards?|shopper|unlocked)/i
+/(ace.?hardware|costco|cvs|delta|epson|harbor.?freight|home.depot|lowes|milwaukee|netflix|stanley|staples|ups|walmart).{0,15}(feedback|gift.?card|giveaways?|opinion|rewards?|shopper|unlocked)/i

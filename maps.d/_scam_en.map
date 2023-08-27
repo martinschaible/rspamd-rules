@@ -16,6 +16,7 @@
 /attention.{1,10}card.?owner/i
 
 /atm.{0.10}card.{1,10}in your name/i
+/atm.{0.10}card.{1,10}for you worth/i
 
 /\d{3}.{0,5}\d{3}.{1,10}million.{1,10}atm.{1,10}card/i
 
@@ -29,11 +30,14 @@
 
 # Fake Organisations
 # ------------------------------------------------------------------------------
+/united.nations.{1,10}compensation.commission/i
 
 # Funds, Money
 # ------------------------------------------------------------------------------
 /i have some funds.{1,10}million/i
 /acquire this money in my name/i
+
+/you an opportunity.{1,10}receive.{1,15}funds/i
 /your funds.{1,10}worth the sum of.{1,10}million/i
 
 # Inhertance
@@ -64,7 +68,11 @@
 /proposals? will not embarrass you/i
 /proposal for you.{1,10}can i send it/i
 
-/business.{1,10}opportunity.{1,10}please get back to me/i
+/business.{1,10}(opportunity|transaction).{1,10}please get back to me/i
+/business.{1,10}(opportunity|transaction).{1,10}discuss with you/i
+
+/confidential business.{1,10}(opportunity|transaction).{1,10}with you/i
+
 /talk to you about.{1,10}business.{1,10}opportunity/i
 
 /share with you.{1,10}business.{1,10}insights/i
@@ -76,6 +84,7 @@
 /our investors are seeking.{1,10}business/i
 
 /your consent to carry on.{1,10}business/i
+/your consent to discuss.{1,10}confidential/i
 
 # Payments, Compensations
 # ------------------------------------------------------------------------------
@@ -87,6 +96,7 @@
 
 # Transaction
 # ------------------------------------------------------------------------------
+/transaction.{1,10}if you are sure you can handle/i
 
 #
 #

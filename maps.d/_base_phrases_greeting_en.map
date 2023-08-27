@@ -5,10 +5,6 @@
 #  10 | English        |
 # ==============================================================================
 
-# Attention, Important
-# ------------------------------------------------------------------------------
-/(attn|attention).{1,10}(madam|sir)/i
-
 # Greetings
 # ------------------------------------------------------------------------------
 /greetings.{1,10}my.name.is.{5,20}from/i
@@ -22,7 +18,7 @@
 /(dear|hello|hi).{1,10}(sir|madam).{1,10}i.?a?m.{5,25}purchase.manager/i
 /(dear|hello|hi).{1,10}(sir|madam).{1,10}this is.{5,25}from/i
 
-/dear friend.{1,10}i am mrs?/i
+/dear friend.{1,10}i am (mrs?|ms)/i
 /dear manager.{1,10}nice day/i
 /dear purchasing.?manager/i
 /dear purchaser.{1,10}how are you/i
@@ -31,7 +27,7 @@
 
 /(dear|hello|hi).{1,10}(manager|purchaser|supplier).{1,10}do you need/i
 /(dear|hello|hi).{1,10}(manager|purchaser|supplier).{1,10}good day.{1,10}(this is|we are)/i
-/(dear|hello|hi).{1,10}(manager|purchaser|supplier).{1,10}this is mrs?/i
+/(dear|hello|hi).{1,10}(manager|purchaser|supplier).{1,10}this is (mrs?|ms)/i
 /(dear|hello|hi).{1,10}(manager|purchaser|supplier).{1,10}this is.{5,25}from/i
 
 /good (day|morning).{1,10}i.?a?m.{5,25}from/i
@@ -55,12 +51,13 @@
 /i am mrs?.{5,25}libian nationality/i
 
 /(dear friend|good day to you|how.are.you.doing|nice.day).{1,10}this.is.{5,25}from/i
+/i hope this e?.?mail finds you well.{1,10}i am (mrs?|ms)/i
 
 # My name is ...
 /my name is.{5,25}a purchase.representative/i
 /my name is.{5,25}i.?a?m sales.manager/i
-/my name is.{1,25}attorney/i
-7my name is.{1,25}i am.{1,10}(adviser|citizen of)/i
+/my name is.{1,25}(attorney|business|investor)/i
+/my name is.{1,25}i am.{1,10}(adviser|citizen of)/i
 
 /my name is mrs?.{5,25}from/i
 
@@ -71,12 +68,6 @@
 /to whom it may concern.{1,10}my name is/i
 
 /this is.{5,25}from.{5,25}nice to meet you/i
-
-# Excuses and other silly stuff
-# ------------------------------------------------------------------------------
-/i am sorry.{1,10}(for intruding|to invade) your privacy/i
-/this unexpected message from me to you/i
-/apologize for.{1,10}unsolicited proposal to you/i
 
 # Introduction
 # ------------------------------------------------------------------------------
@@ -95,14 +86,14 @@
 /i.?a?m a?.{0,10}attorney.{1,10}solicitor/i
 /i.?a?m a?.{0,10}consultant mr/i
 /i.?a?m a?.{5,25}financial consultant/i
+/i.?a?m (mrs?|ms).{5,25}(barrister|solicitor)/i
 
 /i am.{5,25}a.{1,10}investor.{1,10}philanthropist/i
 
 /we have over.{1,10}years.{1,10}experience in/i
 
-# E-Mail
-# ------------------------------------------------------------------------------
-/you are still using.{1,10}(this|your).{1,10}e?.?mail.?address/i
-
 # Help
+# ------------------------------------------------------------------------------
+
+# Surprise
 # ------------------------------------------------------------------------------

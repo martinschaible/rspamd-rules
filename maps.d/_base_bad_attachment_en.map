@@ -83,7 +83,7 @@
 
 # Payments
 # ------------------------------------------------------------------------------
-/(bank|remittance).?slip.(7z|doc|gz|htm|rar|xls|zip)/i
+/(bank|remittance).?(receipt|slip).(7z|doc|gz|htm|rar|xls|zip)/i
 /payment.{0,5}(copy|rfq).{0,5}\.(7z|doc|gz|htm|r11|rar|xls|zip)/i
 /(confirmation|payment).{0,5}\.(7z|doc|gz|htm|r11|rar|xls|zip)/i
 
@@ -93,8 +93,8 @@
 
 # Shipment
 # ------------------------------------------------------------------------------
-/(delivery|shipment).?documents?.?pdf\.zip/i
-/(delivery|shipment).?documents?\.(7z|doc|gz|htm|r11|rar|xls|zip)/i
+/(delivery|shipping|shipment).?documents?.?pdf\.zip/i
+/(delivery|shipping|shipment).?documents?\.(7z|doc|gz|htm|r11|rar|xls|zip)/i
 
 /documents?.{1,10}commercial\.(7z|doc|gz|htm|r11|rar|xls|zip)/i
 

@@ -18,9 +18,12 @@
 # Chat
 # ------------------------------------------------------------------------------
 /chat ist kostenlos/i
+/chat mit.{5,25}starten/i
+
 /sex.?chat.mitglied/i
 
-/jetzt chat mit/i
+/jetzt.{1,10}chat (mit|starten)/i
+/starte.{1,10}deinen chat mit/i
 
 # Cams
 # ------------------------------------------------------------------------------
@@ -70,13 +73,18 @@
 /meine intimen.{1,10}(bilder|fotos)/i
 /möchten.{1,15}(bilder|fotos) mit dir tauschen/iu
 
-/neue bilder von.{5,25}sind live/i
+/neue.{1,10}(bilder|fotos) von.{5,25}sind live/i
+/du hast.{1,10}neue (bilder|fotos) von.{5,25}erhalten/i
 /meine privaten bilder ansehen/?
 
 # Girls, Women
 # ------------------------------------------------------------------------------
 /(finden|suchen) sie ein.{1,15}mädchen/iu
-/geile frauen/i
+/geile (frauen|milf)/i
+
+/frauen aus deiner.{1,10}(nähe|umgebung)/iu
+
+/melde dich bei frauen/i
 
 # Horny
 # ------------------------------------------------------------------------------
@@ -107,6 +115,7 @@
 
 /meinem anonymen.{1,10}profil/i
 
+/profil.{1,10}erstellen.{1,10}antworten/i
 /profil.{1,10}gehen.{1,10}mir dort schreiben/i
 /profil.{1,10}schreiben sie mir/i
 /profil.{1,10}auf unserer seite erstellt/i
@@ -160,6 +169,7 @@
 /sie brauchen sex/i
 
 /sex.?treffen in ihrem/i
+/nach sex suchen/i
 
 # Anal
 /arsch eindringen/i
@@ -173,3 +183,6 @@
 # Silly Phrases
 # ------------------------------------------------------------------------------
 /ich bin eine.{1,10}attraktive person/i
+
+/richtig geil hart/i
+/geile ficksau/i

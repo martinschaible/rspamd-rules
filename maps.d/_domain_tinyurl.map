@@ -8,13 +8,15 @@
 
 # Combination Text and Domain
 # ------------------------------------------------------------------------------
-/(go.?now|registration).{1,15}https:\/\/tinyurl\.com/i
+/(go.?now|registration|offer).{1,15}https:\/\/tinyurl\.com/i
+
+/https:\/\/tinyurl\.com/.{1,15}(get.{1,10}off|offer)/i
 
 # Combination Text and Domain - German
 # ------------------------------------------------------------------------------
 
 /https:\/\/tinyurl\.com.{1,15}klicken sie/i
 
-/(anmeldung|anschauen|erhalten|jetzt kaufen|nachricht).{1,15}https:\/\/tinyurl\.com/i
+/(anmeldung|anschauen|erhalten|jetzt kaufen|nachricht|öffnen|profil).{1,15}https:\/\/tinyurl\.com/i
 
 /https:\/\/tinyurl\.com.{1,15}(anmeldung|anschauen|erhalten|jetzt kaufen|nachricht)/i

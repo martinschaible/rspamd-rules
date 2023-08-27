@@ -27,7 +27,10 @@
 /sie den bestätigungs.?prozess.{1,10}nicht durchlaufen haben/iu
 
 /daten unserer kunden zu überprüfen.{1,15}ein konto.{1,15}besitzen/iu
-/verpflichtet sind.{1,10}ihre daten zu bestätigen/iu
+
+/verpflichtet sind.{1,10}ihre.{1,15}daten zu bestätigen/iu
+/verpflichtet sind.{1,10}ihre.{1,15}daten bei uns zu bestätigen/iu
+/verpflichtet ihre..{1,15}daten erneut zu bestätigen/iu
 
 # Activation
 # ------------------------------------------------------------------------------
@@ -60,3 +63,8 @@
 # Bad german
 # ------------------------------------------------------------------------------
 /dass unser system uns mitteilt/i
+
+# Masked
+# ------------------------------------------------------------------------------
+/lhr konto/i
+/lhre rückerstattung/iu

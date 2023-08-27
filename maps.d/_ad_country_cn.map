@@ -9,13 +9,16 @@
 # ------------------------------------------------------------------------------
 /this is.{5,20}from.{5,25}in shenzhen/i
 
+# Intros
+# ------------------------------------------------------------------------------
 /glad to (know|hear) that you.{1,10}on the market for/i
 /glad to (know|hear) that you.{1,10}are in.{1,15}business/i
 
 # Intros, specific China
 # ------------------------------------------------------------------------------
 /(china|guangzhou|shenzhen).{1,10}our company offers/i
-/(china|guangzhou|shenzhen).{1,10}we are.{1,10}(company|manufacturer|supplier)/i
+/(china|guangzhou|shenzhen).{1,10}we are.{1,10}(company|factory|manufacturer|supplier)/i
+/(china|guangzhou|shenzhen).{1,10}you have any need for our/i
 
 /we are.{1,10}chinese leading/i
 /we are.{1,10}(china|guangzhou|shenzhen).?based.{1,10}(company|manufacturer?|supplier).{1,10}(of|offering)/i
@@ -34,18 +37,25 @@
 
 /you looking for.{1,10}factory who can/i
 
-/we are.{1,10}factory with.{1,10}years experience/i
-/we are.{1,10}(manufacturer|manufactuer) of/i
-/we are.{1,10}leading manufacturer.{1,10}of/i
+/we.?a?re.{1,10}factory with.{1,10}years experience/i
+/we.?a?re.{1,10}leading manufacturer.{1,10}of/i
 
-/we are.{1,10}professional.{1,20}product.{1,10}(company|manufacturer?|supplier)/i
-/we are.{1,10}professional.{1,10}supplier of/i
+/we.?a?re.{1,10}(manufacturer|manufactuer) (in|of)/i
+/we.?a?re.{1,10}(manufacturer|manufactuer).{1,10}exporter (in|of)/i
 
-/we are.{1,10}national high.?tech.{1,10}enterprise/i
+/we.?a?re.{1,10}professional.{1,20}product.{1,10}(company|manufacturer?|supplier)/i
+/we.?a?re.{1,10}professional.{1,10}supplier (of|with)/i
 
-/introduce ourselves as.{1,10}leading manufacturer of/i
+/we.?a?re.{1,10}national high.?tech.{1,10}enterprise/i
+
+/introduce ourselves as.{1,10}leading manufacturer (in|of)/i
 
 /(co|ltd).{1,10}professional.{1,15}manufacturer/i
+/(co|ltd).{1,10}is a factory specialized in/i
+
+# Experience
+# ------------------------------------------------------------------------------
+/more than.{1,10}years experience.{1,10}producing/i
 
 # Products
 # ------------------------------------------------------------------------------
@@ -59,6 +69,8 @@
 
 /we.?a?re.{1,10}electronic.?components.?broker/i
 /we.?a?re.{1,10}distributor for.{1,20}(components|electronics)/i
+
+/we.?a?re.{1,10}capacitor factory since/i
 
 /we focus on pcb/i
 /you to proceed your pcb.{1,10}project/i

@@ -18,6 +18,13 @@
 # ------------------------------------------------------------------------------
 /deine dokumente.{1,10}bilder sind gefährdet/iu
 
+# Mail, WebMail
+# ------------------------------------------------------------------------------
+
+#
+#
+#
+
 # Collecting personal data
 # ------------------------------------------------------------------------------
 /bestätigen sie ihre angaben.{1,10}mit.{1,10}glück/iu
@@ -29,6 +36,9 @@
 /doppelte zahlung.{1,15}rechnung.{1,15}verursacht wurden/i
 
 /rückerstattungs.?link/iu
+
+# Train ticket
+/erstattungsticket akzeptiert/i
 
 # Surveys
 # ------------------------------------------------------------------------------
@@ -45,11 +55,17 @@
 
 /unsere.{1,10}gewinner des brandneuen/i
 
+/sie wurden für eine.{1,15}belohnung ausgewählt/iu
+
 # Link
 /klicken sie hier.{1,10}um die belohnung/i
 
 # Survey
 /umfrage.{1,10}registrierung.{1,10}bestätigt/i
+/umfrage teil.{1,10}gewinnen sie tolle preise/i
+
+/auserwählten für eine.{1,15}umfrage/iu
+/du gehörst zu den auserwählten/iu
 
 #
 #

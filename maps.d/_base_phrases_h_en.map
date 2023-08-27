@@ -2,20 +2,8 @@
 # Base: Bad Phrases, Score level HIGH
 #
 # ----|----------------|
-# 5.0 | English        |
+#  10 | English        |
 # ==============================================================================
-
-# Masked
-# ------------------------------------------------------------------------------
-
-#
-#
-#
-
-# 
-
-/your company name.{1,10}?e.?mail.?address from the internet/i
-# ------------------------------------------------------------------------------
 
 # Addresses and titles
 # ------------------------------------------------------------------------------
@@ -24,19 +12,47 @@ marketing manager.{1,10}india.{1,10}whatsapp/i
 # Answer to private email only
 # ------------------------------------------------------------------------------
 /send your reply to my private e?.?mail/i
+/reply me back on my private e?.?mail/i
+
+# Attention
+# ------------------------------------------------------------------------------
+/(attn|attention).{1,10}(madam|sir)/i
+/(attn|attention).{1,10}e?.?mail.address.owner/i
 
 # Business
 # ------------------------------------------------------------------------------
 /you with keen hope to open.{1,10}business.relationship/i
 
+# E-Mail
+# ------------------------------------------------------------------------------
+/you are still using.{1,10}(this|your).{1,10}e?.?mail.?address/i
+
+# Excuses and other silly stuff
+# ------------------------------------------------------------------------------
+/i am sorry.{1,10}(for intruding|to invade) your privacy/i
+/this unexpected message from me to you/i
+/apologize for.{1,10}unsolicited proposal to you/i
+
+# How they get the Email address
+# ------------------------------------------------------------------------------
+/your company name.{1,10}?e.?mail.?address from the internet/i
+
 # Important
 # ------------------------------------------------------------------------------
-/(attn|attention).{1,10}e?.?mail.address.owner/i
-
+/contact you.{1,10}i have something.{1,10}important/i
 /message for you.{1,10}important/i
 
-/talk to you about something important/i
+/talk to you about something.{1,10}important/i
+/(i have|there is) something.{1,10}important (i want to|to) discuss with you/i
 
 # Videos
 # ------------------------------------------------------------------------------
-/watch it before it'?i?s too late/i
+/watch it before it.?i?s too late/i
+
+#
+#
+#
+
+# Masked
+# ------------------------------------------------------------------------------
+
