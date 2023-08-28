@@ -27,6 +27,8 @@
 
 /with.{1,10}years experience.{1,10}(china|guangzhou|shenzhen)/i
 
+/which is.{1,10}professional.{1,15}manufacture.{1,10}(china|guangzhou|shenzhen)/i
+
 /your sourcing agent.{1,10}china/i
 
 /leading supplier of.{1,15}capacitors.{1,15}in china/i
@@ -72,5 +74,7 @@
 
 /we.?a?re.{1,10}capacitor factory since/i
 
+# PCB
+/in the field of pcb.{1,10}years/i
 /we focus on pcb/i
 /you to proceed your pcb.{1,10}project/i

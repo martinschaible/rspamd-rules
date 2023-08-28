@@ -72,8 +72,9 @@
 /business.{1,10}(opportunity|transaction).{1,10}discuss with you/i
 
 /confidential business.{1,10}(opportunity|transaction).{1,10}with you/i
+/lucrative proposal.{1,10}share with you/i
 
-/talk to you about.{1,10}business.{1,10}opportunity/i
+/(talk to you about|regarding a potential).{1,10}business.{1,10}(opportunity|partnership)/i
 
 /share with you.{1,10}business.{1,10}insights/i
 
@@ -104,6 +105,7 @@
 
 # Dead Customers, Family Members
 # ------------------------------------------------------------------------------
+/my late (client|husband) left some money/i
 
 # Next Of Kin
 # ------------------------------------------------------------------------------

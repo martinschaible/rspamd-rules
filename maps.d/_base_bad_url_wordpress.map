@@ -7,4 +7,8 @@
 
 # Probably hacked websites: Path and files
 # ------------------------------------------------------------------------------
-/\/wp-includes\/alibaba//i
+/\/wp-includes\/alibaba\//i
+
+# Phishing
+# Sample: wp-content/uploads/2019/07/volksbanken-raiffeisenbanken-logo-vector.png
+/\/wp-content\/uploads\/.{1,15}\/(raiffeisenbank|volksbank)/i

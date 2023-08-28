@@ -30,7 +30,7 @@
 
 /verpflichtet sind.{1,10}ihre.{1,15}daten zu bestätigen/iu
 /verpflichtet sind.{1,10}ihre.{1,15}daten bei uns zu bestätigen/iu
-/verpflichtet ihre..{1,15}daten erneut zu bestätigen/iu
+/verpflichtet ihre.{1,15}daten erneut zu bestätigen/iu
 
 # Activation
 # ------------------------------------------------------------------------------
@@ -48,6 +48,12 @@
 /konto zuzugreifen.{1,10}die registrierung durchzuführen/iu
 
 /alle kunden sich registrieren.{1,10}andernfalls/i
+
+# Update payment options
+# ------------------------------------------------------------------------------
+/sehr geehrter kunde.{1,10}aktualisieren sie ihre zahlungs.?informationen/i
+
+/zahlungs.?informationen nicht aktualisiert wurden/i
 
 #
 #

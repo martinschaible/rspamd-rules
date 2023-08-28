@@ -21,6 +21,7 @@
 /chat mit.{5,25}starten/i
 
 /sex.?chat.mitglied/i
+/sex.?chat.{1,15}cams/i
 
 /jetzt.{1,10}chat (mit|starten)/i
 /starte.{1,10}deinen chat mit/i
@@ -55,7 +56,11 @@
 # ------------------------------------------------------------------------------
 /(dating|hookup).?website.{1,10}(anschauen|bei mir|fortzusetzen|treffen)/i
 
-/(beste|einziartige|intime|profil).{1,15}(dating|hookup).?(plattform|(web)?sites?)/i
+/community.{1,20}bekanntschaften/i
+
+/(beste|einziartige|intime|profil).{1,15}(dating|hookup).?(plattform|portal|(web)?sites?)/i
+/sex.?dating.?(plattform|portal|(web)?sites?)/i
+
 /unsere.{1,10}dating.?site/i
 
 /seite ist.{1,10}kostenlos/i
@@ -68,6 +73,7 @@
 
 # Fotos
 # ------------------------------------------------------------------------------
+/bild von mir mitgeschickt/i
 /bilder.{1,10}live ansehen/i
 
 /meine intimen.{1,10}(bilder|fotos)/i
@@ -76,6 +82,8 @@
 /neue.{1,10}(bilder|fotos) von.{5,25}sind live/i
 /du hast.{1,10}neue (bilder|fotos) von.{5,25}erhalten/i
 /meine privaten bilder ansehen/?
+
+/versauten?.{1,10}(bilder|fotos)/i
 
 # Girls, Women
 # ------------------------------------------------------------------------------
@@ -113,7 +121,7 @@
 /mein.{1,10}profil.{1,10}wartet audf dich/i
 /mein.{1,10}profil.{1,10}zuzugreifen.{1,10}mehr zu erfahren/i
 
-/meinem anonymen.{1,10}profil/i
+/meinem (anonymen|geheimen).{1,10}profil/i
 
 /profil.{1,10}erstellen.{1,10}antworten/i
 /profil.{1,10}gehen.{1,10}mir dort schreiben/i

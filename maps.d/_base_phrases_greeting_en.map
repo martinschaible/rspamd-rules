@@ -15,14 +15,16 @@
 
 /(dear|hello|hi).{1,10}(sir|madam).{1,10}good day/i
 /(dear|hello|hi).{1,10}(sir|madam).{1,10}how are you/i
+/(dear|hello|hi).{1,10}(sir|madam).{1,10}nice to know you/i
 /(dear|hello|hi).{1,10}(sir|madam).{1,10}i.?a?m.{5,25}purchase.manager/i
 /(dear|hello|hi).{1,10}(sir|madam).{1,10}this is.{5,25}from/i
 
+/hi dear.{1,10}my name is/i
+
+/dear (ceo|purchasing.?manager|trustee|web.?owner)/i
 /dear friend.{1,10}i am (mrs?|ms)/i
 /dear manager.{1,10}nice day/i
-/dear purchasing.?manager/i
 /dear purchaser.{1,10}how are you/i
-/dear web.?owner/i
 /dear.{1,10}good day.{1,10}this is.{5,25}from/i
 
 /(dear|hello|hi).{1,10}(manager|purchaser|supplier).{1,10}do you need/i

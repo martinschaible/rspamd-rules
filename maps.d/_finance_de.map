@@ -50,6 +50,7 @@
 /wir bieten finanzierungen bereits ab/i
 
 /(finanz|kredit).?angebot mit einem zinssatz von/i
+/finanzierung benötigen..{1,15}antworten sie.{1,10}auf diese e?.?mail/iu
 
 # Mortgage
 # ------------------------------------------------------------------------------

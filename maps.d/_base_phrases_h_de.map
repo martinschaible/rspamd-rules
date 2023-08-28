@@ -37,7 +37,7 @@
 
 # How they get the Email address
 # ------------------------------------------------------------------------------
-/ich habe ihre e?.?mail.?adresse.{1,10}ein online.?e?.?mail/i
+/ich habe ihre e?.?mail(.?adresse)?.{1,10}ein online.?e?.?mail/i
 
 # Important
 # ------------------------------------------------------------------------------
@@ -67,3 +67,6 @@
 
 # Sample: info[at]event4free[dot]de
 /info\[at\][a-z0-9]{4,15}\[dot\]de/i
+
+# Sample: info(at)=CE=96arenga(dot)de
+/info\(at\)[a-z0-9=]\(dot\)de/i

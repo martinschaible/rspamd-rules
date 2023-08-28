@@ -21,15 +21,24 @@
 /pelema.pte.{1,5}ltd/i
 /time.travel.promotion.lp/i
 
-# Virus
-# ------------------------------------------------------------------------------
-/ihr.{1,10}system wurde mit.{1,10}viren infiziert/i
-
 # Domains
 # ------------------------------------------------------------------------------
-
 # Poland
 /crossmail\.net\.pl/i
 
 # 05.08.23
 /top2ms\.com/i
+
+# Phrases which other maps are not able to catch
+# ------------------------------------------------------------------------------
+/schlankheits?.?gummis/iu
+/ihr.{1,10}system wurde mit.{1,10}viren infiziert/i
+/ihre antwort genügt.{1,10}wir senden sofort zu ihnen/iu
+/premium.box.gmbh/i
+
+# ==============================================================================
+
+# Charsets
+# ------------------------------------------------------------------------------
+# Russia
+/charset="windows-1251"/i

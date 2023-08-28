@@ -15,8 +15,9 @@
 /lottery.{1,10}commission.{1,10}award/i
 
 /lotto.?lottery.?inc/i
+/lotterie de navidad/i
 
-/bmw.lottery/i
+/(bmw|coca.?cola).(lotterie|lottery)/i
 
 # Fake Programs
 # ------------------------------------------------------------------------------
@@ -43,3 +44,6 @@
 # Silly Casino names
 # ------------------------------------------------------------------------------
 /fresh.?casino/i
+
+# Gambling
+# ------------------------------------------------------------------------------

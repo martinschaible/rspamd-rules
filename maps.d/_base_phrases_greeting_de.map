@@ -15,6 +15,7 @@
 /guten tag.{1,10}(madam|sir)/i
 /guten tag.{1,10}ich bin.{5,25}eine.{1,20}investor(in)?/i
 /guten tag.{1,15}(damen||herren).{1,15}wie geht es dir/i
+/guten tag.{1,10}gewinner/i
 
 /(guten tag|hallo).{1,10}ich bin.{5,25}(frau|herr).{1,10}eine/i
 
@@ -44,6 +45,8 @@
 /lieber herr.{5,25}ich bin dr\./i
 /lieber freund.{1,15}mich ihnen vorstellen/i
 /lieber freund.{1,15}wie geht es ihnen heute/i
+/lieber freund.{1,15}ich freue mich.{1,15}ihnen/i
+
 /lieber unbekannter/i
 
 /(glückwunsch|liebste).{1,10}ich bin.{1,10}(frau|herr)/i

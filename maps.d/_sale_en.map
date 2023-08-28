@@ -59,6 +59,16 @@
 # ------------------------------------------------------------------------------
 /the sharpest kitchen knife/i
 
+# Promotional Products
+# ------------------------------------------------------------------------------
+/logo products.{1,10}apparel/i
+/(apparel|logo products).{1,15}for your business/i
+
+/opportunities for.{1,10}logo products/i
+/your company.{1,10}logo products/i
+
+/high.?quality.{1,10}promotional products/i
+
 # SEO
 # ------------------------------------------------------------------------------
 /seo.?services?.{1,10}proposal/i
@@ -88,6 +98,7 @@
 # Lies
 /your web.?site.{1,10}has.{1,10}broken links/i
 /your web.?site.{1,10}search.?engines/i
+/your web.?site.{1,30}is only listed in/i
 
 # Google
 /1st page of google/i
@@ -95,7 +106,13 @@
 /you on.{1,10}1st page of google/i
 /your page.?rank on google/i
 
+# Traffic, leads
+/get more traffic.{1,10}(leads|sales)/i
+
 # SEO India
+# ------------------------------------------------------------------------------
+
+# Solar energy
 # ------------------------------------------------------------------------------
 
 # Streaming TV
