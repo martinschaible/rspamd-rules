@@ -17,6 +17,8 @@
 # 
 # Donation
 # ------------------------------------------------------------------------------
+/\d{3}.{0,5}\d{3}.{1,10}has been donated to you/i
+
 /you have been awarded.{1,10}\d{3}.{0,5}\d{3}/i
 
 /donation.{1,15}contact her to claim/i

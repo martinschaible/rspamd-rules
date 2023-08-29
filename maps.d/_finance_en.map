@@ -23,14 +23,16 @@
 
 /get.{1,10}affordable loan/i
 
-/we (are offering|offer|offering).{1,15}(business|corporate|personal).{1,15}loans?/i
+/we (are offering|give|offer|offering).{1,15}(business|corporate|personal).{1,15}loans?/i
+/we (are offering|give|offer|offering).{1,15}loans? at.{1,10}interest/i
+
 /we are currently offering.{1,10}loans?/i
 /we are offering.{1,10}loans?/i
 
 /we grant loans/i
 
 /you looking for an?.{1,15}loans?/i
-/you need a loan from/i
+/you need a loan (for|from)/i
 /you need an urgent loan/i
 
 /business loan.{1,10}investment.{1,10}loans?/i
