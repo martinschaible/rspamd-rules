@@ -13,6 +13,7 @@
 # ------------------------------------------------------------------------------
 /glad to (know|hear) that you.{1,10}on the market for/i
 /glad to (know|hear) that you.{1,10}are in.{1,15}business/i
+/glad to (know|hear) that you.{1,10}are on the.{1,20}market/i
 
 # Intros, specific China
 # ------------------------------------------------------------------------------
@@ -75,6 +76,8 @@
 /we.?a?re.{1,10}capacitor factory since/i
 
 # PCB
+/pcb.{1,10}we can offer.{1,10}the best/i
+
 /in the field of pcb.{1,10}years/i
 /we focus on pcb/i
 /you to proceed your pcb.{1,10}project/i
