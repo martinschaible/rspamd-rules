@@ -15,6 +15,8 @@
 # ------------------------------------------------------------------------------
 /attention.{1,10}card.?owner/i
 
+/atm.{0.10}card.{1,10}delivery/i
+/atm.{0.10}card.{1,10}has been approved/
 /atm.{0.10}card.{1,10}in your name/i
 /atm.{0.10}card.{1,10}for you worth/i
 /atm.{0.10}card.{1,10}to you.{1,10}contact/i
@@ -40,7 +42,8 @@
 /acquire this money in my name/i
 
 /you an opportunity.{1,10}receive.{1,15}funds/i
-/your funds.{1,10}worth the sum of.{1,10}million/i
+
+/your funds?.{1,10}(total|worth).{1,10}sum of.{1,10}million/i
 
 # Inhertance
 # ------------------------------------------------------------------------------
