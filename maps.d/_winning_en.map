@@ -12,8 +12,10 @@
 /(asian|continental).{1,10}lottery.{1,10}commission/i
 
 /euro.millions.{1,10}(google|lottery).promo/i
+/euromillones lottery board/i
 
-/lottery.{1,10}commission.{1,10}award/i
+/lotter(ie|y).{1,10}commission.{1,10}award/i
+/lotter(ie|y).{1,10}award.{1,10}promotion/i
 
 /lotto.?lottery.?inc/i
 /lotterie de navidad/i
