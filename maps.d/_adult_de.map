@@ -76,12 +76,13 @@
 /bild von mir mitgeschickt/i
 /bilder.{1,10}live ansehen/i
 
-/meine intimen.{1,10}(bilder|fotos)/i
+/meine (intimen|privaten).{1,10}(bilder|fotos)/i
 /möchten.{1,15}(bilder|fotos) mit dir tauschen/iu
 
 /neue.{1,10}(bilder|fotos) von.{5,25}sind live/i
 /du hast.{1,10}neue (bilder|fotos) von.{5,25}erhalten/i
-/meine privaten bilder ansehen/?
+
+/(intimen|privaten).{1,10}(bilder|fotos) ansehen/?
 
 /versauten?.{1,10}(bilder|fotos)/i
 
