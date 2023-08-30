@@ -55,13 +55,16 @@
 
 /viable investment opportunities in your country/i
 
+/inquiry.{1,10}investment/i
 /investment.proposition/i
 /i represent a.{1,10}investor/i
 
 /i have.{1,10}investor.{1,10}want to invest/i
+/i have.{1,10}investment.{1,10}fund/i
 
 /my need for assistance.{1,10}profiling.{1,20}(funds|investment)/i
-/you in request for.{1,10}investment/i
+/you in.{1,10}request for.{1,10}investment/i
+/you to.{1,10}invest in your.{1,10}country/i
 
 # Partnership, Business, Proposal
 # ------------------------------------------------------------------------------
@@ -70,11 +73,14 @@
 /proposals? will not embarrass you/i
 /proposal for you.{1,10}can i send it/i
 
-/business.{1,10}(opportunity|transaction).{1,10}please get back to me/i
-/business.{1,10}(opportunity|transaction).{1,10}discuss with you/i
+/business.{1,10}(opportunity|proposal|transaction).{1,10}please get back to me/i
+/business.{1,10}(opportunity|proposal|transaction).{1,10}discuss with you/i
 
 /confidential business.{1,10}(opportunity|transaction).{1,10}with you/i
 /lucrative proposal.{1,10}share with you/i
+
+/i have.{1,10}proposition for you.{1,10}which will be/i
+/i have.{1,10}business.{1,15}(opportunity|proposal|transaction)/i
 
 /(talk to you about|regarding a potential).{1,10}business.{1,10}(opportunity|partnership)/i
 
@@ -107,7 +113,8 @@
 
 # Dead Customers, Family Members
 # ------------------------------------------------------------------------------
-/my late (client|husband) left some money/i
+/(my|our) (deceased|late).{1,10}(client|customer|husband) left some money/i
+/(my|our) (deceased|late).{1,10}(client|customer|husband) mrs?/i
 
 # Next Of Kin
 # ------------------------------------------------------------------------------

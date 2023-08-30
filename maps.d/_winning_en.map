@@ -11,7 +11,8 @@
 # ------------------------------------------------------------------------------
 /(asian|continental).{1,10}lottery.{1,10}commission/i
 
-/euro.millions.{1,10}google.promo/i
+/euro.millions.{1,10}(google|lottery).promo/i
+
 /lottery.{1,10}commission.{1,10}award/i
 
 /lotto.?lottery.?inc/i

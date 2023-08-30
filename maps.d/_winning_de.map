@@ -24,6 +24,8 @@
 # ------------------------------------------------------------------------------
 /zahlung nicht beanspruchter preisgelder/i
 
+/sie haben.{1,10}(dollar|euro?|gbp|usd).{1,10}zur auszahlung/i
+
 # Winning
 # ------------------------------------------------------------------------------
 /gewinn.{1,10}auf ihren namen ausstellen/i

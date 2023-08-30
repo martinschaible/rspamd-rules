@@ -28,12 +28,14 @@
 # Partnership, Business
 # ------------------------------------------------------------------------------
 /business offer/i
-/partnership.(proposal|proposition)/i
+/partnership.{1,10}(proposal|proposition)/i
 
 # Investment
 # ------------------------------------------------------------------------------
-/investment.(proposal|proposition)/i
-/investment.partnership.offer/i
+/investment.{1,10}(proposal|proposition)/i
+/investment.{1,10}partnership.{1,10}offer/i
+
+/inquiry.{1,10}investment/i
 
 # Winning, Lottery
 # ------------------------------------------------------------------------------

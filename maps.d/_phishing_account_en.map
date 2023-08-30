@@ -22,7 +22,8 @@
 
 # Password
 # ------------------------------------------------------------------------------
-/keep using old password/i
+/(continue|keep) using.{1,10}(current|old|same).{1,10}password/i
+/stay with the.{1,10}(current|old|same).{1,10}password/i
 
 # Registration
 # ------------------------------------------------------------------------------
@@ -41,6 +42,7 @@
 /you have.{1,10}suspended incoming.{1,10}(e?.?mail|messages)/i
 
 /messages has been blocked by.{1,10}administrator/i
+/messages from your contacts are.{1,15}on hold/i
 
 /will be stopped from sending.{1,10}receiving/i
 

@@ -30,7 +30,7 @@
 /\.com\/\d\/www\//i
 
 # -> I expect some false/positives
-/\.(com|info)\/index\.php\/campaigns\//i
+/\.(com|info|us)\/index\.php\/campaigns\//i
 
 /\.pl/click\d{1,2}\//i
 

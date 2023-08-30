@@ -9,7 +9,8 @@
 
 # Locking
 # ------------------------------------------------------------------------------
-/ihr konto vorsorglich sperren/i
+/ihr.{1,10}konto vorsorglich sperren/i
+/wir vorsorglich ihr.{1,10}konto sperren/i
 
 # Confirm Identity
 # ------------------------------------------------------------------------------

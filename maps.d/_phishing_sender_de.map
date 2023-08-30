@@ -31,7 +31,6 @@
 
 # Parcel
 # ------------------------------------------------------------------------------
-
 /liefer.?status?.meldungen/i
 /paket.?(bestaetigungen|status)/i
 /post.?lieferung.?updates/i
@@ -57,12 +56,13 @@
 # Account - Companies
 # ------------------------------------------------------------------------------
 
-
 #
 #
 #
 
 # Winning, Free stuff, Surveys
 # ------------------------------------------------------------------------------
-/le.?creuset.{0,10}gewinner/i
+/einsparungen/i
 /freigeschaltet/i
+
+/le.?creuset.{0,10}gewinner/i

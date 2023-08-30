@@ -41,11 +41,12 @@
 
 /hello.{1,15}this e?.?mail finds you well/i
 /hello.{1,10}glad to connect/i
-/hello.{1,10}valued customer.{1,10}how are you/i
+/(hello|hi).{1,10}valued customer.{1,10}(good day|how are you)/i
 
 /hi.{1,5}greetings.for.the.day/i
-/hi.{1,5}po is attached/i
 /hi.{1,5}i.?a?m.{5,25}we are.{1,10}company/i
+/hi.{1,5}po is attached/i
+/hi.{1,5}potential partner/i
 
 /hi there.{1,10}hope you are doing well/i
 
@@ -69,6 +70,7 @@
 /good day.{1,10}my name is/i
 /to whom it may concern.{1,10}my name is/i
 
+/write you today.{1,10}my name is/i
 /this is.{5,25}from.{5,25}nice to meet you/i
 
 # Introduction

@@ -73,7 +73,7 @@
 # ------------------------------------------------------------------------------
 /seo.?services?.{1,10}proposal/i
 /seo.?services?.{1,10}include/i
-/seo.?services.{1,10}your.{1,15}(company|web.?site)/i
+/seo.?services?.{1,10}your.{1,15}(company|web.?site)/i
 
 /comprehensive.{1,10}seo.?services?/i
 /you need.{1,10}seo.?services?/i
@@ -87,6 +87,7 @@
 /i.?a?.?m an seo.?expert/i
 
 /list your web.?site on google/i
+
 /your website.{1,10}1st page.?rank/i
 /your website on.{1,10}1st page/i
 
@@ -104,6 +105,7 @@
 /1st page of google/i
 /not ranking on google.{1,10}other/i
 /you on.{1,10}1st page of google/i
+/your company.{1,10}position in google/i
 /your page.?rank on google/i
 
 # Traffic, leads
@@ -111,6 +113,15 @@
 
 # SEO India
 # ------------------------------------------------------------------------------
+
+# Social Media
+# ------------------------------------------------------------------------------
+/instagram followers.{1,10}limited offer/i
+/we offer.{1,10}instagram followers/i
+
+# Software (illegal)
+# ------------------------------------------------------------------------------
+/office.{1,15}(plus|professional).{1,10}license key to download/i
 
 # Solar energy
 # ------------------------------------------------------------------------------
@@ -126,6 +137,7 @@
 
 # Videos
 # ------------------------------------------------------------------------------
+/we are.{1,10}leading video agency/i
 /we can create explainer.{1,10}video/i 
 
 /video ads.{1,10}communicate.{1,10}company/i
