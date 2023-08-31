@@ -28,6 +28,7 @@
 /dear.{1,10}good day.{1,10}this is.{5,25}from/i
 
 /(dear|hello|hi).{1,10}(manager|purchaser|supplier).{1,10}do you need/i
+/(dear|hello|hi).{1,10}(manager|purchaser|supplier).{1,10}how do you do/i
 /(dear|hello|hi).{1,10}(manager|purchaser|supplier).{1,10}good day.{1,10}(this is|we are)/i
 /(dear|hello|hi).{1,10}(manager|purchaser|supplier).{1,10}this is (mrs?|ms)/i
 /(dear|hello|hi).{1,10}(manager|purchaser|supplier).{1,10}this is.{5,25}from/i
@@ -88,11 +89,15 @@
 
 # Introduction, Title
 # ------------------------------------------------------------------------------
-/i.?a?m a?.{0,10}investment.portfolio.manager/i
-/i.?a?m a?.{0,10}digital.marketing.expert/i
 /i.?a?m a?.{0,10}attorney.{1,10}solicitor/i
 /i.?a?m a?.{0,10}consultant mr/i
-/i.?a?m a?.{5,25}financial consultant/i
+/i.?a?m a?.{0,10}digital.marketing.expert/i
+/i.?a?m a?.{5,25}financial.consultant/i
+
+/i.?a?m a?.{0,10}investment.portfolio.manager/i
+/i.?a?m a?.{5,25}investment.broker/i
+/i.?a?m a?.{5,25}private.investment.broker/i
+
 /i.?a?m (mrs?|ms).{5,25}(barrister|solicitor)/i
 
 /i am.{5,25}a.{1,10}investor.{1,10}philanthropist/i

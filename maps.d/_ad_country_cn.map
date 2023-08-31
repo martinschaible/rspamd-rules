@@ -18,6 +18,7 @@
 # Intros, specific China
 # ------------------------------------------------------------------------------
 /(china|guangzhou|shenzhen).{1,10}our company offers/i
+/(china|guangzhou|shenzhen).{1,10}we can handle all kinds/i
 /(china|guangzhou|shenzhen).{1,10}we are.{1,10}(company|factory|manufacturer|supplier)/i
 /(china|guangzhou|shenzhen).{1,10}you have any need for our/i
 
@@ -58,6 +59,8 @@
 /(co|ltd).{1,10}professional.{1,15}manufacturer/i
 /(co|ltd).{1,10}is a factory specialized in/i
 
+/to whom it may concern.{1,10}our company/i
+
 # Experience
 # ------------------------------------------------------------------------------
 /more than.{1,10}years experience.{1,10}producing/i
@@ -65,14 +68,14 @@
 # Products
 # ------------------------------------------------------------------------------
 /you need to purchase.{1,10}(pcb|printed circuit boards)/i
-/you looking.{1,10}electronic.components/i
+/you looking.{1,10}electronic.components?/i
 
 /we.?a?re.{1,10}bag.?factory/i
 /we.?a?re.{1,10}(pc|printed.circuit.board).{1,10}manufacturer/i
 /we.?a?re.{1,10}reliable.plastic.injection/i
 /we.?a?re.{1,10}leading.precisi?on.machining/i
 
-/we.?a?re.{1,10}electronic.?components.?broker/i
+/we.?a?re.{1,10}electronic.?components?.?(broker|distributor)/i
 /we.?a?re.{1,10}distributor for.{1,20}(components|electronics)/i
 
 /we.?a?re.{1,10}capacitor factory since/i

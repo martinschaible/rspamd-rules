@@ -20,13 +20,14 @@
 # ------------------------------------------------------------------------------
 
 # Sample: RFQ-PO2023080904072235AM_pdf.gz
-/[a-z0-9]{3,15}_pdf\.(gz|xz)/i
+#         Payment_Advice,img.zip
+/[a-z0-9]{3,15}(_|,)(img|pdf)\.(gz|xz|zip)/i
+/[a-z0-9]{3,15}\.r00\.rar/i
 
 # Sample: RQ038023.PDF.001, Scan_Copy227466.PDF.html
 /[a-z0-9]{3,15}\.pdf\.(001|html)/i
 
 /[a-z0-9]{3,15}pdf\.7z/i
-
 /sheet\.xls\.html/i
 
 #
@@ -84,7 +85,7 @@
 # Payments
 # ------------------------------------------------------------------------------
 /(bank|remittance).?(receipt|slip).(7z|doc|gz|htm|rar|xls|zip)/i
-/payment.{0,5}(copy|rfq).{0,5}\.(7z|doc|gz|htm|r11|rar|xls|zip)/i
+/payment.{0,5}(advice|copy|rfq).{0,5}\.(7z|doc|gz|htm|r11|rar|xls|zip)/i
 /(confirmation|payment).{0,5}\.(7z|doc|gz|htm|r11|rar|xls|zip)/i
 
 # Receipt
