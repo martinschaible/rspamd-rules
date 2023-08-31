@@ -34,6 +34,7 @@
 
 /good (day|morning).{1,10}i.?a?m.{5,25}from/i
 /good (day|morning).{1,10}i.?a?m mrs?/i
+/good (day|morning).{1,10}i would like to discuss something/i
 /good (day|morning).{1,10}with trust/i
 /good (day|morning).{1,10}our.{1,10}investors/i
 
@@ -82,6 +83,8 @@
 /hello.{1,10}my name is.{5,25}we specialize in/i
 
 /hi.{1,10}i am working with.{1,10}reputed/i
+
+/hope you are well.{1,10}this is.{5,25}from/i
 
 # Introduction, Title
 # ------------------------------------------------------------------------------
