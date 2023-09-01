@@ -19,10 +19,10 @@
 
 # Air Conditioning
 # ------------------------------------------------------------------------------
-/klimageräte?.{1,15}ein angenehmes raumklima/i
+/klimageräte?.{1,15}ein angenehmes raumklima/iu
 
-/mobile.{1,10}klimaanlage.{1,10}kühlleistung/i
-/das mobile klimagerät/i
+/mobile.{1,10}klimaanlage.{1,10}kühlleistung/iu
+/das mobile klimagerät/iu
 
 # Apps
 # ------------------------------------------------------------------------------
@@ -84,6 +84,8 @@
 
 /sie sich ein top.?google.?ranking/i
 
+/suchmaschinen.?marketing entwickelt/i
+
 # Social Media
 # ------------------------------------------------------------------------------
 
@@ -102,6 +104,13 @@
 
 /unser kostenloses.{1,10}analyse.?tool/i
 
+# Suitcase
+# ------------------------------------------------------------------------------
+/koffer.{1,10}nur.{1,15}euro.{1,10}komplettpreis/i
+/koffer.{1,10}trolley.{1,10}extrem/i
+
+/sonderposten.{1,10}se.{1,10}reisekoffer/i
+
 # Translator
 # ------------------------------------------------------------------------------
 /sofort.?sprach.?übersetzer/iu
@@ -113,6 +122,8 @@
 /(werkstatt|werkzeug).?wagen.{1,10}gefüllt mit/i
 /(werkstatt|werkzeug).?wagen.{1,10}mit.{1,10}schubladen/i
 /(werkstatt|werkzeug).?wagen.{1,10}ist aus robustem/i
+
+/werkzeug.{1,10}komplettset.{1,10}alukoffer/i
 
 # Umbrellas
 # ------------------------------------------------------------------------------

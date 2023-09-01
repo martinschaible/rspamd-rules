@@ -69,7 +69,8 @@
 /wie geht es dir.{1,5}mein name ist/i
 /wie fühlst du dich.{1,10}mein name ist/iu
 
-/mein name ist.{1,25}leutnant/i
+/mein name ist.{5,25}leutnant/i
+/mein name ist.{5,25}von der.{1,15}(agentur|marketing)i 
 
 # Introduction
 # ------------------------------------------------------------------------------
@@ -84,6 +85,10 @@
 # Help
 # ------------------------------------------------------------------------------
 /ich brauche.{1,10}hilfe.{1,10}mein name ist/i
+
+# Religious
+# ------------------------------------------------------------------------------
+/liebster? im herrn/i
 
 # Surprise
 # ------------------------------------------------------------------------------
