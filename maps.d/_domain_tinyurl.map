@@ -17,6 +17,10 @@
 
 /https:\/\/tinyurl\.com.{1,15}klicken sie/i
 
-/(anmeldung|anschauen|erhalten|fortfahren|jetzt kaufen|lieferung|nachricht|öffnen|profil).{1,15}https:\/\/tinyurl\.com/i
+/(anmeldung|anschauen|bestellen|erhalten|fortfahren|jetzt kaufen|lieferung|nachricht|öffnen|profil).{1,15}https:\/\/tinyurl\.com/i
 
 /https:\/\/tinyurl\.com.{1,15}(anmeldung|anschauen|erhalten|jetzt kaufen|nachricht)/i
+
+# Combination with imgur.com
+# ------------------------------------------------------------------------------
+/https:\/\/tinyurl\.com/.{1,30}<img style=.{10,40}src=.?https\:/\/i\.imgur\.com/i
