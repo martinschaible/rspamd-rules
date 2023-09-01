@@ -47,10 +47,12 @@
 # Financing
 # ------------------------------------------------------------------------------
 /bietet einzelpersonen.{1,10}unternehmen.{1,10}finanzielle/i
-/wir bieten finanzierungen bereits ab/i
 
 /(finanz|kredit).?angebot mit einem zinssatz von/i
-/finanzierung benötigen..{1,15}antworten sie.{1,10}auf diese e?.?mail/iu
+/finanzierung benötigen.{1,15}antworten sie.{1,10}auf diese e?.?mail/iu
+
+/vergibt derzeit.{1,10}finanz.?kredite/i
+/wir bieten finanzierungen bereits ab/i
 
 # Mortgage
 # ------------------------------------------------------------------------------
