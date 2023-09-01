@@ -24,6 +24,7 @@
 
 /melt away.{1,10}(lbs|pounds).{1,15}(belly|body).?fat/i
 
+/this.{1,10}(fat|weight).?loss.{1,10}product/i
 /imagine losing.{1,10}(lbs|pounds)/i
 
 # Stupid Promises
@@ -43,4 +44,6 @@
 
 # Fake stories
 # ------------------------------------------------------------------------------
+/crazy over this.{1,10}(fat|weight).?loss/i
+
 /she (eliminated|lost).{1,10}lbs/i

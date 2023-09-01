@@ -24,8 +24,11 @@
 /[a-z0-9]{3,15}(_|,)(img|pdf)\.(gz|xz|zip)/i
 /[a-z0-9]{3,15}\.r00\.rar/i
 
-# Sample: RQ038023.PDF.001, Scan_Copy227466.PDF.html
-/[a-z0-9]{3,15}\.pdf\.(001|html)/i
+# Sample: RQ038023.PDF.001
+#         PO#006543678.pdf.z
+#         Scan_Copy227466.PDF.html
+
+/[a-z0-9]{3,15}\.pdf\.(001|html|z)/i
 
 /[a-z0-9]{3,15}pdf\.7z/i
 /sheet\.xls\.html/i
