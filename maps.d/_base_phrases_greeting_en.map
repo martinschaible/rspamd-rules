@@ -9,15 +9,21 @@
 # ------------------------------------------------------------------------------
 /greetings.{1,10}my.name.is.{5,20}from/i
 
-/(dear|hello).{1,10}(madam|sir).{1,10}we are.{1,20}manufacturer/i
-/(dear|hello).{1,10}(madam|sir).{1,10}i am seeking your/i
-/(dear|hello).{1,10}(madam|sir).{1,10}greetings of the day/i
+/(dear|hello|hi).{1,10}(madam|sir).{1,10}we are.{1,20}manufacturer/i
+/(dear|hello|hi).{1,10}(madam|sir).{1,10}i am seeking your/i
+/(dear|hello|hi).{1,10}(madam|sir).{1,10}greetings of the day/i
 
 /(dear|hello|hi).{1,10}(sir|madam).{1,10}good day/i
 /(dear|hello|hi).{1,10}(sir|madam).{1,10}how are you/i
 /(dear|hello|hi).{1,10}(sir|madam).{1,10}nice to know you/i
 /(dear|hello|hi).{1,10}(sir|madam).{1,10}i.?a?m.{5,25}purchase.manager/i
 /(dear|hello|hi).{1,10}(sir|madam).{1,10}this is.{5,25}from/i
+
+/(dear|hello|hi).{1,10}(manager|purchaser|supplier).{1,10}do you need/i
+/(dear|hello|hi).{1,10}(manager|purchaser|supplier).{1,10}how do you do/i
+/(dear|hello|hi).{1,10}(manager|purchaser|supplier).{1,10}good day.{1,10}(this is|we are)/i
+/(dear|hello|hi).{1,10}(manager|purchaser|supplier).{1,10}this is (mrs?|ms)/i
+/(dear|hello|hi).{1,10}(manager|purchaser|supplier).{1,10}this is.{5,25}from/i
 
 /hi dear.{1,10}my name is/i
 
@@ -27,12 +33,6 @@
 /dear purchaser.{1,10}how are you/i
 /dear.{1,10}good day.{1,10}this is.{5,25}from/i
 
-/(dear|hello|hi).{1,10}(manager|purchaser|supplier).{1,10}do you need/i
-/(dear|hello|hi).{1,10}(manager|purchaser|supplier).{1,10}how do you do/i
-/(dear|hello|hi).{1,10}(manager|purchaser|supplier).{1,10}good day.{1,10}(this is|we are)/i
-/(dear|hello|hi).{1,10}(manager|purchaser|supplier).{1,10}this is (mrs?|ms)/i
-/(dear|hello|hi).{1,10}(manager|purchaser|supplier).{1,10}this is.{5,25}from/i
-
 /good (day|morning).{1,10}i.?a?m.{5,25}from/i
 /good (day|morning).{1,10}i.?a?m mrs?/i
 /good (day|morning).{1,10}i would like to discuss something/i
@@ -41,6 +41,7 @@
 
 /greetings.{1,15}(business|investment).{1,15}partnership/i
 
+/hello.{1,10}i.?a?m.{5,25}a hong.?kong/i
 /hello.{1,15}this e?.?mail finds you well/i
 /hello.{1,10}glad to connect/i
 /(hello|hi).{1,10}valued customer.{1,10}(good day|how are you)/i

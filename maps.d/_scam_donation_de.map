@@ -68,6 +68,7 @@
 
 /wurden sie für eine.{1,15}spende/iu
 
+/gespendet.{1,10}den anspruch senden sie/i
 /gespendet.{1,10}weitere informationen wenden sie sich/i
 
 /privat.?spende für sie/iu
@@ -87,6 +88,8 @@
 # Payments
 # ------------------------------------------------------------------------------
 /ihnen.{1,10}(millionen|tausend|dollar|euro?|gbp|usd).{1,10}als entschädigung zu zahlen/iu
+
+/auszahlung ihrer spenden.?gelder.{1,10}wenden sie sich.{1,10}per e?.?mail an/i
 
 #
 #

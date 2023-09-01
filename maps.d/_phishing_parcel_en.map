@@ -24,6 +24,7 @@
 # Pay Customs
 # ------------------------------------------------------------------------------
 /package could not be delivered due.{1,10}unpaid customs/i
+/package could not be delivered on.{10,25}because it was .{1,10}duty unpaid/i
 
 /duties.{1,15}must be paid before you can receive/i
 

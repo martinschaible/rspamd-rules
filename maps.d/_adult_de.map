@@ -52,7 +52,8 @@
 
 /(direkt zum|jetzt ein|noch heute).{1,10}date/i
 
-/suche nach einem.{1,10}dating/i
+/suche.{1,10}nach einem.{1,10}dating/i
+/suche.{1,10}diskretes?.{1,10}treffen/i
 
 # Dating Sites
 # ------------------------------------------------------------------------------
@@ -78,7 +79,7 @@
 /bild von mir mitgeschickt/i
 /bilder.{1,10}live ansehen/i
 
-/meine (intimen|privaten).{1,10}(bilder|fotos)/i
+/meine (geilen|intimen|privaten).{1,10}(bilder|fotos)/i
 /möchten.{1,15}(bilder|fotos) mit dir tauschen/iu
 
 /neue.{1,10}(bilder|fotos) von.{5,25}sind live/i
@@ -168,7 +169,7 @@
 # Pussy
 # ------------------------------------------------------------------------------
 /muschi.{1,10}(leckst|lecken)/i
-/(feuchte|lieblings|saubere).{0,10}(möse|pussy)/iu
+/(geile|feuchte|lieblings|saubere).{0,10}(fotze|möse|pussy)/iu
 
 # Sex, Fuck
 # ------------------------------------------------------------------------------
@@ -188,6 +189,7 @@
 /nach sex suchen/i
 
 /geilen (fick|orgasmus)/i
+/geiles ficken/i
 
 /ihr erotisches abenteuer/i
 
