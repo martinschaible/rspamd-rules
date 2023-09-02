@@ -40,9 +40,10 @@
 # ------------------------------------------------------------------------------
 /red\.html/i
 
+# -> Works here
 # Sample: qsdvqzergvqsdvqezrgiouvqqsdvqzevmsdvqsd/qsdvqsdvqsdvqsdvqsdvrtg.html#sdqsdvdvqsdvqdv.html?
-# Too long
-/\/[a-z]{15,35}\.html/i
+# Too long, but too dangeours - F/P
+#/\/[a-z]{22,45}\.html/i
 
 # Phrases which other maps are not able to catch
 # ------------------------------------------------------------------------------
