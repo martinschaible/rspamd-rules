@@ -38,7 +38,12 @@
 
 /e?.?mail.update.{1,10}latest version/i
 
-/authentication here.{1,10}retriev.{1,10}e?.?mails?/i
+/authentication here.{1,10}retrieve.{1,10}e?.?mails?/i
+
+# Delivery problems
+/delivery for pending e?.?mails here/i
+
+/restrained from delivering to your.{1,10}mail.?box/i
 
 # Surveys
 # ------------------------------------------------------------------------------

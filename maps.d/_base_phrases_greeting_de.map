@@ -21,7 +21,7 @@
 
 /hallo.{1,10}ein betrag von/i
 /hallo.{1,10}freund.{1,10}mein.name.ist/i
-/hallo.{1,10}mein.name.ist.{5,20}(barrister|gewinner|ich.arbeite|ich.komme.aus)/i
+/hallo.{1,10}mein.name.ist.{5,20}(aus der|barrister|gewinner|ich.arbeite|ich komme aus)/i
 
 /hallo.{1,10}ich bin.{5,25}ceo von/i
 /hallo.{1,10}ich bin.{5,25}eine?.{1,15}(geschäfts)?(frau|mann)/iu
@@ -103,5 +103,6 @@ meine e?.?mail.{1,10}sie eine überraschung sein wird/iu
 /guten morgen.{1,10}ehrenwert/i
 
 /grusse an dich/i
+/grüße des tages an dich/iu
 
 /offizielle mitteilung.{1,10}von sitz des/i

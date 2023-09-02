@@ -43,9 +43,9 @@
 
 /ihnen eine spende in höhe von.{1,20}(dollar|euro?|gbp|usd).{1,10}gemacht/iu
 
-/ihre e?.?mail.?(adresse|konto).{1,15}ausgewählt.{1,10}um zu.{1,10}begünstigten/iu
-/ihre e?.?mail.?(adresse|konto).{1,10}wurde.{1,15}für eine.{1,10}spende/iu
-/ihre e?.?mail.?(adresse|konto).{1,10}wurde.{1,15}ausgewählt.{1,10}um eine.{1,10}spende/iu
+/ihre e?.?mail.?(adresse|konto)?.{0,15}ausgewählt.{1,10}um zu.{1,10}begünstigten/iu
+/ihre e?.?mail.?(adresse|konto)?.{0,10}wurde.{1,15}für eine.{1,10}spende/iu
+/ihre e?.?mail.?(adresse|konto)?.{0,10}wurde.{1,15}ausgewählt.{1,10}um (die|eine).{1,10}(spende|summe)/iu
 
 /ihrer e?.?mail haben sie eine spende/i
 
@@ -60,6 +60,7 @@
 /sie einen zuschuss in höhe von.{1,25}erhalten/iu
 
 /sie wurden für eine.{1,15}spende (ausgewählt|in höhe von)/iu
+/sie wurden für einen zuschuss.{1,10}investition/iu
 /sie wurden ausgewählt.{1,10}um eine.{1,10}spende/iu
 
 /ausgewählt wurden.{1,10}die meine.{1,15}spende in höhe von/iu
@@ -69,6 +70,7 @@
 /wurden sie für eine.{1,15}spende/iu
 
 /gespendet.{1,10}den anspruch senden sie/i
+/gespendet.{1,10}für den anspruch senden sie/iu
 /gespendet.{1,10}weitere informationen wenden sie sich/i
 
 /privat.?spende für sie/iu
