@@ -1,0 +1,29 @@
+# ==============================================================================
+# Base: Bad URL Shortener (Link with Text)
+# -> Conditional!
+#
+# ----|
+#  10 |
+# ==============================================================================
+
+# English
+# ------------------------------------------------------------------------------
+/go.?now/i
+/offer/i
+/registration/i
+/verify/i
+
+# German
+# ------------------------------------------------------------------------------
+/akzeptieren/i
+/anmeldung/i
+/anschauen/i
+/beitreten/i
+/bestellen/i
+/erhalten/i
+/fortfahren/i
+/jetzt kaufen/i
+/lieferung/i
+/nachricht/i
+/öffnen/iu
+/profil/i
