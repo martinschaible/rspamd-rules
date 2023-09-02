@@ -41,6 +41,10 @@
 # ------------------------------------------------------------------------------
 /red\.html/i
 
+# Sample: qsdvqzergvqsdvqezrgiouvqqsdvqzevmsdvqsd/qsdvqsdvqsdvqsdvqsdvrtg.html#sdqsdvdvqsdvqdv.html?
+# Too long
+/\/[a-z]{15,35}\.html/i
+
 # Phrases which other maps are not able to catch
 # ------------------------------------------------------------------------------
 /schlankheits?.?gummis/iu
