@@ -28,7 +28,10 @@
 
 # URL
 # ------------------------------------------------------------------------------
+# -> Works here
 /\.(com|info|us)\/index\.php\/campaigns\//i
+
+
 /\/cgi-bin/click\.pl\?cid=/i
 /\.pl/click\d{1,2}\//i
 

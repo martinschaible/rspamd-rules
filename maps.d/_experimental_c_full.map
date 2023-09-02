@@ -28,7 +28,9 @@
 
 # URL
 # ------------------------------------------------------------------------------
+# -> Works here
 /\.(com|info|us)\/index\.php\/campaigns\//i
+
 /\/cgi-bin/click\.pl\?cid=/i
 /\.pl/click\d{1,2}\//i
 
@@ -58,6 +60,7 @@
 
 # No damn Keto stuff in URL's
 # ------------------------------------------------------------------------------
+# -> Works here
 /https://[a-z]{0,10}.?keto/i
 
 # Characters

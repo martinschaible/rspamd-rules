@@ -58,6 +58,7 @@
 
 # No damn Keto stuff in URL's
 # ------------------------------------------------------------------------------
+# -> Works here
 /https://[a-z]{0,10}.?keto/i
 
 # Characters
