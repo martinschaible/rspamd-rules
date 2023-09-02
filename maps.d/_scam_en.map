@@ -20,6 +20,7 @@
 /atm.{0.10}card.{1,10}in your name/i
 /atm.{0.10}card.{1,10}for you worth/i
 /atm.{0.10}card.{1,10}to you.{1,10}contact/i
+/atm.{0.10}card.{1,10}parcel valued/i
 
 /\d{3}.{0,5}\d{3}.{1,10}million.{1,10}atm.{1,10}card/i
 
@@ -46,6 +47,9 @@
 /you an opportunity.{1,10}receive.{1,15}funds/i
 
 /your funds?.{1,10}(total|worth).{1,10}sum of.{1,10}million/i
+
+# Heir
+# ------------------------------------------------------------------------------
 
 # Inhertance
 # ------------------------------------------------------------------------------

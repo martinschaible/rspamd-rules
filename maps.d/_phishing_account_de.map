@@ -70,6 +70,13 @@
 #
 #
 
+# Companies
+# ------------------------------------------------------------------------------
+
+# Facebook
+/dein facebook.?konto hat gegen unsere werberichtlinien/i
+/keine besserung eintritt.{1,10}löschen wir ihr konto/iu
+
 # Bad german
 # ------------------------------------------------------------------------------
 /dass unser system uns mitteilt/i
