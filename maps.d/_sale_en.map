@@ -99,8 +99,6 @@
 /i went through your.{1,10}web.?site.{1,10}found/i
 /i.?a?.?m an seo.?expert/i
 
-/list your web.?site on google/i
-
 /your website.{1,10}1st page.?rank/i
 /your website on.{1,10}1st page/i
 
@@ -116,7 +114,9 @@
 
 # Google
 /1st page of google/i
+/list your web.?site on google/i
 /not ranking on google.{1,10}other/i
+
 /you on.{1,10}1st page of google/i
 /your company.{1,10}position in google/i
 /your page.?rank on google/i
@@ -126,10 +126,16 @@
 
 # Directories
 /easier.{1,10}to promote your.{1,10}web.?site/i
-/(leads|sales).{1,10}submitting your web.?site/i
+/(leads|sales).{1,15}submitting your web.?site/i
 /our (list|database) consists.{1,10}millions.{1,10}business/i
-
+/is only listed in.{1,15}possible.{1,10}directories/i
 /e?.?mail.{1,10}cell.?phone.{1,10}(list|database)/i
+
+/promote your.{1,15}search.?engines?/i
+/promote your.{1,15}web.?site.{1,10}just a few/i
+
+/submitting your.{1,15}web.?site to.{1,25}directories/i
+/we can help you.{1,10}promote your.{1,15}business/
 
 # SEO, India
 # ------------------------------------------------------------------------------
