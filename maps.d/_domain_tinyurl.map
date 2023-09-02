@@ -10,7 +10,7 @@
 # ------------------------------------------------------------------------------
 /(go.?now|registration|offer).{1,15}https:\/\/tinyurl\.com/i
 
-/https:\/\/tinyurl\.com/.{1,15}(get.{1,10}off|offer)/i
+/https:\/\/tinyurl\.com\/.{1,15}(get.{1,10}off|offer)/i
 
 # Combination Text and Domain - German
 # ------------------------------------------------------------------------------
@@ -23,4 +23,4 @@
 
 # Combination with imgur.com
 # ------------------------------------------------------------------------------
-/https:\/\/tinyurl\.com/.{1,30}<img style=.{10,40}src=.?https\:/\/i\.imgur\.com/i
+/https:\/\/tinyurl\.com\/.{1,30}<img style=.{10,40}src=.?https\/\/i\.imgur\.com/i
