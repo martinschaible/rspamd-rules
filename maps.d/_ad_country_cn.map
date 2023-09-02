@@ -25,7 +25,7 @@
 /we are.{1,10}chinese leading/i
 /we are.{1,10}(china|guangzhou|shenzhen).?based.{1,10}(company|manufacturer?|supplier).{1,10}(of|offering)/i
 /we are.{1,10}(professional|tooling).{1,15}manufacturer?.{1,10}(china|guangzhou|shenzhen)/i
-/we are.{1,20}manufacturer directly.{1,10}(china|guangzhou|shenzhen)/i
+/we are.{1,20}manufacturer.{1,10}(directly|from|in).{1,10}(china|guangzhou|shenzhen)/i
 
 /with.{1,10}years experience.{1,10}(china|guangzhou|shenzhen)/i
 
@@ -33,9 +33,9 @@
 
 /your sourcing agent.{1,10}china/i
 
-/leading supplier of.{1,15}capacitors.{1,15}in china/i
+/leading supplier of.{1,15}capacitors.{1,15}(from|in) china/i
 
-/moulding services.{1,15}in china/i
+/moulding services.{1,15}(from|in) china/i
 
 # Intros
 # ------------------------------------------------------------------------------
