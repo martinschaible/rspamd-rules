@@ -16,6 +16,10 @@
 #
 /content-transfer-encoding: quoted-printable.{2,10}https:\/\/[a-z]{5,15}\.com/index\.php/campaigns/i
 
+# Twitter
+# ------------------------------------------------------------------------------
+/<a href=(3d)?"https:\/\/t\.co/[a-z0-9]{5,15}" target=(3d)?"_blank"/i
+
 # Companies
 # ------------------------------------------------------------------------------
 /pelema.pte.{1,5}ltd/i
