@@ -64,8 +64,6 @@
 /investor can invest in.{1,10}viable/i
 /investing in your country.{1,15}needs your.{1,10}assistance/i
 
-/viable investment opportunities in your country/i
-
 /inquiry.{1,10}investment/i
 /investment.proposition/i
 /i represent a.{1,10}investor/i
@@ -75,7 +73,12 @@
 
 /my need for assistance.{1,10}profiling.{1,20}(funds|investment)/i
 /you in.{1,10}request for.{1,10}investment/i
-/you to.{1,10}invest in your.{1,10}country/i
+
+# Investment, Country
+# ------------------------------------------------------------------------------
+/benefit for investment in your.{1,15}country/i
+/viable investment opportunities in your.{1,15}country/i
+/you to.{1,10}invest in your.{1,15}country/i
 
 # Partnership, Business, Proposal
 # ------------------------------------------------------------------------------

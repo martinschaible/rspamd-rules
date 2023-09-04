@@ -61,7 +61,6 @@
 /sehr geehrter?.{1,10}e?.?mail.?inhaber(in)?/i
 
 #
-/ich bin (frau|herr).{5,25}aus abidjan/i
 /ich bin (frau|herr).{5,25}der leiter/i
 
 # My name is ...
@@ -77,6 +76,10 @@
 # ------------------------------------------------------------------------------
 /ich bin.{5,25}(der|die) gewinner(in)? des/i
 /mich ihnen vorstellen.{1,10}ich bin/i
+
+# Introduction, Country
+# ------------------------------------------------------------------------------
+/ich bin (frau|herr).{5,25}aus.{1,10}abidjan/i
 
 # Introduction, Title
 # ------------------------------------------------------------------------------

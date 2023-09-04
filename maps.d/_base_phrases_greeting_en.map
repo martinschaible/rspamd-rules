@@ -69,14 +69,15 @@
 
 /my name is mrs?.{5,25}from/i
 
-/e.?mail finds you well.{1,10}my name is/i
-/e.?mail reaches you in a good faith.{1,10}my name is/i
+/(e.?mail|message) finds you well.{1,10}my name is/i
+/(e.?mail|message) reaches you in a good faith.{1,10}my name is/i
 
 /good day.{1,10}my name is/i
 /to whom it may concern.{1,10}my name is/i
 
-/write you today.{1,10}my name is/i
 /this is.{5,25}from.{5,25}nice to meet you/i
+
+/write you today.{1,10}my name is/i
 
 # Introduction
 # ------------------------------------------------------------------------------
@@ -89,6 +90,10 @@
 /hi.{1,10}i am working with.{1,10}reputed/i
 
 /hope you are well.{1,10}this is.{5,25}from/i
+
+# Introduction, Country
+# ------------------------------------------------------------------------------
+/my name is.{5,30}i am from.{1,10}ukraine/i
 
 # Introduction, Title
 # ------------------------------------------------------------------------------
