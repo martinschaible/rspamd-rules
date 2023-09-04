@@ -45,6 +45,7 @@
 
 /we.?a?re.{1,10}factory with.{1,10}years experience/i
 /we.?a?re.{1,10}leading manufacturer.{1,10}of/i
+/we.?a?re.{1,10}leader oem.{1,10}manufacturer/i
 
 /we.?a?re.{1,10}(manufacturer|manufactuer) (in|of)/i
 /we.?a?re.{1,10}(manufacturer|manufactuer).{1,10}exporter (in|of)/i
@@ -53,6 +54,8 @@
 /we.?a?re.{1,10}professional.{1,10}supplier (of|with)/i
 
 /we.?a?re.{1,10}national high.?tech.{1,10}enterprise/i
+
+/we are specializes in the production of/i
 
 /introduce ourselves as.{1,10}leading manufacturer (in|of)/i
 

@@ -22,7 +22,7 @@
 
 # Password
 # ------------------------------------------------------------------------------
-/(continue|keep) using.{1,10}(current|old|same).{1,10}password/i
+/(continue|keep) (using|with).{1,10}(current|old|same).{1,10}password/i
 /stay with the.{1,10}(current|old|same).{1,10}password/i
 
 # Registration

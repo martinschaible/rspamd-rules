@@ -77,6 +77,7 @@
 
 # Safe
 # ------------------------------------------------------------------------------
+/wir haben.{1,15}(aktuell|neue).{1,15}tresore lieferbar/i
 
 # SEO
 # ------------------------------------------------------------------------------
@@ -130,7 +131,8 @@
 /(meter|patenter|sonnen).ampelschirm/i
 /schirm.{1,10}ampelschirm/i
 
-/ampelschirme?.{1,10}alu mit/i
+/(ampel|sonnen).?schirme?.{1,10}alu mit/i
+/(ampel|sonnen).?schirme?.{1,10}durchmesser.{1,10}nur.{1,10}statt/i
 
 # Videos
 # ------------------------------------------------------------------------------

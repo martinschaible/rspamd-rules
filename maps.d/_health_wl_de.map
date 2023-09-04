@@ -11,7 +11,8 @@
 # ------------------------------------------------------------------------------
 /kontrolliere dein gewicht.{1,10}reduzieren/i
 
-/kg in.{1,10}monat ohne fasten/i
+/(kg|kilo).{1,10}in.{1,10}monat ohne fasten/i
+/(kg|kilo).{1,10}in.{1,10}monat sind hiermit kein problem/i
 
 /heilmittel gegen.{1,20}fett/i
 
