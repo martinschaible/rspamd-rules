@@ -115,6 +115,12 @@
 
 /we have deposited.{1,10}bank.?draft/i
 
+# Share the same name
+# ------------------------------------------------------------------------------
+/contacting.{1,20}you.{1,10}share the same last name/i
+
+/last name with.{1,10}(deceased|late).{1,10}(client|customer)/i
+
 # Transaction
 # ------------------------------------------------------------------------------
 /transaction.{1,10}if you are sure you can handle/i

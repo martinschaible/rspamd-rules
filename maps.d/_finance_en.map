@@ -34,7 +34,7 @@
 /we grant loans/i
 
 /you looking for an?.{1,15}loans?/i
-/you need a loan (for|from)/i
+/you need a loan.{1,10}(for|from|if yes)/i
 /you need an urgent loan/i
 
 /business loan.{1,10}investment.{1,10}loans?/i

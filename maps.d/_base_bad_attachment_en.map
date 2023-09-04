@@ -48,38 +48,39 @@
 # Inquiries, Orders, Quotes, Invoices
 # ------------------------------------------------------------------------------
 # Sample: Inquiry No.230802-02.zip
-/(inquiry|invoice|order|quote).?(no\.)?.{0,20}\.(7z|doc|gz|htm|r11|rar|xls|zip)/i
+/(inquiry|invoice|order|quote).?(no\.)?.{0,20}\.(7z|doc|gz|htm|r11|rar|tgz|xls|zip)/i
 
+/puchase.?order.{0,20}\.(7z|doc|gz|htm|r11|rar|tgz|xls|zip)/i
 # Sample: P.O No_033672023.gz
-/p\.?o.?no_?[0-9]{2,15}\.(7z|doc|gz|htm|r11|rar|xls|zip)/i
+/p\.?o.?no_?[0-9]{2,15}\.(7z|doc|gz|htm|r11|rar|tgz|xls|zip)/i
 
 # Sample: "P.O 2023-0021.zip
-/p\.?o.?\d{4}-\d{4}\.(7z|doc|gz|htm|r11|rar|xls|zip)/i
+/p\.?o.?\d{4}-\d{4}\.(7z|doc|gz|htm|r11|rar|tgz|xls|zip)/i
 
 # Sample: 004414- ENQ.rar
-/\d{4,10}.{0,4}enq\.(7z|doc|gz|htm|r11|rar|xls|zip)/i
+/\d{4,10}.{0,4}enq\.(7z|doc|gz|htm|r11|rar|tgz|xls|zip)/i
 
-/(new|trial).?order\.(7z|doc|gz|htm|r11|rar|xls|zip)/i
+/(new|trial).?order\.(7z|doc|gz|htm|r11|rar|tgz|xls|zip)/i
 
 # Sample: QUOTATION_AUG7FIBA00541.z
 /quotation_[a-z0-9]{3,15}\.z/i
 
 # Sample: RFQ_No.8964502.gz
-/rfq.?no.?\d{4,10}\.(7z|doc|gz|htm|r11|rar|xls|zip)/i
+/rfq.?no.?\d{4,10}\.(7z|doc|gz|htm|r11|rar|tgz|xls|zip)/i
 
 #/rfq\.zip/i
 
-/product.?list\.(7z|doc|gz|htm|r11|rar|xls|zip)/i
-/updated.?price\.(7z|doc|gz|htm|r11|rar|xls|zip)/i
+/product.?list\.(7z|doc|gz|htm|r11|rar|tgz|xls|zip)/i
+/updated.?price\.(7z|doc|gz|htm|r11|rar|tgz|xls|zip)/i
 
-/po.{4,10}picture\.(7z|doc|gz|htm|r11|rar|xls|zip)/i
+/po.{4,10}picture\.(7z|doc|gz|htm|r11|rar|tgz|xls|zip)/i
 
 # Invoices
 # ------------------------------------------------------------------------------
 
 # Sample: INV00934.htm
-/inv.?\d{4,10}\.(7z|doc|gz|htm|r11|rar|xls|zip)/i
-/invoice.?\d{4,10}\.(7z|doc|gz|htm|r11|rar|xls|zip)/i
+/inv.?\d{4,10}\.(7z|doc|gz|htm|r11|rar|tgz|xls|zip)/i
+/invoice.?\d{4,10}\.(7z|doc|gz|htm|r11|rar|tgz|xls|zip)/i
 
 # Parcel
 # ------------------------------------------------------------------------------
@@ -87,25 +88,25 @@
 
 # Payments
 # ------------------------------------------------------------------------------
-/(bank|remittance).?(receipt|slip).(7z|doc|gz|htm|rar|xls|zip)/i
-/payment.{0,5}(advice|copy|rfq).{0,5}\.(7z|doc|gz|htm|r11|rar|xls|zip)/i
-/(confirmation|payment).{0,5}\.(7z|doc|gz|htm|r11|rar|xls|zip)/i
+/(bank|remittance).?(receipt|slip).(7z|doc|gz|htm|rar|tgz|xls|zip)/i
+/payment.{0,5}(advice|copy|rfq).{0,5}\.(7z|doc|gz|htm|r11|rar|tgz|xls|zip)/i
+/(confirmation|payment).{0,5}\.(7z|doc|gz|htm|r11|rar|tgz|xls|zip)/i
 
 # Receipt
 # ------------------------------------------------------------------------------
-/receipt.{0,5}\.(7z|doc|gz|htm|r11|rar|xls|zip)/i
+/receipt.{0,5}\.(7z|doc|gz|htm|r11|rar|tgz|xls|zip)/i
 
 # Shipment
 # ------------------------------------------------------------------------------
 /(delivery|shipping|shipment).?documents?.?pdf\.zip/i
-/(delivery|shipping|shipment).?documents?\.(7z|doc|gz|htm|r11|rar|xls|zip)/i
+/(delivery|shipping|shipment).?documents?\.(7z|doc|gz|htm|r11|rar|tgz|xls|zip)/i
 
-/shipping.?product\.(7z|doc|gz|htm|r11|rar|xls|zip)/i
-/documents?.{1,10}commercial\.(7z|doc|gz|htm|r11|rar|xls|zip)/i
+/shipping.?product\.(7z|doc|gz|htm|r11|rar|tgz|xls|zip)/i
+/documents?.{1,10}commercial\.(7z|doc|gz|htm|r11|rar|tgz|xls|zip)/i
 
 # Swift
 # ------------------------------------------------------------------------------
-/swift.?copy.{0,20}\.(7z|doc|gz|htm|r11|rar|xls|zip)/i
+/swift.?copy.{0,20}\.(7z|doc|gz|htm|r11|rar|tgz|xls|zip)/i
 
 # Lottery
 # ------------------------------------------------------------------------------

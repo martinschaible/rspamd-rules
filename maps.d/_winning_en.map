@@ -11,6 +11,8 @@
 # ------------------------------------------------------------------------------
 /(asian|continental).{1,10}lottery.{1,10}commission/i
 
+/central.loteria.nacional/i
+
 /euro.millions.{1,10}(google|lottery).promo/i
 /euromillones lottery board/i
 
@@ -32,6 +34,7 @@
 
 # Payments
 # ------------------------------------------------------------------------------
+/zahlung.{1,10}nicht beanspruchten preis.?geldes/i
 
 # Winning
 # ------------------------------------------------------------------------------

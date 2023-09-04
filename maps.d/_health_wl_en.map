@@ -9,8 +9,9 @@
 
 /try this,{1,15}fat.?burning/
 
-/burns?.{1,10}(belly|body).?fat.{1,15}(crazy|faster|overnight)/i
-/burns?.{1,10}unwanted.{1,10}(belly|body).?fat/i
+/(burn|melt)s?.{1,10}(belly|body).?fat.{1,15}(crazy|faster|overnight)/i
+/(burn|melt)s?.{1,10}unwanted.{1,10}(belly|body).?fat/i
+/(burn|melt)s?.{1,10}pounds.{1,10}fat per week/i
 
 /drop.{1,15}pounds while.{1,10}sleep/i
 /gets? rid of your belly/i
