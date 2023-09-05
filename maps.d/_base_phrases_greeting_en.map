@@ -63,6 +63,7 @@
 
 # My name is ...
 /my name is.{5,25}a purchase.representative/i
+/my name is.{5,25}barr(\.|ister)/i
 /my name is.{5,25}i.?a?m sales.manager/i
 /my name is.{1,25}(attorney|business|investor)/i
 /my name is.{1,25}i am.{1,10}(adviser|citizen of)/i
@@ -94,6 +95,8 @@
 # Introduction, Country
 # ------------------------------------------------------------------------------
 /my name is.{5,30}i am from.{1,10}ukraine/i
+
+/i have your audience.{1,10}i.?a?.?m from/i
 
 # Introduction, Title
 # ------------------------------------------------------------------------------

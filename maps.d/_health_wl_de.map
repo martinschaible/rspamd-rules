@@ -14,9 +14,11 @@
 /(kg|kilo).{1,10}in.{1,10}monat ohne fasten/i
 /(kg|kilo).{1,10}in.{1,10}monat sind hiermit kein problem/i
 
+/\d{1,2}.{1,5}/(kg|kilo).{1,10}in.{1,10}monat/i
+
 /heilmittel gegen.{1,20}fett/i
 
-/verlieren sie bis zu.{1,10}kg in.{1,10}tagen/i
+/verlieren sie bis zu.{1,10}kg in.{1,10}(monat|tagen)/i
 
 /zu hartnäckigem fett/i
 
