@@ -47,7 +47,7 @@
 
 /mesh bürostuhl.{1,10}schwarz/iu
 
-/unsere bürostühle sind in/iu
+/unsere.{1,10}bürostühle sind in/iu
 
 # Cushion
 # ------------------------------------------------------------------------------
@@ -90,7 +90,7 @@
 # ------------------------------------------------------------------------------
 /bonus.{1,10}seo.?(check|web.?site)/i
 
-/sie sich ein top.?google.?ranking/i
+/sie sich ein.{1,10}top.?google.?ranking/i
 
 /suchmaschinen.?marketing entwickelt/i
 
@@ -175,12 +175,13 @@
 /einfach mit.{1,10}adresse.{1,15}wir senden dann.{1,15}(frei haus|umgehend per)/i
 /einfach mit.{1,10}adresse.{1,15}diese e?.?mail.{1,15}wir senden ihnen/i
 
-/ihre antwort genügt.{1,10}wir senden sofort zu ihnen/iu
+/ihre antwort genügt.{1,10}wir senden.{1,10}zu ihnen/iu
 
 /zum antworten bestellen.{1,15}lieferung auf rechnung/i
 /zum bestellen.{1,15}einfach auf dieses?.{1,10}(e?.?mail|schreiben) antworten/i
 
 /lieferung auf rechnung.{1,10}statt uvp.{1,10}nur.{1,10}plus/i
+/lieferung erfolgt auf rechnung zu lediglich/i
 /liefern direkt auf rechnung.{1,10}risikolos.{1,10}einkaufen/i
 
 /statt uvp.{1,10}nur.{1,10}(plus|zzgl).{1,10}mwst/i
