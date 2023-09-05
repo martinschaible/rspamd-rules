@@ -12,7 +12,8 @@
 /attached our purchase order.{1,20}kindly review/i
 
 # Catalog
-/your company catalog for our reference/i
+/your company.{1,10}(brochure|catalog).{1,10}for our reference/i
+/your company.{1,10}(brochure|catalog).{1,10}pricing information/i
 
 # Price List
 /send price.?list.{1,10}products.?pictures via/i

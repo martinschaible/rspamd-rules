@@ -49,7 +49,7 @@
 
 # Alzheimer, Dementia
 # ------------------------------------------------------------------------------
-/(alzheimer|dementia).{1,10}(test|warning)/i
+/(alzheimer|dementia).{1,10}(test|trigger|warning)/i
 /brain.cell/i
 /memory.?loss/i
 
