@@ -34,7 +34,8 @@
 # Chair
 # ------------------------------------------------------------------------------
 /chefsessel.{1,10}leder.{1,10}holz.{1,10}kombination/i
-/exklusiver chefsessel/i
+/exklusiver.{1,10}chefsessel/i
+
 /mesh.?chefsessel/i
 /leder.?chefsessel/i
 
@@ -79,7 +80,7 @@
 
 /neue.{1,10}werbe.?kugelschreiber/i
 
-/unser kugelschreiber ist ein/i
+/unser.{1,10}kugelschreiber ist ein/i
 
 # Safe
 # ------------------------------------------------------------------------------
@@ -116,13 +117,12 @@
 /koffer.{1,10}nur.{1,15}euro.{1,10}komplettpreis/i
 /koffer.{1,10}trolley.{1,10}extrem/i
 
-/sonderposten.{1,10}se.{1,10}reisekoffer/i
+/sonderposten.{1,10}set.{1,10}reisekoffer/i
 
 # Translator
 # ------------------------------------------------------------------------------
 /sofort.?sprach.?übersetzer/iu
 /sofort.?übersetzer/iu
-/zwei.?wege.sofort.?übersetzer/iu
 
 # Trolley & Tools
 # ------------------------------------------------------------------------------
@@ -134,7 +134,7 @@
 
 # Umbrellas
 # ------------------------------------------------------------------------------
-/(meter|patenter|sonnen).ampelschirm/i
+/(meter|patenter|sonnen).{1,10}ampelschirm/i
 /schirm.{1,10}ampelschirm/i
 
 /(ampel|sonnen).?schirme?.{1,10}alu mit/i
@@ -156,7 +156,7 @@
 /ihre aktuelle.{1,10}web.?site aktualisieren/i
 
 /sie eine neue.{1,15}web.?site erstellen/i
-/sie ihre web.?site mit einem neuen/i
+/sie ihre.{1,10}web.?site mit einem neuen/i
 
 /suche nach einem.{1,10}web.?design/i
 
@@ -170,7 +170,6 @@
 
 # How to order
 # ------------------------------------------------------------------------------
-
 /bestellen.{1,10}einfach antworten mit adresse/i
 
 /einfach mit.{1,10}adresse.{1,15}wir senden dann.{1,15}(frei haus|umgehend per)/i
