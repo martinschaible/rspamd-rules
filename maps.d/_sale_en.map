@@ -29,6 +29,8 @@
 
 /database.{1,10}targeted.{1,10}(business|residential)/i
 
+/get the best.{1,10}e?.?mail.{1,10}lists/i
+
 /you are interested.{1,10}acquiring.{1,15}(attendees|visitors).{1,10}list/i
 /you are interested.{1,10}acquiring.{1,15}list/i
 
@@ -37,6 +39,8 @@
 
 # Apps
 # ------------------------------------------------------------------------------
+/apps.{1,10}if you are interested/i
+
 /building your.{1,10}mobile.?apps/i
 
 /you (are looking|be interested).{1,10}(creating|develop|building).{1,10}(mobile)?.?app/i
@@ -180,6 +184,8 @@
 /you be interested.{1,20}(build|rebuild|repair).{1,15}(new|your).{1,15}web.?site/i
 
 /you are looking.{1,10}(app|web).{1,10}design/i
+
+/you looking for.{1,10}affordable(app|web).{1,10}developer/i
 /you looking for.{1,10}web.?site.{1,10}design/i
 
 /(rebuilding|repairing) your existing.{1,15}web.?site/i
