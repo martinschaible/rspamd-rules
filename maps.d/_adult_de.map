@@ -4,7 +4,7 @@
 # -> Add bad senders here: "_base_bad_sender_de.map"
 #
 # ----|----------------|
-# 10  | German         |
+#  10 | German         |
 # ==============================================================================
 
 # Intros
@@ -20,8 +20,7 @@
 /chat ist kostenlos/i
 /chat mit.{5,25}starten/i
 
-/sex.?chat.mitglied/i
-/sex.?chat.{1,15}cams/i
+/sex.?chat.{1,15}(cams|mitglied)/i
 
 /jetzt.{1,10}chat (mit|starten)/i
 /starte.{1,10}deinen chat mit/i
