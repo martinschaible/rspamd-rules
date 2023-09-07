@@ -46,6 +46,9 @@
 
 /restrained from delivering to your.{1,10}mail.?box/i
 
+#
+/(pending|receive).{1,15}messages.{1,10}avoid termination of your.{1,10}account/i
+
 # Surveys
 # ------------------------------------------------------------------------------
 /survey.{1,10}you will receive a.{1,10}gift/i

@@ -44,6 +44,8 @@
 /building your.{1,10}mobile.?apps/i
 
 /you (are looking|be interested).{1,10}(creating|develop|building).{1,10}(mobile)?.?app/i
+/you need mobile apps? for your.{1,10}company/i
+
 /you want.{1,10}mobile.?apps?/i
 
 /offers.{1,10}wide range.{1,10}mobile.?app/i
@@ -188,13 +190,14 @@
 /you looking for.{1,10}affordable(app|web).{1,10}developer/i
 /you looking for.{1,10}web.?site.{1,10}design/i
 
+/build.{1,10}new web.?site for your business/i
 /(rebuilding|repairing) your existing.{1,15}web.?site/i
 /specialized in.{1,10}web.?site design/i
 
 /we are.{1,10}web development company/i
 /we have.{1,10}professional team.{1,10}web.site/i
 
-/i.?a?m an excellent web.?developer/i
+/i.?a?m an.{1,15}web.?developer/i
 
 /web development company.{1,10}specialized in/i
 

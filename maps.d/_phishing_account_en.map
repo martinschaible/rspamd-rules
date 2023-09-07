@@ -22,8 +22,15 @@
 
 # Password
 # ------------------------------------------------------------------------------
+
+# Password, keep the same
+# ------------------------------------------------------------------------------
 /(continue|keep) (using|with).{1,10}(current|old|same).{1,10}password/i
-/stay with the.{1,10}(current|old|same).{1,10}password/i
+
+/(keep|stay).{1,10}the.{1,10}(current|old|same).{1,10}password.{1,10}use/i
+/(keep|stay) with the.{1,10}(current|old|same).{1,10}password/i
+
+/want to keep the password for/i
 
 # Registration
 # ------------------------------------------------------------------------------

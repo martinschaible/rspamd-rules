@@ -13,12 +13,15 @@
 # ------------------------------------------------------------------------------
 # Sample: .world/Jo76dKonaQ1JnBTXq_dhTliiIUNI4QCWQZvyHOMYiqaz2mQ
 
-/\.world\/[a-z0-9]{10,20}_[a-z0-9]{10,20}/i
+/\.(today|world)\/[a-z0-9]{10,20}_[a-z0-9]{10,20}/i
+
+# Sample: today/wCRxkv9ok3Dq0WsMr2qCaW04SZmJKCaJQLLc65cLR9d4BG57
+/\.(today|world)/[a-z0-9]{40,60}/i
 
 # Image name with a exotic TLD
 # ------------------------------------------------------------------------------
 # Sample: .world/cc903616931c89f6d9.jpg
-/\.world\/[a-z0-9]{4,25}\.jpg/i
+/\.(today|world)\/[a-z0-9]{4,25}\.jpg/i
 
 #
 #
