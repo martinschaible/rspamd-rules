@@ -65,6 +65,7 @@
 
 # My name is ...
 /guten (morgen|tag).{1,5}mein name ist/i
+/glückwunsch.{1,5}mein name ist/i
 
 /wie geht es dir.{1,5}mein name ist/i
 /wie fühlst du dich.{1,10}mein name ist/iu
@@ -84,7 +85,8 @@
 
 # Introduction, Title
 # ------------------------------------------------------------------------------
-/ich bin.{1,5}(barrister|generalleutnant)/i
+/ich bin.{1,5}(barrister|generalleutnant)i
+/ich bin.{1,5}(special|spezial).?agent/i
 /ich bin (frau|herr).{5,25}vorsitzender/i
 
 # Help
