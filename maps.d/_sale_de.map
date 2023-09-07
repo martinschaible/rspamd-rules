@@ -34,7 +34,7 @@
 # Chair
 # ------------------------------------------------------------------------------
 /chefsessel.{1,10}leder.{1,10}holz.{1,10}kombination/i
-/exklusiver.{1,10}chefsessel/i
+/(eleganter|exklusiver).{1,10}chefsessel/i
 
 /mesh.?chefsessel/i
 /leder.?chefsessel/i
@@ -50,6 +50,7 @@
 /mesh bürostuhl.{1,10}schwarz/iu
 
 /unsere.{1,10}bürostühle sind in/iu
+/erstaunliche.{1,10}massagestuhl/i
 
 # Cushion
 # ------------------------------------------------------------------------------
