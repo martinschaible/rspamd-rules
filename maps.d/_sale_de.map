@@ -128,9 +128,10 @@
 
 # Trolley & Tools
 # ------------------------------------------------------------------------------
-/(werkstatt|werkzeug).?wagen.{1,10}gefüllt mit/i
-/(werkstatt|werkzeug).?wagen.{1,10}mit.{1,10}schubladen/i
-/(werkstatt|werkzeug).?wagen.{1,10}ist aus robustem/i
+/(werkstatt|werkzeug).?(trolley|wagen).{1,10}gefüllt mit/iu
+/(werkstatt|werkzeug).?(trolley|wagen).{1,10}genau das richtige/i
+/(werkstatt|werkzeug).?(trolley|wagen).{1,10}mit.{1,10}schubladen/i
+/(werkstatt|werkzeug).?(trolley|wagen).{1,10}ist aus robustem/i
 
 /werkzeug.{1,10}komplettset.{1,10}alukoffer/i
 

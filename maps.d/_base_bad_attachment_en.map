@@ -94,6 +94,8 @@
 /inv.?\d{4,10}\.(7z|doc|gz|htm|r11|rar|tgz|xls|zip)/i
 /invoice.?\d{4,10}\.(7z|doc|gz|htm|r11|rar|tgz|xls|zip)/i
 
+/updated.?soa\.(7z|doc|gz|htm|r11|rar|tgz|xls|zip)/i
+
 # Parcel
 # ------------------------------------------------------------------------------
 /parcel.?items.{0,20}\.html/i
