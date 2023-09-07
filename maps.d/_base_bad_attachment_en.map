@@ -14,6 +14,9 @@
 # Sample: 30791146258.zip
 /\d{5,15}\.zip/i
 
+# Sample: 0371000451985_082023.rar
+/\d{4,10}_{4,10}\.rar/i
+
 /excel\.htm/i
 
 # Double Extension
