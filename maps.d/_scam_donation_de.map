@@ -33,15 +33,18 @@
 /spende.{1,10}ausgewählt.{1,10}antworten sie/i
 /spende.{1,10}erhalten.{1,10}sie.{1,10}interessiert/i
 /spende.{1,10}erhalten.{1,10}die.{1,10}zugesandt wurde/i
-/spende.{1,10}in höhe von.{1,20}(dollar|euro?|gbp|usd) (ausgewählt|wurde ihnen von)/iu
+/spende.{1,10}in höhe von.{1,20}(dollar|euro?|gbp|usd).{1,10}(ausgewählt|wurde ihnen von)/iu
 /spende.{1,10}ist für die ersten.{1,10}personen/i
 
 /spenden.?anforderung.{1,10}wenden sie sich/i
+
+/(dollar|euro?|gbp|usd).{1,10}gespendet.{1,10}antworten sie für.{1,10}details/iu
 
 /eine.{1,10}spende an sie geleistet hat/i
 /ein(en)? betrag von\d{3}.{0,5}\d{3}.{1,10}(millionen|tausend|dollar|euro?|gbp|usd).{1,25}wurde ihnen von/i
 
 /ihnen eine spende in höhe von.{1,20}(dollar|euro?|gbp|usd).{1,10}gemacht/iu
+/ihnen wurde.{1,20}(dollar|euro?|gbp|usd).{1,10}gespendet/i
 
 /ihre e?.?mail.?(adresse|konto)?.{0,15}ausgewählt.{1,10}um zu.{1,10}begünstigten/iu
 /ihre e?.?mail.?(adresse|konto)?.{0,10}wurde.{1,15}für eine.{1,10}spende/iu
