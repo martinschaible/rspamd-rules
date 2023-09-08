@@ -17,14 +17,15 @@
 
 # Intros, specific China
 # ------------------------------------------------------------------------------
+/(china|guangzhou|shenzhen).{1,10}factory.{1,10}specializes.{1,10}producing/i
 /(china|guangzhou|shenzhen).{1,10}(my|our).{1,10}(company|factory).{1,10}(offers|specializes)/i
 /(china|guangzhou|shenzhen).{1,10}we can handle all kinds/i
 /(china|guangzhou|shenzhen).{1,10}we are.{1,10}(company|factory|manufacturer|supplier)/i
-/(china|guangzhou|shenzhen).{1,10}you have any need for our/i
-/(china|guangzhou|shenzhen).{1,10}factory.{1,10}specializes.{1,10}producing/i
+/(china|guangzhou|shenzhen).{1,15}we are.{1,10}leading.{1,10}professional/i
 /(china|guangzhou|shenzhen).{1,20}supply all kinds of.{1,10}quality/i
+/(china|guangzhou|shenzhen).{1,10}you have any need for our/i
 
-/we are.{1,10}chinese leading/i
+/we are.{1,10}chinese.{1,10}leading/i
 /we are.{1,10}(china|guangzhou|shenzhen).?based.{1,10}(company|manufacturer?|supplier).{1,10}(of|offering)/i
 /we are.{1,10}(professional|tooling).{1,15}manufacturer?.{1,10}(china|guangzhou|shenzhen)/i
 /we are.{1,20}manufacturer.{1,10}(directly|from|in).{1,10}(china|guangzhou|shenzhen)/i
@@ -64,8 +65,9 @@
 
 /introduce ourselves as.{1,10}leading manufacturer (in|of)/i
 
-/(co|ltd).{1,10}professional.{1,15}manufacturer/i
-/(co|ltd).{1,10}is a factory specialized in/i
+/(co|ltd).{1,15}is a factory specialized in/i
+/(co|ltd).{1,15}professional.{1,15}manufacturer/i
+/(co|ltd).{1,15}we are leading.{1,15}professional/i
 
 /to whom it may concern.{1,10}our company/i
 
