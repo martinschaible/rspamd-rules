@@ -79,11 +79,13 @@
 
 /werbe.?kugelschreiber mit/i
 
-/(die neuen|gummierte|softgriff).{1,10}kugelschreiber/i
+/(die neuen|gummierte|hochwertige|softgriff).{1,10}kugelschreiber/i
 
 /neue.{1,10}werbe.?kugelschreiber/i
 
-/unser.{1,10}kugelschreiber ist ein/i
+/unsere?.{1,10}kugelschreiber ist ein/i
+/unsere?.{1,10}kugelschreibermuster/i
+/unsere?.{1,10}einzigartigen.{1,10}kugelschreiber/i
 
 # Safe
 # ------------------------------------------------------------------------------
@@ -182,7 +184,8 @@
 
 # How to order
 # ------------------------------------------------------------------------------
-/antworten sie einfach mit ihrer adresse.{1,10}teilen sie uns/i
+/antworten sie.{1,10}einfach mit ihrer adresse.{1,10}(auf dieses schreiben|teilen sie uns)/i
+
 /bestellen.{1,10}einfach antworten mit adresse/i
 
 /einfach mit.{1,10}adresse.{1,15}wir senden dann.{1,15}(frei haus|umgehend per)/i
