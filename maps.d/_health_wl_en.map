@@ -29,6 +29,10 @@
 /this.{1,10}(fat|weight).?loss.{1,10}product/i
 /imagine losing.{1,10}(lbs|pounds)/i
 
+# No Diets
+# ------------------------------------------------------------------------------
+/no more diets.{1,10}sweating/i
+
 # Stupid Promises
 # ------------------------------------------------------------------------------
 /fat.?burning.{1,15}(breakfast|trick)/i

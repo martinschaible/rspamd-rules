@@ -15,6 +15,7 @@
 # ------------------------------------------------------------------------------
 /adresse für dieses.{1,10}paket mitteilen/iu
 /aktualisieren sie.{1,10}ihre.{1,10}lieferadresse/i
+/die angegebene lieferadresse.{1,20}nicht.{1,10}korrekt ist/i
 
 /eine gültige lieferadresse hinzuzufügen/iu
 
@@ -31,6 +32,8 @@
 # Delivery
 # ------------------------------------------------------------------------------
 /paket fast bereit.{1,10}lieferung ist/i
+/paket für die baldige zustellung vorbereitet ist/iu
+
 /lieferdetails mit uns bestätigen/iu
 
 # Product
@@ -82,6 +85,8 @@
 
 /sendung wartet auf.{1,10}zahlung/i
 /sendung zu bezahlen.{1,10}zu verfolgen/i
+
+/zusätzliche portogebühr informieren/iu
 
 # Tracking
 # ------------------------------------------------------------------------------
