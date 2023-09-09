@@ -5,20 +5,12 @@
 #  10 |
 # ==============================================================================
 
-# Link only Mail
-# ------------------------------------------------------------------------------
-
-# Content-Transfer-Encoding: quoted-printable
-#
-# [https://alexhh.com/index.php/campaigns/qg1833ejjl34c/track-url/xp8885hxfz8=
-# af/5e7dc60e64ea5561d826289c285ef84e0b4f3d36]
-#
-#
-/content-transfer-encoding: quoted-printable.{2,10}https:\/\/[a-z]{5,15}\.com/index\.php/campaigns/i
-
 # Twitter
 # ------------------------------------------------------------------------------
 /<a href=(3d)?"https:\/\/t\.co/[a-z0-9]{5,15}" target=(3d)?"_blank"/i
+
+/https:\/\/t\.co\/.*static\.wixstatic\.com/is
+/https:\/\/t\.co\/.*\.googleusercontent\.com/is
 
 # Companies
 # ------------------------------------------------------------------------------
