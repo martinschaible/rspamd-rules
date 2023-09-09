@@ -12,16 +12,14 @@
 /https:\/\/t\.co\/.*static\.wixstatic\.com/is
 /https:\/\/t\.co\/.*\.googleusercontent\.com/is
 
+# Facebook CDN used for image hosting
+# ------------------------------------------------------------------------------
+/scontent-.{4,6}\.xx\.fbcdn\.net/i
+
 # Companies
 # ------------------------------------------------------------------------------
 /pelema.pte.{1,5}ltd/i
 /time.travel.promotion.lp/i
-
-# URL
-# ------------------------------------------------------------------------------
-# Sample: qsdvqzergvqsdvqezrgiouvqqsdvqzevmsdvqsd/qsdvqsdvqsdvqsdvqsdvrtg.html#sdqsdvdvqsdvqdv.html?
-# Too long
-/\/[a-z]{15,35}\.html/i
 
 # Phrases which other maps are not able to catch
 # ------------------------------------------------------------------------------
