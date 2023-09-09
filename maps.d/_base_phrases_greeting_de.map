@@ -86,7 +86,7 @@
 
 # Introduction, Title
 # ------------------------------------------------------------------------------
-/ich bin.{1,5}(barrister|generalleutnant)i
+/ich bin.{1,5}(barrister|generalleutnant)/i
 /ich bin.{1,5}(special|spezial).?agent/i
 /ich bin (frau|herr).{5,25}vorsitzender/i
 
