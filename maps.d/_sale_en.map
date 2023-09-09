@@ -84,8 +84,8 @@
 
 # Properties
 # ------------------------------------------------------------------------------
-/ultimate luxury spanish property/i
-/ultimate one-of-a-kind property in the most/i
+/ultimate.{1,10}luxury spanish property/i
+/ultimate.{1,10}one-of-a-kind property in the most/i
 /penthouse.{1,10}puento romano/i
 
 /exquisite luxury villas.{1,10}apartments/i
@@ -100,7 +100,7 @@
 /comprehensive.{1,10}seo.?services?/i
 /you need.{1,10}seo.?services?/i
 
-/provide your web.?site 1st/i
+/provide.{1,10}your web.?site 1st/i
 
 /reputed seo.company/i
 /you looking for.{1,10}seo/i
@@ -109,7 +109,7 @@
 /i.?a?.?m an seo.?expert/i
 
 /your website.{1,10}1st page.?rank/i
-/your website on.{1,10}1st page/i
+/your website.{1,10}on.{1,10}1st page/i
 
 /our full.?seo.?package/i
 /like to offer.{1,10}seo/i
