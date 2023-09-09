@@ -21,7 +21,7 @@
 # Image name with a exotic TLD
 # ------------------------------------------------------------------------------
 # Sample: .world/cc903616931c89f6d9.jpg
-/\.(today|world)\/[a-z0-9]{4,25}\.jpg/i
+/\.(club|today|world)\/[a-z0-9]{4,25}\.jpg/i
 
 #
 #
@@ -48,6 +48,7 @@
 
 # Sample: https://www1.mpnrs.com/tracker/tracker2/adl.14890/ada.3/adm.67599/adc.32885/?clickRedirect=https%3A%2F%2Fgo.unl.edu%2Fzabi#youtube.com
 /\/tracker\/tracker\d\/adl\./i
+
 #
 #
 #
