@@ -74,7 +74,7 @@
 /(e.?mail|message) finds you well.{1,10}my name is/i
 /(e.?mail|message) reaches you in a good faith.{1,10}my name is/i
 
-/good day.{1,10}my name is/i
+/(dear friend|good day|greetings).{1,10}my name is/i
 /to whom it may concern.{1,10}my name is/i
 
 /this is.{5,25}from.{5,25}nice to meet you/i
