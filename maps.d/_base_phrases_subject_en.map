@@ -10,7 +10,7 @@
 /(attn|attention).{1,10}e?.?mail.address.owner/i
 
 /message for you.{1,10}important/i
-/urgent message for you{1,10}please read/i
+/urgent message for you.{1,10}please read/i
 
 # Confidential
 # ------------------------------------------------------------------------------
