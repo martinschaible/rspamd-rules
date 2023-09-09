@@ -13,10 +13,10 @@
 # ------------------------------------------------------------------------------
 # Sample: .world/Jo76dKonaQ1JnBTXq_dhTliiIUNI4QCWQZvyHOMYiqaz2mQ
 
-/\.(today|world)\/[a-z0-9]{10,20}_[a-z0-9]{10,20}/i
+/\.(club|today|world)\/[a-z0-9]{10,20}_[a-z0-9]{10,20}/i
 
 # Sample: today/wCRxkv9ok3Dq0WsMr2qCaW04SZmJKCaJQLLc65cLR9d4BG57
-/\.(today|world)/[a-z0-9]{40,60}/i
+/\.(club|today|world)/[a-z0-9]{40,60}/i
 
 # Image name with a exotic TLD
 # ------------------------------------------------------------------------------
@@ -46,6 +46,8 @@
 # Sample: /_/_/_/4/campaign?utm_campaign
 /\/_\/_\/_\/\d\/campaign/i
 
+# Sample: https://www1.mpnrs.com/tracker/tracker2/adl.14890/ada.3/adm.67599/adc.32885/?clickRedirect=https%3A%2F%2Fgo.unl.edu%2Fzabi#youtube.com
+/\/tracker\/tracker\d\/adl\./i
 #
 #
 #

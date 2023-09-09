@@ -9,7 +9,9 @@
 
 # Locking
 # ------------------------------------------------------------------------------
+/informationen.{1,10}um eine sperrung ihres kontos/i
 /ihr.{1,10}konto vorsorglich sperren/i
+
 /wir vorsorglich ihr.{1,10}konto sperren/i
 
 # Confirm Identity
@@ -29,8 +31,6 @@
 /verpflichtet ihre daten zu bestätigen/iu
 
 /sie den bestätigungs.?prozess.{1,10}nicht durchlaufen haben/iu
-
-/daten unserer kunden zu überprüfen.{1,15}ein konto.{1,15}besitzen/iu
 
 /verpflichtet sind.{1,10}ihre.{1,15}daten.{1,15}zu bestätigen/iu
 /verpflichtet sind.{1,10}ihre.{1,15}daten.{1,15}bei uns zu bestätigen/iu
@@ -53,11 +53,16 @@
 
 /alle kunden sich registrieren.{1,10}andernfalls/i
 
-# Update payment options
+# Update Payment options
 # ------------------------------------------------------------------------------
 /sehr geehrter kunde.{1,10}aktualisieren sie ihre zahlungs.?informationen/i
 
 /zahlungs.?informationen nicht aktualisiert wurden/i
+
+# Update User options
+# ------------------------------------------------------------------------------
+/daten aktualisieren.{1,10}um unsere dienste weiterhin nutzen/i
+/daten unserer kunden zu überprüfen.{1,15}ein konto.{1,15}besitzen/iu
 
 #
 #

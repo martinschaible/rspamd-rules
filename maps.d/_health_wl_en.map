@@ -29,6 +29,8 @@
 /this.{1,10}(fat|weight).?loss.{1,10}product/i
 /imagine losing.{1,10}(lbs|pounds)/i
 
+/(fat|weight).?loss.{1,10}method is shocking/i
+
 # No Diets
 # ------------------------------------------------------------------------------
 /no more diets.{1,10}sweating/i
@@ -62,4 +64,4 @@
 
 # Miracle, Breaktrough, Secrets, Videos
 # ------------------------------------------------------------------------------
-groundbreaking.{1,10}(fat|weight).?loss.{1,10}formula/i
+(shocking|groundbreaking).{1,10}(fat|weight).?loss/i
