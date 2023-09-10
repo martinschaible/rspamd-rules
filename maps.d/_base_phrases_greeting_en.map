@@ -71,6 +71,8 @@
 
 /my name is mrs?.{5,25}from/i
 
+/mine real name is/i
+
 /(e.?mail|message) finds you well.{1,10}my name is/i
 /(e.?mail|message) reaches you in a good faith.{1,10}my name is/i
 
@@ -115,6 +117,7 @@
 /i.?a?m a?.{5,25}private.investment.broker/i
 
 /i.?a?m (mrs?|ms).{5,25}(barrister|solicitor)/i
+/i.?a?m (mrs?|ms).{5,35}wife of mr/i
 
 /i am.{5,25}a.{1,10}investor.{1,10}philanthropist/i
 

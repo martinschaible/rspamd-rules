@@ -26,6 +26,8 @@
 /(china|guangzhou|shenzhen).{1,10}you have any need for our/i
 
 /we are.{1,10}chinese.{1,10}leading/i
+/we are.{1,10}chinese.{1,15}(leading|manufacturer)/i
+
 /we are.{1,10}(china|guangzhou|shenzhen).?based.{1,10}(company|manufacturer?|supplier).{1,10}(of|offering)/i
 /we are.{1,10}(professional|tooling).{1,15}manufacturer?.{1,10}(china|guangzhou|shenzhen)/i
 /we are.{1,20}manufacturer.{1,10}(directly|from|in).{1,10}(china|guangzhou|shenzhen)/i

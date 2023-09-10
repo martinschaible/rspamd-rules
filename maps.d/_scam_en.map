@@ -47,6 +47,7 @@
 /there is.{1,10}substantial unclaimed.{1,10}sum/i
 
 /you an opportunity.{1,10}receive.{1,15}funds/i
+/you wish to receive.{1,15}funds/i
 
 /your.{1,10}funds?.{1,10}(total|worth).{1,10}sum of.{1,10}million/i
 /your.{1,10}outstanding.{1,10}funds totaling.{1,10}million/i
@@ -82,6 +83,10 @@
 /benefit for investment in your.{1,15}country/i
 /viable investment opportunities in your.{1,15}country/i
 /you to.{1,10}invest in your.{1,15}country/i
+
+# Investment, Properties
+# ------------------------------------------------------------------------------
+/invest in italy.{1,10}the largest collection/i
 
 # Legal
 # ------------------------------------------------------------------------------
