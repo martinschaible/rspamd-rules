@@ -21,7 +21,7 @@
 
 /hallo.{1,10}ein betrag von/i
 /hallo.{1,10}freund.{1,10}mein.name.ist/i
-/hallo.{1,10}mein.name.ist.{5,25}(aus der|barrister|gewinner|ich.arbeite|ich komme aus)/i
+/hallo.{1,10}mein.name.ist.{5,25}(aus der|gewinner|ich.arbeite|ich komme aus)/i
 
 /hallo.{1,10}ich bin.{5,25}ceo von/i
 /hallo.{1,10}ich bin.{5,25}eine?.{1,15}(geschäfts)?(frau|mann)/iu
@@ -53,11 +53,14 @@
 
 /(glückwunsch|liebste).{1,10}ich bin.{1,10}(frau|herr)/i
 
-/mein.name.ist.(frau|herr|mrs?)/i
-/mein.name.ist.{5,25}ich schreibe ihnen/i
+/mein name ist.barr(\.|ister)/i
+/mein name ist.(frau|herr|mrs?|leutnant)/i
+/mein name ist.{5,25}ich schreibe ihnen/i
+/mein name ist.{5,25}ich vertrete/i
+/mein name ist.{5,25}von der.{1,15}(agentur|marketing)/i 
 
-/sehr.geehrter.{1,10}(begünstigter|empfänger)/iu
-/sehr.geehrter?.{1,10}(frau|herr).{1,10}hoffe es geht dir gut/i
+/sehr geehrter.{1,10}(begünstigter|empfänger)/iu
+/sehr geehrter?.{1,10}(frau|herr).{1,10}hoffe es geht dir gut/i
 /sehr geehrter?.{1,10}(frau|herr).{1,10}ich schreibe ihnen/i
 /sehr geehrter?.{1,10}e?.?mail.?inhaber(in)?/i
 
@@ -70,10 +73,6 @@
 
 /wie geht es dir.{1,5}mein name ist/i
 /wie fühlst du dich.{1,10}mein name ist/iu
-
-/mein name ist.{5,25}leutnant/i
-/mein name ist.{5,25}von der.{1,15}(agentur|marketing)/i 
-/mein name ist.{5,25}und ich vertrete/i
 
 # Introduction
 # ------------------------------------------------------------------------------

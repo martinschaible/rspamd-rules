@@ -26,3 +26,8 @@
 # Streaming TV
 # ------------------------------------------------------------------------------
 /\d{3,4}.{1,10}worldwide.channels/i
+
+# Watches, Replicas
+# ------------------------------------------------------------------------------
+/designer watches (for just|on sale)/i
+/discount designer watches/i
