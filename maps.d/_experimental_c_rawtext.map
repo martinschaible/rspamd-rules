@@ -13,6 +13,10 @@
 /https:\/\/t\.co\/.*static\.wixstatic\.com/is
 /https:\/\/t\.co\/.*\.googleusercontent\.com/is
 
+# Wikipedia
+# ------------------------------------------------------------------------------
+/<img alt="" src=.?https:\/\/upload\.wikimedia\.org\/wikipedia\/commons/i
+
 # Facebook CDN used for image hosting
 # ------------------------------------------------------------------------------
 /scontent-.{4,6}\.xx\.fbcdn\.net/i
