@@ -38,6 +38,7 @@
 
 /your sourcing agent.{1,10}china/i
 
+/contacting you from.{1,10}(china|guangzhou|shenzhen)/i
 /leading supplier of.{1,15}capacitors.{1,15}(from|in) china/i
 
 /moulding services.{1,15}(from|in) china/i
@@ -90,11 +91,13 @@
 /we.?a?re.{1,10}electronic.?components?.?(broker|distributor)/i
 /we.?a?re.{1,10}distributor for.{1,20}(components|electronics)/i
 
+/we.?a?re.{1,10}independent distributor.{1,20}(components|electronics)/i
 /we.?a?re.{1,10}capacitor factory since/i
 
 /we specialized.{1,10}electronic.{1,10}component/i
 
 /(components|electronics).{1,10}worked in the area more than.{1,10}years/i
+/is the distributor for.{1,20}(components|electronics)/i
 
 # PCB
 /pcb.{1,10}we can offer.{1,10}the best/i
@@ -106,3 +109,7 @@
 # Products, specific China
 # ------------------------------------------------------------------------------
 /china.{1,10}specialized in mold/i
+
+# Logistics
+# ------------------------------------------------------------------------------
+/logistics needs.{1,10}please let me know/i

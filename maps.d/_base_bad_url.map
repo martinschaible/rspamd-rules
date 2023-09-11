@@ -12,16 +12,17 @@
 # Long URL with a exotic TLD
 # ------------------------------------------------------------------------------
 # Sample: .world/Jo76dKonaQ1JnBTXq_dhTliiIUNI4QCWQZvyHOMYiqaz2mQ
+#          email/1DE4gXJk0rOlm4o-t7Aev7_1FStX4YMUn1sMifMmYuidbMo7Uw
 
-/\.(club|today|world)\/[a-z0-9]{10,20}_[a-z0-9]{10,20}/i
+/\.(club|email|today|world)\/[a-z0-9-]{10,30}_[a-z0-9]{10,30}/i
 
 # Sample: today/wCRxkv9ok3Dq0WsMr2qCaW04SZmJKCaJQLLc65cLR9d4BG57
-/\.(club|today|world)/[a-z0-9]{40,60}/i
+/\.(club|email|today|world)\/[a-z0-9]{40,60}/i
 
 # Image name with a exotic TLD
 # ------------------------------------------------------------------------------
 # Sample: .world/cc903616931c89f6d9.jpg
-/\.(club|today|world)\/[a-z0-9]{4,25}\.jpg/i
+/\.(club|email|today|world)\/[a-z0-9]{4,25}\.jpg/i
 
 #
 #
