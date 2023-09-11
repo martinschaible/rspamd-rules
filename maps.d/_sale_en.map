@@ -82,9 +82,12 @@
 /(apparel|logo products).{1,15}for your business/i
 
 /opportunities for.{1,10}logo products/i
-/your company.{1,10}logo products/i
 
-/high.?quality.{1,10}promotional products/i
+/our promotional.{1,10}products can/i
+/high.?quality.{1,10}promotional.{1,10}products/i
+
+/your business.{1,10}branding/i
+/your company.{1,10}logo.{1,10}products/i
 
 # Properties
 # ------------------------------------------------------------------------------
