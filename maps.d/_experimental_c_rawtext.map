@@ -9,8 +9,13 @@
 # ------------------------------------------------------------------------------
 /<a href=(3d)?"https:\/\/t\.co\/[a-z0-9]{5,15}" target=(3d)?"_blank"/i
 
+# Works here!
 /https:\/\/t\.co\/.*static\.wixstatic\.com/is
 /https:\/\/t\.co\/.*\.googleusercontent\.com/is
+
+# Facebook CDN used for image hosting
+# ------------------------------------------------------------------------------
+/scontent-.{4,6}\.xx\.fbcdn\.net/i
 
 # Companies
 # ------------------------------------------------------------------------------
