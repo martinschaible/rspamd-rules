@@ -12,3 +12,7 @@
 # Image with 1 pixel height
 # ------------------------------------------------------------------------------
 /\.jpg" /><img height="1" src="http:\/\//i
+
+# Sample: .za.com/clicks/img/tupitea.png
+/\/clicks\/img\/[a-z0-9]{5,15}\.jpg/i
+
