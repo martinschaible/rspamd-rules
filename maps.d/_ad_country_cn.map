@@ -58,13 +58,15 @@
 /we.?a?re.{1,10}(manufacturer|manufactuer) (in|of)/i
 /we.?a?re.{1,10}(manufacturer|manufactuer).{1,10}exporter (in|of)/i
 
-/we.?a?re.{1,10}professional.{1,20}product.{1,10}(company|manufacturer?|supplier)/i
-/we.?a?re.{1,10}professional.{1,10}supplier (of|with)/i
-/we.?a?re.{1,10}professional.{1,20}manufacturer.{1,10}specialized in/i
+/we.?a?re.{1,10}(professional|reliable).{1,10}distributor of/i
+/we.?a?re.{1,10}(professional|reliable).{1,20}product.{1,10}(company|manufacturer?|supplier)/i
+/we.?a?re.{1,10}(professional|reliable).{1,10}supplier (of|with)/i
+/we.?a?re.{1,10}(professional|reliable).{1,20}manufacturer.{1,10}specialized in/i
 
 /we.?a?re.{1,10}national high.?tech.{1,10}enterprise/i
 
-/we are specializes in the production of/i
+/we are.{1,10}specializes in the production of/i
+/we are.{1,15}fast.{1,10}growing distributor/i
 
 /introduce ourselves as.{1,10}leading manufacturer (in|of)/i
 
@@ -83,10 +85,12 @@
 /you need to purchase.{1,10}(pcb|printed circuit boards)/i
 /you looking.{1,10}electronic.components?/i
 
+/we do mainly.{1,10}glassware/i
 /we.?a?re.{1,10}bag.?factory/i
 /we.?a?re.{1,10}(pc|printed.circuit.board).{1,10}manufacturer/i
-/we.?a?re.{1,10}reliable.plastic.injection/i
 /we.?a?re.{1,10}leading.precisi?on.machining/i
+
+/we.?a?re.{1,10}(professional|reliable).{1,10}plastic.{1,10}injection/i
 
 /we.?a?re.{1,10}electronic.?components?.?(broker|distributor)/i
 /we.?a?re.{1,10}distributor for.{1,20}(components|electronics)/i
@@ -102,6 +106,7 @@
 
 # PCB
 /pcb.{1,10}we can offer.{1,10}the best/i
+/pcb factory.{1,10}focus on/i
 
 /in the field of pcb.{1,10}years/i
 /we focus on pcb/i

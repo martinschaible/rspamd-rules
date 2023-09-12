@@ -54,7 +54,9 @@
 /watch it before it.?i?s too late/i
 /watch the video before.{1,20}(attorney|big)/i
 
-/watch this (shocking|urgent) video/i
+/watch this (controversial|shocking|urgent) video/i
+
+/video.{1,10}before it.{1,10}too late/i
 
 # Silly lies
 # ------------------------------------------------------------------------------
