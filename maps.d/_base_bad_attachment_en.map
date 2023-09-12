@@ -85,7 +85,8 @@
 /product.?list\.(7z|doc|gz|htm|r11|rar|tgz|xls|zip)/i
 /updated.?price\.(7z|doc|gz|htm|r11|rar|tgz|xls|zip)/i
 
-/po.{4,10}picture\.(7z|doc|gz|htm|r11|rar|tgz|xls|zip)/i
+/p.?o.{4,10}picture\.(7z|doc|gz|htm|r11|rar|tgz|xls|zip)/i
+/p.?o.?no.{4,10}\.(7z|doc|gz|htm|r11|rar|tgz|xls|zip)/i
 
 # Invoices
 # ------------------------------------------------------------------------------

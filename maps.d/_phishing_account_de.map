@@ -81,11 +81,17 @@
 # Companies
 # ------------------------------------------------------------------------------
 
-# Facebook
+# Facebook/Meta
 /konto nicht unseren werberichtlinien entspricht/i
 /dein facebook.?konto hat gegen unsere werberichtlinien/i
 /keine besserung eintritt.{1,10}löschen wir ihr konto/iu
 /wichtig.{1,10}werberichtlinien von facebook/i
+
+/ihre.{1,10}anzeigen gegen.{1,10}facebook.{1,10}werberichtlinien/i
+
+#
+#
+#
 
 # Bad german
 # ------------------------------------------------------------------------------
