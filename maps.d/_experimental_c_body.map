@@ -12,9 +12,10 @@
 /https:\/\/t\.co\/.*static\.wixstatic\.com/is
 /https:\/\/t\.co\/.*\.googleusercontent\.com/is
 
-# Wikipedia
+# Wikipedia,Yahoo
 # ------------------------------------------------------------------------------
-/<img alt="" src=.?https:\/\/upload\.wikimedia\.org\/wikipedia\/commons/i
+/<img alt=(''|"") src=.?https:\/\/upload\.wikimedia\.org\/wikipedia\/commons/i
+/<img alt=(''|"") src=.?http:\/\/yahoo\.com/i
 
 # Facebook CDN used for image hosting
 # ------------------------------------------------------------------------------
