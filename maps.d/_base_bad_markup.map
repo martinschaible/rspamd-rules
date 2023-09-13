@@ -13,11 +13,11 @@
 # Filler text
 # ------------------------------------------------------------------------------
 # White color and small font size
-/<div style=.?"color:.?#ffffff;.?font-size:.?[1-5]]px;">/i
+/<span style=(3d)?"color:.?#ffffff;.?font-size:.?[1-5]]px;">/i
 
 # Strange stuff
 # ------------------------------------------------------------------------------
-/http:="" microsoft\.com=""/i
+/http:=(3d)?"" microsoft\.com=(3d)?""/i
 
 #
 /&shy;&shy;ut&shy;&shy;&shy/i
