@@ -106,6 +106,7 @@
 
 /comprehensive.{1,10}seo.?services?/i
 /you need.{1,10}seo.?services?/i
+/do you want.{1,10}seo/i
 
 /provide.{1,10}your web.?site 1st/i
 
@@ -130,8 +131,8 @@
 
 # Google
 /1st page of google/i
-/list your web.?site on google/i
-/not ranking on google.{1,10}other/i
+/(promote|list) your.{1,10}web.?site.{1,10}google/i
+/not ranking.{1,10}google.{1,10}other/i
 
 /you on.{1,10}1st page of google/i
 /your company.{1,10}position in google/i
@@ -175,7 +176,12 @@
 # ------------------------------------------------------------------------------
 /\d{3,4}.{1,10}worldwide.channels/i
 
+/live channels.{1,10}movies.{1,10}series/i
 /movies.{1,10}series.{1,10}subscribe now/i
+
+/netflix.{1,10}hbomax.{1,10}amazonprime/i
+/hbomax.{1,10}amazonprime.{1,10}appletv/i
+/amazonprime.{1,10}appletv.{1,10}disney/i
 
 # Translator
 # ------------------------------------------------------------------------------

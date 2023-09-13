@@ -16,3 +16,6 @@
 
 # Sample: https://n3m6x.app.goo.gl/hfQMpxbwtaPKpiJt6
 /https:\/\/[a-z0-9]{4,10}\.app\.goo\.gl\//i
+
+# Sample: firebasestorage.googleapis.com/v0/b/brown-f8a31.appspot.com
+/firebasestorage\.googleapis\.com\/v0\/.?\/[a-z0-9-]{5,15}\.appspot\.com/i

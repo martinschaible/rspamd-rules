@@ -60,14 +60,15 @@
 
 # Dating Sites
 # ------------------------------------------------------------------------------
-/(dating|hookup).?website.{1,10}(anschauen|bei mir|fortzusetzen|treffen)/i
+/(dating|hookup).?web.?site.{1,10}(anschauen|bei mir|fortzusetzen|treffen)/i
+/(dating|hookup).?web.?site.{1,10} ist dein/i
 
 /community.{1,20}bekanntschaften/i
 
 /(beste|einziartige|intime|profil).{1,15}(dating|hookup).?(plattform|portal|(web)?sites?)/i
 /sex.?dating.?(plattform|portal|(web)?sites?)/i
 
-/unsere.{1,10}(dating|sex).?site/i
+/unsere.{1,10}(dating|sex).?(web)?site/i
 
 /seite ist.{1,10}kostenlos/i
 
