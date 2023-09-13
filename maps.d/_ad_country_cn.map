@@ -98,8 +98,9 @@
 /we.?a?re.{1,10}independent distributor.{1,20}(components|electronics)/i
 /we.?a?re.{1,10}capacitor factory since/i
 
+
 /we specialized?.{1,10}cnc machining/i
-/we specialized?.{1,10}electronic.{1,10}component/i
+/we (offer|specialized?).{1,15}electronic.{1,10}component/i
 
 /(components|electronics).{1,10}worked in the area more than.{1,10}years/i
 /is the distributor for.{1,20}(components|electronics)/i
@@ -111,6 +112,9 @@
 /in the field of pcb.{1,10}years/i
 /we focus on pcb/i
 /you to proceed your pcb.{1,10}project/i
+
+# Glass
+/we do mainly.{1,10}glassware/i
 
 # Products, specific China
 # ------------------------------------------------------------------------------

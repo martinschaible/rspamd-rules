@@ -46,7 +46,8 @@
 /privat.{1,10}intimes.{1,10}treffen/i
 
 /online.?dating.?club/i
-/(kostenlos|online).?sex.?dating/i
+/(kostenlos|online).{1,10}sex.?dating/i
+/(kostenlos|online).{1,10}dating.{1,10}sex/i
 
 /ich möchte einen.{1,10}mann treffen/iu
 
