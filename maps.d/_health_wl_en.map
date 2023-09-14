@@ -43,7 +43,9 @@
 
 /hack removes.{1,10}lbs/i
 
-/weight.?loss.{1,10}science/i
+/weight.?loss.{1,10}(secret|science)/i
+
+/farm.{1,10}weight.?loss.{1,10}method/i
 
 /secret.{1,10}metabolic trigger/i
 /secret.{1,10}melting pounds/i

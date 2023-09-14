@@ -7,10 +7,10 @@
 
 # Google
 # ------------------------------------------------------------------------------
-/www\.google\.[a-z]{2,3}\/url\?q=/i
+/www\.google\.[a-z]{2,3}\/url\?q/i
 
 # Nice work: Using Google with TLD of Nepal
-/www\.google\.com\.np/url\?q/
+/www\.google\.com\.(np|vt)/url\?q/
 
 /app\.goo\.gl/\?link=.{0,5}https?/i
 
