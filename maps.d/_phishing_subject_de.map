@@ -15,7 +15,8 @@
 
 # Locking Account
 # ------------------------------------------------------------------------------
-/ihr konto wird gesperrt/i
+/ihr konto.{1,15}wird gesperrt/i
+/ihr konto.{1,15}wurde begrenzt/i
 
 # Banking
 # ------------------------------------------------------------------------------

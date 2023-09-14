@@ -55,6 +55,8 @@
 /your.{1,10}funds?.{1,10}\d{3}.{0,5}\d{3}.{1,10}(dollar|euro?|gbp|usd)/i
 /your.{1,10}outstanding.{1,10}funds totaling.{1,10}million/i
 
+/your.{1,10}cooperation.{1,10}assist.{1,10}transferring.{1,15}funds/i
+
 # Heir
 # ------------------------------------------------------------------------------
 
@@ -110,9 +112,10 @@
 /confidential business.{1,10}(opportunity|transaction).{1,10}with you/i
 /lucrative proposal.{1,10}share with you/i
 
-/i have.{1,10}proposition for you.{1,10}which will be/i
 /i have.{1,10}business.{1,15}(opportunity|proposal|transaction)/i
 /i have.{1,10}highly profitable.{1,15}(opportunity|proposal|transaction)/i
+/i have.{1,10}project worth.{1,10}million/i
+/i have.{1,10}proposition for you.{1,10}which will be/i
 
 /(talk to you about|regarding a potential).{1,10}business.{1,10}(opportunity|partnership)/i
 
