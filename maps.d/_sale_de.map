@@ -40,16 +40,16 @@
 /leder.?chefsessel/i
 
 /diesen einzigartigen.{1,10}stuhl/i
-/(elegante|erlesene).{1,10}bürostühle/iu
+/(elegante|erlesene|praktische).{1,10}büro.?(stuhl|stühle)/iu
 
 /erstaunliche.{1,10}massagestuhl/i
 
-/bürostühle.{1,10}(in leder|mit walnussholz)/iu
-/bürostuhle.{1,10}neues modell/iu
+/büro.?(stuhl|stühle).{1,10}(in leder|in vielen farben|mit walnussholz)/iu
+/büro.?(stuhl|stühle).{1,10}neues modell/iu
 
-/mesh.{1,10}bürostuhl.{1,10}schwarz/iu
+/mesh.{1,10}büro.?(stuhl|stühle).{1,10}schwarz/iu
 
-/unsere.{1,10}bürostühle sind in/iu
+/unsere.{1,10}büro.?(stuhl|stühle) sind in/iu
 
 # Cushion
 # ------------------------------------------------------------------------------
@@ -188,6 +188,7 @@
 /antworten sie.{1,10}einfach mit ihrer adresse.{1,10}(auf dieses schreiben|teilen sie uns)/i
 
 /bestellen.{1,10}einfach antworten mit adresse/i
+/bestellen.{1,10}bitte einfach mit adresse.{1,10}diese e?.?mail antworten/i
 
 /einfach mit.{1,10}adresse.{1,15}wir senden dann.{1,15}(frei haus|umgehend per)/i
 /einfach mit.{1,10}adresse.{1,15}diese e?.?mail.{1,15}wir senden ihnen/i
