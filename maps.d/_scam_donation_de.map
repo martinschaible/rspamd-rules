@@ -44,6 +44,8 @@
 /eine.{1,10}spende an sie geleistet hat/i
 /ein(en)? betrag von.{1,10}\d{3}.{0,5}\d{3}.{1,10}(millionen|tausend|dollar|euro?|gbp|usd).{1,25}wurde ihnen von/i
 
+/ich (gebe|spende) ihnen.{1,10}\d{3}.{0,5}\d{3}.{1,10}(millionen|tausend|dollar|euro?|gbp|usd)/i
+
 /ihnen eine spende in höhe von.{1,20}(dollar|euro?|gbp|usd).{1,10}gemacht/iu
 /ihnen wurde.{1,20}(dollar|euro?|gbp|usd).{1,10}gespendet/i
 /ihnen im namen einer wohltätigkeits.?organisation/i
@@ -97,6 +99,10 @@
 
 #
 /hallo.{1,10}die summe von/i
+
+# Donation, Companies
+# ------------------------------------------------------------------------------
+/ihre.{1,10}e?.?mail-adresse.{1,10}wurde von google.{1,10}zufällig/iu
 
 # Payments
 # ------------------------------------------------------------------------------
