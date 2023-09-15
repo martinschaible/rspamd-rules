@@ -53,4 +53,8 @@
 
 /shopper.?gift/i
 
-/(ace.?hardware|costco|cvs|delta|epson|harbor.?freight|home.depot|kobalt|kohls|lowes|milwaukee|netflix|stanley|staples|ups|walmart).{0,15}(confirmation|feedback|gift.?card|giveaways?|opinion|rewards?|shipment|shopper|surprise|unlocked|winner)/i
+/(ace.?hardware|costco|cvs|delta|epson|harbor.?freight|home.depot|kobalt|kohls|lowes|milwaukee|netflix|stanley|staples|ups|walmart).{0,15}(confirmation|department||feedback|gift.?card|giveaways?|opinion|rewards?|shipment|shopper|surprise|unlocked|winner)/i
+
+# Brands, Products
+# ------------------------------------------------------------------------------
+/ipad.?pro/i
