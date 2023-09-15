@@ -213,6 +213,7 @@
 
 # Web-Design/Development
 # ------------------------------------------------------------------------------
+/builds amazing.{1,20}web.?site/i
 /send you my.{1,10}web.?site.proposal/i
 /to (re)?.?develop your web.?site/i
 
@@ -224,9 +225,9 @@
 /you looking for.{1,10}web.?site.{1,10}design/i
 
 /build.{1,10}new web.?site for your business/i
-/(rebuilding|redesign|repairing) your.{1,15}(web.?)?site/i
-/(rebuilding|redesign|repairing) your.{1,10}existing.{1,15}(web.?)?site/i
-/(rebuilding|redesign|repairing) your.{1,15}web.?site theme/i
+/(rebuilding|redesign|repairing|upgrade) your.{1,15}(web.?)?site/i
+/(rebuilding|redesign|repairing|upgrade) your.{1,10}existing.{1,15}(web.?)?site/i
+/(rebuilding|redesign|repairing|upgrade) your.{1,15}web.?site theme/i
 
 /repair.{1,10}redesign your.{1,15}(web.?)?site/i
 
@@ -241,7 +242,7 @@
 /web (design|development).{1,10}company.{1,10}with.{1,10}primary/i
 
 # WordPress
-/i am a professional.{1,10}wordpress/i
+/i.?a?m.{1,10}(expert|professional).{1,15}wordpress/i
 /you looking.{1,10}experienced.{1,10}wordpress/i
 
 # Web-Design/Development, India

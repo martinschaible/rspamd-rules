@@ -83,7 +83,8 @@
 # Products
 # ------------------------------------------------------------------------------
 /we.?a?re.{1,10}bag.?factory/i
-/we.?a?re.{1,10}leading.precisi?on.machining/i
+/we.?a?re.{1,10}leading.{1,10}precisi?on.machining/i
+/we.?a?re.{1,10}prototype.{1,15}machining/i
 
 /we.?a?re.{1,10}(professional|reliable).{1,10}plastic.{1,10}injection/i
 
@@ -97,8 +98,9 @@
 
 /we (offer|specialized?).{1,15}electronic.{1,10}component/i
 
+/we.?a?re.{1,10}distributor (for|of).{1,20}(components|electronics)/i
 /we.?a?re.{1,10}electronic.?components?.?(broker|distributor)/i
-/we.?a?re.{1,10}distributor for.{1,20}(components|electronics)/i
+/we.?a?re.{1,10}electrical.{1,10}products.{1,10}automatic/i
 
 /you looking.{1,10}electronic.components?/i
 /you still interested.{1,10}capacitors/i

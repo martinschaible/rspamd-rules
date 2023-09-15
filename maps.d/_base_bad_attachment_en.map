@@ -53,6 +53,7 @@
 # ------------------------------------------------------------------------------
 # Sample: Booking031726pdf.7z
 /booking\d[2,10]pdf\.7z/i
+/booking\.7z/i
 
 # Sample: Booking06972pdf (3).7z
 /booking\d[2,10]pdf.{0,5}\.7z/i
