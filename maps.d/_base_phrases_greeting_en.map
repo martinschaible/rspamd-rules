@@ -52,6 +52,7 @@
 /hello.{1,10}i.?a?m.{5,25}a hong.?kong/i
 /hello.{1,15}this e?.?mail finds you well/i
 /hello.{1,10}glad to connect/i
+
 /(hello|hi).{1,10}valued customer.{1,10}(good day|how are you)/i
 
 /hi.{1,5}greetings.for.the.day/i
@@ -80,6 +81,7 @@
 /(e.?mail|message) finds you well.{1,10}my name is/i
 /(e.?mail|message) reaches you in a good faith.{1,10}my name is/i
 
+/hello.{1,10}my dearest.{1,10}my name is/i
 /(dear friend|good day|greetings).{1,10}my name is/i
 /to whom it may concern.{1,10}my name is/i
 
