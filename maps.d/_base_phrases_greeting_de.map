@@ -111,8 +111,9 @@
 # ------------------------------------------------------------------------------
 /guten morgen.{1,10}ehrenwert/i
 
-/diese nachricht sie gut findet/?
-/diese nachricht erreicht sie in guter verfassung/i
+/diese (e?.?mail|nachricht) findet sie gut/i
+/diese (e?.?mail|nachricht) sie gut findet/i
+/diese (e?.?mail|nachricht) erreicht sie in guter verfassung/i
 
 /grusse an dich/i
 /grüße des tages an dich/iu
