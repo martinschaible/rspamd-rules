@@ -23,12 +23,16 @@
 # Authentification
 # ------------------------------------------------------------------------------
 
+# Failed Payments
+# ------------------------------------------------------------------------------
+/payment for.{1,15}due to security reasons/i
+
 # Password
 # ------------------------------------------------------------------------------
 
 # Password, keep the same
 # ------------------------------------------------------------------------------
-/(continue|keep) (using|with).{1,10}(current|old|same).{1,10}password/i
+/(continue|keep).{1,10}(using|with).{1,10}(current|old|same).{1,10}password/i
 
 /(keep|stay).{1,10}the.{1,10}(current|old|same).{1,10}password.{1,10}use/i
 /(keep|stay) with the.{1,10}(current|old|same).{1,10}password/i
