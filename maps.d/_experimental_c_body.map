@@ -13,6 +13,9 @@
 /https:\/\/t\.co\/.*static\.wixstatic\.com/i
 /https:\/\/t\.co\/.*\.googleusercontent\.com/i
 
+/static\.wixstatic\.com.*https:\/\/t\.co\//i
+/\.googleusercontent\.com.*https:\/\/t\.co\//i
+
 # Wikipedia,Yahoo
 # ------------------------------------------------------------------------------
 /<img alt=(''|"") src=.?https:\/\/upload\.wikimedia\.org\/wikipedia\/commons/i
