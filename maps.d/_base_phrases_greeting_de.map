@@ -17,7 +17,7 @@
 /guten tag.{1,15}(damen|herren).{1,15}wie geht es dir/i
 /guten tag.{1,10}gewinner/i
 
-/(guten tag|hallo).{1,10}ich bin.{5,25}(frau|herr).{1,10}eine/i
+/(guten tag|hallo).{1,10}ich bin.{5,25}(frau|herr)/i
 
 /hallo.{1,10}ein betrag von/i
 /hallo.{1,10}freund.{1,10}mein.name.ist/i
@@ -30,7 +30,7 @@
 /hallo.{1,10}ich bin.{5,25}und schreibe dir/i
 /hallo.{1,10}ich bin.{5,25}aus.{1,10}deutschland/i
 /hallo.{1,10}ich bin.{5,25}ich komme aus/i
-/hallo.{1,10}ich bin.{5,25}ich bin.{1,10}jahre alt/
+/hallo.{1,10}ich bin.{5,25}ich bin.{1,10}jahre alt/i
 /hallo.{1,10}ich bin.{5,25}von beruf/i
 
 /hallo.{1,10}unsere namen sind/i
