@@ -94,6 +94,8 @@
 /ich spende.{1,10}ihnen die summe von/i
 /ich spende.{1,10}prozent meines.{1,10}vermögens/iu
 
+/wurden ihnen.{1,10}millionen gespendet/i
+
 #
 /um ihre spende (an|ein)zufordern/i
 
@@ -116,13 +118,7 @@
 
 # Winning
 # ------------------------------------------------------------------------------
-/\d{3}.{1,5}\d{3}.{1,10}(dollar|euro?|gbp|usd) gewonnen.{1,10}zahlungsnummer/i
 
-/geehrter?.?gewinner/i
-
-/ihre e?.?mail.?adresse.{1,10}hat.{1,15}(millionen|tausend).{1,20}(dollar|euro?|gbp|usd).{1,20}gewonnen/i
-
-/haben Si.{1,10}\d{3}.{1,5}\d{3}.{1,10}(dollar|euro?|gbp|usd)gewonnen/i
 #
 #
 #

@@ -76,6 +76,7 @@
 /my name is.{5,25}i.?a?m sales.manager/i
 /my name is.{1,25}(attorney|business|investment|investor|private)/i
 /my name is.{1,25}i am.{1,10}(adviser|citizen of)/i
+/my name is.{5,25}i am writing this message/i
 
 /my name is mrs?.{5,25}from/i
 

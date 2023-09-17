@@ -40,8 +40,14 @@
 
 # Fungus
 # ------------------------------------------------------------------------------
-/fix toe.?nail.?fungus/i
-/stop suffering from toe.?nail/i
+/(nail|toe).?fungus within.{1,10}days/i
+
+/fix.{1,10}(nail|toe).?fungus/i
+/stop suffering from.{1,10}(nail|toe).?fungus/i
+
+# Gums
+# ------------------------------------------------------------------------------
+/you can restore your.{1,10}gums/i
 
 # Heart, Blood pressure
 # ------------------------------------------------------------------------------
@@ -73,6 +79,8 @@
 # Miracle, Breaktrough, Secrets, Videos
 # ------------------------------------------------------------------------------
 /bizzare.{1,10}second hack/i
+
+/discover.{1,10}how this simple method/i
 
 /fight.{1,10}ringing ears/i
 

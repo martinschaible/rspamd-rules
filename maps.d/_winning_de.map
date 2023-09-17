@@ -31,10 +31,18 @@
 
 # Winning
 # ------------------------------------------------------------------------------
+/geehrter?.?gewinner/i
 /gewinn.{1,10}auf ihren namen ausstellen/i
+
 /paket hat unbegrenzte gewinne/i
 
 /sie haben mit ihrer.{1,10}e?.?mail.{1,10}adresse gewonnen/i
+
+/\d{3}.{1,5}\d{3}.{1,10}(dollar|euro?|gbp|usd) gewonnen.{1,10}zahlungsnummer/i
+
+/ihre e?.?mail.?adresse.{1,10}hat.{1,15}(millionen|tausend).{1,20}(dollar|euro?|gbp|usd).{1,20}gewonnen/i
+
+/haben Si.{1,10}\d{3}.{1,5}\d{3}.{1,10}(dollar|euro?|gbp|usd)gewonnen/i
 
 #
 #
