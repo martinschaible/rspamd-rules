@@ -35,7 +35,8 @@
 /(continue|keep).{1,10}(using|with).{1,10}(current|old|same).{1,10}password/i
 
 /(keep|stay).{1,10}the.{1,10}(current|old|same).{1,10}password.{1,10}use/i
-/(keep|stay) with the.{1,10}(current|old|same).{1,10}password/i
+/(keep|stay).{1,10}the.{1,10}(current|old|same).{1,10}password/i
+/(keep|stay).{1,10}(current|old|same).{1,10}password check below/i
 
 /want to keep the password for/i
 

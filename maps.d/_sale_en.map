@@ -107,6 +107,7 @@
 # SEO
 # ------------------------------------------------------------------------------
 /seo.?services?.{1,10}proposal/i
+/seo.?services?.{1,10}provider/i
 /seo.?services?.{1,10}include/i
 /seo.?services?.{1,10}your.{1,15}(company|web.?site)/i
 
@@ -144,6 +145,7 @@
 /1st.?page of google/i
 /1st.?page listings on google/i
 
+/get top position.{1,10}google/i
 /(promote|list) your.{1,10}web.?site.{1,10}google/i
 /not ranking.{1,10}google.{1,10}other/i
 
@@ -230,6 +232,9 @@
 /(rebuilding|redesign|repairing|upgrade) your.{1,15}web.?site theme/i
 
 /repair.{1,10}redesign your.{1,15}(web.?)?site/i
+
+/our.{1,10}web.?(design|development).{1,10}services/i
+/our.{1,10}team.{1,10}experienced web.?developers/i
 
 /specialized in.{1,10}web.?site design/i
 
