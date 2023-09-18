@@ -22,12 +22,10 @@
 #
 /&shy;&shy;ut&shy;&shy;&shy/i
 
-# We don't accept logos from this site
-/<img src=.?https:\/\/www\.freepnglogos\.com/i
-
 # Images
 # ------------------------------------------------------------------------------
 
 # No SSL and an exotic TLD
 # ------------------------------------------------------------------------------
-/http:\/\/[a-z]{3,20}\.(club|services|shop|today|world)/i
+/http:\/\/(www)?[a-z]{3,20}\.(club|services|shop|today|world)/i
+/http:\/\/(www)?[a-z]{3,20}\.sa\.com/i
