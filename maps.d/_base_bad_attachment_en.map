@@ -24,7 +24,7 @@
 
 # Sample: RFQ-PO2023080904072235AM_pdf.gz
 #         Payment_Advice,img.zip
-/[a-z0-9]{3,15}(_|,)(img|pdf)\.(gz|xz|zip)/i
+/[a-z0-9]{3,15}(_|,)(img|pdf)\.(gz|rar|xz|zip)/i
 /[a-z0-9]{3,15}\.r00\.rar/i
 
 # Sample: RQ038023.PDF.001
