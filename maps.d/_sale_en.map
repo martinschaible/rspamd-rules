@@ -241,6 +241,9 @@
 /web (design|development).{1,10}company.{1,10}specialized in/i
 /web (design|development).{1,10}company.{1,10}with.{1,10}primary/i
 
+/website design(ing)?.{1,10}web.?development/i
+/web.?development.{1,10}php.?development/i
+
 # WordPress
 /i.?a?m.{1,10}(expert|professional).{1,15}wordpress/i
 /you looking.{1,10}experienced.{1,10}wordpress/i
@@ -249,7 +252,9 @@
 # ------------------------------------------------------------------------------
 /india.{1,10}based web.?site.{1,15}(agency|design)/i
 
+/leading service providers?.{1,10}india/i
 /development company based.{1,10}india/i
+
 /we are.{1,10}india based web/i
 
 # WiFi
