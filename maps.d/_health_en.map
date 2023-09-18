@@ -93,7 +93,7 @@
 
 /reveals secret survival plan/i
 
-/this.{1,10}breakthrough discovery/i
-/this.{1,10}(minute|second).{1,10}(method|ritual)/i
+/(see here|this).{1,10}breakthrough.{1,10}(discovery|method|ritual)/i/i
+/this.{1,10}(minute|second).{1,10}(discovery|method|ritual)/i
 
 /natural.{1,10}vision.{1,10}breakthrough/i
