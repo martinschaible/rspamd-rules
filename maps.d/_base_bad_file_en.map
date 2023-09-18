@@ -16,6 +16,8 @@
 # ------------------------------------------------------------------------------
 /\/red\.html/i
 
+/[a-z]{0,10}keto[a-z]{0,10}\.html/i
+
 # Sample: qsdvqzergvqsdvqezrgiouvqqsdvqzevmsdvqsd/qsdvqsdvqsdvqsdvqsdvrtg.html#sdqsdvdvqsdvqdv.html?
 # Too long
 /\/[a-z]{15,35}\.html/i

@@ -67,8 +67,11 @@
 # Sample: P.O No_033672023.gz
 /p\.?o.?no_?[0-9]{2,15}\.(7z|doc|gz|htm|r11|rar|tgz|xls|zip)/i
 
-# Sample: "P.O 2023-0021.zip
+# Sample: P.O 2023-0021.zip
 /p\.?o.?\d{4}-\d{4}\.(7z|doc|gz|htm|r11|rar|tgz|xls|zip)/i
+
+# Sample: PDA AUG.2023.rar
+/pda.?[a-z]{2,15}.?\d{1,6}.(7z|doc|gz|htm|r11|rar|tgz|xls|zip)/i
 
 # Sample: 004414- ENQ.rar
 /\d{4,10}.{0,4}enq\.(7z|doc|gz|htm|r11|rar|tgz|xls|zip)/i

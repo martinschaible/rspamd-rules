@@ -104,6 +104,8 @@
 /proposal.{1,10}will not embarrass you/i
 /proposal.{1,10}for you.{1,10}can i send it/i
 
+/proposition.{1,10}worth millions of dollars/i
+
 /business.{1,10}(opportunity|proposal|transaction).{1,10}please get back to me/i
 /business.{1,10}(opportunity|proposal|transaction).{1,10}discuss with you/i
 
@@ -113,7 +115,7 @@
 /lucrative proposal.{1,10}share with you/i
 
 /i have.{1,10}business.{1,15}(opportunity|proposal|transaction)/i
-/i have.{1,10}highly profitable.{1,15}(opportunity|proposal|transaction)/i
+/i have.{1,10}(highly profitable|lucrative).{1,15}(opportunity|proposal|transaction)/i
 /i have.{1,10}project worth.{1,10}million/i
 /i have.{1,10}proposition for you.{1,10}which will be/i
 
