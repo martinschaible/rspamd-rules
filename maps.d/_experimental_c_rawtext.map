@@ -11,6 +11,18 @@
 /telemedia 24 sp\. z o\.o/i
 /pelema.pte.{1,5}ltd/i
 
+# Doesn't fire in the file "_ad_agency_at.map" (Content -> Cneline)
+# ------------------------------------------------------------------------------
+# -> Works not, base64 encoded
+/entertainment media gmbh/i
+
+# Phrases which other maps are not able to catch
+# ------------------------------------------------------------------------------
+/schlankheits?.?gummis/iu
+/ihr.{1,10}system wurde mit.{1,10}viren infiziert/i
+/ihre antwort genügt.{1,10}wir senden sofort zu ihnen/iu
+/premium.box.gmbh/i
+
 # Twitter
 # ------------------------------------------------------------------------------
 /<a href=(3d)?"https:\/\/t\.co\/[a-z0-9]{5,15}" target=(3d)?"_blank"/i
@@ -23,7 +35,7 @@
 /static\.wixstatic\.com.*https:\/\/t\.co\//i
 /\.googleusercontent\.com.*https:\/\/t\.co\//i
 
-# Wikipedia,Yahoo
+# Wikipedia, Yahoo
 # ------------------------------------------------------------------------------
 /<img alt=(''|"") src=.?https:\/\/upload\.wikimedia\.org\/wikipedia\/commons/i
 
@@ -32,6 +44,7 @@
 
 # Facebook CDN used for image hosting
 # ------------------------------------------------------------------------------
+# Works here!
 /scontent-.{4,6}\.xx\.fbcdn\.net/i
 
 # URL
@@ -39,16 +52,6 @@
 # Sample: qsdvqzergvqsdvqezrgiouvqqsdvqzevmsdvqsd/qsdvqsdvqsdvqsdvqsdvrtg.html#sdqsdvdvqsdvqdv.html?
 # Too long
 /\/[a-z]{15,35}\.html/i
-
-# Phrases which other maps are not able to catch
-# ------------------------------------------------------------------------------
-/schlankheits?.?gummis/iu
-/ihr.{1,10}system wurde mit.{1,10}viren infiziert/i
-/ihre antwort genügt.{1,10}wir senden sofort zu ihnen/iu
-/premium.box.gmbh/i
-
-# -> Works not, base64 encoded
-/entertainment media gmbh/i
 
 # IP address
 # ------------------------------------------------------------------------------

@@ -11,6 +11,18 @@
 /telemedia 24 sp\. z o\.o/i
 /pelema.pte.{1,5}ltd/i
 
+# Doesn't fire in the file "_ad_agency_at.map" (Content -> Cneline)
+# ------------------------------------------------------------------------------
+# -> Works here
+/entertainment media gmbh/i
+
+# Phrases which other maps are not able to catch
+# ------------------------------------------------------------------------------
+/schlankheits?.?gummis/iu
+/ihr.{1,10}system wurde mit.{1,10}viren infiziert/i
+/ihre antwort genügt.{1,10}wir senden sofort zu ihnen/iu
+/premium.box.gmbh/i
+
 # Twitter
 # ------------------------------------------------------------------------------
 /<a href=(3d)?"https:\/\/t\.co\/[a-z0-9]{5,15}" target=(3d)?"_blank"/i
@@ -22,15 +34,16 @@
 /static\.wixstatic\.com.*https:\/\/t\.co\//i
 /\.googleusercontent\.com.*https:\/\/t\.co\//i
 
-# Phrases which other maps are not able to catch
+# Wikipedia, Yahoo
 # ------------------------------------------------------------------------------
-/schlankheits?.?gummis/iu
-/ihr.{1,10}system wurde mit.{1,10}viren infiziert/i
-/ihre antwort genügt.{1,10}wir senden sofort zu ihnen/iu
-/premium.box.gmbh/i
+/<img alt=(''|"") src=.?https:\/\/upload\.wikimedia\.org\/wikipedia\/commons/i
 
-# -> Works here
-/entertainment media gmbh/i
+# Works here!
+/<img alt=(''|"") src=.?http:\/\/yahoo\.com/i
+
+# Facebook CDN used for image hosting
+# ------------------------------------------------------------------------------
+/scontent-.{4,6}\.xx\.fbcdn\.net/i
 
 # IP address
 # ------------------------------------------------------------------------------

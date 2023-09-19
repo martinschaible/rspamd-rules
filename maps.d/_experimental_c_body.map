@@ -7,9 +7,20 @@
 
 # Doesn't fire in the file "_ad_agency_misc.map" (Content -> Cneline)
 # ------------------------------------------------------------------------------
-# Poland
 /telemedia 24 sp\. z o\.o/i
 /pelema.pte.{1,5}ltd/i
+
+# Doesn't fire in the file "_ad_agency_at.map" (Content -> Cneline)
+# ------------------------------------------------------------------------------
+# Does not work here
+/entertainment media gmbh/i
+
+# Phrases which other maps are not able to catch
+# ------------------------------------------------------------------------------
+/schlankheits?.?gummis/iu
+/ihr.{1,10}system wurde mit.{1,10}viren infiziert/i
+/ihre antwort genügt.{1,10}wir senden sofort zu ihnen/iu
+/premium.box.gmbh/i
 
 # Twitter
 # ------------------------------------------------------------------------------
@@ -33,15 +44,6 @@
 # ------------------------------------------------------------------------------
 # Works here!
 /scontent-.{4,6}\.xx\.fbcdn\.net/i
-
-# Phrases which other maps are not able to catch
-# ------------------------------------------------------------------------------
-/schlankheits?.?gummis/iu
-/ihr.{1,10}system wurde mit.{1,10}viren infiziert/i
-/ihre antwort genügt.{1,10}wir senden sofort zu ihnen/iu
-/premium.box.gmbh/i
-
-/entertainment media gmbh/i
 
 # IP address
 # ------------------------------------------------------------------------------

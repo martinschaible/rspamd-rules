@@ -7,9 +7,13 @@
 
 # Doesn't fire in the file "_ad_agency_misc.map" (Content -> Cneline)
 # ------------------------------------------------------------------------------
-# Poland
 /telemedia 24 sp\. z o\.o/i
 /pelema.pte.{1,5}ltd/i
+
+# Doesn't fire in the file "_ad_agency_at.map" (Content -> Cneline)
+# ------------------------------------------------------------------------------
+# -> Works here
+/entertainment media gmbh/i
 
 # Phrases which other maps are not able to catch
 # ------------------------------------------------------------------------------
@@ -17,9 +21,6 @@
 /ihr.{1,10}system wurde mit.{1,10}viren infiziert/i
 /ihre antwort genügt.{1,10}wir senden sofort zu ihnen/iu
 /premium.box.gmbh/i
-
-# -> Works here
-/entertainment media gmbh/i
 
 # IP address
 # ------------------------------------------------------------------------------
