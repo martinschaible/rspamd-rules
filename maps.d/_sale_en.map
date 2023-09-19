@@ -153,25 +153,6 @@
 /your company.{1,10}position in google/i
 /your page.?rank on google/i
 
-# Traffic, leads
-/get more traffic.{1,10}(leads|sales)/i
-
-# Directories
-/easier.{1,10}to promote your.{1,10}web.?site/i
-/(leads|sales).{1,15}submitting your web.?site/i
-/our (list|database) consists.{1,10}millions.{1,10}business/i
-/is only listed in.{1,15}possible.{1,10}directories/i
-/e?.?mail.{1,10}cell.?phone.{1,10}(list|database)/i
-
-/promote your.{1,15}search.?engines?/i
-/promote your.{1,15}web.?site.{1,10}just a few/i
-
-/submitting your.{1,15}web.?site to.{1,25}directories/i
-/we can help you.{1,10}promote your.{1,15}business/i
-
-# Leads
-/your web.?site.{1,10}ead generating/i
-
 # SEO, India
 # ------------------------------------------------------------------------------
 
@@ -261,6 +242,25 @@
 /development company based.{1,10}india/i
 
 /we are.{1,10}india based web/i
+
+# Web Directories
+# ------------------------------------------------------------------------------
+/easier.{1,10}to promote your.{1,10}web.?site/i
+
+/(leads|sales).{1,15}submitting your web.?site/i
+/our (list|database) consists.{1,10}millions.{1,10}business/i
+/is only listed in.{1,15}possible.{1,10}directories/i
+/e?.?mail.{1,10}cell.?phone.{1,10}(list|database)/i
+
+/promote your.{1,15}search.?engines?/i
+/promote your.{1,15}web.?site.{1,10}just a few/i
+
+/submitting your.{1,15}web.?site to.{1,25}directories/i
+/we can help you.{1,10}promote your.{1,15}business/i
+
+# Traffic, leads
+/get more traffic.{1,10}(leads|sales)/i
+/your web.?site.{1,10}lead generating/i
 
 # WiFi
 # ------------------------------------------------------------------------------

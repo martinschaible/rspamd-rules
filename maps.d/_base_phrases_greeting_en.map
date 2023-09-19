@@ -69,7 +69,8 @@
 /i am mrs?.{5,25}i am a us citizen/i
 
 /(dear friend|good day to you|how.are.you.doing|nice.day).{1,10}this.is.{5,25}from/i
-/i hope this e?.?mail finds you well.{1,10}i am (mrs?|ms)/i
+/hope this e?.?mail finds you well.{1,10}i am (mrs?|ms)/i
+/hope this e?.?mail finds you well.{1,10}my name is/i
 
 # My name is ...
 /my name is.{5,25}a purchase.representative/i

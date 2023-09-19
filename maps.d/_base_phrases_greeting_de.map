@@ -57,6 +57,7 @@
 /mein name ist.(frau|herr|mrs?|leutnant)/i
 /mein name ist.{5,25}ich schreibe ihnen/i
 /mein name ist.{5,25}ich vertrete/i
+/mein name ist.{5,25}ich bin.{1,15}anwalt/i
 /mein name ist.{5,25}von der.{1,15}(agentur|marketing)/i 
 
 /sehr geehrter.{1,10}(begünstigter|empfänger)/iu
