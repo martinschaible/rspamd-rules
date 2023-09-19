@@ -111,14 +111,15 @@
 
 /business.{1,10}(opportunity|proposal|transaction).{1,10}please get back to me/i
 /business.{1,10}(opportunity|proposal|transaction).{1,10}discuss with you/i
+/business.{1,10}(opportunity|proposal|transaction).{1,10}that.{1,10}want to discuss/i
 
 /deal.{1,10}that will benefit both parties/i
 
 /confidential business.{1,10}(opportunity|transaction).{1,10}with you/i
 /lucrative proposal.{1,10}share with you/i
 
-/i have.{1,10}business.{1,15}(opportunity|proposal|transaction)/i
-/i have.{1,10}(highly profitable|lucrative).{1,15}(opportunity|proposal|transaction)/i
+/i have.{1,15}business.{1,15}(opportunity|proposal|transaction)/i
+/i have.{1,15}(profitable|lucrative).{1,15}(business|opportunity|proposal|transaction)/i
 /i have.{1,10}project worth.{1,10}million/i
 /i have.{1,10}proposition for you.{1,10}which will be/i
 
