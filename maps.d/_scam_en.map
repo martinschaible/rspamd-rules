@@ -21,13 +21,16 @@
 /atm.{0,10}card.{1,10}for you worth/i
 /atm.{0,10}card.{1,10}to you.{1,10}contact/i
 /atm.{0,10}card.{1,10}parcel valued/i
+/atm.{0,10}card.{1,10}worth of.{1,10}million/i
 
 /attn.{1,10}atm.{0,10}card.{1,10}owner/i
 
 /\d{3}.{0,5}\d{3}.{1,10}million.{1,10}atm.{1,10}card/i
 
 /delivery? of your.{1,10}atm.{1,10}card to you/i
-/your payment of.{1,10}million.{1,10}through.{1,10}atm.{1,10}card/i
+
+/your.{1,10}atm.{0,10}card.{1,10}worth of/i
+/your.{1,10}payment of.{1,10}million.{1,10}through.{1,10}atm.{1,10}card/i
 
 /we received an.{1,10}atm.{0.10}card/i
 
