@@ -5,16 +5,20 @@
 #  10 |
 # ==============================================================================
 
-# Doesn't fire in the file "_ad_agency_misc.map" (Content -> Cneline)
+# Doesn't fire in the file "_ad_agency_misc.map" (Content -> Oneline)
 # ------------------------------------------------------------------------------
 # Poland
 /telemedia 24 sp\. z o\.o/i
 /pelema.pte.{1,5}ltd/i
 
-# Doesn't fire in the file "_ad_agency_at.map" (Content -> Cneline)
+# Doesn't fire in the file "_ad_agency_at.map" (Content -> Oneline)
 # ------------------------------------------------------------------------------
 # -> Works here
 /entertainment media gmbh/i
+
+# Doesn't fire in the file "_base_bad_url.map" (URL -> Full)
+# ------------------------------------------------------------------------------
+/\.za\.com\/clicks\//i
 
 # Phrases which other maps are not able to catch
 # ------------------------------------------------------------------------------
