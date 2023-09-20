@@ -34,8 +34,8 @@
 #         PO#006543678.pdf.z
 #         Scan_Copy227466.PDF.html
 
-/[a-z0-9]{3,15}\.pdf\.(001|html|z)/i
-/[a-z0-9]{3,15}\.xls\.html/i
+/[a-z0-9]{3,15}\.pdf\.(001|htm|z)/i
+/[a-z0-9]{3,15}\.xls\.htm/i
 
 /[a-z0-9]{3,15}pdf\.7z/i
 
