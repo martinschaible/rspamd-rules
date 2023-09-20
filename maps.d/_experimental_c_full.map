@@ -82,10 +82,11 @@
 /\.jpg" \/><img height="1" src="http:\/\//i
 /<img height="1" src=.?http:\/\//i
 
-# No SSL
+# No SSL and an exotic TLD
 # ------------------------------------------------------------------------------
-/http:\/\/[a-z0-9-]{3,25}\.shop/i
-/http:\/\/[a-z0-9-]{3,25}\.(ru|sa)\.com\//i
+/http:\/\/(www\.)?[a-z]{3,20}\.(club|email|services|shop|today|world)/i
+/http:\/\/(www\.)?[a-z]{3,20}\.(sa|za)\.com/i
+/http:\/\/(www\.)?[a-z0-9-]{3,25}\.(ru|sa)\.com\//i
 
 /\/head><body><img src=.?http:\/\//i
 /<a href=3d.?http:\/\/mail\./i
