@@ -84,6 +84,7 @@
 
 # No SSL and an exotic TLD
 # ------------------------------------------------------------------------------
+# -> Works here
 /http:\/\/(www\.)?[a-z]{3,20}\.(club|email|services|shop|today|world)/i
 /http:\/\/(www\.)?[a-z]{3,20}\.(sa|za)\.com/i
 /http:\/\/(www\.)?[a-z0-9-]{3,25}\.(ru|sa)\.com\//i
