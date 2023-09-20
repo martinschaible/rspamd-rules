@@ -112,7 +112,7 @@
 
 # Payments
 # ------------------------------------------------------------------------------
-/(bank|remittance).?(receipt|slip).(7z|doc|gz|htm|rar|tgz|xls|zip)/i
+/(bank|remittance).?(copy|receipt|slip).(7z|doc|gz|htm|rar|tgz|xls|zip)/i
 /payment.{0,5}(advice|copy|rfq).{0,5}\.(7z|doc|gz|htm|r11|rar|tgz|xls|zip)/i
 /(confirmation|payment).{0,5}\.(7z|doc|gz|htm|r11|rar|tgz|xls|zip)/i
 
@@ -133,6 +133,9 @@
 /swift.?copy.{0,20}\.(7z|doc|gz|htm|r11|rar|tgz|xls|zip)/i
 
 # Lottery
+# ------------------------------------------------------------------------------
+
+# Voice Mailbox
 # ------------------------------------------------------------------------------
 
 #

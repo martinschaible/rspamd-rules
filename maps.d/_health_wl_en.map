@@ -7,11 +7,16 @@
 #  10 | English        |
 # ==============================================================================
 
+#
+# ------------------------------------------------------------------------------
+/belly.?fat.{1,10}fast with this/i
+/belly.?fat.{1,10}just by adding/i
+
 /try this.{1,15}fat.?burning/i
 
 /(burn|melt)s?.{1,10}(belly|body).?fat.{1,15}(crazy|faster|overnight)/i
 /(burn|melt)s?.{1,10}unwanted.{1,10}(belly|body).?fat/i
-/(burn|melt)s?.{1,10}(lbs|pounds).{1,10}fat per week/i
+/(burn|melt)s?.{1,10}(lbs|pounds).{1,10}fat (a|per) week/i
 /(burn|melt)s?.{1,10}(lbs|pounds) of.{1,10}fat/i
 /(burn|melt)s?.{1,10}fat.{1,10}it boosts/i
 
@@ -22,10 +27,8 @@
 
 /(achieve|solve) your.{1,10}weight.?loss/i
 
-/belly.?fat.{1,10}fast with this/i
-/belly.?fat.{1,10}just by adding/i
-
 /melt away.{1,10}(lbs|pounds).{1,15}(belly|body).?fat/i
+/melt over.{1,10}(lbs|pounds).{1,10}(a|per) week/i
 
 /this.{1,10}(fat|weight).?loss.{1,10}product/i
 /imagine losing.{1,10}(lbs|pounds)/i
@@ -35,6 +38,10 @@
 # No Diets
 # ------------------------------------------------------------------------------
 /no more diets.{1,10}sweating/i
+
+# Products
+# ------------------------------------------------------------------------------
+/(recipe|tea).{1,10}lose.{1,10}f(lbs|pounds).{1,10}(a|per) week/i
 
 # Stupid Promises
 # ------------------------------------------------------------------------------

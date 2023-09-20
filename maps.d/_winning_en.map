@@ -24,6 +24,8 @@
 
 /(bmw|coca.?cola).(lotterie|lottery)/i
 
+/promotion.{1,10}prize dept/i
+
 # Fake Programs
 # ------------------------------------------------------------------------------
 /microsoft.{1,10}promotion.?award/i

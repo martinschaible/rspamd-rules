@@ -47,6 +47,8 @@
 /paket.{1,20}ist in.{1,10}depot zurückgekehrt/i
 /paket.{1,20}kam sicher in.{1,10}lager zurück/i
 
+/paket in der warteschleife.{1,10}hallo/i
+
 /nachfolgenden produkt kann nicht zugestellt werden/i
 
 # Pay Customs, VAT
@@ -56,8 +58,8 @@
 /nicht geliefert werden.{1,10}kein zoll bezahlt wurde/i
 
 /paket.{1,10}erhalten.{1,10}das eine zollgebühr von.{1,10}zu entrichten/iu
-/paket.{1,10}liefern können.{1,10}werden dem importeur.{1,10}zoll.?gebühren/iu
-/paket.{1,10}zu ermöglichen.{1,10}wird dem importeur die mehrwertsteuer/i
+/paket.{1,10}liefern.{1,10}werden dem importeur.{1,10}(mehrwertsteuer|zoll.?gebühren)/iu
+/paket.{1,10}zu ermöglichen.{1,10}wird dem importeur.{1,10}(mehrwertsteuer|zoll.?gebühren)/iu
 /paket.{1,10}aufgrund.{1,10}unerwartet(eten)?.{1,10}zollabwicklung/i
 
 /zölle anfallen.{1,10}die bezahlt werden müssen/iu
@@ -79,11 +81,11 @@
 /paket.{1,10}bekommen.{1,10}ist eine zahlung notwendig/i
 /paket.{1,10}ist im zoll deklariert.{1,10}wir laden sie ein.{1,10}chf/i
 /paket.{1,10}zu.{1,20}werden die mehrwertsteuerkosten/i
-/paket.{1,10}liefern.{1,15}werden dem importeur die mehrwertsteuer/i
 
 /die sendung unterliegt.{1,10}lieferabgaben/i
 
 /lieferung erhalten.{1,15}zahlung.{1,10}(notwendig|verpflichtend)/i
+/lieferdaten.{1,10}bezahlen sie die.{1,10}versandkosten/i
 
 /sendung wartet auf.{1,10}zahlung/i
 /sendung zu bezahlen.{1,10}zu verfolgen/i
