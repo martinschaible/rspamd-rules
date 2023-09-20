@@ -48,6 +48,8 @@
 /good (day|morning).{1,10}our.{1,10}investors/i
 /good (day|morning).{1,10}this is.{5,25}from/i
 
+/good (day|morning).{1,10}(sir|madam).{1,10}i am.{5,25}sales.?manager/i
+
 /greetings.{1,15}(business|investment).{1,15}partnership/i
 /greetings.{1,15}i need your assistance/i
 /greetings.{1,15}i am sgt/i
@@ -78,7 +80,7 @@
 /my name is.{5,25}i.?a?m.{1,10}(general|sales).manager/i
 /my name is.{1,25}(attorney|business|investment|investor|private)/i
 /my name is.{1,25}i am.{1,10}(adviser|citizen of)/i
-/my name is.{5,25}i am writing this message/i
+/my name is.{5,25}i am writing (this message|to you)/i
 
 /my name is mrs?.{5,25}from/i
 
