@@ -23,7 +23,7 @@
 # Donation
 # ------------------------------------------------------------------------------
 /investitions.?zuschuss/i
-/spenden.?belohnung/i
+/spenden.?(belohnung|preis)/i
 
 /spenden.{1,15}fonds/i
 

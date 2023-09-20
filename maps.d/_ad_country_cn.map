@@ -18,7 +18,7 @@
 # Intros, specific China
 # ------------------------------------------------------------------------------
 /(china|guangzhou|shenzhen).{1,10}factory.{1,10}specializes.{1,10}producing/i
-/(china|guangzhou|shenzhen).{1,10}(my|our).{1,10}(company|factory).{1,10}(offers|specializes)/i
+/(china|guangzhou|shenzhen).{1,10}(my|our).{1,10}(company|factory).{1,10}(offers|specialized|specializes)/i
 /(china|guangzhou|shenzhen).{1,10}we can handle all kinds/i
 /(china|guangzhou|shenzhen).{1,10}we are.{1,10}(company|factory|manufacturer|supplier)/i
 /(china|guangzhou|shenzhen).{1,15}we are.{1,10}leading.{1,10}professional/i
@@ -89,8 +89,11 @@
 /we.?a?re.{1,10}prototype.{1,15}machining/i
 
 /we.?a?re.{1,10}(professional|reliable).{1,10}plastic.{1,10}injection/i
+we.?a?re.{1,10}(professional|reliable).{1,10}injection.{1,10}molding/i/i
 
 /we specialized?.{1,10}cnc machining/i
+
+/you need.{1,10}precision.{1,10}cnc/i
 
 # Products - Electronics
 # ------------------------------------------------------------------------------
@@ -100,11 +103,13 @@
 
 /we (offer|specialized?).{1,15}electronic.{1,10}component/i
 
+/we.?a?re.{1,10}capacitor.{1,10}factory since/i
 /we.?a?re.{1,10}distributor (for|of).{1,20}(components|electronics)/i
-/we.?a?re.{1,10}electronic.?components?.?(broker|distributor)/i
+/we.?a?re.{1,10}independent.{1,10}distributor.{1,20}(components|electronics)/i
+/we.?a?re.{1,10}electronic.{1,10}components?.{1,10}(broker|distributor)/i
 /we.?a?re.{1,10}electrical.{1,10}products.{1,10}automatic/i
 
-/you looking.{1,10}electronic.components?/i
+/you looking.{1,10}electronic.{1,10}components?/i
 /you still interested.{1,10}capacitors/i
 
 # Products - Molding
@@ -117,21 +122,22 @@
 
 # Products - PCB
 # ------------------------------------------------------------------------------
-/pcb.{1,10}we can offer.{1,10}the best/i
-/pcb.{1,10}factory.{1,10}focus on/i
-/pcb.{1,10}manufacturer with good quality/i
+/pcba?.{1,10}factory.{1,10}focus on/i
+/pcba?.{1,10}manufacturer with good quality/i
+/pcba?.{1,10}we can offer.{1,10}the best/i
 
-/ltd.{1,10}a professional pcb/i
-/in the field of pcb.{1,10}years/i
-/we focus on pcb/i
+/ltd.{1,10}a professional pcba?/i
+/in the field of pcba?.{1,10}years/i
 
-/we.?a?re.{1,10}(pc|printed.circuit.board).{1,10}manufacturer/i
+/we.{1,10}focus on pcba?/i
 
-/we.?a?re.{1,10}independent distributor.{1,20}(components|electronics)/i
-/we.?a?re.{1,10}capacitor factory since/i
+/we.{1,10}(offer|provide).{1,10}(pcba?|printed.circuit.board).{1,10}(assembly|layers)/i
 
-/you need to purchase.{1,10}(pcb|printed circuit boards)/i
-/you to proceed your pcb.{1,10}project/i
+/we.?a?re.{1,10}(pcba?|printed.circuit.board).{1,10}manufacturer/i
+
+/you need to purchase.{1,10}(pcba?|printed circuit boards)/i
+/you to proceed your.{1,10}(pcba?|printed circuit boards).{1,10}project/i
+/you have any.{1,10}(pcba?|printed circuit boards).{1,15}need/i
 
 # Products, specific China
 # ------------------------------------------------------------------------------
