@@ -17,16 +17,13 @@
 # Sample: 0371000451985_082023.rar
 /\d{4,10}_{4,10}\.rar/i
 
-/excel\.htm/i
+/(contract|excel).{0,10}\.htm/i
 
 # Sample: 100,000,00.rar
 /\d{1,4},\d{1,4},\d{1,4}\.rar/i
 
 # Sample: PO 908534243.tgz
 /\d{4,15}\.tgz/i
-
-/excel.?file\.htm/i
-
 
 # Double Extension
 # ------------------------------------------------------------------------------
