@@ -90,6 +90,9 @@
 /(e.?mail|message) finds you well.{1,10}my name is/i
 /(e.?mail|message) reaches you in a good faith.{1,10}my name is/i
 
+/dear sir.{1,5}madam.{1,10}my name is/i
+
+/hello there.{1,10}my name is/i
 /hello.{1,10}my dearest.{1,10}my name is/i
 /(dear friend|good day|greetings).{1,10}my name is/i
 /to whom it may concern.{1,10}my name is/i
@@ -151,6 +154,10 @@
 
 # Surprise
 # ------------------------------------------------------------------------------
+
+# Silly Stuff
+# ------------------------------------------------------------------------------
+/dear sir.{1,10}your reputable profile/i
 
 #
 #
