@@ -17,9 +17,10 @@
 
 # Inquiries, Orders, Quotes, Invoices
 # ------------------------------------------------------------------------------
-/anfrage.?\.(7z|doc|gz|htm|rar|xls|zip)/i
-/anfrage.?\d{4,10}\.(7z|doc|gz|htm|rar|xls|zip)/i
+/(anfrage|bestellung).?\.(7z|doc|gz|htm|rar|xls|zip)/i
+/(anfrage|bestellung).?\d{4,10}\.(7z|doc|gz|htm|rar|xls|zip)/i
 
+/bestellung
 # Invoices
 # ------------------------------------------------------------------------------
 /rechnung.{0,15}\.(7z|doc|gz|htm|rar|xls|zip)/i
