@@ -58,6 +58,8 @@
 
 /ihrer e?.?mail haben sie eine spende/i
 
+/ihre.{1,10}spende jetzt erhalten können/iu
+
 /(ich|sie) haben? eine.{1,15}spende.{1,10}(in höhe)?.{0,10}von.{2,10}\d{3}.{0,5}\d{3}/iu
 /(ich|sie) haben? eine.{1,15}spende.{1,10}(in höhe)?.{0,10}von.{2,10}million/iu
 /(ich|sie) haben? eine.{1,15}spende.{1,10}von.{5,25}weitere informationen/i

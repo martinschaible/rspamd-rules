@@ -9,6 +9,8 @@
 # ------------------------------------------------------------------------------
 /this is.{5,20}from.{5,25}in shenzhen/i
 
+/industry co.{1,10}ltd.{1,10}(china|guangzhou|shenzhen)/i
+
 # Intros
 # ------------------------------------------------------------------------------
 /glad to (know|hear) that you.{1,10}on the market for/i
@@ -24,6 +26,7 @@
 /(china|guangzhou|shenzhen).{1,15}we are.{1,10}leading.{1,10}professional/i
 /(china|guangzhou|shenzhen).{1,20}supply all kinds of.{1,10}quality/i
 /(china|guangzhou|shenzhen).{1,10}you have any need for our/i
+/(china|guangzhou|shenzhen).{1,10}hope to open.{1,10}(business|relationship)/i
 
 /(co|ltd).{1,10}(china|guangzhou|shenzhen).{1,10}are you interested/i
 

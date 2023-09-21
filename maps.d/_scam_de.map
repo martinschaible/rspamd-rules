@@ -121,10 +121,6 @@
 /euro? an meine? bitcoin.?(adresse|wallet)/i
 /mein bitcoin.?(adresse|wallet) sieht so aus/i
 
-# Business Register
-# ------------------------------------------------------------------------------
-/für die veröffentlichung.{1,10}im branchen.?buch/iu
-
 # Nomination
 # ------------------------------------------------------------------------------
 /annahme ihrer nominierung/i
@@ -134,8 +130,20 @@
 
 /nominierungsfrist.{1,15}deutschen.{1,10}wirtschaftspreis/i
 
+#
+#
+#
+
+# Business Register
+# ------------------------------------------------------------------------------
+/für die veröffentlichung.{1,10}im branchen.?buch/iu
+
 # Greencard
 # ------------------------------------------------------------------------------
+
+# Illuminati
+# ------------------------------------------------------------------------------
+/sie wurden ausgewählt.{1,15}(illuminati|illuminaten)/i
 
 #
 #

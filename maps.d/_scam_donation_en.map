@@ -24,14 +24,13 @@
 
 /(donation|grant).{1,10}has been made to you/i
 
-/donation.{1,15}\d{3}.{0,5}\d{3}.{1,10}has been made for you/i
-/donation.{1,15}contact her to claim/i
+/donation.{1,15}contact.{1,10}to claim/i
 /donation.{1,15}for more details e?.?mail/i
+/donation.{1,15}\d{3}.{0,5}\d{3}.{1,15}contact us.{1,10}e?.?mail/i
 
-/donated?.{1,10}\d{3}.{0,5}\d{3}.{1,15}(for|to) you/i
 /donated?.{1,10}(dollar|euro?|gbp|usd).{1,10}(for|to) you/i
 /donated?.{1,10}some amount to you/i
-/donated?.{1,10}to you.{1,10}Contact for.{1,10}details/i
+/donated?.{1,10}to you.{1,10}contact for.{1,10}details/i
 
 /was selected randomly.{1,10}receive.{1,15}donation/i
 
@@ -39,6 +38,8 @@
 /i am donating to.{1,10}random individuals/i
 
 /million.{1,15}kindly reply for more details/i
+
+/your.{1,10}e?.?mail.{1,10}(account|address).{1,10}was selected for.{1,10}donation/i
 
 # Donation, Companies
 # ------------------------------------------------------------------------------

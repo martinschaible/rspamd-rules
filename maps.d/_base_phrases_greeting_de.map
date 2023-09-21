@@ -55,11 +55,12 @@
 
 /mein name ist.barr(\.|ister)/i
 /mein name ist.(frau|herr|mrs?|leutnant)/i
+/mein name ist.{5,25}ich arbeite für/i
 /mein name ist.{5,25}ich schreibe ihnen/i
 /mein name ist.{5,25}ich vertrete/i
 /mein name ist.{5,25}ich bin.{1,15}anwalt/i
-/mein name ist.{5,25}von der.{1,15}(agentur|marketing)/i 
 /mein name ist.{5,25}ich bin eine?.{1,10}deutsch(er)?/i
+/mein name ist.{5,25}von der.{1,15}(agentur|marketing)/i 
 
 /sehr geehrter.{1,10}(begünstigter|empfänger)/iu
 /sehr geehrter?.{1,10}(frau|herr).{1,10}hoffe es geht dir gut/i
