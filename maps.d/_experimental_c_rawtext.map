@@ -96,9 +96,14 @@
 # ------------------------------------------------------------------------------
 # -> Works here
 /http:\/\/(www\.)?[a-z]{3,20}\.(club|email|services|shop|today|world)/i
-/http:\/\/(www\.)?[a-z]{3,20}\.(sa|za)\.com/i
-/http:\/\/(www\.)?[a-z0-9-]{3,25}\.(ru|sa)\.com\//i
+# Subdomain
+/http:\/\/[a-z0-9-]{3,25}\.[a-z]{3,20}\.(club|email|services|shop|today|world)/i
+
+/http:\/\/(www\.)?[a-z0-9-]{3,25}\.(ru|sa|za)\.com\//i
 /http:\/\/(www\.)?[a-z0-9-]{3,25}\.co\.(in|uk)\//i
+# Subdomain
+/http:\/\/[a-z0-9-]{3,25}\.[a-z0-9-]{3,25}\.(ru|sa|za)\.com\//i
+/http:\/\/[a-z0-9-]{3,25}\.[a-z0-9-]{3,25}\.co\.(in|uk)\//i
 
 # No SSL
 # ------------------------------------------------------------------------------
