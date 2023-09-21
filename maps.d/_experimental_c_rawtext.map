@@ -46,6 +46,10 @@
 # Works here!
 /<img alt=(''|"") src=.?http:\/\/yahoo\.com/i
 
+# Sendgrid
+# ------------------------------------------------------------------------------
+/sendgrid\.net.*\.s3\.amazonaws\.com/i
+
 # Facebook CDN used for image hosting
 # ------------------------------------------------------------------------------
 # Works here!

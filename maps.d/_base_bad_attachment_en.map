@@ -97,6 +97,8 @@
 /p.?o.{4,10}picture\.(7z|doc|gz|htm|r11|rar|tgz|xls|zip)/i
 /p.?o.?no.{4,10}\.(7z|doc|gz|htm|r11|rar|tgz|xls|zip)/i
 
+/soa\.zip/i
+
 # Invoices
 # ------------------------------------------------------------------------------
 
