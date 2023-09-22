@@ -93,7 +93,7 @@
 # ------------------------------------------------------------------------------
 /benefit for investment in your.{1,15}country/i
 /viable investment opportunities in your.{1,15}country/i
-/you to.{1,10}invest in your.{1,15}country/i
+/(who want|you) to.{1,10}invest in your.{1,15}country/i
 
 # Investment, Properties
 # ------------------------------------------------------------------------------
@@ -198,6 +198,7 @@
 
 # Nomination
 # ------------------------------------------------------------------------------
+/participate.{1,10}our global.?awards/i
 
 #
 #
