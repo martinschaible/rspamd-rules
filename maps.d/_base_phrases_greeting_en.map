@@ -37,7 +37,7 @@
 /dear manager.{1,10}nice day/i
 /dear.{1,10}good day.{1,10}this is.{5,25}from/i
 
-/(dear|hi) (purchase|purchasing).?manager/i
+/(dear|hi).{1,5}(purchase|purchasing).?manager/i
 /dear purchaser.{1,10}how are you/i
 
 /dearest possible companion/i
