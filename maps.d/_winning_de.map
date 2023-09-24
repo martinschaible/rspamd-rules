@@ -41,6 +41,7 @@
 /\d{3}.{1,5}\d{3}.{1,10}(dollar|euro?|gbp|usd) gewonnen.{1,10}zahlungsnummer/i
 
 /ihre e?.?mail.?adresse.{1,10}hat.{1,15}(millionen|tausend).{1,20}(dollar|euro?|gbp|usd).{1,20}gewonnen/i
+/ihre e?.?mail.?adresse.{1,10}wurde ausgewählt.{1,10}um den betrag/iu
 
 /haben sie.{1,10}\d{3}.{1,5}\d{3}.{1,10}(dollar|euro?|gbp|usd).{1,10}gewonnen/i
 

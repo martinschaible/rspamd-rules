@@ -30,6 +30,12 @@
 /sie als einer der.{1,15}begünstigten ausgewählt/iu
 /sie als unsere.{1,15}begünstigte ausgewählt/iu
 
+# Currency, Big numbers
+# ------------------------------------------------------------------------------
+/millionen.{1,10}(dollar|euro?|gbp|usd).{1,10}kontaktieren sie mich/i
+
+/\d{3}.{0,5}\d{3}.{1,10}der mit ihrem namen/i
+
 # Fake Organisations
 # ------------------------------------------------------------------------------
 /entschädigungs.?kommission.{1,10}vereinten nationen/i
@@ -40,8 +46,6 @@
 /wir haben einen nicht beanspruchten.{1,10}betrag/i
 
 /ihre.{1,10}e?.?mail.?adresse.{1,10}wurde ausgewählt.{1,10}um diesen fonds/iu
-
-/\d{3}.{0,5}\d{3}.{1,10}der mit ihrem namen/i
 
 # Heir
 # ------------------------------------------------------------------------------
@@ -152,3 +156,4 @@
 # Bad german
 # ------------------------------------------------------------------------------
 /unterabteilung fedpol.{1,10}teilen ihnen mit/i
+/vertrauliches geschäftsabkommen/iu

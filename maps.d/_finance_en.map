@@ -10,8 +10,9 @@
 # Intros
 # ------------------------------------------------------------------------------
 /we.are.independent.financial/i
-/we.are.{1,15}financial.advisors/i
-/we are.{1,10}financial consulting company/i
+/we.are.{1,15}financial.{1,10}(advisors|institution)/i
+/we are.{1,10}financial.{1,10}consulting company/i
+/we are.{1,10}first.?class.{1,10}financial.{1,10}institution/i
 
 /i represent a group of.{1,15}(lenders|investors)/i
 
