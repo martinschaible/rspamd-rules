@@ -50,12 +50,6 @@
 
 # Intros
 # ------------------------------------------------------------------------------
-/has been in this field for more than.{1,10}years/i
-
-/you looking for.{1,10}factory who can/i
-
-/our factory mainly focus on/i
-
 /we.?a?re.{1,10}factory with.{1,10}years experience/i
 /we.?a?re.{1,10}leading manufacturer.{1,10}of/i
 /we.?a?re.{1,10}leader oem.{1,10}manufacturer/i
@@ -74,13 +68,19 @@
 /we are.{1,10}specializes in the production of/i
 /we are.{1,10}the leading importers/i
 
-/introduce ourselves as.{1,10}leading manufacturer (in|of)/i
-
 /(co|ltd).{1,15}is a factory specialized in/i
 /(co|ltd).{1,15}professional.{1,15}manufacturer/i
 /(co|ltd).{1,15}we are leading.{1,15}professional/i
 
+/has been in this field for more than.{1,10}years/i
+/introduce ourselves as.{1,10}leading manufacturer (in|of)/i
+
 /to whom it may concern.{1,10}our company/i
+
+/our factory mainly focus on/i
+/our company as.{1,10}leading.{1,15}(supplier|trader)/i
+
+/you looking for.{1,10}factory who can/i
 
 # Experience
 # ------------------------------------------------------------------------------

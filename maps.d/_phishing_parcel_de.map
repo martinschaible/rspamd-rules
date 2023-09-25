@@ -55,14 +55,16 @@
 # Pay Customs, VAT
 # ------------------------------------------------------------------------------
 /begleichen sie eine zollgebühr/iu
+/lieferung aufgrund unbezahlter zollgebühren/iu
 
 /nicht geliefert werden.{1,10}kein zoll bezahlt wurde/i
 
+/paket.{1,10}aufgrund.{1,10}unbezahlter zollgebühren nicht/iu
+/paket.{1,10}aufgrund.{1,10}unerwartet(eten)?.{1,10}zollabwicklung/i
 /paket.{1,10}erhalten.{1,10}das eine zollgebühr von.{1,10}zu entrichten/iu
 /paket.{1,10}liefern.{1,10}werden dem importeur.{1,10}(mehrwertsteuer|zoll.?gebühren)/iu
-/paket.{1,10}zu ermöglichen.{1,10}wird dem importeur.{1,10}(mehrwertsteuer|zoll.?gebühren)/iu
-/paket.{1,10}aufgrund.{1,10}unerwartet(eten)?.{1,10}zollabwicklung/i
 /paket.{1,10}ist.{1,10}zoll deklariert.{1,10}wir laden sie ein/i
+/paket.{1,10}zu ermöglichen.{1,10}wird dem importeur.{1,10}(mehrwertsteuer|zoll.?gebühren)/iu
 
 /zölle anfallen.{1,10}die bezahlt werden müssen/iu
 
@@ -71,7 +73,8 @@
 
 /steuern.{1,10}abgaben nicht beglichen hat/i
 
-/gebühren.{1,10}chf 1\.99/iu
+/gebühren.{1,10}chf 1(\.|,)99/iu
+/betrag beträgt 1(\.|,)99 euro/iu
 
 # Pay Fees
 # ------------------------------------------------------------------------------

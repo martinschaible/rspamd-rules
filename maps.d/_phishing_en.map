@@ -51,9 +51,13 @@
 /you have.{1,10}pending messages on.{1,10}(imap|pop)/i
 
 /not.{1,20}delivered to your mail.?box/i
-#
-/(pending|receive).{1,15}messages.{1,10}avoid termination of your.{1,10}account/i
 /messages were sent to you.{1,10}but were not.{1,20}delivered/i
+
+# Pending
+/(pending|receive).{1,15}messages.{1,10}avoid termination of your.{1,10}account/i
+
+/you have.{1,10}pending.{1,10}messages.{1,10}that could not be sent/i
+/you have suspended.{1,10}incoming.{1,10}message/i
 
 # Surveys
 # ------------------------------------------------------------------------------
