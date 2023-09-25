@@ -22,6 +22,7 @@
 /(dear|hello|hi).{1,15}(director|manager|purchaser|supplier).{1,10}do you need/i
 /(dear|hello|hi).{1,15}(director|manager|purchaser|supplier).{1,10}how are you/i
 /(dear|hello|hi).{1,15}(director|manager|purchaser|supplier).{1,10}how do you do/i
+/(dear|hello|hi).{1,15}(director|manager|purchaser|supplier).{1,10}good day to you/i
 /(dear|hello|hi).{1,15}(director|manager|purchaser|supplier).{1,10}good day.{1,10}(are you seeking|do you need|this is|we are)/i
 /(dear|hello|hi).{1,15}(director|manager|purchaser|supplier).{1,10}this is (mrs?|ms)/i
 /(dear|hello|hi).{1,15}(director|manager|purchaser|supplier).{1,10}this is.{5,25}from/i
@@ -32,7 +33,9 @@
 
 /hi dear.{1,10}my name is/i
 
-/dear (ceo|trustee|web.?owner)/i
+/dear (ceo|trustee)/i
+/dear (e?.?mail|web).?owner/i
+
 /dear friend.{1,10}i am (mrs?|ms)/i
 /dear manager.{1,10}nice day/i
 /dear.{1,10}good day.{1,10}this is.{5,25}from/i
@@ -116,7 +119,8 @@
 
 # Introduction, Country
 # ------------------------------------------------------------------------------
-/my name is.{5,30}i am from.{1,10}(china|ukraine)/i
+/my name is.{5,30}i am from.{1,10}(china|india|ukraine)/i
+/hello.{1,10}i am.{5,25}from.{1,15}(china|india|ukraine)/i
 
 /i have your audience.{1,10}i.?a?.?m from/i
 /i am mrs?.{5,25}libian nationality/i
@@ -139,6 +143,7 @@
 /i.?a?m (mrs?|ms).{5,35}wife of mr/i
 /i.?a?m (mrs?|ms).{5,35}a.{1,10}years old/i
 
+/i am agent.{5,25}i am a/i
 /i am.{5,25}a.{1,10}investor.{1,10}philanthropist/i
 
 /we have over.{1,10}years.{1,10}experience in/i
