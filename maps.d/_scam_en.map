@@ -53,6 +53,7 @@
 /acquire this money in my name/i
 /claim of your fund/i
 
+/proposal to move out.{1,10}funds/i
 /there is.{1,10}substantial unclaimed.{1,10}sum/i
 
 /you an opportunity.{1,10}receive.{1,15}funds/i
@@ -118,6 +119,8 @@
 /business.{1,10}(opportunity|proposal|transaction).{1,10}please get back to me/i
 /business.{1,10}(opportunity|proposal|transaction).{1,10}discuss with you/i
 /business.{1,10}(opportunity|proposal|transaction).{1,10}that.{1,10}want to discuss/i
+
+/business.{1,20}with you in your country/i
 
 /deal.{1,10}that will benefit both parties/i
 
