@@ -85,6 +85,8 @@
 /ich bin.{5,25}(der|die) gewinner(in)? des/i
 /mich ihnen vorstellen.{1,10}ich bin/i
 
+/kompliment des tages.{1,10}ich kontaktiere sie/i
+
 # Introduction, Country
 # ------------------------------------------------------------------------------
 /ich bin (frau|herr).{5,25}aus.{1,10}abidjan/i
@@ -103,6 +105,7 @@
 # Religious
 # ------------------------------------------------------------------------------
 /liebster? im herrn/i
+/ich grüße dich.{1,10}im namen des herrn/iu
 
 # Surprise
 # ------------------------------------------------------------------------------
