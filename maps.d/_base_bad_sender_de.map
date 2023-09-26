@@ -94,6 +94,8 @@
 /(darlehen|kredit).(anfrage|angebot)/i
 /(kostenlos|schnell).{1,5}kredit/i
 
+/immobilienpreise/i
+
 # Make Money
 # ------------------------------------------------------------------------------
 /bitcoin.?(bulletin|geld|handel|händler|nachrichten)/i
@@ -116,6 +118,8 @@
 /millionen.?gewinner/i
 
 /spanische.?lotterie
+
+/rekord.?jackpot/i
 
 # Virus, Malware
 # ------------------------------------------------------------------------------
