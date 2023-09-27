@@ -146,6 +146,10 @@
 /(werkstatt|werkzeug).?(trolley|wagen).{1,10}genau das richtige/i
 /(werkstatt|werkzeug).?(trolley|wagen).{1,10}mit.{1,10}schubladen/i
 /(werkstatt|werkzeug).?(trolley|wagen).{1,10}ist aus robustem/i
+/(werkstatt|werkzeug).?(trolley|wagen).{1,10}konstruiert aus/i
+/(werkstatt|werkzeug).?(trolley|wagen).{1,10}inklusive.{1,10}Werkzeugset/i
+
+/hochwertiger.{1,10}(werkstatt|werkzeug).?(trolley|wagen).{1,10}inkl/i
 
 /werkzeug.{1,10}komplettset.{1,10}alukoffer/i
 
@@ -209,6 +213,8 @@
 /lieferung auf rechnung.{1,10}statt uvp.{1,10}nur.{1,10}plus/i
 /lieferung erfolgt auf rechnung zu lediglich/i
 /liefern direkt auf rechnung.{1,10}risikolos.{1,10}einkaufen/i
+
+/teilen sie uns.{1,15}per.{1,10}antwort ihre lieferadresse/i
 
 # Pricing
 /statt uvp.{1,10}nur.{1,10}(plus|zzgl).{1,10}mwst/i
