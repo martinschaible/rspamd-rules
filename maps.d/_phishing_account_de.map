@@ -13,18 +13,20 @@
 
 # Locking Account
 # ------------------------------------------------------------------------------
-/informationen.{1,10}um eine sperrung ihres.{1,10}kontos/i
+/informationen.{1,10}um eine sperrung ihres.{1,15}kontos/i
 
-/ihr.{1,10}konto dauerhaft eingeschränkt/iu
-/ihr.{1,10}konto ist derzeit begrenzt/i
-/ihr.{1,10}konto vorsorglich sperren/i
-/ihr.{1,10}konto zu ihrem eigenen schutz gesperrt haben/i
+/ihr.{1,15}konto dauerhaft eingeschränkt/iu
+/ihr.{1,15}konto ist derzeit begrenzt/i
+/ihr.{1,15}konto vorsorglich sperren/i
+/ihr.{1,15}konto zu ihrem eigenen schutz gesperrt haben/i
 
-/wir vorsorglich ihr.{1,10}konto sperren/i
+/ihr.{1,15}konto ist gesperrt.{1,10}um es.{1,10}(online|wieder).{1,10}zu aktivieren/i
+
+/wir vorsorglich ihr.{1,15}konto sperren/i
 
 /einige ihrer konto.?funktionen eingeschränkt/iu
 
-/aufgrund des begrenzten.{1,10}kontos/i
+/aufgrund des begrenzten.{1,15}kontos/i
 
 # Confirm Identity
 # ------------------------------------------------------------------------------

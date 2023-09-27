@@ -34,6 +34,7 @@
 
 # Donation
 # ------------------------------------------------------------------------------
+/spende.{1,10}\d{3}.{0,5}\d{3}.{1,10}an sie/i
 /spende.{1,10}ausgewählt.{1,10}antworten sie/iu
 /spende.{1,10}erhalten.{1,10}sie.{1,10}interessiert/i
 /spende.{1,10}erhalten.{1,10}die.{1,10}zugesandt wurde/i
@@ -73,8 +74,9 @@
 
 /sie ausgewählt wurden.{1,10}den betrag von.{1,10}\d{3}.{0,5}\d{3}/iu
 /sie ausgewählt.{1,10}um eine spende in höhe von/iu
-/sie haben einen.{1,10}zuschuss in höhe von/iu
+/sie erhielten.{1,10}eine.{1,10}spende in höhe von/iu
 /sie einen zuschuss in höhe von.{1,25}erhalten/iu
+/sie haben einen.{1,10}zuschuss in höhe von/iu
 
 /sie wurden für eine.{1,15}spende (ausgewählt|in höhe von)/iu
 /sie wurden für einen zuschuss.{1,10}investition/iu
