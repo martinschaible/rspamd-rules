@@ -56,8 +56,11 @@
 # Pending
 /(pending|receive).{1,15}messages.{1,10}avoid termination of your.{1,10}account/i
 
-/you have.{1,10}pending.{1,10}messages.{1,10}that could not be sent/i
-/you have suspended.{1,10}incoming.{1,10}message/i
+/you have.{1,15}pending.{1,10}messages.{1,10}due.{1,15}error/i
+/you have.{1,15}pending.{1,10}messages.{1,10}that could not be sent/i
+/you have.{1,15}suspended.{1,10}incoming.{1,10}message/i
+
+/will be barred from.{1,10}(receiving|sending).{1,15}e?.?mail/i
 
 # Surveys
 # ------------------------------------------------------------------------------

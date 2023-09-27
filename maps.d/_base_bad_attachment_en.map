@@ -26,7 +26,8 @@
 /\d{4,15}\.tgz/i
 
 #
-/receipt.?files\.html/i
+/receipt.?files\.html?/i
+/copies\.html?/i
 
 # Double Extension
 # ------------------------------------------------------------------------------
