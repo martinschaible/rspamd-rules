@@ -11,10 +11,10 @@
 
 # No SSL and an exotic TLD
 # ------------------------------------------------------------------------------
-/http:\/\/(www\.)?[a-z]{3,20}\.(bond|club|email|life|rest|services|shop|social|today|world)/i
+/http:\/\/(www\.)?[a-z]{3,20}\.(bond|club|email|fun|life|rest|services|shop|social|today|world)/i
 
 # Subdomain
-/http:\/\/[a-z0-9-]{3,25}\.[a-z]{3,20}\.(bond|club|email|life|rest|services|shop|social|space|today|world)/i
+/http:\/\/[a-z0-9-]{3,25}\.[a-z]{3,20}\.(bond|club|email|fun|life|rest|services|shop|social|space|today|world)/i
 
 /http:\/\/(www\.)?[a-z0-9-]{3,25}\.(ru|sa|za)\.com\//i
 /http:\/\/(www\.)?[a-z0-9-]{3,25}\.co\.(in|uk)\//i
