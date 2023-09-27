@@ -35,6 +35,8 @@
 /(business|partnership).{1,10}(offer|proposal|proposition)/i
 /business.{1,10}partnership/i
 
+/\[proposal\]/i
+
 # Investment
 # ------------------------------------------------------------------------------
 /investment.{1,10}(proposal|proposition)/i
