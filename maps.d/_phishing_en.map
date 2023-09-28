@@ -62,6 +62,9 @@
 
 /will be barred from.{1,10}(receiving|sending).{1,15}e?.?mail/i
 
+# Rejected
+/rejected the delivery.{1,10}incoming e?.?mails to you/i
+
 # Surveys
 # ------------------------------------------------------------------------------
 /survey.{1,10}you will receive a.{1,10}gift/i

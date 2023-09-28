@@ -15,8 +15,9 @@
 # ------------------------------------------------------------------------------
 /your.{1,15}account.{1,15}has been temporarily (restricted|suspended)/i
 
-# Confirm Identity
+# Confirm or reconfirm Account/Identity
 # ------------------------------------------------------------------------------
+/users must re.?confirm their.{1,15}accounts/i
 
 # Activation
 # ------------------------------------------------------------------------------

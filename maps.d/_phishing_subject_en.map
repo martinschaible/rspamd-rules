@@ -11,6 +11,10 @@
 # Accounts
 # ------------------------------------------------------------------------------
 
+# Confirm or reconfirm Account/Identity
+# ------------------------------------------------------------------------------
+/suspended.{1,15}confirm your e?.?mail/i
+
 # Locking Account
 # ------------------------------------------------------------------------------
 /your.{1,15}account.{1,15}has been temporarily (restricted|suspended)/i
