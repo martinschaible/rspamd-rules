@@ -24,11 +24,12 @@
 /klicken sie hier.{1,10}um die adresse zu/i
 
 /ihnen angegebenee.{1,10}adresse unvollständig zu sein scheint/iu
-/lieferangaben auf dem paket sind falsch/i
 
-/wir weitere informationen zu ihrer.{1,10}lieferadresse/i
+/liefer.?adresse nicht korrekt.{1,15}die zustellung fehlschlug/i
+/liefer.?angaben auf dem paket sind falsch/i
 
-/zustellung aufgrund einer falschen.{1,10}lieferadresse/i
+/wir weitere informationen zu ihrer.{1,10}liefer.?adresse/i
+/zustellung aufgrund einer falschen.{1,10}liefer.?adresse/i
 
 # Delivery
 # ------------------------------------------------------------------------------
@@ -98,6 +99,8 @@
 
 /sendung wartet auf.{1,10}zahlung/i
 /sendung zu bezahlen.{1,10}zu verfolgen/i
+
+/zahlung werden wir.{1,15}die erneute zustellung/i
 
 /zusätzliche portogebühr informieren/iu
 

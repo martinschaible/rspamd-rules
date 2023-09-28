@@ -37,6 +37,9 @@
 /you want.{1,10}receive.{1,10}attendee.{1,10}list/i
 /(attendees|visitors).{1,10}list.{1,10}available.{1,15}discounted price/i
 
+/you.{1,10}interested.{1,10}purchasing.{1,10}linkedin.{1,10}leads/i
+/you.{1,10}interested.{1,10}in e?.?mail.?marketing/i
+
 # 
 /we are.{1,10}leading b2b.data.solutions/i
 
@@ -140,8 +143,10 @@
 
 /reputed seo.company/i
 
+/much lower cost.{1,10}seo/i
+
 /i went through your.{1,10}web.?site.{1,10}found/i
-/i.?a?.?m.{1,20}wseo.?expert/i
+/i.?a?.?m.{1,20}seo.?expert/i
 
 /you.{1,10}seo.?packages?/i
 /you looking for.{1,10}seo/i
@@ -171,7 +176,7 @@
 
 /we can place your.{1,10}web.?site.{1,10}on/i
 
-/you on.{1,10}1st page of google/i
+/you on.{1,10}1st.{1,10}page of google/i
 /your company.{1,10}position in google/i
 /your page.?rank on google/i
 /your business keywords/i
