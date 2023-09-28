@@ -34,6 +34,7 @@
 # Diabetes
 # ------------------------------------------------------------------------------
 /tea reverses.{1,10}diabetes in/i
+/ritual.{1,10}lowers.{1,10}blood.?sugar/i
 
 # Eyes, Vision
 # ------------------------------------------------------------------------------
@@ -41,6 +42,7 @@
 # Fungus
 # ------------------------------------------------------------------------------
 /(nail|toe).?fungus within.{1,10}days/i
+/toe.?nail.?fungus now/i
 
 /fix.{1,10}(nail|toe).?fungus/i
 /stop suffering from.{1,10}(nail|toe).?fungus/i
@@ -51,8 +53,7 @@
 
 # Heart, Blood pressure
 # ------------------------------------------------------------------------------
-/ritual.{1,10}lowers.{1,10}blood.?sugar/i
-/toe.?nail.?fungus now/i
+/flush(es)? out heart.?disease/i
 
 # Metabolism
 # ------------------------------------------------------------------------------

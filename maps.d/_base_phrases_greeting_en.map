@@ -90,6 +90,8 @@
 /my name is.{1,25}i am.{1,10}(adviser|citizen of)/i
 /my name is.{5,25}i am writing (this message|to you)/i
 
+/my name is.{5,25}i was.{1,10}browsing your/i
+
 /my name is mrs?.{5,25}from/i
 
 /mine real name is/i
