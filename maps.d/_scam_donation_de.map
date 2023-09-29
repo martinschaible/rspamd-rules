@@ -14,11 +14,13 @@
 /\d{3}.{0,5}\d{3}.{1,10}wurden an sie gespendet/i
 /\d{3}.{0,5}\d{3}.{1,10}bitte kontaktieren sie/i
 
+/\d{3}.{0,5}\d{3}.{1,10}(millionen|tausend|dollar|euro?|gbp|usd).{1,10}an sie zu spenden/i
 /\d{3}.{0,5}\d{3}.{1,10}(millionen|tausend|dollar|euro?|gbp|usd).{1,10}für sie/iu
 /\d{3}.{0,5}\d{3}.{1,10}(millionen|tausend|dollar|euro?|gbp|usd).{1,10}e?.?mail für details jetzt/iu
 /\d{3}.{0,5}\d{3}.{1,10}(millionen|tausend|dollar|euro?|gbp|usd).{1,10}wurden ihnen von/i
 
 /(millionen|tausend).{1,10}(dollar|euro?|gbp|usd).{1,10}an sie zu spenden/i
+
 /euro gewährt.{1,10}antworten.{1,15}weitere details/iu
 
 # Choosen
