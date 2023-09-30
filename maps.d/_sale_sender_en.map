@@ -31,7 +31,7 @@
 
 # Drone
 # ------------------------------------------------------------------------------
-/(4k|raptor|smarty?).drone/i
+/(4k|8k|raptor|smarty?).{1,10}drone/i
 /drone.?x/i
 
 # Knives
