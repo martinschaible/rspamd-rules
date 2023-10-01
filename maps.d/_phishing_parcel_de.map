@@ -77,6 +77,8 @@
 /gebühren.{1,10}chf 1(\.|,)99/iu
 /betrag beträgt 1(\.|,)99 euro/iu
 
+/mwst.?zahlung.{1,10}sendungsinformationen/i
+
 # Pay Fees
 # ------------------------------------------------------------------------------
 /gebühr wird erhoben.{1,10}handeln sie schnell/iu

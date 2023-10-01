@@ -53,6 +53,7 @@
 /ein(en)? betrag von.{1,10}\d{3}.{0,5}\d{3}.{1,10}(millionen|tausend|dollar|euro?|gbp|usd).{1,25}wurde ihnen von/i
 
 /ich (gebe|spende) ihnen.{1,10}\d{3}.{0,5}\d{3}.{1,10}(millionen|tausend|dollar|euro?|gbp|usd)/i
+/ich habe eine.{1,15}spende für sie/iu
 
 /ihnen eine spende in höhe von.{1,20}(dollar|euro?|gbp|usd).{1,10}gemacht/iu
 /ihnen wurde.{1,20}(dollar|euro?|gbp|usd).{1,10}gespendet/i
