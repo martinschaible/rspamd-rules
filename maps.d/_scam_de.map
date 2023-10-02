@@ -40,6 +40,9 @@
 # ------------------------------------------------------------------------------
 /entschädigungs.?kommission.{1,10}vereinten nationen/i
 
+# Fake Orders
+# ------------------------------------------------------------------------------
+
 # Funds, Money
 # ------------------------------------------------------------------------------
 /ich habe einen fonds von.{1,10}\d{3}.{0,5}\d{3}/i
@@ -126,6 +129,7 @@
 # ------------------------------------------------------------------------------
 /ich vollen zugriff auf ihr.{1,10}konto habe/i
 /ich bin ein professioneller hacker/i
+/ich mir zugang zu.{1,10}computer.{1,10}verschafft/i
 /ich vollen zugriff auf ihre geräte/i
 
 /ihnen besuchte web.?site mit einem trojaner/i
@@ -133,7 +137,8 @@
 # Ransom, Payment
 # ------------------------------------------------------------------------------
 /euro? an meine? bitcoin.?(adresse|wallet)/i
-/mein bitcoin.?(adresse|wallet) sieht so aus/i
+/meine? bitcoin.?(adresse|wallet) sieht so aus/i
+/meine? bitcoin.?(adresse|wallet).{1,10}btc.?wallet.{1,10}lautet/i
 
 # Nomination
 # ------------------------------------------------------------------------------

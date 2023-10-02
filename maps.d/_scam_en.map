@@ -50,6 +50,10 @@
 # ------------------------------------------------------------------------------
 /united.nations.{1,10}compensation.commission/i
 
+# Fake Orders
+# ------------------------------------------------------------------------------
+/i need your.{1,10}assistance in the purchase of/i
+
 # Funds, Money, Sum
 # ------------------------------------------------------------------------------
 /funds for.{1,20}reply for details/i
@@ -83,10 +87,13 @@
 # Inhertance
 # ------------------------------------------------------------------------------
 /i inherited money from my.{1,10}late.{1,10}husband/i
+/invest my inheritance fund/i
 
 # Investment
 # ------------------------------------------------------------------------------
 /you help me invest.{1,10}funds/i
+/you to assist me to invest/i
+
 
 /investor can invest in.{1,10}viable/i
 /investing in your country.{1,15}needs your.{1,10}assistance/i
@@ -228,7 +235,7 @@
 
 /your company inserted in the.{1,15}business.?register/i
 
-# Greencard, immigration
+# Greencard, Immigration
 # ------------------------------------------------------------------------------
 /green.?card.{1,10}now for only/i
 /green.?card.lottery.{1,10}(expert|program)/i
@@ -236,6 +243,8 @@
 /(apply for|chance to win|you deserve).{1,20}green.?card/i
 
 /proceed with your immigration to/i
+
+/start your application.{1,10}check if you.{1,10}eligible/i
 
 /you still interested.{1,10}to live.{1,10}work in/i
 
