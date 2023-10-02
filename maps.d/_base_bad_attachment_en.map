@@ -125,6 +125,8 @@
 /payment.{0,5}(advice|copy|rfq).{0,5}\.(7z|doc|gz|htm|r11|rar|tgz|xls|zip)/i
 /(confirmation|payment).{0,5}\.(7z|doc|gz|htm|r11|rar|tgz|xls|zip)/i
 
+/remittance.(7z|doc|gz|htm|rar|tgz|xls|zip)/i
+
 # Receipt
 # ------------------------------------------------------------------------------
 /receipt.{0,5}\.(7z|doc|gz|htm|r11|rar|tgz|xls|zip)/i

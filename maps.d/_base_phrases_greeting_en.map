@@ -143,10 +143,12 @@
 /i.?a?m a?.{0,10}investment.portfolio.manager/i
 /i.?a?m a?.{5,25}investment.broker/i
 /i.?a?m a?.{5,25}private.investment.broker/i
+/i.?a?m a?.{5,25}from the federal/i
 
 /i.?a?m (mrs?|ms).{5,25}(barrister|solicitor)/i
 /i.?a?m (mrs?|ms).{5,35}wife of mr/i
 /i.?a?m (mrs?|ms).{5,35}a.{1,10}years old/i
+/i.?a?m (mrs?|ms).{5,35}from/i
 
 /i am agent.{5,25}i am a/i
 /i am.{5,25}a.{1,10}investor.{1,10}philanthropist/i
