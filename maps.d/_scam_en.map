@@ -54,6 +54,10 @@
 # ------------------------------------------------------------------------------
 /i need your.{1,10}assistance in the purchase of/i
 
+/attached rfq inquiry.{1,10}send us your pricing/i
+
+/catalog price list.{1,10}payment method/i
+
 # Funds, Money, Sum
 # ------------------------------------------------------------------------------
 /funds for.{1,20}reply for details/i
@@ -210,8 +214,9 @@
 
 # Ransom
 # ------------------------------------------------------------------------------
-/i have (gained|obtained).{1,10}access.{1,10}your devices/i
-/i have managed.{1,10}install.{1,15}(trojan|virus)/i
+/i.{1,10}(gained|obtained).{1,10}access.{1,10}your devices/i
+/i.{1,10}managed.{1,10}install.{1,15}(trojan|virus)/i
+/i.{1,10}managed.{1,10}to get full access.{1,10}all devices/i
 
 /i am.{1,10}professional hacker/i
 
@@ -220,6 +225,7 @@
 # Ransom, Payment
 # ------------------------------------------------------------------------------
 /below is.{1,10}bitcoin.?wallet of mine/i
+/my bitcoin.?wallet is as follows/i
 
 # Nomination
 # ------------------------------------------------------------------------------

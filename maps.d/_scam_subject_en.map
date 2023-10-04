@@ -33,7 +33,7 @@
 # Partnership, Business
 # ------------------------------------------------------------------------------
 /(business|partnership).{1,10}(offer|proposal|proposition)/i
-/business.{1,10}partnership/i
+/business.{1,10}(opportunity|partnership)/i
 
 /\[proposal\]/i
 
