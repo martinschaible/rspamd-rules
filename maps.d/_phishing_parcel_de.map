@@ -60,7 +60,7 @@
 /begleichen sie eine zollgebühr/iu
 /lieferung aufgrund unbezahlter zollgebühren/iu
 
-/nicht geliefert werden.{1,10}kein zoll bezahlt wurde/i
+/nicht (geliefert|zugestellt) werden.{1,10}kein zoll bezahlt wurde/i
 
 /paket.{1,10}aufgrund.{1,10}unbezahlter zollgebühren nicht/iu
 /paket.{1,10}aufgrund.{1,10}unerwartet(eten)?.{1,10}zollabwicklung/i
