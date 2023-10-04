@@ -82,11 +82,13 @@
 /wie fühlst du dich.{1,10}mein name ist/iu
 
 /mein name ist.{5,25}ich habe krebs/i
+/mein name ist.{5,25}geboren am/i
 
 # Introduction
 # ------------------------------------------------------------------------------
 /ich bin.{5,25}(der|die) gewinner(in)? des/i
-/mich ihnen vorstellen.{1,10}ich bin/i
+
+/ihnen vor(zu)?stellen.{1,10}ich bin/i
 
 /kompliment des tages.{1,10}ich kontaktiere sie/i
 
@@ -128,7 +130,7 @@
 # ------------------------------------------------------------------------------
 /guten morgen.{1,10}ehrenwert/i
 
-/diese (e?.?mail|nachricht) findet sie gut/i
+/diese (e?.?mail|nachricht) (findet|trifft) sie gut/i
 /diese (e?.?mail|nachricht) sie gut findet/i
 /diese (e?.?mail|nachricht) erreicht sie in guter verfassung/i
 
