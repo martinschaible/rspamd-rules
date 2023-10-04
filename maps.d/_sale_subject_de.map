@@ -5,6 +5,10 @@
 #  10 | German         |
 # ==============================================================================
 
+# Address lists for spamming, EMail Marketing
+# ------------------------------------------------------------------------------
+/(dienstleistung|informationen).{1,10}e?.?mail.?marketing/i
+
 # Chair
 # ------------------------------------------------------------------------------
 /bürostühle.{1,15}(eingebauter|integrierter|massage|walnussholz)/iu
