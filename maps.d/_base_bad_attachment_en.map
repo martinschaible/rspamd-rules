@@ -25,6 +25,9 @@
 # Sample: PO 908534243.tgz
 /\d{4,15}\.tgz/i
 
+# Sample: LF_2310000254.pdf
+/_\d{5,15}\.pdf/i
+
 #
 /receipt.?files\.html?/i
 /copies\.html?/i

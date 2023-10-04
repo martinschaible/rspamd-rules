@@ -35,7 +35,10 @@
 /https:\/\/t\.co\/.*\.googleusercontent\.com/i
 
 /static\.wixstatic\.com.*https:\/\/t\.co\//i
+/static\.wixstatic\.com.*https:\/\/www\.linkedin\.com\//i
+
 /\.googleusercontent\.com.*https:\/\/t\.co\//i
+/\firebasestorage\.googleapis\.com.*https:\/\//static\.wixstatic\.com//i
 
 # Works here!
 /tinyurl\.com.*mcusercontent\.com\//i
