@@ -79,9 +79,12 @@
 
 # Sample: P.O No_033672023.gz
 /p\.?o.?no_?[0-9]{2,15}\.(7z|doc|gz|htm|r11|rar|tgz|xls|zip)/i
+/p.?o.?no.{4,10}\.(7z|doc|gz|htm|r11|rar|tgz|xls|zip)/i
 
 # Sample: P.O 2023-0021.zip
 /p\.?o.?\d{4}-\d{4}\.(7z|doc|gz|htm|r11|rar|tgz|xls|zip)/i
+
+/p.?o.{4,10}picture\.(7z|doc|gz|htm|r11|rar|tgz|xls|zip)/i
 
 # Sample: PDA AUG.2023.rar
 /pda.?[a-z]{2,15}.?\d{1,6}.(7z|doc|gz|htm|r11|rar|tgz|xls|zip)/i
@@ -101,9 +104,6 @@
 
 /product.?list\.(7z|doc|gz|htm|r11|rar|tgz|xls|zip)/i
 /updated.?price\.(7z|doc|gz|htm|r11|rar|tgz|xls|zip)/i
-
-/p.?o.{4,10}picture\.(7z|doc|gz|htm|r11|rar|tgz|xls|zip)/i
-/p.?o.?no.{4,10}\.(7z|doc|gz|htm|r11|rar|tgz|xls|zip)/i
 
 /soa\.zip/i
 /s\.(o|0)\.a\.zip/i
