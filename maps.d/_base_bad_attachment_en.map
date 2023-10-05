@@ -9,28 +9,22 @@
 # ------------------------------------------------------------------------------
 
 # Sample: J0370600140.rar
-/\d{10,15}\.rar/i
-
-# Sample: 30791146258.zip
-/\d{5,15}\.zip/i
+#         PO 908534243.tgz
+/\d{4,15}\.(rar|tgz|zip)/i
 
 # Sample: 0371000451985_082023.rar
-/\d{4,10}_{4,10}\.rar/i
+/\d{4,10}_\d{4,10}\.rar/i
 
 /(contract|excel).{0,10}\.htm/i
 
 # Sample: 100,000,00.rar
 /\d{1,4},\d{1,4},\d{1,4}\.rar/i
 
-# Sample: PO 908534243.tgz
-/\d{4,15}\.tgz/i
-
 # Sample: LF_2310000254.pdf
 /_\d{5,15}\.pdf/i
 
 #
-/receipt.?files\.html?/i
-/copies\.html?/i
+/(copies|receipt.?files)\.html?/i
 
 # Double Extension
 # ------------------------------------------------------------------------------
@@ -64,11 +58,10 @@
 # Bookings
 # ------------------------------------------------------------------------------
 # Sample: Booking031726pdf.7z
-/booking\d[2,10]pdf\.7z/i
-/booking\.7z/i
+#         Booking06972pdf (3).7z
+/booking\d{2,10}pdf.{0,5}\.7z/i
 
-# Sample: Booking06972pdf (3).7z
-/booking\d[2,10]pdf.{0,5}\.7z/i
+/booking\.7z/i
 
 # Inquiries, Orders, Quotes, Invoices
 # ------------------------------------------------------------------------------
