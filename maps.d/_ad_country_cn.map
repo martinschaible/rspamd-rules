@@ -41,7 +41,7 @@
 
 /we are.{1,10}(china|guangzhou|shenzhen|zhejiang).?based.{1,10}(company|manufacturer?|supplier).{1,10}(of|offering)/i
 
- we are.{1,10}factory located in.{1,15}(china|guangzhou|shenzhen|zhejiang)/i
+/we are.{1,10}factory located in.{1,15}(china|guangzhou|shenzhen|zhejiang)/i
 /we are.{1,10}(professional|tooling).{1,15}manufacturer?.{1,10}(china|guangzhou|shenzhen|zhejiang)/i
 /we are.{1,20}manufacturer.{1,10}(directly|from|in).{1,10}(china|guangzhou|shenzhen|zhejiang)/i
 
