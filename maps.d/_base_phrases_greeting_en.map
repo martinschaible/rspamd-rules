@@ -14,7 +14,7 @@
 /(dear|hello|hi).{1,10}(madam|sir).{1,10}greetings of the day/i
 /(dear|hello|hi).{1,10}(madam|sir).{1,10}my name is/i
 
-/(dear|hello|hi).{1,10}(sir|madam).{1,10}good day/i
+/(dear|hello|hi).{1,10}(sir|madam).{1,10}(good|nice) day/i
 /(dear|hello|hi).{1,10}(sir|madam).{1,10}how are you/i
 /(dear|hello|hi).{1,10}(sir|madam).{1,10}nice to know you/i
 /(dear|hello|hi).{1,10}(sir|madam).{1,10}i.?a?m.{5,25}purchase.manager/i
@@ -109,6 +109,9 @@
 /this is.{5,25}from.{5,25}nice to meet you/i
 
 /(you are doing well|write you today).{1,10}my name is/i
+
+# Greetings, Country
+# ------------------------------------------------------------------------------
 
 # Introduction
 # ------------------------------------------------------------------------------

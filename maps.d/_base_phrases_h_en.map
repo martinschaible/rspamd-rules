@@ -47,6 +47,7 @@
 # How they get the Email address
 # ------------------------------------------------------------------------------
 /your company name.{1,10}?e.?mail.?address from the internet/i
+/your company{1,10}while browsing{1,15}google/i
 /your e?.?mail.{1,10}from your countries.{1,20}business/i
 
 # Important

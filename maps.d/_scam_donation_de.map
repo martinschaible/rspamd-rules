@@ -40,10 +40,12 @@
 # ------------------------------------------------------------------------------
 /spende.{1,10}\d{3}.{0,5}\d{3}.{1,10}an sie/i
 /spende.{1,10}ausgewählt.{1,10}antworten sie/iu
+/spende.{1,15}(belohnung|fonds|investition|preis)/i
 /spende.{1,10}erhalten.{1,10}sie.{1,10}interessiert/i
 /spende.{1,10}erhalten.{1,10}die.{1,10}zugesandt wurde/i
 /spende.{1,10}in höhe von.{1,20}(dollar|euro?|gbp|usd).{1,10}(ausgewählt|wurde ihnen von)/iu
 /spende.{1,10}ist für die ersten.{1,10}personen/i
+/spende.{1,10}investitions.?geld(er)?/i
 /spende.{1,10}überlassen.{1,10}melden sie sich/iu
 
 /spenden.?anforderung.{1,10}wenden sie sich/i

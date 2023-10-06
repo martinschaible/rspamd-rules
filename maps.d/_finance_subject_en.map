@@ -7,7 +7,7 @@
 
 # Loans
 # ------------------------------------------------------------------------------
-/loans?.{1,10}(apply|offer|reduced)/i
+/(finance|investment|loans?).{1,10}(apply|offer|opportunities|opportunity|reduced)/i
 
 /(low rate|quick) loans?/i
 
