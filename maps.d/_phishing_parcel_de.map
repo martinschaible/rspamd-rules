@@ -19,6 +19,8 @@
 
 /eine gültige lieferadresse hinzuzufügen/iu
 
+/fehlerhaften lieferadresse nicht zugestellt werden/i
+
 /paket angegebene lieferadresse ist unvollständig/iu
 
 /klicken sie hier.{1,10}um die adresse zu/i
@@ -88,9 +90,12 @@
 
 # Pay Fees
 # ------------------------------------------------------------------------------
-/gebühr wird erhoben.{1,10}handeln sie schnell/iu
+/begleichen sie die kosten.{1,15}(die|erneute).{1,15}bearbeitung/i
+
 /erfordert die zahlung von einfuhr.?umsatz.?steuern/i
 /es sind zusätzliche.{1,10}gebühren erforderlich/i
+
+/gebühr wird erhoben.{1,10}handeln sie schnell/iu
 
 /wartet auf.{1,10}zustellung.{1,10}bestätigen sie die zahlung/iu
 
