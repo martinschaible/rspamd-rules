@@ -92,6 +92,7 @@
 # ------------------------------------------------------------------------------
 /i inherited money from my.{1,10}late.{1,10}husband/i
 /invest my inheritance fund/i
+/inheritance claim in my bank/i
 
 # Investment
 # ------------------------------------------------------------------------------
@@ -154,6 +155,8 @@
 /i have.{1,15}(profitable|lucrative).{1,15}(business|opportunity|proposal|transaction)/i
 /i have.{1,10}project worth.{1,10}million/i
 /i have.{1,10}proposition for you.{1,10}which will be/i
+
+/i need you as.{1,10}foreign partner/i
 
 /(talk to you about|regarding a potential).{1,10}business.{1,10}(opportunity|partnership)/i
 
