@@ -50,6 +50,8 @@
 # Product
 /versandfertig.{1,10}enthält.{1,10}iphone 14 pro/i
 
+/sendung.{1,20}noch auf anweisungen.{1,15}wartet/i
+
 # Delivery problems
 # ------------------------------------------------------------------------------
 /zustellung ihres pakets.{1,30}ist ein fehler aufgetreten/i
@@ -78,6 +80,7 @@
 
 /zölle anfallen.{1,10}die bezahlt werden müssen/iu
 
+/zoll.?gebühr(en)?.{1,10}bezahlen.{1,10}um den versand/i
 /zoll.?gebühr(en)?.{1,10}der betrag beträgt/iu
 /zoll.?gebühr(en)?.{1,10}von.{1,10}chf.{1,15}den unten.?stehenden link/i
 
