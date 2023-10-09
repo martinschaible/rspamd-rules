@@ -143,10 +143,9 @@
 /i.?a?m a?.{0,10}attorney.{1,10}solicitor/i
 /i.?a?m a?.{0,10}consultant mr/i
 /i.?a?m a?.{0,10}digital.marketing.expert/i
-/i.?a?m a?.{5,25}financial.consultant/i
+/i.?a?m a?.{0,15}(financial|investment).?(broker|consultant)/i
 
 /i.?a?m a?.{0,10}investment.portfolio.manager/i
-/i.?a?m a?.{5,25}investment.broker/i
 /i.?a?m a?.{5,25}private.investment.broker/i
 /i.?a?m a?.{5,25}from the federal/i
 
