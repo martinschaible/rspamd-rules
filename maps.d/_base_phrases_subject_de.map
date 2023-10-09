@@ -13,7 +13,10 @@
 /dringende.{1,10}wichtige.{1,15}(angelegenheit|benachrichtigung)/i
 /dringend.{1,10}dringend/i
 
-/\[wichtig\[/i
+/\[wichtig\]/i
+/\[.{1,15}\].{1,10}neue Nachricht/i
+
+/antwort erforderlich/i
 
 # Confidential
 # ------------------------------------------------------------------------------
