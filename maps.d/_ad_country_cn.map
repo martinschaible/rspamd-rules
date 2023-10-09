@@ -36,6 +36,8 @@
 
 /(co|ltd).{1,10}(china|guangzhou|shenzhen|zhejiang).{1,10}are you interested/i
 
+/this is.{5,25}from.{1,10}/(china|guangzhou|shenzhen|zhejiang)/i
+ 
 /we are.{1,10}chinese.{1,10}leading/i
 /we are.{1,10}chinese.{1,15}(leading|manufacturer)/i
 
@@ -88,9 +90,10 @@
 
 /to whom it may concern.{1,10}our company/i
 
+/our company.{1,10}manufacturer.{1,10}following/i
+/our company.{1,10}as.{1,10}leading.{1,15}(supplier|trader)/i
+/our customers.{1,10}are mainly from/i
 /our factory.{1,10}mainly focus on/i
-/Our company.{1,10}manufacturer.{1,10}following/i
-/our company as.{1,10}leading.{1,15}(supplier|trader)/i
 
 /you looking for.{1,10}factory who can/i
 
