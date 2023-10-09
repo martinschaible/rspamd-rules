@@ -165,8 +165,11 @@
 
 # Illuminati
 # ------------------------------------------------------------------------------
-/sie wurden ausgewählt.{1,15}(illuminati|illuminaten)/i
 /illuminati.{1,10}bruderschaft.{1,10}beitreten/i
+
+/sie wurden ausgewählt.{1,15}(illuminati|illuminaten)/i
+
+/(mitglied|willkommen).{1,15}illuminati/i
 
 #
 #
