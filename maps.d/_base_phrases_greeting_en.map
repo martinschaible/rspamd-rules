@@ -108,7 +108,7 @@
 
 /this is.{5,25}from.{5,25}nice to meet you/i
 
-/(you are doing well|write you today).{1,10}my name is/i
+/(you are doing well|you in good health|write you today).{1,10}my name is/i
 
 # Greetings, Country
 # ------------------------------------------------------------------------------
@@ -157,6 +157,8 @@
 
 /i am agent.{5,25}i am a/i
 /i am.{5,25}a.{1,10}investor.{1,10}philanthropist/i
+
+/introducing myself as.{1,10}(financial|investment).?(broker|consultant)/i
 
 /we have over.{1,10}years.{1,10}experience in/i
 
