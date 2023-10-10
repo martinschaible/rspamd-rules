@@ -66,7 +66,9 @@
 # Dating Sites
 # ------------------------------------------------------------------------------
 /(dating|hookup).?web.?site.{1,10}(anschauen|bei mir|fortzusetzen|treffen)/i
-/(dating|hookup).?web.?site.{1,10} ist dein/i
+/(dating|hookup).?web.?site.{1,10}ist dein/i
+
+/casual.?club.{1,10}kostenlos/i
 
 /community.{1,20}bekanntschaften/i
 
