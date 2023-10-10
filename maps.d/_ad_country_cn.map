@@ -123,10 +123,12 @@
 /we (offer|specialized?|supply).{1,20}electronic.{1,10}component/i
 
 /we.?a?re.{1,10}capacitor.{1,10}factory since/i
-/we.?a?re.{1,10}distributor (for|of).{1,20}(components|electronics)/i
+/we.?a?re.{1,10}distributor.{1,20}(components|electronics)/i
 /we.?a?re.{1,10}independent.{1,10}distributor.{1,20}(components|electronics)/i
 /we.?a?re.{1,10}electronic.{1,10}components?.{1,10}(broker|distributor)/i
 /we.?a?re.{1,10}electrical.{1,10}products.{1,10}automatic/i
+
+/we.?a?re.{1,10}leading provider.{1,10}(components|electronic)/i
 
 /you looking.{1,10}electronic.{1,10}components?/i
 /you still interested.{1,10}capacitors/i
