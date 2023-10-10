@@ -31,6 +31,7 @@
 
 # Sample: RFQ-PO2023080904072235AM_pdf.gz
 #         Payment_Advice,img.zip
+#         Details_pdf.rar
 /[a-z0-9]{3,15}(_|,)(img|pdf)\.(gz|rar|xz|zip)/i
 /[a-z0-9]{3,15}\.r00\.rar/i
 
@@ -88,7 +89,8 @@
 /(new|trial).?order\.(7z|doc|gz|htm|r11|rar|tgz|xls|zip)/i
 
 # Sample: QUOTATION_AUG7FIBA00541.z
-/quotation_[a-z0-9]{3,15}\.z/i
+#         Quotation-010052013.xz
+/quotation(-|_)[a-z0-9]{3,15}\.x?z/i
 
 # Sample: RFQ_No.8964502.gz
 /rfq.?no.?\d{4,10}\.(7z|doc|gz|htm|r11|rar|tgz|xls|zip)/i
