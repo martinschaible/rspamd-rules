@@ -161,9 +161,10 @@
 
 /we.?a?re.{1,10}(pcba?|printed.circuit.board).{1,10}manufacturer/i
 
-/you need to purchase.{1,10}(pcba?|printed circuit boards)/i
-/you to proceed your.{1,10}(pcba?|printed circuit boards).{1,10}project/i
-/you have any.{1,10}(pcba?|printed circuit boards).{1,15}need/i
+/you.{1,10}need to purchase.{1,10}(pcba?|printed circuit boards)/i
+/you.{1,10}proceed your.{1,10}(pcba?|printed circuit boards).{1,10}project/i
+/you.{1,10}have any.{1,10}(pcba?|printed circuit boards).{1,15}need/i
+/you.{1,10}interested in.{1,10}(pcba?|printed circuit boards).{1,10}assembly/i
 
 # Products, specific China
 # ------------------------------------------------------------------------------
