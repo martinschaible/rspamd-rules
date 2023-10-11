@@ -155,6 +155,11 @@
 
 /sonderposten.{1,10}set.{1,10}reisekoffer/i
 
+# Tools
+# ------------------------------------------------------------------------------
+/werkzeugset statt.{1,10}nur/i
+/unser.{1,10}teiliges.{1,10}werkzeugset/i
+
 # Translator
 # ------------------------------------------------------------------------------
 /sofort.?sprach.?übersetzer/iu
@@ -227,9 +232,10 @@
 # How to order
 # ------------------------------------------------------------------------------
 /antworten sie.{1,10}einfach mit ihrer adresse.{1,10}(auf dieses schreiben|teilen sie uns)/i
+/antworten sie.{1,10}direkt auf diese e?.?mail.{1,10}wir schicken ihnen ihr/i
 
-/bestellen.{1,10}einfach antworten mit adresse/i
-/bestellen.{1,10}bitte einfach mit adresse.{1,10}diese e?.?mail antworten/i
+/bestellen.{1,15}einfach antworten mit adresse/i
+/bestellen.{1,15}einfach mit adresse.{1,10}diese e?.?mail antworten/i
 
 /direkt unsere sonderangebote per e?.?mail bestellen/i
 

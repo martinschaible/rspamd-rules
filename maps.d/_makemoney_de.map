@@ -13,6 +13,10 @@
 
 /verdienen sie garantierte.{1,10}\d{3,4}.{1,10}in.{1,15}stunden/i
 
+/einkommen ab.{1,10}euro? pro tag/i
+
+/euro? pro tag.{1,10}garantiertes einkommen/i
+
 # Fake stories
 # ------------------------------------------------------------------------------
 /(als|schaffte).{5.20}euro pro woche zu verdienen/i

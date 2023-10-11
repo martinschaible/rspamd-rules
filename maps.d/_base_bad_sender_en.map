@@ -84,7 +84,8 @@
 # Winning, Lottery
 # ------------------------------------------------------------------------------
 /(australia|usa|uk).?(lotterie|lottery)/i
-/(euro|mega).?milions/i
+/(euro|mega).?(jackpot|milions)/i
+
 /lottery.?award/i
 
 # Virus, Malware

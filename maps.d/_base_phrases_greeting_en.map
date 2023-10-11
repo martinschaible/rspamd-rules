@@ -57,6 +57,8 @@
 /good (day|morning).{1,10}(sir|madam).{1,10}i am.{5,25}sales.?manager/i
 /good (day|morning).{1,10}(sir|madam).{1,10}salamalaikum/i
 
+/good (day|evening|morning).{1,10}my name is/i
+
 /greetings.{1,15}(business|investment).{1,15}partnership/i
 /greetings.{1,15}i am sgt/i
 /greetings.{1,15}i came across your profile/i

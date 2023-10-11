@@ -126,6 +126,8 @@
 # Virus, Malware
 # ------------------------------------------------------------------------------
 /verdächtige viren wurden entdeckt/iu
-/ihr mcafee.?abonnement.{1,10}ausgesetzt/i
+/sicherheitshinweis/i
 
+# Products
 /av 202\d warnung/i
+/ihr mcafee.?abonnement.{1,10}ausgesetzt/i
