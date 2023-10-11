@@ -80,6 +80,9 @@
 
 /p.?o.{4,10}picture\.(7z|doc|gz|htm|r11|rar|tgz|xls|zip)/i
 
+# Sample: PO-513211.gz
+/po-\d{1,8}.(7z|doc|gz|htm|r11|rar|tgz|xls|zip)/i
+
 # Sample: PDA AUG.2023.rar
 /pda.?[a-z]{2,15}.?\d{1,6}.(7z|doc|gz|htm|r11|rar|tgz|xls|zip)/i
 

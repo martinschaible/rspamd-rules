@@ -11,7 +11,7 @@
 
 # No SSL and an exotic TLD
 # ------------------------------------------------------------------------------
-/http:\/\/(www\.)?[a-z]{3,20}\.(bond|club|email|fun|life|ltd|one|rest|services|shop|social|today|world)/i
+/http:\/\/(www\.)?[a-z0-9-]{3,20}\.(bond|club|email|fun|life|ltd|one|rest|services|shop|social|today|world)/i
 
 # Subdomain
 /http:\/\/[a-z0-9-]{3,25}\.[a-z]{3,20}\.(bond|club|email|fun|life|ltd|one|pics|rest|services|shop|social|space|today|world)/i
