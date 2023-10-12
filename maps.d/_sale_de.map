@@ -61,6 +61,8 @@
 
 /unsere.{1,10}büro.?(stuhl|stühle) sind in/iu
 
+/stuhl zum vorzugspreis/i
+
 # Cushion
 # ------------------------------------------------------------------------------
 /kissen.{1,10}in deutschland/i
@@ -248,9 +250,13 @@
 /zum antworten bestellen.{1,15}lieferung auf rechnung/i
 /zum bestellen.{1,15}einfach auf dieses?.{1,10}(e?.?mail|schreiben) antworten/i
 
-/lieferung auf rechnung.{1,10}statt uvp.{1,10}nur.{1,10}plus/i
-/lieferung erfolgt auf rechnung zu lediglich/i
+/lieferung.{1,10}rechnung.{1,10}statt uvp.{1,10}nur.{1,10}plus/i
+/lieferung.{1,10}erfolgt auf rechnung zu lediglich/i
+/lieferung.{1,15}detaillierte rechnung sind/i
+
 /liefern direkt auf rechnung.{1,10}risikolos.{1,10}einkaufen/i
+
+/sofort zugreifen per e?.?mail/i
 
 /teilen sie uns.{1,15}per.{1,10}antwort ihre lieferadresse/i
 
