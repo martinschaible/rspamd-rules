@@ -9,7 +9,7 @@
 # ------------------------------------------------------------------------------
 /www\.google\.[a-z]{2,3}\/url\?q/i
 
-/www\.google\.com\.(au|np|vt)\/url\?q/
+/www\.google\.com?\.(au|np|ug|vt)\/url\?q/
 
 /app\.goo\.gl/\?link=.{0,5}https?/i
 

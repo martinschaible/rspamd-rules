@@ -28,6 +28,8 @@
 # ------------------------------------------------------------------------------
 /sie haben.{1,10}nicht zugestellte wichtige.{1,10}nachrichten/i
 
+/nachrichten.{1,10}aufgrund eines speicherfehlers/i
+
 #
 #
 #
@@ -95,6 +97,9 @@
 
 # Companies, Government
 # ------------------------------------------------------------------------------
+
+# Netflix
+/verlieren sie ihre aktuellen episoden nicht/i
 
 # Swiss Tax Office 
 /estv rückerstattung/iu

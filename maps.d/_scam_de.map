@@ -36,6 +36,8 @@
 
 /\d{3}.{0,5}\d{3}.{1,10}der mit ihrem namen/i
 
+/mein geld von.{1,15}millionen.{1,15}tausend.{1,10}(dollar|euro?|gbp|usd)/i
+
 # Fake Organisations
 # ------------------------------------------------------------------------------
 /entschädigungs.?kommission.{1,10}vereinten nationen/i
