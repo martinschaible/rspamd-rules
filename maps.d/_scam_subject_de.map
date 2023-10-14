@@ -25,6 +25,7 @@
 /investitions.?zuschuss/i
 /spenden.{1,15}(belohnung|fonds|investition|preis)/i
 
+/spende.{1.10}\d{2,3}.{1.10}(euro|gbp|usd)/i
 /spende an sie/i
 /spende investitions.?programm/i
 /sie haben eine.{1,10}spende/i
