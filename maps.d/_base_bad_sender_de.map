@@ -115,11 +115,12 @@
 # ------------------------------------------------------------------------------
 /gewinn.?(informationen|spiel)/i
 
-/euro.?millionen/i
+/(lotterie|lottery).?gewinner/i
 
+/euro.?million(en)?/i
 /millionen.?gewinner/i
 
-/spanische.?lotterie
+/spanische.?lotterie/i
 
 /rekord.?jackpot/i
 
