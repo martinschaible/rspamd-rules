@@ -90,6 +90,7 @@
 /ich habe ein.{1,10}lukratives angebot für sie/iu
 /ich habe ein.{1,10}geschäfts?.{1,15}das ich.{1,10}mit ihnen/i
 
+/ich suche einen.{1,10}vertrauenswürdigen partner/iu
 /ihnen einen.{1,15}geschäfts.?vorschlag mitteilen/iu
 
 # Payments, Compensations
@@ -133,18 +134,24 @@
 
 # Ransom
 # ------------------------------------------------------------------------------
-/ich vollen zugriff auf ihr.{1,10}konto habe/i
 /ich bin ein professioneller hacker/i
 /ich mir zugang zu.{1,10}computer.{1,10}verschafft/i
-/ich vollen zugriff auf ihre geräte/i
+/ich mir zugang zu seinen geräten/iu
+
+/ich vollen zugriff auf ihr.{1,10}konto habe/i
+/ich vollen zugriff auf ihre geräte/iu
 
 /ihnen besuchte web.?site mit einem trojaner/i
+
+/installierte ich.{1,10}trojaner erfolgreich/i
 
 # Ransom, Payment
 # ------------------------------------------------------------------------------
 /euro? an meine? bitcoin.?(adresse|wallet)/i
 /meine? bitcoin.?(adresse|wallet) sieht so aus/i
 /meine? bitcoin.?(adresse|wallet).{1,10}btc.?wallet.{1,10}lautet/i
+
+/unten ist meine? bitcoin.?(adresse|wallet)/i
 
 # Nomination
 # ------------------------------------------------------------------------------
