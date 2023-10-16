@@ -27,12 +27,15 @@
 # ------------------------------------------------------------------------------
 /(china|guangzhou|shenzhen|zhejiang).{1,10}factory.{1,10}specializes.{1,10}producing/i
 /(china|guangzhou|shenzhen|zhejiang).{1,10}(my|our).{1,10}(company|factory).{1,10}(offers|specialized|specializes)/i
+/(china|guangzhou|shenzhen|zhejiang).{1,20}supply all kinds of.{1,10}quality/i
+/(china|guangzhou|shenzhen|zhejiang).{1,10}hope to open.{1,10}(business|relationship)/i
+/(china|guangzhou|shenzhen|zhejiang).{1,10}our products include/i
+
 /(china|guangzhou|shenzhen|zhejiang).{1,10}we can handle all kinds/i
 /(china|guangzhou|shenzhen|zhejiang).{1,10}we are.{1,10}(company|factory|manufacturer|supplier)/i
 /(china|guangzhou|shenzhen|zhejiang).{1,15}we are.{1,10}leading.{1,10}professional/i
-/(china|guangzhou|shenzhen|zhejiang).{1,20}supply all kinds of.{1,10}quality/i
+
 /(china|guangzhou|shenzhen|zhejiang).{1,10}you have any need for our/i
-/(china|guangzhou|shenzhen|zhejiang).{1,10}hope to open.{1,10}(business|relationship)/i
 
 /(co|ltd).{1,10}(china|guangzhou|shenzhen|zhejiang).{1,10}are you interested/i
 

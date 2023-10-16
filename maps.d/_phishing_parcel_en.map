@@ -19,7 +19,8 @@
 
 # Delivery
 # ------------------------------------------------------------------------------
-/your.{1,10}shipment is still awaiting.{1,10}processing/i
+/your.{1,10}shipment is.{1,10}awaiting.{1,10}processing/i
+/your.{1,10}shipment is.{1,10}pending.{1,10}is awaiting/i
 
 # Delivery problems
 # ------------------------------------------------------------------------------

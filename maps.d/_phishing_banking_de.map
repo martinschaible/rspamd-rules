@@ -35,20 +35,25 @@
 
 # New Systems, Security, Technology, TAN
 # ------------------------------------------------------------------------------
-/photo.?tan.?aktivierungsbrief/i
-
-/ihre? photo.?tan.?verfahren/i
 
 /aktivieren sie ihre karte gebührenfrei/iu
 /reaktivieren sie die.{1,20}tan.?app/i
-/vorzustellen.{1,10}das neue s.?push.?tan/i
-
-/zur aktivierung des photo.?tan.?verfahrens/i
 
 /reaktivieren.{1,20}sie ihre handynummer/i
 /sicherheitsverfahren.{1,10}registrieren sie sich/i
 
 /jetzt umstellung starten/i
+
+# Photo TAN
+/photo.?tan.?aktivierungsbrief/i
+/photo.?tan.{1,10}gesperrt wurde/i
+
+/aktivieren sie.{1,10}photo.?tan/i
+/aktivierung des photo.?tan.?verfahrens/i
+/ihre? photo.?tan.?verfahren/i
+
+/vorzustellen.{1,10}das neue s.?push.?tan/i
+
 
 # Online Banking
 # ------------------------------------------------------------------------------
