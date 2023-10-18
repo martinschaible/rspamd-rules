@@ -254,6 +254,7 @@
 
 /zum antworten bestellen.{1,15}lieferung auf rechnung/i
 /zum bestellen.{1,15}einfach auf dieses?.{1,10}(e?.?mail|schreiben) antworten/i
+/zum bestellen.{1,10}einfach antworten/i
 
 /lieferung.{1,10}rechnung.{1,10}statt uvp.{1,10}nur.{1,10}plus/i
 /lieferung.{1,10}erfolgt auf rechnung zu lediglich/i
@@ -267,6 +268,8 @@
 
 # Pricing
 /statt uvp.{1,10}nur.{1,10}(plus|zzgl).{1,10}mwst/i
+/statt.{1,10}jetzt nur.{1,10}euro.{1,10}(plus|zzgl).{1,10}mwst/i
+
 /uvp.{1,10}des herstellers.{1,15}unser unschlagbarer preis.{1,10}nur/i
 /preis beträgt anstelle von.{1,10}euro nur.{1,10}euro.{1,10}zzgl/iu
 
