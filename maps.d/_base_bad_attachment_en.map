@@ -106,7 +106,7 @@
 /soa\.zip/i
 /s\.(o|0)\.a\.zip/i
 
-/request.?for.?quotation\.pdf/i
+/request.?for.?quotation.{0,15}\.pdf/i
 /revised.?pi.{0,20}\.html/i
 
 # Invoices

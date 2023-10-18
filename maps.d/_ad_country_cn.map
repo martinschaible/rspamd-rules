@@ -38,6 +38,7 @@
 /(china|guangzhou|shenzhen|zhejiang).{1,10}you have any need for our/i
 
 /(co|ltd).{1,10}(china|guangzhou|shenzhen|zhejiang).{1,10}are you interested/i
+/co.{1,5}ltd.{1,10}(china|guangzhou|shenzhen|zhejiang)/i
 
 /this is.{5,25}from.{1,10}/(china|guangzhou|shenzhen|zhejiang)/i
  
@@ -88,14 +89,17 @@
 /(co|ltd).{1,15}is a factory specialized in/i
 /(co|ltd).{1,15}professional.{1,15}manufacturer/i
 /(co|ltd).{1,15}we are leading.{1,15}professional/i
+/(co|ltd).{1,15}we.{1,10}supplying/i
 
 /has been in this field for more than.{1,10}years/i
 /introduce ourselves as.{1,10}leading manufacturer (in|of)/i
 
 /to whom it may concern.{1,10}our company/i
 
-/our company.{1,10}manufacturer.{1,10}following/i
 /our company.{1,10}as.{1,10}leading.{1,15}(supplier|trader)/i
+/our company.{1,10}manufacturer.{1,10}following/i
+/our company.{1,10}specializes.{1,10}manufacturing/i
+
 /our customers.{1,10}are mainly from/i
 /our factory.{1,10}mainly focus on/i
 
@@ -168,7 +172,8 @@
 /you.{1,10}need to purchase.{1,10}(pcba?|printed circuit board)/i
 /you.{1,10}proceed your.{1,10}(pcba?|printed circuit board).{1,10}project/i
 /you.{1,10}have any.{1,10}(pcba?|printed circuit board).{1,15}need/i
-/you.{1,10}interested in.{1,10}(pcba?|printed circuit board).{1,10}assembly/i
+/you.{1,10}interested in.{1,10}(pcba?|printed circuit board)/i
+
 /your.{1,10}currently.{1,15}(pcba?|printed circuit board).{1,15}suppliers/i
 
 # Products, specific China
