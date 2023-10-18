@@ -46,6 +46,8 @@
 
 /\.ru/wetransfer/i
 
+/\.ro\/login\.php/i
+
 # URL's
 # ------------------------------------------------------------------------------
 
@@ -57,6 +59,10 @@
 
 # French spammer are using this:
 /\/iem66/link\.php/i
+
+# Fake domain registrar
+# Sample: https://global-login-management-mpj2r.ampfibianx1.com/ml/?domain=tcm-medizin.ch&email=box%40tcm-medizin.ch
+/\.com\/ml\/\?domain=/i
 
 #
 #
