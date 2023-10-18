@@ -27,6 +27,11 @@
 /\/head><body><img src=.?http:\/\//i
 /<a href=3d.?http:\/\/mail\./i
 
+# No SSL with a long path
+# ------------------------------------------------------------------------------
+# Sample: http://fraynard.com/1O0i0a1n9k0l2t79-165mei1wh534n331ff8k00001
+
+/http:\/\/(www\.)?[a-z0-9-]{3,25}\.com\/[a-z0-9-]{10,25}-[a-z0-9-]/i
 
 # Sample:
 # http://190-2-145-157.
