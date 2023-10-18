@@ -13,10 +13,10 @@
 
 # Banking
 # ------------------------------------------------------------------------------
+/meldungsservice/i
 
 # Cards
 # ------------------------------------------------------------------------------
-/ihre karte wurde mit sofortiger wirkung gesperrt/i
 
 # EMail, Cloud, Security and Server support
 # ------------------------------------------------------------------------------
@@ -74,7 +74,7 @@
 /gutscheine?/i
 /guthaben/i
 
-/(lidl|le.?creuset|kaufland).{0,10}(gewinner|sender|sendung)/i
+/(lidl|le.?creuset|kaufland).{0,10}(angebot|gewinner|sender|sendung)/i
 
 # Brands, Products
 # ------------------------------------------------------------------------------
