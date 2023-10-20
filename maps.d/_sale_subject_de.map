@@ -11,13 +11,13 @@
 
 # Chair
 # ------------------------------------------------------------------------------
-/bürostühle.{1,15}(eingebauter|integrierter|massage|walnussholz)/iu
-/(elegante|stilvolle|unsere|revolutionäre|walnussholz).{1,15}bürostühle/iu
+/(bürostuhl|bürostühle).{1,15}(eingebauter|integrierter|massage|walnussholz)/iu
+/(elegante|stilvolle|unsere|revolutionäre|traum|walnussholz).{1,15}(bürostuhl|bürostühle)/iu
 
 /lederbürostühle/iu
-/bürostuhl mit massage/i
-
 /chefsessel/i
+
+/für.{1,10}\d{3}.{1,10}statt.{1,10}\d{3}/iu
 
 # Drone
 # ------------------------------------------------------------------------------
