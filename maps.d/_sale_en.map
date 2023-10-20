@@ -240,12 +240,15 @@
 /to (re)?.?develop your web.?site/i
 
 /new professional.{1,10}web.?site/i
-/you be interested.{1,20}(build|rebuild|repair).{1,15}(new|your).{1,15}web.?site/i
+/you.{1,10}interested.{1,20}(build|rebuild|repair).{1,15}(new|your).{1,15}web.?site/i
+/you.{1,10}interested.{1,10}building.{1,15}web.?site/i
 
 /you are looking.{1,10}(app|web).{1,10}design/i
 
 /you looking for.{1,10}affordable(app|web).{1,10}developer/i
 /you looking for.{1,10}web.?site.{1,10}design/i
+
+/you want make.{1,10}web.?site/i
 
 /you.{1,10}like to build.{1,10}new web.?site/i
 
@@ -274,6 +277,8 @@
 /web (design|development).{1,10}company.{1,10}with.{1,10}primary/i
 
 /website design(ing)?.{1,10}web.?development/i
+/website design.{1,10}redesign/i
+
 /web.?development.{1,10}php.?development/i
 
 # WordPress
@@ -288,6 +293,8 @@
 /development company based.{1,10}india/i
 
 /we are.{1,10}indian?.{1,10}(development|web)/i
+
+/years.{1,10}experience based.{1,10}india/i
 
 # Web Directories
 # ------------------------------------------------------------------------------
@@ -313,6 +320,8 @@
 # WiFi
 # ------------------------------------------------------------------------------
 /muama.{0,5}ryoko/i
+
+/wifi.{1,10}anywhere.{1,10}anytime/i
 
 #
 #
