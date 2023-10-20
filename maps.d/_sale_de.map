@@ -42,7 +42,10 @@
 /chefsessel.{1,10}limitierter/i
 /chefsessel.{1,10}viele farben/i
 
-/(eleganter|exklusiver).{1,10}chefsessel/i
+/(eleganter|exklusiver|hochwertig|leder).{1,10}chefsessel/i
+/toro.{1,10}chefsessel/i
+
+/lederbürostühle/iu
 
 /atmungsaktiver.{1,10}mesh.?stoff.{1,10}belastbar/i
 
@@ -253,8 +256,9 @@
 /ihre antwort genügt.{1,10}wir senden.{1,10}zu ihnen/iu
 
 /zum antworten bestellen.{1,15}lieferung auf rechnung/i
-/zum bestellen.{1,15}einfach auf dieses?.{1,10}(e?.?mail|schreiben) antworten/i
-/zum bestellen.{1,10}einfach antworten/i
+/zum? bestellen.{1,15}einfach auf dieses?.{1,10}(e?.?mail|schreiben) antworten/i
+/zum? bestellen.{1,10}einfach antworten/i
+/zum? bestellen.{1,10}senden sie uns einfach.{1,10}e?.?mail/i
 
 /lieferung.{1,10}rechnung.{1,10}statt uvp.{1,10}nur.{1,10}plus/i
 /lieferung.{1,10}erfolgt auf rechnung zu lediglich/i

@@ -32,6 +32,7 @@
 
 /(dear|hello|hi).{1,10}director.{1,10}manager/i
 
+/attention.{1,10}i am mrs?/i
 /hi dear.{1,10}my name is/i
 
 /dear (ceo|trustee)/i
