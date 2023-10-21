@@ -80,8 +80,11 @@
 #
 /ich bin (frau|herr).{5,25}der leiter/i
 
-# My name is ...
-/guten (morgen|tag).{1,5}mein name ist/i
+# Greetings, My name is ...
+# ------------------------------------------------------------------------------
+
+# Received 1 False/Positive
+#/guten (morgen|tag).{1,5}mein name ist/i
 /glückwunsch.{1,5}mein name ist/i
 
 /wie geht es dir.{1,5}mein name ist/i
