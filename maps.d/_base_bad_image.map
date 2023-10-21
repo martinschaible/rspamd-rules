@@ -31,3 +31,8 @@
 # Sample: .za.com/clicks/img/tupitea.png
 /\/clicks\/img\/[a-z0-9]{5,15}\.(jpg|png)/i
 
+
+# Image used a text (Image only Mail)
+# ------------------------------------------------------------------------------
+# Sample: https://files.hawkbull.de/page.png
+/\.de\/page\.png/i

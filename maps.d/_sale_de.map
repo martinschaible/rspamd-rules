@@ -88,9 +88,10 @@
 # Jacket
 # ------------------------------------------------------------------------------
 /beheizbare daunen.?jacke/i
-/beheizbaren jacke werden sie nicht/i
+/beheizbaren? jacke.{1,10}perfekte?/i
+/beheizbaren? jacke.{1,10}werden sie nicht/i
 
-/der beheizbaren jacke/i
+/(der|einer) beheizbaren jacke/i
 /die beheizbare jacke/i
 
 /eine beheizbare jacke an/i

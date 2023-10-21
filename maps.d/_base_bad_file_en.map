@@ -12,14 +12,15 @@
 #
 #
 
-# Filenames
+# Files
 # ------------------------------------------------------------------------------
-/\/red\.html/i
+/\/(red|web)\.(html|php)/i
 
 /[a-z]{0,10}keto[a-z]{0,10}\.html/i
 
-# Sample: qsdvqzergvqsdvqezrgiouvqqsdvqzevmsdvqsd/qsdvqsdvqsdvqsdvqsdvrtg.html#sdqsdvdvqsdvqdv.html?
-# Too long
-/\/[a-z]{15,35}\.html/i
+# Files with a very long filename
+# ------------------------------------------------------------------------------
 
-/\/web\.php/i
+# Sample: qsdvqzergvqsdvqezrgiouvqqsdvqzevmsdvqsd/qsdvqsdvqsdvqsdvqsdvrtg.html#sdqsdvdvqsdvqdv.html?
+/\/[a-z0-9]{25,65}\.html?/i
+
