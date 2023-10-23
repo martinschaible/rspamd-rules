@@ -302,14 +302,17 @@
 
 /(leads|sales).{1,15}submitting your web.?site/i
 /our (list|database) consists.{1,10}millions.{1,10}business/i
-/is only listed in.{1,15}possible.{1,10}directories/i
+/is only listed in.{1,15}(out of|possible).{1,10}directories/i
 /e?.?mail.{1,10}cell.?phone.{1,10}(list|database)/i
 
 /promote your.{1,15}search.?engines?/i
 /promote your.{1,15}web.?site.{1,10}just a few/i
 
+/service.{1,10}lists.{1,10}in all.{1,10}directories/i
 /submitting your.{1,15}web.?site to.{1,25}directories/i
 /we can help you.{1,10}promote your.{1,15}business/i
+
+/not having the proper backlinks/i
 
 # Traffic, leads
 /get more traffic.{1,10}(leads|sales)/i
