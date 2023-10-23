@@ -143,6 +143,7 @@
 /ich bin ein professioneller hacker/i
 /ich mir zugang zu.{1,10}computer.{1,10}verschafft/i
 /ich mir zugang zu seinen geräten/iu
+/ich habe eine kopie.{1,15}webcam/i
 
 /ich vollen zugriff auf ihr.{1,10}konto habe/i
 /ich vollen zugriff auf ihre geräte/iu
@@ -151,6 +152,8 @@
 
 /installierte ich.{1,10}trojaner erfolgreich/i
 
+/dieser virus ermöglichte mir/iu
+
 # Ransom, Payment
 # ------------------------------------------------------------------------------
 /euro? an meine? bitcoin.?(adresse|wallet)/i
@@ -158,6 +161,8 @@
 /meine? bitcoin.?(adresse|wallet).{1,10}btc.?wallet.{1,10}lautet/i
 
 /unten ist meine? bitcoin.?(adresse|wallet)/i
+
+/btc an die.{1,10}adresse unten/i
 
 # Nomination
 # ------------------------------------------------------------------------------
