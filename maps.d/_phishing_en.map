@@ -27,7 +27,12 @@
 /you have.{1,10}companies interested in your product/i
 
 # Employees performance
-/e?.?mail is intended.{1,10}share your performance feedback/i
+/(e?.?mail|message) is.{1,10}intended.{1,10}share your performance feedback/i
+/(e?.?mail|message) is.{1,10}intended.{1,10}provide an evaluation/i
+/(e?.?mail|message) is.{1,10}convey your performance/i
+/(e?.?mail|message) serves.{1,10}review of your performance/i
+
+/provide feedback.{1,10}your recent performance/i
 
 #
 #

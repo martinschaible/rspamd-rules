@@ -91,7 +91,10 @@
 # ------------------------------------------------------------------------------
 /amazonian mixture adds/i
 /bizzare.{1,10}second hack/i
-/second water hack/i
+
+/second water.{1,10}hack/i
+/second video.{1,10}went viral/i
+/(sec|second).?trick turns any/i
 
 /discover.{1,10}how this simple method/i
 
@@ -109,7 +112,6 @@
 
 /reveals secret survival plan/i
 
-/(sec|second).?trick turns any/i
 /(see here|this).{1,10}breakthrough.{1,10}(discovery|method|ritual)/i
 
 /simple.{1,10}second protocol/i
