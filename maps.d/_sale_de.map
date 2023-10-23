@@ -104,6 +104,10 @@
 
 /team.?huusk/i
 
+# Ladder
+# ------------------------------------------------------------------------------
+/(optimale|optimierte|profi).{1,10}teleskopleiter/i
+
 # Pen
 # ------------------------------------------------------------------------------
 /kugelschreiber.{1,10}(gummierung|gummiert|softgriff)/i
@@ -247,6 +251,8 @@
 
 /bestellen.{1,15}einfach antworten mit adresse/i
 /bestellen.{1,15}einfach mit adresse.{1,10}diese e?.?mail antworten/i
+
+/bestellen.{1,15}senden sie uns.{1,15}ihre.{1,20}(liefer|rechnungs).?anschrift/i
 
 /direkt unsere sonderangebote per e?.?mail bestellen/i
 
