@@ -29,7 +29,8 @@
 # ------------------------------------------------------------------------------
 /zahlung.{1,10}nicht beansprucht.{1,10}preis.?geld/i
 
-/sie haben.{1,10}(dollar|euro?|gbp|usd).{1,10}zur auszahlung/i
+/sie haben.{1,20}(dollar|euro?|gbp|usd).{1,10}zur auszahlung/i
+/sie haben..{1,10}\d{3}.{1,5}\d{3}.{1,10}zur auszahlung/i
 
 /preis.?geld.{1,10}das auf ihrem namen/i
 
