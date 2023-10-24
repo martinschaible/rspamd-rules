@@ -39,7 +39,8 @@
 
 /factory.{1,10}located in.{1,10}(china|dongguan|guangzhou|shenzhen|zhejiang)/i
 
-/(co|ltd).{1,10}(china|dongguan|guangzhou|shenzhen|zhejiang).{1,10}are you interested/i
+/(co|limited|ltd).{1,10}(china|dongguan|guangzhou|shenzhen|zhejiang).{1,10}are you interested/i
+/(co|limited|ltd).{1,10}(dongguan|guangzhou|shenzhen|zhejiang).{1,10}china/i
 /co.{1,5}ltd.{1,10}(china|dongguan|guangzhou|shenzhen|zhejiang)/i
 
 /this is.{5,25}from.{1,10}/(china|dongguan|guangzhou|shenzhen|zhejiang)/i

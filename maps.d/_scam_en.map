@@ -90,6 +90,7 @@
 /you to administer.{1,10}funds/i
 /you wish to receive.{1,15}funds/i
 
+/your.{1,10}funds?.{1,10}have been approved by the/i
 /your.{1,10}funds?.{1,10}(total|worth).{1,10}sum of.{1,10}million/i
 /your.{1,10}funds?.{1,10}\d{3}.{0,5}\d{3}.{1,10}(dollar|euro?|gbp|usd)/i
 /your.{1,10}funds?.{1,10}of.{1,10}million/i
@@ -203,6 +204,8 @@
 /we have deposited.{1,10}bank.?draft/i
 
 /usd compensation amount.{1,10}kindly reply back/i
+
+/receive your compensation payment/i
 
 # Share the same name
 # ------------------------------------------------------------------------------

@@ -246,7 +246,8 @@
 
 # How to order
 # ------------------------------------------------------------------------------
-/antworten sie.{1,10}einfach mit ihrer adresse.{1,10}(auf dieses schreiben|teilen sie uns)/i
+/antworten sie.{1,10}einfach mit ihrer.{1,10}adresse.{1,10}(auf dieses schreiben|teilen sie uns)/i
+/antworten sie.{1,10}einfach mit ihrer.{1,10}lieferadresse/i
 /antworten sie.{1,10}direkt auf diese e?.?mail.{1,10}wir schicken ihnen ihr/i
 
 /bestellen.{1,15}einfach antworten mit adresse/i
@@ -285,6 +286,9 @@
 /preis beträgt anstelle von.{1,10}euro nur.{1,10}euro.{1,10}zzgl/iu
 
 /wir senden sofort zu ihnen.{1,10}sie bezahlen nur/i
+
+#
+/verkauf.{1,10}vertrieb.{1,15}bitte einfach antworten/i
 
 # This company is very annoying
 # ------------------------------------------------------------------------------

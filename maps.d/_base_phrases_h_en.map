@@ -43,6 +43,8 @@
 
 # Excuses and other silly stuff
 # ------------------------------------------------------------------------------
+/apologies for.{1,10}unexpected contact/i
+
 /i am.{1,10}sorry.{1,10}(for intruding|to invade)/i
 /i am.{1,10}sorry.{1,10}to reach you through this medium/i
 
@@ -66,6 +68,10 @@
 
 /talk to you about something.{1,10}important/i
 /(i have|there is) something.{1,10}important (i want to|to) discuss with you/i
+
+# Profile
+# ------------------------------------------------------------------------------
+/i came across your.{1,15}profile/i
 
 # Sickness, Dying :-)
 # ------------------------------------------------------------------------------
