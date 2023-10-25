@@ -38,3 +38,8 @@
 /http:\/\/\d{1,3}-\d{1,3}-\d{1,3}-\d{1,3}\./i
 
 /http:\/\/alert\./i 
+
+# No SSL with a long filename
+# ------------------------------------------------------------------------------
+# Sample: http://saltyremind.com/qsdvqsdvqzregvqssdv.html?od=1sycshort6537f82a7c421_vl_intervl_11hc.onaoM.Yzzzyr1i1dp20i2111_vq1349.fvrchd3d3d3gxMmdvbXRm0n4dTb
+/http:\/\/(www\.)?[a-z0-9-]{3,25}\.com\/[a-z0-9-]{15,25}\.html/i
