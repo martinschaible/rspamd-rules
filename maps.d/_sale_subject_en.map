@@ -17,7 +17,8 @@
 /get top rankings/i
 /boost your rankings/i
 
-/seo services/i
+/seo.?(services|success)/i
+
 /1st page (of|on) google/i
 /you need.{1,10}seo.?services/i
 /your page.?rank on google/i
@@ -43,3 +44,5 @@
 # ------------------------------------------------------------------------------
 /custom.{1,15}web.?site.?design/i
 /upgrade your{1,15}web.?site today/i
+
+/web.?development.{1,10}special offer/i
