@@ -26,6 +26,9 @@
 #
 /(copies|receipt.?files)\.html?/i
 
+# Sample: "info@amelec.ch.html
+/@[a-z0-9]{3,15}\.(ch|de|org)\.html/i
+
 # Double Extension
 # ------------------------------------------------------------------------------
 
@@ -108,6 +111,7 @@
 
 /request.?for.?quotation.{0,15}\.pdf/i
 /revised.?pi.{0,20}\.html/i
+/specification\.html/i
 
 # Invoices
 # ------------------------------------------------------------------------------
