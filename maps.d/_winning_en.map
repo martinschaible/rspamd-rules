@@ -24,6 +24,7 @@
 
 /(bmw|coca.?cola).(lotterie|lottery)/i
 
+/primitiva lotter(ie|y).{1,10}promotions?/i
 /promotion.{1,10}prize dept/i
 
 # Fake Programs
@@ -44,6 +45,8 @@
 # ------------------------------------------------------------------------------
 /your.{1,10}e?.?mail.?(address|id)?.{1,10}(appeared|selected).{1,10}(among|as one of) the.{1,10}winners/i
 /your.{1,10}e?.?mail.?(address|id)?.{1,10}has won/i
+
+/batch.?number.{1,20}official winning/i
 
 #
 #
