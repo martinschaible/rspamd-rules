@@ -27,7 +27,9 @@
 # ------------------------------------------------------------------------------
 /sie ausgewählt wurden.{1,10}\d{3}.{0,5}\d{3}/iu
 
-/ihre e?.?mail.?adresse wurde zufällig aus der/iu
+/ihre.{1,10}e?.?mail.{1,15}wurde zufällig aus der/iu
+/ihre.{1,10}e?.?mail.{1,15}wurde zufällig von einem/iu
+/ihre.{1,10}e?.?mail.{1,15}wurde online zufällig ausgewählt/iu
 
 # Contact
 # ------------------------------------------------------------------------------
@@ -35,8 +37,6 @@
 /(millionen|tausend).{1,10}(dollar|euro?|gbp|usd).{1,10}e?.?mail für details/iu
 
 /kontaktieren sie barr/i
-
-/ihre.{1,10}e?.?mail{1,15}wurde zufällig von einem/iu
 
 # Donation
 # ------------------------------------------------------------------------------
