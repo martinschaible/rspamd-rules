@@ -5,11 +5,11 @@
 #  10 |
 # ==============================================================================
 
-# No SSL and regular TLD
+# Regular TLD
 # ------------------------------------------------------------------------------
 /http:\/\/(www\.)?[a-z]{3,20}\.net/i
 
-# No SSL and an exotic TLD
+# Exotic TLD
 # ------------------------------------------------------------------------------
 /http:\/\/(www\.)?[a-z0-9-]{3,20}\.(bond|club|email|fun|life|ltd|one|rest|services|shop|social|today|world)/i
 
@@ -27,7 +27,7 @@
 /\/head><body><img src=.?http:\/\//i
 /<a href=3d.?http:\/\/mail\./i
 
-# No SSL with a long path
+# Long path
 # ------------------------------------------------------------------------------
 # Sample: http://fraynard.com/1O0i0a1n9k0l2t79-165mei1wh534n331ff8k00001
 
@@ -39,7 +39,11 @@
 
 /http:\/\/alert\./i 
 
-# No SSL with a long filename
+# Long filename
 # ------------------------------------------------------------------------------
 # Sample: http://saltyremind.com/qsdvqsdvqzregvqssdv.html?od=1sycshort6537f82a7c421_vl_intervl_11hc.onaoM.Yzzzyr1i1dp20i2111_vq1349.fvrchd3d3d3gxMmdvbXRm0n4dTb
 /http:\/\/(www\.)?[a-z0-9-]{3,25}\.com\/[a-z0-9-]{15,25}\.html/i
+
+# Partial Domain name
+# ------------------------------------------------------------------------------
+/http:\/\/click\./i
