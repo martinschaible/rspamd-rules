@@ -38,7 +38,9 @@
 /static\.wixstatic\.com.*https:\/\/www\.linkedin\.com\//i
 
 /\.googleusercontent\.com.*https:\/\/t\.co\//i
+
 /\firebasestorage\.googleapis\.com.*https:\/\//static\.wixstatic\.com//i
+/\firebasestorage\.googleapis\.com.*https:\/\//appspot\.com//i
 
 # Works here!
 /tinyurl\.com.*mcusercontent\.com\//i
