@@ -16,6 +16,7 @@
 
 # Contact
 # ------------------------------------------------------------------------------
+/reply back for.{1,10}information.{1,10}claims/i
 
 # 
 # Donation
@@ -24,6 +25,7 @@
 /\d{3}.{0,5}\d{3}.{1,15}donated to you/i
 
 /you have been awarded.{1,10}\d{3}.{0,5}\d{3}/i
+/you have been selected.{1,10}receive.{1,10}financial/i
 
 /(donation|grant).{1,10}has been made to you/i
 

@@ -51,10 +51,9 @@
 /investment.{1,10}(proposal|proposition)/i
 /investment.{1,10}partnership.{1,10}offer/i
 
-/inquiry.{1,10}investment/i
+/confidential.{1,10}investment.{1,10}partnership/i
 
-# Winning, Lottery
-# ------------------------------------------------------------------------------
+/inquiry.{1,10}investment/i
 
 #
 #

@@ -5,10 +5,18 @@
 #  10 | German         |
 # ==============================================================================
 
-# Winning
+# Winning, Lottery
 # ------------------------------------------------------------------------------
 /gewinn.{0,5}(benachrichtigung|notifikation)/i
+
+/geehrter?.?gewinner/i
 
 /brandneu.{1,10}gewinnspiel/i
 
 /willkommensbonus.{1,10}(wartet|warten) auf sie/i
+
+# 16.08. - 1 False/Positive
+/(ihr habt|sie haben).{1,10}gewonnen/i
+
+/lotterie.?gewinn/i
+/us.?dollar für sie/iu

@@ -158,7 +158,7 @@
 /i.?a?m a?.{0,15}(financial|investment).?(broker|consultant)/i
 
 /i.?a?m a?.{0,10}investment.portfolio.manager/i
-/i.?a?m a?.{5,25}private.investment.broker/i
+/i.?a?m a?.{5,25}private.{1,10}(investor|investment.broker)/i
 /i.?a?m a?.{5,25}from the federal/i
 
 /i.?a?m (mrs?|ms).{5,25}(barrister|solicitor)/i

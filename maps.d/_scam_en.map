@@ -48,7 +48,7 @@
 # ------------------------------------------------------------------------------
 /(attn|attention|dear).{1,10}beneficiary/i
 
-/you have been selected as one of.{1,20}beneficiaries/i
+/you have (been selected|emerged) as one of.{1,20}beneficiaries/i
 
 # Currency, Big numbers
 # ------------------------------------------------------------------------------
@@ -98,6 +98,7 @@
 
 /your.{1,10}outstanding.{1,10}funds totaling.{1,10}million/i
 /your.{1,10}cooperation.{1,10}assist.{1,10}transferring.{1,15}funds/i
+/your.{1,10}interest to.{1,15}(manage|receive).{1,15}funds/i
 
 # Heir
 # ------------------------------------------------------------------------------
@@ -113,6 +114,7 @@
 /you help me invest.{1,10}funds/i
 /you to assist me to invest/i
 
+/confidential.{1,10}investment.{1,10}partnership/i
 
 /investor can invest in.{1,10}viable/i
 /investing in your country.{1,15}needs your.{1,10}assistance/i
