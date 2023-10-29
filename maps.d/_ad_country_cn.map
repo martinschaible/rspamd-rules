@@ -18,7 +18,7 @@
 # Intros
 # ------------------------------------------------------------------------------
 /glad to (know|hear) that you.{1,10}on the market for/i
-/glad to (know|hear) that you.{1,10}are in.{1,15}business/i
+/glad to (know|hear) that you.{1,10}are in.{1,15}(business|need of)/i
 /glad to (know|hear) that you.{1,10}are on the.{1,20}market/i
 
 /my name is.{5,25}we are specialized in/i
@@ -69,6 +69,7 @@
 # ------------------------------------------------------------------------------
 /we.?a?re.{1,10}factory.{1,10}with.{1,10}years experience/i
 /we.?a?re.{1,10}factory.{1,15}offer good quality/i
+/we.?a?re.{1,10}factory.{1,10}that.{1,10}provide/i
 
 /we.?a?re.{1,10}(leader|leading) manufacturer.{1,10}of/i
 /we.?a?re.{1,10}leader oem.{1,10}manufacturer/i

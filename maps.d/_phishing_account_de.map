@@ -22,8 +22,9 @@
 /ihr.{1,15}konto ist (dauerhaft|derzeit|vorübergehend) (eingeschränkt|begrenzt|gesperrt)/i
 /ihr.{1,15}konto ist noch nicht aktualisiert/i
 
-/ihr.{1,15}konto vorsorglich sperren/i
-/ihr.{1,15}konto zu ihrem eigenen schutz gesperrt haben/i
+/ihr.{1,15}konto.{1,10}vorsorglich sperren/i
+/ihr.{1,15}konto.{1,10}zu ihrem eigenen schutz gesperrt haben/i
+/ihr.{1,15}konto.{1,10}überprüfen.{1,15}aktualisieren/iu
 
 /ihr.{1,15}konto ist gesperrt.{1,10}um es.{1,10}(online|wieder).{1,10}zu aktivieren/i
 
@@ -120,6 +121,7 @@
 
 # EMail and Hosting
 # ------------------------------------------------------------------------------
+/sie haben ausstehende.{1,15}e?.?mails/i
 
 #
 #
