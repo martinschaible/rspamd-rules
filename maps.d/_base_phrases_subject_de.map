@@ -21,7 +21,7 @@
 # Sample: #7635349894-Nachricht
 /\d{5,15}.?nachricht/i
 # Sample: Neue Nachricht#2632667875
-/(benachrichtigung|nachricht)#\d{5,15}/i
+/(benachrichtigung|nachricht)#/i
 
 /-:neue nachricht/i
 
