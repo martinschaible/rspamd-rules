@@ -24,19 +24,19 @@
 
 /(benötigen|brauchen) sie (dringend)?.{1,10}(darlehen|kredit)/iu
 
-/einfaches.{1,10}kredit.?angebot/i
-/erhalten sie.{1,10}darlehen.{1,10}kredite/i 
-/wir.(bieten|gewähren|vergeben).{1,10}(alle arten von)?.{0,10}(darlehen|kredit)/iu
-/wir.(bieten|gewähren|vergeben).{1,10}kurz.{1,10}lang.?fristige.{0,10}(darlehen|kredit)/i
+/einfaches.{1,15}kredit.?angebot/i
+/erhalten sie.{1,10}darlehen.{1,15}kredite/i 
+/wir (bieten|gewähren|vergeben).{1,10}(alle arten von)?.{0,15}(darlehen|kredit)/iu
+/wir (bieten|gewähren|vergeben).{1,10}kurz.{1,10}lang.?fristige.{0,15}(darlehen|kredit)/i
 
 /(unschlagbar|zuverlässig).{1,10}kredit.?angebot/i
 
 /garantiert.günstigen.zinssatz/i
 
 /sie auf der suche nach.{1,15}(darlehen|kredit)/i
-/sie benötigen.{1,10}dringend.{1,10}ein(en)?.{1,10}(darlehen|kredit)/iu
-/sie benötigen.{1,10}günstig.{1,10}(darlehen|kredit)/iu
-/suchen sie.{1,10}ein(en)?.{1,10}(darlehen|kredit)/iu
+/sie benötigen.{1,10}dringend.{1,10}ein(en)?.{1,15}(darlehen|kredit)/iu
+/sie benötigen.{1,10}günstig.{1,15}(darlehen|kredit)/iu
+/suchen sie.{1,10}ein(en)?.{1,15}(darlehen|kredit)/iu
 #
 /geschäfts.?kredit.{1,10}und.{1,10}privat.?kredit/iu
 
@@ -48,8 +48,8 @@
 /ich biete privat.?(darlehen|kredit)/i
 /ihnen ein.{1,10}(darlehen|kredit) mit einem.{1,15}zinssatz/iu
 
-/wir leihen.{1,10}(darlehen|kredit)/i
-/wir alle arten von.{1,10}(darlehen|kredite) anbieten/i
+/wir leihen.{1,15}(darlehen|kredit)/i
+/wir alle arten von.{1,15}(darlehen|kredite) anbieten/i
 
 # Money
 # ------------------------------------------------------------------------------
