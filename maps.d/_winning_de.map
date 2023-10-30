@@ -12,6 +12,10 @@
 /euromillions.nationale.lotterie/i
 /spanische.?lotterie/i
 
+/mega.?jackpot.?aktion/i
+
+/google online.?(direktor|verlosung)/i
+
 # Fake Programs
 # ------------------------------------------------------------------------------
 
@@ -49,6 +53,7 @@
 
 /ihre e?.?mail.?adresse.{1,10}hat.{1,15}(millionen|tausend).{1,20}(dollar|euro?|gbp|usd).{1,20}gewonnen/i
 /ihre e?.?mail.?adresse.{1,10}wurde ausgewählt.{1,10}um den betrag/iu
+/ihre e?.?mail.{1,10}wurde mit der losnummer/i
 
 /haben sie.{1,10}\d{3}.{1,5}\d{3}.{1,10}(dollar|euro?|gbp|usd).{1,10}gewonnen/i
 
