@@ -60,6 +60,8 @@
 /büro.?(stuhl|stühle).{1,10}(in leder|in vielen farben|mit walnussholz)/iu
 /büro.?(stuhl|stühle).{1,10}neues modell/iu
 
+/stuhl.{1,15}vorzugspreis von nur/i
+
 /mesh.{1,10}büro.?(stuhl|stühle).{1,10}schwarz/iu
 
 /unsere.{1,10}büro.?(stuhl|stühle) sind in/iu
@@ -258,6 +260,7 @@
 
 /bestellen.{1,15}einfach antworten mit adresse/i
 /bestellen.{1,15}einfach mit adresse.{1,10}diese e?.?mail antworten/i
+/bestellen.{1,15}einfach per e?.?mail.{1,10}antwort/i
 
 /bestellen.{1,15}senden sie uns.{1,15}ihre.{1,20}(liefer|rechnungs).?anschrift/i
 
@@ -290,6 +293,8 @@
 
 /uvp.{1,10}des herstellers.{1,15}unser unschlagbarer preis.{1,10}nur/i
 /preis beträgt anstelle von.{1,10}euro nur.{1,10}euro.{1,10}zzgl/iu
+
+/unschlagbarer preis.{1,10}statt.{1,10}nur.{1,10}euro.{1,10}netto/i
 
 /weit unter.{1,10}uvp des herstellers/i
 /wir senden sofort zu ihnen.{1,10}sie bezahlen nur/i
