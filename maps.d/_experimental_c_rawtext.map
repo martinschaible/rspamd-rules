@@ -32,21 +32,29 @@
 /<a href=(3d)?"https:\/\/t\.co\/[a-z0-9]{5,15}" target=(3d)?"_blank"/i
 /https:\/\/t\.co\/[a-z0-9]{5,15}" target=(3d)?"_blank"><img src=(3d)?"https/i
 
-# Works here!
-/https:\/\/t\.co\/.*static\.wixstatic\.com/iu
+/https:\/\/t\.co\/.*static\.wixstatic\.com/i
 /https:\/\/t\.co\/.*\.googleusercontent\.com/i
 
+# Wix.com
+# ------------------------------------------------------------------------------
 /static\.wixstatic\.com.*https:\/\/t\.co\//i
+/static\.wixstatic\.com.*https:\/\/www\.linkedin\.com\//i
+
+# Google
+# ------------------------------------------------------------------------------
 /\.googleusercontent\.com.*https:\/\/t\.co\//i
 
-# Works here!
+/firebasestorage\.googleapis\.com.*https:\/\//static\.wixstatic\.com\//i
+/firebasestorage\.googleapis\.com\/v0\/.?\/[a-z0-9-]{5,15}\.appspot\.com\/i
+
+# Others
+# ------------------------------------------------------------------------------
 /tinyurl\.com.*mcusercontent\.com\//i
 
 # Wikipedia, Yahoo
 # ------------------------------------------------------------------------------
 /<img alt=(''|"") src=.?https:\/\/upload\.wikimedia\.org\/wikipedia\/commons/i
 
-# Works here!
 /<img alt=(''|"") src=.?http:\/\/yahoo\.com/i
 
 # Sendgrid
@@ -55,7 +63,6 @@
 
 # Facebook CDN used for image hosting
 # ------------------------------------------------------------------------------
-# Works here!
 /scontent-.{4,6}\.xx\.fbcdn\.net/i
 
 # URL
