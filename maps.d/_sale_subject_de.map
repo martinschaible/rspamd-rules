@@ -11,10 +11,9 @@
 
 # Chair
 # ------------------------------------------------------------------------------
-/(bürostuhl|bürostühle).{1,15}(eingebauter|integrierter|massage|walnussholz)/iu
-/(elegante|stilvolle|unsere|revolutionäre|traum|walnussholz).{1,15}(bürostuhl|bürostühle)/iu
+/(büro|massage).?(stuhl|stühle).{1,15}(eingebauter|integrierter|massage|walnussholz)/iu
+/(elegante|leder|stilvolle|unsere|revolutionäre|traum|walnussholz).{1,15}(büro|massage).?(stuhl|stühle)/iu
 
-/lederbürostühle/iu
 /chefsessel/i
 
 /für.{1,10}\d{3}.{1,10}statt.{1,10}\d{3}/iu

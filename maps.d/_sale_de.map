@@ -42,7 +42,7 @@
 /chefsessel.{1,10}limitierter/i
 /chefsessel.{1,10}viele farben/i
 
-/(eleganter|exklusiver|hochwertig|leder).{1,10}chefsessel/i
+/(elegant(er)?|exklusiver|hochwertig|leder).{1,10}chefsessel/i
 /toro.{1,10}chefsessel/i
 
 /lederbürostühle/iu
@@ -53,7 +53,7 @@
 /leder.?chefsessel/i
 
 /diesen einzigartigen.{1,10}stuhl/i
-/(elegante|erlesene|praktische).{1,10}büro.?(stuhl|stühle)/iu
+/(elegante|erlesene|komfort|praktische).{1,15}büro.?(stuhl|stühle)/iu
 
 /erstaunliche.{1,10}massagestuhl/i
 
@@ -263,6 +263,7 @@
 /bestellen.{1,15}einfach per e?.?mail.{1,10}antwort/i
 
 /bestellen.{1,15}senden sie uns.{1,15}ihre.{1,20}(liefer|rechnungs).?anschrift/i
+/bestellung.{1,10}antworten sie bitte mit ihrer.{1,10}adresse/i
 
 /direkt unsere sonderangebote per e?.?mail bestellen/i
 
