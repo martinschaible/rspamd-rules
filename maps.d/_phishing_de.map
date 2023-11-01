@@ -30,6 +30,14 @@
 
 /nachrichten.{1,10}aufgrund eines speicherfehlers/i
 
+# Domains
+# ------------------------------------------------------------------------------
+/domain.{5,30}ihrer firma.{1,10}mit der dieses e?.?mail.?konto/i
+/domain\*_.{5,30}_\*/i
+
+/ihre domain aufgrund eines zahlungsproblems zu verlängern/iu
+/informiert.{1,10}dass ihr domainname/i
+
 #
 #
 #
@@ -96,11 +104,6 @@
 /sie haben ein.{1,10}iphone.{0,10}pro gewonnen/i
 
 /iphone.{0,10}pro.{1,10}ausstehende sendung/i
-
-# Domains
-# ------------------------------------------------------------------------------
-/ihre domain aufgrund eines zahlungsproblems zu verlängern/iu
-/informiert.{1,10}dass ihr domainname/i
 
 #
 #
