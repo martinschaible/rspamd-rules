@@ -113,7 +113,7 @@
 
 # Winning, Lottery
 # ------------------------------------------------------------------------------
-/gewinn.?(informationen|spiel)/i
+/gewinn(er)?.?(informationen|spiel|team)/i
 
 /(lotterie|lottery).?gewinner/i
 
@@ -128,6 +128,7 @@
 # ------------------------------------------------------------------------------
 /verdächtige viren wurden entdeckt/iu
 /sicherheitshinweis/i
+/malware.?schutz/i
 
 # Products
 /av 202\d warnung/i
