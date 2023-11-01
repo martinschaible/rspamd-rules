@@ -166,6 +166,7 @@
 
 /i have.{1,15}business.{1,15}(opportunity|proposition|proposal|transaction)/i
 /i have.{1,15}(profitable|lucrative).{1,15}(business|opportunity|proposition|proposal|transaction)/i
+/i have.{1,15}mutual confidential/i
 /i have.{1,10}project worth.{1,10}million/i
 /i have.{1,10}proposition for you.{1,10}which will be/i
 
@@ -178,6 +179,8 @@
 /discuss.{1,10}business.{1,10}(opportunity|proposition|proposal|transaction) with you/i
 
 /share with you.{1,10}business.{1,10}insights/i
+
+/mutual confidential offer/i
 
 /urgent business proposal.{1,10}to you/i
 
