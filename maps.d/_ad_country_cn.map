@@ -46,7 +46,7 @@
 /this is.{5,25}from.{1,10}/(china|dongguan|guangzhou|shenzhen|zhejiang)/i
  
 /we are.{1,10}chinese.{1,10}leading/i
-/we are.{1,10}chinese.{1,15}(leading|manufacturer)/i
+/we are.{1,10}chinese.{1,15}(leading|manufacturer|supplier)/i
 
 /we are.{1,10}(china|dongguan|guangzhou|shenzhen|zhejiang).?based.{1,10}(company|manufacturer?|supplier).{1,10}(of|offering)/i
 
@@ -91,6 +91,8 @@
 /we are.{1,10}specializes in the production of/i
 /we are.{1,10}the leading importers/i
 
+/we have our own factory/i
+
 /(co|ltd).{1,15}is a high.?tech enterprise/
 /(co|ltd).{1,15}is a factory specialized in/i
 /(co|ltd).{1,15}professional.{1,15}manufacturer/i
@@ -110,6 +112,9 @@
 /our factory.{1,10}mainly focus on/i
 
 /you looking for.{1,10}factory who can/i
+
+#
+/supplier.{1,10}our company name is/i
 
 # Experience
 # ------------------------------------------------------------------------------
@@ -171,6 +176,7 @@
 /ltd.{1,10}a professional pcba?/i
 /in the field of pcba?.{1,10}years/i
 
+/experience in.{1,10}(pcba?|printed.circuit.board).{1,10}manufacturing/i
 /we.{1,10}focus on pcba?/i
 
 /we.{1,10}(offer|provide).{1,10}(pcba?|printed.circuit.board).{1,10}(assembly|layers)/i
@@ -184,6 +190,7 @@
 /you.{1,10}interested in.{1,10}(pcba?|printed circuit board)/i
 
 /your.{1,10}currently.{1,15}(pcba?|printed circuit board).{1,15}suppliers/i
+/your.{1,10}current.{1,15}(pcba?|printed circuit board).{1,15}requirements/i
 
 # Products, specific China
 # ------------------------------------------------------------------------------
