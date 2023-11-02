@@ -255,7 +255,7 @@
 
 /you are looking.{1,10}(app|web).{1,10}design/i
 
-/you looking for.{1,10}affordable(app|web).{1,10}developer/i
+/you looking for.{1,10}affordable.{1,10}(app|web).{1,10}developer/i
 /you looking for.{1,10}web.?site.{1,10}design/i
 
 /you want make.{1,10}web.?site/i
@@ -276,6 +276,7 @@
 /we are.{1,10}web development company/i
 /we are.{1,20}professional website developers/i
 
+/we create new web.?site/i
 /we have.{1,10}professional team.{1,10}web.site/i
 /we deliver.{1,10}best.{1,10}web.?sites/i
 
@@ -286,8 +287,8 @@
 /web (design|development).{1,10}company.{1,10}specialized in/i
 /web (design|development).{1,10}company.{1,10}with.{1,10}primary/i
 
-/website design(ing)?.{1,10}web.?development/i
-/website design.{1,10}redesign/i
+/web.?site design(ing)?.{1,10}web.?development/i
+/web.?site design.{1,10}redesign/i
 
 /web.?development.{1,10}php.?development/i
 
@@ -296,7 +297,6 @@
 /you looking.{1,10}experienced.{1,10}wordpress/i
 
 /interested.{1,10}outsourcing.{1,10}wordpress/i
-
 
 # Web-Design/Development, India
 # ------------------------------------------------------------------------------

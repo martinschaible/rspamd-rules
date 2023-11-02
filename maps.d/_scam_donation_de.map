@@ -86,10 +86,11 @@
 /(ich|sie) haben? eine.{1,15}spende.{1,10}(in höhe)?.{0,10}von.{2,10}million/iu
 /(ich|sie) haben? eine.{1,15}spende.{1,10}von.{5,25}weitere informationen/i
 
-/sie.{1,10}den erhalt einer spende/i
+/sie.{1,10}den erhalt einer.{1,15}spende/i
 /sie als empfänger einer.{1,20}spende/iu
 /sie eine spende in höhe von.{1,15}(millionen|tausend|dollar|euro?|gbp|usd).{1,15}vom/iu
 
+/sie als gewinner einer.{1,15}spende/i
 /sie ausgewählt wurden.{1,10}den betrag von.{1,10}\d{3}.{0,5}\d{3}/iu
 /sie ausgewählt.{1,10}um eine spende in höhe von/iu
 /sie erhielten.{1,10}eine.{1,10}spende in höhe von/iu
