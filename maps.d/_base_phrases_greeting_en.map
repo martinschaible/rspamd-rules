@@ -118,6 +118,7 @@
 /this is.{5,25}from.{5,25}nice to meet you/i
 
 /(you are doing well|you in good health|write you today).{1,10}my name is/i
+/you through this medium.{1,10}my name is/i
 
 # Greetings, Country
 # ------------------------------------------------------------------------------
@@ -157,6 +158,8 @@
 /i.?a?m a?.{0,10}consultant mr/i
 /i.?a?m a?.{0,10}digital.marketing.expert/i
 /i.?a?m a?.{0,15}(financial|investment).?(broker|consultant)/i
+
+/i.?a?m a?.{0,10}(fbi|special agent)/i
 
 /i.?a?m a?.{0,10}investment.portfolio.manager/i
 /i.?a?m a?.{5,25}private.{1,10}(investor|investment.broker)/i

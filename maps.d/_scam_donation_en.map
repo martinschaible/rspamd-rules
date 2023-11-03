@@ -27,6 +27,8 @@
 /you have been awarded.{1,10}\d{3}.{0,5}\d{3}/i
 /you have been selected.{1,10}receive.{1,10}financial/i
 
+/you to receive.{1,15}(million|dollars?|euro?|gbp|usd).{1,15}donation/i
+
 /(donation|grant).{1,10}has been made to you/i
 
 /donation.{1,15}contact.{1,10}to claim/i
@@ -63,5 +65,6 @@
 #
 #
 
-# Winning
+# Fake Winning
 # ------------------------------------------------------------------------------
+/ich habe einen jackpot von.{1,15}millionen/i
