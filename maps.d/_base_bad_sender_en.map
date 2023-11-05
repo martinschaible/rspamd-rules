@@ -23,6 +23,9 @@
 # Sample: | Netflix Inc. |
 /\|.{1,20}\|/i
 
+# m e t a m a s k
+/\w \w \w \w \w \w \w/i
+
 # Fake Departments or Companies
 # ------------------------------------------------------------------------------
 

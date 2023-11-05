@@ -44,6 +44,8 @@
 /(dear|hi).{1,5}(purchase|purchasing).?manager/i
 /dear (purchaser|sir).{1,10}(glad to konow you|how are you)/i
 
+/dear sir.{1,5}madam.{1,10}i am writing to/i
+
 /dearest possible companion/i
 
 /good (day|morning).{1,10}i.?a?m.{5,25}from/i
@@ -70,13 +72,14 @@
 /hello.{1,10}glad to connect/i
 /hello.{1,10}this is.{5,25}from/i
 
-/hello.{1,10}my friend.{1,10}nice to meet you/i
+/(hello|hi).{1,10}my friend.{1,10}nice to meet you/i
+/(hello|hi).{1,10}potential partner/i
 /(hello|hi).{1,10}valued customer.{1,10}(good day|how are you)/i
+/(hello|hi).{1,10}sir.{1,5}we sell/i
 
 /hi.{1,5}greetings.for.the.day/i
 /hi.{1,5}i.?a?m.{5,25}we are.{1,10}company/i
 /hi.{1,5}po is attached/i
-/hi.{1,5}potential partner/i
 
 /hi there.{1,10}hope you are doing well/i
 
