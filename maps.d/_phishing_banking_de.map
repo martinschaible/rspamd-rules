@@ -35,14 +35,17 @@
 
 # New Systems, Security, Technology, TAN
 # ------------------------------------------------------------------------------
-
 /aktivieren sie ihre karte gebührenfrei/iu
 /reaktivieren sie die.{1,20}tan.?app/i
 
-/reaktivieren.{1,20}sie ihre handynummer/i
 /sicherheitsverfahren.{1,10}registrieren sie sich/i
 
 /jetzt umstellung starten/i
+
+# Phone
+/konto angemeldet.{1,20}aktivieren sie ihre telefonnummer/i
+/telefonnummer ist erforderlich.{1,10}damit Sie in Ihrem Konto/i
+/reaktivieren.{1,20}sie ihre handynummer/i
 
 # Photo TAN
 /photo.?tan.?aktivierungsbrief/i
@@ -53,7 +56,6 @@
 /ihre? photo.?tan.?verfahren/i
 
 /vorzustellen.{1,10}das neue s.?push.?tan/i
-
 
 # Online Banking
 # ------------------------------------------------------------------------------
