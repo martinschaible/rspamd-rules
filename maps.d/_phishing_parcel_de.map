@@ -11,6 +11,8 @@
 # ------------------------------------------------------------------------------
 /sehr geehrter kunde.{1,10}ihr.{1,10}(dhl|post).{1,10}paket/i
 
+/postamt angekommen/i
+
 # Address
 # ------------------------------------------------------------------------------
 /adresse für dieses.{1,10}paket mitteilen/iu
@@ -130,6 +132,7 @@
 /zusätzliche gebühr in höhe von.{1,15}fällig/iu
 
 /zustellung eine zusätzliche gebühr von.{1,15}anfällt/iu
+/zustellversuch zu bezahlen/i
 
 # Tracking
 # ------------------------------------------------------------------------------
