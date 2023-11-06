@@ -19,16 +19,18 @@
 
 /informationen.{1,10}um eine sperrung ihres.{1,15}kontos/i
 
-/ihr.{1,15}konto vorübergehend.{1,10}sicherheitsgründen (eingeschränkt|begrenzt|gesperrt)/iu
-/ihr.{1,15}konto ist (dauerhaft|derzeit|vorübergehend) (eingeschränkt|begrenzt|gesperrt)/i
-/ihr.{1,15}konto ist noch nicht aktualisiert/i
+/ihr.{1,15}konto.{1,10}vorübergehend.{1,10}sicherheitsgründen (eingeschränkt|begrenzt|gesperrt)/iu
+/ihr.{1,15}konto.{1,10}ist (dauerhaft|derzeit|vorübergehend) (eingeschränkt|begrenzt|gesperrt)/i
+/ihr.{1,15}konto.{1,10}ist noch nicht aktualisiert/i
 
 /ihr.{1,15}konto.{1,10}vorsorglich sperren/i
 /ihr.{1,15}konto.{1,10}zu ihrem eigenen schutz gesperrt haben/i
 /ihr.{1,15}konto.{1,10}überprüfen.{1,15}aktualisieren/iu
 
-/ihr.{1,15}konto ist gesperrt.{1,10}um es.{1,10}(online|wieder).{1,10}zu aktivieren/i
-/ihr.{1,15}konto wird bald gesperrt/i
+/ihr.{1,15}konto.{1,10}ist gesperrt.{1,10}um es.{1,10}(online|wieder).{1,10}zu aktivieren/i
+/ihr.{1,15}konto.{1,10}wird bald gesperrt/i
+
+/ihr.{1,15}konto.{1,10}kompromittiert wurde.{1,10}ihre karte/i
 
 /wir vorsorglich ihr.{1,15}konto sperren/i
 
