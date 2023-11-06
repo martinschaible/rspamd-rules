@@ -26,8 +26,9 @@
 
 /get.{1,10}affordable loan/i
 
-/we (are offering|give|offer|offering).{1,15}(business|corporate|personal).{1,15}loans?/i
-/we (are offering|give|offer|offering).{1,15}loans? at.{1,10}interest/i
+/we (are offering|give|offer|offering|provide).{1,15}(business|corporate|personal).{1,15}loans?/i
+/we (are offering|give|offer|offering|provide).{1,15}loans? at.{1,10}interest/i
+/we (are offering|give|offer|offering|provide).{1,15}loan.{1,10}funding/i
 
 /we are currently offering.{1,10}loans?/i
 /we are offering.{1,10}loans?/i
@@ -52,7 +53,8 @@
 /we offer.{1,10}independent financial/i
 
 /we specialise in investments/i
-/we are an.{1,10}investment company/i
+
+/we are.{1,10}(financial|investment).{1,10}(company|consultant)/i
 
 /we can provide.{1,10}funding/i
 /we provide.{1,15}assistance.{1,10}at a low/i

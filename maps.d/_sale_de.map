@@ -104,6 +104,7 @@
 /huusk.{1,10}lieben/i
 /huusk.{1,10}messer.{1,10}bestellen/i
 
+/empfehlung.{1,20}huusk/i
 /team.?huusk/i
 
 # Ladder
@@ -190,6 +191,7 @@
 
 # Trolley & Tools
 # ------------------------------------------------------------------------------
+/(werkstatt|werkzeug).?(trolley|wagen).{1,10}angeben/i
 /(werkstatt|werkzeug).?(trolley|wagen).{1,10}gefüllt mit/iu
 /(werkstatt|werkzeug).?(trolley|wagen).{1,10}genau das richtige/i
 /(werkstatt|werkzeug).?(trolley|wagen).{1,10}mit.{1,10}schubladen/i
@@ -258,11 +260,14 @@
 /antworten sie.{1,10}einfach mit ihrer.{1,10}lieferadresse/i
 /antworten sie.{1,10}direkt auf diese e?.?mail.{1,10}wir schicken ihnen ihr/i
 
-/bestellen.{1,15}einfach antworten mit adresse/i
+/bestellen.{1,10}einfach antworten/i
+/bestellen.{1,15}einfach auf dieses?.{1,10}(e?.?mail|schreiben) antworten/i
 /bestellen.{1,15}einfach mit adresse.{1,10}diese e?.?mail antworten/i
 /bestellen.{1,15}einfach per e?.?mail.{1,10}antwort/i
-
+/bestellen.{1,10}mit ihrer anschrift einfach antworten/i
+/bestellen.{1,10}senden sie uns einfach.{1,10}e?.?mail/i
 /bestellen.{1,15}senden sie uns.{1,15}ihre.{1,20}(liefer|rechnungs).?anschrift/i
+
 /bestellung.{1,10}antworten sie bitte mit ihrer.{1,10}adresse/i
 
 /direkt unsere sonderangebote per e?.?mail bestellen/i
@@ -274,9 +279,6 @@
 /ihre antwort genügt.{1,10}wir senden.{1,10}zu ihnen/iu
 
 /zum antworten bestellen.{1,15}lieferung auf rechnung/i
-/zum? bestellen.{1,15}einfach auf dieses?.{1,10}(e?.?mail|schreiben) antworten/i
-/zum? bestellen.{1,10}einfach antworten/i
-/zum? bestellen.{1,10}senden sie uns einfach.{1,10}e?.?mail/i
 
 /lieferung.{1,10}rechnung.{1,10}statt uvp.{1,10}nur.{1,10}plus/i
 /lieferung.{1,10}erfolgt auf rechnung zu lediglich/i

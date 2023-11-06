@@ -59,6 +59,8 @@
 
 /haben sie.{1,10}\d{3}.{1,5}\d{3}.{1,10}(dollar|euro?|gbp|usd).{1,10}gewonnen/i
 
+/gewonnen.{1,10}kontaktieren sie uns/i
+
 #
 #
 #
@@ -79,7 +81,9 @@
 # ------------------------------------------------------------------------------
 /erhalten einen kostenlosen bonus/i
 
-/willkommensbonus.{1,10}bis zu/i
+/fantastischen.{1,10}willkommens.?bonus/i
+
+/willkommens.?bonus.{1,10}bis zu/i
 
 # Gambling
 # ------------------------------------------------------------------------------
