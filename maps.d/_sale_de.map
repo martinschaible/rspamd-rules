@@ -197,10 +197,13 @@
 /(werkstatt|werkzeug).?(trolley|wagen).{1,10}mit.{1,10}schubladen/i
 /(werkstatt|werkzeug).?(trolley|wagen).{1,10}ist aus robustem/i
 /(werkstatt|werkzeug).?(trolley|wagen).{1,10}konstruiert aus/i
-/(werkstatt|werkzeug).?(trolley|wagen).{1,10}inklusive.{1,10}Werkzeugset/i
+/(werkstatt|werkzeug).?(trolley|wagen).{1,10}inklusive.{1,20}Werkzeug/i
 
 /hochwertiger.{1,10}(werkstatt|werkzeug).?(trolley|wagen).{1,10}inkl/i
 
+/unser (werkstatt|werkzeug).?(trolley|wagen).{1,10}ist mit/i
+
+/werkzeug.{1,10}aus chrom.?vanadium/i
 /werkzeug.{1,10}komplettset.{1,10}alukoffer/i
 
 # Umbrellas
