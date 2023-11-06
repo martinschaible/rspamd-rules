@@ -154,7 +154,7 @@
 
 /business.{1,10}(opportunity|proposition|proposal|transaction).{1,10}please get back to me/i
 /business.{1,10}(opportunity|proposition|proposal|transaction).{1,10}discuss with you/i
-/business.{1,10}(opportunity|proposition|proposal|transaction).{1,10}that.{1,10}want to discuss/i
+/business.{1,10}(opportunity|proposition|proposal|transaction).{1,10}(i would|that).{1,10}(like|want) to discuss/i
 /business.{1,10}(opportunity|proposition|proposal|transaction).{1,10}for consideration/i
 
 /business.{1,20}with you in your country/i
@@ -179,6 +179,7 @@
 /discuss.{1,10}business.{1,10}(opportunity|proposition|proposal|transaction) with you/i
 
 /share with you.{1,10}business.{1,10}insights/i
+/secret private business/i
 
 /mutual confidential offer/i
 
