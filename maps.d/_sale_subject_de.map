@@ -9,6 +9,10 @@
 # ------------------------------------------------------------------------------
 /(dienstleistung|informationen).{1,10}e?.?mail.?marketing/i
 
+# Dog bed
+# ------------------------------------------------------------------------------
+/haustierbett(en)?.{1,10}tiefpreis(en)?/i
+
 # Chair
 # ------------------------------------------------------------------------------
 /(büro|massage).?(stuhl|stühle).{1,15}(eingebauter|integrierter|massage|walnussholz)/iu
@@ -61,3 +65,6 @@
 # Unclassified
 # ------------------------------------------------------------------------------
 /ausverkaufsalarm/i
+/räumungsverkauf/i
+
+/jetzt zuschlagen.{1,10}nur/i
