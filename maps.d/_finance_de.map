@@ -48,7 +48,9 @@
 
 /bewerben sie sich.{1,15}(darlehen|kredit)/i
 
-/ich biete privat.?(darlehen|kredit)/i
+/(ich|wir) bieten? privat.?(darlehen|kredit)/i
+/(ich|wir) bieten? (darlehen|kredite?) von.{1,15}bis/i
+
 /ihnen ein.{1,10}(darlehen|kredit) mit einem.{1,15}zinssatz/iu
 
 /wir leihen.{1,15}(darlehen|kredit)/i

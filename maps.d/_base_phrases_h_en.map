@@ -36,11 +36,13 @@
 /confirm.{1,10}if you still use this.{1,10}e?.?mail.?address/i
 /confirm.{1,10}(this|the).{1,10}e?.?mail.?address is still valid/i
 
-/you are still using.{1,10}(this|your).{1,10}e?.?mail.?address/i
 /hello.{1,10}did you get my previous.{1,10}e?.?mail/i
 
+/you are still using.{1,10}(this|your).{1,10}e?.?mail.?address/i
 /you received? my previous.{1,10}e?.?mail.{1,10}regards/i
 /you still (operating|reachable).{1,10}this.{1,10}e?.?mail/i
+
+/is your.{1,10}e?.?mail still active/i
 
 # Excuses and other silly stuff
 # ------------------------------------------------------------------------------
