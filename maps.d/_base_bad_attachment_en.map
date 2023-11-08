@@ -21,7 +21,8 @@
 /\d{1,4},\d{1,4},\d{1,4}\.rar/i
 
 # Sample: LF_2310000254.pdf
-/_\d{5,15}\.pdf/i
+# Removed too many false/positives
+#/_\d{5,15}\.pdf/i
 
 #
 /(copies|receipt.?files)\.html?/i
