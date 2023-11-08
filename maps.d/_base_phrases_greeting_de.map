@@ -17,8 +17,7 @@
 
 /guten tag.{1,10}ich suche ihre dienste/i
 /guten tag.{1,15}(damen|herren).{1,15}wie geht es dir/i
-/guten tag.{1,10}gewinner/i
-/guten tag.{1,10}mein lieber/i
+/(guten tag|grüße).{1,10}(geliebte|gewinner|mein lieber)/i
 
 /(guten tag|hallo).{1,10}ich bin.{1,10}(frau|herr)/i
 

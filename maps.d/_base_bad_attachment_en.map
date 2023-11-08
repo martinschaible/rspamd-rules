@@ -10,7 +10,7 @@
 
 # Sample: J0370600140.rar
 #         PO 908534243.tgz
-/\d{4,15}\.(rar|tgz|zip)/i
+/\d{4,15}\.(rar|tgz)/i
 
 # Sample: 0371000451985_082023.rar
 /\d{4,10}_\d{4,10}\.rar/i
