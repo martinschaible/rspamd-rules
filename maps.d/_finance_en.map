@@ -49,8 +49,10 @@
 
 # Financing
 # ------------------------------------------------------------------------------
-/we offer.{1,10}personal.{1,10}business financial/i
-/we offer.{1,10}independent financial/i
+/we (are offering|give|offer|offering|provide).{1,10}personal.{1,10}business.{1,10}financial/i
+/we (are offering|give|offer|offering|provide).{1,10}independent.{1,10}financial/i
+/we (are offering|give|offer|offering|provide).{1,15}business.{1,10}personal.{1,15}financing?/i
+/we (are offering|give|offer|offering|provide).{1,10}independent.{1,10}funding/i
 
 /we specialise in investments/i
 
