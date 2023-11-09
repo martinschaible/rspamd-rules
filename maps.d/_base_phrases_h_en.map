@@ -92,7 +92,9 @@
 /watch it before it.?i?s too late/i
 /watch the video before.{1,20}(attorney|big)/i
 
-/watch this (controversial|shocking|urgent) video/i
+/watch.{1,10}video.{1,10}join here/i
+
+/watch this.{1,10}(controversial|shocking|urgent) video/i
 
 /video.{1,10}before it.{1,10}(gone|too late)/i
 

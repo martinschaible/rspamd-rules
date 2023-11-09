@@ -81,7 +81,7 @@
 /we.?a?re.{1,10}(manufacturer|manufactuer) (in|of)/i
 /we.?a?re.{1,10}(manufacturer|manufactuer).{1,10}exporter (in|of)/i
 
-/we.?a?re.{1,10}(professional|reliable).{1,10}distributor of/i
+/we.?a?re.{1,10}(professional|reliable).{1,10}distributor/i
 /we.?a?re.{1,10}(professional|reliable).{1,20}product.{1,10}(company|manufacturer?|supplier)/i
 /we.?a?re.{1,10}(professional|reliable).{1,10}supplier (of|with)/i
 /we.?a?re.{1,10}(professional|reliable).{1,20}manufacturer.{1,10}specialized in/i
@@ -127,7 +127,7 @@
 
 # Experience
 # ------------------------------------------------------------------------------
-/(more than|we have).{1,10}years.{1,10}experience.{1,10}(producing|providing)/i
+/(more than|we have).{1,10}years.{1,10}experience.{1,10}(industry|producing|providing|traditional)/i
 
 # Products
 # ------------------------------------------------------------------------------
