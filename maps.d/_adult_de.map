@@ -15,6 +15,10 @@
 #
 #
 
+# Cams
+# ------------------------------------------------------------------------------
+/unsere.{1,10}live.?cams/i
+
 # Chat
 # ------------------------------------------------------------------------------
 /chat ist kostenlos/i
@@ -29,12 +33,6 @@
 /erotischen chat/i
 
 /sie.{1,10}chat kostenlos aus/i
-
-# Cams
-# ------------------------------------------------------------------------------
-/unsere.{1,10}live.?cams/i
-
-/sexy.cam.show/i
 
 # Dating
 # ------------------------------------------------------------------------------
@@ -115,9 +113,11 @@
 
 /milf.{1,10}community/i
 
-/(mädchen|frauen).{1,10}(deiner|ihrer).{1,10}(nähe|umgebung)/iu
+/(ladies|mädchen|frauen).{1,10}(deiner|ihrer).{1,10}(nähe|umgebung)/iu
 
 /melde dich bei frauen/i
+
+/reife.{1,10}(ladies|mädchen|frauen).{1,10}warten/i
 
 /regionale babes/i
 
@@ -182,6 +182,10 @@
 /ich erwarte dich hier/i
 /auf der web.?site warten/i
 
+/sex.?site.{1,10}kostenlos/i
+
+/web.?site ist völlig kostenlos/iu
+
 #
 #
 #
@@ -189,6 +193,8 @@
 # Blowjob, handjob
 # ------------------------------------------------------------------------------
 /handjob zu geben/i
+
+/sauge.{1,10}(deinen|deinem).{1,10}schwanz/i
 
 # Cum
 # ------------------------------------------------------------------------------

@@ -57,7 +57,7 @@
 
 /erstaunliche.{1,10}massagestuhl/i
 
-/büro.?(stuhl|stühle).{1,10}(in leder|in vielen farben|mit walnussholz)/iu
+/büro.?(stuhl|stühle).{1,10}(eleganz|in leder|in vielen farben|mit walnussholz)/iu
 /büro.?(stuhl|stühle).{1,10}neues modell/iu
 
 /stuhl.{1,15}vorzugspreis von nur/i
@@ -67,6 +67,9 @@
 /unsere.{1,10}büro.?(stuhl|stühle) sind in/iu
 
 /stuhl zum vorzugspreis/i
+
+# Massage
+/jetzt.{1,10}mit massagefunktion/i
 
 # Cushion
 # ------------------------------------------------------------------------------

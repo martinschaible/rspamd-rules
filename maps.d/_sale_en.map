@@ -93,6 +93,10 @@
 # Drone
 # ------------------------------------------------------------------------------
 
+# Fuel Saver
+# ------------------------------------------------------------------------------
+grab your.{1,10}fuel.?saver/i
+
 # Hiring people
 # ------------------------------------------------------------------------------
 
@@ -185,6 +189,8 @@
 /your web.?site.{1,10}search.?engines/i
 /your web.?site.{1,30}is only listed in/i
 /your web.?site.{1,10}i found it.{1,10}impressive/i
+/your web.?site.{1,25}has some problems.{1,10}you.{1,10}(might|need)/i
+/your web.?site.{1,10}found those errors/i
 
 # Google
 /1st.?page of google/i

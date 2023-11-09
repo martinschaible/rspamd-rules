@@ -7,6 +7,14 @@
 #  10 | English        |
 # ==============================================================================
 
+# Cams
+# ------------------------------------------------------------------------------
+/cam.?to.?cam/i
+
+/sexy.cam.show/i
+
+/(sex|webcam).?chat/i
+
 # Chat
 # ------------------------------------------------------------------------------
 
@@ -21,7 +29,7 @@
 /dating.?site.{1,10}for free/i
 
 /(adult|casual|german|sex).?dating.?(club|community|portal|site)/i
-/german.?casual.?club/i
+/german.{1,10}casual.?club/i
 /social.?sex.?(club|community|portal|site)/i
 
 /online.?casual.?dating/i
