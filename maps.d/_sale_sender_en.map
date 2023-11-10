@@ -44,7 +44,7 @@
 
 # Knives
 # ------------------------------------------------------------------------------
-/huusk.(japanese|knife|team)/i
+/huusk.{1,15}(handmadejapanese|knife|knives|team)/i
 
 /friends.{1,10}huusk/i
 
