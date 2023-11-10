@@ -8,9 +8,13 @@
 # Greetings
 # ------------------------------------------------------------------------------
 /(grüße|hallo geliebte).{1,10}ich.bin.(frau|herr)/i
-/grüße.{1,10}mein.name.ist/iu
+
+/grüße.{1,15}antworten sie auf meine/iu
 /grüße.{1,10}in bester gesundheit/iu
-/grüße.{1,10}mein lieber/i
+/grüße.{1,10}mein.name.ist/iu
+/grüße.{1,10}mein lieber/iu
+
+Bitte antworten Sie
 
 /guten tag.{1,10}(madam|sir)/i
 /guten tag.{1,10}ich bin.{5,25}eine.{1,20}investor(in)?/i
@@ -67,6 +71,7 @@
 /mein name ist.{5,25}ich suche jemanden/i
 /mein name ist.{5,25}ich vertrete/i
 
+/mein name ist.{5,25}gewinnerin/i
 /mein name ist.{5,25}ich bin.{1,15}anwalt/i
 /mein name ist.{5,25}ich bin eine?.{1,10}deutsch(er)?/i
 /mein name ist.{5,25}deutscher? herkunft/i

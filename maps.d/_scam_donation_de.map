@@ -41,6 +41,7 @@
 # Donation
 # ------------------------------------------------------------------------------
 /spende.{1,10}\d{3}.{0,5}\d{3}.{1,10}an sie/i
+/spende.{1,10}annehmen.{1,10}antworten sie/i
 /spende.{1,10}ausgewählt.{1,10}antworten sie/iu
 /spende.{1,15}(belohnung|fonds|investition|preis)/i
 /spende.{1,10}erhalten.{1,10}sie.{1,10}interessiert/i
@@ -64,6 +65,8 @@
 /ein(en)? betrag von.{1,10}\d{3}.{0,5}\d{3}.{1,10}(millionen|tausend|dollar|euro?|gbp|usd).{1,25}wurde ihnen von/i
 
 /ich (gebe|spende) ihnen.{1,10}\d{3}.{0,5}\d{3}.{1,10}(millionen|tausend|dollar|euro?|gbp|usd)/i
+/ich (gebe|spende) ihnen.{1,10}\d{3}.{0,5}\d{3}.{1,10}meine gemeinnützige/iu
+
 /ich habe eine.{1,15}spende für sie/iu
 
 /ihnen eine spende in höhe von.{1,20}(dollar|euro?|gbp|usd).{1,10}gemacht/iu
@@ -71,14 +74,15 @@
 /ihnen wurde.{1,20}(dollar|euro?|gbp|usd).{1,10}gespendet/i
 /ihnen im namen einer wohltätigkeits.?organisation/i
 
-/ihre e?.?mail.?(adresse|konto)?.{1,10}hat ihnen die summe von/i
+/ihre? e?.?mail.?(adresse|konto)?.{1,10}hat ihnen die summe von/i
 
 /ihre e?.?mail.?(adresse|konto)?.{0,15}ausgewählt.{1,10}um zu.{1,10}begünstigten/iu
 /ihre e?.?mail.?(adresse|konto)?.{1,10}hat eine spende/i
-/ihre e?.?mail.?(adresse|konto)?.{0,10}wurde.{1,15}für eine.{1,10}spende/iu
-/ihre e?.?mail.?(adresse|konto)?.{0,10}wurde.{1,15}ausgewählt.{1,10}um (die|eine).{1,10}(spende|summe)/iu
-/ihre e?.?mail.?(adresse|konto)?.{0,10}wurde.{1,15}unter den begünstigten/iu
-/ihre e?.?mail.?(adresse|konto)?.{1,10}wurde.{1,10}per online/i
+
+/ihre? e?.?mail.?(adresse|konto)?.{0,10}wurde.{1,15}für eine.{1,10}spende/iu
+/ihre? e?.?mail.?(adresse|konto)?.{0,10}wurde.{1,15}ausgewählt.{1,10}um (die|eine).{1,10}(spende|summe)/iu
+/ihre? e?.?mail.?(adresse|konto)?.{0,10}wurde.{1,15}unter den begünstigten/iu
+/ihre? e?.?mail.?(adresse|konto)?.{1,10}wurde.{1,10}per online/i
 
 /ihrer e?.?mail haben sie eine spende/i
 
