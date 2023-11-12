@@ -93,6 +93,7 @@
 /we have some.{1,15}deposited.{1,10}funds/i
 
 /you an opportunity.{1,10}receive.{1,15}funds/i
+/you have a fund of.{1,10}\d{3}.{0,5}\d{3}/i
 /you regarding.{1,10}compensation.{1,10}funds/i
 /you to administer.{1,10}funds/i
 /you wish to receive.{1,15}funds/i
@@ -216,6 +217,8 @@
 /usd compensation amount.{1,10}kindly reply back/i
 
 /receive your compensation payment/i
+
+/\d{3}.{0,5}\d{3}.{1,10}awaiting.{1,10}transferred.{1,10}your.{1,10}account/i
 
 # Share the same name
 # ------------------------------------------------------------------------------

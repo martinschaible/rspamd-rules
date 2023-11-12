@@ -11,7 +11,7 @@
 
 /(low rate|quick) loans?/i
 
-/we offer.{1,10}(finance|loans)/i
+/we offer.{1,10}(finance|loans?)/i
 
 # Mortgage
 # ------------------------------------------------------------------------------

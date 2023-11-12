@@ -10,6 +10,7 @@
 # Fake orders
 # ------------------------------------------------------------------------------
 /attached our purchase order.{1,20}kindly review/i
+/find enclosed herewith.{1,10}rfq.?inquiry/i
 
 # Catalog
 /your company.{1,10}(brochure|catalog).{1,10}for our reference/i
