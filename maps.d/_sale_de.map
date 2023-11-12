@@ -200,6 +200,9 @@
 /sofort.?sprach.?übersetzer/iu
 /sofort.?übersetzer/iu
 
+/das sprachbarrieren überwindet/iu
+/sprachen.{1,10}sprachübersetzungen/iu
+
 # Trolley & Tools
 # ------------------------------------------------------------------------------
 /(werkstatt|werkzeug).?(trolley|wagen).{1,10}angeben/i
@@ -320,6 +323,9 @@
 
 #
 /verkauf.{1,10}vertrieb.{1,15}bitte einfach antworten/i
+
+# Discount
+/rabatt zu erhalten.{1,10}angebot.{1,10}unsere leser/i
 
 # This company is very annoying
 # ------------------------------------------------------------------------------

@@ -44,6 +44,8 @@
 
 # Collecting personal data
 # ------------------------------------------------------------------------------
+/angaben.{1,10}die.{1,10}kostenfreie teilnahme/i
+
 /bestätigen sie ihre angaben.{1,10}mit.{1,10}glück/iu
 /seiten? ihre.{1,15}ein.{1,20}wir ihnen.{1,10}gewinn zusenden/i
 
@@ -75,6 +77,8 @@
 
 /gewinnenden preise.{1,10}begrenzt/i
 
+/chance.{1,10}von.{1,20}gutschein zugewinnen/i
+
 /geschenke.{1,10}in beschränkter zahl verfügbar/iu
 /geschenke.{1,10}sie verfügbar sind/iu
 
@@ -89,6 +93,8 @@
 # Survey
 /umfrage.{1,10}registrierung.{1,10}bestätigt/i
 /umfrage teil.{1,10}gewinnen sie tolle preise/i
+
+/sie.{1,10}(dazu|einfach).{1,10}diese kurze umfrage/i
 
 /auserwählten für eine.{1,15}umfrage/iu
 /du gehörst zu den auserwählten/iu

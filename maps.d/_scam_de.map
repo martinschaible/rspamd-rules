@@ -7,6 +7,14 @@
 #  10 | German         |
 # ==============================================================================
 
+# Intros, strange stories
+# ------------------------------------------------------------------------------
+/ich suche eine zuverlässige.{1,10}ehrliche/iu
+
+#
+#
+#
+
 # Assistance
 # ------------------------------------------------------------------------------
 
@@ -121,6 +129,8 @@
 /transaktion mit ihrem.{1,10}namen/i
 /transaktion zum gegenseitigen nutzen/i
 
+/transfer.{1,15}anvertrauen kann/i
+
 /dringende geschäfts.?transaktion/iu
 
 #
@@ -155,9 +165,12 @@
 /ich mir zugang zu seinen geräten/iu
 /ich habe eine kopie.{1,15}webcam/i
 
-/ich vollen zugriff auf ihr.{1,10}konto habe/i
-/ich vollen zugriff auf ihre geräte/iu
+/ich.{1,10}zugriff auf ihr.{1,10}konto habe/i
+/ich.{1,10}zugriff auf ihre geräte/iu
 
+/habe ich.{1,10}zugriff auf ihre dateien/i
+
+/ihr gerät mit meinem privaten/iu
 /ihnen besuchte web.?site mit einem trojaner/i
 
 /installierte ich.{1,10}trojaner erfolgreich/i
@@ -173,6 +186,8 @@
 /unten ist meine? bitcoin.?(adresse|wallet)/i
 
 /btc an die.{1,10}adresse unten/i
+
+/sie ganz einfach.{1,10}bitcoin.{1,10}kaufen/i
 
 # Nomination
 # ------------------------------------------------------------------------------
@@ -201,6 +216,10 @@
 /sie wurden ausgewählt.{1,15}(illuminati|illuminaten)/i
 
 /(mitglied|willkommen).{1,15}illuminati/i
+
+# Oil
+# ------------------------------------------------------------------------------
+/oil contract/i
 
 #
 #

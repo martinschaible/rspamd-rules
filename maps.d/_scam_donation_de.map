@@ -54,6 +54,8 @@
 /spende.{1,10}investitions.?geld(er)?/i
 /spende.{1,10}überlassen.{1,10}melden sie sich/iu
 
+/(spende|summe) von.{1,10}millionen.{1,10}wurde ihnen/i
+
 /spenden.?anforderung.{1,10}wenden sie sich/i
 
 /(millionen|tausend|dollar|euro?|gbp|usd).{1,10}gespendet.{1,10}antworten sie für.{1,10}details/iu
@@ -102,8 +104,7 @@
 /sie erhielten.{1,10}eine.{1,10}spende in höhe von/iu
 /sie einen zuschuss in höhe von.{1,25}erhalten/iu
 
-/sie haben eine.{1,15}spende.{1,10}erhalten/i
-/sie haben einen.{1,10}zuschuss in höhe von/iu
+/sie haben einen?.{1,15}(spende|zuschuss).{1,10}(erhalten|ich habe|in höhe von)/iu
 
 /sie wurden für eine.{1,15}spende (ausgewählt|in höhe von)/iu
 /sie wurden für einen zuschuss.{1,10}investition/iu
