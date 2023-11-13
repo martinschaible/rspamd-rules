@@ -53,6 +53,8 @@
 # ------------------------------------------------------------------------------
 /tinyurl\.com.*mcusercontent\.com\//i
 
+/<img src=.?https:\/\/[a-z0-9]{5,20}\.cloudfront\.net/i
+
 # Wikipedia, Yahoo
 # ------------------------------------------------------------------------------
 /<img alt=(''|"") src=.?https:\/\/upload\.wikimedia\.org\/wikipedia\/commons/i
