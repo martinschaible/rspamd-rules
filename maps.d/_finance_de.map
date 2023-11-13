@@ -28,6 +28,7 @@
 /erhalten sie.{1,10}darlehen.{1,15}kredite/i 
 /wir (bieten|gewähren|vergeben).{1,10}(alle arten von)?.{0,15}(darlehen|kredit)/iu
 /wir (bieten|gewähren|vergeben).{1,10}kurz.{1,10}lang.?fristige.{0,15}(darlehen|kredit)/i
+/wir (bieten|gewähren|vergeben).{1,15}privatpersonen.{1,10}unternehmen/i
 
 /(unschlagbar|zuverlässig).{1,10}kredit.?angebot/i
 
@@ -71,7 +72,9 @@
 
 /vergibt derzeit.{1,10}finanz.?kredite/i
 /wir bieten finanzierungen bereits ab/i
+
 /wir sind ein privates kredit/i
+/wir sind eine.{1,20}kapitalanlagegesellschaft/i
 
 /investition.{1,15}finanzierung/i
 
