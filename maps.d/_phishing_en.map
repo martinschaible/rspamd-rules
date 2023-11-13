@@ -11,6 +11,7 @@
 # ------------------------------------------------------------------------------
 /attached our purchase order.{1,20}kindly review/i
 /find enclosed herewith.{1,10}rfq.?inquiry/i
+/i need your.{1,10}assistance in the purchase of/i
 
 # Catalog
 /your company.{1,10}(brochure|catalog).{1,10}for our reference/i
@@ -19,14 +20,18 @@
 
 /your catalogue.{1,10}quotation/i
 
+/attached rfq inquiry.{1,10}send us your pricing/i
+/catalog price list.{1,10}payment method/i
 /provide us with.{1,10}(brochure|catalog).{1,10}of your products/i
-
 /pi for.{1,10}attached po/i
 
 # Price List
 /send price.?list.{1,10}products.?pictures via/i
 
 /you have.{1,10}companies interested in your product/i
+
+# Products
+/your website.{1,10}our company.{1,10}interested in your products/i
 
 # Employees performance
 /(e?.?mail|message) is.{1,10}intended.{1,10}share your performance feedback/i
