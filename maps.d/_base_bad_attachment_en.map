@@ -116,6 +116,7 @@
 /updated.?price\.(7z|doc|gz|htm|r11|rar|tgz|xla|xls|zip)/i
 
 /soa\.zip/i
+/soa.{0,15}202\d\.zip/i
 /s\.(o|0)\.a\.zip/i
 
 /request.?for.?quotation.{0,15}\.pdf/i
