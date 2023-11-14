@@ -49,9 +49,10 @@
 /warten auf abholung/i
 /wichtig.{1,10}paket/i
 
-/paket wartet auf anweisungen/i
-/paket wird aufgrund.{1,10}unerwartet.{1,10}zollabwicklung/i
-/paket kann nicht zugestellt werden.{1,20}aktualisieren sie.{1,10}adresse/i
+/(paket|sendung) kann nicht zugestellt werden/i
+/(paket|sendung) wartet auf anweisungen/i
+/(paket|sendung) wird aufgrund.{1,10}unerwartet.{1,10}zollabwicklung/i
+
 /paket.?zustellung.{1,10}bitte bestätigen sie/iu
 
 /postamt angekommen/i
