@@ -32,6 +32,7 @@
 
 # Confirm or reconfirm Account/Identity
 # ------------------------------------------------------------------------------
+/ihr konto erfordert ihre aufmerksamkeit/i
 
 # Banking
 # ------------------------------------------------------------------------------
@@ -61,6 +62,8 @@
 /versand.{1,10}unbezahlte versandkosten/i
 
 /problem.{1,15}des liefervorgangs/i
+
+/ihr versand ist auf seinem weg/i
 
 # DPD
 /dpd.?ch.{1,10}betreff/i
