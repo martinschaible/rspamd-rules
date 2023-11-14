@@ -26,6 +26,12 @@
 /ihre antwort genügt.{1,10}wir senden sofort zu ihnen/iu
 /premium.box.gmbh/i
 
+# Microsoft
+# ------------------------------------------------------------------------------
+# Sample: .blob.core.windows.net/bulkmailmanager89640510/STEGDHHSG_ESEN.html
+#         .blob.core.windows.net/gooodlinkmailprobulk2024/OOKEJDMMMMSJEUUDJJSH_HSYEGDY.html"
+/\.blob\.core\.windows\.net\/[a-z0-9]{15,30}\/[a-z_]{10,30}\.html/i
+
 # Twitter
 # ------------------------------------------------------------------------------
 /<a href=(3d)?"https:\/\/t\.co\/[a-z0-9]{5,15}" target=(3d)?"_blank"/i
