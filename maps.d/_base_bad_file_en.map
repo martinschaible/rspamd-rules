@@ -24,3 +24,8 @@
 # Sample: qsdvqzergvqsdvqezrgiouvqqsdvqzevmsdvqsd/qsdvqsdvqsdvqsdvqsdvrtg.html#sdqsdvdvqsdvqdv.html?
 /\/[a-z0-9]{25,65}\.html?/i
 
+# Sample: /OOKEJDMMMMSJEUUDJJSH_HSYEGDY.html
+\/[a-z]{5,25}_[a-z]{4,15}\.html/i
+
+# Sample: _____2.......HTM
+/[_]{2,10}\d[\.]{2,10}\.html?/i
