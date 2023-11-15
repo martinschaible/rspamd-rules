@@ -52,7 +52,12 @@
 
 # Trolley & Tools
 # ------------------------------------------------------------------------------
-/(werkstatt|werkzeug).?(trolley|wagen)/i
+/(werkstatt|werkzeug).{1,10}(trolley|wagen)/i
+/werkzeug.?set.{1,10}schnäppchen/i
+/werkzeug.?set.{1,10}jetzt nur/i
+/werkzeug.?set.{1,10}(trolley|wagen)/i
+
+/teiliges.{1,10}werkzeug.?set/i
 
 # Umbrellas
 # ------------------------------------------------------------------------------
