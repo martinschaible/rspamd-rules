@@ -19,8 +19,10 @@
 
 /informationen.{1,10}um eine sperrung ihres.{1,15}kontos/i
 
-/ihr.{1,15}konto.{1,10}vorübergehend.{1,10}sicherheitsgründen (eingeschränkt|begrenzt|gesperrt)/iu
-/ihr.{1,15}konto.{1,10}ist (dauerhaft|derzeit|vorübergehend) (eingeschränkt|begrenzt|gesperrt)/i
+/ihr.{1,15}konto.{1,10}vorübergehend.{1,10}sicherheitsgründen.{1,10}(eingeschränkt|begrenzt|gesperrt)/iu
+/ihr.{1,15}konto.{1,10}sicherheitsgründen.{1,10}vorübergehend.{1,10}(eingeschränkt|begrenzt|gesperrt)/iu
+
+/ihr.{1,15}konto.{1,10}ist.{1,10}(dauerhaft|derzeit|vorübergehend).{1,10}(eingeschränkt|begrenzt|gesperrt)/iu
 /ihr.{1,15}konto.{1,10}ist noch nicht aktualisiert/i
 
 /ihr.{1,15}konto.{1,10}vorsorglich sperren/i
