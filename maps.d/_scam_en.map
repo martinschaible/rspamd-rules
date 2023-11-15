@@ -212,6 +212,8 @@
 
 /\d{3}.{0,5}\d{3}.{1,10}awaiting.{1,10}transferred.{1,10}your.{1,10}account/i
 
+/you have been compensated.{1,10}contact/i
+
 # Share the same name
 # ------------------------------------------------------------------------------
 /contacting.{1,20}you.{1,10}share the same last name/i
