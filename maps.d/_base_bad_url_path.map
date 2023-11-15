@@ -34,6 +34,9 @@
 # Sample: .com/9/www/
 /\.com\/\d\/www\//i
 
+# Sample: .com/i?u=3Dhttps://
+/\.(com|info|us)\/i\?u=3dhttps:\/\//i
+
 # -> I expect some false/positives
 /\.(com|info|us)\/index\.php\/campaigns\//i
 /\.(com|info|us)\/mail/index\.php/campaigns\//i

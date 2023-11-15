@@ -222,7 +222,10 @@
 /unser (werkstatt|werkzeug).?(trolley|wagen).{1,10}ist mit/i
 
 /werkzeug.{1,10}aus chrom.?vanadium/i
-/werkzeug.{1,10}komplettset.{1,10}alukoffer/i
+/werkzeug.{1,10}(komplett)?.?set.{1,10}alukoffer/i
+/werkzeug.{1,10}(komplett)?.?set.{1,10}bestehend aus/i
+
+/\d{2,3}.?teiliges.{1,10}werkzeugset/i
 
 # Umbrellas
 # ------------------------------------------------------------------------------
@@ -277,8 +280,9 @@
 
 # How to order
 # ------------------------------------------------------------------------------
-/antworten sie.{1,10}einfach mit ihrer.{1,10}adresse.{1,10}(auf dieses schreiben|teilen sie uns)/i
-/antworten sie.{1,10}einfach mit ihrer.{1,10}lieferadresse/i
+/antworten sie.{1,10}einfach.{1,10}auf diese e?.?mail.{1,10}um ihre bestellung/i
+/antworten sie.{1,10}einfach.{1,10}mit ihrer.{1,10}adresse.{1,10}(auf dieses schreiben|teilen sie uns)/i
+/antworten sie.{1,10}einfach.{1,10}mit ihrer.{1,10}lieferadresse/i
 /antworten sie.{1,10}direkt auf diese e?.?mail.{1,10}wir schicken ihnen ihr/i
 
 /bestellen.{1,10}einfach antworten/i
