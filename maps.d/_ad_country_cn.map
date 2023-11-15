@@ -102,6 +102,7 @@
 
 /i am.{5,25}as a leading manufacturer/i
 
+/(co|ltd).{1,15}company was established/i
 /(co|ltd).{1,15}is a high.?tech enterprise/
 /(co|ltd).{1,15}is a factory specialized in/i
 /(co|ltd).{1,15}professional.{1,15}manufacturer/i
@@ -117,6 +118,7 @@
 /our company.{1,10}as.{1,10}leading.{1,15}(supplier|trader)/i
 /our company.{1,10}manufacturer.{1,10}following/i
 /our company.{1,10}specializes.{1,10}manufacturing/i
+/Our company.{1,10}has.{1,20}production.{1,10}equipment/i
 
 /our customers.{1,10}are mainly from/i
 /our factory.{1,10}mainly focus on/i

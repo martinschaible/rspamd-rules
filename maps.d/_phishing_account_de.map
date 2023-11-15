@@ -29,6 +29,8 @@
 /ihr.{1,15}konto.{1,10}zu ihrem eigenen schutz gesperrt haben/i
 /ihr.{1,15}konto.{1,10}überprüfen.{1,15}aktualisieren/iu
 
+/ihr.{1,15}konto.{1,10}sperren.{1,10}bis wir ihre identität/iu
+
 /ihr.{1,15}konto.{1,10}ist gesperrt.{1,10}um es.{1,10}(online|wieder).{1,10}zu aktivieren/i
 /ihr.{1,15}konto.{1,10}wird bald gesperrt/i
 
@@ -79,7 +81,7 @@
 
 # Activation
 # ------------------------------------------------------------------------------
-/telefonnummer noch nicht aktiviert haben.{1,10}damit sie ihr.{1,25}konto/i
+/telefonnummer.{1,10}nicht aktiviert haben.{1,10}damit sie ihr.{1,25}konto/i
 
 # Authentification
 # ------------------------------------------------------------------------------
@@ -98,6 +100,8 @@
 /alle kunden sich registrieren.{1,10}andernfalls/i
 
 /ihre registrierung.{1,10}aktualisieren/i
+
+/lieber kunde.{1,10}unser system hat festgestellt/i
 
 # Update Payment options
 # ------------------------------------------------------------------------------
