@@ -37,6 +37,7 @@
 /wir weitere informationen zu ihrer.{1,10}liefer.?adresse/i
 /zustellung aufgrund einer falschen.{1,10}liefer.?adresse/i
 
+/grund.{1,10}lieferadresse.{1,10}unvollständig/iu
 /grund.{1,10}unvollständige.{1,10}lieferadresse/iu
 
 # Delivery
@@ -100,6 +101,7 @@
 # Pay Fees
 # ------------------------------------------------------------------------------
 /begleichen sie die kosten.{1,15}(die|erneute).{1,15}bearbeitung/i
+/bestätigen sie die zahlung von \d,99/i
 
 /erfordert die zahlung von einfuhr.?umsatz.?steuern/i
 /es sind zusätzliche.{1,10}gebühren erforderlich/i
@@ -127,6 +129,7 @@
 
 /wir berechnen eine zusätzliche zustellgebühr/i
 
+/zahlen sie die neuen versandkosten/i
 /zahlung werden wir.{1,15}die erneute zustellung/i
 
 /zugestellt werden.{1,15}bestätigen sie die zahlung/iu
