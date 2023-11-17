@@ -34,6 +34,7 @@
 /jetzt ab.{1,15}stk.{1,10}(clungene|exactsign|greenspring).{1,10}covid/i
 /jetzt ab.{1,15}stk.{1,10}sofort lieferbar.{1,10}hotgen/i
 
+
 # Diabetes
 # ------------------------------------------------------------------------------
 
@@ -58,7 +59,11 @@
 
 /hypertonie.{1,10}detaillierte informationen/i
 
-/(normalisiert|stabilisiert) den.{1,10}blut(hoch)?druck/i
+/(normalisiert|stabilisiert).{1,10}den.{1,10}blut(hoch)?druck/i
+
+# Muscle Pain
+# ------------------------------------------------------------------------------
+/muskelschmerzen.{1,15}minuten ohne medikamente/i
 
 # Prostatitis
 # ------------------------------------------------------------------------------
