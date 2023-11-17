@@ -17,11 +17,12 @@
 
 # Footers, Signature
 # ------------------------------------------------------------------------------
-/whatsapp: \+86/i
+/(wechat|whatsapp): \+86/i
 
 /co.{1,5}ltd.{1,10}\+86/i
 
 /wechat.{1,5}whatsapp/i
+/ph.{1,5}skype.{1,5}wechat/i
 
 # Intros
 # ------------------------------------------------------------------------------
@@ -201,6 +202,7 @@
 /any.{1,10}(pcba?|printed.circuit.board).{1,10}orders/i
 /ltd.{1,10}a professional pcba?/i
 /in the field of pcba?.{1,10}years/i
+/is a manufacturer engaged.{1,10}(pcba?|printed.circuit.board)/i
 
 /experience in.{1,10}(pcba?|printed.circuit.board).{1,10}manufacturing/i
 /we.{1,10}focus on pcba?/i
@@ -212,11 +214,15 @@
 /you.{1,10}need.{1,10}(pcba?|printed.circuit.board).{1,10}supplier/i
 /you.{1,10}need to purchase.{1,10}(pcba?|printed circuit board)/i
 /you.{1,10}proceed your.{1,10}(pcba?|printed circuit board).{1,10}project/i
-/you.{1,10}have any.{1,10}(pcba?|printed circuit board).{1,15}need/i
+
+/you.{1,10}have.{1,15}(pcba?|printed circuit board).{1,15}(need|order)/i
 /you.{1,10}interested in.{1,10}(pcba?|printed circuit board)/i
 
 /your.{1,10}currently.{1,15}(pcba?|printed circuit board).{1,15}suppliers/i
 /your.{1,10}current.{1,15}(pcba?|printed circuit board).{1,15}requirements/i
+
+#
+/our main products are multilayer/i
 
 # Products, specific China
 # ------------------------------------------------------------------------------
