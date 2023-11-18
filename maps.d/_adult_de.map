@@ -10,6 +10,7 @@
 # Intros
 # ------------------------------------------------------------------------------
 /ich lebe in.{1,20}ich bin.{1,10}jahre alt/i
+/sie kommt aus ihrer stadt/i
 
 #
 #
@@ -24,6 +25,7 @@
 /chat ist kostenlos/i
 /chats? mit.{5,25}starten/i
 /chats? mit geilen/i
+/chatten.{1,10}dating/i
 
 /sex.?chat.{1,15}(cams|mitglied)/i
 
@@ -33,6 +35,8 @@
 /erotischen chat/i
 
 /sie.{1,10}chat kostenlos aus/i
+
+/website zum.{1,10}chatten/i
 
 # Dating
 # ------------------------------------------------------------------------------
@@ -110,6 +114,8 @@
 /geile private.{1,10}(bilder|fotos)/i
 
 /versauten?.{1,10}(bilder|fotos)/i
+
+/(ladies|mädchen|frauen).{1,10}mit.{1,10}(bilder|fotos)/i
 
 # Girls, Women
 # ------------------------------------------------------------------------------

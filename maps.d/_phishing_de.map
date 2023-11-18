@@ -51,11 +51,14 @@
 
 # Return for double payed invoices
 # ------------------------------------------------------------------------------
-/ihre letzte rechnung.{1,10}den monat.{1,20}doppelt bezahlt wurde/i
+/ihre.{1,10}rechnung.{1,10}den monat.{1,20}doppelt bezahlt wurde/i
+/ihre.{1,10}rechnung für.{1,20}zweimal bezahlt wurde/i
 
 /doppelte zahlung.{1,15}rechnung.{1,15}verursacht wurden/i
 
 /rückerstattungs.?link/iu
+
+/sie ein.{1,10}eine rückerstattung zu beantragen/iu
 
 # Train ticket
 /erstattungsticket akzeptiert/i

@@ -122,6 +122,8 @@
 # Introduction, Country
 # ------------------------------------------------------------------------------
 /ich bin (frau|herr).{5,25}aus.{1,10}abidjan/i
+/ich bin (frau|herr).{5,25}ein.{1,10}mitarbeiter/i
+
 /ich bin.{5,25}ein italienischer/i
 /ich bin.{5,25}ein indisches/i
 
