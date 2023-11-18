@@ -16,6 +16,8 @@
 /euro.millions.{1,10}(google|lottery).promo/i
 /euromillones lottery board/i
 
+/international promotion.{1,10}price award/i
+
 /lotter(ie|y).{1,10}commission.{1,10}award/i
 /lotter(ie|y).{1,10}award.{1,10}promotion/i
 
@@ -33,6 +35,10 @@
 # Fake Programs
 # ------------------------------------------------------------------------------
 /microsoft.{1,10}promotion.?award/i
+
+# Awards
+# ------------------------------------------------------------------------------
+/award winning.{1,10}notification/i
 
 # Lottery
 # ------------------------------------------------------------------------------
