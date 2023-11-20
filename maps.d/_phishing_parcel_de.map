@@ -83,6 +83,7 @@
 /paket.{1,10}liefern.{1,10}werden dem importeur.{1,10}(mehrwertsteuer|zoll.?gebühren)/iu
 /paket.{1,10}ist.{1,10}zoll deklariert.{1,10}wir laden sie ein/i
 /paket.{1,10}zu ermöglichen.{1,10}wird dem importeur.{1,10}(mehrwertsteuer|zoll.?gebühren)/iu
+/paket.{1,10}wird beim zoll angemeldet/i
 
 /zölle anfallen.{1,10}die bezahlt werden müssen/iu
 
@@ -102,6 +103,7 @@
 # ------------------------------------------------------------------------------
 /begleichen sie die kosten.{1,15}(die|erneute).{1,15}bearbeitung/i
 /bestätigen sie die zahlung von \d,99/i
+/bezahlen sie die kosten für die rücksendung/iu
 
 /erfordert die zahlung von einfuhr.?umsatz.?steuern/i
 /es sind zusätzliche.{1,10}gebühren erforderlich/i

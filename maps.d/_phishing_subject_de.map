@@ -54,6 +54,7 @@
 /(paket|sendung) kann nicht zugestellt werden/i
 /(paket|sendung) wartet auf anweisungen/i
 /(paket|sendung) wird aufgrund.{1,10}unerwartet.{1,10}zollabwicklung/i
+/(paket|sendung) wartet wegen.{10,25}auf die lieferung/i
 
 /paket.?zustellung.{1,10}bitte bestätigen sie/iu
 
@@ -65,6 +66,7 @@
 /versand.{1,10}unbezahlte versandkosten/i
 
 /problem.{1,15}des liefervorgangs/i
+/problem in ihrem paket/i
 
 /ihr versand ist auf seinem weg/i
 
