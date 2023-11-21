@@ -75,6 +75,7 @@
 /leading supplier of.{1,15}capacitors.{1,15}(from|in) china/i
 
 /moulding services.{1,15}(from|in) china/i
+/trading company.{1,10}(from|in){1,15}china/i
 
 # Intros
 # ------------------------------------------------------------------------------
@@ -113,6 +114,8 @@
 /(co|ltd).{1,15}professional.{1,15}manufacturer/i
 /(co|ltd).{1,15}we are leading.{1,15}professional/i
 /(co|ltd).{1,15}we.{1,10}supplying/i
+
+/co.{1,5}ltd.{1,10}trading company/i
 
 /has been in this field for more than.{1,10}years/i
 /introduce ourselves as.{1,10}leading manufacturer (in|of)/i
