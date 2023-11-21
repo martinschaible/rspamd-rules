@@ -9,5 +9,5 @@
 
 # Stock Symbol
 # ------------------------------------------------------------------------------
-/(corp|inc).{1,5}stock symbol:/i
-/(corp|inc).{1,5}otc:.{1,10}is an/i
+/(corp|corporation|inc).{1,5}stock symbol:/i
+/(corp|corporation|inc).{1,5}otc:.{1,10}is an/i
