@@ -22,6 +22,7 @@
 
 /(dear|hello|hi).{1,15}(director|manager|purchaser|supplier).{1,10}do you need/i
 /(dear|hello|hi).{1,15}(director|manager|purchaser|supplier).{1,10}good day/i
+/(dear|hello|hi).{1,15}(director|manager|purchaser|supplier).{1,10}hope you are/i
 /(dear|hello|hi).{1,15}(director|manager|purchaser|supplier).{1,10}how are you/i
 /(dear|hello|hi).{1,15}(director|manager|purchaser|supplier).{1,10}how do you do/i
 /(dear|hello|hi).{1,15}(director|manager|purchaser|supplier).{1,10}nice to contact you/i
@@ -79,6 +80,7 @@
 /hello.{1,15}this e?.?mail finds you well/i
 /hello.{1,10}glad to connect/i
 /hello.{1,10}this is.{5,25}from/i
+/hello dear.{1,10}manager/i
 
 /(hello|hi).{1,10}my friend.{1,10}nice to meet you/i
 /(hello|hi).{1,10}potential partner/i
@@ -149,6 +151,8 @@
 /hi.{1,10}i am working with.{1,10}reputed/i
 
 /hope you are well.{1,10}this is.{5,25}from/i
+
+/writing to you based on trust/i
 
 # LinkedIn
 /i noticed your.{1,15}profile.{1,10}i am.{1,15}interested/i

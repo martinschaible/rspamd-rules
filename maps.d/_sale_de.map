@@ -348,7 +348,8 @@
 
 # Offer to sell vehicles
 # ------------------------------------------------------------------------------
-/wir kaufen fahrzeuge aller art/i
+/wir kaufen fahrzeuge.{1,10}(aller art|guten tag)/i
+/wir kaufen gebrauchte.{1,15}fahrzeuge/i
 
 #
 #
