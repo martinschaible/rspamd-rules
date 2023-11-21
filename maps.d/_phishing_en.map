@@ -71,6 +71,8 @@
 
 /click below to continue with.{1,10}mail.?box/i
 
+/release.{1,10}view message.{1,10}contents/i
+
 # Delivery problems
 /delivery for pending e?.?mails here/i
 
@@ -87,6 +89,8 @@
 /you have.{1,15}pending.{1,10}messages.{1,10}due.{1,15}error/i
 /you have.{1,15}pending.{1,10}messages.{1,10}that could not be sent/i
 /you have.{1,15}suspended.{1,10}incoming.{1,10}message/i
+
+/you have.{1,10}undelivered messages for/i
 
 /will be barred from.{1,10}(receiving|sending).{1,15}e?.?mail/i
 

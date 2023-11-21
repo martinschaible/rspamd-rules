@@ -21,7 +21,8 @@
 
 /eine gültige lieferadresse hinzuzufügen/iu
 
-/fehlerhaften lieferadresse nicht zugestellt werden/i
+/(falschen|fehlerhaften).{1,10}lieferadresse nicht zugestellt werden/i
+/(falschen|fehlerhaften).{1,10}lieferadresse konnten wir ihr paket nicht/i
 
 /paket angegebene lieferadresse ist unvollständig/iu
 
@@ -29,8 +30,9 @@
 
 /ihnen angegebenee.{1,10}adresse unvollständig zu sein scheint/iu
 
-/liefer.?adresse nicht korrekt.{1,15}die zustellung fehlschlug/i
-/liefer.?angaben auf dem paket sind falsch/i
+/liefer.?adresse.{1,10}ungültige adresse/iu
+/liefer.?adresse.{1,10}nicht korrekt.{1,15}die zustellung fehlschlug/i
+/liefer.?angaben.{1,10}auf dem paket sind falsch/i
 
 /nicht zustellen.{1,10}da es unklarheiten mit.{1,10}lieferadresse gibt/i
 
@@ -52,6 +54,8 @@
 /sie haben.{1,10}ausstehendes paket/i
 /sie müssen das paket abholen/iu
 
+/steht.{1,10}paket zur zustellung an/i
+
 # Product
 /versandfertig.{1,10}enthält.{1,10}iphone 14 pro/i
 
@@ -65,7 +69,8 @@
 /paket.{1,20}ist in.{1,10}depot zurückgekehrt/i
 /paket.{1,20}kam sicher in.{1,10}lager zurück/i
 /paket.{1,20}konnte nicht zugestellt werden.{1,15}falsche adresse/i
-/paket in der warteschleife.{1,10}hallo/i
+
+/paket (in der|ist in) (warteschleife|wartestellung)/i
 
 /nachfolgenden produkt kann nicht zugestellt werden/i
 
