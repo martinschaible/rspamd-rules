@@ -40,6 +40,8 @@
 /(china|dongguan|guangzhou|shenzhen|zhejiang).{1,10}(my|our).{1,10}(company|factory).{1,10}(offers|specialized|specializes)/i
 /(china|dongguan|guangzhou|shenzhen|zhejiang).{1,20}supply all kinds of.{1,10}quality/i
 /(china|dongguan|guangzhou|shenzhen|zhejiang).{1,10}hope to open.{1,10}(business|relationship)/i
+
+/(china|dongguan|guangzhou|shenzhen|zhejiang).{1,10}our company mainly do/i
 /(china|dongguan|guangzhou|shenzhen|zhejiang).{1,10}our products include/i
 
 /(china|dongguan|guangzhou|shenzhen|zhejiang).{1,10}we can handle all kinds/i
@@ -96,6 +98,7 @@
 /we.?a?re.{1,10}(professional|reliable).{1,20}product.{1,10}(company|manufacturer?|supplier)/i
 /we.?a?re.{1,10}(professional|reliable).{1,10}supplier (of|with)/i
 /we.?a?re.{1,10}(professional|reliable).{1,20}manufacturer.{1,10}specialized in/i
+/we.?a?re.{1,10}(professional|reliable).{1,10}manufacture.{1,10}factory/i
 /we.?a?re.{1,10}(professional|reliable).{1,20}molding/i
 
 /we.?a?re.{1,10}national high.?tech.{1,10}enterprise/i
@@ -103,7 +106,10 @@
 /we are.{1,10}iso.{1,15}certified company/i
 /we are.{1,15}fast.{1,10}growing distributor/i
 /we are.{1,10}at.{1,10}(hard.?to.?find|short.?lead.?time)/i
-/we are.{1,10}specializes in the production of/i
+
+/we are.{1,10}specialize.{1,10}in.{1,10}production of/i
+/we are.{1,10}specialize.{1,10}in.{1,15}manufacturing/i
+
 /we are.{1,10}the leading importers/i
 
 /we have our own factory/i
@@ -114,6 +120,7 @@
 /(co|ltd).{1,15}is a high.?tech enterprise/
 /(co|ltd).{1,15}is a factory specialized in/i
 /(co|ltd).{1,15}professional.{1,15}manufacturer/i
+/(co|ltd).{1,15}specializes in.{1,10}import/i
 /(co|ltd).{1,15}we are leading.{1,15}professional/i
 /(co|ltd).{1,15}we.{1,10}supplying/i
 
@@ -128,7 +135,7 @@
 /our company.{1,10}as.{1,10}leading.{1,15}(supplier|trader)/i
 /our company.{1,10}manufacturer.{1,10}following/i
 /our company.{1,10}specializes.{1,10}manufacturing/i
-/Our company.{1,10}has.{1,20}production.{1,10}equipment/i
+/our company.{1,10}has.{1,20}production.{1,10}equipment/i
 
 /our customers.{1,10}are mainly from/i
 /our factory.{1,10}mainly focus on/i
@@ -217,6 +224,7 @@
 
 /we.?a?re.{1,10}(pcba?|printed.circuit.board).{1,10}manufacturer/i
 
+/you.{1,10}may need.{1,10}(pcba?|printed.circuit.board)/i
 /you.{1,10}need.{1,10}(pcba?|printed.circuit.board).{1,10}supplier/i
 /you.{1,10}need to purchase.{1,10}(pcba?|printed circuit board)/i
 /you.{1,10}proceed your.{1,10}(pcba?|printed circuit board).{1,10}project/i
