@@ -21,10 +21,12 @@
 
 /(elegante|leder|office|stilvolle|unsere|revolutionäre|traum|walnussholz).{1,15}(büro|massage).?(stuhl|stühle)/iu
 
-/(chef|leder).?(sessel|stuhl)/i
+/(chef|dreh|leder).?(sessel|stuhl)/i
 /chef.?leder.?(sessel|stuhl)/i
 
 /für.{1,10}\d{3}.{1,10}statt.{1,10}\d{3}/iu
+
+/jetzt nur \d{2}.{1,10}statt \d{3}/i
 
 # Drone
 # ------------------------------------------------------------------------------
