@@ -57,16 +57,17 @@
 
 /erstaunliche.{1,10}massagestuhl/i
 
-/büro.?(stuhl|stühle).{1,10}(eleganz|in leder|in vielen farben|mit walnussholz)/iu
-/büro.?(stuhl|stühle).{1,10}neues modell/iu
+/(büro|dreh).?(stuhl|stühle).{1,10}(die perfekte|eleganz|in leder|in vielen farben|mit walnussholz)/iu
+/(büro|dreh).?(stuhl|stühle).{1,10}neues modell/iu
 
 /stuhl.{1,15}vorzugspreis von nur/i
-
-/mesh.{1,10}büro.?(stuhl|stühle).{1,10}schwarz/iu
-
-/unsere.{1,10}büro.?(stuhl|stühle) sind in/iu
-
 /stuhl zum vorzugspreis/i
+
+/mesh.{1,10}(büro|dreh).?(stuhl|stühle).{1,10}schwarz/iu
+
+/sichern sie sich ihren stuhl/i
+/unsere.{1,10}(büro|dreh).?(stuhl|stühle) sind in/iu
+/unsere.{1,10}eleganten.{1,10}(büro|dreh).?(stuhl|stühle)/iu
 
 # Massage
 /jetzt.{1,10}mit massagefunktion/i
@@ -296,6 +297,7 @@
 /bestellen.{1,15}senden sie uns.{1,15}ihre.{1,20}(liefer|rechnungs).?anschrift/i
 
 /bestellung.{1,10}antworten sie bitte mit ihrer.{1,10}adresse/i
+/bestellung.{1,10}rückfragen einfach antworten/iu
 
 /direkt unsere sonderangebote per e?.?mail bestellen/i
 
