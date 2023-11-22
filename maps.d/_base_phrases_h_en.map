@@ -14,7 +14,7 @@
 /send your reply to my private e?.?mail/i
 /reply me back on my private e?.?mail/i
 
-# Attention, Important
+# Attention
 # ------------------------------------------------------------------------------
 /(attn|attention).{1,10}(dear|madam|relative|sir)/i
 /(attn|attention).{1,10}e?.?mail.address.owner/i
@@ -34,6 +34,7 @@
 
 # E-Mail
 # ------------------------------------------------------------------------------
+/confirm.{1,10}if this is your{1,15}e?.?mail.?address/i
 /confirm.{1,10}if you still use this.{1,10}e?.?mail.?address/i
 /confirm.{1,10}(this|the).{1,10}e?.?mail.?address is still valid/i
 
@@ -75,6 +76,8 @@
 
 /talk to you about something.{1,10}important/i
 /(i have|there is) something.{1,10}important (i want to|to) discuss with you/i
+
+/i have an important message for you/i
 
 # Not spam :-)
 # ------------------------------------------------------------------------------

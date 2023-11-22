@@ -17,8 +17,10 @@
 
 # Footers, Signature
 # ------------------------------------------------------------------------------
+/(wechat|whatsapp): 086/i
 /(wechat|whatsapp): \+86/i
 
+/co.{1,5}ltd.{1,10}086/i
 /co.{1,5}ltd.{1,10}\+86/i
 
 /wechat.{1,5}whatsapp/i
@@ -167,7 +169,7 @@
 
 /we.?a?re.{1,10}capacitor.{1,10}factory since/i
 /we.?a?re.{1,10}distributor.{1,20}(components|electronics?)/i
-/we.?a?re.{1,20}(component|electronics).{1,20}distributor/i
+/we.?a?re.{1,20}(component|electronics).{1,20}(company|distributor)/i
 /we.?a?re.{1,10}independent.{1,10}distributor.{1,20}(components|electronics?)/i
 /we.?a?re.{1,10}electronic.{1,10}components?.{1,10}(broker|distributor)/i
 /we.?a?re.{1,10}electrical.{1,10}products.{1,10}automatic/i
