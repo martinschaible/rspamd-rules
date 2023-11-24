@@ -7,6 +7,61 @@
 #  5  | English        |
 # ==============================================================================
 
+# Address lists for spamming, EMail Marketing
+# ------------------------------------------------------------------------------
+/advertise up to.{1,10}million.{1,10}e?.?mails/i
+
+/business.{1,10}e?.?mail.?addresses across/i
+
+/database.{1,10}targeted.{1,10}(business|residential)/i
+
+/get the best.{1,10}e?.?mail.{1,10}lists/i
+
+/you are interested.{1,10}acquiring.{1,15}(attendees|visitors).{1,10}list/i
+/you are interested.{1,10}acquiring.{1,15}list/i
+
+/you want.{1,10}receive.{1,10}attendee.{1,10}list/i
+/(attendees|visitors).{1,10}list.{1,10}available.{1,15}discounted price/i
+
+/you.{1,10}interested.{1,10}purchasing.{1,10}linkedin.{1,10}leads/i
+/you.{1,10}interested.{1,10}in e?.?mail.?marketing/i
+
+# 
+/we are.{1,10}leading b2b.data.solutions/i
+
+#
+/best e?.?mail.?lists/i
+/e?.?mail.?lists of any country/i
+
+# Apps
+# ------------------------------------------------------------------------------
+/apps.{1,10}if you are interested/i
+/app development services/i
+
+/building your.{1,10}mobile.?apps/i
+
+/looking for.{1,10}mobile.?app.?development/i
+
+/you (are looking|be interested).{1,10}(creating|develop|building).{1,10}(mobile)?.?app/i
+/you need mobile apps? for your.{1,10}company/i
+
+/you want.{1,10}mobile.?apps?/i
+
+/offers.{1,10}wide range.{1,10}mobile.?app/i
+/share your app.{1,10}idea/i
+
+/we are.{1,10}mobile.?app.?development/i
+/we are.{1,10}one of the (best|fastest).{1,10}growing.{1,15}apps/i
+/we are.{1,10}team.{1,10}professional.{1,10}(android|ios)/i
+
+/we.{1,10}(build|make) (all|any) kinds of apps/i
+/we develop.{1,10}mobile.?apps for all/i
+/we have expertise in.{1,20}app/i
+
+#
+#
+#
+
 # SEO
 # ------------------------------------------------------------------------------
 /seo.?services?.{1,10}proposal/i

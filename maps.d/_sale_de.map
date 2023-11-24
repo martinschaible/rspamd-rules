@@ -17,19 +17,12 @@
 #
 #
 
-# Address lists for spamming, EMail Marketing
-# ------------------------------------------------------------------------------
-/(dienstleistung|informationen).{1,10}e?.?mail.?marketing/i
-
 # Air Conditioning
 # ------------------------------------------------------------------------------
 /klimageräte?.{1,15}ein angenehmes raumklima/iu
 
 /mobile.{1,10}klimaanlage.{1,10}kühlleistung/iu
 /das mobile klimagerät/iu
-
-# Apps
-# ------------------------------------------------------------------------------
 
 # Boxes
 # ------------------------------------------------------------------------------
