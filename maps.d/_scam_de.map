@@ -30,9 +30,8 @@
 
 # Beneficiary
 # ------------------------------------------------------------------------------
-/achtung.{1,10}begünstigte/iu
 /aufmerksamkeit.{1,10}begünstigten/iu
-/(guten tag|lieber).{1,15}begünstigter/iu
+/(achtung|guten tag|händen|lieber).{1,15}begünstigter?/iu
 
 /ihr name ist unter den.{1,10}begünstigten/iu
 
@@ -197,7 +196,7 @@
 
 /sie ganz einfach.{1,10}bitcoin.{1,10}kaufen/i
 
-# Nomination
+# Nomination, Awards
 # ------------------------------------------------------------------------------
 /annahme ihrer nominierung/i
 /erinnerung an die nominierung/i

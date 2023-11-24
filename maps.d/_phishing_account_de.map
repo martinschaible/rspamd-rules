@@ -19,10 +19,10 @@
 
 /informationen.{1,10}um eine sperrung ihres.{1,15}kontos/i
 
-/ihr.{1,15}konto.{1,10}vorübergehend.{1,10}sicherheitsgründen.{1,10}(eingeschränkt|begrenzt|gesperrt)/iu
-/ihr.{1,15}konto.{1,10}sicherheitsgründen.{1,10}vorübergehend.{1,10}(eingeschränkt|begrenzt|gesperrt)/iu
+/ihr.{1,15}konto.{1,10}vorübergehend.{1,10}sicherheitsgründen.{1,10}(ausgesetzt|eingeschränkt|begrenzt|gesperrt)/iu
+/ihr.{1,15}konto.{1,10}sicherheitsgründen.{1,10}vorübergehend.{1,10}(ausgesetzt|eingeschränkt|begrenzt|gesperrt)/iu
 
-/ihr.{1,15}konto.{1,10}ist.{1,10}(dauerhaft|derzeit|vorübergehend).{1,10}(eingeschränkt|begrenzt|gesperrt)/iu
+/ihr.{1,15}konto.{1,10}ist.{1,10}(dauerhaft|derzeit|vorübergehend).{1,10}(ausgesetzt¬eingeschränkt|begrenzt|gesperrt)/iu
 /ihr.{1,15}konto.{1,10}ist noch nicht aktualisiert/i
 
 /ihr.{1,15}konto.{1,10}vorsorglich sperren/i
@@ -42,6 +42,7 @@
 
 /aufgrund des begrenzten.{1,15}kontos/i
 
+/lieber kunde.{1,10}ihr konto/i
 /lieber kunde.{1,10}wir haben ihr konto/i
 
 # Confirm or reconfirm Account/Identity
