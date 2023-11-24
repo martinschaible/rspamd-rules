@@ -138,6 +138,8 @@
 /lieferung erhalten.{1,15}zahlung.{1,10}(notwendig|verpflichtend)/i
 /lieferdaten.{1,10}bezahlen sie die.{1,10}versandkosten/i
 
+/(lieferung|versand).{1,10}(ausstehende|unbezahlte).{1,10}(versandkosten|zollgebühren)/iu
+
 /nicht bezahlter zollgebühren.{1,15}nicht versendet werden kann/iu
 
 /sendung wartet auf.{1,10}zahlung/i

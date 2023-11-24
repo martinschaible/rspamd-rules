@@ -162,6 +162,9 @@
 
 /business.{1,20}with you in your country/i
 
+/contacting you for.{1,10}potential.{1,10}business/i
+/contacting you regarding.{1,10}(proposition|proposal)/i
+
 /deal.{1,10}that will benefit both parties/i
 
 /confidential business.{1,10}(opportunity|transaction).{1,10}with you/i
@@ -188,10 +191,9 @@
 
 /urgent business proposal.{1,10}to you/i
 
-/contacting you regarding.{1,10}(proposition|proposal)/i
-
 /our investors are seeking.{1,10}business/i
 
+/you for.{1,10}potential.{1,10}business.{1,10}partnership/i
 /your consent to carry on.{1,10}business/i
 /your consent to discuss.{1,10}confidential/i
 
