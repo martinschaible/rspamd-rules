@@ -68,6 +68,9 @@
 #         Booking06972pdf (3).7z
 /booking\d{2,10}pdf.{0,5}\.7z/i
 
+# Sample: Booking76052011.7z
+/booking\d{2,10}\.7z/i
+
 # Sample: Booking-1085-120-72-63pdf.7z
 /booking[a-z0-9-]{2,20}pdf.{0,5}\.7z/i
 

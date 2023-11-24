@@ -44,10 +44,12 @@
 
 # Delivery
 # ------------------------------------------------------------------------------
-/paket.{1,10}fast bereit.{1,10}lieferung ist/i
-/paket.{1,10}die baldige zustellung vorbereitet ist/i
-/paket.{1,10}wartet auf die lieferung/i
-/paket.{1,10}zu bestätigen.{1,10}klicken sie.{1,10}auf/iu
+/(paket|sendung).{1,10}fast bereit.{1,10}lieferung ist/i
+/(paket|sendung).{1,10}die baldige zustellung vorbereitet ist/i
+/(paket|sendung).{1,10}wartet auf die lieferung/i
+/(paket|sendung).{1,10}zu bestätigen.{1,10}klicken sie.{1,10}auf/iu
+
+/(paket|sendung).{1,10}ist in unserer.{1,15}postfiliale angekommen/i
 
 /lieferdetails mit uns bestätigen/iu
 
@@ -106,6 +108,8 @@
 
 # Pay Fees
 # ------------------------------------------------------------------------------
+/adresse zu korrigieren und.{1,15}zu bezahlen/i
+
 /begleichen sie die kosten.{1,15}(die|erneute).{1,15}bearbeitung/i
 /bestätigen sie die zahlung von \d,99/i
 /bezahlen sie die kosten für die rücksendung/iu
@@ -114,6 +118,7 @@
 /es sind zusätzliche.{1,10}gebühren erforderlich/i
 
 /gebühr wird erhoben.{1,10}handeln sie schnell/iu
+/gebühr für einen erneuten zustellversuch/iu
 
 /gegenstand.{1,10}bezahlung erforderlich/i
 
