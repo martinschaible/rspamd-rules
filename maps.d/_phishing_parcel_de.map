@@ -46,6 +46,7 @@
 # ------------------------------------------------------------------------------
 /(paket|sendung).{1,10}fast bereit.{1,10}lieferung ist/i
 /(paket|sendung).{1,10}die baldige zustellung vorbereitet ist/i
+/(paket|sendung).{1,25}noch auf ihre anweisung wartet/i
 /(paket|sendung).{1,10}wartet auf die lieferung/i
 /(paket|sendung).{1,10}zu bestätigen.{1,10}klicken sie.{1,10}auf/iu
 
@@ -174,5 +175,6 @@
 
 # Bad German
 # ------------------------------------------------------------------------------
+/bestatigen sie die zahlung/i
 /post.?dhl.?paket/i
 /lieferung des ausgesetzten pakets/i
