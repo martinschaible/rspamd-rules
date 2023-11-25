@@ -55,6 +55,9 @@
 
 /com\.google\.com/i
 
+/www\.google\.[a-z]{2,3}\/url\?q/i
+
+
 # Others
 # ------------------------------------------------------------------------------
 /tinyurl\.com.*mcusercontent\.com\//i
