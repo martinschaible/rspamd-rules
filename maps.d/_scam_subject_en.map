@@ -23,10 +23,13 @@
 # ------------------------------------------------------------------------------
 /(claims|you.have).{1,10}donation/i
 
+/donation.{1,10}spende/i
 /(donation|donated).{1,15}\d{3}.{0,5}\d{3}/i
 /\d{3}.{0,5}\d{3}.{1,10}has been donated to you/i
 
 /i made.{1,10}donation for you/i
+
+/you (have|won).{1,10}donation/i
 
 # Funds, Money, Sum
 # ------------------------------------------------------------------------------
