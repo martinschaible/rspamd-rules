@@ -201,7 +201,8 @@
 /we deliver.{1,10}best.{1,10}web.?sites/i
 
 /i.?a?m.{1,15}web.?(designer|developer)/i
-/i.?a?m.{1,10}professional web.?(designer|developer)/i
+/i.?a?m.{1,15}professional web.?(designer|developer)/i
+/i.?a?m.{1,15}web development manager/i
 
 /web (design|development).{1,10}company.{1,10}offering/i
 /web (design|development).{1,10}company.{1,10}specialized in/i
@@ -211,6 +212,8 @@
 /web.?site design.{1,10}redesign/i
 
 /web.?development.{1,10}php.?development/i
+
+/who are into.{1,10}responsive.?web/i
 
 # Web-Design/Development, India
 # ------------------------------------------------------------------------------
