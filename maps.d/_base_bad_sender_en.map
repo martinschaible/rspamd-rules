@@ -103,14 +103,11 @@
 # ------------------------------------------------------------------------------
 /(australia|usa|uk).?(lotterie|lottery)/i
 /(euro|mega).?(jackpot|milions)/i
+/navidad.{0,10}loteria/i
 
 /award.?team/i
 
-/microsoft.?award/i
-
-/navidad 202\d loteria/i
-
-/lottery.?award/i
+/(lottery|microsoft).?award/i
 
 # Virus, Malware
 # ------------------------------------------------------------------------------

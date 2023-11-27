@@ -31,6 +31,7 @@
 /glad to (know|hear) that you.{1,10}on the market for/i
 /glad to (know|hear) that you.{1,10}are in.{1,15}(business|need of)/i
 /glad to (know|hear) that you.{1,10}are on the.{1,20}market/i
+/glad to (know|hear) that you.{1,10}are.{1,10}professional/i
 
 /my name is.{5,25}we are specialized in/i
 
@@ -50,6 +51,7 @@
 
 /(china|dongguan|guangzhou|shenzhen|zhejiang).{1,10}you have any need for our/i
 
+/china.{1,10}have a nice day/i
 /china.{1,10}to help you save cost/i
 
 /factory.{1,10}located in.{1,10}(china|dongguan|guangzhou|shenzhen|zhejiang)/i
@@ -217,6 +219,8 @@
 /in the field of pcba?.{1,10}years/i
 /is a manufacturer engaged.{1,10}(pcba?|printed.circuit.board)/i
 
+/this.{1,25}from.{1,10}professional.{1,10}(pcba?|printed.circuit.board).{1,10}factory/i
+
 /experience in.{1,10}(pcba?|printed.circuit.board).{1,10}manufacturing/i
 /we.{1,10}focus on pcba?/i
 
@@ -232,6 +236,7 @@
 /you.{1,10}have.{1,15}(pcba?|printed circuit board).{1,15}(need|order)/i
 /you.{1,10}interested in.{1,10}(pcba?|printed circuit board)/i
 
+/your.{1,10}company need.{1,15}(pcba?|printed circuit board)/i
 /your.{1,10}currently.{1,15}(pcba?|printed circuit board).{1,15}suppliers/i
 /your.{1,10}current.{1,15}(pcba?|printed circuit board).{1,15}requirements/i
 

@@ -75,12 +75,19 @@
 /haustierbett(en)?.{1,10}tiefpreis(en)?/i
 
 /ausverkauf.{1,10}haustierbett/i
-/hochwertigen .{1,10}haustierbetten/i
+/hochwertigen.{1,10}haustierbetten/i
 
 # Drone
 # ------------------------------------------------------------------------------
 
-# hiring people
+# Generator
+# ------------------------------------------------------------------------------
+/stromgenerator.{1,10}vertrieb/i
+/mobiler.{1,10}benzin.{1,10}stromgenerator/i
+
+/unser{1,10}mobiles{1,10}stromaggregat/i
+
+# Hiring people
 # ------------------------------------------------------------------------------
 /litauische arbeiter gesucht/i
 /wir finden ihre mitarbeiter/i
@@ -275,7 +282,8 @@
 /zum antworten bestellen.{1,15}lieferung auf rechnung/i
 
 /lieferung.{1,10}rechnung.{1,10}statt uvp.{1,10}nur.{1,10}plus/i
-/lieferung.{1,10}erfolgt auf rechnung zu lediglich/i
+/lieferung.{1,10}erfolgt auf rechnung.{1,10}zu lediglich/i
+/lieferung.{1,15}erfolgt auf rechnung.{1,15}mit freundlichen/i
 /lieferung.{1,15}detaillierte rechnung sind/i
 
 /liefern direkt auf rechnung.{1,10}risikolos.{1,10}einkaufen/i

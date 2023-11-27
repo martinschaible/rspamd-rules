@@ -56,6 +56,9 @@
 
 /\.ro\/login\.php/i
 
+# Sample: .pro/c/eJwkxr1OwzAQAOCnsUfr7vzbw
+/\.pro\/\w\/[a-z]{10,30}/i
+
 # URL's with Host
 # ------------------------------------------------------------------------------
 /\.r2\.dev\/index\.html#/i
