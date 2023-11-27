@@ -104,15 +104,14 @@
 # Masked
 # ------------------------------------------------------------------------------
 
-# Sample: info[at]event4free[dot]de
-/info\[at\][a-z0-9]{4,15}\[dot\](com|de)/i
-
-# Sample:  info[a]caridako[.]com
-/info\[a\][a-z0-9]\[\.\](com|de)/i
-
 # Sample: info(at)=CE=96arenga(dot)de
-/info\(at\)[a-z0-9=]\(dot\)(com|de)/i
+/info\(at\)[a-z0-9=]{4,15}\(dot\)(com|de)/i
 
+# Sample: info[at]event4free[dot]de
+/info\[at\][a-z0-9=]{4,15}\[dot\](com|de)/i
+
+# Sample: info[a]caridako[.]com
+/info\[a\][a-z0-9=]{4,15}\[\.\](com|de)/i
 
 /\].{1,10}bestätigen sie/iu
 
