@@ -11,3 +11,5 @@
 # ------------------------------------------------------------------------------
 /(corp|corporation|inc).{1,5}stock symbol:/i
 /(corp|corporation|inc).{1,5}otc:.{1,15}(is an|manufactures)/i
+
+/stock symbol.{1,15}(current share|for more information)/i

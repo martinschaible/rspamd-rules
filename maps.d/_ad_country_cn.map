@@ -17,13 +17,14 @@
 
 # Footers, Signature
 # ------------------------------------------------------------------------------
-/(wechat|whatsapp): 086/i
-/(wechat|whatsapp): \+86/i
+/(skype|wechat|whatsapp): 086/i
+/(skype|wechat|whatsapp): \+86/i
 
 /co.{1,5}ltd.{1,10}086/i
 /co.{1,5}ltd.{1,10}\+86/i
 
-/wechat.{1,5}whatsapp/i
+/wechat.{1,5}(mobile|whatsapp)/i
+/whatsapp.{1,5}wechat/i
 /ph.{1,5}skype.{1,5}wechat/i
 
 (dongguan|guangzhou|shenzhen|zhejiang).{1,10}china.{1,10}tel.{1,5}\+86/i
