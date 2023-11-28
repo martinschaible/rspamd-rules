@@ -10,4 +10,4 @@
 # Stock Symbol
 # ------------------------------------------------------------------------------
 /(corp|corporation|inc).{1,5}stock symbol:/i
-/(corp|corporation|inc).{1,5}otc:.{1,10}is an/i
+/(corp|corporation|inc).{1,5}otc:.{1,15}(is an|manufactures)/i

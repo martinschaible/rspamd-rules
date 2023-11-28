@@ -26,6 +26,8 @@
 /security.notification/i
 /(mail|webmail).?(|admin|server|support|team)/i
 
+/\.(ch|com|de|org).?server/i
+
 # Hosting
 # ------------------------------------------------------------------------------
 /cpanel on/i
