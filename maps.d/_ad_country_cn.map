@@ -159,7 +159,7 @@
 
 # Experience
 # ------------------------------------------------------------------------------
-/(more than|we have).{1,10}years.{1,10}experience.{1,10}(industry|producing|providing|traditional)/i
+/(more than|we have).{1,10}years.{1,10}experience.{1,10}(export|industry|producing|providing|traditional)/i
 
 # Products
 # ------------------------------------------------------------------------------
@@ -173,6 +173,11 @@
 /we specialized?.{1,10}cnc machining/i
 
 /you need.{1,10}precision.{1,10}cnc/i
+
+# Products - Cases
+# ------------------------------------------------------------------------------
+/we are.{1,15}case.{1,10}manufacturer/i
+/we offer.{1,10}aluminum.{1,10}case/i
 
 # Products - Electronics
 # ------------------------------------------------------------------------------
