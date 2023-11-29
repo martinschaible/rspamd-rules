@@ -121,17 +121,6 @@
 
 /i am.{5,25}as a leading manufacturer/i
 
-/(co|ltd).{1,15}an iso.{1,20}certified/i
-/(co|ltd).{1,15}company was established/i
-/(co|ltd).{1,15}is a high.?tech enterprise/
-/(co|ltd).{1,15}is a factory specialized in/i
-/(co|ltd).{1,15}professional.{1,15}manufacturer/i
-/(co|ltd).{1,15}specializes in.{1,10}import/i
-/(co|ltd).{1,15}we are leading.{1,15}professional/i
-/(co|ltd).{1,15}we.{1,10}supplying/i
-
-/co.{1,5}ltd.{1,10}trading company/i
-
 /has been in this field for more than.{1,10}years/i
 /introduce ourselves as.{1,10}leading manufacturer (in|of)/i
 
@@ -154,6 +143,19 @@
 
 # RFQ
 /any rfq take a chance/i
+
+# Co / LTD
+/(co|ltd).{1,15}an iso.{1,20}certified/i
+/(co|ltd).{1,15}company was established/i
+/(co|ltd).{1,15}is a high.?tech enterprise/
+/(co|ltd).{1,15}is a factory specialized in/i
+/(co|ltd).{1,15}professional.{1,15}manufacturer/i
+/(co|ltd).{1,15}specializes in.{1,10}import/i
+/(co|ltd).{1,15}we are leading.{1,15}professional/i
+/(co|ltd).{1,15}we.{1,10}supplying/i
+
+/co.{1,5}ltd.{1,10}trading company/i
+/machinery.{1,10}(co|ltd)/i
 
 # Experience
 # ------------------------------------------------------------------------------

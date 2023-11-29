@@ -19,6 +19,11 @@
 
 /i represent a group of.{1,15}(lenders|investors)/i
 
+# Approval
+# ------------------------------------------------------------------------------
+/qualified for a.{1,10}business.{1,10}loan/i
+/your business has been pre.?qualified/i
+
 # Loans
 # ------------------------------------------------------------------------------
 /loans?.{1,10}apply/i
