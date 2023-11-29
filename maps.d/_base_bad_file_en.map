@@ -15,19 +15,27 @@
 # Files
 # ------------------------------------------------------------------------------
 /\/(red|web)\.(html|php)/i
-
 /[a-z]{0,10}keto[a-z]{0,10}\.html/i
+
+/milf\d\.jpg/i
+
+#
+#
+#
 
 # Samples: redsdfirect.html
 #          redisdfrect.html
 #          redirdsfect.html
 /red[a-z]{5}ect\.html/i
 
-/sdfsdfirect\.html/i
+# Samples: sdfrect.html
+#          qsdrect.html
+#           dfgect.html
+/\/[a-z]{3,4}ect\.html/i
 
-/qsdrect\.html/i
-
-/milf\d\.jpg/i
+# Samples: sdfsdfirect.html
+#          sdfsdirect.html
+/sdfsd\[a-z]{5}.html/i
 
 # Files with a very long filename
 # ------------------------------------------------------------------------------
