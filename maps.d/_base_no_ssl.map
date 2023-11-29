@@ -9,6 +9,9 @@
 # ------------------------------------------------------------------------------
 /http:\/\/(www\.)?[a-z]{3,20}\.(net|pl)/i
 
+/http:\/\/(www\.)?[a-z0-9-]{3,25}\.(ru|sa|za)\.com\//i
+/http:\/\/(www\.)?[a-z0-9-]{3,25}\.co\.(in|uk)\//i
+
 # Exotic TLD
 # ------------------------------------------------------------------------------
 /http:\/\/(www\.)?[a-z0-9-]{3,20}\.(bond|club|email|fun|life|ltd|one|pics|pro|rest|services|shop|social|space|store|today|world|xyz)/i
@@ -16,9 +19,6 @@
 
 # Subdomain
 /http:\/\/[a-z0-9-]{3,25}\.[a-z]{3,20}\.(bond|club|email|fun|life|ltd|one|pics|pro|rest|services|shop|social|space|store|today|world|xyz)/i
-
-/http:\/\/(www\.)?[a-z0-9-]{3,25}\.(ru|sa|za)\.com\//i
-/http:\/\/(www\.)?[a-z0-9-]{3,25}\.co\.(in|uk)\//i
 
 # Subdomain
 /http:\/\/[a-z0-9-]{3,25}\.[a-z0-9-]{3,25}\.(ru|sa|za)\.com\//i
