@@ -56,6 +56,7 @@
 /(attn|attention|dear).{1,10}beneficiary/i
 
 /you have (been selected|emerged) as one of.{1,20}beneficiaries/i
+/you to be.{1,10}nearest.{1,10}beneficiary/i
 
 # Currency, Big numbers
 # ------------------------------------------------------------------------------
@@ -160,6 +161,7 @@
 /business.{1,10}(opportunity|proposition|proposal|transaction).{1,10}(i would|that).{1,10}(like|want) to discuss/i
 /business.{1,10}(opportunity|proposition|proposal|transaction).{1,10}for consideration/i
 
+/business.{1,10}request for you.{1,10}stand as.{1,10}partner/i
 /business.{1,20}with you in your country/i
 
 /contacting you for.{1,10}potential.{1,10}business/i

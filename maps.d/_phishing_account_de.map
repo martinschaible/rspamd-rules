@@ -14,6 +14,7 @@
 
 # Locking Account
 # ------------------------------------------------------------------------------
+/konto.{1,10}eine sperrung ihres kontos zu vermeiden/i
 /konto.{1,10}einige fehlende informationen/i
 /konto.{1,15}vervollständigen sie die erforderlichen/iu
 
@@ -153,6 +154,7 @@
 # EMail and Hosting
 # ------------------------------------------------------------------------------
 /sie haben ausstehende.{1,15}e?.?mails/i
+/postfach ist.{1,10}voll.{1,15}aktualisieren sie ihr/i
 
 #
 #

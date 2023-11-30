@@ -329,8 +329,8 @@
 
 # Offer to sell vehicles
 # ------------------------------------------------------------------------------
-/wir kaufen fahrzeuge.{1,10}(aller art|guten tag)/i
-/wir kaufen gebrauchte.{1,15}fahrzeuge/i
+/(ich|wir) kaufen?.{1,10}fahrzeuge.{1,10}(aller art|guten tag)/i
+/(ich|wir) kaufen?.{1,10}gebrauchte.{1,15}fahrzeuge/i
 
 #
 #

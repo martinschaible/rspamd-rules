@@ -109,6 +109,7 @@
 /my name is.{5,25}a purchase.representative/i
 /my name is.{5,25}barr(\.|ister)/i
 /my name is.{1,25}(attorney|business|investment|investor|private)/i
+/my name is.{1,25}dr\./i
 /my name is.{1,25}international.{1,10}(fund|trust)/i
 
 /my name is.{5,25}i.?a?m.{1,10}(general|international|sales).{1,10}manager/i
