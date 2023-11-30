@@ -25,12 +25,16 @@
 # ------------------------------------------------------------------------------
 /for your attention/i
 /good day.{1,10}dear/i
-/greetings.{1,10}from here/i
+/greetings?.{1,10}from here/i
 
 /hello.{1,10}dear friend/i
 
 /dear e?.?mail owner/i
 /letter from/i
+
+# Religious
+/greetings?.{1,10}in the name of god/i
+/peace be with you/i
 
 # Confidential
 # ------------------------------------------------------------------------------

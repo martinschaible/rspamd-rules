@@ -147,10 +147,12 @@
 
 # Surveillence Camera
 # ------------------------------------------------------------------------------
-/glühbirnen.{1,10}überwachungs.?kamera/iu
-/vertrauenswürdigste.{1,10}überwachungsgerät/iu
+/glühbirnen.{1,10}(Ü|ü)berwachungs.?kamera/iu
+/vertrauenswürdigste.{1,10}(Ü|ü)berwachungsgerät/iu
 
+/keine installation.{1,10}keine.{1,10}monatlichen kosten/i
 /ohne wartungskosten.{1,10}ohne monatliche/i
+/ohne installationskosten.{1,10}ohne wartungskosten/i
 
 # Suitcase set
 # ------------------------------------------------------------------------------
