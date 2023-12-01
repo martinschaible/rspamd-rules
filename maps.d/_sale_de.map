@@ -205,6 +205,7 @@
 # Trolley & Tools
 # ------------------------------------------------------------------------------
 /(werkstatt|werkzeug).?(trolley|wagen).{1,10}angeben/i
+/(werkstatt|werkzeug).?(trolley|wagen).{1,10}eignet sich/i
 /(werkstatt|werkzeug).?(trolley|wagen).{1,10}gefüllt mit/iu
 /(werkstatt|werkzeug).?(trolley|wagen).{1,10}genau das richtige/i
 /(werkstatt|werkzeug).?(trolley|wagen).{1,10}mit.{1,10}schubladen/i
@@ -214,7 +215,8 @@
 
 /hochwertiger.{1,10}(werkstatt|werkzeug).?(trolley|wagen).{1,10}inkl/i
 
-/unser (werkstatt|werkzeug).?(trolley|wagen).{1,10}ist mit/i
+/unser.{1,10}(werkstatt|werkzeug).?(trolley|wagen).{1,10}ist mit/i
+/unser.{1,10}hochwertigen.{1,10}(werkstatt|werkzeug).?(trolley|wagen)/i
 
 /werkzeug.{1,10}aus chrom.?vanadium/i
 /werkzeug.{1,10}(komplett)?.?set.{1,10}alukoffer/i
@@ -256,6 +258,8 @@
 
 # How to order
 # ------------------------------------------------------------------------------
+/bestellen.{1,10}antworten sie.{1,15}(bitte|einfach).{1,15}mit ihrer anschrift/i
+
 /antworten sie.{1,10}einfach.{1,10}auf diese e?.?mail.{1,10}um ihre bestellung/i
 /antworten sie.{1,10}einfach.{1,10}mit ihrer.{1,10}adresse.{1,10}(auf dieses schreiben|teilen sie uns)/i
 /antworten sie.{1,10}einfach.{1,10}mit ihrer.{1,10}lieferadresse/i
