@@ -77,6 +77,7 @@
 
 /acquire this money in my name/i
 /claim of your fund/i
+/claim details.{1,10}i await your.{1,15}reply/i
 
 /proposal to move out.{1,10}funds/i
 /there is.{1,10}substantial unclaimed.{1,10}sum/i
@@ -126,10 +127,13 @@
 
 /inquiry.{1,10}investment/i
 /investment.proposition/i
-/i represent a.{1,10}(finance|investor)/i
+
+/interest in investing.{1,10}your company/i
 
 /i have.{1,10}investor.{1,10}want to invest/i
 /i have.{1,10}investment.{1,10}(fund|opportunities)/i
+
+/i represent a.{1,10}(finance|investor)/i
 
 /my need for assistance.{1,10}profiling.{1,20}(funds|investment)/i
 

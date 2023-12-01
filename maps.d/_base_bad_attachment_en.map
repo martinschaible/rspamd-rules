@@ -115,6 +115,9 @@
 # Sample: RFQ_No.8964502.gz
 /rfq.?no.?\d{4,10}\.(7z|doc|gz|htm|r11|rar|tgz|xla|xls|zip)/i
 
+# Sample: RFQ235658.zip
+/rfq.?\d{4,10}\.(7z|doc|gz|htm|r11|rar|tgz|xla|xls|zip)/i
+
 #/rfq\.zip/i
 
 /product.?list\.xz/i

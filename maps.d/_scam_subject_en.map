@@ -51,7 +51,7 @@
 
 # Investment
 # ------------------------------------------------------------------------------
-/investment.{1,10}(proposal|proposition)/i
+/investment.{1,10}(inquiry|proposal|proposition)/i
 /investment.{1,10}partnership.{1,10}offer/i
 
 /confidential.{1,10}investment.{1,10}partnership/i

@@ -39,6 +39,7 @@
 /donated?.{1,10}(dollar|euro?|gbp|usd).{1,10}(for|to) you/i
 /donated?.{1,10}some amount to you/i
 /donated?.{1,10}to you.{1,10}contact for.{1,10}details/i
+/donated?.{1,10}to you.{1,10}\d{3}.{0,5}\d{3}.{1,10}euros from/i
 
 /was selected randomly.{1,10}receive.{1,15}donation/i
 
