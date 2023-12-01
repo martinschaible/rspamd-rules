@@ -30,6 +30,7 @@
 /lokalen.{1,10}chat.{1,10}kontakt(en)?/i
 
 /sex.?chat.{1,15}(cams|mitglied)/i
+/kostenlos.?chatten/i
 
 /jetzt.{1,10}chat (mit|starten)/i
 /starte.{1,10}deinen chat mit/i
@@ -54,6 +55,8 @@
 /reife.?dates?/i
 
 /online.?dating.?club/i
+/online.?dating.{1,20}warten sie nicht/i
+
 /(kostenlos|online).{1,10}sex.?(dating|treffen)/i
 /(kostenlos|online).{1,10}(dating|treffen).{1,10}sex/i
 
@@ -63,6 +66,7 @@
 
 /treffen organisieren mit.{1,10}frauen/i
 
+/suche.{1,10}nach.{1,10} treffen sind/i
 /suche.{1,10}nach einem.{1,10}dating/i
 /suche.{1,10}diskretes?.{1,10}treffen/i
 /suchst.{1,10}ein erotisches abenteuer/i
@@ -94,6 +98,8 @@
 /seite ist.{1,10}kostenlos/i
 
 /kostenlos auf unserer seite/i
+
+/web.?sites?.{1,10}zum treffen mit/i
 
 # Dating free
 # ------------------------------------------------------------------------------
@@ -153,6 +159,10 @@
 # ------------------------------------------------------------------------------
 /ich suche einen mann.{1,10}(der nicht|für)/iu
 
+/Jahre alt.{1,10}suche einen Mann/i
+
+/mann für regelmäßige.{1,15}treffen/iu
+
 # Message, Writing
 # ------------------------------------------------------------------------------
 /schreibe? mir hier/i
@@ -163,6 +173,8 @@
 /besuchen sie mein.{1,10}profil/i
 /ansehen.{1,10}was sie geschrieben hat/i
 /jetzt kostenlos antworten/i
+
+/mir hier zu schreiben/i
 
 /freundschaftsanfrage.{1,15}neue.{1,10}nachricht geschickt/i
 /nachricht von einer frau aus.{1,10}deiner/i
@@ -181,6 +193,8 @@
 /echte.{1,10}profile basierend auf/i
 /ohne gefälschte profile/iu
 
+/lade sie zu meinem.{1,10}profil/i
+
 /mein.{1,10}profil.{1,10}(dating.?seite|ist hier)/i
 /mein.{1,10}profil.{1,10}dating.?web.?site/i
 /mein.{1,10}profil.{1,10}wartet audf dich/i
@@ -197,6 +211,8 @@
 
 /sehen sie sich ihr.{1,10}profil an/i
 /stilvolle profile.{1,10}frauen/i
+
+/website.{1,10}finden sie mein profil/i
 
 # Singles
 # ------------------------------------------------------------------------------

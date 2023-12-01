@@ -198,7 +198,7 @@
 
 /we create new web.?site/i
 /we have.{1,10}professional team.{1,10}web.site/i
-/we deliver.{1,10}best.{1,10}web.?sites/i
+/we (deliver|offer).{1,10}(best|new).{1,10}web.?sites?/i
 
 /i.?a?m.{1,15}web.?(designer|developer)/i
 /i.?a?m.{1,15}professional web.?(designer|developer)/i
@@ -208,8 +208,9 @@
 /web (design|development).{1,10}company.{1,10}specialized in/i
 /web (design|development).{1,10}company.{1,10}with.{1,10}primary/i
 
-/web.?site design(ing)?.{1,10}web.?development/i
-/web.?site design.{1,10}redesign/i
+/web.?site.{1,10}design(ing)?.{1,10}web.?development/i
+/web.?site.{1,10}design.{1,10}redesign/i
+/web.?site.{1,10}desing.{1,10}revamp/i
 
 /web.?development.{1,10}php.?development/i
 
