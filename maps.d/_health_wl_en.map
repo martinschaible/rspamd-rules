@@ -54,10 +54,14 @@
 # ------------------------------------------------------------------------------
 /(recipe|tea).{1,10}lose.{1,10}f(lbs|pounds).{1,10}(a|per) week/i
 
+/flower.{1,10}better than.{1,10}diet/i
+
 # Stupid Promises
 # ------------------------------------------------------------------------------
 /fat.?burning.{1,15}(breakfast|trick)/i
 /diet trick to drop.{1,10}(fat|weight)/i
+
+/fights weight gain with.{1,15}success/i
 
 /(breakthroughs?|revolutionizing).{1,10}(fat|weight).?loss/i
 
