@@ -9,7 +9,9 @@
 # ------------------------------------------------------------------------------
 /konto.?(aktivität|hilfe|wiederherstellung)/iu
 
-/aktualisierung.{0,15}konto/iu
+/(account|konto).?aktivierung/i
+
+/(aktualisierung|bestätigung).{0,15}konto/iu
 /begrenzt/i
 
 # Banking
@@ -35,6 +37,8 @@
 
 # Parcel
 # ------------------------------------------------------------------------------
+/bestellung.?versand/i
+
 /liefer.?aktualisierung/i
 /liefer.?status?.meldungen/i
 
