@@ -84,14 +84,15 @@
 
 /nicht (geliefert|zugestellt) werden.{1,10}kein zoll bezahlt wurde/i
 
-/paket.{1,10}hat jetzt das zollamt erreicht/i
-/paket.{1,10}aufgrund.{1,10}unbezahlter zollgebühren nicht/iu
-/paket.{1,10}aufgrund.{1,10}unerwartet(eten)?.{1,10}zollabwicklung/i
-/paket.{1,10}erhalten.{1,10}das eine zollgebühr von.{1,10}zu entrichten/iu
-/paket.{1,10}liefern.{1,10}werden dem importeur.{1,10}(mehrwertsteuer|zoll.?gebühren)/iu
-/paket.{1,10}ist.{1,10}zoll deklariert.{1,10}wir laden sie ein/i
-/paket.{1,10}zu ermöglichen.{1,10}wird dem importeur.{1,10}(mehrwertsteuer|zoll.?gebühren)/iu
-/paket.{1,10}wird beim zoll angemeldet/i
+/(paket|sendung).{1,10}hat jetzt das zollamt erreicht/i
+/(paket|sendung).{1,10}aufgrund.{1,10}unbezahlter zollgebühren nicht/iu
+/(paket|sendung).{1,10}aufgrund.{1,10}unerwartet(eten)?.{1,10}zollabwicklung/i
+/(paket|sendung).{1,10}erhalten.{1,10}das eine zollgebühr von.{1,10}zu entrichten/iu
+/(paket|sendung).{1,10}liefern.{1,10}werden dem importeur.{1,10}(mehrwertsteuer|zoll.?gebühren)/iu
+/(paket|sendung).{1,10}ist.{1,10}zoll deklariert.{1,10}wir laden sie ein/i
+/(paket|sendung).{1,15}wartet auf.{1,10}(anweisung|bestätigung|versandzahlung)/iu
+/(paket|sendung).{1,10}wird beim zoll angemeldet/i
+/(paket|sendung).{1,10}zu ermöglichen.{1,10}wird dem importeur.{1,10}(mehrwertsteuer|zoll.?gebühren)/iu
 
 /zölle anfallen.{1,10}die bezahlt werden müssen/iu
 

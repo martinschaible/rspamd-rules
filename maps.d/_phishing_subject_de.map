@@ -57,9 +57,10 @@
 /(paket|sendung).{1,15}kann nicht zugestellt werden/i
 /(paket|sendung).{1,10}liegt in der warteschleife/i
 /(paket|sendung).{1,15}wartet wegen.{10,25}auf die lieferung/i
-/(paket|sendung).{1,15}wartet auf (anweisungen|bestätigung|versandzahlung)/iu
 /(paket|sendung).{1,15}wird aufgrund.{1,10}unerwartet.{1,10}zollabwicklung/i
 /(paket|sendung).{1,10}ist in unserer.{1,15}postfiliale angekommen/i
+
+/(paket|sendung).{1,15}wartet auf.{1,10}(anweisung|bestätigung|versandzahlung)/iu
 
 /paket.?zustellung.{1,10}bitte bestätigen sie/iu
 
