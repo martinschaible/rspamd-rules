@@ -94,6 +94,8 @@
 
 /(lidl|le.?creuset|kaufland).{0,10}(angebot|geschenkkarte|gewinner|sender|sendung)/i
 
+/temu.?abteilung/i
+
 # Brands, Products
 # ------------------------------------------------------------------------------
 /pro.?gewinner/i
