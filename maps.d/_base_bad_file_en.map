@@ -26,7 +26,9 @@
 # Samples: redsdfirect.html
 #          redisdfrect.html
 #          redirdsfect.html
-/red[a-z]{5}ect\.html/i
+#          sfsdfect.html
+
+/(red|sfs)[a-z]{2,5}ect\.html/i
 
 # Samples: sdfrect.html
 #          qsdrect.html

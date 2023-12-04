@@ -36,6 +36,8 @@
 /zahlungs.?richtlinie sind wir dazu verpflichtet/i
 /wir ihre daten in unserem system.{1,15}den neuen regeln/i
 
+/aufgrund der.{1,10}richtlinie.{1,10}müssen sie/iu
+
 # Data no more valid
 # ------------------------------------------------------------------------------
 /ihre hinterlegten daten nicht mehr aktuell sind/i
@@ -43,7 +45,9 @@
 
 # New Systems, Security, Technology, TAN
 # ------------------------------------------------------------------------------
-/aktivieren sie ihre karte gebührenfrei/iu
+/aktivieren sie.{1,10}ihre karte gebührenfrei/iu
+/aktivieren sie.{1,10}jetzt das verfahren/i
+
 /reaktivieren sie die.{1,20}tan.?app/i
 
 /ihr banking.{1,20}ist veraltet/i
