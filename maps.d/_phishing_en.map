@@ -95,6 +95,7 @@
 # Pending
 /(pending|receive).{1,15}messages.{1,10}avoid termination of your.{1,10}account/i
 
+/You have.{1,10}bounced messages/i
 /you have.{1,15}pending.{1,10}messages.{1,10}due.{1,15}error/i
 /you have.{1,15}pending.{1,10}messages.{1,10}that could not be sent/i
 /you have.{1,15}suspended.{1,10}incoming.{1,10}message/i

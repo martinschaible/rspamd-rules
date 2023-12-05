@@ -54,6 +54,8 @@
 
 /lieferdetails mit uns bestätigen/iu
 
+/schicken sie mein paket/i
+
 /sie haben.{1,10}ausstehendes paket/i
 /sie müssen das paket abholen/iu
 
@@ -176,8 +178,10 @@
 
 # Bad German
 # ------------------------------------------------------------------------------
+/paket zu wiederherstellen/i
 /bestatigen sie die zahlung/i
-/post.?dhl.?paket/i
 /lieferung des ausgesetzten pakets/i
 /liefern mein paket/i
 /zahlung der hauslieferungskosten/i
+
+/post.?dhl.?paket/i

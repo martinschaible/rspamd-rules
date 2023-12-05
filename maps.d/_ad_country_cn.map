@@ -64,7 +64,7 @@
 /(co|limited|ltd).{1,10}(dongguan|guangzhou|shenzhen|zhejiang).{1,10}china/i
 /co.{1,5}ltd.{1,10}(china|dongguan|guangzhou|shenzhen|zhejiang)/i
 
-/this is.{5,25}from.{1,10}/(china|dongguan|guangzhou|shenzhen|zhejiang)/i
+/this is.{5,25}from.{1,10}(china|dongguan|guangzhou|shenzhen|zhejiang)/i
  
 /we are.{1,25}chinese.{1,10}leading/i
 /we are.{1,25}chinese.{1,15}(leading|manufacturer|supplier)/i
@@ -125,6 +125,7 @@
 /has been in this field for more than.{1,10}years/i
 /introduce ourselves as.{1,10}leading manufacturer (in|of)/i
 
+/this is.{5,25}from.{5,35}is there any opportunity/i
 /to whom it may concern.{1,10}our company/i
 
 /our company.{1,10}a top.?notch/i
@@ -154,6 +155,7 @@
 /(co|ltd).{1,15}specializes in.{1,10}import/i
 /(co|ltd).{1,15}we are leading.{1,15}professional/i
 /(co|ltd).{1,15}we.{1,10}supplying/i
+/(co|ltd).{1,10}with over{1,10}years/i
 
 /co.{1,5}ltd.{1,10}trading company/i
 /machinery.{1,10}(co|ltd)/i

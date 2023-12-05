@@ -42,8 +42,9 @@
 # Sample: RQ038023.PDF.001
 #         PO#006543678.pdf.z
 #         Scan_Copy227466.PDF.html
+#         2500006039_PDF.htm
 
-/[a-z0-9]{3,15}\.pdf\.(001|htm|z)/i
+/[a-z0-9]{3,15}(_|\.)pdf\.(001|htm|z|7z)/i
 /[a-z0-9]{3,15}\.xls\.htm/i
 
 /[a-z0-9]{3,15}pdf\.7z/i
