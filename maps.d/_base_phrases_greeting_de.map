@@ -108,6 +108,7 @@
 /mein name ist.{5,25}geboren am/i
 /mein name ist.{5,30}ich arbeite als/i
 /mein name ist.{5,25}ich bin (das einzige kind|eine witwe)/i
+/mein name ist.{5,25}ich bitte um ihre hilfe/i
 /mein name ist.{5,25}ich habe krebs/i
 /mein name ist.{5,25}ich lebe in/i
 
@@ -120,6 +121,7 @@
 # Introduction
 # ------------------------------------------------------------------------------
 /ich bin.{5,25}(der|die) gewinner(in)? des/i
+/ich bin.{5,25}die einzige tochter/i
 
 /ihnen vor(zu)?stellen.{1,10}ich bin/i
 

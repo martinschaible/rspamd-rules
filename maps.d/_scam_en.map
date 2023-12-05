@@ -97,6 +97,7 @@
 /your.{1,10}funds?.{1,10}\d{3}.{0,5}\d{3}.{1,10}(dollar|euro?|gbp|usd)/i
 /your.{1,10}funds?.{1,10}of.{1,10}million/i
 /your.{1,10}funds?.{1,10}processed.{1,10}released to you/i
+/your.{1,10}funds?.{1,10}worth{1,15}(dollar|euro?|gbp|usd)/i
 
 /your.{1,10}outstanding.{1,10}funds totaling.{1,10}million/i
 /your.{1,10}cooperation.{1,10}assist.{1,10}transferring.{1,15}funds/i

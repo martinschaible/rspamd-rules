@@ -33,6 +33,9 @@
 # Double Extension
 # ------------------------------------------------------------------------------
 
+# The unique ones
+/\.xlsx\.gz/i
+
 # Sample: RFQ-PO2023080904072235AM_pdf.gz
 #         Payment_Advice,img.zip
 #         Details_pdf.rar
@@ -132,6 +135,9 @@
 /request.?for.?quotation.{0,15}\.pdf/i
 /revised.?pi.{0,20}\.html/i
 /specification\.html/i
+
+# Sample: LF_2312000420.pdf
+/lf_\d{4,10}\.pdf/i
 
 # Invoices
 # ------------------------------------------------------------------------------
