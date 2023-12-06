@@ -36,6 +36,8 @@
 /(millionen|tausend).{1,10}(dollar|euro?|gbp|usd).{1,10}kontaktieren sie mich.{1,10}e?.?mail/i
 /(millionen|tausend).{1,10}(dollar|euro?|gbp|usd).{1,10}e?.?mail für details/iu
 
+/ihres spendenanspruchs wenden sie sich/i
+
 /kontaktieren sie barr/i
 
 # Donation
@@ -70,6 +72,8 @@
 
 /eine.{1,10}spende an sie geleistet hat/i
 /ein(en)? betrag von.{1,10}\d{3}.{0,5}\d{3}.{1,10}(millionen|tausend|dollar|euro?|gbp|usd).{1,25}wurde ihnen von/i
+
+/hat ihnen eine.{1,15}summe gespendet/i
 
 /ich (gebe|spende) ihnen.{1,10}\d{3}.{0,5}\d{3}.{1,10}(millionen|tausend|dollar|euro?|gbp|usd)/i
 /ich (gebe|spende) ihnen.{1,10}\d{3}.{0,5}\d{3}.{1,10}meine gemeinnützige/iu
