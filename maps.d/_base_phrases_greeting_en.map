@@ -47,9 +47,9 @@
 
 /(dear|hi).{1,5}(hiring|purchase|purchasing).?manager/i
 
-/dear (madam|purchaser|sir).{1,15}(glad to konow you|how are you)/i
+/dear (madam|purchaser|sir).{1,15}glad to (contact|know) you/i
+/dear (madam|purchaser|sir).{1,15}(how are you|this is)/i
 /dear (madam|purchaser|sir).{1,15}please find attached/i
-/dear (madam|purchaser|sir).{1,15}this is/i
 /dear (madam|purchaser|sir).{1,15}guten tag/i
 
 /dear sir.{1,5}madam.{1,10}i am writing to/i

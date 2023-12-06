@@ -232,6 +232,8 @@
 /any.{1,10}(pcba?|printed.circuit.board).{1,10}orders/i
 /ltd.{1,10}a professional pcba?/i
 /in the field of pcba?.{1,10}years/i
+
+/is a leading manufacturer of.{1,20}(pcba?|printed.circuit.board)/i
 /is a manufacturer engaged.{1,10}(pcba?|printed.circuit.board)/i
 
 /this.{1,25}from.{1,10}professional.{1,10}(pcba?|printed.circuit.board).{1,10}factory/i
@@ -243,7 +245,7 @@
 
 /we.?a?re.{1,10}(pcba?|printed.circuit.board).{1,10}manufacturer/i
 
-/you.{1,10}may need.{1,10}(pcba?|printed.circuit.board)/i
+/you.{1,10}(looking for|may need).{1,10}(pcba?|printed.circuit.board)/i
 /you.{1,10}need.{1,10}(pcba?|printed.circuit.board).{1,10}supplier/i
 /you.{1,10}need to purchase.{1,10}(pcba?|printed circuit board)/i
 /you.{1,10}proceed your.{1,10}(pcba?|printed circuit board).{1,10}project/i
