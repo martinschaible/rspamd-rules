@@ -123,8 +123,8 @@
 # ------------------------------------------------------------------------------
 /(generation|optimale|optimierte|profi).{1,10}teleskopleiter/i
 
-/unserer?.{1,10}teleskop.{1,10}klappleiter/i
-/unserer?.{1,10}teleskopleiter/i
+/unserer?.{1,10}teleskop.{1,10}klappleiter/i 20
+/unserer?.{1,10}teleskopleiter/i 20
 
 # Pen
 # ------------------------------------------------------------------------------
