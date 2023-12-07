@@ -48,6 +48,7 @@
 
 /i am donating to.{1,10}random individuals/i
 /i am donating to you.{1,10}\d{3}.{0,5}\d{3}/i
+/i give you.{1,10}\d{3}.{0,5}\d{3}.{1,10}(dollar|euro?|gbp|usd)/i
 
 /million.{1,15}kindly reply for more details/i
 /million.{1,10}(dollar|euro?|gbp|usd).{1,10}reply for more details/i
