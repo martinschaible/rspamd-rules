@@ -85,7 +85,7 @@
 /stromgenerator.{1,10}vertrieb/i
 /mobiler.{1,10}benzin.{1,10}stromgenerator/i
 
-/unser{1,10}mobiles{1,10}stromaggregat/i
+/unser.{1,10}mobiles.{1,10}stromaggregat/i
 
 # Hiring people
 # ------------------------------------------------------------------------------
@@ -123,8 +123,8 @@
 # ------------------------------------------------------------------------------
 /(generation|optimale|optimierte|profi).{1,10}teleskopleiter/i
 
-/unserer?.{1,10}teleskop.{1,10}klappleiter/i 20
-/unserer?.{1,10}teleskopleiter/i 20
+/unserer?.{1,10}teleskop.{1,10}klappleiter/i
+/unserer?.{1,10}teleskopleiter/i
 
 # Pen
 # ------------------------------------------------------------------------------
@@ -217,7 +217,7 @@
 /(werkstatt|werkzeug).?(trolley|wagen).{1,10}mit.{1,10}schubladen/i
 /(werkstatt|werkzeug).?(trolley|wagen).{1,10}ist aus robustem/i
 /(werkstatt|werkzeug).?(trolley|wagen).{1,10}konstruiert aus/i
-/(werkstatt|werkzeug).?(trolley|wagen).{1,10}inklusive.{1,20}Werkzeug/i
+/(werkstatt|werkzeug).?(trolley|wagen).{1,10}inklusive.{1,20}werkzeug/i
 
 /hochwertiger.{1,10}(werkstatt|werkzeug).?(trolley|wagen).{1,10}inkl/i
 
@@ -246,11 +246,6 @@
 # Watches, Replicas
 # ------------------------------------------------------------------------------
 
-# Vehicles
-# ------------------------------------------------------------------------------
-/wir bieten ihnen minibagger/i
-/angebot.{1,10}unsere maschinen/iu
-
 # WiFi
 # ------------------------------------------------------------------------------
 /tragbares.?wla/i
@@ -274,8 +269,8 @@
 
 /bestellen.{1,10}einfach antworten/i
 /bestellen.{1,15}einfach auf dieses?.{1,10}(e?.?mail|schreiben) antworten/i
-/bestellen.{1,15}einfach mit adresse.{1,10}diese e?.?mail antworten/i
-/bestellen.{1,15}einfach mit ihrer adresse antworten/i
+/bestellen.{1,15}einfach mit.{1,15}(adresse|anschrift).{1,10}diese e?.?mail antworten/i
+/bestellen.{1,15}einfach mit.{1,15}(adresse|anschrift).{1,10}antworten/i
 /bestellen.{1,15}einfach per e?.?mail.{1,10}antwort/i
 /bestellen.{1,10}mit ihrer.{1,10}(adresse|anschrift).{1,10}(einfach antworten|wir liefern)/i
 /bestellen.{1,10}senden sie uns einfach.{1,10}e?.?mail/i
@@ -313,6 +308,7 @@
 
 # Pricing
 /statt uvp.{1,10}nur.{1,10}(plus|zzgl).{1,10}mwst/i
+
 /statt.{1,10}bis.{1,10}euro jetzt nur.{1,10}euro netto/i
 /statt.{1,10}jetzt nur.{1,10}euro.{1,10}(plus|zzgl).{1,10}mwst/i
 
@@ -323,18 +319,19 @@
 
 /weit unter.{1,10}uvp des herstellers/i
 
-/wir liefern.{1,15}(auf|mit) rechnung.{1,15}keine vorkasse/i 20
-/wir liefern.{1,15}(auf|mit) rechnung.{1,15}(keine|ohne) nachnahme/i 20
+/wir liefern.{1,15}(auf|mit) rechnung.{1,15}(keine|ohne) (nachnahme|vorkasse)/i
 /wir senden sofort zu ihnen.{1,10}sie bezahlen nur/i
 
 /keine nachnahme.{1,10}risikolos einkaufen/i
-/keine vorkasse.{1,10}keine nachnahme/i 20
+/keine vorkasse.{1,10}keine nachnahme/i
 
 #
 /verkauf.{1,10}vertrieb.{1,15}bitte einfach antworten/i
 
 # Discount
 /rabatt zu erhalten.{1,10}angebot.{1,10}unsere leser/i
+
+/für rückfragen bitte kurze rückantwort/iu
 
 # This company is very annoying
 # ------------------------------------------------------------------------------
@@ -349,6 +346,9 @@
 # ------------------------------------------------------------------------------
 /(ich|wir) kaufen?.{1,10}fahrzeuge.{1,10}(aller art|guten tag)/i
 /(ich|wir) kaufen?.{1,10}gebrauchte.{1,15}fahrzeuge/i
+
+/wir bieten ihnen minibagger/i
+/angebot.{1,10}unsere maschinen/iu
 
 #
 #
