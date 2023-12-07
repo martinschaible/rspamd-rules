@@ -275,7 +275,7 @@
 /bestellen.{1,10}einfach antworten/i
 /bestellen.{1,15}einfach auf dieses?.{1,10}(e?.?mail|schreiben) antworten/i
 /bestellen.{1,15}einfach mit adresse.{1,10}diese e?.?mail antworten/i
-/bestellen.{1,15}einfach mit ihrer adresse antworten/i 20
+/bestellen.{1,15}einfach mit ihrer adresse antworten/i
 /bestellen.{1,15}einfach per e?.?mail.{1,10}antwort/i
 /bestellen.{1,10}mit ihrer.{1,10}(adresse|anschrift).{1,10}(einfach antworten|wir liefern)/i
 /bestellen.{1,10}senden sie uns einfach.{1,10}e?.?mail/i
@@ -323,11 +323,12 @@
 
 /weit unter.{1,10}uvp des herstellers/i
 
-/wir liefern (auf|mit) rechnung.{1,15}keine vorkasse/i 20
-/wir liefern (auf|mit) rechnung.{1,15}(keine|ohne) nachnahme/i 20
+/wir liefern.{1,15}(auf|mit) rechnung.{1,15}keine vorkasse/i 20
+/wir liefern.{1,15}(auf|mit) rechnung.{1,15}(keine|ohne) nachnahme/i 20
 /wir senden sofort zu ihnen.{1,10}sie bezahlen nur/i
 
 /keine nachnahme.{1,10}risikolos einkaufen/i
+/keine vorkasse.{1,10}keine nachnahme/i 20
 
 #
 /verkauf.{1,10}vertrieb.{1,15}bitte einfach antworten/i
