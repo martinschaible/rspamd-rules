@@ -12,7 +12,12 @@
 
 /(low rate|quick) loans?/i
 
+/we are open.{1,10}(finance|loans?)/i
 /we offer.{1,10}(finance|loans?)/i
+
+# Financing
+# ------------------------------------------------------------------------------
+/financing made easy/i
 
 # Mortgage
 # ------------------------------------------------------------------------------

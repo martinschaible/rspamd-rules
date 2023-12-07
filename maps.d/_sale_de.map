@@ -184,6 +184,9 @@
 
 /sonderposten.{1,10}set.{1,10}reisekoffer/i
 
+# Teleskop
+# ------------------------------------------------------------------------------
+
 # Tischkicker
 # ------------------------------------------------------------------------------
 /tischkicker.{1,10}der kick/i
@@ -319,8 +322,8 @@
 
 /weit unter.{1,10}uvp des herstellers/i
 
-/wir liefern (auf|mit) rechnung.{1,10}keine vorkasse/i
-/wir liefern (auf|mit) rechnung.{1,10}ohne nachnahme/i
+/wir liefern (auf|mit) rechnung.{1,15}keine vorkasse/i 20
+/wir liefern (auf|mit) rechnung.{1,15}(keine|ohne) nachnahme/i 20
 /wir senden sofort zu ihnen.{1,10}sie bezahlen nur/i
 
 /keine nachnahme.{1,10}risikolos einkaufen/i
