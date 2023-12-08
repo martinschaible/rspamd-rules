@@ -48,7 +48,8 @@
 
 /offers.{1,10}wide range.{1,10}mobile.?app/i
 
-/you (are looking|be interested).{1,10}(creating|develop|building).{1,10}(mobile)?.?app/i
+/you (are interested|are looking|be interested).{1,10}(creating|develop|building).{1,10}(android|ios|mobile)?.apps?/i
+
 /you need mobile apps? for your.{1,10}company/i
 
 /you want.{1,10}mobile.?apps?/i
@@ -131,6 +132,7 @@
 # Google
 /1st.?page of google/i
 /1st.?page listings on google/i
+/1st.?page ranking on google/i
 
 /get top position.{1,10}google/i
 /(promote|list) your.{1,10}web.?site.{1,10}google/i
@@ -160,6 +162,8 @@
 /(have|you).{1,10}interest(ed)?.{1,10}(getting|receiving).{1,10}more leads/i
 
 /web.?visitors into.{1,10}(leads|sales)/i
+
+/we can bring you more.{1,10}clients/i
 
 /offer you.{1,15}(premium|quality).{1,15}leads/i
 /you high quality leads/i

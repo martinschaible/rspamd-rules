@@ -188,7 +188,8 @@
 
 # Tischkicker
 # ------------------------------------------------------------------------------
-/tischkicker.{1,10}der kick/i
+/tisch.?(fußball|kicker).{1,10}der kick/i
+/tischfußball.{1,10}highlight/i
 
 /erstklassiger.{1,10}tischfußballtisch/iu
 
