@@ -24,10 +24,6 @@
 /(chef|dreh|leder).?(sessel|stuhl)/i
 /chef.?leder.?(sessel|stuhl)/i
 
-/für.{1,10}\d{3}.{1,10}statt.{1,10}\d{3}/iu
-
-/jetzt nur \d{2}.{1,10}statt \d{3}/i
-
 # Drone
 # ------------------------------------------------------------------------------
 
@@ -68,6 +64,12 @@
 
 /teiliges.{1,10}werkzeug.?set/i
 
+# Tischkicker
+# ------------------------------------------------------------------------------
+/tischfußballtisch.{1,10}für nur/iu
+/tischfußballtisch.{1,10}für.{1,10}statt/iu
+/hightlight.{1,10}tischfußballtisch/iu
+
 # Umbrellas
 # ------------------------------------------------------------------------------
 /ampel.?regenschirm/iu
@@ -93,3 +95,6 @@
 /räumungsverkauf/i
 
 /jetzt zuschlagen.{1,10}nur/i
+
+/für.{1,10}\d{3}.{1,10}statt.{1,10}\d{3,4}/iu
+/(jetzt|für) nur \d{2,3}.{1,5}statt.{1,5}\d{3,4}/i
