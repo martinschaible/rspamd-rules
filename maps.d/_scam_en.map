@@ -89,7 +89,10 @@
 /you an opportunity.{1,10}receive.{1,15}funds/i
 /you have a fund of.{1,10}\d{3}.{0,5}\d{3}/i
 /you regarding.{1,10}compensation.{1,10}funds/i
-/you to administer.{1,10}funds/i
+
+/you to.{1,10}assist retrieve.{1,15}deposit/i
+/you to.{1,10}(administer|assist).{1,10}funds/i
+
 /you wish to receive.{1,15}funds/i
 
 /your.{1,10}funds?.{1,10}have been approved by the/i
