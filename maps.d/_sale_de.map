@@ -121,6 +121,10 @@
 /unserer?.{1,10}teleskop.{1,10}klappleiter/i
 /unserer?.{1,10}teleskopleiter/i
 
+# Learning a language
+# ------------------------------------------------------------------------------
+/gerät.{1,10}das sprachbarrieren/iu
+
 # Pen
 # ------------------------------------------------------------------------------
 /kugelschreiber.{1,10}(gummierung|gummiert|softgriff)/i
@@ -186,6 +190,8 @@
 # ------------------------------------------------------------------------------
 /tischkicker.{1,10}der kick/i
 
+/erstklassiger.{1,10}tischfußballtisch/iu
+
 # Tools
 # ------------------------------------------------------------------------------
 /werkzeugset statt.{1,10}nur/i
@@ -198,10 +204,6 @@
 
 /das sprachbarrieren überwindet/iu
 /sprachen.{1,10}sprachübersetzungen/iu
-
-# Learning a language
-# ------------------------------------------------------------------------------
-/gerät.{1,10}das sprachbarrieren/iu
 
 # Trolley & Tools
 # ------------------------------------------------------------------------------
@@ -256,6 +258,7 @@
 # ------------------------------------------------------------------------------
 /bestellen.{1,10}antworten sie.{1,15}(bitte|einfach).{1,15}mit ihrer anschrift/i
 
+/antworten sie.{1,15}bei fragen.{1,10}bestellungen/i
 /antworten sie.{1,15}einfach.{1,10}auf diese e?.?mail.{1,10}um ihre bestellung/i
 /antworten sie.{1,15}einfach.{1,10}mit ihrer.{1,10}adresse.{1,10}(auf dieses schreiben|teilen sie uns)/i
 /antworten sie.{1,15}einfach.{1,10}mit ihrer.{1,10}lieferadresse/i
@@ -296,6 +299,8 @@
 /lieferung.{1,15}detaillierte rechnung sind/i
 
 /liefern direkt auf rechnung.{1,10}risikolos.{1,10}einkaufen/i
+
+/risikofreier kauf.{1,15}antworten sie mit ihrer lieferadresse/i
 
 /sofort zugreifen per e?.?mail/i
 
