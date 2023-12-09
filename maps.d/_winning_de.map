@@ -53,6 +53,8 @@
 /sie haben mit ihrer.{1,10}e?.?mail.{1,10}adresse gewonnen/i
 /sie wurden als einer.{1,15}glücklichen gewinnern/iu
 
+/sie.{1,10}\d{3}.{1,5}\d{3}.{1,10}(dollar|euro?|gbp|usd).{1,10}millionen.{1,25}tausend euro.{1,10}gewonnen/i
+
 /\d{3}.{1,5}\d{3}.{1,10}(dollar|euro?|gbp|usd) gewonnen.{1,10}zahlungsnummer/i
 /\d{3}.{1,5}\d{3}.{1,10}(dollar|euro?|gbp|usd).{1,10}kontaktieren sie/i
 

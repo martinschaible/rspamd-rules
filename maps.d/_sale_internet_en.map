@@ -17,19 +17,19 @@
 
 /get the best.{1,10}e?.?mail.{1,10}lists/i
 
-/you are interested.{1,10}acquiring.{1,15}(attendees|visitors).{1,10}list/i
-/you are interested.{1,10}acquiring.{1,15}list/i
+/you.{1,10}interested.{1,10}(acquiring|purchasing).{1,15}(attendees|visitors).{1,10}list/i
+/you.{1,10}interested.{1,10}(acquiring|purchasing).{1,10}the contacts of/i
+/you.{1,10}interested.{1,10}(acquiring|purchasing).{1,15}list/i
+/you.{1,10}interested.{1,10}(acquiring|purchasing).{1,10}linkedin.{1,10}leads/i
+
+/you.{1,10}interested.{1,10}in e?.?mail.?marketing/i
 
 /you want.{1,10}receive.{1,10}attendee.{1,10}list/i
 /(attendees|visitors).{1,10}list.{1,10}available.{1,15}discounted price/i
 
-/you.{1,10}interested.{1,10}purchasing.{1,10}linkedin.{1,10}leads/i
-/you.{1,10}interested.{1,10}in e?.?mail.?marketing/i
-
 # 
 /we are.{1,10}leading b2b.data.solutions/i
 
-#
 /best e?.?mail.?lists/i
 /e?.?mail.?lists of any country/i
 

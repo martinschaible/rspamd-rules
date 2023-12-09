@@ -9,11 +9,15 @@
 
 # Intros
 # ------------------------------------------------------------------------------
-/we.are.independent.financial/i
-/we.are.{1,15}financial.{1,10}(advisors|institution)/i
-/we are.{1,10}financial.{1,10}consulting company/i
+/we.are.{1,15}(financial|investment).{1,10}(advisors|company|consultant|institution)/i
+/we are.{1,10}(financial|investment).{1,10}consulting company/i
+
 /we are.{1,10}first.?class.{1,10}financial.{1,10}institution/i
 /we are.{1,20}based investment company/i
+/we are.{1,15}europe.{1,10}based.{1,10}(financial|investment)/i
+
+/we are.{1,15}debt.{1,15}funding/i
+/we are.{1,10}independent.{1,10}financial/i
 
 /investment.?company offering.{1,10}funding/i
 
@@ -48,8 +52,8 @@
 
 /you be interested.{1,10}loan/i
 /you looking for.{1,15}loans?/i
-/you need a loan.{1,10}(for|from|if yes)/i
-/you need an urgent loan/i
+/you need.{1,10}loan.{1,10}(for|from|if yes)/i
+/you need.{1,10}urgent loan/i
 
 /business loan.{1,10}investment.{1,10}loans?/i
 /personal loan.{1,10}business.{1,10}loans?/i
@@ -60,7 +64,6 @@
 /investment company offering.{1,20}(corporate|personal|unsecured).{1,10}loans?/i
 /leading.{1,10}institution.{1,10}(corporate|personal|unsecured).{1,10}loans/i
 
-
 # Financing
 # ------------------------------------------------------------------------------
 /we (are offering|give|issuing|offer|offering|provide).{1,10}personal.{1,10}business.{1,10}financial/i
@@ -68,7 +71,6 @@
 /we (are offering|give|issuing|offer|offering|provide).{1,15}business.{1,10}personal.{1,15}financing?/i
 /we (are offering|give|issuing|offer|offering|provide).{1,10}independent.{1,10}funding/i
 
-/we are.{1,10}(financial|investment).{1,10}(company|consultant)/i
 /we are.{1,10}seeking to finance/i
 
 /we specialise in investments/i
