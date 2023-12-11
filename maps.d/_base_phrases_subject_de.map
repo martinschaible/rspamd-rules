@@ -57,3 +57,18 @@
 # Bad German
 # ------------------------------------------------------------------------------
 /vertraulichkeit/i
+
+# Bitcoin (Temporary)
+# ------------------------------------------------------------------------------
+/bitcoin.{1,10}(methode|rally|rush)/i
+/bitcoin.{1,10}reich werden/i
+
+/(rally|rush) hat begonnen/i
+
+/(crypto|krypto).?handel wie profis/i
+/(crypto|krypto).?trader/i
+
+/(geld mit|jetzt in|reich mit).{1,10}(bitcoin|kryptowährung)/i
+/werden sie.{1,10}crypto/i
+
+/mit.{1,10}euro? reich werden/i
