@@ -14,14 +14,12 @@
 /chefsessel.{1,10}viele farben/i
 
 /(elegant(er)?|exklusiver|hochwertig|leder).{1,10}chefsessel/i
-/toro.{1,10}chefsessel/i
 
 /lederbürostühle/iu
 
 /atmungsaktiver.{1,10}mesh.?stoff.{1,10}belastbar/i
 
-/mesh.?chefsessel/i
-/leder.?chefsessel/i
+/(leder|mesh|toro).?chefsessel/i
 
 /diesen einzigartigen.{1,10}stuhl/i
 /(elegante|erlesene|komfort|praktische).{1,15}büro.?(stuhl|stühle)/iu
@@ -45,12 +43,10 @@
 
 # Knives
 # ------------------------------------------------------------------------------
-/huusk.{1,10}absoluter/i
-/huusk.{1,10}lieben/i
+/huusk.{1,10}(absoluter|lieben)/i
 /huusk.{1,10}messer.{1,10}bestellen/i
 
-/empfehlung.{1,20}huusk/i
-/team.{1,10}huusk/i
+/(empfehlung|team).{1,20}huusk/i
 
 # Pen
 # ------------------------------------------------------------------------------
@@ -76,6 +72,7 @@
 
 # Schneeschieber
 # ------------------------------------------------------------------------------
+/(diesem|wir den).{1,10}schneeschieber/i
 
 # Surveillence Camera
 # ------------------------------------------------------------------------------
@@ -204,14 +201,16 @@
 /teilen sie uns.{1,15}per.{1,10}antwort ihre lieferadresse/i
 
 # Pricing
-/statt uvp.{1,10}nur.{1,10}(plus|zzgl).{1,10}mwst/i
+/euro zzgl.{1,10}mwst.{1,10}statt der regulären.{1,10}euro/iu
 
 /statt.{1,10}bis.{1,10}euro jetzt nur.{1,10}euro netto/i
 /statt.{1,10}jetzt nur.{1,10}euro.{1,10}(plus|zzgl).{1,10}mwst/i
+/statt.{1,10}uvp.{1,10}nur.{1,10}(plus|zzgl).{1,10}mwst/i
 
 /uvp.{1,10}des herstellers.{1,15}unser unschlagbarer preis.{1,10}nur/i
 /preis beträgt anstelle von.{1,10}euro nur.{1,10}euro.{1,10}zzgl/iu
 
+/sonderpreis.{1,10}nur.{1,10}euro.{1,10}zzgl.{1,10}mwst/i
 /unschlagbarer preis.{1,10}statt.{1,10}nur.{1,10}euro.{1,10}netto/i
 
 /weit unter.{1,10}uvp des herstellers/i

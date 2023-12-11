@@ -131,8 +131,9 @@
 /dear sir.{1,5}madam.{1,10}my name is/i
 /dear colleague.{1,10}my name is/i
 
+/(hello|hi).{1,10}i am mrs?/i
 /(hello|hi).{1,10}there.{1,10}my name is/i
-/hello.{1,10}dear(est)?.{1,10}my name is/i
+/(hello|hi).{1,10}dear(est)?.{1,10}my name is/i
 /hello dear.{5,25}we are interested/i
 
 /hello.{1,10}our names are/i
