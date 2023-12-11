@@ -12,7 +12,7 @@ As i did it in *Declude* i created maps related to different categories mostly f
 
 🍀 Feel free to use these maps on your Rspamd server.
 
-📢 If you have any question or feedbackdrop me line at the [discussions](https://github.com/martinschaible/rspamd-rules/discussions).
+📢 If you have any question or feedback drop me line at the [discussions](https://github.com/martinschaible/rspamd-rules/discussions).
 
 🐛 Bugs and problems can be reported here: [Issues](https://github.com/martinschaible/rspamd-rules/issues).
 
