@@ -18,7 +18,7 @@
 /(geld mit|jetzt in|reich mit).{1,10}(bitcoin|kryptowährung)/i
 /werden sie.{1,10}crypto/i
 
-/mit.{1,10}euro? reich werden/i
-
 # Make Money
 # ------------------------------------------------------------------------------
+/reich werden ohne/i
+/mit.{1,10}euro? reich werden/i

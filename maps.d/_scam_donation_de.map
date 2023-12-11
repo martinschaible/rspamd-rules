@@ -105,6 +105,8 @@
 /(ich|sie) haben? eine.{1,15}spende(zuschuss)?.{1,10}für sie/i
 
 /sie.{1,10}den erhalt einer.{1,15}spende/i
+/sie.{1,10}eine spende in höhe von.{1,10}\d{3}.{0,5}\d{3}/iu
+
 /sie bezüglich der.{1,10}spende von/iu
 /sie als empfänger einer.{1,20}spende/iu
 /sie eine spende in höhe von.{1,15}(millionen|tausend|dollar|euro?|gbp|usd).{1,15}vom/iu
