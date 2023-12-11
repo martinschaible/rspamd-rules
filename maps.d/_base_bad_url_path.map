@@ -59,6 +59,9 @@
 # Sample: .pro/c/eJwkxr1OwzAQAOCnsUfr7vzbw
 /\.pro\/\w\/[a-z]{10,30}/i
 
+# Sample: http://serviceplushomewarranty.shop/--VNs1_uw6cAtfNCihRUyn_smrz2t8T9jPTazXqcAShi42I4uQ
+/\.\w{1,4}\/--[a-z0-9]{2,4}_/i
+
 # URL's with Host
 # ------------------------------------------------------------------------------
 /\.r2\.dev\/index\.html#/i
