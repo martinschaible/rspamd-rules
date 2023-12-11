@@ -28,17 +28,17 @@
 #          redisdfrect.html
 #          redirdsfect.html
 #          sfsdfect.html
-
 /(red|sfs)[a-z]{2,5}ect\.html/i
 
 # Samples: sdfrect.html
+#          sdfsdfirect.html
+#          sdfsdirect.html
+#          sdfsdfct.html
 #          qsdrect.html
 #           dfgect.html
-/\/[a-z]{3,4}ect\.html/i
+/sdf\[a-z]{4,6}.html/i
 
-# Samples: sdfsdfirect.html
-#          sdfsdirect.html
-/sdfs\[a-z]{6}.html/i
+/\/[a-z]{3,4}ect\.html/i
 
 # Files with a very long filename
 # ------------------------------------------------------------------------------
