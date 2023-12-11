@@ -183,6 +183,9 @@
 
 /sonderposten.{1,10}set.{1,10}reisekoffer/i
 
+# Schneeschieber
+# ------------------------------------------------------------------------------
+
 # Teleskop
 # ------------------------------------------------------------------------------
 
@@ -266,6 +269,8 @@
 /antworten sie.{1,15}einfach.{1,10}zum bestellen/i
 /antworten sie.{1,15}direkt auf diese e?.?mail.{1,10}wir schicken ihnen ihr/i
 
+/antworten.{1,10}adresse angeben/i
+
 /bestellen.{1,10}einfach antworten/i
 /bestellen.{1,15}einfach auf dieses?.{1,10}(e?.?mail|schreiben) antworten/i
 /bestellen.{1,15}einfach mit.{1,15}(adresse|anschrift).{1,10}diese e?.?mail antworten/i
@@ -322,6 +327,8 @@
 
 /wir liefern.{1,15}(auf|mit) rechnung.{1,15}(keine|ohne) (nachnahme|vorkasse)/i
 /wir senden sofort zu ihnen.{1,10}sie bezahlen nur/i
+
+/ohne vorkasse.{1,10}nachnahme/i
 
 /keine nachnahme.{1,10}risikolos einkaufen/i
 /keine vorkasse.{1,10}keine nachnahme/i
