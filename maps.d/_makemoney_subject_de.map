@@ -15,7 +15,9 @@
 /(crypto|krypto).?handel wie profis/i
 /(crypto|krypto).?trader/i
 
-/(geld mit|jetzt in|reich mit).{1,10}(bitcoin|kryptowährung)/i
+/(geld|reich).{1,10}mit.{1,10}(bitcoin|kryptowährung)/i
+
+/jetzt in.{1,10}(bitcoin|kryptowährung)/i
 /werden sie.{1,10}crypto/i
 
 # Make Money

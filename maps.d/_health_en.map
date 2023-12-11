@@ -133,14 +133,14 @@
 
 /reveals secret survival plan/i
 
-/(see here|this).{1,10}breakthrough.{1,10}(discovery|method|ritual)/i
-
+/scientists confirmed this.{1,10}hack/i
 /simple.{1,10}second protocol/i
 /shocking discovery reveals/i
 
 /this.{1,10}eye.?opening presentation/i
-/this.{1,10}(minute|second).{1,10}(discovery|method|ritual)/i
 /this.{1,10}formula was leaked/i
+
+/(see here|this).{1,10}(breakthrough|minute|second).{1,15}(discovery|hack|method|ritual)/i
 
 /trick takes less than.{1,10}seconds/i
 /natural.{1,10}vision.{1,10}breakthrough/i
