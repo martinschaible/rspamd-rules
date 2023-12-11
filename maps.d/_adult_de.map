@@ -87,8 +87,8 @@
 
 # Dating Sites
 # ------------------------------------------------------------------------------
-/(dating|hookup).?web.?site.{1,10}(anschauen|bei mir|fortzusetzen|treffen)/i
-/(dating|hookup).?web.?site.{1,10}ist dein/i
+/(dating|hookup).?(web)?.?site.{1,10}(anschauen|bei mir|fortzusetzen|kommunizieren|treffen)/i
+/(dating|hookup).?(web)?.?site.{1,10}ist dein/i
 
 /casual.?club.{1,10}kostenlos/i
 
@@ -96,11 +96,13 @@
 
 /club.{1,10}singles/i
 
+/einer.{1,20}dating.?website.{1,10}registriert/i
+
 /(beste|einziartige|intime|profil).{1,15}(dating|hookup).?(plattform|portal|(web)?sites?)/i
-/sex.?dating.?(club|plattform|portal|(web)?sites?)/i
+/sex.?dating.?(club|plattform|portal|(web)?.?sites?)/i
 /seitensprung.{1,10}web.?site/i
 
-/unsere.{1,10}(dating|sex).?(web)?site/i
+/unsere.{1,10}(dating|sex).?(web)?.?site/i
 
 /seite ist.{1,10}kostenlos/i
 
@@ -172,10 +174,10 @@
 
 # Message, Writing
 # ------------------------------------------------------------------------------
-/schreibe? mir hier/i
-/schreibe? mir.{1,10}(auf|in) meinem.{1,10}profil/i
-/schreibe? mir.{1,10}auf der web.?site/i
-/schreiben sie mir.{1,10}(bitte hier|profil)/i
+/schreibe?.{1,10}mir hier/i
+/schreibe?.{1,10}mir.{1,10}(auf|in) meinem.{1,10}profil/i
+/schreibe?.{1,10}mir.{1,10}auf der web.?site/i
+/schreibe?.{1,10}sie mir.{1,10}(bitte hier|profil)/i
 
 /besuchen sie mein.{1,10}profil/i
 /ansehen.{1,10}was sie geschrieben hat/i
