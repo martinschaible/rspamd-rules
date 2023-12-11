@@ -1,0 +1,144 @@
+# ==============================================================================
+# Sale: Anything, Score level MEDIUM
+#
+# -> Add bad senders here: "_sale_sender_de.map"
+#
+# ----|----------------|
+#  5  | German         |
+# ==============================================================================
+
+# Sale related phrases
+# ------------------------------------------------------------------------------
+
+# Introduction
+# ------------------------------------------------------------------------------
+
+#
+#
+#
+
+# Air Conditioning
+# ------------------------------------------------------------------------------
+/klimageräte?.{1,15}ein angenehmes raumklima/iu
+
+/mobile.{1,10}klimaanlage.{1,10}kühlleistung/iu
+/das mobile klimagerät/iu
+
+# Boxes
+# ------------------------------------------------------------------------------
+/aluminiumkiste.{1,10}transportbox/i
+/aluminium.?transportkisten.{1,10}set/i
+
+# Cushion
+# ------------------------------------------------------------------------------
+/kissen.{1,10}in deutschland/i
+
+# Dog bed
+# ------------------------------------------------------------------------------
+/haustierbett(en)?.{1,10}einmaligen preisen/i
+/haustierbett(en)?.{1,10}tiefpreis(en)?/i
+
+/ausverkauf.{1,10}haustierbett/i
+/hochwertigen.{1,10}haustierbetten/i
+
+# Drone
+# ------------------------------------------------------------------------------
+
+# Generator
+# ------------------------------------------------------------------------------
+/stromgenerator.{1,10}vertrieb/i
+/mobiler.{1,10}benzin.{1,10}stromgenerator/i
+
+/unser.{1,10}mobiles.{1,10}stromaggregat/i
+
+# Intercom
+# ------------------------------------------------------------------------------
+/unsere.{1,10}video.{1,10}türsprechanlage/iu
+
+/wlan.?full.?hd.{1,10}video.{1,10}türsprechanlage/iu
+/wlan.?internet.{1,10}türsprechanlage/iu
+
+# Jacket
+# ------------------------------------------------------------------------------
+/beheizbare daunen.?jacke/i
+/beheizbaren? jacke.{1,10}perfekte?/i
+/beheizbaren? jacke.{1,10}werden sie nicht/i
+
+/(der|einer) beheizbaren jacke/i
+/die beheizbare jacke/i
+
+/eine beheizbare jacke an/i
+
+# Ladder
+# ------------------------------------------------------------------------------
+/(generation|optimale|optimierte|profi).{1,10}teleskopleiter/i
+
+/unserer?.{1,10}teleskop.{1,10}klappleiter/i
+/unserer?.{1,10}teleskopleiter/i
+
+# Learning a language
+# ------------------------------------------------------------------------------
+/gerät.{1,10}das sprachbarrieren/iu
+
+# Suitcase set
+# ------------------------------------------------------------------------------
+/kofferset.{1,10}teilig.{1,10}statt uvp.{1,10}nur/i
+
+# Solar energy
+# ------------------------------------------------------------------------------
+# -> Probably scam
+
+/photo.?voltaik.?anlage.{1,10}ausstattet kann.{1,10}profitieren/i
+/photo.?voltaik.?anlage.{1,10}erzeugen sie ihren strom/i
+
+/solar.?anlage.{1,10}die richtige/i
+/solar.?anlage.{1,10}die ihren strom/i
+
+/internet.?seite können sie kostenlos/i
+/unser kostenloses.{1,10}analyse.?tool/i
+
+/unseren kostenlosen vergleichsrechner/i
+/unseren kostenlosen rechner/i
+
+# Suitcase
+# ------------------------------------------------------------------------------
+/koffer.{1,10}nur.{1,15}euro.{1,10}komplettpreis/i
+/koffer.{1,10}trolley.{1,10}extrem/i
+
+/sonderposten.{1,10}set.{1,10}reisekoffer/i
+
+# Teleskop
+# ------------------------------------------------------------------------------
+
+# Videos
+# ------------------------------------------------------------------------------
+
+# Watches, Replicas
+# ------------------------------------------------------------------------------
+
+#
+#
+#
+
+# Offer to sell vehicles
+# ------------------------------------------------------------------------------
+/(ich|wir) kaufen?.{1,10}fahrzeuge.{1,10}(aller art|guten tag)/i
+/(ich|wir) kaufen?.{1,10}gebrauchte.{1,15}fahrzeuge/i
+
+/wir bieten ihnen minibagger/i
+/angebot.{1,10}unsere maschinen/iu
+
+# Hiring people
+# ------------------------------------------------------------------------------
+/litauische arbeiter gesucht/i
+/wir finden ihre mitarbeiter/i
+
+/sie erhalten bei uns fachkräfte/iu
+/mitarbeiter aus litauen/i
+
+#
+#
+#
+
+# Unclassified
+# ------------------------------------------------------------------------------
