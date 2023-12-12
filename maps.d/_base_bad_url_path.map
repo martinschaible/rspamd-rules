@@ -10,6 +10,13 @@
 /\/cgi-bin\/click\.pl\?cid=/i
 /\/cgi-bin\/de\//i
 
+# Files
+# ------------------------------------------------------------------------------
+/\/redirect\.html/i
+
+# Sample: s.html#/redirect.html
+/\/.html#\/[a-z0-9]{2,10}\.html/i
+
 # Long URL with a exotic TLD
 # ------------------------------------------------------------------------------
 # Sample: .world/Jo76dKonaQ1JnBTXq_dhTliiIUNI4QCWQZvyHOMYiqaz2mQ

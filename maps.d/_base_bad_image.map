@@ -32,7 +32,7 @@
 
 # Image with 1 pixel height/width and no SSL
 # ------------------------------------------------------------------------------
-/<img width=(3d)?"1px" height=(3d)?"1px" alt=(3d)?"" src=(3d)?"http:\/\//i
+/<img width=(3d)?"1px" height=(3d)?"1px" alt=(3d)?"" src=(3d)?.?http:\/\//i
 
 # Sample: .za.com/clicks/img/tupitea.png
 /\/clicks\/img\/[a-z0-9]{5,15}\.(jpg|png)/i
@@ -48,4 +48,5 @@
 #
 # Google
 # ------------------------------------------------------------------------------
-<img src=(3d)?"https:\/\/drive\.google\.com/i
+<img src=(3d)?.?https:\/\/drive\.google\.com/i
+<img src=(3d)?.?https:\/\/storage\.googleapis\.com/i

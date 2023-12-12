@@ -20,6 +20,9 @@
 # Sample: [iPad Pro]
 /\[.{5,10}\]/i
 
+# Sample: _Congrats_
+/_\w{5,15}_/i
+
 # Sample: | Netflix Inc. |
 /\|.{1,20}\|/i
 
@@ -116,3 +119,4 @@
 /antivirus.?norton/i
 /anti virus/i
 /mcafee.?alarm/i
+/security.?notice/i
