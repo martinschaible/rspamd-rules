@@ -41,6 +41,7 @@
 
 # Intros, specific China
 # ------------------------------------------------------------------------------
+/(china|dongguan|guangzhou|shenzhen|zhejiang).{1,10}based{1,20}(freight|international){1,20}forwarder/i
 /(china|dongguan|guangzhou|shenzhen|zhejiang).{1,10}factory.{1,10}specializes.{1,10}producing/i
 /(china|dongguan|guangzhou|shenzhen|zhejiang).{1,10}(my|our).{1,10}(company|factory).{1,10}(offers|specialized|specializes)/i
 /(china|dongguan|guangzhou|shenzhen|zhejiang).{1,20}supply all kinds of.{1,10}quality/i
