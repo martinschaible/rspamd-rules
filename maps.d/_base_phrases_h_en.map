@@ -25,6 +25,8 @@
 
 /attention.{1,10}this is very urgent/i
 
+/to the attention of.{1,10}chief/i
+
 # Business
 # ------------------------------------------------------------------------------
 /you with keen hope to open.{1,10}business.relationship/i
@@ -41,16 +43,18 @@
 # E-Mail
 # ------------------------------------------------------------------------------
 /confirm.{1,10}if this is your{1,15}e?.?mail.?address/i
+
+/hello.{1,10}did you get my previous.{1,10}e?.?mail/i
+/you received? my previous.{1,10}e?.?mail.{1,10}regards/i
+
+# E-Mail active/correct
+# ------------------------------------------------------------------------------
 /confirm.{1,10}if you still use this.{1,10}e?.?mail.?address/i
 /confirm.{1,10}(this|the).{1,10}e?.?mail.?address is still valid/i
 
-/hello.{1,10}did you get my previous.{1,10}e?.?mail/i
-
-/you are still using.{1,10}(this|your).{1,10}e?.?mail.?address/i
-/you received? my previous.{1,10}e?.?mail.{1,10}regards/i
-/you still (operating|reachable).{1,10}this.{1,10}e?.?mail/i
-
 /is your.{1,10}e?.?mail still active/i
+
+/you.{1,10}still.{1,10}(operating|reachable|using).{1,10}(this|your).{1,10}e?.?mail/i
 
 # Excuses and other silly stuff
 # ------------------------------------------------------------------------------
@@ -72,10 +76,11 @@
 /your.{1,15}(company|name).{1,15}?e.?mail.?address from the internet/i
 /your.{1,15}(company|name).{1,15}while browsing.{1,15}google/i
 
-/your (contact|e?.?mail).{1,15}from the.{1,15}africa exchange/i
-/your (contact|e?.?mail).{1,15}from your countries.{1,20}business/i
-/your (contact|e?.?mail).{1,15}through my online exploration/i
-/your (contact|e?.?mail).{1,15}(has been|was) provided by google/i
+/your (contact|e?.?mail).{1,20}from the.{1,15}africa exchange/i
+/your (contact|e?.?mail).{1,20}from your countries.{1,20}business/i
+/your (contact|e?.?mail).{1,20}on the internet/i
+/your (contact|e?.?mail).{1,20}through my online exploration/i
+/your (contact|e?.?mail).{1,20}(has been|was) provided by google/i
 
 # Important
 # ------------------------------------------------------------------------------
@@ -95,6 +100,10 @@
 # ------------------------------------------------------------------------------
 /i came across your.{1,15}profile/i
 /your.{1,15}profile caught my attention/i
+
+# Religious
+# ------------------------------------------------------------------------------
+/may the name.{1,10}god be praised/i
 
 # Sickness, Dying :-)
 # ------------------------------------------------------------------------------

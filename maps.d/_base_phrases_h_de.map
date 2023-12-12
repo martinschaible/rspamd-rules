@@ -36,15 +36,17 @@
 
 /(lieber|sehr geehrter) e?.?mail.?benutzer/i
 
-/ist diese.{1,10}e?.?mail.?adresse aktiv/i
-/ist diese.{1,10}e?.?mail noch aktiv/i
-
 /teilen sie mir mit.{1,10}sie diese.{1,10}e?.?mail.{1,10}erhalten haben/i
-
-/(bestätigen sie|sie mir.{1,10}mitteilen).{1,10}diese.{1,10}e?.?mail.{1,10}noch aktiv ist/iu
 
 /sie der richtige besitzer dieser.{1,10}e?.?mail/i
 /sie den besitz dieser.{1,10}e?.?mail.{1,10}bestätigen/i
+
+# E-Mail active/correct
+# ------------------------------------------------------------------------------
+/(bestätigen sie|sie mir.{1,10}mitteilen).{1,10}diese.{1,10}e?.?mail.{1,10}noch aktiv ist/iu
+
+/ist diese.{1,10}e?.?mail.{1,10}noch aktiv/i
+/ist diese.{1,10}e?.?mail.?adresse aktiv/i
 
 /wenn diese e?.?mail.{1,15}noch aktiv ist.{1,10}kontaktieren sie/i
 /wissen.{1,15}ihre.{1,10}e?.?mail.{1,10}korrekt ist/i
@@ -74,6 +76,12 @@
 # ------------------------------------------------------------------------------
 /unserer? kostenlosen? internet.?seite/i
 /kostenlosen? internet.?seite.{1,10}erfahren sie/i
+
+# Profile
+# ------------------------------------------------------------------------------
+
+# Religious
+# ------------------------------------------------------------------------------
 
 # Sickness, Dying :-)
 # ------------------------------------------------------------------------------
