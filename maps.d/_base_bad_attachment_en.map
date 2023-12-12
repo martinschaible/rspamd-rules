@@ -83,12 +83,12 @@
 # Inquiries, Orders, Quotes, Invoices
 # ------------------------------------------------------------------------------
 # Sample: Inquiry No.230802-02.zip
-/(inquiry|invoice|order|quote).?(no\.)?.{0,20}\.(7z|doc|gz|htm|r11|rar|tgz|xla|xls|zip)/i
+/(enquiry|inquiry|invoice|order|quote).?(no\.)?.{0,20}\.(7z|doc|gz|htm|r11|rar|tgz|xla|xls|zip)/i
 
-/(inquiry|invoice|order|quote).?copy\.(7z|doc|gz|htm|r11|rar|tgz|xla|xls|zip)/i
+/(enquiry|inquiry|invoice|order|quote).?copy\.(7z|doc|gz|htm|r11|rar|tgz|xla|xls|zip)/i
 
 # Sample: order 98987006305#.doc
-/(inquiry|invoice|order|quote).?\d{2,15}.?\.(7z|doc|gz|htm|r11|rar|tgz|xla|xls|zip)/i
+/(enquiry|inquiry|invoice|order|quote).?\d{2,15}.?\.(7z|doc|gz|htm|r11|rar|tgz|xla|xls|zip)/i
 
 /(bulk|purchase).?order.{0,20}\.(7z|doc|gz|htm|r11|rar|tgz|xls|zip)/i
 
