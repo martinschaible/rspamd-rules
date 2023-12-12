@@ -161,3 +161,7 @@
 # Sample: http://053.0xa3.207.0xf2
 /https?:\/\/\d{2,3}\.0x[a-f0-9]{2}\.\d{2,3}\.0x[a-f0-9]{2}/i
 
+# Hidden link
+# ------------------------------------------------------------------------------
+# Sample: <a style="display:none;" href="http://irelatilized.jp.net/4O0c084nml0mp3rr-8trgsi1wqt1qt1mstra600001" >.</a
+/<a style="display:none;".{1,10}href=.?http:\/\//i
