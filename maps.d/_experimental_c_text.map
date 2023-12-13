@@ -7,13 +7,11 @@
 
 # Doesn't fire in the file "_ad_agency_misc.map" (Content -> Oneline)
 # ------------------------------------------------------------------------------
-# Poland
 /telemedia 24 sp\. z o\.o/i
 /pelema.pte.{1,5}ltd/i
 
 # Doesn't fire in the file "_ad_agency_at.map" (Content -> Oneline)
 # ------------------------------------------------------------------------------
-# -> Works here
 /entertainment media gmbh/i
 
 # Doesn't fire in the file "_base_bad_url.map" (URL -> Full)
@@ -76,18 +74,10 @@
 
 # Facebook CDN used for image hosting
 # ------------------------------------------------------------------------------
-# Works here!
 /scontent-.{4,6}\.xx\.fbcdn\.net/i
-
-# URL
-# ------------------------------------------------------------------------------
-# Sample: qsdvqzergvqsdvqezrgiouvqqsdvqzevmsdvqsd/qsdvqsdvqsdvqsdvqsdvrtg.html#sdqsdvdvqsdvqdv.html?
-# Too long
-/\/[a-z]{15,35}\.html/i
 
 # No damn Keto stuff in URL's
 # ------------------------------------------------------------------------------
-# -> Works here
 /https:\/\/[a-z]{0,10}.?keto/i
 
 # Characters
@@ -99,9 +89,8 @@
 # Sample: &#25216;&#26415;&#24320;&#21457;&#21306;&#22320;&#30427;&#21271;&#34903;
 /&#\d{5};&#\d{5};&#\d{5};&#\d{5};&#\d{5};&#\d{5};&#\d{5};&#\d{5};&#\d{5};/i
 
-# Non SSL Link to something mail'ish?
-# ------------------------------------------------------------------------------
-/<a href=3d.?http:\/\/mail\./i
+# Sample: &#x53;&#x61;&#x76;&#x65;&#x20;&#x42;&#x69;&#x67;&#x20;&#x24;&#x24;&#x24
+/&#x[0-9a-z]{2};&#x[0-9a-z]{2};&#x[0-9a-z]{2};&#x[0-9a-z]{2};&#x[0-9a-z]{2};&#x[0-9a-z]{2};&#x[0-9a-z]{2};/i
 
 # Zarenga:
 /#918;&#913;r&#917;&#925;g&#913; &#8722;/i
@@ -111,7 +100,7 @@
 /\.jpg" \/><img height="1" src="http:\/\//i
 /<img height="1" src=.?http:\/\//i
 
-## No SSL and an exotic TLD
+# No SSL and an exotic TLD
 # ------------------------------------------------------------------------------
 /http:\/\/(www\.)?[a-z]{3,20}\.(club|email|services|shop|today|world)/i
 # Subdomain
@@ -176,3 +165,8 @@
 # Sample: <a style="display:none;" href="http://irelatilized.jp.net/4O0c084nml0mp3rr-8trgsi1wqt1qt1mstra600001" >.</a
 /<a style="display:none;".{1,10}href=.?http:\/\//i
 
+# URL
+# ------------------------------------------------------------------------------
+# Sample: qsdvqzergvqsdvqezrgiouvqqsdvqzevmsdvqsd/qsdvqsdvqsdvqsdvqsdvrtg.html#sdqsdvdvqsdvqdv.html?
+# Too long
+/\/[a-z]{15,35}\.html/i

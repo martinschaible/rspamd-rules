@@ -12,7 +12,6 @@
 
 # Doesn't fire in the file "_ad_agency_at.map" (Content -> Oneline)
 # ------------------------------------------------------------------------------
-# Does not work here
 /entertainment media gmbh/i
 
 # Doesn't fire in the file "_base_bad_url.map" (URL -> Full)
@@ -78,7 +77,6 @@
 
 # No damn Keto stuff in URL's
 # ------------------------------------------------------------------------------
-# -> Works here
 /https:\/\/[a-z]{0,10}.?keto/i
 
 # Characters
@@ -114,6 +112,8 @@
 /http:\/\/[a-z0-9-]{3,25}\.[a-z0-9-]{3,25}\.(ru|sa|za)\.com\//i
 /http:\/\/[a-z0-9-]{3,25}\.[a-z0-9-]{3,25}\.co\.(in|uk)\//i
 
+# No SSL
+# ------------------------------------------------------------------------------
 /\/head><body><img src=.?http:\/\//i
 /<a href=3d.?http:\/\/mail\./i
 
@@ -164,3 +164,9 @@
 # ------------------------------------------------------------------------------
 # Sample: <a style="display:none;" href="http://irelatilized.jp.net/4O0c084nml0mp3rr-8trgsi1wqt1qt1mstra600001" >.</a
 /<a style="display:none;".{1,10}href=.?http:\/\//i
+
+# URL
+# ------------------------------------------------------------------------------
+# Sample: qsdvqzergvqsdvqezrgiouvqqsdvqzevmsdvqsd/qsdvqsdvqsdvqsdvqsdvrtg.html#sdqsdvdvqsdvqdv.html?
+# Too long
+/\/[a-z]{15,35}\.html/i

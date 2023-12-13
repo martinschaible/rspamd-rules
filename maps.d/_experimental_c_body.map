@@ -12,7 +12,6 @@
 
 # Doesn't fire in the file "_ad_agency_at.map" (Content -> Oneline)
 # ------------------------------------------------------------------------------
-# Does not work here
 /entertainment media gmbh/i
 
 # Doesn't fire in the file "_base_bad_url.map" (URL -> Full)
@@ -58,7 +57,6 @@
 
 # Others
 # ------------------------------------------------------------------------------
-# Works here!
 /tinyurl\.com(.|\n)*mcusercontent\.com\//i
 
 /<img src=.?https:\/\/[a-z0-9]{5,20}\.cloudfront\.net/i
@@ -103,7 +101,6 @@
 
 # No SSL and an exotic TLD
 # ------------------------------------------------------------------------------
-# -> Works here
 /http:\/\/(www\.)?[a-z]{3,20}\.(club|email|services|shop|today|world)/i
 # Subdomain
 /http:\/\/[a-z0-9-]{3,25}\.[a-z]{3,20}\.(club|email|services|shop|today|world)/i
@@ -166,3 +163,9 @@
 # ------------------------------------------------------------------------------
 # Sample: <a style="display:none;" href="http://irelatilized.jp.net/4O0c084nml0mp3rr-8trgsi1wqt1qt1mstra600001" >.</a
 /<a style="display:none;".{1,10}href=.?http:\/\//i
+
+# URL
+# ------------------------------------------------------------------------------
+# Sample: qsdvqzergvqsdvqezrgiouvqqsdvqzevmsdvqsd/qsdvqsdvqsdvqsdvqsdvrtg.html#sdqsdvdvqsdvqdv.html?
+# Too long
+/\/[a-z]{15,35}\.html/i
