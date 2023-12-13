@@ -37,20 +37,20 @@
 /<a href=(3d)?"https:\/\/t\.co\/[a-z0-9]{5,15}" target=(3d)?"_blank"/i
 /https:\/\/t\.co\/[a-z0-9]{5,15}" target=(3d)?"_blank"><img src=(3d)?"https/i
 
-/https:\/\/t\.co\/.*static\.wixstatic\.com/i
-/https:\/\/t\.co\/.*\.googleusercontent\.com/i
+/https:\/\/t\.co\/(.|\n)*static\.wixstatic\.com/i
+/https:\/\/t\.co\/(.|\n)*\.googleusercontent\.com/i
 
 # Wix.com
 # ------------------------------------------------------------------------------
-/static\.wixstatic\.com.*https:\/\/t\.co\//i
-/static\.wixstatic\.com.*https:\/\/www\.linkedin\.com\//i
+/static\.wixstatic\.com(.|\n)*https:\/\/t\.co\//i
+/static\.wixstatic\.com(.|\n)*https:\/\/www\.linkedin\.com\//i
 
 # Google
 # ------------------------------------------------------------------------------
-/\.googleusercontent\.com.*https:\/\/t\.co\//i
+/\.googleusercontent\.com(.|\n)*https:\/\/t\.co\//i
 
-/firebasestorage\.googleapis\.com.*https:\/\//static\.wixstatic\.com\//i
-/firebasestorage\.googleapis\.com.*\.appspot\.com\//i
+/firebasestorage\.googleapis\.com(.|\n)*https:\/\//static\.wixstatic\.com\//i
+/firebasestorage\.googleapis\.com(.|\n)*\.appspot\.com\//i
 
 /com\.google\.com/i
 
@@ -58,7 +58,7 @@
 
 # Others
 # ------------------------------------------------------------------------------
-/tinyurl\.com.*mcusercontent\.com\//i
+/tinyurl\.com(.|\n)*mcusercontent\.com\//i
 
 /<img src=.?https:\/\/[a-z0-9]{5,20}\.cloudfront\.net/i
 
@@ -70,7 +70,7 @@
 
 # Sendgrid
 # ------------------------------------------------------------------------------
-/sendgrid\.net.*\.s3\.amazonaws\.com/i
+/sendgrid\.net(.|\n)*\.s3\.amazonaws\.com/i
 
 # Facebook CDN used for image hosting
 # ------------------------------------------------------------------------------

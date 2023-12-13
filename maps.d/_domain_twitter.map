@@ -18,5 +18,5 @@
 
 # Combination with other domain
 # ------------------------------------------------------------------------------
-/https:\/\/t\.co\/.*static\.wixstatic\.com/i
-/https:\/\/t\.co\/.*\.googleusercontent\.com/i
+/https:\/\/t\.co\/(.|\n)*static\.wixstatic\.com/i
+/https:\/\/t\.co\/(.|\n)*\.googleusercontent\.com/i

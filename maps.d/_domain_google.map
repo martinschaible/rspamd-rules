@@ -22,7 +22,7 @@
 
 # Combination with other domain
 # ------------------------------------------------------------------------------
-/firebasestorage\.googleapis\.com.*\.appspot\.com\//i
-/firebasestorage\.googleapis\.com.*https:\/\//static\.wixstatic\.com\//i
+/firebasestorage\.googleapis\.com(.|\n)*\.appspot\.com\//i
+/firebasestorage\.googleapis\.com(.|\n)*https:\/\//static\.wixstatic\.com\//i
 
-/\.googleusercontent\.com.*https:\/\/t\.co\//i
+/\.googleusercontent\.com(.|\n)*https:\/\/t\.co\//i
