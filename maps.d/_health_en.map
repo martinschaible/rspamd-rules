@@ -140,7 +140,9 @@
 /this.{1,10}eye.?opening presentation/i
 /this.{1,10}formula was leaked/i
 
-/(see here|this).{1,10}(breakthrough|minute|second).{1,15}(discovery|hack|method|ritual)/i
+/(see here|this).{1,10}(breakthrough|minute|second).{1,15}(discovery|hack|method|ritual|trick)/i
+
+/morning water trick/i
 
 /trick takes less than.{1,10}seconds/i
 /natural.{1,10}vision.{1,10}breakthrough/i
