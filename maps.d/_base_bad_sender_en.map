@@ -21,10 +21,13 @@
 /\[.{5,10}\]/i
 
 # Sample: _Congrats_
-/_\w{5,15}_/i
+/_{5,20}_/i
 
 # Sample: | Netflix Inc. |
-/\|.{1,20}\|/i
+/\|.{5,20}\|/i
+
+# Sample: - Huusk Japan -
+/-.{5,20}-/i
 
 # m e t a m a s k
 /\w \w \w \w \w \w \w/i
@@ -79,8 +82,10 @@
 /financial.?help/i
 /(funding|loan).?(offer|opportunity|service|speialist)/i
 /personal.?loans?/i
-/free.?credit/i
 /rates.?for/i
+
+/credit.?for/i
+/free.?credit/i
 
 # Make Money
 # ------------------------------------------------------------------------------
