@@ -97,14 +97,19 @@
 
 # Finance
 # ------------------------------------------------------------------------------
-/(darlehen|kredit).(anfrage|angebot)/i
+/(darlehen|kredit).{1,10}(anfrage|angebot)/i
+/(darlehen|kredit).{1,10}(ohne|schufa)/i
+
 /(kostenlos|schnell).{1,5}kredit/i
 
+/schufa.?auskunft
 /immobilienpreise/i
 
 # Make Money
 # ------------------------------------------------------------------------------
-/bitcoin.?(bulletin|geld|handel|händler|nachrichten)/i
+/bitcoin.?(bulletin|einblick|geld|handel|händler|nachrichten)/i
+
+/investo(en)?.update/i
 
 /lukrative.gelegenheit/i
 /neue.investitionen/i
