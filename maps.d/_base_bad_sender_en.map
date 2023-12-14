@@ -34,9 +34,13 @@
 
 # People pretending be a philanthropist
 # ------------------------------------------------------------------------------
+/(bill|melinda).?gates/i
+/bill.{5,10}melinda/i
+
 /elon.?musk/i
 /jeff.?bezos/i
 /mackenzie.{1,5}scott/i
+/mark.?zuckerberg/i
 /maria.eli(s|z)abeth.{1,5}schaeffler/i
 /susanne.{1,5}klatten/i
 /warren.{1,5}buffett/i
@@ -108,13 +112,14 @@
 
 # Winning, Lottery
 # ------------------------------------------------------------------------------
-/(australia|usa|uk).?(lotterie|lottery)/i
+/(australia|google|usa|uk).?(lotterie|lottery)/i
 /(euro|mega).?(jackpot|milions)/i
 /navidad.{0,10}loteria/i
 
 /award.?team/i
 
 /(lottery|microsoft).?award/i
+/lottery.?winning/i
 
 # Virus, Malware
 # ------------------------------------------------------------------------------

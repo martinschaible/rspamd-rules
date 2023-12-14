@@ -11,6 +11,8 @@
 # ------------------------------------------------------------------------------
 /(asian|continental).{1,10}lottery.{1,10}commission/i
 
+/google.{1,10}lottery/i
+
 /central.loteria.nacional/i
 
 /euro.millions.{1,10}(google|lottery).promo/i
@@ -20,6 +22,7 @@
 
 /lotter(ie|y).{1,10}commission.{1,10}award/i
 /lotter(ie|y).{1,10}award.{1,10}promotion/i
+/lotter(ie|y).{1,10}international.{1,10}promotions/i
 
 /lotto.?lottery.?inc/i
 /lotterie de navidad/i
@@ -56,6 +59,7 @@
 
 /your.{1,10}e?.?mail.?(address|id)?.{1,10}(appeared|selected).{1,10}(among|as one of) the.{1,10}winners/i
 /your.{1,10}e?.?mail.?(address|id)?.{1,10}has won/i
+/your.{1,10}e?.?mail.?(address|id)?.{1,10}is the lucky winner/i
 
 /batch.?number.{1,20}official winning/i
 
