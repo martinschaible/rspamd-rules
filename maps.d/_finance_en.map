@@ -64,7 +64,7 @@
 /investment company offering.{1,20}(corporate|personal|unsecured).{1,10}loans?/i
 /leading.{1,10}institution.{1,10}(corporate|personal|unsecured).{1,10}loans/i
 
-# Financing
+# Financing, Investing
 # ------------------------------------------------------------------------------
 /we (are offering|give|issuing|offer|offering|provide).{1,10}personal.{1,10}business.{1,10}financial/i
 /we (are offering|give|issuing|offer|offering|provide).{1,10}independent.{1,10}financial/i
@@ -72,6 +72,7 @@
 /we (are offering|give|issuing|offer|offering|provide).{1,10}independent.{1,10}funding/i
 
 /we are.{1,10}seeking to finance/i
+/We are.{1,10}high profile investors/i
 
 /we specialise in investments/i
 
