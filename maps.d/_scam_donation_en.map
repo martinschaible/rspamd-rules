@@ -31,10 +31,13 @@
 
 /(donation|grant).{1,10}has been made to you/i
 
-/donation.{1,15}for you.{1,10}contact me/i
+/donation.{1,15}(for|to) you.{1,10}contact me/i
+/donation.{1,15}(for|to) you.{1,10}the sum of/i
+
 /donation.{1,15}contact.{1,10}to claim/i
 /donation.{1,15}for more details e?.?mail/i
 /donation.{1,15}\d{3}.{0,5}\d{3}.{1,15}contact us.{1,10}e?.?mail/i
+/donation.{1,10}to help you empower/i
 
 /donated?.{1,20}(dollar|euro?|gbp|usd).{1,10}(for|to) you/i
 /donated?.{1,10}some amount to you/i

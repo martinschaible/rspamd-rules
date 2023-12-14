@@ -76,6 +76,8 @@
 /we are.{1,25}(professional|tooling).{1,15}manufacturer?.{1,10}(china|dongguan|guangzhou|shenzhen|zhejiang)/i
 /we are.{1,25}manufacturer.{1,10}(directly|from|in).{1,10}(china|dongguan|guangzhou|shenzhen|zhejiang)/i
 
+/professional.{1,25}fabrication.{1,10}factory in.{1,10}(china|dongguan|guangzhou|shenzhen|zhejiang)/i
+
 /with.{1,10}years experience.{1,10}(china|dongguan|guangzhou|shenzhen|zhejiang)/i
 
 /which is.{1,10}professional.{1,15}manufacture.{1,10}(china|dongguan|guangzhou|shenzhen|zhejiang)/i
@@ -178,16 +180,26 @@
 
 /you need.{1,10}precision.{1,10}cnc/i
 
-# Products - Cases
+# Products, specific China
+# ------------------------------------------------------------------------------
+/china.{1,10}specialized in mold/i
+
+/leading shipping agent.{1,10}china/i
+
+#
+#
+#
+
+# Cases
 # ------------------------------------------------------------------------------
 /we are.{1,15}case.{1,10}manufacturer/i
 /we offer.{1,10}aluminum.{1,10}case/i
 
-# Products - CNS
+# CNC
 # ------------------------------------------------------------------------------
 /we are.{1,10}cnc precision machined/i
 
-# Products - Electronics
+# Electronics
 # ------------------------------------------------------------------------------
 /(components|electronics?).{1,10}worked in the area more than.{1,10}years/i
 
@@ -213,11 +225,15 @@
 /you looking for.{1,10}capacitors/i
 /you also need any.{1,10}capacitors/i
 
-# Products - Metal
+# Glass
+# ------------------------------------------------------------------------------
+/we do mainly.{1,10}glassware/i
+
+# Metal
 # ------------------------------------------------------------------------------
 /we are professional.{1,10} metal parts/i
 
-# Products - Molding
+# Molding
 # ------------------------------------------------------------------------------
 /our.{1,15}factory provides.{1,10}customized plastic/i
 
@@ -229,11 +245,7 @@
 /we.?a?re.{1,10}injection.{1,10}mould fabricator/i
 /we can handle.{1,10}injection.{1,10}molding/i
 
-# Products - Glass
-# ------------------------------------------------------------------------------
-/we do mainly.{1,10}glassware/i
-
-# Products - PCB
+# PCB
 # ------------------------------------------------------------------------------
 /pcba?.{1,10}factory.{1,10}focus on/i
 /pcba?.{1,10}manufacturer with good quality/i
@@ -257,6 +269,8 @@
 
 /we.?a?re.{1,10}(pcba?|printed.circuit.board).{1,10}manufacturer/i
 
+/years professional.{1,10}electronics.{1,10}(pcba?|printed.circuit.board)/i
+
 /you.{1,10}(looking for|may need).{1,10}(pcba?|printed.circuit.board)/i
 /you.{1,10}need.{1,10}(pcba?|printed.circuit.board).{1,10}supplier/i
 /you.{1,10}need to purchase.{1,10}(pcba?|printed circuit board)/i
@@ -271,12 +285,6 @@
 
 #
 /our main products are multilayer/i
-
-# Products, specific China
-# ------------------------------------------------------------------------------
-/china.{1,10}specialized in mold/i
-
-/leading shipping agent.{1,10}china/i
 
 # Logistics
 # ------------------------------------------------------------------------------
