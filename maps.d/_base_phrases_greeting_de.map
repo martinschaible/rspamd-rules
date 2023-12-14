@@ -70,6 +70,8 @@
 /mein name ist.barr(\.|ister)/i
 /mein name ist.(frau|herr|mrs?|leutnant)/i
 
+/mein name ist.{5,25}aus indien/i
+
 /mein name ist.{5,25}ich arbeite für/i
 /mein name ist.{5,25}ich schreibe ihnen/i
 /mein name ist.{5,25}ich suche jemanden/i

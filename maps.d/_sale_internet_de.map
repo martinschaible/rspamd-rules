@@ -45,21 +45,24 @@
 /aktualisierung ihrer web.?site/i
 /gestaltung einer neuen web.?site/i
 
-/wir sind ein.{1,10}web.?site.?entwicklung/i
-/wir sind ein in (china|indien).{1,15}(unternehmen|web.?site)/i
-
 /web.?site.?design.{1,10}entwicklungs.?dienste/i
 
 /ihre aktuelle.{1,10}web.?site aktualisieren/i
 
 /sie eine neue.{1,15}web.?site erstellen/i
+/sie nach einem.{1,10}web.?site.?design/i
+
 /sie ihre.{1,10}web.?site mit einem neuen/i
 
 /suche nach einem.{1,10}web.?design/i
 
-# Web-Design/Development, India
+/wir haben ein professionelles team.{1,10}web.?site.{1,20}(designer|entwickler)/i
+/wir sind ein.{1,10}web.?site.?entwicklung/i
+
+# Web-Design/Development, China, India
 # ------------------------------------------------------------------------------
-/wir sind ein in indien ansässiges/i
+/wir sind ein in (china|indien) ansässiges/i
+/wir sind ein in (china|indien).{1,15}(unternehmen|web.?site)/i
 
 # WordPress
 # ------------------------------------------------------------------------------

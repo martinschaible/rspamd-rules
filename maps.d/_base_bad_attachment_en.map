@@ -54,6 +54,9 @@
 
 /__pdf\.(7z|doc|gz|htm|r11|rar|tgz|xls|zip)/i
 
+# Sample: 1000733.PDF.gz
+/\d{2,15}\.pdf\.gz/i
+
 # Triple Extension
 # ------------------------------------------------------------------------------
 /xls\.tar\.gz/i

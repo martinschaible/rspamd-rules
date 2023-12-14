@@ -131,7 +131,8 @@
 
 /gift.?card.{1,10}opportunity/i
 
-/costco.{1,10}has.{1,10}surprise for you/i
+/(ace hardware|costco).{1,10}has.{1,10}surprise for you/i
+/(ace hardware|costco).{1,10}reward has arrived/i
 
 # Winning, Products
 # ------------------------------------------------------------------------------

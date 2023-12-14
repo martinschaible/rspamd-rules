@@ -36,6 +36,19 @@
 /receive your.{1,15}funds/i
 /investment funds/i
 
+# Inheritance
+# ------------------------------------------------------------------------------
+/inheritance for you/i
+
+# Investment
+# ------------------------------------------------------------------------------
+/investment.{1,10}(inquiry|proposal|proposition)/i
+/investment.{1,10}partnership.{1,10}offer/i
+
+/confidential.{1,10}investment.{1,10}partnership/i
+
+/inquiry.{1,10}investment/i
+
 # Partnership, Business
 # ------------------------------------------------------------------------------
 /(business|partnership).{1,10}(offer|proposal|proposition)/i
@@ -48,15 +61,6 @@
 # Transaction
 # ------------------------------------------------------------------------------
 /urgent.{1,20}transaction/i
-
-# Investment
-# ------------------------------------------------------------------------------
-/investment.{1,10}(inquiry|proposal|proposition)/i
-/investment.{1,10}partnership.{1,10}offer/i
-
-/confidential.{1,10}investment.{1,10}partnership/i
-
-/inquiry.{1,10}investment/i
 
 #
 #

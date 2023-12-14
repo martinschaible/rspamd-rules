@@ -109,6 +109,7 @@
 
 /seite ist.{1,10}kostenlos/i
 
+/name auf der website ist/i
 /kostenlos auf unserer seite/i
 
 /web.?sites?.{1,10}zum treffen mit/i
@@ -140,6 +141,8 @@
 /versauten?.{1,10}(bilder|fotos)/i
 
 /(ladies|mädchen|frauen).{1,10}mit.{1,10}(bilder|fotos)/i
+
+/mehr fotos und kontakt/i
 
 # Girls, Women
 # ------------------------------------------------------------------------------
@@ -246,6 +249,10 @@
 #
 #
 #
+
+# BDSM
+# ------------------------------------------------------------------------------
+/bdsm.{1,10}eintauchen/i
 
 # Blowjob, handjob
 # ------------------------------------------------------------------------------

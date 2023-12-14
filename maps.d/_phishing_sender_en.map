@@ -78,7 +78,6 @@
 /gift.?(card.?)?opportunity/i
 
 /binance.?rewards/i
-/netflix.?(loyalty|membership)/i
 
 /shopper.?gift/i
 /voucher/i
@@ -91,6 +90,9 @@
 /(ace.?hardware|autozone|costco|cvs|delta|dewaltepson|harbor.?freight|home.?depot).{0,25}(confirmation|delivery|department|feedback|gift.?card|giveaways?|opinion|rewards?|shipping|shipment|shopper|surprise|unlocked|winner)/i
 # K to Z
 /(kobalt|kohls|lowes|milwaukee|netflix|phone|stanley|staples|ups|verizon|walmart).{0,15}(confirmation|department|delivery|feedback|gift.?card|giveaways?|opinion|rewards?|shipping|shipment|shopper|surprise|unlocked|winner)/i
+
+/netflix.?(loyalty|membership)/i
+/pittsburgh.?tool.?set/i
 
 # Brands, Products
 # ------------------------------------------------------------------------------
