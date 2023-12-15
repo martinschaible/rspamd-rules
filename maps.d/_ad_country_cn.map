@@ -66,7 +66,9 @@
 /co.{1,5}ltd.{1,10}(china|dongguan|guangzhou|shenzhen|zhejiang)/i
 
 /this is.{5,25}from.{1,10}(china|dongguan|guangzhou|shenzhen|zhejiang)/i
- 
+
+/our factory in.{1,10}(china|dongguan|guangzhou|shenzhen|zhejiang).{1,10}is staffed/i
+
 /we are.{1,25}chinese.{1,10}leading/i
 /we are.{1,25}chinese.{1,15}(leading|manufacturer|supplier)/i
 
@@ -237,8 +239,9 @@
 
 # Molding
 # ------------------------------------------------------------------------------
-/our.{1,15}factory provides.{1,10}customized plastic/i
+/our.{1,15}(company|factory) provides.{1,10}customized plastic/i
 
+/handle injection molding projects/i
 /plastic injection molding manufacturer/i
 
 /you (interested|need).{1,10}injection.{1,10}molding/i
