@@ -178,9 +178,12 @@
 
 # Bad German
 # ------------------------------------------------------------------------------
+/ihre sendung sich nähert/iu
+/ihre sendung naht/i
+
 /paket zu wiederherstellen/i
 /bestatigen sie die zahlung/i
-/lieferung des ausgesetzten pakets/i
+/lieferung.{1,10}(einsehen|des ausgesetzten pakets)/i
 /liefern mein paket/i
 /zahlung der hauslieferungskosten/i
 

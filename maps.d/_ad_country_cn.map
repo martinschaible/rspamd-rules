@@ -150,18 +150,19 @@
 /any rfq take a chance/i
 
 # Co / LTD
-/(co|ltd).{1,15}an iso.{1,20}certified/i
-/(co|ltd).{1,15}company was established/i
-/(co|ltd).{1,15}is a high.?tech enterprise/
-/(co|ltd).{1,15}is a factory specialized in/i
-/(co|ltd).{1,15}professional.{1,15}manufacturer/i
-/(co|ltd).{1,15}specializes in.{1,10}import/i
-/(co|ltd).{1,15}we are leading.{1,15}professional/i
-/(co|ltd).{1,15}we.{1,10}supplying/i
-/(co|ltd).{1,10}with over{1,10}years/i
+/(co|limited|ltd).{1,15}an iso.{1,20}certified/i
+/(co|limited|ltd).{1,15}company.{1,10}was established/i
+/(co|limited|ltd).{1,10}factory.{1,10}our.{1,10}products/i
+/(co|limited|ltd).{1,15}is a high.?tech enterprise/
+/(co|limited|ltd).{1,15}is a factory specialized in/i
+/(co|limited|ltd).{1,15}professional.{1,15}manufacturer/i
+/(co|limited|ltd).{1,15}specializes in.{1,10}import/i
+/(co|limited|ltd).{1,15}we are leading.{1,15}professional/i
+/(co|limited|ltd).{1,15}we.{1,10}supplying/i
+/(co|limited|ltd).{1,10}with over.{1,10}years/i
 
-/co.{1,5}ltd.{1,10}trading company/i
-/machinery.{1,10}(co|ltd)/i
+/co.{1,5}(limited|ltd).{1,10}trading company/i
+/machinery.{1,10}(co|limited|ltd)/i
 
 # Experience
 # ------------------------------------------------------------------------------
