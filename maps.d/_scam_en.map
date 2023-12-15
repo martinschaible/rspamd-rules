@@ -233,7 +233,8 @@
 
 /\d{3}.{0,5}\d{3}.{1,10}awaiting.{1,10}transferred.{1,10}your.{1,10}account/i
 
-/you have been compensated.{1,10}contact/i
+/you have been.{1,10}compensated.{1,10}contact/i
+/you have just received.{1,10}payment of/i
 
 # Share the same name
 # ------------------------------------------------------------------------------

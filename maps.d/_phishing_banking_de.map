@@ -57,8 +57,11 @@
 /sicherheitsverfahren.{1,10}registrieren sie sich/i
 
 /jetzt umstellung starten/i
+/jetzt sicherheitscheck starten/i
 
 /link.{1,10}für ihr service.?update/iu
+
+/verbesserungen an ihrem.{1,10}online.?banking/i
 
 # Phone
 /konto angemeldet.{1,20}aktivieren sie ihre telefonnummer/i
@@ -67,7 +70,7 @@
 /telefonnummer.{1,10}nicht mit ihrem.{1,10}online.?banking/i
 
 # Photo TAN
-/photo.?tan.?aktivierungsbrief/i
+/photo.?tan.{1,10}aktivierungsbrief/i
 /photo.?tan.{1,10}gesperrt wurde/i
 
 /aktivieren sie.{1,10}photo.?tan/i
@@ -77,6 +80,8 @@
 /ihre? photo.?tan.?app zu aktualisieren/i
 
 /vorzustellen.{1,10}das neue s.?push.?tan/i
+
+/neue s.?pushtan.{1,10}authentifizierung.{1,10}aktivieren/i
 
 # Online Banking
 # ------------------------------------------------------------------------------
