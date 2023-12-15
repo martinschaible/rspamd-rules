@@ -19,15 +19,12 @@
 
 # Sample: [iPad Pro]
 /\[.{5,10}\]/i
-
-# Sample: _Congrats_
-/_{5,20}_/i
-
 # Sample: | Netflix Inc. |
 /\|.{5,20}\|/i
 
-# Sample: - Huusk Japan -
-/-.{5,20}-/i
+# Sample: _Congrats_
+#         - Huusk Japan -
+/(_|-).{5,20}(_|-)/i
 
 # m e t a m a s k
 /\w \w \w \w \w \w \w/i
