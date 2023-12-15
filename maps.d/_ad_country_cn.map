@@ -131,15 +131,16 @@
 /this is.{5,25}from.{5,35}is there any opportunity/i
 /to whom it may concern.{1,10}our company/i
 
-/our company.{1,10}a top.?notch/i
-/our company.{1,10}as.{1,10}leading.{1,15}(supplier|trader)/i
-/our company.{1,10}manufacturer.{1,10}following/i
-/our company.{1,10}specializes.{1,10}manufacturing/i
-/our company.{1,10}has.{1,20}production.{1,10}equipment/i
+/our (company|factory).{1,10}a top.?notch/i
+/our (company|factory).{1,10}as.{1,10}leading.{1,15}(supplier|trader)/i
+/our (company|factory).{1,10}manufacturer.{1,10}following/i
+/our (company|factory).{1,10}(specializes|specializing).{1,15}(manufacturing|production)/i
+/our (company|factory).{1,10}has.{1,20}production.{1,10}equipment/i
 
 /our customers.{1,10}are mainly from/i
-/our factory.{1,10}mainly focus on/i
-/our factory is.{1,10}professional/i
+
+/our (company|factory).{1,10}mainly focus on/i
+/our (company|factory).{1,10}is.{1,10}professional/i
 
 /you looking for.{1,10}factory who can/i
 
@@ -151,8 +152,8 @@
 
 # Co / LTD
 /(co|limited|ltd).{1,15}an iso.{1,20}certified/i
-/(co|limited|ltd).{1,15}company.{1,10}was established/i
-/(co|limited|ltd).{1,10}factory.{1,10}our.{1,10}products/i
+/(co|limited|ltd).{1,15}(company|factory).{1,10}was established/i
+/(co|limited|ltd).{1,10}(company|factory).{1,10}our.{1,10}products/i
 /(co|limited|ltd).{1,15}is a high.?tech enterprise/
 /(co|limited|ltd).{1,15}is a factory specialized in/i
 /(co|limited|ltd).{1,15}professional.{1,15}manufacturer/i

@@ -12,6 +12,8 @@
 # ------------------------------------------------------------------------------
 /bank.?(account|check|support)/i
 
+/credit.?card.?app/i
+
 # Sample: #ТaгgоBank
 /#.{0,10}bank/i
 
