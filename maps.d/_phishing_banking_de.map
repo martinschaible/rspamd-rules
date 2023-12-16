@@ -35,13 +35,6 @@
 
 /credit.?card für sie weiterentwickelt/i
 
-# Silly lies
-# ------------------------------------------------------------------------------
-/zahlungs.?richtlinie sind wir dazu verpflichtet/i
-/wir ihre daten in unserem system.{1,15}den neuen regeln/i
-
-/aufgrund der.{1,10}richtlinie.{1,10}müssen sie/iu
-
 # Data no more valid
 # ------------------------------------------------------------------------------
 /ihre hinterlegten daten nicht mehr aktuell sind/i
@@ -92,9 +85,33 @@
 
 /bitten wir sie.{1,10}das.{1,10}sicherheits.?update/i
 
+# Wallet
+# ------------------------------------------------------------------------------
+/you.{1,10}wallet has not yet been verified/i
+
 # Message
 # ------------------------------------------------------------------------------
 /dringende nachricht in ihrem sicheren postfach/i
+
+# Failed Payments
+# ------------------------------------------------------------------------------
+
+# Update Payment options
+# ------------------------------------------------------------------------------
+/sehr geehrter kunde.{1,10}aktualisieren sie ihre zahlungs.?informationen/i
+
+/zahlungs.?informationen nicht aktualisiert wurden/i
+
+#
+#
+#
+
+# Silly lies
+# ------------------------------------------------------------------------------
+/zahlungs.?richtlinie sind wir dazu verpflichtet/i
+/wir ihre daten in unserem system.{1,15}den neuen regeln/i
+
+/aufgrund der.{1,10}richtlinie.{1,10}müssen sie/iu
 
 #
 #

@@ -12,7 +12,7 @@
 /ihr konto.{1,15}in einem sicheren zustand zu versetzen/i
 /wir schließen alle alten versionen/i
 
-# Locking Account
+# Account - Locking
 # ------------------------------------------------------------------------------
 /konto.{1,10}eine sperrung ihres kontos zu vermeiden/i
 /konto.{1,10}einige fehlende informationen/i
@@ -51,7 +51,7 @@
 /lieber kunde.{1,10}ihr konto/i
 /lieber kunde.{1,10}wir haben ihr konto/i
 
-# Confirm or reconfirm Account/Identity
+# Account - Confirm or reconfirm identity
 # ------------------------------------------------------------------------------
 /bestätigen sie.{1,10}ihre telefon.?nummer/iu
 /bestätigen sie.{1,10}ihre konto.?daten/iu
@@ -78,6 +78,8 @@
 
 /überprüfen.{1,10}ändern sie ihre informationen/iu
 
+/meine authentifizierung reaktivieren/i
+
 /verpflichtet ihre daten zu bestätigen/iu
 
 /sie den bestätigungs.?prozess.{1,10}nicht durchlaufen haben/iu
@@ -95,22 +97,16 @@
 /abgleich.{1,10}mobilfunknummer.{1,10}zwingend notwendig/i
 /abgleich.{1,10}garantiert ihnen als kunde/i
 
-# Activation
+# Account - Activation
 # ------------------------------------------------------------------------------
 /telefonnummer.{1,10}nicht aktiviert haben.{1,10}damit sie ihr.{1,25}konto/i
 /telefonnummer.{1,10}innerhalb von.{1,10}stunden zu bestätigen/iu
 
-# Authentification
+# Account - Authentification
 # ------------------------------------------------------------------------------
 /ihr authentifizierungsdienst/i
 
-# Failed Payments
-# ------------------------------------------------------------------------------
-
-# Password
-# ------------------------------------------------------------------------------
-
-# Registration
+# Account - Registration
 # ------------------------------------------------------------------------------
 /konto zuzugreifen.{1,10}die registrierung durchzuführen/iu
 
@@ -120,13 +116,11 @@
 
 /lieber kunde.{1,10}unser system hat festgestellt/i
 
-# Update Payment options
+# Account - Verification
 # ------------------------------------------------------------------------------
-/sehr geehrter kunde.{1,10}aktualisieren sie ihre zahlungs.?informationen/i
+/ihre verifizierung innerhalb von 24 stunden ab/i
 
-/zahlungs.?informationen nicht aktualisiert wurden/i
-
-# Update Account & User options
+# Account - Update Account & User options
 # ------------------------------------------------------------------------------
 /daten aktualisieren.{1,10}um unsere dienste weiterhin nutzen/i
 /daten unserer kunden zu überprüfen.{1,15}ein konto.{1,15}besitzen/iu
@@ -146,6 +140,20 @@
 
 /zustimmen.{1,10}informiert bleiben/i
 
+#
+#
+#
+
+# Password
+# ------------------------------------------------------------------------------
+
+# Password - Keep the same
+# ------------------------------------------------------------------------------
+
+#
+#
+#
+
 # Silly Lies
 # ------------------------------------------------------------------------------
 /wir unsere sicherheitsrichtlinien verbessert/i
@@ -155,6 +163,7 @@
 /wir ein spezielles programm eingerichtet.{1,10}sicherzustellen/i
 
 /unser sicherheitssystem hat verdächtige aktivitäten/iu
+/unsere server.{1,15}den neuen vorschriften/i
 
 #
 #

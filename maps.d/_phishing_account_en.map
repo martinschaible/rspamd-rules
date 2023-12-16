@@ -12,32 +12,41 @@
 /fix errors or your.{1,15}account will be/i
 /temporary suspension.{1,10}due to.{1,10}unresolved issue/i
 
-# Locking Account
+# Account - Locking
 # ------------------------------------------------------------------------------
 /your.{1,15}account.{1,15}has been temporarily (restricted|suspended)/i
 /your.{1,15}account.{1,15}below to avoid.{1,10}permanent account/i
 
-# Confirm or reconfirm Account/Identity
+# Account - Confirm or reconfirm identity
 # ------------------------------------------------------------------------------
 /users must re.?confirm their.{1,15}accounts/i
 
 /confirm your.{1,15}account ownership to.{1,15}password/i
 
-# Activation
+# Account - Activation
 # ------------------------------------------------------------------------------
 
-# Authentification
+# Account - Authentification
 # ------------------------------------------------------------------------------
 
-# Failed Payments
+# Account - Registration
 # ------------------------------------------------------------------------------
-/payment for.{1,15}due to security reasons/i
+
+# Account - Verification
+# ------------------------------------------------------------------------------
+
+# Account - Update Account & User options
+# ------------------------------------------------------------------------------
+
+#
+#
+#
 
 # Password
 # ------------------------------------------------------------------------------
 /dear (madam|sir).{1,10}your system password/i
 
-# Password, keep the same
+# Password - Keep the same
 # ------------------------------------------------------------------------------
 /(continue|keep).{1,10}(using|with).{1,10}(current|old|same).{1,10}password/i
 
@@ -48,16 +57,6 @@
 
 /here to keep same password/i
 /want to keep the password for/i
-
-# Registration
-# ------------------------------------------------------------------------------
-
-# Update Payment options
-# ------------------------------------------------------------------------------
-
-# Update Account & User options
-# ------------------------------------------------------------------------------
-/you.{1,10}wallet has not yet been verified/i
 
 # Silly Lies
 # ------------------------------------------------------------------------------
