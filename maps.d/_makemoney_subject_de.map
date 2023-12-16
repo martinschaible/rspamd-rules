@@ -7,20 +7,19 @@
 
 # Bitcoin
 # ------------------------------------------------------------------------------
-/bitcoin.{1,10}(methode|rally|rush)/i
-/bitcoin.{1,10}reich werden/i
+/(bitcoin|crypto|krypto).{1,15}(methode|rally|rush)/i
+/(bitcoin|crypto|krypto).{1,15}reich werden/i
+/(bitcoin|crypto|krypto).{1,15}handel wie profis/i
+/(bitcoin|crypto|krypto).{1,15}trader/i
 
 /(rally|rush) hat begonnen/i
 
-/(crypto|krypto).?handel wie profis/i
-/(crypto|krypto).?trader/i
+/(geld|reich).{1,10}mit.{1,10}(bitcoin|crypto|krypto)/i
 
-/(geld|reich).{1,10}mit.{1,10}(bitcoin|kryptowährung)/i
+/wie.{1,10}(bitcoin|crypto|krypto).{1,15}handeln/i
 
-/wie.{1,10}(bitcoin|kryptowährung).{1,10}handeln/i
-
-/jetzt in.{1,10}(bitcoin|kryptowährung)/i
-/werden sie.{1,10}crypto/i
+/jetzt in.{1,10}(bitcoin|crypto|krypto)/i
+/werden sie.{1,10}(bitcoin|crypto|krypto)/i
 
 # Make Money
 # ------------------------------------------------------------------------------
