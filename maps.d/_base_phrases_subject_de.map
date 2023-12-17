@@ -13,6 +13,8 @@
 /dringende.{1,10}wichtige.{1,15}(angelegenheit|benachrichtigung)/i
 /dringend.{1,10}dringend/i
 
+/dies ist sehr wichtig/i
+
 /\[wichtig\]/i
 /\[.{1,15}\].{1,10}neue Nachricht/i
 /\[-.{1,15}-\]/i

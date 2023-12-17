@@ -80,6 +80,7 @@
 
 /ich habe eine.{1,15}spende für sie/iu
 
+/ihnen.{1,10}\d{3}.{0,5}\d{3}.{1,10}zu spenden/i
 /ihnen eine spende in höhe von.{1,20}(dollar|euro?|gbp|usd).{1,10}gemacht/iu
 /ihnen einen finanziellen zuschuss in höhe von/iu
 /ihnen wurde.{1,20}(dollar|euro?|gbp|usd).{1,10}gespendet/i
