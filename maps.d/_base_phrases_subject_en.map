@@ -17,6 +17,8 @@
 /message for you.{1,10}important/i
 /urgent message for you.{1,10}please read/i
 
+/this is urgent.{1,10}(please|pls) reply/i
+
 # E-Mail
 # ------------------------------------------------------------------------------
 /confirm if your.{1,10}e?.?mail is valid/i
@@ -74,3 +76,4 @@
 /!!!/i
 
 /get back to me/i
+/my subject/i

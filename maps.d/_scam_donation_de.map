@@ -27,6 +27,8 @@
 # ------------------------------------------------------------------------------
 /sie ausgewählt wurden.{1,10}\d{3}.{0,5}\d{3}/iu
 
+/ausgewählt.{1,10}um eine.{1,10}spende von/i
+
 /ihre.{1,10}e?.?mail.{1,15}wurde zufällig aus der/iu
 /ihre.{1,10}e?.?mail.{1,15}wurde zufällig von einem/iu
 /ihre.{1,10}e?.?mail.{1,15}wurde online zufällig ausgewählt/iu
@@ -96,6 +98,7 @@
 /ihre? e?.?mail.?(adresse|konto)?.{0,10}wurde.{1,15}unter den begünstigten/iu
 /ihre? e?.?mail.?(adresse|konto)?.{1,10}wurde.{1,10}per online/i
 
+/ihre e?.?mail wurde.{1,15}ausgewählt.{1,10}um eine.{1,10}spende/iu
 /ihrer e?.?mail haben sie eine spende/i
 
 /ihre.{1,10}spende jetzt erhalten können/iu
