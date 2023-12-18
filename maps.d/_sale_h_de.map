@@ -89,6 +89,11 @@
 # ------------------------------------------------------------------------------
 /(diesem|wir den).{1,10}schneeschieber/i
 
+# Software (illegal)
+# ------------------------------------------------------------------------------
+/ihnen die aktuelle version.{1,10}microsoft office/i
+/alle programme auf dem neusten stand/i
+
 # Surveillence Camera
 # ------------------------------------------------------------------------------
 /glühbirnen.{1,10}(Ü|ü)berwachungs.?kamera/iu
