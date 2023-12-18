@@ -22,6 +22,7 @@
 /(burn|melt)s?.{1,10}off (belly|body).?fat/i
 /(burn|melt)s?.{1,10}unwanted.{1,10}(belly|body).?fat/i
 
+/ingredient dissolves.{1,10}(lbs|pounds) of.{1,10}fat/i
 /losing.{1,10}average of.{1,10}(lbs|pounds)/i
 /secret.{1,10}burning.{1,10}fat/i
 
@@ -88,7 +89,7 @@
 # ------------------------------------------------------------------------------
 /crazy over this.{1,10}(fat|weight).?loss/i
 
-/she (eliminated|lost).{1,10}(lbs|pounds)/i
+/(he|she) (burned off|eliminated|meldted|lost).{1,10}(lbs|pounds)/i
 
 /melted off.{1,10}every unwanted.{1,10}(lbs|pounds)/i
 
