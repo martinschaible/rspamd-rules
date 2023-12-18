@@ -1,0 +1,35 @@
+# ==============================================================================
+# Phishing: Related to Hosting and EMail
+#
+# -> Add bad senders here: "_phishing_sender_de.map"
+#
+# ----|----------------|
+#  10 | German         |
+# ==============================================================================
+
+# Domains
+# ------------------------------------------------------------------------------
+/domain.{5,30}ihrer firma.{1,10}mit der dieses e?.?mail.?konto/i
+/domain\*_.{5,30}_\*/i
+
+/ihre domain aufgrund eines zahlungsproblems zu verlängern/iu
+/informiert.{1,10}dass ihr domainname/i
+
+# Mail, WebMail
+# ------------------------------------------------------------------------------
+/sie haben.{1,10}nicht zugestellte wichtige.{1,10}nachrichten/i
+
+/nachrichten.{1,10}aufgrund eines speicherfehlers/i
+
+# Storage
+# ------------------------------------------------------------------------------
+/deine dokumente.{1,10}bilder sind gefährdet/iu
+
+/kostenlos erhalten.{1,10}bevor die dateien auf deinem/i
+
+#
+#
+#
+
+# Bad german
+# ------------------------------------------------------------------------------
