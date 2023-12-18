@@ -27,6 +27,7 @@
 /your company.{1,10}product.{1,10}(brochure|catalog).{1,10}prices?/i
 
 /your catalogue.{1,10}quotation/i
+/your brochure.{1,10}product catalog/i
 
 /attached rfq inquiry.{1,10}send us your pricing/i
 /catalog price list.{1,10}payment method/i
@@ -100,7 +101,8 @@
 /you have.{1,15}pending.{1,10}messages?.{1,10}due.{1,15}error/i
 /you have.{1,15}pending.{1,10}messages?.{1,10}that could not be sent/i
 /you have.{1,15}suspended.{1,10}incoming.{1,10}message/i
-/You have.{1,10}important.{1,10}incoming.{1,10}message?.{1,10}waiting/i
+/you have.{1,10}important.{1,10}incoming.{1,10}message?.{1,10}waiting/i
+/you have.{1,10}incoming.{1,10}pending.{1,10}(e?.?mails|messages)/i
 
 /you have.{1,10}undelivered e?.?mail.{1,10}your inbox/i
 /you have.{1,10}undelivered messages for/i

@@ -47,12 +47,14 @@
 
 # EMail and Hosting
 # ------------------------------------------------------------------------------
-/webmail notification/i
-/incoming messages has been stopped/i
+/incoming.{1,10}(e?.?mail|messages) has been stopped/i
+/incoming.{1,10}pending.{1,10}(e?.?mail|messages) for/i
 
 /have.{1,10}undelivered e?.?mail.{1,10}your inbox/i
 
 /server.{1,20}\.(ch|com|de|org).{1,10}expired/i
+
+/webmail notification/i
 
 # Surveys
 # ------------------------------------------------------------------------------

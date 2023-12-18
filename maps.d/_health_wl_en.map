@@ -14,7 +14,7 @@
 
 /try this.{1,15}fat.?burning/i
 
-/(burn|melt)s?.{1,10}(belly|body).?fat.{1,15}(crazy|faster|overnight)/i
+/(burn|melt)s?.{1,10}(belly|body).?fat.{1,15}(crazy|fast|overnight)/i
 /(burn|melt)s?.{1,10}(lbs|pounds).{1,10}fat (a|per) week/i
 /(burn|melt)s?.{1,10}(lbs|pounds).{1,10}in just days/i
 /(burn|melt)s?.{1,10}(lbs|pounds) of.{1,10}fat/i
@@ -34,8 +34,12 @@
 /melt away.{1,10}(lbs|pounds).{1,15}(belly|body).?fat/i
 /melt over.{1,10}(lbs|pounds).{1,10}(a|per) week/i
 
+/method.{1,10}(burn|melt).{1,10}belly.?fat/i
+
 /this.{1,10}(fat|weight).?loss.{1,10}product/i
 /imagine losing.{1,10}(lbs|pounds)/i
+
+/stubborn belly.?fat/i
 
 /(fat|weight).?loss.{1,10}method is shocking/i
 /(fat|weight).?loss.{1,10}in just.{1,10}weeks/i
