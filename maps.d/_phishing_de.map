@@ -18,31 +18,6 @@
 # ------------------------------------------------------------------------------
 /anhang zur kenntnis.{1,10}antworten sie uns so schnell/i
 
-# Cloud storage
-# ------------------------------------------------------------------------------
-/deine dokumente.{1,10}bilder sind gefährdet/iu
-
-/kostenlos erhalten.{1,10}bevor die dateien auf deinem/i
-
-# Mail, WebMail
-# ------------------------------------------------------------------------------
-/sie haben.{1,10}nicht zugestellte wichtige.{1,10}nachrichten/i
-
-/nachrichten.{1,10}aufgrund eines speicherfehlers/i
-
-# Domains
-# ------------------------------------------------------------------------------
-/domain.{5,30}ihrer firma.{1,10}mit der dieses e?.?mail.?konto/i
-/domain\*_.{5,30}_\*/i
-
-/hr Domain-Nаmе abgеlaufеn ist
-/ihre domain aufgrund eines zahlungsproblems zu verlängern/iu
-/informiert.{1,10}dass ihr domainname/i
-
-#
-#
-#
-
 # Collecting personal data
 # ------------------------------------------------------------------------------
 /angaben.{1,10}die.{1,10}kostenfreie teilnahme/i
@@ -130,9 +105,6 @@
 # ------------------------------------------------------------------------------
 /abonnements?.{1,10}die zahlung wurde abgelehnt/i
 
-# Domains
-# ------------------------------------------------------------------------------
-
 # Subscriptions
 # ------------------------------------------------------------------------------
 /reaktiviere mein abonnement/i
@@ -166,6 +138,10 @@
 # Swiss Post
 # ------------------------------------------------------------------------------
 /rechnung zu ihrer postfach.?jahresmiete/i
+
+#
+#
+#
 
 # Bad german
 # ------------------------------------------------------------------------------

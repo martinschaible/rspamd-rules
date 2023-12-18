@@ -61,64 +61,6 @@
 #
 #
 
-# Storage
-# ------------------------------------------------------------------------------
-/confirm your storage capacity validation/i
-
-#
-#
-#
-
-# Mail, WebMail
-# ------------------------------------------------------------------------------
-/verify your account.{1,10}switch to the new version/i
-
-/your.{1,10}e?.?mail immediately.{1,10}incoming messages will be withheld/i
-
-/e?.?mail.update.{1,10}latest version/i
-
-/authentication here.{1,10}retrieve.{1,10}e?.?mails?/i
-
-/click below to continue with.{1,10}mail.?box/i
-
-/release.{1,10}view message.{1,10}contents/i
-
-/authentication.{1,10}retrieve.{1,10}undelivered.{1,10}e?.?mails?/i
-
-/mail validation update/i
-
-# Delivery problems
-/delivery for pending e?.?mails here/i
-
-/restrained from delivering to your.{1,10}mail.?box/i
-
-/you have.{1,10}pending messages on.{1,10}(imap|pop)/i
-
-/not.{1,20}delivered to your mail.?box/i
-/messages were sent to you.{1,10}but were not.{1,20}delivered/i
-
-# Pending
-/(pending|receive).{1,15}messages.{1,10}avoid termination of your.{1,10}account/i
-
-/you have.{1,10}bounced messages/i
-/you have.{1,15}pending.{1,10}messages?.{1,10}due.{1,15}error/i
-/you have.{1,15}pending.{1,10}messages?.{1,10}that could not be sent/i
-/you have.{1,15}suspended.{1,10}incoming.{1,10}message/i
-/you have.{1,10}important.{1,10}incoming.{1,10}message?.{1,10}waiting/i
-/you have.{1,10}incoming.{1,10}pending.{1,10}(e?.?mails|messages)/i
-
-/you have.{1,10}undelivered e?.?mail.{1,10}your inbox/i
-/you have.{1,10}undelivered messages for/i
-
-/your incoming.{1,10}(e?.?mails|messages).{1,10}temporarily suspended/i
-/Your incoming.{1,10}(e?.?mails|messages).{1,10}have been placed on hold/i
-
-/will be barred from.{1,10}(receiving|sending).{1,15}e?.?mail/i
-
-# Rejected
-/could not be delivered to.{1,10}inbox/i
-/rejected the delivery.{1,10}incoming.{1,10}e?.?mails to you/i
-
 # Surveys
 # ------------------------------------------------------------------------------
 /survey.{1,10}you will receive a.{1,10}gift/i
