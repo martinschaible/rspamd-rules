@@ -142,8 +142,9 @@
 /verdächtige viren wurden entdeckt/iu
 /sicherheitshinweis/i
 /malware.?schutz/i
-/antivirus.?warnung/i
+
+/(antivirus|av|mca?fee).?warnung/i
 
 # Products
-/av 202\d warnung/i
+/av 202\d.?warnung/i
 /ihr mcafee.?abonnement.{1,10}ausgesetzt/i

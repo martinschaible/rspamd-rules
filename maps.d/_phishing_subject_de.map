@@ -65,6 +65,7 @@
 /(paket|sendung).{1,15}wartet wegen.{10,25}auf die lieferung/i
 /(paket|sendung).{1,15}wird aufgrund.{1,10}unerwartet.{1,10}zollabwicklung/i
 /(paket|sendung).{1,10}ist in unserer.{1,15}postfiliale angekommen/i
+/(paket|sendung).{1,10}nahe dem abschluss/i
 
 /(paket|sendung).{1,15}wartet auf.{1,10}(anweisung|bestätigung|versandzahlung)/iu
 
