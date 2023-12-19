@@ -34,7 +34,7 @@
 
 # Hosting: Cloud storage
 # ------------------------------------------------------------------------------
-/cloud.?speicher/i
+/(cloud|geräte).?speicher/iu
 /speicher.icloud/i
 
 # Parcel
@@ -49,7 +49,7 @@
 /paket wartet auf die lieferung/i
 
 /post.?lieferung.?updates/i
-/post.?nachrichten/i
+/post.?(depot|nachrichten)/i
 
 /sendungs.?mitteilung/
 /sofortige.zustellung/i

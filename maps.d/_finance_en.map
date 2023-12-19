@@ -32,6 +32,7 @@
 # ------------------------------------------------------------------------------
 /loans?.{1,10}apply/i
 /loans?.{1,10}for your.{1,10}(business|personal)/i
+/Loans?.{1,10}small.{1,10}medium business(es)/i
 /loans?.{1,10}your needs/i
 
 /exclusives?.loans?/i
@@ -62,6 +63,7 @@
 
 /our loan (acquisition|programme)/i
 
+/our company.{1,10}offers.{1,10}competitive.{1,15}loans/i
 #
 /investment company offering.{1,20}(corporate|personal|unsecured).{1,10}loans?/i
 /leading.{1,10}institution.{1,10}(corporate|personal|unsecured).{1,10}loans/i
