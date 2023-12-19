@@ -44,9 +44,9 @@
 /you have.{1,10}bounced messages/i
 /you have.{1,15}pending.{1,10}messages?.{1,10}due.{1,15}error/i
 /you have.{1,15}pending.{1,10}messages?.{1,10}that could not be sent/i
-/you have.{1,15}suspended.{1,10}incoming.{1,10}message/i
+/you have.{1,10}suspended.{1,10}incoming.{1,10}(e?.?mail|messages?)/i
 /you have.{1,10}important.{1,10}incoming.{1,10}message?.{1,10}waiting/i
-/you have.{1,10}incoming.{1,10}pending.{1,10}(e?.?mails|messages)/i
+/you have.{1,10}incoming.{1,10}pending.{1,10}(e?.?mails|messages?)/i
 
 /you have.{1,10}undelivered e?.?mail.{1,10}your inbox/i
 /you have.{1,10}undelivered messages for/i
@@ -59,6 +59,20 @@
 # Rejected
 /could not be delivered to.{1,10}inbox/i
 /rejected the delivery.{1,10}incoming.{1,10}e?.?mails to you/i
+
+#
+/click.{1,10}update.{1,10}mailbox/i
+
+/update account.{1,10}increase.{5,15}quota/i
+/update your mailbox/i
+/upgrade your account.{1,10}cancel the request/i
+
+/messages has been blocked by.{1,10}administrator/i
+/messages from your contacts are.{1,15}on hold/i
+
+/will be stopped from sending.{1,10}receiving/i
+
+/release the suspended e?.?mail.{1,10}to.{1,10}inbox/i
 
 # Storage
 # ------------------------------------------------------------------------------

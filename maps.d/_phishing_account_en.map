@@ -65,28 +65,6 @@
 #
 #
 
-# EMail and Hosting
-# ------------------------------------------------------------------------------
-/click.{1,10}update.{1,10}mailbox/i
-
-/update account.{1,10}increase.{5,15}quota/i
-/update your mailbox/i
-
-/you have.{1,10}suspended incoming.{1,10}(e?.?mail|messages)/i
-
-/messages has been blocked by.{1,10}administrator/i
-/messages from your contacts are.{1,15}on hold/i
-
-/will be stopped from sending.{1,10}receiving/i
-
-/release the suspended e?.?mail.{1,10}to.{1,10}inbox/i
-
-/upgrade your account.{1,10}cancel the request/i
-
-#
-#
-#
-
 # Companies
 # ------------------------------------------------------------------------------
 
