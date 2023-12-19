@@ -40,15 +40,16 @@
 # Properties
 # ------------------------------------------------------------------------------
 /(finest|ultimate).{1,10}luxury.{1,15}properties/i
-/luxury.{1,15}property finding/i
-/property.{1,10}finding service/i
-/penthouse.{1,10}puento romano/i
+
+/luxury.{1,15}property.{1,10}finding/i
+/property.{1,10}finding.{1,10}service/i
 
 /exquisite luxury (penthouses|villas).{1,10}apartments/i
 /luxury home buyers locate/i
 /qualified buyers can apply/i
 
 /we.{1,15}find you the right property/i
+/we.{1,10}offer.{1,10}luxury properties/i
 
 /spain.{1,10}prestigious costa del sol/i
 
