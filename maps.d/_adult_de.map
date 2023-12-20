@@ -110,6 +110,8 @@
 /seite ist.{1,10}kostenlos/i
 
 /name auf der website ist/i
+/name auf der.{1,10}(dating|hookup).{0,10}(seite|site)/i
+
 /kostenlos auf unserer seite/i
 
 /web.?sites?.{1,10}zum treffen mit/i
@@ -213,9 +215,10 @@
 
 /lade sie zu meinem.{1,10}profil/i
 
+/mein.{1,10}profil.{1,10}auf dich warten/i
 /mein.{1,10}profil.{1,10}(dating.?seite|ist hier)/i
 /mein.{1,10}profil.{1,10}dating.?web.?site/i
-/mein.{1,10}profil.{1,10}wartet audf dich/i
+/mein.{1,10}profil.{1,10}wartet auf dich/i
 /mein.{1,10}profil.{1,10}zuzugreifen.{1,10}mehr zu erfahren/i
 
 /meinem (anonymen|geheimen).{1,10}profil/i

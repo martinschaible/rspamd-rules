@@ -22,11 +22,11 @@
 
 # EMail, Cloud, Security and Server support
 # ------------------------------------------------------------------------------
-/(admin|e?.?mail).{0,10}(alert|security|support)/i
+/(admin|e?.?mail).{0,10}(alert|security|server|support)/i
 
 /mailbox.?admin/i
 /security.notification/i
-/(mail|webmail).?(|admin|server|support|team)/i
+/(mail|webmail).{0,5}(admin|server|support|team)/i
 
 /\.(ch|com|de|org).?(security|server)/i
 

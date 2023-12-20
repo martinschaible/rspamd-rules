@@ -16,6 +16,7 @@
 /buy it/i
 
 # D
+/delivery/i
 /discount/i
 
 # G
@@ -28,12 +29,16 @@
 /(make|making).?money/i
 
 # N
+/notification/i
 
 # O
 /offer/i
 
 # P
 /registration/i
+
+# S
+/shipment/i
 
 # V
 /verify/i
@@ -58,7 +63,6 @@
 
 # C
 /chatten/i
-/curriculo\.pdf/i
 
 # D
 /details zu sehen/i
@@ -99,8 +103,6 @@
 
 # N
 /nachricht/i
-
-/notification/i
 
 # O
 /öffnen/iu
@@ -160,3 +162,8 @@
 # Companies, Services
 # ------------------------------------------------------------------------------
 /lufthansa team/i
+
+# Files
+# ------------------------------------------------------------------------------
+/curriculo\.pdf/i
+

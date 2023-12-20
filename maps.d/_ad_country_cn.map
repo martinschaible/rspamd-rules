@@ -164,6 +164,8 @@
 /(co|limited|ltd).{1,10}with over.{1,10}years/i
 
 /co.{1,5}(limited|ltd).{1,10}trading company/i
+/co.{1,5}(limited|ltd).{1,10}our company/i
+
 /machinery.{1,10}(co|limited|ltd)/i
 
 # Experience
@@ -286,6 +288,8 @@
 /you.{1,10}interested in.{1,10}(pcba?|printed circuit board)/i
 
 /your.{1,10}company need.{1,15}(pcba?|printed circuit board)/i
+/your.{1,10}company have.{1,10}(pcba?|printed circuit board).{1,10}demands/i
+
 /your.{1,10}currently.{1,15}(pcba?|printed circuit board).{1,15}suppliers/i
 /your.{1,10}current.{1,15}(pcba?|printed circuit board).{1,15}requirements/i
 
