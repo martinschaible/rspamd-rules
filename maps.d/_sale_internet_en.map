@@ -114,8 +114,9 @@
 
 /we are.{1,10}leading seo/i
 /we can rank your web.?site/i
-/We can help you rank higher/i
+/we can help you rank higher/i
 /we do seo for all/i
+/we will enhance your.{1,15}(ranking|ranks)/i
 
 /you.{1,10}seo.?(packages?|proposal)/i
 /you looking for.{1,10}seo/i
@@ -134,6 +135,8 @@
 /your web.?site.{1,10}i found it.{1,10}impressive/i
 /your web.?site.{1,25}has some problems.{1,10}you.{1,10}(might|need)/i
 /your web.?site.{1,10}found those errors/i
+
+/seo.{1,15}saw that your web.?site/i
 
 # Google
 /1st.?page of google/i

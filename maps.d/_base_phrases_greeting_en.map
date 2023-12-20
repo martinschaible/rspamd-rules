@@ -202,7 +202,7 @@
 /i.?a?m a?.{0,15}(financial|investment).{1,10}(broker|consultant)/i
 /i.?a?m a?.{0,15}professional.{1,10}(graphic designer|investment)/i
 /i.?a?m a?.{0,10}medical scientist/i
-/i.?a?m a?.{5,25}sales representative/i
+/i.?a?m a?.{5,25}sales.{1,10}(manager|representative)/i
 
 /i.?a?m a?.{0,10}(fbi|special agent)/i
 

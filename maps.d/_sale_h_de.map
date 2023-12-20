@@ -155,6 +155,11 @@
 /(ampel|sonnen).?schirme?.{1,10}alu mit/i
 /(ampel|sonnen).?schirme?.{1,10}durchmesser.{1,10}nur.{1,10}statt/i
 
+# Vacuum Cleaner
+# ------------------------------------------------------------------------------
+/patenter.{1,10}waschsauger/i
+/waschsauger.{1,10}sofort lieferbar/i
+
 # WiFi
 # ------------------------------------------------------------------------------
 /tragbares.?wla/i
