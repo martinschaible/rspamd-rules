@@ -8,7 +8,8 @@
 # Loans
 # ------------------------------------------------------------------------------
 /(finance|investment|loans?).{1,10}(apply|funding|offer|opportunities|opportunity|reduced)/i
-/loan.?financing/i
+
+/loan.?(finance|financing)/i
 
 /(low rate|quick).{1,10}loans?/i
 
