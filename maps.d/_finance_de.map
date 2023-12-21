@@ -57,6 +57,8 @@
 /(ich|wir) bieten? privat.?(darlehen|kredit)/i
 /(ich|wir) bieten? (darlehen|kredite?) von.{1,15}bis/i
 
+/bietet online.?darlehen/i
+
 /ihnen ein.{1,10}(darlehen|kredit) mit einem.{1,15}zinssatz/iu
 
 /wir leihen.{1,15}(darlehen|kredit)/i
@@ -64,6 +66,10 @@
 
 #
 /benötigen sie einen.{1,10}privat.{1,10}geschäfts.?kredit/iu
+
+# Forms
+# ------------------------------------------------------------------------------
+kredit.?betrag.{1,20}kredit.?laufzeit/i
 
 # Money
 # ------------------------------------------------------------------------------
