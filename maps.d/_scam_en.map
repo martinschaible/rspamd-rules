@@ -243,9 +243,10 @@
 
 # Share the same name
 # ------------------------------------------------------------------------------
-/contacting.{1,20}you.{1,10}share the same last name/i
+/contacting.{1,20}you.{1,10}share the.{1,10}same last.?name/i
 
-/last name with.{1,10}(deceased|late).{1,10}(client|customer)/i
+/last.?name with.{1,10}(deceased|late).{1,10}(client|customer)/i
+/you have the same.{1,10}last.?name/i
 
 # Transaction
 # ------------------------------------------------------------------------------
@@ -263,9 +264,10 @@
 
 # Dead Customers, Family Members
 # ------------------------------------------------------------------------------
-/(my|our) (deceased|late).{1,10}(client|customer|husband) left some money/i
-/(my|our) (deceased|late).{1,10}(client|customer|husband) mrs?/i
-/(my|our) (deceased|late).{1,10}(client|customer|husband) made a deposit/i
+/(my|our) (deceased|late).{1,10}(client|customer|husband).{1,10}left some money/i
+/(my|our) (deceased|late).{1,10}(client|customer|husband).{1,10}mrs?/i
+/(my|our) (deceased|late).{1,10}(client|customer|husband).{1,10}made a deposit/i
+/(my|our) (deceased|late).{1,10}(client|customer|husband).{1,10}with no next of kin/i
 
 /retrieve my late father funds/i
 
