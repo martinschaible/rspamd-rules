@@ -170,6 +170,10 @@
 # ------------------------------------------------------------------------------
 /receipt.{0,5}\.(7z|doc|gz|htm|r11|rar|tgz|xla|xls|zip)/i
 
+# Scanner
+# ------------------------------------------------------------------------------
+/page.{0,5}image.{0,5}.gz/i
+
 # Shipment
 # ------------------------------------------------------------------------------
 /(delivery|shipping|shipment).?documents?.?pdf\.zip/i
@@ -179,7 +183,6 @@
 
 /shipping.?(advice|product|produces)\.(7z|doc|gz|htm|r11|rar|tgz|xla|xls|zip)/i
 /documents?.{1,10}commercial\.(7z|doc|gz|htm|r11|rar|tgz|xla|xls|zip)/i
-
 
 # Swift
 # ------------------------------------------------------------------------------
