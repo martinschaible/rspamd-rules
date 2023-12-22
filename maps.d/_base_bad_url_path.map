@@ -61,6 +61,8 @@
 # Sample: .net/shop/out26TT-2/073a4bc137bad8229879a8ad4fbe7280/
 /\.net\/shop\/.{4,15}\/[a-z0-9]{20,40}\//i
 
+/\.cn\/\?token=/i
+
 /\.ru/wetransfer/i
 
 /\.ro\/login\.php/i
@@ -114,4 +116,3 @@
 /\/wtrernsfers\//i
 
 /\//suisspass\//i
-
