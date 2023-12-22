@@ -51,6 +51,8 @@
 /lieber kunde.{1,10}ihr konto/i
 /lieber kunde.{1,10}wir haben ihr konto/i
 
+/nicht abgeschlossen haben.{1,10}wird ihr.{1,15}konto gesperrt/i
+
 # Account - Confirm or reconfirm identity
 # ------------------------------------------------------------------------------
 /bestätigen sie.{1,10}ihre telefon.?nummer/iu
@@ -165,6 +167,8 @@
 
 /unser sicherheitssystem hat verdächtige aktivitäten/iu
 /unsere server.{1,15}den neuen vorschriften/i
+
+/bestätigungsprozess gemä.{1,10}abs.{1,10}nr/iu
 
 #
 #
