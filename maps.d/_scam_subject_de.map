@@ -14,9 +14,9 @@
 
 # Big numbers
 # ------------------------------------------------------------------------------
-/\d{2,3}.{0.5}\d{2,3}.{1.10}(millionen.{1.10})?(euro|gbp|usd)/i
+/\d{2,3}.{0.5}\d{2,3}.{1,10}(millionen.{1,10})?(euro|gbp|usd)/i
 
-/millionen.{1.15}tausend{1.10}(euro|gbp|usd)/i
+/millionen.{1,15}tausend{1,10}(euro|gbp|usd)/i
 
 # Choosen
 # ------------------------------------------------------------------------------
@@ -27,9 +27,10 @@
 /investitions.?zuschuss/i
 /spenden.{0,15}(belohnung|fonds|gewinn|investition|preis)/i
 
-/spenden.?angebot.{1.10}\d{2,3}.{1.10}\d{2,3}/i
+/spenden.?angebot.{1,10}\d{2,3}.{1,10}\d{2,3}/i
+/spende.{1,10}donation/i
 
-/spende.{1.10}\d{2,3}.{1.10}(euro|gbp|usd)/i
+/spende.{1,10}\d{2,3}.{1,10}(euro|gbp|usd)/i
 /spende an sie/i
 /spende investitions.?programm/i
 /(du hast|sie haben) eine.{1,10}spende/i
@@ -66,7 +67,7 @@
 
 # Solar energy
 # ------------------------------------------------------------------------------
-/jetzt sichern.{1.15}fördergelder/iu
+/jetzt sichern.{1,15}fördergelder/iu
 
 #
 #

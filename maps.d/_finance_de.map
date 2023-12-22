@@ -15,7 +15,7 @@
 # Loans
 # ------------------------------------------------------------------------------
 /(darlehen|kredit).{1,10}für verschiedene Zwecke/iu
-/(darlehen|kredit).{1,10}geschäftlich.{1.10}privat/iu
+/(darlehen|kredit).{1,10}geschäftlich.{1,10}privat/iu
 /(darlehen|kredit).{1,10}jetzt beantragen/i
 /(darlehen|kredit).{1,10}mit einem zins.?satz von/i
 /(darlehen|kredit).{1,10}privat.{1,10}geschäfts.?kredit/iu
