@@ -116,13 +116,14 @@
 # Videos
 # ------------------------------------------------------------------------------
 /(check out|watch) this.{1,10}eye.?opening.{1,10}video/i
+/revolutionary.{1,10}video contains/i
 
 /watch it before it.?i?s too late/i
-/watch the video before.{1,20}(attorney|big)/i
+
+/watch (the|this).{1,10}(controversial|disturbing|revolutionary|shocking|urgent).{1,10}video/i
+/watch (the|this).{1,10}video before.{1,20}(attorney|big)/i
 
 /watch.{1,10}video.{1,10}join here/i
-
-/watch this.{1,10}(controversial|disturbing|shocking|urgent).{1,10}video/i
 
 /video.{1,10}before it.{1,10}(gone|too late)/i
 
