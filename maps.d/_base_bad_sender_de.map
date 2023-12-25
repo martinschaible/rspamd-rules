@@ -51,7 +51,8 @@
 /dating.?angebot/i
 
 # F
-/fick.?treffen/i
+/fick.{0,10}(finden|freund|treffen)/i
+
 /fickt.?uns/i
 /finde.{1,15}frauen/i
 /flirten?.mit/i
