@@ -74,12 +74,13 @@
 
 # How they get the Email address
 # ------------------------------------------------------------------------------
-/your.{1,15}(company|name).{1,15}?e.?mail.?address from the internet/i
+/your.{1,15}(company|name).{1,15}?e.?mail.?address from.{1,10}internet/i
 /your.{1,15}(company|name).{1,15}while browsing.{1,15}google/i
 
 /your (contact|e?.?mail).{1,20}from.{1,15}database/i
 /your (contact|e?.?mail).{1,20}from the.{1,15}africa exchange/i
 /your (contact|e?.?mail).{1,20}from your countries.{1,20}business/i
+/your (contact|e?.?mail).{1,20}information.{1,10}internet/i
 
 /your (contact|e?.?mail).{1,20}on the internet/i
 /your (contact|e?.?mail).{1,20}through my online exploration/i
@@ -112,6 +113,9 @@
 # Sickness, Dying :-)
 # ------------------------------------------------------------------------------
 /told me that i.{1,10}not live longer/i
+/i.?ve been diagnosed with.{1,14}cancer/i
+
+/cancer.{1,10}my time is limited/i
 
 # Videos
 # ------------------------------------------------------------------------------

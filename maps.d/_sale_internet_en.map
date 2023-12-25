@@ -88,7 +88,7 @@
 /seo.?expert.?manager/i
 /seo.?expert.{1,10}i can help/i
 
-/seo.?packages.{1,10}price.?list/i
+/seo.?packages.{1,10}(pricing|price.?list)/i
 
 /boost your seo rank/i
 /help improve your rankings/i
@@ -105,7 +105,10 @@
 /reputed seo.company/i
 
 /much lower cost.{1,10}seo/i
+
 /our full.?seo.?package/i
+/our comprehensive.{1,10}seo/i
+
 /like to offer.{1,10}seo/i
 
 /i went through your.{1,10}web.?site.{1,10}found/i

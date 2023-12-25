@@ -21,7 +21,8 @@
 
 /(millionen|tausend).{1,10}(dollar|euro?|gbp|usd).{1,10}an sie zu spenden/i
 
-/euro gewährt.{1,10}antworten.{1,15}weitere details/iu
+/(millionen|tausend|dollar|euro?|gbp|usd).{1,10}ausgewählt.{1,10}kontaktieren sie mich/i
+/(millionen|tausend|dollar|euro?|gbp|usd).{1,10}gewährt.{1,10}antworten.{1,15}weitere details/iu
 
 # Choosen
 # ------------------------------------------------------------------------------
