@@ -35,6 +35,10 @@
 
 /warnung.{1,10}verdächtige transaktion/iu
 
+# Return for double payed invoices
+# ------------------------------------------------------------------------------
+/rechnung erstattungsfähig/iu
+
 # Locking Account
 # ------------------------------------------------------------------------------
 /ihr konto.{1,15}wird gesperrt/i

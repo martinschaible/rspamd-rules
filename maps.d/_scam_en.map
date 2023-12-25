@@ -99,6 +99,8 @@
 
 /you wish to receive.{1,15}funds/i
 
+/your.{1,10}draft of.{1,10}\d{3}.{0,5}\d{3}.{1,10}(dollar|euro?|gbp|usd)/i
+
 /your.{1,10}funds?.{1,10}have been approved by the/i
 /your.{1,10}funds?.{1,10}(total|worth).{1,10}sum of.{1,10}million/i
 /your.{1,10}funds?.{1,10}\d{3}.{0,5}\d{3}.{1,10}(dollar|euro?|gbp|usd)/i
