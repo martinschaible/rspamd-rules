@@ -42,7 +42,9 @@
 
 /hallo von (frau|herr)/i
 /hallo begünstigter/iu
-/hallo guten tag/i
+
+/hallo.{1,10}guten tag/i
+/Hallo.{1,10}Wie geht es Ihnen/i
 
 # Religious
 # ------------------------------------------------------------------------------
