@@ -90,6 +90,9 @@
 # Sample: /YYYTTT__________TTTRRRVVLLL__________________MMMGGG_______D9804H546S04JD5K1JD-1........HTM
 /\/\w{2,15}[_]{4,15}\w{2,15}[_]{4,15}/i
 
+# Sample: .com/qsdfrect.html/?6f.64.3d.31.73.79.63.36.35.38.61.30.35.66.61.62.61.65.
+\.html\/\?[a-z0-9]{2}\.[a-z0-9]{2}\.[a-z0-9]{2}\.[a-z0-9]{2}\.[a-z0-9]{2}\.[a-z0-9]{2}/i
+
 # French spammer are using this:
 /\/iem66/link\.php/i
 
