@@ -24,7 +24,11 @@
 
 # Delivery problems
 # ------------------------------------------------------------------------------
+/address details.{1,10}ensure successful delivery/i
+
 /was unable to deliver.{1,10}parcel to your correct address/i
+
+/update your shipping address/i
 
 # Pay Customs, VAT
 # ------------------------------------------------------------------------------

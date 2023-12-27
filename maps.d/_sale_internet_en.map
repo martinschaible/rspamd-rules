@@ -119,6 +119,7 @@
 /we can rank your web.?site/i
 /we can help you rank higher/i
 /we do seo for all/i
+/we promote your.{1,10}web.?site.{1,10}(ranking|ranks)/i
 /we will enhance your.{1,15}(ranking|ranks)/i
 
 /you.{1,10}seo.?(packages?|proposal)/i
@@ -127,7 +128,7 @@
 /your website.{1,10}1st page.?rank/i
 /your website.{1,10}on.{1,10}1st page/i
 /your website.{1,10}to get on first/i
-/your website.{1,10}rank higher/i
+/your website.{1,10}rank (higher|top|well)/i
 
 # Lies
 /i have reviewed your domain in/i

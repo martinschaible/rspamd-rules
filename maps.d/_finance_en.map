@@ -34,6 +34,7 @@
 /loans?.{1,10}for your.{1,10}(business|personal)/i
 /Loans?.{1,10}small.{1,10}medium business(es)/i
 /loans?.{1,10}your needs/i
+/loans?.{1,10}options.{1,15}feel free to contact/i
 
 /exclusives?.loans?/i
 
@@ -57,7 +58,7 @@
 /you be interested.{1,10}loan/i
 /you looking for.{1,15}loans?/i
 /you need.{1,10}loan.{1,10}(for|from|if yes)/i
-/you need.{1,10}urgent loan/i
+/you (need|require).{1,10}(personal|urgent).{1,10}loan/i
 
 /business loan.{1,10}investment.{1,10}loans?/i
 /personal loan.{1,10}business.{1,10}loans?/i
