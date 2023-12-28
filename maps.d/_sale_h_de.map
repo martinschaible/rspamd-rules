@@ -54,6 +54,11 @@
 
 /(empfehlung|team).{1,20}huusk/i
 
+# LED
+# ------------------------------------------------------------------------------
+/kostenloses.{1,10}flutlicht/i
+/sie sich unsere led.?news/i
+
 # Night Vision Scope
 # ------------------------------------------------------------------------------
 /unser neues.{1,10}nachtsichtfernglas/i
@@ -261,7 +266,7 @@
 /premium.box.gmbh/i
 /handelsregister:.{1,25}1.?0.?9.?3.?0.?0/i
 
- WiFi
+# WiFi
 # ------------------------------------------------------------------------------
 /internet.?verbindung.{0,5}ryoko/i
 
