@@ -27,7 +27,7 @@
 
 /benachrichtigung zur kontosperrung/i
 
-/sicherheit.{1,10}bestätigen sie ihre/iu
+/sicherheit.{1,10}(bestätigen|) sie ihre/iu
 
 # Cards
 # ------------------------------------------------------------------------------
@@ -115,6 +115,7 @@
 /nehmen sie an dieser.{1,10}umfrage teil/i
 
 /sie haben eine kostenlose.{10,25}gewonnen/i
+/sie unsere.{1,10}umfrage/i
 
 /umfrage.{1,10}gewinn/i
 
