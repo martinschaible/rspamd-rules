@@ -168,6 +168,7 @@
 
 /proposal.{1,10}will not embarrass you/i
 /proposal.{1,10}for you.{1,10}can i send it/i
+/proposal.{1,10}of usd.{1,10}for you/i
 
 /proposition.{1,10}worth millions of dollars/i
 
@@ -187,7 +188,7 @@
 /confidential business.{1,10}(opportunity|transaction).{1,10}with you/i
 /lucrative proposal.{1,10}share with you/i
 
-/i have.{1,15}business.{1,15}(opportunity|proposition|proposal|transaction)/i
+/i have.{1,15}(business|investment).{1,15}(opportunity|proposition|proposal|transaction)/i
 /i have.{1,15}(profitable|lucrative).{1,15}(business|offer|opportunity|proposition|proposal|transaction)/i
 /i have.{1,15}mutual confidential/i
 /i have.{1,10}project worth.{1,10}million/i
