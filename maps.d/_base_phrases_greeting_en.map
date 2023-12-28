@@ -85,6 +85,7 @@
 /greetings.{1,10}this is (ms|mrs?)/i
 /greetings.{1,10}(sir|madam).{1,20}request for/i
 /greetings.{5,25}allow me to introduce our/i
+/greetings.{1,10}how are you today.{1,10}i hope you/i
 
 /greetings to you.{1,10}reply to/i
 /greetings to you.{1,10}i am (ms|mrs?)/i
@@ -239,7 +240,7 @@
 
 # Business
 # ------------------------------------------------------------------------------
-/Glad to write to you.{1,10}keen hope to open/i
+/glad to write to you.{1,10}keen hope to open/i
 /keen hope to open.{1,10}business relationship.{1,10}with you/i
 
 # Help

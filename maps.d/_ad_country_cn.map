@@ -40,6 +40,7 @@
 
 # Intros, specific China
 # ------------------------------------------------------------------------------
+/(china|dongguan|guangzhou|shenzhen|zhejiang).{1,10}are.{1,10}professional.{1,10}manufacturer/i
 /(china|dongguan|guangzhou|shenzhen|zhejiang).{1,10}based{1,20}(freight|international){1,20}forwarder/i
 /(china|dongguan|guangzhou|shenzhen|zhejiang).{1,10}factory.{1,10}specializes.{1,10}producing/i
 /(china|dongguan|guangzhou|shenzhen|zhejiang).{1,10}(my|our).{1,10}(company|factory).{1,10}(offers|specialized|specializes)/i
@@ -266,6 +267,8 @@
 /any.{1,10}(pcba?|printed.circuit.board).{1,10}orders/i
 /ltd.{1,10}a professional pcba?/i
 /in the field of pcba?.{1,10}years/i
+
+/here.{1,15}leading.{1,10}(pcba?|printed.circuit.board).{1,10}factory/i
 
 /is a leading manufacturer of.{1,20}(pcba?|printed.circuit.board)/i
 /is a manufacturer engaged.{1,10}(pcba?|printed.circuit.board)/i
