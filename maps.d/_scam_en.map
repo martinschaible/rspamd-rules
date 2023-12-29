@@ -70,6 +70,7 @@
 # Funds, Money, Sum
 # ------------------------------------------------------------------------------
 /funds for.{1,20}reply for details/i
+/funds?.{1,10}you accept my proposal/i
 
 /about your unpaid.{1,10}funds/i
 
@@ -155,7 +156,11 @@
 /viable investment opportunities in your.{1,15}country/i
 /(who want|you) to.{1,10}invest in your.{1,15}country/i
 
-/profit.{1,15}investment.{1,15}venture.{1,10}in your.{1,15} country/i
+/profit.{1,15}investment.{1,15}venture.{1,10}in your.{1,15}country/i
+
+/your location.{1,10}i can invest/i
+
+/investment project around your.{1,10}(country|location)/i
 
 # Legal
 # ------------------------------------------------------------------------------
@@ -257,7 +262,8 @@
 # ------------------------------------------------------------------------------
 /transaction.{1,10}if you are sure you can handle/i
 
-/you to help.{1,10}(manage|move).{1,15}asset sum/i
+/you.{1,10}help.{1,10}(manage|move).{1,15}asset sum/i
+/your.{1,10}assistance to move.{1,10}\d{3}.{0,5}\d{3}.{1,10}(dollar|euro?|gbp|usd)/i
 
 # Trustworthy Person
 # ------------------------------------------------------------------------------
