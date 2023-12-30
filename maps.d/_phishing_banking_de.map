@@ -26,8 +26,9 @@
 /haben wir ihre.{1,20}(kredit)?karte.{1,10}eingeschränkt/iu
 
 /karte.{1,10}dieses sicherheitsverfahren erforderlich/i
-/karte.{1,10}ist ein ungewöhnlicher fehler aufgetreten/iu
 /karte.{1,10}genehmigen.{1,10}aktivieren sie.{1,10}sofort/i
+/karte.{1,10}ist ein.{1,10}ungewöhnlicher fehler aufgetreten/iu
+/karte.{1,10}ist ein.{1,15}prozess erforderlich/i
 
 /ablaufdatum ihrer.{1,10}(kredit)?karte.{1,10}ist nicht aktuell/i
 
@@ -131,6 +132,7 @@
 
 # Bad german
 # ------------------------------------------------------------------------------
+/aktivieren sie diesen vorgang/i
 /sie diese mitteilung schließen/iu
 /folge den schritten/i
 

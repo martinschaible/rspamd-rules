@@ -120,8 +120,8 @@
 /mein name ist.{5,30}ich arbeite als/i
 /mein name ist.{5,25}ich bin (das einzige kind|eine witwe)/i
 /mein name ist.{5,25}ich bitte um ihre hilfe/i
-/mein name ist.{5,25}ich habe krebs/i
-/mein name ist.{5,25}ich lebe in/i
+/mein name ist.{5,25}ich habe.{1,15}krebs/i
+/mein name ist.{5,25}ich lebe.{1,10}in/i
 
 /sie zu kontaktieren.{1,10}mein name ist/i
 

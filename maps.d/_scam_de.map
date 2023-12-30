@@ -129,8 +129,9 @@
 /ihre zahlung zu genehmigen.{1,15}registrieren/i
 /ihnen ein betrag von.{1,10}\d{3}.{0,5}\d{3}.{1,10}als entschädigungszahlung/iu
 
-/sie vom entschädigungsausschuss/iu
 /sie aufgrund einer ausstehenden.{1,10}überweisung/iu
+/sie vom entschädigungsausschuss/iu
+/sie werden.{1,10}mit einer summe von.{1,10}\d{3}.{0,5}\d{3}/i
 
 /zahlung von.{1,10}\d{3}.{0,5}\d{3}.{1,15}dollar auf ihr konto/i
 
@@ -278,7 +279,9 @@
 
 # Bad german
 # ------------------------------------------------------------------------------
+/aufmerksamkeitsfonds/i
 /familienerbfonds/i
+
 /unterabteilung fedpol.{1,10}teilen ihnen mit/i
 /vertrauliches geschäftsabkommen/iu
 

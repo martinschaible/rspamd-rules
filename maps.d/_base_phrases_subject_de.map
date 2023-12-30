@@ -34,6 +34,7 @@
 # ------------------------------------------------------------------------------
 
 # Greetings
+# ------------------------------------------------------------------------------
 /guten tag.{1,10}mein lieber/i
 /sehr geehrter? (frau|herr)/i
 
@@ -41,10 +42,12 @@
 /mein name ist/i
 
 /hallo von (frau|herr)/i
-/hallo begünstigter/iu
 
 /hallo.{1,10}guten tag/i
+/hallo.{1,10}begünstigter/iu
 /Hallo.{1,10}Wie geht es Ihnen/i
+
+/komplimente der saison/i
 
 # Religious
 # ------------------------------------------------------------------------------
