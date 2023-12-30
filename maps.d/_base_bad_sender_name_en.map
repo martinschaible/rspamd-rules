@@ -1,0 +1,134 @@
+# ==============================================================================
+# Base: Bad sender - Name
+#
+# ----|----------------|
+#  10 | English        |
+# ==============================================================================
+
+# Unclassified
+# ------------------------------------------------------------------------------
+
+# Date: '05/08/2023'
+/\d{2}\/\d{2}\/\d{4}/i
+
+/b.r.e.a.k.i.n.g/i
+
+/confirmation.needed/i
+
+/noreplay/i
+
+# Sample: [iPad Pro]
+/\[.{5,10}\]/i
+# Sample: | Netflix Inc. |
+/\|.{5,20}\|/i
+
+# Sample: _Congrats_
+#         - Huusk Japan -
+#/(_|-).{5,20}(_|-)/i
+/_.{5,20}_/i
+
+# m e t a m a s k
+/\w \w \w \w \w \w \w/i
+
+# Fake Departments or Companies
+# ------------------------------------------------------------------------------
+
+# People pretending be a philanthropist
+# ------------------------------------------------------------------------------
+/bezos.?family/i
+
+/(bill|melinda).?gates/i
+/bill.{5,10}melinda/i
+
+/elon.?musk/i
+/jeff.?bezos/i
+/mackenzie.{1,5}scott/i
+/mark.?zuckerberg/i
+/maria.eli(s|z)abeth.{1,5}schaeffler/i
+/susanne.{1,5}klatten/i
+/warren.{1,5}buffett/i
+
+# Strange senders
+# ------------------------------------------------------------------------------
+/info@gmail\.com/i
+
+/(barrister|diplomat)/i
+
+#
+#
+#
+
+# Adult: Dating and Porn
+# ------------------------------------------------------------------------------
+/(adult|erotic).?(dates?|dating)/i
+/casual.?adults/i
+/(date|dating).?(club|team)/i
+/dirty.?talk/i
+
+/escort.?girl/i
+
+/ukrainian.?(beauty|love)/I
+
+# Casino, Gambling
+# ------------------------------------------------------------------------------
+
+# Organisations
+/euro.jack.pot/i
+
+# Finance
+# ------------------------------------------------------------------------------
+/financial.?help/i
+/(funding|loan).?(offer|opportunity|service|specialist|venture)/i
+/personal.?loans?/i
+/rates.?for/i
+
+/credit.?for/i
+/free.?credit/i
+
+# Make Money
+# ------------------------------------------------------------------------------
+/bitcoin.?millionaire/i
+/billionaire/i
+/crypto.?(forex|news)/i
+
+/blockchain/i
+
+# Mortgage
+# ------------------------------------------------------------------------------
+/mortgage.{0,10}(alert|assist|home)/i
+
+# Scam
+# ------------------------------------------------------------------------------
+/next of kin /i
+
+/illuminati/i
+
+/united.?nations/i
+
+/annuity comparison/i
+/comparison report/i
+
+/vice president/i
+
+/donation.?funds?/i
+
+# Stocks
+# ------------------------------------------------------------------------------
+
+# Winning, Lottery
+# ------------------------------------------------------------------------------
+/(australia|google|usa|uk).?(lotterie|lottery)/i
+/(euro|mega).?(jackpot|milions)/i
+/navidad.{0,10}loteria/i
+
+/award.?team/i
+
+/(lottery|microsoft).?award/i
+/lottery.?winning/i
+
+# Virus, Malware
+# ------------------------------------------------------------------------------
+/antivirus.?norton/i
+/anti virus/i
+/(av|mca?fee).?alarm/i
+/security.?notice/i
