@@ -45,23 +45,24 @@
 
 # Donation
 # ------------------------------------------------------------------------------
-/spende.{1,10}\d{3}.{0,5}\d{3}.{1,10}an sie/i
-/spende.{1,10}annehmen.{1,10}antworten sie/i
-/spende.{1,10}ausgewählt.{1,10}antworten sie/iu
-/spende.{1,15}(belohnung|fonds|investition|preis)/i
-/spende.{1,10}erhalten.{1,10}die.{1,10}zugesandt wurde/i
-/spende.{1,10}e?.?mail.{1,10}details jetzt/i
-/spende.{1,10}erhalten.{1,10}kontaktieren sie uns/i
-/spende.{1,10}erhalten.{1,10}sie.{1,10}interessiert/i
-/spende.{1,15}geben sie.{1,10}ihre.{1,10}antwort/i
+/spenden?.{1,10}\d{3}.{0,5}\d{3}.{1,10}an sie/i
+/spenden?.{1,10}annehmen.{1,10}antworten sie/i
+/spenden?.{1,10}antworten sie mit ihren/i
+/spenden?n?.{1,10}ausgewählt.{1,10}antworten sie/iu
+/spenden?.{1,15}(belohnung|fonds|investition|preis)/i
+/spenden?.{1,10}erhalten.{1,10}die.{1,10}zugesandt wurde/i
+/spenden?.{1,10}e?.?mail.{1,10}details jetzt/i
+/spenden?.{1,10}erhalten.{1,10}kontaktieren sie uns/i
+/spenden?.{1,10}erhalten.{1,10}sie.{1,10}interessiert/i
+/spenden?.{1,15}geben sie.{1,10}ihre.{1,10}antwort/i
 
-/spende.{1,10}ihnen die summe von.{1,10}(millionen|tausend|dollar|euro?|gbp|usd)/i
-/spende.{1,10}in höhe von.{1,20}(dollar|euro?|gbp|usd).{1,25}(ausgewählt|die ihnen|wurde ihnen von)/iu
-/spende.{1,10}in höhe von.{1,20}(dollar|euro?|gbp|usd).{1,25}erfolgte durch die/iu
+/spenden?.{1,10}ihnen die summe von.{1,10}(millionen|tausend|dollar|euro?|gbp|usd)/i
+/spenden?.{1,10}in höhe von.{1,20}(dollar|euro?|gbp|usd).{1,25}(ausgewählt|die ihnen|wurde ihnen von)/iu
+/spenden?.{1,10}in höhe von.{1,20}(dollar|euro?|gbp|usd).{1,25}erfolgte durch die/iu
 
-/spende.{1,10}ist für die ersten.{1,10}personen/i
-/spende.{1,10}investitions.?geld(er)?/i
-/spende.{1,10}überlassen.{1,10}melden sie sich/iu
+/spenden?.{1,10}ist für die ersten.{1,10}personen/i
+/spenden?.{1,10}investitions.?geld(er)?/i
+/spenden?.{1,10}überlassen.{1,10}melden sie sich/iu
 
 /(spende|summe) von.{1,10}millionen.{1,10}wurde ihnen/i
 
