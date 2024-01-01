@@ -206,12 +206,13 @@
 
 /(talk to you about|regarding a potential).{1,10}business.{1,10}(opportunity|partnership)/i
 
-/discuss.{1,10}business.{1,10}(opportunity|proposition|proposal|transaction) with you/i
+/discuss.{1,10}business.{1,10}(opportunity|proposition|proposal|transaction).{1,10}with you/i
 
 /share with you.{1,15}business.{1,10}insights/i
 /share with you.{1,15}(pending|remunerative).{1,15}business/i
 
 /secret private business/i
+/serious.{1,10}(opportunity|proposition|proposal|transaction)i want to discuss.{1,10}with you/i
 
 /e?.?mail about.{1,10}profitable idea/i
 /mutual confidential offer/i
