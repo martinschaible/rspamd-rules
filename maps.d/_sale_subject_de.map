@@ -53,8 +53,10 @@
 
 # Pen
 # ------------------------------------------------------------------------------
-/(gummierte|hochwertige|metall|moderne|premium|softtouch|werbe).{0,10}kugelschreiber/iu
-/kuli mit/i
+/(elegante|gummierte|hochwertige|metall|moderne|premium|stilvolle|softtouch|werbe|werbung).{0,10}kugelschreiber/iu
+/unseren?.{1,10}kugelschreiber/i
+
+/(kugelschreiber|kuli) mit.{1,10}branding/i
 
 # SEO
 # ------------------------------------------------------------------------------

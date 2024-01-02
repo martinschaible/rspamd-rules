@@ -68,12 +68,15 @@
 /kugelschreiber.{1,10}(gummierung|gummiert|softgriff)/i
 /kugelschreiber.{1,10}werbeeindruck/i
 /kugelschreiber.{1,10}individuellem.{1,10}druck/i
+/kugelschreiber.{1,10}erhältlich ab/iu
 
 /werbe.?kugelschreiber mit/i
 
-/(die neuen|gummierte|hochwertigen?|softgriff).{1,10}kugelschreiber/i
+/(die neuen|gummierte|hochwertigen?|personalisierten|softgriff).{1,20}kugelschreiber/i
 
-/neue.{1,10}werbe.?kugelschreiber/i
+/neue.{1,10}(metall|werbe).?kugelschreiber/i
+
+/unsere neuen.{1,15}kugelschreiber/i
 
 /unsere?.{1,10}kugelschreiber ist ein/i
 /unsere?.{1,10}kugelschreibermuster/i
