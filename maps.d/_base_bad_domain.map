@@ -4,3 +4,11 @@
 # ----|
 #  10 |
 # ==============================================================================
+
+# Bad Subdomain
+# ------------------------------------------------------------------------------
+# Sample: http://212-83-155-119.rev.poneytelecom.eu
+/https?:\/\/\d{2,3}-\d{2,3}-\d{2,3}-\d{2,3}\./i
+
+# Sample: https://dsqqsjkdgbjkqshdbjkqsdbhgjkqshbdjqskdqdqsdqsd.s3.us-west-1.amazonaws.com
+/https?:\/\/[a-z0-9]{25,50}\.s3/i
