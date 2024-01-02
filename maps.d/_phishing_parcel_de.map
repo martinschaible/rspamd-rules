@@ -56,6 +56,7 @@
 /(paket|sendung).{1,10}ist in unserer.{1,15}postfiliale angekommen/i
 
 /lieferdetails mit uns bestätigen/iu
+/lieferung ihres.{1,10}pakets fortzusetzen/i
 
 /schicken sie mein paket/i
 
@@ -103,6 +104,7 @@
 /(paket|sendung).{1,10}zu ermöglichen.{1,10}wird dem importeur.{1,10}(mehrwertsteuer|zoll.?gebühren)/iu
 /(paket|sendung).{1,10}zu bezahlen.{1,10}zu verfolgen/i
 /(paket|sendung).{1,10}zu.{1,20}werden die mehrwertsteuerkosten/i
+/(paket|sendung).{1,10}zu.{1,10}unannehmlichkeiten gekommen/i
 
 /zölle anfallen.{1,10}die bezahlt werden müssen/iu
 
@@ -110,6 +112,8 @@
 /zoll.?gebühr(en)?.{1,10}der betrag beträgt/iu
 /zoll.?gebühr(en)?.{1,10}von.{1,10}chf.{1,15}den unten.?stehenden link/i
 /zoll.?gebühr(en)?.{1,10}um den Lieferprozess/i
+
+/zusatzkosten.{1,10}um die lieferung ihres pakets/i
 
 /steuern.{1,10}abgaben nicht beglichen hat/i
 

@@ -13,7 +13,7 @@
 
 # Phishing
 # Sample: wp-content/uploads/2019/07/volksbanken-raiffeisenbanken-logo-vector.png
-/\/wp-content\/uploads\/.{1,15}\/(raiffeisenbank|volksbank)/i
+/\/wp-content\/uploads\/.{1,15}\/(raiffeisenbank|swisscom|volksbank)/i
 
 #
 /\/wp-content\/uploads\/.{1,15}/.{1,15}\.php/i

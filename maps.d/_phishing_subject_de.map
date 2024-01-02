@@ -15,6 +15,7 @@
 /aktualisieren ihres kontos/i
 /(aktualisieren?|bestätigen?) (deine|sie).{1,10}(konto|sicherheits).?informationen/i
 
+/konto ist nicht konform/i
 /konto erfordert eine maßnahme/i
 /konto wird (bald gesperrt|begrenzt|eingeschränkt)/iu
 /kontoaktivitäts.?aktualisierung/i
@@ -132,6 +133,8 @@
 # Subscriptions
 # ------------------------------------------------------------------------------
 /-abonnenment/i
+
+/wir wollen dich immer noch zurück/i
 
 #
 #
