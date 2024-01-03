@@ -24,6 +24,8 @@
 /(millionen|tausend|dollar|euro?|gbp|usd).{1,10}ausgewählt.{1,10}kontaktieren sie mich/i
 /(millionen|tausend|dollar|euro?|gbp|usd).{1,10}gewährt.{1,10}antworten.{1,15}weitere details/iu
 
+/herzlichen? (glückwunsch|glückwünsche).{1,25}(millionen|tausend).{1,10}(dollar|euro?|gbp|usd)/i
+
 # Choosen
 # ------------------------------------------------------------------------------
 /sie ausgewählt wurden.{1,10}\d{3}.{0,5}\d{3}/iu
@@ -72,6 +74,7 @@
 
 /(millionen|tausend|dollar|euro?|gbp|usd).{1,10}gespendet.{1,10}antworten sie für.{1,10}details/iu
 /(millionen|tausend|dollar|euro?|gbp|usd).{1,10}wurden ihnen gespendet/i
+/(millionen|tausend|dollar|euro?|gbp|usd).{1,10}wurden ihnen von der.{1,25}gespended/i
 
 /million.{1,10}(dollar|euro?|gbp|usd).{1,10}haben wir ihnen/i
 
