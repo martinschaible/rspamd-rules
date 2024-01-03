@@ -119,8 +119,9 @@
 
 # Suggestions
 # ------------------------------------------------------------------------------
-/i have suggestions for the site.?owner/i
-/pass on my suggestions.{1,10}contacts/i
+/i have.{1,10}suggestions for the site.?owner/i
+/pass on.{1,10}suggestions.{1,10}contacts/i
+/you looked at.{1,10}suggestions that i.{1,10}attached/i
 
 # Videos
 # ------------------------------------------------------------------------------

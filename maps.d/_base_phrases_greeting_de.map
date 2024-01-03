@@ -160,6 +160,8 @@
 /ich bin (frau|herr).{5,25}(banker|vorsitzender)/i
 /ich bin (frau|herr).{5,25}kann ich/i
 
+/ich bin mutter.{5,25}frau/i
+
 # Introduction, Dying
 # ------------------------------------------------------------------------------
 
@@ -175,6 +177,7 @@
 # Surprise
 # ------------------------------------------------------------------------------
 /meine e?.?mail.{1,10}sie eine überraschung sein wird/iu
+/diese e?.?mail.{1,10}sie überraschen wirdl.{1,10}da wir/iu
 
 # Silly Stuff
 # ------------------------------------------------------------------------------
