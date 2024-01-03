@@ -292,11 +292,12 @@
 /litauische arbeiter gesucht/i
 /wir finden ihre mitarbeiter/i
 
-/(fachkräfte|mitarbeiter|personal).{1,10}aus litauen/iu
+/(fachkräfte|mitarbeiter|personal|vermittlung).{1,25}aus litauen/iu
 
 /sie erhalten bei uns.{1,15}(fachkräfte|mitarbeiter|personal)/iu
 
-/litauen stellen ihnen fach.{1,10}hilfspersonal/i
+/litauen.{1,10}stellen ihnen fach.{1,10}hilfspersonal/i
+/litauen.{1,10}wir vermitteln ihnen/i
 
 #
 #
