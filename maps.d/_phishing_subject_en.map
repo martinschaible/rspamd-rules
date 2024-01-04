@@ -12,7 +12,11 @@
 # Accounts
 # ------------------------------------------------------------------------------
 
-# Confirm or reconfirm Account/Identity
+# Account - 2FA Activation
+# ------------------------------------------------------------------------------
+/action required.{1,10}enable 2fa/i
+
+# Account - Confirm or reconfirm identity
 # ------------------------------------------------------------------------------
 /suspended.{1,15}confirm your e?.?mail/i
 
