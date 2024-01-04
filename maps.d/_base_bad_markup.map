@@ -12,7 +12,7 @@
 
 # Hidden Text
 # ------------------------------------------------------------------------------
-/<font style=(3d)?"color:transparent;.?font-size:0px">/
+/<font style=(3d)?"color:transparent;.?font-size:0px">/i
 
 /<font color=(3d)?"#ffffff">[a-z]<\/font>/i
 
@@ -26,7 +26,7 @@
 /http:=(3d)?"" microsoft\.com=(3d)?""/i
 
 # Used as prefix of a word.
-/<span style=(3d)?"color: rgb(255,255,255)">\w</span>/i
+/<span style=(3d)?"color: rgb(255,255,255)">\w<\/span>/i
 
 #
 /&shy;&shy;ut&shy;&shy;&shy/i
