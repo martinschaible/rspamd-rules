@@ -54,16 +54,22 @@
 
 # Funds, Money
 # ------------------------------------------------------------------------------
-/ich habe einen fonds von.{1,10}\d{3}.{0,5}\d{3}/i
+/ich habe einen.{1,10}fonds von.{1,10}\d{3}.{0,5}\d{3}/i
 /wir haben einen nicht beanspruchten.{1,10}betrag/i
 
-/ihre.{1,10}e?.?mail.?adresse.{1,10}wurde ausgewählt.{1,10}um diesen fonds/iu
+/ihre.{1,10}e?.?mail.?adresse.{1,10}wurde ausgewählt.{1,10}um diesen.{1,10}fonds/iu
 /ihren nicht in anspruch genommenen.{1,15}fonds/i
-/ihres fonds in höhe von.{1,10}\d{3}.{0,5}\d{3}/i
+/ihres.{1,10}fonds in höhe von.{1,10}\d{3}.{0,5}\d{3}/i
 
 /ihren namen lauten nicht beansprucht.{1,10}geld/i
 
 /fonds mit ihrem rat/i
+
+/um den.{1,10}fonds zu beanspruchen/i
+
+# Funds, Money - Sharing
+# ------------------------------------------------------------------------------
+ /betrag.{1,10}zwischen ihnen und mir aufgeteilt wird/i
 
 # Heir
 # ------------------------------------------------------------------------------

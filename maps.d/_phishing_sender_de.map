@@ -41,6 +41,7 @@
 
 # Parcel
 # ------------------------------------------------------------------------------
+/anweisungen/i
 /bestellung.?versand/i
 
 /liefer.?aktualisierung/i
@@ -99,7 +100,7 @@
 
 /heutige.{0,10}gewinner/i
 
-/(lidl|le.?creuset|kaufland).{0,10}(angebot|code|geschenkkarte|gewinner|sender|sendung)/i
+/(lidl|le.?creuset|kaufland|persil).{0,10}(angebot|code|geschenkkarte|gewinner|sender|sendung|umfrage)/i
 
 /temu.?abteilung/i
 
