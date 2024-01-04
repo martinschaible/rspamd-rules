@@ -26,7 +26,8 @@
 
 /erstaunliche.{1,10}massagestuhl/i
 
-/(büro|dreh).?(stuhl|stühle).{1,10}(die perfekte|eleganz|in leder|in vielen farben|mit walnussholz)/iu
+/(büro|dreh).?(stuhl|stühle).{1,10}(elegantes|eleganz)/i
+/(büro|dreh).?(stuhl|stühle).{1,10}(die perfekte|in leder|in vielen farben|mit walnussholz)/iu
 /(büro|dreh).?(stuhl|stühle).{1,10}neues modell/iu
 
 /stuhl.{1,15}vorzugspreis von nur/i
@@ -213,14 +214,17 @@
 /einfach mit.{1,10}adresse.{1,15}diese e?.?mail.{1,15}wir senden ihnen/i
 
 /einfach antworten.{1,10}bestellungen.{1,10}rückfragen/iu
-/einfach antworten.{1,10}wir liefern per.{1,20}auf rechnung/i
 /einfach antworten.{1,10}um zu bestellen/i
+/einfach antworten.{1,10}wir liefern per.{1,20}auf rechnung/i
+/einfach antworten.{1,10}Wir liefern direkt/i
 
 /ihre antwort genügt.{1,10}wir senden.{1,10}zu ihnen/iu
 
 /zum antworten bestellen.{1,15}lieferung auf rechnung/i
 
+/lieferung.{1,10}rechnung.{1,10}einfach antworten/i
 /lieferung.{1,10}rechnung.{1,10}statt uvp.{1,10}nur.{1,10}plus/i
+
 /lieferung.{1,10}erfolgt auf rechnung.{1,10}zu lediglich/i
 /lieferung.{1,15}erfolgt auf rechnung.{1,15}mit freundlichen/i
 /lieferung.{1,15}detaillierte rechnung sind/i
