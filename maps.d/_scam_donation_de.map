@@ -29,6 +29,7 @@
 # Choosen
 # ------------------------------------------------------------------------------
 /sie ausgewählt wurden.{1,10}\d{3}.{0,5}\d{3}/iu
+/sie gehören zu den ausgewählten personen/iu
 
 /ausgewählt.{1,10}um eine.{1,10}spende von/i
 
@@ -109,10 +110,13 @@
 
 /ihre.{1,10}spende.{1,10}jetzt erhalten können/iu
 /ihre.{1,10}spende.{1,10}per e?.?mail anzufordern/i
+/ihre.{1,10}spende.{1,10}steht noch aus/i
 
 /(ich|sie) haben? eine.{1,15}spende.{1,10}(in höhe)?.{0,10}von.{2,10}\d{3}.{0,5}\d{3}/iu
 /(ich|sie) haben? eine.{1,15}spende.{1,10}(in höhe)?.{0,10}von.{2,10}million/iu
 /(ich|sie) haben? eine.{1,15}spende.{1,10}von.{5,25}weitere informationen/i
+/(ich|sie) haben? eine.{1,15}spende.{1,10}von der/i
+
 /(ich|sie) haben? eine.{1,15}spende(zuschuss)?.{1,10}für sie/i
 
 /sie.{1,10}den erhalt einer.{1,15}spende/i
@@ -205,6 +209,7 @@
 /zuwendungsspende/i
 
 /behauptung dieser spende zu/i
+/sie ein spendenangebot/i
 /sie mit ihren anspruchsdetails/i
 /wir einen spendenvorschlag für sie erstellt/iu
 /zufallsauswahlrad/i

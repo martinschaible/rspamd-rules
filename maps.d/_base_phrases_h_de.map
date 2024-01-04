@@ -47,13 +47,13 @@
 
 # E-Mail active/correct
 # ------------------------------------------------------------------------------
-/(bestätigen sie|sie mir.{1,10}mitteilen).{1,10}diese.{1,10}e?.?mail.{1,10}noch aktiv ist/iu
+/(bestätigen sie|sie mir.{1,10}mitteilen).{1,10}(diese|ihre).{1,10}e?.?mail.{1,10}noch aktiv ist/iu
 
-/ist diese.{1,10}e?.?mail.{1,10}noch aktiv/i
-/ist diese.{1,10}e?.?mail.?adresse aktiv/i
+/ist (diese|ihre).{1,10}e?.?mail.{1,10}noch aktiv/i
+/ist (diese|ihre).{1,10}e?.?mail.?adresse aktiv/i
 
-/wenn diese e?.?mail.{1,15}noch aktiv ist.{1,10}kontaktieren sie/i
-/wissen.{1,15}ihre.{1,10}e?.?mail.{1,10}korrekt ist/i
+/wenn (diese|ihre) e?.?mail.{1,15}noch aktiv ist.{1,10}kontaktieren sie/i
+/wissen.{1,15}(diese|ihre).{1,10}e?.?mail.{1,10}korrekt ist/i
 
 # Excuses and other silly stuff
 # ------------------------------------------------------------------------------

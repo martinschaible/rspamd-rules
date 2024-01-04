@@ -119,8 +119,7 @@
 
 /discover.{1,10}how this simple method/i
 /discover.{1,10}about this shocking revelation/i
-/discover.{1,10}the.{1,10}hidden drinks/i
-/discover.{1,10}the.{1,10}incredible secret/i
+/discover.{1,10}the.{1,10}(hidden|incredible).{1,10}(chemical|drink|secret)/i
 
 /fight.{1,10}ringing ears/i
 
@@ -130,7 +129,7 @@
 
 /morning trick gives/i
 
-/Uncover.{1,10}the shocking truth/i
+/uncover.{1,10}the shocking truth/i
 /uncover.{1,10}remarkable tale/i
 /unusual.{1,15}breakfast ritual/i
 /unveiled.{1,10}groundbreaking discovery/i
@@ -138,9 +137,8 @@
 /reveals secret survival plan/i
 
 /scientists confirmed this.{1,10}hack/i
-
-/simple.{1,10}second.{1,10}(method|protocol|stretch)/i
 /shocking discovery reveals/i
+/simple.{1,10}second.{1,10}(method|protocol|stretch)/i
 
 /this.{1,10}eye.?opening presentation/i
 /this.{1,10}formula was leaked/i

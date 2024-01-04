@@ -100,10 +100,10 @@
 /we.?a?re.{1,10}factory.{1,10}that.{1,10}provide/i
 /we.?a?re.{1,10}factory.{1,10}specializing in.{1,10}manufacture/i
 
-/we.?a?re.{1,10}(excellent|leader|leading).{1,10}(manufacturer|supplier)/i
+/we.?a?re.{1,10}(excellent|leader|leading|product).{1,10}(manufacturer|supplier)/i
 /we.?a?re.{1,10}leader oem.{1,10}manufacturer/i
 
-/we.?a?re.{1,10}(manufacturer|manufactuer) (in|of)/i
+/we.?a?re.{1,25}(manufacturer|manufactuer) (in|of)/i
 /we.?a?re.{1,10}(manufacturer|manufactuer).{1,10}exporter/i
 
 /we.?a?re.{1,10}(professional|reliable).{1,10}(factory|distributor)/i
@@ -121,7 +121,7 @@
 /we are.{1,10}specialize.{1,10}in.{1,15}manufacturing/i
 
 /we are.{1,10}the leading importers/i
-
+/we are.{1,10}directly factory/i
 /we have our own factory/i
 
 /i am.{5,25}as a leading manufacturer/i
