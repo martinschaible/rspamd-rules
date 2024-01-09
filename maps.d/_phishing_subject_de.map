@@ -50,6 +50,8 @@
 
 /wir haben ihre id.{1,20}gesperrt
 
+/ihr photo.?tan wurde blockiert/i
+
 # Confirm or reconfirm Account/Identity
 # ------------------------------------------------------------------------------
 /ihr konto erfordert ihre aufmerksamkeit/i
@@ -88,6 +90,7 @@
 /(lieferung|versand).{1,10}(ausstehende|unbezahlte).{1,10}(versandkosten|zollgebühren)/iu
 
 /aktualisieren sie.{1,10}ihre lieferadresse/i
+/korrigieren sie ihre adresse/i
 
 /sie haben.{1,10}ausstehendes paket/i
 /sie haben ein paket.{1,10}das zugestellt/i
