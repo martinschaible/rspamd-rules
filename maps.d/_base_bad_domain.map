@@ -12,3 +12,6 @@
 
 # Sample: https://dsqqsjkdgbjkqshdbjkqsdbhgjkqshbdjqskdqdqsdqsd.s3.us-west-1.amazonaws.com
 /https?:\/\/[a-z0-9]{25,50}\.s3/i
+
+#
+/https?:\/\/html\./i
