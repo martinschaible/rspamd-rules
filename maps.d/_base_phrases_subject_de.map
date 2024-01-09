@@ -16,7 +16,7 @@
 /dies ist sehr wichtig/i
 /dies ist dringend.{1,10}antworten sie/i
 
-/\[wichtig\]/i
+/\[(video|wichtig)\]/i
 /\[.{1,15}\].{1,10}neue Nachricht/i
 /\[-.{1,15}-\]/i
 

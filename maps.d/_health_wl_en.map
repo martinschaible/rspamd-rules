@@ -35,7 +35,7 @@
 /melt away.{1,10}(lbs|pounds).{1,15}(belly|body).?fat/i
 /melt over.{1,10}(lbs|pounds).{1,10}(a|per) week/i
 
-/method.{1,10}(burn|melt).{1,10}belly.?fat/i
+/(method|way).{1,10}(burn|melt).{1,10}belly.?fat/i
 
 /this.{1,10}(fat|weight).?loss.{1,10}product/i
 /imagine losing.{1,10}(lbs|pounds)/i

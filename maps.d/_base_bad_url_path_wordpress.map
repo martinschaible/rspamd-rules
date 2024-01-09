@@ -21,8 +21,8 @@
 # No need to refer to this folder
 /\/wp-includes\/[a-z]{1,15}\//i
 
-# Countries
-/\.vn/wp-content\/themes\//i
+# TLD's
+/\.(io|vn)/wp-content\/(themes|uploads)\//i
 
 /\.com\/wp-admin\/css\/colors\//i
 
