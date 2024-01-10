@@ -85,7 +85,8 @@
 
 /which is.{1,10}professional.{1,15}manufacture.{1,10}(china|dongguan|guangzhou|shenzhen|zhejiang)/i
 
-/your sourcing agent.{1,10}china/i
+/your.{1,15}sourcing agent.{1,10}china/i
+/your.{1,15}china.{1,10}sourcing agent/i
 
 /contacting you from.{1,10}(china|dongguan|guangzhou|shenzhen|zhejiang)/i
 /leading supplier of.{1,15}capacitors.{1,15}(from|in) china/i
@@ -107,12 +108,13 @@
 /we.?a?re.{1,10}(manufacturer|manufactuer).{1,10}exporter/i
 
 /we.?a?re.{1,10}(professional|reliable).{1,10}(factory|distributor)/i
-/we.?a?re.{1,10}(professional|reliable).{1,20}product.{1,10}(company|manufacturer?|supplier)/i
+/we.?a?re.{1,10}(professional|reliable).{1,20}products?.{1,10}(company|manufacturer?|supplier)/i
 /we.?a?re.{1,10}(professional|reliable).{1,10}(manufacturer?|manufacturing).{1,10}(factory|specialized)/i
 /we.?a?re.{1,10}(professional|reliable).{1,10}supplier (of|with)/i
 
 /we.?a?re.{1,10}national high.?tech.{1,10}enterprise/i
 
+/we are.{1,20}products?.{1,10}(company|manufacturer?|supplier)/i
 /we are.{1,10}iso.{1,15}certified company/i
 /we are.{1,15}fast.{1,10}growing distributor/i
 /we are.{1,10}at.{1,10}(hard.?to.?find|short.?lead.?time)/i
@@ -171,6 +173,11 @@
 
 /machinery.{1,10}(co|limited|ltd)/i
 
+/i am.{5,25}from.{1,20}co.{1,10}ltd/i
+
+# Probably lies
+/we have cooperated with.{1,10}famous brands/i
+
 # Experience
 # ------------------------------------------------------------------------------
 /(more than|we have).{1,10}years.{1,10}experience.{1,10}(export|industry|producing|providing|traditional)/i
@@ -187,6 +194,7 @@
 /we specialized?.{1,10}cnc machining/i
 
 /you need.{1,10}precision.{1,10}cnc/i
+/you may look.{1,10}machining.{1,10}partner/i
 
 # Products, specific China
 # ------------------------------------------------------------------------------
@@ -223,7 +231,7 @@
 /we.?a?re.{1,10}distributor.{1,20}(components|electronics?)/i
 /we.?a?re.{1,20}(component|electronics).{1,20}(company|distributor)/i
 /we.?a?re.{1,10}independent.{1,10}distributor.{1,20}(components|electronics?)/i
-/we.?a?re.{1,10}electronic.{1,10}components?.{1,10}(broker|distributor)/i
+/we.?a?re.{1,10}electronic.{1,10}components?.{1,10}(broker|distributor|provider)/i
 /we.?a?re.{1,10}electrical.{1,10}products.{1,10}automatic/i
 /we.?a?re.{1,10}passive.{1,10}components/i
 
@@ -231,7 +239,7 @@
 
 /we are good.{1,10}ics/i
 
-/you looking.{1,10}electronic.{1,10}components?/i
+/you (looking|need).{1,10}electronic.{1,10}components?/i
 /you still interested.{1,10}capacitors/i
 
 /you looking for.{1,10}capacitors/i
@@ -240,6 +248,10 @@
 # Glass
 # ------------------------------------------------------------------------------
 /we do mainly.{1,10}glassware/i
+
+# LED
+# ------------------------------------------------------------------------------
+/we are.{1,10}professional.{1,10}led/i
 
 # Metal
 # ------------------------------------------------------------------------------
@@ -263,11 +275,14 @@
 
 # PCB
 # ------------------------------------------------------------------------------
-/pcba?.{1,10}factory.{1,10}focus on/i
+/pcba?.{1,10}(factory|supplier).{1,10}focus on/i
+/pcba?.{1,10}(factory|supplier).{1,10}you can contact/i
+
 /pcba?.{1,10}manufacturer with good quality/i
 /pcba?.{1,10}we can offer.{1,10}the best/i
 /pcba?.{1,10}from.{1,10}(china|shenzhen)/i
 /pcba?.{1,10}website.{1,10}www/i
+/pcba?.{1,10}solutions to you/i
 
 /any.{1,10}(pcba?|printed.circuit.board).{1,10}orders/i
 /ltd.{1,10}a professional pcba?/i
@@ -279,6 +294,8 @@
 /is a manufacturer engaged.{1,10}(pcba?|printed.circuit.board)/i
 
 /this.{1,25}from.{1,10}professional.{1,10}(pcba?|printed.circuit.board).{1,10}factory/i
+
+/provide.{1,10}cost saving.{1,10}(pcba?|printed.circuit.board)/i
 
 /experience in.{1,10}(pcba?|printed.circuit.board).{1,10}manufacturing/i
 /we.{1,10}focus on pcba?/i

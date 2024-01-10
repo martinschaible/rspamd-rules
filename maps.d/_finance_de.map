@@ -15,6 +15,8 @@
 # Loans
 # ------------------------------------------------------------------------------
 /(darlehen|kredit).{1,10}für verschiedene Zwecke/iu
+/(darlehen|kredit).{1,15}für sie.{1,15}antworten sie bei interesse/iu
+
 /(darlehen|kredit).{1,10}geschäftlich.{1,10}privat/iu
 /(darlehen|kredit).{1,10}jetzt beantragen/i
 /(darlehen|kredit).{1,10}mit einem zins.?satz von/i
@@ -67,6 +69,8 @@
 
 #
 /benötigen sie einen.{1,10}privat.{1,10}geschäfts.?kredit/iu
+
+/zins.?satz von.{1,10}bewerben sie sich jetzt/i
 
 # Forms
 # ------------------------------------------------------------------------------
