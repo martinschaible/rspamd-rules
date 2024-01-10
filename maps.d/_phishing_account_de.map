@@ -27,7 +27,8 @@
 /ihr.{1,15}konto.{1,10}ist.{1,10}(dauerhaft|derzeit|vorübergehend).{1,10}(ausgesetzt|eingeschränkt|begrenzt|gesperrt)/iu
 /ihr.{1,15}konto.{1,10}ist noch nicht aktualisiert/i
 
-/ihr.{1,15}konto.{1,10}ist.{1,10}(ausgesetzt|eingeschränkt|begrenzt|gesperrt).{1,10}bis/iu
+/ihr.{1,15}konto.{1,10}ist.{1,10}(ausgesetzt|eingeschränkt|gesperrt).{1,10}bis/iu
+/ihr.{1,15}konto.{1,10}ist.{1,10}begrenzt/i
 
 /ihr.{1,15}konto.{1,10}vorsorglich sperren/i
 /ihr.{1,15}konto.{1,10}überprüfen.{1,15}aktualisieren/iu

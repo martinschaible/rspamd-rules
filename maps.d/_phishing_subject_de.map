@@ -15,10 +15,13 @@
 /aktualisieren ihres kontos/i
 /(aktualisieren?|bestätigen?) (deine|sie).{1,10}(konto|sicherheits).?informationen/i
 
+/konto bleibt begrenzt/i
 /konto ist nicht konform/i
 /konto erfordert eine maßnahme/i
 /konto wird (bald gesperrt|begrenzt|eingeschränkt)/iu
 /kontoaktivitäts.?aktualisierung/i
+
+/konto.?überprüfung erforderlich/i
 
 /wir mussten.{1,15}konto.?funktionen einschränken/iu
 
@@ -31,6 +34,7 @@
 /sicherheit.{1,10}(bestätigen|) sie ihre/iu
 
 /(Überprüfen|überprüfen) sie ihre kontodaten/iu
+
 # Cards
 # ------------------------------------------------------------------------------
 /ihre kredit.?karte ist gesperrt/i
