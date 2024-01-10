@@ -17,6 +17,7 @@
 
 # Chat
 # ------------------------------------------------------------------------------
+/alone.{1,15}wants to chat/i
 
 # Dating
 # ------------------------------------------------------------------------------
@@ -47,7 +48,7 @@
 /women.{1,10}looking for love/i
 /women.{1,10}waiting to meet/i
 
-/(attractive|meet).{0,10}(russian|ukrainian).{0,10}women/i
+/(attractive|find¬meet).{0,10}(russian|ukrainian).{0,10}(girl|women)/i
 
 # Message, Writing
 # ------------------------------------------------------------------------------

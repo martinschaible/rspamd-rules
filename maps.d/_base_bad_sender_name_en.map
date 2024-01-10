@@ -62,12 +62,13 @@
 # ------------------------------------------------------------------------------
 /(adult|erotic).?(dates?|dating)/i
 /casual.?adults/i
-/(date|dating).?(club|team)/i
+/(date|dating).{0,10}(club|team|room)/i
 /dirty.?talk/i
 
 /escort.?girl/i
 
-/ukrainian.?(beauty|love)/I
+/ukrainian.?(beauty|girl|love)/I
+/find.{1,10}ukrainian/i
 
 # Casino, Gambling
 # ------------------------------------------------------------------------------

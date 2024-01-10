@@ -23,6 +23,7 @@
 /you.{1,10}interested.{1,10}(acquiring|purchasing).{1,10}linkedin.{1,10}leads/i
 /you.{1,10}interested.{1,10}(acquiring|purchasing).{1,10}unlimited targeted/i
 
+/you.{1,10}interested.{1,10}(acquiring|purchasing).{1,10}targeted.{1,10}e?.?mail/i
 /you.{1,10}interested.{1,10}in e?.?mail.?marketing/i
 
 /you want.{1,10}receive.{1,10}attendee.{1,10}list/i
@@ -94,6 +95,8 @@
 /boost your seo rank/i
 /help improve your rankings/i
 
+/full.{1,10}seo.?onsite.?services/i
+
 /comprehensive.{1,10}seo.?services?/i
 /you need.{1,10}seo.?services?/i
 /do you want.{1,10}seo/i
@@ -109,6 +112,7 @@
 
 /our full.?seo.?package/i
 
+/our seo.?services/i
 /our (complete|comprehensive).{1,10}seo/i
 
 /like to offer.{1,10}seo/i
@@ -123,6 +127,8 @@
 /we do seo for all/i
 /we promote your.{1,10}web.?site.{1,10}(ranking|ranks)/i
 /we will enhance your.{1,15}(ranking|ranks)/i
+
+/we offer.{1,10}range.{1,10}seo.?services/i
 
 /you.{1,10}seo.?(packages?|proposal)/i
 /you looking for.{1,10}seo/i
