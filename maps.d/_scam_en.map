@@ -176,6 +176,8 @@
 /proposal.{1,10}will not embarrass you/i
 /proposal.{1,10}for you.{1,10}can i send it/i
 /proposal.{1,10}of usd.{1,10}for you/i
+/proposal.{1,10}is in your name/i
+/proposal.{1,10}your full understanding/i
 
 /proposition.{1,10}worth millions of dollars/i
 
@@ -263,6 +265,8 @@
 
 /last.?name with.{1,10}(deceased|late).{1,10}(client|customer)/i
 /you have the same.{1,10}last.?name/i
+
+/(deceased|late).{1,10}(client|customer).{1,10}of mine.{1,10}shares the same.{1,10}name/i
 
 # Transaction
 # ------------------------------------------------------------------------------
