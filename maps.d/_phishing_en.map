@@ -41,6 +41,7 @@
 # Price List
 /send price.?list.{1,10}products.?pictures via/i
 /send pictures.{1,15}(brochure|catalog).{1,20}price.?list/i
+/send us your.{1,10}(brochure|catalog).{1,10}price.?list/i
 
 /you have.{1,10}companies interested in your product/i
 /your latest catalog.{1,10}web.?site link/i
