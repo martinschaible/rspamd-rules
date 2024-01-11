@@ -11,10 +11,12 @@
 /(bit?coin|crypto|krypto).{1,15}reich werden/i
 /(bit?coin|crypto|krypto).{1,15}handel wie profis/i
 /(bit?coin|crypto|krypto).{1,15}trader/i
+/(bit?coin|crypto|krypto).{1,15}geld (verdienen|machen)/i
+/(bit?coin|crypto|krypto).{1,15}machen reich/i
 
 /(rally|rush) hat begonnen/i
 
-/(geld|reich).{1,10}mit.{1,10}(bitcoin|crypto|krypto)/i
+/(geld|reich).{1,10}(durch|mit).{1,10}(bitcoin|crypto|krypto)/i
 
 /wie.{1,10}(bitcoin|crypto|krypto).{1,15}handeln/i
 

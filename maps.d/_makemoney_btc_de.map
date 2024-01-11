@@ -12,6 +12,8 @@
 
 # Crypto
 # ------------------------------------------------------------------------------
+/bitcoin.{1,15}ein exklusives/i
+
 /werden sie.{1,10}heute zum bitcoin/i
 
 /kryptowährung.{1,10}auto.?trading/iu
@@ -22,7 +24,7 @@
 
 # Fancy Titles
 # ------------------------------------------------------------------------------
-/bitcoin.?system/i
+/bitcoin.?(genesis|system)/i
 
 /krypto.?bullenmarkt/i
 /krypto.?profit.?methode/i
