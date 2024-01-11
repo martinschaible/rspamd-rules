@@ -71,8 +71,8 @@
 
 # Web-Design/Development, China, India
 # ------------------------------------------------------------------------------
-/wir sind ein in (china|indien) ansässiges/i
-/wir sind ein in (china|indien).{1,15}(unternehmen|web.?site)/i
+/wir sind ein in.{1,10}(china|indien).{1,10}ansässige(r|s)/i
+/wir sind ein in.{1,10}(china|indien).{1,15}(it.?dienstleister|unternehmen|web.?site)/i
 
 # WordPress
 # ------------------------------------------------------------------------------
