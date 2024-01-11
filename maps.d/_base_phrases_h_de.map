@@ -40,7 +40,8 @@
 
 /(lieber|sehr geehrter) e?.?mail.?benutzer/i
 
-/teilen sie mir mit.{1,10}sie diese.{1,10}e?.?mail.{1,10}erhalten haben/i
+/teilen sie mir.{1,10}mit.{1,10}sie diese.{1,10}e?.?mail.{1,10}erhalten haben/i
+/sie mir.{1,10}bitte mit.{1,10}sie diese.{1,10}e?.?mail.{1,10}erhalten haben/i
 
 /sie der richtige besitzer dieser.{1,10}e?.?mail/i
 /sie den besitz dieser.{1,10}e?.?mail.{1,10}bestätigen/i
