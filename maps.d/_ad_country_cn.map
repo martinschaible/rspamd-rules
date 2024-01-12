@@ -106,6 +106,7 @@
 
 /we.?a?re.{1,25}(manufacturer|manufactuer) (in|of)/i
 /we.?a?re.{1,10}(manufacturer|manufactuer).{1,10}exporter/i
+/we.?a?re.{1,10}(manufacturer|manufactuer).{1,10}specialize/i
 
 /we.?a?re.{1,10}(professional|reliable).{1,10}(factory|distributor)/i
 /we.?a?re.{1,10}(professional|reliable).{1,20}products?.{1,10}(company|manufacturer?|supplier)/i
