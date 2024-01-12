@@ -20,6 +20,9 @@
 
 /zu verdienen.{1,10}klicken sie hier/i
 
+/verdienen sie.{1,15}\d{3,4}.{1,10}euro wöchentlich/iu
+/wöchentlich.{1,15}\d{3,4}.{1,10}euro zu verdienen/iu
+
 # Fake stories
 # ------------------------------------------------------------------------------
 /(als|schaffte).{5.20}euro pro woche zu verdienen/i
@@ -27,6 +30,10 @@
 # Income
 # ------------------------------------------------------------------------------
 /konzept.{1,20}einnahmen ermöglich/iu
+
+/(legal|seriös).{1,10}ihr einkommen zu steigern/i
+
+/einkommen.{1,15}\d{3,4}.{1,10}euro pro woche zu erzielen/i
 
 # Investing
 # ------------------------------------------------------------------------------
@@ -37,6 +44,12 @@
 
 # Fake stories
 # ------------------------------------------------------------------------------
+/geschafft haben tägliche profite.{1,10}tgenerieren/iu
+
+# Fake website goes down
+# ------------------------------------------------------------------------------
+/webseite.{1,10}ist in wenigen stunden wieder offline/i
+/angebot.{1,10}solange es noch online ist/i
 
 #
 #
