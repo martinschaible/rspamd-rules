@@ -26,7 +26,8 @@
 # Approval
 # ------------------------------------------------------------------------------
 /qualified for a.{1,10}business.{1,10}loan/i
-/your business has been pre.?qualified/i
+
+/your (business|company) has been pre.?(approved|qualified)/i
 
 # Loans
 # ------------------------------------------------------------------------------
