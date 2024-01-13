@@ -12,22 +12,22 @@
 
 # Crypto
 # ------------------------------------------------------------------------------
-/bitcoin.{1,15}ein exklusives/i
+/(bit?coin|crypto|krypto).{1,15}ein exklusives/i
 
-/werden sie.{1,10}heute zum bitcoin/i
+/werden sie.{1,10}heute zum.{1,10}(bit?coin|crypto|krypto)/i
 
 /kryptowährung.{1,10}auto.?trading/iu
 
 /auto.?trading.{1,10}programm/i
 
-/euro pro monat.{1,10}mit krypto/i
+/mit.{1,10}(bit?coin|crypto|krypto) geld.{1,10}verdienen/i
+
+/euro pro monat.{1,10}mit.{1,10}(bit?coin|crypto|krypto)/i
 
 # Fancy Titles
 # ------------------------------------------------------------------------------
-/bitcoin.?(genesis|system)/i
-
-/krypto.?bullenmarkt/i
-/krypto.?profit.?methode/i
+/(bit?coin|crypto|krypto).?(bullenmarkt|genesis|system)/i
+/(bit?coin|crypto|krypto).?profit.?methode/i
 
 /kryptowährung.{1,10}profit.?strategie/i
 

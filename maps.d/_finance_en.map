@@ -32,7 +32,7 @@
 # ------------------------------------------------------------------------------
 /loans?.{1,10}apply/i
 /loans?.{1,10}for your.{1,10}(business|personal)/i
-/Loans?.{1,10}small.{1,10}medium business(es)/i
+/loans?.{1,10}small.{1,10}medium business(es)/i
 /loans?.{1,10}your needs/i
 /loans?.{1,10}options.{1,15}feel free to contact/i
 
@@ -44,7 +44,7 @@
 
 /we (are offering|give|issuing|offer|offering|provide).{1,15}(business|corporate|personal).{1,15}loans?/i
 /we (are offering|give|issuing|offer|offering|provide).{1,15}loans? at.{1,10}interest/i
-/we (are offering|give|issuing|offer|offering|provide).{1,15}loan.{1,10}(funding|projects)/i
+/we (are offering|give|issuing|offer|offering|provide).{1,15}loan.{1,10}(contact|funding|projects)/i
 /We (are offering|give|issuing|offer|offering|provide).{1,15}various types of loan/i
 
 /we are giving.{1,15}loan grants/i
