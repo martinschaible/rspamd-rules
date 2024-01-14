@@ -21,8 +21,8 @@
 
 /eine gültige lieferadresse hinzuzufügen/iu
 
-/(falschen|fehlerhaften).{1,10}lieferadresse nicht zugestellt werden/i
-/(falschen|fehlerhaften).{1,10}lieferadresse konnten wir ihr paket nicht/i
+/(falschen|fehlerhaften).{1,10}lieferadresse.{1,10}nicht.{1,20}(abgeschlossen|zugestellt) werden/i
+/(falschen|fehlerhaften).{1,10}lieferadresse.{1,10}konnten wir ihr paket nicht/i
 
 /paket angegebene lieferadresse ist unvollständig/iu
 
@@ -171,6 +171,7 @@
 
 /zusätzliche portogebühr informieren/iu
 /zusätzliche gebühr in höhe von.{1,15}fällig/iu
+/zusätzliche liefergebühr zahlen/i
 
 /zustellung eine zusätzliche gebühr von.{1,15}anfällt/iu
 /zustellversuch zu bezahlen/i

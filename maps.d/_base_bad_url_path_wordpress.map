@@ -25,6 +25,7 @@
 /\.(io|vn)/wp-content\/(themes|uploads)\//i
 
 /\.com\/wp-admin\/css\/colors\//i
+/\.com\/wp-admin\/[a-z]{1,5}\.php/i
 
 /\.ir\/wp-admin\//i
 /\.co\.uk\/wp-admin\//i
