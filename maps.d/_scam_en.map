@@ -76,8 +76,8 @@
 
 /i have.{1,10}funds.{1,10}million/i
 /i have.{1,10}funds.{1,10}for investment/i
-/I have.{1,10}dormant.{1,10}funds/i
-/I want this.{1,10}fund to be transferred/i
+/i have.{1,10}dormant.{1,10}funds/i
+/i want this.{1,10}fund to be transferred/i
 
 /acquire this money in my name/i
 /claim of your fund/i
@@ -90,10 +90,11 @@
 
 /we have some.{1,15}deposited.{1,10}funds/i
 
-/you an opportunity.{1,10}receive.{1,15}funds/i
-/you containing.{1,10}sum of.{1,10}million/i
-/you have a fund of.{1,10}\d{3}.{0,5}\d{3}/i
-/you regarding.{1,10}compensation.{1,10}funds/i
+/you.{1,10}opportunity.{1,10}receive.{1,15}funds/i
+/you.{1,10}containing.{1,10}sum of.{1,10}million/i
+/you.{1,10}have a fund of.{1,10}\d{3}.{0,5}\d{3}/i
+/you.{1,10}regarding.{1,10}compensation.{1,10}funds/i
+/you.{1,10}receive.{1,10}manage.{1,10}funds/i
 
 /you to.{1,10}assist retrieve.{1,15}deposit/i
 /you to.{1,10}(administer|assist|move).{1,10}funds/i
@@ -274,8 +275,10 @@
 # ------------------------------------------------------------------------------
 /transaction.{1,10}if you are sure you can handle/i
 
-/you.{1,10}help.{1,10}(manage|move).{1,15}asset sum/i
-/your.{1,10}assistance to move.{1,10}\d{3}.{0,5}\d{3}.{1,10}(dollar|euro?|gbp|usd)/i
+/you.{1,10}help.{1,15}(manage|move|transfer).{1,15}(asset|sum)/i
+
+/your.{1,10}assistance.{1,10}(manage|move|transfer).{1,10}\d{3}.{0,5}\d{3}.{1,10}(dollar|euro?|gbp|usd)/i
+
 
 # Trustworthy Person
 # ------------------------------------------------------------------------------

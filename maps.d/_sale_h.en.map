@@ -20,6 +20,8 @@
 # Watches, Replicas
 # ------------------------------------------------------------------------------
 /rolex.?watch(es)?.{1,10}start at/i
+/rolex.?watch(es)?.{1,10}up to.{1,10}off/i
+
 /designer watches.{1,10}unbeatable prices/i
 /discount.?watches/i
 
