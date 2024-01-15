@@ -17,6 +17,7 @@
 
 # Assistance
 # ------------------------------------------------------------------------------
+/sie um ihre unterstützung bei.{1,10}überweisung/iu
 
 # ATM Card
 # ------------------------------------------------------------------------------
@@ -104,15 +105,19 @@
 
 /geschäft für sie.{1,10}kontaktieren sie mich/iu
 /geschäft im wert von.{1,15}millionen.{1,10}zu besprechen/iu
-/geschäfts.?vorschlags? zu kontaktieren/iu
+
+/geschäfts.?vorschlags?.{1,10}zu kontaktieren/iu
+/geschäfts.?vorschlags?.{1,10}sie interessiert sind/i
 
 /beide seiten vorteilhaftes geschäft im wert von/iu
+
+/kontaktiere sie.{1,15}eines.{1,10}geschäftsvorschlags/iu
 
 /ich brauche ihre.{1,10}partnerschaft/i
 /ich habe einen.{1,10}vorteilhaften.{1,10}vorschlag/i
 
 /ich habe ein.{1,15}geschäft für sie/iu
-/ich habe ein.{1,10}lukratives angebot für sie/iu
+/ich habe ein.{1,10}lukratives.{1,10}angebot für sie/iu
 /ich habe ein.{1,10}geschäfts?.{1,15}das ich.{1,10}mit ihnen/i
 
 /ich habe einen geschäfts?vorschlag/iu

@@ -16,10 +16,12 @@
 
 # Assistance
 # ------------------------------------------------------------------------------
-/assist men.{1,10}sincerelyn.{1,10}confident/i
+/assist men.{1,10}sincerely.{1,10}confident/i
 /your.{1,10}assistance to receive.{1,10}sum/i
 
 /i solicit for your.{1,15}assistance/i
+
+/requesting your cooperation.{1,10}receive/i
 
 # ATM Card
 # ------------------------------------------------------------------------------
@@ -74,9 +76,11 @@
 
 /about your unpaid.{1,10}funds/i
 
-/i have.{1,10}funds.{1,10}million/i
-/i have.{1,10}funds.{1,10}for investment/i
+/i have.{1,10}(funds|sum of).{1,10}for investment/i
+/i have.{1,10}(funds|sum of).{1,10}million/i
+
 /i have.{1,10}dormant.{1,10}funds/i
+
 /i want this.{1,10}fund to be transferred/i
 
 /acquire this money in my name/i
@@ -124,7 +128,9 @@
 # ------------------------------------------------------------------------------
 /i inherited money from my.{1,10}late.{1,10}husband/i
 /invest my inheritance fund/i
-/inheritance claim in my bank/i
+
+/inheritance funds.{1,10}your bank account/i
+/inheritance claim.{1,10}in my bank/i
 
 /unclaimed inheritance.{1,10}your last.?name/i
 

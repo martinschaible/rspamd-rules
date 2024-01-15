@@ -23,6 +23,8 @@
 
 /confirm your.{1,15}account ownership to.{1,15}password/i
 
+/dear (customer|madam|sir).{1,10}we recently detected an issue/i
+
 # Account - Activation
 # ------------------------------------------------------------------------------
 
@@ -52,7 +54,7 @@
 
 # Password
 # ------------------------------------------------------------------------------
-/dear (madam|sir).{1,10}your system password/i
+/dear (customer|madam|sir).{1,10}your system password/i
 
 # Password - Keep the same
 # ------------------------------------------------------------------------------

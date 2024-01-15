@@ -38,6 +38,8 @@
 /provide us with.{1,10}(brochure|catalog).{1,10}of your products/i
 /pi for.{1,10}attached po/i
 
+/send us your company.{1,15}(brochure|catalog)/i
+
 # Price List
 /send price.?list.{1,10}products.?pictures via/i
 /send pictures.{1,15}(brochure|catalog).{1,20}price.?list/i
@@ -69,6 +71,8 @@
 
 /special offer.{1,15}complete our.{1,15}marketing.{1,10}survey/i
 
+/selected.{1,10}receive.{1,10}exclusive.{1,10}offer/i
+
 /this.{1,10}great part.?time.?job/i
 
 /you need to do.{1,10}complete.{1,10}quick online.{1,10}survey/i
@@ -82,7 +86,9 @@
 /(ace hardware|costco).{1,10}has.{1,10}surprise for you/i
 /(ace hardware|costco).{1,10}reward has arrived/i
 
-/dewalt.{1,15}rdrill.{1,10}rconfirmation/i
+/dewalt.{1,15}rdrill.{1,10}confirmation/i
+
+/exclusive.{1,10}reward offer.{1,10}participating/i
 
 # Winning, Products
 # ------------------------------------------------------------------------------
