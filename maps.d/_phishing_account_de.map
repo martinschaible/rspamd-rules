@@ -43,6 +43,8 @@
 
 /sie ihr.{1,15}konto verlieren/i
 
+/sicherheitsgründen.{1,10}wir den zugriff auf ihr.{1,15}konto gesperrt/iu
+
 /wir vorsorglich ihr.{1,15}konto sperren/i
 /wir mussten.{1,15}konto.?funktionen einschränken/iu
 
@@ -151,6 +153,10 @@
 
 # Account - 2FA Activation
 # ------------------------------------------------------------------------------
+
+# Account - Payment options
+# ------------------------------------------------------------------------------
+/sie ihre zahlungsdaten aktualisieren/i
 
 #
 #
