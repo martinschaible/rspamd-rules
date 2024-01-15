@@ -60,6 +60,8 @@
 
 /www\.google\.[a-z]{2,3}\/url\?q/i
 
+/https:\/\/google\.com*\i\.imgur\.com/i
+
 # Others
 # ------------------------------------------------------------------------------
 /tinyurl\.com(.|\n)*mcusercontent\.com\//i
