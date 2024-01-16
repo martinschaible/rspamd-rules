@@ -41,6 +41,9 @@
 # Sample: .com/9/www/
 /\.com\/\d\/www\//i
 
+# Sample :https://pathwright.imgix.net/https%3A%2F%2Fcdn.filestackcontent.com%2FpJB9KI23SE6
+/\.[a-z]\d{2,3}\/https%/i
+
 # Sample: .com/i?u=3Dhttps://
 /\.(com|info|us)\/i\?u=3dhttps:\/\//i
 
