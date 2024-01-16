@@ -58,7 +58,7 @@
 
 # Password - Keep the same
 # ------------------------------------------------------------------------------
-/(continue|keep).{1,10}(using|with).{1,10}(current|old|same).{1,10}password/i
+/(continue|keep).{1,10}(using|with).{1,10}(current|existing|old|same).{1,10}password/i
 
 /(keep|stay).{1,10}account password.{1,10}(current|old|same)/i
 /(keep|stay).{1,10}the.{1,10}(current|old|same).{1,10}password.{1,10}use/i
