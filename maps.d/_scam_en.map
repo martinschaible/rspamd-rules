@@ -134,6 +134,8 @@
 
 /unclaimed inheritance.{1,10}your last.?name/i
 
+/your inheritance.{1,10}contract.{1,10}payment/i
+
 # Investment
 # ------------------------------------------------------------------------------
 /assist me in.{1,10}establishing.{1,15}investment/i
@@ -317,7 +319,7 @@
 
 # Ransom
 # ------------------------------------------------------------------------------
-/i.{1,10}(gained|obtained).{1,10}access.{1,10}your devices/i
+/i.{1,10}(gained|obtained).{1,10}access.{1,10}your (account|devices)/i
 /i.{1,10}managed.{1,10}install.{1,15}(trojan|virus)/i
 /i.{1,10}managed.{1,10}to get full access.{1,10}all devices/i
 
@@ -333,6 +335,7 @@
 /my bitcoin.?wallet is as follows/i
 
 /transfer to my.{1,10}account.{1,10}after the transaction/i
+/you need to transfer.{1,10}usd.{1,10}bitcoin/i
 
 # Nomination, Awards
 # ------------------------------------------------------------------------------

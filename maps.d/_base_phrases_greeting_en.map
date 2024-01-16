@@ -193,6 +193,7 @@
 # Introduction, Country
 # ------------------------------------------------------------------------------
 /my name is.{5,30}i am from.{1,10}(china|india|ukraine)/i
+/my name is.{5,30}from.{1,10}(china|india|ukraine)/i
 
 /hello.{1,10}i.?a?m.{5,25}a hong.?kong/i
 /hello.{1,10}i.?a?m.{5,25}from.{1,25}(china|india|ukraine)/i
