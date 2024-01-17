@@ -22,6 +22,9 @@
 # Sample: https://n3m6x.app.goo.gl/hfQMpxbwtaPKpiJt6
 /https:\/\/[a-z0-9]{4,10}\.app\.goo\.gl\//i
 
+# I expect false positives.
+/\/storage\.googleapis\.com/i
+
 # Combination with other domain
 # ------------------------------------------------------------------------------
 /firebasestorage\.googleapis\.com(.|\n)*\.appspot\.com\//i
