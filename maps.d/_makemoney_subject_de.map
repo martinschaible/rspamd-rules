@@ -12,7 +12,7 @@
 /(bit?coin|crypto|krypto).{1,15}handel wie profis/i
 /(bit?coin|crypto|krypto).{1,15}(trading|traden|trader)/i
 /(bit?coin|crypto|krypto).{1,15}geld.{1,10}(verdienen|machen)/i
-/(bit?coin|crypto|krypto).{1,15}machen reich/i
+/(bit?coin|crypto|krypto).{1,15}(machen reich|millionen)/i
 
 /(rally|rush) hat begonnen/i
 
@@ -20,8 +20,8 @@
 
 /wie.{1,10}(bitcoin|crypto|krypto).{1,15}handeln/i
 
-/jetzt in.{1,10}(bitcoin|crypto|krypto)/i
-/werden sie.{1,10}(bitcoin|crypto|krypto)/i
+/(jetzt in|verdienen mit|werden sie).{1,10}(bitcoin|crypto|krypto)/i
+
 /weg.{1,10}um mit bitcoin geld/i
 
 /krypto.?bullenmarkt/i
