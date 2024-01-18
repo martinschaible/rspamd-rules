@@ -45,9 +45,6 @@
 # ------------------------------------------------------------------------------
 /confirm.{1,10}if this is your{1,15}e?.?mail.?address/i
 
-/hello.{1,10}did you get my previous.{1,10}e?.?mail/i
-/you received? my previous.{1,10}e?.?mail.{1,10}regards/i
-
 # E-Mail active/correct
 # ------------------------------------------------------------------------------
 /confirm.{1,10}if you still use this.{1,10}e?.?mail.?address/i
@@ -56,6 +53,11 @@
 /is your.{1,10}e?.?mail still active/i
 
 /you.{1,10}still.{1,10}(operating|reachable|using).{1,10}(this|your).{1,10}e?.?mail/i
+
+# E-Mail received
+# ------------------------------------------------------------------------------
+/hello.{1,10}did you get my previous.{1,10}e?.?mail/i
+/you received? my previous.{1,10}e?.?mail.{1,10}regards/i
 
 # Excuses and other silly stuff
 # ------------------------------------------------------------------------------

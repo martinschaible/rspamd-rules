@@ -10,6 +10,9 @@
 # Sample: http://212-83-155-119.rev.poneytelecom.eu
 /https?:\/\/\d{2,3}-\d{2,3}-\d{2,3}-\d{2,3}\./i
 
+# Sample: http://207.149.167.72.host.secureserver.net
+/https?:\/\/\d{2,3}\.\d{2,3}\.\d{2,3}\.\d{2,3}\./i
+
 # Sample: https://dsqqsjkdgbjkqshdbjkqsdbhgjkqshbdjqskdqdqsdqsd.s3.us-west-1.amazonaws.com
 /https?:\/\/[a-z0-9]{25,50}\.s3/i
 
@@ -25,4 +28,6 @@
 # ------------------------------------------------------------------------------
 # Sample: https://$%^&.
 /https:\/\/\$%.?&\./i
-/https:\/\/[a-z]{1,25}\(\(\(\(\(\(/i
+
+/https:\/\/[a-z]{1,25}&/i
+/https:\/\/[a-z]{1,25}\(\(/i

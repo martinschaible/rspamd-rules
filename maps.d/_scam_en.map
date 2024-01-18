@@ -169,6 +169,8 @@
 /viable investment opportunities in your.{1,15}country/i
 /(who want|you) to.{1,10}invest in your.{1,15}country/i
 
+/i.{1,10}like to invest in your.{1,15}country/i
+
 /profit.{1,15}investment.{1,15}venture.{1,10}in your.{1,15}country/i
 
 /your location.{1,10}i can invest/i
@@ -293,7 +295,8 @@
 
 # Trustworthy Person
 # ------------------------------------------------------------------------------
-/i am looking for.{1,10}trustworthy person outside/i
+/i am looking for.{1,10}trustworthy.{1,10}person outside/i
+/I want is.{1,10}honest.{1,10}reliable.{1,10}person/i
 
 #
 #

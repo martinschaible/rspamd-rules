@@ -40,13 +40,8 @@
 
 /(lieber|sehr geehrter) e?.?mail.?benutzer/i
 
-/teilen sie mir.{1,10}mit.{1,10}sie diese.{1,10}e?.?mail.{1,10}erhalten haben/i
-/sie mir.{1,10}bitte mit.{1,10}sie diese.{1,10}e?.?mail.{1,10}erhalten haben/i
-
 /sie der richtige besitzer dieser.{1,10}e?.?mail/i
 /sie den besitz dieser.{1,10}e?.?mail.{1,10}bestätigen/i
-
-/e?.?mail erhalten haben.{1,10}die ich ihnen gesendet habe/i
 
 # E-Mail active/correct
 # ------------------------------------------------------------------------------
@@ -55,10 +50,17 @@
 /ist (diese|ihre).{1,10}e?.?mail.{1,10}noch aktiv/i
 /ist (diese|ihre).{1,10}e?.?mail.?adresse aktiv/i
 
-/wenn (diese|ihre) e?.?mail.{1,15}noch aktiv ist.{1,10}kontaktieren sie/i
+/wenn (diese|ihre).{1,10}e?.?mail.{1,15}noch aktiv ist.{1,10}kontaktieren sie/i
 /wissen.{1,15}(diese|ihre).{1,10}e?.?mail.{1,10}korrekt ist/i
 
-/wie geht es.{1,10}haben sie meine letzte.{1,10}e?.?mail erhalten/i
+# E-Mail received
+# ------------------------------------------------------------------------------
+/e?.?mail erhalten haben.{1,10}die ich ihnen gesendet habe/i
+
+/haben sie meine letzte.{1,10}e?.?mail erhalten/i
+
+/teilen sie mir.{1,10}mit.{1,10}sie diese.{1,10}e?.?mail.{1,10}erhalten haben/i
+/sie mir.{1,10}bitte mit.{1,10}sie diese.{1,10}e?.?mail.{1,10}erhalten haben/i
 
 # Excuses and other silly stuff
 # ------------------------------------------------------------------------------
