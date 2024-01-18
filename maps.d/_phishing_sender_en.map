@@ -22,6 +22,8 @@
 
 # EMail, Cloud, Security and Server support
 # ------------------------------------------------------------------------------
+/support!/i
+
 /(admin|e?.?mail).{0,10}(alert|security|server|support)/i
 
 /mailbox.?admin/i

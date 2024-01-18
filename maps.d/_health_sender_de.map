@@ -15,17 +15,14 @@
 
 /apotheker/i
 
-/medizin.?shop/i
-
 # Men
 # ------------------------------------------------------------------------------
-/erektion/i
-/potenz/i
+/(erektion|potenz|steinhart)/i
 
 /jetzt.?probieren/i
 /neue.?rezeptur/i
 
-/medizin.{1,10}zukunft/i
+/medizin.{1,10}(shop|zukunft)/i
 
 /sex.?produkt/i
 
