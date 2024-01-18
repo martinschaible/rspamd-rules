@@ -75,7 +75,7 @@
 
 /we are.{1,25}(china|dongguan|guangzhou|shenzhen|zhejiang).?based.{1,10}(company|manufacturer?|supplier).{1,10}(of|offering)/i
 
-/we are.{1,25}factory (located in|from).{1,15}(china|dongguan|guangzhou|shenzhen|zhejiang)/i
+/we are.{1,25}(company|factory).{1,10}(based|from|located).{1,15}(china|dongguan|guangzhou|shenzhen|zhejiang)/i
 /we are.{1,25}(professional|tooling).{1,15}manufacturer?.{1,10}(china|dongguan|guangzhou|shenzhen|zhejiang)/i
 /we are.{1,25}manufacturer.{1,10}(directly|from|in).{1,10}(china|dongguan|guangzhou|shenzhen|zhejiang)/i
 
@@ -132,6 +132,8 @@
 /i am.{1,10}writing.{1,10}introduce our company/i
 
 /has been in this field for more than.{1,10}years/i
+
+/introduce (my|our).{1,10}factory/i
 /introduce ourselves as.{1,10}leading manufacturer (in|of)/i
 
 /this is.{5,25}from.{5,35}is there any opportunity/i

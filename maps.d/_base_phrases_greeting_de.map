@@ -15,7 +15,7 @@
 /grüße.{1,10}mein lieber/iu
 /grüße.{1,10}wir freuen uns/iu
 
-/guten tag.{1,10}(madam|sir)/i
+/guten tag.{1,10}(madam|ms|sir)/i
 /guten tag.{1,10}ich bin.{5,25}eine.{1,20}investor(in)?/i
 /guten tag.{1,10}begünstigter/iu
 /guten tag.{1,5}kunde/i
@@ -28,7 +28,7 @@
 
 /hallo.{1,10}ein betrag von/i
 /hallo.{1,10}freund.{1,10}mein.name.ist/i
-/hallo.{1,10}mein.name.ist.{5,25}(aus der|gewinner|ich.arbeite|ich komme aus)/i
+/hallo.{1,10}mein.name.ist.{5,25}(aus der|gewinner|ich arbeite|ich komme aus)/i
 
 /hallo.{1,10}ich bin.{1,10}(frau|herr)/i
 /hallo.{1,10}ich bin.{5,25}ceo von/i
@@ -186,6 +186,7 @@
 
 # Silly Stuff
 # ------------------------------------------------------------------------------
+/ich.{1,10}um ihre aufmerksamkeit bitten/i
 
 #
 #
