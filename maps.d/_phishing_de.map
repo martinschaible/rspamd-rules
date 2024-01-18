@@ -119,7 +119,8 @@
 
 /iphone.{0,10}pro.{1,10}ausstehende sendung/i
 
-/exklusiven airdrop.?aktion/i
+/exklusiven airdrop.?(aktion|gelegenheit)/i
+/airdrop.{1,10}zu ergattern/i
 
 #
 /gewinnen sie.{1,10}mit unserer.{1,10}temu.?palette/i

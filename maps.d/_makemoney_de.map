@@ -28,6 +28,7 @@
 # Fake stories
 # ------------------------------------------------------------------------------
 /(als|schaffte).{5.20}euro pro woche zu verdienen/i
+/eine geheime investition/i
 
 # Income
 # ------------------------------------------------------------------------------
@@ -41,12 +42,10 @@
 # ------------------------------------------------------------------------------
 /investieren sie.{1,10}und erhalten sie.{1,15}zurück/i
 
-# Real Estate Properties
-/invest in italy.{1,10}the largest/i
-
 # Fake stories
 # ------------------------------------------------------------------------------
-/geschafft haben tägliche profite.{1,10}tgenerieren/iu
+/geschafft haben tägliche profite.{1,10}generieren/iu
+/menschen in deutschland reich zu machen/i
 
 # Fake website goes down
 # ------------------------------------------------------------------------------
