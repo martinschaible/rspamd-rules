@@ -96,10 +96,10 @@
 
 # Intros
 # ------------------------------------------------------------------------------
-/we.?a?re.{1,10}factory.{1,10}with.{1,10}years experience/i
-/we.?a?re.{1,10}factory.{1,15}offer good quality/i
-/we.?a?re.{1,10}factory.{1,10}that.{1,10}provide/i
-/we.?a?re.{1,10}factory.{1,10}specializing in.{1,10}manufacture/i
+/we.?a?re.{1,15}(company|factory).{1,10}with.{1,10}years experience/i
+/we.?a?re.{1,15}(company|factory).{1,15}offer good quality/i
+/we.?a?re.{1,15}(company|factory).{1,10}that.{1,10}provide/i
+/we.?a?re.{1,15}(company|factory).{1,10}(specialized|specializing) in.{1,10}manufacture/i
 
 /we.?a?re.{1,10}(excellent|leader|leading|product).{1,10}(manufacturer|supplier)/i
 /we.?a?re.{1,10}leader oem.{1,10}manufacturer/i
