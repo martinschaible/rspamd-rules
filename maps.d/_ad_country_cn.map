@@ -272,13 +272,14 @@
 /handle injection molding projects/i
 /plastic injection molding manufacturer/i
 
-/you (interested|need).{1,10}injection.{1,10}molding/i
+/you (interested||looking|need).{1,10}injection.{1,10}molding/i
 /you looking for.{1,10}reliable.{1,10}experienced.{1,10}plastic/i
 
 /we.?a?re.{1,10}(professional|reliable).{1,20}molding/i
 /we.?a?re.{1,10}injection.{1,10}mould fabricator/i
 
 /we can handle.{1,10}injection.{1,10}molding/i
+/we offer.{1,15}mold.{1,10}plastics/i
 /we provide.{1,10}mold.{1,10}manufacturing/i
 
 # PCB

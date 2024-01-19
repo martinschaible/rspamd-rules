@@ -62,6 +62,8 @@
 /you have (been selected|emerged) as one of.{1,20}beneficiaries/i
 /you to be.{1,10}nearest.{1,10}beneficiary/i
 
+/your name as.{1,10}beneficiary/i
+
 # Currency, Big numbers
 # ------------------------------------------------------------------------------
 
@@ -280,7 +282,9 @@
 /contacting.{1,20}you.{1,10}share the.{1,10}same last.?name/i
 
 /last.?name with.{1,10}(deceased|late).{1,10}(client|customer)/i
-/you have the same.{1,10}last.?name/i
+
+/you bear the.{1,10}(last|sur).?name/i
+/you have the same.{1,10}(last|sur).?name/i
 
 /(deceased|late).{1,10}(client|customer).{1,10}of mine.{1,10}shares the same.{1,10}name/i
 
