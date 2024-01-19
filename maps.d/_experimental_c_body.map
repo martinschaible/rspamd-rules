@@ -60,7 +60,7 @@
 
 /www\.google\.[a-z]{2,3}\/url\?q/i
 
-/https:\/\/google\.com*\i\.imgur\.com/i
+/https:\/\/google\.com(.|\n)*\.imgur\.com/i
 
 # Others
 # ------------------------------------------------------------------------------
