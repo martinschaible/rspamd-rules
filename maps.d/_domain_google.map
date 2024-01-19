@@ -24,6 +24,7 @@
 
 # I expect false positives.
 /\/storage\.googleapis\.com/i
+/\.storage\.googleapis\.com/i
 
 # Combination with other domain
 # ------------------------------------------------------------------------------

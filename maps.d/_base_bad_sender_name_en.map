@@ -120,7 +120,7 @@
 # ------------------------------------------------------------------------------
 /(australia|google|usa|uk).?(lotterie|lottery)/i
 /(euro|mega).?(jackpot|milions)/i
-/navidad.{0,10}loteria/i
+/(central|navidad).{0,10}loteria/i
 
 /award.?team/i
 
