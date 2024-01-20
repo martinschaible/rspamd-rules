@@ -1,0 +1,31 @@
+# ==============================================================================
+# Trigger: Bad Domains
+#
+# -> This triggers these maps:
+#    "_domain_trigger_domain.map"
+#    "_domain_trigger_keyword_de.map"
+#    "_domain_trigger_keyword_en.map"
+#
+# ----|
+# 0.5 |
+# ==============================================================================
+
+# These are quite often in use
+# ------------------------------------------------------------------------------
+
+# Amazon
+/amazonaws\.com/i
+
+/app\.getresponse\.com/i
+/dl\.dropboxusercontent\.com/i
+/bit\.ly/i
+/tinyurl\.com/i
+/firebaseapp\.com/i
+/sendibm1\.com/i
+
+# Google
+/storage\.googleapis\.com/i
+
+# Twitter
+/pbs\.twimg\.com/i
+/t\.co/i
