@@ -23,7 +23,7 @@
 /https:\/\/[a-z0-9]{4,10}\.app\.goo\.gl\//i
 
 # I expect false positives.
-/\/storage\.googleapis\.com/i
+/https:\/\/storage\.googleapis\.com/i
 /\.storage\.googleapis\.com/i
 
 # Combination with other domain
