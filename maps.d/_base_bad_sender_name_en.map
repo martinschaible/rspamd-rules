@@ -61,6 +61,8 @@
 # Adult: Dating and Porn
 # ------------------------------------------------------------------------------
 /(adult|erotic).?(dates?|dating)/i
+/adult.?tiktok/i
+
 /casual.?adults/i
 /(date|dating).{0,10}(club|team|room)/i
 /dirty.?talk/i
