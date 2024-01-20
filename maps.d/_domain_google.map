@@ -13,6 +13,8 @@
 
 /app\.goo\.gl/\?link=.{0,5}https?/i
 
+/com\.google\.com/i
+
 /\.translate\.goog\/\?/i
 
 /https:\/\/sites\.google\.com\/view\//i
@@ -25,10 +27,3 @@
 # I expect false positives.
 /https:\/\/storage\.googleapis\.com/i
 /\.storage\.googleapis\.com/i
-
-# Combination with other domain
-# ------------------------------------------------------------------------------
-/firebasestorage\.googleapis\.com(.|\n)*\.appspot\.com\//i
-/firebasestorage\.googleapis\.com(.|\n)*https:\/\//static\.wixstatic\.com\//i
-
-/\.googleusercontent\.com(.|\n)*https:\/\/t\.co\//i
