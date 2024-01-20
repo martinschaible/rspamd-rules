@@ -21,6 +21,12 @@
 /r(-|_|:)ezep(-|_|:)tfrei/i
 /re(-|_|:)zept(-|_|:)frei/i
 
+/ohne r(-|_|:)ezept/i
+/ohne re(-|_|:)zept/i
+/ohne rez(-|_|:)ept/i
+/ohne reze(-|_|:)pt/i
+/ohne rezep(-|_|:)t/i
+
 # Fungus
 # ------------------------------------------------------------------------------
 
@@ -34,9 +40,11 @@
 /(gut|schlecht).{1,10}(im bett|in der kiste)/i
 /langweilig im bett/i
 
+/potenz in die/i
+
 # Prescription
 # ------------------------------------------------------------------------------
-/ohne rezept in/i
+/ohne rezept/i
 
 # Weightloss
 # ------------------------------------------------------------------------------
