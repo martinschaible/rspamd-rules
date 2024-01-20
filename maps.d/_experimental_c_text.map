@@ -30,42 +30,13 @@
 /ihre antwort genügt.{1,10}wir senden sofort zu ihnen/iu
 /premium.box.gmbh/i
 
-# Microsoft
-# ------------------------------------------------------------------------------
-# Sample: .blob.core.windows.net/bulkmailmanager89640510/STEGDHHSG_ESEN.html
-#         .blob.core.windows.net/gooodlinkmailprobulk2024/OOKEJDMMMMSJEUUDJJSH_HSYEGDY.html"
-/\.blob\.core\.windows\.net\/[a-z0-9]{15,30}\/[a-z_]{10,30}\.html/i
-
 # Twitter
 # ------------------------------------------------------------------------------
 /<a href=(3d)?"https:\/\/t\.co\/[a-z0-9]{5,15}" target=(3d)?"_blank"/i
 /https:\/\/t\.co\/[a-z0-9]{5,15}" target=(3d)?"_blank"><img src=(3d)?"https/i
 
-/https:\/\/t\.co\/(.|\n)*static\.wixstatic\.com/i
-/https:\/\/t\.co\/(.|\n)*\.googleusercontent\.com/i
-
-# Wix.com
-# ------------------------------------------------------------------------------
-/static\.wixstatic\.com(.|\n)*https:\/\/t\.co\//i
-/static\.wixstatic\.com(.|\n)*https:\/\/www\.linkedin\.com\//i
-
-# Google
-# ------------------------------------------------------------------------------
-/\.googleusercontent\.com(.|\n)*https:\/\/t\.co\//i
-
-/firebasestorage\.googleapis\.com(.|\n)*https:\/\//static\.wixstatic\.com\//i
-/firebasestorage\.googleapis\.com(.|\n)*\.appspot\.com\//i
-
-/com\.google\.com/i
-
-/www\.google\.[a-z]{2,3}\/url\?q/i
-
-/https:\/\/google\.com(.|\n)*\.imgur\.com/i
-
 # Others
 # ------------------------------------------------------------------------------
-/tinyurl\.com(.|\n)*mcusercontent\.com\//i
-
 /<img src=.?https:\/\/[a-z0-9]{5,20}\.cloudfront\.net/i
 
 # Wikipedia, Yahoo
@@ -73,18 +44,6 @@
 /<img alt=(''|"") src=.?https:\/\/upload\.wikimedia\.org\/wikipedia\/commons/i
 
 /<img alt=(''|"") src=.?http:\/\/yahoo\.com/i
-
-# Sendgrid
-# ------------------------------------------------------------------------------
-/sendgrid\.net(.|\n)*\.s3\.amazonaws\.com/i
-
-# Facebook CDN used for image hosting
-# ------------------------------------------------------------------------------
-/scontent-.{4,6}\.xx\.fbcdn\.net/i
-
-# No damn Keto stuff in URL's
-# ------------------------------------------------------------------------------
-/https:\/\/[a-z]{0,10}.?keto/i
 
 # Characters
 # ------------------------------------------------------------------------------
