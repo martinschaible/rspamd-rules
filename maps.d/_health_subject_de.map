@@ -18,6 +18,16 @@
 /rezeptfr(-|_|:)ei/i
 /rezeptfre(-|_|:)i/i
 
+/r ezeptfrei/i
+/re zeptfrei/i
+/rez eptfrei/i
+/reze ptfrei/i
+/rezep tfrei/i
+/rezept frei/i
+/rezeptf rei/i
+/rezeptfr ei/i
+/rezeptfre i/i
+
 /r(-|_|:)ezep(-|_|:)tfrei/i
 /re(-|_|:)zept(-|_|:)frei/i
 
@@ -38,14 +48,15 @@
 
 # Men
 # ------------------------------------------------------------------------------
-/erektions.?pillen/i
+/(erektions|potenz).?(mittel|pillen)/i
+
 /starke.erektion/i
 /produktion.{1,10}sexualhormonen/i
 
 /(gut|schlecht).{1,10}beim (beischlaf|lieben|liebesspiel|sex|s\.e\.x)/i
 /(gut|schlecht).{1,10}(im bett|in der kiste)/i
-/langweilig im bett/i
 
+/langweilig im bett/i
 /potenz in die/i
 
 # Prescription
