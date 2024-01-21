@@ -134,9 +134,11 @@
 # Videos
 # ------------------------------------------------------------------------------
 /(check out|watch) this.{1,10}eye.?opening.{1,10}video/i
+/before.{1,10}censored.{1,10}click here to watch/i
+
 /revolutionary.{1,10}video contains/i
 
-/watch it before it.?i?s too late/i
+/watch it.{1,10}before it.?i?s too late/i
 
 /watch (the|this).{1,10}(controversial|disturbing|revolutionary|shocking|urgent).{1,10}video/i
 /watch (the|this).{1,10}video before.{1,20}(attorney|big)/i
