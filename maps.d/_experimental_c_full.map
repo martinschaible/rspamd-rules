@@ -37,8 +37,6 @@
 
 # Others
 # ------------------------------------------------------------------------------
-/tinyurl\.com(.|\n)*mcusercontent\.com\//i
-
 /<img src=.?https:\/\/[a-z0-9]{5,20}\.cloudfront\.net/i
 
 # Wikipedia, Yahoo
@@ -69,7 +67,6 @@
 
 # No SSL and an exotic TLD
 # ------------------------------------------------------------------------------
-# -> Works here
 /http:\/\/(www\.)?[a-z]{3,20}\.(club|email|services|shop|today|world)/i
 # Subdomain
 /http:\/\/[a-z0-9-]{3,25}\.[a-z]{3,20}\.(club|email|services|shop|today|world)/i
