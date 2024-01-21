@@ -146,7 +146,8 @@
 
 /sie aufgrund einer ausstehenden.{1,10}überweisung/iu
 /sie vom entschädigungsausschuss/iu
-/sie werden.{1,10}mit einer summe von.{1,10}\d{3}.{0,5}\d{3}/i
+/sie (werden|wurden).{1,10}mit.{1,10}summe von.{1,10}\d{3}.{0,5}\d{3}/i
+/sie (werden|wurden).{1,10}mit.{1,10}summe entschädigt/iu
 
 /zahlung von.{1,10}\d{3}.{0,5}\d{3}.{1,15}dollar auf ihr konto/i
 
@@ -312,3 +313,5 @@
 /vertrauliches geschäftsabkommen/iu
 
 /ich suche ihre dienste als partner/i
+
+/partnerschaftsinvestition/i

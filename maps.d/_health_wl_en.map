@@ -15,12 +15,16 @@
 /try this.{1,15}fat.?burning/i
 
 /(burn|melt)s?.{1,10}(belly|body).?fat.{1,15}(crazy|fast|overnight)/i
+/(burn|melt)s?.{1,10}(lbs|pounds).{1,10}(a|per) week/i
 /(burn|melt)s?.{1,10}(lbs|pounds).{1,10}fat (a|per) week/i
 /(burn|melt)s?.{1,10}(lbs|pounds).{1,10}in just days/i
-/(burn|melt)s?.{1,10}(lbs|pounds) of.{1,10}fat/i
+/(burn|melt)s?.{1,10}(lbs|pounds).{1,10}of.{1,10}fat/i
+/(burn|melt)s?.{1,10}(lbs|pounds).{1,15}(belly|body).?fat/i
+
 /(burn|melt)s?.{1,10}fat.{1,10}it boosts/i
 /(burn|melt)s?.{1,10}off (belly|body).?fat/i
 /(burn|melt)s?.{1,10}unwanted.{1,10}(belly|body).?fat/i
+/(burn|melt)s?.{1,10}dangerous{1,10}fat/i
 
 /ingredient dissolves.{1,10}(lbs|pounds) of.{1,10}fat/i
 /losing.{1,10}average of.{1,10}(lbs|pounds)/i
@@ -33,9 +37,6 @@
 /you struggling.{1,10}lose weight/i
 
 /(achieve|solve) your.{1,10}weight.?loss/i
-
-/melt away.{1,10}(lbs|pounds).{1,15}(belly|body).?fat/i
-/melt over.{1,10}(lbs|pounds).{1,10}(a|per) week/i
 
 /(method|technique|way).{1,10}(burn|melt).{1,10}belly.?fat/i
 /simple.{1,10}(method|technique|way).{1,10}boosts calorie burning/i

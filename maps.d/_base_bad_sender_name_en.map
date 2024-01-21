@@ -32,6 +32,7 @@
 
 # Fake Departments or Companies
 # ------------------------------------------------------------------------------
+/google.?(inc|llc)/i
 
 # People pretending be a philanthropist
 # ------------------------------------------------------------------------------
@@ -60,10 +61,10 @@
 
 # Adult: Dating and Porn
 # ------------------------------------------------------------------------------
-/(adult|erotic).?(dates?|dating)/i
-/adult.?tiktok/i
+/(adult|erotic).?(dates?|dating|tiktok)/i
 
-/casual.?adults/i
+/(casual|tiktok).{0,10}adult/i
+
 /(date|dating).{0,10}(club|team|room)/i
 /dirty.?talk/i
 
@@ -95,6 +96,7 @@
 /crypto.?(forex|news)/i
 
 /blockchain/i
+/official.?system/i
 
 # Mortgage
 # ------------------------------------------------------------------------------

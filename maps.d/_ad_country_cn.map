@@ -308,9 +308,10 @@
 /provide.{1,10}cost saving.{1,10}(pcba?|printed.circuit.board)/i
 
 /experience in.{1,10}(pcba?|printed.circuit.board).{1,10}manufacturing/i
-/we.{1,10}focus on pcba?/i
 
+/we.{1,10}focus on pcba?/i
 /we.{1,10}(offer|specializing|provide).{1,10}(pcba?|printed.circuit.board).{1,10}(assembly|layers|production)/i
+/we.{1,10}(offer|specializing|provide).{1,10}you with.{1,15}(pcba?|printed.circuit.board)/i
 
 /we.?a?re.{1,10}(pcba?|printed.circuit.board).{1,10}manufacturer/i
 

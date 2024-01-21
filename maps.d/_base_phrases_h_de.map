@@ -66,7 +66,8 @@
 # Excuses and other silly stuff
 # ------------------------------------------------------------------------------
 /wenn ich ihre privatsphäre störe/iu
-/entschuldigen sie diese art der kontaktaufnahme/i
+/entschuldigen sie.{1,10}art der kontaktaufnahme/i
+/entschuldigen sie.{1,10}eingriff in ihre privatsphäre/iu
 
 # How they get the Email address
 # ------------------------------------------------------------------------------
@@ -119,9 +120,11 @@
 /diese e?.?mail sie in einem.{1,10}guten zustand erreicht/i
 /diese e?.?mail wird sie gut treffen/i
 
-/diese nachricht findet dich gut/i
-/diese nachricht kommt gut bei ihnen an/i
-/diese nachricht sie gut findet/i
+/diese nachricht.{1,10}findet dich gut/i
+/diese nachricht.{1,10}kommt gut bei ihnen an/i
+/diese nachricht.{1,10}sie gut findet/i
+/diese nachricht.{1,10}sie in bester stimmung trifft/i
+
 /dieser brief erreicht dich in guter stimmung/i
 
 /lesen sie nachrichten/i

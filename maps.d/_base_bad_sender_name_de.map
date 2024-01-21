@@ -22,6 +22,8 @@
 
 # Fake Departments or Companies
 # ------------------------------------------------------------------------------
+/von.?google/i
+
 /kundenservice.{0,5}team/i
 
 # People pretending be a philanthropist
