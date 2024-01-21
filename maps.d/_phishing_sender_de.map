@@ -54,7 +54,7 @@
 /post.?lieferung.?updates/i
 /post.?(depot|nachrichten)/i
 
-/sendungs.?mitteilung/
+/sendungs.?(mitteilung|verfolgung)/i
 /sofortige.zustellung/i
 
 /swiss.?lieferung/i
@@ -103,7 +103,7 @@
 /deine.?chance/i
 /nur.?heute/i
 
-/letzte chance/I
+/letzte chance/i
 /es tut uns leid/i
 /du bist geeignet/i
 /sie sind (ausgewählt|berechtigt)/iu
