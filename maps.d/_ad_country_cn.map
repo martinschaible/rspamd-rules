@@ -100,6 +100,7 @@
 /we.?a?re.{1,15}(company|factory).{1,15}offer good quality/i
 /we.?a?re.{1,15}(company|factory).{1,10}that.{1,10}provide/i
 /we.?a?re.{1,15}(company|factory).{1,10}(specialized|specializing) in.{1,10}manufacture/i
+/we.?a?re.{1,15}(company|factory).{1,10}products include/i
 
 /we.?a?re.{1,10}(excellent|leader|leading|product).{1,10}(manufacturer|supplier)/i
 /we.?a?re.{1,10}leader oem.{1,10}manufacturer/i
@@ -123,6 +124,7 @@
 /we are.{1,10}specialize.{1,10}in.{1,10}production of/i
 /we are.{1,10}specialize.{1,10}in.{1,15}manufacturing/i
 
+/We are.{1,10}registered.{1,15}(supplier|vendor)/i
 /we are.{1,10}the leading importers/i
 /We are.{1,10}the most.{1,15}supplier/i
 /we are.{1,10}directly factory/i
