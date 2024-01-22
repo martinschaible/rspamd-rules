@@ -16,7 +16,7 @@
 /you need.{1,10}loans?/i
 
 /we are open.{1,10}(finance|loans?)/i
-/we offer.{1,10}(finance|loans?)/i
+/we (offer|provide).{1,10}(finance|funding|loans?)/i
 
 # Financing
 # ------------------------------------------------------------------------------

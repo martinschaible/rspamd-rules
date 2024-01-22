@@ -156,11 +156,11 @@
 /(werkstatt|werkzeug).?(trolley|wagen).{1,10}ist aus robustem/i
 /(werkstatt|werkzeug).?(trolley|wagen).{1,10}konstruiert aus/i
 /(werkstatt|werkzeug).?(trolley|wagen).{1,10}inklusive.{1,20}werkzeug/i
+/(werkstatt|werkzeug).?(trolley|wagen).{1,10}spezialangebot/i
 
-/hochwertiger.{1,10}(werkstatt|werkzeug).?(trolley|wagen).{1,10}inkl/i
+/(hochwertiger|performance|unser).{1,10}(werkstatt|werkzeug).?(trolley|wagen).{1,10}(inkl|ist mit|kommt)/i
 
-/unser.{1,10}(werkstatt|werkzeug).?(trolley|wagen).{1,10}ist mit/i
-/unser.{1,10}hochwertigen.{1,10}(werkstatt|werkzeug).?(trolley|wagen)/i
+/unser.{1,10}hochwertige.{1,10}(werkstatt|werkzeug).?(trolley|wagen)/i
 
 /werkzeug.{1,10}aus chrom.?vanadium/i
 /werkzeug.{1,10}(komplett)?.?set.{1,10}alukoffer/i
@@ -207,7 +207,9 @@
 
 /antworten.{1,10}adresse angeben/i
 
-/bestellen.{1,10}einfach antworten/i
+/(bestellen|bestellung).{1,10}einfach antworten/i
+
+/bestellen.{1,10}auf rechnung einfach.{1,10}antworten/i
 /bestellen.{1,15}einfach auf dieses?.{1,10}(e?.?mail|schreiben) antworten/i
 /bestellen.{1,15}einfach mit.{1,15}(adresse|anschrift).{1,10}diese e?.?mail antworten/i
 /bestellen.{1,15}einfach mit.{1,15}(adresse|anschrift).{1,10}antworten/i
