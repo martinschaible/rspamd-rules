@@ -68,6 +68,8 @@
 
 /um den.{1,10}fonds zu beanspruchen/i
 
+/vorschlag.{1,10}\d{2,3}.{0.5}\d{2,3}.{1,10}(euro|gbp|usd)/i
+
 # Funds, Money - Sharing
 # ------------------------------------------------------------------------------
  /betrag.{1,10}zwischen ihnen und mir aufgeteilt wird/i

@@ -335,6 +335,7 @@
 /i.{1,10}managed.{1,10}to get full access.{1,10}all devices/i
 
 /i am.{1,10}professional hacker/i
+/i am.{1,10}hacker.{1,10}has access/i
 
 /managed to hack.{1,10}your.{1,10}operating.?system/i
 
@@ -342,8 +343,10 @@
 
 # Ransom, Payment
 # ------------------------------------------------------------------------------
-/below is.{1,10}bitcoin.?wallet of mine/i
-/my bitcoin.?wallet is as follows/i
+/below is.{1,10}bitcoin.?(address|wallet) of mine/i
+
+/my bitcoin.?(address|wallet) is as follows/i
+/my bitcoin.?(address|wallet) is/i
 
 /transfer to my.{1,10}account.{1,10}after the transaction/i
 /you need to transfer.{1,10}usd.{1,10}bitcoin/i

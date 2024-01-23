@@ -74,6 +74,8 @@
 
 /release the suspended e?.?mail.{1,10}to.{1,10}inbox/i
 
+/receiving.{1,10}e?.?mail.{1,10}if not verified within/i
+
 # After server update
 /updates on our server.{1,10}your.{1,10}e?.?mail/i
 
@@ -82,6 +84,8 @@ your recent request.{1,10}de.?activate your.{1,10}e?.?mail/i
 
 # Termination
 /termination request on your.{1,10}e?.?mail.?address/i
+
+# Blocking
 
 # Storage
 # ------------------------------------------------------------------------------

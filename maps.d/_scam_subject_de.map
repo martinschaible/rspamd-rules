@@ -20,6 +20,8 @@
 
 /millionen.{1,15}tausend{1,10}(euro|gbp|usd)/i
 
+/vorschlag.{1,10}\d{2,3}.{0.5}\d{2,3}.{1,10}(euro|gbp|usd)/i
+
 # Choosen
 # ------------------------------------------------------------------------------
 /sie wurden ausgewählt/iu
