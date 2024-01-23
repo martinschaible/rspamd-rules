@@ -41,7 +41,7 @@
 
 # Parcel
 # ------------------------------------------------------------------------------
-/(anweisungen|ausstehend )/i
+/(anweisungen|ausstehend|dringend)/i
 /bestellung.?versand/i
 
 /liefer.?aktualisierung/i
