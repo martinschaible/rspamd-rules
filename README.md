@@ -17,8 +17,7 @@ As i did it in *Declude* i created maps related to different categories mostly f
 🐛 Bugs and problems can be reported here: [Issues](https://github.com/martinschaible/rspamd-rules/issues).
 
 
-To be honest, I haven't understood everything yet and therefore not every rules is perfect.
+To be honest, I haven't understood everything yet and therefore not every rule is perfect.
 Sometimes it is hard to understand the documentation for me.
 
-:bulb: That is a good reason to start a [Wiki](https://github.com/martinschaible/rspamd-rules/wiki).
-
+:bulb: I started a [Wiki](https://github.com/martinschaible/rspamd-rules/wiki).
