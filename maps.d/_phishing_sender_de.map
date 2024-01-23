@@ -41,7 +41,7 @@
 
 # Parcel
 # ------------------------------------------------------------------------------
-/anweisungen/i
+/(anweisungen|ausstehend )/i
 /bestellung.?versand/i
 
 /liefer.?aktualisierung/i
@@ -59,8 +59,7 @@
 
 /swiss.?lieferung/i
 
-/versand.?hinweise/i
-/versand.?status.?team/i
+/versand.?(hinweise|status.?team)/i
 
 /zustell.?(aktualisierung|nachrichten|status)/i
 
