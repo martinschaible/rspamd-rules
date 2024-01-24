@@ -30,6 +30,8 @@
 /security.notification/i
 /(mail|webmail).{0,5}(admin|server|support|team)/i
 
+/server.?admin/i
+
 /\.(ch|com|de|org).?(security|server)/i
 
 # Hosting
