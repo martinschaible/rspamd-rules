@@ -97,11 +97,14 @@
 
 # Tischkicker
 # ------------------------------------------------------------------------------
-/tischfußball.{1,10}(aktion|angebot)/i
+/tischfußball.{1,10}(aktion|angebot|highlight)/i
+/tischfußball.{1,10}für nur/i
 
 /tischfußballtisch.{1,10}für nur/iu
 /tischfußballtisch.{1,10}für.{1,10}statt/iu
-/hightlight.{1,10}tischfußballtisch/iu
+/(hightlight|professioneller|profi).{1,10}tischfußballtisch/iu
+
+/sparen sie.{1,20}tischfußball/i
 
 # Umbrellas
 # ------------------------------------------------------------------------------
