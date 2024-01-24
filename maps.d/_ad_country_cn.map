@@ -244,6 +244,7 @@
 /we.?a?re.{1,10}electronic.{1,10}components?.{1,10}(broker|distributor|provider)/i
 /we.?a?re.{1,10}electrical.{1,10}products.{1,10}automatic/i
 /we.?a?re.{1,10}passive.{1,10}components/i
+/we.?a?re.{1,20}professional.{1,10}electronic/i
 
 /we.?a?re.{1,10}leading provider.{1,10}(components|electronic)/i
 
@@ -255,6 +256,9 @@
 
 /you looking for.{1,10}capacitors/i
 /you also need any.{1,10}capacitors/i
+
+# China
+/electronic distributor in.{1,10}(china|dongguan|guangzhou|shenzhen|zhejiang)/i
 
 # Glass
 # ------------------------------------------------------------------------------

@@ -37,7 +37,10 @@
 
 /attached rfq inquiry.{1,10}send us your pricing/i
 /catalog price list.{1,10}payment method/i
-/provide us with.{1,10}(brochure|catalog).{1,10}of your products/i
+
+/provide us.{1,15}(brochure|catalog).{1,10}of your products/i
+/provide us.{1,15}(brochure|catalog).{1,10}data.?sheet for approval/i
+
 /pi for.{1,10}attached po/i
 
 /we would like.{1,10}discuss placing an.{1,10}order/i
@@ -102,7 +105,6 @@
 # Failed Payment
 # ------------------------------------------------------------------------------
 
-
 # Subscriptions
 # ------------------------------------------------------------------------------
 
@@ -129,6 +131,10 @@
 
 # Companies, Government
 # ==============================================================================
+
+# Netflix
+/add a payment.{1,10}start streaming/i
+/payment information.{1,10}you can.{1,10}streaming/i
 
 #
 #

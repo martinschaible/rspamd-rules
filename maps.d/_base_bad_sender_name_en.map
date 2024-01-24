@@ -91,10 +91,10 @@
 
 # Make Money
 # ------------------------------------------------------------------------------
-/bitcoin.?millionaire/i
-/billionaire/i
+/bitcoin.?(millionaire|network)/i
 /crypto.?(currency|forex|news)/i
 
+/billionaire/i
 /blockchain/i
 /official.?system/i
 
