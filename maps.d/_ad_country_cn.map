@@ -73,7 +73,7 @@
 /we are.{1,25}chinese.{1,10}leading/i
 /we are.{1,25}chinese.{1,15}(leading|manufacturer|supplier)/i
 
-/we are.{1,25}(china|dongguan|guangzhou|shenzhen|zhejiang).?based.{1,10}(company|manufacturer?|supplier).{1,10}(of|offering)/i
+/we are.{1,25}(china|dongguan|guangzhou|shenzhen|zhejiang).?(based)?.{1,10}(company|manufacturer?|supplier).{1,10}(of|offering|specializing)/i
 
 /we are.{1,25}(company|factory).{1,10}(based|from|located).{1,15}(china|dongguan|guangzhou|shenzhen|zhejiang)/i
 /we are.{1,25}(professional|tooling).{1,15}manufacturer?.{1,10}(china|dongguan|guangzhou|shenzhen|zhejiang)/i

@@ -9,7 +9,9 @@
 
 # Attachments
 # ------------------------------------------------------------------------------
-/attached the updated statement of account/i
+/attached.{1,10}the updated statement of account/i
+/attachment for.{1,10}detailed description.{1,10}requirements/i
+
 /find bank.?transfer.{1,10}(form|details).{1,10}attached/i
 
 # Documents

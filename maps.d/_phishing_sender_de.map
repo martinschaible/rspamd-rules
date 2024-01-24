@@ -7,11 +7,10 @@
 
 # Accounts
 # ------------------------------------------------------------------------------
-/konto.?(aktivität|hilfe|wiederherstellung)/iu
-
-/(account|konto).?aktivierung/i
+/(account|konto).?(aktivität|aktivierung|bestätigung|hilfe|wiederherstellung)/iu
 
 /(aktualisierung|bestätigung).{0,15}konto/iu
+
 /begrenzt/i
 
 # Banking
