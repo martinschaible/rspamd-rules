@@ -124,7 +124,7 @@
 /found a number of seo.?issues/i
 
 /we are.{1,10}leading seo/i
-/we can rank your web.?site/i
+/we can (promote|rank) your web.?site/i
 /we can help you rank higher/i
 /we do seo for all/i
 /we promote your.{1,10}web.?site.{1,10}(ranking|ranks)/i
@@ -149,13 +149,13 @@
 /your web.?site.{1,10}i found it.{1,10}impressive/i
 /your web.?site.{1,25}has some problems.{1,10}you.{1,10}(might|need)/i
 /your web.?site.{1,10}found those errors/i
+/your web.?site.{1,10}in the top.{1,10}positions/i
 
 /seo.{1,15}saw that your web.?site/i
 
 # Google
 /1st.?page of google/i
-/1st.?page listings on google/i
-/1st.?page ranking on google/i
+/1st.?page (listings|ranking) (in|on) google/i
 
 /get top position.{1,10}google/i
 /(promote|list) your.{1,10}web.?site.{1,10}google/i
@@ -166,7 +166,7 @@
 
 /you on.{1,10}1st.{1,10}page of google/i
 
-/your company.{1,10}position in google/i
+/your company.{1,10}position (in|on) google/i
 /your business keywords/i
 /your (competitors|page.?rank).{1,10}(in|on) google/i
 
