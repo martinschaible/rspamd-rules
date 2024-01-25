@@ -13,17 +13,18 @@
 
 # Crypto
 # ------------------------------------------------------------------------------
-/free.{1,10}crypto.?secrets/i
+/free.{1,10}(bitcoin|btc|crypto).?secrets/i
 
 #
-/bitcoin.?rally/i
+/(bitcoin|btc|crypto).{1,10}journey starts now/i
+/(bitcoin|btc|crypto).?rally/i
 
 /btc.?deposit/i
-/your bitcoin.{1,10}wallet has been funded/i
+/your (bitcoin|btc|crypto).{1,10}wallet has been funded/i
 
-/we have funded your portfolio with.{1,10}btc/i
+/we have funded your portfolio with.{1,10}(bitcoin|btc|crypto)/i
 
-/multiply your crypto/i
+/multiply your.{1,10}(bitcoin|btc|crypto)/i
 
 # Bitcoin mining
 # ------------------------------------------------------------------------------

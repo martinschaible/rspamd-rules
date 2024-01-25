@@ -74,30 +74,6 @@
 
 /(glückwunsch|liebste).{1,10}ich bin.{1,10}(frau|herr)/i
 
-/mein name ist.barr(\.|ister)/i
-/mein name ist.(frau|herr|mrs?|leutnant)/i
-
-/mein name ist.{5,25}aus indien/i
-
-/mein name ist.{5,25}ich arbeite für/i
-/mein name ist.{5,25}ich schreibe ihnen/i
-/mein name ist.{5,25}ich suche jemanden/i
-/mein name ist.{5,25}ich vertrete/i
-
-/mein name ist.{5,25}ein amerikanischer/i
-/mein name ist.{5,25}eine witwe/i
-/mein name ist.{5,25}gewinnerin/i
-
-/mein name ist.{5,25}ich bin.{1,15}anwalt/i
-/mein name ist.{5,25}ich bin eine?.{1,10}deutsch(er)?/i
-/mein name ist.{5,25}ich möchte ihnen/i
-
-/mein name ist.{5,25}deutscher? herkunft/i
-/mein name ist.{5,25}von der.{1,15}(agentur|marketing)/i
-/mein name ist sir/i
-
-/mein name ist.{5,25}ich bin die persönliche/iu
-
 /sehr geehrter?.{1,10}(begünstigter?|empfänger|geschäftsmann)/iu
 /sehr geehrter?.{1,10}(frau|herr).{1,10}hoffe es geht dir gut/i
 /sehr geehrter?.{1,10}(frau|herr).{1,10}ich schreibe ihnen/i
@@ -121,17 +97,36 @@
 
 /(kennenlernen|liebste).{1,15}mein name ist/i
 
-/mein name ist.{5,25}der gewinner/i
+/mein name ist sir/i
+/mein name ist.{1,10}barr(\.|ister)/i
+/mein name ist.{1,10}(frau|herr|mrs?|leutnant)/i
+
+/mein name ist.{5,25}aus indien/i
+/mein name ist.{5,25}deutscher? herkunft/i
+/mein name ist.{5,25}ein amerikanischer/i
+/mein name ist.{5,25}eine witwe/i
+/mein name ist.{5,25}gewinnerin/i
 /mein name ist.{5,25}geboren am/i
-/mein name ist.{5,30}ich arbeite als/i
+/mein name ist.{5,25}von der.{1,15}(agentur|marketing)/i
+
+/mein name ist.{5,25}ich bin.{1,15}anwalt/i
+/mein name ist.{5,25}ich bin eine?.{1,10}deutsch(er)?/i
+/mein name ist.{5,25}ich bin eine frau/i
 /mein name ist.{5,25}ich bin (das einzige kind|eine witwe)/i
+/mein name ist.{5,25}ich bin die persönliche/iu
+
+/mein name ist.{5,30}ich arbeite (als|für)/i
 /mein name ist.{5,25}ich bitte um ihre hilfe/i
 /mein name ist.{5,25}ich habe.{1,15}krebs/i
 /mein name ist.{5,25}ich lebe.{1,10}in/i
-
-/mein name ist.{5,25}ich bin eine frau/i
+/mein name ist.{5,25}ich möchte ihnen/i
+/mein name ist.{5,25}ich schreibe ihnen/i
+/mein name ist.{5,25}ich suche jemanden/i
+/mein name ist.{5,25}ich vertrete/i
 
 /sie zu kontaktieren.{1,10}mein name ist/i
+
+/hallo.{1,10}mein name ist.{5,25}ich bin.{1,10}jahre alt/i
 
 # Greetings, Country
 # ------------------------------------------------------------------------------

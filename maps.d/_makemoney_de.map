@@ -45,10 +45,12 @@
 # Fake stories
 # ------------------------------------------------------------------------------
 /geschafft haben tägliche profite.{1,10}generieren/iu
-/menschen in deutschland reich zu machen/i
-/deutsche menschen (reich|wohlhabend) werden/i
+/deutsche menschen.{1,10}(reich|wohlhabend).{1,10}werden/i
 
-/methode.{1,10}wie.{1,20}menschen (reich|wohlhabend) werden/i
+/menschen in deutschland reich zu machen/i
+/menschen zu helfen.{1,10}(reich|wohlhabend).{1,10}werden/i
+
+/methode.{1,10}wie.{1,20}menschen.{1,10}(reich|wohlhabend).{1,10}werden/i
 /methode.{1,10}wird in einfachen schritten/i
 
 # Fake website goes down
