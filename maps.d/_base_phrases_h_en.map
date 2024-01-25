@@ -43,12 +43,12 @@
 
 # E-Mail
 # ------------------------------------------------------------------------------
-/confirm.{1,10}if this is your{1,15}e?.?mail.?address/i
 
 # E-Mail active/correct
 # ------------------------------------------------------------------------------
 /confirm.{1,10}if you still use this.{1,10}e?.?mail.?address/i
 /confirm.{1,10}(this|the).{1,10}e?.?mail.?address is still valid/i
+/confirm.{1,10}if this is your.{1,15}e?.?mail.?address/i
 
 /is your.{1,10}e?.?mail still active/i
 
@@ -58,6 +58,7 @@
 # ------------------------------------------------------------------------------
 /hello.{1,10}did you get my previous.{1,10}e?.?mail/i
 /you received? my previous.{1,10}e?.?mail.{1,10}regards/i
+/confirm.{1,10}you received my previous.{1,10}e?.?mail/i
 
 # Excuses and other silly stuff
 # ------------------------------------------------------------------------------
@@ -71,8 +72,9 @@
 
 /i am.{1,10}writing.{1,10}this.{1,10}e?.?mail with tears/i
 
-/this unexpected message from me to you/i
-/this message invades your privacy/i
+/this unexpected (e?.?mail|message) from me to you/i
+/this (e?.?mail|message) invades your privacy/i
+/this (e?.?mail|message) find.{1,10}you disturbing/i
 
 /apologize for.{1,10}unsolicited proposal to you/i
 

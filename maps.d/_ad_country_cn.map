@@ -51,6 +51,7 @@
 /(china|dongguan|guangzhou|shenzhen|zhejiang).{1,10}our products include/i
 
 /(china|dongguan|guangzhou|shenzhen|zhejiang).{1,10}we can handle all kinds/i
+/(china|dongguan|guangzhou|shenzhen|zhejiang).{1,10}we can provide/i
 /(china|dongguan|guangzhou|shenzhen|zhejiang).{1,10}we are.{1,10}(company|factory|manufacturer|supplier)/i
 /(china|dongguan|guangzhou|shenzhen|zhejiang).{1,15}we are.{1,10}leading.{1,10}professional/i
 
@@ -352,3 +353,5 @@
 /logistics needs.{1,10}please let me know/i
 
 /we.?a?re.{1,10}freight forwarding company/i
+
+/you have shipments from.{1,10}china/i
