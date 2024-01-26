@@ -85,6 +85,10 @@
 # ------------------------------------------------------------------------------
 /schwerlastregal/i
 
+# Starthilfe
+# ------------------------------------------------------------------------------
+/powerstarthilfe/i
+
 # Trolley & Tools
 # ------------------------------------------------------------------------------
 /(werkstatt|werkzeug).{0,10}(trolley|wagen)/i
@@ -141,6 +145,9 @@
 # ------------------------------------------------------------------------------
 /ausverkaufsalarm/i
 /räumungsverkauf/i
+
+/preissturz.{1,25}gerät jetzt nur/iu
+/schnäppchenalarm.{1,25}jetzt stark reduziert/iu
 
 /jetzt zuschlagen.{1,10}nur/i
 
