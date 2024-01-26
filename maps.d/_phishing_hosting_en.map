@@ -32,11 +32,8 @@
 # Delivery problems
 /delivery for pending e?.?mails here/i
 
-/restrained from delivering to your.{1,10}mail.?box/i
-
 /you have.{1,10}pending messages on.{1,10}(imap|pop)/i
 
-/not.{1,20}delivered to your mail.?box/i
 /messages were sent to you.{1,10}but were not.{1,20}delivered/i
 
 # Pending
@@ -57,14 +54,10 @@
 /will be barred from.{1,10}(receiving|sending).{1,15}e?.?mail/i
 
 # Rejected
-/could not be delivered to.{1,10}inbox/i
 /rejected the delivery.{1,10}incoming.{1,10}e?.?mails to you/i
 
 #
-/click.{1,10}update.{1,10}mailbox/i
-
 /update account.{1,10}increase.{5,15}quota/i
-/update your mailbox/i
 /upgrade your account.{1,10}cancel the request/i
 
 /messages has been blocked by.{1,10}administrator/i
@@ -72,7 +65,6 @@
 
 /will be stopped from sending.{1,10}receiving/i
 
-/release the suspended e?.?mail.{1,10}to.{1,10}inbox/i
 
 /receiving.{1,10}e?.?mail.{1,10}if not verified within/i
 
@@ -86,6 +78,19 @@ your recent request.{1,10}de.?activate your.{1,10}e?.?mail/i
 /termination request on your.{1,10}e?.?mail.?address/i
 
 # Blocking
+
+# Mail Inbox, Mailbox
+# ------------------------------------------------------------------------------
+/click.{1,10}update.{1,10}mail.?box/i
+/not.{1,20}delivered to your mail.?box/i
+
+/update your mail.?box/i
+/update is required for your.{1,10}mail.?box/i
+
+/restrained from delivering to your.{1,10}mail.?box/i
+/release the suspended e?.?mail.{1,10}to.{1,10}inbox/i
+
+/could not be delivered to.{1,10}inbox/i
 
 # Storage
 # ------------------------------------------------------------------------------
