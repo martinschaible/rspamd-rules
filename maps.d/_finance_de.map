@@ -88,12 +88,17 @@ kredit.?betrag.{1,20}kredit.?laufzeit/i
 
 /ihre geldsorgen.{1,10}bald vorbei sein werden/i
 
+# Mortgage
+# ------------------------------------------------------------------------------
+
 # Financing
 # ------------------------------------------------------------------------------
 /bietet einzelpersonen.{1,10}unternehmen.{1,10}finanzielle/i
 
 /(finanz|kredit).?angebot mit einem zinssatz von/i
+
 /finanzierung benötigen.{1,15}antworten sie.{1,10}auf diese e?.?mail/iu
+/finanzierung zu.{1,10}zinsen/i
 
 /sie.{1,10}irgendeine art.{1,10}finanzierung/i
 /benötigen sie eine.{1,10}finanzierung/iu
@@ -109,6 +114,3 @@ kredit.?betrag.{1,20}kredit.?laufzeit/i
 /wir sind eine.{1,20}kapitalanlagegesellschaft/i
 
 /investition.{1,15}finanzierung/i
-
-# Mortgage
-# ------------------------------------------------------------------------------
