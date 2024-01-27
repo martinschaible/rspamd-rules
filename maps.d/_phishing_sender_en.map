@@ -59,6 +59,7 @@
 /express.?dhl/i
 
 /dpd eu/i
+/fedex.{0,10}fedex/i
 
 # Account - Companies
 # ------------------------------------------------------------------------------
@@ -78,6 +79,7 @@
 /we-transfer/i
 
 /facebook ads.?team/i
+/paypal.?(case.?id|support)/i
 
 #
 #
