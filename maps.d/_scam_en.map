@@ -266,6 +266,7 @@
 /credit your account with the sum of/i
 
 /compensated with.{1,10}the money you have loosed/i
+/compensation.{1,10}donation/i
 
 /we have deposited.{1,10}bank.?draft/i
 
@@ -278,6 +279,9 @@
 
 /you have been.{1,10}compensated.{1,10}contact/i
 /you have just received.{1,10}payment of/i
+
+# Scam victims :-)
+/scam victims?.{1,10}compensation/i
 
 # Share the same name
 # ------------------------------------------------------------------------------
