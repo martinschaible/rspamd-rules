@@ -8,7 +8,7 @@
 # Unclassified
 # ------------------------------------------------------------------------------
 /(achtung|eilmeldung)/i
-/lies.jetzt/i
+/(lies.?jetzt|ungelesen)/i
 
 /(glückwunsch|präsident)/iu
 
@@ -118,12 +118,15 @@
 
 # Make Money
 # ------------------------------------------------------------------------------
-/bitcoin.?(bulletin|einblick|geld|handel|händler|nachrichten)/i
+/(bit?coin|crypto|krypto).?(beratung|bulletin|einblick|geld|handel|händler|nachrichten)/i
 
 /investo(en)?.update/i
+/(bank|investment).?berater/i
 
 /lukrative.gelegenheit/i
 /neue.investitionen/i
+
+/forex.?broker/i
 
 /grund.?einkommen/i
 

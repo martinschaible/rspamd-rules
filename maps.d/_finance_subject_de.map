@@ -13,7 +13,10 @@
 
 /(darlehen|kredit) zu/i
 /(finanz|darlehen|kredit).?angebot/i
-/erhalten sie.{1,10}(finanz|darlehen|kredit)/i
+
+/(brauchen|erhalten) sie.{1,15}(finanz|darlehen|kredit)/i
+
+/ich habe.{1,15}kreditvorschlag/i
 
 /finanzielle.?hilfe/i
 /finanzierung zu.{1,10}zins.?satz/i
