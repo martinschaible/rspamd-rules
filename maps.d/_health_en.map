@@ -77,10 +77,7 @@
 
 # Pain
 # ------------------------------------------------------------------------------
-/helps eliminate.{1,10}(joint|nerve).?pain/i
-/this kills.{1,10}(joint|nerve).?pain/i
-
-/end (joint|nerve).?pain/i
+/(eliminate|end|kills).{1,10}(joint|nerve).?pain/i
 
 # Prostatitis
 # ------------------------------------------------------------------------------
