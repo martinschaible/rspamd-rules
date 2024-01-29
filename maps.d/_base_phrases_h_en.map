@@ -83,18 +83,18 @@
 /your.{1,15}(company|name).{1,15}?e.?mail.?address from.{1,10}internet/i
 /your.{1,15}(company|name).{1,15}while browsing.{1,15}google/i
 
-/your (contact|e?.?mail).{1,20}from.{1,15}database/i
-/your (contact|e?.?mail).{1,20}from my personal search/i
-/your (contact|e?.?mail).{1,20}from the.{1,15}africa exchange/i
-/your (contact|e?.?mail).{1,20}from your countries.{1,20}business/i
+/your (contact|e?.?mail|information).{1,20}from.{1,15}database/i
+/your (contact|e?.?mail|information).{1,20}from my personal search/i
+/your (contact|e?.?mail|information).{1,20}from the.{1,15}africa exchange/i
+/your (contact|e?.?mail|information).{1,20}from your countries.{1,20}business/i
 
-/your (contact|e?.?mail).{1,20}information.{1,10}internet/i
+/your (contact|e?.?mail|information).{1,20}information.{1,10}internet/i
 
-/your (contact|e?.?mail).{1,20}on the internet/i
-/your (contact|e?.?mail).{1,20}through my online exploration/i
-/your (contact|e?.?mail).{1,20}(has been|was) provided by google/i
+/your (contact|e?.?mail|information).{1,20}on the internet/i
+/your (contact|e?.?mail|information).{1,20}through my online exploration/i
+/your (contact|e?.?mail|information).{1,20}(has been|was) provided by google/i
 
-/your (contact|e?.?mail).{1,20}during my search for/i
+/your (contact|e?.?mail|information).{1,20}during my search (for|through)/i
 
 # Important
 # ------------------------------------------------------------------------------

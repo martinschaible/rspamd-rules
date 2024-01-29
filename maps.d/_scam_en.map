@@ -280,9 +280,6 @@
 /you have been.{1,10}compensated.{1,10}contact/i
 /you have just received.{1,10}payment of/i
 
-# Scam victims :-)
-/scam victims?.{1,10}compensation/i
-
 # Share the same name
 # ------------------------------------------------------------------------------
 /contacting.{1,20}you.{1,10}share the.{1,10}same last.?name/i
@@ -301,7 +298,6 @@
 /you.{1,10}help.{1,15}(manage|move|transfer).{1,15}(asset|sum)/i
 
 /your.{1,10}assistance.{1,10}(manage|move|transfer).{1,10}\d{3}.{0,5}\d{3}.{1,10}(dollar|euro?|gbp|usd)/i
-
 
 # Trustworthy Person
 # ------------------------------------------------------------------------------
@@ -367,6 +363,12 @@
 /pending nomination for the.{1,20}awards/i
 
 /the nominations team/i
+
+# Scam Victims
+# ------------------------------------------------------------------------------
+/scam victims?.{1,10}compensation/i
+
+/compensate.{1,10}the scam victims/i
 
 #
 #

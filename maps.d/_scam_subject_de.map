@@ -32,11 +32,12 @@
 /spenden.{0,15}(belohnung|fonds|gewinn|investition|preis)/i
 
 /spenden.?angebot.{1,10}\d{2,3}.{1,10}\d{2,3}/i
-/spende.{1,10}donation/i
 
+/spende.{1,10}donation/i
 /spende.{1,10}\d{2,3}.{1,10}(euro|gbp|usd)/i
-/spende an sie/i
-/spende investitions.?programm/i
+/spende.{1,10}(an|für) sie/iu
+/spende.{1,10}investitions.?programm/i
+
 /(du hast|sie haben) eine.{1,10}spende/i
 
 /sie haben.{1,10}(euro|gbp|usd|millionen).{1,10}erhalten/i

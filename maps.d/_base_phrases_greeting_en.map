@@ -38,7 +38,7 @@
 /(dear|hello|hi).{1,10}director.{1,10}manager/i
 
 /attention.{1,10}i am (mrs?|ms)/i
-/attention.{1,10}my name is/i
+/(attention|best regards).{1,10}my name is/i
 
 /hi dear.{1,10}(greetings of the day|my name is)/i
 
@@ -225,7 +225,7 @@
 /i.?a?m a?.{0,10}(colonel|fbi|special agent)/i
 
 /i.?a?m a?.{0,10}investment.portfolio.manager/i
-/i.?a?m a?.{5,25}private.{1,10}(agent|investor|investment.broker)/i
+/i.?a?m a?.{5,25}private.{1,10}(agent|investor|investment.broker|secretary)/i
 /i.?a?m a?.{5,25}from the federal/i
 
 /i.?a?m.{1,10}the principal accountant/i
