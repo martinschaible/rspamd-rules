@@ -9,7 +9,9 @@
 
 # Greetings, Intros
 # ------------------------------------------------------------------------------
+/guten tag.{1,10}sie haben ein paket von/i
 /sehr geehrter kunde.{1,10}ihr.{1,10}(dhl|post).{1,10}paket/i
+
 /sendungsstatus.{1,10}lieber kunde/i
 
 /postamt angekommen/i
@@ -141,8 +143,11 @@
 
 /begleichen sie die kosten.{1,15}(die|erneute).{1,15}bearbeitung/i
 /bestätigen sie die zahlung von \d,99/i
+/bestätigen sie die.{1,25}zahlung der kosten.{1,10}(der|die).{1,10}lieferung/iu
+
 /bestätigung der adresse.{1,10}der versandkosten/i
 /bezahlen sie die kosten für die rücksendung/iu
+
 
 /erfordert die zahlung von einfuhr.?umsatz.?steuern/i
 /es sind zusätzliche.{1,10}gebühren erforderlich/i
@@ -160,6 +165,7 @@
 /(paket|sendung).{1,10}bekommen.{1,10}ist eine zahlung notwendig/i
 /(paket|sendung).{1,10}sind die versandkosten noch nicht bezahlt/i
 /(paket|sendung).{1,10}zu erhalten.{1,10}zahlen sie.{1,10}die versandkosten/i
+/(paket|sendung).{1,10}indem sie auf die.{1,15}schaltfläche klicken/iu
 
 /die sendung unterliegt.{1,10}lieferabgaben/i
 
@@ -187,7 +193,8 @@
 /zusätzliche gebühr in höhe von.{1,15}fällig/iu
 /zusätzliche liefergebühr zahlen/i
 
-/zustellung eine zusätzliche gebühr von.{1,15}anfällt/iu
+/zustellung eine geringe.{1,10}gebühr anfallen kann/iu
+/zustellung eine zusätzliche.{1,10}gebühr von.{1,15}anfällt/iu
 /zustellversuch zu bezahlen/i
 
 /jeden tag lagerung eine zusätzliche gebühr/iu

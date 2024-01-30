@@ -12,7 +12,6 @@
 
 # Files
 # ------------------------------------------------------------------------------
-/\/redirect\.html/i
 
 # Sample: s.html#/redirect.html
 /\/.html#\/[a-z0-9]{2,10}\.html/i
@@ -52,6 +51,7 @@
 # -> I expect some false/positives
 /\.(com|info|us)\/index\.php\/campaigns\//i
 /\.(com|info|us)\/mail/index\.php/campaigns\//i
+/\.(com|info|us)\/url\.php/i
 
 # Sample: .com/TTTRRRGGTTBBBLLLCCKKKFFRRDDYY_______________89G04FD189F0DG0F4HDF4X
 /\.(com|info|us)\/[a-z0-9]{20,40}[_-]{3,20}/i

@@ -126,7 +126,8 @@
 
 # Account - Registration
 # ------------------------------------------------------------------------------
-/konto zuzugreifen.{1,10}die registrierung durchzuführen/iu
+/konto.{1,10}zuzugreifen.{1,10}die registrierung durchzuführen/iu
+/konto.{1,10}eine verifizierung.{1,10}ihre bankkarte erfordert/iu
 
 /alle kunden sich registrieren.{1,10}andernfalls/i
 
@@ -136,6 +137,8 @@
 
 # Account - Verification
 # ------------------------------------------------------------------------------
+/konto zu verifizieren.{1,10}ihre rückerstattung/iu
+
 /ihre verifizierung innerhalb von 24 stunden ab/i
 /stehende schaltfläche durchgeführt werden/iu
 
