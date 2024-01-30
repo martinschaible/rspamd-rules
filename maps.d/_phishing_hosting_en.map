@@ -65,9 +65,6 @@
 
 /will be stopped from sending.{1,10}receiving/i
 
-
-/receiving.{1,10}e?.?mail.{1,10}if not verified within/i
-
 # After server update
 /updates on our server.{1,10}your.{1,10}e?.?mail/i
 
@@ -78,6 +75,13 @@ your recent request.{1,10}de.?activate your.{1,10}e?.?mail/i
 /termination request on your.{1,10}e?.?mail.?address/i
 
 # Blocking
+
+# Mail Confirm, Verify
+# ------------------------------------------------------------------------------
+/receiving.{1,10}e?.?mail.{1,10}if not verified within/i
+
+/you (are requested|must).{1,10}authenticate.{1,10}e?.?mail/i
+/steps below.{1,10}authenticate.{1,10}e?.?mail/i
 
 # Mail Inbox, Mailbox
 # ------------------------------------------------------------------------------

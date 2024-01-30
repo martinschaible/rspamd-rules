@@ -12,6 +12,8 @@
 /ihr konto.{1,15}in einem sicheren zustand zu versetzen/i
 /wir schließen alle alten versionen/i
 
+/wir haben festgestellt.{1,15}ihrer?.{1,15}konto.?informationen/i
+
 # Account - Locking
 # ------------------------------------------------------------------------------
 /konto.{1,10}eine sperrung ihres kontos zu vermeiden/i
@@ -78,7 +80,7 @@
 
 /klicken und die identitätsprüfung durchführen/iu
 
-/erforderlichr.{1,20}konto zu aktualisieren/i
+/erforderlich.{1,20}konto zu aktualisieren/i
 
 /ihre.{1,25}daten in unserem system aktualisieren/i
 /ihre.{1,10}identität erneut bestätigen/i
@@ -136,6 +138,8 @@
 # ------------------------------------------------------------------------------
 /ihre verifizierung innerhalb von 24 stunden ab/i
 /stehende schaltfläche durchgeführt werden/iu
+
+/wir müssen ihre.{1,10}konto.?informationen überprüfen/iu
 
 # Account - Update & User options
 # ------------------------------------------------------------------------------

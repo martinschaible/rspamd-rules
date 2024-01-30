@@ -43,6 +43,9 @@
 /[a-z0-9]{3,15}(_|,)(img|pdf)\.(gz|rar|xz|zip)/i
 /[a-z0-9]{3,15}\.r00\.rar/i
 
+# Sample: 8834 1583.img.gz
+/\d[1,15]\.img\.gz/i
+
 # Sample: RQ038023.PDF.001
 #         PO#006543678.pdf.z
 #         Scan_Copy227466.PDF.html
