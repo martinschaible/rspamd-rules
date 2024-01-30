@@ -64,10 +64,12 @@
 
 /business loan.{1,10}investment.{1,10}loans?/i
 /personal loan.{1,10}business.{1,10}loans?/i
+/quick.{1,10}fast loans?/i
 
 /our loan (acquisition|programme)/i
 
 /our company.{1,10}offers.{1,10}competitive.{1,15}loans/i
+
 #
 /investment company offering.{1,20}(corporate|personal|unsecured).{1,10}loans?/i
 /leading.{1,10}institution.{1,10}(corporate|personal|unsecured).{1,10}loans/i
@@ -96,6 +98,7 @@
 /our company.{1,25}offers financial.{1,10}service/i
 
 /you in.{1,10}request.{1,10}investment/i
+/you need.{1,10}financial.{1,10}assistance/i
 
 # Forms
 # ------------------------------------------------------------------------------
