@@ -96,6 +96,8 @@
 
 /verlosung teilzunehmen.{1,10}musst du dich.{1,15}(einfach|nur).{1,15}hier eintragen/i
 
+/kein geld erforderlich.{1,10}teilnahme ist kostenlos/i
+
 # Link
 /klicken sie hier.{1,10}um einen anspruch/i 
 /klicken sie hier.{1,10}um die belohnung/i
@@ -122,6 +124,10 @@
 
 # Product test
 /zum kostenlosen produkt.?test/i
+
+# Companies
+/kaufland.{1,10}company/i
+/team.{1,10}kaufland/i
 
 # Winning, Products
 # ------------------------------------------------------------------------------
