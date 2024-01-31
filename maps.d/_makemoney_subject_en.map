@@ -10,6 +10,8 @@
 /(bit?coin|crypto|krypto).{1,15}auto.?trade/i
 /(bit?coin|crypto|krypto).{1,15}deposit/i
 
+/easy.?(bit?coin|crypto|krypto)/i
+
 # Make Money
 # ------------------------------------------------------------------------------
 /earn(ing)? \d{1,3}k? daily/i
@@ -21,3 +23,7 @@
 # Investing
 # ------------------------------------------------------------------------------
 /investment (breakthrough|revolution)/i
+
+# Fancy Titles
+# ------------------------------------------------------------------------------
+/cryptonaire.?network/i
