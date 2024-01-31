@@ -72,16 +72,19 @@
 
 /you.{1,10}that you.{1,10}won.{1,10}\d{3}.{0,5}\d{3}/i
 
-/your.{1,10}e?.?mail.?(address|id)?.{1,10}(appeared|selected).{1,10}(among|as one of) the.{1,10}winners/i
-/your.{1,10}e?.?mail.?(address|id)?.{1,10}has won/i
-/your.{1,10}e?.?mail.?(address|id)?.{1,10}is the lucky winner/i
-/your.{1,10}e?.?mail.?(address|id)?.{1,10}was chosen at random/i
+/your.{1,10}e?.?mail.?(account|address|id)?.{1,10}(appeared|selected).{1,10}(among|as one of) the.{1,10}winners/i
+/your.{1,10}e?.?mail.?(account|address|id)?.{1,10}has won/i
+/your.{1,10}e?.?mail.?(account|address|id)?.{1,10}is the lucky winner/i
+/your.{1,10}e?.?mail.?(account|address|id)?.{1,10}was chosen at random/i
 
 /batch.?number.{1,20}official winning/i
 
 /e?.?mail is.{1,20}inform you that you won/i
 
 /winnings was carried out through the/i
+
+# Companies
+/your.{1,10}e?.?mail.?(account|address|id)?.{1,10}ssociated with.{1,10}(google|microsoft)/i
 
 #
 #

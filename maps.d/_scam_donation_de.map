@@ -60,6 +60,8 @@
 /spenden?.{1,15}geben sie.{1,10}ihre.{1,10}antwort/i
 
 /spenden?.{1,10}ihnen die summe von.{1,10}(millionen|tausend|dollar|euro?|gbp|usd)/i
+
+/spenden?.{1,10}in höhe von.{1,10}\d{3}.{0,5}\d{3}.{1,10}ausgezeichnet/iu
 /spenden?.{1,10}in höhe von.{1,20}(dollar|euro?|gbp|usd).{1,25}(ausgewählt|die ihnen|wurde ihnen von)/iu
 /spenden?.{1,10}in höhe von.{1,20}(dollar|euro?|gbp|usd).{1,25}erfolgte durch die/iu
 
@@ -123,6 +125,7 @@
 /(ich|sie) haben? eine.{1,15}spende.{1,10}von.{5,25}(kontaktieren|weitere informationen)/i
 /(ich|sie) haben? eine.{1,15}spende.{1,10}von der/i
 
+/(ich|sie) haben? eine.{1,15}spende.{1,15}weitere informationen/iu
 /(ich|sie) haben? eine.{1,15}spende(zuschuss)?.{1,10}für sie/i
 
 /informationen zum erhalt ihrer.{1,15}spende/i
