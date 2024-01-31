@@ -23,7 +23,7 @@
 /zu verdienen.{1,10}klicken sie hier/i
 
 /verdienen sie.{1,15}\d{3,4}.{1,10}euro wöchentlich/iu
-/wöchentlich.{1,15}\d{3,4}.{1,10}euro zu verdienen/iu
+/(täglich|wöchentlich).{1,15}\d{3,4}.{1,15}verdienen/iu
 
 /erfahren sie wohlstand/i
 

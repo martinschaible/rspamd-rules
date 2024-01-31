@@ -137,7 +137,7 @@
 # ------------------------------------------------------------------------------
 /ich bin.{5,25}(der|die) gewinner(in)? des/i
 /ich bin.{5,25}die einzige tochter/i
-/ich bin sir/i
+/ich bin (miss|sir)/i
 
 /ihnen vor(zu)?stellen.{1,10}ich bin/i
 
@@ -151,6 +151,7 @@
 /ich bin (frau|herr).{5,25}ein.{1,10}britischer/i
 
 /ich bin.{5,25}ein (indisches|italienischer)/i
+/ich bin.{5,25}aus abidjan/i
 
 # Introduction, Title
 # ------------------------------------------------------------------------------

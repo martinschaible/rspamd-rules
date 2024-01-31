@@ -285,6 +285,7 @@
 
 /\d{3}.{0,5}\d{3}.{1,10}awaiting.{1,10}transferred.{1,10}your.{1,10}account/i
 
+/(dollar|euro?|gbp|usd).{1,10}would be released to you/i
 /you have been.{1,10}compensated.{1,10}contact/i
 /you have just received.{1,10}payment of/i
 

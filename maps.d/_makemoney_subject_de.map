@@ -33,7 +33,7 @@
 /machen sie geld/i
 
 /verdienen sie.{1,15}\d{3,4}.{1,10}euro wöchentlich/iu
-/wöchentlich.{1,15}\d{3,4}.{1,10}euro verdienen/iu
+/(täglich|wöchentlich).{1,15}\d{3,4}.{1,15}verdienen/iu
 
 /geheiminvestition/i
 

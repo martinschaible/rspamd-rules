@@ -62,8 +62,11 @@
 /you need.{1,10}loan.{1,10}(for|from|if yes)/i
 /you (need|require).{1,10}(personal|urgent).{1,10}loan/i
 
-/business loan.{1,10}investment.{1,10}loans?/i
-/personal loan.{1,10}business.{1,10}loans?/i
+/business loans?.{1,10}investment.{1,10}loans?/i
+/business loans?.{1,10}for any purpose/i
+
+/personal loans?.{1,10}business.{1,10}loans?/i
+
 /quick.{1,10}fast loans?/i
 
 /our loan (acquisition|programme)/i
