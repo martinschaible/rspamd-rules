@@ -82,6 +82,7 @@
 /acquire this money in my name/i
 /assist me.{1,10}securing some funds/i
 
+/i am willing.{1,10}to give you.{1,10}(funds|sum of)/i
 /i have.{1,10}(funds|sum of).{1,10}for investment/i
 /i have.{1,10}(funds|sum of).{1,10}million/i
 
@@ -252,6 +253,7 @@
 /urgent.{1,10}opportunity/i
 
 /our investors are seeking.{1,10}business/i
+/offer you a.{1,10}busiпess proposal/i
 
 /you about.{1,10}existing.{1,10}(business|investment).{1,15}(opportunity|proposition|proposal|transaction)/i
 
@@ -325,6 +327,8 @@
 /(my|our) (deceased|late).{1,10}(client|customer|husband).{1,10}mrs?/i
 /(my|our) (deceased|late).{1,10}(client|customer|husband).{1,10}made a deposit/i
 /(my|our) (deceased|late).{1,10}(client|customer|husband).{1,10}with no next of kin/i
+
+/(my|our) (deceased|late).{1,10}husband left me with/i
 
 /retrieve my late father funds/i
 
