@@ -68,6 +68,7 @@
 
 /dearest possible companion/i
 
+/good (day|morning).{1,10}can you supply/i
 /good (day|morning).{1,10}i.?a?m.{5,25}from/i
 /good (day|morning).{1,10}i.?a?m (mrs?|ms)/i
 /good (day|morning).{1,10}i would like to discuss something/i
@@ -115,6 +116,7 @@
 /hi there.{1,10}hope you are doing well/i
 
 /hi friend.{1,10}we are.{1,10}(company|factory)/i
+/hi.friend.{1,5}good day/i
 
 /how are you.{1,10}confirm your.{1,10}e?.?mail/i
 

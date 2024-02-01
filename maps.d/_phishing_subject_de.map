@@ -63,8 +63,10 @@
 # Confirm or reconfirm Account/Identity
 # ------------------------------------------------------------------------------
 /ihr konto erfordert ihre aufmerksamkeit/i
-/ihre identität erneut bestätigen/iu
+/ihre identität.{1,10}erneut bestätigen/iu
 /ihre informationen.{1,15}aktualisiert werden/i
+
+/erneute verifizierung ist.{1,10}erforderlich/i
 
 # Banking
 # ------------------------------------------------------------------------------
