@@ -26,7 +26,7 @@
 
 # Donation
 # ------------------------------------------------------------------------------
-/(claims|you.have).{1,10}donation/i
+/(claims|message|you have).{1,10}donation/i
 
 /donation.{1,10}(spende|win)/i
 

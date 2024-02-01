@@ -100,7 +100,7 @@
 
 /mein name ist sir/i
 /mein name ist.{1,10}barr(\.|ister)/i
-/mein name ist.{1,10}(frau|herr|mrs?|leutnant)/i
+/mein name ist.{1,10}(frau|herr|mrs?|ms|leutnant)/i
 
 /mein name ist.{5,25}aus indien/i
 /mein name ist.{5,25}deutscher? herkunft/i
@@ -155,7 +155,7 @@
 
 # Introduction, Title
 # ------------------------------------------------------------------------------
-/ich bin.{1,5}(barrister|general)/i
+/ich bin.{1,5}(barrister|general|mrs?|ms)/i
 /ich bin.{1,5}(special|spezial).?agent/i
 /ich bin.{5,25}filialleiterin einer bank/i
 /ich bin hon.{1,5}dr/i
