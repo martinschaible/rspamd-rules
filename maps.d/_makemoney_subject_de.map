@@ -32,8 +32,13 @@
 /mit.{1,10}euro? reich werden/i
 /machen sie geld/i
 
+/verdienen sie.{1,10}\d{3,4}.{1,10}täglich/iu
 /verdienen sie.{1,15}\d{3,4}.{1,10}euro wöchentlich/iu
+
+/einnahmen von.{1,10}\d{3,4}.{1,10}pro tag/i
 /(täglich|wöchentlich).{1,15}\d{3,4}.{1,15}verdienen/iu
+
+/verdienen sie bis zu.{1,10}\d{3,4}.{1,10}täglich/i
 
 /geheiminvestition/i
 

@@ -15,6 +15,7 @@
 
 /verdienen sie garantierte.{1,10}\d{3,4}.{1,10}in.{1,15}stunden/i
 
+/ermöglicht es.{1,15}mehrere tausend.{1,10}zu verdienen/i
 /einkommen ab.{1,10}euro? pro tag/i
 /einnahmen auf vollautomatische weise/i
 
@@ -22,14 +23,18 @@
 
 /zu verdienen.{1,10}klicken sie hier/i
 
-/verdienen sie.{1,15}\d{3,4}.{1,10}euro wöchentlich/iu
+/verdienen sie.{1,15}\d{3,4}.{1,15}wöchentlich/iu
 /(täglich|wöchentlich).{1,15}\d{3,4}.{1,15}verdienen/iu
+
+/menschen.{1,10}leichtes geld verdienen/i
 
 /erfahren sie wohlstand/i
 
+/sie.{1,15}\d{3,4}.{1,15}pro tag verdienen/i
+
 # Fake stories
 # ------------------------------------------------------------------------------
-/(als|schaffte).{5.20}euro pro woche zu verdienen/i
+/(als|schaffte).{5.20}euro pro (tag|woche) zu verdienen/i
 /eine geheime investition/i
 
 # Income
@@ -38,7 +43,7 @@
 
 /(legal|seriös).{1,10}ihr einkommen zu steigern/i
 
-/einkommen.{1,15}\d{3,4}.{1,10}euro pro woche zu erzielen/i
+/einkommen.{1,15}\d{3,4}.{1,15}pro woche zu erzielen/i
 
 # Investing
 # ------------------------------------------------------------------------------
@@ -51,6 +56,9 @@
 # Systems
 # ------------------------------------------------------------------------------
 /mit diesem.{1,10}bahnbrechenden system/i
+
+/(anwendung|app|system).{1,10}werden reich/i
+/(anwendung|app|system).{1,10}die täglich.{1,15}\d{3,4}.{1,15}generiert/i
 
 #
 #
