@@ -116,7 +116,7 @@
 /ihnen die aktuelle version.{1,10}microsoft office/i
 /alle programme auf dem neusten stand/i
 
-# Surveillence Camera
+# Surveillance Camera
 # ------------------------------------------------------------------------------
 /glühbirnen.{1,10}(Ü|ü)berwachungs.?kamera/iu
 /vertrauenswürdigste.{1,10}(Ü|ü)berwachungsgerät/iu
@@ -220,6 +220,7 @@
 /bestellen.{1,10}mit ihrer.{1,10}(adresse|anschrift).{1,10}(einfach antworten|wir liefern)/i
 /bestellen.{1,10}senden sie uns einfach.{1,10}e?.?mail/i
 /bestellen.{1,15}senden sie uns.{1,15}ihre.{1,20}(liefer|rechnungs).?anschrift/i
+bbestellen.{1,15}senden sie uns.{1,15}ihre.{1,20}ihre adresse/i
 /bestellen.{1,10}muster einfach antworten/i
 
 /bestellung(en)?.{1,15}antworten sie.{1,15}auf diese.{1,10}(e?.?mail|nachricht)/i
@@ -278,6 +279,8 @@
 
 /wir liefern.{1,10}(auf|mit) rechnung.{1,10}statt.{1,10}nur.{1,10}zzgl/i
 /wir liefern.{1,15}(auf|mit) rechnung.{1,15}(keine|ohne) (nachnahme|vorkasse)/i
+/wir liefern.{1,15}(auf|mit) rechnung.{1,15}sie zahlen erst nach zufriedenheit/i
+
 /wir senden sofort zu ihnen.{1,10}sie bezahlen nur/i
 
 /ohne vorkasse.{1,10}nachnahme/i

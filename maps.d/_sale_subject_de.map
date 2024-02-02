@@ -94,6 +94,10 @@
 
 # Surveillance Camera
 # ------------------------------------------------------------------------------
+/(ihre|top).{1,10}überwachungskamera/iu
+/überwachungskamera.{1,10}für (\d{2,3}|nur)/iu
+
+/unsere.{1,10}wlan.?kamera/i
 
 # Trolley & Tools
 # ------------------------------------------------------------------------------
