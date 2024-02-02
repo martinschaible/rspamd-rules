@@ -94,8 +94,8 @@
 
 # Surveillance Camera
 # ------------------------------------------------------------------------------
-/(ihre|top).{1,10}überwachungskamera/iu
-/überwachungskamera.{1,10}für (\d{2,3}|nur)/iu
+/(ihre|premium|top).{1,10}überwachungskamera/iu
+/überwachungskamera.{1,10}(jetzt nur|für) (\d{2,3}|nur)/iu
 
 /unsere.{1,10}wlan.?kamera/i
 

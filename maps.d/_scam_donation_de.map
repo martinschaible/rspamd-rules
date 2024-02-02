@@ -96,6 +96,7 @@
 
 /ihnen.{1,10}\d{3}.{0,5}\d{3}.{1,10}zu spenden/i
 
+/ihnen den betrag von.{1,15}millionen/i
 /ihnen eine spende in höhe von.{1,20}(dollar|euro?|gbp|usd).{1,10}gemacht/iu
 /ihnen eine spende von.{1,15}(dollar|euro?|gbp|usd).{1,10}gewährt/i
 
