@@ -48,9 +48,13 @@
 
 /hallo.{1,10}guten tag/i
 /hallo.{1,10}begünstigter/iu
-/Hallo.{1,10}Wie geht es Ihnen/i
+/hallo.{1,10}wie geht es ihnen/i
 
 /komplimente der saison/i
+
+# E-Mail active/correct
+# ------------------------------------------------------------------------------
+/ist.{1,10}ihre gültige e?.?mail/iu
 
 # Religious
 # ------------------------------------------------------------------------------
