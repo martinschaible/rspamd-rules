@@ -34,7 +34,7 @@
 
 /sicherheit.{1,10}(bestätigen|) sie ihre/iu
 
-/(Überprüfen|überprüfen) sie ihre.{1,10}kontodaten/iu
+/(Überprüfen|überprüfen) sie ihre.{1,10}(kontodaten|persönlichen daten)/iu
 
 /informationen zu ihrem.{1,15}konto.{1,15}fehlen/i
 
@@ -53,6 +53,7 @@
 /ihr konto.{1,15}wird gesperrt/i
 /ihr konto.{1,15}(ist|wurde) begrenzt/i
 /ihr konto.{1,15}wurde vorübergehend/i
+/ihr konto.{1,15}vorübergehende beschränkung/iu
 
 /ihr konto vorübergehend/i
 
@@ -161,6 +162,9 @@
 
 /(Öffne|öffne) sofort/iu
 /umfrage.{1,10}gewinn/i
+
+# Sample: Rundschreiben X2ZI-M29U
+/rundschreiben [0-9a-z]{4}-[0-9a-z]{4}/i
 
 # Winning, Products
 # ------------------------------------------------------------------------------

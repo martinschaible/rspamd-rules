@@ -12,9 +12,10 @@
 
 # Dating
 # ------------------------------------------------------------------------------
-/online.{1,10}dating/i
+/(online|sex).{1,10}dating/i
 
-Treffen Sie diese schöne Frau
+/treffen sie diese.{1,10}frau/i
+
 # Dating Sites
 # ------------------------------------------------------------------------------
 /die seite ist.{1,10}kostenlos/i
