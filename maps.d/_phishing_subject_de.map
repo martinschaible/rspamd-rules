@@ -164,7 +164,7 @@
 /umfrage.{1,10}gewinn/i
 
 # Sample: Rundschreiben X2ZI-M29U
-/rundschreiben [0-9a-z]{4}-[0-9a-z]{4}/i
+/(bestätigung|rundschreiben).?[0-9a-z]{4}-[0-9a-z]{4}/i
 
 # Winning, Products
 # ------------------------------------------------------------------------------
