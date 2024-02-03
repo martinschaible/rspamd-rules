@@ -158,6 +158,7 @@
 # Introduction, Title
 # ------------------------------------------------------------------------------
 /ich bin.{1,5}(barrister|general|mrs?|ms)/i
+/ich bin.{1,5}mutter mrs?/i
 /ich bin.{1,5}(special|spezial).?agent/i
 /ich bin.{5,25}filialleiterin einer bank/i
 /ich bin hon.{1,5}dr/i
