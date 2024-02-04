@@ -44,7 +44,7 @@
 
 # Currency, Big numbers
 # ------------------------------------------------------------------------------
-/millionen.{1,10}(dollar|euro?|gbp|usd).{1,10}kontaktieren sie mich/i
+/millionen.{1,10}(dollar|euro?|gbp|usd).{1,10}kontaktieren sie (mich|uns)/i
 
 /\d{3}.{0,5}\d{3}.{1,10}der mit ihrem namen/i
 
@@ -69,7 +69,11 @@
 
 /um den.{1,10}fonds zu beanspruchen/i
 
-/vorschlag.{1,10}\d{2,3}.{0.5}\d{2,3}.{1,10}(euro|gbp|usd)/i
+/vorschlag.{1,10}\d{2,3}.{0.5}\d{2,3}.{1,10}(dollar|euro?|gbp|usd)/i
+
+/(dollar|euro?|gbp|usd).{1,10}der ihrem namen zugeordnet ist/i
+
+/wir haben einen nicht eingeforderten betrag/i
 
 # Funds, Money - Sharing
 # ------------------------------------------------------------------------------
@@ -126,7 +130,7 @@
 /ich habe ein.{1,10}lukratives.{1,10}angebot für sie/iu
 /ich habe ein.{1,10}geschäfts?.{1,15}das ich.{1,10}mit ihnen/i
 
-/ich habe einen geschäfts?vorschlag/iu
+/ich habe ein.{1,10}geschäfts?.?(angebot|vorschlag)/iu
 
 /ich mit ihnen ein.{1,10}geschäft machen/iu
 /ich suche einen.{1,10}vertrauenswürdigen partner/iu

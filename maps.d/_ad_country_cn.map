@@ -42,6 +42,7 @@
 # ------------------------------------------------------------------------------
 /(china|dongguan|guangzhou|shenzhen|zhejiang).{1,10}are.{1,10}professional.{1,10}manufacturer/i
 /(china|dongguan|guangzhou|shenzhen|zhejiang).{1,10}based{1,20}(freight|international){1,20}forwarder/i
+/(china|dongguan|guangzhou|shenzhen|zhejiang).{1,10}do you have.{1,10}business/i
 /(china|dongguan|guangzhou|shenzhen|zhejiang).{1,10}factory.{1,10}specializes.{1,10}producing/i
 /(china|dongguan|guangzhou|shenzhen|zhejiang).{1,10}(my|our).{1,10}(company|factory).{1,10}(offers|specialized|specializes)/i
 /(china|dongguan|guangzhou|shenzhen|zhejiang).{1,20}supply all kinds of.{1,10}quality/i
@@ -359,6 +360,8 @@
 # ------------------------------------------------------------------------------
 /logistics needs.{1,10}please let me know/i
 
+/doing shipping from.{1,10}china/i
 /we.?a?re.{1,10}freight forwarding company/i
 
 /you have shipments from.{1,10}china/i
+/you need ship something from.{1,10}china/i

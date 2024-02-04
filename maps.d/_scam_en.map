@@ -38,6 +38,7 @@
 /atm.{0,10}card.{1,10}parcel valued/i
 /atm.{0,10}card.{1,10}worth of.{1,10}million/i
 /atm.{0,10}card.{1,10}worth.{1,10}sum of/i
+/atm.{0,10}card.{1,10}worth.{1,10}(dollar|euro?|gbp|usd)/i
 
 /attn.{1,10}atm.{0,10}card.{1,10}owner/i
 
@@ -49,6 +50,7 @@
 
 /your.{1,10}atm.{0,10}card.{1,10}worth of/i
 /your.{1,10}atm.{0.10}card.{1,10}ready for delivery/i
+/your.{1,10}atm.{0.10}card.{1,10}has been deposited/i
 
 /your.{1,10}package.{1,10}atm.{0,10}card/i
 /your.{1,10}payment of.{1,10}million.{1,10}through.{1,10}atm.{1,10}card/i
@@ -106,6 +108,7 @@
 /you.{1,10}containing.{1,10}sum of.{1,10}million/i
 /you.{1,10}have a fund of.{1,10}\d{3}.{0,5}\d{3}/i
 /you.{1,10}regarding.{1,10}compensation.{1,10}funds/i
+/you.{1,10}regarding.{1,10}your pending.{1,10}funds/i
 /you.{1,10}receive.{1,10}manage.{1,10}funds/i
 
 /you to.{1,10}assist retrieve.{1,15}deposit/i

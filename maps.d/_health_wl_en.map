@@ -63,6 +63,10 @@
 # ------------------------------------------------------------------------------
 /no more diets.{1,10}sweating/i
 
+# Diet
+# ------------------------------------------------------------------------------
+/diet to get.{1,10}slim (body|bodies)/i
+
 # Products
 # ------------------------------------------------------------------------------
 /(recipe|tea).{1,10}lose.{1,10}f(lbs|pounds).{1,10}(a|per) week/i
@@ -94,6 +98,7 @@
 
 /secret.{1,10}metabolic trigger/i
 /secret.{1,10}melting (lbs|pounds)/i
+/secret.{1,10}losing lots.{1,10}weight/i
 
 /without changing diet.{1,10}exercise/i
 
