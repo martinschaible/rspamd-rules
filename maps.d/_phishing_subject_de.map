@@ -12,7 +12,9 @@
 # Accounts
 # ------------------------------------------------------------------------------
 /aktion erforderlich/i
+
 /aktualisieren ihres kontos/i
+/aktualisierung erforderlich.{1,20}konto.{1,10}gesperrt/i
 /(aktualisieren?|bestätigen?) (deine|sie).{1,10}(konto|sicherheits).?informationen/i
 
 /konto bleibt begrenzt/i

@@ -24,10 +24,11 @@
 # Chair
 # ------------------------------------------------------------------------------
 /(büro|massage).?(stuhl|stühle).{1,15}(eingebauter|integrierter|komfort|massage|walnussholz)/iu
-/(büro|massage).?(stuhl|stühle).{1,15}(für nur|statt)/i
+/(büro|massage).?(stuhl|stühle).{1,15}(für nur|jetzt nur|statt)/i
 /(büro|massage).?leder.?(stuhl|stühle)/iu
 
-/(elegante|leder|office|stilvolle|unsere|traum|walnussholz).{1,15}(büro|massage).?(stuhl|stühle)/iu
+/(aktion|angebot).{1,20}(büro|massage).?(stuhl|stühle)/iu
+/(elegante|ergonomische|leder|office|stilvolle|unsere|traum|walnussholz).{1,20}(büro|massage).?(stuhl|stühle)/iu
 /(revolution|revolutionäre).{1,15}(büro|massage).?(stuhl|stühle)/iu
 
 /(chef|dreh|leder).?(sessel|stuhl)/i

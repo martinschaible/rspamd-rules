@@ -19,7 +19,7 @@
 # Filler text
 # ------------------------------------------------------------------------------
 # White color and small font size
-/<span style=(3d)?"color:.?#ffffff;.?font-size:.?[1-5]]px;">/i
+/<(div|span) style=(3d)?"color:.?#ffffff;.?font-size:.?[1-7]]px;">/i
 
 # Strange stuff
 # ------------------------------------------------------------------------------

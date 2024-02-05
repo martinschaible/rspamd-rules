@@ -25,7 +25,7 @@
 /(leder|mesh|toro).?chefsessel/i
 
 /diesen einzigartigen.{1,10}stuhl/i
-/(elegante|erlesene|komfort|praktische).{1,15}büro.?(stuhl|stühle)/iu
+/(elegante|ergonomische|erlesene|komfort|praktische).{1,15}büro.?(stuhl|stühle)/iu
 
 /erstaunliche.{1,10}massagestuhl/i
 
@@ -33,6 +33,7 @@
 /(büro|dreh).?(stuhl|stühle).{1,10}(die perfekte|in leder|in vielen farben|mit walnussholz)/iu
 /(büro|dreh).?(stuhl|stühle).{1,10}neues modell/iu
 /(büro|dreh).?(stuhl|stühle).{1,10}regale?/i
+/(büro|dreh).?(stuhl|stühle).{1,10}mit massagefunktion/i
 
 /stuhl.{1,15}vorzugspreis von nur/i
 /stuhl zum vorzugspreis/i
@@ -216,10 +217,14 @@
 /(bestellen|bestellung).{1,10}einfach antworten/i
 
 /bestellen.{1,10}auf rechnung einfach.{1,10}antworten/i
-/bestellen.{1,15}einfach auf dieses?.{1,10}(e?.?mail|schreiben) antworten/i
-/bestellen.{1,15}einfach mit.{1,15}(adresse|anschrift).{1,10}diese e?.?mail antworten/i
-/bestellen.{1,15}einfach mit.{1,15}(adresse|anschrift).{1,10}antworten/i
-/bestellen.{1,15}einfach per e?.?mail.{1,10}antwort/i
+
+/bestellen.{1,15}einfach.{1,15}auf dieses?.{1,10}(e?.?mail|schreiben) antworten/i
+/bestellen.{1,15}einfach.{1,15}auf dieses?.{1,10}(e?.?mail|schreiben) mit ihrer.{1,15}(adresse|anschrift)/i
+
+/bestellen.{1,15}einfach.{1,15}mit.{1,15}(adresse|anschrift).{1,10}diese e?.?mail antworten/i
+/bestellen.{1,15}einfach.{1,15}mit.{1,15}(adresse|anschrift).{1,10}antworten/i
+/bestellen.{1,15}einfach.{1,15}per e?.?mail.{1,10}antwort/i
+
 /bestellen.{1,10}mit ihrer.{1,10}(adresse|anschrift).{1,10}(einfach antworten|wir liefern)/i
 /bestellen.{1,10}senden sie uns einfach.{1,10}e?.?mail/i
 /bestellen.{1,15}senden sie uns.{1,15}ihre.{1,20}(liefer|rechnungs).?anschrift/i
