@@ -100,7 +100,7 @@
 /secret.{1,10}melting (lbs|pounds)/i
 /secret.{1,10}losing lots.{1,10}weight/i
 
-/without changing diet.{1,10}exercise/i
+/(no|without changing) diet.{1,10}exercises?/i
 
 /your body into.{1,10}fat.{1,10}melting/i
 
@@ -113,6 +113,7 @@
 /melted off.{1,10}every unwanted.{1,10}(lbs|pounds)/i
 
 /lost.{1,10}(lbs|pounds).{1,15}dress sizes/i
+/loses.{1,10}(lbs|pounds).{1,10}stubborn fat/i
 
 #
 #

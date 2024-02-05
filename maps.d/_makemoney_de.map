@@ -11,9 +11,7 @@
 # ------------------------------------------------------------------------------
 /du erhältst.{1,10}pro tag.{1,10}und das.{1,10}tage im jahr/iu
 
-/bis zu.{1,10}euro? pro tag verdienen/i
-
-/verdienen sie garantierte.{1,10}\d{3,4}.{1,10}in.{1,15}stunden/i
+/verdienen sie garantierte.{1,10}(\d{3,4}|euro).{1,10}in.{1,15}stunden/i
 
 /ermöglicht es.{1,15}mehrere tausend.{1,10}zu verdienen/i
 /einkommen ab.{1,10}euro? pro tag/i
@@ -21,16 +19,16 @@
 
 /euro? pro tag.{1,10}garantiertes einkommen/i
 
+/(benutzer|/bis zu|sie).{1,15}(\d{3,4}|euro).{1,10}pro tag verdienen/i
+
 /zu verdienen.{1,10}klicken sie hier/i
 
-/verdienen sie.{1,15}\d{3,4}.{1,15}wöchentlich/iu
-/(täglich|wöchentlich).{1,15}\d{3,4}.{1,15}verdienen/iu
+/verdienen sie.{1,15}(\d{3,4}|euro).{1,15}wöchentlich/iu
+/(täglich|wöchentlich).{1,15}(\d{3,4}|euro).{1,15}verdienen/iu
 
 /menschen.{1,10}leichtes geld verdienen/i
 
 /erfahren sie wohlstand/i
-
-/sie.{1,15}\d{3,4}.{1,15}pro tag verdienen/i
 
 # Fake stories
 # ------------------------------------------------------------------------------

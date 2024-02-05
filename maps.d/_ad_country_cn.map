@@ -63,6 +63,7 @@
 
 /sales.?manager.{1,10}(china|dongguan|guangzhou|shenzhen|zhejiang)/i
 /factory.{1,10}located in.{1,10}(china|dongguan|guangzhou|shenzhen|zhejiang)/i
+/manufacturer with.{1,10}years experience in.{1,10}(china|dongguan|guangzhou|shenzhen|zhejiang)/i
 
 /(co|limited|ltd).{1,10}(china|dongguan|guangzhou|shenzhen|zhejiang).{1,10}are you interested/i
 /(co|limited|ltd).{1,10}(dongguan|guangzhou|shenzhen|zhejiang).{1,10}china/i
@@ -164,6 +165,7 @@
 
 #
 /supplier.{1,10}our company name is/i
+/supplier.{1,10}of variety sizes.{1,10}grades/i
 
 # RFQ
 /any rfq take a chance/i
@@ -328,7 +330,7 @@
 /we.{1,10}(offer|specializing|provide).{1,10}(pcba?|printed.circuit.board).{1,10}(assembly|layers|production)/i
 /we.{1,10}(offer|specializing|provide).{1,10}you with.{1,15}(pcba?|printed.circuit.board)/i
 
-/we.?a?re.{1,10}(pcba?|printed.circuit.board).{1,10}manufacturer/i
+/we.?a?re.{1,10}(pcba?|printed.circuit.board).{1,25}manufacturer/i
 
 /years professional.{1,10}electronics.{1,10}(pcba?|printed.circuit.board)/i
 
