@@ -19,9 +19,9 @@
 
 /konto bleibt begrenzt/i
 /konto ist nicht konform/i
+/konto ist möglicherweise eingeschränkt/iu
 /konto erfordert eine maßnahme/i
 /konto wird (bald gesperrt|begrenzt|eingeschränkt)/iu
-/kontoaktivitäts.?aktualisierung/i
 
 /konto.?überprüfung erforderlich/i
 
@@ -39,6 +39,9 @@
 /(Überprüfen|überprüfen) sie ihre.{1,10}(kontodaten|persönlichen daten)/iu
 
 /informationen zu ihrem.{1,15}konto.{1,15}fehlen/i
+
+# Bad german
+/kontoaktivitäts.?aktualisierung/i
 
 # Cards
 # ------------------------------------------------------------------------------

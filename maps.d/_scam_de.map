@@ -23,11 +23,14 @@
 # ------------------------------------------------------------------------------
 /atm.{0.10}karte mit.{1,15}\d{3}.{0,5}\d{3}.{1,10}(dollar|euro|gbp|usd) gesendet wird/i
 /atm.{0.10}karte enthält.{1,15}\d{3}.{0,5}\d{3}.{1,10}millionen/i
+/atm.{0.10}karte.{1,15}die auf ihren namen ausgestellt/i
 
 /ihr geld wurde auf eine.{1,10}(bank|debit).{0,10}karte geladen/i
 /ihre swift atm.{0.10}karte/i
 
 /ihre.{1,10}geldautomatenkarte im wert von/i
+
+/zahlung an sie.{1,10}eine atm.{0.10}karte/i
 
 # Beneficiary
 # ------------------------------------------------------------------------------
@@ -303,13 +306,17 @@
 /internet.?seite können sie kostenlos/i
 /unser kostenloses.{1,10}analyse.?tool/i
 
-/unseren kostenlosen.{1,15}srechner/i
+/kostenloser solar.?rechner/i
+/unser(en)? (kostenlosen|kostenloser).{1,15}rechner/i
 
 /unverbindlich.{1,10}kostenlos.{1,10}welche anlage/i
 /prüfen sie hier.{1,10}welche förderungen.{1,10}sie /iu
 /starten sie ihre kostenlose berechnung/i
 
 /als ihre energieberater hier/i
+
+#
+/ihren strom komplett selbst erzeugen/i
 
 #
 #
@@ -326,5 +333,6 @@
 /vertrauliches geschäftsabkommen/iu
 
 /ich suche ihre dienste als partner/i
+/ihr geld zu täuschen/iu
 
 /partnerschaftsinvestition/i

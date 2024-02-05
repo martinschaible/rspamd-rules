@@ -123,8 +123,12 @@
 # ------------------------------------------------------------------------------
 /\.net/spotify\//i
 
+# WeTransfer
 /\/transferwe\//i
 /\/wetransfers\//i
 /\/wtrernsfers\//i
 
+/\.ru/[a-z]{2,4}/we/[a-z]{2,4}/i
+
+# SwissPass
 /\//suisspass\//i
