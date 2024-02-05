@@ -37,9 +37,15 @@
 
 /erhalten sie.{1,10}darlehen.{1,15}kredite/i 
 
-/wir (bieten|gewähren|vergeben).{1,10}(alle arten von)?.{0,15}(darlehen|kredit)/iu
-/wir (bieten|gewähren|vergeben).{1,10}kurz.{1,10}lang.?fristige.{0,15}(darlehen|kredit)/i
-/wir (bieten|gewähren|vergeben).{1,15}privatpersonen.{1,10}unternehmen/i
+/(ich|wir) (biete|gewähre|vergebe)n?.{1,10}(alle arten von)?.{0,15}(darlehen|kredit)/iu
+/(ich|wir) (biete|gewähre|vergebe)n?.{1,10}kurz.{1,10}lang.?fristige.{0,15}(darlehen|kredit)/i
+/(ich|wir) (biete|gewähre|vergebe)n?.{1,15}privatpersonen.{1,10}unternehmen/i
+/(ich|wir) (biete|gewähre|vergebe)n?.{1,10}privat.?(darlehen|kredit)/i
+/(ich|wir) (biete|gewähre|vergebe)n?.{1,10}privat.{1,10}geschäfts/i
+/(ich|wir) (biete|gewähre|vergebe)n?.{1,10}(darlehen|kredite?).{1,10}für einzelpersonen/iu
+/(ich|wir) (biete|gewähre|vergebe)n?.{1,10}(darlehen|kredite?).{1,10}von.{1,15}bis/i
+
+/(ich|wir).{1,10}privatpersonen.{1,15}unternehmen.{1,10}(darlehen|kredite?)/i
 
 /(unschlagbar|zuverlässig).{1,10}kredit.?angebot/i
 
@@ -67,10 +73,6 @@
 /kreditarten sind wir zertifiziert/i
 
 /bewerben sie sich.{1,15}(darlehen|kredit)/i
-
-/(ich|wir) bieten? privat.?(darlehen|kredit)/i
-/(ich|wir) bieten? (darlehen|kredite?).{1,10}von.{1,15}bis/i
-/(ich|wir) bieten? (darlehen|kredite?).{1,10}für einzelpersonen/iu
 
 /bietet online.?darlehen/i
 

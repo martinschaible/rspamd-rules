@@ -281,18 +281,19 @@
 # ------------------------------------------------------------------------------
 /our.{1,15}(company|factory) provides.{1,10}customized plastic/i
 
-/handle injection molding projects/i
-/plastic injection molding manufacturer/i
+/handle injection mold(ing)? projects/i
+/plastic injection mold(ing)? manufacturer/i
 
-/you (interested||looking|need).{1,10}injection.{1,10}molding/i
+/you (interested||looking|need).{1,10}injection.{1,10}mold(ing)?/i
 /you looking for.{1,10}reliable.{1,10}experienced.{1,10}plastic/i
 
-/we.?a?re.{1,10}(professional|reliable).{1,20}molding/i
+/we.?a?re.{1,10}(professional|reliable).{1,20}mold(ing)?/i
 /we.?a?re.{1,10}injection.{1,10}mould fabricator/i
 
-/we can handle.{1,10}injection.{1,10}molding/i
-/we offer.{1,15}mold.{1,10}plastics/i
-/we provide.{1,10}mold.{1,10}manufacturing/i
+/we can handle.{1,10}injection.{1,10}mold(ing)?/i
+/we focus on.{1,10}injection.{1,10}mold(ing)?/i
+/we offer.{1,15}mold(ing)?.{1,10}plastics/i
+/we provide.{1,10}mold(ing)?.{1,10}manufacturing/i
 
 # PCB
 # ------------------------------------------------------------------------------
