@@ -92,7 +92,9 @@
 
 # Forms
 # ------------------------------------------------------------------------------
-kredit.?betrag.{1,20}kredit.?laufzeit/i
+/kredit.?betrag.{1,20}kredit.?laufzeit/i
+/kreditlaufzeit.{1,10}zweck/i
+/benötigter betrag.{1,10}laufzeit/i
 
 # Money
 # ------------------------------------------------------------------------------

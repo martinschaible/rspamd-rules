@@ -17,6 +17,8 @@
 # Assistance
 # ------------------------------------------------------------------------------
 /assist me.{1,10}sincerely.{1,10}confident/i
+
+/you.{1,10}help me receive.{1,10}secure/i
 /your.{1,10}assistance to receive.{1,10}sum/i
 /your.{1,10}indulgence to assist me/i
 
@@ -63,7 +65,7 @@
 # ------------------------------------------------------------------------------
 /(attn|attention|dear).{1,10}beneficiary/i
 
-/you have (been selected|emerged) as one of.{1,20}beneficiaries/i
+/you.{1,10}(appear|been selected|emerged) (as one|to be one) of.{1,20}beneficiaries/i
 /you to be.{1,10}nearest.{1,10}beneficiary/i
 
 /your name as.{1,10}beneficiary/i
@@ -196,6 +198,10 @@
 # ------------------------------------------------------------------------------
 /this venture is legal/i
 /it is legal and genuine/i
+
+# No risk
+# ------------------------------------------------------------------------------
+/you.{1,10}this deal has no risk/i
 
 # Partnership, Business, Proposal
 # ------------------------------------------------------------------------------

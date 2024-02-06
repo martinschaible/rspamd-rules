@@ -59,10 +59,9 @@
 
 # Pen
 # ------------------------------------------------------------------------------
-/(eindruck|elegante|gummierte|hochwertige|kostenlos|metall|moderne|premium|stilvolle|softtouch|werbe|werbung).{0,10}kugelschreiber/iu
-/unseren?.{1,10}kugelschreiber/i
+/(eindruck|elegante|gummierte|hochwertige|kostenlos|metall|moderne|muster|personalisierte|premium|stilvolle|softtouch|unseren|werbe|werbung).{0,10}kugelschreiber/iu
 
-/muster.?kugelschreiber/i
+kugelschreiber.{1,10}warten auf sie/i
 /kugelschreiber.?muster/i
 
 /(kugelschreiber|kuli) mit.{1,15}(branding|logo)/i
