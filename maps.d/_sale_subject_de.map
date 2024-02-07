@@ -66,9 +66,18 @@ kugelschreiber.{1,10}warten auf sie/i
 
 /(kugelschreiber|kuli) mit.{1,15}(branding|logo)/i
 
+# Schneeschieber
+# ------------------------------------------------------------------------------
+/unser.{1,10}schneeschieber/i
+/schneeschieber wartet/i
+
+# Schmutzfangmatten
+# ------------------------------------------------------------------------------
+/rutschfeste.{1,10}schmutzfangmatten/i
+
 # Schwerlastregal
 # ------------------------------------------------------------------------------
-/schwerlastregale?.{1,15}grössen/iu
+/schwerlastregal/i
 
 # SEO
 # ------------------------------------------------------------------------------
@@ -82,15 +91,6 @@ kugelschreiber.{1,10}warten auf sie/i
 
 # Surveillence Camera
 # ------------------------------------------------------------------------------
-
-# Schneeschieber
-# ------------------------------------------------------------------------------
-/unser.{1,10}schneeschieber/i
-/schneeschieber wartet/i
-
-# Schwerlastregal
-# ------------------------------------------------------------------------------
-/schwerlastregal/i
 
 # Starthilfe
 # ------------------------------------------------------------------------------

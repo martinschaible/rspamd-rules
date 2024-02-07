@@ -9,12 +9,10 @@
 # ------------------------------------------------------------------------------
 /if you doesn?.?t.{1,10}like this.{1,10}please.{1,10}(click here|tab me)/i
 
-/remove.me.from.the.gift.list/i
+/stop future communications.{1,10}send post.?mail to/i
 
-/stop.future.communications.{1,10}send.post.?mail to/i
-
-/you do not want.{1,10}receive.{1,10}e?.?mails.from.us.{1,10}you.{1,10}go.right.here/i
-/you would no longer.{1,10}to receive.{1,10}e?.?mail.advertisements from/i
+/you do not want.{1,10}receive.{1,10}e?.?mails from us.{1,10}you.{1,10}go right here/i
+/you would no longer.{1,10}to receive.{1,10}e?.?mail.?advertisements from/i
 /you may unsubscribe.{1,10}from these.{1,10}notifications/i
 
 /you enjoy receiving this message.{1,15}if you.{1,10}(prefer|rather) not to receive/i
@@ -24,7 +22,8 @@
 
 # Unsubscribe, Zip Code
 # ------------------------------------------------------------------------------
-/unsubscribe.{1,10}\d{5}/i
+# Temporary - false/positives
+#/unsubscribe.{1,10}\d{5}/i
 
 # Post Mail
 # ------------------------------------------------------------------------------
