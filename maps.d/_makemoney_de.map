@@ -43,7 +43,9 @@
 /(info(rmation)?|wichtig).{1,10}(jetzt finaziell|reich durch)/i
 /(info(rmation)?|wichtig).{1,15}(wohlhabend|reich) werden/i
 
-/(funktioniert|wichtig).{1,25}jetzt reich werden/i
+/(funktioniert|methode|wichtig).{1,25}reich werden/i
+
+(garantiert|jetzt|ohne scam).{1,20}reich werden/i
 
 /erwerben sie vermögen/iu
 /so werden.{1,10}sie reich/i
@@ -57,9 +59,11 @@
 
 /einkommen.{1,15}\d{3,4}.{1,15}pro woche zu erzielen/i
 
+/werden ihre einnahmen explodieren/i
+
 # Income passive
 # ------------------------------------------------------------------------------
-/(erwirtschaften|generieren) sie.{1,10}passives.{1,10}einkommen/i
+/(erwirtschaften|erzielen|generieren) sie.{1,10}passives.{1,10}einkommen/i
 
 # Investing
 # ------------------------------------------------------------------------------
@@ -74,6 +78,8 @@
 # ------------------------------------------------------------------------------
 /mit diesem.{1,10}bahnbrechenden system/i
 
+/innovativen.{1,10}( handels.?plattform|trading.?system)/i
+
 /(anwendung|app|system).{1,10}werden reich/i
 /(anwendung|app|system).{1,10}die täglich.{1,15}\d{3,4}.{1,15}generiert/i
 /(anwendung|app|system).{1,10}revolutioniert den markt/i
@@ -81,7 +87,6 @@
 
 # Trading
 # ------------------------------------------------------------------------------
-/dieser innovativen handels.?plattform/i
 
 #
 #

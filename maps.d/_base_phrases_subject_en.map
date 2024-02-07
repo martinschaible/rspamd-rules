@@ -7,7 +7,7 @@
 
 # Attention, Important
 # ------------------------------------------------------------------------------
-/(attn|attention).{1,10}e?.?mail.address.owner/i
+/(attn|attention).{1,10}e?.?mail.?(address|id).?owner/i
 /(attn|attention).{1,10}dear/i
 /(attn|attention).{1,10}please/i
 
