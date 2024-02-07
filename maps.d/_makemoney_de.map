@@ -19,6 +19,8 @@
 
 /euro? pro tag.{1,10}garantiertes einkommen/i
 
+/jeden tag.{1,15}(\d{3,4}|euro).{1,10}verdienen/i
+
 /(benutzer|/bis zu|sie).{1,15}(\d{3,4}|euro).{1,10}pro tag verdienen/i
 
 /zu verdienen.{1,10}klicken sie hier/i
@@ -35,6 +37,15 @@
 /(als|schaffte).{5.20}euro pro (tag|woche) zu verdienen/i
 /eine geheime investition/i
 
+# Getting rich
+# ------------------------------------------------------------------------------
+/(information|wichtig).{1,10}so werden.{1,10}sie reich/i
+/(information|wichtig).{1,10}reich durch/i
+
+/(funktioniert|wichtig).{1,25}jetzt reich werden/i
+
+/erwerben sie vermögen/iu
+
 # Income
 # ------------------------------------------------------------------------------
 /konzept.{1,20}einnahmen ermöglich/iu
@@ -50,6 +61,7 @@
 # Promises
 # ------------------------------------------------------------------------------
 /wenigen minuten pro woche ein.{1,10}vermögen/i
+/werden ihre erträge explodieren/iu
 
 # Systems
 # ------------------------------------------------------------------------------
@@ -59,6 +71,10 @@
 /(anwendung|app|system).{1,10}die täglich.{1,15}\d{3,4}.{1,15}generiert/i
 /(anwendung|app|system).{1,10}revolutioniert den markt/i
 /(anwendung|app|system).{1,10}finanzielle freiheit zu erreichen/i
+
+# Trading
+# ------------------------------------------------------------------------------
+/dieser innovativen handels.?plattform/i
 
 #
 #
