@@ -13,6 +13,7 @@
 # Crypto
 # ------------------------------------------------------------------------------
 /(bit?coin|crypto|krypto).{1,15}ein exklusives/i
+/(bit?coin|crypto|krypto).{1,10}macht.{1,15}reich/i
 
 /werden sie.{1,10}heute zum.{1,10}(bit?coin|crypto|krypto)/i
 
@@ -22,7 +23,8 @@
 
 /handel.{1,10}bitcoin auf unserer/i
 
-/mit.{1,10}(bit?coin|crypto|krypto) geld.{1,10}verdienen/i
+/mit.{1,10}(bit?coin|crypto|krypto).{1,10}geld.{1,10}verdienen/i
+/mit.{1,10}(bit?coin|crypto|krypto).{1,10}reich werden/i
 
 /euro pro monat.{1,10}mit.{1,10}(bit?coin|crypto|krypto)/i
 

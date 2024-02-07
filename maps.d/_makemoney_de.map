@@ -11,7 +11,7 @@
 # ------------------------------------------------------------------------------
 /du erhältst.{1,10}pro tag.{1,10}und das.{1,10}tage im jahr/iu
 
-/verdienen sie garantierte.{1,10}(\d{3,4}|euro).{1,10}in.{1,15}stunden/i
+/verdienen sie garantierte.{1,10}(\d{3,4}|euro?).{1,10}in.{1,15}stunden/i
 
 /ermöglicht es.{1,15}mehrere tausend.{1,10}zu verdienen/i
 /einkommen ab.{1,10}euro? pro tag/i
@@ -19,14 +19,14 @@
 
 /euro? pro tag.{1,10}garantiertes einkommen/i
 
-/jeden tag.{1,15}(\d{3,4}|euro).{1,10}verdienen/i
+/jeden tag.{1,15}(\d{3,4}|euro?).{1,10}verdienen/i
 
-/(benutzer|/bis zu|sie).{1,15}(\d{3,4}|euro).{1,10}pro tag verdienen/i
+/(benutzer|/bis zu|sie).{1,15}(\d{3,4}|euro?).{1,10}pro tag verdienen/i
 
 /zu verdienen.{1,10}klicken sie hier/i
 
 /verdienen sie.{1,15}(\d{3,4}|euro).{1,15}wöchentlich/iu
-/(täglich|wöchentlich).{1,15}(\d{3,4}|euro).{1,15}verdienen/iu
+/(täglich|wöchentlich).{1,15}(\d{3,4}|euro?).{1,15}verdienen/iu
 
 /menschen.{1,10}leichtes geld verdienen/i
 
@@ -39,12 +39,15 @@
 
 # Getting rich
 # ------------------------------------------------------------------------------
-/(information|wichtig).{1,10}so werden.{1,10}sie reich/i
-/(information|wichtig).{1,10}reich durch/i
+/(info(rmation)?|wichtig).{1,10}so werden.{1,10}sie reich/i
+/(info(rmation)?|wichtig).{1,10}(jetzt finaziell|reich durch)/i
+/(info(rmation)?|wichtig).{1,15}(wohlhabend|reich) werden/i
 
 /(funktioniert|wichtig).{1,25}jetzt reich werden/i
 
 /erwerben sie vermögen/iu
+/so werden.{1,10}sie reich/i
+(garantiert|ohne scam).{1,20}reich werden/i
 
 # Income
 # ------------------------------------------------------------------------------
@@ -53,6 +56,10 @@
 /(legal|seriös).{1,10}ihr einkommen zu steigern/i
 
 /einkommen.{1,15}\d{3,4}.{1,15}pro woche zu erzielen/i
+
+# Income passive
+# ------------------------------------------------------------------------------
+/(erwirtschaften|generieren) sie.{1,10}passives.{1,10}einkommen/i
 
 # Investing
 # ------------------------------------------------------------------------------
