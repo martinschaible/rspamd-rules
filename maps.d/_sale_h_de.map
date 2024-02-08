@@ -157,6 +157,7 @@
 # ------------------------------------------------------------------------------
 /(werkstatt|werkzeug).?(trolley|wagen).{1,10}angeben/i
 /(werkstatt|werkzeug).?(trolley|wagen).{1,10}eignet sich/i
+/(werkstatt|werkzeug).?(trolley|wagen).{1,10}für.{1,10}(heimwerker|profis)/i
 /(werkstatt|werkzeug).?(trolley|wagen).{1,10}gefüllt mit/iu
 /(werkstatt|werkzeug).?(trolley|wagen).{1,10}genau das richtige/i
 /(werkstatt|werkzeug).?(trolley|wagen).{1,10}mit.{1,10}schubladen/i
@@ -209,7 +210,7 @@
 /antworten sie.{1,15}bei fragen.{1,10}bestellungen/i
 /antworten sie.{1,15}einfach.{1,10}auf diese e?.?mail.{1,10}um ihre bestellung/i
 /antworten sie.{1,15}einfach.{1,10}mit ihrer.{1,10}adresse.{1,10}(auf dieses schreiben|teilen sie uns)/i
-/antworten sie.{1,15}einfach.{1,10}mit ihrer.{1,10}lieferadresse/i
+/antworten sie.{1,15}einfach.{1,10}mit ihrer.{1,10}(liefer|rechnungs).?adresse/i
 /antworten sie.{1,15}einfach.{1,10}zum bestellen/i
 /antworten sie.{1,15}direkt auf diese e?.?mail.{1,10}wir schicken ihnen ihr/i
 
