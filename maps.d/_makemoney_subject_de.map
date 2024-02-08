@@ -57,11 +57,17 @@
 # ------------------------------------------------------------------------------
 /jetzt finanziell erfolgreich werden/i
 
-(einfach|garantiert|jetzt|methode|ohne scam).{1,20}reich werden/i
+(es geht|einfach|garantiert|jetzt|methode|ohne scam).{1,20}reich werden/i
 /(einfach|jetzt).{1,10}vermögen (aufbauen|anhäufen)/iu
 
 /schnell zu wohlstand kommen/i
 
+/passives einkommen generieren/i
+
+/wie reich werden/i
+
 # Income passive
 # ------------------------------------------------------------------------------
 /generieren sie.{1,10}passives.{1,10}einkommen/i
+
+/(\d{3,4}|euro).{1,10}passives einkommen/i

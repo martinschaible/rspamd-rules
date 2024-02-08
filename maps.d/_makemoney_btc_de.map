@@ -12,6 +12,7 @@
 
 # Crypto
 # ------------------------------------------------------------------------------
+/(bit?coin|crypto|krypto).{1,10}bringt reichtum/i
 /(bit?coin|crypto|krypto).{1,15}ein exklusives/i
 /(bit?coin|crypto|krypto).{1,10}macht.{1,15}reich/i
 

@@ -39,9 +39,9 @@
 
 # Getting rich
 # ------------------------------------------------------------------------------
-/(info(rmation)?|wichtig).{1,10}so werden.{1,10}sie reich/i
-/(info(rmation)?|wichtig).{1,10}(jetzt finaziell|reich durch)/i
-/(info(rmation)?|wichtig).{1,15}(wohlhabend|reich) werden/i
+/(achtung|info(rmation)?|wichtig).{1,10}so werden.{1,10}sie reich/i
+/(achtung|info(rmation)?|wichtig).{1,10}(jetzt finaziell|reich durch)/i
+/(achtung|info(rmation)?|wichtig).{1,15}(wohlhabend|reich) werden/i
 
 /(funktioniert|methode|wichtig).{1,25}reich werden/i
 
@@ -49,7 +49,7 @@
 
 /erwerben sie vermögen/iu
 /so werden.{1,10}sie reich/i
-(garantiert|ohne scam).{1,20}reich werden/i
+/(garantiert|ohne scam).{1,20}reich werden/i
 
 # Income
 # ------------------------------------------------------------------------------
@@ -63,7 +63,7 @@
 
 # Income passive
 # ------------------------------------------------------------------------------
-/(erwirtschaften|erzielen|generieren) sie.{1,10}passives.{1,10}einkommen/i
+/(erwirtschaften|erzielen|generieren|verdienen) sie.{1,10}passives.{1,10}(gehalt|einkommen)/i
 
 # Investing
 # ------------------------------------------------------------------------------
@@ -78,12 +78,14 @@
 # ------------------------------------------------------------------------------
 /mit diesem.{1,10}bahnbrechenden system/i
 
-/innovativen.{1,10}( handels.?plattform|trading.?system)/i
+/innovativen.{1,10}(handels.?plattform|trading.?system)/i
 
 /(anwendung|app|system).{1,10}werden reich/i
 /(anwendung|app|system).{1,10}die täglich.{1,15}\d{3,4}.{1,15}generiert/i
 /(anwendung|app|system).{1,10}revolutioniert den markt/i
 /(anwendung|app|system).{1,10}finanzielle freiheit zu erreichen/i
+
+/bahnbrechenden system.{1,10}profitieren/i
 
 # Trading
 # ------------------------------------------------------------------------------
