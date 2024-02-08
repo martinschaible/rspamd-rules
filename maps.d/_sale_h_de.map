@@ -165,9 +165,10 @@
 /(werkstatt|werkzeug).?(trolley|wagen).{1,10}inklusive.{1,20}werkzeug/i
 /(werkstatt|werkzeug).?(trolley|wagen).{1,10}spezialangebot/i
 
-/(hochwertiger|performance|unser).{1,10}(werkstatt|werkzeug).?(trolley|wagen).{1,10}(inkl|ist mit|kommt)/i
+/(hochwertiger|performance|unser).{1,10}(werkstatt|werkzeug).?(trolley|wagen).{1,10}(für|inkl|ist mit|kommt)/iu
+/ultimative.{1,10}(werkstatt|werkzeug).?(trolley|wagen)/i
 
-/unser.{1,10}hochwertige.{1,10}(werkstatt|werkzeug).?(trolley|wagen)/i
+/(hochwertige|ultimative|unser|premium).{1,20}(werkstatt|werkzeug).?(trolley|wagen)/i
 
 /werkzeug.{1,10}aus chrom.?vanadium/i
 /werkzeug.{1,10}(komplett)?.?set.{1,10}alukoffer/i
