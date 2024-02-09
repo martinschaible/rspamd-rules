@@ -38,6 +38,11 @@
 
 /my name is.{5,25}we are specialized in/i
 
+
+# Intros "You are in the business"
+# ------------------------------------------------------------------------------
+/you are in.{1,10}pcb.{1,10}business/i
+
 # Intros, specific China
 # ------------------------------------------------------------------------------
 /(china|dongguan|guangzhou|shenzhen|zhejiang).{1,10}are.{1,10}professional.{1,10}manufacturer/i

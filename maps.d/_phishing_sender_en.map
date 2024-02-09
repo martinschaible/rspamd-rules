@@ -49,12 +49,13 @@
 
 # Parcel
 # ------------------------------------------------------------------------------
-/package.?notification/i
+/(package|parcel).?notification/i
 /delivery.?failed/i
 
 # Parcel - Companies
 # ------------------------------------------------------------------------------
-/dhl (express|package)/i
+/dhl.{0,5}(express|package)/i
+/notification.{0,5}dhl/i
 
 /express.?dhl/i
 

@@ -34,7 +34,7 @@
 /korrigieren sie ihre adresse/i
 
 /ihnen angegebene.{1,10}adresse unvollständig zu sein scheint/iu
-/ihre liefer.?adresse.{1,10}zu überprüfen/i
+/ihre (liefer.?adresse|versanddetails).{1,20}zu überprüfen/i
 
 /liefer.?adresse.{1,10}ungültige adresse/iu
 /liefer.?adresse.{1,10}nicht korrekt.{1,15}die zustellung fehlschlug/i

@@ -50,6 +50,8 @@
 /sharpens? blurry eyesight/i
 /clears foggy vision/i
 
+/secret.{1,15}perfect vision/i
+
 # Fungus
 # ------------------------------------------------------------------------------
 /(nail|toe).?fungus within.{1,10}days/i
@@ -121,9 +123,10 @@
 /bizzare.{1,10}second hack/i
 /breakthrough.{1,10}discovery by dr/i
 
-/second water.{1,10}hack/i
-/second video.{1,10}went viral/i
-/(sec|second).?trick turns any/i
+/sec(ond)? water.{1,10}hack/i
+/sec(ond)? video.{1,10}went viral/i
+/sec(ond)?.{1,10}hack helps/i
+/sec(ond)?.?trick turns any/i
 
 /secret.{1,15}(ingredient|monumental).{1,15}breakthrough/i
 
@@ -141,6 +144,8 @@
 
 /uncover.{1,10}the shocking truth/i
 /uncover.{1,10}remarkable tale/i
+/uncover.{1,10}astonishing secret/i
+
 /unusual.{1,15}breakfast ritual/i
 /unveiled.{1,10}groundbreaking discovery/i
 
@@ -148,7 +153,8 @@
 
 /scientists confirmed this.{1,10}hack/i
 /shocking discovery reveals/i
-/simple.{1,10}second.{1,10}(method|protocol|stretch)/i
+
+/simple.{1,10}second.{1,10}(hack|method|protocol|stretch)/i
 
 /this.{1,10}eye.?opening presentation/i
 /this.{1,10}formula was leaked/i

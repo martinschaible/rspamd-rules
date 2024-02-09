@@ -90,10 +90,15 @@
 
 # Parcel
 # ------------------------------------------------------------------------------
+
+# Address
+/adressüberprüfung für ihre sendung/iu
+
 /bestellung.{1,10}die noch auf.{1,10}bezahlung wartet/i
 /bestätigen sie ihre (lieferung|versandinformationen)/iu
 
 /warten auf abholung/i
+
 /wichtig.{1,10}paket/i
 
 /(paket|sendung).{1,10}bewegt sich/i
@@ -218,6 +223,8 @@
 # ------------------------------------------------------------------------------
 /\[targo.?bank\]/i
 /targo.?bank.{1,5}id/i
+
+/i0n0s{1,5}mail/i
 
 #
 #
