@@ -67,6 +67,7 @@
 /you need mobile apps? for your.{1,10}company/i
 
 /you want.{1,10}mobile.?apps?/i
+/you want.{1,10}build.{1,10}mobile.?apps?/i
 
 /who deals.{1,15}app.?development/i
 
@@ -247,12 +248,14 @@
 
 /specialized in.{1,10}web.?site design/i
 
-/we are.{1,10}web development company/i
+/we are.{1,10}web (design|development){1,10}company/i
+/we are.{1,10}web design.{1,10}development.{1,10}company/i
 /we are.{1,10}it based company/i
 
 /we are.{1,20}professional website developers/i
 
-/we create new web.?site/i
+/We can design.{1,10}unique.{1,10}website/i
+/we create new.{1,10}web.?site/i
 
 /we have.{1,10}expertise.{1,10}developing.{1,10}web.?site/i
 /we have.{1,10}professional team.{1,10}web.site/i

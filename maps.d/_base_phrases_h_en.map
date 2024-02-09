@@ -17,7 +17,7 @@
 
 # Attention
 # ------------------------------------------------------------------------------
-/(attn|attention).{1,10}(dear|madam|relative|sir)/i
+/(attn|attention).{1,10}(beneficiary|dear|madam|relative|sir)/i
 /(attn|attention).{1,10}e?.?mail.?(address|id).?owner/i
 /(attn|attention).{1,10}i am.{1,10}(attorney|seeking)/i
 /(attn|attention).{1,10}please/i
@@ -71,6 +71,7 @@
 # ------------------------------------------------------------------------------
 /(apology|apologies) for.{1,10}unexpected contact/i
 /(apology|apologies) for sending this unsolicited e.?mail/i
+/(apology|apologies) for this unsolicited letter to you/i
 
 /i am.{1,10}sorry.{1,10}(for intruding|to invade)/i
 /i am.{1,10}sorry.{1,10}to reach you through this medium/i

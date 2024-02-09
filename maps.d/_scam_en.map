@@ -360,9 +360,11 @@
 /i.{1,10}(gained|obtained).{1,10}access.{1,10}your (account|devices)/i
 /i.{1,10}managed.{1,10}install.{1,15}(trojan|virus)/i
 /i.{1,10}managed.{1,10}to get full access.{1,10}all devices/i
+/i.{1,10}recorded some videos of you/i
 
-/i am.{1,10}professional hacker/i
-/i am.{1,10}hacker.{1,10}has access/i
+/i.?a?m a hacker/i
+/i.?a?m.{1,10}hacker.{1,10}has access/i
+/i.?a?m.{1,10}professional hacker/i
 /i know that you are.{1,10}pedophile/i
 
 /virus enabled me to connect/i
@@ -370,6 +372,8 @@
 /managed to hack.{1,10}your.{1,10}operating.?system/i
 
 /with my private trojan/i
+
+/my perverted friend/i
 
 # Ransom, Payment
 # ------------------------------------------------------------------------------
