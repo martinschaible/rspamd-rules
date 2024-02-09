@@ -81,15 +81,16 @@
 
 # Financing, Investing
 # ------------------------------------------------------------------------------
-/we (are offering|give|issuing|offer|offering|provide).{1,10}financing/i
+/we .{1,10}(give|issuing|offer|offering|provide).{1,10}financing/i
 
-/we (are offering|give|issuing|offer|offering|provide).{1,15}business.{1,10}personal.{1,15}financing?/i
-/we (are offering|give|issuing|offer|offering|provide).{1,10}personal.{1,10}business.{1,10}financial/i
-/we (are offering|give|issuing|offer|offering|provide).{1,10}independent.{1,10}financial/i
-/we (are offering|give|issuing|offer|offering|provide).{1,10}independent.{1,10}funding/i
+/we.{1,10}(give|issuing|offer|offering|provide).{1,15}business.{1,10}personal.{1,15}financing?/i
+/we.{1,10}(give|issuing|offer|offering|provide).{1,10}personal.{1,10}business.{1,10}financial/i
+/we.{1,10}(give|issuing|offer|offering|provide).{1,10}independent.{1,10}financial/i
+/we.{1,10}(give|issuing|offer|offering|provide).{1,10}independent.{1,10}funding/i
 
 /we are.{1,10}seeking to finance/i
-/We are.{1,10}high profile investors/i
+/we are.{1,10}high profile investors/i
+/we are.{1,10}willing.{1,10}(give|issuing|offer|offering|provide).{1,10}financing/i
 
 /we specialise in investments/i
 
@@ -104,6 +105,8 @@
 
 /you in.{1,10}request.{1,10}investment/i
 /you need.{1,10}financial.{1,10}assistance/i
+
+/your company needs?.{1,10}funding/i
 
 # Forms
 # ------------------------------------------------------------------------------

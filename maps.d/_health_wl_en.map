@@ -26,7 +26,7 @@
 
 /(burn|melt)s?.{1,10}off (belly|body).?fat/i
 /(burn|melt)s?.{1,10}unwanted.{1,10}(belly|body).?fat/i
-/(burn|melt)s?.{1,10}dangerous{1,10}fat/i
+/(burn|melt)s?.{1,10}(dangerous|stubborn).{1,10}fat/i
 
 /ingredient dissolves.{1,10}(lbs|pounds) of.{1,10}fat/i
 /losing.{1,10}average of.{1,10}(lbs|pounds)/i
