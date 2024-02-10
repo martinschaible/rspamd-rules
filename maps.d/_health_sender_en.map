@@ -114,6 +114,7 @@
 /diabetes/i
 
 /sugar.?disease/i
+/stop.?insuline/i
 
 # Dizziness
 # ------------------------------------------------------------------------------
@@ -142,7 +143,7 @@
 
 /fungus.?infection/i
 
-/toe.?nails/i
+/(cracked|toe).?nails/i
 
 # Gut
 # ------------------------------------------------------------------------------
@@ -220,7 +221,7 @@
 # Skin
 # ------------------------------------------------------------------------------
 /skin.{0,10}(care|cure|sagging)/i
-/perfect.?skin/i
+/(perfect|smooth).?skin/i
 /dark?.spot/i
 
 # Sleep
