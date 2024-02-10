@@ -68,6 +68,7 @@
 
 /\.(ch|com|de|org).{1,10}will be blocked/i
 
+/this e?.?mail.?account.{1,30}is suspended/i
 
 # Domains
 # ------------------------------------------------------------------------------
