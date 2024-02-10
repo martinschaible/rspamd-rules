@@ -71,14 +71,17 @@
 # ------------------------------------------------------------------------------
 /(recipe|tea).{1,10}lose.{1,10}f(lbs|pounds).{1,10}(a|per) week/i
 
-/(fat|weight).?burning.{1,10}powder/i
+/(fat|weight).?burning.{1,10}(compound|powder)/i
 
 /flower.{1,10}better than.{1,10}diet/i
 
-/delicious (fat|weight).?burning.{1,10}alternative/i
+/delicious.{1,10}(fat|weight).?burning.{1,10}alternative/i
+/powerful.{1,10}(fat|weight).?burning/i
+
 /food to lose (fat|weight)/i
 
 /help you lose.{1,10}(lbs|pounds)/i
+
 
 /keto.{1,10}air.?fryer/i
 
