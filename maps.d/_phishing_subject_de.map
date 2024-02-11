@@ -40,6 +40,8 @@
 
 /informationen zu ihrem.{1,15}konto.{1,15}fehlen/i
 
+/ihre hilfe bei der lösung.{1,15}problems mit ihrem.{1,15}konto/iu
+
 # Bad german
 /kontoaktivitäts.?aktualisierung/i
 
@@ -180,6 +182,8 @@
 
 # Sample: Rundschreiben X2ZI-M29U
 /(bestätigung|rundschreiben).?[0-9a-z]{4}-[0-9a-z]{4}/i
+
+/glückwunsch.{1,10}sie sind der erste/i
 
 # Winning, Products
 # ------------------------------------------------------------------------------

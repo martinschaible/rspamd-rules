@@ -55,8 +55,6 @@
 
 /sendungs.?(mitteilung|verfolgung)/i
 
-/swiss.?lieferung/i
-
 /versand.?(hinweise|status.?team)/i
 
 /zustell.?(aktualisierung|nachrichten|status)/i
@@ -72,7 +70,8 @@
 /die-?post/i
 
 /post.{1,5}schweiz/i
-/fedex.?lieferung/i
+
+/(fedex|hermes|swiss).?(abteilung|lieferung)/i
 
 /sbbch/i
 

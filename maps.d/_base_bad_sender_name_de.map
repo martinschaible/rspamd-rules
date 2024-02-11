@@ -49,6 +49,7 @@
 
 # C
 /chatten/i
+/schneller.?chat/i
 
 # D
 
@@ -58,13 +59,12 @@
 /fick.{0,10}(finden|freund|treffen)/i
 
 /fickt.?uns/i
-/finde.{1,15}frauen/i
 /flirten?.mit/i
 /frauen.(finden|in.deiner)/i
 
 /freundschafts.?anfrage/i
 
-/(nackte|reife).?frauen/i
+/(attraktive|finde|nackte|reife).{0,10}frau(en)?/i
 
 # G
 /geiles?/i
