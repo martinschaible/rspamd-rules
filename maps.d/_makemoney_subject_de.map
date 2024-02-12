@@ -29,8 +29,10 @@
 
 # Make Money
 # ------------------------------------------------------------------------------
-/reich werden ohne/i
-/mit.{1,10}euro? reich werden/i
+/reich (ohne arbeit|werden ohne)/i
+
+/(einfach|endlich|es geht wirklich|jetzt|mit.{1,10}euro?|ohne scam).{1,10}reich werden/i
+
 /machen sie geld/i
 
 /verdienen sie.{1,10}\d{3,4}.{1,10}täglich/iu
@@ -49,6 +51,8 @@
 /jeden tag.{1,15}(\d{3,4}|euro?).{1,10}verdienen/i
 
 /euro? pro tag verdienen/i
+
+/so werden.{1,10}sie reich/i
 
 # Fancy Titles
 # ------------------------------------------------------------------------------

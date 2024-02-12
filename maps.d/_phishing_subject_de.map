@@ -184,6 +184,8 @@
 /(bestätigung|rundschreiben).?[0-9a-z]{4}-[0-9a-z]{4}/i
 
 /glückwunsch.{1,10}sie sind der erste/i
+/der besitzer dieser e?.?mail.{1,15}wurde/i
+
 
 # Winning, Products
 # ------------------------------------------------------------------------------
