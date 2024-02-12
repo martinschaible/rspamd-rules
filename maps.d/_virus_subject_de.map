@@ -9,17 +9,20 @@
 # ------------------------------------------------------------------------------
 /rechnung\d{4,10}/i
 
+# Fake Warnings
+# ------------------------------------------------------------------------------
+
+/ihr.{1,10}system wurde mit.{1,10}viren infiziert/i
+/unser system hat viele auf ihrem.{1,15}vorhandene/i
+
+/verdächtige.{1,10}aktivitäten auf ihrem gerät festgestellt/iu
+/verdächtiger?.{1,10}(viren|virus).{1,10}(entdeckt|erkannt)/i
+
 # Virus, Malware
 # ------------------------------------------------------------------------------
 /ihr gerät könnte gefährdet sein/iu
-/ihr.{1,10}system wurde mit.{1,10}viren infiziert/i
 
 /jetzt antivirus.?schutz/i
-
-/verdächtige viren wurden entdeckt/i
-/verdächtiger virus (entdeckt|erkannt)/i
-
-/unser system hat viele auf ihrem.{1,15}vorhandene/i
 
 # McAfee
 /mcafee.?abonnement wurde ausgesetzt/i

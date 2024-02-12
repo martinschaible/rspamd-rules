@@ -146,6 +146,7 @@
 
 /your website.{1,10}1st page.?rank/i
 /your website.{1,10}on.{1,10}1st page/i
+/your website.{1,10}on.{1,10}page one of/i
 /your website.{1,10}to get on first/i
 /your website.{1,10}rank (higher|top|well)/i
 
@@ -167,6 +168,7 @@
 /1st.?page of google/i
 /1st.?page (listings|ranking) (in|on) google/i
 
+/on page one of google/i
 /get top position.{1,10}google/i
 /(promote|list) your.{1,10}web.?site.{1,10}google/i
 /not ranking.{1,10}google.{1,10}other/i

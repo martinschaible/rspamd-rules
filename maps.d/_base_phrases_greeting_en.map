@@ -86,6 +86,8 @@
 
 /good (day|evening|morning).{1,10}my name is/i
 
+/good (day|evening|morning).{1,10}i know you may find this/i
+
 /greetings.{1,15}(business|investment).{1,15}partnership/i
 /greetings.{1,10}from here/i
 /greetings.{1,15}i am (dr|sgt)/i
