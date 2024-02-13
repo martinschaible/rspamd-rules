@@ -18,6 +18,8 @@
 
 /(rally|rush) hat begonnen/i
 
+/erholung von.{1,10}(bitcoin|crypto|krypto)/i
+
 /(geld|reich).{1,10}(durch|mit).{1,10}(bitcoin|crypto|krypto)/i
 
 /wie.{1,10}(bitcoin|crypto|krypto).{1,15}handeln/i
