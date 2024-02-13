@@ -59,13 +59,15 @@
 /(paket|sendung).{1,10}steht zur.{1,10}lieferung bereit/i
 /(paket|sendung).{1,10}wartet auf die.{1,10}lieferung/i
 /(paket|sendung).{1,10}welches kurz vor der.{1,10}zustellung steht/i
+/(paket|sendung).{1,10}wurde versandt.{1,10}zur auslieferung vorbereitet/i
 /(paket|sendung).{1,10}zu bestätigen.{1,10}klicken sie.{1,10}auf/iu
 
 /(paket|sendung).{1,10}ist in unserer.{1,15}postfiliale angekommen/i
 
-/lieferung wohlbehalten auf dem weg ist/i
 /lieferung ihres.{1,10}pakets fortzusetzen/i
 /lieferung nicht.{1,10}innerhalb.{1,10}erwarteten zeitrahmens/i
+/lieferung wohlbehalten auf dem weg ist/i
+/lieferung wurde aufgrund falscher angaben gestoppt/i
 
 /ihr ausgesetztes paket/i
 
@@ -104,6 +106,7 @@
 # Pay Customs, VAT
 # ------------------------------------------------------------------------------
 /begleichen sie eine zollgebühr/iu
+/bestätigen sie.{1,10}zahlung.{1,10}um eine rücksendung zu vermeiden/iu
 /lieferung aufgrund unbezahlter zollgebühren/iu
 
 /nicht (geliefert|zugestellt) werden.{1,10}kein zoll bezahlt wurde/i
@@ -117,6 +120,7 @@
 /(paket|sendung).{1,10}ist.{1,10}zoll deklariert.{1,10}wir laden sie ein/i
 /(paket|sendung).{1,10}ist im zoll deklariert.{1,10}wir laden sie ein.{1,10}chf/i
 
+/(paket|sendung).{1,10}aufgrund nicht bezahlter zollgebühren.{1,15}nicht zugestellt werden/i
 /(paket|sendung).{1,15}wartet auf.{1,10}(anweisung|bestätigung|versandzahlung|zahlung)/iu
 /(paket|sendung).{1,10}wird beim zoll angemeldet/i
 /(paket|sendung).{1,10}zu ermöglichen.{1,10}wird dem importeur.{1,10}(mehrwertsteuer|zoll.?gebühren)/iu

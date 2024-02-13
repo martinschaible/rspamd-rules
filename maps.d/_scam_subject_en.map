@@ -35,6 +35,8 @@
 
 /\d{3}.{0,5}\d{3}.{1,10}has been donated to you/i
 
+/million.{1,10}donation confirmation/i
+
 /i made.{1,10}donation for you/i
 
 /you (have|won).{1,10}donation/i
