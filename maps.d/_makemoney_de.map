@@ -78,8 +78,6 @@
 # ------------------------------------------------------------------------------
 /mit diesem.{1,10}bahnbrechenden system/i
 
-/innovativen.{1,10}(handels.?plattform|trading.?system)/i
-
 /(anwendung|app|system).{1,10}werden reich/i
 /(anwendung|app|system).{1,10}die täglich.{1,15}\d{3,4}.{1,15}generiert/i
 /(anwendung|app|system).{1,10}revolutioniert den markt/i
@@ -87,11 +85,21 @@
 
 /bahnbrechenden system.{1,10}profitieren/i
 
-/revolutionäres.{1,10}anlageverfahren/iu
-/revolutionäres.{1,10}kapital.?anlage.?konzept/iu
+/innovativen.{1,10}(handels.?plattform|trading.?system)/i
 
-/geldanlagemethode/i
-/geldinvestitionsmethode/i
+/(brandaktuelle|revolutionäre).{1,10}anlage.?(methode|verfahren)/iu
+/(brandaktuelle|revolutionäre).{1,10}kapital.?anlage.?konzept/iu
+/brandneu.{1,10}vermögensaufbau/i
+
+/frisch erfundenes.{1,10}investitions.?verfahren/i
+
+/revolutionäres.{1,10}Kalkulationsmodell/iu
+/avantgardistische.{1,10}vermögensaufbau.?strategie/i
+
+/(geld|kapital)anlagemethode/i
+/(geld|kapital)investitionsmethode/i
+
+/vermögensaufbau.?methode/i
 
 # Trading
 # ------------------------------------------------------------------------------
