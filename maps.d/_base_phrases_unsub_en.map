@@ -25,6 +25,8 @@
 # Temporary - false/positives
 #/unsubscribe.{1,10}\d{5}/i
 
+/ny.{1,5}us \d{5}.{1,5}unsubscribe  here/i
+
 # Post Mail
 # ------------------------------------------------------------------------------
 /stop recei?ving.{1,10}e?.?mail from us.{1,10}send post.?mail to/i

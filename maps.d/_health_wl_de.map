@@ -35,9 +35,11 @@
 
 /zu einem.{1,10}fett.?verbrenner/i
 
+/wollen sie.{1,15}ihr wunschgewicht erreichen/i
+
 # Products
 # ------------------------------------------------------------------------------
-/power.{1,10}keto/i
+/(power|probieren sie).{1,10}keto/i
 
 #
 #
@@ -55,3 +57,4 @@
 /abnehmangebot/i
 /gewichtsverlust.{1,10}produkt/i
 /schlankheits?.?gummis/i
+/ohne diat/i

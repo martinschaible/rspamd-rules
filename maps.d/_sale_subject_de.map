@@ -110,14 +110,15 @@ kugelschreiber.{1,10}warten auf sie/i
 # Trolley & Tools
 # ------------------------------------------------------------------------------
 /(werkstatt|werkzeug).{0,10}(trolley|wagen)/i
+/werkzeuge.{1,10}die begeistern/i
 
 /werkzeug.?set.{1,10}schnäppchen/i
-/werkzeug.?set.{1,10}jetzt nur/i
+/werkzeug.?set.{1,10}(für \d{3}|jetzt nur)/i
 /werkzeug.?set.{1,10}(trolley|wagen)/i
+/werkzeug.?set.{1,10}\d{3,4} teilig/i
 
-/teiliges.{1,10}werkzeug.?set/i
-
-/werkstatt mit.{1,10}spezialangebot/i
+/angebot.{1,10}werkzeug.?set/i
+/(angebot|exklusiv|komplettes|premium|teiliges|ultimatives).{1,15}werkzeug.?set/i
 
 # Tischkicker
 # ------------------------------------------------------------------------------
@@ -170,7 +171,7 @@ kugelschreiber.{1,10}warten auf sie/i
 /preissturz.{1,25}gerät jetzt nur/iu
 /schnäppchenalarm.{1,25}jetzt stark reduziert/iu
 
-/jetzt zuschlagen.{1,10}nur/i
+/jetzt zuschlagen.{1,10}(\d{2,3}|nur)/i
 
 /für.{1,10}\d{3}.{1,10}statt.{1,10}\d{3,4}/iu
 /(jetzt|für) nur \d{2,3}.{1,5}statt.{1,5}\d{3,4}/i

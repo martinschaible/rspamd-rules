@@ -52,6 +52,8 @@
 /(package|parcel).?notification/i
 /delivery.?failed/i
 
+/order.{0,5}\d{2,4}/i
+
 # Parcel - Companies
 # ------------------------------------------------------------------------------
 /dhl.{0,5}(express|package)/i
