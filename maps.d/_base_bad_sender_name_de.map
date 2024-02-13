@@ -17,6 +17,8 @@
 
 /nachricht von/i
 
+/jetzt informieren/i
+
 /wie man/i
 /wir empfehlen/i
 
@@ -27,6 +29,7 @@
 /von.?google/i
 
 /kundenservice.{0,5}team/i
+/kunden.?helpdesk/i
 
 # People pretending be a philanthropist
 # ------------------------------------------------------------------------------
@@ -120,17 +123,17 @@
 
 # Make Money
 # ------------------------------------------------------------------------------
-/(bit?coin|crypto|krypto).?(beratung|berater|bulletin|einblick|geld|handel|händler|nachrichten)/i
+/(bit?coin|crypto|krypto).?(beratung|berater|bulletin|einblick|geld|handel|händler|invest(ment)?|nachrichten)/i
 
 /investo(en)?.update/i
-/(bank|investment).?berater/i
+/(bank(en)?|investment).?(beratung|berater)/i
 
 /lukrative.gelegenheit/i
 /neue.investitionen/i
 
 /forex.?broker/i
 
-/grund.?einkommen/i
+/(bankanlage|grund.?einkommen|reichtum)/i
 
 # Scam
 # ------------------------------------------------------------------------------
