@@ -85,9 +85,7 @@
 
 # Casino, Gambling
 # ------------------------------------------------------------------------------
-
-# Organisations
-/euro.jack.pot/i
+/casino.?team/i
 
 # Finance
 # ------------------------------------------------------------------------------
@@ -135,7 +133,7 @@
 # Winning, Lottery
 # ------------------------------------------------------------------------------
 /(australia|google|usa|uk).?(lotterie|lottery)/i
-/(euro|mega).?(jackpot|milions)/i
+/(euro|mega).?(jackpot|mill?ions)/i
 /(central|navidad).{0,10}loteria/i
 
 euro.?online.?lotto/i
