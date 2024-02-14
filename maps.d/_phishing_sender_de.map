@@ -92,9 +92,10 @@
 
 /heutige.{0,10}gewinner/i
 
-/(lidl|edeka|kaufland|le.?creuset|media.?market|otto|persil|rewe).{0,10}(angebot|code|geschenkkarte|gewinner|gutschein|kontakt|sender|sendung|umfrage|zustelllung)/i
-
-/temu.?abteilung/i
+# A to H
+/(ali.?express|lidl|edeka|kaufland|le.?creuset).{0,5}(abteilung|angebot|code|geschenkkarte|gewinner|gutschein|kontakt|sender|sendung|umfrage|zustelllung)/i
+# K to Z
+/(media.?market|otto|persil|rewe|temu).{0,5}(abteilung|angebot|code|geschenkkarte|gewinner|gutschein|kontakt|sender|sendung|umfrage|zustelllung)/i
 
 # Brands, Products
 # ------------------------------------------------------------------------------
