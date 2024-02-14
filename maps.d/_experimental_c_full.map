@@ -25,10 +25,6 @@
 
 # Phrases which other maps are not able to catch
 # ------------------------------------------------------------------------------
-/schlankheits?.?gummis/iu
-/ihr.{1,10}system wurde mit.{1,10}viren infiziert/i
-/ihre antwort genügt.{1,10}wir senden sofort zu ihnen/iu
-/premium.box.gmbh/i
 
 # Twitter
 # ------------------------------------------------------------------------------
@@ -114,9 +110,3 @@
 # ------------------------------------------------------------------------------
 # Sample: <a style="display:none;" href="http://irelatilized.jp.net/4O0c084nml0mp3rr-8trgsi1wqt1qt1mstra600001" >.</a
 /<a style="display:none;".{1,10}href=.?http:\/\//i
-
-# Doesn't fire in the file "_sale_h_en.map" (Content -> Oneline)
-# ------------------------------------------------------------------------------
-/luxury.{1,15}property.{1,10}finding/i
-/property.{1,10}finding.{1,10}service/i
-/we.{1,10}offer{1,15}luxury.{1,10}properties/i
