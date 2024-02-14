@@ -68,7 +68,7 @@
 
 /sales.?manager.{1,10}(china|dongguan|guangzhou|shenzhen|zhejiang)/i
 /factory.{1,10}located in.{1,10}(china|dongguan|guangzhou|shenzhen|zhejiang)/i
-/manufacturer with.{1,10}years experience in.{1,10}(china|dongguan|guangzhou|shenzhen|zhejiang)/i
+/manufacturer with.{1,10}years experience.{1,15}(china|dongguan|guangzhou|shenzhen|zhejiang)/i
 
 /(co|limited|ltd).{1,10}(china|dongguan|guangzhou|shenzhen|zhejiang).{1,10}are you interested/i
 /(co|limited|ltd).{1,10}(dongguan|guangzhou|shenzhen|zhejiang).{1,10}china/i
@@ -324,33 +324,33 @@
 /(pcba?|printed.circuit.board).{1,20}with.{1,10}years experience/i
 
 /any.{1,10}(pcba?|printed.circuit.board).{1,10}orders/i
-/ltd.{1,10}a professional.{1,10}(pcba?|printed.circuit.board)?/i
-/in the field of.{1,10}(pcba?|printed.circuit.board).{1,10}years/i
+/ltd.{1,10}a professional.{1,10}(pcba?|printed circuit board)?/i
+/in the field of.{1,10}(pcba?|printed circuit board).{1,10}years/i
 
-/here.{1,15}leading.{1,10}(pcba?|printed.circuit.board).{1,10}factory/i
+/here.{1,15}leading.{1,10}(pcba?|printed circuit board).{1,10}factory/i
 
-/is a leading manufacturer of.{1,20}(pcba?|printed.circuit.board)/i
-/is a manufacturer engaged.{1,10}(pcba?|printed.circuit.board)/i
+/is a leading manufacturer of.{1,20}(pcba?|printed circuit board)/i
+/is a manufacturer engaged.{1,10}(pcba?|printed circuit board)/i
 
-/this.{1,25}from.{1,10}professional.{1,10}(pcba?|printed.circuit.board).{1,10}factory/i
+/this.{1,25}from.{1,10}professional.{1,10}(pcba?|printed circuit board).{1,10}factory/i
 
-/provide.{1,10}cost saving.{1,10}(pcba?|printed.circuit.board)/i
+/provide.{1,10}cost saving.{1,10}(pcba?|printed circuit board)/i
 
 /experience in.{1,10}(pcba?|printed.circuit.board).{1,10}manufacturing/i
 
 /we.{1,10}focus on pcba?/i
-/we.{1,10}have focused.{1,10}manufacturing.{1,10}(pcba?|printed.circuit.board)/i
-/we.{1,10}(offer|specializing|provide).{1,10}(pcba?|printed.circuit.board).{1,10}(assembly|layers|production)/i
-/we.{1,10}(offer|specializing|provide).{1,10}you with.{1,15}(pcba?|printed.circuit.board)/i
+/we.{1,10}have focused.{1,10}manufacturing.{1,10}(pcba?|printed circuitboard)/i
+/we.{1,10}(offer|specializing|provide).{1,10}(pcba?|printed circuit board).{1,10}(assembly|layers|production)/i
+/we.{1,10}(offer|specializing|provide).{1,10}you with.{1,15}(pcba?|printed circuit board)/i
 
-/we.?a?re.{1,10}(pcba?|printed.circuit.board).{1,25}manufacturer/i
+/we.?a?re.{1,10}(pcba?|printed circuit board).{1,25}manufacturer/i
 
-/years professional.{1,10}electronics.{1,10}(pcba?|printed.circuit.board)/i
+/years professional.{1,10}electronics.{1,10}(pcba?|printed circuit board)/i
 
-/you.{1,10}are in.{1,10}(pcba?|printed.circuit.board).{1,10}business/i
-/you.{1,10}have requirements on.{1,20}(pcba?|printed.circuit.board)/i
-/you.{1,10}(looking for|may need).{1,10}(pcba?|printed.circuit.board)/i
-/you.{1,10}need.{1,10}(pcba?|printed.circuit.board).{1,10}supplier/i
+/you.{1,10}are in.{1,10}(pcba?|printed circuit board).{1,10}business/i
+/you.{1,10}have requirements on.{1,20}(pcba?|printed circuit board)/i
+/you.{1,10}(looking for|may need).{1,10}(pcba?|printed circuit board)/i
+/you.{1,10}need.{1,10}(pcba?|printed circuit board).{1,10}supplier/i
 /you.{1,10}need to purchase.{1,10}(pcba?|printed circuit board)/i
 /you.{1,10}proceed your.{1,10}(pcba?|printed circuit board).{1,10}project/i
 

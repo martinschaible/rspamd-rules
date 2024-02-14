@@ -37,7 +37,15 @@
 /der bullenmarkt startet/i
 /bullenmarkt im anmarsch/i
 
+/sie zum (bit?coin|crypto|krypto).{1,10}handelsexperten/i
+
 /wie kann man durch bitcoin/i
+
+# Starting
+/starten sie mit 250 euro?/i
+/startkapital von 250 euro?/i
+
+/250 euro?.{1,10}(als startkapital|zum erfolg)/i
 
 # Fancy Titles
 # ------------------------------------------------------------------------------
@@ -45,6 +53,8 @@
 /(bit?coin|crypto|krypto).{1,10}(anlage|profit).?methode/i
 
 /kryptowährung.{1,10}profit.?strategie/i
+
+/profi.?krypto.?handel/i
 
 #
 #

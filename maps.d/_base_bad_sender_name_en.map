@@ -138,11 +138,13 @@
 /(euro|mega).?(jackpot|milions)/i
 /(central|navidad).{0,10}loteria/i
 
+euro.?online.?lotto/i
 /award.?team/i
 
 /(lottery|microsoft).?award/i
 /lottery.?winning/i
 /loteria.?nacional/i
+/lotto.?denavidad/i
 
 # Virus, Malware
 # ------------------------------------------------------------------------------
@@ -151,4 +153,5 @@
 /(av|mca?fee).?alarm/i
 /security.?notice/i
 
+/docusign.{1,5}review via/i
 /aleksandr/i
