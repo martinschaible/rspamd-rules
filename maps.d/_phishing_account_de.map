@@ -186,6 +186,7 @@
 # Account - Payment options
 # ------------------------------------------------------------------------------
 /sie ihre zahlungsdaten aktualisieren/i
+/mit ihren zahlungsinformationen stimmt etwas nicht/i
 
 #
 #
@@ -237,6 +238,9 @@
 
 /ihre.{1,10}anzeigen gegen.{1,10}facebook.{1,10}werberichtlinien/i
 /ihr werbekonto nicht den werberichtlinien/i
+
+# PayPal
+/konto keine paypal.?dienste mehr anbieten/i
 
 #
 #

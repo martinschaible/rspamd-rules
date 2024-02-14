@@ -113,8 +113,10 @@
 
 # Funding
 # ------------------------------------------------------------------------------
-/help you provide funds/i
+/help you provide.{1,10}funds/i
 /capable.{1,10}funding your project/i
+
+/you are looking for.{1,10}funds/i
 
 # Debt relief
 # ------------------------------------------------------------------------------

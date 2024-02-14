@@ -77,11 +77,12 @@
 /\d{3}.{1,5}\d{3}.{1,10}(dollar|euro?|gbp|usd) gewonnen.{1,10}zahlungsnummer/i
 /\d{3}.{1,5}\d{3}.{1,10}(dollar|euro?|gbp|usd).{1,10}kontaktieren sie/i
 
-/ihre e?.?mail.?adresse.{1,10}hat.{1,15}(millionen|tausend).{1,20}(dollar|euro?|gbp|usd).{1,20}gewonnen/i
+/ihre? e?.?mail.?(adresse|konto).{1,10}hat.{1,15}(millionen|tausend).{1,20}(dollar|euro?|gbp|usd).{1,20}gewonnen/i
+/ihre? e?.?mail.?(adresse|konto).{1,10}hat den betrag von.{1,15}(millionen|tausend)/i
 
-/ihre e?.?mail.?adresse.{1,10}wurde ausgewählt.{1,10}um den betrag/iu
-/ihre e?.?mail.?adresse.{1,10}wurde nach dem zufallsprinzip ausgewählt/iu
-/ihre e?.?mail.?adresse.{1,10}wurde zufällig von einer software/iu
+/ihre? e?.?mail.?(adresse|konto).{1,10}.{1,10}wurde ausgewählt.{1,10}um den betrag/iu
+/ihre? e?.?mail.?(adresse|konto).{1,10}.{1,10}wurde nach dem zufallsprinzip ausgewählt/iu
+/ihre? e?.?mail.?(adresse|konto).{1,10}.{1,10}wurde zufällig von einer software/iu
 
 /ihre e?.?mail.{1,10}hat ihnen.{1,10}betrag von/i
 /ihre e?.?mail.{1,10}wurde mit der losnummer/i

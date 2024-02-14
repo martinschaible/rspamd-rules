@@ -9,7 +9,8 @@
 # ------------------------------------------------------------------------------
 /(finance|investment|loans?).{1,10}(apply|funding|offer|opportunities|opportunity|reduced)/i
 
-/loan.?(finance|financing)/i
+/loans?.{1,10}(finance|financing)/i
+/loans?.{1,10}project.{1,10}(finance|financing)/i
 
 /(business|cash|easy|fast|low rate|quick|reliable|turbo).{1,10}loans?/i
 

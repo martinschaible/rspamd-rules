@@ -242,7 +242,10 @@
 /i have.{1,15}(business|investment).{1,15}(opportunity|proposition|proposal|transaction)/i
 /i have.{1,15}(profitable|lucrative).{1,15}(business|offer|opportunity|proposition|proposal|transaction)/i
 /i have.{1,15}mutual confidential/i
-/i have.{1,10}project worth.{1,10}million/i
+
+/i have.{1,10}project.{1,10}worth.{1,10}million/i
+/i have.{1,10}project.{1,10}which may interest.{1,10}you.{1,20}good profit/i
+
 /i have.{1,10}proposition for you.{1,10}which will be/i
 /i have.{1,10}prospective job for you/i
 

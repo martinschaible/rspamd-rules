@@ -30,6 +30,8 @@
 
 /ingredient dissolves.{1,10}(lbs|pounds) of.{1,10}fat/i
 /losing.{1,10}average of.{1,10}(lbs|pounds)/i
+/lose.{1,15}(fat|weight) with.{1,20}click below/i
+
 /secret.{1,10}burning.{1,10}fat/i
 
 /lbs with this.{1,10}fat.?burning/i
@@ -42,7 +44,8 @@
 
 /(achieve|solve) your.{1,10}weight.?loss/i
 
-/(method|technique|way).{1,10}(burn|melt).{1,10}belly.?fat/i
+/(method|technique|way).{1,10}(burn|lose|melt).{1,10}(belly|unwanted).?fat/i
+
 /simple.{1,10}(method|technique|way).{1,10}boosts calorie burning/i
 
 /this.{1,10}(fat|weight).?loss.{1,10}product/i
