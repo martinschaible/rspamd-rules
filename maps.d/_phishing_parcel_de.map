@@ -107,6 +107,8 @@
 # ------------------------------------------------------------------------------
 /begleichen sie eine zollgebühr/iu
 /bestätigen sie.{1,10}zahlung.{1,10}um eine rücksendung zu vermeiden/iu
+/(be)?zahlen sie die steuer.{1,10}ihr paket wartet/i
+
 /lieferung aufgrund unbezahlter zollgebühren/iu
 
 /nicht (geliefert|zugestellt) werden.{1,10}kein zoll bezahlt wurde/i
@@ -138,6 +140,7 @@
 /zusatzkosten.{1,10}um die lieferung ihres pakets/i
 
 /steuern.{1,10}abgaben nicht beglichen hat/i
+
 
 /gebühren.{1,10}chf 1(\.|,)99/iu
 /betrag beträgt 1(\.|,)99 euro/iu

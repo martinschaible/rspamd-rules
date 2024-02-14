@@ -171,7 +171,9 @@
 
 # Transaction
 # ------------------------------------------------------------------------------
-/ihre hilfe.{1,10}eine.{1,10}transaktion.{1,10}im wert von/i
+/ihre (hilfe|unterstützung).{1,10}eine.{1,10}transaktion.{1,10}im wert von/iu
+/ihre (hilfe|unterstützung).{1,10}beim transfer von.{1,15}millionen/i
+/ihre (hilfe|unterstützung).{1,10}beim transfer von.{1,15}(dollar|euro?|gbp|usd)/i
 
 /transaktion.{1,10}teilzunehmen/i
 /transaktion.{1,10}mit ihrem.{1,10}namen/i

@@ -54,36 +54,6 @@
 
 /order.{0,5}\d{2,4}/i
 
-# Parcel - Companies
-# ------------------------------------------------------------------------------
-/dhl.{0,5}(express|package)/i
-/notification.{0,5}dhl/i
-
-/express.?dhl/i
-
-/dpd eu/i
-/fedex.{0,10}fedex/i
-
-# Account - Companies
-# ------------------------------------------------------------------------------
-/help.spotify/i
-/s p o t i f y/i
-/adobepdf/i
-/sbbcff/i
-
-# Companies, Government
-# ------------------------------------------------------------------------------
-/netflix.?expiration/i
-/netflix\./i
-
-/icloud.?(important|notice)/i
-
-/_readyfile/i
-/we-transfer/i
-
-/facebook ads.?team/i
-/paypal.?(case.?id|support)/i
-
 #
 #
 #
@@ -115,8 +85,47 @@
 # Brands, Products
 # ------------------------------------------------------------------------------
 /(ipad|iphone).{0,10}pro/i
-/icloud.?user/i
+
+#
+#
+#
+
+# Companies and Organisations
+# ------------------------------------------------------------------------------
+# Apple
 /apple.?(id|winner)/i
+/icloud.?(important|notice|user)/i
+
+# DHL
+/dhl.{0,5}(express|package)/i
+/notification.{0,5}dhl/i
+
+/express.?dhl/i
+
+# DPD
+/dpd eu/i
+
+# Fedex
+/fedex.{0,10}fedex/i
+
+# Facebook
+/facebook ads.?team/i
+
+# Netflix
+/netflix.?expiration/i
+/netflix\./i
+
+# PayPal
+/paypal.?(case.?id|support)/i
+
+# Spotify
+/help.spotify/i
+/s p o t i f y/i
+/adobepdf/i
+
+# WeTransfer
+/_readyfile/i
+/we-transfer/i
 
 #
 #

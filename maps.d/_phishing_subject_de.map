@@ -102,6 +102,7 @@
 /bestätigen sie ihre (lieferung|versandinformationen)/iu
 
 /warten auf abholung/i
+/ihre bestellung steht noch aus/i
 
 /wichtig.{1,10}paket/i
 
@@ -228,7 +229,7 @@
 #
 #
 
-# Companies
+# Companies and Organisations
 # ------------------------------------------------------------------------------
 /\[targo.?bank\]/i
 /targo.?bank.{1,5}id/i

@@ -19,8 +19,6 @@
 
 /online.?kartenkonto/i
 
-/sparkasse.{1,10}push.?tan/i
-
 # Cards
 # ------------------------------------------------------------------------------
 
@@ -38,7 +36,7 @@
 # Hosting: Cloud storage
 # ------------------------------------------------------------------------------
 /(cloud|geräte).?speicher/iu
-/speicher.icloud/i
+/speicher.(icloud|dienste?)/i
 
 # Parcel
 # ------------------------------------------------------------------------------
@@ -63,29 +61,6 @@
 /zustellung/i
 
 /-paketzustellung/i
-
-# Parcel - Companies
-# ------------------------------------------------------------------------------
-/dpd-ch/i
-/dpd_versandabteilung/i
-
-/die-?post/i
-
-/post.{1,5}schweiz/i
-
-/(fedex|hermes|swiss).?(abteilung|lieferung)/i
-
-/sbbch/i
-
-/swisspass.{1,5}(sbb|support)/i
-
-# Account - Companies
-# ------------------------------------------------------------------------------
-/fedpol/i
-
-# Companies, Government
-# ------------------------------------------------------------------------------
-/büro.{1,5}eidgenössische.{1,5}justiz/iu
 
 #
 #
@@ -130,6 +105,39 @@
 #
 #
 
+# Companies and Organisations
+# ------------------------------------------------------------------------------
+
+# Parcel
+/dpd-ch/i
+/dpd_versandabteilung/i
+
+/die-?post/i
+
+/post.{1,5}schweiz/i
+/schweizer.?post/i
+
+/(fedex|hermes|swiss).?(abteilung|lieferung)/i
+
+# Sparkasse
+/sparkasse.{1,10}push.?tan/i
+
+# Swisspass
+/swisspass.{1,5}(sbb|support)/i
+
+# Swiss Goverment
+/fedpol/i
+/büro.{1,5}eidgenössische.{1,5}justiz/iu
+
+# Swiss Railway
+/sbbch/i
+/sbbcff/i
+
+#
+#
+#
+
 # Bad german
 # ------------------------------------------------------------------------------
 /selektiert/i
+/helpcentrum/i
