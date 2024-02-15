@@ -41,20 +41,16 @@
 
 # Pay Fees
 # ------------------------------------------------------------------------------
-/shipping address.{1,10}pay.{1,10}extra delivery fee/i
+/parcel being returned.{1,10}we ask.{1,10}you.{1,10}pay/i
 
-parcel being returned.{1,10}we ask.{1,10}you.{1,10}pay/i
-
-/delivered withing.{1,10}please confirm the payment/i
+/confirm your address.{1,10}pay the.{1,15}fees/i
+/(delivered withing|delivery as soon as possible|ensure.{1,15}delivery).{1,15}confirm.{1,10}payment/i
 
 /fee is paid.{1,10}we will be able to deliver/i
 /has outstanding charges due including/i
 
-/confirm your address.{1,10}pay the.{1,15}fees/i
-
-/ensure.{1,15}delivery.{1,15}confirm the payment of/i
-
 /must be paid before.{1,10}you can receive your.{1,10}shipment/i
+/shipping address.{1,10}pay.{1,10}extra delivery fee/i
 
 /your.{1,10}shipment is.{1,10}awaiting payment/i
 

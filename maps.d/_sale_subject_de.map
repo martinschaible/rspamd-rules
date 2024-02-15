@@ -28,8 +28,10 @@
 /(büro|massage).?leder.?(stuhl|stühle)/iu
 
 /(aktion|angebot).{1,20}(büro|massage).?(stuhl|stühle)/iu
-/(elegante|ergonomische|leder|office|stilvolle|unsere|traum|walnussholz).{1,20}(büro|massage).?(stuhl|stühle)/iu
+/(elegante|ergonomische).{1,20}(büro|massage).?(stuhl|stühle)/iu
 /(revolution|revolutionäre).{1,15}(büro|massage).?(stuhl|stühle)/iu
+
+/(design|highlight|leder|office|stilvolle|unsere|traum|walnussholz).{1,20}(büro|massage).?(stuhl|stühle)/iu
 
 /(chef|dreh|leder).?(sessel|stuhl)/i
 /chef.?leder.?(sessel|stuhl)/i

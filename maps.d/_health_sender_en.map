@@ -81,7 +81,7 @@
 
 # Blood pressure
 # ------------------------------------------------------------------------------
-/blood.?sugar/i
+/blood.?(pressure|sugar)/i
 /high.?blood/i
 
 # Breath
