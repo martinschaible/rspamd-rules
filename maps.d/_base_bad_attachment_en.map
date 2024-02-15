@@ -30,6 +30,9 @@
 # Sample: "info@amelec.ch.html
 /@[a-z0-9]{3,15}\.(ch|de|org)\.html/i
 
+# Sample: IMG-10579912doc.7z
+/img.?\d{1,15}doc\.(7z|doc|gz|htm|r11|rar|tgz|xls|zip)/i
+
 # Double Extension
 # ------------------------------------------------------------------------------
 
@@ -163,6 +166,9 @@
 
 /invoice\.(7z|doc|gz|htm|r11|rar|tgz|xla|xls|zip)/i
 /updated.?soa\.(7z|doc|gz|htm|r11|rar|tgz|xls|zip)/i
+
+# Sample: Outstanding Invoice 00028025145 14-02-2024.pdf
+/outstanding.?invoice.?\d{1,15}.?\d{2}.?\d{2}.?\d{2,4}\.pdf
 
 # Parcel
 # ------------------------------------------------------------------------------
