@@ -17,9 +17,10 @@
 
 # Footers, Signature
 # ------------------------------------------------------------------------------
-/(skype|wechat|whatsapp):.{1,5}(|\+)86/i
+/(skype|wechat|whatsapp):.{1,5}\+86/i
 
-/co.{1,5}ltd.{1,10}(|\+)86/i
+/on (wechat|whatsapp) at \+86/i
+/co.{1,5}ltd.{1,10}\+86/i
 
 /wechat.{1,5}(mobile|whatsapp)/i
 
