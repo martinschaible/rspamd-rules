@@ -4,3 +4,21 @@
 # ----|----------------|
 # 10  | English        |
 # ==============================================================================
+
+# Adult: Dating and Porn
+# ------------------------------------------------------------------------------
+/(adult|erotic).?(dates?|dating|tiktok)/i
+/portal.?dates?/i
+
+/(casual|tiktok).{0,10}adult/i
+
+/(date|dating).{0,10}(club|team|room)/i
+/dirty.?talk/i
+
+/escort.?girl/i
+
+/ukrainian.?(beauty|date|girl|love|woman)/I
+/(find|meet).{1,10}ukrainian/i
+/slavic.?love/i
+
+/hot.?(app|meeting)/i
