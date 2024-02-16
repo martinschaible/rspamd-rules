@@ -32,81 +32,9 @@
 /kundenservice.{0,5}team/i
 /kunden.?helpdesk/i
 
-# People pretending be a philanthropist
-# ------------------------------------------------------------------------------
-# > Moved to the english version of this file
-
-
 #
 #
 #
-
-# Adult: Dating and Porn
-# ------------------------------------------------------------------------------
-/(russische|urkrainische).{1,15}schönheiten/iu
-
-# A
-/arsch.?luder/i
-
-# B
-/bekanntschaft(en)?/i
-/beste dating/i
-
-# C
-/chatten/i
-/schneller.?chat/i
-
-# D
-
-/dating.?angebot/i
-
-# F
-/fick.{0,10}(finden|freund|treffen)/i
-
-/fickt.?uns/i
-/flirten?.mit/i
-/frauen.(finden|in.deiner)/i
-
-/freundschafts.?anfrage/i
-
-/(attraktive|finde|nackte|reife).{0,10}frau(en)?/i
-
-# G
-/geiles?/i
-/geheimnisvolle?/i
-
-# H
-
-# I
-/insta.?frauen/i
-
-# J
-/\d{2} jahre/i
-/jungfrauen/i
-
-# K
-/kennenlernen/i
-
-# L
-/langer.?sex/i
-/live.{0,10}treffen/i
-
-# M
-/milf/i
-
-# N
-
-# O
-
-# P
-/privat.{0,10}treffen/i
-/profil.?(update|von|vorschlag)/i
-/neues.?profil/i
-
-# R
-
-# S
-/sex.?gruppe/i
 
 # Casino, Gambling
 # ------------------------------------------------------------------------------
@@ -121,24 +49,6 @@
 
 /schufa.?auskunft
 /immobilienpreise/i
-
-# Make Money
-# ------------------------------------------------------------------------------
-/(bit?coin|crypto|krypto).?(beratung|berater|bulletin|einblick|geld|handel|händler|invest(ment)?|nachrichten)/i
-
-/investo(en)?.update/i
-/(bank(en)?|investment).?(beratung|berater)/i
-
-/lukrative.gelegenheit/i
-/neue.investitionen/i
-
-/forex.?broker/i
-
-/(bankanlage|grund.?einkommen|reichtum)/i
-
-# Scam
-# ------------------------------------------------------------------------------
-/spende\s/i
 
 # Stocks
 # ------------------------------------------------------------------------------

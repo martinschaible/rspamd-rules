@@ -39,22 +39,6 @@
 # ------------------------------------------------------------------------------
 /google.?(inc|llc)/i
 
-# People pretending be a philanthropist
-# ------------------------------------------------------------------------------
-/bezos.?family/i
-
-/(bill|melinda).?gates/i
-/bill.{5,10}melinda/i
-
-/(elon|tesla).?musk/i
-
-/jeff.?bezos/i
-/mackenzie.{1,5}scott/i
-/mark.?zuckerberg/i
-/maria.eli(s|z)abeth.{1,5}schaeffler/i
-/susanne.{1,5}klatten/i
-/warren.{1,5}buffett/i
-
 # Strange senders
 # ------------------------------------------------------------------------------
 /info@gmail\.com/i
@@ -64,24 +48,6 @@
 #
 #
 #
-
-# Adult: Dating and Porn
-# ------------------------------------------------------------------------------
-/(adult|erotic).?(dates?|dating|tiktok)/i
-/portal.?dates?/i
-
-/(casual|tiktok).{0,10}adult/i
-
-/(date|dating).{0,10}(club|team|room)/i
-/dirty.?talk/i
-
-/escort.?girl/i
-
-/ukrainian.?(beauty|date|girl|love|woman)/I
-/(find|meet).{1,10}ukrainian/i
-/slavic.?love/i
-
-/hot.?(app|meeting)/i
 
 # Casino, Gambling
 # ------------------------------------------------------------------------------
@@ -97,35 +63,9 @@
 /credit.?for/i
 /free.?credit/i
 
-# Make Money
-# ------------------------------------------------------------------------------
-/bitcoin.?(broker|bulletin|investment|millionaire|network|update)/i
-/crypto.?(currency|forex|news)/i
-
-/billionaire/i
-/blockchain/i
-/official.?system/i
-
 # Mortgage
 # ------------------------------------------------------------------------------
 /mortgage.{0,10}(alert|assist|home)/i
-
-# Scam
-# ------------------------------------------------------------------------------
-/next of kin /i
-
-/illuminati/i
-
-/united.?nations/i
-
-/usa.?donation/i
-
-/annuity comparison/i
-/comparison report/i
-
-/vice president/i
-
-/donation.?funds?/i
 
 # Stocks
 # ------------------------------------------------------------------------------
