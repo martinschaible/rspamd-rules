@@ -12,6 +12,8 @@
 
 /easy.?(bit?coin|crypto|krypto)/i
 
+/multiply your.{1,10}(bit?coin|crypto|krypto)/i
+
 # Make Money
 # ------------------------------------------------------------------------------
 /earn(ing)?.{1,10}\d{1,4}.{1,10}daily/i
@@ -30,7 +32,7 @@
 
 # Fancy Titles
 # ------------------------------------------------------------------------------
-/cryptonaire.?network/i
+/cryptonaire/i
 
 # Getting rich
 # ------------------------------------------------------------------------------
@@ -42,3 +44,4 @@
 # Unclassified
 # ------------------------------------------------------------------------------
 /business development for/i
+/log.?in to your account/i
