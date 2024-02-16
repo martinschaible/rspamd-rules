@@ -186,6 +186,7 @@
 /your (competitors|page.?rank).{1,10}(in|on) google/i
 
 /your web.?site.{1,10}get.{1,10}top google/i
+/your web.?site.{1,30}is not listed in google/i
 /your web.?site.{1,10}on google top/i
 /your web.?site.{1,10}ranking.{1,10}not good/i
 
@@ -260,12 +261,14 @@
 
 /we are.{1,20}professional website developers/i
 
-/We can design.{1,10}unique.{1,10}website/i
+/we can design.{1,10}unique.{1,10}website/i
 /we create new.{1,10}web.?site/i
 
 /we have.{1,10}expertise.{1,10}developing.{1,10}web.?site/i
 /we have.{1,10}professional team.{1,10}web.site/i
-/we (deliver|offer).{1,10}(best|new).{1,10}web.?sites?/i
+
+/we.{1,10}(deliver|offer).{1,10}(best|new).{1,10}web.?sites?/i
+/We.{1,10}solving web.?sites? problems/i
 
 /i.?a?m.{1,15}web.?(designer|developer)/i
 /i.?a?m.{1,15}professional web.?(designer|developer)/i
