@@ -30,15 +30,18 @@
 /(burn|melt)s?.{1,10}(dangerous|stubborn).{1,10}fat/i
 
 /ingredient dissolves.{1,10}(lbs|pounds) of.{1,10}fat/i
-/losing.{1,10}average of.{1,10}(lbs|pounds)/i
-/lose.{1,15}(fat|weight) with.{1,20}click below/i
+
+/(lose|losing).{1,10}(fat|weight).{1,10}became so easy/i
+/(lose|losing).{1,15}(fat|weight) with.{1,20}click below/i
+/(lose|losing).{1,10}average of.{1,10}(lbs|pounds)/i
 
 /secret.{1,10}burning.{1,10}fat/i
 
-/lbs with this.{1,10}fat.?burning/i
-/lbs in.{1,15}month.{1,10}no.{1,10}(exercise|dieting)/i
+/(lbs|pounds) with this.{1,10}fat.?burning/i
+/(lbs|pounds) in.{1,15}month.{1,10}no.{1,10}(exercise|dieting)/i
+/(lbs|pounds) in the first week alone/i
 
-/drop.{1,15}pounds while.{1,10}sleep/i
+/drop.{1,15}(lbs|pounds) while.{1,10}sleep/i
 
 /you struggling.{1,10}lose weight/i
 /you lose weight really fast/i

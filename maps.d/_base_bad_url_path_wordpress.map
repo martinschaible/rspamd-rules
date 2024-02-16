@@ -20,6 +20,9 @@
 /\/wp-content\/uploads\/.{1,15}\/.{1,15}\.(html|php)/i
 
 # No need to refer to this folder
+/\/wp-content\/upgrade\//i
+
+# No need to refer to this folder
 /\/wp-includes\/[a-z]{1,15}\//i
 
 # TLD's

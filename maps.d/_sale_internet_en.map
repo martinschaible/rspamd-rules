@@ -64,7 +64,7 @@
 
 /offers.{1,10}wide range.{1,10}mobile.?app/i
 
-/you (are interested|are looking|be interested|considering).{1,10}(creating|develop|development|building).{1,10}(android|ios|mobile)?.apps?/i
+/you.{1,10}(interested|looking|be interested|considering).{1,10}(creating|develop|development|building).{1,10}(android|ios|mobile)?.apps?/i
 
 /you need mobile apps? for your.{1,10}company/i
 
@@ -77,6 +77,7 @@
 /we are.{1,10}mobile.?app.?development/i
 /we are.{1,10}one of the (best|fastest).{1,10}growing.{1,15}apps?/i
 /we are.{1,10}team.{1,10}professional.{1,10}(android|ios)/i
+/we are.{1,10}well.?versed.{1,10}mobile.?apps?/i
 
 /we.{1,10}(build|develop|make).{1,10}(android|ios)/i 
 /we.{1,10}(build|develop|make).{1,10}(all|any) kinds of apps?/i
