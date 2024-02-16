@@ -12,10 +12,10 @@
 
 # Crypto
 # ------------------------------------------------------------------------------
-/(bit?coin|crypto|krypto).{1,10}bringt reichtum/i
+/(bit?coin|crypto|krypto).{1,10}(bringt reichtum|macht.{1,15}reich|initiative)/i
 /(bit?coin|crypto|krypto).{1,15}ein exklusives/i
-/(bit?coin|crypto|krypto).{1,10}macht.{1,15}reich/i
 
+/ergreifen sie.{1,10}(bit?coin|crypto|krypto)/i
 /werden sie.{1,10}heute zum.{1,10}(bit?coin|crypto|krypto)/i
 
 /reich durch kryptohandel/i
