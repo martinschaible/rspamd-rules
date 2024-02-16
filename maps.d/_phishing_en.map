@@ -26,21 +26,22 @@
 /order.{1,10}large quantity.{1,10}your products/i
 
 # Catalog
-/your company.{1,15}(brochure|catalog).{1,10}for our reference/i
-/your company.{1,15}(brochure|catalog).{1,10}pricing information/i
-/your company.{1,15}(brochure|catalog).{1,10}your.{1,10}price.?list/i
-/your company.{1,15}(brochure|catalog).{1,10}with your best price/i
+/your company.{1,15}(brochure|catalog|catalogue).{1,10}for our reference/i
+/your company.{1,15}(brochure|catalog|catalogue).{1,10}pricing information/i
+/your company.{1,15}(brochure|catalog|catalogue).{1,10}your.{1,10}price.?list/i
+/your company.{1,15}(brochure|catalog|catalogue).{1,10}with your best price/i
+/your company.{1,15}(brochure|catalog|catalogue).{1,10}price list.{1,10}help us/i
 
-/your company.{1,10}product.{1,10}(brochure|catalog).{1,10}prices?/i
+/your company.{1,10}product.{1,10}(brochure|catalog|catalogue).{1,10}prices?/i
 
 /your catalogue.{1,10}quotation/i
 /your brochure.{1,10}product catalog/i
 
 /attached rfq inquiry.{1,10}send us your pricing/i
-/catalog price list.{1,10}payment method/i
+/(brochure|catalog|catalogue).{1,10}price list.{1,10}payment method/i
 
-/provide us.{1,15}(brochure|catalog).{1,10}of your products/i
-/provide us.{1,15}(brochure|catalog).{1,10}data.?sheet for approval/i
+/provide us.{1,15}(brochure|catalog|catalogue).{1,10}of your products/i
+/provide us.{1,15}(brochure|catalog|catalogue).{1,10}data.?sheet for approval/i
 
 /pi for.{1,10}attached po/i
 
@@ -48,9 +49,9 @@
 
 # Price List
 /send price.?list.{1,10}products.?pictures via/i
-/send pictures.{1,15}(brochure|catalog).{1,20}price.?list/i
-/send us your.{1,10}(brochure|catalog).{1,10}price.?list/i
-/send us your company.{1,15}(brochure|catalog)/i
+/send pictures.{1,15}(brochure|catalog|catalogue).{1,20}price.?list/i
+/send us your.{1,10}(brochure|catalog|catalogue).{1,10}price.?list/i
+/send us your company.{1,15}(brochure|catalog|catalogue)/i
 
 /you have.{1,10}companies interested in your product/i
 /your latest catalog.{1,10}web.?site link/i

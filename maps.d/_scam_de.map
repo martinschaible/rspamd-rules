@@ -59,6 +59,8 @@
 # ------------------------------------------------------------------------------
 /entschädigungs.?kommission.{1,10}vereinten nationen/i
 
+/bankgruppen.{1,10}republik benin/i
+
 # Funds, Money
 # ------------------------------------------------------------------------------
 /ich habe einen.{1,10}fonds von.{1,10}\d{3}.{0,5}\d{3}/i
@@ -71,6 +73,7 @@
 /ihren namen lauten nicht beansprucht.{1,10}geld/i
 
 /fonds mit ihrem rat/i
+/fonds in höhe von.{1,10}millionen.{1,10}(dollar|euro?|gbp|usd).{1,10}auf ihr.{1,25}konto/i
 
 /um den.{1,10}fonds zu beanspruchen/i
 
@@ -129,7 +132,7 @@
 /kontaktiere sie.{1,15}eines.{1,10}geschäftsvorschlags/iu
 
 /ich brauche ihre.{1,10}partnerschaft/i
-/ich habe einen.{1,10}vorteilhaften.{1,10}vorschlag/i
+/ich habe einen.{1,10}(vorteilhaften|wichtigen).{1,10}vorschlag/i
 
 /ich habe ein.{1,15}geschäft für sie/iu
 /ich habe ein.{1,10}lukratives.{1,10}angebot für sie/iu
