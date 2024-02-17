@@ -35,8 +35,7 @@
 # Weightloss
 # ------------------------------------------------------------------------------
 /(big|tiny|your).?belly/i
-/fat.?(burn(er)?|melting)/i
-/fat.?burning/i
+/fat.?(burn(er)?|burning|melting)/i
 
 /keto/i
 /power.?shape/i
@@ -49,7 +48,7 @@
 /lose.{1,10}weight/i
 
 /breakfast.?trick/i
-/magic.drink/i
+/magic.?drink/i
 
 #
 #
@@ -64,7 +63,7 @@
 # Alzheimer, Dementia
 # ------------------------------------------------------------------------------
 /(alzheimer|dementia).{1,10}(test|trigger|warning)/i
-/brain.cell/i
+/brain.?cell/i
 /memory.?loss/i
 /exotic.?spice/i
 
@@ -79,7 +78,7 @@
 
 # Bladder
 # ------------------------------------------------------------------------------
-/bladder.(leakage|leaking)/i
+/bladder.?(leakage|leaking)/i
 
 # Blood pressure
 # ------------------------------------------------------------------------------
@@ -130,9 +129,8 @@
 
 # Eyes, Vision
 # ------------------------------------------------------------------------------
-/blurry.?(eye.?sight|vision)/i
-/(clear|perfect).?(view|vision)/i
-/20.?vision/i
+/blurry.?(eye.?sight|view|vision)/i
+/(20|clear|perfect).?(eye.?sight|view|vision)/i
 
 # Feet
 # ------------------------------------------------------------------------------
@@ -141,7 +139,7 @@
 
 # Fungus
 # ------------------------------------------------------------------------------
-/anti.fung(al|us)/i
+/anti.?fung(al|us)/i
 /(foot|goodbye|nail|yellow).?fungus/i
 /fix.{1,10}(nail|toe).?fungus/i
 
@@ -161,7 +159,7 @@
 
 # Hallux
 # ------------------------------------------------------------------------------
-/hallux.?valgus/i
+#/hallux.?valgus/i
 /hallux/i
 
 # Hearing
@@ -175,7 +173,7 @@
 
 # Herpes
 # ------------------------------------------------------------------------------
-/remove.herpes/i
+/remove.?herpes/i
 /herpes.?eliminator/?
 
 # Hips
@@ -184,7 +182,7 @@
 
 # Kidneys
 # ------------------------------------------------------------------------------
-/dead.kidneys/i
+/dead.?kidneys/i
 
 # Knee
 # ------------------------------------------------------------------------------
@@ -215,7 +213,7 @@
 
 # Patches
 # ------------------------------------------------------------------------------
-/medicinal.?patch(es)?/?
+/medicinal.?patch(es)?/i
 
 # Prostatitis
 # ------------------------------------------------------------------------------
@@ -226,7 +224,7 @@
 # ------------------------------------------------------------------------------
 /skin.{0,10}(care|cure|sagging)/i
 /(perfect|smooth).?skin/i
-/dark?.spot/i
+/dark.?spot/i
 
 # Sleep
 # ------------------------------------------------------------------------------
@@ -247,8 +245,8 @@
 
 # Tinitus
 # ------------------------------------------------------------------------------
-/ear.ringing/i
-/ringing.ears/i
+/ear.?ringing/i
+/ringing.?ears/i
 /stop.?tinnitus/i
 
 /tinnitus.?symptoms/i
@@ -291,6 +289,9 @@
 #
 #
 #
+
+# Masked
+# ------------------------------------------------------------------------------
 
 # Unclassified
 # ------------------------------------------------------------------------------

@@ -27,7 +27,8 @@
 # Temporary - false/positives
 #/unsubscribe.{1,10}\d{5}/i
 
-/ny.{1,5}us \d{5}.{1,5}unsubscribe  here/i
+/(ca|ny).{1,5}us \d{5}.{1,10}unsubscribe.{1,10}here/i
+/(ca|ny).{1,5}\d{5} us.{1,10}you no longer wish to recieve/i
 
 # Post Mail
 # ------------------------------------------------------------------------------
@@ -38,3 +39,13 @@
 # ------------------------------------------------------------------------------
 /received?.{1,10}e?.?mails?.{1,15}you requested information.{1,10}entered.{1,20}contests/i
 /received?.{1,10}e?.?mails?.{1,15}you registered.{1,10}accepted an invitation/i
+
+#
+#
+#
+
+# Unclassified
+# ------------------------------------------------------------------------------
+
+# Masked
+# ------------------------------------------------------------------------------

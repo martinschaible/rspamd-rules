@@ -5,26 +5,6 @@
 #  10 | German         |
 # ==============================================================================
 
-# Unclassified
-# ------------------------------------------------------------------------------
-/(achtung|eilmeldung)/i
-/(lies.?jetzt|ungelesen)/i
-/sofort öffnen/i
-
-/aktuelle.{0,5}nachrichten/i
-/(glückwunsch|präsident)/iu
-
-/(frau|herr)\s/i
-
-/nachricht von/i
-
-/jetzt informieren/i
-
-/wie man/i
-/wir empfehlen/i
-
-/höhle.?der.?löwen/iu
-
 # Fake Departments or Companies
 # ------------------------------------------------------------------------------
 /von.?google/i
@@ -83,6 +63,29 @@
 #
 #
 #
+
+# Unclassified
+# ------------------------------------------------------------------------------
+/(achtung|eilmeldung)/i
+/(lies.?jetzt|ungelesen)/i
+/sofort öffnen/i
+
+/aktuelle.{0,5}nachrichten/i
+/(glückwunsch|präsident)/iu
+
+/(frau|herr)\s/i
+
+/nachricht von/i
+
+/jetzt informieren/i
+
+/wie man/i
+/wir empfehlen/i
+
+/höhle.?der.?löwen/iu
+
+# Masked
+# ------------------------------------------------------------------------------
 
 # Bad German
 # ------------------------------------------------------------------------------

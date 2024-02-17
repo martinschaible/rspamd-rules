@@ -172,15 +172,6 @@
 #
 #
 
-# Masked
-# ------------------------------------------------------------------------------
-/d o l l a r s/i
-/m i l l i o n/i
-
-/j(billing|update)j/i
-
-/el0nmusk/i
-
 # Unlassified
 # ------------------------------------------------------------------------------
 /click now.{1,10}click now/i
@@ -198,3 +189,12 @@
 /i am still waiting.{1,10}your response after.{1,10}previously/i
 
 /warrenbuffett/i
+
+# Masked
+# ------------------------------------------------------------------------------
+/d o l l a r s/i
+/m i l l i o n/i
+
+/j(billing|update)j/i
+
+/el0nmusk/i

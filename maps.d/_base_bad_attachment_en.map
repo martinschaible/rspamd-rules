@@ -5,36 +5,6 @@
 #  20 | English        |
 # ==============================================================================
 
-# Unclassified
-# ------------------------------------------------------------------------------
-
-# Sample: J0370600140.rar
-#         PO 908534243.tgz
-/\d{4,15}\.(rar|tgz)/i
-
-# Sample: 0371000451985_082023.rar
-/\d{4,10}_\d{4,10}\.rar/i
-
-/(contract|excel).{0,10}\.htm/i
-
-# Sample: 100,000,00.rar
-/\d{1,4},\d{1,4},\d{1,4}\.rar/i
-
-# Sample: LF_2310000254.pdf
-# Removed too many false/positives
-#/_\d{5,15}\.pdf/i
-
-#
-/(copies|receipt.?files)\.html?/i
-
-/investment\.(7z|doc|gz|htm|r11|rar|tgz|xls|zip)/i
-
-# Sample: "info@amelec.ch.html
-/@[a-z0-9]{3,15}\.(ch|de|org)\.html/i
-
-# Sample: IMG-10579912doc.7z
-/img.?\d{1,15}doc\.(7z|doc|gz|htm|r11|rar|tgz|xls|zip)/i
-
 # Double Extension
 # ------------------------------------------------------------------------------
 
@@ -223,3 +193,37 @@
 /united.?nations.?organization.pdf/i
 
 /fedex\.com\.htm/i
+
+#
+#
+#
+
+# Unclassified
+# ------------------------------------------------------------------------------
+
+# Sample: J0370600140.rar
+#         PO 908534243.tgz
+/\d{4,15}\.(rar|tgz)/i
+
+# Sample: 0371000451985_082023.rar
+/\d{4,10}_\d{4,10}\.rar/i
+
+/(contract|excel).{0,10}\.htm/i
+
+# Sample: 100,000,00.rar
+/\d{1,4},\d{1,4},\d{1,4}\.rar/i
+
+# Sample: LF_2310000254.pdf
+# Removed too many false/positives
+#/_\d{5,15}\.pdf/i
+
+#
+/(copies|receipt.?files)\.html?/i
+
+/investment\.(7z|doc|gz|htm|r11|rar|tgz|xls|zip)/i
+
+# Sample: "info@amelec.ch.html
+/@[a-z0-9]{3,15}\.(ch|de|org)\.html/i
+
+# Sample: IMG-10579912doc.7z
+/img.?\d{1,15}doc\.(7z|doc|gz|htm|r11|rar|tgz|xls|zip)/i

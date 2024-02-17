@@ -16,13 +16,11 @@
 /chefsessel.{1,10}limitierter/i
 /chefsessel.{1,10}viele farben/i
 
-/(elegant(er)?|exklusiver|hochwertig|leder).{1,10}chefsessel/i
+/(elegant(er)?|exklusiver|hochwertig|leder|mesh|toro).{1,10}chefsessel/i
 
 /lederbürostühle/iu
 
 /atmungsaktiver.{1,10}mesh.?stoff.{1,10}belastbar/i
-
-/(leder|mesh|toro).?chefsessel/i
 
 /diesen einzigartigen.{1,10}stuhl/i
 /(elegante|ergonomische|erlesene|komfort|praktische).{1,15}büro.?(stuhl|stühle)/iu
@@ -356,4 +354,10 @@ bbestellen.{1,15}senden sie uns.{1,15}ihre.{1,20}ihre adresse/i
 #
 
 # Unclassified
+# ------------------------------------------------------------------------------
+
+# Masked
+# ------------------------------------------------------------------------------
+
+# Bad German
 # ------------------------------------------------------------------------------

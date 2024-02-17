@@ -5,36 +5,6 @@
 #  10 | English        |
 # ==============================================================================
 
-# Unclassified
-# ------------------------------------------------------------------------------
-
-# Date: '05/08/2023'
-/\d{2}\/\d{2}\/\d{4}/i
-
-/b.r.e.a.k.i.n.g/i
-
-/confirmation.needed/i
-
-/noreplay/i
-
-# Sample: [iPad Pro]
-/\[.{5,10}\]/i
-# Sample: | Netflix Inc. |
-/\|.{5,20}\|/i
-
-# Sample: _Congrats_
-#         - Huusk Japan -
-#/(_|-).{5,20}(_|-)/i
-/_.{5,20}_/i
-
-# m e t a m a s k
-/\w \w \w \w \w \w \w/i
-
-/trading.?co/i
-
-# Sample: (1)
-/\(\d\)/i
-
 # Fake Departments or Companies
 # ------------------------------------------------------------------------------
 /google.?(inc|llc)/i
@@ -93,3 +63,40 @@ euro.?online.?lotto/i
 
 /docusign.{1,5}review via/i
 /aleksandr/i
+
+#
+#
+#
+
+# Unclassified
+# ------------------------------------------------------------------------------
+
+# Date: '05/08/2023'
+/\d{2}\/\d{2}\/\d{4}/i
+
+/b.r.e.a.k.i.n.g/i
+
+/confirmation.needed/i
+
+/noreplay/i
+
+# Sample: [iPad Pro]
+/\[.{5,10}\]/i
+# Sample: | Netflix Inc. |
+/\|.{5,20}\|/i
+
+# Sample: _Congrats_
+#         - Huusk Japan -
+#/(_|-).{5,20}(_|-)/i
+/_.{5,20}_/i
+
+# m e t a m a s k
+/\w \w \w \w \w \w \w/i
+
+/trading.?co/i
+
+# Sample: (1)
+/\(\d\)/i
+
+# Masked
+# ------------------------------------------------------------------------------

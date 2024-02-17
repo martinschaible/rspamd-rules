@@ -50,7 +50,7 @@
 # ------------------------------------------------------------------------------
 /(erektions|potenz).?(mittel|pillen)/i
 
-/starke.erektion/i
+/starke.?erektion/i
 /produktion.{1,10}sexualhormonen/i
 
 /(gut|schlecht).{1,10}beim (beischlaf|lieben|liebesspiel|sex|s\.e\.x)/i
@@ -69,8 +69,7 @@
 
 /bauchfett.{1,10}verschwindet/i
 
-/gewichtsverlust/i
-/sicherer.gewichts.verlust/i
+/sicherer.{1,10}gewichts.?verlust/i
 
 /verlieren sie.{1,10}gewicht/i
 
@@ -80,7 +79,7 @@
 
 # Veins
 # ------------------------------------------------------------------------------
-/krampfadern.{1,20}waffe gegen sie/i
+/krampfadern.{1,20}waffe/i
 
 # Miracle, Breaktrough, Secrets, Videos
 # ------------------------------------------------------------------------------
@@ -88,6 +87,12 @@
 #
 #
 #
+
+# Unclassified
+# ------------------------------------------------------------------------------
+
+# Masked
+# ------------------------------------------------------------------------------
 
 # Bad German
 # ------------------------------------------------------------------------------

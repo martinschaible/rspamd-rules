@@ -155,6 +155,16 @@
 
 /beschaffungsdienstleistungsunternehmen/i
 
+#
+#
+#
+
+# Unclassified
+# ------------------------------------------------------------------------------
+/ich möchte mit Ihnen kommunizieren/iu
+
+/ihr gewinner.?team/i
+
 # Masked
 # ------------------------------------------------------------------------------
 
@@ -172,8 +182,5 @@
 # Sample: Kontakt: Nikola.cerny[at]meraklis[dot]org
 /kontakt.{1,20}\[at\][a-z0-9]{4,15}\[dot\](com|de|org)/irg
 
-# Unclassified
+# Bad German
 # ------------------------------------------------------------------------------
-/ich möchte mit Ihnen kommunizieren/iu
-
-/ihr gewinner.?team/i

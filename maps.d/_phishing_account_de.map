@@ -234,6 +234,14 @@
 #
 #
 
+# Unclassified
+# ------------------------------------------------------------------------------
+
+# Masked
+# ------------------------------------------------------------------------------
+/lhr konto/i
+/lhre rückerstattung/iu
+
 # Bad german
 # ------------------------------------------------------------------------------
 /aufgrund des begrenzten.{1,15}kontos/i
@@ -249,8 +257,3 @@
 
 /unsere? kontoüberprüfungsprozesse?/i
 /wir schließen alle alten versionen/i
-
-# Masked
-# ------------------------------------------------------------------------------
-/lhr konto/i
-/lhre rückerstattung/iu
