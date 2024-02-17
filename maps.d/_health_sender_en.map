@@ -45,6 +45,7 @@
 /slimm.{0,10}gummies/i
 
 /weight.?loss/i
+/wl.?recipe/i
 /lose.{1,10}weight/i
 
 /breakfast.?trick/i
@@ -188,7 +189,7 @@
 # Knee
 # ------------------------------------------------------------------------------
 /(circa|painful|your).?knees?/i
-/knee.?(compression|pain)/i
+/knee.?(compression|help|pain)/i
 /compression.?sleeve/i
 
 # Liver
@@ -210,7 +211,7 @@
 # ------------------------------------------------------------------------------
 /pain.?(killer|quiz)/i
 
-/(erase|joint|neck|nerve).?pain/i
+/(end|erase|joint|neck|nerve).?pain/i
 
 # Patches
 # ------------------------------------------------------------------------------
@@ -236,6 +237,7 @@
 
 # Snoring
 # ------------------------------------------------------------------------------
+/snore.?stop/i
 
 # Teeth
 # ------------------------------------------------------------------------------
