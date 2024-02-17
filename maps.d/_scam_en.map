@@ -349,7 +349,8 @@
 /(my|our) (deceased|late).{1,10}(client|customer|husband).{1,10}made a deposit/i
 /(my|our) (deceased|late).{1,10}(client|customer|husband).{1,10}with no next of kin/i
 
-/(my|our) (deceased|late).{1,10}husband left me with/i
+/(my|our) (deceased|late).{1,10}(father|husband).{1,10}diverted this funds?/i
+/(my|our) (deceased|late).{1,10}(father|husband).{1,10}left me with/i
 
 /retrieve my late father funds/i
 
