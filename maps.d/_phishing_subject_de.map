@@ -247,7 +247,9 @@
 /\[targo.?bank\]/i
 /targo.?bank.{1,5}id/i
 
-/i0n0s{1,5}mail/i
+/i0n0s.{1,5}mail/i
+
+/dhl.{1,5}bestellnummer/i
 
 #
 #
@@ -265,6 +267,7 @@
 /sendung macht weg/i
 
 /ihr.{1,15}konto ist abgelaufen/i
+/ihr.{1,15}profil läuft bald aus/iu
 
 /ihr versand.{1,10}ist (auf seinem weg|unterwegs)/i
 /ihr versand.{1,10}versendet wird/i
