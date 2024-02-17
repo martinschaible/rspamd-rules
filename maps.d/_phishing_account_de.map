@@ -9,8 +9,8 @@
 
 # Account
 # ------------------------------------------------------------------------------
-/ihr konto.{1,15}in einem sicheren zustand zu versetzen/i
-/wir schließen alle alten versionen/i
+/lieber kunde.{1,10}ihr konto/i
+/lieber kunde.{1,10}wir haben.{1,10}ihr konto/i
 
 /wir haben festgestellt.{1,15}ihrer?.{1,15}konto.?informationen/i
 
@@ -24,10 +24,10 @@
 /informationen.{1,10}um eine sperrung ihres.{1,15}kontos/i
 
 /ihr.{1,15}konto.{1,10}ist.{1,10}(dauerhaft|derzeit|möglicherweise|vorübergehend).{1,10}(ausgesetzt|eingeschränkt|begrenzt|gesperrt)/iu
-/ihr.{1,15}konto.{1,10}ist noch nicht aktualisiert/i
+/ihr.{1,15}konto.{1,10}ist.{1,10}noch nicht aktualisiert/i
 
-/ihr.{1,15}konto.{1,10}ist.{1,10}(ausgesetzt|begrenzt|eingeschränkt|gesperrt).{1,10}bis/iu
-/ihr.{1,15}konto.{1,10}ist.{1,10}(ausgesetzt|begrenzt|eingeschränkt|gesperrt).{1,10}um es.{1,10}(online|wieder).{1,10}zu aktivieren/iu
+/ihr.{1,15}konto.{1,10}ist.{1,10}(ausgesetzt|eingeschränkt|gesperrt).{1,10}bis/iu
+/ihr.{1,15}konto.{1,10}ist.{1,10}(ausgesetzt|eingeschränkt|gesperrt).{1,10}um es.{1,10}(online|wieder).{1,10}zu aktivieren/iu
 /ihr.{1,15}konto.{1,10}ist.{1,10}begrenzt/i
 
 /ihr.{1,15}konto.{1,10}kompromittiert wurde.{1,10}ihre karte/i
@@ -43,10 +43,8 @@
 /ihr.{1,15}konto.{1,10}wird bald gesperrt/i
 /ihr.{1,15}konto.{1,10}wird gesperrt.{1,15}aktualisieren sie ihre zahlungsdaten/i
 
-/ihr.{1,15}konto.{1,10}zu schützen.{1,10}müssen wir sicherstellen/iu
 /ihr.{1,15}konto.{1,10}zu ihrem eigenen schutz gesperrt haben/i
-
-/sie ihr.{1,15}konto verlieren/i
+/ihr.{1,15}konto.{1,10}zu schützen.{1,10}müssen wir sicherstellen/iu
 
 /sicherheitsgründen.{1,10}wir den zugriff auf ihr.{1,15}konto gesperrt/iu
 
@@ -58,10 +56,6 @@
 /einige ihrer konto.?funktionen eingeschränkt/iu
 
 /sperren ihr.{1,15}konto zu ihrem schutz.{1,10}bis wir von ihnen hören/iu
-/aufgrund des begrenzten.{1,15}kontos/i
-
-/lieber kunde.{1,10}ihr konto/i
-/lieber kunde.{1,10}wir haben.{1,10}ihr konto/i
 
 /nicht abgeschlossen haben.{1,10}wird ihr.{1,15}konto gesperrt/i
 
@@ -100,16 +94,14 @@
 
 /meine authentifizierung reaktivieren/i
 
-/verpflichtet ihre daten zu bestätigen/iu
-
 /sie den bestätigungs.?prozess.{1,10}nicht durchlaufen haben/iu
 /sie ihre persönlichen daten bestätigen/iu
 
 /validieren sie ihre angaben/i
 
-/verpflichtet sind.{1,10}ihre.{1,15}daten.{1,15}zu bestätigen/iu
-/verpflichtet sind.{1,10}ihre.{1,15}daten.{1,15}bei uns zu bestätigen/iu
+/verpflichtet ihre.{1,15}daten zu bestätigen/iu
 /verpflichtet ihre.{1,15}daten erneut zu bestätigen/iu
+/verpflichtet sind.{1,10}ihre.{1,15}daten.{1,20}zu bestätigen/iu
 
 /wir einige ihrer.{1,10}konto.?informationen aktualisieren/i
 /wir sie dringend.{1,10}ihre.{1,15}daten zu überprüfen/i
@@ -204,22 +196,18 @@
 
 # Silly Lies
 # ------------------------------------------------------------------------------
-/wir unsere sicherheitsrichtlinien verbessert/i
+/bestätigungsprozess gemä.{1,10}abs.{1,10}nr/iu
+/gesetzlichen anforderungen bitten wir sie.{1,15}kontaktdaten/i
+/informationen zu ihrem.{1,15}konto.{1,15}fehlen/i
 
 /persönlichen daten unvollständig übermittelt wurden/iu
-
-/wir ein spezielles programm eingerichtet.{1,10}sicherzustellen/i
+/problem mit den mit ihrem.{1,15}konto/i
 
 /unser sicherheitssystem hat verdächtige aktivitäten/iu
 /unsere server.{1,15}den neuen vorschriften/i
 
-/bestätigungsprozess gemä.{1,10}abs.{1,10}nr/iu
-
-/problem mit den mit ihrem.{1,15}konto/i
-
-/informationen zu ihrem.{1,15}konto.{1,15}fehlen/i
-
-/gesetzlichen anforderungen bitten wir sie.{1,15}kontaktdaten/i
+/wir ein spezielles programm eingerichtet.{1,10}sicherzustellen/i
+/wir unsere sicherheitsrichtlinien verbessert/i
 
 #
 #
@@ -248,13 +236,19 @@
 
 # Bad german
 # ------------------------------------------------------------------------------
+/aufgrund des begrenzten.{1,15}kontos/i
 /dass unser system uns mitteilt/i
 /konto ist nicht konform/i
 
 /ihr konto einzulösen/iu
+/ihr konto.{1,15}in einem sicheren zustand zu versetzen/i
+
 /ihre sicherheit zu aktualisieren/i
 
+/sie ihr.{1,15}konto verlieren/i
+
 /unsere? kontoüberprüfungsprozesse?/i
+/wir schließen alle alten versionen/i
 
 # Masked
 # ------------------------------------------------------------------------------

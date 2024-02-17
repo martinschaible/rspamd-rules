@@ -60,13 +60,11 @@
 # ------------------------------------------------------------------------------
 /(continue|keep).{1,10}(using|with).{1,10}(current|existing|old|same).{1,10}password/i
 
-/(keep|stay).{1,10}account password.{1,10}(current|old|same)/i
-/(keep|stay).{1,10}the.{1,10}(current|old|same).{1,10}password.{1,10}use/i
-/(keep|stay).{1,10}the.{1,10}(current|old|same).{1,10}password/i
-/(keep|stay).{1,10}(current|old|same).{1,10}password check below/i
+/(keep|stay).{1,10}account password.{1,10}(current|existing|old|same)/i
+/(keep|stay).{1,10}(current|existing|old|same).{1,10}password check/i
 
-/here to keep same password/i
-/want to keep the password for/i
+/(keep|stay).{1,10}the.{1,10}(current|existing|old|same).{1,10}password/i
+/(here|want).{1,10}to (keep|stay).{1,10}(same|the) password/i
 
 # Silly Lies
 # ------------------------------------------------------------------------------
