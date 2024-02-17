@@ -22,7 +22,7 @@
 
 # Locking Account
 # ------------------------------------------------------------------------------
-/your.{1,15}account.{1,15}has been temporarily.{1,10}(restricted|suspended)/i
+/your.{1,15}account.{1,15}(has been temporarily|might be).{1,10}(restricted|suspended)/i
 
 # Banking
 # ------------------------------------------------------------------------------

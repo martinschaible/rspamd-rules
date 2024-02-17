@@ -56,7 +56,7 @@
 
 # Partnership, Business
 # ------------------------------------------------------------------------------
-/geschäfts?.?(angebot|vorschlag)/iu
+/(geschäfts?|transaktioms?).{0,10}(angebot|vorschlag)/iu
 
 # Payments, Compensations
 # ------------------------------------------------------------------------------

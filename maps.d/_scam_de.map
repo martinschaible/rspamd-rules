@@ -155,6 +155,8 @@
 
 /meine vorherige.{1,10}e?.?mail erhalten.{1,10}ich habe ein.{1,10}profitables/i
 
+/vorschlag im wert von.{1,10}millionen.{1,10}(dollar|euro?|gbp|usd)/i
+
 # Payments, Compensations
 # ------------------------------------------------------------------------------
 /ihre zahlung zu genehmigen.{1,15}registrieren/i
@@ -178,6 +180,8 @@
 /ihre (hilfe|unterstützung).{1,10}eine.{1,10}transaktion.{1,10}im wert von/iu
 /ihre (hilfe|unterstützung).{1,10}beim transfer von.{1,15}millionen/i
 /ihre (hilfe|unterstützung).{1,10}beim transfer von.{1,15}(dollar|euro?|gbp|usd)/i
+
+/ich habe eine transaktions?.{0,10}vorschlag/i
 
 /transaktion.{1,10}teilzunehmen/i
 /transaktion.{1,10}mit ihrem.{1,10}namen/i
