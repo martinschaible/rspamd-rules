@@ -155,6 +155,8 @@
 
 /zustellung eines neuen pakets/i
 
+/wohin.{1,10}wir ihre?.{1,10}(paket|sendung) liefern/i
+
 # DPD
 /dpd.?ch.{1,10}betreff/i
 /dpd-ch/i
@@ -254,6 +256,14 @@
 #
 #
 #
+
+#
+#
+#
+
+# Unclassified
+# ------------------------------------------------------------------------------
+/wichtig.{1,10}registrieren sie sich jetzt/i
 
 # Bad german
 # ------------------------------------------------------------------------------
