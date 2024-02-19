@@ -36,6 +36,8 @@
 /(chef|dreh|leder).?(sessel|stuhl)/i
 /chef.?leder.?(sessel|stuhl)/i
 
+/chefsessel.{1,10}lagerräumung/iu
+
 # Drone
 # ------------------------------------------------------------------------------
 

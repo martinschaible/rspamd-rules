@@ -43,6 +43,12 @@
 /startkapital von 250 euro?/i
 
 /250 euro?.{1,10}(als startkapital|zum erfolg)/i
+/250 euro?.{1,10}mindesteinlage eröffnen wir/i
+
+# ETF (Exchange Traded Funds)
+# ------------------------------------------------------------------------------
+/kryptogeld.?etf/i
+/(bit?coin|crypto|krypto).?etf/i
 
 # Fancy Titles
 # ------------------------------------------------------------------------------

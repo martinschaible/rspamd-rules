@@ -60,6 +60,13 @@
 
 /sie innerhalb weniger tage.{1,20}einnahmen/i
 
+# ETF (Exchange Traded Funds)
+# ------------------------------------------------------------------------------
+/etf.{1,15}(bricht|investieren|rekorde|zulassung)/i
+
+/(geld|reich).{1,10}(durch|mit).{1,10}etf/i
+/(bit?coin|crypto|krypto).{1,10}etf/i
+
 # Fancy Titles
 # ------------------------------------------------------------------------------
 
