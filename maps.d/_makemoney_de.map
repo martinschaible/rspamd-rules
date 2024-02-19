@@ -30,7 +30,10 @@
 
 /menschen.{1,10}leichtes geld verdienen/i
 
-/erfahren sie wohlstand/i
+/erfahren sie.{1,10}wohlstand/i
+/erfahren sie.{1,10}wie tägliche gewinne/iu
+
+/profitieren.{1,10}ihr vermögen steigern/iu
 
 # Fake stories
 # ------------------------------------------------------------------------------
@@ -103,6 +106,10 @@
 
 /vermögensaufbau.?methode/i
 
+/money.?making.{1,10}strategies aus/i
+
+/erfahren sie.{1,10}wie.{1,10}tägliche gewinne/iu
+
 # Trading
 # ------------------------------------------------------------------------------
 
@@ -121,6 +128,8 @@
 /methode.{1,10}wie.{1,20}menschen.{1,10}(reich|wohlhabend).{1,10}werden/i
 /methode.{1,10}wird in einfachen schritten/i
 
+/entdecken sie geheime enthüllungen/iu
+
 # Fake website goes down
 # ------------------------------------------------------------------------------
 /webseite.{1,10}ist in wenigen stunden wieder offline/i
@@ -132,6 +141,8 @@
 
 # Unclassified
 # ------------------------------------------------------------------------------
+/musk.{1,10}(inspirierend|inspirierte).{1,10}(figur|innovationen)/i
+/musk.{1,15}(motivationsikone|motivierendes vorbild|unternehmerischer exzellenz)/i
 
 # Masked
 # ------------------------------------------------------------------------------
