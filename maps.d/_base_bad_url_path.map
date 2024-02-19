@@ -53,6 +53,8 @@
 /\.(com|info|us)\/mail/index\.php/campaigns\//i
 /\.(com|info|us)\/url\.php/i
 
+/\.tv\/ipfs\//i
+
 # Sample: .com/TTTRRRGGTTBBBLLLCCKKKFFRRDDYY_______________89G04FD189F0DG0F4HDF4X
 /\.(com|info|us)\/[a-z0-9]{20,40}[_-]{3,20}/i
 
@@ -70,6 +72,9 @@
 
 # Sample: .net/shop/out26TT-2/073a4bc137bad8229879a8ad4fbe7280/
 /\.net\/shop\/.{4,15}\/[a-z0-9]{20,40}\//i
+
+# Sample: .cc/?ref=bc1qe0pjhgnflays7hk3nwmq8lkm5vu04sqc7x5zmz
+/\.cc\/\?ref=/i
 
 /\.cn\/\?token=/i
 

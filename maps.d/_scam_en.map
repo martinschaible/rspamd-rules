@@ -122,8 +122,6 @@
 
 /you wish to receive.{1,15}funds/i
 
-/your.{1,10}draft of.{1,10}\d{3}.{0,5}\d{3}.{1,10}(dollar|euro?|gbp|usd)/i
-
 /your.{1,10}funds?.{1,10}have been approved by the/i
 /your.{1,10}funds?.{1,10}(total|worth).{1,10}sum of.{1,10}million/i
 /your.{1,10}funds?.{1,10}\d{3}.{0,5}\d{3}.{1,10}(dollar|euro?|gbp|usd)/i
@@ -136,6 +134,10 @@
 /your.{1,10}outstanding.{1,10}funds totaling.{1,10}million/i
 /your.{1,10}cooperation.{1,10}assist.{1,10}transferring.{1,15}funds/i
 /your.{1,10}interest to.{1,15}(manage|receive).{1,15}funds/i
+
+# Draft
+/ask him for your.{1,10}draft.{1,10}\d{3}.{0,5}\d{3}.{1,10}(dollar|euro?|gbp|usd)/i
+/your.{1,10}draft of.{1,10}\d{3}.{0,5}\d{3}.{1,10}(dollar|euro?|gbp|usd)/i
 
 # Heir
 # ------------------------------------------------------------------------------
@@ -367,7 +369,7 @@
 
 # Ransom
 # ------------------------------------------------------------------------------
-/i.{1,10}(gained|obtained).{1,10}access.{1,10}your (account|devices)/i
+/i.{1,10}(gained|have|obtained).{1,10}access.{1,10}your.{1,10}(account|devices?)/i
 /i.{1,10}managed.{1,10}install.{1,15}(trojan|virus)/i
 /i.{1,10}managed.{1,10}to get full access.{1,10}all devices/i
 /i.{1,10}recorded some videos of you/i
@@ -391,6 +393,7 @@
 
 /my bitcoin.?(address|wallet) is as follows/i
 /my bitcoin.?(address|wallet) is/i
+/my bitcoin.?(address|wallet).{1,10}btc.?wallet/i
 
 /transfer to my.{1,10}account.{1,10}after the transaction/i
 /you need to transfer.{1,10}usd.{1,10}bitcoin/i

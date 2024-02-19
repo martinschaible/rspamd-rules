@@ -229,7 +229,7 @@
 /i.?a?m a?.{0,10}consultant mr/i
 /i.?a?m a?.{0,10}digital.{1,10}marketing.{1,10}(consultant|expert)/i
 /i.?a?m a?.{0,10}expert.{1,10}trader/i
-/i.?a?m a?.{0,25}(financial|investment).{1,10}(broker|consultant)/i
+/i.?a?m a?.{0,25}(financial|investment).{1,10}(broker|consultant|funds)/i
 /i.?a?m a?.{0,15}professional.{1,10}(graphic designer|investment)/i
 /i.?a?m a?.{0,10}medical scientist/i
 /i.?a?m a?.{5,25}sales.{1,10}(manager|representative)/i
