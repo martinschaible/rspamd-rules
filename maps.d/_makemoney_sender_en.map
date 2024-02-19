@@ -7,8 +7,7 @@
 
 # Crypto
 # ------------------------------------------------------------------------------
-/bitcoin.?(broker|bulletin|invest(ment)?|millionaire|network|update)/i
-/crypto.?(currency|forex|news)/i
+/(bitcoin|btc|crypto).?(broker|bulletin|currency|etf|forex|invest(ment)?|millionaire|network|news|update)/i
 
 /billionaire/i
 /blockchain/i
