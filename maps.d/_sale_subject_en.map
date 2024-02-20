@@ -36,12 +36,12 @@ lead generation solution/i
 /get found.{1,10}google/i
 /on google 1st page/i
 
-/seo.?(proposal|services|success)/i
+/seo.{1,15}(proposal|services|success)/i
 
 /full seo.?package/i
 
 /1st (page|ranking) (in|of|on) google/i
-/you need.{1,10}seo.?services/i
+/you need.{1,10}seo/i
 /your page.?rank on google/i
 
 /google.{1,10}(first page ranking|listing)/i
