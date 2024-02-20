@@ -43,10 +43,12 @@
 
 /my company provides.{1,15}loans/i
 
+/we (are offering|give|issuing|offer|offering|provide).{1,15}loans?.{1,10}all purposes/i
+/we (are offering|give|issuing|offer|offering|provide).{1,15}loans?.{1,10}at.{1,10}interest/i
+/we (are offering|give|issuing|offer|offering|provide).{1,15}loans?.{1,10}(contact|funding|projects)/i
+
 /we (are offering|give|issuing|offer|offering|provide).{1,15}(business|corporate|home|personal).{1,15}loans?/i
-/we (are offering|give|issuing|offer|offering|provide).{1,15}loans? at.{1,10}interest/i
-/we (are offering|give|issuing|offer|offering|provide).{1,15}loan.{1,10}(contact|funding|projects)/i
-/we (are offering|give|issuing|offer|offering|provide).{1,15}( all kinds|various types) of.{1,15}loans?/i
+/we (are offering|give|issuing|offer|offering|provide).{1,15}(all kinds|various types) of.{1,15}loans?/i
 
 /we are giving.{1,15}loan grants/i
 

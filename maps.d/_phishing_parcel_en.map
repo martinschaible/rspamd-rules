@@ -41,7 +41,8 @@
 
 # Pay Fees
 # ------------------------------------------------------------------------------
-/parcel being returned.{1,10}we ask.{1,10}you.{1,10}pay/i
+/(package|parcel) being returned.{1,10}we ask.{1,10}you.{1,10}pay/i
+/(package|parcel) has been arrived.{1,15}make sure to pay the fee/i
 
 /confirm your address.{1,10}pay the.{1,15}fees/i
 /(delivered withing|delivery as soon as possible|ensure.{1,15}delivery).{1,15}confirm.{1,10}payment/i

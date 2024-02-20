@@ -35,8 +35,9 @@
 
 /your company.{1,10}product.{1,10}(brochure|catalog|catalogue).{1,10}prices?/i
 
-/your catalogue.{1,10}quotation/i
-/your brochure.{1,10}product catalog/i
+/your (brochure|catalog|catalogue).{1,10}quotation/i
+/your (brochure|catalog|catalogue).{1,10}to learn more about your products/i
+/your (brochure|catalog|catalogue).{1,10}product (brochure|catalog|catalogue)/i
 
 /attached rfq inquiry.{1,10}send us your pricing/i
 /(brochure|catalog|catalogue).{1,10}price list.{1,10}payment method/i

@@ -24,7 +24,8 @@
 # Chair
 # ------------------------------------------------------------------------------
 /(büro|massage).?(stuhl|stühle).{1,15}(eingebauter|integrierter|komfort|massage|walnussholz)/iu
-/(büro|massage).?(stuhl|stühle).{1,15}(für nur|jetzt nur|statt)/i
+/(büro|massage).?(stuhl|stühle).{1,15}(für nur|jetzt nur|netto|statt)/i
+
 /(büro|massage).?leder.?(stuhl|stühle)/iu
 
 /(aktion|angebot).{1,20}(büro|massage).?(stuhl|stühle)/iu
@@ -44,6 +45,10 @@
 # Fuel Saver
 # ------------------------------------------------------------------------------
 
+# Gartenhaus
+# ------------------------------------------------------------------------------
+/(elegantes|metall).{1,15}gartenhaus/i
+
 # Generator
 # ------------------------------------------------------------------------------
 /(benzin|mobiler|lohnt sich|vielseitiger).{1,15}stromgenerator/i
@@ -56,6 +61,9 @@
 # Ladder
 # ------------------------------------------------------------------------------
 /teleskopleitern/i
+/(neue|profi).{1,10}teleskopleiter/i
+
+/sichern sie sich.{2,10}teleskopleiter/i
 
 # Night Vision Scope
 # ------------------------------------------------------------------------------

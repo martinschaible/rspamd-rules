@@ -58,6 +58,12 @@
 
 /(empfehlung|team).{1,20}huusk/i
 
+# Ladder
+# ------------------------------------------------------------------------------
+/teleskopleiter.{1,15}kostenfreiem versand/i
+
+/profi.{1,10}aluminium.{1,10}teleskopleiter/i
+
 # LED
 # ------------------------------------------------------------------------------
 /kostenloses.{1,10}flutlicht/i
@@ -66,6 +72,9 @@
 
 /austausch ist kein elektriker/i
 /zu led wechseln/i
+
+# Gartenhaus
+# ------------------------------------------------------------------------------
 
 # Night Vision Scope
 # ------------------------------------------------------------------------------
@@ -235,7 +244,7 @@
 /bestellen.{1,10}mit ihrer.{1,10}(adresse|anschrift).{1,10}(einfach antworten|wir liefern)/i
 /bestellen.{1,10}senden sie uns einfach.{1,10}e?.?mail/i
 /bestellen.{1,15}senden sie uns.{1,15}ihre.{1,20}(liefer|rechnungs).?anschrift/i
-bbestellen.{1,15}senden sie uns.{1,15}ihre.{1,20}ihre adresse/i
+/bestellen.{1,15}senden sie uns.{1,15}ihre.{1,20}ihre adresse/i
 /bestellen.{1,10}muster einfach antworten/i
 
 /bestellung(en)?.{1,15}antworten sie.{1,15}auf diese.{1,10}(e?.?mail|nachricht)/i
@@ -272,6 +281,8 @@ bbestellen.{1,15}senden sie uns.{1,15}ihre.{1,20}ihre adresse/i
 
 /risikofreier kauf.{1,15}antworten sie mit ihrer lieferadresse/i
 
+/sie uns ihre liefer.{1,10}rechnungs.?adresse per antwort/i
+
 /sofort zugreifen per e?.?mail/i
 
 /teilen sie uns.{1,15}per.{1,10}antwort ihre lieferadresse/i
@@ -302,6 +313,9 @@ bbestellen.{1,15}senden sie uns.{1,15}ihre.{1,20}ihre adresse/i
 
 /keine nachnahme.{1,10}risikolos einkaufen/i
 /keine vorkasse.{1,10}keine nachnahme/i
+
+#
+/cm.{1,10}jetzt nur.{1,10}\d{3}.{1,10}statt.{1,10}\d{3}.{1,10}euro/i
 
 #
 /verkauf.{1,10}vertrieb.{1,15}bitte einfach antworten/i

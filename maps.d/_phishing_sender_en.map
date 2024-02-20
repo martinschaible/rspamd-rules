@@ -35,6 +35,10 @@
 
 /\.(ch|com|de|org).?(security|server)/i
 
+/undelivered e?.?mails?.{1,15}marked/i
+
+/suspended.{1,10}undelivered.{1,10}e?.?mails?/i
+
 # Hosting
 # ------------------------------------------------------------------------------
 /(cpanel|hosting) on/i
