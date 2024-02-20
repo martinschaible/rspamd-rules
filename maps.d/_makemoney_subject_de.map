@@ -91,7 +91,7 @@
 
 /(\d{3,4}|euro).{1,10}passives einkommen/i
 
-/passives einkommen.{1,10}mit/i
+/passives (geld|einkommen).{1,10}(mit|verdienen)/i
 
 #
 #
