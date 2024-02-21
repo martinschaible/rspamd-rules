@@ -12,6 +12,10 @@
 /kundenservice.{0,5}team/i
 /kunden.?helpdesk/i
 
+# Which works?
+/(kundendienst|support)/n/i
+/(kundendienst|support)+$/i
+
 #
 #
 #
