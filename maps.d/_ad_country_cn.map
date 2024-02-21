@@ -317,6 +317,7 @@
 # ------------------------------------------------------------------------------
 /(pcba?|printed.circuit.board).{1,10}(factory|supplier).{1,10}focus on/i
 /(pcba?|printed.circuit.board).{1,10}(factory|supplier).{1,10}you can contact/i
+/(pcba?|printed.circuit.board).{1,10}(factory|supplier).{1,10}we.{1,10}(offer|specializing|provide)/i
 
 /(pcba?|printed.circuit.board).{1,10}manufacturer with good quality/i
 /(pcba?|printed.circuit.board).{1,10}we can offer.{1,10}the best/i
@@ -343,7 +344,8 @@
 
 /we.{1,10}focus on pcba?/i
 /we.{1,10}have focused.{1,10}manufacturing.{1,10}(pcba?|printed circuitboard)/i
-/we.{1,10}(offer|specializing|provide).{1,10}(pcba?|printed circuit board).{1,10}(assembly|layers|production)/i
+
+/we.{1,10}(offer|specializing|provide).{1,10}(pcba?|printed circuit board).{1,10}(assembly|layers|production|products?)/i
 /we.{1,10}(offer|specializing|provide).{1,10}you with.{1,15}(pcba?|printed circuit board)/i
 
 /we.?a?re.{1,10}(pcba?|printed circuit board).{1,25}manufacturer/i

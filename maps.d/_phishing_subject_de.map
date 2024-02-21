@@ -168,11 +168,21 @@
 /referenz.?code.{1,5}\d{4,5}/i
 /(ch|de|org).{1,10}referenz.?code/i
 
-# Winning, Free stuff, Surveys
+# Surveys
 # ------------------------------------------------------------------------------
-/fragen zu beantworten.{1,10}bevor wir die belohnung/i
+/beantworten.{1,10}bevor wir die belohnung/i
+/beantworten.{1,10}sie unsere befragung/i
 
-/beantworten sie unsere befragung/i
+/sie eine kurze umfrage/i
+
+/meinung ab.{1,10}verdiene eine belohnung/i
+/nehmen sie an dieser.{1,10}umfrage teil/i
+
+/umfrage.{1,10}gewinn/i
+/umfrage.{1,10}verdienen sie ihre/i
+
+# Winning, Free stuff
+# ------------------------------------------------------------------------------
 /sie wurden für eine.{1,15}belohnung ausgewählt/iu
 /ihre belohnung.{1,10}wartet sie/i
 
@@ -186,10 +196,7 @@
 /gewinnen sie eine.{1,15}geschenkkarte/i
 /kostenlos ein.{1,20}zu erhalten/i
 
-/meinung ab.{1,10}verdiene eine belohnung/i
 /gewinnen.{1,10}jetzt bestätigen/iu
-
-/nehmen sie an dieser.{1,10}umfrage teil/i
 
 /sie haben eine kostenlose.{10,25}gewonnen/i
 /sie unsere.{1,10}umfrage/i
@@ -197,7 +204,6 @@
 /wir vergeben deinen.{1,15}gutschein/i
 
 /(Öffne|öffne) sofort/iu
-/umfrage.{1,10}gewinn/i
 
 # Sample: Rundschreiben X2ZI-M29U
 /(bestätigung|rundschreiben).?[0-9a-z]{4}-[0-9a-z]{4}/i

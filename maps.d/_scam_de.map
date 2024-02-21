@@ -241,8 +241,8 @@
 /ich habe eine kopie.{1,15}webcam/i
 /ich auf alle daten auf deinem.{1,15}zugreifen/iu
 
-/ich.{1,10}zugriff auf ihr.{1,10}konto habe/i
-/ich.{1,10}zugriff auf ihre geräte/iu
+/ich.{1,10}zugriff auf (dein|ihr).{1,10}konto habe/i
+/ich.{1,10}zugriff auf (deine|ihre) geräte/iu
 
 /habe ich.{1,10}zugriff auf ihre dateien/i
 
@@ -251,6 +251,7 @@
 
 /installierte ich.{1,10}trojaner erfolgreich/i
 
+/ich erfolgreich den trojaner.?virus/i
 /dieser virus ermöglichte mir/iu
 /meine spyware ist/i
 
