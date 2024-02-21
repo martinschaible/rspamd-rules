@@ -130,6 +130,8 @@
 /(ich|sie) haben? eine.{1,15}spende.{1,15}weitere informationen/iu
 /(ich|sie) haben? eine.{1,15}spende(zuschuss)?.{1,10}für sie/i
 
+/(ich|sie) haben? von.{5,25}eine spende in.{1,10}höhe von.{2,10}\d{3}.{0,5}\d{3}/iu
+
 /informationen zum erhalt ihrer.{1,15}spende/i
 
 /sie.{1,10}den erhalt einer.{1,15}spende/i
