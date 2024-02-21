@@ -35,6 +35,9 @@
 
 /profitieren.{1,10}ihr vermögen steigern/iu
 
+/geld zu verdienen.{1,10}mit einem.{1,15}(gewinn|profit)/i
+/geld zu verdienen.{1,10}täglich können sie/i
+
 # Fake stories
 # ------------------------------------------------------------------------------
 /(als|schaffte).{5.20}euro pro (tag|woche) zu verdienen/i
@@ -94,6 +97,7 @@
 
 /innovativen.{1,10}(handels.?plattform|trading.?system)/i
 
+/(brandaktuelle|revolutionäre).{1,10}einnahmequelle/i
 /(brandaktuelle|revolutionäre).{1,10}anlage.?(methode|verfahren)/iu
 /(brandaktuelle|revolutionäre).{1,10}kapital.?anlage.?konzept/iu
 /brandneu.{1,10}vermögensaufbau/i
