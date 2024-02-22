@@ -79,8 +79,8 @@
 /photo.?tan.{1,10}aktivierungsbrief/i
 /photo.?tan.{1,10}gesperrt wurde/i
 
-/aktivieren sie.{1,10}photo.?tan/i
-/aktivierung des photo.?tan.?verfahrens/i
+/(aktivieren|aktualisieren) sie.{1,10}photo.?tan/i
+/(aktivieren|aktualisieren).{1,10}photo.?tan.?verfahrens/i
 
 /ihre? photo.?tan.?verfahren/i
 /ihre? photo.?tan.?app zu (aktualisieren|reaktivieren)/i
@@ -96,6 +96,7 @@
 
 # App
 /app informieren.{1,10}ihr schutz.{1,10}die sicherheit/iu
+/app erneut zu registrieren/i
 
 /aktivieren.{1,10}sie ein.{1,10}anwendungsupdate/i
 

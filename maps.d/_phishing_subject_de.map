@@ -98,6 +98,8 @@
 
 # New Systems, Security, Technology, TAN
 # ------------------------------------------------------------------------------
+/(aktivieren|aktualisieren) sie.{1,10}photo.?tan/i
+
 /neues sicherheitsupdate.{1,10}erforderlich/i
 /obligatorische aktivierung/i
 
