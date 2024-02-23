@@ -55,6 +55,10 @@
 
 /mein geld von.{1,15}millionen.{1,15}tausend.{1,10}(dollar|euro?|gbp|usd)/i
 
+# Discuss something
+# ------------------------------------------------------------------------------
+/ich.{1,10}ein wichtiges thema mit ihnen besprechen/i
+
 # Fake Organisations
 # ------------------------------------------------------------------------------
 /entschädigungs.?kommission.{1,10}vereinten nationen/i

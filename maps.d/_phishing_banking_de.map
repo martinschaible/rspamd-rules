@@ -76,23 +76,23 @@
 /eine.{1,10}prüfung ihrer.{1,10}telefon.?nummer vorzunehmen/i
 
 # Photo TAN
-/photo.?tan.{1,10}aktivierungsbrief/i
-/photo.?tan.{1,10}gesperrt wurde/i
+/(photo|push).?tan.{1,10}aktivierungsbrief/i
+/(photo|push).?tan.{1,10}gesperrt wurde/i
 
-/(aktivieren|aktualisieren) sie.{1,10}photo.?tan/i
-/(aktivieren|aktualisieren).{1,10}photo.?tan.?verfahrens/i
+/(aktivieren|aktualisieren) sie.{1,10}(photo|push).?tan/i
+/(aktivieren|aktualisieren).{1,10}(photo|push).?tan.?verfahrens/i
+/aktiviere das neue.{1,10}(photo|push).?tan/i
 
-/ihre? photo.?tan.?verfahren/i
-/ihre? photo.?tan.?app zu (aktualisieren|reaktivieren)/i
-/ihren photo.?tan synchronisieren/i
+/ihre? (photo|push).?tan.?verfahren/i
+/ihre? (photo|push).?tan.{1,10}(aktualisieren|reaktivieren|synchronisieren)/i
 
-/wurde festgestellt.{1,10}dass ihre photo.?tan/i
+/wurde festgestellt.{1,10}dass ihre(photo|push)(photo|push).?tan/i
 
 /sie die mobile.?token.?funktion aktivieren/i
 
-/vorzustellen.{1,10}das neue s.?push.?tan/i
+/vorzustellen.{1,10}das neue.{1,10}(photo|push).?tan/i
 
-/neue s.?pushtan.{1,10}authentifizierung.{1,10}aktivieren/i
+/neue.{1,10}(photo|push).?tan.{1,10}authentifizierung.{1,10}aktivieren/i
 
 # App
 /app informieren.{1,10}ihr schutz.{1,10}die sicherheit/iu
