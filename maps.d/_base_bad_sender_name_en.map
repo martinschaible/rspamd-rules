@@ -7,7 +7,7 @@
 
 # Fake Departments or Companies
 # ------------------------------------------------------------------------------
-/google.?(inc|llc)/i
+/google.?(inc|llc|team)/i
 
 # Strange senders
 # ------------------------------------------------------------------------------
@@ -54,8 +54,6 @@ euro.?online.?lotto/i
 /lottery.?winning/i
 /loteria.?nacional/i
 /lotto.?denavidad/i
-
-/google.?team/i
 
 # Virus, Malware
 # ------------------------------------------------------------------------------

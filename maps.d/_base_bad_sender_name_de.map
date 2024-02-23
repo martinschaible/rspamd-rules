@@ -42,10 +42,9 @@
 /gewinn(er)?.?(informationen|spiel|team)/i
 /gewinn.?benachrichtigung/i
 
-/(lotterie|lottery).?gewinner/i
+/(lotterie|lottery|millionen).?gewinner/i
 
 /euro.?million(en)?/i
-/millionen.?gewinner/i
 
 /spanische.?lotterie/i
 
@@ -70,9 +69,7 @@
 
 # Unclassified
 # ------------------------------------------------------------------------------
-/(achtung|eilmeldung)/i
-/(lies.?jetzt|ungelesen)/i
-/sofort öffnen/i
+/(achtung|eilmeldung|lies.?jetzt|sofort öffnen|ungelesen)/iu
 
 /aktuelle.{0,5}nachrichten/i
 /wichtige.{0,5}mitteilung/i
