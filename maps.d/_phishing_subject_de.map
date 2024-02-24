@@ -67,7 +67,7 @@
 # Locking Account
 # ------------------------------------------------------------------------------
 /ihr konto.{1,15}wird gesperrt/i
-/ihr konto.{1,15}(ist|wurde) begrenzt/i
+/ihr konto.{1,15}(ist|wird|wurde) begrenzt/i
 /ihr konto.{1,15}wurde vorübergehend/i
 /ihr konto.{1,15}vorübergehende beschränkung/iu
 
