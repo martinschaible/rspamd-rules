@@ -84,7 +84,7 @@
 /ihre? e?.?mail.?(adresse|konto).{1,10}.{1,10}wurde nach dem zufallsprinzip ausgewählt/iu
 /ihre? e?.?mail.?(adresse|konto).{1,10}.{1,10}wurde zufällig von einer software/iu
 
-/ihre e?.?mail.{1,10}hat ihnen.{1,10}betrag von/i
+/ihre e?.?mail.{1,10}hat ihnen.{1,10}(den|einen).{1,10}betrag von/i
 /ihre e?.?mail.{1,10}wurde mit der losnummer/i
 
 /ihrem.{1,15}gewinn von.{1,10}\d{3}.{1,5}\d{3}.{1,15}million/i

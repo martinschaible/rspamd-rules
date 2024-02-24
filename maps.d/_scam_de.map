@@ -189,6 +189,7 @@
 
 /ich habe eine transaktions?.{0,10}vorschlag/i
 
+/transaktion.{1,10}in ihrem namen/i
 /transaktion.{1,10}teilzunehmen/i
 /transaktion.{1,10}mit ihrem.{1,10}namen/i
 /transaktion.{1,10}zum gegenseitigen nutzen/i
@@ -197,8 +198,9 @@
 
 /dringende geschäfts.?transaktion/iu
 
-/sie.{1,10}eine transaktion.{1,15}zu kontaktieren/i
+/sie.{1,10}eine.{1,10}transaktion.{1,15}zu kontaktieren/i
 /sie.{1,10}zu bitten.{1,10}mir dabei zu helfen.{1,10}geld/i
+/kontaktiere sie bezüglich einer.{1,10}transaktion/iu
 
 # Trustworthy Person
 # ------------------------------------------------------------------------------
