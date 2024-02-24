@@ -52,4 +52,6 @@
 /https:\/\/[a-z]{1,25}\^/i
 
 # Sample: https://dc-btc.cc/
-https:\/\/[a-z]{1,10}-btc\./i
+/https:\/\/[a-z]{1,10}-btc\./i
+
+/https?:\/\/keto[a-z]{1,15}\.[a-z]{2,3}/i
