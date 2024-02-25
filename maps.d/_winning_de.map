@@ -9,12 +9,13 @@
 
 # Fake Organisations
 # ------------------------------------------------------------------------------
-/euromillions.nationale.lotterie/i
-/spanische.?lotterie/i
+/euromillions.?nationale.?(lotterie|lotto)/i
+/spanische.?(lotterie|lotto)/i
 
 /mega.?jackpot.?aktion/i
 
-/google online.?(direktor|verlosung)/i
+/google.?online.?(direktor|verlosung)/i
+/google.?e?.?mail.?(lotterie|lotto)/i
 
 # Fake Programs
 # ------------------------------------------------------------------------------
@@ -86,6 +87,8 @@
 
 /ihre e?.?mail.{1,10}hat ihnen.{1,10}(den|einen).{1,10}betrag von/i
 /ihre e?.?mail.{1,10}wurde mit der losnummer/i
+
+/ihren gewinn.?anspruch.{1,10}schicken sie/i
 
 /ihrem.{1,15}gewinn von.{1,10}\d{3}.{1,5}\d{3}.{1,15}million/i
 /haben sie.{1,10}\d{3}.{1,5}\d{3}.{1,10}(dollar|euro?|gbp|usd).{1,10}gewonnen/i

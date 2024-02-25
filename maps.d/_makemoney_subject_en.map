@@ -7,8 +7,7 @@
 
 # Bitcoin
 # ------------------------------------------------------------------------------
-/(bit?coin|crypto|krypto).{1,15}auto.?trade/i
-/(bit?coin|crypto|krypto).{1,15}deposit/i
+/(bit?coin|crypto|krypto).{1,15}(auto.?trade|deposit|payment)/i
 
 /easy.?(bit?coin|crypto|krypto)/i
 
