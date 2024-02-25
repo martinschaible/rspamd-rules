@@ -22,7 +22,7 @@
 
 /haben wir ihre.{1,20}(kredit)?karte.{1,10}eingeschränkt/iu
 
-/karte.{1,10}dieses sicherheitsverfahren erforderlich/i
+/karte.{1,10}dieses sicherheits.?verfahren erforderlich/i
 /karte.{1,10}genehmigen.{1,10}aktivieren sie.{1,10}sofort/i
 /karte.{1,10}ist ein.{1,10}ungewöhnlicher fehler aufgetreten/iu
 /karte.{1,10}ist ein.{1,15}prozess erforderlich/i
@@ -52,9 +52,9 @@
 /ihr banking.{1,20}ist veraltet/i
 
 /registrieren sie sich.{1,15}den neuen.{1,10}sicherheitsstandard/i
-/registrieren sie sich.{1,15}in wenigen schritten{1,10}die neuen sicherheitsverfahren/i
+/registrieren sie sich.{1,15}in wenigen schritten{1,10}die neuen sicherheits.?verfahren/i
 
-/sicherheitsverfahren.{1,10}registrieren sie sich/i
+/sicherheits.?verfahren.{1,10}registrieren sie sich/i
 /sie sich nicht registrieren.{1,10}werden ihre transaktionsfunktionen/i
 
 /jetzt umstellung starten/i
@@ -80,10 +80,8 @@
 /(photo|push).?tan.{1,10}gesperrt wurde/i
 
 /(aktivieren|aktualisieren) sie.{1,10}(photo|push).?tan/i
-/(aktivieren|aktualisieren).{1,10}(photo|push).?tan.?verfahrens/i
 /aktiviere das neue.{1,10}(photo|push).?tan/i
 
-/ihre? (photo|push).?tan.?verfahren/i
 /ihre? (photo|push).?tan.{1,10}(aktualisieren|reaktivieren|synchronisieren)/i
 
 /wurde festgestellt.{1,10}dass ihre(photo|push)(photo|push).?tan/i
@@ -171,3 +169,5 @@
 /aktivieren sie diesen vorgang/i
 /sie diese mitteilung schließen/iu
 /folge den schritten/i
+
+/(photo|push).?tan.{1,10}verfahren/i
