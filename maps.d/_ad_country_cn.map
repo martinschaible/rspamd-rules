@@ -91,6 +91,7 @@
 /professional.{1,25}fabrication.{1,10}factory in.{1,10}(china|dongguan|guangzhou|shenzhen|zhejiang)/i
 
 /with.{1,10}years experience.{1,10}(china|dongguan|guangzhou|shenzhen|zhejiang)/i
+/with more than.{1,10}years of.{1,10}(china|dongguan|guangzhou|shenzhen|zhejiang)/i
 
 /which is.{1,10}professional.{1,15}manufacture.{1,10}(china|dongguan|guangzhou|shenzhen|zhejiang)/i
 
@@ -206,6 +207,12 @@
 # Experience
 # ------------------------------------------------------------------------------
 /(more than|we have).{1,10}years.{1,10}experience.{1,10}(export|industry|producing|providing|traditional)/i
+
+# Packaging
+# ------------------------------------------------------------------------------
+/we.?a?re.{1,15}(company|factory).{1,10}with.{1,10}food packaging/i
+
+/reliable food packaging supplier/i
 
 # Products
 # ------------------------------------------------------------------------------

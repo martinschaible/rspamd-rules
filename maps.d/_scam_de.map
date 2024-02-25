@@ -96,6 +96,7 @@
 /sie erben die summe von/i
 /ihnen mein erbe in höhe von/iu
 /ihnen mein erbe zu/i
+/die erbschaftszahlung.{1,20}wurde genehmigt/i
 
 /bezüglich.{1,10}eines erbschafts.?fonds/iu
 
@@ -128,8 +129,9 @@
 /geschäft für sie.{1,10}kontaktieren sie mich/iu
 /geschäft im wert von.{1,15}millionen.{1,10}zu besprechen/iu
 
-/geschäfts.?vorschlags?.{1,10}zu kontaktieren/iu
+/geschäfts.?vorschlags?.{1,10}ich mit ihnen teilen/i
 /geschäfts.?vorschlags?.{1,10}sie interessiert sind/i
+/geschäfts.?vorschlags?.{1,10}zu kontaktieren/iu
 
 /beide seiten vorteilhaftes geschäft im wert von/iu
 
@@ -139,17 +141,17 @@
 /ich habe einen.{1,10}(vorteilhaften|wichtigen).{1,10}vorschlag/i
 
 /ich habe ein.{1,15}geschäft für sie/iu
-/ich habe ein.{1,10}lukratives.{1,10}angebot für sie/iu
-/ich habe ein.{1,10}geschäfts?.{1,15}das ich.{1,10}mit ihnen/i
+/ich habe ein.{1,15}lukratives.{1,10}angebot für sie/iu
+/ich habe ein.{1,15}geschäfts?.{1,15}das ich.{1,10}mit ihnen/i
 
-/ich habe ein.{1,10}geschäfts?.?(angebot|vorschlag)/iu
+/ich habe ein(en)?.{1,15}geschäfts?.?(angebot|vorschlag)/iu
 
 /ich mit ihnen ein.{1,10}geschäft machen/iu
 /ich suche einen.{1,10}vertrauenswürdigen partner/iu
 
 /ihnen.{1,10}ein sehr gutes geschäft zu sprechen/iu
 /ihnen.{1,10}einen.{1,15}geschäfts.?vorschlag mitteilen/iu
-/ihnen.{1,10}einen guten geschäfts.?vorschlag/iu
+/ihnen.{1,10}einen.{1,15}(guten|wertvollen) geschäfts.?vorschlag/iu
 
 /antworten sie für weitere details/iu
 
