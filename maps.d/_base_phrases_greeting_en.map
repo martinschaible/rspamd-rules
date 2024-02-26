@@ -262,14 +262,18 @@
 
 /introducing myself as.{1,10}(financial|investment).?(broker|consultant)/i
 
-/this is katie.{5,25}business.?analyst/i
+/this is.{5,25}business.?analyst/i
 
 /we have over.{1,10}years.{1,10}experience in/i
-/we are.{1,10}trading company/i
 
 #
 /i.?a?m (mrs?|ms).{5,25}from.{1,10}kuwait/i
 /i.?a?m.{5,25}from.{1,10}shenzhen/i
+
+# Introduction, Title
+# ------------------------------------------------------------------------------
+/we are.{1,10}digital marketing company/i
+/we are.{1,10}trading company/i
 
 # Introduction, Dying
 # ------------------------------------------------------------------------------

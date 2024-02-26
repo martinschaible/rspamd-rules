@@ -56,6 +56,7 @@
 
 /(china|dongguan|guangzhou|shenzhen|zhejiang).{1,10}our company mainly do/i
 /(china|dongguan|guangzhou|shenzhen|zhejiang).{1,10}our products include/i
+/(china|dongguan|guangzhou|shenzhen|zhejiang).{1,10}our main products/i
 
 /(china|dongguan|guangzhou|shenzhen|zhejiang).{1,10}we can handle all kinds/i
 /(china|dongguan|guangzhou|shenzhen|zhejiang).{1,10}we can provide/i
@@ -279,6 +280,8 @@
 /we offer an extensive range.{1,10}(components|electronic)/i
 
 /you have.{1,10}plans.{1,10}purchase.{1,10}(components|electronic)/i
+/you have.{1,10}requests on.{1,10}(components|electronic)/i
+
 /you (looking|need).{1,10}electronic.{1,10}components?/i
 /you still interested.{1,10}capacitors/i
 
