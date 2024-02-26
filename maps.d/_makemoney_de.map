@@ -30,6 +30,8 @@
 
 /menschen.{1,10}leichtes geld verdienen/i
 
+/monatlicher profit von.{1,15}(\d{3,4}|euro).{1,15}möglich/i
+
 /erfahren sie.{1,10}wohlstand/i
 /erfahren sie.{1,10}wie tägliche gewinne/iu
 
@@ -142,6 +144,8 @@
 
 /entdecken sie geheime enthüllungen/iu
 
+/noch nie so.{1,20}(viel|einfach).{1,20}verdient/i
+
 # Fake website goes down
 # ------------------------------------------------------------------------------
 /webseite.{1,10}ist in wenigen stunden wieder offline/i
@@ -163,7 +167,8 @@
 
 # Bad german
 # ------------------------------------------------------------------------------
-/beschleunigtes einkommen/i
+/anmelden.{1,10}untersuchen/i
+/beschleunigtes.{1,10}einkommen/i
 
 /geldverdienprogramm/i
 /geldverdiengeheimnis/i
