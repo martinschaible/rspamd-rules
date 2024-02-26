@@ -12,6 +12,8 @@
 /kreditunternehmen/i
 /kredite verfügbar/iu
 
+/(darlehen|kredit)\?/i
+
 /(darlehen|kredit) zu/i
 /(finanz|darlehen|kredit).?angebot/i
 
@@ -50,3 +52,4 @@
 
 # Bad German
 # ------------------------------------------------------------------------------
+/benötigen persönlichen/iu

@@ -44,6 +44,7 @@
 # Account - 2FA Activation
 # ------------------------------------------------------------------------------
 /activate 2fa.{1,10}click the button below/i
+/click the button.{1,10}to activate 2fa/i
 
 # Account - Payment options
 # ------------------------------------------------------------------------------
@@ -68,6 +69,7 @@
 
 # Silly Lies
 # ------------------------------------------------------------------------------
+/our security.?systems have detected.{1,10}unusual.{1,10}activity/i
 
 #
 #

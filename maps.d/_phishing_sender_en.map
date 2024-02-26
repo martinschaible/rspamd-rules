@@ -96,6 +96,10 @@
 
 # Companies and Organisations
 # ------------------------------------------------------------------------------
+
+# Adobe
+/adobepdf/i
+
 # Apple
 /apple.?(id|winner)/i
 /icloud.?(important|notice|user)/i
@@ -123,9 +127,9 @@
 /paypal.?(case.?id|support)/i
 
 # Spotify
-/help.spotify/i
 /s p o t i f y/i
-/adobepdf/i
+/spotify_inc/i
+/help.spotify/i
 
 # UPS
 /_ups_/i

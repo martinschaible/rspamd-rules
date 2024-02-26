@@ -58,6 +58,9 @@
 # Sample: .com/TTTRRRGGTTBBBLLLCCKKKFFRRDDYY_______________89G04FD189F0DG0F4HDF4X
 /\.(com|info|us)\/[a-z0-9]{20,40}[_-]{3,20}/i
 
+# Sample: .com/error/-/ch/index.html
+/\.(com|info|us)\/error\/-\//i
+
 /\.co\.in\/link\.php/i
 /\.cn\/link\.php/i
 
