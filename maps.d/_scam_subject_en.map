@@ -32,7 +32,7 @@
 
 # Donation
 # ------------------------------------------------------------------------------
-/(claims|message|you have).{1,10}donation/i
+/(claims|message|reply|you have).{1,15}donation/i
 
 /donation.{1,10}(spende|win)/i
 
