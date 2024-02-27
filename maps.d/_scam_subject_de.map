@@ -41,7 +41,7 @@
 
 /(du hast|sie haben) eine.{1,10}spende/i
 
-/sie haben.{1,10}(euro|gbp|usd|millionen).{1,10}erhalten/i
+/sie (haben|ihre).{1,10}(euro|gbp|usd|millionen).{1,10}erhalten/i
 
 /wurden an sie gespendet/i
 

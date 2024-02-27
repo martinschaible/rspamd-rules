@@ -69,6 +69,8 @@
 /your.{1,10}e?.?mail.{1,10}(account|address).{1,10}was selected for.{1,10}donation/i
 /your.{1,10}e?.?mail.{1,10}was drawn for.{1,10}donation/i
 
+/claim{1,10}your donation of{1,10}(million|dollar|euro?|gbp|usd)/i
+
 # Donation, Companies
 # ------------------------------------------------------------------------------
 

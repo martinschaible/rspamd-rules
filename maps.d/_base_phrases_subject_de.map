@@ -9,7 +9,6 @@
 # ------------------------------------------------------------------------------
 /achtung.{1,10}offizielle mitteilung/i
 
-/wichtige.{1,10}dringende.{1,15}(angelegenheit|benachrichtigung)/i
 /dringende.{1,10}wichtige.{1,15}(angelegenheit|benachrichtigung)/i
 /dringend.{1,10}dringend/i
 
@@ -19,6 +18,9 @@
 /\[(video|wichtig)\]/i
 /\[.{1,15}\].{1,10}neue Nachricht/i
 /\[-.{1,15}-\]/i
+
+/wichtig.{1,10}important/i
+/wichtige.{1,10}dringende.{1,15}(angelegenheit|benachrichtigung)/i
 
 /antwort erforderlich/i
 
