@@ -121,20 +121,6 @@
 
 # Employees performance
 # ------------------------------------------------------------------------------
-/(e?.?mail|message) is.{1,10}intended.{1,10}share your performance feedback/i
-/(e?.?mail|message) is.{1,10}intended.{1,10}provide an evaluation/i
-/(e?.?mail|message) is.{1,10}convey your performance/i
-/(e?.?mail|message) serves.{1,10}review of your performance/i
-
-/provide feedback.{1,10}your recent performance/i
-
-/use the below excel link to check/i
-
-
-/hr.?office.{1,10}hr.?director/i
-
-#
-/(leave|vacation).{1,15}application has been.{1,10}approved/i
 
 #
 #
