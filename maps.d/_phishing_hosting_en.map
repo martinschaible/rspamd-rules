@@ -74,7 +74,10 @@
 your recent request.{1,10}de.?activate your.{1,10}e?.?mail/i
 
 # Termination
-/termination request on your.{1,10}e?.?mail.?address/i
+/termination request.{1,10}your.{1,10}e?.?mail.?address/i
+/request.{1,10}permanently de.?activate your.{1,10}e?.?mail/i
+
+/e?.?mail.{1,10}deactivation.{1,10}progress/i
 
 # Blocking
 
