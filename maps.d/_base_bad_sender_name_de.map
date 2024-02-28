@@ -13,8 +13,8 @@
 /kunden.?helpdesk/i
 
 # Which works?
-/(kundendienst|support)/n/i
-/(kundendienst|support)+$/i
+#/\s(kundendienst|support)/n/i
+#/\s(kundendienst|support)+$/i
 
 #
 #
