@@ -22,8 +22,7 @@ att.{1,5}sehr geehrter/i
 /guten tag.{1,10}begünstigter/iu
 /guten tag.{1,5}kunde/i
 
-/guten tag.{1,10}ich suche ihre dienste/i
-/guten tag.{1,15}ich brauche ihre unterstützung/iu
+/guten tag.{1,10}ich (brauche ihre unterstützung|suche ihre dienste|ich vertraue darauf)/iu
 
 /guten tag.{1,15}(damen|herren).{1,15}wie geht es dir/i
 /(guten tag|grüße).{1,10}(geliebte|gewinner|mein lieber)/i
@@ -218,6 +217,8 @@ att.{1,5}sehr geehrter/i
 /diese (e?.?mail|nachricht) (findet|trifft) sie gut/i
 /diese (e?.?mail|nachricht) sie gut findet/i
 /diese (e?.?mail|nachricht) erreicht sie in guter verfassung/i
+
+/nachricht bei guter gesundheit sind/i
 
 /grusse an dich/i
 /grüße des tages an dich/iu

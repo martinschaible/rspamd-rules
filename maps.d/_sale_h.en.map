@@ -31,6 +31,22 @@
 /portable monocular with/i
 /new tactical zoom/i
 
+# Streaming TV
+# ------------------------------------------------------------------------------
+/\d{3,4}.{1,10}worldwide.channels/i
+
+/live channels.{1,10}movies.{1,10}series/i
+/movies.{1,10}series.{1,10}subscribe now/i
+
+/netflix.{1,10}hbomax.{1,10}amazonprime/i
+/hbomax.{1,10}amazonprime.{1,10}appletv/i
+/amazonprime.{1,10}appletv.{1,10}disney/i
+
+/be an iptv.?reseller/i
+/join iptv.{1,10}now/i
+/welcome to iptv/i
+/promotion.{1,10}our iptv/i
+
 # Tracker
 # ------------------------------------------------------------------------------
 

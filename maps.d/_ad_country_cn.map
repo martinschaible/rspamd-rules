@@ -14,12 +14,15 @@
 # Greetings
 # ------------------------------------------------------------------------------
 /dear.{1,10}friend.{1,10}we supply/i
+/dear customer.{1,10}i am.{5,25}from.{1,10}(china|dongguan|guangzhou|shenzhen|zhejiang)/i
 
 # Footers, Signature
 # ------------------------------------------------------------------------------
 /(skype|wechat|whatsapp):.{1,5}\+86/i
 
-/on (wechat|whatsapp) at \+86/i
+/on (wechat|whatsapp) at.{1,5}\+86/i
+/tel.(wechat|whatsapp).{1,5}\+86/i
+
 /co.{1,5}ltd.{1,10}\+86/i
 
 /wechat.{1,5}(mobile|whatsapp)/i
@@ -248,8 +251,12 @@
 
 # CNC
 # ------------------------------------------------------------------------------
-/we are.{1,10}cnc precision machined/i
+/company.{1,10}specializes in cnc.{1,10}machining/i
+
+/we are.{1,10}cnc.{1,10}precision machined/i
 /our services include.{1,10}cnc/i
+
+/you have any.{1,15}cnc.{1,10} machining/i
 
 # Electronics
 # ------------------------------------------------------------------------------
@@ -301,11 +308,15 @@
 # LED & Solar
 # ------------------------------------------------------------------------------
 /we are.{1,10}professional.{1,10}led/i
-/We are.{1,10}solar light.{1,10}supplier/i
+/we are.{1,10}solar light.{1,10}supplier/i
 
 # Metal
 # ------------------------------------------------------------------------------
-/we are professional.{1,10} metal parts/i
+/we are.{1,10}professional.{1,10} metal parts/i
+
+# Mining
+# ------------------------------------------------------------------------------
+/we are.{1,10}manufacturer.{1,10}mining/i
 
 # Molding
 # ------------------------------------------------------------------------------
@@ -372,7 +383,7 @@
 /you.{1,10}proceed your.{1,10}(pcba?|printed circuit board).{1,10}project/i
 
 /you.{1,10}have.{1,15}(pcba?|printed circuit board).{1,15}(need|order)/i
-/you.{1,10}interested in.{1,10}(pcba?|printed circuit board)/i
+/you.{1,10}interested (in|to get).{1,10}(pcba?|printed circuit board)/i
 
 /your.{1,10}company need.{1,15}(pcba?|printed circuit board)/i
 /your.{1,10}company have.{1,10}(pcba?|printed circuit board).{1,10}demands/i

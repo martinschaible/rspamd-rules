@@ -7,7 +7,13 @@
 #  10 | English        |
 # ==============================================================================
 
-# Fake orders
+# Fake Bookings
+# ------------------------------------------------------------------------------
+/private trip.{1,10}single occupancy rooms needed/i
+
+/offer us accommodation for.{1,10}guests/i
+
+# Fake Orders
 # ------------------------------------------------------------------------------
 /attached our purchase order.{1,20}kindly review/i
 /attached items.{1,10}inform us of.{1,15}shipment/i

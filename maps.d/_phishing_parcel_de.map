@@ -64,7 +64,8 @@
 /(paket|sendung).{1,10}zu bestätigen.{1,10}klicken sie.{1,10}auf/iu
 
 /(paket|sendung).{1,10}ist in unserer.{1,15}postfiliale angekommen/i
-/(paket|sendung).{1,10}zurzeit in unserem verteilzentrum/i
+/(paket|sendung).{1,10}zurzeit in unserem .{1,10}(distributions|verteil).?zentrum/i
+/(paket|sendung).{1,10}das sich im.{1,15}(distributions|verteil).?zentrum befindet/i
 
 /lieferung ihres.{1,10}pakets fortzusetzen/i
 /lieferung nicht.{1,10}innerhalb.{1,10}erwarteten zeitrahmens/i
@@ -100,7 +101,7 @@
 /paket.{1,20}kam sicher in.{1,10}lager zurück/i
 /paket.{1,20}konnte nicht zugestellt werden.{1,15}falsche adresse/i
 
-/paket (in der|ist in) (warteschleife|wartestellung)/i
+/paket.{1,10}(in der|ist in).{1,10}(warteschleife|wartestellung)/i
 
 /nachfolgenden produkt kann nicht zugestellt werden/i
 

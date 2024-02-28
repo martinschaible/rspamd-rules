@@ -45,10 +45,10 @@
 /you have.{1,10}(important|suspended).{1,10}incoming.{1,10}(e?.?mails|messages?)/i
 /you have.{1,10}(incoming|new).{1,10}pending.{1,10}(e?.?mails|messages?)/i
 
-/you have.{1,10}undelivered.{1,10}(e?.?mails|messages?).{1,10}your inbox/i
-/you have.{1,10}undelivered.{1,10}(incoming|new|pending).{1,10}(e?.?mails|messages?)/i
+/you have.{1,10}undelivered.{1,15}(e?.?mails|messages?).{1,10}your inbox/i
+/you have.{1,10}undelivered.{1,15}(incoming|new|pending).{1,10}(e?.?mails|messages?)/i
 
-/you have.{1,10}unreceived.{1,10}(e?.?mails|messages?)/i
+/you have.{1,10}unreceived.{1,15}(e?.?mails|messages?)/i
 
 /your incoming.{1,10}(e?.?mails|messages).{1,10}temporarily suspended/i
 /your incoming.{1,10}(e?.?mails|messages).{1,10}have been placed on hold/i
@@ -97,7 +97,7 @@ your recent request.{1,10}de.?activate your.{1,10}e?.?mail/i
 /update is required for your.{1,10}mail.?box/i
 
 /restrained from delivering to your.{1,10}mail.?box/i
-/release the suspended e?.?mail.{1,10}to.{1,10}inbox/i
+/release.{1,10}(pending|suspended).{1,10}(e?.?mail|message).{1,10}to.{1,10}inbox/i
 
 /could not be delivered to.{1,10}inbox/i
 
