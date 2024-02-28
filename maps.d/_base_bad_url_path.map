@@ -122,6 +122,12 @@
 #
 #
 
+# Strange ports
+# ------------------------------------------------------------------------------
+
+# https://tcp-udp-ports.com/port-7070.htm
+/\.com:7070\//i
+
 # Unsubscribe from poland
 /\.pl/unsubscribe\.php\?/i
 
