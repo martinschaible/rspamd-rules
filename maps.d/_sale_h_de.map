@@ -146,9 +146,15 @@
 # Tischkicker
 # ------------------------------------------------------------------------------
 /tisch.?(fußball|kicker).{1,10}der kick/i
+/tisch.?(fußball|kicker).{1,10}turnierkicker/i
+
 /tischfußball.{1,10}highlight/i
 
-/erstklassiger.{1,10}tischfußballtisch/iu
+/erstklassiger.{1,10}tisch.?fußballtisch/iu
+
+/turnierkicker.{1,10}statt.{1,10}nur/i
+
+/wir unseren tisch.?fußballtisch/i
 
 # Tools
 # ------------------------------------------------------------------------------
@@ -285,7 +291,8 @@
 
 /sofort zugreifen per e?.?mail/i
 
-/teilen sie uns.{1,15}per.{1,10}antwort ihre lieferadresse/i
+/teilen sie uns.{1,15}per.{1,10}antwort ihre.{1,10}lieferadresse/i
+/teilen sie uns.{1,10}ihre.{1,10}lieferadresse mit/i
 
 # Pricing
 /euro zzgl.{1,10}mwst.{1,10}statt der regulären.{1,10}euro/iu
