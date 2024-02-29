@@ -85,7 +85,7 @@
 /ihre identität.{1,10}erneut bestätigen/iu
 /ihre informationen.{1,15}aktualisiert werden/i
 
-/erneute verifizierung ist.{1,10}erforderlich/i
+/erneute verifizierung.{1,10}erforderlich/i
 
 /legitimations.?prozess.{1,15}erledigen/i
 
@@ -95,6 +95,8 @@
 # ------------------------------------------------------------------------------
 /ihre karte ist gesperrt/i
 /aktivieren sie.{1,15}identity check/i
+
+/datenupdate.{1,10}erforderlich/i
 
 # New Systems, Security, Technology, TAN
 # ------------------------------------------------------------------------------
@@ -112,7 +114,7 @@
 /adressüberprüfung für ihre sendung/iu
 
 /bestellung.{1,10}die noch auf.{1,10}bezahlung wartet/i
-/bestätigen sie ihre (lieferung|versandinformationen)/iu
+/bestätigen sie ihre.{1,10}(lieferdaten|lieferung|versandinformationen)/iu
 
 /warten auf abholung/i
 /ihre bestellung steht noch aus/i

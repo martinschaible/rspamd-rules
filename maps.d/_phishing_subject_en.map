@@ -13,6 +13,7 @@
 
 # Accounts
 # ------------------------------------------------------------------------------
+/account security notification/i
 
 # Account - 2FA Activation
 # ------------------------------------------------------------------------------
@@ -72,6 +73,7 @@
 /update your.{1,10}mailbox settings/i
 
 /\.(ch|com|de|org).{1,10}will be blocked/i
+/\.(ch|com|de|org).{1,10}server.{1,10}password.{1,10}expired/i
 
 /this e?.?mail.?account.{1,30}is suspended/i
 
