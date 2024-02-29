@@ -280,6 +280,7 @@
 /offer you a.{1,10}busiпess proposal/i
 
 /you about.{1,10}existing.{1,10}(business|investment).{1,15}(opportunity|proposition|proposal|transaction)/i
+/you about.{1,10}business prospect/i
 
 /you for.{1,10}potential.{1,10}business.{1,10}partnership/i
 /you for.{1,15}opportunity.{1,10}that will benefit us both/i
@@ -373,10 +374,11 @@
 
 # Ransom
 # ------------------------------------------------------------------------------
-/i.{1,10}(gained|have|obtained).{1,10}access.{1,10}your.{1,10}(account|devices?)/i
+/i.{1,10}(gained|get|have|obtained).{1,10}access.{1,15}your.{1,10}(account|devices?|mobile)/i
 /i.{1,10}managed.{1,10}install.{1,15}(trojan|virus)/i
 /i.{1,10}managed.{1,10}to get full access.{1,10}all devices/i
 /i.{1,10}recorded some videos of you/i
+/i.{1,10}hacked your computer/i
 
 /i.?a?m a hacker/i
 /i.?a?m.{1,10}hacker.{1,10}has access/i
@@ -395,9 +397,10 @@
 # ------------------------------------------------------------------------------
 /below is.{1,10}bitcoin.?(address|wallet) of mine/i
 
-/my bitcoin.?(address|wallet) is as follows/i
-/my bitcoin.?(address|wallet) is/i
-/my bitcoin.?(address|wallet).{1,10}btc.?wallet/i
+/my (bitcoin|btc).?(address|wallet) is as follows/i
+/my (bitcoin|btc).?(address|wallet) is/i
+/my (bitcoin|btc).?(address|wallet).{1,15}btc.?wallet/i
+/My (bitcoin|btc).?(address|wallet).{1,15}for transfer/i
 
 /transfer to my.{1,10}account.{1,10}after the transaction/i
 /you need to transfer.{1,10}usd.{1,10}bitcoin/i

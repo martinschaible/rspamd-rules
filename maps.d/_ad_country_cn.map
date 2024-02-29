@@ -42,7 +42,6 @@
 
 /my name is.{5,25}we are specialized in/i
 
-
 # Intros "You are in the business"
 # ------------------------------------------------------------------------------
 /you are in.{1,10}pcb.{1,10}business/i
@@ -182,6 +181,8 @@
 /you looking for.{1,10}factory who can/i
 
 /you finding.{1,10}reliable supplier.{1,10}(for|of)/i
+
+/you can give me.{1,10}projects? to quote/i
 
 #
 /supplier.{1,10}our company name is/i
