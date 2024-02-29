@@ -15,7 +15,8 @@
 /ergreifen sie.{1,10}(bit?coin|crypto|krypto)/i
 /werden sie.{1,10}heute zum.{1,10}(bit?coin|crypto|krypto)/i
 
-/reich durch kryptohandel/i
+/reich durch.{1,10}kryptohandel/i
+/reich mit.{1,10}(bit?coin|crypto|krypto).{1,10}.?investment/i
 
 /kryptowährung.{1,10}auto.?trading/iu
 
@@ -35,6 +36,8 @@
 /bullenmarkt im anmarsch/i
 
 /sie zum (bit?coin|crypto|krypto).{1,10}handelsexperten/i
+
+/sichere methode.{1,10}(bit?coin|crypto|krypto)/i
 
 /wie kann man durch bitcoin/i
 
