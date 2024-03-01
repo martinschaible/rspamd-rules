@@ -107,9 +107,10 @@
 
 # Dating Sites
 # ------------------------------------------------------------------------------
-/(dating|hookup).{0,10}(seite|site).{1,10}(anschauen|bei mir|für alle|fortzusetzen|kommunizieren|treffen)/iu
+/(dating|hookup).{0,10}(seite|site).{1,10}für (alle|erwachsene)/iu
 /(dating|hookup).{0,10}(seite|site).{1,10}ist dein/i
 /(dating|hookup).{0,10}(seite|site).{1,10}profil/i
+/(dating|hookup).{0,10}(seite|site).{1,10}(anschauen|bei mir|fortzusetzen|kommunizieren|treffen)/iu
 
 /casual.?club.{1,10}kostenlos/i
 
@@ -119,7 +120,7 @@
 
 /einer.{1,20}(dating|hookup).{0,10}(seite|site).{1,10}registriert/i
 
-/(beste|einziartige|intime|profil).{1,15}(dating|hookup).{0,10}(club|plattform|portal|seite|site)/i
+/(beste|einziartige|intime|profil|vertrauenswürdigste).{1,15}(dating|hookup).{0,10}(club|plattform|portal|seite|site)/iu
 /sex.?dating.{0,10}(club|plattform|portal|seite|site)/i
 
 /(ich habe auf einer|unsere|richtige|wir zur).{1,10}(dating|sex).{0,10}(seite|site)/i
