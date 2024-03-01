@@ -73,6 +73,8 @@
 # ------------------------------------------------------------------------------
 /(achtung|eilmeldung|lies.?jetzt|sofort öffnen|ungelesen)/iu
 
+/antworte.{1,10}heute/?
+
 /aktuelle.{0,5}nachrichten/i
 /wichtige.{0,5}mitteilung/i
 
