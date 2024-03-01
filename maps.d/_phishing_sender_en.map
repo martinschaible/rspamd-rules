@@ -30,6 +30,8 @@
 /security.notification/i
 /(e?.?mail|webmail).{0,5}(admin|notice|server|support|team)/i
 
+/e?.?mail.?verification/i
+
 /server.?admin/i
 
 /\.(ch|com|de|org).?(administrator|security|server)/i
