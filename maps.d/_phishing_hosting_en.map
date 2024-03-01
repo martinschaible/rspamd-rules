@@ -10,7 +10,7 @@
 # Domains
 # ------------------------------------------------------------------------------
 
-# Mail, WebMail
+# Mail
 # ------------------------------------------------------------------------------
 /verify your account.{1,10}switch to the new version/i
 
@@ -80,6 +80,11 @@ your recent request.{1,10}de.?activate your.{1,10}e?.?mail/i
 /e?.?mail.{1,10}deactivation.{1,10}progress/i
 
 # Blocking
+
+# WebMail
+# ------------------------------------------------------------------------------
+/you are using.{1,10}outdated versio.{1,10}webmail/i
+/your webmail to the latest version/i
 
 # Mail Confirm, Verify
 # ------------------------------------------------------------------------------

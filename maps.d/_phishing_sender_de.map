@@ -42,6 +42,7 @@
 # ------------------------------------------------------------------------------
 /(anweisungen|ausstehend|dringend)/i
 /bestellung.?versand/i
+/bestellung.?\d{3,10}/i
 
 /liefer.?aktualisierung/i
 /liefer.?status?.?meldungen/i
@@ -123,6 +124,9 @@
 /schweizer.?post/i
 
 /(fedex|hermes|swiss).?(abteilung|lieferung)/i
+
+# Raiffeisen
+/raiffeisentwint/i
 
 # Sparkasse
 /sparkasse.{1,10}push.?tan/i
