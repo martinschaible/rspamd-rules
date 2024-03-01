@@ -152,6 +152,7 @@
 
 /(lieferung|versand).{1,10}(ausstehende|unbezahlte).{1,10}(versandkosten|zollgebühren)/iu
 /(lieferung|versand).{1,10}wurde aufgrund falscher angaben/i
+/(lieferung|versand).{1,10}steht aus/i
 
 /aktualisieren sie.{1,10}ihre lieferadresse/i
 /korrigieren sie ihre adresse/i

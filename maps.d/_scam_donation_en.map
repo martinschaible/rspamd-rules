@@ -30,13 +30,16 @@
 /you to receive.{1,15}(million|dollars?|euro?|gbp|usd).{1,15}donation/i
 
 /(donation|grant).{1,10}has been made to you/i
+/donation.?investment fund/i
+
+/donation.{1,15}\d{3}.{0,5}\d{3}.{1,15}contact us.{1,10}(e?.?mail|fore more)/i
 
 /donation.{1,15}(for|to) you.{1,10}contact me/i
 /donation.{1,15}(for|to) you.{1,10}the sum of/i
 
 /donation.{1,15}contact.{1,10}to claim/i
+
 /donation.{1,15}for more details e?.?mail/i
-/donation.{1,15}\d{3}.{0,5}\d{3}.{1,15}contact us.{1,10}e?.?mail/i
 /donation.{1,10}to help you empower/i
 /donation.{1,10}to you.{1,10}respond to/i
 /donation.{1,10}how to claim it/i
@@ -49,6 +52,7 @@
 /donated?.{1,10}from what i have inherited/i
 
 /was selected randomly.{1,10}receive.{1,15}donation/i
+/has selected you for.{1,10}donation/i
 
 /i have decided to (donate|give).{1,10}\d{3}.{0,5}\d{3}.{1,15}million/i
 /i (have|made).{1,15}donation for you/i
@@ -67,6 +71,7 @@
 /you (have|received|won).{1,10}donation/i
 
 /your.{1,10}e?.?mail.{1,10}(account|address).{1,10}was selected for.{1,10}donation/i
+/your.{1,10}e?.?mail.{1,10}(account|address).{1,10}won.{1,10}donation/i
 /your.{1,10}e?.?mail.{1,10}was drawn for.{1,10}donation/i
 
 /claim{1,10}your donation of{1,10}(million|dollar|euro?|gbp|usd)/i

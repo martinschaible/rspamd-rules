@@ -43,13 +43,15 @@
 
 /status.{1,10}unzureichende.{1,10}fehlerhafte.{1,10}adresse/i
 
-/nicht zustellen.{1,10}da es unklarheiten mit.{1,10}lieferadresse gibt/i
+/nicht zustellen.{1,10}da es unklarheiten mit.{1,10}liefer.?adresse gibt/i
+
+/wir müssen ihre.{1,10}liefer.?adresse bestätigen/iu
 
 /wir weitere informationen zu ihrer.{1,10}liefer.?adresse/i
 /zustellung aufgrund einer falschen.{1,10}liefer.?adresse/i
 
-/grund.{1,10}lieferadresse.{1,10}unvollständig/iu
-/grund.{1,10}unvollständige.{1,10}lieferadresse/iu
+/grund.{1,10}liefe.?radresse.{1,10}unvollständig/iu
+/grund.{1,10}unvollständige.{1,10}liefer.?adresse/iu
 
 # Delivery
 # ------------------------------------------------------------------------------
