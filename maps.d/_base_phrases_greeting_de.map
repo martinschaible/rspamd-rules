@@ -7,7 +7,8 @@
 
 # Greetings
 # ------------------------------------------------------------------------------
-att.{1,5}sehr geehrter/i
+
+/att.{1,5}sehr geehrter/i
 
 /(grüße|hallo geliebte).{1,10}ich.bin.(frau|herr)/i
 
@@ -79,6 +80,8 @@ att.{1,5}sehr geehrter/i
 /sehr geehrter?.{1,10}(begünstigter?|empfänger|geschäftsmann)/iu
 /sehr geehrter?.{1,10}(frau|herr).{1,10}hoffe es geht dir gut/i
 /sehr geehrter?.{1,10}(frau|herr).{1,10}ich schreibe ihnen/i
+/sehr geehrter?.{1,10}(frau|herr).{1,5}betreff/i
+
 /sehr geehrter?.{1,10}e?.?mail.?(besitzer|eigentümer|empfänger|inhaber)(in)?/iu
 /sehr geehrter?.{1,10}manager/i
 

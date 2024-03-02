@@ -293,20 +293,22 @@
 # ------------------------------------------------------------------------------
 /aussetzung droht am.{1,20}jetzt handeln/i
 
-/rückerstattungsmethode/iu
-/kontoaktivitäts.?aktualisierung/iu
+/bearbeiten sie ihre informationen/i
 /beanspruchen und aktivieren/i
 /benötigt aktion/iu
-
-/sendung macht weg/i
-
-/kreditkartenbenachrichtigung/i
 
 /ihr.{1,15}konto ist abgelaufen/i
 /ihr.{1,15}profil läuft bald aus/iu
 
 /ihr versand.{1,10}ist (auf seinem weg|unterwegs)/i
 /ihr versand.{1,10}versendet wird/i
+
+/rückerstattungsmethode/iu
+/kontoaktivitäts.?aktualisierung/iu
+
+/sendung macht weg/i
+
+/kreditkartenbenachrichtigung/i
 
 /paket.?liefer.?benachrichtigung/i
 

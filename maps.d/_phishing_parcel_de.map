@@ -51,7 +51,8 @@
 /zustellung aufgrund einer falschen.{1,10}liefer.?adresse/i
 
 /grund.{1,10}liefe.?radresse.{1,10}unvollständig/iu
-/grund.{1,10}unvollständige.{1,10}liefer.?adresse/iu
+/(grund|zustellversuch).{1,10}unvollständige.{1,10}(liefer)?.?adresse/iu
+
 
 # Delivery
 # ------------------------------------------------------------------------------
@@ -241,16 +242,17 @@
 /(paket|sendung).{1,10}hat den versandweg begonnen/i
 /(paket|sendung).{1,10}zu wiederherstellen/i
 
+/bearbeiten sie ihre informationen/i
 /bestellung.{1,10}wurde erfolgreich angeliefert/i
+/bestatigen sie die zahlung/i
+/besuchen sie den.{1,15}button/i
 
 /ihre sendung (naht|sich nähert)/iu
 /ihr profil nicht verloren geht/i
 
-/bestatigen sie die zahlung/i
-/besuchen sie den.{1,15}button/i
-
 /lieferung.{1,10}(einsehen|des ausgesetzten pakets)/i
 /liefern mein paket/i
+
 /zahlung der hauslieferungskosten/i
 
 /post.?dhl.?paket/i
