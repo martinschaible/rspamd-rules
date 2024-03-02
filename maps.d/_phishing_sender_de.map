@@ -85,6 +85,7 @@
 /bitte.?antworten/i
 /deine.?chance/i
 /nur.?heute/i
+/ihr?reise/i
 
 /feedback.?hinterlassen/i
 
@@ -113,7 +114,7 @@
 # ------------------------------------------------------------------------------
 
 # DPD
-/mydpd.?versand/i
+/mydpd.?(lieferung|versand)/i
 
 # ING-DiBa AG
 /diba-ag/i

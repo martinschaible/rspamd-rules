@@ -155,6 +155,7 @@
 /(lieferung|versand).{1,10}wurde aufgrund falscher angaben/i
 /(lieferung|versand).{1,10}steht aus/i
 
+/lieferung.{1,5}id ch/i
 /aktualisieren sie.{1,10}ihre lieferadresse/i
 /korrigieren sie ihre adresse/i
 
@@ -233,6 +234,7 @@
 # Winning, Products
 # ------------------------------------------------------------------------------
 /iphone.{0,10}pro.{1,10}ausstehende sendung/i
+/chance einen.{1,15}gutschein zugewinnen/i
 
 /temu.?palette/i
 

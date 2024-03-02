@@ -20,6 +20,7 @@
 
 /you.{1,10}help me receive.{1,10}secure/i
 /your.{1,10}assistance to receive.{1,10}sum/i
+/your.{1,10}help.{1,10}assistance in.{1,10}receipt/i
 /your.{1,10}indulgence to assist me/i
 
 /i solicit for your.{1,15}assistance/i
@@ -352,7 +353,7 @@
 # Dead Customers, Family Members
 # ------------------------------------------------------------------------------
 /(my|our) (deceased|late).{1,10}(client|customer|husband).{1,10}left some money/i
-/(my|our) (deceased|late).{1,10}(client|customer|husband).{1,10}mrs?/i
+/(my|our) (deceased|late).{1,10}(client|customer|husband).{1,10}(major|mrs?)/i
 /(my|our) (deceased|late).{1,10}(client|customer|husband).{1,10}made a deposit/i
 /(my|our) (deceased|late).{1,10}(client|customer|husband).{1,10}with no next of kin/i
 
