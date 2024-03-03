@@ -249,10 +249,11 @@
 
 # Tinitus
 # ------------------------------------------------------------------------------
+/(end|stop).?tinnitus/i
+
 /bad.?hearing/i
 /ear.?ringing/i
 /ringing.?ears/i
-/stop.?tinnitus/i
 /buzzing.?noise/i
 
 /tinnitus.?symptoms/i
