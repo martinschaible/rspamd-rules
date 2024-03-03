@@ -43,7 +43,7 @@
 
 # Winning, Lottery
 # ------------------------------------------------------------------------------
-/(australia|coca.?cola|google|usa|uk).?(lotterie|lottery)/i
+/(australia|coca.?cola|google|international|usa|uk).?(lotterie|lottery)/i
 /(euro|mega).?(jackpot|mill?ions)/i
 /(central|navidad).{0,10}loteria/i
 
@@ -52,7 +52,7 @@
 /award.?team/i
 
 /(lottery|microsoft).?award/i
-/lottery.?winning/i
+/lottery.?(board|winning)/i
 /loteria.?nacional/i
 /lotto.?denavidad/i
 

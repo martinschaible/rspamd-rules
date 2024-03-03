@@ -42,7 +42,8 @@
 # ------------------------------------------------------------------------------
 /(anweisungen|ausstehend|dringend)/i
 /bestellung.?versand/i
-/bestellung.?\d{3,10}/i
+
+/bestellung.?\d{2,10}/i
 
 /liefer.?aktualisierung/i
 /liefer.?status?.?meldungen/i
