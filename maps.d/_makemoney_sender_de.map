@@ -20,6 +20,8 @@
 
 /(bankanlage|grund.?einkommen|reichtum)/i
 
+/reich.{1,10}sein/i
+
 # Trading
 # ------------------------------------------------------------------------------
 /forex.?broker/i
