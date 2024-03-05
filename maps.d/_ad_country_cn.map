@@ -94,6 +94,8 @@
 /we are.{1,25}(professional|tooling).{1,15}manufacturer?.{1,10}(china|dongguan|guangzhou|shenzhen|zhejiang)/i
 /we are.{1,25}manufacturer.{1,10}(directly|from|in).{1,10}(china|dongguan|guangzhou|shenzhen|zhejiang)/i
 
+/we are.{1,10}one of the biggest.{1,10}(china|dongguan|guangzhou|shenzhen|zhejiang)/i
+
 /professional.{1,25}fabrication.{1,10}factory in.{1,10}(china|dongguan|guangzhou|shenzhen|zhejiang)/i
 
 /with.{1,10}years experience.{1,10}(china|dongguan|guangzhou|shenzhen|zhejiang)/i
@@ -171,13 +173,14 @@
 /our (company|factory).{1,10}a top.?notch/i
 /our (company|factory).{1,10}as.{1,10}leading.{1,15}(supplier|trader)/i
 /our (company|factory).{1,10}manufacturer.{1,10}following/i
-/our (company|factory).{1,10}(specializes|specializing).{1,15}(manufacturing|production)/i
 /our (company|factory).{1,10}has.{1,20}production.{1,10}equipment/i
+/our (company|factory).{1,10}is a.{1,15}company.{1,10}specialising/i
+/our (company|factory).{1,10}is.{1,10}professional/i
+
+/our (company|factory).{1,10}(specializes|specializing).{1,15}(manufacturing|production)/i
+/our (company|factory).{1,10}mainly focus on/i
 
 /our customers.{1,10}are mainly from/i
-
-/our (company|factory).{1,10}mainly focus on/i
-/our (company|factory).{1,10}is.{1,10}professional/i
 
 /you looking for.{1,10}factory who can/i
 
