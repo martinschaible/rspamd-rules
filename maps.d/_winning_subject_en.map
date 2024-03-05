@@ -22,6 +22,10 @@
 
 /wins lottery draw/i
 
+/winning.?e?.?mail.{1,10}(lottery|lotto)/i
+
+/(lottery|lotto).{1,10}promotion prize/i
+
 # Bonus
 # ------------------------------------------------------------------------------
 /bonus.{1,10}bonus/i

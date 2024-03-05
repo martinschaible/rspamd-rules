@@ -24,7 +24,9 @@
 /your.{1,10}shipment is.{1,10}awaiting.{1,10}processing/i
 /your.{1,10}shipment is.{1,10}pending.{1,10}is awaiting/i
 
-/your parcel has arrived at our.{1,10}post.?office/i
+/your parcel.{1,10}arrived at our.{1,10}post.?office/i
+
+/attention.{1,10}your parcel arrived/i
 
 # Delivery problems
 # ------------------------------------------------------------------------------
