@@ -7,7 +7,7 @@
 #  10 | English        |
 # ==============================================================================
 
-# Fake Organisations
+# Fake Organisations and Programs
 # ------------------------------------------------------------------------------
 /(asian|continental).{1,10}lottery.{1,10}commission/i
 
@@ -35,13 +35,10 @@
 
 /(bmw|coca.?cola).(lotterie|lottery)/i
 /google promo.?team/i
+/microsoft.{1,10}promotion.?award/i
 
 /primitiva lotter(ie|y).{1,10}promotions?/i
 /promotion.{1,10}prize dept/i
-
-# Fake Programs
-# ------------------------------------------------------------------------------
-/microsoft.{1,10}promotion.?award/i
 
 #
 #

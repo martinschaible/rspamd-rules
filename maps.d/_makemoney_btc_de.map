@@ -9,15 +9,15 @@
 
 # Crypto
 # ------------------------------------------------------------------------------
-/(bit?coin|crypto|krypto).{1,10}(bringt reichtum|macht.{1,15}reich|initiative)/i
-/(bit?coin|crypto|krypto).{1,15}ein exklusives/i
-/(bit?coin|crypto|krypto).{1,10}welle reiten/i
+/(bitcoin|crypto|krypto).{1,10}(bringt reichtum|macht.{1,15}reich|initiative)/i
+/(bitcoin|crypto|krypto).{1,15}ein exklusives/i
+/(bitcoin|crypto|krypto).{1,10}welle reiten/i
 
-/ergreifen sie.{1,10}(bit?coin|crypto|krypto)/i
-/werden sie.{1,10}heute zum.{1,10}(bit?coin|crypto|krypto)/i
+/ergreifen sie.{1,10}(bitcoin|crypto|krypto)/i
+/werden sie.{1,10}heute zum.{1,10}(bitcoin|crypto|krypto)/i
 
 /reich durch.{1,10}kryptohandel/i
-/reich mit.{1,10}(bit?coin|crypto|krypto).{1,10}.?investment/i
+/reich mit.{1,10}(bitcoin|crypto|krypto).{1,10}.?investment/i
 
 /kryptowährung.{1,10}auto.?trading/iu
 
@@ -25,20 +25,20 @@
 
 /handel.{1,10}bitcoin auf unserer/i
 
-/mit.{1,10}(bit?coin|crypto|krypto).{1,10}geld.{1,10}verdienen/i
-/mit.{1,10}(bit?coin|crypto|krypto).{1,10}reich werden/i
-/mit.{1,10}(bit?coin|crypto|krypto).{1,10}handeln/i
+/mit.{1,10}(bitcoin|crypto|krypto).{1,10}geld.{1,10}verdienen/i
+/mit.{1,10}(bitcoin|crypto|krypto).{1,10}reich werden/i
+/mit.{1,10}(bitcoin|crypto|krypto).{1,10}handeln/i
 
-/euro pro monat.{1,10}mit.{1,10}(bit?coin|crypto|krypto)/i
+/euro pro monat.{1,10}mit.{1,10}(bitcoin|crypto|krypto)/i
 
 /weg.{1,10}um mit bitcoin geld/i
 
 /der bullenmarkt startet/i
 /bullenmarkt im anmarsch/i
 
-/sie zum (bit?coin|crypto|krypto).{1,10}handelsexperten/i
+/sie zum (bitcoin|crypto|krypto).{1,10}handelsexperten/i
 
-/sichere methode.{1,10}(bit?coin|crypto|krypto)/i
+/sichere methode.{1,10}(bitcoin|crypto|krypto)/i
 
 /wie kann man durch bitcoin/i
 
@@ -52,7 +52,7 @@
 # ETF (Exchange Traded Funds)
 # ------------------------------------------------------------------------------
 /kryptogeld.?etf/i
-/(bit?coin|crypto|krypto).?etf/i
+/(bitcoin|crypto|krypto).?etf/i
 
 /sichere anlage in.{1,10}etf/i
 
@@ -61,8 +61,8 @@
 
 # Fancy Titles
 # ------------------------------------------------------------------------------
-/(bit?coin|crypto|krypto).{1,10}(bullenmarkt|genesis|system|vip)/i
-/(bit?coin|crypto|krypto).{1,10}(anlage|profit).?methode/i
+/(bitcoin|crypto|krypto).{1,10}(bullenmarkt|genesis|system|vip)/i
+/(bitcoin|crypto|krypto).{1,10}(anlage|profit).?methode/i
 
 /kryptowährung.{1,10}profit.?strategie/i
 

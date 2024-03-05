@@ -396,7 +396,6 @@
 # Bad German
 # ------------------------------------------------------------------------------
 /schön deutche/i
-/(umgänglich|unschätzbar) herr/i
-/anständig mädel/iu
-/liebenswürdig mädchen/iu
-/deutche herr/i
+
+/(deutche|umgänglich|unschätzbar) (freund|herr)/i
+/(anständig|liebenswürdig|munter|uneigennützig) (freund|mädchen|mädel)/iu

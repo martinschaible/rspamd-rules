@@ -7,7 +7,7 @@
 #  10 | German         |
 # ==============================================================================
 
-# Fake Organisations
+# Fake Organisations and Programs
 # ------------------------------------------------------------------------------
 /euromillions.?nationale.?(lotterie|lotto)/i
 /spanische.?(lotterie|lotto)/i
@@ -20,9 +20,6 @@
 /gewinner.{1,15}google mit gesponserten/i
 
 /visa.?karte.{1,10}lotterie/iu
-
-# Fake Programs
-# ------------------------------------------------------------------------------
 
 #
 #

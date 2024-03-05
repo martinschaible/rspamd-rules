@@ -9,6 +9,10 @@
 # ------------------------------------------------------------------------------
 /rechnung\d{4,10}/i
 
+/(bitte beachten|wichtige mitteilung).{1,10}ihre rechnung/i
+
+/prüfen sie ihre zahlungsdetails/iu
+
 # Fake Warnings
 # ------------------------------------------------------------------------------
 
