@@ -19,6 +19,8 @@
 /aktion erforderlich/i
 
 /aktualisieren ihres kontos/i
+/aktualisieren sie ihre kontoangaben/i
+
 /aktualisierung erforderlich.{1,20}konto.{1,10}gesperrt/i
 /(aktualisieren?|bestätigen?) (deine|sie).{1,10}(konto|sicherheits).?informationen/i
 
@@ -228,6 +230,8 @@
 /(bestätigung|rundschreiben).?[0-9a-z]{4}-[0-9a-z]{4}/i
 
 /glückwunsch.{1,10}sie sind der erste/i
+/glückwunsch.{1,10}letzter gewinner/i
+
 /der besitzer dieser e?.?mail.{1,15}wurde/i
 
 /schnell.{1,10}stückzahl.{1,10}begrenzt/i
