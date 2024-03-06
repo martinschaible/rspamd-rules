@@ -40,9 +40,9 @@
 
 # Virus, Malware
 # ------------------------------------------------------------------------------
-/laden sie die anti.?virus.{1,10}anwendung herunter/i
-/website hat dein.{1,20}mit einem virus infiziert/i
+/laden sie (das|die) anti.?virus.{1,10}(anwendung|programm) herunter/i
 /lassen sie ihren.{1,10}computer nicht gefährdet/iu
+
 /jetzt.{1,10}antivirus.?schutz erhalten/i
 
 /ihr (computer|gerät).{1,10}könnte gefährdet sein/iu
@@ -50,6 +50,7 @@
 
 /sie zu warnen.{1,10}erneuern sie sofort/i
 
+/website hat (dein|ihr).{1,20}mit einem virus infiziert/i
 /windows.?abonnement ist am heute abgelaufen/i
 
 # McAfee
