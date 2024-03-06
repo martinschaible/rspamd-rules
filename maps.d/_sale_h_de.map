@@ -235,6 +235,8 @@
 /künstlicher.{1,10}eukalyptusbaum.{1,15}sonderpreis/iu
 /kirschlorbeerkugelbaum.{1,10}naturstamm.{1,15}sonderpreis/iu
 
+/(auswahl an hochwertigen|mit unseren).{1,10}kunstbäumen/iu
+
 # Trolley & Tools
 # ------------------------------------------------------------------------------
 /(werkstatt|werkzeug).?(trolley|wagen).{1,10}angeben/i
@@ -307,6 +309,7 @@
 
 /bestellen.{1,15}einfach.{1,15}mit.{1,15}(adresse|anschrift).{1,10}diese e?.?mail antworten/i
 /bestellen.{1,15}einfach.{1,15}mit.{1,15}(adresse|anschrift).{1,10}antworten/i
+/Bestellen.{1,15}einfach.{1,15}mit den gewünschten/iu
 /bestellen.{1,15}einfach.{1,15}per e?.?mail.{1,10}antwort/i
 
 /bestellen.{1,10}mit ihrer.{1,10}(adresse|anschrift).{1,10}(einfach antworten|wir liefern)/i
@@ -375,6 +378,7 @@
 /wir liefern.{1,10}(auf|mit) rechnung.{1,10}statt.{1,10}nur.{1,10}zzgl/i
 /wir liefern.{1,15}(auf|mit) rechnung.{1,15}(keine|ohne) (nachnahme|vorkasse)/i
 /wir liefern.{1,15}(auf|mit) rechnung.{1,15}sie zahlen erst nach zufriedenheit/i
+/wir liefern.{1,10}umgehend (auf|mit) rechnung.{1,15}zzgl.{1,15}mehrwertsteuer/i
 
 /wir senden sofort zu ihnen.{1,10}sie bezahlen nur/i
 
