@@ -38,10 +38,12 @@
 /spende.{1,10}\d{2,3}.{1,10}(euro|gbp|usd)/i
 /spende.{1,10}(an|für) sie/iu
 /spende.{1,10}investitions.?programm/i
+/spende.{1,10}in höhe von/iu
 
 /(du hast|sie haben) eine.{1,10}spende/i
 
 /sie (haben|ihre).{1,10}(euro|gbp|usd|millionen).{1,10}erhalten/i
+/sie erhalten eine.{1,10}spende/i
 
 /wurden an sie gespendet/i
 
