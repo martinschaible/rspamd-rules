@@ -137,6 +137,8 @@
 
 /lohnenswerten?.{1,10}umfrage.{1,10}teilzunehmen/i
 
+/beantworten sie einige fragen.{1,25}erhalten sie ihr geschenk/i
+
 /sie.{1,10}(dazu|einfach).{1,10}diese kurze umfrage/i
 /sie haben.{1,10}minuten.{1,10}um die folgenden fragen zu beantworten/i
 
@@ -182,6 +184,9 @@
 /sie haben noch nicht geantwortet/i
 /sie haben jetzt die chance.{1,10}eine.{1,60}im wert von.{1,10}zu gewinnen/i
 /chance einen.{1,15}gutschein zugewinnen/i
+
+#
+/erhalten sie ihr geschenk innerhalb von.{1,10}stunden/i
 
 # Failed Payment
 # ------------------------------------------------------------------------------
