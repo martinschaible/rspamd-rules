@@ -26,7 +26,7 @@
 # Chair
 # ------------------------------------------------------------------------------
 /chefsessel.{1,10}leder.{1,10}holz.{1,10}kombination/i
-/chefsessel.{1,10}limitierter/i
+/chefsessel.{1,10}limitierter?/i
 /chefsessel.{1,10}viele farben/i
 
 /(elegant(er)?|exklusiver|hochwertig|leder|mesh|toro).{1,10}chefsessel/i
@@ -41,7 +41,7 @@
 /erstaunliche.{1,10}massagestuhl/i
 
 /(büro|dreh).?(stuhl|stühle).{1,10}(elegantes|eleganz)/i
-/(büro|dreh).?(stuhl|stühle).{1,10}(die perfekte|in leder|in vielen farben|mit walnussholz)/iu
+/(büro|dreh).?(stuhl|stühle).{1,10}(die perfekte|in leder|limitierte|in vielen farben|mit walnussholz)/iu
 /(büro|dreh).?(stuhl|stühle).{1,10}neues modell/iu
 /(büro|dreh).?(stuhl|stühle).{1,10}regale?/i
 /(büro|dreh).?(stuhl|stühle).{1,10}mit massagefunktion/i
@@ -293,6 +293,8 @@
 
 /antworten sie.{1,15}bei fragen.{1,10}bestellungen/i
 /antworten sie.{1,15}einfach.{1,10}auf diese e?.?mail.{1,10}um ihre bestellung/i
+/antworten sie.{1,15}einfach.{1,10}auf diese e?.?mail mit ihrer/i
+
 /antworten sie.{1,15}einfach.{1,10}mit ihrer.{1,10}adresse.{1,10}(auf dieses schreiben|teilen sie uns)/i
 /antworten sie.{1,15}einfach.{1,10}mit ihrer.{1,10}(liefer|rechnungs).?adresse/i
 /antworten sie.{1,15}einfach.{1,10}zum bestellen/i
