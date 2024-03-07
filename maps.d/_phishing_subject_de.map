@@ -183,10 +183,15 @@
 /dpd-ch/i
 
 /_paketdienst/i
+/paketid/i
 
 #
 /referenz.?code.{1,5}\d{4,5}/i
 /(ch|de|org).{1,10}referenz.?code/i
+
+#
+/erhalten sie ihre lieferung/i
+/ihre mitarbeit ist gefragt/i
 
 # Surveys
 # ------------------------------------------------------------------------------
