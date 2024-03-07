@@ -154,6 +154,9 @@
 
 /postamt angekommen/i
 
+
+/ihr paket wurde zurückgeschickt/i
+
 /(lieferung|versand).{1,10}(ausstehende|unbezahlte).{1,10}(versandkosten|zollgebühren)/iu
 /(lieferung|versand).{1,10}wurde aufgrund falscher angaben/i
 /(lieferung|versand).{1,10}steht aus/i
