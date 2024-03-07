@@ -30,11 +30,11 @@
 /(büro|massage).?leder.?(stuhl|stühle)/iu
 
 /(aktion|angebot).{1,20}(büro|massage).?(sessel|stuhl|stühle)/iu
-/(elegante|ergonomische).{1,20}(büro|massage).?(sessel|stuhl|stühle)/iu
+/(elegante|eleganz|ergonomische).{1,20}(büro|massage).?(sessel|stuhl|stühle)/iu
 /(revolution|revolutionäre).{1,15}(büro|massage).?(sessel|stuhl|stühle)/iu
 /sichern sie sich.{1,20}(büro|massage).?(sessel|stuhl)/iu
 
-/(design|highlight|leder|office|stilvolle|unsere|traum|walnussholz).{1,20}(büro|massage).?(sessel|stuhl|stühle)/iu
+/(design|highlight|komfortabel|leder|office|stilvolle|unsere|traum|walnussholz).{1,20}(büro|massage).?(sessel|stuhl|stühle)/iu
 
 /(chef|dreh|leder).?(sessel|stuhl)/i
 /chef.?leder.?(sessel|stuhl)/i
@@ -42,7 +42,7 @@
 /chefsessel.{1,10}lagerräumung/iu
 
 #
-/ergonomischer stuhl/i
+/(ergonomischer|xxl).{1,10}stuhl/i
 
 # Drone
 # ------------------------------------------------------------------------------
@@ -90,7 +90,7 @@ kugelschreiber.{1,15}(begeistern|warten auf sie)/i
 
 # Plants
 # ------------------------------------------------------------------------------
-/(eleganz|lieferbar|pflegefreie|sparen).{1,15}kunstpflanzen/i
+/(eleganz|lieferbar|pflegefreie|setzen sie auf|sparen).{1,15}kunstpflanzen/i
 
 /kunstpflanzen.{1,15}(budget schonen|geld sparen|investition|sparwunder|vorteil)/i
 
@@ -194,7 +194,7 @@ kugelschreiber.{1,15}(begeistern|warten auf sie)/i
 
 # Hiring people
 # ------------------------------------------------------------------------------
-/(fachkräfte|personalsuche) (aus|in) litauen/iu
+/(fachkräfte|hilfspersonal|personalsuche) (aus|in) litauen/iu
 
 #
 #

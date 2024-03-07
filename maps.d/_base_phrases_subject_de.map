@@ -43,7 +43,7 @@
 # ------------------------------------------------------------------------------
 /guten tag.{1,10}mein lieber/i
 /sehr geehrter? (frau|herr)/i
-/sehr geehrter.{1,15}kunde/i
+/sehr geehrter.{1,15}(empfänger|kunde)/iu
 
 /mein lieber freund/i
 /mein name ist/i
