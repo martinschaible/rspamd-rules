@@ -36,6 +36,8 @@
 
 /update your shipping address/i
 
+/delivery address.{1,10}invalid adress/i
+
 # Pay Customs, VAT
 # ------------------------------------------------------------------------------
 /package could not be delivered due.{1,10}unpaid customs/i
@@ -60,6 +62,7 @@
 /pay.{1,10}the fees?.{1,10}for new delivery/i
 
 /your.{1,10}shipment is.{1,10}awaiting payment/i
+/your fiscal data.{1,10}view your delivery/i
 
 # Tracking
 # ------------------------------------------------------------------------------

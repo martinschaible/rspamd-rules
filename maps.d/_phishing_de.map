@@ -72,7 +72,9 @@
 # Surveys
 # ------------------------------------------------------------------------------
 /befragung.{1,10}erhalten sie ein.{1,10}geschenk/i
-/fragen zu beantworten.{1,10}bevor wir die belohnung/i
+
+/fragen.{1,10}alle teilnehmer haben die chance auf/i
+/fragen.{1,10}zu beantworten.{1,10}bevor wir die belohnung/i
 
 /beantworten sie unseren.{1,10}fragebogen/i
 /beantworten sie ein paar fragen.{1,10}gewinnen/i
@@ -142,7 +144,7 @@
 /sie.{1,10}(dazu|einfach).{1,10}diese kurze umfrage/i
 /sie haben.{1,10}minuten.{1,10}um die folgenden fragen zu beantworten/i
 
-/auserwählten für eine.{1,15}umfrage/iu
+/auserwählten für (die|eine).{1,15}umfrage/iu
 /du gehörst zu den auserwählten/iu
 
 /ihr feedback.{1,10}erhalten sie eine belohnung/i
