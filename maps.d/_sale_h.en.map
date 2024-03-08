@@ -17,10 +17,12 @@
 /e?.?bikes.{1,10}currently in stock/i
 
 /pioneering e.?bike factory/i
-/(more of our|ship our).{1,10}e.?bikes/i
+/(more of our|our latest|ship our).{1,10}e.?bikes?/i
 
 /professional e.?bike manufacturer/i
 /our e.?bike factory/i
+
+/your e.?bike partner/i
 
 # Glasses
 # ------------------------------------------------------------------------------
