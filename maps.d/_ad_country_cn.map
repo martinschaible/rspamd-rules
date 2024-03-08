@@ -171,7 +171,7 @@
 /our as a leading.{1,10}manufacturer of/i
 
 /our (company|factory).{1,10}a top.?notch/i
-/our (company|factory).{1,10}as.{1,10}leading.{1,15}(supplier|trader)/i
+/our (company|factory).{1,10}(as|is).{1,10}leading.{1,25}(export|manufacturing|supplier|trader)/i
 /our (company|factory).{1,10}manufacturer.{1,10}following/i
 /our (company|factory).{1,10}has.{1,20}production.{1,10}equipment/i
 /our (company|factory).{1,10}is a.{1,15}company.{1,10}specialising/i

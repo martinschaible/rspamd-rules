@@ -75,7 +75,7 @@
 # Partnership, Business
 # ------------------------------------------------------------------------------
 /(business|partnership).{1,10}(assistance|offer|proposal|proposition|response)/i
-/(business|urgent).{1,10}(opportunity|partnership)/i
+/(business|urgent).{1,15}(opportunity|partnership|proposal)/i
 /business investment collaboration/i
 
 /\[proposal\]/i
