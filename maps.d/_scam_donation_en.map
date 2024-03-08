@@ -69,7 +69,7 @@
 /(million|dollars?|euro?|gbp|usd).{1,10}have been donated to you/i
 
 /you have been granted.{1,10}donation/i
-/you (have|received|won).{1,10}donation/i
+/you (have|received|will receive|won).{1,10}donation/i
 
 /your.{1,10}e?.?mail.{1,10}(account|address).{1,10}was selected for.{1,10}donation/i
 /your.{1,10}e?.?mail.{1,10}(account|address).{1,10}won.{1,10}donation/i

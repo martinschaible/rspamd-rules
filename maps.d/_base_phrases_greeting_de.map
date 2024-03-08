@@ -168,6 +168,7 @@
 # Introduction, Title
 # ------------------------------------------------------------------------------
 /ich bin.{1,5}(barrister|general|mrs?|ms)/i
+/ich bin.{1,5}(rechts)?anwalt/i
 /ich bin.{1,5}mutter mrs?/i
 /ich bin.{1,5}(special|spezial).?agent/i
 /ich bin.{5,25}filialleiterin einer bank/i
@@ -175,7 +176,7 @@
 
 /ich bin ein.{1,25}geschäftsmann/i
 
-/ich bin (frau|herr).{5,35}(banker|buchhalter|vorsitzender)/i
+/ich bin (frau|herr).{5,35}(anwalt|banker|buchhalter|vorsitzender)/i
 /ich bin (frau|herr).{5,25}kann ich/i
 
 /ich bin mutter.{5,25}frau/i

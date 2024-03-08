@@ -50,6 +50,7 @@
 # Funds, Money, Sum
 # ------------------------------------------------------------------------------
 /receive your.{1,15}funds/i
+/receive sum of.{1,10}(million|dollar|euro?|gbp|usd)/i
 /investment funds/i
 
 /your funds has been approved/i
