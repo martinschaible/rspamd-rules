@@ -55,6 +55,8 @@
 
 /will be barred from.{1,10}(receiving|sending).{1,15}e?.?mail/i
 
+/unread.{1,10}(e?.?mails|messages).{1,10}in your mailbox.{1,10}go to/i
+
 # Rejected
 /rejected the delivery.{1,10}incoming.{1,10}e?.?mails to you/i
 

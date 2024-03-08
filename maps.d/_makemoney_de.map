@@ -73,9 +73,13 @@
 
 /einkommen.{1,15}\d{3,4}.{1,15}pro woche zu erzielen/i
 
-/werden ihre einnahmen explodieren/i
+/werden ihre.{1,10}einnahmen explodieren/i
 
-/erfahren sie.{1,10}wie sie ihr einkommen/i
+/bauen sie ein.{1,10}einkommen auf/i
+
+/erfahren sie.{1,10}wie sie ihr.{1,10}einkommen/i
+
+/sichere einkommensgenerierung/i
 
 # Income passive
 # ------------------------------------------------------------------------------
@@ -88,6 +92,10 @@
 # Investing
 # ------------------------------------------------------------------------------
 /investieren sie.{1,10}und erhalten sie.{1,15}zurück/i
+
+/mit dieser einzigartigen anlagechance/i
+
+/freigegebenes? investmentprodukt/i
 
 # Promises
 # ------------------------------------------------------------------------------

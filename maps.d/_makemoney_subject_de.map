@@ -61,7 +61,7 @@
 
 # ETF (Exchange Traded Funds)
 # ------------------------------------------------------------------------------
-/etf.{1,15}(bricht|investieren|rekorde|zulassung)/i
+/etf.{1,15}(bricht|gestartet|investieren|rekorde|zulassung)/i
 
 /(einkommen|geld|reich).{1,10}(durch|mit).{1,10}etf/i
 /(bit?coin|crypto|krypto).{1,10}etf/i
