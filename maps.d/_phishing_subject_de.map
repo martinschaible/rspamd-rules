@@ -154,7 +154,6 @@
 
 /postamt angekommen/i
 
-
 /ihr paket wurde zurückgeschickt/i
 
 /(lieferung|versand).{1,10}(ausstehende|unbezahlte).{1,10}(versandkosten|zollgebühren)/iu
@@ -226,6 +225,8 @@
 /kostenlos ein.{1,20}zu erhalten/i
 
 /gewinnen.{1,10}jetzt bestätigen/iu
+
+/du gehörst zu den auserwählten/ui
 
 /sie haben eine kostenlose.{10,25}gewonnen/i
 /sie unsere.{1,10}umfrage/i
