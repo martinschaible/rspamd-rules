@@ -19,7 +19,8 @@
 /milf.?\d\.jpg/i
 /invoice\.s?html/i
 
-/amazon\.html/i
+/amazon[a-z0-9]{0,10}\.(html|php)/i
+
 /avast\.html/i
 /dating\.html/i
 /bitcoin\.html/i

@@ -66,6 +66,7 @@
 # Return for double payed invoices
 # ------------------------------------------------------------------------------
 /rechnung erstattungsfähig/iu
+/ihre rechnung wurde zweimal bezahlt/i
 
 # Locking Account
 # ------------------------------------------------------------------------------
@@ -230,10 +231,13 @@
 
 /sie haben eine kostenlose.{10,25}gewonnen/i
 /sie unsere.{1,10}umfrage/i
+/sie sind zugelassen/i
 
 /wir vergeben deinen.{1,15}gutschein/i
 
 /(Öffne|öffne) sofort/iu
+
+/gutscheine im gesamtwert von/i
 
 # Sample: Rundschreiben X2ZI-M29U
 /(bestätigung|rundschreiben).?[0-9a-z]{4}-[0-9a-z]{4}/i

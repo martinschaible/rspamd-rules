@@ -60,11 +60,14 @@
 /doppelt bezahlt wurde.{1,10}um eine rückerstattung/iu
 /doppelt in rechnung gestellt wurden?/i
 
+/erstattung anfordern/i
 /rückerstattungs.?link/iu
 
 /sie ein.{1,10}eine rückerstattung zu beantragen/iu
 
 /zurückerhalten.{1,10}indem sie unten klicken/iu
+
+/system aufgetreten ist.{1,10}der zu einer belastung/i
 
 # Train ticket
 /erstattungsticket akzeptiert/i
@@ -95,8 +98,9 @@
 
 # Winning, Free stuff
 # ------------------------------------------------------------------------------
-/gewinn innerhalb von.{1,10}stunden erhalten/i
-/gewinn sichern.{1,10}nehmen sie an unserer umfrage teil/i
+/gewinn.{1,10}innerhalb von.{1,10}stunden erhalten/i
+/gewinn.{1,10}sichern.{1,10}nehmen sie an unserer umfrage teil/i
+/gewinner.{1,10}daten eingeben/i
 
 /gewinnenden preise.{1,10}begrenzt/i
 
@@ -117,6 +121,8 @@
 /(exklusive|sichere).{1,10}chance auf ein.{1,15}produktpaket/i
 
 /sich ihr kostenloses geschenk/i
+
+/sie als möglicher gewinner/iu
 /sie haben eine kostenlose.{10,25}gewonnen/i
 /sie sind unser gewinner.{1,15}belohnung/i
 
@@ -166,6 +172,10 @@
 /team.{1,10}kaufland/i
 
 /gewinnerteam/i
+
+#
+/gutschein.{1,15}sie hinterlegt wurde/i
+/gutschein.{1,10}unverbindlich anfordern/i
 
 # Winning, Products
 # ------------------------------------------------------------------------------
