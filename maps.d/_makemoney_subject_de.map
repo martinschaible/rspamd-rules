@@ -30,6 +30,12 @@
 
 /weg.{1,10}um mit bitcoin geld/i
 
+#
+/mit einem kleinen startbetrag/i
+/mit nur \d{3} euro anfangen/i
+/sie mit.{1,10}\d{3} euro (startguthaben|grundstein)/i
+/verwandeln sie ein startkapital von nur/i
+
 # Make Money
 # ------------------------------------------------------------------------------
 /reich (ohne arbeit|werden ohne)/i
@@ -51,6 +57,7 @@
 
 /ihr geld steht.{1,10}auszahlung/i
 /jeden tag.{1,15}(\d{3,4}|euro?).{1,10}verdienen/i
+/jetzt millionär werden/iu
 
 /euro? pro tag.{1,10}verdienen/i
 /100 euro? pro tag/i
