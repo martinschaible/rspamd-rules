@@ -51,7 +51,7 @@
 
 # ETF (Exchange Traded Funds)
 # ------------------------------------------------------------------------------
-/etf.{1,10}langzeitrendite/i
+/etf.{1,15}(einkommen|dauerhaftes|langzeitrendite)/i
 
 /kryptogeld.?etf/i
 /(bitcoin|crypto|krypto).?etf/i

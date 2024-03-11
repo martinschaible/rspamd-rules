@@ -113,7 +113,9 @@
 /message for you.{1,10}important/i
 
 /talk to you about something.{1,10}important/i
-/(i have|there is) something.{1,10}important (i want to|to) discuss with you/i
+
+/(i have|there is).{1,10}something.{1,10}important (i want to|to) discuss with you/i
+/(i have|there is).{1,10}important matter to discuss with you/i
 
 /i have an important message for you/i
 

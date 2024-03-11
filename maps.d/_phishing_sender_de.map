@@ -118,6 +118,7 @@
 
 # DPD
 /mydpd.?(lieferung|versand)/i
+/dpd.{0,5}deutschland/i
 
 # ING-DiBa AG
 /diba-ag/i
