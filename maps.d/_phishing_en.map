@@ -48,7 +48,10 @@
 
 /your (brochure|catalog|catalogue).{1,10}quotation/i
 /your (brochure|catalog|catalogue).{1,10}to learn more about your products/i
-/your (brochure|catalog|catalogue).{1,10}product (brochure|catalog|catalogue)/i
+/your (brochure|catalog|catalogue).{1,10}product.{1,10}(brochure|catalog|catalogue)/i
+
+/your product.{1,10}product.{1,10}(brochure|catalog|catalogue)/i
+/your latest catalog.{1,10}web.?site link/i
 
 /attached rfq inquiry.{1,10}send us your pricing/i
 /(brochure|catalog|catalogue).{1,10}price list.{1,10}payment method/i
@@ -71,7 +74,6 @@
 /send (me|us) your product.{1,10}(brochure|catalog|catalogue)/i
 
 /you have.{1,10}companies interested in your product/i
-/your latest catalog.{1,10}web.?site link/i
 
 # Products
 /your website.{1,10}our company.{1,10}interested in your products?/i

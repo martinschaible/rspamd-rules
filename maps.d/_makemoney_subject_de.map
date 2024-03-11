@@ -52,7 +52,7 @@
 /ihr geld steht.{1,10}auszahlung/i
 /jeden tag.{1,15}(\d{3,4}|euro?).{1,10}verdienen/i
 
-/euro? pro tag verdienen/i
+/euro? pro tag.{1,10}verdienen/i
 /100 euro? pro tag/i
 
 /so verdienen die stars/i
@@ -63,8 +63,10 @@
 # ------------------------------------------------------------------------------
 /etf.{1,15}(bricht|gestartet|investieren|rekorde|zulassung)/i
 
-/(einkommen|geld|reich).{1,10}(durch|mit).{1,10}etf/i
+/(einkommen|geld|gewinne|reich).{1,10}(durch|mit).{1,10}etf/i
 /(bit?coin|crypto|krypto).{1,10}etf/i
+
+/ki macht menschen reich/i
 
 # Fancy Titles
 # ------------------------------------------------------------------------------
@@ -77,13 +79,12 @@
 /(einfach|jetzt).{1,10}vermögen (aufbauen|anhäufen)/iu
 
 /schnell zu wohlstand kommen/i
-
-/passives einkommen generieren/i
+/endlich zu reichtum/i
 
 /so werden.{1,10}sie reich/i
 /wie reich werden/i
 
-/reich durch openai/i
+/reich durch (ki|openai)/i
 /reich werden.{1,10}wie/i
 
 /sie mit uns finanzielle freiheit/i
@@ -95,8 +96,9 @@
 /(generieren|verdienen) sie.{1,10}passives.{1,10}einkommen/i
 
 /(\d{3,4}|euro).{1,10}passives einkommen/i
+/jetzt passives einkommen/i
 
-/passives (geld|einkommen).{1,10}(bekommen|mit|verdienen)/i
+/passives (geld|einkommen).{1,10}(bekommen|generieren|jetzt|mit|verdienen)/i
 
 # Systems
 # ------------------------------------------------------------------------------
