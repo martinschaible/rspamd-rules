@@ -154,7 +154,7 @@
 
 # Payments
 # ------------------------------------------------------------------------------
-/(bank|payment|remittance).{0,5}(advice|copy|details?|receipt|rfq|slip).{0,5}.(7z|doc|gz|htm|r11|rar|tgz|xla|xls|zip)/i
+/(bank|payment|remittance).{0,5}(advice|copy|details?|receipt|rfq|slip).{0,15}.(7z|doc|gz|htm|r11|rar|tgz|xla|xls|zip)/i
 /(confirmation|payment|remittance).{0,5}\.(7z|doc|gz|htm|r11|rar|tgz|xla|xls|zip)/i
 
 /payment.?confirmation.?notice.?\.pdf/i
