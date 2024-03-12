@@ -92,8 +92,7 @@
 # Solar energy
 # ------------------------------------------------------------------------------
 /jetzt sichern.{1,15}fördergelder/iu
-/solar.?anlage.{1,10}nulltarif/i
-
+/solar.?anlage.{1,10}(gewerbe|Häuser|nulltarif)/iu
 #
 #
 #
