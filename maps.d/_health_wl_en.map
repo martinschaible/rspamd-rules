@@ -37,7 +37,8 @@
 /(lose|losing).{1,15}(fat|weight) with.{1,20}click below/i
 /(lose|losing).{1,10}average of.{1,10}(lbs|pounds)/i
 
-/secret.{1,10}burning.{1,10}fat/i
+/(hack|secret|trick).{1,10}burning.{1,10}fat/i
+/(hack|secret|trick).{1,10}(removes?|sheds).{1,10}(lbs|pounds)/i
 
 /(lbs|pounds) with this.{1,10}fat.?burning/i
 /(lbs|pounds) in.{1,15}month.{1,10}no.{1,10}(exercise|dieting)/i
