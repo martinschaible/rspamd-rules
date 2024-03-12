@@ -7,7 +7,7 @@
 
 # Accounts
 # ------------------------------------------------------------------------------
-/(account|konto).?(aktivität|aktivierung|bestätigung|hilfe|wiederherstellung)/iu
+/(account|konto).?(aktivität|aktivierung|bestätigung|hilfe|id|wiederherstellung)/iu
 
 /(aktualisierung|bestätigung).{0,15}konto/iu
 
@@ -135,7 +135,7 @@
 /(fedex|hermes|swiss).?(abteilung|lieferung)/i
 
 # PayPal
-/paypal.?fall/i
+/paypal.?(fall|konto)/i
 
 # Raiffeisen
 /raiffeisentwint/i

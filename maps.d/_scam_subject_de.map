@@ -39,6 +39,7 @@
 /spende.{1,10}(an|für) sie/iu
 /spende.{1,10}investitions.?programm/i
 /spende.{1,10}in höhe von/iu
+/spende.{1,10}von.{1,10}\d{2,3}.{1,10}\d{2,3}/i
 
 /(du hast|sie haben) eine.{1,10}spende/i
 

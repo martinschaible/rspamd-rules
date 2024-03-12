@@ -8,7 +8,7 @@
 # Bitcoin
 # ------------------------------------------------------------------------------
 /(bit?coin|crypto|krypto).{0,15}(bulle|trading|traden|trader)/i
-/(bit?coin|crypto|krypto).{1,15}(höhenflug|methode|millionen|rally|rush)/iu
+/(bit?coin|crypto|krypto).{1,15}(höhenflug|methode|millionen|millionär|rally|rush)/iu
 
 /(bit?coin|crypto|krypto).{1,15}reich werden/i
 /(bit?coin|crypto|krypto).{1,15}handel wie profis/i
@@ -105,7 +105,8 @@
 /(\d{3,4}|euro).{1,10}passives einkommen/i
 /jetzt passives einkommen/i
 
-/passives (geld|einkommen).{1,10}(bekommen|generieren|jetzt|mit|verdienen)/i
+/passives (geld|einkommen).{1,10}(generieren|jetzt|mit|verdienen|war noch nie)/i
+/passives (geld|einkommen).{1,10}(be)?kommen/i
 
 # Systems
 # ------------------------------------------------------------------------------

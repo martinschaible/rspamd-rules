@@ -89,6 +89,10 @@
 
 /(empfehlung|team).{1,20}huusk/i
 
+# Komposter
+# ------------------------------------------------------------------------------
+/neu im programm.{1,10}schnellkomposter/i
+
 # Ladder
 # ------------------------------------------------------------------------------
 /teleskopleiter.{1,15}kostenfreiem versand/i
@@ -340,6 +344,8 @@
 /ihre antwort genügt.{1,10}wir senden.{1,10}zu ihnen/iu
 
 /zum antworten bestellen.{1,15}lieferung auf rechnung/i
+
+/klicken.{1,10}direkt unsere sonderangebote per.{1,10}e?.?mail bestellen/i
 
 /kontaktieren sie uns jetzt.{1,10}ihre bestellung/i
 

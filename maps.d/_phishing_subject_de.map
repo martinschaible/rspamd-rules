@@ -125,7 +125,10 @@
 /bestätigen sie ihre.{1,10}(lieferdaten|lieferung|versandinformationen)/iu
 
 /warten auf abholung/i
-/ihre bestellung steht noch aus/i
+
+/ihr ausstehendes paket/i
+/ihre? (paket|sendung) steht noch aus/i
+/ihre? (paket|sendung) wird storniert/i
 
 /wichtig.{1,10}paket/i
 
@@ -161,7 +164,9 @@
 /(lieferung|versand).{1,10}wurde aufgrund falscher angaben/i
 /(lieferung|versand).{1,10}steht aus/i
 
+/lieferung abgelehnt.{1,10}neuen zustelltermin/i
 /lieferung.{1,5}id ch/i
+
 /aktualisieren sie.{1,10}ihre lieferadresse/i
 /korrigieren sie ihre adresse/i
 
