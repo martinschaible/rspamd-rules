@@ -95,9 +95,10 @@
 # ------------------------------------------------------------------------------
 /investieren sie.{1,10}und erhalten sie.{1,15}zurück/i
 
-/mit dieser einzigartigen anlagechance/i
+/(bahnbrechende|einzigartige|freigegebene).{1,10}anlagechance/i
+/(bahnbrechende|einzigartige|freigegebene).{1,10}(anlage|investment).?produkt/i
 
-/freigegebenes? investmentprodukt/i
+/exklusive finanzierungsmodell/i
 
 # Promises
 # ------------------------------------------------------------------------------
@@ -137,6 +138,15 @@
 /money.?making.{1,10}strategies aus/i
 
 /erfahren sie.{1,10}wie.{1,10}tägliche gewinne/iu
+
+# Starting
+# ------------------------------------------------------------------------------
+/starten sie mit 250 euro?/i
+/startkapital von 250 euro?/i
+
+/anfang mit.{1,10}250 euro? investition/i
+/250 euro?.{1,10}(als startkapital|zum erfolg)/i
+/250 euro?.{1,10}mindesteinlage eröffnen wir/i
 
 # Trading
 # ------------------------------------------------------------------------------

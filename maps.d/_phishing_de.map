@@ -137,6 +137,8 @@
 
 /ihre chance auf eine kostenlose/i
 
+/(gratis|kostenlos).{1,10}guthabenkarte/i
+
 # Link
 /klicken sie hier.{1,10}um einen anspruch/i 
 /klicken sie hier.{1,10}um die belohnung/i
