@@ -135,6 +135,8 @@
 
 /(fedex|hermes|swiss).?(abteilung|lieferung)/i
 
+/liefer.?express/i
+
 # PayPal
 /paypal.?(fall|hilfe.?center|konto)/i
 /hilfe.?center.?id/i

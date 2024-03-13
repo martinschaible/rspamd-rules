@@ -77,7 +77,9 @@
 
 /our company.{1,10}offers.{1,10}competitive.{1,15}loans/i
 
-/apply for.{1,10}(business|personal).{1,10} loans?/i
+/apply for.{1,10}(business|personal).{1,10}loans?/i
+
+/offers.{1,10}corporate.{1,10}personal.{1,10}loans/i
 
 #
 /investment company offering.{1,20}(corporate|personal|unsecured).{1,10}loans?/i

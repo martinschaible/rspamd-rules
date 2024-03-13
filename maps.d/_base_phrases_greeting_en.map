@@ -139,6 +139,8 @@
 
 /respected.{1,10}e?.?mail.?user/i
 
+/my dear.{1,10}i am an agent/i
+
 # Greetings, My name is ...
 # ------------------------------------------------------------------------------
 /my name is.{5,25}a purchase.representative/i
@@ -234,7 +236,7 @@
 
 # Introduction, Title
 # ------------------------------------------------------------------------------
-/i.?a?m a?.{0,10}agent of/i
+/i.?a?m a?.{0,10}agent.{1,10}(broker|of)/i
 /i.?a?m a?.{0,10}attorney.{1,10}solicitor/i
 /i.?a?m a?.{0,10}consultant mr/i
 /i.?a?m a?.{0,10}digital.{1,10}marketing.{1,10}(consultant|expert|specialist)/i
