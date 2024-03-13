@@ -135,7 +135,8 @@
 /(fedex|hermes|swiss).?(abteilung|lieferung)/i
 
 # PayPal
-/paypal.?(fall|konto)/i
+/paypal.?(fall|hilfe.?center|konto)/i
+/hilfe.?center.?id/i
 
 # Raiffeisen
 /raiffeisentwint/i

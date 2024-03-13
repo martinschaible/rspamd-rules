@@ -150,6 +150,7 @@
 /(paket|sendung).{1,15}wartet wegen.{10,25}auf.{1,10}(lieferung|zustellung)/i
 
 /(paket|sendung).{1,15}wird aufgrund.{1,10}unerwartet.{1,10}zollabwicklung/i
+/(paket|sendung).{1,10}wird heute zurückgeschickt/i
 /(paket|sendung).{1,15}wird hiermit zugestellt/i
 /(paket|sendung).{1,10}wird zurückgehalten/iu
 
@@ -196,6 +197,8 @@
 #
 /referenz.?code.{1,5}\d{4,5}/i
 /(ch|de|org).{1,10}referenz.?code/i
+
+/paketzustellung.?id/i
 
 #
 /erhalten sie ihre lieferung/i
