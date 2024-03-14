@@ -37,6 +37,7 @@
 /loans?.{1,10}small.{1,10}medium business(es)/i
 /loans?.{1,10}your needs/i
 /loans?.{1,10}options.{1,15}feel free to contact/i
+/loans?.{1,10}we offer competitive/
 
 /exclusives?.loans?/i
 
@@ -73,7 +74,7 @@
 
 /quick.{1,10}fast loans?/i
 
-/our loan (acquisition|programme)/i
+/our loan.{1,10}(acquisition|funding|investment|programme)/i
 
 /our company.{1,10}offers.{1,10}competitive.{1,15}loans/i
 

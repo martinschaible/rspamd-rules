@@ -56,12 +56,12 @@
 
 /simple.{1,10}(method|technique|way).{1,10}boosts calorie burning/i
 
-/this.{1,10}(fat|weight).?loss.{1,10}product/i
+/(new|this).{1,10}(fat|weight).?loss.{1,10}(method|product)/i
 /imagine losing.{1,10}(lbs|pounds)/i
 
 /stubborn belly.?fat/i
 
-/(fat|weight).?loss.{1,10}method is shocking/i
+/(fat|weight).?loss.{1,10}method.{1,10}(is shocking|might be)/i
 /(fat|weight).?loss.{1,10}in just.{1,10}weeks/i
 /(fat|weight).?loss.{1,10}(hack|sensation|specialist)/i
 

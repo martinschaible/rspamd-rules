@@ -26,6 +26,8 @@
 # ------------------------------------------------------------------------------
 /suspended.{1,15}confirm your e?.?mail/i
 
+/e?.?mail verification.{1,10}action required/i
+
 # Locking Account
 # ------------------------------------------------------------------------------
 /your.{1,15}account.{1,15}(has been temporarily|might be).{1,10}(restricted|suspended)/i
