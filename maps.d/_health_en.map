@@ -46,7 +46,9 @@
 /sharpens? blurry eyesight/i
 /clears foggy vision/i
 
-/(secret|trick|restore).{1,15}perfect vision/i
+/(secret|trick|restore|swallow).{1,15}(better|perfect).{1,10}vision/i
+
+/(better|perfect).{1,10}vision in.{1,10}hour/i
 
 # Fungus
 # ------------------------------------------------------------------------------
