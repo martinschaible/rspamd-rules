@@ -52,6 +52,8 @@
 /wichtig.{1,10}kontofunktionen/i
 /wichtige e?.?mail.{1,10}ihr konto/i
 
+/aktualisieren.{1,15}erforderlichen zahlungsinformationen/i
+
 # Bad german
 /kontoaktivitäts.?aktualisierung/i
 
@@ -203,6 +205,7 @@
 #
 /erhalten sie ihre lieferung/i
 /ihre mitarbeit ist gefragt/i
+/werwenden sie ihren barcode/i
 
 # Surveys
 # ------------------------------------------------------------------------------
@@ -221,9 +224,10 @@
 # ------------------------------------------------------------------------------
 /sie wurden für eine.{1,15}belohnung ausgewählt/iu
 
-/ihre belohnung.{1,10}wartet sie/i
+/belohnung.{1,10}(ist zum versenden|wartet sie)/i
 
 /erhalten sie.{1,10}belohnung/i
+/beanspruche jetzt/i
 
 /exklusive.{1,10}belohnungen.{1,10}umfrage/i
 /exklusive.{1,10}umfragebelohnung/i

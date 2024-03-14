@@ -215,7 +215,8 @@
 /co.{1,5}(limited|ltd).{1,10}trading company/i
 /co.{1,5}(limited|ltd).{1,10}our company/i
 
-/machinery.{1,10}(co|limited|ltd)/i
+
+/(commerce|electronic|machinery).{1,10}(co|limited|ltd)/i
 
 /i am.{5,25}from.{1,20}co.{1,10}ltd/i
 
@@ -353,6 +354,8 @@
 /we focus on.{1,10}injection.{1,10}mold(ing)?/i
 /we offer.{1,15}mold(ing)?.{1,10}plastics/i
 /we provide.{1,10}mold(ing)?.{1,10}manufacturing/i
+
+/free mold for you/i
 
 # PCB
 # ------------------------------------------------------------------------------
