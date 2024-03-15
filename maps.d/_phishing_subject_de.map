@@ -134,6 +134,7 @@
 
 /wichtig.{1,10}paket/i
 
+/(paket|sendung).{1,10}aufgrund fehlender versandkosten nicht liefern/i
 /(paket|sendung).{1,10}(bewegt sich|in der warteschleife)/i
 /(paket|sendung).{1,10}auf die zustellung wartet/i
 /(paket|sendung).{1,10}bei ihnen ankommt/i
