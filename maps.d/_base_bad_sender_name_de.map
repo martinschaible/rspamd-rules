@@ -76,8 +76,7 @@
 
 /antworte.{1,10}heute/?
 
-/aktuelle.{0,5}nachrichten/i
-/wichtige.{0,5}mitteilung/i
+/(aktuelle|neue|wichtige).{0,5}(mitteilung|nachricht)/i
 
 /(glückwunsch|präsident)/iu
 
