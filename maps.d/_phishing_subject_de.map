@@ -110,6 +110,7 @@
 # New Systems, Security, Technology, TAN
 # ------------------------------------------------------------------------------
 /(aktivieren|aktualisieren|entdecken) sie.{1,15}(photo|push).?tan/i
+/wichtiges update.{1,15}(photo|push).?tan/i
 
 /neues sicherheitsupdate.{1,10}erforderlich/i
 /obligatorische aktivierung/i
