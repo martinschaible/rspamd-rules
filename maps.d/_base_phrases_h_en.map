@@ -64,7 +64,8 @@
 # ------------------------------------------------------------------------------
 /hello.{1,10}did you get my previous.{1,10}e?.?mail/i
 /you received? my previous.{1,10}e?.?mail.{1,10}regards/i
-/confirm.{1,10}you received my previous.{1,10}e?.?mail/i
+
+/confirm.{1,10}you received? my (last|previous).{1,10}e?.?mail/i
 
 # E-Mail surprise
 # ------------------------------------------------------------------------------
@@ -197,6 +198,8 @@
 
 /i have.{1,10}urgent message.{1,10}for you/i
 /i am still waiting.{1,10}your response after.{1,10}previously/i
+
+/we are pleased.{1,15}found your esteemed company/i
 
 /warrenbuffett/i
 

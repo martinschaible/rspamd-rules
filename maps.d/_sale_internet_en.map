@@ -38,9 +38,12 @@
 /e?.?mail.?lists of any country/i
 
 # 
-/bulk e?.?mail.{1,10}marketing.{1,10}solutions/i
-/setup bulk.{1,10}e?.?mail.{1,10}marketing/i
+/bulk (e?.?mail|mailing).{1,10}marketing.{1,10}solutions/i
+/bulk (e?.?mail|mailing).{1,10}tools service provider/i
 
+/setup bulk.{1,10}(e?.?mail|mailing).{1,10}marketing/i
+
+/we are professional.{1,10}bulk.?mailing/i
 /increase sales.{1,10}use bulk e?.?mail/i
 
 # Leads

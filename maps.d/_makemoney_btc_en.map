@@ -17,9 +17,11 @@
 
 /btc.?deposit/i
 
+/boost your.{1,10}(bitcoin|btc|crypto).{1,10}portfolio/i
+
 /claim up to.{1,15}usd based on/i
 
-/your (bitcoin|btc|crypto).{1,10}wallet has been funded/i
+/your.{1,10}(bitcoin|btc|crypto).{1,10}wallet has been funded/i
 
 /we have funded your portfolio with.{1,10}(bitcoin|btc|crypto)/i
 

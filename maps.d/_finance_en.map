@@ -50,6 +50,7 @@
 /we (are offering|give|issuing|offer|offering|provide).{1,15}loans?.{1,10}(acquisition|contact|funding|projects)/i
 /we (are offering|give|issuing|offer|offering|provide).{1,15}loans?.{1,10}to/i
 
+/we (are offering|give|issuing|offer|offering|provide).{1,15}(debt|financing).{1,10}loans/i
 /we (are offering|give|issuing|offer|offering|provide).{1,15}(business|corporate|home|personal).{1,15}loans?/i
 /we (are offering|give|issuing|offer|offering|provide).{1,15}(all kinds|various types) of.{1,15}loans?/i
 
@@ -64,7 +65,7 @@
 /you can apply for.{1,10}loan/i
 /you be interested.{1,10}loan/i
 /you looking for.{1,15}loans?/i
-/you need.{1,10}loan.{1,10}(for|from|if yes)/i
+/you need.{1,10}loan.{1,10}(for|from|if yes|to)/i
 /you (need|require).{1,10}(personal|urgent).{1,10}loan/i
 
 /business loans?.{1,10}investment.{1,10}loans?/i

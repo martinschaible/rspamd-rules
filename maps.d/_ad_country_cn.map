@@ -113,6 +113,8 @@
 /moulding services.{1,15}(from|in) china/i
 /trading company.{1,10}(from|in){1,15}china/i
 
+/product manager.{1,10}shenzhen/i
+
 # Intros
 # ------------------------------------------------------------------------------
 /we.?a?re.{1,15}(company|factory).{1,10}with.{1,10}years experience/i
@@ -267,7 +269,8 @@
 /company.{1,10}specializes in cnc.{1,10}machining/i
 
 /we are.{1,10}cnc.{1,10}precision machined/i
-/our services include.{1,10}cnc/i
+
+/our.{1,10}services include.{1,10}cnc/i
 
 /you have any.{1,15}cnc.{1,10} machining/i
 
@@ -344,8 +347,9 @@
 /handle injection mold(ing)? projects/i
 /plastic injection mold(ing)? manufacturer/i
 
+/you (interested||looking|need).{1,10}high.{1,10}precision.{1,10}components/i
 /you (interested||looking|need).{1,10}injection.{1,10}mold(ing)?/i
-/you looking for.{1,10}reliable.{1,10}experienced.{1,10}plastic/i
+/you (interested||looking|need).{1,10}reliable.{1,10}experienced.{1,10}plastic/i
 
 /we.?a?re.{1,10}(professional|reliable).{1,20}mold(ing)?/i
 /we.?a?re.{1,10}injection.{1,10}mould fabricator/i
