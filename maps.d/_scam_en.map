@@ -173,7 +173,7 @@
 /i have.{1,10}investor.{1,10}want to invest/i
 /i have.{1,10}investment.{1,10}(fund|opportunities)/i
 
-/i represent a.{1,10}(finance|investor)/i
+/i represent.{1,10}(finance|investor)/i
 
 /investor can invest in.{1,10}viable/i
 /investing in your country.{1,15}needs your.{1,10}assistance/i
@@ -458,7 +458,7 @@
 # Illuminati
 # ------------------------------------------------------------------------------
 /illuminati.{1,10}(recruiter|society)/i
-/great.{1,10}illuminati/i
+/(great|world of).{1,10}illuminati/i
 
 # Gold
 # ------------------------------------------------------------------------------
