@@ -358,7 +358,7 @@
 
 # Dead Customers, Family Members
 # ------------------------------------------------------------------------------
-/(my|our) (deceased|late).{1,10}(client|customer|husband).{1,10}left some money/i
+/(my|our) (deceased|late).{1,10}(client|customer|husband).{1,10}left (some|you) money/i
 /(my|our) (deceased|late).{1,10}(client|customer|husband).{1,10}(major|mrs?)/i
 /(my|our) (deceased|late).{1,10}(client|customer|husband).{1,10}made a deposit/i
 /(my|our) (deceased|late).{1,10}(client|customer|husband).{1,10}with no next of kin/i
