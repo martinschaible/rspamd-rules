@@ -203,11 +203,11 @@
 /(ch|de|org).{1,10}referenz.?code/i
 /package.{1,10}informationen/i
 
-/paketzustellung.?id/i
+/(package|paketzustellung).?id/i
 
 #
 /erhalten sie ihre lieferung/i
-/ihre mitarbeit ist gefragt/i
+/ihre mitarbeit ist.{1,10}(erforderlich|gefragt)/i
 /werwenden sie ihren barcode/i
 
 # Surveys
@@ -277,6 +277,7 @@
 # ------------------------------------------------------------------------------
 /-abonnenment/i
 
+/ihr abonnement ist ausgesetzt/i
 /musikdienst nicht ablaufen/i
 /wir wollen dich immer noch zurück/i
 
