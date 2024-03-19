@@ -78,6 +78,8 @@
 
 /(millionen|tausend|dollar|euro?|gbp|usd).{1,15}gespendet.{1,10}antworten sie für.{1,10}details/iu
 /(millionen|tausend|dollar|euro?|gbp|usd).{1,15}spenden.{1,10}was einen teil meiner investition/i
+
+/(millionen|tausend|dollar|euro?|gbp|usd).{1,15}wurden an sie gespendet/i
 /(millionen|tausend|dollar|euro?|gbp|usd).{1,15}wurden ihnen gespendet/i
 /(millionen|tausend|dollar|euro?|gbp|usd).{1,15}wurden ihnen von der.{1,25}gespended/i
 /(millionen|tausend|dollar|euro?|gbp|usd).{1,15}wurden ihnen von.{1,10}(frau|herr)/i

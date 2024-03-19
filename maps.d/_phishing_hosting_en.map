@@ -92,6 +92,8 @@ your recent request.{1,10}de.?activate your.{1,10}e?.?mail/i
 # ------------------------------------------------------------------------------
 /receiving.{1,10}e?.?mail.{1,10}if not verified within/i
 
+/your e?.?mail.?password.{1,10}(kindly|please).{1,10}confirm/i
+
 /you (are requested|must).{1,10}authenticate.{1,10}e?.?mail/i
 /steps below.{1,10}authenticate.{1,10}e?.?mail/i
 
