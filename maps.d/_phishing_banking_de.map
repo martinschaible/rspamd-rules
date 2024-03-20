@@ -12,7 +12,8 @@
 /kredit.?karten.{1,10}score auf den betrug/i
 
 /ihre.{1,20}(kredit)?karte.{1,10}(vorsorglich|vorübergehend).{1,10}sperren.{1,10}damit sie wieder/i
-/ihre.{1,20}(kredit)?karte.{1,10}(vorsorglich|vorübergehend).{1,10}(einschränken|eingeschränkt|gesperrt)/iu
+/ihre.{1,20}(kredit)?karte.{1,10}(vorsorglich|vorübergehend).{1,10}(deaktiviert|einschränken|eingeschränkt|gesperrt)/iu
+
 /ihre.{1,20}(kredit)?karte.{1,10}wurde mit sofortiger wirkung gesperrt/i
 /ihre.{1,20}(kredit)?karte.{1,10}wurde vorübergehend gesperrt/i
 
@@ -20,6 +21,7 @@
 
 /ihre.{1,20}(kredit)?karte.{1,10}gespeicherten daten.{1,10}beschafft/i
 /ihre.{1,20}(kredit)?karte.{1,10}zu ihrem.{1,15}schutz gesperrt haben/i
+/ihre.{1,20}(kredit)?karte.{1,10}zu verifizieren/i
 
 /haben wir ihre.{1,20}(kredit)?karte.{1,10}eingeschränkt/iu
 

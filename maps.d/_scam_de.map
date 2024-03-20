@@ -360,7 +360,7 @@
 
 /unverbindlich.{1,10}kostenlos.{1,10}welche anlage/i
 /prüfen sie hier.{1,10}welche förderungen.{1,10}sie /iu
-/starten sie ihre kostenlose berechnung/i
+/starten sie ihre kostenlose.{1,10}(analyse|berechnung)/i
 /vergleichsseite bieten wir.{1,10}eine kostenlose/i
 /wir ihnen einen kostenlosen überblick.{1,10}alle anlagen/i
 
@@ -372,7 +372,8 @@
 /ihren strom komplett selbst erzeugen/i
 
 #
-/sichern sie sich mit den förderungen/iu
+/sichern sie sich mit.{1,15}förderungen/iu
+/informieren sie sich hier.{1,15}fördermöglichkeiten/iu
 
 # collecting postal stamps
 # ------------------------------------------------------------------------------
