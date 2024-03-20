@@ -35,16 +35,19 @@
 
 /atmungsaktiver.{1,10}mesh.?stoff.{1,10}belastbar/i
 
+/highlights?.{1,20}(büro|dreh).?(stuhl|stühle)/i
+
 /diesen einzigartigen.{1,10}stuhl/i
 /(elegante|ergonomische|erlesene|komfort|praktische).{1,15}büro.?(stuhl|stühle)/iu
 
 /erstaunliche.{1,10}massagestuhl/i
 
 /(büro|dreh).?(stuhl|stühle).{1,10}(elegantes|eleganz)/i
-/(büro|dreh).?(stuhl|stühle).{1,10}(die perfekte|in leder|limitierte|in vielen farben|mit walnussholz)/iu
+/(büro|dreh).?(stuhl|stühle).{1,10}(die perfekte|in leder|limitierte|in vielen farben|mit walnussholz|passt sich perfekt)/iu
 /(büro|dreh).?(stuhl|stühle).{1,10}neues modell/iu
 /(büro|dreh).?(stuhl|stühle).{1,10}regale?/i
 /(büro|dreh).?(stuhl|stühle).{1,10}mit massagefunktion/i
+/(büro|dreh).?(stuhl|stühle).{1,10}wochen zu testen/i
 
 /stuhl.{1,15}vorzugspreis von nur/i
 /stuhl zum vorzugspreis/i
@@ -339,6 +342,7 @@
 /bestellung(en)?.{1,15}antworten sie.{1,15}auf diese.{1,10}(e?.?mail|nachricht)/i
 /bestellung(en)?.{1,10}antworten sie.{1,15}mit ihrer.{1,10}(adresse|anschrift)/i
 /bestellung(en)?.{1,10}antworten sie.{1,15}mit ihrer.{1,10}(liefer|rechnung).{1,20}(adresse|anschrift)/i
+/bestellung(en)?.{1,10}sind.{1,15}einfach.{1,10}antworten sie uns mit ihrer.{1,10}(adresse|anschrift)/i
 /bestellung(en)?.{1,10}rückfragen einfach antworten/iu
 
 /direkt unsere sonderangebote per e?.?mail bestellen/i
