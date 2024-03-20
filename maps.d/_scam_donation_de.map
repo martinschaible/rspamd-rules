@@ -115,7 +115,7 @@
 
 /ihre? e?.?mail.?(adresse|konto)?.{0,10}wurde.{1,15}für eine.{1,10}spende/iu
 /ihre? e?.?mail.?(adresse|konto)?.{0,10}wurde.{1,15}ausgewählt.{1,10}um (die|eine).{1,10}(spende|summe)/iu
-/ihre? e?.?mail.?(adresse|konto)?.{0,10}wurde.{1,15}unter den begünstigten/iu
+/ihre? e?.?mail.?(adresse|konto)?.{1,10}wurde.{1,10}unter.{1,10}(begünstigten|glücklichen)/i
 /ihre? e?.?mail.?(adresse|konto)?.{1,10}wurde.{1,10}per online/i
 
 /ihre e?.?mail wurde.{1,15}ausgewählt.{1,10}um eine.{1,10}spende/iu

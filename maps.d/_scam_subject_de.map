@@ -12,6 +12,7 @@
 # Beneficiary
 # ------------------------------------------------------------------------------
 /(achtung|guten tag|händen|lieber).{1,15}begünstigter?/iu
+/sehr geehrter.{1,15}begünstigter?/iu
 
 /begünstigter.{1,10}des/i
 
