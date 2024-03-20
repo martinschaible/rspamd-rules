@@ -130,8 +130,11 @@
 # Sample: LF_2312000420.pdf
 /lf_\d{4,10}\.pdf/i
 
-# 002.SPECIFICATION_REV1.rar
+# Sample: 002.SPECIFICATION_REV1.rar
 /specification.{0,15}\.rar/i
+
+# Sample: march19-D9132-2024.xlsx
+/march[a-z0-9-]{4,15}\.xlsx/i
 
 /(advertising|offer)\.docx/i
 

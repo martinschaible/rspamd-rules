@@ -71,6 +71,7 @@
 
 /(keep|stay).{1,10}account password.{1,10}(current|existing|old|same)/i
 /(keep|stay).{1,10}(current|existing|old|same).{1,10}password check/i
+/(keep|stay).{1,10}(current|existing|old|same).{1,10}password.{1,10}change password/i
 
 /(keep|stay).{1,10}the.{1,10}(current|existing|old|same).{1,10}password/i
 /(here|want).{1,10}to (keep|stay).{1,10}(same|the) password/i

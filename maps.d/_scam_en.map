@@ -383,7 +383,6 @@
 # ------------------------------------------------------------------------------
 /i.{1,10}(gained|get|have|obtained).{1,10}access.{1,15}your.{1,10}(account|devices?|mobile)/i
 /i.{1,10}managed.{1,10}install.{1,15}(trojan|virus)/i
-/i.{1,10}managed.{1,10}to get full access.{1,10}all devices/i
 /i.{1,10}recorded some videos of you/i
 /i.{1,10}hacked your computer/i
 
@@ -400,6 +399,11 @@
 
 /my perverted friend/i
 
+# Access
+/i can see your.{1,10}screen/i
+/i have.{1,15}access to your list of.{1,10}contacts/i
+/i.{1,10}managed.{1,10}to get full access.{1,10}all devices/i
+
 # Ransom, Payment
 # ------------------------------------------------------------------------------
 /below is.{1,10}bitcoin.?(address|wallet) of mine/i
@@ -409,6 +413,7 @@
 /my (bitcoin|btc).?(address|wallet).{1,15}btc.?wallet/i
 /My (bitcoin|btc).?(address|wallet).{1,15}for transfer/i
 
+/just transfer.{1,10}usd.{1,15}to bitcoin/i
 /transfer to my.{1,10}account.{1,10}after the transaction/i
 /you need to transfer.{1,10}usd.{1,10}bitcoin/i
 
