@@ -87,8 +87,9 @@
 
 # Funds, Money, Sum
 # ------------------------------------------------------------------------------
-/funds for.{1,20}reply for details/i
+/funds? for.{1,20}reply for details/i
 /funds?.{1,10}you accept my proposal/i
+/funds?.{1,10}you in your country/i
 
 /about your unpaid.{1,10}funds/i
 /acquire this money in my name/i
@@ -170,6 +171,7 @@
 /confidential.{1,10}investment.{1,10}partnership/i
 /my need for assistance.{1,10}profiling.{1,20}(funds|investment)/i
 
+/i want.{1,10}invest in.{1,10}legitimate fund/i
 /i have.{1,10}investor.{1,10}want to invest/i
 /i have.{1,10}investment.{1,10}(fund|opportunities)/i
 
