@@ -16,6 +16,7 @@
 
 /your.{1,10}e?.?mail immediately.{1,10}incoming messages will be withheld/i
 /your.{1,10}e?.?mail will be permanently deleted/i
+/your.{1,10}e?.?mail.?address (imap|pop3)/i
 
 /e?.?mail.update.{1,10}latest version/i
 
@@ -96,6 +97,8 @@ your recent request.{1,10}de.?activate your.{1,10}e?.?mail/i
 
 /you (are requested|must).{1,10}authenticate.{1,10}e?.?mail/i
 /steps below.{1,10}authenticate.{1,10}e?.?mail/i
+
+/verify your e?.?mail.?address to enable/i
 
 # Mail Inbox, Mailbox
 # ------------------------------------------------------------------------------

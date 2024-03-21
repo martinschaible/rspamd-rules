@@ -17,8 +17,9 @@
 
 /escort.?girl/i
 
-/ukrainian.?(beauty|date|girl|love|woman)/I
-/(find|meet).{1,10}ukrainian/i
+/(russian|ukrainian).?(beauty|date|girl|love|woman)/i
+
+/(find|meet).{1,10}(russian|ukrainian)/i
 /slavic.?love/i
 
 /hot.?(app|meeting)/i
