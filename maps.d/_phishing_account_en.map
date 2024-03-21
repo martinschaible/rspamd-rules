@@ -63,7 +63,7 @@
 # ------------------------------------------------------------------------------
 /dear (customer|madam|sir).{1,10}your system password/i
 
-/your{1,10}password will expire in.{1,10}hours/i
+/your{1,10}password will expire in.{1,10}(hours|minutes)/i
 
 # Password - Keep the same
 # ------------------------------------------------------------------------------
