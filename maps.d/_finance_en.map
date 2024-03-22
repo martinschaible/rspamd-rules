@@ -28,7 +28,7 @@
 # ------------------------------------------------------------------------------
 /qualified for a.{1,10}business.{1,10}loan/i
 
-/your (business|company) has been pre.?(approved|qualified)/i
+/your (business|company).{1,15}has been pre.?(approved|qualified)/i
 
 # Loans
 # ------------------------------------------------------------------------------

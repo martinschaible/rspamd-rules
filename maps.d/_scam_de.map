@@ -36,7 +36,7 @@
 
 # Beneficiary
 # ------------------------------------------------------------------------------
-/aufmerksamkeit.{1,10}begünstigten/iu
+/aufmerksamkeit.{1,10}(begünstigten|frau|herr)/iu
 /(achtung|guten tag|geschätzter|händen|lieber).{1,15}begünstigter?/iu
 
 /ihr name ist unter den.{1,10}begünstigten/iu
@@ -330,6 +330,7 @@
 /(weltordnung|welteliteimperium).{1,10}illuminaten/i
 
 /treten sie den illuminaten bei/i
+/treten sie noch heute.{1,10}bruderschaft/i
 
 # Oil
 # ------------------------------------------------------------------------------
