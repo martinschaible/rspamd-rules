@@ -175,6 +175,10 @@ kugelschreiber.{1,15}(begeistern|warten auf sie)/i
 
 /(faszination|sparen sie).{1,20}tischfußball/i
 
+/(tisch|turnier).?kicker.{1,10}(erschwinglich|top.?preis)/i
+/(tisch|turnier).?kicker.{1,10}für \d{3}/i
+/(kleiner preis|ihren|neuer).{1,10}(tisch|turnier).?kicker/i
+
 # Umbrellas
 # ------------------------------------------------------------------------------
 /ampel.?regenschirm/iu
