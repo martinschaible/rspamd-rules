@@ -47,7 +47,7 @@
 
 # E-Bike
 # ------------------------------------------------------------------------------
-/e.?bike manufacture/i
+/e.?(bicycle|bike) (expert|manufacture)/i
 
 # Flashlight
 # ------------------------------------------------------------------------------
@@ -195,6 +195,7 @@
 # Properties
 # ------------------------------------------------------------------------------
 /(apartments|marbella off.?plan)/i
+/spanish.?estates/i
 /townhouse/i
 
 # Unclassified
