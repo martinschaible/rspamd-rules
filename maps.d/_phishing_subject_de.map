@@ -109,6 +109,8 @@
 
 # New Systems, Security, Technology, TAN
 # ------------------------------------------------------------------------------
+/(photo|push).?tan.?verfahren/i
+
 /(aktivieren|aktualisieren|entdecken) sie.{1,15}(photo|push).?tan/i
 /wichtiges update.{1,15}(photo|push).?tan/i
 

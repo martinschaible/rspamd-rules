@@ -30,10 +30,10 @@
 /gummy that will help/i
 
 /(burn|lose).{1,10}belly.?(fat|flab)/i
-/(burn|lose).{1,10}(lbs|pounds) fast(er)?/i
+/(burn|lose).{1,10}(lbs|pounds|weight).{1,10}fast(er)?/i
 
 /(lbs|pounds) in.{1,10}months/i
-/(boost|your) (fat|weight).?loss/i
+/(boost|your).{1,10}(fat|weight).?loss/i
 
 /burns flab.{1,10}faster/i
 
@@ -74,7 +74,7 @@
 /ancient.{1,15}(food|jungle hack|self.?healing)/i
 
 /minute miracle stretch/i
-/morning trick/i
+/(doctor.?s? secret|morning) trick/i
 /secret ingredient/i
 
 /this crazy remedy/i
