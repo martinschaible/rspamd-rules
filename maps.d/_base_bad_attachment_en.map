@@ -240,3 +240,6 @@
 
 # Sample: IMG-10579912doc.7z
 /img.?\d{1,15}doc\.(7z|doc|gz|htm|r11|rar|tgz|xls|zip)/i
+
+# Sample: info #676524.html
+/info.?#\d{1,10}\.html/i
