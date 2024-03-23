@@ -70,6 +70,8 @@
 
 /recipe (burn|melt)s?.{1,10}lbs in.{1,10}weeks/i
 
+/unwanted belly.{1,10}hip fat/i
+
 # Belly
 /gets? rid of your belly/i
 /lose.{1,15}belly.{1,10}in/i
@@ -77,6 +79,8 @@
 # No Diets
 # ------------------------------------------------------------------------------
 /no more diets.{1,10}sweating/i
+
+/forget.{1,15}workouts.{1,15}diets/i
 
 # Diet
 # ------------------------------------------------------------------------------

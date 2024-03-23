@@ -86,6 +86,8 @@
 
 /million.{1,10}(dollar|euro?|gbp|usd).{1,10}haben wir ihnen/i
 
+/erhalten sie den betrag von.{1,10}\d{3}.{0,5}\d{3}.{1,10}(millionen|tausend|dollar|euro?|gbp|usd)/i
+
 /eine.{1,10}spende an sie geleistet hat/i
 /ein(en)? betrag von.{1,10}\d{3}.{0,5}\d{3}.{1,10}(millionen|tausend|dollar|euro?|gbp|usd).{1,25}wurde ihnen von/i
 
