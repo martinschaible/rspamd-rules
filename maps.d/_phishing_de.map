@@ -155,8 +155,9 @@
 /sie.{1,10}(dazu|einfach).{1,10}diese kurze umfrage/i
 /sie haben.{1,10}minuten.{1,10}um die folgenden fragen zu beantworten/i
 
+/auserwählten für das.{1,10}gewinnspiel/i
 /auserwählten für (die|eine).{1,15}umfrage/iu
-/du gehörst zu den auserwählten/iu
+/(du|sie) (gehören|gehörst) zu den.{1,10}auserwählten/iu
 
 /ihr feedback.{1,10}erhalten sie eine belohnung/i
 /ihr name wurde für.{1,15}umfrage zu.{1,20}vorgeschlagen/iu
