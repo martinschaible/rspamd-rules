@@ -34,6 +34,7 @@
 
 # 
 /we are.{1,10}leading b2b.data.solutions/i
+/we have.{1,10}targeted databases/i
 
 /best e?.?mail.?lists/i
 /e?.?mail.?lists of any country/i
@@ -48,6 +49,9 @@
 /increase sales.{1,10}use bulk e?.?mail/i
 
 /furnishing you with.{1,10}e?.?mail.?addresses/i
+
+#
+/linkedin database.{1,15}(email|phone).{1,15}list/i
 
 # Leads
 # ------------------------------------------------------------------------------
