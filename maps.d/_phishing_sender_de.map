@@ -46,8 +46,8 @@
 # Parcel
 # ------------------------------------------------------------------------------
 /(anweisungen|ausstehend|dringend)/i
-/bestellung.?versand/i
 
+/bestellung.?versand/i
 /bestellung.?\d{2,10}/i
 
 /liefer.?aktualisierung/i
@@ -104,10 +104,12 @@
 
 /heutige.{0,10}gewinner/i
 
-# A to H
-/(ali.?express|lidl|edeka|kaufland|le.?creuset).{0,5}(abteilung|angebot|code|geschenkkarte|gewinner|gutschein|kontakt|sender|sendung|umfrage|zustelllung)/i
+# A to L
+/(ali.?express|edeka|kaufland|le.?creuset|lidl).{0,5}(abteilung|angebot|code|geschenkkarte|gewinner|gutschein|kontakt|sender|sendung|umfrage|zustelllung)/i
+/(ali.?express|edeka|kaufland|le.?creuset|lidl).{0,5}help.?desk/i
 # K to Z
 /(media.?market|otto|persil|rewe|temu).{0,5}(abteilung|angebot|code|geschenkkarte|gewinner|gutschein|kontakt|sender|sendung|umfrage|zustelllung)/i
+/(media.?market|otto|persil|rewe|temu).{0,5}.{0,5}help.?desk/i
 
 # Brands, Products
 # ------------------------------------------------------------------------------
@@ -152,6 +154,7 @@
 /sparkasse.{1,10}push.?tan/i
 
 # Swisspass
+/-swisspass/i
 /swisspass.{1,5}(sbb|support)/i
 /suisspass/i
 
@@ -164,6 +167,9 @@
 # Swiss Railway
 /sbbch/i
 /sbbcff/i
+
+# UPS
+/ups.?gmbh/i
 
 #
 #

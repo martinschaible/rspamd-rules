@@ -43,6 +43,8 @@
 # Greetings
 # ------------------------------------------------------------------------------
 /guten tag.{1,10}mein lieber/i
+/guten tag \[/i
+
 /sehr geehrter? (frau|herr)/i
 /sehr geehrter.{1,15}(empfänger|kunde)/iu
 
