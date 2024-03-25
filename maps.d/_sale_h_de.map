@@ -152,6 +152,9 @@
 # ------------------------------------------------------------------------------
 /(echt aussehende|pflegefreie).{1,10}kunstpflanzen/i
 
+/(ficus|palme).{1,15}meter statt.{1,10}nur/i
+/pflanzenangebote.{1,10}lebende/i
+
 # Power Generator
 # ------------------------------------------------------------------------------
 /(energie|gelegenheit|unser).{1,15}generator/i
@@ -330,6 +333,7 @@
 
 /bestellen.{1,15}einfach.{1,15}mit.{1,15}(adresse|anschrift).{1,10}diese e?.?mail antworten/i
 /bestellen.{1,15}einfach.{1,15}mit.{1,15}(adresse|anschrift).{1,10}antworten/i
+/bestellen.{1,15}einfach.{1,15}mit ihrer rechnungsanschrift/i
 /Bestellen.{1,15}einfach.{1,15}mit den gewünschten/iu
 /bestellen.{1,15}einfach.{1,15}per e?.?mail.{1,10}antwort/i
 
