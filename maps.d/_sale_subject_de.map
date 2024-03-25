@@ -98,6 +98,8 @@ kugelschreiber.{1,15}(begeistern|warten auf sie)/i
 # ------------------------------------------------------------------------------
 /(eleganz|lieferbar|pflegefreie|setzen sie auf|sparen).{1,15}kunstpflanzen/i
 
+/(olivenbäume|palmen).{1,15}(sonderpreis|und mehr)/iu
+
 /kunstpflanzen.{1,15}(budget schonen|geld sparen|investition|sparwunder|vorteil)/i
 
 # Power Generator
@@ -221,6 +223,7 @@ kugelschreiber.{1,15}(begeistern|warten auf sie)/i
 
 /preissturz.{1,25}gerät jetzt nur/iu
 /schnäppchenalarm.{1,25}jetzt stark reduziert/iu
+/sonderpreis.{1,10}sofort versandfertig/i
 
 /jetzt zuschlagen.{1,10}(\d{2,3}|nur)/i
 

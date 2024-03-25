@@ -37,7 +37,9 @@
 
 # Airdrop
 # ------------------------------------------------------------------------------
+/airdrop.{1,10}to claim/i
 /(get your|receive) free.{1,10}airdrop/i
+/opportunity.{1,10}receive.{1,10}airdrop/i 
 
 # ETF (Exchange Traded Funds)
 # ------------------------------------------------------------------------------
