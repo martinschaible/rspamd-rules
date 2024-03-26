@@ -9,9 +9,12 @@
 # ------------------------------------------------------------------------------
 /(bit?coin|crypto|krypto).?(beratung|berater|bulletin|einblick|geld|handel|händler|invest(ment)?|nachrichten)/i
 
+/krypto\n\r/i
+
 # Make Money
 # ------------------------------------------------------------------------------
 
+/investition/i
 /investo(en)?.update/i
 /(bank(en)?|investment).?(beratung|berater)/i
 

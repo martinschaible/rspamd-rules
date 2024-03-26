@@ -13,6 +13,8 @@
 /\.jpg\.html/i
 /\.r09\.rar/i
 
+/\pdf\.\.html/i
+
 # Sample: RFQ-PO2023080904072235AM_pdf.gz
 #         Payment_Advice,img.zip
 #         Details_pdf.rar
@@ -95,6 +97,9 @@
 
 # Sample: PDA AUG.2023.rar
 /pda.?[a-z]{2,15}.?\d{1,6}.(7z|doc|gz|htm|r11|rar|tgz|xla|xls|zip)/i
+
+# Sample: PO-24032837-Mt200.7z
+/po-\d{1,10}-.{1,10}.(7z|doc|gz|htm|r11|rar|tgz|xla|xls|zip)/i
 
 # Sample: 004414- ENQ.rar
 /\d{4,10}.{0,4}enq\.(7z|doc|gz|htm|r11|rar|tgz|xla|xls|zip)/i
