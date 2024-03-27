@@ -9,7 +9,8 @@
 # ------------------------------------------------------------------------------
 /(bit?coin|crypto|krypto).?(beratung|berater|bulletin|einblick|geld|handel|händler|invest(ment)?|nachrichten)/i
 
-/krypto\n\r/i
+/krypto\n/i
+/krypto\r/i
 
 # Make Money
 # ------------------------------------------------------------------------------
