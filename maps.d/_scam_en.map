@@ -178,6 +178,9 @@
 
 /i represent.{1,10}(finance|investor)/i
 
+/important.{1,10}business.{1,10}investment proposal/i
+/important.{1,10}investment proposal/i
+
 /investor can invest in.{1,10}viable/i
 /investing in your country.{1,15}needs your.{1,10}assistance/i
 
@@ -265,6 +268,8 @@
 /i have decided.{1,10}send.{1,15}proposal/i
 /i need you as.{1,10}foreign partner/i
 /i tried to send you.{1,10}proposal/i
+
+/it.?s.{1,10}mutual.{1,10}beneficial/i
 
 /looking for.{1,10}reliable business.{1,20}in your/i
 
