@@ -11,6 +11,8 @@
 
 /(aktualisierung|bestätigung).{0,15}konto/iu
 
+/(hilfe.?center|sicherheit).?id/i
+
 /begrenzt/i
 /kunden.?nummer/i
 
@@ -147,8 +149,7 @@
 /liefer.?express/i
 
 # PayPal
-/paypal.?(fall|hilfe.?center|konto)/i
-/hilfe.?center.?id/i
+/paypal.?(fall|hilfe.?center|konto|sicherheit)/i
 
 # Raiffeisen
 /raiffeisentwint/i

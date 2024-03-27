@@ -12,9 +12,12 @@
 /krypto\n/i
 /krypto\r/i
 
+# ETF (Exchange Traded Funds)
+# ------------------------------------------------------------------------------
+/etf.?beratung/i
+
 # Make Money
 # ------------------------------------------------------------------------------
-
 /investition/i
 /investo(en)?.update/i
 /(bank(en)?|investment).?(beratung|berater)/i
@@ -24,6 +27,7 @@
 
 /(bankanlage|grund.?einkommen|reichtum)/i
 
+/ihre auszahlung/i
 /reich.{1,10}sein/i
 
 # Trading

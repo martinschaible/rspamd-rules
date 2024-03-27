@@ -7,13 +7,17 @@
 
 # Crypto
 # ------------------------------------------------------------------------------
-/(bitcoin|btc|crypto).?(broker|bulletin|currency|etf|forex|invest(ment)?|millionaire|network|news|update)/i
+/(bitcoin|btc|crypto|krypto).?(admin|broker|bulletin|currency|etf|forex|invest(ment)?|millionaire|network|news|update)/i
 
-/(swiss|world).{0,10}(bitcoin|btc|crypto)/i
+/(swiss|world).{0,10}(bitcoin|btc|crypto|krypto)/i
 
 /billionaire/i
 /blockchain/i
 /official.?system/i
+
+# ETF (Exchange Traded Funds)
+# ------------------------------------------------------------------------------
+/spot.?etf/i
 
 # Make Money
 # ------------------------------------------------------------------------------
