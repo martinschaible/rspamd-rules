@@ -43,6 +43,8 @@
 /(einfach|endlich|es geht wirklich|garantiert|jetzt|mit.{1,10}euro?|ohne scam).{1,10}reich werden/i
 
 /garantiertes vermögen/iu
+/garantiert bis zu.{1,15}pro monat/i
+
 /machen sie geld/i
 
 /verdienen sie.{1,10}\d{3,4}.{1,10}täglich/iu
@@ -91,7 +93,7 @@
 /traum vom reichtum/i
 
 /so werden.{1,10}sie reich/i
-/wie reich werden/i
+/reich werden/i
 
 /reich durch (ki|openai)/i
 /reich werden.{1,10}wie/i
@@ -111,6 +113,11 @@
 
 /passives (geld|einkommen).{1,10}(beantragen|generieren|jetzt|mit|verdienen|war noch nie)/i
 /passives (geld|einkommen).{1,10}(be)?kommen/i
+
+#
+# Investing
+# ------------------------------------------------------------------------------
+/investieren wie profis/i
 
 # Systems
 # ------------------------------------------------------------------------------

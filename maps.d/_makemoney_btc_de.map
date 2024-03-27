@@ -9,12 +9,13 @@
 
 # Crypto
 # ------------------------------------------------------------------------------
-/(bitcoin|crypto|krypto).{1,10}(bringt reichtum|macht.{1,15}reich|initiative)/i
+/(bitcoin|crypto|krypto).{1,10}(bringt reichtum|initiative)/i
 /(bitcoin|crypto|krypto).{1,15}(ein exklusives|durchstarten)/i
 /(bitcoin|crypto|krypto).{1,10}welle reiten/i
 /(bitcoin|crypto|krypto).{1,10}stellen sie sicher/i
+/(bitcoin|crypto|krypto).{1,15}(macht.{1,15}reich|reich werden)/i
 
-/(ergreifen sie|gewinnerzielung|strategische).{1,10}(bitcoin|crypto|krypto)/i
+/(durchbruch in|ergreifen sie|gewinnerzielung|strategische).{1,15}(bitcoin|crypto|krypto)/i
 /werden sie.{1,10}heute zum.{1,10}(bitcoin|crypto|krypto)/i
 
 /reich durch.{1,10}kryptohandel/i
@@ -41,13 +42,16 @@
 
 /sie zum (bitcoin|crypto|krypto).{1,10}handelsexperten/i
 
+/starten sie mit.{1,10}(bitcoin|crypto|krypto)/i
 /sichere methode.{1,10}(bitcoin|crypto|krypto)/i
+/steigen sie jetzt.{1,10}(bitcoin|crypto|krypto)/i
 
 /wie kann man durch bitcoin/i
 
 # ETF (Exchange Traded Funds)
 # ------------------------------------------------------------------------------
 /etf.{1,15}(einkommen|dauerhaftes|langzeitrendite)/i
+/etf.{1,15}sicheren? investments?/i
 
 /kryptogeld.?etf/i
 /(bitcoin|crypto|krypto).?etf/i
