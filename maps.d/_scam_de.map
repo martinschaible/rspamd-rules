@@ -10,6 +10,7 @@
 # Intros, strange stories
 # ------------------------------------------------------------------------------
 /ich suche eine zuverlässige.{1,10}ehrliche/iu
+/ihre.{1,10}e..?mail.{1,10}wurde in der liste der betrugsopfer gefunden/i
 
 #
 #
@@ -67,6 +68,7 @@
 # Fake Organisations
 # ------------------------------------------------------------------------------
 /entschädigungs.?kommission.{1,10}vereinten nationen/i
+/europäische.{1,10}entschädigungsstelle/iu
 
 /bankgruppen.{1,10}republik benin/i
 
@@ -194,6 +196,10 @@
 /erbschafts.{1,10}entschädigungs.?zahlung/iu
 
 /antworten sie.{1,10}ihr geld anfordern/i
+
+#
+/entschädigt google sie mit/iu
+/(million|dollar|euro?|gbp|usd).{1,10}die nutzung.{1,10}google browsers/i
 
 # Share the same name
 # ------------------------------------------------------------------------------

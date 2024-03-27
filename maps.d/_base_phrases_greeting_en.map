@@ -247,7 +247,7 @@
 /i.?a?m a?.{0,10}consultant (mandate|mr)/i
 /i.?a?m a?.{0,10}digital.{1,10}marketing.{1,10}(consultant|expert|specialist)/i
 /i.?a?m a?.{0,10}expert.{1,10}trader/i
-/i.?a?m a?.{0,25}(financial|investment|investor).{1,10}(broker|consultant|funds|philanthropist)/i
+/i.?a?m a?.{0,25}(financial|investment|investor).{1,10}(consultant|funds|philanthropist)/i
 /i.?a?m a?.{0,15}professional.{1,10}(graphic designer|investment)/i
 /i.?a?m a?.{0,10}medical scientist/i
 /i.?a?m a?.{5,25}sales.{1,10}(manager|representative)/i
@@ -258,8 +258,11 @@
 
 /i.?a?m a?.{0,10}representative of/i
 /i.?a?m a?.{0,10}investment.portfolio.manager/i
-/i.?a?m a?.{5,25}private.{1,10}(agent|investor|investment.broker|secretary)/i
+/i.?a?m a?.{5,25}private.{1,10}(agent|investor|secretary)/i
 /i.?a?m a?.{5,25}from the federal/i
+
+/i.?a?m a?.{5,25}broker.{1,10}financial/i
+/i.?a?m a?.{5,25}(financial|investment|investor).{1,10}broker/i
 
 /i.?a?m.{1,10}the principal accountant/i
 /i.?a?m (mrs?|ms).{5,25}(barrister|solicitor)/i
@@ -306,6 +309,7 @@
 # Religious
 # ------------------------------------------------------------------------------
 /message finds you well.{1,10}by the grace of allah/i
+/may the peace of the lord/i
 
 # Surprise
 # ------------------------------------------------------------------------------

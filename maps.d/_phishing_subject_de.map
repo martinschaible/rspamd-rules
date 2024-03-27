@@ -25,6 +25,7 @@
 /(aktualisieren?|bestätigen?) (deine|sie).{1,10}(konto|sicherheits).?informationen/i
 
 /konto bleibt begrenzt/i
+/konto braucht ihre aufmerksamkeit/i
 /konto ist nicht konform/i
 /konto ist möglicherweise eingeschränkt/iu
 /konto erfordert eine maßnahme/i
@@ -245,6 +246,7 @@
 /kostenlos ein.{1,20}zu erhalten/i
 
 /gewinnen.{1,10}jetzt bestätigen/iu
+/gewinnen sie einen.{1,15}wunschgutschein/i
 
 /du gehörst zu den auserwählten/ui
 

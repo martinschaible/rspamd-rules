@@ -7,6 +7,8 @@
 
 # Attention, Important
 # ------------------------------------------------------------------------------
+/!attention/i
+
 /(attn|attention).{1,10}e?.?mail.?(address|id).?owner/i
 /(attn|attention).{1,10}(dear|please)/i
 
@@ -44,6 +46,7 @@
 
 # Religious
 /greetings?.{1,10}in the name of god/i
+/may the peace of the lord/i
 /peace be with you/i
 
 # Confidential
