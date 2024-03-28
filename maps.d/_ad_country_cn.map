@@ -132,6 +132,8 @@
 /we.?a?re.{1,10}(manufacturer|manufactuer).{1,10}exporter/i
 /we.?a?re.{1,10}(manufacturer|manufactuer).{1,10}specialize/i
 
+/we.?a?re.{1,10}manufacturing.{1,10}company of/i
+
 /we.?a?re.{1,10}(professional|reliable).{1,10}(factory|distributor)/i
 /we.?a?re.{1,10}(professional|reliable).{1,20}products?.{1,10}(company|manufacturer?|supplier)/i
 /we.?a?re.{1,10}(professional|reliable).{1,10}(manufacturer?|manufacturing).{1,10}(factory|specialized)/i
@@ -162,7 +164,10 @@
 /we pride ourselves.{1,10}being.{1,10}leading manufacturer/i
 
 /i am.{5,25}as a leading manufacturer/i
+/i am.{5,25}our company is/i
 /i am.{1,10}writing.{1,10}introduce our company/i
+
+/as a leading.{1,10}company.{1,10}engaged/i
 
 /has been in this field for more than.{1,10}years/i
 
@@ -353,7 +358,7 @@
 /you (interested||looking|need).{1,10}injection.{1,10}mold(ing)?/i
 /you (interested||looking|need).{1,10}reliable.{1,10}experienced.{1,10}plastic/i
 
-/we.?a?re.{1,10}(professional|reliable).{1,20}mold(ing)?/i
+/we.?a?re.{1,10}(professional|reliable).{1,20}(injection|mold|molding)?/i
 /we.?a?re.{1,10}injection.{1,10}mould fabricator/i
 
 /we can handle.{1,10}injection.{1,10}mold(ing)?/i
@@ -369,7 +374,8 @@
 /(pcba?|printed.circuit.board).{1,10}(factory|supplier).{1,10}you can contact/i
 /(pcba?|printed.circuit.board).{1,10}(factory|supplier).{1,10}we.{1,10}(offer|specializing|provide)/i
 
-/(pcba?|printed.circuit.board).{1,10}manufacturer with good quality/i
+/(pcba?|printed.circuit.board).{1,10}manufacturer.{1,10}the company has/i
+/(pcba?|printed.circuit.board).{1,10}manufacturer.{1,10}with good quality/i
 /(pcba?|printed.circuit.board).{1,10}we can offer.{1,10}the best/i
 /(pcba?|printed.circuit.board).{1,10}from.{1,10}(china|shenzhen)/i
 /(pcba?|printed.circuit.board).{1,10}website.{1,10}www/i
