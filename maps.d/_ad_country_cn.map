@@ -221,7 +221,7 @@
 
 /co.{1,5}(limited|ltd).{1,10}trading company/i
 /co.{1,5}(limited|ltd).{1,10}our company/i
-
+/co.{1,5}(limited|ltd).{1,10}mobile.?whatsapp/i
 
 /(commerce|electronic|machinery).{1,10}(co|limited|ltd)/i
 
@@ -267,6 +267,7 @@
 # Cases
 # ------------------------------------------------------------------------------
 /we are.{1,15}case.{1,10}manufacturer/i
+/We are.{1,15}(aluminum|carrying).{1,15}case.{1,10}manufacturer/i
 /we offer.{1,10}aluminum.{1,10}case/i
 
 # CNC
