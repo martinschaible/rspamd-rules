@@ -38,7 +38,7 @@
 # ------------------------------------------------------------------------------
 /(big|tiny|your).?belly/i
 /fat.?(burn(er)?|burning|melting)/i
-/(burn|shed).?(lbs|pounds)/i
+/(burn|shed).?(fat|lbs|pounds)/i
 
 /calorie.?booster/i
 /breakfast.?hack/i
@@ -57,6 +57,9 @@
 /magic.?drink/i
 
 /o.{0,3}p.{0,3}r.{0,3}a.{0,3}h/i
+
+# Prdoducts
+/3d.?slim/i
 
 #
 #
