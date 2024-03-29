@@ -59,11 +59,14 @@
 /sie aus irgendeinem grund ein(en)?.{1,15}(darlehen|kredit)/iu
 /sie benötigen.{1,10}dringend.{1,10}ein(en)?.{1,15}(darlehen|kredit)/iu
 /sie benötigen.{1,10}günstig.{1,15}(darlehen|kredit)/iu
+/sie einen.{1,15}sofortkredit/i
+
 /sie.{1,15}(dringend|heute).{1,15}ein(en)?.{1,15}(darlehen|kredit)/iu
 
 /sie einen seriösen.{1,10}zuverlässigen.{1,10}kreditgeber/iu
 
 /suchen sie.{1,10}ein(en)?.{1,15}(darlehen|kredit)/iu
+/sofortkredit.{1,15}ohne sicherheiten/i
 
 #
 /geschäfts.?kredit.{1,10}und.{1,10}privat.?kredit/iu
@@ -73,6 +76,8 @@
 /unser geschäft ist die kreditvergabe/iu
 
 #
+/angebot für einen günstigen.{1,15}kredit/iu
+
 /kreditarten sind wir zertifiziert/i
 
 /bewerben sie sich.{1,15}(darlehen|kredit)/i
