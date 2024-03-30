@@ -9,12 +9,15 @@
 
 # Stocks
 # ------------------------------------------------------------------------------
+/potential.{1,10}short.{1,10}squeeze.{1,10}stocks/i
 
 # Stock Symbol
 # ------------------------------------------------------------------------------
 /(corp|corporation|inc).{1,5}stock.{1,10}symbol:/i
 /(corp|corporation|inc).{1,5}otc.{1,15}(is an|manufactures)/i
 /(corp|corporation|inc).{1,5}nasdaq.{1,35}symbols?/i
+
+/holdings ltd.{1,5}nasdaq/i
 
 /stock symbol.{1,15}(current share|for more information)/i
 
