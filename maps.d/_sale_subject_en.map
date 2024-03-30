@@ -10,12 +10,15 @@
 /targeted.{1,10}e?.?mail.?list/i
 
 /e?.?mail.?list.{1,10}valid/i
+/e?.?mail.{1,10}marketing.{1,10}techniques/i
 
 /bulk.{1,10}e?.?mail.{1,10}(marketing|strategies)/i
-/effective.{1,10}e?.?mail.{1,10}campaigns?/i
+/(effective|strategic).{1,10}e?.?mail.{1,10}(campaigns?|marketing)/i
+
 /powerful.{1,10}bulk.{1,10}e?.?mail/i
 
 /elevate your sales/i
+/more customers with.{1,10}e?.?mail/i
 
 # Apps
 # ------------------------------------------------------------------------------
@@ -49,7 +52,7 @@ lead generation solution/i
 
 /boost your.{1,10}rankings/i
 
-/seo.{1,15}(package|plans?|pricing|proposal|services|success)/i
+/seo.{1,15}(expert|package|plans?|pricing|proposal|services|success)/i
 
 /full seo.?package/i
 
@@ -60,7 +63,7 @@ lead generation solution/i
 /site a seo/i
 
 # Google
-/1st (page|ranking) (in|of|on) (bing|google)/i
+/(1st|seo).{1,15}(page|ranking) (in|of|on) (bing|google)/i
 /top rank(ing)?.{1,10}(bing|google)/i
 
 /google 1st page/i
