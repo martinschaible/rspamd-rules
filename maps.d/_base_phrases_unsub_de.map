@@ -31,6 +31,7 @@
 
 # Why somebody gets the advertising, which are lies
 # ------------------------------------------------------------------------------
+/weil sie an einem.{1,15}wettbewerb im internet teilgenommen haben/i
 /weil sie sich für.{1,10}e?.?mail.?werbung.{1,10}rabattaktionen/iu
 /weil sie sich für.{1,10}den erhalt von werbe.?e?.?mails des/iu
 
@@ -43,6 +44,10 @@
 /sie erhalten diesen?.{1,15}(e?.?mail|informationen|nachricht|newsletter).{1,10}aufgrund ihrer registrierung bei unseren portalen/i
 
 /angekreuzt haben.{1,10}in dem sie einer.{1,15}kontaktaufnahme/i
+
+/wir senden ihnen diesen?.{1,15}(e?.?mail|informationen|nachricht|newsletter).{1,10}weil sie an einem wettbewerb/i
+
+/daher die erlaubnis zum senden einer.{1,10}e?.?mail haben/i
 
 #
 #

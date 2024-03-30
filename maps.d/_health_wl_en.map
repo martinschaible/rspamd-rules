@@ -90,8 +90,11 @@
 # ------------------------------------------------------------------------------
 /(recipe|tea).{1,10}lose.{1,10}f(lbs|pounds).{1,10}(a|per) week/i
 
+/shrinks your.{1,10}belly overnight/i
 /(fat|weight).?burning.{1,10}(compound|powder)/i
 /(fat|weight).?burning.{1,10}super.?drink/i
+
+/(lbs|pounds) fast by drinking/i
 
 /flower.{1,10}better than.{1,10}diet/i
 
