@@ -111,7 +111,8 @@
 
 /mein name ist sir/i
 /mein name ist.{1,10}barr(\.|ister)/i
-/mein name ist.{1,10}(frau|herr|mrs?|ms|leutnant)/i
+/mein name ist.{1,10}(mrs?|ms|leutnant)/i
+/mein name ist.{5,25}(frau|fräulein|herr)/iu
 
 /mein name ist.{5,25}aus indien/i
 /mein name ist.{5,25}deutscher? herkunft/i
@@ -202,6 +203,8 @@
 /ich grüße (dich|sie).{1,10}im namen des herrn/iu
 
 /möge der friede des herrn mit dir sein/iu
+
+/guten morgen.{1,10}geliebt in christus/i
 
 # Surprise
 # ------------------------------------------------------------------------------
