@@ -403,8 +403,8 @@
 /we.{1,10}focus on pcba?/i
 /we.{1,10}have focused.{1,10}manufacturing.{1,10}(pcba?|printed circuitboard)/i
 
-/we.{1,10}(offer|specializing|provide).{1,10}(pcba?|printed circuit board).{1,10}(assembly|layers|production|products?)/i
-/we.{1,10}(offer|specializing|provide).{1,10}you with.{1,15}(pcba?|printed circuit board)/i
+/we.{1,10}(offer|specialized|specializing|provide).{1,10}(pcba?|printed circuit board).{1,10}(assembly|layers|production|products?|quick turn)/i
+/we.{1,10}(offer|specializing|specialized|provide).{1,10}you with.{1,15}(pcba?|printed circuit board)/i
 
 /we.?a?re.{1,10}(pcba?|printed circuit board).{1,25}manufacturer/i
 
@@ -414,7 +414,8 @@
 /you.{1,10}have requirements on.{1,20}(pcba?|printed circuit board)/i
 /you.{1,10}(looking for|may need).{1,10}(pcba?|printed circuit board)/i
 /you.{1,10}need.{1,10}(pcba?|printed circuit board).{1,10}supplier/i
-/you.{1,10}need to purchase.{1,10}(pcba?|printed circuit board)/i
+/you.{1,10}need.{1,10}(pcba?|printed circuit board).{1,10}in your field/i
+/you.{1,10}need.{1,10}purchase.{1,10}(pcba?|printed circuit board)/i
 /you.{1,10}proceed your.{1,10}(pcba?|printed circuit board).{1,10}project/i
 
 /you.{1,10}have.{1,15}(pcba?|printed circuit board).{1,15}(need|order)/i
@@ -441,6 +442,7 @@
 /logistics needs.{1,10}please let me know/i
 
 /doing shipping from.{1,10}china/i
+/provide freight.{1,10}logistics services/i
 /we.?a?re.{1,10}freight forwarding company/i
 
 /you have shipments from.{1,10}china/i

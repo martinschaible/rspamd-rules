@@ -243,6 +243,7 @@
 # ------------------------------------------------------------------------------
 /(gehe zu|ihnen einen link).{1,10}zu meinem.{1,10}profil/i
 
+/bin gerade auf dein.{1,10}profil gestoßen/i
 /ich bin zufällig auf.{1,10}profil/iu
 /klicke? hier.{1,10}um ihre.{1,10}profile?/i
 
@@ -253,11 +254,8 @@
 
 /lade sie zu meinem.{1,10}profil/i
 
-/mein.{1,10}profil.{1,10}auf dich warten/i
-/mein.{1,10}profil.{1,10}(dating.?seite|ist hier)/i
+/mein.{1,10}profil.{1,10}(auf dich warten|besuchen|dating.?seite|ist hier|wartet auf dich)/i
 /mein.{1,10}profil.{1,10}dating.?web.?site/i
-/mein.{1,10}profil.{1,10}ist hier/i
-/mein.{1,10}profil.{1,10}wartet auf dich/i
 /mein.{1,10}profil.{1,10}zuzugreifen.{1,10}mehr zu erfahren/i
 
 /mein(em)?.{1,10}(anonymen|dating|geheimen|privaten).{1,10}profil/i

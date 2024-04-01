@@ -266,7 +266,8 @@
 /i have.{1,10}proposition for you.{1,10}which will be/i
 /i have.{1,10}prospective job for you/i
 
-/i have access to.{1,10}vital information/i
+/i have.{1,10}access to.{1,10}vital information/i
+/i have.{1,10}scintillating deal for you/i
 
 /i have decided.{1,10}send.{1,15}proposal/i
 /i need you as.{1,10}foreign partner/i
@@ -353,7 +354,7 @@
 
 # Transaction
 # ------------------------------------------------------------------------------
-/transaction.{1,10}if you are sure you can handle/i
+/transaction.{1,20}if you are (interested|sure you can handle)/i
 
 /you.{1,10}help.{1,15}(manage|move|transfer).{1,15}(asset|sum)/i
 /you.{1,10}play.{1,20}role in the completion of this business/i
