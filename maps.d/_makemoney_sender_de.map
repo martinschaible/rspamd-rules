@@ -20,10 +20,11 @@
 # ------------------------------------------------------------------------------
 /investition/i
 /investo(en)?.update/i
-/(bank(en)?|investment).?(beratung|berater)/i
+/(bank(en)?|investment).?(beratung|berater|call.?center)/i
 
 /lukrative.gelegenheit/i
 /neue.investitionen/i
+/ihr investment/i
 
 /(bankanlage|grund.?einkommen|reichtum)/i
 
@@ -32,7 +33,7 @@
 
 # Trading
 # ------------------------------------------------------------------------------
-/forex.?broker/i
+/forex.?(broker|handel)/i
 
 #
 #
