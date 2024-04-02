@@ -37,6 +37,8 @@
 /(lose|losing).{1,15}(fat|weight) with.{1,20}click below/i
 /(lose|losing).{1,10}average of.{1,10}(lbs|pounds)/i
 
+/lost.{1,10}(lbs|pounds) in.{1,15}(days|months)/i
+
 /(hack|secret|trick).{1,10}burning.{1,10}fat/i
 /(hack|secret|trick).{1,10}(removes?|sheds).{1,10}(lbs|pounds)/i
 
@@ -46,6 +48,8 @@
 
 /drop.{1,15}(lbs|pounds) while.{1,10}sleep/i
 /(drop unwanted|ways? to burn).{1,10}(lbs|pounds)/i
+
+/down.{1,10}(lbs|pounds).{1,10}after.{1,15}(month|weeks)/i
 
 /you struggling.{1,10}lose weight/i
 /you lose weight really fast/i
