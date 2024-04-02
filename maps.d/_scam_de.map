@@ -31,9 +31,12 @@
 
 /ihre.{1,10}geldautomatenkarte im wert von/i
 /ihre.{1,10}zahlung.{1,10}atm.{0,10}karte/i
+/ihren namen ausgestellte.{1,10}geldautomatenkarte/i
 
 /lieferung ihrer.{1,10}atm.{0,10}karte/i
 /zahlung an sie.{1,10}eine atm.{0.10}karte/i
+
+/visa.?bankomatkarte.{1,10}(einlösen|kann überall)/iu
 
 # Beneficiary
 # ------------------------------------------------------------------------------
@@ -94,6 +97,7 @@
 /(dollar|euro?|gbp|usd).{1,10}der ihrem namen zugeordnet ist/i
 
 /wir haben einen nicht eingeforderten betrag/i
+/sie.{1,10}million.{1,10}(dollar|euro?|gbp|usd).{1,10}auf ihrem konto erhalten/i
 
 # Funds, Money - Sharing
 # ------------------------------------------------------------------------------
@@ -231,6 +235,7 @@
 
 /sie.{1,10}eine.{1,10}transaktion.{1,15}zu kontaktieren/i
 /sie.{1,10}zu bitten.{1,10}mir dabei zu helfen.{1,10}geld/i
+/sie mir helfen.{1,15}geld.{1,10}millionen/i
 /kontaktiere sie bezüglich einer.{1,10}transaktion/iu
 
 # Trustworthy Person

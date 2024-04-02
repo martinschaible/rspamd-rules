@@ -87,7 +87,7 @@
 /good (day|morning).{1,10}this is.{5,25}from/i
 /good (day|morning).{1,15}this might come.{1,10}surprise/i
 
-/good (day|morning).{1,15}our company.{1,10}established/i
+/good (day|morning).{1,15}our company.{1,10}(established|specialized|specializing)/i
 /good (day|morning).{1,10}our.{1,10}investors/i
 
 /good (day|morning).{1,10}(sir|madam).{1,10}i am.{5,25}sales.?manager/i

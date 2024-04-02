@@ -78,7 +78,8 @@
 /reife.?dates?/i
 
 /online.?dating.?club/i
-/online.?dating.{1,20}warten sie nicht/i
+/online.?dating.{1,20}(für alle|warten sie nicht)/iu
+/online.?dating.{1,10}bezahlen/i
 
 /(kostenlos|online).{1,10}sex.?(dating|treffen)/i
 /(kostenlos|online).{1,10}(dating|treffen).{1,10}sex/i

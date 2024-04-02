@@ -27,6 +27,8 @@
 
 /(swiss|multiply your).{1,10}(bitcoin|btc|crypto)/i
 
+/dear crypto user/i
+
 # Bitcoin mining
 # ------------------------------------------------------------------------------
 /our platform for.{1,15}bitcoin mining/i
@@ -53,6 +55,7 @@
 # NFT
 # ------------------------------------------------------------------------------
 /latest nft collection/i
+/free.{1,10}nft.?offer/i
 
 # NAGA Coin
 # ------------------------------------------------------------------------------
