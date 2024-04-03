@@ -48,66 +48,67 @@
 
 # Intros, specific China
 # ------------------------------------------------------------------------------
-/(china|dongguan|guangzhou|shenzhen|zhejiang).{1,10}are.{1,10}professional.{1,10}manufacturer/i
-/(china|dongguan|guangzhou|shenzhen|zhejiang).{1,10}based{1,20}(freight|international){1,20}forwarder/i
-/(china|dongguan|guangzhou|shenzhen|zhejiang).{1,10}do you have.{1,10}business/i
-/(china|dongguan|guangzhou|shenzhen|zhejiang).{1,10}factory.{1,10}specializes.{1,10}producing/i
-/(china|dongguan|guangzhou|shenzhen|zhejiang).{1,10}(my|our).{1,10}(company|factory).{1,10}(offers|specialized|specializes)/i
-/(china|dongguan|guangzhou|shenzhen|zhejiang).{1,20}supply all kinds of.{1,10}quality/i
-/(china|dongguan|guangzhou|shenzhen|zhejiang).{1,10}hope to open.{1,10}(business|relationship)/i
+/(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).{1,10}are.{1,10}professional.{1,10}manufacturer/i
+/(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).{1,10}based{1,20}(freight|international){1,20}forwarder/i
+/(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).{1,10}do you have.{1,10}business/i
+/(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).{1,10}factory.{1,10}specializes.{1,10}producing/i
+/(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).{1,10}(my|our).{1,10}(company|factory).{1,10}(offers|specialized|specializes)/i
+/(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).{1,20}supply all kinds of.{1,10}quality/i
+/(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).{1,10}hope to open.{1,10}(business|relationship)/i
 
-/(china|dongguan|guangzhou|shenzhen|zhejiang).{1,10}our company mainly do/i
-/(china|dongguan|guangzhou|shenzhen|zhejiang).{1,10}our products include/i
-/(china|dongguan|guangzhou|shenzhen|zhejiang).{1,10}our main products/i
+/(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).{1,10}our company mainly do/i
+/(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).{1,10}our products include/i
+/(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).{1,10}our main products/i
 
-/(china|dongguan|guangzhou|shenzhen|zhejiang).{1,10}we can handle all kinds/i
-/(china|dongguan|guangzhou|shenzhen|zhejiang).{1,10}we can provide/i
-/(china|dongguan|guangzhou|shenzhen|zhejiang).{1,10}we are.{1,10}(company|factory|manufacturer|supplier)/i
-/(china|dongguan|guangzhou|shenzhen|zhejiang).{1,15}we are.{1,10}leading.{1,10}professional/i
+/(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).{1,10}we can handle all kinds/i
+/(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).{1,10}we can provide/i
+/(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).{1,10}we are.{1,10}(company|factory|manufacturer|supplier)/i
+/(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).{1,15}we are.{1,10}leading.{1,10}professional/i
 
-/(china|dongguan|guangzhou|shenzhen|zhejiang).{1,10}with over.{1,10}years of expertise/i
-/(china|dongguan|guangzhou|shenzhen|zhejiang).{1,10}you have any need for our/i
+/(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).{1,10}visit our web page/i
+/(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).{1,10}with over.{1,10}years of expertise/i
+/(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).{1,10}you have any need for our/i
 
 /china.{1,10}have a nice day/i
 /china.{1,10}to help you save cost/i
 
-/sales.?manager.{1,10}(china|dongguan|guangzhou|shenzhen|zhejiang)/i
-/factory.{1,10}located in.{1,10}(china|dongguan|guangzhou|shenzhen|zhejiang)/i
-/manufacturer with.{1,10}years experience.{1,15}(china|dongguan|guangzhou|shenzhen|zhejiang)/i
+/sales.?manager.{1,10}(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang)/i
+/factory.{1,10}located in.{1,10}(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang)/i
+/manufacturer with.{1,10}years experience.{1,15}(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang)/i
 
-/(co|limited|ltd).{1,10}(china|dongguan|guangzhou|shenzhen|zhejiang).{1,10}are you interested/i
-/(co|limited|ltd).{1,10}(dongguan|guangzhou|shenzhen|zhejiang).{1,10}china/i
-/(co|limited|ltd).{1,10}was established.{1,10}in (china|dongguan|guangzhou|shenzhen|zhejiang)/i
+/(co|limited|ltd).{1,10}(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).{1,10}are you interested/i
+/(co|limited|ltd).{1,10}(dongguan|guangdong|guangzhou|shenzhen|zhejiang).{1,10}china/i
+/(co|limited|ltd).{1,10}was established.{1,10}in (china|dongguan|guangdong|guangzhou|shenzhen|zhejiang)/i
 
-/co.{1,5}ltd.{1,10}(china|dongguan|guangzhou|shenzhen|zhejiang)/i
+/co.{1,5}ltd.{1,10}(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang)/i
 
-/this is.{5,25}from.{1,10}(china|dongguan|guangzhou|shenzhen|zhejiang)/i
+/this is.{5,25}from.{1,10}(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang)/i
 
-/our (company|factory) is manufacturing.{5,20}in.{1,10}(china|dongguan|guangzhou|shenzhen|zhejiang)/i
-/our (company|factory) in.{1,10}(china|dongguan|guangzhou|shenzhen|zhejiang).{1,10}is staffed/i
+/our (company|factory) is manufacturing.{5,20}in.{1,10}(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang)/i
+/our (company|factory) in.{1,10}(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).{1,10}is staffed/i
 
 /we are.{1,25}chinese.{1,10}leading/i
 /we are.{1,25}chinese.{1,15}(leading|manufacturer|supplier)/i
 
-/we are.{1,25}(china|dongguan|guangzhou|shenzhen|zhejiang).?(based)?.{1,10}(company|manufacturer?|supplier).{1,10}(of|offering|specializing)/i
+/we are.{1,25}(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).?(based)?.{1,10}(company|manufacturer?|supplier).{1,10}(of|offering|specializing)/i
 
-/we are.{1,25}(company|factory).{1,10}(based|from|located).{1,15}(china|dongguan|guangzhou|shenzhen|zhejiang)/i
-/we are.{1,25}(professional|tooling).{1,15}manufacturer?.{1,10}(china|dongguan|guangzhou|shenzhen|zhejiang)/i
-/we are.{1,25}manufacturer.{1,10}(directly|from|in).{1,10}(china|dongguan|guangzhou|shenzhen|zhejiang)/i
+/we are.{1,25}(company|factory).{1,10}(based|from|located).{1,15}(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang)/i
+/we are.{1,25}(professional|tooling).{1,15}manufacturer?.{1,10}(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang)/i
+/we are.{1,25}manufacturer.{1,10}(directly|from|in).{1,10}(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang)/i
 
-/we are.{1,10}one of the biggest.{1,10}(china|dongguan|guangzhou|shenzhen|zhejiang)/i
+/we are.{1,10}one of the biggest.{1,10}(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang)/i
 
-/professional.{1,25}fabrication.{1,10}factory in.{1,10}(china|dongguan|guangzhou|shenzhen|zhejiang)/i
+/professional.{1,25}fabrication.{1,10}factory in.{1,10}(china|dongguan|guangzhou|guangdong|shenzhen|zhejiang)/i
 
-/with.{1,10}years experience.{1,10}(china|dongguan|guangzhou|shenzhen|zhejiang)/i
-/with more than.{1,10}years of.{1,10}(china|dongguan|guangzhou|shenzhen|zhejiang)/i
+/with.{1,10}years experience.{1,10}(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang)/i
+/with more than.{1,10}years of.{1,10}(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang)/i
 
-/which is.{1,10}professional.{1,15}manufacture.{1,10}(china|dongguan|guangzhou|shenzhen|zhejiang)/i
+/which is.{1,10}professional.{1,15}manufacture.{1,10}(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang)/i
 
 /your.{1,15}sourcing agent.{1,10}china/i
 /your.{1,15}china.{1,10}sourcing agent/i
 
-/contacting you from.{1,10}(china|dongguan|guangzhou|shenzhen|zhejiang)/i
+/contacting you from.{1,10}(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang)/i
 /leading supplier of.{1,15}capacitors.{1,15}(from|in) china/i
 
 /moulding services.{1,15}(from|in) china/i
@@ -117,11 +118,11 @@
 
 # Intros
 # ------------------------------------------------------------------------------
-/we.?a?re.{1,15}(company|factory).{1,10}with.{1,10}years experience/i
-/we.?a?re.{1,15}(company|factory).{1,15}offer good quality/i
-/we.?a?re.{1,15}(company|factory).{1,10}that.{1,10}provide/i
-/we.?a?re.{1,15}(company|factory).{1,10}(specialized|specializing) in.{1,10}manufacture/i
-/we.?a?re.{1,15}(company|factory).{1,10}products include/i
+/we.?a?re.{1,20}(company|factory).{1,10}with.{1,10}years experience/i
+/we.?a?re.{1,20}(company|factory).{1,15}offer good quality/i
+/we.?a?re.{1,20}(company|factory).{1,10}that.{1,10}provide/i
+/we.?a?re.{1,20}(company|factory).{1,10}(specialized|specializing) in.{1,10}manufacture/i
+/we.?a?re.{1,20}(company|factory).{1,10}products include/i
 
 /we.?a?re.{1,10}(excellent|leader|leading|product).{1,10}(manufacturer|supplier)/i
 /we.?a?re.{1,10}leader oem.{1,10}manufacturer/i
@@ -129,24 +130,24 @@
 /we.?a?re.{1,10}importer.{1,10}distributor/i
 
 /we.?a?re.{1,25}(manufacturer|manufactuer) (in|of)/i
-/we.?a?re.{1,10}(manufacturer|manufactuer).{1,10}exporter/i
-/we.?a?re.{1,10}(manufacturer|manufactuer).{1,10}specialize/i
+/we.?a?re.{1,20}(manufacturer|manufactuer).{1,10}exporter/i
+/we.?a?re.{1,20}(manufacturer|manufactuer).{1,10}specialize/i
 
 /we.?a?re.{1,10}manufacturing.{1,10}company of/i
 
-/we.?a?re.{1,10}(professional|reliable).{1,10}(factory|distributor)/i
-/we.?a?re.{1,10}(professional|reliable).{1,20}products?.{1,10}(company|manufacturer?|supplier)/i
-/we.?a?re.{1,10}(professional|reliable).{1,10}(manufacturer?|manufacturing).{1,10}(factory|specialized)/i
+/we.?a?re.{1,20}(professional|reliable).{1,10}(factory|distributor)/i
+/we.?a?re.{1,20}(professional|reliable).{1,20}products?.{1,10}(company|manufacturer?|supplier)/i
+/we.?a?re.{1,20}(professional|reliable).{1,10}(manufacturer?|manufacturing).{1,10}(factory|specialized)/i
 
-/we.?a?re.{1,10}(professional|reliable).{1,10}(manufacturer?|manufacturing) (for|of|with)/i
-/we.?a?re.{1,10}(professional|reliable).{1,10}supplier (for|of|with)/i
+/we.?a?re.{1,20}(professional|reliable).{1,10}(manufacturer?|manufacturing) (for|of|with)/i
+/we.?a?re.{1,20}(professional|reliable).{1,10}supplier (for|of|with)/i
 
 /we.?a?re.{1,10}national high.?tech.{1,10}enterprise/i
 
 /we are.{1,20}products?.{1,10}(company|manufacturer?|supplier)/i
-/we are.{1,10}iso.{1,15}certified company/i
-/we are.{1,15}fast.{1,10}growing distributor/i
-/we are.{1,10}at.{1,10}(hard.?to.?find|short.?lead.?time)/i
+/we are.{1,20}iso.{1,15}certified company/i
+/we are.{1,20}fast.{1,10}growing distributor/i
+/we are.{1,20}at.{1,10}(hard.?to.?find|short.?lead.?time)/i
 
 /we are.{1,10}specialized?.{1,10}in.{1,10}production of/i
 /we are.{1,10}specialized?.{1,10}in.{1,15}manufacturing/i
@@ -362,6 +363,7 @@
 
 /we.?a?re.{1,10}(professional|reliable).{1,20}(injection|mold|molding)?/i
 /we.?a?re.{1,10}injection.{1,10}mould fabricator/i
+/we.?a?re.{1,10}plastic parts (company|factory)/i
 
 /we can handle.{1,10}injection.{1,10}mold(ing)?/i
 /we focus on.{1,10}injection.{1,10}mold(ing)?/i
