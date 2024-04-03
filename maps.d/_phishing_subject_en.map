@@ -20,6 +20,8 @@
 /unusual activity on your account/i
 /update to the new.{1,20}account/i
 
+/your.{1,15}account has been frozen/i
+
 # Account - 2FA Activation
 # ------------------------------------------------------------------------------
 /action required.{1,10}enable 2fa/i
@@ -133,3 +135,11 @@
 
 # Masked
 # ------------------------------------------------------------------------------
+
+#
+#
+#
+
+# SPANISH
+# ------------------------------------------------------------------------------
+/verificacion de numero de telefono.{1,10}id/i

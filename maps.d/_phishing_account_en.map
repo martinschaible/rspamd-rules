@@ -16,6 +16,7 @@
 # ------------------------------------------------------------------------------
 /your.{1,15}account.{1,15}has been temporarily (restricted|suspended)/i
 /your.{1,15}account.{1,15}below to avoid.{1,10}permanent account/i
+/your.{1,15}account.{1,15}regain access.{1,15}complete.{1,10}required/i
 
 # Account - Confirm or reconfirm identity
 # ------------------------------------------------------------------------------
@@ -23,7 +24,7 @@
 
 /confirm your.{1,15}account ownership to.{1,15}password/i
 
-/dear (customer|madam|sir).{1,10}we recently detected an issue/i
+/dear.{1,10}(customer|madam|sir).{1,10}we recently detected an issue/i
 
 /re.?authenticate now/i
 
@@ -39,6 +40,8 @@
 # Account - Verification
 # ------------------------------------------------------------------------------
 /your.{1,15}account.{1,15}with us.{1,10}verify below/i
+
+/verify your identity.{1,20}account has been.{1,20}locked/i
 
 # Account - Account & User options
 # ------------------------------------------------------------------------------
