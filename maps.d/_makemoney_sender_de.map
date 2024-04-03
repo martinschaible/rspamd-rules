@@ -9,8 +9,12 @@
 # ------------------------------------------------------------------------------
 /(bit?coin|crypto|krypto).?(beratung|berater|bulletin|einblick|geld|handel|händler|invest(ment)?|nachrichten)/i
 
-/krypto\n/i
-/krypto\r/i
+/bit?coin$/i
+/krypto$/i
+
+# Does not work
+#/krypto\n/i
+#/krypto\r/i
 
 # ETF (Exchange Traded Funds)
 # ------------------------------------------------------------------------------
