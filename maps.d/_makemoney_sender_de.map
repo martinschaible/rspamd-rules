@@ -32,8 +32,10 @@
 
 /(bankanlage|grund.?einkommen|reichtum)/i
 
-/ihre auszahlung/i
+/(dividenden|ihre) auszahlung/i
 /reich.{1,10}sein/i
+
+/alpen.?invest/i
 
 # Trading
 # ------------------------------------------------------------------------------
