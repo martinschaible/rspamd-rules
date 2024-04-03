@@ -5,25 +5,6 @@
 #  10 | English        |
 # ==============================================================================
 
-# Address lists for spamming, EMail Marketing
-# ------------------------------------------------------------------------------
-/targeted.{1,10}e?.?mail.?list/i
-
-/e?.?mail.?list.{1,10}valid/i
-/e?.?mail.{1,10}marketing.{1,10}techniques/i
-
-/bulk.{1,10}e?.?mail.{1,10}(marketing|strategies)/i
-/(effective|strategic).{1,10}e?.?mail.{1,10}(campaigns?|marketing)/i
-
-/powerful.{1,10}bulk.{1,10}e?.?mail/i
-
-/elevate your sales/i
-/more customers with.{1,10}e?.?mail/i
-
-# Apps
-# ------------------------------------------------------------------------------
-/app.?(development|proposal)/i
-
 # Cushion
 # ------------------------------------------------------------------------------
 /seat cushion/i
@@ -49,6 +30,72 @@ lead generation solution/i
 # ChatGPT Prompts
 # ------------------------------------------------------------------------------
 /chatgpt prompts bundle/i
+
+# Software (illegal)
+# ------------------------------------------------------------------------------
+
+# Streaming TV
+# ------------------------------------------------------------------------------
+/\d{3,4}.{1,10}worldwide.channels/i
+
+# Surveillance Camera
+# ------------------------------------------------------------------------------
+
+# Watches, Replicas
+# ------------------------------------------------------------------------------
+/designer watches (for just|on sale|starting at)/i
+/discount designer watches/i
+
+/rolex.?watch(es)?.{1,10}up to.{1,10}off/i
+
+# Web-Design/Development
+# ------------------------------------------------------------------------------
+/custom.{1,15}web.?site.?design/i
+/considering.{1,10}new web.?site/i
+
+/(home.?page|web.?site).{1,10}(remake|upgrade|upgrading)/i
+/(home.?page|web.?site).{1,10}design.{1,10}development/i
+/(home.?page|web.?site).{1,10}re.?design(ing)?.{1,10}re.?make/i 
+
+/business web.?site design/i
+/web.?development offer/i
+
+/upgrade your.{1,10}business web.?site/i
+/upgrade your.{1,15}web.?site today/i
+
+/web.?development.{1,10}special offer/i
+
+# Streaming TV
+# ------------------------------------------------------------------------------
+/worldwide channels.{1,10}movies/i
+
+# Wifi
+# ------------------------------------------------------------------------------
+/wifi.?freedom/i
+
+#
+#
+#
+
+# Address lists for spamming, EMail Marketing
+# ------------------------------------------------------------------------------
+/targeted.{1,10}e?.?mail.?list/i
+
+/e?.?mail.?list.{1,10}valid/i
+/e?.?mail.{1,10}marketing.{1,10}techniques/i
+
+/bulk.{1,10}e?.?mail.{1,10}(marketing|strategies)/i
+/(effective|strategic).{1,10}e?.?mail.{1,10}(campaigns?|marketing)/i
+
+/powerful.{1,10}bulk.{1,10}e?.?mail/i
+
+/elevate your sales/i
+/more customers with.{1,10}e?.?mail/i
+
+# Apps
+# ------------------------------------------------------------------------------
+/app!!/i
+/app.?(development|proposal)/i
 
 # SEO
 # ------------------------------------------------------------------------------
@@ -94,48 +141,6 @@ lead generation solution/i
 # Social Media
 # ------------------------------------------------------------------------------
 /instagram followers.{1,10}limited offer/i
-
-# Software (illegal)
-# ------------------------------------------------------------------------------
-
-# Streaming TV
-# ------------------------------------------------------------------------------
-/\d{3,4}.{1,10}worldwide.channels/i
-
-# Surveillance Camera
-# ------------------------------------------------------------------------------
-
-# Watches, Replicas
-# ------------------------------------------------------------------------------
-/designer watches (for just|on sale|starting at)/i
-/discount designer watches/i
-
-/rolex.?watch(es)?.{1,10}up to.{1,10}off/i
-
-# Web-Design/Development
-# ------------------------------------------------------------------------------
-/custom.{1,15}web.?site.?design/i
-/considering.{1,10}new web.?site/i
-
-/(home.?page|web.?site).{1,10}(remake|upgrade|upgrading)/i
-/(home.?page|web.?site).{1,10}design.{1,10}development/i
-/(home.?page|web.?site).{1,10}re.?design(ing)?.{1,10}re.?make/i 
-
-/business web.?site design/i
-/web.?development offer/i
-
-/upgrade your.{1,10}business web.?site/i
-/upgrade your.{1,15}web.?site today/i
-
-/web.?development.{1,10}special offer/i
-
-# Streaming TV
-# ------------------------------------------------------------------------------
-/worldwide channels.{1,10}movies/i
-
-# Wifi
-# ------------------------------------------------------------------------------
-/wifi.?freedom/i
 
 #
 #
