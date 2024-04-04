@@ -20,6 +20,9 @@
 # White color and small font size
 /<(div|span) style=(3d)?"color:.?#ffffff;.?font-size:.?[1-7]]px;">/i
 
+# Small font size
+/<p style=(3d)?"text-align:.?§right;"><span style=(3d)?"font-size:.?8px;">/i
+
 # Strange stuff
 # ------------------------------------------------------------------------------
 /http:=(3d)?"" microsoft\.com=(3d)?""/i
