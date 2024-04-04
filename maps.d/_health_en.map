@@ -53,12 +53,15 @@
 
 # Fungus
 # ------------------------------------------------------------------------------
+/fungus.{1,10}free nails/i
+
 /(nail|toe).?fungus within.{1,10}days/i
 /toe.?nail.?fungus now/i
 
 /fix.{1,10}(nail|toe).?fungus/i
 /get rid of.{1,10}nasty nail/i
 
+/say goodbye.{1,10}(nail|toe).?fungus/i
 /stop suffering from.{1,10}(nail|toe).?fungus/i
 
 /natural.{1,10}(nail|toe).?fungus remedy/i

@@ -34,6 +34,10 @@
 # Meds
 /blue.?pill/i
 
+# Potency, Stamina
+# ------------------------------------------------------------------------------
+/ed.?treatment/i
+
 # Weightloss
 # ------------------------------------------------------------------------------
 /(big|tiny|your).?belly/i
@@ -54,7 +58,7 @@
 /lose.{1,10}weight/i
 
 /breakfast.?trick/i
-/magic.?drink/i
+/(diet|magic).?(drink|hack)/i
 
 /o.{0,3}p.{0,3}r.{0,3}a.{0,3}h/i
 
