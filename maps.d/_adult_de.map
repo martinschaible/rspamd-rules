@@ -85,7 +85,7 @@
 /(kostenlos|online).{1,10}(dating|treffen).{1,10}sex/i
 
 /ich möchte einen.{1,10}mann treffen/iu
-/Ich möchte jemanden finden/iu
+/ich möchte jemanden finden/iu
 
 /(direkt zum|garantiertes|jetzt ein|noch heute).{1,10}date/i
 
@@ -115,7 +115,7 @@
 
 /casual.?club.{1,10}kostenlos/i
 
-/community.{1,20}bekanntschaften/i
+/community.{1,20}(bekanntschaften|echte kontakte)/i
 
 /club.{1,10}singles/i
 
@@ -282,6 +282,7 @@
 # ------------------------------------------------------------------------------
 /lokale singles zu treffen/i
 /kontakt.{1,15}heißesten singles/iu
+/single.?frauen in kontakt/i
 
 # Website
 # ------------------------------------------------------------------------------
