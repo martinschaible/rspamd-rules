@@ -167,6 +167,7 @@
 /sie haben einen?.{1,15}(spende|zuschuss).{1,10}(erhalten|ich habe|in höhe von)/iu
 /sie sind mit.{1,15}(millionen|tausend|dollar|euro?|gbp|usd).{1,15}ausgezeichnet worden/i
 
+/sie wurden für eine.{1,15}spende von/i
 /sie wurden für eine.{1,15}spende (ausgewählt|in höhe von)/iu
 /sie wurden für einen.{1,10}zuschuss.{1,10}investition/iu
 /sie wurden für einen.{1,10}geldbetrag/i
@@ -175,6 +176,8 @@
 /sie wurden ausgewählt.{1,10}um.{1,10}\d{3}.{0,5}\d{3}.{1,10}zu erhalten/iu
 /sie wurden ausgewählt.{1,10}um.{1,10}eine.{1,10}spende/iu
 /sie wurden ausgewählt.{1,10}um.{1,10}den betrag von/iu
+
+/sie wurden autorisiert.{1,10}eine spende/i
 
 /sie wurden als einer der.{1,15}glücklichen empfänger ausgewählt/iu
 

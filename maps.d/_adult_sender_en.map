@@ -7,12 +7,12 @@
 
 # Adult: Dating and Porn
 # ------------------------------------------------------------------------------
-/(adult|erotic).?(dates?|dating|tiktok)/i
+/(adult|erotic|match(es)?).?(dates?|dating|tiktok)/i
 /portal.?dates?/i
 
 /(casual|tiktok).{0,10}adult/i
 
-/(date|dating).{0,10}(club|team|room)/i
+/(date|dating).{0,10}(club|offer|team|room)/i
 /dirty.?talk/i
 
 /escort.?girl/i
@@ -26,3 +26,5 @@
 
 /view.{0,10}singles/i
 /singles.?now/i
+
+/christian matches/i

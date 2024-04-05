@@ -63,7 +63,8 @@
 # Dating
 # ------------------------------------------------------------------------------
 /date.{1,10}(treffen|vereinbaren)/i
-/dating.{1,10}in deiner stadt/i
+
+/dating.{1,10}(in deiner stadt|singles treffen)/i
 
 /beste online.?dating/i
 
@@ -280,9 +281,11 @@
 
 # Singles
 # ------------------------------------------------------------------------------
-/lokale singles zu treffen/i
+/lokale.{1,10}singles zu treffen/i
 /kontakt.{1,15}heißesten singles/iu
 /single.?frauen in kontakt/i
+
+/jetzt.{1,10}singles in der nähe/iu
 
 # Website
 # ------------------------------------------------------------------------------
@@ -294,6 +297,8 @@
 /web.?site ist völlig kostenlos/iu
 
 /schreib mir bitte hier/i
+
+/neues? portal für.{1,15}dates/i
 
 # Links and Clicks
 # ------------------------------------------------------------------------------
@@ -362,6 +367,8 @@
 
 /trifft sich.{1,10}fickt/i
 
+/privat.?sex/i
+/sex.?gemeinschaft/i
 /sex-online/i
 
 # Anal

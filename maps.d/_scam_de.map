@@ -373,7 +373,6 @@
 
 /solar.?anlage.{1,10}die (ihren strom|richtige)/i
 
-/internet.?seite können sie kostenlos/i
 /unser kostenloses.{1,10}analyse.?tool/i
 
 /kostenloser solar.?rechner/i
@@ -382,7 +381,11 @@
 /unverbindlich.{1,10}kostenlos.{1,10}welche anlage/i
 /prüfen sie hier.{1,10}welche förderungen.{1,10}sie /iu
 /starten sie ihre kostenlose.{1,10}(analyse|berechnung)/i
-/vergleichsseite bieten wir.{1,10}eine kostenlose/i
+
+/(internet|vergleichs).?seite.{1,10}bieten wir.{1,10}eine kostenlose/i
+/(internet|vergleichs).?seite.{1,10}eine Berechnung durchführen/iu
+/(internet|vergleichs).?seite.{1,10}können sie kostenlos/i
+
 /wir ihnen einen kostenlosen überblick.{1,10}alle anlagen/i
 
 /als ihre energieberater hier/i

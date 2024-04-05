@@ -69,8 +69,10 @@
 /million.{1,10}(dollar|euro?|gbp|usd).{1,10}reply for more details/i
 /(million|dollars?|euro?|gbp|usd).{1,10}have been donated to you/i
 
-/you have been granted.{1,10}donation/i
-/you (have|received|will receive|won).{1,10}donation/i
+/you.{1,10}been granted.{1,10}donation/i
+/you.{1,10}been chosen.{1,10}receive.{1,20}donation/i
+/you.{1,10}(have|received|will receive|won).{1,20}donation/i
+/you.{1,15}are donation.{1,10}funds/i
 
 /your.{1,10}e?.?mail.{1,10}(account|address).{1,10}was selected for.{1,10}donation/i
 /your.{1,10}e?.?mail.{1,10}(account|address).{1,10}won.{1,10}donation/i
