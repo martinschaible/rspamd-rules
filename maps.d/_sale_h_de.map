@@ -128,7 +128,7 @@
 # ------------------------------------------------------------------------------
 /kugelschreiber.{1,10}(gummierung|gummiert|ihr logo|softgriff|werbeeindruck)/i
 /kugelschreiber.{1,10}individuellem.{1,10}druck/i
-/kugelschreiber.{1,10}erhältlich ab/iu
+/kugelschreiber.{1,10}(erhältlich|schon) ab/iu
 
 /(die neuen|erstklassige|gummierte|hochwertigen?|personalisierten|premium|softgriff).{1,20}kugelschreiber/i
 
@@ -140,7 +140,7 @@
 /unsere?.{1,10}kugelschreibermuster/i
 /unsere?.{1,10}einzigartigen.{1,10}kugelschreiber/i
 
-/sonderaktion.{1,15}kugelschreiber/i
+/(ihren individuellen|sonderaktion).{1,15}kugelschreiber/i
 
 #
 /werbe.?kugelschreiber mit/i
