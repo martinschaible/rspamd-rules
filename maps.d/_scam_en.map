@@ -244,10 +244,9 @@
 /business.{1,10}(opportunity|proposition|proposal|transaction).{1,10}for you.{1,10}contact me/i
 
 /business.{1,10}(partnership|relationship) that.{1,15}would be.{1,15}beneficial/i
-/business.{1,10}(partnership|relationship) with you.{1,15}in your country/i
+/business.{1,10}(partnership|relationship)? with you.{1,15}in your country/i
 
 /business.{1,10}request for you.{1,10}stand as.{1,10}partner/i
-/business.{1,20}with you in your country/i
 /business.{1,10}agreement to discuss/i
 
 /contacting you for.{1,10}potential.{1,10}business/i
@@ -266,14 +265,14 @@
 /i have.{1,10}project.{1,10}which may interest.{1,10}you.{1,20}good profit/i
 
 /i have.{1,10}proposition for you.{1,10}which will be/i
-/i have.{1,10}prospective job for you/i
 
 /i have.{1,10}access to.{1,10}vital information/i
-/i have.{1,10}scintillating deal for you/i
+/i have.{1,10}(lucrative|prospective|scintillating).{1,10}(deal|job).{1,10}for you/i
 
 /i have decided.{1,10}send.{1,15}proposal/i
-/i need you as.{1,10}foreign partner/i
 /i tried to send you.{1,10}proposal/i
+
+/i need you as.{1,10}foreign partner/i
 
 /i would like to propose.{1,10}business/i
 /I would like to discuss.{1,10}proposal with you/i

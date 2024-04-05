@@ -119,21 +119,15 @@
 
 /reverse.{1,10}tinnitus with this/i
 
-/breakthrough.{1,10}tinnitus/i
-/hack silences.{1,10}ringing ears/i
-/truth about tinnitus/i
+/(breakthrough|get rid of|stop|truth about).{1,10}tinnitus/i
+/(hidden cause|simple solution).{1,10}tinnitus/i
+/(fight|hack silences).{1,10}ringing ears/i
 
-/get rid of.{1,10}tinnitus/i
-
-/how to stop.{1,10}tinnitus/i
+/natural way.{1,10}combat.{1,10}tinnitus/i
 
 /hearing.?loss.{1,10}remedy/i
 /revolutionizing.{1,10}ear health/i
 /transform.{1,10}hearing/i
-
-/simple solution.{1,10}tinnitus/i
-/natural way.{1,10}combat.{1,10}tinnitus/i
-/hidden cause.{1,10}tinnitus/i
 
 #
 #
@@ -176,7 +170,7 @@
 /check out this.{1,10}amazing.{1,10}(mineral|solution)/i
 /click here.{1,15}discover.{1,15}amazing/i
 
-/fight.{1,10}ringing ears/i
+/follow this recently discovered/i
 
 /incredible.{1,10}secret.{1,10}(banish|recipe)/i
 /incredible.{1,10}discovery.{1,10}harvard scientists/i
