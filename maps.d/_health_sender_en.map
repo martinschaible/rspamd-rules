@@ -57,7 +57,7 @@
 /wl.?recipe/i
 /lose.{1,10}weight/i
 
-/breakfast.?trick/i
+/(breakfast|liposuction).?trick/i
 /(diet|magic).?(drink|hack)/i
 
 /o.{0,3}p.{0,3}r.{0,3}a.{0,3}h/i
@@ -254,6 +254,8 @@
 # ------------------------------------------------------------------------------
 /(prostate|prostatitis)/i
 /your.?pee/i
+
+/dribbling.{1,10}urine/i
 
 # Skin
 # ------------------------------------------------------------------------------
