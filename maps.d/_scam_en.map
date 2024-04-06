@@ -152,6 +152,7 @@
 
 # Important
 # ------------------------------------------------------------------------------
+/urgent.{1,10}there is.{1,10}unclaimed benefit/i
 
 # Inheritance
 # ------------------------------------------------------------------------------
@@ -330,6 +331,8 @@
 
 /sum of.{1,15}million.{1,10}(dollar|euro?|gbp|usd).{1,10}to you/i
 /usd compensation amount.{1,10}kindly reply back/i
+
+/unclaimed benefit.{1,15}to you/i
 
 /receive your compensation payment/i
 

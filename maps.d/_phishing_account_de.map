@@ -84,6 +84,7 @@
 
 /identität.{1,10}sie unsere dienste nutzen/iu
 
+/direkt identifizieren/i
 /haben sie ihre daten nicht bestätigt/iu
 
 /bestätigen sie mein konto/i
@@ -93,7 +94,8 @@
 /erforderlich.{1,20}konto zu aktualisieren/i
 
 /ihre.{1,25}daten in unserem system aktualisieren/i
-/ihre.{1,10}identität erneut bestätigen/i
+/ihre.{1,10}(identität|identifikation).{1,15}erneut bestätigen/i
+/ihre.{1,10}(identität|identifikation).{1,15}muss erneuert werden/i
 
 /nicht.{1,10}identifikations.?prozess.{1,10}abgeschlossen/i
 /nicht.{1,10}ihre daten bei uns.{1,15}bestätigt haben/iu
