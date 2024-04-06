@@ -108,11 +108,14 @@
 
 /paket.{1,10}(in der|ist in).{1,10}(warteschleife|wartestellung)/i
 
+/nicht zustellen.{1,10}da keine.{1,20}anwesend war/i
 /nachfolgenden produkt kann nicht zugestellt werden/i
 
 # Delivery confirm address
 # ------------------------------------------------------------------------------
 /lieferdetails mit uns bestätigen/iu
+
+/aktualisieren sie die lieferdetails/i
 
 /sie müssen.{1,10}ihre lieferinformationen bestätigen/iu
 /sie ihre versandzone/i
