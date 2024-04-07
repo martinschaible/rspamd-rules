@@ -240,7 +240,7 @@
 /proposition.{1,10}worth millions of dollars/i
 
 /business.{1,10}(opportunity|proposition|proposal|transaction).{1,10}please get back to me/i
-/business.{1,10}(opportunity|proposition|proposal|transaction).{1,10}discuss with you/i
+/business.{1,10}(opportunity|proposition|proposal|transaction).{1,15}discuss with you/i
 /business.{1,10}(opportunity|proposition|proposal|transaction).{1,10}(i would|that).{1,10}(like|want) to discuss/i
 /business.{1,10}(opportunity|proposition|proposal|transaction).{1,10}for consideration/i
 /business.{1,10}(opportunity|proposition|proposal|transaction).{1,10}for you.{1,10}contact me/i
@@ -250,6 +250,8 @@
 
 /business.{1,10}request for you.{1,10}stand as.{1,10}partner/i
 /business.{1,10}agreement to discuss/i
+
+/serious.{1,10}(opportunity|proposition|proposal|transaction).{1,15}discuss with you/i
 
 /contacting you for.{1,10}potential.{1,10}business/i
 /contacting you regarding.{1,10}(proposition|proposal)/i

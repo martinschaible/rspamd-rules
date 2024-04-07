@@ -265,7 +265,7 @@
 /gutscheine?.{1,10}im gesamtwert von/i
 /gutscheine?.{1,10}erinnerung/i
 
-/geschenksgutschein.{1,10}code/i
+/(einkauf|geschenk).{1,5}gutschein.{1,10}(kaufland|code)/i
 
 /hauptpreis geht an sie/i
 

@@ -88,16 +88,16 @@
 /our (company|factory) is manufacturing.{5,20}in.{1,10}(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang)/i
 /our (company|factory) in.{1,10}(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).{1,10}is staffed/i
 
-/we are.{1,25}chinese.{1,10}leading/i
-/we are.{1,25}chinese.{1,15}(leading|manufacturer|supplier)/i
+/we.?a?re.{1,25}chinese.{1,10}leading/i
+/we.?a?re.{1,25}chinese.{1,15}(leading|manufacturer|supplier)/i
 
-/we are.{1,25}(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).?(based)?.{1,10}(company|manufacturer?|supplier).{1,10}(of|offering|specializing)/i
+/we.?a?re.{1,25}(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).?(based)?.{1,10}(company|manufacturer?|supplier).{1,10}(of|offering|specializing)/i
 
-/we are.{1,25}(company|factory).{1,10}(based|from|located).{1,15}(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang)/i
-/we are.{1,25}(professional|tooling).{1,15}manufacturer?.{1,10}(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang)/i
-/we are.{1,25}manufacturer.{1,10}(directly|from|in).{1,10}(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang)/i
-
-/we are.{1,10}one of the biggest.{1,10}(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang)/i
+/we.?a?re.{1,25}(company|factory).{1,10}(based|from|located).{1,15}(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang)/i
+/we.?a?re.{1,25}(professional|tooling).{1,15}manufacturer?.{1,10}(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang)/i
+/we.?a?re.{1,25}manufacturer.{1,10}(directly|from|in).{1,10}(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang)/i
+/we.?a?re.{1,10}manufacturer.{1,10}exporter.{1,20}from.{1,10}(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang)/i
+/we.?a?re.{1,10}one of the biggest.{1,10}(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang)/i
 
 /professional.{1,25}fabrication.{1,10}factory in.{1,10}(china|dongguan|guangzhou|guangdong|shenzhen|zhejiang)/i
 
@@ -145,19 +145,19 @@
 
 /we.?a?re.{1,10}national high.?tech.{1,10}enterprise/i
 
-/we are.{1,20}products?.{1,10}(company|manufacturer?|supplier)/i
-/we are.{1,20}iso.{1,15}certified company/i
-/we are.{1,20}fast.{1,10}growing distributor/i
-/we are.{1,20}at.{1,10}(hard.?to.?find|short.?lead.?time)/i
+/we.?a?re.{1,20}products?.{1,10}(company|manufacturer?|supplier)/i
+/we.?a?re.{1,20}iso.{1,15}certified company/i
+/we.?a?re.{1,20}fast.{1,10}growing distributor/i
+/we.?a?re.{1,20}at.{1,10}(hard.?to.?find|short.?lead.?time)/i
 
-/we are.{1,10}specialized?.{1,10}in.{1,10}production of/i
-/we are.{1,10}specialized?.{1,10}in.{1,15}manufacturing/i
-/we are.{1,10}specialized?.{1,10}in.{1,15}for more than.{1,10}years/i
+/we.?a?re.{1,10}specialized?.{1,10}in.{1,10}production of/i
+/we.?a?re.{1,10}specialized?.{1,10}in.{1,15}manufacturing/i
+/we.?a?re.{1,10}specialized?.{1,10}in.{1,15}for more than.{1,10}years/i
 
-/we are.{1,10}registered.{1,15}(supplier|vendor)/i
-/we are.{1,10}the leading importers/i
-/we are.{1,10}the most.{1,15}supplier/i
-/we are.{1,10}directly factory/i
+/we.?a?re.{1,10}registered.{1,15}(supplier|vendor)/i
+/we.?a?re.{1,10}the leading importers/i
+/we.?a?re.{1,10}the most.{1,15}supplier/i
+/we.?a?re.{1,10}directly factory/i
 
 /we have.{1,10}our own factory/i
 /we have.{1,10}professional.{1,10}team/i
