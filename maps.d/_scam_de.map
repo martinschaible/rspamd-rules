@@ -24,14 +24,14 @@
 # ------------------------------------------------------------------------------
 /atm.{0.10}karte mit.{1,15}\d{3}.{0,5}\d{3}.{1,10}(dollar|euro|gbp|usd) gesendet wird/i
 /atm.{0.10}karte enthält.{1,15}\d{3}.{0,5}\d{3}.{1,10}millionen/i
-/atm.{0.10}karte.{1,15}die auf ihren namen ausgestellt/i
+/atm.{0.10}karte.{1,15}die auf ihren.{1,10}namen ausgestellt/i
 
 /ihr geld wurde auf eine.{1,10}(bank|debit).{0,10}karte geladen/i
 /ihre swift atm.{0.10}karte/i
 
 /ihre.{1,10}geldautomatenkarte im wert von/i
 /ihre.{1,10}zahlung.{1,10}atm.{0,10}karte/i
-/ihren namen ausgestellte.{1,10}geldautomatenkarte/i
+/ihren.{1,10}namen ausgestellte.{1,10}geldautomatenkarte/i
 
 /lieferung ihrer.{1,10}atm.{0,10}karte/i
 /zahlung an sie.{1,10}eine atm.{0.10}karte/i
@@ -43,7 +43,7 @@
 /aufmerksamkeit.{1,10}(begünstigten|frau|herr)/iu
 /(achtung|guten tag|geschätzter|händen|lieber).{1,15}begünstigter?/iu
 
-/ihr name ist unter den.{1,10}begünstigten/iu
+/ihr.{1,10}name ist unter den.{1,10}begünstigten/iu
 /ihre? e?.?mail.?(adresse|konto).{1,10}wurde ausgewählt.{1,10}als begünstigter/iu
 
 /angebot als.{1,10}begünstigter.{1,10}an/i
@@ -60,7 +60,7 @@
 # ------------------------------------------------------------------------------
 /millionen.{1,10}(dollar|euro?|gbp|usd).{1,10}kontaktieren sie (mich|uns)/i
 
-/\d{3}.{0,5}\d{3}.{1,10}der mit ihrem namen/i
+/\d{3}.{0,5}\d{3}.{1,10}der mit ihrem.{1,10}namen/i
 
 /mein geld von.{1,15}millionen.{1,15}tausend.{1,10}(dollar|euro?|gbp|usd)/i
 
@@ -84,7 +84,8 @@
 /ihren nicht in anspruch genommenen.{1,15}fonds/i
 /ihres.{1,10}fonds in höhe von.{1,10}\d{3}.{0,5}\d{3}/i
 
-/ihren namen lauten nicht beansprucht.{1,10}geld/i
+/ihren.{1,10}namen lauten nicht beansprucht.{1,10}geld/i
+/ihr.{1,10}name ist mit einer nicht beanspruchten/i
 
 /fonds problemlos zu beanspruchen/i
 /fonds mit ihrem rat/i
@@ -94,7 +95,7 @@
 
 /vorschlag.{1,10}\d{2,3}.{0.5}\d{2,3}.{1,10}(dollar|euro?|gbp|usd)/i
 
-/(dollar|euro?|gbp|usd).{1,10}der ihrem namen zugeordnet ist/i
+/(dollar|euro?|gbp|usd).{1,10}der ihrem.{1,10}namen zugeordnet ist/i
 
 /wir haben einen nicht eingeforderten betrag/i
 /sie.{1,10}million.{1,10}(dollar|euro?|gbp|usd).{1,10}auf ihrem konto erhalten/i

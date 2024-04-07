@@ -95,7 +95,7 @@
 
 # Bladder
 # ------------------------------------------------------------------------------
-/bladder.?(leaks|leakage|leaking)/i
+/bladder.?(health|leaks|leakage|leaking)/i
 /(big|weak).?bladder/i
 
 # Blood pressure
@@ -136,6 +136,7 @@
 
 /sugar.?disease/i
 /stop.?insuline/i
+/hidden.?protein/i
 
 # Digestive System
 # ------------------------------------------------------------------------------
@@ -151,8 +152,8 @@
 
 # Eyes, Vision
 # ------------------------------------------------------------------------------
-/(blurred|blurry).?(eye.?sight|view|vision)/i
-/(20|clear|perfect).?(eye.?sight|view|vision)/i
+/(bad|blurred|blurry).?(eye.?sight|view|vision)/i
+/(20|clear|night|perfect).?(eye.?sight|view|vision)/i
 
 /eye.?(exercise|surgery)/i
 
