@@ -52,8 +52,8 @@
 
 # Return for double payed invoices
 # ------------------------------------------------------------------------------
-/ihre.{1,10}rechnung.{1,10}den monat.{1,20}(doppelt|zweimal) bezahlt wurde/i
-/ihre.{1,10}rechnung für.{1,20}(doppelt|zweimal) bezahlt wurde/i
+/(die|ihre).{1,10}rechnung.{1,10}den monat.{1,20}(doppelt|zweimal) bezahlt wurde/i
+/(die|ihre).{1,10}rechnung für.{1,20}(doppelt|zweimal) bezahlt wurde/i
 
 /doppelte zahlung.{1,15}rechnung.{1,15}verursacht wurden/i
 /doppelt bezahlt wurde.{1,10}um eine rückerstattung/iu
@@ -67,6 +67,8 @@
 /zurückerhalten.{1,10}indem sie unten klicken/iu
 
 /system aufgetreten ist.{1,10}der zu einer belastung/i
+
+/link.{1,10}um eine rückerstattung zu beantragen/iu
 
 # Train ticket
 /erstattungsticket akzeptiert/i

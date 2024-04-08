@@ -111,10 +111,12 @@
 /ihnen eine spende von.{1,15}(dollar|euro?|gbp|usd).{1,10}gewährt/i
 
 /ihnen einen finanziellen zuschuss in höhe von/iu
-/ihnen wurde.{1,20}(dollar|euro?|gbp|usd).{1,10}gespendet/i
 /ihnen im namen einer wohltätigkeits.?organisation/i
 /ihnen von (frau|herr).{5,25}gespendet/i
 /ihnen die familie.{5,25}gespendet/i
+
+/ihnen wurdee.{1,20}spende in höhe von{1,20}(millionen|dollar|euro?|gbp|usd)/i
+/ihnen wurde.{1,20}(millionen|dollar|euro?|gbp|usd).{1,10}gespendet/i
 
 /ihre? e?.?mail.?(adresse|konto)?.{1,10}hat ihnen die summe von/i
 
