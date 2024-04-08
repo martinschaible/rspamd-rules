@@ -85,13 +85,17 @@
 
 # Pen
 # ------------------------------------------------------------------------------
-/(eindruck|elegante|gummierte|hochwertige|kostenlos|metall|moderne|muster|personalisierte|premium|stilvolle|softtouch|werbe|werbung).{0,15}kugelschreiber/iu
+/(eindruck|elegante|gummierte|hochwertige|kostenlos|logo|metall|moderne|muster|personalisierte|premium).{0,15}kugelschreiber/iu
 /(fordern sie|unseren).{1,15}kugelschreiber/iu
 
-kugelschreiber.{1,15}(begeistern|warten auf sie)/i
+/(sichern sie sich|stilvolle|softtouch).{1,15}kugelschreiber/iu
+/(werbe|werbung).{1,15}kugelschreiber/iu
+
+kugelschreiber.{1,15}(begeistern|individuellem|schon ab|warten auf sie)/i
+/(kugelschreiber|kuli) mit.{1,15}(branding|logo)/i
+
 /kugelschreiber.?muster/i
 
-/(kugelschreiber|kuli) mit.{1,15}(branding|logo)/i
 
 /(branded pens|firmenkugelschreiber|sponsorenstifte)/i
 
