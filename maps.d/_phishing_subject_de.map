@@ -110,6 +110,9 @@
 
 /datenupdate.{1,10}erforderlich/i
 
+/ihr zugriff wurde.{1,15}eingeschränkt/iu
+/sicherheitsgründen wurde ihr zugang gesperrt/iu
+
 # New Systems, Security, Technology, TAN
 # ------------------------------------------------------------------------------
 /(photo|push).?tan.?verfahren/i
@@ -369,6 +372,7 @@
 
 /paket.?liefer.?benachrichtigung/i
 
+/sicherheitsgrunden/i
 /sie wurden ausgewahlt/i
 /gluckwunsch/i
 
