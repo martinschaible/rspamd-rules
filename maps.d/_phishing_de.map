@@ -62,13 +62,15 @@
 /erstattung anfordern/i
 /rückerstattungs.?link/iu
 
-/sie ein.{1,10}eine rückerstattung zu beantragen/iu
-
 /zurückerhalten.{1,10}indem sie unten klicken/iu
 
 /system aufgetreten ist.{1,10}der zu einer belastung/i
 
-/link.{1,10}um eine rückerstattung zu beantragen/iu
+/(link|sie ein).{1,15}eine rückerstattung zu (beantragen|erhalten)/iu
+
+/online.?erstattungszahlung/i
+
+/(monat|2024).{1,15}versehentlich doppelt erfolgt ist/i
 
 # Train ticket
 /erstattungsticket akzeptiert/i
