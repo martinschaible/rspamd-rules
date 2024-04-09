@@ -9,7 +9,7 @@
 # ------------------------------------------------------------------------------
 /(finance|investment|loans?).{1,10}(apply|funding|offer|opportunities|opportunity|reduced)/i
 
-/loans?.{1,10}(finance|financing|low interest)/i
+/loans?.{1,10}(finance|financing|limited|low interest)/i
 /loans?.{1,10}project.{1,10}(finance|financing)/i
 
 /(business|cash|easy|fast|low rate|projects|quick|reliable|reputable|turbo).{1,10}loans?/i
@@ -28,6 +28,7 @@
 /(business|debt).{1,10}project.{1,10}financing/i
 
 /your business.{1,10}funding/i
+/you in search.{1,10}financial/i
 
 # Credit Card
 # ------------------------------------------------------------------------------

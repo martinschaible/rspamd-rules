@@ -16,11 +16,11 @@
 /attention.{1,5}required/i
 /attention.{1,10}your urgent reply/i
 
-/message for you.{1,10}important/i
-/urgent message for you.{1,10}please read/i
+/message for you.{1,10}(important|urgent)/i
+/(important|urgent).{1,10}message for you.{1,10}please read/i
 
-/this is urgent.{1,10}(please|pls) reply/i
-/this is very important.{1,25}you are/i
+/this is.{1,10}(important|urgent).{1,10}(please|pls) reply/i
+/this is.{1,10}(important|urgent).{1,25}you are/i
 
 /read.{1,10}reply urgent/i
 /read carefully/i
@@ -41,7 +41,9 @@
 /dear sir.{1,5}madam/i
 /hello.{1,10}dear friend/i
 
-/dear (esteemed|e?.?mail owner)/i
+/dear esteemed/i
+/dear e?.?mail.{1,10}(user|owner)/i
+
 /letter from/i
 
 # Religious
@@ -57,6 +59,10 @@
 # Religious
 # ------------------------------------------------------------------------------
 /remain blessed/i
+
+# Selected
+# ------------------------------------------------------------------------------
+/your e?.?mail.{1,15}has.{1,15}been.{1,15}selected/i
 
 # China related
 # ------------------------------------------------------------------------------
