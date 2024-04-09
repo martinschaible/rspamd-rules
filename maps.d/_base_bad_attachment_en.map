@@ -78,10 +78,10 @@
 # Sample: order 98987006305#.doc
 /(enquiry|inquiry|invoice|order|quote).?\d{2,15}.?\.(7z|doc|gz|htm|r11|rar|tgz|xla|xls|zip)/i
 
-/(bulk|purchase).?order.{0,20}\.(7z|doc|gz|htm|r11|rar|tgz|xls|zip)/i
+/(bulk|new|purchase).?order.{0,20}\.(7z|doc|gz|htm|r11|rar|tgz|xls|zip)/i
 
 # Sample: P.O No_033672023.gz
-/p\.?o.?no_?[0-9]{2,15}\.(7z|doc|gz|htm|r11|rar|tgz|xla|xls|zip)/i
+/p\.?o.?no_?[0-9]{2,15}\.(7z|doc|gz|htm|r11|rar|tar|tgz|xla|xls|zip)/i
 /p.?o.?no.{4,10}\.(7z|doc|gz|htm|r11|rar|tgz|xla|xls|zip)/i
 
 # Sample: P.O 2023-0021.zip
