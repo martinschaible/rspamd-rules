@@ -25,6 +25,7 @@
 
 # Chair
 # ------------------------------------------------------------------------------
+/chefsessel.{1,10}erhältlich in einer/i
 /chefsessel.{1,10}leder.{1,10}holz.{1,10}kombination/i
 /chefsessel.{1,10}limitierter?/i
 /chefsessel.{1,10}viele farben/i
@@ -315,6 +316,8 @@
 /bestellen.{1,10}antworten sie.{1,15}(bitte|einfach).{1,15}mit ihrer anschrift/i
 
 /antworten sie.{1,15}bei fragen.{1,10}bestellungen/i
+/antworten sie.{1,15}bestellen sie mit rückgaberecht/iu
+
 /antworten sie.{1,15}einfach.{1,10}auf diese e?.?mail.{1,10}um ihre bestellung/i
 /antworten sie.{1,15}einfach.{1,10}auf diese e?.?mail mit ihrer/i
 
@@ -475,6 +478,7 @@
 
 # Unclassified
 # ------------------------------------------------------------------------------
+/exklusiven lagerabverkaufsangebot/i
 
 # Masked
 # ------------------------------------------------------------------------------

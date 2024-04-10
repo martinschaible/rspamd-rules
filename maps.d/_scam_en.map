@@ -229,6 +229,7 @@
 # Partnership, Business, Proposal
 # ------------------------------------------------------------------------------
 /obligation.{1,10}i would like us to complete/i
+(opportunity|proposition|proposal|transaction).{1,10}with you.{1,15}get back to me/i
 /partnership.{1,10}proposal for you here/i
 
 /proposal.{1,10}will not embarrass you/i
@@ -289,8 +290,9 @@
 
 /discuss.{1,10}business.{1,10}(opportunity|proposition|proposal|transaction).{1,10}with you/i
 
-/share with you.{1,15}business.{1,10}insights/i
-/share with you.{1,15}(pending|remunerative).{1,15}business/i
+/share.{1,10}(business|investment).{1,15}(opportunity|proposition|proposal|transaction) with you/i
+/share.{1,10}with you.{1,15}business.{1,10}insights/i
+/share.{1,10}with you.{1,15}(pending|remunerative).{1,15}business/i
 
 /secret private business/i
 /serious.{1,10}(opportunity|proposition|proposal|transaction)i want to discuss.{1,10}with you/i

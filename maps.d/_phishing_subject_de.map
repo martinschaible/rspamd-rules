@@ -121,6 +121,8 @@
 /(aktivieren|aktualisieren|entdecken) sie.{1,15}(photo|push).?tan/i
 /wichtiges update.{1,15}(photo|push).?tan/i
 
+/tan.?verfahren.{1,10}vr.?securego/i
+
 /neues sicherheitsupdate.{1,10}erforderlich/i
 /obligatorische aktivierung/i
 
@@ -189,6 +191,8 @@
 /sie haben.{1,10}ein paket.{1,10}das (sich|zugestellt)/i
 /sie haben jetzt.{1,10}stunden zeit/i
 /sie haben.{1,15}(immer|noch).{1,15}nicht abgeholte bestellung/i
+
+/sie ihren paketzustellstatus/i
 
 /problem.{1,15}des liefervorgangs/i
 /problem in ihrem paket/i
