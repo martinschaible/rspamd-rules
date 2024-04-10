@@ -92,6 +92,9 @@
 
 /sendung.{1,20}noch auf anweisungen.{1,15}wartet/i
 
+# Order
+/bestellung ist eine verzögerung aufgetreten/iu
+
 # Pickup
 /paketstatus.{1,10}nicht abgeholt/i
 /sie haben.{1,10}noch.{1,10}nicht abgeholte bestellung/i
@@ -110,6 +113,7 @@
 
 /nicht zustellen.{1,10}da keine.{1,20}anwesend war/i
 /nachfolgenden produkt kann nicht zugestellt werden/i
+
 
 # Delivery confirm address
 # ------------------------------------------------------------------------------
