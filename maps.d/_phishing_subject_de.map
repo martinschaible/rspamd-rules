@@ -104,6 +104,8 @@
 
 /online identifikation/i
 
+/sie müssen sich neu identifizieren/iu
+
 # Banking
 # ------------------------------------------------------------------------------
 /ihre karte ist gesperrt/i
@@ -137,6 +139,7 @@
 /benachrichtigung über ihr paket/iu
 /bestellung.{1,10}die noch auf.{1,10}bezahlung wartet/i
 /bestätigen sie ihre.{1,10}(lieferdaten|lieferung|versandinformationen)/iu
+/bestätigen sie die.{1,10}zustellung.{1,10}pakets/i
 
 /warten auf abholung/i
 
@@ -276,6 +279,8 @@
 /(einkauf|geschenk).{1,5}gutschein.{1,10}(kaufland|code)/i
 
 /hauptpreis geht an sie/i
+
+/preis wird weitergeleitet/i
 
 # Sample: Rundschreiben X2ZI-M29U
 /(bestätigung|rundschreiben).?[0-9a-z]{4}-[0-9a-z]{4}/i
