@@ -59,7 +59,7 @@
 /sie auf der suche nach.{1,15}(darlehen|kredit)/i
 /sie an einem.{1,10}kredit interessiert sind/i
 /sie aus irgendeinem grund ein(en)?.{1,15}(darlehen|kredit)/iu
-/Sie benötigen.{1,10}ein(en)?.{1,15}(darlehen|kredit)/iu
+/sie benötigen.{1,10}ein(en)?.{1,15}(darlehen|kredit)/iu
 /sie benötigen.{1,10}dringend.{1,10}ein(en)?.{1,15}(darlehen|kredit)/iu
 /sie benötigen.{1,10}günstig.{1,15}(darlehen|kredit)/iu
 /sie einen.{1,15}sofortkredit/i
@@ -98,6 +98,7 @@
 
 #
 /benötigen sie einen.{1,10}privat.{1,10}geschäfts.?kredit/iu
+/benötigen sie einen.{1,10}kredit/i
 
 /zins.?satz von.{1,10}bewerben sie sich jetzt/i
 
@@ -106,6 +107,8 @@
 /kredit.?betrag.{1,20}kredit.?laufzeit/i
 /kreditlaufzeit.{1,10}zweck/i
 /benötigter betrag.{1,10}laufzeit/i
+
+/vollständiger name.{1,10}betrag/iu
 
 # Money
 # ------------------------------------------------------------------------------
@@ -127,6 +130,7 @@
 
 /sie.{1,10}irgendeine art.{1,10}finanzierung/i
 /benötigen sie eine.{1,10}finanzierung/iu
+/benötigen sie persönliche finanzen/iu
 
 /vergibt derzeit.{1,10}finanz.?kredite/i
 
