@@ -108,7 +108,8 @@
 
 # Sample: QUOTATION_AUG7FIBA00541.z
 #         Quotation-010052013.xz
-/quotation(-|_)[a-z0-9]{3,15}\.x?z/i
+#         Quotation -558240007300.zip
+/quotation.?(-|_)[a-z0-9]{3,15}\.(x?z|zip)/i
 
 # Sample: RFQ_No.8964502.gz
 /rfq.?no.?\d{4,10}\.(7z|doc|gz|htm|r11|rar|tgz|xla|xls|zip)/i
