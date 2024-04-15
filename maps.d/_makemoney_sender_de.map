@@ -7,7 +7,7 @@
 
 # Crypto
 # ------------------------------------------------------------------------------
-/(bit?coin|crypto|krypto).?(beratung|berater|bulletin|einblick|geld|handel|händler|invest(ment)?|nachrichten)/i
+/(bit?coin|crypto|krypto).?(beratung|berater|bulletin|einblick|geld|handel|händler|invest(ment)?|nachrichten|welle)/i
 
 /bit?coin$/i
 /krypto$/i
@@ -27,7 +27,6 @@
 /(bank(en)?|investment).?(beratung|berater|call.?center)/i
 
 /lukrative.gelegenheit/i
-/neue.investitionen/i
 /ihr investment/i
 
 /(bankanlage|grund.?einkommen|reichtum)/i

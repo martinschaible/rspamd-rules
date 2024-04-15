@@ -46,6 +46,7 @@
 /(big|bulging|tiny|your).?belly/i
 /fat.?(burn(er)?|burning|melting)/i
 /(burn|melt|shed).?(fat|lbs|pounds)/i
+/honey.?burn/i
 
 /calorie.?booster/i
 /breakfast.?hack/i
@@ -54,6 +55,7 @@
 /keto/i
 /power.?shape/i
 
+/gummy.?hack/i
 /(gummies|k2).?diet/i
 /slimm.{0,10}gummies/i
 
@@ -152,7 +154,9 @@
 
 # Digestive System
 # ------------------------------------------------------------------------------
-/digestive system/i
+/digestive.?system/i
+/poop.?type/i
+/your.?poop/i
 
 # Dizziness
 # ------------------------------------------------------------------------------
@@ -256,10 +260,12 @@
 
 # Pain
 # ------------------------------------------------------------------------------
-/pain.?(killer|quiz|relief)/i
+/pain.?(killer|no.?more|quiz|relief)/i
 
 /(end|erase|joint|neck|nerve).?pain/i
 /joints.?healed/i
+
+/relief.?miracle/i
 
 # Patches
 # ------------------------------------------------------------------------------
