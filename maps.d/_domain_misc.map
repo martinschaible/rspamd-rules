@@ -63,3 +63,8 @@
 # ------------------------------------------------------------------------------
 /bitcoins?\.de/i
 /www\.bitcoin/i
+
+# Sample: ipfs.chainsafe.io/ipfs/
+/ipfs\.[a-z0-9]{4,15}\.[a-z]{2,4}\/ipfs\//i
+
+/ipfs\.io/ipfs\//i
