@@ -78,6 +78,8 @@
 # Funds, Money
 # ------------------------------------------------------------------------------
 /ich habe einen.{1,10}fonds von.{1,10}\d{3}.{0,5}\d{3}/i
+/ich habe einen.{1,10}fonds in höhe von/iu
+
 /wir haben einen nicht beanspruchten.{1,10}betrag/i
 
 /ihre.{1,10}e?.?mail.?adresse.{1,10}wurde ausgewählt.{1,10}um diesen.{1,10}fonds/iu
