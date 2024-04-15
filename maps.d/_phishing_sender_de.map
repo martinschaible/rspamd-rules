@@ -115,6 +115,8 @@
 /(media.?market|otto|persil|rewe|temu).{0,5}(abteilung|angebot|code|geschenkkarte|gewinner|gutschein|kontakt|sender|sendung|umfrage|zustelllung)/i
 /(media.?market|otto|persil|rewe|temu).{0,5}.{0,5}help.?desk/i
 
+/kaufland #\d{1,10}/i
+
 /r0ssmann/i
 
 # Brands, Products

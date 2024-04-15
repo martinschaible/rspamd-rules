@@ -65,12 +65,14 @@
 
 # Fancy Titles
 # ------------------------------------------------------------------------------
-/(bitcoin|crypto|krypto).{1,10}(bullenmarkt|genesis|system|vip)/i
+/(bitcoin|crypto|krypto).{1,10}(bullenmarkt|fonds|genesis|system|vip)/i
 /(bitcoin|crypto|krypto).{1,10}(anlage|profit).?methode/i
 
 /kryptowährung.{1,10}profit.?strategie/i
 
-/cyber.?finanz.?fonds/i
+/(autorisierten|lizenzierter|zertifizierten).{1,15}(bitcoin|crypto|krypto)/i
+
+/(cyber.?finanz|digitalwährungs).{1,10}fonds/i
 /profi.?krypto.?handel/i
 
 #
@@ -86,3 +88,6 @@
 # Bad German
 # ------------------------------------------------------------------------------
 /kryptowahrungen/i
+/verschlüsselungsgeld/i
+/indexfonds/i
+
