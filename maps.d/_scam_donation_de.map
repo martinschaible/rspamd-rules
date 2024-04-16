@@ -50,6 +50,8 @@
 
 /kontaktieren sie barr/i
 
+/antworten sie.{1,15}um diese spende/i
+
 # Donation
 # ------------------------------------------------------------------------------
 /spenden?.{1,10}\d{3}.{0,5}\d{3}.{1,10}an sie/i
@@ -148,11 +150,11 @@
 /informationen zum erhalt ihrer.{1,15}spende/i
 
 /sie.{1,10}den erhalt einer.{1,15}spende/i
-/sie.{1,10}eine spende in höhe von.{1,10}\d{3}.{0,5}\d{3}/iu
 
 /sie bezüglich der.{1,10}spende von/iu
 /sie als empfänger einer.{1,20}spende/iu
-/sie eine spende in höhe von.{1,15}(millionen|tausend|dollar|euro?|gbp|usd).{1,15}vom/iu
+/sie (die|eine) spende in höhe von.{1,15}(millionen|tausend|dollar|euro?|gbp|usd)/iu
+/sie (die|eine) spende in höhe von.{1,10}\d{3}.{0,5}\d{3}/iu
 
 /sie als gewinner einer.{1,15}spende/i
 /sie als eine der glücklichen personen aufgeführt/iu
