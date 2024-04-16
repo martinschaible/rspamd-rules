@@ -110,6 +110,7 @@
 #         Quotation-010052013.xz
 #         Quotation -558240007300.zip
 /quotation.?(-|_)[a-z0-9]{3,15}\.(x?z|zip)/i
+/quotation\.xls/i
 
 # Sample: RFQ_No.8964502.gz
 /rfq.?no.?\d{4,10}\.(7z|doc|gz|htm|r11|rar|tgz|xla|xls|zip)/i

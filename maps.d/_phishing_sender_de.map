@@ -39,6 +39,7 @@
 
 # Hosting
 # ------------------------------------------------------------------------------
+/it.?unterstützung/iu
 
 # Hosting: Cloud storage
 # ------------------------------------------------------------------------------
@@ -64,7 +65,7 @@
 
 /sendungs.?(mitteilung|verfolgung)/i
 
-/versand.?(hinweise|status.?team)/i
+/versand.?(bereitschaft|hinweise|status.?team)/i
 
 /zustell.?(aktualisierung|nachrichten|status)/i
 /zustellung/i
@@ -116,6 +117,7 @@
 /(media.?market|otto|persil|rewe|temu).{0,5}.{0,5}help.?desk/i
 
 /kaufland #\d{1,10}/i
+/danke.{0,5}kaufland/i
 
 /r0ssmann/i
 
