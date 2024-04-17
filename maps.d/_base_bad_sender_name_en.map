@@ -56,7 +56,8 @@
 /award.?team/i
 
 /(lottery|microsoft).?award/i
-/lottery.?(board|winning)/i
+/lotter(ie|y).{0,10}(board|promotion|winning)/i
+
 /loteria.?nacional/i
 /lotto.?denavidad/i
 

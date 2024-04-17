@@ -338,11 +338,10 @@
 
 # Miracle, Breaktrough, Secrets, Videos
 # ------------------------------------------------------------------------------
-/medical.?breakthrough/i
+/(medical|miracle|scientists?).?(breakthrough|discovery)/i
 /miracle.?seeds/i
 /unlock.{0,10}secret/i
-/scientists.?discovery/i
-/second.?trick/i
+/(second|simple).?trick/i
 
 #
 #
