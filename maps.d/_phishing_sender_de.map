@@ -117,6 +117,7 @@
 /(media.?market|otto|persil|rewe|temu).{0,5}.{0,5}help.?desk/i
 
 /kaufland #\d{1,10}/i
+/kauf\.land/i
 /danke.{0,5}kaufland/i
 
 /r0ssmann/i
