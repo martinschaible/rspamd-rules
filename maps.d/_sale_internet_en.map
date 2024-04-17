@@ -165,6 +165,8 @@
 
 /found a number of seo.?issues/i
 
+/ranking is not good.{1,15}(bing|google|yahoo)/i
+
 /we are.{1,10}leading seo/i
 /we can (promote|rank) your web.?site/i
 /we can help you rank higher/i
@@ -178,6 +180,7 @@
 
 /you.{1,10}seo.?(packages?|proposal)/i
 
+/you like.{1,10}optimize your site/i
 /you looking.{1,10}boost your web.?site/i
 /you looking.{1,10}for.{1,10}seo/i
 

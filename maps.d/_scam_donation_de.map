@@ -209,6 +209,8 @@
 /sie an (dieser|meiner).{1,15}spende interessiert sind/i
 
 #
+/ich habe beschlossen.{1,10}\d{3}.{0,5}\d{3}.{1,15}an sie/i
+
 /ich spende.{1,10}an.{1,10}zufällige personen/iu
 /ich spende.{1,10}an.{1,10}zufällig ausgewählte personen/iu
 /ich spende.{1,10}ihnen die summe von/i
@@ -249,6 +251,7 @@
 
 /ich bin ein gewinner.{1,20}lotterie/i
 /ich habe einen jackpot von.{1,15}millionen/i
+/jch habe den jackpot.{1,15}(lotterie|powerball)/i
 
 #
 #
