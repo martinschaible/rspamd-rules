@@ -188,6 +188,7 @@
 /ich bin ein.{1,25}geschäftsmann/i
 
 /ich bin (frau|herr).{5,35}(anwalt|banker|buchhalter|vorsitzender)/i
+/ich bin (frau|herr).{5,35}geschäfts.?(frau|mann)/i
 /ich bin (frau|herr).{5,25}kann ich/i
 
 /ich bin mutter.{5,25}frau/i
