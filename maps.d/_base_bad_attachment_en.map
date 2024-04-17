@@ -246,6 +246,7 @@
 #
 /(copies|receipt.?files)\.html?/i
 
+/contract.{0,10}\.zip/i
 /investment\.(7z|doc|gz|htm|r11|rar|tgz|xls|zip)/i
 
 # Sample: "info@amelec.ch.html

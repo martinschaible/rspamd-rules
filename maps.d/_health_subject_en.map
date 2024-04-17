@@ -37,6 +37,7 @@
 /zap away.{1,10}fat/i
 
 /(lbs|pounds) in.{1,10}months/i
+/(lbs|pounds) of flab/i
 /(boost|your).{1,10}(fat|weight).?loss/i
 
 /lost.{1,10}(lbs|pounds) in.{1,15}(days|months)/i
@@ -75,6 +76,8 @@
 /(nail|toe).?fungus.{1,15}(gets|worse)/i
 
 /fix.{1,10}(nail|toe).?fungus/i
+
+/foot.?fungus/i
 
 # Heart, blood pressure
 # ------------------------------------------------------------------------------

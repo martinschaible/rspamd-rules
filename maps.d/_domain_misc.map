@@ -59,7 +59,7 @@
 #
 #
 
-# Pattern
+# Pattern (Will be moved to a new file)
 # ------------------------------------------------------------------------------
 /bitcoins?\.de/i
 /www\.bitcoin/i
@@ -68,3 +68,6 @@
 /ipfs\.[a-z0-9]{4,15}\.[a-z]{2,4}\/ipfs\//i
 
 /ipfs\.io/ipfs\//i
+
+# 
+/(escort|shemale)/i

@@ -112,7 +112,8 @@
 /(dating|hookup).{0,10}(seite|site).{1,10}für (alle|erwachsene)/iu
 /(dating|hookup).{0,10}(seite|site).{1,10}ist dein/i
 /(dating|hookup).{0,10}(seite|site).{1,10}profil/i
-/(dating|hookup).{0,10}(seite|site).{1,10}(anschauen|bei mir|fortzusetzen|kommunizieren|treffen)/iu
+/(dating|hookup).{0,10}(seite|site).{1,10}(anschauen|bei mir|fortzusetzen|kommunizieren|kostenlose?|treffen)/iu
+/(dating|hookup).{0,10}(seite|site).{1,20}registrierung/i
 
 /casual.?club.{1,10}kostenlos/i
 

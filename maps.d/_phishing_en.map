@@ -118,6 +118,8 @@
 
 /gift.?card.{1,10}opportunity/i
 
+/survey.{1,10}for a.{1,20}gift.?card/i
+
 /(ace hardware|costco).{1,10}has.{1,10}surprise for you/i
 /(ace hardware|costco).{1,10}reward has arrived/i
 
@@ -130,6 +132,7 @@
 
 # Winning, Products
 # ------------------------------------------------------------------------------
+/pay.?pal.{1,10}rewards/i
 
 # Failed Payment
 # ------------------------------------------------------------------------------
