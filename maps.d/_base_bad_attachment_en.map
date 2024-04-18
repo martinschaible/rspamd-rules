@@ -120,7 +120,7 @@
 
 #/rfq\.zip/i
 
-/product.?list\.xz/i
+/(price|product).?list\.(xz|z)/i
 /product.?list\.(7z|doc|gz|htm|r11|rar|tgz|xla|xls|zip)/i
 /updated.?price\.(7z|doc|gz|htm|r11|rar|tgz|xla|xls|zip)/i
 

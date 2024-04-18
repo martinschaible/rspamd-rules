@@ -192,6 +192,8 @@
 /vorschlag im wert von.{1,10}millionen.{1,10}(dollar|euro?|gbp|usd)/i
 /bespreche ich mit ihnen einen.{1,10}vorschlag.{1,10}der.{1,15}von interesse/i
 
+/projekt.{1,10}sie mit mir abwickeln können/iu
+
 # Payments, Compensations
 # ------------------------------------------------------------------------------
 /ich überweise ihnen den betrag von.{1,10}(million|dollar|euro?|gbp|usd)/i
@@ -392,6 +394,7 @@
 /(internet|vergleichs).?seite.{1,10}eine Berechnung durchführen/iu
 /(internet|vergleichs).?seite.{1,10}können sie kostenlos/i
 
+/ihr gebäude finden sie hier/iu
 /wir ihnen einen kostenlosen überblick.{1,10}alle anlagen/i
 
 /als ihre energieberater hier/i
