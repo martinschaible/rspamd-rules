@@ -58,6 +58,8 @@
 
 # Bad german
 /kontoaktivitäts.?aktualisierung/i
+/wichtiger handlungsbedarf/i
+/handlungsbedarf.{1,10}sicherheitsupdate/i
 
 # Cards
 # ------------------------------------------------------------------------------
@@ -105,6 +107,8 @@
 /online identifikation/i
 
 /sie müssen sich neu identifizieren/iu
+
+/aktualisierung erforderlich.{1,10}konto/i
 
 # Banking
 # ------------------------------------------------------------------------------
@@ -395,5 +399,5 @@
 
 /unbehandelter unternehmensdaten/i
 
-/karte ist in der warteschleife/i
+/(karte|konto).{1,10}in der warteschleife/i
 /verwarnungsbrief/i
