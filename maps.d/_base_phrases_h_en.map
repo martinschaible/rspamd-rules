@@ -11,9 +11,7 @@
 
 # Answer to private email only
 # ------------------------------------------------------------------------------
-/contact me in my private e?.?mail/i
-/reply me back on my private e?.?mail/i
-/send your reply to my private e?.?mail/i
+/(contact me|get back|reply|send your reply).{1,10}(in|on) my private e?.?mail/i
 
 # Attention
 # ------------------------------------------------------------------------------

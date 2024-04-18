@@ -173,7 +173,7 @@
 /ich bin (frau|herr).{5,25}eine bürgerin/iu
 /ich bin (frau|herr).{5,25}ein.{1,10}(britischer|deutscher)/i
 
-/ich bin.{5,25}ein (deutscher|indischer|indisches|italienischer)/i
+/ich bin.{5,25}eine? (deutscher?|schwedischer?|indischer?|indisches|italienischer?)/i
 /ich bin.{5,25}aus abidjan/i
 
 # Introduction, Title
@@ -186,8 +186,9 @@
 /ich bin hon.{1,5}dr/i
 
 /ich bin ein.{1,25}geschäftsmann/i
+/ich bin.{5,25}eine? investor(in)?/i
 
-/ich bin (frau|herr).{5,35}(anwalt|banker|buchhalter|vorsitzender)/i
+/ich bin (frau|herr).{5,35}(anwalt|banker|buchhalter|investor(in)?|vorsitzender)/i
 /ich bin (frau|herr).{5,35}geschäfts.?(frau|mann)/i
 /ich bin (frau|herr).{5,25}kann ich/i
 

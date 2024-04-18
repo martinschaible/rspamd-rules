@@ -97,7 +97,8 @@
 
 /ich habe.{1,10}beim surfen ihre.{1,10}e?.?mail/i
 
-/ihre e?.?mail.{1,10}bei einer suche im internet entdeckt/i
+/ihre.{1,10}e?.?mail(.?adresse)?.{1,10}bei einer suche im internet entdeckt/i
+/ihre.{1,10}e?.?mail(.?adresse)?.{1,10}wurde von google/i
 
 # Important
 # ------------------------------------------------------------------------------
