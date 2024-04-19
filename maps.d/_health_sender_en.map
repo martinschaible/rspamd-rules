@@ -105,7 +105,7 @@
 
 # Bladder
 # ------------------------------------------------------------------------------
-/bladder.?(health|leaks|leakage|leaking)/i
+/bladder.?(health|leaks|leakage|leaking|issues?)/i
 /(big|weak).?bladder/i
 
 # Blood pressure
@@ -383,3 +383,4 @@
 /ancient.?ritual/i
 /japanese.?trick/i
 /make your own/i
+/eat.?me/i

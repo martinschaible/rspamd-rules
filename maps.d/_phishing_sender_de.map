@@ -22,6 +22,8 @@
 
 /online.?kartenkonto/i
 
+/app.?bestätigen/i
+
 # Cards
 # ------------------------------------------------------------------------------
 
@@ -67,11 +69,13 @@
 
 /versand.?(bereitschaft|hinweise|status.?team)/i
 
-/zustell.?(aktualisierung|nachrichten|status)/i
+/zustell.?(assistenz|aktualisierung|nachrichten|status)/i
 /zustellung/i
 
 /-paketzustellung/i
 /unterstützung/i
+
+/abholung/i
 
 #
 #
@@ -145,6 +149,9 @@
 
 # ING-DiBa AG
 /diba-ag/i
+
+# Migros
+/migros$/i
 
 # Parcel
 /dpd-ch/i
