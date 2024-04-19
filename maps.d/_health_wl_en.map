@@ -16,12 +16,12 @@
 
 /boost.{1,10}calorie burning by/i
 
-/(burn|melt)s?.{1,10}(belly|body).?fat.{1,15}(crazy|every|fast|overnight|week)/i
-/(burn|melt)s?.{1,10}(lbs|pounds).{1,10}(a|per) week/i
-/(burn|melt)s?.{1,10}(lbs|pounds).{1,10}fat (a|per) week/i
-/(burn|melt)s?.{1,10}(lbs|pounds).{1,10}in just days/i
-/(burn|melt)s?.{1,10}(lbs|pounds).{1,10}of.{1,10}fat/i
-/(burn|melt)s?.{1,10}(lbs|pounds).{1,15}(belly|body).?fat/i
+/(burn|melt)s?.{1,15}(belly|body).?fat.{1,15}(crazy|every|fast|overnight|week)/i
+/(burn|melt)s?.{1,15}(lbs|pounds).{1,10}(a|per) (day|week)/i
+/(burn|melt)s?.{1,15}(lbs|pounds).{1,10}fat (a|per) (day|week)/i
+/(burn|melt)s?.{1,15}(lbs|pounds).{1,10}in just (day|week)/i
+/(burn|melt)s?.{1,15}(lbs|pounds).{1,10}of.{1,10}fat/i
+/(burn|melt)s?.{1,15}(lbs|pounds).{1,15}(belly|body).?fat/i
 
 /(burn|melt)s?.{1,10}(fat|weight).{1,10}it boosts/i
 /(burn|melt)s?.{1,10}(fat|weight).{1,10}rapidly with/i

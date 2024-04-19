@@ -45,7 +45,7 @@
 
 # Find
 # ------------------------------------------------------------------------------
-/seeking.{1,10}good mister/i
+/(find|looking|seeking).{1,10}(charming|good|unstained) (dude|male|mister)/i
 
 # Fotos
 # ------------------------------------------------------------------------------
@@ -80,7 +80,7 @@
 
 # Singles
 # ------------------------------------------------------------------------------
-/i am a single lady/i
+/i.?a?m a (single|unmarried).{1,15}(girl|lady)/i
 
 #
 #
@@ -112,7 +112,7 @@
 
 # Silly Chitchat/Phrases
 # ------------------------------------------------------------------------------
-/i am a lovely girl/i
+/i am a (fair|lovely|solitary).{1,10}girl/i
 /i.?m a alone female/i
 
 /horny.{0,10}adults?/i
