@@ -28,6 +28,7 @@
 /(african|soft).?(manhood|penis)/i
 /buried.?penis/iu
 /p\*nis/i
+/inch.?banana/i
 
 /bedroom.?secrets?/i
 
@@ -43,9 +44,11 @@
 
 # Weightloss
 # ------------------------------------------------------------------------------
+/(burn|lose|melt|shed).{0,10}(fat|lbs|pounds|weight)/i
+
 /(big|bulging|tiny|your).?belly/i
 /fat.?(burn(er)?|burning|flush|melting)/i
-/(burn|melt|shed).?(fat|lbs|pounds)/i
+
 /honey.?burn/i
 
 /calorie.?booster/i
@@ -61,7 +64,6 @@
 
 /weight.?loss/i
 /wl.?recipe/i
-/lose.{1,10}weight/i
 
 /(breakfast|liposuction).?trick/i
 /(diet|magic).?(drink|hack)/i
@@ -182,7 +184,7 @@
 # Fungus
 # ------------------------------------------------------------------------------
 /anti.?fung(al|us)/i
-/(end|fight|foot|goodbye|nail|stop|yellow).?fungus/i
+/(end|fight|foot|goodbye|nail|nasty|stop|yellow).?fungus/i
 /fix.{1,10}(nail|toe).?fungus/i
 
 /fungus.?infection/i
@@ -276,6 +278,10 @@
 # Patches
 # ------------------------------------------------------------------------------
 /medicinal.?patch(es)?/i
+
+# Posture
+# ------------------------------------------------------------------------------
+/poor.?posture/i
 
 # Prostatitis
 # ------------------------------------------------------------------------------

@@ -172,6 +172,7 @@
 /(paket|sendung).{1,10}informationen bestätigen/iu
 
 /(paket|sendung).{1,15}wartet auf.{1,10}(anweisung|bestätigung|lieferung|versandzahlung|zustellung)/iu
+/(paket|sendung).{1,10}wartet immer noch/i
 /(paket|sendung).{1,15}wartet wegen.{10,25}auf.{1,10}(lieferung|zustellung)/i
 
 /(paket|sendung).{1,15}wird aufgrund.{1,10}unerwartet.{1,10}zollabwicklung/i

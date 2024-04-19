@@ -52,12 +52,14 @@
 
 # Return for double payed invoices
 # ------------------------------------------------------------------------------
-/(die|ihre).{1,10}rechnung.{1,10}den monat.{1,20}(doppelt|zweimal) bezahlt wurde/i
-/(die|ihre).{1,10}rechnung für.{1,20}(doppelt|zweimal) bezahlt wurde/i
+/rechnung.{1,10}den monats?.{1,30}(doppelt|zweimal).{1,10}(bezahlt wurde|erfolgt ist)/i
+/rechnung für.{1,20}(doppelt|zweimal).{1,10}(bezahlt wurde|erfolgt ist)/i
 
 /doppelte zahlung.{1,15}rechnung.{1,15}verursacht wurden/i
 /doppelt bezahlt wurde.{1,10}um eine rückerstattung/iu
 /doppelt in rechnung gestellt wurden?/i
+
+/(doppelt|zweimal).{1,10}(bezahlt wurde|erfolgt ist).{1,10}um eine erstattung zu beantragen/i
 
 /erstattung anfordern/i
 /rückerstattungs.?link/iu
@@ -224,17 +226,18 @@
 
 # Subscriptions
 # ------------------------------------------------------------------------------
+/aktion erforderlich.{1,10}wir bedauern/i
 /antworten sie.{1,10}bevor ihre.{1,10}mitgliedschaft/i
 
 /reaktiviere mein abonnement/i
-/abonnements aufgrund fehlgeschlagener zahlung(en)? ausgesetzt wurden?/i
-/sie haben eine neue nachricht in ihrem posteingang/i
-
-/aktion erforderlich.{1,10}wir bedauern/i
+/abrechnungszyklus.{1,10}abonnements nicht autorisieren/i
+/abonnements.{1,10}aufgrund fehlgeschlagener zahlung(en)? ausgesetzt wurden?/i
 
 /ihre.{1,10}abonnementzahlung zu aktualisieren/i
 /ihre.{1,10}mitgliedschaft.{1,10}ausgesetzt haben/i
 /ihre.{1,10}zahlungsdaten.{1,10}noch einmal angeben/i
+
+/das ablaufen ihrer zahlungskarte/i
 
 #
 #
