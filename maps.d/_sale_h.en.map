@@ -14,20 +14,21 @@
 
 # E-Bike
 # ------------------------------------------------------------------------------
-/e?.?bikes.{1,10}currently in stock/i
+/e(lectric)?.?bikes?.{1,10}currently in stock/i
+/e(lectric)?.?bikes?.{1,10}available/i
 
-/pioneering e.?bike factory/i
-/(inch fat tire|more of our|our latest|ship our).{1,10}e.?bikes?/i
+/pioneering e(lectric)?.?bikes?.{1,10}factory/i
+/(inch fat tire|more of our|our latest|ship our).{1,10}e(lectric)?.?bikes?/i
 
-/(leading|professional) e.?bike.{1,10}(factory|manufacturer)/i
-/our e.?bikes?.{1,10}(apart|boasts|currently|factory)/i
+/(leading|professional) e(lectric)?.?bikes?.{1,10}(factory|manufacturer)/i
+/our e(lectric)?.?bikes?.{1,10}(apart|boasts|currently|factory)/i
 
 /bike from our inventory/i
 
-/as a leading e.?bike/i
+/as a leading e(lectric)?.?bikes?/i
 
 /your e.?bike partner/i
-
+/our.{1,10}german warehouse/i
 /we have stock available in our warehouse/i
 
 # Glasses

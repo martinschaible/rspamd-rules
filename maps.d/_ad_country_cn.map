@@ -222,6 +222,7 @@
 /(co|limited|ltd).{1,15}we are leading.{1,15}professional/i
 /(co|limited|ltd).{1,15}we.{1,10}supplying/i
 /(co|limited|ltd).{1,10}with over.{1,10}years/i
+/(co|limited|ltd).{1,10}one of the top/i
 
 /co.{1,5}(limited|ltd).{1,10}trading company/i
 /co.{1,5}(limited|ltd).{1,10}our company/i
@@ -458,6 +459,9 @@
 
 /you have shipments from.{1,10}china/i
 /you need ship something from.{1,10}china/i
+
+#
+/transportation.{1,15}assist you with/i
 
 #
 #
