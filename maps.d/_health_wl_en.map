@@ -61,9 +61,9 @@
 
 /(achieve|solve) your.{1,10}weight.?loss/i
 
-/(method|ritual|technique|way).{1,10}boosts calorie burning/i
-/(method|ritual|technique|way).{1,10}(burn|lose|melt).{1,10}(belly|excess|unwanted).?fat/i
-/(method|ritual|technique|way).{1,10}(burn|lose|melt).{1,10}(fat|lbs|pounds|weight)/i
+/(method|ritual|secret|technique|way).{1,10}boosts calorie burning/i
+/(method|ritual|secret|technique|way).{1,10}(burn|lose|melt).{1,10}(belly|excess|unwanted).?fat/i
+/(method|ritual|secret|technique|way).{1,10}(burn|lose|melt).{1,10}(fat|lbs|pounds|weight)/i
 
 /(new|this).{1,10}(fat|weight).?loss.{1,10}(method|product)/i
 /imagine losing.{1,10}(lbs|pounds)/i
@@ -80,6 +80,7 @@
 
 /start your.{1,10}(fat|weight).?loss/i
 /say goodbye to.{1,10}(fat|weight)/i
+/slimmer waist without.{1,10}hassle/i
 
 # Belly
 /gets? rid of your belly/i

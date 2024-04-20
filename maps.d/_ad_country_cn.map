@@ -190,7 +190,7 @@
 /our (company|factory).{1,10}is.{1,10}independent.{1,10}distributor/i
 /our (company|factory).{1,10}produces.{1,20}since/i
 
-/our (company|factory).{1,10}(specializes|specializing).{1,15}(manufacturing|producing|production)/i
+/our (company|factory).{1,10}(specializes|specializing).{1,15}(manufacturing|producing|production|providing)/i
 /our (company|factory).{1,10}(specializes|specializing).{1,15}(high|quality)/i
 /our (company|factory).{1,10}mainly focus on/i
 
