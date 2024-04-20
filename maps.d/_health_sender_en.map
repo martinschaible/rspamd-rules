@@ -49,6 +49,8 @@
 /(big|bulging|tiny|your).?belly/i
 /fat.?(burn(er)?|burning|flush|melting)/i
 
+/visceral.?fat/i
+
 /honey.?burn/i
 
 /calorie.?booster/i
@@ -201,6 +203,11 @@
 
 # Haemorrhoids
 # ------------------------------------------------------------------------------
+
+# Heart
+# ------------------------------------------------------------------------------
+/cancer$/i
+/dangerous.?health/i
 
 # Hair growth
 # ------------------------------------------------------------------------------

@@ -50,7 +50,7 @@
 
 # Greetings
 # ------------------------------------------------------------------------------
-/guten tag.{1,10}mein lieber/i
+/guten tag.{1,10}(ich bin|mein lieber)/i
 /guten tag \[/i
 
 /sehr geehrter? (frau|herr)/i
