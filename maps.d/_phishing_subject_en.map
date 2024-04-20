@@ -27,6 +27,7 @@
 # Account - 2FA Activation
 # ------------------------------------------------------------------------------
 /action required.{1,10}enable 2fa/i
+/urgent.{1,10}two.?factor.{1,10}authentication activation/i
 
 # Account - Confirm or reconfirm identity
 # ------------------------------------------------------------------------------
