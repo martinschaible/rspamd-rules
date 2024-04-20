@@ -181,8 +181,6 @@
 
 /company.{1,10}we are one of the biggest/i
 
-/our as a leading.{1,10}manufacturer of/i
-
 /our (company|factory).{1,10}a top.?notch/i
 /our (company|factory).{1,10}(as|is).{1,10}leading.{1,25}(export|manufacturing|supplier|trader)/i
 /our (company|factory).{1,10}manufacturer.{1,10}following/i
@@ -197,6 +195,9 @@
 /our (company|factory).{1,10}mainly focus on/i
 
 /our customers.{1,10}are mainly from/i
+/our state.?of.?the.?art.{1,15}facility is dedicated/i
+/our as a leading.{1,10}manufacturer of/i
+/our.{1,15}facility.{1,15}focuses on manufacturing/i
 
 /you looking for.{1,10}factory who can/i
 

@@ -18,7 +18,7 @@
 
 # Assistance
 # ------------------------------------------------------------------------------
-/sie um ihre unterstützung bei.{1,10}überweisung/iu
+/sie um ihre unterstützung beiüberweisung/iu
 
 # ATM Card
 # ------------------------------------------------------------------------------
@@ -26,6 +26,7 @@
 /atm.{0.10}karte enthält.{1,15}\d{3}.{0,5}\d{3}.{1,10}millionen/i
 /atm.{0.10}karte.{1,15}die auf ihren.{1,10}namen ausgestellt/i
 
+/ihr konto eine geldautomaten.{1,10}debitkarte/i
 /ihr geld wurde auf eine.{1,10}(bank|debit).{0,10}karte geladen/i
 /ihre swift atm.{0.10}karte/i
 

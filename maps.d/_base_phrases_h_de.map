@@ -42,7 +42,7 @@
 
 # E-Mail
 # ------------------------------------------------------------------------------
-/ich hoffe.{1,10}e?.?mail kommt bei ihnen (an|gut)/i
+/ich hoffe.{1,10}(e?.?mail|nachricht) kommt bei (dir|ihnen) (an|gut)/i
 /ich hoffe.{1,10}sie haben meinen brief erhalten/i
 
 /(lieber|sehr geehrter) e?.?mail.?benutzer/i
