@@ -64,7 +64,7 @@
 
 /gummy.?hack/i
 /(gummies|k2).?diet/i
-/slimm.{0,10}gummies/i
+/(k2|slimm).{0,10}gummies/i
 
 /weight.?loss/i
 /wl.?recipe/i
@@ -393,6 +393,7 @@
 
 # Unclassified
 # ------------------------------------------------------------------------------
+/avoid.?this/i
 /clinically.?proven/i
 /home.?treatment/i
 /ancient.?ritual/i

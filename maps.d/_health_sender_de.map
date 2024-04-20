@@ -8,7 +8,7 @@
 # Pharmacy
 # ------------------------------------------------------------------------------
 /(herren|pillen|playboy).?apotheke/i
-/pillen\b/i
+/(tabletten|pillen)$/i
 
 /apotheker/i
 
