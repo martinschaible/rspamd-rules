@@ -81,6 +81,7 @@
 
 /spendet sie an.{1,10}zufällige Personen/iu
 
+/(millionen|tausend|dollar|euro?|gbp|usd).{1,15}ausgewählt.{1,10}kontaktieren sie/iu
 /(millionen|tausend|dollar|euro?|gbp|usd).{1,15}gespendet.{1,10}antworten sie für.{1,10}details/iu
 /(millionen|tausend|dollar|euro?|gbp|usd).{1,15}spenden.{1,10}was einen teil meiner investition/i
 
@@ -176,7 +177,7 @@
 /sie wurden für eine.{1,15}spende von/i
 /sie wurden für eine.{1,15}spende (ausgewählt|in höhe von)/iu
 /sie wurden für einen.{1,10}zuschuss.{1,10}investition/iu
-/sie wurden für einen.{1,10}geldbetrag/i
+/sie wurden für einen.{1,10}(geldbetrag|spendenzuschuss)/i
 
 /sie wurden ausgewählt.{1,10}eine geldspende/iu
 /sie wurden ausgewählt.{1,10}um.{1,10}\d{3}.{0,5}\d{3}.{1,10}zu erhalten/iu

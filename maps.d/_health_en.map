@@ -50,8 +50,7 @@
 
 # Eyes, Vision
 # ------------------------------------------------------------------------------
-/sharpens? blurry eyesight/i
-/clears foggy vision/i
+/(clear|reverse|sharpen).{1,10}(blurry|foggy) (eyesight|vision)/i
 
 /(secret|trick|restore|swallow).{1,15}(better|perfect).{1,10}vision/i
 

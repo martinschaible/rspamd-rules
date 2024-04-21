@@ -30,7 +30,7 @@
 
 # It's silly to blacklist names. But they are very repetitive
 /marlene\.jpg/i
-/mature\d?\.jpg/i
+/mature.?\d?\.jpg/i
 
 #
 #

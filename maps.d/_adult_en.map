@@ -56,6 +56,8 @@
 
 /photo attached.{1,10}(reply me to|response me at)/i
 
+/you my pictures?.{1,10}attach/i
+
 # Girls, Women
 # ------------------------------------------------------------------------------
 /women.{1,10}looking for love/i
@@ -82,7 +84,8 @@
 
 # Singles
 # ------------------------------------------------------------------------------
-/i.?a?m a (curvy|single|unmarried).{1,15}(female|girl|lady|miss|woman)/i
+/i.?a?m a (alone|curvy|single|unmarried).{1,15}(female|girl|lady|miss|woman)/i
+/alone bland.{1,15}(female|girl|lady|miss|woman)/i
 
 #
 #

@@ -49,6 +49,9 @@
 
 /(hack|secret|trick).{1,10}(removes?|sheds).{1,10}(lbs|pounds)/i
 
+/habit dropped \d{2}.?lbs/i
+/pee out \d{2}.?lbs/i
+
 /melts \d.?lbs? per day/i
 /melts \d{2}.?lbs in.{1,5}weeks/i
 
@@ -70,6 +73,10 @@
 # ------------------------------------------------------------------------------
 /(plant.?based|solution).{1,15}for.{1,15}diabetes/i
 /truth about.{1,10}diabetes/i
+
+# Eyes, Vision
+# ------------------------------------------------------------------------------
+/(clear|reverse|sharpen).{1,10}(blurry|foggy) (eyesight|vision)/i
 
 # Fungus
 # ------------------------------------------------------------------------------
@@ -114,6 +121,7 @@
 /(doctor.?s? secret|morning) trick/i
 /secret ingredient/i
 
+/second routine/i
 /sec(ond)?.{1,10}(ancient|sugar) (juice|hack)/i
 /crazy remedy/i
 /this simple stretch/i
