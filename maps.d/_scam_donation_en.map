@@ -72,7 +72,6 @@
 /(million|dollars?|euro?|gbp|usd).{1,10}have been donated to you/i
 
 /you.{1,10}been granted.{1,10}donation/i
-/you.{1,10}been chosen.{1,10}receive.{1,20}donation/i
 /you.{1,10}(have|received|will receive|won).{1,20}donation/i
 /you.{1,15}are donation.{1,10}funds/i
 
@@ -83,6 +82,9 @@
 /claim.{1,10}your.{1,10}donation/i
 
 /we got a give away.{1,10}donation/i
+
+# Chosen
+/you.{1,10}been chosen.{1,10}receive.{1,20}donation/i
 
 # Donation, Companies
 # ------------------------------------------------------------------------------

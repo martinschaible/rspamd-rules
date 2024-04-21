@@ -158,7 +158,8 @@
 /sie (die|eine) spende in höhe von.{1,10}\d{3}.{0,5}\d{3}/iu
 
 /sie als gewinner einer.{1,15}spende/i
-/sie als eine der glücklichen personen aufgeführt/iu
+/sie als eine der.{1,15}glücklichen personen aufgeführt/iu
+/sie als einen der.{1,15}empfänger ausgewählt/iu
 
 /sie ausgewählt.{1,10}um eine spende in höhe von/iu
 /sie ausgewählt wurden.{1,10}die summe von/iu
