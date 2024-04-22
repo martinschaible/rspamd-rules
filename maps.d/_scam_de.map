@@ -62,6 +62,7 @@
 /millionen.{1,10}(dollar|euro?|gbp|usd).{1,10}kontaktieren sie (mich|uns)/i
 
 /\d{3}.{0,5}\d{3}.{1,10}der mit ihrem.{1,10}namen/i
+/\d{3}.{0,5}\d{3}.{1,10}(dollar|euro?|gbp|usd).{1,10}zugewiesen wurde/i
 
 /mein geld von.{1,15}millionen.{1,15}tausend.{1,10}(dollar|euro?|gbp|usd)/i
 
@@ -201,6 +202,7 @@
 
 /ihre zahlung zu genehmigen.{1,15}registrieren/i
 /ihnen ein betrag von.{1,10}\d{3}.{0,5}\d{3}.{1,10}als entschädigungszahlung/iu
+/ihnen eine entschädigungs.?summe von/iu
 
 /sie aufgrund einer ausstehenden.{1,10}überweisung/iu
 /sie vom entschädigungsausschuss/iu
@@ -269,13 +271,14 @@
 /meinem verstorbenen kunden.{1,10}hinterlassenen geldes/i
 /mein verstorbener kunde verfügt über/iu
 
-/bezüglich meines verstorbenen kunden/iu
-
+/(bezüglich|fonds meines|gehören einem).{1,10}verstorbenen kunden/iu
 /ich vertrete einen.{1,10}verstorbenen kunden/i
+
 /kontaktiere ich sie wegen des anspruchs/i
 
-/gehören einem.{1,10}verstorbenen kunden/iu
 /der denselben.{1,10}(nach)?namen wie sie/i
+
+/sie zum offiziellen empfänger/iu
 
 /verwandten.{0,10}fonds/i
 

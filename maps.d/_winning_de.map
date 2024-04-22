@@ -16,6 +16,7 @@
 
 /google.?online.?(direktor|verlosung)/i
 /google.?e?.?mail.?(lotterie|lotto)/i
+/(google|microsoft).{1,10}(lotto|lotterie|online.?ziehung)/i
 
 /gewinner.{1,15}google mit gesponserten/i
 
@@ -30,8 +31,6 @@
 
 # Draw
 # ------------------------------------------------------------------------------
-/(google|microsoft).{1,10}online.?ziehung/i
-
 /internet.{1,10}e?.?mail.?verlosung/i
 
 # Lottery

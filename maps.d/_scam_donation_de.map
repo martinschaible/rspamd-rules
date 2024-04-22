@@ -43,7 +43,9 @@
 
 # Contact
 # ------------------------------------------------------------------------------
-/(millionen|tausend).{1,10}(dollar|euro?|gbp|usd).{1,10}kontaktieren sie mich.{1,10}e?.?mail/i
+/\d{3}.{0,5}\d{3}.{1,10}(dollar|euro?|gbp|usd).{1,10}zu erhalten.{1,10}kontaktieren sie mich/i
+
+/(millionen|tausend).{1,10}(dollar|euro?|gbp|usd).{1,10}kontaktieren sie mich/i
 /(millionen|tausend).{1,10}(dollar|euro?|gbp|usd).{1,10}e?.?mail für details/iu
 
 /ihres spendenanspruchs wenden sie sich/i
@@ -232,6 +234,8 @@
 /hallo.{1,10}die summe von/i
 
 /sie die von uns gesendete spende erhalten/i
+
+/gewinnern?.{1,10}die ausgewählt wurde.{1,10}meine spende/iu
 
 # Donation, Companies
 # ------------------------------------------------------------------------------

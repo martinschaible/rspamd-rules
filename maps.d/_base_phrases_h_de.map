@@ -77,7 +77,7 @@
 
 # E-Mail surprise
 # ------------------------------------------------------------------------------
-/diese e?.?mail.{1,10}sie überraschend kommt/i
+/diese (benachrichtigung|e?.?mail).{1,10}sie überraschend kommt/i
 
 # Excuses and other silly stuff
 # ------------------------------------------------------------------------------
