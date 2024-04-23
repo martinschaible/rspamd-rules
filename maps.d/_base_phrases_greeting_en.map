@@ -158,11 +158,10 @@
 /my name is.{1,25}international.{1,10}(fund|trust)/i
 
 /my name is.{5,25}i.?a?m.{1,10}(general|international|sales).{1,10}manager/i
-/my name is.{5,25}i.?a?m.{1,10}partner at/i
-/my name is.{1,25}i.?a?m.{1,10}(agent|adviser|citizen of)/i
+/my name is.{1,25}i.?a?m.{1,10}(agent|adviser|banker|citizen of|partner at)/i
 /my name is.{5,25}i.?a?m.{1,10}writing (this message|to you)/i
-/my name is.{5,25}i represent.{1,10}company/i
 
+/my name is.{5,25}i represent.{1,10}company/i
 /my name is.{5,25}i was.{1,10}browsing your/i
 
 /my name is (mrs?|ms).{5,25}from/i

@@ -187,6 +187,9 @@
 /page.{0,5}image.{0,5}.gz/i
 /scan.{0,20}\.html/i
 
+# Sample: Scan Copy 0092316282.7z
+/scan.?copy.?\d{4,10}\.(7z|doc|gz|htm|r11|rar|tgz|xla|xls|zip)/i
+
 # Shipment
 # ------------------------------------------------------------------------------
 /(delivery|shipping|shipment).?documents?.?pdf\.zip/i

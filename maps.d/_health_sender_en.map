@@ -45,9 +45,11 @@
 
 # Weightloss
 # ------------------------------------------------------------------------------
-/(burn|lose|melt|shed).{0,10}(fat|lbs|pounds|weight)/i
+/(belly|burn|lose|melt|shed).{0,10}(fat|lbs|pounds|weight)/i
 
 /(big|bulging|slimmer|tiny|your).?belly/i
+
+/fat.?vanish/i
 /fat.?(burn(er)?|burning|flush|melting)/i
 
 /flat.?tummy/i
