@@ -68,6 +68,7 @@
 # Winning
 # ------------------------------------------------------------------------------
 /you are.{1,10}selected winner/i
+/you are.{1,10}lucky for.{1,10}prize/i
 /you have won.{1,10}sum of.{1,10}\d{3}.{0,5}\d{3}/i
 
 /you.{1,10}that you.{1,10}won.{1,10}\d{3}.{0,5}\d{3}/i
@@ -83,6 +84,8 @@
 /e?.?mail is.{1,20}inform you that you won/i
 
 /winnings was carried out through the/i
+
+/winners?.{1,10}contact us for.{1,10}details/i
 
 # Companies
 /your.{1,10}e?.?mail.?(account|address|id)?.{1,10}ssociated with.{1,10}(google|microsoft)/i

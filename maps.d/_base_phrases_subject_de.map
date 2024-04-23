@@ -23,7 +23,7 @@
 /\[-.{1,15}-\]/i
 
 /wichtig.{1,10}important/i
-/wichtige.{1,10}dringende.{1,15}(angelegenheit|benachrichtigung)/i
+/(sehr|wichtige).{1,10}dringende.{1,15}(angelegenheit|benachrichtigung|nachricht)/i
 
 /antwort erforderlich/i
 
