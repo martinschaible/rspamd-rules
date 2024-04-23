@@ -83,6 +83,7 @@
 
 /sie haben.{1,10}ausstehendes paket/i
 /sie müssen das paket abholen/iu
+/sie haben eine.{1,10}eingehende.{1,10}lieferung/i
 
 /steht.{1,10}paket zur zustellung an/i
 
@@ -108,6 +109,7 @@
 /paket.{1,20}kam sicher in.{1,10}lager zurück/i
 /paket.{1,20}konnte nicht.{1,10}zugestellt werden.{1,15}falsche adresse/i
 /paket.{1,20}konnte nicht.{1,20}werden.{1,10}da bei derzustellung/i
+/paket.{1,10}zuzustellen.{1,10}aufgrund einer falschen adresse/i
 
 /paket.{1,10}(in der|ist in).{1,10}(warteschleife|wartestellung)/i
 

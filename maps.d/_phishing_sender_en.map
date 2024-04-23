@@ -115,6 +115,7 @@
 # Apple
 /apple.?(id|winner)/i
 /icloud.?(important|notice|user)/i
+/icloud$/i
 
 # DHL
 /dhl.{0,5}(express|package)/i

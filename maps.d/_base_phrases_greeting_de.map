@@ -165,6 +165,8 @@
 
 /kompliment des tages.{1,10}ich kontaktiere sie/i
 
+/ich bin (frau|herr).{5,25}ich (habe|leide)/i
+
 # Introduction, Country
 # ------------------------------------------------------------------------------
 /ich bin (frau|herr).{5,25}aus.{1,10}abidjan/i
@@ -245,6 +247,7 @@
 /komplimente? der jahreszeiten/i
 /komplimente? des tages/i
 
+/hallo.{1,10}ehrenwwert/i
 /hallo.{1,10}ich hoffe alles gut mit dir/i
 /hallo herr.{1,10}frau/i
 
