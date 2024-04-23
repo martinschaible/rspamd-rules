@@ -8,7 +8,7 @@
 # Stocks
 # ------------------------------------------------------------------------------
 /growth.{1,10}stock opportunity/i
-/(hidden fortune|remarkable).{1,10}stock/i
+/(hidden fortune|remarkable).{1,10}(gem|stock)/i
 
 /invest.{1,10}(gains|massive|success)/i
 
@@ -25,6 +25,7 @@
 
 # Unclassified
 # ------------------------------------------------------------------------------
+/maximize your earnings/i
 
 # Masked
 # ------------------------------------------------------------------------------

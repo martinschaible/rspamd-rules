@@ -20,9 +20,10 @@
 
 # Penis
 /big.?size/i
-/bigger.?(fuller|harder)/i
+/(bigger|thicker).?(fuller|harder)/i
 /(fuller|harder).?stronger/i
 
+/twist.{0,10}growth/i
 /grow.your.(member|penis)/i
 /penis.?ritual/i
 /(african|soft).?(manhood|penis)/i
@@ -46,7 +47,7 @@
 # ------------------------------------------------------------------------------
 /(burn|lose|melt|shed).{0,10}(fat|lbs|pounds|weight)/i
 
-/(big|bulging|tiny|your).?belly/i
+/(big|bulging|slimmer|tiny|your).?belly/i
 /fat.?(burn(er)?|burning|flush|melting)/i
 
 /flat.?tummy/i
@@ -129,7 +130,7 @@
 
 # CBD
 # ------------------------------------------------------------------------------
-/cbd.{0,10}gummies/i
+/cbd.{0,10}(fruit|gummies)/i
 
 # Colon
 # ------------------------------------------------------------------------------
@@ -332,13 +333,13 @@
 # Tinitus
 # ------------------------------------------------------------------------------
 /(beat|end|goodbye|stop).?tinnitus/i
+/tinnitus.?(cure|symptoms|warning)/i
 
 /bad.?hearing/i
 /ear.?ringing/i
 /ringing.?ears/i
-/buzzing.?noise/i
+/(buzzing|stop).{0,10}noise/i
 /odd.?mineral/i
-/tinnitus.?(cure|symptoms)/i
 
 # Wrinkles
 # ------------------------------------------------------------------------------
@@ -402,3 +403,5 @@
 /japanese.?trick/i
 /make your own/i
 /eat.?me/i
+/drink.{0,10}(cup|this)/i
+/home with ease/i
