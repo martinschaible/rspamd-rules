@@ -114,7 +114,9 @@ your recent request.{1,10}de.?activate your.{1,10}e?.?mail/i
 
 /could not be delivered to.{1,10}inbox/i
 
+/you have.{1,15}(undelivered|pending).{1,10}(e?.?mails?|messages?)/i
 /your.{1,10}mail.?box needs? to be verified/i
+
 
 # Storage
 # ------------------------------------------------------------------------------

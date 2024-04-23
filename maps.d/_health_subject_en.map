@@ -29,36 +29,33 @@
 
 # Weightloss
 # ------------------------------------------------------------------------------
-/gummy that will help/i
+/(burn|lose|melt|shed).{1,10}belly.?(fat|flab)/i
+/(burn|lose|melt|shed).{1,10}(lbs|pounds|weight)/i
 
-/(burn|lose|shed).{1,10}belly.?(fat|flab)/i
-/(burn|lose|shed).{1,10}(lbs|pounds|weight)/i
-
-/zap away.{1,10}fat/i
-
-/(lbs|pounds) in.{1,10}months/i
-/(lbs|pounds) of flab/i
-/(boost|your).{1,10}(fat|weight).?loss/i
-
-/lost.{1,10}(lbs|pounds) in.{1,15}(days|months)/i
+/(burn|lose|melt|shed).{1,10}\d.?lbs? per day/i
+/(burn|lose|melt|shed).{1,10}\d{2}.?lbs in.{1,5}weeks/i
 
 /burns flab.{1,10}faster/i
 
-/stubborn fat/i
-/(drop unwanted|ways? to burn).{1,10}(lbs|pounds)/i
+/(lbs|pounds|weight) in.{1,10}months/i
+/(lbs|pounds) of flab/i
 
-/(hack|secret|trick).{1,10}(removes?|sheds).{1,10}(lbs|pounds)/i
+/(boost|your).{1,10}(fat|weight).?loss/i
+
+/(drop unwanted|pee out|ways? to burn).{1,10}(lbs|pounds)/i
+/lost.{1,10}(lbs|pounds|weight) in.{1,15}(days|months)/i
+/zap away.{1,10}fat/i
+
+/gummy that will help/i
+
+/stubborn fat/i
+
+/(hack|secret|trick).{1,10}(removes?|sheds).{1,10}(lbs|pounds|weight)/i
 
 /habit dropped \d{2}.?lbs/i
-/pee out \d{2}.?lbs/i
-
-/melts \d.?lbs? per day/i
-/melts \d{2}.?lbs in.{1,5}weeks/i
 
 /keto.{1,10}(air.?fryer|plus)/i
-
 /second.{1,10}fat.?burning/i
-
 /(fat|weight).?loss.{1,10}secret/i
 
 #
