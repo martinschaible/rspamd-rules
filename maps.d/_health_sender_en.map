@@ -95,7 +95,7 @@
 
 # Alzheimer, Dementia
 # ------------------------------------------------------------------------------
-/healthy.?brain/i
+/healthy.?(brain|secret)/i
 
 /(alzheimer|dementia).{1,10}(test|trigger|warning)/i
 /brain.?(booster|cell|fog|scan)/i
@@ -206,6 +206,7 @@
 # Gut
 # ------------------------------------------------------------------------------
 /gut.?(detox|flush)/i
+/your.?gut/i
 
 # Haemorrhoids
 # ------------------------------------------------------------------------------
@@ -281,7 +282,7 @@
 
 # Pain
 # ------------------------------------------------------------------------------
-/pain.?(killer|no.?more|quiz|relief)/i
+/pain.?(killer|miracle|no.?more|quiz|relief)/i
 
 /(end|erase|joint|neck|nerve).?pain/i
 /joints.?healed/i

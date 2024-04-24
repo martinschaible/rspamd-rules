@@ -78,6 +78,9 @@
 
 /(enquiry|inquiry|invoice|order|quote).?copy\.(7z|doc|gz|htm|r11|rar|tgz|xla|xls|zip)/i
 
+# Sample: Purchase Order No.P7696.z
+/order.?no.?[a-z0-9]{1,10}\.z$/i
+
 # Sample: order 98987006305#.doc
 /(enquiry|inquiry|invoice|order|quote).?\d{2,15}.?\.(7z|doc|gz|htm|r11|rar|tgz|xla|xls|zip)/i
 
@@ -252,6 +255,7 @@
 #
 /(copies|receipt.?files)\.html?/i
 
+/customer\.zip/i
 /contract.{0,10}\.zip/i
 /investment\.(7z|doc|gz|htm|r11|rar|tgz|xls|zip)/i
 
