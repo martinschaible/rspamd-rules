@@ -121,6 +121,11 @@
 # Gartenhaus
 # ------------------------------------------------------------------------------
 
+# Mats
+# ------------------------------------------------------------------------------
+/(sauberlauf|schmutzfang).?matten?.{1,10}sauberlaufteppich/i
+/(sauberlauf|schmutzfang).?matten?.{1,10}verschiedenen farben/i
+
 # Night Vision Scope
 # ------------------------------------------------------------------------------
 /unser neues.{1,10}nachtsichtfernglas/i
@@ -183,11 +188,6 @@
 # Safe
 # ------------------------------------------------------------------------------
 /wir haben.{1,15}(aktuell|neue).{1,15}tresore lieferbar/i
-
-# Schmutzfangmatten
-# ------------------------------------------------------------------------------
-/schmutzfangmatten?.{1,10}sauberlaufteppich/i
-/schmutzfangmatten?.{1,10}verschiedenen farben/i
 
 # Schneeschieber
 # ------------------------------------------------------------------------------

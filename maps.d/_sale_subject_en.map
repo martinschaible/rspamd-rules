@@ -128,7 +128,8 @@ lead generation solution/i
 
 /on google 1st page/i
 
-/(get found|your page.?rank).{1,10}google/i
+/get found.{1,10}google/i
+/your (page|website).?rank.{1,10}google/i
 
 /increase revenue.{1,10}profits/i
 /increase your business sells/i

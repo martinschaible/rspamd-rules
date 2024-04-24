@@ -31,6 +31,7 @@
 # ------------------------------------------------------------------------------
 /(burn|lose|melt|shed).{1,10}belly.?(fat|flab)/i
 /(burn|lose|melt|shed).{1,10}(lbs|pounds|weight)/i
+/(burn|lose|melt|shed).{1,10}fat easily/i
 
 /(burn|lose|melt|shed).{1,10}\d.?lbs? per day/i
 /(burn|lose|melt|shed).{1,10}\d{2}.?lbs in.{1,5}weeks/i
@@ -45,6 +46,8 @@
 /(drop unwanted|pee out|ways? to burn).{1,10}(lbs|pounds)/i
 /lost.{1,10}(lbs|pounds|weight) in.{1,15}(days|months)/i
 /zap away.{1,10}fat/i
+
+/want to lose fat/i
 
 /gummy that will help/i
 

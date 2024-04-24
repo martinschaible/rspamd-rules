@@ -24,9 +24,9 @@
 
 # Dating
 # ------------------------------------------------------------------------------
-/(online|sex).{1,10}dating/i
+/(online|sex).{0,10}dating/i
 
-/dating.?reise/i
+/dating.?(reise|seite)/i
 
 /treffen sie diese.{1,10}frau/i
 /kostenloses treffen/i
@@ -48,7 +48,7 @@
 
 # Girls, Women
 # ------------------------------------------------------------------------------
-/(attraktive|geile|sexy) frau(en)?/i
+/(attraktive|geile|sexy).{1,10}frau(en)?/i
 
 /frauen warten auf/i
 /treffen sie diese.{1,15}frau(en)?/i
