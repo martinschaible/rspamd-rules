@@ -81,7 +81,7 @@
 /o.{0,3}p.{0,3}r.{0,3}a.{0,3}h/i
 
 # Prdoducts
-/3d.?slim/i
+/(3d.?slim|power.?shape)/i
 
 #
 #
@@ -114,7 +114,7 @@
 
 # Bladder
 # ------------------------------------------------------------------------------
-/bladder.?(health|leaks|leakage|leaking|issues?)/i
+/bladder.?(care|health|leaks|leakage|leaking|issues?)/i
 /(big|weak).?bladder/i
 
 # Blood pressure
@@ -343,6 +343,9 @@
 /ringing.?ears/i
 /(buzzing|stop).{0,10}noise/i
 /odd.?mineral/i
+
+# Products
+/ottomax/i
 
 # Wrinkles
 # ------------------------------------------------------------------------------

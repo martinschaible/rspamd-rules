@@ -42,7 +42,6 @@
 # Winning, Lottery
 # ------------------------------------------------------------------------------
 /gewinn(er)?.?(informationen|spiel|team)/i
-/gewinn.?benachrichtigung/i
 
 /(lotterie|lottery|millionen).?gewinner/i
 /lotto.?rabatt/i
@@ -80,6 +79,7 @@
 
 /(aktuelle|neue|wichtige).{0,5}(mitteilung|nachricht)/i
 
+/benachrichtigung/i
 /(glückwunsch|präsident)/iu
 
 /(frau|herr)/i
