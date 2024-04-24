@@ -195,9 +195,9 @@
 /(end|fight|foot|goodbye|nail|nasty|stop|yellow).?fungus/i
 /fix.{1,10}(nail|toe).?fungus/i
 
-/fungus.?infection/i
+/(fungal|fungus).?(infection|relief)/i
 
-/(cracked|toe|yellow).?nails/i
+/(cracked|rotten|toe|yellow).?nails/i
 
 # Gums
 # ------------------------------------------------------------------------------
@@ -330,7 +330,7 @@
 # ------------------------------------------------------------------------------
 /teeth.?rotting/i
 /strong(er)?.?teeth/i
-/(perfect|rotting).?teeth/i
+/(perfect|rotting|yellow).?teeth/i
 
 # Tinitus
 # ------------------------------------------------------------------------------
