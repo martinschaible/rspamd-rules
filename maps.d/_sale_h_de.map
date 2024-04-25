@@ -53,6 +53,8 @@
 /stuhl.{1,15}vorzugspreis von nur/i
 /stuhl zum vorzugspreis/i
 
+/sonderangebot.{1,10}besucherstuhl/i
+
 /mesh.{1,10}(büro|dreh).?(stuhl|stühle).{1,10}schwarz/iu
 
 /sichern sie sich ihren stuhl/i
@@ -354,6 +356,7 @@
 /bestellen.{1,15}senden sie uns.{1,15}ihre.{1,20}(liefer|rechnungs).?anschrift/i
 /bestellen.{1,15}senden sie uns.{1,15}ihre.{1,20}ihre adresse/i
 /bestellen.{1,10}muster einfach antworten/i
+/bestellen.{1,10}mit adresse einfach antworten/i
 
 /bestellung(en)?.{1,15}antworten sie.{1,15}auf diese.{1,10}(e?.?mail|nachricht)/i
 /bestellung(en)?.{1,10}antworten sie.{1,15}mit ihrer.{1,10}(adresse|anschrift)/i
