@@ -106,6 +106,10 @@
 #
 #
 
+# Companies and Organisations - One word
+# ------------------------------------------------------------------------------
+/(apple|microsoft|rewe)$/i
+
 # Companies and Organisations
 # ------------------------------------------------------------------------------
 
@@ -131,6 +135,9 @@
 
 # Facebook
 /facebook (ads.?team|inc)/i
+
+# Lidl
+/lidl.{0,10}box/i
 
 # Netflix
 /netflix.?(expiration|support)/i
