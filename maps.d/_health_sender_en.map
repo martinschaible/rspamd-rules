@@ -163,6 +163,8 @@
 /stop.?insuline/i
 /hidden.?protein/i
 
+/glucose.?hack/i
+
 # Digestive System
 # ------------------------------------------------------------------------------
 /digestive.?system/i
@@ -286,6 +288,10 @@
 # ------------------------------------------------------------------------------
 /neuropathy/i
 
+# Osteoporosis
+# ------------------------------------------------------------------------------
+/osteoporosis/i
+
 # Pain
 # ------------------------------------------------------------------------------
 /pain.?(killer|miracle|no.?more|quiz|relief)/i
@@ -372,6 +378,8 @@
 /unlock.{0,10}secret/i
 /(second|simple).?trick/i
 
+/secret.?protein/i
+
 #
 #
 #
@@ -414,8 +422,9 @@
 /clinically.?proven/i
 /home.?treatment/i
 /ancient.?ritual/i
-/japanese.?trick/i
+/(japanese|taiwan).?(hack|trick)/i
 /make your own/i
 /eat.?me/i
 /drink.{0,10}(cup|this)/i
 /home with ease/i
+

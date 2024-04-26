@@ -51,6 +51,7 @@
 
 /dear.{1,10}friend.{1,10}i am (mrs?|ms)/i
 /dear.{1,10}friend.{1,10}i got your contact/i
+/dear.{1,10}friend.{1,10}nice day/i
 
 /dear.{1,10}managing.{1,10}director/i
 /dear.{1,10}manager.{1,10}nice day/i
@@ -164,6 +165,8 @@
 /my name is.{5,25}i represent.{1,10}company/i
 /my name is.{5,25}i was.{1,10}browsing your/i
 
+/my name is.{5,25}i have been.{1,10}victim/i
+
 /my name is (mrs?|ms).{5,25}from/i
 
 /mine real name is/i
@@ -197,6 +200,7 @@
 # Greetings, Country
 # ------------------------------------------------------------------------------
 /my name is.{5,25}of french/i
+/you are well.{1,10}i am from india/i
 
 # Introduction
 # ------------------------------------------------------------------------------

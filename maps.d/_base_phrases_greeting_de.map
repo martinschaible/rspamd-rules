@@ -152,6 +152,8 @@
 
 /hallo.{1,10}mein name ist.{5,25}ich bin.{1,10}jahre alt/i
 
+/von dr\..{5,30}ich bin dr\./i
+
 # Greetings, Country
 # ------------------------------------------------------------------------------
 /mein name ist.{5,35}ein schweizer/i
