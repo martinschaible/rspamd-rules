@@ -97,6 +97,7 @@
 # ------------------------------------------------------------------------------
 /healthy.?(brain|secret)/i
 
+/alzheimers/i
 /(alzheimer|dementia).{1,10}(test|trigger|warning)/i
 /brain.?(booster|cell|fog|scan)/i
 /memory.?(hack|loss)/i
@@ -181,8 +182,13 @@
 /(bad|blurred|blurry).?(eye.?sight|view|vision)/i
 /(20|clear|night|perfect).?(eye.?sight|view|vision)/i
 
+/bad.?eyes/i
+
 /eye.?(exercise|surgery)/i
 /sight.?care/i
+
+# Glasses
+/see clearer with this/i
 
 # Feet
 # ------------------------------------------------------------------------------
@@ -385,6 +391,7 @@
 /prostadine
 /prostanol/i
 /prostovit/i
+/stinafil/i
 /suromexil/i
 /symbioslim/i
 /testoultra/i

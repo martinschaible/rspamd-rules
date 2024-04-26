@@ -84,8 +84,7 @@
 /eine.{1,10}prüfung ihrer.{1,10}telefon.?nummer vorzunehmen/i
 
 # Photo TAN
-/(photo|push).?tan.{1,10}aktivierungsbrief/i
-/(photo|push).?tan.{1,10}gesperrt wurde/i
+/(photo|push).?tan.{1,10}(aktivierungsbrief|gesperrt wurde|ist da)/i
 
 /(aktivieren|aktualisieren) sie.{1,10}(photo|push).?tan/i
 /aktiviere das neue.{1,10}(photo|push).?tan/i

@@ -127,9 +127,11 @@
 # New Systems, Security, Technology, TAN
 # ------------------------------------------------------------------------------
 /(photo|push).?tan.?verfahren/i
+/(photo|push).?tan.{1,10}(aktivieren sie jetzt|ist nicht)/i
 
 /(aktivieren|aktualisieren|entdecken) sie.{1,15}(photo|push).?tan/i
 /wichtiges update.{1,15}(photo|push).?tan/i
+/neues?.{1,10}(photo|push).?tan/i
 
 /tan.?verfahren.{1,10}vr.?securego/i
 
