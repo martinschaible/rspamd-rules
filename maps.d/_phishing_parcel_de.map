@@ -20,6 +20,7 @@
 # ------------------------------------------------------------------------------
 /adresse für dieses.{1,10}paket mitteilen/iu
 /aktualisieren sie.{1,10}ihre.{1,10}lieferadresse/i
+/aufgrund fehlender angaben nicht versenden/i
 /die angegebene lieferadresse.{1,20}nicht.{1,10}korrekt ist/i
 
 /bitten wir sie.{1,10}ihre adresse zu überprüfen/iu
@@ -99,6 +100,7 @@
 # Pickup
 /paketstatus.{1,10}nicht abgeholt/i
 /sie haben.{1,10}noch.{1,10}nicht abgeholte bestellung/i
+/zustellzentrum wartet ein paket auf sie/i
 
 # Delivery problems
 # ------------------------------------------------------------------------------
@@ -204,6 +206,7 @@
 /(paket|sendung).{1,10}aufgrund fehlender versandkosten nicht liefern/i
 /(paket|sendung).{1,10}abzuschlie(ss|ß)en.{1,10}bestätigen sie.{1,10}die zahlung/iu
 /(paket|sendung).{1,10}bekommen.{1,10}ist eine zahlung notwendig/i
+/(paket|sendung).{1,10}gebühr von.{1,10}chf bezahlen/i
 /(paket|sendung).{1,10}sind die versandkosten noch nicht bezahlt/i
 /(paket|sendung).{1,10}zu erhalten.{1,10}zahlen sie.{1,10}die versandkosten/i
 /(paket|sendung).{1,10}indem sie auf die.{1,15}schaltfläche klicken/iu
