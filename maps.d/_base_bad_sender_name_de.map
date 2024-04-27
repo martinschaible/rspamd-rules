@@ -14,10 +14,6 @@
 
 /hilfezentrum.?id/i
 
-# Which works?
-#/\s(kundendienst|support)/n/i
-#/\s(kundendienst|support)+$/i
-
 #
 #
 #
@@ -57,7 +53,6 @@
 /verdächtige viren wurden entdeckt/iu
 /sicherheitshinweis/i
 /malware.?schutz/i
-/datenschutz$/i
 /gerätesicherheit/iu
 
 /(antivirus|av|mca?fee|norton).?warnung/i
@@ -66,6 +61,21 @@
 # Products
 /av 202\d.?warnung/i
 /ihr mcafee.?abonnement.{1,10}ausgesetzt/i
+
+#
+#
+#
+
+# One word only
+# ------------------------------------------------------------------------------
+/versand$/i
+
+# Health
+
+# Phishing
+/datenschutz$/i
+
+# Scam
 
 #
 #
