@@ -82,6 +82,7 @@
 /(co|limited|ltd).{1,10}was established.{1,10}in (china|dongguan|guangdong|guangzhou|shenzhen|zhejiang)/i
 
 /co.{1,5}ltd.{1,10}(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang)/i
+/(co|limited|ltd).{1,10}factory.{1,10}(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang)/i
 
 /this is.{5,25}from.{1,10}(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang)/i
 
@@ -277,11 +278,16 @@
 /We are.{1,15}(aluminum|carrying).{1,15}case.{1,10}manufacturer/i
 /we offer.{1,10}aluminum.{1,10}case/i
 
+# Clothes
+# ------------------------------------------------------------------------------
+/we are.{1,10}leading professional.{1,10}(polo|shirt)/i
+
 # CNC
 # ------------------------------------------------------------------------------
 /company.{1,10}specializes in cnc.{1,10}machining/i
 
-/we are.{1,10}cnc.{1,10}precision machined/i
+/we are.{1,15}cnc.{1,10}(metal|precision|printing).{1,10}(fabrication|machined)/i
+/we provide custom parts.{1,15}cnc/i
 
 /our.{1,10}services include.{1,10}cnc/i
 
