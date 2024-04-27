@@ -85,6 +85,7 @@
 # Singles
 # ------------------------------------------------------------------------------
 /i.?a?m a (alone|curvy|single|unmarried).{1,15}(female|girl|lady|miss|woman)/i
+/i.?a?m not a married.{1,15}(female|girl|lady|miss|woman)/i
 /alone bland.{1,15}(female|girl|lady|miss|woman)/i
 
 #

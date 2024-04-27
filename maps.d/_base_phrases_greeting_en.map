@@ -181,6 +181,8 @@
 /(hello|hi).{1,10}i am.{5,25}the son of the late/i
 
 /(hello|hi).{1,10}there.{1,10}my name is/i
+/(hello|hi).{1,10}there.{1,10}i.?a?m.{5,25}i reside in/i
+
 /(hello|hi).{1,10}dear(est)?.{1,10}my name is/i
 /(hello|hi).{1,10}greetings.{1,10}my name is/i
 
