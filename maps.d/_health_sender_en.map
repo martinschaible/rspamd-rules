@@ -158,7 +158,7 @@
 # ------------------------------------------------------------------------------
 /diabetes/i
 
-/sugar.?disease/i
+/sugar.?(disease|levels?)/i
 /stop.?insuline/i
 /hidden.?protein/i
 
@@ -348,7 +348,7 @@
 /(beat|end|goodbye|stop).?tinnitus/i
 /tinnitus.?(cure|symptoms|warning)/i
 
-/bad.?hearing/i
+/(bad|restore).?hearing/i
 /ear.?ringing/i
 /ringing.?ears/i
 /(buzzing|stop).{0,10}noise/i

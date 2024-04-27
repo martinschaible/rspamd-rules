@@ -71,9 +71,14 @@
 /versand$/i
 
 # Health
+/(apo|apotheke|doktor)$/i
+/(tabletten|pillen)$/i
 
 # Phishing
 /datenschutz$/i
+
+# Sales
+/drucker$/i
 
 # Scam
 
