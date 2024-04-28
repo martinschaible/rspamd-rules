@@ -81,7 +81,6 @@
 
 # Metabolism
 # ------------------------------------------------------------------------------
-/ritual that will boost/i
 
 # Muscle Pain
 # ------------------------------------------------------------------------------
@@ -145,8 +144,6 @@
 /amazonian mixture adds/i
 /ancient.{1,10}(jungle hack|self.?healing)/i
 
-/add.{1,10}this simple.{1,10}second ritual/i
-
 /century.{1,10}miracle herb/i
 
 /whistleblowing doctor/i
@@ -167,10 +164,8 @@
 
 /discover.{1,10}how this simple method/i
 /discover.{1,10}about this shocking revelation/i
-/discover.{1,10}second water ritual/i
 /discover.{1,10}the.{1,10}(amazing|hidden|incredible).{1,10}(chemical|drink|secret)/i
 /discover.{1,10}the.{1,10}secret here/i
-/discover.{1,10}the.{1,10}second ritual/i
 /discover.{1,10}natural.{1,10}secret/i
 /discover.{1,10}biblical solution/i
 
@@ -196,8 +191,8 @@
 /miracle drink that restores/i
 
 /morning trick gives/i
-/natural (method|secret) that.{1,10}eliminate/i
-/natural (method|secret) that.{1,10}changing lives/i
+/natural.{1,10}(method|secret) that.{1,10}eliminate/i
+/natural.{1,10}(method|secret) that.{1,10}changing lives/i
 
 /uncover.{1,10}the shocking truth/i
 /uncover.{1,10}the secret to quick/i
@@ -206,11 +201,9 @@
 /uncover.{1,10}remarkable tale/i
 /uncover.{1,10}astonishing secret/i
 
-/unusual.{1,15}breakfast ritual/i
 /(uncovered|unveiled).{1,10}groundbreaking (discovery|secret)/i
 
 /reveals secret survival plan/i
-/second ritual.{1,10}that keeps/i
 /secret.{1,10}click here to learn/i
 /scientists confirmed this.{1,10}hack/i
 /shocking discovery reveals/i
@@ -242,6 +235,17 @@
 /this little.?known.{1,10}ingredient/i
 
 /with (a|this).{1,10}(miraculous|revolutionary) (trick|solution)/i
+
+# Ritual
+/ritual that will boost/i
+
+/discover.{1,10}second water ritual/i
+/discover.{1,10}the.{1,10}second ritual/i
+
+/second ritual.{1,10}that keeps/i
+/unusual.{1,15}breakfast ritual/i
+/add.{1,10}this simple.{1,10}second ritual/i
+/natural.{1,10}second ritual/i
 
 #
 #
