@@ -35,6 +35,8 @@
 
 /(admin|e?.?mail).{0,10}(alert|security|server|support)/i
 
+/it.?noreply/i
+
 /mailbox.?admin/i
 /security.notification/i
 /support.?notice/i

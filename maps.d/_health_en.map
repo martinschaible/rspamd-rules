@@ -239,13 +239,10 @@
 # Ritual
 /ritual that will boost/i
 
-/discover.{1,10}second water ritual/i
-/discover.{1,10}the.{1,10}second ritual/i
-
 /second ritual.{1,10}that keeps/i
-/unusual.{1,15}breakfast ritual/i
 /add.{1,10}this simple.{1,10}second ritual/i
-/natural.{1,10}second ritual/i
+
+/(discover|liquid|natural|unusual).{1,10}(breakfast|detox|second|water).{1,10}ritual/i
 
 #
 #

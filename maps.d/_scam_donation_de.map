@@ -79,7 +79,8 @@
 /spenden?.{1,10}investitions.?geld(er)?/i
 /spenden?.{1,10}überlassen.{1,10}melden sie sich/iu
 
-/(spende|summe) von.{1,10}millionen.{1,10}wurde ihnen/i
+/(spende|summe).{1,10}von.{1,10}millionen.{1,10}wurde ihnen/i
+/(spende|summe).{1,20}leisten.{1,10}kontaktieren sie (mich|uns)/i
 
 /spenden.?anforderung.{1,10}wenden sie sich/i
 
