@@ -9,18 +9,20 @@
 # ------------------------------------------------------------------------------
 /greetings.{1,10}my.name.is.{5,20}from/i
 
-/(dear|hello|hi).{1,10}(madam|sir).{1,10}we are.{1,20}manufacturer/i
-/(dear|hello|hi).{1,10}(madam|sir).{1,10}i am seeking your/i
 /(dear|hello|hi).{1,10}(madam|sir).{1,10}greetings of the day/i
-/(dear|hello|hi).{1,10}(madam|sir).{1,10}my name is/i
-/(dear|hello|hi).{1,10}(madam|sir).{1,10}we got your name/i
 
-/(dear|hello|hi).{1,10}(sir|madam).{1,10}(good|nice) day/i
-/(dear|hello|hi).{1,10}(sir|madam).{1,10}how are you/i
-/(dear|hello|hi).{1,10}(sir|madam).{1,10}nice to know you/i
-/(dear|hello|hi).{1,10}(sir|madam).{1,10}i.?a?m.{5,25}from/i
-/(dear|hello|hi).{1,10}(sir|madam).{1,10}i.?a?m.{5,25}purchase.manager/i
-/(dear|hello|hi).{1,10}(sir|madam).{1,10}this is.{5,25}from/i
+/(dear|hello|hi).{1,10}(madam|sir).{1,10}do you require/i
+/(dear|hello|hi).{1,10}(madam|sir).{1,10}(good|nice) day/i
+/(dear|hello|hi).{1,10}(madam|sir).{1,10}how are you/i
+/(dear|hello|hi).{1,10}(madam|sir).{1,10}i.?a?m.{5,25}from/i
+/(dear|hello|hi).{1,10}(madam|sir).{1,10}i.?a?m.{5,25}purchase.manager/i
+/(dear|hello|hi).{1,10}(madam|sir).{1,10}i.?a?m.{5,25}seeking your/i
+/(dear|hello|hi).{1,10}(madam|sir).{1,10}my name is/i
+/(dear|hello|hi).{1,10}(madam|sir).{1,10}nice to know you/i
+/(dear|hello|hi).{1,10}(madam|sir).{1,10}this is.{5,25}from/i
+
+/(dear|hello|hi).{1,10}(madam|sir).{1,10}we are.{1,20}manufacturer/i
+/(dear|hello|hi).{1,10}(madam|sir).{1,10}we got your name/i
 
 /(dear|hello|hi).{1,15}(director|manager|purchaser|respected|supplier).{1,10}do you need/i
 /(dear|hello|hi).{1,15}(director|manager|purchaser|respected|supplier).{1,10}good day/i
@@ -107,6 +109,7 @@
 /greetings.{1,10}(sir|madam).{1,20}request for/i
 /greetings.{5,25}allow me to introduce our/i
 /greetings.{1,10}how are you today.{1,10}i hope you/i
+/greetings.{1,10}this is.{1,10}chairman/i
 
 /greetings to you.{1,10}reply to/i
 /greetings to you.{1,10}i.?a?m (mrs?|ms)/i
