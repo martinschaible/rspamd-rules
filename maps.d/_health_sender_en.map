@@ -36,7 +36,8 @@
 /bedroom.?secrets?/i
 /muscle.?trick/?
 
-/hard.?erection/i
+/(hard|iron).{0,10}erection/i
+/hard.?in.?minutes/i
 
 # Meds
 /blue.?pill/i
@@ -376,8 +377,8 @@
 # ------------------------------------------------------------------------------
 /(medical|miracle|scientists?).?(breakthrough|discovery)/i
 /miracle.?seeds/i
-/unlock.{0,10}secret/i
-/(second|simple).?trick/i
+/(japanese|unlock).{0,10}secret/i
+/(dairy|second|simple).?trick/i
 
 /secret.?protein/i
 

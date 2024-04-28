@@ -50,7 +50,8 @@
 # ------------------------------------------------------------------------------
 /(australia|award|coca.?cola|google|international|usa|uk).?(lotterie|lottery)/i
 /(euro|mega).?(jackpot|mill?ions)/i
-/(central|navidad).{0,10}loteria/i
+
+/(central|navidad).{0,10}lott?eria/i
 
 /elgordo.{0,10}primitiva/i
 /euro.?online.?lotto/i
@@ -59,7 +60,7 @@
 /(lottery|microsoft).{0,10}award/i
 /lotter(ie|y).{0,10}(board|promotion|winning)/i
 
-/loteria.?nacional/i
+/lott?eria.?(madrid|nacional)/i
 /lotto.?denavidad/i
 
 # Virus, Malware
@@ -79,7 +80,7 @@
 # One word only
 # ------------------------------------------------------------------------------
 # Companies and Organisations
-/(apple|lidl|microsoft|migros|rewe)$/i
+/(apple|lidl|microsoft|migros|pfizer|rewe)$/i
 
 # Health
 /(/cancer|playboy)$/i
@@ -95,6 +96,9 @@
 
 # Scam
 /donation$/i
+
+# Unclassified
+/mail$/i
 
 #
 #
