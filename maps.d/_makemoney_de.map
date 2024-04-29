@@ -98,6 +98,7 @@
 # ------------------------------------------------------------------------------
 /investieren sie.{1,10}und erhalten sie.{1,15}zurück/i
 /investition garantierte.{1,10}gewinne/i
+/investieren?.{1,10}täglich.{1,10}gewinn/i
 
 /(bahnbrechende|einzigartige|freigegebene).{1,10}anlagechance/i
 /(bahnbrechende|einzigartige|freigegebene).{1,10}(anlage|investment).?produkt/i
@@ -106,6 +107,7 @@
 /meister der investition/i
 
 /unsere.{1,10}investmentfonds ermöglichen/iu
+/ohne vorwissen ins investieren/i
 
 # Promises
 # ------------------------------------------------------------------------------
@@ -122,6 +124,7 @@
 /(anwendung|app|system).{1,10}die täglich.{1,15}\d{3,4}.{1,15}generiert/i
 /(anwendung|app|system).{1,10}revolutioniert den markt/i
 /(anwendung|app|system).{1,10}finanzielle freiheit zu erreichen/i
+/(anwendung|app|system).{1,10}erleben sie eine signifikante/i
 
 /bahnbrechenden system.{1,10}profitieren/i
 

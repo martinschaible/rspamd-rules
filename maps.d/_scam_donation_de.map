@@ -177,7 +177,7 @@
 /sie.{1,15}erhalt des betrags von.{1,10}\d{3}.{0,5}\d{3}/i
 /sie.{1,15}erhalt einer beträchtlichen spende/iu
 
-/sie haben einen?.{1,15}(spende|zuschuss).{1,10}(erhalten|ich habe|in höhe von)/iu
+/sie haben einen?.{1,15}(spende|zuschuss|zuwendung).{1,10}(erhalten|ich habe|in höhe von)/iu
 /sie sind mit.{1,15}(millionen|tausend|dollar|euro?|gbp|usd).{1,15}ausgezeichnet worden/i
 
 /sie wurden für eine.{1,15}spende von/i

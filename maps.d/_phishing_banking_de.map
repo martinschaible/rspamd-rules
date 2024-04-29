@@ -86,18 +86,20 @@
 # Photo TAN
 /(photo|push).?tan.{1,10}(aktivierungsbrief|gesperrt wurde|ist da)/i
 
-/(aktivieren|aktualisieren) sie.{1,10}(photo|push).?tan/i
-/aktiviere das neue.{1,10}(photo|push).?tan/i
+/(aktivieren|aktualisieren) sie.{1,15}(photo|push).?tan/i
+/aktiviere das neue.{1,15}(photo|push).?tan/i
 
-/ihre? (photo|push).?tan.{1,10}(aktualisieren|reaktivieren|synchronisieren)/i
+/ihre?.{1,15}(photo|push).?tan.{1,10}(aktualisieren|reaktivieren|synchronisieren)/i
 
-/wurde festgestellt.{1,10}dass ihre(photo|push)(photo|push).?tan/i
+/wurde festgestellt.{1,10}dass ihre.{1,15}(photo|push).?tan/i
 
 /sie die mobile.?token.?funktion aktivieren/i
+/sie müssen ihre?.{1,15}(photo|push).?tan/i
+/sie ihren.{1,15}(photo|push).?tan bestätigen/i
 
-/vorzustellen.{1,10}das neue.{1,10}(photo|push).?tan/i
+/vorzustellen.{1,10}das neue.{1,15}(photo|push).?tan/i
 
-/neue.{1,10}(photo|push).?tan.{1,10}authentifizierung.{1,10}aktivieren/i
+/neue.{1,15}(photo|push).?tan.{1,10}authentifizierung.{1,10}aktivieren/i
 
 # TAN
 /app.?tan.{1,5}dienst zu aktivieren/i

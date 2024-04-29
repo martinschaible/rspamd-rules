@@ -79,12 +79,13 @@
 
 /(co|limited|ltd).{1,10}(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).{1,10}are you interested/i
 /(co|limited|ltd).{1,10}(dongguan|guangdong|guangzhou|shenzhen|zhejiang).{1,10}china/i
-/(co|limited|ltd).{1,10}was established.{1,10}in (china|dongguan|guangdong|guangzhou|shenzhen|zhejiang)/i
+/(co|limited|ltd).{1,10}was established.{1,10}(from|in) (china|dongguan|guangdong|guangzhou|shenzhen|zhejiang)/i
 
 /co.{1,5}ltd.{1,10}(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang)/i
 /(co|limited|ltd).{1,10}factory.{1,10}(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang)/i
 
-/this is.{5,25}from.{1,10}(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang)/i
+/(here|this) is.{5,25}(from|in).{1,10}(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang)/i
+/(here|this) is.{5,25}manufacturer.{1,10}(from|in).{1,10}(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang)/i
 
 /our (company|factory) is manufacturing.{5,20}in.{1,10}(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang)/i
 /our (company|factory) in.{1,10}(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).{1,10}is staffed/i
