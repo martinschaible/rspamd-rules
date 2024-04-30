@@ -25,6 +25,7 @@
 
 /click below to continue with.{1,10}mail.?box/i
 
+/disconnected from sending.{1,10}receiving e?.?mails/i
 /release.{1,10}view message.{1,10}contents/i
 
 /authentication.{1,10}retrieve.{1,10}undelivered.{1,10}e?.?mails?/i
@@ -94,6 +95,7 @@ your recent request.{1,10}de.?activate your.{1,10}e?.?mail/i
 # ------------------------------------------------------------------------------
 /receiving.{1,10}e?.?mail.{1,10}if not verified within/i
 
+/confirm.{1,10}your.{1,15}account is.{1,10}active on our server/i
 /your e?.?mail.?password.{1,10}(kindly|please).{1,10}confirm/i
 
 /you (are requested|must).{1,10}authenticate.{1,10}e?.?mail/i

@@ -112,7 +112,7 @@ lead generation solution/i
 /boost your.{1,10}rankings/i
 /1st.?page.?ranking/i
 
-/seo.{1,15}(expert|package|plans?|pricing|proposal|services|success)/i
+/seo.{1,15}(expert|package|plans?|pricing|promote|proposal|services|success)/i
 
 /full seo.?package/i
 
@@ -123,6 +123,7 @@ lead generation solution/i
 /site a seo/i
 
 # Google
+/(1st|first|seo|top).{1,15}(page|ranking).?plan/i
 /(1st|first|seo|top).{1,15}(page|ranking) (in|of|on) (bing|google)/i
 /top rank(ing)?.{1,10}(bing|google)/i
 

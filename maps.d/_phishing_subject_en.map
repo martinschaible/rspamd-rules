@@ -89,6 +89,7 @@
 /webmail notification/i
 
 /access unread.{1,10}(e?.?mail|messages)/i
+/disconnected from sending.{1,10}receiving e?.?mails/i
 /restricted messages for/i
 
 /update your.{1,10}mailbox settings/i
