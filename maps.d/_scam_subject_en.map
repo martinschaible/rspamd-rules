@@ -18,7 +18,7 @@
 
 # Beneficiary
 # ------------------------------------------------------------------------------
-/(attn|attention|dear|hello|my|you).{1,10}beneficiary/i
+/(attn|attention|dear|hello|my|you).{1,20}beneficiary/i
 
 # Big numbers
 # ------------------------------------------------------------------------------
@@ -57,7 +57,7 @@
 /receive sum of.{1,10}(million|dollar|euro?|gbp|usd)/i
 /investment funds?/i
 
-/your funds? has been approved/i
+/your funds?.{1,10}(has been approved|ready for payout)/i
 
 # Grant
 # ------------------------------------------------------------------------------

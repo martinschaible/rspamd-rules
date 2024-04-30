@@ -40,7 +40,10 @@
 /(dear|hello|hi).{1,15}(director|manager|purchaser|respected|supplier).{1,15}wish you.{1,10}everything goes well/i
 /(dear|hello|hi).{1,15}(director|manager|purchaser|respected|supplier).{1,15}wish you.{1,10}happy day/i
 
+/(dear|hello|hi).{1,15}(director|manager|purchaser|respected|supplier).{1,15}my name is/i
+
 /(dear|hello|hi).{1,10}director.{1,10}manager/i
+/(dear|hello|hi).{1,10}entrepreneur/i
 
 /attention.{1,10}i am (mrs?|ms)/i
 /(attention|best regards|servus).{1,10}my name is/i
