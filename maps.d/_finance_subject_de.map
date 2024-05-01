@@ -10,6 +10,7 @@
 /k r e d i t e/i
 
 /kreditunternehmen/i
+/kredit \d/i
 /kredite verfügbar/iu
 /kredit.?vorschlag/i
 /kredite!/i
@@ -52,7 +53,7 @@
 
 # Unclassified
 # ------------------------------------------------------------------------------
-/förderung \d/iu
+/(finanziellen|förderung) \d/iu
 
 # Masked
 # ------------------------------------------------------------------------------

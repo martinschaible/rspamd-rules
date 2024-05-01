@@ -318,7 +318,7 @@
 # ------------------------------------------------------------------------------
 /(prostate|prostatitis)/i
 /your.?pee/i
-/pee.?leaks/i
+/(urin|pee).?leaks/i
 
 /dribbling.{1,10}urine/i
 
@@ -355,6 +355,7 @@
 /(beat|end|goodbye|stop).?tinnitus/i
 /tinnitus.?(cure|memory|symptoms|warning)/i
 
+/hearing.?loss/i
 /(bad|restore).?hearing/i
 /ear.?ringing/i
 /ringing.?ears/i
@@ -397,6 +398,7 @@
 /cardione/i
 /circulaxil/i
 /detoxil/i
+/greeny.?slim/i
 /hondofrost/i
 /liba/i
 /neoveris/i

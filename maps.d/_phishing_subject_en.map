@@ -101,7 +101,8 @@
 
 /this e?.?mail.?account.{1,30}is suspended/i
 
-/you have.{1,15}(undelivered|pending).{1,10}(e?.?mails?|messages?)/i
+/you have.{1,15}(important|undelivered|pending).{1,10}(e?.?mails?|messages?)/i
+/you have.{1,15}(important|undelivered|pending).{1,10}incoming.{1,10}(e?.?mails?|messages?)/i
 /your e?.?mail.?account.{1,10} will be deleted/i
 /your incoming.{1,10}(e?.?mail|messages) bounced/i
 

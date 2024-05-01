@@ -37,7 +37,7 @@
 /spenden.{0,15}(belohnung|fonds|gewinn|investition|preis)/i
 
 /spenden.?angebot.{1,10}\d{2,3}.{1,10}\d{2,3}/i
-/spenden.?zuschuss von/i
+/spenden.?zuschuss (von|\d{2,3}.{1,10}\d{2,3})/i
 
 /spende.{1,10}donation/i
 /spende.{1,10}\d{2,3}.{1,10}(euro|gbp|usd)/i
