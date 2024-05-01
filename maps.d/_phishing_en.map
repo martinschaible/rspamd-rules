@@ -80,12 +80,15 @@
 /you have.{1,10}companies interested in your product/i
 
 # Products
+/(co|ltd|company).{1,15}we are interested in your product/i
+
+/your company.{1,10}product.{1,10}could you ship to/i
+
 /your website.{1,10}our company.{1,10}interested in your products?/i
 /your website.{1,10}we like to purchase your products?/i
 
 /we are interested in.{1,10}your products.{1,15}your.{1,10}web.?site/i
-
-/your company.{1,10}product.{1,10}could you ship to/i
+/we are interested in.{1,10}your products.{1,15}you to get back/i
 
 # Registration as a supplier
 /your.{1,15}company.{1,10}register.{1,10}potential.{1,10}suppliers?/i

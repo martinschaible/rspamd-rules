@@ -28,6 +28,7 @@
 
 # Account - 2FA Activation
 # ------------------------------------------------------------------------------
+/activation required on.{1,20}user account/i
 /action required.{1,10}enable 2fa/i
 /urgent.{1,10}two.?factor.{1,10}authentication activation/i
 

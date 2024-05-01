@@ -59,6 +59,7 @@
 
 /ihr geld steht.{1,10}auszahlung/i
 /jeden tag.{1,15}(\d{3,4}|euro?).{1,10}verdienen/i
+/jeden tag.{1,10}garantierte gewinne/i
 /jetzt millionär werden/iu
 
 /euro? pro tag.{1,10}verdienen/i
@@ -97,7 +98,7 @@
 /so werden.{1,10}sie reich/i
 /reich werden/i
 
-/reich durch (ki|openai)/i
+/reich (durch|mit) (ki|openai)/i
 /reich werden.{1,10}wie/i
 
 /reichtum warten/i
