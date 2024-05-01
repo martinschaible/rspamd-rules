@@ -310,34 +310,34 @@
 # Web-Design/Development
 # ------------------------------------------------------------------------------
 /all type of web.?site.{1,10}(design|development)/i
-/builds amazing.{1,20}web.?site/i
-/create.{1,15}(new|update).{1,15}existing web.?site/i
-/send you my.{1,10}web.?site.proposal/i
-/to (re)?.?develop your web.?site/i
+/builds amazing.{1,20}(web)?.?site/i
+/create.{1,15}(new|update).{1,15}existing.{1,10}(web)?.?site/i
+/send you my.{1,10}(web)?.?site.proposal/i
+/to (re)?.?develop your.{1,10}(web)?.?site/i
 
-/new professional.{1,10}web.?site/i
-/you.{1,10}interested.{1,20}(build|rebuild|repair).{1,15}(new|your).{1,15}web.?site/i
-/you.{1,10}interested.{1,10}building.{1,15}web.?site/i
-/you.{1,10}interested.{1,10}web.?site.{1,10}promotion/i
-/you.{1,10}interested.{1,10}rebuilding the.{1,10}(web)?.?site/i
+/new professional.{1,10}(web)?.?site/i
+/you.{1,10}interested.{1,20}(build|rebuild|repair|re.?designing|upgrading).{1,20}(new|your).{1,15}(web)?.?site/i
+/you.{1,10}interested.{1,10}building.{1,15}(web)?.?site/i
+/you.{1,10}interested.{1,10}(web)?.?site.{1,10}promotion/i
+/you.{1,10}interested.{1,10}re.?building (the|your).{1,10}(web)?.?site/i
 
 /you are looking.{1,10}(app|web).{1,10}design/i
 
-/you.{1,10}oloking for.{1,10}new web.?site/i
+/you.{1,10}oloking for.{1,10}new (web)?.?site/i
 /you.{1,10}looking for.{1,10}affordable.{1,10}(app|web).{1,10}developer/i
-/you.{1,10}looking for.{1,10}web.?site.{1,10}(design|developement)/i
+/you.{1,10}looking for.{1,10}(web)?.?site.{1,10}(design|developement)/i
 
-/you.{1,10}want.{1,10}build.{1,10}different web.?site/i
-/you.{1,10}want.{1,10}make.{1,10}web.?site/i
-/you.{1,10}would like.{1,10}discuss web.?design/i
+/you.{1,10}want.{1,10}build.{1,10}different.{1,10}(web)?.?site/i
+/you.{1,10}want.{1,10}make.{1,10}(web)?.?site/i
+/you.{1,10}would like.{1,10}discuss.{1,10}web.?design/i
 
-/you.{1,10}like to build.{1,10}new web.?site/i
+/you.{1,10}like to build.{1,10}new.{1,10}(web)?.?site/i
 
 /build.{1,10}new web.?site for your business/i
-/(rebuilding|redesign|refurbish|revamp|repairing|upgrade) your.{1,15}(web.?)?site/i
-/(rebuilding|redesign|refurbish|revamp|repairing|upgrade) your.{1,10}(current|existing).{1,15}(web.?)?site/i
+/(rebuilding|redesign|refurbish|revamp|repairing|upgrade) your.{1,15}(web)?.?site/i
+/(rebuilding|redesign|refurbish|revamp|repairing|upgrade) your.{1,10}(current|existing).{1,15}(web)?.?site/i
 
-/repair.{1,10}redesign your.{1,15}(web.?)?site/i
+/repair.{1,10}redesign your.{1,15}(web)?.?site/i
 
 /(experienced|our).{1,10}web.?(design|development).{1,10}services/i
 /(experienced|our).{1,10}team.{1,10}web.?design(ing)?.{1,10}development/i
@@ -345,26 +345,26 @@
 
 /specialized in.{1,10}web.?site design/i
 
-/we are.{1,10}mobile.?apps.{1,10}web.?site development/i 
+/we are.{1,10}mobile.?apps.{1,10}(web)?.?site development/i 
 /we are.{1,10}web (design|development){1,10}company/i
 /we are.{1,10}web design.{1,10}development.{1,10}company/i
 /we are.{1,10}it based company/i
 
 /we are.{1,20}professional website developers/i
 
-/we can design.{1,10}unique.{1,10}website/i
-/we create new.{1,10}web.?site/i
-/we specialize.{1,10}web.?site.{1,10}design/i
+/we can design.{1,10}unique.{1,10}(web)?.?site/i
+/we create new.{1,10}(web)?.?site/i
+/we specialize.{1,10}(web)?.?site.{1,10}design/i
 
-/we have.{1,10}expertise.{1,10}developing.{1,10}web.?site/i
-/we have.{1,10}professional team.{1,10}web.site/i
+/we have.{1,10}expertise.{1,10}developing.{1,10}(web)?.?site/i
+/we have.{1,10}professional team.{1,10}(web)?.?site/i
 
-/we.{1,10}(deliver|offer).{1,10}(best|new).{1,10}web.?sites?/i
-/We.{1,10}solving web.?sites? problems/i
+/we.{1,10}(deliver|offer).{1,10}(best|new).{1,10}(web)?.?sites?/i
+/We.{1,10}solving.{1,10}(web)?.?sites? problems/i
 
 /i.?a?m.{1,15}web.?(designer|developer)/i
 /i.?a?m.{1,15}professional web.?(designer|developer)/i
-/i.?a?m.{1,15}web development manager/i
+/i.?a?m.{1,15}web.?development.{1,10}manager/i
 
 /web (design|development).{1,10}company.{1,10}offering/i
 /web (design|development).{1,10}company.{1,10}specialized in/i
@@ -381,7 +381,7 @@
 
 # Web-Design/Development, India
 # ------------------------------------------------------------------------------
-/india.{1,10}based web.?site.{1,15}(agency|design)/i
+/india.{1,10}based.{1,10}(web)?.?site.{1,15}(agency|design)/i
 /india.{1,10}having.{1,10}years.{1,10}working experience/i
 
 /leading service providers?.{1,10}india/i
@@ -389,13 +389,13 @@
 
 /we are.{1,10}indian?.{1,10}(development|web)/i
 
-/web.?site.{1,10}development company.{1,10}india/i
+/(web)?.?site.{1,10}development company.{1,10}india/i
 
 /years.{1,10}experience based.{1,10}india/i
 
 # Web-Design/Development, silly lies
 # ------------------------------------------------------------------------------
-/i recently explored your.{1,10}website/i
+/i recently explored your.{1,10}(web)?.?site/i
 
 # WordPress
 # ------------------------------------------------------------------------------
@@ -406,7 +406,7 @@
 
 # Web Directories
 # ------------------------------------------------------------------------------
-/easier.{1,10}to promote your.{1,10}web.?site/i
+/easier.{1,10}to promote your.{1,10}(web)?.?site/i
 
 /(leads|sales).{1,15}submitting your web.?site/i
 /our (list|database) consists.{1,10}millions.{1,10}business/i
@@ -415,10 +415,10 @@
 /e?.?mail.{1,10}cell.?phone.{1,10}(list|database)/i
 
 /promote your.{1,15}search.?engines?/i
-/promote your.{1,15}web.?site.{1,10}just a few/i
+/promote your.{1,15}(web)?.?site.{1,10}just a few/i
 
 /service.{1,10}lists.{1,10}in all.{1,10}directories/i
-/submitting your.{1,15}web.?site to.{1,25}directories/i
+/submitting your.{1,15}(web)?.?site to.{1,25}directories/i
 /we can help you.{1,10}promote your.{1,15}business/i
 
 /lists you in all.{1,15}directories/i
