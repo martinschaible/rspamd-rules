@@ -33,6 +33,8 @@
 
 # Weightloss
 # ------------------------------------------------------------------------------
+/(fat|weight).?(burning|loss).{1,10}(elixir|secret)/i
+
 /(burn|lose|melt|shed).{1,10}belly.?(fat|flab)/i
 /(burn|lose|melt|shed).{1,10}(lbs|pounds|weight)/i
 /(burn|lose|melt|shed).{1,10}fat easily/i
@@ -63,7 +65,6 @@
 
 /keto.{1,10}(air.?fryer|plus)/i
 /second.{1,10}fat.?burning/i
-/(fat|weight).?loss.{1,10}secret/i
 
 #
 #
