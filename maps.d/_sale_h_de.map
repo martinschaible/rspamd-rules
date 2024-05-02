@@ -271,6 +271,8 @@
 
 /(auswahl an hochwertigen|mit unseren).{1,10}kunstbäumen/iu
 
+/gartenpflanzen.{1,10}sonderpreise/i
+
 # Trolley & Tools
 # ------------------------------------------------------------------------------
 /(werkstatt|werkzeug).?(trolley|wagen).{1,10}angeben/i
@@ -343,6 +345,8 @@
 /antworten sie.{1,10}mit ihrer liefer.{1,10}rechnungs.?adresse/i
 /antworten sie.{1,10}mit ihrer adresse.{1,10}wir senden/i
 
+/antworten.{1,10}wir liefern umgehend auf rechnung/i
+
 /antworten.{1,10}adresse angeben/i
 
 /(bestellen|bestellung).{1,10}einfach antworten/i
@@ -355,7 +359,7 @@
 
 /bestellen.{1,20}einfach.{1,15}mit.{1,15}(adresse|anschrift).{1,10}diese e?.?mail antworten/i
 /bestellen.{1,20}einfach.{1,15}mit.{1,15}(adresse|anschrift).{1,10}antworten/i
-/bestellen.{1,20}einfach.{1,15}mit ihrer.{1,15}(liefer|rechnungs).{1,15}anschrift/i
+/bestellen.{1,20}einfach.{1,15}mit ihrer.{1,15}(liefer|rechnungs).{1,15}(adresse|anschrift)/i
 /Bestellen.{1,20}einfach.{1,15}mit den gewünschten/iu
 /bestellen.{1,20}einfach.{1,15}per e?.?mail.{1,10}antwort/i
 
