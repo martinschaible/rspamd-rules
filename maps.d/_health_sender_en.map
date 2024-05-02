@@ -267,13 +267,18 @@
 # Knee
 # ------------------------------------------------------------------------------
 /(circa|painful|your).?knees?/i
-/knee.?(compression|help|pain)/i
+/knee.?(cartilage|compression|help|pain)/i
 /compression.?sleeve/i
 
 # Liver
 # ------------------------------------------------------------------------------
 /fatty.?liver/i
 /liv.?pure/i
+
+# Lung
+# ------------------------------------------------------------------------------
+/lung.?trust/i
+/breath.?better/i
 
 # Mask
 # ------------------------------------------------------------------------------
@@ -302,7 +307,7 @@
 /pain.?(killer|miracle|no.?more|quiz|relief)/i
 
 /(end|erase|joint|neck|nerve).?pain/i
-/joints.?healed/i
+/joints.?(healed|inflammation)/i
 
 /relief.?miracle/i
 

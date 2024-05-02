@@ -85,12 +85,13 @@
 /business inquiry from/i
 /business investment collaboration/i
 
+/opportunity.{1,10}benefit/i
 /\[proposal\]/i
 /proposal attached/i
 
 /i have.{1,10}proposition for you/i
 
-/funding proposal/i
+/(funding|lucrative).{1,10}proposal/i
 
 # Payments, Compensations
 # ------------------------------------------------------------------------------

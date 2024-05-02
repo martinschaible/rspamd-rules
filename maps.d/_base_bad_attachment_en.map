@@ -254,10 +254,8 @@
 #/_\d{5,15}\.pdf/i
 
 #
-/(copies|receipt.?files)\.html?/i
+/(customer|contract|copies|receipt|reports?).{0,15}\.(html|zip/)i
 
-/customer\.zip/i
-/contract.{0,10}\.zip/i
 /investment\.(7z|doc|gz|htm|r11|rar|tgz|xls|zip)/i
 
 # Sample: "info@amelec.ch.html
