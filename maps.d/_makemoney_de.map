@@ -75,6 +75,8 @@
 
 /(legal|seriös).{1,10}ihr einkommen zu steigern/i
 
+/garantiertes.{1,10}einkommen von mindestens/i
+
 /einkommen.{1,15}\d{3,4}.{1,15}pro woche zu erzielen/i
 
 /werden ihre.{1,10}einnahmen explodieren/i
@@ -136,6 +138,8 @@
 /(brandaktuelle|revolutionäre).{1,10}anlage.?(methode|verfahren)/iu
 /(brandaktuelle|revolutionäre).{1,10}kapital.?anlage.?konzept/iu
 /brandneu.{1,10}vermögensaufbau/i
+
+/automatisch mindestens.{1,15}euro pro tag generiert/i
 
 /geführte.{1,10}trading.?plattform/i
 

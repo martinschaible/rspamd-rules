@@ -382,6 +382,8 @@
 /(dringend|wichtig).{1,10}registrieren sie sich jetzt/i
 /mahnung.{1,10}dringender handlungsbedarf/i
 
+/handlung erforderlich.{1,10}(dauernde|sperrung)/i
+
 /neue nachricht.{1,10}neues update/i
 
 /ihre.{1,10}telefonnummer ist nicht.{1,15}gültig/iu
