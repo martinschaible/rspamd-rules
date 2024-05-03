@@ -126,7 +126,7 @@
 
 # New Systems, Security, Technology, TAN
 # ------------------------------------------------------------------------------
-/(photo|push).?tan.{0,10}verfahren/i
+/tan.{0,10}verfahren/i
 /(photo|push).?tan.{1,10}(aktivieren sie jetzt|ist nicht)/i
 /(photo|push).?tan.{1,10}läuft innerhalb/iu
 

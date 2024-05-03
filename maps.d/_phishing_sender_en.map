@@ -60,6 +60,7 @@
 
 # Hosting: Cloud storage
 # ------------------------------------------------------------------------------
+/storage.?notice/i
 
 # Membership
 # ------------------------------------------------------------------------------
@@ -117,7 +118,7 @@
 
 # Apple
 /apple.?(id|winner)/i
-/icloud.?(important|notice|user)/i
+/icloud.?(important|limit|notice|request|user)/i
 /icloud$/i
 
 # DHL
