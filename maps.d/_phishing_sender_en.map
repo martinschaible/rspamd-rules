@@ -48,6 +48,9 @@
 
 /\.(ch|com|de|org).?(admin$|administrator|security|server|update)/i
 
+# Sample: amelec.ch IT
+/[a-z0-9-]{3,15}\.(ch|com|de|org).? it/i
+
 /undelivered e?.?mails?.{1,15}marked/i
 
 /suspended.{1,10}undelivered.{1,10}e?.?mails?/i

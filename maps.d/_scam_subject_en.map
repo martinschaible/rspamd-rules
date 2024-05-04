@@ -100,6 +100,8 @@
 /compensation.{1,10}\d{3}.{0,5}\d{3}/i
 
 /asset transfer partnership/i
+/usd.{1,10}compensation/i
+/your.{1,10}compensated/i
 
 # Transaction
 # ------------------------------------------------------------------------------
