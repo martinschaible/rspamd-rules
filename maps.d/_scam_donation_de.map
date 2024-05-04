@@ -173,14 +173,15 @@
 /sie ausgewählt wurden.{1,10}um meine spende/iu
 
 /sie.{1,10}erhielten.{1,10}eine.{1,10}spende in höhe von/iu
-/sie.{1,10}einen.{1,10}zuschuss in höhe von.{1,25}erhalten/iu
+/sie.{1,10}einen.{1,10}zuschuss in.{1,10}höhe von.{1,25}erhalten/iu
 
 /sie.{1,15}erhalt des betrags von.{1,10}\d{3}.{0,5}\d{3}/i
 /sie.{1,15}erhalt einer beträchtlichen spende/iu
 /sie.{1,15}zufallsprinzip.{1,10}den erhalt eines spendenzuschusses/i
 
-/sie haben einen?.{1,15}(spende|zuschuss|zuwendung).{1,10}(erhalten|ich habe|in höhe von)/iu
-/sie sind mit.{1,15}(millionen|tausend|dollar|euro?|gbp|usd).{1,15}ausgezeichnet worden/i
+/sie.{1,10}haben (von|vom).{1,15}eine spende in.{1,10}höhe von/iu
+/sie.{1,10}haben einen?.{1,15}(spende|zuschuss|zuwendung).{1,10}(erhalten|ich habe|in höhe von)/iu
+/sie.{1,10}sind mit.{1,15}(millionen|tausend|dollar|euro?|gbp|usd).{1,15}ausgezeichnet worden/i
 
 /sie wurden für eine.{1,15}spende von/i
 /sie wurden für eine.{1,15}spende (ausgewählt|in höhe von)/iu
