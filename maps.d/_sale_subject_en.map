@@ -7,8 +7,9 @@
 
 # Cushion
 # ------------------------------------------------------------------------------
-/seat cushion/i
+/(comfortable|our|seat).{1,10}cushion/i
 /revolutionary way to sit/i
+/cushion.{1,10}revolutionize/i
 
 # E Bike
 # ------------------------------------------------------------------------------
