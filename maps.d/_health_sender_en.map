@@ -82,6 +82,7 @@
 
 /big.?stomach/i
 /odd.?tonic/i
+/diy.?lipo/i
 
 /o.{0,3}p.{0,3}r.{0,3}a.{0,3}h/i
 
@@ -361,13 +362,14 @@
 
 # Tinitus
 # ------------------------------------------------------------------------------
+/ear.?(buzzing|ringing)/i
+/(buzzing|ringing).?ears/i
+
 /(beat|end|goodbye|stop).?tinnitus/i
 /tinnitus.?(cure|memory|symptoms|warning)/i
 
 /hearing.?loss/i
 /(bad|restore).?hearing/i
-/ear.?ringing/i
-/ringing.?ears/i
 /(buzzing|stop).{0,10}noise/i
 /odd.?mineral/i
 /zero.?ear/i
