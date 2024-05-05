@@ -311,6 +311,7 @@
 # ------------------------------------------------------------------------------
 /pain.?(killer|miracle|no.?more|quiz|relief)/i
 
+/relief.?miracle/i
 /(end|erase|joint|neck|nerve).?pain/i
 /joints.?(cure|healed|inflammation)/i
 
@@ -438,7 +439,7 @@
 
 # Unclassified
 # ------------------------------------------------------------------------------
-/avoid.?this/i
+/(avoid|drink).?this/i
 /clinically.?proven/i
 /home.?treatment/i
 /ancient.?ritual/i
