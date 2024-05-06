@@ -15,7 +15,7 @@
 
 # Attention
 # ------------------------------------------------------------------------------
-/(attn|attention).{1,10}(beneficiary|dear|madam|relative|sir)/i
+/(attn|attention).{1,10}(beneficiary|ceo|dear|madam|president|relative|sir)/i
 /(attn|attention).{1,10}e?.?mail.?(address|id).?owner/i
 /(attn|attention).{1,10}i am.{1,10}(attorney|seeking)/i
 /(attn|attention).{1,10}please/i

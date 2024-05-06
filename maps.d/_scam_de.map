@@ -18,7 +18,7 @@
 
 # Assistance
 # ------------------------------------------------------------------------------
-/sie um ihre unterstützung beiüberweisung/iu
+/sie um ihre unterstützung bei überweisung/iu
 
 # ATM Card
 # ------------------------------------------------------------------------------
@@ -237,6 +237,7 @@
 /ihre (hilfe|unterstützung).{1,10}eine.{1,10}transaktion.{1,10}im wert von/iu
 /ihre (hilfe|unterstützung).{1,10}beim transfer von.{1,15}millionen/i
 /ihre (hilfe|unterstützung).{1,10}beim transfer von.{1,15}(dollar|euro?|gbp|usd)/i
+/ihre (hilfe|unterstützung).{1,10}um.{1,15}millionen.{1,10}(dollar|euro?|gbp|usd) aus/i
 
 /ihrem.{1,10}konto.{1,10}\d{3}.{0,5}\d{3}.{1,15}(million|dollar|euro?|gbp|usd).{1,10}gutzuschreiben/i
 
