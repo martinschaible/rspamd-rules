@@ -37,9 +37,9 @@
 
 /(burn|lose|melt|shed).{1,10}(belly|more).?(fat|flab)/i
 /(burn|lose|melt|shed).{1,10}(lbs|pounds|weight)/i
-/(burn|lose|melt|shed).{1,10}fat easily/i
+/(burn|lose|melt|shed).{1,10}fat.{1,15}(without|easily|exercise)/i
 
-/(burn|lose|melt|shed).{1,10}\d.?lbs? per day/i
+/(burn|lose|melt|shed|sucks).{1,10}\d.{0,5}lbs? per day/i
 /(burn|lose|melt|shed).{1,10}\d{2}.?lbs in.{1,5}weeks/i
 
 /burns flab.{1,10}faster/i
@@ -141,7 +141,7 @@
 
 /minute miracle stretch/i
 /(doctor.?s? secret|morning) trick/i
-/secret ingredient/i
+/secret (ingredient|recipe)/i
 
 /sec(ond)?.{1,10}routine/i
 /sec(ond)?.{1,10}(ancient|sugar) (juice|hack)/i
