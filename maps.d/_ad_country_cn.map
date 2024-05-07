@@ -69,6 +69,7 @@
 
 /(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).{1,15}visit our web page/i
 /(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).{1,15}with over.{1,10}years of expertise/i
+/(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).{1,15}we excel in providing/i
 /(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).{1,15}you have any need for our/i
 
 /china.{1,10}have a nice day/i
@@ -163,6 +164,7 @@
 /we.?a?re.{1,10}the most.{1,15}supplier/i
 /we.?a?re.{1,10}directly factory/i
 
+we.?a?re.{1,20}export trading company/i
 /we have.{1,10}our own factory/i
 /we have.{1,10}professional.{1,10}team/i
 
@@ -432,6 +434,7 @@
 /we.?a?re.{1,10}(pcba?|printed circuit board).{1,25}manufacturer/i
 
 /years professional.{1,10}electronics.{1,10}(pcba?|printed circuit board)/i
+/years in the.{1,10}(pcba?|printed circuit board).{1,10}industry/i
 
 /you.{1,10}are in.{1,10}(pcba?|printed circuit board).{1,10}business/i
 /you.{1,10}have requirements on.{1,20}(pcba?|printed circuit board)/i

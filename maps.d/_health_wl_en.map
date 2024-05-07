@@ -30,6 +30,8 @@
 /(burn|melt)s?.{1,10}unwanted.{1,10}(belly|body).?fat/i
 /(burn|melt)s?.{1,10}(dangerous|stubborn).{1,10}fat/i
 
+/drop.{1,10}(fat|lbs|pounds|weight) a day/i
+
 /ingredient dissolves.{1,10}(lbs|pounds) of.{1,10}fat/i
 
 /(lose|losing).{1,10}(fat|weight).{1,10}(became so easy|fast)/i
