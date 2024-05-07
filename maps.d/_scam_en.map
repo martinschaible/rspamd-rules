@@ -359,6 +359,7 @@
 /you have just received.{1,10}payment of/i
 
 /your total sum of.{1,10}\d.?\d.?(m|million).{1,10}(dollar|euro?|gbp|usd)/i
+/your compensation payment.{1,15}million/i
 
 # Share the same name
 # ------------------------------------------------------------------------------
