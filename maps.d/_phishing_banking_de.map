@@ -86,6 +86,7 @@
 # Photo TAN
 /(photo|push).?tan.{1,10}(aktivierungsbrief|gesperrt wurde|ist da)/i
 
+/aktualisiert die.{1,20}alle.{1,15}(photo|push).?tan/i
 /(aktivieren|aktualisieren) sie.{1,15}(photo|push).?tan/i
 /aktiviere das neue.{1,15}(photo|push).?tan/i
 

@@ -130,10 +130,11 @@
 # New Systems, Security, Technology, TAN
 # ------------------------------------------------------------------------------
 /tan.{0,10}verfahren/i
-/(photo|push).?tan.{1,10}(aktivieren sie jetzt|ist nicht)/i
+
+/(photo|push).?tan.{1,15}(aktivieren sie jetzt|erforderlich|ihre konto|ist nicht)/i
 /(photo|push).?tan.{1,10}läuft innerhalb/iu
 
-/(aktivieren|aktualisieren|entdecken) sie.{1,15}(photo|push).?tan/i
+/(aktivieren|aktualisieren|aktivierung|entdecken) sie.{1,15}(photo|push).?tan/i
 /wichtiges update.{1,15}(photo|push).?tan/i
 /neues?.{1,10}(photo|push).?tan/i
 
