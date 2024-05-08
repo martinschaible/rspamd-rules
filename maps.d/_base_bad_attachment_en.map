@@ -80,7 +80,9 @@
 /(enquiry|inquiry|invoice|order|quote).?copy\.(7z|doc|gz|htm|r11|rar|tgz|xla|xls|zip)/i
 
 # Sample: Purchase Order No.P7696.z
-/order.?no.?[a-z0-9]{1,10}\.z$/i
+/order.?no.?[a-z0-9]{1,15}\.z$/i
+# Sample: Purchase Order No.P7696 (1).z
+/order.?no.?[a-z0-9]{1,15}\.?\(\d\).z$/i
 
 # Sample: order 98987006305#.doc
 /(enquiry|inquiry|invoice|order|quote).?\d{2,15}.?\.(7z|doc|gz|htm|r11|rar|tgz|xla|xls|zip)/i

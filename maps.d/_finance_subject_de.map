@@ -29,7 +29,8 @@
 /finanzielle.?hilfe/i
 /finanzierung zu.{1,10}zins.?satz/i
 
-/(erschwinglicher|schnell|sofort)kredit/i
+/(erschwinglicher|schnell).{1,10}kredit/i
+/sofort.?kredit/i
 
 /echte.?darlehen/i
 

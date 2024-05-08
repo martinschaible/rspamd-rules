@@ -155,8 +155,8 @@
 
 /benachrichtigung über ihr paket/iu
 /bestellung.{1,10}die noch auf.{1,10}bezahlung wartet/i
-/bestätigen sie ihre.{1,10}(lieferdaten|lieferung|versandinformationen)/iu
 
+/bestätigen sie (die|ihre).{1,10}(lieferdaten|lieferadresse|lieferung|versandinformationen)/iu
 /bestätigen sie.{1,15}zustellung.{1,10}pakets/i
 /bestätigen sie.{1,15}paketzustellung/i
 
@@ -280,7 +280,7 @@
 /erhalten sie.{1,10}belohnung/i
 /beanspruche jetzt/i
 
-/exklusive.{1,10}belohnungen.{1,10}umfrage/i
+/exklusive.{1,10}belohnungen.{1,40}(kostenlos|umfrage)/i
 /exklusive.{1,10}umfragebelohnung/i
 /(exklusive|sichere).{1,10}chance auf ein.{1,15}produktpaket/i
 
