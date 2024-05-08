@@ -17,6 +17,11 @@
 /derila.{1,10}kissen/i
 /besseren schlaf/i
 
+# Coffee
+# ------------------------------------------------------------------------------
+/kaffee.?vollautomat(en)?.{1,10}firmen/i
+/firmen.{1,10}kaffee.?vollautomat(en)?/i
+
 # Dog bed
 # ------------------------------------------------------------------------------
 /haustierbett(en)?.{1,10}tiefpreis(en)?/i
@@ -72,7 +77,7 @@
 
 # Ladder
 # ------------------------------------------------------------------------------
-/teleskopleitern/i
+/teleskop.?(klapp).?leitern/i
 /(neue|profi).{1,10}teleskopleiter/i
 
 /sichern sie sich.{2,10}teleskopleiter/i
@@ -246,8 +251,8 @@
 
 # Offer to sell vehicles
 # ------------------------------------------------------------------------------
-/ankauf von.{1,10}(auto|lkw|pkw)/i
-/wir kaufen.{1,10}(auto|lkw|pkw)/i
+/ankauf von.{1,10}(auto|fahrzeug|lkw|pkw)/i
+/wir kaufen.{1,10}(auto|fahrzeug|lkw|pkw)/i
 
 # Hiring people
 # ------------------------------------------------------------------------------

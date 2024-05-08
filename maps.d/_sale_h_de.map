@@ -64,6 +64,11 @@
 # Massage
 /jetzt.{1,10}mit massagefunktion/i
 
+# Coffee
+# ------------------------------------------------------------------------------
+/kaffee.?vollautomat(en)?.{1,10}firmen/i
+/firmen.{1,10}kaffee.?vollautomat(en)?/i
+
 # Cushion
 # ------------------------------------------------------------------------------
 /kissen.{1,10}in.{1,10}(deutschland|schweiz)/i

@@ -21,6 +21,8 @@
 /\/wp-admin\/assets\/.{1,20}\.(html|php)/i
 /\/wp-content\/uploads\/.{1,20}\/.{1,20}\.(html|php)/i
 
+/\/wp-content/themes\/twentyeleven\/.{1,20}\/.{1,20}\.(html|php)/i
+
 # No need to refer to this folder
 /\/wp-content\/upgrade\//i
 
