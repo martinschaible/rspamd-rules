@@ -16,6 +16,7 @@
 
 /database.{1,10}targeted.{1,10}(business|residential)/i
 /targeted.{1,15}e?.?mail.{1,10}(databases?|leads?|verified)/i
+/benefitse.{1,10}bulk e?.?mail.?marketing/i
 
 /get the best.{1,10}e?.?mail.{1,10}lists/i
 
@@ -360,6 +361,7 @@
 /we have.{1,10}expertise.{1,10}developing.{1,10}(web)?.?site/i
 /we have.{1,10}professional team.{1,10}(web)?.?site/i
 
+/we.{1,10}design.{1,15}different kinds.{1,10}(web)?.?site/i
 /we.{1,10}(deliver|offer).{1,10}(best|new).{1,10}(web)?.?sites?/i
 /We.{1,10}solving.{1,10}(web)?.?sites? problems/i
 
@@ -384,6 +386,7 @@
 # ------------------------------------------------------------------------------
 /india.{1,10}based.{1,10}(web)?.?site.{1,15}(agency|design)/i
 /india.{1,10}having.{1,10}years.{1,10}working experience/i
+/india.{1,10}we design/i
 
 /leading service providers?.{1,10}india/i
 /development company based.{1,10}india/i

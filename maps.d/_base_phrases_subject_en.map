@@ -60,8 +60,8 @@
 
 # Confidential
 # ------------------------------------------------------------------------------
-/private.{1,10}confidential/i
-/strictly.{1,10}confidential.{1,10}respond/i
+/(private|strictly|urgent).{1,10}confidential/i
+/confidential.{1,10}respond/i
 
 # Religious
 # ------------------------------------------------------------------------------

@@ -124,7 +124,9 @@
 /hello.{1,15}this e?.?mail finds you well/i
 /hello.{1,10}glad to connect/i
 /hello.{1,10}this is.{5,25}from/i
+
 /hello dear.{1,10}manager/i
+/hello dear.{1,10}(confidential|private|strictly|urgent)/i
 
 /(hello|hi).{1,10}my friend.{1,10}nice to meet you/i
 /(hello|hi).{1,10}potential partner/i
@@ -158,8 +160,8 @@
 
 # Greetings, My name is ...
 # ------------------------------------------------------------------------------
-/my name is.{5,25}a purchase.representative/i
-/my name is.{5,25}barr(\.|ister)/i
+/my name is.{1,25}a purchase.representative/i
+/my name is.{1,25}barr(\.|ister)/i
 /my name is.{1,30}(attorney|business|consultant|investment|investor|politician|private|us soldier)/i
 /my name is.{1,25}(dr\.|sir)/i
 /my name is.{1,25}international.{1,10}(fund|trust)/i

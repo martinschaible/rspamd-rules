@@ -162,6 +162,7 @@
 /geschäft für sie.{1,10}kontaktieren sie mich/iu
 /geschäft im wert von.{1,15}millionen.{1,10}zu besprechen/iu
 
+/geschäfts.?angebot im wert von.{1,10}millionen.{1,10}(dollar|euro?|gbp|usd)/i
 /geschäfts.?vorschlags?.{1,10}ich mit ihnen teilen/i
 /geschäfts.?vorschlags?.{1,10}sie interessiert sind/i
 /geschäfts.?vorschlags?.{1,10}zu kontaktieren/iu
@@ -171,6 +172,7 @@
 /kontaktiere sie.{1,15}eines.{1,10}geschäftsvorschlags/iu
 
 /ich brauche ihre.{1,10}partnerschaft/i
+/ich ein.{1,10}lukratives.{1,10}geschäftsangebot/iu
 /ich habe einen.{1,10}(vorteilhaften|wichtigen).{1,10}vorschlag/i
 
 /ich habe ein.{1,15}geschäft für sie/iu
