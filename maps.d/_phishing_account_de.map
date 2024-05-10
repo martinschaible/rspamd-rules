@@ -115,9 +115,10 @@
 
 /validieren sie ihre angaben/i
 
-/verpflichtet ihre.{1,15}daten zu bestätigen/iu
-/verpflichtet ihre.{1,15}daten erneut zu bestätigen/iu
-/verpflichtet sind.{1,10}ihre.{1,15}daten.{1,20}zu bestätigen/iu
+/verpflichtet.{1,10}ihre.{1,10}aktuell(st)?en.{1,10}daten/i
+/verpflichtet.{1,10}ihre.{1,15}daten zu bestätigen/iu
+/verpflichtet.{1,10}ihre.{1,15}daten erneut zu bestätigen/iu
+/verpflichtet.{1,10}sind.{1,10}ihre.{1,15}daten.{1,20}zu bestätigen/iu
 
 /wir einige ihrer.{1,10}konto.?informationen aktualisieren/i
 /wir sie dringend.{1,10}ihre.{1,15}daten zu überprüfen/i

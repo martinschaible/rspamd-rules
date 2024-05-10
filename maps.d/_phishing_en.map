@@ -41,6 +41,8 @@
 /your proposal.{1,10}the attached rfq/i
 
 # Catalog
+/(brochure|catalog|catalogue).{1,10}e?.?mail for our consideration/i
+
 /your company.{1,15}(brochure|catalog|catalogue).{1,10}for our reference/i
 /your company.{1,15}(brochure|catalog|catalogue).{1,10}pricing information/i
 /your company.{1,15}(brochure|catalog|catalogue).{1,10}your.{1,10}price.?list/i
@@ -53,6 +55,8 @@
 /your (brochure|catalog|catalogue).{1,10}to learn more about your products/i
 /your (brochure|catalog|catalogue).{1,10}product.{1,10}(brochure|catalog|catalogue)/i
 /your (brochure|catalog|catalogue).{1,10}we can (discuss|select)/i
+
+/share with us your.{1,15}(brochure|catalog|catalogue)/i
 
 /your product.{1,10}product.{1,10}(brochure|catalog|catalogue)/i
 /your latest catalog.{1,10}web.?site link/i
