@@ -211,7 +211,7 @@
 /(end|fight|foot|goodbye|nail|nasty|stop|yellow).?fungus/i
 /fix.{1,10}(nail|toe).?fungus/i
 
-/(fungal|fungus).?(infection|relief)/i
+/(fungal|fungus).?(infection|relief|remover?)/i
 
 /(cracked|rotten|toe|yellow).?nails/i
 
@@ -398,7 +398,7 @@
 # Miracle, Breaktrough, Secrets, Videos
 # ------------------------------------------------------------------------------
 /(medical|miracle|scientists?).?(breakthrough|discovery)/i
-/miracle.?seeds/i
+/(mayan|miracle).?seeds/i
 /(japanese|unlock).{0,10}secret/i
 /(dairy|second|simple).?trick/i
 
