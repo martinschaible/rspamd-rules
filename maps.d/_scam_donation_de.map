@@ -129,15 +129,17 @@
 /ihnen wurde.{1,20}spende in höhe von{1,20}(millionen|dollar|euro?|gbp|usd)/i
 /ihnen wurde.{1,20}(millionen|dollar|euro?|gbp|usd).{1,10}gespendet/i
 
-/ihre? e?.?mail.?(adresse|konto)?.{1,10}hat ihnen die summe von/i
+/ihre? e?.?mail.?(adresse|konto)?.{1,25}hat ihnen die summe von/i
 
-/ihre e?.?mail.?(adresse|konto)?.{0,15}ausgewählt.{1,10}um zu.{1,10}begünstigten/iu
-/ihre e?.?mail.?(adresse|konto)?.{1,10}hat eine spende/i
+/ihre e?.?mail.?(adresse|konto)?.{0,25}ausgewählt.{1,10}um zu.{1,10}begünstigten/iu
+/ihre e?.?mail.?(adresse|konto)?.{1,25}hat eine spende/i
 
-/ihre? e?.?mail.?(adresse|konto)?.{0,10}wurde.{1,15}für eine.{1,10}spende/iu
-/ihre? e?.?mail.?(adresse|konto)?.{0,10}wurde.{1,15}ausgewählt.{1,10}um (die|eine).{1,10}(spende|summe)/iu
-/ihre? e?.?mail.?(adresse|konto)?.{1,10}wurde.{1,10}unter.{1,10}(begünstigten|glücklichen)/i
-/ihre? e?.?mail.?(adresse|konto)?.{1,10}wurde.{1,10}per online/i
+/ihre? e?.?mail.?(adresse|konto)?.{0,25}wurde.{1,15}ausgewählt.{1,10}um (die|eine).{1,10}(spende|summe)/iu
+/ihre? e?.?mail.?(adresse|konto)?.{1,25}wurde.{1,10}ausgewählt.{1,10}erhalt einer spende/i
+
+/ihre? e?.?mail.?(adresse|konto)?.{0,25}wurde.{1,15}für eine.{1,10}spende/iu
+/ihre? e?.?mail.?(adresse|konto)?.{1,25}wurde.{1,10}unter.{1,10}(begünstigten|glücklichen)/i
+/ihre? e?.?mail.?(adresse|konto)?.{1,25}wurde.{1,10}per online/i
 
 /ihre e?.?mail wurde.{1,15}ausgewählt.{1,10}um eine.{1,10}spende/iu
 /ihrer e?.?mail haben sie eine spende/i

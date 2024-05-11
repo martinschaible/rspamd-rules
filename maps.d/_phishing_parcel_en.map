@@ -42,6 +42,8 @@
 
 /wrong details.{1,10}delaying your shipment/i
 
+/dear customer.{1,10}your package has been returned/i
+
 # Pay Customs, VAT
 # ------------------------------------------------------------------------------
 /package could not be delivered due.{1,10}unpaid customs/i
@@ -58,6 +60,7 @@
 /(delivered withing|delivery as soon as possible|ensure.{1,15}delivery).{1,15}confirm.{1,10}payment/i
 
 /fee is paid.{1,10}we will be able to deliver/i
+/fee for returning your.{1,10}(package|parcel)/i
 /has outstanding charges due including/i
 
 /must be paid before.{1,10}you can receive your.{1,10}shipment/i
