@@ -170,7 +170,7 @@
 /ihre? (paket|lieferung|sendung) steht noch aus/i
 /ihre? (paket|lieferung|sendung) wird storniert/i
 
-/wichtig.{1,10}paket/i
+/wichtig.{1,15}(erneute zustellung|paket)/i
 
 /(paket|sendung).{1,10}aufgrund fehlender versandkosten nicht liefern/i
 /(paket|sendung).{1,10}(bewegt sich|in der warteschleife)/i
@@ -247,7 +247,8 @@
 /paketid/i
 
 #
-/referenz.?(code|nummer).{1,5}\d{4,5}/i
+/handeln sie jetzt.{1,5}\d{4,15}/i
+/referenz.?(code|nummer).{1,5}\d{4,15}/i
 /(ch|de|org).{1,10}referenz.?code/i
 /package.{1,10}informationen/i
 
@@ -329,6 +330,8 @@
 # ------------------------------------------------------------------------------
 /iphone.{0,10}pro.{1,10}ausstehende sendung/i
 /chance einen.{1,15}gutschein zugewinnen/i
+
+/ihr galaxy s24 ultra wartet/i
 
 /letzter gewinner/i
 /sie haben ein.{5,20}gewonnen #/i

@@ -91,7 +91,7 @@
 /ihre? e?.?mail.?(adresse|konto).{1,10}wurde ausgewählt.{1,10}um den betrag/iu
 /ihre? e?.?mail.?(adresse|konto).{1,10}wurde bei einer zufälligen verlosung/iu
 /ihre? e?.?mail.?(adresse|konto).{1,10}wurde nach dem zufallsprinzip ausgewählt/iu
-/ihre? e?.?mail.?(adresse|konto).{1,10}wurde zufällig von einer software/iu
+/ihre? e?.?mail.?(adresse|konto).{1,10}wurde zufällig (aus|von) einer.{1,15}(e?.?mail|datenbank|software)/iu
 
 /ihre e?.?mail.{1,10}hat ihnen.{1,10}(den|einen).{1,10}betrag von/i
 /ihre e?.?mail.{1,10}wurde mit der losnummer/i

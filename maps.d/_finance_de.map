@@ -10,6 +10,7 @@
 # Intros
 # ------------------------------------------------------------------------------
 /ich bin ein.{1,20}(darlehensgeber|kreditgeber)/i
+/ich bin.{5,25}ein zugelassener.{1,10}zertifizierter/i
 /ich arbeite als.{1,10}finanz.?berater/i
 
 /wir sind ein führendes finanzinstitut/iu
@@ -100,7 +101,7 @@
 /wir sind ein privater.{1,10}finanz/i
 
 #
-/Benötigen Sie einen.{1,10}geschäfts.{1,10}privat.?kredit/iu
+/benötigen sie einen.{1,10}geschäfts.{1,10}privat.?kredit/iu
 /benötigen sie einen.{1,10}privat.{1,10}geschäfts.?kredit/iu
 /benötigen sie einen.{1,10}(persönlichen|privat).?kredit/iu
 /benötigen sie einen.{1,10}kredit/i
@@ -167,3 +168,4 @@
 # Bad German
 # ------------------------------------------------------------------------------
 /benötigen.{1,10}persönlichen.{1,10} unternehmen/i
+/besicherte kredite/i

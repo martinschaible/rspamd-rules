@@ -52,7 +52,7 @@
 # ------------------------------------------------------------------------------
 /\d{1,10}_img\d\.(jpg|png)/i
 
-/(mature|milf)\d\.(jpg|png)/i
+/(mature|milf).?\d\.(jpg|png)/i
 
 /unsubscribe\.(jpg|png)/i
 
