@@ -102,6 +102,7 @@
 /fonds mit ihrem rat/i
 /fonds in höhe von.{1,10}millionen.{1,10}(dollar|euro?|gbp|usd).{1,10}auf ihr.{1,25}konto/i
 
+/nicht beanspruchten fonds bekommen/i
 /um den.{1,10}fonds zu beanspruchen/i
 
 /vorschlag.{1,10}\d{2,3}.{0.5}\d{2,3}.{1,10}(dollar|euro?|gbp|usd)/i
@@ -117,6 +118,8 @@
 
 /ihres.{1,20}erbschaftsfonds/i
 /haben sie den.{1,10}fonds erhalten/i
+
+/sie zum.{1,20}begünstigten des fonds/iu
 
 # Heir
 # ------------------------------------------------------------------------------
@@ -368,11 +371,11 @@
 
 # Illuminati
 # ------------------------------------------------------------------------------
-/illuminati.{1,10}bruderschaft.{1,10}beitreten/i
+/illuminati.{1,10}(bruderschaft|familie)/i
 
 /sie wurden ausgewählt.{1,15}(illuminati|illuminaten)/i
 
-/(mitglied|willkommen).{1,15}illuminati/i
+/(imperium|mitglied|willkommen).{1,15}illuminati/i
 
 /(weltordnung|welteliteimperium).{1,10}illuminaten/i
 

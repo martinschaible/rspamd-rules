@@ -59,7 +59,7 @@
 /(home.?page|web.?site).{1,10}design.{1,10}development/i
 /(home.?page|web.?site).{1,10}re.?design(ing)?.{1,10}re.?make/i 
 
-/business web.?site design/i
+/business.{1,10}web.?sites?.{1,10}(design|mobile)/i
 
 /web.?(designing|development) (offer|proposal)/i
 
