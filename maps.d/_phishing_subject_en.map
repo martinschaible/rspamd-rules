@@ -46,6 +46,8 @@
 # ------------------------------------------------------------------------------
 /your.{1,15}account.{1,15}(has been temporarily|might be).{1,10}(restricted|suspended)/i
 
+/request.{1,10}expiring password/i
+
 # Banking
 # ------------------------------------------------------------------------------
 /aussetzung des.{1,15}bank.?dienstes/i
