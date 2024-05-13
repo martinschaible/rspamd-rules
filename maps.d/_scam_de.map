@@ -96,6 +96,8 @@
 /ihren.{1,10}namen lauten nicht beansprucht.{1,10}geld/i
 /ihr.{1,10}name ist mit einer nicht beanspruchten/i
 
+/freigabe ihres fonds erteilen/i
+
 /fonds problemlos zu beanspruchen/i
 /fonds mit ihrem rat/i
 /fonds in höhe von.{1,10}millionen.{1,10}(dollar|euro?|gbp|usd).{1,10}auf ihr.{1,25}konto/i
@@ -214,6 +216,7 @@
 /ihre zahlung zu genehmigen.{1,15}registrieren/i
 /ihnen ein betrag von.{1,10}\d{3}.{0,5}\d{3}.{1,10}als entschädigungszahlung/iu
 /ihnen eine entschädigungs.?summe von/iu
+/ihnen eine entschädigung in höhe von.{1,10}\d{3}.{0,5}\d{3}.{1,10}als beitrag/iu
 
 /sie aufgrund einer ausstehenden.{1,10}überweisung/iu
 /sie vom entschädigungsausschuss/iu
@@ -450,6 +453,7 @@
 /familienerbfonds/i
 
 /debitkarten.?prämie/iu
+/entschädigungs.?lotterie.?preis/i
 
 /nachnamen angehängt/iu
 

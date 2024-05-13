@@ -23,7 +23,8 @@
 /aktualisieren sie ihr.{1,15}konto innerhalb/i
 
 /aktualisierung erforderlich.{1,20}konto.{1,10}gesperrt/i
-/(aktualisieren?|bestätigen?) (deine|sie).{1,10}(konto|sicherheits).?informationen/i
+/(aktualisieren?|bestätigen?).{1,10}(deine|sie).{1,10}(konto|sicherheits).?informationen/i
+/(aktualisieren?|bestätigen?).{1,10}(deine|sie).{1,10}kontodaten/i
 
 /konto bleibt begrenzt/i
 /konto braucht ihre aufmerksamkeit/i
