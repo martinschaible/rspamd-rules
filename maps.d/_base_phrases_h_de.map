@@ -234,6 +234,8 @@
 # Sample: Kontakt: Nikola.cerny[at]meraklis[dot]org
 /kontakt.{1,20}\[at\][a-z0-9]{4,15}\[dot\](com|de|org)/irg
 
+/\(dot\)(com|de|org).{1,10}whatsapp/i
+
 # Bad German
 # ------------------------------------------------------------------------------
 /geht es dieser e?.?mail gut/i
