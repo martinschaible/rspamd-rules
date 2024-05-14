@@ -50,6 +50,7 @@
 # Weightloss
 # ------------------------------------------------------------------------------
 /(belly|burn|lose|melt|shed).{0,10}(fat|lbs|pounds|weight)/i
+/stubborn.?fat/i
 
 /(big|bulging|slimmer|tiny|your).?belly/i
 
@@ -411,6 +412,7 @@
 
 # Product names
 # ------------------------------------------------------------------------------
+/alcozar/i
 /alkotox/i
 /bioxtrim/i
 /cardione/i
@@ -453,4 +455,4 @@
 /eat.?me/i
 /drink.{0,10}(cup|this)/i
 /home with ease/i
-
+/this.{0,10}elixir/i
