@@ -56,10 +56,11 @@
 /we (are offering|give|issuing|offer|offering|provide).{1,15}(debt|financing).{1,10}loans/i
 /we (are offering|give|issuing|offer|offering|provide).{1,15}(business|corporate|home|personal).{1,15}loans?/i
 /we (are offering|give|issuing|offer|offering|provide).{1,15}(all kinds|various types) of.{1,15}loans?/i
+/we.(are offering|give|issuing|offer|offering|provide).{1,15}unbeatable.{1,10}loan/i
 
 /we are giving.{1,15}loan grants/i
 
-/We are.{1,15}loan brokers?/i
+/we are.{1,15}loan brokers?/i
 /we are.{1,15}issuing.{1,10}business.{1,10}personal.{1,10}loans/i
 /we are.{1,10}currently offering.{1,10}loans?/i
 /we are.{1,10}offering.{1,10}loans?/i
@@ -101,7 +102,7 @@
 /we.{1,10}(give|issuing|offer|offering|provide).{1,10}personal.{1,10}business.{1,10}financial/i
 /we.{1,10}(give|issuing|offer|offering|provide).{1,10}independent.{1,10}financial/i
 /we.{1,10}(give|issuing|offer|offering|provide).{1,10}independent.{1,10}funding/i
-/We.{1,10}(give|issuing|offer|offering|provide).{1,20}(financial|strategic) advisory services/i
+/we.{1,10}(give|issuing|offer|offering|provide).{1,20}(financial|strategic) advisory services/i
 
 /we are.{1,10}seeking to finance/i
 /we are.{1,10}high profile investors/i
@@ -124,6 +125,7 @@
 
 /you in.{1,10}request.{1,10}investment/i
 /you need.{1,10}financial.{1,10}assistance/i
+/you.{1,15}(currently|seeking).{1,15}financing/i
 
 /your company needs?.{1,10}funding/i
 

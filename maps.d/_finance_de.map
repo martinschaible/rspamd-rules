@@ -101,6 +101,8 @@
 /wir sind ein privater.{1,10}finanz/i
 
 #
+/beantragen sie einen?.{1,10}dringenden?.{1,10}kredit/i
+
 /benötigen sie einen.{1,10}geschäfts.{1,10}privat.?kredit/iu
 /benötigen sie einen.{1,10}privat.{1,10}geschäfts.?kredit/iu
 /benötigen sie einen.{1,10}(persönlichen|privat).?kredit/iu
@@ -116,6 +118,8 @@
 /benötigter betrag.{1,10}laufzeit/i
 
 /vollständiger name.{1,10}betrag/iu
+
+/(darlehen|kredit).{1,20}name.{1,10}betrag/i
 
 # Money
 # ------------------------------------------------------------------------------
