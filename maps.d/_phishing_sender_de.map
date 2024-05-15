@@ -122,7 +122,7 @@
 /(media.?market|otto|persil|rewe|temu).{0,5}(abteilung|angebot|code|geschenkkarte|gewinner|gutschein|kontakt|sender|sendung|umfrage|zustelllung)/i
 /(media.?market|otto|persil|rewe|temu).{0,5}.{0,5}help.?desk/i
 
-/kaufland #\d{1,10}/i
+/kaufland.{0,5}#\d{1,10}/i
 /kauf\.land/i
 /danke.{0,5}kaufland/i
 
