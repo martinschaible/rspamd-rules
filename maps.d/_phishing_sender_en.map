@@ -126,6 +126,8 @@
 /icloud.?(important|limit|notice|request|user)/i
 /icloud$/i
 
+# Costco
+
 # DHL
 /dhl.{0,5}(express|package)/i
 /notification.{0,5}dhl/i
@@ -177,6 +179,7 @@
 # Masked
 # ------------------------------------------------------------------------------
 /i0n0s/i
+/_confirmation/i
 
 # Unclassifed
 # ------------------------------------------------------------------------------
