@@ -88,6 +88,7 @@
 
 # Address lists for spamming, EMail Marketing
 # ------------------------------------------------------------------------------
+/boom of sales/i
 /targeted.{1,10}e?.?mail.?list/i
 
 /e?.?mail.?list.{1,10}valid/i
