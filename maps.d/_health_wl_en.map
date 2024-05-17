@@ -84,6 +84,8 @@
 
 /impressive.{1,10}(fat|weight).?loss.{1,10}results?/i
 
+/your free (fat|weight).?burning/i
+
 /start your.{1,10}(fat|weight).?loss/i
 /say goodbye to.{1,10}(fat|weight)/i
 /slimmer waist without.{1,10}hassle/i
@@ -97,6 +99,7 @@
 # No Diets
 # ------------------------------------------------------------------------------
 /no more diets.{1,10}sweating/i
+/no more crazy diets/i
 
 /forget.{1,15}workouts.{1,15}diets/i
 

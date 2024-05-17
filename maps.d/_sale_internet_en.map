@@ -328,12 +328,12 @@
 
 /you are looking.{1,10}(app|web).{1,10}design/i
 
-/you.{1,10}oloking for.{1,10}new (web)?.?site/i
+/you.{1,10}looking for.{1,10}new (web)?.?site/i
 /you.{1,10}looking for.{1,10}affordable.{1,10}(app|web).{1,10}developer/i
 /you.{1,10}looking for.{1,10}(web)?.?site.{1,10}(design|developement)/i
 
 /you.{1,10}want.{1,10}build.{1,10}different.{1,10}(web)?.?site/i
-/you.{1,10}want.{1,10}make.{1,10}(web)?.?site/i
+/you.{1,10}want.{1,10}(make|new).{1,10}(web)?.?site/i
 /you.{1,10}would like.{1,10}discuss.{1,10}web.?design/i
 
 /you.{1,10}like to build.{1,10}new.{1,10}(web)?.?site/i
@@ -380,6 +380,7 @@
 /web.?site.{1,10}design(ing)?.{1,10}web.?development/i
 /web.?site.{1,10}design.{1,10}redesign/i
 /web.?site.{1,10}desing.{1,10}revamp/i
+/web.?site.{1,10}development.{1,10}custom web.?site/i 
 
 /web.?development.{1,10}php.?development/i
 
