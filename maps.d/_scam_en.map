@@ -121,19 +121,21 @@
 /we have.{1,10}agreed to release your.{1,10}funds?/i
 /we have.{1,10}deposited your funds?.{1,10}worth/i
 
-/you.{1,10}as.{1,10}contract.{1,10}fund/i
-/you.{1,10}opportunity.{1,10}receive.{1,15}funds/i
+/you.{1,10}as.{1,10}contract.{1,10}funds?/i
+/you.{1,10}opportunity.{1,10}receive.{1,15}funds?/i
 /you.{1,10}containing.{1,10}sum of.{1,10}million/i
 /you.{1,10}have a fund of.{1,10}\d{3}.{0,5}\d{3}/i
-/you.{1,10}regarding.{1,10}compensation.{1,10}funds/i
-/you.{1,10}regarding.{1,10}your pending.{1,10}funds/i
-/you.{1,10}receive.{1,10}manage.{1,10}funds/i
+/you.{1,10}regarding.{1,10}compensation.{1,10}funds?/i
+/you.{1,10}regarding.{1,10}your pending.{1,10}funds?/i
+/you.{1,10}receive.{1,10}manage.{1,10}funds?/i
+/you.{1,10}ready.{1,10}receive.{1,10}funds?/i
 
 /you to.{1,10}assist retrieve.{1,15}deposit/i
-/you to.{1,10}(administer|assist|move).{1,10}funds/i
+/you to.{1,10}(administer|assist|move).{1,10}funds?/i
 
-/you wish to receive.{1,15}funds/i
+/you wish to receive.{1,15}funds?/i
 
+/your.{1,10}funds?.{1,10}still in our bank/i
 /your.{1,10}funds?.{1,10}have been approved by the/i
 /your.{1,10}funds?.{1,10}(total|worth).{1,10}sum of.{1,10}million/i
 /your.{1,10}funds?.{1,10}\d{3}.{0,5}\d{3}.{1,10}(dollar|euro?|gbp|usd)/i
@@ -144,8 +146,8 @@
 /your.{1,10}funds?.{1,10}in the amount of.{1,10}million/i
 
 /your.{1,10}outstanding.{1,10}funds totaling.{1,10}million/i
-/your.{1,10}cooperation.{1,10}assist.{1,10}transferring.{1,15}funds/i
-/your.{1,10}interest to.{1,15}(manage|receive).{1,15}funds/i
+/your.{1,10}cooperation.{1,10}assist.{1,10}transferring.{1,15}funds?/i
+/your.{1,10}interest to.{1,15}(manage|receive).{1,15}funds?/i
 
 # Draft
 /ask him for your.{1,10}draft.{1,10}\d{3}.{0,5}\d{3}.{1,10}(dollar|euro?|gbp|usd)/i

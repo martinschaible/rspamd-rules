@@ -433,6 +433,7 @@ we.?a?re.{1,20}export trading company/i
 
 /we.{1,10}(offer|specialized|specializing|provide).{1,10}(pcba?|printed circuit board).{1,10}(assembly|layers|production|products?|quick turn)/i
 /we.{1,10}(offer|specialized|specializing|provide).{1,10}you with.{1,15}(pcba?|printed circuit board)/i
+/we.{1,10}(offer|specialized|specializing|provide).{1,10}(pcba?|printed circuit board).{1,10}quick turn/i
 
 /we.?a?re.{1,10}(pcba?|printed circuit board).{1,25}manufacturer/i
 
@@ -440,7 +441,7 @@ we.?a?re.{1,20}export trading company/i
 /years in the.{1,10}(pcba?|printed circuit board).{1,10}industry/i
 
 /you.{1,10}are in.{1,10}(pcba?|printed circuit board).{1,10}business/i
-/you.{1,10}have requirements on.{1,20}(pcba?|printed circuit board)/i
+/you.{1,10}have{1,10}(request|requirements).{1,20}(pcba?|printed circuit board)/i
 /you.{1,10}(looking for|may need).{1,10}(pcba?|printed circuit board)/i
 /you.{1,10}need.{1,10}(pcba?|printed circuit board).{1,10}supplier/i
 /you.{1,10}need.{1,10}(pcba?|printed circuit board).{1,10}in your field/i

@@ -68,6 +68,7 @@
 
 /liebe empfänger/iu
 
+/hello.{1,10}hallo/i
 /hallo von (frau|herr)/i
 /hallo (geliebte|liebste|love)/i
 /hallo herr.{1,5}frau/i
@@ -86,6 +87,8 @@
 /ist.{1,10}ihre gültige e?.?mail/iu
 /ist diese.{1,10}e?.?mail.?adresse noch aktiv/i
 /ist diese.{1,10}e?.?mail noch gültig/iu
+
+/(ch|de|org).{1,10}ihr gültiges/iu
 
 # Religious
 # ------------------------------------------------------------------------------

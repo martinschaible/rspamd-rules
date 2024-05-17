@@ -180,6 +180,7 @@
 /(bank|payment|remittance).{0,5}(advice|copy|details?|receipt|rfq|slip).{0,15}.(7z|doc|gz|htm|r11|rar|tgz|xla|xls|zip)/i
 /(confirmation|payment|remittance).{0,5}\.(7z|doc|gz|htm|r11|rar|tgz|xla|xls|zip)/i
 
+/payment.{0,5}scan.{0,5}\.z/i
 /payment.?confirmation.?notice.?\.pdf/i
 
 /tt.?copy.?bank.?slip/i
@@ -211,6 +212,10 @@
 # Swift
 # ------------------------------------------------------------------------------
 /swift.?(advice|copy).{0,20}\.(7z|doc|gz|htm|r11|rar|tgz|xla|xls|zip)/i
+
+# Tax
+# ------------------------------------------------------------------------------
+/irpf\.rar/i
 
 # Lottery
 # ------------------------------------------------------------------------------
