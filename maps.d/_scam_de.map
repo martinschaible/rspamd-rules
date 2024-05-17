@@ -325,6 +325,7 @@
 /ich.{1,10}zugriff auf (dein|ihr).{1,10}konto habe/i
 /ich.{1,10}zugriff auf (deine|ihre) geräte/iu
 
+/ihr system wurde geknackt/i
 /habe ich.{1,10}zugriff auf ihre dateien/i
 
 /ihr gerät mit meinem privaten/iu
@@ -335,15 +336,17 @@
 /ich erfolgreich den trojaner.?virus/i
 /dieser virus ermöglichte mir/iu
 /meine spyware ist/i
+mein virus hat ihr gerät/iu
 
 # Ransom, Payment
 # ------------------------------------------------------------------------------
 /euro? an meine? bitcoin.?(adresse|wallet)/i
-/meine? bitcoin.?(adresse|wallet) sieht so aus/i
-/meine? bitcoin.?(adresse|wallet).{1,10}btc.?wallet.{1,10}lautet/i
+/meine? (btc|bitcoin).?(adresse|wallet) sieht so aus/i
+/meine? (btc|bitcoin).?(adresse|wallet).{1,10}(btc|bitcoin).?wallet.{1,10}lautet/i
 
 /unten ist meine? bitcoin.?(adresse|wallet)/i
 
+/überweise.{1,10}eur.{1,25}auf mein (btc|bitcoin).?wallet/iu
 /btc an die.{1,10}adresse unten/i
 
 /sie ganz einfach.{1,10}bitcoin.{1,10}kaufen/i
