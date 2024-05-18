@@ -129,6 +129,7 @@
 # ------------------------------------------------------------------------------
 /ihre karte ist gesperrt/i
 /aktivieren sie.{1,15}identity check/i
+/aktivieren sie.{1,15}gebührenfrei/iu
 
 /datenupdate.{1,10}erforderlich/i
 
@@ -338,6 +339,8 @@
 # Winning, Products
 # ------------------------------------------------------------------------------
 /iphone.{0,10}pro.{1,10}ausstehende sendung/i
+/du hast ein.{1,10}iphone.{0,10}pro/i
+
 /chance einen.{1,15}gutschein zugewinnen/i
 
 /bestätigung.{1,10}erhalten sie.{1,10}kostenlose?/iu
@@ -346,6 +349,7 @@
 
 /letzter gewinner/i
 /sie haben ein.{5,20}gewonnen #/i
+
 
 /gerät genehmigt/iu
 
