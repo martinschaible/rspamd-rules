@@ -138,7 +138,7 @@
 /we.?a?re.{1,20}(manufacturer|manufactuer).{1,10}exporter/i
 /we.?a?re.{1,20}(manufacturer|manufactuer).{1,10}specialize/i
 
-/we.?a?re.{1,10}manufacturing.{1,10}company of/i
+/we.?a?re.{1,10}manufacturing.{1,10}company (of|which.{1,15}produces)/i
 
 /we.?a?re.{1,20}(professional|reliable).{1,10}(factory|distributor)/i
 /we.?a?re.{1,20}(professional|reliable).{1,20}products?.{1,10}(company|manufacturer?|supplier)/i
@@ -364,9 +364,13 @@ we.?a?re.{1,20}export trading company/i
 
 /we are.{1,10}source.{1,10}lighting factory/i
 
+# Mats
+# ------------------------------------------------------------------------------
+/we sell a wide varietyl.{1,15}mats/i
+
 # Metal
 # ------------------------------------------------------------------------------
-/we are.{1,10}professional.{1,10} metal parts/i
+/we are.{1,10}professional.{1,10}metal parts/i
 
 # Mining
 # ------------------------------------------------------------------------------
