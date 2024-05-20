@@ -13,6 +13,7 @@
 # ------------------------------------------------------------------------------
 /attention.{1,10}card.?owner/i
 /your atm.{1,10}(debit|visa).{1,10}card/i
+/your atm.{1,10}card is.{1,10}ready/i
 
 /your approved.{1,10}atm/i
 

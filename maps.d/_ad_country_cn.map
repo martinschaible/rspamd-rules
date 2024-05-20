@@ -402,6 +402,7 @@ we.?a?re.{1,20}export trading company/i
 
 /(pcba?|printed.circuit.board).{1,10}manufacturer.{1,10}the company has/i
 /(pcba?|printed.circuit.board).{1,10}manufacturer.{1,10}with good quality/i
+/(pcba?|printed.circuit.board).{1,10}manufacturer.{1,10}more than.{1,10}years experience/i
 /(pcba?|printed.circuit.board).{1,10}we can offer.{1,10}the best/i
 /(pcba?|printed.circuit.board).{1,10}from.{1,10}(china|shenzhen)/i
 /(pcba?|printed.circuit.board).{1,10}website.{1,10}www/i
@@ -440,7 +441,7 @@ we.?a?re.{1,20}export trading company/i
 /years professional.{1,10}electronics.{1,10}(pcba?|printed circuit board)/i
 /years in the.{1,10}(pcba?|printed circuit board).{1,10}industry/i
 
-/you.{1,10}are in.{1,10}(pcba?|printed circuit board).{1,10}business/i
+/you.{1,10}are in.{1,10}(pcba?|printed circuit board).{1,10}(business|market)/i
 /you.{1,10}have{1,10}(request|requirements).{1,20}(pcba?|printed circuit board)/i
 /you.{1,10}(looking for|may need).{1,10}(pcba?|printed circuit board)/i
 /you.{1,10}need.{1,10}(pcba?|printed circuit board).{1,10}supplier/i

@@ -260,6 +260,9 @@
 # Removed too many false/positives
 #/_\d{5,15}\.pdf/i
 
+# Sample: IMG_507110277.7z
+/img_\d{2,15}\.7z/i
+
 #
 /(customer|contract|copies|receipt|reports?).{0,15}\.(html|zip/)i
 
