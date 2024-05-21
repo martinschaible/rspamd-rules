@@ -74,8 +74,7 @@
 /dear (madam|purchaser|sir).{1,15}guten tag/i
 
 /dear sir.{1,5}madam.{1,10}i am writing to/i
-/dear sir.{1,5}madam.{1,25}we are interested in/i
-/dear sir.{1,5}madam.{1,10}we are specialized/i
+/dear sir.{1,5}madam.{1,10}we are (interested in|looking for|specialized)/i
 
 /dear sir.{1,5}madam.{1,10}suppliers?/i
 
@@ -265,6 +264,7 @@
 /i.?a?m a?.{0,10}digital.{1,10}marketing.{1,10}(consultant|expert|specialist)/i
 /i.?a?m a?.{0,10}expert.{1,10}trader/i
 /i.?a?m a?.{0,25}(financial|investment|investor).{1,10}(consultant|funds|philanthropist)/i
+/i.?a?m a?.{5,25}private investigator/i
 /i.?a?m a?.{0,15}professional.{1,10}(graphic designer|investment)/i
 /i.?a?m a?.{0,10}medical scientist/i
 /i.?a?m a?.{5,25}sales.{1,10}(manager|representative)/i

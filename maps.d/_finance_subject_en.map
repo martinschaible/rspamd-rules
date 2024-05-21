@@ -27,7 +27,6 @@
 
 # Financing
 # ------------------------------------------------------------------------------
-/financing made easy/i
 /(business|debt).{1,10}project.{1,10}financing/i
 
 /need financial support/i
@@ -44,6 +43,11 @@
 
 # Mortgage
 # ------------------------------------------------------------------------------
+
+# Silly Stuff
+# ------------------------------------------------------------------------------
+/financing made easy/i
+/financial enlightenment/i
 
 #
 #

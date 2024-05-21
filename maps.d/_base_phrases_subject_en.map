@@ -49,7 +49,7 @@
 /good day.{1,10}dear/i
 /greetings?.{1,10}from here/i
 
-/dear recipient/i
+/dear (beloved|recipient)/i
 /dear sir.{1,5}madam/i
 /hello.{1,10}dear friend/i
 
@@ -87,6 +87,9 @@
 
 /(pcba?|printed.circuit.board).{1,10}(assembly|business|cooperation|fabrication|manufacturer?)/i
 
+# Silly stuff
+# ------------------------------------------------------------------------------
+/illuminate your path/i
 
 #
 #

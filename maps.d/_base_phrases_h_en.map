@@ -72,6 +72,7 @@
 # ------------------------------------------------------------------------------
 /my.{1,10}(e?.?mail|letter) came to you as.{1,10}surprise/i
 /my.{1,10}(e?.?mail|letter) came a.{1,10}surprise to you/i
+/you as a.{1,10}surprise as we have.{1,10}no previous correspondence/i
 
 # Excuses and other silly stuff
 # ------------------------------------------------------------------------------
@@ -152,6 +153,10 @@
 /i was inspired after going through your.{1,15}profile/i
 
 /your.{1,15}profile caught my attention/i
+
+# Reason for contact
+# ------------------------------------------------------------------------------
+/contacting you based on your.{1,10}name/i
 
 # Religious
 # ------------------------------------------------------------------------------

@@ -187,10 +187,13 @@
 
 /begleichen sie die kosten.{1,15}(die|erneute).{1,15}bearbeitung/i
 /bestätigen sie die zahlung von \d,99/i
+
 /bestätigen sie die.{1,25}zahlung der kosten.{1,10}(der|die).{1,10}lieferung/iu
+/bestätige deine versanddetails.{1,10}bezahle die versandkosten/i
 
 /bestätigung der adresse.{1,10}der versandkosten/i
 /bezahlen sie die kosten für die rücksendung/iu
+/bezahle die versandkosten.{1,10}um dein paket zu erhalten/i
 
 /erfordert die zahlung von einfuhr.?umsatz.?steuern/i
 /erneute zustellung eine gebühr von chf/iu

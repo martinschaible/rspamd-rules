@@ -321,7 +321,7 @@
 
 # Pain
 # ------------------------------------------------------------------------------
-/pain.?(killer|miracle|no.?more|quiz|relief)/i
+/pain.?(free|killer|miracle|no.?more|quiz|relief)/i
 
 /relief.?miracle/i
 /(end|erase|joint|neck|nerve).?pain/i
@@ -364,6 +364,10 @@
 /snore.?stop/i
 /stretching/i
 
+# Stomach
+# ------------------------------------------------------------------------------
+/bloated.?stomach/i
+
 # Stroke
 # ------------------------------------------------------------------------------
 /dying.?signal/i
@@ -405,7 +409,7 @@
 
 # Miracle, Breaktrough, Secrets, Videos
 # ------------------------------------------------------------------------------
-/(medical|miracle|scientists?).?(breakthrough|discovery)/i
+/(medical|miracle|new|scientists?).?(breakthrough|discovery)/i
 /(mayan|miracle).?seeds/i
 /(japanese|unlock).{0,10}secret/i
 /(dairy|second|simple).?trick/i
