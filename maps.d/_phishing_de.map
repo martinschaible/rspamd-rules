@@ -60,6 +60,7 @@
 /doppelt in rechnung gestellt wurden?/i
 
 /(doppelt|zweimal).{1,10}(bezahlt wurde|erfolgt ist).{1,10}um eine erstattung zu beantragen/i
+/doppelabrechnung für.{1,25}gibt/i
 
 /erstattung anfordern/i
 /rückerstattungs.?link/iu
@@ -292,6 +293,7 @@
 /sehr geehrter swiss.?pass.?kunde/i
 
 /swisspass.{1,10}service.{1,15}zu aktivieren/i
+/doppelabrechnung.{1,10}swisspass gibt/i
 
 # Swiss Post
 # ------------------------------------------------------------------------------

@@ -74,6 +74,7 @@
 
 /you.{1,10}been granted.{1,10}donation/i
 /you.{1,10}(have|received|will receive|won).{1,20}donation/i
+/you.{1,10}have been picked for.{1,20}(donation|grant|humanitarian)/i
 /you.{1,15}are donation.{1,10}funds/i
 /you.{1,10}have been donated/i
 
@@ -97,6 +98,8 @@
 /you have been selected for.{1,10}grant/i
 /you have been selected to receive.{1,10}grant/i
 /we have selected you to receive.{1,10}grant/i
+
+/grant.{1,10}reply for more details/i
 
 # Payments
 # ------------------------------------------------------------------------------
