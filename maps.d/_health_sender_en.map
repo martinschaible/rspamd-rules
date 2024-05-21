@@ -72,7 +72,7 @@
 /calorie.?booster/i
 /breakfast.?hack/i
 /eat this fruit/i
-/daily.?drink/i
+/(daily|simple).?drink/i
 
 /keto/i
 /power.?shape/i
@@ -198,6 +198,8 @@
 # ------------------------------------------------------------------------------
 /(bad|blurred|blurry).?(eye.?sight|view|vision)/i
 /(20|clear|night|perfect|restore|weak).?(eye.?sight|view|vision)/i
+
+/vision.?restorer?/i
 
 /bad.?eyes/i
 
