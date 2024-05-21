@@ -39,7 +39,8 @@
 /highlights?.{1,20}(büro|dreh).?(stuhl|stühle)/i
 
 /diesen einzigartigen.{1,10}stuhl/i
-/(elegante|ergonomische|erlesene|komfort|praktische).{1,15}büro.?(stuhl|stühle)/iu
+/(elegante|ergonomische|erlesene|komfort|komfortable|praktische).{1,20}büro.?(stuhl|stühle)/iu
+/massage.?leder.{1,20}büro.?(stuhl|stühle)/iu
 
 /erstaunliche.{1,10}massagestuhl/i
 
@@ -359,6 +360,7 @@
 
 /bestellen.{1,10}auf rechnung einfach.{1,10}antworten/i
 /bestellen.{1,20}antworten sie.{1,20}mit.{1,15}(liefer|rechnungs).{1,15}anschrift/i
+/bestellen.{1,10}antworten sie.{1,20}mit ihrer adresse/i
 
 /bestellen.{1,20}einfach.{1,15}auf dieses?.{1,10}(e?.?mail|schreiben) antworten/i
 /bestellen.{1,20}einfach.{1,15}auf dieses?.{1,10}(e?.?mail|schreiben) mit ihrer.{1,15}(adresse|anschrift)/i
