@@ -91,10 +91,9 @@
 
 # Income passive
 # ------------------------------------------------------------------------------
-/(erwirtschaften|erzielen|generieren|verdienen) sie.{1,10}passives.{1,10}(gehalt|einkommen)/i
+/(erwirtschaften|erzielen|generieren|verdienen) sie.{1,10}passives.{1,10}(einkommen|gehalt|geld)/i
 
-/passives einkommen aufzubauen/i
-/passives geld verdienen/i
+/passives.{1,10}(einkommen|gehalt|geld).{1,10}(aufzubauen|erwirtschaften|verdienen)/i
 
 /welt.{1,10}passiven einkommens/i
 
