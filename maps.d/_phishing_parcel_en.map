@@ -23,6 +23,7 @@
 # ------------------------------------------------------------------------------
 /your.{1,10}shipment is.{1,10}awaiting.{1,10}processing/i
 /your.{1,10}shipment is.{1,10}pending.{1,10}is awaiting/i
+/your.{1,10}shipment with waybill number.{1,15}is awaiting delivery/i
 
 /your parcel.{1,10}arrived at our.{1,10}post.?office/i
 
@@ -56,7 +57,8 @@
 /(package|parcel) being returned.{1,10}we ask.{1,10}you.{1,10}pay/i
 /(package|parcel) has been arrived.{1,15}make sure to pay the fee/i
 
-/confirm your address.{1,10}pay the.{1,15}fees/i
+/confirm your add?ress.{1,10}delivery charges/i
+/confirm your add?ress.{1,10}pay the.{1,15}fees/i
 /(delivered withing|delivery as soon as possible|ensure.{1,15}delivery).{1,15}confirm.{1,10}payment/i
 
 /fee is paid.{1,10}we will be able to deliver/i
