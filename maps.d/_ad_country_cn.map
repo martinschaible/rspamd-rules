@@ -49,6 +49,7 @@
 # Intros, specific China
 # ------------------------------------------------------------------------------
 /(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).{1,15}are.{1,10}professional.{1,10}manufacturer/i
+/(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).{1,15}based factory producing/i
 /(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).{1,15}based{1,20}(freight|international){1,20}forwarder/i
 /(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).{1,15}do you have.{1,10}business/i
 /(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).{1,15}factory.{1,10}specializes.{1,10}producing/i
@@ -103,6 +104,7 @@
 /we.?a?re.{1,25}manufacturer.{1,10}(directly|from|in).{1,10}(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang)/i
 /we.?a?re.{1,10}manufacturer.{1,10}exporter.{1,20}from.{1,10}(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang)/i
 /we.?a?re.{1,10}one of the biggest.{1,10}(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang)/i
+/we.?a?re.{1,10}premier china/i
 
 /professional.{1,25}fabrication.{1,10}factory in.{1,10}(china|dongguan|guangzhou|guangdong|shenzhen|zhejiang)/i
 

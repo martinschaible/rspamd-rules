@@ -198,7 +198,7 @@
 /angebot.{1,10}werkzeug.?set/i
 /(angebot|alarm|exklusiv|hochwertiges|komplettes|neues|premium|professionelles|teiliges|ultimatives).{1,15}werkzeug.?set/i
 /riesiges.{1,15}werkzeug.?set/i
-
+/(ein|unser).{1,10}werkzeug.?set/i
 /praktischen.{1,10}trolleykoffer/i
 
 # Tischkicker
@@ -281,6 +281,7 @@
 
 /exklusiven lagerabverkaufsangebot/i
 
+/statt uvp \d{3}.{1,10}nur \d{3}/i
 /für.{1,10}\d{3}.{1,10}statt.{1,10}\d{3,4}/iu
 /(jetzt|für) nur \d{2,3}.{1,5}statt.{1,5}\d{3,4}/i
 
