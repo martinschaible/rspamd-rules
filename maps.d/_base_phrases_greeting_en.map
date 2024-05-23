@@ -166,7 +166,7 @@
 /my name is.{1,25}(dr\.|sir)/i
 /my name is.{1,25}international.{1,10}(fund|trust)/i
 
-/my name is.{5,25}i.?a?m.{1,10}(general|international|sales).{1,10}manager/i
+/my name is.{5,25}i.?a?m.{1,10}(bank|general|international|sales).{1,10}manager/i
 /my name is.{1,25}i.?a?m.{1,10}(agent|adviser|banker|citizen of|partner at)/i
 /my name is.{5,25}i.?a?m.{1,10}writing (this message|to you)/i
 

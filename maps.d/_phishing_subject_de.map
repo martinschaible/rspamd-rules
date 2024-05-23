@@ -286,6 +286,7 @@
 
 /umfrage.{1,10}gewinn/i
 /umfrage.{1,10}verdienen sie ihre/i
+/umfrage.?belohnung/i
 
 /teilnehmer werden.{1,20}belohnung.{1,10}erhalten/i
 
@@ -294,7 +295,7 @@
 /sie wurden für eine.{1,15}belohnung ausgewählt/iu
 /sie sind der auserwählte/iu
 
-/belohnung.{1,10}(ist zum versenden|wartet sie)/i
+/belohnung.{1,10}(freigeschaltet|ist zum versenden|wartet sie)/i
 /bestätigung.{1,10}ihre bestellung zu (versenden|verschicken)/iu
 
 /erhalten sie.{1,10}belohnung/i
