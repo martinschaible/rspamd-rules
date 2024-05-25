@@ -94,6 +94,7 @@
 /(millionen|tausend|dollar|euro?|gbp|usd).{1,15}gespendet.{1,10}antworten sie für.{1,10}details/iu
 /(millionen|tausend|dollar|euro?|gbp|usd).{1,15}spenden.{1,10}was einen teil meiner investition/i
 
+/(millionen|tausend|dollar|euro?|gbp|usd).{1,15}weitere informationen erhalten sie/i
 /(millionen|tausend|dollar|euro?|gbp|usd).{1,15}wurden an sie gespendet/i
 /(millionen|tausend|dollar|euro?|gbp|usd).{1,15}wurden ihnen gespendet/i
 /(millionen|tausend|dollar|euro?|gbp|usd).{1,15}wurden ihnen von der.{1,25}gespended/i
@@ -108,6 +109,7 @@
 /eine.{1,10}spende an sie geleistet hat/i
 /ein(en)? betrag von.{1,10}\d{3}.{0,5}\d{3}.{1,10}(millionen|tausend|dollar|euro?|gbp|usd).{1,25}wurde ihnen von/i
 
+/freiwillige spende in höhe von.{1,10}millionen/iu
 /hat ihnen eine.{1,15}summe gespendet/i
 
 /ich (gebe|spende) ihnen.{1,10}\d{3}.{0,5}\d{3}.{1,10}(millionen|tausend|dollar|euro?|gbp|usd)/i
@@ -253,6 +255,8 @@
 /gewinnern?.{1,10}die ausgewählt wurde.{1,10}meine spende/iu
 
 /zu spenden von unserem gewinn/i
+
+/investition(en)?.{1,10}sie gehören zu den empfängern/iu
 
 # Donation, Companies
 # ------------------------------------------------------------------------------

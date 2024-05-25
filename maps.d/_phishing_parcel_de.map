@@ -118,6 +118,7 @@
 
 /paket.{1,10}(in der|ist in).{1,10}(warteschleife|wartestellung)/i
 
+/aufgrund unvollständiger angaben nicht zugestellt werden/iu
 /nicht zustellen.{1,10}da keine.{1,20}anwesend war/i
 /nachfolgenden produkt kann nicht zugestellt werden/i
 
@@ -202,6 +203,8 @@
 /es fällt eine geringe liefergebühr an/iu
 /es sind zusätzliche.{1,10}gebühren erforderlich/i
 /es können zusätzliche.{1,10}versandkosten.{1,10}die rücksendung anfallen/i
+
+/sie auch eine geringe gebühr zahlen/iu
 
 /gebühr wird erhoben.{1,10}handeln sie schnell/iu
 /gebühr für einen erneuten zustellversuch/iu

@@ -199,7 +199,7 @@
 /(bad|blurred|blurry).?(eye.?sight|view|vision)/i
 /(20|clear|night|perfect|restore|weak).?(eye.?sight|view|vision)/i
 
-/vision.?restorer?/i
+/vision.?(enhancing|restorer?)/i
 
 /bad.?eyes/i
 
@@ -281,7 +281,7 @@
 
 # Knee
 # ------------------------------------------------------------------------------
-/(circa|painful|your).?knees?/i
+/(bad|circa|painful|your).?knees?/i
 /knee.?(cartilage|compression|help|pain)/i
 /compression.?sleeve/i
 

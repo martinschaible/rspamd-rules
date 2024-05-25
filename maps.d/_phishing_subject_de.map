@@ -237,13 +237,15 @@
 
 /sie haben.{1,10}ausstehendes paket/i
 /sie haben.{1,10}ein paket.{1,10}das (sich|zugestellt)/i
-/sie haben jetzt.{1,10}stunden zeit/i
+/sie haben.{1,10}jetzt.{1,10}stunden zeit/i
 /sie haben.{1,15}(immer|noch).{1,15}nicht abgeholte bestellung/i
 
 /sie ihren paketzustellstatus/i
 
 /problem.{1,15}des liefervorgangs/i
 /problem in ihrem paket/i
+
+/unvollständige angaben.{1,10}auftrag/i
 
 /steht.{1,10}paket zur zustellung an/i
 
