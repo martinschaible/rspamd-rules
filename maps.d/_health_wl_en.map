@@ -44,6 +44,7 @@
 
 /struggling.{1,10}(burn|lose|melt).{1,10}(fat|lbs|pounds|weight)/i
 /shrink your midsection/i
+/slim.{1,10}your waistline/i
 
 /(hack|secret|trick).{1,10}burning.{1,10}fat/i
 /(hack|secret|trick).{1,10}(removes?|sheds).{1,10}(lbs|pounds)/i
@@ -99,8 +100,8 @@
 
 # No Diets
 # ------------------------------------------------------------------------------
-/no more diets.{1,10}sweating/i
-/no more crazy diets/i
+/no.{1,10}diets.{1,10}sweating/i
+/no.{1,10}(crazy|extreme) diets/i
 
 /forget.{1,15}workouts.{1,15}diets/i
 
