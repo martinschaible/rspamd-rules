@@ -37,6 +37,7 @@
 /konto wird.{1,10}(bald gesperrt|begrenzt|eingeschränkt)/iu
 
 /konto.?überprüfung erforderlich/i
+/kontosperrung.{1,10}vermeiden/i
 
 /wir mussten.{1,15}konto.?funktionen einschränken/iu
 
@@ -77,6 +78,7 @@
 # Account - Payment options
 # ------------------------------------------------------------------------------
 /erneuern sie ihre zahlungsinformationen/i
+/dringend.{1,10}zahlungsdetails aktualisieren/i
 
 # Cards
 # ------------------------------------------------------------------------------
@@ -322,6 +324,7 @@
 /der inhaber dieser e?.?mail.?adresse/i
 /du gehörst zu den auserwählten/ui
 
+/sie haben noch nicht geantwortet/i
 /sie haben eine kostenlose.{10,25}gewonnen/i
 /sie unsere.{1,10}umfrage/i
 /sie sind zugelassen/i
