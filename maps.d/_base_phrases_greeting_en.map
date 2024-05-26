@@ -65,7 +65,7 @@
 /dear.{1,10}i.?a?m writing from/i
 /dear.{1,10}senior buyer/i
 
-/(dear|hi).{1,5}(hiring|purchase|purchasing).?manager/i
+/(dear|hi).{1,10}(hiring|purchase|purchasing|sourcing).?manager/i
 /(dear|hi) my.{1,10}customer/i
 
 /dear (madam|purchaser|sir).{1,15}glad to (contact|know) you/i
@@ -204,6 +204,7 @@
 /this is.{5,25}from.{5,25}nice to meet you/i
 /this is.{5,25}did you receive.{1,10}e?.?mail/i
 
+/with all due respect.{1,10}my name is/i
 /(you are doing well|you in good health|write you today).{1,10}my name is/i
 /you through this medium.{1,10}my name is/i
 

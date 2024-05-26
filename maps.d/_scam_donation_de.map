@@ -134,13 +134,13 @@
 
 /ihre? e?.?mail.?(adresse|konto)?.{1,25}hat ihnen die summe von/i
 
-/ihre e?.?mail.?(adresse|konto)?.{0,25}ausgewählt.{1,10}um zu.{1,10}begünstigten/iu
-/ihre e?.?mail.?(adresse|konto)?.{1,25}hat eine spende/i
+/ihre? e?.?mail.?(adresse|konto)?.{0,25}ausgewählt.{1,10}um zu.{1,10}begünstigten/iu
+/ihre? e?.?mail.?(adresse|konto)?.{1,25}hat eine spende/i
 
 /ihre? e?.?mail.?(adresse|konto)?.{0,25}wurde.{1,15}ausgewählt.{1,10}um (die|eine).{1,10}(spende|summe)/iu
 /ihre? e?.?mail.?(adresse|konto)?.{1,25}wurde.{1,10}ausgewählt.{1,10}erhalt einer spende/i
 
-/ihre? e?.?mail.?(adresse|konto)?.{0,25}wurde.{1,15}für eine.{1,10}spende/iu
+/ihre? e?.?mail.?(adresse|konto)?.{0,25}wurde.{1,15}für (die|eine).{1,10}(investitionshilfe|spende)/iu
 /ihre? e?.?mail.?(adresse|konto)?.{1,25}wurde.{1,10}unter.{1,10}(begünstigten|glücklichen)/i
 /ihre? e?.?mail.?(adresse|konto)?.{1,25}wurde.{1,10}per online/i
 

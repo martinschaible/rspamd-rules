@@ -46,6 +46,7 @@
 # Find
 # ------------------------------------------------------------------------------
 /(find|looking|seeking).{1,10}(charming|good|perfectible|supreme|unstained).{1,10}(buddy|dude|male|man|mister)/i
+/(find|looking|seeking).{1,10}serious romantic/i
 
 # Fotos
 # ------------------------------------------------------------------------------
@@ -122,10 +123,12 @@
 # ------------------------------------------------------------------------------
 /i am a (fair|lovely|solitary).{1,10}girl/i
 /i.?m a alone female/i
+/not a married lady/i
 
 /horny.{0,10}adults?/i
 
 /tiktok.?(18|plus)/i
+/become acquainted with you/i
 
 #
 #

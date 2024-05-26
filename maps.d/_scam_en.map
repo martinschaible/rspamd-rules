@@ -382,6 +382,8 @@
 /transaction.{1,20}if you are (interested|sure you can handle)/i
 /transaction.{1,10}that will benefit you/i
 
+/trustworthy individual.{1,10}transaction/i
+
 /have these.{1,10}funds.{1,10}transferred to you/i
 
 /you.{1,10}help.{1,15}(manage|move|transfer).{1,15}(asset|sum)/i
