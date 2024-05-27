@@ -53,7 +53,7 @@
 /ihr.{1,15}konto.{1,10}zu schützen.{1,10}müssen wir sicherstellen/iu
 
 /ihre.{1,15}kontoinformationen zu aktualisieren/i
-
+/ihre.{1,10}kundendaten sind (abgelaufen|veraltet)/i
 /sicherheitsgründen.{1,10}wir den zugriff auf ihr.{1,15}konto gesperrt/iu
 
 /anmeldeversuchs vorübergehend gesperrt wurden?/iu
@@ -76,8 +76,10 @@
 
 # Account - Confirm or reconfirm identity
 # ------------------------------------------------------------------------------
-/bestätigen sie.{1,10}ihre telefon.?nummer/iu
-/bestätigen sie.{1,10}ihre konto.?daten/iu
+/bestätigen sie.{1,10}ihre.{1,10}telefon.?nummer/iu
+/bestätigen sie.{1,10}ihre.{1,10}konto.?daten/iu
+/bestätigen sie.{1,10}ihre.{1,10}daten so bald wie möglich/iu
+
 /bestätigen.{1,10}dass sie der konto.?inhaber sind/iu
 
 /konto.?daten.{1,10}daher vorsorglich bestätigen/iu
