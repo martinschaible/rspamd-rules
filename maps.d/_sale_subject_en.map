@@ -92,7 +92,7 @@
 /boom of sales/i
 /targeted.{1,10}e?.?mail.?list/i
 
-/e?.?mail.?list.{1,10}valid/i
+/e?.?mail.?list.{1,10}(europe|valid)/i
 /e?.?mail.{1,10}marketing.{1,10}techniques/i
 
 /bulk.{1,10}e?.?mail.{1,10}(marketing|strategies)/i
@@ -138,8 +138,8 @@
 /seo offer/i
 
 # Google
-/(1st|first|seo|top).{1,15}(page|ranking).?plan/i
-/(1st|first|seo|top).{1,15}(page|ranking) (in|of|on) (bing|google)/i
+/(1st|first|seo|top).{1,15}(page|rankings?).?plan/i
+/(1st|first|seo|top).{1,15}(page|rankings?) (in|of|on) (bing|google)/i
 /top rank(ing)?.{1,10}(bing|google)/i
 
 /google 1st page/i
