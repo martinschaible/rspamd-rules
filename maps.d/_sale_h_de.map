@@ -373,6 +373,7 @@
 /bestellen.{1,20}einfach.{1,15}mit ihrer.{1,15}(liefer|rechnungs).{1,15}(adresse|anschrift)/i
 /Bestellen.{1,20}einfach.{1,15}mit den gewünschten/iu
 /bestellen.{1,20}einfach.{1,15}per e?.?mail.{1,10}antwort/i
+/bestellen.{1,20}einfach.{1,15}sie auf.{1,15}diese e?.?mail antworten/i
 /bestellen.{1,20}einfach.{1,15}sie uns ihre.{1,15}adresse per e?.?mail.{1,10}senden/i
 
 /bestellen.{1,10}mit ihrer.{1,10}(adresse|anschrift).{1,10}(einfach antworten|wir liefern)/i
@@ -389,6 +390,8 @@
 /bestellung(en)?.{1,10}rückfragen einfach antworten/iu
 
 /direkt unsere sonderangebote per e?.?mail bestellen/i
+
+/e?.?mail antworten.{1,10}ihre lieferadresse angeben/i
 
 /einfach mit.{1,10}adresse.{1,15}wir senden dann.{1,15}(frei haus|umgehend per)/i
 /einfach mit.{1,10}adresse.{1,15}diese e?.?mail.{1,15}wir senden ihnen/i
@@ -438,7 +441,9 @@
 
 /statt vergleichbar bis zu.{1,10}nur.{1,10}euro.{1,10}zzgl/i
 /sonderpreis.{1,10}nur.{1,10}euro.{1,10}zzgl.{1,10}mwst/i
-/unschlagbarer preis.{1,10}statt.{1,10}nur.{1,10}euro.{1,10}netto/i
+
+/(unschlagbaren|unschlagbarer) preis.{1,10}statt.{1,10}nur.{1,10}euro.{1,10}netto/i
+/(unschlagbaren|unschlagbarer) preis.{1,10}statt.{1,10}nur.{1,10}netto/i
 
 /weit unter.{1,10}uvp des herstellers/i
 
