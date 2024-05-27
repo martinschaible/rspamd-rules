@@ -106,7 +106,7 @@
 /your.{1,15}(company|name).{1,15}?e.?mail.?address from.{1,10}internet/i
 /your.{1,15}(company|name).{1,15}while browsing.{1,15}google/i
 
-/your (contact|e?.?mail|information).{1,20}from.{1,15}database/i
+/your (contact|e?.?mail|information).{1,20}from.{1,15}data.?base/i
 /your (contact|e?.?mail|information).{1,20}from google.{1,15}search/i
 /your (contact|e?.?mail|information).{1,20}from my personal search/i
 /your (contact|e?.?mail|information).{1,20}from the.{1,15}africa exchange/i
