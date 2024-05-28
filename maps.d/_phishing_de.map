@@ -132,7 +132,8 @@
 
 /unsere.{1,10}gewinner des brandneuen/i
 
-/einer unserer möglichen finalisten/iu
+/finalisten für ein gratis.{1,15}probierpaket/iu
+/(einer|gehören zu).{1,10}unserer möglichen finalisten/iu
 /(exklusive|sichere).{1,10}chance auf ein.{1,15}produktpaket/i
 
 /sich ihr kostenloses geschenk/i
@@ -266,7 +267,7 @@
 
 # Meta
 /überprüfung anfordern/i
-/einreichen{1,10}wird ihr werbekonto dauerhaft gesperrt/i
+/einreichen.{1,10}wird ihr werbekonto dauerhaft gesperrt/i
 /ihrem werbekonto auf unserer plattform informiert/i
 
 # Netflix
@@ -279,7 +280,7 @@
 /estv rückerstattung/iu
 /steuerverwaltung freut sich/i
 
-# Swiss State Police
+# Swiss Police
 # ------------------------------------------------------------------------------
 /finden sie das für sie relevante dokument/iu
 
@@ -288,6 +289,7 @@
 /sie haben eine vorladung erhalten/i
 
 /vorladung.{1,20}erfordernisse einer gerichtlichen/i
+/sehr geehrte.{1,15}wir haben die ehre/i
 
 # Swiss Pass
 # ------------------------------------------------------------------------------

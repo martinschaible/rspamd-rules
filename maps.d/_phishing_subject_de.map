@@ -46,6 +46,8 @@
 /ihr.{1,10}konto wurde ausgewählt/iu
 /ihre.{1,10}kontoinformationen überprüfen/iu
 /ihre.{1,10}kundendaten sind (abgelaufen|veraltet)/i
+# Twint
+/ihre.{1,15}app wird bald gesperrt/i
 
 /benachrichtigung zur kontosperrung/i
 
@@ -88,6 +90,7 @@
 /kreditkarteninformationen.{1,10}aktualisieren/i
 
 /ihre.{1,15}karte (ist|wurde).{1,15}(deaktiviert|gesperrt)/i
+/ihre.{1,15}karte.{1,10}vorübergehend.{1,10}eingeschränkt/i
 
 /warnung.{1,10}verdächtige transaktion/iu
 
@@ -322,6 +325,7 @@
 
 /gewinnen.{1,10}jetzt bestätigen/iu
 /gewinnen sie einen.{1,15}wunschgutschein/i
+/gewinnen sie.{1,20}geschenkkarte/i
 /gewinn innerhalb von.{1,10}stunden erhalten/i
 
 /der inhaber dieser e?.?mail.?adresse/i
@@ -355,6 +359,9 @@
 /der besitzer dieser e?.?mail.{1,15}wurde/i
 
 /schnell.{1,10}stückzahl.{1,10}begrenzt/i
+
+# Testing
+/testen.{1,10}gewinnen/i
 
 # Winning, Products
 # ------------------------------------------------------------------------------
@@ -426,6 +433,10 @@
 # Swisspass
 /swisspass.{1,10}abonnement.{1,15}aktivieren/i
 /(ihr|lhr).{1,10}pass ist nicht mehr gültig/iu
+
+# Swiss Police
+/die polizeiliche.{1,10}kommunikation/i
+/ihr engagement ist erforderlich/i
 
 #
 #
