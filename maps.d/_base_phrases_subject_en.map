@@ -90,6 +90,7 @@
 /we are china.{1,10}leading/i
 
 /(pcba?|printed.circuit.board).{1,10}(assembly|business|cooperation|fabrication|manufacturer?)/i
+/custom.{1,10}(pcba?|printed.circuit.board)/i
 
 # Silly stuff
 # ------------------------------------------------------------------------------
