@@ -200,11 +200,12 @@ grill.{1,10}statt.{1,10}nur/i
 /werkzeug.?set.{1,10}(trolley|wagen)/i
 /werkzeug.?set.{1,10}\d{3,4} teilig/i
 
-/angebot.{1,10}werkzeug.?set/i
 /(angebot|alarm|exklusiv|hochwertiges|komplettes|neues|premium|professionelles|teiliges|ultimatives).{1,15}werkzeug.?set/i
-/riesiges.{1,15}werkzeug.?set/i
-/(ein|unser).{1,10}werkzeug.?set/i
+
+/(angebot|ein|unser|riesiges).{1,10}werkzeug.?set/i
 /praktischen.{1,10}trolleykoffer/i
+
+/kompletter.{1,10}werkstattwagen/i
 
 # Tischkicker
 # ------------------------------------------------------------------------------
