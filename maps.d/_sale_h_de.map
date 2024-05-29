@@ -487,17 +487,20 @@
 
 # Offer to sell vehicles
 # ------------------------------------------------------------------------------
-/(ich|wir) kaufen?.{1,10}fahrzeuge.{1,10}(aller art|guten tag)/i
-/(ich|wir) kaufen?.{1,10}gebrauchte.{1,15}(fahrzeuge|pkw)/i
+/(ich|wir) kaufen?.{1,10}(autos|fahrzeuge|pkw).{1,10}(aller art|guten tag)/i
+/(ich|wir) kaufen?.{1,10}(autos|fahrzeuge|pkw) von jeder Marke/i
 
-/unkomplizierten ankauf.{1,10}gebrauchte?.{1,10}(fahrzeuge|pkw)/i
-/wir holen bundesweit ihr fahrzeug ab/i
+/(ich|wir) kaufen?.{1,10}gebrauchte.{1,15}(autos|fahrzeuge|pkw)/i
+
+/unkomplizierten ankauf.{1,10}gebrauchte?.{1,10}(autos|fahrzeuge|pkw)/i
+/wir holen.{1,10}(auto|fahrzeug|pkw) vor ort ab/i
+/wir holen.{1,10}bundesweit.{1,10}(auto|fahrzeug|pkw) ab/i
 /wir suchen firmenfahrzeuge/i
 
 /angebot.{1,10}unsere maschinen/iu
 
-/verkaufen sie ihr.{1,10}auto.{1,10}(schnell|sicher)/i
-/unsere firma sucht.{1,15}gebrauchte.{1,10}(fahrzeuge|pkw)/i
+/verkaufen sie ihr.{1,10}(auto|fahrzeug|pkw).{1,10}(schnell|sicher)/i
+/unsere firma sucht.{1,15}gebrauchte.{1,10}(autos|fahrzeuge|pkw)/i
 
 # Hiring people
 # ------------------------------------------------------------------------------

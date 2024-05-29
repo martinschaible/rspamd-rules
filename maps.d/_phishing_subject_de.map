@@ -294,6 +294,8 @@
 /beantworten.{1,10}sie unsere befragung/i
 /beantworten.{1,10}sie.{1,20}einige fragen/i
 
+/exklusive.{1,10}umfragebelohnung/i
+
 /sie eine kurze umfrage/i
 
 /meinung ab.{1,10}verdiene eine belohnung/i
@@ -301,23 +303,17 @@
 
 /umfrage.{1,10}gewinn/i
 /umfrage.{1,10}verdienen sie ihre/i
-/umfrage.?belohnung/i
 
 /teilnehmer werden.{1,20}belohnung.{1,10}erhalten/i
 
 # Winning, Free stuff
 # ------------------------------------------------------------------------------
-/sie wurden für eine.{1,15}belohnung ausgewählt/iu
 /sie sind der auserwählte/iu
 
-/belohnung.{1,10}(freigeschaltet|ist zum versenden|wartet sie)/i
 /bestätigung.{1,10}ihre bestellung zu (versenden|verschicken)/iu
 
-/erhalten sie.{1,10}belohnung/i
 /beanspruche jetzt/i
 
-/exklusive.{1,10}belohnungen.{1,40}(kostenlos|umfrage)/i
-/exklusive.{1,10}umfragebelohnung/i
 /(exklusive|sichere).{1,10}chance auf ein.{1,15}produktpaket/i
 
 /gratis.{1,20}euro.{1,10}geschenkkarte.{1,10}sichern/i
@@ -338,7 +334,6 @@
 /sie sind zugelassen/i
 
 /wir vergeben deinen.{1,15}gutschein/i
-/sollen wir ihre belohnung liefern/i
 
 /(Öffne|öffne) sofort/iu
 
@@ -350,7 +345,6 @@
 /hauptpreis geht an sie/i
 
 /preis wird weitergeleitet/i
-/ihre belohnung wartet/i
 
 # Sample: Rundschreiben X2ZI-M29U
 /(bestätigung|rundschreiben).?[0-9a-z]{4}-[0-9a-z]{4}/i
@@ -392,6 +386,18 @@
 # Payments
 # ------------------------------------------------------------------------------
 /Sie haben Ihr.{1,20}guthaben nicht ausgezahlt/i
+
+# Rewards
+# ------------------------------------------------------------------------------
+/belohnung.{1,10}(freigeschaltet|ist zum versenden|wartet sie)/i
+
+/erhalten sie.{1,10}belohnung/i
+/exklusive.{1,10}belohnungen.{1,40}(kostenlos|umfrage)/i
+
+/ihre belohnung wartet/i
+/wir ihre belohnung liefern/i
+/umfrage.?belohnung/i
+/sie wurden für eine.{1,15}belohnung ausgewählt/iu
 
 # Subscriptions
 # ------------------------------------------------------------------------------
