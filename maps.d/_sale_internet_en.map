@@ -35,6 +35,8 @@
 /you.{1,10}interested.{1,10}in e?.?mail.?marketing/i
 
 /you want.{1,10}receive.{1,10}attendee.{1,10}list/i
+/you want.{1,15}e?.?mail.?list/i
+
 /(attendees|visitors).{1,10}list.{1,10}available.{1,15}discounted price/i
 
 # 
@@ -61,8 +63,9 @@
 /furnishing you with.{1,10}e?.?mail.?addresses/i
 
 #
-/linkedin database.{1,15}(e?.?mail|phone).{1,15}list/i
-/linkedin.{1,10}e?.?mail databases?/i
+/linked.?in database.{1,15}(e?.?mail|phone).{1,15}list/i
+/linked.?in.{1,10}e?.?mail databases?/i
+/(linked.?in|targeted).{1,10}e?.?mail.?list/i
 
 # Leads
 # ------------------------------------------------------------------------------
@@ -187,6 +190,7 @@
 
 /we offer.{1,10}range.{1,10}seo.?services/i
 /we offer.{1,10}(seo|search engine optimization)/i
+/we.{1,10}boost.{1,10}seo.?ranking/i
 
 /you.{1,10}seo.?(packages?|proposal)/i
 
@@ -321,6 +325,7 @@
 /create.{1,15}(new|update).{1,15}existing.{1,10}(web)?.?site/i
 /send you my.{1,10}(web)?.?site.proposal/i
 /to (re)?.?develop your.{1,10}(web)?.?site/i
+/speed up your.{1,10}web.?site with us/i
 
 /our services.{1,15}web.?site.?development/i
 /new professional.{1,10}(web)?.?site/i

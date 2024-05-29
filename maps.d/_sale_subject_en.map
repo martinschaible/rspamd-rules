@@ -67,6 +67,8 @@
 /re.?design your webs.?ite/i
 /re.?develop proposal/i
 
+/speed up your.{1,10}web.?site with us/i
+
 /(upgrade|update) your.{1,10}business web.?site/i
 /(upgrade|update) your.{1,15}web.?site today/i
 /(upgrade|update).{1,10}homepage.{1,10}design/i
@@ -90,7 +92,7 @@
 # Address lists for spamming, EMail Marketing
 # ------------------------------------------------------------------------------
 /boom of sales/i
-/targeted.{1,10}e?.?mail.?list/i
+/(linked.?in|targeted).{1,10}e?.?mail.?list/i
 
 /e?.?mail.?list.{1,10}(europe|valid)/i
 /e?.?mail.{1,10}marketing.{1,10}techniques/i
@@ -108,6 +110,8 @@
 /advertise.{1,15}million.{1,15}e?.?mails/i
 
 /launch your e?.?mail.?campaign/i
+
+/you want.{1,15}e?.?mail.?list/i
 
 # Apps
 # ------------------------------------------------------------------------------

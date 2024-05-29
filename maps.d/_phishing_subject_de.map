@@ -160,6 +160,7 @@
 
 /(photo|push).?tan.{1,15}(aktivieren sie jetzt|erforderlich|ihre konto|ist nicht)/i
 /(photo|push).?tan.{1,10}läuft innerhalb/iu
+/(photo|push).?tan.{1,10}vorübergehend aufgehoben/iu
 
 /(aktivieren|aktualisieren|aktivierung|entdecken) sie.{1,15}(photo|push).?tan/i
 /wichtiges update.{1,15}(photo|push).?tan/i
