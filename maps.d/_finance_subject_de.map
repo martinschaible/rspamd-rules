@@ -18,6 +18,9 @@
 /(darlehen|kredit)\?/i
 /new.{1,10}(darlehen|kredit)/i
 
+/kreditfinanzierung.{1,10}(fixzins|stunden)/i
+/projekte?.{1,10}kreditfinanzierung/i
+
 /(darlehen|kredit) (dringend|für \d|zu)/iu
 /(finanz|darlehen|kredit).?(angebot|möglichkeiten)/iu
 
