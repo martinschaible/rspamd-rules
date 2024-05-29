@@ -255,6 +255,7 @@
 /problem.{1,15}des liefervorgangs/i
 /problem in ihrem paket/i
 
+/unvollständige adressinformationen/i
 /unvollständige angaben.{1,10}auftrag/i
 
 /steht.{1,10}paket zur zustellung an/i
@@ -268,6 +269,8 @@
 /wurde an unser depot zurückgesandt/i
 
 /ihres pakets ist ausgesetzt/i
+
+/zahlung erforderlich.{1,5}ref/i
 
 # DPD
 /dpd.?ch.{1,10}betreff/i
