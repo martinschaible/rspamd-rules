@@ -121,8 +121,8 @@
 /heutige.{0,10}gewinner/i
 
 # A to L
-/(ali.?express|edeka|kaufland|le.?creuset|lidl).{0,5}(abteilung|angebot|code|geschenkkarte|gewinner|gutschein|kontakt|sender|sendung|umfrage|zustelllung)/i
-/(ali.?express|edeka|kaufland|le.?creuset|lidl).{0,5}help.?desk/i
+/(ali.?express|declathon|edeka|kaufland|le.?creuset|lidl).{0,5}(abteilung|angebot|code|geschenkkarte|gewinner|gutschein|kontakt|sender|sendung|umfrage|zustelllung)/i
+/(ali.?express|declathon|edeka|kaufland|le.?creuset|lidl).{0,5}help.?desk/i
 # K to Z
 /(media.?market|otto|persil|rewe|temu).{0,5}(abteilung|angebot|code|geschenkkarte|gewinner|gutschein|kontakt|sender|sendung|umfrage|zustelllung)/i
 /(media.?market|otto|persil|rewe|temu).{0,5}.{0,5}help.?desk/i
