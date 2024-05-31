@@ -13,7 +13,6 @@
 
 # Greetings
 # ------------------------------------------------------------------------------
-/dear.{1,10}friend.{1,10}we supply/i
 /dear customer.{1,10}i am.{5,25}from.{1,10}(china|dongguan|guangzhou|shenzhen|zhejiang)/i
 
 # Footers, Signature
@@ -39,8 +38,6 @@
 /glad to (know|hear) that you.{1,10}a?re.{1,10}in.{1,15}(business|need of)/i
 /glad to (know|hear) that you.{1,10}a?re.{1,10}on the.{1,20}market/i
 /glad to (know|hear) that you.{1,10}a?re.{1,10}professional/i
-
-/my name is.{5,25}we are specialized in/i
 
 # Intros "You are in the business"
 # ------------------------------------------------------------------------------
@@ -287,7 +284,7 @@ we.?a?re.{1,20}export trading company/i
 # Cases
 # ------------------------------------------------------------------------------
 /we are.{1,15}case.{1,10}manufacturer/i
-/We are.{1,15}(aluminum|carrying).{1,15}case.{1,10}manufacturer/i
+/we are.{1,15}(aluminum|carrying).{1,15}case.{1,10}manufacturer/i
 /we offer.{1,10}aluminum.{1,10}case/i
 
 # Clothes
@@ -495,13 +492,3 @@ we.?a?re.{1,20}export trading company/i
 
 #
 /transportation.{1,15}assist you with/i
-
-#
-#
-#
-
-# Fake Domain Registration
-# ------------------------------------------------------------------------------
-/this e?.?mail is from china.{1,10}intellectual property office/i
-
-/chinese brand name some domain/i
