@@ -1,0 +1,22 @@
+# ==============================================================================
+# Virus and Malware: Sender
+#
+# ----|----------------|
+#  20 | German         |
+# ==============================================================================
+
+# Alerts
+# ------------------------------------------------------------------------------
+/gerätesicherheit/iu
+/malware.?schutz/i
+/sicherheits.?(alarm|hinweis|update)/i
+/verdächtige viren/i
+/viren wurden entdeckt/iu
+
+# Products
+# ------------------------------------------------------------------------------
+/(antivirus|av|av 202\d|mca?fee|norton).?warnung/i
+
+# Expired Antivirus software
+# ------------------------------------------------------------------------------
+/mcafee.?abonnement.{1,10}ausgesetzt/i
