@@ -39,6 +39,8 @@
 
 # Account - Confirm or reconfirm identity
 # ------------------------------------------------------------------------------
+/update your.{1,10}account information today/i
+
 /suspended.{1,15}confirm your e?.?mail/i
 
 /e?.?mail verification.{1,10}action required/i
@@ -58,11 +60,13 @@
 
 # Parcel
 # ------------------------------------------------------------------------------
-/parcel awaiting collection/i
+/(package|parcel|shipment).{1,10}awaiting collection/i
 /update your shipping address/i
 
-/your (package|parcel) not delivered/i
-/Your (package|parcel) has been returned/i
+/your (package|parcel|shipment).{1,10}not delivered/i
+/your (package|parcel|shipment).{1,10}has been returned/i
+
+/payment for your (package|parcel|shipment)/i
 
 # Surveys
 # ------------------------------------------------------------------------------

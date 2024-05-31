@@ -38,6 +38,8 @@
 /funding opportunity/i
 /we can help (finance|financing)/i
 
+/financing.{1,10}loan/i
+
 # Credit Card
 # ------------------------------------------------------------------------------
 /qualify for.{1,15}credit limit today/i

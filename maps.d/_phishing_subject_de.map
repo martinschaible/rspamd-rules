@@ -102,8 +102,7 @@
 
 # Locking Account
 # ------------------------------------------------------------------------------
-/ihr konto.{1,15}wird gesperrt/i
-/ihr konto.{1,15}(ist|wird|wurde) (begrenzt|eingeschränkt)/i
+/ihr konto.{1,15}(ist|wird|wurde) (begrenzt|eingeschränkt|gesperrt)/i
 /ihr konto.{1,15}wurde vorübergehend/i
 /ihr konto.{1,15}vorübergehende beschränkung/iu
 
@@ -117,6 +116,8 @@
 /zugriff auf ihr.{1,15}konto wurde eingeschränkt/iu
 
 /zu ihrer sicherheit haben wir ihr.{1,15}konto/i
+
+/wichtige mitteilung.{1,10}ihr.{1,15}konto/i
 
 # Confirm or reconfirm Account/Identity
 # ------------------------------------------------------------------------------
@@ -161,7 +162,7 @@
 /(photo|push).?tan.{1,15}(aktivieren sie jetzt|erforderlich|ihre konto|ist nicht|verfahren)/i
 /(photo|push).?tan.{1,10}läuft innerhalb/iu
 /(photo|push).?tan.{1,10}vorübergehend aufgehoben/iu
-
+/tan.?app.{1,10}dienst.{1,10}aktivieren/i
 
 /(aktivieren|aktualisieren|aktivierung|entdecken) sie.{1,15}(photo|push).?tan/i
 /wichtiges update.{1,15}(photo|push).?tan/i
@@ -174,6 +175,8 @@
 /obligatorische aktivierung/i
 
 /bank.{1,10}wichtiges sicherheitsupdate/i
+/aktualisierung ihres.{1,20}authentifizierungsdienstes/i
+/authentifizierungsdienst.{1,10}erforderlich/i
 
 # Parcel
 # ------------------------------------------------------------------------------
@@ -446,6 +449,9 @@
 /i0n0s.{1,5}mail/i
 
 /dhl.{1,5}bestellnummer/i
+
+# Postfinance
+/dringende aktualisierung.{1,10}postfinance/i
 
 # Swisspass
 /swisspass.{1,10}abonnement.{1,15}aktivieren/i
