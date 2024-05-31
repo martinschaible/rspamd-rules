@@ -396,16 +396,19 @@
 
 # Rewards
 # ------------------------------------------------------------------------------
-/belohnung.{1,10}(freigeschaltet|ist zum versenden|wartet sie)/i
+/(belohnung|gutschein).{1,10}(freigeschaltet|ist zum versenden|wartet sie)/i
 
-/erhalten sie.{1,10}belohnung/i
+/erhalten sie.{1,10}(belohnung|gutschein)/i
 /exklusive.{1,10}belohnungen.{1,40}(kostenlos|umfrage)/i
 
-/sie sich jetzt ihre belohnung/i
-/ihre belohnung wartet/i
-/wir ihre belohnung liefern/i
-/umfrage.?belohnung/i
-/sie wurden für eine.{1,15}belohnung ausgewählt/iu
+/sie sich jetzt ihren?.{1,10}(belohnung|gutschein)/i
+/ihren?.{1,10}(belohnung|gutschein) wartet/i
+/wir ihren?.{1,10}(belohnung|gutschein) liefern/i
+/umfrage.?(belohnung|gutschein)/i
+/sie wurden für einen?.{1,15}(belohnung|gutschein) ausgewählt/iu
+
+#
+/edeka.{1,10}(belohnung|gutschein) erhalten/i
 
 # Subscriptions
 # ------------------------------------------------------------------------------

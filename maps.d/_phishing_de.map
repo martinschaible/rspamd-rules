@@ -123,12 +123,16 @@
 /geschenke?.{1,10}sie verfügbar sind/iu
 /geschenke?.{1,10}für sie.{1,10}sie ausgewählt wurden/iu
 
+/\d{2,3}.{1,10}gutschein auf sie wartet/i
+
 /werbegeschenke zu gewinnen/i
 
 /besuchen sie unser gewinnerportal/i
 /lieber kunde.{1,15}belohnung abholen/i
 
 /du bist der erste unter vielen/i
+
+/hier klicken.{1,10}\d{2,3}.{1,15}gutschein/i
 
 /unsere.{1,10}gewinner des brandneuen/i
 
