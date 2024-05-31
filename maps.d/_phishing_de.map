@@ -50,6 +50,9 @@
 
 /\d{2,4}.{1,10}euro.{1,10}bestätige deine angaben/i
 
+# Domain Registration
+# ------------------------------------------------------------------------------
+
 # Return for double payed invoices
 # ------------------------------------------------------------------------------
 /rechnung.{1,10}den monats?.{1,30}(doppelt|zweimal).{1,10}(bezahlt wurde|erfolgt ist)/i

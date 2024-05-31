@@ -57,6 +57,7 @@
 /dear.{1,10}friend.{1,10}i am (mrs?|ms)/i
 /dear.{1,10}friend.{1,10}i got your contact/i
 /dear.{1,10}friend.{1,10}nice day/i
+/dear.{1,10}friend.{1,10}we supply/i
 
 /dear.{1,10}managing.{1,10}director/i
 /dear.{1,10}manager.{1,10}nice day/i
@@ -164,18 +165,18 @@
 /my name is.{1,25}barr(\.|ister)/i
 /my name is.{1,30}(attorney|business|consultant|investment|investor|politician|private|us soldier)/i
 /my name is.{1,25}(dr\.|sir)/i
+/my name is.{1,25}(mrs?|ms).{5,25}from/i
 /my name is.{1,25}international.{1,10}(fund|trust)/i
 
 /my name is.{5,25}i.?a?m.{1,10}(bank|general|international|sales).{1,10}manager/i
 /my name is.{1,25}i.?a?m.{1,10}(agent|adviser|banker|citizen of|partner at)/i
 /my name is.{5,25}i.?a?m.{1,10}writing (this message|to you)/i
 
+/my name is.{5,25}i have been.{1,10}victim/i
 /my name is.{5,25}i represent.{1,10}company/i
 /my name is.{5,25}i was.{1,10}browsing your/i
 
-/my name is.{5,25}i have been.{1,10}victim/i
-
-/my name is (mrs?|ms).{5,25}from/i
+/my name is.{5,25}we are specialized in/i
 
 /mine real name is/i
 
