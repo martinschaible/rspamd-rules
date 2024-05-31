@@ -15,30 +15,16 @@
 
 # Fake Orders
 # ------------------------------------------------------------------------------
-/attached.{1,10}items.{1,10}inform us of.{1,15}shipment/i
-/attached.{1,10}our.{1,10}purchase order.{1,20}kindly review/i
-/attached.{1,10}order.{1,10}specifications/i
-/attached.{1,10}quotation request sheet.{1,14}our specifications/i
-
-/i attach order confirm po/i
-
 /dear supplier.{1,10}we are interested.{1,10}buying your/i
 /find enclosed herewith.{1,10}rfq.?inquiry/i
 /i need your.{1,10}assistance in the purchase of/i
 
 /my invitation.{1,10}you can give.{1,10}the best prices/i
 
-/urgently.{1,15}review attached order/i
-
 /draft bl for po/i
-
-/good day.{1,10}attached kindly/i
-/good day.{1,10}please find.{1,10}attached/i
-
 /order.{1,10}large quantity.{1,10}your products/i
 
 /your company.{1,15}we want to.{1,15}your products/i
-/your proposal.{1,10}the attached rfq/i
 
 # Catalog
 /(brochure|catalog|catalogue).{1,10}e?.?mail for our consideration/i
@@ -63,7 +49,6 @@
 
 /your reply.{1,10}your product.{1,10}(brochure|catalog|catalogue)/i
 
-/attached rfq inquiry.{1,10}send us your pricing/i
 /(brochure|catalog|catalogue).{1,10}price list.{1,10}payment method/i
 
 /provide us.{1,15}(brochure|catalog|catalogue).{1,10}of your products/i
@@ -104,7 +89,6 @@
 
 #
 /you exported to.{1,10}before/i
-/verify.{1,10}price for.{1,10}attached product/i
 
 #
 #
