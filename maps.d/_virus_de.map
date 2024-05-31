@@ -1,7 +1,5 @@
 # ==============================================================================
-# Virus: Anything
-#
-# -> Add bad senders here: "_base_bad_sender_de.map"
+# Virus and Malware
 #
 # ----|----------------|
 #  20 | German         |
@@ -13,10 +11,29 @@
 /wir die datei mit.{1,10}passwort.{1,50}gesichert/i
 /datei ist ein polizei.?bericht/i
 
+# Alerts
+# ------------------------------------------------------------------------------
+/ihr.{1,10}(computer|gerät|system).{1,10}ein hohes risiko besteht.{1,10}mit viren/iu
+/ihr.{1,10}(computer|gerät|system).{1,10}ist nicht sicher.{1,10}online viren/i
+/ihr.{1,10}(computer|gerät|system).{1,10}wurde mit.{1,10}viren infiziert/i
+/ihr.{1,10}(computer|gerät|system).{1,10}wurde mit bösartigen/iu
+
+/verdächtiger?.{1,10}(viren|virus).{1,10}entdeckt.{1,10}wir haben festgestellt/iu
+/verdächtiger?.{1,10}(viren|virus).{1,10}erkannt/i
+/verdächtiger?.{1,10}(viren|virus).{1,10}wurden? entdeckt/i
+
+/verdächtige aktivitäten auf ihrem.{1,10}(computer|gerät|system) festgestellt/iu
+
 # Documents
 # ------------------------------------------------------------------------------
 
-# Fake invoices
+# Encoded/protected messages
+# ------------------------------------------------------------------------------
+
+# Fax
+# ------------------------------------------------------------------------------
+
+# Invoices
 # ------------------------------------------------------------------------------
 /sie unsere rechnung.{1,10}kennwort/i
 
@@ -30,23 +47,14 @@
 /sehr geehrte damen und herren.{1,10}anbei erhalten sie ihre rechnung vom.{1,15}im pdf.?format/i
 /sehr geehrte damen und herren.{1,10}anbei finden sie ihre letzte rechnung/i
 
-# Fake Warnings
-# ------------------------------------------------------------------------------
-/ihr.{1,10}system wurde mit.{1,10}viren infiziert/i
-/verdächtige viren wurden entdeckt/i
-
-/ihr computer.{1,10}ist nicht sicher.{1,10}online viren/i
-/ihr gerät.{1,10}ein hohes risiko besteht.{1,10}mit viren/iu
-
-/verdächtiger virus entdeckt.{1,10}wir haben festgestellt/iu
-/verdächtiger virus erkannt/i
-
-/verdächtige aktivitäten auf ihrem gerät festgestellt/iu
-
-# Fax
+# Orders
 # ------------------------------------------------------------------------------
 
-# Virus, Malware
+#
+#
+#
+
+# Download/Buy Antivirus software
 # ------------------------------------------------------------------------------
 /laden sie (das|die) anti.?virus.{1,10}(anwendung|programm) herunter/i
 /lassen sie ihren.{1,10}computer nicht gefährdet/iu
@@ -55,15 +63,15 @@
 
 /ihr (computer|gerät|system).{1,10}könnte gefährdet sein/iu
 /ihr (computer|gerät|system).{1,10}ist.{1,10}online durch zahlreiche bedrohungen/i
-/ihr (computer|gerät|system).{1,10}wurde mit bösartigen/iu
-
-/sie zu warnen.{1,10}erneuern sie sofort/i
 
 /website hat (dein|ihr).{1,20}mit einem virus infiziert/i
-/windows.?abonnement ist am heute abgelaufen/i
 
-# McAfee
+# Expired Antivirus software
+# ------------------------------------------------------------------------------
 /ihr mcafee.?abonnement ist heute abgelaufen/i
+/sie zu warnen.{1,10}erneuern sie sofort/i
+
+/windows.?abonnement ist am heute abgelaufen/i
 
 #
 #

@@ -1,5 +1,5 @@
 # ==============================================================================
-# Virus: Subject
+# Virus and Malware: Subject
 #
 # ----|----------------|
 #  20 | German         |
@@ -9,6 +9,16 @@
 # ------------------------------------------------------------------------------
 /dokument geschützt mit passwort/iu
 
+# Alerts
+# ------------------------------------------------------------------------------
+/ihr.{1,10}(computer|gerät|system).{1,10}.{1,10}könnte gefährdet sein/iu
+/ihr.{1,10}(computer|gerät|system).{1,10}.{1,10}wurde mit.{1,10}viren infiziert/i
+
+/unser system hat viele auf ihrem.{1,15}vorhandene/i
+
+/verdächtige.{1,10}aktivitäten auf ihrem gerät festgestellt/iu
+/verdächtiger?.{1,10}(viren|virus).{1,10}(entdeckt|erkannt)/i
+
 # Invoice
 # ------------------------------------------------------------------------------
 /rechnung\d{4,10}/i
@@ -17,22 +27,12 @@
 
 /prüfen sie ihre zahlungsdetails/iu
 
-# Fake Warnings
+# Download/Buy Antivirus software
 # ------------------------------------------------------------------------------
-
-/ihr.{1,10}system wurde mit.{1,10}viren infiziert/i
-/unser system hat viele auf ihrem.{1,15}vorhandene/i
-
-/verdächtige.{1,10}aktivitäten auf ihrem gerät festgestellt/iu
-/verdächtiger?.{1,10}(viren|virus).{1,10}(entdeckt|erkannt)/i
-
-# Virus, Malware
-# ------------------------------------------------------------------------------
-/ihr gerät könnte gefährdet sein/iu
-
 /jetzt antivirus.?schutz/i
 
-# McAfee
+# Expired Antivirus software
+# ------------------------------------------------------------------------------
 /mcafee.?abonnement wurde ausgesetzt/i
 /sehr geehrter mcafee.?kunde/i
 /ihr mcafee ist abgelaufen/i
