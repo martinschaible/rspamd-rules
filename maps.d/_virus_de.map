@@ -35,14 +35,14 @@
 
 # Invoices
 # ------------------------------------------------------------------------------
-/sie unsere rechnung.{1,10}kennwort/i
+/sie unsere.{1,15}rechnung.{1,10}kennwort/i
 
 /leiten sie diese.{1,10}e?.?mail an.{1,10}buchhaltung weiter/i
 
-/rechnung im anhang.{1,10}mit dem passwort/i
-/rechnung.{1,10}das passwort zum öffnen/iu
+/rechnung.{1,15}passwort zum öffnen/iu
+/rechnung.{1,10}im anhang.{1,10}mit dem passwort/i
 
-/kontaktdaten finden sie auf der rechnung/i
+/kontaktdaten finden sie auf der.{1,15}rechnung/i
 
 /sehr geehrte damen und herren.{1,10}anbei erhalten sie ihre rechnung vom.{1,15}im pdf.?format/i
 /sehr geehrte damen und herren.{1,10}anbei finden sie ihre letzte rechnung/i
