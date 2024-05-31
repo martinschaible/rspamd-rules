@@ -138,6 +138,8 @@
 # DPD
 /dpd eu/i
 
+/edeka$/i
+
 # Fedex
 /fedex.{0,10}(fedex|helpdesk|support)/i
 
@@ -165,6 +167,7 @@
 
 # Twint
 /twint.?team/i
+/twint$/i
 
 # UPS
 /_ups_/i
