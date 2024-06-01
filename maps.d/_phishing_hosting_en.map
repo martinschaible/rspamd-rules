@@ -62,8 +62,8 @@
 /rejected the delivery.{1,10}incoming.{1,10}e?.?mails to you/i
 
 #
-/update account.{1,10}increase.{5,15}quota/i
-/upgrade your account.{1,10}cancel the request/i
+/(update|upgrade).{1,10}account.{1,10}cancel the request/i
+/(update|upgrade).{1,10}account.{1,10}increase.{5,15}quota/i
 
 /messages has been blocked by.{1,10}administrator/i
 /messages from your contacts are.{1,15}on hold/i
@@ -86,7 +86,7 @@ your recent request.{1,10}de.?activate your.{1,10}e?.?mail/i
 
 # WebMail
 # ------------------------------------------------------------------------------
-/you are using.{1,10}outdated versio.{1,10}webmail/i
+/you are using.{1,10}outdated version.{1,10}webmail/i
 /your webmail to the latest version/i
 
 # Mail Confirm, Verify
