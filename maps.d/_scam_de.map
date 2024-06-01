@@ -1,8 +1,6 @@
 # ==============================================================================
 # Scam: Anything
 #
-# -> Add bad senders here: "_base_bad_sender_de.map"
-#
 # ----|----------------|
 #  10 | German         |
 # ==============================================================================
@@ -20,28 +18,6 @@
 # Assistance
 # ------------------------------------------------------------------------------
 /sie um ihre unterstützung bei überweisung/iu
-
-# ATM Card
-# ------------------------------------------------------------------------------
-/atm.{0.10}karte mit.{1,15}\d{3}.{0,5}\d{3}.{1,10}(dollar|euro|gbp|usd) gesendet wird/i
-/atm.{0.10}karte enthält.{1,15}\d{3}.{0,5}\d{3}.{1,10}millionen/i
-/atm.{0.10}karte.{1,15}die auf ihren.{1,10}namen ausgestellt/i
-
-/ihr konto eine geldautomaten.{1,10}debitkarte/i
-/ihr geld wurde auf eine.{1,10}(bank|debit).{0,10}karte geladen/i
-/ihre swift atm.{0.10}karte/i
-
-/ihre.{1,10}geldautomatenkarte im wert von/i
-/ihre.{1,10}zahlung.{1,10}atm.{0,10}karte/i
-/ihren.{1,10}namen ausgestellte.{1,10}geldautomatenkarte/i
-/ihnen eine atm.{0,10}(card|karte)/i
-
-/atm.{0.10}(card|karte) in höhe von/iu
-
-/lieferung ihrer.{1,10}atm.{0,10}karte/i
-/zahlung an sie.{1,10}eine atm.{0.10}karte/i
-
-/visa.?bankomatkarte.{1,10}(einlösen|kann überall)/iu
 
 # Beneficiary
 # ------------------------------------------------------------------------------
@@ -314,45 +290,6 @@
 #
 #
 #
-
-# Ransom
-# ------------------------------------------------------------------------------
-/ich bin ein hacker/i
-/ich bin ein professioneller hacker/i
-
-/ich mir zugang zu.{1,10}computer.{1,10}verschafft/i
-/ich mir zugang zu seinen geräten/iu
-/ich habe eine kopie.{1,15}webcam/i
-/ich auf alle daten auf deinem.{1,15}zugreifen/iu
-
-/ich.{1,10}zugriff auf (dein|ihr).{1,10}konto habe/i
-/ich.{1,10}zugriff auf (deine|ihre) geräte/iu
-
-/ihr system wurde geknackt/i
-/habe ich.{1,10}zugriff auf ihre dateien/i
-
-/ihr gerät mit meinem privaten/iu
-/ihnen besuchte web.?site mit einem trojaner/i
-
-/installierte ich.{1,10}trojaner erfolgreich/i
-
-/ich erfolgreich den trojaner.?virus/i
-/dieser virus ermöglichte mir/iu
-/meine spyware ist/i
-mein virus hat ihr gerät/iu
-
-# Ransom, Payment
-# ------------------------------------------------------------------------------
-/euro? an meine? bitcoin.?(adresse|wallet)/i
-/meine? (btc|bitcoin).?(adresse|wallet) sieht so aus/i
-/meine? (btc|bitcoin).?(adresse|wallet).{1,10}(btc|bitcoin).?wallet.{1,10}lautet/i
-
-/unten ist meine? bitcoin.?(adresse|wallet)/i
-
-/überweise.{1,10}eur.{1,25}auf mein (btc|bitcoin).?wallet/iu
-/btc an die.{1,10}adresse unten/i
-
-/sie ganz einfach.{1,10}bitcoin.{1,10}kaufen/i
 
 # Nomination, Awards
 # ------------------------------------------------------------------------------

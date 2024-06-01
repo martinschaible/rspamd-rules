@@ -1,8 +1,6 @@
 # ==============================================================================
 # Scam: Anything
 #
-# -> Add bad senders here: "_base_bad_sender_en.map"
-#
 # ----|----------------|
 #  10 | German         |
 # ==============================================================================
@@ -27,43 +25,6 @@
 
 /requesting your cooperation.{1,10}receive/i
 /this is.{1,10}urgent solicitation.{1,15}assistance/i
-
-# ATM Card
-# ------------------------------------------------------------------------------
-/attention.{1,10}card.?owner/i
-
-/atm.{0,10}card.{1,10}bearing your name/i
-/atm.{0,10}card.{1,10}delivery/i
-/atm.{0,10}card.{1,10}has been approved/
-/atm.{0,10}card.{1,10}i am contacting you /i
-/atm.{0,10}card.{1,10}in your name/i
-/atm.{0,10}card.{1,10}for you worth/i
-/atm.{0,10}card.{1,10}to you.{1,10}contact/i
-/atm.{0,10}card.{1,10}parcel valued/i
-/atm.{0,10}card.{1,10}we have deposited/i
-/atm.{0,10}card.{1,10}worth of.{1,10}million/i
-/atm.{0,10}card.{1,10}worth.{1,10}sum of/i
-/atm.{0,10}card.{1,10}worth.{1,10}(dollar|euro?|gbp|usd)/i
-
-/attn.{1,10}atm.{0,10}card.{1,10}owner/i
-
-/\d{3}.{0,5}\d{3}.{1,10}million.{1,10}atm.{1,10}card/i
-
-/delivery? of your.{1,10}atm.{1,10}card to you/i
-
-/donation.{1,10}atm.{0,10}card/i
-
-/your.{1,10}atm.{0,10}card.{1,10}worth of/i
-/your.{1,10}atm.{0.10}card.{1,10}ready for delivery/i
-/your.{1,10}atm.{0.10}card.{1,10}has been deposited/i
-/your.{1,10}atm.{0.10}card.{1,10}to your address/i
-
-/your.{1,10}package.{1,10}atm.{0,10}card/i
-/your.{1,10}payment of.{1,10}million.{1,10}through.{1,10}atm.{1,10}card/i
-
-/your.{1,10}upgraded atm.{0.10}card/i
-
-/we received an.{1,10}atm.{0.10}card/i
 
 # Beneficiary
 # ------------------------------------------------------------------------------
@@ -429,44 +390,6 @@
 #
 #
 #
-
-# Ransom
-# ------------------------------------------------------------------------------
-/i.{1,10}(gained|get|have|obtained).{1,10}access.{1,15}your.{1,10}(account|devices?|mobile)/i
-/i.{1,10}managed.{1,10}install.{1,15}(trojan|virus)/i
-/i.{1,10}recorded some videos of you/i
-/i.{1,10}hacked your computer/i
-
-/i.?a?m a hacker/i
-/i.?a?m.{1,10}hacker.{1,10}has access/i
-/i.?a?m.{1,10}professional hacker/i
-/i know that you are.{1,10}pedophile/i
-
-/virus enabled me to connect/i
-
-/managed to hack.{1,10}your.{1,10}operating.?system/i
-
-/with my private trojan/i
-
-/my perverted friend/i
-
-# Access
-/i can see your.{1,10}screen/i
-/i have.{1,15}access to your list of.{1,10}contacts/i
-/i.{1,10}managed.{1,10}to get full access.{1,10}all devices/i
-
-# Ransom, Payment
-# ------------------------------------------------------------------------------
-/below is.{1,10}bitcoin.?(address|wallet) of mine/i
-
-/my (bitcoin|btc).?(address|wallet) is as follows/i
-/my (bitcoin|btc).?(address|wallet) is/i
-/my (bitcoin|btc).?(address|wallet).{1,15}btc.?wallet/i
-/my (bitcoin|btc).?(address|wallet).{1,15}for transfer/i
-
-/just transfer.{1,10}usd.{1,15}to bitcoin/i
-/transfer to my.{1,10}account.{1,10}after the transaction/i
-/you need to transfer.{1,10}usd.{1,10}bitcoin/i
 
 # Nomination, Awards
 # ------------------------------------------------------------------------------
