@@ -7,7 +7,7 @@
 
 # Crypto
 # ------------------------------------------------------------------------------
-/(bitcoin|btc|crypto|krypto).?(admin|broker|bulletin|currency|etf|forex|invest(ment)?|millionaire|network|news|rebound|update|wealth)/i
+/(bitcoin|btc|crypto|krypto).?(admin|broker|bulletin|currency|etf|forex|invest(ment)?|millionaire|network|news|rebound|revolution|update|wealth)/i
 
 /world.{0,10}(bitcoin|btc|crypto|krypto)/i
  #/(swiss|world).{0,10}(bitcoin|btc|crypto|krypto)/i
