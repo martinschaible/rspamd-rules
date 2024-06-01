@@ -295,25 +295,11 @@
 /ihre mitarbeit ist.{1,10}(erforderlich|gefragt)/i
 /werwenden sie ihren barcode/i
 
-# Surveys
-# ------------------------------------------------------------------------------
-/beantworten.{1,10}bevor wir die belohnung/i
-/beantworten.{1,10}sie unsere befragung/i
-/beantworten.{1,10}sie.{1,20}einige fragen/i
+#
+#
+#
 
-/exklusive.{1,10}umfragebelohnung/i
-
-/sie eine kurze umfrage/i
-
-/meinung ab.{1,10}verdiene eine belohnung/i
-/nehmen sie an dieser.{1,10}umfrage teil/i
-
-/umfrage.{1,10}gewinn/i
-/umfrage.{1,10}verdienen sie ihre/i
-
-/teilnehmer werden.{1,20}belohnung.{1,10}erhalten/i
-
-# Winning, Free stuff
+# Rewards
 # ------------------------------------------------------------------------------
 /sie sind der auserwählte/iu
 
@@ -365,6 +351,24 @@
 
 # Testing
 /testen.{1,10}gewinnen/i
+
+# Surveys
+# ------------------------------------------------------------------------------
+/beantworten.{1,10}bevor wir die belohnung/i
+/beantworten.{1,10}sie unsere befragung/i
+/beantworten.{1,10}sie.{1,20}einige fragen/i
+
+/exklusive.{1,10}umfragebelohnung/i
+
+/sie eine kurze umfrage/i
+
+/meinung ab.{1,10}verdiene eine belohnung/i
+/nehmen sie an dieser.{1,10}umfrage teil/i
+
+/umfrage.{1,10}gewinn/i
+/umfrage.{1,10}verdienen sie ihre/i
+
+/teilnehmer werden.{1,20}belohnung.{1,10}erhalten/i
 
 # Winning, Products
 # ------------------------------------------------------------------------------

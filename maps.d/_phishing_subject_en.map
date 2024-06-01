@@ -68,11 +68,11 @@
 
 /payment for your (package|parcel|shipment)/i
 
-# Surveys
-# ------------------------------------------------------------------------------
-/survey for.{1,15}rewards/i
+#
+#
+#
 
-# Winning, Free stuff, Surveys
+# Rewards
 # ------------------------------------------------------------------------------
 /confirm.{1,10}receipt.{1,10}win/i
 
@@ -80,6 +80,10 @@
 /exclusive offer.{1,10}survey/i
 
 /life.?changing gift/i
+
+# Surveys
+# ------------------------------------------------------------------------------
+/survey for.{1,15}rewards/i
 
 # Winning, Products
 # ------------------------------------------------------------------------------
