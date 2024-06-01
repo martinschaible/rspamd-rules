@@ -139,59 +139,6 @@
 # ------------------------------------------------------------------------------
 /legal in Ihrem Namen beanspruchen/i
 
-# Partnership, Business, Proposal
-# ------------------------------------------------------------------------------
-/angebot für eine.{1,10}geschäfts.?partnerschaft/iu
-
-/sie.{1,10}zu kontaktieren.{1,10}um ein geschäft/iu
-
-/geschäft für sie.{1,10}kontaktieren sie mich/iu
-/geschäft im wert von.{1,15}millionen.{1,10}zu besprechen/iu
-
-/geschäfts.?angebot im wert von.{1,10}millionen.{1,10}(dollar|euro?|gbp|usd)/i
-/geschäfts.?vorschlags?.{1,10}ich mit ihnen teilen/i
-/geschäfts.?vorschlags?.{1,10}sie interessiert sind/i
-/geschäfts.?vorschlags?.{1,10}zu kontaktieren/iu
-/Geschäfts.?vorschlags?.{1,10}von dem wir.{1,10}profitieren/i
-
-/geschäfts.?partnerschaft.{1,10}kontaktieren sie mich/i
-
-/beide seiten vorteilhaftes geschäft im wert von/iu
-
-/kontaktiere sie.{1,15}eines.{1,10}geschäftsvorschlags/iu
-
-/ich brauche ihre.{1,10}partnerschaft/i
-/ich ein.{1,10}(lukratives|profitables).{1,10}geschäftsangebot/iu
-/ich habe einen.{1,10}(vorteilhaften|wichtigen).{1,10}vorschlag/i
-
-/ich habe ein.{1,15}geschäft für sie/iu
-/ich habe ein.{1,15}(lukratives|profitables).{1,10}angebot für sie/iu
-/ich habe ein.{1,15}geschäfts?.{1,15}das ich.{1,10}mit ihnen/i
-
-/ich habe ein(en)?.{1,15}geschäfts?.?(angebot|vorschlag)/iu
-
-/ich mit ihnen ein.{1,10}geschäft machen/iu
-/ich suche einen.{1,10}vertrauenswürdigen partner/iu
-
-/ihnen.{1,10}ein.{1,10}gutes geschäft zu sprechen/iu
-/ihnen.{1,10}eine.{1,10}geschäftsmöglichkeit mitteilen/iu
-/ihnen.{1,10}einen.{1,15}geschäfts.?vorschlag (im Wert von|mitteilen)/iu
-/ihnen.{1,10}einen.{1,15}(guten|wertvollen) geschäfts.?vorschlag/iu
-
-/aufmerksamkeit.{1,10}einen deal/i
-/antworten sie für weitere details/iu
-
-/rendite bietet.{1,15}kontaktieren sie mich/i
-
-/geschäfts.?vorschlag.{1,10}schreiben sie.{1,10}meine e?.?mail/iu
-
-/meine vorherige.{1,10}e?.?mail erhalten.{1,10}ich habe ein.{1,10}profitables/i
-
-/vorschlag im wert von.{1,10}millionen.{1,10}(dollar|euro?|gbp|usd)/i
-/bespreche ich mit ihnen einen.{1,10}vorschlag.{1,10}der.{1,15}von interesse/i
-
-/projekt.{1,10}sie mit mir abwickeln können/iu
-
 # Payments, Compensations
 # ------------------------------------------------------------------------------
 /ich überweise ihnen den betrag von.{1,10}(million|dollar|euro?|gbp|usd)/i
@@ -310,7 +257,10 @@
 # ------------------------------------------------------------------------------
 /für die veröffentlichung.{1,10}im branchen.?buch/iu
 
-# Greencard
+# Gold
+# ------------------------------------------------------------------------------
+
+# Greencard, Immigration
 # ------------------------------------------------------------------------------
 
 # Illuminati
@@ -332,8 +282,7 @@
 
 # Vaccine damage
 # ------------------------------------------------------------------------------
-/haben Sie einen Impfschaden erlitten/i
-
+/haben sie einen impfschaden erlitten/i
 /heilmittel.{1,25}kostet einmalig.{1,15}euro/i
 
 /euro.{1,10}corona.{1,10}haftentschädigung/i
