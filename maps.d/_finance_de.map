@@ -66,7 +66,7 @@
 /sie benötigen.{1,10}günstig.{1,15}(darlehen|kredit)/iu
 /sie einen.{1,15}sofortkredit/i
 
-/sie.{1,15}(dringend|heute).{1,15}ein(en)?.{1,15}(darlehen|kredit)/iu
+/sie.{1,15}(dringend|heute|interesse).{1,15}ein(en)?.{1,15}(darlehen|kredit)/iu
 
 /sie einen seriösen.{1,10}zuverlässigen.{1,10}kreditgeber/iu
 
@@ -155,8 +155,10 @@
 
 /sie finanzielle.{1,10}unterstützung benötigen/i
 
-/wir bieten finanzierungen bereits ab/i
-/wir bieten finanzdienstleistungen/i
+/unser.{1,10}finanzierungsprogramm/i
+
+/wir bieten.{1,10}finanzierungen bereits ab/i
+/wir bieten.{1,10}finanzdienstleistungen/i
 
 /wir sind ein privates kredit/i
 /wir sind eine.{1,20}kapitalanlagegesellschaft/i

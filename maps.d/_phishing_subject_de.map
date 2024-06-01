@@ -398,6 +398,7 @@
 # ------------------------------------------------------------------------------
 /(belohnung|gutschein).{1,10}(freigeschaltet|ist zum versenden|wartet sie)/i
 
+/bestätigen sie ihr geschenk/iu
 /erhalten sie.{1,10}(belohnung|gutschein)/i
 /exklusive.{1,10}belohnungen.{1,40}(kostenlos|umfrage)/i
 

@@ -92,10 +92,9 @@
 # E-Mail active/correct
 # ------------------------------------------------------------------------------
 /ist.{1,10}ihre gültige e?.?mail/iu
-/ist diese.{1,10}e?.?mail.?adresse noch aktiv/i
-/ist diese.{1,10}e?.?mail noch gültig/iu
+/ist diese.{1,10}e?.?mail.{1,10}noch (aktiv|gültig)/iu
 
-/funktioniert ihre e?.?mail noch/i
+/funktioniert ihre e?.?mail.{1,10}noch/i
 
 /(ch|de|org).{1,10}ihr gültiges/iu
 

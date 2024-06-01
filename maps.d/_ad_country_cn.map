@@ -382,7 +382,8 @@ we.?a?re.{1,20}export trading company/i
 
 # Molding
 # ------------------------------------------------------------------------------
-/our.{1,15}(company|factory) provides.{1,10}customized plastic/i
+/our.{1,15}(company|factory).{1,10}provides.{1,10}customized plastic/i
+/our (injection|mold|molding).{1,10}manufacturing.{1,10}services/i
 
 /handle injection mold(ing)? projects/i
 /plastic injection mold(ing)? manufacturer/i
