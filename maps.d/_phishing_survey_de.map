@@ -1,0 +1,53 @@
+ ==============================================================================
+# Phishing: Surveys
+#
+# ----|----------------|
+#  10 | German         |
+# ==============================================================================
+
+# Surveys
+# ------------------------------------------------------------------------------
+/umfrage.{1,10}aus.{1,10}und.{1,10}sie ihren gewinn/i
+/umfrage.{1,10}beantworten/i
+/umfrage.{1,10}eine belohnung/i
+/umfrage.{1,10}gewinnen sie/i
+/umfrage.{1,10}registrierung.{1,10}bestätigt/i
+/umfrage.{1,10}schenkt ihnen ein/i
+
+/beantworten sie.{1,10}unseren.{1,10}fragebogen/i
+/beantworten sie.{1,15}fragen.{1,25}erhalten sie.{1,10}geschenk/i
+/beantworten sie.{1,15}fragen.{1,10}gewinnen/i
+
+/fragen.{1,10}alle teilnehmer haben die chance auf/i
+/fragen.{1,10}zu beantworten.{1,10}bevor wir die belohnung/i
+
+/feedback.{1,10}erhalten sie eine belohnung/i
+
+/sie.{1,10}(dazu|einfach).{1,10}diese kurze umfrage/i
+/sie haben.{1,10}minuten.{1,10}um die folgenden fragen zu beantworten/i
+/sie wurden ausgewählt.{1,10}um an unserer umfrage/iu
+
+/auserwählten.{1,10}(die|eine).{1,15}umfrage/iu
+/an unserer kurzen.{1,10}umfrage teilzunehmen/i
+/befragung.{1,10}erhalten sie ein.{1,10}geschenk/i
+/einige fragen.{1,10}erhalten.{1,10}sie ihr/i
+/geltend zu machen.{1,10}nehmen sie.{1,15}an dieser.{1,10}umfrage/i
+/kostenlos.{1,10}es dauert nur eine minute/i
+/wurde ihre e?.?mail.?adresse ausgewählt/iu
+
+/lohnenswerten?.{1,10}umfrage.{1,10}teilzunehmen/i
+
+/ihr name wurde für.{1,15}umfrage zu.{1,20}vorgeschlagen/iu
+
+#
+#
+#
+
+# Unclassified
+# ------------------------------------------------------------------------------
+
+# Masked
+# ------------------------------------------------------------------------------
+
+# Bad German
+# ------------------------------------------------------------------------------

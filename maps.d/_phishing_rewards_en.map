@@ -5,3 +5,37 @@
 #  10 | English        |
 # ==============================================================================
 
+# Winning, Present, Rewards
+# ------------------------------------------------------------------------------
+/your gift is inside/i
+
+/gift.?card.{1,10}opportunity/i
+
+/exclusive.{1,10}reward offer.{1,10}participating/i
+
+/opportunities.{1,10}claim rewards/i
+/you can earn special rewards/i
+
+# Companies, Products
+# ------------------------------------------------------------------------------
+/(ace hardware|costco).{1,10}has.{1,10}surprise for you/i
+/(ace hardware|costco).{1,10}reward has arrived/i
+
+/dewalt.{1,15}rdrill.{1,10}confirmation/i
+/pay.?pal.{1,10}rewards/i
+
+# Choosen
+# ------------------------------------------------------------------------------
+
+# Possible winner
+# ------------------------------------------------------------------------------
+
+#
+#
+#
+
+# Unclassified
+# ------------------------------------------------------------------------------
+
+# Masked
+# ------------------------------------------------------------------------------

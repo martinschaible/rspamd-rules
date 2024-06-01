@@ -5,3 +5,107 @@
 #  10 | German         |
 # ==============================================================================
 
+# Winning, Present, Rewards
+# ------------------------------------------------------------------------------
+/gewinn.{1,10}innerhalb von.{1,10}stunden erhalten/i
+/gewinn.{1,10}sichern.{1,10}nehmen sie an unserer umfrage teil/i
+
+/gewinner.{1,10}daten eingeben/i
+/gewinnern.{1,10}geschenks ausgewählt/iu
+
+/gewinnenden preise.{1,10}begrenzt/i
+
+/chance.{1,10}von.{1,20}gutschein zugewinnen/i
+/chance.{1,10}von.{1,20}wunschgutscheinen/i
+
+/geschenke?.{1,10}in anspruch zu nehmen.{1,10}antworten sie/i
+/geschenke?.{1,10}in beschränkter zahl verfügbar/iu
+/geschenke?.{1,10}sie verfügbar sind/iu
+/geschenke?.{1,10}für sie.{1,10}sie ausgewählt wurden/iu
+
+/gutschein.{1,15}sie hinterlegt wurde/i
+/gutschein.{1,10}unverbindlich anfordern/i
+
+#
+/\d{2,3}.{1,10}gutschein auf sie wartet/i
+
+/erhalten sie ihr geschenk innerhalb von.{1,10}stunden/i
+
+/sich ihr kostenloses geschenk/i
+
+/sie haben eine kostenlose.{10,25}gewonnen/i
+/sie sind unser gewinner.{1,15}belohnung/i
+
+/(gratis|kostenlos).{1,10}guthabenkarte/i
+/besuchen sie unser gewinnerportal/i
+/lieber kunde.{1,15}belohnung abholen/i
+/werbegeschenke zu gewinnen/i
+
+# Link
+/klicken sie hier.{1,10}um einen anspruch/i 
+/klicken sie hier.{1,10}um die belohnung/i
+/hier klicken.{1,10}\d{2,3}.{1,15}gutschein/i
+
+# Companies, Products
+# ------------------------------------------------------------------------------
+/kaufland.{1,10}company/i
+/team.{1,10}kaufland/i
+
+# Airdrop
+/exklusiven airdrop.?(aktion|gelegenheit)/i
+/airdrop.{1,10}zu ergattern/i
+
+# iPhone
+/iphone.{0,10}pro.{1,10}ausstehende sendung/i
+/ihr brandneues.{1,10}iphone.{0,10}pro wartet/i
+/jubiläums?.{1,10}erhalten sie.{1,10}iphone/i
+/sie haben ein.{1,10}iphone.{0,10}pro gewonnen/i
+/wir verlosen ein iphone.{1,10}im gesamtwert/i
+
+# Samsung
+/hole? dir jetzt dein samsung/i
+
+#
+/du hast ein brandneues.{1,20}bekommen/i
+
+# Choosen
+# ------------------------------------------------------------------------------
+/auserwählt.{1,10}für das.{1,10}gewinnspiel/i
+
+/herzlichen glückwunsch.{1,10}sie wurden ausgewählt/iu
+/(du|sie) (gehören|gehörst) zu den.{1,10}auserwählten/iu
+/du bist der erste unter vielen/i
+
+/sie wurden für eine.{1,15}belohnung ausgewählt/iu
+/sie wurden ausgewählt.{1,10}an unserem treueprogramm/iu
+
+# Possible winner
+# ------------------------------------------------------------------------------
+/chance einen.{1,15}gutschein zugewinnen/i
+/finalisten für ein gratis.{1,15}probierpaket/iu
+/(einer|gehören zu).{1,10}unserer möglichen finalisten/iu
+/(exklusive|sichere).{1,10}chance auf ein.{1,15}produktpaket/i
+
+/ihre chance auf eine kostenlose/i
+/sie als möglicher gewinner/iu
+/sie haben.{1,10}die chance.{1,10}eine.{1,60}im wert von.{1,10}zu gewinnen/i
+
+#
+#
+#
+
+# Unclassified
+# ------------------------------------------------------------------------------
+/bestätigung.{1,10}ihre bestellung zu (versenden|verschicken)/iu
+/gewinnerteam/i
+/sie haben noch nicht geantwortet/i
+
+# Masked
+# ------------------------------------------------------------------------------
+
+# Bad German
+# ------------------------------------------------------------------------------
+/einlöseplattform/iu
+/einlöseportal/iu
+/geschenkkartencode/i
+/kundenportal.?team/i
