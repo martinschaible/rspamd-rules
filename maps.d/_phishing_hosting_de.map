@@ -8,12 +8,18 @@
 # Domains
 # ------------------------------------------------------------------------------
 /domain.{5,30}ihrer firma.{1,10}mit der dieses e?.?mail.?konto/i
+/domain.{1,10}ihrer firma.{1,10}mit der dieses e?.?mail.{1,10}verbunden ist/i
 /domain\*_.{5,30}_\*/i
 
 /ihre domain aufgrund eines zahlungsproblems zu verlängern/iu
 /informiert.{1,10}dass ihr domainname/i
 
+/lieber kunde.{1,10}ihr domainname/i
+
 /festgestellt.{1,10}ihr domain.?name abgelaufen ist/i
+
+# Registrar
+# ------------------------------------------------------------------------------
 
 # Storage
 # ------------------------------------------------------------------------------
@@ -26,15 +32,6 @@
 
 /sehr geehrter kunde.{1,10}ihr.{1,15}speicher ist voll/i
 
-# Domains
-# ------------------------------------------------------------------------------
-/domain.{1,10}ihrer firm.{1,10}mit der dieses e?.?mail.{1,10}verbunden ist/i
-
-/lieber kunde.{1,10}ihr domainname/i
-
-# Registrar
-# ------------------------------------------------------------------------------
-
 # Fake Warning
 # ------------------------------------------------------------------------------
 /bestätigen sie.{1,10}dass sie nicht von ihnen gesendet wurden/i
@@ -43,15 +40,12 @@
 #
 #
 
-# Bad german
-# ------------------------------------------------------------------------------
-/abgelaufen ist und trotz unseres vorherigen besuchs/i
-
 # Unclassified
 # ------------------------------------------------------------------------------
 
 # Masked
 # ------------------------------------------------------------------------------
 
-# Bad German
+# Bad german
 # ------------------------------------------------------------------------------
+/abgelaufen ist und trotz unseres vorherigen besuchs/i
