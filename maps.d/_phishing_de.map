@@ -79,155 +79,6 @@
 # Train ticket
 /erstattungsticket akzeptiert/i
 
-# Surveys
-# ------------------------------------------------------------------------------
-/befragung.{1,10}erhalten sie ein.{1,10}geschenk/i
-
-/fragen.{1,10}alle teilnehmer haben die chance auf/i
-/fragen.{1,10}zu beantworten.{1,10}bevor wir die belohnung/i
-
-/beantworten sie unseren.{1,10}fragebogen/i
-/beantworten sie ein paar fragen.{1,10}gewinnen/i
-
-/einige fragen und erhalten.{1,10}sie ihr/i
-
-/umfrage aus.{1,10}und.{1,10}sie ihren gewinn/i
-/umfrage beantworten/i
-/umfrage.{1,10}eine belohnung/i
-/umfrage.{1,10}gewinnen sie/i
-
-/an unserer kurzen umfrage teilzunehmen/i
-
-/geltend zu machen.{1,10}nehmen sie.{1,15}an dieser.{1,10}umfrage/i
-
-/kostenlos.{1,10}es dauert nur eine minute/i
-
-/sie wurden ausgewählt.{1,10}um an unserer umfrage/iu
-
-/wurde ihre e?.?mail.?adresse ausgewählt/iu
-
-# Winning, Free stuff
-# ------------------------------------------------------------------------------
-/gewinn.{1,10}innerhalb von.{1,10}stunden erhalten/i
-/gewinn.{1,10}sichern.{1,10}nehmen sie an unserer umfrage teil/i
-
-/gewinner.{1,10}daten eingeben/i
-/gewinnern.{1,10}geschenks ausgewählt/iu
-
-/gewinnenden preise.{1,10}begrenzt/i
-
-/chance.{1,10}von.{1,20}gutschein zugewinnen/i
-/chance.{1,10}von.{1,20}wunschgutscheinen/i
-
-/geschenke?.{1,10}in anspruch zu nehmen.{1,10}antworten sie/i
-/geschenke?.{1,10}in beschränkter zahl verfügbar/iu
-/geschenke?.{1,10}sie verfügbar sind/iu
-/geschenke?.{1,10}für sie.{1,10}sie ausgewählt wurden/iu
-
-/\d{2,3}.{1,10}gutschein auf sie wartet/i
-
-/werbegeschenke zu gewinnen/i
-
-/besuchen sie unser gewinnerportal/i
-/lieber kunde.{1,15}belohnung abholen/i
-
-/du bist der erste unter vielen/i
-
-/hier klicken.{1,10}\d{2,3}.{1,15}gutschein/i
-
-/unsere.{1,10}gewinner des brandneuen/i
-
-/finalisten für ein gratis.{1,15}probierpaket/iu
-/(einer|gehören zu).{1,10}unserer möglichen finalisten/iu
-/(exklusive|sichere).{1,10}chance auf ein.{1,15}produktpaket/i
-
-/sich ihr kostenloses geschenk/i
-
-/sie als möglicher gewinner/iu
-/sie haben eine kostenlose.{10,25}gewonnen/i
-/sie sind unser gewinner.{1,15}belohnung/i
-
-/sie wurden für eine.{1,15}belohnung ausgewählt/iu
-/sie wurden ausgewählt.{1,10}an unserem treueprogramm/iu
-
-/verlosung teilzunehmen.{1,10}musst du dich.{1,15}(einfach|nur).{1,15}hier eintragen/i
-
-/kein geld erforderlich.{1,10}teilnahme ist kostenlos/i
-
-/ihre chance auf eine kostenlose/i
-
-/(gratis|kostenlos).{1,10}guthabenkarte/i
-
-# Link
-/klicken sie hier.{1,10}um einen anspruch/i 
-/klicken sie hier.{1,10}um die belohnung/i
-
-# Survey
-/umfrage.{1,10}registrierung.{1,10}bestätigt/i
-/umfrage.{1,10}schenkt ihnen ein/i
-
-/umfrage teil.{1,10}gewinnen sie tolle preise/i
-
-/lohnenswerten?.{1,10}umfrage.{1,10}teilzunehmen/i
-
-/beantworten sie einige fragen.{1,25}erhalten sie ihr geschenk/i
-
-/sie.{1,10}(dazu|einfach).{1,10}diese kurze umfrage/i
-/sie haben.{1,10}minuten.{1,10}um die folgenden fragen zu beantworten/i
-
-/auserwählten für das.{1,10}gewinnspiel/i
-/auserwählten für (die|eine).{1,15}umfrage/iu
-/(du|sie) (gehören|gehörst) zu den.{1,10}auserwählten/iu
-
-/ihr feedback.{1,10}erhalten sie eine belohnung/i
-/ihr name wurde für.{1,15}umfrage zu.{1,20}vorgeschlagen/iu
-
-/im wert von.{1,15}zu gewinnen.{1,15}machen sie.{1,10}mit/i
-
-/herzlichen glückwunsch.{1,10}sie wurden ausgewählt/iu
-
-/bestätigung.{1,10}ihre bestellung zu (versenden|verschicken)/iu
-
-# Product test
-/zum kostenlosen produkt.?test/i
-
-# Companies
-/kaufland.{1,10}company/i
-/team.{1,10}kaufland/i
-
-/gewinnerteam/i
-
-#
-/gutschein.{1,15}sie hinterlegt wurde/i
-/gutschein.{1,10}unverbindlich anfordern/i
-
-# Winning, Products
-# ------------------------------------------------------------------------------
-/jubiläums?.{1,10}erhalten sie.{1,10}iphone/i
-/ihr brandneues.{1,10}iphone.{0,10}pro wartet/i
-/sie haben ein.{1,10}iphone.{0,10}pro gewonnen/i
-/wir verlosen ein iphone.{1,10}im gesamtwert/i
-
-/du hast ein brandneues.{1,20}bekommen/i
-
-/iphone.{0,10}pro.{1,10}ausstehende sendung/i
-
-#
-/hole? dir jetzt dein samsung/i
-
-/exklusiven airdrop.?(aktion|gelegenheit)/i
-/airdrop.{1,10}zu ergattern/i
-
-#
-/gewinnen sie.{1,10}mit unserer.{1,10}temu.?palette/i
-
-/sie haben noch nicht geantwortet/i
-/sie haben jetzt die chance.{1,10}eine.{1,60}im wert von.{1,10}zu gewinnen/i
-/chance einen.{1,15}gutschein zugewinnen/i
-
-#
-/erhalten sie ihr geschenk innerhalb von.{1,10}stunden/i
-
 # Failed Payment
 # ------------------------------------------------------------------------------
 /abonnements?.{1,10}die zahlung wurde abgelehnt/i
@@ -319,8 +170,6 @@
 /dringende handlung erforderlich/i
 /aktion erforderlich.{1,10}wir sind.{1,20}nicht in der lage/i
 
-/kundenportal.?team/i
-
 # Masked
 # ------------------------------------------------------------------------------
 
@@ -328,9 +177,6 @@
 # ------------------------------------------------------------------------------
 /aktualisieren sie ihre.{1,10}zahlungen/i
 
-/einlöseplattform/iu
-/einlöseportal/iu
-/Geschenkkartencode/i
 /in erwartung einer lieferung/i
 /sie auf die e.?sicheren bereich/i
 /wir mussen eine sepa.?zahlung/i

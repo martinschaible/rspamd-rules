@@ -102,49 +102,9 @@
 
 /chinese brand name some domain/i
 
-# Surveys
-# ------------------------------------------------------------------------------
-/survey.{1,10}you will receive a.{1,10}gift/i
-/survey.{1,10}get a free gift/i
-/survey.{1,10}to claim your/i
-
-/complete our.{1,10}survey.{1,10}receive.{1,10}free/i
-/conducting.{1,10}sponsored.{1,10}online.{1,10}survey/i
-
-/special offer.{1,15}complete our.{1,15}marketing.{1,10}survey/i
-
-/selected.{1,10}receive.{1,10}exclusive.{1,10}offer/i
-
-/you need to do.{1,10}complete.{1,10}quick online.{1,10}survey/i
-
-# Winning, Free stuff
-# ------------------------------------------------------------------------------
-/your gift is inside/i
-
-/gift.?card.{1,10}opportunity/i
-
-/survey.{1,10}for a.{1,20}gift.?card/i
-
-/(ace hardware|costco).{1,10}has.{1,10}surprise for you/i
-/(ace hardware|costco).{1,10}reward has arrived/i
-
-/dewalt.{1,15}rdrill.{1,10}confirmation/i
-
-/exclusive.{1,10}reward offer.{1,10}participating/i
-
-/opportunities.{1,10}claim rewards/i
-/you can earn special rewards/i
-
-# Winning, Products
-# ------------------------------------------------------------------------------
-/pay.?pal.{1,10}rewards/i
-
 # Failed Payment
 # ------------------------------------------------------------------------------
 /dear customer.{1,10}we noticed that your.{1,15}payment method/i
-
-# Rewards
-# ------------------------------------------------------------------------------
 
 # Subscriptions
 # ------------------------------------------------------------------------------
