@@ -1,5 +1,5 @@
 # ==============================================================================
-# Phishing: Related to Hosting and EMail
+# Phishing: Hosting
 #
 # ----|----------------|
 #  10 | German         |
@@ -14,21 +14,6 @@
 /informiert.{1,10}dass ihr domainname/i
 
 /festgestellt.{1,10}ihr domain.?name abgelaufen ist/i
-
-# Mail
-# ------------------------------------------------------------------------------
-/sie haben.{1,10}nicht zugestellte wichtige.{1,10}(e?.?mails|nachrichten)/i
-/sie haben.{1,10}ausstehende.{1,15}(e?.?mails|nachrichten)/i
-
-/postfach ist.{1,10}voll.{1,15}aktualisieren sie ihr/i
-
-/nachrichten.{1,10}aufgrund eines speicherfehlers/i
-
-# Mail Confirm, Verify
-# ------------------------------------------------------------------------------
-
-# WebMail
-# ------------------------------------------------------------------------------
 
 # Storage
 # ------------------------------------------------------------------------------
