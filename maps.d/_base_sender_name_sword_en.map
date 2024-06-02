@@ -1,0 +1,35 @@
+# ==============================================================================
+# Base: Sender - Name. Just a single word
+#
+# ----|----------------|
+#  10 | English        |
+# ==============================================================================
+
+# One word only
+# ------------------------------------------------------------------------------
+
+# Health
+/(/cancer|playboy)$/i
+
+# Make Money
+/(bit?coin|krypto)$/i
+
+# Phishing
+/fedex$/i
+
+# Sales
+/rolex$/i
+
+# Scam
+/donation$/i
+
+# Unclassified
+/(mail|urgent|warning)$/i
+
+#
+#
+#
+
+# Companies and Organisations
+# ------------------------------------------------------------------------------
+/(apple|lidl|microsoft|migros|pfizer|rewe|spotify)$/i

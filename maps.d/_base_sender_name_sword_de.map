@@ -1,0 +1,28 @@
+# ==============================================================================
+# Base: Sender - Name. Just a single word
+#
+# ----|----------------|
+#  10 | German         |
+# ==============================================================================
+
+# One word only
+# ------------------------------------------------------------------------------
+/versand$/i
+/wichtig$/i
+
+# Health
+/(apo|apotheke|apothke|doktor)$/i
+/(tabletten|pillen)$/i
+/testsieger$/i
+
+# Make Money
+/beratung/i
+
+# Phishing
+/datenschutz$/i
+/kundenbetreuung$/i
+
+# Sales
+/drucker$/i
+
+
