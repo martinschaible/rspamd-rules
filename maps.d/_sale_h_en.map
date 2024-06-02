@@ -1,0 +1,134 @@
+# ==============================================================================
+# Sale: Anything, Score level HIGH
+#
+# ----|----------------|
+#  10 | English        |
+# ==============================================================================
+
+# Cushion
+# ------------------------------------------------------------------------------
+/(comfortable|our|seat).{1,10}cushion/i
+/revolutionary way to sit/i
+/cushion.{1,10}revolutionize/i
+
+# E-Bike
+# ------------------------------------------------------------------------------
+/e(lectric)?.{0,10}(bicycle|bike).{1,10}currently in stock/i
+/e(lectric)?.{0,10}(bicycle|bike).{1,10}available/i
+
+/our e(lectric)?.{0,10}(bicycle|bike)/i
+/our latest e(lectric)?.{0,10}(bicycle|bike)/i
+
+/pioneering e(lectric)?.{0,10}(bicycle|bike).{1,10}factory/i
+
+/(leading|professional).{1,10}e(lectric)?.?(bicycle|bike).{0,10}(factory|manufacturer)/i
+/our e(lectric)?.{0,10}(bicycle|bike).{1,10}(apart|boasts|currently|factory)/i
+
+/bike from our inventory/i
+
+/our.{1,10}(european|german).{1,10}(facility|warehouse)/i
+
+# Glasses
+# ------------------------------------------------------------------------------
+/night vision glasses/i
+/see clearer with this/i
+/get clear.?view/i
+/clear.?view now/i
+
+# Tracker
+# ------------------------------------------------------------------------------
+
+# Knives
+# ------------------------------------------------------------------------------
+/huusk.{1,10}(can provide|handmade|knives)/i
+
+/the sharpest kitchen knife/i
+/get.{1,10}off.{1,10}huusk/i
+
+# Monocular
+# ------------------------------------------------------------------------------
+/portable monocular with/i
+/new tactical zoom/i
+
+# Streaming TV
+# ------------------------------------------------------------------------------
+/\d{3,4}.{1,10}worldwide.channels/i
+
+/live channels.{1,10}movies.{1,10}series/i
+/movies.{1,10}series.{1,10}subscribe now/i
+
+/netflix.{1,10}hbomax.{1,10}amazonprime/i
+/hbomax.{1,10}amazonprime.{1,10}appletv/i
+/amazonprime.{1,10}appletv.{1,10}disney/i
+
+/be an iptv.?reseller/i
+/join iptv.{1,10}now/i
+/welcome to iptv/i
+/promotion.{1,10}our iptv/i
+
+# Tracker
+# ------------------------------------------------------------------------------
+
+# Watches, Replicas
+# ------------------------------------------------------------------------------
+/rolex.?watch(es)?.{1,10}start at/i
+/rolex.?watch(es)?.{1,10}up to.{1,10}off/i
+
+/designer watches.{1,10}unbeatable prices/i
+/discount.?watches/i
+
+/louis.?vuiton.{1,10}outlet/i
+
+/luxury collections.{1,10}official/i
+
+# WiFi
+# ------------------------------------------------------------------------------
+/muama.{0,5}ryoko/i
+
+/wifi.{1,10}anywhere.{1,10}anytime/i
+
+#
+#
+#
+
+# Properties
+# ------------------------------------------------------------------------------
+# No rule fires. Rspamd fails completly
+
+/(finest|ultimate).{1,10}luxury.{1,15}properties/i
+
+/luxury.{1,15}property.{1,10}finding/i
+/property.{1,10}finding.{1,10}service/i
+
+/exquisite luxury (penthouses|villas).{1,10}apartments/i
+/luxury home buyers locate/i
+/qualified buyers can apply/i
+
+/arrange viewings over.{1,15}(skype|wechat)/i
+
+/we.{1,15}find you the right property/i
+/we.{1,10}offer{1,15}luxury.{1,10}properties/i
+
+# Software (illegal)
+# ------------------------------------------------------------------------------
+/office.{1,15}(plus|professional).{1,10}license key to download/i
+
+#
+#
+#
+
+# Unclassified
+# ------------------------------------------------------------------------------
+/i work for.{1,10}company who provides/i
+
+# Masked
+# ------------------------------------------------------------------------------
+
+#
+#
+#
+
+# FRENCH
+# ------------------------------------------------------------------------------
+/le fichier des professionnels en/i
+/euros pour.{1,10}\d{2,3}.{1,10}emails/i
