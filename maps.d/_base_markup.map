@@ -1,0 +1,44 @@
+# ==============================================================================
+# Base: Markup
+#
+# ----|
+#  10 |
+# ==============================================================================
+
+# Hidden link
+# ------------------------------------------------------------------------------
+# Sample: <a style="display:none;" href="http://irelatilized.jp.net/4O0c084nml0mp3rr-8trgsi1wqt1qt1mstra600001" >.</a
+/<a style=(3d)?"display:none;".{1,10}href=(3d)?.?http:\/\//i
+
+# Hidden Text
+# ------------------------------------------------------------------------------
+/<font style=(3d)?"color:transparent;.?font-size:0px">/i
+/<font color=(3d)?"#ffffff">[a-z]<\/font>/i
+
+# Filler text
+# ------------------------------------------------------------------------------
+# White color and small font size
+/<(div|span) style=(3d)?"color:.?#ffffff;.?font-size:.?[1-7]]px;">/i
+
+# Small font size
+/<p style=(3d)?"text-align:.?§right;"><span style=(3d)?"font-size:.?8px;">/i
+
+# Strange stuff
+# ------------------------------------------------------------------------------
+/http:=(3d)?"" microsoft\.com=(3d)?""/i
+
+# Used as prefix of a word.
+/<span style=(3d)?"color: rgb(255,255,255)">\w<\/span>/i
+
+#
+/&shy;&shy;ut&shy;&shy;&shy/i
+
+# 
+/<cite style=(3d)?"font-size: 0px;">/i
+
+# Strange colors
+# ------------------------------------------------------------------------------
+/sans-serif;color:red/i
+
+# Images
+# ------------------------------------------------------------------------------

@@ -1,0 +1,76 @@
+# ==============================================================================
+# Base: Files
+#
+# ----|----------------|
+#  10 | English        |
+# ==============================================================================
+
+# Files
+# ------------------------------------------------------------------------------
+/\/(red|web)\.(html|php)/i
+/\/red1\.(html|php)/i
+
+/\/url\.html/i
+/\/redirect\.html/i
+
+
+/[a-z]{0,10}keto[a-z]{0,10}\.html/i
+
+/milf.?\d\.jpg/i
+/invoice\.s?html/i
+
+/amazon[a-z0-9]{0,10}\.(html|php)/i
+
+/avast\.html/i
+/dating\.html/i
+/bitcoin\.html/i
+/mail\.html/i
+/moviepark\.html/i
+/rooster\.html/i
+/invest(ment)?\.(html|php)/i
+
+# It's silly to blacklist names. But they are very repetitive
+/marlene\.jpg/i
+/mature.?\d?\.jpg/i
+
+#
+#
+#
+
+# Samples: redsdfirect.html
+#          redisdfrect.html
+#          redirdsfect.html
+#          sfsdfect.html
+/(red|sfs)[a-z]{2,5}ect\.html/i
+
+# Samples: sdfrect.html
+#          sdfsdfirect.html
+#          sdfsdirect.html
+#          sdfsdfct.html
+#          qsdrect.html
+#           dfgect.html
+/sdf\[a-z]{4,6}.html/i
+
+/\/[a-z]{3,4}ect\.html/i
+
+# Files with a very long filename
+# ------------------------------------------------------------------------------
+
+# Sample: qsdvqzergvqsdvqezrgiouvqqsdvqzevmsdvqsd/qsdvqsdvqsdvqsdvqsdvrtg.html#sdqsdvdvqsdvqdv.html?
+#/\/[a-z0-9]{15,65}\.html?/i
+
+# Sample: /OOKEJDMMMMSJEUUDJJSH_HSYEGDY.html
+#\/[a-z]{5,25}_[a-z]{4,15}\.html/i
+
+# Files with strange names
+# ------------------------------------------------------------------------------
+
+# Sample: 2.......HTM
+#/\d[\.]{2,10}\.html?/i
+
+#
+#
+#
+
+# Unclassified
+# ------------------------------------------------------------------------------

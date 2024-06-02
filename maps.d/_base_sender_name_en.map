@@ -1,0 +1,141 @@
+# ==============================================================================
+# Base: Sender - Name
+#
+# ----|----------------|
+#  10 | English        |
+# ==============================================================================
+
+# Fake Departments or Companies
+# ------------------------------------------------------------------------------
+/google.?(claim|inc|llc|team)/i
+
+/i\.m\.f/i
+
+# Strange senders
+# ------------------------------------------------------------------------------
+/info@gmail\.com/i
+
+/attorney at law/i
+/(barrister|diplomat|sergeant)/i
+/executive.?director/i
+/purchase.?manager/i
+
+#
+#
+#
+
+# Casino, Gambling
+# ------------------------------------------------------------------------------
+/casino..{0,10}(deal|team|you)/i
+/casino4/i
+
+/lucky.?(spins?|splns?)/i
+
+/free.?spins/i
+
+# Mortgage
+# ------------------------------------------------------------------------------
+/mortgage.{0,10}(alert|assist|home)/i
+
+# Stocks
+# ------------------------------------------------------------------------------
+
+# Winning, Lottery
+# ------------------------------------------------------------------------------
+/(australia|award|coca.?cola|google|international|usa|uk).?(lotterie|lottery)/i
+/(euro|mega).?(jackpot|mill?ions)/i
+/sky.?lotto/i
+
+/(central|navidad).{0,10}lott?eria/i
+
+/e.?draw$/i
+/elgordo.{0,10}primitiva/i
+/euro.?online.?lotto/i
+/award.?team/i
+
+/(lottery|microsoft).{0,10}award/i
+/lotter(ie|y).{0,10}(board|promotion|winning)/i
+
+/lott?eria.?(madrid|nacional)/i
+/lotto.?denavidad/i
+
+#
+#
+#
+
+# One word only
+# ------------------------------------------------------------------------------
+# Companies and Organisations
+/(apple|lidl|microsoft|migros|pfizer|rewe|spotify)$/i
+
+# Health
+/(/cancer|playboy)$/i
+
+# Make Money
+/(bit?coin|krypto)$/i
+
+# Phishing
+/fedex$/i
+
+# Sales
+/rolex$/i
+
+# Scam
+/donation$/i
+
+# Unclassified
+/(mail|urgent|warning)$/i
+
+#
+#
+#
+
+# Unclassified
+# ------------------------------------------------------------------------------
+
+# Date: '05/08/2023'
+/\d{2}\/\d{2}\/\d{4}/i
+
+# sample: _66230
+/_\d{2,10}$/i
+
+/b.r.e.a.k.i.n.g/i
+
+/attention/i
+/confirmation.needed/i
+/read.?this/i
+/whistleblower/i
+/you to read/i
+/revolutionary/i
+/noreplay/i
+
+# Sample: [iPad Pro]
+/\[.{5,10}\]/i
+# Sample: | Netflix Inc. |
+/\|.{5,20}\|/i
+
+# Sample: _Congrats_
+#         - Huusk Japan -
+#/(_|-).{5,20}(_|-)/i
+/_.{5,20}_/i
+
+# m e t a m a s k
+/\w \w \w \w \w \w \w/i
+
+/trading.?co/i
+
+# Sample: (1)
+/\(\d\)/i
+
+# A few question marks
+/\?\?\?/i
+
+# Sample: #89734"
+/#\d{1,5}"?$/i
+
+# Masked
+# ------------------------------------------------------------------------------
+/_winner/i
+
+# Sample: **FedEx**
+/\*\*[a-z0-9]{2,15}\*\*/i

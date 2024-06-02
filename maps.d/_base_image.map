@@ -1,0 +1,66 @@
+# ==============================================================================
+# Base: Image
+#
+# ----|
+#  10 |
+# ==============================================================================
+
+# Image with a deep path
+# ------------------------------------------------------------------------------
+# Sample: .com/20/3863/13270/UgGdXeQVQ.jpg
+#         .com/4/12522/61826/UDctgbliswq.jpg
+/\.com\/\d{1,5}\/\d{2,5}\/\d{2,5}\/[a-z]{4,20}\.(jpg|png)/i
+
+
+# Image with a very long filename and an exotic TLD
+# ------------------------------------------------------------------------------
+/\.(biz|life)\/[a-z0-9]{15,25}\.(jpg|png)/i
+
+# Image with a very long filename
+# ------------------------------------------------------------------------------
+# Sample: 
+
+# Image with a very deep path
+# ------------------------------------------------------------------------------
+# Sample: .com/20/3863/13270/UgGdXeQVQ.jpg
+/\.com\/\d{2,5}\/\d{2,5}\/\d{2,5}\/[a-z]{4,20}\.(jpg|png)/i
+
+# Image with an exotic TLD
+# ------------------------------------------------------------------------------
+/\.(sa|za)\.com\/images\/[a-z0-9]{5,25}\.(jpg|png)/i
+/\.co\.mz\/[a-z0-9]{5,25}\.(jpg|png)/i
+
+# Image with 1 pixel height
+# ------------------------------------------------------------------------------
+/\.(jpg|png)" \/><img height=(3d)?"1" src=(3d)?"http:\/\//i
+
+/<img height=(3d)?"1" src=(3d)?.?http:\/\//i
+
+# Image with 1 pixel height/width and no SSL
+# ------------------------------------------------------------------------------
+/<img width=(3d)?"1px" height=(3d)?"1px" alt=(3d)?"" src=(3d)?.?http:\/\//i
+
+# Sample: .za.com/clicks/img/tupitea.png
+/\/clicks\/img\/[a-z0-9]{5,15}\.(jpg|png)/i
+
+# Image used a text (Image only Mail)
+# ------------------------------------------------------------------------------
+# Sample: https://files.hawkbull.de/page.png
+/\.de\/page\.(jpg|png)/i
+
+# Image names
+# ------------------------------------------------------------------------------
+/\d{1,10}_img\d\.(jpg|png)/i
+
+/(mature|milf).?\d\.(jpg|png)/i
+
+/unsubscribe\.(jpg|png)/i
+
+#
+#
+#
+
+# Google
+# ------------------------------------------------------------------------------
+<img src=(3d)?.?https:\/\/drive\.google\.com/i
+<img src=(3d)?.?https:\/\/storage\.googleapis\.com/i
