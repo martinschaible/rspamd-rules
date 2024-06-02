@@ -1,0 +1,166 @@
+# ==============================================================================
+# Sale: SEO Services
+#
+# ----|----------------|
+#  10 | English        |
+# ==============================================================================
+
+# SEO
+# ------------------------------------------------------------------------------
+/seo.?(packages?|services?).{1,10}(pricing|price.?list|proposal|provider)/i
+/seo.?(packages?|services?).{1,10}include/i
+/seo.?(packages?|services?).{1,10}your.{1,15}(company|web.?site)/i
+
+/seo.?(bundle|success)/i
+/seo.?based.{1,10}web.?site design/i
+
+/seo.?expert.{1,10}manager/i
+/seo.?expert.{1,10}i can help/i
+/seo.?expert on/i
+
+/seo.?backlinks.{1,10}increase your web.?site/i
+
+/search.?engine.{1,10}i came across your web.?site/i
+
+/boost in your search ranking/i
+/boost your seo.?rank/i
+/boost your company web.?site.{1,10}ranking/i
+/boost your web.?site.{1,10}traffic/i
+
+/increase search engine rankings/i
+
+/help improve your rankings/i
+
+/full.{1,10}seo.?onsite.?services/i
+
+/comprehensive.{1,10}seo.?services?/i
+/you need.{1,10}seo.?services?/i
+/do you want.{1,10}seo/i
+/speed.?seo/i
+
+/change in your search.?ranking/i
+
+/provide.{1,10}your web.?site 1st/i
+
+/reputed seo.company/i
+
+/much lower cost.{1,10}seo/i
+
+/our full.?seo.?package/i
+
+/our seo.?services/i
+/our (complete|comprehensive).{1,10}seo/i
+
+/here to give you seo/i
+/like to offer.{1,10}seo/i
+
+/i went through your.{1,10}web.?site.{1,10}found/i
+/i.?a?.?m.{1,20}seo.?(expert|manager)/i
+/i.?a?.?m.{1,10}working as an seo/i
+
+/found a number of seo.?issues/i
+
+/ranking is not good.{1,15}(bing|google|yahoo)/i
+
+/we are.{1,10}leading seo/i
+/we can (promote|rank) your web.?site/i
+/we can help you rank higher/i
+/we do seo for all/i
+/we promote your.{1,10}web.?site.{1,10}(ranking|ranks)/i
+
+/we will (enhance|improve) your.{1,15}(ranking|ranks)/i
+
+/we offer.{1,10}range.{1,10}seo.?services/i
+/we offer.{1,10}(seo|search engine optimization)/i
+/we.{1,10}boost.{1,10}seo.?ranking/i
+
+/you.{1,10}seo.?(packages?|proposal)/i
+
+/you like.{1,10}optimize your site/i
+/you looking.{1,10}boost your web.?site/i
+/you looking.{1,10}for.{1,10}seo/i
+/you up.{1,10}rankings dramatically/i
+
+/your web.?site.{1,10}indexed on the first.?page/i
+/your web.?site.{1,10}1st page.?rank/i
+/your web.?site.{1,10}on.{1,10}1st page/i
+/your web.?site.{1,10}on.{1,10}page one of/i
+/your web.?site.{1,10}to get on first/i
+/your web.?site.{1,10}rank (higher|top|well)/i
+/your web.?site.{1,10}not ranking in/i
+
+# Lies
+/i have reviewed your domain in/i
+
+/your web.?site.{1,15}affecting your online presence/i
+/your web.?site.{1,10}found those errors/i
+/your web.?site.{1,10}has.{1,10}broken links/i
+/your web.?site.{1,25}has some problems.{1,10}you.{1,10}(might|need)/i
+/your web.?site.{1,10}i found it.{1,10}impressive/i
+/your web.?site.{1,10}in the top.{1,10}positions/i
+/your web.?site.{1,30}is only listed in/i
+/your web.?site.{1,10}search.?engines/i
+/your web.?site.{1,10}ranking.{1,10}search.?engines/i
+/your web.?site.{1,10}not receiving enough.{1,10}traffic/i
+
+/seo.{1,15}saw that your web.?site/i
+
+# SEO, Google
+# ------------------------------------------------------------------------------
+/1st.?page of google/i
+/1st.?page (listings|ranking) (in|on) google/i
+
+/on page one of google/i
+/get top position.{1,10}google/i
+/(promote|list|rank) your.{1,10}web.?site.{1,10}google/i
+/not ranking.{1,10}google.{1,10}other/i
+/rank your.{1,10}business.{1,10}google/i
+
+/we can place your.{1,10}web.?site.{1,10}on/i
+
+/you on.{1,10}1st.{1,10}page of google/i
+
+/your company.{1,10}position (in|on) google/i
+/your business keywords/i
+/your (competitors|page.?rank).{1,10}(in|on) google/i
+
+/your web.?site.{1,10}get.{1,10}top google/i
+/your web.?site.{1,30}is not listed in google/i
+/your web.?site.{1,10}on google top/i
+/your web.?site.{1,10}ranking.{1,10}not good/i
+
+#
+/our.{1,15}seo.?feedbacks/i
+
+# Google Maps
+/google maps.{1,10}we can help you/i
+/your company.{1,10}google maps/i
+
+# SEO, Reputation
+# ------------------------------------------------------------------------------
+/improve.{1,10}reputation.{1,10}google search/i
+
+/buy google reviews.{1,10}start/i
+
+# SEO, bad strategies
+# ------------------------------------------------------------------------------
+/(seo|our) guest postings?/i
+/guest posting services/i
+
+# SEO, Links
+# ------------------------------------------------------------------------------
+/we will investigate each link/i
+/noticed.{1,15}percentage.{1,10}toxic links/i
+
+# SEO, India
+# ------------------------------------------------------------------------------
+
+#
+#
+#
+
+# Unclassified
+# ------------------------------------------------------------------------------
+
+# Masked
+# ------------------------------------------------------------------------------
