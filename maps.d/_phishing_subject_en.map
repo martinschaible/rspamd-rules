@@ -11,6 +11,7 @@
 
 /price.?list.{1,10}(brochure|catalog|catalogue)/i
 
+/order inquiry.?--/i
 /order inquiry.{1,10}shipping/i
 /order.{1,10}partnership/i
 /order request via/i
