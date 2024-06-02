@@ -91,6 +91,8 @@
 
 # E-Mail active/correct
 # ------------------------------------------------------------------------------
+/(bestätigen sie|sie mir.{1,10}mitteilen).{1,15}(diese|ihre).{1,10}e?.?mail.{1,15}aktiv ist/iu
+
 /ist.{1,10}ihre gültige e?.?mail/iu
 /ist diese.{1,10}e?.?mail.{1,10}noch (aktiv|gültig)/iu
 

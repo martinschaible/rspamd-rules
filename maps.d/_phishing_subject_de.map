@@ -56,6 +56,7 @@
 
 /(Überprüfen|überprüfen) sie ihre.{1,10}(kontodaten|persönlichen daten)/iu
 /(Überprüfen|überprüfen) sie ihr.{1,10}konto/i
+/überprüfung ihrer.{1,15}kontoinformationen erforderlich/i
 
 /informationen zu ihrem.{1,15}konto.{1,15}fehlen/i
 
@@ -325,6 +326,7 @@
 /sie haben eine kostenlose.{10,25}gewonnen/i
 /sie unsere.{1,10}umfrage/i
 /sie sind zugelassen/i
+/sie wurden für ein besonderes angebot/iu
 
 /wir vergeben deinen.{1,15}gutschein/i
 
@@ -338,6 +340,8 @@
 /hauptpreis geht an sie/i
 
 /preis wird weitergeleitet/i
+
+/du hast unser gewinnspiel gewonnen/i
 
 # Sample: Rundschreiben X2ZI-M29U
 /(bestätigung|rundschreiben).?[0-9a-z]{4}-[0-9a-z]{4}/i

@@ -64,11 +64,12 @@
 
 # E-Mail active/correct
 # ------------------------------------------------------------------------------
-/(bestätigen sie|sie mir.{1,10}mitteilen).{1,10}(diese|ihre).{1,10}e?.?mail.{1,10}noch aktiv ist/iu
+/(bestätigen sie|sie mir.{1,10}mitteilen).{1,15}(diese|ihre).{1,10}e?.?mail.{1,15}aktiv ist/iu
 
 /ist (diese|ihre).{1,10}e?.?mail.{1,10}noch aktiv/i
 /ist (diese|ihre).{1,10}e?.?mail.?adresse aktiv/i
 
+/dass diese.{1,10}e?.?mail.?adresse aktiv ist/i
 /(diese|ihre).{1,10}e?.?mail.?adresse.{1,40}noch aktiv ist/i
 /(diese|ihre).{1,10}e?.?mail.{1,15}noch aktiv ist.{1,10}kontaktieren sie/i
 /wissen.{1,15}(diese|ihre).{1,10}e?.?mail.{1,10}korrekt ist/i
@@ -139,6 +140,7 @@
 
 /wichtig.{1,10}wir.{1,10}e?.?mail.{1,10}kommunizieren/i
 /wichtig.{1,10}mit ihnen zu besprechen.{1,10}bitte antworten/i
+/wichtigen brief an.{1,10}e?.?mail-adresse gesendet/i
 
 # Using free Website
 # ------------------------------------------------------------------------------
@@ -171,24 +173,20 @@
 # ------------------------------------------------------------------------------
 /dem schreibtisch des vize/i
 
-/diese e?.?mail.{1,10}sie gut erreicht/i
-/diese e?.?mail.{1,10}sie in einem.{1,10}guten zustand erreicht/i
-/diese e?.?mail.{1,10}wird sie gut treffen/i
-/diese e?.?mail.{1,10}wird sie bei guter gesundheit erreichen/i
-/diese e?.?mail.{1,10}erreicht sie bei guter gesundheit/i
-
-/diese nachricht.{1,10}erreicht sie wohlbehalten/i
-/diese nachricht.{1,10}findet dich gut/i
-/diese nachricht.{1,10}gut aufgenommen wird/i
-/diese Nachricht.{1,10}gut empfangen wurde/i
-/diese nachricht.{1,10}kommt gut bei ihnen an/i
-/diese nachricht.{1,10}sie gut (erreicht|findet)/i
-/diese nachricht.{1,10}sie in bester stimmung trifft/i
+/diese (e?.?mail|nachricht).{1,10}erreicht sie bei guter gesundheit/i
+/diese (e?.?mail|nachricht).{1,10}erreicht sie wohlbehalten/i
+/diese (e?.?mail|nachricht).{1,10}findet dich gut/i
+/diese (e?.?mail|nachricht).{1,10}gut aufgenommen wird/i
+/diese (e?.?mail|nachricht).{1,10}gut empfangen wurde/i
+/diese (e?.?mail|nachricht).{1,10}kommt gut bei ihnen an/i
+/diese (e?.?mail|nachricht).{1,10}sie gut (erreicht|findet|trifft)/i
+/diese (e?.?mail|nachricht).{1,10}sie in bester stimmung trifft/i
+/diese (e?.?mail|nachricht).{1,10}sie in einem.{1,10}guten zustand erreicht/i
+/diese (e?.?mail|nachricht).{1,10}wird sie gut treffen/i
+/diese (e?.?mail|nachricht).{1,10}wird sie bei guter gesundheit erreichen/i
 
 /dieser brief sie bei guter gesundheit/i
 /dieser brief erreicht dich in guter stimmung/i
-
-/erwachsenen.?websites/i
 
 /lesen sie nachrichten/i
 /lies die nachricht/i
