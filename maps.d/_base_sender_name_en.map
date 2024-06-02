@@ -48,7 +48,6 @@
 
 /(central|navidad).{0,10}lott?eria/i
 
-/e.?draw$/i
 /elgordo.{0,10}primitiva/i
 /euro.?online.?lotto/i
 /award.?team/i
@@ -68,9 +67,6 @@
 
 # Date: '05/08/2023'
 /\d{2}\/\d{2}\/\d{4}/i
-
-# sample: _66230
-/_\d{2,10}$/i
 
 /b.r.e.a.k.i.n.g/i
 
@@ -102,9 +98,6 @@
 
 # A few question marks
 /\?\?\?/i
-
-# Sample: #89734"
-/#\d{1,5}"?$/i
 
 # Masked
 # ------------------------------------------------------------------------------

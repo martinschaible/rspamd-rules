@@ -5,10 +5,8 @@
 #  10 | English        |
 # ==============================================================================
 
-# Fake Orders
+# Orders
 # ------------------------------------------------------------------------------
-/purchase$/i
-/procurements$/i
 
 # Accounts
 # ------------------------------------------------------------------------------
@@ -125,7 +123,6 @@
 # Apple
 /apple.?(id|winner)/i
 /icloud.?(important|limit|notice|request|user)/i
-/icloud$/i
 
 # Costco
 
@@ -138,8 +135,6 @@
 # DPD
 /dpd eu/i
 
-/edeka$/i
-
 # Fedex
 /fedex.{0,10}(fedex|helpdesk|support)/i
 
@@ -148,9 +143,6 @@
 
 # Lidl
 /lidl.{0,10}box/i
-
-# MetaMask
-/metamask$/i
 
 # Netflix
 /netflix.?(expiration|support|updates)/i
@@ -167,7 +159,6 @@
 
 # Twint
 /twint.?team/i
-/twint$/i
 
 # UPS
 /_ups_/i
