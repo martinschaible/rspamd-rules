@@ -36,7 +36,7 @@
 /konto erfordert eine maßnahme/i
 /konto wird.{1,10}(bald gesperrt|begrenzt|eingeschränkt)/iu
 
-/konto.?(update|überprüfung) erforderlich/i
+/konto.?(update|überprüfung) erforderlich/iu
 /kontosperrung.{1,10}vermeiden/i
 
 /wir mussten.{1,15}konto.?funktionen einschränken/iu
@@ -65,6 +65,7 @@
 /wichtig.{1,10}kontofunktionen/i
 /wichtige e?.?mail.{1,10}ihr konto/i
 
+/erinnerung.{1,10}kontoupdate/i
 /aktualisieren.{1,15}erforderlichen zahlungsinformationen/i
 
 # Bad german
