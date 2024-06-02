@@ -1,38 +1,13 @@
 # ==============================================================================
-# Sale: Stuff related to the internet
+# Sale: internet
 #
 # ----|----------------|
-#  5  | German         |
+#  10 | German         |
 # ==============================================================================
 
 # Address lists for spamming, EMail Marketing
 # ------------------------------------------------------------------------------
 /(dienstleistung|informationen).{1,10}e?.?mail.?marketing/i
-
-# Apps
-# ------------------------------------------------------------------------------
-/preisgünstig.{1,10}design.{1,10}mobiler?.?apps/i
-
-/wir sind ein team.{1,20}entwickler mobiler.?apps/i
-
-#
-#
-#
-
-# SEO
-# ------------------------------------------------------------------------------
-/bonus.{1,10}seo.?(check|web.?site)/i
-
-/sie sich ein.{1,10}top.?google.?ranking/i
-
-/suchmaschinen.?marketing.{1,10}entwickelt/i
-
-# Lies
-/ich habe ihre web.?site überprüft.{1,10}glaube/i
-
-# SEO, India
-# ------------------------------------------------------------------------------
-/wir sind ein.{1,10}indisches unternehmen/i
 
 # Social Media
 # ------------------------------------------------------------------------------
@@ -54,37 +29,6 @@
 #
 #
 
-# Web-Design/Development
-# ------------------------------------------------------------------------------
-/aktualisierung ihrer web.?site/i
-/gestaltung einer neuen web.?site/i
-
-/web.?site.?design.{1,10}entwicklungs.?dienste/i
-
-/ihre aktuelle.{1,10}web.?site aktualisieren/i
-
-/erfahrenes web.?site.?design.?team/i
-/sich auf webdesign.{1,10}seo/i
-
-/sie eine neue.{1,15}web.?site erstellen/i
-/sie nach einem.{1,10}web.?site.?design/i
-
-/sie ihre.{1,10}web.?site mit einem neuen/i
-
-/suche nach einem.{1,10}web.?design/i
-
-/mit einer neuen web.?site online/i
-/wir haben ein professionelles team.{1,10}web.?site.{1,20}(designer|entwickler)/i
-/wir sind ein.{1,10}web.?site.?entwicklung/i
-
-# Web-Design/Development, China, India
-# ------------------------------------------------------------------------------
-/wir sind ein in.{1,10}(china|indien).{1,10}ansässige(r|s)/i
-/wir sind ein in.{1,10}(china|indien).{1,15}(it.?dienstleister|unternehmen|web.?site)/i
-
-# WordPress
-# ------------------------------------------------------------------------------
-
 #
 # ------------------------------------------------------------------------------
 /ihrem unternehmen ungerechtfertigte negative bewertungen bei google.{1,15}vorliegen/i
@@ -102,4 +46,3 @@
 
 # Bad German
 # ------------------------------------------------------------------------------
-/suchen sie website.?update/i
