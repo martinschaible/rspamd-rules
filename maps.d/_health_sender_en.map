@@ -374,7 +374,8 @@
 
 # Stomach
 # ------------------------------------------------------------------------------
-/bloated.?stomach/i
+/(bloated|flatten).{0,10}stomach/i
+/your stomach/i
 
 # Stretch
 # ------------------------------------------------------------------------------
@@ -425,7 +426,7 @@
 /(medical|miracle|new|scientists?).?(breakthrough|discovery)/i
 /(mayan|miracle).?seeds/i
 /(japanese|unlock).{0,10}secret/i
-/(dairy|second|simple).?(protocol|trick)/i
+/(dairy|second|simple|water).?(protocol|trick)/i
 
 /mayan.?cleanse/i
 /(basic|secret).?protein/i
