@@ -38,6 +38,19 @@
 /sie wurden (als einer der|unter den).{1,15}begünstigten (aufgeführt|ausgewählt)/iu
 /sie zu den begünstigten gehören/iu
 
+# Compensation
+# ------------------------------------------------------------------------------
+/ihnen ein betrag von.{1,10}\d{3}.{0,5}\d{3}.{1,10}als entschädigungszahlung/iu
+/ihnen eine entschädigungs.?summe von/iu
+/ihnen eine entschädigung in höhe von.{1,10}\d{3}.{0,5}\d{3}.{1,10}als beitrag/iu
+
+/erbschafts.{1,10}entschädigungs.?zahlung/iu
+/sie vom entschädigungsausschuss/iu
+
+# Google
+/entschädigt google sie mit/iu
+/(million|dollar|euro?|gbp|usd).{1,10}die nutzung.{1,10}google browsers/i
+
 # Currency, Big numbers
 # ------------------------------------------------------------------------------
 /millionen.{1,10}(dollar|euro?|gbp|usd).{1,10}kontaktieren sie (mich|uns)/i
@@ -100,33 +113,21 @@
 # ------------------------------------------------------------------------------
 /legal in Ihrem Namen beanspruchen/i
 
-# Payments, Compensations
+# Payments
 # ------------------------------------------------------------------------------
 /ich überweise ihnen den betrag von.{1,10}(million|dollar|euro?|gbp|usd)/i
 
 /ihre zahlung zu genehmigen.{1,15}registrieren/i
-/ihnen ein betrag von.{1,10}\d{3}.{0,5}\d{3}.{1,10}als entschädigungszahlung/iu
-/ihnen eine entschädigungs.?summe von/iu
-/ihnen eine entschädigung in höhe von.{1,10}\d{3}.{0,5}\d{3}.{1,10}als beitrag/iu
 
 /sie aufgrund einer ausstehenden.{1,10}überweisung/iu
-/sie vom entschädigungsausschuss/iu
 /sie (werden|wurden).{1,10}mit.{1,10}summe von.{1,10}\d{3}.{0,5}\d{3}/i
 /sie (werden|wurden).{1,10}mit.{1,10}summe entschädigt/iu
 
 /zahlung von.{1,10}\d{3}.{0,5}\d{3}.{1,15}(million|dollar|euro?|gbp|usd).{1,10}auf ihr konto/i
 
-/auszahlung ihres fonds.{1,10}\d{3}.{0,5}\d{3}.{1,15}(million|dollar|euro?|gbp|usd)/i
-
 /sie sich zur geltendmachung ihres anspruchs/i
 
-/erbschafts.{1,10}entschädigungs.?zahlung/iu
-
 /antworten sie.{1,10}ihr geld anfordern/i
-
-#
-/entschädigt google sie mit/iu
-/(million|dollar|euro?|gbp|usd).{1,10}die nutzung.{1,10}google browsers/i
 
 # Share the same name
 # ------------------------------------------------------------------------------

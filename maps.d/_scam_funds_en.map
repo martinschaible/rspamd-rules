@@ -16,19 +16,19 @@
 
 /about your unpaid.{1,10}funds/i
 /acquire this money in my name/i
-/assist me.{1,10}securing some funds/i
+/assist me.{1,10}securing some.{1,10}funds/i
+
+/claim of your.{1,10}fund/i
+/claim details.{1,10}i await your.{1,15}reply/i
+/claim up to.{1,15}usd based on/i
 
 /i am willing.{1,10}to give you.{1,10}(funds|sum of)/i
+
 /i have.{1,10}(funds|sum of).{1,10}for investment/i
 /i have.{1,10}(funds|sum of).{1,10}million/i
-
 /i have.{1,10}dormant.{1,10}funds/i
 
 /i want this.{1,10}fund to be transferred/i
-
-/claim of your fund/i
-/claim details.{1,10}i await your.{1,15}reply/i
-/claim up to.{1,15}usd based on/i
 
 /proposal to move out.{1,10}funds/i
 /there is.{1,10}substantial unclaimed.{1,10}sum/i
@@ -42,26 +42,24 @@
 /you.{1,10}as.{1,10}contract.{1,10}funds?/i
 /you.{1,10}opportunity.{1,10}receive.{1,15}funds?/i
 /you.{1,10}containing.{1,10}sum of.{1,10}million/i
-/you.{1,10}have a fund of.{1,10}\d{3}.{0,5}\d{3}/i
+/you.{1,10}have.{1,10}fund of.{1,10}\d{3}.{0,5}\d{3}/i
 /you.{1,10}regarding.{1,10}compensation.{1,10}funds?/i
 /you.{1,10}regarding.{1,10}your pending.{1,10}funds?/i
 /you.{1,10}receive.{1,10}manage.{1,10}funds?/i
-/you.{1,10}ready.{1,10}receive.{1,10}funds?/i
+/you.{1,10}(ready|wish).{1,10}receive.{1,10}funds?/i
 
 /you to.{1,10}assist retrieve.{1,15}deposit/i
 /you to.{1,10}(administer|assist|move).{1,10}funds?/i
 
-/you wish to receive.{1,15}funds?/i
-
-/your.{1,10}funds?.{1,10}still in our bank/i
 /your.{1,10}funds?.{1,10}have been approved by the/i
 /your.{1,10}funds?.{1,10}(total|worth).{1,10}sum of.{1,10}million/i
 /your.{1,10}funds?.{1,10}\d{3}.{0,5}\d{3}.{1,10}(dollar|euro?|gbp|usd)/i
+/your.{1,10}funds?.{1,10}in the amount of.{1,10}million/i
+/your.{1,10}funds?.{1,10}million.{1,15}would be released/i
 /your.{1,10}funds?.{1,10}of.{1,10}million/i
 /your.{1,10}funds?.{1,10}processed.{1,10}released to you/i
+/your.{1,10}funds?.{1,10}still in our bank/i
 /your.{1,10}funds?.{1,10}worth.{1,15}(dollar|euro?|gbp|usd)/i
-/your.{1,10}funds?.{1,10}million.{1,15}would be released/i
-/your.{1,10}funds?.{1,10}in the amount of.{1,10}million/i
 
 /your.{1,10}outstanding.{1,10}funds totaling.{1,10}million/i
 /your.{1,10}cooperation.{1,10}assist.{1,10}transferring.{1,15}funds?/i
