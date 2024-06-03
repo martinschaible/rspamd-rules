@@ -1,0 +1,46 @@
+# ==============================================================================
+# Phishing: Funds
+#
+# ----|----------------|
+#  10 | German         |
+# ==============================================================================
+
+# Funds, Money
+# ------------------------------------------------------------------------------
+/ich habe einen.{1,10}fonds von.{1,10}\d{3}.{0,5}\d{3}/i
+/ich habe einen.{1,10}fonds in höhe von/iu
+
+/wir haben einen nicht beanspruchten.{1,10}betrag/i
+
+/ihre.{1,10}e?.?mail.?adresse.{1,10}wurde ausgewählt.{1,10}um diesen.{1,10}fonds/iu
+/ihren nicht in anspruch genommenen.{1,15}fonds/i
+/ihres.{1,10}fonds in höhe von.{1,10}\d{3}.{0,5}\d{3}/i
+
+/ihren.{1,10}namen lauten nicht beansprucht.{1,10}geld/i
+/ihr.{1,10}name ist mit einer nicht beanspruchten/i
+
+/freigabe ihres fonds erteilen/i
+
+/fonds problemlos zu beanspruchen/i
+/fonds mit ihrem rat/i
+/fonds in höhe von.{1,10}millionen.{1,10}(dollar|euro?|gbp|usd).{1,10}auf ihr.{1,25}konto/i
+
+/nicht beanspruchten fonds bekommen/i
+/um den.{1,10}fonds zu beanspruchen/i
+
+/vorschlag.{1,10}\d{2,3}.{0.5}\d{2,3}.{1,10}(dollar|euro?|gbp|usd)/i
+
+/(dollar|euro?|gbp|usd).{1,10}der ihrem.{1,10}namen zugeordnet ist/i
+
+/wir haben einen nicht eingeforderten betrag/i
+/sie.{1,10}million.{1,10}(dollar|euro?|gbp|usd).{1,10}auf ihrem konto erhalten/i
+
+# Sharing
+# ------------------------------------------------------------------------------
+/betrag.{1,10}zwischen ihnen und mir aufgeteilt wird/i
+
+/ihres.{1,20}erbschaftsfonds/i
+/haben sie den.{1,10}fonds erhalten/i
+
+/sie zum.{1,20}begünstigten des fonds/iu
+
