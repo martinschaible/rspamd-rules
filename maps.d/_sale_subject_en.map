@@ -50,33 +50,6 @@
 
 /rolex.?watch(es)?.{1,10}up to.{1,10}off/i
 
-# Web-Design/Development
-# ------------------------------------------------------------------------------
-/custom.{1,15}web.?site.?design/i
-/considering.{1,10}new web.?site/i
-
-/(home.?page|web.?site).{1,10}(remake|upgrade|upgrading)/i
-/(home.?page|web.?site).{1,10}design.{1,10}development/i
-/(home.?page|web.?site).{1,10}re.?design(ing)?.{1,10}re.?make/i 
-/(home.?page|web.?site).{1,10}re.?build/i
-
-/business.{1,10}web.?sites?.{1,10}(design|mobile)/i
-
-/web.?(designing|development) (offer|proposal)/i
-
-/re.?design your webs.?ite/i
-/re.?develop proposal/i
-
-/speed up your.{1,10}web.?site with us/i
-
-/(upgrade|update) your.{1,10}business web.?site/i
-/(upgrade|update) your.{1,15}web.?site today/i
-/(upgrade|update).{1,10}homepage.{1,10}design/i
-
-/web.?development.{1,10}special offer/i
-
-/web.?app.{1,10}designer/i
-
 # Streaming TV
 # ------------------------------------------------------------------------------
 /worldwide channels.{1,10}movies/i
@@ -113,12 +86,40 @@
 
 /you want.{1,15}e?.?mail.?list/i
 
-# Apps
+# Developing Apps
 # ------------------------------------------------------------------------------
 /app!!/i
 /apps?.?(creation|development|proposal|service)/i
 
 /create an.{1,10}app/i
+
+# Developing Websites
+# ------------------------------------------------------------------------------
+/custom.{1,15}web.?site.?design/i
+/considering.{1,10}new web.?site/i
+
+/(home.?page|web.?site).{1,10}(remake|upgrade|upgrading)/i
+/(home.?page|web.?site).{1,10}design.{1,10}development/i
+/(home.?page|web.?site).{1,10}re.?design(ing)?.{1,10}re.?make/i 
+/(home.?page|web.?site).{1,10}re.?build/i
+
+/business.{1,10}web.?sites?.{1,10}(design|mobile)/i
+
+/web.?(designing|development) (offer|proposal)/i
+
+/re.?design your webs.?ite/i
+/re.?develop proposal/i
+/re.?make.{1,10}web development/i
+
+/speed up your.{1,10}web.?site with us/i
+
+/(upgrade|update) your.{1,10}business web.?site/i
+/(upgrade|update) your.{1,15}web.?site today/i
+/(upgrade|update).{1,10}homepage.{1,10}design/i
+
+/web.?development.{1,10}special offer/i
+
+/web.?app.{1,10}designer/i
 
 # SEO
 # ------------------------------------------------------------------------------

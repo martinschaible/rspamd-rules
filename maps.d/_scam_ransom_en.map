@@ -7,8 +7,8 @@
 
 # Ransom
 # ------------------------------------------------------------------------------
-/i.{1,10}(gained|get|have|obtained).{1,10}access.{1,15}your.{1,10}(account|computer|devices?|mobile)/i
-/i.{1,10}hacked your.{1,10}(account|computer|devices?|mobile)/i/i
+/i.{1,10}(gained|get|have|obtained).{1,10}access.{1,15}your.{1,10}(account|computer|devices?|messenger|mobile)/i
+/i.{1,10}hacked your.{1,15}(account|computer|devices?|mobile|system)/i/i
 
 /i.{1,10}managed.{1,10}install.{1,15}(trojan|virus)/i
 /i.{1,10}managed.{1,10}to get.{1,10}access.{1,10}all.{1,10}(account|computer|devices?|mobile)/i
@@ -35,12 +35,14 @@
 # ------------------------------------------------------------------------------
 /below is.{1,10}(bitcoin|btc).?(address|wallet) of mine/i
 
-/my (bitcoin|btc).?(address|wallet) is/i
+/my (bitcoin|btc).?(address|wallet) (for payment|is)/i
 /my (bitcoin|btc).?(address|wallet).{1,15}(btc.?wallet|for transfer)/i
 
 /just transfer.{1,10}usd.{1,15}to (bitcoin|btc)/i
 /transfer to my.{1,10}account.{1,10}after the transaction/i
 /you need to transfer.{1,10}usd.{1,10}(bitcoin|btc)/i
+
+/you.{1,10}working days.{1,10}transfer the money/i
 
 #
 #

@@ -53,12 +53,12 @@
 /good day.{1,10}dear/i
 /greetings?.{1,10}from here/i
 
-/dear (beloved|recipient)/i
-/dear sir.{1,5}madam/i
-/hello.{1,10}dear friend/i
-
-/dear esteemed/i
+/dear (beloved|esteemed|recipient)/i
 /dear e?.?mail.{1,10}(user|owner)/i
+/dear sir.{1,5}madam/i
+
+/hello.{1,10}(dear|good) friend/i
+/hello.{1,10}anticipated partner/i
 
 /letter from/i
 

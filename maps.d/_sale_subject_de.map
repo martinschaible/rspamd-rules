@@ -226,6 +226,10 @@ grill.{1,10}statt.{1,10}nur/i
 /(tisch|turnier).?kicker.{1,10}für \d{3}/i
 /(kleiner preis|ihren|neuer).{1,10}(tisch|turnier).?kicker/i
 
+# Tools
+# ------------------------------------------------------------------------------
+/teilige(n|s).{1,20}werkzeug.?set/i
+
 # Umbrellas
 # ------------------------------------------------------------------------------
 /ampelschirme.{1,20}(eleganz|jetzt noch|schutz)/i
@@ -248,18 +252,25 @@ grill.{1,10}statt.{1,10}nur/i
 # ------------------------------------------------------------------------------
 /(dienstleistung|informationen).{1,10}e?.?mail.?marketing/i
 
+# Developing Apps
+# ------------------------------------------------------------------------------
+
+# Developing Websites
+# ------------------------------------------------------------------------------
+/web.?design.{1,10}entwicklung/i
+/kreative website.{1,10}wartung/i
+
+/(web.?site|home.?page) erstellen.{1,10}entwickeln/i
+
 # SEO
 # ------------------------------------------------------------------------------
 
 # Social Media
 # ------------------------------------------------------------------------------
 
-# Web-Design/Development
-# ------------------------------------------------------------------------------
-/web.?design.{1,10}entwicklung/i
-/kreative website.{1,10}wartung/i
-
-/(web.?site|home.?page) erstellen.{1,10}entwickeln/i
+#
+#
+#
 
 #
 #
