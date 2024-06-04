@@ -105,9 +105,10 @@
 #
 #
 
-# Hosting and EMail
+# Delivery pending, bounced, blocked, hold
 # ------------------------------------------------------------------------------
 /incoming.{1,10}(e?.?mail|messages) has been stopped/i
+/incoming.{1,10}(e?.?mail|messages) failed/i
 /incoming.{1,10}pending.{1,10}(e?.?mail|messages) for/i
 
 /have.{1,10}undelivered e?.?mail.{1,10}your inbox/i

@@ -36,7 +36,7 @@
 /konto erfordert eine maßnahme/i
 /konto wird.{1,10}(bald gesperrt|begrenzt|eingeschränkt)/iu
 
-/konto.?(update|überprüfung) erforderlich/iu
+/konto.{1,15}(aktualisierung|update|überprüfung) erforderlich/iu
 /kontosperrung.{1,10}vermeiden/i
 
 /wir mussten.{1,15}konto.?funktionen einschränken/iu
@@ -242,6 +242,7 @@
 /ihr paket wurde zurückgeschickt/i
 /ihre bestellung konnte nicht geliefert werden/i
 
+/lieferadresse.{1,15}bevorstehende sendung/i
 /(lieferung|versand).{1,10}(ausstehende|unbezahlte).{1,10}(versandkosten|zollgebühren)/iu
 /(lieferung|versand).{1,10}wurde aufgrund falscher angaben/i
 /(lieferung|versand).{1,10}steht aus/i
@@ -501,6 +502,7 @@
 # ------------------------------------------------------------------------------
 /aussetzung droht am.{1,20}jetzt handeln/i
 
+/bestatigen sie/i
 /bearbeiten sie ihre informationen/i
 /beanspruchen und aktivieren/i
 /benötigt aktion/iu

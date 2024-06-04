@@ -74,6 +74,9 @@
 # Sample: PI 2024 60488.xxe
 /\d{1,10}\.xxe/i
 
+# Sample: 00875 & 02195.zip
+/&.?\d{1,10}\.zip/i
+
 # Sample: Inquiry No.230802-02.zip
 /(enquiry|inquiry|invoice|order|quote).?(no\.)?.{0,20}\.(7z|doc|gz|htm|r11|rar|tgz|xla|xls|zip)/i
 

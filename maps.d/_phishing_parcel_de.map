@@ -56,6 +56,8 @@
 /grund.{1,10}liefe.?radresse.{1,10}unvollständig/iu
 /(grund|zustellversuch).{1,10}unvollständige.{1,10}(liefer)?.?adresse/iu
 
+/versandadresse innerhalb der.{1,20}stunden zu aktualisieren/i
+
 # Delivery
 # ------------------------------------------------------------------------------
 /(paket|sendung).{1,10}das auf (die|eine).{1,10}(lieferung|zustellung) wartet/i
@@ -272,6 +274,7 @@
 /(paket|sendung).{1,10}hat den versandweg begonnen/i
 /(paket|sendung).{1,10}zu wiederherstellen/i
 
+/adressanderung fur/i
 /bearbeiten sie ihre informationen/i
 /bestellung.{1,10}wurde erfolgreich angeliefert/i
 /bestatigen sie die zahlung/i

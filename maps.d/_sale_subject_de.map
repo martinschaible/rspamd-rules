@@ -171,6 +171,7 @@ grill.{1,10}statt.{1,10}nur/i
 # Software (illegal)
 # ------------------------------------------------------------------------------
 /(excel|word).{1,10}ohne laufende kosten/i
+/ihre office programme.{1,10}(excel|word)/i
 
 # Surveillence Camera
 # ------------------------------------------------------------------------------
@@ -207,9 +208,10 @@ grill.{1,10}statt.{1,10}nur/i
 /(angebot|alarm|exklusiv|hochwertiges|komplettes|neues|premium|professionelles|teiliges|ultimatives).{1,15}werkzeug.?set/i
 
 /(angebot|ein|unser|riesiges).{1,10}werkzeug.?set/i
+/(angebot|kompletter|rabatt).{1,10}werkstattwagen/i
+
 /praktischen.{1,10}trolleykoffer/i
 
-/kompletter.{1,10}werkstattwagen/i
 
 # Tischkicker
 # ------------------------------------------------------------------------------
