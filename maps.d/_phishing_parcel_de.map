@@ -24,29 +24,30 @@
 /bestätigen sie.{1,15}adresse.{1,15}liefergebühr/iu
 /bestätigen sie.{1,15}korrekte.{1,10}lieferadresse/iu
 
-/liefer.?angaben.{1,10}auf dem paket sind falsch/i
-
-/versand.?details.{1,20}zu (bestätigen|überprüfen)/i
-
-/aktualisieren sie.{1,10}ihre.{1,10}lieferadresse/i
-/aufgrund fehlender angaben nicht versenden/i
-/die angegebene lieferadresse.{1,20}nicht.{1,10}korrekt ist/i
-
-/bitten wir sie.{1,10}ihre adresse zu überprüfen/iu
-/eine gültige lieferadresse hinzuzufügen/iu
-
 /(falschen|fehlerhaften).{1,10}lieferadresse.{1,10}nicht.{1,20}(abgeschlossen|zugestellt) werden/i
 /(falschen|fehlerhaften).{1,10}lieferadresse.{1,10}konnten wir ihr paket nicht/i
 
 /(grund|status|zustellversuch).{1,20}adresse.{1,10}unvollständig/iu
 /(grund|status|zustellversuch).{1,10}(fehlerhafte|unvollständige|unzureichende).{1,20}adresse/iu
 
-/paket angegebene lieferadresse ist unvollständig/iu
+/(lieferung|paket|sendung).{1,10}angegebene.{1,15}adresse ist unvollständig/iu
+/(lieferung|paket|sendung).{1,10}zu bestätigen.{1,10}klicken sie.{1,10}auf/iu
+/(lieferung|paket|sendung).{1,10}wurde aufgrund falschen.{1,10}angaben gestoppt/i
 
-/klicken sie hier.{1,10}um die adresse zu/i
-/korrigieren sie ihre adresse/i
+/aktualisieren sie.{1,10}ihre.{1,10}lieferadresse/i
+/angaben.{1,10}auf dem paket sind falsch/i
+/aufgrund fehlender angaben nicht versenden/i
+
+/bitten wir sie.{1,10}ihre adresse zu überprüfen/iu
+/eine gültige lieferadresse hinzuzufügen/iu
+/die angegebene lieferadresse.{1,20}nicht.{1,10}korrekt ist/i
 
 /ihnen angegebene.{1,10}adresse unvollständig zu sein scheint/iu
+/klicken sie hier.{1,10}um die adresse zu/i
+/korrigieren sie ihre adresse/i
+/nicht zustellen.{1,10}da es unklarheiten mit.{1,20}adresse gibt/i
+
+/versand.?details.{1,20}zu (bestätigen|überprüfen)/i
 
 /wir (konnten|müssen) ihre.{1,15}adresse.{1,15}bestätigen/iu
 /wir weitere informationen zu ihrer.{1,15}adresse/i
@@ -74,6 +75,7 @@
 
 /aufgrund unvollständiger.{1,15}angaben nicht zugestellt werden/iu
 /nicht zustellen.{1,10}da keine.{1,20}anwesend war/i
+/zustellung.{1,15}(paket|sendung).{1,30}ist ein fehler aufgetreten/i
 
 # Delivery Pending/Waiting
 # ------------------------------------------------------------------------------
@@ -86,6 +88,11 @@
 
 /(ihr|sie haben).{1,10}(ausgesetztes?|ausstehendes?).{1,10}(paket|sendung)/i
 
+/wartet auf.{1,10}zustellung.{1,10}bestätigen sie die/i
+
+# Delivery Ready
+# ------------------------------------------------------------------------------
+
 # Returned
 # ------------------------------------------------------------------------------
 /(paket|sendung).{1,20}ist in.{1,10}depot zurückgekehrt/i
@@ -93,7 +100,10 @@
 
 # Arrived somewhere
 # ------------------------------------------------------------------------------
+/(paket|sendung).{1,10}das sich im.{1,15}(distributions|verteil).?zentrum befindet/i
 /(paket|sendung).{1,10}hat jetzt das zollamt erreicht/i
+/(paket|sendung).{1,10}ist in unserer.{1,15}postfiliale angekommen/i
+/(paket|sendung).{1,10}zurzeit in unserem .{1,10}(distributions|verteil).?zentrum/i
 
 # Pay Customs, Fees, VAT
 # ------------------------------------------------------------------------------
@@ -121,6 +131,11 @@
 /(paket|sendung).{1,10}zu.{1,10}unannehmlichkeiten gekommen/i
 /(paket|sendung).{1,10}zu.{1,20}werden die mehrwertsteuerkosten/i
 
+/(lieferung|versand).{1,10}(ausstehende|unbezahlte).{1,10}(versandkosten|zollgebühren)/iu
+/(lieferung|versand).{1,10}zu planen.{1,10}muss eine versandgebühr/iu
+/lieferung erhalten.{1,15}zahlung.{1,10}(notwendig|verpflichtend)/i
+/lieferdaten.{1,10}bezahlen sie die.{1,10}versandkosten/i
+
 /versandkosten.{1,10}bezahlen.{1,10}damit ihre?.{1,10}(paket|sendung)/i
 /versandkosten.{1,10}in höhe von.{1,15}über den untenstehenden link/iu
 
@@ -134,17 +149,28 @@
 /bestätigen sie.{1,10}zahlung.{1,10}um eine rücksendung zu vermeiden/iu
 /bestätigen sie.{1,25}zahlung.{1,10}der kosten.{1,10}(der|die).{1,10}lieferung/iu
 /bestätigen sie.{1,10}zahlung.{1,10}von \d,99/i
+/bestätigen?.{1,10}versanddetails.{1,10}bezahle die versandkosten/i
+/bestätigung der adresse.{1,10}der versandkosten/i
 
 /(be)?zahle die versandkosten.{1,10}um deine?.{1,10}(paket|sendung).{1,10}zu erhalten/i
 /(be)?zahlen sie die steuer.{1,10}ihre?.{1,10}(paket|sendung) wartet/i
 /(be)?zahlen sie die neuen versandkosten/i
 /(be)?zahlen sie die kosten für die rücksendung/iu
 
+/es fällt eine geringe liefergebühr an/iu
+/es sind zusätzliche.{1,10}gebühren erforderlich/i
+/es können zusätzliche.{1,10}versandkosten.{1,15}rücksendung anfallen/i
+
+/gebühr wird erhoben.{1,10}handeln sie schnell/iu
+/gebühr für einen erneuten zustellversuch/iu
+
 /ihre (nicht bezahlter|unbezahlter).{1,10}zollgebühren zu bezahlen/iu
 /lieferung aufgrund (nicht bezahlter|unbezahlter).{1,10}zollgebühren/iu
 
 /mwst.?zahlung.{1,10}sendungsinformationen/i
 /nicht (geliefert|zugestellt) werden.{1,10}kein zoll bezahlt wurde/i
+/nicht bezahlter.{1,10}gebühren.{1,15}nicht versendet werden kann/iu
+
 /steuern.{1,10}abgaben nicht beglichen hat/i
 /service zusätzliche gebühren in höhe von.{1,15}anfallen/iu
 
@@ -172,109 +198,26 @@
 #
 #
 
-# Delivery Failed
+# Silly Phrases 
 # ------------------------------------------------------------------------------
-/(paket|sendung).{1,10}die baldige.{1,10}zustellung vorbereitet ist/i
-/(paket|sendung).{1,10}fast bereit.{1,10}lieferung ist/i
-/(paket|sendung).{1,10}steht zur.{1,10}lieferung bereit/i
-/(paket|sendung).{1,10}wurde versandt.{1,10}zur auslieferung vorbereitet/i
-/(paket|sendung).{1,10}zu bestätigen.{1,10}klicken sie.{1,10}auf/iu
-
-/(paket|sendung).{1,10}ist in unserer.{1,15}postfiliale angekommen/i
-/(paket|sendung).{1,10}zurzeit in unserem .{1,10}(distributions|verteil).?zentrum/i
-/(paket|sendung).{1,10}das sich im.{1,15}(distributions|verteil).?zentrum befindet/i
-
-/lieferung.{1,10}ihres.{1,10}pakets fortzusetzen/i
-/lieferung.{1,10}nicht.{1,10}innerhalb.{1,10}erwarteten zeitrahmens/i
-/lieferung.{1,10}wohlbehalten auf dem weg ist/i
-/lieferung.{1,10}wurde aufgrund falscher angaben gestoppt/i
-
-/nicht zustellen.{1,10}da es unklarheiten mit.{1,20}adresse gibt/i
-
-/schicken sie mein paket/i
-/senden sie mein paket erneut/i
-
-/sie müssen das paket abholen/iu
-/sie haben eine.{1,10}eingehende.{1,10}lieferung/i
-
-/steht.{1,10}paket zur zustellung an/i
+/(lieferung|paket|sendung).{1,10}die baldige.{1,10}zustellung vorbereitet ist/i
+/(lieferung|paket|sendung).{1,10}fast bereit.{1,10}lieferung ist/i
+/(lieferung|paket|sendung).{1,10}ihres.{1,10}pakets fortzusetzen/i
+/(lieferung|paket|sendung).{1,10}in gutem zustand bleibt/i
+/(lieferung|paket|sendung).{1,10}nicht.{1,10}innerhalb.{1,10}erwarteten zeitrahmens/i
+/(lieferung|paket|sendung).{1,10}steht zur.{1,10}lieferung bereit/i
+/(lieferung|paket|sendung).{1,10}wurde versandt.{1,10}zur auslieferung vorbereitet/i
+/(lieferung|paket|sendung).{1,10}wohlbehalten auf dem weg ist/i
 
 # Product
+# ------------------------------------------------------------------------------
 /versandfertig.{1,10}enthält.{1,10}iphone 14 pro/i
 /was ist in meinem paket.{1,10}iphone/i
 
-# Order
-/bestellung ist eine verzögerung aufgetreten/iu
-
-# Pickup
-/paketstatus.{1,10}nicht abgeholt/i
-/sie haben.{1,10}noch.{1,10}nicht abgeholte bestellung/i
-/zustellzentrum wartet ein paket auf sie/i
-
-# Delivery problems
-# ------------------------------------------------------------------------------
-/zustellung ihres pakets.{1,30}ist ein fehler aufgetreten/i
-
-/(paket|sendung).{1,10}in gutem zustand bleibt/i
-
-/nachfolgenden produkt kann nicht zugestellt werden/i
-
-/hallo.{1,10}wir haben versucht.{1,10}ihr paket/i
-
-
-# Pay Fees
-# ------------------------------------------------------------------------------
-/anweisungen von ihnen.{1,10}gebühren zu zahlen/iu
-
-/beachten sie.{1,15}eine zusätzliche zustellgebühr/iu
-
-/begleichen sie die kosten.{1,15}(die|erneute).{1,15}bearbeitung/i
-
-/bestätige deine versanddetails.{1,10}bezahle die versandkosten/i
-
-/bestätigung der adresse.{1,10}der versandkosten/i
-
-/erfordert die zahlung von einfuhr.?umsatz.?steuern/i
-/erneute zustellung eine gebühr von chf/iu
-
-/es fällt eine geringe liefergebühr an/iu
-/es sind zusätzliche.{1,10}gebühren erforderlich/i
-/es können zusätzliche.{1,10}versandkosten.{1,10}die rücksendung anfallen/i
-
-/sie.{1,10}eine geringe.{1,10}gebühr zahlen/iu
-
-/gebühr wird erhoben.{1,10}handeln sie schnell/iu
-/gebühr für einen erneuten zustellversuch/iu
-
-/gegenstand.{1,10}bezahlung erforderlich/i
-
-/handlung erforderlich.{1,10}bezahlen sie.{1,10}die gebühren/iu
-
-/wartet auf.{1,10}zustellung.{1,10}bestätigen sie die zahlung/i
-
-/die sendung unterliegt.{1,10}lieferabgaben/i
-
-/lieferung zu planen.{1,10}muss eine versandgebühr/iu
-/lieferung erhalten.{1,15}zahlung.{1,10}(notwendig|verpflichtend)/i
-/lieferdaten.{1,10}bezahlen sie die.{1,10}versandkosten/i
-
-/(lieferung|versand).{1,10}(ausstehende|unbezahlte).{1,10}(versandkosten|zollgebühren)/iu
-
-/nicht bezahlter zollgebühren.{1,15}nicht versendet werden kann/iu
-
-/voraus für dich bezahlt.{1,15}begleiche diesen betrag bei uns/i
-
-/wir berechnen eine zusätzliche zustellgebühr/i
-
-/jeden tag lagerung eine zusätzliche gebühr/iu
 
 # Tracking
 # ------------------------------------------------------------------------------
 /besuchen sie die tracking.?seite hier/i
-
-# Companies
-# ------------------------------------------------------------------------------
-/ihr lieferdienst.?team/i
 
 #
 #
@@ -282,6 +225,7 @@
 
 # Unclassified
 # ------------------------------------------------------------------------------
+/ihr lieferdienst.?team/i
 
 # Masked
 # ------------------------------------------------------------------------------

@@ -41,6 +41,9 @@
 
 /attention.{1,10}your.{1,10}(package|parcel|shipment) arrived/i
 
+# Delivery Ready
+# ------------------------------------------------------------------------------
+
 # Returned
 # ------------------------------------------------------------------------------
 /dear customer.{1,10}your.{1,10}(package|parcel|shipment).{1,10}has been returned/i
