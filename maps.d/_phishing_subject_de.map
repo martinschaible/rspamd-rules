@@ -306,46 +306,53 @@
 
 # Rewards
 # ------------------------------------------------------------------------------
+/(belohnung|gutschein).{1,10}(freigeschaltet|ist zum versenden|wartet sie)/i
+
 /sie sind der auserwählte/iu
 
 /bestätigung.{1,10}ihre bestellung zu (versenden|verschicken)/iu
+/bestätigen sie ihr geschenk/iu
 
 /beanspruche jetzt/i
 
+/der inhaber dieser e?.?mail.?adresse/i
+/du gehörst zu den auserwählten/ui
+/du hast unser gewinnspiel gewonnen/i
+
 /(exklusive|sichere).{1,10}chance auf ein.{1,15}produktpaket/i
+/exklusive.{1,10}belohnungen.{1,40}(kostenlos|umfrage)/i
+/erhalten sie.{1,10}(belohnung|gutschein)/i
+
+/(einkauf|geschenk).{1,5}gutschein.{1,10}(kaufland|code)/i
 
 /gratis.{1,20}euro.{1,10}geschenkkarte.{1,10}sichern/i
 /gewinnen sie eine.{1,15}geschenkkarte/i
-/kostenlos ein.{1,20}zu erhalten/i
 
 /gewinnen.{1,10}jetzt bestätigen/iu
 /gewinnen sie einen.{1,15}wunschgutschein/i
 /gewinnen sie.{1,20}geschenkkarte/i
 /gewinn innerhalb von.{1,10}stunden erhalten/i
 
-/der inhaber dieser e?.?mail.?adresse/i
-/du gehörst zu den auserwählten/ui
+/gutscheine?.{1,10}im gesamtwert von/i
+/gutscheine?.{1,10}erinnerung/i
+
+/hauptpreis geht an sie/i
+/ihr(en)?.{1,10}(belohnung|gutschein) wartet/i
+
+/kostenlos ein.{1,20}zu erhalten/i
 
 /sie haben noch nicht geantwortet/i
 /sie haben eine kostenlose.{10,25}gewonnen/i
 /sie unsere.{1,10}umfrage/i
 /sie sind zugelassen/i
+/sie sich jetzt ihren?.{1,10}(belohnung|gutschein)/i
 /sie wurden für ein besonderes angebot/iu
 
-/wir vergeben deinen.{1,15}gutschein/i
+/umfrage.?(belohnung|gutschein)/i
 
 /(Öffne|öffne) sofort/iu
 
-/gutscheine?.{1,10}im gesamtwert von/i
-/gutscheine?.{1,10}erinnerung/i
-
-/(einkauf|geschenk).{1,5}gutschein.{1,10}(kaufland|code)/i
-
-/hauptpreis geht an sie/i
-
 /preis wird weitergeleitet/i
-
-/du hast unser gewinnspiel gewonnen/i
 
 # Sample: Rundschreiben X2ZI-M29U
 /(bestätigung|rundschreiben).?[0-9a-z]{4}-[0-9a-z]{4}/i
@@ -357,8 +364,14 @@
 
 /schnell.{1,10}stückzahl.{1,10}begrenzt/i
 
+/wir ihren?.{1,10}(belohnung|gutschein) liefern/i
+/wir vergeben deinen.{1,15}gutschein/i
+
 # Testing
 /testen.{1,10}gewinnen/i
+
+#
+/edeka.{1,10}(belohnung|gutschein) erhalten/i
 
 # Surveys
 # ------------------------------------------------------------------------------
@@ -402,26 +415,13 @@
 
 /amazon gutschein gewinnen/i
 
+#
+#
+#
+
 # Payments
 # ------------------------------------------------------------------------------
 /Sie haben Ihr.{1,20}guthaben nicht ausgezahlt/i
-
-# Rewards
-# ------------------------------------------------------------------------------
-/(belohnung|gutschein).{1,10}(freigeschaltet|ist zum versenden|wartet sie)/i
-
-/bestätigen sie ihr geschenk/iu
-/erhalten sie.{1,10}(belohnung|gutschein)/i
-/exklusive.{1,10}belohnungen.{1,40}(kostenlos|umfrage)/i
-
-/sie sich jetzt ihren?.{1,10}(belohnung|gutschein)/i
-/ihren?.{1,10}(belohnung|gutschein) wartet/i
-/wir ihren?.{1,10}(belohnung|gutschein) liefern/i
-/umfrage.?(belohnung|gutschein)/i
-/sie wurden für einen?.{1,15}(belohnung|gutschein) ausgewählt/iu
-
-#
-/edeka.{1,10}(belohnung|gutschein) erhalten/i
 
 # Subscriptions
 # ------------------------------------------------------------------------------
@@ -433,6 +433,10 @@
 /wir wollen dich immer noch zurück/i
 
 /ihre zahlung ist fehlgeschlagen/i
+
+# Tax
+# ------------------------------------------------------------------------------
+/wichtige mitteilung.{1,10}steuererstattung/i
 
 #
 #
