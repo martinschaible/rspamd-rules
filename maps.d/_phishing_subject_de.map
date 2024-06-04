@@ -52,7 +52,8 @@
 /benachrichtigung zur kontosperrung/i
 
 /sicherheit.{1,10}(bestätigen|) sie ihre/iu
-/sicherheitsupdate für ihr.{1,15}konto/iu
+/sicherheitsupdate.{1,10}ihr.{1,15}konto/i
+/sicherheitsupdate.{1,10}profilaktualisierung/i
 
 /(Überprüfen|überprüfen) sie ihre.{1,10}(kontodaten|persönlichen daten)/iu
 /(Überprüfen|überprüfen) sie ihr.{1,10}konto/i
@@ -497,6 +498,8 @@
 
 /ihre.{1,10}telefonnummer ist nicht.{1,15}gültig/iu
 /sie sich mit dieser e.?mail/i
+
+/profilaktualisierung erforderlich/i
 
 # Masked
 # ------------------------------------------------------------------------------
