@@ -148,6 +148,9 @@
 # Companies and Organisations
 # ------------------------------------------------------------------------------
 
+# DHL
+# Real sender: "DHL Paket"
+
 # DPD
 /mydpd.?(lieferung|versand)/i
 /dpd.{0,5}deutschland/i

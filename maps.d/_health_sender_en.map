@@ -112,8 +112,8 @@
 /healthy.?(brain|secret)/i
 
 /alzheimers/i
-/(alzheimer|dementia).{1,10}(test|trigger|warning)/i
-/brain.?(booster|cell|fog|scan)/i
+/(alzheimer|dementia).{1,10}(alert|test|trigger|warning)/i
+/brain.?(booster|cell|fog|health|scan)/i
 /memory.?(cure|hack|loss)/i
 /exotic.?spice/i
 /senior.?moments/i
@@ -197,9 +197,10 @@
 
 # Eyes, Vision
 # ------------------------------------------------------------------------------
-/(bad|blurred|blurry).?(eye.?sight|view|vision)/i
-/(20|clear|night|perfect|restore|weak).?(eye.?sight|view|vision)/i
+/(bad|blurred|blurry|poor).?(eye.?sight|view|vision)/i
+/(20|clear|flawless|night|perfect|restore|supreme|weak).?(eye.?sight|view|vision)/i
 
+/eagle.{1,10}vision/i
 /vision.?(enhancing|restorer?)/i
 
 /bad.?eyes/i
@@ -475,6 +476,7 @@
 /(avoid|drink).?this/i
 /clinically.?proven/i
 /dead.?foods?/i
+/doctor.?warning/i
 /home.?treatment/i
 /ancient.?ritual/i
 /(japanese|taiwan).?(hack|trick)/i
