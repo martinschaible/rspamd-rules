@@ -117,6 +117,10 @@
 
 # Path and files
 # ------------------------------------------------------------------------------
+
+# Sample: com/dwnld/PO_JD09220001_0107002400045.iso
+/[a-z0-9]{2,20}\.iso/i
+
 # Sample: .com/admin/temp/newsletters/190/whatsapp%20image
 /newsletters\/[a-z0-9]{2,10}\/whatsapp/i
 

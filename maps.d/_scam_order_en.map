@@ -19,11 +19,13 @@
 # Catalog
 # ------------------------------------------------------------------------------
 /(brochure|catalog|catalogue).{1,10}e?.?mail for our consideration/i
+/(brochure|catalog|catalogue).{1,10}your company products/i
 /(brochure|catalog|catalogue).{1,10}price list.{1,10}payment method/i
 
 /provide us.{1,15}(brochure|catalog|catalogue).{1,10}of your products/i
 /provide us.{1,15}(brochure|catalog|catalogue).{1,10}data.?sheet for approval/i
 
+/send me a copy of your.{1,15}(brochure|catalog|catalogue)/i
 /share with us your.{1,15}(brochure|catalog|catalogue)/i
 /kindly send me your.{1,15}(brochure|catalog|catalogue)/i
 /pi for.{1,10}attached po/i
