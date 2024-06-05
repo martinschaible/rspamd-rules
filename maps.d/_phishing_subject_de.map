@@ -95,6 +95,7 @@
 /ihre.{1,15}karte (ist|wurde).{1,15}(deaktiviert|gesperrt)/i
 /ihre.{1,15}karte.{1,10}vorübergehend.{1,10}eingeschränkt/i
 
+/sicherheitsbenachrichtigung zu ihrer.{1,15}karte/i
 /warnung.{1,10}verdächtige transaktion/iu
 
 # Return for double payed invoices
@@ -311,6 +312,7 @@
 
 /sie sind der auserwählte/iu
 
+/bald ablaufend.{1,10}ihre/i
 /bestätigung.{1,10}ihre bestellung zu (versenden|verschicken)/iu
 /bestätigen sie ihr geschenk/iu
 

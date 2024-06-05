@@ -96,6 +96,16 @@
 # Sample: (1)
 /\(\d\)/i
 
+# Sample: Mary (32) 
+/[a-z]\{2,15}.?\(\d{2}\)/i
+
+# Sample: _66230
+#         *42424
+/(_|\*)\d{2,10}$/i
+
+# Sample: #89734"
+/#\d{1,5}"?$/i
+
 # A few question marks
 /\?\?\?/i
 
