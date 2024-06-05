@@ -148,6 +148,9 @@
 # Companies and Organisations
 # ------------------------------------------------------------------------------
 
+# DB
+/deutsche.?bahn.{1,5}gutschein/i
+
 # DHL
 # Real sender: "DHL Paket"
 
@@ -205,6 +208,9 @@
 /steuerrückerstattungsdienst/iu
 /steuerzahlung/i
 
+# Swiss Post
+# Real Sender: "Post CH AG - Info Sendungsstatus"
+
 # Swiss Railway
 /sbbch/i
 /sbbcff/i
@@ -213,6 +219,7 @@
 
 # Twint
 /twint-\[a-z]{2}/i
+/twint.?team/i
 
 # UPS
 /ups.?gmbh/i
