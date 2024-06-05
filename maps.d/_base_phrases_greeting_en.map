@@ -7,8 +7,6 @@
 
 # Greetings
 # ------------------------------------------------------------------------------
-/greetings.{1,10}my.name.is.{5,20}from/i
-
 /(dear|hello|hi).{1,10}(madam|sir).{1,10}greetings of the day/i
 
 /(dear|hello|hi).{1,10}(madam|sir).{1,10}do you require/i
@@ -188,6 +186,8 @@
 /dear sir.{1,5}madam.{1,10}my name is/i
 /dear colleague.{1,10}my name is/i
 
+/greetings.{1,10}my.name.is.{5,20}from/i
+
 /introduction.{1,10}my name is/i
 
 /(hello|hi).{1,10}i am (mrs?|ms)/i
@@ -245,22 +245,24 @@
 
 # Introduction, Country
 # ------------------------------------------------------------------------------
+/(dear|hello|hi).{1,10}(sir|madam).{1,10}we are.{1,20}china/i
+
 /my name is.{5,30}i.?a?m from.{1,10}(china|india|ukraine)/i
 /my name is.{5,30}from.{1,10}(china|india|ukraine)/i
 
 /hello.{1,10}i.?a?m.{5,25}a hong.?kong/i
 /hello.{1,10}i.?a?m.{5,25}from.{1,25}(china|india|ukraine)/i
 
-/i have your audience.{1,10}i.?a?.?m from/i
+/i.?a?m (mrs?|ms).{5,25}a citizen of/i
 /i.?a?m (mrs?|ms).{5,25}libian nationality/i
-/i.?a?m (mrs?|ms).{5,25} a citizen of/i
+/i.?a?m (mrs?|ms).{5,25}from.{1,10}kuwait/i
 /i.?a?m a?.{5,25}indian business/i
+/i.?a?m.{5,25}from.{1,10}shenzhen/i
 
+/i have your audience.{1,10}i.?a?.?m from/i
 /hi.{1,10}i.?a?m.{1,10}an? indian/i
 
-/(dear|hello|hi).{1,10}(sir|madam).{1,10}we are.{1,20}china/i
-
-/we are india based.{1,10}company/i
+/we are.{1,10}india based.{1,10}company/i
 
 # Introduction, Title
 # ------------------------------------------------------------------------------
@@ -307,12 +309,6 @@
 
 /we have over.{1,10}years.{1,10}experience in/i
 
-#
-/i.?a?m (mrs?|ms).{5,25}from.{1,10}kuwait/i
-/i.?a?m.{5,25}from.{1,10}shenzhen/i
-
-# Introduction, Title
-# ------------------------------------------------------------------------------
 /we are.{1,10}digital marketing company/i
 /we are.{1,10}trading company/i
 
@@ -333,15 +329,6 @@
 
 # Help
 # ------------------------------------------------------------------------------
-
-# Religious
-# ------------------------------------------------------------------------------
-/message finds you well.{1,10}by the grace of allah/i
-/may the peace of the lord/i
-
-# Surprise
-# ------------------------------------------------------------------------------
-/this letter may come to you as.{1,10}surprise/i
 
 # Silly Stuff
 # ------------------------------------------------------------------------------

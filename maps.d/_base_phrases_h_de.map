@@ -54,8 +54,13 @@
 /ich hoffe.{1,10}sie haben meinen brief erhalten/i
 
 /diese.{1,10}(e?.?mail|nachricht).{1,10}erreicht dich gut gelaunt/i
+/diese.{1,10}(e?.?mail|nachricht).{1,10}erreicht sie in guter verfassung/i
+/diese.{1,10}(e?.?mail|nachricht).{1,10}(findet|trifft) sie gut/i
+/diese.{1,10}(e?.?mail|nachricht).{1,10}sie gut findet/i
 
 /(lieber|sehr geehrter) e?.?mail.?benutzer/i
+
+/nachricht bei guter gesundheit sind/i
 
 /sie der richtige besitzer dieser.{1,10}e?.?mail/i
 /sie den besitz dieser.{1,10}e?.?mail.{1,10}bestätigen/i
@@ -90,16 +95,23 @@
 # E-Mail surprise
 # ------------------------------------------------------------------------------
 /diese (benachrichtigung|e?.?mail).{1,10}sie überraschend kommt/i
+/diese (benachrichtigung|e?.?mail).{1,10}sie überraschen wird/iu
+
+/meine e?.?mail.{1,10}sie eine überraschung sein wird/iu
+/sie diese (benachrichtigung|e?.?mail).{1,10}überraschen wird/iu
 
 # Excuses and other silly stuff
 # ------------------------------------------------------------------------------
-/wenn ich ihre privatsphäre störe/iu
+/ich.{1,10}um ihre aufmerksamkeit bitten/i
+/ich entschuldige mich für dieses eindringen/iu
+
 /entschuldigen sie.{1,10}art der kontaktaufnahme/i
 /entschuldigen sie.{1,10}eingriff in ihre privatsphäre/iu
 
 /es ist mir eine freude.{1,10}ihnen zu schreiben/i
 
 /nachricht auf diesem weg zu ihnen gelangt ist/i
+/wenn ich ihre privatsphäre störe/iu
 
 # Free
 # ------------------------------------------------------------------------------

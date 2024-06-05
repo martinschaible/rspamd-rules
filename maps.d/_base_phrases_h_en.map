@@ -70,8 +70,9 @@
 
 # E-Mail surprise
 # ------------------------------------------------------------------------------
-/my.{1,10}(e?.?mail|letter) came to you as.{1,10}surprise/i
-/my.{1,10}(e?.?mail|letter) came a.{1,10}surprise to you/i
+/(my|this).{1,10}(e?.?mail|letter).{1,10}(came|come) a.{1,10}surprise to you/i
+/(my|this).{1,10}(e?.?mail|letter).{1,10}(came|come) to you as.{1,10}surprise/i
+
 /you as a.{1,10}surprise as we have.{1,10}no previous correspondence/i
 
 # Excuses and other silly stuff
@@ -166,6 +167,8 @@
 # Religious
 # ------------------------------------------------------------------------------
 /may the name.{1,10}god be praised/i
+/message finds you well.{1,10}by the grace of allah/i
+/may the peace of the lord/i
 
 # Sickness, Dying :-)
 # ------------------------------------------------------------------------------
