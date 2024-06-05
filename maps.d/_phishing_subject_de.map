@@ -29,14 +29,15 @@
 /(aktualisieren?|bestätigen?).{1,10}(deine|sie).{1,10}(konto|sicherheits).?informationen/i
 /(aktualisieren?|bestätigen?).{1,10}(deine|sie).{1,10}kontodaten/i
 
-/konto bleibt begrenzt/i
-/konto braucht ihre aufmerksamkeit/i
-/konto ist nicht konform/i
-/konto ist möglicherweise eingeschränkt/iu
-/konto erfordert eine maßnahme/i
-/konto wird.{1,10}(bald gesperrt|begrenzt|eingeschränkt)/iu
-
 /konto.{1,15}(aktualisierung|update|überprüfung) erforderlich/iu
+/konto.{1,10}bleibt begrenzt/i
+/konto.{1,10}braucht ihre aufmerksamkeit/i
+/konto.{1,10}erfordert eine maßnahme/i
+/konto.{1,10}gesperrt.{1,20}(fehlgeschlagen|kontakt)/i
+/konto.{1,10}ist nicht konform/i
+/konto.{1,10}ist möglicherweise eingeschränkt/iu
+/konto.{1,10}wird.{1,10}(bald gesperrt|begrenzt|eingeschränkt)/iu
+
 /kontosperrung.{1,10}vermeiden/i
 
 /wir mussten.{1,15}konto.?funktionen einschränken/iu
@@ -142,7 +143,8 @@
 /sie müssen sich neu identifizieren/iu
 /sollten aktualisiert werden/i
 
-/aktualisierung erforderlich.{1,10}konto/i
+/aktualisierung.{1,10}erforderlich.{1,10}konto/i
+/verifizierung.{1,10}erforderlich/i
 
 # Banking
 # ------------------------------------------------------------------------------
