@@ -306,7 +306,7 @@
 #
 #
 
-# Rewards
+# Winning, Present, Rewards
 # ------------------------------------------------------------------------------
 /(belohnung|gutschein).{1,10}(freigeschaltet|ist zum versenden|wartet sie)/i
 
@@ -376,25 +376,7 @@
 #
 /edeka.{1,10}(belohnung|gutschein) erhalten/i
 
-# Surveys
-# ------------------------------------------------------------------------------
-/beantworten.{1,10}bevor wir die belohnung/i
-/beantworten.{1,10}sie unsere befragung/i
-/beantworten.{1,10}sie.{1,20}einige fragen/i
-
-/exklusive.{1,10}umfragebelohnung/i
-
-/sie eine kurze umfrage/i
-
-/meinung ab.{1,10}verdiene eine belohnung/i
-/nehmen sie an dieser.{1,10}umfrage teil/i
-
-/umfrage.{1,10}gewinn/i
-/umfrage.{1,10}verdienen sie ihre/i
-
-/teilnehmer werden.{1,20}belohnung.{1,10}erhalten/i
-
-# Winning, Products
+# Companies, Products
 # ------------------------------------------------------------------------------
 /iphone.{0,10}pro.{1,10}ausstehende sendung/i
 /du hast ein.{1,10}iphone.{0,10}pro/i
@@ -417,6 +399,25 @@
 /temu.?palette/i
 
 /amazon gutschein gewinnen/i
+
+
+# Surveys
+# ------------------------------------------------------------------------------
+/beantworten.{1,10}bevor wir die belohnung/i
+/beantworten.{1,10}sie.{1,20}(einige fragen|unsere befragung)/i
+
+/exklusive.{1,10}umfragebelohnung/i
+
+/sie eine kurze umfrage/i
+
+/meinung zählt.{1,10}gewinnen sie/iu
+/meinung ab.{1,10}verdiene eine belohnung/i
+/nehmen sie an dieser.{1,10}umfrage teil/i
+
+/umfrage.{1,10}gewinn/i
+/umfrage.{1,10}verdienen sie ihre/i
+
+/teilnehmer werden.{1,20}belohnung.{1,10}erhalten/i
 
 #
 #
