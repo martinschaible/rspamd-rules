@@ -15,29 +15,28 @@
 
 /\d{1,2}.{1,5}/(kg|kilo).{1,10}in.{1,10}monat/i
 
+/abzunehmen.{1,15}ohne verzicht/i
+/alle überschüssigen kilos loswerden/i
+
 /bauchfett.{1,10}(los(zu)?werden|verlieren|verschwindet)/i
 
 /heilmittel gegen.{1,20}fett/i
-
-/verlieren sie bis zu.{1,10}kg in.{1,10}(monat|tagen)/i
-/verlieren sie.{1,10}gewicht mit/i
-
-/zu hartnäckigem fett/i
 
 /(effektive weg|schnellen?).{1,10}gewichts.?(reduktion|verlust)/i
 
 /gewichtsverlust.{1,10}produkt/i
 
+/nr\..{1,10}gewichtsverlust/i
+/ohne diät.{1,10}ohne sport/iu
 /schlankheits.?revolution/i
 
-/abzunehmen.{1,15}ohne verzicht/i
-/alle überschüssigen kilos loswerden/i
-
-/zu einem.{1,10}fett.?verbrenner/i
+/verlieren sie bis zu.{1,10}kg in.{1,10}(monat|tagen)/i
+/verlieren sie.{1,10}gewicht mit/i
 
 /wollen sie.{1,15}ihr wunschgewicht erreichen/i
 
-/ohne diät.{1,10}ohne sport/iu
+/zu einem.{1,10}fett.?verbrenner/i
+/zu hartnäckigem fett/i
 
 # Products
 # ------------------------------------------------------------------------------

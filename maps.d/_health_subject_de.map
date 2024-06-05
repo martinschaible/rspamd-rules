@@ -71,20 +71,22 @@
 # ------------------------------------------------------------------------------
 /(kg|kilo|pfund).{1,10}in.{1,10}tagen.{1,10}(abnehmen|verlieren)/i
 
+/fettverbrenner/i
+
 /abnehm.?quiz/i
-/schlank.?paket/i
+/abnehmen.{1,10}kg in.{1,10}tagen/i
 /bauchfett.{1,10}(verlieren|verschwindet)/i
 
 /haben sie gewichtsprobleme/i
 
 /sicherer.{1,10}gewichts.?verlust/i
+/schlank.?paket/i
 
-/abnehmen.{1,10}kg in.{1,10}tagen/i
+/nr\..{1,10}gewichtsverlust/i
+
 /verbrennen sie.{1,10}kalorien/i
 /verlieren sie.{1,10}gewicht/i
 /verlieren sie bis zu.{1,10}kg/i
-
-/fettverbrenner/i
 
 # Heart, blood pressure
 # ------------------------------------------------------------------------------
