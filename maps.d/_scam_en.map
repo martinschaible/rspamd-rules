@@ -120,20 +120,18 @@
 # ------------------------------------------------------------------------------
 /benefit for investment in your.{1,15}country/i
 /viable investment opportunities in your.{1,15}country/i
-/(who want|you) to.{1,10}invest in your.{1,15}country/i
 
-/i.{1,10}like to invest in your.{1,15}country/i
+/(who want|you).{1,15}invest in your.{1,15}country/i
+/i.{1,10}(can|like).{1,15}invest in your.{1,15}country/i
 
 /profit.{1,15}investment.{1,15}venture.{1,10}in your.{1,15}country/i
 
 /your location.{1,10}i can invest/i
 
+/interested.{1,25}joint venture.{1,10}in your.{1,15}(country|nation)/i
 /investment project around your.{1,10}(country|location)/i
 
-/interested.{1,25}joint venture.{1,10}in your.{1,15}(country|nation)/i
-
 /we are.{1,10}consultancy firm.{1,15}looking.{1,10}finance/i
-
 /you about.{1,10}investment.{1,10}opportunity/i
 
 # Legal
