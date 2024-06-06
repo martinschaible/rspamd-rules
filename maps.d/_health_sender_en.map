@@ -292,7 +292,7 @@
 
 # Knee
 # ------------------------------------------------------------------------------
-/(bad|circa|painful|your).?knees?/i
+/(aching|bad|circa|painful|your).?knees?/i
 /knee.?(cartilage|compression|help|pain)/i
 /compression.?sleeve/i
 
@@ -353,7 +353,7 @@
 # Prostatitis
 # ------------------------------------------------------------------------------
 /(prostate|prostatitis)/i
-/your.?pee/i
+/(nightmare|your).?pee/i
 /(urin|pee).?leaks/i
 
 /dribbling.{1,10}urine/i
@@ -481,6 +481,7 @@
 /clinically.?proven/i
 /dead.?foods?/i
 /doctor.?warning/i
+/fried.?chicken/i
 /home.?treatment/i
 /ancient.?ritual/i
 /(japanese|taiwan).?(hack|trick)/i
