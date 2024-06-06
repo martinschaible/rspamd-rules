@@ -1,6 +1,8 @@
 # ==============================================================================
 # Stocks: Subject
 #
+# ----|
+# 1.1 |
 # ----|----------------|
 #  10 | English        |
 # ==============================================================================
@@ -15,21 +17,17 @@
 /your claim today/i
 /with this stock/i
 
-/launch your wealth journey/i
-/propel your portfolio/i
-/rocket your returns/i
-/skyrocket your wealth/i
-/portfolio to new heights/i
-
 #
 #
 #
 
 # Unclassified
 # ------------------------------------------------------------------------------
-/(ignite|illuminate|maximize).{1,10}your (earnings|portfolio|wealth)/i
+/(ignite|illuminate|launch|maximize|propel|rocket).{1,10}your (earnings|portfolio|returns|wealth)/i
 /blueprint.{1,10}financial prosperity/i
+
 /explosive investment/i
+/portfolio to new heights/i
 /time to harvest profits/i
 
 # Masked

@@ -1,25 +1,26 @@
 # ==============================================================================
 # Scam: ATM Cards
 #
+# ----|
+# 1.1 |
 # ----|----------------|
 #  10 | English        |
 # ==============================================================================
 
 # ATM Card
 # ------------------------------------------------------------------------------
-/attn.{1,10}atm.{0,10}card.{1,10}owner/i
-/attention.{1,10}card.{1,10}owner/i
+/att(ention)?.{1,15}card.{1,10}owner/i
 
 /atm.{0,10}card.{1,10}bearing your name/i
 /atm.{0,10}card.{1,10}delivery/i
 /atm.{0,10}card.{1,10}for you worth/i
 /atm.{0,10}card.{1,10}has been approved/
-/atm.{0,10}card.{1,10}i am contacting you /i
+/atm.{0,10}card.{1,10}i am contacting you/i
 /atm.{0,10}card.{1,10}in your name/i
 /atm.{0,10}card.{1,10}to you.{1,10}contact/i
 /atm.{0,10}card.{1,10}parcel valued/i
 /atm.{0,10}card.{1,10}we have deposited/i
-/atm.{0,10}card.{1,10}worth of.{1,10}million/i
+/atm.{0,10}card.{1,10}worth.{1,10}(million|sum of)/i
 /atm.{0,10}card.{1,10}worth.{1,10}sum of/i
 /atm.{0,10}card.{1,10}worth.{1,10}(dollar|euro?|gbp|usd)/i
 
