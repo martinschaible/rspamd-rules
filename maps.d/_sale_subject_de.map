@@ -176,9 +176,9 @@ grill.{1,10}statt.{1,10}nur/i
 # Surveillence Camera
 # ------------------------------------------------------------------------------
 /unsere (erschwingliche|kabellose).{1,10}kamera/i
-/überwachung.{1,10}sonderangebot/iu
-/überwachungskamera.{1,10}zum sonderpreis/iu
+/überwachung.{1,15}(sichern sie|sonderangebot|sonderpreis)/iu
 
+/jetzt mit.{1,15}überwachungskamera/i
 /ihr neues.{1,10}sicherheits.?system/i
 
 # Starthilfe
@@ -303,6 +303,8 @@ grill.{1,10}statt.{1,10}nur/i
 /jetzt zuschlagen.{1,10}(\d{2,3}|nur)/i
 
 /exklusiven lagerabverkaufsangebot/i
+
+/sichern sie sich unser exklusives angebot/i
 
 /statt \d{3}.{1,10}nur \d{3}/i
 /statt uvp \d{3}.{1,10}nur \d{3}/i
