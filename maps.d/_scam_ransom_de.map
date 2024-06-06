@@ -1,6 +1,8 @@
 # ==============================================================================
 # Scam: Ransom
 #
+# ----|
+# 1.1 |
 # ----|----------------|
 #  10 | German         |
 # ==============================================================================
@@ -10,24 +12,23 @@
 /ich bin ein hacker/i
 /ich bin ein professioneller hacker/i
 
-/ich mir zugang zu.{1,10}computer.{1,10}verschafft/i
-/ich mir zugang zu seinen geräten/iu
-/ich habe eine kopie.{1,15}webcam/i
 /ich auf alle daten auf deinem.{1,15}zugreifen/iu
+/ich habe eine kopie.{1,15}webcam/i
 
-/ich.{1,10}zugriff auf (dein|ihr).{1,10}konto habe/i
-/ich.{1,10}zugriff auf (deine|ihre) geräte/iu
+/ich.{1,10}(zugang|zugriff) (auf|zu).{1,10}(deine?|ihre?).{1,10}(dateien|geräte|konto)/i
+/ich.{1,10}(zugang|zugriff) (auf|zu).{1,10}computer.{1,10}verschafft/i
 
 /ihr system wurde geknackt/i
 /habe ich.{1,10}zugriff auf ihre dateien/i
 
+# Malware
+/dieser virus ermöglichte mir/iu
+
+/ich erfolgreich den trojaner.?virus/i
+/installierte ich.{1,10}trojaner erfolgreich/i
 /ihr gerät mit meinem privaten/iu
 /ihnen besuchte web.?site mit einem trojaner/i
 
-/installierte ich.{1,10}trojaner erfolgreich/i
-
-/ich erfolgreich den trojaner.?virus/i
-/dieser virus ermöglichte mir/iu
 /meine spyware ist/i
 /mein virus hat ihr gerät/iu
 
