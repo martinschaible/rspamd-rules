@@ -16,6 +16,7 @@
 
 # Missing, wrong address
 # ------------------------------------------------------------------------------
+/adresse.{1,10}falsch ist.{1,10}bestätigen sie ihre angaben/iu
 /adresse.{1,10}für dieses.{1,10}paket mitteilen/iu
 /adresse.{1,10}innerhalb der.{1,20}stunden zu aktualisieren/i
 /adresse.{1,10}korrigieren und.{1,15}zu bezahlen/i
@@ -73,7 +74,8 @@
 /(paket|sendung).{1,20}kann nicht zugestellt werden.{1,20}aktualisieren sie.{1,15}adresse/i
 /(paket|sendung).{1,20}konnte nicht.{1,10}zugestellt werden.{1,15}falsche.{1,15}adresse/i
 /(paket|sendung).{1,20}konnte nicht.{1,20}werden.{1,10}da bei derzustellung/i
-/(paket|sendung).{1,10}zuzustellen.{1,10}aufgrund einer falschen.{1,15}adresse/i
+/(paket|sendung).{1,20}zustellen.{1,10}aufgrund einer falschen.{1,15}adresse/i
+/(paket|sendung).{1,20}zustellen.{1,10}da ihre adresse falsch ist/i
 
 /aufgrund unvollständiger.{1,15}angaben nicht zugestellt werden/iu
 /nicht zustellen.{1,10}da keine.{1,20}anwesend war/i
