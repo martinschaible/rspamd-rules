@@ -82,58 +82,6 @@
 
 /your inheritance.{1,10}contract.{1,10}payment/i
 
-# Investment
-# ------------------------------------------------------------------------------
-/assist me in.{1,10}establishing.{1,15}investment/i
-/assist us with.{1,10}solution.{1,10}reliable.{1,10}investment/i
-
-/confidential.{1,10}investment.{1,10}partnership/i
-/my need for assistance.{1,10}profiling.{1,20}(funds|investment)/i
-
-/i want.{1,10}invest in.{1,10}legitimate fund/i
-/i have.{1,10}investor.{1,10}want to invest/i
-/i have.{1,10}investment.{1,10}(fund|opportunities)/i
-
-/i represent.{1,10}(finance|investor)/i
-
-/important.{1,10}business.{1,10}investment proposal/i
-/important.{1,10}investment proposal/i
-
-/invest.{1,10}in your country.{1,10}you as.{1,10}foreign partner/i
-/investor can invest in.{1,10}viable/i
-/investing in your country.{1,15}needs your.{1,10}assistance/i
-
-/inquiry.{1,10}investment/i
-/investment.proposition/i
-
-/interest in investing.{1,10}your company/i
-
-/you.{1,10}viable investment.{1,10}proposal/i
-/you.{1,10}help me invest.{1,10}funds/i
-/you.{1,10}to assist me to invest/i
-/you.{1,10}that our client is willing to invest/i
-
-/your available investment projects/i
-/your country.{1,15}i can make.{1,10}investment/i
-
-# Investment, Country
-# ------------------------------------------------------------------------------
-/benefit for investment in your.{1,15}country/i
-/viable investment opportunities in your.{1,15}country/i
-
-/(who want|you).{1,15}invest in your.{1,15}country/i
-/i.{1,10}(can|like).{1,15}invest in your.{1,15}country/i
-
-/profit.{1,15}investment.{1,15}venture.{1,10}in your.{1,15}country/i
-
-/your location.{1,10}i can invest/i
-
-/interested.{1,25}joint venture.{1,10}in your.{1,15}(country|nation)/i
-/investment project around your.{1,10}(country|location)/i
-
-/we are.{1,10}consultancy firm.{1,15}looking.{1,10}finance/i
-/you about.{1,10}investment.{1,10}opportunity/i
-
 # Legal
 # ------------------------------------------------------------------------------
 /this venture is legal/i
@@ -171,23 +119,6 @@
 /you have the same.{1,10}(last|sur).?name/i
 
 /(deceased|late).{1,10}(client|customer).{1,10}of mine.{1,10}shares the same.{1,10}name/i
-
-# Transaction
-# ------------------------------------------------------------------------------
-/transaction.{1,20}if you are (interested|sure you can handle)/i
-/transaction.{1,10}that will benefit you/i
-
-/trustworthy individual.{1,10}transaction/i
-
-/have these.{1,10}funds.{1,10}transferred to you/i
-
-/you.{1,10}help.{1,15}(manage|move|transfer).{1,15}(asset|sum)/i
-/you.{1,10}play.{1,20}role in the completion of this business/i
-
-/your.{1,10}assistance.{1,10}(manage|move|transfer|transferring).{1,10}\d{3}.{0,5}\d{3}.{1,10}(dollar|euro?|gbp|usd)/i
-/your.{1,10}assistance.{1,10}(manage|move|transfer|transferring).{1,10}the sum/i
-
-/your.{1,10}trust in this transaction/i
 
 # Trustworthy Person
 # ------------------------------------------------------------------------------
