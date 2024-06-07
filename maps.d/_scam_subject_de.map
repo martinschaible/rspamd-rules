@@ -40,7 +40,7 @@
 /spenden.?angebot.{1,10}\d{2,3}.{1,10}\d{2,3}/i
 /spenden.?zuschuss (von|\d{2,3}.{1,10}\d{2,3})/i
 
-/Spende.{1,10}\d{2,3}.{1,5}\d{2,3}/i
+/spende.{1,10}\d{2,3}.{1,5}\d{2,3}/i
 /spende.{1,10}\d{2,3}.{1,10}(euro|gbp|usd)/i
 
 /spende.{1,10}donation/i
