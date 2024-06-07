@@ -36,6 +36,7 @@
 /it.?noreply/i
 
 /mailbox.?admin/i
+/message.?center/i
 /security.notification/i
 /support.?notice/i
 /(e?.?mail|support|webmail).{0,5}(admin|notice|server|support|team)/i
@@ -127,7 +128,6 @@
 # Costco
 
 # DHL
-
 /dhl.{0,5}(express|package)/i
 /notification.{0,5}dhl/i
 

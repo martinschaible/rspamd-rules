@@ -51,14 +51,12 @@
 
 # Parcel
 # ------------------------------------------------------------------------------
-/(anweisungen|ausstehend|dringend)/i
+/(abholung|anweisungen|ausstehend|dringend|zustellung)/i
 
 /bestellung.?versand/i
 /bestellung.?\d{2,10}/i
 
-/liefer.?aktualisierung/i
-/liefer.?status?.?meldungen/i
-/lieferung.?tracking/i
+/liefer(ung)?.?(aktualisierung|express|status?.?meldungen|tracking)/i
 
 /paket.?(bestaetigungen|status)/i
 /paket wartet auf die lieferung/i
@@ -71,15 +69,9 @@
 /versand.?(bereitschaft|hinweise|status.?team)/i
 
 /zustell.?(assistenz|aktualisierung|nachrichten|status)/i
-/zustellung/i
 
 /-paketzustellung/i
 /unterstützung/i
-
-/abholung/i
-
-#
-/hermes.{1,10}lieferung/i
 
 #
 #
@@ -121,12 +113,14 @@
 
 /heutige.{0,10}gewinner/i
 
-# A to L
-/(ali.?express|declathon|edeka|kaufland|le.?creuset|lidl).{0,5}(abteilung|angebot|code|geschenkkarte|gewinner|gutschein|kontakt|sender|sendung|umfrage|zustelllung)/i
-/(ali.?express|declathon|edeka|kaufland|le.?creuset|lidl).{0,5}help.?desk/i
-# K to Z
-/(media.?market|otto|persil|rewe|temu).{0,5}(abteilung|angebot|code|geschenkkarte|gewinner|gutschein|kontakt|sender|sendung|umfrage|zustelllung)/i
-/(media.?market|otto|persil|rewe|temu).{0,5}.{0,5}help.?desk/i
+# A to K
+/(ali.?express|apple|declathon|deutsche.?bahn|edeka|kaufland).{0,5}(abteilung|angebot|bestätigung|code)/i
+/(ali.?express|apple|declathon|deutsche.?bahn|edeka|kaufland).{0,5}(geschenke|geschenkkarte|gewinner|gutschein)/i
+/(ali.?express|apple|declathon|deutsche.?bahn|edeka|kaufland).{0,5}(help.?desk|kontakt|sender|sendung|umfrage|zustellung)/i
+# L to Z
+/(le.?creuset|lidl|media.?market|otto|persil|rewe|temu).{0,5}(abteilung|angebot|bestätigung|code)/i
+/(le.?creuset|lidl|media.?market|otto|persil|rewe|temu).{0,5}(geschenke|geschenkkarte|gewinner|gutschein)/i
+/(le.?creuset|lidl|media.?market|otto|persil|rewe|temu).{0,5}(help.?desk|kontakt|sender|sendung|umfrage|zustellung)/i
 
 /kaufland.{0,5}#\d{1,10}/i
 /kauf\.land/i
@@ -139,7 +133,6 @@
 # Brands, Products
 # ------------------------------------------------------------------------------
 /pro.?gewinner/i
-/apple.?(abteilung|geschenke?)/i
 
 #
 #
@@ -148,37 +141,21 @@
 # Companies and Organisations
 # ------------------------------------------------------------------------------
 
-# DB
-/deutsche.?bahn.{1,5}gutschein/i
+/(fedex|hermes|mydpd|swiss).{0,10}(abteilung|lieferung|versand)/i
 
 # DHL
 # Real sender: "DHL Paket"
 
 # DPD
-/mydpd.?(lieferung|versand)/i
 /dpd.{0,5}deutschland/i
+/dpd-ch/i
+/dpd_versandabteilung/i
 
 # Lexoffice
 /lexoffice.?konto/i
 
-# Lidl
-/lidl.?bestätigung/i
-
 # ING-DiBa AG
 /diba-ag/i
-
-# Parcel
-/dpd-ch/i
-/dpd_versandabteilung/i
-
-/die(\.|-)?post/i
-
-/post.{1,5}schweiz/i
-/schweizer.?post/i
-
-/(fedex|hermes|swiss).?(abteilung|lieferung)/i
-
-/liefer.?express/i
 
 # PayPal
 /paypal.?(fall|hilfe.?center|konto|kunde|kundin|sicherheit)/i
@@ -210,6 +187,10 @@
 
 # Swiss Post
 # Real Sender: "Post CH AG - Info Sendungsstatus"
+/die(\.|-)?post/i
+
+/post.{1,5}schweiz/i
+/schweizer.?post/i
 
 # Swiss Railway
 /sbbch/i
@@ -234,10 +215,9 @@
 
 # Bad german
 # ------------------------------------------------------------------------------
-/bankenmeldung/i
-/helpcentrum/i
-/selektiert/i
+/(bankenmeldung|helpcentrum|selektiert)/i
+
+/belohnungsabteilung/i
 /sendungsbereitmeldung/i
 /schnelllieferdienst/i
 /versandbereitstellung/i
-/belohnungsabteilung/i
