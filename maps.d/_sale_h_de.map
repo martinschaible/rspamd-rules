@@ -263,11 +263,11 @@
 
 # Tools
 # ------------------------------------------------------------------------------
-/werkzeugset statt.{1,10}nur/i
-/werkzeugset mit.{1,10}teilen/i
+/werkzeug.?set statt.{1,10}nur/i
+/werkzeug.?set mit.{1,10}teilen/i
 
-/sonderposten.{1,10}werkzeugset/i
-/unser.{1,10}teiliges.{1,10}werkzeugset/i
+/(sonderposten|ultimatives).{1,15}werkzeug.?set/i
+/unser.{1,10}teiliges.{1,10}werkzeug.?set/i
 
 # Translator
 # ------------------------------------------------------------------------------
