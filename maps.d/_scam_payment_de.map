@@ -1,0 +1,35 @@
+# ==============================================================================
+# Scam: Payments and Compensations
+#
+# ----|
+# 1.1 |
+# ----|----------------|
+#  10 | German         |
+# ==============================================================================
+
+# Compensation
+# ------------------------------------------------------------------------------
+/ihnen ein betrag von.{1,10}\d{3}.{0,5}\d{3}.{1,10}als entschädigungszahlung/iu
+/ihnen eine entschädigungs.?summe von/iu
+/ihnen eine entschädigung.{1,10}in höhe von.{1,10}\d{3}.{0,5}\d{3}.{1,10}als beitrag/iu
+
+/erbschafts.{1,10}entschädigungs.?zahlung/iu
+/sie vom entschädigungsausschuss/iu
+
+# Google
+/entschädigt google sie mit/iu
+/(million|dollar|euro?|gbp|usd).{1,10}die nutzung.{1,10}google browsers/i
+
+# Payments
+# ------------------------------------------------------------------------------
+/antworten sie.{1,10}ihr geld anfordern/i
+
+/ich überweise ihnen den betrag von.{1,10}(million|dollar|euro?|gbp|usd)/i
+/ihre zahlung zu genehmigen.{1,15}registrieren/i
+
+/sie aufgrund einer ausstehenden.{1,10}überweisung/iu
+/sie sich zur geltendmachung ihres anspruchs/i
+/sie (werden|wurden).{1,10}mit.{1,10}summe von.{1,10}\d{3}.{0,5}\d{3}/i
+/sie (werden|wurden).{1,10}mit.{1,10}summe entschädigt/iu
+
+/zahlung von.{1,10}\d{3}.{0,5}\d{3}.{1,15}(million|dollar|euro?|gbp|usd).{1,10}auf ihr konto/i
