@@ -56,8 +56,11 @@
 /sicherheitsupdate.{1,10}ihr.{1,15}konto/i
 /sicherheitsupdate.{1,10}profilaktualisierung/i
 
+/sicherheitsüberprüfung ihres kontos.{1,15}erforderlich/iu
+
 /(Überprüfen|überprüfen) sie ihre.{1,10}(kontodaten|persönlichen daten)/iu
 /(Überprüfen|überprüfen) sie ihr.{1,10}konto/i
+
 /überprüfung ihrer.{1,15}kontoinformationen erforderlich/i
 
 /informationen zu ihrem.{1,15}konto.{1,15}fehlen/i
@@ -504,7 +507,8 @@
 /(dringend|wichtig).{1,10}registrieren sie sich jetzt/i
 /mahnung.{1,10}dringender handlungsbedarf/i
 
-/handlung erforderlich.{1,10}(dauernde|sperrung)/i
+/(handeln|handlung) erforderlich.{1,10}(dauernde|sperrung)/i
+/(handeln|handlung) erforderlich.{1,10}lösen sie ihr problem/iu
 
 /neue nachricht.{1,10}neues update/i
 
