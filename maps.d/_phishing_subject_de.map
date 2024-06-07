@@ -165,12 +165,12 @@
 # ------------------------------------------------------------------------------
 /tan.{0,10}verfahren/i
 
-/(photo|push).?tan.{1,15}(aktivieren sie jetzt|erforderlich|ihre konto|ist nicht|verfahren)/i
+/(photo|push).?tan.{1,15}(aktivieren sie jetzt|aktivierung|erforderlich|ihre konto|ist nicht|verfahren)/i
 /(photo|push).?tan.{1,10}läuft innerhalb/iu
 /(photo|push).?tan.{1,10}vorübergehend aufgehoben/iu
 /tan.?app.{1,10}dienst.{1,10}aktivieren/i
 
-/(aktivieren|aktualisieren|aktivierung|entdecken) sie.{1,15}(photo|push).?tan/i
+/(aktivieren|aktualisieren|aktivierung|entdecken|sicherheit).{1,20}(photo|push).?tan/i
 /wichtiges update.{1,15}(photo|push).?tan/i
 /neues?.{1,10}(photo|push).?tan/i
 
@@ -330,11 +330,12 @@
 /(einkauf|geschenk).{1,5}gutschein.{1,10}(kaufland|code)/i
 
 /gratis.{1,20}euro.{1,10}geschenkkarte.{1,10}sichern/i
-/gewinnen sie eine.{1,15}geschenkkarte/i
 
 /gewinnen.{1,10}jetzt bestätigen/iu
-/gewinnen sie einen.{1,15}wunschgutschein/i
-/gewinnen sie.{1,20}geschenkkarte/i
+/gewinner.{1,10}monatswettbewerbs.{1,10}bekanntzugeben/i
+/gewinnen.{1,10}sie eine.{1,15}geschenkkarte/i
+/gewinnen.{1,10}sie einen.{1,15}wunschgutschein/i
+/gewinnen.{1,10}sie.{1,20}geschenkkarte/i
 /gewinn innerhalb von.{1,10}stunden erhalten/i
 
 /gutscheine?.{1,10}im gesamtwert von/i

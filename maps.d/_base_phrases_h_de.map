@@ -94,8 +94,9 @@
 
 # E-Mail surprise
 # ------------------------------------------------------------------------------
-/diese (benachrichtigung|e?.?mail).{1,10}sie überraschend kommt/i
-/diese (benachrichtigung|e?.?mail).{1,10}sie überraschen wird/iu
+/dieser?.{1,10}(benachrichtigung|brief|e?.?mail).{1,10}sie überraschend kommt/i
+/dieser?.{1,10}(benachrichtigung|brief|e?.?mail).{1,10}sie überraschen wird/iu
+/dieser?.{1,10}(benachrichtigung|brief|e?.?mail).{1,10}eine.{1,10}überraschung für sie/iu
 
 /meine e?.?mail.{1,10}sie eine überraschung sein wird/iu
 /sie diese (benachrichtigung|e?.?mail).{1,10}überraschen wird/iu

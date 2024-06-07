@@ -261,6 +261,12 @@
 /sichern sie sich mit.{1,15}förderungen/iu
 /informieren sie sich hier.{1,15}fördermöglichkeiten/iu
 
+# Illegal jobs
+# ------------------------------------------------------------------------------
+/arbeitsangebot.{1,10}(bei|das).{1,10}unternehmen/i
+
+/empfangen.{1,10}verarbeiten von paketen/i
+
 # 
 # Collecting postal stamps
 # ------------------------------------------------------------------------------
