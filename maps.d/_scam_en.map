@@ -153,6 +153,23 @@
 
 /your company.{1,15}in the.{1,15}(business|world.?company).?register/i
 
+# Collecting postal stamps
+# ------------------------------------------------------------------------------
+/i am philatelist.{1,10}i collect/i
+/i am (from|living)a.{1,10}russia.{1,10}i am collecting/i
+
+/i am collecting.{1,10}mail.?stamps/i
+
+/stamps from your country/i
+
+/collecting briefmarken/i
+
+# Domain Registration
+# ------------------------------------------------------------------------------
+/we are.{1,10}network service company/i
+
+/deal with.{1,10}domain name registration in/i
+
 # Gold
 # ------------------------------------------------------------------------------
 /we are.{1,10}gold seller company/i
@@ -181,23 +198,6 @@
 /crude oil company/i
 
 /i have an oil.{1,15}(contract|deal)/i
-
-# Fake Domain Registration
-# ------------------------------------------------------------------------------
-/we are.{1,10}network service company/i
-
-/deal with.{1,10}domain name registration in/i
-
-# Collecting postal stamps
-# ------------------------------------------------------------------------------
-/i am philatelist.{1,10}i collect/i
-/i am (from|living)a.{1,10}russia.{1,10}i am collecting/i
-
-/i am collecting.{1,10}mail.?stamps/i
-
-/stamps from your country/i
-
-/collecting briefmarken/i
 
 #
 #
