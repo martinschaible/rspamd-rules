@@ -288,6 +288,10 @@
 # ------------------------------------------------------------------------------
 /your.?pelvis/i
 
+# Joints
+# ------------------------------------------------------------------------------
+/joints.?(cure|healed|inflammation)/i
+
 # Kidneys
 # ------------------------------------------------------------------------------
 /dead.?kidneys/i
@@ -338,10 +342,7 @@
 # ------------------------------------------------------------------------------
 /pain.?(free|gone|killer|miracle|no.?more|quiz|relief|remover)/i
 
-/relief.?miracle/i
 /(chronic|end|erase|joint|neck|nerve).?pain/i
-/joints.?(cure|healed|inflammation)/i
-
 /relief.?miracle/i
 
 # Patches
