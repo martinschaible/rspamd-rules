@@ -15,6 +15,9 @@
 /<font style=(3d)?"color:transparent;.?font-size:0px">/i
 /<font color=(3d)?"#ffffff">[a-z]<\/font>/i
 
+# Sample: font-size: 0.0px;">vvs</span>
+/font-size: 0\.0px.{1,10}>[a-z]{1,9}</span>/i
+
 # Filler text
 # ------------------------------------------------------------------------------
 # White color and small font size
