@@ -33,10 +33,11 @@
 /(darlehen|kredit).{1,10}sind weiterhin mit.{1,10}zinsen/i
 
 /(benötigen|brauchen) sie (dringend)?.{1,10}(darlehen|kredit)/iu
-
-/einfaches.{1,15}kredit.?angebot/i
-
-/erhalten sie.{1,10}darlehen.{1,15}kredite/i 
+/(benötigen|brauchen) sie.{1,15}einen.{1,10}geschäfts.{1,10}privat.?kredit/iu
+/(benötigen|brauchen) sie.{1,15}einen.{1,10}privat.{1,10}geschäfts.?kredit/iu
+/(benötigen|brauchen) sie.{1,15}einen.{1,10}(persönlichen|privat).?kredit/iu
+/(benötigen|brauchen) sie.{1,15}einen.{1,10}kredit/i
+/(benötigen|brauchen) sie.{1,15}kredite/iu
 
 /(ich|wir) (biete|gewähre|vergebe)n?.{1,15}(alle arten von)?.{0,15}(darlehen|kredit)/iu
 /(ich|wir) (biete|gewähre|vergebe)n?.{1,15}kurz(fristige)?.{1,10}lang.?fristige.{0,15}(darlehen|kredit)/i
@@ -46,14 +47,24 @@
 /(ich|wir) (biete|gewähre|vergebe)n?.{1,15}(darlehen|kredite?).{1,10}für einzelpersonen/iu
 /(ich|wir) (biete|gewähre|vergebe)n?.{1,15}(darlehen|kredite?).{1,10}von.{1,15}bis/i
 
+/ihnen.{1,10}(darlehen|kredit).{1,10}(mit|zu) einem.{1,20}zinssatz/iu
+/ihnen.{1,10}besondere.{1,10}(darlehen|kredit)/i
+/ihnen.{1,10}ein kreditprogramm/i
+
 /(ich|wir).{1,10}privatpersonen.{1,15}unternehmen.{1,10}(darlehen|kredite?)/i
 /wir haben ein.{1,10}kredit.?angebot/i
-
 /wir.{1,15}privatpersonen.{1,15}unternehmen.{1,10}(darlehen|kredite?)/i
 
 /(unschlagbar|zuverlässig).{1,10}kredit.?angebot/i
 
+/angebot für einen günstigen.{1,15}kredit/iu
+/beantragen sie einen?.{1,10}dringenden?.{1,10}kredit/i
+/bewerben sie sich.{1,15}(darlehen|kredit)/i
+/bietet online.?darlehen/i
 /derzeit vergeben wir.{1,10}geschäfts.{1,10}privat/iu
+/erhalten sie.{1,20}(einfache|günstige|schnelle).{1,25}kredite/i
+/einfaches.{1,15}kredit.?angebot/i
+/erhalten sie.{1,10}darlehen.{1,15}kredite/i 
 /garantiert.günstigen.zinssatz/i
 
 /sie auf der suche nach.{1,15}(darlehen|kredit)/i
@@ -71,26 +82,13 @@
 /suchen sie.{1,10}ein(en)?.{1,15}(darlehen|kredit)/iu
 /sofortkredit.{1,15}ohne sicherheiten/i
 
-#
 /geschäfts.?kredit.{1,10}und.{1,10}privat.?kredit/iu
 
 /unsere? angebote?.{1,10}unternehmens.?kredite?/i
 /unsere kreditbeträge reichen/i
 /unser geschäft ist die kreditvergabe/iu
 
-#
-/angebot für einen günstigen.{1,15}kredit/iu
-
 /kreditarten sind wir zertifiziert/i
-
-/bewerben sie sich.{1,15}(darlehen|kredit)/i
-
-/bietet online.?darlehen/i
-/erhalten sie.{1,20}(einfache|günstige|schnelle).{1,25}kredite/i
-
-/ihnen.{1,10}(darlehen|kredit).{1,10}(mit|zu) einem.{1,20}zinssatz/iu
-/ihnen.{1,10}besondere.{1,10}(darlehen|kredit)/i
-/ihnen.{1,10}ein kreditprogramm/i
 /kreditprogramm vorstellen/i
 
 /wir leihen.{1,15}(darlehen|kredit)/i
@@ -102,15 +100,6 @@
 /wir sind bereit.{1,10}ihnen ein(en)?.{1,10}(darlehen|kredit)/i
 /wir sind ein.{1,20}(finanzdienstleister|kreditgeber)/i
 /wir sind ein privater.{1,10}finanz/i
-
-#
-/beantragen sie einen?.{1,10}dringenden?.{1,10}kredit/i
-
-/benötigen sie einen.{1,10}geschäfts.{1,10}privat.?kredit/iu
-/benötigen sie einen.{1,10}privat.{1,10}geschäfts.?kredit/iu
-/benötigen sie einen.{1,10}(persönlichen|privat).?kredit/iu
-/benötigen sie einen.{1,10}kredit/i
-/benötigen sie.{1,10}kredite/iu
 
 /zins.?satz von.{1,10}antworten sie mit/i
 /zins.?satz von.{1,10}bewerben sie sich jetzt/i
@@ -138,17 +127,17 @@
 # ------------------------------------------------------------------------------
 /bietet einzelpersonen.{1,10}unternehmen.{1,10}finanzielle/i
 
+/benötigen eine (projekt|unternehmens).{1,20}finanzierung/i
+/benötigen sie eine.{1,10}finanzierung/iu
+/benötigen sie persönliche finanzen/iu
+
 /(finanz|kredit).?angebot mit einem zinssatz von/i
 /finanz.{1,15}zu einem zinssatz/i
 
 /finanzierung benötigen.{1,15}antworten sie.{1,10}auf diese e?.?mail/iu
 /finanzierung zu.{1,10}zinsen/i
 
-
 /sie.{1,10}irgendeine art.{1,10}finanzierung/i
-/benötigen eine (projekt|unternehmens).{1,20}finanzierung/i
-/benötigen sie eine.{1,10}finanzierung/iu
-/benötigen sie persönliche finanzen/iu
 
 /vergibt derzeit.{1,10}finanz.?kredite/i
 
@@ -175,8 +164,3 @@
 
 # Masked
 # ------------------------------------------------------------------------------
-
-# Bad German
-# ------------------------------------------------------------------------------
-/benötigen.{1,10}persönlichen.{1,10}unternehmen/i
-/besicherte kredite/i
