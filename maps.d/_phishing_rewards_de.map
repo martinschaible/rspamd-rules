@@ -7,7 +7,7 @@
 #  10 | German         |
 # ==============================================================================
 
-# Winning, Present, Rewards
+# Winning, Present, Rewards, Voucher
 # ------------------------------------------------------------------------------
 /gewinn.{1,10}innerhalb von.{1,10}stunden erhalten/i
 /gewinn.{1,10}sichern.{1,10}nehmen sie an unserer umfrage teil/i
@@ -47,6 +47,8 @@
 /klicken sie hier.{1,10}um einen anspruch/i 
 /klicken sie hier.{1,10}um die belohnung/i
 /hier klicken.{1,10}\d{2,3}.{1,15}gutschein/i
+
+# Voucher
 
 # Companies, Products
 # ------------------------------------------------------------------------------
@@ -102,6 +104,7 @@
 /bestätigung.{1,10}ihre bestellung zu (versenden|verschicken)/iu
 /gewinnerteam/i
 /sie haben noch nicht geantwortet/i
+/unserer?.{1,10}aktivierungsplattform/i
 
 # Masked
 # ------------------------------------------------------------------------------

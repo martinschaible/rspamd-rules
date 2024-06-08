@@ -479,7 +479,11 @@
 
 /i0n0s.{1,5}mail/i
 
+# DHL
 /dhl.{1,5}bestellnummer/i
+
+# DPD
+/benachrichtigung dpd/i
 
 # Postfinance
 /dringende aktualisierung.{1,10}postfinance/i

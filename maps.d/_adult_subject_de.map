@@ -38,6 +38,7 @@
 # Dating Sites
 # ------------------------------------------------------------------------------
 /echte website/i
+/unser(em)?{1,15}(dating|sex).?portal/i
 
 # Find
 # ------------------------------------------------------------------------------
@@ -120,6 +121,8 @@
 # Bad German
 # ------------------------------------------------------------------------------
 /(grüß dich|morgen).{1,10}mein.{1,15}(freund|herr|mann)/i
+
+/madchen/i
 
 /diskrete datierung/i
 /(absolut|aufregend|befriedigend|deutlich|einfach|ergeben|gesellig|hochwertig|kontaktfreudig|lustig|munter|spannend|ständig|treu|unschätzbar|volljährig|zurückhaltend) (freund|herr|mann)/iu

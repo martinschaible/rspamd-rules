@@ -135,6 +135,7 @@
 
 # DPD
 /dpd eu/i
+/dpd.?zoll/i
 
 # Fedex
 /fedex.{0,10}(fedex|helpdesk|support)/i
@@ -159,6 +160,9 @@
 /help.spotify/i
 /spotify.?premium/i
 
+# Twint
+/twint.?offer/i
+
 # UPS
 /_ups_/i
 
@@ -166,6 +170,9 @@
 /_readyfile/i
 /we-transfer/i
 /we transfer/i
+/we.?transfer.?|/i
+/we.?transfer.{0,10}document/i
+
 
 #
 #
