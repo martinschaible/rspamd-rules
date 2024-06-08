@@ -184,42 +184,6 @@
 #
 #
 
-# Bad german
-# ------------------------------------------------------------------------------
-/dem schreibtisch des vize/i
-
-/diese (e?.?mail|nachricht).{1,10}erreicht sie bei guter gesundheit/i
-/diese (e?.?mail|nachricht).{1,10}erreicht sie wohlbehalten/i
-/diese (e?.?mail|nachricht).{1,10}findet dich gut/i
-/diese (e?.?mail|nachricht).{1,10}gut aufgenommen wird/i
-/diese (e?.?mail|nachricht).{1,10}gut empfangen wurde/i
-/diese (e?.?mail|nachricht).{1,10}kommt gut bei ihnen an/i
-/diese (e?.?mail|nachricht).{1,10}sie gut (erreicht|findet|trifft)/i
-/diese (e?.?mail|nachricht).{1,10}sie in bester stimmung trifft/i
-/diese (e?.?mail|nachricht).{1,10}sie in einem.{1,10}guten zustand erreicht/i
-/diese (e?.?mail|nachricht).{1,10}wird sie gut treffen/i
-/diese (e?.?mail|nachricht).{1,10}wird sie bei guter gesundheit erreichen/i
-
-/dieser brief sie bei guter gesundheit/i
-/dieser brief erreicht dich in guter stimmung/i
-
-/ihnen mit dieser (e?.?mail|nachricht).{1,10}gut geht/i
-
-/lesen sie nachrichten/i
-/lies die nachricht/i
-
-/sehr geehrter?.{1,10}empfänger(in)?/iu
-
-/uberprufen/i
-/von.{1,10}der.schreibtisch.von/i
-/vom schreibtisch von herr/i
-
-/beschaffungsdienstleistungsunternehmen/i
-
-#
-#
-#
-
 # Unclassified
 # ------------------------------------------------------------------------------
 /ich bin hier.{1,10}um ihnen/i
@@ -249,9 +213,3 @@
 /kontakt.{1,20}\[at\][a-z0-9]{4,15}\[dot\](com|de|org)/irg
 
 /\(dot\)(com|de|org).{1,10}whatsapp/i
-
-# Bad German
-# ------------------------------------------------------------------------------
-/geht es dieser e?.?mail gut/i
-/antworten sie auf den anspruch/i
-
