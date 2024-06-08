@@ -9,14 +9,17 @@
 
 # Winning, Present, Rewards, Voucher
 # ------------------------------------------------------------------------------
-/your gift is inside/i
-
-/gift.?card.{1,10}opportunity/i
+/(gift.?card|reward).{1,10}opportunity/i
+/(gift.?card|reward).{1,10}you complete.{1,10}survey/i
 
 /exclusive.{1,10}reward offer.{1,10}participating/i
 
 /opportunities.{1,10}claim rewards/i
+
+/win a.{1,15}reward when you.{1,10}complete/i
+
 /you can earn special rewards/i
+/your gift is inside/i
 
 # Companies, Products
 # ------------------------------------------------------------------------------
