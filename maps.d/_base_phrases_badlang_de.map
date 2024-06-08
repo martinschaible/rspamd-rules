@@ -1,0 +1,71 @@
+# ==============================================================================
+# Base: Poorly and incorrectly formulated phrases
+#
+# ----|
+# 1.1 |
+# ----|----------------|
+#  10 | German         |
+# ==============================================================================
+
+# Greetings, Intros
+# ------------------------------------------------------------------------------
+/geht es dieser e?.?mail gut/i
+
+/dieser?.{1,10}(brief|e?.?mail|nachricht).{1,10}erreicht (dich|sie) bei guter gesundheit/i
+/dieser?.{1,10}(brief|e?.?mail|nachricht).{1,10}erreicht (dich|sie) in guter stimmung/i
+/dieser?.{1,10}(brief|e?.?mail|nachricht).{1,10}erreicht (dich|sie) wohlbehalten/i
+/dieser?.{1,10}(brief|e?.?mail|nachricht).{1,10}findet (dich|sie) gut/i
+/dieser?.{1,10}(brief|e?.?mail|nachricht).{1,10}gut (aufgenommen|empfangen) (wird|wurde)/i
+/dieser?.{1,10}(brief|e?.?mail|nachricht).{1,10}kommt gut bei ihnen an/i
+
+/dieser?.{1,10}(brief|e?.?mail|nachricht).{1,10}(dich|sie) bei guter gesundheit/i
+/dieser?.{1,10}(brief|e?.?mail|nachricht).{1,10}(dich|sie) gut.{1,10}(erreicht|findet|trifft)/i
+/dieser?.{1,10}(brief|e?.?mail|nachricht).{1,10}(dich|sie) in bester stimmung.{1,10}(erreicht|findet|trifft)/i
+/dieser?.{1,10}(brief|e?.?mail|nachricht).{1,10}(dich|sie) in einem.{1,10}guten zustand.{1,10}(erreicht|findet|trifft)/i
+
+/dieser?.{1,10}(brief|e?.?mail|nachricht).{1,10}wird (dich|sie) gut treffen/i
+/dieser?.{1,10}(brief|e?.?mail|nachricht).{1,10}wird (dich|sie) bei guter gesundheit erreichen/i
+
+/ihnen mit dieser (e?.?mail|nachricht).{1,10}gut geht/i
+
+/lesen sie nachrichten/i
+/lies die nachricht/i
+
+/sehr geehrter?.{1,10}empfänger(in)?/iu
+/sehr geehrter.{1,10}freundlicher/i
+/sehr geehrter.{1,10}nutzer/i
+/sehr geehrter herr.{1,5}frau/i
+
+# Greetings
+# ------------------------------------------------------------------------------
+/guten morgen.{1,10}ehrenwert/i
+
+/grusse an dich/i
+/grüße des tages an dich/iu
+
+/komplimente? der jahreszeiten/i
+/komplimente? des tages/i
+
+/hallo.{1,10}ehrenwwert/i
+/hallo.{1,10}ich hoffe alles gut mit dir/i
+/hallo herr.{1,10}frau/i
+
+/wie geht es ihnen.{1,10}das ist.{5,25}von/i
+
+# Unsubscribe
+# ------------------------------------------------------------------------------
+/rücktritt vom empfang von nachrichten/iu
+# ------------------------------------------------------------------------------
+
+# Unclassified and extreme silly
+# ------------------------------------------------------------------------------
+/antworten sie auf den anspruch/i
+/beschaffungsdienstleistungsunternehmen/i
+/uberprufen/i
+
+# From a desk
+/dem schreibtisch des vize/i
+/offizielle mitteilung.{1,10}von sitz des/i
+
+/von.{1,10}der schreibtisch von/i
+/vom schreibtisch von herr/i
