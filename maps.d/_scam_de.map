@@ -233,9 +233,13 @@
 
 # Illegal jobs
 # ------------------------------------------------------------------------------
-/arbeitsangebot.{1,10}(bei|das).{1,10}unternehmen/i
+/(arbeitsangebot|stellenausschreibung).{1,10}(bei|das).{1,10}unternehmen/i
 
-/empfangen.{1,10}verarbeiten von paketen/i
+/empfangen.{1,10}verarbeiten (der|von) paketen?/i
+/sortieren.{1,10}verteilen sie die ladung/i
+
+wir bieten arbeit zum minijob/i
+/wir suchen frische teammitglieder/i
 
 # 
 # Collecting postal stamps
@@ -252,27 +256,3 @@
 # Masked
 # ------------------------------------------------------------------------------
 /begúnstigter/i
-
-# Bad german
-# ------------------------------------------------------------------------------
-/ansprüchendaten/iu
-/aufmerksamkeitsfonds/i
-/aufmerksamkeit.?!/i
-
-/familienerbfonds/i
-
-/debitkarten.?prämie/iu
-/entschädigungs.?lotterie.?preis/i
-
-/nachnamen angehängt/iu
-
-/unterabteilung fedpol.{1,10}teilen ihnen mit/i
-/übertragung genehmigter mittel/iu
-
-/vertrauliches geschäftsabkommen/iu
-
-/ich suche ihre dienste als partner/i
-/ihr geld zu täuschen/iu
-
-/partnerschaftsinvestition/i
-/kommen sie.{1,15}wir haben eine diskussion/i
