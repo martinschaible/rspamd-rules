@@ -71,10 +71,139 @@
 #
 #
 
+# Adult
+# ------------------------------------------------------------------------------
+/schön deutche/i
+
+/(deutche|umgänglich|unschätzbar|treu).{1,10}(freund|herr|mann)/i
+/(anständig|anziehend|liebenswürdig|munter|uneigennützig).{1,10}(freund|mädchen|mädel)/iu
+
+/kontaktfreudig deutche/i
+
+# Finance
+# ------------------------------------------------------------------------------
+/benötigen.{1,10}persönlichen.{1,10}unternehmen/i
+/besicherte kredite/i
+
+# Make Money
+# ------------------------------------------------------------------------------
+/anmelden.{1,10}untersuchen/i
+/beschleunigtes.{1,10}einkommen/i
+/einkommen zu beschleunigen/i
+
+/geldverdienprogramm/i
+/geldverdiengeheimnis/i
+
+/indexfonds/i
+/kryptowahrungen/i
+
+/verschlüsselungsgeld/i
+/wohlstandsgenerierung/i
+
+
+# Phishing
+# ------------------------------------------------------------------------------
+/aktualisieren sie ihre.{1,10}zahlungen/i
+
+/in erwartung einer lieferung/i
+/klicken.{0,10}um ihr konto zu betreten/i
+/sie auf die.{1,10}sicheren bereich/i
+/wir mussen eine sepa.?zahlung/i
+
+# Phishing - Banking
+# ------------------------------------------------------------------------------
+/aktivieren sie diesen vorgang/i
+/folge den schritten/i
+/sie diese mitteilung schließen/iu
+
+/(photo|push).?tan.{1,10}verfahren/i
+
+# Phishing - Hosting
+# ------------------------------------------------------------------------------
+/abgelaufen ist und trotz unseres vorherigen besuchs/i
+
+# Phishing - Parcel
+# ------------------------------------------------------------------------------
+/(paket|sendung).{1,10}auf der durchreise/i
+/(paket|sendung).{1,10}hat den versandweg begonnen/i
+/(paket|sendung).{1,10}zu wiederherstellen/i
+
+/adressanderung fur/i
+/bearbeiten sie ihre informationen/i
+/bestellung.{1,10}wurde erfolgreich angeliefert/i
+/bestatigen sie die zahlung/i
+/besuchen sie den.{1,15}button/i
+
+/ihre sendung (naht|sich nähert)/iu
+/ihr profil nicht verloren geht/i
+
+/lieferung.{1,10}(einsehen|des ausgesetzten pakets)/i
+/liefern mein paket/i
+
+/post.?dhl.?paket/i
+
+/sendungsverfolgung.{1,10}sehen sie nach auf unserer web.?seite/i
+/zahlung der hauslieferungskosten/i
+
+# Phishing - Rewards
+# ------------------------------------------------------------------------------
+/einlöseplattform/iu
+/einlöseportal/iu
+/geschenkkartencode/i
+/kundenportal.?team/i
+
+
+# Scam
+# ------------------------------------------------------------------------------
+/ansprüchendaten/iu
+/aufmerksamkeitsfonds/i
+/aufmerksamkeit.?!/i
+
+/familienerbfonds/i
+
+/debitkarten.?prämie/iu
+/entschädigungs.?lotterie.?preis/i
+
+/ich suche ihre dienste als partner/i
+/ihr geld zu täuschen/iu
+
+/kommen sie.{1,15}wir haben eine diskussion/i
+/nachnamen angehängt/iu
+
+/partnerschaftsinvestition/i
+/unterabteilung fedpol/i
+/übertragung genehmigter mittel/iu
+
+/vertrauliches geschäftsabkommen/iu
+
+# Scam - Donation
+# ------------------------------------------------------------------------------
+/begunstigter/i
+/behauptung dieser spende zu/i
+
+/ihre e?.?mail.{1,15}wurde mit.{1,25}euro ausgezeichnet/i
+
+/sie ein spendenangebot/i
+/sie mit ihren anspruchsdetails/i
+/wir einen spendenvorschlag für sie erstellt/iu
+
+/zufallsauswahlrad/i
+/zuwendungsspende/i
 
 # Virus and Malware
 # ------------------------------------------------------------------------------
 /virus in ihrem gerät/iu
+
+# Website
+# ------------------------------------------------------------------------------
+/suchen sie website.?update/i
+
+# Weightloss
+# ------------------------------------------------------------------------------
+/abnehmangebot/i
+/gewichtsverlust.{1,10}produkt/i
+/ohne diat/i
+/schlankheits.{0,10}(dimension|gummis)/i
 
 # Winning and Lottery
 # ------------------------------------------------------------------------------
