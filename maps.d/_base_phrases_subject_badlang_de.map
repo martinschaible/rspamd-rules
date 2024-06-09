@@ -1,0 +1,121 @@
+# ==============================================================================
+# Base: Poorly and incorrectly formulated phrases - Subject
+#
+# ----|
+# 1.1 |
+# ----|----------------|
+# 10  | German         |
+# ==============================================================================
+
+# Unclassified and extreme silly
+# ------------------------------------------------------------------------------
+/aufmerksamkeit$/i
+/dringlichkeit.{1,10}aufmerksamkeit/i
+/e?.?mail sie gut findet/i
+/finanzielle mitteilung/i
+/gluckwunsch/i
+/letze achtung/i
+/vertraulichkeit/i
+/verwarnungsbrief/i
+/vorubergehend/i
+
+#
+#
+#
+
+# Adult
+# ------------------------------------------------------------------------------
+
+# Finance
+# ------------------------------------------------------------------------------
+/benötigen persönlichen/iu
+
+# Health
+# ------------------------------------------------------------------------------
+/sehvermogen/i
+/ohne diat/i
+
+# Make Money
+# ------------------------------------------------------------------------------
+
+# Phishing
+# ------------------------------------------------------------------------------
+/aufmerksamkeit.{1,15}mahnung/i
+/aussetzung droht am.{1,20}jetzt handeln/i
+
+/bestatigen sie/i
+/bearbeiten sie ihre informationen/i
+/beanspruchen und aktivieren/i
+/benötigt aktion/iu
+
+/kreditkartenbenachrichtigung/i
+/(karte|konto).{1,10}in der warteschleife/i
+
+/nachrichtennummer/i
+
+/rückerstattungsmethode/iu
+
+/unbehandelter unternehmensdaten/i
+
+# Phishing - Account
+# ------------------------------------------------------------------------------
+/ihr.{1,15}konto ist abgelaufen/i
+/ihr.{1,15}profil läuft bald aus/iu
+
+/kontoaktivitäts.?aktualisierung/iu
+
+# Phishing - Banking
+# ------------------------------------------------------------------------------
+/sicherheitsgrunden/i
+
+# Phishing - Parcel
+# ------------------------------------------------------------------------------
+/adressuberprufung/i
+/paket.?liefer.?benachrichtigung/i
+
+/ihr versand.{1,10}ist (auf seinem weg|unterwegs)/i
+/ihr versand.{1,10}versendet wird/i
+
+/sendung macht weg/i
+/wir haben ihr paket bereit/i
+
+# Phishing - Rewards
+# ------------------------------------------------------------------------------
+/sie wurden ausgewahlt/i
+
+# Scam
+# ------------------------------------------------------------------------------
+/entschädigungsfonds /iu
+/erbschaftsfonds/i
+/erbschaftsübertragung/iu
+
+/gelegenheit.{1,10}gegenseitigen nutzen/i
+/geschäfts.?partnerschaft/iu
+/gewinner.?fonds/i
+
+/ordnungscode/i
+/reichtumsmoglichkeit/i
+/übertragung genehmigter mittel/iu
+
+/zahlungsauftritt/i
+
+# Scam - Donation
+# ------------------------------------------------------------------------------
+/spende zu dir/i
+/wohltätigkeitsspende/iu
+
+# Virus and Malware
+# ------------------------------------------------------------------------------
+/erneuerung warnung/i
+/virus in ihrem gerät/iu
+/gerätesicherheitsabonnement/iu
+
+# Winning and Lottery
+# ------------------------------------------------------------------------------
+/auszeichnung benachrichtigung/i
+
+/endg(u|ü)ltige notifikation/i
+/finale auszeichnung/i
+
+/gewinnerfonds/i
+/gewinnende nummer/i
