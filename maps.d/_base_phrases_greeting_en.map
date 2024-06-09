@@ -175,6 +175,7 @@
 /my name is.{5,25}i have been.{1,10}victim/i
 /my name is.{5,25}i represent.{1,10}company/i
 /my name is.{5,25}i was.{1,10}browsing your/i
+/my name is.{5,25}i work for the/i
 
 /my name is.{5,25}we are specialized in/i
 
@@ -334,9 +335,9 @@
 # Silly Stuff
 # ------------------------------------------------------------------------------
 /dear sir.{1,10}your reputable profile/i
-
 /dear site.?owner/i
 
+/from.{1,10}the desk of mrs?/i
 /from.{1,10}the desk of the.{1,10}president/i
 
 #
