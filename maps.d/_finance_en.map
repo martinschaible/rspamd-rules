@@ -1,6 +1,8 @@
 # ==============================================================================
 # Finance: Loans, Lending, Invest...
 #
+# ----|
+# 1.1 |
 # ----|----------------|
 #  10 | English        |
 # ==============================================================================
@@ -18,6 +20,8 @@
 /we are.{1,10}independent.{1,10}financial/i
 /we are.{1,10}international.{1,10}finance.{1,10}institute/i
 
+/we are.{1,15}loan brokers?/i
+
 /investment.?company offering.{1,10}funding/i
 
 /i represent a.{1,10}group of.{1,15}(lenders|investors)/i
@@ -34,17 +38,19 @@
 /loans?.{1,10}apply/i
 /loans?.{1,10}for your.{1,10}(business|personal)/i
 /loans?.{1,10}small.{1,10}medium business(es)/i
-/loans?.{1,10}your needs/i
 /loans?.{1,10}options.{1,15}feel free to contact/i
 /loans?.{1,10}offer at.{1,10}interest rate/i
-/loans?.{1,10}we offer competitive/
-/loans?.{1,10}unsecured.{1,15}funding/i
 /loans?.{1,15}that will help you/i
+/loans?.{1,10}unsecured.{1,15}funding/i
+/loans?.{1,10}we offer competitive/i
+/loans?.{1,10}your needs/i
 
 /exclusives?.loans?/i
 
+/apply for.{1,10}(business|corporate|personal).{1,10}loans?/i
 /get.{1,10}affordable loan/i
-/you to.{1,10}loan program/i
+/in need of.{1,10}loan.{1,15}(if yes|e?.?mail back)/i
+/you to.{1,10}loan.?program/i
 
 /my company provides.{1,15}loans/i
 
@@ -59,11 +65,10 @@
 /we.{1,10}(give|issuing|offer|offering|provide).{1,15}(all kinds|various types) of.{1,15}loans?/i
 /we.{1,10}(give|issuing|offer|offering|provide).{1,15}unbeatable.{1,10}loan/i
 
-/we are giving.{1,15}loan grants/i
+/we are.{1,10}giving.{1,15}loan grants/i
 
-/we are.{1,15}loan brokers?/i
-/we are.{1,15}issuing.{1,10}business.{1,10}personal.{1,10}loans/i
 /we are.{1,10}currently offering.{1,10}loans?/i
+/we are.{1,15}issuing.{1,10}business.{1,10}personal.{1,10}loans/i
 /we are.{1,10}offering.{1,10}loans?/i
 
 /we grant loans/i
@@ -74,26 +79,19 @@
 /you need.{1,10}loan.{1,10}(for|from|if yes|to)/i
 /you (need|require).{1,10}(personal|urgent).{1,10}loan/i
 
-/business loans?.{1,10}investment.{1,10}loans?/i
-/business loans?.{1,10}for any purpose/i
-/business loans?.{1,10}corporate loans?/i
+/(business|corporate).{1,10}loans?.{1,10}personal loans/i
 
-/corporate loans?.{1,10}personal loans/i
-/personal loans?.{1,10}business.{1,10}loans?/i
+/(business|corporate|personal).{1,10}loans?.{1,10}(business|investment).{1,10}loans?/i
+/(business|corporate|personal).{1,10}loans?.{1,10}for any purpose/i
+/(business|personal).{1,10}loans?.{1,10}corporate loans?/i
 
-/quick.{1,10}fast loans?/i
-
-/our loan.{1,10}(acquisition|funding|investment|programme)/i
+/quick.{1,10}fast.{1,10}loans?/i
 
 /our company.{1,10}offers.{1,10}competitive.{1,15}loans/i
-
-/apply for.{1,10}(business|personal).{1,10}loans?/i
+/our loan.{1,10}(acquisition|funding|investment|programme)/i
 
 /offers.{1,10}corporate.{1,10}personal.{1,10}loans/i
 
-/in need of.{1,10}loan.{1,15}(if yes|e?.?mail back)/i
-
-#
 /investment company offering.{1,20}(corporate|personal|unsecured).{1,10}loans?/i
 /leading.{1,10}institution.{1,10}(corporate|personal|unsecured).{1,10}loans/i
 
@@ -161,10 +159,10 @@
 
 # Unclassified
 # ------------------------------------------------------------------------------
-/your (business|company).{1,10}is.{1,15}(pre)?.?approved.{1,10}up to/i
-/your (business|company).{1,10}growth through funding/i
-
 /partnering with us.{1,15}your financial/i
+
+/your (business|company).{1,10}growth through funding/i
+/your (business|company).{1,10}is.{1,15}(pre)?.?approved.{1,10}up to/i
 
 # Masked
 # ------------------------------------------------------------------------------
