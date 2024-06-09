@@ -522,39 +522,3 @@
 
 # Masked
 # ------------------------------------------------------------------------------
-/adressuberprufung/i
-
-# Bad german
-# ------------------------------------------------------------------------------
-/aufmerksamkeit.{1,15} mahnung/i
-/aussetzung droht am.{1,20}jetzt handeln/i
-
-/bestatigen sie/i
-/bearbeiten sie ihre informationen/i
-/beanspruchen und aktivieren/i
-/benötigt aktion/iu
-
-/ihr.{1,15}konto ist abgelaufen/i
-/ihr.{1,15}profil läuft bald aus/iu
-
-/ihr versand.{1,10}ist (auf seinem weg|unterwegs)/i
-/ihr versand.{1,10}versendet wird/i
-
-/rückerstattungsmethode/iu
-/kontoaktivitäts.?aktualisierung/iu
-
-/sendung macht weg/i
-
-/kreditkartenbenachrichtigung/i
-/nachrichtennummer/i
-
-/paket.?liefer.?benachrichtigung/i
-
-/sicherheitsgrunden/i
-/sie wurden ausgewahlt/i
-/gluckwunsch/i
-
-/unbehandelter unternehmensdaten/i
-
-/(karte|konto).{1,10}in der warteschleife/i
-/verwarnungsbrief/i
