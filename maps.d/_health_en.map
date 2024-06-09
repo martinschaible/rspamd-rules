@@ -192,7 +192,8 @@
 /discreet.{1,10}revolutionary solution/i
 
 /check out this.{1,10}amazing.{1,10}(mineral|solution)/i
-/click here.{1,15}discover.{1,15}amazing/i
+
+/click here.{1,15}(discover.{1,15}amazing|to reveal)/i
 
 /follow this recently discovered/i
 /(found|useing).{1,10}hidden secret/i
@@ -201,6 +202,8 @@
 
 /incredible.{1,10}secret.{1,10}(banish|recipe)/i
 /incredible.{1,10}discovery.{1,10}harvard scientists/i
+
+/jaw.?dropping.{1,10}recent.{1,10}discovery/i
 
 /eat.{1,10}this incredible.{1,10}superfood/i
 /learn.{1,15}about the.{1,10}second trick/i
