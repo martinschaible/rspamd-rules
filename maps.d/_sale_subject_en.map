@@ -190,6 +190,7 @@
 # ------------------------------------------------------------------------------
 /pcba?.{1,10}factory (from|in) china/i
 /pcba?.{1,10}manufacturing factory/i
+/(design|manufacture).{1,15}pcba?/i
 
 /plastic.?injection mould maker/i
 /injection molding solutions/i

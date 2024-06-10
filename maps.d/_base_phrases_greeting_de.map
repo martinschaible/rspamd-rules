@@ -41,7 +41,7 @@
 /hallo.{1,10}ich bin.{1,10}(frau|herr)/i
 /hallo.{1,10}ich bin.{5,25}ceo von/i
 /hallo.{1,10}ich bin.{5,25}eine?.{1,15}(geschäfts)?(frau|mann)/iu
-/hallo.{1,10}ich bin.{5,25}eine?.{1,15}(australisch|deutsch|indisch)/i
+/hallo.{1,10}ich bin.{5,25}eine?.{1,15}(australisch|deutsch|indisch|schweizer)/i
 /hallo.{1,10}ich bin.{5,25}eine?.{1,15}person/i
 /hallo.{1,10}ich bin.{5,25}(privat|rechts).?anwalt/i
 
@@ -98,7 +98,9 @@
 #
 /ich bin (frau|herr).{5,30}(aus|der leiter)/i
 /ich bin (frau|herr).{5,30}ich freue mich/i
+
 /ich bin frau.{5,30}eine witwe/i
+/ich bin.{5,30}schweizer staatsbürger.{1,10}wohne in/i
 
 /ich grüße sie.{1,10}ich bin dr/i
 
