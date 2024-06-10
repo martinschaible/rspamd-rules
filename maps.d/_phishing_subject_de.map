@@ -29,7 +29,7 @@
 /(aktualisieren?|bestätigen?).{1,10}(deine|sie).{1,10}(konto|sicherheits).?informationen/i
 /(aktualisieren?|bestätigen?).{1,10}(deine|sie).{1,10}kontodaten/i
 
-/konto.{1,15}(aktualisierung|update|überprüfung) erforderlich/iu
+/konto.{0,15}(aktualisierung|update|überprüfung) erforderlich/iu
 /konto.{1,10}bleibt begrenzt/i
 /konto.{1,10}braucht ihre aufmerksamkeit/i
 /konto.{1,10}erfordert eine maßnahme/i
@@ -499,6 +499,10 @@
 
 # Swiss Goverment
 /steuererklärung.{1,10}wichtige anweisungen/iu
+
+# Lichtenstein
+# ------------------------------------------------------------------------------
+/erbeten.{1,10}sofortige reaktion/i
 
 #
 #
