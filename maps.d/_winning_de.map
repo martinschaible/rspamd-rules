@@ -129,6 +129,9 @@
 
 # Bonus
 # ------------------------------------------------------------------------------
+/bonus.{1,15}(freispiele?|mindesteinzahlung)/i
+/bonus.?spins/i
+
 /erhalten einen kostenlosen bonus/i
 /sensationeller.{1,10}bonus.{1,10}wartet dich/i
 
