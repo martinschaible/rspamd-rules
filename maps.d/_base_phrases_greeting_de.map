@@ -117,6 +117,7 @@
 /(kennenlernen|liebste).{1,15}mein name ist/i
 
 /mein name ist sir/i
+/mein name ist.{1,10}anwältin/iu
 /mein name ist.{1,10}barr(\.|ister)/i
 /mein name ist.{1,10}(mrs?|ms|leutnant)/i
 /mein name ist.{1,10}(frau|fräulein|herr)/iu

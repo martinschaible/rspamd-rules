@@ -112,10 +112,12 @@
 
 # Promises
 # ------------------------------------------------------------------------------
+/maximieren wir ihre gewinne/i
+/monat(en)?.{1,10}in einen millionär verwandeln/iu
+/steigt ihr vermögen automatisch/iu
+
 /wenigen minuten pro woche ein.{1,10}vermögen/i
 /werden ihre erträge explodieren/iu
-
-/monat(en)?.{1,10}in einen millionär verwandeln/iu
 
 # Systems
 # ------------------------------------------------------------------------------
@@ -164,11 +166,11 @@
 
 # Starting
 # ------------------------------------------------------------------------------
-/starten sie mit 250 euro?/i
-/startkapital von 250 euro?/i
-
+/(anfangseinlage|startkapital) von 250 euro/i
 /anfang mit.{1,10}250 euro? investition/i
 /minimal 250 euro?.{1,10}einstiegskapital/i
+/starten sie mit 250 euro?/i
+
 /250 euro?.{1,10}(als startkapital|zum erfolg)/i
 /250 euro?.{1,10}mindesteinlage eröffnen wir/i
 
