@@ -27,7 +27,7 @@
 
 /gewinner werden bekanntgegeben/iu
 
-# Winning, Lottery
+# Lottery
 # ------------------------------------------------------------------------------
 /gewinn.{0,5}(benachrichtigung|notifikation)/i
 
@@ -45,18 +45,6 @@
 
 /lotterie.?gewinn/i
 /us.?dollar für sie/iu
-
-# Bonus
-# ------------------------------------------------------------------------------
-/\d{3}.{1,10}(bonus|freispiele)/i
-
-/erhalten sie einen bonus/i
-
-/eilmeldung.{1,10}bonus/i
-/sensationeller.{1,10}bonus.{1,10}wartet dich/i
-
-# Spins and Slots
-# ------------------------------------------------------------------------------
 
 #
 #
