@@ -18,6 +18,7 @@
 /benefit.{1,10}bulk e?.?mail.?marketing/i
 
 /our targeted campaign/i
+/provide.{1,15}contact.{1,10}targeted.{1,10}database/i
 /promote your service to.{1,15}businesses/i
 /reach over.{1,15}businesses/i
 /get the best.{1,10}e?.?mail.{1,10}lists/i
@@ -41,7 +42,6 @@
 # 
 /we are.{1,10}leading b2b.data.solutions/i
 /we are.{1,10}offering.{1,10}targeted.{1,10}e.?mail/i
-/provide.{1,15}contact.{1,10}targeted.{1,10}database/i
 /we have.{1,10}targeted.{1,10}databases/i
 
 /best e?.?mail.?lists/i
@@ -73,8 +73,10 @@
 /lead feature.{1,10}you can automatically/i 
 
 /you like to generate.{1,15}leads/i
-/we provide.{1,15}(fresh|quality).{1,15}leads/i
+/we.{1,10}provide.{1,15}(fresh|quality|targeted|verified).{1,15}leads/i
 /i will provide.{1,15}leads/i
+
+/(targeted|verified).{1,10}leads from linkedin/i
 
 #
 #
