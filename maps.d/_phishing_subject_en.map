@@ -8,6 +8,7 @@
 # Fake orders
 # ------------------------------------------------------------------------------
 /request for quotation.{1,10}rfq/i
+/we are interested in your products?/i
 
 /price.?list.{1,10}(brochure|catalog|catalogue)/i
 

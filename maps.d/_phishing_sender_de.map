@@ -113,10 +113,16 @@
 
 /heutige.{0,10}gewinner/i
 
-# A to K
-/(ali.?express|apple|bahn|declathon|deutsche.?bahn|edeka|kaufland).{0,5}(abteilung|angebot|bestätigung|code)/i
-/(ali.?express|apple|bahn|declathon|deutsche.?bahn|edeka|kaufland).{0,5}(geschenke|geschenkkarte|gewinner|gutschein)/i
-/(ali.?express|apple|bahn|declathon|deutsche.?bahn|edeka|kaufland).{0,5}(help.?desk|kontakt|sender|sendung|umfrage|zustellung)/i
+# A to C
+/(ali.?express|apple|bahn|cuisine|connect).{0,5}(abteilung|angebot|bestätigung|code)/i
+/(ali.?express|apple|bahn|cuisine|connect).{0,5}(geschenke|geschenkkarte|gewinner|gutschein)/i
+/(ali.?express|apple|bahn|cuisine|connect).{0,5}(help.?desk|kontakt|sender|sendung|umfrage|zustellung)/i
+
+# D to M
+/(declathon|deutsche.?bahn|edeka|kaufland).{0,5}(abteilung|angebot|bestätigung|code)/i
+/(declathon|deutsche.?bahn|edeka|kaufland).{0,5}(geschenke|geschenkkarte|gewinner|gutschein)/i
+/(declathon|deutsche.?bahn|edeka|kaufland).{0,5}(help.?desk|kontakt|sender|sendung|umfrage|zustellung)/i
+
 # L to Z
 /(le.?creuset|lidl|media.?market|otto|persil|rewe|temu).{0,5}(abteilung|angebot|bestätigung|code)/i
 /(le.?creuset|lidl|media.?market|otto|persil|rewe|temu).{0,5}(geschenke|geschenkkarte|gewinner|gutschein)/i
