@@ -416,9 +416,6 @@
 /odd.?mineral/i
 /zero.?ear/i
 
-# Products
-/ottomax/i
-
 # Wrinkles
 # ------------------------------------------------------------------------------
 /wrinkles/i
@@ -458,6 +455,7 @@
 /hondofrost/i
 /liba/i
 /neoveris/i
+/ottomax/i
 /ozempic/i
 /penixmed/i
 /prostadine
@@ -484,20 +482,22 @@
 
 # Unclassified
 # ------------------------------------------------------------------------------
-/ancient.?ritual/i
+/(ancient|japanese|taiwan).?(hack|ritual|trick)/i
+
 /(avoid|drink).?this/i
 /clinically.?proven/i
+
 /dead.?foods?/i
 /doctor.?warning/i
 /drink.{0,10}(cup|this)/i
-/eat.?me/i
+
+/eat.?(me|this)/i
 /(exotic|natural).?herb/i
 /fried.?chicken/i
 /home.?(treatment|with ease)/i
-/(japanese|taiwan).?(hack|trick)/i
 /make your own/i
-/this.{0,10}elixir/i
 /secret.?weapon/i
+/this.{0,10}elixir/i
 
 /youthful.?boost/i
 /your.?craving/i
