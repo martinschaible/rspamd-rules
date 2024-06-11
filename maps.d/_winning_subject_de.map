@@ -1,9 +1,19 @@
 # ==============================================================================
 # Winning: Subject
 #
+# ----|
+# 1.1 |
 # ----|----------------|
 #  10 | German         |
 # ==============================================================================
+
+# Organisations and Programs
+# ------------------------------------------------------------------------------
+/google.{1,10}(gewinner|lotterie)/i
+
+#
+#
+#
 
 # Awards
 # ------------------------------------------------------------------------------
@@ -11,40 +21,27 @@
 
 # Lottery
 # ------------------------------------------------------------------------------
-/lotteriepreis/i
+/lotterie.?(gewinn|preis)/i
+
+
+/finale auszeichnung/i
+
+/us.?dollar für sie/iu
 
 # Winning
 # ------------------------------------------------------------------------------
-/google.{1,10}(gewinner|lotterie)/i
-
-/(geehrter|liebe).{1,10}gewinner/i
-
-/gewinner.{1,15}bekannt.?gegeben/i
-
-/letzter gewinner/i
-
-/sie haben.{1,10}\d{3}.{0,5}\d{3}.{1,15}gewonnen/i
-
-/gewinner werden bekanntgegeben/iu
-
-# Lottery
-# ------------------------------------------------------------------------------
 /gewinn.{0,5}(benachrichtigung|notifikation)/i
 
-/brandneu.{1,10}gewinnspiel/i
+/gewinner.{1,15}bekannt.?gegeben/i
+/(geehrter|liebe).{1,10}gewinner/i
 
-/willkommensbonus.{1,10}(wartet|warten) auf sie/i
-
-/\d{2,3}.{1,10}willkommensbonus/i
-
-/finale auszeichnung/i
-/auszeichnung benachrichtigung/i
+/letzter gewinner/i
+/sie haben.{1,10}\d{3}.{0,5}\d{3}.{1,15}gewonnen/i
 
 # 16.08. - 2 False/Positive
 /(ihr habt|sie haben).{1,10}gewonnen/i
 
-/lotterie.?gewinn/i
-/us.?dollar für sie/iu
+/brandneu.{1,10}gewinnspiel/i
 
 #
 #

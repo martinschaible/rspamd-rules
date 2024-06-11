@@ -1,22 +1,23 @@
 # ==============================================================================
 # Winning: Anything and Lottery
 #
+# ----|
+# 1.1 |
 # ----|----------------|
 #  10 | German         |
 # ==============================================================================
 
-# Fake Organisations and Programs
+# Organisations and Programs
 # ------------------------------------------------------------------------------
 /euromillions.?nationale.?(lotterie|lotto)/i
-/spanische.?(lotterie|lotto)/i
-
-/mega.?jackpot.?aktion/i
-
-/google.?online.?(direktor|verlosung)/i
-/google.?e?.?mail.?(lotterie|lotto)/i
-/(google|microsoft).{1,10}(lotto|lotterie|online.?ziehung)/i
 
 /gewinner.{1,15}google mit gesponserten/i
+
+/(google|microsoft).{1,10}(e?.?mail|online).?(direktor|lotterie|lotto|verlosung)/i
+/(google|microsoft).{1,10}(lotto|lotterie|online.?ziehung)/i
+
+/mega.?jackpot.?aktion/i
+/spanische.?(lotterie|lotto)/i
 
 /visa.?karte.{1,10}lotterie/iu
 
@@ -30,21 +31,12 @@
 # Draw
 # ------------------------------------------------------------------------------
 /internet.{1,10}e?.?mail.?verlosung/i
-
 /link unten.{1,10}nimm an unserem gewinnspiel/i
 
 # Lottery
 # ------------------------------------------------------------------------------
 /lieber lotto.?gewinner/i
 /sie sind der.{1,15}gewinner unserer lotterie/i
-
-# Prize
-# ------------------------------------------------------------------------------
-/berechtigt sie zu einem hauptpreis/i
-
-/sie ein preisgeld.{1,10}von.{1,15}millionen.{1,15}gewonnen/i
-
-/zahlung des nicht beanspruchten preisgeldes/i
 
 # Payments
 # ------------------------------------------------------------------------------
@@ -54,6 +46,14 @@
 /sie haben..{1,10}\d{3}.{1,5}\d{3}.{1,10}zur auszahlung/i
 
 /preis.?geld.{1,10}das auf ihrem namen/i
+
+# Prize
+# ------------------------------------------------------------------------------
+/berechtigt sie zu einem hauptpreis/i
+
+/sie ein preisgeld.{1,10}von.{1,15}millionen.{1,15}gewonnen/i
+
+/zahlung des nicht beanspruchten preisgeldes/i
 
 # Winning
 # ------------------------------------------------------------------------------
@@ -109,19 +109,6 @@
 
 /freigabe ihrer gewinne zu beantragen/i
 /e?.?mail.?datenbank ausgewählt.{1,10}sie haben/iu
-
-# Casino
-# ------------------------------------------------------------------------------
-/casino.{1,10}(von zu hause aus|zu hause wartet)/i
-
-/freispiele.{1,15}(anmeldung|registrierung|willkommensangebot)/i
-
-/erhalte.{1,10}freispiele/i
-
-/willkommen.{1,10}online.?casino/i
-/willkommensbonus.{1,15}casino/i
-
-/sommer.{1,10}casino.{1,10}erlebnis/i
 
 #
 #

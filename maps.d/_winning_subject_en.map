@@ -1,39 +1,45 @@
 # ==============================================================================
 # Winning: Subject
 #
+# ----|
+# 1.1 |
 # ----|----------------|
 #  10 | English        |
 # ==============================================================================
 
+# Organisations and Programs
+# ------------------------------------------------------------------------------
+/euro lottery winner/i
+/google.{1,15}reward/i
+/facebook 202\d/i
+
+#
+#
+#
+
+# Awards
+# ------------------------------------------------------------------------------
+
+# Lottery
+# ------------------------------------------------------------------------------
+/(lottery|lotto).{1,10}promotion prize/i
+
+/winning.?e?.?mail.{1,10}(lottery|lotto)/i
+/wins lottery draw/i
+
 # Winning
 # ------------------------------------------------------------------------------
+/congratulations.{1,10}you have won/i
 /dear esteemed winner/i
 
-/congratulations.{1,10}you have won/i
-/winning reference number/i
-
 /win.{1,10}\d{3}.{0,5}\d{3}.{1,15}today/i
-
-# Winning, Lottery
-# ------------------------------------------------------------------------------
-google.{1,15}reward/i
+/winning.{1,10}reference number/i.?
 
 /you could win/i
 /you have won.{1,10}\d{3}.{0,5}\d{3}/i
 
 /your.{1,10}e?.?mail.?(address|id) has won/i
 /your winning prize/i
-
-/wins lottery draw/i
-
-/winning.?e?.?mail.{1,10}(lottery|lotto)/i
-
-/(lottery|lotto).{1,10}promotion prize/i
-
-/euro lottery winner/i
-/winner.{1,5}ref:/i
-
-/facebook 202\d/i
 
 #
 #

@@ -1,19 +1,15 @@
 # ==============================================================================
 # Winning: Anything and Lottery
 #
+# ----|
+# 1.1 |
 # ----|----------------|
 #  10 | English        |
 # ==============================================================================
 
-# Awards
-# ------------------------------------------------------------------------------
-/award winning.{1,10}notification/i
-
-# Fake Organisations and Programs
+# Organisations and Programs
 # ------------------------------------------------------------------------------
 /(asian|continental).{1,10}lottery.{1,10}commission/i
-
-/(google|microsoft).{1,10}lottery/i
 
 /central.loteria.nacional/i
 
@@ -23,6 +19,7 @@
 /el.?gordo.?online.?loteria/i
 
 /facebook lottery team/i
+/(bmw|coca.?cola|google|microsoft).{1,10}(lotterie|lottery|promo.?team)/i
 
 /international promotion.{1,10}price award/i
 
@@ -34,18 +31,21 @@
 /lotto.?lottery.?inc/i
 /lotterie de navidad/i
 
-/navidad 202\d loteria/i
-
-/(bmw|coca.?cola).(lotterie|lottery)/i
-/google promo.?team/i
 /microsoft.{1,10}promotion.?award/i
+/navidad 202\d loteria/i
 
 /primitiva lotter(ie|y).{1,10}promotions?/i
 /promotion.{1,10}prize dept/i
 
+/your.{1,10}e?.?mail.?(account|address|id)?.{1,10}ssociated with.{1,10}(google|microsoft)/i
+
 #
 #
 #
+
+# Awards
+# ------------------------------------------------------------------------------
+/award winning.{1,10}notification/i
 
 # Draw
 # ------------------------------------------------------------------------------
@@ -53,18 +53,19 @@
 # Lottery
 # ------------------------------------------------------------------------------
 /lottery draw.{1,10}you.{1,10}invited/i
+/lottery draw.{1,10}details.{1,10}date/i
 
-/lottery draw details.{1,10}date/i
+# Payments
+# ------------------------------------------------------------------------------
 
 # Prize
 # ------------------------------------------------------------------------------
 /you have been selected fo.{1,15}prize/i
 
-# Payments
-# ------------------------------------------------------------------------------
-
 # Winning
 # ------------------------------------------------------------------------------
+/million.{1,10}contact.{1,15}for claims/i
+
 /you are.{1,10}selected winner/i
 /you are.{1,10}lucky for.{1,10}prize/i
 /you have won.{1,10}sum of.{1,10}\d{3}.{0,5}\d{3}/i
@@ -83,13 +84,7 @@
 /e?.?mail is.{1,20}inform you that you won/i
 
 /winnings was carried out through the/i
-
 /winners?.{1,10}contact us for.{1,10}details/i
-
-# Companies
-/your.{1,10}e?.?mail.?(account|address|id)?.{1,10}ssociated with.{1,10}(google|microsoft)/i
-
-/million.{1,10}contact us for claims/i
 
 #
 #
