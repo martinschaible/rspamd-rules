@@ -48,6 +48,9 @@
 /beanspruchen und aktivieren/i
 /benötigt aktion/iu
 
+/kontoaktivitäts.?aktualisierung/i
+/wichtiger handlungsbedarf/i
+
 /kreditkartenbenachrichtigung/i
 /(karte|konto).{1,10}in der warteschleife/i
 
@@ -67,6 +70,7 @@
 # Phishing - Banking
 # ------------------------------------------------------------------------------
 /sicherheitsgrunden/i
+/handlungsbedarf.{1,10}sicherheitsupdate/i
 
 # Phishing - Parcel
 # ------------------------------------------------------------------------------

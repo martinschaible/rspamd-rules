@@ -292,23 +292,5 @@
 /lhr konto/i
 /lhre rückerstattung/iu
 
-# Bad german
-# ------------------------------------------------------------------------------
-/aufgrund des begrenzten.{1,15}kontos/i
-/dass unser system uns mitteilt/i
-/konto ist nicht konform/i
-
-/ihr konto einzulösen/iu
-/ihr konto.{1,15}in einem sicheren zustand zu versetzen/i
-
-/ihre sicherheit zu aktualisieren/i
-
-/mitteilung vor zugriffssperre/i
-/sie ihr.{1,15}konto verlieren/i
-
-/unsere? kontoüberprüfungsprozesse?/i
-/wir schließen alle alten versionen/i
-
-/klicken sie.{1,10}um das konto anzuzeigen/i
-
-/anweisungen zur sicherheitsaktualisierung/i
+# Example: SehrigeehrteriKunde
+/sehr[a-z]{1}geehrterr[a-z]{1}kunde/i

@@ -58,6 +58,8 @@
 
 /sicherheitsüberprüfung ihres kontos.{1,15}erforderlich/iu
 
+/bestätigung ihrer konto.?informationen erforderlich/iu
+
 /(Überprüfen|überprüfen) sie ihre.{1,10}(kontodaten|persönlichen daten)/iu
 /(Überprüfen|überprüfen) sie ihr.{1,10}konto/i
 
@@ -72,12 +74,6 @@
 
 /erinnerung.{1,10}kontoupdate/i
 /aktualisieren.{1,15}erforderlichen zahlungsinformationen/i
-
-# Bad german
-/kontoaktivitäts.?aktualisierung/i
-/wichtiger handlungsbedarf/i
-/handlungsbedarf.{1,10}sicherheitsupdate/i
-/dringende bitte/i
 
 # Services
 /sperrung des.{1,15}dienstes.{1,15}handlungsbedarf/i
