@@ -48,7 +48,9 @@
 
 # Bonus
 # ------------------------------------------------------------------------------
-/erhalten Sie einen Bonus/i
+/\d{3}.{1,10}(bonus|freispiele)/i
+
+/erhalten sie einen bonus/i
 
 /eilmeldung.{1,10}bonus/i
 /sensationeller.{1,10}bonus.{1,10}wartet dich/i
