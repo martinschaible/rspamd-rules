@@ -76,9 +76,12 @@
 
 # Account - Confirm or reconfirm identity
 # ------------------------------------------------------------------------------
+/aktualisieren sie.{1,10}ihre.{1,10}kontodaten/i
+
 /bestätigen sie.{1,10}ihre.{1,10}telefon.?nummer/iu
 /bestätigen sie.{1,10}ihre.{1,10}konto.?daten/iu
 /bestätigen sie.{1,10}ihre.{1,10}daten so bald wie möglich/iu
+/bestätigen sie.{1,10}mein konto/i
 
 /bestätigen.{1,10}dass sie der konto.?inhaber sind/iu
 
@@ -96,7 +99,6 @@
 /direkt identifizieren/i
 /haben sie ihre daten nicht bestätigt/iu
 
-/bestätigen sie mein konto/i
 /klicken und die identitätsprüfung durchführen/iu
 
 /deaktiviert.{1,10}bis ihre daten aktualisiert sind/i

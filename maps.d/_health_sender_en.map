@@ -58,12 +58,13 @@
 
 /fat.?(fast|vanish)/i
 /fat.?(burn(er)?|burning|flush|melting)/i
+
 /flab.?melting/i
+/flat.?tummy/i
 
 /slim.?(body|waist)/i
 
 /fasting.?seeds/i
-/flat.?tummy/i
 /effortless.?slimming/i
 
 /visceral.?fat/i
@@ -79,7 +80,7 @@
 /power.?shape/i
 
 /gummy.?hack/i
-/(gummies|k2).?diet/i
+/(chocolate|gummies|k2).?diet/i
 /(k2|slimm).{0,10}gummies/i
 
 /weight.?(drop(per)?|goals|loss)/i
@@ -88,7 +89,7 @@
 /(breakfast|liposuction|water).?trick/i
 /(diet|magic|special).?(drink|hack|tea)/i
 /dairy.?secret/i
-
+/waistline/i
 /surprising.?water/i
 
 /big.?stomach/i
@@ -98,7 +99,7 @@
 
 /o.{0,3}p.{0,3}r.{0,3}a.{0,3}h/i
 
-# Prdoducts
+# Products
 /(3d.?slim|power.?shape)/i
 
 #
