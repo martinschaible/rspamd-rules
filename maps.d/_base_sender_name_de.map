@@ -44,7 +44,7 @@
 # Sample: Auswahl: 775TU3X
 /auswahl.{0,5}\d{1,3}/i
 
-/antworte.{1,10}heute/?
+/antworte.{1,10}heute/i
 
 /(aktuelle|neue|wichtige).{0,5}(mitteilung|nachricht)/i
 
