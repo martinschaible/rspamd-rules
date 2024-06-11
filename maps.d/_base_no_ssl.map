@@ -16,6 +16,9 @@
 
 /http:\/\/(www\.)?[a-z0-9-]{3,25}\.com\/redirect\.html/i
 
+# Sample: http://tructions.com/1O0b061o8t0mjje0-1pzqbi026rl2ut3a577d000001
+/http:\/\/[a-z0-9-]{3,25}\.com\/[a-z0-9-]{3,20}-[a-z0-9-]{3,20}/i
+
 # Exotic TLD
 # ------------------------------------------------------------------------------
 /http:\/\/(www\.)?[a-z0-9-]{3,20}\.(bond|club|email|fun|life|ltd|me|one|pics|pro|rest|services|shop|social|space|store|today|world|xyz)\//i
