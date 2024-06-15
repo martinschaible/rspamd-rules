@@ -148,8 +148,7 @@
 # Banking
 # ------------------------------------------------------------------------------
 /ihre karte ist gesperrt/i
-/aktivieren sie.{1,15}identity check/i
-/aktivieren sie.{1,15}gebührenfrei/iu
+/aktivieren sie.{1,15}(gebührenfrei|ihre banking|identity check)/i
 
 /datenupdate.{1,10}erforderlich/i
 
@@ -318,9 +317,12 @@
 
 /beanspruche jetzt/i
 
+/bekanntgabe unseres gewinners/i
+
 /der inhaber dieser e?.?mail.?adresse/i
 /du gehörst zu den auserwählten/ui
 /du hast unser gewinnspiel gewonnen/i
+/du stehst auf der gewinnerliste/i
 
 /(exklusive|sichere).{1,10}chance auf ein.{1,15}produktpaket/i
 /exklusive.{1,10}belohnungen.{1,40}(kostenlos|umfrage)/i

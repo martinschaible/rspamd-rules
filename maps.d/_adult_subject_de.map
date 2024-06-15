@@ -52,9 +52,9 @@
 
 # Girls, Women
 # ------------------------------------------------------------------------------
-/(attraktive|geile|sexy).{1,10}frau(en)?/i
+/(attraktive|die besten|geile|sexy).{1,10}frau(en)?/i
 
-/frauen warten auf/i
+/frauen.{1,10}(in ihrer nähe|warten auf)/iu
 /treffen sie diese.{1,15}frau(en)?/i
 /du diese dame/i
 
@@ -71,7 +71,7 @@
 # ------------------------------------------------------------------------------
 /kennenlernen.{1,10}treffen wir/i
 /treffen wir uns auf einen kaffee/i
-/treffen sie.{1,20}frau(en)? heute/i
+/treffen sie.{1,20}frau(en)?/i
 
 # MILF
 # ------------------------------------------------------------------------------
