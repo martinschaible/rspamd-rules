@@ -153,9 +153,10 @@
 /(enence|poliglu)/i
 /translator #/i
 
-# Learning a language
+# Learning languages
 # ------------------------------------------------------------------------------
 /lingmind/i
+/lingoget/i
 
 # Vacuum Cleaner
 # ------------------------------------------------------------------------------
@@ -182,7 +183,7 @@
 
 # WiFi
 # ------------------------------------------------------------------------------
-/(wi.?fi|wlan).{0,5}(boost|router|solution|ultra)/i
+/(wi.?fi|wlan).{0,5}(boost|hotspot|router|solution|ultra)/i
 
 /(boost|fast|portable|private|ryoko).{0,5}?(wi.?fi|wlan)/i
 /muama.{0,5}ryoko/i

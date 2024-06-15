@@ -118,11 +118,10 @@
 
 /profi.{1,10}aluminium.{1,10}teleskopleiter/i
 
-# Learning language
+# Learning languages
 # ------------------------------------------------------------------------------
 /einfaches? englischlernen/i
-
-/alpha.?lingmind/i
+/erlernen sie eine.{1,15}sprache schneller als/i
 
 # LED
 # ------------------------------------------------------------------------------
@@ -343,7 +342,7 @@
 # WiFi
 # ------------------------------------------------------------------------------
 /tragbares.?wla/i
-/tragbaren.{1,10}hochgeschwindigkeits.{1,15}router/i
+/tragbaren.{1,10}(high.?speed|hochgeschwindigkeits|w.?lan).{1,15}router/i
 
 /schnelle.{1,10}wlan.?verbindung/i
 

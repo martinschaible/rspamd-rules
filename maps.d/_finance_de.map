@@ -40,7 +40,7 @@
 /(darlehen|kredit).{1,10}privat.{1,10}geschäfts.?kredit/iu
 /(darlehen|kredit).{1,10}sind weiterhin mit.{1,10}zinsen/i
 /(darlehen|kredit).{1,10}wenn ja.{1,10}(kontaktieren sie uns|senden sie uns)/i
-/(darlehen|kredit).{1,10}zu einem.{1,10}günstigen zins.?satz/iu
+/(darlehen|kredit).{1,10}zu einem.{1,10}(günstigen|wettbewerbsfähigen).{1,20}zins.?satz/iu
 
 /(benötigen|brauchen) sie (dringend)?.{1,10}(darlehen|kredit)/iu
 /(benötigen|brauchen) sie.{1,15}einen.{1,15}(geschäfts|persönlichen|privat).{1,15}kredit/iu
@@ -62,6 +62,7 @@
 /ihnen.{1,10}(darlehen|kredit).{1,10}(mit|zu) einem.{1,20}zinssatz/iu
 /ihnen.{1,10}besondere.{1,10}(darlehen|kredit)/i
 /ihnen.{1,10}ein kreditprogramm/i
+/ihnen.{1,10}möglichkeit zu bieten.{1,20}(darlehen|kredit)/iu
 
 /(unschlagbar|zuverlässig).{1,10}kredit.?angebot/i
 
