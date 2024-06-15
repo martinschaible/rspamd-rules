@@ -1,26 +1,28 @@
 # ==============================================================================
 # Health: Men related
 #
+# ----|
+# 1.1 |
 # ----|----------------|
 #  10 | German         |
 # ==============================================================================
-
-# For men
-# ------------------------------------------------------------------------------
-/medizin.?shop für.{1,10}männer/iu
 
 # Blue Pill
 # ------------------------------------------------------------------------------
 /blauen?.{1,10}wunder.?(pillen?|tabletten?)/i
 /blauen?.{1,10}(originale|praeparate)/i
-
 /blauen?.{1,10}(pillen?|tabletten?).{1,15}vorgebeugt/i
+
 /(günstige|guenstige).{1,10}liebeshelfer/i
 
 # Erection
 # ------------------------------------------------------------------------------
-/erektion.{1,10}erobert/i
+/(erektion|potenz).{1,10}erobert/i
 /(erektion|potenz).{1,10}mit.{1,10}(arzneien|modern)/i
+
+/(glied|penis).{1,10}erigiert/i
+/ihr.{1,10}(glied|penis)/i
+/steigerung.{1,10}(glied|penis)/i
 
 /(dauerhafte|starke).{1,10}erektion/i
 
@@ -34,9 +36,8 @@
 
 # Penis Enlargement
 # ------------------------------------------------------------------------------
-/steigerung (der|des) penis/i
 
-# Potency, Stamina
+# Potency, Stamina, ED
 # ------------------------------------------------------------------------------
 /sexuelle leistung.{1,10}verbessern/i
 /sexuelle leistungsfähigkeit des mannes/i
@@ -55,6 +56,7 @@
 
 # Unclassified
 # ------------------------------------------------------------------------------
+/medizin.?shop für.{1,10}männer/iu
 
 # Masked
 # ------------------------------------------------------------------------------
