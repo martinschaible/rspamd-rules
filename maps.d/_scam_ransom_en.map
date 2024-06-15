@@ -10,7 +10,7 @@
 # Ransom
 # ------------------------------------------------------------------------------
 /i.{1,10}(gained|get|have|obtained).{1,10}access.{1,15}your.{1,10}(account|computer|devices?|messenger|mobile)/i
-/i.{1,10}hacked your.{1,15}(account|computer|devices?|mobile|system)/i/i
+/i.{1,10}hacked your.{1,15}(account|computer|devices?|mobile|system)/i
 
 /i.{1,10}managed.{1,10}install.{1,15}(trojan|virus)/i
 /i.{1,10}managed.{1,10}to get.{1,10}access.{1,10}all.{1,10}(account|computer|devices?|mobile)/i
@@ -20,13 +20,16 @@
 /i.?a?m.{1,10}hacker.{1,10}has access/i
 /i.?a?m.{1,10}professional.{1,10}hacker/i
 
-/i can see your.{1,10}screen/i
-/i have.{1,15}access to your list of.{1,10}contacts/i
+/i.{1,10}can see your.{1,10}screen/i
+/i.{1,10}have.{1,15}access to your list of.{1,10}contacts/i
+/i.{1,10}have access? to your device/i
 
 /managed to hack.{1,10}your.{1,10}operating.?system/i
 
 # Malware
 /virus enabled me to connect/i
+/virus was.{1,15}through one of your/i
+
 /with my private trojan/i
 
 #
@@ -42,8 +45,9 @@
 
 /just transfer.{1,10}usd.{1,15}to (bitcoin|btc)/i
 /transfer to my.{1,10}account.{1,10}after the transaction/i
-/you need to transfer.{1,10}usd.{1,10}(bitcoin|btc)/i
 
+/you.{1,10}need to transfer.{1,10}usd.{1,10}(bitcoin|btc)/i
+ you.{1,10}to send me.{1,10}of.{1,10}usd.{1,10}(bitcoin|btc)/i
 /you.{1,10}working days.{1,10}transfer the money/i
 
 #
