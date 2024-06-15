@@ -102,7 +102,6 @@
 # ------------------------------------------------------------------------------
 /rechnung erstattungsfähig/iu
 /ihre rechnung wurde zweimal bezahlt/i
-/sie haben eine ticketrückerstattung/iu
 
 # Locking Account
 # ------------------------------------------------------------------------------
@@ -488,6 +487,10 @@
 # Swisspass
 /swisspass.{1,10}abonnement.{1,15}aktivieren/i
 /(ihr|lhr).{1,10}pass ist.{1,15}(deaktiviert|nicht mehr gültig)/iu
+
+/ihre ticketrückerstattung wurde akzeptiert/iu
+/sie haben eine ticketrückerstattung/iu
+
 
 # Swiss Police
 /die polizeiliche.{1,10}kommunikation/i
