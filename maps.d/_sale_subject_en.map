@@ -136,6 +136,11 @@
 
 # SEO
 # ------------------------------------------------------------------------------
+/seo.?(agency|offer)/i
+/seo.{1,15}(expert|package|plans?|pricing|promote|proposal|services|success)/i
+
+/affordable seo/i
+
 /about your web.?site/i
 /attract more.{1,10}traffic/i
 
@@ -144,16 +149,12 @@
 /boost your.{1,10}rankings/i
 /(1st|first).?page.?rank(ing)?/i
 
-/seo.{1,15}(expert|package|plans?|pricing|promote|proposal|services|success)/i
-
 /full seo.?package/i
 
-/you need.{1,10}seo/i
 /search.?engine.{1,10}rankings/i
-
-/affordable seo/i
 /site a seo/i
-/seo offer/i
+
+/you need.{1,10}seo/i
 
 # Google
 /(1st|first|seo|top).{1,15}(page|rankings?).?plan/i
