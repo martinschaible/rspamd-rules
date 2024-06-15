@@ -27,7 +27,7 @@
 /achtung.{1,10}schweizer/i
 /achtung.{1,10}sir/i
 
-/attn.{0,10}der.{1,10}gewinner/i
+/(achtung|attn|hello).{0,10}der.{1,10}gewinner/i
 /(achtung|attn|hello).{1,10}begünstigter/iu
 
 /aufmerksamkeit!/i
@@ -156,11 +156,11 @@
 
 /wichtig.{1,10}wir.{1,10}e?.?mail.{1,10}kommunizieren/i
 /wichtig.{1,10}mit ihnen zu besprechen.{1,10}bitte antworten/i
-/wichtigen brief an.{1,10}e?.?mail-adresse gesendet/i
+/wichtigen brief an.{1,10}e?.?mail.?adresse gesendet/i
 
 # Links
 # ------------------------------------------------------------------------------
-/Klicken Sie auf.{1,10}Antworten/i
+/klicken sie auf.{1,10}antworten/i
 
 # Using free Website
 # ------------------------------------------------------------------------------
