@@ -244,9 +244,12 @@ grill.{1,10}statt.{1,10}nur/i
 
 # Umbrellas
 # ------------------------------------------------------------------------------
-/ampelschirme.{1,20}(eleganz|jetzt noch|schutz)/i
+/ampelschirme.{1,20}(eleganz|jetzt|schutz)/i
 /ampelschirme.{1,20}(sonderangebot|sonderkondition|sonderpreis|vorteilpreis)/i
-/(entdecken|exklusive|hochwertige|premium|sichern|sonderangebot|sonderkondition|sonderpreis|unsere|vorteilpreis).{1,20}ampelschirme/i
+
+/(entdecken|exklusive|hochwertige|premium).{1,20}ampelschirme/i
+/(sale|sichern|sommer|sonderangebot|sonderkondition|sonderpreis|sonnenschutz|special).{1,20}ampelschirme/i
+/(unsere|vorteilpreis).{1,20}ampelschirme/i
 
 # WiFi
 # ------------------------------------------------------------------------------

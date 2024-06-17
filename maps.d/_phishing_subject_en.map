@@ -45,7 +45,8 @@
 
 /suspended.{1,15}confirm your e?.?mail/i
 
-/e?.?mail verification.{1,10}action required/i
+/e?.?mail.{1,10}account validation for/i
+/e?.?mail.{1,10}verification.{1,10}action required/i
 
 # Locking Account
 # ------------------------------------------------------------------------------
@@ -55,7 +56,6 @@
 
 # Banking
 # ------------------------------------------------------------------------------
-/aussetzung des.{1,15}bank.?dienstes/i
 
 # New Systems, Security, Technology, TAN
 # ------------------------------------------------------------------------------

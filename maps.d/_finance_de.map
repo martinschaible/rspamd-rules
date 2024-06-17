@@ -20,7 +20,7 @@
 
 /unser geschäft ist die kreditvergabe/iu
 
-/wir sind ein.{1,10}führendes finanzinstitut/iu
+/wir sind ein.{1,20}(finanzkreditgeber|führendes finanzinstitut)/iu
 /wir sind eine.{1,20}kapitalanlagegesellschaft/i
 
 /zuverlässige finanzunternehmen bietet/iu
@@ -138,6 +138,8 @@
 
 /finanzierung benötigen.{1,15}antworten sie.{1,10}auf diese e?.?mail/iu
 /finanzierung zu.{1,10}zinsen/i
+
+/ihnen.{1,10}eine finanzierung/i
 
 /investition.{1,15}finanzierung/i
 

@@ -150,6 +150,7 @@
 # ------------------------------------------------------------------------------
 /ihre karte ist gesperrt/i
 /aktivieren sie.{1,15}(gebührenfrei|ihre banking|identity check)/i
+/aussetzung des.{1,15}bank.?dienstes/i
 
 /datenupdate.{1,10}erforderlich/i
 
@@ -387,6 +388,9 @@
 
 #
 /edeka.{1,10}(belohnung|gutschein) erhalten/i
+
+# Stupid phrases
+/warten auf ihre genehmigung/i
 
 # Companies, Products
 # ------------------------------------------------------------------------------

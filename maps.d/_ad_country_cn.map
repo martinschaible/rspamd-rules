@@ -25,7 +25,7 @@
 
 /co.{1,5}ltd.{1,10}\+86/i
 
-/wechat.{1,5}(mobile|whatsapp)/i
+/(163\.com|wechat).{1,10}(mobile|whatsapp)/i
 
 /whatsapp.{1,5}wechat/i
 /ph.{1,5}skype.{1,5}wechat/i
@@ -131,7 +131,7 @@
 /we.?a?re.{1,20}(company|factory).{1,10}with.{1,10}years experience/i
 /we.?a?re.{1,20}(company|factory).{1,15}offer good quality/i
 /we.?a?re.{1,20}(company|factory).{1,10}that.{1,10}provide/i
-/we.?a?re.{1,20}(company|factory).{1,10}(specialized|specializing) in.{1,10}manufacture/i
+/we.?a?re.{1,20}(company|factory).{1,10}(specialized|specializing).{1,10}in.{1,10}(manufacture|production)/i
 /we.?a?re.{1,20}(company|factory).{1,10}products include/i
 
 /we.?a?re.{1,10}(excellent|leader|leading|product).{1,10}(manufacturer|supplier)/i
@@ -140,8 +140,7 @@
 /we.?a?re.{1,10}importer.{1,10}distributor/i
 
 /we.?a?re.{1,25}(manufacturer|manufactuer) (in|of)/i
-/we.?a?re.{1,20}(manufacturer|manufactuer).{1,10}exporter/i
-/we.?a?re.{1,20}(manufacturer|manufactuer).{1,10}specialize/i
+/we.?a?re.{1,20}(manufacturer|manufactuer).{1,20}(engaged|exporter|production|specialize)/i
 
 /we.?a?re.{1,10}manufacturing.{1,10}company (of|which.{1,15}produces)/i
 
