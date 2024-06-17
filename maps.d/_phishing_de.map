@@ -59,6 +59,7 @@
 /(doppelt|zweimal).{1,10}(bezahlt wurde|erfolgt ist).{1,10}um eine erstattung zu beantragen/i
 /doppelabrechnung für.{1,25}gibt/i
 
+/ihre rechnung doppelt bezahlt wurde/i
 /erstattung anfordern/i
 /rückerstattungs.?link/iu
 
@@ -71,6 +72,11 @@
 /online.?erstattungszahlung/i
 
 /(monat|2024).{1,15}versehentlich doppelt erfolgt ist/i
+
+/wir festgestellt.{1,10}dass.{1,10}eine.{1,10}rückerstattung/iu
+
+#
+/ihnen.{1,10}helfen.{1,10}ihr geld zurückzubekommen/iu
 
 # Train ticket
 /erstattungsticket akzeptiert/i

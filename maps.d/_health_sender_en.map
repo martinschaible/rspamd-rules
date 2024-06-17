@@ -273,7 +273,9 @@
 
 # Hearing
 # ------------------------------------------------------------------------------
-/hear(ing)?.(aid|loss)/i
+/hear(ing)?.(aid|loss|restorer?)/i
+
+/(bad|restore).?hearing/i
 /ear.?humming/i
 
 # Heart, Blood pressure
@@ -417,8 +419,6 @@
 /tinnitus$/i
 /tinnitus.?(cure|memory|symptoms|warning)/i
 
-/hearing.?loss/i
-/(bad|restore).?hearing/i
 /(buzzing|stop).{0,10}noise/i
 /odd.?mineral/i
 /zero.?ear/i

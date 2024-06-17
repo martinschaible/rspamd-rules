@@ -118,11 +118,11 @@
 
 /ihr photo.?tan wurde blockiert/i
 
-/zugriff auf ihr.{1,15}konto wurde eingeschränkt/iu
-
-/zu ihrer sicherheit haben wir ihr.{1,15}konto/i
-
 /wichtige mitteilung.{1,10}ihr.{1,15}konto/i
+
+/zahlungserinnerung.{1,10}konto wird gesperrt/i
+/zugriff auf ihr.{1,15}konto wurde eingeschränkt/iu
+/zu ihrer sicherheit haben wir ihr.{1,15}konto/i
 
 # Confirm or reconfirm Account/Identity
 # ------------------------------------------------------------------------------
@@ -440,6 +440,10 @@
 #
 #
 
+# Return for double payed invoices
+# ------------------------------------------------------------------------------
+/eine rückerstattung zu beantragen/iu
+
 # Payments
 # ------------------------------------------------------------------------------
 /Sie haben Ihr.{1,20}guthaben nicht ausgezahlt/i
@@ -531,6 +535,8 @@
 
 /(handeln|handlung) erforderlich.{1,10}(dauernde|sperrung)/i
 /(handeln|handlung) erforderlich.{1,10}lösen sie ihr problem/iu
+
+/bitte um rückruf.{1,10}aktenzeichen/iu
 
 /neue nachricht.{1,10}neues update/i
 
