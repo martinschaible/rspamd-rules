@@ -44,6 +44,7 @@
 /e?.?mail.?verification/i
 
 /server.?(admin|support|update)/i
+/systems.?administrator/i
 
 /\.(ch|com|de|org).?(admin$|administrator|security|server|update)/i
 /\.(ch|com|de|org).?onedrive/i
@@ -139,6 +140,7 @@
 
 # Fedex
 /fedex.{0,10}(fedex|helpdesk|support)/i
+/fedexexpress/i
 
 # Facebook
 /facebook (ads.?team|inc)/i

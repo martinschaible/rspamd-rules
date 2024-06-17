@@ -213,6 +213,7 @@
 
 /shipping.?(advice|product|produces)\.(7z|doc|gz|htm|r11|rar|tgz|xla|xls|zip)/i
 /documents?.{1,10}commercial\.(7z|doc|gz|htm|r11|rar|tgz|xla|xls|zip)/i
+/documents?.{1,10}\.shtml?/i
 
 #/transportlabel.?\d{1,15}\.(7z|doc|gz|htm|r11|rar|tgz|xla|xls|zip)/i
 

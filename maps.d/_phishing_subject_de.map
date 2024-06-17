@@ -29,6 +29,8 @@
 /(aktualisieren?|bestätigen?).{1,10}(deine|sie).{1,10}(konto|sicherheits).?informationen/i
 /(aktualisieren?|bestätigen?).{1,10}(deine|sie).{1,10}kontodaten/i
 
+/anpassen ihrer.{1,10}kontodaten/i
+
 /konto.{0,15}(aktualisierung|update|überprüfung) erforderlich/iu
 /konto.{1,10}bleibt begrenzt/i
 /konto.{1,10}braucht ihre aufmerksamkeit/i
