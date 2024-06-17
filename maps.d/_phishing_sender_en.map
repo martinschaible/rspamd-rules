@@ -33,7 +33,7 @@
 
 /(admin|e?.?mail).{0,10}(alert|security|server|support)/i
 
-/it.?noreply/i
+/it.?(notice|noreply)/i
 
 /mailbox.?admin/i
 /message.?center/i

@@ -42,6 +42,8 @@
 /sofort bis zu.{1,15}euro pro tag verdienen/i
 /vermehren sie ihr geld/i
 
+/wie einfach geld verdienen/i
+
 # Fake stories
 # ------------------------------------------------------------------------------
 /(als|schaffte).{5.20}euro pro (tag|woche) zu verdienen/i
@@ -93,7 +95,7 @@
 
 /passives.{1,10}(einkommen|gehalt|geld).{1,10}(aufzubauen|erwirtschaften|verdienen)/i
 
-/welt.{1,10}passiven einkommens/i
+/(weg|welt).{1,10}passiven.{1,10}einkommens?/i
 
 # Investing
 # ------------------------------------------------------------------------------

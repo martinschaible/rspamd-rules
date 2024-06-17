@@ -180,8 +180,11 @@
 /obligatorische aktivierung/i
 
 /bank.{1,10}wichtiges sicherheitsupdate/i
+
+/aktualisieren sie ihre?.{1,10}banking/i
 /aktualisierung ihres.{1,20}authentifizierungsdienstes/i
-/authentifizierungsdienst.{1,10}erforderlich/i
+/sehr geehrter kunde.{1,20}authentifizierungsdienst/i
+/authentifizierungsdienst.{1,15}(banking|erforderlich)/i
 
 # Parcel
 # ------------------------------------------------------------------------------

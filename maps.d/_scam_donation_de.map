@@ -109,6 +109,7 @@
 /ein(en)? betrag von.{1,10}\d{3}.{0,5}\d{3}.{1,10}(millionen|tausend|dollar|euro?|gbp|usd).{1,25}wurde ihnen von/i
 
 /freiwillige spende in höhe von.{1,10}millionen/iu
+/für meine spende ausgewählt/iu
 /hat ihnen eine.{1,15}summe gespendet/i
 
 /ich (gebe|spende) ihnen.{1,10}\d{3}.{0,5}\d{3}.{1,10}(millionen|tausend|dollar|euro?|gbp|usd)/i
@@ -149,6 +150,7 @@
 /ihre.{1,10}spende.{1,10}jetzt erhalten können/iu
 /ihre.{1,10}spende.{1,10}per e?.?mail anzufordern/i
 /ihre.{1,10}spende.{1,10}steht noch aus/i
+/ihre.{1,10}spende.{1,10}\d{3}.{0,5}\d{3}/i
 
 /(ich|sie) haben? eine.{1,15}spende.{1,10}(in höhe)?.{0,10}von.{2,10}\d{3}.{0,5}\d{3}/iu
 /(ich|sie) haben? eine.{1,15}spende.{1,10}(in höhe)?.{0,10}von.{2,10}million/iu
