@@ -82,7 +82,9 @@
 
 # Partnership, Business
 # ------------------------------------------------------------------------------
-/(geschäfts?|transaktioms?).{0,10}(angebot|vorschlag)/iu
+/(geschäfts?|transaktions?).{0,10}(angebot|vorschlag)/iu
+
+/dringender.{1,10}vorschlag/i
 
 /profitables angebot/i
 

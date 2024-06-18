@@ -31,7 +31,8 @@
 #
 /\d{2,3}.{1,10}gutschein auf sie wartet/i
 
-/erhalten sie ihr geschenk innerhalb von.{1,10}stunden/i
+/erhalten sie ihr.{1,15}geschenk innerhalb von.{1,10}stunden/i
+/fordern sie ihre.{1,15}belohnung an/i
 
 /sich ihr kostenloses geschenk/i
 

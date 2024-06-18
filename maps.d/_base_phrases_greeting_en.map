@@ -270,31 +270,31 @@
 # ------------------------------------------------------------------------------
 /i.?a?m a?.{0,10}agent.{5,25}i am a/i
 /i.?a?m a?.{0,10}agent.{1,10}(broker|business|of)/i
-/i.?a?m a?.{5,25}an entrepreneur/i
+/i.?a?m a?.{1,25}an entrepreneur/i
 /i.?a?m a?.{0,10}attorney.{1,25}(legal assistant|solicitor)/i
 /i.?a?m a?.{0,10}consultant (mandate|mr)/i
 /i.?a?m a?.{0,10}digital.{1,10}marketing.{1,10}(consultant|expert|specialist)/i
-/i.?a?m a?.{5,25}director general of the/i
-/i.?a?m a?.{5,25}general.?manager/i
+/i.?a?m a?.{1,25}director general of the/i
+/i.?a?m a?.{1,25}general.?manager/i
 /i.?a?m a?.{0,10}expert.{1,10}trader/i
 /i.?a?m a?.{0,25}(financial|investment|investor).{1,10}(consultant|funds|philanthropist)/i
-/i.?a?m a?.{5,25}private investigator/i
+/i.?a?m a?.{1,25}private investigator/i
 /i.?a?m a?.{0,15}professional.{1,10}(graphic designer|investment)/i
 /i.?a?m a?.{0,10}medical scientist/i
-/i.?a?m a?.{5,25}sales.{1,10}(manager|representative)/i
-/i.?a?m a?.{5,25}senior.{1,10}purchasing.{1,10}manager/i
-/i.?a?m a?.{5,25}probate lawyer/i
-/i.?a?m a?.{5,25}solicitor at law/i
+/i.?a?m a?.{1,25}sales.{1,10}(manager|representative)/i
+/i.?a?m a?.{1,25}senior.{1,10}purchasing.{1,10}manager/i
+/i.?a?m a?.{1,25}probate lawyer/i
+/i.?a?m a?.{1,25}solicitor at law/i
 
 /i.?a?m a?.{0,10}(colonel|fbi|special agent)/i
 
 /i.?a?m a?.{0,10}representative of/i
 /i.?a?m a?.{0,10}investment.portfolio.manager/i
-/i.?a?m a?.{5,25}private.{1,10}(agent|investor|secretary)/i
-/i.?a?m a?.{5,25}from the federal/i
+/i.?a?m a?.{1,25}private.{1,10}(agent|investor|secretary)/i
+/i.?a?m a?.{1,25}from the federal/i
 
-/i.?a?m a?.{5,25}broker.{1,10}financial/i
-/i.?a?m a?.{5,25}(financial|investment|investor).{1,10}broker/i
+/i.?a?m a?.{1,25}broker.{1,10}financial/i
+/i.?a?m a?.{1,25}(financial|investment|investor).{1,10}broker/i
 
 /i.?a?m.{1,10}the principal accountant/i
 /i.?a?m (mrs?|ms).{5,25}(barrister|solicitor)/i

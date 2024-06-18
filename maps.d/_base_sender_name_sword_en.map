@@ -50,6 +50,9 @@
 # ------------------------------------------------------------------------------
 /(apple|carrefour|edeka|ihk|jumbo|lidl|metamask|microsoft|migros|otto|pfizer|rewe|smava|spotify)$/i
 
+# Not sure about this. Waiting for a regualr mail to see a real sender name
+#/declathon$/i
+
 /i.?cloud$/i
 /twint$/i
 
