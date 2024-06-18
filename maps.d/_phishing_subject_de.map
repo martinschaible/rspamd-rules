@@ -394,29 +394,31 @@
 
 # Companies, Products
 # ------------------------------------------------------------------------------
-/iphone.{0,10}pro.{1,10}ausstehende sendung/i
-/du hast ein.{1,10}iphone.{0,10}pro/i
-/du hast ein brandneues.{1,20}bekommen/i
-
-/chance einen.{1,15}gutschein zugewinnen/i
-
 /bestätigung.{1,10}erhalten sie.{1,10}kostenlose?/iu
+/du hast ein brandneues.{1,20}bekommen/i
+/glückwunsch an unser.{1,10}gewinner des brandneuen/i
+/sie haben ein.{5,20}gewonnen.?/i
 
-/ihr galaxy s24 ultra wartet/i
-
-/letzter gewinner/i
-/sie haben ein.{5,20}gewonnen.?#/i
-/herzlich.?#/i
-
-/herzlichen glückwunsch.{1,10}dewalt/iu
-
+letzter gewinner/i
 /gerät genehmigt/iu
 
-/temu.?palette/i
+/produkt kann nicht zugestellt werden/i
 
+# Amazon
 /amazon gutschein gewinnen/i
 
-/produkt kann nicht zugestellt werden/i
+# Apple
+/iphone.{0,10}pro.{1,10}ausstehende sendung/i
+/du hast ein.{1,10}iphone.{0,10}pro/i
+
+# Dewalt
+/herzlichen glückwunsch.{1,10}dewalt/iu
+
+# Samsung
+/ihr galaxy s24 ultra wartet/i
+
+# Voucher
+/chance einen.{1,15}gutschein zugewinnen/i
 
 # Surveys
 # ------------------------------------------------------------------------------
