@@ -25,7 +25,9 @@
 /account security notification/i
 /account safety alert/i
 
-/attention.{1,10}de.?activation.{1,10}account/i
+/(attention|reminder).{1,10}de.?activation.{1,10}account/i
+/(attention|reminder).{1,10}prevent account hold/i
+
 /unusual activity on your account/i
 /update to the new.{1,20}account/i
 
