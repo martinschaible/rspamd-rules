@@ -42,6 +42,9 @@
 
 # Contact
 # ------------------------------------------------------------------------------
+/ansprüche.{1,10}kontaktieren sie meine persönliche.{1,10}e?.?mail/iu
+/antworten sie.{1,15}um diese spende/i
+
 /\d{3}.{0,5}\d{3}.{1,10}(dollar|euro?|gbp|usd).{1,10}zu erhalten.{1,10}kontaktieren sie mich/i
 
 /(millionen|tausend).{1,10}(dollar|euro?|gbp|usd).{1,10}kontaktieren sie mich/i
@@ -49,12 +52,10 @@
 
 /(dollar|euro?|gbp|usd).{1,10}an sie gespendet.{1,10}details antworten/i
 
-/ansprüche.{1,10}kontaktieren sie meine persönliche.{1,10}e?.?mail/iu
 /ihres spendenanspruchs wenden sie sich/i
-
 /kontaktieren sie barr/i
 
-/antworten sie.{1,15}um diese spende/i
+/zu erhalten.{1,10}bitte antworten sie auf diese.{1,10}e?.?mail/i
 
 # Donation
 # ------------------------------------------------------------------------------
@@ -179,7 +180,7 @@
 /sie ausgewählt.{1,10}um eine spende in höhe von/iu
 /sie ausgewählt wurden.{1,10}die summe von/iu
 /sie ausgewählt wurden.{1,10}den betrag von.{1,10}\d{3}.{0,5}\d{3}/iu
-/sie ausgewählt wurden.{1,10}um meine spende/iu
+/sie ausgewählt wurden.{1,15}(eine|meine) spende/iu
 
 /sie.{1,10}erhielten.{1,10}eine.{1,10}spende in höhe von/iu
 /sie.{1,10}einen.{1,10}zuschuss in.{1,10}höhe von.{1,25}erhalten/iu
