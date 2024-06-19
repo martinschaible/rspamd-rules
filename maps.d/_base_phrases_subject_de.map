@@ -65,6 +65,7 @@
 /(guten tag|sehr geehrter?) (frau|herr)/i
 /(guten tag|sehr geehrter?).{1,15}(begünstigter|empfänger|kunde)/iu
 
+/grüße.{1,10}liebling/iu
 /sei gegrüßt.{1,10}mein geliebter/iu
 
 /ich grüße sie/iu

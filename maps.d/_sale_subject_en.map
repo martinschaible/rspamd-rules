@@ -73,7 +73,7 @@
 # Address lists for spamming, EMail Marketing
 # ------------------------------------------------------------------------------
 /boom of sales/i
-/(linked.?in|targeted).{1,10}e?.?mail.?list/i
+/(linked.?in|targeted|verified).{1,10}e?.?mail.?list/i
 
 /e?.?mail.?list.{1,10}(europe|valid)/i
 /e?.?mail.{1,10}marketing.{1,10}techniques/i
@@ -93,6 +93,7 @@
 /launch your e?.?mail.?campaign/i
 
 /you want.{1,15}e?.?mail.?list/i
+/your targeted.{1,10}verified/i
 
 # Leads
 # ------------------------------------------------------------------------------
@@ -104,7 +105,7 @@
 /app!!/i
 /apps?.?(creation|development|proposal|service)/i
 
-/create an.{1,10}app/i
+/(create|develop) an.{1,10}app/i
 
 # Developing Websites
 # ------------------------------------------------------------------------------
@@ -130,9 +131,10 @@
 /(upgrade|update) your.{1,15}web.?site today/i
 /(upgrade|update).{1,10}homepage.{1,10}design/i
 
+/web.?app.{1,10}designer/i
 /web.?development.{1,10}special offer/i
 
-/web.?app.{1,10}designer/i
+/you want to.{1,15}designing.{1,20}web.?site/i
 
 # SEO
 # ------------------------------------------------------------------------------
