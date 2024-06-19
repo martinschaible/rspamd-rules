@@ -17,19 +17,19 @@
 
 /btc.?deposit/i
 
-/(amplify|boost|optimize) your.{1,10}(bitcoin|btc|crypto).{1,10}(earnings|portfolio)/i
+/dear crypto user/i
+/discover coins/i
+
+/earn(ing)? free.{1,10}cryptocurrency/i
+
+/(amplify|boost|multiply|optimize) your.{1,10}(bitcoin|btc|crypto)/i
+/swiss.{1,10}(bitcoin|btc|crypto)/i
 
 /see.{1,10}(bitcoin|btc|crypto).{1,10}details/i
 
 /your.{1,10}(bitcoin|btc|crypto).{1,10}wallet has been funded/i
 
 /we have funded your portfolio with.{1,10}(bitcoin|btc|crypto)/i
-
-/(swiss|multiply your).{1,10}(bitcoin|btc|crypto)/i
-
-/dear crypto user/i
-
-/discover coins/i
 
 # Bitcoin mining
 # ------------------------------------------------------------------------------
