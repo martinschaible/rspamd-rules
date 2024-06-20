@@ -74,7 +74,8 @@
 /dear.{1,10}(madam|purchaser|sir).{1,15}it is an honor to contact you/i
 
 /dear sir.{1,5}madam.{1,10}i am writing to/i
-/dear sir.{1,5}madam.{1,10}we are (interested in|looking for|specialized)/i
+/dear sir.{1,5}madam.{1,10}we are.{1,10}(interested in|looking for|specialized)/i
+/dear sir.{1,5}madam.{1,10}we are.{1,10}leading partner/i
 
 /dear sir.{1,5}madam.{1,10}suppliers?/i
 

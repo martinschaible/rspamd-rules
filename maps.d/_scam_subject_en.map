@@ -84,6 +84,7 @@
 /(business|partnership).{1,10}(assistance|offer|proposal|proposition|response)/i
 /(business|urgent).{1,15}(opportunity|partnership|proposal)/i
 
+/proposal.{1,10}(\.\.|!)/i
 /proposal.{1,10}work together/i
 
 /business.{1,10}(inquiry from|meeting request)/i

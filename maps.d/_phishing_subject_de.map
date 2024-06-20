@@ -318,6 +318,7 @@
 # Winning, Present, Rewards
 # ------------------------------------------------------------------------------
 /(belohnung|gutschein).{1,10}(freigeschaltet|ist zum versenden|wartet sie)/i
+/antworten.{1,10}gewinnen/i
 
 /sie sind der auserwählte/iu
 
@@ -344,11 +345,13 @@
 
 /gratis.{1,20}euro.{1,10}geschenkkarte.{1,10}sichern/i
 
+/gewinnen.{1,10}brandneu/i
 /gewinnen.{1,10}jetzt bestätigen/iu
 /gewinner.{1,10}monatswettbewerbs.{1,10}bekanntzugeben/i
 /gewinnen.{1,10}sie eine.{1,15}geschenkkarte/i
 /gewinnen.{1,10}sie einen.{1,15}wunschgutschein/i
 /gewinnen.{1,10}sie.{1,20}geschenkkarte/i
+
 /gewinn innerhalb von.{1,10}stunden erhalten/i
 
 /gutscheine?.{1,10}im gesamtwert von/i
