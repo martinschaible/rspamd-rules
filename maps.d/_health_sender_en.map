@@ -238,7 +238,7 @@
 
 /(fungal|fungus).?(infection|relief|remover?)/i
 
-/(cracked|nasty|rotten|toe|yellow).?nails/i
+/(cracked|nasty|rotten|toe|yellow).{1,10}(nails|toe)/i
 
 # Gums
 # ------------------------------------------------------------------------------
@@ -462,6 +462,7 @@
 /bioxtrim/i
 /cardione/i
 /circulaxil/i
+/cystenon/i
 /detoxil/i
 /greeny.?slim/i
 /hondofrost/i

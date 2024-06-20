@@ -148,7 +148,9 @@
 
 # Banking
 # ------------------------------------------------------------------------------
-/ihre karte ist gesperrt/i
+/ihre.{1,10}karte ist gesperrt/i
+/ihre.{1,10}daten sind veraltet/i
+
 /aktivieren sie.{1,15}(gebührenfrei|ihre banking|identity check)/i
 /aussetzung des.{1,15}bank.?dienstes/i
 
