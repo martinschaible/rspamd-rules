@@ -74,7 +74,7 @@
 # ------------------------------------------------------------------------------
 /(kg|kilo|pfund).{1,10}in.{1,10}tagen.{1,10}(abnehmen|verlieren)/i
 
-/fettverbrenner/i
+/(fettverbrenner|gewichtsreduktion)/i
 
 /abnehm.?quiz/i
 /abnehmen.{1,10}kg in.{1,10}tagen/i
@@ -92,6 +92,9 @@
 /verbrennen sie.{1,10}kalorien/i
 /verlieren sie.{1,10}gewicht/i
 /verlieren sie bis zu.{1,10}kg/i
+
+# Product
+/vorteile.{1,10}keto/i
 
 # Heart, blood pressure
 # ------------------------------------------------------------------------------
