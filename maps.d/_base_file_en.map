@@ -13,7 +13,6 @@
 /\/url\.html/i
 /\/redirect\.html/i
 
-
 /[a-z]{0,10}keto[a-z]{0,10}\.html/i
 
 /milf.?\d\.jpg/i
@@ -32,6 +31,9 @@
 # It's silly to blacklist names. But they are very repetitive
 /marlene\.jpg/i
 /mature.?\d?\.jpg/i
+
+# Forwarder
+/global_outurl\.php/i
 
 #
 #
