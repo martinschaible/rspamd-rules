@@ -75,11 +75,13 @@
 # ------------------------------------------------------------------------------
 /schön deutche/i
 
-/(deutche|umgänglich|unschätzbar|treu).{1,10}(freund|herr|mann)/i
+/(deutche|umgänglich|unschätzbar|treu|wurdiger).{1,10}(freund|herr|mann)/i
 /(anständig|anziehend|liebenswürdig|munter|uneigennützig).{1,10}(freund|mädchen|mädel)/iu
 
 /kontaktfreudig deutche/i
 /(attraktives|ein|freundliches|interessantes|romantisches).{1,15}madchen/i
+
+/ich mochte/i
 
 # Finance
 # ------------------------------------------------------------------------------

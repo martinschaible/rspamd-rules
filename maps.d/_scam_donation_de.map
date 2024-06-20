@@ -43,6 +43,8 @@
 # Contact
 # ------------------------------------------------------------------------------
 /ansprüche.{1,10}kontaktieren sie meine persönliche.{1,10}e?.?mail/iu
+
+/antworten sie.{1,15}fordern sie ihre spende/i
 /antworten sie.{1,15}um diese spende/i
 
 /\d{3}.{0,5}\d{3}.{1,10}(dollar|euro?|gbp|usd).{1,10}zu erhalten.{1,10}kontaktieren sie mich/i
@@ -167,11 +169,12 @@
 /informationen zum erhalt ihrer.{1,15}spende/i
 
 /sie.{1,10}den erhalt einer.{1,15}spende/i
+/sie ihre.{1,15}spende im wert von/i
 
 /sie bezüglich der.{1,10}spende von/iu
 /sie als empfänger einer.{1,20}spende/iu
-/sie (die|eine) spende in höhe von.{1,15}(millionen|tausend|dollar|euro?|gbp|usd)/iu
-/sie (die|eine) spende in höhe von.{1,10}\d{3}.{0,5}\d{3}/iu
+/sie (die|eine).{1,15}spende in höhe von.{1,15}(millionen|tausend|dollar|euro?|gbp|usd)/iu
+/sie (die|eine).{1,15}spende in höhe von.{1,10}\d{3}.{0,5}\d{3}/iu
 
 /sie als gewinner einer.{1,15}spende/i
 /sie als eine der.{1,15}glücklichen personen aufgeführt/iu
@@ -180,7 +183,7 @@
 /sie ausgewählt.{1,10}um eine spende in höhe von/iu
 /sie ausgewählt wurden.{1,10}die summe von/iu
 /sie ausgewählt wurden.{1,10}den betrag von.{1,10}\d{3}.{0,5}\d{3}/iu
-/sie ausgewählt wurden.{1,15}(eine|meine) spende/iu
+/sie ausgewählt wurden.{1,15}(eine|meine).{1,15}spende/iu
 
 /sie.{1,10}erhielten.{1,10}eine.{1,10}spende in höhe von/iu
 /sie.{1,10}einen.{1,10}zuschuss in.{1,10}höhe von.{1,25}erhalten/iu

@@ -131,6 +131,8 @@
 /ihre informationen.{1,15}aktualisiert werden/i
 
 /bestätigung ist erforderlich/i
+/bestätigen sie.{1,10}ihre sicherheit/i
+
 /identifizieren sie sich neu/i
 
 /erneute verifizierung.{1,10}erforderlich/i
@@ -157,6 +159,8 @@
 /datenupdate.{1,10}erforderlich/i
 
 /ihr zugriff wurde.{1,15}eingeschränkt/iu
+
+/sicherheit anhand der.{1,10}anleitung bestätigen/iu
 /sicherheits.?gründen wurde ihr zugang gesperrt/iu
 /sicherheits.?funktionen.{1,15}online.?transaktionen/i
 
@@ -167,6 +171,7 @@
 # ------------------------------------------------------------------------------
 /tan.{0,10}verfahren/i
 
+/(photo|push).?tan.?brief/i
 /(photo|push).?tan.{1,15}(aktivieren sie jetzt|aktivierung|erforderlich|ihre konto|ist nicht|verfahren)/i
 /(photo|push).?tan.{1,10}läuft innerhalb/iu
 /(photo|push).?tan.{1,10}vorübergehend aufgehoben/iu
