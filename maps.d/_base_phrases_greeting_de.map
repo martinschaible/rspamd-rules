@@ -90,8 +90,7 @@
 /sehr geehrter?.{1,10}(frau|herr).{1,5}betreff/i
 
 /sehr geehrter?.{1,10}e?.?mail.?(besitzer|eigentümer|empfänger|inhaber)(in)?/iu
-/sehr geehrter?.{1,10}manager/i
-/sehr geehrter?.{1,10}bankkunde/i
+/sehr geehrter?.{1,15}(bankkunde|käufer|manager)/iu
 
 /sei gegrüßt.{1,10}(liebster|mein geliebter)/iu
 
