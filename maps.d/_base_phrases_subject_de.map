@@ -65,6 +65,8 @@
 /(guten tag|sehr geehrter?) (frau|herr)/i
 /(guten tag|sehr geehrter?).{1,15}(begünstigter|empfänger|kunde)/iu
 
+/guten morgen.{1,10}mein.{1,15}freund/i
+
 /grüße.{1,10}liebling/iu
 /sei gegrüßt.{1,10}mein geliebter/iu
 
@@ -94,7 +96,8 @@
 
 # E-Mail active/correct
 # ------------------------------------------------------------------------------
-/(bestätigen sie|sie mir.{1,10}mitteilen).{1,15}(diese|ihre).{1,10}e?.?mail.{1,15}aktiv ist/iu
+/(bestätigen sie|sie mir.{1,10}mitteilen).{1,15}(diese|ihre).{1,10}e?.?mail.{1,15}(aktiv|gültig) ist/iu
+/bestätigen sie.{1,10}ob ihre e?.?mail.{1,15}(aktiv|gültig) ist/i
 
 /ist.{1,10}ihre gültige e?.?mail/iu
 /ist diese.{1,10}e?.?mail.{1,15}(aktiv|gültig)/iu

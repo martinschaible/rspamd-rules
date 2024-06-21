@@ -251,12 +251,13 @@ grill.{1,10}statt.{1,10}nur/i
 
 # Umbrellas
 # ------------------------------------------------------------------------------
-/ampelschirme.{1,20}(eleganz|garten|etzt|schutz)/i
-/ampelschirme.{1,20}(sonderangebot|sonderkondition|sonderpreis|vorteilpreis)/i
+/(ampel|terrassen).?schirme.{1,20}(eleganz|garten|etzt|schutz)/i
+/(ampel|terrassen).?schirme.{1,20}(preiswert|sonderangebot|sonderkondition|sonderpreis|vorteilpreis)/i
+/(ampel|terrassen).?schirme.{1,20}meter/i
 
-/(design|deluxe||entdecken|exklusive|hochwertige|jetzt|premium|reduziert).{1,20}ampelschirme/i
-/(sale|sichern|sommer|sonderangebot|sonderkondition|sonderpreis|sonnenschutz|special|spezial).{1,20}ampelschirme/i
-/(unsere|vorteilpreis).{1,20}ampelschirme/i
+/(design|deluxe||entdecken|exklusive|hochwertige|jetzt|premium|reduziert).{1,20}(ampel|terrassen).?schirme/i
+/(sale|sichern|sommer|sonderangebot|sonderkondition|sonderpreis|sonnenschutz|special|spezial).{1,20}(ampel|terrassen).?schirme/i
+/(unsere|vorteilpreis).{1,20}(ampel|terrassen).?schirme/i
 
 # WiFi
 # ------------------------------------------------------------------------------

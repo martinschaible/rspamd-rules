@@ -33,6 +33,8 @@
 /kundenbetreuung$/i
 /zahlung$/i
 
+/dtn.?versand/i
+
 # Sales
 # ------------------------------------------------------------------------------
 /drucker$/i
@@ -54,5 +56,5 @@
 /(frau|herr)/i
 /benachrichtigung/i
 
-/(beratung|versand|wichtig)$/i
+/(beratung|wichtig)$/i
 
