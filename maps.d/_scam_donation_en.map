@@ -87,6 +87,9 @@
 # Chosen
 /you.{1,10}been chosen.{1,10}receive.{1,20}donation/i
 
+# Congrats
+/congratulations.{1,10}\d{3}.{0,5}\d{3}.{1,10}has been awarded to/i
+
 # Donation, Companies
 # ------------------------------------------------------------------------------
 /active.{1,10}web.?user.{1,10}receive.{1,10}donation/i

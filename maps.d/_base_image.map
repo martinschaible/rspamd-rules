@@ -32,13 +32,13 @@
 
 # Image with 1 pixel height
 # ------------------------------------------------------------------------------
-/\.(jpg|png)" \/><img height=(3d)?"1" src=(3d)?"http:\/\//i
+/\.(jpg|png).? \/><img height=(3d)?.?1.{0,10}src={0,10}http:\/\//i
 
-/<img height=(3d)?"1" src=(3d)?.?http:\/\//i
+/<img height=(3d)?.?1.? src=(3d)?.{0,10}http:\/\//i
 
 # Image with 1 pixel height/width and no SSL
 # ------------------------------------------------------------------------------
-/<img width=(3d)?"1px" height=(3d)?"1px" alt=(3d)?"" src=(3d)?.?http:\/\//i
+/<img width=(3d)?.?1px.{0,10}height=(3d)?.?1px.{0,10}alt=.{0,10}src=.{0,10}http:\/\//i
 
 # Sample: .za.com/clicks/img/tupitea.png
 /\/clicks\/img\/[a-z0-9]{5,15}\.(jpg|png)/i
@@ -47,6 +47,10 @@
 # ------------------------------------------------------------------------------
 # Sample: https://files.hawkbull.de/page.png
 /\.de\/page\.(jpg|png)/i
+
+# Image without SSL
+# ------------------------------------------------------------------------------
+/<img alt=(3d)?.?[a-z0-9]{5,25}.{1,10}src=.{0,10}http:\/\//i
 
 # Image names
 # ------------------------------------------------------------------------------
@@ -67,5 +71,5 @@
 
 # Google
 # ------------------------------------------------------------------------------
-<img src=(3d)?.?https:\/\/drive\.google\.com/i
-<img src=(3d)?.?https:\/\/storage\.googleapis\.com/i
+<img src=(3d)?.{0,10}https:\/\/drive\.google\.com/i
+<img src=(3d)?.{0,10}https:\/\/storage\.googleapis\.com/i

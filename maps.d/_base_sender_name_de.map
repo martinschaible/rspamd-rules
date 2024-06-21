@@ -24,6 +24,9 @@
 # ------------------------------------------------------------------------------
 /gewinn(er)?.?(informationen|spiel|team)/i
 
+/dein.{1,10}lotto/i
+/lotto.{1,10}schein/i
+
 /(lotterie|lottery|millionen).?gewinner/i
 /(el.?gordo|lotto).?rabatt/i
 
