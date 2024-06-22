@@ -143,6 +143,7 @@
 
 /we.?a?re.{1,25}(manufacturer|manufactuer) (in|of)/i
 /we.?a?re.{1,20}(manufacturer|manufactuer).{1,20}(engaged|exporter|production|specialize)/i
+/we.?a?re.{1,20}(manufacturer|manufactuer).{1,20}with.{1,20}factories/i
 
 /we.?a?re.{1,10}manufacturing.{1,10}company (of|which.{1,15}produces)/i
 
