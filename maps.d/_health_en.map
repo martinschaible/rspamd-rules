@@ -163,6 +163,7 @@
 # ------------------------------------------------------------------------------
 /amazonian mixture adds/i
 /ancient.{1,10}(jungle hack|self.?healing)/i
+/ancient.{1,10}african.{1,10}serum/i
 
 /century.{1,10}miracle herb/i
 
@@ -217,6 +218,8 @@
 /miracle drink that restores/i
 
 /morning trick gives/i
+
+/natural.{1,10}vision.{1,10}breakthrough/i
 /natural.{1,10}(method|secret) that.{1,10}eliminate/i
 /natural.{1,10}(method|secret) that.{1,10}changing lives/i
 
@@ -231,6 +234,8 @@
 
 /revolutionary formula.{1,10}designed.{1,10}provide/i
 /reveals secret survival plan/i
+
+/secret.{1,10}ancient.{1,10}japanese/i
 /secret.{1,10}click here to learn/i
 
 /scientists.{1,10}confirmed this.{1,10}hack/i
@@ -245,6 +250,7 @@
 /this.{1,10}(awesome|apple).{1,10}trick/i
 /this.{1,10}eye.?opening presentation/i
 /this.{1,10}formula was leaked/i
+/this.{1,10}little.?known.{1,10}ingredient/i
 /this.{1,10}medical breakthrough/i
 /this.{1,10}mind.?blowing discovery/i
 /this.{1,10}miracle.{1,10}drug/i
@@ -252,17 +258,14 @@
 /this.{1,10}secret.{1,10}ingredient/i
 /this.{1,10}life.?changing.{1,10}technique/i
 
-/(see here|this).{1,10}(breakthrough|minute|second).{1,15}(discovery|hack|method|ritual|trick)/i
+/trick takes less than.{1,10}seconds/i
+/try this.{1,10}second.{1,15}at home/i
 
-/secret.{1,10}ancient.{1,10}japanese/i
+/(see here|this).{1,10}(breakthrough|minute|second).{1,15}(discovery|hack|method|ritual|trick)/i
 
 /people have.{1,15}tried this.{1,10}amazing trick/i
 
 /morning water trick/i
-
-/trick takes less than.{1,10}seconds/i
-/natural.{1,10}vision.{1,10}breakthrough/i
-/this little.?known.{1,10}ingredient/i
 
 /with (a|this).{1,10}(miraculous|revolutionary) (trick|solution)/i
 

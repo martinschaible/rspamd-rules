@@ -114,7 +114,7 @@
 # Delivery pending, bounced, blocked, hold
 # ------------------------------------------------------------------------------
 /incoming.{1,10}(e?.?mail|messages).{1,10}has been stopped/i
-/incoming.{1,10}(e?.?mail|messages).{1,10}failed/i
+/incoming.{1,10}(e?.?mail|messages).{1,10}(failed|pending)/i
 /incoming.{1,10}pending.{1,10}(e?.?mail|messages) for/i
 
 /important.{1,10}(e?.?mail|messages).{1,10}blocked/i
