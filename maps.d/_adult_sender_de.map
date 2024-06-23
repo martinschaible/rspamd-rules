@@ -41,6 +41,7 @@
 /geile.?dates/i
 /geiles?/i
 /geheimnisvolle?/i
+/geheimer{0,10}treff/i
 
 # H
 
@@ -82,3 +83,9 @@
 
 # V
 /von (dir|ihnen) entfernt/i
+
+# Unclassified
+# ------------------------------------------------------------------------------
+
+# Sample: "Melissa (21)"
+/[a-z]{3,10} \(\d{2}\)/i

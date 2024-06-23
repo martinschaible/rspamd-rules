@@ -184,6 +184,7 @@
 # Silly lies
 # ------------------------------------------------------------------------------
 /folgende nachricht konnte nicht auf ihr mobiltelefon/i
+/ihnen eine.{1,10}(e?.?mail|nachricht).{1,10}geschick.{1,10}die.{1,15}(unzustellbar|zurückkam)/iu
 
 #
 #
@@ -192,7 +193,7 @@
 # Unclassified
 # ------------------------------------------------------------------------------
 /ich bin hier.{1,10}um ihnen/i
-/ich möchte mit Ihnen kommunizieren/iu
+/ich möchte mit ihnen kommunizieren/iu
 /ihr gewinner.?team/i
 
 /absolut legal und.{1,5}100.{1,5}risikofrei/i

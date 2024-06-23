@@ -56,6 +56,9 @@
 /kaufland.{1,10}company/i
 /team.{1,10}kaufland/i
 
+# AliExpress
+/erhalten sie.{1,10}aliexpress.{1,10}mystery.?box/i
+
 # Airdrop
 /exklusiven airdrop.?(aktion|gelegenheit)/i
 /airdrop.{1,10}zu ergattern/i
@@ -70,7 +73,10 @@
 # Samsung
 /hole? dir jetzt dein samsung/i
 
-#
+# Mistery box
+/mystery.?box.{1,10}ausstehende sendung/i
+
+# 
 /du hast ein brandneues.{1,20}bekommen/i
 
 # Choosen
