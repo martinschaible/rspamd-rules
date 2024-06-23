@@ -10,7 +10,7 @@
 
 # Men
 # ------------------------------------------------------------------------------
-/(ed|enhancement).?solution/i
+/(ed|enhancement).?(treatment|solution)/i
 /(climax|erectile|libido)/i
 
 /enhancement.?gummie?s/i
@@ -257,6 +257,7 @@
 
 # Heart
 # ------------------------------------------------------------------------------
+/clogged.?arteries/i
 /dangerous.?health/i
 
 # Herpes
@@ -502,6 +503,8 @@
 # Unclassified
 # ------------------------------------------------------------------------------
 /(ancient|japanese|taiwan).?(hack|ritual|trick)/i
+
+/dairy.?trick/i
 
 /(avoid|drink).?this/i
 /clinically.?proven/i
