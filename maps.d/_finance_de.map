@@ -48,11 +48,12 @@
 /(benötigen|brauchen) sie.{1,15}einen.{1,10}kredit/i
 /(benötigen|brauchen) sie.{1,15}kredite/iu
 
-/(ich|wir) (biete|gewähre|vergebe)n?.{1,15}(alle arten von)?.{0,15}(darlehen|kredit)/iu
-/(ich|wir) (biete|gewähre|vergebe)n?.{1,15}kurz(fristige)?.{1,10}lang.?fristige.{0,15}(darlehen|kredit)/i
+/(ich|wir) (biete|gewähre|vergebe)n?.{1,15}(alle arten von)?.{1,15}(darlehen|kredit)/iu
+/(ich|wir) (biete|gewähre|vergebe)n?.{1,15}kurz(fristige)?.{1,10}lang.?fristige.{1,15}(darlehen|kredit)/i
 /(ich|wir) (biete|gewähre|vergebe)n?.{1,15}privatpersonen.{1,10}unternehmen/i
-/(ich|wir) (biete|gewähre|vergebe)n?.{1,15}privat.?(darlehen|kredit)/i
-/(ich|wir) (biete|gewähre|vergebe)n?.{1,15}privat.{1,10}geschäfts/i
+/(ich|wir) (biete|gewähre|vergebe)n?.{1,15}private?.{1,10}(darlehen|kredit)/i
+/(ich|wir) (biete|gewähre|vergebe)n?.{1,15}private?.{1,15}geschäftliche.{1,15}(darlehen|kredit)/iu
+/(ich|wir) (biete|gewähre|vergebe)n?.{1,15}private?.{1,10}geschäfts/i
 /(ich|wir) (biete|gewähre|vergebe)n?.{1,15}(darlehen|kredite?).{1,10}für einzelpersonen/iu
 /(ich|wir) (biete|gewähre|vergebe)n?.{1,15}(darlehen|kredite?).{1,10}von.{1,15}bis/i
 
@@ -86,6 +87,7 @@
 /sie an einem.{1,10}kredit interessiert sind/i
 /sie aus irgendeinem grund ein(en)?.{1,15}(darlehen|kredit)/iu
 /sie benötigen.{1,10}(ein(en)?|dringend|günstig|sofort).{1,20}(darlehen|kredit)/iu
+/sie ein.{1,15}(garantiertes|schnelles).{1,15}darlehen/i
 /sie einen.{1,15}sofort.?kredit/i
 /sie einen.{1,10}seriösen.{1,10}zuverlässigen.{1,10}kreditgeber/iu
 /sie.{1,15}(dringend|heute|interesse).{1,15}ein(en)?.{1,15}(darlehen|kredit)/iu

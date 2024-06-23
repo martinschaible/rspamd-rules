@@ -54,10 +54,11 @@
 
 # Eyes, Vision
 # ------------------------------------------------------------------------------
-/(clear|reverse|sharpen).{1,10}(blurry|foggy) (eyesight|vision)/i
+/(clear|reverse|sharpen).{1,10}(blurry|foggy).{1,10}(eyesight|vision)/i
 
 /(secret|trick|restore|swallow).{1,15}(better|perfect).{1,10}vision/i
 
+/restore your.{1,10}vision in just/i
 /(better|perfect).{1,10}vision in.{1,10}hour/i
 
 /second eye trick/i
@@ -155,7 +156,7 @@
 #
 #
 
-# Legal and Savfe
+# Legal and Save
 # ------------------------------------------------------------------------------
 /this is 100.{1,10}legal.{1,10}safe/i
 
