@@ -64,7 +64,10 @@
 /spenden?.{1,10}\d{3}.{0,5}\d{3}.{1,10}an sie/i
 /spenden?.{1,10}annehmen.{1,10}antworten sie/i
 /spenden?.{1,10}antworten sie mit ihren/i
+
 /spenden?.{1,10}ausgewählt.{1,10}(antworten|kontaktieren) sie/iu
+/spenden?.{1,10}ausgewählt.{1,10}weitere informationen wenden sie sich/i
+
 /spenden?.{1,15}(belohnung|fonds|investition|preis)/i
 /spenden?.{1,10}erhalten.{1,10}die.{1,10}zugesandt wurde/i
 /spenden?.{1,10}e?.?mail.{1,10}details jetzt/i
@@ -144,7 +147,7 @@
 /ihre? e?.?mail.?(adresse|konto)?.{0,25}wurde.{1,15}ausgewählt.{1,10}um (die|eine).{1,10}(spende|summe)/iu
 /ihre? e?.?mail.?(adresse|konto)?.{1,25}wurde.{1,10}ausgewählt.{1,10}erhalt einer spende/i
 
-/ihre? e?.?mail.?(adresse|konto)?.{0,25}wurde.{1,15}für (die|eine).{1,10}(investitionshilfe|spende)/iu
+/ihre? e?.?mail.?(adresse|konto)?.{0,25}wurde.{1,15}für (die|eine).{1,10}(investitionshilfe|spende|wohltätigkeitsspende)/iu
 /ihre? e?.?mail.?(adresse|konto)?.{1,25}wurde.{1,10}unter.{1,10}(begünstigten|glücklichen)/i
 /ihre? e?.?mail.?(adresse|konto)?.{1,25}wurde.{1,10}per online/i
 
