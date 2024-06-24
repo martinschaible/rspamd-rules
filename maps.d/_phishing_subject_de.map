@@ -535,11 +535,12 @@ letzter gewinner/i
 
 # Swisspass
 /swisspass.{1,10}abonnement.{1,15}aktivieren/i
+/wichtiger hinweis zu.{1,10}swisspass/i
+
 /(ihr|lhr).{1,10}pass ist.{1,15}(deaktiviert|nicht mehr gültig)/iu
 
 /ihre ticketrückerstattung wurde akzeptiert/iu
 /sie haben eine ticketrückerstattung/iu
-
 
 # Swiss Police
 /die polizeiliche.{1,10}kommunikation/i

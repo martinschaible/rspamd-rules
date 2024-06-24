@@ -25,8 +25,9 @@
 /you have.{1,10}(important|incoming|new|suspended|undelivered).{1,10}(incoming|pending).{1,15}(e?.?mails?|inbox|messages?)/i
 /you have.{1,10}(undelivered|unreceived).{1,15}(incoming|new|pending).{1,10}(e?.?mails?|messages?)/i
 
-/your incoming.{1,10}(e?.?mails|messages).{1,10}temporarily suspended/i
-/your incoming.{1,10}(e?.?mails|messages).{1,10}have been placed on hold/i
+/your (incoming|sent).{1,10}(e?.?mails|messages).{1,10}failed to deliver/i
+/your (incoming|sent).{1,10}(e?.?mails|messages).{1,10}have been placed on hold/i
+/your (incoming|sent).{1,10}(e?.?mails|messages).{1,10}temporarily suspended/i
 
 # Protocol related
 /you have.{1,10}pending{1,10}(e?.?mails?|messages?) on.{1,10}(imap|pop)/i
@@ -79,16 +80,17 @@
 
 # Verify EMail Account, Mailbox
 # ------------------------------------------------------------------------------
-/confirm.{1,10}your.{1,15}(account|e?.?mail) is.{1,10}active on our server/i
+/(confirm|verify).{1,10}your.{1,15}(account|e?.?mail).{1,10}is.{1,10}active on our server/i
+/(confirm|verify).{1,10}your.{1,15}(account|e?.?mail).{1,10}delivering e?.?mail/i
+/(confirm|verify).{1,10}your.{1,10}(account|e?.?mail).{1,10}switch to.{1,10}new version/i
+/(confirm|verify).{1,10}your.{1,10}(account|e?.?mail).{1,10}to enable/i
+
 /receiving.{1,10}e?.?mail.{1,10}if not verified within/i
 
-/your.{1,10}e?.?mail.?password.{1,10}(kindly|please).{1,10}confirm/i
+/your.{1,10}e?.?mail.?password.{1,10}(kindly|please).{1,10}(confirm|verify)/i
 /your.{1,10}mail.?box needs? to be verified/i
 
 /steps below.{1,10}authenticate.{1,10}e?.?mail/i
-
-/verify your.{1,10}e?.?mail.?address to enable/i
-/verify your.{1,10}account.{1,10}switch to.{1,10}new version/i
 
 /messages.{1,10}verify your e?.?mail/i
 /mail validation update/i
