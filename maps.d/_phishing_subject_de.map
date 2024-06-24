@@ -27,7 +27,7 @@
 /aktualisierung erforderlich.{1,20}konto.{1,10}gesperrt/i
 
 /(aktualisieren?|bestätigen?).{1,10}(deine|sie).{1,10}(konto|sicherheits).?informationen/i
-/(aktualisieren?|bestätigen?).{1,10}(deine|sie).{1,10}kontodaten/i
+/(aktualisieren?|bestätigen?).{1,10}(deine|sie).{1,10}(kontakt|konto).?daten/i
 
 /anpassen ihrer.{1,10}kontodaten/i
 
@@ -147,6 +147,8 @@
 
 /aktualisierung.{1,10}erforderlich.{1,10}konto/i
 /verifizierung.{1,10}erforderlich/i
+
+/wichtige mitteilung.{1,10}aktualisieren sie ihre/i
 
 # Banking
 # ------------------------------------------------------------------------------
