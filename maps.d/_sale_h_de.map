@@ -81,10 +81,10 @@
 
 # Flags
 # ------------------------------------------------------------------------------
-/teleskop.{1,10}flaggenmast/i
+/teleskop.{1,10}(fahnen|flaggen).?mast/i
 
-/flaggenmast.{1,20}jetzt nur/i
-/flaggenmast.{1,10}mit fahne/i
+/(fahnen|flaggen).?mast.{1,20}jetzt nur/i
+/(fahnen|flaggen).?mast.{1,10}mit fahne/i
 
 # Hearing aid
 # ------------------------------------------------------------------------------

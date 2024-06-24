@@ -68,10 +68,10 @@
 
 # Flags
 # ------------------------------------------------------------------------------
-/(premium|teleskop|xxl).{1,10}flaggenmast/i
+/(premium|teleskop|xxl).{1,10}(fahnen|flaggen).?mast/i
 
-/flaggenmast.{1,20}jetzt (nur|statt)/i
-/flaggenmast.{1,10}mit.{1,15}(fahne|flagge)/i
+/(fahnen|flaggen).?mast.{1,20}jetzt (nur|statt)/i
+/(fahnen|flaggen).?mast.{1,10}mit.{1,15}(fahne|flagge)/i
 
 # Fuel Saver
 # ------------------------------------------------------------------------------
