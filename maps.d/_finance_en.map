@@ -90,7 +90,7 @@
 /our company.{1,10}offers.{1,10}competitive.{1,15}loans/i
 /our loan.{1,10}(acquisition|funding|investment|programme)/i
 
-/offers.{1,10}corporate.{1,10}personal.{1,10}loans/i
+/(offering|offers).{1,10}corporate.{1,10}personal.{1,10}loans/i
 
 /investment company offering.{1,20}(corporate|personal|unsecured).{1,10}loans?/i
 /leading.{1,10}institution.{1,10}(corporate|personal|unsecured).{1,10}loans/i
@@ -134,6 +134,8 @@
 
 # Funding
 # ------------------------------------------------------------------------------
+/funding.{1,10}we will be.{1,15}to work with you/i
+
 /help you provide.{1,10}funds/i
 /capable.{1,10}funding your project/i
 

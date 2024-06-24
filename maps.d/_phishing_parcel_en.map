@@ -72,6 +72,7 @@
 /duties.{1,15}must be paid before you can receive/i
 
 /(delivered withing|delivery as soon as possible|ensure.{1,15}delivery).{1,15}confirm.{1,10}payment/i
+/delivery of your package.{1,15}confirm.{1,10}payment/i
 
 /fee is paid.{1,10}we will be able to deliver/i
 /fee for returning your.{1,10}(package|parcel|shipment)/i
@@ -99,6 +100,8 @@
 
 # Unclassified
 # ------------------------------------------------------------------------------
+/confirm my package/i
+
 /your waybill.{1,10}confirm your delivery details/i
 
 # Masked

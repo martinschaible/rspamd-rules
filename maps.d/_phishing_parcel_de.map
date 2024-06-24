@@ -86,6 +86,7 @@
 /(paket|sendung).{1,20}auf anweisungen.{1,15}wartet/i
 /(paket|sendung).{1,15}auf (die|eine).{1,10}(lieferung|zustellung) wartet/i
 /(paket|sendung).{1,10}(in der|ist in).{1,10}(warteschleife|wartestellung)/i
+/(paket|sendung).{1,10}noch auf die bearbeitung wartet/i
 /(paket|sendung).{1,25}noch auf ihre anweisung(en)? wartet/i
 /(paket|sendung).{1,15}wartet auf die.{1,10}(lieferung|zustellung)/i
 /(paket|sendung).{1,15}welches kurz vor der.{1,10}(lieferung|zustellung) steht/i
