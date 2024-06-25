@@ -300,8 +300,6 @@
 
 /ihres pakets ist ausgesetzt/i
 
-/zahlung erforderlich.{1,5}ref/i
-
 # DHL
 /dhl.{1,10}letzte mahnung/i
 
@@ -324,6 +322,11 @@
 /erhalten sie ihre lieferung/i
 /ihre mitarbeit ist.{1,10}(erforderlich|gefragt)/i
 /werwenden sie ihren barcode/i
+
+# Parcel - Fees
+# ------------------------------------------------------------------------------
+/sie an die ausstehenden versandkosten/i
+/zahlung erforderlich.{1,5}ref/i
 
 #
 #
@@ -512,8 +515,10 @@ letzter gewinner/i
 
 # Storage
 # ------------------------------------------------------------------------------
-/erhalten sie.{1,10}zusätzlichen.{1,10}cloud.?speicher/i
+/erhalten sie.{1,10}zusätzlichen.{1,10}i?cloud.?speicher/i
 /achtung.{1,10}gesamter speicher belegt/i
+
+/gb kostenlos.{1,10}i?cloud.?speicher/i
 
 # Domains
 # ------------------------------------------------------------------------------

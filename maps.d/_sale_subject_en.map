@@ -164,8 +164,8 @@
 /you need.{1,10}seo/i
 
 # Google
-/(1st|first|seo|top).{1,15}(page|rankings?).?plan/i
-/(1st|first|seo|top).{1,15}(page|rankings?) (in|of|on) (bing|google)/i
+/(1st|first|seo|top).{1,15}(page|rankings?).{1,10}(plan|seo)/i
+/(1st|first|seo|top).{1,15}(page|rankings?).{1,10}(bing|google)/i
 /top rank(ing)?.{1,10}(bing|google)/i
 
 /google 1st page/i
