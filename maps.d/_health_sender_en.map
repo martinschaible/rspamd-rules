@@ -196,7 +196,7 @@
 /hidden.?protein/i
 
 /glucose.?hack/i
-/high.?a1c/i
+/high.?(a1c|glucose)/i
 
 # Digestive System
 # ------------------------------------------------------------------------------
@@ -451,7 +451,8 @@
 # Miracle, Breaktrough, Secrets, Videos
 # ------------------------------------------------------------------------------
 /(medical|miracle|new|scientists?).?(breakthrough|discovery)/i
-/(mayan|miracle).?seeds/i
+/(forgotten|mayan|miracle).?(remedy|seeds)/i
+
 /(japanese|unlock).{0,10}secret/i
 /(dairy|second|simple).?(protocol|trick)/i
 
@@ -519,6 +520,7 @@
 /fried.?chicken/i
 /home.?(treatment|with ease)/i
 /make your own/i
+/morning.?mistake/i
 /secret.?weapon/i
 /this.{0,10}elixir/i
 
