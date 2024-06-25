@@ -43,11 +43,17 @@
 /my (bitcoin|btc).?(address|wallet).{1,15}(btc.?wallet|for transfer)/i
 
 /just transfer.{1,10}usd.{1,15}to (bitcoin|btc)/i
+
+/transfer me.{1,10}us dollars.{1,10}in bitcoin equivalent/i
 /transfer to my.{1,10}account.{1,10}after the transaction/i
 
 /you.{1,10}need to transfer.{1,10}usd.{1,10}(bitcoin|btc)/i
  you.{1,10}to send me.{1,10}of.{1,10}usd.{1,10}(bitcoin|btc)/i
 /you.{1,10}working days.{1,10}transfer the money/i
+
+#
+/you have \d{2} hours.{1,15}you make the right decision/i
+/you have \d{2} hours to pay/i
 
 #
 #
