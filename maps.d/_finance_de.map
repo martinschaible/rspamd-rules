@@ -67,7 +67,9 @@
 
 /(unschlagbar|zuverlässig).{1,10}kredit.?angebot/i
 
-/angebot für einen günstigen.{1,15}kredit/iu
+/angebot.{1,10}einen günstigen.{1,15}kredit/iu
+/angebot.{1,10}(darlehen|kredit)/i
+
 /beantragen sie einen?.{1,10}dringenden?.{1,10}kredit/i
 /bewerben sie sich.{1,15}(darlehen|kredit)/i
 /bietet online.?darlehen/i

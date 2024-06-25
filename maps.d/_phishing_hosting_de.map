@@ -34,6 +34,8 @@
 
 /sehr geehrter kunde.{1,10}ihr.{1,15}speicher ist voll/i
 
+/\d{1,2}gb.{1,10}erhalten/i
+
 # Fake Warning
 # ------------------------------------------------------------------------------
 /bestätigen sie.{1,10}dass sie nicht von ihnen gesendet wurden/i
