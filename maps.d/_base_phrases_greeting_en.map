@@ -51,7 +51,7 @@
 
 /dear.{1,10}beloved.{1,10}i am glad to know you/i
 /dear (ceo|confidant|trustee)/i
-/dear (e?.?mail|web).?owner/i
+/dear (domain.?name|e?.?mail|web).?owner/i
 
 /dear.{1,10}friend.{1,10}i am (mrs?|ms)/i
 /dear.{1,10}friend.{1,10}i got your contact/i
@@ -68,7 +68,7 @@
 /(dear|hi).{1,10}(hiring|purchase|purchasing|sourcing).?manager/i
 /(dear|hi) my.{1,10}customer/i
 
-/dear.{1,10}(madam|purchaser|sir).{1,15}glad to (contact|know) you/i
+/dear.{1,10}(madam|purchaser|sir).{1,15}glad to (contact|know|write) you/i
 /dear.{1,10}(madam|purchaser|sir).{1,15}(how are you|this is)/i
 /dear.{1,10}(madam|purchaser|sir).{1,15}please find attached/i
 /dear.{1,10}(madam|purchaser|sir).{1,15}guten tag/i
