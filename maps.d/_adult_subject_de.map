@@ -20,7 +20,7 @@
 # Chat
 # ------------------------------------------------------------------------------
 /lust zu chatten/i
-/sie können chatten/i
+/(damen|frauen|sie können).{1,10}chatten/i
 /warten im.{1,10}chat/i
 
 # Dating
@@ -28,6 +28,7 @@
 /(europäisches|internationales|online|sex).{0,15}dating/iu
 
 /dating.?(reise|seite)/i
+/date.{1,10}vereinbaren/i
 
 /treffen sie diese.{1,10}frau/i
 /kostenloses treffen/i
