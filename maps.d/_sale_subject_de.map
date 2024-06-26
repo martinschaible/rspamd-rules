@@ -230,7 +230,6 @@ grill.{1,10}statt.{1,10}nur/i
 
 /praktischen.{1,10}trolleykoffer/i
 
-
 # Tischkicker
 # ------------------------------------------------------------------------------
 /tischfußball.{1,10}(aktion|angebot|highlight|perfekt)/i
@@ -252,13 +251,15 @@ grill.{1,10}statt.{1,10}nur/i
 
 # Umbrellas
 # ------------------------------------------------------------------------------
-/(ampel|terrassen).?schirme.{1,20}(eleganz|garten|etzt|schutz)/i
+/(ampel|terrassen).?schirme.{1,20}(eleganz|garten|geschmack|jeden|jetzt|schutz)/i
 /(ampel|terrassen).?schirme.{1,20}(preiswert|sonderangebot|sonderkondition|sonderpreis|vorteilpreis)/i
 /(ampel|terrassen).?schirme.{1,20}meter/i
 
 /(design|deluxe||entdecken|exklusive|hochwertige|jetzt|premium|reduziert).{1,20}(ampel|terrassen).?schirme/i
 /(sale|sichern|sommer|sonderangebot|sonderkondition|sonderpreis|sonnenschutz|special|spezial).{1,20}(ampel|terrassen).?schirme/i
 /(unsere|vorteilpreis).{1,20}(ampel|terrassen).?schirme/i
+
+/Sonnenschutz.{1,20}(balkon|garten|terrasse)/i
 
 # WiFi
 # ------------------------------------------------------------------------------
