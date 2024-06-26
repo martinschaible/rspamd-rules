@@ -57,3 +57,9 @@
 # ------------------------------------------------------------------------------
 # Sample: <a style="display:none;" href="http://irelatilized.jp.net/4O0c084nml0mp3rr-8trgsi1wqt1qt1mstra600001" >.</a
 /<a style="display:none;".{1,10}href=.?http:\/\//i
+
+# Doesn't fire in the file "_scam_ransom_en.map" (Content -> Oneline)
+# ------------------------------------------------------------------------------
+/your e?.?mails are infected with.{1,15}(trojan|virus)/i
+/you.{1,10}need to transfer.{1,15}(dollars|usd).{1,15}(bitcoin|btc)/i
+
