@@ -212,10 +212,11 @@
 /sec(ond)?.{1,10}bedtime habit/i
 /sec(ond)?.{1,10}sugar hack/i
 
-/scientists.{1,10}confirmed this.{1,10}hack/i
-/scientists.{1,10}uncover.{1,20}big pharma/i
-/scientists.{1,10}the fountain of youth/i
-/scientists.{1,10}made.{1,10}groundbreaking discovery/i
+/scientists?.{1,10}confirmed this.{1,10}hack/i
+/scientists?.{1,10}discovered the secret/i
+/scientists?.{1,10}uncover.{1,20}big pharma/i
+/scientists?.{1,10}the fountain of youth/i
+/scientists?.{1,10}made.{1,10}groundbreaking discovery/i
 
 /this.{1,10}(awesome|apple).{1,10}trick/i
 /this.{1,10}eye.?opening presentation/i

@@ -17,7 +17,8 @@
 /kredit.?vorschlag/i
 /kredite!/i
 
-/privat.{1,10}Geschäfts.?kredite?/iu
+/angebot.{1,10}(darlehen|kredit) von/i
+/privat.{1,10}geschäfts.?kredite?/iu
 
 /(darlehen|kredit)\?/i
 /new.{1,10}(darlehen|kredit)/i
@@ -68,6 +69,7 @@
 # ------------------------------------------------------------------------------
 /(finanziellen|förderung) \d/iu
 /garantieangebot jetzt beantragen/i
+/sie finanzielle probleme/i
 /kostenlose kreditanfrage/i
 
 # Masked
