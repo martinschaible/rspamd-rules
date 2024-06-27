@@ -55,9 +55,7 @@
 /benachrichtigung zur kontosperrung/i
 
 /sicherheit.{1,10}(bestätigen|) sie ihre/iu
-/sicherheitsupdate.{1,10}ihr.{1,15}konto/i
-/sicherheitsupdate.{1,10}profilaktualisierung/i
-
+/sicherheits.?(aktualisierung|update).{1,10}ihr.{1,15}(konto|profil)/i
 /sicherheitsüberprüfung ihres kontos.{1,15}erforderlich/iu
 
 /bestätigung ihrer konto.?informationen erforderlich/iu
