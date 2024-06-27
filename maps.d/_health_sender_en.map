@@ -48,6 +48,7 @@
 # Potency, Stamina
 # ------------------------------------------------------------------------------
 /ed.?(fix|treatment)/i
+/surgeon.{0,10}stamina/i
 
 # Weightloss
 # ------------------------------------------------------------------------------
@@ -123,7 +124,6 @@
 /alzheimers/i
 /(alzheimer|dementia).{1,10}(alert|test|trigger|warning)/i
 /brain.?(booster|cell|fog|health|scan)/i
-/memory.?(cure|hack|improver|improvement|loss)/i
 /exotic.?spice/i
 /senior.?moments/i
 
@@ -301,7 +301,7 @@
 # ------------------------------------------------------------------------------
 /(cure|remove).?herpes/i
 /herpes.?(cure|eliminator)/i
-/ultimate.?cure/i
+/(ultimate|uncommon).?cure/i
 
 # Hips
 # ------------------------------------------------------------------------------
