@@ -1,6 +1,8 @@
 # ==============================================================================
 # Base: Attachments
 #
+# ----|
+# 1.1 |
 # ----|----------------|
 #  20 | German         |
 # ==============================================================================
@@ -14,25 +16,22 @@
 
 # Inquiries, Orders, Quotes, Invoices
 # ------------------------------------------------------------------------------
-/(anfrage|bestellung).?\.(7z|doc|gz|htm|rar|xls|zip)/i
-/(anfrage|bestellung).?\d{4,10}\.(7z|doc|gz|htm|rar|xls|zip)/i
+/(anfrage|bestellung).{0,10}\.(7z|doc|gz|htm|rar|xls|zip)/i
 
 # Invoices
 # ------------------------------------------------------------------------------
 /rechnung.{0,15}\.(7z|doc|gz|htm|rar|xls|zip|7z)/i
 
-# Lottery
+# Lottery, Winning
 # ------------------------------------------------------------------------------
-/lotterie.{0,10}\.pdf/i
+/(gewinnmitteilung|lotterie).{0,10}\.pdf/i
 
 # Parcel
 # ------------------------------------------------------------------------------
 
 # Payments
 # ------------------------------------------------------------------------------
-/zahlung\.(7z|doc|gz|htm|rar|xls|zip)/i
-/zahlung.?\d{0,10}\.(7z|doc|gz|htm|rar|xls|zip)/i
-/bankkopie\.(7z|doc|gz|htm|rar|xls|zip)/i
+/(bankkopie|zahlung).{0,10}\.(7z|doc|gz|htm|rar|xls|zip)/i
 
 # Police Switzerland
 # ------------------------------------------------------------------------------

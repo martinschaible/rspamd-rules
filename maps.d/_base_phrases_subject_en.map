@@ -119,6 +119,7 @@
 # One word only
 # ------------------------------------------------------------------------------
 /donation$/i
+/donation!/i
 
 #
 #
@@ -146,6 +147,7 @@
 /your respond/i
 
 /are you still alive/i
+/zoom.?call request/i
 
 # Just numbers
 #/\d{8,15}/i

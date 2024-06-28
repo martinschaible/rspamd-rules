@@ -93,6 +93,8 @@
 /(here|this) is.{5,25}(from|in).{1,10}(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang)/i
 /(here|this) is.{5,25}manufacturer.{1,10}(from|in).{1,10}(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang)/i
 
+/a listed company (from|in).{1,10}(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang)/i
+
 /our (company|factory) is manufacturing.{5,20}in.{1,10}(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang)/i
 /our (company|factory) in.{1,10}(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).{1,10}is staffed/i
 

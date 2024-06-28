@@ -173,14 +173,14 @@
 # Sample: Outstanding Invoice 00028025145 14-02-2024.pdf
 /outstanding.?invoice.?\d{1,15}.?\d{2}.?\d{2}.?\d{2,4}\.pdf
 
-# Lottery
+# Lottery, Winning
 # ------------------------------------------------------------------------------
-/winner\.(7z|doc|gz|htm|r11|rar|tgz|xla|xls|zip)/i
+/winner.{0,10}\.(7z|doc|gz|htm|r11|rar|tgz|xla|xls|zip)/i
 
 # Parcel
 # ------------------------------------------------------------------------------
 /parcel.?items.{0,20}\.html/i
-/lading.?document\.html/i
+/lading.?document.{0,10}\.html/i
 
 # Payments
 # ------------------------------------------------------------------------------

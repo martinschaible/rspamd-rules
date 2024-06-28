@@ -74,6 +74,8 @@
 /linked.?in.{1,10}e?.?mail databases?/i
 /(linked.?in|targeted).{1,10}e?.?mail.?list/i
 
+/e?.?mail.?database from linkedin/i
+
 # Leads
 # ------------------------------------------------------------------------------
 /leads.{1,10}for all interested parties/i
@@ -118,6 +120,9 @@ you like to generate.{1,15}leads/i
 # ------------------------------------------------------------------------------
 /we offer likes.{1,10}followers/i
 /we can help you.{1,10}increase your.{1,10}visibility/i
+
+# Google Reviews
+# ------------------------------------------------------------------------------
 
 # Guest Posts
 # ------------------------------------------------------------------------------
