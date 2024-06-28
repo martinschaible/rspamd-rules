@@ -10,7 +10,11 @@
 
 # Air Conditioning
 # ------------------------------------------------------------------------------
-/klimageräte (für|nur).{1,10}zzgl.{1,10}mwst/iu
+/klima.?(anlage|geräte?).{1,10}(für|nur).{1,10}zzgl.{1,10}mwst/iu
+/klima.?(anlage|geräte?).{1,10}(ab|nur).{1,10}statt/i
+/klima.?(anlage|geräte?).{1,15}(bestellen|jetzt)/i
+
+/hitze.{1,15}klima.?(anlage|geräte?)/i
 
 # Alcohol Tester
 # ------------------------------------------------------------------------------
