@@ -399,9 +399,9 @@
 /handle injection mold(ing)? projects/i
 /plastic injection mold(ing)? manufacturer/i
 
-/you (interested||looking|need).{1,10}high.{1,10}precision.{1,10}components/i
-/you (interested||looking|need).{1,10}injection.{1,10}mold(ing)?/i
-/you (interested||looking|need).{1,10}reliable.{1,10}experienced.{1,10}plastic/i
+/you (interested|looking|need).{1,10}high.{1,10}precision.{1,10}components/i
+/you (interested|looking|need).{1,10}injection.{1,10}mold(ing)?/i
+/you (interested|looking|need).{1,10}reliable.{1,10}experienced.{1,10}plastic/i
 
 /we.?a?re.{1,10}(professional|reliable).{1,20}(injection|mold|molding)?/i
 /we.?a?re.{1,10}injection.{1,10}mould fabricator/i
