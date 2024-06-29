@@ -52,7 +52,6 @@
 # Unsubscribe
 # ------------------------------------------------------------------------------
 /rücktritt vom empfang von nachrichten/iu
-# ------------------------------------------------------------------------------
 
 # Unclassified and extreme silly
 # ------------------------------------------------------------------------------
@@ -127,8 +126,8 @@
 /dass unser system uns mitteilt/i
 /klicken sie.{1,10}um das konto anzuzeigen/i
 
-/ihr.{1,15}konto (einzulösen|verlieren)/i
-/ihr{1,15}konto.{1,15}in einem sicheren zustand zu versetzen/i
+/ihr.{1,15}konto.{1,10}(einzulösen|verlieren)/i
+/ihr.{1,15}konto.{1,15}in einem sicheren zustand zu versetzen/i
 
 /mitteilung vor zugriffssperre/i
 /unsere? kontoüberprüfungsprozesse?/i
@@ -147,7 +146,7 @@
 
 # Phishing - Hosting
 # ------------------------------------------------------------------------------
-/abgelaufen ist und trotz unseres vorherigen besuchs/i
+/abgelaufen ist.{1,10}trotz unseres vorherigen besuchs/i
 
 # Phishing - Parcel
 # ------------------------------------------------------------------------------
