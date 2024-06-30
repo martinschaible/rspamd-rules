@@ -35,6 +35,11 @@
 /vorschlag.{1,10}\d{2,3}.{0.5}\d{2,3}.{1,10}(dollar|euro?|gbp|usd)/i
 /wir haben einen nicht (beanspruchten|eingeforderten).{1,10}betrag/i
 
+# Claims
+# ------------------------------------------------------------------------------
+/antworten sie.{1,10}um den anspruch geltend zu machen/i
+/kontaktiere ich sie.{1,10}wegen des anspruchs/i
+
 # Sharing
 # ------------------------------------------------------------------------------
 /betrag.{1,10}zwischen ihnen und mir aufgeteilt wird/i
