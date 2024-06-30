@@ -16,11 +16,11 @@
 /ich habe einen.{1,10}fonds von.{1,10}\d{3}.{0,5}\d{3}/i
 /ich habe einen.{1,10}fonds in höhe von/iu
 
+/ihr.{1,10}name ist mit einer nicht beanspruchten/i
 /ihre.{1,10}e?.?mail.?adresse.{1,10}wurde ausgewählt.{1,10}um diesen.{1,10}fonds/iu
 /ihren.{1,10}namen lauten nicht beansprucht.{1,10}(fonds|geld)/i
 /ihren.{1,10}nicht in anspruch genommenen.{1,15}fonds/i
 /ihres.{1,10}fonds in höhe von.{1,10}\d{3}.{0,5}\d{3}/i
-/ihr.{1,10}name ist mit einer nicht beanspruchten/i
 
 /auszahlung ihres fonds.{1,10}\d{3}.{0,5}\d{3}.{1,15}(million|dollar|euro?|gbp|usd)/i
 /freigabe ihres.{1,10}fonds erteilen/i
