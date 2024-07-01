@@ -77,6 +77,10 @@
 /(fahnen|flaggen).?mast.{1,20}jetzt (nur|statt)/i
 /(fahnen|flaggen).?mast.{1,10}mit.{1,15}(fahne|flagge)/i
 
+/fahne.{1,20}jetzt für nur/iu
+
+/deutschlandfahne/i
+
 # Fuel Saver
 # ------------------------------------------------------------------------------
 
