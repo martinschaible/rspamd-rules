@@ -45,9 +45,6 @@
 
 /ich habe eine.{1,10}wichtige information/i
 
-# Excalmation mark
-/geld!!/i
-
 # Confidential
 # ------------------------------------------------------------------------------
 
@@ -148,6 +145,9 @@
 
 # Call back
 /aktenzeichen.{1,20}telefonat/i
+
+/geld!!/i
+/\.\.\.bitte/i
 
 # Masked
 # ------------------------------------------------------------------------------
