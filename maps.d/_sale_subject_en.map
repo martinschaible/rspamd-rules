@@ -167,7 +167,7 @@
 /(1st|first|seo|top).{1,15}(page|rankings?).{1,10}(plan|seo)/i
 /(1st|first|seo|top).{1,15}(page|rankings?).{1,10}(bing|google)/i
 
-/page 1.{1,10}(bing|google)/i
+/page (1|of).{1,10}(bing|google)/i
 /top rank(ing)?.{1,10}(bing|google)/i
 
 /(bing|google).{1,10}(1 page|1st page|first page|page 1st|listing)/i

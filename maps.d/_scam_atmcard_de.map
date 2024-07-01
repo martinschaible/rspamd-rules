@@ -9,9 +9,10 @@
 
 # ATM Card
 # ------------------------------------------------------------------------------
-/atm.{0.10}(card|karte).{1,10}in höhe von/iu
 /atm.{0.10}(card|karte).{1,15}die auf ihren.{1,10}namen ausgestellt/i
 /atm.{0.10}(card|karte).{1,10}enthält.{1,15}\d{3}.{0,5}\d{3}.{1,10}millionen/i
+/atm.{0.10}(card|karte).{1,10}in höhe von/iu
+/atm.{0.10}(card|karte).{1,15}kontaktieren sie herrn/i
 /atm.{0.10}(card|karte).{1,10}mit.{1,15}\d{3}.{0,5}\d{3}.{1,10}(dollar|euro|gbp|usd) gesendet wird/i
 
 /ihr.{1,15}geld wurde auf eine.{1,10}(bank|debit).{0,10}(card|karte) geladen/i
