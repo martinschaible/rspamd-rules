@@ -64,6 +64,8 @@
 # E-Mail received
 # ------------------------------------------------------------------------------
 /hello.{1,10}did you get my previous.{1,10}e?.?mail/i
+
+/you get my e?.?mail.{1,10}haben sie/i
 /you received? my previous.{1,10}e?.?mail.{1,10}regards/i
 
 /confirm.{1,10}you received? my (last|previous).{1,10}e?.?mail/i
