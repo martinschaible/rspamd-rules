@@ -39,7 +39,7 @@
 
 /\d{2,3}.{1,10}\d{2,3}.{1,10}euro wurde ihnen/i
 
-/spenden.{0,15}(belohnung|fonds|gewinn|investition|preis)/i
+/spenden.{0,15}(belohnung|benachrichtigung|fonds|gewinn|investition|preis)/i
 
 /spenden.?angebot.{1,10}\d{2,3}.{1,10}\d{2,3}/i
 /spenden.?zuschuss (von|\d{2,3}.{1,10}\d{2,3})/i

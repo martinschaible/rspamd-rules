@@ -274,6 +274,7 @@
 
 #
 /(customer|contract|copies|office|receipt|reports?).{0,15}\.(html|zip/)i
+/details.?attached\.(html|zip/)i
 
 /investment\.(7z|doc|gz|htm|r11|rar|tgz|xls|zip)/i
 

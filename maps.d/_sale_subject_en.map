@@ -109,6 +109,7 @@
 /app!!/i
 /apps?.?(creation|development|proposal|service)/i
 
+/mobile.?app.{1,10}costing/i
 /(create|develop) an.{1,10}app/i
 
 # Developing Websites
@@ -137,7 +138,7 @@
 /(upgrade|update).{1,10}homepage.{1,10}design/i
 
 /web.?app.{1,10}designer/i
-/web.?development.{1,10}special offer/i
+/web.{1,15}(design|development|upgrade).{1,15}(proposal|special offer)/i
 
 /you want to.{1,15}designing.{1,20}web.?site/i
 
