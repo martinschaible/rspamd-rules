@@ -95,7 +95,7 @@
 
 /a listed company (from|in).{1,10}(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang)/i
 
-/our (company|factory) is manufacturing.{5,20}in.{1,10}(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang)/i
+/our (company|factory) is manufacturing.{5,30}in.{1,10}(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang)/i
 /our (company|factory) in.{1,10}(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).{1,10}is staffed/i
 
 /we.?a?re.{1,25}chinese.{1,10}leading/i
@@ -300,7 +300,8 @@
 
 # Clothes
 # ------------------------------------------------------------------------------
-/we are.{1,10}leading professional.{1,10}(polo|shirt)/i
+/our (company|factory) is manufacturing.{1,10}(jersey|polo|shirt|sneakers)/i
+/we are.{1,10}leading professional.{1,10}(jersey|polo|shirt|sneakers)/i
 
 # CNC
 # ------------------------------------------------------------------------------
