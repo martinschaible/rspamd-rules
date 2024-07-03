@@ -174,11 +174,9 @@
 # Business Register
 # ------------------------------------------------------------------------------
 /eu.business.register/i
+/world business directory/i
 
-/your company.{1,15}in the.{1,15}(business|world.?company).?register/i
-
-/you regarding your listing on.{1,10}auto/i
-
+/your company.{1,15}in the.{1,15}(business|world.?company).?(directory|register)/i
 
 # Collecting postal stamps
 # ------------------------------------------------------------------------------
