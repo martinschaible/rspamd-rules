@@ -9,6 +9,7 @@
 
 # Delivery pending, bounced, blocked, hold
 # ------------------------------------------------------------------------------
+/(e?.?mails?|messages?).{1,10}do not reach your.{1,10}inbox/i
 /(e?.?mails?|messages?).{1,10}from your contacts are.{1,15}on hold/i
 /(e?.?mails?|messages?).{1,10}has been blocked by.{1,10}administrator/i
 /(e?.?mails?|messages?).{1,10}sent to you.{1,10}but.{1,10}not.{1,20}delivered/i
@@ -30,6 +31,7 @@
 /your (incoming|sent).{1,10}(e?.?mails|messages).{1,10}temporarily suspended/i
 
 # Protocol related
+/due to ssl.?port.?server.{1,10}errors.{1,10}(e?.?mails|messages)(i)
 /you have.{1,10}pending{1,10}(e?.?mails?|messages?) on.{1,10}(imap|pop)/i
 /your.{1,10}e?.?mail.?address.{1,10}(imap|pop3)/i
 

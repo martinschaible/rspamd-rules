@@ -33,6 +33,8 @@
 
 /(admin|e?.?mail).{0,10}(alert|helpdesk|security|server|support)/i
 
+/(imap|pop).?settings/i
+
 /it.?(notice|noreply)/i
 
 /mailbox.?admin/i

@@ -99,6 +99,7 @@
 
 /opportunity.{1,10}benefit/i
 /\[proposal\]/i
+/proposal\.\./i
 /proposal attached/i
 
 /i have.{1,10}proposition for you/i
@@ -130,7 +131,7 @@
 
 # Business Register
 # ------------------------------------------------------------------------------
-/(eu|world).?(business|company).?register/i
+/(eu|world).?(business|company).?(directory|register)/i
 
 # Greencard, Immigration
 # ------------------------------------------------------------------------------
