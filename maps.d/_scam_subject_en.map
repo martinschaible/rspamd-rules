@@ -55,6 +55,8 @@
 
 # Funds, Money, Sum
 # ------------------------------------------------------------------------------
+/fund recovered/i
+
 /(notice about|receive) your.{1,15}funds?/i
 /receive sum of.{1,10}(million|dollar|euro?|gbp|usd)/i
 /investment funds?/i
