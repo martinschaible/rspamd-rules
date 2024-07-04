@@ -59,6 +59,8 @@
 
 /is your.{1,10}e?.?mail still active/i
 
+/(ch|com|de|org) your valid e?.?mail/i
+
 /you.{1,10}still.{1,10}(operating|reachable|using).{1,10}(this|your).{1,10}e?.?mail/i
 
 # E-Mail received
@@ -258,3 +260,11 @@
 /j(billing|update)j/i
 
 /el0nmusk/i
+
+/&alpha.{1,10}f&uuml/i
+/&epsilon.{1,10}&beta/i
+/&epsilon.{1,10}&tau/i
+/&mu.{1,10}&mu/i
+/&rho.{1,10}&alpha/i
+/&tau.{1,10}&epsilon/i
+/&tau.{1,10}&tau/i

@@ -206,8 +206,8 @@
 
 # Shipment
 # ------------------------------------------------------------------------------
-/(delivery|shipping|shipment).?documents?.?pdf\.zip/i
-/(delivery|shipping|shipment).?documents?\.(7z|doc|gz|htm|r11|rar|tgz|xla|xls|zip)/i
+/(delivery|shipping|shipment).?(documents?)?.?pdf\.zip/i
+/(delivery|shipping|shipment).?(documents?)?\.(7z|doc|gz|htm|r11|rar|tgz|xla|xls|zip)/i
 
 # Sample: SHIPPING DOCUMENTS#20345.zip
 #         Shipping Document Awb & BL.7z
