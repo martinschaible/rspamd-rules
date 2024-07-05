@@ -115,6 +115,7 @@
 /(my|our).{1,10}(deceased|late).{1,10}(client|customer|husband).{1,10}(major|mrs?)/i
 /(my|our).{1,10}(deceased|late).{1,10}(client|customer|husband).{1,10}made a deposit/i
 /(my|our).{1,10}(deceased|late).{1,10}(client|customer|husband).{1,10}with no next of kin/i
+/(my|our).{1,10}(deceased|late).{1,10}(client|customer|husband).{1,15}will be of interest/i
 
 /(my|our).{1,10}(deceased|late).{1,10}(father|husband).{1,10}diverted this funds?/i
 /(my|our).{1,10}(deceased|late).{1,10}(father|husband).{1,10}left me with/i

@@ -36,10 +36,11 @@
 
 # Delivery Pending/Waiting
 # ------------------------------------------------------------------------------
-/your.{1,10}(package|parcel|shipment).{1,10}arrived at our.{1,10}post.?office/i
-/your.{1,10}(package|parcel|shipment).{1,10}pending.{1,10}is awaiting/i
-/your.{1,10}(package|parcel|shipment).{1,10}waiting.{1,15}(processed|processing)/i
-/your.{1,10}(package|parcel|shipment).{1,10}waybill number.{1,15}is awaiting delivery/i
+/your.{1,10}(package|parcel|shipment).{1,15}arrived at our.{1,10}post.?office/i
+/your.{1,10}(package|parcel|shipment).{1,15}is still awaiting delivery/i
+/your.{1,10}(package|parcel|shipment).{1,15}pending.{1,10}is awaiting/i
+/your.{1,10}(package|parcel|shipment).{1,15}waiting.{1,15}(processed|processing)/i
+/your.{1,10}(package|parcel|shipment).{1,15}waybill number.{1,15}is awaiting delivery/i
 
 /attention.{1,10}your.{1,10}(package|parcel|shipment) arrived/i
 
@@ -66,6 +67,7 @@
 
 /confirm your add?ress.{1,10}delivery charges/i
 /confirm your add?ress.{1,10}pay.{1,15}fees/i
+/confirm your add?ress.{1,15}payment of delivery/i
 
 /address.{1,10}pay.{1,10}extra delivery fee/i
 
