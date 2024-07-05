@@ -177,19 +177,22 @@
 
 # Account - Verification
 # ------------------------------------------------------------------------------
-/konto einer verifizierung bedarf/i
-/konto zu verifizieren.{1,10}ihre rückerstattung/iu
+/konto einer.{1,10}verifizierung bedarf/i
+/konto zu.{1,10}verifizieren.{1,10}ihre rückerstattung/iu
 
+/anweisungen.{1,10}um den.{1,10}verifizierungsprozess/i
 /ihre verifizierung innerhalb von 24 stunden ab/i
 /stehende schaltfläche durchgeführt werden/iu
 
+/wir sie bitten.{1,10}kontaktinformationen.{1,10}aktualisieren/i
 /wir müssen ihre.{1,10}konto.?informationen überprüfen/iu
 
-/anweisungen.{1,10}um den verifizierungsprozess/i
-
-/wir sie bitten.{1,10}kontaktinformationen.{1,10}aktualisieren/i
-
 /online.?identifizierung für ihr.{1,20}konto/iu
+
+/verifizierung ihres.{1,15}kontos.{1,20}ist ein fehler aufgetreten/i
+
+#
+/hallo.{1,10}bei der verifizierung/i
 
 # Account - Update & User options
 # ------------------------------------------------------------------------------
