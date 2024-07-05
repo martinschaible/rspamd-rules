@@ -89,6 +89,11 @@
 /(fahnen|flaggen).?mast.{1,20}jetzt nur/i
 /(fahnen|flaggen).?mast.{1,10}mit fahne/i
 
+# Furniture
+# ------------------------------------------------------------------------------
+/gartenmöbel.?set.{1,10}statt.{1,10}nur/iu
+/unserer.{1,10}polyrattan.{1,10}sitzgruppe/i
+
 # Hearing aid
 # ------------------------------------------------------------------------------
 /hörgerät.{1,20}(durchbruch|weltweite?)/iu
