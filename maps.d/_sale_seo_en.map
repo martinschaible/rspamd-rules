@@ -63,13 +63,12 @@
 
 /found a number of seo.?issues/i
 
-/ranking is not good.{1,15}(bing|google|yahoo)/i
-
 /we are.{1,10}leading seo/i
 /we can (promote|rank) your web.?site/i
 /we can help you rank higher/i
 /we do seo for all/i
 /we promote your.{1,10}web.?site.{1,10}(ranking|ranks)/i
+/we specialize in seo/i
 
 /we will (enhance|improve) your.{1,15}(ranking|ranks)/i
 
@@ -83,6 +82,8 @@
 /you looking.{1,10}boost your web.?site/i
 /you looking.{1,10}for.{1,10}seo/i
 /you up.{1,10}rankings dramatically/i
+
+/your business keywords/i
 
 /your web.?site.{1,10}indexed on the first.?page/i
 /your web.?site.{1,10}1st page.?rank/i
@@ -110,25 +111,24 @@
 
 # SEO, Google
 # ------------------------------------------------------------------------------
-/1st.?page of google/i
-/1st.?page (listings|ranking) (in|on) google/i
+/(1st.?page|get top position|on page one).{1,10}(bing|google|yahoo)/i
+/1st.?page (listings|ranking).{1,15}(bing|google|yahoo)/i
 
-/on page one of google/i
-/get top position.{1,10}google/i
-/(promote|list|rank) your.{1,10}web.?site.{1,10}google/i
-/not ranking.{1,10}google.{1,10}other/i
-/rank your.{1,10}business.{1,10}google/i
+/(promote|list|rank) your.{1,10}web.?site.{1,10}(bing|google|yahoo)/i
+
+/rank(ing)?.{1,10}(bing|google|yahoo).{1,10}other/i
+/rank(ing)?.{1,10}not good.{1,15}(bing|google|yahoo)/i
+/rank(ing)?.{1,10}your.{1,10}business.{1,10}(bing|google|yahoo)/i
 
 /we can place your.{1,10}web.?site.{1,10}on/i
 
-/you on.{1,10}1st.{1,10}page of google/i
+/you on.{1,10}1st.{1,10}page.{1,10}(bing|google|yahoo)/i
 
-/your company.{1,10}position (in|on) google/i
-/your business keywords/i
-/your (competitors|page.?rank).{1,10}(in|on) google/i
+/your company.{1,10}position.{1,15}(bing|google|yahoo)/i
+/your (competitors|page.?rank).{1,15}(bing|google|yahoo)/i
 
-/your web.?site.{1,10}get.{1,10}top google/i
-/your web.?site.{1,30}is not listed in google/i
+/your web.?site.{1,10}get.{1,10}top.{1,15}(bing|google|yahoo)/i
+/your web.?site.{1,30}is not listed.{1,15}(bing|google|yahoo)/i
 /your web.?site.{1,10}on google top/i
 /your web.?site.{1,10}ranking.{1,10}not good/i
 
