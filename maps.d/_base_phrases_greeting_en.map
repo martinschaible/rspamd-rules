@@ -147,6 +147,7 @@
 /hi.{1,5}i.?a?m.{5,25}we are.{1,10}company/i
 /hi.{1,5}po is attached/i
 /hi.{1,5}friend/i
+/hi.{1,10}we are.{1,10}manufacturer/i
 
 /hi there.{1,10}greetings?/i
 /hi there.{1,10}hope you are doing well/i
@@ -288,6 +289,7 @@
 /i.?a?m a?.{1,25}general.?manager/i
 /i.?a?m a?.{0,10}expert.{1,10}trader/i
 /i.?a?m a?.{0,25}(financial|investment|investor).{1,10}(consultant|funds|philanthropist)/i
+/i.?a?m a?.{1,25}head officer/i
 /i.?a?m a?.{1,25}private investigator/i
 /i.?a?m a?.{0,15}professional.{1,10}(graphic designer|investment)/i
 /i.?a?m a?.{0,10}medical scientist/i
