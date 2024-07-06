@@ -61,7 +61,7 @@
 /fat.?(burn(er)?|burning|flush|melting)/i
 
 /flab.?melting/i
-/flat.?tummy/i
+/flat.?(stomach|tummy)/i
 
 /slimming/i
 /slim.?(body|waist)/i
@@ -89,7 +89,6 @@
 /(k2|slimm).{0,10}gummies/i
 
 /weight.?(drop(per)?|goals|loss)/i
-/(water|wl).?recipe/i
 
 /(breakfast|liposuction|water).?trick/i
 /(diet|magic|special).?(drink|hack|tea)/i
@@ -106,6 +105,9 @@
 
 # Products
 /(3d.?slim|power.?shape)/i
+
+# Recipe
+/(smoothie|water|wl).?recipe/i
 
 #
 #
@@ -511,6 +513,7 @@
 # Unclassified
 # ------------------------------------------------------------------------------
 /(ancient|japanese|taiwan).?(hack|ritual|trick)/i
+/ancient.?chocolate/i
 
 /dairy.?trick/i
 
