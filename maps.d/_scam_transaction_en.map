@@ -9,6 +9,7 @@
 
 # Transaction
 # ------------------------------------------------------------------------------
+/transaction.{1,15}attached to your.{1,10}(e?.?mail|name)/i 
 /transaction.{1,20}if you are (interested|sure you can handle)/i
 /transaction.{1,10}that will benefit you/i
 

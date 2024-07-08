@@ -77,7 +77,7 @@
 
 # Account - Confirm or reconfirm identity
 # ------------------------------------------------------------------------------
-/aktualisieren sie.{1,10}ihre.{1,10}kontodaten/i
+/aktualisieren sie.{1,10}ihre.{1,10}konto.?(daten|informationen)/i
 
 /bestätigen sie.{1,10}ihre.{1,10}telefon.?nummer/iu
 /bestätigen sie.{1,10}ihre.{1,10}konto.?daten/iu
@@ -86,9 +86,10 @@
 
 /bestätigen.{1,10}dass sie der konto.?inhaber sind/iu
 
-/konto.?daten.{1,10}daher vorsorglich bestätigen/iu
-/konto.?daten.{1,10}wir im system hinterlegen/iu
-/konto.?daten.{1,10}wir ihre identität bestätigen/iu
+/konto.?(daten|informationen).{1,10}daher vorsorglich bestätigen/iu
+/konto.?(daten|informationen).{1,10}lieber kunde/i
+/konto.?(daten|informationen).{1,10}wir im system hinterlegen/iu
+/konto.?(daten|informationen).{1,10}wir ihre identität bestätigen/iu
 
 /konto.{1,15}freigeben.{1,10}müssen sie ihre identität/iu
 /konto.?inhaber.{1,10}regelmä(ss|ß)igen abständen eine.{1,10}bestätigung/iu
