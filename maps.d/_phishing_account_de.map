@@ -54,6 +54,7 @@
 
 /ihre.{1,15}konto.?informationen zu aktualisieren/i
 /ihre.{1,10}kundendaten sind (abgelaufen|veraltet)/i
+
 /sicherheitsgründen.{1,10}wir den zugriff auf ihr.{1,15}konto gesperrt/iu
 
 /anmeldeversuchs vorübergehend gesperrt wurden?/iu
@@ -302,6 +303,8 @@
 # ------------------------------------------------------------------------------
 /lhr konto/i
 /lhre rückerstattung/iu
+
+/lieb&shy;er/i
 
 # Example: SehrigeehrteriKunde
 /sehr[a-z]{1}geehrterr[a-z]{1}kunde/i
