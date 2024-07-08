@@ -93,7 +93,7 @@
 /ihre? e?.?mail.?(adresse|konto).{1,10}hat.{1,15}(millionen|tausend).{1,20}(dollar|euro?|gbp|usd).{1,20}gewonnen/i
 /ihre? e?.?mail.?(adresse|konto).{1,10}hat den betrag von.{1,15}(millionen|tausend)/i
 
-/ihre? e?.?mail.?(adresse|konto).{1,10}wurde ausgewählt.{1,10}um den betrag/iu
+/ihre? e?.?mail.?(adresse|konto).{1,10}wurde ausgewählt.{1,20}um.{1,15}(den betrag|zu erhalten)/iu
 /ihre? e?.?mail.?(adresse|konto).{1,10}wurde bei einer zufälligen verlosung/iu
 /ihre? e?.?mail.?(adresse|konto).{1,10}wurde nach dem zufallsprinzip ausgewählt/iu
 /ihre? e?.?mail.?(adresse|konto).{1,10}wurde zufällig (aus|von) einer.{1,15}(e?.?mail|datenbank|software)/iu
