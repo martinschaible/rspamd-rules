@@ -33,6 +33,10 @@
 /sehr geehrter?.{1,10}(empfänger(in)?|freundlicher|nutzer)/i
 /sehr geehrter herr.{1,5}frau/i
 
+# Excuses and other silly stuff
+# ------------------------------------------------------------------------------
+/wir noch nie zuvor kontakt ausgetauscht haben/i
+
 # Greetings
 # ------------------------------------------------------------------------------
 /guten morgen.{1,10}ehrenwert/i

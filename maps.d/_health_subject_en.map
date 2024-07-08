@@ -56,8 +56,9 @@
 /lost.{1,10}(lbs|pounds|weight) in.{1,15}(days|months)/i
 /zap away.{1,10}fat/i
 
-/(how|want) to (burn|drop|lose|melt|shed).{1,10}fat/i
+/(how|want) to (burn|drop|lose|melt|shed).{1,10}(fat|flab)/i
 
+/reduce.{1,10}cellulite.{1,10}(fat|flab)/i
 /gummy that will help/i
 /can flush fat/i
 /stubborn fat/i
@@ -129,6 +130,7 @@
 # ------------------------------------------------------------------------------
 /ultimate pain reliever/i
 /eradicate joint.?pain/i
+/your knees with this/i
 
 # Prostate
 # ------------------------------------------------------------------------------

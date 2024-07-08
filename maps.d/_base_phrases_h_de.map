@@ -128,10 +128,11 @@
 
 # How they get the E-Mail address
 # ------------------------------------------------------------------------------
-/ich habe.{1,10}ihre.{1,10}e?.?mail(.?adresse)?.{1,10}ein online.?e?.?mail/i
-/ich habe.{1,10}ihre.{1,10}kontaktdaten bei meiner suche/i
 /ich habe.{1,10}ihre.{1,10}adresse.{1,10}gefunden/iu
 /ich habe.{1,10}ihre.{1,10}adresse.{1,10}ein online.?verzeichnis/i
+/ich habe.{1,10}ihre.{1,10}e?.?mail.{1,15}ein online.?e?.?mail/i
+/ich habe.{1,10}ihre.{1,10}e?.?mail.{1,15}von google.{1,15}erhalten/i
+/ich habe.{1,10}ihre.{1,10}kontaktdaten bei meiner suche/i
 
 /ich habe.{1,10}ihren kontakt auf ihrer web.?site gefunden/i
 
