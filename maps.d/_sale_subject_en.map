@@ -114,7 +114,7 @@
 /apps?.?(creation|development|proposal|service)/i
 
 /mobile.?app.{1,10}costing/i
-/(create|develop) an.{1,10}app/i
+/(create|develop) (mobile|an).{1,10}app/i
 /creating app\(.|?)/i
 
 # Developing Websites

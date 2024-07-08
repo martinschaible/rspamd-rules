@@ -309,6 +309,10 @@ grill.{1,10}statt.{1,10}nur/i
 # ------------------------------------------------------------------------------
 /professionell.{1,10}seo.?services?/i
 
+# Google Reviews
+# ------------------------------------------------------------------------------
+/ihnen google bewertungen wichtig/i
+
 # Social Media
 # ------------------------------------------------------------------------------
 
@@ -323,6 +327,7 @@ grill.{1,10}statt.{1,10}nur/i
 # Offer to sell vehicles
 # ------------------------------------------------------------------------------
 /ankauf von.{1,10}(auto|fahrzeug|lkw|pkw)/i
+/kaufen.{1,10}jede art von.{1,10}(auto|fahrzeug|lkw|pkw)/i
 /wir kaufen.{1,10}(auto|fahrzeug|lkw|pkw)/i
 
 /an den fuhrparkleiter/i
