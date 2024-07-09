@@ -33,15 +33,15 @@
 
 /kg (pro woche|weniger)/i
 
-/fett.?schnell/i
-/loses fett/i
-
 /(drink|hilfe|hilft|jetzt|zum).{1,10}abnehmen/i
 
 /abnehm.?quiz/i
+/ausreden/i
+/fett.?schnell/i
+/loses fett/i
 /schlank.?paket/i
 
-/ausreden/i
+/reduzieren sie.{1,15}fett/i
 
 #
 #
@@ -105,6 +105,7 @@
 # Fungus
 # ------------------------------------------------------------------------------
 /schöne.?nägel/iu
+/nagelpilz/i
 
 # Haemorrhoids
 # ------------------------------------------------------------------------------

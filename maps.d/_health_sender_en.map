@@ -15,7 +15,9 @@
 
 /enhancement.?gummie?s/i
 /male.?enhancement/i
+/manhood/i
 /mens?.?(only|power)/i
+/muscle.?trick/i
 
 /ed.?(forever|no.?more)/i
 /(fix your|goodbye).{0,10}ed/i
@@ -37,7 +39,6 @@
 
 /(increase|enhance) your size/i
 /bedroom.?secrets?/i
-/muscle.?trick/i
 
 /(hard|iron).{0,10}erection/i
 /hard.?in.?minutes/i
@@ -85,7 +86,7 @@
 /power.?shape/i
 
 /gummy.?hack/i
-/(chocolate|gummies|k2).?diet/i
+/(chocolate|dairy|gummies|k2).?diet/i
 /(k2|slimm).{0,10}gummies/i
 
 /weight.?(drop(per)?|goals|loss)/i
@@ -106,6 +107,7 @@
 
 # Products
 /(3d.?slim|power.?shape)/i
+/matcha.?slim/i
 
 # Recipe
 /(smoothie|water|wl).?recipe/i
@@ -331,7 +333,7 @@
 
 # Liver
 # ------------------------------------------------------------------------------
-/(fatty|your).?liver/i
+/(dying|fatty|your).?liver/i
 /liver.?health/i
 /liv.?pure/i
 
