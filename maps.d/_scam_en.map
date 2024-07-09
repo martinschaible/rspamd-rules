@@ -96,12 +96,13 @@
 
 # Share the same name
 # ------------------------------------------------------------------------------
-/contacting.{1,20}you.{1,10}share the.{1,10}same last.?name/i
+/contacting.{1,20}you.{1,10}share the.{1,10}same (family|last|sur).?name/i
 
-/last.?name with.{1,10}(deceased|late).{1,10}(client|customer)/i
+/(family|last|sur).?name with.{1,10}(deceased|late).{1,10}(client|customer)/i
+/who shares the same.{1,10}name with you/i
 
-/you bear the.{1,10}(last|sur).?name/i
-/you have the same.{1,10}(last|sur).?name/i
+/you bear the.{1,10}(family|last|sur).?name/i
+/you have the same.{1,10}(family|last|sur).?name/i
 
 /(deceased|late).{1,10}(client|customer).{1,10}of mine.{1,10}shares the same.{1,10}name/i
 
