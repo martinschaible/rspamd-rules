@@ -41,6 +41,10 @@
 
 /you have.{1,10}new item.{1,10}for your attention/i
 
+# Downloads
+# ------------------------------------------------------------------------------
+/paymentscannedcopy/i
+
 # Encoded/protected messages
 # ------------------------------------------------------------------------------
 /has sent you.{1,10}protected message/i
@@ -74,6 +78,10 @@
 /verify.{1,10}price for.{1,10}attached product/i
 /you have received.{1,10}secure purchase.?order/i
 /your proposal.{1,10}the attached.{1,10}(po|rfq)/i
+
+# Sharing Files
+# ------------------------------------------------------------------------------
+shared a file with you.{1,10}here.{1,10}the document/i
 
 # Voicemail
 # ------------------------------------------------------------------------------
