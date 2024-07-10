@@ -30,6 +30,11 @@
 # G
 /go.?now/i
 
+# H
+
+# I
+/invoice/i
+
 # L
 /louis.?vuiton/i
 
@@ -44,10 +49,11 @@
 
 # P
 /payment (details|information|method)/i
-/registration/i
+/proof of payment/i
 
-#
+# R
 /received shared files/i
+/registration/i
 
 # S
 /shipment/i
