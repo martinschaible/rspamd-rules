@@ -104,7 +104,7 @@
 /airline customer survey/i
 
 # A to H
-/(ace.?hardware|autozone|costco|cvs|delta|dewalt|epson|harbor.?freight|home.?depot).{0,25}(confirmation|delivery|department|feedback|gift.?card|giveaways?|opinion|renewal|rewards?|shipping|shipment|shopper|surprise|unlocked|winner)/i
+/(ace|autozone|costco|cvs|delta|dewalt|epson|harbor.?freight|home.?depot).{0,25}(confirmation|delivery|department|feedback|gift.?card|giveaways?|opinion|renewal|rewards?|shipping|shipment|shopper|surprise|unlocked|winner)/i
 # K to Z
 /(kobalt|kohls|lowe.?s|milwaukee|netflix|paypal|peacock|phone|sam.?s.?club|stanley|staples|temu|ups|verizon|walmart).{0,15}(confirmation|department|delivery|feedback|gift.?card|giveaways?|opinion|renewal|rewards?|shipping|shipment|shopper|surprise|unlocked|winner)/i
 

@@ -26,15 +26,15 @@
 
 # Chat
 # ------------------------------------------------------------------------------
-/chat ist kostenlos/i
-/chat auf der (dating.?)?web.?site/i
+/chat ist.{1,10}kostenlos/i
+/chat auf der.{1,10}(dating.?)?web.?site/i
 
 /chats? mit.{5,25}starten/i
 /chats? mit geilen/i
 
 /chatten.{1,10}(dating|treffen)/i
 
-/direkt mit ihr chatten/i
+/direkt mit ihr.{1,15}chatten/i
 
 /lokalen.{1,10}chat.{1,10}kontakt(en)?/i
 /lust auf.{1,10}chat/i
@@ -119,7 +119,7 @@
 
 /(dating|online).{0,15}apps.{1,10}singles/i
 
-/unser dating.?club/i
+/unsere?.{1,10}dating.?(club|plattform)/i
 
 /casual.?club.{1,10}kostenlos/i
 
