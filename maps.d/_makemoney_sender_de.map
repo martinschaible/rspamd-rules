@@ -54,9 +54,13 @@
 
 # Unclassified
 # ------------------------------------------------------------------------------
+/ard.?empfehlung/i
+/dax.?news/i
+
 /dividenden.?(aus)?zahlung/i
 /finanzinstrumente/i
 /insider.?handel/i
+/(etf|investment).?tricks/i
 
 # Masked
 # ------------------------------------------------------------------------------
