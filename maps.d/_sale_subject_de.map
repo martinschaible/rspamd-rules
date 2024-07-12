@@ -196,6 +196,8 @@ grill.{1,10}statt.{1,10}nur/i
 # Schmutzfangmatten
 # ------------------------------------------------------------------------------
 /rutschfeste.{1,10}schmutzfangmatten/i
+/sauberlaufteppiche.{1,10}schmutzfangmatten/i
+/sauberlaufteppiche.{1,10}(geschäft|privat)/i
 
 # Screw drivers
 # ------------------------------------------------------------------------------
@@ -270,15 +272,17 @@ grill.{1,10}statt.{1,10}nur/i
 
 # Umbrellas
 # ------------------------------------------------------------------------------
-/(ampel|terrassen).?schirme.{1,20}(eleganz|garten|geschmack|jeden|jetzt|schutz)/i
-/(ampel|terrassen).?schirme.{1,20}(preiswert|sonderangebot|sonderkondition|sonderpreis|vorteilpreis)/i
-/(ampel|terrassen).?schirme.{1,20}meter/i
+/(ampel|sonnen|terrassen).?schirme.{1,20}(eleganz|garten|geschmack|jeden|jetzt|schutz)/i
+/(ampel|sonnen|terrassen).?schirme.{1,20}(preiswert|sonderangebot|sonderkondition|sonderpreis|vorteilpreis)/i
+/(ampel|sonnen|terrassen).?schirme.{1,20}meter/i
 
-/(design|deluxe|entdecken|exklusive|hochwertige|jetzt|premium|reduziert).{1,20}(ampel|terrassen).?schirme/i
-/(sale|sichern|sommer|sonderangebot|sonderkondition|sonderpreis|sonnenschutz|special|spezial).{1,20}(ampel|terrassen).?schirme/i
-/(unsere|vorteilpreis).{1,20}(ampel|terrassen).?schirme/i
+/regen.{1,10}(ampel|sonnen|terrassen).?schirme/i
 
-/Sonnenschutz.{1,20}(balkon|garten|terrasse)/i
+/(design|deluxe|entdecken|exklusive|hochwertige|jetzt|premium|reduziert).{1,20}(ampel|sonnen|terrassen).?schirme/i
+/(sale|sichern|sommer|sonderangebot|sonderkondition|sonderpreis|sonnenschutz|special|spezial).{1,20}(ampel|sonnen|terrassen).?schirme/i
+/(unsere|vorteilpreis).{1,20}(ampel|sonnen|terrassen).?schirme/i
+
+/sonnenschutz.{1,20}(balkon|garten|terrasse)/i
 
 # WiFi
 # ------------------------------------------------------------------------------
