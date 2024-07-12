@@ -117,6 +117,8 @@
 /(create|develop) (mobile|an).{1,10}app/i
 /creating app\(.|?)/i
 
+/you.{1,10}looking.{1,10}create.{1,10}mobile app/i
+
 # Developing Websites
 # ------------------------------------------------------------------------------
 /custom.{1,15}web.?site.?design/i
@@ -169,6 +171,8 @@
 /increase revenue.{1,10}profits/i
 /increase your business sells/i
 
+transform.{1,10}website traffic/i
+
 /more traffic.{1,10}revenue/i
 /want more traffic/i
 
@@ -189,6 +193,7 @@
 /appear on the first page.{1,10}(bing|google|yahoo)/i
 
 /get found.{1,10}google/i
+
 /your (page|website).?rank.{1,10}(bing|google|yahoo)/i
 /your (page|website) on google/i
 

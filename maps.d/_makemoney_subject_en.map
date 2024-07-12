@@ -39,6 +39,8 @@
 # Make Money
 # ------------------------------------------------------------------------------
 /earn(ing)?.{1,10}\d{1,4}.{1,10}daily/i
+/earn.{1,10}guaranteed/i
+
 /make.{1,10}\d{3,4}.{1,10}daily/i
 
 /(daily|money) on autopilot/i

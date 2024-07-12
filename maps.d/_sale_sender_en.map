@@ -227,7 +227,7 @@
 # ------------------------------------------------------------------------------
 /(costa|marbella|spanish).?(developments|gems|property|rentals|views)/i
 
-/luxury costa/i
+/luxury.{1,10}(costa|property)/i
 
 # Unclassified
 # ------------------------------------------------------------------------------
