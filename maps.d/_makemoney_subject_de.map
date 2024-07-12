@@ -22,6 +22,7 @@
 
 /(rally|rush) hat begonnen/i
 
+/empfiehlt.{1,10}(bitcoin|crypto|krypto)/i
 /erholung von.{1,10}(bitcoin|crypto|krypto)/i
 
 /(geld|reich).{1,10}(durch|mit).{1,10}(bitcoin|crypto|krypto)/i
@@ -50,9 +51,6 @@
 
 /machen sie geld/i
 
-/verdienen sie.{1,10}\d{3,4}.{1,10}täglich/iu
-/verdienen sie.{1,15}\d{3,4}.{1,10}euro? wöchentlich/iu
-
 /einnahmen von.{1,10}\d{3,4}.{1,10}pro tag/i
 /(täglich|wöchentlich).{1,15}\d{3,4}.{1,15}verdienen/iu
 
@@ -74,9 +72,16 @@
 /sicher geld verdienen/i
 /sie innerhalb weniger tage.{1,20}einnahmen/i
 
+/verdienen sie.{1,10}\d{3,4}.{1,10}täglich/iu
+/verdienen sie.{1,15}\d{3,4}.{1,10}euro? wöchentlich/iu
+
+/wie mehr geld verdienen/i
+
 # KI
 # ------------------------------------------------------------------------------
 /geld verdienen mit ki/i
+
+/ki revolutioniert aktienhandel/i
 /ki verspricht.{1,15}gewinne/i
 
 # ETF (Exchange Traded Funds)
