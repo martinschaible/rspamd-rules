@@ -13,6 +13,8 @@
 
 /\/wp-content\/cache\/colors\//i
 
+/\/wp-content\/plugins\/wp-automatic\/[a-z]{1,15}\.(html|php)/i
+
 # Phishing
 # Sample: wp-content/uploads/2019/07/volksbanken-raiffeisenbanken-logo-vector.png
 /\/wp-content\/uploads\/.{1,15}\/(raiffeisenbank|swisscom|volksbank)/i

@@ -91,6 +91,7 @@
 
 /our company.{1,10}offers.{1,10}competitive.{1,15}loans/i
 /our loan.{1,10}(acquisition|funding|investment|programme)/i
+/our business loan offers/i
 
 /(offering|offers).{1,10}corporate.{1,10}personal.{1,10}loans/i
 
@@ -115,6 +116,8 @@
 
 /we can provide.{1,10}funding/i
 /we provide.{1,15}assistance.{1,10}at a low/i
+
+/apply.{1,10}personal.{1,10}financial.{1,10}assistance/i
 
 /funding.{1,10}for your business in/i
 /funding.{1,10}program.{1,15}do not hesitate/i
