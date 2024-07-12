@@ -236,7 +236,7 @@
 /(co|limited|ltd).{1,10}(company|factory).{1,10}our.{1,10}products/i
 /(co|limited|ltd).{1,15}is a high.?tech enterprise/
 /(co|limited|ltd).{1,15}is a factory specialized in/i
-/(co|limited|ltd).{1,15}professional.{1,15}manufacturer/i
+/(co|limited|ltd).{1,15}(leading|professional).{1,15}manufacturer/i
 /(co|limited|ltd).{1,15}specializes in.{1,10}import/i
 /(co|limited|ltd).{1,15}we are leading.{1,15}professional/i
 /(co|limited|ltd).{1,15}we.{1,10}supplying/i
@@ -306,11 +306,10 @@
 # CNC
 # ------------------------------------------------------------------------------
 /company.{1,10}specializes in cnc.{1,10}machining/i
+/our.{1,10}services include.{1,10}cnc/i
 
 /we are.{1,15}cnc.{1,10}(metal|precision|printing).{1,10}(fabrication|machined)/i
-/we provide custom parts.{1,15}cnc/i
-
-/our.{1,10}services include.{1,10}cnc/i
+/we (provide|specialize).{1,10}custom parts.{1,15}(cnc|manufacturing)/i
 
 /you have any.{1,15}cnc.{1,10} machining/i
 

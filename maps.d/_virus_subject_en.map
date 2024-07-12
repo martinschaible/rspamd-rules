@@ -24,6 +24,10 @@
 /soa.{0,10}payment advice/i
 /tt swift copy/i
 
+# Sharing Files
+# ------------------------------------------------------------------------------
+/urgent.{1,10}someone sent you files/i
+
 # Voicemail
 # ------------------------------------------------------------------------------
 /completed.{1,10}voicemail/i

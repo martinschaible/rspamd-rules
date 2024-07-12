@@ -75,11 +75,11 @@
 /you.{1,10}that you.{1,10}won.{1,10}\d{3}.{0,5}\d{3}/i
 
 /your.{1,10}e?.?mail.?(account|address|id)?.{1,10}(appeared|selected).{1,10}(among|as one of) the.{1,10}winners/i
+/your.{1,10}e?.?mail.?(account|address|id)?.{1,10}has been selected randomly.{1,10}receive/i
 /your.{1,10}e?.?mail.?(account|address|id)?.{1,10}has won/i
 /your.{1,10}e?.?mail.?(account|address|id)?.{1,10}is the lucky winner/i
 /your.{1,10}e?.?mail.?(account|address|id)?.{1,10}was chosen at random/i
-/your.{1,10}e?.?mail.?(account|address|id)?.{1,10}was randomly selected from/i
-/your.{1,10}e?.?mail.?(account|address|id)?.{1,10}has been selected randomly.{1,10}receive/i
+/your.{1,10}e?.?mail.?(account|address|id)?.{1,10}was randomly selected.{1,15}(charity|from|gift)/i 
 /your.{1,10}e?.?mail.?(account|address|id)?.{1,10}won.{1,10}million/i
 
 /batch.?number.{1,20}official winning/i

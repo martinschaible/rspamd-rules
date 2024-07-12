@@ -27,6 +27,8 @@
 
 /you to receive.{1,15}(million|dollars?|euro?|gbp|usd).{1,15}donation/i
 
+/awarded to your.{1,10}e?.?mail.{1,10}as a.{1,15}donation/i
+
 /(donation|grant).{1,10}has been made to you/i
 /donation.?investment fund/i
 
