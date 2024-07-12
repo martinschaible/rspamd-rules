@@ -15,6 +15,7 @@
 /(bit?coin|crypto|krypto).{1,15}handel wie profis/i
 /(bit?coin|crypto|krypto).{1,15}geld.{1,10}(verdienen|machen)/i
 /(bit?coin|crypto|krypto).{1,15}(machen|macht).{1,10}reich/i
+/(bit?coin|crypto|krypto).{1,10}versteuern/i
 /(bit?coin|crypto|krypto).{0,15}wie.{1,10}profis/i
 /(bit?coin|crypto|krypto).{1,10}welle reiten/i
 
@@ -22,8 +23,7 @@
 
 /(rally|rush) hat begonnen/i
 
-/empfiehlt.{1,10}(bitcoin|crypto|krypto)/i
-/erholung von.{1,10}(bitcoin|crypto|krypto)/i
+/(empfiehlt|erholung|lieben).{1,10}(bitcoin|crypto|krypto)/i
 
 /(geld|reich).{1,10}(durch|mit).{1,10}(bitcoin|crypto|krypto)/i
 
@@ -124,13 +124,18 @@
 
 /jeden innerhalb von.{1,10}monaten zum millionär/iu
 
+# Income
+# ------------------------------------------------------------------------------
+/(\d{3,4}|euro).{1,10}nebeneinkommen/i
+
 # Income passive
 # ------------------------------------------------------------------------------
 /grundeinkommen durch/i
 /passives einkommen\?/i
 /(generieren|verdienen) sie.{1,10}passives.{1,10}einkommen/i
 
-/(\d{3,4}|euro).{1,10}passives einkommen/i
+/(\d{3,4}|euro?).{1,10}Grundeinkommen/i
+/(\d{3,4}|euro?).{1,10}passives einkommen/i
 /jetzt passives einkommen/i
 
 /ihr grundeinkommen wartet/i
@@ -148,7 +153,7 @@
 /ki macht menschen reich/i
 /ki wird sie/i
 
-/(einkommen|gewinne) durch ki/i
+/(aktien|einkommen|gewinne) (durch|per) ki/i
 
 # Systems
 # ------------------------------------------------------------------------------

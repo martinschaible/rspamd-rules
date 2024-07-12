@@ -247,7 +247,7 @@
 # Fungus, Nails
 # ------------------------------------------------------------------------------
 /anti.?fung(al|us)/i
-/(end|fight|foot|goodbye|nail|nasty|stop|yellow).?fungus/i
+/(attack|end|fight|foot|goodbye|nail|nasty|stop|yellow).?fungus/i
 /fix.{1,10}(nail|toe).?fungus/i
 
 /(fungal|fungus).?(infection|relief|remover?)/i
@@ -519,10 +519,10 @@
 
 # Unclassified
 # ------------------------------------------------------------------------------
-/(ancient|japanese|taiwan).?(hack|ritual|trick)/i
+/(ancient|dairy|japanese|taiwan).?(hack|ritual|trick)/i
 /ancient.?chocolate/i
 
-/dairy.?trick/i
+/going.?viral/i
 
 /(avoid|drink).?this/i
 /clinically.?proven/i

@@ -101,7 +101,9 @@
 
 # Investing
 # ------------------------------------------------------------------------------
+/investieren sie.{1,10}250 euro?/i
 /investieren sie.{1,10}und erhalten sie.{1,15}zurück/i
+/investieren sie.{1,10}jetzt.{1,10}machen Sie sich/i
 /investition garantierte.{1,10}gewinne/i
 
 /investieren?.{1,10}täglich.{1,10}gewinn/i
@@ -174,6 +176,7 @@
 /anfang mit.{1,10}250 euro? investition/i
 /minimal 250 euro?.{1,10}einstiegskapital/i
 /starten sie mit 250 euro?/i
+/startet.{1,15}anfangsinvestition von nur 250 euro?/i
 
 /250 euro?.{1,10}(als startkapital|zum erfolg)/i
 /250 euro?.{1,10}mindesteinlage eröffnen wir/i
