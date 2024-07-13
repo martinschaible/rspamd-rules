@@ -94,8 +94,8 @@
 
 /kreditkarteninformationen.{1,10}aktualisieren/i
 
-/ihre.{1,15}karte (ist|wurde).{1,15}(deaktiviert|gesperrt)/i
-/ihre.{1,15}karte.{1,10}vorübergehend.{1,10}eingeschränkt/i
+/ihre.{1,15}karte (ist|wurde).{1,15}(deaktiviert|eingeschränkt|gesperrt)/i
+/ihre.{1,15}karte.{1,10}vorübergehend.{1,10}(deaktiviert|eingeschränkt|gesperrt)/i
 
 /sicherheitsbenachrichtigung zu ihrer.{1,15}karte/i
 /warnung.{1,10}verdächtige transaktion/iu
