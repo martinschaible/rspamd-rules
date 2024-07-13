@@ -129,7 +129,7 @@
 
 /alzheimers/i
 /(alzheimer|dementia).{1,10}(alert|test|trigger|warning)/i
-/brain.?(booster|cell|fog|health|scan)/i
+/brain.?(booster|cell|fog|health|nutrient|scan)/i
 /exotic.?spice/i
 /senior.?moments/i
 
@@ -173,7 +173,7 @@
 
 # Cholesterol
 # ------------------------------------------------------------------------------
-/high.?cholesterol/i
+/(control|high).?cholesterol/i
 
 # Colon
 # ------------------------------------------------------------------------------
@@ -448,6 +448,10 @@
 /(buzzing|stop).{0,10}noise/i
 /odd.?mineral/i
 /zero.?ear/i
+
+# Thyroid (Schilddrüse)
+# ------------------------------------------------------------------------------
+/thyroid/i
 
 # Wrinkles
 # ------------------------------------------------------------------------------

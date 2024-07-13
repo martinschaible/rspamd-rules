@@ -54,7 +54,7 @@
 # E-Mail active/correct
 # ------------------------------------------------------------------------------
 /confirm.{1,10}if you still use this.{1,10}e?.?mail.?address/i
-/confirm.{1,10}(this|the).{1,10}e?.?mail.?address.{1,10}is still valid/i
+/confirm.{1,10}(this|the).{1,10}e?.?mail.?address.{1,10}is still (active|valid)/i
 /confirm.{1,10}if this is your.{1,15}e?.?mail.?address/i
 
 /is your.{1,10}e?.?mail still active/i
