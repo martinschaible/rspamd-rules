@@ -91,15 +91,6 @@
 /inquiry.{1,10}investment/i
 /opportunity to invest/i
 
-# Orders
-# ------------------------------------------------------------------------------
-/inquiry\*/i
-/inquiry.{1,15}about your products/i
-
-/request for quotation.{1,20}purchase/i
-/urgent quotation notification/i
-/quotation.{1,20}request for quotation/i
-
 # Partnership, Business
 # ------------------------------------------------------------------------------
 /\[proposal\]/i
@@ -131,6 +122,8 @@
 /compensation.{1,10}donation/i
 /compensation.{1,10}\d{3}.{0,5}\d{3}/i
 
+/about your payment/i
+
 /asset transfer partnership/i
 /usd.{1,10}compensation/i
 
@@ -141,6 +134,19 @@
 # Transaction
 # ------------------------------------------------------------------------------
 /urgent.{1,20}transaction/i
+
+#
+#
+#
+
+# Orders
+# ------------------------------------------------------------------------------
+/inquiry\*/i
+/inquiry.{1,15}about your products/i
+
+/request for quotation.{1,20}purchase/i
+/urgent quotation notification/i
+/quotation.{1,20}request for (processing|quotation)/i
 
 #
 #
