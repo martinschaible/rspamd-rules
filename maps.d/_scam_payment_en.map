@@ -16,8 +16,11 @@
 
 /(claim|receive).{1,10}your compensation.{1,10}(payment|entitlement)/i
 /usd.{1,10}compensation amount.{1,10}kindly reply back/i
-/you have been.{1,10}compensated.{1,10}contact/i
-/your compensation.{1,10}payment.{1,15}million/i
+
+/transfer your.{1,10}compensation.{1,10}payment/i
+/you have been.{1,10}compensated.{1,10}(contact|e?.?mail back)/i
+
+/your.{1,10}compensation.{1,10}payment.{1,20}million/i
 
 # Payments
 # ------------------------------------------------------------------------------

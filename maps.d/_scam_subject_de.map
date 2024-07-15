@@ -86,6 +86,7 @@
 # Partnership, Business
 # ------------------------------------------------------------------------------
 /(geschäfts?|transaktions?).{0,10}(angebot|vorschlag)/iu
+/geschäft.{1,15}uns.{1,10}von vorteil ist/i
 
 /dringender.{1,10}vorschlag/i
 
