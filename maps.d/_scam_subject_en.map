@@ -102,6 +102,10 @@
 
 # Partnership, Business
 # ------------------------------------------------------------------------------
+/\[proposal\]/i
+/proposal\.\./i
+/proposal.?!!/i
+
 /(business|partnership).{1,10}(assistance|offer|proposal|proposition|response)/i
 /(business|urgent).{1,15}(opportunity|partnership|proposal)/i
 
@@ -113,8 +117,6 @@
 /business.{1,10}investment collaboration/i
 
 /opportunity.{1,10}benefit/i
-/\[proposal\]/i
-/proposal\.\./i
 /proposal attached/i
 
 /i have.{1,10}proposition for you/i

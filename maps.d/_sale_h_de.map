@@ -526,16 +526,19 @@
 /(ich|wir) kaufen?.{1,10}(autos|fahrzeuge|pkw) von jeder Marke/i
 
 /(ich|wir) kaufen?.{1,10}gebrauchte.{1,15}(autos|fahrzeuge|pkw)/i
+/(ich|wir) kaufen?.{1,10}(autos|fahrzeuge|pkw) mit unfallschäden/ui
 
 /unkomplizierten ankauf.{1,10}gebrauchte?.{1,10}(autos|fahrzeuge|pkw)/i
+
+/unsere firma sucht.{1,15}gebrauchte.{1,10}(autos|fahrzeuge|pkw)/i
+
+/sie.{1,10}(auto|fahrzeug|pkw).{1,10}zum verkauf haben/i
+
+/verkaufen sie ihr.{1,10}(auto|fahrzeug|pkw).{1,10}(schnell|sicher)/i
+
 /wir holen.{1,10}(auto|fahrzeug|pkw) vor ort ab/i
 /wir holen.{1,10}bundesweit.{1,10}(auto|fahrzeug|pkw) ab/i
 /wir suchen.{1,15}firmenfahrzeuge/i
-
-/angebot.{1,10}unsere maschinen/iu
-
-/verkaufen sie ihr.{1,10}(auto|fahrzeug|pkw).{1,10}(schnell|sicher)/i
-/unsere firma sucht.{1,15}gebrauchte.{1,10}(autos|fahrzeuge|pkw)/i
 
 # Hiring people
 # ------------------------------------------------------------------------------
