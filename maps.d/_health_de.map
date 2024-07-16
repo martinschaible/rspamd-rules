@@ -16,14 +16,16 @@
 
 # Covid
 # ------------------------------------------------------------------------------
-/schnelltests?.{1,10}best.?preis.?garantie/i
-/schnelltests?.{1,10}dieses.{1,10}jahr sichern/i
-/schnelltests?.{1,10}hier klicken/i
-/schnelltests?.{1,10}vom profi/i
+/(corona|schnell).?tests?.{1,15}dieses.{1,10}jahr sichern/i
+/(corona|schnell).?tests?.{1,15}hier klicken/i
+/(corona|schnell).?tests?.{1,15}(alten preis|best.?preis|garantie|vom profi)/i
 
-/sichern.{1,10}sich.{1,10}schnelltests?/i
+/sichern.{1,10}sich.{1,25}(corona|schnell).?tests?/i
 
 /hotgen.{1,10}ab.{1,10}karton/i
+
+#
+/letzte chance.{1,10}(corona|schnell).?tests?/i
 
 # Dementia
 # ------------------------------------------------------------------------------
