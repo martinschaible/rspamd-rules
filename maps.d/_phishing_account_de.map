@@ -28,6 +28,8 @@
 
 /informationen.{1,10}um eine sperrung ihres.{1,15}kontos/i
 
+/ihr.{1,15}konto.{1,10}ist.{1,10}aufgrund.{1,10}fehlgeschlagenen updates/i
+
 /ihr.{1,15}konto.{1,10}ist.{1,10}(dauerhaft|derzeit|möglicherweise|vorübergehend).{1,10}(ausgesetzt|eingeschränkt|begrenzt|gesperrt)/iu
 /ihr.{1,15}konto.{1,10}ist.{1,10}noch nicht aktualisiert/i
 
@@ -263,6 +265,8 @@
 /gesetzlichen anforderungen bitten wir sie.{1,15}kontaktdaten/i
 /informationen zu ihrem.{1,15}konto.{1,15}fehlen/i
 
+/ihr.{1,15}konto.{1,10}ein problem aufweist/i
+
 /persönlichen daten unvollständig übermittelt wurden/iu
 /problem mit den mit ihrem.{1,15}konto/i
 
@@ -306,6 +310,7 @@
 # ------------------------------------------------------------------------------
 /aktivieren sie den untenstehenden link/i
 /bis sie ihre rechnung aktualisiert haben/i
+/heben sie diese einschränkung auf.{1,10}indem sie/iu
 
 # Masked
 # ------------------------------------------------------------------------------

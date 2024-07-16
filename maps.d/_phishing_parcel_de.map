@@ -178,6 +178,7 @@
 /mwst.?zahlung.{1,10}sendungsinformationen/i
 /nicht (geliefert|zugestellt) werden.{1,10}kein zoll bezahlt wurde/i
 /nicht bezahlter.{1,10}gebühren.{1,15}nicht versendet werden kann/iu
+/nicht bezahlt werden.{1,10}wird das paket zurückgeschickt/iu
 
 /steuern.{1,10}abgaben nicht beglichen hat/i
 /service zusätzliche gebühren in höhe von.{1,15}anfallen/iu
@@ -201,6 +202,7 @@
 #
 /gebühren.{1,10}chf 1(\.|,)99/iu
 /betrag beträgt 1(\.|,)99 euro/iu
+/\d(\.|,)\d{2}.{1,10}zollgebühren wurden nicht bezahlt/i
 
 # 
 #

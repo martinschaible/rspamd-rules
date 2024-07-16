@@ -85,8 +85,9 @@
 
 # Account - Payment options
 # ------------------------------------------------------------------------------
-/erneuern sie ihre zahlungsinformationen/i
+/aussetzung.{1,10}zahlungsmethoden/i
 /dringend.{1,10}zahlungsdetails aktualisieren/i
+/erneuern sie ihre zahlungsinformationen/i
 
 # Cards
 # ------------------------------------------------------------------------------
@@ -562,7 +563,7 @@ letzter gewinner/i
 /swisspass.{1,10}abonnement.{1,15}aktivieren/i
 /wichtiger hinweis zu.{1,10}swisspass/i
 
-/(ihr|lhr).{1,10}pass ist.{1,15}(deaktiviert|nicht mehr gültig)/iu
+/(ihr|lhr).{1,10}(swiss)?.?pass (ist|wurde).{1,20}(deaktiviert|nicht mehr gültig)/iu
 
 /ihre ticketrückerstattung wurde akzeptiert/iu
 /sie haben eine ticketrückerstattung/iu
