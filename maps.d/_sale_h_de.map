@@ -227,6 +227,15 @@
 /schwerlastregale \d{3} x \d{2,3}/i
 /set blaue.{1,10}schwerlast.?regale/i
 
+# Router/WiFi
+# ------------------------------------------------------------------------------
+/tragbares.?wla/i
+/(tragbaren|tragbarer).{1,10}(drahtloser|high.?speed|hochgeschwindigkeits|w.?lan).{1,15}router/i
+
+/schnelle.{1,10}wlan.?verbindung/i
+
+/ryoko.{1,10}wlan.?router/i
+
 # Safe
 # ------------------------------------------------------------------------------
 /wir haben.{1,15}(aktuell|neue).{1,15}tresore lieferbar/i
@@ -360,13 +369,6 @@
 # Vending machine
 # ------------------------------------------------------------------------------
 /verkaufsautomat.{1,15}büro/iu
-
-# WiFi
-# ------------------------------------------------------------------------------
-/tragbares.?wla/i
-/tragbaren.{1,10}(high.?speed|hochgeschwindigkeits|w.?lan).{1,15}router/i
-
-/schnelle.{1,10}wlan.?verbindung/i
 
 #
 #
