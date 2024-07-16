@@ -56,7 +56,7 @@
 
 # Partial Domain name
 # ------------------------------------------------------------------------------
-/http:\/\/(click|email)\./i
+/http:\/\/(click|email|urls)\./i
 
 # Sample: http://1157728453.gopeerclick.com/
 /http:\/\/(www\.)?\d{10,25}\./i

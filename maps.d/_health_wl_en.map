@@ -26,6 +26,7 @@
 
 /ingredient dissolves.{1,10}(lbs|pounds) of.{1,10}fat/i
 
+/(lose|losing).{1,10}\d{2,3}.?(lbs|pounds) of fat/i
 /(lose|losing).{1,10}(fat|weight).{1,10}(became so easy|fast)/i
 /(lose|losing).{1,15}(fat|weight) with.{1,20}click below/i
 /(lose|losing).{1,10}average of.{1,10}(lbs|pounds)/i
@@ -126,7 +127,7 @@
 /keto.{1,10}air.?fryer/i
 /3d.?slim/i
 
-# Stupid Promises
+# Stupid Promises, lies
 # ------------------------------------------------------------------------------
 /fat.?burning.{1,15}(breakfast|trick)/i
 /diet trick to drop.{1,10}(fat|weight)/i
@@ -141,6 +142,8 @@
 /weight.?loss.{1,10}(secret|science)/i
 
 /farm.{1,10}(fat|weight).?loss.{1,10}method/i
+
+/lost{1,10}(lbs|pounds).{1,10}by drinking/i
 
 /secret.{1,10}metabolic trigger/i
 /secret.{1,10}melting (lbs|pounds)/i

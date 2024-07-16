@@ -33,8 +33,9 @@
 /kindly send me your.{1,15}(brochure|catalog|catalogue)/i
 /pi for.{1,10}attached po/i
 
+/(i|we) will need your.{1,10}(brochure|catalog|catalogue)/i
 /(i|we) would like.{1,10}discuss placing an.{1,10}order/i
-/(i|we) would like.{1,10}have.{1,20}your (brochure|catalog|catalogue)/i
+/(i|we) would like.{1,10}have.{1,20}your.{1,10}(brochure|catalog|catalogue)/i
 /We are currently in need.{1,15}products/i
 
 /your company.{1,15}(brochure|catalog|catalogue).{1,10}for our reference/i

@@ -93,7 +93,8 @@
 
 /(breakfast|hidden|liposuction|water).?trick/i
 
-/(diet|magic|special).?(drink|hack|tea)/i
+/(diet|magic|special|unusual).?(drink|hack|tea)/i
+
 /dairy.?secret/i
 /food.?cravings/i
 /waistline/i
@@ -165,7 +166,7 @@
 
 # Breathing
 # ------------------------------------------------------------------------------
-/breathe.?better/i
+/(breathe|breathing).?(better|easier|easy)/i
 
 # CBD
 # ------------------------------------------------------------------------------
@@ -238,6 +239,10 @@
 
 # Glasses
 /see clearer with this/i
+
+# Fatigue
+# ------------------------------------------------------------------------------
+/daily.?fatigue/i
 
 # Feet
 # ------------------------------------------------------------------------------
