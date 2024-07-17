@@ -110,7 +110,7 @@
 
 # Locking Account
 # ------------------------------------------------------------------------------
-/ihr konto.{1,15}(ist|wird|wurde) (begrenzt|eingeschränkt|gesperrt)/i
+/ihr (konto|vertrag).{1,15}(ist|wird|wurde).{1,10}(begrenzt|eingeschränkt|gesperrt)/i
 /ihr konto.{1,15}wurde vorübergehend/i
 /ihr konto.{1,15}vorübergehende beschränkung/iu
 
@@ -153,6 +153,10 @@
 /verifizierung.{1,10}erforderlich/i
 
 /wichtige mitteilung.{1,10}aktualisieren sie ihre/i
+
+#
+/bestätigen sie ihre telefonnummer/iu
+/dringende mitteilung.{1,10}bitte bestätigen/iu
 
 # Banking
 # ------------------------------------------------------------------------------

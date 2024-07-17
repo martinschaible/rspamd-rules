@@ -42,6 +42,10 @@
 # ------------------------------------------------------------------------------
 /donation$/i
 
+# Virus
+# ------------------------------------------------------------------------------
+/antivirus$/i
+
 #
 #
 #
@@ -49,6 +53,8 @@
 # Companies, Organisations, Products
 # ------------------------------------------------------------------------------
 /(apple|bosch|carrefour|edeka|hornbach|ihk|kaufland|jumbo|lidl|metamask|microsoft|migros|otto|pfizer|rewe|smava|spotify)$/i
+
+/migros™$/i
 
 # Not sure about this. Waiting for a regular mail to see a real sender name
 #/declathon$/i
