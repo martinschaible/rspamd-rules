@@ -143,14 +143,16 @@
 # Tinnitus
 # ------------------------------------------------------------------------------
 /tinnitus.{1,10}cure banned/i
+/tinnitus.{1,10}in seconds/i
 /tinnitus.{1,10}reversing method/i
 
 /reverse.{1,10}tinnitus with this/i
 /restore.{1,10}hearing forever/i
 
-/(breakthrough|get rid of|stop|truth about).{1,10}tinnitus/i
+/(breakthrough|get rid of|stop|switch off|truth about).{1,10}tinnitus/i
 /(hidden cause|simple solution).{1,10}tinnitus/i
 /(fight|hack silences).{1,10}ringing ears/i
+
 
 /natural way.{1,10}combat.{1,10}tinnitus/i
 
@@ -189,6 +191,7 @@
 /discover.{1,10}natural.{1,10}secret/i
 /discover.{1,10}biblical solution/i
 
+/discovered.{1,10}new.{1,10}second/i
 /discovered.{1,15}plant that target/i
 /discreet.{1,10}revolutionary solution/i
 
