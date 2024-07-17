@@ -17,7 +17,6 @@
 /male.?enhancement/i
 /manhood/i
 /mens?.?(only|power)/i
-/muscle.?trick/i
 
 /ed.?(forever|no.?more)/i
 /(fix your|goodbye).{0,10}ed/i
@@ -91,7 +90,7 @@
 
 /weight.?(drop(per)?|goals|loss)/i
 
-/(breakfast|hidden|liposuction|water).?trick/i
+/(breakfast|coffee|hidden|liposuction|muscle|water).?trick/i
 
 /(diet|magic|special|unusual).?(drink|hack|tea)/i
 
@@ -381,8 +380,11 @@
 /pain.?(free|gone|killer|miracle|no.?more|quiz|relief|remover)/i
 
 /(chronic|chrippling|ease|end|erase|joint|neck|nerve|reduces).{0,10}pain/i
+/aching.?points/i
 /relief.?miracle/i
 /body.?balance/i
+
+/silence pain in.{1,10}seconds/i
 
 # Patches
 # ------------------------------------------------------------------------------
@@ -476,7 +478,8 @@
 /(forgotten|mayan|miracle).?(remedy|seeds)/i
 
 /(japanese|unlock).{0,10}secret/i
-/(dairy|morning|second|simple).?(protocol|trick)/i
+
+/(ancient|dairy|japanese|liquid|morning|second|simple|taiwan).?(hack|ritual|protocol|trick)/i
 
 /mayan.?cleanse/i
 /(basic|secret).?protein/i
@@ -499,6 +502,7 @@
 /greeny.?slim/i
 /hondofrost/i
 /liba/i
+/micardium/i
 /neoveris/i
 /ottomax/i
 /ozempic/i
@@ -531,7 +535,6 @@
 
 # Unclassified
 # ------------------------------------------------------------------------------
-/(ancient|dairy|japanese|liquid|taiwan).?(hack|ritual|trick)/i
 /ancient.?chocolate/i
 
 /going.?viral/i

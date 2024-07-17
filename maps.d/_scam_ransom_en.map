@@ -25,6 +25,9 @@
 
 /managed to hack.{1,10}your.{1,10}operating.?system/i
 
+#
+/this e.?mail cannot be tracked like/i
+
 # Malware
 /virus enabled me to connect/i
 /virus was.{1,15}through one of your/i
@@ -34,8 +37,10 @@
 /your e?.?mails are infected with.{1,15}(trojan|virus)/i
 
 #
+/adult site that you visited/i
 /i know that you are.{1,10}pedophile/i
 /my perverted friend/i
+/video that you watched/i
 
 # Payment
 # ------------------------------------------------------------------------------
