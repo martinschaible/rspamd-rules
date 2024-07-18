@@ -168,11 +168,12 @@
 
 /minute miracle stretch/i
 /(doctor.?s? secret|morning) trick/i
-/secret (ingredient|recipe)/i
+/secret.{1,10}(ingredient|recipe)/i
 /discovery will change your/i
 
 /sec(ond)?.{1,10}routine/i
 /sec(ond)?.{1,10}(ancient|sugar) (juice|hack)/i
+/sec(ond)?.{1,10}ritual.{1,10}reverses/i
 
 /simple trick restores/
 /crazy remedy/i
