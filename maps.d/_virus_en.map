@@ -101,7 +101,10 @@
 
 # Expired Antivirus software
 # ------------------------------------------------------------------------------
-/anti.?virus.{1,10}protection/i
+
+# False/Positives reported
+#/anti.?virus.{1,10}protection/i
+
 /your norton subscription may have expired/i
 
 #
