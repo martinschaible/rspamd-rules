@@ -26,10 +26,10 @@
 
 /ingredient dissolves.{1,10}(lbs|pounds) of.{1,10}fat/i
 
-/(lose|losing).{1,10}\d{2,3}.?(lbs|pounds) of fat/i
-/(lose|losing).{1,10}(fat|weight).{1,10}(became so easy|fast)/i
-/(lose|losing).{1,15}(fat|weight) with.{1,20}click below/i
-/(lose|losing).{1,10}average of.{1,10}(lbs|pounds)/i
+/(drop|lose|losing).{1,10}\d{2,3}.?(lbs|pounds) of fat/i
+/(drop|lose|losing).{1,10}(fat|weight).{1,10}(became so easy|fast)/i
+/(drop|lose|losing).{1,15}(fat|weight) with.{1,20}click below/i
+/(drop|lose|losing).{1,10}average of.{1,10}(lbs|pounds)/i
 
 /can flush fat/i
 /kick stubborn flab/i
