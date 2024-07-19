@@ -117,6 +117,8 @@
 /app!!/i
 /apps?.?(creation|development|proposal|service)/i
 
+/all type app.?develop/i
+
 /mobile.?app.{1,10}costing/i
 /(create|develop) (mobile|an).{1,10}app/i
 /creating app\(.|?)/i

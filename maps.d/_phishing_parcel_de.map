@@ -79,6 +79,7 @@
 /(paket|sendung).{1,20}zustellen.{1,10}aufgrund einer falschen.{1,15}adresse/i
 /(paket|sendung).{1,20}zustellen.{1,10}da ihre adresse falsch ist/i
 
+/sehr geehrter kunde.{1,10}wir haben.{1,10}versucht.{1,10}ihr paket/i
 /aufgrund unvollständiger.{1,15}angaben nicht zugestellt werden/iu
 /nicht zustellen.{1,10}da keine.{1,20}anwesend war/i
 /zustellung.{1,15}(paket|sendung).{1,30}ist ein fehler aufgetreten/i

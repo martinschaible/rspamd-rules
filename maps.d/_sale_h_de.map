@@ -23,6 +23,8 @@
 # Beanbag
 # ------------------------------------------------------------------------------
 /bean.?bag.{1,10}nur.{1,10}netto/i
+/sitzsack.{1,10}bean.?bag/i
+/riesen.{1,10}sitzsack/i
 
 # Boxes
 # ------------------------------------------------------------------------------
@@ -471,6 +473,7 @@
 /teilen sie uns.{1,10}ihre.{1,10}lieferadresse mit/i
 
 # Pricing
+/einführungspreis von anstelle.{1,10}zu nur.{1,10}(plus|zzgl).{1,10}mwst/i
 /euro zzgl.{1,10}mwst.{1,10}statt der regulären.{1,10}euro/iu
 
 /statt.{1,10}bis.{1,10}euro jetzt nur.{1,10}euro netto/i
