@@ -52,6 +52,7 @@
 
 /\.(ch|com|de|org).?(admin$|administrator|security|server|update)/i
 /\.(ch|com|de|org).?onedrive/i
+/\.(ch|com|de|org).?\|.?support/i
 
 # Sample: amelec.ch IT
 /[a-z0-9-]{3,15}\.(ch|com|de|org).? it/i
