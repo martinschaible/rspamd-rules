@@ -74,6 +74,9 @@
 # Massage
 /jetzt.{1,10}mit massagefunktion/i
 
+#
+/teleskophocker/i
+
 # Coffee
 # ------------------------------------------------------------------------------
 /kaffee.?vollautomat(en)?.{1,10}firmen/i
@@ -435,8 +438,9 @@
 
 /einfach antworten.{1,10}bestellungen.{1,10}rückfragen/iu
 /einfach antworten.{1,10}um zu bestellen/i
-/einfach antworten.{1,10}wir liefern per.{1,20}auf rechnung/i
-/einfach antworten.{1,10}wir liefern direkt/i
+/einfach antworten.{1,10}wir liefern.{1,20}auf rechnung/i
+/einfach antworten.{1,10}wir liefern.{1,10}direkt/i
+/einfach antworten.{1,10}zum bestellen/i
 
 /einfach.{1,10}bestellung antworten.{1,10}wir liefern.{1,10}auf rechnung/i
 
