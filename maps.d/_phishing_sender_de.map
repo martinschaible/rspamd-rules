@@ -168,7 +168,8 @@
 /diba-ag/i
 
 # PayPal
-/paypal.?(fall|hilfe.?center|konto|kunde|kundin|sicherheit)/i
+/paypal.?(fall|hilfe.?center|konto|kunde|kundin|sicherheit|team)/i
+/servicekarte/i
 
 # Postbank
 /girokonto/i

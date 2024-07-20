@@ -23,12 +23,13 @@
 /gruß.{1,10}geliebte/i
 
 /guten tag.{1,10}(madam|ms|sir)/i
-/guten tag.{1,10}ich bin.{5,25}eine.{1,20}investor(in)?/i
 /guten tag.{1,10}begünstigter/iu
 /guten tag.{1,5}kunde/i
 
 /guten tag.{1,10}ich (brauche ihre unterstützung|suche ihre dienste|ich vertraue darauf)/iu
 /guten tag.{1,10}ich bin der/i
+/guten tag.{1,10}ich bin.{5,25}eine.{1,20}investor(in)?/i
+/guten tag.{1,10}meine damen und herren/i
 
 /guten tag.{1,15}(damen|herren).{1,15}wie geht es dir/i
 /(guten tag|grüße).{1,10}(geliebte|gewinner|mein lieber)/i
