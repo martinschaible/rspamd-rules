@@ -151,8 +151,9 @@
 
 # Bladder
 # ------------------------------------------------------------------------------
-/bladder.?(care|health|leaks|leakage|leaking|issues?|relief)/i
+/bladder.?(care|health|leaks?|leakage|leaking|issues?|relief)/i
 /(big|weak).?bladder/i
+/urine.?leaks?/i
 
 # Blood pressure
 # ------------------------------------------------------------------------------
@@ -213,6 +214,7 @@
 # Digestive System
 # ------------------------------------------------------------------------------
 /digestive.?system/i
+/fruit.?mistake/i
 /poop.?type/i
 /your.?(digestion|poop)/i
 
@@ -553,7 +555,7 @@
 /fried.?chicken/i
 /home.?(treatment|with ease)/i
 /make your own/i
-/morning.?mistake/i
+/morning.?(drink|mistake)/i
 /secret.?weapon/i
 /this.{0,10}elixir/i
 

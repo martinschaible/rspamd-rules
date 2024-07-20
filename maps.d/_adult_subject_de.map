@@ -33,10 +33,8 @@
 /treffen sie diese.{1,10}frau/i
 /kostenloses treffen/i
 
-/bereit für ein.{1,15}date/iu
+/(bereit für ein|du mein|heißes?).{1,15}date/iu
 /deine neue liebe/i
-
-/du mein date/i
 
 # Dating Sites
 # ------------------------------------------------------------------------------
@@ -94,7 +92,7 @@
 # Sex, Fuck
 # ------------------------------------------------------------------------------
 /(bist du|kostenlos).{1,10}sex/i
-/sex.{0,10}(treffen|ohne)/i
+/sex.{0,10}(date|treffen|ohne)/i
 /sex mit.{1,15}frauen/i
 
 /dich verführe/i

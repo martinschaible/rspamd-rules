@@ -131,6 +131,7 @@
 /rfq.?\d{4,10}\.(7z|doc|gz|htm|r11|rar|tgz|xla|xls|zip)/i
 
 #/rfq\.zip/i
+/rfq#order/i
 
 /(price|product).?list\.(xz|z)/i
 /product.?list\.(7z|doc|gz|htm|r11|rar|tgz|xla|xls|zip)/i
