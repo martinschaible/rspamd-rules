@@ -13,9 +13,6 @@
 /ich bin maria eli(s|z)abeth schaeffler/i
 /diese e?.?mail stammt von elon musk/i
 
-# Free Tesla stocks
-/sie wegen ihres.{1,15}aktienanspruchs vom/i
-
 #
 #
 #
@@ -210,6 +207,10 @@
 /heilmittel.{1,25}kostet einmalig.{1,15}euro/i
 
 /euro.{1,10}corona.{1,10}haftentschädigung/i
+
+# Free Stocks
+# ------------------------------------------------------------------------------
+/sie wegen ihres.{1,15}aktienanspruchs vom/i
 
 #
 #

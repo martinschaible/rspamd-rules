@@ -224,12 +224,12 @@
 /sec(ond)?.{1,10}(herpes|sugar).{1,10}(hack|trick)/i
 
 /scientists?.{1,10}confirmed this.{1,10}hack/i
-/scientists?.{1,10}discovered the secret/i
+/scientists?.{1,10}(discovered|revealed){1,10}the secret/i
 /scientists?.{1,10}uncover.{1,20}big pharma/i
 /scientists?.{1,10}the fountain of youth/i
 /scientists?.{1,10}made.{1,10}groundbreaking discovery/i
 
-/stanford scientists.{1,10}discovered/i
+/(harvard medical|stanford scientists?).{1,20}(discovered|revealed)/i
 
 /this.{1,10}(awesome|apple).{1,10}trick/i
 /this.{1,10}(groundbreaking|eye.?opening).{1,10}presentation/i
