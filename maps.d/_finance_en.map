@@ -25,13 +25,19 @@
 /investment.?company offering.{1,10}funding/i
 
 /i represent a.{1,10}group of.{1,15}(lenders|investors)/i
-/is acting as.{1,10}lender/i
 
 # Approval
 # ------------------------------------------------------------------------------
 /qualified for a.{1,10}business.{1,10}loan/i
 
 /your (business|company).{1,15}has been pre.?(approved|qualified)/i
+
+# Lending
+# ------------------------------------------------------------------------------
+/genuine.{1,10}lender on the internet/i
+
+/i?a?m.{1,10}private money.{1,10}lender/i
+/is acting as.{1,10}lender/i
 
 # Loans
 # ------------------------------------------------------------------------------
@@ -166,8 +172,6 @@
 
 # Unclassified
 # ------------------------------------------------------------------------------
-/genuine lender on the internet/i
-
 /partnering with us.{1,15}your financial/i
 
 /your (business|company).{1,10}growth through funding/i
