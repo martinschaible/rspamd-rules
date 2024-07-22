@@ -92,7 +92,7 @@
 # Rewards, Surveys
 # ------------------------------------------------------------------------------
 /confirmation.?needed/i
-/consumer.?reward/i
+/(customer|consumer).?(offer|reward)/i
 /gift.?card/i
 /giveaway.?notification/i
 /gift.?(card.?)?opportunity/i

@@ -174,6 +174,9 @@
 # Sample: Outstanding Invoice 00028025145 14-02-2024.pdf
 /outstanding.?invoice.?\d{1,15}.?\d{2}.?\d{2}.?\d{2,4}\.pdf
 
+# Sample: RP24916095.zip
+\[a-z]{2}\d{8,10}\.zip/i
+
 # Lottery, Winning
 # ------------------------------------------------------------------------------
 /winner.{0,10}\.(7z|doc|gz|htm|r11|rar|tgz|xla|xls|zip)/i
