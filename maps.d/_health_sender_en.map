@@ -33,7 +33,7 @@
 /thicker.{0,10}harder/i
 
 /twist.{0,10}growth/i
-/penis.?ritual/i
+/penis.?(muscle|ritual)/i
 /p\*nis/i
 
 /(increase|enhance) your size/i
@@ -44,6 +44,7 @@
 
 # Meds
 /blue.?(pill|replacement)/i
+/replace.?blue/i
 
 # Potency, Stamina
 # ------------------------------------------------------------------------------
@@ -327,7 +328,7 @@
 
 # Joints
 # ------------------------------------------------------------------------------
-/joints.?(cure|healed|inflammation)/i
+/joints.?(cure|discomfort|healed|inflammation)/i
 
 # Kidneys
 # ------------------------------------------------------------------------------
