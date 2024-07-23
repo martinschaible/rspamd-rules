@@ -173,10 +173,6 @@
 
 /we specializ.{1,10}helping people who have been scammed/i
 
-# Stocks
-# ------------------------------------------------------------------------------
-/you.{1,10}been selected to receive.{1,15}tesla stock/i
-
 #
 #
 #
@@ -235,6 +231,11 @@
 /crude oil company/i
 
 /i have an oil.{1,15}(contract|deal)/i
+
+# Stocks
+# ------------------------------------------------------------------------------
+/you.{1,10}been selected to receive.{1,20}stock/i
+/claim your.{1,15}stock valued at/i
 
 #
 #
