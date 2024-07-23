@@ -77,7 +77,9 @@
 /dass diese.{1,10}e?.?mail.?adresse aktiv ist/i
 /(diese|ihre).{1,10}e?.?mail.?adresse.{1,40}noch aktiv ist/i
 /(diese|ihre).{1,10}e?.?mail.{1,15}noch aktiv ist.{1,10}kontaktieren sie/i
-/wissen.{1,15}(diese|ihre).{1,10}e?.?mail.{1,10}korrekt ist/i
+
+/verwenden Sie diese.{1,10}e?.?mail.{1,15}noch/i
+/wissen.{1,15}(diese|ihre).{1,10}e?.?mail.{1,15}korrekt ist/i
 
 # E-Mail received
 # ------------------------------------------------------------------------------

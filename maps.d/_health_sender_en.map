@@ -158,7 +158,7 @@
 
 # Blood pressure
 # ------------------------------------------------------------------------------
-/blood.?(pressure|sugar)/i
+/blood.?(glucose|pressure|sugar)/i
 /high.?blood/i
 /clogged.?arteries/i
 
