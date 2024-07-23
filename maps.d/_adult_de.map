@@ -252,7 +252,8 @@
 /(gehe zu|ihnen einen link).{1,10}zu meinem.{1,10}profil/i
 
 /bin.{1,10}auf dein.{1,10}profil gestoßen/i
-/bin.{1,10}(kürzlich|zufällig) auf.{1,10}profil/iu
+/bin.{1,10}(gerade|kürzlich|zufällig) (auf|über).{1,10}profil/iu
+/bin,{1,10}über dein profil gestolpert/iu
 
 /klicke? hier.{1,10}um ihre.{1,10}profile?/i
 

@@ -14,6 +14,7 @@
 
 /grüße.{1,15}antworten sie auf meine/iu
 /grüße.{1,10}ich bin dr/i
+/grüße.{1,10}ich hoffe.{1,10}es geht ihnen gut/i
 /grüße.{1,10}in bester gesundheit/iu
 /grüße.{1,10}mein.name.ist/iu
 /grüße.{1,10}mein lieber/iu
@@ -170,13 +171,13 @@
 # ------------------------------------------------------------------------------
 /ich bin.{5,25}(der|die) gewinner(in)? des/i
 /ich bin.{5,25}die einzige tochter/i
+/ich bin (frau|herr).{5,25}ich (habe|leide)/i
 /ich bin (miss|sir)/i
 
 /ihnen vor(zu)?stellen.{1,10}ich bin/i
 
 /kompliment des tages.{1,10}ich kontaktiere sie/i
-
-/ich bin (frau|herr).{5,25}ich (habe|leide)/i
+/mich vorstellen.{1,10}ich bin (frau|herr)/i 
 
 # Introduction, Country
 # ------------------------------------------------------------------------------

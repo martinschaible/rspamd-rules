@@ -51,6 +51,8 @@
 /authentication.{1,10}here.{1,10}retrieve.{1,10}(e?.?mails?|messages?)/i
 /authentication.{1,10}retrieve.{1,10}undelivered.{1,10}(e?.?mails?|messages?)/i
 
+/below to authenticate your e?.?mail.?account/i
+
 /you (are requested|must).{1,10}authenticate.{1,10}e?.?mail/i
 
 # Deactivation, termination request EMail Account
@@ -60,6 +62,10 @@
 /termination request.{1,10}your.{1,10}e?.?mail/i
 /request.{1,10}permanently.{1,10}de.?activate your.{1,10}e?.?mail/i
 /your.{1,10}request.{1,10}de.?activate your.{1,10}e?.?mail/i
+
+# Deleting EMail Accounts
+# ------------------------------------------------------------------------------
+/we are suspending inactive.{1,10}accounts/i
 
 # Keeping EMail Account
 # ------------------------------------------------------------------------------
