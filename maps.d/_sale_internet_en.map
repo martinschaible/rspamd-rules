@@ -53,8 +53,8 @@
 
 /best e?.?mail.?lists/i
 
-/e?.?mail.?marketing works/i
-/e?.?mail.?marketing service.{1,10}boost/i
+/e?.?mail.?marketing.{1,10}(free|works)/i
+/e?.?mail.?marketing.{1,10}service.{1,10}boost/i
 /e?.?mail.?lists of any country/i
 
 # 
@@ -85,12 +85,15 @@
 /leads.{1,10}for all interested parties/i
 /lead feature.{1,10}you can automatically/i 
 
+/automation.{1,10}convert.{1,10}leads/i
 /generate leads.{1,10}promote/i
-/
-you like to generate.{1,15}leads/i
-/we.{1,10}provide.{1,15}(fresh|quality|targeted|verified).{1,15}leads/i
+
 /i will provide.{1,15}leads/i
 
+/you like to generate.{1,15}leads/i
+/we.{1,10}provide.{1,15}(fresh|quality|targeted|verified).{1,15}leads/i
+
+# LinkedIn
 /(targeted|verified).{1,10}leads from linkedin/i
 
 #

@@ -130,6 +130,8 @@
 
 /your (contact|e?.?mail|information).{1,20}during my search (for|through)/i
 
+/i found your details?.{1,10}on google/i
+
 # Important, Serious
 # ------------------------------------------------------------------------------
 /contact you.{1,10}i have something.{1,10}important/i
