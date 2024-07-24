@@ -64,6 +64,8 @@
 /found a number of seo.?issues/i
 
 /we are.{1,10}leading seo/i
+/we are.{1,10}seo.?agency/i
+
 /we can (promote|rank) your web.?site/i
 /we can help you rank higher/i
 /we do seo for all/i
@@ -145,15 +147,20 @@
 
 /buy google reviews.{1,10}start/i
 
+/our ahrefs.{1,10}domain.?rating/i
+
 # SEO, bad strategies
 # ------------------------------------------------------------------------------
 /(seo|our) guest postings?/i
 /guest posting services/i
+/your guest post price/i
 
 # SEO, Links
 # ------------------------------------------------------------------------------
 /we will investigate each link/i
 /noticed.{1,15}percentage.{1,10}toxic links/i
+
+/domain rating links right here/i
 
 # SEO, India
 # ------------------------------------------------------------------------------

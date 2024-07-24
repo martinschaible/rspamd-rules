@@ -204,6 +204,7 @@
 /our (company|factory).{1,10}manufacturer.{1,10}exporter/i
 /our (company|factory).{1,10}has.{1,20}production.{1,10}equipment/i
 /our (company|factory).{1,10}is a.{1,15}company.{1,10}specialising/i
+/our (company|factory).{1,10}is engaged in.{1,10}production/i
 /our (company|factory).{1,10}is.{1,10}professional/i
 /our (company|factory).{1,10}is.{1,10}independent.{1,10}distributor/i
 /our (company|factory).{1,10}produces.{1,20}since/i

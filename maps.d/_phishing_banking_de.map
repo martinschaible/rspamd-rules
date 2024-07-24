@@ -45,6 +45,9 @@
 /ihre hinterlegten daten nicht mehr aktuell sind/i
 /legitimierung ihrer hinterlegten daten unbedingt notwendig/i
 
+# Failed Payments
+# ------------------------------------------------------------------------------
+
 # New Systems, Security, Technology, TAN
 # ------------------------------------------------------------------------------
 /aktivieren sie.{1,10}ihre karte gebührenfrei/iu
@@ -146,15 +149,16 @@
 
 /bitten wir sie.{1,10}das.{1,10}sicherheits.?update/i
 
+# Signing documents
+# ------------------------------------------------------------------------------
+/melden sie sich an.{1,10}um vereinbarungen anzuzeigen/i
+
 # Wallet
 # ------------------------------------------------------------------------------
 
 # Message
 # ------------------------------------------------------------------------------
 /dringende nachricht in ihrem sicheren postfach/i
-
-# Failed Payments
-# ------------------------------------------------------------------------------
 
 # Update Payment options
 # ------------------------------------------------------------------------------
