@@ -40,7 +40,7 @@
 
 # Payments
 # ------------------------------------------------------------------------------
-/zahlung.{1,10}nicht beansprucht.{1,10}preis.?geld/i
+/(aus)?zahlung.{1,10}nicht (eingeforderten|beansprucht).{1,10}(preis|gewinn).?geld(es)?/i
 
 /sie haben.{1,20}(dollar|euro?|gbp|usd).{1,10}zur auszahlung/i
 /sie haben..{1,10}\d{3}.{1,5}\d{3}.{1,10}zur auszahlung/i
@@ -68,6 +68,7 @@
 /gewonnen.{1,10}antworten sie auf diesen.{1,10}e?.?mail/i
 /gewonnen.{1,10}reagieren sie auf forderungen/i
 
+/bearbeitung ihres gewinns beginnen/i
 /brandneu.{1,10}gewinnspiel/i
 
 /anspruch geltend zu machen.{1,10}senden sie eine e?.?mail/i
