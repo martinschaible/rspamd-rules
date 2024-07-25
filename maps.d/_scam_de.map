@@ -24,7 +24,7 @@
 # Beneficiary
 # ------------------------------------------------------------------------------
 /aufmerksamkeit.{1,10}(begünstigten|frau|herr)/iu
-/(achtung|guten tag|geschätzter|händen|lieber).{1,15}begünstigter?/iu
+/(achtung|guten tag|geschätzter|händen|lieber|sehr geehrter).{1,15}begünstigter?/iu
 
 /ihr.{1,10}name ist unter den.{1,10}begünstigten/iu
 /ihre? e?.?mail.?(adresse|konto).{1,10}wurde ausgewählt.{1,10}als begünstigter/iu

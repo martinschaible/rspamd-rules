@@ -185,8 +185,11 @@
 # ------------------------------------------------------------------------------
 /\.net/spotify\//i
 
-#Cloudfront
+# Cloudfront
 /cloudfront\.net/uploads\//i
+
+# Facebook
+/email_forward_notice\//i
 
 # LinkedIn
 /\/linkedin_\//i

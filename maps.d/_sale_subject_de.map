@@ -61,15 +61,8 @@
 /(design|highlight|komfortabel|leder|office|premium|stilvolle|ultimativen|unsere|traum|walnussholz).{1,20}(büro|massage).?(sessel|stuhl|stühle)/iu
 /nur jetzt.{1,20}(büro|massage).?(sessel|stuhl|stühle)/iu
 
-/(chef|dreh|leder).?(sessel|stuhl)/i
-/chef.?leder.?(sessel|stuhl)/i
-
-/chefsessel.{1,10}lagerräumung/iu
-
-/(eleganter|sonderaktion).{1,20}besucherstuhl/i
-
-#
-/(ergonomischer|mit dem|xxl).{1,15}stuhl/i
+/(besucher|chef|dreh|leder|relax).{1,15}(sessel|stuhl)/i
+/(ergonomischer|mit dem|xxl).{1,15}(sessel|stuhl)/i
 
 #
 /(höhenverstellbarer|teleskop).?hocker/i

@@ -478,6 +478,13 @@
 #
 #
 
+# Medication, Pills
+# ------------------------------------------------------------------------------
+/top.?medication/i
+#
+#
+#
+
 # Miracle, Breaktrough, Secrets, Videos
 # ------------------------------------------------------------------------------
 /(medical|miracle|new|scientists?).?(breakthrough|discovery)/i
@@ -489,6 +496,8 @@
 
 /mayan.?cleanse/i
 /(basic|secret).?protein/i
+
+/nasa.?(scientists?|study)/i
 
 #
 #
