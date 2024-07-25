@@ -17,6 +17,8 @@
 
 /draft bl for po/i
 /order.{1,10}large quantity.{1,10}your products/i
+/pi for.{1,10}attached po/i
+/we are currently in need.{1,15}products/i
 
 # Catalog
 # ------------------------------------------------------------------------------
@@ -30,14 +32,14 @@
 /product along with your.{1,15}(brochure|catalog|catalogue)/i
 /send (me|us) a copy of your.{1,15}(brochure|catalog|catalogue)/i
 /send (me|us) through e?.?mail.{1,10}your.{1,15}(brochure|catalog|catalogue)/i
+/send (me|us) your latest.{1,15}(brochure|catalog|catalogue)/i
+
 /share with us your.{1,15}(brochure|catalog|catalogue)/i
 /kindly send me your.{1,15}(brochure|catalog|catalogue)/i
-/pi for.{1,10}attached po/i
 
 /(i|we) will need your.{1,10}(brochure|catalog|catalogue)/i
 /(i|we) would like.{1,10}discuss placing an.{1,10}order/i
 /(i|we) would like.{1,10}have.{1,20}your.{1,10}(brochure|catalog|catalogue)/i
-/We are currently in need.{1,15}products/i
 
 /your company.{1,15}(brochure|catalog|catalogue).{1,10}for our reference/i
 /your company.{1,15}(brochure|catalog|catalogue).{1,10}pricing information/i

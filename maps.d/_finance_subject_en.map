@@ -11,10 +11,10 @@
 # ------------------------------------------------------------------------------
 /(finance|investment|loans?).{1,10}(apply|funding|offer|opportunities|opportunity|reduced)/i
 
-/loans?.{1,10}(finance|financing|limited|low interest|service)/i
+/loans?.{1,10}(available|finance|financing|limited|low interest|service)/i
 /loans?.{1,10}project.{1,10}(finance|financing)/i
 
-/(business|cash|easy|exclusive|fast|guaranteed|low rate|office|projects|quick|reliable|reputable|turbo).{1,10}loans?/i
+/(business|cash|competitive|easy|exclusive|fast|guaranteed|low rate|office|projects|quick|reliable|reputable|turbo).{1,15}loans?/i
 
 /(apply for|need).{1,10}loan/i
 

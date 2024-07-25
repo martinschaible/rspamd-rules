@@ -173,6 +173,7 @@
 
 # Netflix
 /netflix.?(expiration|support|team|updates)/i
+/netflix.?billing.?support/i
 /netflix\./i
 
 # PayPal
