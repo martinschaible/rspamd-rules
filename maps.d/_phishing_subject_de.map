@@ -115,12 +115,12 @@
 /ihr konto.{1,15}wurde vorübergehend/i
 /ihr konto.{1,15}vorübergehende beschränkung/iu
 
+/gesperrt ref.?id#/i
 /ihr konto vorübergehend/i
+/ihr photo.?tan wurde blockiert/i
 
 /wir haben ihre id.{1,20}gesperrt
 /wir ihr konto eingeschränkt/iu
-
-/ihr photo.?tan wurde blockiert/i
 
 /wichtige mitteilung.{1,10}ihr.{1,15}konto/i
 
@@ -511,6 +511,10 @@ letzter gewinner/i
 # ------------------------------------------------------------------------------
 /Sie haben Ihr.{1,20}guthaben nicht ausgezahlt/i
 /zahlung fehlgeschlagen.{1,10}sofortiges handeln.{1,10}erforderlich/i
+
+# Payment data
+# ------------------------------------------------------------------------------
+/erinnerung.{1,10}zahlungsdetails aktualisieren/i
 
 # Subscriptions
 # ------------------------------------------------------------------------------

@@ -82,6 +82,7 @@
 # Account - Confirm or reconfirm identity
 # ------------------------------------------------------------------------------
 /aktualisieren sie.{1,10}ihre.{1,10}konto.?(daten|informationen)/i
+/aktualisieren sie ihr.{1,10}konto/i
 
 /bestätigen sie.{1,10}ihre.{1,10}telefon.?nummer/iu
 /bestätigen sie.{1,10}ihre.{1,10}konto.?daten/iu

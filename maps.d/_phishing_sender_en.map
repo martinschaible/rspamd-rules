@@ -90,7 +90,7 @@
 #
 #
 
-# Rewards, Surveys
+# Winning, Present, Rewards
 # ------------------------------------------------------------------------------
 /confirmation.?needed/i
 /(customer|consumer).?(offer|reward)/i
@@ -100,7 +100,7 @@
 
 /binance.?rewards/i
 
-/shopper.?gift/i
+/shopper.?(feedback|gift)/i
 /voucher/i
 
 /delivery.?notif\./i
@@ -110,7 +110,7 @@
 # A to H
 /(ace|autozone|costco|cvs|delta|dewalt|epson|harbor.?freight|home.?depot).{0,25}(confirmation|delivery|department|feedback|gift.?card|giveaways?|opinion|renewal|rewards?|shipping|shipment|shopper|surprise|unlocked|winner)/i
 # K to Z
-/(kobalt|kohls|lowe.?s|milwaukee|netflix|paypal|peacock|phone|sam.?s.?club|stanley|staples|temu|ups|verizon|walmart).{0,15}(confirmation|department|delivery|feedback|gift.?card|giveaways?|opinion|renewal|rewards?|shipping|shipment|shopper|surprise|unlocked|winner)/i
+/(kobalt|kohls|lowe.?s|milwaukee|netflix|paypal|peacock|phone|sam.?s.?club|stanley|staples|target|temu|ups|verizon|walmart).{0,15}(confirmation|department|delivery|feedback|gift.?card|giveaways?|opinion|renewal|rewards?|shipping|shipment|shopper|surprise|unlocked|winner)/i
 
 /(netflix|peacock).?(loyalty|membership)/i
 /pittsburgh.?tool.?set/i
@@ -173,7 +173,7 @@
 
 # Netflix
 /netflix.?(expiration|support|team|updates)/i
-/netflix.?billing.?support/i
+/netflix.?billing.?(support|team)/i
 /netflix\./i
 
 # PayPal

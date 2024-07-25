@@ -64,6 +64,8 @@
 /designer watches (for just|on sale|starting at)/i
 /discount designer watches/i
 
+/hot sunglasses.{1,10}huge discounts/i
+
 /rolex.?watch(es)?.{1,10}up to.{1,10}off/i
 
 # Streaming TV
@@ -239,6 +241,7 @@ transform.{1,10}website traffic/i
 
 # Unclassified
 # ------------------------------------------------------------------------------
+/huge discounts.{1,10}act now/i
 
 # Masked
 # ------------------------------------------------------------------------------
