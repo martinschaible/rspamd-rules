@@ -10,7 +10,7 @@
 /sehr.geehrter.kunde\.jpg/i
 
 /investieren\.(html|php)/i
-/verfolgen\.html/i
+/^(?!https:\/\/www\.dhl.de)\S+verfolgen\.html/i
 
 #
 #
