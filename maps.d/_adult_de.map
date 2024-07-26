@@ -162,23 +162,25 @@
 /bild von mir mitgeschickt/i
 /bilder.{1,10}live ansehen/i
 
-/meine.{1,10}(geilen|intimen|privaten).{1,10}(bilder|fotos)/i
-/meine.{1,10}(bilder|fotos) und ein video/i
-/möchten.{1,15}(bilder|fotos) mit dir tauschen/iu
-
-/neue.{1,10}(bilder|fotos) von.{5,25}sind live/i
-/du hast.{1,10}neue (bilder|fotos) von.{5,25}erhalten/i
 /da sind.{1,10}(bilder|fotos) von mir/i
+/du hast.{1,10}neue (bilder|fotos) von.{5,25}erhalten/i
 
-/(intimen|privaten).{1,10}(bilder|fotos).{1,10}(ansehen|von mir)/i
 /geile private.{1,10}(bilder|fotos)/i
 
-/ich ihnen mein foto senden/i
-/versauten?.{1,10}(bilder|fotos)/i
+/ich ihnen mein.{1,10}(bild|foto) (anhängen|senden)/iu/i
 
 /(ladies|mädchen|frauen).{1,10}mit.{1,10}(bilder|fotos)/i
+/(intimen|privaten).{1,10}(bilder|fotos).{1,10}(ansehen|von mir)/i
 
+/meine.{1,10}(geilen|intimen|privaten).{1,10}(bilder|fotos)/i
+/meine.{1,10}(bilder|fotos) und ein video/i
 /mehr fotos und kontakt/i
+/möchten.{1,15}(bilder|fotos) mit dir tauschen/iu
+
+/neue.{1,10}(bilder|fotos?) von.{5,25}sind live/i
+
+/versauten?.{1,10}(bilder|fotos)/i
+/werde ich ihnen mein.{1,10}bild senden/i
 
 # Girls, Women
 # ------------------------------------------------------------------------------
@@ -409,6 +411,7 @@
 # ------------------------------------------------------------------------------
 /du hast meine aufmerksamkeit erregt/i
 
+/ich bin.{1,10}jahre alt.{1,10}ich bin kinderlos/i
 /ich bin eine.{1,10}attraktive person/i
 /ich bin ein wenig schüchtern/iu
 /ich bin sehr einsam/i
