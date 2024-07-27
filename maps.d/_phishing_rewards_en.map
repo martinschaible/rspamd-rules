@@ -30,7 +30,8 @@
 /(ace hardware|costco).{1,10}reward has arrived/i
 
 /dewalt.{1,15}rdrill.{1,10}confirmation/i
-/pay.?pal.{1,10}rewards/i
+/(pay.?pal|set).{1,10}rewards?/i
+
 
 # Choosen
 # ------------------------------------------------------------------------------
