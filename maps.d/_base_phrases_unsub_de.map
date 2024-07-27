@@ -32,12 +32,17 @@
 
 # Why somebody gets the advertising, which are lies
 # ------------------------------------------------------------------------------
-/weil sie an einem.{1,15}wettbewerb im internet teilgenommen haben/i
-/weil sie sich für.{1,10}e?.?mail.?werbung.{1,10}rabattaktionen/iu
-/weil sie sich für.{1,10}den erhalt von werbe.?e?.?mails des/iu
+/angekreuzt haben.{1,10}in dem sie einer.{1,15}kontaktaufnahme/i
+/bei einem portal.{1,15}sonstigen dienst.{1,20}einem unserer partnerunternehmen angemeldet haben/i
 
-/sie sich.{1,20}einem unserer kooperationspartner.{1,20}service registriert haben/i
+/daher die erlaubnis zum senden einer.{1,10}e?.?mail haben/i
+
+/sie an einem.{1,15}wettbewerb im internet teilgenommen haben/i
 /sie erhalten diese kostenlosen informationen.{1,10}(da|weil).{1,10}sie/i
+
+/sie sich für.{1,10}e?.?mail.?werbung.{1,10}rabattaktionen/iu
+/sie sich für.{1,10}den erhalt von werbe.?e?.?mails des/iu
+/sie sich.{1,20}einem unserer kooperationspartner.{1,20}service registriert haben/i
 
 /sie erhalten diesen?.{1,15}(e?.?mail|informationen|nachricht|newsletter).{1,10}(da|weil).{1,10}sie (eine unserer|sich bei).{1,20}(partner.?datenbank|web.?site|web.?dienste)/i
 /sie erhalten diesen?.{1,15}(e?.?mail|informationen|nachricht|newsletter).{1,10}(da|weil).{1,10}sie an einem angebot.{1,40}an einem gewinnspiel/i
@@ -51,11 +56,7 @@
 
 /sie haben diese?.{1,15}(e?.?mail|informationen|nachricht|newsletter).{1,10}erhalten.{1,10}weil sie (an|bei) einem.{1,15}wettbewerbe?.{1,10}(mitgemacht|teilgenommen)/i
 
-/angekreuzt haben.{1,10}in dem sie einer.{1,15}kontaktaufnahme/i
-
 /wir senden ihnen diesen?.{1,15}(e?.?mail|informationen|nachricht|newsletter).{1,10}weil sie an einem wettbewerb/i
-
-/daher die erlaubnis zum senden einer.{1,10}e?.?mail haben/i
 
 #
 #
