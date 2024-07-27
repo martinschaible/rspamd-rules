@@ -37,11 +37,13 @@
 
 /beneficiary.{1,10}to receive the.{1,10}funds?/i
 /beneficiary.{1,10}which is you.{1,10}your name/i
+/beneficiary.{1,10}as next of kin/i
 
 /present you.{1,25}as the (beneficiary|contractor)/i
-/you.{1,10}(appear|are|been selected|emerged) (as one|to be one|one) of.{1,20}beneficiaries/i
+/you.{1,15}(appear|are|selected|emerged).{1,10}(among|as one|to be one|one).{1,10}(of|the).{1,20}beneficiaries/i
 
 /you to be.{1,10}nearest.{1,10}beneficiary/i
+/
 /your (help to stand as|name as).{1,10}beneficiary/i
 
 # Currency, Big numbers

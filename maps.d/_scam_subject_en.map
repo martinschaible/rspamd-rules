@@ -45,6 +45,7 @@
 /(claims|message|reply|you have).{1,15}donation/i
 
 /donation.{1,10}(spende|win)/i
+/donation of.{1,10}million/i
 
 /(donation|donated).{1,15}\d{3}.{0,5}\d{3}/i
 /(donation|donated).{1,15}(for|to) you/i
@@ -106,7 +107,8 @@
 /(proposal|proposition).{1,10}for business/i
 
 /business.{1,10}(inquiry from|meeting request)/i
-/business.{1,10}investment collaboration/i
+/business.{1,10}investment.{1,10}collaboration/i
+/business.{1,10}project.{1,10}investment/i
 
 /opportunity.{1,10}benefit/i
 /proposal attached/i
@@ -135,6 +137,14 @@
 # Transaction
 # ------------------------------------------------------------------------------
 /urgent.{1,20}transaction/i
+
+#
+#
+#
+
+# Fake Winning
+# ------------------------------------------------------------------------------
+/i.?a?m.{5,25}from.{1,25}i won the/i
 
 #
 #

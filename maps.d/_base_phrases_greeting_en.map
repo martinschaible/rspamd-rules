@@ -83,8 +83,6 @@
 
 /dear sir.{1,5}madam.{1,10}suppliers?/i
 
-/dear sir.{1,5}ma'am/i
-
 /salaam sir.{1,5}madam/i
 
 /dearest possible companion/i
@@ -224,7 +222,7 @@
 /hello.{1,10}our names are/i
 /how are you doing.{1,10}my name is/i
 
-/(dear.{1,10}friend|good day|greetings).{1,10}my name is/i
+/(dear.{1,10}friend|good day|greetings).{1,10}my name (again|is)/i
 /to whom it may concern.{1,10}my name is/i
 
 /this is.{5,25}from.{5,25}nice to meet you/i
