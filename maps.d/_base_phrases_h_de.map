@@ -226,4 +226,5 @@
 
 /\(dot\)(com|de|org).{1,10}whatsapp/i
 
-/lieber[a-z]kunde/i
+/(geehrter|lieber)[a-z]kunde/i
+/sehr[a-z]geehrter/i
