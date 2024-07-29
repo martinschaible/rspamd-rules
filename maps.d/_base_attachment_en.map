@@ -66,6 +66,7 @@
 
 # Sample: Booking-1085-120-72-63pdf.7z
 /booking[a-z0-9-]{2,20}pdf.{0,5}\.7z/i
+/booking.?no.{2,10}\.rar/i
 
 /booking\.7z/i
 
@@ -132,6 +133,7 @@
 
 #/rfq\.zip/i
 /rfq#order/i
+/rfq\.html/i
 
 /(price|product).?list\.(xz|z)/i
 /product.?list\.(7z|doc|gz|htm|r11|rar|tgz|xla|xls|zip)/i
