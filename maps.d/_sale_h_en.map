@@ -20,6 +20,10 @@
 /revolutionary way to sit/i
 /cushion.{1,10}revolutionize/i
 
+# Door lock
+# ------------------------------------------------------------------------------
+/face smart.{1,10}door.?lock/i
+
 # E-Bike
 # ------------------------------------------------------------------------------
 /e(lectric)?.{0,10}(bicycle|bike).{1,10}currently in stock/i

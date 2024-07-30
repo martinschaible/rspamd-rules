@@ -132,6 +132,8 @@
 # ------------------------------------------------------------------------------
 /grundeinkommen durch/i
 /passives einkommen\?/i
+/passives einkommen.{1,10}reichtum/i
+
 /(generieren|verdienen) sie.{1,10}passives.{1,10}einkommen/i
 
 /(\d{3,4}|euro?).{1,10}Grundeinkommen/i
