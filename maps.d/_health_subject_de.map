@@ -5,46 +5,13 @@
 #  10 | German         |
 # ==============================================================================
 
-# Masked
+# Medication
 # ------------------------------------------------------------------------------
+/(tabletten|pillen).{1,10}(bestellen|bestellung|einkaufen)/i
+/original.{1,10}(tabletten|pillen)/i
 
-/r(-|_|:)ezeptfrei/i
-/re(-|_|:)zeptfrei/i
-/rez(-|_|:)eptfrei/i
-/reze(-|_|:)ptfrei/i
-/rezep(-|_|:)tfrei/i
-/rezept(-|_|:)frei/i
-/rezeptf(-|_)|:rei/i
-/rezeptfr(-|_|:)ei/i
-/rezeptfre(-|_|:)i/i
-
-/r ezeptfrei/i
-/re zeptfrei/i
-/rez eptfrei/i
-/reze ptfrei/i
-/rezep tfrei/i
-/rezept frei/i
-/rezeptf rei/i
-/rezeptfr ei/i
-/rezeptfre i/i
-
-/r(-|_|:)ezep(-|_|:)tfrei/i
-/re(-|_|:)zept(-|_|:)frei/i
-
-/ohne r(-|_|:)ezept/i
-/ohne re(-|_|:)zept/i
-/ohne rez(-|_|:)ept/i
-/ohne reze(-|_|:)pt/i
-/ohne rezep(-|_|:)t/i
-
-/ohne r ezept/i
-/ohne re zept/i
-/ohne rez ept/i
-/ohne reze pt/i
-/ohne rezep t/i
-
-# Fungus
-# ------------------------------------------------------------------------------
+#
+/herren.?medikamente/i
 
 # Men
 # ------------------------------------------------------------------------------
@@ -67,9 +34,6 @@
 
 /(glied|penis).{1,10}erigiert/i
 /ihr.{1,10}(glied|penis)/i
-
-#
-/herren.?medikamente/i
 
 # Prescription
 # ------------------------------------------------------------------------------
@@ -107,6 +71,10 @@
 # Product
 /vorteile.{1,10}keto/i
 
+#
+#
+#
+
 # Heart, blood pressure
 # ------------------------------------------------------------------------------
 /herz.?(beschleunigung|unruhe|schlag|stolpern)/i
@@ -128,3 +96,38 @@
 # Masked
 # ------------------------------------------------------------------------------
 /pnisvergrosserung/i
+
+/r(-|_|:)ezeptfrei/i
+/re(-|_|:)zeptfrei/i
+/rez(-|_|:)eptfrei/i
+/reze(-|_|:)ptfrei/i
+/rezep(-|_|:)tfrei/i
+/rezept(-|_|:)frei/i
+/rezeptf(-|_)|:rei/i
+/rezeptfr(-|_|:)ei/i
+/rezeptfre(-|_|:)i/i
+
+/r ezeptfrei/i
+/re zeptfrei/i
+/rez eptfrei/i
+/reze ptfrei/i
+/rezep tfrei/i
+/rezept frei/i
+/rezeptf rei/i
+/rezeptfr ei/i
+/rezeptfre i/i
+
+/r(-|_|:)ezep(-|_|:)tfrei/i
+/re(-|_|:)zept(-|_|:)frei/i
+
+/ohne r(-|_|:)ezept/i
+/ohne re(-|_|:)zept/i
+/ohne rez(-|_|:)ept/i
+/ohne reze(-|_|:)pt/i
+/ohne rezep(-|_|:)t/i
+
+/ohne r ezept/i
+/ohne re zept/i
+/ohne rez ept/i
+/ohne reze pt/i
+/ohne rezep t/i
