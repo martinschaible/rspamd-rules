@@ -167,7 +167,7 @@
 
 /geile private.{1,10}(bilder|fotos)/i
 
-/ich ihnen mein.{1,10}(bild|foto) (anhängen|senden)/iu/i
+/ich ihnen mein.{1,10}(bild|foto) (anhängen|senden)/iu
 
 /(ladies|mädchen|frauen).{1,10}mit.{1,10}(bilder|fotos)/i
 /(intimen|privaten).{1,10}(bilder|fotos).{1,10}(ansehen|von mir)/i
@@ -410,6 +410,7 @@
 # Silly Chitchat/Phrases
 # ------------------------------------------------------------------------------
 /du hast meine aufmerksamkeit erregt/i
+/es satt.{1,10}allein zu sein/i
 
 /ich bin.{1,10}jahre alt.{1,10}ich bin kinderlos/i
 /ich bin eine.{1,10}attraktive person/i
@@ -417,8 +418,9 @@
 /ich bin sehr einsam/i
 /ich sehe.{1,10}wir wohnen in der nähe/iu
 
-/sie ein lediger mann/i
+/sie ein (lediger|nicht verheirateter) mann/i
 /suchst du liebe.{1,10}ich auch/i
+
 /richtig geil hart/i
 /geile ficksau/i
 /buddy.?anfrage/i

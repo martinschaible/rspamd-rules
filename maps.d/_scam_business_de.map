@@ -15,7 +15,7 @@
 /beide seiten.{1,10}vorteilhaften.{1,10}geschäfts.?vorschlag/iu
 
 /geschäft.{1,10}für sie.{1,10}kontaktieren sie mich/iu
-/geschäft.{1,10}im wert von.{1,15}millionen.{1,10}zu besprechen/iu
+/geschäft.{1,10}im wert von.{1,15}(millionen|mio).{1,10}(von dem ich|zu besprechen)/iu
 
 /geschäft.{0,5}(angebot|vorschlag).{1,10}ich mit ihnen teilen/i
 /geschäft.{0,5}(angebot|vorschlag).{1,10}im wert von.{1,10}millionen.{1,10}(dollar|euro?|gbp|usd)/i
@@ -33,6 +33,7 @@
 /ich habe.{1,10}ein.{1,15}geschäft für sie/iu
 /ich habe.{1,10}ein.{1,15}geschäfts{0,5}(angebot|vorschlag)/iu
 /ich habe.{1,10}ein.{1,15}geschäfts?.{1,15}das ich.{1,10}mit ihnen/i
+/ich habe.{1,10}ein.{1,10}dringendes geschäft/iu
 
 /ich habe.{1,10}ein.{1,15}vorschlag.{1,10}der für uns von vorteil/i
 
