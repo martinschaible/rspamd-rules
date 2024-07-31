@@ -153,6 +153,7 @@
 # DHL
 # Real sender: "DHL Paket"
 /paket.?team/i
+/lieferung - dhl/i
 
 # DPD
 /dpd.{0,5}deutschland/i
