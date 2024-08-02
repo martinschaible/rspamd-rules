@@ -60,6 +60,7 @@
 /sicherheit.{1,10}(bestätigen|) sie ihre/iu
 /sicherheits.?(aktualisierung|update).{1,10}ihr.{1,15}(konto|profil)/i
 /sicherheitsüberprüfung ihres kontos.{1,15}erforderlich/iu
+/sicherheitswarnung.{1,10}konto gesperrt/i
 
 /bestätigung ihrer konto.?informationen erforderlich/iu
 
@@ -161,6 +162,8 @@
 
 # Banking
 # ------------------------------------------------------------------------------
+/bank.?konto.{1,10}erforderlich/i
+
 /ihre.{1,10}karte ist gesperrt/i
 /ihre.{1,10}daten sind veraltet/i
 
@@ -213,6 +216,9 @@
 /aktualisierung ihres.{1,20}authentifizierungsdienstes/i
 /sehr geehrter kunde.{1,20}authentifizierungsdienst/i
 /authentifizierungsdienst.{1,15}(banking|erforderlich)/i
+
+# Phone
+/telefonnummer für ihr.{1,20}konto/i
 
 # Parcel
 # ------------------------------------------------------------------------------

@@ -51,7 +51,9 @@
 
 /just transfer.{1,10}usd.{1,15}to (bitcoin|btc)/i
 
-/transfer me.{1,10}us dollars.{1,10}in bitcoin equivalent/i
+/transfer.{1,10}(us dollars|usd).{1,10}in bitcoin equivalent/i
+/transfer.{1,10}(us dollars|usd).{1,10}to my bitcoin wallet/i
+
 /transfer to my.{1,10}account.{1,10}after the transaction/i
 
 /you.{1,10}need to transfer.{1,15}(dollars|usd).{1,15}(bitcoin|btc)/i
@@ -68,6 +70,7 @@
 
 # Unclassified
 # ------------------------------------------------------------------------------
+/hello pervert/i
 
 # Masked
 # ------------------------------------------------------------------------------

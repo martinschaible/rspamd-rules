@@ -19,6 +19,7 @@
 /business.{1,15}(partnership|relationship)? with you.{1,15}in your country/i
 
 /business.{1,15}agreement to discuss/i
+/business.{1,10}plan.{1,10}i want to share with you/i
 /business.{1,15}request for you.{1,10}stand as.{1,10}partner/i
 
 /obligation.{1,10}i would like us to complete/i
@@ -83,6 +84,7 @@
 
 /share.{1,10}(business|investment).{1,15}(opportunity|proposition|proposal|transaction) with you/i
 /share.{1,10}with you.{1,15}business.{1,10}insights/i
+/share.{1,10}with you.{1,10}if you are interested.{1,10}reply/i
 /share.{1,10}with you.{1,15}(pending|remunerative).{1,15}business/i
 
 /secret private business/i

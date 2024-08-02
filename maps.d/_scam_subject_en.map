@@ -24,7 +24,7 @@
 # Beneficiary
 # ------------------------------------------------------------------------------
 /(attn|attention|congratulations|dear|hello|my|you).{1,20}beneficiary/i
-/beneficiary.{1,15}e?.?mail/i
+/beneficiary.{1,15}(e?.?mail|final|notice)/i
 
 # Big numbers
 # ------------------------------------------------------------------------------
@@ -39,6 +39,7 @@
 # Claim
 # ------------------------------------------------------------------------------
 /attention.{1,10}claim/i
+/claim your.{1,10}/\d{3}.{0,5}\d{3}/i
 
 # Donation
 # ------------------------------------------------------------------------------
@@ -196,6 +197,8 @@
 /i know that you are.{1,10}pedophile/i
 /i recorded you/i
 /my perverted friend/i
+
+/you have been hacked/i
 
 #
 #
