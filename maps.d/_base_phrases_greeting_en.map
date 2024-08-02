@@ -143,7 +143,7 @@
 /(hello|hi).{1,10}potential partner/i
 /(hello|hi).{1,10}respected sir/i
 /(hello|hi).{1,10}sir.{1,10}we (sell|want)/i
-/(hello|hi).{1,10}valued customer.{1,10}(good day|how are you)/i
+/(hello|hi).{1,10}valued customer.{1,10}(good day|how are you|this is)/i
 
 /hi.{1,5}dear.{1,10}this is.{5,25}from/i
 /hi.{1,5}greetings.for.the.day/i
