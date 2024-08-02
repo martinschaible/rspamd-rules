@@ -586,6 +586,7 @@ letzter gewinner/i
 /wichtiger hinweis zu.{1,10}swisspass/i
 
 /(ihr|lhr).{1,10}(swiss)?.?pass (ist|wurde).{1,20}(deaktiviert|nicht mehr gültig)/iu
+/(ihr|lhr).{1,10}(swiss)?.?pass wurde vorübergehend gesperrt/iu
 
 /ihre ticketrückerstattung wurde akzeptiert/iu
 /sie haben eine ticketrückerstattung/iu
@@ -622,6 +623,7 @@ letzter gewinner/i
 
 /neue nachricht.{1,10}neues update/i
 
+/ihre gelder sind gefährdet/iu
 /ihre.{1,10}telefonnummer ist nicht.{1,15}gültig/iu
 /sie sich mit dieser e.?mail/i
 
