@@ -16,5 +16,8 @@
 #
 /swisspost@/i
 
+# Sample: ups@googlegroups.com
+/ups@[a-z]{5,25}\.com/i
+
 # Sample: no-reply@jovial-napier.84-247-11-185.plesk.page>
 /\d{2,3}-\d{2,3}-\d{2,3}-\d{2,3}\.plesk\.page/i
