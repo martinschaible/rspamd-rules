@@ -12,6 +12,8 @@
 /sie haben.{1,10}nicht zugestellte wichtige.{1,10}(e?.?mails|nachrichten)/i
 /sie haben.{1,10}ausstehende.{1,15}(e?.?mails|nachrichten)/i
 
+/laden sie ausstehende.{1,10}(e?.?mails|nachrichten).{1,10}herunter/i
+
 #
 #
 #
@@ -27,6 +29,8 @@
 
 # Out of diskspace
 # ------------------------------------------------------------------------------
+/(e?.?mails|nachrichten).{1,10}konnten aufgrund unzureichenden speicherplatzes nicht/i
+
 /postfach ist.{1,10}voll.{1,15}aktualisieren sie ihr/i
 
 # Threatening deleting EMail Account
