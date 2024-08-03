@@ -122,20 +122,21 @@
 
 # Dead Customers, Family Members
 # ------------------------------------------------------------------------------
-/(my|our).{1,10}(deceased|late).{1,10}(client|customer|husband).{1,10}left (some|you) money/i
-/(my|our).{1,10}(deceased|late).{1,10}(client|customer|husband).{1,10}(major|mrs?)/i
-/(my|our).{1,10}(deceased|late).{1,10}(client|customer|husband).{1,10}made a deposit/i
-/(my|our).{1,10}(deceased|late).{1,10}(client|customer|husband).{1,10}with no next of kin/i
-/(my|our).{1,10}(deceased|late).{1,10}(client|customer|husband).{1,15}will be of interest/i
+/(my|our).{1,10}(deceased|late).{1,10}(client|customer|husband|relative).{1,10}left (some|you) money/i
+/(my|our).{1,10}(deceased|late).{1,10}(client|customer|husband|relative).{1,10}(major|mrs?)/i
+/(my|our).{1,10}(deceased|late).{1,10}(client|customer|husband|relative).{1,10}made a deposit/i
+/(my|our).{1,10}(deceased|late).{1,10}(client|customer|husband|relative).{1,10}with no next of kin/i
+/(my|our).{1,10}(deceased|late).{1,10}(client|customer|husband|relative).{1,15}will be of interest/i
 
-/(my|our).{1,10}(deceased|late).{1,10}(father|husband).{1,10}diverted this funds?/i
-/(my|our).{1,10}(deceased|late).{1,10}(father|husband).{1,10}left me with/i
+/(my|our).{1,10}(deceased|late).{1,10}(father|husband|relative).{1,10}diverted this funds?/i
+/(my|our).{1,10}(deceased|late).{1,10}(father|husband|relative).{1,10}left me with/i
 
-/retrieve my late father funds/i
+/retrieve my.{1,10}(deceased|late).{1,10}(father|husband|relative) funds/i
 
 /assist me in moving out late/i
 
-/your late relative.{1,10}who left behind/i
+/your.{1,10}(deceased|late).{1,10}(father|husband|relative).{1,10}who left behind/i
+/your.{1,10}(deceased|late).{1,10}(father|husband|relative).{1,15}you.{1,15}(confidentially|confirm)/i
 
 # Next Of Kin
 # ------------------------------------------------------------------------------
