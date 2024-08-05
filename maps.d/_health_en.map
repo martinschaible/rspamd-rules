@@ -194,6 +194,8 @@
 /discover.{1,15}secret here/i
 /discover.{1,15}life.?changing.{1,10}here/i
 
+/(discover|liquid|natural|unusual).{1,10}(breakfast|detox|second|water).{1,10}ritual/i
+
 /discovered.{1,10}new.{1,10}second/i
 /discovered.{1,15}plant that target/i
 /discreet.{1,10}revolutionary solution/i
@@ -245,19 +247,17 @@
 /this.{1,10}life.?changing.{1,10}technique/i
 
 #
-/whistleblowing doctor/i
-
 /bottle of this revolutionary/i
 
 /check out this.{1,10}amazing.{1,10}(mineral|solution)/i
-/click here.{1,15}(discover.{1,15}amazing|to reveal)/i
+
+/click here.{1,15}to reveal/i
+/click here.{1,15}(discover|uncover).{1,15}(amazing|secret|yellow)/i
 
 /eat.{1,10}this incredible.{1,10}superfood/i
 
 /follow this recently discovered/i
 /(found|useing).{1,10}hidden secret/i
-
-/university.{1,10}made.{1,10}shocking discovery/i
 
 /jaw.?dropping.{1,10}recent.{1,10}discovery/i
 
@@ -267,20 +267,23 @@
 /morning trick gives/i
 /morning water trick/i
 
-/people have.{1,15}tried this.{1,10}amazing trick/i
-/shocking discovery reveals/i
-/simple.{1,10}second.{1,10}(hack|method|protocol|stretch)/i
-
-/secret.{1,10}click here to discover/i
 /revolutionary formula.{1,10}designed.{1,10}provide/i
 /reveals secret survival plan/i
+
+/people have.{1,15}tried this.{1,10}amazing trick/i
+
+/secret.{1,10}click here to discover/i
+/shocking discovery reveals/i
+/simple.{1,10}second.{1,10}(hack|method|protocol|stretch)/i
 
 /trick takes less than.{1,10}seconds/i
 /try this.{1,10}second.{1,15}at home/i
 
-/(see here|this).{1,10}(breakthrough|minute|second).{1,15}(discovery|hack|method|ritual|trick)/i
+/university.{1,10}made.{1,10}shocking discovery/i
 
-/with (a|this).{1,10}(miraculous|revolutionary) (trick|solution)/i
+/(see here|this|with).{1,10}(breakthrough|miraculous|minute|revolutionary|second).{1,15}(discovery|hack|method|ritual|solution|trick)/i
+
+/whistleblowing doctor/i
 
 # Ritual
 /ritual that will boost/i
@@ -288,7 +291,6 @@
 /second ritual.{1,10}that keeps/i
 /add.{1,10}this simple.{1,10}second ritual/i
 
-/(discover|liquid|natural|unusual).{1,10}(breakfast|detox|second|water).{1,10}ritual/i
 
 #
 #

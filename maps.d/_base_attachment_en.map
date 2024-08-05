@@ -197,6 +197,8 @@
 /(bank|payment|remittance).{0,5}(advice|copy|details?|receipt|rfq|slip).{0,15}.(7z|doc|gz|htm|r11|rar|tgz|xla|xls|zip)/i
 /(confirmation|payment|remittance).{0,5}\.(7z|doc|gz|htm|r11|rar|tgz|xla|xls|zip)/i
 
+/bank.?info.{0,5}\.(7z|doc|gz|htm|r11|rar|tgz|xla|xls|zip)/i
+
 /payment.{0,5}scan.{0,5}\.z/i
 /payment.?confirmation.?notice.?\.pdf/i
 
