@@ -101,6 +101,8 @@
 /(confirm|verify).{1,10}your.{1,10}(account|e?.?mail).{1,10}switch to.{1,10}new version/i
 /(confirm|verify).{1,10}your.{1,10}(account|e?.?mail).{1,10}to enable/i
 
+/to continue using your address.{1,15}@/i
+
 /receiving.{1,10}e?.?mail.{1,10}if not verified within/i
 
 /your.{1,10}e?.?mail.?password.{1,10}(kindly|please).{1,10}(confirm|verify)/i
