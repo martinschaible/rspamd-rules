@@ -26,8 +26,8 @@
 /search.?engine.{1,10}i came across your web.?site/i
 
 /boost in your search ranking/i
-/boost your seo.?rank/i
-/boost yourweb.?site.{1,10}ranking/i
+/boost your.{1,10}seo.?(effort|rank)/i
+/boost your.{1,10}web.?site.{1,10}ranking/i
 /(boost|rank) your.{1,15}web.?site.{1,10}(on the top|ranking|traffic)/i
 
 /increase search engine rankings/i
@@ -112,7 +112,7 @@
 
 /seo.{1,15}saw that your web.?site/i
 
-# SEO, Google
+# Google
 # ------------------------------------------------------------------------------
 /(1st.?page|get top position|on page one).{1,10}(bing|google|yahoo)/i
 /1st.?page (listings|ranking).{1,15}(bing|google|yahoo)/i
@@ -142,7 +142,7 @@
 /google maps.{1,10}we can help you/i
 /your company.{1,10}google maps/i
 
-# SEO, Reputation
+# Reputation
 # ------------------------------------------------------------------------------
 /improve.{1,10}reputation.{1,10}google search/i
 
@@ -150,21 +150,25 @@
 
 /our ahrefs.{1,10}domain.?rating/i
 
-# SEO, bad strategies
+# Bad strategies
 # ------------------------------------------------------------------------------
 /(seo|our) guest postings?/i
 /guest posting services/i
 /your guest post price/i
 
-# SEO, Links
+# Links
 # ------------------------------------------------------------------------------
 /we will investigate each link/i
 /noticed.{1,15}percentage.{1,10}toxic links/i
 
 /domain rating links right here/i
 
-# SEO, India
+# India
 # ------------------------------------------------------------------------------
+
+# Wikipedia
+# ------------------------------------------------------------------------------
+/professional wikipedia writer/i
 
 #
 #
