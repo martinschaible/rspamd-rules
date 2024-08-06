@@ -157,7 +157,6 @@
 /wichtige mitteilung.{1,10}aktualisieren sie ihre/i
 
 #
-/bestätigen sie ihre telefonnummer/iu
 /dringende mitteilung.{1,10}bitte bestätigen/iu
 
 # Banking
@@ -218,7 +217,11 @@
 /authentifizierungsdienst.{1,15}(banking|erforderlich)/i
 
 # Phone
-/telefonnummer für ihr.{1,20}konto/i
+/telefon.?nummer aktualisieren.{1,10}erforderlich/i
+/telefon.?nummer ist nicht.{1,15}gültig/iu
+/telefon.?nummer für ihr.{1,20}konto/i
+
+/bestätigen sie ihre telefon.?nummer/iu
 
 # Parcel
 # ------------------------------------------------------------------------------
@@ -627,7 +630,6 @@ letzter gewinner/i
 /neue nachricht.{1,10}neues update/i
 
 /ihre gelder sind gefährdet/iu
-/ihre.{1,10}telefonnummer ist nicht.{1,15}gültig/iu
 /sie sich mit dieser e.?mail/i
 
 /profilaktualisierung erforderlich/i

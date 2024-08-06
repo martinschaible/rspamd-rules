@@ -116,7 +116,7 @@
 /your.{1,15}(company|name).{1,15}while browsing.{1,15}google/i
 
 /your (contact|e?.?mail|information).{1,20}from.{1,15}africa exchange/i
-/your (contact|e?.?mail|information).{1,20}from.{1,15}data.?base/i
+/your (contact|e?.?mail|information).{1,20}from.{1,15}(data.?base|research.?team)/i
 /your (contact|e?.?mail|information).{1,20}from.{1,10}google/i
 /your (contact|e?.?mail|information).{1,20}from.{1,15}countries.{1,20}business/i
 /your (contact|e?.?mail|information).{1,20}from.{1,15}one of the.{1,15}directories/i

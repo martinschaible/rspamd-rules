@@ -181,6 +181,7 @@
 /my name is.{5,25}an employee of/i
 /my name is.{1,25}barr(\.|ister)/i
 /my name is.{1,30}(attorney|business|consultant|investment|investor|politician|private|us soldier)/i
+/my name is.{1,30}chief procurement officer/i
 /my name is.{1,25}(dr\.|sir)/i
 /my name is.{1,25}(mrs?|ms).{5,25}from/i
 /my name is.{1,25}international.{1,10}(fund|trust)/i
@@ -220,8 +221,9 @@
 /(hello|hi).{1,10}greetings.{1,10}my name is/i
 
 /hello dear.{5,25}we are interested/i
-
+/hello.{1,10}my name is dr/i
 /hello.{1,10}our names are/i
+
 /how are you doing.{1,10}my name is/i
 
 /(dear.{1,10}friend|good day|greetings).{1,10}my name (again|is)/i
