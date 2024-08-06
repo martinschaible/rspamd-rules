@@ -110,7 +110,7 @@
 # A to H
 /(ace|aldi|autozone|costco|cvs|delta|dewalt|epson|harbor.?freight|home.?depot).{0,25}(clearances?|confirmation|coupon|delivery|deals|department|feedback|gift.?card|giveaways?|opinion|renewal|rewards?|shipping|shipment|shopper|surprise|unlocked|values||winner)/i
 # K to Z
-/(kobalt|kohls|lowe.?s|milwaukee|netflix|paypal|peacock|phone|sam.?s.?club|stanley|staples|target|temu|ups|verizon|walmart).{0,15}(clearances?|confirmation|coupon|department|deals|delivery|feedback|gift.?card|giveaways?|opinion|renewal|rewards?|shipping|shipment|shopper|surprise|unlocked|values|winner)/i
+/(kobalt|kohls|kroger|lowe.?s|milwaukee|netflix|paypal|peacock|phone|sam.?s.?club|stanley|staples|target|temu|ups|verizon|walmart).{0,15}(clearances?|confirmation|coupon|department|deals|delivery|feedback|gift.?card|giveaways?|opinion|renewal|rewards?|shipping|shipment|shopper|surprise|unlocked|values|winner)/i
 
 /(netflix|peacock).?(loyalty|membership)/i
 /pittsburgh.?tool.?set/i

@@ -14,7 +14,7 @@
 /(climax|erectile|libido)/i
 
 /enhancement.?gummie?s/i
-/(male|penis).?(enhancement|enlargement|growth)/i
+/(male|men|penis).?(enhancement|enlargement|growth|increase)/i
 /manhood/i
 /mens?.?(only|power)/i
 
@@ -36,7 +36,7 @@
 /penis.?(muscle|ritual)/i
 /p\*nis/i
 
-/(increase|enhance) your size/i
+/(increase|enhance).{0,10}(stamina|size)/i
 /bedroom.?secrets?/i
 
 /(hard|iron).{0,10}erection/i
@@ -138,7 +138,7 @@
 
 # Memory
 /memory.?(booster|cure|hack|improver|improvement|loss)/i
-/(excellent|future|your).?memory/i
+/(excellent|future|sharp|your).?memory/i
 
 # Anti Aging
 # ------------------------------------------------------------------------------
@@ -206,6 +206,7 @@
 # ------------------------------------------------------------------------------
 /diabetes/i
 
+/end.?type.?2/i
 /sugar.?(disease|levels?|spikes?)/i
 /(high|stop).?insuline?/i
 /hidden.?protein/i
@@ -346,7 +347,7 @@
 # Liver
 # ------------------------------------------------------------------------------
 /(dying|fatty|your).?liver/i
-/liver.?health/i
+/liver.?(health|renew)/i
 /liv.?pure/i
 
 # Lung
@@ -483,6 +484,11 @@
 # Medication, Pills
 # ------------------------------------------------------------------------------
 /top.?medication/i
+
+# Prescription
+# ------------------------------------------------------------------------------
+/prescription.?free/i
+
 #
 #
 #
@@ -516,6 +522,7 @@
 /circulaxil/i
 /cystenon/i
 /detoxil/i
+/erexol/i
 /greeny.?slim/i
 /hondofrost/i
 /liba/i
@@ -528,6 +535,7 @@
 /prostanol/i
 /prostovit/i
 /psoryden/i
+/removio/i
 /stinafil/i
 /spray.?x/i
 /suromexil/i
@@ -567,6 +575,7 @@
 /(exotic|natural).?herb/i
 /fried.?chicken/i
 /healthy.?power/i
+/hidden.?toxin/i
 /home.?(treatment|with ease)/i
 /make your own/i
 /morning.?(drink|mistake)/i
