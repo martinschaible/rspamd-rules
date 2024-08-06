@@ -76,6 +76,7 @@
 
 # Silly Headlines
 # ------------------------------------------------------------------------------
+/achieve.{1,10}financial greatness/i
 /blast off to financial freedom/i
 /business development for/i
 /conquer the investment/i
@@ -83,14 +84,15 @@
 /experience unparalleled growth/i
 /(fast.?track|grow|harmonize|secure) your wealth/i
 /financial prosperity awaits/i
-/invest (boldly|in the winning)/i
-/invest with (conviction|confidence)/i
+/invest.{1,10}(boldly|in the winning)/i
+/invest.{1,10}(conviction|confidence)/i
 /(investment|success).{1,15}act now/i
 /landscape.{1,10}profitable investments/i
 /navigate the investment/i
 /secure your investments/i
 /uncover hidden opportunities/i
-/unlock potential with.{1,15}investments/i
+/unlock.{1,10}potential with.{1,15}investments/i
+/unlock.{1,10}secrets.{1,10}wealth/i
 /unlock your.{1,15}success/i
 /opportunity.{1,10}secure investments/i
 /power of strategic investing/i
