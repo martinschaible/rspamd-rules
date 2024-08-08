@@ -156,7 +156,7 @@
 
 # Fedex
 /fedex.{0,15}(fedex|helpdesk|support)/i
-/fedexexpress/i
+/fedex.?express/i
 
 # Federal Reserve Bank
 /federal reserve bank/i
@@ -178,6 +178,7 @@
 
 # PayPal
 /paypal.?(case.?id|support)/i
+/service.{0,10}paypal/i
 
 # Spotify
 /s p o t i f y/i

@@ -279,6 +279,7 @@ grill.{1,10}statt.{1,10}nur/i
 /(ampel|sonnen|terrassen).?schirme.{1,20}(eleganz|garten|geschmack|jeden|jetzt|schutz)/i
 /(ampel|sonnen|terrassen).?schirme.{1,20}(preiswert|sonderangebot|sonderkondition|sonderpreis|vorteilpreis)/i
 /(ampel|sonnen|terrassen).?schirme.{1,20}meter/i
+/(ampel|sonnen|terrassen).?schirme.{1,20}nur.{1,10}\d{2,3}/i
 
 /regen.{1,10}(ampel|sonnen|terrassen).?schirme/i
 
@@ -293,8 +294,8 @@ grill.{1,10}statt.{1,10}nur/i
 /tragbaren.{1,10}hochgeschwindigkeits.?wlan.?router/i
 /diese japanische erfindung/i
 
-/holen sie sich wlan/i
-/jederzeit wlan/i
+/holen sie sich.{1,10}wlan/i
+/(ihr eigenes|jederzeit).{1,10}wlan/i
 
 #
 #
