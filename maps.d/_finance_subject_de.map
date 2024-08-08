@@ -30,7 +30,7 @@
 /projekte?.{1,10}kreditfinanzierung/i
 
 /(darlehen|kredit).{1,10}(dringend|für \d|mit.{1,10}zinssatz|zu)/iu
-/(darlehen|kredit).{1,15}loan/i
+/(darlehen|kredit).{1,15}(interest rate|loan)/i
 /(finanz|darlehen|kredit).{0,10}(angebot|möglichkeiten)/iu
 
 /(benötigen|brauchen|erhalten) sie.{1,15}(finanz|darlehen|kredit)/i

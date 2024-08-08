@@ -11,7 +11,6 @@
 
 # Fake Chambers of commerce
 # ------------------------------------------------------------------------------
-/wichtiger hinweis.{1,10}ihre unternehmensdaten/i
 /ihre unternehmensdaten sind nicht mehr aktuell/i
 
 # Accounts
@@ -123,8 +122,6 @@
 /wir haben ihre id.{1,20}gesperrt
 /wir ihr konto eingeschränkt/iu
 
-/wichtige mitteilung.{1,10}ihr.{1,15}konto/i
-
 /zahlungserinnerung.{1,10}konto wird gesperrt/i
 /zugriff auf ihr.{1,15}konto wurde eingeschränkt/iu
 /zu ihrer sicherheit haben wir ihr.{1,15}konto/i
@@ -154,8 +151,6 @@
 /aktualisierung.{1,10}erforderlich.{1,10}konto/i
 /verifizierung ihres.{1,15}kontos (erforderlich|jetzt)/i
 
-/wichtige mitteilung.{1,10}aktualisieren sie ihre/i
-
 #
 /dringende mitteilung.{1,10}bitte bestätigen/iu
 
@@ -178,9 +173,7 @@
 /sicherheits.?funktionen.{1,15}online.?transaktionen/i
 
 #
-/wichtige.{1,10}kundenbenachrichtigung/i
 /wichtige.{1,10}registrierung.{1,10}mastercard/i
-/wichtige.{1,10}sicherheitsmeldung.{1,15}banking/i
 /systemmeldung.{1,10}neue nachricht/i
 
 #
@@ -188,6 +181,13 @@
 
 # Twint
 /dienstes bei twint/i
+
+# Message
+# ------------------------------------------------------------------------------
+/wichtige.{1,10}kundenbenachrichtigung/i
+/wichtiger?.{1,5}(benachrichtung|hinweis|mitteilung|sicherheitsmeldung).{1,10}(banking|steuererstattung|unternehmensdaten)/i
+/wichtiger?.{1,5}(benachrichtung|hinweis|mitteilung|sicherheitsmeldung).{1,10}aktualisieren sie (ihren|ihre)/i
+/wichtiger?.{1,5}(benachrichtung|hinweis|mitteilung|sicherheitsmeldung).{1,10}ihr.{1,15}konto/i
 
 # New Systems, Security, Technology, TAN
 # ------------------------------------------------------------------------------
@@ -545,7 +545,6 @@ letzter gewinner/i
 
 # Tax
 # ------------------------------------------------------------------------------
-/wichtige mitteilung.{1,10}steuererstattung/i
 
 #
 #
@@ -622,6 +621,8 @@ letzter gewinner/i
 # ------------------------------------------------------------------------------
 /(dringend|wichtig).{1,10}aktualisierung ihrer/i
 /(dringend|wichtig).{1,10}registrieren sie sich jetzt/i
+/(dringend|wichtig).{1,10}zahlungsdetails/i
+
 /mahnung.{1,10}dringender handlungsbedarf/i
 
 /(handeln|handlung) erforderlich.{1,10}(dauernde|sperrung)/i
