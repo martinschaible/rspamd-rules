@@ -58,18 +58,22 @@
 /rechnung für.{1,20}(doppelt|zweimal).{1,10}(bezahlt wurde|erfolgt ist)/i
 
 /doppelte zahlung.{1,15}rechnung.{1,15}verursacht wurden/i
-/doppelt bezahlt wurde.{1,10}um eine rückerstattung/iu
-/doppelt in rechnung gestellt wurden?/i
+/doppelte zahlung.{1,10}verarbeitet wurde/i
 
-/(doppelt|zweimal).{1,10}(bezahlt wurde|erfolgt ist).{1,10}um eine erstattung zu beantragen/i
+/(doppelt|zweimal).{1,10}(bezahlt wurde|erfolgt ist).{1,10}um eine erstattung/i
+/(doppelt|zweimal).{1,10}in rechnung gestellt wurden?/i
+
 /doppelabrechnung für.{1,25}gibt/i
 
 /ihre rechnung doppelt bezahlt wurde/i
 /erstattung anfordern/i
+
+/rückerstattung beantragen/i
 /rückerstattungs.?link/iu
 
 /zurückerhalten.{1,10}indem sie unten klicken/iu
 
+/sicheren rückerstattungsprozess/iu
 /system aufgetreten ist.{1,10}der zu einer belastung/i
 
 /(link|sie ein).{1,15}eine rückerstattung zu (beantragen|erhalten)/iu
