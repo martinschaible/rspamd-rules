@@ -428,7 +428,8 @@
 /sie haben glück.{1,10}erhalten kostenlos/i
 
 /sie unsere.{1,10}umfrage/i
-/sie sind (teilnahmeberechtigt|zugelassen)/i
+/sie sind.{1,10}der gewinner unseres gewinnspiels/i
+/sie sind.{1,10}(teilnahmeberechtigt|zugelassen)/i
 /sie sich jetzt ihren?.{1,10}(belohnung|gutschein)/i
 /sie wurden für ein besonderes angebot/iu
 /sie wurden als empfänger eines.{1,15}preises/iu
@@ -541,8 +542,10 @@ letzter gewinner/i
 # ------------------------------------------------------------------------------
 /-abonnenment/i
 
+#/abonnement.{1,10}ist umgehendes handeln erforderlich/i
+/abonnement.{1,15}vorübergehend.{1,10}ausgesetzt/iu
+
 /überprüfung ihrer abonnementdetails/iu
-/ihr abonnement.{1,15}vorübergehend.{1,10}ausgesetzt/iu
 /musikdienst nicht ablaufen/i
 /wir wollen dich immer noch zurück/i
 
