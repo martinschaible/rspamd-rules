@@ -113,6 +113,10 @@
 /you bear the.{1,10}(family|last|sur).?name/i
 /you have the same.{1,10}(family|last|sur).?name/i
 
+# Sharing money
+# ------------------------------------------------------------------------------
+/we can split the fund in the ratio of/i
+
 # Trustworthy Person
 # ------------------------------------------------------------------------------
 /i am looking for.{1,10}trustworthy.{1,10}person outside/i
