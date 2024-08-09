@@ -126,7 +126,9 @@
 # ------------------------------------------------------------------------------
 /meinem verstorbenen kunden.{1,10}gehört/i
 /meinem verstorbenen kunden.{1,10}hinterlassenen geldes/i
-/mein verstorbener kunde verfügt über/iu
+
+/mein verstorbener (kunde|Mann).{1,10}verfügt über/iu
+/mein verstorbener (kunde|mann).{1,10}hat vor seinem tod.{1,10}(euro?|millionen|usd)/i 
 
 /(bezüglich|fonds meines|gehören einem).{1,10}verstorbenen kunden/iu
 /ich vertrete einen.{1,10}verstorbenen kunden/i
