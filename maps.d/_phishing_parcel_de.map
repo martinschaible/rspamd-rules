@@ -114,7 +114,10 @@
 /(paket|sendung).{1,10}das sich im.{1,15}(distributions|verteil).?zentrum befindet/i
 /(paket|sendung).{1,10}hat jetzt das zollamt erreicht/i
 /(paket|sendung).{1,10}ist in unserer.{1,15}postfiliale angekommen/i
+/(paket|sendung).{1,10}mit der bestellnummer/i
 /(paket|sendung).{1,10}zurzeit in unserem .{1,10}(distributions|verteil).?zentrum/i
+
+/poststelle eingetroffen ist.{1,10}sie es.{1,10}noch nicht erhalten/i
 
 # Pay Customs, Fees, VAT
 # ------------------------------------------------------------------------------
@@ -164,9 +167,10 @@
 /bestätigung der adresse.{1,10}der versandkosten/i
 
 /(be)?zahle die versandkosten.{1,10}um deine?.{1,10}(paket|sendung).{1,10}zu erhalten/i
-/(be)?zahlen sie die steuer.{1,10}ihre?.{1,10}(paket|sendung) wartet/i
-/(be)?zahlen sie die neuen versandkosten/i
-/(be)?zahlen sie die kosten für die rücksendung/iu
+/(be)?zahlen sie.{1,15}die steuer.{1,10}ihre?.{1,10}(paket|sendung) wartet/i
+/(be)?zahlen sie.{1,15}die neuen versandkosten/i
+/(be)?zahlen sie.{1,15}die kosten für die rücksendung/iu
+/(be)?zahlen sie.{1,15}wenn sie die versand.?details/i
 
 /es fällt eine geringe liefergebühr an/iu
 /es sind zusätzliche.{1,10}gebühren erforderlich/i
