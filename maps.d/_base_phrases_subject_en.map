@@ -144,7 +144,6 @@
 /you!!/i
 /\.\.\.\./i
 
-
 /are you still alive/i
 /get back to me/i
 /how is your name/i
@@ -166,6 +165,9 @@
 /g00dbye/i
 
 /--[a-z]{3,15}--/i
+# Sample: ~Darlehen~
+/~[a-z]{3,15}~/i
+
 
 /d o l l a r s/i
 /m i l l i o n/i

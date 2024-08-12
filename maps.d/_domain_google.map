@@ -37,3 +37,7 @@
 # I expect false positives.
 /https:\/\/storage\.googleapis\.com/i
 /\.storage\.googleapis\.com/i
+
+# No SSL
+# ------------------------------------------------------------------------------
+/http:\/\/google\.com/i
