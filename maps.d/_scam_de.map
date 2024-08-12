@@ -182,16 +182,18 @@
 
 # Illuminati
 # ------------------------------------------------------------------------------
-/illuminati.{1,10}(bruderschaft|familie)/i
+/(illuminaten|illuminati).{1,10}(bruderschaft|familie)/i
 
-/sie wurden ausgewählt.{1,15}(illuminati|illuminaten)/i
+/sie wurden ausgewählt.{1,15}(illuminaten|illuminati)/i
 
-/(bruderschaft|imperium|mitglied|willkommen).{1,15}illuminati/i
+/(bruderschaft|imperium|mitglied|willkommen).{1,15}(illuminaten|illuminati)/i
 
-/(weltordnung|welteliteimperium).{1,10}illuminaten/i
+/(weltordnung|welteliteimperium).{1,10}(illuminaten|illuminati) /i
 
-/treten sie den illuminaten bei/i
-/treten sie noch heute.{1,10}(bruderschaft|illuminati)/i
+/mitglied der neuen weltordnung/i
+
+/treten sie den (illuminaten|illuminati) bei/i
+/treten sie noch heute.{1,10}(bruderschaft|illuminaten|illuminati)/i
 
 # Templer
 # ------------------------------------------------------------------------------

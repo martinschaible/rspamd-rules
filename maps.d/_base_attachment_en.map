@@ -311,3 +311,7 @@
 
 /company.?profile\.html/i
 /salary.?details\.html/i
+
+# Sample: HSBC Advice_ACH_Credit_08122024.xls
+/advice.{4,10}credit/i
+

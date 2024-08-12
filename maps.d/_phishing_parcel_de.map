@@ -95,6 +95,7 @@
 /(paket|sendung).{1,10}noch auf die bearbeitung wartet/i
 /(paket|sendung).{1,25}noch auf ihre anweisung(en)? wartet/i
 /(paket|sendung).{1,15}wartet auf die.{1,10}(lieferung|zustellung)/i
+/(paket|sendung).{1,15}wartet auf sie/i
 /(paket|sendung).{1,15}welches kurz vor der.{1,10}(lieferung|zustellung) steht/i
 
 /(ihr|sie haben).{1,10}(ausgesetztes?|ausstehendes?).{1,10}(paket|sendung)/i
@@ -180,6 +181,7 @@
 /gebühr für einen erneuten zustellversuch/iu
 
 /ihre (nicht bezahlter|unbezahlter).{1,10}zollgebühren zu bezahlen/iu
+
 /lieferung aufgrund (nicht bezahlter|unbezahlter).{1,10}zollgebühren/iu
 
 /mwst.?zahlung.{1,10}sendungsinformationen/i
@@ -187,6 +189,7 @@
 /nicht bezahlter.{1,10}gebühren.{1,15}nicht versendet werden kann/iu
 /nicht bezahlt werden.{1,10}wird das paket zurückgeschickt/iu
 
+/sie müssen die zahlung (abschliessen|abschließen)/i
 /steuern.{1,10}abgaben nicht beglichen hat/i
 /service zusätzliche gebühren in höhe von.{1,15}anfallen/iu
 
