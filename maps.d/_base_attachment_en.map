@@ -295,7 +295,7 @@
 /(customer|contract|copies|office|receipt|reports?).{0,15}\.(html|zip/)i
 /details.?attached\.(html|zip/)i
 
-/investment\.(7z|doc|gz|htm|r11|rar|tgz|xls|zip)/i
+/(deposit|investment)\.(7z|doc|gz|htm|r11|rar|tgz|xls|zip)/i
 
 # Sample: "info@amelec.ch.html
 /@[a-z0-9]{3,15}\.(ch|de|org)\.html/i
@@ -314,4 +314,3 @@
 
 # Sample: HSBC Advice_ACH_Credit_08122024.xls
 /advice.{4,10}credit/i
-
