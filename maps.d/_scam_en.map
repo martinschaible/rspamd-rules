@@ -206,6 +206,12 @@
 
 /collecting briefmarken/i
 
+# Crypto recovering
+# ------------------------------------------------------------------------------
+/crypto.?recovery.{1,10}specialist/i
+
+/your.{1,10}crypto.?recovery via/i
+
 # Domain Registration
 # ------------------------------------------------------------------------------
 /we are.{1,10}network service company/i
