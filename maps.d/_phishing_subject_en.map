@@ -10,6 +10,9 @@
 /request for company.{1,20}(brochure|catalog|catalogue)/i
 /request for quotation.{1,10}rfq/i
 
+# Sample: inquiry info@amelec.ch
+/inquiry [a-z]{3,15}@/i
+
 /we are interested in your products?/i
 
 /price.?list.{1,10}(brochure|catalog|catalogue)/i

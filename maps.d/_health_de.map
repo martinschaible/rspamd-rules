@@ -14,6 +14,10 @@
 # Bladder
 # ------------------------------------------------------------------------------
 
+# Cleansing
+# ------------------------------------------------------------------------------
+/kleben sie.{1,10}pflaster einfach/i
+
 # Covid
 # ------------------------------------------------------------------------------
 /(corona|schnell).?tests?.{1,15}dieses.{1,10}jahr sichern/i
@@ -96,8 +100,10 @@
 # Miracle, Breaktrough, Secrets, Videos
 # ------------------------------------------------------------------------------
 /bahnbrechende formel.{1,10}entwickelt wurde/i
-/revolution.{1,10}behandlung der/i
 /geheime express.?methode/i
+
+/revolution.{1,10}behandlung der/i
+/revolutioniert.{1,10}das leben von millionen/i
 
 #
 #

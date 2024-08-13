@@ -40,6 +40,9 @@
 
 /sie ihre.{1,10}(kredit)?karte.{1,10}nicht bestätigt haben/iu
 
+#
+/ihre.{1,10}zahlungsfunktion ist gesperrt/i
+
 # Data no more valid
 # ------------------------------------------------------------------------------
 /ihre hinterlegten daten nicht mehr aktuell sind/i
@@ -101,6 +104,7 @@
 /eine.{1,10}prüfung ihrer.{1,10}telefon.?nummer vorzunehmen/i
 
 /reaktivieren.{1,20}sie ihre handy.?nummer/i
+/verifizieren sie ihre telefon.?nummer/i
 
 # Photo TAN
 /(photo|push).?tan.{1,10}(aktivierungsbrief|gesperrt wurde|ist da)/i
@@ -133,10 +137,11 @@
 /app informieren.{1,10}ihr schutz.{1,10}die sicherheit/iu
 /app erneut zu registrieren/i
 
+
 /aktivieren.{1,10}sie ein.{1,10}anwendungsupdate/i
 
-/banking.{1,15}app zu aktualisieren/i
-/sichere.{1,15}app aktualisieren/i
+/banking.?app wird in kürze ablaufen/iu
+/(banking|sichere).{1,15}app.{1,10}aktualisieren/i
 
 /verfahren aufgrund ungewöhnlicher aktivitäten deaktiviert wurde/iu
 
