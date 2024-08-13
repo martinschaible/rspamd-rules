@@ -43,6 +43,9 @@
 #         .xlxs (2).hTm"
 /\.xlxs.{1,10}\.(html?|zip)/i
 
+# Sample: _Payment.pdf    (3).htm
+/\.pdf.{1,10}\(\d\)\.htm/i
+
 # Triple Extension
 # ------------------------------------------------------------------------------
 /xls\.tar\.gz/i
@@ -123,7 +126,7 @@
 #         Quotation-010052013.xz
 #         Quotation -558240007300.zip
 /quotation.?(-|_)?[a-z0-9]{3,15}\.(xls|x?z|zip)/i
-/quotation\.(html?|xls|zip)/i
+/quotations?\.(7z|html?|xls|zip)/i
 
 # Sample: RFQ_No.8964502.gz
 /rfq.?no.?\d{4,10}\.(7z|doc|gz|htm|r11|rar|tgz|xla|xls|zip)/i
