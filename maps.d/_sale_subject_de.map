@@ -15,7 +15,7 @@
 /klima.?(anlage|geräte?).{1,20}(bestellen|einsatzbereit|jetzt|lieferbar|verfügbar)/i
 
 /jetzt.{1,15}klima.?(anlage|geräte?).{1,10}kaufen/i
-/(hitze|sommerhit|ventilatoren).{1,15}klima.?(anlage|geräte?)/i
+/(echtes?|hitze|lieferbar|sommerhit|ventilatoren).{1,15}klima.?(anlage|geräte?)/i
 
 /(mobilen?|mobiles?).{1,15}klima.?(anlage|geräte?)/iu
 
