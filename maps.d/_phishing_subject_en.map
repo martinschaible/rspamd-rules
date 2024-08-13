@@ -22,7 +22,7 @@
 /order request via/i
 /confirm po please/i
 
-/rfq.?oq/i
+/rfq.?(oq|request)/i
 /rfq#order/i
 
 # Accounts
@@ -93,7 +93,7 @@
 /life.?changing gift/i
 
 /you.{1,10}received.{1,10}target reward/i
-/
+/you have.{1,10}unread (e?.?mail|message) from/i
 
 # Companies, Products
 # ------------------------------------------------------------------------------

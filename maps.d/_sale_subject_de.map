@@ -17,8 +17,7 @@
 /jetzt.{1,15}klima.?(anlage|geräte?).{1,10}kaufen/i
 /(hitze|sommerhit|ventilatoren).{1,15}klima.?(anlage|geräte?)/i
 
-/mobilen?.{1,10}profi.?klimageräten?/iu
-/mobiles.{1,10}klimagerät/iu
+/(mobilen?|mobiles?).{1,15}klima.?(anlage|geräte?)/iu
 
 # Alcohol Tester
 # ------------------------------------------------------------------------------
