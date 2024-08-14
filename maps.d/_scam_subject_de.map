@@ -31,11 +31,11 @@
 
 # Donation
 # ------------------------------------------------------------------------------
-/investitions.?zuschuss/i
-/gewonnene.{1,10}spende/i
 /anspruch betrag/i
-
+/erhalten sie.{1,10}\d{2,3}.{1,10}\d{2,3}.{1,10}euro/i
+/gewonnene.{1,10}spende/i
 /fordern sie.{1,10}ihre spende an/i
+/investitions.?zuschuss/i
 
 /\d{2,3}.{1,10}\d{2,3}.{1,10}euro wurde ihnen/i
 /\d{2,3}.{1,10}\d{2,3}.{1,10}für sie/iu
