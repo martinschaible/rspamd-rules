@@ -87,6 +87,8 @@
 /(keep|stay).{1,10}the.{1,10}(current|existing|old|same).{1,10}pass.?word/i
 /(here|want).{1,10}to (keep|stay).{1,10}(same|the) password/i
 
+/keep password button/i
+
 # Silly Lies
 # ------------------------------------------------------------------------------
 /our security.?systems have detected.{1,10}unusual.{1,10}activity/i

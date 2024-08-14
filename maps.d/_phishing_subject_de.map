@@ -369,6 +369,8 @@
 
 # Winning, Present, Rewards
 # ------------------------------------------------------------------------------
+/kunden.?belohnung(en)?/i
+
 /(belohnung|gutschein).{1,10}(freigeschaltet|ist zum versenden|wartet sie)/i
 /antworten.{1,10}gewinnen/i
 
@@ -483,6 +485,8 @@ letzter gewinner/i
 /gerät genehmigt/iu
 
 /produkt kann nicht zugestellt werden/i
+
+/ausstehende sendung.{1,10}acer/i
 
 # AliExpress
 /erhalten sie.{1,10}aliexpress.{1,10}mystery.?box/i

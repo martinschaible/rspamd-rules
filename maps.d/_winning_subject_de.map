@@ -31,7 +31,7 @@
 # Winning
 # ------------------------------------------------------------------------------
 /gewinn!/i
-/gewinn.{0,5}(benachrichtigung|notifikation)/i
+/gewinn.{0,5}(benachrichtigung|mitteilung|notifikation)/i
 
 /gewinner.{1,15}bekannt.?gegeben/i
 /(geehrter|liebe).{1,10}gewinner/i
