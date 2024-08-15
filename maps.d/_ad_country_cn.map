@@ -463,9 +463,9 @@
 /we.{1,10}have focused.{1,10}manufacturing.{1,10}(pcba?|printed circuitboard)/i
 /we.{1,10}can help.{1,10}(pcba?|printed circuitboard)/i
 
-/we.{1,10}(offer|specialized?|specializing|provide).{1,10}(pcba?|printed circuit board).{1,10}(assembly|design|layers|production|products?|quick turn)/i
-/we.{1,10}(offer|specialized?|specializing|provide).{1,10}you with.{1,15}(pcba?|printed circuit board)/i
-/we.{1,10}(offer|specialized?|specializing|provide).{1,10}(pcba?|printed circuit board).{1,10}quick turn/i
+/we.{1,10}(offer|specialized?|specializing|produce|provide).{1,10}(pcba?|printed circuit board).{1,10}(assembly|design|layers|production|products?|quick turn)/i
+/we.{1,10}(offer|specialized?|specializing|produce|provide).{1,10}you with.{1,15}(pcba?|printed circuit board)/i
+/we.{1,10}(offer|specialized?|specializing||produceprovide).{1,10}(pcba?|printed circuit board).{1,10}(more than|quick turn)/i
 
 /we.?a?re.{1,10}(pcba?|printed circuit board).{1,25}manufacturer/i
 
@@ -507,6 +507,7 @@
 /provide freight.{1,10}logistics services/i
 /we.?a?re.{1,10}freight forwarding company/i
 
+/you cargo transportations from.{1,10}china/i
 /you have shipments from.{1,10}china/i
 /you need ship something from.{1,10}china/i
 

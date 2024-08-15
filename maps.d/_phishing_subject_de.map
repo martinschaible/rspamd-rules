@@ -377,6 +377,8 @@
 /sie sind der auserwählte/iu
 
 /bald ablaufend.{1,10}ihre/i
+
+/bestätige deine versanddetails/iu
 /bestätigen sie ihr geschenk/iu
 /bestätigung.{1,10}ausstehend.{1,10}sofortiger versand/i
 /bestätigung.{1,10}ihre bestellung zu (versenden|verschicken)/iu
@@ -410,7 +412,7 @@
 /gewinnen.{1,10}sie.{1,20}geschenkkarte/i
 
 /gewinner des brandneuen/i
-/gewinner bekannt gegeben/i
+/gewinner.{1,15}bekannt.?gegeben/i
 /gewinn innerhalb von.{1,10}stunden erhalten/i
 
 /gutscheine?.{1,10}im gesamtwert von/i
@@ -433,12 +435,14 @@
 /sie haben glück.{1,10}erhalten kostenlos/i
 
 /sie unsere.{1,10}umfrage/i
-/sie sind.{1,10}der gewinner unseres gewinnspiels/i
+/sie sind.{1,10}der gewinner (des|unseres).{1,10}(gewinnspiels|wettbewerbs)/i
 /sie sind.{1,10}(teilnahmeberechtigt|zugelassen)/i
 /sie sich jetzt ihren?.{1,10}(belohnung|gutschein)/i
+
 /sie wurden für ein besonderes angebot/iu
 /sie wurden als empfänger eines.{1,15}preises/iu
 
+/teilnehmen.{1,10}gewinnen/i
 /umfrage.?(belohnung|gutschein)/i
 /unsere.{1,10}glücklichsten/iu
 

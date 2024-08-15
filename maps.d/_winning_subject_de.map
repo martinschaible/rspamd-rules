@@ -33,12 +33,10 @@
 /gewinn!/i
 /gewinn.{0,5}(benachrichtigung|mitteilung|notifikation)/i
 
-/gewinner.{1,15}bekannt.?gegeben/i
 /(geehrter|liebe).{1,10}gewinner/i
 
 /letzter gewinner/i
 /sie haben.{1,10}\d{3}.{0,5}\d{3}.{1,15}gewonnen/i
-/sie sind einer der.{1,10}gewinner des.{1,10}wettbewerbs/i
 
 # 16.08. - 2 False/Positive
 /(ihr habt|sie haben).{1,10}gewonnen/i
