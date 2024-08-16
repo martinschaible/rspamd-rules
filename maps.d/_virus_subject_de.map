@@ -13,8 +13,9 @@
 
 # Alerts
 # ------------------------------------------------------------------------------
-/ihr.{1,10}(computer|gerät|system).{1,10}.{1,10}könnte gefährdet sein/iu
-/ihr.{1,10}(computer|gerät|system).{1,10}.{1,10}wurde mit.{1,10}viren infiziert/i
+/ihr.{1,10}(computer|gerät|system).{1,10}ist einer hohen sicherheitsbedrohung/iu
+/ihr.{1,10}(computer|gerät|system).{1,10}könnte gefährdet sein/iu
+/ihr.{1,10}(computer|gerät|system).{1,10}wurde mit.{1,10}viren infiziert/i
 
 /unser system hat viele auf ihrem.{1,15}vorhandene/i
 

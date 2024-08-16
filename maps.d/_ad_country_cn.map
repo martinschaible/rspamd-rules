@@ -241,6 +241,7 @@
 /(co|limited|ltd).{1,15}specializes in.{1,10}import/i
 /(co|limited|ltd).{1,15}we are leading.{1,15}professional/i
 /(co|limited|ltd).{1,15}we.{1,10}supplying/i
+/(co|limited|ltd).{1,10}which is specializing in/i
 /(co|limited|ltd).{1,10}with over.{1,10}years/i
 /(co|limited|ltd).{1,10}one of the top/i
 
@@ -411,6 +412,7 @@
 
 /we can handle.{1,10}injection.{1,10}mold(ing)?/i
 /we focus on.{1,10}injection.{1,10}mold(ing)?/i
+/we focus on.{1,10}rapid development of/i
 /we offer.{1,15}mold(ing)?.{1,10}plastics/i
 /we provide.{1,10}mold(ing)?.{1,10}manufacturing/i
 
