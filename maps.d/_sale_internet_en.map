@@ -17,7 +17,8 @@
 /contact details.{1,10}verified e?.?mail/i
 /contact.{1,10}targeted.{1,10}database.{1,10}verified/i
 
-/database.{1,10}targeted.{1,10}(business|residential)/i
+/(database|list).{1,10}targeted.{1,10}(business|residential)/i
+/(database|list).{1,10}top decision makers/i
 
 /(targeted|verified).{1,15}e?.?mail.{1,10}(databases?|leads?|verified)/i
 /(targeted|verified).{1,15}databases?.{1,10}businesses.{1,10}operating/i
@@ -29,6 +30,8 @@
 /get the best.{1,10}e?.?mail.{1,10}lists/i
 
 /lowest prices.{1,10}database.{1,10}e?.?mail.?addresses/i
+
+/you like to get.{1,10}direct.{1,10}contact.?list/i
 
 /you.{1,10}interested.{1,10}(acquiring|purchasing).{1,15}(attendees|registrants|visitors).{1,20}list/i
 /you.{1,10}interested.{1,10}(acquiring|purchasing).{1,10}the contacts of/i

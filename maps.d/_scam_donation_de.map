@@ -134,10 +134,11 @@
 /ihnen eine.{1,10}spende in höhe von.{1,20}(millionen|tausend|dollar|euro?|gbp|usd)/i
 /ihnen eine.{1,10}spende von.{1,15}(millionen|tausend|dollar|euro?|gbp|usd)/i
 
+/ihnen die familie.{5,25}gespendet/i
 /ihnen einen finanziellen zuschuss in höhe von/iu
 /ihnen im namen einer wohltätigkeits.?organisation/i
+/ihnen mitteilen.{1,20}dass sie für eine spende/iu
 /ihnen von (frau|herr).{5,25}gespendet/i
-/ihnen die familie.{5,25}gespendet/i
 
 /ihnen wurde.{1,20}spende in höhe von{1,20}(millionen|dollar|euro?|gbp|usd)/i
 /ihnen wurde.{1,20}(millionen|dollar|euro?|gbp|usd).{1,10}gespendet/i
