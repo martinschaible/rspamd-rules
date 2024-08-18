@@ -35,7 +35,7 @@
 /erhalten sie.{1,10}\d{2,3}.{1,10}\d{2,3}.{1,10}euro/i
 /gewonnene.{1,10}spende/i
 /fordern sie.{1,10}ihre spende an/i
-/investitions.?zuschuss/i
+/investitions?.{1,10}(spende|zuschuss)/i
 
 /\d{2,3}.{1,10}\d{2,3}.{1,10}euro wurde ihnen/i
 /\d{2,3}.{1,10}\d{2,3}.{1,10}für sie/iu
@@ -53,7 +53,7 @@
 /spende.{1,10}investitions.?programm/i
 /spende.{1,10}in höhe von/iu
 /spende.{1,10}von.{1,10}\d{2,3}.{1,10}\d{2,3}/i
-/spende.{1,10}von frau/i
+/spende.{1,10}von.{1,10}(btc|frau|herr)/i
 
 /(du hast|sie haben) eine.{1,10}spende/i
 

@@ -38,6 +38,7 @@
 
 /unclaimed benefit.{1,15}to you/i
 
+/you are eligible for.{1,10}(payment|payout)/i
 /you have just received.{1,10}payment of/i
 /your total sum of.{1,10}\d.?\d.?(m|million).{1,10}(dollar|euro?|gbp|usd)/i
 

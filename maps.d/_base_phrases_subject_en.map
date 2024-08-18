@@ -82,6 +82,8 @@
 
 # Confidential
 # ------------------------------------------------------------------------------
+/i have.{1,10}confidential information/i
+
 /(private|strictly|urgent).{1,10}confidential/i
 /confidential.{1,10}respond/i
 
