@@ -65,6 +65,7 @@
 # Donation
 # ------------------------------------------------------------------------------
 /spenden?.{1,10}\d{3}.{0,5}\d{3}.{1,10}an sie/i
+/spenden?.{1,10}anforderung.{1,10}wenden sie sich/i
 /spenden?.{1,10}annehmen.{1,10}antworten sie/i
 /spenden?.{1,10}antworten sie mit ihren/i
 
@@ -91,11 +92,10 @@
 /spenden?.{1,10}überlassen.{1,10}melden sie sich/iu
 
 /spende.{1,10}ist für sie und ihre familie/iu
+/spende.{1,10}zu erhalten.{1,10}bitte antworten sie/i
 
 /(spende|summe).{1,10}von.{1,10}millionen.{1,10}wurde ihnen/i
 /(spende|summe).{1,20}(leisten|zukommen).{1,15}kontaktieren sie (mich|uns)/i
-
-/spenden.?anforderung.{1,10}wenden sie sich/i
 
 /spendet sie an.{1,10}zufällige Personen/iu
 
