@@ -131,7 +131,9 @@
 # ------------------------------------------------------------------------------
 /ihr konto erfordert ihre aufmerksamkeit/i
 /ihre identität.{1,10}erneut bestätigen/iu
+
 /ihre informationen.{1,15}aktualisiert werden/i
+/ihre informationen.{1,10}zu aktualisieren/i
 
 /(bestätigung|datenupdate|verifizierung).{1,10}erforderlich/i
 /bestätigen sie.{1,10}ihre sicherheit/i
@@ -475,6 +477,8 @@
 # Stupid phrases
 /person hat noch nicht geantwortet/i
 /warten auf ihre genehmigung/i
+/(dein|ihr) name steht.{1,15}auf der liste/i
+/gewinner enthüllt/iu
 
 # Companies, Products
 # ------------------------------------------------------------------------------
@@ -626,6 +630,8 @@ letzter gewinner/i
 /sie haben eine ticketrückerstattung/iu
 
 /verbinde di mit dim konto/i
+
+/sbb ccf ffs/i
 
 # Swiss Police
 /die polizeiliche.{1,10}kommunikation/i
