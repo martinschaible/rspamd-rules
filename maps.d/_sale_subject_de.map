@@ -48,6 +48,7 @@
 /(büro|massage).?(stuhl|stühle).{1,15}(netto|statt)/iu
 /(büro|massage).?(stuhl|stühle).{1,15}(sonder|spezial).?preis/i
 /(büro|massage).?(stuhl|stühle).{1,15}für (nur|\d{3})/i
+/(büro|massage).?(stuhl|stühle).{1,15}mit.{1,10}bezug/i
 /(büro|massage).?(stuhl|stühle).{1,15}nur.{1,10}zzgl/i
 
 /leder.{0,10}(stuhl|stühle)/iu
@@ -59,6 +60,7 @@
 
 /(design|highlight|komfortabel|leder|office|premium|stilvolle|ultimativen|unsere|traum|walnussholz).{1,20}(büro|massage).?(sessel|stuhl|stühle)/iu
 /nur jetzt.{1,20}(büro|massage).?(sessel|stuhl|stühle)/iu
+/nur.{1,10}euro?.{1,20}(büro|massage).?(sessel|stuhl|stühle)/iu
 
 /(besucher|chef|dreh|leder|relax).{1,15}(sessel|stuhl)/i
 /(ergonomischer|mit dem|xxl).{1,15}(sessel|stuhl)/i

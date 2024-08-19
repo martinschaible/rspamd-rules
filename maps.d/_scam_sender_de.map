@@ -20,7 +20,8 @@
 # Solar energy
 # ------------------------------------------------------------------------------
 /pv.?anlage/i
-/solar.?förderung/iu
+/solar.?(förderung|vergleich)/iu
+/förder.?check/iu
 
 #
 #
