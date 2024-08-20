@@ -111,6 +111,9 @@
 # Sample: .com/23/837/6980/UxkNpcKM.jpg">
 /\.com\/\d{2}\/\d{3}\/\d{4}\/[a-z]{4,10}\.j/i
 
+# Sample: https://vc.dgnc7.shop/.ll/AB/#
+/\/\.[a-z]{2,10}/[a-z]{2,10}/#/i
+
 # URL's with exotic TLD
 # ------------------------------------------------------------------------------
 /\.(storage|tv)\/ipfs\//i

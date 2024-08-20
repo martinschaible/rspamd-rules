@@ -33,6 +33,7 @@
 /guten (abend|tag).{1,10}ich bin der/i
 /guten (abend|tag).{1,10}ich bin.{5,25}eine.{1,20}investor(in)?/i
 
+/guten (abend|tag).{1,10}mein freund/i
 /guten (abend|tag).{1,10}meine damen und herren/i
 /guten (abend|tag).{1,15}(damen|herren).{1,15}wie geht es dir/i
 /guten (abend|tag).{1,10}(geliebte|gewinner|mein lieber)/i
@@ -140,7 +141,7 @@
 /mein name ist.{5,25}geboren am/i
 /mein name ist.{5,25}von der.{1,15}(agentur|marketing)/i
 
-/mein name ist.{5,25}ich bin.{1,15}anwalt/i
+/mein name ist.{5,25}ich bin.{1,15}(anwalt|manager)/i
 /mein name ist.{5,25}ich bin eine?.{1,10}deutsch(er)?/i
 /mein name ist.{5,25}ich bin eine frau/i
 /mein name ist.{5,25}ich bin (das einzige kind|eine witwe)/i

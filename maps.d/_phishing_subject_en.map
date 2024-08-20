@@ -125,7 +125,7 @@
 
 # Subscriptions
 # ------------------------------------------------------------------------------
-/action required.{1,10}prevent account/i
+/action required.{1,10}(an upgrade for|prevent account)/i
 
 /subscription renewal.{1,10}payment due/i
 
