@@ -62,7 +62,7 @@
 /nur jetzt.{1,20}(büro|massage).?(sessel|stuhl|stühle)/iu
 /nur.{1,10}euro?.{1,20}(büro|massage).?(sessel|stuhl|stühle)/iu
 
-/(besucher|chef|dreh|leder|relax).{1,15}(sessel|stuhl)/i
+/(besucher|chef|dreh|leder|relax).{0,15}(sessel|stuhl)/i
 /(ergonomischer|mit dem|xxl).{1,15}(sessel|stuhl)/i
 
 #

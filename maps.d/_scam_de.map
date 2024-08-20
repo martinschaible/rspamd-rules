@@ -21,6 +21,10 @@
 # ------------------------------------------------------------------------------
 /sie um ihre unterstützung bei überweisung/iu
 
+# Award
+# ------------------------------------------------------------------------------
+/sie sind für den award.{1,35}nominiert/iu
+
 # Beneficiary
 # ------------------------------------------------------------------------------
 /aufmerksamkeit.{1,10}(begünstigten|frau|herr)/iu
@@ -154,7 +158,7 @@
 #
 #
 
-# Nomination, Awards
+# Nomination
 # ------------------------------------------------------------------------------
 /annahme ihrer nominierung/i
 /erinnerung an die nominierung/i
@@ -162,8 +166,6 @@
 /deutschen.{1,10}wirtschaftspreis.{1,10}aufgenommen/i
 
 /nominierungsfrist.{1,15}deutschen.{1,10}wirtschaftspreis/i
-
-/sie sind für den award.{1,35}nominiert/iu
 
 # Scam Victims
 # ------------------------------------------------------------------------------

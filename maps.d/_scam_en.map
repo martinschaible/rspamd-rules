@@ -12,6 +12,11 @@
 #
 #
 
+# Abandoned stuff
+# ------------------------------------------------------------------------------
+/consignment was abandoned/i
+/i discovered.{1,10}abandoned shipment/i
+
 # Assistance
 # ------------------------------------------------------------------------------
 /assist me.{1,10}sincerely.{1,10}confident/i
@@ -28,10 +33,20 @@
 /requesting your cooperation.{1,10}receive/i
 /this is.{1,10}urgent solicitation.{1,15}assistance/i
 
-# Abandoned stuff
+# Award
 # ------------------------------------------------------------------------------
-/consignment was abandoned/i
-/i discovered.{1,10}abandoned shipment/i
+/award winning.{1,10}notification/i
+/awarded to your.{1,10}e?.?mail/i
+
+/congratulations.{1,10}\d{3}.{0,5}\d{3}.{1,10}has been awarded to/i
+/european enterprise awards?/i
+/participate.{1,10}our global.?awards?/i
+/pending nomination for the.{1,20}awards?/i
+
+/you have been awarded.{1,10}\d{3}.{0,5}\d{3}/i
+/you have been awarded.{1,10}compensation/i
+
+/your.{1,15}stock awards?/i
 
 # Beneficiary
 # ------------------------------------------------------------------------------
@@ -162,19 +177,9 @@
 #
 #
 
-# Nomination, Awards
+# Nomination
 # ------------------------------------------------------------------------------
-/european enterprise awards/i
-
-/participate.{1,10}our global.?awards/i
-
-/pending nomination for the.{1,20}awards/i
-
 /the nominations team/i
-
-# Swiss Tourism Awards
-/excellence in tourism awarded in/i
-/candidate your destination here/i
 
 # Scam Victims
 # ------------------------------------------------------------------------------

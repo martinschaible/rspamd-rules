@@ -26,12 +26,9 @@
 /\d{3}.{0,5}\d{3}.{1,15}has been donated to you/i
 /\d{3}.{0,5}\d{3}.{1,15}(donation|donated) (for|to) you/i
 
-/you have been awarded.{1,10}\d{3}.{0,5}\d{3}/i
 /you have been selected.{1,10}receive.{1,15}(aid|benefit|financial|fund|donation)/i
 
 /you to receive.{1,15}(million|dollars?|euro?|gbp|usd).{1,15}donation/i
-
-/awarded to your.{1,10}e?.?mail.{1,10}as a.{1,15}donation/i
 
 /(donation|grant).{1,10}has been made to you/i
 /donation.?investment fund/i
@@ -92,9 +89,6 @@
 
 # Chosen
 /you.{1,10}been chosen.{1,10}receive.{1,20}donation/i
-
-# Congrats
-/congratulations.{1,10}\d{3}.{0,5}\d{3}.{1,10}has been awarded to/i
 
 # Donation, Companies
 # ------------------------------------------------------------------------------
