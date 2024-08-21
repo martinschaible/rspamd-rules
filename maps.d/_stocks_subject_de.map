@@ -9,8 +9,8 @@
 
 # Stocks
 # ------------------------------------------------------------------------------
-/aktien machen reich/i
-/ki aktien/i
+/aktien.{1,10}(machen reich|zum reichtum)/i
+/ki.?aktien/i
 
 #
 #
