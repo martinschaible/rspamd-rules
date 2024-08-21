@@ -61,7 +61,7 @@
 /guten tag.{1,10}meine damen und herren/i
 
 /(guten tag|sehr geehrter?) (frau|herr)/i
-/(guten tag|sehr geehrter?).{1,15}(begünstigter|empfänger|kunde)/iu
+/(guten tag|sehr geehrter?).{1,15}(begünstigter|e?.?mail.?eigentümer|empfänger|kunde)/iu
 
 /guten morgen.{1,10}mein.{1,15}freund/i
 
