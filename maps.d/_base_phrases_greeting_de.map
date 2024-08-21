@@ -177,6 +177,8 @@
 # ------------------------------------------------------------------------------
 /ich bin.{5,25}(der|die) gewinner(in)? des/i
 /ich bin.{5,25}die einzige tochter/i
+/ich bin.{5,25}ein schweizer staatsbürger.{1,10}der in dubai/i
+
 /ich bin (frau|herr).{5,25}ich (habe|leide)/i
 /ich bin (miss|sir)/i
 

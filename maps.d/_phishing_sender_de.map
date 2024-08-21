@@ -119,16 +119,19 @@
 /(ali.?express|aldi|apple|bahn|cuisine|connect).{0,15}(abteilung|angebot|bestätigung|code)/i
 /(ali.?express|aldi|apple|bahn|cuisine|connect).{0,15}(geschenke|gewinner|gutschein)/i
 /(ali.?express|aldi|apple|bahn|cuisine|connect).{0,15}(help.?desk|kontakt|sender|sendung|umfrage|versand|zustellung)/i
+/(ali.?express|aldi|apple|bahn|cuisine|connect).{0,15}kunde$/i
 
 # D to M
 /(declathon|deutsche.?bahn|dewalt|drogerie|edeka|fressnapf|kaufland).{0,15}(abteilung|angebot|bestätigung|code)/i
 /(declathon|deutsche.?bahn|dewalt|drogerie|edeka|fressnapf|kaufland).{0,15}(geschenke|gewinner|gutschein)/i
 /(declathon|deutsche.?bahn|dewalt|drogerie|edeka|fressnapf|kaufland).{0,15}(help.?desk|kontakt|sender|sendung|umfrage|versand|zustellung)/i
+/(declathon|deutsche.?bahn|dewalt|drogerie|edeka|fressnapf|kaufland).{0,15}kunde$/i
 
 # L to Z
 /(le.?creuset|lidl|media.?market|migros|otto|persil|rewe|temu).{0,15}(abteilung|angebot|bestätigung|code)/i
 /(le.?creuset|lidl|media.?market|migros|otto|persil|rewe|temu).{0,15}(geschenke|gewinner|gutschein)/i
 /(le.?creuset|lidl|media.?market|migros|otto|persil|rewe|temu).{0,15}(help.?desk|kontakt|sender|sendung|umfrage|versand|zustellung)/i
+/(le.?creuset|lidl|media.?market|migros|otto|persil|rewe|temu).{0,15}kunde$/i
 
 /kaufland.{0,5}#\d{1,10}/i
 /kauf\.land/i

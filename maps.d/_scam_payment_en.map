@@ -30,16 +30,17 @@
 /credit your account with the sum of/i
 
 /\d{2,3}.{0,5}\d{2,3}.{1,10}awaiting.{1,10}transferred.{1,10}your.{1,10}account/i
-/\d{2,3}.{0,5}\d{2,3}.{1,10}(dollar|euro?|gbp|usd).{1,10}your name/i
+/\d{2,3}.{0,5}\d{2,3}.{1,10}(dollar|euro?|gbp|pounds?|usd).{1,10}your name/i
 
 /(dollar|euro?|gbp|usd).{1,10}would be released to you/i
-/sum of.{1,15}million.{1,10}(dollar|euro?|gbp|usd).{1,10}to you/i
+/sum of.{1,15}million.{1,10}(dollar|euro?|gbp|pounds?|usd).{1,10}to you/i
 
 /unclaimed benefit.{1,15}to you/i
 
 /you are eligible for.{1,10}(payment|payout)/i
 /you have just received.{1,10}payment of/i
-/your total sum of.{1,10}\d.?\d.?(m|million).{1,10}(dollar|euro?|gbp|usd)/i
+/your total sum of.{1,10}\d.?\d.?(m|million).{1,10}(dollar|euro?|gbp|pounds?|usd)/i
+/your pending transfer of.{1,10}\d{2,3}.{0,5}\d{2,3}.{1,10}(dollar|euro?|gbp|pounds?|usd)/i
 
 #
 /we have deposited.{1,10}bank.?draft/i
