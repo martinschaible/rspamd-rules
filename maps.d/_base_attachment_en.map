@@ -173,6 +173,9 @@
 # Sample: INV_24627927_10132769_26.06.2024.zip
 /inv_\d{2,10}__\d{2,10}_\d{2}\.\d{2}\.\d{4}\.zip/i
 
+# Patterns
+/permanent.{0,10}order/i
+
 # Drawings
 # ------------------------------------------------------------------------------
 /drawing.{1,15}_\d\.gz/i
@@ -320,3 +323,6 @@
 
 # Sample: HSBC Advice_ACH_Credit_08122024.xls
 /advice.{4,10}credit/i
+
+# Sample: MD PERMANENTMETAL ORDER 000687452024.BZ2
+/\d{4,20\}\.bz/i

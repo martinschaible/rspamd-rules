@@ -62,8 +62,9 @@
 /i have decided to (donate|give).{1,10}\d{3}.{0,5}\d{3}.{1,15}million/i
 /i (have|made).{1,15}donation for you/i
 
-/i am donating to.{1,10}random individuals/i
-/i am donating to you.{1,10}\d{3}.{0,5}\d{3}/i
+/i.?a?m donating to.{1,10}random individuals/i
+/i.?a?m donating to you.{1,10}\d{3}.{0,5}\d{3}/i
+/i.?a?m donating.{1,10}million{1,10}(dollar|euro?|euros?|gbp|usd) to you/i
 
 /i give you.{1,10}\d{3}.{0,5}\d{3}.{1,10}(dollar|euro?|gbp|usd)/i
 /i (want|wish) to donate.{1,10}my last funds/i
