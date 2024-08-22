@@ -355,6 +355,7 @@
 
 /werkzeugset.{1,10}jetzt für nur/iu
 
+/sonderposten.{1,10}werkzeugset/i
 /\d{2,3}.?teiliges.{1,10}werkzeugset/i
 /netto.{1,10}komplett mit inhalt/i
 
@@ -363,7 +364,7 @@
 /(meter|patenter|sonnen).{1,10}ampelschirm/i
 /schirm.{1,10}ampelschirm/i
 
-/(ampel|sonnen).?schirme?.{1,10}alu mit/i
+/(ampel|sonnen).?schirme?.{1,10}(alu mit|verschiedenen farben)/i
 /(ampel|sonnen).?schirme?.{1,10}durchmesser.{1,10}nur.{1,10}statt/i
 
 # Vacuum Cleaner
