@@ -17,6 +17,7 @@
 # ETF (Exchange Traded Funds)
 # ------------------------------------------------------------------------------
 /etf.?(beratung|dividende|kenner|news)/i
+/beratung.?etf/i
 
 # Make Money
 # ------------------------------------------------------------------------------
@@ -24,7 +25,7 @@
 /investo(en)?.update/i
 /(bank(en)?|investment).?(beratung|berater|call.?center|fonds?)/i
 
-/geld verdienen/i
+/geld (strategien|verdienen)/i
 
 /lukrative.gelegenheit/i
 /ihr investment/i
@@ -39,6 +40,10 @@
 
 /alpen.?invest/i
 /ki.?aktien/i
+
+#
+/bundes.?nachrichten/i
+/n24.?news/i
 
 # Income
 # ------------------------------------------------------------------------------

@@ -626,9 +626,6 @@ letzter gewinner/i
 /(ihr|lhr).{1,10}(swiss)?.?pass (ist|wurde).{1,20}(deaktiviert|nicht mehr gültig)/iu
 /(ihr|lhr).{1,10}(swiss)?.?pass wurde vorübergehend gesperrt/iu
 
-/ihre ticketrückerstattung wurde akzeptiert/iu
-/sie haben eine ticketrückerstattung/iu
-
 /verbinde di mit dim konto/i
 
 /sbb ccf ffs/i
@@ -641,6 +638,11 @@ letzter gewinner/i
 
 # Swiss Goverment
 /steuererklärung.{1,10}wichtige anweisungen/iu
+
+# Swiss Railway
+/erstattungsticket akzeptiert/i
+/ihre ticketrückerstattung wurde akzeptiert/iu
+/sie haben eine ticketrückerstattung/iu
 
 # Lichtenstein
 # ------------------------------------------------------------------------------
