@@ -96,7 +96,8 @@
 # ------------------------------------------------------------------------------
 /(erwirtschaften|erzielen|generieren|verdienen) sie.{1,10}passives.{1,10}(einkommen|gehalt|geld)/i
 
-/passives.{1,10}(einkommen|gehalt|geld).{1,10}(aufzubauen|erwirtschaften|verdienen)/i
+/passives?.{1,10}(einkommen|einnahmen|gehalt|geld).{1,10}(aufzubauen|erwirtschaften|verdienen)/i
+/passives?.{1,10}(einkommen|einnahmen|gehalt|geld).{1,10}ohne viel zeit/i
 
 /(weg|welt).{1,10}passiven.{1,10}einkommens?/i
 
@@ -173,6 +174,9 @@
 /unsere.{1,10}(intelligente|revolutionäre).{1,10}(mittels|software|strategie)/i
 /unsere.{1,10}automatische.{1,10}handelslösung/iu
 
+# ChatGPT, KI
+/aktienhandel ist jetzt mit chatgpt/i
+
 # Starting
 # ------------------------------------------------------------------------------
 /(anfangseinlage|startkapital) von 250 euro/i
@@ -182,7 +186,7 @@
 /starten sie mit 250 euro?/i
 /startet.{1,15}anfangsinvestition von nur 250 euro?/i
 
-/250 euro?.{1,10}(als startkapital|zum erfolg)/i
+/250 euro?.{1,10}(als startkapital|mit dem handel loslegen|zum erfolg)/i
 /250 euro?.{1,10}mindesteinlage eröffnen wir/i
 
 # Trading

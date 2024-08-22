@@ -24,7 +24,7 @@
 
 /(empfiehlt|erholung|lieben).{1,10}(bitcoin|crypto|krypto)/i
 
-/(geld|reich).{1,10}(durch|mit).{1,10}(bitcoin|crypto|krypto)/i
+/(geld|reich).{1,10}(durch|in|mit).{1,10}(bitcoin|crypto|krypto)/i
 
 /wie.{1,10}(bitcoin|crypto|krypto).{1,15}handeln/i
 
@@ -136,7 +136,7 @@
 
 /(generieren|verdienen) sie.{1,10}passives.{1,10}einkommen/i
 
-/(\d{3,4}|euro?).{1,10}Grundeinkommen/i
+/(\d{3,4}|euro?).{1,10}grundeinkommen/i
 /(\d{3,4}|euro?).{1,10}passives einkommen/i
 /jetzt passives einkommen/i
 
