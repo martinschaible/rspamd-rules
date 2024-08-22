@@ -39,6 +39,8 @@
 
 #/alt=3d'' width=3d'1' height=3d'1' border=3d'0'/i
 
+/<img style=(3d)?.?height:.?1px !important; width:.?1px !important;/i
+
 # Image with 1 pixel height/width and no SSL
 # ------------------------------------------------------------------------------
 /<img width=(3d)?.?1px.{0,10}height=(3d)?.?1px.{0,10}alt=.{0,10}src=.{0,10}http:\/\//i
