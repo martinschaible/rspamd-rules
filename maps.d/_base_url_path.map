@@ -85,19 +85,18 @@
 
 # Sample: .net/shop/out26TT-2/073a4bc137bad8229879a8ad4fbe7280/
 /\.net\/shop\/.{4,15}\/[a-z0-9]{20,40}\//i
-
-# Sample: .cc/?ref=bc1qe0pjhgnflays7hk3nwmq8lkm5vu04sqc7x5zmz
-/\.cc\/\?ref=/i
-
-/\.cn\/\?token=/i
-
-/\.ru/(temp|wetransfer)/i
-
-/\.ro\/login\.php/i
-
 /\.net\/ls\/click/i
 
 /\.org\/js\/min/i
+
+# Sample: .cc/?ref=bc1qe0pjhgnflays7hk3nwmq8lkm5vu04sqc7x5zmz
+/\.cc\/\?ref=/i
+/\.cn\/\?token=/i
+
+/\.ru/(temp|wetransfer)/i
+/\.ro\/login\.php/i
+
+/\.shop\/update/i
 
 # Sample: .sa.com/Jufcl/wxecxmo3818eqjcqwmdv/RhS0s9rp7v5MtMBOwE8kJ
 /\.sa\.com\/[a-z]{1,10}\/[a-z0-9]{1,20}\//i

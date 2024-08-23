@@ -52,7 +52,7 @@
 /ihr.{1,15}konto.{1,10}vorübergehend.{1,10}sicherheitsgründen.{1,10}(ausgesetzt|eingeschränkt|begrenzt|gesperrt)/iu
 /ihr.{1,15}konto.{1,15}vorübergehend gesperrt wurde/i 
 /ihr.{1,15}konto.{1,10}vorsorglich sperren/i
-/ihr.{1,15}konto.{1,10}vorübergehend eingeschränkt werden kann/iu
+/ihr.{1,15}konto.{1,10}vorübergehend (eingeschränkt|einzuschränken)/i
 /ihr.{1,15}konto.{1,10}wird bald gesperrt/i
 /ihr.{1,15}konto.{1,10}wird gesperrt.{1,15}aktualisieren sie ihre zahlungsdaten/i
 
@@ -75,6 +75,8 @@
 /wurde aufgrund.{1,15}abrechnungsfehler gesperrt/iu
 
 /einige ihrer konto.?funktionen eingeschränkt/iu
+
+/sicherheitsgründen gesperrt.{1,10}sehr geehrter kunde/i
 
 /sperren ihr.{1,15}konto zu ihrem schutz.{1,10}bis wir von ihnen hören/iu
 
