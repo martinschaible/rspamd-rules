@@ -41,5 +41,8 @@
 /\.(ir|nl)\/wp-admin\//i
 /\.co\.uk\/wp-admin\//i
 
+# Pretending to be WordPress
+/\/wp/[a-z]{1,15}\/\?email=/i
+
 # Folder and files
 # ------------------------------------------------------------------------------
