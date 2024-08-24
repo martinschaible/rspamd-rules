@@ -59,6 +59,10 @@
 
 /(galaxus|hornbach|migros|obi).?(™|®)$/i
 
+# Test
+/aliexpress  =\?utf-8/i
+/lidl=e2=84=a2/i
+
 # Not sure about this. Waiting for a regular mail to see a real sender name
 #/declathon$/i
 
