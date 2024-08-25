@@ -20,6 +20,8 @@
 /pi for.{1,10}attached po/i
 /we are currently in need.{1,15}products/i
 
+/you received.{1,5}new order/i
+
 # Catalog
 # ------------------------------------------------------------------------------
 /(brochure|catalog|catalogue).{1,10}e?.?mail for our consideration/i
@@ -92,8 +94,10 @@
 
 # Quotes
 # ------------------------------------------------------------------------------
-/quote with.{1,10}your best price.{1,10}payment mode/i
 /pls submit a request for.{1,10}quote/i
+/send us.{1,10}official quotation.{1,10}price/i
+/quote with.{1,10}your best price.{1,10}payment mode/i
+/we need to know price.{1,10}for one of your.{1,15}product/i
 
 # Registration as a supplier
 # ------------------------------------------------------------------------------

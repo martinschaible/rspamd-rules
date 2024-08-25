@@ -115,7 +115,7 @@
 # ------------------------------------------------------------------------------
 /you.{1,10}this deal has no risk/i
 
-# Share the same name
+# Share the same name or same nationality
 # ------------------------------------------------------------------------------
 /contacting.{1,20}you.{1,10}share the.{1,10}same (family|last|sur).?name/i
 /(deceased|late).{1,10}(client|customer).{1,10}of mine.{1,10}shares the same.{1,10}name/i

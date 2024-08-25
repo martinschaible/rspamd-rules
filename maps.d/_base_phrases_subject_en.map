@@ -59,7 +59,7 @@
 /good day.{1,10}dear/i
 /good day to you/i
 /good to meet you/i
-/greetings?.{1,10}from here/i
+/greetings?.{1,10}(future|from here)/i
 
 /dear (beloved|esteemed|recipient)/i
 /dear e?.?mail.{1,10}(user|owner)/i
@@ -111,6 +111,7 @@
 # Silly stuff
 # ------------------------------------------------------------------------------
 /illuminate your path/i
+/message from friend/i
 /this is not an advertisement/i
 
 #

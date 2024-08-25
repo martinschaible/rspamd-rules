@@ -11,6 +11,8 @@
 
 /aufmerksamkeit!/i
 /aufmerksamkeit.{1,10}erforderlich/i
+/antwort erforderlich/i
+
 /dringende.{1,10}wichtige.{1,15}(angelegenheit|benachrichtigung)/i
 /dringend.{1,10}dringend/i
 /dringend.{1,10}sorgfältig lesen/iu
@@ -27,9 +29,9 @@
 /wichtig.{1,10}important/i
 /(sehr|wichtige).{1,10}dringende.{1,15}(angelegenheit|benachrichtigung|nachricht)/i
 
-/sie haben eine wichtige nachricht erhalten/i
+/nachricht wichtig/i
 
-/antwort erforderlich/i
+/sie haben eine wichtige nachricht erhalten/i
 
 # Sample: #7635349894-Nachricht
 /\d{5,15}.?nachricht/i
