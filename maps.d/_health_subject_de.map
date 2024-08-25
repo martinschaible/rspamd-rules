@@ -7,7 +7,7 @@
 
 # Medication
 # ------------------------------------------------------------------------------
-/(meds|tabletten|pillen).{1,10}(bestellen|bestellung|einkaufen)/i
+/(meds|tabletten|pillen).{1,10}(apotheke|bestellen|bestellung|einkaufen)/i
 /original.{1,10}(tabletten|pillen)/i
 
 #
