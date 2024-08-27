@@ -390,7 +390,7 @@
 
 # Pain
 # ------------------------------------------------------------------------------
-/pain.?(free|gone|killer|miracle|no.?more|quiz|relief|remover)/i
+/pain.?(free|gone|indicator|killer|miracle|no.?more|quiz|relief|remover)/i
 
 /(chronic|chrippling|ease|end|erase|joint|neck|nerve|reduces).{0,10}pain/i
 /aching.?points/i
@@ -437,7 +437,7 @@
 
 # Stomach
 # ------------------------------------------------------------------------------
-/(bloated|flatten).{0,10}stomach/i
+/(bloated|flat(ten)?).{0,10}stomach/i
 /your stomach/i
 
 # Stretch

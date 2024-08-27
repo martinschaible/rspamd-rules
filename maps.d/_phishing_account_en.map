@@ -57,9 +57,9 @@
 
 # Account - 2FA Activation
 # ------------------------------------------------------------------------------
-/activate 2fa now/i
-/activate 2fa.{1,10}click the button below/i
-/activate two.?factor.?authentication.{1,10}immediately/i
+/(activate|enable) 2fa now/i
+/(activate|enable) 2fa.{1,10}click the button below/i
+/(activate|enable) two.?factor.?authentication.{1,10}immediately/i
 
 /click the button.{1,10}to activate 2fa/i
 
