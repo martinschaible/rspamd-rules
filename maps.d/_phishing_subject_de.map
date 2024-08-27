@@ -57,6 +57,8 @@
 
 /benachrichtigung zur kontosperrung/i
 
+/risiko einer kontoschlie(ss|ß)ung/i
+
 /sicherheit.{1,10}(bestätigen|) sie ihre/iu
 /sicherheits.?(aktualisierung|update).{1,10}ihr.{1,15}(konto|profil)/i
 /sicherheitsüberprüfung ihres kontos.{1,15}erforderlich/iu
@@ -561,6 +563,8 @@ letzter gewinner/i
 # Subscriptions
 # ------------------------------------------------------------------------------
 /-abonnenment/i
+
+/abonnement für die.{1,10}monats.?karte wurde ausgesetzt/i
 
 #/abonnement.{1,10}ist umgehendes handeln erforderlich/i
 /abonnement.{1,15}vorübergehend.{1,10}ausgesetzt/iu

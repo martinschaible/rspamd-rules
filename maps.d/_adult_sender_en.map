@@ -7,7 +7,9 @@
 
 # Adult: Dating and Porn
 # ------------------------------------------------------------------------------
+/adult_/i
 /(adult|erotic|match(es)?).?(dates?|dating|tiktok)/i
+/local.?adult/i
 /portal.?dates?/i
 
 /(casual|tiktok).{0,10}adult/i
