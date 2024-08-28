@@ -132,11 +132,11 @@
 
 /greetings of the day.{1,10}would you/i
 
-/hello.{1,10}i have urgent information/i
 /hello.{1,15}business professional/i
+/hello.{1,10}glad to (connect|write to you)/i
+/hello.{1,10}i have urgent information/i
 /hello.{1,15}introduction/i
 /hello.{1,15}this e?.?mail finds you well/i
-/hello.{1,10}glad to connect/i
 /hello.{1,10}this is.{5,25}from/i
 
 # Sample: Hello amelec.ch owner

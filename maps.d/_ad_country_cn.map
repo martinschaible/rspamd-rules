@@ -122,6 +122,7 @@
 /your.{1,15}china.{1,10}sourcing agent/i
 
 /contacting you from.{1,10}(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang)/i
+
 /leading supplier of.{1,15}capacitors.{1,15}(from|in) china/i
 
 /manufacturer.{1,10}supplier.{1,15}(from|in) china/i
@@ -184,6 +185,8 @@
 /i am.{5,25}our company is/i
 /i am.{1,10}writing.{1,10}introduce our company/i
 
+/leading company.{1,10}specializing.{1,10}exporting/i
+
 /as a leading.{1,10}company.{1,10}engaged/i
 
 /has been in this field for more than.{1,10}years/i
@@ -237,7 +240,7 @@
 /(co|limited|ltd).{1,10}has been established for/i
 /(co|limited|ltd).{1,15}is a high.?tech enterprise/
 /(co|limited|ltd).{1,15}is a factory specialized in/i
-/(co|limited|ltd).{1,15}(leading|professional).{1,15}manufacturer/i
+/(co|limited|ltd).{1,15}(leading|professional).{1,15}(company|manufacturer)/i
 /(co|limited|ltd).{1,15}specializes in.{1,10}import/i
 /(co|limited|ltd).{1,15}we are leading.{1,15}professional/i
 /(co|limited|ltd).{1,15}we.{1,10}supplying/i
@@ -475,6 +478,7 @@
 /years in the.{1,10}(pcba?|printed circuit board).{1,10}industry/i
 
 /you.{1,10}are in.{1,10}(pcba?|printed circuit board).{1,10}(business|market)/i
+/you.{1,10}have.{1,10}new projects?.{1,10}(pcba?|printed circuit board)/i
 /you.{1,10}have.{1,10}(request|requirements).{1,20}(pcba?|printed circuit board)/i
 /you.{1,10}(looking for|may need).{1,10}(pcba?|printed circuit board)/i
 /you.{1,10}need.{1,10}(pcba?|printed circuit board).{1,10}supplier/i
