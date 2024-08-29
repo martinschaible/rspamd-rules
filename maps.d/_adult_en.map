@@ -30,7 +30,7 @@
 # ------------------------------------------------------------------------------
 /free.{1,10}adult.?dating/i
 
-/dating.?site.{1,10}for free/i
+/dating.?site.{1,15}(for free|register|this link)/i
 /(dating|web).?site.{1,10}came across you/i
 
 /(adult|casual|german|sex).?dating.?(club|community|portal|site)/i
@@ -38,6 +38,8 @@
 /social.?sex.?(club|community|portal|site)/i
 
 /online.?casual.?dating/i
+
+/you need.{1,10}dating.?site/i
 
 # Flirt
 # ------------------------------------------------------------------------------
