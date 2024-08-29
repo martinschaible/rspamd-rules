@@ -155,7 +155,7 @@
 
 # Umbrellas
 # ------------------------------------------------------------------------------
-(ampel|sonnen|premium|terrassen).?schirme/i
+(ampel|sonnen|terrassen).?schirme/i
 
 # Vacuum Cleaner
 # ------------------------------------------------------------------------------
@@ -186,8 +186,9 @@
 
 # Companies
 # ------------------------------------------------------------------------------
-/premium.{0,10}(box|direkt|matten|quadcopter|rattan|versand)/i
-/(schwarz|vera).{1,10}vertrieb/i
+/premium.{0,10}(box|direkt|matten|quadcopter|rattan|schirme|versand)/i
+
+/(kamera|schwarz|vera).{1,10}vertrieb/i
 /riebold.{0,10}office/i
 
 /vertriebs.?agentur/i
