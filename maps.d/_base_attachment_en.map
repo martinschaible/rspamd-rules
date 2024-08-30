@@ -141,6 +141,9 @@
 /rfq#order/i
 /rfq\.html/i
 
+# Sample: RFQ_0020829024SEPT.xla
+/rfq_\d{1,15}[a-z]{1,10}\.xla/i
+
 /list.?bz2/i
 /(price|product).?list\.(xz|z)/i
 /product.?list\.(7z|doc|gz|htm|r11|rar|tgz|xla|xls|zip)/i
