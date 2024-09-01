@@ -362,7 +362,8 @@ grill.{1,10}statt.{1,10}nur/i
 
 # Hiring people
 # ------------------------------------------------------------------------------
-/(fachkräfte|hilfspersonal|leiharbeiter|personalsuche|vermittlung¬zeitarbeiter).{1,15}(baltikum|litauen)/iu
+/(arbeiter|fachkräfte|hilfspersonal|personalsuche|vermittlung).{1,15}(baltikum|litauen)/iu
+/litauische arbeiter gesucht/i
 
 #
 #

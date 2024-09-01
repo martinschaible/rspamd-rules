@@ -18,6 +18,9 @@
 /kredite!/i
 /\d% kredit/i
 
+# Sample: Kredit - 8/31/2024
+/kredit.{1,10}\d{1,2}\/\d{1,2}/\d{4}/i
+
 /angebot.{1,10}(darlehen|kredit) von/i
 /privat.{1,10}geschäfts.?kredite?/iu
 
@@ -55,9 +58,6 @@
 
 /sie dringend ein.{1,15}(darlehen|kredit)/i
 /sie finanzielle unterstützung/iu
-
-# Sample: Kredit - 8/22/2024 - 06:19:19 a.m.
-/kredit.{1,5}\d{2}\/\d{2}\/\d{4}/i
 
 # Financing
 # ------------------------------------------------------------------------------
