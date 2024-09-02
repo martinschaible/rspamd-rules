@@ -48,13 +48,13 @@
 /(büro|massage).?(stuhl|stühle).{1,15}(netto|statt)/iu
 /(büro|massage).?(stuhl|stühle).{1,15}(sonder|spezial).?preis/i
 /(büro|massage).?(stuhl|stühle).{1,15}für (nur|\d{3})/i
-/(büro|massage).?(stuhl|stühle).{1,15}mit.{1,10}bezug/i
+/(büro|massage).?(stuhl|stühle).{1,15}mit.{1,15}bezug/i
 /(büro|massage).?(stuhl|stühle).{1,15}nur.{1,10}zzgl/i
 
 /leder.{0,10}(stuhl|stühle)/iu
 
 /(aktion|angebot).{1,20}(büro|massage).?(sessel|stuhl|stühle)/iu
-/(elegante|eleganz|ergonomische).{1,20}(büro|massage).?(sessel|stuhl|stühle)/iu
+/(elegante|eleganz|ergonomische|lager).{1,20}(büro|massage).?(sessel|stuhl|stühle)/iu
 /(revolution|revolutionäre).{1,15}(büro|massage).?(sessel|stuhl|stühle)/iu
 /sichern sie sich.{1,20}(büro|massage).?(sessel|stuhl)/iu
 
