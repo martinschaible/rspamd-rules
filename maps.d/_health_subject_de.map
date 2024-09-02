@@ -8,10 +8,7 @@
 # Medication
 # ------------------------------------------------------------------------------
 /(medikamente|meds|tabletten|pillen).{1,10}(apotheke|bestellen|bestellung|einkaufen|kaufen|ordern|pharma)/i
-/original.{1,10}(tabletten|pillen)/i
-
-#
-/herren.?(medikamente|meds)/i
+/(herren|original).{1,10}(medikamente|meds|tabletten|pillen)/i
 
 # Men
 # ------------------------------------------------------------------------------
