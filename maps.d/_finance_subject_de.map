@@ -26,6 +26,7 @@
 
 /DARLEHEN/
 /(darlehen|kredit)\?/i
+/(darlehen|kredit)!^/i
 
 /verfügbare.{1,10}kredite/iu
 /new.{1,10}(darlehen|kredit)/i
