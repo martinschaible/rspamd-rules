@@ -44,8 +44,7 @@
 # Chair
 # ------------------------------------------------------------------------------
 /(büro|massage).?(stuhl|stühle).{1,15}(eingebauter|integrierter|komfort|massage|walnussholz)/iu
-/(büro|massage).?(stuhl|stühle).{1,25}jetzt (erhältlich|nur|zugreifen)/i
-/(büro|massage).?(stuhl|stühle).{1,15}(netto|reduziert|statt)/iu
+/(büro|massage).?(stuhl|stühle).{1,25}(erhältlich|netto|nur|reduziert|statt|zugreifen)/iu
 /(büro|massage).?(stuhl|stühle).{1,15}(sonder|spezial).?preis/i
 /(büro|massage).?(stuhl|stühle).{1,15}für (nur|\d{3})/i
 /(büro|massage).?(stuhl|stühle).{1,15}mit.{1,15}bezug/i
@@ -385,7 +384,7 @@ grill.{1,10}statt.{1,10}nur/i
 /sichern sie sich unser exklusives angebot/i
 /unglaublicher.{1,10}deal/i
 
-/\d{3}.{1,10}statt.{1,10}{3}/i
+/\d{3}.{1,10}statt\d{3}/i
 /statt \d{3}.{1,10}nur \d{3}/i
 /statt uvp \d{3}.{1,10}nur \d{3}/i
 /für.{1,10}\d{3}.{1,10}statt.{1,10}\d{3,4}/iu

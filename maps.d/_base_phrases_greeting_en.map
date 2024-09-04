@@ -250,6 +250,10 @@
 
 /you are well.{1,10}i am from india/i
 
+# Greetings, Religious
+# ------------------------------------------------------------------------------
+/dear friend.{1,10}in the lord/i
+
 # Introduction
 # ------------------------------------------------------------------------------
 /(disturb you|my name is).{5,25}we are.{2,10}professional/i
@@ -317,6 +321,7 @@
 /i.?a?m a?.{1,25}sales.{1,10}(manager|representative)/i
 /i.?a?m a?.{1,25}senior.{1,10}purchasing.{1,10}manager/i
 /i.?a?m a?.{1,25}probate lawyer/i
+/i.?a?m a?.{1,25}reverend/i
 /i.?a?m a?.{1,25}solicitor at law/i
 
 /i.?a?m a?.{0,10}(colonel|fbi|special agent)/i

@@ -219,9 +219,9 @@
 
 # Man
 # ------------------------------------------------------------------------------
-/ich suche einen mann.{1,10}(der nicht|für)/iu
+/ich suche einen mann.{1,10}(der nicht|für|mit dem)/iu
 
-/Jahre alt.{1,10}suche einen Mann/i
+/jahre alt.{1,10}suche einen mann/i
 
 /mann für regelmäßige.{1,15}treffen/iu
 
@@ -427,6 +427,7 @@
 /ich bin ein.{1,15}(nettes|schlankes).{1,15}mädchen/iu
 /ich bin ein wenig schüchtern/iu
 /ich bin eine.{1,10}attraktive person/i
+/ich bin liebevoll/i
 /ich bin sehr einsam/i
 /ich sehe.{1,10}wir wohnen in der nähe/iu
 
