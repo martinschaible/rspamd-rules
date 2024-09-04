@@ -186,7 +186,7 @@
 /\d{1,2}.?ooo/i
 
 # A subject does never start with this
-/^,/i
+/^(,|\.|\$)/i
 
 # letter "e": =d0=b5 
 /[a-z]=d0=b5/i

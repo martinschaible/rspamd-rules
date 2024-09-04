@@ -241,7 +241,7 @@
 /(co|limited|ltd).{1,15}is a high.?tech enterprise/
 /(co|limited|ltd).{1,15}is a factory specialized in/i
 /(co|limited|ltd).{1,15}(leading|professional).{1,15}(company|manufacturer)/i
-/(co|limited|ltd).{1,15}specializes in.{1,10}import/i
+/(co|limited|ltd).{1,15}specializes in.{1,10}(high.?quality|import)/i
 /(co|limited|ltd).{1,15}we are leading.{1,15}professional/i
 /(co|limited|ltd).{1,15}we.{1,10}supplying/i
 /(co|limited|ltd).{1,10}which is specializing in/i
@@ -478,6 +478,7 @@
 /years in the.{1,10}(pcba?|printed circuit board).{1,10}industry/i
 
 /you.{1,10}are in.{1,10}(pcba?|printed circuit board).{1,10}(business|market)/i
+/you.{1,10}deal(ing)? with.{1,10}(pcba?|printed circuit board).{1,10}(business|market)/i 
 /you.{1,10}have.{1,10}new projects?.{1,10}(pcba?|printed circuit board)/i
 /you.{1,10}have.{1,10}(request|requirements).{1,20}(pcba?|printed circuit board)/i
 /you.{1,10}(looking for|may need).{1,10}(pcba?|printed circuit board)/i

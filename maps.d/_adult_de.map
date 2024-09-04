@@ -34,6 +34,7 @@
 
 /chatten.{1,10}(dating|treffen)/i
 
+/besprechen.{1,10}im chat/i
 /direkt mit ihr.{1,15}chatten/i
 
 /lokalen.{1,10}chat.{1,10}kontakt(en)?/i
@@ -422,8 +423,10 @@
 
 # Silly Chitchat/Phrases
 # ------------------------------------------------------------------------------
+/buddy.?anfrage/i
 /du hast meine aufmerksamkeit erregt/i
 /es satt.{1,10}allein zu sein/i
+/geile ficksau/i
 
 /ich bin.{1,10}jahre alt.{1,10}ich bin kinderlos/i
 /ich bin ein.{1,15}(nettes|schlankes).{1,15}mädchen/iu
@@ -433,12 +436,12 @@
 /ich bin sehr einsam/i
 /ich sehe.{1,10}wir wohnen in der nähe/iu
 
+/mich nackt zu/i
+
 /sie ein (lediger|nicht verheirateter) mann/i
 /suchst du liebe.{1,10}ich auch/i
 
 /richtig geil hart/i
-/geile ficksau/i
-/buddy.?anfrage/i
 
 #
 #

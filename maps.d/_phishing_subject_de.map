@@ -445,8 +445,9 @@
 /sie sind.{1,10}(teilnahmeberechtigt|zugelassen)/i
 /sie sich jetzt ihren?.{1,10}(belohnung|gutschein)/i
 
-/sie wurden für ein besonderes angebot/iu
 /sie wurden als empfänger eines.{1,15}preises/iu
+/sie wurden für ein besonderes angebot/iu
+/sie wurden für millionen/iu
 
 /teilnehmen.{1,10}gewinnen/i
 /umfrage.?(belohnung|gutschein)/i
@@ -684,3 +685,4 @@ letzter gewinner/i
 
 # Masked
 # ------------------------------------------------------------------------------
+/\.gewonnen\./i

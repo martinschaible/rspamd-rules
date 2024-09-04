@@ -205,6 +205,7 @@ transform.{1,10}website traffic/i
 /you need.{1,10}seo/i
 
 # Google
+/^(1st|first|seo|top).{1,15}(page|rankings?)$/i
 /(1st|first|seo|top).{1,15}(page|rankings?).{1,10}(plan|seo)/i
 /(1st|first|seo|top).{1,15}(page|rankings?).{1,10}(bing|google|yahoo)/i
 
