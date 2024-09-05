@@ -36,6 +36,7 @@
 /(darlehen|kredit).{1,10}(dringend|für \d|mit.{1,10}zinssatz|zu)/iu
 /(darlehen|kredit).{1,15}(interest rate|loan)/i
 /(darlehen|kredit).{1,10}finanzierung/i
+/(darlehen|kredit).{1,10}wir helfen ihnen/i
 
 /(finanz|darlehen|kredit).{0,10}(angebot|möglichkeiten)/iu
 

@@ -57,7 +57,8 @@
 
 # Girls, Women
 # ------------------------------------------------------------------------------
-/(attraktive|die besten|geile|sexy).{1,10}frau(en)?/i
+/(attraktive|die besten|geile|sexy).{1,10}(frau(en)?|mädchen)/iu
+/(ukrainische|russische).{1,10}(frau(en)?|mädchen)/iu
 
 /geile mütter/iu
 
