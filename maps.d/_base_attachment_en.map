@@ -295,6 +295,7 @@
 /\d{4,10}_\d{4,10}\.rar/i
 
 /(contract|excel).{0,10}\.htm/i
+/\d{1,10}.?\.htm/i
 
 # Sample: 100,000,00.rar
 /\d{1,4},\d{1,4},\d{1,4}\.rar/i
@@ -332,3 +333,6 @@
 
 # Sample: MD PERMANENTMETAL ORDER 000687452024.BZ2
 /\d{4,20\}\.bz/i
+
+#
+/docusign_\d{1,15}#/i
