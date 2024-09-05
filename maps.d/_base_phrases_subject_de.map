@@ -165,7 +165,7 @@
 # Call back
 /aktenzeichen.{1,20}telefonat/i
 
-/(geld|lesen)!!/i
+/(geld|lesen)(!!|\.\.)/i
 /\.\.\.bitte/i
 
 # Sample: Hallo 111.118.177.133
