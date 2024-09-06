@@ -236,7 +236,7 @@ grill.{1,10}statt.{1,10}nur/i
 
 # Suitcases
 # ------------------------------------------------------------------------------
-/reise.?koffer zu nur.{1,15}netto/i
+/reise.?koffer.{1,10}nur.{1,15}netto/i
 
 # Surveillance Camera
 # ------------------------------------------------------------------------------
@@ -244,6 +244,10 @@ grill.{1,10}statt.{1,10}nur/i
 /überwachungskamera.{1,10}(jetzt nur|für) (\d{2,3}|nur)/iu
 
 /unsere.{1,10}wlan.?kamera/i
+
+# Tables
+# ------------------------------------------------------------------------------
+/schreibtische.{1,10}neu.{1,10}statt/i
 
 # Trolley & Tools
 # ------------------------------------------------------------------------------
@@ -289,7 +293,7 @@ grill.{1,10}statt.{1,10}nur/i
 # Umbrellas
 # ------------------------------------------------------------------------------
 /(ampel|sonnen|terrassen).?schirme.{1,20}(eleganz|garten|geschmack|jeden|jetzt|schutz)/i
-/(ampel|sonnen|terrassen).?schirme.{1,20}(preiswert|sonderangebot|sonderkondition|sonderpreis|vorteilpreis)/i
+/(ampel|sonnen|terrassen).?schirme.{1,20}(preiswert|sichern|sonderangebot|sonderkondition|sonderpreis|vorteilpreis)/i
 /(ampel|sonnen|terrassen).?schirme.{1,20}meter/i
 /(ampel|sonnen|terrassen).?schirme.{1,20}nur.{1,10}\d{2,3}/i
 
