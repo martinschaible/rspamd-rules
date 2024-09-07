@@ -24,6 +24,8 @@
 /assistance.{1,10}receiving the consignment/i
 
 /you.{1,10}help me receive.{1,10}secure/i
+/you.{1,10}assist in retrieving.{1,15}deposit/i
+
 /your.{1,10}assistance to receive.{1,10}sum/i
 /your.{1,10}help.{1,10}assistance in.{1,10}receipt/i
 /your.{1,10}indulgence to assist me/i
@@ -248,8 +250,8 @@
 
 # Illuminati
 # ------------------------------------------------------------------------------
-/illuminati.{1,10}(recruiter|society)/i
-/(great|world of).{1,10}illuminati/i
+/illuminati.{1,15}(become rich|recruiter|society|today)/i
+/(great|join|world of).{1,10}illuminati/i
 
 # Oil
 # ------------------------------------------------------------------------------

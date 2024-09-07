@@ -149,14 +149,14 @@
 # ------------------------------------------------------------------------------
 /bitte aufmerksam lesen/i
 
-/von (frau|fräulein|herr)/iu
-/wir haben eine wichtige nachricht/i
-
 /du bist der glückliche/i
 /du hast glück/iu
 
+/ignorieren sie.{1,10}nachricht nicht/i
 /jetzt antworten/i
 
+/von (frau|fräulein|herr)/iu
+/wir haben eine wichtige nachricht/i
 /wir können sie nicht erreichen/iu
 
 # Used for Finance, Scam

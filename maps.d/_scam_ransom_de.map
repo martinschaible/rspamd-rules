@@ -24,17 +24,20 @@
 /habe ich.{1,10}zugriff auf ihre dateien/i
 
 # Malware
+/(trojaner|virus) hat mir.{1,10}zugriff auf ihre dateien/i
+
 /dieser virus ermöglichte mir/iu
 
 /ich erfolgreich den trojaner.?virus/i
 /ich habe einen trojaner in den betriebssystemen/i
 
-/installierte ich.{1,10}trojaner erfolgreich/i
 /ihr gerät mit meinem privaten/iu
 /ihnen besuchte web.?site mit einem trojaner/i
+/installierte ich.{1,10}trojaner erfolgreich/i
 
+/mein (trojaner|virus) hat/i
 /meine spyware ist/i
-/mein virus hat ihr gerät/iu
+/meinem privaten trojaner/i
 
 #
 /daten wurden auf meine.{1,10}server kopiert/i

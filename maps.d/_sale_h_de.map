@@ -256,9 +256,12 @@
 # ------------------------------------------------------------------------------
 /office software.{1,15}für einmalige.{1,10}euro/iu
 
-/ihnen die aktuelle version.{1,10}microsoft office/i
+/ihnen die.{1,10}(aktuelle|original).{1,10}version.{1,10}microsoft office/i
+/ihnen die.{1,10}(aktuelle|original).{1,10}microsoft office/i
+
 /alle programme auf dem neusten stand/i
 
+/sichern sie sich jetzt.{1,10}office professional/i
 /sie kaufen einmal eine lizenz.{1,10}nutzen alle programme /i
 /weiterhin alle updates kostenlos/i
 

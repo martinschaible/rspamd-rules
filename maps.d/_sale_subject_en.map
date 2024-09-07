@@ -120,6 +120,10 @@
 
 # Leads
 # ------------------------------------------------------------------------------
+/leads.{1,10}ready for you/i
+
+/u\.?s\.?.{1,10}business.{1,10}leads/i
+
 /bulk lead generation/i
 /(targeted|verified).{1,10}leads from linkedin/i
 /(business|potential).{1,10}(targeted|verified).{1,10}leads/i
