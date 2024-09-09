@@ -21,6 +21,7 @@
 /discount/i
 
 /document shared with you/i
+/docusign/i
 
 # E
 
@@ -53,7 +54,9 @@
 /(proof of|your) payment/i
 
 # R
-/received shared files/i
+/received.{1,10}shared files/i
+/received.{1,10}encrypted message/i
+
 /registration/i
 
 # S
