@@ -151,6 +151,8 @@
 /webmail notification/i
 
 /access unread.{1,10}(e?.?mail|messages)/i
+/action required for your.{1,15}@/i
+
 /disconnected from sending.{1,10}receiving e?.?mails/i
 /restricted messages for/i
 
