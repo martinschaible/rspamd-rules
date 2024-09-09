@@ -251,7 +251,7 @@
 /bestätigen sie.{1,15}paketzustellung/i
 /bestätigung der lieferadresse erforderlich/iu
 
-/warten auf abholung/i
+/haben sie ihr paket erhalten/i
 
 /ihr ausstehendes paket/i
 /ihre angaben.{1,10}order.?id/i
@@ -331,6 +331,7 @@
 /zustellung nicht erfolgreich.{1,10}adresse nicht gefunden/i
 
 /versand.{1,10}bestätigen sie ihre angaben/iu
+/warten auf abholung/i
 /wir haben ihr paket bereit/i
 /wohin.{1,10}wir ihre?.{1,10}(paket|sendung) liefern/i
 
@@ -363,7 +364,6 @@
 #
 /erhalten sie ihre lieferung/i
 /ihre mitarbeit ist.{1,10}(erforderlich|gefragt)/i
-/werwenden sie ihren barcode/i
 
 # Parcel - Fees
 # ------------------------------------------------------------------------------
@@ -441,6 +441,7 @@
 /sie haben das.{10,25}geschenkset gewonnen/i
 /sie haben eine kostenlose.{10,25}gewonnen/i
 /sie haben glück.{1,10}erhalten kostenlos/i
+/sie haben ein.{1,40}set gewonnen/i
 
 /sie unsere.{1,10}umfrage/i
 /sie sind.{1,10}der gewinner (des|unseres).{1,10}(gewinnspiels|wettbewerbs)/i

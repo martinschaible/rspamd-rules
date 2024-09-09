@@ -18,6 +18,7 @@
 /ihr.{1,15}geld wurde auf eine.{1,10}(bank|debit).{0,10}(card|karte) geladen/i
 /ihr.{1,15}konto eine geldautomaten.{1,10}(bank|debit).{0,10}(card|karte)/i
 
+/ihre.{1,10}atm.{0.10}(card|karte).{1,10}zu liefern/i
 /ihre.{1,10}geldautomaten.?karte im wert von/i
 /ihre.{1,10}swift atm.{0.10}(card|karte)/i
 /ihre.{1,10}zahlung.{1,10}atm.{0,10}(card|karte)/i

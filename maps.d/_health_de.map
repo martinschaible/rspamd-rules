@@ -28,9 +28,10 @@
 
 # Covid
 # ------------------------------------------------------------------------------
-/(corona|schnell).?tests?.{1,15}dieses.{1,10}jahr sichern/i
-/(corona|schnell).?tests?.{1,15}hier klicken/i
-/(corona|schnell).?tests?.{1,15}(alten preis|best.?preis|garantie|vom profi)/i
+/(corona|laien|profi|schnell).?tests?.{1,15}dieses.{1,10}jahr sichern/i
+/(corona|laien|profi|schnell).?tests?.{1,15}hier klicken/i
+/(corona|laien|profi|schnell).?tests?.{1,15}(alten preis|best.?preis|garantie|vom profi)/i
+/(corona|laien|profi|schnell).?tests?.{1,15}\d[1,2].?er pack (clungene|hotgen|safecare)/i
 
 /sichern.{1,10}sich.{1,25}(corona|schnell).?tests?/i
 

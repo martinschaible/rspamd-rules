@@ -19,7 +19,7 @@
 
 # Erection
 # ------------------------------------------------------------------------------
-/(erektion|potenz).{1,10}erobert/i
+/(erektion|potenz).{1,10}(erobert|in weniger)/i
 /(erektion|potenz).{1,10}mit.{1,10}(arzneien|modern)/i
 
 /(glied|penis).{1,10}erigiert/i
@@ -38,6 +38,7 @@
 
 # Penis Enlargement
 # ------------------------------------------------------------------------------
+/(glied|penis) bis zu/i
 
 # Potency, Stamina, ED
 # ------------------------------------------------------------------------------
