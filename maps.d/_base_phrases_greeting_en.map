@@ -116,23 +116,23 @@
 /good (day|evening|morning).{1,10}i know you may find this/i
 /good (day|evening|morning).{1,10}(madam|sir).{1,10}hi/i
 
-/greetings.{1,15}(business|investment).{1,15}partnership/i
-/greetings.{1,10}from (here|saudi)/i
-/greetings.{1,10}from.{5,25}inc/i
-/greetings.{1,15}i am (dr|sgt)/i
-/greetings.{1,15}i came across your profile/i
-/greetings.{1,15}i need your assistance/i
-/greetings.{1,10}(i am|this is) (mrs?|ms)/i
-/greetings.{1,10}(sir|madam).{1,20}request for/i
-/greetings.{5,25}allow me to introduce our/i
-/greetings.{1,10}how are you today.{1,10}i hope you/i
-/greetings.{1,10}recipient.{1,10}this is/i
-/greetings.{1,10}this is.{1,10}chairman/i
+/greetings?.{1,15}(business|investment).{1,15}partnership/i
+/greetings?.{1,10}customer.{1,10}hope this/i
+/greetings?.{1,10}from (here|saudi)/i
+/greetings?.{1,10}from.{5,25}inc/i
+/greetings?.{1,15}i am (dr|sgt)/i
+/greetings?.{1,15}i came across your profile/i
+/greetings?.{1,15}i need your assistance/i
+/greetings?.{1,10}(i am|this is) (mrs?|ms)/i
+/greetings?.{1,10}(sir|madam).{1,20}request for/i
+/greetings?.{5,25}allow me to introduce our/i
+/greetings?.{1,10}how are you today.{1,10}i hope you/i
+/greetings?.{1,10}of the day.{1,10}would you/i
+/greetings?.{1,10}recipient.{1,10}this is/i
+/greetings?.{1,10}this is.{1,10}chairman/i
 
-/greetings.{1,10}to you.{1,10}reply to/i
-/greetings.{1,10}to you.{1,10}i.?a?m (mrs?|ms)/i
-
-/greetings of the day.{1,10}would you/i
+/greetings?.{1,10}to you.{1,10}reply to/i
+/greetings?.{1,10}to you.{1,10}i.?a?m (mrs?|ms)/i
 
 /hello.{1,15}business professional/i
 /hello.{1,10}glad to (connect|write to you)/i
