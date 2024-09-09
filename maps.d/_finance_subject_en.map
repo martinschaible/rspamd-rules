@@ -10,6 +10,7 @@
 # Loans
 # ------------------------------------------------------------------------------
 /(finance|investment|loans?).{1,10}(apply|funding|offer|opportunities|opportunity|reduced)/i
+/financial loans/i
 
 /loans?.{1,10}(available|finance|financing|limited|low interest|service)/i
 /loans?.{1,10}project.{1,10}(finance|financing)/i
