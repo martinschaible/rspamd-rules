@@ -51,16 +51,18 @@
 
 # Fotos
 # ------------------------------------------------------------------------------
-/her new photos here/i
+/her new (photos|pictures) here/i
 /reply to you.{1,10}my photo attach/i
 
 /pictures.{1,10}(my|of).{1,10}vagina/i
 
 /photo attached.{1,10}(reply me to|response me at)/i
 
-/you my pictures?.{1,10}attach/i
+/reply to you my (photos|pictures)/i
 
-/your photos.{1,10}in this link/i
+/you my (photos?|pictures?).{1,10}attach/i
+
+/your (photos?|pictures?).{1,10}in this link/i
 
 # Girls, Women
 # ------------------------------------------------------------------------------
@@ -146,6 +148,10 @@
 /love from your friend!/i
 /hi i love you.{1,10}bye/i
 /blondie\d{1,2}/i
+
+/mr\. tasty/i
+/my clever mr/i
+
 
 # Masked
 # ------------------------------------------------------------------------------

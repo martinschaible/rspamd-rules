@@ -180,14 +180,16 @@
 
 # Starting
 # ------------------------------------------------------------------------------
-/(anfangseinlage|startkapital) von 250 euro/i
-/anfang mit.{1,10}250 euro? investition/i
-/kleinen anfangs.?investition/i
-/minimal 250 euro?.{1,10}einstiegskapital/i
-/starten sie mit 250 euro?/i
-/startet.{1,15}anfangsinvestition von nur 250 euro?/i
+/(anfangs|einstiegs|start).?(einlage|investition|kapital) von.{1,10}250 euro/i
 
-/250 euro?.{1,10}(als startkapital|mit dem handel loslegen|zum erfolg)/i
+/anfang mit.{1,10}250 euro? investition/i
+
+/(250 euro?|jetzt mit|minimal).{1,10}euro?.{1,10}(anfangs|einstiegs|start).?(einlage|investition|kapital)/i
+
+/(kleinen|startet).{1,15}(anfangs|einstiegs|start).?(einlage|investition|kapital)/i
+/starten sie mit 250 euro?/i
+
+/250 euro?.{1,10}(mit dem handel loslegen|zum erfolg)/i
 /250 euro?.{1,10}mindesteinlage eröffnen wir/i
 
 # Trading
