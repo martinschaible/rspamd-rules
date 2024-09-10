@@ -282,7 +282,8 @@ grill.{1,10}statt.{1,10}nur/i
 
 /(tisch|turnier).?kicker.{1,10}(erschwinglich|top.?preis)/i
 /(tisch|turnier).?kicker.{1,10}für \d{3}/i
-/(kleiner preis|ihren|neuer).{1,10}(tisch|turnier).?kicker/i
+
+/(kleiner preis|ihren|neuen|neuer).{1,10}(tisch|turnier).?kicker/i
 
 # Tools
 # ------------------------------------------------------------------------------
