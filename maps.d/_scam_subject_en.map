@@ -108,6 +108,7 @@
 /proposal\.\./i
 /proposal.?!!/i
 
+/^(business|partnership).{1,10}proposal$/i
 #/(business|partnership).{1,10}(assistance|offer|proposal|proposition|response)/i
 /(business|partnership).{1,10}(assistance|offer|proposition|response)/i
 /(business|urgent).{1,15}(opportunity|partnership|proposal)/i
