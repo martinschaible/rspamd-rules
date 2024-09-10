@@ -47,16 +47,18 @@
 #          sfsdfect.html
 /(red|sfs)[a-z]{2,5}ect\.html/i
 
-# Samples: sdfrect.html
-#          sdfsdfirect.html
-#          sdfsdirect.html
+# Samples:  sdfrect.html
 #          sdfsdfct.html
-#          qsdrect.html
-#           dfgect.html
-/sdf\[a-z]{4,6}.html/i
+#           qsdrect.html
+#            dfgect.html
+/\/[a-z]{3,5}(e|f)ct\.html/i
 
-/\/[a-z]{3,4}ect\.html/i
+# Samples: sdfsdfirect.html
+#           sdfsdirect.html
+#          reqdsdirect.html
+/\/[a-z]{3,5}(d|f)irect\.html/i
 
+#
 /\/chi2index\.html\?authuser=0/i
 
 # Files with a very long filename
