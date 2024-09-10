@@ -31,11 +31,11 @@
 /(corona|laien|profi|schnell).?tests?.{1,15}dieses.{1,10}jahr sichern/i
 /(corona|laien|profi|schnell).?tests?.{1,15}hier klicken/i
 /(corona|laien|profi|schnell).?tests?.{1,15}(alten preis|best.?preis|garantie|vom profi)/i
-/(corona|laien|profi|schnell).?tests?.{1,15}\d[1,2].?er pack (clungene|hotgen|safecare)/i
+/(corona|laien|profi|schnell).?tests?.{1,15}\d{1,2}.?er pack (clungene|hotgen|safecare)/i
+/(corona|laien|profi|schnell).?tests?.{1,20}zertifiziert/iu
 
+/(clungene|hotgen|safecare).{1,10}ab.{1,10}(karton|pro test)/i
 /sichern.{1,10}sich.{1,25}(corona|schnell).?tests?/i
-
-/hotgen.{1,10}ab.{1,10}karton/i
 
 #
 /letzte chance.{1,10}(corona|schnell).?tests?/i

@@ -131,10 +131,10 @@
 /(declathon|deutsche.?bahn|dewalt|drogerie|edeka|fressnapf|kaufland).{0,15}kunde$/i
 
 # L to Z
-/(le.?creuset|lidl|media.?market|migros|otto|persil|rewe|temu).{0,15}(abteilung|angebot|bestätigung|code)/i
-/(le.?creuset|lidl|media.?market|migros|otto|persil|rewe|temu).{0,15}(geschenke|gewinner|gutschein)/i
-/(le.?creuset|lidl|media.?market|migros|otto|persil|rewe|temu).{0,15}(help.?desk|kontakt|sender|sendung|umfrage|versand|zustellung)/i
-/(le.?creuset|lidl|media.?market|migros|otto|persil|rewe|temu).{0,15}kunde$/i
+/(le.?creuset|lidl|media.?market|migros|otto|persil|rewe|samsung|temu).{0,15}(abteilung|angebot|bestätigung|code)/i
+/(le.?creuset|lidl|media.?market|migros|otto|persil|rewe|samsung|temu).{0,15}(geschenke|gewinner|gutschein)/i
+/(le.?creuset|lidl|media.?market|migros|otto|persil|rewe|samsung|temu).{0,15}(help.?desk|kontakt|sender|sendung|umfrage|versand|zustellung)/i
+/(le.?creuset|lidl|media.?market|migros|otto|persil|rewe|samsung|temu).{0,15}kunde$/i
 
 /kunden.?dm/i
 
@@ -149,7 +149,7 @@
 
 # Brands, Products
 # ------------------------------------------------------------------------------
-/pro.?gewinner/i
+/(pro|s24).?gewinner/i
 
 #
 #

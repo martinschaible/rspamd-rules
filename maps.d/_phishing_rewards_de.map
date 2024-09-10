@@ -36,7 +36,7 @@
 /erhalten sie ihr.{1,15}geschenk innerhalb von.{1,10}stunden/i
 /fordern sie ihre.{1,15}belohnung an/i
 
-/kostenlos an unserem treueprogramm teilzunehmen/i
+/kostenlos.{1,10}(treueprogramm|verlosung) teilzunehmen/i
 /kostenlos.{1,15}ganz neu/i
 
 /letzte mitteilung.{1,10}eine belohnung/i
@@ -52,6 +52,8 @@
 /besuchen sie unser gewinnerportal/i
 /lieber kunde.{1,15}belohnung abholen/i
 /werbegeschenke zu gewinnen/i
+
+/wir verlosen.{1,10}\d{2,3}.{1,15}gutscheine/i
 
 # Link
 /klicken sie hier.{1,10}um einen anspruch/i 
