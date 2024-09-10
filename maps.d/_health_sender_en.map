@@ -142,6 +142,7 @@
 # Memory
 /memory.?(booster|cure|hack|improver|improvement|loss)/i
 /(excellent|future|sharp|your).?memory/i
+/forgetful/i
 
 # Anti Aging
 # ------------------------------------------------------------------------------
@@ -282,11 +283,6 @@
 # Haemorrhoids
 # ------------------------------------------------------------------------------
 
-# Heart
-# ------------------------------------------------------------------------------
-/clogged.?arteries/i
-/dangerous.?health/i
-
 # Herpes
 # ------------------------------------------------------------------------------
 /herpes.?outbreak/i
@@ -321,6 +317,8 @@
 /heart.?attack/i
 
 /blood.?presssure/i
+/clogged.?arteries/i
+/dangerous.?health/i
 /your heart/i
 
 # Herpes
