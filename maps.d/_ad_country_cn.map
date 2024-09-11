@@ -190,6 +190,7 @@
 /leading company.{1,10}specializing.{1,10}exporting/i
 
 /as a leading.{1,10}company.{1,10}engaged/i
+/as a leading.{1,10}global.{1,10}provider/i
 
 /has been in this field for more than.{1,10}years/i
 
@@ -299,6 +300,10 @@
 # Bags
 # ------------------------------------------------------------------------------
 /our bag factory specializes/i
+
+# Bearings
+# ------------------------------------------------------------------------------
+/proivder.{1,10}one.?stop bearing solutions/i
 
 # Cases
 # ------------------------------------------------------------------------------

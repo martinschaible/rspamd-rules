@@ -62,7 +62,9 @@
 /your (brochure|catalog|catalogue).{1,10}web.?site link/i
 /your (brochure|catalog|catalogue).{1,10}with the best price/i
 
-/your product.{1,10}product.{1,10}(brochure|catalog|catalogue)/i
+/your products?.{1,10}product.{1,10}(brochure|catalog|catalogue)/i
+/your products?.{1,10}please.{1,10}send the us/i
+
 /your reply.{1,10}your product.{1,10}(brochure|catalog|catalogue)/i
 
 # Price List
@@ -82,8 +84,11 @@
 # ------------------------------------------------------------------------------
 /(co|ltd|company).{1,15}we are interested in your product/i
 
-/we are interested in.{1,10}your products.{1,15}your.{1,10}web.?site/i
-/we are interested in.{1,10}your products.{1,15}you to get back/i
+/hello.{1,10}we want to order your products/i
+
+/we are.{1,10}interested in.{1,10}buying your products/i
+/we are.{1,10}interested in.{1,10}your products.{1,15}your.{1,10}web.?site/i
+/we are.{1,10}interested in.{1,10}your products.{1,15}you to get back/i
 
 /know more about your products.{1,10}your company/i
 

@@ -25,6 +25,10 @@
 /sie in höhe von\d{3}.{0,5}\d{3}.{1,10}(millionen|tausend|dollar|euro?|gbp|usd).{1,10}steht ihnen/iu
 /von \d{1,2}.{1,5}millionen euros? ausgewählt/iu
 
+# Charity
+# ------------------------------------------------------------------------------
+/sie für{1,15}wohltätigkeitsprojekt ausgewählt wurden/iu
+
 # Choosen
 # ------------------------------------------------------------------------------
 /sie ausgewählt wurden.{1,10}\d{3}.{0,5}\d{3}/iu
