@@ -59,9 +59,6 @@
 # ------------------------------------------------------------------------------
 /geehrter?.?gewinner/i
 
-/gewinn.{1,10}auf ihren namen ausstellen/i
-/gewinn.{1,10}beanspruchen.{1,10}kontaktieren sie/i
-
 /gewinner.{1,10}ausgewählt.{1,10}als aktiver benutzer/iu
 /gewinner.{1,10}ihre gewinndaten/i
 
@@ -74,7 +71,6 @@
 
 /anspruch geltend zu machen.{1,10}senden sie eine e?.?mail/i
 /erhalten sie bei der.{1,15}(laufenden|online).{1,15}verlosung/i
-/benachrichtigung{1,15}gewinn.?auszahlung/i
 /paket hat unbegrenzte gewinne/i
 
 /sie haben mit ihrer.{1,10}e?.?mail.{1,10}adresse gewonnen/i
@@ -86,7 +82,6 @@
 /sie.{1,10}\d{3}.{1,5}\d{3}.{1,10}(dollar|euro?|gbp|usd).{1,10}millionen.{1,25}tausend euro.{1,10}gewonnen/i
 
 /\d{3}.{1,5}\d{3}.{1,10}(dollar|euro?|gbp|usd) gewonnen.{1,10}zahlungsnummer/i
-/\d{3}.{1,5}\d{3}.{1,10}(dollar|euro?|gbp|usd).{1,10}kontaktieren sie/i
 
 /ihre? e?.?mail.?(adresse|konto).{1,10}die summe.{1,10}\d{3}.{1,5}\d{3}/i
 /ihre? e?.?mail.?(adresse|konto).{1,10}einen geldpreis/i
@@ -104,20 +99,30 @@
 /ihre e?.?mail.{1,10}hat ihnen.{1,10}(den|einen).{1,10}betrag von/i
 /ihre e?.?mail.{1,10}wurde mit der losnummer/i
 
-/ihren gewinn.?anspruch.{1,10}schicken sie/i
-
 /ihrem.{1,15}gewinn von.{1,10}\d{3}.{1,5}\d{3}.{1,15}million/i
 /haben sie.{1,10}\d{3}.{1,5}\d{3}.{1,10}(dollar|euro?|gbp|usd).{1,10}gewonnen/i
+
+/e?.?mail.?datenbank ausgewählt.{1,10}sie haben/iu
+
+#
+/als aktiver benutzer wurden sie.{1,10}gewinner/i
+
+# Contact for payment
+# ------------------------------------------------------------------------------
+/gewinn.{1,10}auf ihren namen ausstellen/i
+/gewinn.{1,10}beanspruchen.{1,10}kontaktieren sie/i
 
 /gewonnen.{1,10}kontaktieren sie uns/i
 /gewonnen.{1,10}antwort mit ihrem vollständigen namen/iu
 /gewonnen.{1,10}antworten sie auf.{1,10}e?.?mail/i
 
-/freigabe ihrer gewinne zu beantragen/i
-/e?.?mail.?datenbank ausgewählt.{1,10}sie haben/iu
+/\d{3}.{1,5}\d{3}.{1,10}(dollar|euro?|gbp|usd).{1,10}kontaktieren sie/i
 
-#
-/als aktiver benutzer wurden sie.{1,10}gewinner/i
+/benachrichtigung{1,15}gewinn.?auszahlung/i
+/freigabe ihrer gewinne zu beantragen/i
+/ihren gewinn.?anspruch.{1,10}schicken sie/i
+
+/kontaktieren sie uns mit.{1,10}winning/i
 
 #
 #
