@@ -333,7 +333,7 @@
 
 # Joints
 # ------------------------------------------------------------------------------
-/joints.?(cure|discomfort|genesis|healed|inflammation)/i
+/joints.?(cure|discomfort|genesis|healed|hero|inflammation|relief)/i
 /anti.?inflammatory/i
 
 # Kidneys
@@ -431,7 +431,9 @@
 # Snoring
 # ------------------------------------------------------------------------------
 /snore.?stop/i
-/stretching/i
+/snoring.?solution/i
+
+/anti.?snoring/i
 
 # Stomach
 # ------------------------------------------------------------------------------
