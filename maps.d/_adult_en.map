@@ -58,7 +58,8 @@
 
 /photo attached.{1,10}(reply me to|response me at)/i
 
-/reply to you my (photos|pictures)/i
+/reply to you my.{1,10}(photo|picture)?/i
+/going to reply you my.{1,10}(photo|picture)?/i
 
 /you my (photos?|pictures?).{1,10}attach/i
 
@@ -131,7 +132,7 @@
 # Silly Chitchat/Phrases
 # ------------------------------------------------------------------------------
 /i am a (fair|lovely|solitary).{1,10}girl/i
-/i.?m a alone female/i
+/i.?m a (lonely|alone) (female|miss)/i
 /not a married lady/i
 
 /horny.{0,10}adults?/i
