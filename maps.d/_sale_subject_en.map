@@ -182,6 +182,10 @@
 /seo.?(agency|best cost|offer)/i
 /seo.{1,15}(expert|package|plans?|pricing|promote|proposal|services|success)/i
 
+/^(1st|first|seo|top).{1,15}(page|rankings?)$/i
+/(1st|first|seo|top).{1,15}(page|rankings?|spot).{1,10}(plan|seo)/i
+/(1st|first).?page.?rank(ing)?/i
+
 /affordable seo/i
 
 /about your web.?site/i
@@ -192,39 +196,35 @@
 /rank.{1,10}proposal/i
 
 /boost your.{1,10}(online presence|rankings)/i
-/(1st|first).?page.?rank(ing)?/i
 
 /full seo.?package/i
 
 /increase revenue.{1,10}profits/i
 /increase your business sells/i
 
+/search.?engine.{1,10}rankings/i
+/site a seo/i
+
+/proposal page 1/i
 transform.{1,10}website traffic/i
 
 /more traffic.{1,10}revenue/i
 /want more traffic/i
 
-/search.?engine.{1,10}rankings/i
-/site a seo/i
-
 /you need.{1,10}seo/i
 
 # Google
-/^(1st|first|seo|top).{1,15}(page|rankings?)$/i
-/(1st|first|seo|top).{1,15}(page|rankings?).{1,10}(plan|seo)/i
-/(1st|first|seo|top).{1,15}(page|rankings?).{1,10}(bing|google|yahoo)/i
+/(bing|google|yahoo).{1,10}(1 page|1st page|first page|page 1st|listing)/i
 
-/page (1|of).{1,10}(bing|google|yahoo)/i
-/(guaranteed|top rank(ing)?).{1,10}(bing|google|yahoo)/i
-
-/(bing|google).{1,10}(1 page|1st page|first page|page 1st|listing)/i
+/(1st|first|seo|top).{1,15}(page|rankings?|spot).{1,10}(bing|google|yahoo)/i
 
 /appear on the first page.{1,10}(bing|google|yahoo)/i
-
-/get found.{1,10}google/i
+/page (1|of).{1,10}(bing|google|yahoo)/i
+/(guaranteed|top rank(ing)?).{1,10}(bing|google|yahoo)/i
+/get found.{1,10}(bing|google|yahoo)/i
 
 /your (page|website).?rank.{1,10}(bing|google|yahoo)/i
-/your (page|website) on google/i
+/your (page|website).{1,10}(bing|google|yahoo)/i
 
 # SEO, Reputation
 # ------------------------------------------------------------------------------
