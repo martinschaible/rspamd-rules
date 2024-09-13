@@ -162,6 +162,10 @@
 # Companies and Organisations
 # ------------------------------------------------------------------------------
 
+# ARD ZDF
+/rundfunkbeitrag/i
+
+# Parcel
 /(fedex|hermes|mydpd|swiss).{0,10}(abteilung|lieferung|versand)/i
 
 # DHL
