@@ -61,8 +61,9 @@
 /hier klicken.{1,10}\d{2,3}.{1,15}gutschein/i
 
 # Brandnew
+/brandneues.{1,10}produkt zu erhalten/i
 /du hast ein brandneues.{1,20}bekommen/i
-/ihnen die exklusive gelegenheit.{1,10}ein brandneues/i
+/(haben die|ihnen die).{1,10}(einmalige|exklusive).{1,10}gelegenheit.{1,10}ein brandneues/i
 
 # Voucher
 

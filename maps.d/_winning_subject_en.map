@@ -36,6 +36,7 @@
 /winning.{1,10}reference number/i.?
 
 /you could win/i
+/^you have won$/i
 /you have won.{1,10}\d{3}.{0,5}\d{3}/i
 
 /you win$/i
