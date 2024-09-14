@@ -58,11 +58,10 @@
 
 /(big|bloated|bulging|slimmer|tiny|your).?belly/i
 
-/fat.?(fast|vanish)/i
+/fat.?(fast|loss|vanish)/i
 /fat.?(burn(er)?|burning|flush|melting)/i
 
-/flab.?melting/i
-/flat.?(stomach|tummy)/i
+/flat.?(melting|stomach|tummy)/i
 
 /wobbly.?fat/i
 
@@ -239,7 +238,7 @@
 /(20|clear|enhancing|flawless|night|perfect|restore|supreme|weak).?(eye.?sight|view|vision)/i
 
 /eagle.{1,10}vision/i
-/vision.?(enhancing|restorer?)/i
+/vision.?(enhancing|loss|restorer?)/i
 
 /bad.?eyes/i
 
@@ -311,6 +310,7 @@
 
 /(bad|restore).?hearing/i
 /ear.?humming/i
+/sharp(er)?.?ears/i
 
 # Heart, Blood pressure
 # ------------------------------------------------------------------------------

@@ -23,4 +23,5 @@
 /\d{2,3}-\d{2,3}-\d{2,3}-\d{2,3}\.plesk\.page/i
 
 # Japanese Phishing
-/epos_net\./i
+/epos(-|_)(mail|net)\./i
+/\<epos(-|_)/i

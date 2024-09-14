@@ -29,6 +29,8 @@
 /heilmittel gegen.{1,20}fett/i
 
 /nehmen sie.{1,10}kilo in.{1,10}tagen.{1,10}ab/i
+/nehmen sie sofort ab/i
+
 /nr\..{1,10}gewichtsverlust/i
 /ohne diät.{1,10}ohne sport/iu
 /schlankheits.?revolution/i
@@ -41,12 +43,22 @@
 /zu einem.{1,10}fett.?verbrenner/i
 /zu hartnäckigem fett/i
 
+# No Diet, no ...
+# ------------------------------------------------------------------------------
+/kein arzt.{1,10}keine diät/iu
+/keine diät.{1,10}keine entbehrungen/iu
+
 # Products
 # ------------------------------------------------------------------------------
 /(power|probieren sie).{1,10}keto/i
 
 /diät.?sensation/iu
 /die neueste.{1,10}diät/iu
+
+# Stupid Promises, lies
+# ------------------------------------------------------------------------------
+/fettverbrenner verwandelt/i
+
 #
 #
 #
