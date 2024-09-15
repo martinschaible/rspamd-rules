@@ -514,8 +514,9 @@ letzter gewinner/i
 /amazon gutschein gewinnen/i
 
 # Apple
-/iphone.{0,10}pro.{1,10}ausstehende sendung/i
-/du hast ein.{1,10}iphone.{0,10}pro/i
+/(ipad|iphone).{0,10}pro.{1,10}ausstehende sendung/i
+/du hast ein.{1,10}(ipad|iphone).{0,10}pro/i
+/um ihr (ipad|iphone).{1,10}zu verschicken/iu
 
 # Dewalt
 /fordern sie ihren.{1,10}dewalt/i

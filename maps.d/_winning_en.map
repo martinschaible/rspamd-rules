@@ -78,7 +78,7 @@
 /your.{1,10}e?.?mail.?(account|address|id)?.{1,10}has won/i
 /your.{1,10}e?.?mail.?(account|address|id)?.{1,10}is the lucky winner/i
 /your.{1,10}e?.?mail.?(account|address|id)?.{1,10}was chosen at random/i
-/your.{1,10}e?.?mail.?(account|address|id)?.{1,10}was randomly selected.{1,15}(charity|from|gift)/i 
+/your.{1,10}e?.?mail.?(account|address|id)?.{1,10}was randomly selected.{1,25}(charity|electronic|from|gift|spin)/i
 /your.{1,10}e?.?mail.?(account|address|id)?.{1,10}won.{1,10}million/i
 
 /batch.?number.{1,20}official winning/i

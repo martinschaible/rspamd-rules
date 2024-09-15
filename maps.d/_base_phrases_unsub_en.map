@@ -30,7 +30,7 @@
 #/unsubscribe.{1,10}\d{5}/i
 
 /(ca|nv|ny).{1,5}us \d{5}.{1,10}unsubscribe.{1,10}here/i
-/(ca|nv|ny).{1,5}\d{5} us.{1,10}you no longer wish to recieve/i
+/(ca|nv|ny).{1,5}\d{5}.{1,10}you no longer wish to recieve/i
 /(ca|nv|ny).{1,5}\d{5}.{1,10}to update.{1,10}remove your contact information/i
 
 /click here.{1,10}or write us at.{1,15}\d{2,5}/i

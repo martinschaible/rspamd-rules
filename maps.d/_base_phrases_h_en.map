@@ -66,7 +66,7 @@
 
 # E-Mail received
 # ------------------------------------------------------------------------------
-/(confirm|hello).{1,10}(did|if) you get my previous.{1,10}e?.?mail/i
+/(confirm|hello).{1,10}(did|if) you (get|receive).{1,10}(earlier|previous).{1,10}e?.?mail/i
 
 /you get my e?.?mail.{1,10}haben sie/i
 

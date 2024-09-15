@@ -119,37 +119,36 @@
 #
 /box.?set.{0,15}gewinner/i
 
-# A to C
-/(ali.?express|aldi|apple|bahn|cuisine|connect).{0,15}(abteilung|angebot|bestätigung|code)/i
-/(ali.?express|aldi|apple|bahn|cuisine|connect).{0,15}(geschenke|gewinner|gutschein)/i
-/(ali.?express|aldi|apple|bahn|cuisine|connect).{0,15}(help.?desk|kontakt|sender|sendung|umfrage|versand|zustellung)/i
-/(ali.?express|aldi|apple|bahn|cuisine|connect).{0,15}kunde$/i
+# Companies A to C
+/(ali.?express|aldi|apple|bahn).{0,15}(abteilung|angebot|bestätigung|code)/i
+/(ali.?express|aldi|apple|bahn|cuisine).{0,15}(geschenke|gewinner|gutschein)/i
+/(ali.?express|aldi|apple|bahn|cuisine).{0,15}(help.?desk|kontakt|sender|sendung|umfrage|versand|zustellung)/i
+/(ali.?express|aldi|apple|bahn|cuisine).{0,15}kunde$/i
 
-# D to M
+# Companies D to M
 /(declathon|deutsche.?bahn|dewalt|drogerie|edeka|fressnapf|kaufland).{0,15}(abteilung|angebot|bestätigung|code)/i
 /(declathon|deutsche.?bahn|dewalt|drogerie|edeka|fressnapf|kaufland).{0,15}(geschenke|gewinner|gutschein)/i
 /(declathon|deutsche.?bahn|dewalt|drogerie|edeka|fressnapf|kaufland).{0,15}(help.?desk|kontakt|sender|sendung|umfrage|versand|zustellung)/i
 /(declathon|deutsche.?bahn|dewalt|drogerie|edeka|fressnapf|kaufland).{0,15}kunde$/i
 
-# L to Z
-/(le.?creuset|lidl|media.?market|migros|otto|persil|rewe|samsung|temu).{0,15}(abteilung|angebot|bestätigung|code)/i
-/(le.?creuset|lidl|media.?market|migros|otto|persil|rewe|samsung|temu).{0,15}(geschenke|gewinner|gutschein)/i
-/(le.?creuset|lidl|media.?market|migros|otto|persil|rewe|samsung|temu).{0,15}(help.?desk|kontakt|sender|sendung|umfrage|versand|zustellung)/i
-/(le.?creuset|lidl|media.?market|migros|otto|persil|rewe|samsung|temu).{0,15}kunde$/i
-
-/kunden.?dm/i
+# Companies L to Z
+/(le.?creuset|lidl|media.?market|migros|otto|rewe|samsung|temu).{0,15}(abteilung|angebot|bestätigung|code)/i
+/(le.?creuset|lidl|media.?market|migros|otto|rewe|samsung|temu).{0,15}(geschenke|gewinner|gutschein)/i
+/(le.?creuset|lidl|media.?market|migros|otto|rewe|samsung|temu).{0,15}(help.?desk|kontakt|sender|sendung|umfrage|versand|zustellung)/i
+/(le.?creuset|lidl|media.?market|migros|otto|rewe|samsung|temu).{0,15}kunde$/i
 
 /kaufland.{0,5}#\d{1,10}/i
 /kauf\.land/i
 /kauflandmarkt/i
+/kunden.?dm/i
 /danke.{0,5}kaufland/i
 
 /2024.?lidl/i
 
 /r0ssmann/i
 
-# Brands, Products
-# ------------------------------------------------------------------------------
+# Products
+/(persil|series).{0,15}gewinner/i
 /(pro|s24).?gewinner/i
 /notfallset/i
 

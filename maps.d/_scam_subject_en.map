@@ -43,12 +43,14 @@
 # Claim
 # ------------------------------------------------------------------------------
 /attention.{1,10}claim/i
+/claim now/i
 /claim your.{1,10}/\d{3}.{0,5}\d{3}/i
 /your claim today/i
 
 # Donation
 # ------------------------------------------------------------------------------
 /(claims|message|reply|you have).{1,15}donation/i
+/tesla.{1,5}donation/i
 
 /donation.{1,10}(spende|win)/i
 /donation of.{1,10}million/i
@@ -66,6 +68,8 @@
 /you.{1,10}(have|won).{1,10}donation/i
 /you.{1,10}have been donated/i
 /you as a donation/i
+
+/your.{1,10}\d{3}.{0,5}\d{3}/i
 
 # Funds, Money, Sum
 # ------------------------------------------------------------------------------
@@ -140,6 +144,9 @@
 
 /asset transfer partnership/i
 /usd.{1,10}compensation/i
+/compensation has been approved/i
+
+/COMPENSATION
 
 /your.{1,10}compensated/i
 /your.{1,10}compensation payment/i
@@ -219,6 +226,8 @@
 /my perverted friend/i
 
 /you have been hacked/i
+
+/h 4 c k e d/i
 
 #
 #

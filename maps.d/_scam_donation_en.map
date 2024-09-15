@@ -56,7 +56,8 @@
 /donated?.{1,10}to you.{1,10}\d{3}.{0,5}\d{3}.{1,10}euros from/i
 /donated?.{1,10}from what i have inherited/i
 
-/was selected randomly.{1,10}receive.{1,15}donation/i
+/claim.{1,10}your.{1,10}donation/i
+/drawing to receive.{1,10}donation/i
 /has selected you for.{1,10}donation/i
 
 /selected.{1,10}to receive.{1,15}donation/i
@@ -77,6 +78,8 @@
 /million.{1,10}(dollar|euro?|gbp|usd).{1,10}reply for more details/i
 /(million|dollars?|euro?|gbp|usd).{1,10}have been donated to you/i
 
+/was selected randomly.{1,10}receive.{1,15}donation/i
+
 /you.{1,10}been granted.{1,10}donation/i
 /you.{1,10}(have|received|will receive|won).{1,20}donation/i
 /you.{1,10}have been picked for.{1,20}(donation|grant|humanitarian)/i
@@ -86,8 +89,6 @@
 /your.{1,10}e?.?mail.{1,10}(account|address).{1,10}was selected for.{1,10}donation/i
 /your.{1,10}e?.?mail.{1,10}(account|address).{1,10}won.{1,10}donation/i
 /your.{1,10}e?.?mail.{1,10}was drawn for.{1,10}donation/i
-
-/claim.{1,10}your.{1,10}donation/i
 
 /we got a give away.{1,10}donation/i
 
