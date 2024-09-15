@@ -497,6 +497,7 @@
 /glückwunsch an unser.{1,10}gewinner des brandneuen/i
 /sie haben ein.{5,20}gewonnen.?/i
 /verwenden sie diesen code/i
+/wartet auf sie.{1,10}jetzt sichern/i
 /wir haben versucht.{1,10}sie zu kontaktieren/i
 
 letzter gewinner/i
@@ -506,9 +507,13 @@ letzter gewinner/i
 
 /ausstehende sendung.{1,10}acer/i
 
+# ADAC
+/ihr kostenloses.{1,10}auto.?notfallset/i
+
 # AliExpress
 /erhalten sie.{1,10}aliexpress.{1,10}mystery.?box/i
 /du hast eine.{1,15}mystery.?box gewonnen/i
+/erkunde die.{1,15}mystery.?box/i
 
 # Amazon
 /amazon gutschein gewinnen/i

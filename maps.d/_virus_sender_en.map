@@ -20,6 +20,8 @@
 /(av|mca?fee).?(alarm|support)/i
 /(av|mca?fee).{0,5}#/i
 
+/^total.?av$/i
+
 /norton.{0,15}partner/i
 
 /docusign.{1,5}review via/i
