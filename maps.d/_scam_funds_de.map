@@ -30,12 +30,15 @@
 
 /(dollar|euro?|gbp|usd).{1,10}der ihrem.{1,10}namen zugeordnet ist/i
 
-/nicht beanspruchten.{1,10}fonds bekommen/i
 /um den.{1,10}fonds zu beanspruchen/i
 
 /sie.{1,10}million.{1,10}(dollar|euro?|gbp|usd).{1,10}auf ihrem konto erhalten/i
 
 /vorschlag.{1,10}\d{2,3}.{0.5}\d{2,3}.{1,10}(dollar|euro?|gbp|usd)/i
+
+# Unclaimed funds
+# ------------------------------------------------------------------------------
+/nicht beanspruchten.{1,10}fonds bekommen/i
 /wir haben einen nicht (beanspruchten|eingeforderten).{1,10}betrag/i
 
 # Claims

@@ -175,6 +175,7 @@
 /inquiry\*/i
 /inquiry.{1,15}about your products/i
 
+/^soa$/i
 /request for quotation.{1,20}purchase/i
 /urgent quotation notification/i
 /quotation.{1,20}request for (processing|quotation)/i

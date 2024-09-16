@@ -19,6 +19,7 @@
 
 /(apply for|need).{1,10}loan/i
 
+/personal.{1,10}corporate.{1,10}loans/i
 /various types.{1,10}(finance|funding|loans?)/i
 /we (are open|offer|provide).{1,10}(finance|funding|loans?)/i
 
@@ -56,6 +57,8 @@
 
 # Unclassified
 # ------------------------------------------------------------------------------
+/i work with an investment firm/i
+
 /check your.{1,10}score today/i
 /potential.{1,10}business.{1,10}grant/i
 /unlock business growth/i

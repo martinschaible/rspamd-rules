@@ -57,6 +57,7 @@
 /rechnung.{1,10}den monats?.{1,30}(doppelt|zweimal).{1,10}(bezahlt wurde|erfolgt ist)/i
 /rechnung für.{1,20}(doppelt|zweimal).{1,10}(bezahlt wurde|erfolgt ist)/i
 
+/doppelte zahlung.{1,15}ihre rechnung/i
 /doppelte zahlung.{1,15}rechnung.{1,15}verursacht wurden/i
 /doppelte zahlung.{1,10}verarbeitet wurde/i
 
@@ -74,6 +75,7 @@
 /zurückerhalten.{1,10}indem sie unten klicken/iu
 
 /sicheren rückerstattungsprozess/iu
+/sofortige rückerstattung zu erhalten/iu
 /system aufgetreten ist.{1,10}der zu einer belastung/i
 
 /(link|sie ein).{1,15}eine rückerstattung zu (beantragen|erhalten)/iu
