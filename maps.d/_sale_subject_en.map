@@ -145,6 +145,7 @@
 # Developing Websites
 # ------------------------------------------------------------------------------
 /about web.?site/i
+/build.{1,10}ecommerce.{1,10}web.?site/i
 /custom.{1,15}web.?site.?design/i
 /considering.{1,10}new web.?site/i
 
@@ -174,7 +175,8 @@
 /web design.{1,10}web development/i
 /web designs/i
 
-/you want to.{1,15}designing.{1,20}web.?site/i
+/you (need|want) to.{1,15}designing.{1,20}web.?site/i
+/you (need|want).{1,10}web.?site.{1,10}development/i
 /your current.{1,10}web.?site with/i
 
 # SEO

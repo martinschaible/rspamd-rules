@@ -10,6 +10,7 @@
 # Organisations and Programs
 # ------------------------------------------------------------------------------
 /(asian|continental).{1,10}lottery.{1,10}commission/i
+/asian welfare lottery/i
 
 /central.loteria.nacional/i
 
@@ -81,6 +82,7 @@
 /your.{1,10}e?.?mail.?(account|address|id)?.{1,10}was randomly selected.{1,25}(charity|electronic|from|gift|spin)/i
 /your.{1,10}e?.?mail.?(account|address|id)?.{1,10}won.{1,10}million/i
 
+/your winning pin/i
 /batch.?number.{1,20}official winning/i
 
 /e?.?mail is.{1,20}inform you that you won/i
