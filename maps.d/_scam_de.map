@@ -235,34 +235,33 @@
 
 # Solar energy
 # ------------------------------------------------------------------------------
+/(internet|vergleichs).?seite.{1,10}bieten wir.{1,10}eine kostenlose/i
+/(internet|vergleichs).?seite.{1,10}eine Berechnung durchführen/iu
+/(internet|vergleichs).?seite.{1,10}können sie kostenlos/i
+
 /photo.?voltaik.?anlage.{1,10}ausstattet kann.{1,10}profitieren/i
 /photo.?voltaik.?anlage.{1,10}erzeugen sie ihren strom/i
 
 /solar.?anlage.{1,10}die (ihren strom|richtige)/i
 
-/unser kostenloses.{1,10}analyse.?tool/i
-/unserer kostenlosen vergleichsplattform/i
+/kostenlos über alle förderungen/iu
+/(kostenlosen|kostenloser).{1,15}rechner/i
+/(kostenlosen|kostenloser).{1,10}solar.?rechner/i
+/(kostenlosen|kostenloser).{1,10}unverbindlichen vergleich erfahren sie/i
 
-/kostenlosen.{1,10}unverbindlichen vergleich erfahren sie/i
-/kostenloser.{1,10}solar.?rechner/i
-/unser(en)? (kostenlosen|kostenloser).{1,15}rechner/i
-
-/unverbindlich.{1,10}kostenlos.{1,10}welche anlage/i
-/prüfen sie hier.{1,10}welche förderungen.{1,10}sie /iu
-/starten sie ihre kostenlose.{1,10}(analyse|berechnung)/i
 /minuten.?analyse.{1,10}starten/i
 /minuten.?check auf unserer website/i
+/minuten.?solar.?analyse/i
 
-/(internet|vergleichs).?seite.{1,10}bieten wir.{1,10}eine kostenlose/i
-/(internet|vergleichs).?seite.{1,10}eine Berechnung durchführen/iu
-/(internet|vergleichs).?seite.{1,10}können sie kostenlos/i
+/unser kostenloses.{1,10}analyse.?tool/i
+/unserer kostenlosen vergleichsplattform/i
+/unverbindlich.{1,10}kostenlos.{1,10}welche anlage/i
+
+/prüfen sie hier.{1,10}welche förderungen.{1,10}sie /iu
+/starten sie ihre kostenlose.{1,10}(analyse|berechnung)/i
 
 /ihr gebäude finden sie hier/iu
 /wir ihnen einen kostenlosen überblick.{1,10}alle anlagen/i
-
-/als ihre energieberater hier/i
-
-/sie sich eine anlage zum nulltarif/i
 
 #
 /ihren strom komplett selbst erzeugen/i
