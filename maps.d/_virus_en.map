@@ -16,6 +16,7 @@
 /attached.{1,10}proforma invoice.{1,15}outstanding/i
 /attached.{1,10}proposal with you/i
 /attached.{1,10}quotation request.{1,10}with.{1,20}(detailed|specifications)/i
+/attached.{1,10}rfq.?file/i
 /attached.{1,10}request you to send us your/i
 /attached.{1,10}requisition for your reference/i
 /attached.{1,10}signed contract.{1,20}remittance advice/i
@@ -27,8 +28,9 @@
 /extract.{1,10}view receipts/i
 /find bank.?transfer.{1,10}(form|details).{1,10}attached/i
 
-/(dear sir|good day).{1,10}attached kindly/i
-/(dear sir|good day).{1,10}please find.{1,10}(attachment|attached)/i
+/(dear (madam|sir)|good day).{1,10}attached kindly/i
+/(dear (madam|sir)|good day).{1,10}please find.{1,10}(attachment|attached)/i
+/(dear (madam|sir)|good day).{1,15}refer to the.{1,10}(attachment|attached)/i
 
 /find attached and send us/i
 

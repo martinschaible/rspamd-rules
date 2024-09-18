@@ -143,7 +143,7 @@
 
 #/rfq\.zip/i
 /rfq#order/i
-/rfq\.html/i
+/rfq\.(doc|html)/i
 
 # Sample: RFQ_0020829024SEPT.xla
 /rfq_\d{1,15}[a-z]{1,10}\.xla/i

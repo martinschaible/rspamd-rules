@@ -28,8 +28,8 @@
 # No need to refer to this folder
 /\/wp-content\/upgrade\//i
 
-# No PHP files in this folder
-/\/wp-content\/[a-z]{1,15}\/[a-z]{1,15}\.php/i
+# No HTML or PHP files in this folder
+/\/wp-content\/[a-z]{1,15}\/[a-z]{1,15}\.(html|php)/i
 
 # No need to refer to this folder
 /\/wp-includes\/[a-z]{1,15}\//i

@@ -53,6 +53,7 @@
 /(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).{1,15}factory.{1,10}specializes.{1,10}producing/i
 /(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).{1,15}(my|our).{1,10}(company|factory).{1,10}(offers|specialized|specializes)/i
 /(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).{1,20}supply all kinds of.{1,10}quality/i
+/(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).{1,15}help you save cost/i
 /(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).{1,15}hope to open.{1,10}(business|relationship)/i
 /(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).{1,25}reliable supplier of.{1,10}quality/i
 
@@ -110,6 +111,8 @@
 /we.?a?re.{1,10}one of the biggest.{1,10}(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang)/i
 /we.?a?re.{1,10}full.?service.{1,25}(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang)/i
 /we.?a?re.{1,10}premier china/i
+
+/we can offer you.{1,25}lowest prices.{1,10}(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang)/i
 
 /professional.{1,25}fabrication.{1,10}factory in.{1,10}(china|dongguan|guangzhou|guangdong|shenzhen|zhejiang)/i
 
@@ -378,6 +381,10 @@
 # China
 /electronic distributor in.{1,10}(china|dongguan|guangzhou|shenzhen|zhejiang)/i
 
+# Firefighting
+# ------------------------------------------------------------------------------
+/explore our.{1,20}selection .{1,10}(firefighting|foam)/i
+
 # Glass
 # ------------------------------------------------------------------------------
 /we do mainly.{1,10}glassware/i
@@ -448,7 +455,7 @@
 /(pcba?|printed.circuit.board).{1,20}we specialize in this field/i
 /(pcba?|printed.circuit.board).{1,20}with.{1,10}years experience/i
 
-/any.{1,10}(pcba?|printed.circuit.board).{1,10}orders/i
+/any.{1,10}(pcba?|printed.circuit.board).{1,15}(orders|requests)/i
 /ltd.{1,10}a professional.{1,10}(pcba?|printed circuit board)?/i
 /in the field of.{1,10}(pcba?|printed circuit board).{1,10}years/i
 
