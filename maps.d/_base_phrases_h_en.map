@@ -85,8 +85,10 @@
 # Excuses and other silly stuff
 # ------------------------------------------------------------------------------
 /(apology|apologies) for.{1,10}unexpected contact/i
-/(apology|apologies) for sending this unsolicited e.?mail/i
-/(apology|apologies) for this unsolicited letter to you/i
+/(apology|apologies) for.{1,10}sending this unsolicited e.?mail/i
+/(apology|apologies) for.{1,10}this unsolicited letter to you/i
+
+/barging.{1,10}your privacy without your approval/i
 
 /i apologize.{1,10}infringing.{1,10}your privacy/i
 /i am.{1,10}sorry.{1,10}(for intruding|to invade)/i
