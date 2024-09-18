@@ -56,7 +56,7 @@
 /donated?.{1,10}to you.{1,10}\d{3}.{0,5}\d{3}.{1,10}euros from/i
 /donated?.{1,10}from what i have inherited/i
 
-/claim.{1,10}your.{1,10}donation/i
+/(claim|reach you).{1,10}your.{1,10}donation/i
 /drawing to receive.{1,10}donation/i
 /has selected you for.{1,10}donation/i
 

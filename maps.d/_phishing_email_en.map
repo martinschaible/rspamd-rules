@@ -9,6 +9,7 @@
 
 # Delivery pending, bounced, blocked, hold
 # ------------------------------------------------------------------------------
+/(e?.?mails?|messages?).{1,10}awaiting your inbox/i
 /(e?.?mails?|messages?).{1,10}do not reach your.{1,10}inbox/i
 /(e?.?mails?|messages?).{1,10}from your contacts are.{1,15}on hold/i
 /(e?.?mails?|messages?).{1,10}has been blocked by.{1,10}administrator/i
@@ -20,6 +21,7 @@
 
 /activate.{1,10}receive.{1,10}(incoming|pending).{1,10}(e?.?mails?|messages?)/i
 
+/important.{1,10}(e?.?mails|messages).{1,10}awaiting/i
 /incoming.{1,10}(e?.?mail|messages) failed/i
 
 /you have.{1,10}(bounced|pending|undelivered|unreceived).{1,15}(e?.?mails?|messages?)/i
@@ -36,7 +38,8 @@
 /your.{1,10}e?.?mail.?address.{1,10}(imap|pop3)/i
 
 # Action to release EMails
-/release.{1,10}(incoming|pending|suspended).{1,10}(e?.?mails?|messages?).{1,10}to.{1,10}inbox/i
+/(release|unlock).{1,10}(incoming|pending|suspended).{1,10}(e?.?mails?|messages?).{1,10}to.{1,10}inbox/i
+/(release|unlock).{1,10}(incoming|pending|suspended).{1,10}(e?.?mails?|messages?).{1,10}now/i
 
 #
 /disconnected from sending.{1,10}receiving.{1,10}e?.?mails/i

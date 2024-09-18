@@ -48,7 +48,7 @@
 /you have been awarded.{1,10}\d{3}.{0,5}\d{3}/i
 /you have been awarded.{1,10}compensation/i
 
-/your.{1,15}stock awards?/i
+/your.{1,15}(donation|stock) awards?/i
 
 # Beneficiary
 # ------------------------------------------------------------------------------
