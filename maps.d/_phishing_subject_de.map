@@ -265,7 +265,7 @@
 
 /(paket|sendung).{1,10}aufgrund fehlender versandkosten nicht liefern/i
 /(paket|sendung).{1,10}(bewegt sich|in der warteschleife)/i
-/(paket|sendung).{1,10}auf die zustellung wartet/i
+/(paket|sendung).{1,10}auf die (lieferung|zustellung) wartet/i
 /(paket|sendung).{1,10}bei ihnen ankommt/i
 /(paket|sendung).{1,10}bestätigt.{1,15}planen sie/i
 
@@ -302,6 +302,8 @@
 /ihre bestellung konnte nicht geliefert werden/i
 
 /lieferadresse.{1,15}bevorstehende sendung/i
+
+/(lieferung|versand).{1,10}nach einem problem.{1,15}aufmerksamkeit/i
 /(lieferung|versand).{1,10}(ausstehende|unbezahlte).{1,10}(versandkosten|zollgebühren)/iu
 /(lieferung|versand).{1,10}wurde aufgrund falscher angaben/i
 /(lieferung|versand).{1,10}steht aus/i
