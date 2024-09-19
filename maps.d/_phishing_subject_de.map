@@ -511,6 +511,7 @@ letzter gewinner/i
 /ausstehende sendung.{1,10}acer/i
 
 # ADAC
+/notfallset wartet auf sie/i
 /ihr kostenloses.{1,10}auto.?notfallset/i
 
 # AliExpress
@@ -524,7 +525,7 @@ letzter gewinner/i
 # Apple
 /(ipad|iphone).{0,10}pro.{1,10}ausstehende sendung/i
 /du hast ein.{1,10}(ipad|iphone).{0,10}pro/i
-/erhalten sie ihr.{1,10}(ipad|iphone){1,10}binnen/i
+/erhalten sie ihr.{1,10}(ipad|iphone).{1,10}binnen/i
 /um ihr (ipad|iphone).{1,10}zu verschicken/iu
 
 # Dewalt

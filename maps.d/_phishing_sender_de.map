@@ -120,10 +120,10 @@
 /box.?set.{0,15}gewinner/i
 
 # Companies A to C
-/(ali.?express|aldi|apple|bahn).{0,15}(abteilung|angebot|bestätigung|code)/i
-/(ali.?express|aldi|apple|bahn|cuisine).{0,15}(geschenke|gewinner|gutschein)/i
-/(ali.?express|aldi|apple|bahn|cuisine).{0,15}(help.?desk|kontakt|sender|sendung|umfrage|versand|zustellung)/i
-/(ali.?express|aldi|apple|bahn|cuisine).{0,15}kunde$/i
+/(a.?d.?a.?c|ali.?express|aldi|apple|bahn).{0,15}(abteilung|angebot|bestätigung|code)/i
+/(a.?d.?a.?c|ali.?express|aldi|apple|bahn|cuisine).{0,15}(geschenke|gewinner|gutschein)/i
+/(a.?d.?a.?c|ali.?express|aldi|apple|bahn|cuisine).{0,15}(help.?desk|kontakt|sender|sendung|umfrage|versand|zustellung)/i
+/(a.?d.?a.?c|ali.?express|aldi|apple|bahn|cuisine).{0,15}kunde$/i
 
 # Companies D to M
 /(declathon|deutsche.?bahn|dewalt|drogerie|edeka|fressnapf|kaufland).{0,15}(abteilung|angebot|bestätigung|code)/i

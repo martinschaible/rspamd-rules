@@ -112,12 +112,25 @@
 
 /airline customer survey/i
 
-# A to H
-/(ace|aldi|autozone|costco|cvs|delta|dewalt|epson|harbor.?freight|home.?depot).{0,25}(clearances?|confirmation|coupon|deals|delivery|department|experience|feedback|gift.?card|giveaways?|opinion|renewal|rewards?|shipping|shipment|shopper|surprise|unlocked|values||winner)/i
-# K to P
-/(kobalt|kohls|kroger|lowe.?s|milwaukee|netflix|paypal|peacock|phone).{0,15}(clearances?|confirmation|coupon|deals|delivery|department|experience|feedback|gift.?card|giveaways?|opinion|renewal|rewards?|shipping|shipment|shopper|surprise|unlocked|values|winner)/i
-# Q to Z
-/(sam.?s.?club|stanley|staples|starbucks|target|temu|ups|verizon|walmart).{0,15}(clearances?|confirmation|coupon|deals|delivery|department|experience|feedback|gift.?card|giveaways?|opinion|renewal|rewards?|shipping|shipment|shopper|surprise|unlocked|values|winner)/i
+# Companies A to C
+/(a.?d.?a.?c|ace|aldi|autozone|costco|cvs|delta).{0,25}(clearances?|confirmation|coupon|deals|delivery|department)/i
+/(a.?d.?a.?c|ace|aldi|autozone|costco|cvs|delta).{0,25}(experience|feedback|gift.?card|giveaways?|opinion|renewal|rewards?)i
+/(a.?d.?a.?c|ace|aldi|autozone|costco|cvs|delta).{0,25}(shipping|shipment|shopper|surprise|unlocked|values||winner)/i
+
+# Companies D to M
+(dewalt|epson|harbor.?freight|home.?depot).{0,25}(clearances?|confirmation|coupon|deals|delivery|department)/i
+(dewalt|epson|harbor.?freight|home.?depot).{0,25}(experience|feedback|gift.?card|giveaways?|opinion|renewal|rewards?)i
+(dewalt|epson|harbor.?freight|home.?depot).{0,25}(shipping|shipment|shopper|surprise|unlocked|values||winner)/i
+
+# Companies K to P
+/(kobalt|kohls|kroger|lowe.?s|milwaukee|netflix|paypal|peacock).{0,15}(clearances?|confirmation|coupon|deals|delivery|department)/i
+/(kobalt|kohls|kroger|lowe.?s|milwaukee|netflix|paypal|peacock).{0,15}(experience|feedback|gift.?card|giveaways?|opinion|renewal|rewards?)i
+/(kobalt|kohls|kroger|lowe.?s|milwaukee|netflix|paypal|peacock).{0,15}(shipping|shipment|shopper|surprise|unlocked|values||winner)/i
+
+# Companies Q to Z
+/(sam.?s.?club|stanley|staples|starbucks|target|temu|ups|verizon|walmart).{0,15}(clearances?|confirmation|coupon|deals|delivery|department)/i
+/(sam.?s.?club|stanley|staples|starbucks|target|temu|ups|verizon|walmart).{0,15}(experience|feedback|gift.?card|giveaways?|opinion|renewal|rewards?)i
+/(sam.?s.?club|stanley|staples|starbucks|target|temu|ups|verizon|walmart).{0,15}(shipping|shipment|shopper|surprise|unlocked|values||winner)/i
 
 /(netflix|peacock).?(loyalty|membership)/i
 /pittsburgh.?tool.?set/i
