@@ -382,7 +382,7 @@
 # ------------------------------------------------------------------------------
 /kunden.?belohnung(en)?/i
 
-/(belohnung|gutschein).{1,10}(freigeschaltet|ist zum versenden|wartet sie)/i
+/(belohnung|gutschein).{1,10}(freigeschaltet|ist zum versenden|reserviert|wartet sie)/i
 /antworten.{1,10}gewinnen/i
 
 /sie sind der auserwählte/iu
