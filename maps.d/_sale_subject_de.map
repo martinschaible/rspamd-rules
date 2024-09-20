@@ -47,7 +47,7 @@
 /(büro|massage).?(stuhl|stühle).{1,25}(erhältlich|netto|nur|reduziert|statt|zugreifen)/iu
 /(büro|massage).?(stuhl|stühle).{1,15}(sonder|spezial).?preis/i
 /(büro|massage).?(stuhl|stühle).{1,15}für (nur|\d{3})/i
-/(büro|massage).?(stuhl|stühle).{1,15}mit.{1,15}bezug/i
+/(büro|massage).?(stuhl|stühle).{1,15}mit.{1,15}(bezug|massage.?funktion)/i
 /(büro|massage).?(stuhl|stühle).{1,15}nur.{1,10}zzgl/i
 
 /leder.{0,10}(stuhl|stühle)/iu
