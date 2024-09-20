@@ -226,7 +226,7 @@
 /authentifizierungsdienst.{1,15}(banking|erforderlich)/i
 
 # Phone
-/telefon.?nummer aktualisieren.{1,10}erforderlich/i
+/telefon.?nummer aktualisieren/i
 /telefon.?nummer ist nicht.{1,15}gültig/iu
 /telefon.?nummer für ihr.{1,20}konto/i
 
