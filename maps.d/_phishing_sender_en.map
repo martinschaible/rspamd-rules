@@ -113,9 +113,9 @@
 /airline customer survey/i
 
 # Companies A to C
-/(a.?d.?a.?c|ace|aldi|autozone|costco|cvs|delta).{0,25}(clearances?|confirmation|coupon|deals|delivery|department)/i
-/(a.?d.?a.?c|ace|aldi|autozone|costco|cvs|delta).{0,25}(experience|feedback|gift.?card|giveaways?|opinion|renewal|rewards?)i
-/(a.?d.?a.?c|ace|aldi|autozone|costco|cvs|delta).{0,25}(shipping|shipment|shopper|surprise|unlocked|values||winner)/i
+/(aaa|a.?d.?a.?c|ace|aldi|autozone|costco|cvs|delta).{0,25}(clearances?|confirmation|coupon|deals|delivery|department)/i
+/(aaa|a.?d.?a.?c|ace|aldi|autozone|costco|cvs|delta).{0,25}(experience|feedback|gift.?card|giveaways?|opinion|renewal|rewards?)i
+/(aaa|a.?d.?a.?c|ace|aldi|autozone|costco|cvs|delta).{0,25}(shipping|shipment|shopper|surprise|unlocked|values||winner)/i
 
 # Companies D to M
 (dewalt|epson|harbor.?freight|home.?depot).{0,25}(clearances?|confirmation|coupon|deals|delivery|department)/i
