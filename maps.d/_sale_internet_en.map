@@ -9,8 +9,6 @@
 # ------------------------------------------------------------------------------
 /advertise.{1,10}to.{1,10}million.{1,10}e?.?mails/i
 
-/benefit.{1,10}bulk e?.?mail.?marketing/i
-
 /business.{1,10}e?.?mail.?addresses across/i
 /business.{1,10}contact.{1,10}details for only/i
 
@@ -60,25 +58,29 @@
 /e?.?mail.?marketing.{1,10}service.{1,10}boost/i
 /e?.?mail.?lists of any country/i
 
-# 
-/bulk (e?.?mail|mailing).{1,10}marketing.{1,10}solutions/i
-/bulk (e?.?mail|mailing).{1,10}tools service provider/i
-
-/(we run|setup) bulk.{1,10}(e?.?mail|mailing).{1,10}marketing/i
-
-/we are professional.{1,10}bulk.?mailing/i
-
-/increase sales.{1,10}use bulk e?.?mail/i
-
 /furnishing you with.{1,10}e?.?mail.?addresses/i
 /our.{1,15}databases available to the public/i
 
-#
+# LinkedIn
 /linked.?in database.{1,15}(e?.?mail|phone).{1,15}list/i
 /linked.?in.{1,10}e?.?mail databases?/i
 /(linked.?in|targeted).{1,10}e?.?mail.?list/i
 
 /e?.?mail.?database from linkedin/i
+
+# Mailing Service
+# ------------------------------------------------------------------------------
+/(bulk|mass).{1,10}(e?.?mail|mailing).{1,10}marketing.{1,10}solutions/i
+/(bulk|mass).{1,10}(e?.?mail|mailing).{1,10}tools service provider/i
+
+/(bulk|mass).{1,10}advertising.{1,10}(e?.?mail|mailing).{1,10}service/i
+
+/benefit.{1,10}bulk e?.?mail.?marketing/i
+/increase sales.{1,10}use.{1,10}(bulk|mass).{1,10}(e?.?mail|mailing)/i
+
+/(we run|setup).{1,10}(bulk|mass).{1,10}(e?.?mail|mailing).{1,10}marketing/i
+/we are professional.{1,10}(bulk|mass).?mailing/i
+/we offer.{1,10}e?.?mail.?mailing/i
 
 # Affiliate Links
 # ------------------------------------------------------------------------------

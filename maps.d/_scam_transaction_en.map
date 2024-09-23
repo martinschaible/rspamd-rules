@@ -17,13 +17,18 @@
 
 /have these.{1,10}funds.{1,10}transferred to you/i
 
+i want to transfer.{1,10}(dollar|euro?|gbp|usd?).{1,10}million/i
+
 /you.{1,10}help.{1,15}(manage|move|transfer).{1,15}(asset|sum)/i
 /you.{1,10}play.{1,20}role in the completion of this business/i
 
-/your.{1,10}assistance.{1,10}(manage|move|transfer|transferring).{1,10}\d{3}.{0,5}\d{3}.{1,10}(dollar|euro?|gbp|usd)/i
+/your.{1,10}assistance.{1,10}(manage|move|transfer|transferring).{1,10}\d{3}.{0,5}\d{3}.{1,10}(dollar|euro?|gbp|usd?)/i
 /your.{1,10}assistance.{1,10}(manage|move|transfer|transferring).{1,10}the sum/i
 
 /your.{1,10}trust in this transaction/i
+
+#
+/my success.{1,10} getting.{1,15}fund.{1,10}transferred/i
 
 #
 #

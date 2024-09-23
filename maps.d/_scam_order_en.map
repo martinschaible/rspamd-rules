@@ -57,11 +57,12 @@
 
 /your (brochure|catalog|catalogue).{1,10}quotation/i
 /your (brochure|catalog|catalogue).{1,10}to learn more about your products/i
-/your (brochure|catalog|catalogue).{1,10}price.?list for an urgent/i
 /your (brochure|catalog|catalogue).{1,10}product.{1,10}(brochure|catalog|catalogue)/i
 /your (brochure|catalog|catalogue).{1,10}we can (discuss|select)/i
 /your (brochure|catalog|catalogue).{1,10}web.?site link/i
 /your (brochure|catalog|catalogue).{1,10}with the best price/i
+
+/your (brochure|catalog|catalogue).{1,10}price.?list.{1,10}(as soon as possible|for an urgent)/i
 
 /your products?.{1,10}product.{1,10}(brochure|catalog|catalogue)/i
 /your products?.{1,10}please.{1,10}send the us/i

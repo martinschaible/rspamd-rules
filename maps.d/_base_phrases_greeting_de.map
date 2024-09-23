@@ -136,7 +136,7 @@
 /mein name ist.{1,10}(mrs?|ms|leutnant)/i
 /mein name ist.{1,10}(frau|fräulein|herr)/iu
 
-/mein name ist.{5,25}aus indien/i
+/mein name ist.{5,25}aus.{1,10}(indien|vereinigten staaten)/i
 /mein name ist.{5,25}deutscher? herkunft/i
 /mein name ist.{5,30}ein.{1,10}(amerikanischer|angestellter)/i
 /mein name ist.{5,25}(die|eine) witwe/i
