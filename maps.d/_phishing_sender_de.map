@@ -83,40 +83,51 @@
 # Winning, Present, Rewards
 # ------------------------------------------------------------------------------
 /auftragsbestätigung/iu
+
+/beeilen sie sich/i
 /belohnung(en)?/i
+/bestätigung.{1,10}erforderlich/i
+/bitte.?(antworten|bestätigen)/i
+
+/deine.?chance/i
+/du bist geeignet/i
+
 /einsparungen/i
+/es tut uns leid/i
+
+/feedback.?hinterlassen/i
 /freigeschaltet/i
+
 /geschenk(karten?|set)/i
+/geschenk von/i
 /gratuliert/i
 /guthaben/i
 /gutscheine?/i
 /gutschein.?team/i
-/käuferumfrage/iu
-/selektiert/i
-/tagesgewinner/i
-/verbraucher(umfrage|prämien)/iu
-/versandinformationen/i
 
-/kunden.?(angebote?|betreuung|befragung|feedback)/i
-/verbraucherumfrage.?angebote/i
-
-/bestätigung.{1,10}erforderlich/i
-/beeilen sie sich/i
-/bitte.?(antworten|bestätigen)/i
-/deine.?chance/i
-/du bist geeignet/i
-/es tut uns leid/i
-/feedback.?hinterlassen/i
-/gratuliert ihnen/i
 /heutige.{0,10}gewinner/i
-/nachricht vom/i
-/nur.?heute/i
+
 /ihr.?reise/i
 /ihre.{1,15}chance/i
+
+/käuferumfrage/iu
+/kunden.?(angebote?|betreuung|befragung|feedback)/i
+
 /letzte chance/i
 /läuft bald ab/i
+
+/nachricht vom/i
+/nur.?heute/i
+
 /ohne bedingungen/i
+
+/selektiert/i
 /sie sind (ausgewählt|berechtigt)/iu
+
+/tagesgewinner/i
+
+/verbraucher.{0,15}(angebote|umfrage|prämien)/iu
+/versandinformationen/i
 /viel.?erfolg/i
 
 #
@@ -135,10 +146,10 @@
 /(declathon|deutsche.?bahn|dewalt|drogerie|edeka|fressnapf|kaufland).{0,15}kunde$/i
 
 # Companies L to Z
-/(le.?creuset|lidl|media.?market|migros|otto|rewe|samsung|temu).{0,15}(abteilung|angebot|bestätigung|code)/i
-/(le.?creuset|lidl|media.?market|migros|otto|rewe|samsung|temu).{0,15}(geschenke|gewinner|gutschein)/i
-/(le.?creuset|lidl|media.?market|migros|otto|rewe|samsung|temu).{0,15}(help.?desk|kontakt|sender|sendung|umfrage|versand|zustellung)/i
-/(le.?creuset|lidl|media.?market|migros|otto|rewe|samsung|temu).{0,15}kunde$/i
+/(le.?creuset|lidl|media.?market|migros|obi|otto|rewe|samsung|smeg|temu).{0,15}(abteilung|angebot|bestätigung|code)/i
+/(le.?creuset|lidl|media.?market|migros|obi|otto|rewe|samsung|smeg|temu).{0,15}(geschenke|gewinner|gutschein)/i
+/(le.?creuset|lidl|media.?market|migros|obi|otto|rewe|samsung|smeg|temu).{0,15}(help.?desk|kontakt|sender|sendung|umfrage|versand|zustellung)/i
+/(le.?creuset|lidl|media.?market|migros|obi|otto|rewe|samsung|smeg|temu).{0,15}kunde$/i
 
 /kaufland.{0,5}#\d{1,10}/i
 /kauf\.land/i
