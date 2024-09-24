@@ -125,6 +125,11 @@
 # Everything else
 # ==============================================================================
 
+# Health general
+# ------------------------------------------------------------------------------
+/(health|wellness)?.{0,10}insights/i
+/healthy.?power/i
+
 # Alcohol
 # ------------------------------------------------------------------------------
 
@@ -228,9 +233,17 @@
 # ------------------------------------------------------------------------------
 /dizziness/i
 
-# Ears
+# Ears, Tinitus
 # ------------------------------------------------------------------------------
-/ear.?wax/i
+/ear.?(buzzing|noises?|ringing|wax)/i
+/(buzzing|ringing|zero).?ears?/i
+
+/(beat|end|goodbye|stop).?tinnitus/i
+/tinnitus$/i
+/tinnitus.?(cure|memory|symptoms|warning)/i
+
+/(buzzing|stop).{0,10}noise/i
+/odd.?mineral/i
 
 # Eyes, Vision
 # ------------------------------------------------------------------------------
@@ -458,19 +471,6 @@
 
 /dental.?trick/i
 
-# Tinitus
-# ------------------------------------------------------------------------------
-/ear.?(buzzing|noises?|ringing)/i
-/(buzzing|ringing).?ears/i
-
-/(beat|end|goodbye|stop).?tinnitus/i
-/tinnitus$/i
-/tinnitus.?(cure|memory|symptoms|warning)/i
-
-/(buzzing|stop).{0,10}noise/i
-/odd.?mineral/i
-/zero.?ear/i
-
 # Thyroid (Schilddrüse)
 # ------------------------------------------------------------------------------
 /thyroid/i
@@ -551,7 +551,7 @@
 /psoryden/i
 /removio/i
 /revitaprost/i
-/semenol/i
+/semenoll/i
 /slimvitax/i
 /stinafil/i
 /spray.?x/i
@@ -593,7 +593,6 @@
 /energy.?without/i
 /(exotic|natural).?herb/i
 /fried.?chicken/i
-/healthy.?power/i
 /hidden.?toxin/i
 /home.?(treatment|with ease)/i
 /make your own/i

@@ -11,6 +11,7 @@
 /(lieber kunde|sehr geehrte damen und herren).{1,10}ihr.{1,15}konto/i
 /(lieber kunde|sehr geehrte damen und herren).{1,10}um die sicherheit ihres.{1,15}kontos/i
 /(lieber kunde|sehr geehrte damen und herren).{1,10}wir haben.{1,10}ihr.{1,15}konto/i
+/(lieber kunde|sehr geehrte damen und herren).{1,10}wir haben ungewöhnliche/iu
 
 /wir haben festgestellt.{1,15}ihrer?.{1,15}konto.?informationen/i
 
@@ -33,6 +34,7 @@
 /ignorieren.{1,10}wird ihr.{1,15}konto gesperrt/i
 /informationen.{1,10}um eine sperrung ihres.{1,15}kontos/i
 
+/ihr.{1,15}konto.{1,10}indem sie innerhalb von/i
 /ihr.{1,15}konto.{1,10}ist.{1,10}aufgrund.{1,10}fehlgeschlagenen updates/i
 /ihr.{1,15}konto.{1,15}aufgrund der fehlenden bestätigung/iu
 
