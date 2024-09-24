@@ -9,6 +9,7 @@
 # ------------------------------------------------------------------------------
 /achtung.{1,10}offizielle mitteilung/i
 
+/ACHTUNG:
 /aufmerksamkeit!/i
 /aufmerksamkeit.{1,10}erforderlich/i
 /antwort erforderlich/i
@@ -105,6 +106,7 @@
 
 /hallo.{1,20}@[a-z0-9].{4,15}\.(ch|de|org)/i
 
+/hier ist botschafter(in)?/i
 /mit freundlichen (grüssen?|grüßen?)/i
 
 /komplimente der saison/i

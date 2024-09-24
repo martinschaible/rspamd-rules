@@ -11,7 +11,7 @@
 # ------------------------------------------------------------------------------
 /atm.{0.10}(card|karte).{1,15}die auf ihren.{1,10}namen ausgestellt/i
 /atm.{0.10}(card|karte).{1,10}enthält.{1,15}\d{3}.{0,5}\d{3}.{1,10}millionen/i
-/atm.{0.10}(card|karte).{1,10}in höhe von/iu
+/atm.{0.10}(card|karte).{1,10}(in höhe von|mitbringen)/iu
 /atm.{0.10}(card|karte).{1,15}kontaktieren sie herrn/i
 /atm.{0.10}(card|karte).{1,10}mit.{1,15}\d{3}.{0,5}\d{3}.{1,10}(dollar|euro|gbp|usd) gesendet wird/i
 
@@ -25,6 +25,8 @@
 
 /ihnen.{1,10}eine atm.{0,10}(card|karte)/i
 /ihren.{1,10}namen ausgestellte.{1,10}geldautomatenkarte/i
+
+/(dollar|euro|gbp|usd).{1,15}atm.{0.10}(card|karte)/i
 
 /lieferung ihrer.{1,10}atm.{0,10}(card|karte)/i
 /zahlung an sie.{1,10}eine atm.{0.10}(card|karte)/i

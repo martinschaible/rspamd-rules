@@ -528,6 +528,7 @@ letzter gewinner/i
 /(ipad|iphone).{0,10}pro.{1,10}ausstehende sendung/i
 /du hast ein.{1,10}(ipad|iphone).{0,10}pro/i
 /erhalten sie ihr.{1,10}(ipad|iphone).{1,10}binnen/i
+/ihr.{1,10}(ipad|iphone).{1,10}wartet/i
 /um ihr (ipad|iphone).{1,10}zu verschicken/iu
 
 # Dewalt
@@ -576,7 +577,7 @@ letzter gewinner/i
 
 # Return for double payed invoices
 # ------------------------------------------------------------------------------
-/rückerstattung ist online/iu
+/rückerstattung.{1,10}(handeln sie|ist online)/i
 
 /sie ihre rückerstattung/iu
 
@@ -652,6 +653,7 @@ letzter gewinner/i
 # Facebook
 /dies betrifft ihren beitrag auf facebook/i
 
+# Deutschlandradio
 # Postfinance
 /dringende aktualisierung.{1,10}postfinance/i
 
