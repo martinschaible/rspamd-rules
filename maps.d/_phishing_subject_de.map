@@ -383,6 +383,7 @@
 # ------------------------------------------------------------------------------
 /kunden.?belohnung(en)?/i
 
+/(belohnung|gutschein).?code/i
 /(belohnung|gutschein).{1,10}(freigeschaltet|ist zum versenden|reserviert|wartet sie)/i
 /antworten.{1,10}gewinnen/i
 
