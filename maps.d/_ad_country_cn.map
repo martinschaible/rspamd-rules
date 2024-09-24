@@ -244,6 +244,7 @@
 /(co|limited|ltd).{1,15}an iso.{1,20}certified/i
 /(co|limited|ltd).{1,15}(company|factory).{1,10}was established/i
 /(co|limited|ltd).{1,10}(company|factory).{1,10}our.{1,10}products/i
+/(co|limited|ltd).{1,10}experienced manufacturer/i
 /(co|limited|ltd).{1,10}has been established for/i
 /(co|limited|ltd).{1,15}is a high.?tech enterprise/
 /(co|limited|ltd).{1,15}is a factory specialized in/i
@@ -400,6 +401,26 @@
 
 /we are.{1,10}source.{1,10}lighting factory/i
 
+# Logistics
+# ------------------------------------------------------------------------------
+/logistics needs.{1,10}please let me know/i
+
+/doing shipping from.{1,10}china/i
+/provide freight.{1,10}logistics services/i
+
+/freight services from china to/i
+
+/we are specialized in.{1,10}shipping/i
+/we.?a?re.{1,10}freight forwarding company/i
+/we currently have cargo space available/i
+
+/you cargo transportations from.{1,10}china/i
+/you have shipments from.{1,10}china/i
+/you need ship something from.{1,10}china/i
+
+#
+/transportation.{1,15}assist you with/i
+
 # Mats
 # ------------------------------------------------------------------------------
 /we sell a wide varietyl.{1,15}mats/i
@@ -521,22 +542,9 @@
 # ------------------------------------------------------------------------------
 /addition.{1,10}providing printing services/i
 
-# Logistics
+# Sewing
 # ------------------------------------------------------------------------------
-/logistics needs.{1,10}please let me know/i
-
-/doing shipping from.{1,10}china/i
-/provide freight.{1,10}logistics services/i
-
-/we are specialized in.{1,10}shipping/i
-/we.?a?re.{1,10}freight forwarding company/i
-
-/you cargo transportations from.{1,10}china/i
-/you have shipments from.{1,10}china/i
-/you need ship something from.{1,10}china/i
-
-#
-/transportation.{1,15}assist you with/i
+/we are specialized sewing/i
 
 #
 #

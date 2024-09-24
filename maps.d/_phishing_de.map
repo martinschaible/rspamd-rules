@@ -117,6 +117,7 @@
 
 /abonnements?.{1,10}aufgrund fehlerhafter zahlungsinformationen/i
 /abonnements?.{1,10}aufgrund fehlgeschlagener zahlung(en)? ausgesetzt wurden?/i
+/abonnements?.{1,10}ausgesetzt wurde.{1,10}beim letzten versuch/i
 /abonnements?.{1,10}die zahlung wurde abgelehnt/i
 
 /das ablaufen ihrer zahlungskarte/i
@@ -129,6 +130,8 @@
 
 /reaktiviere mein.{1,10}abonnement/i
 /vorübergehend gesperrt.{1,15}verlängerung.{1,15}abonnements?/iu
+
+/zahlungsinformationen.{1,15}sie ihre vorteile nicht verlieren/i
 
 # Tax
 # ------------------------------------------------------------------------------
