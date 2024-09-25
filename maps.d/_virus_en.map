@@ -27,6 +27,7 @@
 /attachment.{1,10}your best price/i
 /extract.{1,10}view receipts/i
 /find bank.?transfer.{1,10}(form|details).{1,10}attached/i
+/fyi attached.{1,10}regards/i
 
 /(dear (madam|sir)|good day).{1,10}attached kindly/i
 /(dear (madam|sir)|good day).{1,10}please find.{1,10}(attachment|attached)/i

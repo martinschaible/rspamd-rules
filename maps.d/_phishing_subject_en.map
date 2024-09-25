@@ -52,12 +52,12 @@
 
 # Account - Confirm or reconfirm identity
 # ------------------------------------------------------------------------------
-/update your.{1,10}account information today/i
-
-/suspended.{1,15}confirm your e?.?mail/i
-
 /e?.?mail.{1,10}account validation for/i
 /e?.?mail.{1,10}verification.{1,10}action required/i
+
+/please validate now/i
+/suspended.{1,15}confirm your e?.?mail/i
+/update your.{1,10}account information today/i
 
 # Locking Account
 # ------------------------------------------------------------------------------

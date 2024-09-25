@@ -121,10 +121,12 @@
 /ihr (konto|vertrag).{1,15}(ist|wird|wurde).{1,10}(begrenzt|eingeschränkt|gesperrt)/i
 /ihr konto.{1,15}wurde vorübergehend/i
 /ihr konto.{1,15}vorübergehende beschränkung/iu
-
-/gesperrt ref.?id#/i
 /ihr konto vorübergehend/i
 /ihr photo.?tan wurde blockiert/i
+
+/gesperrt ref.?id#/i
+
+/letzte warnung.{1,10}konto/i
 
 /wir haben ihre id.{1,20}gesperrt
 /wir ihr konto eingeschränkt/iu
