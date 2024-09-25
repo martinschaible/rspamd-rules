@@ -49,6 +49,7 @@
 /(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).{1,15}are.{1,10}professional.{1,10}manufacturer/i
 /(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).{1,15}based factory producing/i
 /(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).{1,15}based{1,20}(freight|international){1,20}forwarder/i
+/(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).{1,25}(co|limited|ltd)/i
 /(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).{1,15}do you have.{1,10}business/i
 /(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).{1,15}factory.{1,10}specializes.{1,10}producing/i
 /(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).{1,15}(my|our).{1,10}(company|factory).{1,10}(offers|specialized|specializes)/i
@@ -70,9 +71,9 @@
 
 /(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).{1,15}visit our web page/i
 /(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).{1,15}with over.{1,10}years of expertise/i
+/(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).{1,15}with.{1,10}ears of experience/i
 /(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).{1,15}we excel in providing/i
 /(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).{1,15}you have any need for our/i
-/(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).{1,25}(co|limited|ltd)/i
 /(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).{1,25}whatsapp/i
 
 /china.{1,10}have a nice day/i
@@ -80,6 +81,7 @@
 
 /sales.?manager.{1,10}(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang)/i
 /factory.{1,10}located in.{1,10}(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang)/i
+/freight forwarder based in.{1,10}(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang)/i
 
 /(manufacturer|supplier).{1,10}with.{1,10}years experience.{1,15}(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang)/i
 /(manufacturer|supplier).{1,10}(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).{1,10}we mainly provide/i
@@ -401,8 +403,10 @@
 
 /we are.{1,10}source.{1,10}lighting factory/i
 
-# Logistics
+# Logistics, Freight
 # ------------------------------------------------------------------------------
+/as a leading international freight forwarder/i
+
 /logistics needs.{1,10}please let me know/i
 
 /doing shipping from.{1,10}china/i
