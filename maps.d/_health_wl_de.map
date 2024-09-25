@@ -11,7 +11,7 @@
 
 /(kg|kilo).{1,10}in.{1,10}monat ohne fasten/i
 /(kg|kilo).{1,10}in.{1,10}monat sind hiermit kein problem/i
-/(kg|kilo).{1,10}in.{1,10}tagen abnehmen/i
+/(kg|kilo).{1,10}(in|pro).{1,10}(tagen|woche) abnehmen/i
 
 /\d{1,2}.{1,5}/(kg|kilo).{1,10}in.{1,10}monat/i
 
@@ -34,9 +34,12 @@
 /nr\..{1,10}gewichtsverlust/i
 /ohne diät.{1,10}ohne sport/iu
 /schlankheits.?revolution/i
+/schnell fett zu verbrennen/i
+/sie heraus.{1,10}wie viel gewicht/i
 
 /verlieren sie bis zu.{1,10}kg in.{1,10}(monat|tagen)/i
 /verlieren sie.{1,10}gewicht mit/i
+/vermutlich abnehmen können/iu
 
 /wollen sie.{1,15}ihr wunschgewicht erreichen/i
 
