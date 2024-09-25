@@ -38,7 +38,7 @@
 /erhalten sie ihr.{1,15}geschenk innerhalb von.{1,10}stunden/i
 /fordern sie ihre.{1,15}(belohnung|prämie) an/i
 
-/kostenlos.{1,10}(treueprogramm|verlosung) teilzunehmen/i
+/kostenlos.{1,15}(treueprogramm|verlosung).{1,10}teilzunehmen/i
 /kostenlos.{1,15}ganz neu/i
 
 /letzte mitteilung.{1,10}eine belohnung/i
@@ -109,7 +109,8 @@
 
 /sie diese e?.?mail erhalten.{1,10}wurde.{1,10}e?.?mail.?adresse/i
 /sie wurden für eine.{1,15}belohnung ausgewählt/iu
-/sie wurden ausgewählt.{1,10}an unserem.{1,10}treueprogramm/iu
+/sie wurden ausgewählt.{1,10}an unserem.{1,15}treueprogramm/iu
+/sie wurden ausgewählt.{1,10}kostenlos/i
 
 # Possible winner
 # ------------------------------------------------------------------------------
