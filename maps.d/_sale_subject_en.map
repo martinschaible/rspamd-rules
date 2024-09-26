@@ -220,6 +220,7 @@ transform.{1,10}website traffic/i
 /(bing|google|yahoo).{1,10}(1 page|1st page|first page|page 1st|listing)/i
 
 /(1st|first|seo|top).{1,15}(page|rankings?|spot).{1,10}(bing|google|yahoo)/i
+/#1.{1,10}google search/i.?
 
 /appear on the first page.{1,10}(bing|google|yahoo)/i
 /page (1|of).{1,10}(bing|google|yahoo)/i
