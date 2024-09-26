@@ -17,9 +17,9 @@
 # ------------------------------------------------------------------------------
 /aktion erforderlich/i
 
-/aktualisieren ihres.{1,15}kontos/i
+/aktualisieren ihres.{1,15}(kontos|profils)/i
 /aktualisieren sie ihre.{1,15}kontoangaben/i
-/aktualisieren sie ihr.{1,15}konto/i
+/aktualisieren sie ihr.{1,15}(konto|profil)/i
 /aktualisieren sie ihre.{1,15}daten bei/i
 
 /aktualisierung erforderlich!/i
@@ -45,6 +45,8 @@
 /^konto vorübergehend/iu
 
 /kontosperrung.{1,10}vermeiden/i
+
+/(konto|profil).?informationen müssen aktualisiert werden/i
 
 /wir mussten.{1,15}konto.?funktionen einschränken/iu
 
@@ -90,6 +92,8 @@
 
 # Alert
 /benachrichtigung zu einer auffälligkeit/iu
+
+/wichtig.{1,10}(konto|profil).?informationen/i
 
 # Account - Payment options
 # ------------------------------------------------------------------------------
@@ -155,6 +159,7 @@
 /ihre legitimations.?prozess/i
 
 /online identifikation/i
+
 
 /sie müssen sich neu identifizieren/iu
 /sollten aktualisiert werden/i
@@ -264,14 +269,17 @@
 /ihr ausstehendes paket/i
 /ihre angaben.{1,10}order.?id/i
 
-/ihre? (paket|lieferung|sendung) (steht noch aus|wartet|wird bearbeitet|wird storniert)/i
-/ihre? (paket|lieferung|sendung) kann heute nicht zugestellt werden/i
-/ihre? (paket|lieferung|sendung) wird vorbereitet/i
+/ihre? (paket|lieferung|sendung).{1,10}(steht noch aus|wartet|wird bearbeitet|wird storniert)/i
+/ihre? (paket|lieferung|sendung).{1,10}kann heute nicht zugestellt werden/i
+/ihre? (paket|lieferung|sendung).{1,10}wird vorbereitet/i
+/ihre? (paket|lieferung|sendung).{1,10}wurde zurückgeschickt/i
+
+/in der warteschleife/i
 
 /wichtig.{1,15}(erneute zustellung|paket)/i
 
 /(paket|sendung).{1,10}aufgrund fehlender versandkosten nicht liefern/i
-/(paket|sendung).{1,10}(bewegt sich|in der warteschleife)/i
+/(paket|sendung).{1,10}bewegt sich/i
 /(paket|sendung).{1,10}auf die (lieferung|zustellung) wartet/i
 /(paket|sendung).{1,10}bei ihnen ankommt/i
 /(paket|sendung).{1,10}bestätigt.{1,15}planen sie/i
@@ -284,7 +292,6 @@
 /(paket|sendung).{1,10}hat sein ziel erreicht/i
 /(paket|sendung).{1,10}hat.{1,15}distributionszentrum angehalten/i
 /(paket|sendung).{1,15}kann nicht zugestellt werden/i
-/(paket|sendung).{1,15}liegt in der warteschleife/i
 /(paket|sendung).{1,10}nahe dem abschluss/i
 /(paket|sendung).{1,10}informationen bestätigen/iu
 
@@ -306,7 +313,6 @@
 
 /postamt angekommen/i
 
-/ihr paket wurde zurückgeschickt/i
 /ihre bestellung konnte nicht geliefert werden/i
 
 /lieferadresse.{1,15}bevorstehende sendung/i
