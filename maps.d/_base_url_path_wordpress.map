@@ -37,12 +37,12 @@
 # TLD's
 /\.(io|net|vn)/wp-content\/(themes|uploads|plugins)\//i
 
-/\.com\/wp-admin\/css\\/[a-z]{1,15}\.(html|php)/i
+/\.com\/wp-admin\/css\/[a-z]{1,15}\.(html|php)/i
 /\.com\/wp-admin\/css\/colors\//i
 /\.com\/wp-admin\/[a-z]{1,15}\.(html|php)/i
 /\.info\/wp-admin\/assets\//i
 
-/\.(ir|nl)\/wp-admin\//i
+/\.(ir|me|nl)\/wp-admin\//i
 /\.co\.uk\/wp-admin\//i
 
 # Pretending to be WordPress
