@@ -79,7 +79,9 @@
 # Parcel
 # ------------------------------------------------------------------------------
 /(package|parcel|shipment).{1,10}awaiting collection/i
+
 /update your shipping address/i
+/urgent.{1,10}action on your delivery/i
 
 /your (package|parcel|shipment).{1,10}not delivered/i
 /your (package|parcel|shipment).{1,10}has been returned/i
@@ -159,6 +161,7 @@
 
 /undeliverable.{1,10}outgoing e?.?mail failed/i
 /update your.{1,10}mailbox settings/i
+
 /urgent.{1,10}e.?mail.?confirmation/i
 
 /\.(ch|com|de|org).{1,10}de.?activation notice/i

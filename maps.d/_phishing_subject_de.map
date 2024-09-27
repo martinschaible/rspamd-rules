@@ -400,8 +400,6 @@
 /(belohnung|gutschein).{1,10}(freigeschaltet|ist zum versenden|reserviert|wartet sie)/i
 /antworten.{1,10}gewinnen/i
 
-/sie sind der auserwählte/iu
-
 /bald ablaufend.{1,10}ihre/i
 
 /bestätige deine versanddetails/iu
@@ -415,6 +413,7 @@
 
 /die prämien sind eingetroffen/iu
 /der inhaber dieser e?.?mail.?adresse/i
+
 /du gehörst zu den auserwählten/ui
 /du hast unser gewinnspiel gewonnen/i
 /du stehst auf der gewinnerliste/i
@@ -459,10 +458,12 @@
 
 /sie haben noch nicht geantwortet/i
 /sie haben das.{10,25}geschenkset gewonnen/i
+/sie haben die chance.{1,10}ein kostenloses/i
 /sie haben eine kostenlose.{10,25}gewonnen/i
 /sie haben glück.{1,10}erhalten kostenlos/i
 /sie haben ein.{1,40}set gewonnen/i
 
+/sie sind der auserwählte/iu
 /sie sich.{1,10}ihren?.{1,10}(belohnung|gutschein)/i
 /sie sind.{1,10}der gewinner (des|unseres).{1,10}(gewinnspiels|wettbewerbs)/i
 /sie sind.{1,10}(berechtigt|teilnahme|zugelassen)/i

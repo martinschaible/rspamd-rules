@@ -236,9 +236,12 @@
 # Ears, Tinitus
 # ------------------------------------------------------------------------------
 /ear.?(buzzing|noises?|ringing|wax)/i
-/(buzzing|ringing|zero).?ears?/i
+/(buzzing|clear|ringing|zero).?ears?/i
 
-/(beat|end|goodbye|stop).?tinnitus/i
+/unbearable.?ringing/i
+
+/(beat|destroy|end|goodbye|stop).?tinnitus/i
+
 /tinnitus$/i
 /tinnitus.?(cure|memory|symptoms|warning)/i
 
@@ -464,7 +467,7 @@
 
 # Teeth
 # ------------------------------------------------------------------------------
-/teeth.?rotting/i
+/teeth.{0,10}(gums|rotting)/i
 /strong(er)?.?teeth/i
 /(perfect|rotting|yellow).?teeth/i
 /tooth.?decay/i

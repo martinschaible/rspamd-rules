@@ -139,6 +139,11 @@
 # ------------------------------------------------------------------------------
 /(ipad|iphone).{0,10}pro/i
 
+#
+/car.?emergency/i
+/emergency.?kit/i
+
+#
 /coffee.?lovers.?box/i
 /mistery.?box/i
 

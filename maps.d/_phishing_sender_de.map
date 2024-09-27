@@ -142,10 +142,10 @@
 /(a.?d.?a.?c|ali.?express|aldi|apple|bahn|cuisine).{0,15}kunde$/i
 
 # Companies D to M
-/(declathon|deutsche.?bahn|dewalt|drogerie|edeka|fressnapf|interdiscount|kaufland).{0,15}(abteilung|angebot|bestätigung|code)/i
-/(declathon|deutsche.?bahn|dewalt|drogerie|edeka|fressnapf|interdiscount|kaufland).{0,15}(geschenke|gewinner|gutschein)/i
-/(declathon|deutsche.?bahn|dewalt|drogerie|edeka|fressnapf|interdiscount|kaufland).{0,15}(help.?desk|kontakt|sender|sendung|umfrage|versand|zustellung)/i
-/(declathon|deutsche.?bahn|dewalt|drogerie|edeka|fressnapf|interdiscount|kaufland).{0,15}kunde$/i
+/(declathon|deutsche.?bahn|dewalt|drogerie|dyson|edeka|fressnapf|interdiscount|kaufland).{0,15}(abteilung|angebot|bestätigung|code)/i
+/(declathon|deutsche.?bahn|dewalt|drogerie|dyson|edeka|fressnapf|interdiscount|kaufland).{0,15}(geschenke|gewinner|gutschein)/i
+/(declathon|deutsche.?bahn|dewalt|drogerie|dyson|edeka|fressnapf|interdiscount|kaufland).{0,15}(help.?desk|kontakt|sender|sendung|umfrage|versand|zustellung)/i
+/(declathon|deutsche.?bahn|dewalt|drogerie|dyson|edeka|fressnapf|interdiscount|kaufland).{0,15}kunde$/i
 
 # Companies L to Z
 /(le.?creuset|lidl|media.?market|migros|obi|otto|rewe|samsung|smeg|temu).{0,15}(abteilung|angebot|bestätigung|code)/i
@@ -163,10 +163,13 @@
 
 /r0ssmann/i
 
-# Products
+# Brands, Products
+# ------------------------------------------------------------------------------
 /(persil|series).{0,15}gewinner/i
 /(pro|s24).?gewinner/i
-/notfallset/i
+
+#
+/notfall.?(auto|set)/i
 
 # Surveys
 # ------------------------------------------------------------------------------
