@@ -7,7 +7,7 @@
 
 # Bitcoin
 # ------------------------------------------------------------------------------
-/(bit?coin|crypto|krypto).{0,15}(bulle|händler|trading|traden|trader|werte)/iu
+/(bit?coin|crypto|krypto).{0,15}(abschwung|bulle|händler|trading|traden|trader|werte)/iu
 /(bit?coin|crypto|krypto).{1,15}(aufschwung|bei|goldrausch|höhenflug|methode|millionen|millionär|portfolio|rekord|rush|zerschmettert)/iu
 /(bit?coin|crypto|krypto).{1,15}bald.{1,10}(\d{2,3}|euro?)/i
 
@@ -28,7 +28,7 @@
 
 /wie.{1,10}(bitcoin|crypto|krypto).{1,15}handeln/i
 
-/(jetzt in|macht|verdienen mit|werden sie).{1,10}(bitcoin|crypto|krypto)/i
+/(jetzt in|macht|navigieren|verdienen mit|werden sie).{1,10}(bitcoin|crypto|krypto)/i
 /investieren in.{1,10}(bitcoin|crypto|krypto)/i
 
 /weg.{1,10}um mit bitcoin geld/i

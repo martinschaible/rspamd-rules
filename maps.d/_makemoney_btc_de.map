@@ -7,13 +7,13 @@
 
 # Crypto
 # ------------------------------------------------------------------------------
-/(bitcoin|crypto|krypto).{1,10}(bringt reichtum|initiative)/i
+/(bitcoin|crypto|krypto).{1,10}(abschwung|bringt reichtum|initiative)/i
 /(bitcoin|crypto|krypto).{1,15}(ein exklusives|durchstarten)/i
 /(bitcoin|crypto|krypto).{1,10}(revolution|werte)/i
 /(bitcoin|crypto|krypto).{1,10}(welle reiten|stellen sie sicher)/i
 /(bitcoin|crypto|krypto).{1,15}(macht.{1,15}reich|reich werden)/i
 
-/wie man sich bei.{1,15}(bitcoin|crypto|krypto)/i
+/(navigieren|wie man sich bei).{1,15}(bitcoin|crypto|krypto)/i
 /(durchbruch in|ergreifen sie|gewinnerzielung|strategische).{1,15}(bitcoin|crypto|krypto)/i
 /werden sie.{1,10}heute zum.{1,10}(bitcoin|crypto|krypto)/i
 
