@@ -77,6 +77,11 @@
 /pressurepro/i
 /power.?nozzle/i
 
+# Satellite TV
+# ------------------------------------------------------------------------------
+/antenna that gives you/i
+/enjoy.{1,10}your favorite.{1,10}shows/i
+
 # Streaming TV
 # ------------------------------------------------------------------------------
 /\d{3,4}.{1,10}worldwide.channels/i

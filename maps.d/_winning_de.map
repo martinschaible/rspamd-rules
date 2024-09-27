@@ -89,6 +89,7 @@
 /ihre? e?.?mail.?(adresse|konto).{1,10}gehört zu den glücklichen gewinnern/iu
 /ihre? e?.?mail.?(adresse|konto).{1,10}hat.{1,15}(millionen|tausend).{1,20}(dollar|euro?|gbp|usd).{1,20}gewonnen/i
 /ihre? e?.?mail.?(adresse|konto).{1,10}hat den betrag von.{1,15}(millionen|tausend)/i
+/ihre? e?.?mail.?(adresse|konto).{1,10}mit der seriennummer/i
 /ihre? e?.?mail.?(adresse|konto).{1,20}unter den empfängern/iu
 
 /ihre? e?.?mail.?(adresse|konto).{1,10}wurde ausgewählt.{1,20}um.{1,15}(den betrag|zu erhalten)/iu
@@ -106,6 +107,7 @@
 
 #
 /als aktiver benutzer wurden sie.{1,10}gewinner/i
+/sie haben.{1,10}in der.{1,10}kategorie gewonnen/i
 
 # Contact for payment
 # ------------------------------------------------------------------------------
