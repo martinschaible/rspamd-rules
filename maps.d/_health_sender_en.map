@@ -14,6 +14,7 @@
 /(climax|erectile|libido)/i
 
 /enhancement.?gummie?s/i
+
 /(male|men|penis).?(enhancement|enlargement|growth|increase)/i
 /manhood/i
 /mens?.?(only|power)/i
@@ -53,61 +54,53 @@
 
 # Weightloss
 # ------------------------------------------------------------------------------
-/(belly|burn|lose|melt|shed).{0,10}(bloat|fat|flab|lbs|pounds|weight)/i
-/(eliminates?|stubborn).?fat/i
+/(belly|burn|eliminates?|lose|melt|shed|stubborn|wobbly).{0,10}(bloat|fat|flab|lbs|pounds|weight)/i
 
 /(big|bloated|bulging|slimmer|tiny|your).?belly/i
+
+/big.?stomach/i
+/breakfast.?hack/i
+/calorie.?booster/i
+/dairy.?secret/i
+/diy.?lipo/i
+/effortless.?slimming/i
 
 /fat.?(fast|loss|vanish)/i
 /fat.?(burn(er)?|burning|flush|melting)/i
 
+/fasting.?seeds/i
 /flat.?(melting|stomach|tummy)/i
+/food.?cravings/i
 
-/wobbly.?fat/i
+/honey.?burn/i
+
+/lose.?\d{2}/i
+
+/morning.?oil/i
+
+/power.?shape/i
+/powerful.?juice/i
 
 /slimming/i
 /slim.?(body|down|waist)/i
 /stay.?slim/i
-
-/fasting.?seeds/i
-/effortless.?slimming/i
+/surprising.?water/i
 
 /visceral.?fat/i
 
 /w.?loss/i
 
-/honey.?burn/i
+/o.{0,3}p.{0,3}r.{0,3}a.{0,3}h/i
+/odd.?(liquid|tonic)/i
 
-/calorie.?booster/i
-/breakfast.?hack/i
-/eat this fruit/i
-/(daily|simple|weard).?drink/i
-
-/keto/i
-/power.?shape/i
-
-/gummy.?hack/i
-/(chocolate|dairy|gummies|k2).?diet/i
+/(chocolate|daily|dairy|gummies|k2|simple|weard).?(diet|drink)/i
 /(k2|slimm).{0,10}gummies/i
 
-/weight.?(drop(per)?|goals|loss)/i
-
 /(breakfast|coffee|hidden|liposuction|muscle|water).?trick/i
+/(diet|gummy|magic|special|unusual).?(drink|hack|tea)/i
 
-/(diet|magic|special|unusual).?(drink|hack|tea)/i
-
-/dairy.?secret/i
-/food.?cravings/i
 /waistline/i
-/surprising.?water/i
-
-/big.?stomach/i
-/odd.?tonic/i
-/diy.?lipo/i
-/morning.?oil/i
-/odd.?liquid/i
-
-/o.{0,3}p.{0,3}r.{0,3}a.{0,3}h/i
+/weight.?(drop(per)?|goals|loss)/i
 
 # Products
 /(3d.?slim|power.?shape)/i
@@ -116,7 +109,6 @@
 
 # Recipe
 /(smoothie|water|wl).?recipe/i
-/powerful.?juice/i
 
 #
 #
@@ -586,15 +578,15 @@
 
 /going.?viral/i
 
-/(avoid|drink).?this/i
+/(avoid|drink).{0,10}(cup|this)/i
 /clinically.?proven/i
 
 /dead.?foods?/i
 /dr.?derm/i
 /doctor.?warning/i
-/drink.{0,10}(cup|this)/i
 
-/eat.?(me|this)/i
+/eat.{0,10}(fruitme|this)/i
+
 /energy.?without/i
 /(exotic|natural).?herb/i
 /fried.?chicken/i

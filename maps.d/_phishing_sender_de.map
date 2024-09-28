@@ -136,19 +136,19 @@
 /box.?set.{0,15}gewinner/i
 
 # Companies A to C
-/(a.?d.?a.?c|ali.?express|aldi|apple|bahn).{0,15}(abteilung|angebot|bestätigung|code)/i
+/(a.?d.?a.?c|ali.?express|aldi|apple|bahn).{0,15}(abteilung|angebot|bestätigung|bundle|code)/i
 /(a.?d.?a.?c|ali.?express|aldi|apple|bahn|cuisine).{0,15}(geschenke|gewinner|gutschein)/i
 /(a.?d.?a.?c|ali.?express|aldi|apple|bahn|cuisine).{0,15}(help.?desk|kontakt|sender|sendung|umfrage|versand|zustellung)/i
 /(a.?d.?a.?c|ali.?express|aldi|apple|bahn|cuisine).{0,15}kunde$/i
 
 # Companies D to M
-/(declathon|deutsche.?bahn|dewalt|drogerie|dyson|edeka|fressnapf|interdiscount|kaufland).{0,15}(abteilung|angebot|bestätigung|code)/i
+/(declathon|deutsche.?bahn|dewalt|drogerie|dyson|edeka|fressnapf|interdiscount|kaufland).{0,15}(abteilung|angebot|bestätigung|bundle|code)/i
 /(declathon|deutsche.?bahn|dewalt|drogerie|dyson|edeka|fressnapf|interdiscount|kaufland).{0,15}(geschenke|gewinner|gutschein)/i
 /(declathon|deutsche.?bahn|dewalt|drogerie|dyson|edeka|fressnapf|interdiscount|kaufland).{0,15}(help.?desk|kontakt|sender|sendung|umfrage|versand|zustellung)/i
 /(declathon|deutsche.?bahn|dewalt|drogerie|dyson|edeka|fressnapf|interdiscount|kaufland).{0,15}kunde$/i
 
 # Companies L to Z
-/(le.?creuset|lidl|media.?market|migros|obi|otto|rewe|samsung|smeg|temu).{0,15}(abteilung|angebot|bestätigung|code)/i
+/(le.?creuset|lidl|media.?market|migros|obi|otto|rewe|samsung|smeg|temu).{0,15}(abteilung|angebot|bestätigung|bundle|code)/i
 /(le.?creuset|lidl|media.?market|migros|obi|otto|rewe|samsung|smeg|temu).{0,15}(geschenke|gewinner|gutschein)/i
 /(le.?creuset|lidl|media.?market|migros|obi|otto|rewe|samsung|smeg|temu).{0,15}(help.?desk|kontakt|sender|sendung|umfrage|versand|zustellung)/i
 /(le.?creuset|lidl|media.?market|migros|obi|otto|rewe|samsung|smeg|temu).{0,15}kunde$/i
