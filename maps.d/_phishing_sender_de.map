@@ -190,6 +190,7 @@
 
 # DHL
 # Real sender: "DHL Paket"
+/dhl.?paket$/i
 /paket.?team/i
 /lieferung - dhl/i
 

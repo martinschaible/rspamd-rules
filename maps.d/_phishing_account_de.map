@@ -18,11 +18,11 @@
 # Account - Locking
 # ------------------------------------------------------------------------------
 /konto.{1,20}ausgesetzt.{1,10}bis eine.{1,20}stattfindet/i
-
+/konto.{1,15}bei.{1,15}verknüpft ist.{1,15}nicht für die nutzung/iu
 /konto.{1,10}eine sperrung ihres kontos zu vermeiden/i
 /konto.{1,10}einige fehlende informationen/i
+/konto.{1,10}sicherheitsgründen bald abläuft/iu
 /konto.{1,15}vervollständigen sie die erforderlichen/iu
-/konto.{1,15}bei.{1,15}verknüpft ist.{1,15}nicht für die nutzung/iu
 /konto.{1,15}wurde aufgrund von.{1,15}fehlern gesperrt/i
 
 /konten müssen aktualisiert werden/iu
@@ -130,7 +130,7 @@
 /(button|link).{1,15}um ihre informationen{1,10}zu aktualisieren/i
 /(button|link).{1,15}um ihr.{1,15}konto erneut zu aktivieren/i
 
-/ihr.{1,15}konto.{1,10}aktualisieren.{1,10}um.{1,15}unterbrechungen/i
+/ihr.{1,15}konto.{1,10}aktualisieren.{1,10}um.{1,15}(sicherheit|unterbrechungen)/i
 /ihr.{1,15}konto.{1,10}erneut zu reaktivieren/i
 /ihr.{1,15}konto.{1,10}verifiziert werden muss/i
 /ihr.{1,15}konto.{1,10}zu bestätigen.{1,10}Unterbrechungen/i

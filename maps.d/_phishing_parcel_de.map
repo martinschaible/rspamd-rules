@@ -84,7 +84,9 @@
 /(paket|sendung).{1,20}zustellen.{1,10}aufgrund einer falschen.{1,15}adresse/i
 /(paket|sendung).{1,20}zustellen.{1,10}da ihre adresse falsch ist/i
 
+/sehr geehrter kunde.{1,10}ihre sendung konnte/i
 /sehr geehrter kunde.{1,10}wir haben.{1,10}versucht.{1,10}ihr paket/i
+
 /aufgrund unvollständiger.{1,15}angaben nicht zugestellt werden/iu
 /nicht zustellen.{1,10}da keine.{1,20}anwesend war/i
 /zustellung.{1,15}(paket|sendung).{1,30}ist ein fehler aufgetreten/i
@@ -190,7 +192,10 @@
 /lieferung aufgrund (nicht bezahlter|unbezahlter).{1,10}zollgebühren/iu
 
 /mwst.?zahlung.{1,10}sendungsinformationen/i
+
+/nicht (geliefert|zugestellt) werden.{1,10}da die zollgebühren/iu
 /nicht (geliefert|zugestellt) werden.{1,10}kein zoll bezahlt wurde/i
+
 /nicht bezahlter.{1,10}gebühren.{1,15}nicht versendet werden kann/iu
 /nicht bezahlt werden.{1,10}wird das paket zurückgeschickt/iu
 
