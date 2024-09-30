@@ -167,11 +167,12 @@
 
 /vergibt derzeit.{1,10}finanz.?kredite/i
 
-/wir bieten.{1,10}finanzierungen bereits ab/i
+/wir bieten.{1,10}finanzierungen (bereits ab|zwischen)/i
 /wir bieten.{1,10}finanzdienstleistungen/i
+/wir bieten.{1,10}privatfinanzierungen/i
 
-/wir sind ein privates kredit/i
-/wir sind ein privates finanz.?unternehmen/i
+/wir sind.{1,10}aktiv in der.{1,15}finanzierung/i
+/wir sind.{1,10}ein privates (finanz.?unternehmen|kredit)/i
 
 #
 #

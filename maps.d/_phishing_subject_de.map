@@ -147,6 +147,7 @@
 /ihre informationen.{1,15}aktualisiert werden/i
 /ihre informationen.{1,10}zu aktualisieren/i
 
+/bestätigen sie ihre identität/iu
 /(bestätigung|datenupdate|verifizierung).{1,10}erforderlich/i
 /bestätigen sie.{1,10}ihre sicherheit/i
 
@@ -210,6 +211,8 @@
 
 # New Systems, Security, Technology, TAN
 # ------------------------------------------------------------------------------
+
+# TAN
 /tan.{0,10}verfahren/i
 
 /(photo|push).?tan.{1,15}(aktivieren sie|aktivierung|brief|erforderlich|ihre konto|ist nicht|verfahren)/i
@@ -227,15 +230,18 @@
 /tan.?verfahren.{1,10}vr.?securego/i
 /secure.?plus bestätigen/iu
 
-/neues sicherheitsupdate.{1,10}erforderlich/i
-/obligatorische aktivierung/i
+#
+/aktualisieren sie ihre?.{1,10}banking/i
+/aktualisierung ihres.{1,20}authentifizierungsdienstes/i
+/authentifizierungsdienst.{1,15}(banking|erforderlich)/i
 
 /bank.{1,10}wichtiges sicherheitsupdate/i
 
-/aktualisieren sie ihre?.{1,10}banking/i
-/aktualisierung ihres.{1,20}authentifizierungsdienstes/i
+/neues sicherheitsupdate.{1,10}erforderlich/i
+/obligatorische aktivierung/i
+/registrierung.{1,10}neue sicherheitsmaßnahmen/i
+
 /sehr geehrter kunde.{1,20}authentifizierungsdienst/i
-/authentifizierungsdienst.{1,15}(banking|erforderlich)/i
 
 # Phone
 /telefon.?nummer aktualisieren/i
