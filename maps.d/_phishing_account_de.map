@@ -130,10 +130,11 @@
 /(button|link).{1,15}um ihre informationen{1,10}zu aktualisieren/i
 /(button|link).{1,15}um ihr.{1,15}konto erneut zu aktivieren/i
 
-/ihr.{1,15}konto.{1,10}aktualisieren.{1,10}um.{1,15}(sicherheit|unterbrechungen)/i
-/ihr.{1,15}konto.{1,10}erneut zu reaktivieren/i
-/ihr.{1,15}konto.{1,10}verifiziert werden muss/i
-/ihr.{1,15}konto.{1,10}zu bestätigen.{1,10}Unterbrechungen/i
+/ihr.{1,15}(konto|profil).{1,10}aktualisieren.{1,10}um.{1,15}(sicherheit|unterbrechungen)/i
+/ihr.{1,15}(konto|profil).{1,10}erneut zu reaktivieren/i
+/ihr.{1,15}(konto|profil).{1,10}verifiziert werden muss/i
+/ihr.{1,15}(konto|profil).{1,10}zu bestätigen.{1,10}Unterbrechungen/i
+/ihr.{1,15}(konto|profil) zu schützen.{1,10}sicherzustellen/i
 
 /ihre.{1,10}persönlichen daten zu aktualisieren/iu
 /ihre.{1,25}daten in unserem system aktualisieren/i

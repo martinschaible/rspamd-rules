@@ -14,6 +14,7 @@
 /gewinn.{1,10}innerhalb von.{1,10}stunden erhalten/i
 /gewinn.{1,10}sichern.{1,10}nehmen sie an unserer umfrage teil/i
 
+/gewinner.{1,10}unserer neuesten umfrage/i
 /gewinner.{1,10}daten eingeben/i
 /gewinnern.{1,10}geschenks ausgewählt/iu
 
@@ -68,6 +69,10 @@
 /(haben die|ihnen die).{1,10}(einmalige|exklusive).{1,10}gelegenheit.{1,10}ein brandneues/i
 
 # Voucher
+
+# Make pressure to the winner
+/preis ist noch nicht beansprucht/i
+/preis zu beanspruchen.{1,10}müssen sie/iu
 
 # Companies, Products
 # ------------------------------------------------------------------------------
