@@ -108,6 +108,7 @@
 # Companies, Products
 # ------------------------------------------------------------------------------
 /paypal.?gift.?card now/i
+/shein.{1,10}mystery.?box/i
 /win.{1,10}paypal.{1,10}gift.?card/i
 
 # Surveys
@@ -172,8 +173,8 @@
 
 /this e?.?mail.?account.{1,30}is suspended/i
 
-/you have.{1,15}(important|undelivered|pending).{1,10}(e?.?mails?|messages?)/i
-/you have.{1,15}(important|undelivered|pending).{1,10}incoming.{1,10}(e?.?mails?|messages?)/i
+/you have.{1,15}(held|important|undelivered|pending).{1,10}(e?.?mails?|messages?)/i
+/you have.{1,15}(held|important|undelivered|pending).{1,10}incoming.{1,10}(e?.?mails?|messages?)/i
 /your e?.?mail.?account.{1,10} will be deleted/i
 /your incoming.{1,10}(e?.?mail|messages) bounced/i
 
