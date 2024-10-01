@@ -141,23 +141,26 @@
 
 # Delivery pending, bounced, blocked, hold
 # ------------------------------------------------------------------------------
+/\.(ch|com|de|org).{1,10}de.?activation notice/i
+/\.(ch|com|de|org).{1,10}mail.?server closure/i
+/\.(ch|com|de|org).{1,10}server.{1,10}password.{1,10}expired/i
+/\.(ch|com|de|org).{1,10}warning{1,10}the e?.?mail account/i
+/\.(ch|com|de|org).{1,10}will be blocked/i
+
+/access unread.{1,10}(e?.?mail|messages)/i
+/action required.{1,10}you have.{1,10}new e?.?mail/i
+/action required for your.{1,15}@/i
+
+/disconnected from sending.{1,10}receiving e?.?mails/i
+/have.{1,10}undelivered e?.?mail.{1,10}your inbox/i
+
 /incoming.{1,10}(e?.?mail|messages).{1,10}has been stopped/i
 /incoming.{1,10}(e?.?mail|messages).{1,10}(failed|pending)/i
 /incoming.{1,10}pending.{1,10}(e?.?mail|messages) for/i
 
 /important.{1,10}(e?.?mail|messages).{1,10}blocked/i
 
-/have.{1,10}undelivered e?.?mail.{1,10}your inbox/i
-
-/server.{1,20}\.(ch|com|de|org).{1,10}expired/i
-/server refresh required/i
-
-/webmail notification/i
-
-/access unread.{1,10}(e?.?mail|messages)/i
-/action required for your.{1,15}@/i
-
-/disconnected from sending.{1,10}receiving e?.?mails/i
+/pending.{1,10}(e?.?mails|messages).{1,10}undelivered for/i
 /restricted messages for/i
 
 /undeliverable.{1,10}outgoing e?.?mail failed/i
@@ -165,11 +168,8 @@
 
 /urgent.{1,10}e.?mail.?confirmation/i
 
-/\.(ch|com|de|org).{1,10}de.?activation notice/i
-/\.(ch|com|de|org).{1,10}mail.?server closure/i
-/\.(ch|com|de|org).{1,10}server.{1,10}password.{1,10}expired/i
-/\.(ch|com|de|org).{1,10}warning{1,10}the e?.?mail account/i
-/\.(ch|com|de|org).{1,10}will be blocked/i
+/server.{1,20}\.(ch|com|de|org).{1,10}expired/i
+/server refresh required/i
 
 /this e?.?mail.?account.{1,30}is suspended/i
 
@@ -183,13 +183,11 @@
 # To heavy
 #/verify your e?.?mail/i
 /verify your.{1,15}.(ch|de|org).{1,10}e?.?mail/i
-
-/action required.{1,10}you have.{1,10}new e?.?mail/i
-
 /warning.{1,10}password recovery/i
 
 # WebMail
 # ------------------------------------------------------------------------------
+/web.?mail notification/i
 /web.?mail software upgrade/i
 
 /action required.{1,10}your web.?mail/i
