@@ -30,7 +30,9 @@
 
 # Phishing
 # ------------------------------------------------------------------------------
+/^help.?center$/i
 /^notice$/i
+
 /purchase$/i
 /procurements$/i
 /^team$/i

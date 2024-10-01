@@ -517,10 +517,12 @@
 /edeka.{1,10}(belohnung|gutschein) erhalten/i
 
 # Stupid phrases
-/person hat noch nicht geantwortet/i
-/warten auf ihre genehmigung/i
-/(dein|ihr) name steht.{1,15}auf der liste/i
 /gewinner enthüllt/iu
+/(dein|ihr) name steht.{1,15}auf der liste/i
+/person hat noch nicht geantwortet/i
+
+/warten auf ihre genehmigung/i
+/wir versuchen sie zu finden/i
 
 # Companies, Products
 # ------------------------------------------------------------------------------

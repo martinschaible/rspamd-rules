@@ -173,6 +173,11 @@
 # Sample: https://www.rakuten-bank.co.jp/rd/fes/mail/ad/register/001.html
 /\.co\.jp\/rd\//i
 
+# Sample: https://baltholdings.ru/invoice17/index.html#info@doghandler.de
+/\.ru/invoice/i
+/\.ru/invoice\d{1,2}/i
+
+
 #
 /\/track/open\.php/i
 
