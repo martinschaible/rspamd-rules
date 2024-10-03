@@ -76,6 +76,7 @@
 /dear (customer|madam|sir).{1,10}your system password/i
 
 /your.{1,10}password will expire in.{1,10}(hours|minutes)/i
+/your.{1,10}password is due for an update/i
 /your.{1,10}e?.?mail.?account.{1,10}password is expiring/i
 
 # Password - Keep the same
@@ -91,6 +92,7 @@
 
 /keep password button/i
 
+/your password .{1,10}keep your password/i
 
 # Silly Lies
 # ------------------------------------------------------------------------------
