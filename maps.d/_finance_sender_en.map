@@ -7,6 +7,10 @@
 #  10 | English        |
 # ==============================================================================
 
+# Company names
+# ------------------------------------------------------------------------------
+/finance.?group/i
+
 /financial.?help/i
 /(credit|funding|loan|rates).?(firm|for|offer|opportunity|service|specialist|venture)/i
 /(free|personal).?(credit|loans?)/i
