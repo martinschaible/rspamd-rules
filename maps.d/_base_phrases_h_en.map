@@ -108,6 +108,7 @@
 /(my|this) (e?.?mail|message).{1,10}find.{1,10}you disturbing/i
 /(my|this) (e?.?mail|message).{1,10}has been well received/i
 /(my|this) (e?.?mail|message).{1,10}(intrudes|invades).{1,10}your privacy/i
+/(my|this) (e?.?mail|message).{1,10}inconvenienced you in any way/i
 
 /apologize for.{1,10}unsolicited proposal to you/i
 /disturb you with (my|this).{1,10}e?.?mail/i
@@ -200,7 +201,7 @@
 # ------------------------------------------------------------------------------
 /told me that i.{1,10}not live longer/i
 
-/i have only.{1,10}(month|weeks) left to live/i
+/i have only.{1,10}(month|weeks).{1,10}to live/i
 /i have limited time on.{1,10}mother earth/i
 /i.?ve been diagnosed with.{1,15}cancer/i
 /i would not last for the next.{1,10}(month|weeks)/i
