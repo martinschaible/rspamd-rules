@@ -78,6 +78,9 @@
 
 /(liebe|madam|sir).{1,10}mein.name.ist/i
 
+/lieber?.{1,15}baumarkt.?(kunde|kundin)/i
+/lieber?.{1,10}(empfänger|fremder|geliebter?|unbekannter)/i
+
 /lieber freund.{1,15}das ist herr/i
 /lieber freund.{1,15}mich ihnen vorstellen/i
 /lieber freund.{1,15}hier ist (frau|herr)/i
@@ -88,7 +91,6 @@
 /lieber freund.{1,10}ich schreibe ihnen/i
 
 /lieber.{1,5}e?.?mail.?(eigentümer|inhaber)/i
-/lieber?.{1,10}(empfänger|fremder|geliebter?|unbekannter)/i
 /lieber herr.{5,25}ich bin dr\./i
 /lieber kunde.{1,10}ich hoffe.{1,10}es geht ihnen gut/i
 /lieber kunde.{1,10}wir senden ihnen diese e?.?mail/i
