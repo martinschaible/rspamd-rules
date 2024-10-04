@@ -78,6 +78,9 @@
 
 /confirm.{1,10}you received? my (last|previous).{1,10}e?.?mail/i
 
+# Not sure if this works
+/^did you receive my email\?$/i
+
 # E-Mail surprise
 # ------------------------------------------------------------------------------
 /(my|this).{1,10}(e?.?mail|letter).{1,10}(came|come) a.{1,10}surprise to you/i
