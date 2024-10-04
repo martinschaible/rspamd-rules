@@ -129,6 +129,9 @@
 # Dropbox
 /dropbx-/i
 
+# JCB
+/myjcb\.[a-z0-9]{4,15}\./i
+
 # WeTransfer
 /https:\/\/wetransfer-/i
 
