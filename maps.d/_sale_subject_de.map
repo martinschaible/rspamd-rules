@@ -43,14 +43,15 @@
 
 # Chair
 # ------------------------------------------------------------------------------
-/(büro|massage).?(stuhl|stühle).{1,15}(eingebauter|integrierter|komfort|massage|walnussholz)/iu
-/(büro|massage).?(stuhl|stühle).{1,25}(erhältlich|netto|nur|reduziert|statt|zugreifen)/iu
-/(büro|massage).?(stuhl|stühle).{1,15}(sonder|spezial).?preis/i
-/(büro|massage).?(stuhl|stühle).{1,15}für (nur|\d{3})/i
-/(büro|massage).?(stuhl|stühle).{1,15}mit.{1,15}(bezug|massage.?funktion)/i
-/(büro|massage).?(stuhl|stühle).{1,15}nur.{1,10}zzgl/i
+/(büro|massage).?(sessel|stuhl|stühle).{1,15}(eingebauter|integrierter|komfort|massage|walnussholz)/iu
+/(büro|massage).?(sessel|stuhl|stühle).{1,25}(erhältlich|netto|nur|reduziert|statt|zugreifen)/iu
+/(büro|massage).?(sessel|stuhl|stühle).{1,15}(sonder|spezial).?preis/i
+/(büro|massage).?(sessel|stuhl|stühle).{1,15}für (nur|\d{3})/i
+/(büro|massage).?(sessel|stuhl|stühle).{1,15}mit.{1,15}(bezug|massage.?funktion)/i
+/(büro|massage).?(sessel|stuhl|stühle).{1,15}nur.{1,10}zzgl/i
 
-/leder.{0,10}(stuhl|stühle)/iu
+/massage.?(sessel|stuhl|stühle).{1,15}(sessel|stuhl|stühle)/i
+/leder.{0,10}(sessel|stuhl|stühle)/iu
 
 /(aktion|angebot).{1,20}(büro|massage).?(sessel|stuhl|stühle)/iu
 /(elegante|eleganz|ergonomische|lager).{1,20}(büro|massage).?(sessel|stuhl|stühle)/iu
@@ -113,10 +114,9 @@ grill.{1,10}statt.{1,10}nur/i
 
 # Jacket
 # ------------------------------------------------------------------------------
-/beheizbare daunen.?jacke/i
 /beheizbaren jacke/i
 
-/sie eine daunen.?jacke/i
+/(beheizbare|mit der|sie eine).{1,10}daunen.?jacke/i
 
 # Knives
 # ------------------------------------------------------------------------------

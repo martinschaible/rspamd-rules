@@ -400,12 +400,9 @@
 
 # Winning, Present, Rewards
 # ------------------------------------------------------------------------------
-/kunden.?belohnung(en)?/i
-
-/(belohnung|gutschein).?code/i
-/(belohnung|gutschein).{1,10}(freigeschaltet|ist zum versenden|reserviert|wartet sie)/i
-/belohnung einlösen/i
 /antworten.{1,10}gewinnen/i
+
+/(belohnung|gutschein).{1,10}(code|einlösen|erhalten|freigeschaltet|ist zum versenden|reserviert|wartet sie)/i
 
 /bald ablaufend.{1,10}ihre/i
 
@@ -420,6 +417,7 @@
 
 /die prämien sind eingetroffen/iu
 /der inhaber dieser e?.?mail.?adresse/i
+/der nächsten seite erwartet sie/iu
 
 /du gehörst zu den auserwählten/ui
 /du hast unser gewinnspiel gewonnen/i
@@ -462,8 +460,8 @@
 /ihr name wurde für ein/iu
 /ihre chance.{1,10}einen kostenlosen.{1,25}zu erhalten/i
 
+/kunden.?belohnung(en)?/i
 /kostenlos ein.{1,20}zu erhalten/i
-/der nächsten seite erwartet sie/iu
 
 /sie haben noch nicht geantwortet/i
 /sie haben das.{10,25}geschenkset gewonnen/i
@@ -570,6 +568,9 @@ letzter gewinner/i
 /herzlichen glückwunsch.{1,10}dewalt/iu
 /bald abgelaufen.{1,30}von dewalt/i
 /mit einem kostenlosen dewalt/i
+
+# GLS
+/ihre.{1,10}gls.?prämie/iu
 
 # Makita
 /sie wurden.{1,15}eine makita/i

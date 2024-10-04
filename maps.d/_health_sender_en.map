@@ -160,7 +160,7 @@
 # Blood pressure
 # ------------------------------------------------------------------------------
 /blood.?(glucose|pressure|sugar)/i
-/(balanced|high).?blood/i
+/(balanced|high|your).?blood/i
 /clogged.?arteries/i
 
 # Breath
@@ -204,6 +204,8 @@
 
 # Diabetes
 # ------------------------------------------------------------------------------
+/blood.?sugar/i
+
 /diabetes/i
 
 /end.?type.?2/i
