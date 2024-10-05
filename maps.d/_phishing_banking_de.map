@@ -101,8 +101,11 @@
 /telefon.?nummer.{1,10}nicht mit ihrem.{1,10}online.?banking/i
 
 /konto angemeldet.{1,20}aktivieren sie ihre telefon.?nummer/i
-/ihre telefon.?nummer.{1,10}nicht bestätigt haben/iu
-/ihre telefon.?nummer.{1,10}zu aktualisieren/i
+
+/ihre.{1,10}(telefon.?)?nummer.{1,10}ist nicht mehr gültig/i
+/ihre.{1,10}(telefon.?)?nummer.{1,10}nicht bestätigt (haben|wurde)/iu
+/ihre.{1,10}(telefon.?)?nummer.{1,10}zu aktualisieren/i
+
 /eine.{1,10}prüfung ihrer.{1,10}telefon.?nummer vorzunehmen/i
 
 /reaktivieren.{1,20}sie ihre handy.?nummer/i
