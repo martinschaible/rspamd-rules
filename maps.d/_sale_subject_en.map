@@ -93,14 +93,19 @@
 
 # Address lists for spamming, EMail Marketing
 # ------------------------------------------------------------------------------
+/advertise.{1,15}million.{1,15}e?.?mails/i
+
 /boom of sales/i
-/(linked.?in|targeted|verified).{1,10}e?.?mail.?list/i
+/bulk.{1,10}e?.?mail.{1,10}(marketing|strategies)/i
 
 /e?.?mail.?list.{1,10}(europe|valid)/i
 /e?.?mail.{1,10}marketing.{1,10}techniques/i
 
-/bulk.{1,10}e?.?mail.{1,10}(marketing|strategies)/i
 /(effective|strategic).{1,10}e?.?mail.{1,10}(campaigns?|marketing)/i
+
+/(linked.?in|targeted|verified).{1,10}e?.?mail.?list/i
+/launch your e?.?mail.?campaign/i
+/more customers with.{1,10}e?.?mail/i
 
 /powerful.{1,10}bulk.{1,10}e?.?mail/i
 /promote your service to.{1,15}businesses/i
@@ -108,12 +113,9 @@
 /reach.{1,10}million contacts/i
 /reach over.{1,15}businesses/i
 
+/scale up with.{1,15}business.?contacts/i
+
 /(elevate|supercharge) your sales/i
-/more customers with.{1,10}e?.?mail/i
-
-/advertise.{1,15}million.{1,15}e?.?mails/i
-
-/launch your e?.?mail.?campaign/i
 
 /our e?.?mail.?lists/i
 

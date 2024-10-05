@@ -258,6 +258,11 @@
 # Parcel
 # ------------------------------------------------------------------------------
 
+/(artikel|paket|sendung).{1,25}wartet auf.{1,10}(abholung|anweisung|bestätigung|lieferung|versandzahlung|zustellung)/iu
+/(artikel|paket|sendung).{1,25}wartet auf.{1,10}erneute.{1,10}(lieferung|zustellung)/i
+/(artikel|paket|sendung).{1,20}wartet (auf sie|immer noch)/i
+/(artikel|paket|sendung).{1,25}wartet wegen.{10,25}auf.{1,10}(lieferung|zustellung)/i
+
 # Address
 /adressüberprüfung für ihre sendung/iu
 /aktualisieren sie.{1,10}ihre adressinformationen/i
@@ -301,11 +306,6 @@
 /(paket|sendung).{1,10}nahe dem abschluss/i
 /(paket|sendung).{1,10}informationen bestätigen/iu
 
-/(artikel|paket|sendung).{1,25}wartet auf.{1,10}(abholung|anweisung|bestätigung|lieferung|versandzahlung|zustellung)/iu
-/(artikel|paket|sendung).{1,25}wartet auf.{1,10}erneute.{1,10}(lieferung|zustellung)/i
-/(artikel|paket|sendung).{1,20}wartet (auf sie|immer noch)/i
-/(artikel|paket|sendung).{1,25}wartet wegen.{10,25}auf.{1,10}(lieferung|zustellung)/i
-
 /(paket|sendung).{1,15}wird aufgrund.{1,10}unerwartet.{1,10}zollabwicklung/i
 /(paket|sendung).{1,10}wird heute zurückgeschickt/i
 /(paket|sendung).{1,15}wird hiermit zugestellt/i
@@ -313,6 +313,7 @@
 /(paket|sendung).{1,10}wurde aufgrund einer falschen lieferadresse/i
 
 /(paket|referenznummer|sendung).?id.?\d{5,25}/i
+/paket.?lieferung ausstehend/i
 
 /paket.?zustellung.{1,10}bitte bestätigen sie/iu
 /paketzustellungsnachricht/i
@@ -333,6 +334,8 @@
 
 /aktualisieren sie.{1,10}ihre lieferadresse/i
 /korrigieren sie ihre adresse/i
+
+/schritte.{1,15}zustellung.{1,10}(paket|sendung)/i
 
 /sie haben.{1,10}ausstehendes paket/i
 /sie haben.{1,10}ein paket.{1,10}das (sich|zugestellt)/i
