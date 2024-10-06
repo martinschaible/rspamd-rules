@@ -225,7 +225,8 @@
 /dear.{1,10}sir.{1,5}madam.{1,10}my name is/i
 
 /greetings.{1,10}my.name.is.{5,20}from/i
-/greetings my friend.{1,10}my name is/i
+/greetings.{1,10}to the attention of the/i
+/greetings.{1,10}my friend.{1,10}my name is/i
 
 /introduction.{1,10}my name is/i
 
@@ -322,23 +323,23 @@
 # ------------------------------------------------------------------------------
 /i.?a?m a?.{0,10}agent.{5,25}i am a/i
 /i.?a?m a?.{0,10}agent.{1,10}(broker|business|of)/i
-/i.?a?m a?.{1,10}barrister/i
-/i.?a?m a?.{1,25}entrepreneur/i
 /i.?a?m a?.{0,10}attorney.{1,25}(legal assistant|solicitor)/i
+/i.?a?m a?.{1,10}barrister/i
 /i.?a?m a?.{0,10}consultant (mandate|mr)/i
+/i.?a?m a?.{1,25}entrepreneur/i
+/i.?a?m a?.{0,10}expert.{1,10}trader/i
 /i.?a?m a?.{0,10}digital.{1,10}marketing.{1,10}(consultant|expert|specialist)/i
 /i.?a?m a?.{1,25}director general of the/i
 /i.?a?m a?.{1,25}general.?manager/i
-/i.?a?m a?.{0,10}expert.{1,10}trader/i
-/i.?a?m a?.{0,25}(financial|investment|investor).{1,10}(consultant|funds|philanthropist)/i
+/i.?a?m a?.{0,25}(financial|investment|investor).{1,10}(consultant|funds|portfolio|philanthropist)/i
 /i.?a?m a?.{1,25}head officer/i
+/i.?a?m a?.{0,10}medical scientist/i
 /i.?a?m a?.{1,25}private investigator/i
 /i.?a?m a?.{0,15}professional.{1,10}(graphic designer|investment)/i
-/i.?a?m a?.{0,10}medical scientist/i
-/i.?a?m a?.{1,25}sales.{1,10}(manager|representative)/i
-/i.?a?m a?.{1,25}senior.{1,10}purchasing.{1,10}manager/i
 /i.?a?m a?.{1,25}probate lawyer/i
 /i.?a?m a?.{1,25}reverend/i
+/i.?a?m a?.{1,25}sales.{1,10}(manager|representative)/i
+/i.?a?m a?.{1,25}senior.{1,10}purchasing.{1,10}manager/i
 /i.?a?m a?.{1,25}solicitor at law/i
 
 /i.?a?m a?.{0,10}(colonel|fbi|special agent)/i

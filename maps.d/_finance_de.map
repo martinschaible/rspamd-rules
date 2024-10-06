@@ -175,12 +175,17 @@
 /wir sind.{1,10}ein privates (finanz.?unternehmen|kredit)/i
 /wir sind.{1,10}eine gruppe.{1,15}investoren/i
 
+# Silly promises
+# ------------------------------------------------------------------------------
+/Ihre Geldsorgen.{1,10}vorbei sein werden/i
+
 #
 #
 #
 
 # Unclassified
 # ------------------------------------------------------------------------------
+/haben sie schulden.{1,10}brauchen sie geld/i
 
 # Masked
 # ------------------------------------------------------------------------------
