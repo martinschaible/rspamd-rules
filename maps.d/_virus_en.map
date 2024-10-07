@@ -34,6 +34,7 @@
 /(dear (madam|sir)|good day).{1,15}refer to the.{1,10}(attachment|attached)/i
 
 /find attached and send us/i
+/find attached.{1,10}po/i
 
 /your review.{1,10}download.{1,10}view receipt/i
 

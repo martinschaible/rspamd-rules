@@ -7,11 +7,11 @@
 
 # Account
 # ------------------------------------------------------------------------------
-/(lieber kunde|sehr geehrte damen und herren).{1,10}betrügerische aktivitäten/iu
-/(lieber kunde|sehr geehrte damen und herren).{1,10}ihr.{1,15}konto/i
-/(lieber kunde|sehr geehrte damen und herren).{1,10}um die sicherheit ihres.{1,15}kontos/i
-/(lieber kunde|sehr geehrte damen und herren).{1,10}wir haben.{1,10}ihr.{1,15}konto/i
-/(lieber kunde|sehr geehrte damen und herren).{1,10}wir haben ungewöhnliche/iu
+/(lieber (kunde|nutzer)|sehr geehrte damen und herren).{1,10}betrügerische aktivitäten/iu
+/(lieber (kunde|nutzer)|sehr geehrte damen und herren).{1,10}ihr.{1,15}konto/i
+/(lieber (kunde|nutzer)|sehr geehrte damen und herren).{1,10}um die sicherheit ihres.{1,15}kontos/i
+/(lieber (kunde|nutzer)|sehr geehrte damen und herren).{1,10}wir haben.{1,10}ihr.{1,15}konto/i
+/(lieber (kunde|nutzer)|sehr geehrte damen und herren).{1,10}wir haben ungewöhnliche/iu
 
 /wir haben festgestellt.{1,15}ihrer?.{1,15}konto.?informationen/i
 
@@ -22,6 +22,7 @@
 /konto.{1,10}eine sperrung ihres kontos zu vermeiden/i
 /konto.{1,10}einige fehlende informationen/i
 /konto.{1,10}sicherheitsgründen bald abläuft/iu
+/konto.{1,10}unserer vorherigen erinnerungen/i
 /konto.{1,15}vervollständigen sie die erforderlichen/iu
 /konto.{1,15}wurde aufgrund von.{1,15}fehlern gesperrt/i
 
