@@ -13,6 +13,8 @@
 /activation/i
 /appeal/i
 
+/keep.{1,10}account/i
+
 # B
 /buy it/i
 
@@ -52,6 +54,7 @@
 # P
 /payment (details|information|method)/i
 /(proof of|your) payment/i
+/my password/i
 
 # R
 /received.{1,10}shared files/i
