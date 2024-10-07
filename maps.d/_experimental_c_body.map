@@ -53,7 +53,12 @@
 /http:\/\/[a-z0-9-]{3,25}\.[a-z0-9-]{3,25}\.(ru|sa|za)\.com\//i
 /http:\/\/[a-z0-9-]{3,25}\.[a-z0-9-]{3,25}\.co\.(in|uk)\//i
 
+# No SSL Image Tag
+# ------------------------------------------------------------------------------
+/<img src=.?http:\/\//i
+
 # Hidden link
 # ------------------------------------------------------------------------------
 # Sample: <a style="display:none;" href="http://irelatilized.jp.net/4O0c084nml0mp3rr-8trgsi1wqt1qt1mstra600001" >.</a
 /<a style="display:none;".{1,10}href=.?http:\/\//i
+
