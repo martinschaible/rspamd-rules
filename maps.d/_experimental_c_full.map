@@ -67,9 +67,17 @@
 /your e?.?mails are infected with.{1,15}(trojan|virus)/i
 /you.{1,10}need to transfer.{1,15}(dollars|usd).{1,15}(bitcoin|btc)/i
 
+#
+#
+#
+
 # URL's in image tags can not be catched with
 #   type = "url";
 #  filter = "full";
 # 
 # Let's try it this way.
+# - It Works
 /i\.postimg\.cc/i
+
+# Sample: scontent-ham3-1.xx.fbcdn.net
+/scontent-.{4,6}\.xx\.fbcdn\.net/i

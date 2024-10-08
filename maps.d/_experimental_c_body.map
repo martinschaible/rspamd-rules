@@ -62,9 +62,17 @@
 # Sample: <a style="display:none;" href="http://irelatilized.jp.net/4O0c084nml0mp3rr-8trgsi1wqt1qt1mstra600001" >.</a
 /<a style="display:none;".{1,10}href=.?http:\/\//i
 
+#
+#
+#
+
 # URL's in image tags can not be catched with
 #   type = "url";
 #  filter = "full";
 # 
 # Let's try it this way.
+# - It Works
 /i\.postimg\.cc/i
+
+# Sample: scontent-ham3-1.xx.fbcdn.net
+/scontent-.{4,6}\.xx\.fbcdn\.net/i
