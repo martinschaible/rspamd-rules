@@ -71,8 +71,12 @@
 #  filter = "full";
 # 
 # Let's try it this way.
-# - It Works
+# ------------------------------------------------------------------------------
+
+# It Works
 /i\.postimg\.cc/i
 
 # Sample: scontent-ham3-1.xx.fbcdn.net
 /scontent-.{4,6}\.xx\.fbcdn\.net/i
+
+/src=.?https?:/\/\.ibb\.co/i
