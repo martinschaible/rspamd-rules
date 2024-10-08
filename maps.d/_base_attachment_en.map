@@ -46,6 +46,8 @@
 # Sample: _Payment.pdf    (3).htm
 /\.pdf.{1,10}\(\d\)\.htm/i
 
+/,doc\.tar/i
+
 # Triple Extension
 # ------------------------------------------------------------------------------
 /xls\.tar\.gz/i
