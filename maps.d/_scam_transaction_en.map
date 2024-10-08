@@ -17,7 +17,7 @@
 
 /have these.{1,10}funds.{1,10}transferred to you/i
 
-i want to transfer.{1,10}(dollar|euro?|gbp|usd?).{1,10}million/i
+/i want to transfer.{1,10}(dollar|euro?|gbp|usd?).{1,10}million/i
 
 /you.{1,10}help.{1,15}(manage|move|transfer).{1,15}(asset|sum)/i
 /you.{1,10}play.{1,20}role in the completion of this business/i
