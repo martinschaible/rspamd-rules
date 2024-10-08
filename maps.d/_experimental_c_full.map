@@ -78,10 +78,10 @@
 # Let's try it this way.
 # ------------------------------------------------------------------------------
 
-# It Works
 /i\.postimg\.cc/i
 
 # Sample: scontent-ham3-1.xx.fbcdn.net
 /src=.?https?:\/\/scontent-.{4,6}\.xx\.fbcdn\.net/i
 
-/src=.?https?:\/\/\.ibb\.co/i
+# Image Hosting
+/src=.?https?:\/\/i\.ibb\.co/i
