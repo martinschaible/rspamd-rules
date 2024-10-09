@@ -31,7 +31,8 @@
 
 /fettleibigkeit/i
 
-/kg (pro woche|weniger)/i
+/(kg|kilo).{1,10}(pro woche|weniger)/i
+/(kg|kilo).{1,10}(tagen?|wochen?)
 
 /(drink|hilfe|hilft|jetzt|zum).{1,10}abnehmen/i
 
@@ -42,7 +43,7 @@
 /schlank.?paket/i
 
 /reduzieren sie.{1,15}fett/i
-/weniger in.{1,10}woche/i
+/weniger in.{1,10}(tagen?|wochen?)/i
 
 #
 #
