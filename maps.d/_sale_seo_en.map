@@ -124,6 +124,7 @@
 /be at.{1,10}(1|one) on.{1,10}(bing|google|yahoo)/i
 /drop.{1,10}traffic due to recent.{1,10}(bing|google|yahoo)/i
 /elevate.{1,20}rank at the top.{1,10}(bing|google|yahoo)/i
+/impact your rankings in.{1,10}(bing|google|yahoo)/i
 
 /(promote|list|rank) your.{1,10}web.?site.{1,10}(bing|google|yahoo)/i
 
@@ -149,9 +150,6 @@
 # Google Maps
 /google maps.{1,10}we can help you/i
 /your company.{1,10}google maps/i
-
-# Lies
-/impact your rankings in.{1,10}(bing|google|yahoo)/i
 
 # Reputation
 # ------------------------------------------------------------------------------

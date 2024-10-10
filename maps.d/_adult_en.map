@@ -16,7 +16,7 @@
 # Chat
 # ------------------------------------------------------------------------------
 /alone.{1,15}wants to chat/i
-
+/free to talk.{1,10}my name is/i
 /chat.{0,10}(flirt|free)/i
 
 /i wish to have.{1,10}chat/i
@@ -132,7 +132,7 @@
 # Silly Chitchat/Phrases
 # ------------------------------------------------------------------------------
 /i am a (fair|lovely|solitary).{1,10}girl/i
-/i.?m a (lonely|alone) (female|miss)/i
+/i.?m a (lonely|alone) (female|girl||miss)/i
 /not a married lady/i
 
 /horny.{0,10}adults?/i
