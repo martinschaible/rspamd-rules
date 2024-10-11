@@ -68,6 +68,7 @@
 /your products?.{1,10}product.{1,10}(brochure|catalog|catalogue)/i
 /your products?.{1,10}please.{1,10}send the us/i
 
+/your company.{1,10}supply us with the attached.{1,10}product/i
 /your reply.{1,10}your product.{1,10}(brochure|catalog|catalogue)/i
 
 # Price List
@@ -111,6 +112,7 @@
 
 # Registration as a supplier
 # ------------------------------------------------------------------------------
+/register as.{1,10}potential.{1,15}vendor/i
 /updating.{1,10}supplier database with the aim/i
 
 /you to participate.{1,25}tender for the supply/i
