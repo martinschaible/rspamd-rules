@@ -103,6 +103,7 @@
 
 /good (day|evening|morning).{1,10}can you supply/i
 /good (day|evening|morning).{1,10}i.?a?m.{5,25}from/i
+/good (day|evening|morning).{1,10}i.?a?m.{5,25}representing a high/i
 /good (day|evening|morning).{1,10}i.?a?m (mrs?|ms)/i
 /good (day|evening|morning).{1,10}i would like to discuss something/i
 /good (day|evening|morning).{1,10}with trust/i
@@ -206,6 +207,7 @@
 /my name is.{5,25}i.?a?m.{1,10}the.{1,20}(lead|principal)/i
 /my name is.{5,25}i.?a?m.{1,10}writing (this message|to you)/i
 
+/my name is.{5,25}i contacted you with an act/i
 /my name is.{5,25}i have decided/i
 /my name is.{5,25}i have been.{1,10}victim/i
 /my name is.{5,25}i represent.{1,10}company/i

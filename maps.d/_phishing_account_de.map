@@ -44,6 +44,7 @@
 /ihr.{1,15}konto.{1,10}ist.{1,10}noch nicht aktualisiert/i
 
 /ihr.{1,15}konto.{1,10}ist.{1,10}(ausgesetzt|begrenzt|eingeschränkt|gesperrt).{1,10}bis/iu
+/ihr.{1,15}konto.{1,10}ist.{1,10}(ausgesetzt|begrenzt|eingeschränkt|gesperrt).{1,10}aktualisieren sie ihre zahlungsdetails/i
 /ihr.{1,15}konto.{1,10}ist.{1,10}(ausgesetzt|begrenzt|eingeschränkt|gesperrt).{1,10}um es.{1,10}(online|wieder).{1,10}zu aktivieren/iu
 /ihr.{1,15}konto.{1,10}ist.{1,10}begrenzt/i
 
@@ -98,7 +99,6 @@
 /aktualisieren sie.{1,10}ihre.{1,10}konto.?(daten|informationen)/i
 /aktualisieren sie ihr.{1,10}konto/i
 /aktualisieren sie ihr.{1,10}profil.{1,10}um diese einschränkungen aufzuheben/iu
-/aktualisierung ihrer identitätsdaten/iu
 
 /bestätigen sie.{1,10}ihre.{1,10}telefon.?nummer/iu
 /bestätigen sie.{1,10}ihre.{1,10}konto.?daten/iu
@@ -111,9 +111,6 @@
 /konto.?(daten|informationen).{1,10}daher vorsorglich bestätigen/iu
 /konto.?(daten|informationen).{1,10}lieber kunde/i
 /konto.?(daten|informationen).{1,10}wir im system hinterlegen/iu
-/konto.?(daten|informationen).{1,10}wir ihre identität bestätigen/iu
-
-/konto.{1,15}freigeben.{1,10}müssen sie ihre identität/iu
 /konto.?inhaber.{1,10}regelmä(ss|ß)igen abständen eine.{1,10}bestätigung/iu
 
 /ausgesetzt.{1,10}aktualisieren sie ihr profil/i
@@ -124,10 +121,7 @@
 /erforderlich.{1,20}konto zu aktualisieren/i
 /haben sie ihre daten nicht bestätigt/iu
 
-/identität.{1,10}sie unsere dienste nutzen/iu
 /identifikation vor ablauf der frist zu erneuern/i
-
-/klicken und die identitätsprüfung durchführen/iu
 
 /(button|link).{1,15}um ihre informationen{1,10}zu aktualisieren/i
 /(button|link).{1,15}um ihr.{1,15}konto erneut zu aktivieren/i
@@ -140,9 +134,6 @@
 
 /ihre.{1,10}persönlichen daten zu aktualisieren/iu
 /ihre.{1,25}daten in unserem system aktualisieren/i
-/ihre.{1,10}(identität|identifikation).{1,15}erneut bestätigen/i
-/ihre.{1,10}(identität|identifikation).{1,15}muss erneuert werden/i
-/ihre.{1,10}(identität|identifikation).{1,15}zu verifizieren/i
 
 /nicht.{1,10}identifikations.?prozess.{1,10}abgeschlossen/i
 /nicht.{1,10}ihre daten bei uns.{1,15}bestätigt haben/iu
@@ -156,9 +147,9 @@
 /sie den bestätigungs.?prozess.{1,10}nicht durchlaufen haben/iu
 /sie ihre persönlichen daten bestätigen/iu
 /sie unseren? kontoüberprüfungs.?prozesse?/i
-/sie.{1,10}ihre identität zu überprüfen/iu
 
 /sicherheits.?(aktualisierung|update).{1,10}ihr.{1,15}(konto|profil)/i
+/update wartet auf bestätigung/iu
 
 /validieren sie ihre angaben/i
 
@@ -177,6 +168,23 @@
 /zu verhindern.{1,15}verifizierung starten/i
 
 /unterlagen zeigen.{1,10}dass die kontaktdaten ihres/i
+
+# Identity
+/aktualisieren sie ihre.{1,10}identität/iu
+/aktualisierung ihrer.{1,10}identitätsdaten/iu
+
+/identität.{1,10}sie unsere dienste nutzen/iu
+
+/ihre.{1,10}(identität|identifikation).{1,15}erneut bestätigen/i
+/ihre.{1,10}(identität|identifikation).{1,15}muss erneuert werden/i
+/ihre.{1,10}(identität|identifikation).{1,15}zu verifizieren/i
+
+/klicken und die identitätsprüfung durchführen/iu
+
+/konto.?(daten|informationen).{1,10}wir ihr.{1,10}identität bestätigen/iu
+/konto.{1,15}freigeben.{1,10}müssen sie ihre.{1,10}identität/iu
+
+/sie.{1,10}ihre.{1,10}identität zu überprüfen/iu
 
 #
 /abgleich.{1,10}mobilfunknummer.{1,10}zwingend notwendig/i

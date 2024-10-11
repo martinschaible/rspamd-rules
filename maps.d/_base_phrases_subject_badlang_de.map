@@ -28,7 +28,11 @@
 # Adult
 # ------------------------------------------------------------------------------
 /(grüß dich|hoi|morgen).{1,10}mein.{1,15}(freund|herr|mann)/i
-/(absolut|aufregend|befriedigend|begabt|deutlich|ehrlich|einfach|ergeben|frei|gesellig|hochwertig|kontaktfreudig|lustig|munter|richtig|ruhig|spannend|standardisiert|ständig|treu|unschätzbar|vernünftig|volljährig|wahr|zurückhaltend) (freund|herr|mann)/iu
+
+/(absolut|aufregend|befriedigend|begabt|deutlich|ehrlich|einfach|ergeben) (freund|herr|mann)/iu
+/(frei|gesellig|hochwertig|kontaktfreudig|lustig|munter|reizend|richtig|ruhig) (freund|herr|mann)/iu
+/(spannend|standardisiert|ständig|treu|unschätzbar|vernünftig|volljährig) (freund|herr|mann)/iu
+/(wahr|zurückhaltend|zuverlässig) (freund|herr|mann)/iu
 
 /diskrete datierung/i
 
@@ -79,6 +83,8 @@
 /sie haben eine gesperrte zahlung/i
 /unbehandelter unternehmensdaten/i
 /wichtiger handlungsbedarf/i
+
+/zugang lauft am/i
 
 # Phishing - Account
 # ------------------------------------------------------------------------------
