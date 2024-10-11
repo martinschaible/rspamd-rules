@@ -17,11 +17,9 @@
 
 # Google
 # ------------------------------------------------------------------------------
+/ihre sichtbarkeit.{1,10}google/i
 /ihre website auf der ersten seite von google/i
 /aussieht.{1,10}aber bei google/i
-
-# Lies
-/ich habe ihre web.?site überprüft.{1,10}glaube/i
 
 # Links
 # ------------------------------------------------------------------------------
@@ -35,7 +33,9 @@
 
 # Lies
 # ------------------------------------------------------------------------------
-/ich habe ihre website angesehen/i
+/ich habe ihre web.?site angesehen/i
+/ich habe ihre web.?site überprüft.{1,10}glaube/i
+/ihrer web.?site auf einige probleme/i
 
 #
 #

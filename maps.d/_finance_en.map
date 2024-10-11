@@ -107,6 +107,10 @@
 
 /investment company offering.{1,20}(corporate|personal|unsecured).{1,10}loans?/i
 /leading.{1,10}institution.{1,10}(corporate|personal|unsecured).{1,10}loans/i
+/low interest credit.{1,10}take a chance/i
+
+#
+/(capital|plc).{1,10}offering.{1,10}low interest (credit|loan)/i
 
 # Financing, Investing
 # ------------------------------------------------------------------------------

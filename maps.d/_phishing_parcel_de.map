@@ -9,8 +9,10 @@
 
 # Greetings, Intros
 # ------------------------------------------------------------------------------
-/(guten tag|sehr geehrter kunde).{1,10}sie haben ein paket von/i
-/(guten tag|sehr geehrter kunde).{1,10}ihr.{1,10}(dhl|post).{1,10}paket/i
+/(guten tag|lieber kunde|sehr geehrter kunde).{1,10}sie haben ein paket von/i
+/(guten tag|lieber kunde|sehr geehrter kunde).{1,10}ihr.{1,10}(dhl|post).{1,10}paket/i
+/(guten tag|lieber kunde|sehr geehrter kunde).{1,10}wir haben versucht.{1,10}ihre bestellung/i
+
 
 /sendungsstatus.{1,10}lieber kunde/i
 
@@ -122,9 +124,11 @@
 /(paket|sendung).{1,10}hat jetzt das zollamt erreicht/i
 /(paket|sendung).{1,10}ist in unserer.{1,15}postfiliale angekommen/i
 /(paket|sendung).{1,10}mit der bestellnummer/i
-/(paket|sendung).{1,10}zurzeit in unserem .{1,10}(distributions|verteil).?zentrum/i
+/(paket|sendung).{1,10}zurzeit in unserem.{1,10}(distributions|verteil).?zentrum/i
 
 /poststelle eingetroffen ist.{1,10}sie es.{1,10}noch nicht erhalten/i
+
+/ist in der schweiz eingetroffen.{1,10}vom zoll/i
 
 # Pay Customs, Fees, VAT
 # ------------------------------------------------------------------------------
@@ -217,6 +221,7 @@
 /zustellung.{1,10}eine (geringe|zusätzliche).{1,10}gebühr anfallen kann/iu
 /zustellung.{1,10}eine (geringe|zusätzliche).{1,10}gebühr von.{1,15}anfällt/iu
 /zustellung.{1,10}ihrer sendung zu vermeiden.{1,10}zum bezahlen/i
+/zustellung.{1,10}ist eine.{1,15}(bearbeitungs|rücksende).{0,15}gebühr/i
 
 /zustellversuch.{1,10}zu bezahlen/i
 /zugestellt werden.{1,15}bestätigen sie die zahlung/iu
