@@ -81,6 +81,7 @@
 /(dear|hi).{1,10}(hiring|purchase|purchasing|sourcing).?manager/i
 /(dear|hi) my.{1,10}customer/i
 
+/dear.{1,10}(madam|purchaser|sir).{1,15}are you interested in/i
 /dear.{1,10}(madam|purchaser|sir).{1,15}glad to (contact|know|write) you/i
 /dear.{1,10}(madam|purchaser|sir).{1,15}(how are you|this is)/i
 /dear.{1,10}(madam|purchaser|sir).{1,15}please find attached/i

@@ -59,8 +59,6 @@
 /get.{1,10}(affordable|stress.?free) loan/i
 /in need of.{1,10}loan.{1,15}(if yes|e?.?mail back)/i
 
-/my company provides.{1,15}loans/i
-
 /need.{1,10}loan.{1,10}million (dollar|euro)/i
 
 /we.{1,10}(give|issuing|offer|offering|provide).{1,15}loans?.{1,10}all purposes/i
@@ -85,6 +83,7 @@
 
 /you can apply for.{1,10}loan/i
 /you be interested.{1,10}loan/i
+/you interested in.{1,10}interest rate/i
 /you looking for.{1,15}loans?/i
 /you need.{1,10}loan.{1,10}(for|from|if yes|to)/i
 /you (need|require).{1,10}(personal|urgent).{1,10}loan/i
@@ -98,7 +97,9 @@
 
 /quick.{1,10}fast.{1,10}loans?/i
 
-/our company.{1,10}offers.{1,10}competitive.{1,15}loans/i
+/(my|our) company.{1,10}(offers|provides).{1,10}competitive.{1,15}loans/i
+/(my|our) company.{1,10}(offers|provides).{1,15}loans/i
+
 /our loan.{1,10}(acquisition|funding|investment|programme)/i
 /our business loan offers/i
 
@@ -139,9 +140,10 @@
 
 /grant you financing.{1,10}\d{2,3}.{0.5}\d{2,3}.{1,10}(euro|gbp|usd)/i
 
+/(my|our) company.{1,25}has.{1,10}funds available/i
+/(my|our) company.{1,25}offers financial.{1,10}service/i
+
 /our financial project.{1,10}business financing/i
-/our company.{1,25}has.{1,10}funds available/i
-/our company.{1,25}offers financial.{1,10}service/i
 /our investment team will/i
 
 /you in.{1,10}request.{1,10}investment/i
