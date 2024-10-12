@@ -212,7 +212,7 @@
 
 # PayPal
 /paypal.?(case.?id|support|voucher)/i
-/service.{0,10}paypal/i
+/(service|support).{0,10}paypal/i
 
 # Spotify
 /s p o t i f y/i

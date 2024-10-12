@@ -17,7 +17,7 @@
 /facebook@/i
 /wix\.com/i
 
-/GOOGLE/
+/GOOGLE
 
 /(barrister|diplomat|general|major|sergeant)/i
 
@@ -71,12 +71,13 @@
 
 /attention/i
 /confirmation needed/i
+/important.?message/i
 /message from/i
+/noreplay/i
 /read.?this/i
+/revolutionary/i
 /whistleblower/i
 /you to read/i
-/revolutionary/i
-/noreplay/i
 
 # Sample: [iPad Pro]
 /\[.{5,10}\]/i
