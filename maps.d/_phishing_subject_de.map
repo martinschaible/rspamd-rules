@@ -71,6 +71,8 @@
 /sicherheitsüberprüfung ihres kontos.{1,15}erforderlich/iu
 /sicherheitswarnung.{1,10}konto gesperrt/i
 
+/sperrung ihrer karte.{1,10}ihres kontos/i
+
 /bestätigung ihrer konto.?informationen erforderlich/iu
 
 /(Überprüfen|überprüfen) sie ihre.{1,10}(kontodaten|persönlichen daten)/iu
@@ -95,6 +97,7 @@
 # Alert
 /benachrichtigung zu einer auffälligkeit/iu
 
+/hinweis.{1,10}vorübergehende sperrung/iu
 /wichtig.{1,10}(konto|profil).?informationen/i
 
 # Account - Payment options

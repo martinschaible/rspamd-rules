@@ -100,14 +100,19 @@
 # ------------------------------------------------------------------------------
 /confirm.{1,10}receipt.{1,10}win/i
 
-/reward.{1,10}open immediately/i
-/exclusive offer.{1,10}survey/i
-
 /life.?changing gift/i
 /time for.{1,10}reward/i
 
+/trying to reach you.{1,10}please respond/i
+
 /you.{1,10}received.{1,10}target reward/i
 /you have.{1,10}unread (e?.?mail|message) from/i
+
+# Rewards
+/reward.{1,10}open immediately/i
+
+/you.{1,10}selected for.{1,20}reward/i
+/your reward has been authorized/i
 
 # Companies, Products
 # ------------------------------------------------------------------------------
@@ -118,6 +123,7 @@
 # Surveys
 # ------------------------------------------------------------------------------
 /survey for.{1,15}rewards/i
+/exclusive offer.{1,10}survey/i
 
 # Payments
 # ------------------------------------------------------------------------------
@@ -129,11 +135,6 @@
 
 # Payment data
 # ------------------------------------------------------------------------------
-
-# Rewards
-# ------------------------------------------------------------------------------
-/you.{1,10}selected for.{1,20}reward/i
-/your reward has been authorized/i
 
 # Subscriptions
 # ------------------------------------------------------------------------------
