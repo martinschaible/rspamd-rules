@@ -226,7 +226,7 @@
 /\.ru/[a-z]{2,4}/we/[a-z]{2,4}/i
 
 # Wix
-/referer=https://shoutout\.wix.com/i
+/referer=https://shoutout\.wix\.com/i
 
 /\.[a-z]{2,3}/wix/i
 
@@ -248,3 +248,6 @@
 # ------------------------------------------------------------------------------
 # 26.08.24
 /\/tetsuzuki\//i
+
+# 12.10.24 
+/\.co\.jp/login/i
