@@ -214,6 +214,9 @@
 /paypal.?(case.?id|support|voucher)/i
 /(service|support).{0,10}paypal/i
 
+# SMBC
+/smbcプ/i
+
 # Spotify
 /s p o t i f y/i
 /spotify_inc/i
