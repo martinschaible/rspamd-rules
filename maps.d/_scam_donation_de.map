@@ -42,6 +42,7 @@
 /ausgewählt.{1,10}um eine.{1,10}spende von/i
 /hallo.{1,10}sie wurden ausgewählt/iu
 
+/ihre.{1,10}e?.?mail.{1,15}einer der begünstigten/iu
 /ihre.{1,10}e?.?mail.{1,15}wurde zufällig aus der/iu
 /ihre.{1,10}e?.?mail.{1,15}wurde zufällig (aus der|von einem)/iu
 /ihre.{1,10}e?.?mail.{1,15}wurde online zufällig ausgewählt/iu
@@ -64,6 +65,8 @@
 /(dollar|euro?|gbp|usd).{1,10}an sie gespendet.{1,10}details antworten/i
 
 /ihres spendenanspruchs wenden sie sich/i
+
+/kontaktieren sie un.{1,10}um ihre spende/i
 /kontaktieren sie barr/i
 
 /zu erhalten.{1,10}bitte antworten sie auf diese.{1,10}e?.?mail/i

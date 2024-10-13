@@ -424,6 +424,8 @@
 
 /bekanntgabe unseres gewinners/i
 
+/belohnung.{1,10}code/i
+
 /die prämien sind eingetroffen/iu
 /der inhaber dieser e?.?mail.?adresse/i
 /der nächsten seite erwartet sie/iu
@@ -519,6 +521,8 @@
 /wir haben eine überraschung für.{1,15}kunden/iu
 /wir ihren?.{1,10}(belohnung|gutschein) liefern/i
 /wir vergeben deinen.{1,15}gutschein/i
+
+/zeit für.{1,10}belohnung/i
 
 # Present/Surprise box
 /deine box schon bekommen/i
