@@ -63,7 +63,8 @@
 /all type of web.?site.{1,10}(design|development)/i
 /builds amazing.{1,20}(web)?.?site/i
 /create.{1,15}(new|update).{1,15}existing.{1,10}(web)?.?site/i
-/get.{1,10}new web.?site.{1,10}mobile.?app/i
+/designing.{1,10}developing web.?sites.{1,15}apps/i
+/get.{1,10}new web.?site.{1,15}app/i
 /proposal for your business.{1,10}(web)?.?site/i
 /send you my.{1,10}(web)?.?site.proposal/i
 /to (re)?.?develop your.{1,10}(web)?.?site/i
@@ -105,8 +106,10 @@
 /our.{1,15}focus is.{1,10}web.?site design/i
 
 /we are.{1,10}mobile.?apps.{1,10}(web)?.?site development/i 
-/we are.{1,10}web (design|development).{1,10}(company|team)/i
-/we are.{1,10}web design.{1,10}development.{1,10}(company|team)/i
+/we are.{1,10}web.?(design|development).{1,10}(company|firm|team)/i
+/we are.{1,10}web.?design.{1,10}development.{1,10}(company|team)/i
+/we are.{1,10}web.?site.{1,10}development.{1,10}design/i
+
 /we are.{1,10}it based company/i
 
 /we are.{1,20}professional website developers/i
