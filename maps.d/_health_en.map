@@ -52,6 +52,8 @@
 
 # Diabetes
 # ------------------------------------------------------------------------------
+/high blood sugar.{1,10}top eating/i
+
 /tea reverses.{1,10}diabetes in/i
 /ritual.{1,10}lowers.{1,10}blood.?sugar/i
 
@@ -78,6 +80,10 @@
 
 /natural vision breakthrough/i
 /second eye trick/i
+
+# Food
+# ------------------------------------------------------------------------------
+/eat.{1,10}this incredible.{1,10}superfood/i
 
 # Fungus, Nails
 # ------------------------------------------------------------------------------
@@ -273,8 +279,6 @@
 
 /click here.{1,15}to reveal/i
 /click here.{1,15}(discover|uncover).{1,15}(amazing|secret|yellow)/i
-
-/eat.{1,10}this incredible.{1,10}superfood/i
 
 /follow this recently discovered/i
 /(found|useing).{1,10}hidden secret/i
