@@ -36,6 +36,7 @@
 # Subscriptions
 # ------------------------------------------------------------------------------
 /mitgliedschaft/i
+/ihre rechnung/i
 
 # EMail, Cloud, Security and Server support
 # ------------------------------------------------------------------------------
@@ -153,11 +154,11 @@
 /(declathon|deutsche.?bahn|dewalt|drogerie|dyson|edeka|fressnapf|interdiscount|kaufland).{0,15}überraschung/i
 
 # Companies L to Z
-/(le.?creuset|lidl|media.?market|migros|obi|otto|öamtc|rewe|samsung|smeg|temu|walmart).{0,15}(abteilung|angebot|bestätigung|bundle|code)/i
-/(le.?creuset|lidl|media.?market|migros|obi|otto|öamtc|rewe|samsung|smeg|temu|walmart).{0,15}(geschenke|gewinner|gutschein)/i
-/(le.?creuset|lidl|media.?market|migros|obi|otto|öamtc|rewe|samsung|smeg|temu|walmart).{0,15}(help.?desk|kontakt|prämien?|sender|sendung|umfragen?|versand|zustellung)/i
-/(le.?creuset|lidl|media.?market|migros|obi|otto|öamtc|rewe|samsung|smeg|temu|walmart).{0,15}kunde$/i
-/(le.?creuset|lidl|media.?market|migros|obi|otto|öamtc|rewe|samsung|smeg|temu|walmart).{0,15}überraschung/i
+/(le.?creuset|lidl|media.?market|migros|obi|otto|öamtc|rewe|samsung|smeg|starbucks|temu|walmart).{0,15}(abteilung|angebot|bestätigung|bundle|code)/i
+/(le.?creuset|lidl|media.?market|migros|obi|otto|öamtc|rewe|samsung|smeg|starbucks|temu|walmart).{0,15}(geschenke|gewinner|gutschein)/i
+/(le.?creuset|lidl|media.?market|migros|obi|otto|öamtc|rewe|samsung|smeg|starbucks|temu|walmart).{0,15}(help.?desk|kontakt|prämien?|sender|sendung|umfragen?|versand|zustellung)/i
+/(le.?creuset|lidl|media.?market|migros|obi|otto|öamtc|rewe|samsung|smeg|starbucks|temu|walmart).{0,15}kunde$/i
+/(le.?creuset|lidl|media.?market|migros|obi|otto|öamtc|rewe|samsung|smeg|starbucks|temu|walmart).{0,15}überraschung/i
 
 /kaufland.{0,5}#\d{1,10}/i
 /kauf\.land/i
