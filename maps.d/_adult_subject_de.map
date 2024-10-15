@@ -105,10 +105,11 @@
 
 # Sex, Fuck
 # ------------------------------------------------------------------------------
-/(bist du|kostenlos).{1,10}sex/i
+/(bist du|kostenlos|wirst du).{1,10}sex/i
 /sex.{0,10}(date|treffen|ohne)/i
 /sex mit.{1,15}frauen/i
 
+/guten sex haben/i
 /dich verführe/i
 /du sie befriedigst/i
 
