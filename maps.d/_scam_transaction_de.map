@@ -9,10 +9,11 @@
 
 # Transaction
 # ------------------------------------------------------------------------------
-/ihre (hilfe|unterstützung).{1,10}beim transfer von.{1,15}millionen/i
-/ihre (hilfe|unterstützung).{1,10}beim transfer von.{1,15}(dollar|euro?|gbp|usd)/i
-/ihre (hilfe|unterstützung).{1,10}eine.{1,10}transaktion.{1,10}im wert von/iu
-/ihre (hilfe|unterstützung).{1,10}um.{1,15}millionen.{1,10}(dollar|euro?|gbp|usd) aus/i
+/ihre (hilfe|unterstützung|zustimmung).{1,10}beim transfer von.{1,15}millionen/i
+/ihre (hilfe|unterstützung|zustimmung).{1,10}beim transfer von.{1,15}(dollar|euro?|gbp|usd)/i
+/ihre (hilfe|unterstützung|zustimmung).{1,10}eine.{1,10}transaktion.{1,10}im wert von/iu
+/ihre (hilfe|unterstützung|zustimmung).{1,10}um.{1,15}millionen.{1,10}(dollar|euro?|gbp|usd) aus/i
+/ihre (hilfe|unterstützung|zustimmung).{1,10}zu einer.{1,20}transaktion/i
 
 /ihrem.{1,10}konto.{1,10}\d{3}.{0,5}\d{3}.{1,15}(million|dollar|euro?|gbp|usd).{1,10}gutzuschreiben/i
 /ihre zustimmung.{1,15}vertrauliche transaktion/i
@@ -35,6 +36,8 @@
 /sie.{1,10}helfen.{1,15}geld.{1,10}millionen/i
 /sie.{1,10}hilfe bei der überweisung eines betrags/iu
 /sie.{1,10}zu bitten.{1,10}mir dabei zu helfen.{1,10}geld/i
+
+/vertraulichen transaktion im wert von/i
 
 #
 #

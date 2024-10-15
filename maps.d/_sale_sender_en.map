@@ -149,7 +149,7 @@
 # Streaming TV
 # ------------------------------------------------------------------------------
 /\d{3,4}.{1,10}worldwide.channels/i
-/ip.?tv.?(royals|streaming)/i
+/ip.?tv.?(deal|royals|streaming)/i
 
 /hd(tv)?.?antenna/i
 

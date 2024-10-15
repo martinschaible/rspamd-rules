@@ -117,9 +117,12 @@
 /hbomax.{1,10}amazonprime.{1,10}appletv/i
 /amazonprime.{1,10}appletv.{1,10}disney/i
 
+/unlock.{1,10}\d{3,4}.{1,10}channels/i
+
 /be an iptv.?reseller/i
 /join iptv.{1,10}now/i
 /welcome to iptv/i
+/with best iptv/i
 /promotion.{1,10}our iptv/i
 
 # Tracker

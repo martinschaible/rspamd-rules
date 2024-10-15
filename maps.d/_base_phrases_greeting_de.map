@@ -12,6 +12,7 @@
 
 /(grüße|hallo geliebte).{1,10}ich.bin.(frau|herr)/i
 
+/grüße.{1,10}an Sie.{1,10}ich schreibe ihnen/i
 /grüße.{1,15}antworten sie auf meine/iu
 /grüße.{1,10}(geliebte|gewinner|mein lieber)/i
 /grüße.{1,5}ich bin/i

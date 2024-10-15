@@ -20,8 +20,10 @@
 #
 /height=(3d)?"\d{2,4}" width=(3d)?"\d{2,4}" usemap="#[a-z0-9]{2,15}" border=(3d)?"0".?>/i
 
+/usemap="#image-map"><map name="image-map"/i
+
 #
-/(bit\.ly|tinyurl\.com)\/[a-z]{2,15}\.(jpg|png)" usemap=(3d)?"#image-map"/i
+/(bit\.ly|i\.imgur\.com|tinyurl\.com)\/[a-z]{2,15}\.(jpg|png)" usemap=(3d)?"#image-map"/i
 
 # These suckers are using a online service to create their maps:
 # ------------------------------------------------------------------------------

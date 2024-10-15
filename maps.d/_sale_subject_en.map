@@ -82,6 +82,7 @@
 # Streaming TV
 # ------------------------------------------------------------------------------
 /worldwide channels.{1,10}movies/i
+/your ip.?tv.?deal/i
 
 # Wifi
 # ------------------------------------------------------------------------------
@@ -158,7 +159,7 @@
 # ------------------------------------------------------------------------------
 /about web.?site/i
 /build.{1,10}ecommerce.{1,10}web.?site/i
-/custom.{1,15}web.?site.?design/i
+/custom.{1,15}web.?site.{1,10}(design|php)/i
 /considering.{1,10}new web.?site/i
 
 /(home.?page|web.?site).{1,10}(remake|upgrade|upgrading)/i
