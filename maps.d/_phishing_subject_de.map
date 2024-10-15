@@ -724,8 +724,8 @@ letzter gewinner/i
 /swisspass.{1,10}abonnement.{1,15}aktivieren/i
 /wichtiger hinweis zu.{1,10}swisspass/i
 
-/(ihr|lhr).{1,10}(swiss)?.?pass (ist|wurde).{1,20}(deaktiviert|nicht mehr gültig)/iu
-/(ihr|lhr).{1,10}(swiss)?.?pass wurde vorübergehend gesperrt/iu
+/(ihr|lhr).{1,10}(swiss)?.?pass (ist|wurde).{1,20}(deaktiviert|gesperrt|nicht mehr gültig)/iu
+/(ihr|lhr).{1,10}(swiss)?.?pass wurde vorübergehend (deaktiviert|gesperrt)/iu
 
 /verbinde di mit dim konto/i
 
