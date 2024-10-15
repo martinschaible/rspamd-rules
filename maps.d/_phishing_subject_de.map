@@ -764,19 +764,18 @@ letzter gewinner/i
 
 /(dringende|wichtige) aufforderung.{1,10}aktualisieren sie ihr /i
 
-/mahnung.{1,10}dringender handlungsbedarf/i
-
 /(handeln|handlung) erforderlich.{1,10}(dauernde|sperrung)/i
 /(handeln|handlung) erforderlich.{1,10}lösen sie ihr problem/iu
 
 /bitte um rückruf.{1,10}aktenzeichen/iu
+/hallo.{1,10}wir warten auf ihre antwort/i
+/ihre gelder sind gefährdet/iu
 
+/mahnung.{1,10}dringender handlungsbedarf/i
 /neue nachricht.{1,10}neues update/i
 
-/ihre gelder sind gefährdet/iu
-/sie sich mit dieser e.?mail/i
-
 /profilaktualisierung erforderlich/i
+/sie sich mit dieser e.?mail/i
 
 # Masked
 # ------------------------------------------------------------------------------
