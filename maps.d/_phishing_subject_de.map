@@ -21,6 +21,7 @@
 /aktualisieren sie ihre.{1,15}kontoangaben/i
 /aktualisieren sie ihr.{1,15}(konto|profil)/i
 /aktualisieren sie ihre.{1,15}daten bei/i
+/aktualisieren sie jetzt ihre.{1,15}daten/i
 
 /aktualisierung erforderlich!/i
 /aktualisierung erforderlich.{1,15}sichern sie ihr.{1,15}konto/i
@@ -154,6 +155,8 @@
 /ihre informationen.{1,15}aktualisiert werden/i
 /ihre informationen.{1,10}zu aktualisieren/i
 
+/jetzt verifizierung durchführen/iu
+
 /bestätigen sie ihre identität/iu
 /(bestätigung|datenupdate|verifizierung).{1,10}erforderlich/i
 /bestätigen sie.{1,10}ihre sicherheit/i
@@ -273,6 +276,7 @@
 # Address
 /adressüberprüfung für ihre sendung/iu
 /aktualisieren sie.{1,10}ihre adressinformationen/i
+/aufgrund einer falschen adresse scheiterte die zustellung/i
 
 /benachrichtigung über ihr paket/iu
 /bestellung.{1,10}die noch auf.{1,10}bezahlung wartet/i

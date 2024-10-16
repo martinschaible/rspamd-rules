@@ -26,6 +26,8 @@
 /adresse.{1,10}ungültige adresse/iu
 /adresse.{1,20}zu (bestätigen|überprüfen)/i
 
+/aufgrund einer falschen adresse scheiterte die zustellung/i
+
 /bestätigen sie.{1,15}adresse.{1,15}liefergebühr/iu
 /bestätigen sie.{1,15}korrekte.{1,10}lieferadresse/iu
 
@@ -70,6 +72,7 @@
 /lieferdetails.{1,10}mit uns bestätigen/iu
 
 /aktualisieren sie die.{1,10}lieferdetails/i
+/bestätigen sie ihre.{1,10}adresse/i
 /sie ihre (lieferdetails aktualisieren|versandzone)/i
 /sie müssen.{1,10}ihre lieferinformationen bestätigen/iu
 /stunden zeit.{1,10}um ihre.{1,10}versandpräferenzen/iu

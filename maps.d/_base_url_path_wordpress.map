@@ -20,6 +20,7 @@
 /\/wp-content\/uploads\/.{1,15}\/(raiffeisenbank|swisscom|volksbank)/i
 
 #
+/\/wp-admin\/admin\/\?email/i
 /\/wp-admin\/readme\.(html|php)/i
 /\/wp-admin\/assets\/.{1,20}\.(html|php)/i
 /\/wp-content\/(uploads|plugins)\/.{1,20}\/.{1,20}\.(html|php)/i

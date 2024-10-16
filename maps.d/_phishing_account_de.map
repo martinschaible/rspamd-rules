@@ -13,6 +13,8 @@
 /(lieber (kunde|nutzer)|sehr geehrte damen und herren).{1,10}wir haben.{1,10}ihr.{1,15}konto/i
 /(lieber (kunde|nutzer)|sehr geehrte damen und herren).{1,10}wir haben ungewöhnliche/iu
 
+/guten tag.{1,10}zum schutz ihres kontos/i
+
 /wir haben festgestellt.{1,15}ihrer?.{1,15}konto.?informationen/i
 
 # Account - Locking
@@ -22,6 +24,7 @@
 /konto.{1,15}bei.{1,15}verknüpft ist.{1,15}nicht für die nutzung/iu
 /konto.{1,10}eine sperrung ihres kontos zu vermeiden/i
 /konto.{1,10}einige fehlende informationen/i
+/konto.{1,10}läuft gefahr.{1,10}gesperrt zu werden/i
 /konto.{1,10}sicherheitsgründen bald abläuft/iu
 /konto.{1,10}unserer vorherigen erinnerungen/i
 /konto.{1,15}vervollständigen sie die erforderlichen/iu
@@ -36,9 +39,10 @@
 /ignorieren.{1,10}wird ihr.{1,15}konto gesperrt/i
 /informationen.{1,10}um eine sperrung ihres.{1,15}kontos/i
 
-/ihr.{1,15}konto.{1,10}indem sie innerhalb von/i
-/ihr.{1,15}konto.{1,10}ist.{1,10}aufgrund.{1,10}fehlgeschlagenen updates/i
 /ihr.{1,15}konto.{1,15}aufgrund der fehlenden bestätigung/iu
+/ihr.{1,15}konto.{1,10}indem sie innerhalb von/i
+/ihr.{1,15}konto.{1,10}innerhalb von.{1,10}stunden gesperrt werden/i
+/ihr.{1,15}konto.{1,10}ist.{1,10}aufgrund.{1,10}fehlgeschlagenen updates/i
 
 /ihr.{1,15}konto.{1,10}ist.{1,10}(dauerhaft|derzeit|möglicherweise|vorübergehend).{1,10}(ausgesetzt|eingeschränkt|begrenzt|gesperrt)/iu
 /ihr.{1,15}konto.{1,10}ist.{1,10}noch nicht aktualisiert/i
@@ -234,7 +238,7 @@
 /online.?identifizierung für ihr.{1,20}konto/iu
 
 /verifizierung ihres.{1,15}kontos.{1,20}ist ein fehler aufgetreten/i
-
+/verifizierung durchzuführen.{1,10}um.{1,15}zugriff wieder zu erlangen/i
 #
 /hallo.{1,10}bei der verifizierung/i
 
