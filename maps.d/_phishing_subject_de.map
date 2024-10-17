@@ -444,6 +444,7 @@
 
 /fordern sie ihr geschenk/i
 
+/empfang.{1,10}bald ablaufend/i
 /(exklusive|sichere).{1,10}chance auf ein.{1,15}produktpaket/i
 /exklusive.{1,10}belohnungen.{1,40}(kostenlos|umfrage)/i
 /erhalten sie.{1,10}(belohnung|gutschein)/i
@@ -728,6 +729,9 @@ letzter gewinner/i
 # Postfinance
 /dringende aktualisierung.{1,10}postfinance/i
 
+# Swisscom
+/bestätigen sie ihre korrekturdaten/iu
+
 # Swisspass
 /swisspass.{1,10}abonnement.{1,15}aktivieren/i
 /wichtiger hinweis zu.{1,10}swisspass/i
@@ -739,14 +743,14 @@ letzter gewinner/i
 
 /sbb ccf ffs/i
 
+# Swiss Goverment
+/steuererklärung.{1,10}wichtige anweisungen/iu
+
 # Swiss Police
 /die polizeiliche.{1,10}kommunikation/i
 /ihr engagement ist erforderlich/i
 /antwort.{1,10}rechtliche mitteilung/i
 /notwendige antwort/i
-
-# Swiss Goverment
-/steuererklärung.{1,10}wichtige anweisungen/iu
 
 # Swiss Railway
 /erstattungsticket akzeptiert/i
