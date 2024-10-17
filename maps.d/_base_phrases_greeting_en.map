@@ -87,9 +87,10 @@
 /dear.{1,10}(madam|purchaser|sir).{1,15}(how are you|this is)/i
 /dear.{1,10}(madam|purchaser|sir).{1,15}please find attached/i
 /dear.{1,10}(madam|purchaser|sir).{1,15}guten tag/i
-/dear.{1,10}(madam|purchaser|sir).{1,15}i respresent.{5,15}(renowned|worldwide)/i
+/dear.{1,10}(madam|purchaser|sir).{1,15}i represent.{5,25}(renowned|worldwide)/i
 /dear.{1,10}(madam|purchaser|sir).{1,25}is a leading provider/i
 /dear.{1,10}(madam|purchaser|sir).{1,15}it is an honor to contact you/i
+/dear.{1,10}(madam|purchaser|sir).{1,15}our company is providing/i
 
 /dear sir.{1,5}ma.{1,3}greetings/i
 /dear sir.{1,5}madam.{1,10}i am writing to/i

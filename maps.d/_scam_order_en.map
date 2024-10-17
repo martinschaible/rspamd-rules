@@ -117,8 +117,9 @@
 
 /you to participate.{1,25}tender for the supply/i
 
-/your.{1,15}company.{1,10}register.{1,10}potential.{1,10}suppliers?/i
-/your.{1,15}organization to participate in the.{1,45}vendors.{1,10}registration/i
+/your.{1,15}(company|organization).{1,10}participate in the.{1,45}vendors?.{1,10}registration/i
+/your.{1,15}(company|organization).{1,10}register.{1,10}potential.{1,10}suppliers?/i
+/your.{1,15}(company|organization).{1,10}vendor?.{1,10}registration/i
 
 #
 #

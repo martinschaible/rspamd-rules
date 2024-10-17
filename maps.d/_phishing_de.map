@@ -74,6 +74,8 @@
 
 /rückerstattung beantragen/i
 /rückerstattungs.?link/iu
+/rückerstattung zu überprüfen/iu
+/rückerstattungsstatus überprüfen/iu
 
 /zurückerhalten.{1,10}indem sie unten klicken/iu
 
@@ -144,6 +146,11 @@ wir haben schwierigkeiten.{1,10}den betrag der letzten rechnung/i
 /wichtige mitteilung.{1,10}steuererstattung/i
 
 /ihnen eine steuererstattung/i
+
+# Accept AGB
+# ------------------------------------------------------------------------------
+/agb.{1,10}handlungsbedarf bis zum/i
+/neue agb überprüfen.{1,10}akzeptieren/iu
 
 #
 #

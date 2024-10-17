@@ -97,14 +97,14 @@
 
 /quick.{1,10}fast.{1,10}loans?/i
 
-/(my|our) company.{1,10}(offers|provides).{1,10}competitive.{1,15}loans/i
-/(my|our) company.{1,10}(offers|provides).{1,15}loans/i
+/(my|our) company.{1,10}(offering|offers|provides|providing).{1,10}(competitive|corporate).{1,15}loans/i
+/(my|our) company.{1,10}(offering|offers|provides|providing).{1,15}loans/i
 
 /our loan.{1,10}(acquisition|funding|investment|programme)/i
 /our business loan offers/i
 
-/(offering|offers).{1,10}corporate.{1,10}personal.{1,10}loans/i
-/(offering|offers).{1,10}business loans.{1,10}interest.?rate/i
+/(offering|offers|provides|providing).{1,10}corporate.{1,10}(financing|personal).{1,10}loans/i
+/(offering|offers|provides|providing).{1,10}business loans.{1,10}interest.?rate/i
 
 /investment company offering.{1,20}(corporate|personal|unsecured).{1,10}loans?/i
 /leading.{1,10}institution.{1,10}(corporate|personal|unsecured).{1,10}loans/i
