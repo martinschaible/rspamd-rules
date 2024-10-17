@@ -93,5 +93,7 @@
 
 # Unclassified
 # ------------------------------------------------------------------------------
+/^alert$/i
+
 /(account|mail|urgent|warning)$/i
 /congratulations/i

@@ -22,6 +22,7 @@
 /aktualisieren sie ihr.{1,15}(konto|profil)/i
 /aktualisieren sie ihre.{1,15}daten bei/i
 /aktualisieren sie jetzt ihre.{1,15}daten/i
+/aktualisieren.{1,15}erforderlichen zahlungsinformationen/i
 
 /aktualisierung erforderlich!/i
 /aktualisierung erforderlich.{1,15}sichern sie ihr.{1,15}konto/i
@@ -87,10 +88,10 @@
 
 /wichtig.{1,10}kontofunktionen/i
 /wichtige e?.?mail.{1,10}ihr konto/i
-/(hinweis|wichtig).{1,10}verifizieren sie ihr.{1,15}konto/i
+/(aufruf|hinweis|wichtig).{1,10}verifizieren sie ihr.{1,15}konto/i
+/(aufruf|hinweis|wichtig).{1,10}(dein|ihr).{1,15}konto zu verifizieren/i
 
 /erinnerung.{1,10}kontoupdate/i
-/aktualisieren.{1,15}erforderlichen zahlungsinformationen/i
 
 # Services
 /sperrung des.{1,15}dienstes.{1,15}handlungsbedarf/i
@@ -422,7 +423,7 @@
 /bald ablaufend.{1,10}ihre/i
 
 /bestätige deine versanddetails/iu
-/bestätigen sie ihr geschenk/iu
+/bestätigen sie (den empfang|ihr geschenk)/iu
 /bestätigung.{1,10}ausstehend.{1,10}sofortiger versand/i
 /bestätigung.{1,10}ihre bestellung zu (versenden|verschicken)/iu
 
