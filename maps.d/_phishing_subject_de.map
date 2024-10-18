@@ -580,9 +580,11 @@ letzter gewinner/i
 /ausstehende sendung.{1,10}acer/i
 
 # ADAC
-/gewinnen sie ein.{1,10}auto.?notfallset/i
-/ihr kostenloses.{1,10}auto.?notfallset/i
-/notfallset wartet auf sie/i
+/gewinnen sie ein.{1,10}auto.?notfall.?set/i
+/ihr kostenloses.{1,10}auto.?notfall.?set/i
+/notfall.?set.{1,10}(für ihr auto|im auto|wartet auf sie)/i
+
+/sie sich das.{1,15}notfall.?(auto|set)/i
 
 # AliExpress
 /erhalten sie.{1,10}aliexpress.{1,10}mystery.?box/i
