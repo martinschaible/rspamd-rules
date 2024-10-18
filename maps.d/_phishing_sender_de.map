@@ -9,6 +9,9 @@
 # ------------------------------------------------------------------------------
 /(account|konto).?(aktivität|aktivierung|bestätigung|hilfe|id|service|wiederherstellung)/iu
 
+/konto.?aktualisierung/i
+/kontoaktivitäts.?aktualisierung/i
+
 /(aktualisierung|bestätigung).{0,15}konto/iu
 /aktivitäts.?center/i
 

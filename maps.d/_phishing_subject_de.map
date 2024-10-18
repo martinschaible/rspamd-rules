@@ -13,6 +13,10 @@
 # ------------------------------------------------------------------------------
 /ihre unternehmensdaten sind nicht mehr aktuell/i
 
+# New AGB and renewals
+# ------------------------------------------------------------------------------
+/aktion ist erforderlich.{1,10}neue agb/i
+
 # Accounts
 # ------------------------------------------------------------------------------
 /aktion erforderlich/i
@@ -99,8 +103,12 @@
 # Alert
 /benachrichtigung zu einer auffälligkeit/iu
 
+/erfordert eine sofortige antwort/i
+
 /hinweis.{1,10}vorübergehende sperrung/iu
 /wichtig.{1,10}(konto|profil).?informationen/i
+/wichtige warnung.{1,10}ihr.{1,10}konto/i
+
 
 /halten sie ihre unternehmensinformationen/iu
 
@@ -177,6 +185,7 @@
 /sie müssen sich neu identifizieren/iu
 /sollten aktualisiert werden/i
 
+/authentifizieren sie sich.{1,15}klicks/i
 /aktualisierung.{1,10}erforderlich.{1,10}konto/i
 /verifizierung ihres.{1,15}kontos.{1,10}(erforderlich|jetzt)/i
 
@@ -734,6 +743,8 @@ letzter gewinner/i
 
 # Swisspass
 /swisspass.{1,10}abonnement.{1,15}aktivieren/i
+/swisspass.{1,10}authentifizieren/i
+
 /wichtiger hinweis zu.{1,10}swisspass/i
 
 /(ihr|lhr).{1,10}(swiss)?.?pass (ist|wurde).{1,20}(deaktiviert|gesperrt|nicht mehr gültig)/iu
