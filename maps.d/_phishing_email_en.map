@@ -105,6 +105,9 @@
 # ------------------------------------------------------------------------------
 /\.(ch|de|org).{1,10}server was.{1,15}to a newer version/i
 
+# Important
+/important notification.{1,10}welcome to the new/i
+
 # Verify EMail Account, Mailbox
 # ------------------------------------------------------------------------------
 /(confirm|verify).{1,10}your.{1,15}(account|e?.?mail).{1,10}is.{1,10}active on our server/i

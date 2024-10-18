@@ -215,7 +215,7 @@
 /hidden.?protein/i
 
 /glucose.?hack/i
-/high.?(a1c|glucose)/i
+/(high|low)er?.?(a1c|glucose)/i
 
 # Digestive System
 # ------------------------------------------------------------------------------
@@ -330,7 +330,7 @@
 
 # Heart, Blood pressure
 # ------------------------------------------------------------------------------
-/heart.?attack/i
+/heart.?(attack|health)/i
 
 /blood.?presssure/i
 /clogged.?arteries/i

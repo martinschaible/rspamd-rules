@@ -14,14 +14,14 @@
 
 /grüße.{1,10}an Sie.{1,10}ich schreibe ihnen/i
 /grüße.{1,15}antworten sie auf meine/iu
+/grüße.{1,10}diese.{1,10}e?.?mail/iu
 /grüße.{1,10}(geliebte|gewinner|mein lieber)/i
 /grüße.{1,5}ich bin/i
 /grüße.{1,10}ich hoffe.{1,10}es geht ihnen gut/i
 /grüße.{1,10}in bester gesundheit/iu
-/grüße.{1,10}mein.name.ist/iu
-/grüße.{1,10}mein lieber/iu
+/grüße.{1,10}mein.{1,10}name.ist/iu
+/grüße.{1,10}meine? (lieben|lieber)/iu
 /grüße.{1,10}wir freuen uns/iu
-/grüße.{1,10}diese.{1,10}e?.?mail/iu
 
 /gruß.{1,10}geliebte/i
 
@@ -189,6 +189,7 @@
 /ich bin.{5,25}ein schweizer staatsbürger.{1,10}der in dubai/i
 
 /ich bin (frau|herr).{5,25}ich (habe|leide)/i
+/ich bin (frau|herr).{5,25}(direktor(in)?|präsident(in)?)/iu
 /ich bin (miss|sir)/i
 
 /ihnen vor(zu)?stellen.{1,10}ich bin/i
