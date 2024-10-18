@@ -14,15 +14,15 @@
 
 /boost.{1,10}calorie burning by/i
 
-/(burn|drop|melt)s?.{1,15}(belly|body).?fat.{1,15}(crazy|every|fast|overnight|week)/i
+/(burn|drop|melt|shed)s?.{1,15}(belly|body).?fat.{1,15}(crazy|every|fast|overnight|week)/i
 
-/(burn|drop|melt)s?.{1,15}(fat|lbs|pounds|weight).{1,10}(a|every|in just|per).{1,10}(day|week)/i
-/(burn|drop|melt)s?.{1,15}(fat|lbs|pounds|weight).{1,15}(belly|body|of).{1,10}fat/i
-/(burn|drop|melt)s?.{1,10}(fat|lbs|pounds|weight).{1,10}(boosts|fast|overnight|rapidly|super)/i
+/(burn|drop|melt|shed)s?.{1,15}(fat|lbs|pounds|weight).{1,10}(a|every|in just|per).{1,10}(day|week)/i
+/(burn|drop|melt|shed)s?.{1,15}(fat|lbs|pounds|weight).{1,15}(belly|body|of).{1,10}fat/i
+/(burn|drop|melt|shed)s?.{1,10}(fat|lbs|pounds|weight).{1,10}(boosts|fast|overnight|rapidly|super)/i
 
-/(burn|drop|melt)s?.{1,10}off (belly|body).?fat/i
-/(burn|drop|melt)s?.{1,10}unwanted.{1,10}(belly|body).?fat/i
-/(burn|drop|melt)s?.{1,10}(dangerous|stubborn).{1,10}fat/i
+/(burn|drop|melt|shed)s?.{1,10}off (belly|body).?fat/i
+/(burn|drop|melt|shed)s?.{1,10}unwanted.{1,10}(belly|body).?fat/i
+/(burn|drop|melt|shed)s?.{1,10}(dangerous|stubborn).{1,10}fat/i
 
 /ingredient dissolves.{1,10}(lbs|pounds) of.{1,10}fat/i
 

@@ -101,6 +101,10 @@
 
 /your action is required.{1,10}upgrade.{1,10}e?.?mail/i
 
+# Server Update
+# ------------------------------------------------------------------------------
+/\.(ch|de|org).{1,10}server was.{1,15}to a newer version/i
+
 # Verify EMail Account, Mailbox
 # ------------------------------------------------------------------------------
 /(confirm|verify).{1,10}your.{1,15}(account|e?.?mail).{1,10}is.{1,10}active on our server/i
@@ -132,6 +136,8 @@
 
 # WebMail
 # ------------------------------------------------------------------------------
+/web.?mail password notification/i
+
 /we are upgrading.{1,10}web.?mail software/i
 
 /our.{1,10}web.?mail system/i
