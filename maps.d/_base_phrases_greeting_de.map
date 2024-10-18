@@ -138,7 +138,7 @@
 /mein name ist sir/i
 /mein name ist.{1,10}anwältin/iu
 /mein name ist.{1,10}barr(\.|ister)/i
-/mein name ist.{1,10}(mrs?|ms|leutnant)/i
+/mein name ist.{1,10}(dr\.|mrs?|ms|leutnant)/i
 /mein name ist.{1,10}(frau|fräulein|herr)/iu
 
 /mein name ist.{5,25}aus.{1,10}(indien|vereinigten staaten)/i
@@ -150,7 +150,7 @@
 /mein name ist.{5,25}geboren am/i
 /mein name ist.{5,25}von der.{1,15}(agentur|marketing)/i
 
-/mein name ist.{5,25}ich bin.{1,15}(anwalt|manager)/i
+/mein name ist.{5,25}ich bin.{1,15}(anwalt|banker|manager)/i
 /mein name ist.{5,25}ich bin eine?.{1,10}deutsch(er)?/i
 /mein name ist.{5,25}ich bin eine.{1,15}frau/i
 /mein name ist.{5,25}ich bin (das einzige kind|eine witwe)/i
