@@ -30,10 +30,12 @@
 /gewinn!/i
 /gewinn.{0,5}(benachrichtigung|mitteilung|notifikation)/i
 
-/(geehrter|liebe).{1,10}gewinner/i
+/(geehrter|liebe).{1,15}gewinner/i
 
 /letzter gewinner/i
+
 /sie haben.{1,10}\d{3}.{0,5}\d{3}.{1,15}gewonnen/i
+/sie sind der.{1,15}gewinner dieser woche/i
 
 # 16.08. - 2 False/Positive
 /(ihr habt|sie haben).{1,10}gewonnen/i

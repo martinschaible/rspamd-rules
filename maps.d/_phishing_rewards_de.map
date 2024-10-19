@@ -132,6 +132,10 @@
 /sie wurden ausgewählt.{1,10}an unserem.{1,15}treueprogramm/iu
 /sie wurden ausgewählt.{1,10}kostenlos/i
 
+# Contact data
+# ------------------------------------------------------------------------------
+/bitte geben sie.{1,10}details an/i
+
 # Possible winner
 # ------------------------------------------------------------------------------
 /chance.{1,10}einen.{1,15}(brandneuen|gutschein).{1,25}zu gewinnen/i
@@ -151,7 +155,8 @@
 # Unclassified
 # ------------------------------------------------------------------------------
 /bestätigung.{1,10}ihre bestellung zu (versenden|verschicken)/iu
-/gewinnerteam/i
+/details für die preiszustellung.{1,10}erforderlich/iu
+gewinnerteam/i
 /sie haben noch nicht geantwortet/i
 /unserer?.{1,10}aktivierungsplattform/i
 
