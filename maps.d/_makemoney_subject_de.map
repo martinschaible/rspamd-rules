@@ -80,10 +80,10 @@
 
 # KI
 # ------------------------------------------------------------------------------
-/geld verdienen mit ki/i
+/(chatgpt|ki).{1,10}revolutioniert aktienhandel/i
+/(chatgpt|ki).{1,10}(verschenkt|verspricht).{1,15}(geld|gewinne)/i
 
-/ki revolutioniert aktienhandel/i
-/ki verspricht.{1,15}gewinne/i
+/geld verdienen mit.{1,10}(chatgpt|ki)/i
 
 # ETF (Exchange Traded Funds)
 # ------------------------------------------------------------------------------

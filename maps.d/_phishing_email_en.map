@@ -24,7 +24,7 @@
 /important.{1,10}(e?.?mails|messages).{1,10}awaiting/i
 /incoming.{1,10}(e?.?mail|messages) failed/i
 
-/you have.{1,10}(bounced|pending|undelivered|unreceived).{1,15}(e?.?mails?|messages?)/i
+/you have.{1,10}(bounced|delayed|pending|undelivered|unreceived).{1,15}(e?.?mails?|messages?)/i
 /you have.{1,10}(important|incoming|new|suspended|undelivered).{1,10}(incoming|pending).{1,15}(e?.?mails?|inbox|messages?)/i
 /you have.{1,10}(undelivered|unreceived).{1,15}(incoming|new|pending).{1,10}(e?.?mails?|messages?)/i
 

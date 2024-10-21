@@ -61,20 +61,21 @@
 /(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).{1,15}our company mainly do/i
 /(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).{1,15}our products include/i
 /(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).{1,15}(my|our) main products/i
+/(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).{1,15}visit our web page/i
+/(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).{1,25}whatsapp/i
 
 /(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).{1,15}we can handle all kinds/i
 /(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).{1,15}we can provide/i
 /(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).{1,15}we are.{1,10}able to manufacture/
 /(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).{1,15}we are.{1,10}(company|factory|manufacturer|producing|supplier)/i
 /(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).{1,15}we are.{1,10}leading.{1,10}professional/i
+/(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).{1,15}we excel in providing/i
 /(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).{1,15}we have.{1,10}(exporting|focused)/i
 
-/(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).{1,15}visit our web page/i
 /(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).{1,15}with over.{1,10}years of expertise/i
 /(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).{1,15}with.{1,10}ears of experience/i
-/(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).{1,15}we excel in providing/i
+/(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).{1,25}writing you to introduce/i
 /(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).{1,15}you have any need for our/i
-/(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).{1,25}whatsapp/i
 
 /china.{1,10}have a nice day/i
 /china.{1,10}to help you save cost/i
@@ -250,7 +251,7 @@
 /(co|limited|ltd).{1,15}(company|factory).{1,10}was established/i
 /(co|limited|ltd).{1,10}(company|factory).{1,10}our.{1,10}products/i
 /(co|limited|ltd).{1,10}experienced manufacturer/i
-/(co|limited|ltd).{1,10}has been established for/i
+/(co|limited|ltd).{1,15}has been.{1,10}(established for|trusted name)/i
 /(co|limited|ltd).{1,15}is dedicated.{1,10}providing/i
 /(co|limited|ltd).{1,15}is a high.?tech enterprise/
 /(co|limited|ltd).{1,15}is a factory specialized in/i

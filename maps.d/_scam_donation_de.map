@@ -64,6 +64,8 @@
 
 /(dollar|euro?|gbp|usd).{1,10}an sie gespendet.{1,10}details antworten/i
 
+/(gespendet|spende).{1,10}kontaktieren sie uns für.{1,15}einzelheiten/i
+
 /ihres spendenanspruchs wenden sie sich/i
 
 /kontaktieren sie un.{1,10}um ihre spende/i
