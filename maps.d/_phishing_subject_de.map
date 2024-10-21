@@ -394,6 +394,7 @@
 # Fees, Customs
 /dringend.{1,10}zahlung der zoll/i
 /ihr ankommendes paket erforderlich/i
+/zahlung.{1,10}zollgebühren.{1,10}erforderlich/iu
 
 # DHL
 /dhl.{1,10}letzte mahnung/i
@@ -668,7 +669,7 @@ letzter gewinner/i
 
 # Payments
 # ------------------------------------------------------------------------------
-/Sie haben Ihr.{1,20}guthaben nicht ausgezahlt/i
+/sie haben ihr.{1,20}guthaben nicht ausgezahlt/i
 /zahlung fehlgeschlagen.{1,10}sofortiges handeln.{1,10}erforderlich/i
 
 # Payment data
@@ -683,6 +684,8 @@ letzter gewinner/i
 
 #/abonnement.{1,10}ist umgehendes handeln erforderlich/i
 /abonnement.{1,15}vorübergehend.{1,10}ausgesetzt/iu
+
+/aktualisieren sie ihr.{1,20}abonnement/ui
 
 /überprüfung ihrer abonnementdetails/iu
 /musikdienst nicht ablaufen/i
