@@ -500,9 +500,9 @@
 
 /i am a pcb.?engineer/i
 
-/this.{1,25}from.{1,10}professional.{1,10}(pcba?|printed circuit board).{1,10}factory/i
+/this.{1,25}from.{1,10}professional.{1,10}(pcba?|printed circuit board).{1,10}(factory|solutions?)/i
 
-/our various types of.{1,10}(pcba?|printed circuit board)/i
+/our (extensive range|various types) of.{1,10}(pcba?|printed circuit board)/i
 
 /professional.{1,10}(pcba?|printed circuit board).{1,10}factory established in/i
 /provide.{1,10}cost saving.{1,10}(pcba?|printed circuit board)/i
