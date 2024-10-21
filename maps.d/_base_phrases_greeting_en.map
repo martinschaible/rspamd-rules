@@ -362,6 +362,8 @@
 /i.?a?m a?.{1,25}broker.{1,10}financial/i
 /i.?a?m a?.{1,25}(financial|investment|investor).{1,10}broker/i
 
+/i.?a?m dr\..{1,25}i represent/i
+
 /i.?a?m.{1,10}the principal accountant/i
 /i.?a?m (miss|mrs?|ms).{5,25}(barrister|solicitor)/i
 /i.?a?m (miss|mrs?|ms).{5,35}wife of mr/i
@@ -371,6 +373,7 @@
 /i.?a?m (miss|mrs?|ms).{5,25}managing director/i
 /i.?a?m (miss|mrs?|ms).{5,25}personal attorney/i
 
+/i represent a.{1,10}based company/i
 /i represent an agency/i
 
 /introducing myself as.{1,10}(financial|investment).?(broker|consultant)/i

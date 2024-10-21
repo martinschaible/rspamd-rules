@@ -211,6 +211,9 @@
 # Companies
 # ------------------------------------------------------------------------------
 
+# ING
+/ing.{1,5}identifizierung/i
+
 # PostBank
 /ihre bestsign.?registrierung ist.{1,10}abgelaufen/i
 /ihre bestsign.?anwendung vorübergehend deaktiviert/iu
