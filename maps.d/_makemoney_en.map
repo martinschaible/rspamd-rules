@@ -82,11 +82,16 @@
 
 # Job Offers
 # ------------------------------------------------------------------------------
-/part.?time.?job .{1,10}we are willing to pay/i
+/part.?time.?job.{1,10}we are willing to pay/i
 
 /this.{1,10}great part.?time.?job/i
 
 /work when you are at home/i
+
+# Rentals
+# ------------------------------------------------------------------------------
+/earn.{1,15}in annual rentals/i
+/invest in.{1,10}student property/i
 
 # Fake stories
 # ------------------------------------------------------------------------------
