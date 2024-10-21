@@ -41,6 +41,9 @@
 # Sample: http://google.com          ILMO2CLBAO71WBKPWOYC2EPS8HG5F6P0LI34VWAI8S
 /http:\/\/google\.com\s{1,15}[a-zA-Z0-9]{1,15}/i
 
+# Sample: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVv
+https:///blogger\.googleusercontent\.com\/img\//i
+
 # No SSL
 # ------------------------------------------------------------------------------
 /http:\/\/google\.com/i
