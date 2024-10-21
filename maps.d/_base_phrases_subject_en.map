@@ -25,15 +25,20 @@
 /congratulations.{1,15}urgent reply needed/i
 
 /message for you.{1,10}(important|urgent)/i
+
+/read carefully/i
+
+# Urgent
+# ------------------------------------------------------------------------------
+/(important|urgent).{1,10}claim your/i
 /(important|urgent).{1,10}message for you.{1,10}please read/i
+/(important|urgent).{1,10}please reply me/i
 
 /this is.{1,10}(important|urgent).{1,10}(please|pls) reply/i
 /this is.{1,10}(important|urgent).{1,25}you are/i
 
 /read.{1,10}reply urgent/i
-/read carefully/i
 
-/urgent.{1,10}please reply me/i
 /your urgent response is.{1,15}needed/i
 
 # Contact
