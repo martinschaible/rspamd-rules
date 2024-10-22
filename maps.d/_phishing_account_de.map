@@ -24,6 +24,7 @@
 /konto.{1,15}bei.{1,15}verknüpft ist.{1,15}nicht für die nutzung/iu
 /konto.{1,10}eine sperrung ihres kontos zu vermeiden/i
 /konto.{1,10}einige fehlende informationen/i
+/konto.{1,10}gesperrt wird.{1,10}wenn diese aktualisierung/i
 /konto.{1,10}läuft gefahr.{1,10}gesperrt zu werden/i
 /konto.{1,10}sicherheitsgründen bald abläuft/iu
 /konto.{1,10}unserer vorherigen erinnerungen/i
@@ -40,6 +41,7 @@
 /informationen.{1,10}um eine sperrung ihres.{1,15}kontos/i
 
 /ihr.{1,15}konto.{1,15}aufgrund der fehlenden bestätigung/iu
+/ihr.{1,15}konto.{1,15}gefahr läuft/iu
 /ihr.{1,15}konto.{1,10}indem sie innerhalb von/i
 /ihr.{1,15}konto.{1,10}innerhalb von.{1,10}stunden gesperrt werden/i
 /ihr.{1,15}konto.{1,10}ist.{1,10}aufgrund.{1,10}fehlgeschlagenen updates/i
@@ -122,7 +124,9 @@
 
 /deaktiviert.{1,10}bis ihre daten aktualisiert sind/i
 /direkt identifizieren/i
-/erforderlich.{1,20}konto zu aktualisieren/i
+
+/erforderlich.{1,20}(konto|kontaktdaten) zu (aktualisieren|überprüfen)/iu
+
 /haben sie ihre daten nicht bestätigt/iu
 
 /identifikation vor ablauf der frist zu erneuern/i

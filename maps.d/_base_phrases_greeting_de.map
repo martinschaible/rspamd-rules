@@ -107,6 +107,7 @@
 
 /sehr geehrter?.{1,10}e?.?mail.?(besitzer|eigentümer|empfänger|inhaber)(in)?/iu
 /sehr geehrter?.{1,15}(bankkunde|director|direktor|käufer|manager|managing)/iu
+/sehr geehrter.{1,10}unternehmer.{1,10}wir schreiben ihnen/i
 
 /sei gegrüßt.{1,10}(liebster|mein geliebter)/iu
 
