@@ -90,11 +90,13 @@
 /kaufland.{1,10}company/i
 /team.{1,10}kaufland/i
 
-# ADAC
+# ADAC, TCS
 /notfallset.{1,10}im auto/i
 
-/ihr kostenloses.{1,10}auto.?notfallset/i
-/gewinnen sie ein.{1,10}auto.?notfallset/i
+/ihr kostenloses.{1,10}auto.?notfall.?set/i
+/fordern sie.{1,10}.{1,10}auto.?notfall.?set/i
+/gewinnen sie ein.{1,10}auto.?notfall.?set/i
+/sie dieses.{1,10}auto.?notfall.?set/i
 
 # AliExpress
 /erhalten sie.{1,10}aliexpress.{1,10}mystery.?box/i

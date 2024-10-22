@@ -8,11 +8,18 @@
 # Fake Bookings
 # ------------------------------------------------------------------------------
 /assist me with this matter.{1,10}help to secure/i
+/offer us accommodation for.{1,10}guests/i
+/private trip.{1,10}single occupancy rooms needed/i
 /tried to make.{1,10}booking at your hotel through/i
 
-/private trip.{1,10}single occupancy rooms needed/i
+# Silly lies
+/are planning to visit your city in/i
+/i am checking in at your establishment/i
 
-/offer us accommodation for.{1,10}guests/i
+# Fake Bookings complains
+# ------------------------------------------------------------------------------
+/booking\.com.{1,10}attention.{1,10}warning/i
+/feedback from.{1,15}guests at your hotel.{1,10}reported/i
 
 #
 #
