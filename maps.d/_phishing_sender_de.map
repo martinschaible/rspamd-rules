@@ -67,7 +67,7 @@
 
 /liefer(ung)?.?(aktualisierung|express|status?.?meldungen|tracking)/i
 
-/paket.?(bestaetigungen|status)/i
+/paket.?(bestaetigungen|status|tracking)/i
 /paket wartet auf die lieferung/i
 
 /post.?lieferung.?updates/i
@@ -75,7 +75,7 @@
 
 /sendungs?.{1,10}(freigabe|mitteilung|verfolgen|verfolgung)/i
 
-/versand.?(bereitschaft|hinweise|status.?team|update)/i
+/versand.?(abteilung|bereitschaft|hinweise|status.?team|update)/i
 
 /zustell.?(assistenz|aktualisierung|nachrichten|status)/i
 
@@ -224,7 +224,8 @@
 # DPD
 /dpd.{0,5}deutschland/i
 /dpd-ch/i
-/dpd_versandabteilung/i
+/dpd_/i
+/_dpd/i
 
 # Lexoffice
 /lexoffice.?konto/i

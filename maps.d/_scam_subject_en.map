@@ -183,7 +183,9 @@
 
 /request for quotation.{1,20}purchase/i
 /urgent quotation notification/i
+
 /quotation.{1,20}request for (processing|quotation)/i
+/#quotation/i
 
 /you handle.{1,10}contract supply/i
 /you received.{1,5}new order/i
