@@ -120,7 +120,6 @@
 /konto.?inhaber.{1,10}regelmä(ss|ß)igen abständen eine.{1,10}bestätigung/iu
 
 /ausgesetzt.{1,10}aktualisieren sie ihr profil/i
-/update ihrer kontoinformationen erforderlich/i
 
 /deaktiviert.{1,10}bis ihre daten aktualisiert sind/i
 /direkt identifizieren/i
@@ -157,7 +156,9 @@
 /sie unseren? kontoüberprüfungs.?prozesse?/i
 
 /sicherheits.?(aktualisierung|update).{1,10}ihr.{1,15}(konto|profil)/i
-/update wartet auf bestätigung/iu
+
+/update ihrer konto.?nformationen erforderlich/i
+/update wartet auf.{1,10}bestätigung/iu
 
 /validieren sie ihre angaben/i
 

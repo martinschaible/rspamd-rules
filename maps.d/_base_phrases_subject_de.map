@@ -21,16 +21,14 @@
 
 /dies ist sehr wichtig/i
 
-/\[(dringend|video|wichtig)\]/i
-/\[.{1,15}\].{1,10}neue Nachricht/i
-/\[-.{1,15}-\]/i
-
+/ich habe eine.{1,10}wichtige information/i
+/jetzt antworten/i
+/lesen sie diese e?.?mail/i
+/nachricht wichtig/i
 /wichtig.{1,10}important/i
 /(sehr|wichtige).{1,10}dringende.{1,15}(angelegenheit|benachrichtigung|nachricht)/i
-
-/nachricht wichtig/i
-
 /sie haben eine wichtige nachricht erhalten/i
+/(sofort|unverzüglich) öffnen/iu
 
 # Sample: #7635349894-Nachricht
 /\d{5,15}.?nachricht/i
@@ -38,13 +36,10 @@
 # Sample: Neue Nachricht#2632667875
 /(benachrichtigung|nachricht|postfach)#/i
 
+/\[(dringend|video|wichtig)\]/i
+/\[.{1,15}\].{1,10}neue Nachricht/i
+/\[-.{1,15}-\]/i
 /-:neue nachricht/i
-
-/(sofort|unverzüglich) öffnen/iu
-
-/lesen sie diese e?.?mail/i
-
-/ich habe eine.{1,10}wichtige information/i
 
 # Urgent
 # ------------------------------------------------------------------------------
