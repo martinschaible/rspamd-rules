@@ -293,7 +293,7 @@
 
 # Address
 /adressüberprüfung für ihre sendung/iu
-/aktualisieren sie.{1,10}ihre (adressinformationen|lieferdetails)/i
+/aktualisieren sie.{1,10}ihren?.{1,10}(adressinformationen|lieferdetails|liederort)/i
 /aufgrund einer falschen adresse scheiterte die zustellung/i
 
 /benachrichtigung über ihr paket/iu
@@ -556,8 +556,12 @@
 
 /zeit für.{1,10}belohnung/i
 
-# Present/Surprise box
+# Mystery box, Surprise
 /deine box schon bekommen/i
+
+/mystery.?box.{1,10}erhalten/i
+/du hast eine.{1,15}mystery.?box gewonnen/i
+/erkunde die.{1,15}mystery.?box/i
 
 # Testing
 /testen.{1,10}gewinnen/i
@@ -599,8 +603,6 @@ letzter gewinner/i
 
 # AliExpress
 /erhalten sie.{1,10}aliexpress.{1,10}mystery.?box/i
-/du hast eine.{1,15}mystery.?box gewonnen/i
-/erkunde die.{1,15}mystery.?box/i
 
 # Amazon
 /amazon gutschein gewinnen/i
