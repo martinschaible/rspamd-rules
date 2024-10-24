@@ -19,8 +19,7 @@
 
 /sicherheits.?(bedingung|update)/i
 /begrenzt/i
-/kunden.?nummer/i
-/kunden.?support.{1,10}sicherheit/i
+/kunden.?(nummer|support)/i
 
 # Banking
 # ------------------------------------------------------------------------------

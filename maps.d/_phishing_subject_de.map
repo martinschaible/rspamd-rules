@@ -293,7 +293,7 @@
 
 # Address
 /adressüberprüfung für ihre sendung/iu
-/aktualisieren sie.{1,10}ihren?.{1,10}(adressinformationen|lieferdetails|liederort)/i
+/aktualisieren sie.{1,10}ihren?.{1,10}(adressinformationen|lieferdetails|lieferort)/i
 /aufgrund einer falschen adresse scheiterte die zustellung/i
 
 /benachrichtigung über ihr paket/iu
@@ -365,6 +365,7 @@
 /korrigieren sie ihre adresse/i
 
 /schritte.{1,15}zustellung.{1,10}(paket|sendung)/i
+/senden wir das produkt zurück/iu
 
 /sie haben.{1,10}ausstehendes paket/i
 /sie haben.{1,10}ein paket.{1,10}das (sich|zugestellt)/i
