@@ -258,6 +258,7 @@
 /(co|limited|ltd).{1,15}is excited/i
 /(co|limited|ltd).{1,15}(leading|professional).{1,15}(company|manufacturer)/i
 /(co|limited|ltd).{1,15}(specialized|specializes) in.{1,10}(high.?quality|import)/i
+/(co|limited|ltd).{1,20}(facilities|state.?of.?the.?art)/i
 /(co|limited|ltd).{1,15}we are leading.{1,15}professional/i
 /(co|limited|ltd).{1,15}we.{1,10}(provide|supply)/i
 /(co|limited|ltd).{1,10}which is specializing in/i
@@ -485,6 +486,7 @@
 /(pcba?|printed.circuit.board).{1,10}from.{1,10}(china|shenzhen)/i
 /(pcba?|printed.circuit.board).{1,10}website.{1,10}www/i
 /(pcba?|printed.circuit.board).{1,10}solutions to you/i
+/(pcba?|printed.circuit.board).{1,15}produce is.{1,15}highest quality/i
 /(pcba?|printed.circuit.board).{1,10}project.{1,10}to quote/i
 /(pcba?|printed.circuit.board).{1,20}we specialize in this field/i
 /(pcba?|printed.circuit.board).{1,20}with.{1,10}years experience/i
