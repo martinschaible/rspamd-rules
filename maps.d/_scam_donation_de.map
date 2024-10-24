@@ -58,6 +58,7 @@
 /antworten sie.{1,15}um diese spende/i
 
 /\d{3}.{0,5}\d{3}.{1,10}(dollar|euro?|gbp|usd).{1,10}zu erhalten.{1,10}kontaktieren sie mich/i
+/\d{3}.{0,5}\d{3}.{1,10}wenn ja.{1,10}kontaktieren sie mich/i
 
 /(millionen|tausend).{1,10}(dollar|euro?|gbp|usd).{1,10}kontaktieren sie mich/i
 /(millionen|tausend).{1,10}(dollar|euro?|gbp|usd).{1,10}e?.?mail für details/iu
@@ -134,6 +135,8 @@
 
 /freiwillige spende in höhe von.{1,10}millionen/iu
 /für meine spende ausgewählt/iu
+
+/gewinner.{1,10}die meine spende/i
 /hat ihnen eine.{1,15}summe gespendet/i
 
 /ich (gebe|spende) ihnen.{1,10}\d{3}.{0,5}\d{3}.{1,10}(millionen|tausend|dollar|euro?|gbp|usd)/i
