@@ -93,14 +93,11 @@
 /team.{1,10}kaufland/i
 
 # ADAC, TCS
-/(auto|kfz).?notfallset schenken/i
-
+/(auto|kfz).?notfall.?set.{1,15}(schenken|sichern|wartet)/i
 /notfallset.{1,10}im auto/i
 
-/gewinnen sie ein.{1,10}(auto|kfz).?notfall.?set/i
-/fordern sie.{1,10}.{1,10}(auto|kfz).?notfall.?set/i
-/kostenloses.{1,10}(auto|kfz).?notfall.?set/i
-/sie dieses.{1,10}(auto|kfz).?notfall.?set/i
+/(exklusives|fordern|gewinnen|kostenloses).{1,15}(auto|kfz).?notfall.?set/i
+/(ihr neues|sie dieses).{1,10}(auto|kfz).?notfall.?set/i
 
 # AliExpress
 /erhalten sie.{1,10}aliexpress.{1,10}mystery.?box/i

@@ -596,6 +596,8 @@ letzter gewinner/i
 /ausstehende sendung.{1,10}acer/i
 
 # ADAC
+/(auto|kfz).?notfall.?set.{1,15}(sichern|wartet)/i
+
 /notfall.?set.{1,10}(für ihr auto|im auto|wartet auf sie)/i
 
 /(bestätigung|gewinnen|kostenloses).{1,20}(auto|kfz).?notfall.?set/i
