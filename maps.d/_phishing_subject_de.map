@@ -598,7 +598,7 @@ letzter gewinner/i
 # ADAC
 /notfall.?set.{1,10}(für ihr auto|im auto|wartet auf sie)/i
 
-/(bestätigung|gewinnen|kostenloses).{1,20}auto.?notfall.?set/i
+/(bestätigung|gewinnen|kostenloses).{1,20}(auto|kfz).?notfall.?set/i
 /sie sich das.{1,15}notfall.?(auto|set)/i
 
 # AliExpress
