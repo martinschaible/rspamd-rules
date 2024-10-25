@@ -64,6 +64,7 @@
 /sie erhalten eine.{1,10}spende/i
 /sie (haben|ihre).{1,15}(euro|gbp|usd|millionen).{1,10}(ausgewählt|erhalten|gewonnen)/i
 /sie (haben|wurden).{1,10}eine.{1,10}spende (ausgewählt|erhalten|gewonnen)/i
+/sie haben eine spende von.{1,10}\d{2,3}.{1,10}\d{2,3}/i
 
 /wurden (an sie|ihnen) gespendet/i
 

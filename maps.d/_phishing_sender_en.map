@@ -78,9 +78,11 @@
 /storage.?notice/i
 /cloud.?storage.?helpdesk/i
 
-# Membership
+# Membership, subscription/i
 # ------------------------------------------------------------------------------
 /your.?membership/i
+
+/paramount.{0,10}(deal|renewal)/i
 
 # Parcel
 # ------------------------------------------------------------------------------
@@ -104,7 +106,7 @@
 /gift.?(card.?)?opportunity/i
 
 /binance.?rewards/i
-
+/rewards.?team/i
 /shopper.{0,10}(feedback|gift|opportunity)/i
 /voucher/i
 

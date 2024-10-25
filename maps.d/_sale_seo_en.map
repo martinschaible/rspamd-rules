@@ -70,13 +70,14 @@
 /we are.{1,10}(leading|offering) seo/i
 /we are.{1,10}seo.?agency/i
 
-/we can (promote|rank) your web.?site/i
+/we can (promote|put|rank) your web.?site/i
 /we can help you rank higher/i
 /we do seo for all/i
 /we promote your.{1,10}web.?site.{1,10}(ranking|ranks)/i
 /we specialize in seo/i
 
-/we will (enhance|improve) your.{1,15}(ranking|ranks)/i
+/we will (enhance|improve) your.{1,15}(position|ranking|ranks)/i
+/We will (enhance|improve) your web.?site/i
 
 /we offer.{1,10}range.{1,10}seo.?services/i
 /we offer.{1,10}(seo|search engine optimization)/i
@@ -144,6 +145,7 @@
 /your web.?site.{1,30}is not listed.{1,15}(bing|google|yahoo)/i
 /your web.?site.{1,10}on google.{1,10}top/i
 /your web.?site.{1,10}ranking.{1,10}not good/i
+/your web.?site.{1,10}position.{1,15}(bing|google|yahoo)/i
 
 #
 /our.{1,15}seo.?feedbacks/i
