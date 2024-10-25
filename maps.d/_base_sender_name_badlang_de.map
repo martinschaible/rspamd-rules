@@ -49,9 +49,10 @@
 
 /schweiz.?kurier/i
 
-# Phishing - Rewards
+# Phishing - Rewards, Survey
 # ------------------------------------------------------------------------------
-/belohnungs.?abteilung/i
+/(belohnungs|geschenk||umfrage).?(abteilung|prämien|team)/i
+
 /gewinn(er)?.?(deklaration|erklarung|erklärung)/i
 /raumungsangebote?/i
 /validierungs.?zentrum/i

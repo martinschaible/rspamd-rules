@@ -22,7 +22,8 @@
 
 /personal.{1,10}corporate.{1,10}loans/i
 /various types.{1,10}(finance|funding|loans?)/i
-/we (are open|offer|provide).{1,10}(finance|funding|loans?)/i
+
+/we.{1,10}(are open|offer|provide).{1,10}(finance|funding|loans?)/i
 
 # Financing
 # ------------------------------------------------------------------------------
@@ -40,7 +41,7 @@
 
 /need financial support/i
 
-/we can help (finance|financing)/i
+/we.{1,10}help (finance|financing)/i
 
 /you in search.{1,10}financial/i
 /you need cash/i

@@ -117,7 +117,6 @@
 /ihre.{1,15}chance/i
 
 /käuferumfrage/iu
-/kunden.?(angebote?|betreuung|befragung|feedback)/i
 
 /letzte chance/i
 /läuft bald ab/i
@@ -132,7 +131,7 @@
 
 /tagesgewinner/i
 
-/verbraucher.{0,15}(angebote|umfrage|prämien)/iu
+/(kunden|verbraucher).{0,15}(angebote|betreuung|befragung|feedback|umfrage|prämien)/iu
 /versandinformationen/i
 /viel.?erfolg/i
 
