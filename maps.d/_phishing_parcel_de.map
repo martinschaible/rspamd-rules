@@ -88,6 +88,7 @@
 /(paket|sendung).{1,20}konnte nicht.{1,20}werden.{1,10}da bei derzustellung/i
 /(paket|sendung).{1,20}zustellen.{1,10}aufgrund einer falschen.{1,15}adresse/i
 /(paket|sendung).{1,20}zustellen.{1,10}da ihre adresse falsch ist/i
+/(paket|sendung).{1,20}zustellen.{1,10}jedoch aufgrund eines Barcode/i
 
 /sehr geehrter kunde.{1,10}ihre sendung konnte/i
 /sehr geehrter kunde.{1,10}wir haben.{1,10}versucht.{1,10}ihr paket/i
@@ -117,6 +118,9 @@
 /(ihr|sie haben).{1,10}(ausgesetztes?|ausstehendes?).{1,10}(paket|sendung)/i
 
 /wartet auf.{1,10}(lieferung|zustellung).{1,10}bestätigen sie (die|ihre)/i
+
+# Barcode
+/barcode ein.{1,10}um ihr paket/i
 
 # Delivery Ready
 # ------------------------------------------------------------------------------

@@ -54,7 +54,8 @@
 /authentication.{1,10}here.{1,10}retrieve.{1,10}(e?.?mails?|messages?)/i
 /authentication.{1,10}retrieve.{1,10}undelivered.{1,10}(e?.?mails?|messages?)/i
 
-/below to authenticate your e?.?mail.?account/i
+/below to authenticate your.{1,10}e?.?mail.?account/i
+/confirm your.{1,10}e?.?mail.?account.{1,10}identity/i
 
 /you (are requested|must).{1,10}authenticate.{1,10}e?.?mail/i
 

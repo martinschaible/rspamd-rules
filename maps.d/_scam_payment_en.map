@@ -40,6 +40,8 @@
 
 /you are eligible for.{1,10}(payment|payout)/i
 /you have just received.{1,10}payment of/i
+
+/your grants?.{1,10}sum.{1,10}ready/i
 /your total sum of.{1,10}\d.?\d.?(m|million).{1,10}(dollar|euro?|gbp|pounds?|usd)/i
 /your pending transfer of.{1,10}\d{2,3}.{0,5}\d{2,3}.{1,10}(dollar|euro?|gbp|pounds?|usd)/i
 
