@@ -43,6 +43,7 @@
 /hallo.{1,10}sie wurden ausgewählt/iu
 
 /ihre.{1,10}e?.?mail.{1,15}einer der begünstigten/iu
+/ihre.{1,10}e?.?mail.{1,15}genehmigt wurde/i
 /ihre.{1,10}e?.?mail.{1,15}wurde zufällig aus der/iu
 /ihre.{1,10}e?.?mail.{1,15}wurde zufällig (aus der|von einem)/iu
 /ihre.{1,10}e?.?mail.{1,15}wurde online zufällig ausgewählt/iu
@@ -138,6 +139,8 @@
 
 /gewinner.{1,10}die meine spende/i
 /hat ihnen eine.{1,15}summe gespendet/i
+
+/ich bin.{5,25}ich spende/i
 
 /ich (gebe|spende) ihnen.{1,10}\d{3}.{0,5}\d{3}.{1,10}(millionen|tausend|dollar|euro?|gbp|usd)/i
 /ich (gebe|spende) ihnen.{1,10}\d{3}.{0,5}\d{3}.{1,10}meine gemeinnützige/iu
