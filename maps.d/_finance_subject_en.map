@@ -12,7 +12,7 @@
 /(finance|investment|loans?).{1,10}(apply|funding|offer|opportunities|opportunity|reduced)/i
 /(finance|financial).{1,10}loans/i
 
-/loans?.{1,10}(available|finance|financing|limited|low interest|service)/i
+/loans?.{1,10}(available|fast|finance|financing|international|limited|low interest|service)/i
 /loans?.{1,10}international lenders/i
 /loans?.{1,10}project.{1,10}(finance|financing)/i
 
@@ -23,7 +23,7 @@
 /personal.{1,10}corporate.{1,10}loans/i
 /various types.{1,10}(finance|funding|loans?)/i
 
-/we.{1,10}(are open|offer|provide).{1,10}(finance|funding|loans?)/i
+/we.{1,15}(offer|open|provide(rs)?).{1,15}(finance|funding|loans?)/i
 
 # Financing
 # ------------------------------------------------------------------------------
