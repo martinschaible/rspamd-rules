@@ -21,8 +21,8 @@
 
 /activate.{1,10}receive.{1,10}(incoming|pending).{1,10}(e?.?mails?|messages?)/i
 
-/important.{1,10}(e?.?mails|messages).{1,10}awaiting/i
-/incoming.{1,10}(e?.?mail|messages) failed/i
+/(important|incoming|pending).{1,10}(e?.?mails|messages).{1,10}(awaiting|failed)/i
+/(important|incoming|pending).{1,10}(e?.?mails|messages).{1,10}on the server due to lack of/i
 
 /you have.{1,10}(bounced|delayed|pending|undelivered|unreceived).{1,15}(e?.?mails?|messages?)/i
 /you have.{1,10}(important|incoming|new|suspended|undelivered).{1,10}(incoming|pending).{1,15}(e?.?mails?|inbox|messages?)/i

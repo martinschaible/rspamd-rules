@@ -29,9 +29,10 @@
 /find bank.?transfer.{1,10}(form|details).{1,10}attached/i
 /fyi attached.{1,10}regards/i
 
-/(dear (madam|sir)|good day).{1,10}attached kindly/i
-/(dear (madam|sir)|good day).{1,10}please find.{1,10}(attachment|attached)/i
-/(dear (madam|sir)|good day).{1,15}refer to the.{1,10}(attachment|attached)/i
+
+/(dear (madam|sir)|good day|greetings).{1,10}attached kindly/i
+/(dear (madam|sir)|good day|greetings).{1,10}please find.{1,10}(attachment|attached)/i
+/(dear (madam|sir)|good day)|greetings.{1,15}refer to the.{1,10}(attachment|attached)/i
 
 /find attached and send us/i
 /find attached.{1,10}po/i
