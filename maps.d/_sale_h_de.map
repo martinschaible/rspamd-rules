@@ -115,8 +115,10 @@
 
 # Heater
 # ------------------------------------------------------------------------------
-/tragbares?.?heizgeräte?/iu
+/tragbare(n|s)?.?heizgeräte?/iu
 /heizgerät.{1,10}geld spart/i
+
+/übernehmen sie die kontrolle über ihren geldbeutel/iu
 
 # Insoles
 # ------------------------------------------------------------------------------
