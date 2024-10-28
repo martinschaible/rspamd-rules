@@ -135,6 +135,7 @@
 
 /(kunden|verbraucher).{0,15}(angebote|betreuung|befragung|feedback|umfrage|prämien)/iu
 /versandinformationen/i
+/verlängern sie/i
 /viel.?erfolg/i
 
 /werbe.?geschenk/i
@@ -179,8 +180,9 @@
 /(pro|s24).?gewinner/i
 /tool.?set/i
 
-# ADAC
-/notfall.?(auto|set)/i
+# ADAC, TCS
+/adac.?mitglieder/i
+/notfall.?(auto|koffer|set)/i
 
 # Earbuds
 /earbuds/?

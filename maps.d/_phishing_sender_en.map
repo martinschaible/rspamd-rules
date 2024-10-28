@@ -218,6 +218,9 @@
 # Meta
 /metamask.?support/i
 
+# Microsoft
+/one-drive/i
+
 # Netflix
 /netflix.?(expiration|support|team|updates)/i
 /netflix.?billing.?(support|team)/i
@@ -254,6 +257,8 @@
 /volksbanken$/i
 
 # WeTransfer
+# -> Real sender: "^wetransfer$"
+
 /_readyfile/i
 /we-transfer/i
 /we transfer/i
