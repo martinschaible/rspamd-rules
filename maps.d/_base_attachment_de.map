@@ -29,6 +29,9 @@
 # Sample: Rechnung_03.07.2024_40001468722.zip
 /rechnung_\d{2}_\d{2}_\d{4}_\d{10,15}\.zip/i
 
+# Sample: Rechnung_20240918_083707_943_720992_4264.zip
+/rechnung_\d{2,15}_\d{2,15}_\d{2,15}_\d{2,15}_\d{2,15}\.zip/i
+
 # Lottery, Winning
 # ------------------------------------------------------------------------------
 /(gewinnmitteilung|gewinninformation|lotterie).{0,10}\.pdf/i
