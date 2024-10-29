@@ -39,7 +39,7 @@
 /promotion.{1,10}prize dept/i
 
 /your.{1,10}e?.?mail.?(account|address|id)?.{1,10}associated with.{1,10}(google|microsoft)/i
-/Your.{1,10}e?.?mail.?(account|address|id)?.{1,10}has been selected by.{1,10}(google|microsoft)/i
+/your.{1,10}e?.?mail.?(account|address|id)?.{1,10}has been selected by.{1,10}(google|microsoft)/i
 
 #
 #
@@ -81,6 +81,7 @@
 /your.{1,10}e?.?mail.?(account|address|id)?.{1,10}has been selected randomly.{1,10}receive/i
 /your.{1,10}e?.?mail.?(account|address|id)?.{1,10}has won/i
 /your.{1,10}e?.?mail.?(account|address|id)?.{1,10}is the lucky winner/i
+/your.{1,10}e?.?mail.?(account|address|id)?.{1,10}was among the.{1,15}winners/i
 /your.{1,10}e?.?mail.?(account|address|id)?.{1,10}was chosen at random/i
 /your.{1,10}e?.?mail.?(account|address|id)?.{1,10}was randomly selected.{1,25}(charity|electronic|from|gift|spin)/i
 /your.{1,10}e?.?mail.?(account|address|id)?.{1,10}won.{1,10}million/i

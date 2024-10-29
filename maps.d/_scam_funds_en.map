@@ -89,6 +89,7 @@
 /claim of your.{1,10}fund/i
 /claim details.{1,10}i await your.{1,15}reply/i
 /claim up to.{1,15}usd based on/i
+/claim your.{1,10}\d{2,3}.{0,5}\d{3}/i
 
 /contact the.{1,10}e?.?mail below to claim/i
 /million.{1,10}contact.{1,15}for claims/i
