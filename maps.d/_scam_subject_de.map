@@ -146,8 +146,8 @@
 # Illuminati
 # ------------------------------------------------------------------------------
 /treten sie den.{1,10}illuminaten bei/i
-/illuminati.{1,10}(einladung|organisation|werden)/i
-/sie ein.{1,10}illuminati/i
+/illuminati?.{1,10}(einladung|organisation|werden)/i
+/sie ein.{1,10}illuminati?/i
 
 # Oil
 # ------------------------------------------------------------------------------

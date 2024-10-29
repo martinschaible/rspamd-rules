@@ -131,7 +131,7 @@ grill.{1,10}statt.{1,10}nur/i
 daunen.?jacke.{1,10}anzuziehen/i
 /beheizbaren? jacke/i
 
-/(beheizbare|mit der|sie eine).{1,10}daunen.?jacke/i
+/(beheizbare|mit der|sie eine|wärmende).{1,10}daunen.?jacke/iu
 
 # Knives
 # ------------------------------------------------------------------------------
@@ -383,7 +383,7 @@ daunen.?jacke.{1,10}anzuziehen/i
 # SEO
 # ------------------------------------------------------------------------------
 /professionell.{1,10}seo.?services?/i
-/seo.?service.?(plan|pläne)/i
+/seo.?service.?(angebot|plan|pläne|vorschlag)/i
 /with our.{1,10}seo/i
 
 # Google Reviews
@@ -413,7 +413,7 @@ daunen.?jacke.{1,10}anzuziehen/i
 # Hiring people
 # ------------------------------------------------------------------------------
 /arbeitnehmerüberlassung/iu
-/(arbeiter|fachkräfte|hilfspersonal|personalsuche|vermittlung).{1,15}(baltikum|litauen)/iu
+/(arbeiter|arbeitskräfte|fachkräfte|hilfspersonal|personalsuche|vermittlung).{1,15}(baltikum|litauen)/iu
 /litauische arbeiter gesucht/i
 
 #

@@ -145,21 +145,21 @@
 /box.?set.{0,15}gewinner/i
 
 # Companies A to C
-/(a.?d.?a.?c|ali.?express|aldi|amazon|apple|bahn).{0,15}(abteilung|angebot|bestätigung|bundle|code)/i
+/(a.?d.?a.?c|ali.?express|aldi|amazon|apple|bahn).{0,15}(abteilung|angebot|bestätigung|bundle|code|exklusiv)/i
 /(a.?d.?a.?c|ali.?express|aldi|amazon|apple|bahn|cuisine).{0,15}(geschenke|gewinner|gutschein)/i
 /(a.?d.?a.?c|ali.?express|aldi|amazon|apple|bahn|cuisine).{0,15}(help.?desk|kontakt|prämien?|sender|sendung|umfragen?|versand|zustellung)/i
 /(a.?d.?a.?c|ali.?express|aldi|amazon|apple|bahn|cuisine).{0,15}kunde$/i
 /(a.?d.?a.?c|ali.?express|aldi|amazon|apple|bahn|cuisine).{0,15}überraschung/i
 
 # Companies D to M
-/(declathon|deutsche.?bahn|dewalt|drogerie|dyson|edeka|fressnapf|interdiscount|kaufland).{0,15}(abteilung|angebot|bestätigung|bundle|code)/i
-/(declathon|deutsche.?bahn|dewalt|drogerie|dyson|edeka|fressnapf|interdiscount|kaufland).{0,15}(geschenke|gewinner|gutschein)/i
-/(declathon|deutsche.?bahn|dewalt|drogerie|dyson|edeka|fressnapf|interdiscount|kaufland).{0,15}(help.?desk|kontakt|prämien?|sender|sendung|umfragen?|versand|zustellung)/i
-/(declathon|deutsche.?bahn|dewalt|drogerie|dyson|edeka|fressnapf|interdiscount|kaufland).{0,15}kunde$/i
-/(declathon|deutsche.?bahn|dewalt|drogerie|dyson|edeka|fressnapf|interdiscount|kaufland).{0,15}überraschung/i
+/(declathon|deutsche.?bahn|dewalt|douglas|drogerie|dyson|edeka|fressnapf|interdiscount|kaufland).{0,15}(abteilung|angebot|bestätigung|bundle|code|exklusiv)/i
+/(declathon|deutsche.?bahn|dewalt|douglas|drogerie|dyson|edeka|fressnapf|interdiscount|kaufland).{0,15}(geschenke|gewinner|gutschein)/i
+/(declathon|deutsche.?bahn|dewalt|douglas|drogerie|dyson|edeka|fressnapf|interdiscount|kaufland).{0,15}(help.?desk|kontakt|prämien?|sender|sendung|umfragen?|versand|zustellung)/i
+/(declathon|deutsche.?bahn|dewalt|douglas|drogerie|dyson|edeka|fressnapf|interdiscount|kaufland).{0,15}kunde$/i
+/(declathon|deutsche.?bahn|dewalt|douglas|drogerie|dyson|edeka|fressnapf|interdiscount|kaufland).{0,15}überraschung/i
 
 # Companies L to Z
-/(le.?creuset|lidl|media.?market|migros|obi|otto|öamtc|rituals|rewe|samsung|smeg|starbucks|temu|walmart).{0,15}(abteilung|angebot|bestätigung|bundle|code)/i
+/(le.?creuset|lidl|media.?market|migros|obi|otto|öamtc|rituals|rewe|samsung|smeg|starbucks|temu|walmart).{0,15}(abteilung|angebot|bestätigung|bundle|code|exklusiv)/i
 /(le.?creuset|lidl|media.?market|migros|obi|otto|öamtc|rituals|rewe|samsung|smeg|starbucks|temu|walmart).{0,15}(geschenke|gewinner|gutschein)/i
 /(le.?creuset|lidl|media.?market|migros|obi|otto|öamtc|rituals|rewe|samsung|smeg|starbucks|temu|walmart).{0,15}(help.?desk|kontakt|prämien?|sender|sendung|umfragen?|versand|zustellung)/i
 /(le.?creuset|lidl|media.?market|migros|obi|otto|öamtc|rituals|rewe|samsung|smeg|starbucks|temu|walmart).{0,15}kunde$/i
@@ -183,6 +183,8 @@
 
 # ADAC, TCS
 /adac.?mitglieder/i
+/gmbh.?adac/i
+
 /notfall.?(auto|koffer|set)/i
 
 # Earbuds
@@ -220,11 +222,13 @@
 
 # Digitec
 # Real Sender: "Digitec"
+/digitec\.cg/i
 
 # DKG
 /kontakt.?dkb/i
 
 # DPD
+# -> Real sender: "DPD Schweiz"
 /dpd.{0,5}deutschland/i
 /dpd-ch/i
 /dpd_/i
