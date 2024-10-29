@@ -607,7 +607,9 @@ letzter gewinner/i
 /ausstehende sendung.{1,10}acer/i
 
 # ADAC, TCS
-/(auto|kfz).?notfall.?set.{1,15}(sichern|wartet)/i
+/adac.{1,10}(auto|kfz).?notfall.?set/i
+
+/(auto|kfz).?notfall.?set.{1,15}(bestellung|sichern|wartet)/i
 
 /notfall.?set.{1,10}(fürs auto|für ihr auto|im auto|wartet auf sie)/i
 

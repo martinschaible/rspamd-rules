@@ -25,6 +25,7 @@
 
 # Lottery
 # ------------------------------------------------------------------------------
+/gewinnspiel.?zentrale/i
 /glückwunsch/iu
 
 # Make Money
@@ -37,7 +38,7 @@
 /datenschutz$/i
 /dtn.?versand/i
 /gewinnerklärung/i
-/gewinnerteam/i
+/(gewinner|umfrage).?team/i
 /kunden.?nummer/i
 /kunden(betreuung|informationen|unterstützung)$/iu
 /^kunden(dienst|service)$/i
@@ -64,7 +65,6 @@
 
 # Winning
 # ------------------------------------------------------------------------------
-/you are selected/i
 
 #
 #
