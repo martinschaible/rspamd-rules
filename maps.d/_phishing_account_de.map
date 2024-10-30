@@ -127,6 +127,7 @@
 /erforderlich.{1,20}(konto|kontaktdaten) zu (aktualisieren|überprüfen)/iu
 
 /haben sie ihre daten nicht bestätigt/iu
+/handeln sie.{1,10}um eine unterbrechung.{1,20}konto/i
 
 /identifikation vor ablauf der frist zu erneuern/i
 
@@ -306,7 +307,10 @@
 
 # Password
 # ------------------------------------------------------------------------------
-/ihr kontopasswort läuft heute ab/iu
+/ihr.{1,10}passwort läuft heute ab/iu
+/ihr.{1,10}passwort läuft.{1,10}ab.{1,10}ihr passwort läuft am/i
+
+/passwort.?status.{1,10}bald ablaufend/i
 
 # Password - Keep the same
 # ------------------------------------------------------------------------------
