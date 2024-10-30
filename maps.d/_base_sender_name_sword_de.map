@@ -75,7 +75,7 @@
 
 # Unclassified
 # ------------------------------------------------------------------------------
-/(frau|herr)/i
+/(frau|herr)\s/i
 /benachrichtigung/i
 
 /(beratung|wichtig)$/i
