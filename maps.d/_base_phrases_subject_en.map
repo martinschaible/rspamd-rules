@@ -12,6 +12,8 @@
 /attention$/i
 /attention!/i
 
+/attn,/i
+
 /(attn|attention).{1,10}attention/i
 /(attn|attention).{1,10}e?.?mail.?(address|id).?owner/i
 /(attn|attention).{1,10}(dear|please)/i
@@ -166,6 +168,8 @@
 
 /\.\.(\/\/|!!)/i
 
+/cooperation!/i
+
 /are you still alive/i
 /get back to me/i
 /how is your name/i
@@ -204,3 +208,8 @@
 
 # letter "e": =d0=b5 
 /[a-z]=d0=b5/i
+
+# Uppercase
+# ------------------------------------------------------------------------------
+/ATTENTION
+/COOPERATION

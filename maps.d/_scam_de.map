@@ -46,6 +46,7 @@
 # ------------------------------------------------------------------------------
 /millionen.{1,10}(dollar|euro?|gbp|usd).{1,10}kontaktieren sie (mich|uns)/i
 
+/\d{3}.{0,5}\d{3}.{1,10}antworten sie auf/i
 /\d{3}.{0,5}\d{3}.{1,10}der mit ihrem.{1,10}namen/i
 /\d{3}.{0,5}\d{3}.{1,10}(dollar|euro?|gbp|usd).{1,10}zugewiesen wurde/i
 
