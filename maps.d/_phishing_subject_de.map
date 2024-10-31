@@ -284,6 +284,7 @@
 # Return for double payed invoices
 # ------------------------------------------------------------------------------
 /benachrichtigung.{1,10}doppelte zahlung/i
+/hinweis zu ihrer letzten rechnung/i
 /rückerstattung verfügbar.{1,20}(details?|wichtig(ste)?)/i
 
 # Parcel
