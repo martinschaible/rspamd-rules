@@ -175,6 +175,8 @@
 # ------------------------------------------------------------------------------
 /(brochure|catalog|catalogue).{1,10}request/i
 
+/^rfq$/i
+
 /inquiry\*/i
 /inquiry.{1,15}about your products/i
 /enquiry.{1,10}letter/i

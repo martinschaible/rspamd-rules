@@ -231,6 +231,8 @@
 /poop.?type/i
 /your.?(digestion|poop)/i
 
+/(can|daily).{0,10}poops?/i
+
 # Dizziness
 # ------------------------------------------------------------------------------
 /dizziness/i
