@@ -183,7 +183,7 @@
 /new enq$/i
 
 /request for quotation.{1,20}purchase/i
-/urgent quotation notification/i
+/urgent.{1,10}(quotation|request).{1,10}quotation/i
 
 /quotation.{1,20}request for (processing|quotation)/i
 /#quotation/i
