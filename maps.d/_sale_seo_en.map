@@ -26,9 +26,11 @@
 
 /search.?engine.{1,10}i came across your web.?site/i
 
-/boost in your search ranking/i
-/boost your.{1,10}seo.?(effort|rank)/i
-/boost your.{1,10}web.?site.{1,10}ranking/i
+/boost.{1,10}in your search rankings?/i
+/boost.{1,10}search rankings?.{1,10}key terms/i
+
+/boost.{1,10}your.{1,10}seo.?(effort|rank)/i
+/boost.{1,10}your.{1,10}web.?site.{1,10}ranking/i
 /(boost|rank) your.{1,15}web.?site.{1,10}(on the top|ranking|traffic)/i
 /(boost|rank) your.{1,10}sales with.{1,15}seo/i
 

@@ -24,6 +24,8 @@
 /million.{1,10}business database/i
 /million.{1,10}usa?.{1,10}business contacts/i
 
+/target customer.{1,10}(e?.?mail.{1,10}lists|mobile numbers)/i
+
 /our targeted campaign/i
 /provide.{1,15}contact.{1,10}targeted.{1,10}database/i
 /promote your service to.{1,15}businesses/i
@@ -80,7 +82,8 @@
 
 /benefit.{1,10}bulk e?.?mail.?marketing/i
 /increase sales.{1,10}use.{1,10}(bulk|mass).{1,10}(e?.?mail|mailing)/i
-/our (bulk|mass).{1,10}e?.?mail marketing/i
+
+/our (bulk|mass).{1,10}e?.?mail.{1,10}(campaign|marketing)/i
 
 /(we run|setup).{1,10}(bulk|mass).{1,10}(e?.?mail|mailing).{1,10}marketing/i
 /we are professional.{1,10}(bulk|mass).?mailing/i

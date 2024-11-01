@@ -227,11 +227,13 @@
 # Digestive System
 # ------------------------------------------------------------------------------
 /digestive.?system/i
-/fruit.?mistake/i
 /poop.?type/i
 /your.?(digestion|poop)/i
 
 /(can|daily).{0,10}poops?/i
+
+/fruit.?mistake/i
+/healthy.?fruit/i
 
 # Dizziness
 # ------------------------------------------------------------------------------
