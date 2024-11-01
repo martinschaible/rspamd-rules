@@ -72,6 +72,10 @@
 
 /website hat (dein|ihr).{1,20}mit einem virus infiziert/i
 
+# Online Antivirus Scan
+# ------------------------------------------------------------------------------
+ihr gerät wurde bei.{1,20}datenleck/i
+
 # Expired Antivirus software
 # ------------------------------------------------------------------------------
 /ihr mcafee.?abonnement ist heute abgelaufen/i
@@ -79,6 +83,10 @@
 /ihr computer anfällig.{1,15}verschiedene virenbedrohungen/iu
 
 /windows.?abonnement ist am heute abgelaufen/i
+
+# Lies about infected device
+# ------------------------------------------------------------------------------
+/einige dateien auf ihrem gerät sind beschädigt/iu
 
 #
 #

@@ -237,6 +237,8 @@
 /dpd_/i
 /_dpd/i
 
+/group.{0,10}kurier/i
+
 # Lexoffice
 /lexoffice.?konto/i
 
@@ -266,6 +268,7 @@
 /swisspass.{1,5}(cff|sbb|support)/i
 /suisspass/i
 /swiss pass/i
+/swisspass\.ch/i
 
 /kontakt.?swisspass/i
 
