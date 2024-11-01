@@ -55,8 +55,9 @@
 /hi (boss|director).{1,15}(how are you|wish you nice day)/i 
 /hi dear.{1,10}(greetings of the day|my name is)/i
 
+/beloved.{1,10}i am glad to know you/i
+/beloved.{1,10}i.?a?m dr\./i
 
-/dear.{1,10}beloved.{1,10}i am glad to know you/i
 /dear (ceo|confidant|trustee)/i
 /dear (domain.?name|e?.?mail|web).?owner/i
 
