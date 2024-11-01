@@ -239,7 +239,10 @@
 # Comparing Bank Accounts
 # ------------------------------------------------------------------------------
 /auf ein solches tagesgeld.?konto/i
+/guten tag.{1,10}tagesgeldkonten/i
 /kostenlosen? tagesgeld.?(konto|konten)/i
+
+/sie die besten tagesgeldbanken/i
 
 # Comparing Solar energy
 # ------------------------------------------------------------------------------
