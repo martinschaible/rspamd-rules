@@ -38,11 +38,14 @@
 
 # Expired Antivirus software
 # ------------------------------------------------------------------------------
-/mcafee.?abonnement wurde ausgesetzt/i
 
 /erforderliche aktion?.{1,10}erinnerung?.{1,10}verlängerung/iu
+/verlängern sie es jetzt.{1,10}um ihr gerät/iu
+
+#
 /sehr geehrter mcafee.?kunde/i
 /ihr mcafee ist abgelaufen/i
+/mcafee.?abonnement wurde ausgesetzt/i
 
 #
 #

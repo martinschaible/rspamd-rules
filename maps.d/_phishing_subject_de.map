@@ -75,7 +75,10 @@
 
 /sicherheit.{1,10}(bestätigen|) sie ihre/iu
 /sicherheits.?(aktualisierung|update).{1,10}ihr.{1,15}(konto|profil)/i
+
+/sicherheitsüberprüfung für ihr.{1,15}konto/i
 /sicherheitsüberprüfung ihres kontos.{1,15}erforderlich/iu
+
 /sicherheitswarnung.{1,10}konto gesperrt/i
 
 /sperrung ihrer karte.{1,10}ihres kontos/i
@@ -215,6 +218,7 @@
 /bankvertrag ausgesetzt/i
 
 /deaktivierung ihrer mastercard/i
+/dringende sicherheitsüberprüfung/iu
 
 /ihr zugriff wurde.{1,15}eingeschränkt/iu
 
@@ -408,7 +412,8 @@
 # Fees, Customs
 /dringend.{1,10}zahlung der zoll/i
 /ihr ankommendes paket erforderlich/i
-/zahlung.{1,10}zollgebühren.{1,10}erforderlich/iu
+/wichtige mitteilung.{1,10}zahlung der/i
+/zahlung.{1,10}zollgebühren.{1,20}(erforderlich|euro)/iu
 
 # DHL
 /dhl.{1,10}letzte mahnung/i
