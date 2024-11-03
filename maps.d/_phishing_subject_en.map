@@ -56,6 +56,8 @@
 
 # Account - Confirm or reconfirm identity
 # ------------------------------------------------------------------------------
+/authentication request for/i
+
 /e?.?mail.{1,10}account validation for/i
 /e?.?mail.{1,10}verification.{1,10}action required/i
 
