@@ -134,7 +134,7 @@
 
 /alzheimers/i
 /(alzheimer|dementia).{1,10}(alert|test|trigger|warning)/i
-/brain.?(booster|cell|fog|health|nutrient|scan)/i
+/brain.?(booster|cell|damage|fog|health|nutrient|scan)/i
 /exotic.?spice/i
 /senior.?moments/i
 
@@ -376,7 +376,7 @@
 # Knee
 # ------------------------------------------------------------------------------
 /(aching|bad|circa|painful|swollen|your).?knees?/i
-/knee.?(cartilage|compression|help|pain)/i
+/knee.?(cartilage|compression|help|pain|stiffness)/i
 /compression.?sleeve/i
 
 # Liver
