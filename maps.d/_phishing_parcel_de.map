@@ -192,6 +192,7 @@
 /bestätigung der adresse.{1,10}der versandkosten/i
 
 /(be)?zahle die versandkosten.{1,10}um deine?.{1,10}(paket|sendung).{1,10}zu erhalten/i
+/(be)?zahlen sie.{1,15}den betrag von.{1,10}um die zustellung/i
 /(be)?zahlen sie.{1,15}die steuer.{1,10}ihre?.{1,10}(paket|sendung) wartet/i
 /(be)?zahlen sie.{1,15}die neuen versandkosten/i
 /(be)?zahlen sie.{1,15}die kosten für die rücksendung/iu
@@ -210,8 +211,8 @@
 
 /mwst.?zahlung.{1,10}sendungsinformationen/i
 
-/nicht (geliefert|zugestellt) werden.{1,10}da die zollgebühren/iu
-/nicht (geliefert|zugestellt) werden.{1,10}kein zoll bezahlt wurde/i
+/nicht (geliefert|zugestellt) werden.{1,15}da die (versandkosten|zollgebühren)/iu
+/nicht (geliefert|zugestellt) werden.{1,15}kein zoll bezahlt wurde/i
 
 /nicht bezahlter.{1,10}gebühren.{1,15}nicht versendet werden kann/iu
 /nicht bezahlt werden.{1,10}wird das paket zurückgeschickt/iu

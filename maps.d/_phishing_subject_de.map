@@ -79,7 +79,7 @@
 /sicherheitsüberprüfung für ihr.{1,15}konto/i
 /sicherheitsüberprüfung ihres kontos.{1,15}erforderlich/iu
 
-/sicherheitswarnung.{1,10}konto gesperrt/i
+/sicherheitswarnung.{1,10}(konto gesperrt|vervollständigen sie)/i
 
 /sperrung ihrer karte.{1,10}ihres kontos/i
 
@@ -93,6 +93,8 @@
 /informationen zu ihrem.{1,15}konto.{1,15}fehlen/i
 
 /ihre hilfe bei der lösung.{1,15}problems mit ihrem.{1,15}konto/iu
+
+/vervollständigen.{1,15}kontoverifizierung/i
 
 /wichtige?.{1,10}kontofunktionen/i
 /wichtige?.{1,10}sicherheitsanpassung/i
@@ -414,7 +416,10 @@
 # Fees, Customs
 /dringend.{1,10}zahlung der zoll/i
 /ihr ankommendes paket erforderlich/i
+/lieferverzögerung.{1,10}zahlen sie/i
 /wichtige mitteilung.{1,10}zahlung der/i
+
+/zahlen sie.{1,15}die zustellung ihres pakets/i
 /zahlung.{1,10}zollgebühren.{1,20}(erforderlich|euro)/iu
 
 # DHL
