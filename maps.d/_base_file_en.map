@@ -51,12 +51,13 @@
 #          sdfsdfct.html
 #           qsdrect.html
 #            dfgect.html
-/\/[a-z]{3,5}(e|f)ct\.html/i
+/\/[a-z]{3,6}(e|f)ct\.html/i
 
 # Samples: sdfsdfirect.html
 #           sdfsdirect.html
 #          reqdsdirect.html
-/\/[a-z]{3,5}(d|f)irect\.html/i
+#          redyrtyirect.html
+/\/[a-z]{3,6}(d|f|y)irect\.html/i
 
 #
 /\/chi2index\.html\?authuser=0/i

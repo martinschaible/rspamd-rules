@@ -336,17 +336,18 @@
 /(paket|sendung).{1,10}auf die (lieferung|zustellung) wartet/i
 /(paket|sendung).{1,10}bei ihnen ankommt/i
 /(paket|sendung).{1,10}bestätigt.{1,15}planen sie/i
+/(paket|sendung).{1,10}hat sein ziel erreicht/i
+/(paket|sendung).{1,10}hat.{1,15}distributionszentrum angehalten/i
+/(paket|sendung).{1,10}informationen bestätigen/iu
 
 /(paket|sendung).{1,10}ist da.{1,15}holen sie es ab/i
 /(paket|sendung).{1,10}ist in bewegung/i
 /(paket|sendung).{1,10}ist in unserer.{1,15}postfiliale angekommen/i
 /(paket|sendung).{1,10}ist zur abholung bereit/i
 
-/(paket|sendung).{1,10}hat sein ziel erreicht/i
-/(paket|sendung).{1,10}hat.{1,15}distributionszentrum angehalten/i
 /(paket|sendung).{1,15}kann nicht zugestellt werden/i
 /(paket|sendung).{1,10}nahe dem abschluss/i
-/(paket|sendung).{1,10}informationen bestätigen/iu
+/(paket|sendung).{1,10}steht zur Zustellung an/i
 
 /(paket|sendung).{1,15}wird aufgrund.{1,10}unerwartet.{1,10}zollabwicklung/i
 /(paket|sendung).{1,10}wird heute zurückgeschickt/i
