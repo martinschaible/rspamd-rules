@@ -11,7 +11,7 @@
 
 # Accounts
 # ------------------------------------------------------------------------------
-/account.?recovery/i
+/account.?(dept|recovery)/i
 
 # Banking
 # ------------------------------------------------------------------------------
@@ -46,7 +46,7 @@
 
 /(e?.?mail|support|webmail).{0,5}(admin|manager|notice|server|support|team)/i
 
-/e?.?mail.?(service|verification)/i
+/e?.?mail.?(notice|service|verification)/i
 
 /server.?(admin|support|update)/i
 /systems.?administrator/i

@@ -56,20 +56,21 @@
 # ------------------------------------------------------------------------------
 /(attn|attention|dear|hello).{1,10}beneficiary/i
 
-/beneficiary.{1,10}(dollar|euro?|euros?|gbp|usd).{1,10}\d{3}.{0,5}\d{3}/i
-/beneficiary.{1,10}to receive the.{1,10}funds?/i
-/beneficiary.{1,10}to late mrs?/i
-/beneficiary.{1,10}which is you.{1,10}your name/i
-/beneficiary.{1,10}as next of kin/i
+/(beneficiaries|beneficiary).{1,10}(dollar|euro?|euros?|gbp|usd).{1,10}\d{3}.{0,5}\d{3}/i
+/(beneficiaries|beneficiary).{1,10}to receive the.{1,10}funds?/i
+/(beneficiaries|beneficiary).{1,10}to late mrs?/i
+/(beneficiaries|beneficiary).{1,10}which is you.{1,10}your name/i
+/(beneficiaries|beneficiary).{1,10}as next of kin/i
+/(beneficiaries|beneficiary).{1,10}to receive the{1,15}donation/i
 
-/present you.{1,25}as the (beneficiary|contractor)/i
+/present you.{1,25}as.{1,10}(beneficiaries|beneficiary|contractor)/i
 
-/you.{1,15}(appear|are|selected|emerged).{1,10}(among|as one|to be one|one).{1,10}(of|the).{1,20}beneficiaries/i
-/you.{1,10}have been (listed|named) as.{1,10}beneficiary/i
+/you.{1,15}(appear|are|selected|emerged).{1,10}(among|as one|to be one|one).{1,10}(of|the).{1,20}(beneficiaries|beneficiary)/i
+/you.{1,10}have been (listed|named|selected) as.{1,20}(beneficiaries|beneficiary)/i
 /you.{1,10}to be.{1,10}nearest.{1,10}beneficiary/i
 
-/your.{1,10}(application as|help to stand as|name as).{1,10}beneficiary/i
-/your.{1,10}name is one of the.{1,10}beneficiaries/i
+/your.{1,10}(application as|help to stand as|name as).{1,10}(beneficiaries|beneficiary)/i
+/your.{1,10}name is one of the.{1,10}(beneficiaries|beneficiary)/i
 
 # Currency, Big numbers
 # ------------------------------------------------------------------------------

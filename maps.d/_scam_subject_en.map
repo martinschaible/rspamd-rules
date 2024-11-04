@@ -29,6 +29,7 @@
 # ------------------------------------------------------------------------------
 /(attn|attention|congratulations|dear|hello|my|you).{1,20}beneficiary/i
 /beneficiary.{1,15}(e?.?mail|final|notice)/i
+/beneficiary!/i
 
 # Big numbers
 # ------------------------------------------------------------------------------
