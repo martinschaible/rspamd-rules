@@ -26,13 +26,13 @@
 /chance.{1,10}von.{1,20}gutschein zugewinnen/i
 /chance.{1,10}von.{1,20}wunschgutscheinen/i
 
-/geschenke?.{1,10}in anspruch zu nehmen.{1,10}antworten sie/i
-/geschenke?.{1,10}in beschränkter zahl verfügbar/iu
-/geschenke?.{1,10}sie verfügbar sind/iu
-/geschenke?.{1,10}für sie.{1,10}sie ausgewählt wurden/iu
-
-/gutschein.{1,15}sie hinterlegt wurde/i
-/gutschein.{1,10}unverbindlich anfordern/i
+/(geschenk|preis|gutschein).{1,10}anfordern/i
+/(geschenk|preis|gutschein).{1,10}in anspruch zu nehmen.{1,10}antworten sie/i
+/(geschenk|preis|gutschein).{1,10}in beschränkter zahl verfügbar/iu
+/(geschenk|preis|gutschein).{1,10}für sie.{1,10}sie ausgewählt wurden/iu
+/(geschenk|preis|gutschein).{1,15}sie hinterlegt wurde/i
+/(geschenk|preis|gutschein).{1,10}sie verfügbar sind/iu
+/(geschenk|preis|gutschein).{1,10}unverbindlich anfordern/i
 
 /kunden.?belohnung(en)?/i
 
@@ -137,6 +137,7 @@
 /du bist der erste unter vielen/i
 
 /sie diese e?.?mail erhalten.{1,10}wurde.{1,10}e?.?mail.?adresse/i
+/sie stehen auf der gewinnerliste/i
 /sie wurden für eine.{1,15}belohnung ausgewählt/iu
 /sie wurden ausgewählt.{1,10}an unserem.{1,15}treueprogramm/iu
 /sie wurden ausgewählt.{1,10}kostenlos/i

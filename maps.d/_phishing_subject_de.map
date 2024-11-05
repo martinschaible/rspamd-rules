@@ -356,7 +356,6 @@
 /(paket|sendung).{1,10}wurde aufgrund einer falschen lieferadresse/i
 /(paket|sendung).{0,10}zustellung.{1,10}mitteilung/i
 
-
 /(paket|referenznummer|sendung).?id.?\d{5,25}/i
 /paket.?lieferung ausstehend/i
 
@@ -473,6 +472,7 @@
 /bestätigung.{1,10}immer noch gültig/iu
 
 /beanspruche jetzt/i
+/beanspruchen sie ihn/i
 
 /bekanntgabe unseres gewinners/i
 
@@ -527,7 +527,9 @@
 /ihr(en)?.{1,10}(belohnung|gutschein) wartet/i
 /ihr (einzigartiger|individueller) code/i
 /ihr name wurde für ein/iu
+
 /ihre chance.{1,10}einen kostenlosen.{1,25}zu erhalten/i
+/ihren preis jetzt liefern/i
 
 /kunde.{1,10}exklusive prämien für sie/iu
 
