@@ -208,6 +208,8 @@
 # Real Sender: "Amazon.de"
 
 # ARD ZDF
+/^ard.?zdf$/i
+/ard.zdf.?service/i
 /beitragsservice/i
 /rundfunkbeitrag/i
 

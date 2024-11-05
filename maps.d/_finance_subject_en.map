@@ -20,7 +20,7 @@
 
 /(apply for|need).{1,10}loan/i
 
-/personal.{1,10}corporate.{1,10}loans/i
+/(personal|project).{1,10}(corporate|development).{1,10}loans?/i
 /various types.{1,10}(finance|funding|loans?)/i
 
 /we.{1,15}(offer|open|provide(rs)?).{1,15}(finance|funding|loans?)/i
