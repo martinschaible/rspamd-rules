@@ -159,8 +159,8 @@
 /leading service providers?.{1,10}india/i
 /development company based.{1,10}india/i
 
-/we are.{1,10}indian?.{1,10}(development|web)/i
-/we are an.{1,10}software development company.{1,10}in india/i
+/(i.?a?m|we are).{1,10}indian?.{1,10}(based|development|web)/i
+/(i.?a?m|we are).{1,10}software development company.{1,10}in india/i
 
 /working with.{1,10}an india.?based.{1,15}company/i
 /(web)?.?site.{1,10}development company.{1,10}india/i
