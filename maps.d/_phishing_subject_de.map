@@ -354,6 +354,8 @@
 /(paket|sendung).{1,15}wird hiermit zugestellt/i
 /(paket|sendung).{1,10}wird zurückgehalten/iu
 /(paket|sendung).{1,10}wurde aufgrund einer falschen lieferadresse/i
+/(paket|sendung).{0,10}zustellung.{1,10}mitteilung/i
+
 
 /(paket|referenznummer|sendung).?id.?\d{5,25}/i
 /paket.?lieferung ausstehend/i
@@ -365,6 +367,7 @@
 
 /ihre bestellung konnte nicht geliefert werden/i
 
+/letzte paketzustellung/i
 /lieferadresse.{1,15}bevorstehende sendung/i
 
 /(lieferung|versand).{1,10}nach einem problem.{1,15}aufmerksamkeit/i
