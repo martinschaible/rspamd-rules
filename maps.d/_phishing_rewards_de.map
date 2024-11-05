@@ -10,7 +10,6 @@
 # Winning, Present, Rewards, Voucher
 # ------------------------------------------------------------------------------
 /belohnungen.{1,10}sind angekommen/i
-/belohnung.{1,10}wartet auf sie/i
 
 /bestätigen sie ihre angaben.{1,10}der versand/i
 
@@ -26,27 +25,25 @@
 /chance.{1,10}von.{1,20}gutschein zugewinnen/i
 /chance.{1,10}von.{1,20}wunschgutscheinen/i
 
-/(geschenk|preis|gutschein).{1,10}anfordern/i
-/(geschenk|preis|gutschein).{1,10}in anspruch zu nehmen.{1,10}antworten sie/i
-/(geschenk|preis|gutschein).{1,10}in beschränkter zahl verfügbar/iu
-/(geschenk|preis|gutschein).{1,10}für sie.{1,10}sie ausgewählt wurden/iu
-/(geschenk|preis|gutschein).{1,15}sie hinterlegt wurde/i
-/(geschenk|preis|gutschein).{1,10}sie verfügbar sind/iu
-/(geschenk|preis|gutschein).{1,10}unverbindlich anfordern/i
+/(belohnung|geschenk|gutschein|preis).{1,10}(anfordern|beanspruchen|sichern)/i
+/(belohnung|geschenk|gutschein|preis).{1,10}für sie.{1,10}sie ausgewählt wurden/iu
+/(belohnung|geschenk|gutschein|preis).{1,10}in anspruch zu nehmen/i
+/(belohnung|geschenk|gutschein|preis).{1,10}in beschränkter zahl verfügbar/iu
+/(belohnung|geschenk|gutschein|preis).{1,10}ist noch nicht beansprucht/i
+/(belohnung|geschenk|gutschein|preis).{1,15}sie hinterlegt wurde/i
+/(belohnung|geschenk|gutschein|preis).{1,10}sie verfügbar sind/iu
+/(belohnung|geschenk|gutschein|preis).{1,10}unverbindlich anfordern/i
+/(belohnung|geschenk|gutschein|preis).{1,10}wartet auf sie/i
 
 /kunden.?belohnung(en)?/i
 
 #
-/\d{2,3}.{1,10}gutschein auf sie wartet/i
+/\d{2,3}.{1,10}(belohnung|geschenk|gutschein|preis) auf sie wartet/i
 
 /erhalten sie ihr.{1,15}geschenk innerhalb von.{1,10}stunden/i
 /fordern sie ihre.{1,15}(belohnung|prämie) an/i
 
-/ihr.{1,10}preis ist noch nicht beansprucht/i
 /ihren.{1,10}prämie genehmigt hat/iu
-/ihren.{1,10}preis zu beanspruchen/i
-
-/jetzt.{1,10}(geschenk|preis).{1,10}sichern/i
 
 /kostenlos.{1,15}(treueprogramm|verlosung).{1,10}teilzunehmen/i
 /kostenlos.{1,15}ganz neu/i
@@ -64,7 +61,7 @@
 
 /(gratis|kostenlos).{1,10}guthabenkarte/i
 /besuchen sie unser gewinnerportal/i
-/lieber kunde.{1,15}belohnung abholen/i
+/lieber kunde.{1,15}(belohnung|geschenk|gutschein|preis) abholen/i
 /werbegeschenke zu gewinnen/i
 
 /wir verlosen.{1,10}\d{2,3}.{1,15}gutscheine/i
@@ -74,8 +71,7 @@
 /klicken sie hier.{1,10}um die belohnung/i
 /klicken sie hier.{1,10}um zu beginnen/i
 
-/hier klicken.{1,10}\d{2,3}.{1,15}gutschein/i
-/meine belohnung beanspruchen/i
+/hier klicken.{1,10}\d{2,3}.{1,15}(belohnung|geschenk|gutschein|preis)/i
 
 # Present/Surprise box
 /lagerverkaufs.{1,10}geschenkbox/i
