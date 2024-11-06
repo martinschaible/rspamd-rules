@@ -25,7 +25,8 @@
 /chance.{1,10}von.{1,20}gutschein zugewinnen/i
 /chance.{1,10}von.{1,20}wunschgutscheinen/i
 
-/(belohnung|geschenk|gutschein|preis).{1,10}(anfordern|beanspruchen|sichern)/i
+/gutschein.{1,10}(anfordern|beanspruchen)/i
+/(belohnung|geschenk|preis).{1,10}(anfordern|beanspruchen|sichern)/i
 /(belohnung|geschenk|gutschein|preis).{1,10}für sie.{1,10}sie ausgewählt wurden/iu
 /(belohnung|geschenk|gutschein|preis).{1,10}in anspruch zu nehmen/i
 /(belohnung|geschenk|gutschein|preis).{1,10}in beschränkter zahl verfügbar/iu
