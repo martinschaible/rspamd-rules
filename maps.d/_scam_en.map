@@ -124,6 +124,7 @@
 # No risk
 # ------------------------------------------------------------------------------
 /you.{1,10}this deal has no risk/i
+/this transaction is.{1,15}(legit|risk free)/i
 
 # Share the same name or same nationality
 # ------------------------------------------------------------------------------

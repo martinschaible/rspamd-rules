@@ -85,8 +85,8 @@
 
 # E-Mail surprise
 # ------------------------------------------------------------------------------
-/(my|this).{1,10}(e?.?mail|letter).{1,10}(came|come) a.{1,10}surprise to you/i
-/(my|this).{1,10}(e?.?mail|letter).{1,10}(came|come) to you as.{1,10}surprise/i
+/(my|this).{1,10}(e?.?mail|letter|message).{1,10}(came|come){1,10}surprise to you/i
+/(my|this).{1,10}(e?.?mail|letter|message).{1,10}(came|come){1,10}to you as.{1,10}surprise/i
 
 /you as a.{1,10}surprise as we have.{1,10}no previous correspondence/i
 

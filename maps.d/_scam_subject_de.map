@@ -167,8 +167,8 @@
 # Comparing Bank Accounts
 # ------------------------------------------------------------------------------
 # ------------------------------------------------------------------------------
-/erinnerung.{1,10}tagesgeld.?konto/i
-/tagesgeld.{1,10}(sicher|zinsen)/i
+/erinnerung.{1,15}tagesgeld.?konto/i
+/tagesgeld.{1,15}(garantiert|sicher|zinsen)/i
 
 # Comparing Solar energy
 # ------------------------------------------------------------------------------
