@@ -9,7 +9,7 @@
 
 # Winning, Present, Rewards, Voucher
 # ------------------------------------------------------------------------------
-/belohnungen.{1,10}sind angekommen/i
+/ausstehend.{1,10}bestellen sie/i
 
 /bestätigen sie ihre angaben.{1,10}der versand/i
 
@@ -26,6 +26,8 @@
 /chance.{1,10}von.{1,20}wunschgutscheinen/i
 
 /gutschein.{1,10}(anfordern|beanspruchen)/i
+/belohnungen.{1,10}sind angekommen/i
+
 /(belohnung|geschenk|preis).{1,10}(anfordern|beanspruchen|sichern)/i
 /(belohnung|geschenk|gutschein|preis).{1,10}für sie.{1,10}sie ausgewählt wurden/iu
 /(belohnung|geschenk|gutschein|preis).{1,10}in anspruch zu nehmen/i
