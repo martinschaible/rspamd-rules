@@ -238,9 +238,9 @@
 
 # Comparing Bank Accounts
 # ------------------------------------------------------------------------------
-/auf ein solches tagesgeld.?konto/i
-/guten tag.{1,10}tagesgeldkonten/i
-/kostenlosen? tagesgeld.?(konto|konten)/i
+/tagesgeld.?(konto|konten).{1,10}nutzt man als/i
+
+/(auf ein solches|derzeit das|guten tag|kostenlos).{1,10}tagesgeld.?(konten|konto)/i
 
 /sie die besten tagesgeldbanken/i
 

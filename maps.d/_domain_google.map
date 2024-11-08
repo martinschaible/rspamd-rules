@@ -29,6 +29,9 @@
 
 # Sample: http://google.de@www.bing.com
 /https?://google\.[a-z]{2,3}@/i
+
+# Sample: http://google.co.jp@www.bing.com
+/https?://google\.[a-z]{2,3}.[a-z]{2,3}@/i
 /https?://google\.[a-z]{2,3}.{1,10}bing\.com/i
 
 # Sample: https://www.google.com/amp/s/%63%67%61
@@ -47,3 +50,7 @@ https:///blogger\.googleusercontent\.com\/img\//i
 # No SSL
 # ------------------------------------------------------------------------------
 /http:\/\/google\.com/i
+
+# Other countries
+# ------------------------------------------------------------------------------
+/www\.google\.co\.jp/i

@@ -310,7 +310,7 @@
 /aktualisieren sie.{1,10}ihren?.{1,10}(adressinformationen|lieferdetails|lieferort)/i
 /aufgrund einer falschen adresse scheiterte die zustellung/i
 
-/benachrichtigung über ihr paket/iu
+/benachrichtigung.{1,10}(erneuter versuch|über ihr paket)/iu
 /bestellung.{1,10}die noch auf.{1,10}bezahlung wartet/i
 
 /bestätigen sie (die|ihre).{1,10}(lieferadresse|lieferdaten|lieferdetails|lieferung|versandinformationen)/iu
@@ -550,9 +550,10 @@
 /sie haben ein.{1,40}set gewonnen/i
 
 /sie sind der auserwählte/iu
-/sie sich.{1,10}ihren?.{1,10}(belohnung|gutschein)/i
+/sie sich.{1,10}chance auf eine prämie/iu
 /sie sind.{1,10}der gewinner (des|unseres).{1,10}(gewinnspiels|wettbewerbs)/i
 /sie sind.{1,10}der monatsgewinner/i
+/sie sich.{1,10}ihren?.{1,10}(belohnung|gutschein)/i
 /sie sind.{1,10}(berechtigt|teilnahme|zugelassen)/i
 
 /sie unsere.{1,10}umfrage/i
@@ -696,9 +697,9 @@ letzter gewinner/i
 
 /meinung zählt.{1,10}gewinnen sie/iu
 /meinung ab.{1,10}verdiene eine belohnung/i
-/nehmen sie an dieser.{1,10}umfrage teil/i
+/nehmen sie an (dieser|unserer).{1,10}umfrage teil/i
 
-/umfrage.{1,10}(neue belohnung|verdienen sie|gewinn)/i
+/umfrage.{1,15}(gewinn|neue belohnung|sichern sie sich|verdienen sie)/i
 
 /sie eine kurze umfrage/i
 /teilnehmer werden.{1,20}belohnung.{1,10}erhalten/i

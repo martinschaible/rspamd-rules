@@ -13,8 +13,9 @@
 
 # Fake Chambers of commerce
 # ------------------------------------------------------------------------------
-/wichtiger hinweis.{1,10}ihre unternehmensdaten/i
-/ihre unternehmensdaten sind nicht mehr aktuell/i
+/wichtiger hinweis.{1,10}ihre.{1,10}unternehmensdaten/i
+/ihre.{1,10}unternehmensdaten sind nicht mehr aktuell/i
+/ihre.{1,10}unternehmensdaten zu prüfen/iu
 
 # Fake Reminders
 # ------------------------------------------------------------------------------
