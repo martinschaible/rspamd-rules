@@ -58,8 +58,9 @@
 
 /burns flab.{1,10}faster/i
 
-/(lbs|pounds|weight) in.{1,10}months/i
-/(lbs|pounds).{1,10}(with this|of flab)/i
+/(lbs|pounds|weight).{1,10}in.{1,10}months/i
+/(lbs|pounds|weight).{1,10}per week drop/i
+/(lbs|pounds|weight).{1,10}(with this|of flab)/i
 
 /stops.{1,10}(belly|more).?(fat|flab)/i
 /boost.{1,10}fat.?burning/i

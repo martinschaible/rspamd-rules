@@ -233,6 +233,7 @@
 
 /forgotten.{1,10}medical.{1,10}discovery/i
 /groundbreaking.{1,10}harvard research/i
+/harvard has exposed a hidden/i
 /miracle.{1,10}(cure|drink).{1,10}(inspired by|that restores)/i
 
 /natural.{1,10}vision.{1,10}breakthrough/i
@@ -247,6 +248,8 @@
 /uncover.{1,10}astonishing secret/i
 
 /(uncovered|unveiled).{1,10}groundbreaking.{1,10}(discovery|secret)/i
+
+/use this secret.{1,10}(memory|revival)/i
 
 /secret.{1,15}(ancient|ingredient|monumental).{1,15}(breakthrough|japanese)/i
 /secret.{1,10}click here to learn/i

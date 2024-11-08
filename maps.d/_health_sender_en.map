@@ -59,7 +59,7 @@
 # ------------------------------------------------------------------------------
 /(belly|burn|eliminates?|lose|melt|shed|stubborn|wobbly).{0,10}(bloat|fat|flab|lbs|pounds|weight)/i
 
-/(big|bloated|bulging|slimmer|tiny|your).?belly/i
+/(big|bloated|bulging|flat|slimmer|tiny|your).?belly/i
 
 /big.?stomach/i
 /breakfast.?hack/i
@@ -87,7 +87,7 @@
 /slimming/i
 /slim.?(body|down|waist)/i
 /stay.?slim/i
-/surprising.?water/i
+/(metabolic|surprising).?water/i
 
 /(toxic|visceral).?fat/i
 
@@ -139,7 +139,7 @@
 /senior.?moments/i
 
 # Memory
-/memory.?(booster|cure|hack|improver|improvement|loss)/i
+/memory.?(booster|cure|hack|improver|improvement|loss|restore)/i
 /(excellent|future|poor|sharp|your).?memory/i
 /forgetful/i
 
