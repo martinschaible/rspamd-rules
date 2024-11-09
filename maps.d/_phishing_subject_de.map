@@ -537,6 +537,8 @@
 
 /kunde.{1,10}exklusive prämien für sie/iu
 
+/Letzte Benachrichtigung für eine/iu
+
 /paket.{1,10}auf ihren namen registriert/i
 
 /kunden.?belohnung(en)?/i
@@ -639,7 +641,7 @@ letzter gewinner/i
 
 /(auto|kfz).?notfall.?set.{1,15}(bestellung|erfolgreich|sichern|wartet)/i
 
-/notfall.?set.{1,10}(fürs auto|für ihr auto|im auto|wartet auf sie)/i
+/notfall.?set.{1,10}(fürs auto|für ihr auto|im auto|prämie|wartet auf sie)/i
 
 /(bestätigung|gewinnen|kostenloses).{1,10}notfall.?set/i
 /(bestätigung|gewinnen|kostenloses).{1,20}(auto|kfz).?notfall.?set/i

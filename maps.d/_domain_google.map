@@ -22,34 +22,34 @@
 
 #/https:\/\/sites\.google\.com\/view\//i
 /https:\/\/script\.google\.com/macros\//i
-/https:\/\/google\.com\/amp\//i
+/https:\/\/(www\.)?google\.com\/amp\//i
 
 # Sample: https://n3m6x.app.goo.gl/hfQMpxbwtaPKpiJt6
 /https:\/\/[a-z0-9]{4,10}\.app\.goo\.gl\//i
 
 # Sample: http://google.de@www.bing.com
-/https?://google\.[a-z]{2,3}@/i
+/https?:\/\/(www\.)?google\.[a-z]{2,3}@/i
 
 # Sample: http://google.co.jp@www.bing.com
-/https?://google\.[a-z]{2,3}.[a-z]{2,3}@/i
-/https?://google\.[a-z]{2,3}.{1,10}bing\.com/i
+/https?:\/\/(www\.)?google\.[a-z]{2,3}.[a-z]{2,3}@/i
+/https?:\/\/(www\.)?google\.[a-z]{2,3}.{1,10}bing\.com/i
 
 # Sample: https://www.google.com/amp/s/%63%67%61
-/https:\/\/google\.com\/.[a-z]{1,5}\/.[a-z]{1,5}/i
+/https:\/\/(www\.)?google\.com\/.[a-z]{1,5}\/.[a-z]{1,5}/i
 
 # I expect false positives.
 /https:\/\/storage\.googleapis\.com/i
 /\.storage\.googleapis\.com/i
 
 # Sample: http://google.com          ILMO2CLBAO71WBKPWOYC2EPS8HG5F6P0LI34VWAI8S
-/http:\/\/google\.com\s{1,15}[a-zA-Z0-9]{1,15}/i
+/http:\/\/(www\.)?google\.com\s{1,15}[a-zA-Z0-9]{1,15}/i
 
 # Sample: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVv
-https:///blogger\.googleusercontent\.com\/img\//i
+https:\/\/blogger\.googleusercontent\.com\/img\//i
 
 # No SSL
 # ------------------------------------------------------------------------------
-/http:\/\/google\.com/i
+/http:\/\/(www\.)?google\.com/i
 
 # Other countries
 # ------------------------------------------------------------------------------

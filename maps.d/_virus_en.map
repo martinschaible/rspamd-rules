@@ -39,13 +39,16 @@
 
 /your review.{1,10}download.{1,10}view receipt/i
 
-#
+# Chinese
+
 # "Add WeChat 16228126454 to open VAT invoice"
 /开增值税发票加微信.{1,20}尸卫诸少铁酒却邵软块肾例/i
 # "Add WeChat to issue VAT invoice on behalf of others"
 /代开增值税普通发票加微信/i
 # "Add WeChat to issue VAT invoice"
 /开增值税 发票加微信/i
+/代开增值税普票发票加微信/i
+
 # "Add WeChat to issue electronic invoice"
 /代开电子普票发票加微信/i
 
@@ -62,6 +65,9 @@
 /staff payroll.{1,10}approved/i
 
 /you have.{1,10}new item.{1,10}for your attention/i
+
+/view completed document/i
+/Your document has been completed/i
 
 # Downloads
 # ------------------------------------------------------------------------------
