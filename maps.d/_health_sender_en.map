@@ -103,7 +103,7 @@
 /(diet|gummy|magic|special|unusual|yummy).?(drink|hack|tea)/i
 
 /waistline/i
-/weight.?(drop(per)?|goals|loss)/i
+/weight.?(drop(per)?|goals?|loss)/i
 
 # Products
 /(3d.?slim|power.?shape)/i
@@ -233,7 +233,7 @@
 /(can|daily).{0,10}poops?/i
 
 /fruit.?mistake/i
-/(healthy|sugary?.?fruit/i
+/(healthy|sugary?).?fruit/i
 
 # Dizziness
 # ------------------------------------------------------------------------------
@@ -452,7 +452,7 @@
 # Skin
 # ------------------------------------------------------------------------------
 /skin.{0,10}(care|cure|sagging)/i
-/(aged|aging|perfect|smooth).?skin/i
+/(aged|aging|perfect|radiant|smooth).?skin/i
 /(dark|face).?spots?/i
 
 # Sleep
