@@ -305,6 +305,7 @@
 /(artikel|paket|sendung).{1,25}wartet auf.{1,10}erneute.{1,10}(lieferung|zustellung)/i
 /(artikel|paket|sendung).{1,20}wartet (auf sie|immer noch)/i
 /(artikel|paket|sendung).{1,25}wartet wegen.{10,25}auf.{1,10}(lieferung|zustellung)/i
+/(artikel|paket|sendung).{1,10}verfolgen.{1,10}zu erhalten/i
 
 # Address
 /adressüberprüfung für ihre sendung/iu
@@ -410,6 +411,7 @@
 /zustellung.{1,10}nicht erfolgreich.{1,10}adresse nicht gefunden/i
 /zustellversuch.{1,10}bestellung.{1,10}zurückgeschickt/iu
 
+/verwenden sie ihren barcode/i
 /versand.{1,10}bestätigen sie ihre angaben/iu
 /warten auf abholung/i
 /wir haben ihr paket bereit/i
