@@ -34,10 +34,9 @@
 /kreditfinanzierung.{1,10}(fixzins|stunden)/i
 /projekte?.{1,10}kreditfinanzierung/i
 
-/(darlehen|kredit).{1,10}(dringend|für \d|mit.{1,10}zinssatz|zu)/iu
+/(darlehen|kredit).{1,10}(aller? arten|dringend|finanzierung|für \d|zu|wir helfen)/iu
 /(darlehen|kredit).{1,15}(interest rate|loan)/i
-/(darlehen|kredit).{1,10}finanzierung/i
-/(darlehen|kredit).{1,10}wir helfen ihnen/i
+/(darlehen|kredit).{1,10}mit.{1,10}zinssatz/i
 
 /(finanz|darlehen|kredit).{0,10}(angebot|möglichkeiten)/iu
 

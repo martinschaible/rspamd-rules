@@ -27,8 +27,10 @@
 
 # Winning
 # ------------------------------------------------------------------------------
-/gewinn!/i
+/^gewinn$/i
 /^gewinner$/i
+/gewinn!/i
+
 /gewinn.{0,5}(benachrichtigung|mitteilung|notifikation)/i
 
 /(geehrter|liebe).{1,15}gewinner/i
