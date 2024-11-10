@@ -230,7 +230,7 @@
 /poop.?type/i
 /your.?(digestion|poop)/i
 
-/(can|daily).{0,10}poops?/i
+/(can|daily|stuck).{0,10}poops?/i
 
 /fruit.?mistake/i
 /(healthy|sugary?).?fruit/i
@@ -578,6 +578,7 @@
 /psoryden/i
 /removio/i
 /revitaprost/i
+/se.{0,2}venom/i
 /semenoll/i
 /slimvitax/i
 /stinafil/i

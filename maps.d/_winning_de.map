@@ -39,6 +39,9 @@
 /lieber lotto.?gewinner/i
 /sie sind der.{1,15}gewinner unserer lotterie/i
 
+#
+/gewinnnummer.{1,30}referenznummer/i
+
 # Payments
 # ------------------------------------------------------------------------------
 /(aus)?zahlung.{1,10}nicht (eingeforderten|beansprucht).{1,10}(preis|gewinn).?geld(es)?/i
