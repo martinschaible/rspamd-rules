@@ -154,7 +154,9 @@
 # Back
 # ------------------------------------------------------------------------------
 /back.?(pain|stretch)/i
-/(morning|second|simple).?stretch/i
+
+/(morning|one|second|simple).?stretch/i
+
 /sore.?back/i
 /unlock.?hips/i
 
@@ -452,7 +454,7 @@
 # Skin
 # ------------------------------------------------------------------------------
 /skin.{0,10}(care|cure|sagging)/i
-/(aged|aging|perfect|radiant|smooth).?skin/i
+/(aged|aging|perfect|radiant|smooth|youth).?skin/i
 /(dark|face).?spots?/i
 
 # Sleep
@@ -473,10 +475,6 @@
 # ------------------------------------------------------------------------------
 /(bloated|flat(ten)?).{0,10}stomach/i
 /your stomach/i
-
-# Stretch
-# ------------------------------------------------------------------------------
-/morning.?stretch/i
 
 # Stroke
 # ------------------------------------------------------------------------------
