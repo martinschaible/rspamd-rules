@@ -145,7 +145,12 @@
 
 # Joints
 # ------------------------------------------------------------------------------
-/(eases?|relieves).?joint.?pain/i
+/(ease|eradicate|relieve).{0,10}joint.?pain/i
+
+# Knee
+# ------------------------------------------------------------------------------
+/get rid of knee pain/i
+/your knees with this/i
 
 # Metabolism
 # ------------------------------------------------------------------------------
@@ -155,8 +160,6 @@
 # Pain
 # ------------------------------------------------------------------------------
 /ultimate pain reliever/i
-/eradicate joint.?pain/i
-/your knees with this/i
 
 # Prostate
 # ------------------------------------------------------------------------------
@@ -214,7 +217,7 @@
 # ------------------------------------------------------------------------------
 /eat this daily/i
 /japanese.?water/i
-
+/take this to get rid/i
 /regulated online pharmacy managed/i
 
 # Masked
