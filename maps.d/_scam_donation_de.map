@@ -168,7 +168,7 @@
 /ihnen wurde.{1,20}(millionen|dollar|euro?|gbp|usd).{1,10}gespendet/i
 
 /ihre? e?.?mail.?(adresse|konto)?.{0,25}ausgewählt.{1,10}um zu.{1,10}begünstigten/iu
-/ihre? e?.?mail.?(adresse|konto)?.{1,25}für eine wohltätige spende/iu
+/ihre? e?.?mail.?(adresse|konto)?.{1,25}für einen?.{1,10}(investitionszuschuss|wohltätige spende)/iu
 /ihre? e?.?mail.?(adresse|konto)?.{1,25}hat eine spende/i
 /ihre? e?.?mail.?(adresse|konto)?.{1,25}hat ihnen die summe von/i
 
@@ -189,6 +189,9 @@
 /ihre.{1,10}spende.{1,10}steht noch aus/i
 /ihre.{1,10}spende.{1,10}\d{3}.{0,5}\d{3}/i
 
+/ihren zuschuss zu beantragen/i
+/informationen zum erhalt ihrer.{1,15}spende/i
+
 /(ich|sie) haben? eine.{1,15}spende.{1,10}(in höhe)?.{0,10}von.{2,10}\d{3}.{0,5}\d{3}/iu
 /(ich|sie) haben? eine.{1,15}spende.{1,10}(in höhe)?.{0,10}von.{2,10}million/iu
 /(ich|sie) haben? eine.{1,15}spende.{1,10}von.{5,25}(kontaktieren|weitere informationen)/i
@@ -198,8 +201,6 @@
 /(ich|sie) haben? eine.{1,15}spende(zuschuss)?.{1,10}für sie/i
 
 /(ich|sie) haben? von.{5,25}eine spende in.{1,10}höhe von.{2,10}\d{3}.{0,5}\d{3}/iu
-
-/informationen zum erhalt ihrer.{1,15}spende/i
 
 /sie.{1,10}den erhalt einer.{1,15}spende/i
 /sie ihre.{1,15}spende im wert von/i

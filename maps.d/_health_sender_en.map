@@ -368,7 +368,7 @@
 # Joints
 # ------------------------------------------------------------------------------
 /joints.?(cure|discomfort|genesis|healed|hero|inflammation|relief)/i
-/better.?joints/i
+/(better|painful).?joints/i
 
 /(anti|chronic).?(inflammation|inflammatory)/i
 

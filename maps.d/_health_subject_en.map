@@ -145,7 +145,7 @@
 
 # Joints
 # ------------------------------------------------------------------------------
-/relieves joint.?pain/i
+/(eases?|relieves).?joint.?pain/i
 
 # Metabolism
 # ------------------------------------------------------------------------------
@@ -190,7 +190,7 @@
 /(bizzare|weird).{1,10}spices regrows?/i
 
 /minute miracle stretch/i
-/(doctor.?s? secret|morning) trick/i
+/(doctor.?s? secret|morning|water) trick/i
 /secret.{1,10}(ingredient|recipe)/i
 /discovery will change your/i
 

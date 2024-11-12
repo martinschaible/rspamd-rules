@@ -467,7 +467,7 @@
 /\{belohnen\}/i
 /BELOHNEN
 
-/(belohnung|gutschein).{1,10}(code|einlösen|erhalten|freigeschaltet|ist zum versenden|reserviert|wartet sie)/i
+/(belohnung|gutschein).{1,10}(code|einlösen|erhalten|freigeschaltet|ist zum versenden|reserviert|wartet)/i
 /belohnung:/i
 
 /bald ablaufend.{1,10}ihre/i
@@ -504,6 +504,8 @@
 
 /(einkauf|geschenk).{1,5}gutschein.{1,10}(kaufland|code)/i
 
+/fordern sie ihre.{1,10}belohnung/i
+
 /gratis.{1,20}euro.{1,10}geschenkkarte.{1,10}sichern/i
 
 /geschenke?.{1,5}(genehmigt|sind angekommen)/i
@@ -531,7 +533,7 @@
 /holen sie sich einen kostenlosen/i
 /holen sie sich ihren preis/i
 
-/ihr(en)?.{1,10}(belohnung|gutschein) wartet/i
+/ihr(en)?.{1,15}(belohnung|gutschein) wartet/i
 /ihr (einzigartiger|individueller) code/i
 /ihr name wurde für ein/iu
 

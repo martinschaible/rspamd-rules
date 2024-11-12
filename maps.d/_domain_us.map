@@ -177,6 +177,9 @@ www\.bing\.com\/ck\/a\?!/i
 # Redirecter
 /link\.email\.wix\.com/i
 
+# Sample: https://wix.icanteams.com/
+/https:\/\/wix\.[a-z]{4,20}\.com/i
+
 # Y
 # ------------------------------------------------------------------------------
 /cdn\.youface\.org/i
