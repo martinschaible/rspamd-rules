@@ -100,7 +100,7 @@
 /(here|this) is.{5,25}(from|in).{1,10}(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang)/i
 /(here|this) is.{5,25}manufacturer.{1,10}(from|in).{1,10}(china|dongguan|guangdong|guangzhou|shanghai|shenzhen|zhejiang)/i
 
-/a listed company (from|in).{1,10}(china|dongguan|guangdong|guangzhou|shanghai|shenzhen|zhejiang)/i
+/(a listed|professional) (company|factory){1,10}(from|in).{1,10}(china|dongguan|guangdong|guangzhou|shanghai|shenzhen|zhejiang)/i
 
 /(our|own) (company|factory) is manufacturing.{5,30}(in|located).{1,10}(china|dongguan|guangdong|guangzhou|shanghai|shenzhen|zhejiang)/i
 /(our|own) (company|factory) (in|located).{1,10}(china|dongguan|guangdong|guangzhou|shanghai|shenzhen|zhejiang).{1,10}is staffed/i
@@ -522,6 +522,7 @@
 /we.{1,10}focus on pcba?/i
 /we.{1,10}have focused.{1,10}manufacturing.{1,10}(pcba?|printed circuitboard)/i
 /we.{1,10}can help.{1,10}(pcba?|printed circuitboard)/i
+/we.{1,10}support.{1,10}(pcba?|printed circuitboard)/i
 
 /we.{1,10}(offer|specialized?|specializing|produce|provide|supply).{1,10}(pcba?|printed circuit board).{1,10}(assembly|design|layers|production|products?|quick turn)/i
 /we.{1,10}(offer|specialized?|specializing|produce|provide|supply).{1,10}(various|you with).{1,15}(pcba?|printed circuit board)/i

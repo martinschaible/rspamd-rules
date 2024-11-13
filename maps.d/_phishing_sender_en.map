@@ -62,6 +62,8 @@
 
 /suspended.{1,10}undelivered.{1,10}e?.?mails?/i
 
+/web.?mail.?cpanel/i
+
 # Fake human resource department
 # ------------------------------------------------------------------------------
 /\.[a-z]\d{2,4} hr\. dept/i

@@ -213,6 +213,9 @@
 /world business directory/i
 
 /your company.{1,15}in the.{1,15}(business|world.?company).?(directory|register)/i
+/your company.{1,15}in the.{1,15}yellow.?pages.?web/i
+
+/yellow.?pages.?web.{1,10}(p\.o\.|for 202\d)/i
 
 # Collecting postal stamps
 # ------------------------------------------------------------------------------
