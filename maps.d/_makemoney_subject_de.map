@@ -85,9 +85,12 @@
 # KI
 # ------------------------------------------------------------------------------
 /(chatgpt|ki).{1,10}revolutioniert aktienhandel/i
-/(chatgpt|ki).{1,10}(verschenkt|verspricht).{1,15}(geld|gewinne)/i
+/(chatgpt|ki).{1,10}(verschenkt|verspricht).{1,15}(geld|gewinne|reichtum)/i
+/(chatgpt|ki).{1,10}(geld verdienen|handel)/i
 
-/geld verdienen mit.{1,10}(chatgpt|ki)/i
+/(aktienhandel|geld verdienen).{1,10}(chatgpt|ki)/i
+
+/automatischer aktienhandel/i
 
 # ETF (Exchange Traded Funds)
 # ------------------------------------------------------------------------------
@@ -103,32 +106,33 @@
 
 # Getting rich
 # ------------------------------------------------------------------------------
-/jetzt finanziell erfolgreich werden/i
-
 (es geht|einfach|garantiert|jetzt|methode|ohne scam).{1,20}reich werden/i
 /(einfach|jetzt).{1,10}vermögen (aufbauen|anhäufen)/iu
 
-/schnell zu wohlstand kommen/i
+/jeden innerhalb von.{1,10}monaten zum millionär/iu
+/jetzt finanziell erfolgreich werden/i
+
 /(endlich|ki) zu reichtum/i
 /traum vom reichtum/i
 
+/macht sie reich/i
 /so werden.{1,10}sie reich/i
-/reich werden/i
 
+/reich werden/i
 /reich (durch|mit) (ki|openai)/i
 /reich werden.{1,10}wie/i
 
 /reichtum warten/i
 
-/macht sie reich/i
-
+/schnell zu wohlstand kommen/i
 /sie mit uns finanzielle freiheit/i
+
+/verschenkt reichtum/i
+
 /wie mann.{1,15}reich wird/i
 /wird sie reich machen/i
 
 /zeit zum reich werden/i
-
-/jeden innerhalb von.{1,10}monaten zum millionär/iu
 
 # Income
 # ------------------------------------------------------------------------------

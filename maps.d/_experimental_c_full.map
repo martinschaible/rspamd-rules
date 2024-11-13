@@ -71,6 +71,9 @@
 /your e?.?mails are infected with.{1,15}(trojan|virus)/i
 /you.{1,10}need to transfer.{1,15}(dollars|usd).{1,15}(bitcoin|btc)/i
 
+# No need to use images from wikipedia
+/upload\.wikimedia\.org\/wikipedia\/commons\/thumb/i
+
 # Companies
 # ------------------------------------------------------------------------------
 # SMBC
