@@ -57,6 +57,7 @@
 
 /donation.{1,10}(spende|win)/i
 /donation of.{1,10}million/i
+/donation relief fund/i
 
 /(donation|donated).{1,15}\d{3}.{0,5}\d{3}/i
 /(donation|donated).{1,15}(for|to) you/i
@@ -77,6 +78,7 @@
 
 # Funds, Money, Sum
 # ------------------------------------------------------------------------------
+/funds?!/i
 /fund recovered/i
 
 /(notice about|receive) your.{1,15}funds?/i

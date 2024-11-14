@@ -65,8 +65,11 @@
 /asalaam.{1,5}(madam|sir)/i
 
 /beloved one/i
+/beneficial sir/i
+
 /compliment of the season/i
 /for your attention/i
+/from mrs?\./i
 
 /good day.{1,10}dear/i
 /good day to you/i
@@ -85,17 +88,15 @@
 /ladies and gentlemen/i
 /letter from/i
 
-/from mrs?\./i
+/my good friend/i
 
-/beneficial sir/i
+/this e?.?mail finds you well/i
 
 # Religious
 /god bless you/i
 /greetings?.{1,10}in the name of god/i
 /may the peace of the lord/i
 /peace be with you/i
-
-/this e?.?mail finds you well/i
 
 # Confidential
 # ------------------------------------------------------------------------------
