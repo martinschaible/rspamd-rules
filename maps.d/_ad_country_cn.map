@@ -254,6 +254,7 @@
 /(co|limited|ltd).{1,15}(company|factory).{1,10}was established/i
 /(co|limited|ltd).{1,10}(company|factory).{1,10}our.{1,10}products/i
 /(co|limited|ltd).{1,10}experienced manufacturer/i
+/(co|limited|ltd).{1,15}glad to know your company/i
 /(co|limited|ltd).{1,15}has been.{1,10}(established for|trusted name)/i
 /(co|limited|ltd).{1,15}is dedicated.{1,10}providing/i
 /(co|limited|ltd).{1,15}is a high.?tech enterprise/
@@ -263,7 +264,7 @@
 /(co|limited|ltd).{1,15}(specialized|specializes) in.{1,10}(high.?quality|import)/i
 /(co|limited|ltd).{1,20}(facilities|state.?of.?the.?art)/i
 /(co|limited|ltd).{1,15}we are leading.{1,15}professional/i
-/(co|limited|ltd).{1,15}we.{1,10}(provide|supply)/i
+/(co|limited|ltd).{1,15}we.{1,10}(provide|supply|specialize)/i
 /(co|limited|ltd).{1,10}which is specializing in/i
 /(co|limited|ltd).{1,10}with over.{1,10}years/i
 /(co|limited|ltd).{1,10}one of the top/i
@@ -272,7 +273,7 @@
 /co.{1,5}(limited|ltd).{1,10}our company/i
 /co.{1,5}(limited|ltd).{1,10}mobile.?whatsapp/i
 
-/(commerce|electronic|hardware|machinery|tools).{1,10}(co|limited|ltd)/i
+/(commerce|electronic|hardware|machinery|mould|tools).{1,10}(co|limited|ltd)/i
 
 /i am.{5,25}from.{1,20}co.{1,10}ltd/i
 
@@ -475,6 +476,8 @@
 /you (interested|looking|need).{1,10}high.{1,10}precision.{1,10}components/i
 /you (interested|looking|need).{1,10}injection.{1,10}mold(ing)?/i
 /you (interested|looking|need).{1,10}reliable.{1,10}experienced.{1,10}plastic/i
+
+/your company is in need of.{1,10}plastic/i
 
 # PCB
 # ------------------------------------------------------------------------------

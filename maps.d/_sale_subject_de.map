@@ -132,10 +132,8 @@ grill.{1,10}statt.{1,10}nur/i
 
 # Jacket
 # ------------------------------------------------------------------------------
-daunen.?jacke.{1,10}anzuziehen/i
-/beheizbaren? jacke/i
-
-/(beheizbare|mit der|sie eine|wärmende).{1,10}daunen.?jacke/iu
+/jacke.{1,10}anzuziehen/i
+/(beheizbare|mit der|sie eine|wärmende).{1,10}jacke/i
 
 # Knives
 # ------------------------------------------------------------------------------
