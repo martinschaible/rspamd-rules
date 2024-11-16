@@ -54,8 +54,9 @@
 # ------------------------------------------------------------------------------
 /high blood sugar.{1,10}top eating/i
 
+/(destroy|ritual.{1,10}lowers).{1,15}blood sugar/i
+
 /tea reverses.{1,10}diabetes in/i
-/ritual.{1,10}lowers.{1,10}blood.?sugar/i
 
 /help to reverse.{1,10}diabetes/i
 /method.{1,10}keep.{1,10}blood sugar levels?/i
@@ -118,6 +119,9 @@
 # Heart, Blood pressure
 # ------------------------------------------------------------------------------
 /flush(es)? out heart.?disease/i
+
+/high.?blood.?pressure.{1,10}drink this/i
+/this new blood.?pressure/i
 
 # Joints
 # ------------------------------------------------------------------------------
@@ -235,6 +239,8 @@
 /discovered.{1,15}plant that target/i
 /discreet.{1,10}revolutionary solution/i
 
+/doctors all over the world are shocked/i
+
 /forgotten.{1,10}medical.{1,10}discovery/i
 /groundbreaking.{1,10}harvard research/i
 /harvard has exposed a hidden/i
@@ -332,6 +338,9 @@
 /second ritual.{1,10}that keeps/i
 /add.{1,10}this simple.{1,10}second ritual/i
 
+# Silly lies
+# ------------------------------------------------------------------------------
+/pharma is lobbying to get this taken down/i
 
 #
 #

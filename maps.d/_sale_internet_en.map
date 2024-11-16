@@ -55,6 +55,7 @@
 # 
 /we are.{1,10}leading b2b.data.solutions/i
 /we are.{1,10}offering.{1,10}targeted.{1,10}e.?mail/i
+/we are.{1,10}offering.{1,15}visitors.{1,10}contact.?list/i
 /we have.{1,10}targeted.{1,10}databases/i
 
 /best e?.?mail.?lists/i
@@ -65,6 +66,8 @@
 
 /furnishing you with.{1,10}e?.?mail.?addresses/i
 /our.{1,15}databases available to the public/i
+
+/\d{2,5}.{1,10}verified visitor contacts/i
 
 # LinkedIn
 /linked.?in database.{1,15}(e?.?mail|phone).{1,15}list/i
