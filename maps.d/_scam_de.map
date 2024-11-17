@@ -263,9 +263,9 @@
 /(kostenlosen|kostenloser).{1,10}unverbindlichen vergleich erfahren sie/i
 /(kostenlosen|kostenloser).{1,10}vergleich dazu finden sie hier/i
 
-/minuten.?analyse.{1,10}starten/i
-/minuten.?check auf unserer website/i
-/minuten.?solar.?analyse/i
+/minuten.{1,10}analyse.{1,10}starten/i
+/minuten.{1,10}check auf unserer website/i
+/minuten.{1,10}(pv|solar).?(analyse|check)/i
 
 /unser kostenloses.{1,10}analyse.?tool/i
 /unserer kostenlosen vergleichsplattform/i

@@ -21,8 +21,10 @@
 /(millionen|tausend|dollar|euro?|gbp|usd).{1,10}ausgewählt.{1,10}kontaktieren sie mich/i
 /(millionen|tausend|dollar|euro?|gbp|usd).{1,10}gewährt.{1,10}antworten.{1,15}weitere details/iu
 
+(millionen|tausend|dollar|euro?|gbp|usd).{1,10}\d{3}.{0,5}\d{3}.{1,10}erhalten.{1,10}kontaktieren sie/i
+
 /herzlichen? (glückwunsch|glückwünsche).{1,25}(millionen|tausend).{1,10}(dollar|euro?|gbp|usd)/i
-/sie in höhe von\d{3}.{0,5}\d{3}.{1,10}(millionen|tausend|dollar|euro?|gbp|usd).{1,10}steht ihnen/iu
+/sie in höhe von.{1,10}\d{3}.{0,5}\d{3}.{1,10}(millionen|tausend|dollar|euro?|gbp|usd).{1,10}steht ihnen/iu
 /von \d{1,2}.{1,5}millionen euros? ausgewählt/iu
 
 # Charity
@@ -73,7 +75,8 @@
 
 /ihres spendenanspruchs wenden sie sich/i
 
-/kontaktieren sie un.{1,10}um ihre spende/i
+/kontaktieren sie.{1,10}ihre spende/i
+/kontaktieren sie uns.{1,10}um ihre spende/i
 /kontaktieren sie barr/i
 
 /zu erhalten.{1,10}bitte antworten sie auf diese.{1,10}e?.?mail/i
@@ -141,6 +144,8 @@
 /für meine spende ausgewählt/iu
 
 /gewinner.{1,10}die meine spende/i
+/gewonnene spende.{1,10}\d{3}.{0,5}\d{3}/i
+
 /hat ihnen eine.{1,15}summe gespendet/i
 
 /ich bin.{5,25}ich spende/i

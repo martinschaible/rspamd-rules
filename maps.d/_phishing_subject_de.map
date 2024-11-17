@@ -64,6 +64,7 @@
 
 /ihre.{1,10}kontoinformationen überprüfen/iu
 /ihre.{1,10}kundendaten sind (abgelaufen|veraltet)/i
+
 # Twint
 /ihre.{1,15}app wird bald gesperrt/i
 
@@ -141,6 +142,7 @@
 # Return for double payed invoices
 # ------------------------------------------------------------------------------
 /ihre rechnung wurde zweimal bezahlt/i
+/informationen zu ihrer rückzahlung/iu
 /mitteilung zur rückerstattungsanfrage/iu
 
 /rechnung erstattungsfähig/iu
