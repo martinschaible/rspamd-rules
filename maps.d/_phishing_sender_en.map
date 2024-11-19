@@ -80,12 +80,12 @@
 /storage.?notice/i
 /cloud.?storage.?helpdesk/i
 
-# Membership, subscription/i
-# ------------------------------------------------------------------------------
-/your.?membership/i
-
 /paramount.{0,10}(deal|renewal)/i
 /subscription.?update/i
+
+#
+#
+#
 
 # Parcel
 # ------------------------------------------------------------------------------
@@ -96,6 +96,14 @@
 /order.{0,5}\d{2,4}/i
 /renew_/i
 /shipping.?pending/i
+
+#
+#
+#
+
+# Membership, subscription
+# ------------------------------------------------------------------------------
+/your.?membership/i
 
 #
 #
