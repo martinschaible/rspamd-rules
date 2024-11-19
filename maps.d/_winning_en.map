@@ -14,7 +14,9 @@
 
 /central.loteria.nacional/i
 
-/euro.millions.{1,10}(google|lottery).promo/i
+/euro.millions.{1,10}(google|international|lottery).{1,10}promo/i
+/euro.millions.{1,10}international.{1,10}lotter(ie|y)/i
+
 /euromillones lottery board/i
 
 /el.?gordo.?online.?loteria/i
@@ -27,6 +29,7 @@
 /lotter(ie|y).{1,10}commission.{1,10}award/i
 /lotter(ie|y).{1,10}award.{1,10}promotion/i
 /lotter(ie|y).{1,10}international.{1,10}promotions/i
+/lotter(ie|y).{1,10}programm spanien/i
 /lotter(ie|y).{0,10}promotion/i
 
 /lotto.?lottery.?inc/i
