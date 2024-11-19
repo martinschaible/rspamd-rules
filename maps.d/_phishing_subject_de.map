@@ -156,7 +156,8 @@
 /ihr konto vorübergehend/i
 /ihr photo.?tan wurde blockiert/i
 
-/gesperrt ref.?id#/i
+/gesperrt.{1,10}ref.?id#/i
+/gesperrt.{1,10}korrigieren sie ihn/i
 
 /letzte warnung.{1,10}konto/i
 

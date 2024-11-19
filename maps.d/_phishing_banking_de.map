@@ -163,9 +163,13 @@
 # Online Banking
 # ------------------------------------------------------------------------------
 /ihr online.?banking.?zugang bald/i
+/ihr zugang zum online.?banking.{1,10}abläuft/iu
+
 /zugang.{1,15}mit unserem sicherheits.?update/i
 
 /bitten wir sie.{1,10}das.{1,10}sicherheits.?update/i
+
+/wichtige information zu.{1,10}online.?banking/i
 
 # Signing documents
 # ------------------------------------------------------------------------------
@@ -198,6 +202,8 @@
 /banking.{1,10}authentifizierung läuft am.{1,15}ab/iu
 /gesetzlicher vorgaben bitten wir sie.{1,10}ihre kontaktdaten/i
 /karte.{1,10}authentifizierungs.?dienst läuft am.{1,15}ab/iu
+/kontaktdaten.{1,10}möglicherweise nicht mehr/i
+/kontaktdaten.{1,10}unserer Kunden zu überprüfen/iu
 /neue sicherheitsbestimmungen der eu ist es erforderlich/i
 /unser sicherheitssystem wurde aktualisiert/i
 

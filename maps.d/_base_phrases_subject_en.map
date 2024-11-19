@@ -92,11 +92,17 @@
 
 /this e?.?mail finds you well/i
 
+# Message
+# ------------------------------------------------------------------------------
+this message is for you/i
+
 # Religious
+# ------------------------------------------------------------------------------
 /god bless you/i
 /greetings?.{1,10}in the name of god/i
 /may the peace of the lord/i
 /peace be with you/i
+/remain blessed/i
 
 # Confidential
 # ------------------------------------------------------------------------------
@@ -104,10 +110,6 @@
 
 /(private|strictly|urgent).{1,10}confidential/i
 /confidential.{1,10}respond/i
-
-# Religious
-# ------------------------------------------------------------------------------
-/remain blessed/i
 
 # Selected
 # ------------------------------------------------------------------------------
