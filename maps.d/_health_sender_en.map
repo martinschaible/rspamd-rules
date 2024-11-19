@@ -11,21 +11,19 @@
 # Men
 # ------------------------------------------------------------------------------
 /(ed|enhancement|enlargement).?(news|treatment|solution)/i
-/(climax|erectile|libido)/i
+/(climax|erectile|libido|manhood)/i
 
 /enhancement.?gummie?s/i
-
 /(male|men|penis).?(enhancement|enlargement|growth|increase|solution)/i
-/manhood/i
 /mens?.?(only|power)/i
 
 /ed.?(forever|no.?more)/i
 /(fix your|goodbye).{0,10}ed/i
 
 # Penis
-/(african|amazonian).{0,10}(banana|boner|elder|manhood|member|pecker|penis|stick|wood)/i
-/(bigger|buried|fuller).{0,10}(banana|boner|elder|manhood|member|pecker|penis|stick|wood)/i
-(grow your|hard|iron.?clad|inch|instant|soft|stiff|thicker).{0,10}(banana|boner|elder|manhood|member|pecker|penis|stick|wood)/i
+/(african|amazonian).{0,10}(banana|boner|elder|member|pecker|penis|stick|wood)/i
+/(bigger|buried|fuller).{0,10}(banana|boner|elder|member|pecker|penis|stick|wood)/i
+(grow your|hard|iron.?clad|inch|instant|soft|stiff|thicker).{0,10}(banana|boner|elder|member|pecker|penis|stick|wood)/i
 
 /big.?size/i
 /get.?stiffy?/i
@@ -230,7 +228,7 @@
 # ------------------------------------------------------------------------------
 /digestive.?system/i
 /poop.?type/i
-/your.?(digestion|poop)/i
+/(better|your).?(digestion|poop)/i
 
 /(can|daily|stuck).{0,10}poops?/i
 
@@ -457,6 +455,7 @@
 /skin.{0,10}(care|cure|sagging)/i
 /(aged|aging|perfect|radiant|smooth|youth).?skin/i
 /(dark|face).?spots?/i
+/facelift/i
 
 # Sleep
 # ------------------------------------------------------------------------------

@@ -37,7 +37,7 @@
 
 /(imap|pop).?settings/i
 
-/it.?(desk$|notice|noreply)/i
+/it.?(desk$|notice|noreply|server)/i
 
 /mailbox.?admin/i
 /message.?center/i

@@ -198,7 +198,7 @@
 /notfall.?(auto|koffer|set)/i
 
 # Earbuds
-/earbuds/?
+/earbuds/i
 
 # Medicare
 /medicare.?kit/i
@@ -222,6 +222,9 @@
 /ard.zdf.?service/i
 /beitragsservice/i
 /rundfunkbeitrag/i
+
+# COOP
+/^coop$/i
 
 # CSS Assurance
 /^mycss$/i

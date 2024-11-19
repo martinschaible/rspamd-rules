@@ -511,9 +511,11 @@
 /belohnung.{1,10}code/i
 
 /die prämien sind eingetroffen/iu
+/deine exklusive belohnung/i
 /der inhaber dieser e?.?mail.?adresse/i
 /der nächsten seite erwartet sie/iu
 
+/du bist heute der glückliche/iu
 /du gehörst zu den auserwählten/ui
 /du hast unser gewinnspiel gewonnen/i
 /du stehst auf der gewinnerliste/i
@@ -521,13 +523,15 @@
 /fordern sie.{1,10}ihr(en)?.{1,10}(geschenk|preis)/i
 
 /empfang.{1,10}bald ablaufend/i
-/(exklusive|sichere).{1,10}chance auf ein.{1,15}produktpaket/i
-/exklusive.{1,10}belohnungen.{1,40}(kostenlos|umfrage)/i
 /erhalten sie.{1,10}(belohnung|gutschein)/i
 /erhalten.{1,10}belohnung/i
 /erinnerung an ihre.{1,30}belohnung/i
 
 /(einkauf|geschenk).{1,5}gutschein.{1,10}(kaufland|code)/i
+
+/(exklusive|sichere).{1,10}chance auf ein.{1,15}produktpaket/i
+/exklusive.{1,10}belohnungen.{1,40}(kostenlos|umfrage)/i
+/exklusive.{1,10}belohnung wartet/i
 
 /fordern sie ihren?.{1,10}(belohnung|gewinn)/i
 

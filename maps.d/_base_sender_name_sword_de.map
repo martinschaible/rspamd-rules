@@ -72,6 +72,9 @@
 # Winning
 # ------------------------------------------------------------------------------
 
+# Companies, Organisations, Products
+# ------------------------------------------------------------------------------
+
 #
 #
 #
@@ -82,10 +85,11 @@
 # Unclassified
 # ------------------------------------------------------------------------------
 /(frau|herr)\s/i
-/benachrichtigung/i
+/(achtung|benachrichtigung|eilmeldung)/i
 
 /(beratung|wichtig)$/i
 
 /geldsparende/i
 /liebste!$/i
+/ungelesen/i
 /willkommen/i

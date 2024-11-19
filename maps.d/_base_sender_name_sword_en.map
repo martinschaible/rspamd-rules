@@ -21,7 +21,7 @@
 
 # Lottery
 # ------------------------------------------------------------------------------
-/e.?draw$/i
+/(e.?draw|jackpot)$/i
 
 # Make Money
 # ------------------------------------------------------------------------------
@@ -73,7 +73,7 @@
 
 /(cpanel|hetzner)$/i
 
-/(galaxus|hornbach|migros|obi).?(™|®)$/i
+/(galaxus|hornbach|lidl|migros|obi).?(™|®)$/i
 
 # Test
 /aliexpress  =\?utf-8/i
