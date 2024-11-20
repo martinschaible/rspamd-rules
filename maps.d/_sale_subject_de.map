@@ -44,7 +44,7 @@
 # Chair
 # ------------------------------------------------------------------------------
 /(büro|massage).?(sessel|stuhl|stühle).{1,15}(eingebauter|integrierter|komfort|massage|walnussholz)/iu
-/(büro|massage).?(sessel|stuhl|stühle).{1,25}(erhältlich|netto|nur|reduziert|statt|zugreifen)/iu
+/(büro|massage).?(sessel|stuhl|stühle).{1,25}(erhältlich|netto|nur|reduziert|statt|testen|zugreifen)/iu
 /(büro|massage).?(sessel|stuhl|stühle).{1,15}(sonder|spezial).?preis/i
 /(büro|massage).?(sessel|stuhl|stühle).{1,15}für (nur|\d{3})/i
 /(büro|massage).?(sessel|stuhl|stühle).{1,15}mit.{1,15}(bezug|massage.?funktion)/i

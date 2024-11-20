@@ -140,6 +140,7 @@
 /memory.?(booster|cure|hack|improver|improvement|laps(es)?|loss|restore)/i
 /(excellent|future|poor|sharp|your).?memory/i
 /forgetful/i
+/sharper.?thinking/i
 
 # Anti Aging
 # ------------------------------------------------------------------------------
@@ -169,6 +170,10 @@
 /blood.?(glucose|pressure|sugar)/i
 /(balanced|high|your).?blood/i
 /clogged.?arteries/i
+
+# Bones
+# ------------------------------------------------------------------------------
+/bone.?health/i
 
 # Breath
 # ------------------------------------------------------------------------------
@@ -624,6 +629,7 @@
 /energy.?without/i
 /(exotic|natural).?herb/i
 /fried.?chicken/i
+/healing.?massage/i
 /hidden.?toxin/i
 /home.?(treatment|with ease)/i
 /make your own/i
