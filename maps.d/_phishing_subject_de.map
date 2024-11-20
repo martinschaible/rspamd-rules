@@ -678,6 +678,7 @@ letzter gewinner/i
 
 /(bestätigung|gewinnen|kostenloses).{1,10}notfall.?set/i
 /(bestätigung|gewinnen|kostenloses).{1,20}(auto|kfz).?notfall.?set/i
+
 /sie sich das.{1,15}notfall.?(auto|set)/i
 
 # AliExpress
@@ -701,6 +702,9 @@ letzter gewinner/i
 
 # GLS
 /ihre.{1,10}gls.?prämie/iu
+
+# Ikea
+/sichern sie sich ihr.{1,10}schlafset/i
 
 # Makita
 /sie wurden.{1,15}eine makita/i
@@ -740,6 +744,9 @@ letzter gewinner/i
 /teilnehmer werden.{1,20}belohnung.{1,10}erhalten/i
 
 /verlosung.{1,15}ihre meinung/i
+
+# Companies
+/ikea umfrage/i
 
 #
 #
