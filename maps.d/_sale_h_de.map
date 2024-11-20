@@ -57,11 +57,11 @@
 /erstaunliche.{1,10}massagestuhl/i
 
 /(büro|dreh).?(stuhl|stühle).{1,10}(elegantes|eleganz)/i
-/(büro|dreh).?(stuhl|stühle).{1,10}(die perfekte|in leder|limitierte|in vielen farben|mit walnussholz|passt sich perfekt)/iu
+/(büro|dreh).?(stuhl|stühle).{1,10}(die perfekte|einzigartig|in leder|limitierte|in vielen farben|mit walnussholz|passt sich perfekt)/iu
 /(büro|dreh).?(stuhl|stühle).{1,10}neues modell/iu
 /(büro|dreh).?(stuhl|stühle).{1,10}regale?/i
 /(büro|dreh).?(stuhl|stühle).{1,10}mit massagefunktion/i
-/(büro|dreh).?(stuhl|stühle).{1,10}wochen zu testen/i
+/(büro|dreh).?(stuhl|stühle).{1,10}(vorzustellen|wochen zu testen)/i
 
 /stuhl.{1,15}vorzugspreis von nur/i
 /stuhl zum vorzugspreis/i
@@ -492,8 +492,9 @@
 
 /e?.?mail antworten.{1,10}ihre lieferadresse angeben/i
 
-/einfach mit.{1,10}adresse.{1,15}wir senden dann.{1,15}(frei haus|umgehend per)/i
+/einfach mit.{1,10}adresse.{1,15}farbauswahl antworten/i
 /einfach mit.{1,10}adresse.{1,15}diese e?.?mail.{1,15}wir senden ihnen/i
+/einfach mit.{1,10}adresse.{1,15}wir senden dann.{1,15}(frei haus|umgehend per)/i
 
 /einfach antworten.{1,10}bestellungen.{1,10}rückfragen/iu
 /einfach antworten.{1,10}um zu bestellen/i
@@ -543,7 +544,8 @@
 /uvp.{1,10}des herstellers.{1,15}unser unschlagbarer preis.{1,10}nur/i
 /preis beträgt anstelle von.{1,10}euro nur.{1,10}euro.{1,10}zzgl/iu
 
-/sonderpreis.{1,10}nur.{1,10}euro.{1,10}zzgl.{1,10}mwst/i
+/sonder(posten|preis).{1,10}nur.{1,10}euro.{1,10}zzgl.{1,10}mwst/i
+/sonderposten.?aktion.{1,10}nur solange.{1,10}vorrat/i
 
 /(unschlagbaren|unschlagbarer) preis.{1,10}(anstelle|statt).{1,10}nur.{1,10}euro.{1,10}netto/i
 /(unschlagbaren|unschlagbarer) preis.{1,10}(anstelle|statt).{1,10}nur.{1,10}netto/i
