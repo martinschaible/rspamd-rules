@@ -80,11 +80,12 @@
 /erstattung anfordern/i
 /mitteilung zur rückerstattungsanfrage/iu
 
-/rückerstattung beantragen/i
+/rückerstattung (beantragen|bestätigen)/i
 /rückerstattungs.?link/iu
 /rückerstattung zu überprüfen/iu
 /rückerstattungsstatus überprüfen/iu
 
+/sie haben.{1,10}anspruch auf rückerstattung/i
 /sie möglicherweise anspruch.{1,15}rückerstattung/iu
 
 /zurückerhalten.{1,10}indem sie unten klicken/iu
@@ -265,6 +266,7 @@
 /dringende handlung erforderlich/i
 /aktion erforderlich.{1,10}wir sind.{1,20}nicht in der lage/i
 
+/formular so bald wie möglich ab/iu
 /lesen sie diesen hinweis sorgfältig durch/iu
 /lieber kunde.{1,10}wir haben probleme/i
 
