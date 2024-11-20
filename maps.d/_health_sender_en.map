@@ -291,7 +291,7 @@
 /(attack|end|fight|foot|goodbye|nail|nasty|stop|yellow).?fungus/i
 /fix.{1,10}(nail|toe).?fungus/i
 
-/(fungal|fungus).?(infection|relief|remover?)/i
+/(fungal|fungus).?(infection|relief|remover?|vanishing)/i
 
 /(cracked|healthy|nasty|rotten|toe|yellow).{1,10}(nails|toe)/i
 
@@ -571,6 +571,7 @@
 /hondofrost/i
 /liba/i
 /micardium/i
+/monster.?xl/i
 /neoveris/i
 /ottomax/i
 /oyster.?(plus|\+)/i
@@ -634,6 +635,7 @@
 /home.?(treatment|with ease)/i
 /make your own/i
 /(miracle|morning).?(drink|mistake)/i
+/natural.?solution/i
 /secret.?weapon/i
 /this.{0,10}elixir/i
 
