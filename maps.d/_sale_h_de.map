@@ -544,6 +544,7 @@
 /uvp.{1,10}des herstellers.{1,15}unser unschlagbarer preis.{1,10}nur/i
 /preis beträgt anstelle von.{1,10}euro nur.{1,10}euro.{1,10}zzgl/iu
 
+/sonder(posten|preis).{1,10}normaler preis \d{2,3}/i
 /sonder(posten|preis).{1,10}nur.{1,10}euro.{1,10}zzgl.{1,10}mwst/i
 /sonderposten.?aktion.{1,10}nur solange.{1,10}vorrat/i
 
