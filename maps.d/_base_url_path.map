@@ -177,6 +177,8 @@
 /\.ru/invoice/i
 /\.ru/invoice\d{1,2}/i
 
+# Sample: sdfsfs______
+/[a-z]{1,10}[\_]{3,10}/i
 
 #
 /\/track/open\.php/i
