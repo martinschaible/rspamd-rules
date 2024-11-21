@@ -21,7 +21,7 @@
 /(skype|wechat|whatsapp):.{1,5}\+86/i
 
 /on (wechat|whatsapp) at.{1,5}\+86/i
-/tel.(wechat|whatsapp).{1,5}\+86/i
+/(tel|phone).{1,5}(wechat|whatsapp).{1,5}\+86/i
 
 /co.{1,5}ltd.{1,10}\+86/i
 
@@ -66,13 +66,14 @@
 /(china|dongguan|guangdong|guangzhou|shanghai|shenzhen|zhejiang).{1,15}visit our web page/i
 /(china|dongguan|guangdong|guangzhou|shanghai|shenzhen|zhejiang).{1,25}whatsapp/i
 
-/(china|dongguan|guangdong|guangzhou|shanghai|shenzhen|zhejiang).{1,15}we can handle all kinds/i
-/(china|dongguan|guangdong|guangzhou|shanghai|shenzhen|zhejiang).{1,15}we can provide/i
 /(china|dongguan|guangdong|guangzhou|shanghai|shenzhen|zhejiang).{1,15}we are.{1,10}able to manufacture/
 /(china|dongguan|guangdong|guangzhou|shanghai|shenzhen|zhejiang).{1,15}we are.{1,10}(company|factory|manufacturer|producing|supplier)/i
 /(china|dongguan|guangdong|guangzhou|shanghai|shenzhen|zhejiang).{1,15}we are.{1,10}leading.{1,10}professional/i
+/(china|dongguan|guangdong|guangzhou|shanghai|shenzhen|zhejiang).{1,15}we can handle all kinds/i
+/(china|dongguan|guangdong|guangzhou|shanghai|shenzhen|zhejiang).{1,15}we can provide/i
 /(china|dongguan|guangdong|guangzhou|shanghai|shenzhen|zhejiang).{1,15}we excel in providing/i
 /(china|dongguan|guangdong|guangzhou|shanghai|shenzhen|zhejiang).{1,15}we have.{1,10}(exporting|focused)/i
+/(china|dongguan|guangdong|guangzhou|shanghai|shenzhen|zhejiang).{1,15}we specialize in/i
 
 /(china|dongguan|guangdong|guangzhou|shanghai|shenzhen|zhejiang).{1,15}with over.{1,10}years of expertise/i
 /(china|dongguan|guangdong|guangzhou|shanghai|shenzhen|zhejiang).{1,15}with.{1,10}ears of experience/i
