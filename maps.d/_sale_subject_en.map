@@ -155,7 +155,7 @@
 
 /mobile.?app.{1,10}costing/i
 /(create|develop|regarding).{1,10}(mobile|an).{1,10}app/i
-/creating app\(.|?)/i
+/creating app(\.|?)/i
 
 /you.{1,10}looking.{1,10}create.{1,10}mobile app/i
 
@@ -198,7 +198,7 @@
 
 # SEO
 # ------------------------------------------------------------------------------
-/s\.e.\o\./i
+/s\.e\.o\./i
 
 /seo.?(agency|best cost|offer|service)/i
 /seo.{1,15}(expert|package|plans?|pricing|promote|proposal|services|success)/i
