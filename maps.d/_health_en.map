@@ -52,13 +52,15 @@
 
 # Diabetes
 # ------------------------------------------------------------------------------
+/diabetes medications.{1,15}watch this/i
+
 /high blood sugar.{1,10}top eating/i
 
 /(destroy|ritual.{1,10}lowers).{1,15}blood sugar/i
 
 /tea reverses.{1,10}diabetes in/i
 
-/help to reverse.{1,10}diabetes/i
+/(break free|help to reverse).{1,10}diabetes/i
 /method.{1,10}keep.{1,10}blood sugar levels?/i
 
 /(plant.?based|solution).{1,15}for.{1,15}diabetes/i

@@ -83,6 +83,9 @@
 /(bulk|mass).{1,10}(advertising|marketing).{1,10}(e?.?mail|mailing).{1,10}service/i
 /(bulk|mass).{1,10}(advertising|marketing).{1,10}Plan/i
 
+/e?./mail.{1,10}marketing.{1,10}(bulk|mass)ailing/i
+/marketing.{1,10}(bulk|mass).{1,10}mailing/i
+
 /benefit.{1,10}bulk e?.?mail.?marketing/i
 /increase sales.{1,10}use.{1,10}(bulk|mass).{1,10}(e?.?mail|mailing)/i
 
@@ -91,6 +94,9 @@
 /(we run|setup).{1,10}(bulk|mass).{1,10}(e?.?mail|mailing).{1,10}marketing/i
 /we are professional.{1,10}(bulk|mass).?mailing/i
 /we offer.{1,10}e?.?mail.?mailing/i
+
+#
+/spamming tools available/i
 
 # French
 /mails issus de notre fichier/iu
