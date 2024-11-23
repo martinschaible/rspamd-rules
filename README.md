@@ -1,8 +1,9 @@
-## rspamd-rules - Curated Multimaps with Rules for Rspamd
+## Curated Multimaps for Rspamd
 
-Even in 2023 an accurate content filtering is the last resort of a spam filtering system.
+Even in 2024 an accurate content filtering is the last resort of a spam filtering system.
 
-Rspamd offers so called **Multimaps** and their **Maps**. This allows with or without regex to create any rule we want.
+Rspamd offers so called **Multimaps** and their **Maps**.
+This allows with or without regex to create any rule we want.
 
 As i did it in *Declude* i created maps related to different categories mostly for two languages.
 
@@ -12,7 +13,7 @@ As i did it in *Declude* i created maps related to different categories mostly f
 
 🍀 Feel free to use these maps on your Rspamd server.
 
-📢 If you have any question or feedback drop me line at the [discussions](https://github.com/martinschaible/rspamd-rules/discussions).
+📢 If you have any questions or feedback drop me line at the [discussions](https://github.com/martinschaible/rspamd-rules/discussions).
 
 🐛 Bugs and problems can be reported here: [Issues](https://github.com/martinschaible/rspamd-rules/issues).
 
