@@ -24,6 +24,10 @@
 /verdächtige.{1,10}aktivitäten auf ihrem gerät festgestellt/iu
 /verdächtiger?.{1,10}(viren|virus).{1,10}(entdeckt|erkannt)/i
 
+# Buy
+# ------------------------------------------------------------------------------
+/rabatt auf antivirenschutz/i
+
 # Invoice
 # ------------------------------------------------------------------------------
 /rechnung\d{4,10}/i
@@ -38,7 +42,6 @@
 
 # Expired Antivirus software
 # ------------------------------------------------------------------------------
-
 /erforderliche aktion?.{1,10}erinnerung?.{1,10}verlängerung/iu
 /verlängern sie es jetzt.{1,10}um ihr gerät/iu
 
