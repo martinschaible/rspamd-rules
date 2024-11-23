@@ -120,7 +120,10 @@
 # Winning, Present, Rewards
 # ------------------------------------------------------------------------------
 /confirmation.?needed/i
-/(customer|consumer).?(offer|reward)/i
+/(celebration|customer|consumer).?(offer|reward)/i
+
+/earn.?entry/i
+
 /gift.?card/i
 /giveaway.?notification/i
 /gift.?(card.?)?opportunity/i
