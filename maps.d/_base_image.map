@@ -70,6 +70,15 @@
 # Sample: UxkNpcKM.jpg
 /[A-Z]{1,2}[a-z]{1,2}[A-Z]{1,2}[a-z]{1,2}[a-z]{1,2}[A-Z]{1,2}[A-Z]{1,2}\.jpg
 
+# Image domains
+# ------------------------------------------------------------------------------
+
+# CSS
+/url\(.?https:\/\/i\.imgur\.com\//i
+
+# HTML attribute
+/src=.?https:\/\/i\.imgur\.com\//i
+
 #
 #
 #
