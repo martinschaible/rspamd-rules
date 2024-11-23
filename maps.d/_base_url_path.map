@@ -229,6 +229,9 @@
 # In use: https://www.instagram.com/swisspost/
 #/\/swisspost\//i
 
+# Twint
+/\.[a-z]{2,3}/twint/i
+
 # WeTransfer
 /\/transferwe\//i
 /\/wetransfers\//i
