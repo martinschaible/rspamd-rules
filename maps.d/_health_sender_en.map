@@ -85,6 +85,7 @@
 /slimming/i
 /slim.?(body|down|waist)/i
 /stay.?slim/i
+/stop.?eating/i
 /(metabolic|surprising).?water/i
 
 /(toxic|visceral).?fat/i
@@ -122,6 +123,7 @@
 # ------------------------------------------------------------------------------
 /(health|wellness)?.{0,10}insights/i
 /healthy.?(power|transformation)/i
+/(womens|your).?health/i
 
 # Alcohol
 # ------------------------------------------------------------------------------
@@ -161,7 +163,7 @@
 
 # Bladder
 # ------------------------------------------------------------------------------
-/bladder.?(care|fix|health|leaks?|leakage|leaking|issues?|relief)/i
+/bladder.?(care|danger|fix|health|leaks?|leakage|leaking|issues?|relief)/i
 /(big|weak).?bladder/i
 /urine.?leaks?/i
 
@@ -507,7 +509,8 @@
 
 # Veins
 # ------------------------------------------------------------------------------
-/veins.?fix/i
+/veins.?(fix|trick)/i
+/varicose.veins/i
 
 # Wrinkles
 # ------------------------------------------------------------------------------

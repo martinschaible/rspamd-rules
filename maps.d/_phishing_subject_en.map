@@ -38,10 +38,12 @@
 /(attention|reminder).{1,10}de.?activation.{1,10}account/i
 /(attention|reminder).{1,10}prevent account hold/i
 
+/reset your information/i
 /unusual activity on your account/i
 /update to the new.{1,20}account/i
 
 /log.?in to your account/i
+
 /your.{1,15}account has been frozen/i
 
 # Account - 2FA Activation
