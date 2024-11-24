@@ -55,6 +55,9 @@
 
 /(claim|reach you).{1,10}your.{1,10}donation/i
 /drawing to receive.{1,10}donation/i
+
+/grant of.{1,10}\d{3}.{0,5}\d{3}.{1,10}to you/i
+
 /has selected you for.{1,10}donation/i
 
 /i have decided to (donate|give).{1,10}\d{3}.{0,5}\d{3}.{1,15}million/i
