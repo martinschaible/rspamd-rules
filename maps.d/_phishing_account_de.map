@@ -119,6 +119,7 @@
 /konto.?(daten|informationen).{1,10}wir im system hinterlegen/iu
 /konto.?inhaber.{1,10}regelmä(ss|ß)igen abständen eine.{1,10}bestätigung/iu
 
+/kontaktinformationen auf unserer website/i
 /ausgesetzt.{1,10}aktualisieren sie ihr profil/i
 
 /deaktiviert.{1,10}bis ihre daten aktualisiert sind/i
@@ -262,10 +263,11 @@
 /daten aktualisieren.{1,10}um unsere dienste weiterhin nutzen/i
 /daten unserer kunden zu überprüfen.{1,15}konto.{1,15}besitzen/iu
 
+/aktualisieren.{1,10}sie ihr.{1,15}(konto|profil)/i
+
 /aktualisierung.{1,10}ihres.{1,15}kontos erforderlich/i
 /aktualisierung.{1,10}ihres.{1,15}kontos zwingend erforderlich/i
-/aktualisierung.{1,10}ihrer.{1,10}kontaktdaten versandt/i
-/aktualisieren.{1,10}sie ihr.{1,15}(konto|profil)/i
+/aktualisierung.{1,10}ihrer.{1,10}kontaktdaten (hilft|versandt)/i
 /aktualisierung.{1,10}nutzerdaten.{1,10}hinweisen/i
 
 /konto.{1,10}bei uns gesperrt.{1,10}aktualisieren sie ihr.{1,15}konto/i
