@@ -297,7 +297,7 @@
 /this.{1,10}mind.?blowing discovery/i
 /this.{1,10}miracle.{1,10}drug/i
 /this.{1,10}revolutionary.{1,10}video.{1,10}(show|will)/i
-/this.{1,10}secret.{1,10}ingredient/i
+/this.{1,10}secret.{1,10}(ingredient|tonic)/i
 /this.{1,10}life.?changing.{1,10}technique/i
 
 #
@@ -349,6 +349,7 @@
 
 # Silly lies
 # ------------------------------------------------------------------------------
+/click.{1,10}before big pharma takes down/i
 /pharma is lobbying to get this taken down/i
 
 #
