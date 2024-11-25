@@ -337,6 +337,11 @@
 
 /we are.{1,10}india based.{1,10}company/i
 
+# Introduction, Occupation
+# ------------------------------------------------------------------------------
+/i work as a broker.{1,10}investment/i
+
+
 # Introduction, Title
 # ------------------------------------------------------------------------------
 /i.?a?m a?.{0,10}agent.{5,25}i am a/i
