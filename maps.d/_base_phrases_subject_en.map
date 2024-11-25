@@ -77,13 +77,14 @@
 /greetings?.{1,10}(future|from here)/i
 
 /dear (beloved|esteemed|herr|recipient)/i
-/dear (madam|sir)/i
+/dear (friend|madam|sir)/i
 /dear e?.?mail.{1,10}(user|owner)/i
 
 /dearest one/i
 
 /hello.{1,10}(dear|good) friend/i
 /hello.{1,10}anticipated partner/i
+/hello.{1,10}my dear/i
 
 /ladies and gentlemen/i
 /letter from/i
