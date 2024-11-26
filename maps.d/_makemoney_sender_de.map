@@ -7,8 +7,12 @@
 
 # Crypto
 # ------------------------------------------------------------------------------
-/(bit?coin|crypto|krypto).?(beratung|berater|bricht|bulletin|preis)/i
-/(bit?coin|crypto|krypto).?(einblick|experte|geld|gewinner|gratis|handel|händler|nachrichten|währung(en)?welle)/iu
+/(bitcoin|crypto|krypto).?(beratung|berater|bricht|bulletin)/i
+/(bitcoin|crypto|krypto).?(einblick|experte)/i
+/(bitcoin|crypto|krypto).?(geld|gewinner|gratis|handel|händler)/i
+/(bitcoin|crypto|krypto).?(nachrichten|preis|tipps?|vorteile?|währung(en)?welle)/iu
+
+/smarte?.?krypto/i
 
 /krypto.?währung(en)?/i
 
