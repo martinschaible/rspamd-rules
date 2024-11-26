@@ -17,8 +17,9 @@
 # Casino
 # ------------------------------------------------------------------------------
 /casino.{1,10}journey starts/i
+/casino.{1,10}with real money/i
 
-/(new online|wagering bonus) casino/i
+/(most fun|new online|wagering bonus).{1,10}casino/i
 
 # Casino names
 # ------------------------------------------------------------------------------
