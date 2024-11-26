@@ -32,9 +32,14 @@
 # Sample: http://google.de@www.bing.com
 /https?:\/\/(www\.)?google\.[a-z]{2,3}@/i
 
+# Google as a forwarder. 
+# ------------------------------------------------------------------------------
 # Sample: http://google.co.jp@www.bing.com
 /https?:\/\/(www\.)?google\.[a-z]{2,3}.[a-z]{2,3}@/i
 /https?:\/\/(www\.)?google\.[a-z]{2,3}.{1,10}bing\.com/i
+
+# Sample: https://google.de/amp/cutlly.com
+/https:\/\/google\.[a-z]{2,3}/amp\//i
 
 # Not applicable, false/positives
 # Sample: https://www.google.com/amp/s/%63%67%61
@@ -48,7 +53,7 @@
 /http:\/\/(www\.)?google\.com\s{1,15}[a-zA-Z0-9]{1,15}/i
 
 # Sample: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVv
-https:\/\/blogger\.googleusercontent\.com\/img\//i
+/https:\/\/blogger\.googleusercontent\.com\/img\//i
 
 # No SSL
 # ------------------------------------------------------------------------------

@@ -81,6 +81,9 @@
 /(glückwunsch|glückwünsche).{1,10}\d{2,3}.{1,10}\d{2,3}/iu
 /(glückwunsch|glückwünsche).{1,10}spende/i
 
+# Foundation
+/stiftung spendet ihnen/i
+
 # Funds, Money, Sum
 # ------------------------------------------------------------------------------
 /wohltätigkeitsfonds/iu
