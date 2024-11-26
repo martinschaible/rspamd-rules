@@ -190,9 +190,10 @@
 /(upgrade|update).{1,10}homepage.{1,10}design/i
 
 /web.?app.{1,10}designer/i
-/web.{1,15}(design|development|upgrade).{1,15}(proposal|special offer)/i
-/web design.{1,10}web development/i
-/web designs/i
+/web.?design.{1,10}web development/i
+/web.?designs/i
+/web.?upgrade for you/i
+/web.{0,15}(design|development|upgrade).{1,15}(proposal|special offer)/i
 
 /you (need|want) to.{1,15}designing.{1,20}web.?site/i
 /you (need|want).{1,10}web.?site.{1,10}development/i

@@ -371,6 +371,7 @@
 
 # Immune system
 # ------------------------------------------------------------------------------
+/immune.?system/i
 /strong(er)?.?immunity/i
 
 # Joints
@@ -641,12 +642,12 @@
 /dr.?derm/i
 /doctor.?warning/i
 
-/eat.{0,10}(fruitme|this)/i
+/eat.{0,10}(fruitme|me|this)/i
 
 /energy.?without/i
 /(exotic|natural).?herb/i
 /fried.?chicken/i
-/healing.?massage/i
+/healing.?(massage|technology)/i
 /hidden.?toxin/i
 /home.?(treatment|with ease)/i
 /make your own/i
