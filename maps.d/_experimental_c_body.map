@@ -23,20 +23,10 @@
 /\.r2\.dev\/i
 /page\.link/i
 
-# Google
-# ------------------------------------------------------------------------------
-/src=.{0,5}https:\/\/[a-z0-9]{3,10}\.googleusercontent\.com/i
-
 # Twitter
 # ------------------------------------------------------------------------------
-/<a href=(3d)?"https:\/\/t\.co\/[a-z0-9]{5,15}" target=(3d)?"_blank"/i
-/https:\/\/t\.co\/[a-z0-9]{5,15}" target=(3d)?"_blank"><img src=(3d)?"https/i
-
-# Wikipedia, Yahoo
-# ------------------------------------------------------------------------------
-/<img alt=(''|"") src=.?https:\/\/upload\.wikimedia\.org\/wikipedia\/commons/i
-
-/<img alt=(''|"") src=.?http:\/\/yahoo\.com/i
+/<a href=.{0,5}https:\/\/t\.co\/[a-z0-9]{5,15}.{1,10}target=.{0,5}_blank/i
+/https:\/\/t\.co\/[a-z0-9]{5,15}" target=.{0,5}_blank"><img src=.{0,5}https/i
 
 # No SSL and an exotic TLD
 # ------------------------------------------------------------------------------
@@ -52,11 +42,11 @@
 
 # No SSL Image Tag
 # ------------------------------------------------------------------------------
-/<img src=.?http:\/\//i
+/<img src=.{0,5}http:\/\//i
 
 # No SSL Google
 # ------------------------------------------------------------------------------
-/a href=.?http:\/\/google\.com/i
+/a href=.{0,5}http:\/\/google\.com/i
 
 # Hidden link
 # ------------------------------------------------------------------------------
@@ -79,22 +69,33 @@
 #
 
 # URL's in image tags can not be catched with
-#   type = "url";
+#  type = "url";
 #  filter = "full";
 # 
-# Let's try it this way.
+# Let's try it this way
 # ------------------------------------------------------------------------------
 /zupimages\.net/i
-
-
-# It Works
 /i\.postimg\.cc/i
 
-# Sample: scontent-ham3-1.xx.fbcdn.net
-/src=.?https?:\/\/scontent-.{4,6}\.xx\.fbcdn\.net/i
+#
+#
+#
+
+# Redirects
+/data-saferedirecturl=.{0,5}https://www\.google\.com/i
+
+#
+#
+#
 
 # Image Hosting
-/src=.?https?:\/\/i\.ibb\.co/i
+# ------------------------------------------------------------------------------
 
-# Strange redirect
-/data-saferedirecturl=(3d)?.?https://www\.google\.com/i
+# Google
+/src=.{0,5}https:\/\/[a-z0-9]{3,10}\.googleusercontent\.com/i
+# Sample: scontent-ham3-1.xx.fbcdn.net
+/src=.{0,5}https?:\/\/scontent-.{4,6}\.xx\.fbcdn\.net/i
+/src=.{0,5}https?:\/\/i\.ibb\.co/i
+/src=.{0,5}https?:\/\/[a-z0-9]{5,20}\.cloudfront\.net/i
+/src=.{0,5}https?:\/\/upload\.wikimedia\.org\/wikipedia\/commons/i
+/src=.{0,5}https?:\/\/yahoo\.com/i
