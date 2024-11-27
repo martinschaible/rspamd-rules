@@ -46,6 +46,12 @@
 # Sample: https://hgdcjdg.r.bh.d.sendibt3.com
 /https:\/\/[a-z]{2,10}\.[a-z]{1,5}\.[a-z]{1,5}\.[a-z]{1,5}\.[a-z0-9-]{4,15}\.com/i
 
+# Really long subdomain
+# ------------------------------------------------------------------------------
+
+# Sample: https://322084jbl10003333333333.s3.us-east-1.amazonaws.com
+/https:\/\/[a-z0-9]{20,}\./i
+
 # Bad Domain - Pattern
 # ------------------------------------------------------------------------------
 # Sample: https://$%^&.
