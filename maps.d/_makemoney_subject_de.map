@@ -141,8 +141,9 @@
 # Income passive
 # ------------------------------------------------------------------------------
 /grundeinkommen durch/i
-/passives einkommen\?/i
-/passives einkommen.{1,10}reichtum/i
+/passive(m|s) einkommen\?/i
+/einkommen.{1,10}reichtum/i
+/geld mit.{1,15}einkommen/i
 
 /(generieren|verdienen) sie.{1,10}passives.{1,10}einkommen/i
 
