@@ -133,14 +133,16 @@
 
 # Dead Customers, Family Members
 # ------------------------------------------------------------------------------
-/meinem verstorbenen kunden.{1,10}gehört/i
-/meinem verstorbenen kunden.{1,10}hinterlassenen geldes/i
+/mein.{1,10}verstorbene(n|r).{1,15}(kunde|mann|vater).{5,25}geerbt/i
+/mein.{1,10}verstorbene(n|r).{1,15}(kunde|mann|vater).{1,10}gehört/i
+/mein.{1,10}verstorbene(n|r).{1,15}(kunde|mann|vater).{1,10}hat vor seinem tod.{1,10}(euro?|millionen|usd)/i 
+/mein.{1,10}verstorbene(n|r).{1,15}(kunde|mann|vater).{1,10}hinterlassenen geldes/i
+/mein.{1,10}verstorbene(n|r).{1,15}(kunde|mann|vater).{1,10}war ein erfolgreicher/i
+/mein.{1,10}verstorbene(n|r).{1,15}(kunde|mann|vater).{1,10}verfügt über/iu
 
-/mein verstorbener (kunde|Mann).{1,10}verfügt über/iu
-/mein verstorbener (kunde|mann).{1,10}hat vor seinem tod.{1,10}(euro?|millionen|usd)/i 
+/nachlassfonds.{1,10}verstorbenen.{1,10}(klienten|kunden|mann|vater)/i
+/(bezüglich|fonds meines|gehören einem).{1,10}verstorbenen.{1,10}(klienten|kunden|mann|vater)/iu
 
-/nachlassfonds.{1,10}verstorbenen (klienten|kunden)/i
-/(bezüglich|fonds meines|gehören einem).{1,10}verstorbenen kunden/iu
 /ich vertrete einen.{1,10}verstorbenen kunden/i
 
 /der denselben.{1,10}(nach)?namen wie sie/i

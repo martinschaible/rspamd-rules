@@ -140,7 +140,7 @@
 /senior.?moments/i
 
 # Memory
-/memory.{0,10}(booster|cure|hack|improver|improvement|laps(es)?|loss|restore|saving|tonic)/i
+/memory.{0,10}(booster|cure|hack|improver|improvement|laps(es)?|loss|protection|restore|saving|tonic)/i
 /(excellent|future|poor|sharp|your).?memory/i
 /forgetful/i
 /sharper.?(mind|thinking)/i
@@ -222,15 +222,14 @@
 # ------------------------------------------------------------------------------
 /blood.?sugar/i
 
-/diabetes/i
+/(diabetes|insuline?)/i
 
 /end.?type.?2/i
 /sugar.?(defender|disease|levels?|spikes?)/i
-/(high|stop).?insuline?/i
 /hidden.?protein/i
 
 /glucose.?hack/i
-/(high|low)er?.?(a1c|glucose)/i
+/(control|high|low)er?.?(a1c|glucose)/i
 
 /clean.?cell/i
 
@@ -546,7 +545,7 @@
 
 # Miracle, Breaktrough, Secrets, Videos
 # ------------------------------------------------------------------------------
-/breakthrough.?technique/i
+/breakthrough/i
 
 /(medical|miracle|new|scientists?).?(breakthrough|discovery)/i
 /(forgotten|mayan|miracle).?(remedy|seeds)/i
