@@ -52,6 +52,8 @@
 
 /mein geld von.{1,15}millionen.{1,15}tausend.{1,10}(dollar|euro?|gbp|usd)/i
 
+/millionen.{1,10}(dollar|euro?|gbp|usd).{1,10}ich werde ihnen.{1,15}einzelheiten/i
+
 # Discuss something
 # ------------------------------------------------------------------------------
 /uns beide gewinnbringend besprechen/i
