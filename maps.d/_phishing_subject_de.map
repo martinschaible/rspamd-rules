@@ -846,7 +846,7 @@ letzter gewinner/i
 /swisspass.{1,10}abonnement.{1,15}aktivieren/i
 /swisspass.{1,10}authentifizieren/i
 
-/wichtiger hinweis zu.{1,10}swisspass/i
+/(anmelden mit|wichtiger hinweis zu).{1,10}swisspass/i
 
 /(ihr|lhr).{1,10}(swiss)?.?pass (ist|wurde).{1,20}(deaktiviert|gesperrt|nicht mehr gültig)/iu
 /(ihr|lhr).{1,10}(swiss)?.?pass wurde vorübergehend (deaktiviert|gesperrt)/iu
