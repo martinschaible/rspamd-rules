@@ -25,7 +25,9 @@
 # Japanese Phishing
 /epos(-|_)(mail|net)\./i
 /\<epos(-|_)/i
-/smbc-email/i
+/smbc.?(card|email)/i
+
+/card.?vpass/i
 
 /aeon-email/i
 /(jcb|tepco)_net/i
