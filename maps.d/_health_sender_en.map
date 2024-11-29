@@ -72,7 +72,7 @@
 /fat.?(burn(er)?|burning|flush|melting)/i
 
 /fasting.?seeds/i
-/flat.?(melting|stomach|tummy)/i
+/(big|flat).?(melting|stomach|tummy)/i
 /food.?cravings/i
 
 /honey.?burn/i
@@ -313,6 +313,7 @@
 # ------------------------------------------------------------------------------
 /(bleeding|healthier).?gums/i
 /gum.?bleeding/i
+/oral.?flush/i
 
 # Gut
 # ------------------------------------------------------------------------------
@@ -476,6 +477,8 @@
 /deep(er)?.?sleep/i
 
 /bedtime.?trick/i
+
+/stay.?asleep/i
 
 # Smoking
 # ------------------------------------------------------------------------------
