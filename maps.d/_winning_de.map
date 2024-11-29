@@ -63,14 +63,15 @@
 # ------------------------------------------------------------------------------
 /geehrter?.?gewinner/i
 
+/gewinnen.{1,10}echtes geld/i
 /gewinner.{1,10}ausgewählt.{1,10}als aktiver benutzer/iu
 /gewinner.{1,10}ihre gewinndaten/i
 /gewinner.{1,10}überprüfe dies/iu
 
 /gewonnen.{1,10}antworten sie auf diesen.{1,10}e?.?mail/i
-/gewinnen.{1,10}echtes geld/i
 /gewonnen.{1,10}reagieren sie auf forderungen/i
 
+/gewinnspiele?s.{1,10}ihr exklusiver preis/i
 /glück.{1,10}als einer der glücklichen gewinner/iu
 
 /bearbeitung ihres gewinns beginnen/i
@@ -91,6 +92,8 @@
 /sie.{1,10}\d{3}.{1,5}\d{3}.{1,10}millionen.{1,10}(dollar|euro?|gbp|usd).{1,10}gewonnen/i
 
 /\d{3}.{1,5}\d{3}.{1,10}(dollar|euro?|gbp|usd) gewonnen.{1,10}zahlungsnummer/i
+
+/ihnen erhalten.{1,10}verfällt ihr gewinn/iu
 
 /ihre? e?.?mail.?(adresse|konto).{1,10}die summe.{1,10}\d{3}.{1,5}\d{3}/i
 /ihre? e?.?mail.?(adresse|konto).{1,10}einen geldpreis/i
