@@ -27,7 +27,7 @@
 
 # Titles
 # ------------------------------------------------------------------------------
-/^(capt|dr|mrs?)\./i
+/^(capt|dr|mrs?)\.\b/i
 
 #
 #
@@ -58,6 +58,8 @@
 /lotto.?denavidad/i
 
 /powerball.{0,15}(casino|online)/i
+
+/jack\+pot/i
 
 #
 #
