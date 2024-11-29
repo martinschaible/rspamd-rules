@@ -111,7 +111,7 @@
 
 /we.?a?re.{1,25}(china|dongguan|guangdong|guangzhou|shenzhen|zhejiang).?(based)?.{1,10}(company|manufacturer?|supplier).{1,10}(of|offering|specializing)/i
 
-/we.?a?re.{1,25}(company|factory).{1,10}(based|from|located).{1,15}(china|dongguan|guangdong|guangzhou||shanghaishenzhen|zhejiang)/i
+/we.?a?re.{1,25}(company|factory).{1,10}(based|from|located).{1,15}(china|dongguan|guangdong|guangzhou|shanghaishenzhen|zhejiang)/i
 /we.?a?re.{1,25}(professional|tooling).{1,15}manufacturer?.{1,10}(china|dongguan|guangdong|guangzhou|shanghai|shenzhen|zhejiang)/i
 /we.?a?re.{1,25}manufacturer.{1,10}(directly|from|in).{1,10}(china|dongguan|guangdong|guangzhou|shanghai|shenzhen|zhejiang)/i
 /we.?a?re.{1,10}manufacturer.{1,10}exporter.{1,20}from.{1,10}(china|dongguan|guangdong|guangzhou|shanghai|shenzhen|zhejiang)/i

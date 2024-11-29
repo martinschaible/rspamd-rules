@@ -52,8 +52,8 @@
 
 # Phishing - Rewards, Survey
 # ------------------------------------------------------------------------------
-/(belohnungs|geschenk||umfrage).?(abteilung|prämien)/i
-#/(belohnungs|geschenk||umfrage).?(abteilung|prämien|team)/i
+/(belohnungs|geschenk|umfrage).?(abteilung|prämien)/i
+#/(belohnungs|geschenk|umfrage).?(abteilung|prämien|team)/i
 
 /botschaft der/i
 /gewinn(er)?.?(deklaration|erklarung|erklärung)/i
