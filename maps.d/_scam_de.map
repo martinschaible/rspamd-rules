@@ -68,21 +68,21 @@
 
 # Heir
 # ------------------------------------------------------------------------------
-/erbe mit ihrem namen/i
+/bezüglich.{1,10}eines erbschafts.?fonds/iu
 
-/sie erben die summe von/i
-/sie sind der erbe/i
+/die erbschaftszahlung.{1,20}wurde genehmigt/i
+/einen geerbten fonds/i
+/erbe mit ihrem namen/i
+/helfen sie mir.{1,10}mein erbschafts.geld/i
 
 /ihnen mein erbe in höhe von/iu
 /ihnen mein erbe zu/i
 /ihr name als erbe.{1,10}testaments/i
-/die erbschaftszahlung.{1,20}wurde genehmigt/i
 
-/einen geerbten fonds/i
+/mein vermögen zu erben/i
 
-/bezüglich.{1,10}eines erbschafts.?fonds/iu
-
-/helfen sie mir.{1,10}mein erbschafts.geld/i
+/sie erben die summe von/i
+/sie sind der erbe/i
 
 # Important
 # ------------------------------------------------------------------------------
@@ -128,6 +128,7 @@
 # Trustworthy Person
 # ------------------------------------------------------------------------------
 /ich (brauche|suche) eine ehrliche.{1,10}(authentische|vertrauenswürdige).{1,10}person/i
+/ich eine person.{1,10}der ich vertraue/i
 
 #
 #
