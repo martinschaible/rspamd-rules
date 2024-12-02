@@ -27,7 +27,12 @@
 # Google Reviews
 # ------------------------------------------------------------------------------
 /ihnen garantierte bewertungen bietet/i
-/positive google.{1,20}ihr unternehmen/i
+/ihre.{1,10}negativen.{1,10}google.?bewertungen/i
+
+/positive.{1,10}google.?bewertungen.{1,10}wichtig/i
+/positive.{1,10}google.{1,20}ihr unternehmen/i
+
+/google.?bewertungsmanagement/i
 
 #
 #
