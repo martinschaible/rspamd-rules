@@ -172,7 +172,7 @@
 # Comparing Bank Accounts
 # ------------------------------------------------------------------------------
 # ------------------------------------------------------------------------------
-/erinnerung.{1,15}tagesgeld.?konto/i
+/(erinnerung|kostenlos).{1,15}tagesgeld.?konto/i
 /tagesgeld.{1,15}(garantiert|sicher|zinsen)/i
 /tagesgeld.?konten/i
 /tagesgelder/i

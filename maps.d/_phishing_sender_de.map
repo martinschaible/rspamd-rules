@@ -134,6 +134,7 @@
 
 /letzte chance/i
 /läuft bald ab/i
+/lieferung.?dringend/i
 
 /mitteilung des/i
 
@@ -261,6 +262,9 @@
 /_dpd/i
 
 /group.{0,10}kurier/i
+
+# German Radio
+/rundfunkservice/i
 
 # Lexoffice
 /lexoffice.?konto/i
