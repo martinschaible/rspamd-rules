@@ -327,6 +327,8 @@
 /bestätigen sie.{1,15}paketzustellung/i
 /bestätigung der lieferadresse erforderlich/iu
 
+/dies ist unser letzter versuch/i
+
 /haben sie ihr paket erhalten/i
 
 /ihr ausstehendes paket/i
@@ -344,6 +346,7 @@
 /(paket|sendung).{1,10}aufgrund fehlender versandkosten nicht liefern/i
 /(paket|sendung).{1,10}bewegt sich/i
 /(paket|sendung).{1,10}auf die (lieferung|zustellung) wartet/i
+/(paket|sendung).{1,10}auf hold/i
 /(paket|sendung).{1,10}bei ihnen ankommt/i
 /(paket|sendung).{1,10}bestätigt.{1,15}planen sie/i
 /(paket|sendung).{1,10}hat sein ziel erreicht/i

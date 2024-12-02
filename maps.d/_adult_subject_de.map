@@ -39,11 +39,12 @@
 /dating.?(reise|seite)/i
 /date.{1,10}vereinbaren/i
 
+/einem date heute/i
 /treffen sie diese.{1,10}frau/i
 /kostenloses treffen/i
 /kontakt.{1,15}für alte damen/i
 
-/(bereit für ein|du mein|heißes?).{1,15}date/iu
+/(bereit für ein|du mein|heißes?|mit einem).{1,15}date/iu
 /deine neue liebe/i
 
 # Dating Sites

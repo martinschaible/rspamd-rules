@@ -135,6 +135,7 @@
 
 /apply.{1,10}personal.{1,10}financial.{1,10}assistance/i
 
+/financing needs.{1,10}contact me/i
 /funding.{1,10}for your business in/i
 /funding.{1,10}program.{1,15}do not hesitate/i
 
@@ -143,13 +144,14 @@
 /(my|our) company.{1,25}has.{1,10}funds available/i
 /(my|our) company.{1,25}offers financial.{1,10}service/i
 
+/need financial (assistance|help|support)/i
+
 /our.{1,20}financial project.{1,10}business financing/i
 /our.{1,20}investment team will/i
 /our.{1,20}investors are seeking/i
 
 /you in.{1,10}request.{1,10}investment/i
 /you have.{1,15}project that is in need.{1,10}funding/i
-/you need.{1,10}financial.{1,10}assistance/i
 /you.{1,15}(currently|seeking).{1,15}financing/i
 
 /your company needs?.{1,10}funding/i
