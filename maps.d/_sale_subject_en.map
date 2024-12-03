@@ -208,7 +208,7 @@
 # ------------------------------------------------------------------------------
 /s\.e\.o\./i
 
-/seo.?(agency|best cost|offer|service)/i
+/seo.{1,10}(agency|best cost|low cost|offer|service)/i
 /seo.{1,15}(expert|package|plans?|pricing|promote|proposal|services|success)/i
 
 /rank\.\./i
