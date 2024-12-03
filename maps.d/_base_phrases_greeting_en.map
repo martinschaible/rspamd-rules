@@ -372,7 +372,7 @@
 /i.?a?m a?.{1,25}private.{1,10}(agent|investor|secretary)/i
 /i.?a?m a?.{1,25}from the federal/i
 
-/i.?a?m a?.{1,25}broker.{1,10}financial/i
+/i.?a?m a?.{1,25}broker.{1,25}(financial|loan|prestigious|wedge)/i
 /i.?a?m a?.{1,25}(financial|investment|investor).{1,10}broker/i
 
 /i.?a?m dr\..{1,25}i represent/i
