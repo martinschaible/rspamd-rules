@@ -22,6 +22,10 @@
 # Sample: #ТaгgоBank
 /#.{0,10}bank/i
 
+# Billing
+# ------------------------------------------------------------------------------
+/billing.?(support|team)/i
+
 # Cards
 # ------------------------------------------------------------------------------
 
@@ -255,8 +259,9 @@
 
 # Netflix
 /netflix.?(expiration|support|team|updates)/i
-/netflix.?billing.?(support|team)/i
 /netflix\./i
+
+/netflix suisse services/i
 
 # PayPal
 /paypal.?(case.?id|support|voucher)/i

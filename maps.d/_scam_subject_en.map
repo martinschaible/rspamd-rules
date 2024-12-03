@@ -16,6 +16,9 @@
 # ATM Card
 # ------------------------------------------------------------------------------
 /attention.{1,10}card.?owner/i
+/approved via.{1,10}(debit|visa).{1,10}card/i
+
+/via atm.{1,10}(debit|visa).{1,10}card/i
 /your atm.{1,10}(debit|visa).{1,10}card/i
 /your atm.{1,10}card is.{1,10}ready/i
 
@@ -226,8 +229,8 @@
 # Illuminati
 # ------------------------------------------------------------------------------
 /illuminati$/i
-/illuminati.{1,10}(recruiter|society)/i
-/great.{1,10}illuminati/i
+/illuminati.{1,10}(membership|recruiter|society)/i
+/(great|the).{1,10}illuminati/i
 
 # Oil
 # ------------------------------------------------------------------------------
