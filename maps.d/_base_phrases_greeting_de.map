@@ -42,11 +42,6 @@
 /guten (abend|morgen|tag).{1,15}(damen|herren).{1,15}wie geht es dir/i
 /guten (abend|morgen|tag).{1,10}(geliebte|gewinner|mein lieber)/i
 
-/hallo.{1,10}ein betrag von/i
-/hallo.{1,10}freund.{1,10}mein.name.ist/i
-/hallo.{1,10}ich bin.{1,10}(frau|herr)/i
-/hallo.{1,10}mein.name.ist.{5,25}(aus der|gewinner|ich arbeite|ich komme aus)/i
-
 /hallo.{1,10}ich bin.{1,10}(frau|herr)/i
 /hallo.{1,10}ich bin.{5,25}ceo (der|von)/i
 /hallo.{1,10}ich bin.{5,25}eine?.{1,15}(geschäfts)?(frau|mann)/iu
@@ -62,15 +57,17 @@
 
 /hallo.{1,10}guten tag.{1,10}ich kontaktiere sie/i
 
-/hallo.{1,10}unsere namen sind/i
-/hallo.{1,10}sie wurden von einem online/i
-
-/hallo.{1,10}frau.{1,10}herr/i
 /hallo.{1,10}auserwählte/iu
+/hallo.{1,10}ein betrag von/i
+/hallo.{1,10}frau.{1,10}herr/i
+/hallo.{1,10}freund.{1,10}mein.name.ist/i
+/hallo.{1,10}mein.name.ist.{5,25}(aus der|gewinner|ich arbeite|ich komme aus)/i
 /hallo.{1,10}(bezaubernder|geheimnisvoller|unbekannter)/i
 /hallo.{1,10}begünstigter/iu
 /hallo.{1,10}(hübscher?|schöne) fremder?/iu
 /hallo.{1,10}kunde/i
+/hallo.{1,10}sie wurden von einem online/i
+/hallo.{1,10}unsere namen sind/i
 /hallo.{1,10}verzeihen sie mein eindringen/i
 /hallo.{1,10}wie geht es dir.{1,10}ich möchte etwas mit dir besprechen/iu
 /hallo.{1,10}wie geht es ihnen heute/i
