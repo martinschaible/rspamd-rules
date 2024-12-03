@@ -136,12 +136,14 @@
 
 # Dead Customers, Family Members
 # ------------------------------------------------------------------------------
-/mein.{1,10}verstorbene(n|r).{1,15}(kunde|mann|vater).{5,25}geerbt/i
-/mein.{1,10}verstorbene(n|r).{1,15}(kunde|mann|vater).{1,10}gehört/i
-/mein.{1,10}verstorbene(n|r).{1,15}(kunde|mann|vater).{1,10}hat vor seinem tod.{1,10}(euro?|millionen|usd)/i 
-/mein.{1,10}verstorbene(n|r).{1,15}(kunde|mann|vater).{1,10}hinterlassenen geldes/i
-/mein.{1,10}verstorbene(n|r).{1,15}(kunde|mann|vater).{1,10}war ein erfolgreicher/i
-/mein.{1,10}verstorbene(n|r).{1,15}(kunde|mann|vater).{1,10}verfügt über/iu
+/mein.{1,10}verstorbene(n|r).{1,15}(klient|kunde|mann|vater).{1,30}den.?selben.{1,10}namen/i
+/mein.{1,10}verstorbene(n|r).{1,15}(klient|kunde|mann|vater).{5,25}geerbt/i
+/mein.{1,10}verstorbene(n|r).{1,15}(klient|kunde|mann|vater).{1,10}gehört/i
+/mein.{1,10}verstorbene(n|r).{1,15}(klient|kunde|mann|vater).{1,10}hat vor seinem tod.{1,10}(euro?|millionen|usd)/i 
+/mein.{1,10}verstorbene(n|r).{1,15}(klient|kunde|mann|vater).{1,10}hinterlassenen geldes/i
+/mein.{1,10}verstorbene(n|r).{1,15}(klient|kunde|mann|vater).{1,10}war ein erfolgreicher/i
+/mein.{1,10}verstorbene(n|r).{1,15}(klient|kunde|mann|vater).{1,10}verfügt über/iu
+/mein.{1,10}verstorbene(n|r).{1,15}(klient|kunde|mann|vater).{1,10}verwandt/i
 
 /nachlassfonds.{1,10}verstorbenen.{1,10}(klienten|kunden|mann|vater)/i
 /(bezüglich|fonds meines|gehören einem).{1,10}verstorbenen.{1,10}(klienten|kunden|mann|vater)/iu
