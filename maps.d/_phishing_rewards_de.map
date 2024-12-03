@@ -165,6 +165,8 @@
 /sie als möglicher gewinner/iu
 /sie haben.{1,10}die chance.{1,10}eine.{1,60}im wert von.{1,10}zu gewinnen/i
 
+/(du|sie) der.{1,15}(exklusiv|mögliche).{1,15}gewinner/i
+
 #
 #
 #
@@ -177,6 +179,8 @@
 /fangen sie an.{1,10}kostenlos/i
 /sie haben noch nicht geantwortet/i
 /unserer?.{1,10}aktivierungsplattform/i
+
+/100%.{1,10}gratis mitmachen/i
 
 # Masked
 # ------------------------------------------------------------------------------

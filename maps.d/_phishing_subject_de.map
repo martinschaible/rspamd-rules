@@ -498,7 +498,7 @@
 # ------------------------------------------------------------------------------
 /antworten.{1,10}gewinnen/i
 /\{belohnen\}/i
-/BELOHNEN
+/BELOHNEN/
 
 /antworten sie jetzt.{1,10}sichern sie sich/i
 
@@ -526,7 +526,7 @@
 /belohnung.{1,10}code/i
 
 /die prämien sind eingetroffen/iu
-/deine exklusive belohnung/i
+/(chance auf|deine exklusive).{1,10}belohnung/i
 /der inhaber dieser e?.?mail.?adresse/i
 /der nächsten seite erwartet sie/iu
 
