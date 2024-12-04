@@ -111,6 +111,8 @@
 
 # Investment
 # ------------------------------------------------------------------------------
+/^investment$/i
+
 /investment.{1,10}(inquiry|proposal|proposition|relocation)/i
 /investment.{1,10}partnership.{1,10}offer/i
 
