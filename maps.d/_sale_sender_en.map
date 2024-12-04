@@ -255,6 +255,8 @@
 /email.?marketing/i
 /super.?list/i
 
+/unlimited.{1,10}smtp/i
+
 # Leads
 # ------------------------------------------------------------------------------
 /business.?leads/i

@@ -64,6 +64,8 @@
 
 /(besucher|chef|dreh|leder|relax).{0,15}(sessel|stuhl)/i
 /(ergonomischer|mit dem|xxl).{1,15}(sessel|stuhl)/i
+/massage.{0,10}büro.?stuhl/i
+/traumstuhl/i
 
 #
 /(höhenverstellbarer|teleskop).?hocker/i

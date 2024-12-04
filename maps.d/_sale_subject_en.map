@@ -130,6 +130,7 @@
 /reach over.{1,15}businesses/i
 
 /scale up with.{1,15}business.?contacts/i
+/server for spam/i
 
 /(elevate|supercharge) your sales/i
 
@@ -137,6 +138,10 @@
 
 /you want.{1,15}e?.?mail.?list/i
 /your targeted.{1,10}verified/i
+
+# Spam
+/server for spam/i
+/spam.{1,10}bulletproof/i
 
 # Leads
 # ------------------------------------------------------------------------------
@@ -156,7 +161,7 @@
 # ------------------------------------------------------------------------------
 /app!!/i
 /apps?.?(creation|development|proposal|service)/i
-/app for your web.?site/i
+/app (for your web.?site|we build)/i
 
 /all type app.?develop/i
 
