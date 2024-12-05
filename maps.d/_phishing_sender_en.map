@@ -229,7 +229,7 @@
 
 # Fedex
 /fedex.{0,15}(fedex|helpdesk|support)/i
-/fedex.?express/i
+/fedex.?(express|ups)/i
 
 # Federal Reserve Bank
 /federal reserve bank/i
