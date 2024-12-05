@@ -48,7 +48,8 @@
 # Fake human resource department
 # ------------------------------------------------------------------------------
 /annual leave compliance report for/i
-/hr department (has released|is releasing) the annual/i
+/hr.?department.{1,10}(has released|is releasing).{1,10}the annual/i
+/requested.{1,10}hr.?department.{1,10}position/i
 
 # Messages
 # ------------------------------------------------------------------------------
