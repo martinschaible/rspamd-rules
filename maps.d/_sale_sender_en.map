@@ -170,7 +170,7 @@
 # Streaming TV
 # ------------------------------------------------------------------------------
 /4k.?ip.?tv/i
-/nex.?ip.?tv/i
+/(best|nex.?).?ip.?tv/i
 
 /\d{3,4}.{1,10}worldwide.channels/i
 /ip.?tv.?(deal|royals|show|streaming)/i
