@@ -38,6 +38,8 @@
 /to unsubscribe.{1,10}click here or write to.{1,15}\d{2,5}/i
 # Sample: unsubscribe from this newsletter, click here. 302
 /to unsubscribe.{1,10}from this newsletter.{1,10}click here.{1,10}\d{2,5}/i
+# Sample: To Unsubscribe: or send post-mail To 705
+/to unsubscribe.{1,10}or send post.?mail to.{1,15}\d{2,5}/i
 
 # Post Mail
 # ------------------------------------------------------------------------------

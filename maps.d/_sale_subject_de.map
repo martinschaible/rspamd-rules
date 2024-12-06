@@ -412,7 +412,9 @@ grill.{1,10}statt.{1,10}nur/i
 /google.?bewertungen.{1,20}löschen/iu
 /entfernung bei google/i
 
-/bewertungen löschen.{1,10}festpreis/i
+/(entfernen|löschen).{1,15}bewertungen/i
+
+/bewertungen.{1,15}(entfernen|löschen)/i
 /festpreis.{1,15}(je|pro) erfolg/i
 
 /(ihnen|ihre) google.?(bewertungen|einträge)/i
