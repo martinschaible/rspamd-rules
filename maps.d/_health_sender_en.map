@@ -503,7 +503,7 @@
 
 # Teeth
 # ------------------------------------------------------------------------------
-/teeth.{0,10}(gums|rotting)/i
+/(teeth|tooth).{0,10}(gums|loss|rotting)/i
 /strong(er)?.?teeth/i
 /(perfect|rotting|yellow).?teeth/i
 
