@@ -209,7 +209,7 @@
 /my name is.{1,30}(attorney|business|consultant|investment|investor|politician|private|us soldier)/i
 /my name is.{1,30}chief procurement officer/i
 /my name is.{1,25}(dr\.|sir)/i
-/my name is.{1,25}(miss|mrs?|ms).{5,25}from/i
+/my name is.{1,25}(miss|mrs?|ms).{5,25}(a christian|from)/i
 /my name is.{1,25}international.{1,10}(fund|trust)/i
 
 /my name is.{5,25}i.?a?m.{1,15}(bank|general|international|sales).{1,10}manager/i
