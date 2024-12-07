@@ -1,5 +1,8 @@
 # ==============================================================================
-# Sender:
+# Sender: This file contains names of senders that consist of only one word.
+# To avoid false/positives, most senders are equipped with line boundaries.
+#
+# The words should be generic.
 #
 # Topic:    Generic
 # Language: English
@@ -12,7 +15,9 @@
 /antivirus$/i
 
 # B
+/billionaire/i
 /bit?coin$/i
+/blockchain/i
 
 # C
 /cancer$/i
@@ -33,7 +38,9 @@
 /^hr.?department$/i
 
 # I
+/illuminati/i
 /investment$/i
+/invoice/i
 
 # J
 /jackpot$/i
@@ -67,9 +74,11 @@
 /^team$/i
 
 # U
+/unclaimed/i
 /urgent$/i
 
 # V
+/voucher/i
 
 # W
 /warning$/i

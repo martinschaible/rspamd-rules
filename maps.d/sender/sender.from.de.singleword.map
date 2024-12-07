@@ -1,5 +1,8 @@
 # ==============================================================================
-# Sender:
+# Sender: This file contains names of senders that consist of only one word.
+# To avoid false/positives, most senders are equipped with line boundaries.
+#
+# The words should be generic.
 #
 # Topic:    Generic
 # Language: German
@@ -8,14 +11,28 @@
 
 # A
 /achtung/i
+
+/auftragsbestätigung/iu
 /auszahlung/i
+/auszahlungsbestätigung/i
+/auszeichnung(en)?/i
+
 /(apo|apotheke|apothke)$/i
 
 # B
+/begrenzt/i
+
+/beitragsservice/i
+
 /belohnen #/i
+/belohnen/i
+/belohnung(en)?/i
+
 /benachrichtigung/i
 /beratung$/i
 /^bestätigung$/i
+
+/bewertungen/i
 
 # C
 
@@ -27,25 +44,36 @@
 
 # E
 /eilmeldung/i
+/einsparungen/i
 
 # F
-/finanzierung.?$/i
+/finanzierung$/i
 /frau\b/i
+/freigeschaltet/i
 
 # G
 /^geldsorgen/i
 /geldsparende/i
 /gerichtsvollzieher/i
 /gesundheitszentrum$/i
+
+/gewinner(in)?/i
 /gewinnspiel.?(team|zentrale)/i
 /gewinnerklärung/i
+
 /glückwunsch/iu
+
+/gratuliert/i
+
+/guthaben/i
+/gutscheine?/i
 
 # H
 /herr\b/i
 /hilfezentrum.?id/i
 
 # I
+/illuminaten/i
 /investieren$/i
 
 # J
@@ -54,6 +82,7 @@
 /^kardiologie$/i
 
 /kassen$/i
+/käuferumfrage/iu
 /kissen$/i
 /kreditsachbearbeiter/i
 
@@ -67,11 +96,15 @@
 /kunden.?(betreuung|informationen|nummer|unterstützung)$/iu
 
 # L
+/lagereinheit/i
+/legalisierung/i
 /liebste.?$/i
 /^lieferung$/i
 /^logistik$/i
 
 # M
+/meldungsservice/i
+/mitgliedschaft/i
 
 # N
 
@@ -90,24 +123,39 @@
 # R
 /rechnungstelle/i
 
+/reichtum/i
+
+/rundfunkbeitrag/i
+/rundfunkservice/i
+
 # S
 /schutzpartner/i
+/selektiert/i
 /spende\b/i
+/stromkosten/i
+
+/sprach.?nachricht(en)?/i
 
 # T
 /tabletten$/i
+/tagesgewinner/i
 /testsieger$/i
 
 # U
 /überraschung/i
 /umfrage.?team/i
 /ungelesen/i
+/unterstützung/i
 
 # V
 /versand$/i
-/^vertriebszentrum$/i
+/verkaufs.?automat/i
+
+/^vertriebs.?zentrum$/i
 
 # W
+/weiterempfehlung/i
+/werbe.?geschenk/i
 /wichtig$/i
 /willkommen/i
 /wunder/i
