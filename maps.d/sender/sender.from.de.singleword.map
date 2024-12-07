@@ -90,7 +90,7 @@
 
 /\|.?kunden/i
 
-/kunden.(dienst|service)/i
+/^kunden.?(dienst|service)$/i
 
 /kunden.?(helpdesk|id)/i
 /kunden.?(betreuung|informationen|nummer|unterstützung)$/iu
