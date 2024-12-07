@@ -1,0 +1,121 @@
+# ==============================================================================
+# Sender:
+#
+# Topic:    Generic
+# Language: German
+# Weight:   6.0
+# ==============================================================================
+
+# A
+/achtung/i
+/auszahlung/i
+/(apo|apotheke|apothke)$/i
+
+# B
+/belohnen #/i
+/benachrichtigung/i
+/beratung$/i
+/^bestätigung$/i
+
+# C
+
+# D
+/datenschutz$/i
+/dividenden/i
+/doktor$/i
+/drucker$/i
+
+# E
+/eilmeldung/i
+
+# F
+/finanzierung.?$/i
+/frau\b/i
+
+# G
+/^geldsorgen/i
+/geldsparende/i
+/gerichtsvollzieher/i
+/gesundheitszentrum$/i
+/gewinnspiel.?(team|zentrale)/i
+/gewinnerklärung/i
+/glückwunsch/iu
+
+# H
+/herr\b/i
+/hilfezentrum.?id/i
+
+# I
+/investieren$/i
+
+# J
+
+# K
+/^kardiologie$/i
+
+/kassen$/i
+/kissen$/i
+/kreditsachbearbeiter/i
+
+/krypto$/i
+
+/\|.?kunden/i
+
+/kunden.(dienst|service)/i
+
+/kunden.?(helpdesk|id)/i
+/kunden.?(betreuung|informationen|nummer|unterstützung)$/iu
+
+# L
+/liebste.?$/i
+/^lieferung$/i
+/^logistik$/i
+
+# M
+
+# N
+
+# O
+
+# P
+/^paketdienst$/i
+/^paket$/i
+
+/pillen$/i
+/preisträger/i
+/präsident/iu
+
+# Q
+
+# R
+/rechnungstelle/i
+
+# S
+/schutzpartner/i
+/spende\b/i
+
+# T
+/tabletten$/i
+/testsieger$/i
+
+# U
+/überraschung/i
+/umfrage.?team/i
+/ungelesen/i
+
+# V
+/versand$/i
+/^vertriebszentrum$/i
+
+# W
+/wichtig$/i
+/willkommen/i
+/wunder/i
+
+# X
+
+# Y
+
+# Z
+/zahlung$/i
+/zahlungsmittel/i
