@@ -31,12 +31,13 @@
 /this e.?mail cannot be tracked like/i
 
 # Malware
-/virus enabled me to connect/i
-/virus was.{1,15}through one of your/i
+/my.{1,10}(malware|trojan|virus)gave me/i
 
-/with my private trojan/i
+/(malware|trojan|virus).{1,10}enabled me to connect/i
+/(malware|trojan|virus).{1,15}through one of your/i
 
-/your e?.?mails are infected with.{1,15}(trojan|virus)/i
+/my private.{1,10}(malware|trojan|virus)/i
+/your e?.?mails are infected with.{1,15}(malware|trojan|virus)/i
 
 #
 /adult site that you visited/i
@@ -50,11 +51,13 @@
 
 /my (bitcoin|btc).?(address|wallet).{1,10}(for payment|is)/i
 /my (bitcoin|btc).?(address|wallet).{1,15}(btc.?wallet|for transfer)/i
+/my bitcoin.{1,10}btc.{1,10}(address|wallet) is/i
 
 /just transfer.{1,10}usd.{1,15}to (bitcoin|btc)/i
 
-/transfer.{1,10}(us dollars|usd).{1,10}in bitcoin equivalent/i
-/transfer.{1,10}(us dollars|usd).{1,10}to my bitcoin wallet/i
+/(send|transfer).{1,10}(us dollars|usd).{1,10}in bitcoin equivalent/i
+/(send|transfer).{1,10}(us dollars|usd).{1,10}to my bitcoin wallet/i
+/(send|transfer).{1,10}(bitcoin|btc).{1,15}to my wallet/i
 
 /transfer to my.{1,10}account.{1,10}after the transaction/i
 

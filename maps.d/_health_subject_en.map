@@ -49,12 +49,12 @@
 # ------------------------------------------------------------------------------
 /(fat|weight).?(burning|loss).{1,10}(elixir|fix|secret)/i
 
-/(burn|drop|lose|melt|shed).{1,10}(belly|more).?(fat|flab)/i
-/(burn|drop|lose|melt|shed).{1,10}(lbs|pounds|weight)/i
-/(burn|drop|lose|melt|shed).{1,10}fat.{1,15}(easily|exercise|fast|without)/i
+/(burn|drop|erase|lose|melt|shed).{1,10}(belly|more).?(fat|flab)/i
+/(burn|drop|erasel|ose|melt|shed).{1,10}(lbs|pounds|weight)/i
+/(burn|drop|erase|lose|melt|shed).{1,10}fat.{1,15}(easily|exercise|fast|with this|without)/i
 
-/(burn|drop|lose|melt|shed|sucks).{1,10}\d.{0,5}lbs? per day/i
-/(burn|drop|lose|melt|shed).{1,10}\d{2}.?lbs in.{1,5}weeks/i
+/(burn|drop|erase|lose|melt|shed|sucks).{1,10}\d.{0,5}lbs? per day/i
+/(burn|drop|erase|lose|melt|shed).{1,10}\d{2}.?lbs in.{1,5}weeks/i
 
 /burns flab.{1,10}faster/i
 
