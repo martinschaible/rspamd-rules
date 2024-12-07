@@ -18,7 +18,6 @@
 /(hilfe.?center|sicherheit).?id/i
 
 /sicherheits.?(bedingung|update)/i
-/begrenzt/i
 /kunden.?(nummer|support)/i
 
 # Banking
@@ -28,8 +27,6 @@
 /ihre.?bank/i
 /internet.?banking/i
 
-/meldungsservice/i
-
 /online.?kartenkonto/i
 /push.?tan/i
 
@@ -38,7 +35,6 @@
 
 # Subscriptions
 # ------------------------------------------------------------------------------
-/mitgliedschaft/i
 /ihre rechnung/i
 
 # EMail, Cloud, Security and Server support
@@ -67,8 +63,6 @@
 
 /liefer(ung)?.?(aktualisierung|express|status?.?meldungen|tracking)/i
 
-/^logistik$/i
-
 /paket.?(bestaetigungen|status|tracking|zustellung)/i
 /paket wartet auf die lieferung/i
 
@@ -82,7 +76,6 @@
 /zustell.?(assistenz|aktualisierung|nachrichten|status)/i
 
 /-paketzustellung/i
-/unterstützung/i
 
 #
 #
@@ -98,11 +91,8 @@
 # Winning, Present, Rewards
 # ------------------------------------------------------------------------------
 /angebote warten/i
-/auftragsbestätigung/iu
 
 /beeilen sie sich/i
-/belohnung(en)?/i
-/belohnen/i
 
 /bestätigung.{1,10}erforderlich/i
 /bitte.?(antworten|bestätigen)/i
@@ -110,18 +100,12 @@
 /deine.?chance/i
 /du bist geeignet/i
 
-/einsparungen/i
 /es tut uns leid/i
 
 /feedback.?hinterlassen/i
-/freigeschaltet/i
 
 /geschenk(karten?|set)/i
 /geschenk von/i
-/gewinner(in)?/i
-/gratuliert/i
-/guthaben/i
-/gutscheine?/i
 
 /(gutschein|kundenportal|supermarket).?team/i
 
@@ -129,8 +113,6 @@
 
 /ihr.?reise/i
 /ihre.{1,15}chance/i
-
-/käuferumfrage/iu
 
 /letzte chance/i
 /läuft bald ab/i
@@ -143,17 +125,13 @@
 
 /ohne bedingungen/i
 
-/selektiert/i
 /sie sind (ausgewählt|berechtigt)/iu
-
-/tagesgewinner/i
 
 /(kunden|verbraucher).{0,15}(angebote|betreuung|befragung|feedback|umfrage|prämien)/iu
 /versandinformationen/i
 /verlängern sie/i
 /viel.?erfolg/i
 
-/werbe.?geschenk/i
 
 #
 /box.?set.{0,15}gewinner/i
@@ -225,18 +203,6 @@
 # Amazon
 # Real Sender: "Amazon.de"
 
-# ARD ZDF
-/^ard.?zdf$/i
-/ard.zdf.?service/i
-/beitragsservice/i
-/rundfunkbeitrag/i
-
-# COOP
-/^coop$/i
-
-# CSS Assurance
-/^mycss$/i
-
 # Parcel
 /(fedex|hermes|mydpd|swiss).{0,10}(abteilung|lieferung|versand)/i
 /dtn.?versand/i
@@ -247,10 +213,6 @@
 /dhl.?lieferung/i
 /paket.?team/i
 /lieferung - dhl/i
-
-# Digitec
-# Real Sender: "Digitec"
-/digitec\.cg/i
 
 # DKG
 /kontakt.?dkb/i
@@ -263,9 +225,6 @@
 /_dpd/i
 
 /group.{0,10}kurier/i
-
-# German Radio
-/rundfunkservice/i
 
 # Lexoffice
 /lexoffice.?konto/i
@@ -339,9 +298,6 @@
 # Twint
 /twint-\[a-z]{2}/i
 /twint.?team/i
-
-# UPS
-/ups.?gmbh/i
 
 #
 #

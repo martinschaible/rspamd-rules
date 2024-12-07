@@ -1,44 +1,13 @@
 # ==============================================================================
-# Sale: Sender
+# Scam: Sender
 #
 # ----|----------------|
 #  10 | English        |
 # ==============================================================================
 
-# People pretending be a philanthropist
-# ------------------------------------------------------------------------------
-/bezos.?family/i
-
-/(bill|melinda).?gates/i
-/bill.{5,10}melinda/i
-
-/(elon|tesla).?musk/i
-/musk-/i
-
-/aldi.?albrechts/i
-/jeff.?bezos/i
-/john.?travolta/i
-/mackenzie.{1,5}scott/i
-/mark.?zuckerberg/i
-/maria.eli(s|z)abeth.{1,5}schaeffler/i
-/susanne.{1,5}klatten/i
-/warren.{1,5}buffett/i
-
-/ms.?schaeffler/i
-
-#
-#
-#
-
 # Compensation
 # ------------------------------------------------------------------------------
 /financial.?compensation/i
-
-# Organisations
-# ------------------------------------------------------------------------------
-/federal bureau of investigation/i
-/international monetary fund/i
-/wyss.{1,5}foundation/i
 
 # Donations
 # ------------------------------------------------------------------------------
@@ -48,18 +17,12 @@
 # ------------------------------------------------------------------------------
 /next of kin/i
 
-/illuminati/i
-
-/united.?nations?/i
-/federalreservebank/i
-
 /usa.?donation/i
-/unclaimed/i
 
 /annuity comparison/i
 /comparison report/i
 
-/vice president/i
+/vice.?president/i
 
 /donation.?funds?/i
 

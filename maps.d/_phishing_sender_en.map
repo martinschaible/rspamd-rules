@@ -5,10 +5,6 @@
 #  10 | English        |
 # ==============================================================================
 
-# Orders
-# ------------------------------------------------------------------------------
-/invoice/i
-
 # Accounts
 # ------------------------------------------------------------------------------
 /account.?(dept|recovery)/i
@@ -137,7 +133,6 @@
 /(binance|mystery).?rewards/i
 /rewards.?team/i
 /shopper.{0,10}(feedback|gift|opportunity)/i
-/voucher/i
 
 /delivery.?notif\./i
 
@@ -173,7 +168,7 @@
 
 # Apple
 /(ipad|iphone).{0,10}pro/i
-/iphone.?16/i
+/iphone.?\d{2}/i
 
 #
 /car.?emergency/i
