@@ -11,6 +11,9 @@
 # Product names
 # ------------------------------------------------------------------------------
 
+# 0 - 9
+/3d.?slim/i
+
 # A
 /alcozar/i
 /alkotox/i
@@ -55,11 +58,13 @@
 # J
 
 # K
+/keo.?plus/i
 
 # L
-/liba/i
+/liba\b/i
 
 # M
+/matcha.?slim/i
 /micardium/i
 /monster.?xl/i
 
@@ -73,6 +78,7 @@
 
 # P
 /penixmed/i
+/power.?shape/i
 /prostadine
 /prostanol/i
 /prostovit/i
