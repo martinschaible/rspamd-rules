@@ -163,12 +163,6 @@
 /(bad|big|weak).?bladder/i
 /urine.?leaks?/i
 
-# Blood pressure
-# ------------------------------------------------------------------------------
-/blood.?(glucose|pressure|sugar)/i
-/(balanced|high|your).?blood/i
-/clogged.?arteries/i
-
 # Bones
 # ------------------------------------------------------------------------------
 /bone.?health/i
@@ -352,7 +346,9 @@
 # ------------------------------------------------------------------------------
 /heart.?(attack|health)/i
 
-/blood.?presssure/i
+/blood.?(glucose|pressure|sugar)/i
+/(balanced|high|your).?blood/i
+
 /clogged.?arteries/i
 /dangerous.?health/i
 /your heart/i
