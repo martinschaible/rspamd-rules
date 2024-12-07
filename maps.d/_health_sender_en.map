@@ -10,17 +10,13 @@
 
 # Men
 # ------------------------------------------------------------------------------
-/(ed|enhancement|enlargement).?(news|treatment|solution)/i
+/(ed|enhancement|enlargement).?(gummie?s|news|treatment|solution)/i
 /(climax|erectile|libido|manhood)/i
 
-/enhancement.?gummie?s/i
 /(male|men|penis).?(enhancement|enlargement|growth|increase|solution)/i
 /mens?.?(only|power)/i
 
 /ejaculation/i
-
-/ed.?(forever|no.?more)/i
-/(fix your|goodbye).{0,10}ed/i
 
 # Penis
 /(african|amazonian).{0,10}(banana|boner|elder|member|pecker|penis|stick|wood)/i
@@ -28,7 +24,6 @@
 /(grow your|hard|iron.?clad|inch|instant|soft|stiff|thicker).{0,10}(banana|boner|elder|member|pecker|penis|stick|wood)/i
 
 /big.?size/i
-/get.?stiffy?/i
 
 /(fuller|harder|thicker).?stronger/i
 /thicker.{0,10}harder/i
@@ -44,6 +39,7 @@
 /hard.?in.?minutes/i
 
 /rock.?hard/i
+/stiffy/i
 
 # Meds
 /blue.?(pill|replacement)/i
@@ -51,9 +47,11 @@
 
 # Potency, Stamina
 # ------------------------------------------------------------------------------
-/ed.?(fix|treatment)/i
+# ED
+/ed.?(fix|forever|no.?more|treatment)/i
+/(fix your|goodbye).{0,10}ed/i
+
 /surgeon.{0,10}stamina/i
-/stiffy/i
 
 # Weightloss
 # ------------------------------------------------------------------------------
@@ -106,11 +104,6 @@
 
 /waistline/i
 /weight.?(drop(per)?|goals?|loss)/i
-
-# Products
-/(3d.?slim|power.?shape)/i
-/keo.?plus/i
-/matcha.?slim/i
 
 # Recipe
 /(smoothie|night(ly)?|water|wl).?recipe/i
@@ -563,74 +556,12 @@
 /(japanese|unlock|wellness).{0,10}secret/i
 
 /(ancient|crazy|dairy|japanese|liquid|morning|second|simple|taiwan).?(hack|ritual|protocol|remedies|remedy|secret|trick)/i
+/ancient.?(chocolate|healing)/i
 
 /mayan.?cleanse/i
 /(basic|secret).?protein/i
 
 /nasa.?(scientists?|study)/i
-
-#
-#
-#
-
-# Product names
-# ------------------------------------------------------------------------------
-/alcozar/i
-/alkotox/i
-/artolux/i
-/arthrocure/i
-/bioxtrim/i
-/cardione/i
-/circulaxil/i
-/cystenon/i
-/cystinorm/i
-/detoxil/i
-/erectax/i
-/erect.?il/i
-/erexol/i
-/fungent/i
-/gelarex/i
-/germivir/i
-/greeny.?slim/i
-/glucoslim/i
-/gluconax/i
-/glycogen.?plus/i
-/hiloi/i
-/hondofrost/i
-/liba/i
-/micardium/i
-/monster.?xl/i
-/neoveris/i
-/ottomax/i
-/oyster.?(plus|\+)/i
-/ozempic/i
-/penixmed/i
-/prostadine
-/prostanol/i
-/prostovit/i
-/psoryden/i
-/removio/i
-/revitaprost/i
-/se.{0,2}venom/i
-/semenoll/i
-/slimvitax/i
-/stinafil/i
-/spray.?x/i
-/suromexil/i
-/symbioslim/i
-/testoultra/i
-/thoraxin/i
-/uromexil/i
-/valgone/i
-/varilux/i
-/vermixin/i
-/viaciaxx/i
-/viarecta/i
-/vigosurge/i
-/vitavisin/i
-
-/cialis/i
-/viagra/i
 
 #
 #
@@ -642,7 +573,6 @@
 
 # Unclassified
 # ------------------------------------------------------------------------------
-/ancient.?(chocolate|healing)/i
 
 /going.?viral/i
 
