@@ -65,6 +65,7 @@
 
 /ihre.{1,10}kontoinformationen überprüfen/iu
 /ihre.{1,10}kundendaten sind (abgelaufen|veraltet)/i
+/ihre.{1,10}persönlichen daten.{1,10}informationen/i
 
 # Twint
 /ihre.{1,15}app wird bald gesperrt/i
@@ -441,6 +442,7 @@
 
 /zahlen sie.{1,15}die zustellung ihres pakets/i
 /zahlung.{1,10}zollgebühren.{1,20}(erforderlich|euro)/iu
+/zahlung.{1,10}versandgebühr.{1,10}(über)?fällig/iu
 
 # DHL
 /dhl.{1,10}letzte mahnung/i
