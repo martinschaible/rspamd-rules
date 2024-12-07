@@ -1,29 +1,42 @@
 # ==============================================================================
-# Sender:
+# Sender: In the scam and phishing area, spammers like to use names of
+# well-known companies or organisations.
+# These names are kept generic, fake and sometimes silly because the companies
+# and organisations usually have personalized senders.
 #
+# Allowed entries are: - Name of organisations
+#                      - Name of brands
+#                      - Name of products
+# 
 # Topic:    Generic
 # Language: -
 # Weight:   6.0
 # ==============================================================================
 
-# Organisations, Brands and Products
-# ------------------------------------------------------------------------------
-
 # A
 /apple.?(™|®)?$/i
+
+/^ard.?zdf$/i
+/ard.zdf.?service/i
 
 # B
 /bosch.?(™|®)?$/i
 
 # C
 /(carrefour|cpanel).?(™|®)?$/i
+/^coop$/i
 
 # D
+
+# Real Sender: "Digitec"
+/digitec\.cg/i
 
 # E
 /edeka.?(™|®)?$/i
 
 # F
+/federal bureau of investigation/i
+/federal.?reserve.?bank/i
 /fedex$/i
 
 # G
@@ -36,6 +49,8 @@
 /ihk.?(™|®)?$/i
 /^ing$/i
 
+/international.?monetary.?fund/i
+
 # J
 
 # K
@@ -46,6 +61,7 @@
 
 # M
 /(metamask|microsoft|migros).?(™|®)?$/i
+/^mycss$/i
 
 # N
 /nortonav$/i
@@ -70,10 +86,15 @@
 /twint$/i
 
 # U
+/united.?nations?/i
+
+/ups.?gmbh/i
 
 # V
+/vereinigte.?union/i
 
 # W
+/wyss.{1,5}foundation/i
 
 # X
 
