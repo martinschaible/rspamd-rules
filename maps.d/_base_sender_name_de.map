@@ -9,12 +9,6 @@
 # ------------------------------------------------------------------------------
 /von.?google/i
 
-/kunden.dienst/i
-/\|.?kundenservice/i
-/kundenservice.{0,5}team/i
-/kunden.?(helpdesk|id)/i
-/hilfezentrum.?id/i
-
 #
 #
 #
@@ -29,9 +23,7 @@
 /sofort.?gewinn/i
 
 /dein.{1,10}lotto/i
-/lotto.{1,10}schein/i
 
-/(lotterie|lottery|millionen).?gewinner/i
 /(el.?gordo|lotto).?rabatt/i
 
 /postcode.?lotterie/i
@@ -40,6 +32,9 @@
 /spanischen?.?(loteria|lotterie)/i
 
 /rekord.?jackpot/i
+
+/lotto.{1,10}schein/i
+/(lotterie|lottery|millionen).?gewinner/i
 
 #
 #
