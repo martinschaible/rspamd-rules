@@ -1,0 +1,118 @@
+# ==============================================================================
+# This is a list of top level domains (TLD) which are only used by spammers.
+#
+# Used by: - sender.address.tld
+#            -> Rspamd doesn't provide TLD extraction for mail addresses.
+#               The eSLD (effective second level domain) is matched against
+#               this list.
+#          - sender.from.tld
+#          - body.img.domain.tld
+#          - body.link.domain.tld
+# ==============================================================================
+
+# https://www.spamhaus.org/statistics/tlds/
+/\.bio$/i
+/\.degree$/i
+/\.fyi$/i
+/\.gq$/i
+/\.haus$/i
+/\.live$/i
+/\.market$/i
+/\.top$/i
+/\.zone$/i
+
+# https://www.cybercrimeinfocenter.org/top-20-tld-by-phishing-domain-score
+/\.best$/i
+/\.business$/i
+/\.buzz$/i
+/\.casa$/i
+/\.centerd$/i
+/\.digital$/i
+/\.host$/i
+/\.id$/i
+/\.ke$/i
+/\.monster$/i
+/\.online$/i
+/\.pe$/i
+/\.ph$/i
+/\.pk$/i
+/\.services$/i
+/\.ve$/i
+/\.wang$/i
+
+# https://github.com/ercpe/rspamd-rules/blob/master/lists/high-spammy-tlds.txt
+/\.bid$/i
+/\.club$/i
+/\.date$/i
+/\.download$/i
+/\.faith$/i
+/\.homes$/i
+/\.host$/i
+/\.icu$/i
+/\.kim$/i
+/\.loan$/i
+/\.lol$/i
+/\.online$/i
+/\.pet$/i
+#/\.pro$/i
+/\.red$/i
+/\.review$/i
+/\.site$/i
+/\.space$/i
+/\.stream$/i
+/\.vip$/i
+/\.website$/i
+/\.win$/i
+/\.world$/i
+/\.xyz$/i
+
+# These are bad too:
+/\.makeup$/i
+/\.men$/i
+/\.work$/i
+/\.yachts$/i
+
+# TLD first seen August 2023
+/\.bet$/i
+/\.cfd$/i
+
+# TLD first seen September 2023
+/\.quest$/i
+
+# TLD first seen October 2023
+/\.ovh$/i
+
+# TLD first seen November 2023
+/\.cyou$/i
+
+# TLD first seen December 2023
+/\.mom$/i
+
+# TLD first seen January 2024
+/\.lat$/i
+/\.sbs$/i
+
+# TLD first seen February 2024
+/\.guru$/i
+
+# TLD first seen April 2024
+/\.bar$/i
+
+# TLD first seen April 2024
+/\.su$/i
+
+# removed by request
+#/\.one$/i
+
+# TLD first seen August 2024
+/\.hair$/i
+
+# TLD first seen September 2024
+/\.click$/i
+/\.pw$/i
+/\.sbs$/i
+
+# TLD first seen November 2024
+/\.boutique$/i
+/\.fun$/i
+/\.link$/i
