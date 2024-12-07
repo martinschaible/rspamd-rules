@@ -1,10 +1,37 @@
 # ==============================================================================
-# Sender:
+# Sender: In the scam and phishing area, spammers sometimes pose as well-known
+# personalities.
 #
 # Topic:    Generic
 # Language: -
 # Weight:   6.0
 # ==============================================================================
 
-# People
+# People pretending be a philanthropist
 # ------------------------------------------------------------------------------
+
+# A
+/aldi.?albrechts/i
+
+# B
+/bezos.?family/i
+/warren.{1,5}buffett/i
+
+/(bill|melinda).?gates/i
+/bill.{5,10}melinda/i
+
+# J
+/jeff.?bezos/i
+/john.?travolta/i
+
+# M
+/(elon|tesla).?musk/i
+/musk-/i
+
+/mackenzie.{1,5}scott/i
+/mark.?zuckerberg/i
+/maria.{1,5}eli(s|z)abeth.{1,5}schaeffler/i
+
+# S
+/susanne.{1,5}klatten/i
+/ms.?schaeffler/i
