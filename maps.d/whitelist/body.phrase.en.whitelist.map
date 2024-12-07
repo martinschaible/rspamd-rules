@@ -1,17 +1,14 @@
 # ==============================================================================
-# Whitelist Body: Words and phrases
+# Body Whitelist: Words and phrases
 #
 # Language: English
-# Weight:   -0.5
-#
-# ----|
-# 2.0 |
+# Weight:   -0.5 or -1.0
 # ==============================================================================
 
 # Undeliveries / Out of office
 # ==============================================================================
-/out of office.{1,15}i will be back on/i
-/your message will not be forwarded.{1,15}in urgent cases/i
+/out of office.{1,15}i will be back on/i -1.0
+/your message will not be forwarded.{1,15}in urgent cases/i -1.0
 
 # English words and phrases which i think will never occur in spam mails
 # ==============================================================================
