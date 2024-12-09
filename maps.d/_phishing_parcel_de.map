@@ -55,7 +55,10 @@
 /grund.{1,10}falsche lieferdetails/i
 
 /ihnen angegebene.{1,10}adresse unvollständig zu sein scheint/iu
+
 /klicken sie hier.{1,10}um die adresse zu/i
+/klicken sie hier.{1,10}um den code einzugeben/i
+
 /korrigieren sie ihre adresse/i
 /nicht zustellen.{1,10}da es unklarheiten mit.{1,20}adresse gibt/i
 
@@ -83,6 +86,7 @@
 
 # Delivery Failed
 # ------------------------------------------------------------------------------
+/(paket|sendung).{1,20}aufgrund eines barcode.?fehlers/i
 /(paket|sendung).{1,20}kann nicht zugestellt werden.{1,20}aktualisieren sie.{1,15}adresse/i
 /(paket|sendung).{1,20}konnte nicht.{1,10}zugestellt werden.{1,15}falsche.{1,15}adresse/i
 /(paket|sendung).{1,20}konnte nicht.{1,20}werden.{1,10}da bei derzustellung/i

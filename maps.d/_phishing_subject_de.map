@@ -340,6 +340,7 @@
 /ihre? (paket|lieferung|sendung).{1,10}kann heute nicht zugestellt werden/i
 /ihre? (paket|lieferung|sendung).{1,10}wird vorbereitet/i
 /ihre? (paket|lieferung|sendung).{1,10}wurde zurückgeschickt/i
+/ihre? (paket|lieferung|sendung).{1,10}zu erhalten/i
 
 /in der warteschleife/i
 
@@ -419,6 +420,7 @@
 /zahlung von.{1,10}chf.{1,10}paket erforderlich/i
 
 /zustellung.{1,10}eines neuen pakets/i
+/zustellung.{1,10}fehlgeschlagen.{1,10}handeln sie/i
 /zustellung.{1,10}nicht erfolgreich.{1,10}adresse nicht gefunden/i
 /zustellversuch.{1,10}bestellung.{1,10}zurückgeschickt/iu
 
