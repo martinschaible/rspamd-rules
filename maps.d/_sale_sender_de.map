@@ -92,8 +92,10 @@
 # Lamps
 # ------------------------------------------------------------------------------
 /büro.{0,10}licht/i
-/lampen?.{0,10}(jetzt|mag|shop|team)/i
+/lampen?.{0,10}(jetzt|mag|shop|team|zeit)/i
 /licht.?pro/i
+
+/smart.?licht/i
 
 # Learning language
 # ------------------------------------------------------------------------------

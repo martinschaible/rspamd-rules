@@ -42,7 +42,7 @@
 
 # No SSL Image Tag
 # ------------------------------------------------------------------------------
-/<img src=.{0,5}http:\/\//i
+/<img src=.{0,5}http:\/\//i 3.0
 
 # No SSL Google
 # ------------------------------------------------------------------------------
@@ -92,7 +92,8 @@
 # ------------------------------------------------------------------------------
 
 # Google
-/src=.{0,5}https:\/\/[a-z0-9]{3,10}\.googleusercontent\.com/i
+/src=.{0,5}https?:\/\/[a-z0-9]{3,10}\.googleusercontent\.com/i
+
 # Sample: scontent-ham3-1.xx.fbcdn.net
 /src=.{0,5}https?:\/\/scontent-.{4,6}\.xx\.fbcdn\.net/i
 /src=.{0,5}https?:\/\/i\.ibb\.co/i

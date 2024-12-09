@@ -218,13 +218,16 @@
 /kontakt.?dkb/i
 
 # DPD
-# -> Real sender: "DPD Schweiz"
+# -> Real sender: "DPD Schweiz" or "DPD"
 /dpd.{0,5}deutschland/i
 /dpd-ch/i
 /dpd_/i
 /_dpd/i
 
 /group.{0,10}kurier/i
+
+# German radio
+/abrechnungsstelle).{0,10}rundfunk/i
 
 # Lexoffice
 /lexoffice.?konto/i

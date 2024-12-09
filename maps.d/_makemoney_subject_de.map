@@ -93,6 +93,7 @@
 /(chatgpt|ki).{1,10}(geld verdienen|handel)/i
 
 /aktien.?(auswahl|handel).{1,10}(chatgpt|ki)/i
+/schock.{1,10}(chatgpt|ki)/i
 
 /geld.{1,15}durch (chatgpt|ki)/i
 /(dividenden|geld verdienen).{1,10}(chatgpt|ki)/i
@@ -159,7 +160,7 @@
 /(\d{3,4}|euro?).{1,10}passives einkommen/i
 /jetzt passives einkommen/i
 
-/ihr grundeinkommen wartet/i
+/ihr.{1,10}(grundeinkommen|investment)/i
 
 /passives (geld|einkommen).{1,10}(beantragen|durch|generieren|jetzt|mit|verdienen|war noch nie)/i
 /passives (geld|einkommen).{1,10}(be)?kommen/i
