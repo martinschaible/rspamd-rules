@@ -91,9 +91,9 @@
 
 # Lamps
 # ------------------------------------------------------------------------------
-/büro.{0,10}licht/i
-/lampen?.{0,10}(jetzt|mag|shop|team|zeit)/i
-/licht.?pro/i
+/(büro|office|tisch).{0,10}licht/i
+/lampen?.{0,10}(jetzt|mag|shop|team|welt|zeit)/i
+/licht.?(traum|pro|zone)/i
 
 /smart.?licht/i
 
