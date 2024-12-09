@@ -13,8 +13,6 @@
 /\.jpg\.html/i
 /\.r09\.rar/i
 
-/\pdf\.\.html/i
-
 # Sample: RFQ-PO2023080904072235AM_pdf.gz
 #         Payment_Advice,img.zip
 #         Details_pdf.rar
@@ -34,7 +32,7 @@
 
 /[a-z0-9]{3,15}pdf\.(7z|html)/i
 
-/__pdf\.(7z|doc|gz|htm|r11|rar|tgz|xls|zip)/i
+/(__|\.)pdf\.(7z|doc|gz|htm|r11|rar|tgz|xls|zip)/i
 
 /_pdf\.svg/i
 
@@ -327,8 +325,8 @@
 /img_\d{2,15}\.7z/i
 
 #
-/(customer|contract|copies|office|receipt|reports?).{0,15}\.(html|zip/)i
-/details.?attached\.(html|zip/)i
+/(customer|contract|copies|office|receipt|reports?).{0,15}\.(html|zip)i
+/details.?attached\.(html|zip)i
 
 /(deposit|investment)\.(7z|doc|gz|htm|r11|rar|tgz|xls|zip)/i
 
