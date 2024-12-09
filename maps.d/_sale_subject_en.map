@@ -254,6 +254,8 @@ transform.{1,10}website traffic/i
 /site.{1,10} get.{1,10}traffic/i
 /you need.{1,10}seo/i
 
+/your.{1,10}(page|website).{1,10}may.{1,10}losing/i
+
 # Google
 /(bing|google|yahoo).{1,10}(1 page|1st page|first page|page 1st|listing)/i
 
@@ -265,8 +267,8 @@ transform.{1,10}website traffic/i
 /(guaranteed|top rank(ing)?).{1,10}(bing|google|yahoo)/i
 /get found.{1,10}(bing|google|yahoo)/i
 
-/your (page|website).?rank.{1,10}(bing|google|yahoo)/i
-/your (page|website).{1,10}(bing|google|yahoo)/i
+/your.{1,10}(page|website).?rank.{1,10}(bing|google|yahoo)/i
+/your.{1,10}(page|website).{1,10}(bing|google|yahoo)/i
 
 # ahrefs
 /buy.{1,10}ahrefs/i

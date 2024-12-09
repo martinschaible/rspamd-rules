@@ -161,7 +161,8 @@
 /(einer|gehören zu).{1,10}unserer möglichen finalisten/iu
 /(exklusive|sichere).{1,10}chance auf ein.{1,15}produktpaket/i
 
-/ihre chance auf eine kostenlose/i
+/ihre chance.{1,10}auf eine kostenlose/i
+/ihre chance.{1,10}ein kostenloses/i
 /sie als möglicher gewinner/iu
 /sie haben.{1,10}die chance.{1,10}eine.{1,60}im wert von.{1,10}zu gewinnen/i
 

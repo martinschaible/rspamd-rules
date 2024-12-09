@@ -89,11 +89,13 @@
 # KI
 # ------------------------------------------------------------------------------
 /(chatgpt|ki).{1,10}revolutioniert aktienhandel/i
-/(chatgpt|ki).{1,10}(verschenkt|verspricht).{1,15}(geld|gewinne|reichtum)/i
+/(chatgpt|ki).{1,10}(verschenkt|verspricht).{1,15}(geld|gewinne|reichtum|rendite)/i
 /(chatgpt|ki).{1,10}(geld verdienen|handel)/i
 
+/aktien.?(auswahl|handel).{1,10}(chatgpt|ki)/i
+
 /geld.{1,15}durch (chatgpt|ki)/i
-/(aktienhandel|geld verdienen).{1,10}(chatgpt|ki)/i
+/(dividenden|geld verdienen).{1,10}(chatgpt|ki)/i
 
 /automatischer aktienhandel/i
 
@@ -132,6 +134,7 @@
 /schnell zu wohlstand kommen/i
 /sie mit uns finanzielle freiheit/i
 
+/verhilft zu reichtum/i
 /verschenkt reichtum/i
 
 /wie mann.{1,15}reich wird/i
@@ -170,7 +173,7 @@
 # ------------------------------------------------------------------------------
 /ki systemhandel/i
 /ki macht menschen reich/i
-/ki wird sie/i
+/ki (wählt aktien|wird sie)/i
 
 /(aktien|einkommen|gewinne) (durch|per) ki/i
 
@@ -188,12 +191,14 @@
 /finanzrevolution/i
 /geheiminvestition/i
 
+/ihr grundgehalt steigt/i
 /investiert hier/i
 /die neue boomphase/i
 
 /(bahnbrechendes|revolutionäres).{1,10}projekt.{1,10}(enthüllt|finanziellen)/iu
 
 /revolutionäre microsoft.?initiative/iu
+/(neue|sie nicht).{1,15}goldrausch/i
 
 /dax.?rekord/i
 

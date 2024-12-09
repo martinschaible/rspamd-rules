@@ -118,6 +118,8 @@
 /entschädigung von.{1,10}\d{2,3}.{1,10}\d{2,3}.{1,10}(euro|gbp|usd|millionen)/iu
 /entschädigung.{1,10}\d{2,3}.{1,10}\d{2,3}/iu
 
+/\d{3,4}.{1,10}(euro?|gbp|usd|millionen) (auszahlen lassen|auszahlung)/i
+
 /(aus)?zahlung nicht beanspruchter gelder/i
 
 /nicht beanspruchter betrag/i
@@ -173,9 +175,8 @@
 
 # Comparing Bank Accounts
 # ------------------------------------------------------------------------------
-# ------------------------------------------------------------------------------
 /(erinnerung|kostenlos).{1,15}tagesgeld.?konto/i
-/tagesgeld.{1,15}(garantiert|sicher|zinsen)/i
+/tagesgeld.{1,25}(garantiert|prozent|sicher|zinsen)/i
 /tagesgeld.?konten/i
 /tagesgelder/i
 
