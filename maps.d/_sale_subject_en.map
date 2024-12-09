@@ -36,7 +36,9 @@
 
 /e(lectric)?.?bikes? (are|is|now) (available|here)/i
 
-/our electric.?bike/i
+/moped style e.?bike/i
+
+/our.{1,15}(electric.?bike|moped)/i
 
 # Fuel Saver
 # ------------------------------------------------------------------------------
