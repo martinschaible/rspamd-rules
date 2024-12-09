@@ -245,12 +245,13 @@
 
 # Comparing Bank Accounts
 # ------------------------------------------------------------------------------
-/tagesgeld.?(konto|konten).{1,10}nutzt man als/i
+/tagesgeld.?(konto|konten).{1,10}(ist eine kostenlose|nutzt man als)/i
 
 /(auf ein solches|derzeit das|guten tag|kostenlos).{1,10}tagesgeld.?(konten|konto)/i
 
 /hier erfährst du.{1,10}welche banken aktuell/i
 /sie die besten tagesgeldbanken/i
+/unserem.{1,10}(tages)?aktuellen kontovergleich/i
 
 # Comparing Solar energy
 # ------------------------------------------------------------------------------

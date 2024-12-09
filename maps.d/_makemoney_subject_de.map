@@ -41,71 +41,12 @@
 /sie mit.{1,10}\d{3} euro (startguthaben|grundstein)/i
 /verwandeln sie ein startkapital von nur/i
 
-# ETF
-# ------------------------------------------------------------------------------
-/dividenden durch etf/i
-
-# Make Money
-# ------------------------------------------------------------------------------
-/reich (ohne arbeit|werden ohne)/i
-
-/(einfach|endlich|es geht wirklich|garantiert|jetzt|mit.{1,10}euro?|ohne scam).{1,10}reich werden/i
-
-/garantiertes vermögen/iu
-/garantiert bis zu.{1,15}pro monat/i
-
-/geld machen mit/i
-/geld kostenlos/i
-
-/machen sie geld/i
-/mehr geld verdienen/i
-
-/einnahmen von.{1,10}\d{3,4}.{1,10}pro tag/i
-/(täglich|wöchentlich).{1,15}\d{3,4}.{1,15}verdienen/iu
-
-/jeden Tag.{1,10}\d{3,4}.{1,10}verdienen/i
-
-/verdienen sie bis zu.{1,10}\d{3,4}.{1,10}täglich/i
-
-/ihr geld steht.{1,10}auszahlung/i
-/jeden tag.{1,15}(\d{3,4}|euro?).{1,10}verdienen/i
-/jeden tag.{1,10}garantierte gewinne/i
-/jetzt millionär werden/iu
-
-/euro? pro tag.{1,10}verdienen/i
-/100 euro? pro tag/i
-
-/online zu verdienen/i
-/so verdienen die stars/i
-
-/sicher geld verdienen/i
-/sie innerhalb weniger tage.{1,20}einnahmen/i
-
-/verdienen sie.{1,10}\d{3,4}.{1,10}täglich/iu
-/verdienen sie.{1,15}\d{3,4}.{1,10}euro? wöchentlich/iu
-
-/wie mehr geld verdienen/i
-
-# KI
-# ------------------------------------------------------------------------------
-/(chatgpt|ki).{1,10}revolutioniert aktienhandel/i
-/(chatgpt|ki).{1,10}(verschenkt|verspricht).{1,15}(geld|gewinne|reichtum|rendite)/i
-/(chatgpt|ki).{1,10}(geld verdienen|handel)/i
-
-/aktien.?(auswahl|handel).{1,10}(chatgpt|ki)/i
-/schock.{1,10}(chatgpt|ki)/i
-
-/geld.{1,15}durch (chatgpt|ki)/i
-/(dividenden|geld verdienen).{1,10}(chatgpt|ki)/i
-
-/automatischer aktienhandel/i
-
 # ETF (Exchange Traded Funds)
 # ------------------------------------------------------------------------------
 /etf.{1,15}(bricht|gestartet|investieren|rekorde|zulassung)/i
 /etfs?.{1,10}in der schweiz/i
 
-/(einkommen|geld|gewinne|reich).{1,10}(durch|mit).{1,10}etf/i
+/(dividenden|einkommen|geld|gewinne|reich).{1,10}(durch|mit).{1,10}etf/i
 /(bit?coin|crypto|krypto).{1,10}etf/i
 
 # Fancy Titles
@@ -172,11 +113,63 @@
 
 # KI
 # ------------------------------------------------------------------------------
-/ki systemhandel/i
-/ki macht menschen reich/i
-/ki (wählt aktien|wird sie)/i
+/(chatgpt|ki).{1,10}revolutioniert aktienhandel/i
+/(chatgpt|ki).{1,10}(verschenkt|verspricht).{1,15}(geld|gewinne|reichtum|rendite)/i
+/(chatgpt|ki).{1,15}handel/i
+/(chatgpt|ki).{1,10}geld.{1,10}(machen|verdienen)/i
+/(chatgpt|ki).{1,10}macht menschen reich/i
+/(chatgpt|ki).{1,10}(wählt aktien|wird sie)/i
+
+/aktien.?(auswahl|handel).{1,10}(chatgpt|ki)/i
+/schock.{1,10}(chatgpt|ki)/i
+
+/geld.{1,15}durch (chatgpt|ki)/i
+/(dividenden|geld verdienen).{1,10}(chatgpt|ki)/i
 
 /(aktien|einkommen|gewinne) (durch|per) ki/i
+
+/automatischer aktienhandel/i
+
+# Make Money
+# ------------------------------------------------------------------------------
+/reich (ohne arbeit|werden ohne)/i
+
+/(einfach|endlich|es geht wirklich|garantiert|jetzt|mit.{1,10}euro?|ohne scam).{1,10}reich werden/i
+
+/garantiertes vermögen/iu
+/garantiert bis zu.{1,15}pro monat/i
+
+/geld machen mit/i
+/geld kostenlos/i
+
+/machen sie geld/i
+/mehr geld verdienen/i
+
+/einnahmen von.{1,10}\d{3,4}.{1,10}pro tag/i
+/(täglich|wöchentlich).{1,15}\d{3,4}.{1,15}verdienen/iu
+
+/jeden Tag.{1,10}\d{3,4}.{1,10}verdienen/i
+
+/verdienen sie bis zu.{1,10}\d{3,4}.{1,10}täglich/i
+
+/ihr geld steht.{1,10}auszahlung/i
+/jeden tag.{1,15}(\d{3,4}|euro?).{1,10}verdienen/i
+/jeden tag.{1,10}garantierte gewinne/i
+/jetzt millionär werden/iu
+
+/euro? pro tag.{1,10}verdienen/i
+/100 euro? pro tag/i
+
+/online zu verdienen/i
+/so verdienen die stars/i
+
+/sicher geld verdienen/i
+/sie innerhalb weniger tage.{1,20}einnahmen/i
+
+/verdienen sie.{1,10}\d{3,4}.{1,10}täglich/iu
+/verdienen sie.{1,15}\d{3,4}.{1,10}euro? wöchentlich/iu
+
+/wie mehr geld verdienen/i
 
 # Systems
 # ------------------------------------------------------------------------------

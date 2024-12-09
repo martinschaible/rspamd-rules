@@ -25,6 +25,8 @@
 
 /your.{1,20}address is needed.{1,15}to finalise your package/i
 
+/your.{1,10}(package|parcel|shipment).{1,15}not be delivered.{1,20}due to an incomplete/i
+
 # Confirm Address
 # ------------------------------------------------------------------------------
 
@@ -37,6 +39,8 @@
 
 # Delivery Pending/Waiting
 # ------------------------------------------------------------------------------
+/(package|parcel|shipment).{1,15}fill out the form in our website/i
+
 /your.{1,10}(package|parcel|shipment).{1,15}arrived at our.{1,10}post.?office/i
 /your.{1,10}(package|parcel|shipment).{1,15}is still awaiting delivery/i
 /your.{1,10}(package|parcel|shipment).{1,25}is still pending instructions/i
