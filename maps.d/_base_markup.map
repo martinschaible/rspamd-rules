@@ -26,6 +26,10 @@
 # Small font size
 /<p style=(3d)?"text-align:.?§right;"><span style=(3d)?"font-size:.?8px;">/i
 
+# Extreme font size
+# Sample: font-size:416093625px
+/font-size:\d{3,20}px;/i
+
 # Strange stuff
 # ------------------------------------------------------------------------------
 /http:=(3d)?"" microsoft\.com=(3d)?""/i
