@@ -97,6 +97,8 @@
 # Sample: scontent-ham3-1.xx.fbcdn.net
 /src=.{0,5}https?:\/\/scontent-.{4,6}\.xx\.fbcdn\.net/i
 /src=.{0,5}https?:\/\/i\.ibb\.co/i
+/src=.{0,5}https?:\/\/imgur\.com/i
+/src=.{0,5}https?:\/\/[a-z0-9]{5,20}\.imgur\.com/i
 /src=.{0,5}https?:\/\/[a-z0-9]{5,20}\.cloudfront\.net/i
 /src=.{0,5}https?:\/\/upload\.wikimedia\.org\/wikipedia\/commons/i
 /src=.{0,5}https?:\/\/pbs\.twimg\.com/i
