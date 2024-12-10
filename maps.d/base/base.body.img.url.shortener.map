@@ -1,0 +1,12 @@
+# ==============================================================================
+# There is no reason to shorten and hide the address of a website with
+# a "URL shortener". Usually only spammers do that.
+#
+# Unfortunately, RSpamd does not support the detection of a domain in an
+# image tag and the list "list.url.shortener.map" cannot be used.
+#
+# At some point in the future there will be a solution with a LUA script.
+#
+# Language: -
+# Weight:   6.0
+# ==============================================================================
