@@ -10,36 +10,46 @@
 # ==============================================================================
 
 # A
+/^ai$/i
+
 /account$/i
 /^alert$/i
+/alzheimers/i
 /antivirus$/i
 
 # B
 /billionaire/i
 /bit?coin$/i
 /blockchain/i
+/breakthrough/i
 
 # C
 /cancer$/i
 /congratulations/i
+/constipation/i
 
 # D
+/dementia/i
+/dizziness/i
 /donation$/i
 
 # E
 /e.?draw$/i
+/ejaculation/i
 
 # F
+/facelift/i
 
 # G
 
 # H
+/hallux/i
 /^help.?center$/i
 /^hr.?department$/i
 
 # I
 /illuminati/i
-/investment$/i
+/^investmanet$/i
 /invoice/i
 
 # J
@@ -52,26 +62,40 @@
 
 # M
 /mail$/i
+
+/menupausal/i
+/menupause/i
+
+/migraine/i
 /milf$/i
 
 # N
+/neuropathy/i
 /^notice$/i
 
 # O
+/osteoporosis/i
 
 # P
 /playboy$/i
 /purchase$/i
+
 /procurements$/i
+/prostate/i
+/prostatitis/i
 
 # Q
 
 # R
 
 # S
+/slimming/i
+/stiffy/i
 
 # T
 /^team$/i
+/thyroid/i
+/tinnitus$/i
 
 # U
 /unclaimed/i
@@ -84,90 +108,6 @@
 /warning$/i
 /^watches$/i
 /^webdesign$/i
-
-# X
-
-# Y
-
-# Z
-# ==============================================================================
-# Sender: This file contains names of senders that consist of only one word.
-# To avoid false/positives, most senders are equipped with line boundaries.
-#
-# The words should be generic as possible.
-#
-# Topic:    Generic
-# Language: English
-# Weight:   6.0
-# ==============================================================================
-
-# A
-/^ai$/i
-
-/alzheimers/i
-
-# B
-/breakthrough/i
-
-# C
-/constipation/i
-
-# D
-/dementia/i
-/dizziness/i
-
-# E
-/ejaculation/i
-
-# F
-/facelift/i
-
-# G
-
-# H
-/hallux/i
-
-# I
-/^investmanet$/i
-
-# J
-
-# K
-
-# L
-
-# M
-/menupausal/i
-/menupause/i
-
-/migraine/i
-
-# N
-/neuropathy/i
-
-# O
-/osteoporosis/i
-
-# P
-/prostate/i
-/prostatitis/i
-# Q
-
-# R
-
-# S
-/slimming/i
-/stiffy/i
-
-# T
-/thyroid/i
-/tinnitus$/i
-
-# U
-
-# V
-
-# W
 
 # X
 
