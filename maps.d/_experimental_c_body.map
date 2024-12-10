@@ -54,29 +54,8 @@
 # Sample: <a style="display:none;" href="http://irelatilized.jp.net/4O0c084nml0mp3rr-8trgsi1wqt1qt1mstra600001" >.</a
 /<a style="display:none;".{1,10}href=.?http:\/\//i
 
-# No need to use images from wikipedia
-/upload\.wikimedia\.org\/wikipedia\/commons\/thumb/i
-
 # Companies
 # ------------------------------------------------------------------------------
-# SMBC
-/copyright smbc consumer finance co/i
-
-# JCB
-/jcb co.{1,10}ltd\./i
-
-#
-#
-#
-
-# URL's in image tags can not be catched with
-#  type = "url";
-#  filter = "full";
-# 
-# Let's try it this way
-# ------------------------------------------------------------------------------
-/zupimages\.net/i
-/i\.postimg\.cc/i
 
 #
 #
@@ -99,11 +78,13 @@
 /src=.{0,5}https?:\/\/i\.ibb\.co/i
 /src=.{0,5}https?:\/\/imgur\.com/i
 /src=.{0,5}https?:\/\/[a-z0-9]{5,20}\.imgur\.com/i
-/src=.{0,5}https?:\/\/[a-z0-9]{5,20}\.cloudfront\.net/i
 /src=.{0,5}https?:\/\/upload\.wikimedia\.org\/wikipedia\/commons/i
 /src=.{0,5}https?:\/\/pbs\.twimg\.com/i
 /src=.{0,5}https?:\/\/yahoo\.com/i
 /src=.{0,5}https?:\/\/zupimages\.net/i
+
+# Lower Score
+/src=.{0,5}https?:\/\/[a-z0-9]{5,20}\.cloudfront\.net/i 1.0
 
 # CSS
 /background: url\(.?https:\/\/i\.imgur\.com/i
