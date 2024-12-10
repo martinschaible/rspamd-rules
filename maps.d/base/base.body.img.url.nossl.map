@@ -1,0 +1,12 @@
+# ==============================================================================
+# Actually, all links (href tag and img tag) should work with SSL.
+# Spammers often use links without SSL. Unfortunately, the false/positive rate
+# is too high for a generic rule with high weighting.
+#
+# Better rules are linked to specific characteristics such as TLD.
+#
+# Language: -
+# Weight:   3.0
+# ==============================================================================
+
+/<img src=.{0,5}http:\/\//i 1.0
