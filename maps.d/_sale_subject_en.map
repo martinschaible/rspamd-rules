@@ -29,7 +29,7 @@
 
 # E Bike
 # ------------------------------------------------------------------------------
-/(assist|cutting.?edge|fat tire|pedal).{1,10}e(lectric)?.?bikes?/i
+/(assist|cutting.?edge|fat tire|pedal|powerful|sleek).{1,10}e(lectric)?.?bikes?/i
 /(germany|our) warehouse/i
 
 /trusted electric bicycle/i
@@ -39,6 +39,8 @@
 /moped style e.?bike/i
 
 /our.{1,15}(electric.?bike|moped)/i
+
+/with our e.?bike/i
 
 # Fuel Saver
 # ------------------------------------------------------------------------------
@@ -84,6 +86,11 @@
 
 # Surveillance Camera
 # ------------------------------------------------------------------------------
+/(cam|secure).?(mini|protect|vision)/i
+
+/(mini|spy|watch).?cam/i
+
+/save.?spy/i
 
 # Watches, Replicas
 # ------------------------------------------------------------------------------
@@ -218,7 +225,7 @@
 /s\.e\.o\./i
 
 /seo.{1,10}(agency|best cost|low cost|offer|service)/i
-/seo.{1,15}(expert|package|plans?|pricing|promote|proposal|services|success)/i
+/seo.{1,15}(expert|package|performance|plans?|pricing|promote|proposal|services|success)/i
 
 /rank\.\./i
 /^(1st|first|seo|top) page \?/i
@@ -237,6 +244,7 @@
 
 /(boost|rank) your.{1,10}(online presence|rankings)/i
 /(boost|rank) your.{1,10}sales with.{1,15}seo/i
+/boost your web.?site.{1,10}seo/i
 
 /full seo.?package/i
 
