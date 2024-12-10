@@ -87,12 +87,14 @@
 # Delivery Failed
 # ------------------------------------------------------------------------------
 /(paket|sendung).{1,20}aufgrund eines barcode.?fehlers/i
+/(paket|sendung).{1,20}nicht zugestellt werden.{1,20}fehler beim barcode/i
 /(paket|sendung).{1,20}kann nicht zugestellt werden.{1,20}aktualisieren sie.{1,15}adresse/i
 /(paket|sendung).{1,20}konnte nicht.{1,10}zugestellt werden.{1,15}falsche.{1,15}adresse/i
 /(paket|sendung).{1,20}konnte nicht.{1,20}werden.{1,10}da bei derzustellung/i
+
 /(paket|sendung).{1,20}zustellen.{1,10}aufgrund einer falschen.{1,15}adresse/i
 /(paket|sendung).{1,20}zustellen.{1,10}da ihre adresse falsch ist/i
-/(paket|sendung).{1,20}zustellen.{1,10}jedoch aufgrund eines Barcode/i
+/(paket|sendung).{1,20}zustellen.{1,10}jedoch aufgrund eines barcode/i
 
 /sehr geehrter kunde.{1,10}ihre sendung konnte/i
 /sehr geehrter kunde.{1,10}wir haben.{1,10}versucht.{1,10}ihr paket/i
