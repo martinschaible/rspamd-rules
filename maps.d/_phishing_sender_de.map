@@ -243,9 +243,6 @@
 /paypal.?(fall|hilfe.?center|konto|kunde|kundin|sicherheit|team)/i
 /servicekarte/i
 
-# Postbank
-/girokonto/i
-
 # Raiffeisen
 /raiffeisentwint/i
 
@@ -275,9 +272,6 @@
 /büro.{1,5}eidgenössische.{1,5}justiz/iu
 
 /estv.?(kundendienst|sicherheit)/i
-/rückerstattung/i
-/steuerrückerstattungsdienst/iu
-/steuerzahlung/i
 
 # Swiss Post
 # Real Sender: "Post CH AG - Info Sendungsstatus"
