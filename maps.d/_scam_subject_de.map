@@ -175,13 +175,16 @@
 
 # Comparing Bank Accounts
 # ------------------------------------------------------------------------------
-/gutschrift ihrer zinsen/i
 /(erinnerung|kostenlos).{1,15}tagesgeld.?konto/i
 /tagesgeld.{1,25}(garantiert|prozent|sicher|zinsen)/i
 /tagesgeld.?konten/i
 /tagesgelder/i
 
 /vergleichen sie jetzt kostenfrei/i
+
+# Fake messages
+/automatische zinsgutschrift/i
+/gutschrift ihrer zinsen/i
 
 # Comparing Solar energy
 # ------------------------------------------------------------------------------

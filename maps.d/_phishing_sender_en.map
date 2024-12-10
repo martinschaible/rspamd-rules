@@ -215,6 +215,9 @@
 
 /d\.h\.l/i
 
+# Decathlon
+/decathlon-/i
+
 # Deutsche Κrеdіtbаnk
 /dkb\.de/i
 
@@ -235,7 +238,6 @@
 /meta for business/i
 
 # German TV
-/(ard|zdf).?support/i
 
 # Hetzner
 /support.?hetzner/i
@@ -289,6 +291,7 @@
 
 # UPS
 /_ups_/i
+/ups \|/i
 
 # Volksbank
 /volksbanken$/i
