@@ -9,6 +9,8 @@
 
 # Loans
 # ------------------------------------------------------------------------------
+/^loan$/i
+
 /(finance|investment|loans?).{1,10}(apply|funding|offer|opportunities|opportunity|reduced)/i
 /(finance|financial).{1,10}loans/i
 

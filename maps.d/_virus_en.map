@@ -102,6 +102,10 @@
 /received.{1,10}new adobe files?/i
 /view.{1,10}document\.pdf/i
 
+# Secure Documents
+# ------------------------------------------------------------------------------
+/secure document received.{1,10}your document/i
+
 # Voicemail
 # ------------------------------------------------------------------------------
 /you have.{1,10}new voice message/i

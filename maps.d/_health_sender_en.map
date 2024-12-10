@@ -246,10 +246,10 @@
 # Eyes, Vision
 # ------------------------------------------------------------------------------
 /(bad|blurred|blurry|poor).?(eye.?sight|view|vision)/i
-/(20|clear|enhancing|flawless|night|perfect|restore|supreme|weak).?(eye.?sight|view|vision)/i
+/(20|clear|enhancing|flawless|new|night|perfect|restore|supreme|weak).?(eye.?sight|view|vision)/i
 
 /eagle.{1,10}vision/i
-/vision.?(enhancing|loss|restorer?)/i
+/vision.?(boost|enhancing|loss|restorer?)/i
 
 /bad.?eyes/i
 /hyperbolic.?stretching/i
@@ -530,10 +530,10 @@
 /(medical|miracle|new|scientists?).?(breakthrough|discovery)/i
 /(forgotten|mayan|miracle).?(remedy|seeds)/i
 
-/(japanese|unlock|wellness).{0,10}secret/i
+/(boosting|japanese|unlock|wellness).{0,10}secret/i
 
-/(ancient|crazy|dairy|japanese|liquid|morning|second|simple|taiwan).?(hack|ritual|protocol|remedies|remedy|secret|trick)/i
-/ancient.?(chocolate|healing)/i
+/(ancient|crazy|dairy).?(amazonian|chocolate|healing)/i
+/(amazonian|ancient|crazy|dairy|japanese|liquid|morning|second|simple|taiwan).?(hack|ritual|protocol|remedies|remedy|secret|trick)/i
 
 /mayan.?cleanse/i
 /(basic|secret).?protein/i

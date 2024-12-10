@@ -268,10 +268,11 @@
 /(co|limited|ltd).{1,15}is a high.?tech enterprise/
 /(co|limited|ltd).{1,15}is a factory specialized in/i
 /(co|limited|ltd).{1,15}is excited/i
-/(co|limited|ltd).{1,15}(leading|professional).{1,15}(company|manufacturer)/i
+/(co|limited|ltd).{1,20}(leading|professional).{1,15}(company|manufacturer)/i
 /(co|limited|ltd).{1,15}(specialized|specializes) in.{1,10}(high.?quality|import)/i
 /(co|limited|ltd).{1,20}(facilities|state.?of.?the.?art)/i
-/(co|limited|ltd).{1,15}we are leading.{1,15}professional/i
+/(co|limited|ltd).{1,15}we are.{1,10}leading.{1,15}professional/i
+/(co|limited|ltd).{1,15}we are.{1,10}professional.{1,15}manufacturer/i
 /(co|limited|ltd).{1,15}we.{1,10}(provide|supply|specialize)/i
 /(co|limited|ltd).{1,10}which is specializing in/i
 /(co|limited|ltd).{1,10}with over.{1,10}years/i
