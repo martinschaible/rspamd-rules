@@ -12,6 +12,8 @@
 # A
 /achtung/i
 
+/antragsprozess/i
+
 /auftragsbestätigung/iu
 /augenheilkunde/i
 /auszahlung/i
@@ -22,7 +24,10 @@
 /^apotheke$/i
 /apotheker/i
 
+/arsch.?luder/i
+
 # B
+/bankanlage/i
 /begrenzt/i
 
 /beitragsservice/i
@@ -40,7 +45,10 @@
 
 /bluthochdruck/i
 
+/bumsen/i
+
 # C
+/chatten/i
 
 # D
 /datenschutz$/i
@@ -57,12 +65,20 @@
 # F
 /fettleibigkeit/i
 /finanzierung$/i
+/finanzinstrumente?/i
 /finanzrevolution/i
 /frau\b/i
 /freigeschaltet/i
+/freundschafts.?anfrage/i
+
+/förder.?check/iu
 
 # G
 /geheiminvestition/i
+
+/geiles?/i
+/geheimnisvolle?/i
+
 /^geldsorgen/i
 /geldsparende/i
 /gerichtsvollzieher/i
@@ -73,9 +89,12 @@
 /gewinnspiel.?(team|zentrale)/i
 /gewinnerklärung/i
 
+/girokonto/i
+
 /glückwunsch/iu
 
 /gratuliert/i
+/grund.?einkommen/i
 
 /guthaben/i
 /gutscheine?/i
@@ -89,10 +108,12 @@
 
 # I
 /illuminaten/i
+/immobilien.?preise/i
 /investieren$/i
 /investment.?fond/i
 
 # J
+/jungfrauen/i
 
 # K
 /kahlheit/i
@@ -100,6 +121,7 @@
 
 /kassen$/i
 /käuferumfrage/iu
+/kennenlernen/i
 /kissen$/i
 /kreditsachbearbeiter/i
 
@@ -142,6 +164,8 @@
 /proktologie/i
 /prostata/i
 
+/pv.?anlage/i
+
 # Q
 
 # R
@@ -153,16 +177,28 @@
 /rundfunkbeitrag/i
 /rundfunkservice/i
 
+/rückerstattung/i
+
 # S
 /schlankheit/i
 /schutzpartner/i
 
 /sehkraft/i
 /selektiert/i
+/sex.?gruppe/i
+
 /sicherheits.?team/i
 /spende\b/i
+
+/steuerrückerstattungsdienst/iu
+/steuerzahlung/i
 /stromkosten/i
+
+/schufa.?auskunft/i
 /schutzmasken/i
+
+/sofort.?gewinn/i
+/solar.?(förderung|vergleich)/iu
 
 /sprach.?nachricht(en)?/i
 
