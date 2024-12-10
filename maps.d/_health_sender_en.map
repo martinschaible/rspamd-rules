@@ -16,8 +16,6 @@
 /(male|men|penis).?(enhancement|enlargement|growth|increase|solution)/i
 /mens?.?(only|power)/i
 
-/ejaculation/i
-
 # Penis
 /(african|amazonian).{0,10}(banana|boner|elder|member|pecker|penis|stick|wood)/i
 /(bigger|buried|fuller).{0,10}(banana|boner|elder|member|pecker|penis|stick|wood)/i
@@ -39,7 +37,6 @@
 /hard.?in.?minutes/i
 
 /rock.?hard/i
-/stiffy/i
 
 # Meds
 /blue.?(pill|replacement)/i
@@ -83,7 +80,6 @@
 /powerful.?juice/i
 
 /bulging.?belly/i
-/slimming/i
 /slim.?(belly|body|down|waist)/i
 /stay.?slim/i
 /stop.?eating/i
@@ -128,7 +124,6 @@
 # ------------------------------------------------------------------------------
 /healthy.?(brain|secret)/i
 
-/alzheimers/i
 /(alzheimer|dementia).{1,10}(alert|test|trigger|warning)/i
 /brain.?(booster|cell|damage|fog|health|nutrient|scan)/i
 /exotic.?spice/i
@@ -190,7 +185,6 @@
 
 # Constipation
 # ------------------------------------------------------------------------------
-/constipation/i
 /cleansing.?pads/i
 
 # Covid
@@ -199,7 +193,6 @@
 # Dementia
 # ------------------------------------------------------------------------------
 /cognitive.?decline/i
-/dementia/i
 /sharp.?mind/i
 
 # Detox, Patch
@@ -235,7 +228,6 @@
 
 # Dizziness
 # ------------------------------------------------------------------------------
-/dizziness/i
 
 # Ears, Tinitus
 # ------------------------------------------------------------------------------
@@ -246,7 +238,6 @@
 
 /(beat|destroy|end|goodbye|stop).?tinnitus/i
 
-/tinnitus$/i
 /tinnitus.?(cure|memory|symptoms|warning)/i
 
 /(buzzing|stop).{0,10}noise/i
@@ -327,7 +318,6 @@
 # Hallux
 # ------------------------------------------------------------------------------
 #/hallux.?valgus/i
-/hallux/i
 
 # Health
 # ------------------------------------------------------------------------------
@@ -402,8 +392,6 @@
 
 # Menopause
 # ------------------------------------------------------------------------------
-/menupausal/i
-/menupause/i
 
 # Metabolism
 # ------------------------------------------------------------------------------
@@ -413,7 +401,6 @@
 
 # Migraine
 # ------------------------------------------------------------------------------
-/migraine/i
 
 # Muscle Pain
 # ------------------------------------------------------------------------------
@@ -421,11 +408,9 @@
 
 # Neuropathy
 # ------------------------------------------------------------------------------
-/neuropathy/i
 
 # Osteoporosis
 # ------------------------------------------------------------------------------
-/osteoporosis/i
 
 # Pain
 # ------------------------------------------------------------------------------
@@ -449,7 +434,6 @@
 
 # Prostatitis
 # ------------------------------------------------------------------------------
-/(prostate|prostatitis)/i
 /(nightmare|your).?pee/i
 /(urin|pee).?leaks/i
 
@@ -461,7 +445,6 @@
 /skin.{0,10}(care|cure|sagging)/i
 /(aged|aging|perfect|radiant|smooth|youth).?skin/i
 /(dark|face).?spots?/i
-/facelift/i
 
 # Sleep
 # ------------------------------------------------------------------------------
@@ -506,7 +489,6 @@
 
 # Thyroid (Schilddrüse)
 # ------------------------------------------------------------------------------
-/thyroid/i
 
 # Veins
 # ------------------------------------------------------------------------------
@@ -545,8 +527,6 @@
 
 # Miracle, Breaktrough, Secrets, Videos
 # ------------------------------------------------------------------------------
-/breakthrough/i
-
 /(medical|miracle|new|scientists?).?(breakthrough|discovery)/i
 /(forgotten|mayan|miracle).?(remedy|seeds)/i
 
