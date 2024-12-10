@@ -40,11 +40,6 @@
 /http:\/\/[a-z0-9-]{3,25}\.[a-z0-9-]{3,25}\.(ru|sa|za)\.com\//i
 /http:\/\/[a-z0-9-]{3,25}\.[a-z0-9-]{3,25}\.co\.(in|uk)\//i
 
-# No SSL Image Tag
-# ------------------------------------------------------------------------------
-# Too many F/P
-# /<img src=.{0,5}http:\/\//i 3.0
-
 # No SSL Google
 # ------------------------------------------------------------------------------
 /a href=.{0,5}http:\/\/google\.com/i
@@ -54,37 +49,7 @@
 # Sample: <a style="display:none;" href="http://irelatilized.jp.net/4O0c084nml0mp3rr-8trgsi1wqt1qt1mstra600001" >.</a
 /<a style="display:none;".{1,10}href=.?http:\/\//i
 
-# Companies
-# ------------------------------------------------------------------------------
-
-#
-#
-#
-
 # Redirects
+# ------------------------------------------------------------------------------
 /data-saferedirecturl=.{0,5}https://www\.google\.com/i
 
-#
-#
-#
-
-# Image Hosting
-# ------------------------------------------------------------------------------
-
-# Google
-/src=.{0,5}https:\/\/[a-z0-9]{3,10}\.googleusercontent\.com/i
-# Sample: scontent-ham3-1.xx.fbcdn.net
-/src=.{0,5}https?:\/\/scontent-.{4,6}\.xx\.fbcdn\.net/i
-/src=.{0,5}https?:\/\/i\.ibb\.co/i
-/src=.{0,5}https?:\/\/imgur\.com/i
-/src=.{0,5}https?:\/\/[a-z0-9]{5,20}\.imgur\.com/i
-/src=.{0,5}https?:\/\/upload\.wikimedia\.org\/wikipedia\/commons/i
-/src=.{0,5}https?:\/\/pbs\.twimg\.com/i
-/src=.{0,5}https?:\/\/yahoo\.com/i
-/src=.{0,5}https?:\/\/zupimages\.net/i
-
-# Lower Score
-/src=.{0,5}https?:\/\/[a-z0-9]{5,20}\.cloudfront\.net/i 1.0
-
-# CSS
-/background: url\(.?https:\/\/i\.imgur\.com/i
