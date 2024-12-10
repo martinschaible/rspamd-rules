@@ -29,18 +29,19 @@
 
 # E Bike
 # ------------------------------------------------------------------------------
-/(assist|cutting.?edge|fat tire|pedal|powerful|sleek).{1,10}e(lectric)?.?bikes?/i
+/(assist|cutting.?edge|fat tire|pedal|perfect|powerful|sleek).{1,10}e(lectric)?.?bikes?/i
 /(germany|our) warehouse/i
 
 /trusted electric bicycle/i
 
 /e(lectric)?.?bikes? (are|is|now) (available|here)/i
+/urban cruiser.{1,10}e(lectric)?.?bikes?/i
 
 /moped style e.?bike/i
 
 /our.{1,15}(electric.?bike|moped)/i
 
-/with our e.?bike/i
+/with.{1,10}(e.?bike|urban cruiser)/i
 
 # Fuel Saver
 # ------------------------------------------------------------------------------

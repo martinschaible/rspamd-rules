@@ -16,7 +16,7 @@
 
 # ETF (Exchange Traded Funds)
 # ------------------------------------------------------------------------------
-/etf.?customer/i
+/(eft|etf).?customer/i
 /spot.?etf/i
 
 # Make Money
