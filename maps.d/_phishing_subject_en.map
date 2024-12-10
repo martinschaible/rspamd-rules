@@ -28,6 +28,9 @@
 /rfq.?(oq|request)/i
 /rfq#order/i
 
+# Cards
+# ------------------------------------------------------------------------------
+
 # Accounts
 # ------------------------------------------------------------------------------
 /account security notification/i
@@ -203,8 +206,8 @@
 
 /this e?.?mail.?account.{1,30}is suspended/i
 
-/you have.{1,15}(held|important|undelivered|pending).{1,10}(e?.?mails?|messages?)/i
-/you have.{1,15}(held|important|undelivered|pending).{1,10}incoming.{1,10}(e?.?mails?|messages?)/i
+/(review|you have).{1,15}(held|important|undelivered|pending).{1,15}(e?.?mails?|messages?)/i
+/you have.{1,15}(held|important|undelivered|pending).{1,10}incoming.{1,15}(e?.?mails?|messages?)/i
 /your e?.?mail.?account.{1,10} will be deleted/i
 /your incoming.{1,10}(e?.?mail|messages) bounced/i
 
@@ -274,6 +277,9 @@
 
 # Postfinance
 /postfinance.{1,10}update/i
+
+# Swisspass
+/^swisspass$/i
 
 # Swiss Post
 /swiss.?post/i

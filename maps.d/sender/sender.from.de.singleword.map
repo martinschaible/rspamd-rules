@@ -55,10 +55,12 @@
 # F
 /fettleibigkeit/i
 /finanzierung$/i
+/finanzrevolution/i
 /frau\b/i
 /freigeschaltet/i
 
 # G
+/geheiminvestition/i
 /^geldsorgen/i
 /geldsparende/i
 /gerichtsvollzieher/i
@@ -117,6 +119,7 @@
 
 # M
 /meldungsservice/i
+/methode/i
 /mitgliedschaft/i
 
 # N
@@ -141,7 +144,8 @@
 /revolutionär/i
 /rezeptfrei/i
 
-/rundfunk.?(beitrag|service)/i
+/rundfunkbeitrag/i
+/rundfunkservice/i
 
 # S
 /schlankheit/i
@@ -171,11 +175,13 @@
 #/versand$/i
 /verkaufs.?automat/i
 
+/^versand$/i
 /^vertriebs.?zentrum$/i
 
 # W
 /weiterempfehlung/i
-/werbe.?geschenk/i
+/werbegeschenk/i
+/werbemittel/i
 /wichtig$/i
 /willkommen/i
 /wunder/i

@@ -117,7 +117,7 @@
 /(chatgpt|ki).{1,10}(verschenkt|verspricht).{1,15}(geld|gewinne|reichtum|rendite)/i
 /(chatgpt|ki).{1,15}handel/i
 /(chatgpt|ki).{1,10}geld.{1,10}(machen|verdienen)/i
-/(chatgpt|ki).{1,10}macht menschen reich/i
+/(chatgpt|ki).{1,10}reich/i
 /(chatgpt|ki).{1,10}(wählt aktien|wird sie)/i
 
 /aktien.?(auswahl|handel).{1,10}(chatgpt|ki)/i
@@ -182,13 +182,12 @@
 # Unclassified
 # ------------------------------------------------------------------------------
 /finanzielle revolution/i
-/finanzrevolution/i
-/geheiminvestition/i
 
 /ihr grundgehalt steigt/i
 /investiert hier/i
 /die neue boomphase/i
 
+/euro?.{1,10}dividendenauszahlung/i
 /(bahnbrechendes|revolutionäres).{1,10}projekt.{1,10}(enthüllt|finanziellen)/iu
 
 /revolutionäre microsoft.?initiative/iu
