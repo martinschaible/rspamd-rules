@@ -5,42 +5,23 @@
 #  10 | English        |
 # ==============================================================================
 
-# Pharmacy
-# ------------------------------------------------------------------------------
-
 # Men
 # ------------------------------------------------------------------------------
 /(ed|enhancement|enlargement).?(gummie?s|news|treatment|solution)/i
 /(climax|erectile|libido|manhood)/i
 
 /(male|men|penis).?(enhancement|enlargement|growth|increase|solution)/i
-/mens?.?(only|power)/i
 
 # Penis
 /(african|amazonian).{0,10}(banana|boner|elder|member|pecker|penis|stick|wood)/i
 /(bigger|buried|fuller).{0,10}(banana|boner|elder|member|pecker|penis|stick|wood)/i
 /(grow your|hard|iron.?clad|inch|instant|soft|stiff|thicker).{0,10}(banana|boner|elder|member|pecker|penis|stick|wood)/i
 
-/big.?size/i
-
 /(fuller|harder|thicker).?stronger/i
-/thicker.{0,10}harder/i
-
-/twist.{0,10}growth/i
-/penis.?(muscle|ritual)/i
-/p\*nis/i
 
 /(increase|enhance).{0,10}(stamina|size)/i
-/bedroom.?secrets?/i
 
 /(hard|iron).{0,10}erection/i
-/hard.?in.?minutes/i
-
-/rock.?hard/i
-
-# Meds
-/blue.?(pill|replacement)/i
-/replace.?blue/i
 
 # Potency, Stamina
 # ------------------------------------------------------------------------------
@@ -53,44 +34,21 @@
 # Weightloss
 # ------------------------------------------------------------------------------
 /(belly|burn|eliminates?|lose|melt|shed|stubborn|wobbly).{0,10}(bloat|fat|flab|lbs|pounds|weight)/i
+/(lose|melt|shed).?\d{2}/i
 
-/(big|bloated|bulging|flat|slimmer|tiny|your).?belly/i
-
-/big.?stomach/i
-/breakfast.?hack/i
-/calorie.?booster/i
-/dairy.?secret/i
-/diy.?lipo/i
-/effortless.?slimming/i
+/(bloated|bulging|flat|slimmer|tiny|your).?belly/i
 
 /fat.?(fast|loss|vanish)/i
 /fat.?(burn(er)?|burning|flush|melting)/i
 
-/fasting.?seeds/i
-/(big|flat).?(melting|stomach|tummy)/i
-/food.?cravings/i
+/(flat).?(melting|stomach)/i
 
-/honey.?burn/i
-
-/lose.?\d{2}/i
-
-/morning.?oil/i
-
-/power.?shape/i
-/powerful.?juice/i
-
-/bulging.?belly/i
 /slim.?(belly|body|down|waist)/i
-/stay.?slim/i
-/stop.?eating/i
 /(metabolic|surprising).?water/i
 
 /(toxic|visceral).?fat/i
 
-/w.?loss/i
-
 /o.{0,3}p.{0,3}r.{0,3}a.{0,3}h/i
-/odd.?(liquid|tonic)/i
 
 /(chocolate|daily|dairy|gummies|k2|simple|weard).?(diet|drink)/i
 /(k2|man|slimm).{0,10}gummies/i
@@ -98,11 +56,7 @@
 /(breakfast|coffee|hidden|liposuction|muscle|water).?trick/i
 /(diet|gummy|magic|special|unusual|yummy).?(drink|hack|tea)/i
 
-/waistline/i
 /weight.?(drop(per)?|goals?|loss)/i
-
-# Recipe
-/(smoothie|night(ly)?|water|wl).?recipe/i
 
 #
 #
@@ -111,125 +65,36 @@
 # Everything else
 # ==============================================================================
 
-# Health general
-# ------------------------------------------------------------------------------
-/(health|wellness)?.{0,10}insights/i
-/healthy.?(power|transformation)/i
-/(womens|your).?health/i
-
-# Alcohol
-# ------------------------------------------------------------------------------
-
 # Alzheimer, Dementia
 # ------------------------------------------------------------------------------
-/healthy.?(brain|secret)/i
 
 /(alzheimer|dementia).{1,10}(alert|test|trigger|warning)/i
 /brain.?(booster|cell|damage|fog|health|nutrient|scan|trick)/i
-/exotic.?spice/i
-/senior.?moments/i
-
-/your.?brain/i
 
 # Memory
 /memory.{0,10}(booster|cure|hack|improver|improvement|laps(es)?|loss|protection|restore|saving|tonic)/i
 /(excellent|future|poor|restore|sharp|your).?memory/i
-/forgetful/i
-/sharper.?(mind|thinking)/i
-
-# Anti Aging
-# ------------------------------------------------------------------------------
-/anti.?aging.?(formula|hack)/i
-
-# Arthritis
-# ------------------------------------------------------------------------------
-/arthritis.?gone/i
-
-# Back
-# ------------------------------------------------------------------------------
-/back.?(pain|stretch)/i
-
-/(morning|one|second|simple).?stretch/i
-
-/sore.?back/i
-/unlock.?hips/i
 
 # Bladder
 # ------------------------------------------------------------------------------
 /bladder.?(care|danger|fix|health|leaks?|leakage|leaking|issues?|relief)/i
 /(bad|big|weak).?bladder/i
-/urine.?leaks?/i
-
-# Bones
-# ------------------------------------------------------------------------------
-/bone.?health/i
-
-# Breath
-# ------------------------------------------------------------------------------
-/stinky.?breath/i
 
 # Breathing
 # ------------------------------------------------------------------------------
 /(breathe|breathing).?(better|easier|easy)/i
 
-# CBD
-# ------------------------------------------------------------------------------
-/cbd.{0,10}(fruit|gummies)/i
-
 # Cholesterol
 # ------------------------------------------------------------------------------
 /(control|high|low).?cholesterol/i
 
-# Colon
-# ------------------------------------------------------------------------------
-/(colon|detox).?cleanse/i
-/cleanse.?recepie/i
-
-# Constipation
-# ------------------------------------------------------------------------------
-/cleansing.?pads/i
-
-# Covid
-# ------------------------------------------------------------------------------
-
-# Dementia
-# ------------------------------------------------------------------------------
-/cognitive.?decline/i
-/sharp.?mind/i
-
-# Detox, Patch
-# ------------------------------------------------------------------------------
-/(daily|soup).?detox/i
-/detox your/i
-
-# Diabetes
-# ------------------------------------------------------------------------------
-/blood.?sugar/i
-
-/(diabetes|insuline?)/i
-
-/end.?type.?2/i
-/sugar.?(defender|disease|levels?|spikes?)/i
-/hidden.?protein/i
-
-/glucose.?hack/i
-/(control|high|low)er?.?(a1c|glucose)/i
-
-/clean.?cell/i
-
 # Digestive System
 # ------------------------------------------------------------------------------
-/digestive.?system/i
-/poop.?type/i
 /(better|your).?(digestion|poop)/i
 
 /(can|daily|stuck).{0,10}poops?/i
 
-/fruit.?mistake/i
 /(common|healthy|sugary?).?fruit/i
-
-# Dizziness
-# ------------------------------------------------------------------------------
 
 # Ears, Tinitus
 # ------------------------------------------------------------------------------
@@ -243,34 +108,6 @@
 /tinnitus.?(cure|memory|symptoms|warning)/i
 
 /(buzzing|stop).{0,10}noise/i
-/odd.?mineral/i
-
-# Eyes, Vision
-# ------------------------------------------------------------------------------
-/(bad|blurred|blurry|poor).?(eye.?sight|view|vision)/i
-/(20|clear|enhancing|flawless|new|night|perfect|restore|supreme|weak).?(eye.?sight|view|vision)/i
-
-/eagle.{1,10}vision/i
-/vision.?(20.?20|boost|enhancing|loss|restorer?)/i
-
-/bad.?eyes/i
-/hyperbolic.?stretching/i
-
-/eye.?(exercise|surgery)/i
-/sight.?care/i
-
-# Glasses
-/see clearer with this/i
-
-# Fatigue
-# ------------------------------------------------------------------------------
-/fatigue.?bloating/i
-/daily.?fatigue/i
-
-# Feet
-# ------------------------------------------------------------------------------
-/(feet|foot).?(detox|massage)/i
-/nuubu/i
 
 # Fungus, Nails
 # ------------------------------------------------------------------------------
@@ -282,85 +119,12 @@
 
 /(cracked|healthy|nasty|rotten|toe|ugly|yellow).{1,10}(nails|toe)/i
 
-/nail.?rub/i
-
-# Food
-# ------------------------------------------------------------------------------
-/food.?choices?/i
-/worst.?breakfast/i
-
-/toxic.?milk/i
-
-# Gums
-# ------------------------------------------------------------------------------
-/(bleeding|healthier).?gums/i
-/gum.?bleeding/i
-/oral.?flush/i
-
-# Gut
-# ------------------------------------------------------------------------------
-/gut.?(detox|flush|health)/i
-/(healthy|your).?gut/i
-
-# Haemorrhoids
-# ------------------------------------------------------------------------------
-
-# Herpes
-# ------------------------------------------------------------------------------
-/herpes.?outbreak/i
-
-# Hair growth
-# ------------------------------------------------------------------------------
-/hair.?(loss|renewal|restoration)/i
-/hair.?(re)?growth/i
-
-/bald.?spot/i
-/full(er)?.?hair/i
-
-# Hallux
-# ------------------------------------------------------------------------------
-#/hallux.?valgus/i
-
-# Health
-# ------------------------------------------------------------------------------
-/(health|quick).?boost(er)?/i
-/better.?health/i
-/boost.?energy/i
-
 # Hearing
 # ------------------------------------------------------------------------------
 /hear(ing)?.(aid|loss|noise|restorer?)/i
 
 /(bad|restore).?hearing/i
-/ear.?humming/i
 /sharp(er)?.?ears/i
-
-# Heart, Blood pressure
-# ------------------------------------------------------------------------------
-/heart.?(attack|health)/i
-
-/blood.?(glucose|pressure|sugar)/i
-/(balanced|high|your).?blood/i
-
-/artery.?plaque/i
-/clogged.?arteries/i
-/dangerous.?health/i
-/your heart/i
-
-# Herpes
-# ------------------------------------------------------------------------------
-/(cure|remove).?herpes/i
-/herpes.?(cure|eliminator)/i
-/(ultimate|uncommon).?cure/i
-
-# Hips
-# ------------------------------------------------------------------------------
-/your.?pelvis/i
-
-# Immune system
-# ------------------------------------------------------------------------------
-/immune.?system/i
-/strong(er)?.?immunity/i
 
 # Joints
 # ------------------------------------------------------------------------------
@@ -369,79 +133,9 @@
 
 /(anti|chronic).?(inflammation|inflammatory)/i
 
-# Kidneys
-# ------------------------------------------------------------------------------
-/dead.?kidneys/i
-
-# Knee
-# ------------------------------------------------------------------------------
-/(aching|bad|circa|painful|sore|swollen|your).?knees?/i
-/knee.?(cartilage|compression|help|pain|stiffness)/i
-/compression.?sleeve/i
-
-# Liver
-# ------------------------------------------------------------------------------
-/(dying|fatty|your).?liver/i
-/liver.?(damage|detox|fix|health|renew|support)/i
-/liv.?pure/i
-
-# Lung
-# ------------------------------------------------------------------------------
-/lung.?trust/i
-/breath.?better/i
-
-# Mask
-# ------------------------------------------------------------------------------
-
-# Menopause
-# ------------------------------------------------------------------------------
-
-# Metabolism
-# ------------------------------------------------------------------------------
-/lipo.trick/i
-/harmful.?veggies/i
-/metabolism.?(booster|loophole)/i
-
-# Migraine
-# ------------------------------------------------------------------------------
-
-# Muscle Pain
-# ------------------------------------------------------------------------------
-/muscle.?(miracle|pain)/i
-
-# Neuropathy
-# ------------------------------------------------------------------------------
-
-# Osteoporosis
-# ------------------------------------------------------------------------------
-
-# Pain
-# ------------------------------------------------------------------------------
-/pain.?(free|gone|indicator|killer|miracle|no.?more|quiz|relief|remover)/i
-
-/(chronic|chrippling|ease|end|erase|joint|neck|nerve|reduces).{0,10}pain/i
-/aching.?points/i
-/chronic.?inflammation/i
-/(modern|relief).?miracle/i
-/body.?balance/i
-
-/silence pain in.{1,10}seconds/i
-
-# Patches
-# ------------------------------------------------------------------------------
-/medicinal.?patch(es)?/i
-
-# Posture
-# ------------------------------------------------------------------------------
-/poor.?posture/i
-
 # Prostatitis
 # ------------------------------------------------------------------------------
-/(nightmare|your).?pee/i
 /(urin|pee).?leaks/i
-
-/dribbling.{1,10}urine/i
-/pelvic.?recovery/i
 
 # Skin
 # ------------------------------------------------------------------------------
@@ -449,136 +143,20 @@
 /(aged|aging|perfect|radiant|smooth|youth).?skin/i
 /(dark|face).?spots?/i
 
-# Sleep
-# ------------------------------------------------------------------------------
-/sleep.?(fix|instantly)/i
-/deep(er)?.?sleep/i
-/about.?sleeping/i
-
-/bedtime.?trick/i
-
-/stay.?asleep/i
-
-# Smoking
-# ------------------------------------------------------------------------------
-
-# Snoring
-# ------------------------------------------------------------------------------
-/snore.?stop/i
-/snoring.?(fix|solution)/i
-
-/(anti|fight|stop).?snoring/i
-
 # Stomach
 # ------------------------------------------------------------------------------
 /(bloated|flat(ten)?).{0,10}stomach/i
-/your stomach/i
-
-# Stroke
-# ------------------------------------------------------------------------------
-/dying.?signal/i
-
-# Teeth
-# ------------------------------------------------------------------------------
-/(teeth|tooth).{0,10}(gums|loss|rotting)/i
-/strong(er)?.?teeth/i
-/(perfect|rotting|yellow).?teeth/i
-
-/erase.?cavities/i
-/tooth.?decay/i
-
-/mineral.?combination/i
-
-/dental.?(issues|trick)/i
-
-# Thyroid (Schilddrüse)
-# ------------------------------------------------------------------------------
-
-# Veins
-# ------------------------------------------------------------------------------
-/veins.?(fix|trick)/i
-/varicose.veins/i
-
-# Wrinkles
-# ------------------------------------------------------------------------------
-/wrinkles/i
-/wrinkle.?cream/i
-
-/anti.?wrinkle/i
-/blue.?plant/i
-/renew.?ritual/i
-
-#
-#
-#
-
-# Medication, Pills
-# ------------------------------------------------------------------------------
-/top.?medication/i
-
-# Prescription
-# ------------------------------------------------------------------------------
-/prescription.?free/i
-
-# Recepies
-# ------------------------------------------------------------------------------
-/healthy.?alternative/i
-/thanksgiving.?delight/i
-
-#
-#
-#
 
 # Miracle, Breaktrough, Secrets, Videos
 # ------------------------------------------------------------------------------
-/(medical|miracle|new|scientists?).?(breakthrough|discovery)/i
-/(forgotten|mayan|miracle).?(remedy|seeds)/i
 
-/(boosting|japanese|unlock|wellness).{0,10}secret/i
-
-/(ancient|crazy|dairy).?(amazonian|chocolate|healing)/i
-/(amazonian|ancient|crazy|dairy|japanese|liquid|morning|second|simple|taiwan).{0,10}(hack|ritual|protocol|remedies|remedy|secret|trick)/i
-
-/mayan.?cleanse/i
 /(basic|secret).?protein/i
 
-/nasa.?(scientists?|study)/i
-
-#
-#
-#
-
-# Masked
-# ------------------------------------------------------------------------------
-/m-a-l-e/i
 
 # Unclassified
 # ------------------------------------------------------------------------------
-
-/going.?viral/i
-
 /(avoid|drink).{0,10}(cup|this)/i
-/cancel(ed)?.?surgery/i
-/clinically.?proven/i
 
-/dead.?foods?/i
-/do this/i
-/dr.?derm/i
-/doctor.?warning/i
-
-/eat.{0,10}(fruitme|me|this)/i
-
-/energy.?without/i
-/(exotic|natural).?herb/i
-/fried.?chicken/i
 /healing.?(massage|technology)/i
-/hidden.?toxin/i
 /home.?(treatment|with ease)/i
-/make your own/i
-/(miracle|morning).?(drink|mistake)/i
-/natural.?solution/i
-/secret.?weapon/i
 /this.{0,10}elixir/i
-
-/youthful.?boost/i
-/your.?craving/i
