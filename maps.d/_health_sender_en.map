@@ -125,7 +125,7 @@
 /healthy.?(brain|secret)/i
 
 /(alzheimer|dementia).{1,10}(alert|test|trigger|warning)/i
-/brain.?(booster|cell|damage|fog|health|nutrient|scan)/i
+/brain.?(booster|cell|damage|fog|health|nutrient|scan|trick)/i
 /exotic.?spice/i
 /senior.?moments/i
 
@@ -453,6 +453,7 @@
 # ------------------------------------------------------------------------------
 /sleep.?(fix|instantly)/i
 /deep(er)?.?sleep/i
+/about.?sleeping/i
 
 /bedtime.?trick/i
 
@@ -536,7 +537,7 @@
 /(boosting|japanese|unlock|wellness).{0,10}secret/i
 
 /(ancient|crazy|dairy).?(amazonian|chocolate|healing)/i
-/(amazonian|ancient|crazy|dairy|japanese|liquid|morning|second|simple|taiwan).?(hack|ritual|protocol|remedies|remedy|secret|trick)/i
+/(amazonian|ancient|crazy|dairy|japanese|liquid|morning|second|simple|taiwan).{0,10}(hack|ritual|protocol|remedies|remedy|secret|trick)/i
 
 /mayan.?cleanse/i
 /(basic|secret).?protein/i
