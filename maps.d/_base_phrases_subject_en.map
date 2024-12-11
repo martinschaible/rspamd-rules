@@ -136,7 +136,8 @@ this message is for you/i
 
 # No reply
 # ------------------------------------------------------------------------------
-/follow up.{1,10}(any update|checking on|heard back|still waiting|no reply)/i
+/follow up.{1,10}(any update|checking on|follow(ing)? up|heard back|still a?waiting|wanted to)/i
+/follow up.{1,10}(no reply|received)/i
 /follow up.{1,10}just (checking|following)/i
 
 #

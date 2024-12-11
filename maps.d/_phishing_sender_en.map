@@ -41,7 +41,7 @@
 # ------------------------------------------------------------------------------
 /support!/i
 
-/(admin|e?.?mail).{0,10}(alert|helpdesk|security|server|support)/i
+/(admin|e?.?mail).{0,10}(alert|helpdesk|it^|security|server|support)/i
 
 /(imap|pop).?settings/i
 

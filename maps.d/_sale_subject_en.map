@@ -32,16 +32,12 @@
 /(assist|cutting.?edge|fat tire|pedal|perfect|powerful|sleek).{1,10}e(lectric)?.?bikes?/i
 /(germany|our) warehouse/i
 
-/trusted electric bicycle/i
+/trusted e(lectric)?.?bicycle/i
 
 /e(lectric)?.?bikes? (are|is|now) (available|here)/i
-/urban cruiser.{1,10}e(lectric)?.?bikes?/i
 
-/moped style e.?bike/i
-
-/our.{1,15}(electric.?bike|moped)/i
-
-/with.{1,10}(e.?bike|urban cruiser)/i
+/(featured|moped style|urban cruiser).{1,10}e(lectric)?.?bikes?/i
+/(our|with).{1,15}(e(lectric)?.?bike|moped|urban cruiser)/i
 
 # Fuel Saver
 # ------------------------------------------------------------------------------
