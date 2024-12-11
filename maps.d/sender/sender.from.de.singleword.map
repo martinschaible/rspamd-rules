@@ -12,6 +12,8 @@
 # A
 /achtung/i
 
+/antihaftbeschichtung/i
+/antiviren.?partner/i
 /antragsprozess/i
 
 /auftragsbestätigung/iu
@@ -51,6 +53,7 @@
 
 # C
 /chatten/i
+/computer.?schutz/i
 
 # D
 /datenschutz$/i
@@ -79,6 +82,7 @@
 # G
 /gebührenfrei/i
 /geheiminvestition/i
+/gerätesicherheit/iu
 
 /geiles?/i
 /geheimnisvolle?/i
@@ -146,6 +150,8 @@
 /^logistik$/i
 
 # M
+/malware.?schutz/i
+
 /meldungsservice/i
 /methode/i
 /mitgliedschaft/i
@@ -206,6 +212,7 @@
 /schutzmasken/i
 
 /sofort.?gewinn/i
+/sofort.?kredit/i
 /solar.?(förderung|vergleich)/iu
 
 /sprach.?nachricht(en)?/i
@@ -213,6 +220,8 @@
 # T
 /tabletten$/i
 /tagesgewinner/i
+
+/telefon.?anlage/i
 /testsieger$/i
 
 # U
@@ -228,12 +237,16 @@
 /^versand$/i
 /^vertriebs.?zentrum$/i
 
+/(viren|virus).?(bedrohung(en)?|schutz)/i
+
 # W
+/wasserspender/i
 /weihnachtslotterie/i
 /weiterempfehlung/i
 
 /werbegeschenk/i
 /werbemittel/i
+/werkzeugset/i
 
 /wichtig!?$/i
 /willkommen/i
