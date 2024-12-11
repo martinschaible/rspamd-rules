@@ -151,6 +151,7 @@
 
 # Pay Customs, Fees, VAT
 # ------------------------------------------------------------------------------
+/(paket|sendung).{1,10}abzuschlie(ss|ß)en.{1,10}bitten wir sie.{1,10}die zollgebühren/iu
 /(paket|sendung).{1,10}abzuschlie(ss|ß)en.{1,10}bestätigen sie.{1,10}die zahlung/iu
 /(paket|sendung).{1,10}aufgrund.{1,10}fehlender versandkosten nicht liefern/i
 /(paket|sendung).{1,10}aufgrund.{1,10}(nicht bezahlter|unbezahlter).{1,10}zollgebühren/iu
@@ -251,6 +252,7 @@
 
 /zoll bearbeitet.{1,10}bitte zahlen sie/i
 /zölle anfallen.{1,10}die bezahlt werden müssen/iu
+/zollgebühren in höhe von.{1,10}euro zu begleichen/iu
 
 #
 /gebühren.{1,10}chf 1(\.|,)99/iu
