@@ -25,7 +25,6 @@
 /(gut|schlecht).{1,10}(im bett|in der kiste)/i
 
 /langweilig im bett/i
-/potenz in die/i
 
 /(harte|härtere|längere|starke).{1,10}erektion(en)?/iu
 /gigantischer.?penis/i
@@ -35,11 +34,16 @@
 /ihr.{1,10}(glied|penis)/i
 
 /neue rezeptur wirkt noch schneller/i
-
 /partner im schlafzimmer/i
-/sexual.?leben.{1,15}(mann|männer)/i
-
 /spray-x/i
+
+# Potency
+# ------------------------------------------------------------------------------
+/männlichen potenzsteigerung/iu
+/potenz in die/i
+/sexual.?leben.{1,15}(mann|männer)/i
+/stärke.{1,10}männlichkeit/iu
+/vitalität.{1,10}durchhaltevermögen/i
 
 # Prescription
 # ------------------------------------------------------------------------------
