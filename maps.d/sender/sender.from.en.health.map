@@ -1,59 +1,325 @@
 # ==============================================================================
-# Sender:
+# Here we check phrases in the sender mostly related to illnesses,
+# healing and false promises.
 #
-# Tag:      Sender
+# Hot topics are weight problems, potency and other male problems.
+#
+# Tag:      Sender, Health
 # Language: English
 # Weight:   6.0
 # ==============================================================================
 
 # A
+/aching.?points/i
+/anti.?wrinkle/i
+/(anti|fight|stop).?snoring/i
+
+/artery.?plaque/i
+/arthritis.?gone/i
 
 # B
+/bad.?eyes/i
+/back.?(pain|stretch)/i
+/bald.?spot/i
+/bedroom.?secrets?/i
+
+/big.?(belly|size|stomage|tummy)/i
+
+/blood.?sugar/i
+
+/blue.?(pill|plant|replacement)/i
+
+/breath.?better/i
+
+/body.?balance/i
+/boost.?energy/i
 
 # C
+/calorie.?booster/i
+/cancel(ed)?.?surgery/i
+
+/cbd.{0,10}(fruit|gummies)/i
+
+/clean.?cell/i
+/cleansing.?pads/i
+/clinically.?proven/i
+
+/clogged.?arteries/i
+
+/cognitive.?decline/i
+/compression.?sleeve/i
+/chronic.?inflammation/i
 
 # D
+/daily.?fatigue/i
+/dead.?(foods?|kidneys)/i
+/digestive.?system/i
+/diy.?lipo/i
+
+/do this/i
+/doctor.?warning/i
+
+/dr.?derm/i
+/dribbling.{1,10}urine/i
+/dying.?signal/i
 
 # E
+/eagle.{1,10}vision/i
+/ear.?humming/i
+/eat.{0,10}(fruitme|me|this)/i
+
+/energy.?without/i
+/erase.?cavities/i
+/exotic.?spice/i
+/eye.?(exercise|surgery)/i
 
 # F
+/fasting.?seeds/i
+/fatigue.?bloating/i
+/(feet|foot).?(detox|massage)/i
+/full(er)?.?hair/i
+
+/food.?(craving|choice)s?/i
+/fried.?chicken/i
+/fruit.?mistake/i
 
 # G
+/gut.?(flush|health)/i
+/going.?viral/i
 
 # H
+/hair.{0,5}(growth|loss|renewal|restoration)/i
+/hard.?in/i
+/harmful.?veggies/i
+
+/heart.?(attack|health)/i
+/herpes.?outbreak/i
+
+/hidden.?(protein|toxin)/i
 
 # I
+/immune.?system/i
+/insuline?/i
 
 # J
 
 # K
 
 # L
+/lung.?trust/i
 
 # M
+/make your own/i
+
+/medicinal.?patch(es)?/i
+/mens?.?(only|power)/i
+/metabolism.?(booster|loophole)/i
+/mineral.?combination/i
+/morning.?(mistake|oil)/i
+
+/muscle.?(miracle|pain)/i
 
 # N
+/nail.?rub/i
+/natural.?solution/i
+/nightmare.?pee/i
 
 # O
+/odd.?(mineral|liquid|tonic)/i
+/oral.?flush/i
 
 # P
+/pelvic.?recovery/i
+
+/penis.?(muscle|ritual)/i
+
+/poop.?type/i
+/poor.?posture/i
+/power.?shape/i
+/powerful.?juice/i
+/prescription/i
 
 # Q
 
 # R
+/replace.?blue/i
+/rock.?hard/i
 
 # S
+/secret.?weapon/i
+/senior.?moments/i
+/sharp(er)?.?(mind|thinking)/i
+
+/sight.?care/i
+/slimming/i
+/snore.?stop/i
+
+/stay.?(asleep|slim)/i
+/stinky.?breath/i
+/stop.?eating/i
+/strong(er)?.?immunity/i
+
+/sore.?back/i
 
 # T
+/thanksgiving.?delight/i
+/thicker.{0,10}harder/i
+
+/top.?medication/i
+/toxic.?milk/i
+
+/twist.{0,10}growth/i
 
 # U
+/unlock.?hips/i
+/urine.?leaks?/i
 
 # V
+/varicose.veins/i
 
 # W
+/w.?loss/i
+
+/wellness.?insights/i
+/worst.?breakfast/i
+/wrinkles/i
+/wrinkle.?cream/i
 
 # X
 
 # Y
+/your.{1,10}(brain|craving|gut|health|heart|knees|liver|pee|pelvis|stomach)/i
+/youthful.?boost/i
 
 # Z
+
+#
+#
+#
+
+# Blood pressure, Heart
+# ------------------------------------------------------------------------------
+/blood.?(glucose|pressure|sugar)/i
+/(balanced|high|your).?blood/i
+
+# Cleanse
+# ------------------------------------------------------------------------------
+/(colon|detox|mayan).?cleanse/i
+
+# Cure, healing, etc...
+# ------------------------------------------------------------------------------
+/(herpes|ultimate|uncommon).?cure/i
+
+# Detox
+# ------------------------------------------------------------------------------
+/(daily|gut|soup).?detox/i
+/detox your/i
+
+# Diabetes
+# ------------------------------------------------------------------------------
+/diabetes/i
+
+/end.?type.?2/i
+/sugar.?(defender|disease|levels?|spikes?)/i
+
+/(control|high|low)er?.?(a1c|glucose)/i
+
+# Eyes, Vision
+# ------------------------------------------------------------------------------
+/(20|bad|blurred|blurry|clear|enhancing|flawless).?(eye.?sight|view|vision)/i
+/(new|night|perfect|poor|restore|supreme|weak).?(eye.?sight|view|vision)/i
+
+/vision.?(20.?20|boost|enhancing|loss|restorer?)/i
+
+# Gums
+# ------------------------------------------------------------------------------
+/(bleeding|healthier).{0,10}gums/i
+/gum.?bleeding/i
+
+# Health
+# ------------------------------------------------------------------------------
+/(health|quick).?boost(er)?/i
+/healthy?.{0,10}(alternative|brain|gut|insights|power|secret|transformation)/i
+
+/(womens|mens).?health/i
+
+/(better|bone|dangerous).?health/i
+
+# Herpes
+# ------------------------------------------------------------------------------
+/(cure|remove).?herpes/i
+/herpes.?eliminator/i
+
+# Issues
+# ------------------------------------------------------------------------------
+/dental.?issues/i
+
+# Knee
+# ------------------------------------------------------------------------------
+/knee.?(cartilage|compression|help|pain|stiffness)/i
+/(aching|bad|circa|painful|sore|swollen).{0,10}knees?/i
+
+# Liver
+# ------------------------------------------------------------------------------
+/liver.?(damage|detox|fix|health|renew|support)/i
+/(dying|fatty).{0,10}liver/i
+
+# Pain
+# ------------------------------------------------------------------------------
+/pain.?(free|gone|indicator|killer|no.?more|quiz|relief|remover)/i
+
+/(chronic|chrippling|ease|end|erase|joint|neck|nerve|reduces).{0,10}pain/i
+
+/silence pain in.{1,10}seconds/i
+
+# Stretching
+# ------------------------------------------------------------------------------
+/(hyperbolic|morning|one|second|simple).{0,10}stretch(ing)?/i
+
+# Teeth
+# ------------------------------------------------------------------------------
+/(perfect|rotting|strong|yellow){0,10}(teeth|tooth)/i
+/(teeth|tooth).{0,10}(decay|gums|loss|rotting)/i
+
+# Recepies
+# ------------------------------------------------------------------------------
+/(cleanse|night|smoothie|water|wl).{0,10}recipe/i
+
+# Rituals
+# ------------------------------------------------------------------------------
+/renew.?ritual/i
+
+# Sleep
+# ------------------------------------------------------------------------------
+/sleep.?(fix|instantly)/i
+/(about|deep).{0,10}sleep/i
+
+#
+#
+#
+
+# Breaktrough, Hacks, Miracle, Secrets, Tricks, Videos, etc...
+# ------------------------------------------------------------------------------
+/(ancient|anti.?aging).{0,10}(fix|formula|hack|miracle|protocol|remedies|remedy|ritual|secret|solution|trick)/i
+/(bedtime|boosting|breakfast|crazy).{0,10}(fix|formula|hack|miracle|protocol|remedies|remedy|ritual|secret|solution|trick)/i
+/(dairy|dental|glucose).{0,10}(fix|formula|hack|miracle|protocol|remedies|remedy|ritual|secret|solution|trick)/i
+/(lipo|liquid|modern).{0,10}(fix|formula|hack|miracle|protocol|remedies|remedy|ritual|secret|solution|trick)/i
+/(pain|relief|second|simple|snoring).{0,10}(fix|formula|hack|miracle|protocol|remedies|remedy|ritual|secret|solution|trick)/i
+/(unlock|veins|wellness).{0,10}(fix|formula|hack|miracle|protocol|remedies|remedy|ritual|secret|solution|trick)/i
+
+/(amazonian|japanese|mayan|taiwan).{0,10}(fix|formula|hack|miracle|protocol|remedies|remedy|ritual|secret|seeds?|solution|trick)/i
+
+/(exotic|forgotten|medical|miracle|natural|new|scientists?).?(breakthrough|drink|discovery|herb)/i
+
+/(ancient|crazy|dairy).?(amazonian|chocolate|healing)/i
+
+/nasa.?(scientists?|study)/i
+
+#
+#
+#
+
+# Masked
+# ------------------------------------------------------------------------------
+/m-a-l-e/i
+/p\*nis/i
