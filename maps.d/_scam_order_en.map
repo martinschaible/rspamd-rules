@@ -68,7 +68,7 @@
 
 /your (brochure|catalog|catalogue).{1,10}price.?list.{1,10}(as soon as possible|for an urgent)/i
 
-/your products?.{1,10}product.{1,10}(brochure|catalog|catalogue)/i
+/your products?.{1,10}(price|product)s?.{1,10}(brochure|catalog|catalogue)/i
 /your products?.{1,10}please.{1,10}send the us/i
 
 /your company.{1,10}supply us with the attached.{1,10}product/i

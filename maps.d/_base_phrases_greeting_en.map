@@ -296,15 +296,15 @@
 # ------------------------------------------------------------------------------
 /(disturb you|my name is).{5,25}we are.{2,10}professional/i
 
-/hello.{1,10}i am.{5,25}web.development.manager/i
-/hello.{1,5}our company is a/i
-/hello.{1,10}my name is.{5,25}we specialize in/i
-/hello.{1,10}herr/i
-
-/hi.{1,10}i am working with.{1,10}reputed/i
+/(hello|hi).{1,10}herr/i
+/(hello|hi).{1,10}i am.{5,25}working with.{1,10}reputed/i
+/(hello|hi).{1,10}i am.{5,25}web.development.manager/i
+/(hello|hi).{1,5}our company is a/i
+/(hello|hi).{1,10}my name is.{5,25}we specialize in/i
 
 /hope you are well.{1,10}this is.{5,25}from/i
 
+/i.?a?m (miss|mrs?|ms).{5,25}contacting you on behalf/i
 /introduce myself as a member of/i
 
 /this is.{5,25}from.{5,25}company/i
