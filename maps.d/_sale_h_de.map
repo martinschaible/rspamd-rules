@@ -628,21 +628,20 @@
 
 # Hiring people
 # ------------------------------------------------------------------------------
-/litauische arbeiter gesucht/i
-/(arbeitskräfte|fachkräfte|mitarbeiter|personal|vermittlung).{1,25}litauen/iu
-
-/finden sie.{1,15}(schnell|zuverlässige).{1,15}mitarbeiter/i
+/finden (sie|wir).{1,15}(motivierte|schnell|zuverlässige).{1,15}(arbeitnehmer|mitarbeiter)/i
 /sie erhalten bei uns.{1,15}(fachkräfte|mitarbeiter|personal)/iu
 
+/wir finden ihre mitarbeiter/i
+/wir sind ein.{1,15}unternehmen aus/i
+
+# Litauen
 /litauen.{1,10}arbeitskräfte zur verfügung stellt/iu
 /litauen.{1,10}ist ein unternehmen/i
 /litauen.{1,10}stellen ihnen fach.{1,10}hilfspersonal/i
 /litauen.{1,10}wir vermitteln ihnen/i
 
-/wir finden ihre mitarbeiter/i
-/wir sind ein.{1,15}unternehmen aus/i
-
-/zeitarbeit aus litauen/i
+/litauische arbeiter gesucht/i
+/(arbeitskräfte|fachkräfte|mitarbeiter|personal|vermittlung|zeitarbeit).{1,25}litauen/iu
 
 #
 #
