@@ -18,7 +18,7 @@
 /arthritis.?gone/i
 
 # B
-/bad.?eyes/i
+/bad.?(eyes|memory)/i
 /back.?(pain|stretch)/i
 /bald.?spot/i
 /bedroom.?secrets?/i
@@ -33,6 +33,8 @@
 
 /body.?balance/i
 /boost.?energy/i
+
+/buzzing.?ears/i
 
 # C
 /calorie.?booster/i
@@ -79,7 +81,7 @@
 /(feet|foot).?(detox|massage)/i
 /full(er)?.?hair/i
 
-/food.?(craving|choice)s?/i
+/food.?(cravings?|choices?|odor)/i
 /fried.?chicken/i
 /fruit.?mistake/i
 
@@ -129,6 +131,7 @@
 /oral.?flush/i
 
 # P
+/pee.?leaks/i
 /pelvic.?recovery/i
 
 /penis.?(muscle|ritual)/i
@@ -151,6 +154,7 @@
 /sharp(er)?.?(mind|thinking)/i
 
 /sight.?care/i
+/slim.?waist/i
 /slimming/i
 /snore.?stop/i
 
@@ -240,9 +244,9 @@
 # Health
 # ------------------------------------------------------------------------------
 /(health|quick).?boost(er)?/i
-/healthy?.{0,10}(alternative|brain|gut|insights|power|secret|transformation)/i
+/healthy?.{0,10}(alert|alternative|brain|gut|insights|power|secret|transformation)/i
 
-/(womens|mens).?health/i
+/(american|womens|mens).?health/i
 
 /(better|bone|dangerous).?health/i
 
