@@ -365,7 +365,7 @@
 /(paket|sendung).{1,10}ist da.{1,15}holen sie es ab/i
 /(paket|sendung).{1,10}ist in bewegung/i
 /(paket|sendung).{1,10}ist in unserer.{1,15}postfiliale angekommen/i
-/(paket|sendung).{1,10}ist zur abholung bereit/i
+/(paket|sendung).{1,10}ist zur (abholung|lieferung) bereit/i
 
 /(paket|sendung).{1,15}kann nicht zugestellt werden/i
 /(paket|sendung).{1,10}nahe dem abschluss/i
