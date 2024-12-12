@@ -6,8 +6,8 @@
 #               The eSLD (effective second level domain) is matched against
 #               this list.
 #          - sender.from.tld
-#          - body.img.domain.tld
-#          - body.link.domain.tld
+#          - base.body.href.url.shortener
+#          - base.body.img.url.shortener
 # ==============================================================================
 
 # https://www.spamhaus.org/statistics/tlds/
@@ -97,8 +97,6 @@
 
 # TLD first seen April 2024
 /\.bar$/i
-
-# TLD first seen April 2024
 /\.su$/i
 
 # removed by request
