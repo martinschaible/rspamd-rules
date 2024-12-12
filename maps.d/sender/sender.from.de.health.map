@@ -10,32 +10,51 @@
 # ==============================================================================
 
 # A
+/abnehm.?quiz/i
 
 # B
+/blut.?(druck|gesundheit|hochdruck)/i
 
 # C
+/collagen/i
+/covid.?schnelltest/i
 
 # D
+/diabetes.?(ernährung|lösung)/iu
 
 # E
 
 # F
+/fett.?schnell/i
+/(fuss|fuß).?pflaster/iu
 
 # G
+/gelenk.?(gesundheit|pflege)/i
+/gesunde.?(augen|ohren)/i
+/gewichts?.{0,10}(verlust|verliert)/i
 
 # H
+/haar.?(ausfall|wachstum)/i
 
 # I
 
 # J
 
 # K
+/(kg|kilo).{1,10}(pro woche|weniger)/i
+/(kg|kilo).{1,10}(tagen?|wochen?)
+
+/keto.?diät/i
 
 # L
+/leber.?detox/i
 
 # M
+/massage.?pflaster/i
+/medizin.{0,10}(shop|zukunft)/i
 
 # N
+/neue.?rezeptur/i
 
 # O
 
@@ -44,8 +63,14 @@
 # Q
 
 # R
+/reduzieren sie.{1,15}fett/i
 
 # S
+/schlank/i
+/schmerzen in/i
+/schöne.?nägel/iu
+
+/sex.?produkt/i
 
 # T
 
@@ -54,9 +79,35 @@
 # V
 
 # W
+/weniger in.{1,10}(tagen?|wochen?)/i
+/wichtige?.?covid/i
 
 # X
 
 # Y
 
 # Z
+
+#
+#
+#
+
+# ED, Erection, Potency
+# ------------------------------------------------------------------------------
+
+# Weight Loss
+# ------------------------------------------------------------------------------
+/(drink|hilfe|hilft|jetzt|schnell|zum).{1,10}abnehmen/i
+
+# Pharmacy
+# ------------------------------------------------------------------------------
+/(herren|pillen|playboy).?apotheke/i
+
+#
+#
+#
+
+# Special
+# ------------------------------------------------------------------------------
+/deutsches.?gesundheits.?magazin/i
+/(deutsche|neue).?gesundheit/i
