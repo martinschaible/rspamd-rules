@@ -19,7 +19,7 @@
 /apple.?(™|®)?$/i
 
 /^ard.?zdf$/i
-/ard.zdf.?(radio|service)/i
+/ard.?zdf.?(radio|service)/i
 /akusoli/i
 
 # B
@@ -87,6 +87,8 @@
 /rewe.?(™|®)?$/i
 
 # S
+/service.?center.?ard.?zdf/i
+
 /(shein|smava|spotify).?(™|®)$/i
 
 /^sumup$/i
