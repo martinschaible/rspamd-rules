@@ -84,7 +84,9 @@
 /webmaster.?messages?/i
 /mail.?client/i
 
-/it.?help-desk/i
+/i\.t.?help-desk/i
+/i\.t.{1,5}do not reply/i
+/_i\.t \[/i
 
 # Hosting: Cloud storage
 # ------------------------------------------------------------------------------

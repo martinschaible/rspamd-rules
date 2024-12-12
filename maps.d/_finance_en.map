@@ -64,13 +64,15 @@
 /we.{1,10}(give|issuing|offer|offering|provide).{1,15}loans?.{1,10}all purposes/i
 /we.{1,10}(give|issuing|offer|offering|provide).{1,15}loans?.{1,10}at.{1,10}interest/i
 /we.{1,10}(give|issuing|offer|offering|provide).{1,15}loans?.{1,10}(acquisition|contact|funding|projects)/i
-/we.{1,10}(give|issuing|offer|offering|provide).{1,15}loans?.{1,10}to/i
+/we.{1,10}(give|issuing|offer|offering|provide).{1,15}loans?.{1,10}(for|to)/i
 /we.{1,10}(give|issuing|offer|offering|provide).{1,10}loans?.{1,10}as debt/i
 
 /we.{1,10}(give|issuing|offer|offering|provide).{1,15}(debt|financing|non.?recourse).{1,10}loans/i
 /we.{1,10}(give|issuing|offer|offering|provide).{1,15}(business|corporate|home|personal).{1,15}loans?/i
 /we.{1,10}(give|issuing|offer|offering|provide).{1,15}(all kinds|various types) of.{1,15}loans?/i
 /we.{1,10}(give|issuing|offer|offering|provide).{1,15}unbeatable.{1,10}loan/i
+
+/we.{1,10}(give|issuing|offer|offering|provide).{1,10}student.?loans?/i
 
 /we are.{1,10}giving.{1,15}loan grants/i
 /we are.{1,10}dedicated.{1,10}granting loans/i
