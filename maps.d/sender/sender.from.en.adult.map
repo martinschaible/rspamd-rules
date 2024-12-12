@@ -1,0 +1,87 @@
+# ==============================================================================
+# These rules deal with the topic "adult". It's about dating and porn.
+#
+# Tag:      Sender, adult, dating, porn
+# Language: English
+# Weight:   6.0
+# ==============================================================================
+
+# A
+/adult_/i
+/(adult|erotic|match).{0,10}(dates?|dating|tiktok)/i
+
+/asian.?sex/i
+
+# B
+
+# C
+/(casual|tiktok).{0,10}adult/i
+/christian matches/i
+
+# D
+/(date|dating).{0,10}(cell|club|offer|team|room)/i
+/dirty.?talk/i
+
+# E
+
+# F
+/find.?fuck/i
+/flirt.?hotties/i
+/fuck.{1,10}(friend|me tonight)/i
+
+# G
+
+# H
+/horny.?love/i
+/hot.?(app|friends|meeting)/i
+
+# I
+
+# J
+
+# K
+
+# L
+/local.?adult/i
+
+# M
+/match.?now/i
+
+# N
+
+# O
+
+# P
+/portal.?dates?/i
+
+# Q
+
+# R
+
+# S
+/singles?.?(girls?|now)/i
+/slavic.?love/i
+
+# T
+
+# U
+
+# V
+/view.{0,10}singles/i
+
+# W
+
+# X
+
+# Y
+
+# Z
+
+#
+#
+#
+
+# Girls, Woman, etc.
+# ------------------------------------------------------------------------------
+/(russian|ukraine|ukrainian).?(beauty|date|girl|ladies|love|woman|women)/i
+/(find|hot|meet).{1,10}(russian|ukraine|ukrainian)/i

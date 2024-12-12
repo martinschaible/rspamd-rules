@@ -1,0 +1,91 @@
+# ==============================================================================
+# These rules deal with the topic "adult". It's about dating and porn.
+#
+# Tag:      Sender, adult, dating, porn
+# Language: German
+# Weight:   6.0
+# ==============================================================================
+
+# A
+/antworte.{5,25}noch heute/i
+
+# B
+/bekanntschaft(en)?/i
+/beste dating/i
+
+# C
+
+# D
+/dating.?angebot/i
+
+# E
+
+# F
+/fick.{0,10}(finden|freund|treffen)/i
+
+/fickt.?uns/i
+/flirten?.mit/i
+/frauen.(finden|in deiner)/i
+
+# G
+/geheimer{0,10}treff/i
+/geile.?dates/i
+
+# H
+
+# I
+/ihr.{0,10}date/i
+/insta.?frauen/i
+
+# J
+/\d{2} jahre/i
+
+# K
+
+# L
+/langer.?sex/i
+/live.{0,10}treffen/i
+
+# M
+
+# N
+/neues.?profil/i
+
+# O
+
+# P
+/privat.{0,10}treffen/i
+/profil.?(update|von|vorschlag)/i
+
+# Q
+
+# R
+/reife.?flirts/i
+
+# S
+/schneller.?chat/i
+
+# T
+/teen.{0,10}girls?/i
+
+# V
+/von (dir|ihnen) entfernt/i
+
+# W
+
+# X
+
+# Y
+
+# Z
+
+#
+#
+#
+
+# Girls, Woman, etc.
+# ------------------------------------------------------------------------------
+/(attraktive|finde|nackte|reife).{0,10}(frau(en)?|mädchen)/iu
+
+/(russische|urkrainische).{1,15}(frau(en)?|mädchen)/iu
+/(russische|urkrainische).{1,15}schönheiten/iu
