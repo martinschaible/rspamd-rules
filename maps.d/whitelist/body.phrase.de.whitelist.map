@@ -3,25 +3,25 @@
 #
 # Tag:      Whitelist
 # Language: German
-# Weight:   -0.5 or 1.0
+# Weight:   -0.5 or -1.0 (use muliplicator 2.0)
 # ==============================================================================
 
 # Undeliveries / Out of office
 # ==============================================================================
-/ferienhalber abwesend/i -1.0
+/ferienhalber abwesend/i 2.0
 
-/ich bin bis am.{1,15}abwesend/i -1.0
-/ich bin bis und mit.{1,15}nicht (erreichbar|im)/i -1.0
-/ich bin vom.{1,15}bis.{1,25}nicht (erreichbar|im)/i -1.0
+/ich bin bis am.{1,15}abwesend/i 2.0
+/ich bin bis und mit.{1,15}nicht (erreichbar|im)/i 2.0
+/ich bin vom.{1,15}bis.{1,25}nicht (erreichbar|im)/i 2.0
 
-/ihr.{1,10}(mail|nachrichten).{1,10}(werden|wird).{1,25}nicht (bearbeitet|gelesen|weiter.?geleitet)/i -1.0
+/ihr.{1,10}(mail|nachrichten).{1,10}(werden|wird).{1,25}nicht (bearbeitet|gelesen|weiter.?geleitet)/i 2.0
 
-/habe ich keinen geregelten zugriff auf meine.{1,10}e?.?mails/i -1.0
+/habe ich keinen geregelten zugriff auf meine.{1,10}e?.?mails/i 2.0
 
-/sie sich in dringenden.{1,15}an (das|mein).{1,10}(sekretariat|stellvertreter)/i -1.0
-/sie sich in dringenden.{1,15}an.{1,10}(frau|herr)/i -1.0
+/sie sich in dringenden.{1,15}an (das|mein).{1,10}(sekretariat|stellvertreter)/i 2.0
+/sie sich in dringenden.{1,15}an.{1,10}(frau|herr)/i 2.0
 
-/vielen dank.{1,10}ihre.{1,10}e?.?mail.{1,10}ich bin ab/i -1.0
+/vielen dank.{1,10}ihre.{1,10}e?.?mail.{1,10}ich bin ab/i 2.0
 
 # German words and phrases which i think will never occur in spam mails
 # ==============================================================================
