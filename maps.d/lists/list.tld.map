@@ -1,6 +1,10 @@
 # ==============================================================================
 # This is a list of top level domains (TLD) which are only used by spammers.
 #
+# We cannot block some of the new or exotic TLDs because they are actually
+# used by companies. Affected TLDs are:
+# .pro
+#
 # Used by: - sender.address.tld
 #            -> Rspamd doesn't provide TLD extraction for mail addresses.
 #               The eSLD (effective second level domain) is matched against
@@ -54,7 +58,6 @@
 /\.lol$/i
 /\.online$/i
 /\.pet$/i
-#/\.pro$/i
 /\.red$/i
 /\.review$/i
 /\.site$/i
