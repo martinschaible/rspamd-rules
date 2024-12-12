@@ -785,8 +785,9 @@ letzter gewinner/i
 
 # Return for double payed invoices
 # ------------------------------------------------------------------------------
-/rückerstattung.{1,10}(handeln sie|ist online|jetzt)/i
+/rückerstattung.{1,10}(handeln sie|jetzt)/i
 /rückerstattung.{1,10}ihres beitrags/iu
+/rückerstattung.{1,10}ist (online|verfügbar)/iu
 
 /benachrichtigung.{1,10}rechnungskorrektur/i
 /erhalten sie.{1,15}jetzt.{1,10}rückerstattung/i
