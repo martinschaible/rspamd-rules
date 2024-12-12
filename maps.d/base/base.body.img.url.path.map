@@ -1,19 +1,14 @@
 # ==============================================================================
-# Occasionally, spammers use strange and special paths in the URLs we check.
+# Occasionally, spammers use strange and special paths in the URLs of images.
+# Therefore we check image tags for bad stuff
 #
-# Tag:      Image, URL Path
+# Tag:      Image, path
 # Language: -
-# Weight:   3.0
+# Weight:   6.0
 # ==============================================================================
 
-# Redirects
+# Keywords
 # ------------------------------------------------------------------------------
-
-# 12.12.24, phishing
-/\/redirect\/redirect\.aspx/i
 
 # Simple path
 # ------------------------------------------------------------------------------
-# 11.12.24
-/\/scancopy\d{2}\//i
-/\/shopping\d{2}\//i
