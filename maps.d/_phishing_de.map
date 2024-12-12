@@ -59,6 +59,8 @@
 
 # Return for double payed invoices
 # ------------------------------------------------------------------------------
+/benachrichtigung zur rückerstattung/iu
+
 /rechnung.{1,10}den monats?.{1,30}(doppelt|zweimal).{1,10}(bezahlt wurde|erfolgt ist)/i
 /rechnung.{1,10}für.{1,20}(doppelt|zweimal).{1,10}(bezahlt wurde|erfolgt ist)/i
 /rechnung.{1,10}versehentlich doppelt bezahlt wurde/i
@@ -80,9 +82,10 @@
 /erstattung anfordern/i
 /mitteilung zur rückerstattungsanfrage/iu
 
-/rückerstattung (beantragen|bestätigen)/i
+/rückerstattung.{1,10}(beantragen|bestätigen)/i
+/rückerstattung.{1,10}wird.{1,15}bearbeitet/iu
+/rückerstattung.{1,10}zu überprüfen/iu
 /rückerstattungs.?link/iu
-/rückerstattung zu überprüfen/iu
 /rückerstattungsstatus überprüfen/iu
 
 /sie haben.{1,10}anspruch auf rückerstattung/i
