@@ -15,6 +15,8 @@
 /(credit|funding|loan|rates).?(firm|for|ltd|offer|opportunity|service|specialist|venture)/i
 /(free|investment|net|personal).?(credit|loans?)/i
 
+/lenders/i
+
 # Mortgage
 # ------------------------------------------------------------------------------
 /mortgage.{0,10}(alert|assist|home)/i

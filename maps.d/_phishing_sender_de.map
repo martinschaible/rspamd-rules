@@ -237,7 +237,9 @@
 /group.{0,10}kurier/i
 
 # German radio
+/abrechnung.{0,10}(ard|zdf)/i
 /abrechnungsstelle.{0,10}rundfunk/i
+/rundfunk.{0,10}abrechnung/i
 
 # Lexoffice
 /lexoffice.?konto/i
