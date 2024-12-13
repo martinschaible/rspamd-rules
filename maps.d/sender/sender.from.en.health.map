@@ -236,13 +236,6 @@
 /(alzheimer|dementia).{1,10}(alert|test|trigger|warning)/i
 /brain.{0,10}(booster|cell|damage|fog|health|nutrient|scan|trick)/i
 
-# Hearing
-# ------------------------------------------------------------------------------
-/(bad|restore).{0,10}hearing/i
-
-# Memory
-/(excellent|future|poor|restore|sharp|your).{0,10}memory/i
-
 # Blood pressure, Heart
 # ------------------------------------------------------------------------------
 /blood.{0,10}(glucose|pressure|sugar)/i
@@ -259,6 +252,10 @@
 # Cure, healing, etc...
 # ------------------------------------------------------------------------------
 /(herpes|ultimate|uncommon).{0,10}cure/i
+
+# Hearing
+# ------------------------------------------------------------------------------
+/(bad|restore).{0,10}hearing/i
 
 # Detox
 # ------------------------------------------------------------------------------
@@ -288,18 +285,6 @@
 /ed.{0,10}(fix|forever|no.?more|treatment)/i
 /(fix your|goodbye).{0,10}ed/i
 
-# Penis enlargment
-# ------------------------------------------------------------------------------
-/(african|amazonian).{0,10}(banana|elder|member|penis|stick|wood)/i
-/(bigger|buried|fuller).{0,10}(banana|elder|member|penis|stick|wood)/i
-/(grow your|hard|iron.?clad|inch|instant|soft|stiff|thicker).{0,10}(banana|elder|member|penis|stick|wood)/i
-
-/(male|men|penis).{0,10}(enhancement|enlargement|growth|increase|solution)/i
-
-/(fuller|harder|thicker).{0,10}stronger/i
-
-/(increase|enhance).{0,10}(stamina|size)/i
-
 # Fungus, Nails
 # ------------------------------------------------------------------------------
 /(attack|end|fight|foot|goodbye|nail|nasty|stop|yellow).{0,10}fungus/i
@@ -321,9 +306,9 @@
 # Health
 # ------------------------------------------------------------------------------
 /(health|quick).{0,10}boost(er)?/i
-/healthy?.{0,10}(alert|alternative|brain|gut|insights|power|secret|transformation)/i
+/healthy?.{0,10}(alert|alternative|brain|guides?|gut|insights|power|secret|transformation)/i
 
-/(american|womens|mens).{0,10}health/i
+/(american|daiyl|mens|womens).{0,10}health/i
 
 /(better|bone|dangerous).{0,10}health/i
 
@@ -352,6 +337,10 @@
 /liver.{0,10}(damage|detox|fix|health|renew|support)/i
 /(dying|fatty).{0,10}liver/i
 
+# Memory
+# ------------------------------------------------------------------------------
+/(excellent|future|poor|restore|sharp|your).{0,10}memory/i
+
 # Pain
 # ------------------------------------------------------------------------------
 /pain.{0,10}(free|gone|indicator|killer|no.?more|quiz|relief|remover|warning)/i
@@ -360,15 +349,40 @@
 
 /silence pain in.{1,10}seconds/i
 
+# Penis enlargment
+# ------------------------------------------------------------------------------
+/(african|amazonian).{0,10}(banana|elder|member|penis|stick|wood)/i
+/(bigger|buried|fuller).{0,10}(banana|elder|member|penis|stick|wood)/i
+/(grow your|hard|iron.?clad|inch|instant|soft|stiff|thicker).{0,10}(banana|elder|member|penis|stick|wood)/i
+
+/(male|men|penis).{0,10}(enhancement|enlargement|growth|increase|solution)/i
+
+/(fuller|harder|thicker).{0,10}stronger/i
+
+/(increase|enhance).{0,10}(stamina|size)/i
+
 # Prostatitis
 # ------------------------------------------------------------------------------
 /(urin|pee).{0,10}leaks/i
+
+# Recepies
+# ------------------------------------------------------------------------------
+/(cleanse|night|smoothie|water|wl).{0,10}recipe/i
+
+# Rituals
+# ------------------------------------------------------------------------------
+/renew.{0,10}ritual/i
 
 # Skin
 # ------------------------------------------------------------------------------
 /skin.{0,10}(care|cure|sagging)/i
 /(aged|aging|perfect|radiant|smooth|youth).{0,10}skin/i
 /(dark|face).{0,10}spots?/i
+
+# Sleep
+# ------------------------------------------------------------------------------
+/sleep.{0,10}(fix|instantly)/i
+/(about|deep).{0,10}sleep/i
 
 # Stomach
 # ------------------------------------------------------------------------------
@@ -387,19 +401,6 @@
 # ------------------------------------------------------------------------------
 /(buzzing|clear|ringing|stop|zero).{0,10}(ears?|noise)/i
 /(beat|destroy|end|goodbye|stop).{0,10}tinnitus/i
-
-# Recepies
-# ------------------------------------------------------------------------------
-/(cleanse|night|smoothie|water|wl).{0,10}recipe/i
-
-# Rituals
-# ------------------------------------------------------------------------------
-/renew.{0,10}ritual/i
-
-# Sleep
-# ------------------------------------------------------------------------------
-/sleep.{0,10}(fix|instantly)/i
-/(about|deep).{0,10}sleep/i
 
 # Weightloss
 # ------------------------------------------------------------------------------
@@ -421,6 +422,11 @@
 /o.{0,3}p.{0,3}r.{0,3}a.{0,3}h/i
 
 /(k2|man|slimm).{0,10}gummies/i
+
+#
+/fit.{0,10}(focus|solutions)?/i
+/vital.{0,10}(team|tip(ps)?)/i
+/your.{0,10}fitness/i
 
 #
 #
