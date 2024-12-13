@@ -71,3 +71,7 @@
 /http:\/\/bitcoin\./i
 
 /(jp\.net|ru\.com|ne\.jp|or\.jp)\//i
+
+
+# 13.12.24, sample: http://0-2-5.com/
+/https?:\/\/\d-\d-\d\./i
