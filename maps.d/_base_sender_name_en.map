@@ -19,8 +19,6 @@
 
 /GOOGLE/
 
-/(barrister|diplomat|general|major|sergeant)/i
-
 /attorney at law/i
 /executive.?director/i
 /(purchase|sales).?manager/i
@@ -28,7 +26,6 @@
 # Titles
 # ------------------------------------------------------------------------------
 /^.?(capt|dr|mrs?)\.\b/i
-
 
 /you are selected/i
 
@@ -45,14 +42,10 @@
 
 /b.r.e.a.k.i.n.g/i
 
-/attention/i
 /confirmation needed/i
 /important.?message/i
 /message from/i
-/noreplay/i
 /read.?this/i
-/revolutionary/i
-/whistleblower/i
 /you to read/i
 
 # Sample: [iPad Pro]
