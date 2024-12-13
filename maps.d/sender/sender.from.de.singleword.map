@@ -11,17 +11,28 @@
 # Weight:   6.0
 # ==============================================================================
 
+# Special
+# ------------------------------------------------------------------------------
+/\|.?kunden/i
+
+# Generic
+# ------------------------------------------------------------------------------
+
 # A
 /achtung/i
 
+/anspruchscode/i
 /antihaftbeschichtung/i
 /antiviren.?partner/i
 /antragsprozess/i
 
 /auftragsbestätigung/iu
 /augenheilkunde/i
+
 /auszahlung/i
 /auszahlungsbestätigung/i
+/auszahlungsprozess/i
+
 /auszeichnung(en)?/i
 
 /(apo|apotheke)$/i
@@ -32,6 +43,8 @@
 
 # B
 /bankanlage/i
+/bankenmeldung/i
+
 /begrenzt/i
 
 /beitragsservice/i
@@ -40,6 +53,8 @@
 /belohnen/i
 /belohnung(en)?/i
 /belohnungspanel/i
+/belohnungsabteilung/i
+/belohnungsprämien/i
 
 /benachrichtigung/i
 /beratung$/i
@@ -47,11 +62,13 @@
 /beseitigt/i
 
 /bewertungen/i
+/bewertungslöschung/iu
 
 /bluthochdruck/i
 /bürostuhl/i
 
 /bumsen/i
+/bundes.?nachrichten/i
 
 # C
 /chatten/i
@@ -67,6 +84,7 @@
 
 # E
 /eilmeldung/i
+/einzeltreffen/i
 /einsparungen/i
 /erektion/i
 
@@ -93,16 +111,22 @@
 /^geldsorgen/i
 /geldsparende/i
 /gerichtsvollzieher/i
+
+/geschenkabteilung/i
+/geschenkprämien/i
+
 /gesundheitstipps/i
 /gesundheitszentrum$/i
 
 /gewinner(in)?/i
+/gewinn(er)?.?(deklaration|erklarung|erklärung)/i
 /gewinnspiel.?(team|zentrale)/i
 /gewinnerklärung/i
 
 /girokonto/i
 
 /glückwunsch/iu
+/gluckwunsch/i
 
 /gratuliert/i
 /grund.?einkommen/i
@@ -112,6 +136,7 @@
 
 # H
 /hausmittel/i
+/helpcentrum/i
 /herr\b/i
 
 /hilfspersonal/i
@@ -138,9 +163,9 @@
 /kundennummer/i
 /krypto$/i
 
-/\|.?kunden/i
-
 /^kunden.?(dienst|service)$/i
+/kunden-dienst/i
+/kundendienstes/i
 
 /kunden.?(helpdesk|id)/i
 /kunden.?(betreuung|informationen|nummer|unterstützung)$/iu
@@ -162,6 +187,8 @@
 # N
 /nachrichtennummer/i
 /nagelpilz/i
+/naturliche/i
+
 /notfallset/i
 /notstrom/i
 
@@ -185,6 +212,8 @@
 # Q
 
 # R
+/raumungsangebote?/i
+
 /rechnungstelle/i
 /reichtum/i
 /reinigungspartner/i
@@ -200,8 +229,12 @@
 /schlankheit/i
 /schutzpartner/i
 
+/schnelllieferdienst/i
+/schweiz.?kurier/i
+
 /sehkraft/i
 /selektiert/i
+/sendungsbereitmeldung/i
 /sex.?gruppe/i
 
 /sicherheits.?team/i
@@ -237,10 +270,17 @@
 /unterstützung/i
 
 # V
+/validierungs.?zentrum/i
+
 #/versand$/i
 /verkaufs.?automat/i
 
+/verlängerungsupdate/iu
+
 /^versand$/i
+/versandaktualisierung
+/versandbereitstellung/i
+
 /^vertriebs.?zentrum$/i
 
 /(viren|virus).?(bedrohung(en)?|schutz)/i
