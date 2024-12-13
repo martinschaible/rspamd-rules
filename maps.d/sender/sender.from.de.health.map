@@ -10,31 +10,31 @@
 # ==============================================================================
 
 # A
-/abnehm.?quiz/i
+/abnehm.{0,10}quiz/i
 
 # B
-/blut.?(druck|gesundheit|hochdruck)/i
+/blut.{0,10}(druck|gesundheit|hochdruck)/i
 
 # C
 /collagen/i
-/covid.?schnelltest/i
+/covid.{0,10}schnelltest/i
 
 # D
-/diabetes.?(ernährung|lösung)/iu
+/diabetes.{0,10}(ernährung|lösung)/iu
 
 # E
 
 # F
-/fett.?schnell/i
-/(fuss|fuß).?pflaster/iu
+/fett.{0,10}schnell/i
+/(fuss|fuß).{0,10}pflaster/iu
 
 # G
-/gelenk.?(gesundheit|pflege)/i
-/gesunde.?(augen|ohren)/i
+/gelenk.{0,10}(gesundheit|pflege)/i
+/gesunde.{0,10}(augen|ohren)/i
 /gewichts?.{0,10}(verlust|verliert)/i
 
 # H
-/haar.?(ausfall|wachstum)/i
+/haar.{0,10}(ausfall|wachstum)/i
 
 # I
 
@@ -44,17 +44,17 @@
 /(kg|kilo).{1,10}(pro woche|weniger)/i
 /(kg|kilo).{1,10}(tagen?|wochen?)
 
-/keto.?diät/i
+/keto.{0,10}diät/i
 
 # L
-/leber.?detox/i
+/leber.{0,10}detox/i
 
 # M
-/massage.?pflaster/i
+/massage.{0,10}pflaster/i
 /medizin.{0,10}(shop|zukunft)/i
 
 # N
-/neue.?rezeptur/i
+/neue.{0,10}rezeptur/i
 
 # O
 
@@ -68,9 +68,9 @@
 # S
 /schlank/i
 /schmerzen in/i
-/schöne.?nägel/iu
+/schöne.{0,10}nägel/iu
 
-/sex.?produkt/i
+/sex.{0,10}produkt/i
 
 # T
 
@@ -80,7 +80,7 @@
 
 # W
 /weniger in.{1,10}(tagen?|wochen?)/i
-/wichtige?.?covid/i
+/wichtige?.{0,10}covid/i
 
 # X
 
@@ -101,7 +101,7 @@
 
 # Pharmacy
 # ------------------------------------------------------------------------------
-/(herren|pillen|playboy).?apotheke/i
+/(herren|pillen|playboy).{0,10}apotheke/i
 
 #
 #
@@ -109,5 +109,5 @@
 
 # Special
 # ------------------------------------------------------------------------------
-/deutsches.?gesundheits.?magazin/i
-/(deutsche|neue).?gesundheit/i
+/deutsches.{0,10}gesundheits.{0,10}magazin/i
+/(deutsche|neue).{0,10}gesundheit/i

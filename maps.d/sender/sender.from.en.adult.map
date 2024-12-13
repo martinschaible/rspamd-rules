@@ -10,7 +10,7 @@
 /adult_/i
 /(adult|erotic|match).{0,10}(dates?|dating|tiktok)/i
 
-/asian.?sex/i
+/asian.{0,10}sex/i
 
 # B
 
@@ -20,20 +20,20 @@
 
 # D
 /(date|dating).{0,10}(cell|club|offer|team|room)/i
-/dirty.?talk/i
+/dirty.{0,10}talk/i
 
 # E
 
 # F
-/find.?fuck/i
-/flirt.?hotties/i
+/find.{0,10}fuck/i
+/flirt.{0,10}hotties/i
 /fuck.{1,10}(friend|me tonight)/i
 
 # G
 
 # H
-/horny.?love/i
-/hot.?(app|friends|meeting)/i
+/horny.{0,10}love/i
+/hot.{0,10}(app|friends|meeting)/i
 
 # I
 
@@ -42,25 +42,25 @@
 # K
 
 # L
-/local.?adult/i
+/local.{0,10}adult/i
 
 # M
-/match.?now/i
+/match.{0,10}now/i
 
 # N
 
 # O
 
 # P
-/portal.?dates?/i
+/portal.{0,10}dates?/i
 
 # Q
 
 # R
 
 # S
-/singles?.?(girls?|now)/i
-/slavic.?love/i
+/singles?.{0,10}(girls?|now)/i
+/slavic.{0,10}love/i
 
 # T
 
@@ -83,5 +83,5 @@
 
 # Girls, Woman, etc.
 # ------------------------------------------------------------------------------
-/(russian|ukraine|ukrainian).?(beauty|date|girl|ladies|love|woman|women)/i
+/(russian|ukraine|ukrainian).{0,10}(beauty|date|girl|ladies|love|woman|women)/i
 /(find|hot|meet).{1,10}(russian|ukraine|ukrainian)/i
