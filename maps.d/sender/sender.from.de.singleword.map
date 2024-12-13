@@ -1,8 +1,10 @@
 # ==============================================================================
-# This file contains names of senders that consist of only one word.
-# To avoid false/positives, most senders are equipped with line boundaries.
-#
-# The words should be generic as possible.
+# This file only contains words, one per entry.
+# This can be dangerous and should only be used if:
+# - The sender only consists of one word and should be additionally equipped
+#   with line boundaries.
+# - The sender consists of several words, but can be reliably declared as spam
+#   with just one word.
 #
 # Tag:      Sender, single word
 # Language: German
