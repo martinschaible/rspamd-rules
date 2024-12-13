@@ -358,6 +358,7 @@
 /(paket|sendung).{1,10}auf hold/i
 /(paket|sendung).{1,10}bei ihnen ankommt/i
 /(paket|sendung).{1,10}bestätigt.{1,15}planen sie/i
+/(paket|sendung).{1,15}distributionszentrum aufbewahrt wird/i
 /(paket|sendung).{1,10}hat sein ziel erreicht/i
 /(paket|sendung).{1,10}hat.{1,15}distributionszentrum angehalten/i
 /(paket|sendung).{1,10}informationen bestätigen/iu
@@ -376,7 +377,7 @@
 /(paket|sendung).{1,15}wird hiermit zugestellt/i
 /(paket|sendung).{1,10}wird zurückgehalten/iu
 /(paket|sendung).{1,10}wurde aufgrund einer falschen lieferadresse/i
-/(paket|sendung).{0,10}zustellung.{1,10}mitteilung/i
+/(paket|sendung).{0,10}zustellung.{1,10}(ansteht|mitteilung)/i
 
 /(paket|referenznummer|sendung).?id.?\d{5,25}/i
 /paket.?lieferung ausstehend/i
@@ -407,6 +408,7 @@
 /schritte.{1,15}zustellung.{1,10}(paket|sendung)/i
 /senden wir das produkt zurück/iu
 
+/sie haben.{1,10}\(\d\) paket/i
 /sie haben.{1,10}ausstehendes paket/i
 /sie haben.{1,10}ein paket.{1,10}das (sich|zugestellt)/i
 /sie haben.{1,10}jetzt.{1,10}stunden zeit/i
