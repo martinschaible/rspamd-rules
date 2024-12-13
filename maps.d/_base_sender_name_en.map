@@ -29,37 +29,6 @@
 # ------------------------------------------------------------------------------
 /^.?(capt|dr|mrs?)\.\b/i
 
-#
-#
-#
-
-# Stocks
-# ------------------------------------------------------------------------------
-/stock.?pick(ing)/i
-
-# Winning, Lottery
-# ------------------------------------------------------------------------------
-/(australia|award|coca.?cola|google|international|usa|uk).?(lotterie|lottery)/i
-/(euro|mega).?(jackpot|mill?ions)/i
-/sky.?lotto/i
-
-/(central|navidad).{0,10}lott?eria/i
-
-/elgordo.{0,10}primitiva/i
-/euro.?online.?lotto/i
-/uefa.?euro/i
-
-/award.?team/i
-
-/(lottery|microsoft).{0,10}award/i
-/lotter(ie|y).{0,10}(board|promotion|winning)/i
-
-/lott?eria.?(madrid|nacional)/i
-/lotto.?denavidad/i
-
-/powerball.{0,15}(casino|online)/i
-
-/jack\+pot/i
 
 /you are selected/i
 
