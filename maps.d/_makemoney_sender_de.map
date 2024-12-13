@@ -25,7 +25,7 @@
 
 # Getting rich
 # ------------------------------------------------------------------------------
-/reich.?werden/i
+/reich.{1,10}(sein|werden)/i
 
 # Income
 # ------------------------------------------------------------------------------
@@ -48,8 +48,6 @@
 /ihre rendite/i
 
 /(dividenden|ihre) auszahlung/i
-
-/reich.{1,10}sein/i
 
 /alpen.?invest/i
 
