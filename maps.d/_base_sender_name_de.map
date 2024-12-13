@@ -22,7 +22,7 @@
 
 /antworte.{1,10}heute/i
 
-/(aktuelle|neue|wichtige).{0,5}(mitteilung|nachricht)/i
+/(aktuelle|neue|offizielle|wichtige).{0,5}(mitteilung|nachricht)/i
 
 /beeilen sie sich/i
 /deine chance/i
@@ -33,11 +33,9 @@
 
 /mitteilung des/i
 /nachricht (vom|von)/i
-/offizielle mitteilung/i
 
 /jetzt (antworten|informieren|probieren)/i
 
-/wichtige mitteilung/i
 /wie man/i
 /wir empfehlen/i
 
