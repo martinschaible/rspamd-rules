@@ -37,9 +37,6 @@
 # ------------------------------------------------------------------------------
 /from mrs?\.\b/i
 
-# Date: '05/08/2023'
-/\d{2}\/\d{2}\/\d{4}/i
-
 /b.r.e.a.k.i.n.g/i
 
 /confirmation needed/i
@@ -48,61 +45,7 @@
 /read.?this/i
 /you to read/i
 
-# Sample: [iPad Pro]
-/\[.{5,10}\]/i
-# Sample: | Netflix Inc. |
-/\|.{5,20}\|/i
-
-# Sample: _Congrats_
-#         - Huusk Japan -
-#/(_|-).{5,20}(_|-)/i
-/_.{5,20}_/i
-
 # m e t a m a s k
 /\w \w \w \w \w \w \w/i
 
 /trading.?co/i
-
-# Sample: (1)
-/\(\d\)/i
-
-# Sample: Mary (32) 
-/[a-zA-Z]{2,15}.?\(\d{2}\)/i
-
-# Sample: _66230
-#         *42424
-/(_|\*)\d{2,10}$/i
-
-# Sample: #89734"
-/#\d{1,5}"?$/i
-
-# A few question marks
-/\?\?\?/i
-
-#
-/-[a-z]\{2,15}-[a-z]\{2,15}-/i
-
-# Masked
-# ------------------------------------------------------------------------------
-
-#
-/\?\?/i
-
-# Simple like this
-/__/i
-
-# Sample: - EMURA -
-/- [a-z0-9]{2,15} -/i
-
-# Sample: ­­­­­­--n--e--
-/--[a-z]{1,2}--[a-z]{1,2}/i
-
-# Sample: --FedEx--
-/--[a-z0-9]{2,15}--/i
-
-# Sample: **FedEx**
-/\*\*[a-z0-9]{2,15}\*\*/i
-
-# Sample: [Miles & More]
-/\[[a-z0-9]{2,15}/i
-/[a-z0-9]{2,15}\[/i
