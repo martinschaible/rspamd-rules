@@ -9,6 +9,7 @@
 
 # Surveys
 # ------------------------------------------------------------------------------
+/survey.{1,10}about.{1,25}quickly.{1,10}claim/i
 /survey.{1,10}for a.{1,20}gift.?card/i
 /survey.{1,10}get a free gift/i
 /survey.{1,10}to claim your/i
@@ -24,6 +25,8 @@
 /system.{1,10}quick online survey/i
 
 /you need to do.{1,10}complete.{1,10}quick online.{1,10}survey/i
+
+/take survey (about|now)/i 0.5/i
 
 #
 #
