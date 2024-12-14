@@ -19,18 +19,11 @@
 /\(\d\)/i
 
 # Sample: "[iPad Pro"
-#         "| Netflix Inc"
-#         "_ Congrats"
-#         "- EMURA"
-#         "* FedEx"
-/[\[\|\-\*_!#][a-z0-9\s]{3,15}/i
-
-# Sample: "iPad Pro]"
-#         "Netflix Inc |"
-#         "Congrats _"
-#         "EMURA -"
-#         "FedEx *"
-/[a-z0-9\s]{3,15}[\[\|\-\*_!#]$/i
+#         "| Netflix Inc |"
+#         "_ Congrats _"
+#         "- EMURA -"
+#         "* FedEx *"
+/[\[\|\-\*_!#][a-z0-9\s]{3,15}[\[\|\-\*_!#]$/i
 
 # Date: "05/08/2023"
 /\d{2}\/\d{2}\/\d{4}/i
