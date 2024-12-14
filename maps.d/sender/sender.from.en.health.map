@@ -21,6 +21,7 @@
 # B
 /(bad|big|weak).{0,10}bladder/i
 /(bad|enhanced).{0,10}(eyes|memory)/i
+/bad.{0,10}breath/i
 
 /back.{0,10}(pain|stretch)/i
 /bald.{0,10}spot/i
@@ -49,7 +50,7 @@
 
 /cbd.{0,10}(fruit|gummies)/i
 
-/clean.{0,10}cell/i
+/(zombie|clean).{0,10}cell/i
 /cleansing.{0,10}pads/i
 /clinically.{0,10}proven/i
 
@@ -69,7 +70,7 @@
 /do this/i
 /doctor.{0,10}warning/i
 
-/dr.{0,10}derm/i
+/dr\.?.?(derm|health)/i
 /dribbling.{1,10}urine/i
 /dying.{0,10}signal/i
 
@@ -93,7 +94,7 @@
 /fix.{1,10}(nail|toe).{0,10}fungus/i
 
 /full(er)?.{0,10}hair/i
-/(fungal|fungus).{0,10}(infection|relief|remover?|vanishing)/i
+/(fungal|fungus).{0,10}(eliminator|infection|relief|remover?|vanishing)/i
 
 /food.{0,10}(cravings?|choices?|odor)/i
 /fried.{0,10}chicken/i
@@ -109,6 +110,7 @@
 /harmful.{0,10}veggies/i
 
 /healing.{0,10}(massage|technology)/i
+/healthy.{0,10}digest/i
 /hear.{0,5}(aid|loss|noise|restorer?)/i
 /heart.{0,10}(attack|health)/i
 /herpes.{0,10}outbreak/i
@@ -131,6 +133,7 @@
 /lung.{0,10}trust/i
 
 # M
+/magic.{0,10}oil/i
 /make your own/i
 
 /medicinal.{0,10}patch(es)?/i
@@ -308,7 +311,7 @@
 /(health|quick).{0,10}boost(er)?/i
 /healthy?.{0,10}(alert|alternative|brain|guides?|gut|insights|power|secret|transformation)/i
 
-/(american|daiyl|mens|womens).{0,10}health/i
+/(american|daily|insider|mens|womens).{0,10}health/i
 
 /(better|bone|dangerous).{0,10}health/i
 
@@ -375,7 +378,7 @@
 
 # Skin
 # ------------------------------------------------------------------------------
-/skin.{0,10}(care|cure|sagging)/i
+/skin.{0,10}(care|cure|reviver|sagging)/i
 /(aged|aging|perfect|radiant|smooth|youth).{0,10}skin/i
 /(dark|face).{0,10}spots?/i
 
@@ -396,10 +399,11 @@
 # ------------------------------------------------------------------------------
 /(perfect|rotting|strong|yellow){0,10}(teeth|tooth)/i
 /(teeth|tooth).{0,10}(decay|gums|loss|rotting)/i
+/decay.{0,10}stopper/i
 
 # Tinitus
 # ------------------------------------------------------------------------------
-/(buzzing|clear|ringing|stop|zero).{0,10}(ears?|noise)/i
+/(buzzing|clear|quiet|ringing|stop|zero).{0,10}(ears?|noise)/i
 /(beat|destroy|end|goodbye|stop).{0,10}tinnitus/i
 
 # Weightloss
