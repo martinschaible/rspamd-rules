@@ -1,0 +1,28 @@
+# ==============================================================================
+# Spammers like to use the IP address of the server for anchor and image tags
+# instead of a domain name.
+#
+# This rarely happens in normal emails.
+#
+# Tag:      image, ip address
+# Language: -
+# Weight:   6.0
+# ==============================================================================
+
+# IP address
+# ------------------------------------------------------------------------------
+/src=.{0,5}https?:\/\/\d{2,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}(\/|\.)/i
+
+# IP address different Charset
+# ------------------------------------------------------------------------------
+# Sample: https://0322.0020.0145.0207
+/src=.{0,5}https?:\/\/0\d{2,3}\.0\d{1,3}\.0\d{1,3}\.0\d{1,3}/i
+
+# Sample: https://0x55.0x0A.0x8B.0xDC
+/src=.{0,5}https?:\/\/0x[a-f0-9]{2}\.0x[a-f0-9]{2}\.0x[a-f0-9]{2}\.0x[a-f0-9]{2}/i
+
+# Sample: https://0x14.0271.0x63.0244
+/src=.{0,5}https?:\/\/0x\d{2}\.\d{4}\.0x\d{2}\.\d{4}/i
+
+# Sample: https://053.0xa3.207.0xf2
+/src=.{0,5}https?:\/\/\d{2,3}\.0x[a-f0-9]{2}\.\d{2,3}\.0x[a-f0-9]{2}/i
