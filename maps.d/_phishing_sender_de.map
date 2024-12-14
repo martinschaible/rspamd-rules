@@ -33,10 +33,6 @@
 # Cards
 # ------------------------------------------------------------------------------
 
-# Chair
-# ------------------------------------------------------------------------------
-/office.?chair/i
-
 # Subscriptions
 # ------------------------------------------------------------------------------
 /ihre rechnung/i
@@ -178,7 +174,6 @@
 # ------------------------------------------------------------------------------
 /(oral b|persil|series).{0,15}gewinner/i
 /(pro|s24).?gewinner/i
-/schlafset/i
 /tool.?set/i
 
 # ADAC, TCS
@@ -212,13 +207,12 @@
 /kreditkarte.{0,5}online/i
 
 # Parcel
-/(fedex|hermes|mydpd|swiss).{0,10}(abteilung|lieferung|versand)/i
-/dtn.?versand/i
+/(dtn\b|fedex|hermes|mydpd|swiss).{0,10}(abteilung|lieferung|versand)/i
 
 # DHL
 # Real sender: "DHL Paket"
-#/dhl.?paket$/i
 /dhl.?lieferung/i
+
 /paket.?team/i
 /lieferung - dhl/i
 
@@ -235,9 +229,8 @@
 /group.{0,10}kurier/i
 
 # German radio
-/abrechnung.{0,10}(ard|zdf)/i
-/abrechnungsstelle.{0,10}rundfunk/i
-/rundfunk.{0,10}abrechnung/i
+/abrechnung(sstelle)?.{0,10}(ard|zdf|rundfunk)/i
+/(ard|zdf|rundfunk).{0,10}abrechnung/i
 
 # Lexoffice
 /lexoffice.?konto/i
