@@ -48,14 +48,42 @@
 # a few underscores
 /__/i
 
+#
+#
+#
+
+# Message 
+# ------------------------------------------------------------------------------
+/message from/i
+/important.?message/i
+
+# Titles
+# ------------------------------------------------------------------------------
+/^.?(capt|dr|mrs?)\.\b/i
+
+/from (capt|dr|mrs?)\.\b/i
+
+/executive.?director/i
+/(purchase|sales).?manager/i
+
+#
+#
+#
+
+# Generic Uppercase
+# ------------------------------------------------------------------------------
+/GOOGLE/
+
 # Generic
 # ------------------------------------------------------------------------------
 
 # A
+/attorney at law/i
 
 # B
 
 # C
+/confirmation needed/i
 
 # D
 
@@ -87,6 +115,7 @@
 # Q
 
 # R
+/read.?this/i
 
 # S
 
@@ -97,10 +126,11 @@
 # V
 
 # W
-/-winners/i
 
 # X
 
 # Y
+/you are selected/i
+/you to read/i
 
 # Z
