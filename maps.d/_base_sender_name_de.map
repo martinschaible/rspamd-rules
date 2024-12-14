@@ -15,29 +15,7 @@
 
 # Unclassified
 # ------------------------------------------------------------------------------
-/(lies.?jetzt|sofort öffnen)/iu
 
-# Sample: Auswahl: 775TU3X
-/auswahl.{0,5}\d{1,3}/i
-
-/antworte.{1,10}heute/i
-
-/beeilen sie sich/i
-/deine chance/i
-/jetzt.{1,10}anmelden/i
-/letzte.?warnung/i
-
-/anwälte von/iu
-
-/mitteilung des/i
-/nachricht (vom|von)/i
-
-/jetzt (antworten|informieren|probieren)/i
-
-/wie man/i
-/wir empfehlen/i
-
-/höhle.?der.?löwen/iu
 
 # Masked
 # ------------------------------------------------------------------------------

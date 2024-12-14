@@ -17,33 +17,14 @@
 /facebook@/i
 /wix\.com/i
 
-/GOOGLE/
-
-/attorney at law/i
-/executive.?director/i
-/(purchase|sales).?manager/i
-
-# Titles
-# ------------------------------------------------------------------------------
-/^.?(capt|dr|mrs?)\.\b/i
-
-/you are selected/i
-
 #
 #
 #
 
 # Unclassified
 # ------------------------------------------------------------------------------
-/from mrs?\.\b/i
 
 /b.r.e.a.k.i.n.g/i
-
-/confirmation needed/i
-/important.?message/i
-/message from/i
-/read.?this/i
-/you to read/i
 
 # m e t a m a s k
 /\w \w \w \w \w \w \w/i
