@@ -39,7 +39,7 @@
 /(breathe|breathing).{0,10}(better|easier|easy)/i
 
 /body.{0,10}balance/i
-/boner$/i
+/\bboner$/i
 /boost.{0,10}energy/i
 
 /buzzing.{0,10}ears/i
@@ -157,7 +157,7 @@
 
 # P
 /pee.{0,10}leaks/i
-/pecker^/i
+/\bpecker$/i
 /pelvic.{0,10}recovery/i
 
 /penis.{0,10}(muscle|ritual)/i
@@ -215,7 +215,7 @@
 /varicose.veins/i
 
 # W
-/w.?loss/i
+/\bw.?loss/i
 
 /wellness.{0,10}insights/i
 /worst.{0,10}breakfast/i
