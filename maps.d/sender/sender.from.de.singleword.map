@@ -160,15 +160,15 @@
 /kennenlernen/i
 /kissen$/i
 /kreditsachbearbeiter/i
-/kundennummer/i
 /krypto$/i
 
 /^kunden.?(dienst|service)$/i
 /kunden-dienst/i
 /kundendienstes/i
+/kundennummer/i
 
-/kunden.?(helpdesk|id)/i
-/kunden.?(betreuung|informationen|nummer|unterstützung)$/iu
+/kunden.?(betreuung|helpdesk|id|informationen|nummer|unterstützung)$/iu
+/kundenservice.?team/i
 
 # L
 /lagereinheit/i
