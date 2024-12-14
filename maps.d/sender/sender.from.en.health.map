@@ -74,6 +74,7 @@
 /(hard|iron).{0,10}erection/i
 /ed.{0,10}(fix|forever|no.?more|treatment)/i
 /(fix your|goodbye).{0,10}ed/i
+/get hard/i
 
 # Fungus, Nails
 # ------------------------------------------------------------------------------
@@ -270,7 +271,7 @@
 
 /big.{0,10}(belly|size|stomage|tummy)/i
 
-/bladder.{0,10}(care|danger|fix|health|leaks?|leakage|leaking|issues?|relief)/i
+/bladder.{0,10}(boost|care|danger|fix|health|leaks?|leakage|leaking|issues?|relief)/i
 /bleeding.{0,10}gums?/i
 /blood.{0,10}sugar/i
 
@@ -351,8 +352,10 @@
 
 /healing.{0,10}(massage|technology)/i
 /healthy.{0,10}digest/i
+
 /hear.{0,5}(aid|loss|noise|restorer?)/i
-/heart.{0,10}(attack|health)/i
+/heart.{0,10}(attack|cells|health)/i
+
 /herpes.{0,10}outbreak/i
 
 /hidden.{0,10}(protein|toxin)/i

@@ -139,7 +139,9 @@
 /gutscheine?/i
 
 # H
+/handgeschmiedetes/i
 /hausmittel/i
+
 /helpcentrum/i
 /herr\b/i
 
@@ -173,6 +175,8 @@
 
 /kunden.?(betreuung|helpdesk|id|informationen|nummer|unterstützung)$/iu
 /kundenservice.?team/i
+
+/küchenhelfer/iu
 
 # L
 /lagereinheit/i
@@ -230,9 +234,11 @@
 /rückerstattung/i
 
 # S
+/schlafset/i
 /schlankheit/i
 /schutzpartner/i
 
+/schnellkomposter/i
 /schnelllieferdienst/i
 /schweiz.?kurier/i
 
@@ -267,6 +273,8 @@
 /telefon.?anlage/i
 /testsieger$/i
 
+/turnierplatte/i
+
 # U
 /überraschung/i
 /umfrage.?team/i
@@ -275,6 +283,7 @@
 
 # V
 /validierungs.?zentrum/i
+/ventilatoren/i
 
 #/versand$/i
 /verkaufs.?automat/i
