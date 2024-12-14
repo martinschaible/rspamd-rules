@@ -1,0 +1,17 @@
+# ==============================================================================
+# Actually, all links (href tag and img tag) should work with SSL.
+# Spammers often use links without SSL. Unfortunately, the false/positive rate
+# is too high for a generic rule with high weighting.
+# 
+# We test for specific tld's
+
+# Tag:      link, url, ssl
+# Language: -
+# Weight:   6.0
+# ==============================================================================
+
+# Regular TLD
+# ------------------------------------------------------------------------------
+/http:\/\/(www\.)?[a-z0-9-]{3,25}\.(ru|sa|za)\.com\//i
+/http:\/\/(www\.)?[a-z0-9-]{3,25}\.[a-z0-9-]{3,25}\.(ru|sa|za)\.com\//i
+
