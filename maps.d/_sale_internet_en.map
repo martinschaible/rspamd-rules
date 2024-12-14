@@ -7,6 +7,8 @@
 
 # Address lists for spamming, EMail Marketing
 # ------------------------------------------------------------------------------
+/\d{1,2}(m|mil).{1,10}email (campaign|marketing)/i
+
 /advertise.{1,10}to.{1,10}million.{1,10}e?.?mails/i
 
 /business.{1,10}e?.?mail.?addresses across/i

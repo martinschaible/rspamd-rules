@@ -121,6 +121,8 @@
 
 # Address lists for spamming, EMail Marketing
 # ------------------------------------------------------------------------------
+/\d{1,2}(m|mil).{1,10}email (campaign|marketing)/i
+
 /advertise.{1,15}million.{1,15}e?.?mails/i
 
 /boom of sales/i
