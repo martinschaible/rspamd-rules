@@ -6,6 +6,23 @@
 # Weight:   6.0
 # ==============================================================================
 
+# Topics
+# ==============================================================================
+
+# Girls, Woman, etc.
+# ------------------------------------------------------------------------------
+/(attraktive|finde|nackte|reife).{0,10}(frau(en)?|mädchen)/iu
+
+/(russische|urkrainische).{1,15}(frau(en)?|mädchen)/iu
+/(russische|urkrainische).{1,15}schönheiten/iu
+
+#
+#
+#
+
+# Generic
+# ==============================================================================
+
 # A
 /antworte.{5,25}noch heute/i
 
@@ -78,14 +95,3 @@
 # Y
 
 # Z
-
-#
-#
-#
-
-# Girls, Woman, etc.
-# ------------------------------------------------------------------------------
-/(attraktive|finde|nackte|reife).{0,10}(frau(en)?|mädchen)/iu
-
-/(russische|urkrainische).{1,15}(frau(en)?|mädchen)/iu
-/(russische|urkrainische).{1,15}schönheiten/iu

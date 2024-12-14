@@ -6,6 +6,18 @@
 # Weight:   6.0
 # ==============================================================================
 
+# Topics
+# ==============================================================================
+
+#
+#
+#
+
+# Girls, Woman, etc.
+# ------------------------------------------------------------------------------
+/(russian|ukraine|ukrainian).{0,10}(beauty|date|girl|ladies|love|woman|women)/i
+/(find|hot|meet).{1,10}(russian|ukraine|ukrainian)/i
+
 # A
 /adult_/i
 /(adult|erotic|match).{0,10}(dates?|dating|tiktok)/i
@@ -76,12 +88,3 @@
 # Y
 
 # Z
-
-#
-#
-#
-
-# Girls, Woman, etc.
-# ------------------------------------------------------------------------------
-/(russian|ukraine|ukrainian).{0,10}(beauty|date|girl|ladies|love|woman|women)/i
-/(find|hot|meet).{1,10}(russian|ukraine|ukrainian)/i
