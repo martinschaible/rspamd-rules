@@ -45,6 +45,8 @@
 # ------------------------------------------------------------------------------
 /google.?(claim|inc|llc|team)/i
 
+/(eu|world).?(business|company).{0,10}(directory|register)/i
+
 /i\.m\.f/i
 
 # Faked Senders
@@ -80,13 +82,16 @@
 
 # A
 /attorney at law/i
+/annuity comparison/i
 
 # B
 
 # C
+/comparison report/i
 /confirmation needed/i
 
 # D
+/donation.?funds?/i
 
 # E
 
@@ -108,6 +113,8 @@
 /message from/i
 
 # N
+/next of kin/i
+/notice.?memo/i
 
 # O
 
@@ -116,14 +123,17 @@
 # Q
 
 # R
+/randomly.?selected/i
 /read.?this/i
 
 # S
+/scam.?victim/i
 
 # T
 /trading.?co/i
 
 # U
+/usa.?donation/i
 
 # V
 
@@ -134,5 +144,7 @@
 # Y
 /you are selected/i
 /you to read/i
+
+/your fund/i
 
 # Z

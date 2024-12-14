@@ -11,7 +11,7 @@
 #                      - Masked entries are allowed
 #
 # Tag:      Sender, organisation, brand, product
-# Language: -
+# Language: german, english
 # Weight:   6.0
 # ==============================================================================
 
@@ -80,6 +80,8 @@
 
 # P
 /pfizer.?(™|®)?$/i
+
+/purchase?.?dep\.?$/i
 
 # Q
 
