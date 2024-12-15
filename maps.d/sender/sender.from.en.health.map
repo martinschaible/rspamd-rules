@@ -91,12 +91,12 @@
 
 # Gums
 # ------------------------------------------------------------------------------
-/(bleeding|healthier).{0,10}gums/i
+/(bleeding|healthier|perfect).{0,10}gums/i
 /gum.{0,10}(bleeding|disease)/i
 
 # Health
 # ------------------------------------------------------------------------------
-/(health|quick).{0,10}boost(er)?/i
+/(health|quick).{0,10}(boost(er)?|guide)/i
 /healthy?.{0,10}(alert|alternative|brain|guides?|gut|insights|power|secret|transformation)/i
 
 /(american|daily|insider|mens|womens).{0,10}health/i
@@ -291,7 +291,7 @@
 
 /cbd.{0,10}(fruit|gummies)/i
 
-/(zombie|clean).{0,10}cell/i
+/(fat|zombie|clean).{0,10}cell/i
 /cleansing.{0,10}pads/i
 /clinically.{0,10}proven/i
 
@@ -335,7 +335,7 @@
 /fix.{1,10}(nail|toe).{0,10}fungus/i
 
 /full(er)?.{0,10}hair/i
-/(fungal|fungus).{0,10}(eliminator|infection|relief|remover?|vanishing)/i
+/(fungal|fungus).{0,10}(eliminator|free|infection|relief|remover?|vanishing)/i
 
 /food.{0,10}(cravings?|choices?|odor)/i
 /fried.{0,10}chicken/i
@@ -460,6 +460,7 @@
 # W
 /\bw.?loss/i
 
+/water.{0,10}weight/i
 /wellness.{0,10}insights/i
 /worst.{0,10}breakfast/i
 /wrinkles/i
