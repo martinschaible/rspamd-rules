@@ -22,6 +22,7 @@
 
 /i.{1,10}can see your.{1,10}screen/i
 /i.{1,10}have.{1,10}access? to your.{1,15}(account|contacts?|device|e?.?mail|messenger|networks|social)/i
+/i.{1,10}have.{1,10}installed.{1,15}(malware|spyware|trojan|virus)/i
 
 /managed to hack.{1,10}your.{1,10}operating.?system/i
 
@@ -33,11 +34,12 @@
 # Malware
 /my.{1,10}(malware|trojan|virus)gave me/i
 
-/(malware|trojan|virus).{1,10}enabled me to connect/i
-/(malware|trojan|virus).{1,15}through one of your/i
+/(malware|spyware|trojan|virus).{1,15}enabled me to connect/i
+/(malware|spyware|trojan|virus).{1,15}gives me full access/i
+/(malware|spyware|trojan|virus).{1,15}through one of your/i
 
-/my private.{1,10}(malware|trojan|virus)/i
-/your e?.?mails are infected with.{1,15}(malware|trojan|virus)/i
+/my private.{1,10}(malware|spyware|trojan|virus)/i
+/your e?.?mails are infected with.{1,15}(malware|spyware|trojan|virus)/i
 
 #
 /adult site that you visited/i
@@ -53,10 +55,10 @@
 /my (bitcoin|btc).?(address|wallet).{1,15}(btc.?wallet|for transfer)/i
 /my bitcoin.{1,10}btc.{1,10}(address|wallet) is/i
 
-/just transfer.{1,10}usd.{1,15}to (bitcoin|btc)/i
-
+/(send|transfer).{1,10}\d{3,4}.{1,15}to my (bitcoin|cryptocurrency) wallet/i
 /(send|transfer).{1,10}(us dollars|usd).{1,10}in bitcoin equivalent/i
-/(send|transfer).{1,10}(us dollars|usd).{1,10}to my bitcoin wallet/i
+/(send|transfer).{1,10}(us dollars|usd).{1,10}to my (bitcoin|cryptocurrency) wallet/i
+/(send|transfer).{1,10}(us dollars|usd).{1,15}to (bitcoin|btc)/i
 /(send|transfer).{1,10}(bitcoin|btc).{1,15}to my wallet/i
 
 /transfer to my.{1,10}account.{1,10}after the transaction/i
