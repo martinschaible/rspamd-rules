@@ -9,9 +9,17 @@
 
 # Lottery
 # ------------------------------------------------------------------------------
-/(australia|award|coca.?cola|google|international|usa|uk).{0,10}(lotterie|lottery)/i
-/(euro|mega).{0,10}(jackpot|mill?ions)/i
-/sky.?lotto/i
+
+# Companies
+/(facebook|google).{0,10}(award|lotter(ie|y))/i
+
+# Countries
+/(australia|usa|uk).{0,10}lotter(ie|y)/i
+
+# Products
+/coca.?cola.{0,10}lotter(ie|y)/i
+
+/(award|euro|international|mega|postcode).{0,10}lotter(ie|y)/i
 
 /(central|navidad).{0,10}lott?eria/i
 
@@ -19,8 +27,7 @@
 /euro.?online.?lotto/i
 /uefa.?euro/i
 
-/(lottery|microsoft).{0,10}award/i
-/lotter(ie|y).{0,10}(board|promotion|winning)/i
+/lotter(ie|y).{0,10}(award|board|promotion|winning)/i
 
 /lott?eria.{0,10}(madrid|nacional)/i
 /lotto.?denavidad/i
@@ -28,3 +35,4 @@
 /powerball.{0,15}(casino|online)/i
 
 /jack\+pot/i
+/sky.?lotto/i
