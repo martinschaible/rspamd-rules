@@ -28,8 +28,6 @@
 
 /message for you.{1,10}(important|urgent)/i
 
-/read carefully/i
-
 # Urgent
 # ------------------------------------------------------------------------------
 /(important|urgent).{1,10}claim your/i
@@ -127,6 +125,11 @@ this message is for you/i
 
 /(pcba?|printed.circuit.board).{1,10}(assembly|business|cooperation|fabrication|manufacturer?)/i
 /custom.{1,10}(pcba?|printed.circuit.board)/i
+
+# Reading
+# ------------------------------------------------------------------------------
+/read carefully/i
+/recommend reading this e?.?mail/i
 
 # Silly stuff
 # ------------------------------------------------------------------------------
