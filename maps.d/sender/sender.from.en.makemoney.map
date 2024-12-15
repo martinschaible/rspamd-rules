@@ -34,7 +34,7 @@
 
 # ETF (Exchange Traded Funds)
 # ------------------------------------------------------------------------------
-/(eft|etf).?customer/i
+/(eft|etf).?(customer|investment)/i
 /spot.?etf/i
 
 # KI
