@@ -261,13 +261,15 @@
 
 /anlage.{1,10}ihre fördermittel sichern/iu
 
-/photo.?voltaik.?anlage.{1,10}ausstattet kann.{1,10}profitieren/i
-/photo.?voltaik.?anlage.{1,10}erzeugen sie ihren strom/i
-/photo.?voltaik.?anlage.{1,10}können sie/iu
+/förderung sie.{1,10}erhalten.{1,10}erfahren sie hier/i
 
-/solar.?anlage.{1,10}die (ihren strom|richtige)/i
+/(photo.?voltaik|pv|solar).?anlage.{1,10}ausstattet kann.{1,10}profitieren/i
+/(photo.?voltaik|pv|solar).?anlage.{1,10}die (ihren strom|richtige)/i
+/(photo.?voltaik|pv|solar).?anlage.{1,10}erzeugen sie ihren strom/i
+/(photo.?voltaik|pv|solar).?anlage.{1,10}können sie/iu
 
 /kostenlos über alle förderungen/iu
+
 /(kostenlosen|kostenloser).{1,15}rechner/i
 /(kostenlosen|kostenloser).{1,10}solar.?rechner/i
 /(kostenlosen|kostenloser).{1,10}unverbindlichen vergleich erfahren sie/i
@@ -290,6 +292,7 @@
 /ihr gebäude finden sie hier/iu
 
 /wir ihnen einen kostenlosen überblick.{1,10}alle anlagen/i
+/wir Ihnen gerne kostenlos.{1,10}unverbindlich/i
 
 /guten tag.{1,10}viele hausbesitzer/i
 

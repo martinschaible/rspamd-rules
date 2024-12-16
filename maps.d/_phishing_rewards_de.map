@@ -34,6 +34,7 @@
 /(belohnung|geschenk|gutschein|preis).{1,10}für sie.{1,10}sie ausgewählt wurden/iu
 /(belohnung|geschenk|gutschein|preis).{1,10}in anspruch zu nehmen/i
 /(belohnung|geschenk|gutschein|preis).{1,10}in beschränkter zahl verfügbar/iu
+/(belohnung|geschenk|gutschein|preis).{1,10}in nur wenigen tagen erhalten/i
 /(belohnung|geschenk|gutschein|preis).{1,10}ist noch nicht beansprucht/i
 /(belohnung|geschenk|gutschein|preis).{1,15}sie hinterlegt wurde/i
 /(belohnung|geschenk|gutschein|preis).{1,10}sie verfügbar sind/iu
@@ -60,6 +61,7 @@
 
 /sich ihr kostenloses geschenk/i
 
+/sie eine exklusive belohnung/i
 /sie diesen fantastischen preis erhalten/i
 /sie haben eine kostenlose.{10,25}gewonnen/i
 /sie sind einer von.{1,10}benutzern.{1,10}die wir im rahmen unseres treueprogramms/i
