@@ -22,7 +22,8 @@
 /ihre?.{5,25}wartet/i
 /ihre(r|s).{5,15}fehlgeschlagen/i
 
-/wichtige benachrichtigung/i
+/wichtige.{1,10}(aktion|benachrichtigung)/i
+
 /zahlung erforderlich/i
 /zustellung ansteht/i
 
