@@ -40,6 +40,7 @@
 # EMail, Cloud, Security and Server support
 # ------------------------------------------------------------------------------
 /support!/i
+/\|.?support/i
 
 /(admin|e?.?mail).{0,10}(alert|helpdesk|it$|security|server|support)/i
 
@@ -51,8 +52,9 @@
 /message.?center/i
 /security.notification/i
 /support.?notice/i
+/^support.?team/i
 
-/(e?.?mail|support|webmail).{0,5}(admin|manager|notice|server|support|team)/i
+/(e?.?mail|webmail).{0,5}(admin|manager|notice|server|support|team)/i
 
 /e?.?mail.?(notice|service|verification)/i
 
@@ -61,8 +63,6 @@
 
 /\.(ch|com|de|org).?(admin$|administrator|helpdesk|security|server|update)/i
 /\.(ch|com|de|org).?onedrive/i
-
-/\|.?support/i
 
 # Sample: amelec.ch IT
 /[a-z0-9-]{3,15}\.(ch|com|de|org).? (action required|it)/i
