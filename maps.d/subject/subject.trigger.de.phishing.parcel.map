@@ -1,0 +1,22 @@
+# ==============================================================================
+# To avoid a lot of complex phrases, I only use a few keywords.
+# If a word is recognized, the symbol acts as a condition (trigger) for a
+# second file, which has further checks.
+#
+# This is about phishing: It involves parcel deliveries that cannot be
+# delivered for various reasons. The fraudsters want the credit card details
+# in order to steal money.
+#
+# Tag:      Sender, phishing, parcel
+# Language: german
+# Weight:   0.25
+# ==============================================================================
+
+# Keywords
+# ==============================================================================
+/lieferadresse/i
+/paket/i
+/sendung/i
+
+/zustellung\b/i
+/zustellungsproblem/i 2.0
