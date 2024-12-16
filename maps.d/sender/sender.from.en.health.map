@@ -347,7 +347,7 @@
 
 # H
 /hair.{0,5}(growth|loss|renewal|restoration)/i
-/hard.{0,10}in/i
+/hard in\b/i
 /harmful.{0,10}veggies/i
 
 /healing.{0,10}(massage|technology)/i
