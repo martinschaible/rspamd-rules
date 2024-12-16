@@ -14,9 +14,13 @@
 # Phishing parcel
 # ------------------------------------------------------------------------------
 /antworten sie/i
+/aufbewahrt wird/i
 /fehlgeschlagen/i
 /holen sie es/i
 /korrigieren sie/i
+
 /ihre?.{5,25}wartet/i
+/ihre(r|s).{5,15}fehlgeschlagen/i
+
 /wichtige benachrichtigung/i
 /zustellung ansteht/i
