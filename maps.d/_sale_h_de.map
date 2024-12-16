@@ -88,8 +88,13 @@
 # Cushion
 # ------------------------------------------------------------------------------
 /kissen.{1,10}in.{1,10}(deutschland|schweiz)/i
+/kissen.{1,10}sonderpreis/i
+
+/lendenstützkissen.{1,10}rückenkissen/i
 
 /(derila|klaudena).{1,10}(kissen|komfort)/i
+
+/unser.{1,10}(lendenstützkissen|rückenkissen)/i
 
 # Dishwasher
 # ------------------------------------------------------------------------------
