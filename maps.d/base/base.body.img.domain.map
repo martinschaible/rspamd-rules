@@ -32,13 +32,19 @@
 # CSS
 /background: url\(.?https:\/\/i\.imgur\.com/i
 
+# Marketing and Newsletter Companies
+# ------------------------------------------------------------------------------
+/src=.{0,5}https?:\/\/uploads\.sendfox\.com/i
+
 # Miscellaneous Domains
 # ------------------------------------------------------------------------------
 /src=.{0,5}https?:\/\/i\.ibb\.co/i
 /src=.{0,5}https?:\/\/upload\.wikimedia\.org\/wikipedia\/commons/i
 /src=.{0,5}https?:\/\/yahoo\.com/i
 
-/src=.{0,5}https?:\/\/eu\d-us\d\.ckcdnassets.com/i
-
 # Lower Score
 /src=.{0,5}https?:\/\/[a-z0-9]{5,20}\.cloudfront\.net/i 0.20
+
+# CDN's
+# ------------------------------------------------------------------------------
+/src=.{0,5}https?:\/\/eu\d-us\d\.ckcdnassets.com/i
