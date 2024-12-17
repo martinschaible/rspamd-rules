@@ -1,0 +1,43 @@
+# ==============================================================================
+# Subject: Scam
+# ------------------------------------------------------------------------------
+#
+# Weighting: LOW:     6 
+#            MEDIUM: 12
+#            HIGH:   18
+#
+# In the configuration of SmaterMail we use the scoring factor 1.67 to reach the
+# weighting of 10, 20 and 30.
+# ==============================================================================
+
+# Triggers
+# ==============================================================================
+# -> Not yet needed
+
+# Conditional
+# ==============================================================================
+# -> Not yet needed
+
+# Regular
+# ==============================================================================
+subject.de.scam {
+  type = "header";
+  header = "subject";
+  regexp = true;
+  one_shot = true;
+  map = "https://raw.githubusercontent.com/martinschaible/rspamd-rules/main/maps.d/subject/de/subject.de.scam.map";
+  score = 12.0;
+  symbol = "subject.de.scam";
+  description = "Subject Scam, German";
+}
+
+subject.en.scam {
+  type = "header";
+  header = "subject";
+  regexp = true;
+  one_shot = true;
+  map = "https://raw.githubusercontent.com/martinschaible/rspamd-rules/main/maps.d/subject/en/subject.en.scam.map";
+  score = 12.0;
+  symbol = "subject.en.scam";
+  description = "Subject Scam, English";
+}
