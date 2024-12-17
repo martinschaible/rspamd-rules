@@ -14,7 +14,8 @@
 /http:\/\/(www\.)?[a-z0-9-]{3,25}\.me\.uk\//i
 /http:\/\/(www\.)?[a-z0-9-]{3,25}\.(in|ru)\//i
 
-/http:\/\/(www\.)?[a-z0-9-]{3,25}\.(biz|info)/i
+# False/Positives
+#/http:\/\/(www\.)?[a-z0-9-]{3,25}\.(biz|info)/i
 
 /http:\/\/(www\.)?[a-z0-9-]{3,25}\.com\/redirect\.html/i
 
