@@ -15,6 +15,7 @@
 # ------------------------------------------------------------------------------
 /antworten sie/i
 /aufbewahrt wird/i
+/distributionszentrum/i
 /fehlgeschlagen/i
 /holen sie es/i
 /korrigieren sie/i
@@ -22,6 +23,9 @@
 /ihre?.{5,25}wartet/i
 /ihre(r|s).{5,15}fehlgeschlagen/i
 
+/lieferadresse/i
+
+/sie haben/i
 /wichtige.{1,10}(aktion|benachrichtigung)/i
 
 /zahlung erforderlich/i
