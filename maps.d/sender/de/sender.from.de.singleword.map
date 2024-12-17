@@ -1,0 +1,324 @@
+# ==============================================================================
+# This file only contains words, one per entry.
+# This can be dangerous and should only be used if:
+# - The sender only consists of one word and should be additionally equipped
+#   with line boundaries.
+# - The sender consists of several words, but can be reliably declared as spam
+#   with just one word.
+#
+# Tag:      Sender, single word
+# Language: German
+# Weight:   6.0
+# ==============================================================================
+
+# Special
+# ==============================================================================
+/\|.?kunden/i
+
+#
+#
+#
+
+# Generic
+# ==============================================================================
+
+# A
+/achtung/i
+
+/anspruchscode/i
+/antihaftbeschichtung/i
+/antiviren.?partner/i
+/antragsprozess/i
+
+/auftragsbestätigung/iu
+/augenheilkunde/i
+
+/auszahlung/i
+/auszahlungsbestätigung/i
+/auszahlungsprozess/i
+
+/auszeichnung(en)?/i
+
+/(apo|apotheke)$/i
+/^apotheke$/i
+/apotheker/i
+
+/arsch.?luder/i
+
+# B
+/bankanlage/i
+/bankenmeldung/i
+
+/begrenzt/i
+
+/beitragsservice/i
+
+/belohnen #/i
+/belohnen/i
+/belohnung(en)?/i
+/belohnungspanel/i
+/belohnungsabteilung/i
+/belohnungsprämien/i
+
+/benachrichtigung/i
+/beratung$/i
+/^bestätigung$/i
+/beseitigt/i
+
+/bewertungen/i
+/bewertungslöschung/iu
+
+/bluthochdruck/i
+/bürostuhl/i
+
+/bumsen/i
+/bundes.?nachrichten/i
+
+# C
+/chatten/i
+/computer.?schutz/i
+
+# D
+/datenschutz$/i
+/daunen.?jacke/i
+/dividenden/i
+/doktor$/i
+/drucker$/i
+/durchbruch/i
+
+# E
+/eilmeldung/i
+/einzeltreffen/i
+/einsparungen/i
+/erektion/i
+
+# F
+/fettleibigkeit/i
+/^finanzen$/i
+/finanzierung$/i
+/finanzinstrumente?/i
+/finanzrevolution/i
+/frau\b/i
+/freigeschaltet/i
+/freundschafts.?anfrage/i
+
+/förder.?check/iu
+
+# G
+/gebührenfrei/i
+/geheiminvestition/i
+/gerätesicherheit/iu
+
+/geiles?/i
+/geheimnisvolle?/i
+
+/^geldsorgen/i
+/geldsparende/i
+/gerichtsvollzieher/i
+
+/geschenkabteilung/i
+/geschenkprämien/i
+
+/gesundheitstipps/i
+/gesundheitszentrum$/i
+
+/gewinner(in)?/i
+/gewinn(er)?.?(deklaration|erklarung|erklärung)/i
+/gewinnspiel.?(team|zentrale)/i
+/gewinnerklärung/i
+
+/girokonto/i
+
+/glückwunsch/iu
+/gluckwunsch/i
+
+/gratuliert/i
+/grund.?einkommen/i
+
+/guthaben/i
+/gutscheine?/i
+
+# H
+/handgeschmiedetes/i
+/hausmittel/i
+
+/helpcentrum/i
+/herr\b/i
+
+/hilfspersonal/i
+/hilfezentrum.?id/i
+
+# I
+/illuminaten/i
+/immobilien.?preise/i
+/investieren$/i
+/investment.?fond/i
+/investmentstrategie/i
+
+# J
+/jungfrauen/i
+
+# K
+/kahlheit/i
+/^kardiologie$/i
+
+/kassen$/i
+/käuferumfrage/iu
+/kennenlernen/i
+/kissen$/i
+/kreditsachbearbeiter/i
+/krypto$/i
+
+/^kunden.?(dienst|service)$/i
+/kunden-dienst/i
+/kundendienstes/i
+/kundennummer/i
+
+/kunden.?(betreuung|helpdesk|id|informationen|nummer|unterstützung)$/iu
+/kundenservice.?team/i
+
+/küchenhelfer/iu
+
+# L
+/lagereinheit/i
+/legalisierung/i
+/liebste.?$/i
+/^lieferung$/i
+/^logistik$/i
+
+# M
+/malware.?schutz/i
+
+/meldungsservice/i
+/methode/i
+/mitgliedschaft/i
+
+# N
+/nachrichtennummer/i
+/nagelpilz/i
+/naturliche/i
+
+/notfallset/i
+/notstrom/i
+
+# O
+/ohrenschmalz/i
+
+# P
+/^paketdienst$/i
+/^paket$/i
+
+/pillen$/i
+/potenz/i
+
+/präsident/iu
+/preisträger/i
+/proktologie/i
+/prostata/i
+
+/pv.?anlage/i
+
+# Q
+
+# R
+/raumungsangebote?/i
+
+/rechnungstelle/i
+/reichtum/i
+/reinigungspartner/i
+/revolutionär/i
+/rezeptfrei/i
+
+/rundfunkbeitrag/i
+/rundfunkservice/i
+
+/rückerstattung/i
+
+# S
+/schlafset/i
+/schlankheit/i
+/schutzpartner/i
+
+/schnellkomposter/i
+/schnelllieferdienst/i
+/schweiz.?kurier/i
+
+/sehkraft/i
+/selektiert/i
+/sendungsbereitmeldung/i
+/sex.?gruppe/i
+
+/sicherheits.?team/i
+/sitzkissen/i
+/spende\b/i
+
+/steuerrückerstattungsdienst/iu
+/steuerzahlung/i
+/steinhart/i
+/stromkosten/i
+
+/schufa.?auskunft/i
+/schutzmasken/i
+
+/sofort.?gewinn/i
+/sofort.?kredit/i
+/solar.?(förderung|vergleich)/iu
+
+/spanische/i
+/sprach.?nachricht(en)?/i
+
+# T
+/tabletten$/i
+/tagesgewinner/i
+
+/telefon.?anlage/i
+/testsieger$/i
+
+/turnierplatte/i
+
+# U
+/überraschung/i
+/umfrage.?team/i
+/ungelesen/i
+/unterstützung/i
+
+# V
+/validierungs.?zentrum/i
+/ventilatoren/i
+
+/verbraucherumfrage/i
+/verkaufs.?automat/i
+
+/verlängerungsupdate/iu
+
+/^versand$/i
+/versandaktualisierung
+/versandbereitstellung/i
+
+/^vertriebs.?zentrum$/i
+
+/(viren|virus).?(bedrohung(en)?|schutz)/i
+
+# W
+/wasserspender/i
+/weihnachtslotterie/i
+/weiterempfehlung/i
+
+/werbegeschenk/i
+/werbemittel/i
+/werkzeugset/i
+
+/wett.?tip/i
+
+/wichtig!?$/i
+/willkommen/i
+
+/wunder/i
+
+# X
+
+# Y
+
+# Z
+/zahlung$/i
+/zahlungsmittel/i

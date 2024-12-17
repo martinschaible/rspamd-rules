@@ -1,0 +1,20 @@
+# ==============================================================================
+# These rules apply to the financial sector. 
+# They concern fraudulent credit and loan offers
+#
+# Tag:      Sender, finance, loans, mortgage
+# Language: English
+# Weight:   6.0
+# ==============================================================================
+
+# Finance, Loans, Mortgage
+# ------------------------------------------------------------------------------
+/finance.?group/i
+
+/financial.?help/i
+/(credit|funding|loan|rates).{0,10}(firm|for|ltd|offer|opportunity|service|specialist|venture)/i
+/(free|investment|net|personal).{0,10}(credit|loans?)/i
+
+/lenders/i
+
+/mortgage.{0,10}(alert|assist|home)/i

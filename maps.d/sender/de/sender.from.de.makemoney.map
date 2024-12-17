@@ -1,0 +1,102 @@
+# ==============================================================================
+# This is about the fraudulent promise of getting rich very quickly.
+# Recently it has mainly been about crypto currencies.
+# The use of artificial intelligence is also advertised.
+#
+# Tag:      Sender, make money, bitcoin, ai, rich
+# Language: German
+# Weight:   6.0
+# ==============================================================================
+
+# Topics
+# ==============================================================================
+
+# Crypto
+# ------------------------------------------------------------------------------
+/(bitcoin|crypto|krypto).{0,10}(beratung|berater|bricht|bulletin)/i
+/(bitcoin|crypto|krypto).{0,10}(einblick|experte)/i
+/(bitcoin|crypto|krypto).{0,10}(geld|gewinner|gratis|handel|händler)/i
+/(bitcoin|crypto|krypto).{0,10}(nachrichten|preis|tipps?|vorteile?|währung(en)?|welle)/iu
+
+# ETF (Exchange Traded Funds)
+# ------------------------------------------------------------------------------
+/etf.{0,10}(beratung|dividende|kenner|news)/i
+/beratung.{0,10}etf/i
+
+# Income
+# ------------------------------------------------------------------------------
+/(passives|zusatz).?einkommen/i
+
+# Make Money
+# ------------------------------------------------------------------------------
+/(bank(en)?|investment).{0,10}(beratung|berater|call.?center|fonds?)/i
+
+/(dividenden|ihre).{0,10}auszahlung/i
+
+#
+#
+#
+
+# Generic
+# ==============================================================================
+
+# A
+
+# B
+
+# C
+
+# D
+
+# E
+
+# F
+/forex.?(broker|handel)/i
+
+# G
+/geld.{0,10}(strategien|verdienen)/i
+
+# H
+
+# I
+
+# J
+/ihr investment/i
+/ihre rendite/i
+
+# K
+/ki.?(aktien|news)/i
+/kaufen.{0,10}teuer/i
+
+# L
+/lukrative.{0,10}gelegenheit/i
+
+# M
+
+# N
+
+# O
+
+# P
+
+# Q
+
+# R
+/reich.{0,10}(sein|werden)/i
+
+# S
+
+# T
+/teuer.{0,10}verkaufen/i
+
+# U
+
+# V
+
+# W
+
+# X
+
+# Y
+
+# Z

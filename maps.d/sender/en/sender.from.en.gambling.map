@@ -1,0 +1,16 @@
+# ==============================================================================
+# This is about casinos and the promises of winning a lot of money.
+# The number of spam mails in this category is decreasing.
+#
+# Tag:      Sender, casino, gambling
+# Language: English
+# Weight:   6.0
+# ==============================================================================
+
+# Casino, Gambling
+# ------------------------------------------------------------------------------
+/casino.{0,10}(deal|for you|luck|team|you)/i
+/casino4/i
+/verde.?casino/i
+
+/(extra|free|lucky?).{0,10}(spins?|splns?)/i

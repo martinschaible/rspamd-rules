@@ -1,0 +1,153 @@
+# ==============================================================================
+# This file only contains words, one per entry.
+# This can be dangerous and should only be used if:
+# - The sender only consists of one word and should be additionally equipped
+#   with line boundaries.
+# - The sender consists of several words, but can be reliably declared as spam
+#   with just one word.
+#
+# Tag:      Sender, single word
+# Language: English
+# Weight:   6.0
+# ==============================================================================
+
+# Special
+# ==============================================================================
+/_confirmation/i
+/_winner/i
+
+#
+#
+#
+
+# Generic
+# ==============================================================================
+
+# A
+/^ai$/i
+
+/account$/i
+/^alert$/i
+/alzheimers?/i
+/antivirus$/i
+/attention/i
+/award.?team/i
+
+# B
+/barrister/i
+/basic.?protein/i
+/best.?seller/i
+/billionaire/i
+/bit?coin$/i
+/blockchain/i
+/breakthrough/i
+
+# C
+/cancer$/i
+/compensation/i
+/congratulations/i
+/constipation/i
+
+# D
+/dementia/i
+/diplomat/i
+/dizziness/i
+/donation$/i
+
+# E
+/e.?draw$/i
+/ejaculation/i
+/escort.?girl/i
+
+# F
+/facelift/i
+/forgetful/i
+
+# G
+/general/i
+
+# H
+/hallux/i
+/^help.?center$/i
+/^hr.?department$/i
+
+# I
+/illuminati/i
+/^investment$/i
+/invoice/i
+
+# J
+/jackpot$/i
+
+# K
+/knives$/i
+
+# L
+
+# M
+/^mail$/i
+
+/major/i
+
+/menupausal/i
+/menupause/i
+
+/migraine/i
+/milf$/i
+
+# N
+/neuropathy/i
+/^notice$/i
+/noreplay/i
+
+# O
+/osteoporosis/i
+
+# P
+/playboy$/i
+/purchase$/i
+
+/procurements$/i
+/prostate/i
+/prostatitis/i
+
+# Q
+
+# R
+/revolutionary/i
+
+# S
+/sergeant/i
+/^service$/i
+/slimming/i
+/stiffy/i
+/stock.?pick(ing)/i
+/survival$/i
+
+# T
+/^team$/i
+/thyroid/i
+/tinnitus$/i
+/translator/i
+
+# U
+/unclaimed/i
+/urgent$/i
+
+# V
+/vice.?president/i
+/voucher/i
+
+# W
+/waistline/i
+/warning$/i
+/^watches$/i
+/^webdesign$/i
+
+/whistleblower/i
+
+# X
+
+# Y
+
+# Z

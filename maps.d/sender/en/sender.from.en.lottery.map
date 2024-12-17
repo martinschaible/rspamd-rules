@@ -1,0 +1,38 @@
+# ==============================================================================
+# Spammers like to offer fraudulent lottery prizes.
+# The number of spam mails in this category is decreasing.
+#
+# Tag:      Sender, fraud, lottery
+# Language: English
+# Weight:   6.0
+# ==============================================================================
+
+# Lottery
+# ------------------------------------------------------------------------------
+
+# Companies
+/(facebook|google).{0,10}(award|lotter(ie|y))/i
+
+# Countries
+/(australia|usa|uk).{0,10}lotter(ie|y)/i
+
+# Products
+/coca.?cola.{0,10}lotter(ie|y)/i
+
+/(award|euro|international|mega|postcode).{0,10}lotter(ie|y)/i
+
+/(central|navidad).{0,10}lott?eria/i
+
+/elgordo.{0,10}primitiva/i
+/euro.?online.?lotto/i
+/uefa.?euro/i
+
+/lotter(ie|y).{0,10}(award|board|promotion|winning)/i
+
+/lott?eria.{0,10}(madrid|nacional)/i
+/lotto.?denavidad/i
+
+/powerball.{0,15}(casino|online)/i
+
+/jack\+pot/i
+/sky.?lotto/i

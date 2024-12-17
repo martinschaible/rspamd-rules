@@ -1,0 +1,31 @@
+# ==============================================================================
+# This is about phishing: It involves parcel deliveries that cannot be
+# delivered for various reasons. The fraudsters want the credit card details
+# in order to steal money.
+#
+# This file is only used if the matching trigger file has fired.
+#
+# Tag:      Subject, phishing, parcel
+# Trigger:  subject.trigger.de.phishing.parcel
+# Language: german
+# Weight:   6.0
+# ==============================================================================
+
+# Phishing parcel
+# ------------------------------------------------------------------------------
+/antworten sie/i
+/aufbewahrt wird/i
+/fehlgeschlagen/i
+/holen sie es/i
+/korrigieren sie/i
+
+/ihre?.{5,25}wartet/i
+/ihre(r|s).{5,15}fehlgeschlagen/i
+
+/wichtige.{1,10}(aktion|benachrichtigung)/i
+
+/zahlung erforderlich/i
+/zustellung ansteht/i
+
+# Sample: #CH2038709
+/#ch\d{1,10}/i
