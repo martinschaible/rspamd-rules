@@ -13,15 +13,15 @@
 
 # Crypto
 # ------------------------------------------------------------------------------
-/(bitcoin|crypto|krypto).{0.10}(beratung|berater|bricht|bulletin)/i
-/(bitcoin|crypto|krypto).{0.10}(einblick|experte)/i
-/(bitcoin|crypto|krypto).{0.10}(geld|gewinner|gratis|handel|händler)/i
-/(bitcoin|crypto|krypto).{0.10}(nachrichten|preis|tipps?|vorteile?|währung(en)?|welle)/iu
+/(bitcoin|crypto|krypto).{0,10}(beratung|berater|bricht|bulletin)/i
+/(bitcoin|crypto|krypto).{0,10}(einblick|experte)/i
+/(bitcoin|crypto|krypto).{0,10}(geld|gewinner|gratis|handel|händler)/i
+/(bitcoin|crypto|krypto).{0,10}(nachrichten|preis|tipps?|vorteile?|währung(en)?|welle)/iu
 
 # ETF (Exchange Traded Funds)
 # ------------------------------------------------------------------------------
-/etf.{0.10}(beratung|dividende|kenner|news)/i
-/beratung.{0.10}etf/i
+/etf.{0,10}(beratung|dividende|kenner|news)/i
+/beratung.{0,10}etf/i
 
 # Income
 # ------------------------------------------------------------------------------
@@ -29,9 +29,9 @@
 
 # Make Money
 # ------------------------------------------------------------------------------
-/(bank(en)?|investment).{0.10}(beratung|berater|call.?center|fonds?)/i
+/(bank(en)?|investment).{0,10}(beratung|berater|call.?center|fonds?)/i
 
-/(dividenden|ihre).{0.10}auszahlung/i
+/(dividenden|ihre).{0,10}auszahlung/i
 
 #
 #
@@ -54,7 +54,7 @@
 /forex.?(broker|handel)/i
 
 # G
-/geld.{0.10}(strategien|verdienen)/i
+/geld.{0,10}(strategien|verdienen)/i
 
 # H
 
@@ -69,7 +69,7 @@
 /kaufen.{0,10}teuer/i
 
 # L
-/lukrative.{0.10}gelegenheit/i
+/lukrative.{0,10}gelegenheit/i
 
 # M
 
