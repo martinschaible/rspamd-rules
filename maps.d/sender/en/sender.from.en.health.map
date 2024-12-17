@@ -137,7 +137,7 @@
 
 # Pain
 # ------------------------------------------------------------------------------
-/pain.{0,10}(free|gone|indicator|killer|no.?more|quiz|relief|remover|warning)/i
+/pain.{0,10}(free|gone|indicator|killer|no.?more|quiz|relief|remover|warning)/i 
 
 /(chronic|chrippling|ease|end|erase|joint|knee|neck|neuropathic|nerve|reduces).{0,10}pain/i
 
@@ -284,6 +284,7 @@
 /\bboner$/i
 /boost.{0,10}energy/i
 
+/burn.{0,10}calories/i
 /buzzing.{0,10}ears/i
 
 # C
@@ -407,6 +408,8 @@
 
 # P
 /pee.{0,10}leaks/i
+/peeing/i
+
 /\bpecker$/i
 /pelvic.{0,10}recovery/i
 
