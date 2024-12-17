@@ -24,7 +24,7 @@
 # Crypto
 # ------------------------------------------------------------------------------
 /(bitcoin|btc|crypto|krypto).{0,10}(admin|bank|boom|broker|bulletin)/i
-/(bitcoin|btc|crypto|krypto).{0,10}(currency|etf|forex|guidence)/i
+/(bitcoin|btc|crypto|krypto).{0,10}(currency|era$|etf|forex|guidence)/i
 /(bitcoin|btc|crypto|krypto).{0,10}(insider|insights|invest(ment)?)/i
 /(bitcoin|btc|crypto|krypto).{0,10}(millionaire|network|news|rebound|revolution|update|wealth)/i
 
