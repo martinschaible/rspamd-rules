@@ -232,18 +232,18 @@
 # ------------------------------------------------------------------------------
 
 # Sample: info(at)=CE=96arenga(dot)de
-/info\(at\)[a-z0-9=]{4,15}\(dot\)(com|de|org)/i
+/info\(at\)[a-z0-9=]{4,15}\(dot\)(com|de|net|org)/i
 
 # Sample: info[at]event4free[dot]de
-/info\[at\][a-z0-9=]{4,15}\[dot\](com|de|org)/i
+/info\[at\][a-z0-9]{4,15}\[dot\](com|de|net|org)/i
 
 # Sample: info[a]caridako[.]com
-/info\[a\][a-z0-9=]{4,15}\[\.\](com|de|org)/i
+/info\[a\][a-z0-9=]{4,15}\[\.\](com|de|net|org)/i
 
 /\].{1,10}bestätigen sie/iu
 
 # Sample: Kontakt: Nikola.cerny[at]meraklis[dot]org
-/kontakt.{1,20}\[at\][a-z0-9]{4,15}\[dot\](com|de|org)/irg
+/kontakt.{1,20}\[at\][a-z0-9]{4,15}\[dot\](com|de|net|org)/irg
 
 /\(dot\)(com|de|org).{1,10}whatsapp/i
 
