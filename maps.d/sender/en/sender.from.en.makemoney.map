@@ -34,7 +34,10 @@
 
 # ETF (Exchange Traded Funds)
 # ------------------------------------------------------------------------------
+/(eft|etf).?customer/i
+# Investment exists as a single word
 /(eft|etf).?(customer|investment)/i
+
 /spot.?etf/i
 
 # KI
