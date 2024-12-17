@@ -101,6 +101,7 @@
 
 /sehr geehrter kunde.{1,10}ihre sendung konnte/i
 /sehr geehrter kunde.{1,10}wir haben.{1,10}versucht.{1,10}ihr paket/i
+/sehr geehrter kunde.{1,10}wir konnten ihr paket/i
 
 /ihr örtlicher kurier.{1,20}ihre? (paket|sendung)/iu
 
@@ -218,6 +219,8 @@
 
 /gebühr wird erhoben.{1,10}handeln sie schnell/iu
 /gebühr für einen erneuten zustellversuch/iu
+
+/hierfür wird eine zusätzliche zustellgebühr/iu
 
 /ihre (nicht bezahlter|unbezahlter).{1,10}zollgebühren zu bezahlen/iu
 
