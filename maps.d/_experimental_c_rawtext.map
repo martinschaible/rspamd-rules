@@ -10,26 +10,9 @@
 /<a href=.{0,5}https:\/\/t\.co\/[a-z0-9]{5,15}.{1,10}target=.{0,5}_blank/i
 /https:\/\/t\.co\/[a-z0-9]{5,15}" target=.{0,5}_blank"><img src=.{0,5}https/i
 
-# No SSL and an exotic TLD
-# ------------------------------------------------------------------------------
-/http:\/\/(www\.)?[a-z]{3,20}\.(club|email|services|shop|today|world)/i
-# Subdomain
-/http:\/\/[a-z0-9-]{3,25}\.[a-z]{3,20}\.(club|email|services|shop|today|world)/i
-
-/http:\/\/(www\.)?[a-z0-9-]{3,25}\.(ru|sa|za)\.com\//i
-/http:\/\/(www\.)?[a-z0-9-]{3,25}\.co\.(in|uk)\//i
-# Subdomain
-/http:\/\/[a-z0-9-]{3,25}\.[a-z0-9-]{3,25}\.(ru|sa|za)\.com\//i
-/http:\/\/[a-z0-9-]{3,25}\.[a-z0-9-]{3,25}\.co\.(in|uk)\//i
-
 # No SSL Google
 # ------------------------------------------------------------------------------
 /a href=.{0,5}http:\/\/google\.com/i
-
-# Hidden link
-# ------------------------------------------------------------------------------
-# Sample: <a style="display:none;" href="http://irelatilized.jp.net/4O0c084nml0mp3rr-8trgsi1wqt1qt1mstra600001" >.</a
-/<a style="display:none;".{1,10}href=.?http:\/\//i
 
 # Redirects
 # ------------------------------------------------------------------------------
