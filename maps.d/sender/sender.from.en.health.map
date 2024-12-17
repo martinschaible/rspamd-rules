@@ -51,6 +51,7 @@
 # ------------------------------------------------------------------------------
 /(daily|gut|soup).{0,10}detox/i
 /detox your/i
+/detox.{0,10}solution/i
 
 # Diabetes
 # ------------------------------------------------------------------------------
@@ -303,7 +304,9 @@
 
 # D
 /daily.{0,10}fatigue/i
+
 /dead.{0,10}(foods?|kidneys)/i
+
 /digestive.{0,10}system/i
 /digestion/i
 /diy.{0,10}lipo/i
@@ -394,6 +397,8 @@
 # N
 /nail.{0,10}rub/i
 /natural.{0,10}solution/i
+
+/nerve.{0,10}comfort/i
 /nightmare.{0,10}pee/i
 
 # O
