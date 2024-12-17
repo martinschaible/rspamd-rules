@@ -29,7 +29,7 @@
 
 # E Bike
 # ------------------------------------------------------------------------------
-/(assist|best|cutting.?edge|fat tire|featured|latest|new|next.?level){1,10}e(lectric)?.?(bike|bicycle)/i
+/(assist|best|cutting.?edge|fat tire|featured|latest|new|next.?level).{1,10}e(lectric)?.?(bike|bicycle)/i
 /(pedal|perfect|powerful|sleek|trusted).{1,10}e(lectric)?.?(bike|bicycle)/i
 /(moped style|urban cruiser).{1,10}e(lectric)?.?(bike|bicycle)?/i
 
