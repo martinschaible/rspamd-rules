@@ -70,9 +70,9 @@
 
 # Titles
 # ------------------------------------------------------------------------------
-/^.?(capt|dr|mrs?)\.\b/i
+/^(capt|dr|mrs?)\.\s/i
 
-/from (capt|dr|mrs?)\.\b/i
+/from (capt|dr|mrs?)\.\s/i
 
 /executive.?director/i
 /(purchase|sales).?manager/i
