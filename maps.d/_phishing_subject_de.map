@@ -879,8 +879,10 @@ letzter gewinner/i
 /bestätigen sie ihre korrekturdaten/iu
 
 # Swisspass
+/swiss.?pass/i
 /swisspass.{1,10}abonnement.{1,15}aktivieren/i
 /swisspass.{1,10}authentifizieren/i
+/swisspass.{1,10}zahlung fehlgeschlagen/i
 
 /(anmelden mit|wichtiger hinweis zu).{1,10}swisspass/i
 
