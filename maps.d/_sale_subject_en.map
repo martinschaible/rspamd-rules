@@ -29,14 +29,14 @@
 
 # E Bike
 # ------------------------------------------------------------------------------
-/(assist|best|cutting.?edge|fat tire|featured|latest|new|next.?level).{1,10}e(lectric)?.?(bike|bicycle)/i
+/(assist|best|cutting.?edge|discover|fat tire|featured|latest|new|next.?level).{1,10}e(lectric)?.?(bike|bicycle)/i
 /(pedal|perfect|powerful|sleek|trusted).{1,10}e(lectric)?.?(bike|bicycle)/i
 /(moped style|urban cruiser).{1,10}e(lectric)?.?(bike|bicycle)?/i
 
 /e(lectric)?.?(bike|bicycle).{1,15}(available|here|revolution|will change)/i
 
 /(our|with).{1,15}e(lectric)?.?(bike|bicycle)?/i
-/(our|with).{1,15}(moped|urban cruiser)/i
+/(discover|our|with).{1,15}(moped|urban cruiser)/i
 
 
 /redefine your cycling/i
