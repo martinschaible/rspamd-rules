@@ -17,7 +17,8 @@
 /https?:\/\/[a-z0-9]{25,50}\.s3/i
 
 # Sample: https://1633472409.babarkhursheed.com
-/https?:\/\/[0-9]{4,15}\./i
+# Too many False/Positives
+#/https?:\/\/[0-9]{4,15}\./i
 
 #
 /https?:\/\/html\./i
