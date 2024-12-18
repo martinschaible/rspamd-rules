@@ -54,7 +54,7 @@
 
 # Beneficiary
 # ------------------------------------------------------------------------------
-/(attn|attention|dear|hello).{1,10}beneficiary/i
+/(attn|attention|dear|hello|honorable).{1,10}beneficiary/i
 
 /(beneficiaries|beneficiary).{1,10}(dollar|euro?|euros?|gbp|usd).{1,10}\d{3}.{0,5}\d{3}/i
 /(beneficiaries|beneficiary).{1,10}to receive the.{1,10}funds?/i

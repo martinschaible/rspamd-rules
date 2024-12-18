@@ -5,6 +5,7 @@
 #   with line boundaries.
 # - The sender consists of several words, but can be reliably declared as spam
 #   with just one word.
+# - Words in bad german language are also welcome
 #
 # Tag:      Sender, single word
 # Language: German
@@ -255,6 +256,7 @@
 /sehkraft/i
 /selektiert/i
 /sendungsbereitmeldung/i
+/servicekarte/i
 /sex.?gruppe/i
 
 /sicherheits.?team/i
