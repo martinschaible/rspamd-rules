@@ -15,7 +15,7 @@
 
 # Attention, Important, Urgent
 # ------------------------------------------------------------------------------
-/(attn|attention).{1,10}(beneficiary|ceo|dear|madam|president|relative|sir)/i
+/(attn|attention).{1,10}(beneficiary|ceo|dear|honorable|madam|president|relative|sir)/i
 /(attn|attention).{1,10}e?.?mail.?(address|id).?owner/i
 /(attn|attention).{1,10}i am.{1,10}(attorney|bar\.|seeking)/i
 /(attn|attention).{1,10}please/i

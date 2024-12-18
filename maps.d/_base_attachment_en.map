@@ -183,6 +183,9 @@
 # Sample: INV_24627927_10132769_26.06.2024.zip
 /inv_\d{2,10}__\d{2,10}_\d{2}\.\d{2}\.\d{4}\.zip/i
 
+# Sample: 10201124.zip
+/\d{5,10}\.zip/i
+
 # Patterns
 /permanent.{0,10}order/i
 
