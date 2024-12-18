@@ -30,7 +30,6 @@
 /mail\.html/i
 /moviepark\.html/i
 /rooster\.html/i
-/invest(ment)?\.(html|php)/i
 
 # It's silly to blacklist names. But they are very repetitive
 /marlene\.jpg/i
@@ -76,8 +75,6 @@
 # Files with strange names
 # ------------------------------------------------------------------------------
 
-# Sample: 2.......HTM
-/[\.]{2,10}\.html?/i
 
 #
 #
