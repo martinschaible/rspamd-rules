@@ -232,6 +232,9 @@
 /abrechnung(sstelle)?.{0,10}(ard|zdf|rundfunk)/i
 /(ard|zdf|rundfunk).{0,10}abrechnung/i
 
+# GLS
+# -> Real sender: "GLS"
+
 # Lexoffice
 /lexoffice.?konto/i
 
