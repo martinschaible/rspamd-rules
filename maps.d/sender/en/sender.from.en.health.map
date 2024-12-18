@@ -24,7 +24,7 @@
 # Alzheimer, Dementia
 # ------------------------------------------------------------------------------
 /(alzheimer|dementia).{1,10}(alert|test|trigger|warning)/i
-/brain.{0,10}(booster|cell|damage|fog|health|nutrient|scan|trick)/i
+/brain.{0,10}(booster|cell|damage|fog|health|nutrient|scan|science|trick)/i
 
 # Blood pressure, Heart
 # ------------------------------------------------------------------------------
@@ -137,7 +137,7 @@
 
 # Pain
 # ------------------------------------------------------------------------------
-/pain.{0,10}(free|gone|indicator|killer|no.?more|quiz|relief|remover|warning)/i 
+/pain.{0,10}(free|gone|indicator|killer|management|no.?more|quiz|relief|remover|warning)/i 
 
 /(chronic|chrippling|ease|end|erase|joint|knee|neck|neuropathic|nerve|reduces).{0,10}pain/i
 
@@ -239,7 +239,7 @@
 /(amazonian|japanese|mayan|taiwan).{0,10}(diet|drink|fix|formula|hack|miracle|protocol|remedies|remedy|ritual|secret|seeds?|solution|tea|trick)/i
 /(ancient|crazy|dairy).{0,10}(amazonian|chocolate|healing)/i
 
-/(exotic|forgotten|medical|miracle|natural|new|scientists?).{0,10}(breakthrough|drink|discovery|herb)/i
+/(exotic|forgotten|medical|miracle|natural|new|science||scientists?).{0,10}(breakthrough|drink|discovery|herb)/i
 
 /(basic|secret).{0,10}protein/i
 /nasa.{0,10}(scientists?|study)/i
