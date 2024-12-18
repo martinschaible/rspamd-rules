@@ -80,6 +80,13 @@
 /mit diesem reinigungstipp/i
 /senkt ihre rechnungen/i
 
+#E-Bike
+# ------------------------------------------------------------------------------
+/(innovatives|perfektes?).{1,10}e.?bike/i
+/(jetzt|den).{1,10}urban cruiser/i
+
+/urban cruiser.{1,15}(verfügbar|wartet)/i
+
 # Energy Saver
 # ------------------------------------------------------------------------------
 /(gerät|gerat).{1,20}sie ihre rechnungen/i
@@ -170,14 +177,16 @@ grill.{1,10}statt.{1,10}nur/i
 /lampe.{1,15}(arbeiten|produktivität)/iu
 /smarte.{1,15}beleuchtung/i
 
+
 # Learning languages
 # ------------------------------------------------------------------------------
 /sprechen in über 40 sprachen/i
 
 # LED
 # ------------------------------------------------------------------------------
-/led komplett.{1,10}beleuchtungsset/i
 /led.?beleuchtung.{1,10}bestpreis/i
+/led.{1,10}feuchtraumleuchte/i
+/led.{1,10}komplett.{1,10}beleuchtungsset/i
 
 /leuchte.{1,15}jeden Raum/i
 /leuchte.{1,15}statt.{1,15}jetzt für nur/i
