@@ -26,9 +26,10 @@
 # Pattern
 # ------------------------------------------------------------------------------
 
-# Path with TLD
+# Path bound to TLDs to avoid false/positives
 # ------------------------------------------------------------------------------
-# We cannot block some of the new or exotic TLDs because they are actually used by companies. 
+# We cannot block all of the new or exotic TLDs because they are sometimes
+# used by companies. 
 
 /\.(club|email|pro|social|space|today|world)\/(cart|cl|media|sa)\//i
 
@@ -38,6 +39,11 @@
 # Sample: .world/cc903616931c89f6d9.jpg
 /\.(club|email|pro|social|space|today|world)\/[a-z0-9]{4,25}\.(jpg|png)/i
 
+
+#
+#
+#
+
 # Companies
 # ==============================================================================
 
@@ -46,3 +52,20 @@
 
 # 18.12.24 - Phishing: Pay taxes in advance
 /\/swisstaxadm/i
+
+#
+#
+#
+
+# Files
+# ==============================================================================
+
+/investieren\.(html|php)/i
+/invest(ment)?\.(html|php)/i
+
+# Files with strange names
+# ------------------------------------------------------------------------------
+
+# 18.12.24 - Sample: 2.......HTM
+/[\.]{2,10}\.html?/i
+
