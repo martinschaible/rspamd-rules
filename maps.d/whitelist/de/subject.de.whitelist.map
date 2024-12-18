@@ -1,0 +1,82 @@
+# ==============================================================================
+# Subject Whitelist: Words and phrases
+#
+# Tag:      Whitelist
+# Language: German
+# Weight:   -0.5
+#           -0.25 (use muliplicator 0.5)
+#           -1.0 (use muliplicator 2.0)
+# ==============================================================================
+
+# Undeliveries / Out of office
+# ==============================================================================
+/(out of office|undeliverable).{1,15}(einladung|symposium|willkommen)/i 2.0
+/(abwesend|automatische antwort).{1,15}(einladung|symposium|willkommen)/i 2.0
+
+/\babwesenheitsmeldung\b/i -1.0
+
+# German words and phrases which i think will never occur in spam mails
+# ==============================================================================
+
+# A
+/\bauftrags.{0,5}bestätigung\b/i
+
+# B
+/\bbewerbung\b/i
+
+# C
+
+# D
+
+# E
+/\beinbruch.{0,5}alarm\b/i
+
+# F
+
+# G
+
+# H
+
+# I
+
+# J
+
+# K
+
+# L
+
+# M
+
+# N
+
+# O
+
+# P
+
+# Q
+
+# R
+
+# S
+
+# T
+/terminerinnerung/i
+
+# U
+/\bunterricht\b/i
+
+# V
+
+# W
+
+# X
+
+# Y
+
+# Z
+
+# Related to Germany
+# ==============================================================================
+
+# Related to Switzerland
+# ==============================================================================

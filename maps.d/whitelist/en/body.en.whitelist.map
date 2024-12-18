@@ -1,0 +1,31 @@
+# ==============================================================================
+# Body Whitelist: Words and phrases
+#
+# Tag:      Whitelist
+# Language: English
+# Weight:   -0.5
+#           -0.25 (use muliplicator 0.5)
+#           -1.0 (use muliplicator 2.0)
+# ==============================================================================
+
+# Undeliveries / Out of office
+# ==============================================================================
+/out of office.{1,15}i will be back on/i 2.0
+/your message will not be forwarded.{1,15}in urgent cases/i 2.0
+
+# English words and phrases which i think will never occur in spam mails
+# ==============================================================================
+
+# A
+/arrival airport/i
+
+# D
+/departure date/i
+/departure time/i
+/digital boarding pass/i
+
+# F
+/flight number/i
+
+# M
+/\bmantrailing\b/i
