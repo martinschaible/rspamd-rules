@@ -137,7 +137,7 @@
 
 # Pain
 # ------------------------------------------------------------------------------
-/pain.{0,10}(free|gone|indicator|killer|management|no.?more|quiz|relief|remover|warning)/i 
+/pain.{0,10}(flush|free|gone|indicator|killer|management|no.?more|quiz|relief|remover|warning)/i 
 
 /(chronic|chrippling|ease|end|erase|joint|knee|neck|neuropathic|nerve|reduces).{0,10}pain/i
 
@@ -310,6 +310,7 @@
 /daily.{0,10}fatigue/i
 
 /dead.{0,10}(foods?|kidneys)/i
+/dental.?rescue/i
 
 /digestive.{0,10}system/i
 /digestion/i
@@ -376,7 +377,7 @@
 /insuline?/i
 
 # J
-/joints.{0,10}(cure|discomfort|genesis|healed|hero|inflammation|relief)/i
+/joints?.{0,10}(cure|discomfort|genesis|healed|hero|inflammation|relief)/i
 
 # K
 /keto.{0,10}diet/i
@@ -402,7 +403,7 @@
 /nail.{0,10}rub/i
 /natural.{0,10}(antibiotic|solution)/i
 
-/nerve.{0,10}comfort/i
+/nerve.{0,10}(comfort|repair)/i
 /nightmare.{0,10}pee/i
 
 # O
@@ -437,6 +438,7 @@
 /sharp(er)?.{0,10}(ears|mind|thinking)/i
 
 /sight.{0,10}care/i
+/silence.{0,10}buzzing/i
 /slim.{0,10}waist/i
 /slimming/i
 /snore.{0,10}stop/i
@@ -475,6 +477,8 @@
 
 /water.{0,10}weight/i
 /wellness.{0,10}insights/i
+
+/wonder.?bread/i
 /worst.{0,10}breakfast/i
 /wrinkles/i
 /wrinkle.{0,10}cream/i
