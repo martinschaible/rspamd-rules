@@ -1,1 +1,15 @@
+# ==============================================================================
+# If a word is recognized, the symbol acts as a condition (trigger) for a
+# second file, which has further checks.
+#
+# Tags:     subject, trigger, phishing, account
+# Language: german
+# Weight:   0.25
+# ==============================================================================
+
+# Keywords most used
+# ==============================================================================
 /konto/i
+
+# Keywords
+# ==============================================================================
