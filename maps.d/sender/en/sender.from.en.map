@@ -64,10 +64,10 @@
 
 # Real sender: wix.com
 
-# Message 
+# Message
 # ------------------------------------------------------------------------------
-/message from/i
 /important.?message/i
+/message from/i
 
 # Titles
 # ------------------------------------------------------------------------------
@@ -119,7 +119,6 @@
 # L
 
 # M
-/message from/i
 
 # N
 /next of kin/i
