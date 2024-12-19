@@ -125,10 +125,10 @@
 
 # KI
 # ------------------------------------------------------------------------------
-/aktienhandel ist.{1,10}mit.{1,10}(chatgpt|ki)/i
-/dank unserer.{1,10}(chatgpt|ki)/i
+/aktienhandel ist.{1,10}mit.{1,10}(ai|chatgpt|ki)/i
+/dank unserer.{1,10}(ai|chatgpt|ki)/i
 
-/unsere (intelligente|innovative).{1,10}(chatgpt|ki)/i
+/unsere (fortgeschrittenen|intelligente|innovative).{1,10}(ai|chatgpt|ki)/i
 
 # Promises
 # ------------------------------------------------------------------------------
@@ -263,6 +263,7 @@
 /gewinne warten auf jeden/i
 
 /worauf warten sie noch.{1,10}jetzt registrieren/i
+/uns finanziell unabhängig werden/iu
 
 # Masked
 # ------------------------------------------------------------------------------

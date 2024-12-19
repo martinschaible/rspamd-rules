@@ -59,6 +59,7 @@
 /(einfach|jetzt).{1,10}vermögen (aufbauen|anhäufen)/iu
 
 /erreichen sie finanzielle freiheit/i
+/gehalt aufstocken/i
 /jeden innerhalb von.{1,10}monaten zum millionär/iu
 /jetzt finanziell erfolgreich werden/i
 
@@ -114,18 +115,18 @@
 
 # KI
 # ------------------------------------------------------------------------------
-/(chatgpt|ki).{1,10}revolutioniert aktienhandel/i
-/(chatgpt|ki).{1,10}(verschenkt|verspricht).{1,15}(geld|gewinne|reichtum|rendite)/i
-/(chatgpt|ki).{1,15}handel/i
-/(chatgpt|ki).{1,10}geld.{1,10}(machen|verdienen)/i
-/(chatgpt|ki).{1,10}reich/i
-/(chatgpt|ki).{1,10}(wählt aktien|wird sie)/i
+/(ai|chatgpt|ki).{1,10}revolutioniert aktienhandel/i
+/(ai|chatgpt|ki).{1,10}(verschenkt|verspricht).{1,15}(geld|gewinne|reichtum|rendite)/i
+/(ai|chatgpt|ki).{1,15}handel/i
+/(ai|chatgpt|ki).{1,10}geld.{1,10}(machen|verdienen)/i
+/(ai|chatgpt|ki).{1,10}reich/i
+/(ai|chatgpt|ki).{1,10}(wählt aktien|wird sie)/i
 
-/aktien.?(auswahl|handel).{1,10}(chatgpt|ki)/i
-/schock.{1,10}(chatgpt|ki)/i
+/aktien.?(auswahl|handel).{1,10}(ai|chatgpt|ki)/i
+/schock.{1,10}(ai|chatgpt|ki)/i
 
-/geld.{1,15}durch (chatgpt|ki)/i
-/(dividenden|geld verdienen).{1,10}(chatgpt|ki)/i
+/geld.{1,15}durch (ai|chatgpt|ki)/i
+/(dividenden|geld verdienen).{1,10}(ai|chatgpt|ki)/i
 
 /(aktien|einkommen|gewinne) (durch|per) ki/i
 
