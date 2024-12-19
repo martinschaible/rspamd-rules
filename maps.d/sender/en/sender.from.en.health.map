@@ -69,11 +69,11 @@
 
 # ED, Erection, Potency
 # ------------------------------------------------------------------------------
-/(ed|enhancement|enlargement).{0,10}(gummie?s|news|treatment|solution)/i
+/(ed\s|enhancement|enlargement).{0,10}(gummie?s|news|treatment|solution)/i
 /(climax|erectile|libido|manhood)/i
 
 /(hard|iron).{0,10}erection/i
-/ed.{0,10}(fix|forever|no.?more|treatment)/i
+/ed\s.{0,10}(fix|forever|no.?more|treatment)/i
 /(fix your|goodbye).{0,10}ed/i
 /get hard/i
 
