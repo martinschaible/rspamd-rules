@@ -30,7 +30,6 @@
 
 /dies ist sehr wichtig/i
 
-/^guten tag$/i
 
 /ich habe eine.{1,10}wichtige information/i
 /jetzt antworten/i
@@ -38,7 +37,7 @@
 /nachricht wichtig/i
 /wichtig.{1,10}important/i
 /(sehr|wichtige).{1,10}dringende.{1,15}(angelegenheit|benachrichtigung|nachricht)/i
-/sie haben eine wichtige nachricht erhalten/i
+
 /(sofort|unverzüglich) öffnen/iu
 
 # Sample: #7635349894-Nachricht
@@ -75,8 +74,6 @@
 
 # Greetings
 # ------------------------------------------------------------------------------
-/guten tag.?$/i
-/guten tag \[/i
 /guten tag.{1,20}@/i
 /guten tag.{1,10}(ich bin|mein lieber)/i
 /guten tag.{1,10}meine damen und herren/i
@@ -142,11 +139,6 @@
 
 /(ch|de|org).{1,10}ihr gültiges/iu
 
-# Message
-# ------------------------------------------------------------------------------
-/lies diese nachricht/i
-/nachricht.{1,10}für (dich|sie)/i
-
 # Religious
 # ------------------------------------------------------------------------------
 /liebster? im herrn/i
@@ -179,7 +171,6 @@
 /jetzt antworten/i
 
 /von (frau|fräulein|herr)/iu
-/wir haben eine wichtige nachricht/i
 /wir können sie nicht erreichen/iu
 
 # Used for Finance, Scam
