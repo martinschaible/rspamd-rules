@@ -13,6 +13,18 @@
 # 20.12.24 - Real name: "swisspass"
 /swiss pass/i
 
+# Greetings
+# ------------------------------------------------------------------------------
+/guten tag.?$/i
+/guten tag.?\[/i
+/^guten tag$/i
+
+# Messages
+# ------------------------------------------------------------------------------
+/lies diese nachricht/i
+/nachricht.{1,10}für (dich|sie)/i
+/(sie|wir) haben eine wichtige nachricht/i
+
 #
 #
 #
