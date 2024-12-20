@@ -25,12 +25,20 @@
 
 # A
 /^attention$/i
+/!attention/i
+/attention(:|\$|!)/i
+
+/ATTENTION/
 
 # B
 
 # C
+/cooperation!/i
+/COOPERATION/
 
 # D
+/donation$/i
+/donation!/i
 
 # E
 
