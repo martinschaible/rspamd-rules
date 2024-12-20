@@ -8,6 +8,11 @@
 # Topics
 # ==============================================================================
 
+# Companies, organisations
+# ------------------------------------------------------------------------------
+# 20.12.24 - Real name: "swisspass"
+/swiss pass/i
+
 #
 #
 #
@@ -22,6 +27,8 @@
 # C
 
 # D
+/^dringend:/i
+/dringende antwort/i
 
 # E
 /erinnerung.{1,10}angebot/i
@@ -37,11 +44,12 @@
 # J
 
 # K
-/^kreditangebot$/i
+/kreditangebot mit günstigen/i
 
 # L
 
 # M
+/mein name ist/i
 
 # N
 
