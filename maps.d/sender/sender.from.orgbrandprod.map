@@ -27,26 +27,14 @@
 # ==============================================================================
 
 # A
-/apple.?(™|®)?$/i
-
-/^ard.?zdf$/i
-/ard.?zdf.?(radio|service)/i
 /akusoli/i
 
 # B
-/^bosch.?(™|®)?$/i
 
 # C
-/(carrefour|cpanel).?(™|®)?$/i
-/^coop$/i
 
 # D
 /derila/i
-
-# Real Sender: "Digitec"
-/digitec\.ch/i
-
-/douglas$/i
 
 # E
 /e.?energy/i
@@ -61,16 +49,11 @@
 /fuugu/i
 
 # G
-/galaxus.?(™|®)?$/i
 
 # H
-/(hetzner|hermes|hornbach).?(™|®)?$/i
-
 /huusk\w/i #Fake japanese knives
 
 # I
-/ihk.?(™|®)?$/i
-/^ing$/i
 
 /internal revenue service/i
 /international.?monetary.?fund/i
@@ -79,24 +62,17 @@
 
 # K
 /kaffeemaschine/i
-/kaufland.?(™|®)?$/i
 /klaudena/i
 
 # L
-/lidl.?(™|®)?$/i
 
 # M
 /mcafee/i
 /mccafee/i
 
-/(metamask|microsoft|migros).?(™|®)?$/i
-/^mycss$/i
-
 # N
-/nortonav$/i
 
 # O
-/(obi|otto).?(™|®)?$/i
 
 # P
 /pfizer.?(™|®)?$/i
@@ -106,22 +82,13 @@
 # Q
 
 # R
-/rewe.?(™|®)?$/i
 
 # S
-/service.?center.?ard.?zdf/i
-
-/(shein|smava|spotify).?(™|®)$/i
-
-/^sumup$/i
 
 # T
-/twint$/i
 
 # U
 /united.?nations?/i
-
-/ups.?gmbh/i
 
 # V
 /vereinigte.?union/i
