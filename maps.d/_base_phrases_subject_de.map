@@ -9,13 +9,9 @@
 # ------------------------------------------------------------------------------
 /achtung.{1,10}offizielle mitteilung/i
 
-/ACHTUNG:/
-/^dringende antwort$/i
-
 /achtung.{0,5}!!/i
 /achtung.{0,5}!\?/i
 
-/aufmerksamkeit!/i
 /aufmerksamkeit.{1,15}erforderlich/i
 /aufmerksamkeit.{1,15}wichtige mitteilung/i
 
@@ -23,54 +19,19 @@
 /antworte jetzt/i
 /antworten sie so schnell wie möglich/iu
 
-/dringende.{1,10}wichtige.{1,15}(angelegenheit|benachrichtigung)/i
-/dringend.{1,10}dringend/i
-/dringend.{1,10}sorgfältig lesen/iu
-/dringend.{1,10}wichtige informationen/i
-
-/dies ist sehr wichtig/i
-
-
 /ich habe eine.{1,10}wichtige information/i
-/jetzt antworten/i
 /lesen sie diese e?.?mail/i
 /nachricht wichtig/i
 /wichtig.{1,10}important/i
 /(sehr|wichtige).{1,10}dringende.{1,15}(angelegenheit|benachrichtigung|nachricht)/i
 
-/(sofort|unverzüglich) öffnen/iu
-
 # Sample: #7635349894-Nachricht
 /\d{5,15}.?nachricht/i
-
-# Sample: Neue Nachricht#2632667875
-/(benachrichtigung|nachricht|postfach)#/i
 
 /\[(dringend|video|wichtig)\]/i
 /\[.{1,15}\].{1,10}neue Nachricht/i
 /\[-.{1,15}-\]/i
 /-:neue nachricht/i
-
-# Urgent
-# ------------------------------------------------------------------------------
-/antworten sie so schnell wie möglich/iu
-
-/dies ist dringend.{1,10}antworten sie/i
-/dringende (aufmerksamkeit|info)/i
-
-# Confidential
-# ------------------------------------------------------------------------------
-
-# Contact
-# ------------------------------------------------------------------------------
-/kontaktieren sie mich/i
-/kontaktieren sie.{1,10}umgehend.{1,10}e?.?mail/i
-
-/privater e?.?mail/i
-
-# Dead or alive
-# ------------------------------------------------------------------------------
-/sind sie noch am leben/i
 
 # Greetings
 # ------------------------------------------------------------------------------
@@ -99,7 +60,6 @@
 /beste grüße/iu
 
 /mein lieber (freund|geliebter)/i
-/mein name ist/i
 /meine grüße/iu
 /meine liebste/i
 
@@ -121,11 +81,6 @@
 
 /hallo.{1,20}@[a-z0-9].{4,15}\.(ch|de|org)/i
 
-/hier ist botschafter(in)?/i
-/mit freundlichen (grüssen?|grüßen?)/i
-
-/komplimente der saison/i
-
 # E-Mail active/correct
 # ------------------------------------------------------------------------------
 /(bestätigen sie|sie mir.{1,10}mitteilen).{1,15}(diese|ihre).{1,10}e?.?mail.{1,15}(aktiv|gültig) ist/iu
@@ -139,46 +94,8 @@
 
 /(ch|de|org).{1,10}ihr gültiges/iu
 
-# Religious
-# ------------------------------------------------------------------------------
-/liebster? im herrn/i
-
-/friede sei mit dir/i
-/gott segne ihren tag/i
-
-#
-#
-#
-
-# One word only
-# ------------------------------------------------------------------------------
-/^spende$/i
-
-#
-#
-#
-
 # Unclassified
 # ------------------------------------------------------------------------------
-/benachrichtigung ist für sie/iu
-/bitte aufmerksam lesen/i
-
-/du bist der glückliche/i
-/du hast glück/iu
-
-/erforderliche aktion/i
-/ignorieren sie.{1,10}nachricht nicht/i
-/jetzt antworten/i
-
-/von (frau|fräulein|herr)/iu
-/wir können sie nicht erreichen/iu
-
-# Used for Finance, Scam
-/hier ist die letzte warnung/i
-
-# Call back
-/aktenzeichen.{1,20}telefonat/i
-
 /(geld|lesen)(!!|\.\.)/i
 /\.\.\.bitte/i
 
@@ -187,7 +104,6 @@
 
 # Masked
 # ------------------------------------------------------------------------------
-/anfrage\*/i
 #/\[external\]/i
 
 # Sample: (Germany) |
