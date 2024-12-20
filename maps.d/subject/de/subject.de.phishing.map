@@ -15,7 +15,8 @@
 # ==============================================================================
 
 # A
-/aktualisierung ihres.{5,25}erforderlich/i
+/aktualisierung (ihrer|ihres).{5,25}erforderlich/i
+/aktualisieren sie ihre daten/i
 
 # B
 /bearbeitungsfortschritt/i
@@ -32,6 +33,7 @@
 # E
 
 # F
+/frist zur datenaktualisierung/i
 
 # G
 
@@ -43,6 +45,8 @@
 # J
 
 # K
+/kontowarnung/i
+#/wichtige kontowarnung/i
 
 # L
 /lieferung jetzt bestätigen/i
@@ -61,6 +65,7 @@
 # R
 
 # S
+/(schützen|sichern) sie ihr.{1,15}konto/i
 /sie haben noch nicht geantwortet/i
 
 # T

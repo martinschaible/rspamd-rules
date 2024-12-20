@@ -52,6 +52,7 @@
 # ------------------------------------------------------------------------------
 /diabetes/i
 
+/a1c.{0,10}control/i
 /end.{0,10}type.{0,10}2/i
 /sugar.{0,10}(defender|disease|levels?|spikes?)/i
 
@@ -329,7 +330,7 @@
 /energy.{0,10}without/i
 
 /erase.{0,10}cavities/i
-/exotic.{0,10}spice/i
+/(exotic|kitchen).{0,10}spice/i
 /eye.{0,10}(exercise|surgery)/i
 
 # F
