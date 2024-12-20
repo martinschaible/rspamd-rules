@@ -14,10 +14,8 @@
 #
 #
 
-# Attention, Important, Urgent
+# Attention, Important
 # ------------------------------------------------------------------------------
-/attn,/i
-
 /(attn|attention).{1,10}attention/i
 
 /(attn|attention).{1,10}e?.?mail.?(address|id).?owner/i
@@ -26,8 +24,6 @@
 /(attn|attention).{1,10}this is.{1,10}urgent/i
 /(attn|attention).{1,10}win a/i
 /(attn|attention).{1,10}your urgent reply/i
-
-/congratulations.{1,15}urgent reply needed/i
 
 # Greetings
 # ------------------------------------------------------------------------------
@@ -50,6 +46,8 @@ this message is for you/i
 /(important|urgent).{1,10}(please|pls) (reply|reply)/i
 
 /read.{1,10}reply urgent/i
+/congratulations.{1,15}urgent reply needed/i
+
 /your urgent response is.{1,15}needed/i
 
 /IMPORTANT INFORMATION/
