@@ -5,13 +5,16 @@
 # used by companies. Affected TLDs are:
 # .pro
 #
-# Used by: - sender.address.tld
-#            -> Rspamd doesn't provide TLD extraction for mail addresses.
-#               The eSLD (effective second level domain) is matched against
-#               this list.
-#          - sender.from.tld
-#          - base.body.href.domain.tld
-#          - base.body.img.domain.tld
+# Used by symbols:
+# - base.body.href.domain.tld
+#
+# Rspamd doesn't provide TLD extraction for image tags.
+#
+# The content of this file is also used in these files:
+# - base.body.img.domain.tld.map
+# - sender.address.tld
+# - sender.from.tld
+# ** Don't forget to update these files too!**
 # ==============================================================================
 
 # https://www.spamhaus.org/statistics/tlds/
