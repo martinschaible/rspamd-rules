@@ -23,13 +23,21 @@
 # ==============================================================================
 
 # A
+/ACHTUNG:/
+
+/aktenzeichen.{1,20}telefonat/i
+
+/anfrage\*/i
+/aufmerksamkeit!/i
 
 # B
+/benachrichtigung#/i
 
 # C
 
 # D
 /^darlehen$/i
+/^dringend:/i
 
 # E
 
@@ -52,10 +60,12 @@
 # M
 
 # N
+/nachricht#/i
 
 # O
 
 # P
+/postfach#/i
 
 # Q
 
@@ -63,6 +73,7 @@
 
 # S
 /^sofortkredit/i
+/^spende$/i
 
 # T
 /tagesgeld/i

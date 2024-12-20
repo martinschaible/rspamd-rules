@@ -16,7 +16,7 @@
 #
 #
 
-# Attention, Important, Urgent
+# Attention, Important
 # ------------------------------------------------------------------------------
 
 # Greetings
@@ -33,6 +33,17 @@
 
 # Urgent
 # ------------------------------------------------------------------------------
+/antworten sie so schnell wie möglich/iu
+
+/dies ist dringend.{1,10}antworten sie/i
+/dies ist sehr wichtig/i
+
+/^dringende antwort$/i
+/dringende?.{1,10}(aufmerksamkeit|info)/i
+/dringende?.{1,10}wichtige.{1,15}(angelegenheit|benachrichtigung|informationen)/i
+
+/dringend.{1,10}dringend/i
+/dringend.{1,15}(dringend|lesen|sorgfältig)/iu
 
 #
 #
@@ -45,41 +56,58 @@
 
 # B
 /beeilen sie sich/i
+/benachrichtigung ist für sie/iu
+/bitte aufmerksam lesen/i
 
 # C
 
 # D
-/^dringend:/i
-/dringende antwort/i
+
+/du bist der glückliche/i
+/du hast glück/iu
 
 # E
+/erforderliche aktion/i
 /erinnerung.{1,10}angebot/i
 
 # F
 # 20.12.24 - Sample: Kredit - 8/31/2024
 /(finanzierung|kredit).{1,5}\d{1,2}\/\d{1,2}/\d{4}/i
 
+/friede sei mit dir/i
+
 # G
 /gewinne.{1,10}el.?gordo/i
+/gott segne ihren tag/i
 
 # H
+/hier.{1,10}botschafter(in)?/i
 
 # I
+/ignorieren sie.{1,10}nachricht nicht/i
 
 # J
+/jetzt antworten/i
 
 # K
+/komplimente der saison/i
+
+/kontaktieren sie mich/i
+/kontaktieren sie.{1,10}umgehend.{1,10}e?.?mail/i
 
 # L
+/liebster? im herrn/i
 
 # M
 /mein name ist/i
+/mit freundlichen (grüssen?|grüßen?)/i
 
 # N
 
 # O
 
 # P
+/privater? e?.?mail/i
 
 # Q
 
@@ -87,14 +115,19 @@
 
 # S
 /schicke dir mein selfie/i
+/sind sie noch am leben/i
+
+/(sofort|unverzüglich) öffnen/iu
 
 # T
 
 # U
 
 # V
+/von (frau|fräulein|herr)/iu
 
 # W
+/wir können sie nicht erreichen/iu
 
 # X
 
