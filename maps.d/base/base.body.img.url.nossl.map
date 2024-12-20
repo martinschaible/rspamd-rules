@@ -1,13 +1,26 @@
 # ==============================================================================
 # Actually, all links (href tag and img tag) should work with SSL.
+#
 # Spammers often use links without SSL. Unfortunately, the false/positive rate
 # is too high for a generic rule with high weighting.
 #
-# Better rules are linked to specific characteristics such as TLD.
+# We test for specific tld's
 #
 # Tags:     image, url, ssl
 # Language: -
 # Weight:   3.0 or 1.0 (use muliplicator 0.35)
 # ==============================================================================
 
+# Generic
+# ------------------------------------------------------------------------------
 /<img src=.{0,5}http:\/\//i 0.35
+
+# Regular TLD
+# ------------------------------------------------------------------------------
+/src=.{0,5}http:\/\/(www\.)?[a-z0-9-]{3,25}\.(co|ru|sa|za)\.com\//i
+/src=.{0,5}http:\/\/(www\.)?[a-z0-9-]{3,25}\.[a-z0-9-]{3,25}\.(co|ru|sa|za)\.com\//i
+
+#
+/src=.{0,5}/http:\/\/(www\.)?[a-z0-9-]{3,25}\.org\//i
+/src=.{0,5}/http:\/\/(www\.)?[a-z0-9-]{3,25}\.[a-z0-9-]{3,25}\.org\//i
+
