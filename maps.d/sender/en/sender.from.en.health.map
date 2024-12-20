@@ -170,7 +170,7 @@
 # Skin
 # ------------------------------------------------------------------------------
 /skin.{0,10}(care|cure|reviver|sagging)/i
-/(aged|aging|perfect|radiant|smooth|young|youth).{0,10}skin/i
+/(aged|aging|perfect|radiant|smooth|timeless|young|youth).{0,10}skin/i
 /(dark|face).{0,10}spots?/i
 
 # Sleep
@@ -371,6 +371,7 @@
 # I
 /immune.{0,10}system/i
 /insuline?/i
+/irritating.{0,10}noise/i
 
 # J
 /joints?.{0,10}(cure|discomfort|genesis|healed|hero|inflammation|relief)/i

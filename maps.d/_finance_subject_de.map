@@ -19,8 +19,6 @@
 /(darlehen|kredite)!/i
 /\d% kredit/i
 
-# Sample: Kredit - 8/31/2024
-/kredit.{1,10}\d{1,2}\/\d{1,2}/\d{4}/i
 /kredit.{1,10}darlehen/i
 
 /angebot.{1,10}(darlehen|kredit) von/i
