@@ -126,6 +126,7 @@
 /spendet sie an.{1,10}zufällige Personen/iu
 
 /(millionen|tausend|dollar|euro?|gbp|usd).{1,15}ausgewählt.{1,10}kontaktieren sie/iu
+/(millionen|tausend|dollar|euro?|gbp|usd).{1,15}von der.{1,25}foundation.{1,15} ausgewählt/i
 /(millionen|tausend|dollar|euro?|gbp|usd).{1,15}gespendet.{1,10}antworten sie für.{1,10}details/iu
 /(millionen|tausend|dollar|euro?|gbp|usd).{1,15}spenden.{1,10}was einen teil meiner investition/i
 
@@ -233,6 +234,7 @@
 
 /sie.{1,10}erhielten.{1,10}eine.{1,10}spende in höhe von/iu
 /sie.{1,10}einen.{1,10}zuschuss in.{1,10}höhe von.{1,25}erhalten/iu
+/sie.{1,10}für eine förderung in höhe von/iu
 
 /sie.{1,15}erhalt des betrags von.{1,10}\d{3}.{0,5}\d{3}/i
 /sie.{1,15}erhalt einer beträchtlichen spende/iu

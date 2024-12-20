@@ -79,6 +79,8 @@
 
 /(liebe|madam|sir).{1,10}mein.name.ist/i
 
+/liebe\/?r?.{1,5}wir freuen uns/i
+
 /lieber?.{1,15}baumarkt.?(kunde|kundin)/i
 /lieber?.{1,10}(empfänger|fremder|geliebter?|unbekannter)/i
 
