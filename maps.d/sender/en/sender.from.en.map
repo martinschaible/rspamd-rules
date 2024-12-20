@@ -40,6 +40,10 @@
 # a few underscores
 /__/i
 
+# Just a number
+/\d{4,15}/i
+
+# Patterns
 /sales\d{1,2}/i
 
 #
