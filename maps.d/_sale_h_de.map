@@ -341,15 +341,9 @@
 
 # Surveillance Camera
 # ------------------------------------------------------------------------------
-/glühbirnen.{1,10}(Ü|ü)berwachungs.?kamera/iu
-/vertrauenswürdigste.{1,10}(Ü|ü)berwachungsgerät/iu
+/ptz.?kamera.{1,10}bewegungsmelder/i
+/4k.?kamera.{1,10}sonderpreis/i
 
-/keine installation.{1,10}keine.{1,10}monatlichen kosten/i
-/ohne wartungskosten.{1,10}ohne monatliche/i
-/ohne installationskosten.{1,10}ohne wartungskosten/i
-
-/genialen drahtlosen.{1,10}überwachungskamera/iu
-/unsere.{1,15}(hochleistungs|innovative|wlan).{1,15}überwachungskamera/iu
 
 # Streaming TV
 # ------------------------------------------------------------------------------
