@@ -32,15 +32,31 @@
 
 # A
 /a.d.a.c/i
+
 /apple.?pay/i
+/apple.?(™|®)?$/i
+
+/^ard.?zdf$/i
+/ard.?zdf.?(radio|service)/i
 
 # B
+/^bosch.?(™|®)?$/i
+
 /bundespolizei$/i
 
 # C
+/(carrefour|cpanel).?(™|®)?$/i
+/^coop$/i
 
 # D
 /deutsche.?bnk/i
+
+/dhl-paket$/i
+
+# Real Sender: "Digitec"
+/digitec\.ch/i
+
+/douglas$/i
 
 # E
 
@@ -48,11 +64,14 @@
 /fedex$/i
 
 # G
+/galaxus.?(™|®)?$/i
 
 # H
+/(hetzner|hermes|hornbach).?(™|®)?$/i
 
 # I
 /^ing$/i
+/ihk.?(™|®)?$/i
 
 # J
 /ＪＡネットバンク/i         # 19.12.24 - JA Net Bank
@@ -60,14 +79,20 @@
 /^jcb/i
 
 # K
+/kaufland.?(™|®)?$/i
 
 # L
+/lidl.?(™|®)?$/i
 
 # M
+/(metamask|microsoft|migros).?(™|®)?$/i
+/^mycss$/i
 
 # N
+/nortonav$/i
 
 # O
+/(obi|otto).?(™|®)?$/i
 
 # P
 /paypal.{0,5}kunden/i
@@ -75,13 +100,23 @@
 # Q
 
 # R
+/rewe.?(™|®)?$/i
 
 # S
+/service.?center.?ard.?zdf/i
+
+/^sumup$/i
+/sumup.{0,10}team/i
+
 /swiss pass/i
 
+/(shein|smava|spotify).?(™|®)$/i
+
 # T
+/twint$/i
 
 # U
+/ups.?gmbh/i
 
 # V
 /ⱽᵖᵃˢˢ/i               19.12.24 - Sumitomo Mitsui Card Co.
