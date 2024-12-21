@@ -7,6 +7,10 @@
 # Topics
 # ==============================================================================
 
+# Rewards
+# ------------------------------------------------------------------------------
+/(bestätigung|gewinnen|kostenloses).{1,20}(auto|kfz).?notfall.?set/i
+
 #
 #
 #
@@ -51,6 +55,7 @@
 /kontowarnung/i
 #/wichtige kontowarnung/i
 /korrigieren sie ihre lieferadresse/i
+
 
 # L
 /lieferung jetzt bestätigen/i
