@@ -39,6 +39,12 @@
 # Sample: .world/cc903616931c89f6d9.jpg
 /\.(club|email|pro|social|space|today|world)\/[a-z0-9]{4,25}\.(jpg|png)/i
 
+# Combination of two domains
+# ------------------------------------------------------------------------------
+
+# 20.12.24 - Sample: https://firebasestorage.googleapis.com/v0/b/slamdank-46c01.appspot.com/o/nuttela.html?
+/\/v0\/[a-z]{1}\/[a-z0-9-]{5,25}\.appspot\.com/i
+
 #
 #
 #
