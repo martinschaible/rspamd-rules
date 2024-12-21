@@ -36,7 +36,12 @@
 # C
 
 # D
+/DARLEHEN/
+
 /^darlehen$/i
+/darlehen\?/i
+/darlehen!/i
+
 /^dringend:/i
 
 # E
@@ -44,7 +49,16 @@
 # F
 fettverbrenner/i
 
+/^finanzierung$/i
+/finanzierung\.\./i
+/finanzierung\.$/i
+
+/finanziellen \d/i
+/förderung \d/iu
+
 # G
+/geldsorgen\?/i
+
 /gewichtsreduktion/i
 /gewichtsverlust/i
 
@@ -55,8 +69,17 @@ fettverbrenner/i
 # J
 
 # K
+/kredit\?/i
+/kredit \d/i
+/kredite?!/i
+
 /^kreditangebot$/i
 /^kreditangebot.?\?/i
+
+/kreditmöglichkeit/iu
+/kreditunternehmen/i
+
+/k r e d i t/i
 
 # L
 

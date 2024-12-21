@@ -96,7 +96,7 @@
 # Health
 # ------------------------------------------------------------------------------
 /(health|quick).{0,10}(boost(er)?|guide)/i
-/healthy?.{0,10}(alert|alternative|brain|guides?|gut|insights|power|secret|transformation)/i
+/healthy?.{0,10}(alert|alternative|brain|guides?|gut|heart|insights|power|secret|transformation)/i
 
 /(american|daily|insider|mens|womens).{0,10}health/i
 
@@ -209,7 +209,7 @@
 
 /(bloated|bulging|flat|slimmer|tiny|your).{0,10}belly/i
 
-/(flat).{0,10}(melting|stomach)/i
+/(flat).{0,10}(melting|stomach|tummy)/i
 
 /slim.{0,10}(belly|body|down|waist)/i
 /(metabolic|surprising).{0,10}water/i
@@ -273,7 +273,7 @@
 
 /big.{0,10}(belly|size|stomage|tummy)/i
 
-/bladder.{0,10}(boost|care|danger|fix|health|leaks?|leakage|leaking|issues?|relief)/i
+/bladder.{0,10}(boost|care|control|danger|fix|health|leaks?|leakage|leaking|issues?|relief)/i
 /bleeding.{0,10}gums?/i
 /blood.{0,10}sugar/i
 
