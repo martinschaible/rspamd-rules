@@ -1,0 +1,178 @@
+# ==============================================================================
+# Tags:     subject, health
+# Language: german
+# Weight:   6.0
+# ==============================================================================
+
+# Topics
+# ==============================================================================
+
+# Medication
+# ------------------------------------------------------------------------------
+/(medikamente|meds|tabletten|pillen).{1,10}(apotheke|bestellen|bestellung|einkaufen|kaufen|ordern|pharma)/i
+/(herren|original).{1,10}(medikamente|meds|tabletten|pillen)/i
+
+# Men
+# ------------------------------------------------------------------------------
+/(erektions|potenz).?(mittel|pillen|stundenlang)/i
+
+/(garantierte|starke).?erektion/i
+/produktion.{1,10}sexualhormonen/i
+
+/(gut|schlecht).{1,10}beim (beischlaf|lieben|liebesspiel|sex|s\.e\.x)/i
+/(gut|schlecht).{1,10}(im bett|in der kiste)/i
+
+/(harte|härtere|längere|starke).{1,10}erektion(en)?/iu
+/gigantischer.?penis/i
+
+/(glied|penis).{1,10}erigiert/i
+/ihr.{1,10}(glied|penis)/i
+
+# Potency
+# ------------------------------------------------------------------------------
+/männlichen potenzsteigerung/iu
+/potenz in die/i
+/sexual.?leben.{1,15}(mann|männer)/i
+/stärke.{1,10}männlichkeit/iu
+/vitalität.{1,10}durchhaltevermögen/i
+
+# Weightloss
+# ------------------------------------------------------------------------------
+/abnehm.?quiz/i
+/abnehmen.{1,10}kg in.{1,10}tagen/i
+/abnehmen.{1,10}(einfach|günstig|schnell)i
+/abnehmen.{1,10}noch nie so einfach/i
+
+/(kg|kilo|pfund).{1,10}abgenommen habe/i
+/(kg|kilo|pfund).{1,10}in.{1,10}tagen.{1,10}(abnehmen|verlieren)/i
+/(kg|kilo|pfund).{1,10}weniger in.{1,10}Woche/i
+
+/bauchfett.{1,10}(verlieren|verschwindet)/i
+/einfaches abnehmen mit/i
+
+/gewicht zu verlieren/i
+/haben sie gewichtsprobleme/i
+
+/jetzt abnehmen/i
+
+/nr\..{1,10}gewichtsverlust/i
+
+/schnell.{1,10}einfach.{1,10}abnehmen/i
+/sicherer.{1,10}gewichts.?verlust/i
+
+# Product
+/vorteile.{1,10}keto/i
+
+# Temporary until i found the right regex
+# ------------------------------------------------------------------------------
+
+/r(-|_|:)ezeptfrei/i
+/re(-|_|:)zeptfrei/i
+/rez(-|_|:)eptfrei/i
+/reze(-|_|:)ptfrei/i
+/rezep(-|_|:)tfrei/i
+/rezept(-|_|:)frei/i
+/rezeptf(-|_)|:rei/i
+/rezeptfr(-|_|:)ei/i
+/rezeptfre(-|_|:)i/i
+
+/r ezeptfrei/i
+/re zeptfrei/i
+/rez eptfrei/i
+/reze ptfrei/i
+/rezep tfrei/i
+/rezept frei/i
+/rezeptf rei/i
+/rezeptfr ei/i
+/rezeptfre i/i
+
+/r(-|_|:)ezep(-|_|:)tfrei/i
+/re(-|_|:)zept(-|_|:)frei/i
+
+/ohne r(-|_|:)ezept/i
+/ohne re(-|_|:)zept/i
+/ohne rez(-|_|:)ept/i
+/ohne reze(-|_|:)pt/i
+/ohne rezep(-|_|:)t/i
+
+/ohne r ezept/i
+/ohne re zept/i
+/ohne rez ept/i
+/ohne reze pt/i
+/ohne rezep t/i
+
+#
+#
+#
+
+# Generic
+# ==============================================================================
+
+# A
+
+# B
+/blauen? pille/i
+
+# C
+
+# D
+
+# E
+
+# F
+
+# G
+/geheimnis.{1,10}tiefenreinigung/i
+
+# H
+/herz.?(beschleunigung|unruhe|schlag|stolpern)/i
+
+# I
+
+# J
+
+# K
+/krampfadern.{1,20}waffe/i
+
+# L
+/langweilig im bett/i
+
+# M
+
+# N
+/natürliche lösung.{1,10}blutzuckermanagement/i
+/neue rezeptur wirkt.{1,10}schneller/i
+
+# O
+/ohne rezept/i
+
+# P
+/partner im schlafzimmer/i
+/penis.?aktivator/i
+
+# Q
+
+# R
+
+# S
+
+# T
+
+# U
+/um schnell abzunehmen/i
+/unterstützt dieses produkt/iu
+
+# V
+/verbessern sie.{1,10}(ihren körper|kalorien)/ui
+
+/verlieren sie.{1,10}gewicht/i
+/verlieren sie bis zu.{1,10}kg/i
+
+# W
+
+# X
+
+# Y
+
+# Z
+/zerstört alle arten von würmern/iu
