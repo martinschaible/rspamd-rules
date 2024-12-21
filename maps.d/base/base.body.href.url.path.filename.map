@@ -1,0 +1,86 @@
+# ==============================================================================
+# Spammers use certain filenames for their websites and images.
+# Therefore we check anchor tags for bad stuff
+#
+# Tag:      link, domain, url, file
+# Language: -
+# Weight:   6.0
+# ==============================================================================
+
+
+# Files
+# ==============================================================================
+
+/\/amazon[a-z0-9]{0,10}\.(html|php)/i
+/\/attachments?\.xls/i
+/\/avast\.html/i
+
+/\/bitcoin\.html/i
+/\/dating\.html/i
+
+# Forwarder
+/\/global_outurl\.php/i
+
+/\/indexx\.html/i
+/\/investieren\.(html|php)/i
+/\/invest(ment)?\.(html|php)/i
+/\/invoice\.s?html/i
+
+/\/keto.?plus\.html/i
+/\/loginweb\.html/i
+
+/\/mail\.html/i
+/\/moviepark\.html/i
+
+/\/red\.(html|php)/i
+/\/red1\.(html|php)/i
+/\/redirect\.html/i
+/\/rooster\.html/i
+
+/\/url\.html/i
+
+# Used in real life
+#/\/verfolgen\.html/i
+
+/\/web\.(html|php)/i
+
+/\/[a-z]{1,15}\.index\.html/i
+/\/[a-z]{0,10}keto[a-z]{0,10}\.html/i
+
+# Images
+# ------------------------------------------------------------------------------
+/\/mature.?\d?\.(jpg|png)/i
+/\/milf.?\d\.(jpg|png)/i
+
+/\/sehr.geehrter.kunde\.(jpg|png)/i
+
+# It's silly to blacklist names. But they are very repetitive
+/\/marlene\.(jpg|png)/i
+
+# Files with a very long filename
+# ------------------------------------------------------------------------------
+
+
+# Files with strange names
+# ------------------------------------------------------------------------------
+
+# Samples: redsdfirect.html
+#          redisdfrect.html
+#          redirdsfect.html
+#          sfsdfect.html
+/(red|sfs)[a-z]{2,5}ect\.html/i
+
+# Samples:  sdfrect.html
+#          sdfsdfct.html
+#           qsdrect.html
+#            dfgect.html
+/\/[a-z]{3,6}(e|f)ct\.html/i
+
+# Samples: sdfsdfirect.html
+#           sdfsdirect.html
+#          reqdsdirect.html
+#          redyrtyirect.html
+/\/[a-z]{3,6}(d|f|y)irect\.html/i
+
+# 18.12.24 - Sample: 2.......HTM
+/\/[\.]{2,10}\.html?/i
