@@ -10,8 +10,12 @@
 # Weight:   6.0
 # ==============================================================================
 
-# Combination of two domains
+# Subdomains
 # ------------------------------------------------------------------------------
 
-# 20.12.24 - Sample: https://firebasestorage.googleapis.com/v0/b/slamdank-46c01.appspot.com/o/nuttela.html?
-/firebasestorage\.googleapis\.com\/v0\/[a-z]{1}\/[a-z0-9-]{5,25}\.appspot\.com/i
+# IP Address as subdomain
+# Sample: http://207.149.167.72.host.secureserver.net
+/\d{2,3}\.\d{2,3}\.\d{2,3}\.\d{2,3}\./i
+
+# Sample: http://212-83-155-119.rev.poneytelecom.eu
+/\d{2,3}-\d{2,3}-\d{2,3}-\d{2,3}\./i
