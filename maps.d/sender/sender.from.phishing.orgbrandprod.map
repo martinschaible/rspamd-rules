@@ -46,6 +46,9 @@
 /^ard.?zdf$/i
 /ard.?zdf.?(radio|service)/i
 
+/アイフル/i                    # 21.12.24 - Aiful corporation
+/ネットバンク/i                 # 21.12.24 - Aiful corporation
+
 # B
 /^bosch.?(™|®)?$/i
 
@@ -107,6 +110,8 @@
 # Q
 
 # R
+/りそな/i               # 21.12.24 - Resona Bank
+
 /rewe.?(™|®)?$/i
 
 # S
@@ -129,6 +134,7 @@
 
 # V
 /ⱽᵖᵃˢˢ/i               # 19.12.24 - Sumitomo Mitsui Card Co.
+
 
 # W
 
