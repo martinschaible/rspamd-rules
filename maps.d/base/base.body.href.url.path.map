@@ -51,20 +51,3 @@
 
 # 18.12.24 - Phishing: Pay taxes in advance
 /\/swisstaxadm/i
-
-#
-#
-#
-
-# Files
-# ==============================================================================
-
-/investieren\.(html|php)/i
-/invest(ment)?\.(html|php)/i
-
-# Files with strange names
-# ------------------------------------------------------------------------------
-
-# 18.12.24 - Sample: 2.......HTM
-/[\.]{2,10}\.html?/i
-
