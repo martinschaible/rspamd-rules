@@ -9,23 +9,15 @@
 
 # Loans
 # ------------------------------------------------------------------------------
-/k r e d i t e/i
 
-/kreditmöglichkeit/iu
-/kreditunternehmen/i
-/kredit \d/i
 /kredite verfügbar/iu
 /kredit.?(angebot|vorschlag)/i
-/(darlehen|kredite)!/i
 /\d% kredit/i
 
 /kredit.{1,10}darlehen/i
 
 /angebot.{1,10}(darlehen|kredit) von/i
 /privat.{1,10}geschäfts.?kredite?/iu
-
-/DARLEHEN/
-/(darlehen|kredit)\?/i
 
 /verfügbare.{1,10}(darlehen|kredite?)/iu
 /new.{1,10}(darlehen|kredit)/i
@@ -61,8 +53,6 @@
 
 # Financing
 # ------------------------------------------------------------------------------
-/finanzierung\.\./i
-/finanzierung\.$/i
 /finanzierungs?.{1,10}(darlehen|zinsen)/i
 /finanzierung.{1,10}\d{2}\/\d{2}\/\d{4}/i
 
@@ -72,26 +62,15 @@
 
 /erhalten sie.{1,25}sofortige finanzierung/i
 
-# Mortgage
-# ------------------------------------------------------------------------------
-
-# Silly promises
-# ------------------------------------------------------------------------------
-
 #
 #
 #
 
 # Unclassified
 # ------------------------------------------------------------------------------
-/(finanziellen|förderung) \d/iu
 /investitionsmöglichkeit.{1,10}angebot/iu
 
 /garantieangebot jetzt beantragen/i
-/geldsorgen\?/i
 /sie finanzielle probleme/i
 /kostenlose kreditanfrage/i
 /loan.?darlehen/i
-
-# Masked
-# ------------------------------------------------------------------------------
