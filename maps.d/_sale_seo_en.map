@@ -78,7 +78,7 @@
 /we can help you rank higher/i
 /we do seo for all/i
 /we promote your.{1,10}web.?site.{1,10}(ranking|ranks)/i
-/we specialize in seo/i
+/we specialize in (helping websites|seo)/i
 
 /we will (enhance|improve) your.{1,15}(position|ranking|ranks)/i
 /We will (enhance|improve) your web.?site/i
@@ -107,7 +107,9 @@
 /your web.?site.{1,10}not ranking (well|in)/i
 
 # Lies
+/i came across your website.{1,10}noticed/i
 /i have reviewed your domain in/i
+
 /you are losing.{1,15}traffic.{1,10}sales/i
 
 /your web.?site.{1,15}affecting your online presence/i
