@@ -59,6 +59,9 @@ this message is for you/i
 # Generic
 # ==============================================================================
 
+#
+/\d{3,5}.{1,10}global channels/i
+
 # A
 /are you still alive/i
 
