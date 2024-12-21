@@ -32,6 +32,7 @@
 # E
 
 # F
+/funding opportunity/i
 
 # G
 
@@ -53,6 +54,7 @@
 # O
 
 # P
+
 /proposal attached/i
 /proposal\.\./i
 
@@ -77,5 +79,7 @@
 /you have won/i
 
 /your e?.?mail.{1,15}has.{1,15}been.{1,15}selected/i
+
+/your e?.?mail.?id/i
 
 # Z
