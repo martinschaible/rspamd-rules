@@ -712,9 +712,6 @@ letzter gewinner/i
 
 /notfall.?set.{1,10}(fürs auto|für ihr auto|im auto|prämie|wartet auf sie)/i
 
-/(bestätigung|gewinnen|kostenloses).{1,10}notfall.?set/i
-/(bestätigung|gewinnen|kostenloses).{1,20}(auto|kfz).?notfall.?set/i
-
 /sie sich das.{1,15}notfall.?(auto|set)/i
 
 # AliExpress
