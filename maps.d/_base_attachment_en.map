@@ -8,11 +8,6 @@
 # Double Extension
 # ------------------------------------------------------------------------------
 
-# The unique ones
-/\.xlsx\.t?gz/i
-/\.jpg\.html/i
-/\.r09\.rar/i
-
 # Sample: RFQ-PO2023080904072235AM_pdf.gz
 #         Payment_Advice,img.zip
 #         Details_pdf.rar
@@ -47,10 +42,6 @@
 /\.pdf.{1,10}\(\d\)\.htm/i
 
 /,doc\.tar/i
-
-# Triple Extension
-# ------------------------------------------------------------------------------
-/xls\.tar\.gz/i
 
 # Strange Stuff
 # ------------------------------------------------------------------------------
@@ -200,11 +191,6 @@
 # Invoices
 # ------------------------------------------------------------------------------
 
-# Sample: INV00934.htm
-/inv.?\d{4,10}\.(7z|doc|gz|htm|r11|rar|tgz|xla|xls|zip)/i
-/invoice.?\d{4,10}\.(7z|doc|gz|htm|r11|rar|tgz|xla|xls|zip)/i
-
-/invoice\.(7z|doc|gz|htm|r11|rar|tgz|xla|xls|zip)/i
 /updated.?soa\.(7z|doc|gz|htm|r11|rar|tgz|xls|zip)/i
 
 # Sample: Outstanding Invoice 00028025145 14-02-2024.pdf
@@ -215,7 +201,6 @@
 
 # Lottery, Winning
 # ------------------------------------------------------------------------------
-/winner.{0,10}\.(7z|doc|gz|htm|r11|rar|tgz|xla|xls|zip)/i
 
 # Parcel
 # ------------------------------------------------------------------------------
@@ -238,10 +223,6 @@
 
 # Sample: 2024_07_59318.zip
 /202\d_\d{2}_\d{2,10}\.zip/i
-
-# Receipt
-# ------------------------------------------------------------------------------
-/receipt.{0,5}\.(7z|doc|gz|htm|r11|rar|tgz|xla|xls|zip)/i
 
 # Scanner
 # ------------------------------------------------------------------------------
