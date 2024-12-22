@@ -29,32 +29,6 @@
 
 # Winning
 # ------------------------------------------------------------------------------
-/congratulations.{1,10}you have won/i
-/dear esteemed winner/i
-/discover.{1,10}winning/i
-
 /win.{1,10}\d{3}.{0,5}\d{3}.{1,15}today/i
 /winning.{1,15}(formula|number|reference)/i
-/^winner$/i
 
-/you could win/i
-/^you have won$/i
-/you have won.{1,10}\d{3}.{0,5}\d{3}/i
-/you have won.{1,10}\d{2,3}(m|usd)/i
-
-/you win$/i
-
-/your.{1,10}e?.?mail.?(address|id) has won/i
-/your winning prize/i
-
-#
-#
-#
-
-# Unclassified
-# ------------------------------------------------------------------------------
-/^(euro?|usd).{1,5}\d{3}.{0,5}\d{3}.{0,5}\d{2,3}$/i
-
-# Masked
-# ------------------------------------------------------------------------------
-/winner_/i

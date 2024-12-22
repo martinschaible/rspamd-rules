@@ -20,18 +20,12 @@
 # ------------------------------------------------------------------------------
 /lotterie.?(gewinn|preis)/i
 
-
 /finale auszeichnung/i
 
 /us.?dollar für sie/iu
 
 # Winning
 # ------------------------------------------------------------------------------
-/^gewinn$/i
-/^gewinner$/i
-/gewinn!/i
-
-/gewinn.{0,5}(benachrichtigung|mitteilung|notifikation)/i
 /gewinner wurden enthüllt/iu
 
 /du bist ein gewinner.{1,10}aber/i
@@ -49,13 +43,3 @@
 /(ihr habt|sie haben).{1,10}gewonnen/i
 
 /brandneu.{1,10}gewinnspiel/i
-
-#
-#
-#
-
-# Unclassified
-# ------------------------------------------------------------------------------
-
-# Masked
-# ------------------------------------------------------------------------------
