@@ -19,7 +19,9 @@
 /src=.{0,5}https?:\/\/[a-z0-9-\.]{3,100}\.(bio|degree|fyi|gq|haus|live|market|top|zone)\//i
 
 # https://www.cybercrimeinfocenter.org/top-20-tld-by-phishing-domain-score
-/src=.{0,5}https?:\/\/[a-z0-9-\.]{3,100}\.(best|business|buzz|casa|centerd|digital|host|id|ke|monster|online|pe|ph|pk|services|ve|wang)\//i
+
+# tld digital removed due false/positive
+/src=.{0,5}https?:\/\/[a-z0-9-\.]{3,100}\.(best|business|buzz|casa|centerd|host|id|ke|monster|online|pe|ph|pk|services|ve|wang)\//i
 
 # https://github.com/ercpe/rspamd-rules/blob/master/lists/high-spammy-tlds.txt
 /src=.{0,5}https?:\/\/[a-z0-9-\.]{3,100}\.(bid|club|date|download|faith|homes|icu|kim|loan|lol|online|pet|red|review|site|space|stream|vip|website|win|world|xyz)\//i
