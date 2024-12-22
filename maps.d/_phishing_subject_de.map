@@ -268,8 +268,6 @@
 # ------------------------------------------------------------------------------
 
 # TAN
-/tan.{0,10}verfahren/i
-
 /(photo|push).?tan.{1,15}(aktivieren sie|aktivierung|brief|erforderlich|ihre konto|ist nicht|verfahren)/i
 /(photo|push).?tan.{1,10}gesperrt/i
 /(photo|push).?tan.{1,10}läuft innerhalb/iu
@@ -462,9 +460,6 @@
 /dpd.?ch.{1,10}betreff/i
 /dpd(-|_)ch/i
 
-/_paketdienst/i
-/paketid/i
-
 #
 /handeln sie jetzt.{1,5}\d{4,15}/i
 /referenz.?(code|nummer).{1,5}\d{4,15}/i
@@ -489,8 +484,6 @@
 
 # Membership, subscription
 # ------------------------------------------------------------------------------
-/-abonnenment/i
-
 /abonnement für die.{1,10}monats.?karte wurde ausgesetzt/i
 
 #/abonnement.{1,10}ist umgehendes handeln erforderlich/i
@@ -512,8 +505,6 @@
 # Winning, Present, Rewards
 # ------------------------------------------------------------------------------
 /antworten.{1,10}gewinnen/i
-/\{belohnen\}/i
-/BELOHNEN/
 
 /antworten sie jetzt.{1,10}sichern sie sich/i
 

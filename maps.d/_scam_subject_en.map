@@ -86,7 +86,6 @@
 
 # Funds, Money, Sum
 # ------------------------------------------------------------------------------
-/funds?!/i
 /fund (donation|recovered)/i
 
 /(notice about|receive) your.{1,15}funds?/i
@@ -112,7 +111,6 @@
 
 # Investment
 # ------------------------------------------------------------------------------
-/^investment$/i
 
 /investment.{1,10}(inquiry|proposal|proposition|relocation)/i
 /investment.{1,10}partnership.{1,10}offer/i
@@ -124,9 +122,6 @@
 
 # Partnership, Business
 # ------------------------------------------------------------------------------
-/\[proposal\]/i
-/proposal\.\./i
-/proposal.?!!/i
 
 /^(business|partnership).{1,10}proposal$/i
 #/(business|partnership).{1,10}(assistance|offer|proposal|proposition|response)/i
@@ -164,8 +159,6 @@
 /usd.{1,10}compensation/i
 /compensation has been approved/i
 
-/COMPENSATION
-
 /your.{1,10}compensated/i
 /your.{1,10}compensation payment/i
 /your.{1,10}grant payment/i
@@ -191,13 +184,10 @@
 # ------------------------------------------------------------------------------
 /(brochure|catalog|catalogue).{1,10}request/i
 
-/^rfq$/i
-
 /inquiry\*/i
 /inquiry.{1,15}about your products/i
 /enquiry.{1,10}letter/i
 
-/^soa$/i
 /new enq$/i
 
 /request for quotation.{1,20}purchase/i
@@ -236,7 +226,6 @@
 
 # Illuminati
 # ------------------------------------------------------------------------------
-/illuminati$/i
 /illuminati.{1,10}(membership|recruiter|society)/i
 /(great|the).{1,10}illuminati/i
 
@@ -276,8 +265,3 @@
 /ref.{1,10}inquiry/i
 
 /kindly confirm to proceed/i
-
-# Masked
-# ------------------------------------------------------------------------------
-/\*donation\*/i
-/\{confidential\}/i
