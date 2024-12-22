@@ -12,3 +12,14 @@
 
 # Pattern
 # ------------------------------------------------------------------------------
+/ihr.?kunden/i
+
+# Companies
+# ------------------------------------------------------------------------------
+# They us company names in the URL to pretend to be real
+
+# Wix
+/referer=https://shoutout\.wix\.com/i
+
+# 21.12.24 - Sample: .nl/wix
+/\.[a-z]{2,4}/wix/i

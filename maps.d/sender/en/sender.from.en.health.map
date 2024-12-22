@@ -38,9 +38,9 @@
 # ------------------------------------------------------------------------------
 /(herpes|ultimate|uncommon).{0,10}cure/i
 
-# Hearing
+# Hearing, Tinnitus
 # ------------------------------------------------------------------------------
-/hearing.{0,10}fix/i
+/hearing.{0,10}(fix|relief|solution)/i
 
 /(bad|restore).{0,10}hearing/i
 
@@ -131,6 +131,7 @@
 
 # Memory
 # ------------------------------------------------------------------------------
+/memory.{0,10}(booster|cure|hack|improver|improvement|laps(es)?|loss|protection|restore|revive|saving|tonic)/i
 /(excellent|future|poor|restore|sharp|your).{0,10}memory/i
 
 # Pain
@@ -209,12 +210,13 @@
 
 /(bloated|bulging|flat|slimmer|tiny|your).{0,10}belly/i
 
-/(flat).{0,10}(melting|stomach|tummy)/i
+/(big|flat).{0,10}(belly|melting|size|stomage|tummy)/i
 
 /slim.{0,10}(belly|body|down|waist)/i
 /(metabolic|surprising).{0,10}water/i
 
 /(toxic|visceral).{0,10}fat/i
+/tummy.{0,10}tamer/i
 
 /o.{0,3}p.{0,3}r.{0,3}a.{0,3}h/i
 
@@ -270,8 +272,6 @@
 /bedroom.{0,10}secrets?/i
 /belly.{0,10}buster/i
 /better.{0,10}poop/i
-
-/big.{0,10}(belly|size|stomage|tummy)/i
 
 /bladder.{0,10}(boost|care|control|danger|fix|health|leaks?|leakage|leaking|issues?|relief)/i
 /bleeding.{0,10}gums?/i
@@ -391,7 +391,6 @@
 /make your own/i
 
 /medicinal.{0,10}patch(es)?/i
-/memory.{0,10}(booster|cure|hack|improver|improvement|laps(es)?|loss|protection|restore|saving|tonic)/i
 
 /mens?.{0,10}(only|power)/i
 /metabolism.{0,10}(booster|loophole)/i
@@ -434,6 +433,7 @@
 /rock.{0,10}hard/i
 
 # S
+/second.{0,10}tweak/i
 /secret.{0,10}weapon/i
 /senior.{0,10}moments/i
 /sharp(er)?.{0,10}(ears|mind|thinking)/i
