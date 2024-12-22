@@ -6,6 +6,7 @@
 
 # Topics
 # ==============================================================================
+# -> Theses RegEx might be constructed easier and better
 
 # Multiple special characters and silly combinations
 /\.\.\?/i
@@ -24,7 +25,10 @@
 
 # Text in brackets
 /\[.?e.?mail.?\]/i
-/\[(letter|offer|urgent)\]/i
+/\[(confidential|donation|letter|offer|proposal|urgent)\]/i
+/\{(confidential|donation|letter|offer|proposal|urgent)\}/i
+/\*(confidential|donation|letter|offer|proposal|urgent)\*/i
+
 /\[special.?offer\]/i
 /\] warning/i
 
@@ -37,3 +41,13 @@
 
 # Sample: (Germany) |
 /\([a-z]{2,10}\) \|/i
+
+# Sample: *spende*
+/\*[a-z]{2,15}\*/i
+/\([a-z]{2,15}\)/i
+
+/proposal\.\./i
+/proposal.?!!/i
+
+/\{belohnen\}/i
+/BELOHNEN/
