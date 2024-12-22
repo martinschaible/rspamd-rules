@@ -1,0 +1,32 @@
+# ==============================================================================
+# TMost viruses and malware hide in attachments.
+# Mostly hidden in invoices, orders and other business-related data.
+# The documents are usually sent as archive files.
+#
+# Tags:     base, attachment
+# Language: -
+# Weight:   6.0
+# ==============================================================================
+
+# Invoices, orders, etc
+# ------------------------------------------------------------------------------
+# -> We do not check for the archive file types. PDF files are excluded.
+
+/inv(oice)?.?\d{0,10}\.((?!pdf$)[^.]*)/i
+/(receipt|winner).?\d{0,10}\.((?!pdf$)[^.]*)/i
+
+# Pattern
+# ------------------------------------------------------------------------------
+
+# Double Extension
+# ------------------------------------------------------------------------------
+
+# The unique ones
+/\.img\.gz/i
+/\.jpg\.html/i
+/\.r09\.rar/i
+/\.xlsx\.t?gz/i
+
+# Triple Extension
+# ------------------------------------------------------------------------------
+/\.xls\.tar\.gz/i
