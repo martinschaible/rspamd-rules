@@ -14,6 +14,9 @@
 # Sample: Auswahl: 775TU3X
 /auswahl.{0,5}\d{1,3}/i
 
+# Sample: Abteilung .""
+/\.$/i
+
 #
 #
 #
@@ -51,6 +54,7 @@
 #
 
 # A
+/abteilung/i
 /antworte.{0,10}heute/i
 /anwälte von/iu
 
