@@ -226,11 +226,6 @@
 
 /\.ru/[a-z]{2,4}/we/[a-z]{2,4}/i
 
-# Wix
-/referer=https://shoutout\.wix\.com/i
-
-/\.[a-z]{2,3}/wix/i
-
 # Wikipedia
 # -> Spammers are using logos from here. Does not work in image tags
 /upload\.wikimedia\.org\/wikipedia\/commons\/thumb/i
