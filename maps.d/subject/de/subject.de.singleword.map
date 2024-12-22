@@ -32,6 +32,7 @@
 /anfrage\*/i
 /atm.?karte/i
 /aufmerksamkeit!/i
+/ausverkaufsalarm/i
 
 # B
 /benachrichtigung#/i
@@ -65,6 +66,12 @@ fettverbrenner/i
 
 /gewichtsreduktion/i
 /gewichtsverlust/i
+
+/^gewinn$/i
+/^gewinner$/i
+/gewinn!/i
+
+/gewinn.?(benachrichtigung|mitteilung|notifikation)/i
 
 # H
 
@@ -100,6 +107,9 @@ fettverbrenner/i
 # P
 /_paketdienst/i
 /paketid/i
+/palmenangeboten?/i
+
+/pflanzenangeboten?/i
 
 /postfach#/i
 /pramienzahlung/i
@@ -107,13 +117,14 @@ fettverbrenner/i
 # Q
 
 # R
+/räumungsverkauf/i
 
 # S
 /schlankpaket/i
 
 /^sofortkredit/i
 
-/^spende$/i
+/^(re: )?spende$/i
 /spende\./i
 /spendencode/i
 /spendenzuschuss/i
@@ -125,10 +136,12 @@ fettverbrenner/i
 /tan.?verfahren/i
 
 # U
+/übersetzungsbüro/iu
 
 # V
 
 # W
+/werbe.?kuli/i
 /wohltätigkeitsfonds/iu
 
 # X
