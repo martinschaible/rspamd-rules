@@ -7,64 +7,33 @@
 # Topics
 # ==============================================================================
 
-# 
+# Multiple special characters and silly combinations
 /\.\.\?/i
+/\?\?\?/i
 
-#
-#
-#
+/!!!/i
+/,,,/i
+/___/i
 
-# Generic
-# ==============================================================================
+/!\.!/?
 
-# A
+/\.\.(\/\/|!!)/i
 
-# B
+# A subject does never start with this
+/^(,|\.|\$)/i
 
-# C
+# Text in brackets
+/\[.?e.?mail.?\]/i
+/\[(letter|offer|urgent)\]/i
+/\[special.?offer\]/i
+/\] warning/i
 
-# D
+# Sample: Hallo 111.118.177.133
+/[a-z]{5,15} \d{2,3}\.\d{2,3}\.\d{2,3}/i
 
-# E
+/[a-z]{5,15}(!!|\.\.)/i
 
-# F
+/\.\.\.[a-z]{5,15}/i
 
-# G
-
-# H
-
-# I
-
-# J
-
-# K
-
-# L
-
-# M
-
-# N
-
-# O
-
-# P
-
-# Q
-
-# R
-
-# S
-
-# T
-
-# U
-
-# V
-
-# W
-
-# X
-
-# Y
-
-# Z
+# Sample: (Germany) |
+/\([a-z]{2,10}\) \|/i
