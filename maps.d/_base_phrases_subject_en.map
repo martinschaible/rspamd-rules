@@ -75,32 +75,13 @@
 
 #
 #
-
-# Placeholders
-# ------------------------------------------------------------------------------
-/%(last|user)_name%/i
-
-#
-#
 #
 
 # Unclassified
 # ------------------------------------------------------------------------------
-/\[.?e.?mail.?\]/i
-/\[(letter|offer|urgent)\]/i
-/\[special.?offer\]/i
-/\] warning/i
-
-/!!!/i
-/\?\?\?/i
-/___/i
-/!\.!/?
 
 /you!!/i
 #/\.\.\.\./i
-/,,,/i
-
-/\.\.(\/\/|!!)/i
 
 /log in to your account/i
 
@@ -125,8 +106,6 @@
 
 /\d{1,2}.?ooo/i
 
-# A subject does never start with this
-/^(,|\.|\$)/i
 
 # letter "e": =d0=b5 
 /[a-z]=d0=b5/i
