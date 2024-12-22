@@ -12,37 +12,6 @@
 # Special
 # ==============================================================================
 
-# Sample: "Melissa, 20"
-/[a-z]{3,15},.?\d{2}\/i
-# Sample: "Melissa (21)"
-/[a-z]{3,15}.?\(\d{2}\)/i
-
-# Sample: "(1)"
-/\(\d\)/i
-
-# Sample: "[iPad Pro"
-#         "| Netflix Inc |"
-#         "_ Congrats _"
-#         "- EMURA -"
-#         "* FedEx *"
-/[\[\|\-\*_!#][a-z0-9\s]{3,15}[\[\|\-\*_!#]$/i
-
-
-# Sample: --d--
-\--[a-z0-9]--/i
-
-# Date: "05/08/2023"
-/\d{2}\/\d{2}\/\d{4}/i
-
-# A few question marks
-/\?\?/i
-
-# a few underscores
-/__/i
-
-# Just a number
-/\d{4,15}/i
-
 # Patterns
 /sales\d{1,2}/i
 
