@@ -21,6 +21,8 @@
 /(alzheimer|dementia).{1,10}(alert|brain|test|trigger|warning)/i
 /brain.{0,10}(booster|cell|damage|fog|health|nutrient|scan|science|trick)/i
 
+/leaky.{1,10}brain/i
+
 # Blood pressure, Heart
 # ------------------------------------------------------------------------------
 /blood.{0,10}(glucose|pressure|sugar)/i
@@ -54,11 +56,13 @@
 # ------------------------------------------------------------------------------
 /diabetes/i
 
+/glucose.{0,10}level/i
+
 /a1c.{0,10}control/i
 /end.{0,10}type.{0,10}2/i
 /sugar.{0,10}(above|defender|disease|levels?|spikes?)/i
 
-/(control|green|high|low).?{0,10}(a1c|glucose)/i
+/(control|green|high|low).{0,10}(a1c|glucose)/i
 
 # Digestive System
 # ------------------------------------------------------------------------------
@@ -179,7 +183,7 @@
 # Sleep
 # ------------------------------------------------------------------------------
 /sleep.{0,10}(blockers?|fix|instantly)/i
-/(about|deep).{0,10}sleep/i
+/(about|better|deep).{0,10}sleep/i
 
 # Stomach
 # ------------------------------------------------------------------------------
