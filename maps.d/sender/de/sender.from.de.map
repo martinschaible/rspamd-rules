@@ -34,6 +34,9 @@
 
 /(mitteilung|nachricht).{0,5}(des|vom|von)/i
 
+/\(\d\).?nachricht/i
+
+
 # Titles
 # ------------------------------------------------------------------------------
 /^(frau|herr|hr\.)\s/i

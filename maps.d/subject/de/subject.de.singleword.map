@@ -47,6 +47,8 @@
 /darlehen\?/i
 /darlehen!/i
 
+/darlehensangebot/i
+
 /^dringend:/i
 
 # E
@@ -59,7 +61,9 @@ fettverbrenner/i
 /finanzierung\.$/i
 
 /finanziellen \d/i
+
 /förderung \d/iu
+/fondsbegünstigter/iu
 
 # G
 /geldsorgen\?/i
@@ -124,7 +128,10 @@ fettverbrenner/i
 
 /^sofortkredit/i
 
-/^(re: )?spende$/i
+/^spende$/i
+/^(aw|re):.?spende$/i
+/^re:.?aw:.?spende$/i
+
 /spende\./i
 /spendencode/i
 /spendenzuschuss/i

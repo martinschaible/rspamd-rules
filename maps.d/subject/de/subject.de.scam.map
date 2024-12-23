@@ -7,6 +7,17 @@
 # Topics
 # ==============================================================================
 
+/förderungen.{1,10}(photovoltaik|pv).?anlagen?/i 
+
+# Comparing price for solar energy at home
+# ------------------------------------------------------------------------------
+# -> They are stealing personal information
+
+# 18.12.24 Sample: 18.12.2024 / PV-Anlage
+/\d{2}\.\d{2}\d.{4}.{1,10}(photovoltaik|pv).?anlage/i
+
+/förderung(en)?.{1,10}(photovoltaik|pv).?anlage/i
+
 # Numbers
 # ------------------------------------------------------------------------------
 
@@ -27,10 +38,12 @@
 # A
 
 # B
+/benachrichtigung(en)?.{1,10}nicht beanspruchte gelder/i
 
 # C
 
 # D
+/du hast ein geschenk erhalten/i
 
 # E
 
@@ -56,9 +69,6 @@
 # O
 
 # P
-
-# 18.12.24 Sample: 18.12.2024 / PV-Anlage
-/\d{2}\.\d{2}\d.{4}.{1,10}pv.?anlage/i
 
 # Q
 

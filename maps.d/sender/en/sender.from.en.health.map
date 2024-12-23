@@ -135,7 +135,7 @@
 
 # Memory
 # ------------------------------------------------------------------------------
-/memory.{0,10}(booster|cure|hack|improver|improvement|laps(es)?|loss|protection|restore|revive|saving|tonic)/i
+/memory.{0,10}(booster|cure|hack|enhancement|improver|improvement|laps(es)?|loss|protection|restore|revive|saving|tonic)/i
 /(excellent|future|poor|restore|sharp|your).{0,10}memory/i
 
 # Pain
@@ -187,7 +187,7 @@
 
 # Stomach
 # ------------------------------------------------------------------------------
-/(bloated|flat(ten)?).{0,10}stomach/i
+/(big|bloated|flat(ten)?).{0,10}stomach/i
 
 # Stretching
 # ------------------------------------------------------------------------------
@@ -356,12 +356,14 @@
 /fruit.{0,10}mistake/i
 
 # G
-/gut.{0,10}(flush|health)/i
+/gut.{0,10}(flush|health|repair)/i
 /going.{0,10}viral/i
 
 # H
 /hair.{0,5}(growth|loss|renewal|restoration)/i
 /hard in\b/i
+
+/happy.{0,10}gut/i
 /harmful.{0,10}veggies/i
 
 /harvard.{0,15}breakthrough/i
@@ -384,7 +386,7 @@
 /irritating.{0,10}noise/i
 
 # J
-/joints?.{0,10}(cure|discomfort|genesis|healed|hero|inflammation|relief)/i
+/joints?.{0,10}(cure|discomfort|genesis|healed|hero|inflammation|relief|story)/i
 
 # K
 /keto.{0,10}diet/i
@@ -472,6 +474,7 @@
 /top.{0,10}medication/i
 /toxic.{0,10}milk/i
 
+/true.{0,10}story/i
 /twist.{0,10}growth/i
 
 # U
