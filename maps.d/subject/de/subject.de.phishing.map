@@ -22,17 +22,10 @@
 # ==============================================================================
 
 # A
-/aktualisierung (ihrer|ihres).{5,25}erforderlich/i
-/aktualisieren sie ihre daten/i
-
 /antworten sie innerhalb von/i
 
 # B
-/bearbeitungsfortschritt/i
 /belohnung wartet auf sie/i
-
-/bestätigen sie.{1,15}(die|ihre).{1,10}liefer(adresse|daten|details)/i
-/bestätigen sie.{1,10}(die|ihre).{1,10}(lieferung|versandinformationen)/iu
 
 /bestätigung.{1,15}ihre bestellung/i
 
@@ -60,7 +53,6 @@
 # K
 /kontowarnung/i
 #/wichtige kontowarnung/i
-/korrigieren sie ihre lieferadresse/i
 
 
 # L
@@ -77,6 +69,7 @@
 /photo.?tan.?verfahren/i
 
 /preis zugestellt zu bekommen/i
+/probleme mit ihrer adresse/i
 
 # Q
 
