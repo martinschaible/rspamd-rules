@@ -26,6 +26,8 @@
 /elevate your rankings/i
 
 # F
+/(1st|first|seo|top) page of/i
+/(1st|first|seo|top).{1,15}rankings?/i
 
 # G
 /google.{1,10}(1st|top).?page/i
@@ -59,6 +61,7 @@
 # T
 
 # U
+/unlock your leads?/i
 /urban.?cruiser/i
 
 /update on your.{1,15}website/i
@@ -70,5 +73,6 @@
 # X
 
 # Y
+/your lead potential/i
 
 # Z
