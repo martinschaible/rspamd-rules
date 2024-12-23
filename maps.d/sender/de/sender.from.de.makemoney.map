@@ -25,7 +25,7 @@
 
 # Make Money
 # ------------------------------------------------------------------------------
-/(bank(en)?|investment).{0,10}(beratung|berater|call.?center|fonds?)/i
+/(bank(en)?|investment).{0,10}(beratung|berater|call.?center|fonds?|verband)/i
 
 /(dividenden|ihre).{0,10}auszahlung/i
 
