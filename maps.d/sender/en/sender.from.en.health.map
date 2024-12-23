@@ -19,7 +19,7 @@
 # Alzheimer, Dementia
 # ------------------------------------------------------------------------------
 /(alzheimer|dementia).{1,10}(alert|brain|test|trigger|warning)/i
-/brain.{0,10}(booster|cell|damage|fog|health|nutrient|scan|science|trick)/i
+/brain.{0,10}(booster|cell|damage|fog|health|nutrient|power|scan|science|trick)/i
 
 /leaky.{1,10}brain/i
 
@@ -56,9 +56,8 @@
 # ------------------------------------------------------------------------------
 /diabetes/i
 
-/glucose.{0,10}level/i
+/(a1c|glucose).{0,10}(control|level)/i
 
-/a1c.{0,10}control/i
 /end.{0,10}type.{0,10}2/i
 /sugar.{0,10}(above|defender|disease|levels?|spikes?)/i
 
