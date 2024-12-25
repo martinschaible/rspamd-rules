@@ -44,6 +44,8 @@
 # A
 /a.d.a.c/i
 
+/adobe acrobat e.?signature/i
+
 /apple.?pay/i
 /apple.?(™|®)?$/i
 
@@ -142,6 +144,7 @@
 
 # U
 /ups.?gmbh/i
+/ups \|/i
 
 # V
 /ⱽᵖᵃˢˢ/i               # 19.12.24 - Sumitomo Mitsui Card Co.
