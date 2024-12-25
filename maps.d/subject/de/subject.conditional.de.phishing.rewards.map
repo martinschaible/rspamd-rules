@@ -2,17 +2,32 @@
 # This file is only used if the matching trigger file has fired.
 #
 # Tags:     subject, conditional, phishing, rewards
-# Trigger:  subject.trigger.de.phishing.rewards
+# Trigger:  subject.trigger.de.phishing
 # Language: german
 # Weight:   6.0
 # ==============================================================================
 
-# Rewards
-# ------------------------------------------------------------------------------
-/die zeit/i
 
-/(die|ihre).{1,10}liefer(adresse|daten|details)/i
-/(die|ihre).{1,10}(lieferung|versandinformationen)/iu
+# Topics
+# ==============================================================================
+
+# Survey
+# ------------------------------------------------------------------------------
+/in unserer Weihnachtsumfrage/i
+
+# Products
+# ------------------------------------------------------------------------------
+/airpods pro/i
+/ipad pro/i
+/iphone 15 pro/i
+
+#
+#
+#
+
+# Generic
+# ==============================================================================
+/die zeit/i
 
 /du bist der.{1,15}gewinner bei/i
 /du bist ein gewinner/i
@@ -31,13 +46,3 @@
 /sie haben ein(en)?.{5,35}gewonnen/i
 
 /top.?gewinnern/i
-
-# Survey
-# ------------------------------------------------------------------------------
-/in unserer Weihnachtsumfrage/i
-
-# Products
-# ------------------------------------------------------------------------------
-/airpods pro/i
-/ipad pro/i
-/iphone 15 pro/i

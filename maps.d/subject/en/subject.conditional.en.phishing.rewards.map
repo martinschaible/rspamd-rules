@@ -2,16 +2,13 @@
 # This file is only used if the matching trigger file has fired.
 #
 # Tags:     subject, conditional, phishing, rewards
-# Trigger:  subject.trigger.en.phishing.rewards
+# Trigger:  subject.trigger.en.phishing
 # Language: english
 # Weight:   6.0
 # ==============================================================================
 
-# Rewards
-# ------------------------------------------------------------------------------
-/claim your prize/i
-
-/you (have|'ve) won an/i
+# Topics
+# ==============================================================================
 
 # Survey
 # ------------------------------------------------------------------------------
@@ -21,3 +18,13 @@
 /airpods pro/i
 /ipad pro/i
 /iphone 15 pro/i
+
+#
+#
+#
+
+# Generic
+# ==============================================================================
+/claim your prize/i
+
+/you (have|'ve) won an/i

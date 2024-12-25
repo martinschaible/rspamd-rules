@@ -2,6 +2,14 @@
 # If a word is recognized, the symbol acts as a condition (trigger) for a
 # second file, which has further checks.
 #
+# Targets for this trigger are:
+# - subject.conditional.de.phishing
+# - subject.conditional.de.phishing.account
+# - subject.conditional.de.phishing.banking
+# - subject.conditional.de.phishing.parcel
+# - subject.conditional.de.phishing.payment
+# - subject.conditional.de.phishing.rewards
+#
 # Tags:     subject, trigger, phishing
 # Language: german
 # Weight:   0.25
@@ -9,13 +17,37 @@
 
 # Keywords most used
 # ==============================================================================
+
+# Account & Banking
+# ------------------------------------------------------------------------------
 /aktualisieren/i
 /aktualisierung/i
 
 /konten/i
 /konto/i
+/kontoinformationen/i
 
 /überprüfen/i
+
+# Parcel
+# ------------------------------------------------------------------------------
+/artikel/i
+/paket/i
+/sendung/i
+
+# Payments &Subscriptions
+# ------------------------------------------------------------------------------
+/sperrhinweis/i
+/abonnement ist/i
+
+# Rewards & Winning
+# ------------------------------------------------------------------------------
+/bestätigen sie/i
+/korrigieren sie/i
+
+/dringend/i
+/gewinner/i
+/glückwunsch/i
 
 # Keywords
 # ==============================================================================

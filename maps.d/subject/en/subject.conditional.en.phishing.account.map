@@ -3,11 +3,17 @@
 #
 # Tags:     subject, conditional, phishing, account
 # Trigger:  subject.trigger.en.phishing
-#           subject.trigger.en.phishing.account
 # Language: english
 # Weight:   6.0
 # ==============================================================================
 
-# Phishing Accounts
-# ------------------------------------------------------------------------------
+# Topics
+# ==============================================================================
+
+#
+#
+#
+
+# Generic
+# ==============================================================================
 /your.{1,25}awaits reactivation/i

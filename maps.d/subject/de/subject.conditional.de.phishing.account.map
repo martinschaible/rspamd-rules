@@ -3,13 +3,19 @@
 #
 # Tags:     subject, conditional, phishing, account
 # Trigger:  subject.trigger.de.phishing
-#           subject.trigger.de.phishing.account
 # Language: german
 # Weight:   6.0
 # ==============================================================================
 
-# Phishing Accounts
-# ------------------------------------------------------------------------------
+# Topics
+# ==============================================================================
+
+#
+#
+#
+
+# Generic
+# ==============================================================================
 
 /sie ihre?/i
 /eingeschränkt/i

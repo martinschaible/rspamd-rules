@@ -3,19 +3,17 @@
 #
 # Tags:     subject, conditional, phishing, parcel
 # Trigger:  subject.trigger.de.phishing
-#           subject.trigger.de.phishing.parcel
 # Language: german
 # Weight:   6.0
 # ==============================================================================
 
-# Phishing Parcel
-# ------------------------------------------------------------------------------
-
-# Sample: #CH2038709
-/#ch\d{1,10}/i
-
 # Topics
 # ==============================================================================
+
+# Address
+# ------------------------------------------------------------------------------
+/(die|ihre).{1,10}liefer(adresse|daten|details)/i
+/(die|ihre).{1,10}(lieferung|versandinformationen)/iu
 
 #
 #
@@ -23,6 +21,9 @@
 
 # Generic
 # ==============================================================================
+
+# Sample: #CH2038709
+/#ch\d{1,10}/i
 
 # A
 /antworten sie/i
