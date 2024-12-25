@@ -16,6 +16,7 @@
 # Alerts
 # ------------------------------------------------------------------------------
 /ihr.{1,10}(computer|gerät|system).{1,10}ein hohes risiko besteht.{1,10}mit viren/iu
+/ihr.{1,10}(computer|gerät|system).{1,10}ist in gefahr/i
 /ihr.{1,10}(computer|gerät|system).{1,10}ist nicht sicher.{1,10}online viren/i
 /ihr.{1,10}(computer|gerät|system).{1,10}wurde mit.{1,10}viren infiziert/i
 /ihr.{1,10}(computer|gerät|system).{1,10}wurde mit bösartigen/iu
