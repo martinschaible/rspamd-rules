@@ -1,6 +1,6 @@
 # ==============================================================================
 # Occasionally, spammers use strange and special paths in the URLs of images.
-# Therefore we check image tags for bad stuff.
+# We check image tags for this bad stuff.
 #
 # Tags:     image, url, path
 # Language: -
@@ -13,16 +13,3 @@
 # Pattern
 # ------------------------------------------------------------------------------
 /ihr.?kunden/i
-
-# Companies
-# ------------------------------------------------------------------------------
-# They us company names in the URL to pretend to be real
-
-# Advanzia Bank
-/\.de\/advanzia/i
-
-# Wix
-/referer=https://shoutout\.wix\.com/i
-
-# 21.12.24 - Sample: .nl/wix
-/\.[a-z]{2,4}/wix/i
