@@ -2,7 +2,8 @@
 # This file is only used if the matching trigger file has fired.
 #
 # Tags:     subject, conditional, phishing, account
-# Trigger:  subject.trigger.de.phishing.account
+# Trigger:  subject.trigger.de.phishing
+#           subject.trigger.de.phishing.account
 # Language: german
 # Weight:   6.0
 # ==============================================================================
@@ -13,4 +14,7 @@
 /eingeschränkt/i
 /bitte loggen sie sich/i
 /identifikation erforderlich/i
+
+/(schützen|sichern) sie ihr/i
+
 /wichtige?.{1,5}(aktualisierung|information|nachricht)/i
