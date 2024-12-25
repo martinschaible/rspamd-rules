@@ -28,6 +28,7 @@
 /datenbank(en)?.{0,10}unternehmen/i
 
 # E
+/exklusives angebot/i 0.25
 
 # F
 
@@ -52,6 +53,8 @@
 # P
 /\/ (pv|solar).?anlage/i
 /preise.{1,10}(pv|solar).?anlagen gefallen/i
+
+/sprechen.{1,10}problemlos.{1,10}sprachen/i
 
 # Q
 
