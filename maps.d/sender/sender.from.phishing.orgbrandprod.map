@@ -128,7 +128,8 @@
 /rewe.?(™|®)?$/i
 
 # S
-/sbb.?kundenservice/i
+/sbb(.?cff.?ffs)?.{0,5}(kundenservice|support)/i
+
 
 /service.?center.?ard.?zdf/i
 
