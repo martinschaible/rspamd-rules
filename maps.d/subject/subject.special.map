@@ -9,7 +9,10 @@
 # -> Theses RegEx might be constructed easier and better
 
 # Multiple special characters and silly combinations
-/\.\.\?/i
+
+# 25.12.24 - DLH uses this: "Jetzt Live verfolgen..."
+#/\.\.\?/i
+
 /\?\?\?/i
 
 /!!!/i
