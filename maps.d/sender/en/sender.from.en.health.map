@@ -21,7 +21,8 @@
 /(alzheimer|dementia).{1,10}(alert|brain|test|trigger|warning)/i
 /brain.{0,10}(booster|cell|damage|fog|health|nutrient|power|scan|science|trick)/i
 
-/leaky.{1,10}brain/i
+/cognitive.{0,10}health/i
+/leaky.{0,10}brain/i
 
 # Blood pressure, Heart
 # ------------------------------------------------------------------------------
