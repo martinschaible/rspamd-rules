@@ -7,7 +7,7 @@
 # Weight:   6.0
 # ==============================================================================
 
-# Phishing rewards
+# Rewards
 # ------------------------------------------------------------------------------
 /die zeit/i
 
@@ -18,6 +18,8 @@
 /du bist ein gewinner/i
 
 /fordern sie/i
+
+/gewinnen sie ein/i
 
 /ihr.{5,20}wartet/i
 /ihre.{1,10}(daten|belohnung)/i
@@ -30,6 +32,12 @@
 
 /top.?gewinnern/i
 
+# Survey
+# ------------------------------------------------------------------------------
+/in unserer Weihnachtsumfrage/i
+
 # Products
+# ------------------------------------------------------------------------------
 /airpods pro/i
+/ipad pro/i
 /iphone 15 pro/i

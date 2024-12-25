@@ -11,10 +11,15 @@
 # Phishing Accounts
 # ------------------------------------------------------------------------------
 
+/sie ihre?.{1,15}konto/i
 /eingeschränkt/i
 /bitte loggen sie sich/i
 /identifikation erforderlich/i
 
-/(schützen|sichern) sie ihr/i
+/handeln sie jetzt/i
 
-/wichtige?.{1,5}(aktualisierung|information|nachricht)/i
+/(schützen|sichern) sie ihr/i
+/um den service fortzusetzen/i
+
+/verifizierung ihrer/i
+/wichtige?.{1,5}(aktualisierung|information|mitteilung|nachricht)/i
