@@ -192,7 +192,7 @@
 /kundendienstes/i
 /kundennummer/i
 
-/kunden.?(betreuung|helpdesk|id|informationen|nummer|support|unterstützung)$/iu
+/kunden.?(betreuung|feedback|helpdesk|id|informationen|nummer|support|unterstützung)$/iu
 /kundenservice.?team/i
 
 /küchenhelfer/iu
@@ -228,6 +228,7 @@
 /^paket$/i
 
 /pillen$/i
+/postcode/i
 /potenz/i
 
 /präsident/iu

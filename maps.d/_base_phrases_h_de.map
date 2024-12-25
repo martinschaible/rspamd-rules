@@ -16,6 +16,7 @@
 # Answer
 # ------------------------------------------------------------------------------
 /antworten sie.{1,15}wenn sie diese.{1,10}e?.?mail erhalten haben/i
+/weiter.?geht.{1,10}antworten sie umgehend per e?.?mail/i
 
 # Attention, Important, Urgent
 # ------------------------------------------------------------------------------
@@ -68,6 +69,7 @@
 
 /(lieber|sehr geehrter) e?.?mail.?benutzer/i
 
+/ich wollte.{1,10} an meine letzte e?.?mail/i
 /nachricht bei guter gesundheit sind/i
 
 /sie der richtige besitzer dieser.{1,10}e?.?mail/i

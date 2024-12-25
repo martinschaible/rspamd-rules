@@ -184,7 +184,7 @@
 
 # Sleep
 # ------------------------------------------------------------------------------
-/sleep.{0,10}(blockers?|fix|instantly)/i
+/sleep(ing)?.{0,10}(blockers?|fix|instantly|problem)/i
 /(about|better|deep).{0,10}sleep/i
 
 # Stomach

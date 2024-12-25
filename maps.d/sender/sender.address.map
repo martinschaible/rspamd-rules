@@ -33,14 +33,16 @@
 
 # Phishing
 # ------------------------------------------------------------------------------
-# Japan (Temporary)
-/epos(-|_)(mail|net)\./i
-/\<epos(-|_)/i
-/smbc.?(card|email)/i
 
-/card.?vpass/i
+# Japan (Temporary)
+/(amex|epos)(-|_)(mail|net)\./i
+
+/\<(amex|epos)(-|_)/i
 
 /aeon-email/i
+/card.?vpass/i
+
 /(jcb|tepco)_net/i
 /mailxcg/i
 /nexco\.co\.jp/i
+/smbc.?(card|email)/i

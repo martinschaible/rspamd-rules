@@ -48,7 +48,9 @@
 /(dear|hello|hi).{1,10}entrepreneur/i
 /(dear|hello|hi).{1,10}greetings.{1,10}i am.{5,25}manager/i
 /(dear|hello|hi).{1,10}hope you are doing well.{1,10}this is.{5,25}from/i
+
 /(dear|hello|hi).{1,10}i.?a?m.{1,10}professional software/i
+/(dear|hello|hi).{1,10}i.?a?m.{5,25}we sell a wide variety/i
 
 /attention.{1,10}i am (mrs?|ms)/i
 /(attention|best regards|servus).{1,10}my name is/i
