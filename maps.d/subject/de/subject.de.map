@@ -36,6 +36,8 @@
 /nachricht.{1,10}für (dich|sie)/i
 /(sie|wir) haben eine wichtige nachricht/i
 
+/wichtige nachricht.{1,10}ref\b/i
+
 # Urgent
 # ------------------------------------------------------------------------------
 /antworten sie so schnell wie möglich/iu

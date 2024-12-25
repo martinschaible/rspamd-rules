@@ -28,6 +28,9 @@
 
 /(eu|world).?(business|company).{0,10}(directory|register)/i
 
+# 25.12.24 - Sample: Email amelec.ch
+/e?.?mail.{1,15}\[a-z]{2,4}/i
+
 /i\.m\.f/i
 
 # Faked Senders

@@ -104,7 +104,7 @@
 /^mycss$/i
 
 # N
-/netflix.{0,10}(help.?desk|security team)/i
+/netflix.{0,10}(billing|help.?desk|security team)/i
 
 /nespresso.{0,5}team/i
 
@@ -115,6 +115,8 @@
 
 # P
 /paypal.{0,5}(inc|kunden|konto)/i
+
+/post.?finance.{0,5}benachrichtigungen/i
 
 # Q
 

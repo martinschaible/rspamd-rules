@@ -57,6 +57,7 @@
 # Diabetes
 # ------------------------------------------------------------------------------
 /diabetes/i
+/diabetic/i
 
 /(a1c|glucose).{0,10}(control|level)/i
 
@@ -100,7 +101,7 @@
 
 # Health
 # ------------------------------------------------------------------------------
-/(health|quick).{0,10}(boost(er)?|guide)/i
+/(health|quick).{0,10}(boost(er)?|fix|guide)/i
 /healthy?.{0,10}(alert|alternative|brain|guides?|gut|heart|insights|power|secret|transformation)/i
 
 /(american|daily|insider|mens|womens).{0,10}health/i
@@ -389,6 +390,7 @@
 /irritating.{0,10}noise/i
 
 # J
+/japanese.{0,10}secret/i
 /joints?.{0,10}(cure|discomfort|genesis|healed|hero|inflammation|relief|remedy|story)/i
 
 # K

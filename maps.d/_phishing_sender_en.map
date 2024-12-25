@@ -54,8 +54,6 @@
 /support.?notice/i
 /^support.?team/i
 
-/(e?.?mail|webmail).{0,5}(admin|manager|notice|server|support|team)/i
-
 /e?.?mail.?(notice|service|verification)/i
 
 /server.?(admin|support|update)/i

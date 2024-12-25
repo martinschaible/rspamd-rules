@@ -14,6 +14,8 @@
 # ------------------------------------------------------------------------------
 /\.(ch|com|de|org).?(admin$|administrator|helpdesk|security|server|update)/i
 
+/(e?.?mail|webmail).{0,5}(admin|manager|notice|server|support|team)/i
+
 /helpdesk-/i
 /mail.?admin/i
 
@@ -27,6 +29,7 @@
 # A
 
 # B
+/billing.?team/i
 
 # C
 
