@@ -31,6 +31,7 @@
 
 # Cholesterol
 # ------------------------------------------------------------------------------
+/cholesterol.{0,10}balance/i
 /(control|high|low).{0,10}cholesterol/i
 
 # Cleanse
@@ -90,7 +91,7 @@
 /(20|bad|blurred|blurry|clear|enhancing|flawless).{0,10}(eye.?sight|view|vision)/i
 /(new|night|perfect|poor|restore|supreme|weak).{0,10}(eye?sight|view|vision)/i
 
-/vision.{0,10}(20.?20|boost|enhancing|loss|restorer?)/i
+/vision.{0,10}(20.?20|boost|enhancing|loss|rescue|restorer?)/i
 
 # Gums
 # ------------------------------------------------------------------------------
@@ -131,7 +132,7 @@
 # Liver
 # ------------------------------------------------------------------------------
 /liver.{0,10}(damage|detox|fix|health|renew|support)/i
-/(dying|fatty).{0,10}liver/i
+/(dying|fatty|toxic).{0,10}liver/i
 
 # Memory
 # ------------------------------------------------------------------------------
@@ -220,7 +221,7 @@
 /(metabolic|surprising).{0,10}water/i
 
 /(toxic|visceral).{0,10}fat/i
-/tummy.{0,10}tamer/i
+/tummy.{0,10}(cleanse|tamer)/i
 
 /o.{0,3}p.{0,3}r.{0,3}a.{0,3}h/i
 
@@ -324,11 +325,11 @@
 /doctor.{0,10}warning/i
 
 /dr\.?.?(derm|health)/i
-/dribbling.{1,10}urine/i
+/dribbling.{0,10}urine/i
 /dying.{0,10}signal/i
 
 # E
-/eagle.{1,10}vision/i
+/eagle.{0,10}vision/i
 /ear.{0,10}(buzzing|humming|noises?|ringing|silencer|wax)/i
 
 /eat.{0,10}(fruitme|me|this)/i
@@ -339,6 +340,7 @@
 
 /erase.{0,10}cavities/i
 /(exotic|kitchen).{0,10}spice/i
+/extend.{0,10}life/i
 /eye.{0,10}(exercise|surgery)/i
 
 # F
@@ -347,6 +349,7 @@
 /(feet|foot).{0,10}(detox|massage)/i
 
 /fix.{1,10}(nail|toe).{0,10}fungus/i
+/flexibility.{0,10}booster/i
 
 /full(er)?.{0,10}hair/i
 /(fungal|fungus).{0,10}(eliminator|free|infection|relief|remover?|vanishing)/i
@@ -386,7 +389,7 @@
 /irritating.{0,10}noise/i
 
 # J
-/joints?.{0,10}(cure|discomfort|genesis|healed|hero|inflammation|relief|story)/i
+/joints?.{0,10}(cure|discomfort|genesis|healed|hero|inflammation|relief|remedy|story)/i
 
 # K
 /keto.{0,10}diet/i
@@ -412,6 +415,7 @@
 # N
 /nail.{0,10}rub/i
 /natural.{0,10}(antibiotic|solution)/i
+/nature.{0,10}opioids?/i
 
 /nerve.{0,10}(comfort|repair)/i
 /nightmare.{0,10}pee/i
@@ -445,6 +449,7 @@
 # S
 /second.{0,10}tweak/i
 /secret.{0,10}weapon/i
+/sea.?sugar/i
 /senior.{0,10}moments/i
 /sharp(er)?.{0,10}(ears|mind|thinking)/i
 
@@ -471,7 +476,7 @@
 /this.{0,10}elixir/i
 /tinnitus.{0,10}(cure|memory|symptoms|warning)/i
 
-/top.{0,10}medication/i
+/top.{0,10}(fruits|medication)/i
 /toxic.{0,10}milk/i
 
 /true.{0,10}story/i
