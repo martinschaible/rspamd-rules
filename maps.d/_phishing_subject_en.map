@@ -192,7 +192,7 @@
 /(e?.?mail|messages).{1,10}in your e?.?mail.?quarantine/i
 /pending.{1,10}(e?.?mails|messages).{1,10}undelivered for/i
 
-/report.{1,10}incoming.{1,10}(e?.?mails|messages)
+/report.{1,10}incoming.{1,10}(e?.?mails|messages)/i
 /restricted messages for/i
 
 /update your.{1,10}mailbox settings/i
