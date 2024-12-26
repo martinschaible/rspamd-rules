@@ -47,7 +47,7 @@
 
 # -> I expect some false/positives
 #/\.(com|info|us)\/index\.php\/campaigns\//i
-/\.(com|info|us)\/mail/index\.php/campaigns\//i
+/\.(com|info|us)\/mail\/index\.php\/campaigns\//i
 /\.(com|info|us)\/url\.php/i
 
 # Sample: .com/biz/DE%20-%2013558.png
@@ -106,7 +106,7 @@
 /\.com\/\d{2}\/\d{3}\/\d{4}\/[a-z]{4,10}\.j/i
 
 # Sample: https://vc.dgnc7.shop/.ll/AB/#
-/\/\.[a-z]{2,10}/[a-z]{2,10}\/#/i
+/\/\.[a-z]{2,10}\/[a-z]{2,10}\/#/i
 
 # URL's with exotic TLD
 # ------------------------------------------------------------------------------
