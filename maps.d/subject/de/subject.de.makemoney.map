@@ -7,6 +7,16 @@
 # Topics
 # ==============================================================================
 
+# Bitcoin
+# ------------------------------------------------------------------------------
+/bitcoin.{1,10}(portfolio|trader)/i
+/(durch|mit).{1,10}(bitcoin|krypto(währung)?).{1,10}reich/i
+/(geld|reich) (durch|mit).{1,10}(bitcoin|krypto(währung)?)/i
+
+# Income
+# ------------------------------------------------------------------------------
+/(\d{3,4}|euro?).{1,10}(grundeinkommen|passives einkommen)/i
+
 #
 #
 #
@@ -17,7 +27,6 @@
 # A
 
 # B
-/bitcoin.{1,10}(portfolio|trader)/i
 
 # C
 
@@ -36,7 +45,7 @@
 # J
 
 # K
-/ki.?investment/i
+/ki.?(handelsstrategie|investment)/i
 
 /(chatgpt|ki|künstlicher? intelligenz).{1,10}geld verdienen/i
 
@@ -53,7 +62,6 @@
 # Q
 
 # R
-/(geld|reich) (durch|mit).{1,10}(bitcoin|krypto(währung)?)/i
 
 # S
 

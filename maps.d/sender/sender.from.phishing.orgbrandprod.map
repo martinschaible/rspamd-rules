@@ -72,6 +72,8 @@
 # Real Sender: "Digitec"
 /digitec\.ch/i
 
+/disney.?account/i
+
 /douglas$/i
 
 # E
@@ -110,7 +112,7 @@
 # N
 /netflix.{0,10}(billing|help.?desk|security team)/i
 
-/nespresso.{0,5}team/i
+/nespresso.{0,10}(kundenservice|schweiz|team)/i
 
 /nortonav$/i
 
