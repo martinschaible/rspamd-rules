@@ -19,8 +19,9 @@
 
 /http:\/\/(www\.)?[a-z0-9-]{3,25}\.com\/redirect\.html/i
 
+# False/Positives
 # Sample: http://tructions.com/1O0b061o8t0mjje0-1pzqbi026rl2ut3a577d000001
-/http:\/\/[a-z0-9-]{3,25}\.com\/[a-z0-9-]{3,20}-[a-z0-9-]{3,20}/i
+#/http:\/\/[a-z0-9-]{3,25}\.com\/[a-z0-9-]{3,20}-[a-z0-9-]{3,20}/i
 
 # Exotic TLD
 # ------------------------------------------------------------------------------
@@ -58,7 +59,9 @@
 
 # Partial Domain name
 # ------------------------------------------------------------------------------
-/http:\/\/(click|email|urls)\./i
+# False/Positives
+#/http:\/\/(click|email|urls)\./i
+/http:\/\/(email|urls)\./i
 
 # Sample: http://1157728453.gopeerclick.com/
 /http:\/\/(www\.)?\d{10,25}\./i
