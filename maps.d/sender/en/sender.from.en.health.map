@@ -26,8 +26,8 @@
 
 # Blood pressure, Heart
 # ------------------------------------------------------------------------------
-/blood.{0,10}(glucose|pressure|sugar)/i
-/(balanced|high|your).{0,10}blood/i
+/blood.{0,10}(clots|glucose|pressure|sugar)/i
+/(balanced|deadly|high|your).{0,10}blood/i
 
 # Cholesterol
 # ------------------------------------------------------------------------------
