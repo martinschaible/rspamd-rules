@@ -25,10 +25,10 @@
 /handeln sie jetzt/i
 
 /(schützen|sichern) sie ihr/i
-/sie ihre?/i
+#/sie ihre?/i
 
 /um den service fortzusetzen/i
 /update erforderlich/i
 
 /verifizierung ihrer/i
-/wichtige?.{1,5}(aktualisierung|information|mitteilung|nachricht)/i
+/wichtige?.{1,5}(aktualisierung|benachrichtigung|information|mitteilung|nachricht\b)/i
