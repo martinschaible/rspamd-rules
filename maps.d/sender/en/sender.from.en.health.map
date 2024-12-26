@@ -211,12 +211,14 @@
 /(fat|weight).{0,10}(fast|goals|loss|vanish)/i
 /(fat|weight).{0,10}(burn(er)?|burning|drop(er)?|flush|melting)/i
 
-/(belly|burn|eliminates?|lose|melt|shed|stubborn|wobbly).{0,10}(bloat|fat|flab|lbs|pounds|weight)/i
+/(belly|burn|eliminates?|lose|losing|melt|shed|stubborn|wobbly).{0,10}(bloat|fat|flab|lbs|pounds|weight)/i
 /(lose|melt|shed).{0,10}\d{2}/i
 
 /(bloated|bulging|flat|slimmer|tiny|your).{0,10}belly/i
 
 /(big|flat).{0,10}(belly|melting|size|stomage|tummy)/i
+
+/\d{1,2} (lbs|pounds) lighter/i
 
 /slim.{0,10}(belly|body|down|waist)/i
 /(metabolic|surprising).{0,10}water/i
@@ -294,7 +296,7 @@
 /boost.{0,10}energy/i
 
 /burn.{0,10}calories/i
-/buzzing.{0,10}ears/i
+/(buzzing|hissing).{0,10}ears/i
 
 # C
 /calorie.{0,10}booster/i

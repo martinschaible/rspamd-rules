@@ -104,17 +104,17 @@
 
 # M
 /^meta$/i
-/metamask.{0,10}(account|assistance|customer|notifications|support)/i
-
+/metamask.{0,10}(account|assistance|customer|notifications|support|update)/i
 
 /(metamask|microsoft|migros).?(™|®)$/i
+
 /^milka$/i
 /^mycss$/i
 
 # N
 /netflix.{0,10}(billing|help.?desk|security team)/i
 
-/nespresso.{0,10}(kundenservice|schweiz|team)/i
+/nespresso.{0,10}(deutschland|kundenservice|schweiz|team)/i
 
 /nortonav$/i
 
