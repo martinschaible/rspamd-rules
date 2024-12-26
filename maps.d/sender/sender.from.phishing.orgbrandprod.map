@@ -104,6 +104,8 @@
 
 # M
 /^meta$/i
+/metamask.{0,10}(account|assistance|customer|notifications|support)/i
+
 
 /(metamask|microsoft|migros).?(™|®)$/i
 /^milka$/i
