@@ -64,7 +64,7 @@
 /end.{0,10}type.{0,10}2/i
 /sugar.{0,10}(above|defender|disease|levels?|spikes?)/i
 
-/(control|green|high|low).{0,10}(a1c|glucose)/i
+/(control|green|high|low|normalize).{0,10}(a1c|glucose)/i
 
 # Digestive System
 # ------------------------------------------------------------------------------
@@ -276,6 +276,7 @@
 
 /back.{0,10}(pain|stretch)/i
 /bald.{0,10}spot/i
+/basic.{0,10}protein/i
 
 /bedroom.{0,10}secrets?/i
 /belly.{0,10}buster/i
@@ -488,6 +489,7 @@
 
 /true.{0,10}story/i
 /twist.{0,10}growth/i
+/type.?2/i
 
 # U
 /unbearable.{0,10}ringing/i
