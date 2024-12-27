@@ -7,6 +7,9 @@
 # - The sender consists of several words, but can be reliably declared as spam
 #   with just one word.
 #
+# If an entry is commented out then we have received false/positive mails.
+# This way we know that the entry is not usable.
+#
 # Tags:     subject, single word
 # Language: english
 # Weight:   6.0
