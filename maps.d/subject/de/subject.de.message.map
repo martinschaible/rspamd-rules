@@ -1,0 +1,23 @@
+# Attention, Important, Urgent
+# ------------------------------------------------------------------------------
+/antworten sie so schnell wie möglich/iu
+
+/dies ist dringend.{1,10}antworten/i
+/dies ist sehr wichtig/i
+
+/^dringende antwort$/i
+/(dringend|wichtig)e?.{1,10}(angelegenheit|aufmerksamkeit|benachrichtigung)/i
+/(dringend|wichtig)e?.{1,15}(information(en)?||info\b|mitteilung|nachricht\b)/i
+
+/dringend.{1,10}dringend/i
+/dringend.{1,15}(dringend|lesen|sorgfältig)/iu
+
+# Messages
+# ------------------------------------------------------------------------------
+/nachricht.{1,10}für (dich|sie)/i
+/nachricht.{1,10}ref\b/i
+
+/eine neue nachricht/i
+/lies diese nachricht/i
+
+/(sie|wir) haben eine.{1,15}nachricht/i
