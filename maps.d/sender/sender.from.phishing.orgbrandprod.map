@@ -104,7 +104,7 @@
 
 # M
 /^meta$/i
-/metamask.{0,10}(account|assistance|customer|info.?desk|notifications|security|service|support|update|wallet)/i
+/(metamask|netflix).{0,10}(account|assistance|billing|customer|help.?desk|info.?desk|notifications|security|service|support|update|wallet)/i
 
 /(metamask|microsoft|migros).?(™|®)$/i
 
@@ -112,7 +112,7 @@
 /^mycss$/i
 
 # N
-/netflix.{0,10}(billing|help.?desk|security team)/i
+/netflix.{0,10}konto/I
 
 /nespresso.{0,10}(deutschland|kundenservice|schweiz|team)/i
 
