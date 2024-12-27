@@ -42,8 +42,7 @@
 
 /auszeichnung(en)?/i
 
-/(apo|apotheke)$/i
-/^apotheke$/i
+/^(apo|apotheke)$/i
 /apotheker/i
 
 /arsch.?luder/i
@@ -169,9 +168,12 @@
 # I
 /illuminaten/i
 /immobilien.?preise/i
+
 /investieren$/i
+/investition/i
 /investment.?fond/i
 /investmentstrategie/i
+/investoren/i
 
 # J
 /jungfrauen/i
