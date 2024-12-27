@@ -11,6 +11,15 @@
 # ------------------------------------------------------------------------------
 /(home.?page|web.?site) umgestalten/i
 
+# Hiring people
+# ------------------------------------------------------------------------------
+/(arbeiter|arbeitskräfte|fachkräfte|hilfspersonal|personalsuche|vermittlung|zeitarbeit).{1,15}(baltikum|litauen)/iu
+/litauische arbeiter/i
+
+#
+#
+#
+
 # Companies, organisations
 # ------------------------------------------------------------------------------
 # 20.12.24 - Real name: "swisspass"
@@ -20,37 +29,11 @@
 #
 #
 
-# Attention, Important
-# ------------------------------------------------------------------------------
-
 # Greetings
 # ------------------------------------------------------------------------------
 /guten tag.?$/i
 /guten tag.?\[/i
 /^guten tag$/i
-
-# Messages
-# ------------------------------------------------------------------------------
-/eine neue nachricht/i
-/lies diese nachricht/i
-/nachricht.{1,10}für (dich|sie)/i
-/(sie|wir) haben eine wichtige nachricht/i
-
-/wichtige nachricht.{1,10}ref\b/i
-
-# Urgent
-# ------------------------------------------------------------------------------
-/antworten sie so schnell wie möglich/iu
-
-/dies ist dringend.{1,10}antworten sie/i
-/dies ist sehr wichtig/i
-
-/^dringende antwort$/i
-/dringende?.{1,10}(aufmerksamkeit|info)/i
-/dringende?.{1,10}wichtige.{1,15}(angelegenheit|benachrichtigung|informationen)/i
-
-/dringend.{1,10}dringend/i
-/dringend.{1,15}(dringend|lesen|sorgfältig)/iu
 
 #
 #
