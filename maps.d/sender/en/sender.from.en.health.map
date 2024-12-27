@@ -121,7 +121,7 @@
 
 # Joints
 # ------------------------------------------------------------------------------
-/(better|painful).{0,10}joints/i
+/(better|painful).{0,10}joints?/i
 
 /(anti|chronic).{0,10}(inflammation|inflammatory)/i
 
@@ -266,7 +266,7 @@
 /(anti|fight|stop).{0,10}snoring/i
 /anti.{0,10}fung(al|us)/i
 
-/artery.{0,10}plaque/i
+/artery.{0,10}(health|plaque)/i
 /arthritis.{0,10}gone/i
 
 # B
@@ -393,7 +393,7 @@
 
 # J
 /japanese.{0,10}secret/i
-/joints?.{0,10}(cure|discomfort|genesis|healed|hero|inflammation|relief|remedy|story)/i
+/joints?.{0,10}(cure|discomfort|genesis|healed|hero|inflammation|recovery|relief|remedy|story)/i
 
 # K
 /keto.{0,10}diet/i
@@ -476,8 +476,11 @@
 
 # T
 /thanksgiving.{0,10}delight/i
+
 /thicker.{0,10}harder/i
+/thinning.{0,10}hair/i
 /this.{0,10}elixir/i
+
 /tinnitus.{0,10}(cure|memory|symptoms|warning)/i
 
 /top.{0,10}(fruits|medication)/i

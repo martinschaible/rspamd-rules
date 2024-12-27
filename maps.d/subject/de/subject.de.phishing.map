@@ -4,6 +4,15 @@
 # Weight:   6.0
 # ==============================================================================
 
+# Samples
+# ------------------------------------------------------------------------------
+# Ihr Paket wartet! Holen Sie es jetzt ab!
+# Dringende Aktualisierung erforderlich, um die Sperrung der DF.eu-Dienste zu vermeiden
+#
+#
+#
+
+
 # Topics
 # ==============================================================================
 
@@ -22,6 +31,7 @@
 # ==============================================================================
 
 # A
+/anspruch.{1,15}steuer(rück)?erstattung/i
 /antworten sie innerhalb von/i
 /auto.{1,10}notfallset/i
 
@@ -30,6 +40,7 @@
 
 /benachrichtigung.{1,15}kundenservice/i
 /bestätigung.{1,15}ihre bestellung/i
+/bestellnummer.{1,15}bestätigt/i
 
 # C
 
@@ -87,6 +98,7 @@
 
 # S
 /sie haben noch nicht geantwortet/i
+/sie sind ausgewahlt/iu
 /sie sind der glückliche gewinner eines/i
 
 # T

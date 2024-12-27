@@ -17,7 +17,9 @@
 
 # Keywords most used
 # ==============================================================================
-/(dringende|wichtig)e?.{1,5}(aktualisierung|benachrichtigung|information|mitteilung|nachricht\b)/i
+/(dringende|wichtig)e?.{1,5}aktualisierung/i
+
+/dringende angelegenheit.{1,5}sie haben/i
 
 # Account & Banking
 # ------------------------------------------------------------------------------
