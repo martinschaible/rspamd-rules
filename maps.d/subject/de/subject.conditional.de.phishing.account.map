@@ -10,6 +10,12 @@
 # Topics
 # ==============================================================================
 
+# Account
+# ------------------------------------------------------------------------------
+/konten/i
+/kontos?/i
+/(konto)?informationen/i
+
 #
 #
 #
@@ -24,11 +30,7 @@
 
 /handeln sie jetzt/i
 
-/(schützen|sichern) sie ihre?/i
 #/sie ihre?/i
 
 /um den service fortzusetzen/i
 /update erforderlich/i
-
-/verifizierung ihrer/i
-/(dringende|wichtig)e?.{1,5}(aktualisierung|benachrichtigung|information|mitteilung|nachricht\b)/i

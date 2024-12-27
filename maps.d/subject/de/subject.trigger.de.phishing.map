@@ -17,12 +17,17 @@
 
 # Keywords most used
 # ==============================================================================
+/(dringende|wichtig)e?.{1,5}(aktualisierung|benachrichtigung|information|mitteilung|nachricht\b)/i
 
 # Account & Banking
 # ------------------------------------------------------------------------------
-/konten/i
-/kontos?/i
-/kontoinformationen/i
+/aktualisieren sie/i
+/bestätigen sie/i
+/korrigieren sie/i
+/schützen sie ihre?/i
+/sichern sie ihre?/i
+
+/verifizierung ihrer/i
 
 # Parcel
 # ------------------------------------------------------------------------------
@@ -39,9 +44,6 @@
 
 # Rewards & Winning
 # ------------------------------------------------------------------------------
-/bestätigen sie/i
-/korrigieren sie/i
-
 /gewinner/i
 /glückwunsch/i
 
