@@ -52,7 +52,9 @@
 
 # Sample: *spende*
 /\*[a-z]{2,15}\*/i
-/\([a-z]{2,15}\)/i
+
+# False/Positives seen 
+#/\([a-z]{2,15}\)/i
 
 /proposal\.\./i
 /proposal.?!!/i
