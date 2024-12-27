@@ -137,13 +137,6 @@
 # ------------------------------------------------------------------------------
 /temu.?pallet/i
 
-# Pan
-# ------------------------------------------------------------------------------
-
-# Perks
-/senior.?perks/i
-# ------------------------------------------------------------------------------
-
 # Phone
 # ------------------------------------------------------------------------------
 /max.?phone/i
@@ -220,7 +213,7 @@
 # Watches, Replicas
 # ------------------------------------------------------------------------------
 #/(designer|rolex|top).?watch(es)?/i
-/(designer|discount|hot|rolex|smart|top).?watch(es)?/i
+/(designer|discount|hot|rolex|top).?watch(es)?/i
 /watch(es)?.?online/i
 
 /luxury.?(collections?|watch(es)?)/i
@@ -278,13 +271,6 @@
 /(costa|marbella|spanish).?(developments|gems|property|rentals|views)/i
 
 /luxury.{1,10}(costa|property)/i
-
-# Unclassified
-# ------------------------------------------------------------------------------
-/ultimate.offers?/i
-/offers?.?program/i
-/boom of sales/i
-/deal.?alarm/i
 
 # Companies
 # ------------------------------------------------------------------------------
