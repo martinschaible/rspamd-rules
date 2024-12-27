@@ -146,7 +146,6 @@
 
 /seitensprung.{1,10}web.?(seite|site)/i
 
-
 /name auf der website ist/i
 /name auf der.{1,10}(dating|hookup).{0,10}(seite|site)/i
 
@@ -156,6 +155,8 @@
 
 /web.?sites?.{1,10}(ist|sind) voller mädchen/iu
 /web.?sites?.{1,10}zum treffen mit/i
+
+whatsapp.{1,10}(erwachsene|sex)/i
 
 # Dating free
 # ------------------------------------------------------------------------------
