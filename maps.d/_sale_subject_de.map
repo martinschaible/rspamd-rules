@@ -449,17 +449,6 @@ grill.{1,10}statt.{1,10}nur/i
 /(negative|schlechte).{1,10}google.?(bewertungen|einträge)/i
 /(negative|schlechte).{1,10}(bewertungen|einträge) (entfernen|loswerden)/i
 
-# Social Media
-# ------------------------------------------------------------------------------
-
-#
-#
-#
-
-#
-#
-#
-
 # Offer to sell vehicles
 # ------------------------------------------------------------------------------
 /ankauf von.{1,10}(auto|fahrzeug|lkw|pkw)/i
@@ -467,13 +456,6 @@ grill.{1,10}statt.{1,10}nur/i
 /wir kaufen.{1,10}(auto|fahrzeug|lkw|pkw)/i
 
 /an den fuhrparkleiter/i
-
-# Hiring people
-# ------------------------------------------------------------------------------
-/(arbeiter|arbeitskräfte|fachkräfte|hilfspersonal|personalsuche|vermittlung).{1,15}(baltikum|litauen)/iu
-/litauische arbeiter gesucht/i
-
-/zeitarbeit aus litauen/i
 
 #
 #
