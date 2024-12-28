@@ -10,13 +10,10 @@
 
 # Survey
 # ------------------------------------------------------------------------------
-/in unserer Weihnachtsumfrage/i
+/in unserer weihnachtsumfrage/i
 
 # Products
 # ------------------------------------------------------------------------------
-/airpods pro/i
-/ipad pro/i
-/iphone 15 pro/i
 
 #
 #
@@ -24,22 +21,64 @@
 
 # Generic
 # ==============================================================================
-/die zeit/i
 
-/du bist der.{1,15}gewinner bei/i
-/du bist ein gewinner/i
+# A
 
-/fordern sie/i
+# B
 
-/gewinnen sie ein/i
+# C
 
+# D
+/du bist (der|ein).{1,15}gewinner bei/i
+
+# E
+
+# F
+
+# G
+
+# H
+
+# I
 /ihr.{5,20}wartet/i
 /ihre.{1,10}(daten|belohnung)/i
 /ihre.{1,10}lieferadresse/i
 
 /(ihrer|ihres).{5,25}erforderlich/i
 
+# J
+
+# K
+
+# L
+
+# M
+
+# N
+
+# O
+
+# P
+
+# Q
+
+# R
+
+# S
 /sie haben (bei|das).{5,35}gewonnen/i
 /sie haben ein(en)?.{5,35}gewonnen/i
 
+# T
 /top.?gewinnern/i
+
+# U
+
+# V
+
+# W
+
+# X
+
+# Y
+
+# Z

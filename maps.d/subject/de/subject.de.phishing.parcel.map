@@ -9,8 +9,8 @@
 
 # Address
 # ------------------------------------------------------------------------------
-/(die|ihre).{1,10}liefer(adresse|daten|details)/i
-/(die|ihre).{1,10}(lieferung|versandinformationen)/iu
+/aktualisieren sie (die|ihre).{1,10}liefer(adresse|daten|details)/i
+/aktualisieren sie (die|ihre).{1,10}(lieferung|versandinformationen)/iu
 
 #
 #
@@ -36,18 +36,15 @@
 # C
 
 # D
-/distributionszentrum/i
 
 # E
 /einer falschen lieferadresse/i
 
 # F
-/fehlgeschlagen/i
 
 # G
 
 # H
-/holen sie es/i
 
 # I
 /ihre?.{5,25}wartet/i
@@ -115,9 +112,7 @@
 # Y
 
 # Z
-/zahlung erforderlich/i
 
-/zu erhalten/i
 /zustellung ansteht/i
 /zustellung.{1,25}bestätigen sie/iu
 /zustellung.{1,25}fehlgeschlagen/i
