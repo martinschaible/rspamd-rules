@@ -41,6 +41,7 @@
 /einer falschen lieferadresse/i
 
 # F
+/fehler bei der zustellung/i
 
 # G
 
@@ -70,6 +71,8 @@
 # O
 
 # P
+/(paket|sendung) wartet.{1,10}holen sie es.{1,10}ab/i
+/probleme mit ihrer adresse/i
 
 # Q
 
@@ -112,7 +115,6 @@
 # Y
 
 # Z
-
 /zustellung ansteht/i
 /zustellung.{1,25}bestätigen sie/iu
 /zustellung.{1,25}fehlgeschlagen/i

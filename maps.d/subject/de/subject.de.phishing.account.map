@@ -7,7 +7,11 @@
 # Topics
 # ==============================================================================
 
-# Account
+# Companies, organisations
+# ------------------------------------------------------------------------------
+/swiss pass/i                   # 20.12.24 - Real name: "swisspass"
+
+# 2FA
 # ------------------------------------------------------------------------------
 
 #
@@ -26,8 +30,10 @@
 # C
 
 # D
+/dringende (aktion|aktualisierung) erforderlich/i
 
 # E
+/eine sperrung zu vermeiden/i
 /erforderliche aktualisierung/i
 
 # F
@@ -36,9 +42,13 @@
 
 # H
 /handeln sie jetzt/i
+/handeln sie sofort/i
+/handeln erforderlich.{1,10}vermeiden sie die sperrung/i
 
 # I
 /identifikation erforderlich/i
+
+/ihr konto wird begrenzt/i
 
 # J
 
@@ -66,12 +76,19 @@
 /um den service fortzusetzen/i
 /update erforderlich/i
 
+/überprüfen sie ihre.{1,15}daten jetzt/i
+
 # V
 
 # W
+/wichtige kontowarnung/i
+/wichtige sicherheitsüberprüfung erforderlich/iu
+
+/wurde vorübergehend deaktiviert/i
 
 # X
 
 # Y
 
 # Z
+/zu ihrer kontosperrung/i

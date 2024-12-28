@@ -7,12 +7,16 @@
 # Topics
 # ==============================================================================
 
+# Companies, organisations
+# ------------------------------------------------------------------------------
+
 # 2FA
 # ------------------------------------------------------------------------------
 /(important|notice|reminder).{1,10}(protect|secure) your/i
 /(important|notice|reminder).{1,10}(enable 2fa|update security)/i
 
 /set.?up (2fa|two.?factor).{1,10}authentication today/i
+/secure your account.{1,10}enable/i
 
 #
 #
@@ -23,6 +27,7 @@
 
 # A
 /action required.{1,15}update your/i
+/action required.{1,10}(account|improve|payment failed)/i
 
 # B
 
@@ -33,6 +38,7 @@
 # E
 
 # F
+/failed to validate your information/i
 
 # G
 
