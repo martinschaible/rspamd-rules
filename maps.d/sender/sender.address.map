@@ -35,7 +35,7 @@
 # ------------------------------------------------------------------------------
 
 # Japan (Temporary)
-/(amex|epos|tepco)(-|_)(mail|net)\./i
+/(amex|epos|tepco|vpass)(-|_)(mail|net)\./i
 
 /\<(amex|epos)(-|_)/i
 

@@ -2,10 +2,18 @@
 # Tags:     subject, special
 # Language: -
 # Weight:   6.0
+#           1.0 (use muliplicator 0.17)
+#           2.0 (use muliplicator 0.34)
 # ==============================================================================
 
 # Topics
 # ==============================================================================
+
+# Numbers
+# ------------------------------------------------------------------------------
+# Big number with currenxcy, weight: 1.2
+/\d{3,4}(\.|,)?\d{3,4}.{0,5}(dollar|euro?|usd|€|\|$|£)/i 0.17
+
 # -> Theses RegEx might be constructed easier and better
 
 # Multiple special characters and silly combinations
