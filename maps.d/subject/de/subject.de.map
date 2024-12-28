@@ -7,10 +7,6 @@
 # Topics
 # ==============================================================================
 
-# Apps & Websites
-# ------------------------------------------------------------------------------
-/(home.?page|web.?site) umgestalten/i
-
 # Hiring people
 # ------------------------------------------------------------------------------
 /(arbeiter|arbeitskräfte|fachkräfte|hilfspersonal|personalsuche|vermittlung|zeitarbeit).{1,15}(baltikum|litauen)/iu
@@ -57,9 +53,6 @@
 /benachrichtigung ist für sie/iu
 /bitte aufmerksam lesen/i
 
-/bitcoin.{1,10}handeln/i
-/(250|bitcoin).{1,10}reich werden/i
-
 # C
 
 # D
@@ -84,11 +77,9 @@
 /grüße an sie/i
 
 # H
-/handeln erforderlich.{1,10}vermeiden sie die sperrung/i
 /hier.{1,10}botschafter(in)?/i
 
 # I
-/ignorieren sie.{1,10}nachricht nicht/i
 
 # J
 /jetzt antworten/i
