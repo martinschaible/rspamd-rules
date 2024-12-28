@@ -104,7 +104,7 @@
 
 # M
 /^meta$/i
-/(metamask|netflix).{0,10}(account|assistance|billing|customer|help.?desk|info.?desk|notifications|security|service|support|update|wallet)/i
+/(metamask|netflix).{0,10}(account|assistance|billing|customer|help.?desk|info.?desk|notifications|security|service|support|team|update|wallet)/i
 
 /(metamask|microsoft|migros).?(™|®)$/i
 
@@ -148,6 +148,8 @@
 /swisspas\./i
 
 /(shein|smava|spotify).?(™|®)$/i
+
+/spotify.{0,10}team/i
 
 # T
 /twint$/i

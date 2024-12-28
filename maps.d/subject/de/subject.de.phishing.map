@@ -16,6 +16,10 @@
 # Topics
 # ==============================================================================
 
+# Subscription, Payment
+# ------------------------------------------------------------------------------
+/abonnement ist abgelaufen.{1,10}erneuern sie es jetzt/i
+
 # Rewards
 # ------------------------------------------------------------------------------
 /(bestätigung|gewinnen|kostenloses).{1,20}(auto|kfz)?.?notfall.?set/i
@@ -68,6 +72,8 @@
 /ihre rechnung wurde zweimal bezahlt/i
 
 /ihnen eine ausstehende rückerstattung/iu
+
+/ing.{1,10}vorübergehende sperrung/i
 
 # J
 
