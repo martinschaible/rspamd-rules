@@ -9,9 +9,11 @@
 
 # Bitcoin
 # ------------------------------------------------------------------------------
-/bitcoin.{1,10}(portfolio|trader)/i
+/bitcoin.{1,10}(handeln|portfolio|trader)/i
 /(durch|mit).{1,10}(bitcoin|krypto(währung)?).{1,10}reich/i
 /(geld|reich) (durch|mit).{1,10}(bitcoin|krypto(währung)?)/i
+
+/(250|bitcoin).{1,10}reich werden/i
 
 # Income
 # ------------------------------------------------------------------------------
