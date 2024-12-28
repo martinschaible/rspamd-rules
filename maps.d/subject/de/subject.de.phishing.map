@@ -116,9 +116,10 @@
 # V
 
 # W
-/^wichtige benachrichtigung!$/i
 
 /wichtige sicherheitsüberprüfung erforderlich/iu
+/wir haben einen gewinner.{1,10}du bist es/i
+
 /wurde vorübergehend deaktiviert/i
 
 /wurde doppelt bezahlt/i
