@@ -7,20 +7,10 @@
 # Topics
 # ==============================================================================
 
-# Apps & Websites
-# ------------------------------------------------------------------------------
-
 # Stock trading
 # ------------------------------------------------------------------------------
 /acquisition boosts.{1,15}revenue/i
 /smart investors?.{1,10}pick/i
-
-#
-#
-#
-
-# Companies, organisations
-# ------------------------------------------------------------------------------
 
 #
 #
@@ -39,9 +29,6 @@
 
 # Generic
 # ==============================================================================
-
-#
-/\d{3,5}.{1,10}global channels/i
 
 # A
 /are you still alive/i
@@ -67,7 +54,6 @@
 /god bless you/i
 
 # H
-/harvard.{1,10}leaked/i
 /how is your name/i
 
 # I
@@ -79,14 +65,10 @@
 
 # L
 /ladies and gentlemen/i
-/letter for you/i
-/letter from/i
 /looking for a reply/i
 
 # M
 /may the peace of the lord/i
-
-/^mobile.?app$/i
 
 /my good friend/i
 /my humble request/i
@@ -117,12 +99,11 @@
 /to ceo/i
 
 # U
-/unclaimed funds/i
 
 # V
 
 # W
-/web.{0,10}mobile.app/i
+/want you in.{1,10}bed/i
 
 # X
 

@@ -15,8 +15,6 @@
 # ==============================================================================
 
 # A
-/action required.{1,10}(account|improve|payment failed)/i
-/avoid service disruption.{1,10}update payment/i
 
 # B
 
@@ -29,7 +27,6 @@
 /enhance wallet protection/i
 
 # F
-/failed to validate your information/i
 
 # G
 /gift.?card.{1,10}opportunity/i
@@ -54,8 +51,6 @@
 # 23.12.24 - Sample: Notification Updated - info@amelec.ch
 /notification updated.{1,15}@/i
 
-/final notice.{1,10}update payment info/i
-
 # O
 
 # P
@@ -67,7 +62,6 @@
 /reminder.{1,10}action required/i
 
 # S
-/secure your account.{1,10}enable/i
 
 # T
 

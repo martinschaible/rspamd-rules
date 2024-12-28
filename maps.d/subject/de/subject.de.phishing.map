@@ -4,32 +4,8 @@
 # Weight:   6.0
 # ==============================================================================
 
-# Samples
-# ------------------------------------------------------------------------------
-# Ihr Paket wartet! Holen Sie es jetzt ab!
-# Dringende Aktualisierung erforderlich, um die Sperrung der DF.eu-Dienste zu vermeiden
-#
-#
-#
-
-
 # Topics
 # ==============================================================================
-
-# Subscription, Payment
-# ------------------------------------------------------------------------------
-/abonnement ist abgelaufen.{1,10}erneuern sie es jetzt/i
-
-# Parcel
-# ------------------------------------------------------------------------------
-/fehler bei der zustellung/i
-
-# Rewards
-# ------------------------------------------------------------------------------
-/(bestätigung|gewinnen|kostenloses).{1,20}(auto|kfz)?.?notfall.?set/i
-
-# Swiss german :-)
-/gwünne e/i
 
 #
 #
@@ -39,15 +15,10 @@
 # ==============================================================================
 
 # A
-/abonnement wird ausgesetzt/i
-
 /anspruch.{1,15}steuer(rück)?erstattung/i
 /antworten sie innerhalb von/i
-/auto.{1,10}notfallset/i
 
 # B
-/belohnung wartet auf sie/i
-
 /benachrichtigung.{1,15}kundenservice/i
 /bestätigung.{1,15}ihre bestellung/i
 /bestellnummer.{1,15}bestätigt/i
@@ -55,41 +26,33 @@
 # C
 
 # D
-/dringende (aktion|aktualisierung) erforderlich/i
 
 # E
-/eine sperrung zu vermeiden/i
 
 # Meta wants to delete your account
 /endgültige löschung ihrer seite/iu
-
-/erneuern sie noch heute ihr.{1,15}abonnement/i
 
 # F
 /frist zur datenaktualisierung/i
 
 # G
-/geschenk.{1,25}bestätigung/iu
 /gewinne ein kostenloses/i
 /gewinner.{1,20}bekannt.?gegeben/i
 /gewonnen.{1,10}dein.{1,20}wartet/i
 
+# Swiss german :-)
+/gwünne e/i
+
 # H
-/handeln erforderlich.{1,10}vermeiden sie die sperrung/i
-/handeln sie sofort/i
 
 # I
-/ihr konto wird begrenzt/i
 /ihre rechnung wurde zweimal bezahlt/i
 
 /ihnen eine ausstehende rückerstattung/iu
 
-/ing.{1,10}vorübergehende sperrung/i
-
 # J
 
 # K
-#/wichtige kontowarnung/i
 
 # L
 /lieferung jetzt bestätigen/i
@@ -98,22 +61,16 @@
 /machen sie mit.{1,10}gewinnen sie/i
 
 # N
-/notfallset.{1,10}(auto|kfz)/i
-/(auto|kfz).{1,10}notfallset/i
 
 # O
 
 # P
-/photo.?tan.?verfahren/i
 
 /preis zugestellt zu bekommen/i
-/probleme mit ihrer adresse/i
 
 # Q
 
 # R
-/rituals mystery box/i
-
 /rückerstattung zur verfügung/iu
 
 # S
@@ -124,18 +81,13 @@
 # T
 
 # U
-/überprüfen sie ihre.{1,15}daten jetzt/i
-/unser notfallset/i
 
 # V
 
 # W
 /wartet.{1,10}antworte jetzt/i
 
-/wichtige sicherheitsüberprüfung erforderlich/iu
 /wir haben einen gewinner.{1,10}du bist es/i
-
-/wurde vorübergehend deaktiviert/i
 
 /wurde doppelt bezahlt/i
 
@@ -145,4 +97,3 @@
 
 # Z
 /zahlung.{1,10}sofortige unterstützung/iu
-/zu ihrer kontosperrung/i
