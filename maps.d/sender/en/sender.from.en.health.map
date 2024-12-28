@@ -18,7 +18,7 @@
 
 # Alzheimer, Dementia
 # ------------------------------------------------------------------------------
-/(alzheimer|dementia).{1,10}(alert|brain|test|trigger|warning)/i
+/(alze?heimer|dementia).{1,10}(alert|brain|test|trigger|warning)/i
 /brain.{0,10}(booster|cell|damage|fog|health|nutrient|power|scan|science|trick)/i
 
 /cognitive.{0,10}health/i
@@ -193,6 +193,7 @@
 
 # Stretching
 # ------------------------------------------------------------------------------
+/stretch.{0,10}smarter/i
 /(hyperbolic|morning|one|second|simple).{0,10}stretch(ing)?/i
 
 # Teeth
@@ -416,6 +417,7 @@
 /mouth.{0,10}odor/i
 
 /muscle.{0,10}(miracle|pain)/i
+/mushroom.{0,10}magic/i
 
 # N
 /nail.{0,10}rub/i
@@ -503,6 +505,8 @@
 /\bw.?loss/i
 
 /water.{0,10}weight/i
+
+/weird.{0,10}sound/i
 /wellness.{0,10}insights/i
 
 /wonder.?bread/i
@@ -513,7 +517,7 @@
 # X
 
 # Y
-/your.{1,10}(brain|craving|gut|health|heart|knees|liver|pee|pelvis|poop|stomach)/i
+/your.{1,10}(balance|brain|craving|gut|health|heart|knees|liver|pee|pelvis|poop|stomach)/i
 /youthful.{0,10}(boost|glow)/i
 
 # Z
