@@ -41,3 +41,7 @@
 
 # Pretending to be WordPress
 /\/wp/[a-z0-9_-]{1,15}\/\?email=/i
+
+# Website on different port
+# 28.12.24 - Sample: http://8.135.236.24:2333/wp/
+/:\d{4}\/wp\//i
