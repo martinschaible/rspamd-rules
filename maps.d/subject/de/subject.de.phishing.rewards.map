@@ -13,13 +13,11 @@
 
 # Products
 # ------------------------------------------------------------------------------
-#/(bestätigung|gewinnen|kostenloses).{1,20}(auto|kfz)?.?notfall.?set/i
+/(bestätigung|gewinnen|kostenloses|unser).{1,20}notfall.?set/i
 
 #
 /(auto|kfz).{1,10}notfallset/i
-/notfallset.{1,10}(auto|kfz)/i
-
-/unser notfallset/i
+/notfallset.{1,10}(auto|kfz|wartet)/i
 
 #
 /rituals mystery box/i
