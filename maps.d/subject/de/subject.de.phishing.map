@@ -69,6 +69,7 @@
 /frist zur datenaktualisierung/i
 
 # G
+/geschenk.{1,25}bestätigung/iu
 /gewinne ein kostenloses/i
 /gewinner.{1,20}bekannt.?gegeben/i
 /gewonnen.{1,10}dein.{1,20}wartet/i
@@ -95,7 +96,8 @@
 /machen sie mit.{1,10}gewinnen sie/i
 
 # N
-/notfallset.{1,10}auto/i
+/notfallset.{1,10}(auto|kfz)/i
+/(auto|kfz).{1,10}notfallset/i
 
 # O
 
