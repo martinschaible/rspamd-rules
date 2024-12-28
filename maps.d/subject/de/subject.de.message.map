@@ -10,14 +10,15 @@
 /(dringend|wichtig)e?.{1,15}(information(en)?||info\b|mitteilung|nachricht\b)/i
 
 /dringend.{1,10}dringend/i
-/dringend.{1,15}(dringend|lesen|sorgfältig)/iu
+/dringend.{1,15}(lesen|sorgfältig)/iu
 
 # Messages
 # ------------------------------------------------------------------------------
 /nachricht.{1,10}für (dich|sie)/i
 /nachricht.{1,10}ref\b/i
 
-/eine neue nachricht/i
+# Too strong, False/Positives
+#/eine neue nachricht/i
 /lies diese nachricht/i
 
 /(sie|wir) haben eine.{1,15}nachricht/i

@@ -20,6 +20,10 @@
 # ------------------------------------------------------------------------------
 /abonnement ist abgelaufen.{1,10}erneuern sie es jetzt/i
 
+# Parcel
+# ------------------------------------------------------------------------------
+/fehler bei der zustellung/i
+
 # Rewards
 # ------------------------------------------------------------------------------
 /(bestätigung|gewinnen|kostenloses).{1,20}(auto|kfz)?.?notfall.?set/i
@@ -35,6 +39,8 @@
 # ==============================================================================
 
 # A
+/abonnement wird ausgesetzt/i
+
 /anspruch.{1,15}steuer(rück)?erstattung/i
 /antworten sie innerhalb von/i
 /auto.{1,10}notfallset/i
@@ -49,6 +55,7 @@
 # C
 
 # D
+/dringende aktualisierung erforderlich/i
 
 # E
 /eine sperrung zu vermeiden/i
@@ -63,10 +70,11 @@
 
 # G
 /gewinne ein kostenloses/i
-
 /gewinner.{1,20}bekannt.?gegeben/i
+/gewonnen.{1,10}dein.{1,20}wartet/i
 
 # H
+/handeln sie sofort/i
 
 # I
 /ihre rechnung wurde zweimal bezahlt/i
@@ -100,6 +108,8 @@
 # Q
 
 # R
+/rituals mystery box/i
+
 /rückerstattung zur verfügung/iu
 
 # S
@@ -116,6 +126,7 @@
 # V
 
 # W
+/wartet.{1,10}antworte jetzt/i
 
 /wichtige sicherheitsüberprüfung erforderlich/iu
 /wir haben einen gewinner.{1,10}du bist es/i

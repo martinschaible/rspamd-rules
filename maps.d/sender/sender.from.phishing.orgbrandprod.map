@@ -104,9 +104,11 @@
 
 # M
 /^meta$/i
-/(metamask|netflix).{0,10}(account|assistance|billing|customer|help.?desk|info.?desk|notifications|security|service|support|team|update|wallet)/i
+/(adac|metamask|netflix).{0,10}(account|assistance|billing|customer|help.?desk|info.?desk|notifications|security|service|support|team|update|wallet)/i
 
 /(metamask|microsoft|migros).?(™|®)$/i
+
+/MIGROS/
 
 /^migros$/i
 /^milka$/i
