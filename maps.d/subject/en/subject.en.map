@@ -10,6 +10,15 @@
 # Apps & Websites
 # ------------------------------------------------------------------------------
 
+# Stock trading
+# ------------------------------------------------------------------------------
+/acquisition boosts.{1,15}revenue/i
+/smart investors?.{1,10}pick/i
+
+#
+#
+#
+
 # Companies, organisations
 # ------------------------------------------------------------------------------
 
@@ -38,6 +47,9 @@
 /are you still alive/i
 
 # B
+/(boost|rank) your.{1,10}(online presence|rankings)/i
+/(boost|rank) your.{1,10}sales with.{1,15}seo/i
+/boost your web.?site.{1,10}seo/i
 
 # C
 /compliment of the season/i
