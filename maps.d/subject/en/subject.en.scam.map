@@ -43,7 +43,7 @@
 # H
 
 # I
-/immediate transfer of your.{1,10}(dollar|euro?|usd|€\$£)/i
+/immediate transfer of your.{1,10}(dollar|euro?|usd|€|\$|£)/i
 /investment fund/i
 
 # J
@@ -77,6 +77,9 @@
 # V
 
 # W
+/want you in.{1,10}bed/i
+
+/win.{1,10}(dollar|euro?|usd|€|\$|£).{1,10}tonight/i
 
 # X
 
