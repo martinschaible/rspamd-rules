@@ -44,7 +44,7 @@
 
 # Hearing, Tinnitus
 # ------------------------------------------------------------------------------
-/hearing.{0,10}(fix|relief|solution)/i
+/(hearing|tinnitus).{0,10}(cure|fix|memory|relief|solution|symptoms|warning)/i
 
 /(bad|restore).{0,10}hearing/i
 
@@ -102,7 +102,7 @@
 # Health
 # ------------------------------------------------------------------------------
 /(health|quick).{0,10}(boost(er)?|fix|guide)/i
-/healthy?.{0,10}(alert|alternative|brain|guides?|gut|heart|insights|power|secret|transformation)/i
+/healthy?.{0,10}(alert|alternative|brain|guides?|gut|heart|heaven|insights|power|secret|transformation)/i
 
 /(american|daily|insider|mens|womens).{0,10}health/i
 
@@ -484,8 +484,6 @@
 /thicker.{0,10}harder/i
 /thinning.{0,10}hair/i
 /this.{0,10}elixir/i
-
-/tinnitus.{0,10}(cure|memory|symptoms|warning)/i
 
 /top.{0,10}(fruits|medication)/i
 /toxic.{0,10}milk/i
