@@ -87,6 +87,7 @@
 
 # U
 /überweisung von.{1,10}(dollar|euro?|usd|€|\$|£).{0,5}\d{3,4}(\.|,)?\d{3,4}/i
+/überweisung von.{1,10}\d{3,4}(\.|,)?\d{3,4}.{0,5}(dollar|euro?|usd|€|\$|£)/i
 
 # V
 

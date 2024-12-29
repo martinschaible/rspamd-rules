@@ -48,7 +48,7 @@
 # H
 
 # I
-/ihre?.{5,25}wartet/i
+/ihre?.{1,10}(lieferung|paket).{1,10}wartet/i
 /ihre(r|s).{5,15}fehlgeschlagen/i
 
 /ist ausgesetzt/i
