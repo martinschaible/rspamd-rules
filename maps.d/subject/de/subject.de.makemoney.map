@@ -9,7 +9,7 @@
 
 # Bitcoin
 # ------------------------------------------------------------------------------
-/bitcoin.{1,10}(handeln|portfolio|trader)/i
+/bitcoin.{1,10}(handeln|millionen|portfolio|trader)/i
 /(durch|mit).{1,10}(bitcoin|krypto(währung)?).{1,10}reich/i
 /(geld|reich) (durch|mit).{1,10}(bitcoin|krypto(währung)?)/i
 

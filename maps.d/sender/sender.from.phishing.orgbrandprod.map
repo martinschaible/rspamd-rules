@@ -27,6 +27,7 @@
 # Lidl Küchenliebe
 # Nespresso
 # playstation
+# Spotify
 
 # Topics
 # ==============================================================================
@@ -97,7 +98,7 @@
 /ihk.?(™|®)?$/i
 
 # J
-/ＪＡネットバンク/i         # 19.12.24 - JA Net Bank
+/ＪＡネットバンク/i                     # 19.12.24 - JA Net Bank
 
 /^jcb/i
 
@@ -140,7 +141,7 @@
 # Q
 
 # R
-/りそな/i               # 21.12.24 - Resona Bank
+/りそな/i                               # 21.12.24 - Resona Bank
 
 /rewe.?(™|®)?$/i
 
@@ -163,6 +164,7 @@
 /spotify.{0,10}team/i
 
 # T
+/農林中央金庫/i                         # 29.12.24 - The Norinchukin Bank
 /twint$/i
 
 # U
@@ -170,7 +172,7 @@
 /ups \|/i
 
 # V
-/ⱽᵖᵃˢˢ/i               # 19.12.24 - Sumitomo Mitsui Card Co.
+/ⱽᵖᵃˢˢ/i                                # 19.12.24 - Sumitomo Mitsui Card Co.
 
 
 # W

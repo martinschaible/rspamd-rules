@@ -21,9 +21,9 @@
 
 # Greetings
 # ------------------------------------------------------------------------------
-/guten tag.?$/i
-/guten tag.?\[/i
-/^guten tag$/i
+/guten (abend|tag).?$/i
+/guten (abend|tag).?\[/i
+/^guten (abend|tag)$/i
 
 #
 #
@@ -47,6 +47,8 @@
 # C
 
 # D
+/darlehen.{1,10}verfügbar/i
+
 /deinen perfekten partner/i
 /du bist der glückliche/i
 /du hast glück/iu
