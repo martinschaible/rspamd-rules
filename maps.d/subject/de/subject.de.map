@@ -37,6 +37,8 @@
 # Sample: "25/12/2024: Du hast"
 /\d{2}\/\d{2}\/\d{4}:/i
 
+/(dollar|euro?|usd|€|\|$|£).{1,10}dividendenauszahlung/i
+
 # A
 
 # B
