@@ -150,7 +150,7 @@
 
 /^sumup$/i
 /sumup.{0,10}(limited|team)/i
-/team.{0,10}sumup/i
+/(team|von).{0,10}sumup/i
 
 /swiss pass/i
 /swisspas\./i
