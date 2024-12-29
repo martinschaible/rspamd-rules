@@ -104,6 +104,7 @@
 
 # L
 /lidl.?(™|®)?$/i
+/lidl.?2025/i
 
 # M
 /^meta$/i
@@ -149,6 +150,7 @@
 
 /^sumup$/i
 /sumup.{0,10}(limited|team)/i
+/team.{0,10}sumup/i
 
 /swiss pass/i
 /swisspas\./i

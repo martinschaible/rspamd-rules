@@ -43,16 +43,21 @@
 
 #
 /adult site that you visited/i
+/click.{1,10}I could reveal this/i
 /i know that you are.{1,10}pedophile/i
 /my perverted friend/i
+/pay me to keep this matter/i
 /video that you watched/i
 
 # Payment
 # ------------------------------------------------------------------------------
+/bitcoin.{1,15}below.{1,15}spaces/i
+
 /below is.{1,10}(bitcoin|btc).?(address|wallet) of mine/i
 
 /my (bitcoin|btc).?(address|wallet).{1,10}(for payment|is)/i
 /my (bitcoin|btc).?(address|wallet).{1,15}(btc.?wallet|for transfer)/i
+
 /my bitcoin.{1,10}btc.{1,10}(address|wallet) is/i
 
 /(send|transfer).{1,10}\d{3,4}.{1,15}to my (bitcoin|cryptocurrency) wallet/i
