@@ -10,8 +10,11 @@
 # Bitcoin
 # ------------------------------------------------------------------------------
 /bitcoin.{1,10}(handeln|millionen|portfolio|trader)/i
-/(durch|mit).{1,10}(bitcoin|krypto(währung)?).{1,10}reich/i
-/(geld|reich) (durch|mit).{1,10}(bitcoin|krypto(währung)?)/i
+/bitcoin.{1,15}(machen|macht).{1,10}reich/i
+
+#
+/(durch|mit).{1,10}(bitcoin|etf|ki|openai|krypto(währung)?).{1,10}(geld|reich)/i
+/(geld|reich) (durch|mit).{1,10}(bitcoin|etf|ki|openai|krypto(währung)?)/i
 
 /(250|bitcoin).{1,10}reich werden/i
 
@@ -72,9 +75,11 @@
 # U
 
 # V
+/verdienen die.{1,15}ihr geld/i
 /viel geld verdienen kann/i
 
 # W
+/wie reich werden/i
 
 # X
 
