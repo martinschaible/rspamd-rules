@@ -272,6 +272,8 @@
 /artery.{0,10}(health|plaque)/i
 /arthritis.{0,10}gone/i
 
+/avoid.{0,10}kegels/i
+
 # B
 /(bad|big|poor|weak).{0,10}bladder/i
 /(bad|enhanced).{0,10}(eyes|memory)/i
@@ -308,7 +310,7 @@
 
 /cbd.{0,10}(fruit|gummies)/i
 
-/(fat|zombie|clean).{0,10}cell/i
+/(clean|fat|feeding|zombie).{0,10}cell/i
 /cleansing.{0,10}pads/i
 /clinically.{0,10}proven/i
 
@@ -403,6 +405,7 @@
 /keto.{0,10}diet/i
 
 # L
+/live.{0,10}forver/i
 /lung.{0,10}trust/i
 
 # M
