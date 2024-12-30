@@ -26,6 +26,10 @@
 #
 #
 
+# Icons
+/🎁/i
+/🚚/i
+
 # Generic
 # ==============================================================================
 
@@ -50,10 +54,13 @@
 /gewinner.{1,20}bekannt.?gegeben/i
 /gewonnen.{1,10}dein.{1,20}wartet/i
 
+/glückliche chance/i
+
 # H
 
 # I
-/ihr.{5,20}wartet/i
+
+/ihre? kostenloses?.{5,20}wartet/i
 /ihre.{1,10}(daten|belohnung)/i
 /ihre.{1,10}lieferadresse/i
 
@@ -62,6 +69,7 @@
 # J
 
 # K
+/kostenloses.{5,25}zu erhalten/i
 
 # L
 
