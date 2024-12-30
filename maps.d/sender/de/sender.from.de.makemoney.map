@@ -16,7 +16,7 @@
 
 # ETF (Exchange Traded Funds)
 # ------------------------------------------------------------------------------
-/etf.{0,10}(beratung|dividende|kenner|news)/i
+/etf.{0,10}(aktien|beratung|dividende|kenner|news)/i
 /(beratung|reichtum).{0,10}etf/i
 
 # Income
