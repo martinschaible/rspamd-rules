@@ -415,7 +415,7 @@
 /medicinal.{0,10}patch(es)?/i
 
 /mens?.{0,10}(only|power)/i
-/metabolism.{0,10}(booster|loophole)/i
+/metabolism.{0,10}(booster|loophole|unleash)/i
 /mineral.{0,10}combination/i
 
 /morning.{0,10}(detox|mistake|oil)/i
@@ -525,7 +525,12 @@
 # Y
 /years.{0,10}younger/i
 
-/your.{1,10}(balance|brain|craving|diet|gut|health|heart|knees|liver|pee|pelvis|poop|stomach)/i
+/your.{1,10}(balance|brain)/i
+/your.{1,10}(craving|diet|gut)/i
+/your.{1,10}(health|heart|knees|liver)/i
+/your.{1,10}(pee|pelvis|poop)/i
+/your.{1,10}(smile|stomach)/i
+
 /youthful.{0,10}(boost|glow)/i
 
 # Z

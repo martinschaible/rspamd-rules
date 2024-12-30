@@ -43,9 +43,9 @@
 
 # Text in brackets
 /\[.?e.?mail.?\]/i
-/\[(confidential|donation|letter|offer|proposal|urgent)\]/i
-/\{(confidential|donation|letter|offer|proposal|urgent)\}/i
-/\*(confidential|donation|letter|offer|proposal|urgent)\*/i
+/\[(confidential|donation|letter|offer|proposal|urgent|warning)\]/i
+/\{(confidential|donation|letter|offer|proposal|urgent|warning)\}/i
+/\*(confidential|donation|letter|offer|proposal|urgent|warning)\*/i
 
 /\{belohnen\}/i
 

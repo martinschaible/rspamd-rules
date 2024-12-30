@@ -167,6 +167,9 @@
 /spotify.{0,10}team/i
 
 # T
+/team_/i
+/team.{0,10}(account|netflix|spotify)/i
+
 /農林中央金庫/i                         # 29.12.24 - The Norinchukin Bank
 /twint$/i
 
