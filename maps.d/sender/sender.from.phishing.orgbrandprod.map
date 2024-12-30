@@ -52,7 +52,7 @@
 /adobe acrobat e.?signature/i
 
 /apple.?pay/i
-/apple.?(™|®)?$/i
+/apple.?(™|®|©)?$/i
 
 /^ard.?zdf$/i
 /ard.?zdf.?(radio|service)/i
@@ -61,12 +61,12 @@
 /ネットバンク/i                 # 21.12.24 - Aiful corporation
 
 # B
-/^bosch.?(™|®)?$/i
+/^bosch.?(™|®|©)?$/i
 
 /bundespolizei$/i
 
 # C
-/(carrefour|cpanel).?(™|®)$/i
+/(carrefour|cpanel).?(™|®|©)$/i
 /^coop$/i
 
 # D
@@ -89,14 +89,14 @@
 /fedex$/i
 
 # G
-/galaxus.?(™|®)?$/i
+/galaxus.?(™|®|©)?$/i
 
 # H
-/(hetzner|hermes|hornbach).?(™|®)$/i
+/(hetzner|hermes|hornbach).?(™|®|©)$/i
 
 # I
 /^ing$/i
-/ihk.?(™|®)?$/i
+/ihk.?(™|®|©)?$/i
 
 # J
 /ＪＡネットバンク/i                     # 19.12.24 - JA Net Bank
@@ -104,17 +104,17 @@
 /^jcb/i
 
 # K
-/kaufland.?(™|®)?$/i
+/kaufland.?(™|®|©)?$/i
 
 # L
-/lidl.?(™|®)?$/i
+/lidl.?(™|®|©)?$/i
 /lidl.?2025/i
 
 # M
 /^meta$/i
 /(adac|metamask|netflix).{0,10}(account|assistance|billing|customer|help.?desk|info.?desk|notifications|security|service|support|team|update|wallet)/i
 
-/(metamask|microsoft|migros).?(™|®)$/i
+/(metamask|microsoft|migros).?(™|®|©)$/i
 
 /MIGROS/
 
@@ -143,9 +143,10 @@
 # Q
 
 # R
+/楽天カード株式会社/i                      # 30.12.24 -Rakuten Card Co., Ltd.
 /りそな/i                               # 21.12.24 - Resona Bank
 
-/rewe.?(™|®)?$/i
+/rewe.?(™|®|©)?$/i
 
 # S
 /sbb(.?cff.?ffs)?.{0,5}(kundenservice|support)/i
@@ -162,7 +163,7 @@
 /swisspas\./i
 /swisspass\.ch/i
 
-/(shein|smava|spotify).?(™|®)$/i
+/(shein|smava|spotify).?(™|®|©)$/i
 
 /spotify.{0,10}team/i
 

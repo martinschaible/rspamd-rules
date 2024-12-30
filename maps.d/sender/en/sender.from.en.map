@@ -70,7 +70,7 @@
 # ==============================================================================
 
 # A
-/account.?protection/i
+/account.{0,10}protection/i
 /attorney at law/i
 /annuity comparison/i
 
@@ -81,12 +81,12 @@
 /confirmation needed/i
 
 # D
-/donation.?funds?/i
+/donation.{0,10}funds?/i
 
 # E
 
 # F
-/fraud.?prevention/i
+/fraud.{0,10}prevention/i
 
 # G
 
@@ -107,24 +107,25 @@
 /notice.?memo/i
 
 # O
+/order.{0,10}shipped/i
 
 # P
-/payment.?assistance/i
+/payment.{0,10}assistance/i
 
 # Q
 
 # R
-/randomly.?selected/i
+/randomly.{0,10}selected/i
 /read.?this/i
 
 # S
-/scam.?victim/i
+/scam.{0,10}victim/i
 
 # T
 /trading.?co/i
 
 # U
-/usa.?donation/i
+/usa.{0,10}donation/i
 
 # V
 

@@ -9,13 +9,21 @@
 # Topics
 # ==============================================================================
 
+# Just a date
+# ------------------------------------------------------------------------------
+/^\d{2}\/\d{2}\/\d{4}$/i
+
+/(aktualisieren|finanzierung).{1,10}\d{2}\/\d{2}\/\d{4}/i
+
+# Sample: "25/12/2024: Du hast"
+/\d{2}\/\d{2}\/\d{4}:/i
+
 # Numbers
 # ------------------------------------------------------------------------------
 # Big number with currenxcy, weight: 1.2
 /\d{3,4}(\.|,)?\d{3,4}.{0,5}(dollar|euro?|usd|€|\$|£)/i 0.17
 
 # Just a date
-/^\d{2}\/\d{2}\/\d{4}$/i
 
 # Multiple special characters and silly combinations
 # ------------------------------------------------------------------------------
@@ -47,7 +55,8 @@
 /\{(confidential|donation|letter|offer|proposal|urgent|warning)\}/i
 /\*(confidential|donation|letter|offer|proposal|urgent|warning)\*/i
 
-/\{belohnen\}/i
+/\[(belohnen|erinnerung)\]/i
+/\{(belohnen|erinnerung)\}/i
 
 /\[special.?offer\]/i
 /\] warning/i
@@ -72,6 +81,11 @@
 /proposal\.\./i
 /proposal.?!!/i
 
-# Placeholder
+# Emoji
 # ------------------------------------------------------------------------------
-/%user_name%/i
+/⚠️/i
+
+
+# Placeholders
+# ------------------------------------------------------------------------------
+/%(last|user)_name%/i
