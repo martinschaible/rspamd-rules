@@ -30,6 +30,7 @@
 
 # H
 /(home.?page|web.?site) umgestalten/i
+/home.?page.?!!/i
 
 # I
 
@@ -42,10 +43,12 @@
 # M
 
 # N
+/neugestaltung der home.?page/i
 
 # O
 
 # P
+/professionelle.{1,15}home.?page/i
 
 # Q
 
