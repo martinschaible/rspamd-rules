@@ -52,7 +52,6 @@
 # Financing
 # ------------------------------------------------------------------------------
 /finanzierungs?.{1,10}(darlehen|zinsen)/i
-/finanzierung.{1,10}\d{2}\/\d{2}\/\d{4}/i
 
 /kredit.{1,10}projekt.{1,10}finanzierung/i
 

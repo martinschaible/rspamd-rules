@@ -82,11 +82,15 @@
 
 # Eyes, Vision
 # ------------------------------------------------------------------------------
+/vision back in.{1,15} days/i
+
 /(clear|reverse|sharpen).{1,10}(blurry|foggy).{1,10}(eyesight|vision)/i
 
 /(secret|trick|restore|swallow).{1,15}(better|perfect).{1,10}vision/i
 
-/restore your.{1,10}vision in just/i
+/(reverse|restore).{1,10}vision loss/i
+/(reverse|restore) your.{1,10}vision in just/i
+
 /(better|perfect).{1,10}vision in.{1,10}hour/i
 
 /natural vision breakthrough/i
