@@ -11,6 +11,8 @@
 /bitcoin.{1,10}(handeln|millionen|portfolio|trader)/i
 /bitcoin.{1,15}(machen|macht).{1,10}reich/i
 
+/bitcoin.{1,10}gewinne?\?/i
+
 #
 /(durch|mit).{1,10}(bitcoin|etf|ki|openai|krypto(währung)?).{1,10}(geld|reich)/i
 /(geld|reich) (durch|mit).{1,10}(bitcoin|etf|ki|openai|krypto(währung)?)/i
