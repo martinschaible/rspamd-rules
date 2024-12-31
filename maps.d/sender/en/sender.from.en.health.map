@@ -42,12 +42,6 @@
 # ------------------------------------------------------------------------------
 /(herpes|ultimate|uncommon).{0,10}cure/i
 
-# Hearing, Tinnitus
-# ------------------------------------------------------------------------------
-/(hearing|tinnitus).{0,10}(cure|fix|memory|relief|solution|symptoms|warning)/i
-
-/(bad|restore).{0,10}hearing/i
-
 # Detox
 # ------------------------------------------------------------------------------
 /(daily|gut|soup).{0,10}detox/i
@@ -81,18 +75,18 @@
 /(fix your|goodbye).{0,10}ed/i
 /get hard/i
 
-# Fungus, Nails
-# ------------------------------------------------------------------------------
-/(attack|end|fight|foot|goodbye|nail|nasty|stop|yellow).{0,10}fungus/i
-
-/(cracked|healthy|nasty|rotten|toe|ugly|yellow).{1,10}(nails|toe)/i
-
 # Eyes, Vision
 # ------------------------------------------------------------------------------
 /(20|bad|blurred|blurry|clear|enhancing|flawless).{0,10}(eye.?sight|view|vision)/i
 /(new|night|perfect|poor|restore|supreme|weak).{0,10}(eye?sight|view|vision)/i
 
 /vision.{0,10}(20.?20|boost|enhancing|loss|rescue|restorer?)/i
+
+# Fungus, Nails
+# ------------------------------------------------------------------------------
+/(attack|end|fight|foot|goodbye|nail|nasty|stop|yellow).{0,10}fungus/i
+
+/(cracked|healthy|nasty|rotten|toe|ugly|yellow).{1,10}(nails|toe)/i
 
 # Gums
 # ------------------------------------------------------------------------------
@@ -109,6 +103,19 @@
 /(better|bone|dangerous).{0,10}health/i
 
 /(avoid|drink).{0,10}(cup|this)/i
+
+# Hearing, Tinnitus
+# ------------------------------------------------------------------------------
+
+# Some merging is needed
+/ear.{0,10}(buzzing|humming|noises?|ringing|silencer|wax)/i
+
+/(hear(ing)?|tinnitus).{0,10}(aid|cure|fix|loss|memory|noises?|relief|restorer?|solution|symptoms|warning)/i
+
+/(bad|restore).{0,10}hearing/i
+
+/(buzzing|clear|quiet|ringing|stop|zero).{0,10}(ears?|noise)/i
+/(beat|destroy|end|goodbye|stop).{0,10}tinnitus/i
 
 # Herpes
 # ------------------------------------------------------------------------------
@@ -201,11 +208,6 @@
 /(perfect|rotting|strong|yellow){0,10}(teeth|tooth)/i
 /(teeth|tooth).{0,10}(decay|gums|loss|rotting)/i
 /decay.{0,10}stopper/i
-
-# Tinitus
-# ------------------------------------------------------------------------------
-/(buzzing|clear|quiet|ringing|stop|zero).{0,10}(ears?|noise)/i
-/(beat|destroy|end|goodbye|stop).{0,10}tinnitus/i
 
 # Weightloss
 # ------------------------------------------------------------------------------
@@ -339,7 +341,6 @@
 
 # E
 /eagle.{0,10}vision/i
-/ear.{0,10}(buzzing|humming|noises?|ringing|silencer|wax)/i
 
 /eat.{0,10}(fruitme|me|this)/i
 
@@ -383,7 +384,6 @@
 /healing.{0,10}(massage|technology)/i
 /healthy.{0,10}digest/i
 
-/hear.{0,5}(aid|loss|noise|restorer?)/i
 /heart.{0,10}(attack|cells|health)/i
 
 /herpes.{0,10}outbreak/i
@@ -431,6 +431,8 @@
 
 /nerve.{0,10}(comfort|repair)/i
 /nightmare.{0,10}pee/i
+
+/numb.{0,10}(feet|hand)/i
 
 # O
 /odd.{0,10}(mineral|liquid|tonic)/i
