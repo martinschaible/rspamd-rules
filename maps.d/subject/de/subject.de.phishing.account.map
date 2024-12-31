@@ -24,7 +24,8 @@
 # ==============================================================================
 
 # A
-/aktualisieren sie ihre kontoinformationen/i
+/aktualisieren sie.{1,10}ihre?.{1,15}(konto(informationen)?|profil)/i
+/aktualisierung.{1,10}überprüfen sie/i
 
 # B
 /bitte loggen sie sich/i
@@ -79,6 +80,7 @@
 /update erforderlich/i
 
 /überprüfen sie ihre.{1,15}daten jetzt/i
+/überprüfen sie ihr.{1,15}profil/i
 
 # V
 
