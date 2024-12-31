@@ -1,8 +1,8 @@
 # ==============================================================================
 # Occasionally, spammers use strange and special paths in the URLs.
-# Therefore we check anchor tags for bad stuff
+# Therefore we check anchor tags for bad stuff.
 #
-# This is rather a dangerous thing. # It is not easy to detect unique
+# This is rather a dangerous thing. It is not easy to detect unique
 # "spammy" paths. That is why we are very conservative here.
 #
 # ------------------------------------------------------------------------------

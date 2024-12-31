@@ -3,8 +3,7 @@
 #
 # Spammers often use links without SSL. Unfortunately, the false/positive rate
 # is too high for a generic rule with high weighting.
-#
-# We test for specific tld's
+# Therefore we test for specific tld's and combinations
 #
 # ------------------------------------------------------------------------------
 # Language: -
