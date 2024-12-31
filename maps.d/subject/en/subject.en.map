@@ -7,17 +7,6 @@
 # Topics
 # ==============================================================================
 
-# Stock trading
-# ------------------------------------------------------------------------------
-/acquisition boosts.{1,15}revenue/i
-/poised.{1,10}explosive growth/i
-/revolutionizing investor experience/i
-/smart investors?.{1,10}pick/i
-
-#
-#
-#
-
 # Greetings
 # ------------------------------------------------------------------------------
 /dear sir.{1,5}madam/i
@@ -25,6 +14,13 @@
 
 /good day(\.|,)/i
 /greetings?.{1,10}(in the name of god|to you)/i
+
+# Stock trading
+# ------------------------------------------------------------------------------
+/acquisition boosts.{1,15}revenue/i
+/poised.{1,10}explosive growth/i
+/revolutionizing investor experience/i
+/smart investors?.{1,10}pick/i
 
 #
 #
