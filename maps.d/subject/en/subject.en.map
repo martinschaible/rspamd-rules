@@ -10,6 +10,7 @@
 # Stock trading
 # ------------------------------------------------------------------------------
 /acquisition boosts.{1,15}revenue/i
+/poised.{1,10}explosive growth/i
 /revolutionizing investor experience/i
 /smart investors?.{1,10}pick/i
 
@@ -42,7 +43,6 @@
 /contact (him|me) now/i
 
 # D
-/(date|dating).?bunny/i
 
 /dear (beloved|esteemed|herr|recipient)/i
 
@@ -56,7 +56,6 @@
 /god bless you/i
 
 # H
-/how is your name/i
 
 # I
 /i?a?m dr\./i
@@ -96,7 +95,6 @@
 # R
 /remain blessed/i
 /reply for full details/i
-/restores perfect memory/i
 
 # S
 
@@ -109,13 +107,11 @@
 # V
 
 # W
-/wallet alert.{1,10}action required/i
 /want you in.{1,10}bed/i
 
 # X
 
 # Y
-/you.{1,5}free to talk/i
 /you contact mrs?/i
 /your respond/i
 /yours faithfully/i
