@@ -34,7 +34,8 @@
 # ==============================================================================
 
 /(adac|metamask|netflix).{0,10}(account|assistance|billing|customer|help.?desk)/i
-/(adac|metamask|netflix).{0,10}(info.?desk|notifications?|security|service|support|team|update|wallet)/i
+/(adac|metamask|netflix).{0,10}(info.?desk|notifications?|protection)/i
+/(adac|metamask|netflix).{0,10}(security|service|support|team|update|user|verification|wallet)/i
 
 # Rewards
 # ------------------------------------------------------------------------------
@@ -87,6 +88,8 @@
 /douglas$/i
 
 # E
+/dhl.{0,5}(express|germany|package)/i
+/(express|notification).{0,5}dhl/i
 
 # F
 /fedex$/i

@@ -246,7 +246,7 @@
 /(unlock|veins|water|weard|wellness|yummy).{0,10}(diet|drink|fix|formula|hack|miracle|protocol|remedies|remedy|ritual|secret|solution|tea|trick)/i
 
 /(amazonian|japanese|mayan|taiwan).{0,10}(diet|drink|fix|formula|hack|miracle|protocol|remedies|remedy|ritual|secret|seeds?|solution|tea|trick)/i
-/(ancient|crazy|dairy).{0,10}(amazonian|chocolate|healing)/i
+/(ancient|crazy|dairy).{0,10}(amazonian|chocolate|healing|serum)/i
 
 /(exotic|forgotten|medical|miracle|natural|new|science||scientists?).{0,10}(breakthrough|drink|discovery|herb)/i
 
@@ -405,7 +405,7 @@
 /keto.{0,10}diet/i
 
 # L
-/live.{0,10}forver/i
+/live.{0,10}(forver|long(er)?)/i
 /lung.{0,10}trust/i
 
 # M
@@ -435,8 +435,11 @@
 # O
 /odd.{0,10}(mineral|liquid|tonic)/i
 /oral.{0,10}flush/i
+/overnight.{0,10}hack/i
 
 # P
+/pancreas.{0,10}reset/i
+
 /pee.{0,10}leaks/i
 /peeing/i
 
