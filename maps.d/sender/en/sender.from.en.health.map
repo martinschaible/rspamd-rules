@@ -28,6 +28,8 @@
 /blood.{0,10}(clots|glucose|pressure|sugar)/i
 /(balanced|deadly|high|your).{0,10}blood/i
 
+/sugar.{0,10}spike/i
+
 # Cholesterol
 # ------------------------------------------------------------------------------
 /cholesterol.{0,10}balance/i
