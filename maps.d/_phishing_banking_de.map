@@ -41,7 +41,6 @@
 /verifizierung ihrer.{1,10}karte sofort durch/i
 /zahlung mit ihrer.{1,20}(debit|kredit)?karte.{1,10}gesperrt/i
 
-
 #
 /ihre.{1,10}zahlungsfunktion ist gesperrt/i
 
@@ -64,6 +63,7 @@
 
 /aktualisierung ihres.{1,20}authentifizierungsdienstes/i
 /authentifizierungsdienst.{1,10}erforderlich/i
+/authentifizierungsdienst für.{1,25}läuft am/i
 
 /bankverbindung.{1,15}innerhalb der angegebenen frist zu bestätigen/iu
 /wir bitten sie.{1,10}identity check.{1,10}zu aktivieren/i
