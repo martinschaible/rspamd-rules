@@ -76,6 +76,9 @@
 # U
 
 # V
+/verdienen!/i
+/verdienen.?\\/i
+
 /verdienen die.{1,15}ihr geld/i
 /verdienen sie zu wenig/i
 /viel geld verdienen kann/i
@@ -83,6 +86,7 @@
 # W
 /wie reich werden/i
 
+/wochen.{1,10}\d{3,4}(\.|,)?\d{3,4}.{1,10}verdienen/i
 # X
 
 # Y
