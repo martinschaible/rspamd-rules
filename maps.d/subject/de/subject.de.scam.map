@@ -83,6 +83,7 @@
 
 # S
 /sie haben.{1,10}\d{3,4}(\.|,)?\d{3,4}.{0,5}(dollar|euro?|usd|€|\$|£).{1,10}gewonnen/i
+/spende.{1,5}donation/i
 
 # T
 
