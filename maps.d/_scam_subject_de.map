@@ -31,7 +31,6 @@
 # ------------------------------------------------------------------------------
 /anspruch betrag/i
 /(gewonnene|glückwunsch).{1,10}spende/iu
-/fordern sie.{1,10}ihre spende an/i
 /investitions?.{1,10}(spende|zuschuss)/i
 
 /spenden.{0,15}(belohnung|benachrichtigung|fonds|gewinn|investition|preis)/i
@@ -141,10 +140,6 @@
 /erinnerung.{1,10}angebot nr/i
 
 /preise.{1,10}(pv|solar).?anlagen.{1,10}gefallen/i
-
-# Free Stocks
-# ------------------------------------------------------------------------------
-/fordern sie ihre.{1,20}aktien im wert von/i
 
 #
 #
