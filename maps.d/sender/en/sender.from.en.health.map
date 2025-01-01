@@ -273,7 +273,7 @@
 /artery.{0,10}(health|plaque)/i
 /arthritis.{0,10}gone/i
 
-/avoid.{0,10}kegels/i
+/avoid.{0,10}(blueberries|kegels)/i
 
 # B
 /(bad|big|poor|weak).{0,10}bladder/i
@@ -458,6 +458,7 @@
 # Q
 
 # R
+/rapid.{0,10}relief/i
 /replace.{0,10}blue/i
 /reverse.{0,10}(aging|gum)/i
 /rock.{0,10}hard/i

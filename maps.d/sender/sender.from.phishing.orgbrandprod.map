@@ -28,6 +28,7 @@
 # Miles & More
 # Nespresso
 # playstation
+# Rewe Kundendienst
 # Spotify
 
 # Topics
@@ -167,6 +168,8 @@
 /swiss-pass/i
 /swisspas\./i
 /swisspass\.ch/i
+
+/^swisspost$/i
 
 /(shein|smava|spotify).?(™|®|©)$/i
 
