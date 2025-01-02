@@ -28,6 +28,7 @@
 # Sample: #7635349894-Nachricht
 /\d{5,15}.?nachricht/i
 
+#/\[(dringend|video)\]/i
 /\[(dringend|video|wichtig)\]/i
 /\[.{1,15}\].{1,10}neue Nachricht/i
 /\[-.{1,15}-\]/i
