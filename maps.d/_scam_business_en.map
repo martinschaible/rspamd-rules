@@ -33,6 +33,7 @@
 /(potential|private).{1,10}business.{1,10}if interested/i
 
 /proposal.{1,10}for you.{1,10}can i send it/i
+/proposal.{1,10}for your.{1,10}consideration/i
 /proposal.{1,10}is in your name/i
 /proposal.{1,10}of usd.{1,10}for you/i
 /proposal.{1,10}offers.{1,15}mutual.{1,10}benefits/i
@@ -60,6 +61,7 @@
 /(i|we) have.{1,15}mutual.{1,10}confidential/i
 
 /(i|we) have.{1,10}obligation.{1,10}that.{1,10}would like you/i
+/(i|we) have.{1,10}private proposal/i
 /(i|we) have.{1,10}project.{1,10}worth.{1,10}million/i
 /(i|we) have.{1,10}project.{1,10}which may interest.{1,10}you.{1,20}good profit/i
 /(i|we) have.{1,10}proposition for you.{1,10}which will be/i
