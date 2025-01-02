@@ -186,7 +186,7 @@
 
 # Skin
 # ------------------------------------------------------------------------------
-/skin.{0,10}(care|cure|reviver|sagging)/i
+/skin.{0,10}(care|cure|rejuvenation|reviver|sagging)/i
 /(aged|aging|perfect|radiant|smooth|timeless|young|youth).{0,10}skin/i
 /(dark|face).{0,10}spots?/i
 
@@ -518,6 +518,7 @@
 /\bw.?loss/i
 
 /water.{0,10}weight/i
+/warning.{0,10}signs?/i
 
 /weird.{0,10}sound/i
 /wellness.{0,10}insights/i

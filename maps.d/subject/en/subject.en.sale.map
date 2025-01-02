@@ -90,7 +90,7 @@
 # B
 
 # C
-/cnc precision parts/i
+/cnc.{1,10}precision parts/i
 
 # D
 
@@ -113,7 +113,8 @@
 # L
 
 # M
-/multilayer pcb manufacturing/i
+/multilayer pcb.{1,10}manufacturing/i
+/multiple freight solutions/i
 
 # N
 
@@ -126,6 +127,7 @@
 /pcba? provider/i
 
 # Q
+/quotation of.{1,10}(multilayer)? pcba?/i
 
 # R
 
