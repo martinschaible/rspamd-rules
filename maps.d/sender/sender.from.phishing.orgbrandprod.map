@@ -143,6 +143,7 @@
 /paypal.{0,5}(inc|kunden|konto)/i
 
 /post.?finance.{0,5}benachrichtigungen/i
+/^post\.ch$/i
 
 /premium.{0,10}box/i                    # 01.01.25 - Premium Box GmbH
 
@@ -204,3 +205,4 @@
 # Y
 
 # Z
+/zalando.{0,5}kunden/i

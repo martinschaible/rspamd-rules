@@ -19,7 +19,7 @@
 /notfallset.{1,10}(auto|kfz|wartet)/i
 
 #
-/rituals mystery box/i
+/(rituals|shein|zalando).{0,10}mystery.?box/i
 
 #
 #
@@ -39,6 +39,7 @@
 /du bist (der|ein).{1,15}gewinner bei/i
 
 # E
+/eine zu erhalten/i
 /erhalten sie ihr.{1,20}binnen.{1,10}stunden/i
 
 # F
@@ -78,8 +79,8 @@
 # O
 
 # P
-/preis zugestellt zu bekommen/i
-
+/preis.{1,15}mystery box/i
+/preis.{1,10}zugestellt zu bekommen/i
 # Q
 
 # R
