@@ -269,7 +269,7 @@
 /(co|limited|ltd).{1,15}is a factory specialized in/i
 /(co|limited|ltd).{1,15}is excited/i
 /(co|limited|ltd).{1,20}(leading|professional).{1,15}(company|manufacturer)/i
-/(co|limited|ltd).{1,15}(specialized|specializes) in.{1,10}(high.?quality|import)/i
+/(co|limited|ltd).{1,15}(specialized|specializes) in.{1,10}(high.?quality|import|providing)/i
 /(co|limited|ltd).{1,20}(facilities|state.?of.?the.?art)/i
 /(co|limited|ltd).{1,15}we are.{1,10}leading.{1,15}professional/i
 /(co|limited|ltd).{1,15}we are.{1,10}professional.{1,15}manufacturer/i
@@ -278,6 +278,7 @@
 /(co|limited|ltd).{1,10}with over.{1,10}years/i
 /(co|limited|ltd).{1,10}one of the top/i
 
+/co.{1,5}(limited|ltd).{1,10}flat/i
 /co.{1,5}(limited|ltd).{1,10}trading company/i
 /co.{1,5}(limited|ltd).{1,10}our company/i
 /co.{1,5}(limited|ltd).{1,10}mobile.?whatsapp/i

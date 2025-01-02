@@ -90,3 +90,8 @@
 
 # 18.12.24 - Sample: 2.......HTM
 /\/[\.]{2,10}\.html?/i
+
+# Strange file names
+
+# 02.01.25 - Sample: SecureMaxAIScamSecureMaxAIScamSecureMaxAIScam-1......HTM
+/\.\.\.htm/i
