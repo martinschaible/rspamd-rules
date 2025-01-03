@@ -29,6 +29,9 @@
 
 # Too strong, False/Positives
 #/eine neue nachricht/i
+
+/eine neue nachricht\./i
+
 /lies diese nachricht/i
 
 /ignorieren sie.{1,10}nachricht nicht/i
