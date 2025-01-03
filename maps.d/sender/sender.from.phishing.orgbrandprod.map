@@ -142,7 +142,7 @@
 /(obi|otto).?(™|®)?$/i
 
 # P
-/paypal.{0,5}(inc|kunden|konto)/i
+/paypal.{0,5}(case.?id|inc|kunden|konto|support|voucher)/i
 
 /post.?finance.{0,5}benachrichtigungen/i
 /^post\.ch$/i
@@ -163,8 +163,8 @@
 # S
 /sbb(.?cff.?ffs)?.{0,5}(kundenservice|support)/i
 
-
 /service.?center.?ard.?zdf/i
+/(service|support).{0,10}paypal/i
 
 /shell.?partner/i
 
@@ -178,6 +178,7 @@
 /swisspass\.ch/i
 /swisspass\./i
 
+/swiss post/i
 /^swisspost$/i
 
 /(shein|smava|spotify).?(™|®|©)$/i
