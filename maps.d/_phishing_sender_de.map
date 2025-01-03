@@ -9,11 +9,9 @@
 # ------------------------------------------------------------------------------
 /(account|konto).?(aktivität|aktivierung|bestätigung|hilfe|id|service|wiederherstellung)/iu
 
-/konto.?aktualisierung/i
 /kontoaktivitäts.?aktualisierung/i
 
 /(aktualisierung|bestätigung).{0,15}konto/iu
-/aktivitäts.?center/i
 
 /(hilfe.?center|sicherheit).?id/i
 
@@ -26,9 +24,6 @@
 
 /ihre.?bank/i
 /internet.?banking/i
-
-/online.?kartenkonto/i
-/push.?tan/i
 
 # Cards
 # ------------------------------------------------------------------------------
@@ -130,7 +125,6 @@
 /verlängern sie/i
 /viel.?erfolg/i
 
-
 #
 /box.?set.{0,15}gewinner/i
 
@@ -177,8 +171,6 @@
 # ADAC, TCS
 /adac.?(mitglieder|support)/i
 /gmbh.?adac/i
-
-/notfall.?(auto|koffer|set)/i
 
 # Earbuds
 /earbuds/i
