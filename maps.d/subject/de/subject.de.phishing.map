@@ -23,7 +23,10 @@
 
 # B
 /benachrichtigung.{1,15}kundenservice/i
-/bestätigung.{1,15}ihre bestellung/i
+
+# Works not well, F/P
+#/bestätigung.{1,15}ihre bestellung/i
+
 /bestellnummer.{1,15}bestätigt/i
 
 # C
