@@ -6,6 +6,15 @@
 # Topics
 # ==============================================================================
 
+# Big Numbers
+# ------------------------------------------------------------------------------
+/\d{1,2} mio (dollars?|euro?|usd|€|\$|£)$/i
+/\d{2,4}(\.|,)?\d{3,4}.{1,10}(€|dollars|euro|usd)/i
+/\d{2,4}(\.|,)?\d{3,4}.{1,10}(for you|reply now)/i
+
+# Donation
+# ------------------------------------------------------------------------------
+
 # Winning
 # ------------------------------------------------------------------------------
 /your e?.?mail.{1,15}has won sum of/i
@@ -38,7 +47,8 @@
 # H
 
 # I
-/immediate transfer of your.{1,10}(dollar|euro?|usd|€|\$|£)/i
+/immediate transfer of your.{1,10}(dollars?|euro?|usd|€|\$|£)/i
+/important.{1,10}million/i
 /investment funds?/i
 
 # J
@@ -75,7 +85,7 @@
 # V
 
 # W
-/win.{1,10}(dollar|euro?|usd|€|\$|£) (for)?.{1,10}tonight/i
+/win.{1,10}(dollars?|euro?|usd|€|\$|£) (for)?.{1,10}tonight/i
 
 # X
 

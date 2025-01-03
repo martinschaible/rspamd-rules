@@ -18,9 +18,9 @@
 
 /tiefpreise.{1,10}förderungen/i
 
-# Numbers
+# Big Numbers
 # ------------------------------------------------------------------------------
-
+/\d{3,4}(\.|,)?\d{3,4}.{0,5}(dollars?|euro?|usd|€|\$|£).{1,10}wurden ihnen gespendet/i
 
 # Donation
 # ------------------------------------------------------------------------------
@@ -28,16 +28,15 @@
 
 /ihnen eine spende von/i
 
+# Winning
+# ------------------------------------------------------------------------------
+
 #
 #
 #
 
 # Generic
 # ==============================================================================
-
-# Numeric
-/\d{3,4}(\.|,)?\d{3,4}.{0,5}(dollar|euro?|usd|€|\$|£).{1,10}wurden ihnen gespendet/i
-
 
 # A
 
@@ -86,14 +85,14 @@
 # R
 
 # S
-/sie haben.{1,10}\d{3,4}(\.|,)?\d{3,4}.{0,5}(dollar|euro?|usd|€|\$|£).{1,10}gewonnen/i
+/sie haben.{1,10}\d{3,4}(\.|,)?\d{3,4}.{0,5}(dollars?|euro?|usd|€|\$|£).{1,10}gewonnen/i
 /spende.{1,5}donation/i
 
 # T
 
 # U
-/überweisung von.{1,10}(dollar|euro?|usd|€|\$|£).{0,5}\d{3,4}(\.|,)?\d{3,4}/i
-/überweisung von.{1,10}\d{3,4}(\.|,)?\d{3,4}.{0,5}(dollar|euro?|usd|€|\$|£)/i
+/überweisung von.{1,10}(dollars?|euro?|usd|€|\$|£).{0,5}\d{3,4}(\.|,)?\d{3,4}/i
+/überweisung von.{1,10}\d{3,4}(\.|,)?\d{3,4}.{0,5}(dollars?|euro?|usd|€|\$|£)/i
 
 # V
 
