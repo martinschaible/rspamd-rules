@@ -36,14 +36,6 @@
 # ------------------------------------------------------------------------------
 /(attn|attention|congratulations|dear|hello|my|you).{1,20}beneficiary/i
 /beneficiary.{1,15}(e?.?mail|final|notice)/i
-/beneficiary!/i
-
-# Big numbers
-# ------------------------------------------------------------------------------
-/\d{2,3}.{0.5}\d{2,3}.{1,10}(€|dollars|euro|usd|for you|reply now)/i
-/\d{1,2} mio £/i
-
-/important.{1,10}million/i
 
 # Choosen
 # ------------------------------------------------------------------------------
@@ -182,7 +174,6 @@
 # ------------------------------------------------------------------------------
 /(brochure|catalog|catalogue).{1,10}request/i
 
-/inquiry\*/i
 /inquiry.{1,15}about your products/i
 /enquiry.{1,10}letter/i
 
