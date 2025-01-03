@@ -11,9 +11,12 @@
 # -> They are stealing personal information
 
 # 18.12.24 Sample: 18.12.2024 / PV-Anlage
-/\d{2}\.\d{2}\d.{4}.{1,10}(photovoltaik|pv).?anlage/i
+/\d{2}\.\d{2}\d.{4}.{1,10}(photovoltaik|pv|solaranlagen).?anlagen?/i
 
-/förderung(en)?.{1,10}(photovoltaik|pv).?anlagen?/iu
+/förderung(en)?.{1,10}(photovoltaik|pv|solaranlagen).?anlagen?/iu
+/(photovoltaik|pv|solaranlagen).?anlagen?.{1,15}tiefpreise/i
+
+/tiefpreise.{1,10}förderungen/i
 
 # Numbers
 # ------------------------------------------------------------------------------
