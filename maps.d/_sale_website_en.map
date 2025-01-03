@@ -9,11 +9,10 @@
 
 # Developing Apps
 # ------------------------------------------------------------------------------
-/apps.{1,10}if you are interested/i
-/apps.{1,10}for your.{1,10}business/i
-
-/app development services/i
-/app proposal with you/i
+/apps?.{1,10}development services/i
+/apps?.{1,10}if you are interested/i
+/apps?.{1,10}for your.{1,10}business/i
+/apps?.{1,10}proposal with you/i
 
 /building your.{1,10}mobile.?apps/i
 /create an.{1,10}app for you/i
@@ -44,6 +43,7 @@
 
 /we are.{1,20}(android|ios|mobile).?app.?development/i
 /we are.{1,10}expert.{1,10}apps?/i
+/we are.{1,10}leading.{1,15}app.{1,10}development/i
 /we are.{1,10}one of the (best|fastest).{1,10}growing.{1,15}apps?/i
 /we are.{1,10}team.{1,10}professional.{1,10}(android|ios)/i
 /we are.{1,10}well.?versed.{1,10}mobile.?apps?/i
