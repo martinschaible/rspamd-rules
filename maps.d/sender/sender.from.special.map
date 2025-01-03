@@ -50,6 +50,9 @@
 # Sample: HeRMeS**-
 /\*\*-/i
 
+# Sample: _Tractor*Supply
+/_[a-z0-9]{3,15}\*/i
+
 # Placeholders
 # ==============================================================================
 /%(last|user)_name%/i
