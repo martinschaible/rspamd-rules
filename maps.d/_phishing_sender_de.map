@@ -205,7 +205,7 @@
 /kreditkarte.{0,5}online/i
 
 # Parcel
-/(dtn\b|fedex|hermes|mydpd|swiss).{0,10}(abteilung|lieferung|versand)/i
+/(dtn\b|fedex|mydpd|swiss).{0,10}(abteilung|lieferung|versand)/i
 
 # DHL
 # Real sender: "DHL Paket"
