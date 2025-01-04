@@ -12,6 +12,8 @@
 /guten (abend|tag).?\[/i
 /^guten (abend|tag)$/i
 
+/hallo -/i
+
 # Hiring people
 # ------------------------------------------------------------------------------
 /(arbeiter|arbeitskräfte|fachkräfte|hilfspersonal|personalsuche|vermittlung|zeitarbeit).{1,15}(baltikum|litauen)/iu
@@ -43,8 +45,6 @@
 # C
 
 # D
-/darlehen.{1,10}verfügbar/i
-
 /du bist der glückliche/i
 /du hast glück/iu
 
@@ -53,13 +53,10 @@
 /erinnerung.{1,10}angebot/i
 
 # F
-# 20.12.24 - Sample: Kredit - 8/31/2024
-/(finanzierung|kredit).{1,5}\d{1,2}\/\d{1,2}/\d{4}/i
 
 /friede sei mit dir/i
 
 # G
-/garantieangebot jetzt beantragen/i
 
 /gewinne.{1,10}el.?gordo/i
 /gott segne ihren tag/i
@@ -67,7 +64,6 @@
 /grüße an sie/i
 
 # H
-/hallo -/i
 /hier.{1,10}botschafter(in)?/i
 
 # I
@@ -80,8 +76,6 @@
 
 /kontaktieren sie mich/i
 /kontaktieren sie.{1,10}umgehend.{1,10}e?.?mail/i
-
-/kreditangebot.{1,10}(beantragen|günstig)/i
 
 # L
 /liebster? im herrn/i
