@@ -7,6 +7,11 @@
 # Topics
 # ==============================================================================
 
+# Loans
+# ------------------------------------------------------------------------------
+/(business|cash|competitive|easy|exclusive|guaranteed|internation).{1,15}loans?/i
+/(low rate|office|projects|quick|reliable|reputable|turbo).{1,15}loans?/i
+
 # Greetings
 # ------------------------------------------------------------------------------
 /dear sir.{1,5}madam/i
