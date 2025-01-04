@@ -18,6 +18,8 @@
 /(auto|kfz).{1,10}notfallset/i
 /notfallset.{1,10}(auto|kfz|wartet)/i
 
+/medicare.?set/?
+
 #
 /(rituals|shein|zalando).{0,10}mystery.?box/i
 
@@ -94,6 +96,7 @@
 /sie haben (bei|das).{5,35}gewonnen/i
 /sie haben ein(en)?.{5,35}gewonnen/i
 
+/sie können ein.{5,35}rhalten/i
 /sie wurden ausgewählt/iu
 
 # T
