@@ -77,10 +77,13 @@
 # B
 
 # C
+/ceo\b/i
+
 /comparison report/i
 /confirmation needed/i
 
 /critical.{0,10}alert/i
+
 # D
 /donation.{0,10}funds?/i
 
