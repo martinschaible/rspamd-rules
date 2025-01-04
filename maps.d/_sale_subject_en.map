@@ -131,7 +131,6 @@
 
 /get.{1,15}business contacts.{1,10}instantly/i
 
-/(linked.?in|targeted|verified).{1,10}e?.?mail.?list/i
 /launch your e?.?mail.?campaign/i
 /more customers with.{1,10}e?.?mail/i
 
@@ -150,7 +149,6 @@
 /our e?.?mail.?lists/i
 
 /you want.{1,15}e?.?mail.?list/i
-/your targeted.{1,10}verified/i
 
 # Spam
 /server for spam/i
@@ -164,7 +162,6 @@
 
 /bulk lead generation/i
 /clean accurate leads/i
-/(targeted|verified).{1,10}leads from linkedin/i
 /(business|potential).{1,10}(targeted|verified).{1,10}leads/i
 /millions.{1,10}leads/i
 
