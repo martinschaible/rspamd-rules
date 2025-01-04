@@ -192,7 +192,7 @@
 
 # Sleep
 # ------------------------------------------------------------------------------
-/sleep(ing)?.{0,10}(blockers?|fix|instantly|problem|tight)/i
+/sleep(ing)?.{0,10}(blockers?|fix|instantly|problem|struggles?|tight)/i
 /(about|better|deep).{0,10}sleep/i
 
 # Stomach
@@ -425,7 +425,7 @@
 /mineral.{0,10}combination/i
 
 /morning.{0,10}(detox|mistake|oil)/i
-/mouth.{0,10}odor/i
+/mouth.{0,10}(detox|odor)/i
 
 /muscle.{0,10}(miracle|pain)/i
 /mushroom.{0,10}magic/i

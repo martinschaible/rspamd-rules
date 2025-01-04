@@ -38,6 +38,8 @@
 # Generic
 # ==============================================================================
 
+/\d{2,3} spins/i
+
 # A
 /are you still alive/i
 
@@ -113,6 +115,7 @@
 /reply for full details/i
 
 # S
+/spins on the house/i
 
 # T
 /this is not an advertisement/i
