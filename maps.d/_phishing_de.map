@@ -251,10 +251,11 @@
 
 # Swiss Pass
 # ------------------------------------------------------------------------------
+/sbb pass deaktiviert/i
 /sehr geehrter swiss.?pass.?kunde/i
 
-/sbb pass deaktiviert/i
-/swisspass.{1,10}service.{1,15}zu aktivieren/i
+/swiss.?pass.{1,10}wartung wird/i
+/swiss.?pass.{1,10}service.{1,15}zu aktivieren/i
 /doppelabrechnung.{1,10}swisspass gibt/i
 
 /nicht möglich.{1,10}den swisspass/iu
