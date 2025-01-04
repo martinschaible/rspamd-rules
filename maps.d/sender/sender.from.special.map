@@ -26,23 +26,24 @@
 #         "* FedEx *"
 /[\[\|\-\*_!#][a-z0-9\s]{3,15}[\[\|\-\*_!#]$/i
 
-# Sample: --d--
-\--[a-z0-9]--/i
 
 # Sample: "25/12/2024 Nachrichten"
 /\d{2}\/\d{2}\/\d{4}/i
 
-# A few question marks
+# Multiple special characters and silly combinations
+# ------------------------------------------------------------------------------
+# -> Theses RegEx might be constructed easier and better
 /\?\?/i
 
-# A few underscores
 /__/i
-
-# A few Exclamation marks
+/--/i
 /!!!/i
 
 # Just a number
 /\d{4,15}/i
+
+# Sample: --d--
+\--[a-z0-9]--/i
 
 # Sample: Abteilung .""
 /\.$/i
