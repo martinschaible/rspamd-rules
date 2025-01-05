@@ -305,7 +305,7 @@
 
 /body.{0,10}(balance|recharge)/i
 /\bboner$/i
-/boost.{0,10}energy/i
+/boost.{0,10}(circulation|energy)/i
 
 /burn.{0,10}calories/i
 /(buzzing|hissing).{0,10}ears/i
@@ -338,7 +338,9 @@
 /digestion/i
 /diy.{0,10}lipo/i
 
+/do not eat/i
 /do this/i
+
 /doctor.{0,10}warning/i
 
 /dr\.?.?(derm|health)/i
@@ -362,6 +364,7 @@
 # F
 /fasting.{0,10}seeds/i
 /fatigue.{0,10}bloating/i
+/fat(ty)?.{0,10}arteries/i
 /(feet|foot).{0,10}(detox|massage)/i
 
 /fix.{1,10}(nail|toe).{0,10}fungus/i
@@ -394,7 +397,7 @@
 
 /herpes.{0,10}outbreak/i
 
-/hidden.{0,10}(protein|toxin)/i
+/hidden.{0,10}(danger|protein|toxin)/i
 
 /home.{0,10}(treatment|with ease)/i
 
@@ -424,7 +427,7 @@
 /metabolism.{0,10}(booster|loophole|unleash)/i
 /mineral.{0,10}combination/i
 
-/morning.{0,10}(detox|mistake|oil)/i
+/morning.{0,10}(detox|mistake|oil|slimmer)/i
 /mouth.{0,10}(detox|odor)/i
 
 /muscle.{0,10}(miracle|pain)/i
@@ -455,7 +458,7 @@
 /pelvic.{0,10}recovery/i
 
 /penis.{0,10}(muscle|ritual)/i
-
+/pinched.{0,10}nerves?/i
 /poop.{0,10}type/i
 /poor.{0,10}posture/i
 /power.{0,10}shape/i
@@ -488,9 +491,12 @@
 /stinky.{0,10}breath/i
 /stop.{0,10}eating/i
 /stroke.{0,10}indication/i
-/strong(er)?.{0,10}immunity/i
+
+/strong(er)?.{0,10}(hair|immunity)/i
+
 /stuck.{0,10}poop/i
 
+/sugar.{0,10}traps/i
 /surgeon.{0,10}stamina/i
 /sore.{0,10}back/i
 /spice.{0,10}trick/i

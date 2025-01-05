@@ -11,7 +11,8 @@
 /(bitcoin|crypto|krypto).{0,10}(beratung|berater|bricht|bulletin)/i
 /(bitcoin|crypto|krypto).{0,10}(einblick|experte)/i
 /(bitcoin|crypto|krypto).{0,10}(geld|gewinner|gratis|handel|händler)/i
-/(bitcoin|crypto|krypto).{0,10}(nachrichten|preis|tipps?|vorteile?|währung(en)?|welle)/iu
+/(bitcoin|crypto|krypto).{0,10}(nachrichten|neuigkeiten)/i
+/(bitcoin|crypto|krypto).{0,10}(preis|tipps?|vorteile?|währung(en)?|welle)/iu
 
 # ETF (Exchange Traded Funds)
 # ------------------------------------------------------------------------------
