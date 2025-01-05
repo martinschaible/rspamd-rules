@@ -49,16 +49,6 @@
 /\/[a-z]{1,15}\.index\.html/i
 /\/[a-z]{0,10}keto[a-z]{0,10}\.html/i
 
-# Images
-# ------------------------------------------------------------------------------
-/\/mature.?\d?\.(jpg|png)/i
-/\/milf.?\d\.(jpg|png)/i
-
-/\/sehr.geehrter.kunde\.(jpg|png)/i
-
-# It's silly to blacklist names. But they are very repetitive
-/\/marlene\.(jpg|png)/i
-
 # Files with a very long filename
 # ------------------------------------------------------------------------------
 
