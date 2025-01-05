@@ -61,7 +61,6 @@
 # ------------------------------------------------------------------------------
 # False/Positives
 #/http:\/\/(click|email|urls)\./i
-/http:\/\/(email|urls)\./i
 
 # Sample: http://1157728453.gopeerclick.com/
 /http:\/\/(www\.)?\d{10,25}\./i
