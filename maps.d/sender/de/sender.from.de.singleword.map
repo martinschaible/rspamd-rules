@@ -259,6 +259,7 @@
 # P
 /^paketdienst$/i
 /^paket$/i
+/paketbenachrichtigung(en)?/i
 /paketzustellung/i
 
 /pillen$/i
@@ -268,6 +269,8 @@
 /prämien?/i
 /präsident/iu
 /preisträger/i
+
+/produkt.?benachrichtigung(en)/i
 /proktologie/i
 /prostata/i
 
