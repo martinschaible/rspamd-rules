@@ -1,0 +1,53 @@
+# ==============================================================================
+# Spammers like to use anonymous and free image hosting.
+# Unfortunately, companies that offer image hosting for regular mailings
+# are also used for this purpose.
+#
+# This makes it difficult to find a good balance with the weighting.
+#
+# ------------------------------------------------------------------------------
+# Language: -
+# Weight:   6.0
+# ==============================================================================
+
+# Google
+# ------------------------------------------------------------------------------
+/src=.{0,5}https:\/\/[a-z0-9]{3,10}\.googleusercontent\.com/i
+
+# Facebook
+# ------------------------------------------------------------------------------
+# Sample: scontent-ham3-1.xx.fbcdn.net
+/src=.{0,5}https?:\/\/scontent-.{4,6}\.xx\.fbcdn\.net/i
+
+# Twitter/X
+# ------------------------------------------------------------------------------
+/src=.{0,5}https?:\/\/pbs\.twimg\.com/i
+/src=.{0,5}https?:\/\/t\.co/i
+
+# Image Hosting
+# ------------------------------------------------------------------------------
+/src=.{0,5}https?:\/\/(i\.)?imgur\.com/i
+/src=.{0,5}https?:\/\/[a-z0-9]{5,20}\.imgur\.com/i
+
+/src=.{0,5}https?:\/\/i\.postimg\.cc/i
+/src=.{0,5}https?:\/\/zupimages\.net/i
+
+# CSS
+/background: url\(.?https:\/\/i\.imgur\.com/i
+
+# Marketing and Newsletter Companies
+# ------------------------------------------------------------------------------
+/src=.{0,5}https?:\/\/uploads\.sendfox\.com/i
+
+# Miscellaneous Domains
+# ------------------------------------------------------------------------------
+/src=.{0,5}https?:\/\/i\.ibb\.co/i
+/src=.{0,5}https?:\/\/upload\.wikimedia\.org\/wikipedia\/commons/i
+/src=.{0,5}https?:\/\/yahoo\.com/i
+
+# Lower Score
+/src=.{0,5}https?:\/\/[a-z0-9]{5,20}\.cloudfront\.net/i 0.20
+
+# CDN's
+# ------------------------------------------------------------------------------
+/src=.{0,5}https?:\/\/eu\d-us\d\.ckcdnassets.com/i
