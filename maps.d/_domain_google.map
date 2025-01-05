@@ -34,9 +34,6 @@
 /https?:\/\/(www\.)?google\.[a-z]{2,3}.[a-z]{2,3}@/i
 /https?:\/\/(www\.)?google\.[a-z]{2,3}.{1,10}bing\.com/i
 
-# Sample: https://google.de/amp/cutlly.com
-/https:\/\/google\.[a-z]{2,3}/amp\//i
-
 # Not applicable, false/positives
 # Sample: https://www.google.com/amp/s/%63%67%61
 #/https:\/\/(www\.)?google\.com\/.[a-z]{1,5}\/.[a-z]{1,5}/i
