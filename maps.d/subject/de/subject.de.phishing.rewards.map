@@ -52,6 +52,7 @@
 
 # G
 /geschenk.{1,25}bestätigung/iu
+/geschenk.{1,15}stunden verfügbar/iu
 
 /gewinne ein kostenloses/i
 /gewinner.{1,20}bekannt.?gegeben/i
@@ -79,6 +80,7 @@
 # L
 
 # M
+/machen sie mit.{1,10}gewinnen sie/i
 
 # N
 
@@ -87,18 +89,26 @@
 # P
 /preis.{1,15}mystery box/i
 /preis.{1,10}zugestellt zu bekommen/i
+
 # Q
 
 # R
 /rewards panel/i
 
 # S
+/sehr geehrter? gewinner/i
 /seien sie bereit/i
 
 /sie haben (bei|das).{5,35}gewonnen/i
 /sie haben ein(en)?.{5,35}gewonnen/i
 
-/sie können ein.{5,35}rhalten/i
+/sie können ein.{5,35}erhalten/i
+
+/sie sind ausgewahlt/iu
+/sie sind ein gewinner/i
+/sie sind der glückliche gewinner eines/i
+
+/sie haben noch nicht geantwortet/i
 /sie wurden ausgewählt/iu
 
 # T
