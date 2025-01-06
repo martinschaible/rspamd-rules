@@ -20,8 +20,12 @@
 
 /medicare.?set/?
 
-#
+# Mystery Box
+/mystery.?box.{1,10}(erhalten|gewonnen)/i
+
 /(rituals|shein|zalando).{0,10}mystery.?box/i
+/(die|eine).{1,10}mystery.?box/i
+
 
 #
 #
@@ -33,6 +37,7 @@
 # A
 
 # B
+/belohnen wir sie mit/i
 /belohnung wartet auf sie/i
 
 # C
