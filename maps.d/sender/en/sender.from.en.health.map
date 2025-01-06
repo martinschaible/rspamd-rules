@@ -133,7 +133,9 @@ ringing.{0,10}relief/i
 
 # Joints
 # ------------------------------------------------------------------------------
-/(better|grinding|painful).{0,10}joints?/i
+/joints?.{0,10}(cure|discomfort|genesis|healed|hero|inflammation|recovery|relief|remedy|story)/i
+
+/(better|grinding|painful|swollen).{0,10}joints?/i
 
 /(anti|chronic).{0,10}(inflammation|inflammatory)/i
 
@@ -415,7 +417,6 @@ ringing.{0,10}relief/i
 
 # J
 /japanese.{0,10}secret/i
-/joints?.{0,10}(cure|discomfort|genesis|healed|hero|inflammation|recovery|relief|remedy|story)/i
 
 # K
 /keto.{0,10}(diet|slim)/i
@@ -509,6 +510,7 @@ ringing.{0,10}relief/i
 /surgeon.{0,10}stamina/i
 /sore.{0,10}back/i
 /spice.{0,10}trick/i
+
 /sweet.{0,10}deal/i
 
 # T

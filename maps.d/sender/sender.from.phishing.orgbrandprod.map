@@ -26,6 +26,7 @@
 # google
 # Hermes Paketversand
 # Lidl Küchenliebe
+# Migros
 # Miles & More
 # Nespresso
 # playstation
@@ -86,6 +87,8 @@
 
 /die-post/i
 
+/^dpg$/i
+
 # Real Sender: "Digitec"
 /digitec\.ch/i
 
@@ -136,7 +139,7 @@
 
 /miles & more/i
 
-/^migros$/i
+#/^migros$/i
 /^milka$/i
 /^mycss$/i
 
