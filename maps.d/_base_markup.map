@@ -5,19 +5,6 @@
 #  10 |
 # ==============================================================================
 
-# Hidden link
-# ------------------------------------------------------------------------------
-# Sample: <a style="display:none;" href="http://irelatilized.jp.net/4O0c084nml0mp3rr-8trgsi1wqt1qt1mstra600001" >.</a
-/<a style=(3d)?"display:none;".{1,10}href=(3d)?.?http:\/\//i
-
-# Hidden Text
-# ------------------------------------------------------------------------------
-/<font style=(3d)?"color:transparent;.?font-size:0px">/i
-/<font color=(3d)?"#ffffff">[a-z]<\/font>/i
-
-# Sample: font-size: 0.0px;">vvs</span>
-/font-size: 0\.0px.{1,10}>[a-z]{1,9}</span>/i
-
 # Filler text
 # ------------------------------------------------------------------------------
 # White color and small font size
@@ -46,9 +33,3 @@
 # 
 /<cite style=(3d)?"font-size: 0px;">/i
 
-# Strange colors
-# ------------------------------------------------------------------------------
-/sans-serif;color:red/i
-
-# Images
-# ------------------------------------------------------------------------------
