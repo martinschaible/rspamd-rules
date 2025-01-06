@@ -81,6 +81,8 @@
 /(20|bad|blurred|blurry|clear|enhancing|flawless).{0,10}(eye.?sight|view|vision)/i
 /(new|night|perfect|poor|restore|supreme|weak).{0,10}(eye?sight|view|vision)/i
 
+/eye.{0,10}(help|relief)/i
+
 /vision.{0,10}(20.?20|boost|enhancing|loss|rescue|restorer?)/i
 
 # Fungus, Nails
@@ -313,7 +315,9 @@ ringing.{0,10}relief/i
 /(buzzing|hissing).{0,10}ears/i
 
 # C
+/carb.{0,10}(secrets?|tricks?)/i
 /calorie.{0,10}booster/i
+
 /cancel(ed)?.{0,10}surgery/i
 
 /cbd.{0,10}(fruit|gummies)/i
@@ -538,6 +542,7 @@ ringing.{0,10}relief/i
 /weird.{0,10}sound/i
 /wellness.{0,10}insights/i
 
+/white.{0,10}carb/i
 /wonder.?bread/i
 /worst.{0,10}breakfast/i
 /wrinkles/i
