@@ -16,6 +16,7 @@
 #
 /(durch|mit).{1,10}(bitcoin|etf|ki|openai|krypto(währung)?).{1,10}(geld|reich)/i
 /(geld|reich) (durch|mit).{1,10}(bitcoin|etf|ki|openai|krypto(währung)?)/i
+/geld verdienen.{1,10}(bitcoin|etf|ki|openai|krypto(währung)?)/i
 
 /(250|bitcoin).{1,10}reich werden/i
 

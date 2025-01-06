@@ -142,6 +142,7 @@
 /netflix.{0,10}konto/I
 /netƒlix/i
 
+/n e t f i i x/i
 /nespresso.{0,10}(deutschland|kundenservice|schweiz|team)/i
 
 /nortonav$/i
@@ -150,7 +151,7 @@
 /(obi|otto).?(™|®)?$/i
 
 # P
-/paypal.{0,5}(case.?id|inc|kunden|konto|support|voucher)/i
+/paypal.{0,5}(case.?id|europe?|inc|kunden|konto|support|voucher)/i
 
 /post.?finance.{0,5}benachrichtigungen/i
 /^post\.ch$/i
