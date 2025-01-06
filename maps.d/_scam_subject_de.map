@@ -31,7 +31,6 @@
 # ------------------------------------------------------------------------------
 /anspruch betrag/i
 /(gewonnene|glückwunsch).{1,10}spende/iu
-/investitions?.{1,10}(spende|zuschuss)/i
 
 /spenden.{0,15}(belohnung|benachrichtigung|fonds|gewinn|investition|preis)/i
 
