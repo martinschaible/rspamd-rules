@@ -10,7 +10,7 @@
 
 # Hidden link
 # ------------------------------------------------------------------------------
-/<a style="display:none;".{1,10}href=.?http:\/\//i
+/<a style=(3d)?"display:none;".{1,10}href=(3d)?.?http:\/\//i
 
 # Hidden Text
 # ------------------------------------------------------------------------------
@@ -22,3 +22,7 @@
 
 # 03.01.24
 /<div style=.?visibility: hidden;.?>.{0,15}<title></title>/i
+
+# 06.01.24
+/<font style=(3d)?"color:transparent;.?font-size:0px">/i
+/<font color=(3d)?"#ffffff">[a-z]<\/font>/i
