@@ -66,12 +66,12 @@
 /\.com\.br\/debit\//i
 /\.com\.nz\/ml\//i
 
-/\.pl/click\d{1,2}\//i
+/\.pl\/click\d{1,2}\//i
 /\.(sa|za)\.com\/clicks\//i
 
 /\.de\/browse\.php/i
 
-/\.cn/admin\//i
+/\.cn\/admin\//i
 
 # Sample: .net/shop/out26TT-2/073a4bc137bad8229879a8ad4fbe7280/
 /\.net\/shop\/.{4,15}\/[a-z0-9]{20,40}\//i
@@ -85,7 +85,7 @@
 /\.cc\/\?ref=/i
 /\.cn\/\?token=/i
 
-/\.ru/(temp|wetransfer)/i
+/\.ru\/(temp|wetransfer)/i
 /\.ro\/login\.php/i
 
 /\.shop\/update/i
@@ -156,15 +156,14 @@
 /\.co\.jp\/rd\//i
 
 # Sample: https://baltholdings.ru/invoice17/index.html#info@doghandler.de
-/\.ru/invoice/i
-/\.ru/invoice\d{1,2}/i
+/\.ru\/invoice/i
+/\.ru\/invoice\d{1,2}/i
 
 # Sample: sdfsfs______
 #/[a-z]{1,10}[\_]{3,10}/i
 
 #
-/\/track/open\.php/i
-
+/\/track\/open\.php/i
 
 #
 #
@@ -182,9 +181,6 @@
 # Companies
 # ------------------------------------------------------------------------------
 /\.net/spotify\//i
-
-# Cloudfront
-/cloudfront\.net/uploads\//i
 
 # Facebook
 /email_forward_notice\//i
@@ -222,10 +218,6 @@
 /\/wtrernsfers\//i
 
 /\.ru/[a-z]{2,4}/we/[a-z]{2,4}/i
-
-# Wikipedia
-# -> Spammers are using logos from here. Does not work in image tags
-/upload\.wikimedia\.org\/wikipedia\/commons\/thumb/i
 
 #
 #
