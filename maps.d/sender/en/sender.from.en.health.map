@@ -115,8 +115,10 @@
 
 /(bad|restore).{0,10}hearing/i
 
-/(buzzing|clear|quiet|ringing|stop|zero).{0,10}(ears?|noise)/i
+/(buzzing|clear|quiet|ringing|stop|unbearable|zero).{0,10}(ears?|noise|ringing)/i
 /(beat|destroy|end|goodbye|stop).{0,10}tinnitus/i
+
+ringing.{0,10}relief/i
 
 # Herpes
 # ------------------------------------------------------------------------------
@@ -380,6 +382,7 @@
 # G
 /gut.{0,10}(flush|health|repair)/i
 /going.{0,10}viral/i
+/grow.{0,10}trick/i
 
 # H
 /hair.{0,5}(growth|loss|renewal|restoration|thinning)/i
@@ -520,7 +523,6 @@
 /type.?2/i
 
 # U
-/unbearable.{0,10}ringing/i
 /unlock.{0,10}hips/i
 /urine.{0,10}leaks?/i
 
