@@ -278,7 +278,7 @@
 /(co|limited|ltd).{1,10}with over.{1,10}years/i
 /(co|limited|ltd).{1,10}one of the top/i
 
-/co.{1,5}(limited|ltd).{1,10}flat/i
+#/co.{1,5}(limited|ltd).{1,10}flat/i
 /co.{1,5}(limited|ltd).{1,10}trading company/i
 /co.{1,5}(limited|ltd).{1,10}our company/i
 /co.{1,5}(limited|ltd).{1,10}mobile.?whatsapp/i
