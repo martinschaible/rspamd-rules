@@ -406,7 +406,7 @@ ringing.{0,10}relief/i
 
 /herpes.{0,10}outbreak/i
 
-/hidden.{0,10}(danger|protein|toxin)/i
+/hidden.{0,10}(danger|protein|risk|toxin)/i
 
 /home.{0,10}(treatment|with ease)/i
 
@@ -510,8 +510,7 @@ ringing.{0,10}relief/i
 /sugar.{0,10}(free|traps)/i
 /surgeon.{0,10}stamina/i
 /sore.{0,10}back/i
-/spice.{0,10}trick/i
-
+/(strange|spice).{0,10}trick/i
 /sweet.{0,10}deal/i
 
 # T
