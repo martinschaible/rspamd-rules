@@ -107,7 +107,8 @@
 /warten auf abholung/i
 
 /wartet auf.{1,20}(abholung|anweisung|bestätigung|lieferung|versandzahlung|zustellung)/iu
-/wartet (auf sie|immer noch)/i
+#/wartet auf sie/i
+/wartet immer noch/i
 /wartet wegen.{10,25}auf.{1,10}(lieferung|zustellung)/i
 
 /wichtige.{1,10}(aktion|benachrichtigung)/i
