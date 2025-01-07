@@ -11,6 +11,14 @@
 # -> I think, this is scam
 /(bestes?|perfektes?).{1,10}e.?bike/i
 
+# Google Reviews
+# ------------------------------------------------------------------------------
+/(mehr sterne|positive bewertungen).{1,20}umsatz/i
+/kunden vertrauen bewertungen/i
+/schaden ihrem umsatz/i
+/schlechte bewertungen schaden/i
+/top.?bewertungsprofil/i
+
 #
 #
 #
