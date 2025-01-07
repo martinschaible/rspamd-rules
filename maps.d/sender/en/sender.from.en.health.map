@@ -443,6 +443,7 @@ ringing.{0,10}relief/i
 
 # N
 /nail.{0,10}rub/i
+/nasty.{0,10}lumps/i
 /natural.{0,10}(alternative|antibiotic|solution)/i
 /nature.{0,10}opioids?/i
 
@@ -517,7 +518,7 @@ ringing.{0,10}relief/i
 /thanksgiving.{0,10}delight/i
 
 /thicker.{0,10}harder/i
-/thinning.{0,10}hair/i
+/thin(ning)?.{0,10}hair/i
 /this.{0,10}elixir/i
 
 /tingling.{0,10}nerves/i
