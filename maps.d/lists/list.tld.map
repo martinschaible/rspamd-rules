@@ -39,7 +39,7 @@
 /\.id$/i
 /\.ke$/i
 /\.monster$/i
-/\.online$/i
+# /\.online$/i                                              # False Positives: 1
 /\.pe$/i
 /\.ph$/i
 /\.pk$/i
@@ -119,7 +119,7 @@
 # First seen November 2024
 /\.boutique$/i
 /\.fun$/i
-#/\.link$/i                  # False Positives: 4
+#/\.link$/i                                                 # False Positives: 4
 
 # First seen December 2024
 /\.holiday/i
