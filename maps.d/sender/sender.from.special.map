@@ -46,7 +46,8 @@
 \--[a-z0-9]--/i
 
 # Sample: Abteilung .""
-/\.$/i
+# To many F/P
+#/\.$/i
 
 # Sample: HeRMeS**-
 /\*\*-/i
