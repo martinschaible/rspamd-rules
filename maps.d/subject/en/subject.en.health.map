@@ -17,6 +17,8 @@
 # Generic
 # ==============================================================================
 
+/20.?20.{1,10}vision/i
+
 # A
 
 # B
@@ -25,7 +27,7 @@
 # C
 
 # D
-/drink this.{1,15}to/i
+/drink this.{1,15}(before|to)/i
 
 # E
 /eat this.{1,15}fruit/i
@@ -57,6 +59,8 @@
 
 # M
 /memory loss comes from/i
+
+/melt fat every/i
 /melts.{1,10}fat fast/i
 /mute.{1,10}tinnitus/i
 
@@ -72,8 +76,9 @@
 # R
 /reclaim perfect vision/i
 /restores perfect memory/i
+/(reverse|reversing).{1,10}diabetes/i
 
-/to (reverse|reversing).{1,10}diabetes/i
+/rock.?solid in just/i
 
 # S
 /skin.{1,10}transformation/i
@@ -90,6 +95,7 @@
 /try this before/i
 
 # U
+/unlock the secret/i
 
 # V
 

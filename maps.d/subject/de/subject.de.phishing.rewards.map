@@ -61,6 +61,8 @@
 
 /gewinne ein kostenloses/i
 /gewinner.{1,20}bekannt.?gegeben/i
+/gewinner.{1,10}monatswettbewerbs/i
+
 /gewonnen.{1,10}dein.{1,20}wartet/i
 
 /glückliche chance/i
@@ -70,9 +72,12 @@
 /hast im.{1,15}bei.{1,15}gewonnen/i
 
 # I
-/ihr kit zu beanspruchen/i
+/ihr.{1,15}kit zu beanspruchen/i
 
-/ihr exklusives geschenk/i
+/ihr.{1,10}exklusives geschenk/i
+/ihr.{1,10}gewinn wartet/i
+/ihr.{1,20}wartet auf sie/i
+
 /ihre? kostenloses?.{5,20}wartet/i
 /ihre.{1,10}(daten|belohnung)/i
 /ihre.{1,10}lieferadresse/i
@@ -133,6 +138,7 @@
 # W
 /wählen sie ihr geschenk/iu
 
+/wartet auf sie.{1,10}jetzt einlösen/iu
 /wartet.{1,10}antworte jetzt/i
 /wir haben einen gewinner.{1,10}du bist es/i
 

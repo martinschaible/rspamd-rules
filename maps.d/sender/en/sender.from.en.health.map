@@ -83,7 +83,7 @@
 
 /eye.{0,10}(help|relief)/i
 
-/vision.{0,10}(20.?20|boost|enhancing|loss|rescue|restorer?)/i
+/vision.{0,10}(20.?20|boost|enhancing|loss|rescue|reset|restorer?)/i
 
 # Fungus, Nails
 # ------------------------------------------------------------------------------
@@ -302,7 +302,7 @@ ringing.{0,10}relief/i
 /bladder.{0,10}(boost|care|control|danger|fix|health|leaks?|leakage|leaking|issues?|relief)/i
 /bleeding.{0,10}gums?/i
 
-/bloat.{0,10}solution/i
+/bloat.{0,10}(remedy|solution)/i
 /blood.{0,10}sugar/i
 
 /blue.{0,10}(pill|plant|replacement)/i
@@ -428,6 +428,7 @@ ringing.{0,10}relief/i
 # M
 /magic.{0,10}oil/i
 /make your own/i
+/male.{0,10}vitality/i
 
 /medicinal.{0,10}patch(es)?/i
 
