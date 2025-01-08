@@ -89,7 +89,8 @@
 # ------------------------------------------------------------------------------
 /(attack|end|fight|foot|goodbye|nail|nasty|stop|yellow).{0,10}fungus/i
 
-/(cracked|healthy|nasty|rotten|toe|ugly|yellow).{1,10}(nails|toe)/i
+/(cracked|healthy|nasty|rotten|ugly|yellow).{1,10}(nails|toe)/i
+/toe.{0,10}resque/i
 
 # Gums
 # ------------------------------------------------------------------------------
@@ -133,7 +134,7 @@ ringing.{0,10}relief/i
 
 # Joints
 # ------------------------------------------------------------------------------
-/joints?.{0,10}(cure|discomfort|genesis|healed|hero|inflammation|recovery|relief|remedy|story)/i
+/joints?.{0,10}(cure|discomfort|genesis|healed|hero|inflammation|problems?|recovery|relief|remedy|story)/i
 
 /(better|grinding|painful|swollen).{0,10}joints?/i
 
@@ -181,6 +182,7 @@ ringing.{0,10}relief/i
 # Prostatitis
 # ------------------------------------------------------------------------------
 /(urin|pee).{0,10}leaks/i
+/leak.{0,10}free/i
 
 # Recepies
 # ------------------------------------------------------------------------------

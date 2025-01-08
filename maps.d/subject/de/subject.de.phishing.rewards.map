@@ -114,8 +114,9 @@
 /sehr geehrter? gewinner/i
 /seien sie bereit/i
 
-/sie haben (bei|das).{5,35}gewonnen/i
-/sie haben ein(en)?.{5,35}gewonnen/i
+/sie haben.{1,10}(bei|das).{5,35}gewonnen/i
+/sie haben.{1,10}ein(en)?.{5,35}gewonnen/i
+/sie haben.{1,10}euro von.{1,20}gewonnen/i
 
 /sie können ein.{5,35}erhalten/i
 
