@@ -9,7 +9,11 @@
 # E Bike, Scooter
 # ------------------------------------------------------------------------------
 # -> I think, this is scam
-/(bestes?|perfektes?).{1,10}e.?bike/i
+e.?bike\?/i
+/e.?bikes?.{1,10}(besten|bester) preis/i
+/e.?bikes?.{1,10}(für alle|für jedes|power)/i
+
+/(bestes?|entdecken|leistungsstark|mit einem|perfektes?|richtigen).{1,10}e.?bike/i
 
 # Google Reviews
 # ------------------------------------------------------------------------------
