@@ -44,6 +44,7 @@
 
 # D
 /du bist (der|ein).{1,15}gewinner bei/i
+/du wurdest ausgewählt/iu
 
 # E
 /ein.{5,20}gehört Ihnen/i
@@ -59,6 +60,7 @@
 /geschenk.{1,25}bestätigung/iu
 /geschenk.{1,15}stunden verfügbar/iu
 
+/gewinn.{1,10}zeitlich begrenzt(es)?/i
 /gewinne ein kostenloses/i
 /gewinner.{1,20}bekannt.?gegeben/i
 /gewinner.{1,10}monatswettbewerbs/i
@@ -137,6 +139,7 @@
 
 # W
 /wählen sie ihr geschenk/iu
+/wählen sie ihren gewinn/iu
 
 /wartet auf sie.{1,10}jetzt einlösen/iu
 /wartet.{1,10}antworte jetzt/i
