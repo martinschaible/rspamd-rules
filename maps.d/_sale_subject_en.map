@@ -27,19 +27,6 @@
 # ------------------------------------------------------------------------------
 /smart.{1,10}edoor.?lock/i
 
-# E Bike
-# ------------------------------------------------------------------------------
-/(assist|best|cutting.?edge|discover|fat tire|featured|latest|new|next.?level).{1,10}e(lectric)?.?(bike|bicycle)/i
-/(pedal|perfect|powerful|sleek|trusted).{1,10}e(lectric)?.?(bike|bicycle)/i
-/(moped style|urban cruiser).{1,10}e(lectric)?.?(bike|bicycle)?/i
-
-/e(lectric)?.?(bike|bicycle).{1,15}(available|here|revolution|will change)/i
-
-/(our|with).{1,15}e(lectric)?.?(bike|bicycle)/i
-/(discover|our|with).{1,15}(moped|urban cruiser)/i
-
-/redefine your cycling/i
-
 # Fuel Saver
 # ------------------------------------------------------------------------------
 /grab your.{1,10}fuel.?saver/i
