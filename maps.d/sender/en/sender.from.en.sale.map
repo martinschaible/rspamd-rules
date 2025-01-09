@@ -37,7 +37,10 @@
 /heating.{0,10}bill/i
 
 # I
-/ip.?tv.{1,10}offers?/i
+/ip.?tv.{1,10}(offer|today)/i
+
+/i p t\.v/i
+/i p-tv/i
 
 # J
 
