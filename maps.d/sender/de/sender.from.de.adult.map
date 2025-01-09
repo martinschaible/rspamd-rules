@@ -8,10 +8,14 @@
 
 # Girls, Woman, etc.
 # ------------------------------------------------------------------------------
+(frau(en)?|mädchen).{1,15}(nähe|umkreis)/i
+
 /(attraktive|finde|nackte|reife).{0,10}(frau(en)?|mädchen)/iu
 
 /(russische|urkrainische).{1,15}(frau(en)?|mädchen)/iu
 /(russische|urkrainische).{1,15}schönheiten/iu
+
+/\d.{0,5}mädchen/i
 
 #
 #
