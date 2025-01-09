@@ -61,10 +61,6 @@
 /(pcba?|printed.circuit.board).{1,10}(assembly|business|cooperation|fabrication|manufacturer?)/i
 /custom.{1,10}(pcba?|printed.circuit.board)/i
 
-# Reading
-# ------------------------------------------------------------------------------
-/recommend reading this e?.?mail/i
-
 # No reply
 # ------------------------------------------------------------------------------
 /follow up.{1,10}(any update|checking on|follow(ing)? up|heard back|still a?waiting|wanted to)/i
