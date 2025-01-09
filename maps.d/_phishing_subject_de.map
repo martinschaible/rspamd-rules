@@ -183,7 +183,7 @@
 /jetzt verifizierung durchführen/iu
 
 /bestätigen sie ihre identität/iu
-/(bestätigung|datenupdate|verifizierung).{1,10}erforderlich/i
+/(datenupdate|verifizierung).{1,10}erforderlich/i
 /bestätigen sie.{1,10}ihre sicherheit/i
 
 /erneuern sie ihre.{1,10}authentifizierung/iu
