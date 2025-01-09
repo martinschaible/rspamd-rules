@@ -9,7 +9,7 @@
 # ------------------------------------------------------------------------------
 
 # Sample: https://dsqqsjkdgbjkqshdbjkqsdbhgjkqshbdjqskdqdqsdqsd.s3.us-west-1.amazonaws.com
-/https?:\/\/[a-z0-9]{25,50}\.s3/i
+#/https?:\/\/[a-z0-9]{25,50}\.s3/i
 
 # Sample: https://1633472409.babarkhursheed.com
 # Too many False/Positives
@@ -34,10 +34,10 @@
 #/https:\/\/[a-z0-9-]{2,20}\.[a-z0-9-]{2,20}\.[a-z0-9-]{4,15}\.com/i
 
 # 3 Subdomains
-/https:\/\/[a-z0-9-]{2,20}\.[a-z0-9-]{2,20}\.[a-z0-9-]{2,20}\.[a-z0-9-]{4,15}\.com/i
+#/https:\/\/[a-z0-9-]{2,20}\.[a-z0-9-]{2,20}\.[a-z0-9-]{2,20}\.[a-z0-9-]{4,15}\.com/i
 
 # 4 Subdomains
-/https:\/\/[a-z0-9-]{2,20}\.[a-z0-9-]{2,20}\.[a-z0-9-]{2,20}\.[a-z0-9-]{2,20}.[a-z0-9-]{4,15}\.com/i
+#/https:\/\/[a-z0-9-]{2,20}\.[a-z0-9-]{2,20}\.[a-z0-9-]{2,20}\.[a-z0-9-]{2,20}.[a-z0-9-]{4,15}\.com/i
 
 # False/Positives
 # Sample: https://hgdcjdg.r.bh.d.sendibt3.com
@@ -47,7 +47,7 @@
 # ------------------------------------------------------------------------------
 
 # Sample: https://322084jbl10003333333333.s3.us-east-1.amazonaws.com
-/https:\/\/[a-z0-9]{20,}\./i
+#/https:\/\/[a-z0-9]{20,}\./i
 
 # Bad Domain - Pattern
 # ------------------------------------------------------------------------------
