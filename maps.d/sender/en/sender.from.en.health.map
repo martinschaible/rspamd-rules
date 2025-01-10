@@ -18,7 +18,7 @@
 # Alzheimer, Dementia
 # ------------------------------------------------------------------------------
 /(alze?heimer|dementia).{1,10}(alert|brain|test|trigger|warning)/i
-/brain.{0,10}(booster|cell|damage|fog|health|nutrient|power|scan|science|trick)/i
+/brain.{0,10}(booster|cell|damage|fixer|fog|health|nutrient|power|scan|science|trick)/i
 
 /cognitive.{0,10}health/i
 /leaky.{0,10}brain/i
@@ -114,11 +114,13 @@
 # Some merging is needed
 /ear.{0,10}(buzzing|humming|noises?|ringing|silencer|wax)/i
 
+/(no more|stop).{0,10}ringing/i
+
 /(hear(ing)?|tinnitus).{0,10}(aid|cure|fix|loss|memory|noises?|relief|restorer?|solution|symptoms|warning)/i
 
 /(bad|restore).{0,10}hearing/i
 
-/(buzzing|clear|quiet|ringing|stop|unbearable|zero).{0,10}(ears?|noise|ringing)/i
+/(buzzing|clear|quiet|ringing|stop|unbearable|zero).{0,10}(ears?|noise)/i
 /(beat|destroy|end|goodbye|stop).{0,10}tinnitus/i
 
 ringing.{0,10}relief/i
@@ -280,7 +282,7 @@ ringing.{0,10}relief/i
 /aged.{0,10}spot/i
 /ageless.{0,10}beauty/i
 
-/ancient.{0,10}enzyme/i
+/ancient.{0,10}(enzyme|wellness)/i
 /(anti|fight|stop).{0,10}snoring/i
 /anti.{0,10}(fungal|fungus|wrinkle)/i
 
@@ -294,7 +296,7 @@ ringing.{0,10}relief/i
 /(bad|enhanced).{0,10}(eyes|memory)/i
 /bad.{0,10}breath/i
 
-/back.{0,10}(aches|pain|stretch)/i
+/back.{0,10}(aches|fixer|pain|stretch)/i
 /bald.{0,10}spot/i
 /basic.{0,10}protein/i
 
@@ -305,7 +307,7 @@ ringing.{0,10}relief/i
 /bladder.{0,10}(boost|care|control|danger|fix|health|leaks?|leakage|leaking|issues?|relief)/i
 /bleeding.{0,10}gums?/i
 
-/bloat.{0,10}(remedy|solution)/i
+/bloat.{0,10}(free|remedy|solution)/i
 /blood.{0,10}sugar/i
 
 /blue.{0,10}(pill|plant|replacement)/i
@@ -465,7 +467,7 @@ ringing.{0,10}relief/i
 # P
 /pancreas.{0,10}reset/i
 
-/pee.{0,10}leaks/i
+/pee.{0,10}(control|leaks)/i
 /peeing/i
 
 /\bpecker$/i
@@ -487,6 +489,7 @@ ringing.{0,10}relief/i
 /rapid.{0,10}relief/i
 /replace.{0,10}blue/i
 /reverse.{0,10}(aging|gum)/i
+/rise.{0,10}again/i
 /rock.{0,10}hard/i
 
 # S
