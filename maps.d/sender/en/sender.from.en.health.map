@@ -114,6 +114,7 @@
 # Some merging is needed
 /ear.{0,10}(buzzing|humming|noises?|ringing|silencer|wax)/i
 
+/buzz.{0,10}free/i
 /(no more|stop).{0,10}ringing/i
 
 /(hear(ing)?|tinnitus).{0,10}(aid|cure|fix|loss|memory|noises?|relief|restorer?|solution|symptoms|warning)/i
@@ -123,7 +124,7 @@
 /(buzzing|clear|quiet|ringing|stop|unbearable|zero).{0,10}(ears?|noise)/i
 /(beat|destroy|end|goodbye|stop).{0,10}tinnitus/i
 
-ringing.{0,10}relief/i
+/ringing.{0,10}relief/i
 
 # Herpes
 # ------------------------------------------------------------------------------
