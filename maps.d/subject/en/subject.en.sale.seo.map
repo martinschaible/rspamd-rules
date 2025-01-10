@@ -47,14 +47,12 @@
 # K
 
 # L
-/local seo.?(bundle|services?)/i
 
 # M
 
 # N
 
 # O
-/our.{1,10}seo.?(bundle|services?)/i
 
 # P
 
@@ -65,6 +63,8 @@
 
 # S
 /search engine optimisation.{1,10}seo/i
+
+/seo.{1,10}(bundle|services?|package|proposal)/i
 
 # T
 
