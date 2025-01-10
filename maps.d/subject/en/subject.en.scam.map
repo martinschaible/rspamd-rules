@@ -29,6 +29,7 @@
 # A
 
 # B
+/^business inquiry$/i
 
 # C
 /covid.{1,10}relief.?package/i
@@ -36,12 +37,13 @@
 # D
 /dear esteemed winner/i
 /discover.{1,10}winning/i
-/donation claim/i
+/donation (claim|fund)/i
 
 # E
 
 # F
 /fund(ing).?.{1,10}(donation|opportunity|recovered)/i
+/fund.{1,10}million/i
 
 # G
 
