@@ -8,14 +8,16 @@
 
 # Bitcoin
 # ------------------------------------------------------------------------------
-/bitcoin.{1,10}(handeln|millionen|portfolio|trader)/i
+/bitcoin.{1,10}(handeln|millionen|portfolio|trader|versteuern)/i
 /bitcoin.{1,15}(machen|macht).{1,10}reich/i
 
 /bitcoin.{1,10}gewinne?\?/i
 
 #
-/(durch|mit).{1,10}(bitcoin|etf|ki|openai|krypto(währung)?).{1,10}(geld|reich)/i
-/(dividenden|geld|reich).{1,10}(durch|mit).{1,10}(bitcoin|etf|ki|openai|krypto(währung)?)/i
+/(durch|mit|per).{1,10}(bitcoin|etf|ki|openai|krypto(währung)?).{1,10}(geld|reich)/i
+
+/(aktien|einkommen|dividenden|geld|gewinne|reich).{1,10}(durch|mit|per).{1,10}(bitcoin|etf|ki|openai|krypto(währung)?)/i
+
 /geld verdienen.{1,10}(bitcoin|etf|ki|openai|krypto(währung)?)/i
 
 /(250|bitcoin).{1,10}reich werden/i
@@ -40,6 +42,7 @@
 # D
 
 # E
+/(es geht|einfach|garantiert|jetzt|methode|ohne scam).{1,20}reich werden/i
 
 # F
 
@@ -54,7 +57,7 @@
 # K
 /ki.?(aktien|handelsstrategie|investment)/i
 
-/(chatgpt|ki|künstlicher? intelligenz).{1,10}geld verdienen/i
+/(chatgpt|ki|künstlicher?.?intelligenz).{1,10}geld verdienen/i
 
 # L
 
