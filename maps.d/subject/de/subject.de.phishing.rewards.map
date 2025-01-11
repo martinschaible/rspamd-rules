@@ -99,7 +99,8 @@
 /jetzt antworten/i
 
 # K
-/kostenloses.{5,25}zu erhalten/i
+/kostenlos(es)?.{1,25}gewinnen/i
+/kostenlos(es)?.{5,25}zu erhalten/i
 
 # L
 
@@ -138,7 +139,7 @@
 /sie sind ausgewahlt/iu
 /sie sind der glückliche gewinner eines/i
 /sie sind ein.{1,10}gewinner/i
-/sie sind einer unserer.{1,10}gewinner/i
+/sie sind einer unserer.{1,15}(finalisten|gewinner)/i
 
 /sie haben noch nicht geantwortet/i
 /sie wurden ausgewählt/iu
