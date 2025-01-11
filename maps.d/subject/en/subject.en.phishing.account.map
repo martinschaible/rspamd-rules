@@ -27,6 +27,7 @@
 # A
 /action required.{1,15}update your/i
 /action required.{1,10}(account|improve|payment failed)/i
+/action required.{1,10}subscription renewal/i
 
 # B
 
@@ -44,6 +45,7 @@
 # H
 
 # I
+/important account update/i
 
 # J
 

@@ -33,12 +33,14 @@
 # B
 /bei ihnen ankommt/i
 
-/bestätigen sie die lieferdetails/i
-/bestellung.{1,10}deren lieferung aussteht/i
+/bestätigen sie.{1,15}barcode/i
+/bestätigen sie.{1,10}lieferdetails/i
+/bestellung.{1,15}lieferung aussteht/i
 
 # C
 
 # D
+/dringend.{1,10}lieferung nicht möglich/iu
 
 # E
 /einer falschen lieferadresse/i

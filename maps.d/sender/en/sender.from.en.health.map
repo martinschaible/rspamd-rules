@@ -22,6 +22,7 @@
 
 /cognitive.{0,10}health/i
 /leaky.{0,10}brain/i
+/memory.{0,10}boost/i
 
 # Blood pressure, Heart
 # ------------------------------------------------------------------------------
@@ -343,7 +344,7 @@
 /chronic.{0,10}inflammation/i
 
 # D
-/daily.{0,10}fatigue/i
+/daily.{0,10}(burn|fatigue)/i
 
 /dead.{0,10}(foods?|kidneys)/i
 /dental.?rescue/i
@@ -441,6 +442,7 @@
 
 /mens?.{0,10}(only|power)/i
 /metabolism.{0,10}(booster|loophole|unleash)/i
+/midnight.{0,10}bathroom/i
 /mineral.{0,10}combination/i
 
 /morning.{0,10}(detox|mistake|oil|slimmer)/i

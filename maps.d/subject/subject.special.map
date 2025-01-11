@@ -26,6 +26,8 @@
 # 05.01.25 - Sample: (2,800,000 EURO)
 /\(.{0,5}\d{3,4}(\.|,)?\d{3,4}.{0,5}(dollar|euro?|usd|€|\$|£).{0,5}\)/i
 
+/(million|mio) (dollar|euro?|usd|€|\$|£)!/i
+
 # Multiple special characters and silly combinations
 # ------------------------------------------------------------------------------
 # -> Theses RegEx might be constructed easier and better
@@ -90,7 +92,7 @@
 # ------------------------------------------------------------------------------
 /👌/                  # Health   
 /(⚠️|🔒|🔕|🚨)/      # Malware
-/🚚/                  # Parcel
+/(🚚|📦)/             # Parcel
 /🎉/                  # Rewards
 /🎁/                  # Sales
 
