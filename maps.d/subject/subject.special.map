@@ -13,7 +13,7 @@
 /^\d{1,2}\/\d{1,2}\/\d{4}$/i
 
 # Sample: Hallo - 12/31/2024 or 1/1/2925
-/(aktualisieren|finanzierung|hallo).{1,10}\d{1,2}\/\d{1,2}\/\d{4}/i
+/(aktualisieren|darlehen|finanzierung|hallo|kredit).{1,10}\d{1,2}\/\d{1,2}\/\d{4}/i
 
 # Sample: "25/12/2024: Du hast"
 /\d{1,2}\/\d{1,2}\/\d{4}:/i
