@@ -31,6 +31,7 @@
 # Nespresso
 # playstation
 # Rewe Kundendienst
+# service@paypal.com
 # Spotify
 
 # Topics
@@ -179,7 +180,9 @@
 /sbb(.?cff.?ffs)?.{0,5}(kundenservice|support)/i
 
 /service.?center.?ard.?zdf/i
-/(service|support).{0,10}paypal/i
+
+#/(service|support).{0,10}paypal/i
+/support.{0,10}paypal/i
 
 /shell.?partner/i
 

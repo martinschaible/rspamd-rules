@@ -77,6 +77,7 @@
 /speed up your.{1,10}web.?site with us/i
 
 /our services.{1,15}web.?site.?development/i
+/our services.{1,15}(developing|upgrading)
 /new professional.{1,10}(web)?.?site/i
 
 /you.{1,10}interested.{1,20}(build|rebuild|repair|re.?designing|upgrading).{1,20}(new|your).{1,15}(web)?.?site/i
@@ -109,6 +110,8 @@
 
 /expert web designer/i
 /specialized in.{1,10}web.?site design/i
+
+/our expertise shines in php/i
 /our.{1,15}focus is.{1,10}web.?site design/i
 
 /we are.{1,10}mobile.?apps.{1,10}(web)?.?site development/i 

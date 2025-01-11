@@ -37,7 +37,9 @@
 /spins.{1,10}instant access/i
 
 /\d{1,2}free spins/i
-/free spins to start/i
+/free spins.{1,10}(start|today)/i
+
+/unlock free spins/i
 
 #
 #
