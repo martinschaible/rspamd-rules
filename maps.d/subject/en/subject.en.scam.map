@@ -29,9 +29,10 @@
 # A
 
 # B
-/^business inquiry$/i
+/^business (enquiry|inquiry|proposal)$/i
 
 # C
+/congrats your e.?mail/i
 /covid.{1,10}relief.?package/i
 
 # D
