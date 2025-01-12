@@ -61,6 +61,7 @@
 
 # Contact
 # ------------------------------------------------------------------------------
+/anspruch unten e?.?mail/i
 /ansprüche.{1,10}kontaktieren sie meine persönliche.{1,10}e?.?mail/iu
 
 /antworten sie.{1,15}fordern sie ihre spende/i
@@ -74,6 +75,8 @@
 
 /(dollar|euro?|gbp|usd).{1,10}an sie gespendet.{1,10}details antworten/i
 /(dollar|euro?|gbp|usd).{1,10}kontaktieren sie uns für weitere einzelheiten/i
+
+/e.?mail.?adresse.{1,10}anspruch/i
 
 /(gespendet|spende).{1,10}kontaktieren sie uns für.{1,15}einzelheiten/i
 

@@ -11,7 +11,7 @@
 # C
 
 # D
-
+/digitalinfomail\.de/i                              # 12.01.25 - EMail Marketing
 # E
 
 # F
@@ -43,6 +43,9 @@
 # R
 
 # S
+
+# Belongs to Swissad GMBH,. Fallback if Rspamd can't catch the company name
+/swissad.de/i                                       # 12.01.25 - EMail Marketing
 
 # T
 /tmedianews\.de/i                                   # 11.01.25 - EMail Marketing
