@@ -455,29 +455,3 @@ grill.{1,10}statt.{1,10}nur/i
 /wir kaufen.{1,10}(auto|fahrzeug|lkw|pkw)/i
 
 /an den fuhrparkleiter/i
-
-#
-#
-#
-
-# Unclassified
-# ------------------------------------------------------------------------------
-/preissturz.{1,25}gerät jetzt nur/iu
-/schnäppchenalarm.{1,25}jetzt stark reduziert/iu
-/sonderpreis.{1,10}(sofort versandfertig|alarm)/i
-
-/jetzt zuschlagen.{1,10}(\d{2,3}|nur)/i
-
-/exklusiven lagerabverkaufsangebot/i
-
-/sichern sie sich unser exklusives angebot/i
-/unglaublicher.{1,10}deal/i
-
-/\d{3}.{1,10}statt\d{3}/i
-/statt \d{3}.{1,10}nur \d{3}/i
-/statt uvp \d{3}.{1,10}nur \d{3}/i
-/für.{1,10}\d{3}.{1,10}statt.{1,10}\d{3,4}/iu
-/(jetzt|für) nur \d{2,3}.{1,5}statt.{1,5}\d{3,4}/i
-
-# Masked
-# ------------------------------------------------------------------------------
