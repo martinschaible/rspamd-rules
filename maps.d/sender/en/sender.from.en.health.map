@@ -156,7 +156,8 @@
 
 # Memory
 # ------------------------------------------------------------------------------
-/memory.{0,10}(booster|cure|hack|enhancement|improver|improvement|laps(es)?|loss|protection|restore|revive|saving|strengthener|tonic)/i
+/memory.{0,10}(booster|cure|hack|enhancement|improver|improvement|laps(es)?|loss)/i
+/memory.{0,10}(problem|protection|restore|revive|saving|strengthener|tonic)/i
 /(excellent|future|poor|restore|sharp|your).{0,10}memory/i
 
 # Pain
@@ -409,7 +410,7 @@
 /healing.{0,10}(massage|technology)/i
 /healthy.{0,10}digest/i
 
-/heart.{0,10}(attack|cells|health)/i
+/heart.{0,10}(attack|cells|health|protection)/i
 
 /herpes.{0,10}outbreak/i
 
