@@ -43,7 +43,7 @@
 /\.pe$/i
 /\.ph$/i
 /\.pk$/i
-/\.services$/i
+#/\.services$/i                                             # False Positives: 1
 /\.ve$/i
 /\.wang$/i
 
