@@ -18,13 +18,15 @@
 /inv(oice)?.?\d{0,10}\.((?!pdf$)[^.]*)/i
 /(receipt|winner).?\d{0,10}\.((?!pdf$)[^.]*)/i
 
-/(inquiry|receipt).{0,10}\.gz/i
+/(inquiry|order|quotation|receipt|request).{0,15}\.(7z|gz|rar)/i
 
 # 09.01.25 - Sample: DHL Receipt_#7900629801.gz
 /#\d{3,15}\.gz/i
 
 # 11.01.25 - Sample: 10201124.zip
 /^\d{5,10}\.zip/i
+
+/\d{5,10}\.rar/i
 
 # Pattern
 # ------------------------------------------------------------------------------

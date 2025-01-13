@@ -32,6 +32,8 @@
 /^business (enquiry|inquiry|proposal)$/i
 
 # C
+/compensation.{1,10}\d{2,4}(\.|,)?\d{3,4}/i
+
 /congrats your e.?mail/i
 /covid.{1,10}relief.?package/i
 
@@ -75,6 +77,8 @@
 /investment.{1,10}partnership.{1,10}proposal/i
 /investment.?deal/i
 /investment fund of/i
+
+/potential.{1,10}business.{1,10}opportunity/i
 
 /project financial support/i
 

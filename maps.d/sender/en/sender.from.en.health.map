@@ -55,7 +55,7 @@
 /diabetes/i
 /diabetic/i
 
-/(a1c|glucose).{0,10}(control|level|problems?)/i
+/(a1c|glucose).{0,10}(control|level|problems?|spike)/i
 
 /end.{0,10}type.{0,10}2/i
 /sugar.{0,10}(above|defender|disease|levels?|spikes?)/i
