@@ -13,6 +13,8 @@
 /activate.{1,10}new login system/i
 /finalize your account update/i
 
+/important account (alert|update)/i
+
 /review.{1,10}protect your.{1,15}account/i
 /your.{1,15}account.{1,15}appears to be.{1,10}missing.{1,10}incorrect/i
 
@@ -59,6 +61,7 @@
 /your.{1,15}account.{1,15}with us.{1,10}verify below/i
 
 /verify.{1,10}identity.{1,20}account has been.{1,20}locked/i
+/verify.{1,15}your.{1,15}account immediately/i
 
 # Account - Account & User options
 # ------------------------------------------------------------------------------
