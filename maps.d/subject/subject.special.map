@@ -72,7 +72,8 @@
 /\[special.?offer\]/i
 /\] warning/i
 
-/[a-z]{5,15}(!!|\.\.)/i
+# Too many False/Positives 
+#/[a-z]{5,15}(!!|\.\.)/i
 
 # Too many False/Positives 
 #/\.\.\.[a-z]{5,15}/i
