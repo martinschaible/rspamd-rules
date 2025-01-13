@@ -42,7 +42,7 @@
 # F
 
 # G
-/gift.?card.{0,10}chance/i
+/gift(.?card)?.{0,10}(chance|opportunity)/i
 
 # H
 
@@ -72,7 +72,7 @@
 
 # S
 /service.{0,10}updates?/i
-/shopper.{0,10}gift.?card/i
+/shopper.{0,10}gift(.?card)?/i
 
 # T
 /tepco/i        # 27.12.24 Japanese Bank
