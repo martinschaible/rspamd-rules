@@ -140,9 +140,7 @@
 # P
 /parts in china/i
 
-/pcba? assembly/i
-/pcba? manufacturing/i
-/pcba? provider/i
+/pcba? (assembly|factory|manufacturing|provider)/i
 
 # Q
 /quotation of.{1,10}(multilayer)? pcba?/i
