@@ -46,7 +46,7 @@
 # I
 /instant.{0,10}access/i
 
-/ip.?tv.{1,10}(offer|today)/i
+/ip.?tv.{1,10}(channels|movies|offer|today)/i
 
 /i p t\.v/i
 /i p-tv/i
@@ -91,6 +91,7 @@
 
 # U
 /ultimate.{0,10}offers?/i
+/unlimited.{0,10}iptv/i
 
 # V
 
