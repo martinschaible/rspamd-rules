@@ -11,6 +11,7 @@
 # ------------------------------------------------------------------------------
 /funds?.{1,10}available for you.{1,10}claim/i
 /funds?.{1,10}for.{1,20}reply for details/i
+/funds?.{1,10}has been recovered/i
 /funds?.{1,10}invest into.{1,20}(good|profitable).{1,10}business/i
 /funds?.{1,10}investment in your country/i
 /funds?.{1,10}payment.{1,10}reply via.{1,10}e?.?mail/i
@@ -61,6 +62,7 @@
 
 /your.{1,10}funds?.{1,10}have been approved by the/i
 /your.{1,10}funds?.{1,10}\d{3}.{0,5}\d{3}.{1,10}have been deposited/i
+/your.{1,10}over due approved funds/i
 
 /your.{1,10}funds?.{1,10}(total|worth).{1,10}sum of.{1,10}million/i
 /your.{1,10}funds?.{1,10}\d{3}.{0,5}\d{3}.{1,10}(dollar|euro?|gbp|usd)/i
