@@ -66,8 +66,8 @@
 /\*(confidential|donation|letter|offer|proposal|urgent|warning)\*/i
 
 # do not add "[wichtig]" to avoid false/positives
-/\[(belohnen|erinnerung)\]/i
-/\{(belohnen|erinnerung)\}/i
+/\[(belohnen|erinnerung|wichtig)\]/i
+/\{(belohnen|erinnerung|wichtig)\}/i
 
 /\[special.?offer\]/i
 /\] warning/i

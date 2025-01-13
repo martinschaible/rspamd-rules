@@ -15,6 +15,8 @@
 /good day(\.|,)/i
 /greetings?.{1,10}(in the name of god|to you)/i
 
+/hello sir/i
+
 # Stock trading
 # ------------------------------------------------------------------------------
 /\$.{1,10}delivers big/i
