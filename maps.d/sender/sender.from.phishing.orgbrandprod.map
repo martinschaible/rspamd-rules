@@ -163,6 +163,8 @@
 # P
 /paypal.{0,5}(case.?id|europe?|inc|kunden|konto|support|voucher)/i
 
+/postag/i
+
 /post.?finance.{0,5}benachrichtigungen/i
 /^post\.ch$/i
 /^postb$/i

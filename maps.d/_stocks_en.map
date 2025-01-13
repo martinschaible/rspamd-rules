@@ -22,7 +22,8 @@
 /group.{1,5}(corp|corporation|inc).{1,10}stock symbol/i
 /stock symbol.{1,15}(current share|for more information)/i
 
-/for more information on \$[a-z]{4} visit our website/i
+/\$[a-z]{4}.{1,5}visit our website/i
+/for more information on \$[a-z]{4}\b/i
 
 #
 #
