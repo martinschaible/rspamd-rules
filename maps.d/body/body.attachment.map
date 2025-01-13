@@ -20,6 +20,9 @@
 
 /(inquiry|order|quotation|receipt|request).{0,15}\.(7z|gz|rar)/i
 
+# 13.0125 - Sample: re_10_00134873.zip
+/re_[0-9_]{4,15}\.zip/i
+
 # 09.01.25 - Sample: DHL Receipt_#7900629801.gz
 /#\d{3,15}\.gz/i
 
