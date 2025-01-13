@@ -71,7 +71,8 @@
 # R
 
 # S
-/service.{0,10}updates?/i
+/(service|storage).{0,10}(upgrades?|updates?)/i
+
 /shopper.{0,10}gift(.?card)?/i
 
 # T
@@ -79,6 +80,8 @@
 
 # U
 /user assistance team/i
+
+/(upgrade|update).{0,10}alert/i
 
 # V
 
