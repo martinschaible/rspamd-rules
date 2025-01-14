@@ -63,7 +63,6 @@ e.?bike\?/i
 
 # H
 /handgefertigte messer/i
-/beheizbare.{1,10}(daunen)?jacke/i
 /hörgeräte kostenlos/i
 
 # I
@@ -71,6 +70,8 @@ e.?bike\?/i
 
 # J
 /jetzt für nur \d{2,3}.{1,10}statt \d{2,3}/i
+
+/(beheizbare|wärmende).{1,10}(daunen)?jacke)/i
 
 # K
 /kulis mit ihrem/i

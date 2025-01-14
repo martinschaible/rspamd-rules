@@ -347,6 +347,7 @@
 
 # D
 /daily.{0,10}(burn|fatigue)/i
+/dangerous.{0,10}veggies?/i
 
 /dead.{0,10}(foods?|kidneys)/i
 /dental.?rescue/i
@@ -390,12 +391,12 @@
 /full(er)?.{0,10}hair/i
 /(fungal|fungus).{0,10}(eliminator|free|infection|relief|remover?|vanishing)/i
 
-/food.{0,10}(cravings?|choices?|odor)/i
+/food.{0,10}(cravings?|choices?|odor|trap)/i
 /fried.{0,10}chicken/i
 /fruit.{0,10}mistake/i
 
 # G
-/gut.{0,10}(flush|health|repair)/i
+/gut.{0,10}(flush|health|repair|quiz)/i
 /going.{0,10}viral/i
 /grow.{0,10}trick/i
 
@@ -456,7 +457,7 @@
 # N
 /nail.{0,10}rub/i
 /nasty.{0,10}lumps/i
-/natural.{0,10}(alternative|antibiotic|solution)/i
+/natural.{0,10}(alternative|antibiotic|shape|solution)/i
 /nature.{0,10}opioids?/i
 
 /nerve.{0,10}(comfort|repair)/i
