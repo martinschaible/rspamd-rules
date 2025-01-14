@@ -6,7 +6,7 @@
 # Topics
 # ==============================================================================
 
-# Bitcoin
+# Bitcoin, KI
 # ------------------------------------------------------------------------------
 /bitcoin.{1,10}(handeln|millionen|portfolio|trader|versteuern)/i
 /bitcoin.{1,15}(machen|macht).{1,10}reich/i
@@ -14,6 +14,8 @@
 /bitcoin.{1,10}gewinne?\?/i
 
 #
+/schock.{1,10}(ai|chatgpt|ki)/i
+
 /(durch|mit|per).{1,10}(bitcoin|etf|ki|openai|krypto(währung)?).{1,10}(geld|reich)/i
 
 /(aktien|einkommen|dividenden|geld|gewinne|reich).{1,10}(durch|mit|per).{1,10}(bitcoin|etf|ki|openai|krypto(währung)?)/i
@@ -21,6 +23,13 @@
 /geld verdienen.{1,10}(bitcoin|etf|ki|openai|krypto(währung)?)/i
 
 /(250|bitcoin).{1,10}reich werden/i
+
+/(ai|chatgpt|ki).{1,0}handeln?/i
+
+# ETF (Exchange Traded Funds)
+# ------------------------------------------------------------------------------
+/etf.{1,15}(bricht|gestartet|investieren|rekorde|zulassung)/i
+/etfs?.{1,10}in der schweiz/i
 
 # Income
 # ------------------------------------------------------------------------------
@@ -37,6 +46,7 @@
 /aktien reich werden/i
 
 # B
+/bullenmarkt.{1,15}(nicht|verpassen)/i
 
 # C
 

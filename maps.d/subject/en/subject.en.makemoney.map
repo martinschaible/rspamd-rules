@@ -6,6 +6,14 @@
 # Topics
 # ==============================================================================
 
+# Bitcoin, KI
+# ------------------------------------------------------------------------------
+/(bitcoin|btc|crypto|krypto).{0,10}(insider|insights|invest(ment)?|portfolio|trader)/i
+/bitcoin.?etf/i
+
+# ETF (Exchange Traded Funds)
+# ------------------------------------------------------------------------------
+
 #
 #
 #
@@ -16,8 +24,6 @@
 # A
 
 # B
-/(bitcoin|btc|crypto|krypto).{0,10}(insider|insights|invest(ment)?|portfolio|trader)/i
-/bitcoin.?etf/i
 
 # C
 
