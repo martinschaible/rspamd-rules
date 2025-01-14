@@ -18,7 +18,9 @@
 /inv(oice)?.?\d{0,10}\.((?!pdf$)[^.]*)/i
 /(receipt|winner).?\d{0,10}\.((?!pdf$)[^.]*)/i
 
-/(inquiry|order|quotation|receipt|request).{0,15}\.(7z|gz|rar)/i
+/(inquiry|order|quotation|receipt|request).{0,15}\.(7z|gz|rar|zip)/i
+
+/rechnung.{0,15}\.(7z|gz|rar|zip)/i
 
 # 13.0125 - Sample: re_10_00134873.zip
 /re_[0-9_]{4,15}\.zip/i
