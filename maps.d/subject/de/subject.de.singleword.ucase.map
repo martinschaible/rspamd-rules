@@ -1,0 +1,81 @@
+# ==============================================================================
+# This file only contains UPPERCASE words, one per entry.
+#
+# This can be dangerous and should only be used if:
+# - The sender only consists of one word and should be additionally equipped
+#   with line boundaries.
+# - The sender consists of several words, but can be reliably declared as spam
+#   with just one word.
+#
+# If an entry is commented out then we have received false/positive mails.
+# This way we know that the entry is not usable.
+#
+# ------------------------------------------------------------------------------
+# Language: german
+# Weight:   6.0
+# ==============================================================================
+
+# Generic
+# ==============================================================================
+
+# Generic
+# ==============================================================================
+
+# A
+/ACHTUNG:/
+
+# B
+/BELOHNEN/
+
+# C
+
+# D
+/DARLEHEN/
+
+# E
+
+# F
+
+# G
+/GESPENDET/
+
+# H
+
+# I
+
+# J
+
+# K
+/KOSTENLOSE?/
+
+# L
+
+# M
+
+# N
+/NACHRICHT/
+
+# O
+
+# P
+
+# Q
+
+# R
+
+# S
+
+# T
+
+# U
+
+# V
+/VERTRAULICH/
+
+# W
+
+# X
+
+# Y
+
+# Z
