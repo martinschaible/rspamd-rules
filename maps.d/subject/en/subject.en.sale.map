@@ -26,6 +26,7 @@
 
 # Numeric
 /\d{3,5}.{1,10}global channels/i
+/\d(0|o).{0,5}reduction/i
 
 # A
 
@@ -103,6 +104,7 @@
 # A
 
 # B
+/best prices in china/i
 
 # C
 /cnc.{1,10}precision parts/i
@@ -145,7 +147,7 @@
 # P
 /parts in china/i
 
-/pcba? (assembly|factory|manufacturing|provider)/i
+/pcba? (assembly|enquiry|factory|manufacturing|provider)/i
 
 # Q
 /quotation of.{1,10}(multilayer)? pcba?/i
