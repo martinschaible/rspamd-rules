@@ -21,7 +21,6 @@
 # A
 /-abonnenment/i
 
-/ACHTUNG:/
 /achtung/i 0.09
 
 /aktenzeichen.{1,20}telefonat/i
@@ -40,8 +39,6 @@
 /bearbeitungsfortschritt/i
 /benachrichtigung#/i
 
-/BELOHNEN/
-
 /bestatigung/i
 /branchenbuch.?eintrag/i
 
@@ -49,8 +46,6 @@
 /cam.?show/i
 
 # D
-/DARLEHEN/
-
 /^darlehen$/i
 /darlehen\?/i
 /darlehen!/i
@@ -84,8 +79,6 @@ fettverbrenner/i
 /geschäftsgelegenheit/i
 /geschenk:/i
 
-/GESPENDET/
-
 /gewichtsreduktion/i
 /gewichtsverlust/i
 
@@ -118,8 +111,6 @@ fettverbrenner/i
 /kontowarnung/i
 /kooperation,/i
 
-/KOSTENLOSE?/
-
 /^kreditangebot$/i
 /^kreditangebot.?\?/i
 /^kreditangebot.?-/i
@@ -134,7 +125,6 @@ fettverbrenner/i
 # M
 
 # N
-/NACHRICHT/
 /nachricht#/i
 
 # O
@@ -198,8 +188,6 @@ fettverbrenner/i
 
 # V
 /verdienen!/i
-
-/VERTRAULICH/
 
 # W
 /werbe.?kuli/i

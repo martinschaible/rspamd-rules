@@ -25,19 +25,14 @@
 /!attention/i
 /attention(:|\$|!)/i
 
-/ATTENTION/
-
 # B
 /beneficiary!/i
 
 # C
-/COMPENSATION/
 
 /cooperation!/i
-/COOPERATION/
 
 # D
-/DONATION/
 
 /donation$/i
 /donation\$/i
@@ -58,8 +53,6 @@
 /inquiry\*/i
 /^investment$/i
 
-/INVESTMENT/
-
 # J
 
 # K
@@ -67,25 +60,20 @@
 # L
 
 # M
-/MILLION/
 
 # N
 
 # O
 
 # P
-/PARTNERSHIP/
 
 /^proposal$/i
 /proposal\.\./i
 /:proposal/i
 
-/PROPOSAL/
-
 # Q
 
 # R
-/RESPONSE/
 /^rfq$/i
 
 # S
@@ -98,8 +86,6 @@
 # V
 
 # W
-/WINNING/i
-
 /winner_/i
 /^winner$/i
 
