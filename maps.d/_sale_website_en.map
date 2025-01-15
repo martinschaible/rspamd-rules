@@ -38,7 +38,8 @@
 /you want.{1,10}mobile.?apps?/i
 /you want.{1,10}build.{1,10}mobile.?apps?/i
 
-/your business with.{1,15}(android|ios|mobile)?.app/i
+/your business.{1,15}app.{1,10}software/i
+/your business.{1,15}(android|ios|mobile)?.app/i
 /who deals.{1,15}app.?development/i
 
 /we are.{1,20}(android|ios|mobile).?app.?development/i
@@ -48,6 +49,7 @@
 /we are.{1,10}team.{1,10}professional.{1,10}(android|ios)/i
 /we are.{1,10}well.?versed.{1,10}mobile.?apps?/i
 
+/we.{1,10}(build|create|design|develop|make).{1,15}launch/i
 /we.{1,10}(build|create|design|develop|make).{1,15}(android|ios)/i 
 /we.{1,10}(build|create|design|develop|make).{1,15}(all|any) kinds? of apps?/i
 /we.{1,10}(build|create|design|develop|make).{1,15}mobile.?apps for all/i

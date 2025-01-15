@@ -189,8 +189,8 @@
 
 # Business Register
 # ------------------------------------------------------------------------------
-/aufnahme.{1,10}ins branchen.?buch/i
-/für die veröffentlichung.{1,10}im branchen.?buch/iu
+/aufnahme.{1,10}in.{1,10}branchen.?(buch|führer)/i
+/für die veröffentlichung.{1,10}im branchen.?(buch|führer)/iu
 
 /gewerbe.?informationsdatenbank/i
 

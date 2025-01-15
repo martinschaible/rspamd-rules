@@ -103,8 +103,8 @@
 # Account - Confirm or reconfirm identity
 # ------------------------------------------------------------------------------
 /aktualisieren sie.{1,10}ihre.{1,10}konto.?(daten|informationen)/i
-/aktualisieren sie ihr.{1,10}konto/i
-/aktualisieren sie ihr.{1,10}profil.{1,10}um diese einschränkungen aufzuheben/iu
+/aktualisieren sie ihr.{1,15}konto/i
+/aktualisieren sie ihr.{1,15}profil.{1,10}um diese einschränkungen aufzuheben/iu
 /aktualisieren sie ihre.{1,10}persönlichen daten/iu
 
 /bestätigen sie.{1,10}ihre.{1,10}telefon.?nummer/iu
@@ -302,6 +302,7 @@
 
 # Account - Payment options
 # ------------------------------------------------------------------------------
+/abonnement zu verlängern.{1,10}auf ein problem/iu
 /sie ihre zahlungsdaten aktualisieren/i
 /mit ihren zahlungsinformationen stimmt etwas nicht/i
 

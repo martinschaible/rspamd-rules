@@ -91,7 +91,7 @@ e.?bike\?/i
 /(pv|solar).?anlagen? um.{1,10}günstiger/i
 /preise.{1,10}(pv|solar).?anlagen gefallen/i
 
-/sprechen.{1,10}problemlos.{1,10}sprachen/i
+/publikation.{1,10}branchen.?führer/iu
 
 # Q
 
@@ -101,6 +101,8 @@ e.?bike\?/i
 /schaltung firmeneintrag 202\d/i
 
 /sie ihr auto verkaufen/i
+
+/sprechen.{1,10}problemlos.{1,10}sprachen/i
 
 /statt \d{3},- nur \d{2,3},-/i
 /steigern sie.{1,10}umsatz sofort/i

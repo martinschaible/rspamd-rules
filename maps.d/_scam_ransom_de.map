@@ -15,13 +15,15 @@
 /ich.{1,10}auf alle controller.{1,10}ihren geräten zugreifen/iu
 /ich auf alle daten auf deinem.{1,15}zugreifen/iu
 /ich beobachte sie.{1,15}seit einigen monaten/i
+
 /ich habe eine kopie.{1,15}webcam/i
 
-/ich.{1,20}(zugang|zugriff) (auf|zu).{1,10}(alle|deine?|ihre?).{1,10}(dateien|geräte|konto)/i
-/ich.{1,20}(zugang|zugriff) (auf|zu).{1,10}computer.{1,10}verschafft/i
-/ich.{1,20}(zugang|zugriff) auf alle ihre kontakte/i
+/ich.{1,25}(zugang|zugriff).{1,10}(auf|zu).{1,10}(alle|deine?|ihre?).{1,10}(dateien|geräte|konto)/i
+/ich.{1,25}(zugang|zugriff).{1,10}(auf|zu).{1,10}computer.{1,10}verschafft/i
+/ich.{1,25}(zugang|zugriff).{1,10}auf alle ihre kontakte/i
+/ich.{1,25}(zugang|zugriff).{1,10}ihrer kontaktenliste/i
 
-/ihr system wurde geknackt/i
+/ihr system wurde (gehackt|geknackt)/i
 /habe ich.{1,10}zugriff auf ihre dateien/i
 
 # Malware
@@ -53,6 +55,9 @@
 /sollte ich feststellen.{1,10}dass sie diese/i
 /was ich tun muss.{1,10}dieses Video/i
 
+#
+/ich sehe ihren bildschirm/i
+
 # Payment
 # ------------------------------------------------------------------------------
 /euro? an meine? bitcoin.?(adresse|wallet)/i
@@ -63,6 +68,7 @@
 /unten ist meine? bitcoin.?(adresse|wallet)/i
 
 /überweise.{1,10}eur.{1,25}auf mein (btc|bitcoin).?wallet/iu
+/überweisen sie einfach.{1,10}usd/i
 /btc an die.{1,10}adresse unten/i
 
 /sie ganz einfach.{1,10}bitcoin.{1,10}kaufen/i
