@@ -18,9 +18,9 @@
 # Alzheimer, Dementia
 # ------------------------------------------------------------------------------
 /(alze?heimer|dementia).{1,10}(alert|brain|test|trigger|warning)/i
-/brain.{0,10}(booster|cell|damage|fixer|fog|health|nutrient|power|scan|science|trick)/i
+/brain.{0,10}(booster|cell|damage|fixer|food|fog|health|nutrient|power|scan|science|trick)/i
 
-/cognitive.{0,10}health/i
+/cognitive.{0,10}(fix|health)/i
 /leaky.{0,10}brain/i
 /memory.{0,10}boost/i
 /mind.{0,10}boost/i
@@ -213,7 +213,7 @@
 
 # Stomach
 # ------------------------------------------------------------------------------
-/(big|bloated|flat(ten)?).{0,10}stomach/i
+/(big|flat(ten)?).{0,10}stomach/i
 
 # Stretching
 # ------------------------------------------------------------------------------
@@ -234,7 +234,7 @@
 /(belly|burn|eliminates?|lose|losing|melt|shed|stubborn|wobbly).{0,10}(bloat|fat|flab|lbs|pounds|weight)/i
 /(lose|melt|shed).{0,10}\d{2}/i
 
-/(bloated|bulging|flat|slimmer|tiny|your).{0,10}belly/i
+/(bulging|flat|slimmer|tiny|your).{0,10}belly/i
 
 /(big|flat).{0,10}(belly|melting|size|stomage|tummy)/i
 

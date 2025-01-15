@@ -34,7 +34,7 @@
 /door.{0,10}(camera|ringer)/i
 
 # E
-/e.?bike.{0,10}sales/i
+/e.?bike.{0,10}(care|customer|sales|service|support|team)/i
 
 /elon.{0,10}device/i
 
@@ -86,6 +86,8 @@
 /seo.{0,10}(backlink|service)/i
 
 /super.{0,10}list/i
+
+/sofa.?cover/i
 /stop wasting/i
 
 # T

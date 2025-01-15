@@ -27,6 +27,11 @@
 
 /(überweisen|vergütung).{1,10}\d{3,4}(\.|,)?\d{3,4}.{0,5}(dollars?|euro?|usd|€|\$|£)/i
 
+# Business register
+# ------------------------------------------------------------------------------
+/(publikation|schaltung|veröffentlichung).{1,10}(branchen.?führer|firmen.?eintrag)/iu
+/(branchen.?führer|firmen.?eintrag).{1,10}werbeannonce/i
+
 # Donation
 # ------------------------------------------------------------------------------
 /spende für sie/i
