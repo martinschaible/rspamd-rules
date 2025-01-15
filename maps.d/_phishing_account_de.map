@@ -35,6 +35,7 @@
 
 /kontoproblems.{1,10}(temporär|vorübergehend).{1,10}(blockiert|gesperrt) wurde/iu
 
+/anmeldung ihres.{1,15}kontos wird gesperrt/i
 /anforderungen.{1,10}haben wir ihr konto.{1,25}gesperrt/i
 
 /ignorieren.{1,10}wird ihr.{1,15}konto gesperrt/i
@@ -314,6 +315,7 @@
 
 # Account - Warning
 # ------------------------------------------------------------------------------
+/nicht innerhalb von.{1,10}stunden ausgeführt wird/i
 /warnung.{1,15}ungewöhnliche aktivität auf ihrem konto/iu
 
 #
