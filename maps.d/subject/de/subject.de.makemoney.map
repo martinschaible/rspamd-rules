@@ -28,7 +28,7 @@
 
 # ETF (Exchange Traded Funds)
 # ------------------------------------------------------------------------------
-/etf.{1,15}(bricht|gestartet|investieren|rekorde|zulassung)/i
+/etf.{1,15}(anmeldung|bricht|gestartet|investieren|rekorde|zulassung)/i
 /etfs?.{1,10}in der schweiz/i
 
 # Income

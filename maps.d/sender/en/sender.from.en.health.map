@@ -23,6 +23,7 @@
 /cognitive.{0,10}health/i
 /leaky.{0,10}brain/i
 /memory.{0,10}boost/i
+/mind.{0,10}boost/i
 
 # Blood pressure, Heart
 # ------------------------------------------------------------------------------
@@ -69,6 +70,8 @@
 
 # ED, Erection, Potency
 # ------------------------------------------------------------------------------
+/ed.?problems?/i
+
 /(ed\s|enhancement|enlargement).{0,10}(gummie?s|news|treatment|solution)/i
 /(climax|erectile|libido|manhood)/i
 
@@ -499,6 +502,8 @@
 /rock.{0,10}hard/i
 
 # S
+/sciatica.{0,10}fix/i
+
 /second.{0,10}tweak/i
 /secret.{0,10}(revealed|weapon)/i
 /sea.?sugar/i
