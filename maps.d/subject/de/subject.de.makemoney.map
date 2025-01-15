@@ -24,7 +24,7 @@
 
 /(250|bitcoin).{1,10}reich werden/i
 
-/(ai|chatgpt|ki).{1,10}handeln?/i
+/(ai|chatgpt|ki).{1,10}(goldrausch|handeln?)/i
 
 # ETF (Exchange Traded Funds)
 # ------------------------------------------------------------------------------
@@ -58,6 +58,7 @@
 # F
 
 # G
+/goldrausch hat begonnen/i
 
 # H
 

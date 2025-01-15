@@ -13,6 +13,7 @@
 /^guten (abend|tag)$/i
 
 /hallo -/i
+/hallo.{1,10}herr.{1,5}frau/i
 
 /lieber herr/i
 
