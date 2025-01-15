@@ -68,6 +68,7 @@
 /korrigieren sie/i
 
 # L
+/lieferdetails.{1,10}um die lieferung/i
 
 # M
 /maßnahmen zu ihrem paket/i
@@ -116,7 +117,8 @@
 /wartet immer noch/i
 /wartet wegen.{10,25}auf.{1,10}(lieferung|zustellung)/i
 
-/wichtige.{1,10}(aktion|benachrichtigung)/i
+/wichtige?.{1,15}zustellung nicht möglich/iu
+/wichtige?.{1,15}(aktion|benachrichtigung)/i
 
 /wird bearbeitet/i
 /wird hiermit zugestellt/i
