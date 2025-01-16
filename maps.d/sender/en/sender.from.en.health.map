@@ -468,6 +468,8 @@
 
 /numb.{0,10}(feet|hand)/i
 
+/no.{0,10}diet/i
+
 # O
 /odd.{0,10}(mineral|liquid|tonic)/i
 /oral.{0,10}flush/i
@@ -496,6 +498,7 @@
 
 # R
 /rapid.{0,10}relief/i
+/remove.{0,10}toxin/i
 /replace.{0,10}blue/i
 /reverse.{0,10}(aging|gum)/i
 /rise.{0,10}again/i

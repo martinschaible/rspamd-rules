@@ -61,7 +61,11 @@
 
 /immediate transfer of your.{1,10}(dollars?|euro?|usd|€|\$|£)/i
 /important.{1,10}million/i
-/investment funds?/i
+
+/investment.{1,10}(deal|funds)/i
+/investment.{1,10}fund of/i
+
+/^investment.{1,10}partnership$/i
 
 # J
 
@@ -77,11 +81,7 @@
 # O
 
 # P
-/^investment partnership$/i
-
-/investment.{1,10}partnership.{1,10}proposal/i
-/investment.?deal/i
-/investment fund of/i
+/partnership.{1,10}proposal/i
 
 /potential.{1,10}business.{1,10}opportunity/i
 

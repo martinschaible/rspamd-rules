@@ -9,14 +9,20 @@
 # E Bike, Scooter
 # ------------------------------------------------------------------------------
 # -> I think, this is scam
-e.?bike\?/i
+/e.?bike\?/i
+/e.?bike!/i
+
 /e.?bikes?.{1,10}(besten|bester) preis/i
-/e.?bikes?.{1,10}(für alle|für jedes|power)/i
+/e.?bikes?.{1,10}für (alle|den|ihre|jedes)/i
+/e.?bikes?.{1,10}power/i
 
-/(bestes?|entdecken|leistungsstark|mit einem|perfektes?|richtigen).{1,10}e.?bike/i
+/mit (einem|unserem).{1,10}e.?bike/i
+/(bestes?|entdecken|leistungsstark|perfektes?|richtigen).{1,10}e.?bike/i
 
-/moped.{1,5}e.?bikes?/i
+/moped.{1,5}(cruiser|e.?bikes?)/i
 /moped.{1,5}style e.?bikes/i
+
+/metro.{1,5}rider/i
 
 # Google Reviews
 # ------------------------------------------------------------------------------
