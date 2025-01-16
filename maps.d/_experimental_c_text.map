@@ -7,14 +7,14 @@
 
 # Twitter
 # ------------------------------------------------------------------------------
-/<a href=.{0,5}https:\/\/t\.co\/[a-z0-9]{5,15}.{1,10}target=.{0,5}_blank/i
-/https:\/\/t\.co\/[a-z0-9]{5,15}" target=.{0,5}_blank"><img src=.{0,5}https/i
+/<a href=.{0,5}https:\/\/t\.co\/[a-z0-9]{5,15}.{1,10}target=.{0,5}_blank/i experimental_c_text:10:001
+/https:\/\/t\.co\/[a-z0-9]{5,15}" target=.{0,5}_blank"><img src=.{0,5}https/i experimental_c_text:10:002
 
 # No SSL Google
 # ------------------------------------------------------------------------------
-/a href=.{0,5}http:\/\/google\.com/i
+/a href=.{0,5}http:\/\/google\.com/i experimental_c_text:10:003
 
 # Redirects
 # ------------------------------------------------------------------------------
-/data-saferedirecturl=.{0,5}https://www\.google\.com/i
-/data-saferedirecturl=.{0,5}https://www\.inbox\.org/i
+/data-saferedirecturl=.{0,5}https://www\.google\.com/i experimental_c_text:10:004
+/data-saferedirecturl=.{0,5}https://www\.inbox\.org/i experimental_c_text:10:005
