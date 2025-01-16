@@ -7,17 +7,17 @@
 
 # Regular TLD
 # ------------------------------------------------------------------------------
-/http:\/\/(www\.)?[a-z]{3,20}\.(net|pl)/i
+/http:\/\/(www\.)?[a-z]{3,20}\.(net|pl)/i base_no_ssl:10:01
 
-/http:\/\/(www\.)?[a-z0-9-]{3,25}\.(ru|sa|za)\.com\//i
-/http:\/\/(www\.)?[a-z0-9-]{3,25}\.co\.(in|uk)\//i
-/http:\/\/(www\.)?[a-z0-9-]{3,25}\.me\.uk\//i
-/http:\/\/(www\.)?[a-z0-9-]{3,25}\.(in|ru)\//i
+/http:\/\/(www\.)?[a-z0-9-]{3,25}\.(ru|sa|za)\.com\//i base_no_ssl:10:02
+/http:\/\/(www\.)?[a-z0-9-]{3,25}\.co\.(in|uk)\//i base_no_ssl:10:03
+/http:\/\/(www\.)?[a-z0-9-]{3,25}\.me\.uk\//i base_no_ssl:10:04
+/http:\/\/(www\.)?[a-z0-9-]{3,25}\.(in|ru)\//i base_no_ssl:10:05
 
 # False/Positives
 #/http:\/\/(www\.)?[a-z0-9-]{3,25}\.(biz|info)/i
 
-/http:\/\/(www\.)?[a-z0-9-]{3,25}\.com\/redirect\.html/i
+/http:\/\/(www\.)?[a-z0-9-]{3,25}\.com\/redirect\.html/i base_no_ssl:10:06
 
 # False/Positives
 # Sample: http://tructions.com/1O0b061o8t0mjje0-1pzqbi026rl2ut3a577d000001
@@ -25,27 +25,27 @@
 
 # Exotic TLD
 # ------------------------------------------------------------------------------
-/http:\/\/(www\.)?[a-z0-9-]{3,20}\.(bond|club|email|fun|help|life|ltd|me|one|pics|pro|rest|services|shop|social|space|store|today|world|xyz)\//i
-/http:\/\/(www\.)?[a-z0-9-]{3,20}\.ca\//i
-/http:\/\/(www\.)?[a-z0-9-]{3,20}\.in\.net\//i
+/http:\/\/(www\.)?[a-z0-9-]{3,20}\.(bond|club|email|fun|help|life|ltd|me|one|pics|pro|rest|services|shop|social|space|store|today|world|xyz)\//i base_no_ssl:10:07
+/http:\/\/(www\.)?[a-z0-9-]{3,20}\.ca\//i base_no_ssl:10:08
+/http:\/\/(www\.)?[a-z0-9-]{3,20}\.in\.net\//i base_no_ssl:10:09
 
 # Subdomain
-/http:\/\/[a-z0-9-]{3,25}\.[a-z]{3,20}\.(bond|club|email|fun|help|life|ltd|me|one|pics|pro|rest|services|shop|social|space|store|today|world|xyz)\//i
+/http:\/\/[a-z0-9-]{3,25}\.[a-z]{3,20}\.(bond|club|email|fun|help|life|ltd|me|one|pics|pro|rest|services|shop|social|space|store|today|world|xyz)\//i base_no_ssl:10:10
 
 # Subdomain
-/http:\/\/[a-z0-9-]{3,25}\.[a-z0-9-]{3,25}\.(ru|sa|za)\.com\//i
-/http:\/\/[a-z0-9-]{3,25}\.[a-z0-9-]{3,25}\.me\.uk\//i
-/http:\/\/[a-z0-9-]{3,25}\.[a-z0-9-]{3,25}\.co\.(in|uk)\//i
+/http:\/\/[a-z0-9-]{3,25}\.[a-z0-9-]{3,25}\.(ru|sa|za)\.com\//i base_no_ssl:10:11
+/http:\/\/[a-z0-9-]{3,25}\.[a-z0-9-]{3,25}\.me\.uk\//i base_no_ssl:10:11
+/http:\/\/[a-z0-9-]{3,25}\.[a-z0-9-]{3,25}\.co\.(in|uk)\//i base_no_ssl:10:12
 
 # Subdomain
 # ------------------------------------------------------------------------------
 # Sample: http://190-2-145-157.
-/http:\/\/\d{1,3}-\d{1,3}-\d{1,3}-\d{1,3}\./i
+/http:\/\/\d{1,3}-\d{1,3}-\d{1,3}-\d{1,3}\./i base_no_ssl:10:13
 
 # Sample: http://ec2-18-231-189-155.sa-east-1.compute.amazonaws.com/
-/http:\/\/\ec\d\.d{2,3}-\.d{2,3}-\.d{2,3}-\.d{2,3}\sa-/i
+/http:\/\/\ec\d\.d{2,3}-\.d{2,3}-\.d{2,3}-\.d{2,3}\sa-/i base_no_ssl:10:14
 
-/http:\/\/alert\./i 
+/http:\/\/alert\./i base_no_ssl:10:15 
 
 # Long path
 # ------------------------------------------------------------------------------
@@ -63,17 +63,17 @@
 #/http:\/\/(click|email|urls)\./i
 
 # Sample: http://1157728453.gopeerclick.com/
-/http:\/\/(www\.)?\d{10,25}\./i
+/http:\/\/(www\.)?\d{10,25}\./i base_no_ssl:10:16
 
 # Markup
 # ------------------------------------------------------------------------------
-/\/head><body><img src=(3d)?.?http:\/\//i
-/<a href=(3d)?.?http:\/\/mail\./i
+/\/head><body><img src=(3d)?.?http:\/\//i base_no_ssl:10:17
+/<a href=(3d)?.?http:\/\/mail\./i base_no_ssl:10:18
 
 # IPv6
 # ------------------------------------------------------------------------------
 # Sample: http://[::ffff:3495:baad]
-/http:\/\/\[::\w{4}/i
+/http:\/\/\[::\w{4}/i base_no_ssl:10:19
 
 #
 #
@@ -81,4 +81,4 @@
 
 # Unclassifed
 # ------------------------------------------------------------------------------
-/http:\/\/www-/i
+/http:\/\/www-/i base_no_ssl:10:20
