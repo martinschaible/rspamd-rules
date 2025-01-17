@@ -246,7 +246,7 @@
 
 # Comparing Bank Accounts
 # ------------------------------------------------------------------------------
-/tagesgeldkonten/i 0.25
+/tagesgeldkonten gehören/i
 
 /tagesgeld.?(konto|konten).{1,10}(ergänzung|girokonto|ist eine kostenlose|nutzt man als)/iu
 
@@ -255,6 +255,7 @@
 
 /hier erfährst du.{1,10}welche banken aktuell/i
 /sie die besten tagesgeldbanken/i
+/solchen kostenlosen konto/i
 /unserem.{1,10}(tages)?aktuellen kontovergleich/i
 
 /kostenloser überblick.{1,10}diese banken/i
