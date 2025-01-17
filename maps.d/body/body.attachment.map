@@ -15,8 +15,9 @@
 # ------------------------------------------------------------------------------
 # -> We do not check for the archive file types. PDF files are excluded.
 
-/inv(oice)?.?\d{0,10}\.((?!pdf$)[^.]*)/i
-/(receipt|winner).?\d{0,10}\.((?!pdf$)[^.]*)/i
+# Does not work. It is not supported by Rspamd.
+#/inv(oice)?.?\d{0,10}\.((?!pdf$)[^.]*)/i
+#/(receipt|winner).?\d{0,10}\.((?!pdf$)[^.]*)/i
 
 /(inquiry|invoice|order|proforma|quotation|receipt|request).{0,25}\.(7z|gz|r16|rar|zip)/i
 
