@@ -10,6 +10,8 @@
 # ------------------------------------------------------------------------------
 /3piece.?set/i
 
+/cvs.{0,10}rewards/i
+
 # Senders pretending to be from the IT department
 # ------------------------------------------------------------------------------
 /\.(ch|com|de|org).?(admin$|administrator|helpdesk|security|server|update)/i
@@ -90,5 +92,6 @@
 # X
 
 # Y
+/your.{0,10}reward/i
 
 # Z
