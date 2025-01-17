@@ -246,13 +246,18 @@
 
 # Comparing Bank Accounts
 # ------------------------------------------------------------------------------
+/tagesgeldkonten/i 0.25
+
 /tagesgeld.?(konto|konten).{1,10}(ergänzung|girokonto|ist eine kostenlose|nutzt man als)/iu
 
+/einem.{1,10}kostenlosen konto/i
 /(auf ein solches|derzeit das|guten tag|kostenlos).{1,10}tagesgeld.?(konten|konto)/i
 
 /hier erfährst du.{1,10}welche banken aktuell/i
 /sie die besten tagesgeldbanken/i
 /unserem.{1,10}(tages)?aktuellen kontovergleich/i
+
+/kostenloser überblick.{1,10}diese banken/i
 
 # Comparing Solar energy
 # ------------------------------------------------------------------------------
