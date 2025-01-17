@@ -8,28 +8,28 @@
 # Filler text
 # ------------------------------------------------------------------------------
 # White color and small font size
-/<(div|span) style=(3d)?"color:.?#ffffff;.?font-size:.?[1-7]]px;">/i
+/<(div|span) style=(3d)?"color:.?#ffffff;.?font-size:.?[1-7]]px;">/i base_markup:10:01
 
 # Small font size
-/<p style=(3d)?"text-align:.?§right;"><span style=(3d)?"font-size:.?8px;">/i
+/<p style=(3d)?"text-align:.?§right;"><span style=(3d)?"font-size:.?8px;">/i base_markup:10:02
 
 # Extreme font size
 # Sample: font-size:416093625px
-/font-size:\d{3,20}px;/i
+/font-size:\d{3,20}px;/i base_markup:10:03
 
 # Strange stuff
 # ------------------------------------------------------------------------------
-/http:=(3d)?"" microsoft\.com=(3d)?""/i
+/http:=(3d)?"" microsoft\.com=(3d)?""/i base_markup:10:04
 
 # Used as prefix of a word.
-/<span style=(3d)?"color: rgb(255,255,255)">\w<\/span>/i
+/<span style=(3d)?"color: rgb(255,255,255)">\w<\/span>/i base_markup:10:05
 
 #
-/&shy;&shy;ut&shy;&shy;&shy/i
+/&shy;&shy;ut&shy;&shy;&shy/i base_markup:10:05
 
 #
-/>x<\/span>/i
+/>x<\/span>/i base_markup:10:06
 
 # 
-/<cite style=(3d)?"font-size: 0px;">/i
+/<cite style=(3d)?"font-size: 0px;">/i base_markup:10:07
 
