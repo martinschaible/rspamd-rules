@@ -19,17 +19,32 @@
 
 # Stock trading
 # ------------------------------------------------------------------------------
+
+# Stock
+/(claim your|this extraordinary|with this).{1,15}(gem|stock)/i
+/(hidden fortune|remarkable).{1,10}(gem|stock)/i
+/growth.{1,10}stock opportunity/i
+/unveil the stock market/i
+
+# Symbol
 /\$.{1,10}delivers big/i
 
+# Silly stock blabla
 /acquisition boosts.{1,15}revenue/i
 /breakthrough growth/i
+/explosive investment/i
 /high.?growth opportunities/i
+/invest.{1,10}(gains|massive|success)/i
+/portfolio to new heights/i
 /poised.{1,10}explosive growth/i
 /revolutionizing investor experience/i
 /shareholder letter details/i
 /smart investors?.{1,10}pick/i
 /stock to watch/i
+/time to harvest profits/i
 /unlocks high.?growth/i
+
+/(ignite|illuminate|launch|maximize|propel|rocket).{1,10}your (earnings|portfolio|returns|wealth)/i
 
 #
 #
