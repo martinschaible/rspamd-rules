@@ -15,7 +15,8 @@
 
 /\d{1,2}.{1,5}/(kg|kilo).{1,10}in.{1,10}monat/i
 
-/abzunehmen.{1,15}ohne verzicht/i
+/(abnehmen|abzunehmen).{1,10}in nur einer woche/i
+/(abnehmen|abzunehmen).{1,15}ohne verzicht/i
 /alle überschüssigen kilos loswerden/i
 
 /bauchfett.{1,10}(los(zu)?werden|verlieren|verschwindet)/i
