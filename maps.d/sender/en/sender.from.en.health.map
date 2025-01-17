@@ -255,6 +255,10 @@
 /vital.{0,10}(team|tip(ps)?)/i
 /your.{0,10}fitness/i
 
+#
+/keto.{0,10}(diet|slim)/i
+/forget.{0,10}keto/i
+
 # Breaktrough, Hacks, Miracle, Secrets, Tricks, Videos, etc...
 # ------------------------------------------------------------------------------
 /(ancient|anti.?aging).{0,10}(diet|drink|fix|formula|hack|miracle|protocol|remedies|remedy|ritual|secret|solution|tea|trick)/i
@@ -284,6 +288,7 @@
 
 # A
 /aching.{0,10}points/i
+/acute.{0,10}inflammation/i
 
 /aged.{0,10}spot/i
 /ageless.{0,10}beauty/i
@@ -433,7 +438,6 @@
 /japanese.{0,10}secret/i
 
 # K
-/keto.{0,10}(diet|slim)/i
 /kidney.{0,10}fix/i
 
 # L
