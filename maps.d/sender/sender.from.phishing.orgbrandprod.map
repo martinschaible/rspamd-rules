@@ -64,7 +64,7 @@
 /adobe acrobat (document|e.?signature)/i
 
 /apple.?pay/i
-/apple.?(™|®|©)?$/i
+/apple.?(™|®|©)$/i
 
 /^ard.?zdf$/i
 /ard.?zdf.?(radio|service)/i
@@ -73,9 +73,9 @@
 /ネットバンク/i                 # 21.12.24 - Aiful corporation
 
 # B
-/baumarkt.?(™|®|©)?$/i
+/baumarkt.?(™|®|©)$/i
 
-/^bosch.?(™|®|©)?$/i
+/^bosch.?(™|®|©)$/i
 
 /bundespolizei$/i
 
@@ -113,7 +113,7 @@
 /fedex.?ups/i
 
 # G
-/galaxus.?(™|®|©)?$/i
+/galaxus.?(™|®|©)$/i
 
 /g-l-s/i
 
@@ -130,10 +130,10 @@
 /^jcb/i
 
 # K
-/kaufland.?(™|®|©)?$/i
+/kaufland.?(™|®|©)$/i
 
 # L
-/lidl.?(™|®|©)?$/i
+/lidl.?(™|®|©)$/i
 /lidl.?2025/i
 
 # M
@@ -164,7 +164,7 @@
 /nortonav$/i
 
 # O
-/(obi|otto).?(™|®)?$/i
+/(obi|otto).?(™|®)$/i
 
 # P
 /paypal.{0,5}(case.?id|europe?|inc|kunden|konto|support|voucher)/i
