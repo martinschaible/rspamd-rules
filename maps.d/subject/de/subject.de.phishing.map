@@ -37,7 +37,6 @@
 #/bestätigung.{1,15}ihre bestellung/i
 #/bestätigung erforderlich/i
 
-
 /bestellnummer.{1,15}bestätigt/i
 
 # C
@@ -89,7 +88,8 @@
 # Q
 
 # R
-/rückerstattung zur verfügung/iu
+/rückerstattung.{1,10}ihre zugreise/i
+/rückerstattung.{1,10}zur verfügung/iu
 
 # S
 /sie haben anspruch.{1,15}rückerstattung/iu

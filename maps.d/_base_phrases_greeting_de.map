@@ -44,6 +44,7 @@
 
 /hallo.{1,10}ich bin.{1,10}(frau|herr)/i
 /hallo.{1,10}ich bin.{5,25}ceo (der|von)/i
+/hallo.{1,10}ich bin.{5,25}eine?.{1,15}milliardär(in)?/iu
 /hallo.{1,10}ich bin.{5,25}eine?.{1,15}(geschäfts)?(frau|mann)/iu
 /hallo.{1,10}ich bin.{5,25}eine?.{1,15}(australisch|deutsch|indisch|schweizer)/i
 /hallo.{1,10}ich bin.{5,25}eine?.{1,15}person/i

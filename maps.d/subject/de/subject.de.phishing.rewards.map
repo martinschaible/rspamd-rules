@@ -41,6 +41,7 @@
 # B
 /belohnen wir sie mit/i
 /belohnung wartet auf sie/i
+/belohnung(en)?.{1,10}kostenlose?/i
 
 /bestätigen sie den erhalt/iu
 
@@ -143,6 +144,7 @@
 /sie haben ein.{1,10}(ipad|iphone)/i
 
 /sie haben ein{1,15}geschenk erhalten/i
+/sie haben gewonnen$/i
 
 /sie können ein.{5,35}erhalten/i
 

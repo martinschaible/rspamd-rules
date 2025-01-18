@@ -33,7 +33,8 @@
 # ------------------------------------------------------------------------------
 /\d{3,4}(\.|,)?\d{3,4}.{0,5}(dollars?|euro?|usd|€|\$|£).{1,10}wurden ihnen gespendet/i
 
-/(überweisen|vergütung).{1,10}\d{3,4}(\.|,)?\d{3,4}.{0,5}(dollars?|euro?|usd|€|\$|£)/i
+/(überweisen|überweisung|vergütung).{1,10}\d{3,4}(\.|,)?\d{3,4}.{0,5}(dollars?|euro?|usd|€|\$|£)/i
+/(überweisen|überweisung|vergütung).{1,10}(dollars?|euro?|usd|€|\$|£){0,5}\d{3,4}(\.|,)?\d{3,4}/i
 
 # Business register
 # ------------------------------------------------------------------------------
@@ -42,6 +43,7 @@
 
 # Donation
 # ------------------------------------------------------------------------------
+/gelder spende/i
 /spende für sie/i
 
 /ihnen eine spende von/i
