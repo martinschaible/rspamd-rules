@@ -21,6 +21,8 @@
 /helpdesk-/i
 /mail.?admin/i
 
+/$support.?desk$/i
+
 #
 #
 #
@@ -29,7 +31,7 @@
 # ==============================================================================
 
 # A
-/account.?help/i
+/account.?(help|team)/i
 
 # B
 /billing.?team/i
@@ -73,6 +75,7 @@
 # R
 
 # S
+/service.{0,10}notifications?/i
 /(service|storage).{0,10}(upgrades?|updates?)/i
 
 /shopper.{0,10}gift(.?card)?/i
@@ -81,7 +84,7 @@
 /tepco/i        # 27.12.24 Japanese Bank
 
 # U
-/user assistance team/i
+/user assistance/i
 
 /(upgrade|update).{0,10}alert/i
 

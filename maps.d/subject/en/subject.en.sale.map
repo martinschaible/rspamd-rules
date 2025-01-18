@@ -47,7 +47,8 @@
 /fix your instagram/i
 
 # G
-/get more instagram followers/i
+/get.{1,10}instagram followers/i
+/get.{1,10}trustpilot reviews/i
 
 # H
 
@@ -125,7 +126,6 @@
 /freight services.{1,10}tailored/i
 
 # G
-/get trustpilot reviews/i
 
 # H
 
@@ -155,13 +155,13 @@
 /quotation of.{1,10}(multilayer)? pcba?/i
 
 # R
+/rfq.{1,15}(injection|moulding|plastic)/i
 
 # S
 /suppliers (from|of) china/i
 /supply steel plates/i
 
 # T
-
 /trusted custom fabrication/i
 
 # U

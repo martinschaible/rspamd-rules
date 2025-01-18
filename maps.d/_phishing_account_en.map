@@ -54,6 +54,8 @@
 
 # Account - Verification
 # ------------------------------------------------------------------------------
+/action.{1,10}requires immediate.{1,15}verification/i
+
 /immediate identity verification required/i
 
 /reply.{1,10}e?.?mail.{1,10}confirm your details/i
@@ -63,6 +65,7 @@
 /verify.{1,10}identity.{1,20}account has been.{1,20}locked/i
 /verify.{1,15}your.{1,15}account immediately/i
 /verify.{1,10}your contact information/i
+/verify.{1,10}your.{1,15}account.{1,10}ensure/i
 
 # Account - Account & User options
 # ------------------------------------------------------------------------------

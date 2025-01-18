@@ -90,6 +90,7 @@
 /deutschen.?bahn/i
 
 /dhl-paket$/i
+/dhl.{0,5}\d{1,2}/i
 /dhl.{0,5}paketzentrum/i
 /dhl.{0,5}(express|germany|package)/i
 /(express|notification).{0,5}dhl/i

@@ -16,7 +16,7 @@
 /(important|notice|reminder).{1,10}(enable 2fa|update security)/i
 
 /set.?up (2fa|two.?factor).{1,10}authentication today/i
-/secure your account.{1,10}enable/i
+/secure your.{1,15}(account|profile).{1,10}enable/i
 
 #
 #
@@ -33,6 +33,7 @@
 # B
 
 # C
+/Changes to Your.{1,15}(account|profile)/i
 
 # D
 
@@ -47,6 +48,7 @@
 
 # I
 /important account (alert|update)/i
+/important information.{1,15}your.{1,15}(account|profile)/i
 
 # J
 
@@ -71,7 +73,7 @@
 # T
 
 # U
-/update for your account/i
+/updates? (about|for|to) your.{1,15}(account|profile)/i
 
 # V
 /verify.{1,10}your contact information/i
