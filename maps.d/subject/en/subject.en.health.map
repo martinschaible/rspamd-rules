@@ -20,7 +20,9 @@
 
 /second.{1,10}(daily|easy) trick/i
 
-/(secret|simple) (solution|trick).{1,15}(needs|reverses|to end)/i
+/(secret|simple) (hack|solution|trick).{1,15}(needs|reverses|to end)/i
+
+/(hack|solution|trick).{1,10}reverse/i
 
 #
 #
