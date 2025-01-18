@@ -238,7 +238,7 @@
 
 /(big|flat).{0,10}(belly|melting|size|stomage|tummy)/i
 
-/\d{1,2} (lbs|pounds) lighter/i
+/\d{1,2}.?(lbs|pounds) (gone|lighter)/i
 
 /slim.{0,10}(belly|body|down|waist)/i
 /(metabolic|surprising).{0,10}water/i

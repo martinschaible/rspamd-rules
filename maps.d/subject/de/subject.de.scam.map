@@ -23,6 +23,12 @@
 #
 /pers\. angebot vom/i
 
+# Comparing price for bank accounts
+# ------------------------------------------------------------------------------
+# -> They are stealing personal information
+/erinnerung.{1,10}zinsen im/i
+/zinsgutschrift.{1,20}in höhe von/i
+
 # Big Numbers
 # ------------------------------------------------------------------------------
 /\d{3,4}(\.|,)?\d{3,4}.{0,5}(dollars?|euro?|usd|€|\$|£).{1,10}wurden ihnen gespendet/i
@@ -103,7 +109,9 @@
 
 # S
 /sie haben.{1,10}\d{3,4}(\.|,)?\d{3,4}.{0,5}(dollars?|euro?|usd|€|\$|£).{1,10}gewonnen/i
+
 /spende.{1,5}donation/i
+/spende.{1,10}von.{1,10}\d{2,3}(\.|,)?\d{2,3}/i
 
 # T
 
