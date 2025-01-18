@@ -10,6 +10,18 @@
 # ------------------------------------------------------------------------------
 /endurancer24/i
 
+# Hacks, Tricks, Secrets and other lies
+# ==============================================================================
+/ancient egyptian secret/i
+/japanese.{1,10}trick/i
+/minute hack/i
+
+/(daily|easy).{1,10}second trick/i
+
+/second.{1,10}(daily|easy) trick/i
+
+/(secret|simple) (solution|trick).{1,15}(needs|reverses|to end)/i
+
 #
 #
 #
@@ -20,7 +32,6 @@
 /20.?20.{1,10}vision/i
 
 # A
-/ancient egyptian secret/i
 /ancient hack/i
 
 # B
@@ -29,6 +40,7 @@
 /big o$/i
 
 # C
+/constipation.{1,10}read this/i
 
 # D
 /daily fat loss/i
@@ -36,9 +48,8 @@
 /drink this.{1,15}(before|to)/i
 
 # E
-/easy.{1,10}second trick/i
-
 /eat this.{1,15}fruit/i
+/end.{1,10}ear buzzing/i
 
 /energized.{1,10}pain.?free/i
 
@@ -60,7 +71,6 @@
 /improve memory (instantly|in.{1,15}seconds)/i
 
 # J
-/japanese.{1,10}trick/i
 
 # K
 
@@ -73,8 +83,6 @@
 
 /melt fat every/i
 /melts.{1,10}fat fast/i
-
-/minute hack/i
 
 /mute.{1,10}tinnitus/i
 
@@ -92,14 +100,14 @@
 # R
 /reclaim perfect vision/i
 /restores perfect memory/i
-/(reverse|reversing).{1,10}(diabetes|memory)/i
+/(reverse|reversing).{1,10}(diabetes|ed\b|memory)/i
 
 /rock.?solid in just/i
 
 # S
+
 /silence knee pain/i
 /silences tinnitus/i
-/simple solution.{1,15}needs/i
 /skin.{1,10}transformation/i
 /stuck poop/i
 
