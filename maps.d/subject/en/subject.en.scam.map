@@ -12,7 +12,6 @@
 /\d{2,4}(\.|,)?\d{3,4}.{1,10}(€|dollars|euro|usd)/i
 /\d{2,4}(\.|,)?\d{3,4}.{1,10}(for you|reply now)/i
 
-/\(\)/i
 # Donation
 # ------------------------------------------------------------------------------
 
@@ -45,7 +44,7 @@
 # D
 /dear esteemed winner/i
 /discover.{1,10}winning/i
-/donation (claim|fund)/i
+/donation.{1,10}(claim|fund)/i
 
 # E
 
