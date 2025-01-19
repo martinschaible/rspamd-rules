@@ -36,6 +36,8 @@
 /(entschädigung|überweisen|überweisung|vergütung).{1,10}\d{3,4}(\.|,)?\d{3,4}.{0,5}(dollars?|euro?|usd|€|\$|£)/i
 /(entschädigung|überweisen|überweisung|vergütung).{1,10}(dollars?|euro?|usd|€|\$|£){0,5}\d{3,4}(\.|,)?\d{3,4}/i
 
+/investitions.?fonds.{1,10}\d{3,4}(\.|,)?\d{3,4}.{0,5}(dollars?|euro?|usd|€|\$|£)/i
+
 # Business register
 # ------------------------------------------------------------------------------
 /(publikation|schaltung|veröffentlichung).{1,10}(branchen.?führer|firmen.?eintrag)/iu

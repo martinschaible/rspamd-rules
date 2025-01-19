@@ -13,7 +13,6 @@
 /(guten tag|lieber kunde|sehr geehrter kunde).{1,10}ihr.{1,10}(dhl|post).{1,10}paket/i
 /(guten tag|lieber kunde|sehr geehrter kunde).{1,10}wir haben versucht.{1,10}ihre bestellung/i
 
-
 /sendungsstatus.{1,10}lieber kunde/i
 
 # Missing, wrong address
@@ -251,6 +250,7 @@
 /versandgebühr.{1,10}ihre bestellung.{1,10}nicht erhalten/i
 
 /zahlung werden wir.{1,15}die erneute zustellung/i
+/zahlung jetzt durchführen/i
 
 /zusatzkosten.{1,10}um die lieferung ihres pakets/i
 /zusätzliche.{1,10}gebühr informieren/iu
@@ -260,6 +260,7 @@
 /zustellung.{1,10}(paket|sendung).{1,10}bestätigung.{1,10}zahlung/iu
 /zustellung.{1,10}eine (geringe|zusätzliche).{1,10}gebühr anfallen kann/iu
 /zustellung.{1,10}eine (geringe|zusätzliche).{1,10}gebühr von.{1,15}anfällt/iu
+/zustellung.{1,10}ihres pakets eine gebühr von/iu
 /zustellung.{1,10}ihrer sendung zu vermeiden.{1,10}zum bezahlen/i
 /zustellung.{1,10}ist eine.{1,15}(bearbeitungs|rücksende).{0,15}gebühr/i
 
@@ -299,6 +300,9 @@
 /versandfertig.{1,10}enthält.{1,10}iphone 14 pro/i
 /was ist in meinem paket.{1,10}iphone/i
 
+# Companies
+# ------------------------------------------------------------------------------
+/dhl.{1,10}zahlungsaufforderung/i
 
 # Tracking
 # ------------------------------------------------------------------------------
