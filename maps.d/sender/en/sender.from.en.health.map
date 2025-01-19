@@ -163,7 +163,7 @@
 # ------------------------------------------------------------------------------
 /memory.{0,10}(booster|cure|hack|enhancement|improver|improvement|laps(es)?|loss)/i
 /memory.{0,10}(problem|protection|restore|revive|saving|strengthener|tonic)/i
-/(excellent|future|poor|restore|sharp|your).{0,10}memory/i
+/(excellent|fading|future|poor|restore|sharp|your).{0,10}memory/i
 
 # Pain
 # ------------------------------------------------------------------------------
@@ -531,7 +531,7 @@
 /spiky.{0,10}fruit/i
 /stay.{0,10}(asleep|hard|slim)/i
 /stinky.{0,10}breath/i
-/stop.{0,10}(eating|flossing)/i
+/stop.{0,10}(breating|brushing|flossing)/i
 /stroke.{0,10}indication/i
 
 /strong(er)?.{0,10}(hair|immunity)/i

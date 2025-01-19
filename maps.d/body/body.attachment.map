@@ -62,7 +62,7 @@
 
 # The unique ones
 /\.img\.gz/i
-/\.jpg\.html/i
+/\.(jpg|pdf)\.html/i
 /\.r09\.rar/i
 /\.xlsx\.t?gz/i
 

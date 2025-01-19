@@ -93,8 +93,10 @@ fettverbrenner/i
 
 # H
 /^hallo$/i
-
+/:hallo/i
 /handlungsaufforderung/i
+
+/:hey/i
 
 # I
 /investitionsspende/i
@@ -189,6 +191,7 @@ fettverbrenner/i
 
 # U
 /übersetzungsbüro/iu
+/^übertragen$/i
 /unternehmensdatenbank/i
 
 # V
