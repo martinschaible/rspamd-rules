@@ -16,7 +16,7 @@
 /japanese.{1,10}trick/i
 /minute hack/i
 
-/(daily|easy).{1,10}second trick/i
+/(daily|easy|odd).{1,10}second trick/i
 
 /second.{1,10}(daily|easy) trick/i
 
@@ -57,6 +57,7 @@
 /erase artery plaque/i
 
 # F
+/fix back pain/i
 
 # G
 /get hard on demand/i
@@ -102,12 +103,15 @@
 
 # R
 /reclaim perfect vision/i
+
+/remedy unleashes your/i
 /restores perfect memory/i
 /(reverse|reversing).{1,10}(diabetes|ed\b|memory)/i
 
 /rock.?solid in just/i
 
 # S
+/second.{1,10}home remedy/i
 
 /silence knee pain/i
 /silences tinnitus/i
@@ -117,7 +121,7 @@
 # T
 /the secret ingredient/i
 /this cuts heart attack/i
-/this easy stretch/i
+/this (easy|simple) stretch/i
 
 /trick melts.{1,10}fat/i
 
