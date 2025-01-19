@@ -8,9 +8,11 @@
 
 # Greetings
 # ------------------------------------------------------------------------------
+/^guten (abend|tag)$/i
+
 /guten (abend|tag).?$/i
 /guten (abend|tag).?\[/i
-/^guten (abend|tag)$/i
+/guten (abend|tag) (frau|herr)/i
 
 /hallo -/i
 /hallo.{1,10}herr.{1,5}frau/i
@@ -19,6 +21,7 @@
 /lieber herr/i
 
 /sehr geehrte damen und herren/i
+/(guten tag|hallo|sehr geehrter?).{1,20}(begünstigter|e?.?mail|empfänger|kunde)/iu
 
 # Hiring people
 # ------------------------------------------------------------------------------

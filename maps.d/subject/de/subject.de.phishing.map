@@ -25,6 +25,9 @@
 # ==============================================================================
 
 # A
+/(aktualisieren|erneuern|prüfen).{1,10}ihre.{1,15}(adress|kontakt|zahlungs).?informationen/i
+/aktualisierung.{1,10}ihrer.{1,10}(kontakt|zahlungs).?informationen/i
+
 /aktualisierung ihrer telefonnummer/i
 
 /anspruch.{1,15}steuer(rück)?erstattung/i
@@ -38,6 +41,8 @@
 #/bestätigung erforderlich/i
 
 /bestellnummer.{1,15}bestätigt/i
+
+/betreff.{1,10}prüfen sie/iu
 
 # C
 
