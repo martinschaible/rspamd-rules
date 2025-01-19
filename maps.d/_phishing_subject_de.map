@@ -21,7 +21,6 @@
 # ------------------------------------------------------------------------------
 /aktualisieren ihres.{1,15}(kontos|profils)/i
 /aktualisieren sie.{1,10}ihre.{1,15}(daten|informationen|kontoangaben)/i
-/aktualisieren.{1,15}erforderlichen zahlungsinformationen/i
 
 /aktualisierung erforderlich!/i
 /aktualisierung erforderlich.{1,15}sichern sie ihr.{1,15}konto/i
@@ -114,14 +113,12 @@
 /wichtig.{1,10}(konto|profil).?informationen/i
 /wichtige warnung.{1,10}ihr.{1,10}konto/i
 
-
 /halten sie ihre unternehmensinformationen/iu
 
 # Account - Payment options
 # ------------------------------------------------------------------------------
 /aussetzung.{1,10}zahlungsmethoden/i
 /dringend.{1,10}zahlungsdetails aktualisieren/i
-/erneuern sie ihre zahlungsinformationen/i
 
 # Cards
 # ------------------------------------------------------------------------------
@@ -204,7 +201,6 @@
 
 /aktualisieren.{1,10}sie ihre.{1,10}daten von/i
 /aktualisierung.{1,10}erforderlich.{1,10}konto/i
-/aktualisierung.{1,10}ihrer.{1,10}kontaktinformationen/i
 /aktualisierung.{1,10}kontodaten erforderlich/i
 
 /verifizierung ihres.{1,15}kontos.{1,10}(erforderlich|jetzt)/i
