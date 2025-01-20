@@ -128,6 +128,9 @@
 # H
 /(hetzner|hermes|hornbach).?(™|®|©)$/i
 
+# Note relevant in Europe
+/home.?warranty/i
+
 # I
 /^ing$/i
 /ihk.?(™|®|©)?$/i
