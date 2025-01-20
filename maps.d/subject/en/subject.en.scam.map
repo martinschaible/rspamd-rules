@@ -8,8 +8,6 @@
 
 # Big Numbers
 # ------------------------------------------------------------------------------
-# -> go there: subject.special.map
-
 /\d{2,4}(\.|,)?\d{3,4}.{1,10}(for you|reply now)/i
 
 # Donation
@@ -18,10 +16,6 @@
 # Orders
 # ------------------------------------------------------------------------------
 /(brochure|catalog|catalogue).{1,10}request/i
-
-# Winning
-# ------------------------------------------------------------------------------
-/your e?.?mail.{1,15}has won sum of/i
 
 #
 #
@@ -45,8 +39,6 @@
 /covid.{1,10}relief.?package/i
 
 # D
-/dear esteemed winner/i
-/discover.{1,10}winning/i
 /donation.{1,10}(claim|fund)/i
 
 # E
@@ -115,23 +107,13 @@
 # V
 
 # W
-/win.{1,10}(dollars?|euro?|usd|€|\$|£) (for)?.{1,10}tonight/i
-/win (dollars?|euro?|usd|€|\$|£).{0,5}\d{2,4} for/i
 
 # X
 
 # Y
-/you could win/i
-/you have won/i
-
-/you win$/i
-
 /your.{1,10}e?.?mail.{1,15}has.{1,15}been.{1,15}selected/i
-/your.{1,10}e?.?mail.?address has won/i
 /your.{1,10}e?.?mail.?id/i
 
 /your.{1,10}compensation has been/i
-
-/your.{1,10}winning prize/i
 
 # Z
