@@ -93,8 +93,9 @@
 
 # K
 /konto mit einem betrag/i
-
 /kostenloser? hilfsfonds/i
+# Subject: "$SLD Konto im Minus?"
+/^[^\s]+ konto im minus\?$/i
 
 # L
 
