@@ -188,10 +188,6 @@
 # Amazon
 # Real Sender: "Amazon.de"
 
-# ADAC
-/adac.{0,5}kreditkarte/i
-/kreditkarte.{0,5}online/i
-
 # Parcel
 /(dtn\b|fedex|mydpd|swiss).{0,10}(abteilung|lieferung|versand)/i
 
