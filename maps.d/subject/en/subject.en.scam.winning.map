@@ -6,6 +6,22 @@
 # Topics
 # ==============================================================================
 
+# Organisations and Programs
+# ------------------------------------------------------------------------------
+/bonanza.{1,10}madrid/i
+/euro lottery winner/i
+/google.{1,15}reward/i
+/facebook 202\d/i
+
+# Lottery
+# ------------------------------------------------------------------------------
+/(lottery|lotto).{1,10}promotion prize/i
+/(lottery|lotto).{1,10}win.{1,10}\d{3,4}(\.|,)?\d{3,4}.{1,15}with/i
+
+/covid.{1,10}(lottery|lotto)/i
+/winning.{1,10}e?.?mail.{1,10}(lottery|lotto)/i
+/wins lottery draw/i
+
 #
 #
 #
@@ -63,6 +79,9 @@
 # W
 /win.{1,10}(dollars?|euro?|usd|€|\$|£) (for)?.{1,10}tonight/i
 /win (dollars?|euro?|usd|€|\$|£).{0,5}\d{2,4} for/i
+
+/win.{1,10}\d{3,4}(\.|,)?\d{3,4}.{1,15}today/i
+/winning.{1,15}(formula|number|reference)/i
 
 # X
 
