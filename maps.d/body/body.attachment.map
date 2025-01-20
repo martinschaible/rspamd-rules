@@ -19,7 +19,7 @@
 #/inv(oice)?.?\d{0,10}\.((?!pdf$)[^.]*)/i
 #/(receipt|winner).?\d{0,10}\.((?!pdf$)[^.]*)/i
 
-/(inquiry|invoice|order|proforma|quotation|receipt|request).{0,25}\.(7z|gz|r16|rar|zip)/i
+/(inquiry|invoice|order|proforma|quotation|receipt|request).{0,25}\.(7z|gz|r16|rar|tar|zip)/i
 
 /rechnung.{0,25}\.(7z|gz|rar|zip)/i
 
@@ -50,6 +50,7 @@
 
 # Pattern
 # ------------------------------------------------------------------------------
+/detail.{0,10}specification/i
 /stock.{0,10}offer/i
 /quotation#/i
 
