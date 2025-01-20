@@ -97,10 +97,14 @@
 /deutsche.?bnk/i
 /deutschen.?bahn/i
 
+/d\.h\.l/i
+
 /dhl-paket$/i
 /dhl.{0,5}\d{1,2}/i
 /dhl.{0,5}paketzentrum/i
 /dhl.{0,5}(express|germany|package)/i
+/dhl.?ups/i
+
 /(express|notification).{0,5}dhl/i
 
 /die-post/i
@@ -141,6 +145,8 @@
 /ＪＡネットバンク/i                     # 19.12.24 - JA Net Bank
 
 /^jcb/i
+/jcbカ/i
+/my.?jcb/i
 
 # K
 /kaufland.?(™|®|©)$/i
