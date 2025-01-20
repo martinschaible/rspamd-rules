@@ -64,15 +64,12 @@
 # R
 /reminder.{1,10}action required/i
 /request for quotation from/i
-/review incoming.{1,10}(e?.?mail|message)/i
 
 # S
 
 # T
 
 # U
-/undeliverable.{1,10}outgoing e?.?mail failed/i
-/unread important.{1,10}(e?.?mail|message)/i
 
 # V
 
@@ -84,4 +81,3 @@
 # Y
 
 # Z
-/you have.{1,10}unread (e?.?mail|message) from/i
