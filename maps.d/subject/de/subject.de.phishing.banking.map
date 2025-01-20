@@ -21,7 +21,10 @@
 # A
 /aufforderung zur datenprüfung/i
 /aktivieren sie 2fa/i
-/authentifizierung für ihre karte/iu
+
+/aussetzung ihrer.{1,15}(kredit)?karte/i
+
+/authentifizierung für ihre.{1,15}(kredit)?karte/iu
 
 # B
 

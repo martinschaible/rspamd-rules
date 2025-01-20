@@ -8,8 +8,8 @@
 
 # Big Numbers
 # ------------------------------------------------------------------------------
-/\d{1,2} mio (dollars?|euro?|usd|€|\$|£)$/i
-/\d{2,4}(\.|,)?\d{3,4}.{1,10}(€|dollars|euro|usd)/i
+# -> go there: subject.special.map
+
 /\d{2,4}(\.|,)?\d{3,4}.{1,10}(for you|reply now)/i
 
 # Donation
