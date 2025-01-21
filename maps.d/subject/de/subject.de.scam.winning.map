@@ -72,6 +72,8 @@
 # S
 /sie haben.{1,10}\d{3,4}(\.|,)?\d{3,4}.{0,5}(dollars?|euro?|usd|€|\$|£).{1,10}gewonnen/i
 /sie haben.{1,10}\d{3,4}(\.|,)?\d{3,4}.{0,5}.{1,15}gewonnen/i
+
+/sie haben gewonnen$/i
 /sie haben bei.{1,15}gewonnen/i
 
 /sie sind der.{1,15}gewinner/i

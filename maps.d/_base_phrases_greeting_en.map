@@ -25,6 +25,7 @@
 /(dear|hello|hi).{1,10}(madam|sir).{1,10}we got your name/i
 
 /(dear|hello|hi).{1,15}(director|manager|purchaser|respected|supplier).{1,10}do you need/i
+/(dear|hello|hi).{1,15}(director|manager|purchaser|respected|supplier).{1,20}founded in/i
 /(dear|hello|hi).{1,15}(director|manager|purchaser|respected|supplier).{1,10}good day/i
 /(dear|hello|hi).{1,15}(director|manager|purchaser|respected|supplier).{1,10}hope you are/i
 /(dear|hello|hi).{1,15}(director|manager|purchaser|respected|supplier).{1,10}how (do you do|are you)/i
