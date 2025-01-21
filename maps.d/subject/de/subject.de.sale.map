@@ -111,6 +111,7 @@
 /steigern sie.{1,10}umsatz sofort/i
 
 # T
+/\d{2,4}.{1,10}teiliges.{1,15}set/i
 /teiliges werkzeug.?set/i
 /tragbare heizung/i
 
@@ -119,6 +120,12 @@
 # V
 
 # W
+/werkzeug.?set.{1,20}(für|mit|teilen)/i
+/werkzeug.?set.{1,20}jetzt sichern/i
+
+/werkzeug.{1,10}(highlight|upgrade)/i
+
+/teilige(n|s).{1,20}werkzeug.?set/i
 
 # X
 

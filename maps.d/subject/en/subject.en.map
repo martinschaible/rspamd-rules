@@ -26,6 +26,8 @@
 /growth.{1,10}stock opportunity/i
 /unveil the stock market/i
 
+/stock.?symbol.{1,5}\$\d{4}/i
+
 # Symbol
 /\$.{1,10}delivers big/i
 
