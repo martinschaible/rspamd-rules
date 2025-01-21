@@ -93,6 +93,7 @@
 # X
 
 # Y
+/your business on wikipedia/i
 /your lead potential/i
 /your ultimate urban/i
 
@@ -120,13 +121,15 @@
 /electronic components supply/i
 /^electronic components$/i
 
+/expert.{1,10}mold/i
+
 # F
 /fiberglass fabric from/i
 
 /freight services.{1,10}tailored/i
 
 # G
-/your business on wikipedia/i
+/good pcba?.?supplier/i
 
 # H
 
@@ -140,7 +143,7 @@
 # L
 
 # M
-/multilayer pcb.{1,10}manufacturing/i
+/multilayer pcba?.{1,10}manufacturing/i
 /multiple freight solutions/i
 
 # N
@@ -150,10 +153,12 @@
 # P
 /parts in china/i
 
-/pcba? (assembly|enquiry|factory|manufacturing|provider)/i
+/pcba?.{1,10}(assembly|enquiry|factory|manufacturing|provider)/i
+
+/prototype manufacturer?/i
 
 # Q
-/quotation of.{1,10}(multilayer)? pcba?/i
+/quotation of.{1,10}(multilayer)?.{1,10}pcba?/i
 
 # R
 /rfq.{1,15}(injection|moulding|plastic)/i
