@@ -47,6 +47,7 @@
 # F
 /fund(ing).?.{1,10}(donation|opportunity|recovered)/i
 /fund.{1,10}million/i
+/funds for you/i
 
 # G
 
@@ -117,5 +118,7 @@
 /your.{1,10}e?.?mail.?id/i
 
 /your.{1,10}compensation has been/i
+
+/your.{1,10}company for vendor/i
 
 # Z

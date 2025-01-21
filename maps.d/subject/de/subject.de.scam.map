@@ -37,6 +37,7 @@
 /(entschädigung|geschäftsvorschlag|überweisen|überweisung|vergütung).{1,10}(dollars?|euro?|usd|€|\$|£){0,5}\d{3,4}(\.|,)?\d{3,4}/i
 
 /investitions.?fonds.{1,10}\d{3,4}(\.|,)?\d{3,4}.{0,5}(dollars?|euro?|usd|€|\$|£)/i
+/spende von.{1,10}\d{3,4}(\.|,)?\d{3,4}.{0,5}millionen/i
 
 # Business register
 # ------------------------------------------------------------------------------
@@ -116,6 +117,8 @@
 # S
 /spende.{1,5}donation/i
 /spende.{1,10}von.{1,10}\d{2,3}(\.|,)?\d{2,3}/i
+
+/spendengelder an sie/i
 
 # T
 
