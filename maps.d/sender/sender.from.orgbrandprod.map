@@ -81,6 +81,8 @@
 # P
 /pfizer.?(™|®)?$/i
 /poliglu/i
+
+/premium.{0,10}box/i                    # 01.01.25 - Premium Box GmbH
 /purchase?.?dep\.?$/i
 
 # Q

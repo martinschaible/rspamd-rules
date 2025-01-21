@@ -29,6 +29,8 @@
 # A
 /abnehm.{0,10}quiz/i
 
+/^apotheke.{0,10}newsletter/i
+
 # B
 /blut.{0,10}(druck|gesundheit|hochdruck)/i
 /blutzucker/i
@@ -42,6 +44,8 @@
 /(deutsche|neue).{0,10}gesundheit/i
 
 /diabetes.{0,10}(ernährung|lösung)/iu
+
+/doktor.?versand/i
 
 # E
 
@@ -102,6 +106,8 @@
 
 # V
 /venen.{0,10}gesunde?/i
+
+/versand.?apotheke$/i
 /verstopfter.{0,10}darm/i
 
 # W
