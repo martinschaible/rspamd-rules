@@ -26,7 +26,6 @@
 /(rituals|shein|zalando).{0,10}mystery.?box/i
 /(die|eine).{1,10}mystery.?box/i
 
-
 #
 #
 #
@@ -54,7 +53,8 @@
 /du bist (der|ein).{1,15}gewinner bei/i
 /du bist unser gewinner/i
 
-/du wurdest ausgewählt/iu
+/(du|sie) (wurden|wurdest) ausgewählt/iu
+#/glückwunsch.{1,10}sie wurden ausgewählt/iu
 
 # E
 /ein.{5,20}gehört Ihnen/i
@@ -73,6 +73,7 @@
 
 /gewinn.{1,10}zeitlich begrenzt(es)?/i
 /gewinne ein kostenloses/i
+
 /gewinner.{1,20}bekannt.?gegeben/i
 /gewinner.{1,15}monatswettbewerbs/i
 /gewinner.{1,15}wöchentlichen wettbewerbs/i
@@ -95,8 +96,7 @@
 /ihr.{1,10}geschenk ist bereit/i
 /ihr.{1,10}gewinn wartet/i
 /ihr.{1,10}neuer.{1,20}im wert/i
-/ihr.{1,20}wartet auf sie/i
-/ihr.{1,20}wartet noch auf sie/i
+/ihr.{1,20}wartet.{1,10}auf sie/i
 /ihr.{1,20}wartet.{1,10}sichern sie es/i
 
 /ihre? kostenloses?.{5,20}wartet/i
@@ -147,7 +147,6 @@
 /sie haben ein.{1,10}(ipad|iphone)/i
 
 /sie haben ein{1,15}geschenk erhalten/i
-/sie haben gewonnen$/i
 
 /sie können ein.{5,35}erhalten/i
 
