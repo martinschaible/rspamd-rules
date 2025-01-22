@@ -24,6 +24,8 @@
 
 # A
 /aktualisieren sie.{1,10}ihre?.{1,15}(konto(informationen)?|profil)/i
+/aktualisierung.{1,10}ihrer.{1,10}kontoinformationen/i
+
 /aktualisierung.{1,10}erforderlich.{1,20}konto.{1,10}(gesperrt|stillgelegt)/i
 /aktualisierung.{1,10}überprüfen sie/i
 
@@ -82,6 +84,8 @@
 # S
 /sicherheitsupdate.{1,10}überprüfen sie ihr/i
 
+/swisspass.{1,10}überprüfen sie/iu
+
 # T
 
 # U
@@ -89,8 +93,9 @@
 /update erforderlich/i
 /update.{1,10}kontosicherheit/i
 
-/überprüfen sie ihre.{1,15}daten jetzt/i
-/überprüfen sie ihr.{1,15}(konto|profil)/i
+/überprüfen sie ihre.{1,15}daten jetzt/iu
+/überprüfen sie ihr.{1,15}(konto|profil)/iu
+/überprüfen sie ihre.{1,15}(kontodaten|persönlichen daten)/iu
 
 # V
 

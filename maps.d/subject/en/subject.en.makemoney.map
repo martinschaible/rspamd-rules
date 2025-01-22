@@ -8,7 +8,8 @@
 
 # Bitcoin, KI
 # ------------------------------------------------------------------------------
-/(bitcoin|btc|crypto|krypto).{0,10}(insider|insights|invest(ment)?|portfolio|trader)/i
+/(bitcoin|btc|crypto|krypto).{0,10}(insider|insights|invest(ment)?)/i
+/(bitcoin|btc|crypto|krypto).{0,10}(movement|portfolio|revolution|trader)/i
 /bitcoin.?etf/i
 
 # ETF (Exchange Traded Funds)
