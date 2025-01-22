@@ -361,32 +361,6 @@ grill.{1,10}statt.{1,10}nur/i
 
 /(kleiner preis|ihren|neuen|neuer).{1,10}(tisch|turnier).?kicker/i
 
-# Umbrellas
-# ------------------------------------------------------------------------------
-/(ampel|sonnen|terrassen).?schirme.{1,20}(eleganz|garten|geschmack|jeden|jetzt|schutz)/i
-/(ampel|sonnen|terrassen).?schirme.{1,20}(preiswert|sichern|sonderangebot|sonderkondition|sonderpreis|vorteilpreis)/i
-/(ampel|sonnen|terrassen).?schirme.{1,20}meter/i
-/(ampel|sonnen|terrassen).?schirme.{1,20}nur.{1,10}\d{2,3}/i
-
-/regen.{1,10}(ampel|sonnen|terrassen).?schirme/i
-
-/(design|deluxe|entdecken|exklusive|hochwertige|jetzt|premium|reduziert).{1,20}(ampel|sonnen|terrassen).?schirme/i
-/(sale|sichern|sommer|sonderangebot|sonderkondition|sonderpreis|sonnenschutz|special|spezial).{1,20}(ampel|sonnen|terrassen).?schirme/i
-/(frei haus|unsere|vorteilpreis).{1,20}(ampel|sonnen|terrassen).?schirme/i
-
-/sonnenschutz.{1,20}(balkon|garten|terrasse)/i
-
-# Vacuum Cleaner
-# ------------------------------------------------------------------------------
-/mobiler.{1,15}hochdruckreiniger/i
-
-# WiFi
-# ------------------------------------------------------------------------------
-/tragbaren.{1,10}hochgeschwindigkeits.?wlan.?router/i
-/(holen sie sich|ihr eigenes|jederzeit|tragbares).{1,10}(wi.?fi|wlan)/i
-
-/diese japanische erfindung/i
-
 #
 #
 #
