@@ -61,6 +61,7 @@
 
 # K
 /konto stillgelegt/i
+/kontosicherheit.{1,5}ref\./i
 /kontosperrung zu vermeiden/i
 
 # L
@@ -86,6 +87,7 @@
 # U
 /um den service fortzusetzen/i
 /update erforderlich/i
+/update.{1,10}kontosicherheit/i
 
 /überprüfen sie ihre.{1,15}daten jetzt/i
 /überprüfen sie ihr.{1,15}(konto|profil)/i

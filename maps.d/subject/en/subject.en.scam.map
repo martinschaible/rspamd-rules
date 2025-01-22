@@ -43,6 +43,7 @@
 
 # E
 /^european commission$/i
+/(eu|world).?(business|company).?(directory|register)/i
 
 # F
 /fund(ing).?.{1,10}(donation|opportunity|recovered)/i
@@ -114,6 +115,8 @@
 # X
 
 # Y
+/yellow.?pages.?web.{1,10}registration/i
+
 /your.{1,10}e?.?mail.{1,15}has.{1,15}been.{1,15}selected/i
 /your.{1,10}e?.?mail.?id/i
 
