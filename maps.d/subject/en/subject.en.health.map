@@ -12,7 +12,8 @@
 
 # Hacks, Tricks, Secrets and other lies
 # ==============================================================================
-/ancient egyptian secret/i
+/ancient.{1,15}(secret|hack)/i
+
 /japanese.{1,10}trick/i
 /minute hack/i
 
@@ -20,9 +21,11 @@
 
 /second.{1,10}(daily|easy) trick/i
 
-/(secret|simple) (hack|solution|trick).{1,15}(needs|reverses|to end)/i
+/(secret|simple).{1,10}(hack|solution|trick).{1,15}(activate|needs|reverses|to end)/i
 
-/(hack|solution|trick).{1,10}reverse/i
+/(hack|secret|solution|trick).{1,10}(extends|reverse|to boost)/i
+
+/with.{1,10}simple method/i
 
 #
 #
@@ -55,6 +58,7 @@
 /drink this.{1,15}(before|to)/i
 
 # E
+/ease nerve pain/i
 /eat this.{1,15}fruit/i
 /end.{1,10}back pain/i
 /end.{1,10}ear buzzing/i
