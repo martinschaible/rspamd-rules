@@ -39,11 +39,13 @@
 /installierte ich.{1,10}trojaner erfolgreich/i
 /installierte ich.{1,10}trojaner.?virus/i
 
-/mein (trojaner|virus) hat/i
+/mein (trojaner|virus) (hat|ist)/i
 /meine spyware ist/i
 /meinem privaten trojaner/i
 
 /sie für.{1,10}internet.?browsing.{1,10}verwenden/i
+
+/habe ich unbefugten zugriff/i
 
 #
 /daten wurden auf meine.{1,10}server kopiert/i
@@ -57,6 +59,7 @@
 
 #
 /ich sehe ihren bildschirm/i
+/seitdem verfolge ich.{1,10}ihre.{1,10}online/i
 
 # Payment
 # ------------------------------------------------------------------------------

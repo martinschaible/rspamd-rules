@@ -41,7 +41,7 @@
 
 # Business register
 # ------------------------------------------------------------------------------
-/(publikation|schaltung|veröffentlichung).{1,10}(branchen.?führer|firmen.?eintrag)/iu
+/(publikation|schaltung|veröffentlichung|werbeanzeige).{1,10}(branchen.?führer|firmen.?eintrag)/iu
 /(branchen.?führer|firmen.?eintrag).{1,10}werbeannonce/i
 
 # Donation
