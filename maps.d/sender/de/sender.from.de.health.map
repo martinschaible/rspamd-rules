@@ -51,7 +51,7 @@
 
 # F
 /fett.{0,10}schnell/i
-/(fuss|fuß).{0,10}pflaster/iu
+/(fuss|fuß).{0,10}(pflaster|pro)/iu
 
 # G
 /gelenk.{0,10}(gesundheit|pflege)/i
@@ -110,9 +110,12 @@
 /versand.?apotheke$/i
 /verstopfter.{0,10}darm/i
 
+/vital.?pro/i
+
 # W
 /weniger in.{1,10}(tagen?|wochen?)/i
 /wichtige?.{0,10}covid/i
+/wohl.{1,10}vital/i
 
 # X
 
