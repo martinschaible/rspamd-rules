@@ -106,6 +106,8 @@
 # L
 /ladies and gentlemen/i
 
+/^let me know$/i
+
 /loan.{1,5}\d{2}\/\d{2}\/\d{2,4}/i
 /loan.{1,5}financing/i
 
@@ -136,6 +138,8 @@
 # Q
 
 # R
+/read carefully/i
+
 /recommend reading this e?.?mail/i
 /remain blessed/i
 /reply for full details/i
