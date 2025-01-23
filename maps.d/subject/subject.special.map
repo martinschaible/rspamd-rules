@@ -38,38 +38,56 @@
 # Sample: Hallo 111.118.177.133
 /[a-z]{5,15} \d{3}\.\d{3}\.\d{3}(\b|$)/i
 
-# Multiple special characters and silly combinations
+# Multiple special characters
 # ------------------------------------------------------------------------------
 # -> Theses RegEx might be constructed easier and better
 
 # 25.12.24 - DLH uses this: "Jetzt Live verfolgen..."
 #/\.\.\?/i
 
+# Three question marks
 /\?\?\?/i
 
+# Three exlamation marks
 /!!!/i
+
+# Three commas
 /,,,/i
+
+# Three underscores
 /___/i
+
+# Three hyphens
 /---/i
 
+# Multiple special characters in silly combinations
+# ------------------------------------------------------------------------------
+# -> Theses RegEx might be constructed easier and better
+
+# Exclamation mark and a backslash
 /!\\/i
 
+# Exclamation mark and a slash
+/!\//i
+
+# Backslash, question mark an a period 
 /\\.?\./i
-
-/!\.!/?
-
-/!\\/^/i
 
 /\.\.(\/\/|!!)/i
 
+# Three periods and a question mark 
 /\.\.\.\?/i
 
+# Two periods and a exclamation mark at the end of the line
 /\.\.!\$/i
 
-# A subject does never start with this
-/^(,|\.|\$)/i
+# A subject does never start with a special character
+/^(,|\.|!|\$)/i
 
 # Text in brackets
+# ------------------------------------------------------------------------------
+# -> Theses RegEx might be constructed easier and better
+
 /\[.?e.?mail.?\]/i
 /\[(confidential|donation|letter|offer|proposal|urgent|warning)\]/i
 /\{(confidential|donation|letter|offer|proposal|urgent|warning)\}/i
@@ -80,7 +98,6 @@
 /\{(belohnen|erinnerung|wichtig)\}/i
 
 /\[special.?offer\]/i
-/\] warning/i
 
 # Too many False/Positives 
 #/[a-z]{5,15}(!!|\.\.)/i
@@ -96,9 +113,6 @@
 
 # False/Positives seen 
 #/\([a-z]{2,15}\)/i
-
-/proposal\.\./i
-/proposal.?!!/i
 
 # Emoji
 # ------------------------------------------------------------------------------
