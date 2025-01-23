@@ -13,9 +13,17 @@
 # Donation
 # ------------------------------------------------------------------------------
 
-# Orders
+# Orders (Temporary)
 # ------------------------------------------------------------------------------
 /(brochure|catalog|catalogue).{1,10}request/i
+/urgent request.{1,10}quote/i
+
+/rfq.{1,15}po.{1,5}requiremnts/i
+/rfq-?.?\d{2,10}/i
+/rfq\//i
+
+/request for quotation from/i
+/vendor procurement project/i
 
 #
 #
@@ -98,8 +106,6 @@
 # R
 /read carefully/i
 
-/rfq-?.?\d{2,10}/i
-
 # S
 /seeking.{1,10}your.{1,10}assistance/i
 
@@ -108,8 +114,6 @@
 # U
 /unclaimed funds/i
 
-/urgent request.{1,10}quote/i
-
 # V
 
 # W
@@ -117,13 +121,14 @@
 # X
 
 # Y
-/yellow.?pages.?web.{1,10}registration/i
+/yellow.?pages.{1,15}registration/i
 
 /your.{1,10}e?.?mail.{1,15}has.{1,15}been.{1,15}selected/i
 /your.{1,10}e?.?mail.?id/i
 
+/your.{1,10}company for vendor/i
 /your.{1,10}compensation has been/i
 
-/your.{1,10}company for vendor/i
+/your yellow pages/i
 
 # Z
