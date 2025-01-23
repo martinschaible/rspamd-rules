@@ -22,8 +22,7 @@
 # Forwarder
 /\/global_outurl\.php/i
 
-/\/inddex\.(html|php)/i
-/\/indexx\.(html|php)/i
+/\/indd(e|x)x\.(html|php)/i
 
 /\/investieren\.(html|php)/i
 /\/invest(ment)?\.(html|php)/i
@@ -68,22 +67,22 @@
 #          redisdfrect.html
 #          redirdsfect.html
 #          sfsdfect.html
-/\/(red|sfs)[a-z]{2,5}ect\.html/i
+#/\/(red|sfs)[a-z]{2,5}ect\.html/i
 
 # Samples:  sdfrect.html
 #          sdfsdfct.html
 #           qsdrect.html
 #            dfgect.html
-/\/[a-z]{3,6}(e|f)ct\.html/i
+#/\/[a-z]{3,6}(e|f)ct\.html/i
 
 # Samples: sdfsdfirect.html
 #           sdfsdirect.html
 #          reqdsdirect.html
 #          redyrtyirect.html
-/\/[a-z]{3,6}(d|f|y)irect\.html/i
+3/\/[a-z]{3,6}(d|f|y)irect\.html/i
 
 # 18.12.24 - Sample: 2.......HTM
-/\/[\.]{2,10}\.html?/i
+#/\/[\.]{2,10}\.html?/i
 
 # Strange file names
 
