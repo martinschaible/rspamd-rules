@@ -82,6 +82,8 @@
 /^proposal$/i
 /proposal@/i
 /proposal\.\./i
+/proposal.?!!/i
+
 /:proposal/i
 
 # Q
@@ -104,6 +106,7 @@
 # V
 
 # W
+/\] warning/i
 /winner_/i
 /^winner$/i
 
