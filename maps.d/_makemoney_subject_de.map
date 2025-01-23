@@ -81,7 +81,6 @@
 
 # Income passive
 # ------------------------------------------------------------------------------
-/grundeinkommen durch/i
 /passive(m|s) einkommen\?/i
 /einkommen.{1,10}reichtum/i
 /geld mit.{1,15}einkommen/i
@@ -89,8 +88,6 @@
 /(generieren|verdienen) sie.{1,10}passives.{1,10}einkommen/i
 
 /jetzt passives einkommen/i
-
-/ihr.{1,10}(grundeinkommen|investment)/i
 
 /passives (geld|einkommen).{1,10}(beantragen|durch|generieren|jetzt|mit|verdienen|war noch nie)/i
 /passives (geld|einkommen).{1,10}(be)?kommen/i
