@@ -37,7 +37,7 @@
 /(1st|first|seo|top).{1,15}rankings?/i
 
 /(1st|first|seo|top).{1,15}(rankings?|spot).{1,10}(plan)/i
-/(1st|first|seo|top).{1,10}(page|place|position).{1,10}rank(ing)?/i
+/(1st|first|seo|top).{1,10}(page|place|position).{1,10}(google|rank(ing)?)/i
 
 # G
 /google.{1,10}(1st|top).?page/i
@@ -75,6 +75,7 @@
 
 /search engine optimisation.{1,10}seo/i
 
+/seo cost/i
 /seo.{1,10}(agency|best cost|bundle|expert|low cost|meeting|offer)/i
 /seo.{1,10}(package|performance|plans?|pricing|proposal)/i
 /seo.{1,15}(services?|social media|services|success)/i

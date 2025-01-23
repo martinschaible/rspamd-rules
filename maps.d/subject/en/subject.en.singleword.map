@@ -72,9 +72,11 @@
 # O
 
 # P
+/packages?\*\*/i
 /^proforma$/i
 
 /^proposal$/i
+/proposal@/i
 /proposal\.\./i
 /:proposal/i
 
