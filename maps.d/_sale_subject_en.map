@@ -201,15 +201,6 @@
 
 # SEO
 # ------------------------------------------------------------------------------
-/s\.e\.o\./i
-
-/seo.{1,10}(agency|best cost|low cost|meeting|offer|service)/i
-/seo.{1,15}(expert|package|performance|plans?|pricing|promote|proposal|services|success)/i
-
-/rank\.\./i
-/(1st|first|seo|top).{1,15}(page|rankings?|spot).{1,10}(plan|s.?e.?o)/i
-/(1st|first|seo|top).?(page|place|position).{1,10}rank(ing)?/i
-
 /(affordable|looking for).{1,10}seo/i
 
 /about your web.?site/i
@@ -258,8 +249,6 @@ transform.{1,10}website traffic/i
 # ------------------------------------------------------------------------------
 /buy google reviews/i
 /enhance your business reputation/i
-
-/expert seo/i
 
 # SEO, bad strategies
 # ------------------------------------------------------------------------------
