@@ -143,7 +143,8 @@
 
 # Joints
 # ------------------------------------------------------------------------------
-/joints?.{0,10}(cure|discomfort|fix|genesis|healed|hero|inflammation|problems?|recovery|relief|remedy|story)/i
+/joints?.{0,10}(cure|discomfort|fix|genesis|healed|hero|inflammation)/i
+/joints?.{0,10}(problems?|recovery|relief|remedy|saver|story)/i
 
 /(better|grinding|painful|swollen).{0,10}joints?/i
 
@@ -163,7 +164,7 @@
 # ------------------------------------------------------------------------------
 /memory.{0,10}(booster|cure|hack|enhancement|improver|improvement|laps(es)?|loss)/i
 /memory.{0,10}(problem|protection|restore|revive|saving|strengthener|tonic)/i
-/(excellent|fading|future|poor|restore|sharp|your).{0,10}memory/i
+/(excellent|fading|focus|future|poor|restore|sharp|your).{0,10}memory/i
 
 # Pain
 # ------------------------------------------------------------------------------
@@ -425,7 +426,7 @@
 /harvard.{0,15}(breakthrough|scientist)/i
 
 /healing.{0,10}(massage|technology)/i
-/healthy.{0,10}digest/i
+/healthy.{0,10}(choice(es)?)|digest)/i
 
 /heart.{0,10}(attack|cells|health|protection)/i
 
@@ -515,7 +516,7 @@
 /rapid.{0,10}relief/i
 /remove.{0,10}toxin/i
 /replace.{0,10}blue/i
-/restore{0,10}cognition/i
+/restore.{0,10}cognition/i
 /reverse.{0,10}(aging|gum)/i
 /rise.{0,10}again/i
 /rock.{0,10}hard/i

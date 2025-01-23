@@ -9,7 +9,7 @@
 # Medication
 # ------------------------------------------------------------------------------
 /medikamente.{1,10}(apotheke|einkaufen|kaufen|ordern|pharma)/i
-/(meds|tabletten|pillen).{1,10}(apotheke|bestellen|bestellung|einkaufen|kaufen|ordern|pharma)/i
+/(meds|tabletten|pillen).{1,10}(anfordern|apotheke|bestellen|bestellung|einkaufen|kaufen|ordern|pharma)/i
 /(herren|original).{1,10}(medikamente|meds|tabletten|pillen)/i
 
 /medikamente online bestellen/i

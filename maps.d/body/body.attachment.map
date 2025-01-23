@@ -51,13 +51,18 @@
 # 22.01.25 - Sample: RFQ- 2708970-001.gz
 /rfq-.{0,15}\.gz/i
 
+# 23.01.25 - Sample: FD_EberleR176612.zip
+/fd_.{0,20}\.zip/i
+
 # Pattern
 # ------------------------------------------------------------------------------
 /detail.{0,10}specification/i
 /stock.{0,10}offer/i
 /quotation#/i
+/quotation.?new/i
 
 /nachricht/i
+/new.?order/i
 
 # Extensions
 # ------------------------------------------------------------------------------
@@ -70,10 +75,12 @@
 # The unique ones
 /\.img\.gz/i
 /\.(jpg|pdf)\.html/i
-/\.r09\.rar/i
+/\.(pdf|r09)\.rar/i
 /\.xlsx\.t?gz/i
 
-/(,|_)(doc|pdf)\.(htm|svg|tar)/i
+/(,|_)(doc|pdf)\.(htm|svg|tar|zip)/i
+
+/\.pdf\.zip/i
 
 # Triple Extension
 # ------------------------------------------------------------------------------
@@ -91,6 +98,8 @@
 # ------------------------------------------------------------------------------
 # 27.12.24 Sample: FedEx AWB# 797187750472.gz
 /fedex.{0,20}\.gz/i
+/(fedex|express).{0,20}\.gz/i
+
 
 /fedex_/i
 /hermes\.docx?/i
