@@ -44,13 +44,6 @@
 /(publikation|schaltung|veröffentlichung|werbeanzeige).{1,10}(branchen.?führer|firmen.?eintrag)/iu
 /(branchen.?führer|firmen.?eintrag).{1,10}werbeannonce/i
 
-# Donation
-# ------------------------------------------------------------------------------
-/gelder spende/i
-/spende für sie/i
-
-/ihnen eine spende von/i
-
 # Winning
 # ------------------------------------------------------------------------------
 
@@ -62,7 +55,6 @@
 # ==============================================================================
 
 # A
-/atm department/i
 
 # B
 /betreff.{1,5}von/i
@@ -76,8 +68,6 @@
 /du hast ein geschenk erhalten/i
 
 # E
-/eine spende/i
-
 /e?.?mail für ansprüche bestätigen/iu
 
 # F
@@ -117,10 +107,6 @@
 # R
 
 # S
-/spende.{1,5}donation/i
-/spende.{1,10}von.{1,10}\d{2,3}(\.|,)?\d{2,3}/i
-
-/spendengelder an sie/i
 
 # T
 
