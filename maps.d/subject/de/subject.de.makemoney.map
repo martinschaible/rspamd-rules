@@ -10,7 +10,7 @@
 # ------------------------------------------------------------------------------
 /(bitcoin|crypto|krypto).{1,10}gewinne?\?/i
 
-/(bitcoin|crypto|krypto).{1,10}(goldrausch|handeln|konto|millionen|portfolio|chancen?|trader)/i
+/(bitcoin|crypto|krypto).{1,10}(chance|goldrausch|handeln|konto|millionen|portfolio|chancen?|trader)/i
 /(bitcoin|crypto|krypto).{1,10}(versteuern|welle)/i
 
 /(bitcoin|crypto|krypto).{1,15}(machen|macht).{1,10}reich/i
@@ -22,8 +22,7 @@
 
 /(aktien|einkommen|dividenden|geld|gewinne|reich).{1,10}(durch|mit|per).{1,10}(bitcoin|etf|ki|openai|krypto)/i
 
-/(empfiehlt|geld verdienen|schweizer).{1,10}(bitcoin|etf|ki|openai|krypto)/i
-/jetzt einsteigen.{1,15}(bitcoin|etf|ki|openai|krypto)/i
+/(einsteigen|empfiehlt|geld verdienen|schweizer).{1,15}(bitcoin|etf|ki|openai|krypto)/i
 
 /(250|bitcoin).{1,10}reich werden/i
 
