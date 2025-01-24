@@ -44,6 +44,8 @@
 /auftragsbestätigung/iu
 /augenheilkunde/i
 
+/ausgewählt/i
+
 /ausstehend(er)?/i
 
 /auszahlung/i
@@ -187,8 +189,9 @@
 /herr\b/i
 /^herr/i
 
+/hilfe.?center/i
 /hilfspersonal/i
-/hilfezentrum.?id/i
+/hilfe.?zentrum.?id/i
 
 /hörleistung/i
 
@@ -252,6 +255,9 @@
 /legalisierung/i
 /liebster?$/i
 /^lieferung$/i
+#/lieferung/i
+/lieferaktualisierung/i
+
 /^logistik$/i
 
 /lösung!/i
@@ -286,6 +292,8 @@
 /^paket$/i
 /paketbenachrichtigung(en)?/i
 /paketzustellung/i
+#/-paketzustellung/i
+#/^paketzustellung!/i
 
 /pillen$/i
 /postcode/i
@@ -409,10 +417,12 @@
 /verlosung/i
 
 /^versand$/i
+
 /versandabteilung/i
 /versandaktualisierung/i
 /versandalarm/i
 /versandbereitstellung/i
+/versanddetails/i
 
 /^vertriebs.?zentrum$/i
 
