@@ -162,8 +162,8 @@
 
 # Memory
 # ------------------------------------------------------------------------------
-/memory.{0,10}(booster|cure|hack|enhancement|improver|improvement|laps(es)?|loss)/i
-/memory.{0,10}(problem|protection|restore|revive|saving|strengthener|tonic)/i
+/memory.{0,10}(booster|cure|fix(er)?|hack|enhancement|improver|improvement|laps(es)?|loss)/i
+/memory.{0,10}(problem|protection|recovery|restore|revive|saving|strengthener|tonic)/i
 /(excellent|fading|focus|future|poor|restore|sharp|your).{0,10}memory/i
 
 # Pain
@@ -287,7 +287,9 @@
 # ==============================================================================
 
 # Numeric
+/\d tbsp/i
 /\{1,2} minerals/i
+/120\/80/i
 
 # A
 /aching.{0,10}points/i
@@ -473,12 +475,13 @@
 /mushroom.{0,10}magic/i
 
 # N
-/nail.{0,10}(rub|test)/i
-/nasty.{0,10}lumps/i
+/nail.{0,10}(fix(er)?|rub|test)/i
+/nasty.{0,10}(lumps|nails?)/i
 /natural.{0,10}(alternative|antibiotic|shape|solution)/i
 /nature.{0,10}opioids?/i
 
 /nerve.{0,10}(comfort|recovery|repair)/i
+/never eat/i
 /new.{0,10}research/i
 
 /nightmare.{0,10}pee/i

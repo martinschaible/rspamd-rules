@@ -492,7 +492,7 @@
 /bestellen.{1,20}einfach.{1,15}mit.{1,15}(adresse|anschrift).{1,10}diese e?.?mail antworten/i
 /bestellen.{1,20}einfach.{1,15}mit.{1,15}(adresse|anschrift).{1,10}antworten/i
 /bestellen.{1,20}einfach.{1,15}mit ihrer.{1,15}(liefer|rechnungs).{1,15}(adresse|anschrift)/i
-/Bestellen.{1,20}einfach.{1,15}mit den gewünschten/iu
+/bestellen.{1,20}einfach.{1,15}mit den gewünschten/iu
 /bestellen.{1,20}einfach.{1,15}per e?.?mail.{1,10}antwort/i
 /bestellen.{1,20}einfach.{1,15}sie auf.{1,15}diese e?.?mail antworten/i
 /bestellen.{1,20}einfach.{1,15}sie uns ihre.{1,15}adresse per e?.?mail.{1,10}senden/i
@@ -551,6 +551,7 @@
 
 /teilen sie uns.{1,15}per.{1,10}antwort ihre.{1,10}lieferadresse/i
 /teilen sie uns.{1,10}ihre.{1,10}lieferadresse mit/i
+/teilen sie uns.{1,10}einfach ihre.{1,10}adresse mit/i
 
 # Pricing
 /(angebots|einführungs).?preis.{1,10}(anstelle|statt).{1,10}nur.{1,10}euro.{1,10}(plus|zzgl).{1,10}mwst/i

@@ -22,8 +22,11 @@
 /second.{1,10}(daily|easy) trick/i
 
 /(secret|simple).{1,10}(hack|solution|trick).{1,15}(activate|needs|reverses|to end)/i
+/secret lowers.{1,10}high blood/i
 
 /(hack|secret|solution|trick).{1,10}(extends|reverse|to boost)/i
+
+/unusual greek/i
 
 /with.{1,10}simple method/i
 
@@ -65,6 +68,8 @@
 # E
 /ease nerve pain/i
 /eat this.{1,15}fruit/i
+/eat this to/i
+
 /end.{1,10}back pain/i
 /end.{1,10}ear buzzing/i
 
@@ -74,6 +79,8 @@
 # F
 /fix back pain/i
 /fix your teeth/i
+
+/follow these steps at/i
 
 # G
 /get hard on demand/i
@@ -121,6 +128,7 @@
 # Q
 
 # R
+/reach 120.?80/i
 /reclaim perfect vision/i
 
 /remedy unleashes your/i

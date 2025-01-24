@@ -14,7 +14,10 @@
 
 # Senders pretending to be from the IT department
 # ------------------------------------------------------------------------------
-/\.(ch|com|de|org).?(admin$|administrator|helpdesk|security|server|update)/i
+
+# TLD in front
+/\.[2,4].?(admin$|administrator|helpdesk|security|server|update)/i
+/\.[2,4].?mail.?service/i
 
 /(e?.?mail|webmail).{0,5}(admin|manager|notice|server|support|team)/i
 

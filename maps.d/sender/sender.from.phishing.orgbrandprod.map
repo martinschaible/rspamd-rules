@@ -71,6 +71,7 @@
 
 /apple.?pay/i
 /apple.?(™|®|©)$/i
+/apple-/i
 
 /^ard.?zdf$/i
 /ard.?zdf.?(radio|service)/i
@@ -190,6 +191,7 @@
 
 # O
 /(obi|otto).?(™|®)$/i
+/obi-/i
 
 # P
 /paypal.{0,5}(case.?id|europe?|inc|kunden|konto|support|voucher)/i
@@ -267,6 +269,7 @@
 /ⱽᵖᵃˢˢ/i                                # 19.12.24 - Sumitomo Mitsui Card Co.
 
 # W
+/^wix$/i
 /wix.{0,10}team/i
 
 # 20.12.14 - Sample: companyname WeTransfer
