@@ -61,7 +61,7 @@
 /end.{0,10}type.{0,10}2/i
 /sugar.{0,10}(above|defender|disease|levels?|spikes?)/i
 
-/(control|green|high|low|normalize|normalizing).{0,10}(a1c|glucose)/i
+/(control|green|high|low|normalize|normalizing|perfect).{0,10}(a1c|glucose)/i
 
 # Digestive System
 # ------------------------------------------------------------------------------
@@ -206,7 +206,7 @@
 # Skin
 # ------------------------------------------------------------------------------
 /skin.{0,10}(care|cure|rejuvenation|reviver|sagging)/i
-/(aged|aging|perfect|radiant|smooth|timeless|young|youth).{0,10}skin/i
+/(aged|aging|perfect|radiant|saggy|smooth|timeless|young|youth).{0,10}skin/i
 /(dark|face).{0,10}spots?/i
 
 # Sleep
@@ -241,7 +241,7 @@
 
 /(big|fat|flat).{0,10}(belly|melting|size|stomage|tummy)/i
 
-/\d{1,2}.?(lbs|pounds) (downe|gone|lighter)/i
+/\d{1,2}.?(lbs|pounds) (down|gone|lighter)/i
 
 /slim.{0,10}(belly|body|down|waist)/i
 /(metabolic|surprising).{0,10}water/i
@@ -345,6 +345,8 @@
 
 /celebrity.{0,10}doc(tor)?/i
 
+/chronic.{0,10}inflammation/i
+
 /(clean|fat|feeding|zombie).{0,10}cell/i
 /cleansing.{0,10}pads/i
 /clear.{0,10}skin/i
@@ -354,7 +356,7 @@
 
 /cognitive.{0,10}decline/i
 /compression.{0,10}sleeve/i
-/chronic.{0,10}inflammation/i
+/cortisol.{0,10}level/i
 
 # D
 /daily.{0,10}(burn|comfort|fatigue)/i
