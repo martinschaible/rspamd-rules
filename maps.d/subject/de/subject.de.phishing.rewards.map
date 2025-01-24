@@ -105,6 +105,8 @@
 /hast im.{1,15}bei.{1,15}gewonnen/i
 
 # I
+/id\.#up/i
+
 /ihr.{1,15}kit zu beanspruchen/i
 
 /ihr.{1,10}exklusives.{1,10}(treue)?.?geschenk/i
@@ -184,12 +186,13 @@
 # U
 /überraschung für dich von/iu
 
-/um ein.{5,25}zu gewinnen/i
-/um ihr.{5,25}zu sichern/i
+/um ein(en)?.{5,25}zu gewinnen/i
+/um ihr(en)?.{5,25}zu sichern/i
 
 /umfrage gewonnen/i
 
 # V
+/versand de#.{1,15}bestätigt/i
 
 # W
 /wählen sie ihr geschenk/iu

@@ -58,6 +58,7 @@
 
 /spende.{1,5}donation/i
 /spende.{1,10}von.{1,10}\d{2,3}(\.|,)?\d{2,3}/i
+/spende.{1,10}von \d(\.|,)?\d{2,3} millionen$/i
 
 /spendengelder an sie/i
 

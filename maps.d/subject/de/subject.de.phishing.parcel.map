@@ -113,6 +113,7 @@
 
 # V
 /verfolgen.{1,10}zu erhalten/i
+/versandbestätigung erforderlich/iu
 
 # W
 /warten auf abholung/i
@@ -138,6 +139,8 @@
 # Y
 
 # Z
+/zahlen sie jetzt.{1,10}\d(\.|,)\d{2}/i
+
 /zustellung ansteht/i
 /zustellung.{1,25}bestätigen sie/iu
 /zustellung.{1,25}(ausstehend|fehlgeschlagen)/i
