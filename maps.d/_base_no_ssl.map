@@ -7,17 +7,17 @@
 
 # Regular TLD
 # ------------------------------------------------------------------------------
-/http:\/\/(www\.)?[a-z]{3,20}\.(net|pl)/i base_no_ssl:1:01
+/http:\/\/(www\.)?[a-z]{3,20}\.(net|pl)/i
 
-/http:\/\/(www\.)?[a-z0-9-]{3,25}\.(ru|sa|za)\.com\//i base_no_ssl:1:02
-/http:\/\/(www\.)?[a-z0-9-]{3,25}\.co\.(in|uk)\//i base_no_ssl:1:03
-/http:\/\/(www\.)?[a-z0-9-]{3,25}\.me\.uk\//i base_no_ssl:1:04
-/http:\/\/(www\.)?[a-z0-9-]{3,25}\.(in|ru)\//i base_no_ssl:1:05
+/http:\/\/(www\.)?[a-z0-9-]{3,25}\.(ru|sa|za)\.com\//i
+/http:\/\/(www\.)?[a-z0-9-]{3,25}\.co\.(in|uk)\//i
+/http:\/\/(www\.)?[a-z0-9-]{3,25}\.me\.uk\//i
+/http:\/\/(www\.)?[a-z0-9-]{3,25}\.(in|ru)\//i
 
 # False/Positives
 #/http:\/\/(www\.)?[a-z0-9-]{3,25}\.(biz|info)/i
 
-/http:\/\/(www\.)?[a-z0-9-]{3,25}\.com\/redirect\.html/i base_no_ssl:1:06
+/http:\/\/(www\.)?[a-z0-9-]{3,25}\.com\/redirect\.html/i
 
 # False/Positives
 # Sample: http://tructions.com/1O0b061o8t0mjje0-1pzqbi026rl2ut3a577d000001
