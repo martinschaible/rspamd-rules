@@ -64,8 +64,7 @@
 /confirm.{1,10}(this|the).{1,10}e?.?mail.?address.{1,10}is.{1,10}(active|valid)/i
 /confirm.{1,10}if this is your.{1,15}e?.?mail.?address/i
 
-/e?.?mail(.?address)?.{1,10}is.{1,10}is valid.{1,10}active/i
-/if this e?.?mail(.?address)?.{1,10}is still active/i
+/if this e?.?mail.{1,15}still active/i
 /is your.{1,10}e?.?mail.{1,15}still.{1,10}(active|valid)/i
 
 /(ch|com|de|org) your valid e?.?mail/i
