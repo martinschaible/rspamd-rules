@@ -41,7 +41,6 @@
 # ------------------------------------------------------------------------------
 /attention.{1,10}claim/i
 /claim now/i
-/claim (up to|your).{1,10}\d{3}.{0,5}\d{3}/i
 /claim your.{1,10}funds now/i
 
 /your claim today/i
@@ -55,13 +54,9 @@
 /donation of.{1,10}million/i
 /donation relief fund/i
 
-/(donation|donated).{1,15}\d{3}.{0,5}\d{3}/i
 /(donation|donated).{1,15}(for|to) you/i
 /(donation|donated).{1,15}on behalf/i
 /(donation|donated).{1,15}reply back/i
-
-/\d{3}.{0,5}\d{3}.{1,10}has been donated to you/i
-/\d{3}.{0,5}\d{3}.{1,10}was donated/i
 
 /million.{1,10}donation confirmation/i
 /notification.{1,10}grant.{1,10}donation/i
@@ -69,8 +64,6 @@
 /you.{1,10}(have|won).{1,10}donation/i
 /you.{1,10}have been (donated|gifted)/i
 /you as a donation/i
-
-/your.{1,10}\d{3}.{0,5}\d{3}/i
 
 # Funds, Money, Sum
 # ------------------------------------------------------------------------------
@@ -96,7 +89,6 @@
 
 # Investment
 # ------------------------------------------------------------------------------
-
 /investment.{1,10}(inquiry|proposal|proposition|relocation)/i
 /investment.{1,10}partnership.{1,10}offer/i
 
@@ -145,14 +137,6 @@
 /your.{1,10}compensation payment/i
 /your.{1,10}grant payment/i
 /your.{1,10}payment is (available|approved)/i
-
-# Transaction
-# ------------------------------------------------------------------------------
-/urgent.{1,20}transaction/i
-
-#
-#
-#
 
 # Fake Winning
 # ------------------------------------------------------------------------------

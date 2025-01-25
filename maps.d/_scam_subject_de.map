@@ -5,10 +5,6 @@
 #  10 | German         |
 # ==============================================================================
 
-# ATM Card
-# ------------------------------------------------------------------------------
-/mastercard im wert von.{1,10}\d{2,3}.{0.5}\d{2,3}.{1,10}(euro|gbp|usd)/i
-
 # Beneficiary
 # ------------------------------------------------------------------------------
 /(achtung|guten tag|händen|lieber).{1,15}begünstigter?/iu
@@ -28,12 +24,6 @@
 
 /spenden.{0,15}(belohnung|benachrichtigung|fonds|gewinn|investition)/i
 
-/spenden.?angebot.{1,10}\d{2,3}.{1,10}\d{2,3}/i
-/spenden.?zuschuss (von|\d{2,3}.{1,10}\d{2,3})/i
-
-/spende.{1,10}\d{2,3}.{1,5}\d{2,3}/i
-/spende.{1,10}\d{2,3}.{1,10}(euro|gbp|usd)/i
-
 /spende.{1,10}(donation|gewonnen)/i
 /spende.{1,10}(an|für) sie/iu
 /spende.{1,10}investitions.?programm/i
@@ -46,13 +36,11 @@
 /sie erhalten eine.{1,10}spende/i
 /sie (haben|ihre).{1,15}(euro|gbp|usd|millionen).{1,10}(ausgewählt|erhalten|gewonnen)/i
 /sie (haben|wurden).{1,10}eine.{1,10}spende (ausgewählt|erhalten|gewonnen)/i
-/sie haben eine spende von.{1,10}\d{2,3}.{1,10}\d{2,3}/i
 
 /wurden (an sie|ihnen) gespendet/i
 
 /(tesla|wohltätige) spende/iu
 
-/(glückwunsch|glückwünsche).{1,10}\d{2,3}.{1,10}\d{2,3}/iu
 /(glückwunsch|glückwünsche).{1,10}spende/i
 
 # Foundation
@@ -63,10 +51,6 @@
 /haben sie den.{1,10}fonds erhalten/i
 /anspruch geld/i
 /geld anspruch/i
-
-# Heir
-# ------------------------------------------------------------------------------
-/erbe.{1,10}\d{2,3}.{1,10}\d{2,3}/i
 
 # Investment
 # ------------------------------------------------------------------------------
@@ -83,9 +67,6 @@
 
 # Payments, Compensations
 # ------------------------------------------------------------------------------
-/entschädigung von.{1,10}\d{2,3}.{1,10}\d{2,3}.{1,10}(euro|gbp|usd|millionen)/iu
-/entschädigung.{1,10}\d{2,3}.{1,10}\d{2,3}/iu
-
 /\d{3,4}.{1,10}(euro?|gbp|usd|millionen) (auszahlen lassen|auszahlung)/i
 
 /(aus)?zahlung nicht beanspruchter gelder/i
