@@ -67,8 +67,6 @@
 
 # Payments, Compensations
 # ------------------------------------------------------------------------------
-/\d{3,4}.{1,10}(euro?|gbp|usd|millionen) (auszahlen lassen|auszahlung)/i
-
 /(aus)?zahlung nicht beanspruchter gelder/i
 
 /nicht beanspruchter betrag/i
@@ -118,18 +116,7 @@
 #
 #
 
-# Ransom
-# ------------------------------------------------------------------------------
-/erinnerung.{1,10}schlechte nachrichten/i
-
-#
-#
-#
-
 # Unclassified
 # ------------------------------------------------------------------------------
-/dringlichkeitsantrag/i
-/gegenseitigen vorteil/i
-
 /kann ich ihnen vertrauen/i
 /kommunizieren sie so schnell wie möglich/iu
