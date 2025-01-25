@@ -16,13 +16,13 @@
 /coca.?cola.{0,10}lotter(ie|y)/i
 /coca.?cola.{0,10}payment/i
 
-/(award|euro|international|mega|postcode).{0,10}lotter(ie|y)/i
+/(award|euro|international|mega|postcode).{0,10}(lotto|lotter(ie|y))/i
+/(euro.?online|super).{0,10}(lotto|lotter(ie|y))/i
 
 /(central|navidad).{0,10}lott?eria/i
 
 /elgordo.{0,10}primitiva/i
 
-/euro.?online.?lotto/i
 /euro.?milions/i
 
 #/uefa.?euro/i
