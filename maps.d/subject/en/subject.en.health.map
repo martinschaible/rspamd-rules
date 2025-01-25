@@ -14,6 +14,8 @@
 # ==============================================================================
 /ancient.{1,15}(secret|hack)/i
 
+/breaking.{1,10}harvard study/i
+
 /japanese.{1,10}trick/i
 /minute hack/i
 
@@ -28,7 +30,8 @@
 
 /unusual greek/i
 
-/with.{1,10}simple method/i
+/with.{1,10}simple (method|trick)/i
+/discover.{1,10}simple tip/i
 
 #
 #
@@ -44,7 +47,11 @@
 /accelerate your metabolism/i
 /ancient hack/i
 
+/avoid.{1,10}heart attack/i
+
 # B
+/banishing.{1,10}toenail/i
+
 /belly fat/i
 
 /big o$/i
@@ -62,6 +69,10 @@
 /destroys.{1,10}back pain/i
 
 /discover.{1,10}breakthrough/i
+
+/(do|try) this \d{1,2} minutes before/i
+#/try this before bed/i
+/(do|try) this before/i
 
 /doing this to your/i
 /drink this.{1,15}(before|to)/i
@@ -82,6 +93,8 @@
 /fix your teeth/i
 
 /follow these steps at/i
+
+/for weight.?loss/i
 
 # G
 /get hard on demand/i
@@ -160,8 +173,8 @@
 
 /trick melts.{1,10}fat/i
 
-#/try this before bed/i
-/try this before/i
+/to stay asleep/i
+/toenail.{1,10}fungus/i
 
 # U
 
