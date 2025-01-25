@@ -30,20 +30,6 @@
 /erinnerung.{1,10}zinsen im/i
 /zinsgutschrift.{1,20}in höhe von/i
 
-# Big Numbers
-# ------------------------------------------------------------------------------
-/\d{2,4}(\.|,)?\d{3,4}.{0,5}(dollars?|euro?|usd|€|\$|£).{1,10}wurden ihnen gespendet/i
-
-/(entschädigung|geschäftsvorschlag|überweisen|überweisung|vergütung).{1,10}\d{3,4}(\.|,)?\d{2,4}.{0,5}(dollars?|euro?|usd|€|\$|£)/i
-/(entschädigung|geschäftsvorschlag|überweisen|überweisung|vergütung).{1,10}(dollars?|euro?|usd|€|\$|£){0,5}\d{2,4}(\.|,)?\d{3,4}/i
-
-/(glückwunsch|glückwünsche).{1,10}\d{2,4}(\.|,)?\d{3,4}/iu
-
-/investitions.?fonds.{1,10}\d{2,4}(\.|,)?\d{3,4}.{0,5}(dollars?|euro?|usd|€|\$|£)/i
-
-/erbe.{1,10}\d{2,4}(\.|,)?\d{3,4}/i
-/mastercard.{1,10}\d{2,4}(\.|,)?\d{3,4}.{0,5}(dollars?|euro?|usd|€|\$|£)/i
-
 # Business register
 # ------------------------------------------------------------------------------
 /(publikation|schaltung|veröffentlichung|werbeanzeige).{1,10}(branchen.?führer|firmen.?eintrag)/iu
@@ -79,14 +65,13 @@
 /firmen.?eintrag.{1,10}werbeanzeige/i
 
 # G
+/gegenseitigen vorteil/i
 /grüße.{1,5}ref.{1,5}code/i
 
 # H
 /hier ist die letzte warnung/i
 
 # I
-/ihnen.{1,10}\d{3,4}(\.|,)?\d{3,4}.{0,5}(dollars?|euro?|usd|€|\$|£).{1,10}zu spenden/i
-
 /in ihrem land investieren/i
 
 # J
@@ -116,8 +101,6 @@
 # T
 
 # U
-/überweisung von.{1,10}(dollars?|euro?|usd|€|\$|£).{0,5}\d{3,4}(\.|,)?\d{3,4}/i
-/überweisung von.{1,10}\d{3,4}(\.|,)?\d{3,4}.{0,5}(dollars?|euro?|usd|€|\$|£)/i
 
 # V
 /vertraulich.{1,10}antworten/i
