@@ -84,7 +84,8 @@
 /insider.?handel/i
 
 # J
-/jetzt.{1,10}(anmelden|antworten|informieren|probieren|vergleichen)/i
+/jetzt.{1,10}(anmelden|antworten)/i
+/jetzt.{1,10}(informieren|probieren|sichern|termin|vergleichen)/i
 
 # K
 /kosten.{1,10}sparen/i

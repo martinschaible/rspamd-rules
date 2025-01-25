@@ -55,7 +55,7 @@
 /(eu|world).?(business|company).?(directory|register)/i
 
 # F
-/fund(ing).?.{1,10}(donation|opportunity|recovered)/i
+/fund(ing).?.{1,10}(donation|opportunity|proposal|recovered)/i
 /fund.{1,10}million/i
 /funds for you/i
 
@@ -70,7 +70,7 @@
 /important.{1,10}million/i
 /important proposal/i
 
-/investment.{1,10}(deal|funds)/i
+/investment.{1,10}(deal|funds|partnership)/i
 /investment.{1,10}fund of/i
 
 /^investment.{1,10}partner(ship)?$/i
@@ -111,6 +111,8 @@
 
 # U
 /unclaimed funds/i
+
+/urgent assistance required/i
 
 # V
 

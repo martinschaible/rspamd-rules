@@ -251,7 +251,7 @@
 /greetings.{1,10}to the attention of the/i
 /greetings.{1,10}my friend.{1,10}my name is/i
 
-/introduction.{1,10}my name is/i
+/(introduction|introduce myself).{1,10}my name is/i
 
 /(hello|hi).{1,10}i am (miss|mrs?|ms)/i
 /(hello|hi).{1,10}i am.{5,25}the son of the late/i
