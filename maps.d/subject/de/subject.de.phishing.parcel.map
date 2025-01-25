@@ -76,6 +76,8 @@
 # L
 /lieferdetails.{1,10}um die lieferung/i
 
+/(lieferung|versand).{1,10}(ausstehende|unbezahlte).{1,10}(versandkosten|zollgebühren)/iu
+
 # M
 /maßnahmen zu ihrem paket/i
 

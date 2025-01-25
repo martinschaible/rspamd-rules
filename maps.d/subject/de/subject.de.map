@@ -39,6 +39,7 @@
 # ==============================================================================
 
 # Numeric
+/\d{2,4}.{1,10}(bonus|freispiele|willkommensbonus)/i
 
 /\dx mehr lohn/i
 
@@ -52,6 +53,8 @@
 /bestätigen sie den besitz/i
 /bitte aufmerksam lesen/i
 
+/bonus.{1,10}wartet (auf sie|dich)/i
+
 # C
 
 # D
@@ -59,6 +62,8 @@
 /du hast glück/iu
 
 # E
+/eilmeldung.{1,10}bonus/i
+
 /erforderliche aktion/i
 /erinnerung.{1,10}angebot/i
 
@@ -113,6 +118,8 @@
 
 # S
 /sehr geehrter?!/i
+/sensationeller.{1,10}bonus/i
+
 /sind sie noch am leben/i
 
 # T

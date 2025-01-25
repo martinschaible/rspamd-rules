@@ -64,6 +64,9 @@
 # B
 
 # C
+/claim your.{1,15}tokens?/i
+/claim your.{1,15}bonus/i
+
 /compliment of the season/i
 /contact (him|me) now/i
 
@@ -79,6 +82,8 @@
 
 # F
 /financing_/i
+
+/free spins/i
 
 /from.{1,3}dr\./i
 
@@ -96,7 +101,7 @@
 /illuminate your path/i
 /illuminati brotherhood/i
 
-/Is this.{1,10}e?.?mail.{1,10}still active/i
+/is this.{1,10}e?.?mail.{1,10}still active/i
 /is this your.{1,10}e?.?mail/i
 
 /^i wait for your reply$/i
