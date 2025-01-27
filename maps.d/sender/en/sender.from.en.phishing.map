@@ -23,7 +23,7 @@
 /(e?.?mail|webmail).{0,5}(admin|manager|notice|server|support|team)/i
 
 /admin.?it$/i
-/it notification/i
+/i\.?t (admin|notification)/i
 
 /helpdesk-/i
 /mail.?admin/i
