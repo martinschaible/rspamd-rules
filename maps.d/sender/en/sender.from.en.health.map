@@ -22,7 +22,6 @@
 
 /cognitive.{0,10}(fix|health)/i
 /leaky.{0,10}brain/i
-/memory.{0,10}boost/i
 /mind.{0,10}boost/i
 
 # Blood pressure, Heart
@@ -165,7 +164,7 @@
 # ------------------------------------------------------------------------------
 /memory.{0,10}(booster|cure|fix(er)?|hack|enhancement|improver|improvement|laps(es)?|loss)/i
 /memory.{0,10}(problem|protection|recovery|restore|revive|saving|strengthener|tonic)/i
-/(excellent|fading|focus|future|poor|restore|sharp|your).{0,10}memory/i
+/(boost|excellent|fading|focus|future|poor|restore|sharp|your).{0,10}memory/i
 
 # Pain
 # ------------------------------------------------------------------------------
