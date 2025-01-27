@@ -29,6 +29,7 @@
 /konto.{1,10}sicherheitsgründen bald abläuft/iu
 /konto.{1,10}unserer vorherigen erinnerungen/i
 /konto.{1,15}vervollständigen sie die erforderlichen/iu
+/konto.{1,15}vorübergehend gesperrt/iu
 /konto.{1,15}wurde aufgrund von.{1,15}fehlern gesperrt/i
 
 /konten müssen aktualisiert werden/iu
@@ -37,6 +38,8 @@
 
 /anmeldung ihres.{1,15}kontos wird gesperrt/i
 /anforderungen.{1,10}haben wir ihr konto.{1,25}gesperrt/i
+
+/gesperrt.{1,10}da ein update/i
 
 /ignorieren.{1,10}wird ihr.{1,15}konto gesperrt/i
 /informationen.{1,10}um eine sperrung ihres.{1,15}kontos/i
@@ -166,7 +169,6 @@
 
 /update ihrer konto.?nformationen erforderlich/i
 /update wartet auf.{1,10}bestätigung/iu
-
 /validieren sie ihre angaben/i
 
 /verpflichtet.{1,10}ihre.{1,10}aktuell(st)?en.{1,10}daten/i

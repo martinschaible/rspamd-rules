@@ -51,6 +51,8 @@
 
 # F
 /fett.{0,10}schnell/i
+
+/fit.{0,10}(pro|trainer)/i
 /(fuss|fuß).{0,10}(pflaster|pro)/iu
 
 # G
@@ -80,6 +82,8 @@
 /massage.{0,10}pflaster/i
 /medizin.{0,10}(shop|zukunft)/i
 
+/muskeln?.{0,10}(fit|start|team)/i
+
 # N
 /neue.{0,10}rezeptur/i
 
@@ -88,6 +92,7 @@
 # P
 /perfekte nägel/iu
 /pillen.{0,10}(empfehlung|gratis|nachrichten)/i
+
 # Q
 
 # R
