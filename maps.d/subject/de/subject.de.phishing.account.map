@@ -106,7 +106,10 @@
 # V
 
 # W
-/wichtige kontowarnung/i
+/wichtige?.{1,10}kontofunktion(en)?/i
+/wichtige?.{1,10}kontowarnung/i
+/wichtige?.{1,10}sicherheitsanpassung/i
+
 
 /wurde vorübergehend deaktiviert/i
 
