@@ -44,9 +44,14 @@
 /auf eine kostenlose/i
 
 # B
+/Beantworte eine kurze Umfrage/i
+
 /belohnen wir sie mit/i
 /belohnung wartet auf sie/i
 /belohnung(en)?.{1,10}kostenlose?/i
+
+#/(belohnung|gutschein).{1,10}(code|einlösen|erhalten|freigeschaltet|ist zum versenden|reserviert|wartet)/i
+/belohnung.{1,10}(code|einlösen|erhalten|freigeschaltet|ist zum versenden|reserviert|wartet)/i
 
 /besonderer zugang von/i
 /bestätigen sie den erhalt/iu
@@ -151,6 +156,8 @@
 # P
 /paket.{1,10}limitiertem vorrat/i
 
+/prämien im inneren/iu
+
 /preis.{1,15}mystery box/i
 /preis.{1,10}zugestellt zu bekommen/i
 
@@ -200,6 +207,8 @@
 /versand de#.{1,15}bestätigt/i
 
 # W
+/wähle deine belohnung/iu
+
 /wählen sie ihr geschenk/iu
 /wählen sie ihren gewinn/iu
 

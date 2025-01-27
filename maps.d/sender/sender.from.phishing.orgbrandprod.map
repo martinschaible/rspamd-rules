@@ -62,6 +62,7 @@
 
 # A
 /a.d.a.c/i
+/adac.?deutschland/i
 /adac.?kreditkarte/i
 /adac.?mitglied$/i
 
@@ -203,7 +204,7 @@
 /^post\.ch$/i
 /^postb$/i
 /postag/i
-/postch/i
+/post(ch|de)/i
 
 /prime.{0,5}notification/i
 

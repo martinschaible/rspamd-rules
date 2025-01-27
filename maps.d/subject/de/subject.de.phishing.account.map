@@ -32,6 +32,9 @@
 # B
 /bestätigung des kontos/i
 
+#/(aktualisieren?|bestätigen?).{1,10}(deine|sie).{1,10}(kontakt|konto).?daten/i
+/aktualisieren.{1,10}(deine|sie).{1,10}(kontakt|konto).?daten/i
+
 /bitte loggen sie sich/i
 
 # C

@@ -51,6 +51,8 @@
 /(eu|world).?(business|company).?(directory|register)/i
 
 # F
+/follow.?up.{1,10}proposal/i
+
 /fund(ing).?.{1,10}(donation|opportunity|proposal|recovered)/i
 /fund.{1,10}million/i
 /funds for you/i
@@ -94,7 +96,8 @@
 /project.?workable/i
 
 /proposal attached/i
-/oroposal for.{1,15}collaboration/i
+/proposal for.{1,15}collaboration/i
+/proposal for.{1,15}material supply/i
 /proposal\.\./i
 
 # Q

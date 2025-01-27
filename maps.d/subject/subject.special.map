@@ -81,8 +81,9 @@
 # Three periods and a question mark 
 /\.\.\.\?/i
 
-# Two periods and a exclamation mark at the end of the line
+# Two and three periods and a exclamation mark at the end of the line
 /\.\.!\$/i
+/\.\.\.!\$/i
 
 # A subject does never start with a special character
 /^(,|\.|!|\$)/i
