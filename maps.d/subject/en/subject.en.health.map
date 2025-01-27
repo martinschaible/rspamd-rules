@@ -93,7 +93,7 @@
 
 /eliminate.{1,10}neuropathy/i
 
-/end.{1,10}(back|nerve) pain/i
+/end.{1,10}(back|knee|nerve) pain/i
 /end.{1,10}ear buzzing/i
 
 /energized.{1,10}pain.?free/i
@@ -201,6 +201,7 @@
 /this for.{1,10}seconds/i
 
 /trick melts.{1,10}fat/i
+/trick to end.{1,15}pain/i
 
 /to stay asleep/i
 
@@ -209,6 +210,8 @@
 # V
 
 # W
+/weight.?loss.{1,10}tip/i
+
 /weird stretch/i
 
 # X
