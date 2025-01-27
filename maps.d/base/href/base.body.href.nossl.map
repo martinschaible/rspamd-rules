@@ -1,0 +1,29 @@
+# ==============================================================================
+# Actually, all links (href tag and img tag) should work with SSL.
+#
+# Spammers often use links without SSL. Unfortunately, the false/positive rate
+# is too high for a generic rule with high weighting.
+# Therefore we test for specific tld's and combinations
+#
+# ------------------------------------------------------------------------------
+# Language: -
+# Weight:   6.0
+# ==============================================================================
+
+# Regular TLD
+# ------------------------------------------------------------------------------
+/http:\/\/(www\.)?[a-z0-9-]{3,25}\.(co|ru|sa|za)\.com\//i
+/http:\/\/(www\.)?[a-z0-9-]{3,25}\.[a-z0-9-]{3,25}\.(co|ru|sa|za)\.com\//i
+
+# 
+/http:\/\/(www\.)?[a-z0-9-]{3,25}\.org\//i
+/http:\/\/(www\.)?[a-z0-9-]{3,25}\.[a-z0-9-]{3,25}\.org\//i
+
+# Exotic TLD
+# ------------------------------------------------------------------------------
+/http:\/\/(www\.)?[a-z0-9-]{3,25}\.(fun|holiday|life|shop)\//i
+/http:\/\/(www\.)?[a-z0-9-]{3,25}\.[a-z0-9-]{3,25}\.(fun|holiday|life|shop)\//i
+
+# Damn long domain name
+# Sample: http://IBBK4M5NLH3DTIR7PVDIU5OO7P13CN-ip.hinet.net
+/http:\/\/[a-z0-9-]{25,50}\./i

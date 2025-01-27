@@ -1,0 +1,11 @@
+
+# Google as a forwarder
+# ------------------------------------------------------------------------------
+/www\.google\.[a-z]{2,3}\/url\?(sa|q)/i
+/www\.google\.com\.(au|co\.uk|np|ug|vt)\/url\?(sa|q)/i
+
+# Sample: https://google.de/amp/cutlly.com
+/https:\/\/google\.[a-z]{2,3}/amp\//i                               # 05.01.25
+
+# 
+/https:\/\/translat\.goog/i                                                   # 20.01.25

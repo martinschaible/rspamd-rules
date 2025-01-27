@@ -1,0 +1,40 @@
+# ==============================================================================
+# Spammers like to use free hosting providers and developer resources
+# for their crap.
+#
+# Some of it is also used for legal newsletters, which makes it a bit difficult
+# to find a good balance with the weighting.
+#
+# ------------------------------------------------------------------------------
+# Language: -
+# Weight:   6.0
+# ==============================================================================
+
+# Subdomains
+# ------------------------------------------------------------------------------
+
+# IP Address as subdomain
+# Sample: http://207.149.167.72.host.secureserver.net
+/\d{2,3}\.\d{2,3}\.\d{2,3}\.\d{2,3}\./i
+
+# Sample: http://212-83-155-119.rev.poneytelecom.eu
+/\d{2,3}-\d{2,3}-\d{2,3}-\d{2,3}\./i
+
+# Strange Domains names
+# ------------------------------------------------------------------------------
+
+# 30.12.24 - Sample: https://www.jkhlkljjkllkklklkjlkkkjk@qrco.de/
+/https:\/\/(www\.)?[a-z0-9-]{3,30}@[a-z0-9-]{3,30}\.[a-z]{2,4}\//i
+
+# Unusual patterns
+# ------------------------------------------------------------------------------
+/https?://&#/i
+
+/(cocaine|kokaine?)/i
+
+# Some Bad TLD's
+# ------------------------------------------------------------------------------
+/\.jp\.net\//i
+/\.ru\.com\//i
+/\.ne\.jp\//i
+/\.or\.jp\//i

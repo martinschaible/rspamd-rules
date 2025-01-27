@@ -1,0 +1,77 @@
+# ==============================================================================
+# Occasionally, spammers use strange and special paths in the URLs.
+# Therefore we check anchor tags for bad stuff.
+#
+# This is rather a dangerous thing. It is not easy to detect unique
+# "spammy" paths. That is why we are very conservative here.
+#
+# ------------------------------------------------------------------------------
+# Language: -
+# Weight:   6.0
+# ==============================================================================
+
+# Redirects
+# ------------------------------------------------------------------------------
+
+# 12.12.24, phishing
+/\/redirect\/redirect\.aspx/i
+
+# Simple path
+# ------------------------------------------------------------------------------
+# 11.12.24
+/\/scancopy\d{2}\//i
+/\/shopping\d{2}\//i
+
+# 15.12.24, French spammer are using this
+/\/iem66/link\.php/i
+/\/iem7/link\.php/i
+
+# Pattern
+# ------------------------------------------------------------------------------
+
+# 02.01.25 - Sample: com/-/swissapp/
+
+# False/positive received, unbelievable
+#/\/-\//i
+
+# Path bound to TLDs to avoid false/positives
+# ------------------------------------------------------------------------------
+# We cannot block all of the new or exotic TLDs because they are sometimes
+# used by companies. 
+
+/\.(club|email|pro|social|space|today|world)\/(cart|cl|media|sa)\//i
+
+# Sample: .pro/c/eJwkxr1OwzAQAOCnsUfr7vzbw
+/\.(club|email|pro|social|space|today|world)\/\w\/[a-z]{10,30}/i
+
+# Sample: .world/cc903616931c89f6d9.jpg
+/\.(club|email|pro|social|space|today|world)\/[a-z0-9]{4,25}\.(jpg|png)/i
+
+# 
+/\.in\/-\/$/i
+
+# A domain name in the path
+# ------------------------------------------------------------------------------
+
+# 20.12.24 - Sample: https://firebasestorage.googleapis.com/v0/b/slamdank-46c01.appspot.com/o/nuttela.html?
+/\/v0\/[a-z]{1}\/[a-z0-9-]{5,25}\.appspot\.com/i
+
+# 22.12.24 - Sample: https://click.pstmrk.it/3s/t.co%2FvZAmlBLKf
+/\/t\.co%/i
+
+#
+#
+#
+
+# Companies
+# ==============================================================================
+
+# Swiss Government
+# ------------------------------------------------------------------------------
+
+# 18.12.24 - Phishing: Pay taxes in advance
+/\/swisstaxadm/i
+
+# SwissPass
+# ------------------------------------------------------------------------------
+/\/swissapp\//i
