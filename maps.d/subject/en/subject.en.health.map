@@ -44,7 +44,8 @@
 # ==============================================================================
 
 /20.?20.{1,10}vision/i
-\d{1,2}.{1,10}day trick to a/i
+/\d{1,2}.{1,10}day trick to a/i
+/\d way to eliminate/i
 
 # A
 /accelerate your metabolism/i
@@ -89,6 +90,8 @@
 /ease nerve pain/i
 /eat this.{1,15}(daily|fruit)/i
 /eat this to/i
+
+/eliminate.{1,10}neuropathy/i
 
 /end.{1,10}(back|nerve) pain/i
 /end.{1,10}ear buzzing/i
