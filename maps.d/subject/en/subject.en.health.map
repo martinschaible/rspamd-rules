@@ -20,6 +20,7 @@
 /minute hack/i
 
 /(daily|easy|odd).{1,10}second trick/i
+/easy trick for clear/i
 
 /second.{1,10}(daily|easy) trick/i
 
@@ -32,6 +33,8 @@
 
 /with.{1,10}simple (method|trick)/i
 /discover.{1,10}simple tip/i
+
+/this.{1,10}home remedy/i
 
 #
 #
@@ -50,6 +53,8 @@
 /avoid.{1,10}heart attack/i
 
 # B
+/bad.{1,10}knees/i
+
 /banishing.{1,10}toenail/i
 
 /belly fat/i
@@ -59,6 +64,8 @@
 /(burn|drop|erase|lose|melt|shed).{1,10}(belly|more).?(fat|flab)/i
 /(burn|drop|erasel|ose|melt|shed).{1,10}(lbs|pounds|weight)/i
 /(burn|drop|erase|lose|melt|shed).{1,10}fat.{1,15}(easily|exercise|fast|with this|without)/i
+
+/blood.?sugar.{1,10}(drops|naturally)/i
 
 # C
 /calories.{1,10}belly fat/i
@@ -75,11 +82,12 @@
 /(do|try) this before/i
 
 /doing this to your/i
-/drink this.{1,15}(before|to)/i
+/drink this.{1,15}(before|juice|to)/i
+
 
 # E
 /ease nerve pain/i
-/eat this.{1,15}fruit/i
+/eat this.{1,15}(daily|fruit)/i
 /eat this to/i
 
 /end.{1,10}(back|nerve) pain/i
@@ -92,9 +100,11 @@
 /fix back pain/i
 /fix your teeth/i
 
+/flattens.{1,10}tummy/i
 /follow these steps at/i
-
 /for weight.?loss/i
+
+/fungus.{0,10}fix/i
 
 # G
 /get hard on demand/i
@@ -103,6 +113,7 @@
 /hack silences/i
 /harvard.{1,10}leaked/i
 
+/healing recipe/i
 /heart attack risk by/i
 /heart.{1,10}fix/i
 
@@ -111,9 +122,11 @@
 # I
 /improve memory (instantly|in.{1,15}seconds)/i
 
+/in \d hours?.{1,10}try this/i
 /in just \d{1,2} seconds/i
 
 # J
+/jumpstart your.{1,15}health/i
 
 # K
 
@@ -131,6 +144,7 @@
 /mute.{1,10}tinnitus/i
 
 # N
+/naturally with this/i
 
 # O
 
@@ -141,6 +155,8 @@
 
 /pounds with this/i
 
+/prevent.{1,10}(disease|gum)/i
+
 # Q
 
 # R
@@ -150,12 +166,14 @@
 /(re)?grows? lost hair/i
 
 /remedy unleashes your/i
+/remove.{1,10}dark spots/i
 /restores perfect memory/i
 /(reverse|reversing).{1,10}(diabetes|ed\b|memory)/i
 
 /rock.?solid in just/i
 
 # S
+/say goodbye to.{1,15}pain/i
 /second.{1,10}home remedy/i
 /sign of a stroke/i
 /skin.{1,10}transformation/i
@@ -163,6 +181,10 @@
 /silence knee pain/i
 /silences tinnitus/i
 
+/simple.{1,15}weight.?loss/i
+/slash.{1,10}blood.?pressure/i
+
+/stretch that eliminates/i
 /stuck poop/i
 
 # T
@@ -176,7 +198,6 @@
 /trick melts.{1,10}fat/i
 
 /to stay asleep/i
-/toenail.{1,10}fungus/i
 
 # U
 

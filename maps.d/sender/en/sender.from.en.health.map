@@ -97,7 +97,7 @@
 
 # Gums
 # ------------------------------------------------------------------------------
-/(bleeding|healthier|perfect).{0,10}gums/i
+/(bleeding|healthier|healthy|perfect).{0,10}gums/i
 /gum.{0,10}(bleeding|disease)/i
 
 # Health
@@ -148,11 +148,11 @@
 
 /(better|grinding|painful|sore|swollen).{0,10}joints?/i
 
-/(anti|chronic).{0,10}(inflammation|inflammatory)/i
+/(anti|chronic|reduce).{0,10}(inflammation|inflammatory)/i
 
 # Knee
 # ------------------------------------------------------------------------------
-/knee.{0,10}(cartilage|compression|help|pain|stiffness)/i
+/knee.{0,10}(cartilage|compression|help|pain|replacement|stiffness)/i
 /(aching|bad|circa|painful|sore|swollen).{0,10}knees?/i
 
 # Liver
@@ -312,7 +312,7 @@
 /(bad|enhanced).{0,10}(eyes|memory)/i
 /bad.{0,10}breath/i
 
-/back.{0,10}(aches|fixer|pain|stretch)/i
+/back.{0,10}(aches?|fixer|pain|stretch)/i
 /bald.{0,10}spot/i
 /basic.{0,10}protein/i
 
@@ -321,7 +321,6 @@
 /better.{0,10}poop/i
 
 /bladder.{0,10}(boost|care|control|danger|fix|health|leaks?|leakage|leaking|issues?|relief)/i
-/bleeding.{0,10}gums?/i
 
 /bloat.{0,10}(free|remedy|solution)/i
 /blood.{0,10}(clot|sugar)/i
@@ -453,6 +452,8 @@
 
 # L
 /live.{0,10}(forver|long(er)?)/i
+/liver.{0,10}weight/i
+
 /lung.{0,10}trust/i
 /lower.{0,10}back/i
 
@@ -477,9 +478,9 @@
 /mushroom.{0,10}magic/i
 
 # N
-/nail.{0,10}(fix(er)?|rub|test)/i
+/nail.{0,10}(fix(er)?|repair|rub|test)/i
 /nasty.{0,10}(lumps|nails?)/i
-/natural.{0,10}(alternative|antibiotic|shape|solution)/i
+/natural.{0,10}(alternative|antibiotic|fix|shape|solution)/i
 /nature.{0,10}opioids?/i
 
 /nerve.{0,10}(comfort|recovery|repair)/i
@@ -515,12 +516,16 @@
 /poor.{0,10}posture/i
 /power.{0,10}shape/i
 /powerful.{0,10}juice/i
+
 /prescription/i
+/promising.{0,10}therapy/i
 
 # Q
 
 # R
 /rapid.{0,10}relief/i
+
+/red.{0,10}juice/i
 /remove.{0,10}toxin/i
 /replace.{0,10}blue/i
 /restore.{0,10}cognition/i
@@ -556,6 +561,7 @@
 
 /sugar.{0,10}(free|traps)/i
 /surgeon.{0,10}stamina/i
+/surgery.{0,10}canceled/i
 /sore.{0,10}back/i
 /(strange|spice).{0,10}trick/i
 /sweet.{0,10}deal/i
@@ -614,3 +620,4 @@
 /youthful.{0,10}(boost|glow)/i
 
 # Z
+/zero.{0,10}side.?effects?/i
