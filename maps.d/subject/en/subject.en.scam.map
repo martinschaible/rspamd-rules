@@ -15,6 +15,8 @@
 /rfq-?.?\d{2,10}/i
 /rfq\//i
 
+/- new order/i
+
 /new rfq/i
 
 /request for quotation from/i
@@ -67,6 +69,8 @@
 /immediate transfer of your.{1,10}(dollars?|euro?|usd|€|\$|£)/i
 /important.{1,10}million/i
 /important proposal/i
+
+/inheritance to you/i
 
 /invest in your.{1,10}(business|company|project)/i
 /investment.{1,10}(deal|funds|partnership)/i
