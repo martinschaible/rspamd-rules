@@ -52,7 +52,7 @@
 /rfq-.{0,15}\.gz/i
 
 # 23.01.25 - Sample: FD_EberleR176612.zip
-/fd_.{0,20}\.zip/i
+/(fd|pis)_.{0,20}\.zip/i
 
 # 24.01.25 - Sample: RE.1.201.2024.2484.zip
 /re:.{0,20}\.zip/i
@@ -113,6 +113,9 @@
 /fedex.{0,20}\.gz/i
 /(fedex|express).{0,20}\.gz/i
 
-
 /fedex_/i
 /hermes\.docx?/i
+
+# Pricelist
+# ------------------------------------------------------------------------------
+(business|price.?list).{0,20}\.zip/i

@@ -162,7 +162,7 @@
 
 # Memory
 # ------------------------------------------------------------------------------
-/memory.{0,10}(booster|cure|fix(er)?|hack|enhancement|improver|improvement|laps(es)?|loss)/i
+/memory.{0,10}(boost(er)?|cure|fix(er)?|hack|enhancement|improver|improvement|laps(es)?|loss)/i
 /memory.{0,10}(problem|protection|recovery|restore|revive|saving|strengthener|tonic)/i
 /(boost|excellent|fading|focus|future|poor|restore|sharp|your).{0,10}memory/i
 
@@ -407,6 +407,8 @@
 /fix.{1,10}(nail|toe).{0,10}fungus/i
 /flexibility.{0,10}booster/i
 
+/flush.{0,10}toxins?/i
+
 /full(er)?.{0,10}hair/i
 /(fungal|fungus).{0,10}(eliminator|free|infection|relief|remover?|vanishing)/i
 
@@ -487,7 +489,7 @@
 
 /nerve.{0,10}(comfort|recovery|repair)/i
 /never eat/i
-/new.{0,10}research/i
+/new.{0,10}(hair|research)/i
 
 /nightmare.{0,10}pee/i
 
@@ -585,6 +587,7 @@
 
 # U
 /unlock.{0,10}hips/i
+/unusual.{0,10}stretch/i
 /urine.{0,10}leaks?/i
 
 # V
