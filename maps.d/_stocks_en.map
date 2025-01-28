@@ -15,9 +15,9 @@
 # ------------------------------------------------------------------------------
 /(corp|corporation|inc).{1,5}stock.{1,10}symbol:/i
 /(corp|corporation|inc).{1,5}otc.{1,15}(is an|manufactures)/i
-/(corp|corporation|inc).{1,5}nasdaq.{1,35}symbols?/i
+/(corp|corporation|inc).{1,5}nasdaq.{1,35}(find out more|symbols?)/i
 
-/holdings ltd.{1,5}nasdaq/i
+/(holdings ltd|pharmaceuticals).{1,5}nasdaq/i
 
 /group.{1,5}(corp|corporation|inc).{1,10}stock symbol/i
 /stock symbol.{1,15}(current share|for more information)/i

@@ -13,9 +13,9 @@
 /e.?bike!/i
 
 /e.?bikes?.{1,10}(besten|bester) preis/i
-/e.?bikes?.{1,10}für (alle|den|ihre|jedes)/i
+/e.?bikes?.{1,10}für (alle|den|ihre|jedes?)/i
 /e.?bikes?.{1,10}(angebot|komfort|power|stärke)/i
-/(Fortbewegung|kauf|neues|unschlagbare?|über).{1,10}e.?bike/iu
+/(fortbewegung|kauf|neues|rabatt(en)?|unschlagbare?|über).{1,10}e.?bike/iu
 
 # Brand
 /e.?bikes?.{1,10}city voyager/i
@@ -51,11 +51,10 @@
 
 # A
 /akku.?kettensäge/iu
-
+/anfrage.{1,10}personalunterstützung/iu
 /arbeiter aus (europa|europe)/i
 
 /ausziehbare leiter/i
-
 /autoankauf.{1,10}export/i
 
 # B
