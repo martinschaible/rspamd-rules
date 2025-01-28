@@ -93,7 +93,7 @@
 /(attack|end|fight|foot|goodbye|nail|nasty|stop|yellow).{0,10}fungus/i
 
 /(cracked|healthy|nasty|rotten|ugly|yellow).{1,10}(nails|toe)/i
-/toe.{0,10}resque/i
+/(toe)?nails?.{0,10}resque/i
 
 # Gums
 # ------------------------------------------------------------------------------
@@ -350,7 +350,7 @@
 
 /(clean|fat|feeding|zombie).{0,10}cell/i
 /cleansing.{0,10}pads/i
-/clear.{0,10}(nails|skin)/i
+/clear.{0,10}((toe)?nails|skin)/i
 /clinically.{0,10}proven/i
 
 /clogged.{0,10}arteries/i
@@ -480,8 +480,8 @@
 /mushroom.{0,10}magic/i
 
 # N
-/nail.{0,10}(fix(er)?|repair|rub|test)/i
-/nasty.{0,10}(lumps|nails?)/i
+/(toe)?nail.{0,10}(fix(er)?|repair|rescue|rub|test)/i
+/nasty.{0,10}(lumps|(toe)?nails?)/i
 /natural.{0,10}(alternative|antibiotic|fix|shape|solution)/i
 /nature.{0,10}opioids?/i
 
