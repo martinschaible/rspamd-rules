@@ -10,8 +10,9 @@
 # ------------------------------------------------------------------------------
 /(bitcoin|crypto|krypto).{1,10}gewinne?\?/i
 
-/(bitcoin|crypto|krypto).{1,10}(chance|goldrausch|handeln|konto|millionen|portfolio|chancen?|trader)/i
-/(bitcoin|crypto|krypto).{1,10}(versteuern|welle)/i
+/(bitcoin|crypto|krypto).{1,20}(bietet|chance)/i
+/(bitcoin|crypto|krypto).{1,20}(enorme|goldrausch|handeln|konto|millionen|portfolio|chancen?|trader)/i
+/(bitcoin|crypto|krypto).{1,20}(versteuern|welle)/i
 
 /(bitcoin|crypto|krypto).{1,15}(machen|macht).{1,10}reich/i
 

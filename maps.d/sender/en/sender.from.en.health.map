@@ -143,7 +143,7 @@
 
 # Joints
 # ------------------------------------------------------------------------------
-/joints?.{0,10}(cure|discomfort|fix|genesis|healed|hero|inflammation)/i
+/joints?.{0,10}(cure|(dis)?comfort|fix|genesis|healed|hero|inflammation)/i
 /joints?.{0,10}(problems?|recovery|relief|remedy|saver|story)/i
 
 /(better|grinding|painful|sore|swollen).{0,10}joints?/i
@@ -554,6 +554,7 @@
 /snore.{0,10}stop/i
 
 /spiky.{0,10}fruit/i
+
 /stay.{0,10}(asleep|hard|slim)/i
 /stinky.{0,10}breath/i
 /stop.{0,10}(breating|brushing|flossing)/i

@@ -27,7 +27,8 @@
 /(secret|simple).{1,10}(hack|solution|trick).{1,15}(activate|needs|reverses|to end)/i
 /secret lowers.{1,10}high blood/i
 
-/(hack|secret|solution|trick).{1,10}(extends|reverse|to boost)/i
+/(hack|secret|solution|trick).{1,10}(extends|reverse)/i
+/(hack|secret|solution|trick).{1,10}to (ease|boost)/i
 
 /unusual greek/i
 
@@ -158,6 +159,8 @@
 
 # P
 /pain in.{1,10}minutes?/i
+
+/pee leaks/i
 /perfect vision in.{1,10}days/i
 /pleasure.{1,10}fix/i
 
@@ -195,7 +198,7 @@
 /slash.{1,10}blood.?pressure/i
 
 /solution for ed/i
-/stretch that eliminates/i
+/stretch that (eliminates|stops)/i
 /stuck poop/i
 
 # T

@@ -110,7 +110,7 @@
 /dhl.{0,5}(express|germany|package)/i
 /dhl.?ups/i
 
-/(express|notification).{0,5}dhl/i
+/(express|kurier|notification).{0,5}(dhl|dpd)/i
 
 /die-post/i
 

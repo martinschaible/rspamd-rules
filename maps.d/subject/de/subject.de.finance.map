@@ -16,6 +16,7 @@
 # A
 
 # B
+/(beantragen|benötigen|brauchen|erhalten) sie.{1,15}(finanz|darlehen|kredit)/i
 
 # C
 
@@ -41,6 +42,8 @@
 # J
 
 # K
+/kredit.{1,10}(darlehen|verfügbar)/iu
+
 /kreditangebot.{1,10}(beantragen|günstig)/i
 
 /\d% kredit(angebot)?/i
