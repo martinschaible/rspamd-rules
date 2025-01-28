@@ -14,7 +14,8 @@
 
 /e.?bikes?.{1,10}(besten|bester) preis/i
 /e.?bikes?.{1,10}für (alle|den|ihre|jedes)/i
-/e.?bikes?.{1,10}(power|stärke)/i
+/e.?bikes?.{1,10}(angebot|komfort|power|stärke)/i
+/(Fortbewegung|kauf|neues|unschlagbare?|über).{1,10}e.?bike/iu
 
 # Brand
 /e.?bikes?.{1,10}city voyager/i

@@ -81,15 +81,19 @@
 # Three greater signs
 /\>\>\>/i
 
-# Three periods and a question mark 
+#  Two and three periods and a question mark 
+/\.\.\?/i
 /\.\.\.\?/i
 
 # Two and three periods and a exclamation mark at the end of the line
-/\.\.!\$/i
-/\.\.\.!\$/i
+/\.\.!$/i
+/\.\.\.!$/i
 
 # A subject does never start with a special character
 /^(,|\.|!|\$)/i
+
+# Wtf
+/\?@/i
 
 # Text in brackets
 # ------------------------------------------------------------------------------

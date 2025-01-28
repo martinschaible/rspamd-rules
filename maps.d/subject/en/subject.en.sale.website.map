@@ -33,6 +33,7 @@
 
 # H
 /(home.?page|web.?site).{1,10}re.?(build|design)(ing)?/i
+/(home.?page|web.?site).{1,10}(remake|upgrade|upgrading)/i
 
 # I
 
@@ -69,8 +70,6 @@
 /web.{1,10}(designing|development).{1,10}(offer|proposal)/i
 /web.{1,5}proposal/i
 /web re.?builder/i
-
-/web.?site.?!!/i
 
 /with a web.?site/i
 

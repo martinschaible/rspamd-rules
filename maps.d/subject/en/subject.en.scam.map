@@ -14,11 +14,14 @@
 /rfq.{1,15}po.{1,5}requiremnts/i
 /rfq-?.?\d{2,10}/i
 /rfq\//i
+/rfq.{1,5}p\.?o/i
 
 /- new order/i
 
 /new rfq/i
 
+/quotation.?rfq/i
+/request.?quotation/i
 /request for quotation from/i
 /vendor procurement project/i
 
