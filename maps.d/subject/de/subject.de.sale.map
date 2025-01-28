@@ -15,7 +15,7 @@
 /e.?bikes?.{1,10}(besten|bester) preis/i
 /e.?bikes?.{1,10}für (alle|den|ihre|jedes?)/i
 /e.?bikes?.{1,10}(angebot|komfort|power|stärke)/i
-/(fortbewegung|kauf|neues|rabatt(en)?|unschlagbare?|über).{1,10}e.?bike/iu
+/(auf ein|fortbewegung|kauf|neues|rabatt(en)?|unschlagbare?|über).{1,15}e.?bike/iu
 
 # Brand
 /e.?bikes?.{1,10}city voyager/i
@@ -25,6 +25,7 @@
 /mit (einem|unserem).{1,10}e.?bike/i
 /(bestes?|entdecken|leistungsstark|perfektes?|richtigen).{1,10}e.?bike/i
 
+/retro.?cruiser.{1,5}ebike/i
 /moped.{1,5}(cruiser|e.?bikes?)/i
 /moped.{1,5}style e.?bikes/i
 

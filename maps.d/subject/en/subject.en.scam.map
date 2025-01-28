@@ -38,7 +38,8 @@
 /atm department/i
 
 # B
-/^business (enquiry|inquiry|proposal)$/i
+/^(business|partnership) (enquiry|inquiry|proposal)$/i
+/(business|partnership).{1,10}(assistance|offer|proposition|response)/i
 
 # C
 /compensation.{1,10}\d{2,4}(\.|,)?\d{3,4}/i
