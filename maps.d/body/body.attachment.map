@@ -60,12 +60,13 @@
 # Pattern
 # ------------------------------------------------------------------------------
 /detail.{0,10}specification/i
-/stock.{0,10}offer/i
+/new.?order/i
+/updated.?price/i
 /quotation#/i
 /quotation.?new/i
+/stock.{0,10}offer/i
 
 /nachricht/i
-/new.?order/i
 
 /coca.?cola/i
 /cup.?result/i

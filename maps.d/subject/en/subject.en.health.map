@@ -16,7 +16,7 @@
 
 /breaking.{1,10}harvard study/i
 
-/japanese.{1,10}trick/i
+/japanese.{1,10}(secret|trick)/i
 /minute hack/i
 
 /(daily|easy|odd).{1,10}second trick/i
@@ -83,6 +83,7 @@
 /(do|try) this \d{1,2} minutes before/i
 #/try this before bed/i
 /(do|try) this before/i
+/do this every day/i
 
 /doing this to your/i
 /drink this.{1,15}(before|juice|to)/i
@@ -159,6 +160,7 @@
 
 # P
 /pain in.{1,10}minutes?/i
+/painful neuropathy/i
 
 /pee leaks/i
 /perfect vision in.{1,10}days/i
@@ -180,7 +182,7 @@
 /relieve.{1,10}constipation/i
 /remedy unleashes your/i
 /remove.{1,10}dark spots/i
-/restores perfect memory/i
+/restores?.{1,10}(joint|memory|perfect)/i
 /(reverse|reversing).{1,10}(diabetes|ed\b|memory)/i
 
 /rock.?solid in just/i
@@ -188,6 +190,7 @@
 # S
 /say goodbye to.{1,15}pain/i
 /second.{1,10}(home remedy|stretch)/i
+/secret for hair/i
 /sign of a stroke/i
 /skin.{1,10}transformation/i
 
@@ -198,7 +201,10 @@
 /slash.{1,10}blood.?pressure/i
 
 /solution for ed/i
-/stretch that (eliminates|stops)/i
+/stop using this/i
+
+/strange.{1,15}boosts/i
+/stretch that (eliminates|restores|stops)/i
 /stuck poop/i
 
 # T

@@ -104,7 +104,9 @@
 # ------------------------------------------------------------------------------
 /(health|quick).{0,10}(boost(er)?|fix|guide)/i
 
-/healthy?.{0,10}(alert|alternative|brain|guides?|gut|heart|heaven|insights|power|secret|transformation)/i
+/healthy?.{0,10}(alert|alternative|brain|circulation)/i
+/healthy?.{0,10}(guides?|gut|heart|heaven|insights)/i
+/healthy?.{0,10}(power|secret|transformation)/i
 
 /(american|daily|insider|mens|womens).{0,10}health/i
 
@@ -148,7 +150,7 @@
 
 /(better|grinding|painful|sore|swollen).{0,10}joints?/i
 
-/(anti|chronic|reduce).{0,10}(inflammation|inflammatory)/i
+/(achy|anti|chronic|reduce).{0,10}(inflammation|inflammatory)/i
 
 # Knee
 # ------------------------------------------------------------------------------
@@ -422,7 +424,7 @@
 /grow.{0,10}(hair|trick)/i
 
 # H
-/hair.{0,5}(growth|loss|renewal|restoration|thinning)/i
+/hair.{0,5}(growth|loss|renewal|restoration|restorer?|thinning)/i
 /hard in\b/i
 
 /happy.{0,10}gut/i
@@ -496,6 +498,7 @@
 /numb.{0,10}(feet|hand)/i
 
 /no.{0,10}diet/i
+/no more/i
 
 # O
 /odd.{0,10}(milk|mineral|liquid|tonic)/i

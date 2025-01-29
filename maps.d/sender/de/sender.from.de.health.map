@@ -29,7 +29,8 @@
 # A
 /abnehm.{0,10}quiz/i
 
-/^apotheke.{0,10}newsletter/i
+/^apotheken?.{0,10}nachrichten/i
+/^apotheken?.{0,10}news(letter)?/i
 
 # B
 /blut.{0,10}(druck|gesundheit|hochdruck)/i
