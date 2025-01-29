@@ -107,7 +107,7 @@
 /dhl.{0,5}\d{1,2}/i
 /dhl.{0,5}paketstatus/i
 /dhl.{0,5}paketzentrum/i
-/dhl.{0,5}(express|germany|package)/i
+/dhl.{0,5}(express|germany|package|team|your)/i
 /dhl.?ups/i
 
 /(express|kurier|notification).{0,5}(dhl|dpd)/i

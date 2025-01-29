@@ -17,6 +17,7 @@
 /ich beobachte sie.{1,15}seit einigen monaten/i
 
 /ich habe eine kopie.{1,15}webcam/i
+/ich habe installiert.{1,10}trojan/i
 
 /ich.{1,25}(zugang|zugriff).{1,10}(auf|zu).{1,10}(alle|deine?|ihre?).{1,10}(dateien|geräte|konto)/i
 /ich.{1,25}(zugang|zugriff).{1,10}(auf|zu).{1,10}computer.{1,10}verschafft/i
@@ -47,6 +48,7 @@
 
 /habe ich unbefugten zugriff/i
 
+/zugang zu den geräten.{1,10}einsetzen/iu
 #
 /daten wurden auf meine.{1,10}server kopiert/i
 
@@ -64,9 +66,9 @@
 # Payment
 # ------------------------------------------------------------------------------
 /euro? an meine? bitcoin.?(adresse|wallet)/i
-/meine? (btc|bitcoin).?(adresse|brieftasche|wallet) sieht so aus/i
-/meine? (btc|bitcoin).?(adresse|brieftasche|wallet).{1,10}(btc|bitcoin).?wallet.{1,10}lautet/i
-/meine? (btc|bitcoin).?(adresse|brieftasche|wallet).{1,10}für die zahlung/i
+/meine? (btc|bitcoin).?(adresse|brieftasche|geldbörse|wallet) sieht so aus/i
+/meine? (btc|bitcoin).?(adresse|brieftasche|geldbörse|wallet).{1,10}(btc|bitcoin).?wallet.{1,10}lautet/i
+/meine? (btc|bitcoin).?(adresse|brieftasche|geldbörse|wallet).{1,15}zahlung/i
 
 /unten ist meine? bitcoin.?(adresse|wallet)/i
 
