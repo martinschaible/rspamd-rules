@@ -281,10 +281,11 @@
 /^wix$/i
 /wix.{0,10}team/i
 
-# 20.12.14 - Sample: companyname WeTransfer
+# 20.12.14 - Sample: WeTransfer
 /[a-z]{5,15} wetransfer/i
 
-/www.\[a-z]{5,15}\.de/i
+# 29.01.25 - Sample: www.adac.de
+/www.\[a-z]{4,15}\.de/i
 
 # X
 
