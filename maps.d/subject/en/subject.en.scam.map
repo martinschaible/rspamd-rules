@@ -39,7 +39,7 @@
 
 # B
 /^(business|partnership) (enquiry|inquiry|proposal)$/i
-/(business|partnership).{1,10}(assistance|offer|proposition|response)/i
+/(business|partnership).{1,10}(assistance|offer|opportunity|proposition|response)/i
 
 # C
 /compensation.{1,10}\d{2,4}(\.|,)?\d{3,4}/i
@@ -129,6 +129,7 @@
 # V
 
 # W
+/we.{1,10}offering grants/i
 /we want to invest/i
 
 /world company registration/i

@@ -26,36 +26,36 @@
 /docu\.7z/i
 
 # 13.0125 - Sample: re_10_00134873.zip
-/re_[0-9_]{4,15}\.zip/i
+/re_[0-9_]{4,15}\.(gz|zip)/i
 
 # 09.01.25 - Sample: DHL Receipt_#7900629801.gz
 /#\d{3,15}\.gz/i
 
 # 11.01.25 - Sample: 10201124.zip
-/^\d{5,10}\.zip/i
+/^\d{5,10}\.(gz|zip)/i
 
 /\d{5,10}\.rar/i
 
 # 16.01.25 - Sample: CCF_001802.zip
-/[a-z]\{3}_\d{1,10}\.zip/i
+/[a-z]\{3}_\d{1,10}\.(gz|zip)/i
 
 # 16.01.25 - Sample: R_54369_gojak.it.zip
-/r_\d{1,10}_.{0,15}\.zip/i
+/r_\d{1,10}_.{0,15}\.(gz|zip)/i
 
 # 18.01.25 - Sample: Rg. Fa. Schophuis.zip
-/rg\..{0,5}fa\..{0,15}\.zip/i
+/rg\..{0,5}fa\..{0,15}\.(gz|zip)/i
 
 # 20.01.25 - Sampple: PO# 4502288112.gz
 /po#.{0,25}\.(7z|gz|r16|rar|zip)/i
 
 # 22.01.25 - Sample: RFQ- 2708970-001.gz
-/rfq-.{0,15}\.gz/i
+/(inq|rfq)-.{0,15}\.(gz|zip)/i
 
 # 23.01.25 - Sample: FD_EberleR176612.zip
-/(fd|pis)_.{0,20}\.zip/i
+/(fd|pis)_.{0,20}\.(gz|zip)/i
 
 # 24.01.25 - Sample: RE.1.201.2024.2484.zip
-/re:.{0,20}\.zip/i
+/re:.{0,20}\.(gz|zip)/i
 
 # Pattern
 # ------------------------------------------------------------------------------
