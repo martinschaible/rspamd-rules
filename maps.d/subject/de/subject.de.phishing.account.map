@@ -52,6 +52,7 @@
 /für ihr.{1,15}(konto|profil)/i
 
 # G
+/gesperrt.{1,10}letzte warnung/i
 
 # H
 /handeln sie jetzt/i
@@ -63,7 +64,7 @@
 # I
 /identifikation erforderlich/i
 
-/ihr konto wird.{1,15}(gesperrt|begrenzt|verifiziert)/i
+/ihr konto (bleibt|wird).{1,15}(gesperrt|begrenzt|verifiziert)/i
 
 # J
 
