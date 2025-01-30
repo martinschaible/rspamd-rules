@@ -214,6 +214,7 @@
 /prime.{0,5}notification/i
 
 # Q
+/quickship/i
 
 # R
 /楽天カード株式会社/i                      # 30.12.24 -Rakuten Card Co., Ltd.
@@ -236,6 +237,8 @@
 /^sumup\.?$/i
 /sumup.{0,10}(limited|team)/i
 /(team|von).{0,10}sumup/i
+
+/swiftpackage/i
 
 /swiss pass/i
 /swiss-pass/i

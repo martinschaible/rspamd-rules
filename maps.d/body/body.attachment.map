@@ -21,7 +21,7 @@
 
 /(inquiry|invoice|order|proforma|quotation|receipt|request).{0,25}\.(7z|gz|r11|r16|rar|tar|xls|zip)/i
 
-/rechnung.{0,25}\.(7z|gz|rar|zip)/i
+/rechnung.{0,45}\.(7z|gz|rar|zip)/i
 
 /docu\.7z/i
 
@@ -56,6 +56,9 @@
 
 # 24.01.25 - Sample: RE.1.201.2024.2484.zip
 /re:.{0,20}\.(gz|zip)/i
+
+# 30.01.25 - Sample: 2024-11-11.zip
+/\d{4}-\d{2}-\d{2}\.(gz|zip)/i
 
 # Pattern
 # ------------------------------------------------------------------------------
