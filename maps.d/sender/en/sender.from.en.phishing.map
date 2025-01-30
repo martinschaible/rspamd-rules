@@ -16,10 +16,10 @@
 # ------------------------------------------------------------------------------
 
 # TLD in front
-/\.[2,4].?(admin$|administrator|helpdesk|security|server|support|update)/i
-/\.[2,4].?mail.?service/i
-/\.[2,4].?security.?center/i
-/\.[2,4].?support.?team/i
+/\.[2,4].{1,5}(admin$|administrator|helpdesk|security|server|support|update)/i
+/\.[2,4].{1,5}mail.?service/i
+/\.[2,4].{1,5}security.?center/i
+/\.[2,4].{1,5}support.?team/i
 
 /(e?.?mail|webmail).{0,5}(admin|manager|notice|server|support|team)/i
 

@@ -86,7 +86,8 @@
 
 /eye.{0,10}(help|relief)/i
 
-/(eye.?sight|vision).{0,10}(20.?20|boost|enhancing|loss|rescue|reset|restorer?|supplement)/i
+/(eye.?sight|vision).{0,10}(20.?20|boost|enhancing|fix|loss)/i
+/(eye.?sight|vision).{0,10}(rescue|reset|restorer?|supplement)/i
 
 # Fungus, Nails
 # ------------------------------------------------------------------------------
@@ -451,6 +452,7 @@
 /kidney.{0,10}fix/i
 
 # L
+/leakage.{0,10}fixer/i
 /life.{0,10}pharmacy/i
 
 /live.{0,10}(forver|long(er)?)/i
