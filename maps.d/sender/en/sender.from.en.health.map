@@ -90,7 +90,8 @@
 
 # Fungus, Nails
 # ------------------------------------------------------------------------------
-/(attack|end|fight|foot|goodbye|nail|nasty|stop|yellow).{0,10}fungus/i
+/(attack|end|fight|foot|goodbye).{0,10}fungus/i
+/(nail|nasty|pesky|stop|yellow).{0,10}fungus/i
 
 /(cracked|healthy|nasty|rotten|ugly|yellow).{1,10}(nails|toe)/i
 /(toe)?nails?.{0,10}resque/i

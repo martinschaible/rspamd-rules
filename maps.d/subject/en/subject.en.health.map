@@ -16,10 +16,11 @@
 
 /breaking.{1,10}harvard study/i
 
-/japanese.{1,10}(secret|trick)/i
+/(\d.?second|japanese).{1,10}(secret|trick)/i
+
 /minute hack/i
 
-/(daily|easy|odd).{1,10}second trick/i
+/(daily|easy|odd).{1,10}second.{1,10}(secret|trick)/i
 /easy trick for clear/i
 
 /second.{1,10}(daily|easy) trick/i
@@ -201,9 +202,12 @@
 /rock.?solid in just/i
 
 # S
+/save your.{1,10}nails/i
 /say goodbye to.{1,15}pain/i
+
 /second.{1,10}(home remedy|stretch)/i
 /secret for hair/i
+
 /sign of a stroke/i
 /skin.{1,10}transformation/i
 
