@@ -26,6 +26,9 @@
 # 30.12.24 - Sample: https://www.jkhlkljjkllkklklkjlkkkjk@qrco.de/
 /https:\/\/(www\.)?[a-z0-9-]{3,30}@[a-z0-9-]{3,30}\.[a-z]{2,4}\//i
 
+# 30.01.25 - Sample: https://971266198273meta0827736629verifcustomer
+/https:\/\/(www\.)?[0-9]{5,20}[a-z]{3,10}/i
+
 # Unusual patterns
 # ------------------------------------------------------------------------------
 /https?://&#/i
