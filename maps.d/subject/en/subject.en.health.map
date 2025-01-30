@@ -71,6 +71,8 @@
 
 /blood.?sugar.{1,10}(drops|naturally)/i
 
+/boost heart health/i
+
 # C
 /calories.{1,10}belly fat/i
 /constipation.{1,10}read this/i
@@ -126,10 +128,15 @@
 
 /heal.{1,15}pain/i
 /healing recipe/i
+/healthy nails/i
+
 /heart attack risk by/i
 /heart.{1,10}fix/i
 
+/here is the fix/i
+
 /high a1c/i
+/home remedy/i
 
 # I
 /improve memory (instantly|in.{1,15}seconds)/i
@@ -163,7 +170,9 @@
 # O
 
 # P
+/pain free.{1,10}joints/i
 /pain in.{1,10}minutes?/i
+
 /painful neuropathy/i
 
 /pee leaks/i
@@ -204,11 +213,15 @@
 /simple.{1,15}weight.?loss/i
 /slash.{1,10}blood.?pressure/i
 
-/solution for ed/i
+/solution.{1,10}enhanced performance/i
+/solution.{1,10}for ed/i
+
 /stop (taking|using) this/i
 
 /strange.{1,15}boosts/i
 /stretch that (eliminates|restores|stops)/i
+/strong(er)?.{1,10}erections?/i
+
 /stuck poop/i
 
 # T
@@ -219,12 +232,15 @@
 /this (easy|simple) stretch/i
 /this for.{1,10}seconds/i
 
+/transform your body/i
+
 /trick melts.{1,10}fat/i
 /trick to end.{1,15}pain/i
 
 /to stay asleep/i
 
 # U
+/unusual asian treat/i
 
 # V
 

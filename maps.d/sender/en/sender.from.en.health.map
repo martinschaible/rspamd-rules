@@ -139,10 +139,6 @@
 /(cure|remove).{0,10}herpes/i
 /herpes.{0,10}eliminator/i
 
-# Issues
-# ------------------------------------------------------------------------------
-/dental.{0,10}issues/i
-
 # Joints
 # ------------------------------------------------------------------------------
 /joints?.{0,10}(cure|(dis)?comfort|fix|genesis|healed|hero|inflammation)/i
@@ -189,10 +185,6 @@
 
 /(increase|enhance).{0,10}(stamina|size)/i
 
-# Pharmacy
-# ------------------------------------------------------------------------------
-/life.{0,10}pharmacy/i
-
 # Prostatitis
 # ------------------------------------------------------------------------------
 /(urin|pee).{0,10}leaks/i
@@ -201,10 +193,6 @@
 # Recepies
 # ------------------------------------------------------------------------------
 /(cleanse|night|smoothie|water|wl).{0,10}recipe/i
-
-# Rituals
-# ------------------------------------------------------------------------------
-/renew.{0,10}ritual/i
 
 # Skin
 # ------------------------------------------------------------------------------
@@ -216,10 +204,6 @@
 # ------------------------------------------------------------------------------
 /sleep(ing)?.{0,10}(blockers?|fix|instantly|problem|saboteur|struggles?|tight)/i
 /(about|better|deep).{0,10}sleep/i
-
-# Stomach
-# ------------------------------------------------------------------------------
-/(big|flat(ten)?).{0,10}stomach/i
 
 # Stretching
 # ------------------------------------------------------------------------------
@@ -322,9 +306,12 @@
 /bald.{0,10}spot/i
 /basic.{0,10}protein/i
 
-/bedroom.{0,10}secrets?/i
+/bedroom.{0,10}(fix|secrets?)/i
 /belly.{0,10}(buddy|buster)/i
 /better.{0,10}poop/i
+
+/big.{0,10}secret/i
+/(big|flat(ten)?).{0,10}stomach/i
 
 /bladder.{0,10}(boost|care|control|danger|fix|health|leaks?|leakage|leaking|issues?|relief)/i
 
@@ -347,6 +334,7 @@
 /calorie.{0,10}(booster|burn)/i
 
 /cancel(ed)?.{0,10}surgery/i
+/care.{0,10}secret/i
 
 /cbd.{0,10}(fruit|gummies|therapy)/i
 
@@ -371,7 +359,7 @@
 
 /dead.{0,10}(foods?|kidneys)/i
 /(dead|deep).{0,10}cleansing/i
-/dental.?rescue/i
+/dental.{0,10}(issues?|rescue)/i
 
 /digestive.{0,10}system/i
 /digestion/i
@@ -419,6 +407,7 @@
 /(fungal|fungus).{0,10}(eliminator|free|infection|relief|remover?|vanishing)/i
 
 /food.{0,10}(cravings?|choices?|odor|trap)/i
+/foot.{0,10}care/i
 /fried.{0,10}chicken/i
 /fruit.{0,10}mistake/i
 
@@ -439,7 +428,7 @@
 /healing.{0,10}(massage|technology)/i
 /healthy.{0,10}(choice(es)?|digest)/i
 
-/heart.{0,10}(attack|cells|health|disease|protection)/i
+/heart.{0,10}(attack|cells|health|disease|problems?||protection)/i
 
 /herpes.{0,10}outbreak/i
 
@@ -461,6 +450,8 @@
 /kidney.{0,10}fix/i
 
 # L
+/life.{0,10}pharmacy/i
+
 /live.{0,10}(forver|long(er)?)/i
 /liver.{0,10}weight/i
 
@@ -539,6 +530,7 @@
 
 /red.{0,10}juice/i
 /remove.{0,10}toxin/i
+/renew.{0,10}ritual/i
 /replace.{0,10}blue/i
 /restore.{0,10}cognition/i
 /reverse.{0,10}(aging|gum)/i
