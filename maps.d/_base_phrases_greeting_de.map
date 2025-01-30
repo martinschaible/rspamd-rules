@@ -83,7 +83,6 @@
 /liebe\/?r?.{1,5}wir freuen uns/i
 
 /lieber?.{1,15}baumarkt.?(kunde|kundin)/i
-/lieber?.{1,10}(empfänger|fremder|geliebter?|unbekannter)/i
 
 /lieber freund.{1,15}das ist herr/i
 /lieber freund.{1,15}mich ihnen vorstellen/i
@@ -98,8 +97,6 @@
 /lieber herr.{5,25}ich bin dr\./i
 /lieber kunde.{1,10}ich hoffe.{1,10}es geht ihnen gut/i
 /lieber kunde.{1,10}wir senden ihnen diese e?.?mail/i
-
-/liebster geliebter/i
 
 /(glückwunsch|liebste).{1,10}ich bin.{1,10}(frau|herr)/i
 
