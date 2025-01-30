@@ -110,7 +110,7 @@
 /spenden?.{1,10}erhalten.{1,10}kontaktieren sie uns/i
 /spenden?.{1,10}erhalten.{1,10}sie.{1,10}interessiert/i
 /spenden?.{1,15}geben sie.{1,10}ihre.{1,10}antwort/i
-/spenden?.{1,10}kontaktieren sie mich.{1,10}weitere informationen/i
+/spenden?.{1,10}kontaktieren sie mich.{1,15}weitere informationen/i
 
 /spenden?.{1,10}ich ihnen geben möchte/iu
 /spenden?.{1,10}ihnen die summe von.{1,10}(millionen|tausend|dollar|euro?|gbp|usd)/i
@@ -248,6 +248,8 @@
 
 /sie.{1,15}erhalt des betrags von.{1,10}\d{3}.{0,5}\d{3}/i
 /sie.{1,15}erhalt einer beträchtlichen spende/iu
+
+/sie gehören zu den.{1,20}gewinnern der.{1,20}spenden/iu
 
 /sie.{1,10}haben.{1,10}anspruch auf einen?.{1,10}(spende|zuschuss) von.{1,10}\d{3}.{0,5}\d{3}/i
 /sie.{1,10}haben.{1,10}anspruch auf einen?.{1,15}(spende|zuschuss).{1,10}(im|in).{1,10}(höhe|wert) von/iu

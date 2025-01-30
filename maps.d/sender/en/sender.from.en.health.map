@@ -244,7 +244,7 @@
 
 /(big|fat|flab|flat).{0,10}(belly|melting|size|stomage|tummy)/i
 
-/\d{1,2}.?(lbs|pounds) (down|gone|lighter)/i
+/\d{1,2}.?(lbs?|pounds).{0,10}(down|gone|lighter|overnight)/i
 
 /slim.{0,10}(belly|body|down|waist)/i
 /(metabolic|surprising).{0,10}water/i
@@ -303,6 +303,7 @@
 /aged.{0,10}spot/i
 /ageless.{0,10}beauty/i
 
+/allergy.{0,10}sufferers/i
 /ancient.{0,10}(enzyme|wellness)/i
 /(anti|fight|stop).{0,10}snoring/i
 /anti.{0,10}(fungal|fungus|wrinkle)/i
@@ -476,6 +477,7 @@
 /mens?.{0,10}(only|power)/i
 /metabolism.{0,10}(booster|loophole|unleash)/i
 /midnight.{0,10}bathroom/i
+/mind.?blow/i
 /mineral.{0,10}combination/i
 
 /mitochondria.{0,10}boost/i

@@ -95,6 +95,7 @@
 /(paket|sendung).{1,10}kann nicht ohne sie/i
 /(paket|sendung).{1,10}kann nicht.{1,15}geliefert werden/i
 /(paket|sendung).{1,10}liegt in der filiale lieferbereit/i
+/(paket|sendung).{1,10}mit der Nummer/i
 /(paket|sendung).{1,10}wartet.{1,10}holen sie es.{1,10}ab/i
 /(paket|sendung).{1,20}bewegt sich/i
 
@@ -130,7 +131,7 @@
 # W
 /warten auf abholung/i
 
-/wartet auf.{1,20}(abholung|anweisung|bestätigung|lieferung|versandzahlung|zustellung)/iu
+/wartet.{1,10}auf.{1,20}(abholung|anweisung|bestätigung|lieferung|versandzahlung|zustellung)/iu
 #/wartet auf sie/i
 /wartet immer noch/i
 /wartet wegen.{10,25}auf.{1,10}(lieferung|zustellung)/i

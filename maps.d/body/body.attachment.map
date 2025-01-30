@@ -49,7 +49,7 @@
 /po#.{0,25}\.(7z|gz|r16|rar|zip)/i
 
 # 22.01.25 - Sample: RFQ- 2708970-001.gz
-/(inq|rfq)-.{0,15}\.(gz|zip)/i
+/(inq|rfq)-?.{0,15}\.(gz|zip)/i
 
 # 23.01.25 - Sample: FD_EberleR176612.zip
 /(fd|pis)_.{0,20}\.(gz|zip)/i
@@ -60,6 +60,9 @@
 # 30.01.25 - Sample: 2024-11-11.zip
 /\d{4}-\d{2}-\d{2}\.(gz|zip)/i
 
+# 30.01.25 - Sample: 30_01_2025.gz
+/\d{2}_\d{2}_\d{4}\.(gz|zip)/i
+
 # Pattern
 # ------------------------------------------------------------------------------
 /detail.{0,10}specification/i
@@ -68,6 +71,7 @@
 /quotation#/i
 /quotation.?new/i
 /stock.{0,10}offer/i
+/swift.{0,10}message/i
 
 /nachricht/i
 

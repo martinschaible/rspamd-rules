@@ -64,9 +64,11 @@
 # I
 /identifikation erforderlich/i
 
-/ihr konto (bleibt|wird).{1,15}(gesperrt|begrenzt|verifiziert)/i
+/ihr.{1,15}konto (bleibt|wird).{1,15}(gesperrt|begrenzt|verifiziert)/i
+/ihr.{1,15}konto ist in gefahr/i
 
 # J
+/jetzt handeln/i
 
 # K
 /konto stillgelegt/i
@@ -105,6 +107,7 @@
 /überprüfen sie ihre.{1,15}(kontodaten|persönlichen daten)/iu
 
 # V
+/vermeiden sie die aussetzung/i
 
 # W
 /wichtige?.{1,10}kontofunktion(en)?/i

@@ -73,6 +73,8 @@
 # L
 
 # M
+/mailbox.{0,10}(storage|team)/i
+
 /medicare.?kit/i
 /membership.?updates/i
 
@@ -101,7 +103,7 @@
 # U
 /user assistance/i
 
-/(upgrade|update).{0,10}alert/i
+/(upgrade|update).{0,10}(alert|notice)/i
 
 # V
 
