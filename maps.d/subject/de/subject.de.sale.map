@@ -6,6 +6,12 @@
 # Topics
 # ==============================================================================
 
+# Chair
+# ------------------------------------------------------------------------------
+/(büro|massage).?(sessel|stuhl|stühle).{1,15}(abverkauf|angebot)/i
+
+/chance.{1,15}(büro|massage).?(sessel|stuhl|stühle)/i
+
 # E Bike, Scooter
 # ------------------------------------------------------------------------------
 # -> I think, this is scam
@@ -52,7 +58,9 @@
 
 # A
 /akku.?kettensäge/iu
+
 /anfrage.{1,10}personalunterstützung/iu
+/angebot nur.{1,10}testen sie/i
 /anzeige branchen.?führer/i
 
 /arbeiter aus (europa|europe)/i
@@ -142,6 +150,7 @@
 /tragbare heizung/i
 
 # U
+/unglaubliches angebot/i
 
 # V
 /vermitteln produktionshelfer/i

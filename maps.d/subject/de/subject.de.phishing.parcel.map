@@ -35,7 +35,8 @@
 
 /bestätigen sie.{1,15}barcode/i
 /bestätigen sie.{1,10}lieferdetails/i
-/bestätigen sie.{1,10}lieferung/i
+/bestätigen sie.{1,10}(lieferung|zustellung)/i
+
 /bestellung.{1,15}lieferung aussteht/i
 
 /(be)?zahlen sie jetzt.{1,10}\d(\.|,)\d{2}/i
