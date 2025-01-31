@@ -20,6 +20,7 @@
 /(database|list).{1,10}targeted.{1,10}(business|residential)/i
 /(database|list).{1,10}top decision makers/i
 
+/(targeted|verified).{1,15}contact.?lists of/i
 /(targeted|verified).{1,15}e?.?mail.{1,10}(databases?|leads?|verified)/i
 /(targeted|verified).{1,15}databases?.{1,10}businesses.{1,10}operating/i
 
@@ -59,7 +60,7 @@
 /we are.{1,10}leading b2b.data.solutions/i
 /we are.{1,10}offering.{1,10}targeted.{1,10}e.?mail/i
 /we are.{1,10}offering.{1,15}visitors.{1,10}contact.?list/i
-/we have.{1,10}targeted.{1,10}databases/i
+/we (have|sell).{1,10}targeted.{1,10}(contact|databases|lists)/i
 
 /best e?.?mail.?lists/i
 
