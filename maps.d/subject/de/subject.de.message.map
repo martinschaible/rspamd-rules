@@ -24,7 +24,7 @@
 
 # Messages
 # ------------------------------------------------------------------------------
-/nachricht.{1,10}für (dich|sie)/i
+#/nachricht.{1,10}für (dich|sie)/i
 /nachricht.{1,10}ref\b/i
 
 # Too strong, False/Positives
