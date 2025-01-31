@@ -1,6 +1,6 @@
 ## Curated Multimaps for Rspamd, second edition
 
-Rspamd offers so-called **multimaps** and their maps. With them you can create rules with or without regular expressions.
+**Rspamd** offers so-called **multimaps** and their maps. With them you can create rules with or without regular expressions.
 
 I started developing the rules in early 2024 and i am now working on an improved second version.
 
@@ -17,7 +17,7 @@ The installation is very simple, which I explain below.
 🐛 Bugs and problems can be reported here: [Issues](https://github.com/martinschaible/rspamd-rules/issues).
 
 # Installation
-The base is the file *multimaps.conf* in the folder */etc/rspamd/local.d*. This file includes all configuration files of the map files. These files are located in the same folder and must also be copied to the server.
+The base is the file *multimaps.conf* in the folder `/etc/rspamd/local.d`. This file includes all configuration files of the map files. These files are located in the same folder and must also be copied to the server.
 
 The map files of the first generation begin with an underscore `_multimap....map` . The second generation does not have the leading underscore.
 
@@ -25,6 +25,10 @@ Important: Both versions must be uploaded.
 
 Finally, the Rspamd service must be restarted
 
-`systemctl restart rspamd`
+```
+systemctl restart rspamd
+```
+
+The map files in the folder `/etc/rspamd/maps.d` do not need to be copied. **Rspamd** loads them directly from Github and caches them locally. New versions are checked periodically.
 
 # Content
