@@ -23,12 +23,6 @@
 # ==============================================================================
 
 # A
-/aktualisieren sie.{1,10}ihre?.{1,15}(konto(informationen)?|profil)/i
-/aktualisierung.{1,10}ihrer.{1,10}kontoinformationen/i
-
-/aktualisierung.{1,10}erforderlich.{1,20}konto.{1,10}(gesperrt|stillgelegt)/i
-/aktualisierung.{1,10}überprüfen sie/i
-
 /aktivitäten vorübergehend geschlossen/i
 
 # B
@@ -48,7 +42,6 @@
 
 # E
 /eine sperrung zu vermeiden/i
-/erforderliche aktualisierung/i
 
 # F
 /für ihr.{1,15}(konto|profil)/i
@@ -57,21 +50,15 @@
 /gesperrt.{1,10}letzte warnung/i
 
 # H
-/handeln sie jetzt/i
-/handeln sie sofort/i
-/handeln erforderlich.{1,10}vermeiden sie die sperrung/i
-
 /halten sie ihr.{1,15}konto aktiv /i
 
 # I
-/identifikation erforderlich/i
 
 /ihr.{1,15}konto (bleibt|wird).{1,15}(gesperrt|begrenzt|verifiziert)/i
 /ihr.{1,15}konto ist in gefahr/i
 /ihr.{1,15}konto wurde aufgrund ungewöhnlicher/i
 
 # J
-/jetzt handeln/i
 
 # K
 /konto stillgelegt/i
@@ -83,7 +70,6 @@
 # M
 
 # N
-/nachricht.{1,10}bestätigen sie ihr.{1,15}konto/iu
 
 # O
 
@@ -94,20 +80,11 @@
 # R
 
 # S
-/sicherheitsupdate.{1,10}überprüfen sie ihr/i
-
-/swisspass.{1,10}überprüfen sie/iu
 
 # T
 
 # U
 /um den service fortzusetzen/i
-/update erforderlich/i
-/update.{1,10}kontosicherheit/i
-
-/überprüfen sie ihre.{1,15}daten jetzt/iu
-/überprüfen sie ihr.{1,15}(konto|profil)/iu
-/überprüfen sie ihre.{1,15}(kontodaten|persönlichen daten)/iu
 
 # V
 /vermeiden sie die aussetzung/i
