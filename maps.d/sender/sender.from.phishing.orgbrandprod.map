@@ -77,6 +77,7 @@
 /^ard.?zdf$/i
 /ard.?zdf.?(radio|service)/i
 
+/ライフカ/i                    # 01.02.25 - LIFE CARD Co., Ltd.   
 /アイフル/i                    # 21.12.24 - Aiful corporation
 /ネットバンク/i                 # 21.12.24 - Aiful corporation
 
@@ -202,6 +203,8 @@
 # O
 /(obi|otto).?(™|®)$/i
 /obi-/i
+
+/e-orico/i                                        # 01.02.25 - Orico Corporation
 
 # P
 /paypal.{0,5}(case.?id|europe?|inc|kunden|konto|support|voucher)/i
