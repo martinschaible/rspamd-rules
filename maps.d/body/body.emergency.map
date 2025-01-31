@@ -1,5 +1,14 @@
 # ==============================================================================
+# There are cases where a rule has to be created immediately and without
+# thinking too much. This is the right (temporary) place for it.
 #
+# "content" was chosen as the type and "rawtext" as the filter.
+# This means that the entire email content is available.
+#
+# Unfortunately, there is another reason: Rspamd is not always able
+# to correctly recognize a domain name in a link.
+#
+# In an emergency, a "rawtext" helps.
 #
 # ------------------------------------------------------------------------------
 # Language: any
