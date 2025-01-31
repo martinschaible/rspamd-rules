@@ -1,15 +1,14 @@
-## Curated Multimaps for Rspamd
+## Curated Multimaps for Rspamd, second edition
 
-Even in 2024 an accurate content filtering is the last resort of a spam filtering system.
+Rspamd offers so-called **multimaps** and their maps. With them you can create rules with or without regular expressions.
 
-Rspamd offers so called **Multimaps** and their **Maps**.
-This allows with or without regex to create any rule we want.
+I started developing the rules in early 2024 and i am now working on an improved second version.
 
-As i did it in *Declude* i created maps related to different categories mostly for two languages.
+Before Rspamd, I used an older product called **Declude** as a spam filtering system for our server as well as for customers. Declude also offered a rule system based on regular expressions. This experience is very useful to me here.
 
-📣 We have some important updates. Please checkout the [Announcement](https://github.com/martinschaible/rspamd-rules/discussions/categories/announcements)
+The rules are updated at least once, but usually several times a day and are therefore sure to be accurate.
 
-:boom: **The rules will be updated on a daily base.** :boom:
+The installation is very simple, which I explain below.
 
 🍀 Feel free to use these maps on your Rspamd server.
 
@@ -17,8 +16,15 @@ As i did it in *Declude* i created maps related to different categories mostly f
 
 🐛 Bugs and problems can be reported here: [Issues](https://github.com/martinschaible/rspamd-rules/issues).
 
+# Installation
+The base is the file *multimaps.conf* in the folder */etc/rspamd/local.d*. This file includes all configuration files of the map files. These files are located in the same folder and must also be copied to the server.
 
-To be honest, I haven't understood everything yet and therefore not every rule is perfect.
-Sometimes it is hard to understand the documentation for me.
+The map files of the first generation begin with an underscore `_multimap....map` . The second generation does not have the leading underscore.
 
-:bulb: I started a [Wiki](https://github.com/martinschaible/rspamd-rules/wiki).
+Important: Both versions must be uploaded.
+
+Finally, the Rspamd service must be restarted
+
+`systemctl restart rspamd`
+
+# Content
