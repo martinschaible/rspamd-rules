@@ -128,6 +128,8 @@
 # E
 
 # F
+/facebook (ads.?team|inc)/i
+
 /fedex$/i
 /fedpol/i
 /fedex.?ups/i
@@ -169,6 +171,7 @@
 /medicare.?kit/i
 
 /^meta$/i
+/meta for business/i
 
 /(metamask|microsoft|migros).?(™|®|©)$/i
 
