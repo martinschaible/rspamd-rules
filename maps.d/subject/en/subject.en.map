@@ -78,9 +78,6 @@
 
 # D
 
-/dear (beloved|due respect|esteemed|herr|recipient)/i
-/dear herr/i
-
 # E
 /e?.?mail finds you well/i
 
@@ -96,11 +93,7 @@
 /get back to me/i
 /god bless you/i
 
-/good morning:/i
-
 # H
-/hello dearest/i
-/hello sir.?madam/i
 
 # I
 /i?a?m dr\./i
@@ -119,8 +112,6 @@
 /kindly confirm to proceed/i
 
 # L
-/ladies and gentlemen/i
-
 /^let me know$/i
 
 /loan.{1,5}\d{2}\/\d{2}\/\d{2,4}/i

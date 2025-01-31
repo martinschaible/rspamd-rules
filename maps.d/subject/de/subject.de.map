@@ -6,23 +6,6 @@
 # Topics
 # ==============================================================================
 
-# Greetings
-# ------------------------------------------------------------------------------
-/^guten (abend|tag)$/i
-
-/guten (abend|tag).?$/i
-/guten (abend|tag).?\[/i
-/guten (abend|tag) (frau|herr)/i
-
-/hallo -/i
-/hallo.{1,10}herr.{1,5}frau/i
-/hallo.{1,5}liebling/i
-
-/lieber herr/i
-
-/sehr geehrte damen und herren/i
-/(guten tag|hallo|sehr geehrter?).{1,20}(begünstigter|e?.?mail|empfänger|kunde)/iu
-
 # Hiring people
 # ------------------------------------------------------------------------------
 /(arbeiter|arbeitskräfte|fachkräfte|hilfspersonal|personalsuche|vermittlung|zeitarbeit).{1,15}(baltikum|litauen)/iu
@@ -75,10 +58,6 @@
 
 /gewinne.{1,10}el.?gordo/i
 /gott segne ihren tag/i
-
-/grüße an sie/i
-
-/guten tag.{1,10}lieber freund/i
 
 # H
 /hier.{1,10}botschafter(in)?/i
