@@ -43,6 +43,8 @@
 /liebster.{1,10}(freund|geliebter)/i
 
 # M
+/mein name ist.{5,25}ich lebe.{1,10}in/i
+/mein name ist.{5,25}ich bin.{1,15}(anwalt|banker|manager)/i
 
 # N
 
@@ -55,6 +57,9 @@
 # R
 
 # S
+/sehr geehrter manager/i
+
+/sie zu kontaktieren.{1,10}mein name ist/i
 
 # T
 
