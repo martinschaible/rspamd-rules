@@ -12,8 +12,22 @@
 # F
 
 # G
+/^guten (abend|tag)$/i
+
+/guten (abend|tag).?$/i
+/guten (abend|tag).?\[/i
+/guten (abend|tag) (frau|herr)/i
+/guten (abend|tag).{1,10}lieber freund/i
+
+/(guten tag|hallo|sehr geehrter?).{1,20}(begünstigter|e?.?mail|empfänger|kunde)/iu
+
+/grüße an sie/i
 
 # H
+/hallo -/i
+/hallo.{1,10}herr.{1,5}frau/i
+/hallo.{1,5}liebling/i
+
 
 # I
 
@@ -22,6 +36,7 @@
 # K
 
 # L
+/lieber herr/i
 
 # M
 
@@ -36,6 +51,7 @@
 # R
 
 # S
+/sehr geehrte damen und herren/i
 
 # T
 
