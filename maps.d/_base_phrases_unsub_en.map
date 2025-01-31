@@ -13,9 +13,6 @@
 /stop future communications.{1,10}send post.?mail to/i
 /to opt.?out of this advertiser.{1,10}mailings.{1,10}(please|visit)/i
 
-/unsubscribe from this offer.{1,10}click or write to/i
-/unsubscribe link.{1,10}or write to/i
-/
 /you can opt out by sending a letter to/i
 /you do not want.{1,10}receive.{1,10}e?.?mails from us.{1,10}you.{1,10}go right here/i
 /you enjoy receiving this message.{1,15}if you.{1,10}(prefer|rather) not to receive/i
@@ -33,12 +30,6 @@
 /(ca|nv|ny).{1,5}us \d{5}.{1,10}unsubscribe.{1,10}here/i
 /(ca|nv|ny).{1,5}\d{5}.{1,10}you no longer wish to recieve/i
 /(ca|nv|ny).{1,5}\d{5}.{1,10}to update.{1,10}remove your contact information/i
-
-/to unsubscribe.{1,10}click here or write to.{1,15}\d{2,5}/i
-# Sample: unsubscribe from this newsletter, click here. 302
-/to unsubscribe.{1,10}from this newsletter.{1,10}click here.{1,10}\d{2,5}/i
-# Sample: To Unsubscribe: or send post-mail To 705
-/to unsubscribe.{1,10}or send post.?mail to.{1,15}\d{2,5}/i
 
 # Post Mail
 # ------------------------------------------------------------------------------
