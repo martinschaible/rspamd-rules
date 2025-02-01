@@ -26,7 +26,7 @@
 
 # Blood pressure, Heart
 # ------------------------------------------------------------------------------
-/blood.{0,10}(clots|glucose|pressure|sugar)/i
+/blood.{0,10}(clots|flow|glucose|pressure|sugar)/i
 /(balanced|deadly|high|your).{0,10}blood/i
 
 /sugar.{0,10}spike/i
@@ -491,13 +491,11 @@
 /natural.{0,10}(alternative|antibiotic|fix|shape|solution)/i
 /nature.{0,10}opioids?/i
 
-/nerves?.{0,10}(comfort|health|recovery|repair)/i
+/nerves?.{0,10}(comfort|health|recovery|repair|revival)/i
 /never eat/i
 /new.{0,10}(hair|research)/i
 
 /nightmare.{0,10}pee/i
-
-/numb.{0,10}(feet|hand)/i
 
 /no.{0,10}diet/i
 /no more/i
@@ -590,7 +588,8 @@
 /thin(ning)?.{0,10}hair/i
 /this.{0,10}elixir/i
 
-/tingling.{0,10}nerves/i
+/(tingling|numb).{0,10}(feet|hand|nerves)/i
+
 /top.{0,10}(fruits|medication)/i
 /toxic.{0,10}milk/i
 

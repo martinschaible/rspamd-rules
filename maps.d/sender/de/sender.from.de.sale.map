@@ -44,6 +44,7 @@
 /hörgeräte?.{0,10}sensation?/i
 
 # I
+ihr.{0,10}wifi/i
 
 # J
 /^jacke\b/i
@@ -86,6 +87,9 @@
 
 # W
 /waschsauger/i
+
+/(wifi|wlan).{0,15}(connection|team)/i
+
 /wintermützen?/i
 
 /(schnelle(re)?s|tragbares).?(wi.?fi|w.?lan)/i
