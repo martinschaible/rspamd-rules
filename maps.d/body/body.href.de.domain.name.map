@@ -6,23 +6,29 @@
 
 # A
 
-# Belongs probably to "no fancy advertising"
-/adwu\.de/                                          # 21.01.25 - EMail Marketing
+# # 21.01.25 - EMail Marketing, Belongs probably to "no fancy advertising"
+/adwu\.de/i
 
 # B
 
 # C
 
 # D
-/digitalinfomail\.de/i                              # 12.01.25 - EMail Marketing
+
+# 12.01.25 - EMail Marketing
+/digitalinfomail\.de/i
 
 # E
 
 # F
-/faxmaster\.de/i                                    # 07.01.25 - EMail Marketing
+
+# 07.01.25 - EMail Marketing
+/faxmaster\.de/i
 
 # G
-/gdwr\.de/i                                         # 13.01.25 - EMail Marketing
+
+# 13.01.25 - EMail Marketing
+/gdwr\.de/i
 
 # H
 
@@ -34,16 +40,20 @@
 
 # L
 
-# Belongs probably to "no fancy advertising"
-/leadfairtrade\.de/i                                  # 13.01.25 - EMail Marketing
+# 13.01.25 - EMail Marketing, Belongs probably to "no fancy advertising"
+/leadfairtrade\.de/i
 
 # M
 
 # N
-/newslettertogo\.com/i                                # 22.01.25 - EMail Marketing
+
+# 22.01.25 - EMail Marketing
+/newslettertogo\.com/i
 
 # O
-/olgy\.de/i                                         # 11.01.25 - EMail Marketing
+
+# 11.01.25 - EMail Marketing
+/olgy\.de/i
 
 # P
 
@@ -53,12 +63,17 @@
 
 # S
 
-# Belongs to Swissad GMBH,. Fallback if Rspamd can't catch the company name
-/swissad.de/i                                       # 12.01.25 - EMail Marketing
+# # 12.01.25 - EMail Marketing, Belongs to Swissad GMBH
+# -> Fallback if Rspamd can't catch the company name
+/swissad.de/i
 
 # T
-/tmedianews\.de/i                                   # 11.01.25 - EMail Marketing
-/traffic-meile\.de/i                                # 07.01.25 - EMail Marketing
+
+# 11.01.25 - EMail Marketing
+/tmedianews\.de/i
+
+# 07.01.25 - EMail Marketing
+/traffic-meile\.de/i
 
 # U
 
