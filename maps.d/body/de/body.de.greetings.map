@@ -29,6 +29,8 @@
 /guten tag.{1,10}bitcoin/i
 
 # H
+/hallo.{1,10}ich bin.{5,35}eine?.{1,15}(geschäfts)?(frau|mann)/iu
+/hallo.{1,10}ich bin.{5,35}eine?.{1,15}(australisch|deutsch|indisch|schweizer)/i
 
 # I
 
@@ -43,8 +45,8 @@
 /liebster.{1,10}(freund|geliebter)/i
 
 # M
-/mein name ist.{5,25}ich lebe.{1,10}in/i
-/mein name ist.{5,25}ich bin.{1,15}(anwalt|banker|manager)/i
+/mein name ist.{5,35}ich lebe.{1,10}in/i
+/mein name ist.{5,35}ich bin.{1,15}(anwalt|banker|manager)/i
 
 # N
 
