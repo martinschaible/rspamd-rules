@@ -22,7 +22,7 @@
 /(auto|kfz).{1,10}notfallset/i
 /notfallset.{1,10}(auto|kfz|wartet)/i
 
-/medicare.?set/?
+/medicare.?set/i
 
 # Mystery Box
 /mystery.?box.{1,10}(erhalten|gewonnen)/i
