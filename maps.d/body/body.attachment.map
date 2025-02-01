@@ -19,7 +19,8 @@
 #/inv(oice)?.?\d{0,10}\.((?!pdf$)[^.]*)/i
 #/(receipt|winner).?\d{0,10}\.((?!pdf$)[^.]*)/i
 
-/(inquiry|invoice|order|proforma|quotation|receipt|request).{0,25}\.(7z|gz|r11|r16|rar|tar|xls|zip)/i
+/(inquiry|invoice|order).{0,25}\.(7z|gz|r11|r16|rar|tar|xls|zip)/i
+/(payment|proforma|quotation|receipt|request).{0,25}\.(7z|gz|r11|r16|rar|tar|xls|zip)/i
 
 /rechnung.{0,45}\.(7z|gz|rar|zip)/i
 
@@ -80,6 +81,9 @@
 
 /coca.?cola/i
 /cup.?result/i
+
+# Sample: Advice.PDF).html
+/\)\.[a-z]{2,4}$/i
 
 # Extensions
 # ------------------------------------------------------------------------------

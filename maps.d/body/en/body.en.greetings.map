@@ -32,6 +32,8 @@
 # H
 
 # I
+/i.?a?m a?.{1,25}(financial|representative|senior)/i
+/i.?a?m a?.{1,25}((investment|sales|senior|portfolio|purchasing){1,15})?manager/i
 
 # J
 
@@ -41,6 +43,8 @@
 
 # M
 /manager.{1,10}good day/i
+
+/my name is.{5,25}i have.{1,10}urgent/i
 
 # N
 
