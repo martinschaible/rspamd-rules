@@ -54,10 +54,7 @@
 /metamask security alert/i
 
 # N
-/notification.{1,10}action required/i
-
-# 23.12.24 - Sample: Notification Updated - info@amelec.ch
-/notification.{1,10}updated.{1,15}@/i
+/notification.{1,10}(action required|updated)/i
 
 # O
 

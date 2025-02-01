@@ -16,7 +16,7 @@
 /rfq\//i
 /rfq.{1,5}p\.?o/i
 
-/- new order/i
+/-.?new order/i
 
 /new rfq/i
 
@@ -38,14 +38,12 @@
 /atm department/i
 
 # B
-/^(business|partnership) (enquiry|inquiry|proposal)$/i
+/^(business|partnership).{1,10}(enquiry|inquiry|proposal)$/i
 /(business|partnership).{1,10}(assistance|offer|opportunity|proposition|response)/i
 
 # C
 /compensation.{1,10}\d{2,4}(\.|,)?\d{3,4}/i
-/compensation.{1,10}(donation|payment)/i
-
-/compensation.{1,10}payment.{1,10}approval/i
+/compensation.{1,10}(approval|donation|payment)/i
 
 /^confidential information/i
 /congrats your e.?mail/i
@@ -78,12 +76,14 @@
 
 /inheritance to you/i
 
+/^inquiry$/i
+
 /invest in your.{1,10}(business|company|project)/i
 /investment.{1,10}(deal|funds|partnership)/i
 /investment.{1,10}fund of/i
+/investment proposal/i
 
 /^investment.{1,10}partner(ship)?$/i
-/investment proposal/i
 
 # J
 
@@ -107,8 +107,7 @@
 /project.?workable/i
 
 /proposal attached/i
-/proposal for.{1,15}collaboration/i
-/proposal for.{1,15}material supply/i
+/proposal.{1,15}(collaboration|material supply)/i
 /proposal\.\./i
 
 # Q
