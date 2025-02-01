@@ -11,7 +11,7 @@
 /(brochure|catalog|catalogue).{1,10}request/i
 /urgent request.{1,10}quote/i
 
-/rfq.{1,15}po.{1,5}requiremnts/i
+/rfq.{1,15}po.{1,5}requirements/i
 /rfq-?.?\d{2,10}/i
 /rfq\//i
 /rfq.{1,5}p\.?o/i
