@@ -18,15 +18,18 @@
 
 /(\d.?second|japanese).{1,10}(secret|trick)/i
 
-/minute hack/i
+/minute (fix|hack)/i
 
 /(daily|easy|odd).{1,10}second.{1,10}(secret|trick)/i
 /easy trick for clear/i
+
+/little.?known trick/i
 
 /second.{1,10}(daily|easy) trick/i
 
 /(secret|simple).{1,10}(hack|solution|trick).{1,15}(activate|needs|reverses|to end)/i
 /secret lowers.{1,10}high blood/i
+/secret to enhancing/i
 
 /(hack|ritual|secret|solution|trick).{1,10}(extends|reverse|shocks)/i
 /(hack|ritual|secret|solution|trick).{1,10}to (ease|boost)/i
@@ -82,6 +85,9 @@
 
 # C
 /calories.{1,10}belly fat/i
+/cause of joint pain/i
+
+/clears? blurry eyesight/i
 /constipation.{1,10}read this/i
 
 # D
@@ -148,6 +154,7 @@
 
 /high a1c/i
 /home remedy/i
+/hours of top performance/i
 
 # I
 /improve memory (instantly|in.{1,15}seconds)/i

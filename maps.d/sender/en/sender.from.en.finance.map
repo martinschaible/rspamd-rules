@@ -5,7 +5,7 @@
 
 # Finance, Loans, Mortgage
 # ------------------------------------------------------------------------------
-/finance.?group/i
+/finance{0,10}(group|loan)/i
 
 /financial.?help/i
 /(credit|funding|loan|rates).{0,10}(firm|for|ltd|offer|opportunity|service|specialist|venture)/i

@@ -15,7 +15,7 @@
 # Topics
 # ==============================================================================
 
-# Alzheimer, Dementia
+# Alzheimer, Dementia, Memory
 # ------------------------------------------------------------------------------
 /(alze?heimer|dementia).{1,10}(alert|brain|test|trigger|warning)/i
 /brain.{0,10}(booster|cell|damage|fixer|food|fog|health|nutrient|power|scan|science|trick)/i
@@ -23,6 +23,15 @@
 /cognitive.{0,10}(fix|health)/i
 /leaky.{0,10}brain/i
 /mind.{0,10}boost/i
+
+# Memory
+/memory.{0,10}(boost(er)?|cure|fix(er)?|hack|enhancement|improver|improvement|laps(es)?|loss)/i
+/memory.{0,10}(problem|protection|recovery|restore|revive|saving|strengthener|tonic)/i
+/(boost|excellent|fading|focus|future|poor|restore|sharp|your).{0,10}memory/i
+
+/becoming.{0,10}forgetful/i
+/never.{0,10}forget/i
+/struggling.{0,10}remember/i
 
 # Blood pressure, Heart
 # ------------------------------------------------------------------------------
@@ -88,6 +97,8 @@
 
 /(eye.?sight|vision).{0,10}(20.?20|boost|enhancing|fix|loss)/i
 /(eye.?sight|vision).{0,10}(rescue|reset|restorer?|supplement)/i
+
+/without.{0,10}glasses/i
 
 # Fungus, Nails
 # ------------------------------------------------------------------------------
@@ -160,17 +171,11 @@
 /liver.{0,10}(damage|detox|fix|health|renew|support)/i
 /(dying|fatty|toxic).{0,10}liver/i
 
-# Memory
-# ------------------------------------------------------------------------------
-/memory.{0,10}(boost(er)?|cure|fix(er)?|hack|enhancement|improver|improvement|laps(es)?|loss)/i
-/memory.{0,10}(problem|protection|recovery|restore|revive|saving|strengthener|tonic)/i
-/(boost|excellent|fading|focus|future|poor|restore|sharp|your).{0,10}memory/i
-
 # Pain
 # ------------------------------------------------------------------------------
 /pain.{0,10}(flush|free|gone|indicator|killer|management|no.?more|quiz|relief(er)?|remover|warning)/i 
 
-/(anti|chronic|chrippling|ease|end|erase|joint|knee|managing|neck|neuropathic|nerve|reduces|swollen).{0,10}pain/i
+/(anti|ch?ronic|chrippling|ease|end|erase|joint|knee|managing|neck|neuropathic|nerve|reduces|swollen).{0,10}pain/i
 
 /silence pain in.{1,10}seconds/i
 
@@ -382,6 +387,7 @@
 /eagle.{0,10}vision/i
 
 /eat.{0,10}(fruitme|me|this)/i
+/eye.?cell/i
 
 /ejaculation/i
 
@@ -390,7 +396,7 @@
 /erase.{0,10}cavities/i
 /(exotic|kitchen).{0,10}spice/i
 /extend.{0,10}life/i
-/eye.{0,10}(exercise|surgery)/i
+/eye.{0,10}(check|exercise|surgery)/i
 
 # F
 /fasting.{0,10}seeds/i
@@ -429,6 +435,8 @@
 
 /harvard.{0,15}(breakthrough|scientist)/i
 
+/hates it/i
+
 /healing.{0,10}(massage|technology)/i
 /healthy.{0,10}(choice(es)?|digest)/i
 
@@ -445,6 +453,7 @@
 
 # I
 /immune.{0,10}system/i
+/inflammation.{0,10}fix/i
 /insuline?/i
 /irritating.{0,10}noise/i
 
@@ -455,7 +464,7 @@
 /kidney.{0,10}fix/i
 
 # L
-/leakage.{0,10}fixer/i
+/leakage.{0,10}(fixer|prevention)/i
 /life.{0,10}pharmacy/i
 
 /live.{0,10}(forver|long(er)?)/i
@@ -535,6 +544,7 @@
 /rapid.{0,10}relief/i
 
 /red.{0,10}juice/i
+/regenerate.{0,10}eyes?/i
 /remove.{0,10}toxin/i
 /renew.{0,10}ritual/i
 /replace.{0,10}blue/i
