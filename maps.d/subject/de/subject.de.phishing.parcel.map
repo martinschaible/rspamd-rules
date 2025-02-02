@@ -90,13 +90,14 @@
 
 # P
 /(paket|sendung).{1,10}befindet sich in wartestellung/i
-
+/(paket|sendung).{1,10}erwartet sie/i
 /(paket|sendung).{1,10}ist bereit.{1,10}zahlen/i
 /(paket|sendung).{1,10}ist zur lieferung bereit/i
 /(paket|sendung).{1,10}kann nicht ohne sie/i
 /(paket|sendung).{1,10}kann nicht.{1,15}geliefert werden/i
 /(paket|sendung).{1,10}liegt in der filiale lieferbereit/i
-/(paket|sendung).{1,10}mit der Nummer/i
+/(paket|sendung).{1,10}mit der nummer/i
+/(paket|sendung).{1,10}wartet auf/i
 /(paket|sendung).{1,10}wartet.{1,10}holen sie es.{1,10}ab/i
 /(paket|sendung).{1,20}bewegt sich/i
 
