@@ -102,6 +102,8 @@
 /deutsche.?bnk/i
 /deutschen.?bahn/i
 
+/deutschland.?ticket.{1,10}service/i
+
 /d\.h\.l/i
 
 /dhl-paket$/i
@@ -236,6 +238,8 @@
 /sbbcff/i
 
 /service.?center.?ard.?zdf/i
+
+/^stanley$/i
 
 #/(service|support).{0,10}paypal/i
 /support.{0,10}paypal/i

@@ -26,7 +26,8 @@
 # F
 
 # G
-/guten tag.{1,10}bitcoin/i
+/guten (abend|morgen|tag).{1,10}bitcoin/i
+/guten (abend|morgen|tag).{1,10}ich bin (frau|herr)/i
 
 # H
 /hallo.{1,10}ich bin.{5,35}eine?.{1,15}(geschäfts)?(frau|mann)/iu
@@ -36,6 +37,7 @@
 /hallo.{1,10}ich schreibe ihnen/i
 
 # I
+/ch bin.{5,45}eine deutsche unternehmerin/i
 
 # J
 
