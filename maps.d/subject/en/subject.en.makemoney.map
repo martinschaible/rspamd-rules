@@ -12,6 +12,8 @@
 /(bitcoin|btc|crypto|krypto).{0,10}(movement|portfolio|revolution|trader)/i
 /bitcoin.?etf/i
 
+/revolutionizing.{1,10}(bitcoin|btc|crypto|krypto)/i
+
 # ETF (Exchange Traded Funds)
 # ------------------------------------------------------------------------------
 
@@ -78,6 +80,7 @@
 # S
 
 # T
+/trump.{0,10}(coin movement|meme)/i
 
 # U
 
