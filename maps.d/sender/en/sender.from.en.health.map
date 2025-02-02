@@ -136,6 +136,7 @@
 
 /buzz.{0,10}free/i
 /(no more|stop).{0,10}ringing/i
+/noise.?free/i
 
 /(hear(ing)?|tinnitus).{0,10}(aid|cure|fix|loss|memory|noises?|relief|restorer?|solution|symptoms|warning)/i
 
@@ -163,7 +164,7 @@
 
 # Knee
 # ------------------------------------------------------------------------------
-/knee.{0,10}(cartilage|compression|help|pain|replacement|stiffness)/i
+/knee.{0,10}(cartilage|compression|health|help|pain|replacement|stiffness)/i
 /(aching|bad|circa|painful|sore|swollen).{0,10}knees?/i
 
 # Liver
