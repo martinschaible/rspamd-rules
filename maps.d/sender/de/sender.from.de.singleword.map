@@ -100,6 +100,7 @@
 # C
 /chatten/i
 /cloud.?speicher/i
+/collagen\b/i
 /computer.?schutz/i
 
 # D
@@ -231,6 +232,7 @@
 /kontoaktualisierung/i
 /kontoservice/i
 
+/kraft.?quelle/i
 /kreditrechner/i
 /kreditsachbearbeiter/i
 /krypto$/i
@@ -250,6 +252,8 @@
 /küchenhelfer/iu
 /küchennachrichten/iu
 
+/körper.?balance/i
+
 # L
 /ladegerät/i
 /lade.?partner/i
@@ -259,6 +263,8 @@
 /lampengrosshandel/i
 
 /legalisierung/i
+/leistungs.?stark/i
+
 /liebster?$/i
 /^lieferung$/i
 #/lieferung/i
@@ -287,7 +293,9 @@
 /naturliche/i
 
 /neujahrslotterie/i
+/nerven.?stark/i
 /netzwerkexperten?/i
+
 /notfallset/i
 /notstrom/i
 

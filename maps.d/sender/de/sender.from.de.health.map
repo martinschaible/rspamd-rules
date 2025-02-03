@@ -37,16 +37,18 @@
 /blutzucker/i
 
 # C
-/collagen\b/i
 /covid.{0,10}schnelltest/i
 
 # D
+/dein.{0,10}berater/i
+
 /deutsches.{0,10}gesundheits.{0,10}magazin/i
 /(deutsche|neue).{0,10}gesundheit/i
 
 /diabetes.{0,10}(ernährung|lösung)/iu
 
 /doktor.?versand/i
+/dr\. gesund/i
 
 # E
 
@@ -58,6 +60,8 @@
 
 # G
 /gelenk.{0,10}(gesundheit|pflege)/i
+
+/gesund.?heute/i
 /gesunde.{0,10}(augen|ohren)/i
 /gewichts?.{0,10}(verlust|verliert)/i
 
@@ -80,12 +84,16 @@
 /leber.{0,10}detox/i
 
 # M
+/mag.{0,10}boost/i
+
 /massage.{0,10}pflaster/i
 /medizin.{0,10}(shop|zukunft)/i
 
 /muskeln?.{0,10}(fit|start|team)/i
 
 # N
+/natürlich.{0,10}vital/i
+
 /neue.{0,10}rezeptur/i
 
 # O
@@ -93,6 +101,8 @@
 # P
 /perfekte nägel/iu
 /pillen.{0,10}(empfehlung|gratis|nachrichten)/i
+
+/pure.{0,10}balance/i
 
 # Q
 

@@ -95,7 +95,7 @@
 
 /eye.{0,10}(help|relief)/i
 
-/(eye.?sight|vision).{0,10}(20.?20|boost|enhancing|fix|loss)/i
+/(eye.?sight|vision).{0,10}(20.?20|boost|enhancing|fix|hack|loss)/i
 /(eye.?sight|vision).{0,10}(rescue|reset|restorer?|supplement)/i
 
 /without.{0,10}glasses/i
@@ -118,7 +118,7 @@
 /(health|quick).{0,10}(boost(er)?|fix|guide)/i
 
 /healthy?.{0,10}(alert|alternative|brain|circulation)/i
-/healthy?.{0,10}(guides?|gut|heart|heaven|insights)/i
+/healthy?.{0,10}(guides?|gut|heart|heaven|hero|insights)/i
 /healthy?.{0,10}(power|secret|transformation)/i
 
 /(american|daily|insider|intimate|mens|womens).{0,10}health/i
@@ -313,11 +313,13 @@
 
 /back.{0,10}(aches?|fixer|pain|stretch)/i
 /bald.{0,10}spot/i
+/baldness.{0,10}(cure|fix)/i
 /basic.{0,10}protein/i
 
 /bed.?hack/i
 /bedroom.{0,10}(fix|secrets?)/i
 /belly.{0,10}(buddy|buster)/i
+/berry.{0,10}detox/i
 /better.{0,10}poop/i
 
 /big o$/i
@@ -333,8 +335,10 @@
 
 /(breathe|breathing).{0,10}(better|easier|easy)/i
 
-/body.{0,10}(balance|recharge)/i
+/body.{0,10}(balance|recharge|waves?)/i
 /\bboner$/i
+
+/bone.{0,10}relief/i
 /boost.{0,10}(circulation|energy)/i
 
 /burn.{0,10}calories/i
@@ -470,7 +474,7 @@
 
 # L
 /leakage.{0,10}(fixer|prevention)/i
-/life.{0,10}pharmacy/i
+/life.{0,10}(boost|pharmacy)/i
 
 /live.{0,10}(forver|long(er)?)/i
 /liver.{0,10}weight/i
@@ -480,6 +484,8 @@
 
 # M
 /magic.{0,10}oil/i
+/magenesium.{0,10}(guide|guru|info)/i
+
 /make your own/i
 /male.{0,10}vitality/i
 
@@ -548,7 +554,7 @@
 # R
 /rapid.{0,10}relief/i
 
-/red.{0,10}juice/i
+/red.{0,10}(berry|juice)/i
 /regenerate.{0,10}eyes?/i
 /remove.{0,10}toxin/i
 /renew.{0,10}ritual/i
@@ -622,6 +628,7 @@
 /varicose.{0,10}veins/i
 /vein.{0,10}solutions?/i
 
+/vital.{0,10}now/i
 /vitamin.{0,10}recall/i
 
 # W
