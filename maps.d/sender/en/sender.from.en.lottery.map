@@ -3,39 +3,77 @@
 # Weight:   6.0
 # ==============================================================================
 
-# Lottery
-# ------------------------------------------------------------------------------
+# Generic
+# ==============================================================================
 
-# Companies
-/(facebook|google).{0,10}(award|lotter(ie|y))/i
-
-# Countries
+# A
 /(australia|usa|uk).{0,10}lotter(ie|y)/i
+/(award|euro|international|mega|postcode).{0,10}(lotto|lotter(ie|y))/i
 
-# Products
+# B
+
+# C
+/(central|navidad).{0,10}lott?eria/i
+
 /coca.?cola.{0,10}lotter(ie|y)/i
 /coca.?cola.{0,10}payment/i
 
-/(award|euro|international|mega|postcode).{0,10}(lotto|lotter(ie|y))/i
+# D
+
+# E
+/elgordo.{0,10}primitiva/i
+/euro.?milions/i
 /(euro.?online|super).{0,10}(lotto|lotter(ie|y))/i
 
-/(central|navidad).{0,10}lott?eria/i
+# F
+/(facebook|google).{0,10}(award|lotter(ie|y))/i
 
-/elgordo.{0,10}primitiva/i
+# G
 
-/euro.?milions/i
+# H
 
-#/uefa.?euro/i
+# I
 
+# J
+/jack\+pot/i
+
+# K
+
+# L
 /lotter(ie|y).{0,10}(award|board|promotion|vip|winning)/i
 /lotter(ie|y)!/i
 
 /lott?eria.{0,10}(madrid|nacional)/i
 /lotto.?denavidad/i
 
+# M
 /mega.?million/i
 
+# N
+
+# O
+
+# P
 /powerball.{0,15}(casino|online)/i
 
-/jack\+pot/i
+# Q
+
+# R
+
+# S
 /sky.?lotto/i
+
+# T
+
+# U
+#/uefa.?euro/i
+
+# V
+
+# W
+
+# X
+
+# Y
+
+# Z

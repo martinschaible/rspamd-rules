@@ -34,7 +34,6 @@
 
 # B
 /blut.{0,10}(druck|gesundheit|hochdruck)/i
-/blutzucker/i
 
 # C
 /covid.{0,10}schnelltest/i
@@ -47,8 +46,7 @@
 
 /diabetes.{0,10}(ernährung|lösung)/iu
 
-/doktor.?versand/i
-/dr\. gesund/i
+/dr\..?(gesund|versand)/i
 
 # E
 
@@ -110,7 +108,6 @@
 /reduzieren sie.{1,15}fett/i
 
 # S
-/schlank/i
 /schmerzen in/i
 /schöne.{0,10}(nägel|zähne)/iu
 

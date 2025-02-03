@@ -21,7 +21,6 @@
 # ==============================================================================
 
 # A
-/aufforderung zur datenprüfung/i
 /aktivieren sie 2fa/i
 
 /aussetzung ihrer.{1,15}(kredit)?karte/i
@@ -51,6 +50,8 @@
 /ihre.{1,10}kundeninformationen im/i
 
 /ihre.{1,20}umstellung steht aus/i
+
+/inaktive karte/i
 
 # J
 
@@ -84,11 +85,6 @@
 /vorübergehende aussetzung ihres/iu
 
 # W
-/wichtige?.{1,10}registrierung.{1,10}mastercard/i
-/wichtige?.{1,10}(konto|profil).?informationen/i
-
-/wichtige.{1,10}sicherheitsüberprüfung erforderlich/iu
-/wichtige.{1,10}sicherheitsaktualisierung/i
 
 /wir haben ihren.{1,15}vertrag gesperrt/i
 

@@ -3,16 +3,64 @@
 # Weight:   6.0
 # ==============================================================================
 
-# Finance, Loans, Mortgage
-# ------------------------------------------------------------------------------
-/finance{0,10}(group|loan)/i
+# Generic
+# ==============================================================================
 
-/financial.?help/i
+# A
+
+# B
+
+# C
 /(credit|funding|loan|rates).{0,10}(firm|for|ltd|offer|opportunity|service|specialist|venture)/i
+
+# D
+
+# E
+
+# F
+/financial.?help/i
+
+/finance.{0,10}(group|loan)/i
 /(free|investment|net|personal).{0,10}(credit|loans?)/i
 
-/lenders/i
+# G
 
+# H
+
+# I
+
+# J
+
+# K
+
+# L
+
+# M
 /mortgage.{0,10}(alert|assist|home)/i
 
+# N
+
+# O
+
+# P
 /private loan company/i
+
+# Q
+
+# R
+
+# S
+
+# T
+
+# U
+
+# V
+
+# W
+
+# X
+
+# Y
+
+# Z

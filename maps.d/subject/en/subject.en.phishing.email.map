@@ -30,10 +30,7 @@
 # H
 
 # I
-/important notification.{1,10}upgrade/i
 
-/important update.{1,15}@/i
-/important update.{1,25}server/i
 # J
 
 # K
@@ -52,6 +49,7 @@
 # Q
 
 # R
+/reset password.{1,15}(fail|message)/i
 /review incoming.{1,10}(e?.?mail|message)/i
 
 # S

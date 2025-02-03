@@ -10,7 +10,8 @@
 # ------------------------------------------------------------------------------
 /ihr.{1,15}konto wird gesperrt/i
 
-/swiss pass/i                   # 20.12.24 - Real name: "swisspass"
+# 20.12.24 - Real name: "swisspass"
+/swiss pass/i
 
 # 2FA
 # ------------------------------------------------------------------------------
@@ -93,10 +94,6 @@
 /vermeiden sie die aussetzung/i
 
 # W
-/wichtige?.{1,10}kontofunktion(en)?/i
-/wichtige?.{1,10}kontowarnung/i
-/wichtige?.{1,10}sicherheitsanpassung/i
-
 
 /wurde vorübergehend deaktiviert/i
 

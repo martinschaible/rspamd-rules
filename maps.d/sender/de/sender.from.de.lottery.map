@@ -3,16 +3,63 @@
 # Weight:   6.0
 # ==============================================================================
 
-# Lottery
-# ------------------------------------------------------------------------------
-/(el.?gordo|lotter(ie|y)|loteria|lotto|millionen).?(gewinner|rabatt|schein)/i
+# Generic
+# ==============================================================================
 
+# A
+
+# B
+
+# C
+
+# D
 /(dein|grösste|größte|spanischen?).?(lotter(ie|y)|loteria|lotto)/i
 
-/gewinn(er)?.{0,10}(informationen|inside|spiel|team|weg)/i
-
+# E
+/(el.?gordo|lotter(ie|y)|loteria|lotto|millionen).?(gewinner|rabatt|schein)/i
 /euro.?million(en)?/i
 
+# F
+
+# G
+/gewinn(er)?.{0,10}(informationen|inside|spiel|team|weg)/i
+/grosse.{0,10}gewinne/i
+
+# H
+
+# I
+
+# J
+
+# K
+
+# L
+
+# M
+
+# N
+
+# O
+
+# P
+
+# Q
+
+# R
 /rekord.?jackpot/i
 
-/grosse.{0,10}gewinne/i
+# S
+
+# T
+
+# U
+
+# V
+
+# W
+
+# X
+
+# Y
+
+# Z
