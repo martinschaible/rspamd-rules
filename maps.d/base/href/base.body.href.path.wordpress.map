@@ -28,6 +28,10 @@
 
 # No need to refer to this folder
 /\/wp-content\/upgrade\//i
+/\/wp-modules\/sitemaps\//i
+
+# Sample: /wp-modules/sitemaps/?email=
+/wp-[a-z]{1,15}\/[a-z]{1,15}\/\?email=/i
 
 # TLD's
 /\.(io|net|vn)\/wp-content\/(themes|uploads|plugins)\//i
