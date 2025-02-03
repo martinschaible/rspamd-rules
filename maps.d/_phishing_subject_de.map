@@ -44,8 +44,6 @@
 /konto.{1,10}wird.{1,10}(bald gesperrt|begrenzt|eingeschränkt)/iu
 /konto.{1,10}wird.{1,10}sicherheitsgründen überprüft/iu
 
-/^konto vorübergehend/iu
-
 /kontosperrung.{1,10}vermeiden/i
 
 /(konto|profil).?informationen müssen aktualisiert werden/i
@@ -143,9 +141,6 @@
 # Locking Account
 # ------------------------------------------------------------------------------
 /ihr (konto|vertrag).{1,15}(ist|wird|wurde).{1,10}(begrenzt|eingeschränkt|gesperrt)/i
-/ihr konto.{1,15}wurde vorübergehend/i
-/ihr konto.{1,15}vorübergehende beschränkung/iu
-/ihr konto vorübergehend/i
 /ihr photo.?tan wurde blockiert/i
 
 /gesperrt.{1,10}ref.?id#/i

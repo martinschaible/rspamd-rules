@@ -7,11 +7,6 @@
 
 # Greetings
 # ------------------------------------------------------------------------------
-
-/att.{1,5}sehr geehrter/i
-
-/(grüße|hallo geliebte).{1,10}ich.bin.(frau|herr)/i
-
 /grüße.{1,10}an Sie.{1,10}ich schreibe ihnen/i
 /grüße.{1,15}antworten sie auf meine/iu
 /grüße.{1,10}diese.{1,10}e?.?mail/iu
@@ -41,7 +36,6 @@
 /guten (abend|morgen|tag).{1,15}(damen|herren).{1,15}wie geht es dir/i
 /guten (abend|morgen|tag).{1,10}(geliebte|gewinner|mein lieber)/i
 
-/hallo.{1,10}ich bin.{1,10}(frau|herr)/i
 /hallo.{1,10}ich bin.{5,25}ceo (der|von)/i
 /hallo.{1,10}ich bin.{5,25}eine?.{1,15}milliardär(in)?/iu
 /hallo.{1,10}ich bin.{5,25}eine?.{1,15}person/i
@@ -85,16 +79,12 @@
 /lieber freund.{1,15}hier ist (frau|herr)/i
 /lieber freund.{1,15}wie geht es ihnen/i
 
-/lieber freund.{1,15}ich bin (frau|herr)/i
 /lieber freund.{1,15}ich freue mich.{1,15}ihnen/i
 /lieber freund.{1,10}ich schreibe ihnen/i
 
-/lieber.{1,5}e?.?mail.?(eigentümer|inhaber)/i
 /lieber herr.{5,25}ich bin dr\./i
 /lieber kunde.{1,10}ich hoffe.{1,10}es geht ihnen gut/i
 /lieber kunde.{1,10}wir senden ihnen diese e?.?mail/i
-
-/(glückwunsch|liebste).{1,10}ich bin.{1,10}(frau|herr)/i
 
 /sehr geehrte damen und herren.{1,10}guten tag/i
 
@@ -103,18 +93,12 @@
 /sehr geehrter?.{1,10}(frau|herr).{1,10}ich schreibe ihnen/i
 /sehr geehrter?.{1,10}(frau|herr).{1,5}betreff/i
 
-/sehr geehrter?.{1,10}e?.?mail.?(besitzer|eigentümer|empfänger|inhaber)(in)?/iu
 /sehr geehrter?.{1,15}(bankkunde|director|direktor|käufer|manager|managing)/iu
 /sehr geehrter.{1,10}unternehmer.{1,10}wir schreiben ihnen/i
 
 /sei gegrüßt.{1,10}(liebster|mein geliebter)/iu
 
 #
-/ich bin.{1,10}(frau|herr).{5,30}(aus|der leiter)/i
-/ich bin.{1,10}(frau|herr).{5,30}ich freue mich/i
-
-/ich bin.{1,10}frau namens/i
-/ich bin.{1,10}frau.{5,30}eine witwe/i
 /ich bin.{5,30}schweizer staatsbürger.{1,10}wohne in/i
 
 /ich grüße (dich|sie).{1,10}ich bin/i
@@ -129,7 +113,6 @@
 /glückwunsch.{1,5}mein name ist/i
 /glückwunsch.{1,10}hallo.{1,10}mein name ist/i
 
-/ich bin (frau|herr)/i
 /ich bin.{1,10}elon musk/i
 
 /ihre dringende antwort.{1,10}mein name ist/i
@@ -143,7 +126,6 @@
 /mein name ist.{1,10}anwältin/iu
 /mein name ist.{1,10}barr(\.|ister)/i
 /mein name ist.{1,10}(dr\.|mrs?|ms|leutnant|rechtsanwalt)/i
-/mein name ist.{1,10}(frau|fräulein|herr)/iu
 
 /mein name ist.{5,25}aus.{1,10}(indien|vereinigten staaten)/i
 /mein name ist.{5,25}deutscher? herkunft/i
@@ -191,24 +173,14 @@
 /ich bin.{5,25}die einzige tochter/i
 /ich bin.{5,25}ein schweizer staatsbürger.{1,10}der in dubai/i
 
-/ich bin (frau|herr).{5,25}ich (habe|leide)/i
-/ich bin (frau|herr).{5,25}(direktor(in)?|präsident(in)?)/iu
 /ich bin (miss|sir)/i
 
 /ihnen vor(zu)?stellen.{1,10}ich bin/i
 
 /kompliment des tages.{1,10}ich kontaktiere sie/i
-/mich vorstellen.{1,10}ich bin (frau|herr)/i 
 
 # Introduction, Country
 # ------------------------------------------------------------------------------
-/ich bin (frau|herr).{5,25}aus.{1,10}abidjan/i
-/ich bin (frau|herr).{5,25}die witwe/i
-/ich bin (frau|herr).{5,25}ein.{1,10}mitarbeiter/i
-/ich bin (frau|herr).{5,25}eine bürgerin/iu
-/ich bin (frau|herr).{5,25}ein.{1,10}(britischer|deutscher)/i
-/ich bin (frau|herr).{5,25}exekutivdirektorin/i
-
 /ich bin.{5,25}ein philanthrop/i
 /ich bin.{5,25}eine? (deutscher?|schwedischer?|indischer?|indisches|italienischer?)/i
 /ich bin.{5,35}eine deutsche geschäftsfrau/i
@@ -229,10 +201,6 @@
 /ich bin.{5,25}ein banker hier/i
 
 /ich bin.{5,25}(investor(in)?|philanthrop|unternehmer)/i
-
-/ich bin (frau|herr).{5,35}(anwalt|banker|buchhalter|investor(in)?|persönlicher?|vorsitzender?)/i
-/ich bin (frau|herr).{5,35}geschäfts.?(frau|mann)/i
-/ich bin (frau|herr).{5,25}kann ich/i
 
 /ich bin mutter.{5,25}frau/i
 
