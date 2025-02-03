@@ -31,6 +31,11 @@
 /important account (alert|update)/i
 /important information.{1,15}your.{1,15}(account|profile)/i
 
+/important notification.{1,10}upgrade/i
+
+/important update.{1,15}@/i
+/important update.{1,25}server/i
+
 # J
 
 # K

@@ -17,6 +17,8 @@
 
 /aktivitäten erkannt.{1,10}maßnahmen erforderlich/i
 
+/aufforderung zur datenprüfung/i
+
 # B
 
 # C
@@ -83,7 +85,17 @@
 # V
 
 # W
-/wichtige überprüfung für/iu
+/wichtige?.{1,10}kontofunktion(en)?/i
+/wichtige?.{1,10}kontowarnung/i
+/wichtige?.{1,10}(konto|profil).?informationen/i
+
+/wichtige?.{1,10}registrierung.{1,10}mastercard/i
+
+/wichtige?.{1,10}sicherheitsanpassung/i
+/wichtige?.{1,10}sicherheitsüberprüfung erforderlich/iu
+/wichtige?.{1,10}sicherheitsaktualisierung/i
+
+/wichtige?.{1,10}überprüfung für/iu
 
 # X
 
