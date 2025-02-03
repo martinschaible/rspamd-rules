@@ -1,11 +1,4 @@
 # ==============================================================================
-# Do we greet the email recipient in the subject line? No, only scammers do that.
-#
-# Really? Unfortunately not. Some email marketers address their people with a
-# greeting in the subject line.
-# That's why a false/positive can occur from time to time.
-#
-# ------------------------------------------------------------------------------
 # Language: english
 # Weight:   6.0
 # ==============================================================================
@@ -36,13 +29,13 @@
 # H
 
 # I
-/i.?a?m a?.{1,10}(financial|representative|senior)/i
+/(i am|i'm) a.{1,10}(financial|representative|senior)/i
 
-/i.?a?m a?.{1,10}manager/i
-/i.?a?m a?.{1,10}(investment|sales|senior|portfolio).{1,10}manager/i
-/i.?a?m a?.{1,10}purchasing.{1,10}manager/i
+/(i am|i'm) a.{1,10}manager/i
+/(i am|i'm) a.{1,10}(investment|sales|senior|portfolio).{1,10}manager/i
+/(i am|i'm) a.{1,10}purchasing.{1,10}manager/i
 
-/i.?a?m.{1,10}(miss|mrs?|ms).{5,25}contacting you/i
+/(i am|i'm).{1,10}(miss|mrs?|ms).{5,25}contacting you/i
 
 # J
 
@@ -69,7 +62,7 @@
 
 # T
 
-# 
+# U
 /urgent response.{1,10}my name is/i
 
 # V
