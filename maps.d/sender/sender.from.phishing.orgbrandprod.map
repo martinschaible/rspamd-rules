@@ -21,6 +21,7 @@
 # aldi süd newslsetter
 # Aldi Suisse AG News
 # Aliexpress
+# Amazon Business
 # Apple
 # DHL Express
 # DHL Paket
@@ -63,8 +64,8 @@
 
 # A
 /a.d.a.c/i
-/adac.?deutschland/i
-/adac.?kreditkarte/i
+/adac.?2025/i
+/adac.?(deutschland|kreditkarte)/i
 /adac.?mitglied$/i
 
 /adobe acrobat (document|e.?signature)/i
@@ -234,6 +235,8 @@
 /rewe.?(™|®|©)?$/i
 
 # S
+/salt.?team/i
+
 /sbb(.?cff.?ffs)?.{0,5}(kundenservice|support)/i
 /sbbch/i
 /sbbcff/i
