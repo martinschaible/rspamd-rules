@@ -57,10 +57,13 @@
 /ihr.{1,15}konto (bleibt|wird).{1,15}(gesperrt|begrenzt|verifiziert)/i
 /ihr.{1,15}konto ist in gefahr/i
 /ihr.{1,15}konto wurde aufgrund ungewöhnlicher/i
+/ihr.{1,15}konto.{1,10}vorübergehende?/i
 
 # J
 
 # K
+/^konto vorübergehend/iu
+
 /konto stillgelegt/i
 /kontosicherheit.{1,5}ref\./i
 /kontosperrung zu vermeiden/i

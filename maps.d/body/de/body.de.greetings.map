@@ -14,6 +14,7 @@
 # ==============================================================================
 
 # A
+/att.{1,5}sehr geehrter/i
 
 # B
 
@@ -37,7 +38,8 @@
 /hallo.{1,10}ich schreibe ihnen/i
 
 # I
-/ch bin.{5,45}eine deutsche unternehmerin/i
+/ich bin.{5,45}eine deutsche unternehmerin/i
+/ich bin.{1,10}(frau|fräulein|herr)/i
 
 # J
 
@@ -47,11 +49,14 @@
 /lieber?.{1,10}(paket)?empfänger/iu
 /lieber?.{1,10}(fremder|geliebter?|unbekannter)/i
 
+/(lieber?|sehr geehrter?).{1,5}e?.?mail.{0,15}(besitzer|eigentümer|empfänger|inhaber)/i
+
 /liebster.{1,10}(freund|geliebter)/i
 
 # M
 /mein name ist.{5,35}ich lebe.{1,10}in/i
 /mein name ist.{5,35}ich bin.{1,15}(anwalt|banker|manager)/i
+/mein name ist.{1,10}(frau|fräulein|herr)/iu
 
 # N
 
