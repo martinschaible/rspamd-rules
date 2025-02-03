@@ -34,6 +34,8 @@
 # G
 
 # H
+/haus.{0,10}schützer/iu
+
 /hd.{0,10}überwachung/i
 
 /heizen.{0,10}einfach/i
@@ -52,7 +54,7 @@ ihr.{0,10}wifi/i
 /jetzt.{0,10}offerte/i
 
 # K
-/kamera.{0,10}experten/i
+/kamera.{0,10}(experten|profis)/i
 
 /krankenkasse.{0,10}wechseln?/i
 
@@ -74,6 +76,9 @@ ihr.{0,10}wifi/i
 /reisen sie.{1,15}welt/i
 
 # S
+/sicher.{1,15}zuhause/i
+/sicherheits?.{0,10}profis/i
+
 /smart.?(protect|security)/i
 /solart.?(aktion|angebot|lösungen)/i
 
@@ -81,6 +86,7 @@ ihr.{0,10}wifi/i
 /topcam.{0,10}(angebot|profis)/i
 
 # U
+/überwachung.{0,10}spezial/iu
 
 # V
 /versand.{0,10}gratis/i

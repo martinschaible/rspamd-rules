@@ -22,6 +22,7 @@
 # Aldi Suisse AG News
 # Aliexpress
 # Apple
+# DHL Express
 # DHL Paket
 # DocMorris - Ihre Apotheke
 # Dropbox
@@ -111,7 +112,7 @@
 /dhl.{0,5}kundenservice/i
 /dhl.{0,5}paketstatus/i
 /dhl.{0,5}paketzentrum/i
-/dhl.{0,5}(express|germany|package|team|your)/i
+/dhl.{0,5}(germany|package|team|your)/i
 /dhl.?ups/i
 
 /(express|kurier|notification).{0,5}(dhl|dpd)/i

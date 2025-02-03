@@ -82,14 +82,21 @@
 # P
 /premium.{0,10}promotion/i
 
+/pro.?cam.{0,10}shop/i
+/pro.?security/i
+
 # Q
 
 # R
 /radar.{0,10}detector/i
 
 # S
+/safe.?tech/i
 /senior.{0,10}perks/i
 /seo.{0,10}(backlink|service)/i
+
+/^smart.?deals$/i
+/smart.?house.{0,10}deals/i
 
 /super.{0,10}list/i
 
@@ -98,6 +105,8 @@
 
 # T
 /tax.{0,10}(consultant|helpers?|resolvers?)/i
+
+/tech.?safety/i
 
 /timeshare.{0,10}owner/i
 
