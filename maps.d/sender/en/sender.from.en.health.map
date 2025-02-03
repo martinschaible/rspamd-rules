@@ -366,6 +366,8 @@
 
 # D
 /daily.{0,10}(burn|comfort|fatigue)/i
+
+/damaged.{0,10}nerves/i
 /dangerous.{0,10}veggies?/i
 
 /dead.{0,10}(foods?|kidneys)/i
@@ -406,6 +408,7 @@
 /fat(ty)?.{0,10}arteries/i
 
 /female.{0,10}desire/i
+/female o$/i
 
 /(feet|foot).{0,10}(detox|massage)/i
 

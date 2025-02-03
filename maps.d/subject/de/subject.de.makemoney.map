@@ -30,9 +30,6 @@
 
 /(ai|chatgpt|ki).{1,10}(aktien?|gewinne|goldrausch|handeln?|verspricht)/i
 
-# Trump
-/(maga|trump).{1,10}(bitcoin|crypto|krypto)/i
-
 # ETF (Exchange Traded Funds)
 # ------------------------------------------------------------------------------
 /etf.{1,15}(anmeldung|bricht|gestartet|investieren|rekorde|zulassung)/i
@@ -90,6 +87,7 @@
 # L
 
 # M
+/macht menschen reich/i
 
 # N
 

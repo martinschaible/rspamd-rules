@@ -23,7 +23,7 @@
 # ==============================================================================
 
 # A
-/(apply for|need).{1,10}loan/i
+/(apply for|need).{1,10}(grant|loan)/i
 /apply for our financial/i
 
 /approved.{1,15}loans?/i
