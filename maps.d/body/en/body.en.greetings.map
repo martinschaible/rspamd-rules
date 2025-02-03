@@ -13,11 +13,8 @@
 # C
 
 # D
-/(dear|hello|hi).{1,10}(agency|domain.?name|e?.?mail|site|web)/i
-/(dear|hello|hi).{1,10}(manager|owner)/i
-
-# Sample: Hello fobaar.ch owner
-/(dear|hello|hi).{1,15}\.[a-z]{2,4} owner/i
+/(dear|hello|hi\b).{1,10}(agency|domain.?name|e?.?mail|site|web)/i
+/(dear|hello|hi\b).{1,10}(manager|owner)/i
 
 # E
 
