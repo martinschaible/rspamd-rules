@@ -7,42 +7,48 @@
 # Weight:   6.0
 # ==============================================================================
 
-# Probably hacked websites: Path and files
+# Probably hacked websites: Path
 # ------------------------------------------------------------------------------
+
+# No need to refer to this folders
 /\/wp-includes\/alibaba\//i
 /\/wp-includes(\/js)?\/tmp/i
 
 /\/wp-content\/cache\/colors\//i
+/\/wp-content\/(cms|upgrade)\//i
 
-/\/wp-content\/plugins\/wp-automatic\/[a-z0-9_-]{1,15}\.(html|php)/i
+/\/wp-modules\/sitemaps\//i
 
 # Phishing
 # Sample: wp-content/uploads/2019/07/volksbanken-raiffeisenbanken-logo-vector.png
 /\/wp-content\/[a-z0-9_-]{1,15}\/[a-z0-9_-]{1,15}\/(raiffeisenbank|swisscom|volksbank)/i
-
-# Reference to HTML or PHP files in these folders
-/\/wp-admin\/(assets|readme)\/[a-z0-9_-]{1,20}\.(html|php)/i
-
-/\/wp-content\/[a-z0-9_-]{1,15}\/[a-z]{1,15}\.(html|php)/i
-/\/wp-content\/(uploads|plugins|themes\/twentyeleven)\/[a-z0-9_-]{1,20}\/[a-z0-9_-]{1,20}\.(html|php)/i
-
-# No need to refer to this folder
-/\/wp-content\/upgrade\//i
-/\/wp-modules\/sitemaps\//i
 
 # Sample: /wp-modules/sitemaps/?email=
 /wp-[a-z]{1,15}\/[a-z]{1,15}\/\?email=/i
 
 # TLD's
 /\.(io|net|vn)\/wp-content\/(themes|uploads|plugins)\//i
-
-/\.com\/wp-admin\/css\/colors\//i
-/\.com\/wp-admin\/css\/[a-z0-9_-]{1,15}\.(html|php)/i
-/\.com\/wp-admin\/[a-z0-9_-]{1,15}\.(html|php)/i
 /\.info\/wp-admin\/assets\//i
 
 /\.(co\.uk|ir|me|nl)\/wp-admin\//i
+/\.com\/wp-admin\/css\/colors\//i
 
+# Probably hacked websites: Files
+# ------------------------------------------------------------------------------
+
+# Reference to HTML or PHP files in these folders
+/\/wp-admin\/(assets|readme)\/[a-z0-9_-]{1,20}\.(html|php)/i
+
+/\/wp-content\/[a-z0-9_-]{1,15}\/[a-z]{1,15}\.(html|php)/i
+/\/wp-content\/plugins\/[a-z0-9_-]{1,15}\/[a-z0-9_-]{1,15}\.(html|php)/i
+/\/wp-content\/(uploads|plugins|themes\/twentyeleven)\/[a-z0-9_-]{1,20}\/[a-z0-9_-]{1,20}\.(html|php)/i
+
+# TLD's
+/\.com\/wp-admin\/css\/[a-z0-9_-]{1,15}\.(html|php)/i
+/\.com\/wp-admin\/[a-z0-9_-]{1,15}\.(html|php)/i
+
+# Miscellaneous
+# ------------------------------------------------------------------------------
 # Pretending to be WordPress
 /\/wp/[a-z0-9_-]{1,15}\/\?email=/i
 
