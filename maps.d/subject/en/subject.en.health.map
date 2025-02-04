@@ -17,10 +17,6 @@
 
 /(\d.?second|japanese).{1,10}(fix|hack|ritual|secret|trick)/i
 
-/breaking.{1,10}harvard study/i
-
-/easy trick for clear/i
-
 /(secret|simple).{1,10}(hack|solution|trick).{1,15}(activate|needs|reverses|to end)/i
 /secret lowers.{1,10}high blood/i
 /secret to (enhancing|unlock(ing)?)/i
@@ -29,13 +25,15 @@
 /(hack|ritual|secret|solution|trick).{1,10}that could change/i
 /(hack|ritual|secret|solution|trick).{1,10}to (ease|boost)/i
 
-/unusual greek/i
 
 /with.{1,10}(easy|simple) (method|tip|trick)/i
-/discover.{1,10}simple tip/i
 
+/breaking.{1,10}harvard study/i
+/discover.{1,10}(incredible|simple tip)/i
+/easy trick for clear/i
+/simple at.?home/i
 /this.{1,10}home remedy/i
-/discovery is incredible/i
+/unusual greek/i
 
 #
 #
@@ -85,12 +83,14 @@
 /calories.{1,10}belly fat/i
 /cause of joint pain/i
 
+/clear.{1,10}nails/i
 /clears? blurry eyesight/i
 /constipation.{1,10}read this/i
 
 # D
 /daily fat loss/i
 /destroys.{1,10}back pain/i
+/detox(es)? your gut/i
 
 /discover.{1,10}breakthrough/i
 
@@ -241,6 +241,7 @@
 
 /simple.{1,15}weight.?loss/i
 /slash.{1,10}blood.?pressure/i
+/sleeping position/i
 
 /solution.{1,10}enhanced performance/i
 /solution.{1,10}for ed/i

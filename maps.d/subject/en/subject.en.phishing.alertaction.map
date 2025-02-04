@@ -6,9 +6,13 @@
 # Generic
 # ==============================================================================
 
+# Sample:  8:43:23 a.m. : Action Required
+/\d{1,2}:\d{1,2}:\d{1,2}.{1,10}action required/i
+
 # A
 /action required.{1,15}update your/i
 /action required.{1,10}(account|improve|payment failed)/i
+/action required.{10,35}for violation/i
 /action required.{10,35}password expires/i
 /action required.{1,10}subscription renewal/i
 
