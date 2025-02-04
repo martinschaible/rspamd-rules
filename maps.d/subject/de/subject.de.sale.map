@@ -61,7 +61,8 @@
 
 /anfrage.{1,10}personalunterstützung/iu
 /angebot nur.{1,10}testen sie/i
-/anzeige branchen.?führer/i
+
+/(annonce|anzeige) branchen.?führer/i
 
 /arbeiter aus (europa|europe)/i
 
@@ -70,6 +71,8 @@
 
 # B
 /beheizten? westen?/i
+
+/branchen.?führer.{1,10}\d{4}/i
 
 # C
 
@@ -113,6 +116,8 @@
 
 # M
 /massage.?(sessel|stuhl|stühle).{1,15}(sessel|stuhl|stühle)/i
+
+/mit diesem.{1,15}kissen/i
 
 # N
 

@@ -89,6 +89,10 @@
 # O
 
 # P
+
+# Used in real life
+#/(paket|sendung).{1,10}ist unterwegs!/i
+
 /(paket|sendung).{1,10}befindet sich in wartestellung/i
 /(paket|sendung).{1,10}erwartet sie/i
 /(paket|sendung).{1,10}ist bereit.{1,10}zahlen/i

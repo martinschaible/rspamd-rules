@@ -88,11 +88,11 @@
 # Cushion
 # ------------------------------------------------------------------------------
 /kissen.{1,10}in.{1,10}(deutschland|schweiz)/i
-/kissen.{1,10}sonderpreis/i
+/kissen.{1,10}(revolutionieren|sonderpreis)/i
 
 /lendenstützkissen.{1,10}rückenkissen/i
 
-/(derila|klaudena).{1,10}(kissen|komfort)/i
+/(derila|klaudena).{1,15}(kissen|komfort|memory)/i
 
 /unser.{1,10}(lendenstützkissen|rückenkissen)/i
 
@@ -647,12 +647,16 @@
 # Hiring people
 # ------------------------------------------------------------------------------
 /finden (sie|wir).{1,15}(motivierte|schnell|zuverlässige).{1,15}(arbeitnehmer|mitarbeiter)/i
+
+/ihnen bei der personalsuche/i
 /sie erhalten bei uns.{1,15}(fachkräfte|mitarbeiter|personal)/iu
+/sie qualifizierte fachkräfte/iu
+
+/motivierten?.{1,15}fachkräften? aus/iu
 
 /wir finden ihre mitarbeiter/i
 /wir sind ein.{1,15}unternehmen aus/i
 
-# Litauen
 /litauen.{1,10}arbeitskräfte zur verfügung stellt/iu
 /litauen.{1,10}ist ein unternehmen/i
 /litauen.{1,10}stellen ihnen fach.{1,10}hilfspersonal/i
