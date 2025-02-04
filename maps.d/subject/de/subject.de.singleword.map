@@ -45,6 +45,7 @@
 /benachrichtigung#/i
 
 /bestatigung/i
+/bestaetigung/i
 /branchenbuch.?eintrag/i
 
 # C
@@ -54,7 +55,7 @@
 /^darlehen$/i
 /darlehen\?/i
 /darlehen!/i
-/-darlehen/i
+#/-darlehen/i
 
 /darlehensangebot/i
 /darlehensmöglichkeit/iu
@@ -89,7 +90,7 @@ fettverbrenner/i
 
 /geschäfts?.?darlehen/i
 /geschäftsgelegenheit/i
-/geschenk:/i
+#/geschenk:/i
 
 /gewichtsreduktion/i
 /gewichtsverlusts?/i
@@ -178,6 +179,7 @@ fettverbrenner/i
 # R
 # /räumungsverkauf/i
 /ruckerstattung/i
+/rueckerstattung/i
 
 # S
 /sauberlaufmatten/i

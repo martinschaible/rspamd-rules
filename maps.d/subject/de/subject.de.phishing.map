@@ -104,11 +104,9 @@
 # Q
 
 # R
-/(rückerstattung|rueckerstattung).{1,10}ihre zugreise/i
-/(rückerstattung|rueckerstattung).{1,10}jetzt (bestätigen|bestaetigen)/i
-/(rückerstattung|rueckerstattung).{1,10}zur verfügung/iu
-
-/rueckerstattung fuer/i
+/rückerstattung.{1,10}ihre zugreise/i
+/rückerstattung.{1,10}jetzt (bestätigen|bestaetigen)/i
+/rückerstattung.{1,10}zur verfügung/iu
 
 # S
 /sie haben anspruch.{1,15}rückerstattung/iu

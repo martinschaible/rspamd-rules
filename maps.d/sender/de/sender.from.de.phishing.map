@@ -68,7 +68,8 @@ ihre.{0,10}chance/i
 /service.?meldung(en)?/i
 
 # T
-/team (vom|von)/i
+#/team (vom|von)/i
+/team vom/i
 
 # U
 /umfrage.{0,15}(exklusiv|starten|unter|verbraucher)/i
