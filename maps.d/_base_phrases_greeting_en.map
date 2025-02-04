@@ -71,7 +71,6 @@
 /dear.{1,10}friend.{1,10}nice day/i
 /dear.{1,10}friend.{1,10}we.{1,10}(provide|supply)/i
 
-/dear.{1,10}managing.{1,10}director/i
 /dear.{1,15}(manager|partner).{1,10}(good|nice) day/i
 /dear.{1,15}(manager|partner).{1,10}this is.{5,25}from/i
 /dear.{1,15}(manager|partner).{1,10}with over.{1,10}years/i
@@ -133,7 +132,6 @@
 /good (day|evening|morning).{1,10}i know you may find this/i
 /good (day|evening|morning).{1,10}(madam|sir).{1,10}hi/i
 
-/greetings?.{1,15}(business|investment).{1,15}partnership/i
 /greetings?.{1,10}customer.{1,10}hope this/i
 /greetings?.{1,10}from.{1,10}(here|saudi)/i
 /greetings?.{1,10}from.{5,25}inc/i
@@ -154,7 +152,6 @@
 /greetings?.{1,10}to you.{1,10}reply to/i
 /greetings?.{1,10}to you.{1,10}i.?a?m (mrs?|ms)/i
 
-/hello.{1,15}business professional/i
 /hello.{1,10}glad to (connect|write to you)/i
 /hello.{1,10}i have urgent information/i
 /hello.{1,15}introduction/i
@@ -223,12 +220,10 @@
 /my name is.{5,25}i contacted you with an act/i
 /my name is.{5,25}i have decided/i
 /my name is.{5,25}i have been.{1,10}victim/i
-/my name is.{5,25}i represent.{1,10}company/i
 /my name is.{5,25}i was.{1,10}browsing your/i
 /my name is.{5,25}i work for the/i
 /my name is.{5,25}i would like to talk to you/i
 
-/my name is.{5,25}representing/i
 /my name is.{5,25}the principal/i
 /my name is.{5,25}we are specialized in/i
 
@@ -382,10 +377,6 @@
 /i.?a?m (miss|mrs?|ms).{5,35}i have.{1,15}client/i
 /i.?a?m (miss|mrs?|ms).{5,25}managing director/i
 /i.?a?m (miss|mrs?|ms).{5,25}personal attorney/i
-
-/i represent a.{1,10}based company/i
-/i represent an agency/i
-/i represent mrs?\./i
 
 /introducing myself as.{1,10}(financial|investment).?(broker|consultant)/i
 
