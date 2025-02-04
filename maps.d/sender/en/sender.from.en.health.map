@@ -326,7 +326,7 @@
 /big.{0,10}secret/i
 /(big|flat(ten)?).{0,10}stomach/i
 
-/bladder.{0,10}(boost|care|control|danger|fix|health|leaks?|leakage|leaking|issues?|relief)/i
+/bladder.{0,10}(boost|care|control|danger|fix|health|leaks?|leakage|leaking|issues?|problems?|relief)/i
 
 /bloat.{0,10}(free|remedy|solution)/i
 /blood.{0,10}(clot|sugar)/i
@@ -616,6 +616,7 @@
 /top.{0,10}(fruits|medication)/i
 /toxic.{0,10}milk/i
 
+/tropical.{0,10}(fruit|juice)/i
 /true.{0,10}story/i
 /twist.{0,10}growth/i
 /type.?2/i

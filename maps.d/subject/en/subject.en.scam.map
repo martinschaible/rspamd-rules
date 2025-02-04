@@ -39,7 +39,7 @@
 
 # B
 /^(business|partnership).{1,10}(enquiry|inquiry|proposal)$/i
-/(business|partnership).{1,10}(assistance|offer|opportunity|proposition|response)/i
+/(business|partnership).{1,10}(assistance|offer|opportunity|proposal|proposition|response)/i
 
 # C
 /compensation.{1,10}\d{2,4}(\.|,)?\d{3,4}/i
@@ -81,7 +81,7 @@
 /invest in your.{1,10}(business|company|project)/i
 /investment.{1,10}(deal|funds|partnership)/i
 /investment.{1,10}fund of/i
-/investment proposal/i
+/investment.{1,10}(business|proposal)/i
 
 /^investment.{1,10}partner(ship)?$/i
 
