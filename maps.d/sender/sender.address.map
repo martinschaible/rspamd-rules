@@ -21,6 +21,9 @@
 #
 /\.(biz|co)\.id$/i
 
+# The exotic ones
+/\.xyz$/i
+
 # Health
 # ==============================================================================
 # 10.01.25 - Last weapon. Rspamd isn't able to check the body.
