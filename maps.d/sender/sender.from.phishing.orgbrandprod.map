@@ -79,9 +79,13 @@
 /^ard.?zdf$/i
 /ard.?zdf.?(radio|service)/i
 
-/ライフカ/i                    # 01.02.25 - LIFE CARD Co., Ltd.   
-/アイフル/i                    # 21.12.24 - Aiful corporation
-/ネットバンク/i                 # 21.12.24 - Aiful corporation
+
+# 01.02.25 - LIFE CARD Co., Ltd.
+/ライフカ/i
+
+# 21.12.24 - Aiful corporation
+/アイフル/i                    
+/ネットバンク/i
 
 # B
 /baumarkt.?(™|®|©)$/i
@@ -160,7 +164,9 @@
 /ihk.?(™|®|©)?$/i
 
 # J
-/ＪＡネットバンク/i                     # 19.12.24 - JA Net Bank
+
+# 19.12.24 - JA Net Bank
+/ＪＡネットバンク/i
 
 /^jcb/i
 /jcbカ/i
@@ -210,7 +216,8 @@
 /(obi|otto).?(™|®)$/i
 /obi-/i
 
-/e-orico/i                                        # 01.02.25 - Orico Corporation
+# 01.02.25 - Orico Corporation
+/e-orico/i
 
 # P
 /paypal.{0,5}(case.?id|europe?|inc|kunden|konto|support|voucher)/i
@@ -230,8 +237,10 @@
 /quickship/i
 
 # R
-/楽天カード株式会社/i                      # 30.12.24 -Rakuten Card Co., Ltd.
-/りそな/i                               # 21.12.24 - Resona Bank
+# 30.12.24 -Rakuten Card Co., Ltd.
+/楽天カード株式会社/i
+# 21.12.24 - Resona Bank
+/りそな/i
 
 /rewe.?(™|®|©)?$/i
 
@@ -276,9 +285,10 @@
 /team_/i
 /team.{0,10}(account|netflix|spotify)/i
 
-/農林中央金庫/i                         # 29.12.24 - The Norinchukin Bank
-/twint$/i
+# 29.12.24 - The Norinchukin Bank
+/農林中央金庫/i
 
+/twint$/i
 /twint ag/i
 
 # U
@@ -293,9 +303,12 @@
 /u\.p\.s/i
 
 # V
-/ⱽᵖᵃˢˢ/i                                # 19.12.24 - Sumitomo Mitsui Card Co.
+
+# 19.12.24 - Sumitomo Mitsui Card Co.
+/ⱽᵖᵃˢˢ/i
 
 /^viseca$/i
+/viseca.?one.?app/i
 
 # W
 /^wix$/i

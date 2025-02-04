@@ -12,7 +12,7 @@
 
 # Hacks, Tricks, Secrets and other lies
 # ==============================================================================
-/(ancient|daily|day|easy|gummy|hidden).{1,15}(fix|hack|ritual|secret|trick)/i
+/(ancient|at.?home|daily|day|easy|gummy|hidden).{1,15}(fix|hack|ritual|secret|trick)/i
 /(little.?known|minute|odd|second).{1,15}(fix|hack|ritual|secret|trick)/i
 
 /(\d.?second|japanese).{1,10}(fix|hack|ritual|secret|trick)/i
@@ -246,7 +246,7 @@
 /solution.{1,10}enhanced performance/i
 /solution.{1,10}for ed/i
 
-/stubborn.{1,10}fat/i
+/stubborn.{1,10}(fat|mucus)/i
 /stop (taking|using) this/i
 
 /strange.{1,15}boosts/i

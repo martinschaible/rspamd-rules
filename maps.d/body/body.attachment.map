@@ -20,13 +20,13 @@
 #/(receipt|winner).?\d{0,10}\.((?!pdf$)[^.]*)/i
 
 /(inquiry|invoice|order).{0,25}\.(7z|gz|r11|r16|rar|tar|xls|zip)/i
-/(payment|proforma|quotation|receipt|request).{0,25}\.(7z|gz|r11|r16|rar|tar|xls|zip)/i
+/(advice|payment|proforma|quotation|receipt|request).{0,25}\.(7z|gz|r11|r16|rar|tar|xls|zip)/i
 
 /rechnung.{0,45}\.(7z|gz|rar|zip)/i
 
 /docu\.7z/i
 
-# 13.0125 - Sample: re_10_00134873.zip
+# 13.01.25 - Sample: re_10_00134873.zip
 /re_[0-9_]{4,15}\.(gz|zip)/i
 
 # 09.01.25 - Sample: DHL Receipt_#7900629801.gz
@@ -66,6 +66,9 @@
 
 # 30.01.25 - Sample: 30_01_2025.gz
 /\d{2}_\d{2}_\d{4}\.(gz|zip)/i
+
+# 04.02.25 - Sample: 02-04-2025.gz
+/\d{2}-\d{2}-\d{4}\.(gz|zip)/i
 
 # Pattern
 # ------------------------------------------------------------------------------
