@@ -17,7 +17,7 @@
 
 /(\d.?second|japanese).{1,10}(fix|hack|ritual|secret|trick)/i
 
-/(secret|simple).{1,10}(hack|solution|trick).{1,15}(activate|needs|reverses|to end)/i
+/(secret|simple|unusual).{1,10}(hack|solution|trick).{1,15}(activate|erases|needs|reverses|to end)/i
 /secret lowers.{1,10}high blood/i
 /secret to (enhancing|unlock(ing)?)/i
 
@@ -25,7 +25,7 @@
 /(hack|ritual|secret|solution|trick).{1,10}that could change/i
 /(hack|ritual|secret|solution|trick).{1,10}to (ease|boost)/i
 
-
+/one simple stretch/i
 /with.{1,10}(easy|simple) (method|tip|trick)/i
 
 /breaking.{1,10}harvard study/i
@@ -48,6 +48,8 @@
 /\d stretch/i
 
 # A
+/add this to your/i
+
 /accelerate your metabolism/i
 
 /(achy|bad).{1,10}knees/i
@@ -121,7 +123,7 @@
 /energized.{1,10}pain.?free/i
 /enhance your.{1,20}(energy|hearing)/i
 
-/erase artery plaque/i
+/erases?.{1,10}(artery plaque|tinitus)/i
 /erections?.{1,10}pill/i
 
 # F
@@ -224,7 +226,8 @@
 /remedy unleashes your/i
 /remove.{1,10}dark spots/i
 /restores?.{1,10}(joint|memory|perfect)/i
-/(reverse|reversing).{1,10}(diabetes|ed\b|memory)/i
+
+/(reverse|reversing).{1,10}(diabetes|ed\b|memory|type 2)/i
 
 /rock.?solid in just/i
 
@@ -241,6 +244,8 @@
 /silence knee pain/i
 /silences tinnitus/i
 
+/simple way to reverse/i
+
 /simple.{1,15}weight.?loss/i
 /slash.{1,10}blood.?pressure/i
 /sleeping position/i
@@ -251,7 +256,7 @@
 /stubborn.{1,10}(fat|mucus)/i
 /stop (taking|using) this/i
 
-/strange.{1,15}boosts/i
+/strange.{1,15}(acid|boosts)/i
 /stretch that (eliminates|restores|stops)/i
 /stretch to (prevent|unlock)/i
 
@@ -279,6 +284,7 @@
 
 # U
 /unusual asian treat/i
+/unlock pleasure centers?/i
 
 # V
 

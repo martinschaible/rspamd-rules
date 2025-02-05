@@ -50,7 +50,7 @@
 /rg\..{0,5}fa\..{0,15}\.(gz|zip)/i
 
 # 20.01.25 - Sampple: PO# 4502288112.gz
-/po#.{0,25}\.(7z|gz|r16|rar|zip)/i
+/po(-|#).{0,25}\.(7z|gz|r16|rar|zip)/i
 
 # 22.01.25 - Sample: RFQ- 2708970-001.gz
 /(inq|rfq)-?.{0,15}\.(gz|zip)/i
