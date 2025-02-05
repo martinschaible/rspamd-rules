@@ -113,11 +113,14 @@
 
 # Leads
 # ------------------------------------------------------------------------------
+/leads?.{1,10}feature.{1,10}you can automatically/i 
+/leads.{1,10}can do for your/i
 /leads.{1,10}for all interested parties/i
-/lead feature.{1,10}you can automatically/i 
 
 /automation.{1,10}convert.{1,10}leads/i
-/generate leads.{1,10}promote/i
+
+/generate.{1,10}leads.{1,10}promote/i
+/generate.{1,10}leads.{1,10}here.{1,10}how/i
 
 /i will provide.{1,15}leads/i
 
@@ -125,6 +128,8 @@
 /you need.{1,10}(fresh|new).{1,10}leads/i
 
 /we.{1,10}provide.{1,15}(fresh|quality|targeted|verified).{1,15}leads/i
+
+/(web)?site.{1,25}generate more leads/i
 
 # LinkedIn
 /(targeted|verified).{1,10}leads from linkedin/i
