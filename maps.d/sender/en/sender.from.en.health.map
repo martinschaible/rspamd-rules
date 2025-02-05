@@ -257,6 +257,7 @@
 /keto.{0,10}(diet|slim)/i
 /forget.{0,10}keto/i
 
+/weight.{0,10}gain/i
 /^w.?loss/i
 
 # Breaktrough, Hacks, Miracle, Secrets, Tricks, Videos, etc...
@@ -312,6 +313,8 @@
 /bad.{0,10}breath/i
 
 /back.{0,10}(aches?|fixer|pain|stretch)/i
+
+/balanced.?bp/i
 /bald.{0,10}spot/i
 /baldness.{0,10}(cure|fix)/i
 /basic.{0,10}protein/i
