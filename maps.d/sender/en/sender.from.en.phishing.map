@@ -90,6 +90,8 @@
 # R
 
 # S
+/server.?(admin|support|update)/i
+
 /service.{0,10}notifications?/i
 /(service|storage).{0,10}(upgrades?|updates?)/i
 
@@ -97,6 +99,8 @@
 /shopper.{0,10}gift(.?card)?/i
 
 /supportch/i
+
+/systems.?administrator/i
 
 # T
 /tepco/i        # 27.12.24 Japanese Bank

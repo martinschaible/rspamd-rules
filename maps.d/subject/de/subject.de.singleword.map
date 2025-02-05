@@ -29,6 +29,7 @@
 /aktualisierungsservice/i
 
 /anfrage\*/i
+/anspruchs!/i
 /^ansprüche$/i
 /ansprüche!/i
 /ansprüche\./i
@@ -65,7 +66,12 @@
 
 # E
 /elektro.?heizer/i
+
+/entschädigungsfonds /iu
 /entschädigungslotterie/i
+
+/erbschaftsfonds/i
+/erbschaftsübertragung/iu
 
 /erforderlich!/i
 
@@ -88,6 +94,8 @@ fettverbrenner/i
 /geldentschadigung/i
 /geldsorgen\?/i
 
+/gerätesicherheitsabonnement/iu
+
 /geschäfts?.?darlehen/i
 /geschäftsgelegenheit/i
 #/geschenk:/i
@@ -100,6 +108,7 @@ fettverbrenner/i
 /gewinn.?(benachrichtigung|mitteilung|notifikation)/i
 
 /^gewinner$/i
+/gewinnbenachritigung/i
 /gewinnerfonds/i
 
 /^glückwunsch!$/i
@@ -113,6 +122,7 @@ fettverbrenner/i
 /:hey/i
 
 # I
+/investitionsbeihilfe/i
 /investitionsspende/i
 /investitionszuschuss/i
 
@@ -234,11 +244,13 @@ fettverbrenner/i
 /^wichtig$/i
 
 /wohltätigkeitsfonds/iu
+/wohltätigkeitsspende/iu
 
 # X
 
 # Y
 
 # Z
+/zahlungsauftritt/i
 /zustellungsproblem/i
 /zollabsagens/i

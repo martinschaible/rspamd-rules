@@ -8,6 +8,7 @@
 
 # A
 /aktualisieren sie.{1,10}ihre?.{1,15}(konto(informationen)?|profil)/i
+/aktualisieren sie.{1,10}sicherheit/i
 /aktualisierung.{1,10}ihrer.{1,10}kontoinformationen/i
 
 #/aktualisierung.{1,10}erforderlich.{1,20}konto.{1,10}(gesperrt|stillgelegt)/i
@@ -86,6 +87,7 @@
 # V
 
 # W
+/wichtige?.{1,10}aktualisieren sie/i
 /wichtige?.{1,10}kontofunktion(en)?/i
 /wichtige?.{1,10}kontowarnung/i
 /wichtige?.{1,10}(konto|profil).?informationen/i
