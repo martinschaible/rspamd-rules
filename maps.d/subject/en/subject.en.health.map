@@ -77,7 +77,8 @@
 /bladder leaks/i
 /blood.?sugar.{1,10}(drops|naturally)/i
 
-/boost heart health/i
+/boost.{1,10}eart health/i
+/boost.{1,10}your.{1,15}vitality/i
 
 /by doing this daily/i
 
@@ -180,6 +181,7 @@
 /loses.{1,10}pounds doing this/i
 
 # M
+/makes you thin/i
 /massage restores/i
 
 /memory loss.{1,10}(comes from|unveiled)/i

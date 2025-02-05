@@ -28,6 +28,7 @@
 /(greetings?|hello).{1,10}i work as a/i
 
 # H
+/hello to the.{1,25}owner/i
 
 # I
 /(i am|i'm) a.{1,10}(financial|representative|senior)/i

@@ -77,6 +77,8 @@
 /inheritance to you/i
 
 /^inquiry$/i
+/inquiry.{1,10}investment/i
+/inquiry.{1,15}about your products/i
 
 /invest in your.{1,10}(business|company|project)/i
 /investment.{1,10}(deal|funds|partnership)/i
