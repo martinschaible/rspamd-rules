@@ -319,6 +319,9 @@
 /viseca.?one.?app/i
 
 # W
+/we.?transfer.?\|/i
+/we.?transfer.{0,10}(document|message)/i
+
 /^wix$/i
 /wix.{0,10}team/i
 
