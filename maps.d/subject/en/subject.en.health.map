@@ -11,7 +11,7 @@
 /endurancer24/i
 
 # Hacks, Tricks, Secrets and other lies
-# ==============================================================================
+# ------------------------------------------------------------------------------
 /(ancient|at.?home|daily|day|easy|gummy|hidden).{1,15}(fix|hack|ritual|secret|trick)/i
 /(little.?known|minute|odd|second).{1,15}(fix|hack|ritual|secret|trick)/i
 
@@ -34,6 +34,14 @@
 /simple at.?home/i
 /this.{1,10}home remedy/i
 /unusual greek/i
+/weird water trick/i
+
+# Weight Loss
+# ------------------------------------------------------------------------------
+/(fat|weight).?loss.{1,10}(breakthrough|tip)/i
+
+/(blocking|boost|daily|easy|fast|for){1,15}(fat|weight).?loss/i
+/(hidden|massive|method for|rapid|simple|try this|your).{1,15}(fat|weight).?loss/i
 
 #
 #
@@ -94,7 +102,6 @@
 /constipation.{1,10}read this/i
 
 # D
-/daily fat loss/i
 /destroys.{1,10}back pain/i
 /detox(es)? your gut/i
 
@@ -139,7 +146,6 @@
 
 /flattens.{1,10}tummy/i
 /follow these steps at/i
-/for weight.?loss/i
 
 /fungus.{0,10}fix/i
 
@@ -182,6 +188,7 @@
 # L
 /lose weight.{1,10}(fast|without)/i
 /loses.{1,10}pounds doing this/i
+/losing memory because/i
 
 # M
 /makes you thin/i
@@ -251,7 +258,6 @@
 
 /simple way to reverse/i
 
-/simple.{1,15}weight.?loss/i
 /slash.{1,10}blood.?pressure/i
 /sleeping position/i
 
@@ -294,8 +300,6 @@
 # V
 
 # W
-/weight.?loss.{1,10}(breakthrough|tip)/i
-
 /weird stretch/i
 
 # X

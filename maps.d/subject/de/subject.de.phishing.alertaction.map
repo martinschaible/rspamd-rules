@@ -36,7 +36,7 @@
 
 # H
 /handeln sie jetzt/i
-/handeln sie sofort/i
+/handeln sie (schnell|sofort)/i
 /handeln erforderlich.{1,10}vermeiden sie die/i
 
 /handlung erforderlich/i
@@ -72,6 +72,8 @@
 /sicherheitsaktualisierung erforderlich/i
 
 /sicherheitsupdate.{1,10}überprüfen sie ihr/i
+
+/sofort öffnen/iu
 
 /swisspass.{1,10}überprüfen sie/iu
 

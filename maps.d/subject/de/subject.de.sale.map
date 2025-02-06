@@ -53,6 +53,9 @@
 # Generic
 # ==============================================================================
 
+# Sample: €78,54 anstatt €119,00
+/€\d{2,3}(,|.)\d{2}.{1,5}anstatt €\d{2,3}(,|.)\d{2}/i
+
 #
 /4k.{0,10}kamera/i
 
@@ -166,6 +169,8 @@
 /vermitteln produktionshelfer/i
 
 # W
+/waschbürste.{1,20}teleskop/i
+
 /werkzeug.?set.{1,20}(für|mit|teilen)/i
 /werkzeug.?set.{1,20}jetzt sichern/i
 /werkzeug.{1,10}(highlight|upgrade)/i
