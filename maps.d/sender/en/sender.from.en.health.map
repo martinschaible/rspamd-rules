@@ -93,7 +93,7 @@
 /(20|bad|blurred|blurry|clear|declining|enhancing|flawless).{0,10}(eye.?sight|view|vision)/i
 /(new|night|perfect|poor|restore|supreme|weak).{0,10}(eye?sight|view|vision)/i
 
-/eye.{0,10}(help|relief)/i
+/eye.{0,10}help/i
 
 /(eye.?sight|vision).{0,10}(20.?20|boost|enhancing|fix|hack|loss)/i
 /(eye.?sight|vision).{0,10}(rescue|reset|restorer?|supplement)/i
@@ -138,14 +138,13 @@
 /(no more|stop).{0,10}ringing/i
 /noise.?free/i
 
-/(hear(ing)?|tinnitus).{0,10}(aid|cure|fix|loss|memory|noises?|relief|restorer?|solution|symptoms|warning)/i
+/(hear(ing)?|tinnitus).{0,10}(aid|cure|fix|loss|memory|noises?|restorer?|solution|symptoms|warning)/i
 
 /(bad|poor|restore).{0,10}hearing/i
 
 /(buzzing|clear|quiet|ringing|stop|unbearable|zero).{0,10}(ears?|noise)/i
 /(beat|destroy|end|goodbye|stop).{0,10}tinnitus/i
 
-/ringing.{0,10}relief/i
 /strange.{0,10}buzzing/i
 
 # Herpes
@@ -156,7 +155,7 @@
 # Joints
 # ------------------------------------------------------------------------------
 /joints?.{0,10}(cure|(dis)?comfort|fix|genesis|healed|hero|inflammation)/i
-/joints?.{0,10}(problems?|recovery|relief|remedy|saver|story)/i
+/joints?.{0,10}(problems?|recovery|saver|story)/i
 
 /(better|grinding|painful|sore|swollen).{0,10}joints?/i
 
@@ -174,7 +173,7 @@
 
 # Pain
 # ------------------------------------------------------------------------------
-/pain.{0,10}(flush|free|gone|indicator|killer|management|no.?more|quiz|relief(er)?|remover|warning)/i 
+/pain.{0,10}(flush|free|gone|indicator|killer|management|no.?more|quiz|remover|warning)/i 
 
 /(anti|ch?ronic|chrippling|ease|end|erase|joint|knee|managing|neck|neuropathic|nerve|reduces|swollen).{0,10}pain/i
 
@@ -242,7 +241,7 @@
 /(metabolic|surprising).{0,10}water/i
 
 /(toxic|visceral).{0,10}fat/i
-/tummy.{0,10}(cleanse|relief|tamer)/i
+/tummy.{0,10}(cleanse|tamer)/i
 
 /o.{0,3}p.{0,3}r.{0,3}a.{0,3}h/i
 
@@ -263,17 +262,17 @@
 # Breaktrough, Hacks, Miracle, Secrets, Tricks, Videos, etc...
 # ------------------------------------------------------------------------------
 #-> Needs to be overhauled and simplified
-/(ancient|anti.?aging).{0,10}(diet|drink|fix|formula|hack|miracle|protocol|remedies|remedy|ritual|secret|solution|tea|trick)/i
-/(bedtime|boosting|breakfast|coffee|crazy).{0,10}(diet|drink|fix|formula|hack|miracle|protocol|remedies|remedy|ritual|secret|solution|tea|trick)/i
-/(dairy|dental|diet|glucose|gummies|gummy|hidden).{0,10}(diet|drink|fix|formula|hack|miracle|protocol|remedies|remedy|ritual|secret|solution|tea|trick)/i
-/(k2|lipo|liposuction|liquid|magic|modern|muscle).{0,10}(diet|drink|fix|formula|hack|miracle|protocol|remedies|remedy|ritual|secret|solution|tea|trick)/i
-/(pain|relief|second|simple|special|snoring|unusual).{0,10}(diet|drink|fix|formula|hack|miracle|protocol|remedies|remedy|ritual|secret|solution|tea|trick)/i
-/(unlock|veins|water|weard|wellness|yummy).{0,10}(diet|drink|fix|formula|hack|miracle|protocol|remedies|remedy|ritual|secret|solution|tea|trick)/i
+/(ancient|anti.?aging).{0,10}(diet|drink|fix|formula|hack|miracle|protocol|remedies|ritual|secret|solution|tea|trick)/i
+/(bedtime|boosting|breakfast|coffee|crazy).{0,10}(diet|drink|fix|formula|hack|miracle|protocol|remedies|ritual|secret|solution|tea|trick)/i
+/(dairy|dental|diet|glucose|gummies|gummy|hidden).{0,10}(diet|drink|fix|formula|hack|miracle|protocol|remedies|ritual|secret|solution|tea|trick)/i
+/(k2|lipo|liposuction|liquid|magic|modern|muscle).{0,10}(diet|drink|fix|formula|hack|miracle|protocol|remedies|ritual|secret|solution|tea|trick)/i
+/(pain|second|simple|special|snoring|unusual).{0,10}(diet|drink|fix|formula|hack|miracle|protocol|remedies|ritual|secret|solution|tea|trick)/i
+/(unlock|veins|water|weard|wellness|yummy).{0,10}(diet|drink|fix|formula|hack|miracle|protocol|remedies|ritual|secret|solution|tea|trick)/i
 
-/(amazonian|japanese|mayan|taiwan).{0,10}(diet|drink|fix|formula|hack|miracle|protocol|remedies|remedy|ritual|secret|seeds?|solution|tea|trick)/i
+/(amazonian|japanese|mayan|taiwan).{0,10}(diet|drink|fix|formula|hack|miracle|protocol|remedies|ritual|secret|seeds?|solution|tea|trick)/i
 /(ancient|crazy|dairy).{0,10}(amazonian|chocolate|healing|serum)/i
 
-/(exotic|forgotten|medical|miracle|natural|new|science||scientists?).{0,10}(breakthrough|drink|discovery|herb)/i
+/(exotic|forgotten|medical|miracle|natural|new|science|scientists?).{0,10}(breakthrough|drink|discovery|herb)/i
 
 /(basic|secret).{0,10}protein/i
 /nasa.{0,10}(scientists?|study)/i
@@ -305,7 +304,7 @@
 /artery.{0,10}(health|plaque)/i
 /arthritis.{0,10}gone/i
 
-/avoid.{0,10}(blueberries|kegels|zink)/i
+/avoid.{0,10}(blueberries|kegels|veggies|zink)/i
 
 # B
 /(bad|big|poor|weak).{0,10}bladder/i
@@ -329,9 +328,9 @@
 /big.{0,10}secret/i
 /(big|flat(ten)?).{0,10}stomach/i
 
-/bladder.{0,10}(boost|care|control|danger|fix|health|leaks?|leakage|leaking|issues?|problems?|relief)/i
+/bladder.{0,10}(boost|care|control|danger|fix|health|leaks?|leakage|leaking|issues?|problems?)/i
 
-/bloat.{0,10}(free|remedy|solution)/i
+/bloat.{0,10}(free|solution)/i
 /blood.{0,10}(clot|sugar)/i
 
 /blue.{0,10}(pill|plant|replacement)/i
@@ -343,7 +342,6 @@
 /body.{0,10}(balance|recharge|waves?)/i
 /\bboner$/i
 
-/bone.{0,10}relief/i
 /boost.{0,10}(circulation|energy)/i
 
 /burn.{0,10}calories/i
@@ -424,12 +422,14 @@
 /fine.{0,10}lines/i
 /firm.{1,10}strong/i
 /fix.{1,10}(nail|toe).{0,10}fungus/i
+
+/flawless.{0,10}skin/i
 /flexibility.{0,10}booster/i
 
 /flush.{0,10}toxins?/i
 
 /full(er)?.{0,10}hair/i
-/(fungal|fungus).{0,10}(eliminator|free|infection|relief|remover?|vanishing)/i
+/(fungal|fungus).{0,10}(eliminator|free|infection|remover?|vanishing)/i
 
 /food.{0,10}(cravings?|choices?|odor|trap)/i
 /foot.{0,10}care/i
@@ -455,7 +455,7 @@
 /healing.{0,10}(massage|technology)/i
 /healthy.{0,10}(choice(es)?|digest)/i
 
-/heart.{0,10}(attack|cells|health|disease|problems?||protection)/i
+/heart.{0,10}(attack|cells|health|disease|problems?|protection)/i
 
 /herpes.{0,10}outbreak/i
 
@@ -559,8 +559,6 @@
 # Q
 
 # R
-/rapid.{0,10}relief/i
-
 /red.{0,10}(berry|juice)/i
 /regenerate.{0,10}eyes?/i
 /remote.{0,10}pharmacy/i
@@ -609,7 +607,6 @@
 /(strange|spice).{0,10}trick/i
 
 /sweet.{0,10}deal/i
-/swift.{0,10}(relief|remedy)/i
 /swollen.{0,10}gut/i
 
 # T
@@ -652,6 +649,7 @@
 /wellness.{0,10}insights/i
 
 /white.{0,10}carb/i
+/womens?.{0,10}secret/i
 /wonder.?bread/i
 /worst.{0,10}(breakfast|veggie)/i
 /wrinkles/i
