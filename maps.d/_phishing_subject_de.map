@@ -401,7 +401,6 @@
 /dpd(-|_)ch/i
 
 #
-/handeln sie jetzt.{1,5}\d{4,15}/i
 /referenz.?(code|nummer).{1,5}\d{4,15}/i
 /(ch|de|org).{1,10}referenz.?code/i
 /package.{1,10}informationen/i
@@ -696,10 +695,6 @@ letzter gewinner/i
 
 # Return for double payed invoices
 # ------------------------------------------------------------------------------
-/rückerstattung.{1,10}(handeln sie|jetzt)/i
-/rückerstattung.{1,10}ihres beitrags/iu
-/rückerstattung.{1,10}ist (online|verfügbar)/iu
-
 /benachrichtigung.{1,10}rechnungskorrektur/i
 /erhalten sie.{1,15}jetzt.{1,10}rückerstattung/i
 
