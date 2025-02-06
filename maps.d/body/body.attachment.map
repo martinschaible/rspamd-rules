@@ -105,7 +105,7 @@
 
 /(,|_)(doc|pdf)\.(htm|svg|tar|zip)/i
 
-/\.pdf\.zip/i
+/\.pdf\.(lz|zip)/i
 
 # Triple Extension
 # ------------------------------------------------------------------------------
@@ -133,8 +133,7 @@
 # Parcel
 # ------------------------------------------------------------------------------
 # 27.12.24 Sample: FedEx AWB# 797187750472.gz
-/fedex.{0,20}\.gz/i
-/(fedex|express).{0,20}\.gz/i
+/(dhl|fedex|express).{0,20}\.gz/i
 
 /fedex_/i
 /hermes\.docx?/i

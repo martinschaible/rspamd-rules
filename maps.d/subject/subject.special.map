@@ -48,6 +48,9 @@
 # Three hyphens
 /---/i
 
+# Dots between charcater like this: Fi.n.a.n.z.i.e.r.u.n.g
+/\w\.\w\.\w\.\w\./i
+
 # Multiple special characters in silly combinations
 # ------------------------------------------------------------------------------
 # -> Theses RegEx might be constructed easier and better
@@ -60,6 +63,9 @@
 
 # Exclamation mark and a ampersand
 /!\#/i
+
+# Exclamation mark and a at char
+/!@/i
 
 # Backslash, question mark an a period 
 /\\.?\./i

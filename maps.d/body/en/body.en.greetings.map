@@ -28,11 +28,12 @@
 /good day.{1,10}trust this message/i
 
 /good (day|evening|morning).{1,15}this might come.{1,10}surprise/i
-/greetings.{1,15}this might come.{1,10}surprise/i
 
 /greetings.{1,10}my friend/i
-/(greetings?|hello).{1,15}(business|investment)/i
-/(greetings?|hello).{1,10}i work as a/i
+/(greetings?|good day|hello).{1,15}(business|investment)/i
+/(greetings?|good day|hello).{1,10}i work as a/i
+/(greetings?|good day|hello).{1,5}sir.{1,5}(madam|mam)/i
+/(greetings?|good day|hello).{1,15}this might come.{1,10}surprise/i
 
 # H
 /hello to the.{1,25}owner/i
