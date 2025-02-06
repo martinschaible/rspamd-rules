@@ -19,6 +19,8 @@
 /(dear|hello|hi\b).{1,10}(agency|domain.?name|e?.?mail|site|web)/i
 /(dear|hello|hi\b).{1,10}(manager|owner)/i
 /(dear|hello|hi\b).{1,10}managing director/i
+/(dear|hello|hi\b).{1,20}nice to meet you/i
+/(dear|hello|hi\b).{1,5}(friend|madam|sir).{1,5}good day/i
 
 # E
 
@@ -34,10 +36,13 @@
 /(greetings?|good day|hello).{1,10}i work as a/i
 /(greetings?|good day|hello).{1,5}sir.{1,5}(madam|mam)/i
 /(greetings?|good day|hello).{1,15}this might come.{1,10}surprise/i
+/(greetings?|good day|hello).{1,15}this is.{5,25}from/i
 
 # H
 /hello to the.{1,25}owner/i
 /hello.{1,25}owner/i
+
+/(hello|hi).{1,5}dear.{1,10}(confidential|private|strictly|urgent)/i
 
 # I
 /(i am|i'm) a.{1,10}(financial|representative|senior)/i
@@ -76,6 +81,7 @@
 # S
 
 # T
+/this is.{5,25}from.{5,25}nice to meet you/i
 
 # U
 /urgent response.{1,10}my name is/i
