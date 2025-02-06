@@ -142,7 +142,7 @@
 
 /(bad|poor|restore).{0,10}hearing/i
 
-/(buzzing|clear|quiet|ringing|stop|unbearable|zero).{0,10}(ears?|noise)/i
+/(buzzing|clear|quiet|ringing|silent|stop|unbearable|zero).{0,10}(ears?|noise)/i
 /(beat|destroy|end|goodbye|stop).{0,10}tinnitus/i
 
 /strange.{0,10}buzzing/i
@@ -157,7 +157,7 @@
 /joints?.{0,10}(cure|(dis)?comfort|fix|genesis|healed|hero|inflammation)/i
 /joints?.{0,10}(problems?|recovery|saver|story)/i
 
-/(better|grinding|painful|sore|swollen).{0,10}joints?/i
+/(aching|better|grinding|painful|sore|swollen).{0,10}joints?/i
 
 /(achy|anti|chronic|reduce).{0,10}(inflammation|inflammatory)/i
 

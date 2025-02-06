@@ -32,6 +32,7 @@
 /good (day|evening|morning).{1,15}this might come.{1,10}surprise/i
 
 /greetings.{1,10}my friend/i
+/(greetings?|good day|hello).{1,10}apologize for sending you/i
 /(greetings?|good day|hello).{1,15}(business|investment)/i
 /(greetings?|good day|hello).{1,10}i work as a/i
 /(greetings?|good day|hello).{1,5}sir.{1,5}(madam|mam)/i
@@ -64,6 +65,8 @@
 
 /my name is.{5,25}i have.{1,10}urgent/i
 /my name is.{5,25}represent(ing)?/i
+
+/my name is.{5,35}solicitor/i
 
 # N
 

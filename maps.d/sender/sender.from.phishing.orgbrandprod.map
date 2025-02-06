@@ -109,7 +109,7 @@
 /deutsche.?bnk/i
 /deutschen.?bahn/i
 
-/deutschland.?ticket.{1,10}service/i
+/deutschland.?ticket.{1,10}(service|team)/i
 
 /d\.h\.l/i
 
@@ -122,6 +122,8 @@
 /dhl.?ups/i
 
 /(express|kurier|notification).{0,5}(dhl|dpd)/i
+
+/dkb.{0,5}team/i
 
 /die-post/i
 
