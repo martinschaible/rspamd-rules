@@ -27,7 +27,7 @@
 /wp-[a-z]{1,15}\/[a-z]{1,15}\/\?email=/i
 
 # TLD's
-/\.(io|net|vn)\/wp-content\/(themes|uploads|plugins)\//i
+/\.(in|io|net|vn)\/wp-content\//i
 /\.info\/wp-admin\/assets\//i
 
 /\.(co\.uk|ir|me|nl)\/wp-admin\//i
