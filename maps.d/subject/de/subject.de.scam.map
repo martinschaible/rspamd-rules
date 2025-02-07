@@ -17,15 +17,15 @@
 # ------------------------------------------------------------------------------
 # -> They are stealing personal information
 
+/^/(photovoltaik|pv|solar).?anlagen?/i
 /(photovoltaik|pv|solar).?anlagen?.{1,20}alle förderungen/iu
+/(photovoltaik|pv|solar).?anlagen?.{1,20}(extrem günstig|tiefstpreise)/iu
 
 # 18.12.24 Sample: 18.12.2024 / PV-Anlage
 /\d{2}\.\d{2}\d.{4}.{1,10}(photovoltaik|pv|solar).?anlagen?/i
 
 /förderung(en)?.{1,10}(photovoltaik|pv|solar).?anlagen?/iu
 /förderung(en)?.{1,10}\d{2}\.\d{2}\.\d{4}/i
-
-/(photovoltaik|pv|solar).?anlagen?.{1,20}(extrem günstig|tiefpreise)/iu
 
 /preissenkungen.{1,20}(photovoltaik|pv|solar).?anlagen/i
 /tiefpreise.{1,10}förderungen/i

@@ -56,6 +56,8 @@
 # Sample: €78,54 anstatt €119,00
 /€\d{2,3}(,|.)\d{2}.{1,5}anstatt €\d{2,3}(,|.)\d{2}/i
 
+# Sample: Nur 11,78 anstatt 25,90
+/nur.{1,5}\d{2,3}(,|.)\d{2}.{1,5}anstatt €\d{2,3}(,|.)\d{2}/i
 #
 /4k.{0,10}kamera/i
 
