@@ -250,7 +250,7 @@
 /rewe.?(™|®|©)?$/i
 
 # S
-/salt.?team/i
+/salt.{0,5}team/i
 
 /sbb(.?cff.?ffs)?.{0,5}(kundenservice|support)/i
 /sbbch/i
