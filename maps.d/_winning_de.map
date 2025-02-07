@@ -10,6 +10,7 @@
 # Organisations and Programs
 # ------------------------------------------------------------------------------
 /euromillions.?nationale.?(lotterie|lotto)/i
+/euro.?mega.?jackpot/i
 
 /gewinner.{1,15}google mit gesponserten/i
 
@@ -18,7 +19,9 @@
 
 /online.{1,10}el.?gordo/i
 /mega.?jackpot.?aktion/i
-/spanische.?(lotterie|lotto)/i
+
+/spanischen?.{1,10}(lotterie|lotto)/i
+/spanischenn?.{1,10}euro.?mega/i
 
 /visa.?karte.{1,10}lotterie/iu
 

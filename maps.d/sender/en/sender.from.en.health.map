@@ -361,6 +361,7 @@
 /chronic.{0,10}inflammation/i
 
 /(clean|fat|feeding|zombie).{0,10}cell/i
+/clean.{0,10}lungs/i
 /cleansing.{0,10}pads/i
 /clear.{0,10}((toe)?nails|skin)/i
 /clinically.{0,10}proven/i
@@ -430,6 +431,8 @@
 
 /full(er)?.{0,10}hair/i
 /(fungal|fungus).{0,10}(eliminator|free|infection|remover?|vanishing)/i
+
+/fountain of/i
 
 /food.{0,10}(cravings?|choices?|odor|trap)/i
 /foot.{0,10}care/i
@@ -520,6 +523,7 @@
 /natural.{0,10}(alternative|antibiotic|fix|shape|solution|tonic)/i
 /nature.{0,10}opioids?/i
 
+/neck.{0,10}skin/i
 /nerves?.{0,10}(comfort|health|recovery|repair|revival)/i
 /never eat/i
 /new.{0,10}(hair|research)/i
@@ -537,7 +541,7 @@
 # P
 /pancreas.{0,10}reset/i
 
-/pee.{0,10}(control|leaks|out)/i
+/pee.{0,10}(control|leaks|stronger|out)/i
 /peeing/i
 
 /\bpecker$/i
