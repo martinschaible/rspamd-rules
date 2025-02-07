@@ -14,5 +14,9 @@
 
 # Google AMP
 # ------------------------------------------------------------------------------
-# Sample: https://google.de/amp/cutlly.com
-/https:\/\/google\.[a-z]{2,3}/amp\//i                               # 05.01.25
+
+# 05.01.25 - Sample: https://google.de/amp/cutlly.com
+/https:\/\/google\.[a-z]{2,3}/amp\//i
+
+# 07.02.25 - Sample: href="http://optimum.net/api/login/services/v1/signout2?referer=https://storage.googleapis.com/db383169f6c2356/ch976533.html
+/\?referer=https:\/\/storage\.googleapis\.com/i
