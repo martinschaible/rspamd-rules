@@ -33,43 +33,143 @@ The map files in the folder `/etc/rspamd/maps.d` do not need to be copied. **Rsp
 
 All map files of the *first version* are in the folder `/etc/rspamd/maps.d`. The files of the *second edition* are stored in subfolders according to the topic.
 
-### Folder base
+### Setup for "base"
+
+Folder structure:
 
 ```
 |- base
-     |- base.country.map
-     |- base.body.charenc.koi8r.map
-     |- base.body.charenc.windows1251.map
-     |- base.body.markup.hidden.map
-     |- base.body.markup.map
-     |- href
-     |   |- base.body.href.domain.map
-     |   |- base.body.href.domain.ip.map
-     |   |- base.body.href.domain.google.map
-     |   |- base.body.href.nossl.map
-     |   |- base.body.href.path.map
-     |   |- base.body.href.path.filename.map
-     |   |- base.body.href.path.wordpress.map
-     |- img
-         |- base.body.img.domain.ip.map
-         |- base.body.img.domain.tld.map
-         |- base.body.img.domain.name.map
-         |- base.body.img.nossl.map
-         |- base.body.img.path.map
-         |- base.body.img.shortener.map
+|    |- base.country.map                            -|
+|    |- base.body.charenc.koi8r.map                  |
+|    |- base.body.charenc.windows1251.map            |- multimap.base.conf
+|    |- base.body.markup.hidden.map                  |
+|    |- base.body.markup.map                        -|
+|    |- href
+|    |   |- base.body.href.domain.map               -|
+|    |   |- base.body.href.domain.ip.map             |
+|    |   |- base.body.href.domain.google.map         |
+|    |   |- base.body.href.nossl.map                 |- multimap.base.body.href.conf
+|    |   |- base.body.href.path.map                  |
+|    |   |- base.body.href.path.filename.map         |
+|    |   |- base.body.href.path.wordpress.map       -|
+|    |- img
+|        |- base.body.img.domain.ip.map             -|
+|        |- base.body.img.domain.tld.map             |
+|        |- base.body.img.domain.name.map            |- multimap.base.body.img.conf
+|        |- base.body.img.nossl.map                  |
+|        |- base.body.img.path.map                   |
+|        |- base.body.img.shortener.map             -|
+|- lists
+     |- list.tld.map                                -|- multimap.base.body.href.conf
+     |- url.shortener.map                           -|
 ```
 
-### Folder body
-Please be patient. Text will follow soon.
+### Setup for "body"
 
-### Folder lists
-Please be patient. Text will follow soon.
+Folder structure:
+```
+|- body
+     |- de
+     |   |- body.de.greetings.map
+     |   |- body.de.singleword.map
+     |   |- body.de.singleword.ucase.map
+     |   |- body.de.unsubscribe.map
+     |- en
+     |   |- ....
+     |- body.attachment.map
+     |- body.ch.orgname.map
+     |- body.de.orgname.map
+     |- body.misc.orgname.map
+     |- body.us.orgname.map
+     |- body.emergency.map
+     |- body.href.ch.domain.name.map
+     |- body.href.de.domain.name.map
+     |- body.href.misc.domain.name.map
+     |- body.href.us.domain.name.map
+     |- body.href.domain.name.pattern.map
+     |- body.href.url.path.orgbrandprod.map
+```
 
-### Folder sender
-Please be patient. Text will follow soon.
+More content will follow soon.
 
-### Folder subject
-Please be patient. Text will follow soon.
+### Setup for "sender"
 
-### Folder whitelist
-Please be patient. Text will follow soon.
+Folder structure:
+```
+|- sender
+     |- de
+     |   |- sender.from.de.map
+     |   |- sender.from.de.adult.map
+     |   |- sender.from.de.finance.map
+     |   |- sender.from.de.gambling.map
+     |   |- sender.from.de.health.map
+     |   |- sender.from.de.lottery.map
+     |   |- sender.from.de.makemoney.map
+     |   |- sender.from.de.malwaremap
+     |   |- sender.from.de.phishing.map
+     |   |- sender.from.de.sale.map
+     |   |- sender.from.de.singleword.map
+     |   |- sender.from.de.singleword.ucase.map
+     |- en
+     |   |- ....
+     |- sender.address.map
+     |- sender.from.orgbrandprod.map
+     |- sender.from.people.map
+     |- sender.from.phishing.orgbrandprod.map
+     |- sender.from.special.map
+```
+
+More content will follow soon.
+
+### Setup for "subject"
+
+Folder structure:
+```
+|- subject
+     |- de
+     |   |- subject.de.map
+     |   |- subject.de.adult.map
+     |   |- subject.de.finance.map
+     |   |- subject.de.greetings.map
+     |   |- subject.de.health.map
+     |   |- subject.de.phishing.map
+     |   |- subject.de.phishing.account.map
+     |   |- subject.de.phishing.alertaction.map
+     |   |- subject.de.phishing.banking.map
+     |   |- subject.de.phishing.email.map
+     |   |- subject.de.phishing.malware.map
+     |   |- subject.de.phishing.parcel.map
+     |   |- subject.de.phishing.payment.map
+     |   |- subject.de.phishing.rewards.map
+     |   |- subject.de.sale.map
+     |   |- subject.de.sale.app.map
+     |   |- subject.de.sale.seo.map
+     |   |- subject.de.sale.website.map
+     |   |- subject.de.scam.map
+     |   |- subject.de.scam.bignumbers.map
+     |   |- subject.de.scam.donation.map
+     |   |- subject.de.scam.winning.map
+     |   |- subject.de.singleword.map
+     |   |- subject.de.singleword.ucase.map
+     |- en
+     |   |- ....
+     |- subject.brandprod.map
+     |- subject.health.medname.map
+     |- subject.special.map
+```
+
+More content will follow soon.
+
+### Setup for "whitelist"
+
+Folder structure:
+```
+|- whitelist
+     |- de
+     |   |- body.de.whitelist.map
+     |   |- subject.de.whitelist.map
+     |- en
+     |   |- ....
+```
+
+More content will follow soon.
