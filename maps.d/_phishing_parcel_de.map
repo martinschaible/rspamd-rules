@@ -77,7 +77,9 @@
 /lieferdetails.{1,10}mit uns bestätigen/iu
 
 /aktualisieren sie die.{1,10}lieferdetails/i
-/bestätigen sie ihre.{1,10}adresse/i
+
+# "bestätigen Sie Ihre E-Mail-Adresse" is in use in real life
+#/bestätigen sie ihre.{1,10}adresse/i
 /sie ihre (lieferdetails aktualisieren|versandzone)/i
 /sie müssen.{1,10}ihre lieferinformationen bestätigen/iu
 /stunden zeit.{1,10}um ihre.{1,10}versandpräferenzen/iu

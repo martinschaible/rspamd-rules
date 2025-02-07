@@ -42,6 +42,7 @@
 /(belohnung|geschenk|gutschein|preis).{1,15}sie hinterlegt wurde/i
 /(belohnung|geschenk|gutschein|preis).{1,10}sie verfügbar sind/iu
 /(belohnung|geschenk|gutschein|preis).{1,10}unverbindlich anfordern/i
+#/(belohnung|geschenk|preis).{1,10}wartet auf sie/i
 /(belohnung|geschenk|gutschein|preis).{1,10}wartet auf sie/i
 
 /kunden.?belohnung(en)?/i
