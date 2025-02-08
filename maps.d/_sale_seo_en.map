@@ -54,9 +54,10 @@
 
 /provide.{1,10}your (web)?site 1st/i
 
-/reputed seo.company/i
+/reputed seo.?company/i
 
 /much lower cost.{1,10}seo/i
+/my analysis of your.{1,10}(web).?site/i
 
 /our full.?seo.?package/i
 
@@ -74,6 +75,7 @@
 /i was reviewing your.{1,10}(web)?site/i
 /i went through your.{1,10}(web)?site.{1,10}found/i
 
+/improve ranking.{1,10}traffic/i
 /found a number of seo.?issues/i
 
 /we are.{1,10}(leading|offering) seo/i
@@ -86,7 +88,7 @@
 /we specialize in (helping websites|seo)/i
 
 /we will (enhance|improve) your.{1,15}(position|ranking|ranks)/i
-/We will (enhance|improve) your (web)?site/i
+/we will (enhance|improve) your (web)?site/i
 
 /we (are offering|offer).{1,10}range.{1,10}seo.?services/i
 /we (are offering|offer).{1,10}(seo|search engine optimization)/i
