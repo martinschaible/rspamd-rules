@@ -28,7 +28,8 @@
 # F
 
 # G
-/good morning:/i
+/^good (day|morning)$/i
+/good (day|morning):/i
 
 # H
 /hello\.\./i

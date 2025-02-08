@@ -35,7 +35,7 @@
 
 /(guten tag|hallo|sehr geehrter?).{1,20}(begünstigter|e?.?mail|empfänger|kunde)/iu
 
-/grüße an sie/i
+/grüße (an sie|meine liebe)/i
 
 # H
 /hallo -/i
