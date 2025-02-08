@@ -117,6 +117,8 @@
 # ------------------------------------------------------------------------------
 /(health|quick).{0,10}(boost(er)?|fix|guide)/i
 
+/health.?digest/i
+
 /healthy?.{0,10}(alert|alternative|brain|circulation|foods?)/i
 /healthy?.{0,10}(guides?|gut|heart|heaven|hero|insights)/i
 /healthy?.{0,10}(power|secret|transformation)/i
@@ -552,10 +554,13 @@
 /pinched.{0,10}nerves?/i
 /pins.{0,10}needles/i
 
-/pleasure.{0,10}(centers?|hack|unlock)/i
+/pleasure.{0,10}(centers?|hack|points?|unlock)/i
 /pooch.{0,10}belly/i
 /poop.{0,10}type/i
 /poor.{0,10}posture/i
+
+/posture.{0,10}fix/i
+
 /power.{0,10}(boost|shape|start)/i
 /powerful.{0,10}juice/i
 
