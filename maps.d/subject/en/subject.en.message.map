@@ -18,6 +18,8 @@
 /(important|urgent).{1,10}(claim your|letter to you|message for you|you are)/i
 /(important|urgent).{1,10}(please|pls).{1,10}(reply|reply)/i
 
+/^urgent message$/i
+
 /message for you.{1,10}(important|urgent)/i
 
 /urgent response^$/i
@@ -26,10 +28,6 @@
 /read message/i
 /read.{1,10}reply urgent/i
 /congratulations.{1,15}urgent reply needed/i
-
-# Uppercase
-/IMPORTANT/
-/INFORMATION/
 
 # Messages
 # ------------------------------------------------------------------------------
