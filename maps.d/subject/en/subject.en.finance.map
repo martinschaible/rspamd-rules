@@ -54,9 +54,9 @@
 
 # L
 /loan @\d%/i
-/loans?.{1,10}up to/i
+/^loan offer/i
 
-/lose fat.{1,10}fast(er)?/i
+/loans?.{1,10}up to/i
 
 # M
 

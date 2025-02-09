@@ -32,7 +32,7 @@
 /discover.{1,10}(incredible|simple tip)/i
 /fingertip pressure trick/i
 /easy trick for clear/i
-/simple at.?home/i
+
 /this.{1,10}home remedy/i
 /unusual greek/i
 /weird water trick/i
@@ -41,8 +41,11 @@
 # ------------------------------------------------------------------------------
 /(fat|weight).?loss.{1,10}(breakthrough|tip)/i
 
-/(blocking|boost|daily|easy|fast|for){1,15}(fat|weight).?loss/i
+/(big|blocking|boost|daily|easy|fast|for){1,15}(fat|weight).?loss/i
 /(hidden|massive|method for|rapid|simple|try this|your).{1,15}(fat|weight).?loss/i
+
+/shed.{1,10}sizes overnight/i
+/lose fat.{1,10}fast(er)?/i
 
 #
 #
@@ -122,6 +125,7 @@
 /doing this to your/i
 /drink this.{1,15}(before|juice|to)/i
 
+/drop.{1,10}blood sugar/i
 /drop up to.{1,10}(lbs|pounds|weight)/i
 
 # E
@@ -261,6 +265,8 @@
 /silence knee pain/i
 /silences tinnitus/i
 
+/simple at.?home/i
+/simple drink helps/i
 /simple way to reverse/i
 
 /slash.{1,10}blood.?pressure/i

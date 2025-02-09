@@ -255,8 +255,9 @@
 /your.{0,10}fitness/i
 
 /flow.{0,10}diet/i
-/keto.{0,10}(diet|slim)/i
 /forget.{0,10}keto/i
+/keto.{0,10}(diet|slim)/i
+/huge.{0,10}belly/i
 
 /weight.{0,10}gain/i
 /^w.?loss/i
@@ -493,6 +494,7 @@
 /liver.{0,10}weight/i
 
 /lung.{0,10}trust/i
+/longer.{0,10}life/i
 /lower.{0,10}back/i
 
 # M
@@ -596,6 +598,7 @@
 /silent.{0,10}danger/i
 
 /(slim|skinny).{0,10}waist/i
+/slim.{0,10}drink/i
 /slimming/i
 /snore.{0,10}stop/i
 
@@ -629,6 +632,7 @@
 
 /(tingling|numb).{0,10}(feet|hand|nerves)/i
 
+/toned.{0,10}belly/i
 /top.{0,10}(fruits|medication)/i
 /toxic.{0,10}milk/i
 /toxin.{0,10}flush/i
