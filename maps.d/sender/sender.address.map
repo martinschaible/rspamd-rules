@@ -39,19 +39,21 @@
 # Japan (Temporary)
 /(amex|epos|tepco|vpass)(-|_)(mail|net)\./i
 
+/accounts\.nintendo\.com/i
+
 /\<(amex|epos)(-|_)/i
 
 /aeon-email/i
 /card.?vpass/i
+/e-service\./i
 
 /(jcb|tepco)_net/i
 /mailxcg/i
 /mastercard-/i
 /nexco\.co\.jp/i
-/smbc.?(card|email)/i
 /psmbcarfd/i
-/accounts\.nintendo\.com/i
-/e-service\./i
+/smbc.?(card|email)/i
+/uuccard-/i
 
 # VIEW's NET
 /viewsnet-/i
