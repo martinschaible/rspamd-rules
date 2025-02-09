@@ -83,6 +83,9 @@
 /\.\.!$/i
 /\.\.\.!$/i
 
+# Many dots
+/\.\.\.\./?
+
 # A subject does never start with a special character
 /^(,|\.|!|\$)/i
 

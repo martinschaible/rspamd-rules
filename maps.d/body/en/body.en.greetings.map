@@ -47,6 +47,8 @@
 
 /(hello|hi).{1,5}dear.{1,10}(confidential|private|strictly|urgent)/i
 
+/how are you.{1,10}find attached/i
+
 # I
 /(i am|i'm) a.{1,10}(financial|representative|senior)/i
 

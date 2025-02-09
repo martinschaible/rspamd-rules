@@ -6,6 +6,13 @@
 # Topics
 # ==============================================================================
 
+# China
+# ------------------------------------------------------------------------------
+/best prices.{1,10}china/i
+/(plastic|toolmaking).{1,10}china/i
+/parts in china/i
+/suppliers (from|of) china/i
+
 #
 #
 #
@@ -16,7 +23,6 @@
 # A
 
 # B
-/best prices in china/i
 
 # C
 /capacitor.{1,10}(resistor|special) offer/i
@@ -63,7 +69,6 @@
 /our high.?quality.{1,10}pcba?/i
 
 # P
-/parts in china/i
 /passive component broker/i
 
 /pcba?.{1,10}(assembly|enquiry|factory|manufacturing|provider)/i
@@ -77,7 +82,6 @@
 /rfq.{1,15}(injection|moulding|plastic)/i
 
 # S
-/suppliers (from|of) china/i
 /supply steel plates/i
 
 # T
