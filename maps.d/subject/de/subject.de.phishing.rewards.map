@@ -16,11 +16,12 @@
 
 # Products
 # ------------------------------------------------------------------------------
-/(bestätigung|geschenk|gewinnen|kostenloses|unser).{1,20}notfall.?set/i
+/(bestätigung|geschenk|gewinnen|kostenloses|unser).{1,20}notfall.?(kit|set)/i
 
 #
-/(auto|kfz).{1,10}notfallset/i
-/notfallset.{1,10}(auto|kfz|wartet)/i
+/nur noch.{1,10}notfall.?(kit|set)/i
+/(auto|kfz).{1,10}notfall.?(kit|set)/i
+/notfall.?(kit|set).{1,10}(auto|kfz|wartet)/i
 
 /medicare.?set/i
 
@@ -87,7 +88,8 @@
 /exklusiven.{1,20}absolut kostenlos/i
 
 # F
-/fordern sie.{1,10}(ihr|ihren?).{1,20}(im wert von|(jetzt)? an)/i
+/fordern sie.{1,10}(ihr|ihren?).{1,25}(im wert von|(jetzt)? an)/i
+/fordern sie.{1,10}(ihr|ihren?).{1,25}noch heute/i
 
 # G
 /geschenk bereit/i
@@ -110,6 +112,7 @@
 /gewonnen.{1,10}dein.{1,20}wartet/i
 
 /glückliche chance/i
+/glückwunsch.{1,10}fordern sie.{1,10}(ihr|ihren?)/i
 /glückwunsch.{1,10}sie sind einer/i
 
 # H

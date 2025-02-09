@@ -31,10 +31,12 @@
 /^good (day|morning)$/i
 /good (day|morning):/i
 
+/good day (madam|sir)/i
+
 # H
 /hello\.\./i
 /hello dearest/i
-/hello sir.?madam/i
+/hello (madam|sir)/i
 
 # I
 
@@ -46,6 +48,7 @@
 /ladies and gentlemen/i
 
 # M
+/madam!/i
 
 # N
 
@@ -58,6 +61,7 @@
 # R
 
 # S
+/sir!/i
 
 # T
 

@@ -27,6 +27,9 @@
 # ------------------------------------------------------------------------------
 #/nachricht.{1,10}für (dich|sie)/i
 /nachricht.{1,10}ref\b/i
+/neue nachricht von der/i
+
+/dies ist eine neue nachricht/i
 
 # Too strong, False/Positives
 #/eine neue nachricht/i
