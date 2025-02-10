@@ -12,7 +12,7 @@
 
 /(bitcoin|crypto|krypto).{1,20}(bietet|chance)/i
 /(bitcoin|crypto|krypto).{1,20}(enorme|goldrausch|handeln|konto|millionen|portfolio|chancen?|trader)/i
-/(bitcoin|crypto|krypto).{1,20}(versteuern|welle)/i
+/(bitcoin|crypto|krypto).{1,20}(verhilft|versteuern|welle)/i
 /(bitcoin|crypto|krypto).{1,20}wieder lohnt/i
 
 /(bitcoin|crypto|krypto).{1,15}(machen|macht).{1,10}reich/i
@@ -28,7 +28,8 @@
 
 /(250|bitcoin).{1,10}reich werden/i
 
-/(ai|chatgpt|ki).{1,10}(aktien?|gewinne|goldrausch|handeln?|verspricht)/i
+/(ai|chatgpt|ki).{1,10}(aktien?|gewinne|goldrausch|handeln?|verhilft|verspricht)/i
+/(ai|chatgpt|ki).{1,10}(machen|macht).{1,10}reich/i
 
 # ETF (Exchange Traded Funds)
 # ------------------------------------------------------------------------------
@@ -91,7 +92,8 @@
 # L
 
 # M
-/macht menschen reich/i
+/macht (menschen|sie) reich/i
+/macht reich!/i
 
 # N
 
@@ -120,6 +122,9 @@
 /verdienen die.{1,15}ihr geld/i
 /verdienen mit chatgpt/i
 /verdienen sie zu wenig/i
+
+/(verhilft|verschenkt).{1,10}reichtum/i
+
 /viel geld verdienen kann/i
 
 # W
