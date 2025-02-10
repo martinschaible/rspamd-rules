@@ -34,6 +34,8 @@
 /dash.?cam(era)?/i
 
 # E
+/exclusive freight rates/i
+
 /electronic components supply/i
 /^electronic components$/i
 
@@ -69,9 +71,11 @@
 /our high.?quality.{1,10}pcba?/i
 
 # P
-/passive component broker/i
+/passive.{1,10}component broker/i
+/passive.{1,10}parts.{1,10}xilinx/i
 
 /pcba?.{1,10}(assembly|enquiry|factory|manufacturing|provider)/i
+/pcba?.{1,10}supplier for/i
 
 /prototype manufacturer?/i
 
