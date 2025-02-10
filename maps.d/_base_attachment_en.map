@@ -27,8 +27,6 @@
 
 /[a-z0-9]{3,15}pdf\.(7z|html)/i
 
-/(__|\.)pdf\.(7z|doc|gz|htm|r11|rar|tgz|xls|zip)/i
-
 # Sample: 1000733.PDF.gz
 /\d{2,15}\.pdf\.gz/i
 
@@ -101,12 +99,6 @@
 /p\.?o.?\d{4}-\d{4}\.(7z|doc|gz|htm|r11|rar|tgz|xla|xls|zip)/i
 
 /p.?o.{4,10}picture\.(7z|doc|gz|htm|r11|rar|tgz|xla|xls|zip)/i
-
-# Sample: po-513211.gz
-#         PO 867665#.doc
-#         po00987.zip
-#         PO #22624.zip 
-/po.{0,3}\d{1,10}.?.(7z|doc|gz|htm|r11|rar|tgz|xla|xls|zip)/i
 
 # Sample: PDA AUG.2023.rar
 /pda.?[a-z]{2,15}.?\d{1,6}.(7z|doc|gz|htm|r11|rar|tgz|xla|xls|zip)/i
