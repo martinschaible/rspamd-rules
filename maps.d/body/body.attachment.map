@@ -21,6 +21,7 @@
 
 /(inquiry|invoice|order).{0,25}\.(7z|gz|r11|r16|rar|tar|xls|zip)/i
 /(advice|payment|proforma|quotation|receipt|request).{0,25}\.(7z|gz|r11|r16|rar|tar|xls|zip)/i
+/(business year|price.?list).{0,25}\.(7z|gz|r11|r16|rar|tar|xls|zip)/i
 
 /rechnung.{0,45}\.(7z|gz|rar|zip)/i
 
@@ -49,8 +50,11 @@
 # 18.01.25 - Sample: Rg. Fa. Schophuis.zip
 /rg\..{0,5}fa\..{0,15}\.(gz|zip)/i
 
-# 20.01.25 - Sampple: PO# 4502288112.gz
+# 20.01.25 - Sample: PO# 4502288112.gz
 /po(-|#).{0,25}\.(7z|gz|r16|rar|zip)/i
+
+# 10.02.25 - Sample:  PO200000035.gz
+/po\d{1,20}\.(gz|zip)/i
 
 # 22.01.25 - Sample: RFQ- 2708970-001.gz
 /(inq|rfq)-?.{0,15}\.(gz|zip)/i
@@ -93,6 +97,7 @@
 
 /\.(r11|r16|r19)$/i
 /\.tbz2$/i
+/\.001$/i
 
 # Double Extension
 # ------------------------------------------------------------------------------
@@ -103,7 +108,7 @@
 /\.(pdf|r09)\.rar/i
 /\.xlsx\.t?gz/i
 
-/(,|_)(doc|pdf)\.(htm|svg|tar|zip)/i
+/(,|_)(doc|pdf)\.(gz|htm|svg|tar|zip)/i
 
 /\.pdf\.(lz|zip)/i
 
