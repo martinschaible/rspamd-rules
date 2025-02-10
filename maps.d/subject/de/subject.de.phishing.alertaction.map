@@ -7,9 +7,11 @@
 # ==============================================================================
 
 # A
-/aktualisieren sie.{1,10}ihre?.{1,15}(konto(informationen)?|profil)/i
+/aktualisieren sie.{1,10}ihre?.{1,15}(informationen|kontoangaben|profil|zahlungsdaten)/i
+
 /aktualisieren sie.{1,10}sicherheit/i
 /aktualisierung.{1,10}ihrer.{1,10}kontoinformationen/i
+
 
 #/aktualisierung.{1,10}erforderlich.{1,20}konto.{1,10}(gesperrt|stillgelegt)/i
 /aktualisierung erforderlich/i
