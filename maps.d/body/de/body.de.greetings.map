@@ -21,9 +21,13 @@
 # F
 
 # G
+/glückwunsch.{1,15}mein name ist/i
+
 /guten (abend|morgen|tag).{1,10}bitcoin/i
 /guten (abend|morgen|tag).{1,10}entschuldigen sie.{1,10}ich sie/i
 /guten (abend|morgen|tag).{1,10}ich bin (frau|herr)/i
+
+/grüße.{1,10}betreff/iu
 
 # H
 /hallo.{1,10}ich bin.{5,35}eine?.{1,15}(geschäfts)?(frau|mann)/iu
@@ -50,11 +54,14 @@
 /liebster.{1,10}(freund|geliebter)/i
 
 # M
+/mein name ist.{1,10}(frau|fräulein|herr)/iu
+
 /mein name ist.{5,35}ich lebe.{1,10}in/i
-/mein name ist.{5,35}ich bin.{1,15}(anwalt|banker|manager)/i
 /mein name ist.{5,25}ich bin teil des/i
 
-/mein name ist.{1,10}(frau|fräulein|herr)/iu
+/mein name ist.{5,35}ich bin.{1,15}(anwalt|banker|manager)/i
+/mein name ist.{5,30}ein.{1,10}(amerikanischer|angestellter)/i
+/mein name ist.{5,35}ein.{1,15}wirtschaftsmagnat/i
 
 # N
 

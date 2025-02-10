@@ -85,6 +85,7 @@
 /e.?mail.?adresse.{1,10}anspruch/i
 
 /(gespendet|spende).{1,10}kontaktieren sie uns für.{1,15}einzelheiten/i
+/spende interessiert.{1,10}kontaktieren sie mich/i
 
 /ihres spendenanspruchs wenden sie sich/i
 
@@ -181,7 +182,9 @@
 /ihnen eine.{1,10}spende von.{1,15}(millionen|tausend|dollar|euro?|gbp|usd)/i
 /ihnen eine.{1,10}spende überlassen/iu
 
+/ihnen.{1,15}(millionen|tausend|dollar|euro?|gbp|usd).{1,15}spenden/i
 /ihnen.{1,25}zur investition zu spenden/i
+
 /ihnen die familie.{5,25}gespendet/i
 /ihnen einen finanziellen zuschuss in höhe von/iu
 /ihnen im namen einer wohltätigkeits.?organisation/i
@@ -290,6 +293,7 @@
 
 /eine million euro hat ihnen/i
 
+/wurde ihnen von der.{10,30}gespendet/i
 /wurden sie für eine.{1,15}spende/iu
 
 /gespendet.{1,10}den anspruch senden sie/i

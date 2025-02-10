@@ -16,15 +16,16 @@
 # C
 
 # D
-/(dear|hello|hi\b).{1,10}(agency|domain.?name|e?.?mail|site|web)/i
-/(dear|hello|hi\b).{1,10}(manager|owner)/i
-/(dear|hello|hi\b).{1,10}managing director/i
+/(dear|hello|hi\b).{1,15}(agency|domain.?name|e?.?mail|site|web)/i
+/(dear|hello|hi\b).{1,15}(manager|owner)/i
+/(dear|hello|hi\b).{1,15}managing director/i
 /(dear|hello|hi\b).{1,20}nice to meet you/i
-/(dear|hello|hi\b).{1,5}(friend|madam|sir).{1,5}good day/i
+/(dear|hello|hi\b).{1,5}(friend|madam|sir).{1,10}good day/i
+/(dear|hello|hi\b).{1,5}(friend|madam|sir).{1,15}this e?.?mail is strictly/i
 
 /(attn|attention|dear|hello|honorable).{1,10}beneficiary/i
 
-/dear.{1,10}customer.{1,10}this is.{5,25}from/i
+/dear.{1,10}(customer|sir).{1,10}this is.{5,25}from/i
 
 # E
 
@@ -47,7 +48,8 @@
 /hello to the.{1,25}owner/i
 /hello.{1,25}owner/i
 
-/(hello|hi).{1,5}dear.{1,10}(confidential|private|strictly|urgent)/i
+/(hello|hi).{1,5}(dear|friend).{1,10}(confidential|private|strictly|urgent)/i
+/(hello|hi).{1,5}(dear|friend).{1,10}we would like to introduce/i
 
 /how are you.{1,10}find attached/i
 

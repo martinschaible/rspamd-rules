@@ -72,6 +72,7 @@
 /adobe acrobat (document|e.?signature)/i
 
 /aldi-/i
+/aldi.{0,15}deals?/i
 
 /apple.?pay/i
 /apple.?(™|®|©)$/i
@@ -179,6 +180,7 @@
 
 # K
 /kaufland.?(™|®|©)$/i
+/kaufland.{0,10}geschenk/i
 
 # L
 /lidl.?(™|®|©)$/i
@@ -207,6 +209,8 @@
 /my ts cubic/i
 
 # N
+/n26.{0,10}benachrichtigung(en)?/i
+
 /netflix.{0,10}konto/i
 /netƒlix/i
 /nflix/i
@@ -296,6 +300,8 @@
 
 /team_/i
 /team.{0,10}(account|netflix|spotify)/i
+
+/temu.{0,10}gewinnen/i
 
 # 27.12.24 Japanese Bank
 /tepco/i

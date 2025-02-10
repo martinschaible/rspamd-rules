@@ -157,7 +157,7 @@
 # Joints
 # ------------------------------------------------------------------------------
 /joints?.{0,10}(cure|(dis)?comfort|fix|genesis|healed|hero|inflammation)/i
-/joints?.{0,10}(problems?|recovery|saver|story)/i
+/joints?.{0,10}(problems?|recovery|repair|saver|story)/i
 
 /(aching|better|grinding|painful|sore|swollen).{0,10}joints?/i
 

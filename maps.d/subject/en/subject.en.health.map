@@ -192,7 +192,7 @@
 # J
 /jumpstart your.{1,15}health/i
 
-/joint.?pain relief/i
+/joint.?pain.{1,10}(cut|relief)/i
 
 # K
 
