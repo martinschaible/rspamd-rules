@@ -51,10 +51,9 @@
 /rg\..{0,5}fa\..{0,15}\.(gz|zip)/i
 
 # 20.01.25 - Sample: PO# 4502288112.gz
-/po(-|#).{0,25}\.(7z|gz|r16|rar|zip)/i
-
-# 10.02.25 - Sample:  PO200000035.gz
-/po\d{1,20}\.(gz|zip)/i
+#                    PO200000035.gz
+/po(-|_|#)?.{1,25}\.(7z|gz|r16|rar|zip)/i
+/po(-|_|#)?\d{1,25}\.(7z|gz|r16|rar|zip)/i
 
 # 22.01.25 - Sample: RFQ- 2708970-001.gz
 /(inq|rfq)-?.{0,15}\.(gz|zip)/i

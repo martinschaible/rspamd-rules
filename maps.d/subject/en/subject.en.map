@@ -44,6 +44,7 @@
 /record growth highlights/i
 /record revenue growth/i
 /revolutionizing investor experience/i
+/sales soar with/i
 /shareholder letter details/i
 /smart investors?.{1,10}pick/i
 /stock to watch/i
@@ -51,6 +52,12 @@
 /unlocks high.?growth/i
 
 /(ignite|illuminate|launch|maximize|propel|rocket).{1,10}your (earnings|portfolio|returns|wealth)/i
+
+# Probably Malware
+# ------------------------------------------------------------------------------
+
+# 11.02.25 - Sample: Document JAP 10 February 2025
+/document.{1,10}\d{1,2} february 2025/i
 
 #
 #
