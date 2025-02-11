@@ -130,7 +130,9 @@
 # O
 
 # P
-/partner{1,10}zeitarbeit/i
+/partner.{1,10}zeitarbeit/i
+
+/personalisierten?.{1,10}werbemittel/i
 
 /\/ (pv|solar).?anlage/i
 /(pv|solar).?anlagen? um.{1,10}günstiger/i

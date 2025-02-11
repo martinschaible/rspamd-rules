@@ -22,10 +22,13 @@
 /(dear|hello|hi\b).{1,20}nice to meet you/i
 /(dear|hello|hi\b).{1,5}(friend|madam|sir).{1,10}good day/i
 /(dear|hello|hi\b).{1,5}(friend|madam|sir).{1,15}this e?.?mail is strictly/i
+/(dear|hello|hi\b).{1,5}(friend|madam|sir).{1,15}we are glad to introduce/i
 
 /(attn|attention|dear|hello|honorable).{1,10}beneficiary/i
 
 /dear.{1,10}(customer|sir).{1,10}this is.{5,25}from/i
+/dear.{1,10}good day/i
+/dear.{1,25}this is.{5,25}from/i
 
 # E
 
@@ -72,8 +75,11 @@
 /manager.{1,10}good day/i
 
 /my name is mrs/i
+
+/my name is.{5,35}from.{5,35}(in)? (china|india|ukraine)/i
 /my name is.{5,35}i am a merchant/i
 /my name is.{5,25}i have.{1,10}urgent/i
+/my name is.{5,25}managing director/i
 /my name is.{5,25}represent(ing)?/i
 
 /my name is.{5,35}solicitor/i
@@ -95,6 +101,9 @@
 
 # T
 /this is.{5,25}from.{5,25}nice to meet you/i
+/this is.{5,25}from shenzhen/i
+
+/to whom it may concern.{1,10}nice.{1,10}(write|writing).{1,10}you/i
 
 # U
 /urgent response.{1,10}my name is/i
