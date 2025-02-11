@@ -59,7 +59,7 @@
 /\d way to eliminate/i
 /\d stretch/i
 
-/\d{1,3} lbs gone/i
+/\d{1,3}.?lbs gone/i
 
 # A
 /add this to your/i
@@ -107,6 +107,8 @@
 /clear.{1,10}nails/i
 /clears? blurry eyesight/i
 /constipation.{1,10}read this/i
+
+/culprid.{1,10}strokes?/i
 
 # D
 /destroys.{1,10}back pain/i
@@ -261,8 +263,8 @@
 /second.{1,10}(home remedy|stretch)/i
 /secret for hair/i
 
+/shrink.{1,10}belly/i
 /sign of a stroke/i
-/skin.{1,10}transformation/i
 
 /silence knee pain/i
 /silences tinnitus/i
@@ -270,6 +272,8 @@
 /simple at.?home/i
 /simple drink helps/i
 /simple way to reverse/i
+
+/skin.{1,10}transformation/i
 
 /slash.{1,10}blood.?pressure/i
 /sleeping position/i

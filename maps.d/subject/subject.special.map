@@ -79,6 +79,9 @@
 /\.\.\?/i
 /\.\.\.\?/i
 
+#  Two periods and a at sign
+/\.\.@/i
+
 # Two and three periods and a exclamation mark at the end of the line
 /\.\.!$/i
 /\.\.\.!$/i

@@ -55,3 +55,6 @@
 # Website on different port
 # 28.12.24 - Sample: http://8.135.236.24:2333/wp/
 /:\d{4}\/wp\//i
+
+# Sample: https://i0.wp.com/st3ike.com/wp-content
+/\.wp\.com\/[a-z0-9_-]{1,15}\.com\/wp-content/i

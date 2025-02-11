@@ -315,6 +315,7 @@
 /(ich|wir) spenden?.{1,10}an.{1,10}zufällig ausgewählte personen/iu
 /(ich|wir) spenden?.{1,10}ihnen.{1,10}die summe von/i
 /(ich|wir) spenden?.{1,10}ihnen.{1,10}\d{3}.{0,5}\d{3}/i
+/(ich|wir) spenden?.{1,10}(meines|unseres).{1,10}vermögens/iu
 /(ich|wir) spenden?.{1,10}prozent meines.{1,10}vermögens/iu
 
 /ich mein vermögen spenden/iu
