@@ -46,7 +46,7 @@
 
 # C
 /car emergency kit/i
-
+/claim.{0,10}free/i
 /^customer.{0,10}(feedback|support)/i
 
 # D
@@ -56,6 +56,8 @@
 
 # F
 /fraud.{0,5}prevention/i
+
+/free.{0,10}samples?/i
 
 # G
 /gift(.?card)?.{0,10}(chance|opportunity)/i
@@ -101,6 +103,7 @@
 /shopper.{0,10}gift(.?card)?/i
 
 /supportch/i
+/support.{0,10}delivery/i
 
 /systems.?administrator/i
 

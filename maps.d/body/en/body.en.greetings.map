@@ -50,11 +50,13 @@
 # H
 /hello to the.{1,25}owner/i
 /hello.{1,25}owner/i
+/(hello|my name is).{5,35}from.{5,35}(in)? (china|india|ukraine)/i
 
 /(hello|hi).{1,5}(dear|friend).{1,10}(confidential|private|strictly|urgent)/i
 /(hello|hi).{1,5}(dear|friend).{1,10}we would like to introduce/i
 
 /how are you.{1,10}find attached/i
+/how are you.{1,15}my name is/i
 
 # I
 /(i am|i'm) a.{1,10}(financial|representative|senior)/i
@@ -74,9 +76,8 @@
 # M
 /manager.{1,10}good day/i
 
-/my name is mrs/i
+/my names (are|is) mrs?/i
 
-/my name is.{5,35}from.{5,35}(in)? (china|india|ukraine)/i
 /my name is.{5,35}i am a merchant/i
 /my name is.{5,25}i have.{1,10}urgent/i
 /my name is.{5,25}managing director/i
@@ -103,6 +104,7 @@
 /this is.{5,25}from.{5,25}nice to meet you/i
 /this is.{5,25}from shenzhen/i
 
+/to whom it may concern.{1,10}my name is/i
 /to whom it may concern.{1,10}nice.{1,10}(write|writing).{1,10}you/i
 
 # U
