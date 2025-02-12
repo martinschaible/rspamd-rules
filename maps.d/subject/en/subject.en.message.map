@@ -22,7 +22,7 @@
 
 /message for you.{1,10}(important|urgent)/i
 
-/urgent response^$/i
+/^urgent response$/i
 /urgent response is.{1,15}needed/i
 
 /read message/i
