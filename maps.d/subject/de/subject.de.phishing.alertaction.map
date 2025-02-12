@@ -7,19 +7,22 @@
 # ==============================================================================
 
 # A
-/aktualisieren sie.{1,10}ihre?.{1,15}(informationen|kontoangaben|profil|zahlungsdaten)/i
-
-/aktualisieren sie.{1,10}sicherheit/i
-/aktualisierung.{1,10}ihrer.{1,10}kontoinformationen/i
-
-
-#/aktualisierung.{1,10}erforderlich.{1,20}konto.{1,10}(gesperrt|stillgelegt)/i
-/aktualisierung erforderlich/i
-/aktualisierung.{1,10}überprüfen sie/i
+/aktion erforderlich!/i
+/aktion erforderlich.{1,10}(schliessen|schließen) sie/i
+/aktion erforderlich.{1,10}rückerstattung/i
 
 /aktivitäten erkannt.{1,10}maßnahmen erforderlich/i
 
-/aktion erforderlich.{1,10}rückerstattung/i
+/aktualisieren sie.{1,10}sicherheit/i
+/aktualisieren sie.{1,10}ihre?.{1,15}(informationen|kontoangaben|profil|zahlungsdaten)/i
+
+/aktualisierung erforderlich/i
+#/aktualisierung.{1,10}erforderlich.{1,20}konto.{1,10}(gesperrt|stillgelegt)/i
+/aktualisierung.{1,10}ihrer.{1,10}(kontakt|zahlungs).?informationen/i
+/aktualisierung.{1,10}überprüfen sie/i
+
+/aktualisierung ihrer telefonnummer/i
+/(aktualisieren|erneuern|prüfen).{1,10}ihre.{1,15}(adress|kontakt|zahlungs).?informationen/i
 
 /aufforderung zur datenprüfung/i
 
@@ -54,8 +57,11 @@
 # K
 /konto gesperrt.{1,10}jetzt reaktivieren/i
 
+/kritische warnung.{1,10}ihre domainverlängerung/iu
+
 # L
-/letzte warnung.{1,10}verdächtige/iu
+/letzte erinnerung \[/i
+/letzte warnung.{1,10}(verdächtige|vorladung)/iu
 
 # M
 
