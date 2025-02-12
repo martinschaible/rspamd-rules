@@ -6,13 +6,6 @@
 # Topics
 # ==============================================================================
 
-# Companies, organisations
-# ------------------------------------------------------------------------------
-/ihr.{1,15}konto wird gesperrt/i
-
-# 20.12.24 - Real name: "swisspass"
-/swiss pass/i
-
 # 2FA
 # ------------------------------------------------------------------------------
 
@@ -60,6 +53,7 @@
 
 /ihr.{1,15}konto (bleibt|wird).{1,15}(gesperrt|begrenzt|verifiziert)/i
 /ihr.{1,15}konto ist in gefahr/i
+/ihr.{1,15}konto wird gesperrt/i
 /ihr.{1,15}konto wurde aufgrund ungewöhnlicher/i
 /ihr.{1,15}konto.{1,10}vorübergehende?/i
 
