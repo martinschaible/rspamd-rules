@@ -14,6 +14,7 @@
 /(e?.?mails?|messages?).{1,10}from your contacts are.{1,15}on hold/i
 /(e?.?mails?|messages?).{1,10}has been blocked by.{1,10}administrator/i
 /(e?.?mails?|messages?).{1,10}sent to you.{1,10}but.{1,10}not.{1,20}delivered/i
+/(e?.?mails?|messages?).{1,10}you are yet to receive/i
 
 /(delivery|release).{1,10}(incoming|pending|suspended).{1,10}(e?.?mails?|messages?).{1,15}(here|inbox|to you)/i
 
@@ -24,9 +25,7 @@
 /(important|incoming|pending).{1,10}(e?.?mails|messages).{1,10}(awaiting|failed)/i
 /(important|incoming|pending).{1,10}(e?.?mails|messages).{1,10}on the server due to lack of/i
 
-/you have.{1,10}(bounced|delayed|pending|undelivered|unreceived).{1,15}(e?.?mails?|messages?)/i
-/you have.{1,10}(important|incoming|new|suspended|undelivered).{1,10}(incoming|pending).{1,15}(e?.?mails?|inbox|messages?)/i
-/you have.{1,10}(undelivered|unreceived).{1,15}(incoming|new|pending).{1,10}(e?.?mails?|messages?)/i
+/you have.{1,40}(bounced|delayed|important|incoming|new|pending|suspended|undelivered|unreceived).{1,25}(e?.?mails?|inbox|messages?)/i
 
 /your (incoming|sent).{1,10}(e?.?mails|messages).{1,10}failed to deliver/i
 /your (incoming|sent).{1,10}(e?.?mails|messages).{1,10}have been placed on hold/i
@@ -159,6 +158,7 @@
 /this sender has been verified from/i
 /message.{1,10}in spam.?quarantine.?inbox/i
 
+/permanent error when sending.{1,10}(e?.?mails|messages) to you/i
 /view your important contact messages/i
 
 #
