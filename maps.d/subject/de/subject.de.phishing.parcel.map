@@ -33,6 +33,8 @@
 # B
 /bei ihnen ankommt/i
 
+/Benachrichtigung.{1,15}(die|letzte).{1,15}Paketzustellung/i
+
 /bestätigen sie.{1,15}barcode/i
 /bestätigen sie.{1,10}lieferdetails/i
 /bestätigen sie.{1,10}(lieferung|zustellung)/i
@@ -62,6 +64,8 @@
 
 # I
 /ihr paket ist da/i
+/ihr paket wird zugestellt/i
+
 /ihre?.{1,10}(lieferung|paket).{1,10}wartet/i
 /ihre(r|s).{5,15}fehlgeschlagen/i
 

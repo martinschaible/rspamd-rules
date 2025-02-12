@@ -148,6 +148,7 @@
 /fedex$/i
 /fedpol/i
 /fedex.?(express|ups)/i
+/fedex.{0,5}umfrage/i
 
 # G
 /galaxus.?(™|®|©)$/i
@@ -293,6 +294,7 @@
 
 /swiss post/i
 /^swisspost$/i
+/swisspost.{0,5}service/i
 
 /(shein|smava|spotify).?(™|®|©)$/i
 

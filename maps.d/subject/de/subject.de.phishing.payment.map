@@ -17,7 +17,7 @@
 /abonnement ist abgelaufen.{1,10}erneuern sie es jetzt/i
 /abonnement wird ausgesetzt/i
 
-/aktualisieren? (deine|sie ihre) zahlungs.?(details|methode)/i
+/(aktualisieren?|aktualisierung).{1,10}(deine|sie ihrer?).{1,10}zahlungs.?(details|methode)/i
 
 # B
 

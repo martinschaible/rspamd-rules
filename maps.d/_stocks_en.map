@@ -17,6 +17,8 @@
 /(corp|corporation|inc).{1,5}otc/i
 /(corp|corporation|inc).{1,5}nasdaq.{1,35}(find out more|symbols?)/i
 
+/group.{1,5}nasdaq.{1,35}(largest|world)/i
+
 /(holdings ltd|pharmaceuticals).{1,5}nasdaq/i
 
 /group.{1,5}(corp|corporation|inc).{1,10}stock symbol/i

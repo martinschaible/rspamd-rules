@@ -28,15 +28,20 @@
 # F
 
 # G
+/good day(\.|,)/i
+
 /^good (day|morning)$/i
 /good (day|morning):/i
-
 /good day (madam|sir)/i
+
+/greetings?.{1,10}(in the name of god|to you)/i
 
 # H
 /hello\.\./i
 /hello dearest/i
 /hello (madam|sir)/i
+/dear sir.{1,5}madam/i
+/dearest friend/i
 
 # I
 

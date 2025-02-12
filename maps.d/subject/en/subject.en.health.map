@@ -98,7 +98,7 @@
 /blood.?sugar.{1,10}(drops|naturally)/i
 
 /boost.{1,10}eart health/i
-/boost.{1,10}your.{1,15}(health|vitality)/i
+/boost.{1,10}your.{1,15}(health|metabolism|vitality)/i
 
 /by doing this daily/i
 
@@ -133,6 +133,8 @@
 /drop.{1,10}blood sugar/i
 /drop up to.{1,10}(lbs|pounds|weight)/i
 
+/diy.{1,10}minute stretch/i
+
 # E
 /ease nerve pain/i
 
@@ -146,6 +148,7 @@
 /end.{1,10}(back|knee|nerve) pain/i
 /end.{1,10}ear (buzzing|ringing)/i
 /end.{1,10}memory loss/i
+/end.{1,10}urine leaks/i
 
 /energized.{1,10}pain.?free/i
 /enhance your.{1,20}(energy|hearing|vitality)/i
@@ -192,6 +195,7 @@
 /improve memory (instantly|in.{1,15}seconds)/i
 /improve your.{1,15}vision/i
 
+/instantly look younger/i
 /in \d hours?.{1,10}try this/i
 /in just \d{1,2} seconds/i
 
@@ -224,6 +228,8 @@
 # N
 /nails in just/i
 /naturally with this/i
+
+/no surgery needed/i
 
 # O
 /pill to end/i
@@ -322,6 +328,8 @@
 
 # W
 /weird stretch/i
+
+/with.{1,10}simple drink/i
 
 # X
 
