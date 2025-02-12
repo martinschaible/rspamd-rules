@@ -154,8 +154,8 @@ Folder structure:
      |   |- subject.de.singleword.ucase.map
      |- en
      |   |- ....
-     |- subject.brandprod.map
      |- subject.health.medname.map
+     |- subject.orgbrandprod.map
      |- subject.special.map
 ```
 
