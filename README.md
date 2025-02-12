@@ -69,25 +69,26 @@ Folder structure:
 Folder structure:
 ```
 |- body
-     |- de
-     |   |- body.de.greetings.map
-     |   |- body.de.singleword.map
-     |   |- body.de.singleword.ucase.map
-     |   |- body.de.unsubscribe.map
-     |- en
-     |   |- ....
-     |- body.attachment.map
-     |- body.ch.orgname.map
-     |- body.de.orgname.map
-     |- body.misc.orgname.map
-     |- body.us.orgname.map
-     |- body.emergency.map
-     |- body.href.ch.domain.name.map
-     |- body.href.de.domain.name.map
-     |- body.href.misc.domain.name.map
-     |- body.href.us.domain.name.map
-     |- body.href.domain.name.pattern.map
-     |- body.href.url.path.orgbrandprod.map
+     |- body.attachment.map                         -|
+     |- body.emergency.map                           |
+     |- body.az.orgname.map                          |
+     |- body.ch.orgname.map                          |
+     |- body.de.orgname.map                          |
+     |- body.us.orgname.map                          |
+     |- de                                           |- multimap.body.conf
+     |   |- body.de.greetings.map                    |
+     |   |- body.de.singleword.map                   |
+     |   |- body.de.singleword.ucase.map             |
+     |   |- body.de.unsubscribe.map                  |
+     |- en                                           |
+     |   |- ....                                    -|
+     |- href
+     |    |- body.href.az.domain.name.map           -|
+     |    |- body.href.ch.domain.name.map            |
+     |    |- body.href.de.domain.name.map            |- multimap.body.href.conf
+     |    |- body.href.us.domain.name.map            |
+     |    |- body.href.domain.name.pattern.map       |
+     |    |- body.href.url.path.orgbrandprod        -|
 ```
 
 More content will follow soon.
