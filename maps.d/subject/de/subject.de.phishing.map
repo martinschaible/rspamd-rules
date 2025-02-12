@@ -6,10 +6,6 @@
 # Topics
 # ==============================================================================
 
-# Double payed invoices
-# ------------------------------------------------------------------------------
-/fehler in ihrer letzten rechnung/i
-
 # Companies
 # ------------------------------------------------------------------------------
 /swiss post/i
@@ -26,13 +22,6 @@
 
 # A
 /abonnement ist abgelaufen.{1,10}reaktivieren sie/i
-/(aktualisieren|erneuern|prüfen).{1,10}ihre.{1,15}(adress|kontakt|zahlungs).?informationen/i
-/aktualisierung.{1,10}ihrer.{1,10}(kontakt|zahlungs).?informationen/i
-
-/aktualisierung ihrer telefonnummer/i
-
-/aktion erforderlich!/i
-/aktion erforderlich.{1,10}(schliessen|schließen) sie/i
 
 /anspruch.{1,15}steuer(rück)?erstattung/i
 /antworten sie innerhalb von/i
@@ -66,6 +55,7 @@
 /endgültige löschung ihrer seite/iu
 
 # F
+/fehler in ihrer letzten rechnung/i
 /frist zur datenaktualisierung/i
 
 # G
@@ -87,12 +77,8 @@
 # J
 
 # K
-/kritische warnung.{1,10}ihre domainverlängerung/iu
 
 # L
-/letzte erinnerung \[/i
-/letzte mahnung.{1,10}vorladung/i
-
 /lieferung jetzt bestätigen/i
 
 # M
@@ -112,7 +98,6 @@
 /rückerstattung.{1,10}ist (online|verfügbar)/iu
 /rückerstattung.{1,10}(jetzt|möglich)/iu
 /rückerstattung.{1,10}zur verfügung/iu
-
 
 # S
 /sie haben anspruch.{1,15}rückerstattung/iu
