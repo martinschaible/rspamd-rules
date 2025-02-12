@@ -11,9 +11,12 @@
 /(urban|power).?cruiser/i
 
 /cruiser.{1,10}e.?bike/iu
-/e.?bike.{1,15}(coorperation|delivers?|factory|germany|performance|shipped|supplier)/i
+/e.?bike.{1,15}(adventrue|built|coorperation|delivers?|distribution)/i
+/e.?bike.{1,15}(factory|germany|performance|shipped|supplier)/i
 
-/(about|battery|expand|germany|interested|next|premium|shipping|our latest).{1,15}e.?bike/i
+/e.?bike.?pro/i
+
+/(about|battery|deals|expand|germany|interested|next|premium|seamless|shipping|our latest).{1,15}e.?bike/i
 /(in|with) our.{1,10}e.?bike/i
 
 /city.?voyager/i
@@ -44,8 +47,6 @@
 /database.{1,10}switzerland.{1,15}companies/i
 
 # E
-/e.?bike.?pro/i
-
 /enhance.{1,10}brand recognition/i
 /eu fast shipment/i
 

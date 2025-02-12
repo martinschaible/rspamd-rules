@@ -15,7 +15,8 @@
 
 # False/Positive 1x
 #/(dringend|wichtig)e?.{1,15}(information(en)?|info\b)/i
-/(dringend|wichtig)e?.{1,15}(erinnerung|mitteilung|nachricht\b)/i
+/dringende?.{1,15}(erinnerung|mitteilung|nachricht\b)/i
+/wichtige?.{1,15}(erinnerung|nachricht\b)/i
 
 /dringend.{1,10}dringend/i
 /dringend.{1,15}(lesen|sorgfältig)/iu
