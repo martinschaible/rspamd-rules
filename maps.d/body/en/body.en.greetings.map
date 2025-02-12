@@ -16,10 +16,11 @@
 # C
 
 # D
-/(dear|hello|hi\b).{1,15}(agency|domain.?name|e?.?mail|site|web)/i
-/(dear|hello|hi\b).{1,15}(manager|owner)/i
+/(dear|hello|hi\b).{1,15}(agency|engineer|manager|owner)/i
+/(dear|hello|hi\b).{1,15}(e?.?mail|domain.?name|site|web)/i
 /(dear|hello|hi\b).{1,15}managing director/i
 /(dear|hello|hi\b).{1,20}nice to meet you/i
+
 /(dear|hello|hi\b).{1,5}(friend|madam|sir).{1,10}good day/i
 /(dear|hello|hi\b).{1,5}(friend|madam|sir).{1,15}this e?.?mail is strictly/i
 /(dear|hello|hi\b).{1,5}(friend|madam|sir).{1,15}we are glad to introduce/i
@@ -33,6 +34,9 @@
 # E
 
 # F
+
+# Used for selling trump merch
+/fellow patriot/i
 
 # G
 /good day.{1,10}trust this message/i
