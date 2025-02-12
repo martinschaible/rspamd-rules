@@ -9,11 +9,24 @@
 #                      - Masked entries are allowed
 #
 # ------------------------------------------------------------------------------
-# Language: german, english
+# Language: -
 # Weight:   6.0
 # ==============================================================================
 
+# Topics
+# ==============================================================================
+
+#
+#
+#
+
+# Generic
+# ==============================================================================
+
 # A
+/a-m-t-s/i
+
+/app twint/i
 
 # B
 
@@ -30,7 +43,9 @@
 # H
 
 # I
-/internet crime complaint center/i
+/\[.?ing/i
+
+/ing.{1,10}vorübergehende sperrung/i
 
 # J
 
@@ -52,6 +67,13 @@
 # R
 
 # S
+/sbb ccf ffs/i
+
+/swiss post/i
+/^swisspass$/i
+
+# 20.12.24 - Real name: "swisspass"
+/swiss pass/i
 
 # T
 /^twint$/i
