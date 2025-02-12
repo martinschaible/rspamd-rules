@@ -1,0 +1,35 @@
+# ==============================================================================
+# Here we check for patterns in the domain name that indicate spam
+#
+# ------------------------------------------------------------------------------
+# Language: -
+# Weight:   6.0
+# ==============================================================================
+
+# Simple Patterns
+# ------------------------------------------------------------------------------
+/bitcoins/i
+/bitcoin?\.de/i
+/www\.bitcoin/i
+
+/http://investment/i
+
+/-invest\.de/i
+/-investment\.de/i
+/investition/i
+
+/reichtum/i
+/-etf\./i
+/-etf-/i
+
+# Sample: /investment.voltapv.net
+/investment\.[a-z]{4,15}\.[a-z]{2,4}/i
+
+# Companies
+# ------------------------------------------------------------------------------
+
+# 25.12.24 - American Express Asia
+/-amex-/i
+
+# 13.01.25 - WeTransfer
+/we-trans/i

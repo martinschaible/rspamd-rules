@@ -1,0 +1,28 @@
+# ==============================================================================
+# Occasionally, spammers use company, brand or product names in the URL to
+# pretend to be real. We check image tags for this bad stuff.
+#
+# Allowed entries are: - Name of organisations
+#                      - Name of brands
+#                      - Name of products
+#                      - Masked entries are allowed
+#
+# ------------------------------------------------------------------------------
+# Language: -
+# Weight:   6.0
+# ==============================================================================
+
+# Companies
+# ------------------------------------------------------------------------------
+
+# 21.12.24 - Advanzia Bank
+/\.de\/advanzia/i
+
+# 21.12.24 - Wix
+/referer=https://shoutout\.wix\.com/i
+
+# 21.12.24 - Sample: .nl/wix
+/\.[a-z]{2,4}/wix/i
+
+# 30.01.25 - Sample: https://twint.vercel.app
+/https:\/\/twint\.[a-z]{3,10}\./i
