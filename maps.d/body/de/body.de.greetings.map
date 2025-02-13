@@ -56,6 +56,7 @@
 # L
 /lieber?.{1,10}(paket)?empfänger/iu
 /lieber?.{1,10}(fremder|geliebter?|unbekannter)/i
+/lieber kunde.{1,15}wir haben versucht/i
 
 /(lieber?|sehr geehrter?).{1,5}e?.?mail.{0,15}(besitzer|eigentümer|empfänger|inhaber)/i
 
@@ -86,8 +87,8 @@
 
 /sehr geehrter manager/i
 /sehr geehrte\/?r?.{1,5}wir möchten sie informieren/iu
-
-/sehr geehrter? unternehmer(in)?/i
+/sehr geehrter?.{1,20}ich bin ein/i
+/sehr geehrter?.{1,10}unternehmer(in)?/i
 
 /sie zu kontaktieren.{1,10}mein name ist/i
 

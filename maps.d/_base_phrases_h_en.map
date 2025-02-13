@@ -77,13 +77,14 @@
 # E-Mail received
 # ------------------------------------------------------------------------------
 /(confirm|hello).{1,10}(did|if) you (get|receive).{1,10}(earlier|previous).{1,10}e?.?mail/i
+/confirm.{1,10}you received? my (last|previous).{1,10}e?.?mail/i
 
 /you get my e?.?mail.{1,10}haben sie/i
 
 /you received? the.{1,10}e?.?mail.{1,10}i sent to you/i
 /you received? my previous.{1,10}e?.?mail.{1,10}regards/i
 
-/confirm.{1,10}you received? my (last|previous).{1,10}e?.?mail/i
+/your reply regarding the.{1,10}e?.?mail.{1,10}i sent to you/i
 
 # Not sure if this works
 /^did you receive my email\?$/i

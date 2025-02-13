@@ -10,6 +10,7 @@
 /\d{2}\.\d{2}\.\d{4}.{1,5}greetings/i
 
 # A
+/assalamu.?alaikum.{1,10}my name is/i
 
 # B
 
@@ -97,13 +98,14 @@
 /my name is.{5,25}managing director/i
 /my name is.{5,25}represent(ing)?/i
 
-/my name is.{5,35}solicitor/i
+/my name is.{5,35}(vendor|registration|solicitor)/i
 
 # N
 
 # O
 
 # P
+/purchaser.{1,10}how are you/i
 
 # Q
 
