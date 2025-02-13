@@ -32,11 +32,12 @@
 /fix web.?site issues/i
 
 # G
-/(grow|remake) your.{1,10}(home.?page|web.?site)/i
+/(grab|grow|remake) your.{1,10}(home.?page|web.?site)/i
 
 # H
 /(home.?page|web.?site).{1,10}re.?(build|design)(ing)?/i
 /(home.?page|web.?site).{1,10}(remake|upgrade|upgrading)/i
+/(home.?page|web.?site).{1,10}for \d{2}% off/i
 
 /hire shopify developer/i
 
