@@ -80,7 +80,7 @@
 
 /immediate transfer of your.{1,10}(dollars?|euro?|usd|€|\$|£)/i
 /important.{1,10}million/i
-/important proposal/i
+/important (proposal|proposition)/i
 
 /inheritance to you/i
 
@@ -124,6 +124,8 @@
 /proposal.{1,10}attached/i
 /proposal.{1,15}(collaboration|investment|material supply|project)/i
 /proposal\.\./i
+
+/proposition.{1,10}business/i
 
 /purchase order.{1,10}p\.o\./i
 

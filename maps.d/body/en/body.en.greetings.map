@@ -16,14 +16,23 @@
 # C
 
 # D
-/(dear|hello|hi\b).{1,15}(agency|engineer|manager|owner)/i
-/(dear|hello|hi\b).{1,15}(e?.?mail|domain.?name|site|web)/i
-/(dear|hello|hi\b).{1,15}managing director/i
-/(dear|hello|hi\b).{1,20}nice to meet you/i
+/(dear|greetings?|good day|hello|hi\b).{1,5}(friend|madam|sir).{1,10}good day/i
+/(dear|greetings?|good day|hello|hi\b).{1,5}(friend|madam|sir).{1,15}this e?.?mail is strictly/i
+/(dear|greetings?|good day|hello|hi\b).{1,5}(friend|madam|sir).{1,15}we are glad to introduce/i
 
-/(dear|hello|hi\b).{1,5}(friend|madam|sir).{1,10}good day/i
-/(dear|hello|hi\b).{1,5}(friend|madam|sir).{1,15}this e?.?mail is strictly/i
-/(dear|hello|hi\b).{1,5}(friend|madam|sir).{1,15}we are glad to introduce/i
+/(dear|greetings?|good day|hello|hi\b).{1,15}(agency|engineer|manager|owner)/i
+/(dear|greetings?|good day|hello|hi\b).{1,15}(e?.?mail|domain.?name|site|web)/i
+/(dear|greetings?|good day|hello|hi\b).{1,15}(business|investment)/i
+/(dear|greetings?|good day|hello|hi\b).{1,15}managing director/i
+
+/(dear|greetings?|good day|hello|hi\b).{1,10}apologize for sending you/i
+/(dear|greetings?|good day|hello|hi\b).{1,10}from.{5,35}the.{1,15}manager/i
+/(dear|greetings?|good day|hello|hi\b).{1,10}i work as a/i
+/(dear|greetings?|good day|hello|hi\b).{1,20}nice to meet you/i
+/(dear|greetings?|good day|hello|hi\b).{1,5}sir.{1,5}(madam|mam)/i
+/(dear|greetings?|good day|hello|hi\b).{1,15}this might come.{1,10}surprise/i
+/(dear|greetings?|good day|hello|hi\b).{1,15}this is.{5,25}from/i
+/(dear|greetings?|good day|hello|hi\b).{1,10}we are.{1,10}manufacturer/i
 
 /(attn|attention|dear|hello|honorable).{1,10}beneficiary/i
 
@@ -44,14 +53,6 @@
 /good (day|evening|morning).{1,15}this might come.{1,10}surprise/i
 
 /greetings.{1,10}my friend/i
-/(greetings?|good day|hello).{1,10}apologize for sending you/i
-/(greetings?|good day|hello).{1,15}(business|investment)/i
-/(greetings?|good day|hello).{1,10}from.{5,35}the.{1,15}manager/i
-/(greetings?|good day|hello).{1,10}i work as a/i
-/(greetings?|good day|hello).{1,5}sir.{1,5}(madam|mam)/i
-/(greetings?|good day|hello).{1,15}this might come.{1,10}surprise/i
-/(greetings?|good day|hello).{1,15}this is.{5,25}from/i
-
 
 # H
 /hello attention/i
@@ -63,6 +64,9 @@
 /(hello|hi).{1,5}(dear|friend).{1,10}(confidential|private|strictly|urgent)/i
 /(hello|hi).{1,5}(dear|friend).{1,10}we would like to introduce/i
 
+/hope this e?.?mail finds you well.{1,10}i.?a?m (miss|mrs?|ms)/i
+/hope this e?.?mail finds you well.{1,10}my name is/i
+
 /how are you.{1,10}find attached/i
 /how are you.{1,15}my name is/i
 
@@ -71,6 +75,7 @@
 
 /(i am|i'm) a.{1,10}manager/i
 /(i am|i'm) a.{1,10}(development|investment|sales|senior|portfolio|purchasing).{1,10}manager/i
+/(i am|i'm) a.{1,10}importer from/i
 /(i am|i'm) a.{5,25}web.?development/i
 
 /(i am|i'm).{1,10}(miss|mrs?|ms).{5,25}contacting you/i
@@ -88,6 +93,7 @@
 
 /my name is.{5,35}i am a merchant/i
 /my name is.{5,25}i have.{1,10}urgent/i
+/my name is.{5,35}i serve as/i
 /my name is.{5,25}managing director/i
 /my name is.{5,25}represent(ing)?/i
 
@@ -107,6 +113,9 @@
 /represent mrs?\./i
 
 # S
+
+# No greetings
+/supplier.{1,10}my name is/i
 
 # T
 /this is.{5,25}from.{5,25}nice to meet you/i
