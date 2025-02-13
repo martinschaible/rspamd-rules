@@ -108,7 +108,10 @@
 
 /celebrity.?secret/i
 /clear.{1,10}nails/i
+
 /clears? blurry eyesight/i
+/clears.{1,10}fast/i
+
 /constipation.{1,10}read this/i
 
 /culprid.{1,10}strokes?/i
@@ -258,7 +261,8 @@
 
 # R
 /reach 120.?80/i
-/reclaim perfect vision/i
+/reclaim.{1,10}perfect vision/i
+/reclaim.{1,10}your.{1,10}(strength|vitality)/i 
 
 /(re)?grows? lost hair/i
 
@@ -342,7 +346,7 @@
 # X
 
 # Y
-/your.{1,10}(erection|manhood|pecker)/i
+/your.{1,10}(erection|manhood|pecker|prostate)/i
 /your heart health/i
 
 # Z

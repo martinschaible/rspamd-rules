@@ -128,6 +128,8 @@
 
 /mit diesem.{1,15}kissen/i
 
+/mitarbeiter für.{1,15}(logistik|produktion|verarbeitung)/i
+
 # N
 
 # O
@@ -185,6 +187,8 @@
 /werkzeug.?set.{1,20}jetzt sichern/i
 /werkzeug.{1,10}(highlight|upgrade)/i
 /teilige(n|s).{1,20}werkzeug.?set/i
+
+/werkstatt.{1,15}in profi.?qualität/iu
 
 /wir kaufen.{1,10}(auto|fahrzeug|lkw|pkw)/i
 /wir schützen vor bußgeldern/i

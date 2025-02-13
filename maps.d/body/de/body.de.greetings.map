@@ -23,10 +23,12 @@
 # G
 /glückwunsch.{1,15}mein name ist/i
 
+/guten (abend|morgen|tag).{1,10}begünstigter/iu
 /guten (abend|morgen|tag).{1,10}bitcoin/i
 /guten (abend|morgen|tag).{1,10}dieses?.{1,10}e?.?mail ist von/i
 /guten (abend|morgen|tag).{1,10}entschuldigen sie.{1,10}ich sie/i
 /guten (abend|morgen|tag).{1,10}ich bin (frau|herr)/i
+/guten (abend|morgen|tag).{1,10}lieber kunde/i
 /guten (abend|morgen|tag).{1,10}wir kontaktieren sie/i
 
 /grüße.{1,10}betreff/iu
@@ -84,6 +86,8 @@
 
 /sehr geehrter manager/i
 /sehr geehrte\/?r?.{1,5}wir möchten sie informieren/iu
+
+/sehr geehrter? unternehmer(in)?/i
 
 /sie zu kontaktieren.{1,10}mein name ist/i
 
