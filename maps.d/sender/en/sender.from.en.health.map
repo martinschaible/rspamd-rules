@@ -258,7 +258,7 @@
 
 /flow.{0,10}diet/i
 /forget.{0,10}keto/i
-/keto.{0,10}(diet|slim)/i
+/keto.{0,10}(diet|power|slim)/i
 /huge.{0,10}belly/i
 
 /weight.{0,10}gain/i
@@ -534,7 +534,7 @@
 /nature.{0,10}opioids?/i
 
 /neck.{0,10}skin/i
-/nerves?.{0,10}(comfort|health|recovery|repair|revival)/i
+/nerves?.{0,10}(comfort|health|pain|recovery|repair|revival)/i
 /never eat/i
 /new.{0,10}(hair|research)/i
 
@@ -654,13 +654,14 @@
 # U
 /unlock.{0,10}hips/i
 /unusual.{0,10}stretch/i
-/urinary.{0,10}(fix|incontinence)/i
+/urinary.{0,10}(fix|help|incontinence)/i
 /urine.{0,10}leaks?/i
 
 # V
 /varicose.{0,10}veins/i
 /vein.{0,10}solutions?/i
 
+/viril.{0,10}wood/i
 /vital.{0,10}now/i
 /vitamin.{0,10}recall/i
 
