@@ -19,9 +19,10 @@
 #/inv(oice)?.?\d{0,10}\.((?!pdf$)[^.]*)/i
 #/(receipt|winner).?\d{0,10}\.((?!pdf$)[^.]*)/i
 
-/(inquiry|invoice|order).{0,25}\.(7z|gz|r11|r16|rar|tar|xls|zip)/i
-/(advice|payment|proforma|quotation|receipt|request).{0,25}\.(7z|gz|r11|r16|rar|tar|xls|zip)/i
-/(business year|price.?list).{0,25}\.(7z|gz|r11|r16|rar|tar|xls|zip)/i
+/(advice|business year).{0,25}\.(7z|gz|r11|r16|rar|tar|xls|zip)/i
+/(inquiry|invoice|lading).{0,25}\.(7z|gz|r11|r16|rar|tar|xls|zip)/i
+/(order|payment|price.?list|proforma|quotation).{0,25}\.(7z|gz|r11|r16|rar|tar|xls|zip)/i
+/(receipt|request).{0,25}\.(7z|gz|r11|r16|rar|tar|xls|zip)/i
 
 /rechnung.{0,45}\.(7z|gz|rar|zip)/i
 
@@ -73,6 +74,9 @@
 # 04.02.25 - Sample: 02-04-2025.gz
 /\d{2}-\d{2}-\d{4}\.(gz|zip)/i
 
+# Just numbers
+/\d{10,20}\.gz/i
+
 # Pattern
 # ------------------------------------------------------------------------------
 /detail.{0,10}specification/i
@@ -93,7 +97,6 @@
 
 # Extensions
 # ------------------------------------------------------------------------------
-
 /\.(r11|r16|r19)/i
 /\.tbz2/i
 /\.001/i

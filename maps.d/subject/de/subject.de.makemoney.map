@@ -50,6 +50,7 @@
 #
 /2500.{1,10}pro monat/i
 /(\d{3,4}|euro).{1,10}nebeneinkommen/i
+/(€|euro) verdienen können/iu
 
 # A
 /aktien.{1,10}reich werden/i
@@ -110,6 +111,8 @@
 
 # S
 /sichert das portfolio/i
+
+/sie mit 250.?(euro|€) starten/i
 /sind ihre? aktien im/i
 
 # T
