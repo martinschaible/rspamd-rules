@@ -75,8 +75,9 @@ Folder structure:
      |- body.ch.orgname.map                          |
      |- body.de.orgname.map                          |
      |- body.us.orgname.map                          |
-     |- de                                           |- multimap.body.conf
-     |   |- body.de.greetings.map                    |
+     |- de                                           |
+     |   |- body.de.greetings.map                    |- multimap.body.conf
+*    |   |- body.de.intros.map                       |
      |   |- body.de.singleword.map                   |
      |   |- body.de.singleword.ucase.map             |
      |   |- body.de.unsubscribe.map                  |
