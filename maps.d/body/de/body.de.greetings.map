@@ -44,6 +44,7 @@
 
 # I
 /ich bin.{5,45}eine deutsche unternehmerin/i
+/ich bin.{5,35}(ceo|gründer).{1,15}von/i
 /ich bin.{1,10}(frau|fräulein|herr)/i
 
 # J
@@ -79,6 +80,8 @@
 # R
 
 # S
+/sehr geehrte\/r ,/i
+
 /sehr geehrter manager/i
 /sehr geehrte\/?r?.{1,5}wir möchten sie informieren/iu
 

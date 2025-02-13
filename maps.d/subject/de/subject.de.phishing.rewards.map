@@ -43,6 +43,8 @@
 # B
 /beantworte eine kurze umfrage/i
 
+/begrenztes angebot.{1,10}gewinnen sie/i
+
 /belohnen wir sie mit/i
 /belohnung wartet auf sie/i
 /belohnung(en)?.{1,10}kostenlose?/i
@@ -50,6 +52,7 @@
 #/(belohnung|gutschein).{1,10}(code|einlösen|erhalten|freigeschaltet|ist zum versenden|reserviert|wartet)/i
 /belohnung.{1,10}(code|einlösen|erhalten|freigeschaltet|ist zum versenden|reserviert|wartet)/i
 
+/besondere belohnung/i
 /besonderer zugang von/i
 /bestätigen sie den erhalt/iu
 
@@ -217,10 +220,13 @@
 /um ein(en)?.{5,25}zu gewinnen/i
 /um ihr(en)?.{5,25}zu sichern/i
 
-/Umfrage endet heute/i
+/umfrage endet heute/i
 /umfrage gewonnen/i
+/umfrage.{1,10}ihre chance/i
 
 # V
+/verlosung.{1,10}jetzt mitmachen/i
+
 /versand de#.{1,15}bestätigt/i
 /versand steht noch aus/i
 

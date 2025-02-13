@@ -3,6 +3,9 @@
 # Weight:   6.0
 # ==============================================================================
 
+# Topics
+# ==============================================================================
+
 # Attention, Important, Urgent
 # ------------------------------------------------------------------------------
 /antworten sie so schnell wie möglich/iu
@@ -16,29 +19,79 @@
 # False/Positive 1x
 #/(dringend|wichtig)e?.{1,15}(information(en)?|info\b)/i
 /dringende?.{1,15}(erinnerung|mitteilung|nachricht\b)/i
-/wichtige?.{1,15}(erinnerung|nachricht\b)/i
 
 /dringend.{1,10}dringend/i
 /dringend.{1,15}(lesen|sorgfältig)/iu
 
-/^sehr wichtig$/i
-/(sofort|unverzüglich) öffnen/iu
+#
+#
+#
 
-# Messages
-# ------------------------------------------------------------------------------
+# Generic
+# ==============================================================================
+
+# A
+
+# B
+
+# C
+
+# D
+/dies ist eine neue nachricht/i
+
+# E
+# Too strong, False/Positives
+#/eine neue nachricht/i
+/eine neue nachricht\./i
+
+# F
+
+# G
+
+# H
+
+# I
+/ignorieren sie.{1,10}nachricht nicht/i
+
+# J
+
+# K
+
+# L
+/lies diese nachricht/i
+
+# M
+
+# N
 #/nachricht.{1,10}für (dich|sie)/i
 /nachricht.{1,10}ref\b/i
 /neue nachricht von der/i
 
-/dies ist eine neue nachricht/i
+# O
 
-# Too strong, False/Positives
-#/eine neue nachricht/i
+# P
 
-/eine neue nachricht\./i
+# Q
 
-/lies diese nachricht/i
+# R
 
-/ignorieren sie.{1,10}nachricht nicht/i
+# S
+/^sehr wichtig$/i
 
 /(sie|wir) haben eine.{1,15}nachricht/i
+/(sofort|unverzüglich) öffnen/iu
+
+# T
+
+# U
+
+# V
+
+# W
+/wichtige?.{1,15}(erinnerung|nachricht\b)/i
+
+# X
+
+# Y
+
+# Z

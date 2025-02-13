@@ -257,8 +257,8 @@
 /your.{0,10}fitness/i
 
 /flow.{0,10}diet/i
-/forget.{0,10}keto/i
-/keto.{0,10}(diet|power|slim)/i
+#/forget.{0,10}keto/i
+#/keto.{0,10}(diet|power|slim)/i
 /huge.{0,10}belly/i
 
 /weight.{0,10}gain/i
@@ -574,6 +574,7 @@
 
 /prescription/i
 /promising.{0,10}therapy/i
+/proper.{0,15}detox/i
 
 # Q
 

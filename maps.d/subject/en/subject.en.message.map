@@ -3,6 +3,9 @@
 # Weight:   6.0
 # ==============================================================================
 
+# Topics
+# ==============================================================================
+
 # Attention, Important, Urgent
 # ------------------------------------------------------------------------------
 /(attn|attention).{1,10}attention/i
@@ -18,24 +21,75 @@
 /(important|urgent).{1,10}(claim your|letter to you|message for you|you are)/i
 /(important|urgent).{1,10}(please|pls).{1,10}(reply|reply)/i
 
-/^urgent message$/i
+#
+#
+#
 
-/message for you.{1,10}(important|urgent)/i
+# Generic
+# ==============================================================================
 
-/^urgent response$/i
-/urgent response is.{1,15}needed/i
+# Starts with a number
+/\(\d\) message from/i
 
-/read message/i
-/read.{1,10}reply urgent/i
+# A
+
+# B
+
+# C
 /congratulations.{1,15}urgent reply needed/i
 
-# Messages
-# ------------------------------------------------------------------------------
+# D
+
+# E
+
+# F
+
+# G
+
+# H
+
+# I
+
+# J
+
+# K
+
+# L
 /letter for you/i
 /letter from/i
 
+# M
 /message from.{1,10}friend/i
+/message for you.{1,10}(important|urgent)/i
 
-/\(\d\) message from/i
+# N
 
+# O
+/open.{1,5}immediately/i
+
+# P
+
+# Q
+
+# R
+/read message/i
+/read.{1,10}reply urgent/i
+
+# S
+
+# T
 /this message is for you/i
+
+# U
+/^urgent (message|response)$/i
+/urgent response is.{1,15}needed/i
+
+# V
+
+# W
+
+# X
+
+# Y
+
+# Z
