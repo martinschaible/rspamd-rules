@@ -169,7 +169,6 @@
 /(dear|hello|hi).{1,10}sir.{1,10}we (sell|want)/i
 /(dear|hello|hi).{1,10}(esteemed|valued) customer.{1,10}(good day|how are you|this is)/i
 /(dear|hello|hi).{1,10}(esteemed|valued) customer.{1,10}our (company|factory|firm)/i
-/(dear|hello|hi).{1,10}we are.{1,10}manufacturer/i
 
 /(dear|hello|hi).{1,10}i am a broker/i
 
@@ -185,8 +184,6 @@
 /ladies and gentlemen.{1,10}i.?a?m (miss|mrs?|ms)/i
 
 /(dear friend|how.are.you.doing|nice.day).{1,10}this.is.{5,25}from/i
-/hope this e?.?mail finds you well.{1,10}i.?a?m (miss|mrs?|ms)/i
-/hope this e?.?mail finds you well.{1,10}my name is/i
 
 /my dear.{1,10}i am an agent/i
 /respected.{1,10}e?.?mail.?user/i
