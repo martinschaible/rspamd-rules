@@ -101,25 +101,25 @@ Folder structure:
 ```
 |- sender
      |- de
-     |   |- sender.from.de.map
-     |   |- sender.from.de.adult.map
-     |   |- sender.from.de.finance.map
-     |   |- sender.from.de.gambling.map
-     |   |- sender.from.de.health.map
-     |   |- sender.from.de.lottery.map
-     |   |- sender.from.de.makemoney.map
-     |   |- sender.from.de.malwaremap
-     |   |- sender.from.de.phishing.map
-     |   |- sender.from.de.sale.map
-     |   |- sender.from.de.singleword.map
-     |   |- sender.from.de.singleword.ucase.map
+     |   |- sender.from.de.map                        - multimap.sender.conf 
+     |   |- sender.from.de.adult.map                  - multimap.sender.adult.conf
+     |   |- sender.from.de.finance.map                - multimap.sender.finance.conf
+     |   |- sender.from.de.gambling.map               - multimap.sender.gambling.conf
+     |   |- sender.from.de.health.map                 - multimap.sender.health.conf
+     |   |- sender.from.de.lottery.map                - multimap.sender.lottery.conf
+     |   |- sender.from.de.makemoney.map              - multimap.sender.makemoney.conf
+     |   |- sender.from.de.malware.map                - multimap.sender.malware.conf
+     |   |- sender.from.de.phishing.map               - multimap.sender.phishing.conf
+     |   |- sender.from.de.sale.map                   - multimap.sender.sale.conf
+     |   |- sender.from.de.singleword.map             - multimap.sender.conf
+     |   |- sender.from.de.singleword.ucase.map       - multimap.sender.conf
      |- en
      |   |- ....
-     |- sender.address.map
-     |- sender.from.orgbrandprod.map
-     |- sender.from.people.map
-     |- sender.from.phishing.orgbrandprod.map
-     |- sender.from.special.map
+     |- sender.address.map                          -|
+     |- sender.from.orgbrandprod.map                 |
+     |- sender.from.people.map                       |- multimap.sender.conf
+     |- sender.from.phishing.orgbrandprod.map        |
+     |- sender.from.special.map                     -|
 ```
 
 More content will follow soon.
@@ -135,6 +135,7 @@ Folder structure:
      |   |- subject.de.finance.map
      |   |- subject.de.greetings.map
      |   |- subject.de.health.map
+*    |   |- subject.de.order.map
      |   |- subject.de.phishing.map
      |   |- subject.de.phishing.account.map
      |   |- subject.de.phishing.alertaction.map
