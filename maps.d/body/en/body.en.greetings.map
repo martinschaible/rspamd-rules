@@ -37,6 +37,8 @@
 
 /(attn|attention|dear|hello|honorable).{1,10}beneficiary/i
 
+/dear.{1,10}(ceo|confidant|trustee)/i
+
 /dear.{1,10}(customer|sir).{1,10}this is.{5,25}from/i
 /dear.{1,10}good day/i
 /dear.{1,25}this is.{5,25}from/i

@@ -79,6 +79,8 @@
 
 /branchen.?führer.{1,10}\d{4}/i
 
+/(büro|massage).?(sessel|stuhl|stühle).{1,25}(bezug|funktion|massage)/i
+
 # C
 
 # D
@@ -113,7 +115,7 @@
 /ihr wlan.?signal/i
 
 # J
-/jetzt für nur \d{2,3}.{1,10}statt \d{2,3}/i
+/jetzt.{1,10}nur \d{2,3}.{1,10}statt \d{2,3}/i
 
 /(beheizbare|wärmende).{1,10}(daunen)?jacke/i
 
