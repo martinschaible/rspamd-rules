@@ -156,7 +156,7 @@
 
 # Joints
 # ------------------------------------------------------------------------------
-/joints?.{0,10}(cure|(dis)?comfort|fix|genesis|healed|hero|inflammation)/i
+/joints?.{0,10}(cure|(dis)?comfort|fix|gelatin|genesis|healed|hero|inflammation)/i
 /joints?.{0,10}(problems?|recovery|repair|saver|story)/i
 
 /(aching|better|grinding|painful|sore|swollen).{0,10}joints?/i
@@ -230,7 +230,7 @@
 /(fat|weight).{0,10}(fast|goals|loss|vanish)/i
 /(fat|weight).{0,10}(burn(er)?|burning|drop(er)?|flush|melting)/i
 
-/belly.{0,10}flattening/i
+/belly.{0,10}(fix|flattening)/i
 
 /(belly|burn|eliminates?|lose|losing|melt|shed|stubborn|wobbly).{0,10}(bloat|fat|flab|lbs|pounds|weight)/i
 /(lose|melt|shed).{0,10}\d{2}/i
@@ -307,7 +307,7 @@
 /(anti|fight|stop).{0,10}snoring/i
 /anti.{0,10}(fungal|fungus|wrinkle)/i
 
-/artery.{0,10}(health|plaque)/i
+/artery.{0,10}(cure|health|plaque)/i
 /arthritis.{0,10}gone/i
 
 /avoid.{0,10}(blueberries|kegels|veggies|zink)/i
@@ -375,7 +375,7 @@
 /click.{0,10}free/i
 /clinically.{0,10}proven/i
 
-/clogged.{0,10}arteries/i
+/clogged.{0,10}(arteries|artery)/i
 /closed.{0,10}arteries/i
 /cognitive.{0,10}decline/i
 /compression.{0,10}sleeve/i
@@ -637,7 +637,7 @@
 /(strange|spice).{0,10}trick/i
 
 /sweet.{0,10}deal/i
-/swollen.{0,10}gut/i
+/swollen.{0,10}(belly|gut)/i
 
 # T
 /thanksgiving.{0,10}delight/i

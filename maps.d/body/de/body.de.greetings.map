@@ -6,6 +6,15 @@
 # Generic
 # ==============================================================================
 
+# Temporary, goes to body.de.message.map
+# ------------------------------------------------------------------------------
+/sie meine erste nachricht erhalten haben/i
+/sie immer noch dieselbe.{1,10}e?.?mail.?adresse verwenden/i
+
+#
+#
+#
+
 # A
 /antworten sie.{1,15}mein name ist/i
 /att.{1,5}sehr geehrter/i
@@ -32,6 +41,8 @@
 /guten (abend|morgen|tag).{1,10}wir kontaktieren sie/i
 
 /grüße.{1,10}betreff/iu
+/grüße.{1,10}des tages/iu
+/grüße.{1,10}mein neuer freund/iu
 
 # H
 /hallo.{1,10}ich bin.{5,35}ceo von/iu
@@ -43,6 +54,7 @@
 /hallo.{1,10}ich schreibe ihnen/i
 /hallo mein lieber.{1,10}ich heiße/i
 
+/hochachtungsvolle grüße/iu
 
 # I
 /ich bin.{5,45}eine deutsche unternehmerin/i

@@ -124,7 +124,7 @@
 /detox(es)? your gut/i
 
 /discover.{1,10}breakthrough/i
-/discover.{1,10}the key to/i
+/discover.{1,10}the (key|secret) to/i
 
 /(do|try) this \d{1,2} minutes before/i
 #/try this before bed/i
@@ -135,6 +135,7 @@
 
 /doing this to your/i
 /drink this.{1,15}(before|juice|to)/i
+/drink triggers/i
 
 /drop.{1,10}blood sugar/i
 /drop up to.{1,10}(lbs|pounds|weight)/i
@@ -146,6 +147,8 @@
 
 /eat \d cup/i
 /ear buzzing with this/i
+
+/easing.{1,10}stiff joints/i
 /easy.?to.?do technique/i
 
 /eat this.{1,15}(arteries|daily|fruit)/i
@@ -229,6 +232,7 @@
 /losing memory because/i
 
 # M
+/major.{1,10}fat.?loss/i
 /makes you thin/i
 /massage restores/i
 
