@@ -22,6 +22,9 @@
 # Generic
 # ==============================================================================
 
+#
+/\d{2,3}k pre.?approval/i
+
 # A
 /(apply for|need).{1,10}(grant|loan)/i
 /apply for our financial/i
@@ -79,6 +82,7 @@
 # T
 
 # U
+/unlock potential with/i
 
 # V
 

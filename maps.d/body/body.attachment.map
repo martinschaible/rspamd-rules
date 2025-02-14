@@ -19,7 +19,7 @@
 #/inv(oice)?.?\d{0,10}\.((?!pdf$)[^.]*)/i
 #/(receipt|winner).?\d{0,10}\.((?!pdf$)[^.]*)/i
 
-/(advice|business year).{0,25}\.(7z|gz|r11|r16|rar|tar|xls|zip)/i
+/(advice|arrival.?notice|business year).{0,25}\.(7z|gz|r11|r16|rar|tar|xls|zip)/i
 /(inquiry|invoice|lading).{0,25}\.(7z|gz|r11|r16|rar|tar|xls|zip)/i
 /(order|payment|price.?list|proforma|quotation).{0,25}\.(7z|gz|r11|r16|rar|tar|xls|zip)/i
 /(receipt|request).{0,25}\.(7z|gz|r11|r16|rar|tar|xls|zip)/i
@@ -75,7 +75,7 @@
 /\d{2}-\d{2}-\d{4}\.(gz|zip)/i
 
 # Just numbers
-/\d{10,20}\.gz/i
+/\d{6,20}\.gz/i
 
 # Pattern
 # ------------------------------------------------------------------------------

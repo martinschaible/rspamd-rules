@@ -93,12 +93,13 @@
 /my names (are|is) mrs?/i
 
 /my name is.{5,35}i am a merchant/i
+
+/my name is.{5,35}i am seeking/i
 /my name is.{5,25}i have.{1,10}urgent/i
 /my name is.{5,35}i serve as/i
 /my name is.{5,25}managing director/i
-/my name is.{5,25}represent(ing)?/i
-
 /my name is.{5,35}(vendor|registration|solicitor)/i
+/my name is.{5,25}represent(ing)?/i
 
 # N
 
