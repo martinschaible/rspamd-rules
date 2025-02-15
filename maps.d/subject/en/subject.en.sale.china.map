@@ -28,6 +28,8 @@
 # C
 /capacitor.{1,10}(resistor|special) offer/i
 /cnc.{1,10}precision parts/i
+/cnc.{1,10}machining/i
+/(design|manufacture|you need).{1,15}pcba?/i
 
 /custom product manufacturing/i
 
@@ -55,6 +57,7 @@
 
 # I
 /ic microchip request/i
+/injection molding solutions/i
 
 # J
 
@@ -67,6 +70,9 @@
 /multilayer pcba?.{1,10}manufacturing/i
 /multiple freight solutions/i
 
+/moulding (from|in) china/i
+/moulding services (from|in) china/i
+
 /moulds construction/i
 
 # N
@@ -78,8 +84,11 @@
 /passive.{1,10}component broker/i
 /passive.{1,10}parts?.{1,10}(req|xilinx)/i
 
-/pcba?.{1,10}(assembly|enquiry|factory|manufacturing|provider)/i
+/pcba?.{1,20}(assembly|enquiry|factory|manufacturing|provider)/i
+/pcba?.{1,10}factory (from|in) china/i
 /pcba?.{1,10}supplier for/i
+
+/plastic.?injection mould.?maker/i
 
 /prototype manufacturer?/i
 

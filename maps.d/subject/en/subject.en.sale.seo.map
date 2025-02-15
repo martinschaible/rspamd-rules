@@ -14,6 +14,7 @@
 # ==============================================================================
 
 # A
+/(affordable|looking for).{1,10}seo/i
 
 # B
 /boost seo with/i
@@ -22,10 +23,13 @@
 /(boost|elevate|rank) your.{1,10}sales with.{1,15}seo/i
 
 /boost your seo/i
-/boost your (home.?page|web.?site).{1,10}seo/i
+/boost your.{1,10}((home)?page|(web)?site).{1,10}seo/i
+
+/(bing|google|yahoo).{1,10}(1st|first|seo|top).{1,10}((home)?page|(web)?site)/i
+/(bing|google|yahoo).{1,10}front.?page/i
+/(bing|google|yahoo).{1,10}(page 1st|listing|ranked)/i
 
 # C
-/cnc machining/i
 
 # D
 
@@ -33,23 +37,22 @@
 /expert seo/i
 
 # F
-/(1st|first|seo|top).{1,10}page\?/i
-/(1st|first|seo|top).{1,10}page (google|of)/i
-/(1st|first|seo|top).{1,15}rankings?/i
+/(1st|first|seo|top).{1,10}.{1,10}((home)?page|(web)?site)\?/i
+/(1st|first|seo|top).{1,10}.{1,10}((home)?page|(web)?site).{1,10}(google|of)/i
+/(1st|first|seo|top).{1,15}rank(ings?)?/i
 
-/(1st|first|seo|top).{1,15}(rankings?|spot).{1,10}(plan)/i
-/(1st|first|seo|top).{1,10}(page|place|position).{1,10}(google|rank(ing)?)/i
+/(1st|first|seo|top).{1,15}(page|place|position|rankings?|spot).{1,10}plan/i
+/(1st|first|seo|top).{1,15}(page|place|position|rankings?|spot).{1,10}(bing|google|yahoo)/i
 
 /full seo.?package/i
 
 # G
-/google.{1,10}(1st|top).?page/i
-/google front.?page/i
-/google ranked 1/i
-
+/(get found|guaranteed|top rank(ing)?).{1,10}(bing|google|yahoo)/i
 /grow your.{1,10}(web)?site/i
 
 # H
+/((home)?page|(web)?site).{1,10}seo/i
+/((home)?page|(web)?site).{1,10}(bing|google|yahoo)/i
 
 # I
 
@@ -64,17 +67,17 @@
 # N
 
 # O
-/on.?site seo/i
+/(on.?site|position).{1,10}seo/i
 
 # P
-/(page|position).{1,10}seo/i
+/page.{1,10}(bing|google|yahoo)/i
 
 /proposal page 1/i
 
 # Q
 
 # R
-/rank.{1,10}(1st|first) page/i
+/rank.{1,10}(1st|first|seo|top).{1,10}page/i
 /rank.{1,10}proposal/i
 
 /rankings?.?!/i
@@ -104,6 +107,7 @@
 # Y
 /you need.{1,15}seo/i
 
-/your.{1,10}(home.?page|web.?site|search.?engine).{1,10}rankings?/i
+/your.{1,10}((home)?page|(web)?site).{1,10}rankings?/i
+/your.{1,10}search.?engine.{1,10}rankings?/i
 
 # Z

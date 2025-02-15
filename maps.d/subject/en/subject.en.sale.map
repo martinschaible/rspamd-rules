@@ -75,8 +75,9 @@
 # H
 
 # I
-/(improve|increase|transform) your (brand|business)/i
-/(improve|increase|transform) brand recognition/i
+/(improve|increase|transform).{1,10}brand.{1,10}recognition/i
+/(improve|increase|transform).{1,10}sales.{1,10}wikipedia/i
+/(improve|increase|transform).{1,10}your.{1,10}(brand|business)/i
 
 # J
 
