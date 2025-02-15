@@ -16,6 +16,9 @@
 # 12.12.24, phishing
 /\/redirect\/redirect\.aspx/i
 
+# 15.02.25 - Sample: https://occitanica.eu/setlocale?locale=fr&redirect=https://bitrancetrade.com
+/\/setlocale\?locale=[a-z]{2}&redirect=/i
+
 # Simple path
 # ------------------------------------------------------------------------------
 # 11.12.24
@@ -60,6 +63,12 @@
 
 # 22.12.24 - Sample: https://click.pstmrk.it/3s/t.co%2FvZAmlBLKf
 /\/t\.co%/i
+
+# Path and file
+# ------------------------------------------------------------------------------
+
+# 15.02.25 - Sample: .com/b/n/n/index.html
+/\.com\/[a-z]\/[a-z]\/[a-z]\/index\.html/i
 
 #
 #

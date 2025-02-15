@@ -117,7 +117,7 @@
 # ------------------------------------------------------------------------------
 /(health|quick).{0,10}(boost(er)?|fix|guide)/i
 
-/health.?digest/i
+/health.?(digest|research)/i
 
 /healthy?.{0,10}(alert|alternative|brain|circulation|foods?)/i
 /healthy?.{0,10}(guides?|gut|heart|heaven|hero|insights)/i
@@ -170,7 +170,7 @@
 
 # Liver
 # ------------------------------------------------------------------------------
-/liver.{0,10}(damage|detox|fix|health|renew|support)/i
+/liver.{0,10}(damage|detox|fix|health|renew|support|toxins?)/i
 /(dying|fatty|toxic).{0,10}liver/i
 
 # Pain
@@ -517,6 +517,8 @@
 
 /mens?.{0,10}(only|power)/i
 /metabolism.{0,10}(booster|loophole|organ|unleash)/i
+/mental.{0,10}clarity/i
+
 /midnight.{0,10}bathroom/i
 /mind.?blow/i
 /mineral.{0,10}combination/i

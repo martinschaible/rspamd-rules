@@ -22,7 +22,7 @@
 /(boost|elevate|rank) your.{1,10}sales with.{1,15}seo/i
 
 /boost your seo/i
-/boost your web.?site.{1,10}seo/i
+/boost your (home.?page|web.?site).{1,10}seo/i
 
 # C
 /cnc machining/i
@@ -39,6 +39,8 @@
 
 /(1st|first|seo|top).{1,15}(rankings?|spot).{1,10}(plan)/i
 /(1st|first|seo|top).{1,10}(page|place|position).{1,10}(google|rank(ing)?)/i
+
+/full seo.?package/i
 
 # G
 /google.{1,10}(1st|top).?page/i
@@ -66,6 +68,8 @@
 
 # P
 /(page|position).{1,10}seo/i
+
+/proposal page 1/i
 
 # Q
 
@@ -98,5 +102,8 @@
 # X
 
 # Y
+/you need.{1,15}seo/i
+
+/your.{1,10}(home.?page|web.?site|search.?engine).{1,10}rankings?/i
 
 # Z
