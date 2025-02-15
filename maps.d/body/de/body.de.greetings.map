@@ -51,6 +51,7 @@
 /hallo.{1,10}ich bin.{5,35}eine?.{1,15}(australisch|deutsch|indisch|schweizer)/i
 
 /hallo.{1,10}begünstigter/i
+/hallo.{1,10}herzliche grüße an sie/iu
 /hallo.{1,10}ich schreibe ihnen/i
 /hallo mein lieber.{1,10}ich heiße/i
 
@@ -60,6 +61,7 @@
 /ich bin.{5,45}eine deutsche unternehmerin/i
 /ich bin.{5,35}(ceo|gründer).{1,15}von/i
 /ich bin.{1,10}(frau|fräulein|herr)/i
+/ich bin.{5,35}rechtsvertreter der familie/i
 
 # J
 
@@ -101,6 +103,8 @@
 /sehr geehrte\/?r?.{1,5}wir möchten sie informieren/iu
 /sehr geehrter?.{1,20}ich bin ein/i
 /sehr geehrter?.{1,10}unternehmer(in)?/i
+
+/sehr geehrter kunde.{1,10}wichtige nachricht an sie/i
 
 /sie zu kontaktieren.{1,10}mein name ist/i
 

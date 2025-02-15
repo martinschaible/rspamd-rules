@@ -18,7 +18,7 @@
 # Alzheimer, Dementia, Memory
 # ------------------------------------------------------------------------------
 /(alze?heimer|dementia).{1,10}(alert|brain|test|trigger|warning)/i
-/brain.{0,10}(booster|cell|damage|fixer|food|fog|health|nutrient|power|scan|science|trick)/i
+/brain.{0,10}(booster|cell|damage|fixer|food|fog|health|nutrient|power|scan|science|trick|waves)/i
 
 /cognitive.{0,10}(fix|health)/i
 /leaky.{0,10}brain/i
