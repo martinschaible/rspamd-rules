@@ -335,7 +335,8 @@
 /big.{0,10}secret/i
 /(big|flat(ten)?).{0,10}stomach/i
 
-/bladder.{0,10}(boost|care|control|danger|fix|health|leaks?|leakage|leaking|issues?|problems?)/i
+/bladder.{0,10}(boost|care|control|danger|fix|flush|health)/i
+/bladder.{0,10}(leaks?|leakage|leaking|issues?|problems?)/i
 
 /bloat.{0,10}(free|solution)/i
 /blood.{0,10}(clot|sugar)/i
@@ -578,6 +579,8 @@
 /powerful.{0,10}juice/i
 
 /prescription/i
+/prepare now/i
+
 /promising.{0,10}therapy/i
 /proper.{0,15}detox/i
 
