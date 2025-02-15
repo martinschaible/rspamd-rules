@@ -195,8 +195,6 @@
 
 # SEO
 # ------------------------------------------------------------------------------
-/(affordable|looking for).{1,10}seo/i
-
 /attract more.{1,10}traffic/i
 
 /increase revenue.{1,10}profits/i
@@ -214,19 +212,6 @@ transform.{1,10}website traffic/i
 
 /your.{1,10}(page|website).{1,10}may.{1,10}losing/i
 
-# Google
-/(bing|google|yahoo).{1,10}(1 page|1st page|first page|page 1st|listing)/i
-
-/(1st|first|seo|top).{1,15}(page|rankings?|spot).{1,10}(bing|google|yahoo)/i
-
-/appear on the first page.{1,10}(bing|google|yahoo)/i
-/page (1|of).{1,10}(bing|google|yahoo)/i
-/(guaranteed|top rank(ing)?).{1,10}(bing|google|yahoo)/i
-/get found.{1,10}(bing|google|yahoo)/i
-
-/your.{1,10}(page|website).?rank.{1,10}(bing|google|yahoo)/i
-/your.{1,10}(page|website).{1,10}(bing|google|yahoo)/i
-
 # ahrefs
 /buy.{1,10}ahrefs/i
 
@@ -239,30 +224,9 @@ transform.{1,10}website traffic/i
 # ------------------------------------------------------------------------------
 /guest post opportunity/i
 
-# Wikipedia
-# ------------------------------------------------------------------------------
-/increase sales with.{1,10}wikipedia/i
-
 # Social Media
 # ------------------------------------------------------------------------------
 /instagram followers.{1,10}limited offer/i
-
-#
-#
-#
-
-# Country related
-# ------------------------------------------------------------------------------
-/pcba?.{1,10}factory (from|in) china/i
-/pcba?.{1,10}manufacturing factory/i
-/(design|manufacture|you need).{1,15}pcba?/i
-
-#
-/moulding (from|in) china/i
-/moulding services (from|in) china/i
-/plastic.?injection mould maker/i
-/injection molding solutions/i
-
 
 #
 #
