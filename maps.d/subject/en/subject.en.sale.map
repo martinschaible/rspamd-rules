@@ -121,16 +121,17 @@
 
 # W
 /watch.{1,10}\d{3,4}.{1,10}channels worldwide/i
+
 /wikipedia for your/i
-/with a wikipedia (page|presence)/i
+/with.{1,10}wikipedia (page|presence)/i
 
 # X
 
 # Y
-/your business on wikipedia/i
-/your electric bill/i
-/your lead potential/i
-/your ultimate urban/i
+/your.{1,10}business on wikipedia/i
+/your.{1,10}electric bill/i
+/your.{1,10}lead potential/i
+/your.{1,10}ultimate urban/i
 
 # Z
 
