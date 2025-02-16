@@ -38,7 +38,6 @@
 /hallo.{1,10}ich bin.{5,25}ceo (der|von)/i
 /hallo.{1,10}ich bin.{5,25}eine?.{1,15}milliardär(in)?/iu
 /hallo.{1,10}ich bin.{5,25}eine?.{1,15}person/i
-/hallo.{1,10}ich bin.{5,25}(privat|rechts).?anwalt/i
 
 /hallo.{1,10}ich bin.{5,25}und schreibe dir/i
 /hallo.{1,10}ich bin.{5,25}aus.{1,10}deutschland/i
@@ -124,7 +123,7 @@
 /mein name ist sir/i
 /mein name ist.{1,10}anwältin/iu
 /mein name ist.{1,10}barr(\.|ister)/i
-/mein name ist.{1,10}(dr\.|mrs?|ms|leutnant|rechtsanwalt)/i
+/mein name ist.{1,10}(dr\.|mrs?|ms|leutnant)/i
 
 /mein name ist.{5,25}aus.{1,10}(indien|vereinigten staaten)/i
 /mein name ist.{5,25}deutscher? herkunft/i
@@ -187,7 +186,6 @@
 # Introduction, Title
 # ------------------------------------------------------------------------------
 /ich bin.{1,5}(barrister|general|mrs?|ms)/i
-/ich bin.{1,5}(rechts)?anwalt/i
 /ich bin.{1,5}mutter mrs?/i
 /ich bin.{1,5}(special|spezial).?agent/i
 /ich bin.{5,25}filialleiterin einer bank/i
