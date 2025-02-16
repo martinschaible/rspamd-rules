@@ -242,6 +242,8 @@
 /(obi|otto).?(™|®)$/i
 /obi-/i
 
+/official.{0,5}spotify/i
+
 # 01.02.25 - Orico Corporation
 /e-orico/i
 
