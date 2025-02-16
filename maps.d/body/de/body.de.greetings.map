@@ -61,7 +61,8 @@
 /ich bin.{5,45}eine deutsche unternehmerin/i
 /ich bin.{5,35}(ceo|gründer).{1,15}von/i
 /ich bin.{1,10}(frau|fräulein|herr)/i
-/ich bin.{5,35}rechtsvertreter der familie/i
+/ich bin.{5,35}(rechts)?vertreter der familie/i
+/ich bin.{5,35}(privat|rechts)?anwalt/i
 
 # J
 

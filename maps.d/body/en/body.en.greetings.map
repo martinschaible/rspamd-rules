@@ -96,6 +96,7 @@
 
 /my name is.{5,35}i am a merchant/i
 
+/my name is.{5,35}(attorney|business|consultant|investment|investor|politician|private|us soldier)/i
 /my name is.{5,35}i am seeking/i
 /my name is.{5,25}i have.{1,10}urgent/i
 /my name is.{5,35}i serve as/i
