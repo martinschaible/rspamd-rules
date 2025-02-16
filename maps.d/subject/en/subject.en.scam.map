@@ -49,6 +49,8 @@
 /^(business|partnership).{1,10}(enquiry|inquiry|proposal)$/i
 /(business|partnership).{1,10}(assistance|offer|opportunity|proposal|proposition|response)/i
 
+/business.{1,10}discussion/i
+
 # C
 /compensation.{1,10}\d{2,4}(\.|,)?\d{3,4}/i
 /compensation.{1,10}(approval|donation|payment)/i
@@ -58,6 +60,7 @@
 /covid.{1,10}relief.?package/i
 
 # D
+/discussion.{1,10}request/i
 
 # E
 /^european commission$/i

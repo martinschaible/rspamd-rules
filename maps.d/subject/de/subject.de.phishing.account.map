@@ -50,12 +50,7 @@
 /halten sie ihr.{1,15}konto aktiv /i
 
 # I
-
-/ihr.{1,15}konto (bleibt|wird).{1,15}(gesperrt|begrenzt|verifiziert)/i
-/ihr.{1,15}konto ist in gefahr/i
-/ihr.{1,15}konto wird gesperrt/i
-/ihr.{1,15}konto wurde aufgrund ungewöhnlicher/i
-/ihr.{1,15}konto.{1,10}vorübergehende?/i
+ihr.{1,15}konto eingeschränkt/iu
 
 # J
 
@@ -65,6 +60,11 @@
 /konto stillgelegt/i
 /kontosicherheit.{1,5}ref\./i
 /kontosperrung zu vermeiden/i
+
+/konto.{1,10}(bleibt|ist|wird|wurde).{1,20}(begrenzt|deaktiviert|eingeschränkt|inaktiv|gesperrt|verifiziert)/i
+/konto.{1,10}stillgelegt/i
+/konto.{1,10}vorübergehende?/i
+/konto.{1,10}wurde aufgrund ungewöhnlicher/i
 
 # L
 
@@ -102,3 +102,5 @@
 
 # Z
 /zu ihrer kontosperrung/i
+
+/zugriff wurde.{1,15}eingeschränkt/iu
