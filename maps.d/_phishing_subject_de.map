@@ -36,10 +36,8 @@
 /konto.{1,10}erforderlich.{1,10}id/i
 /konto.{1,10}gesperrt.{1,20}(fehlgeschlagen|kontakt)/i
 /konto.{1,10}ist nicht konform/i
-/konto.{1,10}ist möglicherweise eingeschränkt/iu
 /konto.{1,10}mit einer.{1,15}sicherheitsaktualisierung/i
 
-/konto.{1,10}wird.{1,10}(bald gesperrt|begrenzt|eingeschränkt)/iu
 /konto.{1,10}wird.{1,10}sicherheitsgründen überprüft/iu
 
 /kontosperrung.{1,10}vermeiden/i
@@ -117,9 +115,6 @@
 /kredit.?karte.{1,5}de_/i
 /kreditkarteninformationen.{1,10}aktualisieren/i
 
-/ihre.{1,15}karte (ist|wurde).{1,15}(deaktiviert|eingeschränkt|inaktiv|gesperrt)/i
-/ihre.{1,15}karte.{1,10}vorübergehend.{1,10}(deaktiviert|eingeschränkt|gesperrt)/i
-
 /reaktivierung ihrer.{1,20}kredit.?karte/i
 /registrierung für gebührenfrei/i
 
@@ -138,7 +133,6 @@
 
 # Locking Account
 # ------------------------------------------------------------------------------
-/ihr (konto|vertrag).{1,15}(ist|wird|wurde).{1,10}(begrenzt|eingeschränkt|gesperrt)/i
 /ihr photo.?tan wurde blockiert/i
 
 /gesperrt.{1,10}ref.?id#/i
@@ -147,10 +141,8 @@
 /letzte warnung.{1,10}konto/i
 
 /wir haben ihre id.{1,20}gesperrt/i
-/wir ihr konto eingeschränkt/iu
 
 /zahlungserinnerung.{1,10}konto wird gesperrt/i
-/zugriff auf ihr.{1,15}konto wurde eingeschränkt/iu
 /zu ihrer sicherheit haben wir ihr.{1,15}konto/i
 
 # Confirm or reconfirm Account/Identity
@@ -211,8 +203,6 @@
 
 /deaktivierung ihrer mastercard/i
 /dringende sicherheitsüberprüfung/iu
-
-/ihr zugriff wurde.{1,15}eingeschränkt/iu
 
 /sicherheit anhand der.{1,10}anleitung bestätigen/iu
 /sicherheits.?gründen wurde ihr zugang gesperrt/iu
