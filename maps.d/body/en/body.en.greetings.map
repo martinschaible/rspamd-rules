@@ -54,6 +54,7 @@
 /good day.{1,10}trust this message/i
 
 /good (day|evening|morning).{1,15}this might come.{1,10}surprise/i
+/good (day|evening|morning) to you.{1,10}my name is/i
 
 /greetings.{1,10}my friend/i
 
@@ -103,6 +104,7 @@
 
 /my name is.{5,35}(attorney|business|consultant|investment|investor|politician|private|us soldier)/i
 /my name is.{5,35}i am seeking/i
+/my name is.{5,25}i'?a?m.{1,10}(honest|single)/i 
 /my name is.{5,25}i have.{1,10}urgent/i
 /my name is.{5,35}i serve as/i
 /my name is.{5,25}managing director/i
