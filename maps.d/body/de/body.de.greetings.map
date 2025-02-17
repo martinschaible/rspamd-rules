@@ -38,11 +38,16 @@
 /guten (abend|morgen|tag).{1,10}entschuldigen sie.{1,10}ich sie/i
 /guten (abend|morgen|tag).{1,10}ich bin (frau|herr)/i
 /guten (abend|morgen|tag).{1,10}lieber kunde/i
+/guten (abend|morgen|tag).{1,10}meine damen und herren/i
 /guten (abend|morgen|tag).{1,10}wir kontaktieren sie/i
 
+/grüße.{1,10}an sie.{1,10}ich schreibe ihnen/i
 /grüße.{1,10}betreff/iu
 /grüße.{1,10}des tages/iu
+/grüße.{1,10}ihre.{1,10}e?.?mail/i
 /grüße.{1,10}mein neuer freund/iu
+
+Ihre
 
 # H
 /hallo.{1,10}ich bin.{5,35}ceo von/iu

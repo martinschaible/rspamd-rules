@@ -21,6 +21,8 @@
 /\.[a-z]{1,4}.{1,5}security.?center/i
 /\.[a-z]{1,4}.{1,5}support.?team/i
 
+/\| system.?notification/i
+
 /(e?.?mail|webmail).{0,5}(admin|manager|notice|server|support|team)/i
 
 /admin.?it$/i
