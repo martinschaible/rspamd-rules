@@ -76,11 +76,6 @@
 # Sample: INV-PA0008132024002S.xla
 /inv-?[a-z0-9]{1,20}\.xla/i
 
-# Sample: Inquiry No.230802-02.zip
-/(enquiry|inquiry|invoice|order|quote).?(no\.)?.{0,20}\.(7z|doc|gz|htm|r11|rar|tgz|xla|xls|zip)/i
-
-/(enquiry|inquiry|invoice|order|quote).?(copy|list)\.(7z|doc|gz|htm|r11|rar|tgz|xla|xls|zip)/i
-
 # Sample: Purchase Order No.P7696.z
 /order.?no.?[a-z0-9]{1,15}\.z$/i
 # Sample: Purchase Order No.P7696 (1).z
