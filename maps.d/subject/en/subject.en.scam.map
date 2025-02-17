@@ -46,6 +46,8 @@
 /atm department/i
 
 # B
+/beneficiary.{1,10}inquiry/i
+
 /^(business|partnership).{1,10}(enquiry|inquiry|proposal)$/i
 /(business|partnership).{1,10}(assistance|offer|opportunity|proposal|proposition|response)/i
 
@@ -81,9 +83,9 @@
 # I
 /i need your.{1,10}assistance/i
 
-/immediate transfer of your.{1,10}(dollars?|euro?|usd|€|\$|£)/i
+/immediate.{1,10}transfer of your.{1,10}(dollars?|euro?|usd|€|\$|£)/i
 /important.{1,10}million/i
-/important (proposal|proposition)/i
+/important.{1,10}(beneficiary|proposal|proposition)/i
 
 /inheritance to you/i
 
