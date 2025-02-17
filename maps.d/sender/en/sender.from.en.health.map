@@ -140,6 +140,8 @@
 /(no more|stop).{0,10}ringing/i
 /noise.?free/i
 
+/tinnitus.{0,10}gone/i
+
 /(hear(ing)?|tinnitus).{0,10}(aid|cure|fix|loss|memory|noises?|restorer?|solution|symptoms|warning)/i
 
 /(bad|poor|restore).{0,10}hearing/i
@@ -403,6 +405,7 @@
 
 /dr\.?.?(derm|health)/i
 /dribbling.{0,10}urine/i
+/drink.{0,10}recipes?/i
 /dying.{0,10}signal/i
 
 # E
