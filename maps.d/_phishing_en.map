@@ -86,6 +86,9 @@
 /home warranty plans in your area/i
 /home warranty specials in your country/i
 
+# Meta
+/case.?id.{1,10}\[\d{5,20}\]your website/i
+
 # Netflix
 # ------------------------------------------------------------------------------
 /netflix cannot receive payment/i
