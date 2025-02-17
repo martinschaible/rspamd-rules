@@ -19,12 +19,13 @@
 #/inv(oice)?.?\d{0,10}\.((?!pdf$)[^.]*)/i
 #/(receipt|winner).?\d{0,10}\.((?!pdf$)[^.]*)/i
 
-/(advice|arrival.?notice|business year).{0,25}\.(7z|gz|r11|r16|rar|tar|xls|zip)/i
-/(inquiry|invoice|lading).{0,25}\.(7z|gz|r11|r16|rar|tar|xls|zip)/i
-/(order|payment|price.?list|proforma|quotation).{0,25}\.(7z|gz|r11|r16|rar|tar|xls|zip)/i
-/(receipt|request).{0,25}\.(7z|gz|r11|r16|rar|tar|xls|zip)/i
+/(advice|arrival.?notice|business year).{0,25}\.(7z|gz|html|r11|r16|rar|tar|tgz|xla|xls|zip)/i
+/(enquiry|inquiry|invoice|lading).{0,25}\.(7z|gz|html|r11|r16|rar|tar|tgz|xla|xls|zip)/i
+/(order|payment|price.?list|proforma|quotation|quote).{0,25}\.(7z|gz|html|r11|r16|rar|tar|tgz|xla|xls|zip)/i
+/(receipt|request).{0,25}\.(7z|gz|html|r11|r16|rar|tar|tgz|xla|xls|zip)/i
 
 /rechnung.{0,45}\.(7z|gz|rar|zip)/i
+/rfq\.zip/i
 
 /docu\.7z/i
 
