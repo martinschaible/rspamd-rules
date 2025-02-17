@@ -9,12 +9,13 @@
 
 # SEO
 # ------------------------------------------------------------------------------
-/seo.?(packages?|services?).{1,10}(pricing|price.?list|proposal|provider)/i
+/seo.?(packages?|services?).{1,10}(pricing|price.?list|proposal|provider|tailored)/i
 /seo.?(packages?|services?).{1,10}include/i
 /seo.?(packages?|services?).{1,10}your.{1,15}(company|(web)?site)/i
 
 /seo.?based.{1,10}(web)?site design/i
 /seo.?(bundle|success)/i
+/seo.?onsite.?(packages?|services?)/i
 
 /seo.{1,10}website design.{1,10}development/i
 /seo.{1,10}pleased to meet you/i
@@ -43,10 +44,9 @@
 
 /help improve your.{1,10}(rankings|seo)/i
 
-/full.{1,10}seo.?onsite.?services/i
+/(affordable|comprehensive|our full) seo.?(packages?|services?)/i
+/you need.{1,10}seo.?(packages?|services?)/i
 
-/comprehensive.{1,10}seo.?services?/i
-/you need.{1,10}seo.?services?/i
 /do you want.{1,10}seo/i
 /speed.?seo/i
 
@@ -59,7 +59,6 @@
 /much lower cost.{1,10}seo/i
 /my analysis of your.{1,10}(web).?site/i
 
-/our full.?seo.?package/i
 
 /our seo.?services/i
 /our (complete|comprehensive).{1,10}seo/i
