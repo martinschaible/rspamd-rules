@@ -71,6 +71,7 @@
 /(hello|hi).{1,5}(dear|friend).{1,10}we would like to introduce/i
 
 /hi.?sir/i
+/hi there.{1,10}i hope this.{1,10}message/i
 
 /hope this e?.?mail finds you well.{1,10}i.?a?m (miss|mrs?|ms)/i
 /hope this e?.?mail finds you well.{1,10}my name is/i
@@ -86,6 +87,7 @@
 /(i am|i'm) a.{1,10}importer from/i
 
 /(i am|i'm) a.{5,25}web.?development/i
+/(i am|i'm).{5,25}i am (a|the).{1,15}manager/i
 
 /(i am|i'm).{1,10}(miss|mrs?|ms).{5,25}contacting you/i
 
