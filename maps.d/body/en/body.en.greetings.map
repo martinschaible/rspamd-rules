@@ -91,6 +91,8 @@
 
 /(i am|i'm).{1,10}(miss|mrs?|ms).{5,25}contacting you/i
 
+/introduce our company/i
+
 # J
 
 # K
@@ -116,6 +118,7 @@
 # N
 
 # O
+/our company.{1,10}a.{1,15}producer of/i
 
 # P
 /purchaser.{1,10}how are you/i

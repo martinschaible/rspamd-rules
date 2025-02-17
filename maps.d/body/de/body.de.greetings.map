@@ -36,6 +36,7 @@
 /guten (abend|morgen|tag).{1,10}bitcoin/i
 /guten (abend|morgen|tag).{1,10}dieses?.{1,10}e?.?mail ist von/i
 /guten (abend|morgen|tag).{1,10}entschuldigen sie.{1,10}ich sie/i
+/guten (abend|morgen|tag).{1,10}gute nachrichten/i
 /guten (abend|morgen|tag).{1,10}ich bin (frau|herr)/i
 /guten (abend|morgen|tag).{1,10}lieber kunde/i
 /guten (abend|morgen|tag).{1,10}mein.{1,15}herr/i
@@ -67,6 +68,8 @@
 /ich bin.{1,10}(frau|fräulein|herr)/i
 /ich bin.{5,35}(rechts)?vertreter der familie/i
 /ich bin.{5,35}(privat|rechts)?anwalt/i
+
+/ihnen unser unternehmen vorzustellen/i
 
 # J
 
@@ -118,6 +121,7 @@
 # T
 
 # U
+/unternehmen vorzustellen.{1,10}einen.{1,15}hersteller/i
 
 # V
 
