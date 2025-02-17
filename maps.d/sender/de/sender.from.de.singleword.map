@@ -251,14 +251,16 @@
 /kreditsachbearbeiter/i
 /krypto$/i
 
-/kundenbefragung/i
 #/kundenbetreuung/i
 /^kunden.?(dienst|service)$/i
 /kunden-dienst/i
+
+/kundenbefragung/i
 /kundendienstes/i
 /kundennummer/i
-/kundenumfrage/i
 /kundensupport/i
+/kundenumfrage/i
+/kundenzufriedenheit/i
 
 /kunden.?(betreuung|feedback|helpdesk|id|informationen|nummer|support|unterstützung)$/iu
 /kundenservice.?team/i
@@ -510,6 +512,7 @@
 /zahlung$/i
 /zahlungsmittel/i
 
+/zufriedenheitsbefragung/i
 /zugreifen/i
 /zustellungsservice/i
 /zustellservice/i

@@ -25,6 +25,8 @@
 /bestätigung benötigt/iu
 /bestätigung.{1,15}informationsservice/iu
 
+/betreff.{1,10}zahlungserinnerung/i
+
 # Works not well, F/P
 #/bestätigung.{1,15}ihre bestellung/i
 #/bestätigung erforderlich/i
@@ -89,16 +91,18 @@
 # Q
 
 # R
-/rückerstattung.{1,10}ihre zugreise/iu
-/rückerstattung.{1,10}ihres beitrags/iu
-/rückerstattung.{1,10}ist (online|verfügbar)/iu
-/rückerstattung.{1,10}(jetzt|möglich)/iu
-/rückerstattung.{1,10}zur verfügung/iu
+/(rück)?erstattung.{1,10}ihre zugreise/iu
+/(rück)?erstattung.{1,10}ihres beitrags/iu
+/(rück)?erstattung.{1,10}ist (online|verfügbar)/iu
+/(rück)?erstattung.{1,10}(jetzt|möglich)/iu
+/(rück)?erstattung.{1,10}zur verfügung/iu
 
 # S
-/sie haben anspruch.{1,15}rückerstattung/iu
+/sie haben anspruch.{1,15}(rück)?erstattung/iu
 
-/sie ihre.{1,15}rückerstattung/iu
+/sie haben.{1,10}anspruch auf (rück)?erstattung/i
+/sie ihre.{1,15}(rück)?erstattung/iu
+/sie uns den.{1,10}(rück)?erstattungsantrag/i
 
 # T
 
