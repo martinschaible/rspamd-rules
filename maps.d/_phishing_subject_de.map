@@ -240,7 +240,6 @@
 
 /ihr.{1,10}banking.{1,15}authentifizierungsdienst/i
 
-/(aktivieren|aktualisieren|aktivierung|entdecken|sicherheit).{1,20}(photo|push).?tan/i
 /wichtiges update.{1,15}(photo|push).?tan/i
 /neues?.{1,10}(photo|push).?tan/i
 
@@ -802,10 +801,6 @@ letzter gewinner/i
 
 # Unclassified
 # ------------------------------------------------------------------------------
-/(dringend|wichtig).{1,10}aktualisierung ihrer/i
-/(dringend|wichtig).{1,10}registrieren sie sich jetzt/i
-/(dringend|wichtig).{1,10}zahlungsdetails/i
-
 /(dringende|wichtige) aufforderung.{1,10}aktualisieren sie ihr /i
 
 /(handeln|handlung) erforderlich.{1,10}(dauernde|sperrung)/i
