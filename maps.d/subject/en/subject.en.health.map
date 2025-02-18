@@ -95,7 +95,7 @@
 
 /(burn|drop|erase|lose|melt|shed).{1,10}(belly|more).?(fat|flab)/i
 /(burn|drop|erasel|ose|melt|shed).{1,10}(lbs|pounds|weight)/i
-/(burn|drop|erase|lose|melt|shed).{1,10}fat.{1,15}(easily|exercise|fast|with this|without)/i
+/(burn|drop|erase|lose|melt|shed).{1,10}fat.{1,15}(activate|easily|exercise|fast|with this|without)/i
 /(burn|drop|erase|lose|melt|shed).{1,10}fat.{1,15}scientists/i
 
 /bladder leaks/i
@@ -366,7 +366,7 @@
 /this for.{1,10}seconds/i
 /this.{1,10}your ears/i
 
-/tinnitus relief/i
+/tinnitus.{1,10}(discovery|relief)/i
 
 /transform your.{1,15}(body|health)/i
 
@@ -382,6 +382,7 @@
 # V
 
 # W
+/wants.{1,10}burn fat/i
 /weird stretch/i
 
 /with.{1,10}simple drink/i

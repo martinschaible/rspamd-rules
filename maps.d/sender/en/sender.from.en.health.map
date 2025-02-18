@@ -140,7 +140,7 @@
 /(no more|stop).{0,10}ringing/i
 /noise.?free/i
 
-/tinnitus.{0,10}gone/i
+/tinnitus.{0,10}(gone|truth)/i
 
 /(hear(ing)?|tinnitus).{0,10}(aid|cure|fix|loss|memory|noises?|restorer?|solution|symptoms|warning)/i
 
@@ -548,7 +548,7 @@
 /neck.{0,10}skin/i
 /nerves?.{0,10}(comfort|health|pain|recovery|repair|revival)/i
 /never eat/i
-/new.{0,10}(hair|research)/i
+/new.{0,10}(energy|hair|research)/i
 
 /nightmare.{0,10}pee/i
 
