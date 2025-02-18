@@ -53,7 +53,7 @@
 # F
 /fett.{0,10}schnell/i
 
-/fit.{0,10}(pro|trainer)/i
+/fit.{0,10}(maker|pro|trainer)/i
 /(fuss|fuß).{0,10}(pflaster|pro)/iu
 
 # G
@@ -61,7 +61,7 @@
 
 /gesund.?heute/i
 /gesunde.{0,10}(augen|ohren)/i
-/gewichts?.{0,10}(verlust|verliert)/i
+/gewichts?.{0,10}verliert/i
 
 # H
 /haar.{0,10}(ausfall|wachstum)/i
@@ -87,7 +87,7 @@
 /massage.{0,10}pflaster/i
 /medizin.{0,10}(shop|zukunft)/i
 
-/muskeln?.{0,10}(fit|start|team)/i
+/muskeln?.{0,10}(fit|start|team|up)/i
 
 # N
 /natürlich.{0,10}vital/i

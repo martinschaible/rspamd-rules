@@ -130,10 +130,12 @@
 /einsparungen/i
 
 /erektion/i
+/erfahrungsumfrage/i
 /erinnerung/i
 /erstattung/i
 
 # F
+/feedbackteam/i
 /fettleibigkeit/i
 /^fenstern?$/i
 
@@ -176,6 +178,8 @@
 /gesundheitsnachrichten/i
 /gesundheitstipps/i
 /gesundheitszentrum$/i
+
+/gewichts?.?verlust/i
 
 /gewinner(in)?/i
 /gewinn(er)?.?(deklaration|erklarung|erklärung|team)/i
@@ -256,13 +260,15 @@
 /kunden-dienst/i
 
 /kundenbefragung/i
+/kundenbetreuung/i
 /kundendienstes/i
+/kundenfeedback/i
 /kundennummer/i
 /kundensupport/i
 /kundenumfrage/i
 /kundenzufriedenheit/i
 
-/kunden.?(betreuung|feedback|helpdesk|id|informationen|nummer|support|unterstützung)$/iu
+/kunden.?(helpdesk|id|informationen|unterstützung)$/iu
 /kundenservice.?team/i
 
 /küchenhelfer/iu
@@ -299,6 +305,8 @@
 /mehrsprachig/i
 /meldungsservice/i
 /methode/i
+
+/mitgliederengagement/i
 /mitgliedschaft/i
 /mitgliedsumfrage/i
 
@@ -342,6 +350,7 @@
 
 /prämien?/i
 #/präsident/iu
+/preisabteilung/i
 /preisträger/i
 
 /pramie/i
@@ -368,6 +377,7 @@
 /rundfunkbeitrag/i
 /rundfunkservice/i
 
+/rückmietverkauf/i
 /rückerstattung/i
 
 # S

@@ -44,6 +44,10 @@
 # C
 
 # D
+/(dringend|wichtig).{1,10}aktualisierung ihrer/i
+/(dringend|wichtig).{1,10}registrieren sie sich/i
+/(dringend|wichtig).{1,10}zahlungsdetails/i
+
 /dringende information.{1,10}korrektur/i
 
 # E
@@ -118,6 +122,7 @@
 /wichtige?.{1,10}kontowarnung/i
 /wichtige?.{1,10}(konto|profil).?informationen/i
 
+/wichtige?.{1,10}mitteilung.{1,10}aktualisierung ihrer/i
 /wichtige?.{1,10}registrierung.{1,10}mastercard/i
 
 /wichtige?.{1,10}sicherheitsanpassung/i

@@ -30,7 +30,7 @@
 
 # Message
 # ------------------------------------------------------------------------------
-/(aktuelle|neue|offizielle|wichtige).{0,5}(mitteilung|nachricht)/i
+/(aktuelle|neue|offizielle|wichtige).{0,10}(mitteilung|nachricht)/i
 
 /(mitteilung|nachricht).{0,5}(des|vom|von)/i
 
@@ -99,7 +99,6 @@
 # M
 
 # N
-/nachricht von/i
 /nicht.{1,10}verpassen/i
 
 # O
