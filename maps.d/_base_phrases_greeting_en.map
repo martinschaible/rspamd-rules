@@ -82,7 +82,6 @@
 /(dear|hi) my.{1,10}customer/i
 
 /dear.{1,10}(madam|purchaser|sir).{1,15}are you interested in/i
-/dear.{1,10}(madam|purchaser|sir).{1,15}glad to (contact|know|write) you/i
 /dear.{1,10}(madam|purchaser|sir).{1,15}(how are you|this is)/i
 /dear.{1,10}(madam|purchaser|sir).{1,15}please find attached/i
 /dear.{1,10}(madam|purchaser|sir).{1,15}guten tag/i
@@ -146,7 +145,6 @@
 /greetings?.{1,10}to you.{1,10}reply to/i
 /greetings?.{1,10}to you.{1,10}i.?a?m (mrs?|ms)/i
 
-/hello.{1,10}glad to (connect|write to you)/i
 /hello.{1,10}i have urgent information/i
 /hello.{1,15}introduction/i
 /hello.{1,15}this e?.?mail finds you well/i
