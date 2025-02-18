@@ -131,7 +131,7 @@
 /airline customer survey/i
 
 # Companies A to C
-/(aaa|a.?d.?a.?c|ace|aldi|autozone|costco|cvs|delta).{0,25}(clearances?|confirmation|coupon|deals|delivery|department)/i
+/(aaa|a.?d.?a.?c|ace|aldi|autozone|costco|cvs|delta).{0,25}(clearances?|confirmation|coupon|delivery|department)/i
 /(aaa|a.?d.?a.?c|ace|aldi|autozone|costco|cvs|delta).{0,25}(experience|feedback|gift.?card|giveaways?|opinion|renewal|rewards?)/i
 /(aaa|a.?d.?a.?c|ace|aldi|autozone|costco|cvs|delta).{0,25}(shipping|shipment|shopper|surprise|unlocked|values|winner)/i
 
