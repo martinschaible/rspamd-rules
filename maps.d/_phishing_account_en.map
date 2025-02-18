@@ -14,6 +14,7 @@
 /finalize your account update/i
 
 /important account (alert|update)/i
+/important update notification.{1,10}dear/i
 
 /review.{1,10}protect your.{1,15}account/i
 /your.{1,15}account.{1,15}appears to be.{1,10}missing.{1,10}incorrect/i
@@ -26,6 +27,8 @@
 /your.{1,15}account.{1,15}below to avoid.{1,10}permanent account/i
 /your.{1,15}account.{1,15}regain access.{1,15}complete.{1,10}required/i
 /your.{1,15}account.{1,15}review payment details/i
+
+/your.{1,15}account.{1,30}is scheduled to be closed/i
 
 /we placed.{1,15}hold on your.{1,15}account/i
 
