@@ -36,6 +36,8 @@
 /good (day|morning):/i
 /good day (madam|sir)/i
 
+/good day.{1,10}my.{1,10}friend/i
+
 /greetings?.{1,10}(in the name of god|to you)/i
 
 # H

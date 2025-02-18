@@ -62,6 +62,13 @@
 /\/[a-z]{1,15}\.index\.html/i
 /\/[a-z]{0,10}keto[a-z]{0,10}\.html/i
 
+# Domain name. path and file
+# ------------------------------------------------------------------------------
+# -> avoiding false/positives with this
+
+# 18.02.25 - Sample: https://storage.googleapis.com/9743934b507eab2/lf220.html
+/\.googleapis\.com\/[a-z0-9]{5,20}\/[a-z0-9]{5,20}\.html
+
 # Files with a very long filename
 # ------------------------------------------------------------------------------
 
@@ -69,6 +76,8 @@
 
 # 15 as a start is to low, trying 20
 #/\/[a-z0-9]{20,50}\.html?/i
+
+
 
 # Files with strange names
 # ------------------------------------------------------------------------------

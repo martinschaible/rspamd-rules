@@ -103,6 +103,7 @@
 /spenden?.{1,10}\d{3}.{0,5}\d{3}.{1,10}an sie/i
 /spenden?.{1,10}anforderung.{1,10}wenden sie sich/i
 /spenden?.{1,10}anfordern.{1,10}kontaktieren Sie/i
+/spenden?.{1,20}ausgewählt.{1,10}antworten sie/i
 /spenden?.{1,10}ernsthaften.{1,10}ehrlichen/i
 /spenden?.{1,10}(annehmen|anzunehmen).{1,10}antworten sie/i
 /spenden?.{1,10}antworten sie mit ihren/i
@@ -222,6 +223,7 @@
 
 /ihren zuschuss zu beantragen/i
 /informationen zum erhalt ihrer.{1,15}spende/i
+/investitions?.{1,5}spenden?/i
 
 /(ich|sie) haben? eine.{1,15}spende.{1,10}(in höhe)?.{0,10}von.{2,10}\d{3}.{0,5}\d{3}/iu
 /(ich|sie) haben? eine.{1,15}spende.{1,10}(in höhe)?.{0,10}von.{2,10}million/iu

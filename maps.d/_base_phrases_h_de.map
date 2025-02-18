@@ -87,6 +87,8 @@
 
 # E-Mail active/correct
 # ------------------------------------------------------------------------------
+/wenn dies ihre gültige.{1,10}e?.?mail.?adresse ist/iu
+
 /(bestätigen sie|sie mir.{1,10}mitteilen).{1,15}(diese|ihre).{1,10}e?.?mail.{1,15}aktiv ist/iu
 
 /ist (diese|ihre).{1,10}e?.?mail.{1,10}noch (aktiv|gültig)/i

@@ -111,7 +111,7 @@
 
 # C
 /calories.{1,10}belly fat/i
-/cause of.{1,10}(dementia|joint pain)/i
+/cause of.{1,10}(dementia|joint pain|memory.?loss)/i
 
 /celebrity.?secret/i
 /clear.{1,10}nails/i
@@ -339,8 +339,10 @@
 /solution.{1,10}for.{1,10}(digestion|ed)/i
 
 /stable blood sugar/i
+/start melting/i
 /stubborn.{1,10}(fat|mucus)/i
 
+/stop dieting/i
 /stop (taking|using) this/i
 /stop memory loss/i
 
