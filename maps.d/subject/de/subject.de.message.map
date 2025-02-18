@@ -79,12 +79,15 @@
 # S
 /^sehr wichtig$/i
 
+/sie haben.{1,10}ungelesene nachricht(en)?/i
+
 /(sie|wir) haben eine.{1,15}nachricht/i
 /(sofort|unverzüglich) öffnen/iu
 
 # T
 
 # U
+/ungelesene nachrichten!/i
 
 # V
 
