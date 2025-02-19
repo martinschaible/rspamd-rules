@@ -29,6 +29,8 @@
 # E
 /e.?bike.{0,10}hersteller/i
 
+/exklusive.{0,10}ersparnisse/i
+
 # F
 /frische.{0,10}luft/i
 
@@ -86,9 +88,11 @@ ihr.{0,10}wifi/i
 /sicher.{1,15}zuhause/i
 /sicherheits?.{0,10}profis/i
 
-/smart.?(protect|security)/i
-/solar.?(aktion|angebot|lösungen)/i
+/smart.{0,10}(protect|security)/i
+/solar.{0,10}(aktion|angebot|lösungen)/i
+
 /sprach.?(genie|ki|meister|tool)/i
+/sprechen.{0,10}(direkt|echtzeit|jetzt|lotse)/i
 
 # T
 /topcam.{0,10}(angebot|profis)/i
