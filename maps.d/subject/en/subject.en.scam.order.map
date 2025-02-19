@@ -1,0 +1,95 @@
+# ==============================================================================
+# Language: english
+# Weight:   6.0
+# ==============================================================================
+
+
+# Topics
+# ==============================================================================
+
+#
+#
+#
+
+# Generic
+# ==============================================================================
+
+# A
+
+# B
+/(brochure|catalog|catalogue).{1,10}request/i
+
+# C
+
+# D
+
+# E
+
+# F
+
+# G
+
+# H
+
+# I
+/invitation to tender/i
+
+# J
+
+# K
+
+# L
+
+# M
+
+# N
+/-.?new order/i
+/new rfq/i
+
+# O
+/order request.{1,10}(new|project)/i
+
+# P
+/po.?file via wetransfer/i
+/project.?inq no/i
+
+/purchase order.{1,10}p\.o\./i
+
+# Q
+/quotation.?rfq/i
+
+# R
+/request for offer/i
+/request for quotation from/i
+/request.?quotation/i
+
+/rfq.{1,15}po.{1,5}requirements/i
+/rfq-?.?\d{2,10}/i
+/rfq\//i
+/rfq.{1,5}p\.?o/i
+
+/rfq needed asap/i
+
+# S
+
+# T
+
+# U
+/^urgent inquiry$/i
+
+/urgent project/i
+/urgent request.{1,10}quote/i
+/urgent rfq.{1,25}offer/i
+
+# V
+/vendor procurement project/i
+
+# W
+
+# X
+
+# Y
+/you have.{1,10}new.{1,15}inquiry/i
+/you have.{1,10}received.{1,10}new po/i
+
+# Z
