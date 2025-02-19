@@ -16,7 +16,9 @@
 
 /e.?bike.?pro/i
 
-/(about|battery|deals|expand|germany|interested|next|premium|seamless|shipping|our latest).{1,15}e.?bike/i
+/(about|battery|deals|expand|germany|interested).{1,15}e.?bike/i
+/(next|portable|premium|seamless|shipping|stylish|trusted|our latest).{1,15}e.?bike/i
+
 /(in|with) our.{1,10}e.?bike/i
 /your.{1,10}e.?bike/i
 

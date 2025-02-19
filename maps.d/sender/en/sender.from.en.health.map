@@ -566,7 +566,7 @@
 /\bpecker$/i
 /pelvic.{0,10}recovery/i
 /penis.{0,10}(muscle|ritual)/i
-/perfect.{0,10}smile/i
+/perfect.{0,10}(sleep|smile)/i
 
 /pharmas?.{0,10}secret/i
 /pinched.{0,10}nerves?/i
@@ -618,6 +618,8 @@
 /sight.{0,10}care/i
 /silence.{0,10}buzzing/i
 /silent.{0,10}danger/i
+
+/sleep{0,10}position/i
 
 /(slim|skinny).{0,10}waist/i
 /slim.{0,10}drink/i

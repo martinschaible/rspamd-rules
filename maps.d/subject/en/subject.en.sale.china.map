@@ -27,6 +27,9 @@
 
 # C
 /capacitor.{1,10}(resistor|special) offer/i
+
+/chips.{1,10}competitive prices/i
+
 /cnc.{1,10}precision parts/i
 /cnc.{1,10}machining/i
 /(design|manufacture|you need).{1,15}pcba?/i
@@ -69,6 +72,8 @@
 
 # M
 /manufacturer of.{5,25}since/i
+/manufacturer from.{1,10}china/i
+
 /multilayer pcba?.{1,10}manufacturing/i
 /multiple freight solutions/i
 

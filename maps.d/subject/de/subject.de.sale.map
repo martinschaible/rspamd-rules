@@ -29,7 +29,9 @@
 
 /unser neues.{1,10}e.?bike/i
 /mit (einem|unserem).{1,10}e.?bike/i
-/(bestes?|entdecken|leistungsstark|modernen|neuesten|perfektes?|richtigen).{1,10}e.?bike/i
+
+/(bestes?|entdecken|leistungsstark|modernen|neuesten).{1,10}e.?bike/i
+/(perfektes?|richtigen|stylische|tragbare).{1,10}e.?bike/i
 
 /retro.?cruiser.{1,5}ebike/i
 /moped.{1,5}(cruiser|e.?bikes?)/i

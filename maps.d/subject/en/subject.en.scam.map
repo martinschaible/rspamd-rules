@@ -6,25 +6,6 @@
 # Topics
 # ==============================================================================
 
-# Orders (Temporary)
-# ------------------------------------------------------------------------------
-/(brochure|catalog|catalogue).{1,10}request/i
-/urgent request.{1,10}quote/i
-
-/rfq.{1,15}po.{1,5}requirements/i
-/rfq-?.?\d{2,10}/i
-/rfq\//i
-/rfq.{1,5}p\.?o/i
-
-/-.?new order/i
-
-/new rfq/i
-
-/quotation.?rfq/i
-/request.?quotation/i
-/request for quotation from/i
-/vendor procurement project/i
-
 # People (Temporary)
 # ------------------------------------------------------------------------------
 /maria.?elisabeth schaeffler/i
@@ -89,20 +70,18 @@
 
 /inheritance to you/i
 
-/^inquiry$/i
 /inquiry.{1,10}investment/i
 /inquiry.{1,15}about your products/i
 
 /internet crime complaint center/i
 
 /invest in your.{1,10}(business|company|project)/i
+
 /investment.{1,10}(deal|funds|partnership)/i
 /investment.{1,10}fund of/i
 /investment.{1,10}(business|proposal)/i
 
 /^investment.{1,10}partner(ship)?$/i
-
-/invitation to tender/i
 
 # J
 
@@ -116,16 +95,13 @@
 # N
 
 # O
-/order request.{1,10}(new|project)/i
 
 # P
-/po.?file via wetransfer/i
 
 /partnership.{1,10}(proposal|request)/i
 
 /potential.{1,10}business.{1,10}opportunity/i
 
-/project.?inq no/i
 /project.{1,10}financial.{1,10}support/i
 /project.?workable/i
 
@@ -135,13 +111,9 @@
 
 /proposition.{1,10}business/i
 
-/purchase order.{1,10}p\.o\./i
-
 # Q
 
 # R
-/request for offer/i
-/rfq needed asap/i
 
 # S
 /seeking.{1,10}your.{1,10}assistance/i
@@ -157,11 +129,8 @@
 /urgent assistance required/i
 /urgent.{1,20}transaction/i
 
-/urgent project/i
-/urgent rfq.{1,25}offer/i
-/^urgent inquiry$/i
-
 # V
+/viable business plan/i
 
 # W
 /we.{1,10}offering grants/i
@@ -174,12 +143,9 @@
 # Y
 /yellow.?pages.{1,15}registration/i
 
-/you have.{1,10}new.{1,15}inquiry/i
-
 # Mail
 /you have.{1,5}\d{1,2}.{1,5}pending/i
 
-/you have received.{1,10}new po/i
 /your.{1,10}atm.?card/i
 /your.{1,10}e?.?mail.{1,15}has.{1,15}been.{1,15}selected/i
 /your.{1,10}e?.?mail.?id/i

@@ -135,7 +135,6 @@ Folder structure:
      |   |- subject.de.finance.map
      |   |- subject.de.greetings.map
      |   |- subject.de.health.map
-*    |   |- subject.de.order.map
      |   |- subject.de.phishing.map
      |   |- subject.de.phishing.account.map
      |   |- subject.de.phishing.alertaction.map
@@ -152,6 +151,7 @@ Folder structure:
      |   |- subject.de.scam.map
      |   |- subject.de.scam.bignumbers.map
      |   |- subject.de.scam.donation.map
+     |   |- subject.de.scam.order.map
      |   |- subject.de.scam.winning.map
      |   |- subject.de.singleword.map
      |   |- subject.de.singleword.ucase.map
