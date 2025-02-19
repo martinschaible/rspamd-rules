@@ -74,7 +74,6 @@
 # ------------------------------------------------------------------------------
 /antworten sie auf den anspruch/i
 /beschaffungsdienstleistungsunternehmen/i
-/uberprufen/i
 /rückerstattungsverfahren/iu
 
 /aufrichtig.{1,10}202\d/i
@@ -100,7 +99,6 @@
 /(attraktives|ein|freundliches|interessantes|romantisches).{1,15}madchen/i
 
 /erwachsenen.?websites?/i
-/heimlicheaffaere/i
 /ich mochte/i
 /kontaktfreudig deutche/i
 /riesige menge frauen/i
@@ -114,7 +112,6 @@
 
 # Health
 # ------------------------------------------------------------------------------
-/hautanhänger/i
 /männliche verbesserung/i
 
 # Make Money
@@ -122,15 +119,6 @@
 /anmelden.{1,10}untersuchen/i
 /beschleunigtes.{1,10}einkommen/i
 /einkommen zu beschleunigen/i
-
-/geldverdienprogramm/i
-/geldverdiengeheimnis/i
-
-/indexfonds/i
-/kryptowahrungen/i
-
-/verschlüsselungsgeld/i
-/wohlstandsgenerierung/i
 
 # Phishing
 # ------------------------------------------------------------------------------
@@ -216,13 +204,7 @@
 /du wurdest auserwahlt/i
 /sie wurden ausgewahlt/i
 
-/einlöseplattform/iu
-/einlöseportal/iu
-/geschenkkartencode/i
-/gewinnerdeklaration/i
-/gluckwunsche/i
 /glückliche chance/i
-/maximalablauf/i
 
 #
 /aufrichtig.{1,10}paypal/i
@@ -234,19 +216,12 @@
 
 # Scam
 # ------------------------------------------------------------------------------
-/ansprüchendaten/iu
-/aufmerksamkeitsfonds/i
-/aufmerksamkeit.?!/i
-
-/familienerbfonds/i
-
 /debitkarten.?prämie/iu
 /dringende.{1,10}geschäftsmöglichkeit/iu
 
 /entschädigungs.?lotterie.?preis/i
 /entschädigungs.?(bankomat|geldautomaten).?karte/iu
 /entschädigungs.?kommission/i
-/erbschaftsübertragung/iu
 
 /ich suche ihre dienste als partner/i
 /ihr geld zu täuschen/iu
@@ -256,12 +231,10 @@
 /mit ihrem namen verknüpft ist/iu
 /nachnamen angehängt/iu
 
-/partnerschaftsinvestition/i
 /unterabteilung fedpol/i
 /übertragung genehmigter mittel/iu
 
 /vertrauliches geschäftsabkommen/iu
-/entschädigungskarte/iu
 
 /wenden sie sich.{1,10}an meine e.?mail.?adresse/i
 
@@ -270,7 +243,6 @@
 /achtung.{1,10}gültiger kunde/iu
 /antworten sie auf weitere einzelheiten/i
 
-/begunstigter/i
 /behauptung dieser spende zu/i
 
 /finanziel unterstützung/iu
@@ -282,9 +254,6 @@
 /sie mit ihren anspruchsdetails/i
 /wir einen spendenvorschlag für sie erstellt/iu
 
-/zufallsauswahlrad/i
-/zuwendungsspende/i
-
 # Virus and Malware
 # ------------------------------------------------------------------------------
 /virus in ihrem gerät/iu
@@ -295,18 +264,15 @@
 
 # Weightloss
 # ------------------------------------------------------------------------------
-/abnehmangebot/i
 /gewichtsverlust.{1,10}produkt/i
 /ohne diat/i
 /schlankheits.{0,10}(dimension|gummis)/i
 
 # Winning and Lottery
 # ------------------------------------------------------------------------------
-/auszahlungsabteilung/i
 /benachrichtigung des preisgewinns/i
 /gewinnende nummer/i
 /gewinnspiel.?zentrale/i
-/gluckwunsche/i
 
 /ihre anmeldedaten wurden ausgewählt/iu
 
