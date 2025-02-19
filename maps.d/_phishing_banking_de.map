@@ -8,6 +8,7 @@
 # Cards
 # ------------------------------------------------------------------------------
 /credit.?card für sie weiterentwickelt/i
+/(debit|kredit)?karte.{1,10}sehr geehrter?/i
 
 /kredit.?karten.{1,10}score auf den betrug/i
 /kredit,?karteninformationen aktualisieren/i
