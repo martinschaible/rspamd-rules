@@ -16,6 +16,9 @@
 /(background|src)=.{0,5}https:\/\/drive\.google\.com/i
 /(background|src)=.{0,5}https:\/\/storage\.googleapis\.com/i
 
+# Stupid anyway
+/(background|src)=.{0,5}https?:\/\/google\.com/i
+
 # Facebook
 # ------------------------------------------------------------------------------
 

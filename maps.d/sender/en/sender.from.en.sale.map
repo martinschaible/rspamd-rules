@@ -23,6 +23,7 @@
 # B
 /boom of sales/i
 
+/business.{0,10}(growth|leads?)/i
 
 # C
 /canvas.?prints/i
@@ -30,6 +31,7 @@
 
 # D
 /deal.{0,10}alarm/i
+/(designer|discount|rolex|top).?watch(es)?/i
 
 /don.?t miss out/i
 /door.{0,10}(camera|ringer)/i
@@ -39,6 +41,9 @@
 /e.?bike.?pro/i
 
 /elon.{0,10}device/i
+
+/email.?marketing/i
+
 /energy.{0,10}(bill|saver)/i
 /esaver/i
 
@@ -59,6 +64,7 @@
 
 # I
 /instant.{0,10}access/i
+/instant.{0,10}quotes?/i
 
 /ip.?tv.{1,10}(channels|movies|offer|today)/i
 
@@ -67,13 +73,14 @@
 /i p t v/i
 
 # J
+/japanese.{0,10}insoles/i
 
 # K
 
 # L
+/limited time/i
 /local.?seo/i
-
-/limited time only/i
+/luxury.?(collections?|watch(es)?)/i
 
 # M
 /mini.{0,10}heater/i
@@ -131,6 +138,8 @@
 
 # W
 /wasting.{0,10}money/i
+/watch(es)?.?online/i
+
 /website.{0,10}seo/i
 
 # X
