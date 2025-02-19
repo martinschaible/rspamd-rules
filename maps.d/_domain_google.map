@@ -35,8 +35,6 @@
 # Sample: https://www.google.com/amp/s/%63%67%61
 #/https:\/\/(www\.)?google\.com\/.[a-z]{1,5}\/.[a-z]{1,5}/i
 
-/\.storage\.googleapis\.com/i
-
 # Sample: http://google.com          ILMO2CLBAO71WBKPWOYC2EPS8HG5F6P0LI34VWAI8S
 /http:\/\/(www\.)?google\.com\s{1,15}[a-zA-Z0-9]{1,15}/i
 

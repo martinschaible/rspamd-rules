@@ -79,11 +79,3 @@
 # HTML attribute
 /src=(3d)?.?https:\/\/i\.imgur\.com\//i
 /src=(3d)?.?https:\/\/(blogger|ci3)\.googleusercontent\.com\//i
-#
-#
-#
-
-# Google
-# ------------------------------------------------------------------------------
-<img src=(3d)?.{0,10}https:\/\/drive\.google\.com/i
-<img src=(3d)?.{0,10}https:\/\/storage\.googleapis\.com/i
