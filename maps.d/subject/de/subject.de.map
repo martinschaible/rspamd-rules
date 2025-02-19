@@ -29,6 +29,7 @@
 /(dollar|euro?|gbp|usd|€|\$|£).{1,10}dividendenauszahlung/i
 
 # A
+/antwort von einem freund/i
 
 # B
 /beeilen sie sich/i
@@ -51,7 +52,6 @@
 
 /entschuldigung sie bitte/i
 
-/erforderliche aktion/i
 /erinnerung.{1,10}angebot/i
 
 # F

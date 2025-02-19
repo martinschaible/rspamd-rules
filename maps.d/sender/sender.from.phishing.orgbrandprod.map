@@ -128,6 +128,7 @@
 /dhl-paket$/i
 /dhl.{0,5}\d{1,2}/i
 /dhl.{0,5}kundenservice/i
+/dhl.{0,5}logistik.?team/i
 /dhl.{0,5}paketstatus/i
 /dhl.{0,5}paketzentrum/i
 /dhl.{0,5}(express|germany|messages?|package|team|tracking|your)/i

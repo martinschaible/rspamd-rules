@@ -7,6 +7,8 @@
 
 # Unsubscribe
 # ------------------------------------------------------------------------------
+/(advertisement|promotion).{1,15}if you decide you.{1,20}receive e?.?mails/i
+
 /from out mailing.?list.{1,10}do so by clicking/i
 /if you doesn?.?t.{1,10}like this.{1,10}please.{1,10}(click here|tab me)/i
 
@@ -51,6 +53,7 @@
 
 # Unclassified
 # ------------------------------------------------------------------------------
+/this e?.?mail should be considered as advertisement/i
 /with the message.{1,10}i am not interested/i
 /you are not interested.{1,10}we would appreciate it if you/i
 /your data has been collected in accordance with/i

@@ -416,6 +416,8 @@
 /erase.{0,10}cavities/i
 
 /(exotic|kitchen).{0,10}spice/i
+
+/expert.{0,10}recommendation/i
 /extend.{0,10}life/i
 
 /eye.{0,10}(cell|check|exercise|surgery)/i
@@ -445,7 +447,8 @@
 /fountain of/i
 
 /food.{0,10}(cravings?|choices?|odor|trap)/i
-/foot.{0,10}care/i
+/foot.{0,10}(care|patch(es)?)/i
+
 /fried.{0,10}chicken/i
 /fruit.{0,10}mistake/i
 
@@ -524,7 +527,7 @@
 /mental.{0,10}clarity/i
 
 /midnight.{0,10}bathroom/i
-/mind.?blow/i
+/mind.{0,10}(blow|clarity)/i
 /mineral.{0,10}combination/i
 
 /mitochondria.{0,10}boost/i
@@ -619,7 +622,7 @@
 /silence.{0,10}buzzing/i
 /silent.{0,10}danger/i
 
-/sleep{0,10}position/i
+/sleep.{0,10}position/i
 
 /(slim|skinny).{0,10}waist/i
 /slim.{0,10}drink/i

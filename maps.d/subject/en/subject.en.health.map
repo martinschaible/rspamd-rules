@@ -176,8 +176,8 @@
 /energized.{1,10}pain.?free/i
 /enhance your.{1,20}(energy|hearing|vitality)/i
 
-/eliminate.{1,15}without meds/i
-/eliminates type 2/i
+/eliminates?.{1,15}without meds/i
+/eliminates?.{1,10}(nerve|type 2)/i
 
 /erases?.{1,10}(artery plaque|tinitus)/i
 /erections?.{1,10}pill/i
@@ -320,6 +320,7 @@
 /save your.{1,10}(exe.?sight|nails)/i
 /say goodbye to.{1,15}pain/i
 
+/scientifically proven/i
 /scientists confirm.{1,10}(this|works)/i
 
 /second.{1,10}(home remedy|stretch)/i

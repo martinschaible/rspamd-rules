@@ -51,6 +51,8 @@
 
 # P
 /po.?file via wetransfer/i
+
+/product.{1,10}(inquiry|pricing).{1,10}shipping/i
 /project.?inq no/i
 
 /purchase order.{1,10}p\.o\./i
@@ -71,6 +73,7 @@
 /rfq needed asap/i
 
 # S
+/shipping.{1,10}order terms/i
 
 # T
 
