@@ -75,6 +75,7 @@
 # X
 
 # Y
-/you have.{1,10}unread (e?.?mail|message) from/i
+/you have.{1,10}failed.{1,10}e?.?mail deliveries/i
+/you have.{1,10}unread.{1,10}(e?.?mail|message) from/i
 
 # Z
