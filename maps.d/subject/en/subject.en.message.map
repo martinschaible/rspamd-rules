@@ -8,6 +8,9 @@
 
 # Attention, Important, Urgent
 # ------------------------------------------------------------------------------
+
+/attn::/i
+
 /(attn|attention).{1,10}attention/i
 
 /(attn|attention).{1,10}e?.?mail.?(address|id).?owner/i
