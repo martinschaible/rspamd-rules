@@ -1,0 +1,93 @@
+# ==============================================================================
+# Language: english
+# Weight:   6.0
+# ==============================================================================
+
+# Topics
+# ==============================================================================
+
+#
+#
+#
+
+# Generic
+# ==============================================================================
+
+# A
+
+# B
+
+# C
+
+# D
+
+# E
+
+# F
+
+# G
+
+# H
+
+# I
+/i'?\s*a?m\b a.{1,10}(financial|representative|senior)/i
+
+/i'?\s*a?m\b a.{1,10}manager/i
+/i'?\s*a?m\b a.{1,10}(development|investment|sales|senior|portfolio|purchasing).{1,10}manager/i
+/i'?\s*a?m\b a.{1,10}importer from/i
+
+/i'?\s*a?m\b a.{5,25}web.?development/i
+/i'?\s*a?m\b.{5,25}i am (a|the).{1,15}manager/i
+
+/i'?\s*a?m\b.{1,10}(miss|mrs?|ms).{5,25}contacting you/i
+
+/introduce our company/i
+
+# J
+
+# K
+
+# L
+
+# M
+/my names (are|is) mrs?/i
+
+/my name is.{5,35}i am a merchant/i
+
+/my name is.{5,35}(attorney|business|consultant|investment|investor|politician|private|us soldier)/i
+/my name is.{5,25}i'?\s*a?m\b.{1,10}(honest|seeking|single)/i 
+/my name is.{5,25}i have.{1,10}urgent/i
+/my name is.{5,35}i serve as/i
+/my name is.{5,25}managing director/i
+/my name is.{5,35}(vendor|registration|solicitor)/i
+/my name is.{5,25}represent(ing)?/i
+
+# N
+
+# O
+/our company.{1,10}a.{1,15}producer of/i
+
+# P
+
+# Q
+
+# R
+/represent a.{1,10}(based|company|group)/i
+/represent an agency/i
+/represent mrs?\./i
+
+# S
+
+# T
+
+# U
+
+# V
+
+# W
+
+# X
+
+# Y
+
+# Z
