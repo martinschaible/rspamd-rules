@@ -32,8 +32,6 @@
 # F
 
 # G
-/glückwunsch.{1,15}mein name ist/i
-
 /guten (abend|morgen|tag).{1,10}begünstigter/iu
 /guten (abend|morgen|tag).{1,10}bitcoin/i
 /guten (abend|morgen|tag).{1,10}dieses?.{1,10}e?.?mail ist von/i
@@ -66,13 +64,6 @@
 /hochachtungsvolle grüße/iu
 
 # I
-/ich bin.{5,45}eine deutsche unternehmerin/i
-/ich bin.{5,35}(ceo|gründer).{1,15}von/i
-/ich bin.{1,10}(frau|fräulein|herr)/i
-/ich bin.{5,35}(rechts)?vertreter der familie/i
-/ich bin.{5,35}(privat|rechts)?anwalt/i
-
-/ihnen unser unternehmen vorzustellen/i
 
 # J
 
@@ -88,14 +79,6 @@
 /liebster.{1,10}(freund|geliebter)/i
 
 # M
-/mein name ist.{1,10}(frau|fräulein|herr)/iu
-
-/mein name ist.{5,35}ich lebe.{1,10}in/i
-/mein name ist.{5,25}ich bin teil des/i
-
-/mein name ist.{5,35}ich bin.{1,15}(anwalt|banker|manager)/i
-/mein name ist.{5,30}ein.{1,10}(amerikanischer|angestellter)/i
-/mein name ist.{5,35}ein.{1,15}wirtschaftsmagnat/i
 
 # N
 
@@ -119,12 +102,9 @@
 
 /sehr geehrter kunde.{1,10}wichtige nachricht an sie/i
 
-/sie zu kontaktieren.{1,10}mein name ist/i
-
 # T
 
 # U
-/unternehmen vorzustellen.{1,10}einen.{1,15}hersteller/i
 
 # V
 

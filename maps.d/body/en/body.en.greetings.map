@@ -66,9 +66,8 @@
 # H
 /have a nice day.{1,10}this is.{5,35}from/i
 
-/hello attention/i
-
-/hello to the.{1,25}owner/i
+/hello.{1,10}attention/i
+/hello.{1,10}to the.{1,25}owner/i
 /hello.{1,25}owner/i
 
 /(hello|my name is).{5,35}from.{5,35}(in)? (china|india|ukraine)/i
@@ -88,18 +87,6 @@
 /how are you.{1,15}my name is/i
 
 # I
-/(i am|i'm) a.{1,10}(financial|representative|senior)/i
-
-/(i am|i'm) a.{1,10}manager/i
-/(i am|i'm) a.{1,10}(development|investment|sales|senior|portfolio|purchasing).{1,10}manager/i
-/(i am|i'm) a.{1,10}importer from/i
-
-/(i am|i'm) a.{5,25}web.?development/i
-/(i am|i'm).{5,25}i am (a|the).{1,15}manager/i
-
-/(i am|i'm).{1,10}(miss|mrs?|ms).{5,25}contacting you/i
-
-/introduce our company/i
 
 # J
 
@@ -110,23 +97,9 @@
 # M
 /manager.{1,10}good day/i
 
-/my names (are|is) mrs?/i
-
-/my name is.{5,35}i am a merchant/i
-
-/my name is.{5,35}(attorney|business|consultant|investment|investor|politician|private|us soldier)/i
-/my name is.{5,35}i am seeking/i
-/my name is.{5,25}i'?a?m.{1,10}(honest|single)/i 
-/my name is.{5,25}i have.{1,10}urgent/i
-/my name is.{5,35}i serve as/i
-/my name is.{5,25}managing director/i
-/my name is.{5,35}(vendor|registration|solicitor)/i
-/my name is.{5,25}represent(ing)?/i
-
 # N
 
 # O
-/our company.{1,10}a.{1,15}producer of/i
 
 # P
 /purchaser.{1,10}how are you/i
@@ -134,9 +107,6 @@
 # Q
 
 # R
-/represent a.{1,10}(based|company|group)/i
-/represent an agency/i
-/represent mrs?\./i
 
 # S
 
