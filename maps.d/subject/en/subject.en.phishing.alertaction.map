@@ -31,6 +31,8 @@
 # D
 
 # E
+/(e?.?mail|mailbox).{1,10}security reminder/i
+/(e?.?mail|mailbox).{1,10}update alert/i
 
 # F
 
@@ -44,6 +46,7 @@
 /important account (alert|update)/i
 /important information.{1,15}your.{1,15}(account|profile)/i
 
+/important mailbox/i
 /important notification.{1,10}upgrade/i
 
 /important update.{1,15}@/i
@@ -59,6 +62,7 @@
 
 # N
 /notification.{1,10}(action required|updated)/i
+/notification.{1,10}account.{1,30}closure/i
 
 # O
 

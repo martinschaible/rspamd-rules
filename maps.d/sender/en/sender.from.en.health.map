@@ -40,11 +40,6 @@
 
 /sugar.{0,10}spike/i
 
-# Cholesterol
-# ------------------------------------------------------------------------------
-/cholesterol.{0,10}balance/i
-/(control|high|low).{0,10}cholesterol/i
-
 # Cleanse
 # ------------------------------------------------------------------------------
 /(colon|detox|mayan).{0,10}cleanse/i
@@ -61,9 +56,6 @@
 
 # Diabetes
 # ------------------------------------------------------------------------------
-/diabetes/i
-/diabetic/i
-
 /(a1c|glucose).{0,10}(control|level|problems?|spike)/i
 
 /end.{0,10}type.{0,10}2/i
@@ -93,10 +85,10 @@
 /(20|bad|blurred|blurry|clear|declining|enhancing|flawless).{0,10}(eye.?sight|view|vision)/i
 /(new|night|perfect|poor|restore|supreme|weak).{0,10}(eye?sight|view|vision)/i
 
-/eye.{0,10}help/i
+/eye.{0,10}(help|secret)/i
 
-/(eye.?sight|vision).{0,10}(20.?20|boost|enhancing|fix|hack|loss)/i
-/(eye.?sight|vision).{0,10}(rescue|reset|restorer?|supplement)/i
+/(eye.?sight|vision).{0,10}(20.?20|boost|coach|enhancing|expert|fix|hack|help|loss)/i
+/(eye.?sight|vision).{0,10}(rescue|reset|restorer?||solution|supplement)/i
 
 /without.{0,10}glasses/i
 
@@ -368,6 +360,7 @@
 
 /celebrity.{0,10}doc(tor)?/i
 
+/cholesterol.{0,10}balance/i
 /chronic.{0,10}inflammation/i
 
 /(clean|fat|feeding|zombie).{0,10}cell/i
@@ -382,6 +375,7 @@
 /closed.{0,10}arteries/i
 /cognitive.{0,10}decline/i
 /compression.{0,10}sleeve/i
+/control.{0,10}cholesterol/i
 /counting.{0,10}calories/i
 /cortisol.{0,10}level/i
 
@@ -391,7 +385,7 @@
 /damaged.{0,10}nerves/i
 /dangerous.{0,10}veggies?/i
 
-/dead.{0,10}(foods?|kidneys)/i
+/dead.{0,10}(drink|foods?|kidneys)/i
 /(dead|deep).{0,10}cleansing/i
 /dental.{0,10}(issues?|rescue)/i
 
@@ -482,7 +476,7 @@
 
 /herpes.{0,10}outbreak/i
 
-/high.{0,10}sugar/i
+/high.{0,10}(cholesterol|sugar)/i
 /hidden.{0,10}(danger|protein|risk|ritual|toxin)/i
 
 /hip.{0,10}flexors?/i
@@ -512,6 +506,8 @@
 /lung.{0,10}trust/i
 /longer.{0,10}life/i
 /look.{0,10}younger/i
+
+/low.{0,10}(cholesterol|sugar)/i
 /lower.{0,10}back/i
 
 # M

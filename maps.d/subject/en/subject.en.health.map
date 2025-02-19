@@ -18,8 +18,9 @@
 /(\d.?second|japanese).{1,10}(fix|hack|ritual|secret|trick)/i
 
 /(secret|simple|unusual).{1,10}(hack|solution|trick).{1,15}(activate|erases|needs|reverses|to end)/i
-/secret lowers.{1,10}high blood/i
-/secret to (enhancing|unlock(ing)?)/i
+/secrets? lowers.{1,10}high blood/i
+/secrets? to (enhancing|unlock(ing)?)/i
+/secrets? unveiled/i
 
 /(hack|ritual|secret|solution|trick).{1,10}(extends|reverse|shocks)/i
 /(hack|ritual|secret|solution|trick).{1,10}that could change/i
@@ -114,7 +115,7 @@
 /cause of.{1,10}(dementia|joint pain|memory.?loss)/i
 
 /celebrity.?secret/i
-/clear.{1,10}nails/i
+/clear.{1,10}(eyes|nails|vision)/i
 
 /clears? blurry eyesight/i
 /clears.{1,10}fast/i
@@ -134,9 +135,11 @@
 /(do|try) this \d{1,2} minutes before/i
 #/try this before bed/i
 /(do|try) this before/i
+
 /do this every day/i
 /do this for instant/i
 /do this to keep sugar/i
+/do this once a day/i
 
 /doing this to your/i
 /drink this.{1,15}(before|juice|to)/i
@@ -241,6 +244,8 @@
 # K
 /keto.{1,10}(air.?fryer|plus|ss)/i
 
+/keep your.{1,10}(arteries|heart)/i
+
 # L
 /lose weight.{1,10}(fast|without)/i
 /loses.{1,10}pounds doing this/i
@@ -307,11 +312,12 @@
 /restores?.{1,10}(joint|memory|perfect)/i
 
 /(reverse|reversing).{1,10}(aging in|diabetes|ed\b|memory|type 2)/i
+/(reverse|reversing).{1,10}vision.?loss/i
 
 /rock.?solid in just/i
 
 # S
-/save your.{1,10}nails/i
+/save your.{1,10}(exe.?sight|nails)/i
 /say goodbye to.{1,15}pain/i
 
 /scientists confirm.{1,10}(this|works)/i
@@ -381,6 +387,7 @@
 /unlock.{1,10}pleasure (centers?|points?)/i
 
 # V
+/vision solutions?/i
 
 # W
 /wants.{1,10}burn fat/i

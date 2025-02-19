@@ -57,7 +57,7 @@
 
 # L
 /loan @\d%/i
-/^loan offer/i
+/^loans? offer/i
 
 /loans?.{1,10}up to/i
 
@@ -73,7 +73,7 @@
 # P
 /private loan company/i
 
-/project financing/i
+/project (financing|loans?)/i
 
 # Q
 

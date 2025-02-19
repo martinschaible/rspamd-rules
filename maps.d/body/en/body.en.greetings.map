@@ -35,6 +35,7 @@
 /(dear|greetings?|good day|hello|hi\b).{1,15}this is.{5,25}from/i
 /(dear|greetings?|good day|hello|hi\b).{1,10}we are.{1,10}manufacturer/i
 
+
 /(attn|attention|dear|hello|honorable).{1,10}beneficiary/i
 
 /dear.{1,10}(ceo|confidant|trustee)/i
@@ -45,6 +46,7 @@
 
 /dear.{1,10}purchase.{1,10}(department|manager)/i
 /dear.{1,10}(madam|purchaser|sir).{1,15}glad to (contact|connect|know|write)/i
+/dear.{1,10}(madam|purchaser|sir).{1,15}please find attached/i
 
 # E
 

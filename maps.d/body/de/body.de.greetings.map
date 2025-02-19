@@ -10,6 +10,8 @@
 # ------------------------------------------------------------------------------
 /sie meine erste nachricht erhalten haben/i
 /sie immer noch dieselbe.{1,10}e?.?mail.?adresse verwenden/i
+/dieser?.{1,10}(brief|e?.?mail|nachricht).{1,10}erreicht (dich|sie) (sicher|wohlbehalten)/i
+
 
 #
 #
@@ -42,6 +44,7 @@
 /guten (abend|morgen|tag).{1,10}mein.{1,15}herr/i
 /guten (abend|morgen|tag).{1,10}meine damen und herren/i
 /guten (abend|morgen|tag).{1,10}wir kontaktieren sie/i
+/guten (abend|morgen|tag).{1,10}ich hoffe.{1,10}dieser?.{1,10}(brief|e?.?mail|nachricht)/i
 
 /grüße.{1,10}an sie.{1,10}ich schreibe ihnen/i
 /grüße.{1,10}betreff/iu

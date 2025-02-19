@@ -24,6 +24,9 @@
 /(order|payment|price.?list|proforma|quotation|quote).{0,25}\.(7z|gz|html|r11|r16|rar|tar|tgz|xla|xls|zip)/i
 /(receipt|request).{0,25}\.(7z|gz|html|r11|r16|rar|tar|tgz|xla|xls|zip)/i
 
+# Letter of Intent
+/loi.{0,5}\.(7z|gz|html|r11|r16|rar|tar|tgz|xla|xls|zip)/i
+
 /rechnung.{0,45}\.(7z|gz|rar|zip)/i
 /rfq\.zip/i
 
@@ -69,11 +72,11 @@
 # 30.01.25 - Sample: 2024-11-11.zip
 /\d{4}-\d{2}-\d{2}\.(gz|zip)/i
 
-# 30.01.25 - Sample: 30_01_2025.gz
-/\d{2}_\d{2}_\d{4}\.(gz|zip)/i
-
 # 04.02.25 - Sample: 02-04-2025.gz
-/\d{2}-\d{2}-\d{4}\.(gz|zip)/i
+/\d{2}-\d{2}-\d{2,4}\.(gz|zip)/i
+/\d{2}_\d{2}_\d{2,4}\.(gz|zip)/i
+
+# 19.02.25 - Sample: VS03706941011_02_19_25.gz
 
 # Just numbers
 /\d{6,20}\.gz/i
