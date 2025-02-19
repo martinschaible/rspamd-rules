@@ -26,3 +26,11 @@
 
 # No SSL
 /http:\/\/google\.com/i
+
+#
+# Google API
+# ------------------------------------------------------------------------------
+
+# I expect some False/Positives.
+# The amount of spam sent over this website is too much 
+/storage\.googleapis\.com/i
