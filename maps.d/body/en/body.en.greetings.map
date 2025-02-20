@@ -11,6 +11,7 @@
 
 # A
 /assalamu.?alaikum.{1,10}my name is/i
+/(attn|attention|honorable).{1,10}beneficiary/i
 
 # B
 
@@ -21,7 +22,7 @@
 /(dear|greetings?|good day|hello|hi\b).{1,5}(friend|madam|sir).{1,15}this e?.?mail is strictly/i
 /(dear|greetings?|good day|hello|hi\b).{1,5}(friend|madam|sir).{1,15}we are glad to introduce/i
 
-/(dear|greetings?|good day|hello|hi\b).{1,15}(agency|engineer|manager|owner)/i
+/(dear|greetings?|good day|hello|hi\b).{1,15}(agency|beneficiary|engineer|manager|owner)/i
 /(dear|greetings?|good day|hello|hi\b).{1,15}(e?.?mail|domain.?name|site|web)/i
 /(dear|greetings?|good day|hello|hi\b).{1,15}(business|investment)/i
 /(dear|greetings?|good day|hello|hi\b).{1,15}managing director/i
@@ -34,9 +35,6 @@
 /(dear|greetings?|good day|hello|hi\b).{1,15}this might come.{1,10}surprise/i
 /(dear|greetings?|good day|hello|hi\b).{1,15}this is.{5,25}from/i
 /(dear|greetings?|good day|hello|hi\b).{1,10}we are.{1,10}manufacturer/i
-
-
-/(attn|attention|dear|hello|honorable).{1,10}beneficiary/i
 
 /dear.{1,10}(ceo|confidant|trustee)/i
 
@@ -80,6 +78,7 @@
 /hi.?sir/i
 /hi there.{1,10}i hope this.{1,10}message/i
 
+/how are you.{1,10}attention/i
 /how are you.{1,10}find attached/i
 /how are you.{1,15}my name is/i
 

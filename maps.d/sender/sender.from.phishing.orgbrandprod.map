@@ -38,6 +38,7 @@
 # myMediaMarkt
 # Nespresso
 # playstation
+# Post CH AG - Info Sendungsstatus
 # Rewe Kundendienst
 # service@paypal.com
 # SwissPass Newsletter
@@ -269,7 +270,7 @@
 /^postb$/i
 /postag/i
 /post(ch|de)/i
-/post ch/i
+/post ch$/i
 
 /prime.{0,5}notification/i
 
