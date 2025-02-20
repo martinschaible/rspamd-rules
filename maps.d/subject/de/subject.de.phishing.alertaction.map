@@ -38,6 +38,8 @@
 
 /aufforderung zur datenprüfung/i
 
+/(re)?aktivieren sie ihre.{1,10}photo.?tan/i
+
 # B
 /bestätigung erforderlich.{1,10}(rück)?erstattung/i
 /bestätigen sie ihre.{1,10}angaben/i
@@ -127,9 +129,10 @@
 /wichtige?.{1,10}mitteilung.{1,10}aktualisierung ihrer/i
 /wichtige?.{1,10}registrierung.{1,10}mastercard/i
 
-/wichtige?.{1,10}sicherheitsanpassung/i
-/wichtige?.{1,10}sicherheitsüberprüfung erforderlich/iu
 /wichtige?.{1,10}sicherheitsaktualisierung/i
+/wichtige?.{1,10}sicherheitsanpassung/i
+/wichtige?.{1,10}sicherheitsmaßnahme/i
+/wichtige?.{1,10}sicherheitsüberprüfung erforderlich/iu
 
 /wichtige?.{1,10}überprüfung für/iu
 

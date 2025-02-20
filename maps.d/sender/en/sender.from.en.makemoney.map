@@ -21,7 +21,10 @@
 /(bitcoin|btc|crypto|krypto).{0,10}(admin|bank|boom|broker|bulletin)/i
 /(bitcoin|btc|crypto|krypto).{0,10}(currency|era$|etf|forex|guidence)/i
 /(bitcoin|btc|crypto|krypto).{0,10}(insider|insights|invest(ment)?)/i
-/(bitcoin|btc|crypto|krypto).{0,10}(millionaire|network|news|rebound|revolution|update|wealth)/i
+/(bitcoin|btc|crypto|krypto).{0,10}life/i
+/(bitcoin|btc|crypto|krypto).{0,10}(millionaire|network|news)/i
+/(bitcoin|btc|crypto|krypto).{0,10}(rebound|revolution)/i
+/(bitcoin|btc|crypto|krypto).{0,10}(time|update|wealth)/i
 
 /[a-z]{1,15}.{0,10}(bitcoin|btc|crypto|krypto)/i
  #/(swiss|world).{0,10}(bitcoin|btc|crypto|krypto)/i
@@ -37,6 +40,7 @@
 # KI
 # ------------------------------------------------------------------------------
 /smart.?(ai|ki)/i
+/(ai|ki).?(growth|wealth)/i
 
 # Trump
 # ------------------------------------------------------------------------------

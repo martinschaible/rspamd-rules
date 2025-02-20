@@ -197,11 +197,14 @@
 
 # Lamp
 # ------------------------------------------------------------------------------
-/(beleuchtung|effizient arbeit|homeoffice|tischlampe).{1,10}klicken sie/i
+/arbeitslicht.{1,10}klicken sie hier/i
 
+/(beleuchtung|effizient arbeit|homeoffice|tischlampe).{1,10}klicken sie/i
 /(beleuchtung|tischlampe).{1,10}fokussiert/i
 
 /(ideale|unsere).{1,10}tischlampe/i
+
+/lösung.{1,10}perfektes arbeitslicht/i
 
 # Learning languages
 # ------------------------------------------------------------------------------

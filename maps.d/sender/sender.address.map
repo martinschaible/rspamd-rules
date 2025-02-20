@@ -43,11 +43,15 @@
 
 /\<(amex|epos)(-|_)/i
 
+# ANA Card
+/info\.ana-/i
+
 /aeon-email/i
 /card.?vpass/i
 /e-service\./i
 
 /(jcb|tepco)_net/i
+
 /mailxcg/i
 /mastercard-/i
 /nexco\.co\.jp/i
