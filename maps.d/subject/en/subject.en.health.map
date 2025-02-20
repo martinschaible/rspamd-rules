@@ -237,6 +237,7 @@
 /in just \d{1,2} seconds/i
 
 # J
+/juice lowers/i
 /jumpstart your.{1,15}health/i
 
 /joint.?pain.{1,10}(cut|relief)/i
@@ -352,7 +353,7 @@
 
 /stop dieting/i
 /stop (taking|using) this/i
-/stop memory loss/i
+/stops?.{1,10}memory loss/i
 
 /strange.{1,15}(acid|boosts)/i
 /stretch that (eliminates|restores|stops)/i
@@ -401,6 +402,8 @@
 
 # Y
 /your.{1,10}arms without/i
+/your.{1,10}blood pressure/i
+/your.{1,10}back pain/i
 /your.{1,10}(bladder|erection|manhood|pecker|prostate)/i
 /your.{1,10}heart health/i
 

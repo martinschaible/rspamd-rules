@@ -114,11 +114,14 @@
 /\.img\.gz/i
 /\.(jpg|pdf)\.html/i
 /\.(pdf|r09)\.rar/i
+
+/\.pdf\.(lz|zip)/i
+/\.pdf\.t?gz/i
 /\.xlsx\.t?gz/i
+
 
 /(,|_)(doc|pdf)\.(gz|htm|svg|tar|zip)/i
 
-/\.pdf\.(lz|zip)/i
 
 # Triple Extension
 # ------------------------------------------------------------------------------

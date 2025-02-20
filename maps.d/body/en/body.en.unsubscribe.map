@@ -59,9 +59,9 @@
 # T
 
 # U
-/unsubscribe from future.{1,15}e?.?mails.{1,15}or send post.?mail to/i
-/unsubscribe from this offer.{1,10}click or write to/i
-/unsubscribe link.{1,10}or write to/i
+/unsubscribe.{1,10}from future.{1,15}e?.?mails.{1,15}or send post.?mail to/i
+/unsubscribe.{1,10}from this offer.{1,10}click or write to/i
+/unsubscribe.{1,10}link.{1,10}or write to/i
 
 # Zip Code at the end
 /unsubscribe.{1,10}click here or write to.{1,15}\d{2,5}/i
