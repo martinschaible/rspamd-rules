@@ -23,8 +23,11 @@
 /your.{1,10}e.?bike/i
 
 /city.?voyager/i
-/classic moped/i
+/(classic|electric).{1,10}moped/i
 /fat.?tire.{1,10}e.?bike/i
+/moped.{1,10}style/i
+
+/versatile riding/i
 
 #
 #
@@ -87,6 +90,8 @@
 /(improve|increase|transform).{1,10}brand.{1,10}recognition/i
 /(improve|increase|transform).{1,10}sales.{1,10}wikipedia/i
 /(improve|increase|transform).{1,10}your.{1,10}(brand|business)/i
+
+ip.?tv.{1,10}deal/i
 
 # J
 

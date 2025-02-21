@@ -13,9 +13,9 @@
 /(lieber (kunde|nutzer)|sehr geehrte damen und herren).{1,10}wir haben.{1,10}(dein|ihr).{1,15}konto/i
 /(lieber (kunde|nutzer)|sehr geehrte damen und herren).{1,10}wir haben ungewöhnliche/iu
 
-/guten tag.{1,10}zum schutz ihres kontos/i
-
 /wir haben festgestellt.{1,15}ihrer?.{1,15}konto.?informationen/i
+
+/button auf ihr.{1,15}konto zuzugreifen/i
 
 # Account - Locking
 # ------------------------------------------------------------------------------
@@ -44,7 +44,9 @@
 
 /gesperrt.{1,10}da ein update/i
 
+/ignorieren.{1,10}kann dies zu einer.{1,25}sperrung/i
 /ignorieren.{1,10}wird ihr.{1,15}konto gesperrt/i
+
 /informationen.{1,10}um eine sperrung ihres.{1,15}kontos/i
 
 /ihr.{1,15}konto.{1,15}aufgrund der fehlenden bestätigung/iu
@@ -400,8 +402,6 @@
 
 # PayPal
 /konto keine paypal.?dienste mehr anbieten/i
-
-# SwissPass
 
 #
 #

@@ -254,7 +254,7 @@
 /(obi|otto).?(™|®)$/i
 /obi-/i
 
-/official.{0,5}spotify/i
+/official.{0,5}(netflix|spotify)/i
 
 # 01.02.25 - Orico Corporation
 /e-orico/i
@@ -320,7 +320,12 @@
 /swiss-pass/i
 /swisspas\./i
 /swisspass\.ch/i
+/swisspass.{1,5}(cff|sbb|support)/i
 /swisspass\./i
+
+/-swisspass/i
+/suisspass/i
+/kontakt.?swisspass/i
 
 /swiss post/i
 /^swisspost$/i
