@@ -99,7 +99,8 @@
 /pcba?.{1,10}factory (from|in) china/i
 /pcba?.{1,10}supplier for/i
 
-/plastic.?injection mould.?maker/i
+/plastic.?injection.{1,10}mould.?maker/i
+/plastic.?tooling.{1,10}services?/i
 
 /prototype manufacturer?/i
 

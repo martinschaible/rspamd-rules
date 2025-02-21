@@ -8,11 +8,13 @@
 
 # Crypto
 # ------------------------------------------------------------------------------
-/(bitcoin|crypto|krypto).{0,10}(beratung|berater|bricht|bulletin)/i
-/(bitcoin|crypto|krypto).{0,10}(einblick|experte)/i
-/(bitcoin|crypto|krypto).{0,10}(geld|gewinner|gratis|handel|händler)/i
-/(bitcoin|crypto|krypto).{0,10}(nachrichten|neuigkeiten)/i
-/(bitcoin|crypto|krypto).{0,10}(preis|tipps?|vorteile?|währung(en)?|welle)/iu
+/(bitcoin|btc|crypto|krypto).{0,10}(beratung|berater|bricht|bulletin)/i
+/(bitcoin|btc|crypto|krypto).{0,10}(einblick|experte)/i
+/(bitcoin|btc|crypto|krypto).{0,10}(geld|gewinner|gratis|handel|händler)/i
+/(bitcoin|btc|crypto|krypto).{0,10}(nachrichten|neuigkeiten)/i
+/(bitcoin|btc|crypto|krypto).{0,10}(preis|tipps?|vorteile?|währung(en)?|welle)/iu
+
+/offizielle?.{0,10}(bitcoin|btc|crypto|krypto)/i
 
 # ETF (Exchange Traded Funds)
 # ------------------------------------------------------------------------------
