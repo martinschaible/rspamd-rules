@@ -252,7 +252,7 @@
 
 /flow.{0,10}diet/i
 #/forget.{0,10}keto/i
-#/keto.{0,10}(diet|power|slim)/i
+#/keto.{0,10}(coffee|diet|power|slim)/i
 /huge.{0,10}belly/i
 
 /weight.{0,10}gain/i
@@ -430,7 +430,7 @@
 /female.{0,10}desire/i
 /female o$/i
 
-/(feet|foot).{0,10}(detox|massage)/i
+/(feet|foot).{0,10}(detox|massage|odor)/i
 
 /fine.{0,10}lines/i
 /firm.{1,10}strong/i
@@ -596,6 +596,8 @@
 # Q
 
 # R
+/radiant{0,10}glow/i
+
 /red.{0,10}(berry|juice)/i
 /regain your/i
 /regenerate.{0,10}eyes?/i
@@ -606,6 +608,7 @@
 /replace.{0,10}blue/i
 /restore.{0,10}cognition/i
 /reverse.{0,10}(aging|gum)/i
+
 /rise.{0,10}again/i
 /rock.{0,10}(hard|solid)/i
 
