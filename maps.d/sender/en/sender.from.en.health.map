@@ -365,7 +365,7 @@
 /chronic.{0,10}inflammation/i
 
 /(clean|fat|feeding|zombie).{0,10}cell/i
-/clean.{0,10}lungs/i
+/clean.{0,10}(gut|lungs)/i
 /cleansing.{0,10}pads/i
 /clear.{0,10}((toe)?nails|skin)/i
 
@@ -462,6 +462,8 @@
 /green.{0,10}oil/i
 /grow.{0,10}(hair|trick)/i
 
+/gut.{0,10}solution/i
+
 # H
 /hair.{0,5}(growth|loss|renewal|restoration|restorer?|thinning)/i
 /hard in\b/i
@@ -519,7 +521,7 @@
 /magenesium.{0,10}(guide|guru|info)/i
 
 /make your own/i
-/male.{0,10}vitality/i
+/male.{0,10}(virility|vitality)/i
 
 /medicinal.{0,10}patch(es)?/i
 

@@ -180,6 +180,8 @@
 # H
 /(hetzner|hermes|hornbach).?(™|®|©)$/i
 
+/-hermes$/i
+
 # Note relevant in Europe
 /home.?(depot|warranty)/i
 
@@ -217,6 +219,7 @@
 /medicare.?kit/i
 
 #/^meta$/i
+/meta ads team/i
 /meta for business/i
 
 /(metamask|microsoft|migros).?(™|®|©)$/i

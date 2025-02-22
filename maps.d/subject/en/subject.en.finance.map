@@ -57,6 +57,7 @@
 
 # L
 /loan @\d%/i
+/loan approval.{1,10}business/i
 /^loans? offer/i
 
 /loans?.{1,10}up to/i
