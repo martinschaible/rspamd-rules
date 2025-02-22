@@ -17,7 +17,8 @@
 
 /(\d.?second|japanese).{1,10}(fix|hack|ritual|secret|trick)/i
 
-/(secret|simple|unusual).{1,10}(hack|solution|trick).{1,15}(activate|erases|needs|reverses|to end)/i
+/(secret|simple|unusual).{1,10}(hack|ritual|solution|trick).{1,15}(activate|erases|needs|reverses|trusted|to end)/i
+
 /secrets? lowers.{1,10}high blood/i
 /secrets? to (enhancing|unlock(ing)?)/i
 /secrets? unveiled/i
@@ -32,6 +33,7 @@
 /breaking.{1,10}harvard study/i
 /discover.{1,10}(incredible|simple tip)/i
 /fingertip pressure trick/i
+
 /easy trick for clear/i
 
 /this.{1,10}home remedy/i
@@ -59,7 +61,7 @@
 
 /\d{1,2}.{1,10}day trick to a/i
 /\d{1,2}.{1,10}second routine/i
-/\d{1,3}.?lbs gone/i
+/\d{1,3}.?(lbs|pounds) gone/i
 
 /\d cause of/i
 /\d stretch/i
@@ -314,7 +316,10 @@
 /relief with this.{1,15}(technique|weird)/i
 /relieve.{1,10}constipation/i
 /remedy unleashes your/i
-/remove.{1,10}dark spots/i
+
+/removes?.{1,10}dark spots/i
+/removes?.{1,10}(lbs|pounds) every.{1,10}days?/i
+
 /restores?.{1,10}(joint|memory|perfect)/i
 
 /(reverse|reversing).{1,10}(aging in|diabetes|ed\b|memory|type 2)/i

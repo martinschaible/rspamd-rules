@@ -324,7 +324,8 @@
 /bedroom.{0,10}(fix|secrets?)/i
 /belly.{0,10}(buddy|buster)/i
 /berry.{0,10}detox/i
-/better.{0,10}poop/i
+
+/better.{0,10}(live|poop)/i
 
 /big o$/i
 /big.{0,10}secret/i
@@ -482,13 +483,14 @@
 
 /herpes.{0,10}outbreak/i
 
-/high.{0,10}(cholesterol|sugar)/i
 /hidden.{0,10}(danger|power|protein|risk|ritual|toxin)/i
+/high.{0,10}(cholesterol|sugar)/i
 
 /hip.{0,10}flexors?/i
 /hissing.{0,10}sounds?/i
 
 /home.{0,10}(recipe|treatment|with ease)/i
+/huge.{0,10}(belly|tummy)/i
 
 # I
 /immune.{0,10}system/i
@@ -543,7 +545,8 @@
 /mushroom.{0,10}magic/i
 
 # N
-/(toe)?nail.{0,10}(fix(er)?|repair|rescue|rub|test)/i
+/(toe)?nail.{0,10}(fix(er)?|repair|rescue|restoration|rub|test)/i
+
 /nasty.{0,10}(lumps|(toe)?nails?)/i
 /natural.{0,10}(alternative|antibiotic|fix|shape|solution|tonic)/i
 /nature.{0,10}opioids?/i
@@ -716,7 +719,8 @@
 
 /your.{1,10}(balance|brain)/i
 /your.{1,10}(craving|diet|ears|gut)/i
-/your.{1,10}(health|heart|knees|liver)/i
+/your.{1,10}(health|heart|knees)/i
+/your.{1,10}(live.?span|liver)/i
 /your.{1,10}(pee|pelvis|poop)/i
 /your.{1,10}(smile|stomach)/i
 
