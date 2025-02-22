@@ -20,9 +20,11 @@
 
 /(e.?bike|elektro.?moped).{1,10}(besten|bester) preis/i
 /(e.?bike|elektro.?moped).{1,10}für (alle|den|ihre|jedes?)/i
-/(e.?bike|elektro.?moped).{1,10}(angebot|in nur|innovation|komfort|power|revolution|tagen|stärke)/i
+/(e.?bike|elektro.?moped).{1,15}(angebot|in nur|innovation|komfort|motor)/i
+/(e.?bike|elektro.?moped).{1,15}(power|reichweite|revolution|tagen|stärke)/i
 
-/(auf ein|fortbewegung|kauf|neues|rabatt|unschlagbare?|unser|über).{1,15}(e.?bike|elektro.?moped)/iu
+/(auf ein|faltbarefortbewegung|kauf|neues).{1,15}(e.?bike|elektro.?moped)/iu
+/(rabatt|unschlagbare?|unser|über).{1,15}(e.?bike|elektro.?moped)/iu
 
 # Brand
 /e.?bikes?.{1,10}city voyager/i

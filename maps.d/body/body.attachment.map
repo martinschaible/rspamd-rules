@@ -87,8 +87,13 @@
 /new.?order/i
 /inq.?no/i
 /updated.?price/i
+
 /quotation#/i
+/quotation \(/i
 /quotation.?new/i
+
+/request.?for/i
+
 /stock.{0,10}offer/i
 /swift.{0,10}message/i
 
