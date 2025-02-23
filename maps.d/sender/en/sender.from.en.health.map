@@ -142,7 +142,7 @@
 /(buzzing|clear|quiet|ringing|silent|stop|unbearable|zero).{0,10}(ears?|noise)/i
 /(beat|destroy|end|goodbye|stop).{0,10}tinnitus/i
 
-/strange.{0,10}buzzing/i
+/(irritating|strange).{0,10}(buzzing|sound)/i
 
 # Herpes
 # ------------------------------------------------------------------------------
@@ -187,7 +187,7 @@
 
 /(fuller|harder|thicker).{0,10}stronger/i
 
-/(increase|enhance).{0,10}(stamina|size)/i
+/(increase|enhance|ultimate).{0,10}(stamina|size)/i
 
 # Prostatitis
 # ------------------------------------------------------------------------------
@@ -676,7 +676,7 @@
 
 /top.{0,10}(fruits|medication)/i
 /toxic.{0,10}milk/i
-/toxin.{0,10}flush/i
+/toxin.{0,10}(destroyer|flush)/i
 /tropical.{0,10}(fruit|juice)/i
 /true.{0,10}story/i
 /twist.{0,10}growth/i

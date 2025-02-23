@@ -34,7 +34,7 @@
 # I
 /i'?\s*a?m\b a.{1,10}(financial|representative|senior)/i
 
-/i'?\s*a?m\b a.{1,10}manager/i
+/i'?\s*a?m\b a.{1,10}(broker|manager)/i
 /i'?\s*a?m\b a.{1,10}(development|investment|sales|senior|portfolio|purchasing).{1,10}manager/i
 /i'?\s*a?m\b a.{1,10}importer from/i
 

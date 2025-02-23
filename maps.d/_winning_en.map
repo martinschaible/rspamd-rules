@@ -57,6 +57,7 @@
 /lottery draw.{1,10}details.{1,10}date/i
 
 /(lottery|lotto).{1,10}win.{1,10}\d{3}.{0,5}\d{3}.{1,15}with/i
+/lottery.{1,15}you buy is.{1,10}winning/i
 
 # Payments
 # ------------------------------------------------------------------------------
