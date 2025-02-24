@@ -25,8 +25,8 @@
 /\d{3,4}.{1,10}(dollars?|euro?|usd|€|\$|£) (auszahlen lassen|auszahlung)/i
 /\d{2,4}(\.|,)?\d{3,4}.{0,5}(dollars?|euro?|usd|€|\$|£).{1,10}wurden ihnen gespendet/i
 
-/überweisung von.{1,10}(dollars?|euro?|usd|€|\$|£).{0,5}\d{2,4}(\.|,)?\d{3,4}/iu
-/überweisung von.{1,10}\d{2,3}(\.|,)?\d{3,4}.{0,5}(dollars?|euro?|usd|€|\$|£)/iu
+/(ansprüche|überweisung von).{1,10}(dollars?|euro?|usd|€|\$|£).{0,5}\d{2,4}(\.|,)?\d{3,4}/iu
+/(ansprüche|überweisung von).{1,10}\d{2,3}(\.|,)?\d{3,4}.{0,5}(dollars?|euro?|usd|€|\$|£)/iu
 
 # Not categorized
 # ------------------------------------------------------------------------------

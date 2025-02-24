@@ -39,8 +39,8 @@
 /expert seo/i
 
 # F
-/(1st|first|seo|top).{1,10}.{1,10}((home)?page|(web)?site)\?/i
-/(1st|first|seo|top).{1,10}.{1,10}((home)?page|(web)?site).{1,10}(google|of)/i
+/(1st|first|seo|top).{1,10}((home)?page|(web)?site)\?/i
+/(1st|first|seo|top).{1,10}((home)?page|(web)?site).{1,10}(google|of)/i
 /(1st|first|seo|top).{1,15}rank(ings?)?/i
 
 /(1st|first|seo|top).{1,15}(page|place|position|rankings?|spot).{1,10}plan/i
@@ -50,6 +50,8 @@
 
 # G
 /get noticed online/i
+
+/right.{1,10}search engine optimization/i
 
 /(get found|guaranteed|top rank(ing)?).{1,10}(bing|google|yahoo)/i
 /grow your.{1,10}(web)?site/i

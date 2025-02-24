@@ -28,8 +28,14 @@
 
 /(250|bitcoin).{1,10}reich werden/i
 
-/(ai|chatgpt|ki).{1,10}(aktien?|gewinne|goldrausch|handeln?|verhilft|verspricht)/i
-/(ai|chatgpt|ki).{1,10}(machen|macht).{1,10}reich/i
+/(ai|chat.?gpt|ki).{1,15}(aktien?|gewinne|einkommen|goldrausch)/i
+/(ai|chat.?gpt|ki).{1,15}(handeln?|reich|verhilft|verspricht)/i
+/(ai|chat.?gpt|ki).{1,15}(machen|macht).{1,10}reich/i
+/(ai|chat.?gpt|ki).{1,15}revolutioniert aktienhandel/i
+/(ai|chat.?gpt|ki).{1,15}geld.{1,10}(machen|verdienen)/i
+
+/(geld|reich).{1,15}durch (ai|chat.?gpt|ki)/i
+/(dividenden|geld verdienen).{1,15}(ai|chat.?gpt|ki)/i
 
 # ETF (Exchange Traded Funds)
 # ------------------------------------------------------------------------------
@@ -53,7 +59,10 @@
 /(€|euro) verdienen können/iu
 
 # A
+
 /aktien.{1,10}reich werden/i
+
+/automatischer aktienhandel/i
 
 # B
 /banken geschockt/i
@@ -73,8 +82,14 @@
 # G
 /gehalt zu wenig/i
 
+/geld machen mit/i
+/geld kostenlos/i
+/generiert einkommen/i
+
 /grundeinkommen durch/i
+
 /goldrausch hat begonnen/i
+/goldrausch wartet/i
 
 # H
 
@@ -99,6 +114,7 @@
 /macht reich!/i
 
 # N
+/neue goldrausch/i
 
 # O
 /fangen sie an online.{1,10}zu verdienen/i
@@ -109,6 +125,7 @@
 # Q
 
 # R
+/reichtum warten/i
 
 # S
 /sichert das portfolio/i
