@@ -124,6 +124,7 @@
 /deutsche.?bnk/i
 /deutschen.?bahn/i
 
+/deutsche.?bahn.{1,10}(service|team)/i
 /deutschland.?ticket.{1,10}(service|team)/i
 
 /d\.h\.l/i
@@ -284,6 +285,10 @@
 # R
 # 30.12.24 -Rakuten Card Co., Ltd.
 /楽天カード株式会社/i
+
+# 25.02.25 - Rakuten Securities
+/楽天証券/i
+
 # 21.12.24 - Resona Bank
 /りそな/i
 

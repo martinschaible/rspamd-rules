@@ -57,6 +57,8 @@
 
 /franking.{0,10}machine/i
 
+/free.{0,10}ip.?tv/i
+
 # G
 
 # H
@@ -69,7 +71,7 @@
 /instant.{0,10}access/i
 /instant.{0,10}quotes?/i
 
-/ip.?tv.{1,10}(channels|movies|offer|today)/i
+/ip.?tv.{1,10}(channels|movies|offer|trial|today)/i
 
 /i p t\.v/i
 /i p-tv/i

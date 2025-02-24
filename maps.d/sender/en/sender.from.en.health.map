@@ -27,7 +27,7 @@
 
 # Memory
 /memory.{0,10}(bean|boost(er)?|cure|fix(er)?|hack|enhancement|improver|improvement|laps(es)?|loss)/i
-/memory.{0,10}(problem|protection|recovery|restore|revive|saving|strengthener|tonic)/i
+/memory.{0,10}(problem|protection|recovery|restore|revive|saving|solution|strengthener|tonic)/i
 /(boost|excellent|fading|focus|future|perfect|poor|restore|sharp|your).{0,10}memory/i
 
 /becoming.{0,10}forgetful/i
@@ -368,7 +368,7 @@
 /cleansing.{0,10}pads/i
 /clear.{0,10}((toe)?nails|skin)/i
 
-/click(ing)?.{0,10}(free|noise)/i
+/click(ing)?.{0,10}(free|noise|sounds?)/i
 /clinically.{0,10}proven/i
 
 /clogged.{0,10}(arteries|artery)/i
@@ -470,7 +470,7 @@
 /happy.{0,10}(gut|knees)/i
 /harmful.{0,10}veggies/i
 
-/harvard.{0,15}(breakthrough|discovery|scientist)/i
+/harvard.{0,15}(breaks|breakthrough|discovery|scientist)/i
 
 /hates it/i
 
@@ -531,7 +531,7 @@
 /mental.{0,10}clarity/i
 
 /midnight.{0,10}bathroom/i
-/mind.{0,10}(blow|clarity)/i
+/mind.{0,10}(barriers?|blow|clarity)/i
 /mineral.{0,10}combination/i
 
 /miracle.{0,10}drops?/i
