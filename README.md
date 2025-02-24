@@ -40,31 +40,31 @@ Folder structure:
 ```
 |- base
 |    |- base.country.map                            -|
-|    |- base.body.charenc.koi8r.map              :small_blue_diamond:   |
-|    |- base.body.charenc.windows1251.map        :small_blue_diamond:   |- multimap.base.conf
+|    |- base.body.charenc.koi8r.map              *   |
+|    |- base.body.charenc.windows1251.map        *   |- multimap.base.conf
 |    |- base.body.markup.hidden.map                  |
 |    |- base.body.markup.map                        -|
 |    |- href
-|    |   |- base.body.href.domain.map            :small_blue_diamond:  -|
-|    |   |- base.body.href.domain.ip.map         :small_blue_diamond:   |
-|    |   |- base.body.href.domain.google.map     :small_blue_diamond:   |
-|    |   |- base.body.href.nossl.map             :small_blue_diamond:   |- multimap.base.body.href.conf
-|    |   |- base.body.href.path.map              :small_blue_diamond:   |
-|    |   |- base.body.href.path.filename.map     :small_blue_diamond:   |
-|    |   |- base.body.href.path.wordpress.map    :small_blue_diamond:  -|
+|    |   |- base.body.href.domain.map            *  -|
+|    |   |- base.body.href.domain.ip.map         *   |
+|    |   |- base.body.href.domain.google.map     *   |
+|    |   |- base.body.href.nossl.map             *   |- multimap.base.body.href.conf
+|    |   |- base.body.href.path.map              *   |
+|    |   |- base.body.href.path.filename.map     *   |
+|    |   |- base.body.href.path.wordpress.map    *  -|
 |    |- img
-|        |- base.body.img.domain.ip.map          :small_blue_diamond:  -|
-|        |- base.body.img.domain.tld.map         :small_blue_diamond:   |
-|        |- base.body.img.domain.name.map        :small_blue_diamond:   |- multimap.base.body.img.conf
-|        |- base.body.img.nossl.map              :small_blue_diamond:   |
-|        |- base.body.img.path.map               :small_blue_diamond:   |
-|        |- base.body.img.shortener.map          :small_blue_diamond:  -|
+|        |- base.body.img.domain.ip.map          *  -|
+|        |- base.body.img.domain.tld.map         *   |
+|        |- base.body.img.domain.name.map        *   |- multimap.base.body.img.conf
+|        |- base.body.img.nossl.map              *   |
+|        |- base.body.img.path.map               *   |
+|        |- base.body.img.shortener.map          *  -|
 |- lists
-     |- list.tld.map                                -|- multimap.base.body.href.conf
-     |- url.shortener.map                           -|
+     |- list.tld.map                             *  -|- multimap.base.body.href.conf
+     |- url.shortener.map                        *  -|
 ```
 
-:small_blue_diamond: -> one_shot
+* -> "one_shot" is set
 
 ### Setup for "body"
 
