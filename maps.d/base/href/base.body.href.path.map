@@ -19,6 +19,10 @@
 # 15.02.25 - Sample: https://occitanica.eu/setlocale?locale=fr&redirect=https://bitrancetrade.com
 /\/setlocale\?locale=[a-z]{2}&redirect=/i
 
+# 24.02.25 - Sample: https://x6dvjcqs.r.eu-central-1.awstrack.me/L0/https:%2F%2Fteltonika-networks.com%
+# -> Redirect via AWS
+/\.awstrack\.me\/l0\/https:/i
+
 # Simple path
 # ------------------------------------------------------------------------------
 # 11.12.24
