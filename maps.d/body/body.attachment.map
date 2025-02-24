@@ -120,12 +120,9 @@
 /\.(jpg|pdf)\.html/i
 /\.(pdf|r09)\.rar/i
 
-/\.pdf\.(lz|zip)/i
-/\.pdf\.t?gz/i
-/\.xlsx\.t?gz/i
+/\.(pdf|xlsx)\.(lz|t?gz|zip)/i
 
-
-/(,|_)(doc|pdf)\.(gz|htm|svg|tar|zip)/i
+/(,|_|-)(doc|pdf)\.(gz|htm|rar|svg|tar|zip)/i
 
 
 # Triple Extension
