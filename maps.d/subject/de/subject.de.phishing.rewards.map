@@ -110,7 +110,10 @@
 /gewinner.{1,15}wöchentlichen wettbewerbs/i
 
 /(gewinnen|gewinner).{1,10}brandneu(en)?/i
+
+/gewinnen sie ein.{1,20}set.{1,10}auto/i
 /gewinnen sie ein.{1,20}testpaket/i
+
 /gewinnen sie eine? kostenloses?/i
 
 /gewonnen.{1,10}dein.{1,20}wartet/i
@@ -219,6 +222,8 @@
 /sie wurden ausgewählt/iu
 
 # T
+/teilen sie ihre meinung/i
+
 /teilnehmen und ihren.{1,15}sichern/i
 /teilnehmen.{1,15}gewinnen/i
 /top.?gewinnern/i
