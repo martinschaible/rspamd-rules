@@ -125,6 +125,8 @@
 # Q
 
 # R
+/reich werden\?/i
+
 /reichtum warten/i
 
 # S
@@ -151,7 +153,7 @@
 
 # W
 /wählt aktien aus/i
-/wie reich werden/i
+/wie.{1,10}reich werden/i
 
 /wochen.{1,10}\d{3,4}(\.|,)?\d{3,4}.{1,10}verdienen/i
 # X

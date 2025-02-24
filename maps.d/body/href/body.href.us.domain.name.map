@@ -43,6 +43,10 @@
 /ipfs\.io\/ipfs/i
 /ipfs\.cf-ipfs\.com/i
 
+# Sample: ipfs.chainsafe.io/ipfs/
+/ipfs\.[a-z0-9]{4,15}\.[a-z]{2,4}\/ipfs\//i
+
+
 # J
 
 # K

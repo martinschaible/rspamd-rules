@@ -40,10 +40,14 @@
 # D
 /dash.?cam(era)?/i
 
+/discover.{1,10}electronic.{1,10}components?/i
+
 # E
 /exclusive freight rates/i
 
-/electronic components? (stock|supply)/i
+/electronic components?.{1,10}(stock|supply)/i
+/electronic components?.{1,10}you need/i
+
 /^electronic components$/i
 
 /expert.{1,10}mold/i

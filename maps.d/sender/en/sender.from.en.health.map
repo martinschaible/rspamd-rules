@@ -129,9 +129,8 @@
 /ear.{0,10}(buzzing|humming|noises?|ringing|silencer|wax)/i
 /end.{0,10}noise/i
 
-/buzz.{0,10}free/i
+/(buzz|noise).{0,10}free/i
 /(no more|stop).{0,10}ringing/i
-/noise.?free/i
 
 /tinnitus.{0,10}(gone|truth)/i
 
@@ -192,7 +191,6 @@
 # Prostatitis
 # ------------------------------------------------------------------------------
 /(urin|pee).{0,10}leaks/i
-/leak.{0,10}free/i
 
 # Recepies
 # ------------------------------------------------------------------------------
@@ -370,7 +368,7 @@
 /cleansing.{0,10}pads/i
 /clear.{0,10}((toe)?nails|skin)/i
 
-/click.{0,10}free/i
+/click(ing)?.{0,10}(free|noise)/i
 /clinically.{0,10}proven/i
 
 /clogged.{0,10}(arteries|artery)/i
@@ -457,7 +455,7 @@
 /fuzzy.{0,10}drink/i
 
 # G
-/gut.{0,10}(flush|health|repair|quiz)/i
+/gut.{0,10}(fix|flush|health|repair|quiz)/i
 /going.{0,10}viral/i
 
 /green.{0,10}oil/i
@@ -469,7 +467,7 @@
 /hair.{0,5}(growth|loss|renewal|restoration|restorer?|thinning)/i
 /hard in\b/i
 
-/happy.{0,10}gut/i
+/happy.{0,10}(gut|knees)/i
 /harmful.{0,10}veggies/i
 
 /harvard.{0,15}(breakthrough|discovery|scientist)/i
@@ -505,6 +503,7 @@
 /kidney.{0,10}fix/i
 
 # L
+/leak.{0,10}free/i
 /leakage.{0,10}(fixer|prevention)/i
 /life.{0,10}(boost|pharmacy)/i
 
@@ -535,6 +534,7 @@
 /mind.{0,10}(blow|clarity)/i
 /mineral.{0,10}combination/i
 
+/miracle.{0,10}drops?/i
 /mitochondria.{0,10}boost/i
 
 /morning.{0,10}(detox|drink|hack|mistake|oil|routine|slimmer|wood)/i
@@ -582,7 +582,7 @@
 
 /pleasure.{0,10}(centers?|fix|hack|points?|unlock)/i
 /pooch.{0,10}belly/i
-/poop.{0,10}type/i
+/poop.{0,10}(stuck|type)/i
 /poor.{0,10}posture/i
 
 /posture.{0,10}fix/i
@@ -609,7 +609,7 @@
 /remote.{0,10}pharmacy/i
 /remove.{0,10}toxin/i
 /renew.{0,10}ritual/i
-/repair.{0,10}secret/i
+/repair.{0,10}(nerves|secret)/i
 /replace.{0,10}blue/i
 /restore.{0,10}cognition/i
 /reverse.{0,10}(aging|gum)/i
@@ -625,6 +625,8 @@
 /secret.{0,10}(revealed|weapon)/i
 /sea.?sugar/i
 /senior.{0,10}moments/i
+/severe.{0,10}pain/i
+
 /sharp(er)?.{0,10}(ears|mind|thinking)/i
 
 /sight.{0,10}care/i
@@ -651,7 +653,7 @@
 
 /stuck.{0,10}poop/i
 
-/sugar.{0,10}(free|traps)/i
+/sugar.{0,10}(free|traps|trick)/i
 /surgeon.{0,10}(reveals|stamina)/i
 /surgery.{0,10}canceled/i
 /sore.{0,10}back/i
@@ -678,7 +680,10 @@
 /toxic.{0,10}milk/i
 /toxin.{0,10}(destroyer|flush)/i
 /tropical.{0,10}(fruit|juice)/i
+
 /true.{0,10}story/i
+/truth.{0,10}behind/i
+
 /twist.{0,10}growth/i
 /type.?2/i
 
@@ -717,7 +722,7 @@
 # Y
 /years.{0,10}younger/i
 
-/your.{1,10}(balance|brain)/i
+/your.{1,10}(balance|bladder|brain)/i
 /your.{1,10}(craving|diet|ears|gut)/i
 /your.{1,10}(health|heart|knees)/i
 /your.{1,10}(live.?span|liver)/i

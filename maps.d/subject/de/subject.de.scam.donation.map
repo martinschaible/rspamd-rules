@@ -33,6 +33,7 @@
 
 # I
 /ihnen eine spende von/i
+/ihre e?.?mail.{1,15}wurde.{1,15}spende/i
 
 /investitions?.{1,5}spenden?/i
 
@@ -58,6 +59,7 @@
 
 /spende für sie/i
 /spende.{1,15}(cash|donation)/i
+/spende.{1,10}ausgewählt/iu
 
 /spendengelder an sie/i
 
