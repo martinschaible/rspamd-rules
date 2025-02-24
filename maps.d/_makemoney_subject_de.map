@@ -16,8 +16,6 @@
 /(bit?coin|crypto|krypto).{1,15}geld.{1,10}(verdienen|machen)/i
 /(bit?coin|crypto|krypto).{0,15}wie.{1,10}profis/i
 
-/goldrausch wartet/i
-
 /(rally|rush) hat begonnen/i
 
 /(empfiehlt|erholung|lieben).{1,10}(bitcoin|crypto|krypto)/i
@@ -61,8 +59,6 @@
 
 /reich werden.{1,10}wie/i
 
-/reichtum warten/i
-
 /schnell zu wohlstand kommen/i
 /sie mit uns finanzielle freiheit/i
 
@@ -89,17 +85,6 @@
 /investieren sie jetzt/i
 /investieren wie.{1,10}(profis|stars)/i
 
-# KI
-# ------------------------------------------------------------------------------
-/(ai|chatgpt|ki).{1,10}revolutioniert aktienhandel/i
-/(ai|chatgpt|ki).{1,10}geld.{1,10}(machen|verdienen)/i
-/(ai|chatgpt|ki).{1,10}reich/i
-
-/geld.{1,15}durch (ai|chatgpt|ki)/i
-/(dividenden|geld verdienen).{1,10}(ai|chatgpt|ki)/i
-
-/automatischer aktienhandel/i
-
 # Make Money
 # ------------------------------------------------------------------------------
 /reich (ohne arbeit|werden ohne)/i
@@ -108,9 +93,6 @@
 
 /garantiertes vermögen/iu
 /garantiert bis zu.{1,15}pro monat/i
-
-/geld machen mit/i
-/geld kostenlos/i
 
 /machen sie geld/i
 /mehr geld verdienen/i
@@ -160,9 +142,6 @@
 
 /euro?.{1,10}dividendenauszahlung/i
 /(bahnbrechendes|revolutionäres).{1,10}projekt.{1,10}(enthüllt|finanziellen)/iu
-
-/revolutionäre microsoft.?initiative/iu
-/(neue|sie nicht).{1,15}goldrausch/i
 
 /dax.?rekord/i
 
