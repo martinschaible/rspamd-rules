@@ -132,36 +132,38 @@ Folder structure:
 ```
 |- subject
      |- de
-     |   |- subject.de.map
-     |   |- subject.de.adult.map
-     |   |- subject.de.finance.map
-     |   |- subject.de.greetings.map
-     |   |- subject.de.health.map
-     |   |- subject.de.phishing.map
-     |   |- subject.de.phishing.account.map
-     |   |- subject.de.phishing.alertaction.map
-     |   |- subject.de.phishing.banking.map
-     |   |- subject.de.phishing.email.map
-     |   |- subject.de.phishing.malware.map
-     |   |- subject.de.phishing.parcel.map
-     |   |- subject.de.phishing.payment.map
-     |   |- subject.de.phishing.rewards.map
-     |   |- subject.de.sale.map
-     |   |- subject.de.sale.app.map
-     |   |- subject.de.sale.seo.map
-     |   |- subject.de.sale.website.map
-     |   |- subject.de.scam.map
-     |   |- subject.de.scam.bignumbers.map
-     |   |- subject.de.scam.donation.map
-     |   |- subject.de.scam.order.map
-     |   |- subject.de.scam.winning.map
-     |   |- subject.de.singleword.map
-     |   |- subject.de.singleword.ucase.map
+     |   |- subject.de.map                            - multimap.subject.conf
+     |   |- subject.de.adult.map                      - multimap.subject.adult.conf
+     |   |- subject.de.finance.map                    - multimap.subject.finance.conf
+     |   |- subject.de.greetings.map                  - multimap.subject.conf
+     |   |- subject.de.message.map                    - multimap.subject.conf
+     |   |- subject.de.health.map                     - multimap.subject.health.conf
+     |   |- subject.de.phishing.map                 -|
+     |   |- subject.de.phishing.account.map          |
+     |   |- subject.de.phishing.alertaction.map      |
+     |   |- subject.de.phishing.banking.map          |
+     |   |- subject.de.phishing.email.map            |
+     |   |- subject.de.phishing.malware.map          |- multimap.subject.phishing.conf
+     |   |- subject.de.phishing.parcel.map           |
+     |   |- subject.de.phishing.payment.map          |
+     |   |- subject.de.phishing.rewards.map          |
+     |   |- subject.de.phishing.survey.map          -|
+     |   |- subject.de.sale.map                     -|
+     |   |- subject.de.sale.app.map                  |- multimap.subject.sale.conf
+     |   |- subject.de.sale.seo.map                  |
+     |   |- subject.de.sale.website.map             -|
+     |   |- subject.de.scam.map                      |
+     |   |- subject.de.scam.bignumbers.map           |
+     |   |- subject.de.scam.donation.map             |
+     |   |- subject.de.scam.order.map                |
+     |   |- subject.de.scam.winning.map              |
+     |   |- subject.de.singleword.map                |
+     |   |- subject.de.singleword.ucase.map         -|
      |- en
      |   |- ....
-     |- subject.health.medname.map
-     |- subject.orgbrandprod.map
-     |- subject.special.map
+     |- subject.health.medname.map                    - multimap.subject.health.conf
+     |- subject.orgbrandprod.map                      - multimap.subject.conf
+     |- subject.special.map                           - multimap.subject.conf
 ```
 
 More content will follow soon.
