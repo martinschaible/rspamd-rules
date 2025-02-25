@@ -28,8 +28,8 @@
 /loi.{0,5}\.(7z|gz|html|r11|r16|rar|tar|tgz|xla|xls|zip)/i
 
 /rechnung.{0,45}\.(7z|gz|rar|zip)/i
-/rfq\.zip/i
 
+/rfq\.zip/i
 /docu\.7z/i
 
 # 13.01.25 - Sample: re_10_00134873.zip
@@ -55,13 +55,6 @@
 # 18.01.25 - Sample: Rg. Fa. Schophuis.zip
 /rg\..{0,5}fa\..{0,15}\.(gz|zip)/i
 
-# 20.01.25 - Sample: PO# 4502288112.gz
-#                    PO200000035.gz
-/po(-|_|#)?.{1,25}\.(7z|gz|r16|rar|zip)/i
-/po(-|_|#)?\d{1,25}\.(7z|gz|r16|rar|zip)/i
-
-# 22.01.25 - Sample: RFQ- 2708970-001.gz
-/(inq|rfq)-?.{0,15}\.(gz|zip)/i
 
 # 23.01.25 - Sample: FD_EberleR176612.zip
 /(fd|pis)_.{0,20}\.(gz|zip)/i
@@ -80,6 +73,17 @@
 
 # Just numbers
 /\d{6,20}\.(gz|html?)/i
+
+# Just a date
+/d{2}(-|\.)\d{2}(-|\.)\d{2,4}\.(gz|html?)/i
+
+# 20.01.25 - Sample: PO# 4502288112.gz
+#                    PO200000035.gz
+/po(-|_|#)?.{1,25}\.(7z|gz|r16|rar|zip)/i
+/po(-|_|#)?\d{1,25}\.(7z|gz|r16|rar|zip)/i
+
+# 22.01.25 - Sample: RFQ- 2708970-001.gz
+/(inq|rfq)-?.{0,15}\.(gz|zip)/i
 
 # Pattern
 # ------------------------------------------------------------------------------
@@ -145,6 +149,8 @@
 # ------------------------------------------------------------------------------
 # 31.12.24 - Sample: PO-002144R SITCVN.gz";
 /po-\d{2,10}.{0,20}\.gz/i
+
+/po\.doc/i
 
 # 10.01.25
 /order\.rar/i
