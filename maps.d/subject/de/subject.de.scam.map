@@ -33,8 +33,12 @@
 /(preissenkungen|sinkende preise).{1,20}(photovoltaik|pv|solar).?anlagen/i
 /tiefpreise.{1,10}förderungen/i
 
+# 
 /garantiert.{1,10}prozent zinsen/i
-/zinsgutschrift vom/i
+/gutschrift ihrer zinsen/i
+/automatische zins.?gutschrift/i
+/zins.?gutschrift (im|vom)/i
+
 
 #
 /pers\. angebot vom/i
@@ -53,7 +57,7 @@
 # Business register
 # ------------------------------------------------------------------------------
 /(publikation|schaltung|veröffentlichung|werbeanzeige).{1,10}(branchen.?führer|firmen.?eintrag)/iu
-/(branchen.?führer|firmen.?eintrag).{1,10}werbeannonce/i
+/(branchen.?führer|firmen.?eintrag).{1,10}werbe.?(anzeige|annonce)/i
 
 # Winning
 # ------------------------------------------------------------------------------
