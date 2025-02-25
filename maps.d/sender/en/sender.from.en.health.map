@@ -134,14 +134,14 @@
 
 /hearing.{0,10}problem/i
 
-/tinnitus.{0,10}(gone|truth)/i
+/tinnitus.{0,10}(gone|now|truth)/i
 
 /(hear(ing)?|tinnitus).{0,10}(aid|cure|fix|loss|memory|noises?|restorer?|solution|symptoms|warning)/i
 
 /(bad|poor|restore).{0,10}hearing/i
 
 /(buzzing|clear|quiet|ringing|silent|stop|unbearable|zero).{0,10}(ears?|noise)/i
-/(beat|destroy|end|goodbye|stop).{0,10}tinnitus/i
+/(beat|destroy|end|fight|goodbye|stop).{0,10}tinnitus/i
 
 /(irritating|strange).{0,10}(buzzing|sound)/i
 
@@ -552,7 +552,10 @@
 /(toe)?nail.{0,10}(fix(er)?|repair|rescue|restoration|rub|test)/i
 
 /nasty.{0,10}(lumps|(toe)?nails?)/i
+
 /natural.{0,10}(alternative|antibiotic|fix|shape|solution|tonic)/i
+/natural.{0,10}neuropathy/i
+
 /nature.{0,10}opioids?/i
 
 /neck.{0,10}skin/i

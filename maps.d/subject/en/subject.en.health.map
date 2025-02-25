@@ -25,7 +25,7 @@
 
 /(hack|ritual|secret|solution|trick).{1,10}(extends|reverse|shocks)/i
 /(hack|ritual|secret|solution|trick).{1,10}that could change/i
-/(hack|ritual|secret|solution|trick).{1,10}to (ease|boost)/i
+/(hack|ritual|secret|solution|trick).{1,10}to (cure|ease|boost)/i
 
 /one simple stretch/i
 /with.{1,10}(easy|simple) (method|tip|trick)/i
@@ -129,6 +129,8 @@
 /constipation.{1,10}read this/i
 
 /culprid.{1,10}strokes?/i
+
+/cure.{1,10}neuropathy/i
 /cut heart attack/i
 
 # D
@@ -172,8 +174,9 @@
 
 /eliminate.{1,10}(buzzing|clogged|neuropathy)/i
 
-/end.{1,10}(back|knee|nerve) pain/i
+/empty.{1,10}colon/i
 
+/end.{1,10}(back|knee|nerve) pain/i
 /end.{1,10}buzzing ears/i
 /end.{1,10}ear (buzzing|ringing)/i
 
@@ -318,6 +321,7 @@
 /reclaim.{1,10}perfect vision/i
 /reclaim.{1,10}your.{1,10}(strength|vitality)/i 
 
+/regain your ability/i
 /(re)?grows? lost hair/i
 
 /relief with this.{1,15}(technique|weird)/i
@@ -409,7 +413,8 @@
 /trick melts.{1,10}fat/i
 /trick to end.{1,15}pain/i
 
-/to stay asleep/i
+/to get.{1,10}hard/i
+/to stay.{1,10}asleep/i
 
 # U
 /unusual asian treat/i
