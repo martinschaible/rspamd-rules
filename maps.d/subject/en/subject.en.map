@@ -43,12 +43,6 @@
 
 /(ignite|illuminate|launch|maximize|propel|rocket).{1,10}your (earnings|portfolio|returns|wealth)/i
 
-# Probably Malware
-# ------------------------------------------------------------------------------
-
-# 11.02.25 - Sample: Document JAP 10 February 2025
-/document.{1,10}\d{1,2} february 2025/i
-
 #
 #
 #
@@ -65,6 +59,8 @@
 /bless this/i
 
 # C
+/confidential.{1,10}respond/i
+
 /claim your.{1,15}tokens?/i
 /claim your.{1,15}bonus/i
 
@@ -80,6 +76,11 @@
 # F
 /financing_/i
 
+/follow up.{1,10}(any update|checking on|heard back|still a?waiting|wanted to)/i
+/follow up.{1,10}follow(ing)? up/i
+/follow up.{1,10}just (checking|following)/i
+/follow up.{1,10}(no reply|received)/i
+
 /free casino games/i
 /free spins/i
 
@@ -94,6 +95,8 @@
 
 # I
 /i?a?m dr\./i
+
+/i have.{1,10}confidential information/i
 
 /illuminate your path/i
 /illuminati brotherhood/i
@@ -138,6 +141,8 @@
 /peace to you/i
 
 /please reply for.{1,10}(details|more)/i
+
+/(private|strictly|urgent).{1,10}confidential/i
 
 # Q
 

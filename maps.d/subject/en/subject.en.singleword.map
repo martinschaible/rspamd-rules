@@ -61,6 +61,8 @@
 /donation\$/i
 /donation!/i
 
+/d o l l a r s/i
+
 # E
 /emaiis/i
 
@@ -69,10 +71,14 @@
 /funding!/i
 /funds?!/i
 /funds\.\./i
+
 # G
+/g00dbye/i
+
 /^greetings?$/i
 
 # H
+/hello\.\./i
 /homepage\.\./i
 
 # I
@@ -93,15 +99,18 @@
 /^loan$/i
 
 # M
-/^mitarbeitern?$/i
+/m i l l i o n/i
 
 # N
 /n0tice/i
 
 /nail.?fungus/i
 /noreply/i
+/notification_/i
 
 # O
+/0ffer/i
+/0verdue/i
 
 # P
 /packages?\*\*/i
@@ -156,6 +165,7 @@
 # X
 
 # Y
+/you!!/i
 /\.your/i
 
 # Z

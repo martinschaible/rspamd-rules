@@ -14,17 +14,24 @@
 # ==============================================================================
 
 # A
+/asalaam.{1,5}(madam|sir)/i
 
 # B
+/beloved one/i
+/beneficial sir/i
+/bring you greetings/i
 
 # C
 /compliment of the season/i
 
 # D
-/dear (beloved|due respect|esteemed|herr|recipient)/i
+/dear (beloved|due respect|esteemed¬friend|madam|sir|recipient)/i
 /dear herr/i
 
-/dear (friend|madam|sir)/i
+/dear e?.?mail.{1,10}(user|owner)/i
+/dear sir.{1,5}madam/i
+
+/dearest (friend|one)/i
 
 # E
 
@@ -38,16 +45,22 @@
 /good day (madam|sir)/i
 
 /good day.{1,10}my.{1,10}friend/i
+/good day.{1,10}dear/i
+/good day to you/i
 
+/good to meet you/i
+
+/greetings?.{1,10}(future|from here)/i
 /greetings?.{1,10}(in the name of god|to you)/i
 
 # H
-/hello\.\./i
 /hello attention/i
 /hello dearest/i
 /hello (madam|sir)/i
-/dear sir.{1,5}madam/i
-/dearest friend/i
+
+/hello.{1,10}(dear|good) friend/i
+/hello.{1,10}anticipated partner/i
+/hello.{1,10}my dear/i
 
 # I
 

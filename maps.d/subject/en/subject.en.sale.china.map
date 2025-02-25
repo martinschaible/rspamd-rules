@@ -11,7 +11,10 @@
 /best prices.{1,10}china/i
 /(plastic|toolmaking).{1,10}china/i
 /parts in china/i
-/suppliers (from|of) china/i
+
+/(manufacture|suppliers) (from|in|of).{1,10}china/i
+
+/we are china.{1,10}leading/i
 
 #
 #
@@ -35,6 +38,7 @@
 /(design|manufacture|you need).{1,15}pcba?/i
 
 /custom.{1,10}metal stamping /i
+/custom.{1,10}(pcba?|printed.circuit.board)/i
 /custom.{1,10}products? manufacturing/i
 
 # D
@@ -80,7 +84,8 @@
 # L
 /leading.{1,15}manufacturer of/i
 
-/low(est)? prices?.{1,10}(pcba?|plastic.?mold)/i
+/low(est)? prices?.{1,10}(pcba?|printed.?circuit.?board)/i
+/low(est)? prices?.{1,10}plastic.?mold/i
 
 # M
 /many years.{1,10}oem/i
@@ -88,7 +93,7 @@
 /manufacturer of.{5,25}since/i
 /manufacturer from.{1,10}china/i
 
-/multilayer pcba?.{1,10}manufacturing/i
+/multilayer (pcba?|printed.?circuit.?board).{1,10}manufacturing/i
 /multiple freight solutions/i
 
 /moulding (from|in) china/i
@@ -102,8 +107,8 @@
 # O
 /oem.{1,10}(plastic|products?|service|supplier)/i
 
-/our advanced pcba?/i
-/our high.?quality.{1,10}pcba?/i
+/our advanced.{1,10}(pcba?|printed.?circuit.?board)?/i
+/our high.?quality.{1,10}(pcba?|printed.?circuit.?board)?/i
 
 # P
 /passive.{1,10}component broker/i
@@ -111,9 +116,11 @@
 
 /(parts|source).{1,10}manufacturer/i
 
-/pcba?.{1,20}(assembly|enquiry|factory|manufacturer|manufacturing|needs|provider|service)/i
-/pcba?.{1,10}factory (from|in) china/i
-/pcba?.{1,10}supplier for/i
+/(pcba?|printed.?circuit.?board).{1,20}(assembly|business|cooperation|enquiry|fabrication|factory)/i
+/(pcba?|printed.?circuit.?board).{1,10}(manufacturer?|manufacturing|needs|provider|service)/i
+
+/(pcba?|printed.?circuit.?board).{1,10}factory (from|in) china/i
+/(pcba?|printed.?circuit.?board).{1,10}supplier for/i
 
 /plastic.?injection.{1,10}mould.?maker/i
 /plastic.?tooling.{1,10}services?/i
@@ -121,7 +128,7 @@
 /prototype manufacturer?/i
 
 # Q
-/quotation of.{1,10}(multilayer)?.{1,10}pcba?/i
+/quotation of.{1,10}(multilayer)?.{1,10}(pcba?|printed.?circuit.?board)/i
 
 # R
 /rfq.{1,15}(injection|moulding|plastic)/i
@@ -150,7 +157,7 @@
 # X
 
 # Y
-/your current.{1,15}supplier/i
+/your (current|future).{1,15}supplier/i
 /your plastic.?mould/i
 
 # Z
