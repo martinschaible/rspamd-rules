@@ -13,12 +13,8 @@
 /dringlichkeit.{1,10}aufmerksamkeit/i
 /e?.?mail sie gut findet/i
 /finanzielle mitteilung/i
-/gluckwunsch/i
 /letze achtung/i
 /sie sehen diesen brief/i
-/vertraulichkeit/i
-/verwarnungsbrief/i
-/vorubergehend/i
 
 #
 #
@@ -34,13 +30,10 @@
 # Finance
 # ------------------------------------------------------------------------------
 /benötigen persönlichen/iu
-/niedrigzinskredite?/i
 
 # Health
 # ------------------------------------------------------------------------------
-/diatprodukt/iu
 /ohne diat/i
-/sehvermogen/i
 /herren.?meds/i
 
 # Make Money
@@ -63,18 +56,11 @@
 /ereignisse auf ihren konten/i
 /erforderliche? aktion/i
 
-/konto.?aktualisierung/i
-/kontoaktivitäts.?aktualisierung/i
-
-/kreditkartenbenachrichtigung/i
 /(karte|konto).{1,10}in der warteschleife/i
 
 /nachricht zu empfangen/i
 
-/pramienzahlung/i
 /problem erneuern/i
-/rückerstattungs(information|methode)/iu
-/sicherheitsverbesserung/i
 /sie haben eine gesperrte zahlung/i
 /unbehandelter unternehmensdaten/i
 /wichtiger handlungsbedarf/i
@@ -86,20 +72,15 @@
 /ihr.{1,15}konto ist abgelaufen/i
 /ihr.{1,15}profil läuft bald aus/iu
 
-/kontoaktivitäts.?aktualisierung/iu
 /nachricht einsehen/i
 
 # Phishing - Banking
 # ------------------------------------------------------------------------------
-/erinnering/i 
 /handlungsbedarf.{1,10}sicherheitsupdate/i
 /ihr.{1,10}securego.?verfahren/i
-/sicherheitsgrunden/i
-/verfugbar/i
 
 # Phishing - Parcel
 # ------------------------------------------------------------------------------
-/adressuberprufung/i
 /ausgesetzten pakets/i
 /paket.?liefer.?benachrichtigung/i
 
@@ -115,30 +96,18 @@
 
 # Phishing - Rewards
 # ------------------------------------------------------------------------------
-/belohnungs.?panel/i
 /exklusive ersparnisse/i
-/gewinnerfahrer/i
-/gutscheinempfänger/iu
 /ihre preise freigeschaltet/i
 /sie wurden ausgewahlt/i
-/sonderbelohnung/i
 /ueberraschung fuer/i
-/umfragegewinner/i
 
 # Scam
 # ------------------------------------------------------------------------------
 /bestätigen sie den anspruch/iu
 
-/fondsbewilligungsbescheid/i
-
 /gelegenheit.{1,10}gegenseitigen nutzen/i
-/geschäfts.?investitions/iu
-/geschäfts.?partnerschaft/iu
-/gewinner.?fonds/i
 
-/ordnungscode/i
 /offnen sie den anhang/i
-/reichtumsmoglichkeit/i
 /übertragung genehmigter mittel/iu
 
 # Scam - Donation

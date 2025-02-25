@@ -79,7 +79,6 @@
 /dear.{1,10}senior buyer/i
 
 /(dear|hi).{1,10}(hiring|purchase|purchasing|sourcing).?manager/i
-/(dear|hi) my.{1,10}customer/i
 
 /dear.{1,10}(madam|purchaser|sir).{1,15}are you interested in/i
 /dear.{1,10}(madam|purchaser|sir).{1,15}(how are you|this is)/i
@@ -104,7 +103,6 @@
 /dearest possible companion/i
 
 /good (day|evening|morning).{1,10}can you supply/i
-/good (day|evening|morning).{1,10}i.?a?m.{5,25}from/i
 /good (day|evening|morning).{1,10}i.?a?m.{5,25}representing a high/i
 /good (day|evening|morning).{1,10}i.?a?m (mrs?|ms)/i
 /good (day|evening|morning).{1,10}i would like to discuss something/i
