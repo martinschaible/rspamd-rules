@@ -6,10 +6,6 @@
 # Topics
 # ==============================================================================
 
-# Survey
-# ------------------------------------------------------------------------------
-/in unserer weihnachtsumfrage/i
-
 # Products
 # ------------------------------------------------------------------------------
 /(bestätigung|geschenk|gewinnen|kostenloses|unser).{1,20}notfall.?(kit|set)/i
@@ -19,7 +15,7 @@
 /(auto|kfz).{1,10}notfall.?(kit|set)/i
 /notfall.?(kit|set).{1,10}(auto|kfz|wartet)/i
 
-/medicare.?set/i
+/medicare.?(kit|set)/i
 
 # Mystery Box
 /mystery.?box.{1,10}(erhalten|gewonnen)/i
@@ -60,6 +56,7 @@
 # C
 
 # D
+/dein preis ist auf dem weg/i
 /deine belohnung abholen/i
 
 /du bist bestätigt/iu
@@ -156,7 +153,7 @@
 /ist noch unbeansprucht/i
 
 # J
-/jetzt (antworten|öffnen)/ii
+/jetzt (antworten|öffnen)/i
 
 # K
 /kostenlos(es)?.{1,25}gewinnen/i
@@ -167,9 +164,6 @@
 /letzte chance.{1,10}ihr kostenloses/i
 
 # M
-/machen sie mit.{1,10}gewinnen sie/i
-
-/medicare.?kit/i
 
 # N
 /nicht verpassen.{1,25}verlosung/i
@@ -225,10 +219,6 @@
 /sie wurden ausgewählt/iu
 
 # T
-/teilen sie ihre meinung/i
-
-/teilnehmen und ihren.{1,15}sichern/i
-/teilnehmen.{1,15}gewinnen/i
 /top.?gewinnern/i
 
 # U
@@ -236,10 +226,6 @@
 
 /um ein(en)?.{5,25}zu gewinnen/i
 /um ihr(en)?.{5,25}zu sichern/i
-
-/umfrage endet heute/i
-/umfrage gewonnen/i
-/umfrage.{1,10}ihre chance/i
 
 # V
 /verlosung.{1,10}jetzt mitmachen/i
