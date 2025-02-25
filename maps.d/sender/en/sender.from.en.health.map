@@ -348,6 +348,8 @@
 
 /boost.{0,10}(circulation|energy)/i
 
+/bp.?drugs/i
+
 /burn.{0,10}calories/i
 /(buzzing|hissing).{0,10}ears/i
 
@@ -477,7 +479,7 @@
 /hates it/i
 
 /healing.{0,10}(massage|technology)/i
-/healthy.{0,10}(choice(es)?|digest)/i
+/healthy.{0,10}(choice(es)?|digest|smile)/i
 
 /heart.{0,10}(attack|cells|health|disease|problems?|protection|risk)/i
 
@@ -561,6 +563,8 @@
 /nightmare.{0,10}pee/i
 
 /no.{0,10}diet/i
+
+/nutrition.{0,10}tips?/i
 
 # O
 /odd.{0,10}(milk|mineral|liquid|tonic)/i
@@ -656,6 +660,7 @@
 /stuck.{0,10}poop/i
 
 /sugar.{0,10}(free|traps|trick)/i
+/super.{0,10}water/i
 /surgeon.{0,10}(reveals|stamina)/i
 /surgery.{0,10}canceled/i
 /sore.{0,10}back/i

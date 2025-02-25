@@ -71,6 +71,8 @@
 # L
 /lieber?.{1,10}(paket)?empfänger/iu
 /lieber?.{1,10}(fremder|geliebter?|unbekannter)/i
+/lieber?.{1,10}guter freund/i
+
 /lieber kunde.{1,15}wir haben versucht/i
 
 /(lieber?|sehr geehrter?).{1,5}e?.?mail.{0,15}(besitzer|eigentümer|empfänger|inhaber)/i
