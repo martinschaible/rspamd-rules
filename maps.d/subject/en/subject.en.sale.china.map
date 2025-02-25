@@ -45,7 +45,7 @@
 # E
 /exclusive freight rates/i
 
-/electronic components?.{1,10}(stock|supply)/i
+/electronic components?.{1,10}(stock|supplier|supply)/i
 /electronic components?.{1,10}you need/i
 
 /^electronic components$/i
@@ -70,6 +70,8 @@
 /injection molded parts/i
 /injection molding solutions/i
 /injection molding$/i
+
+/inquiry about.{1,10}pcba?/i
 
 # J
 
@@ -109,7 +111,7 @@
 
 /(parts|source).{1,10}manufacturer/i
 
-/pcba?.{1,20}(assembly|enquiry|factory|manufacturer|manufacturing|provider|service)/i
+/pcba?.{1,20}(assembly|enquiry|factory|manufacturer|manufacturing|needs|provider|service)/i
 /pcba?.{1,10}factory (from|in) china/i
 /pcba?.{1,10}supplier for/i
 
@@ -128,11 +130,14 @@
 /sea freight quote/i
 /shipping rfq/i
 
+/supplier from.{1,10}china/i
 /supply steel plates/i
 
 # T
 /trusted.{1,15}custom fabrication/i
 /trusted.{1,15}manufacturer of/i
+
+/trustworthy.{1,10}company/i
 
 # U
 

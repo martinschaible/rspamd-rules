@@ -44,6 +44,9 @@
 /hallo.{1,10}herr.{1,5}frau/i
 /hallo.{1,5}liebling/i
 
+# Sample: Hallo helan@hh-biodynamik.de
+/hallo.{1,20}@[a-z0-9].{4,15}\.[a-z]{2,4}/i
+
 # I
 /ich bin.{5,35}aus/i
 

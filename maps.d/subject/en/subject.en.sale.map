@@ -12,21 +12,20 @@
 
 /cruiser.{1,10}e.?bike/iu
 
-/^e.?bike/i
-/e.?bike.{1,15}(adventrue|built|coorperation|delivers?|distribution|interest)/i
-/e.?bike.{1,15}(factory|germany|performance|shipped|supplier)/i
+/^e(lectric)?.{0,10}(bicycle|bike)/i
+/e(lectric)?.{0,10}(bicycle|bike).{1,15}(adventrue|built|coorperation|delivers?|distribution|interest)/i
+/e(lectric)?.{0,10}(bicycle|bike).{1,15}(factory|germany|performance|shipped|supplier)/i
 
-/e.?bike.?pro/i
+/fat.?tire.{1,10}e(lectric)?.{0,10}(bicycle|bike)/i
 
-/(about|battery|deals|expand|germany|interested).{1,15}e.?bike/i
-/(next|portable|premium|seamless|shipping|stylish|trusted|our latest).{1,15}e.?bike/i
+/(about|battery|deals|expand|germany|inspired|interested).{1,15}e(lectric)?.{0,10}(bicycle|bike)/i
+/(next|portable|premium|seamless|shipping|stylish|trusted|our).{1,15}e(lectric)?.{0,10}(bicycle|bike)/i
 
-/(in|with) our.{1,10}e.?bike/i
+/(in|with) our.{1,10}e(lectric)?.{0,10}(bicycle|bike)/i
 /your.{1,10}e.?bike/i
 
 /city.?voyager/i
 /(classic|electric).{1,10}moped/i
-/fat.?tire.{1,10}e.?bike/i
 /moped.{1,10}style/i
 
 /versatile riding/i

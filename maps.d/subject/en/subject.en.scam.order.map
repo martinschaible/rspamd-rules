@@ -70,6 +70,9 @@
 /request for quotation from/i
 /request.?quotation/i
 
+# Sample: RFQ # 0110-2025
+/^rfq.{1,5}\d{2,5}-\d{2,5}/i
+
 /rfq.{1,15}po.{1,5}requirements/i
 /rfq-?.?\d{2,10}/i
 /rfq\//i
