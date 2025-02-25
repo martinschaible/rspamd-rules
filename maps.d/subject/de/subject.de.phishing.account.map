@@ -18,6 +18,7 @@
 
 # A
 /aktivitäten vorübergehend geschlossen/i
+/aussetzung droht am.{1,20}jetzt handeln/i
 
 # B
 /bestätigen sie jetzt ihr/iu
@@ -60,6 +61,8 @@
 # J
 
 # K
+/(karte|konto).{1,10}in der warteschleife/i
+
 /^konto vorübergehend/iu
 
 /konto stillgelegt/i
@@ -71,6 +74,8 @@
 /konto.{1,10}vorübergehende?/i
 /konto.{1,10}wurde aufgrund ungewöhnlicher/i
 
+/konto ist abgelaufen/i
+
 # L
 
 # M
@@ -80,6 +85,7 @@
 # O
 
 # P
+/profil läuft bald aus/iu
 
 # Q
 

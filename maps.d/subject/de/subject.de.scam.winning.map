@@ -27,6 +27,7 @@
 # ==============================================================================
 
 # A
+/auszeichnung.{1,10}benachrichtigung/i
 
 # B
 
@@ -37,12 +38,19 @@
 /du bist ein gewinner/i
 
 # E
+/endgultige.{1,10}notifikation/i
+/endgültige.{1,10}notifikation/iu
 
 # F
+/finale auszeichnung/i
 
 # G
 /(geehrter|liebe).{1,15}gewinner/i
+
+/gewinnende nummer/i
 /gewinner wurden enthüllt/iu
+
+/glückliche chance/iu
 
 /glückwunsch an unsere.{1,10}gewinner/iu
 /glückwunsch zum gewinn/iu

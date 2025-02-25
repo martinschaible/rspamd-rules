@@ -31,6 +31,7 @@
 /auf hold/i
 /aufbewahrt wird/i
 
+/ausgesetzten.{1,10}pakets?/i
 /ausstehende gebühren.{1,15}für paket/iu
 
 # B
@@ -86,6 +87,7 @@
 /lieferdetails.{1,10}um die lieferung/i
 
 /(lieferung|versand).{1,10}(ausstehende|unbezahlte).{1,10}(versandkosten|zollgebühren)/iu
+/(lieferung|versand).{1,10}ist angehalten/i
 
 # M
 /maßnahmen zu ihrem paket/i
@@ -145,6 +147,10 @@
 
 # V
 /verfolgen.{1,10}zu erhalten/i
+
+/versand.{1,10}ist (auf seinem weg|unterwegs)/i
+/versand.{1,10}versendet wird/i
+
 /versandbestätigung erforderlich/iu
 
 # W
@@ -158,6 +164,8 @@
 /wichtige?.{1,15}zustellung nicht möglich/iu
 /wichtige?.{1,15}(aktion|benachrichtigung)/i
 /wichtige informationen.{1,15}lieferung/i
+
+/wir haben ihre?.{1,10}(paket|sendung).{1,10}bereit/i
 
 /wird bearbeitet/i
 /wird hiermit zugestellt/i
@@ -175,3 +183,5 @@
 /zustellung ansteht/i
 /zustellung.{1,25}bestätigen sie/iu
 /zustellung.{1,25}(ausstehend|fehlgeschlagen)/i
+
+/zwischenlager erhalten/i

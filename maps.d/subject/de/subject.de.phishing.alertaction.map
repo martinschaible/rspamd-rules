@@ -39,10 +39,13 @@
 /(aktualisieren|erneuern|prüfen).{1,10}ihre.{1,15}(adress|kontakt|zahlungs).?informationen/i
 
 /aufforderung zur datenprüfung/i
+/aufmerksamkeit.{1,15}mahnung/i
 
 /(re)?aktivieren sie ihre.{1,10}photo.?tan/i
 
 # B
+/benötigt aktion/iu
+
 /bestätigung erforderlich.{1,10}(rück)?erstattung/i
 /bestätigen sie ihre.{1,10}(angaben|telefon.?nummer)/i
 
@@ -54,10 +57,11 @@
 /(dringend|wichtig).{1,10}zahlungsdetails/i
 
 /dringende information.{1,10}korrektur/i
+/dringlichkeit.{1,10}aufmerksamkeit/i
 
 # E
-/erforderliche aktion/i
-/erforderliche aktualisierung/i
+/erforderliche? aktion/i
+/erforderliche? aktualisierung/i
 
 # F
 
@@ -143,6 +147,8 @@
 /wichtige?.{1,10}sicherheitsüberprüfung erforderlich/iu
 
 /wichtige?.{1,10}überprüfung für/iu
+
+/wichtiger handlungsbedarf/i
 
 # X
 

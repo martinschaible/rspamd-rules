@@ -37,6 +37,8 @@
 /auf eine kostenlose/i
 
 # B
+/beanspruchen.{1,10}aktivieren/i
+
 /beantworte eine kurze umfrage/i
 /beantworten sie unsere befragung/i
 
@@ -85,6 +87,8 @@
 
 /^exklusive.{1,10}prämien?$/i
 /exklusive.{1,15}prämien? für sie/i
+/exklusive.{1,10}ersparnisse/i
+
 /exklusiven.{1,20}absolut kostenlos/i
 
 # F
@@ -183,6 +187,7 @@
 
 /preis.{1,15}mystery box/i
 /preis.{1,10}zugestellt zu bekommen/i
+/preise.{1,10}freigeschaltet/i
 
 /profil wurde für eine besondere/iu
 
@@ -216,13 +221,16 @@
 /sie sind einer unserer.{1,15}(finalisten|gewinner)/i
 
 /sie haben noch nicht geantwortet/i
+
 /sie wurden ausgewählt/iu
+/sie wurden ausgewahlt/i
 
 # T
 /top.?gewinnern/i
 
 # U
 /überraschung für dich von/iu
+/ueberraschung fuer/i
 
 /um ein(en)?.{5,25}zu gewinnen/i
 /um ihr(en)?.{5,25}zu sichern/i
