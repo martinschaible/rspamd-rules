@@ -80,7 +80,7 @@
 # L
 /leading.{1,15}manufacturer of/i
 
-/low price.{1,10}plastic.?mold/i
+/low(est)? prices?.{1,10}(pcba?|plastic.?mold)/i
 
 # M
 /many years.{1,10}oem/i
