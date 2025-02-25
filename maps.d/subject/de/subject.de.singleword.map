@@ -26,16 +26,17 @@
 /^achtung$/i
 /achtung/i 0.09
 
-/aktenzeichen.{1,20}telefonat/i
+/adressuberprufung/i
+
 /aktualisierungsservice/i
 
 /anfrage\*/i
 /anspruchs!/i
-/^ansprüche$/i
-/ansprüche!/i
-/ansprüche\./i
+/^ansprüche$/iu
+/ansprüche!/iu
+/ansprüche\./iu
 
-/arbeitnehmerüberlassung/i
+/arbeitnehmerüberlassung/iu
 /atm.?karte/i
 #/aufmerksamkeit$/i
 /aufmerksamkeit!/i
@@ -45,11 +46,14 @@
 /bearbeitungsfortschritt/i
 /begrenzter!/i
 /^begünstigter$/iu
-/beitragsrückerstattung/i
+
+/beitragsrückerstattung/iu
+/belohnungs.?panel/i
 /benachrichtigung#/i
 
 /bestatigung/i
 #/bestaetigung/i
+
 /branchenbuch.?eintrag/i
 
 # C
@@ -66,6 +70,8 @@
 /darlehensbeträgen?/iu
 /darlehensmöglichkeit/iu
 
+/diatprodukt/iu
+
 /dringlichkeitsantrag/i
 /^dringend:/i
 
@@ -74,18 +80,19 @@
 
 /elektro.?heizer/i
 
-/entschädigungsfonds /iu
-/entschädigungslotterie/i
+/entschädigungsfonds/iu
+/entschädigungslotterie/iu
 
 /erbschaftsfonds/i
 /erbschaftsübertragung/iu
 
 /erforderlich!/i
+/erinnering/i 
 
 /esaver/i
 
 # F
-/^fachkräften?$/i
+/^fachkräften?$/iu
 
 fettverbrenner/i
 
@@ -97,7 +104,9 @@ fettverbrenner/i
 /finanziellen \d/i
 
 /förderung \d/iu
+
 /fondsbegünstigter/iu
+/fondsbewilligungsbescheid/i
 
 # G
 /gelddarlehen/i
@@ -106,8 +115,12 @@ fettverbrenner/i
 
 /gerätesicherheitsabonnement/iu
 
-/geschäfts?.?darlehen/i
-/geschäftsgelegenheit/i
+/geschäfts?.?darlehen/iu
+/geschäfts?.?gelegenheit/iu
+
+/geschäfts?.?investitions?/iu
+/geschäfts?.?partnerschaft/iu
+
 #/geschenk:/i
 
 /gewichtsabnahme/i
@@ -122,9 +135,12 @@ fettverbrenner/i
 /^gewinner$/i
 /gewinnbenachritigung/i
 /gewinnerfonds/i
+/gewinnerfahrer/i
 
-/^glückwunsch!$/i
+/^glückwunsch!$/iu
+/gluckwunsch/i
 
+/gutscheinempfänger/iu
 /goldrausch!/i
 
 # H
@@ -157,17 +173,22 @@ fettverbrenner/i
 /kredite?!/i
 /-kredit/i
 
-/^kontoaktualisierung$/i
+/konto.?aktualisierung/i
+/kontoaktivitäts.?aktualisierung/iu
+
 /kontofunktionen/i
 /kontosicherheit!/i
 /kontosperrung!/i
 /kontowarnung/i
+
 /kooperation,/i
 
 /^kreditangebot$/i
 /^kreditangebot.?\?/i
 /^kreditangebot.?-/i
 /kreditangebot @/i
+
+/kreditkartenbenachrichtigung/i
 
 /^kreditfinanzierung$/i
 /^kreditvorschlag$/i
@@ -189,8 +210,10 @@ fettverbrenner/i
 # N
 /nachricht#/i
 /niedrigzinskreditangebot/i
+/niedrigzinskredite?/i
 
 # O
+/ordnungscode/i
 
 # P
 /_paketdienst/i
@@ -209,6 +232,7 @@ fettverbrenner/i
 
 /postdienstbenachrichtigung/i
 /postfach#/i
+
 /pramienzahlung/i
 
 /^projekt$/i
@@ -217,9 +241,13 @@ fettverbrenner/i
 # Q
 
 # R
+/reichtumsmoglichkeit/i
+
 # /räumungsverkauf/i
 /ruckerstattung/i
 /rueckerstattung/i
+/rückerstattungsinformation/iu
+/rückerstattungsmethode/iu
 
 # S
 /sauberlaufmatten/i
@@ -229,14 +257,20 @@ fettverbrenner/i
 /schmutzfangmatten?/i
 /schwerlastregale?/i
 
+/sehvermogen/i
 /sendungsverfolgungsnummer/i
 /sexy?.?cam/i
 
 /sie\.\.\./i
-/sicherheitsüberwachung/i
+
+/sicherheitsgrunden/i
+/sicherheitsüberwachung/iu
+/sicherheitsverbesserung/i
 #/sicherheitswarnung/i
 
 /^sofortkredit/i
+
+/sonderbelohnung/i
 
 /^spende$/i
 /^(aw|re):.?spende$/i
@@ -247,10 +281,11 @@ fettverbrenner/i
 /spendencode/i
 /spendenfonds/i
 /spendenpreis/i
-/spendenunterstützung/i
+/spendenunterstützung/iu
 /spendenzuschuss/i
 
 /stufenmatten/i
+
 
 # T
 /tagesgeld(er)?/i
@@ -268,18 +303,23 @@ fettverbrenner/i
 
 /uberprufen/i
 
-/^überprüfung$/i
+/^überprüfung$/iu
 
 /umfrage:/i
 /umfragebelohnung/i
+/umfragegewinner/i
+
 /unternehmensdatenbank/i
 
 # V
 /verdienen!/i
-/verlosung:/i
-/versandaktualisierung/i
-
 /verfugbar/i
+/verlosung:/i
+
+/versandaktualisierung/i
+/vertraulichkeit/i
+/vorubergehend/i
+/verwarnungsbrief/i
 
 # W
 /werbe.?kuli/i

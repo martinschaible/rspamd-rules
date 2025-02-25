@@ -60,6 +60,7 @@
 # G
 /good day.{1,10}trust this message/i
 
+/good (day|evening|morning).{1,10}i.?a?m.{5,25}from/i
 /good (day|evening|morning).{1,15}this might come.{1,10}surprise/i
 /good (day|evening|morning).{1,15}please find attached/i
 /good (day|evening|morning).{1,10}to you.{1,10}my name is/i
@@ -75,6 +76,7 @@
 
 /(hello|my name is).{5,35}from.{5,35}(in)? (china|india|ukraine)/i
 
+/(hello|hi).{1,10}customer/i
 /(hello|hi).{1,5}(dear|friend).{1,10}(confidential|private|strictly|urgent)/i
 /(hello|hi).{1,5}(dear|friend).{1,10}we would like to introduce/i
 /(hello|hi).{1,10}i am.{1,10}professional/i
