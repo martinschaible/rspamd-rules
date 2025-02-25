@@ -8,20 +8,43 @@
 
 # Attention, Important, Urgent
 # ------------------------------------------------------------------------------
+/achtung.{1,10}offizielle mitteilung/i
+
+/antwort erforderlich/i
+/antworte jetzt/i
 /antworten sie so schnell wie möglich/iu
+
+/aufmerksamkeit.{1,15}erforderlich/i
+/aufmerksamkeit.{1,15}wichtige mitteilung/i
 
 /dies ist dringend.{1,10}antworten/i
 /dies ist sehr wichtig/i
 
+/dringend.{1,10}dringend/i
+/dringend.{1,15}(lesen|sorgfältig)/iu
+
 /^dringende antwort$/i
-/(dringend|wichtig)e?.{1,10}(angelegenheit|aufmerksamkeit|benachrichtigung)/i
+/(dringende?|wichtige?).{1,10}(angelegenheit|aufmerksamkeit|benachrichtigung|nachricht)/i
 
 # False/Positive 1x
 #/(dringend|wichtig)e?.{1,15}(information(en)?|info\b)/i
 /dringende?.{1,15}(erinnerung|mitteilung|nachricht\b)/i
 
-/dringend.{1,10}dringend/i
-/dringend.{1,15}(lesen|sorgfältig)/iu
+/ich habe eine.{1,10}wichtige information/i
+
+/nachricht wichtig/i
+/wichtig.{1,10}important/i
+
+/(sehr|wichtige).{1,10}dringende/i
+
+# Message
+# ------------------------------------------------------------------------------
+# Sample: #7635349894-Nachricht
+/\d{5,15}.?nachricht/i
+
+/\[.{1,15}\].{1,10}neue Nachricht/i
+
+/-:neue nachricht/i
 
 #
 #
@@ -61,6 +84,7 @@
 # K
 
 # L
+/lesen sie diese e?.?mail/i
 /lies diese nachricht/i
 
 # M

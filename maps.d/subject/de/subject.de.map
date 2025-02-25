@@ -34,12 +34,17 @@
 # B
 /beeilen sie sich/i
 /benachrichtigung ist für sie/iu
-/bestätigen sie den besitz/i
+
+/(bestätigen sie|sie mir.{1,10}mitteilen).{1,10}den besitz/i
+/(bestätigen sie|sie mir.{1,10}mitteilen).{1,15}(diese|ihre).{1,10}e?.?mail.{1,15}(aktiv|gültig) ist/iu
+/(bestätigen sie|sie mir.{1,10}mitteilen).{1,10}ob ihre e?.?mail.{1,15}(aktiv|gültig) ist/i
+
 /bitte aufmerksam lesen/i
 
 /bonus.{1,10}wartet (auf sie|dich)/i
 
 # C
+/(ch|de|org).{1,10}ihr gültiges/iu
 
 # D
 /das geheime.{1,20}aus/i
@@ -58,6 +63,8 @@
 /freue mich auf ihre antwort/i
 
 /friede sei mit dir/i
+
+/funktioniert ihre e?.?mail.{1,10}noch/i
 
 # G
 /gewinne.{1,10}el.?gordo/i

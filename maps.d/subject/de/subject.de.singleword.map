@@ -24,6 +24,9 @@
 /abnehmrezept/i
 
 /^achtung$/i
+
+/achtung.{0,5}!!/i
+/achtung.{0,5}!\?/i
 /achtung/i 0.09
 
 /adressuberprufung/i

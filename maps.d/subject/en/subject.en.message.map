@@ -30,15 +30,20 @@
 
 /for your attention/i
 
+# Message
+# ------------------------------------------------------------------------------
+# Starts with a number
+/\(\d\) message from/i
+
+/message from.{1,10}friend/i
+/message for you.{1,10}(important|urgent)/i
+
 #
 #
 #
 
 # Generic
 # ==============================================================================
-
-# Starts with a number
-/\(\d\) message from/i
 
 # A
 
@@ -69,8 +74,6 @@
 /letter from/i
 
 # M
-/message from.{1,10}friend/i
-/message for you.{1,10}(important|urgent)/i
 
 # N
 /^new email/i
