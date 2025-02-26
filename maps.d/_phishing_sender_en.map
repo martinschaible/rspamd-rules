@@ -101,29 +101,14 @@
 
 /order.{0,5}\d{2,4}/i
 /renew_/i
-/shipping.?pending/i
-
-#
-#
-#
-
-# Membership, subscription
-# ------------------------------------------------------------------------------
-/your.?membership/i
-
-#
-#
-#
 
 # Winning, Present, Rewards
 # ------------------------------------------------------------------------------
-/confirmation.?needed/i
 /(celebration|customer|consumer).?(offer|reward)/i
 
 /earn.?entry/i
 
 /(binance|mystery).?rewards/i
-/rewards.?team/i
 /shopper.{0,10}(feedback|gift|opportunity)/i
 
 /delivery.?notif\./i
@@ -158,7 +143,6 @@
 # Brands, Products
 # ------------------------------------------------------------------------------
 
-# Apple
 /(ipad|iphone).{0,10}pro/i
 /iphone.?\d{2}/i
 
@@ -166,21 +150,8 @@
 /car.?emergency/i
 /emergency.?kit/i
 
-# Surveys
-# ------------------------------------------------------------------------------
-
-#
-#
-#
-
 # Companies and Organisations
 # ------------------------------------------------------------------------------
-
-# Adobe
-/adobepdf/i
-
-# ADAC
-/a\.d\.a\.c/i
 
 # AHV-Ausgleichskasse
 /www\.ahv-iv\.ch/i
@@ -197,27 +168,8 @@
 # Customs
 /germany.?zoll/i
 
-# Decathlon
-/decathlon-/i
-
-# Deutsche Κrеdіtbаnk
-/dkb\.de/i
-
-# DPD
-/dpd eu/i
-/dpd.?zoll/i
-/dpd_paket/i
-
-# Fedex
-/fedex.{0,15}(fedex|helpdesk|support)/i
-/fedex.?(express|ups)/i
-
 # Federal Reserve Bank
 /federal reserve bank/i
-
-# Hetzner
-/hetzner, inc/i
-/support.?hetzner/i
 
 # Lidl
 /lidl.{0,10}box/i
@@ -225,65 +177,9 @@
 # Microsoft
 /one-drive/i
 
-# Netflix
-/netflix.?(expiration|premium|support|team|updates)/i
-/netflix\./i
-
-/netflix suisse services/i
-
-/support.?netflix/i
-
 # SMBC
-/smbcプ/i
-/smbcコ/i
 /p-mail/i
 /vpass/i
-
-# Sparkasse
-/^sparkasse$/i
-
-# Spotify
-/s p o t i f y/i
-/spotify_inc/i
-/help.spotify/i
-/spotify.?(ab|premium|team)/i
-
-# Tepco
-/tepco/i
-
-# TF Bank
-/tfbank.?service/i
-
-# Twint
-/twint.?offer/i
-
-# UPS
-/_ups_/i
-/ups \|/i
-
-# Volksbank
-/volksbanken$/i
-
-# WeTransfer
-# -> Real sender: "^wetransfer$"
-
-/_readyfile/i
-/we-transfer/i
-/we transfer/i
-
-#
-#
-#
-
-# Masked
-# ------------------------------------------------------------------------------
-/amaz0n/i
-/i0n0s/i
-/_confirmation/i
-
-# Unclassifed
-# ------------------------------------------------------------------------------
-/the (client team|services)/i
 
 # Japanese
 /viewcard/i

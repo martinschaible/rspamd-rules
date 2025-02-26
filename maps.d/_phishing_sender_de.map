@@ -9,8 +9,6 @@
 # ------------------------------------------------------------------------------
 /(account|konto).?(aktivität|aktivierung|bestätigung|hilfe|id|service|wiederherstellung)/iu
 
-/kontoaktivitäts.?aktualisierung/i
-
 /(aktualisierung|bestätigung).{0,15}konto/iu
 
 /(hilfe.?center|sicherheit).?id/i
@@ -59,13 +57,6 @@
 /versand.?(abteilung|bereitschaft|hinweise|status.?team|update)/i
 
 /zustell.?(assistenz|aktualisierung|nachrichten|status)/i
-
-#
-#
-#
-
-# Membership, subscription
-# ------------------------------------------------------------------------------
 
 #
 #
@@ -137,25 +128,11 @@
 /(le.?creuset|lidl|media.?market|migros|obi|otto|öamtc|rituals|rewe|samsung|smeg|starbucks|temu|walmart).{0,15}(help.?desk|kontakt|paket|prämien?|sender|sendung|support|umfragen?|versand|zustellung)/i
 /(le.?creuset|lidl|media.?market|migros|obi|otto|öamtc|rituals|rewe|samsung|smeg|starbucks|temu|walmart).{0,15}kunde$/i
 
-/kaufland.{0,5}#\d{1,10}/i
-/kauf\.land/i
-/kauflandmarkt/i
-/kunden.?dm/i
-/danke.{0,5}kaufland/i
-
-/2024.?lidl/i
-
-/r0ssmann/i
-
 # Brands, Products
 # ------------------------------------------------------------------------------
 /(oral b|persil|series).{0,15}gewinner/i
 /(pro|s24).?gewinner/i
 /tool.?set/i
-
-# ADAC, TCS
-/adac.?(mitglieder|support)/i
-/gmbh.?adac/i
 
 # Earbuds
 /earbuds/i
@@ -173,22 +150,8 @@
 # Parcel
 /(dtn\b|fedex|mydpd|swiss).{0,10}(abteilung|lieferung|versand)/i
 
-# DHL
-# Real sender: "DHL Paket"
-/dhl.?lieferung/i
-
-/paket.?team/i
-/lieferung - dhl/i
-
 # DKG
 /kontakt.?dkb/i
-
-# DPD
-# -> Real sender: "DPD Schweiz" or "DPD"
-/dpd.{0,5}deutschland/i
-/dpd-ch/i
-/dpd_/i
-/_dpd/i
 
 /group.{0,10}kurier/i
 
@@ -202,24 +165,8 @@
 # Lexoffice
 /lexoffice.?konto/i
 
-# ING-DiBa AG
-/diba-ag/i
-/^ing$/i
-
-# Netflix
-/netflix.?schweiz/i
-
 # PayPal
 /paypal.?(fall|hilfe.?center|konto|kunde|kundin|sicherheit|team)/i
-
-# Raiffeisen
-/raiffeisentwint/i
-
-# Spotify
-/spotify_/i
-
-# Sparkasse
-/sparkasse.{1,10}push.?tan/i
 
 # Swiss Goverment
 /fedpol/i
@@ -228,35 +175,3 @@
 /büro.{1,5}eidgenössische.{1,5}justiz/iu
 
 /estv.?(kundendienst|sicherheit)/i
-
-# Swiss Post
-# Real Sender: "Post CH AG - Info Sendungsstatus"
-/die(\.|-)?post/i
-
-/post.{1,5}schweiz/i
-/postag.?tracking/i
-/schweizer.?post/i
-
-# Swiss Railway
-/-sbb cff/i
-/sbb.?konto/i
-/\|.?sbb/i
-/^sbb$/i
-
-# TCS
-/touringclubsuisse/i
-
-# Twint
-/twint-\[a-z]{2}/i
-/twint.?team/i
-
-#
-#
-#
-
-# Masked
-# ------------------------------------------------------------------------------
-/pollzel/i 
-
-# Unclassified
-# ------------------------------------------------------------------------------
