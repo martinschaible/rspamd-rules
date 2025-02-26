@@ -182,4 +182,4 @@ Folder structure:
 
 More content will follow soon.
 
-<code style="color : name_color">text</code>
+<code style="color : green">text</code>
