@@ -39,29 +39,29 @@ Folder structure:
 
 ```
 |- base
-|    |- base.country.map                            -|
+|    |- base.country.map                            -\
 |    |- base.body.charenc.koi8r.map              *   |
 |    |- base.body.charenc.windows1251.map        *   |- multimap.base.conf
 |    |- base.body.markup.hidden.map                  |
-|    |- base.body.markup.map                        -|
+|    |- base.body.markup.map                        -/
 |    |- href
-|    |   |- base.body.href.domain.map            *  -|
+|    |   |- base.body.href.domain.map            *  -\
 |    |   |- base.body.href.domain.ip.map         *   |
 |    |   |- base.body.href.domain.google.map     *   |
 |    |   |- base.body.href.nossl.map             *   |- multimap.base.body.href.conf
 |    |   |- base.body.href.path.map              *   |
 |    |   |- base.body.href.path.filename.map     *   |
-|    |   |- base.body.href.path.wordpress.map    *  -|
+|    |   |- base.body.href.path.wordpress.map    *  -/
 |    |- img
-|        |- base.body.img.domain.ip.map          *  -|
+|        |- base.body.img.domain.ip.map          *  -\
 |        |- base.body.img.domain.tld.map         *   |
 |        |- base.body.img.domain.name.map        *   |- multimap.base.body.img.conf
 |        |- base.body.img.nossl.map              *   |
 |        |- base.body.img.path.map               *   |
-|        |- base.body.img.shortener.map          *  -|
+|        |- base.body.img.shortener.map          *  -/
 |- lists
-     |- list.tld.map                             *  -|- multimap.base.body.href.conf
-     |- url.shortener.map                        *  -|
+     |- list.tld.map                             *  -\- multimap.base.body.href.conf
+     |- url.shortener.map                        *  -/
 ```
 
 * -> "one_shot" is set
@@ -71,7 +71,7 @@ Folder structure:
 Folder structure:
 ```
 |- body
-     |- body.attachment.map                         -|
+     |- body.attachment.map                         -\
      |- body.emergency.map                           |
      |- body.az.orgname.map                          |
      |- body.ch.orgname.map                          |
@@ -80,19 +80,19 @@ Folder structure:
      |- de                                           |
      |   |- body.de.greetings.map                    |- multimap.body.conf
      |   |- body.de.intros.map                       |
-*    |   |- body.de.message.map                      |
+     |   |- body.de.message.map                      |
      |   |- body.de.singleword.map                   |
      |   |- body.de.singleword.ucase.map             |
      |   |- body.de.unsubscribe.map                  |
      |- en                                           |
-     |   |- ....                                    -|
+     |   |- ....                                    -/
      |- href
-     |    |- body.href.az.domain.name.map           -|
+     |    |- body.href.az.domain.name.map           -\
      |    |- body.href.ch.domain.name.map            |
      |    |- body.href.de.domain.name.map            |- multimap.body.href.conf
      |    |- body.href.us.domain.name.map            |
      |    |- body.href.domain.name.pattern.map       |
-     |    |- body.href.url.path.orgbrandprod        -|
+     |    |- body.href.url.path.orgbrandprod        -/
 ```
 
 More content will follow soon.
@@ -117,11 +117,11 @@ Folder structure:
      |   |- sender.from.de.singleword.ucase.map       - multimap.sender.conf
      |- en
      |   |- ....
-     |- sender.address.map                          -|
+     |- sender.address.map                          -\
      |- sender.from.orgbrandprod.map                 |
      |- sender.from.people.map                       |- multimap.sender.conf
      |- sender.from.phishing.orgbrandprod.map        |
-     |- sender.from.special.map                     -|
+     |- sender.from.special.map                     -/
 ```
 
 More content will follow soon.
@@ -138,7 +138,7 @@ Folder structure:
      |   |- subject.de.greetings.map                  - multimap.subject.conf
      |   |- subject.de.message.map                    - multimap.subject.conf
      |   |- subject.de.health.map                     - multimap.subject.health.conf
-     |   |- subject.de.phishing.map                 -|
+     |   |- subject.de.phishing.map                 -\
      |   |- subject.de.phishing.account.map          |
      |   |- subject.de.phishing.alertaction.map      |
      |   |- subject.de.phishing.banking.map          |
@@ -147,18 +147,18 @@ Folder structure:
      |   |- subject.de.phishing.parcel.map           |
      |   |- subject.de.phishing.payment.map          |
      |   |- subject.de.phishing.rewards.map          |
-     |   |- subject.de.phishing.survey.map          -|
-     |   |- subject.de.sale.map                     -|
-     |   |- subject.de.sale.app.map                  |- multimap.subject.sale.conf
-     |   |- subject.de.sale.seo.map                  |
-     |   |- subject.de.sale.website.map             -|
-     |   |- subject.de.scam.map                      |
+     |   |- subject.de.phishing.survey.map          -/
+     |   |- subject.de.sale.map                     -\
+     |   |- subject.de.sale.app.map                  |
+     |   |- subject.de.sale.seo.map                  |- multimap.subject.sale.conf
+     |   |- subject.de.sale.website.map             -/
+     |   |- subject.de.scam.map                     -\
      |   |- subject.de.scam.bignumbers.map           |
-     |   |- subject.de.scam.donation.map             |
+     |   |- subject.de.scam.donation.map             |- multimap.subject.scam.conf
      |   |- subject.de.scam.order.map                |
-     |   |- subject.de.scam.winning.map              |
-     |   |- subject.de.singleword.map                |
-     |   |- subject.de.singleword.ucase.map         -|
+     |   |- subject.de.scam.winning.map             -/
+     |   |- subject.de.singleword.map               -\- multimap.subject.conf
+     |   |- subject.de.singleword.ucase.map         -/
      |- en
      |   |- ....
      |- subject.health.medname.map                    - multimap.subject.health.conf
@@ -181,3 +181,5 @@ Folder structure:
 ```
 
 More content will follow soon.
+
+<code style="color : name_color">text</code>
