@@ -16,6 +16,8 @@
 # ------------------------------------------------------------------------------
 
 # https://www.spamhaus.org/statistics/tlds/
+
+#                     |--- Domain -----|  |------------------- TLD -------------------|
 /src=.{0,5}https?:\/\/[a-z0-9-\.]{3,100}\.(bio|degree|fyi|gq|haus|live|market|top|zone)\//i
 
 # https://www.cybercrimeinfocenter.org/top-20-tld-by-phishing-domain-score
