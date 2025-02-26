@@ -86,7 +86,7 @@
 /(20|bad|blurred|blurry|clear|declining|enhancing|flawless).{0,10}(eye.?sight|view|vision)/i
 /(new|night|perfect|poor|restore|supreme|weak).{0,10}(eye?sight|view|vision)/i
 
-/eye.{0,10}(help|secret)/i
+/eye.{0,10}(doctor|expert|help|secret)/i
 
 /(eye.?sight|vision).{0,10}(20.?20|boost|coach|enhancing|expert|fix|hack|help|loss)/i
 /(eye.?sight|vision).{0,10}(rescue|reset|restorer?||solution|supplement)/i
@@ -126,7 +126,7 @@
 # ------------------------------------------------------------------------------
 
 # Some merging is needed
-/ear.{0,10}(buzzing|humming|noises?|ringing|silencer|wax)/i
+/ear.{0,10}(buzzing|comfort|humming|noises?|ringing|silencer|wax)/i
 /end.{0,10}noise/i
 
 /(buzz|noise).{0,10}free/i
@@ -325,6 +325,7 @@
 /belly.{0,10}(buddy|buster)/i
 /berry.{0,10}detox/i
 
+/best.{0,10}sleep/i
 /better.{0,10}(live|poop)/i
 
 /big o$/i
@@ -472,7 +473,7 @@
 /hard in\b/i
 
 /happy.{0,10}(gut|knees)/i
-/harmful.{0,10}veggies/i
+/harmful.{0,10}(toxins?|veggies)/i
 
 /harvard.{0,15}(breaks|breakthrough|discovery|scientist)/i
 
