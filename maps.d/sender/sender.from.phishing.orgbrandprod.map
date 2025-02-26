@@ -43,6 +43,7 @@
 # service@paypal.com
 # SwissPass Newsletter
 # Spotify
+# Wetransfer
 
 # Topics
 # ==============================================================================
@@ -64,13 +65,22 @@
 # Generic
 # ==============================================================================
 
+# Number
+# ------------------------------------------------------------------------------
+/202\d.{0,10}lidl/i
+
 # A
+# ------------------------------------------------------------------------------
 /a.d.a.c/i
-/adac.?2025/i
-/adac.{0,10}(deutschland|exklusiv|karten.?service|kreditkarte)/i
+/a\.d\.a\.c/i
+
+/adac.?202\d/i
+/adac.{0,10}(deutschland|exklusiv|karten.?service|kreditkarte|mitglieder|support)/i
+
 /adac.?mitglied$/i
 
-/adobe acrobat (document|e.?signature)/i
+/adobe.?acrobat (document|e.?signature)/i
+/adobe.?pdf/i
 
 /ag.?twint/i
 
@@ -80,6 +90,8 @@
 
 /aldi-/i
 /aldi.{0,15}deals?/i
+
+/amaz0n/i
 
 /apple.?pay/i
 /apple.?(™|®|©)$/i
@@ -102,6 +114,7 @@
 /アットユーネット/i
 
 # B
+# ------------------------------------------------------------------------------
 /baumarkt.?(™|®|©)$/i
 
 /^bosch.?(™|®|©)$/i
@@ -109,6 +122,7 @@
 /bundespolizei$/i
 
 # C
+# ------------------------------------------------------------------------------
 /(carrefour|cpanel).?(™|®|©)$/i
 
 /cff.?sbb/i
@@ -121,6 +135,11 @@
 /cpanel.{0,10}(servicea|team)/i
 
 # D
+# ------------------------------------------------------------------------------
+/danke.{0,5}kaufland/i
+
+/decathlon-/i
+
 /deutsche.?bnk/i
 /deutschen.?bahn/i
 
@@ -133,6 +152,7 @@
 /dhl-paket$/i
 /dhl.{0,5}\d{1,2}/i
 /dhl.{0,5}kundenservice/i
+/dhl.{0,5}lieferung/i
 /dhl.{0,5}logistik.?team/i
 /dhl.{0,5}paketstatus/i
 /dhl.{0,5}paketzentrum/i
@@ -142,12 +162,21 @@
 
 /(express|kurier|notification).{0,5}(dhl|dpd)/i
 
+/diba-ag/i
+/die(\.|-)?post/i
+
+/dkb\.de/i
 /dkb.{0,5}team/i
 
-/die-post/i
-
-/^dpg$/i
 /dpdepot/i
+
+/_dpd/i
+/dpd.{0,5}deutschland/i
+/dpd-ch/i
+/dpd eu/i
+/dpd_paket/i
+/dpd.?zoll/i
+/dpd_/i
 
 # Real Sender: "Digitec"
 /digitec\.ch/i
@@ -157,8 +186,10 @@
 /douglas$/i
 
 # E
+# ------------------------------------------------------------------------------
 
 # F
+# ------------------------------------------------------------------------------
 /facebook (ads.?team|inc)/i
 
 # 15.02.25 - FamilyMart T Card
@@ -166,10 +197,13 @@
 
 /fedex$/i
 /fedpol/i
+
 /fedex.?(express|ups)/i
-/fedex.{0,5}umfrage/i
+/fedex.{0,10}umfrage/i
+/fedex.{0,15}(fedex|helpdesk|support)/i
 
 # G
+# ------------------------------------------------------------------------------
 /galaxus.?(™|®|©)$/i
 
 /g-l-s/i
@@ -179,7 +213,11 @@
 /^gmbh/i
 
 # H
+# ------------------------------------------------------------------------------
 /(hetzner|hermes|hornbach).?(™|®|©)$/i
+/hetzner, inc/i
+
+/help.{0,10}spotify/i
 
 /-hermes$/i
 
@@ -187,12 +225,16 @@
 /home.?(depot|warranty)/i
 
 # I
+# ------------------------------------------------------------------------------
 /^ing$/i
 /ihk.?(™|®|©)?$/i
 
 /ihre?.?migros/i
 
+/i0n0s/i
+
 # J
+# ------------------------------------------------------------------------------
 
 # 19.12.24 - JA Net Bank
 /ＪＡネットバンク/i
@@ -208,14 +250,26 @@
 /my.?jcb/i
 
 # K
+# ------------------------------------------------------------------------------
 /kaufland.?(™|®|©)$/i
 /kaufland.{0,10}geschenk/i
+/kaufland.{0,10}#\d{1,10}/i
+/kauf\.land/i
+/kauflandmarkt/i
+
+/kunden.?dm/i
+
+/kontakt.{0,10}swisspass/i
 
 # L
+# ------------------------------------------------------------------------------
 /lidl.?(™|®|©)$/i
 /lidl.?2025/i
 
+/lieferung.{0,5}dhl/i
+
 # M
+# ------------------------------------------------------------------------------
 /^mastercard$/i
 /medicare.?kit/i
 
@@ -239,9 +293,14 @@
 /my ts cubic/i
 
 # N
+# ------------------------------------------------------------------------------
 /n26.{0,10}benachrichtigung(en)?/i
 
 /netflix.{0,10}konto/i
+/netflix.{0,10}(schweiz|suisse)/i
+/netflix.{0,10}(expiration|premium|services|support|team|updates)/i
+
+/netflix\./i
 /netƒlix/i
 /nflix/i
 /nflx/i
@@ -258,6 +317,7 @@
 /^nutella$/i
 
 # O
+# ------------------------------------------------------------------------------
 /(obi|otto).?(™|®)$/i
 /obi-/i
 
@@ -267,24 +327,31 @@
 /e-orico/i
 
 # P
+# ------------------------------------------------------------------------------
 /paypal.{0,5}(case.?id|europe?|inc|kunden|konto|support|voucher)/i
 
 /post ch sa/i
 /post.{1,15}informationen/i
 
-/post.?finance.{0,5}benachrichtigungen/i
 /^post\.ch$/i
 /^postb$/i
 /postag/i
 /post(ch|de)/i
 /post ch$/i
+/post.{1,5}schweiz/i
+
+/post.?finance.{0,5}benachrichtigungen/i
 
 /prime.{0,5}notification/i
 
 # Q
+# ------------------------------------------------------------------------------
 /quickship/i
 
 # R
+# ------------------------------------------------------------------------------
+/raiffeisen.?twint/i
+
 # 30.12.24 -Rakuten Card Co., Ltd.
 /楽天カード株式会社/i
 
@@ -295,17 +362,26 @@
 /りそな/i
 
 /rewe.?(™|®|©)?$/i
+/rossmann.?(™|®|©)?$/i
+/r0ssmann/i
 
 # S
+# ------------------------------------------------------------------------------
 /salt\./i
 /salt.{0,5}team/i
 
 /sam.{0,5}club.{0,15}(deals|insider|member|specials)/i
 
+/^sbb$/i
 /sbb.?cff$/i
-/sbb(.?cff.?ffs)?.{0,5}(kundenservice|support)/i
+/sbb(.?cff.?ffs)?.{0,5}(kundenservice|konto|support)/i
 /sbbch/i
 /sbbcff/i
+
+/-sbb cff/i
+/\|.?sbb/i
+
+/schweizer.?post/i
 
 /service.?center.?ard.?zdf/i
 
@@ -314,9 +390,14 @@
 /\.starbucks/i
 
 #/(service|support).{0,10}paypal/i
-/support.{0,10}paypal/i
+/support.{0,10}(hetzner|netflix|paypal)/i
 
 /shell.?partner/i
+
+/smbcプ/i
+/smbcコ/i
+
+/^sparkasse$/i
 
 /^sumup\.?$/i
 /sumup.{0,10}(limited|team)/i
@@ -337,7 +418,6 @@
 
 /-swisspass/i
 /suisspass/i
-/kontakt.?swisspass/i
 
 /swiss post/i
 /^swisspost$/i
@@ -345,12 +425,15 @@
 
 /(shein|smava|spotify).?(™|®|©)$/i
 
-/spotify.{0,10}team/i
+/s p o t i f y/i
+/spotify_/i
+/spotify.{0,10}(ab|premium|team)/i
 
 # 11.02.25 - Sumitomo Mitsui Trust Bank
 /三井住友信託銀行/i
 
 # T
+# ------------------------------------------------------------------------------
 /tcs.?car/i
 
 /team_/i
@@ -359,20 +442,26 @@
 /temu.{0,10}gewinnen/i
 /temu.?ch/i
 
-# 27.12.24 Japanese Bank
 /tepco/i
+/tfbank.?service/i
 
 # 29.12.24 - The Norinchukin Bank
 /農林中央金庫/i
 
+/touringclubsuisse/i
+
 /ts cubic card/i
 
 /twint$/i
-/twint ag/i
+
+/twint-\[a-z]{2}/i
+/twint.?(ag|offer|team)/i
 
 # U
+# ------------------------------------------------------------------------------
 /-ubereats/i
 
+/_ups/i
 /ups.?(gmbh|shipping)/i
 /ups \|/i
 /ups_/i
@@ -382,6 +471,7 @@
 /u\.p\.s/i
 
 # V
+# ------------------------------------------------------------------------------
 /vcb.?card/i
 
 /visajapan/i
@@ -392,9 +482,14 @@
 /^viseca$/i
 /viseca.?one.?app/i
 
+/volksbanken$/i
+
 /von.{0,10}swica/i
 
 # W
+# ------------------------------------------------------------------------------
+/we transfer/i
+/we-transfer/i
 /we.?transfer.?\|/i
 /we.?transfer.{0,10}(document|message)/i
 
@@ -408,8 +503,11 @@
 /www.\[a-z]{4,15}\.de/i
 
 # X
+# ------------------------------------------------------------------------------
 
 # Y
+# ------------------------------------------------------------------------------
 
 # Z
+# ------------------------------------------------------------------------------
 /zalando.{0,5}kunden/i

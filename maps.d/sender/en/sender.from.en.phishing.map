@@ -55,6 +55,9 @@
 /claim.{0,10}free/i
 /^customer.{0,10}(feedback|support)/i
 
+/_confirmation/i
+/confirmation.{0,10}needed/i
+
 # D
 /domain.{0,10}support/i
 
@@ -105,7 +108,9 @@
 
 # R
 /recommended.{0,10}tea/i
+
 /rewards$/i
+/rewards.{0,10}team/i
 
 # S
 /server.?(admin|support|update)/i
@@ -113,7 +118,7 @@
 /service.{0,10}notifications?/i
 /(service|storage).{0,10}(upgrades?|updates?)/i
 
-/shipping.{0,10}(team|update)/i
+/shipping.{0,10}(pending|team|update)/i
 /shopper.{0,10}gift(.?card)?/i
 
 /supportch/i
@@ -136,6 +141,7 @@
 # X
 
 # Y
+/your.{0,10}membership/i
 /your.{0,10}reward/i
 
 # Z
