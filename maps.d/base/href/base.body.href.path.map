@@ -25,6 +25,8 @@
 
 # Simple path
 # ------------------------------------------------------------------------------
+/\/account\/index\.php/campaigns\//i
+
 # 11.12.24
 /\/scancopy\d{2}\//i
 /\/shopping\d{2}\//i
@@ -48,16 +50,19 @@
 # We cannot block all of the new or exotic TLDs because they are sometimes
 # used by companies. 
 
+/\.(biz|co|digital|us)\/index\.php\/campaigns\//i
+/\.(biz|co|digital|us)\/mail\/index\.php\/campaigns\//i
+
 /\.(club|email|pro|social|space|today|world)\/(cart|cl|media|sa)\//i
 
 # Sample: .pro/c/eJwkxr1OwzAQAOCnsUfr7vzbw
 /\.(club|email|pro|social|space|today|world)\/\w\/[a-z]{10,30}/i
 
-# Sample: .world/cc903616931c89f6d9.jpg
-/\.(club|email|pro|social|space|today|world)\/[a-z0-9]{4,25}\.(jpg|png)/i
+# ^^ TLD's must be merged 
 
 /\.io\/ls\/click\?/i
 
+/\.co/\.in/\index\.php\/campaigns\//i
 /\.com\.br\.#/i
 
 # 
