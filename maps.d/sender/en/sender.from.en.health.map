@@ -126,7 +126,7 @@
 # ------------------------------------------------------------------------------
 
 # Some merging is needed
-/ear.{0,10}(buzzing|comfort|humming|noises?|ringing|silencer|wax)/i
+/ear.{0,10}(buzzing|care|comfort|humming|noises?|ringing|silencer|wax)/i
 /end.{0,10}noise/i
 
 /(buzz|noise).{0,10}free/i

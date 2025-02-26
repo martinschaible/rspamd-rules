@@ -85,6 +85,8 @@
 /annoying ear buzzing/i
 /anti.{1,20}secret/i
 
+/asap.{1,10}heres why/i
+
 /avoid ed\b/i
 /avoid this for/i
 
@@ -167,14 +169,13 @@
 # E
 /ease nerve pain/i
 
-/eat \d cup/i
-/ear buzzing with this/i
-/ear comfort/i
+/ear (buzzing|comfort)/i
 
 /eases.{1,10}joint.?pain/i
 /easing.{1,10}stiff joints/i
 /easy.?to.?do technique/i
 
+/eat \d cup/i
 /eat this.{1,15}(arteries|daily|fruit)/i
 /eat this to/i
 
@@ -266,6 +267,7 @@
 /jumpstart your.{1,15}health/i
 
 /joint.?pain.{1,10}(cut|relief)/i
+/joint.?pain now/i
 
 # K
 /keep your.{1,10}(arteries|heart)/i
@@ -423,6 +425,8 @@
 
 /trick melts.{1,10}fat/i
 /trick to end.{1,15}pain/i
+
+/(try|this).{1,10}simple.{1,10}nutrient/i
 
 /to get.{1,10}hard/i
 /to stay.{1,10}asleep/i

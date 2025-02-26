@@ -60,7 +60,9 @@
 # G
 /good day.{1,10}trust this message/i
 
+/good (day|evening|morning).{1,10}i.?a?m.{5,25}(chairman|director)/i
 /good (day|evening|morning).{1,10}i.?a?m.{5,25}from/i
+
 /good (day|evening|morning).{1,15}this might come.{1,10}surprise/i
 /good (day|evening|morning).{1,15}please find attached/i
 /good (day|evening|morning).{1,10}to you.{1,10}my name is/i
