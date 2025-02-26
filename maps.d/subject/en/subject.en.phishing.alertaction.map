@@ -73,7 +73,7 @@
 # Q
 
 # R
-/reminder.{1,10}action required/i
+/(receiving|reminder).{1,15}action required/i
 /reply back today/i
 
 # S
