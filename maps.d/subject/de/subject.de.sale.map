@@ -105,7 +105,7 @@
 
 /energiekosten um.{1,10}senkt/i
 
-/erleuchte.{1,10}arbeitsplatz/i
+/erleuchte.{1,15}(arbeitsplatz|home|office)/i
 /exklusives angebot/i 0.25
 
 # F
@@ -141,6 +141,7 @@
 # M
 /massage.?(sessel|stuhl|stühle).{1,15}(sessel|stuhl|stühle)/i
 
+/mehr licht.{1,10}mehr/i
 /mit diesem.{1,15}kissen/i
 
 /mitarbeiter für.{1,15}(logistik|produktion|verarbeitung)/i
