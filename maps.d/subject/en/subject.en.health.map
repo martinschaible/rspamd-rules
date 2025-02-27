@@ -273,6 +273,8 @@
 /keep your.{1,10}(arteries|heart)/i
 /knee.{1,10}stretch/i
 
+/kills.{1,10}tinnitus/i
+
 # L
 /lose weight.{1,10}(fast|without)/i
 /loses.{1,10}pounds doing this/i
@@ -291,6 +293,8 @@
 /melts.{1,10}in.{1,10}weeks/i
 
 /morning change to/i
+/most.{1,10}anti.?inflammatory/i
+
 /mute.{1,10}tinnitus/i
 
 # N
@@ -338,12 +342,12 @@
 
 /relief with this.{1,15}(technique|weird)/i
 /relieve.{1,10}constipation/i
-/remedy unleashes your/i
+/remedy (restores|unleashes)/i
 
 /removes?.{1,10}dark spots/i
 /removes?.{1,10}(lbs|pounds) every.{1,10}days?/i
 
-/restores?.{1,10}(joint|memory|perfect)/i
+/restores?.{1,10}(hearing|joint|memory|perfect)/i
 
 /(reverse|reversing).{1,10}(aging in|diabetes|ed\b|memory|type 2)/i
 /(reverse|reversing).{1,10}vision.?loss/i
@@ -444,7 +448,7 @@
 /watch.{1,10}before they delete/i
 
 /wants.{1,10}burn fat/i
-/weird stretch/i
+/weird.{1,10}(remedy|stretch)/i
 
 /with.{1,10}simple drink/i
 /wrinkle.?free.{1,10}skin/i

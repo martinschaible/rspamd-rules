@@ -6,6 +6,13 @@
 # Topics
 # ==============================================================================
 
+# Lamp, light
+# ------------------------------------------------------------------------------
+/(glanz|glüh|helles|stil).?licht/iu
+/(lampen|licht).{0,10}(balance|doctor|komfort|meister|technik|king|welt|zone)/i
+
+/smart.{0,10}glüh/i
+
 #
 #
 #
@@ -34,7 +41,6 @@
 /frische.{0,10}luft/i
 
 # G
-/(glanz|glüh).?licht/iu
 
 # H
 /haus.{0,10}schützer/iu
@@ -70,8 +76,6 @@ ihr.{0,10}(online|wifi)/i
 
 # L
 /led.?profi/i
-
-/(lampen|licht).{0,10}(balance|doctor|komfort|meister|technik|king|welt|zone)/i
 
 # M
 

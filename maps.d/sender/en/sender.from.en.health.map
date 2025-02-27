@@ -288,6 +288,7 @@
 /\d (cup|tbsp)/i
 /\{1,2} minerals/i
 /120\/80/i
+/20\/20.{0,10}solution/i
 
 # A
 /aching.{0,10}points/i
@@ -609,6 +610,7 @@
 /purple.{1,10}powder/i
 
 # Q
+/quick.{1,10}technique/i
 
 # R
 /radiant{0,10}glow/i

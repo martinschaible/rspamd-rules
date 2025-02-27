@@ -60,8 +60,8 @@
 /dringlichkeit.{1,10}aufmerksamkeit/i
 
 # E
-/erforderliche? aktion/i
-/erforderliche? aktualisierung/i
+/erforderliche?.{1,10}aktion/i
+/erforderliche?.{1,10}(sicherheits)?aktualisierung/i
 
 # F
 
@@ -126,6 +126,8 @@
 # T
 
 # U
+/unverzügliche reaktion notwendig/iu
+
 /update erforderlich/i
 /update.{1,10}kontosicherheit/i
 
