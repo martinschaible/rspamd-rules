@@ -101,7 +101,8 @@
 /moulding.{1,10}services (from|in) china/i
 /moulding.{1,10}supplier/i
 
-/(mold|moulds) (maker|construction)/i
+/(mold|moulds).{1,10}(maker|construction)/i
+/(mold|moulds).{1,10}plastic parts/i
 
 # N
 

@@ -104,6 +104,9 @@
 /(rück)?erstattung.{1,10}(jetzt|möglich)/iu
 /(rück)?erstattung.{1,10}zur verfügung/iu
 
+# Sample: Rundschreiben X2ZI-M29U
+/rundschreiben.?[0-9a-z]{4}-[0-9a-z]{4}/i
+
 # S
 /sie haben anspruch.{1,15}(rück)?erstattung/iu
 

@@ -52,6 +52,9 @@
 # C
 
 # D
+/(dringende|erforderliche?).{1,10}aktion/i
+/(dringende|erforderliche?).{1,10}(sicherheits)?aktualisierung/i
+
 /(dringend|wichtig).{1,10}aktualisierung ihrer/i
 /(dringend|wichtig).{1,10}registrieren sie sich/i
 /(dringend|wichtig).{1,10}zahlungsdetails/i
@@ -60,8 +63,6 @@
 /dringlichkeit.{1,10}aufmerksamkeit/i
 
 # E
-/erforderliche?.{1,10}aktion/i
-/erforderliche?.{1,10}(sicherheits)?aktualisierung/i
 
 # F
 
@@ -83,6 +84,7 @@
 
 # J
 /jetzt handeln/i
+/jetzt maßnahmen ergreifen/i
 /jetzt umstellen/i
 
 # K

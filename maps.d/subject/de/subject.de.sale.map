@@ -29,15 +29,16 @@
 # Brand
 /e.?bikes?.{1,10}city voyager/i
 /der.{1,10}city voyager/i
+/fat.?tire e.?bike/i
 
 /mit einem.{1,10}(e.?bike|elektro.?moped)/i
 
-/(bestes?|entdecken|faltbar|leistungsstark|modernen|neuesten).{1,10}(e.?bike|elektro.?moped)/i
+/(bestes?|entdecken|faltbar|ideale|leistungsstark|modernen|neuesten).{1,10}(e.?bike|elektro.?moped)/i
 /(perfektes?|richtigen|stylische|tragbare).{1,10}(e.?bike|elektro.?moped)/i
 
 /retro.?cruiser.{1,5}e.?bike/i
 /moped.{1,5}(cruiser|e.?bikes?)/i
-/moped.{1,5}style e.?bikes/i
+/moped.{1,15}e.?bikes?/i
 
 /metro.{1,5}rider/i
 
@@ -138,6 +139,8 @@
 
 /led.{1,10}feuchtraumleuchte/i
 
+/leitern?.{1,10}(leicht|handlich|professionell)/i
+
 # M
 /massage.?(sessel|stuhl|stühle).{1,15}(sessel|stuhl|stühle)/i
 
@@ -186,6 +189,8 @@
 # T
 /\d{2,4}.{1,10}teiliges.{1,15}set/i
 /teiliges werkzeug.?set/i
+
+/teleskop.{1,10}profi.?leitern?/i
 
 /testen.{1,10}hörgeräte/iu
 
