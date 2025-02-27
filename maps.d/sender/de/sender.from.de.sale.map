@@ -71,7 +71,7 @@ ihr.{0,10}(online|wifi)/i
 # L
 /led.?profi/i
 
-/licht.?(balance|komforttechnik|king|zone)/i
+/(lampen|licht).{0,10}(balance|doctor|komfort|meister|technik|king|welt|zone)/i
 
 # M
 
@@ -79,6 +79,7 @@ ihr.{0,10}(online|wifi)/i
 /negative bewertung/i
 
 # O
+/office.{0,10}master/i
 /online.{0,10}bewertung/i
 
 # P

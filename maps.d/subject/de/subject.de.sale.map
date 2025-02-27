@@ -96,6 +96,7 @@
 /derila.{1,10}kissen/i
 
 /die kulis/i
+/diese.{1,10}lampe/i
 
 # E
 /edelstahl.{0,10}(briefkasten|briefkästen)/i
@@ -131,6 +132,8 @@
 /kulis mit ihrem/i
 
 # L
+/(perfekte|smarte).{1,10}lampe/i
+
 /lebensverändernde.{1,10}(wasser)?.?flasche/i
 
 /led.{1,10}feuchtraumleuchte/i
@@ -172,6 +175,8 @@
 /sie ihr auto verkaufen/i
 /sie ihren online.?ruf/i
 
+/smarte.{1,15}beleuchtung/i
+
 /sprechen.{1,10}problemlos.{1,10}sprachen/i
 
 /statt \d{3},- nur \d{2,3},-/i
@@ -195,6 +200,8 @@
 
 # W
 /waschbürste.{1,20}teleskop/i
+
+/(werkstatt|werkzeug).{0,10}(trolley|wagen)/i
 
 /werkzeug.?set.{1,20}(für|mit|teilen)/i
 /werkzeug.?set.{1,20}jetzt sichern/i
