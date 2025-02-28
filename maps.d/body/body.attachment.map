@@ -110,6 +110,9 @@
 # Sample: Advice.PDF).html
 /\)\.html/i
 
+# German
+/dringende.{0,10}bestellung/i
+
 # Extensions
 # ------------------------------------------------------------------------------
 /\.001/i

@@ -8,8 +8,11 @@
 
 # Lamp, light
 # ------------------------------------------------------------------------------
-/(glanz|glüh|helles|stil).?licht/iu
-/(lampen|licht).{0,10}(balance|doctor|fix|komfort|meister|technik|king|welt|zone)/i
+/(focus|glanz|glüh|helles|spar|stil).?(lampen?|licht)/iu
+
+/(lampen?|licht).{0,10}(balance|doctor|fix|klar|komfort)/i
+/(lampen?|licht).{0,10}(effekt|experten?)/i
+/(lampen?|licht).{0,10}(magic|meister|technik|king|pro|welt|zone)/i
 
 /smart.{0,10}glüh/i
 
@@ -25,6 +28,7 @@
 /\d{2}.{0,5}rabatt/i
 
 # A
+/arbeitslicht.?pro/i
 
 # B
 /bequemes.{0,10}sitzen/i
@@ -34,7 +38,7 @@
 # D
 
 # E
-/e.?bike.{0,10}(hersteller|verkauf)/i
+/e.?bike.{0,10}(hersteller|verkauf|vertrieb)/i
 
 /exklusive.{0,10}ersparnisse/i
 
@@ -78,7 +82,7 @@ ihr.{0,10}(online|wifi)/i
 /künstliche.{0,10}intelligenz/i
 
 # L
-/led.?profi/i
+/led.?(meister|profi)/i
 
 # M
 

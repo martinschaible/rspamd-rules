@@ -39,6 +39,7 @@
 /retro.?cruiser.{1,5}e.?bike/i
 /moped.{1,5}(cruiser|e.?bikes?)/i
 /moped.{1,15}e.?bikes?/i
+/moped style/i
 
 /metro.{1,5}rider/i
 
@@ -172,6 +173,8 @@
 /(archiv|lager|schwerlast).?regale?/i
 
 /stabile.{1,15}regale?/i
+
+/revolutionieren sie.{1,10}heute/i
 
 # S
 /schöne.{1,10}zähne/i

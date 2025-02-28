@@ -32,6 +32,8 @@
 /^apotheken?.{0,10}(nachrichten|versand)/i
 /^apotheken?.{0,10}news(letter)?/i
 
+/anti.{0,10}schnarch/i
+
 # B
 /besser.{0,10}sehen/i
 /blut.{0,10}(druck|gesundheit|hochdruck)/i
@@ -50,6 +52,7 @@
 /dr\..?(apotheke|gesund|versand)/i
 
 # E
+/endlich.{0,10}ruhe/i
 
 # F
 /fett.{0,10}schnell/i
@@ -120,6 +123,7 @@
 /sex.{0,10}produkt/i
 
 /starten sie/i
+/stille{0,10}nächte/i
 
 # T
 
