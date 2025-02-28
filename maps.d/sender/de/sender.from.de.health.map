@@ -85,7 +85,7 @@
 
 # L
 /leber.{0,10}detox/i
-/leise.{0,10}schlafen/i
+/leise.{0,10}(nächte|schlafen)/iu
 
 # M
 /mag.{0,10}boost/i
@@ -123,7 +123,7 @@
 /sex.{0,10}produkt/i
 
 /starten sie/i
-/stille{0,10}nächte/i
+/stille.{0,10}(nächte|schlafzimmer)/i
 
 # T
 
