@@ -65,9 +65,9 @@
 /\d{1,3}.?(lbs|pounds) gone/i
 
 /\d cause of/i
+/\d simple habit/i
 /\d stretch/i
 /\d way to eliminate/i
-
 
 # A
 /add this to your/i
@@ -144,7 +144,7 @@
 /cut heart attack/i
 
 # D
-/destroys.{1,10}back pain/i
+/destroys?.{1,10}(back|joint) pain/i
 /detox(es)? your gut/i
 
 /discover.{1,10}breakthrough/i
@@ -283,6 +283,8 @@
 /loses.{1,10}pounds doing this/i
 /losing memory because/i
 
+/lost \d{1,2}.?(lbs|pounds)/i
+
 # M
 /major.{1,10}fat.?loss/i
 /makes you thin/i
@@ -382,7 +384,7 @@
 
 /simple at.?home/i
 /simple drink helps/i
-/simple habit that/i
+/simple habit (destroys|that)/i
 /simple oral flush/i
 /simple way to reverse/i
 

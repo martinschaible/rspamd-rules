@@ -356,11 +356,13 @@
 /(buzzing|hissing).{0,10}ears/i
 
 # C
-/carb.{0,10}(secrets?|tricks?)/i
 /calorie.{0,10}(booster|burn)/i
+/calcium.{0,10}boost/i
 
 /cancel(ed)?.{0,10}surgery/i
+
 /care.{0,10}secret/i
+/carb.{0,10}(secrets?|tricks?)/i
 
 /cbd.{0,10}(experts?|fruit|gummies|solution|therapy)/i
 
@@ -485,7 +487,7 @@
 
 /heart.{0,10}(attack|cells|health|disease|problems?|protection|risk)/i
 
-/herpes.{0,10}outbreak/i
+/herpes.{0,10}(outbreak|talk)/i
 
 /hidden.{0,10}(danger|power|protein|risk|ritual|toxin)/i
 /high.{0,10}(cholesterol|sugar)/i
@@ -495,6 +497,8 @@
 
 /home.{0,10}(recipe|treatment|with ease)/i
 /huge.{0,10}(belly|tummy)/i
+
+/hydration.{0,10}hack/i
 
 # I
 /immune.{0,10}system/i

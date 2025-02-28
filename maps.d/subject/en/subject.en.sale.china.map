@@ -105,6 +105,7 @@
 /(mold|moulds).{1,10}plastic parts/i
 
 # N
+/new product catalog/i
 
 # O
 /oem.{1,10}(plastic|products?|service|supplier)/i
@@ -119,7 +120,7 @@
 /(parts|source).{1,10}manufacturer/i
 
 /(pcba?|printed.?circuit.?board).{1,20}(assembly|business|cooperation|enquiry|fabrication|factory)/i
-/(pcba?|printed.?circuit.?board).{1,10}(manufacturer?|manufacturing|needs|provider|service)/i
+/(pcba?|printed.?circuit.?board).{1,10}(manufacturer?|manufacturing|needs|provider|service|solutions?)/i
 
 /(pcba?|printed.?circuit.?board).{1,10}factory (from|in) china/i
 /(pcba?|printed.?circuit.?board).{1,10}supplier for/i
