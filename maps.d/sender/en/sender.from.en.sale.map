@@ -27,38 +27,49 @@
 /business.{0,10}(growth|leads?)/i
 
 # C
-/canvas.?prints/i
+/canvas.{0,10}prints/i
+/car.{0,10}(repair|shield)/i
+
 /clean.{0,10}shower/i
+/comfort.{0,10}only/i
 
 # D
 /deal.{0,10}alarm/i
 /(designer|discount|rolex|top).?watch(es)?/i
 
+/dog.{0,5}(behaviour|trainers)/i
+
 /don.?t miss out/i
 /door.{0,10}(camera|ringer)/i
 
+/drone.?x/i
+/(4k|8k|raptor|smarty?).{0,10}drone/i
+
 # E
-/e.?bike.{0,10}(care|customer|sales|service|support|team)/i
 /e.?bike.?pro/i
+/e.?(bicycle|bike).{0,10}(care|company|customer|expert|factory|manufacturr)/i
+/e.?(bicycle|bike).{0,5}(sales|service|support|team)/i
 
 /elon.{0,10}device/i
 
 /email.?marketing/i
-
 /energy.{0,10}(bill|saver)/i
-
-/ergo.?light/i
+/ergo.{0,10}light/i
 
 /esaver/i
 
 # F
 /(fluff|luxury|zen).{1,10}pillows?/i
 
+/foam.?seat/i
 /fox.{0,10}scope/i
+/luxury.?comfort/i
 
 /franking.{0,10}machine/i
 
 /free.{0,10}ip.?tv/i
+
+/fuel.{0,10}saver/i
 
 # G
 
@@ -72,7 +83,9 @@
 /instant.{0,10}access/i
 /instant.{0,10}quotes?/i
 
-/ip.?tv.{1,10}(channels|movies|offer|trial|today)/i
+/4k.?ip.?tv/i
+
+/ip.?tv.{1,10}(channels|deal|movies|royals|offer|show|streaming|trial|today)/i
 
 /i p t\.v/i
 /i p-tv/i
@@ -103,6 +116,8 @@
 /pest.{0,10}resister/i
 /pet.{0,10}(care|health)/i
 
+/power.{0,10}outage/i
+
 /premium.{0,10}promotion/i
 
 /pro.?cam.{0,10}shop/i
@@ -119,6 +134,7 @@
 
 /save (more|on)/i
 
+/seat.?cushion/i
 /senior.{0,10}perks/i
 /seo.{0,10}(backlink|service)/i
 
@@ -127,7 +143,9 @@
 
 /super.{0,10}list/i
 
-/sofa.?cover/i
+/sofa.{0,10}cover/i
+/solar.{0,10}savings/i
+
 /stop wasting/i
 
 # T
