@@ -41,7 +41,7 @@
 
 /accounts\.nintendo\.com/i
 
-/\<(amex|epos)(-|_)/i
+/epos-card-/i
 
 # ANA Card
 /info\.ana-/i
@@ -49,8 +49,10 @@
 /aeon-email/i
 
 /apple-bank/i
+/\.apple-/i
 
 /card.?vpass/i
+
 /e-service\./i
 
 /(jcb|tepco)_net/i

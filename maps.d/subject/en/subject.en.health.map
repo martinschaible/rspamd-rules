@@ -23,6 +23,8 @@
 /secrets? to (enhancing|unlock(ing)?)/i
 /secrets? unveiled/i
 
+/#1 (hack|ritual|secret|solution|trick) to/i
+
 /(hack|ritual|secret|solution|trick).{1,10}(extends|reverse|shocks)/i
 /(hack|ritual|secret|solution|trick).{1,10}that could change/i
 /(hack|ritual|secret|solution|trick).{1,10}to (cure|ease|boost)/i
@@ -97,6 +99,7 @@
 /balanced.{1,10}blood pressure/i
 /banishing.{1,10}toenail/i
 
+/beat.{1,10}alzheimer/i
 /bedroom.{1,10}magic/i
 /before bed tonight/i
 /belly fat/i

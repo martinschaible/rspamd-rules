@@ -111,7 +111,7 @@
 /offers?.{0,10}program/i
 
 # P
-/perfect.{0,10}light/i
+/perfect.{0,10}(glow|light)/i
 
 /pest.{0,10}resister/i
 /pet.{0,10}(care|health)/i
@@ -139,6 +139,7 @@
 /seo.{0,10}(backlink|service)/i
 
 /^smart.?deals$/i
+/smart.{0,10}(protect|security)/i
 /smart.?house.{0,10}deals/i
 
 /super.{0,10}list/i
