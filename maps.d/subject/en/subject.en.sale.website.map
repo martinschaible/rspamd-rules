@@ -21,7 +21,7 @@
 
 # C
 /create.{1,10}landing.?page/i
-/custom.{1,10}(home.?page|web.?site).{1,10}designs/i
+/custom.{1,10}(home.?page|web.?site).{1,10}(designing|designs?)/i
 
 # D
 /design.?developer/i

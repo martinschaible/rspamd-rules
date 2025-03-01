@@ -53,7 +53,8 @@
 
 # C
 /car emergency kit/i
-/claim.{0,10}free/i
+/claim.{0,10}(free|refund)/i
+
 /^customer.{0,10}(feedback|support)/i
 
 /_confirmation/i
@@ -109,6 +110,8 @@
 
 # R
 /recommended.{0,10}tea/i
+
+/refund.{0,10}support/i
 
 /rewards$/i
 /rewards.{0,10}team/i
