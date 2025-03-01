@@ -147,6 +147,7 @@ Folder structure:
      |   |- subject.de.phishing.parcel.map           |
      |   |- subject.de.phishing.payment.map          |
      |   |- subject.de.phishing.rewards.map          |
+     |   |- subject.de.phishing.subscription.map     |
      |   |- subject.de.phishing.survey.map          -/
      |   |- subject.de.sale.map                     -\
      |   |- subject.de.sale.app.map                  |
