@@ -8,7 +8,7 @@
 
 # Lamp, light
 # ------------------------------------------------------------------------------
-/(focus|glanz|glüh|helles|spar|stil).?(lampen?|licht)/iu
+/(focus|glanz|glüh|helles|power|spar|stil).?(lampen?|licht)/iu
 
 /(lampen?|licht).{0,10}(balance|doctor|fix|klar|komfort)/i
 /(lampen?|licht).{0,10}(effekt|experten?)/i

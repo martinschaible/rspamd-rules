@@ -28,7 +28,8 @@
 /delayed messages in/i
 
 # E
-/e?.?mail verification notice/i
+/e?.?mail.{1,10}password will be disabled/i
+/e?.?mail.{1,10}verification notice/i
 
 # F
 

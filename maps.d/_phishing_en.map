@@ -45,6 +45,10 @@
 /dear customer.{1,10}your membership has expired/i
 /reminder.{1,10}update your payment details/i
 
+/update your payment method.{1,10}hi\b/i
+
+/hi.{1,10}we tried processing.{1,15}payment/i
+
 # Fake human resource department
 # ------------------------------------------------------------------------------
 /annual leave compliance report for/i
