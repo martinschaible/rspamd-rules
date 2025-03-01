@@ -134,9 +134,7 @@
 
 /hearing.{0,10}problem/i
 
-/tinnitus.{0,10}(gone|now|truth)/i
-
-/(hear(ing)?|tinnitus).{0,10}(aid|cure|fix|loss|memory|noises?|restorer?|solution|symptoms|warning)/i
+/hear(ing)?.{0,10}(aid|cure|fix|loss|memory|noises?|restorer?|solution|symptoms|warning)/i
 
 /(bad|poor|restore).{0,10}hearing/i
 
@@ -188,11 +186,7 @@
 
 /(fuller|harder|thicker).{0,10}stronger/i
 
-/(increase|enhance|ultimate).{0,10}(stamina|size)/i
-
-# Prostatitis
-# ------------------------------------------------------------------------------
-/(urin|pee).{0,10}leaks/i
+/(increase|enhance|ultimate).{0,10}size/i
 
 # Recepies
 # ------------------------------------------------------------------------------
@@ -584,9 +578,7 @@
 /pancreas.{0,10}reset/i
 
 /pee.{0,10}(control|leaks|stronger|out)/i
-/peeing/i
 
-/\bpecker$/i
 /pelvic.{0,10}recovery/i
 /penis.{0,10}(muscle|ritual)/i
 /perfect.{0,10}(sleep|smile)/i
@@ -605,7 +597,6 @@
 /power.{0,10}(boost|shape|start)/i
 /powerful.{0,10}juice/i
 
-/prescription/i
 /prepare now/i
 
 /promising.{0,10}therapy/i
@@ -655,7 +646,6 @@
 
 /(slim|skinny).{0,10}waist/i
 /slim.{0,10}drink/i
-/slimming/i
 /snore.{0,10}stop/i
 
 /spiky.{0,10}fruit/i
@@ -673,7 +663,7 @@
 
 /sugar.{0,10}(free|traps|trick)/i
 /super.{0,10}water/i
-/surgeon.{0,10}(reveals|stamina)/i
+/surgeon.{0,10}reveals/i
 /surgery.{0,10}canceled/i
 /sore.{0,10}back/i
 
@@ -710,7 +700,7 @@
 /unlock.{0,10}hips/i
 /unusual.{0,10}stretch/i
 /urinary.{0,10}(fix|help|incontinence)/i
-/urine.{0,10}leaks?/i
+/urine?.{0,10}leaks?/i
 
 # V
 /varicose.{0,10}veins/i
@@ -733,7 +723,6 @@
 /womens?.{0,10}(intimacy|secret)/i
 /wonder.?bread/i
 /worst.{0,10}(breakfast|food|veggie)/i
-/wrinkles/i
 /wrinkle.{0,10}cream/i
 
 # X
