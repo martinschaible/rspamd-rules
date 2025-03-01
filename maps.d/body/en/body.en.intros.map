@@ -72,6 +72,9 @@
 /my name is.{5,25}managing director/i
 /my name is.{5,35}(vendor|registration|solicitor)/i
 
+# With country
+/my name is.{5,35}from.{5,35}(in)? (china|india|ukraine)/i
+
 # N
 
 # O
@@ -87,11 +90,20 @@
 /represent mrs?\./i
 
 # S
+# No greetings
+/supplier.{1,10}my name is/i
 
 # T
+/this is.{5,25}from.{5,25}co\..{0,5}ltd/i
 /this is.{5,20}from.{5,20}manufacturer of/i
+/this is.{5,25}from.{5,25}nice to meet you/i
+/this is.{5,25}from.{1,10}shenzhen/i
+
+/to whom it may concern.{1,10}my name is/i
+/to whom it may concern.{1,10}nice.{1,10}(write|writing).{1,10}you/i
 
 # U
+/urgent response.{1,10}my name is/i
 
 # V
 
