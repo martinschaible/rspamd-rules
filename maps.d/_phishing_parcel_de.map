@@ -303,6 +303,7 @@
 /(lieferung|paket|sendung).{1,10}in gutem zustand bleibt/i
 /(lieferung|paket|sendung).{1,10}nicht.{1,10}innerhalb.{1,10}erwarteten zeitrahmens/i
 /(lieferung|paket|sendung).{1,10}steht zur.{1,10}lieferung bereit/i
+/(lieferung|paket|sendung).{1,15}verzögerung erfahren/iu
 /(lieferung|paket|sendung).{1,10}wurde versandt.{1,10}zur auslieferung vorbereitet/i
 /(lieferung|paket|sendung).{1,10}wohlbehalten auf dem weg ist/i
 

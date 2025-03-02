@@ -430,13 +430,14 @@
 # G
 /get hard/i
 
-/gut.{0,10}(fix|flush|health|repair|quiz)/i
+/glucose.{0,10}stabilizer/i
+
 /going.{0,10}viral/i
 
 /green.{0,10}oil/i
 /grow.{0,10}(hair|trick)/i
 
-/gut.{0,10}solution/i
+/gut.{0,10}(fix|flush|health|quiz|repair|solution)/i
 
 # H
 /hair.{0,5}(growth|loss|renewal|restoration|restorer?|thinning)/i
@@ -579,6 +580,7 @@
 
 /promising.{0,10}therapy/i
 /proper.{0,15}detox/i
+/protein.{0,10}hack/i
 
 /purple.{1,10}powder/i
 
