@@ -33,34 +33,6 @@
 # ------------------------------------------------------------------------------
 /congratulations.{1,10}you are eligible/i
 
-# Claim
-# ------------------------------------------------------------------------------
-/attention.{1,10}claim/i
-/claim now/i
-/claim your.{1,10}funds now/i
-
-/your claim today/i
-
-# Donation
-# ------------------------------------------------------------------------------
-/(claims|message|reply|you have).{1,15}donation/i
-/tesla.{1,5}donation/i
-
-/donation.{1,10}(spende|win)/i
-/donation of.{1,10}million/i
-/donation relief fund/i
-
-/(donation|donated).{1,15}(for|to) you/i
-/(donation|donated).{1,15}on behalf/i
-/(donation|donated).{1,15}reply back/i
-
-/million.{1,10}donation confirmation/i
-/notification.{1,10}grant.{1,10}donation/i
-
-/you.{1,10}(have|won).{1,10}donation/i
-/you.{1,10}have been (donated|gifted)/i
-/you as a donation/i
-
 # Funds, Money, Sum
 # ------------------------------------------------------------------------------
 /(notice about|receive) your.{1,15}funds?/i
@@ -74,23 +46,6 @@
 # ------------------------------------------------------------------------------
 /important.{1,10}grant notification/i
 /official grant notification/i
-
-# Heir
-# ------------------------------------------------------------------------------
-/unclaimed family estate/i
-
-# Inheritance
-# ------------------------------------------------------------------------------
-/inheritance for you/i
-
-# Investment
-# ------------------------------------------------------------------------------
-/investment.{1,10}(inquiry|proposal|proposition|relocation)/i
-/investment.{1,10}partnership.{1,10}offer/i
-
-/confidential.{1,10}investment.{1,10}partnership/i
-
-/opportunity to invest/i
 
 # Partnership, Business
 # ------------------------------------------------------------------------------
@@ -126,38 +81,9 @@
 /usd.{1,10}compensation/i
 /compensation has been approved/i
 
-/your.{1,10}compensated/i
-/your.{1,10}compensation payment/i
-/your.{1,10}grant payment/i
-/your.{1,10}payment is (available|approved)/i
-
 # Fake Winning
 # ------------------------------------------------------------------------------
 /i.?a?m.{5,25}from.{1,25}i won the/i
-
-#
-#
-#
-
-# Orders
-# ------------------------------------------------------------------------------
-/enquiry.{1,10}letter/i
-
-/new enq$/i
-
-/request for quotation.{1,20}purchase/i
-/urgent.{1,10}(quotation|request).{1,10}quotation/i
-
-/quotation.{1,20}request for (processing|quotation)/i
-/#quotation/i
-
-/we want to buy your products/i
-/you handle.{1,10}contract supply/i
-/you received.{1,5}new order/i
-
-#
-#
-#
 
 # Crypto recovering
 # ------------------------------------------------------------------------------
@@ -172,11 +98,6 @@
 /do you want to work in/i
 /living.{1,10}working in the usa?/i
 /your immigration to the usa?/i
-
-# Illuminati
-# ------------------------------------------------------------------------------
-/illuminati.{1,10}(membership|recruiter|society)/i
-/(great|the).{1,10}illuminati/i
 
 # Oil
 # ------------------------------------------------------------------------------

@@ -5,100 +5,16 @@
 #  10 | German         |
 # ==============================================================================
 
-# Choosen
-# ------------------------------------------------------------------------------
-/ihre.{1,10}e?.?mail.?adresse.{1,10}wurde ausgewählt/iu
-/ihre.{1,10}e?.?mail.?adresse.{1,10}wurde nach dem zufallsprinzip/iu
-
 # Donation
 # ------------------------------------------------------------------------------
-/anspruch betrag/i
-/(gewonnene|glückwunsch).{1,10}spende/iu
 
-/spenden.{0,15}(belohnung|benachrichtigung|fonds|gewinn|investition)/i
-
-/spende.{1,10}(donation|gewonnen)/i
-/spende.{1,10}(an|für) sie/iu
-/spende.{1,10}investitions.?programm/i
-/spende.{1,10}in höhe von/iu
-/spende.{1,10}von.{1,10}(btc|frau|herr)/i
-
-/(du hast|sie haben) eine.{1,10}spende/i
-
-/sie die.{1,15}(euro|gbp|usd|millionen).{1,10}spende erhalten/i
-/sie erhalten eine.{1,10}spende/i
+/sie.{1,15}(euro|gbp|usd|millionen).{1,10}spende erhalten/i
 /sie (haben|ihre).{1,15}(euro|gbp|usd|millionen).{1,10}(ausgewählt|erhalten|gewonnen)/i
-/sie (haben|wurden).{1,10}eine.{1,10}spende (ausgewählt|erhalten|gewonnen)/i
-
-/wurden (an sie|ihnen) gespendet/i
 
 /(tesla|wohltätige) spende/iu
-
-/(glückwunsch|glückwünsche).{1,10}spende/i
 
 # Foundation
 /stiftung spendet ihnen/i
 
 # Funds, Money, Sum
 # ------------------------------------------------------------------------------
-/haben sie den.{1,10}fonds erhalten/i
-/anspruch geld/i
-/geld anspruch/i
-
-# Investment
-# ------------------------------------------------------------------------------
-/investitions.?vorschlag/i
-
-# Partnership, Business
-# ------------------------------------------------------------------------------
-/(geschäfts?|transaktions?).{0,10}(angebot|vorschlag)/iu
-/geschäft.{1,15}uns.{1,10}von vorteil ist/i
-
-/dringender.{1,10}vorschlag/i
-
-/profitables angebot/i
-
-# Payments, Compensations
-# ------------------------------------------------------------------------------
-/(aus)?zahlung nicht beanspruchter gelder/i
-
-/nicht beanspruchter betrag/i
-
-/sie erhalten eine entschädigung von.{1,10}(euro|gbp|usd|millionen)/iu
-
-/zahlung.{1,10}nicht beanspruchten preisgeldes/i
-
-# Vaccine damage
-# ------------------------------------------------------------------------------
-/euro.{1,10}corona.{1,10}haftentschädigung/i
-
-#
-#
-#
-
-# Comparing Bank Accounts
-# ------------------------------------------------------------------------------
-/(erinnerung|kostenlos).{1,15}tagesgeld.?konto/i
-/tagesgeld.{1,25}(garantiert|prozent|sicher|zinsen)/i
-
-/vergleichen sie jetzt kostenfrei/i
-
-# Comparing Solar energy
-# ------------------------------------------------------------------------------
-/jetzt sichern.{1,15}fördergelder/iu
-
-/ihre.{1,15}euro förderung/iu
-/ihre.{1,10}(photo.?voltaik|pv).?anlage/i
-
-/erinnerung.{1,10}angebot nr/i
-
-/preise.{1,10}(pv|solar).?anlagen.{1,10}gefallen/i
-
-#
-#
-#
-
-# Unclassified
-# ------------------------------------------------------------------------------
-/kann ich ihnen vertrauen/i
-/kommunizieren sie so schnell wie möglich/iu
