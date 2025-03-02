@@ -18,9 +18,16 @@
 # B
 
 # C
+/(claims|message|reply|you have).{1,15}donation/i
 
 # D
-/donation.{1,10}(claim|fund)/i
+/(donated|donation).{1,10}(claim|fund)/i
+/(donated|donation).{1,15}(for|to) you/i
+/(donated|donation).{1,10}(spende|win)/i
+/(donated|donation).{1,10}of.{1,10}million/i
+/(donated|donation).{1,15}on behalf/i
+/(donated|donation).{1,10}relief fund/i
+/(donated|donation).{1,15}reply back/i
 
 # E
 
@@ -39,8 +46,10 @@
 # L
 
 # M
+/million.{1,10}donation confirmation/i
 
 # N
+/notification.{1,10}grant.{1,10}donation/i
 
 # O
 
@@ -53,6 +62,7 @@
 # S
 
 # T
+/tesla.{1,5}donation/i
 
 # U
 
@@ -63,6 +73,8 @@
 # X
 
 # Y
-/you.{1,10}received.{1,10}donation/i
+/you.{1,10}as a donation/i
+/you.{1,10}(have|received|won).{1,10}donation/i
+/you.{1,10}have been (donated|gifted)/i
 
 # Z

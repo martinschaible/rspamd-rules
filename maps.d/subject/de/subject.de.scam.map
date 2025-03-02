@@ -30,7 +30,13 @@
 /förderung(en)?.{1,10}(photovoltaik|pv|solar).?anlagen?/iu
 /förderung(en)?.{1,10}\d{2}\.\d{2}\.\d{4}/i
 
-/(preissenkungen|rabatte|sinkende preise).{1,20}(photovoltaik|pv|solar).?anlagen/i
+/ihre.{1,15}euro förderung/iu
+/ihre.{1,10}(photovoltaik|pv|solar).?anlagen?/i
+
+/jetzt sichern.{1,15}fördergelder/iu
+
+/(preissenkungen|rabatte|sinkende preise).{1,20}(photovoltaik|pv|solar).?anlagen?/i
+/preise.{1,10}(photovoltaik|pv|solar).?anlagen?.{1,10}gefallen/i
 /tiefpreise.{1,10}förderungen/i
 
 # 
@@ -38,7 +44,6 @@
 /gutschrift ihrer zinsen/i
 /automatische zins.?gutschrift/i
 /zins.?gutschrift (im|vom)/i
-
 
 #
 /pers\. angebot vom/i
@@ -54,6 +59,8 @@
 /sie sich jetzt.{1,10}zinsen/i
 /zinsen.{1,10}schnell.{1,10}garantiert/i
 /zinsgutschrift.{1,20}in höhe von/i
+
+/vergleichen sie jetzt kostenfrei/i
 
 # Business register
 # ------------------------------------------------------------------------------
@@ -74,6 +81,7 @@
 
 # A
 /aktenzeichen.{1,20}telefonat/i
+/anspruch.{1,10}(betrag|geld)/i
 
 # B
 /betreff.{1,5}von/i
@@ -87,16 +95,24 @@
 
 # D
 /dringende ansprüche/i
+/dringender.{1,10}vorschlag/i
+
 /du hast ein geschenk erhalten/i
 
 # E
-/e?.?mail für ansprüche bestätigen/iu
+/e?.?mail(.?adresse)?.{1,10}ansprüche bestätigen/iu
+/e?.?mail(.?adresse)?.{1,10}wurde.{1,15}(ausgewählt|zufallsprinzip)/iu
 
 # F
 /firmen.?eintrag.{1,10}werbeanzeige/i
 
 # G
-/gegenseitigen vorteil/i
+/gegenseitigen.{1,10}vorteil/i
+/geld.{1,10}anspruch/i
+
+/(geschäfts?|transaktions?).{0,10}(angebot|vorschlag)/iu
+/(geschäfts?|transaktions?).{1,15}uns.{1,10}von vorteil/i
+
 /grüße.{1,5}ref.{1,5}code/i
 
 # H
@@ -109,6 +125,7 @@
 # J
 
 # K
+/kann ich ihnen vertrauen/i
 /konto mit einem betrag/i
 
 /kostenloser? hilfsfonds/i
@@ -120,17 +137,21 @@
 /mastercard im wert/i
 
 # N
-/nicht beanspruchte gelder/i
+/nicht beanspruchter? betrag/i
+/nicht beanspruchter? gelder/i
+/nicht beanspruchten preisgeld(es)?/i
 
 # O
 
 # P
+/profitables.{1,10}angebot/i
 
 # Q
 
 # R
 
 # S
+/sie den.{1,10}fonds erhalten/i
 
 # T
 
