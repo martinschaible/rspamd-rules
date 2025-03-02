@@ -20,6 +20,7 @@
 # C
 
 # D
+/du hast eine.{1,10}spende/i
 
 # E
 /eine spende/i
@@ -28,6 +29,7 @@
 
 # G
 /gelder spende/i
+/(gewonnene|glückwunsch).{1,10}spende/iu
 
 # H
 
@@ -56,11 +58,16 @@
 # R
 
 # S
+/sie (erhalten|haben|wurden).{1,10}eine.{1,10}spende/i
 
-/spende für sie/i
-/spende.{1,15}(cash|donation)/i
-/spende.{1,10}ausgewählt/iu
-/spende zu dir/i
+/spenden?.{1,10}(an|für) sie/iu
+/spenden?.{1,10}(ausgewählt|erhalten|gewonnen)/i
+/spenden?.{0,15}(belohnung|benachrichtigung|cash|donation|gewinn|investition)/i
+
+/spenden?.{1,10}in höhe von/iu
+/spenden?.{1,10}investitions.?programm/i
+/spenden?.{1,10}von.{1,10}(btc|frau|herr)/i
+/spenden?.{1,10}zu dir/i
 
 /spendengelder an sie/i
 
@@ -71,6 +78,7 @@
 # V
 
 # W
+/wurden? (an sie|ihnen) gespendet/i
 
 # X
 
