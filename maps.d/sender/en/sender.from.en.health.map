@@ -289,7 +289,7 @@
 /bladder.{0,10}(leaks?|leakage|leaking|issues?|problems?)/i
 
 /bloat.{0,10}(free|solution)/i
-/blood.{0,10}(clots|flow|glucose|pressure|sugar)/i
+/blood.{0,10}(clots?|flow|glucose|pressure|solution|sugar)/i
 
 /blue.{0,10}(pill|plant|replacement)/i
 
@@ -395,6 +395,8 @@
 
 # F
 /fasting.{0,10}seeds/i
+
+/fat.{0,10}dissolving/i
 /fatigue.{0,10}bloating/i
 /fat(ty)?.{0,10}arteries/i
 
@@ -571,7 +573,7 @@
 /posture.{0,10}fix/i
 
 /power.{0,10}(boost|shape|start)/i
-/powerful.{0,10}juice/i
+/powerful.{0,10}/fat.?burner|juice)/i
 
 /prepare now/i
 
@@ -609,6 +611,7 @@
 # S
 /satisfaction.{0,10}solution/i
 /sciatica.{0,10}fix/i
+/scientists?.{0,10}reveals?/i
 
 /second.{0,10}tweak/i
 /secret.{0,10}(revealed|weapon)/i
@@ -645,7 +648,7 @@
 
 /sugar.{0,10}(free|spike|traps|trick)/i
 /super.{0,10}water/i
-/surgeon.{0,10}reveals/i
+/surgeon.{0,10}reveals?/i
 /surgery.{0,10}canceled/i
 
 /sore.{0,10}back/i
