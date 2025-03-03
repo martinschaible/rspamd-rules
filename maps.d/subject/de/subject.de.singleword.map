@@ -103,6 +103,7 @@ fettverbrenner/i
 /^finanzierung$/i
 /finanzierung\.\./i
 /finanzierung\.$/i
+/finanzierung,/i
 /finanzierungsangebot/i
 
 /finanziellen \d/i
@@ -191,9 +192,7 @@ fettverbrenner/i
 /kooperation,/i
 
 /^kreditangebot$/i
-/^kreditangebot.?\?/i
-/^kreditangebot.?-/i
-/kreditangebot @/i
+/^kreditangebot.?(@|!|\?|-)/i
 
 /kreditkartenbenachrichtigung/i
 
