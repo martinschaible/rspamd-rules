@@ -159,7 +159,7 @@
 
 /(do|try) this \d{1,2} minutes before/i
 #/try this before bed/i
-/(do|try) this before/i
+/(do|try) this.{1,10}before/i
 
 /do this every day/i
 /do this for instant/i
