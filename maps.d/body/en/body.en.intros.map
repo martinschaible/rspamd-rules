@@ -35,6 +35,8 @@
 /i am (engr|madam)/i
 /i am representing.{1,10}(company|my)/i
 
+/i represent a team of over/i
+
 /i'?\s*a?m\b a.{1,10}(financial|representative|senior)/i
 
 /i'?\s*a?m\b a.{1,10}(broker|manager)/i
