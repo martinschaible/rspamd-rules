@@ -135,6 +135,7 @@ Folder structure:
      |   |- subject.de.map                            - multimap.subject.conf
      |   |- subject.de.adult.map                      - multimap.subject.adult.conf
      |   |- subject.de.finance.map                    - multimap.subject.finance.conf
+*    |   |- subject.de.gambling.map                   - multimap.subject.gambling.conf
      |   |- subject.de.greetings.map                  - multimap.subject.conf
      |   |- subject.de.message.map                    - multimap.subject.conf
      |   |- subject.de.health.map                     - multimap.subject.health.conf
