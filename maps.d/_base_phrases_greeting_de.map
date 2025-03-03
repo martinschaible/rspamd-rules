@@ -174,9 +174,6 @@
 
 # Introduction, Country
 # ------------------------------------------------------------------------------
-/ich bin.{5,25}ein philanthrop/i
-/ich bin.{5,25}eine? (deutscher?|schwedischer?|indischer?|indisches|italienischer?)/i
-/ich bin.{5,35}eine deutsche geschäftsfrau/i
 /ich bin.{5,25}aus abidjan/i
 /ich bin.{5,25}ein in dubai lebender/i
 
@@ -189,11 +186,7 @@
 /ich bin.{5,25}persönliche kundenbetreuer/i
 /ich bin hon.{1,5}dr/i
 
-/ich bin ein.{1,25}geschäftsmann/i
 /ich bin.{5,25}ein banker hier/i
-
-/ich bin.{5,25}(investor(in)?|philanthrop|unternehmer)/i
-
 /ich bin mutter.{5,25}frau/i
 
 # Introduction, Dying
