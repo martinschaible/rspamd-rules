@@ -168,7 +168,19 @@ Folder structure:
      |- subject.special.map                           - multimap.subject.conf
 ```
 
-More content will follow soon.
+### Setup for "body"
+
+Folder structure:
+```
+|- subject
+     |- de
+     |   |- body.de.phishing.map                 -\
+     |   |- body.de.phishing.email.map                 -\
+     |   |- body.de.phishing.malware.map                 -\
+     |- en
+     |   |- ....
+```
+
 
 ### Setup for "whitelist"
 
