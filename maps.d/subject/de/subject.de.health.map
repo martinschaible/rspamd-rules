@@ -118,7 +118,9 @@
 # A
 
 # B
-/Bauchfett in.{1,15}los/i
+/bauchfett in.{1,15}los/i
+/bauchumfang schmelzen/i
+
 /blauen? pille/i
 
 # C
@@ -132,6 +134,7 @@
 /fettverbrennung auf/i
 
 # G
+/gedächtnis(ses)?.{1,10}getestet wurde/i
 /geheimnis.{1,10}tiefenreinigung/i
 
 # H
@@ -146,7 +149,9 @@
 /japanischer?.{1,10}hack/i
 
 # K
-/kilos verlieren in nur/i
+/kilos?.{1,10}fett eliminieren/i
+/kilos?.{1,10}verlieren in nur/i
+
 /krampfadern.{1,20}waffe/i
 
 # L
@@ -182,6 +187,8 @@
 
 # U
 /um schnell abzunehmen/i
+
+/unsere natürliche.{1,10}behandlung/iu
 /unterstützt dieses produkt/iu
 
 # V

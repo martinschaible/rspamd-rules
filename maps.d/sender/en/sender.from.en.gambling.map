@@ -50,6 +50,8 @@
 /(extra|free|lucky?).{0,10}(spins?|splns?)/i
 /(spicy|verde).?casino/i
 
+/spin.{1,10}win/i
+
 # T
 
 # U
@@ -57,6 +59,7 @@
 # V
 
 # W
+/win real prizes/i
 
 # X
 

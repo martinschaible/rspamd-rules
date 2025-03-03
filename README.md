@@ -147,6 +147,7 @@ Folder structure:
      |   |- subject.de.phishing.parcel.map           |
      |   |- subject.de.phishing.payment.map          |
      |   |- subject.de.phishing.rewards.map          |
+     |   |- subject.de.phishing.subscription.map     |
      |   |- subject.de.phishing.survey.map          -/
      |   |- subject.de.sale.map                     -\
      |   |- subject.de.sale.app.map                  |
@@ -156,6 +157,7 @@ Folder structure:
      |   |- subject.de.scam.bignumbers.map           |
      |   |- subject.de.scam.donation.map             |- multimap.subject.scam.conf
      |   |- subject.de.scam.order.map                |
+*    |   |- subject.de.scam.payment.map              |
      |   |- subject.de.scam.winning.map             -/
      |   |- subject.de.singleword.map               -\- multimap.subject.conf
      |   |- subject.de.singleword.ucase.map         -/
@@ -166,7 +168,19 @@ Folder structure:
      |- subject.special.map                           - multimap.subject.conf
 ```
 
-More content will follow soon.
+### Setup for "body"
+
+Folder structure:
+```
+|- subject
+     |- de
+     |   |- body.de.phishing.map                 -\
+     |   |- body.de.phishing.email.map                 -\
+     |   |- body.de.phishing.malware.map                 -\
+     |- en
+     |   |- ....
+```
+
 
 ### Setup for "whitelist"
 

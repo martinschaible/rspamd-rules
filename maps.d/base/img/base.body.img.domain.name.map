@@ -36,6 +36,7 @@
 /(background|src)=.{0,5}https?:\/\/(i\.)?imgur\.com/i
 /(background|src)=.{0,5}https?:\/\/[a-z0-9]{5,20}\.imgur\.com/i
 
+/(background|src)=.{0,5}https?:\/\/assets\.unlayer\.com/i
 /(background|src)=.{0,5}https?:\/\/freeimage\.host/i
 /(background|src)=.{0,5}https?:\/\/iili\.io/i
 /(background|src)=.{0,5}https?:\/\/imgvb\.com/i
@@ -43,6 +44,9 @@
 /(background|src)=.{0,5}https?:\/\/zupimages\.net/i
 
 /(background|src)=.{0,5}https?:\/\/msys\.leadfairtrade\.de/i
+
+# Tracker
+/(background|src)=.{0,5}https?:\/\/[0-9a-z]{3,10}\.efuserassets\.com/i
 
 # CSS
 /background: url\(.?https:\/\/i\.imgur\.com/i

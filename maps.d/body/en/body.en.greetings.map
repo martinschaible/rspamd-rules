@@ -22,7 +22,7 @@
 /(dear|greetings?|good day|hello|hi\b).{1,5}(friend|madam|sir).{1,15}this e?.?mail is strictly/i
 /(dear|greetings?|good day|hello|hi\b).{1,5}(friend|madam|sir).{1,15}we are glad to introduce/i
 
-/(dear|greetings?|good day|hello|hi\b).{1,15}(agency|beneficiary|engineer|manager|owner)/i
+/(dear|greetings?|good day|hello|hi\b).{1,15}(agency|beneficiary|engineer|manager|owner|purchasing)/i
 /(dear|greetings?|good day|hello|hi\b).{1,15}(e?.?mail|domain.?name|site|web)/i
 /(dear|greetings?|good day|hello|hi\b).{1,15}(business|investment)/i
 /(dear|greetings?|good day|hello|hi\b).{1,15}managing director/i
@@ -49,6 +49,7 @@
 /dear.{1,10}purchase.{1,10}(department|manager)/i
 /dear.{1,10}(madam|purchaser|sir).{1,15}glad to (contact|connect|know|write)/i
 /dear.{1,10}(madam|purchaser|sir).{1,15}please find attached/i
+/dear.{1,10}(madam|purchaser|sir).{1,15}you interested in/i
 
 # E
 
@@ -58,14 +59,15 @@
 /fellow patriot/i
 
 # G
-/good day.{1,10}trust this message/i
+/good (afternoon|day|evening|morning).{1,10}i.?a?m.{5,25}(chairman|director)/i
+/good (afternoon|day|evening|morning).{1,10}i.?a?m.{5,25}from/i
 
-/good (day|evening|morning).{1,10}i.?a?m.{5,25}(chairman|director)/i
-/good (day|evening|morning).{1,10}i.?a?m.{5,25}from/i
+/good (afternoon|day|evening|morning).{1,10}my name is/i
 
-/good (day|evening|morning).{1,15}this might come.{1,10}surprise/i
-/good (day|evening|morning).{1,15}please find attached/i
-/good (day|evening|morning).{1,10}to you.{1,10}my name is/i
+/good (afternoon|day|evening|morning).{1,15}this might come.{1,10}surprise/i
+/good (afternoon|day|evening|morning).{1,15}please find attached/i
+/good (afternoon|day|evening|morning).{1,10}to you.{1,10}my name is/i
+/good (afternoon|day|evening|morning).{1,10}trust this message/i
 
 /greetings.{1,10}my friend/i
 
@@ -76,11 +78,11 @@
 /hello.{1,10}to the.{1,25}owner/i
 /hello.{1,25}owner/i
 
-/(hello|my name is).{5,35}from.{5,35}(in)? (china|india|ukraine)/i
-
 /(hello|hi).{1,10}customer/i
 /(hello|hi).{1,5}(dear|friend).{1,10}(confidential|private|strictly|urgent)/i
 /(hello|hi).{1,5}(dear|friend).{1,10}we would like to introduce/i
+
+/(hello|hi).{5,35}from.{5,35}(in)? (china|india|ukraine)/i
 /(hello|hi).{1,10}i am.{1,10}professional/i
 /(hello|hi).{1,10}glad to (contact|connect|know|write)/i
 
@@ -115,19 +117,9 @@
 
 # S
 
-# No greetings
-/supplier.{1,10}my name is/i
-
 # T
-/this is.{5,25}from.{5,25}co\..{0,5}ltd/i
-/this is.{5,25}from.{5,25}nice to meet you/i
-/this is.{5,25}from.{1,10}shenzhen/i
-
-/to whom it may concern.{1,10}my name is/i
-/to whom it may concern.{1,10}nice.{1,10}(write|writing).{1,10}you/i
 
 # U
-/urgent response.{1,10}my name is/i
 
 # V
 

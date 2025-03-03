@@ -281,9 +281,11 @@
 /zollgebühren in höhe von.{1,10}euro zu begleichen/iu
 
 #
-/gebühren.{1,10}chf 1(\.|,)99/iu
-/betrag beträgt 1(\.|,)99 euro/iu
+/gebühren.{1,10}(chf|euro) 1(\.|,)99/iu
 /\d(\.|,)\d{2}.{1,10}zollgebühren wurden nicht bezahlt/i
+
+/betrag beträgt 1(\.|,)99 (chf|euro)/iu
+/fälliger betrag: \d,(\.|,) (chf|euro)/iu
 
 #
 /kaufen sie eine paysafecard/i
@@ -301,6 +303,7 @@
 /(lieferung|paket|sendung).{1,10}in gutem zustand bleibt/i
 /(lieferung|paket|sendung).{1,10}nicht.{1,10}innerhalb.{1,10}erwarteten zeitrahmens/i
 /(lieferung|paket|sendung).{1,10}steht zur.{1,10}lieferung bereit/i
+/(lieferung|paket|sendung).{1,15}verzögerung erfahren/iu
 /(lieferung|paket|sendung).{1,10}wurde versandt.{1,10}zur auslieferung vorbereitet/i
 /(lieferung|paket|sendung).{1,10}wohlbehalten auf dem weg ist/i
 

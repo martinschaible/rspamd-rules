@@ -28,6 +28,7 @@
 # D
 
 # E
+/enquiry.{1,10}letter/i
 
 # F
 
@@ -38,6 +39,13 @@
 # I
 /invitation to tender/i
 
+/inquiry.?order/i
+/inquiry.{1,10}investment/i
+/inquiry.{1,15}about your products/i
+
+/#quotation/i
+
+
 # J
 
 # K
@@ -46,10 +54,13 @@
 
 # M
 
+
 # N
 /-.?new order/i
+/new enq$/i
 /new rfq/i
 /new po \d{1,10}/i
+
 # O
 /order request.{1,10}(new|project)/i
 
@@ -64,10 +75,14 @@
 
 # Q
 /quotation.?rfq/i
+/quotation.{1,20}request.{1,10}processing/i
 
 # R
 /request for offer/i
-/request for quotation from/i
+/request.{1,10}quotation$/i
+/request.{1,10}quotation from/i
+/request.{1,10}quotation.{1,20}purchase/i
+
 /request.?quotation/i
 
 # Sample: RFQ # 0110-2025
@@ -89,20 +104,25 @@
 /^urgent (inquiry|rfq)$/i
 
 /urgent project/i
-/urgent request.{1,10}quote/i
-/urgent rfq.{1,25}offer/i
+/urgent.{1,10}request.{1,10}(quotation|quote)/i
+/urgent.{1,10}rfq.{1,25}offer/i
 
-/updated price.?list.{1,15}business/i
+/updated.{1,10}price.?list.{1,15}business/i
 
 # V
 /vendor procurement project/i
 
 # W
+/we want to buy your products/i
 
 # X
 
 # Y
+/you handle.{1,10}contract supply/i
+
 /you have.{1,10}new.{1,15}inquiry/i
 /you have.{1,10}received.{1,10}new po/i
+
+/you received.{1,10}new order/i
 
 # Z

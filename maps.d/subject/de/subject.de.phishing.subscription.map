@@ -3,28 +3,34 @@
 # Weight:   6.0
 # ==============================================================================
 
+# Topics
+# ==============================================================================
+
+#
+#
+#
+
 # Generic
 # ==============================================================================
 
 # A
+/abonnement.{1,10}ist abgelaufen.{1,10}erneuern sie es jetzt/i
+/abonnement.{1,10}ist abgelaufen.{1,10}reaktivieren sie/i
+/abonnement.{1,10}wird ausgesetzt/i
 
 # B
 
 # C
 
 # D
-/(dein|grösste|größte|spanischen?).?(lotter(ie|y)|loteria|lotto)/i
 
 # E
-/(el.?gordo|lotter(ie|y)|loteria|lotto|millionen).?(gewinner|rabatt|schein)/i
-/euro.?million(en)?/i
+/erneuern sie es jetzt/i
+/erneuern sie noch heute ihr.{1,15}abonnement/i
 
 # F
 
 # G
-/gewinn(er)?.{0,10}(informationen|inside|spiel|team|weg)/i
-
-/grosse.{0,10}gewinne/i
 
 # H
 
@@ -47,7 +53,6 @@
 # Q
 
 # R
-/rekord.?jackpot/i
 
 # S
 
@@ -56,6 +61,7 @@
 # U
 
 # V
+/verlangern sie/i
 
 # W
 

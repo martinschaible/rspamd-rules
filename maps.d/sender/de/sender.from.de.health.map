@@ -32,12 +32,13 @@
 /^apotheken?.{0,10}(nachrichten|versand)/i
 /^apotheken?.{0,10}news(letter)?/i
 
+/anti.{0,10}schnarch/i
+
 # B
 /besser.{0,10}sehen/i
 /blut.{0,10}(druck|gesundheit|hochdruck)/i
 
 # C
-/covid.{0,10}schnelltest/i
 
 # D
 /dein.{0,10}berater/i
@@ -50,6 +51,7 @@
 /dr\..?(apotheke|gesund|versand)/i
 
 # E
+/endlich.{0,10}ruhe/i
 
 # F
 /fett.{0,10}schnell/i
@@ -70,6 +72,7 @@
 /(besser|ich will|wieder).{0,10}hören/i
 
 # I
+/ihre?.{1,10}gesundheitsberater/i
 
 # J
 
@@ -79,9 +82,11 @@
 
 /keto.{0,10}(diät|erfolge?|kaffee)/i
 
+/klar.{0,10}denken/i
+
 # L
 /leber.{0,10}detox/i
-/leise.{0,10}schlafen/i
+/leise.{0,10}(nächte|schlafen)/iu
 
 # M
 /mag.{0,10}boost/i
@@ -119,6 +124,7 @@
 /sex.{0,10}produkt/i
 
 /starten sie/i
+/stille.{0,10}(nächte|schlafzimmer)/i
 
 # T
 

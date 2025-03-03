@@ -33,6 +33,7 @@
 
 # I
 /i am (engr|madam)/i
+/i am representing.{1,10}(company|my)/i
 
 /i'?\s*a?m\b a.{1,10}(financial|representative|senior)/i
 
@@ -54,18 +55,26 @@
 # L
 
 # M
+/message finds you well.{1,10}i work with a/i
+
 /my names (are|is) mrs?/i
-
 /my name is.{5,35}i am a merchant/i
-
 /my name is.{5,35}a registered/i
-/my name is.{5,35}(attorney|business|consultant|investment|investor|politician|private|us soldier)/i
-/my name is.{5,25}i'?\s*a?m\b.{1,10}(honest|seeking|single)/i 
+/my name is.{5,25}how.{1,10}everything/i
+/my name is.{5,25}(honest|seeking|single)/i 
+
 /my name is.{5,25}i have.{1,10}urgent/i
 /my name is.{5,35}i serve as/i
+
+/my name is.{5,25}represent(ing)?/i
+
+# With title
+/my name is.{5,35}(attorney|business|consultant|investment|investor|politician|private|us soldier)/i
 /my name is.{5,25}managing director/i
 /my name is.{5,35}(vendor|registration|solicitor)/i
-/my name is.{5,25}represent(ing)?/i
+
+# With country
+/my name is.{5,35}from.{5,35}(in)? (china|india|ukraine)/i
 
 # N
 
@@ -82,11 +91,20 @@
 /represent mrs?\./i
 
 # S
+# No greetings
+/supplier.{1,10}my name is/i
 
 # T
+/this is.{5,25}from.{5,25}co\..{0,5}ltd/i
 /this is.{5,20}from.{5,20}manufacturer of/i
+/this is.{5,25}from.{5,25}nice to meet you/i
+/this is.{5,25}from.{1,10}shenzhen/i
+
+/to whom it may concern.{1,10}my name is/i
+/to whom it may concern.{1,10}nice.{1,10}(write|writing).{1,10}you/i
 
 # U
+/urgent response.{1,10}my name is/i
 
 # V
 

@@ -48,8 +48,9 @@
 
 /important mailbox/i
 
+/Important (notice|notification).{1,10}for.{1,15}@/i
 /important (notice|notification).{1,10}password expiration/i
-/important (Notice|notification).{1,10}upgrade/i
+/important (notice|notification).{1,10}upgrade/i
 
 /important update.{1,15}@/i
 /important update.{1,25}server/i

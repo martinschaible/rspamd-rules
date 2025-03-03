@@ -1,7 +1,14 @@
 # ==============================================================================
-# Language: german
+# Language: english
 # Weight:   6.0
 # ==============================================================================
+
+# Topics
+# ==============================================================================
+
+#
+#
+#
 
 # Generic
 # ==============================================================================
@@ -13,18 +20,12 @@
 # C
 
 # D
-/(dein|grösste|größte|spanischen?).?(lotter(ie|y)|loteria|lotto)/i
 
 # E
-/(el.?gordo|lotter(ie|y)|loteria|lotto|millionen).?(gewinner|rabatt|schein)/i
-/euro.?million(en)?/i
 
 # F
 
 # G
-/gewinn(er)?.{0,10}(informationen|inside|spiel|team|weg)/i
-
-/grosse.{0,10}gewinne/i
 
 # H
 
@@ -47,7 +48,6 @@
 # Q
 
 # R
-/rekord.?jackpot/i
 
 # S
 

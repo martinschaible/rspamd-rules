@@ -23,6 +23,8 @@
 /secrets? to (enhancing|unlock(ing)?)/i
 /secrets? unveiled/i
 
+/#1 (hack|ritual|secret|solution|trick) to/i
+
 /(hack|ritual|secret|solution|trick).{1,10}(extends|reverse|shocks)/i
 /(hack|ritual|secret|solution|trick).{1,10}that could change/i
 /(hack|ritual|secret|solution|trick).{1,10}to (cure|ease|boost)/i
@@ -37,6 +39,8 @@
 /easy trick for clear/i
 
 /this.{1,10}home remedy/i
+/this.{1,10}tsp hack/i
+
 /unusual greek/i
 
 /weird.{1,20}trick/i
@@ -65,9 +69,9 @@
 /\d{1,3}.?(lbs|pounds) gone/i
 
 /\d cause of/i
+/\d simple habit/i
 /\d stretch/i
 /\d way to eliminate/i
-
 
 # A
 /add this to your/i
@@ -97,11 +101,14 @@
 /balanced.{1,10}blood pressure/i
 /banishing.{1,10}toenail/i
 
+/beat.{1,10}alzheimer/i
 /bedroom.{1,10}magic/i
 /before bed tonight/i
 /belly fat/i
 
 /big o$/i
+/big pharma.{1,15}want you/i
+
 /bizarre spice/i
 
 /(burn|drop|erase|lose|melt|shed).{1,10}(belly|more).?(fat|flab)/i
@@ -116,8 +123,9 @@
 /bone to bone/i
 
 /boost.{1,10}eart health/i
-/boost.{1,10}your.{1,15}(health|metabolism|vitality)/i
+/boost.{1,15}(focus|health|metabolism|vitality)/i
 
+/brain boost.{1,10}trick/i
 /brain.?fog.{1,10}seconds/i
 
 /by doing this daily/i
@@ -141,15 +149,17 @@
 /cut heart attack/i
 
 # D
-/destroys.{1,10}back pain/i
+/destroys?.{1,10}(back|joint) pain/i
 /detox(es)? your gut/i
+
+/diabetes.{1,10}game changer/i
 
 /discover.{1,10}breakthrough/i
 /discover.{1,10}the (key|secret) to/i
 
 /(do|try) this \d{1,2} minutes before/i
 #/try this before bed/i
-/(do|try) this before/i
+/(do|try) this.{1,10}before/i
 
 /do this every day/i
 /do this for instant/i
@@ -208,6 +218,7 @@
 /fight.{1,10}memory.?loss/i
 
 /fix.{1,10}back pain/i
+/fix.{1,15}pain in just/i
 /fix.{1,10}stronger/i
 /fix.{1,10}them in seconds/i
 /fix.{1,10}your teeth/i
@@ -220,6 +231,7 @@
 /follow these steps at/i
 /for.{1,10}weight.?loss/i
 
+/fruit that fights/i
 /fungus.{0,10}fix/i
 
 # G
@@ -229,7 +241,7 @@
 
 # H
 /hack silences/i
-/harvard.{1,10}leaked/i
+/harvard.{1,15}(leaked|second|stretch)/i
 
 /heal.{1,15}pain/i
 /healing recipe/i
@@ -273,10 +285,14 @@
 /keep your.{1,10}(arteries|heart)/i
 /knee.{1,10}stretch/i
 
+/kills.{1,10}tinnitus/i
+
 # L
 /lose weight.{1,10}(fast|without)/i
 /loses.{1,10}pounds doing this/i
 /losing memory because/i
+
+/lost \d{1,2}.?(lbs|pounds)/i
 
 # M
 /major.{1,10}fat.?loss/i
@@ -291,6 +307,8 @@
 /melts.{1,10}in.{1,10}weeks/i
 
 /morning change to/i
+/most.{1,10}anti.?inflammatory/i
+
 /mute.{1,10}tinnitus/i
 
 # N
@@ -309,6 +327,7 @@
 # P
 /pain free.{1,10}joints/i
 /pain in.{1,10}minutes?/i
+/pain.{1,10}try this/i
 
 /painful neuropathy/i
 
@@ -338,12 +357,12 @@
 
 /relief with this.{1,15}(technique|weird)/i
 /relieve.{1,10}constipation/i
-/remedy unleashes your/i
+/remedy (restores|unleashes)/i
 
 /removes?.{1,10}dark spots/i
 /removes?.{1,10}(lbs|pounds) every.{1,10}days?/i
 
-/restores?.{1,10}(joint|memory|perfect)/i
+/restores?.{1,10}(hearing|joint|memory|perfect)/i
 
 /(reverse|reversing).{1,10}(aging in|diabetes|ed\b|memory|type 2)/i
 /(reverse|reversing).{1,10}vision.?loss/i
@@ -352,6 +371,8 @@
 
 # S
 /save your.{1,10}(exe.?sight|nails)/i
+/saving secret/i
+
 /say goodbye to.{1,15}pain/i
 
 /scientifically proven/i
@@ -363,7 +384,11 @@
 /secret for hair/i
 
 /see proof/i
+
+/sharpen.{1,10}memory/i
 /shrink.{1,10}belly/i
+/shocking.{1,10}brain/i
+
 /sign of a stroke/i
 
 /silence knee pain/i
@@ -371,7 +396,7 @@
 
 /simple at.?home/i
 /simple drink helps/i
-/simple habit that/i
+/simple habit (destroys|that)/i
 /simple oral flush/i
 /simple way to reverse/i
 
@@ -442,7 +467,7 @@
 /watch.{1,10}before they delete/i
 
 /wants.{1,10}burn fat/i
-/weird stretch/i
+/weird.{1,10}(remedy|stretch)/i
 
 /with.{1,10}simple drink/i
 /wrinkle.?free.{1,10}skin/i

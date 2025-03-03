@@ -92,7 +92,10 @@
 
 /lendenstützkissen.{1,10}rückenkissen/i
 
+/(derila|klaudena).{1,15}entwickelt/i
 /(derila|klaudena).{1,15}(kissen|komfort|memory)/i
+
+/wir haben.{1,15}(derila|klaudena)/i
 
 /unser.{1,10}(lendenstützkissen|rückenkissen)/i
 
@@ -207,6 +210,7 @@
 /(beleuchtung|tischlampe).{1,10}fokussiert/i
 
 /(ideale|mit dieser|perfekte|unsere).{1,10}(tisch)?lampe/i
+/diese.{1,10}lampe.{1,10}macht/i
 
 /lösung.{1,10}perfektes arbeitslicht/i
 

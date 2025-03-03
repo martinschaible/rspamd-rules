@@ -21,7 +21,7 @@
 
 # C
 /create.{1,10}landing.?page/i
-/custom.{1,10}(home.?page|web.?site).{1,10}designs/i
+/custom.{1,10}(home.?page|web.?site).{1,10}(designing|designs?)/i
 
 # D
 /design.?developer/i
@@ -82,6 +82,8 @@
 /web.{1,10}(designing|development).{1,10}(offer|proposal)/i
 /web.{1,5}proposal/i
 /web re.?builder/i
+
+/web.?site.{1,10}design.{1,10}development/i
 
 /with a web.?site/i
 

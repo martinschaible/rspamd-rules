@@ -14,9 +14,6 @@
 # ==============================================================================
 
 # A
-/abonnement ist abgelaufen.{1,10}erneuern sie es jetzt/i
-/abonnement wird ausgesetzt/i
-
 /(aktualisieren?|aktualisierung).{1,10}(deine|sie ihrer?).{1,10}zahlungs.?(details|methode)/i
 
 # B
@@ -27,8 +24,7 @@
 # D
 
 # E
-/erneuern sie es jetzt/i
-/erneuern sie noch heute ihr.{1,15}abonnement/i
+/erfordert eine zahlung/i
 
 /es geht um ihr geld/i
 
@@ -41,6 +37,7 @@
 # H
 
 # I
+/ihr geld ist bereit/i
 /ihre zahlung ist fehlgeschlagen/i
 
 # J
@@ -75,6 +72,7 @@
 /verpassen sie keine inhalte.{1,10}zahlung aktualisieren/i
 
 # W
+/wichtige information zu ihrer zahlung/i
 
 # X
 

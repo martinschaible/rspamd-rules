@@ -3,15 +3,6 @@
 # Weight:   6.0
 # ==============================================================================
 
-# Special
-# ------------------------------------------------------------------------------
-/m-a-l-e/i
-/p\*nis/i
-
-#
-#
-#
-
 # Topics
 # ==============================================================================
 
@@ -22,8 +13,6 @@
 /brain.{0,10}(nutrient|power|scan|science|trick|waves)/i
 
 /cognitive.{0,10}(fix|health)/i
-/leaky.{0,10}brain/i
-/mind.{0,10}boost/i
 
 # Memory
 /memory.{0,10}(bean|boost(er)?|cure|fix(er)?|hack|enhancement|improver|improvement|laps(es)?|loss)/i
@@ -31,15 +20,9 @@
 /(boost|excellent|fading|focus|future|perfect|poor|restore|sharp|your).{0,10}memory/i
 
 /becoming.{0,10}forgetful/i
-/never.{0,10}forget/i
 /struggling.{0,10}remember/i
 
-# Blood pressure, Heart
-# ------------------------------------------------------------------------------
-/blood.{0,10}(clots|flow|glucose|pressure|sugar)/i
 /(balanced|deadly|high|your).{0,10}blood/i
-
-/sugar.{0,10}spike/i
 
 # Cleanse
 # ------------------------------------------------------------------------------
@@ -52,14 +35,11 @@
 # Detox
 # ------------------------------------------------------------------------------
 /(daily|gut|soup).{0,10}detox/i
-/detox your/i
-/detox.{0,10}solution/i
 
 # Diabetes
 # ------------------------------------------------------------------------------
 /(a1c|glucose).{0,10}(control|level|problems?|spike)/i
 
-/end.{0,10}type.{0,10}2/i
 /sugar.{0,10}(above|defender|disease|levels?|spikes?)/i
 
 /(control|green|high|low|normalize|normalizing|perfect).{0,10}(a1c|glucose)/i
@@ -71,15 +51,12 @@
 
 # ED, Erection, Potency
 # ------------------------------------------------------------------------------
-/ed.?problems?/i
-
 /(ed\s|enhancement|enlargement).{0,10}(gummie?s|news|treatment|solution)/i
 /(climax|erectile|libido|manhood)/i
 
 /(hard|iron).{0,10}erection/i
 /ed\s.{0,10}(fix|forever|no.?more|treatment)/i
 /(fix your|goodbye).{0,10}ed/i
-/get hard/i
 
 # Eyes, Vision
 # ------------------------------------------------------------------------------
@@ -90,8 +67,6 @@
 
 /(eye.?sight|vision).{0,10}(20.?20|boost|coach|enhancing|expert|fix|hack|help|loss)/i
 /(eye.?sight|vision).{0,10}(rescue|reset|restorer?||solution|supplement)/i
-
-/without.{0,10}glasses/i
 
 # Fungus, Nails
 # ------------------------------------------------------------------------------
@@ -127,16 +102,11 @@
 
 # Some merging is needed
 /ear.{0,10}(buzzing|care|comfort|humming|noises?|ringing|silencer|wax)/i
-/end.{0,10}noise/i
 
 /(buzz|noise).{0,10}free/i
 /(no more|stop).{0,10}ringing/i
 
-/hearing.{0,10}problem/i
-
-/tinnitus.{0,10}(gone|now|truth)/i
-
-/(hear(ing)?|tinnitus).{0,10}(aid|cure|fix|loss|memory|noises?|restorer?|solution|symptoms|warning)/i
+/hear(ing)?.{0,10}(aid|cure|fix|loss|memory|noises?|restorer?|solution|symptoms|warning)/i
 
 /(bad|poor|restore).{0,10}hearing/i
 
@@ -145,18 +115,8 @@
 
 /(irritating|strange).{0,10}(buzzing|sound)/i
 
-# Herpes
-# ------------------------------------------------------------------------------
-/(cure|remove).{0,10}herpes/i
-/herpes.{0,10}eliminator/i
-
 # Joints
 # ------------------------------------------------------------------------------
-/joints?.{0,10}(cure|(dis)?comfort|fix|gelatin|genesis|healed|hero|inflammation)/i
-/joints?.{0,10}(problems?|recovery|repair|saver|smoother|story)/i
-
-/(aching|better|grinding|painful|sore|swollen).{0,10}joints?/i
-
 /(achy|anti|chronic|reduce).{0,10}(inflammation|inflammatory)/i
 
 # Knee
@@ -173,9 +133,7 @@
 # ------------------------------------------------------------------------------
 /pain.{0,10}(flush|free|gone|indicator|killer|management|no.?more|quiz|remover|warning)/i 
 
-/(anti|ch?ronic|chrippling|ease|end|erase|joint|knee|managing|neck|neuropathic|nerve|reduces|swollen).{0,10}pain/i
-
-/silence pain in.{1,10}seconds/i
+/(anti|ch?ronic|chrippling|ease|end|erase|knee|managing|neck|neuropathic|nerve|reduces|swollen).{0,10}pain/i
 
 # Penis enlargment
 # ------------------------------------------------------------------------------
@@ -183,16 +141,11 @@
 /(bigger|buried|fuller).{0,10}(banana|elder|member|penis|stick|wood)/i
 /(grow your|hard|iron.?clad|inch|instant|soft|stiff|thicker).{0,10}(banana|elder|member|penis|stick|wood)/i
 
-/(male|men|penis).{0,10}(enhancement|enlargement|growth|increase|solution)/i
-/male.{0,10}performance/i
+/(male|men|penis).{0,10}(enhancement|enlargement|growth|increase|performance|solution)/i
 
 /(fuller|harder|thicker).{0,10}stronger/i
 
-/(increase|enhance|ultimate).{0,10}(stamina|size)/i
-
-# Prostatitis
-# ------------------------------------------------------------------------------
-/(urin|pee).{0,10}leaks/i
+/(increase|enhance|ultimate).{0,10}size/i
 
 # Recepies
 # ------------------------------------------------------------------------------
@@ -211,7 +164,6 @@
 
 # Stretching
 # ------------------------------------------------------------------------------
-/stretch.{0,10}smarter/i
 /(hyperbolic|morning|one|second|simple).{0,10}stretch(ing)?/i
 
 # Teeth
@@ -288,6 +240,7 @@
 /\d (cup|tbsp)/i
 /\{1,2} minerals/i
 /120\/80/i
+/20\/20.{0,10}solution/i
 
 # A
 /aching.{0,10}points/i
@@ -336,7 +289,7 @@
 /bladder.{0,10}(leaks?|leakage|leaking|issues?|problems?)/i
 
 /bloat.{0,10}(free|solution)/i
-/blood.{0,10}(clot|sugar)/i
+/blood.{0,10}(clots?|flow|glucose|pressure|solution|sugar)/i
 
 /blue.{0,10}(pill|plant|replacement)/i
 
@@ -354,12 +307,16 @@
 /burn.{0,10}calories/i
 /(buzzing|hissing).{0,10}ears/i
 
+/breathe.{0,10}free(ly)?/i
+
 # C
-/carb.{0,10}(secrets?|tricks?)/i
 /calorie.{0,10}(booster|burn)/i
+/calcium.{0,10}boost/i
 
 /cancel(ed)?.{0,10}surgery/i
+
 /care.{0,10}secret/i
+/carb.{0,10}(secrets?|tricks?)/i
 
 /cbd.{0,10}(experts?|fruit|gummies|solution|therapy)/i
 
@@ -378,11 +335,14 @@
 
 /clogged.{0,10}(arteries|artery)/i
 /closed.{0,10}arteries/i
+
 /cognitive.{0,10}decline/i
 /compression.{0,10}sleeve/i
 /control.{0,10}cholesterol/i
 /counting.{0,10}calories/i
 /cortisol.{0,10}level/i
+
+/cure.{0,10}herpes/i
 
 # D
 /daily.{0,10}(burn|comfort|fatigue)/i
@@ -393,6 +353,8 @@
 /dead.{0,10}(drink|foods?|kidneys)/i
 /(dead|deep).{0,10}cleansing/i
 /dental.{0,10}(issues?|rescue)/i
+
+/detox.{0,10}(solution|your)/i
 
 /digestive.{0,10}(boost|help|reset|system)/i
 /digestion/i
@@ -412,12 +374,18 @@
 /eagle.{0,10}vision/i
 
 /eat.{0,10}(fruitme|me|this)/i
+/ed.?problems?/i
 /egyptian.{0,10}hack/i
 
 /ejaculation/i
 
 /embarassing.{0,10}leaks/i
+
+/end.{0,10}noise/i
+/end.{0,10}type.{0,10}2/i
+
 /energy.{0,10}without/i
+
 /erase.{0,10}cavities/i
 
 /(exotic|kitchen).{0,10}spice/i
@@ -429,6 +397,8 @@
 
 # F
 /fasting.{0,10}seeds/i
+
+/fat.{0,10}dissolving/i
 /fatigue.{0,10}bloating/i
 /fat(ty)?.{0,10}arteries/i
 
@@ -460,13 +430,16 @@
 /fuzzy.{0,10}drink/i
 
 # G
-/gut.{0,10}(fix|flush|health|repair|quiz)/i
+/get hard/i
+
+/glucose.{0,10}stabilizer/i
+
 /going.{0,10}viral/i
 
 /green.{0,10}oil/i
 /grow.{0,10}(hair|trick)/i
 
-/gut.{0,10}solution/i
+/gut.{0,10}(fix|flush|health|quiz|repair|solution)/i
 
 # H
 /hair.{0,5}(growth|loss|renewal|restoration|restorer?|thinning)/i
@@ -482,21 +455,25 @@
 /healing.{0,10}(massage|technology)/i
 /healthy.{0,10}(choice(es)?|digest|smile)/i
 
-/heart.{0,10}(attack|cells|health|disease|problems?|protection|risk)/i
+/hearing.{0,10}problem/i
+/heart.{0,10}(attack|cells|disease|health|helper|problems?|protection|risk)/i
 
-/herpes.{0,10}outbreak/i
+/herpes.{0,10}(eliminator|outbreak|talk)/i
 
 /hidden.{0,10}(danger|power|protein|risk|ritual|toxin)/i
 /high.{0,10}(cholesterol|sugar)/i
 
-/hip.{0,10}flexors?/i
+/hip.{0,10}(flexors?|muscles?)/i
 /hissing.{0,10}sounds?/i
 
 /home.{0,10}(recipe|treatment|with ease)/i
 /huge.{0,10}(belly|tummy)/i
 
+/hydration.{0,10}hack/i
+
 # I
 /immune.{0,10}system/i
+/improved.{0,10}brain/i
 /inflammation.{0,10}fix/i
 /insuline?/i
 /irritating.{0,10}noise/i
@@ -506,9 +483,12 @@
 
 # K
 /kidney.{0,10}fix/i
+/knee.{0,10}(inflammation|mistake)/i
 
 # L
 /leak.{0,10}free/i
+/leaky.{0,10}brain/i
+
 /leakage.{0,10}(fixer|prevention)/i
 /life.{0,10}(boost|pharmacy)/i
 
@@ -536,7 +516,7 @@
 /mental.{0,10}clarity/i
 
 /midnight.{0,10}bathroom/i
-/mind.{0,10}(barriers?|blow|clarity)/i
+/mind.{0,10}(barriers?|blow|boost|clarity)/i
 /mineral.{0,10}combination/i
 
 /miracle.{0,10}drops?/i
@@ -561,12 +541,13 @@
 
 /neck.{0,10}skin/i
 /nerves?.{0,10}(comfort|health|pain|recovery|repair|revival)/i
-/never eat/i
+
+/never.{0,10}(eat|forget)/i
 /new.{0,10}(energy|hair|research)/i
 
 /nightmare.{0,10}pee/i
 
-/no.{0,10}diet/i
+/no.{0,10}(diet|surgery)/i
 
 /nutrition.{0,10}tips?/i
 
@@ -579,9 +560,7 @@
 /pancreas.{0,10}reset/i
 
 /pee.{0,10}(control|leaks|stronger|out)/i
-/peeing/i
 
-/\bpecker$/i
 /pelvic.{0,10}recovery/i
 /penis.{0,10}(muscle|ritual)/i
 /perfect.{0,10}(sleep|smile)/i
@@ -598,17 +577,18 @@
 /posture.{0,10}fix/i
 
 /power.{0,10}(boost|shape|start)/i
-/powerful.{0,10}juice/i
+/powerful.{0,10}/fat.?burner|juice)/i
 
-/prescription/i
 /prepare now/i
 
 /promising.{0,10}therapy/i
 /proper.{0,15}detox/i
+/protein.{0,10}hack/i
 
 /purple.{1,10}powder/i
 
 # Q
+/quick.{1,10}technique/i
 
 # R
 /radiant{0,10}glow/i
@@ -616,11 +596,15 @@
 /red.{0,10}(berry|juice)/i
 /regain your/i
 /regenerate.{0,10}eyes?/i
+
 /remote.{0,10}pharmacy/i
-/remove.{0,10}toxin/i
+/remove.{0,10}(herpes|toxin)/i
+
 /renew.{0,10}ritual/i
+
 /repair.{0,10}(nerves|secret)/i
 /replace.{0,10}blue/i
+
 /restore.{0,10}cognition/i
 /reverse.{0,10}(aging|gum)/i
 
@@ -632,6 +616,7 @@
 # S
 /satisfaction.{0,10}solution/i
 /sciatica.{0,10}fix/i
+/scientists?.{0,10}reveals?/i
 
 /second.{0,10}tweak/i
 /secret.{0,10}(revealed|weapon)/i
@@ -642,19 +627,20 @@
 /sharp(er)?.{0,10}(ears|mind|thinking)/i
 
 /sight.{0,10}care/i
-/silence.{0,10}buzzing/i
+/silence.{0,10}(buzzing|pain)/i
 /silent.{0,10}danger/i
 
 /sleep.{0,10}position/i
 
 /(slim|skinny).{0,10}waist/i
 /slim.{0,10}drink/i
-/slimming/i
 /snore.{0,10}stop/i
 
 /spiky.{0,10}fruit/i
 
 /strange.{0,10}acid/i
+/stretch.{0,10}smart(er)?/i
+
 /stay.{0,10}(asleep|hard|slim)/i
 /stinky.{0,10}breath/i
 /stop.{0,10}(breating|brushing|flossing)/i
@@ -665,10 +651,11 @@
 
 /stuck.{0,10}poop/i
 
-/sugar.{0,10}(free|traps|trick)/i
+/sugar.{0,10}(free|spike|traps|trick)/i
 /super.{0,10}water/i
-/surgeon.{0,10}(reveals|stamina)/i
+/surgeon.{0,10}reveals?/i
 /surgery.{0,10}canceled/i
+
 /sore.{0,10}back/i
 
 /stomach.{0,10}secret/i
@@ -704,7 +691,7 @@
 /unlock.{0,10}hips/i
 /unusual.{0,10}stretch/i
 /urinary.{0,10}(fix|help|incontinence)/i
-/urine.{0,10}leaks?/i
+/urine?.{0,10}leaks?/i
 
 # V
 /varicose.{0,10}veins/i
@@ -724,10 +711,11 @@
 /wellness.{0,10}insights/i
 
 /white.{0,10}carb/i
+/without.{0,10}glasses/i
+
 /womens?.{0,10}(intimacy|secret)/i
 /wonder.?bread/i
 /worst.{0,10}(breakfast|food|veggie)/i
-/wrinkles/i
 /wrinkle.{0,10}cream/i
 
 # X

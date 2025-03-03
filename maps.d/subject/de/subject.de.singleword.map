@@ -21,6 +21,7 @@
 
 # A
 /-abonnenment/i
+/abnehmmethode/i
 /abnehmrezept/i
 
 /^achtung$/i
@@ -102,6 +103,7 @@ fettverbrenner/i
 /^finanzierung$/i
 /finanzierung\.\./i
 /finanzierung\.$/i
+/finanzierung,/i
 /finanzierungsangebot/i
 
 /finanziellen \d/i
@@ -163,10 +165,11 @@ fettverbrenner/i
 
 /investmentfonds/i
 
-/investitionsbeihilfe/i
-/investitionsentschädigung/iu
-/investitionsspende/i
-/investitionszuschuss/i
+/investitions.?beihilfe/i
+/investitions.?entschädigung/iu
+/investitions.?spende/i
+/investitions.?vorschlag/i
+/investitions.?zuschuss/i
 # J
 
 # K
@@ -174,7 +177,9 @@ fettverbrenner/i
 /kredit\?/i
 /kredit \d/i
 /kredite?!/i
-/-kredit/i
+#/-kredit/i
+
+/kochgeschirr/i
 
 /konto.?aktualisierung/i
 /kontoaktivitäts.?aktualisierung/iu
@@ -187,9 +192,7 @@ fettverbrenner/i
 /kooperation,/i
 
 /^kreditangebot$/i
-/^kreditangebot.?\?/i
-/^kreditangebot.?-/i
-/kreditangebot @/i
+/^kreditangebot.?(@|!|\?|-)/i
 
 /kreditkartenbenachrichtigung/i
 
@@ -212,6 +215,8 @@ fettverbrenner/i
 
 # N
 /nachricht#/i
+/nagelpilz\?/i
+
 /niedrigzinskreditangebot/i
 /niedrigzinskredite?/i
 
@@ -247,6 +252,7 @@ fettverbrenner/i
 
 # R
 /reichtumsmoglichkeit/i
+/reinigungsroutine/i
 
 # /räumungsverkauf/i
 /ruckerstattung/i
@@ -260,6 +266,7 @@ fettverbrenner/i
 /schlankpaket/i
 /schmutzfangläufer/iu
 /schmutzfangmatten?/i
+/schreibtischbeleuchtung/i
 /schwerlastregale?/i
 
 /sehvermogen/i
@@ -291,7 +298,6 @@ fettverbrenner/i
 
 /stufenmatten/i
 
-
 # T
 /tagesgeld(er)?/i
 /tagesgeld.?konten/i
@@ -309,6 +315,7 @@ fettverbrenner/i
 /uberprufen/i
 
 /^überprüfung$/iu
+/^Überprüfung$/u
 
 /umfrage:/i
 /umfragebelohnung/i
@@ -337,6 +344,7 @@ fettverbrenner/i
 # X
 
 # Y
+/verschlüsselungsumstellung/iu
 
 # Z
 /zahlungsauftritt/i

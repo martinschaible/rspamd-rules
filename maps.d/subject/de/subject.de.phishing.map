@@ -14,7 +14,7 @@
 # ==============================================================================
 
 # A
-/abonnement ist abgelaufen.{1,10}reaktivieren sie/i
+/aktualisierung der.{1,15}teilnahmebedingungen/i
 
 /anspruch.{1,15}steuer(rück)?erstattung/i
 /antworten sie innerhalb von/i
@@ -65,8 +65,6 @@
 /holen sie sich.{1,15}rückerstattung/iu
 
 # I
-/ihr geld ist bereit/i
-
 /(ihr|lhr).{1,20}ist nicht mehr (gültig|gultig)/i
 
 /ihre rechnung wurde zweimal bezahlt/i
@@ -78,7 +76,6 @@
 # K
 
 # L
-/lieferung jetzt bestätigen/i
 
 # M
 
@@ -96,11 +93,15 @@
 # Google Speicher
 /reaktivieren sie ihre dienste/i
 
+/(rück)?erstattung.{1,10}angefordert/i
 /(rück)?erstattung.{1,10}ihre zugreise/iu
 /(rück)?erstattung.{1,10}ihres beitrags/iu
 /(rück)?erstattung.{1,10}ist (online|verfügbar)/iu
 /(rück)?erstattung.{1,10}(jetzt|möglich)/iu
 /(rück)?erstattung.{1,10}zur verfügung/iu
+
+# Sample: Rundschreiben X2ZI-M29U
+/rundschreiben.?[0-9a-z]{4}-[0-9a-z]{4}/i
 
 # S
 /sie haben anspruch.{1,15}(rück)?erstattung/iu

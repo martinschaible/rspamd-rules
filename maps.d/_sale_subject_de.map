@@ -153,10 +153,7 @@ grill.{1,10}statt.{1,10}nur/i
 /perfekt.{1,15}beleuchtet/i
 /perfektes.{1,15}licht/i
 
-/(die|perfekte).{1,10}lampe/i
 /lampe.{1,15}(arbeiten|produktivität)/iu
-/smarte.{1,15}beleuchtung/i
-
 
 # Learning languages
 # ------------------------------------------------------------------------------
@@ -302,8 +299,6 @@ grill.{1,10}statt.{1,10}nur/i
 
 # Trolley & Tools
 # ------------------------------------------------------------------------------
-/(werkstatt|werkzeug).{0,10}(trolley|wagen)/i
-
 /werkzeuge?.{1,10}(die begeistern|komplettes set|schnäppchen)/i
 
 /werkzeug.?set.{1,15}(dramatisch|stark) reduziert/i

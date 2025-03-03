@@ -100,8 +100,14 @@
 /^ard.?zdf$/i
 /ard.?zdf.?(radio|service)/i
 
+# 27.02.25 - Apple Support
+/apple サポート/i
+
 # 20.02.25 - ANA Card
 /ANAカード/
+
+# 01.03.25 - EPOS Card
+/エポスカード/i
 
 # 01.02.25 - LIFE CARD Co., Ltd.
 /ライフカ/i
@@ -115,6 +121,8 @@
 
 # B
 # ------------------------------------------------------------------------------
+/bahnbonus.{0,10}service/i
+
 /baumarkt.?(™|®|©)$/i
 
 /^bosch.?(™|®|©)$/i
@@ -199,7 +207,7 @@
 /fedpol/i
 
 /fedex.?(express|ups)/i
-/fedex.{0,10}umfrage/i
+/fedex.{0,10}(kundendienst|umfrage)/i
 /fedex.{0,15}(fedex|helpdesk|support)/i
 
 # G
@@ -306,6 +314,9 @@
 /nflx/i
 
 /n e t f i i x/i
+
+/membership.{0,10}netflix/i
+
 /nespresso.{0,10}(club|deutschland|kundenservice|schweiz|team)/i
 /nespresso.{0,5}(ch|de)$/i
 
@@ -335,6 +346,8 @@
 
 /^post\.ch$/i
 /^postb$/i
+/post\.ch ag/i
+
 /postag/i
 /post(ch|de)/i
 /post ch$/i
@@ -507,6 +520,9 @@
 
 # Y
 # ------------------------------------------------------------------------------
+
+# 27.02.25 - Yokohama Bank Card
+/横浜バンクカード/i
 
 # Z
 # ------------------------------------------------------------------------------

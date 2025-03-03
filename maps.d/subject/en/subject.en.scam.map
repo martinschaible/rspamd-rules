@@ -35,12 +35,18 @@
 /business.{1,10}discussion/i
 
 # C
+/claim now/i
+/claim your.{1,10}funds now/i
+
 /compensation.{1,10}\d{2,4}(\.|,)?\d{3,4}/i
 /compensation.{1,10}(approval|donation|payment)/i
 
 /^confidential information/i
+/confidential.{1,10}investment/i
 /congrats your e.?mail/i
+
 /covid.{1,10}relief.?package/i
+/covid.{1,10}support funding/i
 
 # D
 /discussion.{1,10}request/i
@@ -66,24 +72,23 @@
 # I
 /i need your.{1,10}assistance/i
 
+/illuminati.{1,10}(membership|recruiter|society)/i
+/(great|the).{1,10}illuminati/i
+
 /immediate.{1,10}transfer of your.{1,10}(dollars?|euro?|usd|€|\$|£)/i
 /important.{1,10}million/i
 /important.{1,10}(beneficiary|proposal|proposition)/i
 
-/inheritance to you/i
-
-/inquiry.{1,10}investment/i
-/inquiry.{1,15}about your products/i
+/inheritance (for|to) you/i
 
 /internet crime complaint center/i
 
 /invest in your.{1,10}(business|company|project)/i
 
-/investment.{1,10}(deal|funds|partnership)/i
-/investment.{1,10}fund of/i
-/investment.{1,10}(business|proposal)/i
+/investment.{1,10}(business|deal|funds|inquiry)/i
+/investment.{1,10}(partnership|proposal|proposition|relocation)/i
 
-/^investment.{1,10}partner(ship)?$/i
+/investment.{1,10}fund of/i
 
 # J
 
@@ -98,6 +103,7 @@
 
 # O
 /opportunity.{1,10}you.{1,10}afford to miss/i
+/opportunity.{1,10}invest/i
 
 # P
 
@@ -129,7 +135,7 @@
 /trust you with this/i
 
 # U
-/unclaimed funds/i
+/unclaimed.{1,10}(family estate|funds)/i
 
 /urgent assistance required/i
 /urgent.{1,20}transaction/i
@@ -153,6 +159,7 @@
 /you have.{1,5}\d{1,2}.{1,5}pending/i
 
 /your.{1,10}atm.?card/i
+/your.{1,10}claim today/i
 /your.{1,10}e?.?mail.{1,15}has.{1,15}been.{1,15}selected/i
 /your.{1,10}e?.?mail.?id/i
 
@@ -161,5 +168,9 @@
 
 /your.{1,10}unpaid funds/i
 /your.{1,10}yellow pages/i
+
+/your.{1,10}compensated/i
+/your.{1,10}(compensation|grant).{1,10}payment/i
+/your.{1,10}payment.{1,10}(available|approved)/i
 
 # Z

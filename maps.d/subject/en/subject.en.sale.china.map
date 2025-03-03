@@ -30,6 +30,7 @@
 
 # C
 /capacitor.{1,10}(resistor|special) offer/i
+/capacity.{1,10}fuses from/i
 
 /chips.{1,10}competitive prices/i
 
@@ -58,9 +59,13 @@
 
 # F
 /fiberglass fabric from/i
+
+/find.{1,10}tooling maker/i
 /find your.{1,15}supplier/i
 
 /freight services.{1,10}tailored/i
+
+/from china to/i
 
 # G
 /good.{1,10}pcba?.?supplier/i
@@ -100,9 +105,11 @@
 /moulding.{1,10}services (from|in) china/i
 /moulding.{1,10}supplier/i
 
-/(mold|moulds) (maker|construction)/i
+/(mold|moulds).{1,10}(maker|construction)/i
+/(mold|moulds).{1,10}plastic parts/i
 
 # N
+/new product catalog/i
 
 # O
 /oem.{1,10}(plastic|products?|service|supplier)/i
@@ -117,12 +124,13 @@
 /(parts|source).{1,10}manufacturer/i
 
 /(pcba?|printed.?circuit.?board).{1,20}(assembly|business|cooperation|enquiry|fabrication|factory)/i
-/(pcba?|printed.?circuit.?board).{1,10}(manufacturer?|manufacturing|needs|provider|service)/i
+/(pcba?|printed.?circuit.?board).{1,10}(manufacturer?|manufacturing|needs|provider|service|solutions?)/i
 
 /(pcba?|printed.?circuit.?board).{1,10}factory (from|in) china/i
 /(pcba?|printed.?circuit.?board).{1,10}supplier for/i
 
 /plastic.?injection.{1,10}mould.?maker/i
+/plastic.?tmold.{1,10}making/i
 /plastic.?tooling.{1,10}services?/i
 
 /prototype manufacturer?/i

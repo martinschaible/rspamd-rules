@@ -29,15 +29,17 @@
 # Brand
 /e.?bikes?.{1,10}city voyager/i
 /der.{1,10}city voyager/i
+/fat.?tire e.?bike/i
 
 /mit einem.{1,10}(e.?bike|elektro.?moped)/i
 
-/(bestes?|entdecken|faltbar|leistungsstark|modernen|neuesten).{1,10}(e.?bike|elektro.?moped)/i
+/(bestes?|entdecken|faltbar|ideale|leistungsstark|modernen|neuesten).{1,10}(e.?bike|elektro.?moped)/i
 /(perfektes?|richtigen|stylische|tragbare).{1,10}(e.?bike|elektro.?moped)/i
 
 /retro.?cruiser.{1,5}e.?bike/i
 /moped.{1,5}(cruiser|e.?bikes?)/i
-/moped.{1,5}style e.?bikes/i
+/moped.{1,15}e.?bikes?/i
+/moped style/i
 
 /metro.{1,5}rider/i
 
@@ -96,6 +98,7 @@
 /derila.{1,10}kissen/i
 
 /die kulis/i
+/diese.{1,10}lampe/i
 
 # E
 /edelstahl.{0,10}(briefkasten|briefkästen)/i
@@ -104,7 +107,7 @@
 
 /energiekosten um.{1,10}senkt/i
 
-/erleuchte.{1,10}arbeitsplatz/i
+/erleuchte.{1,15}(arbeitsplatz|home|office)/i
 /exklusives angebot/i 0.25
 
 # F
@@ -131,13 +134,18 @@
 /kulis mit ihrem/i
 
 # L
+/(innovativen?|perfekte|smarte).{1,10}lampe/i
+
 /lebensverändernde.{1,10}(wasser)?.?flasche/i
 
 /led.{1,10}feuchtraumleuchte/i
 
+/leitern?.{1,10}(leicht|handlich|professionell)/i
+
 # M
 /massage.?(sessel|stuhl|stühle).{1,15}(sessel|stuhl|stühle)/i
 
+/mehr licht.{1,10}mehr/i
 /mit diesem.{1,15}kissen/i
 
 /mitarbeiter für.{1,15}(logistik|produktion|verarbeitung)/i
@@ -166,11 +174,16 @@
 
 /stabile.{1,15}regale?/i
 
+/revolutionieren sie.{1,10}heute/i
+
 # S
+/schlechte.{1,10}beleuchtung/i
 /schöne.{1,10}zähne/i
 
 /sie ihr auto verkaufen/i
 /sie ihren online.?ruf/i
+
+/smarte.{1,15}beleuchtung/i
 
 /sprechen.{1,10}problemlos.{1,10}sprachen/i
 
@@ -180,6 +193,8 @@
 # T
 /\d{2,4}.{1,10}teiliges.{1,15}set/i
 /teiliges werkzeug.?set/i
+
+/teleskop.{1,10}profi.?leitern?/i
 
 /testen.{1,10}hörgeräte/iu
 
@@ -195,6 +210,8 @@
 
 # W
 /waschbürste.{1,20}teleskop/i
+
+/(werkstatt|werkzeug).{0,10}(trolley|wagen)/i
 
 /werkzeug.?set.{1,20}(für|mit|teilen)/i
 /werkzeug.?set.{1,20}jetzt sichern/i

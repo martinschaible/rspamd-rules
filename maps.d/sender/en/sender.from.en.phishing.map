@@ -30,6 +30,7 @@
 
 /i\.?t (admin|notification)/i
 
+/cpanel.{0,10}webmail/i
 /helpdesk-/i
 /mail.?(admin|server)/i
 
@@ -52,10 +53,10 @@
 
 # C
 /car emergency kit/i
-/claim.{0,10}free/i
+/claim.{0,10}(free|refund)/i
+
 /^customer.{0,10}(feedback|support)/i
 
-/_confirmation/i
 /confirmation.{0,10}needed/i
 
 # D
@@ -109,10 +110,14 @@
 # R
 /recommended.{0,10}tea/i
 
+/refund.{0,10}support/i
+
 /rewards$/i
 /rewards.{0,10}team/i
 
 # S
+/security.{0,10}alert/i
+
 /server.?(admin|support|update)/i
 
 /service.{0,10}notifications?/i

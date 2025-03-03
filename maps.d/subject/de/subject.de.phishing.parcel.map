@@ -23,6 +23,9 @@
 # Sample: #CH2038709
 /#ch\d{1,10}/i
 
+# 01.03.25 - Sample: 01-03-2025 CH-924141250
+/^\d{1,2}-\d{1,2}-\d{2,4}.{1,5}ch-\d{5,20}/i
+
 # A
 /adresse.{1,15}lieferung erforderlich/i
 
@@ -86,8 +89,12 @@
 # L
 /lieferdetails.{1,10}um die lieferung/i
 
+/(lieferung|versand).{1,10}jetzt bestätigen/i
+
 /(lieferung|versand).{1,10}(ausstehende|unbezahlte).{1,10}(versandkosten|zollgebühren)/iu
 /(lieferung|versand).{1,10}ist angehalten/i
+
+/live verfolgen.{1,10}(paket|sendung)/i
 
 # M
 /maßnahmen zu ihrem paket/i
@@ -183,5 +190,7 @@
 /zustellung ansteht/i
 /zustellung.{1,25}bestätigen sie/iu
 /zustellung.{1,25}(ausstehend|fehlgeschlagen)/i
+
+/zollgebühr(en)? für ihre?.{1,15}(paket|sendung).{1,10}fällig/iu
 
 /zwischenlager erhalten/i
