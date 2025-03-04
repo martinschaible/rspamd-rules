@@ -25,7 +25,7 @@
 /(dear|greetings?|good day|hello|hi\b).{1,15}(agency|beneficiary|engineer|manager|owner|purchasing)/i
 /(dear|greetings?|good day|hello|hi\b).{1,15}(e?.?mail|domain.?name|site|web)/i
 /(dear|greetings?|good day|hello|hi\b).{1,15}(business|investment)/i
-/(dear|greetings?|good day|hello|hi\b).{1,15}managing director/i
+/(dear|greetings?|good day|hello|hi\b).{1,15}(managing).?director/i
 
 /(dear|greetings?|good day|hello|hi\b).{1,10}apologize for sending you/i
 /(dear|greetings?|good day|hello|hi\b).{1,10}from.{5,35}the.{1,15}manager/i
