@@ -95,7 +95,7 @@
 
 /(better|bone|dangerous).{0,10}health/i
 
-/(avoid|drink).{0,10}(cup|this)/i
+/drink.{0,10}(cup|this)/i
 
 # Hearing, Tinnitus
 # ------------------------------------------------------------------------------
@@ -257,8 +257,6 @@
 
 /artery.{0,10}(cure|health|plaque)/i
 /arthritis.{0,10}gone/i
-
-/avoid.{0,10}(blueberries|kegels|veggies|zink)/i
 
 # B
 /(bad|big|poor|weak).{0,10}bladder/i
