@@ -98,6 +98,8 @@
 /manufacturer of.{5,25}since/i
 /manufacturer from.{1,10}china/i
 
+/microchip parts request/i
+
 /multilayer (pcba?|printed.?circuit.?board).{1,10}manufacturing/i
 /multiple freight solutions/i
 
@@ -135,6 +137,7 @@
 /plastic.?tmold.{1,10}making/i
 /plastic.?tooling.{1,10}services?/i
 
+/product.{1,10}machining service/i
 /prototype manufacturer?/i
 
 # Q
