@@ -25,7 +25,7 @@
 /(dear|greetings?|good day|hello|hi\b).{1,15}(agency|beneficiary|engineer|manager|owner|purchasing)/i
 /(dear|greetings?|good day|hello|hi\b).{1,15}(e?.?mail|domain.?name|site|web)/i
 /(dear|greetings?|good day|hello|hi\b).{1,15}(business|investment)/i
-/(dear|greetings?|good day|hello|hi\b).{1,15}managing director/i
+/(dear|greetings?|good day|hello|hi\b).{1,15}(managing).?director/i
 
 /(dear|greetings?|good day|hello|hi\b).{1,10}apologize for sending you/i
 /(dear|greetings?|good day|hello|hi\b).{1,10}from.{5,35}the.{1,15}manager/i
@@ -47,6 +47,8 @@
 /dear.{1,25}this is.{5,25}from/i
 
 /dear.{1,10}purchase.{1,10}(department|manager)/i
+
+/dear.{1,10}(madam|purchaser|sir).{1,15}are you looking/i
 /dear.{1,10}(madam|purchaser|sir).{1,15}glad to (contact|connect|know|write)/i
 /dear.{1,10}(madam|purchaser|sir).{1,15}please find attached/i
 /dear.{1,10}(madam|purchaser|sir).{1,15}you interested in/i
@@ -85,6 +87,8 @@
 /(hello|hi).{5,35}from.{5,35}(in)? (china|india|ukraine)/i
 /(hello|hi).{1,10}i am.{1,10}professional/i
 /(hello|hi).{1,10}glad to (contact|connect|know|write)/i
+
+/(hello|hi).{5,35}i hope this e?.?mail meets you/i
 
 /hi.?sir/i
 /hi there.{1,10}i hope this.{1,10}message/i

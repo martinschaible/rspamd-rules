@@ -26,6 +26,8 @@
 /(quotation|quote).{0,25}\.(7z|gz|html|r11|r16|rar|tar|tgz|xla|xls|zip)/i
 /(receipt|request).{0,25}\.(7z|gz|html|r11|r16|rar|tar|tgz|xla|xls|zip)/i
 
+/(bestell|bestätigung).{0,25}\.(7z|gz|html|r11|r16|rar|tar|tgz|xla|xls|zip)/i
+
 # Letter of Intent
 /loi.{0,5}\.(7z|gz|html|r11|r16|rar|tar|tgz|xla|xls|zip)/i
 
@@ -101,6 +103,8 @@
 
 /request.?for/i
 
+/^rfq-/i
+
 /stock.{0,10}offer/i
 /swift.{0,10}message/i
 
@@ -118,6 +122,7 @@
 # Extensions
 # ------------------------------------------------------------------------------
 /\.001/i
+/\.arj/i
 /\.do$/i
 /\.(r11|r16|r19)/i
 /\.tbz2/i

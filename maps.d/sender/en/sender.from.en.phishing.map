@@ -26,7 +26,7 @@
 /(e?.?mail|webmail).{0,5}(admin|manager|notice|server|support|team)/i
 
 /admin.?it$/i
-/admin.?updates/i
+/admin.?(notification|updates/i
 
 /i\.?t (admin|notification)/i
 
@@ -35,6 +35,9 @@
 /mail.?(admin|server)/i
 
 /^support.?(client|desk|team)$/i
+
+#
+/microsoft.{0,10}admin/i
 
 #
 #
@@ -61,6 +64,8 @@
 
 # D
 /domain.{0,10}support/i
+
+/\| de$/i
 
 # E
 /exclusive.{0,10}offers/i

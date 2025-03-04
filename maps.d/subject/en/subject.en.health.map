@@ -95,7 +95,8 @@
 /avoid this for/i
 
 /avoid.{1,10}heart attack/i
-
+/avoid this.{1,10}(breakfast|food)/i
+ 
 # B
 /backpine relief/i
 /balanced.{1,10}blood pressure/i
@@ -229,6 +230,8 @@
 /focus.{1,10}memory/i
 /foods? that fight/i
 /follow these steps at/i
+
+/for.{1,10}slim belly/i
 /for.{1,10}weight.?loss/i
 
 /fruit that fights/i
@@ -252,6 +255,7 @@
 /heart attack.{1,10}(risk by|warning)/i
 /heart.{1,10}fix/i
 
+/helps fight.{1,10}diabetes/i
 /here is the fix/i
 
 /hgh.{1,10}now legal/i
@@ -318,6 +322,8 @@
 /naturally with this/i
 
 /high.{1,10}blood.{1,10}pressure/i
+
+/no joint pain/i
 /no surgery needed/i
 
 # O
@@ -382,6 +388,7 @@
 
 /secret to.{1,15}fat.?burning/i
 /secret for hair/i
+/secret will.{1,15}your/i
 
 /see proof/i
 
@@ -450,6 +457,8 @@
 
 /trick melts.{1,10}fat/i
 /trick to end.{1,15}pain/i
+
+/trim your.{1,10}waistline/i
 
 /(try|this).{1,10}simple.{1,10}nutrient/i
 

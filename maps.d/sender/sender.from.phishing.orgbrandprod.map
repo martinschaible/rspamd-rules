@@ -74,6 +74,7 @@
 /a.d.a.c/i
 /a\.d\.a\.c/i
 
+/adac_/i
 /adac.?202\d/i
 /adac.{0,10}(deutschland|exklusiv|karten.?service|kreditkarte|mitglieder|support)/i
 
@@ -286,6 +287,8 @@
 /meta for business/i
 
 /(metamask|microsoft|migros).?(™|®|©)$/i
+
+/microsoft ads/i
 
 /MIGROS/
 

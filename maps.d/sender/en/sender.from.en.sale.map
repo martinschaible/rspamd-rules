@@ -40,7 +40,7 @@
 /dog.{0,5}(behaviour|trainers)/i
 
 /don.?t miss out/i
-/door.{0,10}(camera|ringer)/i
+/door.{0,10}(camera|ringer|training)/i
 
 /drone.?x/i
 /(4k|8k|raptor|smarty?).{0,10}drone/i
@@ -160,6 +160,8 @@
 
 # U
 /ultimate.{0,10}offers?/i
+/ultimate.{0,10}dog/i
+
 /unlimited.{0,10}iptv/i
 
 # V
