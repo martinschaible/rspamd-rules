@@ -95,7 +95,7 @@
 /(lieferung|versand).{1,10}(ausstehende|unbezahlte).{1,10}(versandkosten|zollgebühren)/iu
 /(lieferung|versand).{1,10}ist angehalten/i
 
-/live verfolgen.{1,10}(paket|sendung)/i
+#/live verfolgen.{1,10}(paket|sendung)/i
 
 # M
 /maßnahmen zu ihrem paket/i
