@@ -158,7 +158,6 @@ Folder structure:
      |   |- subject.de.scam.bignumbers.map           |
      |   |- subject.de.scam.donation.map             |- multimap.subject.scam.conf
      |   |- subject.de.scam.order.map                |
-*    |   |- subject.de.scam.payment.map              |
      |   |- subject.de.scam.winning.map             -/
      |   |- subject.de.singleword.map               -\- multimap.subject.conf
      |   |- subject.de.singleword.ucase.map         -/
