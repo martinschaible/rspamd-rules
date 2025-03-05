@@ -14,8 +14,15 @@
 
 /ihnen.{1,10}\d{3,4}(\.|,)?\d{3,4}.{0,5}(dollars?|euro?|usd|€|\$|£).{1,10}zu spenden/i
 
-/sie erhalten.{1,10}entschädigung.{1,15}\d{2,4}(\.|,)?\d{3,4}.{0,5}(dollars?|euro?|usd|€|\$|£)/iu
-/sie haben eine spende.{1,15}\d{2,4}(\.|,)?\d{3,4}/i
+/sie.{1,10}erhalten.{1,10}entschädigung.{1,15}\d{2,4}(\.|,)?\d{3,4}.{0,5}(dollars?|euro?|usd|€|\$|£)/iu
+
+/sie.{1,10}haben eine spende.{1,15}\d{2,4}(\.|,)?\d{3,4}/i
+
+/sie.{1,10}(haben|ihre).{1,15}(dollar|euro?|gbp|usd|€|\$|£).{1,10}(ausgewählt|erhalten|gewonnen)/i
+/sie.{1,10}(haben|ihre).{1,15}millionen.{1,10}(ausgewählt|erhalten|gewonnen)/i
+
+/sie.{1,15}(dollar|euro?|gbp|usd|€|\$|£).{1,10}spende erhalten/i
+/sie.{1,15}millionen.{1,10}spende erhalten/i
 
 # Lottery
 # ------------------------------------------------------------------------------

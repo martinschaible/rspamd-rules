@@ -175,4 +175,9 @@
 /your.{1,10}(compensation|grant).{1,10}payment/i
 /your.{1,10}payment.{1,10}(available|approved)/i
 
+# Funds
+/your.{1,10}fund$/i
+/your.{1,10}funds?.{1,15}(approved|has been|ready for|released|payout)/i
+/your.{1,10}funding notice/i
+
 # Z
