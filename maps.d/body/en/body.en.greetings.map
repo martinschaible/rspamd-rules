@@ -50,6 +50,7 @@
 
 /dear.{1,10}(madam|purchaser|sir).{1,15}are you looking/i
 /dear.{1,10}(madam|purchaser|sir).{1,15}glad to (contact|connect|know|write)/i
+/dear.{1,10}(madam|purchaser|sir).{1,15}my name is.{5,35}i am from/i
 /dear.{1,10}(madam|purchaser|sir).{1,15}please find attached/i
 /dear.{1,10}(madam|purchaser|sir).{1,15}you interested in/i
 
