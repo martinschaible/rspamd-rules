@@ -10,9 +10,6 @@
 /from out mailing.?list.{1,10}do so by clicking/i
 /if you doesn?.?t.{1,10}like this.{1,10}please.{1,10}(click here|tab me)/i
 
-/stop future communications.{1,10}send post.?mail to/i
-/to opt.?out of this advertiser.{1,10}mailings.{1,10}(please|visit)/i
-
 /you can opt out by sending a letter to/i
 /you do not want.{1,10}receive.{1,10}e?.?mails from us.{1,10}you.{1,10}go right here/i
 /you enjoy receiving this message.{1,15}if you.{1,10}(prefer|rather) not to receive/i
@@ -22,36 +19,8 @@
 
 /you opted in to receive.{1,10}e?.?mails.{1,10}you requested information.{1,10}purchased/i
 
-# Unsubscribe, Zip Code
-# ------------------------------------------------------------------------------
-# Temporary - false/positives
-#/unsubscribe.{1,10}\d{5}/i
-
-/(ca|nv|ny).{1,5}us \d{5}.{1,10}unsubscribe.{1,10}here/i
-/(ca|nv|ny).{1,5}\d{5}.{1,10}you no longer wish to recieve/i
-/(ca|nv|ny).{1,5}\d{5}.{1,10}to update.{1,10}remove your contact information/i
-
-# Post Mail
-# ------------------------------------------------------------------------------
-/click here.{1,10}or write (us at|to)/i
-/newsletters.{1,10}click here.{1,15}send post.?mail to/i
-/stop recei?ving.{1,10}e?.?mail from us.{1,10}send post.?mail to/i
-/write to physical opt.?out.{1,10}address/i
-
-# Why somebody gets the advertising, which are lies
-# ------------------------------------------------------------------------------
-/received?.{1,10}e?.?mails?.{1,15}you requested information.{1,10}entered.{1,20}contests/i
-/received?.{1,10}e?.?mails?.{1,15}you registered.{1,10}accepted an invitation/i
-
-/this{1,10}e?.?mails?.{1,15}was sent to your e?.?mail.?address.{5,35}because you took one/
-
-#
-#
-#
-
 # Unclassified
 # ------------------------------------------------------------------------------
-/this e?.?mail should be considered as advertisement/i
 /with the message.{1,10}i am not interested/i
 /you are not interested.{1,10}we would appreciate it if you/i
 /your data has been collected in accordance with/i
