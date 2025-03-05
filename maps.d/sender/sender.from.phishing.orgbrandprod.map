@@ -52,12 +52,6 @@
 /(adac|metamask|netflix).{0,10}(info.?desk|notifications?|protection)/i
 /(adac|metamask|netflix).{0,10}(security|service|support|team|update|user|verification|wallet)/i
 
-# Rewards
-# ------------------------------------------------------------------------------
-/aldi.{0,15}support/i
-/kaufland.{0,10}(card|team)/i
-/microsoft.{0,10}rewards?/i
-
 #
 #
 #
@@ -90,7 +84,7 @@
 /ahv.?iv/i
 
 /aldi-/i
-/aldi.{0,15}deals?/i
+/aldi.{0,15}(deals?|support)/i
 
 /amaz0n/i
 
@@ -141,13 +135,15 @@
 /^coop$/i
 
 /^cpanel$/i
-/cpanel.{0,10}(servicea|team)/i
+/cpanel.{0,10}(service|team)/i
 
 # D
 # ------------------------------------------------------------------------------
 /danke.{0,5}kaufland/i
 
 /decathlon-/i
+
+/denner.{0,10}support/i
 
 /deutsche.?bnk/i
 /deutschen.?bahn/i
@@ -261,8 +257,9 @@
 # K
 # ------------------------------------------------------------------------------
 /kaufland.?(™|®|©)$/i
-/kaufland.{0,10}geschenk/i
+/kaufland.{0,10}(card|geschenk|team)/i
 /kaufland.{0,10}#\d{1,10}/i
+
 /kauf\.land/i
 /kauflandmarkt/i
 
@@ -289,6 +286,7 @@
 /(metamask|microsoft|migros).?(™|®|©)$/i
 
 /microsoft ads/i
+/microsoft.{0,10}rewards?/i
 
 /MIGROS/
 
@@ -488,6 +486,8 @@
 
 # V
 # ------------------------------------------------------------------------------
+/via cpanel/i
+
 /vcb.?card/i
 
 /visajapan/i
