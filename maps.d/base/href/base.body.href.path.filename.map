@@ -64,6 +64,8 @@
 /\/[a-z]{1,15}\.index\.html/i
 /\/[a-z]{0,10}keto[a-z]{0,10}\.html/i
 
+/\.xhtml/i
+
 # Domain name. path and file
 # ------------------------------------------------------------------------------
 # -> avoiding false/positives with this

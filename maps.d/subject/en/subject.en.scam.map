@@ -80,7 +80,8 @@
 /important.{1,10}million/i
 /important.{1,10}(beneficiary|proposal|proposition)/i
 
-/inheritance (for|to) you/i
+/inheritance.{1,10}(for|to) you/i
+/inheritance.{1,10}matter/i
 
 /internet crime complaint center/i
 

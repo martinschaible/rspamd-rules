@@ -85,7 +85,7 @@
 # ------------------------------------------------------------------------------
 /(health|quick).{0,10}(boost(er)?|fix|guide)/i
 
-/health.?(digest|research)/i
+/health.?(digest|now|research)/i
 
 /healthy?.{0,10}(alert|alternative|brain|circulation|foods?)/i
 /healthy?.{0,10}(guides?|gut|heart|heaven|hero|insights)/i
@@ -269,6 +269,9 @@
 /balanced.?(bp|glucose)/i
 /bald.{0,10}spot/i
 /baldness.{0,10}(cure|fix)/i
+
+/banana vs/i
+
 /basic.{0,10}protein/i
 
 /bed.?hack/i
@@ -354,7 +357,7 @@
 
 /detox.{0,10}(solution|your)/i
 
-/digestive.{0,10}(boost|help|reset|system)/i
+/digestive.{0,10}(boost|health|help|reset|system)/i
 /digestion/i
 /diy.{0,10}lipo/i
 
