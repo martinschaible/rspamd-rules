@@ -14,6 +14,14 @@
 # ------------------------------------------------------------------------------
 /simple-fax.{1,10}mail2fax/i
 
+# Ransom
+# ------------------------------------------------------------------------------
+/i know that you are.{1,10}pedophile/i
+/i recorded you/i
+/my perverted friend/i
+
+/you (got|have been) hacked/i
+
 #
 #
 #
@@ -30,10 +38,13 @@
 /beneficiary.{1,15}(e?.?mail|final|inquiry|notice)/i
 /(attn|attention|congratulations|dear|fund|hello|my|valued|you).{1,20}beneficiary/i
 
-/^(business|partnership).{1,10}(enquiry|inquiry|proposal)$/i
-/(business|partnership).{1,10}(assistance|offer|opportunity|proposal|proposition|response)/i
+/(business|partnership).{1,10}(enquiry|inquiry)/i
 
-/business.{1,10}discussion/i
+/(business|partnership).{1,10}(assistance|discussion|meeting request)/i
+/(business|partnership).{1,10}(offer|opportunity|proposal|proposition|response)/i
+
+/(business|partnership).{1,10}investment.{1,10}collaboration/i
+/(business|partnership).{1,10}project.{1,10}investment/i
 
 # C
 /claim now/i
@@ -41,6 +52,7 @@
 
 /compensation.{1,10}\d{2,4}(\.|,)?\d{3,4}/i
 /compensation.{1,10}(approval|donation|payment)/i
+/compensation.{1,10}has been approved/i
 
 /^confidential information/i
 /confidential.{1,10}investment/i
@@ -78,7 +90,8 @@
 
 /immediate.{1,10}transfer of your.{1,10}(dollars?|euro?|usd|€|\$|£)/i
 /important.{1,10}million/i
-/important.{1,10}(beneficiary|proposal|proposition)/i
+/important.{1,10}(beneficiary|business|proposal|proposition)/i
+/important.{1,10}grant notification/i
 
 /inheritance.{1,10}(for|to) you/i
 /inheritance.{1,10}matter/i
@@ -104,6 +117,8 @@
 # N
 
 # O
+/official.{1,10}grant notification/i
+
 /opportunity.{1,10}you.{1,10}afford to miss/i
 /opportunity.{1,10}invest/i
 
@@ -114,18 +129,28 @@
 /potential.{1,10}business.{1,10}opportunity/i
 
 /project.{1,10}financial.{1,10}support/i
+/project of interest/i
 /project.?workable/i
 
 /proposal.{1,10}(attached|for you)/i
 /proposal.{1,15}(collaboration|investment|material supply|project)/i
 /proposal\.\./i
 
+/(proposal|proposition).{1,10}(\.\.|!)/i
+/(proposal|proposition).{1,10}for (business|you)/i
+/(proposal|proposition).{1,10}work together/i
+
 /proposition.{1,10}business/i
 
 # Q
 
 # R
+/recovered.{1,10}lost crypto(currency)?/i
+/recover your money/i
+
 /reliable.{1,10}trustworthy/i
+
+/request for partnership/i
 
 # S
 /scammed.{1,15}compensation/i
@@ -139,10 +164,13 @@
 # U
 /unclaimed.{1,10}(family estate|funds)/i
 
-/urgent assistance required/i
+/urgent.{1,10}assistance required/i
 /urgent.{1,20}transaction/i
+/urgent.{1,15}(opportunity|partnership|proposal)/i
 
 # V
+/via atm.{1,10}(debit|visa).{1,10}card/i
+
 /viable business plan/i
 
 # W
@@ -157,10 +185,13 @@
 # Y
 /yellow.?pages.{1,15}registration/i
 
-# Mail
 /you have.{1,5}\d{1,2}.{1,5}pending/i
 
 /your.{1,10}atm.?card/i
+/your atm.{1,10}(debit|visa).{1,10}card/i
+
+/your approved.{1,10}atm/i
+
 /your.{1,10}claim today/i
 /your.{1,10}e?.?mail.{1,15}has.{1,15}been.{1,15}selected/i
 /your.{1,10}e?.?mail.?id/i
@@ -168,12 +199,16 @@
 /your.{1,10}company for vendor/i
 /your.{1,10}compensation has been/i
 
+/your.{1,15}immigration to the usa?/i
+
 /your.{1,10}unpaid funds/i
 /your.{1,10}yellow pages/i
 
 /your.{1,10}compensated/i
 /your.{1,10}(compensation|grant).{1,10}payment/i
 /your.{1,10}payment.{1,10}(available|approved)/i
+
+/your.{1,15}stock.?award/i
 
 # Funds
 /your.{1,10}fund$/i
