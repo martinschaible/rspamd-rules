@@ -79,7 +79,8 @@
 /my name is.{5,35}(attorney|business|consultant|investment|investor|politician|private|us soldier)/i
 /my name is.{5,35}(bank|development|general|international|investment|sales|senior|portfolio|purchasing|sales).{1,10}manager/i
 
-/my name is.{5,25}managing director/i
+/My name is.{5,25}a.{1,15}collector/i
+/my name is.{5,25}managing.{1,10}director/i
 /my name is.{5,35}(vendor|registration|solicitor)/i
 
 # With country

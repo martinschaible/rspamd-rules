@@ -3,13 +3,6 @@
 # Weight:   6.0
 # ==============================================================================
 
-# Topics
-# ==============================================================================
-
-#
-#
-#
-
 # Generic
 # ==============================================================================
 
@@ -22,6 +15,7 @@
 # D
 
 # E
+/e?.?mails?.{1,15}was sent to your e?.?mail.?address.{5,35}because you/i
 
 # F
 
@@ -48,10 +42,13 @@
 # Q
 
 # R
+/received?.{1,10}e?.?mails?.{1,15}you requested information.{1,10}entered.{1,20}contests/i
+/received?.{1,10}e?.?mails?.{1,15}you registered.{1,10}accepted an invitation/i
 
 # S
 
 # T
+/this.{1,10}e?.?mail.{1,10}be considered.{1,10}advertisement/i
 
 # U
 

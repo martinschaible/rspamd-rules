@@ -23,6 +23,13 @@
 
 # C
 
+# State and Zipcode
+/(ca|nv|ny).{1,5}us \d{5}.{1,10}unsubscribe.{1,10}here/i
+/(ca|nv|ny).{1,5}\d{5}.{1,10}you no longer wish to recieve/i
+/(ca|nv|ny).{1,5}\d{5}.{1,10}to update.{1,10}remove your contact information/i
+
+/click here.{1,10}or write (us at|to)/i
+
 # D
 
 # E
@@ -44,8 +51,10 @@
 # M
 
 # N
+/newsletters?.{1,10}click here.{1,15}send post.?mail to/i
 
 # O
+/opt.?out of this advertiser.{1,10}mailings.{1,10}(please|visit)/i
 
 # P
 /please manage your subscription.{1,20}\d{2,5}/i
@@ -55,6 +64,8 @@
 # R
 
 # S
+/stop future communications.{1,10}send post.?mail to/i
+/stop recei?ving.{1,10}e?.?mail from us.{1,10}send post.?mail to/i
 
 # T
 
@@ -70,6 +81,7 @@
 # V
 
 # W
+/write to physical opt.?out.{1,10}address/i
 
 # X
 
