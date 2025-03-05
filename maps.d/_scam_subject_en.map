@@ -33,10 +33,6 @@
 /(notice about|receive) your.{1,15}funds?/i
 /receive sum of.{1,10}(million|dollar|euro?|gbp|usd)/i
 
-/your funds?.{1,10}(has been approved|is released|ready for payout)/i
-/your fund$/i
-/your funding notice/i
-
 # Grant
 # ------------------------------------------------------------------------------
 /important.{1,10}grant notification/i
