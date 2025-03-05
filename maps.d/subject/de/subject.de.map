@@ -22,8 +22,6 @@
 # ==============================================================================
 
 # Numeric
-/\d{2,4}.{1,10}(bonus|freispiele|willkommensbonus)/i
-
 /\dx mehr lohn/i
 
 /(dollar|euro?|gbp|usd|€|\$|£).{1,10}dividendenauszahlung/i
@@ -41,8 +39,6 @@
 
 /bitte aufmerksam lesen/i
 
-/bonus.{1,10}wartet (auf sie|dich)/i
-
 # C
 /(ch|de|org).{1,10}ihr gültiges/iu
 
@@ -53,8 +49,6 @@
 /du hast glück/iu
 
 # E
-/eilmeldung.{1,10}bonus/i
-
 /entschuldigung sie bitte/i
 
 /erinnerung.{1,10}angebot/i
@@ -74,8 +68,6 @@
 /hier.{1,10}botschafter(in)?/i
 /hier klicken/i
 
-/holen sie sich.{1,10}bonus/i
-
 # I
 /ihr leben.{1,10}verändern werden/iu
 
@@ -91,7 +83,6 @@
 
 # L
 /letzte benachrichtigung!/i
-/liebster? im herrn/i
 
 # M
 /e?.?mail von ing\./i
@@ -108,9 +99,6 @@
 # R
 
 # S
-/sehr geehrter?!/i
-/sensationeller.{1,10}bonus/i
-
 /sind sie noch am leben/i
 
 # T

@@ -50,8 +50,6 @@
 # Generic
 # ==============================================================================
 
-/\d{2,3} spins/i
-
 # A
 /are you interested/i
 /are you still alive/i
@@ -63,7 +61,6 @@
 /confidential.{1,10}respond/i
 
 /claim your.{1,15}tokens?/i
-/claim your.{1,15}bonus/i
 
 /contact (him|me) now/i
 
@@ -81,9 +78,6 @@
 /follow up.{1,10}follow(ing)? up/i
 /follow up.{1,10}just (checking|following)/i
 /follow up.{1,10}(no reply|received)/i
-
-/free casino.{1,10}(await|games|thrill)/i
-/free spins/i
 
 /from.{1,3}(dr|mrs?|ms)\./i
 /from sister/i
@@ -143,8 +137,6 @@
 /peace be with you/i
 /peace to you/i
 
-/play free.{1,10}win big/i
-
 /please reply for.{1,10}(details|more)/i
 
 /(private|strictly|urgent).{1,10}confidential/i
@@ -160,8 +152,6 @@
 /reply for full details/i
 
 # S
-/spins on the house/i
-/spin.{1,10}win/i
 
 # T
 /this is not an advertisement/i
