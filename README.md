@@ -135,7 +135,7 @@ Folder structure:
      |   |- subject.de.map                            - multimap.subject.conf
      |   |- subject.de.adult.map                      - multimap.subject.adult.conf
      |   |- subject.de.finance.map                    - multimap.subject.finance.conf
-*    |   |- subject.de.gambling.map                   - multimap.subject.gambling.conf
+     |   |- subject.de.gambling.map                   - multimap.subject.gambling.conf
      |   |- subject.de.greetings.map                  - multimap.subject.conf
      |   |- subject.de.message.map                    - multimap.subject.conf
      |   |- subject.de.health.map                     - multimap.subject.health.conf
@@ -175,9 +175,9 @@ Folder structure:
 ```
 |- subject
      |- de
-     |   |- body.de.phishing.map                 -\
-     |   |- body.de.phishing.email.map                 -\
-     |   |- body.de.phishing.malware.map                 -\
+     |   |- body.de.phishing.map                    -\
+     |   |- body.de.phishing.email.map               |- multimap.body.phishing.conf
+     |   |- body.de.phishing.malware.map            -/
      |- en
      |   |- ....
 ```
