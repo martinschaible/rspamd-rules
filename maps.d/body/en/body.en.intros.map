@@ -48,6 +48,8 @@
 /i'?\s*a?m\b a.{5,25}web.?development/i
 /i'?\s*a?m\b.{5,25}i am (a|the).{1,15}manager/i
 
+/i'?\s*a?m\b.{5,25}the.{1,15}(biological|only).{1,15}(daughter|son)/i
+
 /i'?\s*a?m\b.{1,10}(miss|mrs?|ms).{5,25}contacting you/i
 
 /introduce our company/i
