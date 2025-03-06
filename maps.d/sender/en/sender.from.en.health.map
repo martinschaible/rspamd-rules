@@ -627,7 +627,7 @@
 /senior.{0,10}moments/i
 /severe.{0,10}pain/i
 
-/sharp(er)?.{0,10}(ears|mind|thinking)/i
+/sharp(er)?.{0,10}(ears|eyes|mind|thinking)/i
 
 /sight.{0,10}care/i
 /silence.{0,10}(buzzing|pain)/i
@@ -638,7 +638,9 @@
 /(slim|skinny).{0,10}waist/i
 /slim.{0,10}drink/i
 
-small.{0,10}stomach/i
+/small.{0,10}stomach/i
+/smile{0,10}fix/i
+
 /snore.{0,10}stop/i
 
 /spiky.{0,10}fruit/i
