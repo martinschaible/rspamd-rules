@@ -60,8 +60,8 @@ base
       |- base.body.img.path.map               *   |
       |- base.body.img.shortener.map          *  -/
 lists
-     |- list.tld.map                          *  -\- multimap.base.body.href.conf
-     |- list.url.shortener.map                *  -/
+  |- list.tld.map                             *  -\- multimap.base.body.href.conf
+  |- list.url.shortener.map                   *  -/
 
 ```
 
@@ -187,14 +187,12 @@ body
 
 Folder structure:
 ```
-|- whitelist
-     |- de
-     |   |- body.de.whitelist.map
-     |   |- subject.de.whitelist.map
-     |- en
-     |   |- ....
+whitelist
+  |- de
+  |   |- body.de.whitelist.map
+  |   |- subject.de.whitelist.map
+  |- en
+  |   |- ....
 ```
 
 More content will follow soon.
-
-<code style="color : green">text</code>
