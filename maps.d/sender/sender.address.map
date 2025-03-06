@@ -6,75 +6,41 @@
 # Weight:   6.0
 # ==============================================================================
 
-# Organisations
+# Topics
 # ==============================================================================
-/edeka@/i
-/swisspost@/i
 
 # TLD's 
-# ==============================================================================
+# ------------------------------------------------------------------------------
 
 # Russia
 /\.gov\.ru/i
 /\.ru\.com/i
 
-#
 /\.(biz|co)\.id$/i
 
 # The exotic ones
 /\.(agency|cam|fun|work|xyz)$/i
 
 # Health
-# ==============================================================================
+# ------------------------------------------------------------------------------
 # 10.01.25 - Last weapon. Rspamd isn't able to check the body.
 /uppsu@/i
 /sprayx/i
 
-# People
-# ==============================================================================
-
 # Phishing
-# ==============================================================================
+# ------------------------------------------------------------------------------
 
 # Japan (Temporary)
 /(ana|jcb|tepco)_net/i
-
 /(amex|epos|tepco|vpass)(-|_)(mail|net)\./i
-
-/accounts\.nintendo\.com/i
-
-/epos-card-/i
-
-# ANA Card
-/info\.ana-/i
-
-/aeon-email/i
-
-/apple-bank/i
-/\.apple-/i
-
-/card.?vpass/i
-
-/e-service\./i
-
-/mailxcg/i
-/mailweb/i
-
-/mastercard-/i
-/nexco\.co\.jp/i
-/psmbcarfd/i
-/smbc.?(card|email)/i
-/uuccard-/i
 
 /offer\./i
 
-# VIEW's NET
-/viewsnet-/i
+# Pattern
+# ------------------------------------------------------------------------------
 
-/cpanel-/i
-
-# 16.02.25
-/admin-email\./i
+# Sample: Sales098@topmail.com
+/(girl|sales)\d{1,3}@/i
 
 #
 #
@@ -83,14 +49,92 @@
 # Generic
 # ==============================================================================
 
-# Sample: Sales098@topmail.com
-/(girl|sales)\d{1,3}@/i
+# A
+/accounts\.nintendo\.com/i
 
-# Sample: ups@googlegroups.com
-/ups@[a-z]{5,25}\.com/i
+/aeon-email/i
+
+# 16.02.25
+/admin-email\./i
+
+# ANA Card
+/info\.ana-/i
+
+/apple-bank/i
+/\.apple-/i
+
+# B
+
+# C
+/card.?vpass/i
+
+/cpanel-/i
+
+# D
+/dhl-cn/i
+
+# E
+/edeka@/i
+/epos-card-/i
+
+/e-service\./i
+
+# F
+
+# G
+
+# H
+
+# I
+
+# J
+
+# K
+
+# L
+
+# M
+/mailxcg/i
+/mailweb/i
+
+/mastercard-/i
+
+# N
+/nexco\.co\.jp/i
+
+# O
+
+# P
 
 # Sample: no-reply@jovial-napier.84-247-11-185.plesk.page>
 /\d{2,3}-\d{2,3}-\d{2,3}-\d{2,3}\.plesk\.page/i
 
-# 25.12.24 - Lidl uses this
-#/angebote@/i
+/psmbcarfd/i
+
+# Q
+
+# R
+
+# S
+/smbc.?(card|email)/i
+
+/swisspost@/i
+
+# T
+
+# U
+# Sample: ups@googlegroups.com
+/ups@[a-z]{5,25}\.com/i
+
+/uuccard-/i
+
+# V
+/viewsnet-/i
+
+# W
+
+# X
+
+# Y
+
+# Z
