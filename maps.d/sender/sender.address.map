@@ -37,6 +37,8 @@
 # ==============================================================================
 
 # Japan (Temporary)
+/(ana|jcb|tepco)_net/i
+
 /(amex|epos|tepco|vpass)(-|_)(mail|net)\./i
 
 /accounts\.nintendo\.com/i
@@ -54,8 +56,6 @@
 /card.?vpass/i
 
 /e-service\./i
-
-/(jcb|tepco)_net/i
 
 /mailxcg/i
 /mailweb/i

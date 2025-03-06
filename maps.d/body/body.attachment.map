@@ -25,6 +25,7 @@
 /(order|payment|price.?list|proforma|project).{0,25}\.(7z|gz|html|r11|r16|rar|tar|tgz|xla|xls|zip)/i
 /(quotation|quote).{0,25}\.(7z|gz|html|r11|r16|rar|tar|tgz|xla|xls|zip)/i
 /(receipt|request).{0,25}\.(7z|gz|html|r11|r16|rar|tar|tgz|xla|xls|zip)/i
+/specifications?.{0,25}\.(7z|gz|html|r11|r16|rar|tar|tgz|xla|xls|zip)/i
 
 /(bestell|bestätigung).{0,25}\.(7z|gz|html|r11|r16|rar|tar|tgz|xla|xls|zip)/i
 
@@ -152,8 +153,8 @@
 
 # Documents
 # ------------------------------------------------------------------------------
-/(document|preview).{0,20}\.(7z|html?)/i
-/doc\d.{0,20}\.(7z|html?)/i
+/(document|preview|scan).{0,20}\.(7z|gz|html?)/i
+/doc\d.{0,20}\.(7z|gz|html?)/i
 
 # Lottery
 # ------------------------------------------------------------------------------
