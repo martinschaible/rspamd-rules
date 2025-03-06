@@ -119,13 +119,21 @@
 
 # H
 /handgefertigte messer/i
+
+/hochdruck.?reiniger.{1,10}statt.{1,10}jetzt/i
 /hörgeräte kostenlos/i
 
 # I
 /ihr personalbedarf/i
 /ihr wlan.?signal/i
 
+/ip.?tv.{0,10}abonnement/i
+
 # J
+/japanischer?.{1,10}einlegesohlen/i
+/jacke.{1,10}anzuziehen/i
+/(mit der|sie eine|wärmende).{1,10}jacke/i
+
 /jetzt.{1,10}nur \d{2,3}.{1,10}statt \d{2,3}/i
 
 /(beheizbare|wärmende).{1,10}(daunen)?jacke/i
@@ -138,7 +146,9 @@
 
 /lebensverändernde.{1,10}(wasser)?.?flasche/i
 
+/led.{0,10}beleuchtung.{1,10}bestpreis/i
 /led.{1,10}feuchtraumleuchte/i
+/led.{1,10}komplett.{1,10}beleuchtungsset/i
 
 /leitern?.{1,10}(leicht|handlich|professionell)/i
 
@@ -165,8 +175,6 @@
 
 /preiswerte.{1,10}vordächer/iu
 
-# Q
-
 # R
 /rechnungen um.{1,10}senken/i
 
@@ -185,7 +193,7 @@
 
 /smarte.{1,15}beleuchtung/i
 
-/sprechen.{1,10}problemlos.{1,10}sprachen/i
+/sprechen.{1,10}(in über|problemlos).{1,10}sprachen/i
 
 /statt \d{3},- nur \d{2,3},-/i
 /steigern sie.{1,10}umsatz sofort/i
@@ -198,7 +206,9 @@
 
 /testen.{1,10}hörgeräte/iu
 
-/tragbare heizung/i
+/tragbare.{1,10}heizung/i
+/tragbarer.{1,10}drahtloser.{1,10}router/i
+
 /transformiere.{1,10}verkäufe/iu
 
 # U
