@@ -10,7 +10,6 @@
 /(dear|hello|hi).{1,10}(madam|sir).{1,10}greetings of the day/i
 
 /(dear|hello|hi).{1,10}(madam|sir).{1,10}do you require/i
-/(dear|hello|hi).{1,10}(madam|sir).{1,10}(good|nice) day/i
 /(dear|hello|hi).{1,10}(madam|sir).{1,10}how are you/i
 /(dear|hello|hi).{1,10}(madam|sir).{1,10}i.?a?m.{5,25}from/i
 /(dear|hello|hi).{1,10}(madam|sir).{1,10}i.?a?m.{5,25}purchase.manager/i
@@ -183,8 +182,6 @@
 /my name is.{5,25}an employee of/i
 /my name is.{1,25}barr(\.|ister)/i
 /my name is.{1,30}chief procurement officer/i
-/my name is.{1,25}(dr\.|sir)/i
-/my name is.{1,25}(miss|mrs?|ms).{5,25}(a christian|from)/i
 /my name is.{1,25}international.{1,10}(fund|trust)/i
 
 /my name is.{5,25}i.?a?m.{1,15}(a|the) project.?manager/i
