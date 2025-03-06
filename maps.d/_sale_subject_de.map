@@ -81,16 +81,9 @@
 /(gerät|gerat).{1,20}sie ihre rechnungen/i
 /(gerät|gerat).{1,20}stromrechnung/i
 
-# Durchlauferhitzer
-# ------------------------------------------------------------------------------
-/durchlauferhitzer/i
-
-# Drone
-# ------------------------------------------------------------------------------
-
 # Fans
 # ------------------------------------------------------------------------------
-/ventilatoren.{1,10}ldeckenventilatoren/i
+/ventilatoren.{1,10}deckenventilatoren/i
 
 # Flags
 # ------------------------------------------------------------------------------
@@ -117,7 +110,7 @@
 # Grill
 # ------------------------------------------------------------------------------
 /mit unserem Grill/i
-grill.{1,10}statt.{1,10}nur/i
+/grill.{1,10}statt.{1,10}nur/i
 
 # Generator
 # ------------------------------------------------------------------------------
@@ -134,18 +127,9 @@ grill.{1,10}statt.{1,10}nur/i
 /tragbares?.?heizgeräte?/iu
 /heizgerät.{1,10}geld spart/i
 
-# Insoles
-# ------------------------------------------------------------------------------
-/japanischer?.{1,10}einlegesohlen/i
-
-# Jacket
-# ------------------------------------------------------------------------------
-/jacke.{1,10}anzuziehen/i
-/(mit der|sie eine|wärmende).{1,10}jacke/i
-
 # Knives
 # ------------------------------------------------------------------------------
-/authentischen? japanischen? messern?/i
+/authentischen?.{1,10}japanischen?.{1,10}messern?/i
 
 # Lamp
 # ------------------------------------------------------------------------------
@@ -155,15 +139,8 @@ grill.{1,10}statt.{1,10}nur/i
 
 /lampe.{1,15}(arbeiten|produktivität)/iu
 
-# Learning languages
-# ------------------------------------------------------------------------------
-/sprechen in über 40 sprachen/i
-
 # LED
 # ------------------------------------------------------------------------------
-/led.?beleuchtung.{1,10}bestpreis/i
-/led.{1,10}komplett.{1,10}beleuchtungsset/i
-
 /leuchte.{1,15}jeden Raum/i
 /leuchte.{1,15}statt.{1,15}jetzt für nur/i
 /deckenleuchte.{1,10}lichtfarben/i
@@ -183,11 +160,7 @@ grill.{1,10}statt.{1,10}nur/i
 
 # Pan
 # ------------------------------------------------------------------------------
-/emura/i
 /(innovative|neue).{1,15}antihaftbeschichtung/i
-
-# Pen
-# ------------------------------------------------------------------------------
 
 # A - m
 /(eindruck|elegante|gummierte|hochwertige|individuellen?|kostenlos|luxus|logo|maßgeschneiderte|metall|moderne|muster).{0,15}kugelschreiber/iu
@@ -204,9 +177,6 @@ grill.{1,10}statt.{1,10}nur/i
 /kugelschreiber.?muster/i
 
 /(branded pens|firmenkugelschreiber|sponsorenstifte)/i
-
-# Phone Systems
-# ------------------------------------------------------------------------------
 
 # Plants
 # ------------------------------------------------------------------------------
@@ -227,29 +197,15 @@ grill.{1,10}statt.{1,10}nur/i
 /(der|entdecken|sichern sie|unser).{1,25}generator/i
 /850w.{1,15}generator/i
 
-# Pressure washer
-# ------------------------------------------------------------------------------
-/hochdruck.?reiniger.{1,10}statt.{1,10}jetzt/i
-
 # Pumps
 # ------------------------------------------------------------------------------
 /preiswerte pumpen/i
 /wasserpumpe für nur/iu
 
-# Router/WiFi
-# ------------------------------------------------------------------------------
-/tragbarer.{1,10}drahtloser.{1,10}router/i
-
 # Schneeschieber
 # ------------------------------------------------------------------------------
 /unser.{1,10}schneeschieber/i
 /schneeschieber wartet/i
-
-# Schmutzfangmatten
-# ------------------------------------------------------------------------------
-/rutschfeste.{1,10}schmutzfangmatten/i
-/sauberlaufteppiche.{1,10}schmutzfangmatten/i
-/sauberlaufteppiche.{1,10}(geschäft|privat)/i
 
 # Screw drivers
 # ------------------------------------------------------------------------------
@@ -280,14 +236,8 @@ grill.{1,10}statt.{1,10}nur/i
 
 # Surveillance Camera
 # ------------------------------------------------------------------------------
-/(ihre|premium|top).{1,10}überwachungskamera/iu
-/überwachungskamera.{1,10}(jetzt nur|für) (\d{2,3}|nur)/iu
-
-/unsere.{1,10}wlan.?kamera/i
-
-# Streaming TV
-# ------------------------------------------------------------------------------
-/ip.?tv.{0,10}abonnement/i
+/(ihre|premium|top|unsere).{1,10}(überwachungs|wlan).?kamera/iu
+/(überwachungs|wlan).?kamera.{1,10}(jetzt nur|für) (\d{2,3}|nur)/iu
 
 # Tables
 # ------------------------------------------------------------------------------
@@ -350,9 +300,6 @@ grill.{1,10}statt.{1,10}nur/i
 # ------------------------------------------------------------------------------
 /mit gezielten leads/i
 
-# Developing Apps
-# ------------------------------------------------------------------------------
-
 # Developing Websites
 # ------------------------------------------------------------------------------
 /web.?design.{1,10}entwicklung/i
@@ -372,7 +319,6 @@ grill.{1,10}statt.{1,10}nur/i
 
 /professionell.{1,10}seo.?services?/i
 /seo.?service.?(angebot|plan|pläne|vorschlag)/i
-/with our.{1,10}seo/i
 
 # Google Reviews
 # ------------------------------------------------------------------------------
