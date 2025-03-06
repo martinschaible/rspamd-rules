@@ -52,6 +52,9 @@
 
 /i'?\s*a?m\b.{1,10}(miss|mrs?|ms).{5,25}contacting you/i
 
+/i'?\s*a?m\b.{5,25}from shenzhen/i
+
+/introduce myself.{1,10}my name is/i
 /introduce our company/i
 /introduce you to my company/i
 
@@ -73,15 +76,20 @@
 /my name is.{5,25}i have.{1,10}urgent/i
 /my name is.{5,35}i serve as/i
 
+/my name is.{1,5}(dr\.|sir)/i
+/my name is.{1,5}(miss|mrs?|ms)/i
+
 /my name is.{5,25}represent(ing)?/i
 
 # With title
 /my name is.{5,35}(attorney|business|consultant|investment|investor|politician|private|us soldier)/i
 /my name is.{5,35}(bank|development|general|international|investment|sales|senior|portfolio|purchasing|sales).{1,10}manager/i
 
-/My name is.{5,25}a.{1,15}collector/i
+/my name is.{5,25}a.{1,15}collector/i
 /my name is.{5,25}managing.{1,10}director/i
 /my name is.{5,35}(vendor|registration|solicitor)/i
+
+/my name is.{5,49}i represent/i
 
 # With country
 /my name is.{5,35}from.{5,35}(in)?.{1,10}(china|india|ukraine)/i
@@ -109,6 +117,8 @@
 /this is.{5,20}from.{5,20}manufacturer of/i
 /this is.{5,25}from.{5,25}nice to meet you/i
 /this is.{5,25}from.{1,10}shenzhen/i
+
+/this is.{5,25}we can supply/i
 
 /to whom it may concern.{1,10}my name is/i
 /to whom it may concern.{1,10}nice.{1,10}(write|writing).{1,10}you/i
