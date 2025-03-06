@@ -57,6 +57,7 @@
 /dear.{1,10}(madam|purchaser|sir).{1,15}please find attached/i
 /dear.{1,10}(madam|purchaser|sir).{1,15}you interested in/i
 
+/dear.{1,10}(madam|purchaser|sir).{1,15}i work with a/i
 
 # E
 
@@ -69,6 +70,7 @@
 /good (afternoon|day|evening|morning).{1,10}i.?a?m.{5,25}(chairman|director)/i
 /good (afternoon|day|evening|morning).{1,10}i.?a?m.{5,25}from/i
 
+/good (afternoon|day|evening|morning).{1,10}i represent/i
 /good (afternoon|day|evening|morning).{1,10}my name is/i
 
 /good (afternoon|day|evening|morning).{1,15}this might come.{1,10}surprise/i
