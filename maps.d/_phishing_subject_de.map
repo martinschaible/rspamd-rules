@@ -266,12 +266,6 @@
 /(aktualisieren|bestätigen) sie ihre telefon.?nummer/iu
 /ihre telefon.?nummer ist erforderlich/i
 
-# Return for double payed invoices
-# ------------------------------------------------------------------------------
-/benachrichtigung.{1,10}doppelte zahlung/i
-/hinweis zu ihrer letzten rechnung/i
-/rückerstattung verfügbar.{1,20}(details?|wichtig(ste)?)/i
-
 # Parcel
 # ------------------------------------------------------------------------------
 
@@ -290,10 +284,7 @@
 
 /haben sie ihr paket erhalten/i
 
-/ihr ausstehendes paket/i
 /ihre angaben.{1,10}order.?id/i
-
-/in der warteschleife/i
 
 /wichtig.{1,15}(erneute zustellung|paket)/i
 
@@ -377,13 +368,6 @@
 /zahlen sie.{1,15}die zustellung ihres pakets/i
 /zahlung.{1,10}zollgebühren.{1,20}(erforderlich|euro)/iu
 /zahlung.{1,10}versandgebühr.{1,10}(über)?fällig/iu
-
-# DHL
-/dhl.{1,10}letzte mahnung/i
-
-# DPD
-/dpd.?ch.{1,10}betreff/i
-/dpd(-|_)ch/i
 
 #
 /referenz.?(code|nummer).{1,5}\d{4,15}/i

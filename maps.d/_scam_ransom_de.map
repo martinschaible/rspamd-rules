@@ -25,7 +25,9 @@
 /ich.{1,25}(zugang|zugriff).{1,10}ihrer kontaktenliste/i
 
 /ihr system wurde (gehackt|geknackt)/i
-/habe ich.{1,10}zugriff auf ihre dateien/i
+/
+habe ich.{1,10}zugriff auf.{1,10}dateien/i
+/habe ich.{1,10}unbefugten zugriff/i
 
 # Malware
 /(trojaner|virus) hat mir.{1,10}zugriff auf ihre dateien/i
@@ -45,8 +47,6 @@
 /meinem privaten trojaner/i
 
 /sie für.{1,10}internet.?browsing.{1,10}verwenden/i
-
-/habe ich unbefugten zugriff/i
 
 /zugang zu den geräten.{1,10}einsetzen/iu
 #
@@ -89,9 +89,3 @@
 
 # Masked
 # ------------------------------------------------------------------------------
-/ɑưfzưzeichnen/i
-/hab℮ ℮rfolgr℮ϊch/i
-/grüß℮ Sϊ℮/i
-/Ńɑchrichten/i
-/prof℮ssϊon℮ll℮r/i
-/Virưs/i
