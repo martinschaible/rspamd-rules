@@ -29,12 +29,8 @@
 
 # Phishing
 # ------------------------------------------------------------------------------
-
-# Japan (Temporary)
-/(ana|jcb|tepco)_net/i
-/(amex|epos|tepco|vpass)(-|_)(mail|net)\./i
-
-/offer\./i
+# Japan
+/(amex|ana|epos|jcb|tepco|vpass)(-|_)(card|mail|net)/i
 
 # Pattern
 # ------------------------------------------------------------------------------
@@ -103,6 +99,7 @@
 /nexco\.co\.jp/i
 
 # O
+/offer\./i
 
 # P
 
