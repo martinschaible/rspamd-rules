@@ -40,7 +40,7 @@
 # B
 /bei ihnen ankommt/i
 
-/Benachrichtigung.{1,15}(die|letzte).{1,15}Paketzustellung/i
+/benachrichtigung.{1,15}(die|letzte).{1,15}paketzustellung/i
 
 /bestätigen sie.{1,15}barcode/i
 /bestätigen sie.{1,10}lieferdetails/i
@@ -60,6 +60,9 @@
 
 # E
 /einer falschen lieferadresse/i
+
+/einlieferungsbeleg für ihr?.{1,10}(lieferung|paket|sendung)/i
+
 /erhalten sie ihre lieferung/i
 
 # F
@@ -73,9 +76,12 @@
 # I
 /ihr paket ist da/i
 /ihr paket wird zugestellt/i
+/ihre? ausstehendes?.{1,10}(lieferung|paket|sendung)/i
 
-/ihre?.{1,10}(lieferung|paket).{1,10}wartet/i
+/ihre?.{1,10}(lieferung|paket|sendung).{1,10}wartet/i
 /ihre(r|s).{5,15}fehlgeschlagen/i
+
+/in der warteschleife/i
 
 /ist ausgesetzt/i
 /ist in bewegung/i

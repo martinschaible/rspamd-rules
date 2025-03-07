@@ -39,6 +39,10 @@
 # C
 
 # D
+/dhl.{1,10}letzte mahnung/i
+
+/dpd.?ch.{1,10}betreff/i
+/dpd(-|_)ch/i
 
 # E
 /emura/i

@@ -20,6 +20,7 @@
 /antworten sie innerhalb von/i
 
 # B
+/benachrichtigung.{1,10}doppelte zahlung/i
 /benachrichtigung.{1,15}kundenservice/i
 
 /bestätigung benötigt/iu
@@ -52,7 +53,7 @@
 /endgültige löschung ihrer seite/iu
 
 # F
-/fehler in ihrer letzten rechnung/i
+/fehler in ihrer letzten.{1,10}rechnung/i
 /frist zur datenaktualisierung/i
 
 # G
@@ -62,6 +63,7 @@
 /gwünne e/i
 
 # H
+/hinweis zu ihrer letzten.{1,10}rechnung/i
 /holen sie sich.{1,15}rückerstattung/iu
 
 # I
@@ -100,7 +102,7 @@
 /(rück)?erstattung.{1,10}ihre zugreise/iu
 /(rück)?erstattung.{1,10}ihres beitrags/iu
 /(rück)?erstattung.{1,10}ist (online|verfügbar)/iu
-/(rück)?erstattung.{1,10}(jetzt|möglich)/iu
+/(rück)?erstattung.{1,10}(jetzt|möglich|verfügbar)/iu
 /(rück)?erstattung.{1,10}zur verfügung/iu
 
 # Sample: Rundschreiben X2ZI-M29U

@@ -94,8 +94,8 @@
 
 /grundeinkommen durch/i
 
-/goldrausch hat begonnen/i
-/goldrausch wartet/i
+/goldrausch ki/i
+/goldrausch.{1,10}(begonnen|wartet)/i
 
 # H
 
@@ -167,6 +167,7 @@
 /werden sie mit bitcoin/i
 
 /wie.{1,10}man wirklich reich/i
+/wie.{1,10}mehr gehalt/i
 /wie.{1,10}reich werden/i
 
 /wochen.{1,10}\d{3,4}(\.|,)?\d{3,4}.{1,10}verdienen/i
