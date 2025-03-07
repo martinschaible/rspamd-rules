@@ -43,6 +43,9 @@
 /guten morgen.{1,10}mein.{1,15}freund/i
 
 /grüße.{1,10}(an sie|liebling|meine liebe)/i
+/grüße.{1,10}(dich|sie).{1,10}ich bin/i
+/grüße.{1,10}(dich|sie).{1,10}im namen des herrn/iu
+/grüße.{1,10}wie geht es ihnen/i
 
 /grüß dich.{1,10}mein.{1,15}herr/i
 
@@ -89,7 +92,7 @@
 # M
 /meine grüße/iu
 /mein name ist/i
-/mein lieber (freund|geliebter)/i
+/mein (guter|lieber) (freund|geliebter)/i
 /meine liebste/i
 
 /mit freundlichen (grüssen?|grüßen?)/i

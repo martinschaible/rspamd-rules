@@ -401,8 +401,7 @@
 
 /sign of a stroke/i
 
-/silence knee pain/i
-/silences tinnitus/i
+/silences?.{1,10}(pain|tinnitus)/i
 
 /simple at.?home/i
 /simple drink helps/i
@@ -421,6 +420,8 @@
 
 /stable blood sugar/i
 /start melting/i
+
+/strange.{1,10}pain.{1,10}relieving/i
 
 /stir this into/i
 

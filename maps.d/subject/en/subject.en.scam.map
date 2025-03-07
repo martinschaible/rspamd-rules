@@ -102,12 +102,13 @@
 
 /invest in your.{1,10}(business|company|project)/i
 
-/^investment funds?$/i
+/^investment.{1,10}funds?$/i
+/^investment.{1,10}partner$/i
+
 /investment.{1,10}fund of/i
 
 /investment.{1,10}(business|deal|funds|inquiry)/i
 /investment.{1,10}(partnership|proposal|proposition|relocation)/i
-
 
 # J
 
