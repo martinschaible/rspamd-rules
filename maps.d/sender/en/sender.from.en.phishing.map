@@ -130,6 +130,8 @@
 /service.{0,10}notifications?/i
 /(service|storage).{0,10}(upgrades?|updates?)/i
 
+/shared.{0,10}file/i
+
 /shipping.{0,10}(pending|team|update)/i
 /shopper.{0,10}gift(.?card)?/i
 

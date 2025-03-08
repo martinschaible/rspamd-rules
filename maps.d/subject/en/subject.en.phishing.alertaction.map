@@ -20,6 +20,7 @@
 /action required.{1,15}(activate|update) your/i
 /action required.{1,10}(account|improve|payment failed)/i
 /action required.{10,35}for violation/i
+/action required.{1,30}new notifications/i
 /action required.{10,35}password (about|expires)/i
 /action required.{1,10}subscription renewal/i
 
@@ -66,7 +67,7 @@
 # M
 
 # N
-/notification.{1,10}(action required|updated)/i
+/notification.{1,10}(action required|incomplete|updated)/i
 /notification.{1,10}account.{1,30}closure/i
 
 # O
