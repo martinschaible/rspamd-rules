@@ -90,8 +90,6 @@
 /sehr geehrter?.{1,15}(bankkunde|director|direktor|käufer|manager|managing)/iu
 /sehr geehrter.{1,10}unternehmer.{1,10}wir schreiben ihnen/i
 
-/sei gegrüßt.{1,10}(liebster|mein geliebter)/iu
-
 #
 /ich bin.{5,30}schweizer staatsbürger.{1,10}wohne in/i
 
@@ -105,25 +103,10 @@
 /glückwunsch.{1,5}mein name ist/i
 /glückwunsch.{1,10}hallo.{1,10}mein name ist/i
 
-/ich bin.{1,10}elon musk/i
-
-/ihre dringende antwort.{1,10}mein name ist/i
-
-/wie geht es (dir|ihnen).{1,10}mein name ist/i
-/wie fühlst du dich.{1,10}mein name ist/iu
-
-/(kennenlernen|liebste).{1,15}mein name ist/i
-
-/mein name ist sir/i
-/mein name ist.{1,10}anwältin/iu
-/mein name ist.{1,10}barr(\.|ister)/i
-/mein name ist.{1,10}(dr\.|mrs?|ms|leutnant)/i
-
 /mein name ist.{5,25}aus.{1,10}(indien|vereinigten staaten)/i
 /mein name ist.{5,25}deutscher? herkunft/i
 /mein name ist.{5,25}(die|eine) witwe/i
 /mein name ist.{5,25}ich.{1,15}eine dringende/i
-/mein name ist.{5,25}(gewinnerin|rechtsanwalt)/i
 /mein name ist.{5,25}geboren am/i
 /mein name ist.{5,25}von der.{1,15}(agentur|marketing)/i
 
@@ -137,10 +120,6 @@
 
 /mein name ist.{5,25}ich habe.{1,15}krebs/i
 /mein name ist.{5,25}ich habe mich darauf spezialisiert/i
-
-/mein name ist.{5,25}ich möchte ihnen/i
-/mein name ist.{5,25}ich schreibe ihnen/i
-/mein name ist.{5,25}ich suche jemanden/i
 
 /mein name ist.{5,30}ich bin eine?.{1,15}finanzberater(in)?/i
 /mein name ist.{5,30}ein.{1,15}philanthrop/i
@@ -161,12 +140,6 @@
 /ich bin.{5,25}(der|die) gewinner(in)? des/i
 /ich bin.{5,25}die einzige tochter/i
 /ich bin.{5,25}ein schweizer staatsbürger.{1,10}der in dubai/i
-
-/ich bin (miss|sir)/i
-
-/ihnen vor(zu)?stellen.{1,10}ich bin/i
-
-/kompliment des tages.{1,10}ich kontaktiere sie/i
 
 # Introduction, Country
 # ------------------------------------------------------------------------------
@@ -195,11 +168,7 @@
 
 # Religious
 # ------------------------------------------------------------------------------
-/liebster? im herrn/i
-
 /möge der friede des herrn mit dir sein/iu
-
-/guten morgen.{1,10}geliebt in christus/i
 
 #
 #

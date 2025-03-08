@@ -30,10 +30,6 @@
 
 /ihnen.{1,10}dieser?.{1,10}(e?.?mail|nachricht).{1,10}gut geht/i
 
-/lesen sie nachrichten/i
-/lies die nachricht/i
-
-/sie diese nachricht genießen/i
 /sie erreichen meine e.?mail gut/i
 
 # Excuses and other silly stuff
@@ -41,26 +37,6 @@
 /wir noch nie zuvor kontakt ausgetauscht haben/i
 
 /jetzt (anmelden gehen|sofort eintragen)/i
-
-# Greetings
-# ------------------------------------------------------------------------------
-/guten morgen.{1,10}ehrenwert/i
-
-/grusse an dich/i
-
-/komplimente? der (saison|jahreszeiten)/i
-/komplimente? des tages/i
-
-/hallo.{1,10}ehrenwwert/i
-/hallo.{1,10}ich hoffe alles gut mit dir/i
-/hallo.{1,10}herr.{1,10}frau/i
-
-/hier spricht herr/i
-/mein göttlicher freund/iu
-/mit angenehmen grüssen/iu
-
-/sehr geehrter fahrer/i
-/wie geht es ihnen.{1,10}das ist.{5,25}von/i
 
 # EMails
 # ------------------------------------------------------------------------------
@@ -73,8 +49,6 @@
 # Unclassified and extreme silly
 # ------------------------------------------------------------------------------
 /antworten sie auf den anspruch/i
-/beschaffungsdienstleistungsunternehmen/i
-/rückerstattungsverfahren/iu
 
 /aufrichtig.{1,10}202\d/i
 
@@ -107,7 +81,6 @@
 # ------------------------------------------------------------------------------
 /benötigen.{1,10}persönlichen.{1,10}unternehmen/i
 /besicherte kredite/i
-/investmentfinanzierungsberater/i
 /persönlich darlehen/iu
 
 # Health
