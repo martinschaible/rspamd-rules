@@ -12,8 +12,8 @@
 
 # Hacks, Tricks, Secrets and other lies
 # ------------------------------------------------------------------------------
-/(ancient|at.?home|daily|day|easy|gummy|hidden).{1,15}(fix|hack|ritual|secret|trick)/i
-/(little.?known|minute|odd|second).{1,15}(fix|hack|ritual|secret|trick)/i
+/(ancient|at.?home|daily|day|easy|gummy|hidden).{1,15}(fix|hack|ritual|secret|solutiontrick)/i
+/(little.?known|minute|odd|second).{1,15}(fix|hack|ritual|secret|solution|trick)/i
 
 /(\d.?second|shocking|japanese).{1,10}(fix|hack|ritual|secret|trick)/i
 
@@ -78,7 +78,7 @@
 
 /accelerate your metabolism/i
 
-/(achy|bad).{1,10}knees/i
+/(aching|achy|bad).{1,10}(knees|joints?)/i
 
 /activate.{1,10}brain/i
 /after trying this/i
@@ -124,7 +124,7 @@
 /bone to bone/i
 
 /boost.{1,10}eart health/i
-/boost.{1,15}(focus|health|metabolism|vitality)/i
+/boost.{1,15}(brain|focus|health|metabolism|vitality)/i
 
 /brain boost.{1,10}trick/i
 /brain.?fog.{1,10}seconds/i
@@ -312,6 +312,7 @@
 /melts.{1,10}fat fast/i
 /melts.{1,10}in.{1,10}weeks/i
 
+/men.{1,10}horny/i
 /morning change to/i
 /most.{1,10}anti.?inflammatory/i
 
@@ -466,6 +467,7 @@
 
 /trim your.{1,10}waistline/i
 
+/(try|this).{1,10}miracle/i
 /(try|this).{1,10}simple.{1,10}nutrient/i
 
 /to get.{1,10}hard/i
