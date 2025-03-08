@@ -74,6 +74,7 @@ Folder structure:
 body
   |- body.attachment.map                         -\
   |- body.emergency.map                           |
+  |- body.special.map                             |
   |- body.az.orgname.map                          |
   |- body.ch.orgname.map                          |
   |- body.de.orgname.map                          |
