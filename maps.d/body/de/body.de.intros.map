@@ -7,6 +7,7 @@
 # ==============================================================================
 
 # A
+/(antwort|dringend|kennenlernen|liebste).{1,15}mein name ist/i
 
 # B
 
@@ -33,12 +34,17 @@
 
 /ich bin.{5,35}(ceo|gründer).{1,15}von/i
 /ich bin.{1,10}(frau|fräulein|herr)/i
+/ich bin.{1,10}(miss|sir)/i
 /ich bin.{5,35}(rechts)?vertreter der familie/i
 /ich bin.{5,35}(privat|rechts)?anwalt/i
 
 /ich bin.{5,35}leitender offizier/i
 
+# :-)
+/ich bin.{1,10}elon musk/i
+
 /ihnen unser unternehmen vorzustellen/i
+/ihnen vor(zu)?stellen.{1,10}ich bin/i
 
 # J
 
@@ -47,17 +53,22 @@
 # L
 
 # M
+/mein name ist.{1,10}barr(\.|ister)/i
 /mein name ist.{1,10}(frau|fräulein|herr)/iu
+/mein name ist.{1,10}(dr\.|mrs?|ms|leutnant|sir)/i
+
+/mein name ist.{5,35}ich bin.{1,10}(auf der suche|die|teil des)/i
+/mein name ist.{5,35}(ich bin.{1,15})?(anwalt|anwältin|banker|gewinner(in)?|manager|rechtsanwalt)/i
 
 /mein name ist.{5,35}ich lebe.{1,10}in/i
-/mein name ist.{5,25}ich bin teil des/i
+/mein name ist.{5,25}ich (möchte|schreibe) ihnen/i
+/mein name ist.{5,25}ich suche jemanden/i
 
-/mein name ist.{5,35}ich bin.{1,15}(anwalt|banker|manager)/i
 /mein name ist.{5,30}ein.{1,10}(amerikanischer|angestellter)/i
 /mein name ist.{5,35}ein.{1,15}wirtschaftsmagnat/i
 
-/mein name ist.{5,35}ich bin (auf der suche|die)/i
 /mein name ist.{5,35}ich vertrete/i
+
 
 # N
 
@@ -70,6 +81,8 @@
 # R
 
 # S
+/wie geht es ihnen.{1,10}das ist.{5,35}von/i
+
 /sie zu kontaktieren.{1,10}mein name ist/i
 
 # T
@@ -80,6 +93,8 @@
 # V
 
 # W
+/wie geht es (dir|ihnen).{1,10}mein name ist/i
+/wie fühlst du dich.{1,10}mein name ist/iu
 
 # X
 

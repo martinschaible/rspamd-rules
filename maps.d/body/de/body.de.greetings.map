@@ -29,6 +29,8 @@
 /guten (abend|morgen|tag).{1,10}bitcoin/i
 /guten (abend|morgen|tag).{1,10}dieses?.{1,10}e?.?mail ist von/i
 /guten (abend|morgen|tag).{1,10}entschuldigen sie.{1,10}ich sie/i
+/guten (abend|morgen|tag).{1,10}ehrenwert/i
+/guten (abend|morgen|tag).{1,10}geliebt in christus/i
 /guten (abend|morgen|tag).{1,10}gute nachrichten/i
 /guten (abend|morgen|tag).{1,10}ich bin (frau|herr)/i
 /guten (abend|morgen|tag).{1,10}lieber kunde/i
@@ -37,6 +39,8 @@
 /guten (abend|morgen|tag).{1,10}wir kontaktieren sie/i
 /guten (abend|morgen|tag).{1,10}ich hoffe.{1,10}dieser?.{1,10}(brief|e?.?mail|nachricht)/i
 /guten (abend|morgen|tag).{1,10}zum schutz ihres/i
+
+/grusse an dich/i
 
 /grüße.{1,10}an sie.{1,10}ich schreibe ihnen/i
 /grüße.{1,10}betreff/iu
@@ -50,14 +54,20 @@
 /hallo.{1,10}ich bin.{5,35}eine?.{1,15}(geschäfts)?(frau|mann)/iu
 /hallo.{1,10}ich bin.{5,35}eine?.{1,15}(australisch|deutsch|indisch|schweizer)/i
 
-/hallo.{1,10}begünstigter/i
+/hallo.{1,10}(begünstigter|ehrenwwert)/iu
 /hallo.{1,10}herzliche grüße an sie/iu
 /hallo.{1,10}ich bin single/i
+/hallo.{1,10}ich hoffe.{1,10}alles gut/i
 /hallo.{1,10}ich schreibe ihnen/i
-/hallo mein lieber.{1,10}ich heiße/i
+
+/hallo.{1,10}herr.{1,10}frau/i
+
+/hallo.{1,10}mein lieber.{1,10}ich heiße/i
 
 # Used for ransom attacks 
 /hallo perversling/i
+
+/hier spricht herr/i
 
 /hochachtungsvolle grüße/iu
 
@@ -67,6 +77,8 @@
 # J
 
 # K
+/komplimente? der (saison|jahreszeiten)/i
+/komplimente? des tages/i
 
 # L
 /lieber?.{1,10}(paket)?empfänger/iu
@@ -78,8 +90,11 @@
 /(lieber?|sehr geehrter?).{1,5}e?.?mail.{0,15}(besitzer|eigentümer|empfänger|inhaber)/i
 
 /liebster.{1,10}(freund|geliebter)/i
+/liebster?.{1,10}im herrn/i
 
 # M
+/mein göttlicher freund/iu
+/mit angenehmen grüssen/iu
 
 # N
 /nicht erfolgreich.{1,10}guten tag/i
@@ -99,6 +114,7 @@
 /sehr geehrte\/r ,/i
 
 /sehr geehrter herr.{1,5}frau/i
+/sehr geehrter fahrer/i
 /sehr geehrter manager/i
 
 /sehr geehrter?.{1,10}(empfänger|unternehmer)(in)?/i
@@ -109,6 +125,8 @@
 /sehr geehrter kunde.{1,5}\d{1,10}/i
 /sehr geehrter kunde.{1,20}ihre rechnung ist/i
 /sehr geehrter kunde.{1,10}wichtige nachricht an sie/i
+
+/sei gegrüßt.{1,10}(geliebter|liebster)/iu
 
 # T
 

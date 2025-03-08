@@ -31,6 +31,8 @@
 # K
 
 # L
+/lesen sie nachrichten/i
+/lies die nachricht/i
 
 # M
 
@@ -45,7 +47,8 @@
 # R
 
 # S
-/sie meine erste nachricht erhalten haben/i
+/sie.{1,10}diese nachricht genießen/i
+/sie.{1,10}meine erste nachricht erhalten haben/i
 /sie.{1,10}noch dieselbe.{1,10}e?.?mail.?adresse verwenden/i
 
 # T
