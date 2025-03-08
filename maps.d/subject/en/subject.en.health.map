@@ -252,6 +252,8 @@
 /healing recipe/i
 /healthy nails/i
 
+/hearing.{1,15}naturally/i
+
 /herb.{1,10}discovery/i
 
 /heart attack.{1,10}(risk by|warning)/i
@@ -271,7 +273,7 @@
 
 # I
 /improve memory (instantly|in.{1,15}seconds)/i
-/improve your.{1,15}vision/i
+/improve your.{1,15}(hearing|vision)/i
 
 /in \d{1,2} seconds/i
 
@@ -294,6 +296,8 @@
 /kills.{1,10}tinnitus/i
 
 # L
+/life.?changing.{1,10}video/i
+
 /lose weight.{1,10}(fast|without)/i
 /loses.{1,10}pounds doing this/i
 /losing memory because/i
@@ -322,7 +326,7 @@
 /nail.?fungus/i
 
 /nails in just/i
-/naturally with this/i
+/naturally.{1,10}(discover|restored?|with this)/i
 
 /high.{1,10}blood.{1,10}pressure/i
 
@@ -495,7 +499,7 @@
 /your.{1,10}arms without/i
 /your.{1,10}blood pressure/i
 /your.{1,10}back pain/i
-/your.{1,10}(bladder|erection|manhood|pecker|prostate)/i
+/your.{1,10}(bladder|erection|hearing|manhood|pecker|prostate)/i
 /your.{1,10}heart health/i
 
 # Z
