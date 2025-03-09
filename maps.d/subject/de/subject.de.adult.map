@@ -20,6 +20,7 @@
 /begegnung.{1,10}leidenschaft/i
 
 # C
+/chat.{1,10}dates?/i
 /chatten.{1,15}(fotos|videos)/i
 
 # D
@@ -59,6 +60,8 @@
 /lebst du in der nähe/iu
 /leidenschaftliches mädchen/i
 
+/lokaler?.{0,10}sex/i
+
 # M
 /mädchen will mit dir/i
 
@@ -87,6 +90,7 @@
 /seitensprünge in/iu
 /seite mit intimen/i
 
+/sex.{0,10}chat/i
 /sex mit.{1,15}(frauen|älteren)/iu
 
 # T
