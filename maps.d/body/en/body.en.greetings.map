@@ -48,16 +48,16 @@
 
 /dear.{1,10}purchase.{1,10}(department|manager)/i
 
-/dear.{1,10}(madam|purchaser|sir).{1,15}are you looking/i
-/dear.{1,10}(madam|purchaser|sir).{1,15}glad to (contact|connect|know|write)/i
-/dear.{1,10}(madam|purchaser|sir).{1,15}(good|nice) day/i
+/dear.{1,10}(madam|customer|purchaser|sir).{1,15}are you looking/i
+/dear.{1,10}(madam|customer|purchaser|sir).{1,15}glad to (contact|connect|know|write)/i
+/dear.{1,10}(madam|customer|purchaser|sir).{1,15}(good|nice) day/i
+/dear.{1,10}(madam|customer|purchaser|sir).{1,15}hello/i
+/dear.{1,10}(madam|customer|purchaser|sir).{1,15}my name is.{5,35}i am from/i
 
-/dear.{1,10}(madam|purchaser|sir).{1,15}my name is.{5,35}i am from/i
+/dear.{1,10}(madam|customer|purchaser|sir).{1,15}please find attached/i
+/dear.{1,10}(madam|customer|purchaser|sir).{1,15}you interested in/i
 
-/dear.{1,10}(madam|purchaser|sir).{1,15}please find attached/i
-/dear.{1,10}(madam|purchaser|sir).{1,15}you interested in/i
-
-/dear.{1,10}(madam|purchaser|sir).{1,15}i work with a/i
+/dear.{1,10}(madam|customer|purchaser|sir).{1,15}i work with a/i
 
 # E
 

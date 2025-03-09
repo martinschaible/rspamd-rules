@@ -10,6 +10,11 @@
 # Weight:   6.0
 # ==============================================================================
 
+# French
+# ------------------------------------------------------------------------------
+/bonjour.{1,10}(je.{1,5}appelle|nos noms sont)/i
+/bonjour.{1,10}désolé pour cette façon/iu
+
 # Generic
 # ==============================================================================
 
@@ -25,7 +30,9 @@
 /compliment of the season/i
 
 # D
-/dear (beloved|due respect|esteemed¬friend|madam|sir|recipient)/i
+/dear.{1,10}(beloved|due respect|esteemed¬friend|madam|sir|recipient)/i
+/dear.{1,10}your.{1,10}(profile|reputable)/i
+
 /dear herr/i
 
 /dear e?.?mail.{1,10}(user|owner)/i

@@ -52,6 +52,7 @@
 
 /i'?\s*a?m\b.{1,10}(miss|mrs?|ms).{5,25}contacting you/i
 
+/i'?\s*a?m\b.{5,25}from.{5,25}located in/i
 /i'?\s*a?m\b.{5,25}from shenzhen/i
 
 /introduce myself.{1,10}my name is/i
