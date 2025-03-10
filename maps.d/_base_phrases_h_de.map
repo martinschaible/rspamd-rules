@@ -5,11 +5,6 @@
 #  10 | German         |
 # ==============================================================================
 
-# Answer to private email only
-# ------------------------------------------------------------------------------
-/antworten sie (auf|über) meine.{1,10}(persönliche|private) e?.?mail.?adresse/iu
-/kontaktieren sie mich.{1,10}(direkt|meine|über).{1,15}(persönliche|private) e?.?mail.?adresse/iu
-
 # Answer
 # ------------------------------------------------------------------------------
 /antworten sie.{1,15}ausschließlich über/iu
