@@ -16,6 +16,7 @@
 
 /-invest\.de/i
 /-investment\.de/i
+/investieren-/i
 /investition/i
 
 /reichtum/i
@@ -29,6 +30,8 @@
 
 # Sample: /investment.voltapv.net
 /investment\.[a-z]{4,15}\.[a-z]{2,4}/i
+
+/(cocaine|kokaine?)/i
 
 # Companies
 # ------------------------------------------------------------------------------
