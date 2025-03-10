@@ -169,6 +169,8 @@
 # P
 /partner.{1,10}zeitarbeit/i
 
+/(party|veranstaltungs).?zelte?.{1,15}(neu|wasserdicht)/i
+
 /personalisierten?.{1,10}werbemittel/i
 
 /\/ (pv|solar).?anlage/i
@@ -232,7 +234,9 @@
 
 /werkstatt.{1,15}in profi.?qualität/iu
 
-/wir kaufen.{1,10}(auto|fahrzeug|lkw|pkw)/i
+/wir kaufen.{1,10}(auto|fahrzeug|wagen|lkw|pkw)/i
+/wir kaufen.{1,10}gebraucht(en)?/i
+
 /wir schützen vor bußgeldern/i
 
 # X
