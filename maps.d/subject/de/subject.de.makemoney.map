@@ -87,7 +87,7 @@
 # F
 
 # G
-/gehalt zu wenig/i
+/gehalt (niedrig|zu wenig)/i
 
 /geld machen mit/i
 /geld kostenlos/i
@@ -167,6 +167,7 @@
 
 /werden sie mit bitcoin/i
 
+/wie.{1,10}geld verdienen/i
 /wie.{1,10}man wirklich reich/i
 /wie.{1,10}mehr gehalt/i
 /wie.{1,10}reich werden/i
