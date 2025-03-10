@@ -90,6 +90,9 @@
 #  Two periods and a at sign
 /\.\.@/i
 
+#  Two stars and a question mark 
+/\*\*\?/i
+
 # Two and three periods and a exclamation mark at the end of the line
 /\.\.!$/i
 /\.\.\.!$/i

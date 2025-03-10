@@ -3,6 +3,36 @@
 # Weight:   6.0
 # ==============================================================================
 
+# Topics
+# ==============================================================================
+
+# Attention, Important, Urgent
+# ------------------------------------------------------------------------------
+/achtung.{1,10}(eilmeldung|empfänger)/i
+/achtung.{1,10}inhaber dieser.{1,10}e.?mail.?adresse/iu
+/achtung.{1,10}lieber benutzer/i
+/achtung.{1,10}offizielle mitteilung/i
+/achtung.{1,10}schweizer/i
+/achtung.{1,10}sir/i
+
+/achtung.{1,10}wir bitten um.{1,10}dringende/i
+
+# Message
+# ------------------------------------------------------------------------------
+/antworten sie auf diese nachricht/i
+
+/(benachrichtigung|brief|e?.?mail).{1,10}sie überraschend kommt/iu
+/(benachrichtigung|brief|e?.?mail).{1,10}sie überraschen wird/iu
+/(benachrichtigung|brief|e?.?mail).{1,10}eine.{1,10}überraschung (für sie|sein wird)/iu
+
+/(e?.?mail|nachricht).{1,10}erreicht dich gut gelaunt/i
+/(e?.?mail|nachricht).{1,10}erreicht sie in guter verfassung/i
+/(e?.?mail|nachricht).{1,10}(findet|trifft) sie gut/i
+/(e?.?mail|nachricht).{1,10}sie gut findet/i
+/(e?.?mail|nachricht).{1,10}sie in gutem zustand erreichen/i
+
+/sie diese (benachrichtigung|brief|e?.?mail).{1,10}überraschen wird/iu
+
 # Generic
 # ==============================================================================
 
@@ -22,7 +52,7 @@
 # G
 
 # H
-/haben sie meine e?.?mail erhalten/i
+/haben sie meine.{1,10}(e?.?mail|nachricht) erhalten/i
 
 # I
 
