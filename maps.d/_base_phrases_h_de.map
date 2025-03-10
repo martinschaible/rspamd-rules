@@ -5,9 +5,6 @@
 #  10 | German         |
 # ==============================================================================
 
-# Addresses and titles
-# ------------------------------------------------------------------------------
-
 # Answer to private email only
 # ------------------------------------------------------------------------------
 /antworten sie (auf|über) meine.{1,10}(persönliche|private) e?.?mail.?adresse/iu
@@ -24,15 +21,6 @@
 
 # Attention, Important, Urgent
 # ------------------------------------------------------------------------------
-/achtung.{1,10}eilmeldung/i
-/achtung.{1,10}empfänger/iu
-/achtung.{1,10}inhaber dieser.{1,10}e.?mail.?adresse/iu
-/achtung.{1,10}offizielle mitteilung/i
-/achtung.{1,10}wir bitten um ihre dringende/i
-/achtung.{1,10}lieber benutzer/i
-/achtung.{1,10}schweizer/i
-/achtung.{1,10}sir/i
-
 /(achtung|attn|hello).{0,10}der.{1,10}gewinner/i
 /(achtung|attn|hello).{1,10}begünstigter/iu
 
@@ -40,9 +28,6 @@
 /dringende.{1,10}vertrauliche nachricht für sie/iu
 /informationen zu dieser.{1,15}wichtigen.{1,10}angelegenheit/i
 /wichtige mitteilung.{1,10}sehr geehrter kunde/i
-
-# Business
-# ------------------------------------------------------------------------------
 
 # Clicking, Links
 # ------------------------------------------------------------------------------
@@ -56,8 +41,6 @@
 
 /direktnachricht an diese.{1,10}e?.?mail.?adresse/i
 
-/sie auf diesem weg kontaktiere/i
-
 # Dead or alive
 # ------------------------------------------------------------------------------
 /bist du tot oder lebendig/i
@@ -67,12 +50,6 @@
 /ich hoffe.{1,10}(e?.?mail|nachricht).{1,10}erreicht Sie gut/i
 /ich hoffe.{1,10}(e?.?mail|nachricht).{1,10}kommt bei (dir|ihnen) (an|gut)/i
 /ich hoffe.{1,10}sie haben meinen brief erhalten/i
-
-/diese.{1,10}(e?.?mail|nachricht).{1,10}erreicht dich gut gelaunt/i
-/diese.{1,10}(e?.?mail|nachricht).{1,10}erreicht sie in guter verfassung/i
-/diese.{1,10}(e?.?mail|nachricht).{1,10}(findet|trifft) sie gut/i
-/diese.{1,10}(e?.?mail|nachricht).{1,10}sie gut findet/i
-/diese.{1,10}(e?.?mail|nachricht).{1,10}sie in gutem zustand erreichen/i
 
 /(lieber|sehr geehrter) e?.?mail.?benutzer/i
 
@@ -90,8 +67,6 @@
 
 /(bestätigen sie|sie mir.{1,10}mitteilen).{1,15}(diese|ihre).{1,10}e?.?mail.{1,15}aktiv ist/iu
 
-/ist (diese|ihre).{1,10}e?.?mail.{1,10}noch (aktiv|gültig)/i
-/ist (diese|ihre).{1,10}e?.?mail.?adresse (aktiv|gültig)/i
 /ist das deine e?.?mail/i
 
 /dass diese.{1,10}e?.?mail.?adresse aktiv ist/i
@@ -119,22 +94,9 @@
 
 /wissen.{1,10}ob sie meine.{1,10}e?.?mail.{1,10}erhalten haben/i
 
-# E-Mail surprise
-# ------------------------------------------------------------------------------
-/dieser?.{1,10}(benachrichtigung|brief|e?.?mail).{1,10}sie überraschend kommt/i
-/dieser?.{1,10}(benachrichtigung|brief|e?.?mail).{1,10}sie überraschen wird/iu
-/dieser?.{1,10}(benachrichtigung|brief|e?.?mail).{1,10}eine.{1,10}überraschung für sie/iu
-
-/meine e?.?mail.{1,10}sie eine überraschung sein wird/iu
-/sie diese (benachrichtigung|e?.?mail).{1,10}überraschen wird/iu
-
 # Excuses and other silly stuff
 # ------------------------------------------------------------------------------
 /ich.{1,10}um ihre aufmerksamkeit bitten/i
-/ich entschuldige mich für dieses eindringen/iu
-
-/entschuldigen sie.{1,10}art der kontaktaufnahme/i
-/entschuldigen sie.{1,10}eingriff in ihre privatsphäre/iu
 
 /es ist mir eine freude.{1,10}ihnen zu schreiben/i
 
@@ -206,12 +168,6 @@
 
 # Sickness, Dying :-)
 # ------------------------------------------------------------------------------
-/meine tage auf erden gezählt sind/iu
-/ich nur noch wenige monate zu leben habe/i
-
-# Videos
-# ------------------------------------------------------------------------------
-
 # Silly lies
 # ------------------------------------------------------------------------------
 /folgende nachricht konnte nicht auf ihr mobiltelefon/i
@@ -223,8 +179,6 @@
 
 # Unclassified
 # ------------------------------------------------------------------------------
-/antworten sie auf diese nachricht/i
-
 /ich bin hier.{1,10}um ihnen/i
 /ich möchte mit ihnen kommunizieren/iu
 /ihr gewinner.?team/i
@@ -233,7 +187,6 @@
 
 /ein.{1,10}ernstes thema mit ihnen besprechen/i
 
-/hier ist botschafter(in)?/i
 /hier ist die letzte warnung/i
 
 /sie zu erreichen.{1,10}ich würde mich über eine.{1,15}antwort freuen/iu
