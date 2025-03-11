@@ -17,6 +17,10 @@
 
 /offizielle?.{0,10}(bitcoin|btc|crypto|krypto)/i
 
+# KI
+# ------------------------------------------------------------------------------
+/(ai|ki).?rendite/i
+
 # ETF (Exchange Traded Funds)
 # ------------------------------------------------------------------------------
 /etf.{0,10}(aktien|anmeldung|beratung|dividende|empfehlung|fonds|kenner|news)/i
@@ -40,6 +44,7 @@
 # ==============================================================================
 
 # A
+/ai.?rendite/i
 
 # B
 /banken.?newsletter/i
