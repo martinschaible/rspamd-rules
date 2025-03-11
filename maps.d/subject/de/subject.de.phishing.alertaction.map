@@ -104,6 +104,7 @@
 /letzte erinnerung.{1,20}ausstehenden lieferung/i
 /letzte erinnerung.{1,20}ihr.{1,15}speicher/i
 
+/letzte warnung.{1,10}bestätigen sie ihr konto/iu
 /letzte warnung.{1,10}ihr.{1,15}konto/i
 /letzte warnung.{1,10}(verdächtige|vorladung)/iu
 
@@ -147,6 +148,7 @@
 /überprüfen sie ihre.{1,15}(kontodaten|persönlichen daten)/iu
 
 # V
+/verifiziere deine.{1,10}e?.?mail/i
 
 # W
 /wichtige?.{1,10}aktualisieren sie/i
