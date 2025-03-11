@@ -125,7 +125,8 @@
 
 # I
 /ihr personalbedarf/i
-/ihr wlan.?signal/i
+/ihr.{1,10}(4g|lte).{1,5}wifi/i
+/ihr.{1,10}wlan.?signal/i
 
 /informationen.{1,10}unternehmen.{1,10}schweiz/iu
 
