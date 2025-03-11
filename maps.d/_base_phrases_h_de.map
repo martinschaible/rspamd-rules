@@ -7,20 +7,11 @@
 
 # Answer
 # ------------------------------------------------------------------------------
-/antworten sie.{1,15}ausschließlich über/iu
-/antworten sie.{1,15}um weitere informationen zu erhalten/i
-/antworten sie.{1,15}wenn sie diese.{1,10}e?.?mail erhalten haben/i
-
 /sie sich bei mir.{1,10}alle informationen zu erhalten/i
 /weiter.?geht.{1,10}antworten sie umgehend per e?.?mail/i
 
 # Attention, Important, Urgent
 # ------------------------------------------------------------------------------
-/(achtung|attn|hello).{0,10}der.{1,10}gewinner/i
-/(achtung|attn|hello).{1,10}begünstigter/iu
-
-/dringend.{1,10}fordern sie/i
-/dringende.{1,10}vertrauliche nachricht für sie/iu
 /informationen zu dieser.{1,15}wichtigen.{1,10}angelegenheit/i
 /wichtige mitteilung.{1,10}sehr geehrter kunde/i
 
@@ -127,8 +118,6 @@
 # ------------------------------------------------------------------------------
 /ich etwas.{1,10}wichtiges mit ihnen besprechen muss/i
 
-/ich.{1,10}ein wichtiges thema mit ihnen besprechen/i
-/ich.{1,10}einen wichtigen vorschlag mit ihnen besprechen/i
 /ich.{1,10}habe sehr wichtige informationen für sie/iu
 /ich.{1,10}habe etwas sehr wichtiges mit ihnen zu besprechen/i
 /ich.{1,10}habe eine.{1,10}wichtige information/i
@@ -138,8 +127,6 @@
 
 /sie kontaktieren.{1,10}ich etwas sehr wichtiges/i
 
-/dies ist eine sehr wichtige botschaft/i
-
 /wichtig.{1,10}wir.{1,10}e?.?mail.{1,10}kommunizieren/i
 /wichtig.{1,10}mit ihnen zu besprechen.{1,10}bitte antworten/i
 /wichtigen brief an.{1,10}e?.?mail.?adresse gesendet/i
@@ -148,21 +135,6 @@
 # ------------------------------------------------------------------------------
 /klicken sie auf.{1,10}antworten/i
 
-# Using free Website
-# ------------------------------------------------------------------------------
-/unserer? kostenlosen? internet.?seite/i
-/kostenlosen? internet.?seite.{1,10}erfahren sie/i
-
-# Profile
-# ------------------------------------------------------------------------------
-
-# Religious
-# ------------------------------------------------------------------------------
-/gott segne sie.{1,10}(frau|herr)/i
-/ich darüber gebetet habe/iu
-
-# Sickness, Dying :-)
-# ------------------------------------------------------------------------------
 # Silly lies
 # ------------------------------------------------------------------------------
 /folgende nachricht konnte nicht auf ihr mobiltelefon/i
@@ -174,13 +146,9 @@
 
 # Unclassified
 # ------------------------------------------------------------------------------
-/ich bin hier.{1,10}um ihnen/i
-/ich möchte mit ihnen kommunizieren/iu
 /ihr gewinner.?team/i
 
 /absolut legal und.{1,5}100.{1,5}risikofrei/i
-
-/ein.{1,10}ernstes thema mit ihnen besprechen/i
 
 /hier ist die letzte warnung/i
 
