@@ -37,20 +37,20 @@
 /anfrage\*/i
 
 /anspruche/i
-/anspruchs!/i
+/anspruchs.?!/i
 /^ansprüche$/iu
-/ansprüche!/iu
+/ansprüche.?!/iu
 /ansprüche\./iu
 
 /arbeitnehmerüberlassung/iu
 /atm.?karte/i
 #/aufmerksamkeit$/i
-/aufmerksamkeit!/i
+/aufmerksamkeit.?!/i
 /ausverkaufsalarm/i
 
 # B
 /bearbeitungsfortschritt/i
-/begrenzter!/i
+/begrenzter.?!/i
 /^begünstigter$/iu
 
 /beitragsrückerstattung/iu
@@ -69,7 +69,7 @@
 /^darlehen$/i
 /@darlehen/i
 /darlehen\?/i
-/darlehen!/i
+/darlehen.?!/i
 #/-darlehen/i
 
 /darlehensangebot/i
@@ -95,7 +95,7 @@
 /erbschaftsfonds/i
 /erbschaftsübertragung/iu
 
-/erforderlich!/i
+/erforderlich.?!/i
 /erinnering/i 
 
 /esaver/i
@@ -331,8 +331,9 @@ fettverbrenner/i
 /unternehmensdatenbank/i
 
 # V
-/verdienen!/i
+/verdienen.?!/i
 /verfugbar/i
+/verifizieren.?!/i
 /verkehrsordnungswidrigkeit/i
 /verlosung:/i
 /versandaktualisierung/i
@@ -359,6 +360,6 @@ fettverbrenner/i
 /zahlungsüberprüfung/iu
 
 /zustellungsproblem/i
-/zustellversuch!/i
+/zustellversuch.?!/i
 
 /zollabsagens/i
