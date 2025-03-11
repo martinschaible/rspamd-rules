@@ -7,10 +7,6 @@
 
 # Accounts
 # ------------------------------------------------------------------------------
-
-/(attention|reminder).{1,10}de.?activation.{1,10}account/i
-/(attention|reminder).{1,10}prevent account hold/i
-
 /reset your information/i
 /unusual activity on your account/i
 
@@ -35,7 +31,6 @@
 /e?.?mail.{1,10}account validation for/i
 /e?.?mail.{1,10}verification.{1,10}action required/i
 
-/please validate now/i
 /suspended.{1,15}confirm your e?.?mail/i
 
 # Locking Account
@@ -50,43 +45,10 @@
 #
 #
 
-# Parcel
-# ------------------------------------------------------------------------------
-/(package|parcel|shipment).{1,10}awaiting collection/i
-
-/your (package|parcel|shipment).{1,10}not delivered/i
-/your (package|parcel|shipment).{1,10}has been returned/i
-
-/payment for your (package|parcel|shipment)/i
-
-#
-#
-#
-
-# Winning, Present, Rewards
-# ------------------------------------------------------------------------------
-/confirm.{1,10}receipt.{1,10}win/i
-
-/life.?changing gift/i
-
-/trying to reach you.{1,10}please respond/i
-
-/you.{1,10}received.{1,10}target reward/i
-
-# Rewards
-/reward.{1,10}you have been accepted/i
-/rewards.?panel/i
-
-/you.{1,10}received a.{1,20}reward/i
-/you.{1,10}selected for.{1,20}reward/i
-/your reward has been authorized/i
-
 # Companies, Products
 # ------------------------------------------------------------------------------
 /paypal.?gift.?card now/i
 /win.{1,10}paypal.{1,10}gift.?card/i
-
-/car.?emergency.?kit/i
 
 # Payments
 # ------------------------------------------------------------------------------
@@ -98,98 +60,9 @@
 # ------------------------------------------------------------------------------
 /subscription renewal.{1,10}payment due/i
 
-#
-#
-#
-
-# Delivery pending, bounced, blocked, hold
-# ------------------------------------------------------------------------------
-/\.(ch|com|de|org).{1,10}de.?activation notice/i
-/\.(ch|com|de|org).{1,10}mail.?server closure/i
-/\.(ch|com|de|org).{1,10}server.{1,10}password.{1,10}expired/i
-/\.(ch|com|de|org).{1,10}warning{1,10}the e?.?mail account/i
-/\.(ch|com|de|org).{1,10}will be blocked/i
-
-/access unread.{1,10}(e?.?mail|messages)/i
-
-/disconnected from sending.{1,10}receiving e?.?mails/i
-/have.{1,10}undelivered e?.?mail.{1,10}your inbox/i
-
-/incoming.{1,10}(e?.?mail|messages).{1,10}has been stopped/i
-/incoming.{1,10}(e?.?mail|messages).{1,10}(failed|pending)/i
-/incoming.{1,10}pending.{1,10}(e?.?mail|messages) for/i
-
-/important.{1,10}(e?.?mail|messages).{1,10}blocked/i
-
-/(e?.?mail|messages).{1,10}in your e?.?mail.?quarantine/i
-/pending.{1,10}(e?.?mails|messages).{1,10}undelivered for/i
-
-/report.{1,10}incoming.{1,10}(e?.?mails|messages)/i
-/restricted messages for/i
-
-/server.{1,20}\.(ch|com|de|org).{1,10}expired/i
-/server refresh required/i
-
-/this e?.?mail.?account.{1,30}is suspended/i
-
-/(review|you have).{1,15}(held|important|undelivered|pending).{1,15}(e?.?mails?|messages?)/i
-/you have.{1,15}(held|important|undelivered|pending).{1,10}incoming.{1,15}(e?.?mails?|messages?)/i
-/your e?.?mail.?account.{1,10} will be deleted/i
-/your incoming.{1,10}(e?.?mail|messages) bounced/i
-
-/your e?.?mail.?account closure/i
-/e.?message upgrade security/i
-
-# To heavy
-#/verify your e?.?mail/i
-
-# WebMail
-# ------------------------------------------------------------------------------
-/web.?mail notification/i
-/web.?mail software upgrade/i
-
-/important.{1,10}web.?mail.{1,10}software/i
-
-/your web.?mail password/i
-
-# Winning, Free stuff
-# ------------------------------------------------------------------------------
-/claim your.{1,20}rewards/i
-
-#
-#
-#
-
 # Games
 # ==============================================================================
 /collect your coins/i
-
-#
-#
-#
-
-# Companies and Organisations
-# ------------------------------------------------------------------------------
-
-# Fedex
-/fedex.?ups/i
-
-# JCB
-/jcbカ/i
-/myjcb/i
-
-# Meta
-/secure your metamask account/i
-
-# Netflix
-/reminder.{1,10}your netflix payment/i
-
-# Postfinance
-/postfinance.{1,10}update/i
-
-#
-#
-#
 
 # Unclassified
 # ------------------------------------------------------------------------------
@@ -198,10 +71,6 @@
 #
 #
 #
-
-# FRENCH
-# ------------------------------------------------------------------------------
-/\[action requise\]/i
 
 # SPANISH
 # ------------------------------------------------------------------------------
