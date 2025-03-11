@@ -99,7 +99,7 @@
 /important.{1,10}grant notification/i
 
 /inheritance.{1,10}(for|to) you/i
-/inheritance.{1,10}matter/i
+/inheritance.{1,10}(matter|notice)/i
 
 /internet crime complaint center/i
 
@@ -206,22 +206,23 @@
 /your.{1,10}e?.?mail.?id/i
 
 /your.{1,10}company for vendor/i
-/your.{1,10}compensation has been/i
 
-/your.{1,15}immigration to the usa?/i
-
-/your.{1,10}unpaid funds/i
-/your.{1,10}yellow pages/i
-
+# Compensation
 /your.{1,10}compensated/i
+/your.{1,10}(compensation|grant).{1,10}has been/i
 /your.{1,10}(compensation|grant).{1,10}payment/i
-/your.{1,10}payment.{1,10}(available|approved)/i
-
-/your.{1,15}stock.?award/i
 
 # Funds
 /your.{1,10}fund$/i
 /your.{1,10}funds?.{1,15}(approved|has been|ready for|released|payout)/i
 /your.{1,10}funding notice/i
+
+/your.{1,15}immigration to the usa?/i
+
+/your.{1,10}(last).?name matches/i
+/your.{1,10}payment.{1,10}(available|approved)/i
+/your.{1,15}stock.?award/i
+/your.{1,10}unpaid funds/i
+/your.{1,10}yellow pages/i
 
 # Z

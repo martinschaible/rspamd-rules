@@ -94,6 +94,8 @@
 
 /jetzt bereinigen/i
 /jetzt handeln/i
+
+/jetzt.{1,15}konto aktualisieren/i
 /jetzt maßnahmen ergreifen/i
 /jetzt umstellen/i
 
@@ -109,7 +111,7 @@
 /letzte erinnerung.{1,20}ausstehenden lieferung/i
 /letzte erinnerung.{1,20}ihr.{1,15}speicher/i
 
-/letzte warnung.{1,10}bestätigen sie ihr konto/iu
+/letzte warnung.{1,10}bestätigen sie ihr.{1,15}konto/iu
 /letzte warnung.{1,10}ihr.{1,15}konto/i
 /letzte warnung.{1,10}(verdächtige|vorladung)/iu
 
@@ -133,6 +135,7 @@
 /sicherheitsaktualisierung durchführen/i
 /sicherheitsaktualisierung erforderlich/i
 
+/sicherheitsmaßnahmen.{1,15}jetzt.{1,15}konto/i
 /sicherheitsupdate.{1,10}überprüfen sie ihr/i
 
 /sofort öffnen/iu
@@ -145,7 +148,7 @@
 /unverzügliche reaktion notwendig/iu
 
 /update erforderlich/i
-/update.{1,10}kontosicherheit/i
+/update.{1,15}kontosicherheit/i
 
 /überprüfen sie bestellung/i
 /überprüfen sie ihre.{1,15}daten jetzt/iu
@@ -158,9 +161,9 @@
 # W
 /wichtige?.{1,10}aktualisieren sie/i
 /wichtige?.{1,10}erinnerung.{1,10}daten checken/i
-/wichtige?.{1,10}kontofunktion(en)?/i
-/wichtige?.{1,10}kontowarnung/i
-/wichtige?.{1,10}(konto|profil).?informationen/i
+/wichtige?.{1,15}kontofunktion(en)?/i
+/wichtige?.{1,15}kontowarnung/i
+/wichtige?.{1,15}(konto|profil).?informationen/i
 
 /wichtige?.{1,10}registrierung.{1,10}mastercard/i
 
