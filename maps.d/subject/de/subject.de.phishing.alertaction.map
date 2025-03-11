@@ -21,7 +21,8 @@
 
 /aktivitäten erkannt.{1,10}maßnahmen erforderlich/i
 
-/aktualisieren sie.{1,10}sicherheit/i
+/aktualisieren sie.{1,15}konto/i
+/aktualisieren sie.{1,15}sicherheit/i
 /aktualisieren sie.{1,10}ihre?.{1,15}(informationen|kontoangaben|profil|zahlungsdaten)/i
 
 /aktualisierung erforderlich/i
@@ -59,6 +60,10 @@
 /(dringend|wichtig).{1,10}registrieren sie sich/i
 /(dringend|wichtig).{1,10}ungewöhnliche aktivitäten/iu
 /(dringend|wichtig).{1,10}zahlungsdetails/i
+
+/(dringende?|wichtige?).{1,10}mitteilung.{1,10}aktualisieren sie ihre/i
+/(dringende?|wichtige?).{1,10}mitteilung.{1,10}aktualisierung ihrer/i
+/(dringende?|wichtige?).{1,10}mitteilung.{1,10}zollgebühren/iu
 
 /dringende information.{1,10}korrektur/i
 /dringlichkeit.{1,10}aufmerksamkeit/i
@@ -157,8 +162,6 @@
 /wichtige?.{1,10}kontowarnung/i
 /wichtige?.{1,10}(konto|profil).?informationen/i
 
-/wichtige?.{1,10}mitteilung.{1,10}aktualisierung ihrer/i
-/wichtige?.{1,10}mitteilung.{1,10}zollgebühren/iu
 /wichtige?.{1,10}registrierung.{1,10}mastercard/i
 
 /wichtige?.{1,10}sicherheitsaktualisierung/i

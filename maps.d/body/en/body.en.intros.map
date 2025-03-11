@@ -43,14 +43,15 @@
 /i represent a team of over/i
 
 /i'?\s*a?m\b a.{1,10}(financial|representative|senior)/i
-/i'?\s*a?m\b a.{1,10}(broker|manager|web.?development)/i
+/i'?\s*a?m\b a.{1,10}(broker|web.?development)/i
 
-/i'?\s*a?m\b a.{1,10}(bank|development|general).{1,10}manager/i
-/i'?\s*a?m\b a.{1,10}(international|investment).{1,10}manager/i
-/i'?\s*a?m\b a.{1,10}(sales|senior|portfolio|purchasing|sales).{1,10}manager/i
+/i'?\s*a?m\b a.{1,10}(bank|development|general)?.{1,10}manager/i
+/i'?\s*a?m\b a.{1,10}(international|investment)?.{1,10}manager/i
+/i'?\s*a?m\b a.{1,10}(sales|senior|portfolio|purchasing)?.{1,10}manager/i
 
 /i'?\s*a?m\b a.{1,10}importer from/i
-/i'?\s*a?m\b a.{1,10}international.{1,10}(broker|consultant|investment)/i 
+/i'?\s*a?m\b.{1,10}international.{1,10}(broker|consultant|investment)/i 
+/i'?\s*a?m\b.{5,25}swedish.{1,10}investor/i
 
 /i'?\s*a?m\b.{5,25}i am (a|the).{1,15}manager/i
 
