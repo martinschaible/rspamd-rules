@@ -177,15 +177,8 @@
 
 # Greetings, My name is ...
 # ------------------------------------------------------------------------------
-/my name is.{5,25}a (philanthropist|product analyst|purchase.?representative)/i
-/my name is.{5,25}an employee of/i
-/my name is.{1,25}barr(\.|ister)/i
-/my name is.{1,30}chief procurement officer/i
 /my name is.{1,25}international.{1,10}(fund|trust)/i
 
-/my name is.{5,25}i.?a?m.{1,15}(a|the) project.?manager/i
-/my name is.{1,25}i.?a?m.{1,30}(accountant|agent|adviser|attorney|banker|citizen of|forensic|partner at|senior|solicitor)/i
-/my name is.{1,25}i.?a?m.{1,15}(import|indian?|professional)/i
 /my name is.{5,25}i.?a?m.{1,15}the.{1,20}(lead|principal)/i
 /my name is.{5,25}i.?a?m.{1,15}writing (this message|to you)/i
 
@@ -196,7 +189,6 @@
 /my name is.{5,25}i work for the/i
 /my name is.{5,25}i would like to talk to you/i
 
-/my name is.{5,25}the principal/i
 /my name is.{5,25}we are specialized in/i
 
 /mine real name is/i
