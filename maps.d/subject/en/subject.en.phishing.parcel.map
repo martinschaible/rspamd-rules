@@ -51,8 +51,9 @@
 # O
 
 # P
-/package is pending for delivery/i
-/package is ready for (processing|shipping)/i
+/(package|parcel|shipment).{1,10}(awaiting|pending|ready).{1,10}(collection|delivery|processing|shipping)/i
+
+/payment for your (package|parcel|shipment)/i
 
 # Q
 
@@ -75,5 +76,8 @@
 
 # Y
 /you have.{1,10}(1|one).{1,10}pending delivery/i
+
+/your (package|parcel|shipment).{1,10}not delivered/i
+/your (package|parcel|shipment).{1,10}has been returned/i
 
 # Z

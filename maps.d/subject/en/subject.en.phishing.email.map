@@ -13,12 +13,19 @@
 # Generic
 # ==============================================================================
 
-# TLD in front
+# TLD in front, usualy (ch|com|de|org)
 /\.[a-z]{1,4}.{1,5}administrator notification/i
 /\.[a-z]{1,4}.{1,5}confirm to complete/i
 /\.[a-z]{1,4}.{1,5}update notification/i
 
+/\.[a-z]{1,4}.{1,10}de.?activation notice/i
+/\.[a-z]{1,4}.{1,10}mail.?server closure/i
+/\.[a-z]{1,4}.{1,10}server.{1,10}password.{1,10}expired/i
+/\.[a-z]{1,4}.{1,10}warning{1,10}the e?.?mail account/i
+/\.[a-z]{1,4}.{1,10}will be blocked/i
+
 # A
+/access unread.{1,10}(e?.?mail|messages)/i
 
 # B
 
@@ -31,9 +38,13 @@
 
 /delayed messages in/i
 
+/disconnected.{1,15}(receiving|sending).{1,15}e?.?mails/i
+
 # E
 /e?.?mail.{1,10}password will be disabled/i
 /e?.?mail.{1,10}verification notice/i
+
+/(e?.?mail|messages).{1,10}in your.{1,15}quarantine/i
 
 # F
 
@@ -42,7 +53,12 @@
 # H
 
 # I
-/incoming messages?.{1,10}blocked/i
+/important.{1,10}web.?mail.{1,10}software/i
+
+/incoming.{1,10}(e?.?mail|messages).{1,10}has been stopped/i
+/incoming.{1,10}(e?.?mail|messages).{1,10}(blocked|bounced|failed|pending)/i
+
+/incoming.{1,10}pending.{1,10}(e?.?mail|messages) for/i
 
 # J
 
@@ -58,10 +74,12 @@
 # O
 
 # P
+/pending.{1,10}(e?.?mails|messages).{1,10}undelivered for/i
 
 # Q
 
 # R
+/report.{1,10}incoming.{1,10}(e?.?mails|messages)/i
 /reset password.{1,15}(fail|message)/i
 
 /re.?validate server/i
@@ -72,8 +90,12 @@
 /review incoming.{1,15}(e?.?mail|message)/i
 
 # S
+#             |--- TLD --|
+/server.{1,20}\.[a-z]{1,4}.{1,10}expired/i
+/server.{1,10}refresh required/i
 
 # T
+/(this|your).{1,10}e?.?mail.?account.{1,30}is suspended/i
 
 # U
 /undeliverable.{1,10}outgoing e?.?mail failed/i
@@ -86,14 +108,20 @@
 /verify your mail.?box/i
 
 # W
+/web.?mail (notification|software upgrade)/i
 
 # X
 
 # Y
-/you have.{1,10}failed.{1,10}e?.?mail deliveries/i
+/you have.{1,25}incoming.{1,15}(e?.?mails?|messages?)/i
+/you have.{1,10}failed.{1,10}(e?.?mail|message) deliveries/i
 /you have.{1,10}unread.{1,10}(e?.?mail|message) from/i
+
+/your.{1,10}e?.?mail.?account closure/i
 
 /your.{1,10}mailbox.{1,10}de.?activation/i
 /your.{1,10}mailbox.{1,10}has been flagged/i
+
+/your.{1,10}web.?mail password/i
 
 # Z

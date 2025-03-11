@@ -22,7 +22,7 @@
 # B
 
 # C
-/claim your prize/i
+/claim your.{1,20}(prize|rewards)/i
 
 /congratulations.{1,10}you.{1,10}won/i
 
@@ -46,6 +46,7 @@
 # K
 
 # L
+/life.?changing.{1,10}gift/i
 
 # M
 
@@ -58,8 +59,11 @@
 # Q
 
 # R
+/reward.{1,10}has been authorized/i
+
 /reward.{1,10}is (here|waiting)/i
 /reward.{1,10}open (immediately|now)/i
+/reward.{1,10}you have been accepted/i
 
 # S
 /secure your gift/i
@@ -80,6 +84,7 @@
 /you.{1,10}are selected for.{1,10}potential/i
 
 /you.{1,10}been chosen/i
+/you.{1,10}(received|selected).{1,20}reward/i
 /you.{1,10}won an/i
 
 # Z

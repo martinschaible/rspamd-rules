@@ -48,8 +48,10 @@
 /emura/i
 
 # F
+/fedex.?ups/i
 
 # G
+
 
 # H
 
@@ -65,6 +67,10 @@
 
 # J
 
+# JCB
+/jcbカ/i
+/myjcb/i
+
 # K
 
 # L
@@ -79,12 +85,17 @@
 # P
 /post-ch/i
 
+/postfinance.{1,10}update/i
+
 # Q
 
 # R
+/reminder.{1,10}your netflix payment/i
 
 # S
 /sbb ccf ffs/i
+
+/secure your metamask account/i
 
 /swiss post/i
 /^swisspass$/i
