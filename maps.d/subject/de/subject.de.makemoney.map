@@ -8,14 +8,15 @@
 
 # Bitcoin, KI
 # ------------------------------------------------------------------------------
-/(bitcoin|crypto|krypto).{1,10}gewinne?\?/i
+/(bitcoin|btc|crypto|krypto).{0,10}.{1,10}gewinne?\?/i
 
-/(bitcoin|crypto|krypto).{1,20}(aufwertung|ausgesorgt|bietet|chance)/i
-/(bitcoin|crypto|krypto).{1,20}(enorme|goldrausch|handeln|konto|millionen|portfolio|chancen?|trader)/i
-/(bitcoin|crypto|krypto).{1,20}(verhilft|versteuern|welle)/i
-/(bitcoin|crypto|krypto).{1,20}wieder lohnt/i
+/(bitcoin|btc|crypto|krypto).{0,10}.{1,20}(aufwertung|ausgesorgt|bietet|chance)/i
+/(bitcoin|btc|crypto|krypto).{0,10}.{1,20}(enorme|geheimnis|goldrausch|handeln)/i
+/(bitcoin|btc|crypto|krypto).{0,10}.{1,20}(konto|millionen|portfolio|chancen?|trader)/i
+/(bitcoin|btc|crypto|krypto).{0,10}.{1,20}(verhilft|versteuern|welle)/i
+/(bitcoin|btc|crypto|krypto).{0,10}.{1,20}wieder lohnt/i
 
-/(bitcoin|crypto|krypto).{1,15}(machen|macht).{1,10}reich/i
+/(bitcoin|btc|crypto|krypto).{0,10}.{1,15}(machen|macht).{1,10}reich/i
 
 #
 /schock.{1,10}(ai|chatgpt|ki)/i
@@ -68,7 +69,7 @@
 /automatischer aktienhandel/i
 
 # B
-/banken geschockt/i
+/banken.{1,10}(geschockt|nicht wollen)/i
 /bullenmarkt.{1,15}(nicht|verpassen)/i
 
 # C
