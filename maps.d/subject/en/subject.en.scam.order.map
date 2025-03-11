@@ -24,6 +24,7 @@
 /(brochure|catalog|catalogue).{1,10}request/i
 
 # C
+/confirm po please/i
 
 # D
 
@@ -38,6 +39,9 @@
 
 # I
 /invitation to tender/i
+
+# Sample: inquiry info@amelec.ch
+/inquiry [a-z]{3,15}@/i
 
 /inquiry.?order/i
 /inquiry.{1,10}investment/i
@@ -62,9 +66,16 @@
 /new po \d{1,10}/i
 
 # O
-/order request.{1,10}(new|project)/i
+/order_confirmation/i
+
+/order inquiry.?--/i
+/order inquiry.{1,10}shipping/i
+
+/order request.{1,10}(new|partnership|project|via)/i
 
 # P
+/price.?list.{1,10}(brochure|catalog|catalogue)/i
+
 /po.?file via wetransfer/i
 
 /product.{1,10}(inquiry|pricing).{1,10}shipping/i
@@ -78,12 +89,15 @@
 /quotation.{1,20}request.{1,10}processing/i
 
 # R
+/request.{1,10}company.{1,20}(brochure|catalog|catalogue)/i
+
 /request for offer/i
+/request.?quotation/i
+
 /request.{1,10}quotation$/i
 /request.{1,10}quotation from/i
+/request.{1,10}quotation.{1,10}rfq/i
 /request.{1,10}quotation.{1,20}purchase/i
-
-/request.?quotation/i
 
 # Sample: RFQ # 0110-2025
 /^rfq.{1,5}\d{2,5}-\d{2,5}/i
@@ -93,6 +107,8 @@
 /rfq\//i
 /rfq.{1,5}p\.?o/i
 
+/rfq#order/i
+/rfq.?(oq|request)/i
 /rfq needed asap/i
 
 # S
@@ -113,7 +129,7 @@
 /vendor procurement project/i
 
 # W
-/we want to buy your products/i
+/we (are interested in|want to buy) your.{1,10}products?/i
 
 # X
 

@@ -35,6 +35,8 @@
 # Starts with a number
 /\(\d\) message from/i
 
+/message in your.{1,15}support.?panel/i
+
 /message from.{1,10}friend/i
 /message for you.{1,10}(important|urgent)/i
 

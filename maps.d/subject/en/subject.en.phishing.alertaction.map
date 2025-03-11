@@ -17,14 +17,31 @@
 /\d{1,2}:\d{1,2}:\d{1,2}.{1,10}action required/i
 
 # A
+/account safety alert/i
+/account security notification/i
+
 /action required.{1,15}(activate|update) your/i
 /action required.{1,10}(account|improve|payment failed)/i
+/action required.{1,10}enable 2fa/i
 /action required.{10,35}for violation/i
+/action required.{1,10}for your.{1,15}@/i
+
+/action required.{1,10}identity verification/i
 /action required.{1,30}new notifications/i
+
 /action required.{10,35}password (about|expires)/i
+/action required.{1,15}prevent account/i
+
 /action required.{1,10}subscription renewal/i
 
 /action required.{1,10}(imap|pop3)/i
+/action required.{1,20}de votre carte/i
+/action required.{1,10}(upgrade for)/i
+
+/action required.{1,10}you have.{1,15}e?.?mail/i
+/action required.{1,10}your.{1,15}(payment|web.?mail)/i
+
+/alert.{1,10}your domain/i
 
 # B
 
@@ -51,7 +68,7 @@
 
 /important mailbox/i
 
-/Important (notice|notification).{1,10}for.{1,15}@/i
+/important (notice|notification).{1,10}for.{1,15}@/i
 /important (notice|notification).{1,10}password expiration/i
 /important (notice|notification).{1,10}upgrade/i
 
@@ -80,6 +97,8 @@
 /(receiving|reminder).{1,15}action required/i
 /reply back today/i
 
+/request.{1,10}expiring password/i
+
 # S
 /security alert.{1,10}funds/i
 /security update.{1,25}confirm your/i
@@ -87,11 +106,26 @@
 # T
 
 # U
+/update.{1,10}account information today/i
+/update.{1,15}shipping address/i
+
+/update to.{1,10}new.{1,20}account/i
+/update to.{1,10}new.{1,20}\.(ch|com|de|org) now/i
+
+/update.{1,10}your.{1,10}mailbox settings/i
+/update.{1,15}your.{1,10}web.?mail/i
+
+/urgent.{1,10}action.{1,15}delivery/i
+/urgent.{1,10}e.?mail.?confirmation/i
+/urgent.{1,10}two.?factor.{1,15}(activation|authentication)/i
 
 # V
+/verify your.{1,15}.(ch|de|org).{1,10}e?.?mail/i
 
 # W
 /wallet alert.{1,10}action required/i
+
+/warning.{1,10}password recovery/i
 
 # X
 

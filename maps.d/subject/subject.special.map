@@ -133,6 +133,8 @@
 # Too many False/Positives 
 #/\.\.\.[a-z]{5,15}/i
 
+/\(action required.?\)/i
+
 # Sample: (Germany) |
 /\([a-z]{2,10}\) \|/i
 
