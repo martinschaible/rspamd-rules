@@ -5,45 +5,14 @@
 #  10 | English        |
 # ==============================================================================
 
-# Fake orders
-# ------------------------------------------------------------------------------
-/request for company.{1,20}(brochure|catalog|catalogue)/i
-/request for quotation.{1,10}rfq/i
-
-# Sample: inquiry info@amelec.ch
-/inquiry [a-z]{3,15}@/i
-
-/we are interested in your products?/i
-
-/price.?list.{1,10}(brochure|catalog|catalogue)/i
-
-/order_confirmation/i
-
-/order inquiry.?--/i
-/order inquiry.{1,10}shipping/i
-/order.{1,10}partnership/i
-/order request via/i
-/confirm po please/i
-
-/rfq.?(oq|request)/i
-/rfq#order/i
-
-# Cards
-# ------------------------------------------------------------------------------
-
 # Accounts
 # ------------------------------------------------------------------------------
-/account security notification/i
-/account safety alert/i
-
-/action required.{1,10}identity verification/i
 
 /(attention|reminder).{1,10}de.?activation.{1,10}account/i
 /(attention|reminder).{1,10}prevent account hold/i
 
 /reset your information/i
 /unusual activity on your account/i
-/update to the new.{1,20}account/i
 
 /log.?in to your account/i
 
@@ -52,8 +21,6 @@
 # Account - 2FA Activation
 # ------------------------------------------------------------------------------
 /activation required on.{1,20}user account/i
-/action required.{1,10}enable 2fa/i
-/urgent.{1,10}two.?factor.{1,10}authentication activation/i
 
 /secure your funds with/i
 
@@ -70,17 +37,10 @@
 
 /please validate now/i
 /suspended.{1,15}confirm your e?.?mail/i
-/update your.{1,10}account information today/i
 
 # Locking Account
 # ------------------------------------------------------------------------------
 /your.{1,15}account.{1,15}(has been temporarily|might be).{1,10}(restricted|suspended)/i
-
-/request.{1,10}expiring password/i
-
-# Banking
-# ------------------------------------------------------------------------------
-/action required.{1,20}de votre carte/i
 
 # Fake human resource department
 # ------------------------------------------------------------------------------
@@ -93,9 +53,6 @@
 # Parcel
 # ------------------------------------------------------------------------------
 /(package|parcel|shipment).{1,10}awaiting collection/i
-
-/update your shipping address/i
-/urgent.{1,10}action on your delivery/i
 
 /your (package|parcel|shipment).{1,10}not delivered/i
 /your (package|parcel|shipment).{1,10}has been returned/i
@@ -133,19 +90,12 @@
 
 # Payments
 # ------------------------------------------------------------------------------
-/action required.{1,10}your.{1,15}payment/i
-
 /payment.?failed.{1,10}invoice.?id/i
 
 /your payment didn’t go through/i
 
-# Payment data
-# ------------------------------------------------------------------------------
-
 # Subscriptions
 # ------------------------------------------------------------------------------
-/action required.{1,10}(an upgrade for|prevent account)/i
-
 /subscription renewal.{1,10}payment due/i
 
 #
@@ -161,8 +111,6 @@
 /\.(ch|com|de|org).{1,10}will be blocked/i
 
 /access unread.{1,10}(e?.?mail|messages)/i
-/action required.{1,10}you have.{1,10}new e?.?mail/i
-/action required for your.{1,15}@/i
 
 /disconnected from sending.{1,10}receiving e?.?mails/i
 /have.{1,10}undelivered e?.?mail.{1,10}your inbox/i
@@ -179,11 +127,6 @@
 /report.{1,10}incoming.{1,10}(e?.?mails|messages)/i
 /restricted messages for/i
 
-/update your.{1,10}mailbox settings/i
-/update to the new.{1,20}\.(ch|com|de|org) now/i
-
-/urgent.{1,10}e.?mail.?confirmation/i
-
 /server.{1,20}\.(ch|com|de|org).{1,10}expired/i
 /server refresh required/i
 
@@ -199,27 +142,15 @@
 
 # To heavy
 #/verify your e?.?mail/i
-/verify your.{1,15}.(ch|de|org).{1,10}e?.?mail/i
-/warning.{1,10}password recovery/i
 
 # WebMail
 # ------------------------------------------------------------------------------
 /web.?mail notification/i
 /web.?mail software upgrade/i
 
-/action required.{1,10}your web.?mail/i
 /important.{1,10}web.?mail.{1,10}software/i
 
-/update for your web.?mail/i
 /your web.?mail password/i
-
-# Domains
-# ------------------------------------------------------------------------------
-/alert.{1,10}your domain/i
-
-# Messages
-# ------------------------------------------------------------------------------
-/important message in your.{1,15}support.?panel/i
 
 # Winning, Free stuff
 # ------------------------------------------------------------------------------
@@ -262,12 +193,7 @@
 
 # Unclassified
 # ------------------------------------------------------------------------------
-/\(action required.?\)/i
 /please confirm to continue/i
-
-# Masked
-# ------------------------------------------------------------------------------
-/EXPPIRED/i
 
 #
 #
