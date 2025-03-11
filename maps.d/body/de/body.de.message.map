@@ -17,9 +17,20 @@
 
 /achtung.{1,10}wir bitten um.{1,10}dringende/i
 
+/(achtung|attn|hello).{1,10}begünstigter/iu
+/(achtung|attn|hello).{1,10}der.{1,10}gewinner/i
+
+/dies ist eine sehr wichtige botschaft/i
+
+/dringend.{1,10}fordern sie/i
+/dringende?.{1,10}vertrauliche nachricht für sie/iu
+
 # Message
 # ------------------------------------------------------------------------------
-/antworten sie auf diese nachricht/i
+/antworten sie.{1,15}auf diese nachricht/i
+/antworten sie.{1,15}ausschließlich über/iu
+/antworten sie.{1,15}um weitere informationen zu erhalten/i
+/antworten sie.{1,15}wenn sie diese.{1,10}e?.?mail erhalten haben/i
 
 /(benachrichtigung|brief|e?.?mail).{1,10}sie überraschend kommt/iu
 /(benachrichtigung|brief|e?.?mail).{1,10}sie überraschen wird/iu
