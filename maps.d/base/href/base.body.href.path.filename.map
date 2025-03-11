@@ -12,57 +12,57 @@
 # ==============================================================================
 
 # 17.02.25 Phishing Parcel, french
-/\/01fr\.html/i
+/\/01fr\.html?/i
 
-/\/adobe\.html/i
-/\/amazon[a-z0-9]{0,10}\.(html|php)/i
+/\/adobe\.html?/i
+/\/amazon[a-z0-9]{0,10}\.(html?|php)/i
 /\/attachments?\.xls/i
-/\/avast\.html/i
+/\/avast\.html?/i
 
-/\/bitcoin\.html/i
+/\/bitcoin\.html?/i
 /\/click\.php/i
-/\/dating\.html/i
+/\/dating\.html?/i
 
 # Forwarder
 /\/global_outurl\.php/i
 
-/\/indd(e|x)x\.(html|php)/i
-/\/indexbox\.(html|php)/i
-/\/indexe\.(html|php)/i
+/\/indd(e|x)x\.(html?|php)/i
+/\/indexbox\.(html?|php)/i
+/\/indexe\.(html?|php)/i
 
 /\/info\.do/i
 
-/\/investieren\.(html|php)/i
-/\/invest(ment)?\.(html|php)/i
-/\/invoice\.s?html/i
+/\/investieren\.(html?|php)/i
+/\/invest(ment)?\.(html?|php)/i
+/\/invoice\.s?html?/i
 
-/\/keto.?plus\.html/i
+/\/keto.?plus\.html?/i
 
-/\/linked\.html/i
-/\/loginweb\.html/i
+/\/linked\.html?/i
+/\/loginweb\.html?/i
 
-/\/mail\.html/i
-/\/moviepark\.html/i
+/\/mail\.html?/i
+/\/moviepark\.html?/i
 
 # 09.01.25 - Potency Product
-/\/opyst\.html/i
+/\/opyst\.html?/i
 
-/\/red\.(html|php)/i
-/\/red1\.(html|php)/i
-/\/redirect\.html/i
-/\/rooster\.html/i
+/\/red\.(html?|php)/i
+/\/red1\.(html?|php)/i
+/\/redirect\.html?/i
+/\/rooster\.html?/i
 
-/\/serv\d\.html/i
+/\/serv\d\.html?/i
 
-/\/url\.html/i
+/\/url\.html?/i
 
 # Used in real life
 #/\/verfolgen\.html/i
 
-/\/web\.(html|php)/i
+/\/web\.(html?|php)/i
 
-/\/[a-z]{1,15}\.index\.html/i
-/\/[a-z]{0,10}keto[a-z]{0,10}\.html/i
+/\/[a-z]{1,15}\.index\.html?/i
+/\/[a-z]{0,10}keto[a-z]{0,10}\.html?/i
 
 /\.xhtml/i
 
@@ -71,7 +71,7 @@
 # -> avoiding false/positives with this
 
 # 18.02.25 - Sample: https://storage.googleapis.com/9743934b507eab2/lf220.html
-/\.googleapis\.com\/[a-z0-9]{5,20}\/[a-z0-9]{5,20}\.html
+/\.googleapis\.com\/[a-z0-9]{5,20}\/[a-z0-9]{5,20}\.html?
 
 # Files with a very long filename
 # ------------------------------------------------------------------------------
