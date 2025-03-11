@@ -164,12 +164,12 @@
 
 /dhl-paket$/i
 /dhl.{0,5}\d{1,2}/i
-/dhl.{0,5}kundenservice/i
-/dhl.{0,5}lieferung/i
+
+/dhl.{0,5}delivery express/i
+/dhl.{0,5}(kundenservice|lieferung)/i
 /dhl.{0,5}logistik.?team/i
-/dhl.{0,5}paketstatus/i
-/dhl.{0,5}paketzentrum/i
-/dhl.{0,5}(express|germany|messages?|package|team|tracking|your)/i
+/dhl.{0,5}(paketstatus|paketzentrum)/i
+/dhl.{0,5}(germany|messages?|package|team|tracking|your)/i
 
 /dhl.?ups/i
 
@@ -288,7 +288,6 @@
 # M
 # ------------------------------------------------------------------------------
 /^mastercard$/i
-/medicare.?kit/i
 
 #/^meta$/i
 /meta ads team/i

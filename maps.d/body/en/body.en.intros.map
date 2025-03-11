@@ -15,6 +15,9 @@
 # D
 
 # E
+/(e.?mail|message) finds you well.{1,10}i work with a/i
+/(e.?mail|message) finds you well.{1,10}my name is/i
+/(e.?mail|message) reaches you in.{1,10}good faith.{1,10}my name is/i
 
 # F
 
@@ -69,8 +72,6 @@
 # L
 
 # M
-/message finds you well.{1,10}i work with a/i
-
 /my names (are|is) mrs?/i
 /my name is.{5,35}i am a merchant/i
 /my name is.{5,35}a registered/i
@@ -83,6 +84,7 @@
 /my name is.{1,5}(dr\.|sir)/i
 /my name is.{1,5}(miss|mrs?|ms)/i
 
+/my name is.{5,25}i am reaching out/i
 /my name is.{5,25}represent(ing)?/i
 
 # With title
@@ -111,6 +113,7 @@
 # Q
 
 # R
+
 /represent a.{1,10}(based|company|group)/i
 /represent an agency/i
 /represent mrs?\./i

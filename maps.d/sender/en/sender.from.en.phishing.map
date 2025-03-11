@@ -40,6 +40,11 @@
 #
 /microsoft.{0,10}admin/i
 
+# Kits for cars and stupid people
+# ------------------------------------------------------------------------------
+/(car|fire).{1,10}emergency.?kit/i
+/medicare.?kit/i
+
 #
 #
 #
@@ -56,7 +61,6 @@
 /billing.?team/i
 
 # C
-/car emergency kit/i
 /claim.{0,10}(free|refund)/i
 
 /^customer.{0,10}(feedback|support)/i
@@ -99,7 +103,6 @@
 
 /mail.?center/i
 
-/medicare.?kit/i
 /membership.?updates/i
 
 /message.{0,10}notification/i
