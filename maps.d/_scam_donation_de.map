@@ -189,6 +189,7 @@
 /ihnen eine.{1,10}spende von.{1,15}(millionen|tausend|dollar|euro?|gbp|usd)/i
 /ihnen eine.{1,10}spende überlassen/iu
 
+/ihnen.{1,15}(millionen|tausend|dollar|euro?|gbp|usd).{1,15}wohltätige zwecke gespendet/iu
 /ihnen.{1,15}(millionen|tausend|dollar|euro?|gbp|usd).{1,15}spenden/i
 /ihnen.{1,25}zur investition zu spenden/i
 
@@ -306,6 +307,7 @@
 
 /gespendet.{1,10}den anspruch senden sie/i
 /gespendet.{1,10}für den anspruch senden sie/iu
+/gespendet.{1,10}wenn sie interessiert sind/i
 /gespendet.{1,10}weitere informationen.{1,10}(kontaktieren sie|wenden sie sich)/i
 /gespendet.{1,10}kontaktieren sie uns.{1,20}informationen/i
 
