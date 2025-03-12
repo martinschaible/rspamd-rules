@@ -27,6 +27,9 @@
 # Sample: Hallo 111.118.177.133
 /[a-z]{5,15} \d{3}\.\d{3}\.\d{3}(\b|$)/i
 
+# Subject starts with a numnber and a colon
+/^\d:\b/i
+
 # Multiple special characters
 # ------------------------------------------------------------------------------
 # -> Theses RegEx might be constructed easier and better
