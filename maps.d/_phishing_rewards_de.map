@@ -112,10 +112,10 @@
 /team.{1,10}kaufland/i
 
 # ADAC, TCS
-/(auto|kfz).?notfall.?set.{1,15}(genehmigt|schenken|sichern|wartet)/i
+/(auto|kfz).?notfall.?set.{1,15}(genehmigt|gewinnen|schenken|sichern|wartet)/i
 /notfallset.{1,10}im auto/i
 
-/(erhalten|exklusives|fordern|gewinnen|kostenloses).{1,15}(auto|kfz).?notfall.?set/i
+/(chance|erhalten|exklusives|fordern|gewinnen|kostenloses).{1,15}(auto|kfz).?notfall.?set/i
 /(ihr|dieses).{1,15}(auto|kfz).?notfall.?set/i
 
 # AliExpress

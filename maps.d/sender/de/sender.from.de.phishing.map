@@ -40,12 +40,14 @@ _[a-z].{0,15}box/i
 
 # G
 /geschenk von/i
+
+/gewinn wartet/i
 /gewinner des/i
 
 # H
 
 # I
-/ihr.{0,15}vorteil/i
+/ihr.{0,15}(gewinn|vorteil)/i
 
 /ihre.{0,15}chance/i
 /ihre?.{0,15}(paket|sendung)/i
