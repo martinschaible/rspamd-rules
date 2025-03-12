@@ -23,7 +23,7 @@
 
 /\| system.?notification/i
 
-/(e?.?mail|webmail).{0,5}(admin|manager|notice|server|support|team)/i
+/(e?.?mail|webmail).{0,5}(admin|hosting|manager|notice|server|support|team)/i
 
 /admin.?it$/i
 /admin.?(notification|support|updates)/i
@@ -31,7 +31,10 @@
 /i\.?t (admin|notification)/i
 
 /cpanel.{0,10}webmail/i
+
 /helpdesk-/i
+/hosting team/i
+
 /mail.?(admin|server)/i
 /mail.?security.?team/i
 
