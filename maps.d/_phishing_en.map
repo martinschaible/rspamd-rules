@@ -55,6 +55,10 @@
 /hr.?department.{1,10}(has released|is releasing).{1,10}the annual/i
 /requested.{1,10}hr.?department.{1,10}position/i
 
+# Malware
+# ------------------------------------------------------------------------------
+/jetzt viren entfernen/i
+
 # Messages
 # ------------------------------------------------------------------------------
 /this is a secure.{1,10}encrypted message/i
