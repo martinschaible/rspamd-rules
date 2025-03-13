@@ -34,6 +34,9 @@
 
 # M
 
+# Zip code at the end
+/möchten sie diese.{1,10}(e?.?mail|informationen|nachricht|newsletter).{1,15}nicht.{1,10}erhalten.{1,10}klicken sie hier.{1,10}\d{4,5}/iu
+
 # N
 
 # O
@@ -47,6 +50,8 @@
 # S
 /sie an einem.{1,15}wettbewerb im internet teilgenommen haben/i
 /sie erhalten.{1,10}kostenlosen informationen.{1,10}(da|weil).{1,10}sie/i
+
+/sie haben diese?.{1,10}(e?.?mail|informationen|nachricht|newsletter).{1,15}weil sie (an|bei).{1,20}wettbewerbe?/i
 
 # T
 
