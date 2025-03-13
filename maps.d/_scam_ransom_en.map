@@ -9,8 +9,8 @@
 
 # Ransom
 # ------------------------------------------------------------------------------
-/i.{1,10}(gained|get|have|obtained|succeeded).{1,20}access.{1,15}your.{1,10}(account|computer|devices?|messenger|mobile)/i
-/i.{1,10}hacked your.{1,15}(account|computer|devices?|mobile|system)/i
+/i\b.{1,10}(gained|get|have|obtained|succeeded).{1,20}access.{1,15}your.{1,10}(account|computer|devices?|messenger|mobile)/i
+/i\b.{1,10}hacked your.{1,15}(account|computer|devices?|mobile|system)/i
 
 /i.{1,10}managed.{1,10}install.{1,15}(trojan|virus)/i
 /i.{1,10}managed.{1,10}to get.{1,10}access.{1,10}all.{1,10}(account|computer|devices?|mobile)/i
