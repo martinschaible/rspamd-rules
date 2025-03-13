@@ -37,8 +37,8 @@
 # I
 /i am (engr|madam)/i
 /i am representing.{1,10}(company|my)/i
-
 /i am presently working as a/i
+/i am writing to introduce/i
 
 /i represent a team of over/i
 
@@ -60,6 +60,9 @@
 /(i.?\s*a?m\b a|my name is).{5,35}(registration|representative)/i
 /(i.?\s*a?m\b a|my name is).{5,35}(sales|senior|soldier|solicitor)/i
 /(i.?\s*a?m\b a|my name is).{5,35}vendor/i
+
+/(i.?\s*a?m\b a|my name is).{5,35}i am writing to/i
+/(i.?\s*a?m\b a|my name is).{5,35}i got your contact/i
 
 /i.?\s*a?m\b.{5,25}swedish/i
 /i.?\s*a?m\b.{1,10}importer from/i
