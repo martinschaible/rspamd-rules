@@ -21,9 +21,6 @@
 # ------------------------------------------------------------------------------
 /sie es.{1,10}satt haben.{1,10}von uns zu hören.{1,10}können sie sich.{1,10}abmelden/iu
 
-# Unsubscribe, Zip Code
-# ------------------------------------------------------------------------------
-/möchten sie diese e?.?mails nicht erhalten.{1,10}klicken sie hier.{1,10}\d{4,5}/i
 
 # Why somebody gets the advertising, which are lies
 # ------------------------------------------------------------------------------
@@ -45,8 +42,6 @@
 /sie erhalten diesen?.{1,15}(e?.?mail|informationen|nachricht|newsletter).{1,10}an.{1,10}e?.?mail.?adresse.{10,40}(da|weil) sie an einem.{1,15}(angebot|gewinnspiel)/i
 
 /sie erhalten diesen?.{1,15}(e?.?mail|informationen|nachricht|newsletter).{1,10}aufgrund ihrer registrierung bei.{1,10}unsere(n|r).{1,10}(kooperationspartner|portal(en)?)/i
-
-/sie haben diese?.{1,15}(e?.?mail|informationen|nachricht|newsletter).{1,10}erhalten.{1,10}weil sie (an|bei) einem.{1,15}wettbewerbe?.{1,10}(mitgemacht|teilgenommen)/i
 
 /wir senden ihnen diesen?.{1,15}(e?.?mail|informationen|nachricht|newsletter).{1,10}weil sie an einem wettbewerb/i
 
