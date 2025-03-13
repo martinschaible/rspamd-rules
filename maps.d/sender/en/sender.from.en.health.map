@@ -280,7 +280,7 @@
 /berry.{0,10}detox/i
 
 /best.{0,10}sleep/i
-/better.{0,10}(live|poop)/i
+/better.{0,10}(balance|live|poop)/i
 
 /big o$/i
 /big.{0,10}secret/i
@@ -305,7 +305,7 @@
 
 /bp.?drugs/i
 
-/burn.{0,10}calories/i
+/burn.{0,10}(boost|calories)/i
 /(buzzing|hissing).{0,10}ears/i
 
 /breathe.{0,10}free(ly)?/i
@@ -338,7 +338,8 @@
 /clogged.{0,10}(arteries|artery)/i
 /closed.{0,10}arteries/i
 
-/cognitive.{0,10}decline/i
+/cognitive.{0,10}(decline|support)/i
+
 /compression.{0,10}sleeve/i
 /control.{0,10}cholesterol/i
 /counting.{0,10}calories/i
@@ -428,6 +429,7 @@
 /food.{0,10}(cravings?|choices?|odor|trap)/i
 /foot.{0,10}(care|patch(es)?)/i
 
+/fresh.{0,10}breath/i
 /fried.{0,10}chicken/i
 /fruit.{0,10}mistake/i
 
@@ -440,7 +442,7 @@
 
 /going.{0,10}viral/i
 
-/green.{0,10}oil/i
+/green.{0,10}(clay|oil)/i
 /grow.{0,10}(hair|trick)/i
 
 /gut.{0,10}(fix|flush|health|quiz|reboot|repair|solution)/i

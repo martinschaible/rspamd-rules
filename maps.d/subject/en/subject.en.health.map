@@ -164,7 +164,7 @@
 
 /(do|try) this \d{1,2} minutes before/i
 #/try this before bed/i
-/(do|try) this.{1,10}before/i
+/(do|try) this.{1,20}before/i
 
 /do this every day/i
 /do this for instant/i
@@ -457,11 +457,11 @@
 # T
 /the secret ingredient/i
 
-/this before going to bed/i
-/this (easy|simple) stretch/i
-/this for.{1,10}seconds/i
-
+/this.{1,10}before going to bed/i
 /this.{1,10}cuts heart attack/i
+/this.{1,10}(easy|simple) stretch/i
+/this.{1,10}everyday habit/i
+/this.{1,10}for.{1,10}seconds/i
 /this.{1,10}kills knee/i
 /this.{1,10}strange method/i
 /this.{1,10}stops diabetes/i

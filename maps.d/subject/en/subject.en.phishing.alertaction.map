@@ -29,7 +29,7 @@
 /action required.{1,10}identity verification/i
 /action required.{1,30}new notifications/i
 
-/action required.{10,35}password (about|expires)/i
+/action required.{10,35}password (about|expires?)/i
 /action required.{1,15}prevent account/i
 
 /action required.{1,10}subscription renewal/i

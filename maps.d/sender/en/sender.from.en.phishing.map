@@ -40,6 +40,8 @@
 
 /^support.?(client|desk|team)$/i
 
+/(imap|pop3).{0,10}settings/i
+
 #
 /microsoft.{0,10}admin/i
 
