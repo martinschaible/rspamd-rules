@@ -5,15 +5,14 @@
 #  10 | German         |
 # ==============================================================================
 
+# Temporary: Malware, Downloads
+# ------------------------------------------------------------------------------
+/sie haben.{1,10}bestelldateien/i
+
 # Answer
 # ------------------------------------------------------------------------------
 /sie sich bei mir.{1,10}alle informationen zu erhalten/i
 /weiter.?geht.{1,10}antworten sie umgehend per e?.?mail/i
-
-# Attention, Important, Urgent
-# ------------------------------------------------------------------------------
-/informationen zu dieser.{1,15}wichtigen.{1,10}angelegenheit/i
-/wichtige mitteilung.{1,10}sehr geehrter kunde/i
 
 # Clicking, Links
 # ------------------------------------------------------------------------------
