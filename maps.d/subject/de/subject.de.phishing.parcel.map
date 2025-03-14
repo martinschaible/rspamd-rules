@@ -108,6 +108,8 @@
 
 #/live verfolgen.{1,10}(paket|sendung)/i
 
+/lieferung benötigt.{1,10}bestätigung/iu
+
 # M
 /maßnahmen zu ihrem paket/i
 
@@ -202,7 +204,8 @@
 # Y
 
 # Z
-/zahlung für.{1,10}(paket|sendung).{1,10}erforderlich/i
+/zahlung.{1,15}(paket|sendung).{1,10}erforderlich/i
+/zahlung.{1,10}erforderlich für die zustellung/i
 
 /zustellung ansteht/i
 /zustellung.{1,25}bestätigen sie/iu

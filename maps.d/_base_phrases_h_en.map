@@ -6,6 +6,8 @@
 # ==============================================================================
 
 # Temporary: Malware, Downloads
+/(accounts|payable).{1,10}shared (a file)?.?with you/i
+
 /xls.{1,10}it has been finalized/i
 /signed documents are attached/i
 
