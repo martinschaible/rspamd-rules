@@ -5,6 +5,10 @@
 #  10 | English        |
 # ==============================================================================
 
+# Temporary: Malware, Downloads
+/xls.{1,10}it has been finalized/i
+/signed documents are attached/i
+
 # Addresses and titles
 # ------------------------------------------------------------------------------
 /marketing manager.{1,10}india.{1,10}whatsapp/i

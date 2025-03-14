@@ -22,13 +22,19 @@
 # Sample: "25/12/2024: Du hast"
 /\d{1,2}\/\d{1,2}\/\d{4}:/i
 
+# Sample: "4.3.2025 1:52:08 Contact"
+/\d{1,2}:\d{1,2}:\d{2} Contact/i
+
 # Numbers
 # ------------------------------------------------------------------------------
 # Sample: Hallo 111.118.177.133
 /[a-z]{5,15} \d{3}\.\d{3}\.\d{3}(\b|$)/i
 
-# Subject starts with a numnber and a colon
+# Subject starts with a number and a colon
 /^\d:\b/i
+
+# Just numbers
+/^\d{2,15}$/i
 
 # Multiple special characters
 # ------------------------------------------------------------------------------

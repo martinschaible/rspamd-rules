@@ -48,6 +48,8 @@
 
 /bestellung.{1,15}lieferung aussteht/i
 
+/bericht über die paketzustellung/iu
+
 /(be)?zahlen sie jetzt.{1,10}\d(\.|,)\d{2}/i
 /(be)?zahlen sie.{1,10}versandgebühr/iu
 
@@ -102,6 +104,7 @@
 
 /(lieferung|versand).{1,10}(ausstehende|unbezahlte).{1,10}(versandkosten|zollgebühren)/iu
 /(lieferung|versand).{1,10}ist angehalten/i
+/(lieferung|versand).{1,10}zahlung erforderlich/i
 
 #/live verfolgen.{1,10}(paket|sendung)/i
 
