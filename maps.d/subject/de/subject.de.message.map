@@ -97,6 +97,7 @@
 
 # M
 /meine.{1,15}e?.?mail in ihrem posteingang/i
+/meine.{1,15}e?.?mail ist angekommen/i
 
 # N
 /nachricht einsehen/i
@@ -118,8 +119,8 @@
 
 /sie haben.{1,10}ungelesene nachricht(en)?/i
 
-/sie meine.{1,15}e?.?mail gelesen/i
-/Sie meine.{1,15}e?.?mail übersehen haben/i
+/sie meine.{1,15}e?.?mail.{1,10}(erhalten|gelesen)/i
+/sie meine.{1,15}e?.?mail.{1,10}übersehen haben/i
 
 /(sie|wir) haben eine.{1,15}nachricht/i
 /(sofort|unverzüglich) öffnen/iu

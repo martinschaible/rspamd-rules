@@ -81,6 +81,8 @@ _[a-z].{0,15}box/i
 /service.?meldung(en)?/i
 /speicher.?(icloud|dienste?|team)/i
 
+/store.{0,10}lager/i
+
 # T
 #/team (vom|von)/i
 /team vom/i
