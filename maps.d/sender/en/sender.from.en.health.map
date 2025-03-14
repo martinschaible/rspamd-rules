@@ -79,7 +79,6 @@
 # Gums
 # ------------------------------------------------------------------------------
 /(bleeding|healthier|healthy|perfect).{0,10}gums/i
-/gum.{0,10}(bleeding|disease)/i
 
 # Health
 # ------------------------------------------------------------------------------
@@ -445,6 +444,7 @@
 /green.{0,10}(clay|oil)/i
 /grow.{0,10}(hair|trick)/i
 
+/gum.{0,10}(bleeding|disease|saver)/i
 /gut.{0,10}(fix|flush|health|quiz|reboot|repair|solution)/i
 
 # H

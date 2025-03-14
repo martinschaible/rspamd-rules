@@ -26,6 +26,7 @@
 
 /: (important|urgent) message/i
 
+/^urgents? please$/i
 /urgent respond needed/i
 
 /for your attention/i
