@@ -429,7 +429,7 @@
 /^sparkasse$/i
 
 /^sumup\.?$/i
-/sumup.{0,10}(service.?desk|limited|team)/i
+/sumup.{0,10}(kundendienst|service.?desk|limited|team)/i
 /(team|von).{0,10}sumup/i
 
 /swicach/i
