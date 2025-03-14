@@ -55,11 +55,12 @@
 /(i.?\s*a?m\b a|my name is).{5,35}(citizen of|chief|collector|consultant|development|financial|forensic|general)/i
 /(i.?\s*a?m\b a|my name is).{5,35}(import|indian?|international|investment|investor)/i
 /(i.?\s*a?m\b a|my name is).{5,35}merchant/i
-/(i.?\s*a?m\b a|my name is).{5,35}officer/i
 /(i.?\s*a?m\b a|my name is).{5,35}(philanthropist|politician|portfolio|purchase|purchasing|principal|private|procurement|professional)/i
 /(i.?\s*a?m\b a|my name is).{5,35}(registration|representative)/i
 /(i.?\s*a?m\b a|my name is).{5,35}(sales|senior|soldier|solicitor)/i
 /(i.?\s*a?m\b a|my name is).{5,35}vendor/i
+
+/(i.?\s*a?m\b a|my name is).{5,35}(fbi|officer)/i
 
 /(i.?\s*a?m\b a|my name is).{5,35}i am writing to/i
 /(i.?\s*a?m\b a|my name is).{5,35}i got your contact/i
@@ -126,7 +127,7 @@
 /supplier.{1,10}my name is/i
 
 # T
-/this is.{5,25}from.{5,25}co\..{0,5}(limited|ltd)/i
+/this is.{5,25}from.{5,25}(co|pe)\..{0,5}(limited|ltd)/i
 /this is.{5,20}from.{5,20}manufacturer of/i
 /this is.{5,25}from.{5,25}nice to meet you/i
 /this is.{5,25}from.{1,10}shenzhen/i

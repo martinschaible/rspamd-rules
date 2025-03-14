@@ -56,6 +56,7 @@
 # ==============================================================================
 
 # A
+/auf meine.{1,15}e?.?mail/i
 
 # B
 
@@ -84,6 +85,8 @@
 # I
 /ignorieren sie.{1,10}nachricht nicht/i
 
+/ist meine nachricht angekommen/i
+
 # J
 
 # K
@@ -93,6 +96,7 @@
 /lies diese nachricht/i
 
 # M
+/meine.{1,15}e?.?mail in ihrem posteingang/i
 
 # N
 /nachricht einsehen/i
@@ -113,7 +117,9 @@
 /^sehr wichtig$/i
 
 /sie haben.{1,10}ungelesene nachricht(en)?/i
-/sie meine letzte.{1,10}e?.?mail gelesen/i
+
+/sie meine.{1,15}e?.?mail gelesen/i
+/Sie meine.{1,15}e?.?mail übersehen haben/i
 
 /(sie|wir) haben eine.{1,15}nachricht/i
 /(sofort|unverzüglich) öffnen/iu
