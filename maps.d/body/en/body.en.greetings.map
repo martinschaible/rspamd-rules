@@ -102,7 +102,9 @@
 /(hello|hi).{1,5}(dear|friend).{1,10}good day/i
 /(hello|hi).{1,5}(dear|friend).{1,10}we would like to introduce/i
 
+/(hello|hi).{1,10}\[first name\]/i
 /(hello|hi).{1,10}are you interested in/i
+/(hello|hi).{1,10}are you seeking/i
 /(hello|hi).{5,35}from.{5,35}(in)? (china|india|ukraine)/i
 /(hello|hi).{1,10}i am.{1,10}professional/i
 /(hello|hi).{1,10}glad to (contact|connect|know|write)/i
