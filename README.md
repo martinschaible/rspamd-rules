@@ -112,8 +112,8 @@ sender
   |   |- sender.from.de.health.map                 - multimap.sender.health.conf
   |   |- sender.from.de.lottery.map                - multimap.sender.lottery.conf
   |   |- sender.from.de.makemoney.map              - multimap.sender.makemoney.conf
-  |   |- sender.from.de.malware.map                - multimap.sender.malware.conf
   |   |- sender.from.de.phishing.map               - multimap.sender.phishing.conf
+  |   |- sender.from.de.phishing.malware.map       - multimap.sender.phishing.malware.conf
   |   |- sender.from.de.sale.map                   - multimap.sender.sale.conf
   |   |- sender.from.de.singleword.map             - multimap.sender.conf
   |   |- sender.from.de.singleword.ucase.map       - multimap.sender.conf
