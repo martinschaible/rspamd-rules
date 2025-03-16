@@ -32,10 +32,6 @@
 
 # E-Mail
 # ------------------------------------------------------------------------------
-/ich hoffe.{1,10}(e?.?mail|nachricht).{1,10}erreicht Sie gut/i
-/ich hoffe.{1,10}(e?.?mail|nachricht).{1,10}kommt bei (dir|ihnen) (an|gut)/i
-/ich hoffe.{1,10}sie haben meinen brief erhalten/i
-
 /(lieber|sehr geehrter) e?.?mail.?benutzer/i
 
 /ich wollte.{1,10} an meine letzte e?.?mail/i
@@ -89,15 +85,6 @@
 /sich auf diese weise an sie zu wenden/i
 /wenn ich ihre privatsphäre störe/iu
 
-# Free
-# ------------------------------------------------------------------------------
-/kostenlos anmelden/i
-
-/antworte.{1,20}heute kostenlos/i
-/jetzt kostenlos antworten/i
-/(seite|site) ist.{1,10}kostenlos/i
-/(die|unsere) web.?(seite|site).{1,10}kostenlos/i
-
 # How they get the E-Mail address
 # ------------------------------------------------------------------------------
 /ich habe.{1,10}ihre.{1,10}adresse.{1,10}gefunden/iu
@@ -129,10 +116,6 @@
 /wichtig.{1,10}wir.{1,10}e?.?mail.{1,10}kommunizieren/i
 /wichtig.{1,10}mit ihnen zu besprechen.{1,10}bitte antworten/i
 /wichtigen brief an.{1,10}e?.?mail.?adresse gesendet/i
-
-# Links
-# ------------------------------------------------------------------------------
-/klicken sie auf.{1,10}antworten/i
 
 # Silly lies
 # ------------------------------------------------------------------------------
