@@ -137,6 +137,7 @@
 
 # P
 /profildaten.{1,10}wichtige mitteilung/i
+/(unternehmens)?profil.{1,10}bitte handeln sie/i
 
 # Q
 
@@ -161,6 +162,8 @@
 
 # U
 /unverzügliche reaktion notwendig/iu
+
+/unvollständiges.{1,10}(unternehmens)?profil/iu
 
 /update erforderlich/i
 /update.{1,15}kontosicherheit/i
