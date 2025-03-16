@@ -61,7 +61,7 @@ base
       └─ base.body.img.shortener.map          *  ─┘
 lists
   ├─ list.tld.map                             *    - multimap.base.body.href.conf
-  ├─ list.url.shortener.map                   *    - multimap.base.body.href.conf
+  └─ list.url.shortener.map                   *    - multimap.base.body.href.conf
 ```
 
 * -> "one_shot" is set
@@ -122,7 +122,7 @@ sender
   ├─ sender.from.orgbrandprod.map                 │
   ├─ sender.from.people.map                       ├─ multimap.sender.conf
   ├─ sender.from.phishing.orgbrandprod.map        │
-  ├─ sender.from.special.map                     ─┘
+  └─ sender.from.special.map                     ─┘
 ```
 
 More content will follow soon.
@@ -166,7 +166,7 @@ subject
   │   └─ ....
   ├─ subject.health.medname.map                    - multimap.subject.health.conf
   ├─ subject.orgbrandprod.map                      - multimap.subject.conf
-  ├─ subject.special.map                           - multimap.subject.conf
+  └─ subject.special.map                           - multimap.subject.conf
 ```
 
 ### Setup for "body"
