@@ -39,30 +39,29 @@ Folder structure:
 
 ```
 base
-  |- base.country.map                            -\
-  |- base.body.charenc.koi8r.map              *   |
-  |- base.body.charenc.windows1251.map        *   |- multimap.base.conf
-  |- base.body.markup.hidden.map                  |
-  |- base.body.markup.map                        -/
-  |- href
-  |   |- base.body.href.domain.map            *  -\
-  |   |- base.body.href.domain.ip.map         *   |
-  |   |- base.body.href.domain.google.map     *   |
-  |   |- base.body.href.nossl.map             *   |- multimap.base.body.href.conf
-  |   |- base.body.href.path.map              *   |
-  |   |- base.body.href.path.filename.map     *   |
-  |   |- base.body.href.path.wordpress.map    *  -/
-  |- img
-      |- base.body.img.domain.ip.map          *  -\
-      |- base.body.img.domain.tld.map         *   |
-      |- base.body.img.domain.name.map        *   |- multimap.base.body.img.conf
-      |- base.body.img.nossl.map              *   |
-      |- base.body.img.path.map               *   |
-      |- base.body.img.shortener.map          *  -/
+  ├─ base.country.map                            ─┐
+  ├─ base.body.charenc.koi8r.map              *   │
+  ├─ base.body.charenc.windows1251.map        *   ├─ multimap.base.conf
+  ├─ base.body.markup.hidden.map                  │
+  ├─ base.body.markup.map                        ─┘
+  ├─ href
+  │   ├─ base.body.href.domain.map            *  ─┐
+  │   ├─ base.body.href.domain.ip.map         *   │
+  │   ├─ base.body.href.domain.google.map     *   │
+  │   ├─ base.body.href.nossl.map             *   ├─ multimap.base.body.href.conf
+  │   ├─ base.body.href.path.map              *   │
+  │   ├─ base.body.href.path.filename.map     *   │
+  │   └─ base.body.href.path.wordpress.map    *  ─┘
+  └─ img
+      ├─ base.body.img.domain.ip.map          *  ─┐
+      ├─ base.body.img.domain.tld.map         *   │
+      ├─ base.body.img.domain.name.map        *   ├─ multimap.base.body.img.conf
+      ├─ base.body.img.nossl.map              *   │
+      ├─ base.body.img.path.map               *   │
+      └─ base.body.img.shortener.map          *  ─┘
 lists
-  |- list.tld.map                             *  -\- multimap.base.body.href.conf
-  |- list.url.shortener.map                   *  -/
-
+  ├─ list.tld.map                             *    - multimap.base.body.href.conf
+  ├─ list.url.shortener.map                   *    - multimap.base.body.href.conf
 ```
 
 * -> "one_shot" is set
@@ -72,29 +71,29 @@ lists
 Folder structure:
 ```
 body
-  |- body.attachment.map                         -\
-  |- body.emergency.map                           |
-  |- body.special.map                             |
-  |- body.az.orgname.map                          |
-  |- body.ch.orgname.map                          |
-  |- body.de.orgname.map                          |
-  |- body.us.orgname.map                          |
-  |- de                                           |
-  |   |- body.de.greetings.map                    |- multimap.body.conf
-  |   |- body.de.intros.map                       |
-  |   |- body.de.message.map                      |
-  |   |- body.de.singleword.map                   |
-  |   |- body.de.singleword.ucase.map             |
-  |   |- body.de.unsubscribe.map                  |
-  |- en                                           |
-  |   |- ....                                    -/
-  |- href
-  |    |- body.href.az.domain.name.map           -\
-  |    |- body.href.ch.domain.name.map            |
-  |    |- body.href.de.domain.name.map            |- multimap.body.href.conf
-  |    |- body.href.us.domain.name.map            |
-  |    |- body.href.domain.name.pattern.map       |
-  |    |- body.href.url.path.orgbrandprod        -/
+  ├─ body.attachment.map                         ─┐
+  ├─ body.emergency.map                           │
+  ├─ body.special.map                             │
+  ├─ body.az.orgname.map                          │
+  ├─ body.ch.orgname.map                          │
+  ├─ body.de.orgname.map                          │
+  ├─ body.us.orgname.map                          │
+  ├─ de                                           │
+  │   ├─ body.de.greetings.map                    ├─ multimap.body.conf
+  │   ├─ body.de.intros.map                       │
+  │   ├─ body.de.message.map                      │
+  │   ├─ body.de.singleword.map                   │
+  │   ├─ body.de.singleword.ucase.map             │
+  │   ├─ body.de.unsubscribe.map                  │
+  ├─ en                                           │
+  │   └─ ....                                    ─┘
+  ├─ href
+  │   ├─ body.href.az.domain.name.map            ─┐
+  │   ├─ body.href.ch.domain.name.map             │
+  │   ├─ body.href.de.domain.name.map             ├─ multimap.body.href.conf
+  │   ├─ body.href.us.domain.name.map             │
+  │   ├─ body.href.domain.name.pattern.map        │
+  │   └─ body.href.url.path.orgbrandprod         ─┘
 ```
 
 More content will follow soon.
@@ -104,26 +103,26 @@ More content will follow soon.
 Folder structure:
 ```
 sender
-  |- de
-  |   |- sender.from.de.map                        - multimap.sender.conf 
-  |   |- sender.from.de.adult.map                  - multimap.sender.adult.conf
-  |   |- sender.from.de.finance.map                - multimap.sender.finance.conf
-  |   |- sender.from.de.gambling.map               - multimap.sender.gambling.conf
-  |   |- sender.from.de.health.map                 - multimap.sender.health.conf
-  |   |- sender.from.de.lottery.map                - multimap.sender.lottery.conf
-  |   |- sender.from.de.makemoney.map              - multimap.sender.makemoney.conf
-  |   |- sender.from.de.phishing.map               - multimap.sender.phishing.conf
-  |   |- sender.from.de.phishing.malware.map       - multimap.sender.phishing.malware.conf
-  |   |- sender.from.de.sale.map                   - multimap.sender.sale.conf
-  |   |- sender.from.de.singleword.map             - multimap.sender.conf
-  |   |- sender.from.de.singleword.ucase.map       - multimap.sender.conf
-  |- en
-  |   |- ....
-  |- sender.address.map                          -\
-  |- sender.from.orgbrandprod.map                 |
-  |- sender.from.people.map                       |- multimap.sender.conf
-  |- sender.from.phishing.orgbrandprod.map        |
-  |- sender.from.special.map                     -/
+  ├─ de
+  │   ├─ sender.from.de.map                        - multimap.sender.conf 
+  │   ├─ sender.from.de.adult.map                  - multimap.sender.adult.conf
+  │   ├─ sender.from.de.finance.map                - multimap.sender.finance.conf
+  │   ├─ sender.from.de.gambling.map               - multimap.sender.gambling.conf
+  │   ├─ sender.from.de.health.map                 - multimap.sender.health.conf
+  │   ├─ sender.from.de.lottery.map                - multimap.sender.lottery.conf
+  │   ├─ sender.from.de.makemoney.map              - multimap.sender.makemoney.conf
+  │   ├─ sender.from.de.phishing.map               - multimap.sender.phishing.conf
+  │   ├─ sender.from.de.phishing.malware.map       - multimap.sender.phishing.malware.conf
+  │   ├─ sender.from.de.sale.map                   - multimap.sender.sale.conf
+  │   ├─ sender.from.de.singleword.map             - multimap.sender.conf
+  │   └─ sender.from.de.singleword.ucase.map       - multimap.sender.conf
+  ├─ en
+  │   └─ ....
+  ├─ sender.address.map                          ─┐
+  ├─ sender.from.orgbrandprod.map                 │
+  ├─ sender.from.people.map                       ├─ multimap.sender.conf
+  ├─ sender.from.phishing.orgbrandprod.map        │
+  ├─ sender.from.special.map                     ─┘
 ```
 
 More content will follow soon.
@@ -133,41 +132,41 @@ More content will follow soon.
 Folder structure:
 ```
 subject
-  |- de
-  |   |- subject.de.map                            - multimap.subject.conf
-  |   |- subject.de.adult.map                      - multimap.subject.adult.conf
-  |   |- subject.de.finance.map                    - multimap.subject.finance.conf
-  |   |- subject.de.gambling.map                   - multimap.subject.gambling.conf
-  |   |- subject.de.greetings.map                  - multimap.subject.conf
-  |   |- subject.de.message.map                    - multimap.subject.conf
-  |   |- subject.de.health.map                     - multimap.subject.health.conf
-  |   |- subject.de.phishing.map                 -\
-  |   |- subject.de.phishing.account.map          |
-  |   |- subject.de.phishing.alertaction.map      |
-  |   |- subject.de.phishing.banking.map          |
-  |   |- subject.de.phishing.email.map            |
-  |   |- subject.de.phishing.malware.map          |- multimap.subject.phishing.conf
-  |   |- subject.de.phishing.parcel.map           |
-  |   |- subject.de.phishing.payment.map          |
-  |   |- subject.de.phishing.rewards.map          |
-  |   |- subject.de.phishing.subscription.map     |
-  |   |- subject.de.phishing.survey.map          -/
-  |   |- subject.de.sale.map                     -\
-  |   |- subject.de.sale.app.map                  |
-  |   |- subject.de.sale.seo.map                  |- multimap.subject.sale.conf
-  |   |- subject.de.sale.website.map             -/
-  |   |- subject.de.scam.map                     -\
-  |   |- subject.de.scam.bignumbers.map           |
-  |   |- subject.de.scam.donation.map             |- multimap.subject.scam.conf
-  |   |- subject.de.scam.order.map                |
-  |   |- subject.de.scam.winning.map             -/
-  |   |- subject.de.singleword.map               -\- multimap.subject.conf
-  |   |- subject.de.singleword.ucase.map         -/
-  |- en
-  |   |- ....
-  |- subject.health.medname.map                    - multimap.subject.health.conf
-  |- subject.orgbrandprod.map                      - multimap.subject.conf
-  |- subject.special.map                           - multimap.subject.conf
+  ├─ de
+  │   ├─ subject.de.map                            - multimap.subject.conf
+  │   ├─ subject.de.adult.map                      - multimap.subject.adult.conf
+  │   ├─ subject.de.finance.map                    - multimap.subject.finance.conf
+  │   ├─ subject.de.gambling.map                   - multimap.subject.gambling.conf
+  │   ├─ subject.de.greetings.map                  - multimap.subject.conf
+  │   ├─ subject.de.message.map                    - multimap.subject.conf
+  │   ├─ subject.de.health.map                     - multimap.subject.health.conf
+  │   ├─ subject.de.phishing.map                 ─┐
+  │   ├─ subject.de.phishing.account.map          │
+  │   ├─ subject.de.phishing.alertaction.map      │
+  │   ├─ subject.de.phishing.banking.map          │
+  │   ├─ subject.de.phishing.email.map            │
+  │   ├─ subject.de.phishing.malware.map          ├─ multimap.subject.phishing.conf
+  │   ├─ subject.de.phishing.parcel.map           │
+  │   ├─ subject.de.phishing.payment.map          │
+  │   ├─ subject.de.phishing.rewards.map          │
+  │   ├─ subject.de.phishing.subscription.map     │
+  │   ├─ subject.de.phishing.survey.map          ─┘
+  │   ├─ subject.de.sale.map                     ─┐
+  │   ├─ subject.de.sale.app.map                  ├─ multimap.subject.sale.conf
+  │   ├─ subject.de.sale.seo.map                  │
+  │   ├─ subject.de.sale.website.map             ─┘
+  │   ├─ subject.de.scam.map                     ─┐
+  │   ├─ subject.de.scam.bignumbers.map           │
+  │   ├─ subject.de.scam.donation.map             ├─ multimap.subject.scam.conf
+  │   ├─ subject.de.scam.order.map                │
+  │   ├─ subject.de.scam.winning.map             ─┘
+  │   ├─ subject.de.singleword.map                 - multimap.subject.conf
+  │   └─ subject.de.singleword.ucase.map           - multimap.subject.conf
+  ├─ en
+  │   └─ ....
+  ├─ subject.health.medname.map                    - multimap.subject.health.conf
+  ├─ subject.orgbrandprod.map                      - multimap.subject.conf
+  ├─ subject.special.map                           - multimap.subject.conf
 ```
 
 ### Setup for "body"
@@ -175,12 +174,12 @@ subject
 Folder structure:
 ```
 body
-  |- de
-  |   |- body.de.phishing.map                    -\
-  |   |- body.de.phishing.email.map               |- multimap.body.phishing.conf
-  |   |- body.de.phishing.malware.map            -/
-  |- en
-  |   |- ....
+  ├─ de
+  │   ├─ body.de.phishing.map                    ─┐
+  │   ├─ body.de.phishing.email.map               ├─ multimap.body.phishing.conf
+  │   └─ body.de.phishing.malware.map            ─┘
+  ├─ en
+  │   └─ ....
 ```
 
 
@@ -189,11 +188,11 @@ body
 Folder structure:
 ```
 whitelist
-  |- de
-  |   |- body.de.whitelist.map
-  |   |- subject.de.whitelist.map
-  |- en
-  |   |- ....
+  ├─ de
+  │   ├─ body.de.whitelist.map
+  │   └─ subject.de.whitelist.map
+  ├─ en
+  │   └─ ....
 ```
 
 More content will follow soon.
