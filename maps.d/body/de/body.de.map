@@ -6,6 +6,9 @@
 # Topics
 # ==============================================================================
 
+# Attention, Important, Urgent
+# ------------------------------------------------------------------------------
+
 #
 #
 #
@@ -14,12 +17,14 @@
 # ==============================================================================
 
 # A
+/antworte.{1,20}heute kostenlos/i
 
 # B
 
 # C
 
 # D
+/(die|unsere) web.?(seite|site).{1,10}kostenlos/i
 
 # E
 /entschuldige mich für dieses eindringen/iu
@@ -45,9 +50,14 @@
 /ich nur noch wenige monate zu leben habe/i
 
 # J
+/jetzt kostenlos antworten/i
 
 # K
 /kann ich mit ihnen kommunizieren/i
+
+/klicken sie auf.{1,10}antworten/i
+
+/kostenlos anmelden/i
 /kostenlosen?.{1,10}internet.?seite.{1,10}erfahren sie/i
 
 # L
@@ -66,6 +76,8 @@
 # R
 
 # S
+/(seite|site) ist.{1,10}kostenlos/i
+
 /sie auf diesem weg kontaktiere/i
 
 # T

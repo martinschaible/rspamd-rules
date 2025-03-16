@@ -6,6 +6,27 @@
 # Topics
 # ==============================================================================
 
+# Attention, Important, Urgent
+# ------------------------------------------------------------------------------
+/(attn|attention).{1,10}(beneficiary|ceo|honorable|madam|president|relative|sir)/i
+/(attn|attention).{1,10}e?.?mail.{1,15}owner/i
+/(attn|attention).{1,10}i am.{1,10}(attorney|bar\.|seeking)/i
+/(attn|attention).{1,10}(dear|please)/i
+/(attn|attention).{1,10}read this message/i
+/(attn|attention).{1,10}this is very urgent/i
+/(attn|attention).{1,10}we hope this.{1,10}e?.?mail/i
+
+/(attn|attention).{1,10}from homeland security/i
+/(attn|attention).{1,10}fund recipient/i
+
+/(nigeria|plc).{1,10}(attn|attention)/i
+
+/to the attention of.{1,10}chief/i
+
+/urgently.{1,10}(attn|attention).{1,10}please/i
+
+/extremely important.{1,10}urgent matter/i
+
 #
 #
 #
@@ -14,12 +35,25 @@
 # ==============================================================================
 
 # A
+/(apologies|apologize|sorry).{1,10}(for intruding|to invade)/i
+/(apologies|apologize|sorry).{1,10}if my e?.?mail/i
+/(apologies|apologize|sorry).{1,10}infringing.{1,10}your privacy/i
+/(apologies|apologize|sorry).{1,10}reach you through this medium/i
+/(apologies|apologize|sorry).{1,10}sending this unsolicited.{1,10}e.?mail/i
+/(apologies|apologize|sorry).{1,10}unsolicited (contact|e.?mail|letter|proposal)/i
 
 # B
 
 # C
+/click.{1,10}this is not (junk|spam)/i
+/click.{1,10}here.{1,10}before.{1,10}forced to remove it/i
+/click.{1,10}here.{1,10}discover the/i
+/click.{1,10}reply for details/i
+
+/(contact|details|e?.?mail|information|name|profile).{1,10}on google/i
 
 # D
+/disturb you with (my|this).{1,10}e?.?mail/i
 
 # E
 
@@ -30,7 +64,9 @@
 # H
 
 # I
-/i came across your.{1,10}e?.?mail/i
+/i (came across|found) your.{1,10}(contact|details|e?.?mail|information|name|profile)/i
+
+/i was inspired after.{1,20}your.{1,15}profile/i
 
 # J
 
@@ -53,6 +89,8 @@
 # S
 
 # T
+/that you are dead/i
+/this is not.{1,10}(junk|spam).{1,10}e?.?mail/i
 
 # U
 
@@ -63,5 +101,9 @@
 # X
 
 # Y
+/you.{1,10}are in fact.{1,10}live/i
+/you.{1,10}dead.{1,10}alive/i
+
+/your.{1,15}profile caught my.{1,10}attention/i
 
 # Z

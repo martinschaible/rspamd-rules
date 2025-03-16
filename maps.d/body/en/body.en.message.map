@@ -8,6 +8,9 @@
 
 # Attention, Important, Urgent
 # ------------------------------------------------------------------------------
+/i have.{1,15}(confidential|important) message/i
+
+/this.{1,10}e?.?mail.{1,15}strictly confidential/i
 
 # Message
 # ------------------------------------------------------------------------------
@@ -22,7 +25,11 @@
 # C
 /confidential.{1,10}message i want to share/i
 
+#  |- TLD -|
+/\.[a-z]{2,4}.{1,10}your.{1,10}(active|valid) e?.?mail/i
+
 # D
+/^did you receive my.{1,10}e?.?mail\?$/i
 
 # E
 
@@ -33,9 +40,11 @@
 # H
 
 # I
-/i have.{1,10}very.{1,10}confidential message/i
 
-/(if|is) this.{1,10}e?.?mail.{1,15}still active/i
+/(confirm|if|is|response).{1,10}(the|this|your).{1,10}e?.?mail.{1,15}still (active|valid)/i
+
+/(if|is) this is your.{1,15}e?.?mail/i
+/if you still use this.{1,10}e?.?mail/i
 
 # J
 
@@ -54,21 +63,26 @@
 # Q
 
 # R
+/read.{1,10}(e?.?mail|letter|message).{1,10}with patience/i
 
 # S
-/sent you an important message/i
+/sent you an important.{1,10}(e?.?mail|letter|message)/i
 
 # T
+/this.{1,10}(e?.?mail|letter|message).{1,10}is safe/i
+/this.{1,10}(e?.?mail|letter|message).{1,10}is very important/i
 
 # U
 
 # V
+/verify the functionality of this.{1,10}e?.?mail/i
 
 # W
 
 # X
 
 # Y
-/you received the letter sent to your/i
+/you.{1,10}received the letter sent to your/i
+/you.{1,15}(operating|reachable|using).{1,10}(the|this|your).{1,10}e?.?mail/i
 
 # Z
