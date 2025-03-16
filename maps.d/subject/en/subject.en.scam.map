@@ -81,6 +81,7 @@
 /fund(ing).?.{1,10}(donation|opportunity|proposal|recovered)/i
 /fund.{1,10}million/i
 /funds for you/i
+/funds relief/i
 
 # G
 
@@ -165,6 +166,7 @@
 /scammed.{1,15}compensation/i
 /seeking.{1,10}your.{1,10}assistance/i
 /sincerely cooperate/i
+
 /special correspondence/i
 
 # T

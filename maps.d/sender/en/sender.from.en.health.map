@@ -568,7 +568,7 @@
 # P
 /pancreas.{0,10}reset/i
 
-/pee.{0,10}(control|leaks|stronger|out)/i
+/pee.{0,10}(control|leaks|strong(er)?|out)/i
 
 /pelvic.{0,10}recovery/i
 /penis.{0,10}(muscle|ritual)/i
@@ -651,6 +651,8 @@
 /smile.{0,10}fix/i
 
 /snore.{0,10}stop/i
+
+/sore.{0,10}muscles?/i
 
 /spiky.{0,10}fruit/i
 
