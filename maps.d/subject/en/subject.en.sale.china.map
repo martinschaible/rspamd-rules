@@ -38,6 +38,8 @@
 /cnc.{1,10}machining/i
 /(design|manufacture|you need).{1,15}pcba?/i
 
+/component distributor.{1,10}rfq/i
+
 /custom.{1,10}metal stamping /i
 /custom.{1,10}(pcba?|printed.circuit.board)/i
 /custom.{1,10}products? manufacturing/i

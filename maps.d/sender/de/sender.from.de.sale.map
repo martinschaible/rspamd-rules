@@ -63,7 +63,8 @@
 /hörgeräte?.{0,10}(innovation|sensation)/i
 
 # I
-ihr.{0,10}(online|wifi)/i
+/ihr.{0,10}(online|wifi)/i
+/ihre.{1,10}solaranlage/i
 
 # J
 /^jacke\b/i

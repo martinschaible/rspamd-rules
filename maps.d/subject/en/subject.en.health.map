@@ -139,6 +139,7 @@
 /calories.{1,10}belly fat/i
 /cause of.{1,10}(dementia|joint pain|memory.?loss)/i
 /causes.{1,15}vision loss/i
+/cavity.{0,10}cure/i
 
 /celebrity.?secret/i
 /clear.{1,10}(eyes|nails|vision)/i
@@ -379,7 +380,9 @@
 
 /reduces?.{1,10}(inflammation|joint.?pain)/i 
 /regain your ability/i
-/(re)?grows? lost hair/i
+
+/(re)?grows?.{1,10}lost hair/i
+/(re)?ignite.{1,10}passion/i
 
 /relief with this.{1,15}(technique|weird)/i
 /relieve.{1,10}constipation/i
@@ -413,7 +416,8 @@
 /see proof/i
 
 /sharpen.{1,10}memory/i
-/shed .{1,15}faster/i
+/shed.{1,15}faster/i
+/shed.{1,10}ibs by/i
 /shrink.{1,10}belly/i
 /shocking.{1,10}brain/i
 

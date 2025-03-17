@@ -38,6 +38,7 @@
 /mail.?(admin|server)/i
 /mail.?security.?team/i
 
+/server.?report/i
 /^support.?(client|desk|team)$/i
 
 /(imap|pop3).{0,10}settings/i

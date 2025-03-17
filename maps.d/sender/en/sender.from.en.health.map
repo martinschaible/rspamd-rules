@@ -338,6 +338,7 @@
 /clogged.{0,10}(arteries|artery)/i
 /closed.{0,10}arteries/i
 
+/coffee.{0,10}extracts/i
 /cognitive.{0,10}(decline|support)/i
 
 /compression.{0,10}sleeve/i
@@ -608,6 +609,9 @@
 /regain your/i
 /regenerate.{0,10}eyes?/i
 
+/(re)?grows?.{1,10}lost hair/i
+/(re)?ignite.{1,10}passion/i
+
 /remote.{0,10}pharmacy/i
 /remove.{0,10}(herpes|toxin)/i
 
@@ -638,6 +642,9 @@
 /severe.{0,10}pain/i
 
 /sharp(er)?.{0,10}(ears|eyes|mind|thinking)/i
+
+/shed.{1,15}faster/i
+/shed.{1,10}ibs by/i
 
 /sight.{0,10}care/i
 /silence.{0,10}(buzzing|pain)/i
