@@ -26,7 +26,11 @@
 /dringend.{1,15}(lesen|sorgfältig)/iu
 
 /^dringende antwort$/i
+
 /(dringende?|wichtige?).{1,10}(angelegenheit|aufmerksamkeit|benachrichtigung|nachricht)/i
+
+# Phrase "Dringende Nachricht" is in use by E.ON Bank
+/wichtige.{1,10}nachricht/i
 
 # False/Positive 1x
 #/(dringend|wichtig)e?.{1,15}(information(en)?|info\b)/i
