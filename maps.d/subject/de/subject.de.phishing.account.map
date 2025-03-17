@@ -45,7 +45,9 @@
 /(eingeschränkten|eingeschränkter) zugriff auf ihr.{1,15}konto/iu
 
 # F
-/für ihr.{1,15}(konto|profil)/i
+
+# Don't use "profile"
+/für ihr.{1,15}konto/i
 
 # G
 /gesperrt.{1,10}jetzt verifizieren/i
