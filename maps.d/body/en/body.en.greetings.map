@@ -112,6 +112,7 @@
 /(hello|hi).{5,35}i hope this e?.?mail (finds|meets) you/i
 /(hello|hi).{1,10}to the.{1,25}owner/i
 
+/hi \[first.?name\]/i
 /hi.?sir/i
 /hi there.{1,10}i hope this.{1,10}message/i
 

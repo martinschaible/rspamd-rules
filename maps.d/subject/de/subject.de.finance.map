@@ -28,6 +28,7 @@
 
 /(darlehen|kredit).{0,10}angebot \d/i
 /(darlehen|kredit).{1,15}finanzierung/i
+/(darlehen|kredit).{1,10}online/i
 /(darlehen|kredit).{1,10}verfügbar/i
 /(darlehen|kredit).{1,10}zu \d.?%/i
 
