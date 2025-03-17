@@ -28,7 +28,7 @@
 # G
 
 # H
-/(home.?page|web.?site) umgestalten/i
+/(home.?page|web.?site).{1,15}(erstellen|gestalten|umgestalten|umsatz)/i
 /home.?page.?!!/i
 
 # I
