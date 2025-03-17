@@ -40,12 +40,6 @@
 /preise.{1,10}(photovoltaik|pv|solar).?anlagen?.{1,10}gefallen/i
 /tiefpreise.{1,10}förderungen/i
 
-# 
-/garantiert.{1,10}prozent zinsen/i
-/gutschrift ihrer zinsen/i
-/automatische zins.?gutschrift/i
-/zins.?gutschrift (im|vom)/i
-
 #
 /pers\. angebot vom/i
 
@@ -54,16 +48,22 @@
 # -> They are stealing personal information
 
 /auszahlung ihrer zinsen.{1,10}euro/i
+/automatische zins.?gutschrift/i
 /erinnerung.{1,10}zinsen im/i
+
+/garantiert.{1,10}prozent zinsen/i
+/gutschrift ihrer zinsen/i
 
 /ihre.{1,10}zins.?gutschrift/i
 /sie sich jetzt.{1,10}zinsen/i
+/sie sich.{1,20}zinsen sichern/i
+
+/zinsen.{1,10}garantiert.{1,10}fair/i
 /zinsen.{1,10}schnell.{1,10}garantiert/i
 /zinsgutschrift.{1,20}in höhe von/i
+/zins.?gutschrift (im|vom)/i
 
 /vergleichen sie jetzt kostenfrei/i
-
-/sie sich.{1,20}zinsen sichern/i
 
 # Business register
 # ------------------------------------------------------------------------------
