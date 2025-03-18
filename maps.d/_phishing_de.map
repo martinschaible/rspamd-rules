@@ -22,7 +22,10 @@
 
 # Festgeld angebote
 # ------------------------------------------------------------------------------
+/festgeld.{1,10}check/i
 /jetzt.{1,10}festgeld.?angebote vergleichen/i
+
+/mit unserem.{1,10}minuten.{1,15}check/i
 
 # Fake Reminders
 # ------------------------------------------------------------------------------
