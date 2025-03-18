@@ -69,7 +69,7 @@
 # C
 /claim.{0,10}(free|refund)/i
 
-/^customer.{0,10}(feedback|support)/i
+/^customer.{0,10}(engagement|feedback|support)/i
 
 /confirmation.{0,10}needed/i
 
@@ -119,6 +119,7 @@
 /notification.{0,10}company/i
 
 # O
+/offers?.{0,10}team/i
 /opinion.{0,10}request(ed)?/i
 
 # P
