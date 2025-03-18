@@ -94,6 +94,7 @@
 /euro geschenkkarte sichern/i
 
 /exklusiv.{1,20}absolut kostenlos/i
+/exklusiv für sie.{1,10}ihr.{1,20}wartet/i
 
 /^exklusive.{1,10}prämien?$/i
 /exklusive.{1,15}prämien? für sie/i
@@ -156,7 +157,7 @@
 /ihr.{1,10}neuer.{1,20}im wert/i
 
 /ihr.{1,20}wartet.{1,10}auf sie/i
-/ihr.{1,20}wartet.{1,10}jetzt abholen/i
+/ihr.{1,20}wartet.{1,10}jetzt.{1,10}(abholen|einlösen)/i
 /ihr.{1,20}wartet.{1,10}sichern sie es/i
 
 #/ihre? kostenloses?.{5,20}wartet/i
