@@ -100,7 +100,7 @@
 # ------------------------------------------------------------------------------
 
 # Some merging is needed
-/ear.{0,10}(buzzing|care|comfort|humming|noises?|ringing|silencer|wax)/i
+/ear.{0,10}(buzzing|care|clarity|comfort|humming|noises?|ringing|silencer|wax)/i
 
 /(buzz|noise).{0,10}free/i
 /(no more|stop).{0,10}ringing/i
@@ -392,8 +392,6 @@
 
 /energy.{0,10}without/i
 
-/erase.{0,10}cavities/i
-
 /(exotic|kitchen).{0,10}spice/i
 
 /expert.{0,10}recommendation/i
@@ -521,7 +519,7 @@
 /medicinal.{0,10}patch(es)?/i
 
 /mens?.{0,10}(only|power)/i
-/metabolism.{0,10}(booster|loophole|organ|unleash)/i
+/metabolism.{0,10}(boost(er)?|loophole|organ|unleash)/i
 /mental.{0,10}clarity/i
 
 /midnight.{0,10}bathroom/i

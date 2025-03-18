@@ -102,7 +102,7 @@
  
 # B
 /backpine relief/i
-/balanced.{1,10}blood pressure/i
+/balanced?.{1,10}blood (pressure|sugar)/i
 /banishing.{1,10}toenail/i
 
 /beat.{1,10}alzheimer/i
@@ -191,7 +191,7 @@
 # E
 /ease nerve pain/i
 
-/ear (buzzing|comfort)/i
+/ear\b.{1,10}(buzzing|comfort|rub|trick)/i
 
 /eases.{1,10}joint.?pain/i
 /easing.{1,10}stiff joints/i
@@ -201,7 +201,7 @@
 /eat this.{1,15}(arteries|daily|fruit)/i
 /eat this to/i
 
-/eliminate.{1,10}(buzzing|clogged|neuropathy)/i
+/eliminates?.{1,10}(buzzing|clogged|neuropathy|tinnitus)/i
 
 /empty.{1,10}colon/i
 
@@ -250,7 +250,7 @@
 
 # G
 /get hard on demand/i
-/get rid of.{1,10}pain/i
+/gets rid of.{1,10}(cavity|pain)/i
 
 /gum.{0,10}health/i
 /goodbye.{0,10}pain/i

@@ -42,7 +42,9 @@
 /aktualisierung ihrer telefonnummer/i
 /(aktualisieren|erneuern|prüfen).{1,10}ihre.{1,15}(adress|kontakt|zahlungs).?informationen/i
 
-/aufforderung zur datenprüfung/i
+/aufforderung.{1,10}aktualisierung ihrer daten/i
+/aufforderung.{1,10}datenprüfung/i
+
 /aufmerksamkeit.{1,15}mahnung/i
 
 /(re)?aktivieren sie ihre.{1,10}photo.?tan/i
@@ -180,6 +182,7 @@
 /wichtige?.{1,10}aktualisieren sie/i
 /wichtige?.{1,10}erinnerung.{1,10}daten checken/i
 /wichtige?.{1,15}kontofunktion(en)?/i
+#/wichtige?.{1,15}informationen/i
 /wichtige?.{1,15}kontowarnung/i
 /wichtige?.{1,15}(konto|profil).?informationen/i
 
