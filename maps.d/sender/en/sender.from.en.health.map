@@ -426,7 +426,7 @@
 /fountain of/i
 
 /food.{0,10}(cravings?|choices?|odor|trap)/i
-/foot.{0,10}(care|patch(es)?)/i
+/foot.{0,10}(care|patch(es)?|solution)/i
 
 /fresh.{0,10}breath/i
 /fried.{0,10}chicken/i
@@ -639,7 +639,7 @@
 /senior.{0,10}moments/i
 /severe.{0,10}pain/i
 
-/sharp(er)?.{0,10}(ears|eyes|mind|thinking)/i
+/sharp(er)?.{0,10}(brain|ears|eyes|mind|thinking)/i
 
 /shed.{1,15}faster/i
 /shed.{1,10}ibs by/i
@@ -686,7 +686,7 @@
 /(strange|spice).{0,10}trick/i
 
 /sweet.{0,10}deal/i
-/swollen.{0,10}(belly|gut)/i
+/swollen.{0,10}(belly|foot|gut)/i
 
 # T
 /thanksgiving.{0,10}delight/i

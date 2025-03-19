@@ -35,7 +35,8 @@
 /atm department/i
 
 # B
-/beneficiary.{1,15}(e?.?mail|final|inquiry|notice)/i
+/beneficiary.{1,15}(e?.?mail|final|fund|inquiry|notice|recover)/i
+
 /(attn|attention|congratulations|dear|fund|hello|my|valued|you).{1,20}beneficiary/i
 
 /(business|partnership).{1,10}(enquiry|inquiry)/i
