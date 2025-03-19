@@ -134,6 +134,7 @@
 /spenden?.{1,10}sie sind siegreich/i
 
 /spenden?.{1,10}überlassen.{1,10}melden sie sich/iu
+/spenden?.{1,20}weitere informationen antworten sie/i
 
 /spende.{1,10}ist für sie und ihre familie/iu
 /spende.{1,10}zu erhalten.{1,10}bitte antworten sie/i
@@ -187,7 +188,7 @@
 /ihnen den betrag von.{1,15}millionen/i
 /ihnen eine.{1,10}spende in höhe von.{1,20}(millionen|tausend|dollar|euro?|gbp|usd)/i
 /ihnen eine.{1,10}spende von.{1,15}(millionen|tausend|dollar|euro?|gbp|usd)/i
-/ihnen eine.{1,10}spende überlassen/iu
+/ihnen eine.{1,10}spende (überlassen|überreicht)/iu
 
 /ihnen.{1,15}(millionen|tausend|dollar|euro?|gbp|usd).{1,15}wohltätige zwecke gespendet/iu
 /ihnen.{1,15}(millionen|tausend|dollar|euro?|gbp|usd).{1,15}spenden/i
