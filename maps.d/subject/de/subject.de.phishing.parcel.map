@@ -63,8 +63,6 @@
 # E
 /einer falschen lieferadresse/i
 
-/einlieferungsbeleg für ihr?.{1,10}(lieferung|paket|sendung)/i
-
 /erhalten sie ihre lieferung/i
 
 # F
@@ -72,6 +70,7 @@
 /fehlgeschlagener zustellversuch/i
 
 # G
+/(gebühr|einlieferungsbeleg) für ihre?.{1,10}(lieferung|paket|sendung)/i
 
 # H
 
@@ -164,6 +163,8 @@
 /steht noch aus/i
 /steht zur zustellung an/i
 
+/(steuer|zoll).{1,15}ihre? (paket|sendung)/i
+
 # T
 
 # U
@@ -185,8 +186,10 @@
 /wartet immer noch/i
 /wartet wegen.{10,25}auf.{1,10}(lieferung|zustellung)/i
 
-/wichtige?.{1,15}zustellung nicht möglich/iu
 /wichtige?.{1,15}(aktion|benachrichtigung)/i
+/wichtige?.{1,15}(steuer|zoll).{0,15}zahlung/i
+/wichtige?.{1,15}zustellung nicht möglich/iu
+
 /wichtige informationen.{1,15}lieferung/i
 
 /wir haben ihre?.{1,10}(paket|sendung).{1,10}bereit/i

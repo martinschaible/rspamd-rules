@@ -32,7 +32,8 @@
 # B
 
 # C
-/confirm to avoid deactivation/i
+/confirm.{1,15}pending messages/i
+/confirm.{1,10}to avoid deactivation/i
 
 # D
 /de.?activation.{1,10}authentication required/i
