@@ -44,7 +44,7 @@
 
 # F
 /finanzielle mitteilung/i
-/finanzierungs.?angebot/i
+/finanzierungs?.{0,10}(angebot|investition)/i
 
 # G
 /garantieangebot jetzt beantragen/i

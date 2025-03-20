@@ -301,6 +301,7 @@
 /body.{0,10}(balance|recharge|waves?)/i
 /\bboner$/i
 
+/bone.{0,10}bone/i
 /boost.{0,10}(circulation|energy)/i
 
 /bp.?drugs/i
@@ -462,7 +463,7 @@
 /hates it/i
 
 /healing.{0,10}(massage|technology)/i
-/healthy.{0,10}(choice(es)?|digest|smile)/i
+/healthy.{0,10}(choice(es)?|digest|habit|smile)/i
 
 /hearing.{0,10}problem/i
 /heart.{0,10}(attack|cells|disease|health|helper|problems?|protection|risk)/i
@@ -532,7 +533,7 @@
 /miracle.{0,10}(drops?|minerals?)/i
 /mitochondria.{0,10}boost/i
 
-/morning.{0,10}(detox|drink|hack|mistake|oil|routine|slimmer|wood)/i
+/morning.{0,10}(boost|detox|drink|hack|mistake|oil|routine|slimmer|wood)/i
 /mouth.{0,10}(detox|odor)/i
 
 /muffled.{0,10}hearing/i
