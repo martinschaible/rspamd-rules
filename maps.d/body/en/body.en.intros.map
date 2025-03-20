@@ -50,20 +50,20 @@
 # Sample: i am [name] [last name] the manager
 /i.?\s*a?m\b.{5,35}(a|the).{1,15}manager/i
 
-/(i.?\s*a?m\b a|my name is).{5,35}(accountant|agent|adviser|analyst|attorney|anthropologist)/i
-/(i.?\s*a?m\b a|my name is).{5,35}(bank(er)?|broker|business)/i
-/(i.?\s*a?m\b a|my name is).{5,35}(citizen of|chief|collector|consultant|development|financial|forensic|general)/i
-/(i.?\s*a?m\b a|my name is).{5,35}(import|indian?|international|investment|investor)/i
-/(i.?\s*a?m\b a|my name is).{5,35}merchant/i
-/(i.?\s*a?m\b a|my name is).{5,35}(philanthropist|politician|portfolio|purchase|purchasing|principal|private|procurement|professional)/i
-/(i.?\s*a?m\b a|my name is).{5,35}(registration|representative)/i
-/(i.?\s*a?m\b a|my name is).{5,35}(sales|senior|soldier|solicitor)/i
-/(i.?\s*a?m\b a|my name is).{5,35}rev\./i
+/(i.?\s*a?m\b|my name is).{5,35}(accountant|agent|adviser|analyst|attorney|anthropologist)/i
+/(i.?\s*a?m\b|my name is).{5,35}(bank(er)?|broker|business)/i
+/(i.?\s*a?m\b|my name is).{5,35}(citizen of|chief|collector|consultant|development|financial|forensic|general)/i
+/(i.?\s*a?m\b|my name is).{5,35}(import|indian?|international|investment|investor)/i
+/(i.?\s*a?m\b|my name is).{5,35}merchant/i
+/(i.?\s*a?m\b|my name is).{5,35}(philanthropist|politician|portfolio|purchase|purchasing|principal|private|procurement|professional)/i
+/(i.?\s*a?m\b|my name is).{5,35}(registration|representative)/i
+/(i.?\s*a?m\b|my name is).{5,35}(sales|senior|soldier|solicitor)/i
+/(i.?\s*a?m\b|my name is).{5,35}rev\./i
 
-/(i.?\s*a?m\b a|my name is).{5,35}(capt|fbi|officer|rev\.)/i
+/(i.?\s*a?m\b|my name is).{5,35}(capt|fbi|officer|rev\.)/i
 
-/(i.?\s*a?m\b a|my name is).{5,35}i am writing to/i
-/(i.?\s*a?m\b a|my name is).{5,35}i got your contact/i
+/(i.?\s*a?m\b|my name is).{5,35}i am writing to/i
+/(i.?\s*a?m\b|my name is).{5,35}i got your contact/i
 
 /i.?\s*a?m\b.{5,25}swedish/i
 /i.?\s*a?m\b.{1,10}importer from/i
