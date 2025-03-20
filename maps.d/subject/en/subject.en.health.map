@@ -233,6 +233,8 @@
 
 /fight.{1,10}memory.?loss/i
 
+/fix ed\b/i
+
 /fix.{1,10}back pain/i
 /fix.{1,15}pain in just/i
 /fix.{1,10}stronger/i
@@ -313,6 +315,7 @@
 
 # L
 /life.?changing.{1,10}video/i
+/liver is in.{1,10}danger/i
 
 /lose weight.{1,10}(fast|without)/i
 /loses.{1,10}pounds doing this/i
@@ -350,6 +353,7 @@
 /no surgery needed/i
 
 # O
+/odd mix that/i
 /open the mystical/i
 /overcome diabetes/i
 
@@ -524,7 +528,7 @@
 /your.{1,10}arms without/i
 /your.{1,10}blood pressure/i
 /your.{1,10}back pain/i
-/your.{1,10}(bladder|erection|hearing|manhood|pecker|prostate)/i
+/your.{1,10}(bladder|erection|hearing|liver|manhood|pecker|prostate)/i
 /your.{1,10}heart health/i
 
 # Z

@@ -9,7 +9,10 @@
 # 14.02.25 - Might cause False/Positives, will see how it goes
 /app\.getresponse\.com/i
 
-# 03.02.25 - Amazon: Might cause False/Positives, will see how it goes
+# 20.03.25 - Might cause False/Positives, will see how it goes
+/\.app\.link/i
+
+# 03.02.25 - Might cause False/Positives, will see how it goes
 /eu-north-1\.amazonaws\.com/i
 
 # B

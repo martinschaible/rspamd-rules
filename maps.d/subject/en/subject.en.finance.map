@@ -26,6 +26,8 @@
 /\d{2,3}k pre.?approval/i
 
 # A
+/access.{1,10}competitive financing/i
+
 /(apply for|need).{1,10}(grant|loan)/i
 /apply for our financial/i
 
@@ -34,8 +36,8 @@
 # B
 
 # C
-/capital finance.{1,15}projects/i
-/capital funding with.{1,10}roi/i
+/capital.{1,10}finance.{1,15}projects/i
+/capital.{1,10}funding with.{1,10}roi/i
 
 /credit coverage notice/i
 /^credit \d%/i
@@ -49,6 +51,8 @@
 /fast loans?/i
 
 /finance.{1,10}opportunities/i
+/financing for your.{1,15}(business|projects)/i
+
 /flexible financing solutions/i
 
 /fuel your growth/i
