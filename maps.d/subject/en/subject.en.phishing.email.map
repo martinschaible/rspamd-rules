@@ -24,22 +24,22 @@
 /\.[a-z]{1,4}.{1,10}warning{1,10}the e?.?mail account/i
 /\.[a-z]{1,4}.{1,10}will be blocked/i
 
-/\d pending.{1,10}(e?.?mail|messages)/i
+/\d pending.{1,10}(e?.?mail|message)/i
 
 # A
-/access unread.{1,10}(e?.?mail|messages)/i
+/access unread.{1,10}(e?.?mail|message)/i
 
 # B
 
 # C
-/confirm.{1,15}pending messages/i
+/confirm.{1,15}pending (e?.?mail|message)/i
 /confirm.{1,10}to avoid deactivation/i
 
 # D
 /de.?activation.{1,10}authentication required/i
 /de.?activation of.{1,10}mailbox/i
 
-/delayed messages in/i
+/delayed (e?.?mail|message) in/i
 /delivery failure.{1,10}ref:/i
 /disconnected.{1,15}(receiving|sending).{1,15}e?.?mails/i
 
@@ -47,7 +47,8 @@
 /e?.?mail.{1,10}password will be disabled/i
 /e?.?mail.{1,10}verification notice/i
 
-/(e?.?mail|messages).{1,10}in your.{1,15}quarantine/i
+/(e?.?mail|message).{1,10}failure delivery notice/i
+/(e?.?mail|message).{1,10}in your.{1,15}quarantine/i
 
 # F
 
@@ -58,10 +59,10 @@
 # I
 /important.{1,10}web.?mail.{1,10}software/i
 
-/incoming.{1,10}(e?.?mail|messages).{1,10}has been stopped/i
-/incoming.{1,10}(e?.?mail|messages).{1,10}(blocked|bounced|failed|pending)/i
+/incoming.{1,10}(e?.?mail|message).{1,10}has been stopped/i
+/incoming.{1,10}(e?.?mail|message).{1,10}(blocked|bounced|failed|pending)/i
 
-/incoming.{1,10}pending.{1,10}(e?.?mail|messages) for/i
+/incoming.{1,10}pending.{1,10}(e?.?mail|messages?) for/i
 
 # J
 
@@ -77,12 +78,12 @@
 # O
 
 # P
-/pending.{1,10}(e?.?mails|messages).{1,10}undelivered for/i
+/pending.{1,10}(e?.?mails|message).{1,10}undelivered for/i
 
 # Q
 
 # R
-/report.{1,10}incoming.{1,10}(e?.?mails|messages)/i
+/report.{1,10}incoming.{1,10}(e?.?mails|message)/i
 /reset password.{1,15}(fail|message)/i
 
 /re.?validate server/i
@@ -116,7 +117,7 @@
 # X
 
 # Y
-/you have.{1,25}incoming.{1,15}(e?.?mails?|messages?)/i
+/you have.{1,25}incoming.{1,15}(e?.?mails?|message)/i
 /you have.{1,10}failed.{1,10}(e?.?mail|message) deliveries/i
 /you have.{1,10}unread.{1,10}(e?.?mail|message) from/i
 
