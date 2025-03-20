@@ -28,6 +28,8 @@
 /admin.?it$/i
 /admin.?(notification|support|updates)/i
 
+/^administrator/i
+
 /i\.?t (admin|notification)/i
 
 /cpanel.{0,10}webmail/i
@@ -80,6 +82,9 @@
 
 # E
 /exclusive.{0,10}offers/i
+
+# French
+/exclusive.{0,10}offre/i
 
 # F
 /f\.b\.i agent/i

@@ -38,7 +38,7 @@
 # H
 
 # I
-/invitation to tender/i
+/interested in your products/i
 
 # Sample: inquiry info@amelec.ch
 /inquiry [a-z]{3,15}@/i
@@ -47,8 +47,7 @@
 /inquiry.{1,10}investment/i
 /inquiry.{1,15}about your products/i
 
-/#quotation/i
-
+/invitation to tender/i
 
 # J
 
@@ -85,6 +84,9 @@
 /purchase order.{1,5}po/i
 
 # Q
+
+/#quotation/i
+
 /quotation.?rfq/i
 /quotation.{1,20}request.{1,10}processing/i
 
