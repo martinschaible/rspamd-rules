@@ -8,6 +8,8 @@
 
 # Attention, Important, Urgent
 # ------------------------------------------------------------------------------
+/attention.{1,10}dear.{1,10}(customer|valued)/i
+
 /i have.{1,15}(confidential|important) message/i
 
 /this.{1,10}e?.?mail.{1,15}strictly confidential/i

@@ -52,6 +52,19 @@
 /schaden ihrem umsatz/i
 /top.?bewertungsprofil/i
 
+# Pen
+# ------------------------------------------------------------------------------
+/(kugelschreiber|kuli).{1,15}(ab|für) nur/i
+
+# A - L
+/(eindruck|elegante|fordern|gummierte|hochwertige|individuellen?|kostenlos|luxus|logo).{0,15}(kugelschreiber|kuli)/iu
+# M
+/(maßgeschneiderte|metall|moderne|muster).{0,15}(kugelschreiber|kuli)/iu
+# N - V
+/(neue|personalisierte|premium|profi|sichern|stilvolle|softtouch|unseren?).{0,15}(kugelschreiber|kuli)/iu
+# W
+/(werbe|werbung).{1,15}(kugelschreiber|kuli)/iu
+
 #
 #
 #
