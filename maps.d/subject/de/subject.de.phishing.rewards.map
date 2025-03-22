@@ -34,6 +34,9 @@
 # Generic
 # ==============================================================================
 
+#
+/1\)? belohnung/i
+
 # A
 /abholen.{1,10}bevor es zu spät ist/iu
 /auf ein exklusives geschenk/i
@@ -48,11 +51,14 @@
 /begrenztes angebot.{1,10}gewinnen sie/i
 
 /belohnen wir sie mit/i
-/belohnung wartet auf sie/i
-/belohnung(en)?.{1,10}kostenlose?/i
+
+/(belohnung|gewinn).{1,10}innerhalb von.{1,10}stunden/i
+/(belohnung|gewinn).{1,10}noch heute/i
 
 #/(belohnung|gutschein).{1,10}(code|einlösen|erhalten|freigeschaltet|ist zum versenden|reserviert|wartet)/i
-/belohnung.{1,10}(code|einlösen|erhalten|freigeschaltet|ist zum versenden|reserviert|wartet)/i
+/(belohnung|gewinn).{1,10}(code|einlösen|erhalten|freigeschaltet|ist zum versenden|reserviert|wartet)/i
+
+/belohnung(en)?.{1,10}kostenlose?/i
 
 /brandneue.{1,20}warten auf dich/i
 
@@ -250,6 +256,7 @@
 /sie wurden ausgewahlt/i
 
 # T
+/teilnehmer erhalten.{1,10}belohnung/i
 /top.?gewinnern/i
 
 # U

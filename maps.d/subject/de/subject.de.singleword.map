@@ -55,8 +55,11 @@
 /^begünstigter$/iu
 
 /beitragsrückerstattung/iu
+
+/belohnung:/i
 /belohnung(en)?!/i
 /belohnungs.?panel/i
+
 /benachrichtigung#/i
 
 /bestatigung/i
@@ -347,7 +350,7 @@ fettverbrenner/i
 /verifizierungsbenachrichtigung/i
 
 /verkehrsordnungswidrigkeit/i
-/verlosung:/i
+/\bverlosung:/i
 /versandaktualisierung/i
 /vertraulichkeit/i
 
