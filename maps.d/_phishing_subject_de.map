@@ -480,7 +480,6 @@
 
 /ihr(en)?.{1,15}(belohnung|gutschein) wartet/i
 /ihr (einzigartiger|individueller) code/i
-/ihr name wurde für ein/iu
 /ihr wöchentlicher preis/iu
 
 /ihre chance.{1,10}(einen kostenlosen|kostenlos ein)/i
@@ -489,8 +488,6 @@
 /kunde.{1,10}exklusive prämien für sie/iu
 
 /letzte benachrichtigung für eine/iu
-
-/paket.{1,10}auf ihren namen registriert/i
 
 /kunden.?belohnung(en)?/i
 /kostenlos ein.{1,20}zu erhalten/i
@@ -545,9 +542,6 @@
 
 #
 /edeka.{1,10}(belohnung|gutschein) erhalten/i
-
-# Stupid phrases
-/(dein|ihr) name steht.{1,15}auf der liste/i
 
 /versanddetails.{1,10}sendung nr/i
 /warten auf ihre (antwort|genehmigung)/i
