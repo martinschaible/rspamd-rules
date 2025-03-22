@@ -512,6 +512,7 @@
 /longer.{0,10}life/i
 /look.{0,10}younger/i
 
+/lost \d{2,3}/i
 /low.{0,10}(cholesterol|sugar)/i
 /lower.{0,10}back/i
 
@@ -735,7 +736,7 @@
 # W
 /\bw.?loss/i
 
-/water.{0,10}(diy|weight)/i
+/water.{0,10}(diy|pill|weight)/i
 /warning.{0,10}signs?/i
 
 /weird.{0,10}sound/i
