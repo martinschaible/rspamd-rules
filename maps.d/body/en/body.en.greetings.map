@@ -31,6 +31,7 @@
 
 # D
 /(dear|greetings?|good day|hello|hi\b).{1,5}(friend|madam|sir).{1,10}good day/i
+/(dear|greetings?|good day|hello|hi\b).{1,5}(friend|madam|sir).{1,15}in the (lord|name of)/i
 /(dear|greetings?|good day|hello|hi\b).{1,5}(friend|madam|sir).{1,15}this e?.?mail is strictly/i
 /(dear|greetings?|good day|hello|hi\b).{1,5}(friend|madam|sir).{1,15}we are glad to introduce/i
 
@@ -106,6 +107,7 @@
 /(hello|hi).{1,10}are you interested in/i
 /(hello|hi).{1,10}are you seeking/i
 /(hello|hi).{5,35}from.{5,35}(in)? (china|india|ukraine)/i
+/(hello|hi).{1,10}herr/i
 /(hello|hi).{1,10}i am.{1,10}professional/i
 /(hello|hi).{1,10}glad to (contact|connect|know|write)/i
 
