@@ -467,7 +467,7 @@
 /stop.{1,10}(taking|using) this/i
 /stops?.{1,10}memory loss/i
 
-/strange.{1,15}(acid|boosts)/i
+/strange.{1,15}(acid|boosts|tea)/i
 /stretch that (eliminates|restores|stops)/i
 /stretch to (eliminate|prevent|unlock)/i
 
@@ -480,6 +480,7 @@
 /surprising discovery/i
 
 # T
+/tea slows aging/i
 /the secret ingredient/i
 
 /this.{1,10}before going to bed/i
