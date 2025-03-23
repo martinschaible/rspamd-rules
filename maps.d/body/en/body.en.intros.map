@@ -20,6 +20,8 @@
 /(e.?mail|message) reaches you in.{1,10}good faith.{1,10}my name is/i
 
 # F
+/from.{1,10}the (desk|office) of.{1,10}(miss|mrs?|ms)/i
+/from.{1,10}the (desk|office) of.{1,10}(minister|president)/i
 
 # G
 /glad to (know|hear) that you.{1,15}in.{1,25}(business|field|need of)/i
@@ -49,26 +51,38 @@
 # Sample: i am [name] [last name] the manager
 //\bi\s*(am|'m)\b.{5,35}(a|the).{1,15}manager/i
 
-/(/\bi\s*(am|'m)\b|my name is).{5,35}(accountant|agent|adviser|analyst|attorney|anthropologist)/i
-/(/\bi\s*(am|'m)\b|my name is).{5,35}(bank(er)?|broker|business)/i
-/(/\bi\s*(am|'m)\b|my name is).{5,35}(citizen of|chief|collector|consultant|development|financial|forensic|general)/i
-/(/\bi\s*(am|'m)\b|my name is).{5,35}(import|indian?|international|investment|investor)/i
-/(/\bi\s*(am|'m)\b|my name is).{5,35}merchant/i
-/(/\bi\s*(am|'m)\b|my name is).{5,35}(philanthropist|politician|portfolio|purchase|purchasing|principal|private|procurement|professional)/i
-/(/\bi\s*(am|'m)\b|my name is).{5,35}(registration|representative)/i
-/(/\bi\s*(am|'m)\b|my name is).{5,35}(sales|senior|soldier|solicitor)/i
+/(/\bi\s*(am|'m)\b|my name is).{5,35}(accountant|agent|adviser|analyst|assistant|attorney|anthropologist)/i
+/(/\bi\s*(am|'m)\b|my name is).{5,35}(bank(er)?|barr(\.|ister)|broker|business)/i
+/(/\bi\s*(am|'m)\b|my name is).{5,35}(citizen of|chief|collector|colonel|consultant)/i
+/(/\bi\s*(am|'m)\b|my name is).{5,35}(development|director|entrepreneur|expert|financial|forensic|general)/i
+/(/\bi\s*(am|'m)\b|my name is).{5,35}(import|international|investigator|investment|investor)/i
+/(/\bi\s*(am|'m)\b|my name is).{5,35}lawyer/i
+/(/\bi\s*(am|'m)\b|my name is).{5,35}(marketing|merchant)/i
+/(/\bi\s*(am|'m)\b|my name is).{5,35}officer/i
+/(/\bi\s*(am|'m)\b|my name is).{5,35}(philanthropist|politician|portfolio|purchase|purchasing|principal|private|probate|procurement|professional)/i
+/(/\bi\s*(am|'m)\b|my name is).{5,35}(registration|representative|reverend)/i
+/(/\bi\s*(am|'m)\b|my name is).{5,35}(sales|senior|soldier|solicitor|specialist)/i
+/(/\bi\s*(am|'m)\b|my name is).{5,35}trader/i
 
+# Country
+/(/\bi\s*(am|'m)\b|my name is).{5,35}(french|indian?|swedish|united kingdom)/i
+
+/(/\bi\s*(am|'m)\b|my name is).{5,35}from the federal/i
 /(/\bi\s*(am|'m)\b|my name is).{5,35}(capt|fbi|officer|rev\.)/i
 
 /(/\bi\s*(am|'m)\b|my name is).{5,35}i am writing to/i
+/(/\bi\s*(am|'m)\b|my name is).{5,35}i contacted you with/i
 /(/\bi\s*(am|'m)\b|my name is).{5,35}i got your contact/i
 
-//\bi\s*(am|'m)\b.{5,25}swedish/i
-//\bi\s*(am|'m)\b.{1,10}importer from/i
+/(/\bi\s*(am|'m)\b|my name is).{5,35}importer from/i
 
-//\bi\s*(am|'m)\b.{5,25}the.{1,15}(biological|only).{1,15}(daughter|son)/i
+/(/\bi\s*(am|'m)\b|my name is).{5,35}we.{1,10}specialized? in/i
 
-//\bi\s*(am|'m)\b.{1,10}(miss|mrs?|ms).{5,25}contacting you/i
+/(/\bi\s*(am|'m)\b|my name is).{5,45}(biological|only).{1,15}(daughter|son)/i
+
+# Titles
+/(/\bi\s*(am|'m)\b|my name is).{5,35}(dr\.|sir)/i
+/(/\bi\s*(am|'m)\b|my name is).{5,35}(miss|mrs?|ms)/i
 
 /introduce myself.{1,10}my name is/i
 /introduce our company/i
@@ -81,18 +95,18 @@
 # L
 
 # M
+/mine real name is/i
+
 /my names (are|is) mrs?/i
-/my name is.{1,25}barr(\.|ister)/i
 /my name is.{5,35}a registered/i
 /my name is.{5,25}employee of/i
 /my name is.{5,25}how.{1,10}everything/i
 /my name is.{5,25}(honest|seeking|single)/i 
 
+/my name is.{5,25}i have decided/i
+/my name is.{5,25}i have been.{1,10}victim/i
 /my name is.{5,25}i have.{1,10}urgent/i
 /my name is.{5,35}i serve as/i
-
-/my name is.{1,5}(dr\.|sir)/i
-/my name is.{1,5}(miss|mrs?|ms)/i
 
 /my name is.{5,25}i am reaching out/i
 /my name is.{5,25}i am representing/i
@@ -142,7 +156,10 @@
 # V
 
 # W
-/we are a company located in/i
+/we are.{1,10}company (based|located) in/i
+/we are.{1,10}digital marketing company/i
+/we are.{1,10}india based.{1,10}company/i
+/we are.{1,10}trading company/i
 
 # X
 
