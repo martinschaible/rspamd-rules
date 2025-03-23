@@ -183,15 +183,9 @@
 /my name is.{5,25}i.?a?m.{1,15}writing (this message|to you)/i
 
 /my name is.{5,25}i contacted you with an act/i
-/my name is.{5,25}i have decided/i
-/my name is.{5,25}i have been.{1,10}victim/i
 /my name is.{5,25}i was.{1,10}browsing your/i
 /my name is.{5,25}i work for the/i
 /my name is.{5,25}i would like to talk to you/i
-
-/my name is.{5,25}we are specialized in/i
-
-/mine real name is/i
 
 /dear.{1,10}colleague.{1,10}my name is/i
 /dear.{1,10}my name is/i
@@ -230,23 +224,10 @@
 /you through this medium.{1,10}my name is/i
 /your privacy.{1,10}my name is/i
 
-# Greetings, Country
-# ------------------------------------------------------------------------------
-/my name is.{5,25}of french/i
-/my name is.{5,25}i am from the united kingdom/i
-
-/you are well.{1,10}i am from india/i
-
-# Greetings, Religious
-# ------------------------------------------------------------------------------
-/dear friend.{1,10}in the lord/i
-/(greetings|hello my dear).{1,10}in the name of/i
-
 # Introduction
 # ------------------------------------------------------------------------------
 /(disturb you|my name is).{5,25}we are.{2,10}professional/i
 
-/(hello|hi).{1,10}herr/i
 /(hello|hi).{1,10}i am.{5,25}working with.{1,10}reputed/i
 /(hello|hi).{1,5}our company is a/i
 /(hello|hi).{1,10}my name is.{5,25}we specialize in/i
@@ -263,8 +244,6 @@
 /i noticed your.{1,15}profile.{1,10}i am.{1,15}interested/i
 
 /we looked over you.{1,15}linkedin page/i
-/your.{1,15}profile drew my attention/i
-/your.{1,15}profile jumped out at me/i
 
 # Introduction, Country
 # ------------------------------------------------------------------------------
@@ -280,61 +259,6 @@
 
 /i have your audience.{1,10}i.?a?.?m from/i
 /hi.{1,10}i.?a?m.{1,10}an? indian/i
-
-/we are.{1,10}india based.{1,10}company/i
-
-# Introduction, Occupation
-# ------------------------------------------------------------------------------
-/i work as a broker.{1,10}investment/i
-
-# Introduction, Title
-# ------------------------------------------------------------------------------
-/i.?a?m a?.{0,10}agent.{5,25}i am a/i
-/i.?a?m a?.{0,10}agent.{1,10}(broker|business|of)/i
-/i.?a?m a?.{0,10}attorney.{1,25}(legal assistant|solicitor)/i
-/i.?a?m a?.{1,10}barrister/i
-/i.?a?m a?.{0,10}consultant (mandate|mr)/i
-/i.?a?m a?.{1,25}entrepreneur/i
-/i.?a?m a?.{0,10}expert.{1,10}trader/i
-/i.?a?m a?.{0,10}digital.{1,10}marketing.{1,10}(consultant|expert|specialist)/i
-/i.?a?m a?.{1,25}director general of the/i
-/i.?a?m a?.{1,25}head officer/i
-/i.?a?m a?.{1,25}i contacted you with/i
-/i.?a?m a?.{0,10}medical scientist/i
-/i.?a?m a?.{1,25}private investigator/i
-/i.?a?m a?.{0,15}professional.{1,10}(graphic designer|investment)/i
-/i.?a?m a?.{1,25}probate lawyer/i
-/i.?a?m a?.{1,25}reverend/i
-/i.?a?m a?.{1,25}solicitor at law/i
-
-/i.?a?m a?.{0,10}(colonel|fbi|special agent)/i
-
-/i.?a?m a?.{0,10}representative of/i
-/i.?a?m a?.{1,25}private.{1,10}(agent|investor|secretary)/i
-/i.?a?m a?.{1,25}from the federal/i
-
-/i.?a?m a?.{1,25}broker.{1,25}(financial|loan|prestigious|wedge)/i
-/i.?a?m a?.{1,25}(financial|investment|investor).{1,10}broker/i
-
-/i.?a?m dr\..{1,25}i represent/i
-
-/i.?a?m.{1,10}the principal accountant/i
-/i.?a?m (miss|mrs?|ms).{5,25}(barrister|solicitor)/i
-/i.?a?m (miss|mrs?|ms).{5,35}wife of mr/i
-/i.?a?m (miss|mrs?|ms).{5,35}a.{1,10}years old/i
-/i.?a?m (miss|mrs?|ms).{5,35}from/i
-/i.?a?m (miss|mrs?|ms).{5,35}i have.{1,15}client/i
-/i.?a?m (miss|mrs?|ms).{5,25}managing director/i
-/i.?a?m (miss|mrs?|ms).{5,25}personal attorney/i
-
-/introducing myself as.{1,10}(financial|investment).?(broker|consultant)/i
-
-/this is.{5,25}business.?analyst/i
-
-/we have over.{1,10}years.{1,10}experience in/i
-
-/we are.{1,10}digital marketing company/i
-/we are.{1,10}trading company/i
 
 # Introduction, Dying
 # ------------------------------------------------------------------------------
@@ -354,8 +278,5 @@
 # Silly Stuff
 # ------------------------------------------------------------------------------
 /beloved one.{1,10}please get back to me/i
-
-/from.{1,10}the (desk|office) of (miss|mrs?|ms)/i
-/from.{1,10}the (desk|office) of the.{1,10}(minister|president)/i
 
 /you with an act of utmost good faith/i
