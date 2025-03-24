@@ -113,8 +113,8 @@
 # ==============================================================================
 
 #
-/\d{1,2} kg in einem monat/i
-
+/\d{1,2}.?(kg|kilos?) in einem monat/i
+/\d{1,2}.?(kg|kilos?) in \d{1,2} tagen/i
 # A
 
 # B
@@ -149,8 +149,8 @@
 /japanischer?.{1,10}hack/i
 
 # K
-/kilos?.{1,10}fett eliminieren/i
-/kilos?.{1,10}verlieren in nur/i
+/(kg|kilos?).{1,10}fett eliminieren/i
+/(kg|kilos?).{1,10}verlieren in nur/i
 
 /krampfadern.{1,20}waffe/i
 
@@ -165,7 +165,7 @@
 # N
 /natürliche lösung.{1,10}blutzuckermanagement/i
 
-/nehmen sie.{1,10}kilo in.{1,10}woche/i
+/nehmen sie.{1,10}(kg|kilos?) in.{1,10}woche/i
 /neue rezeptur wirkt.{1,10}schneller/i
 
 # O
@@ -197,8 +197,9 @@
 # V
 /verbessern sie.{1,10}(ihren körper|kalorien)/ui
 
+/verlieren sie.{1,10}bis zu.{1,10}(kg|kilos?)/i
 /verlieren sie.{1,10}gewicht/i
-/verlieren sie.{1,10}bis zu.{1,10}kg/i
+/verlieren sie.{1,10}(kg|kilos?) in.{1,10}wochen/i
 
 /volle.{1,10}manneskraft/i
 

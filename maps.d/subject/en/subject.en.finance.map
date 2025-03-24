@@ -36,8 +36,7 @@
 # B
 
 # C
-/capital.{1,10}finance.{1,15}projects/i
-/capital.{1,10}funding with.{1,10}roi/i
+/capital.{1,10}(finance|funding).{1,15}(business|projects?|roi)/i
 
 /credit coverage notice/i
 /^credit \d%/i
@@ -51,7 +50,7 @@
 /fast loans?/i
 
 /finance.{1,10}opportunities/i
-/financing for your.{1,15}(business|projects)/i
+/financing for your.{1,15}(business|projects?)/i
 
 /flexible financing solutions/i
 
