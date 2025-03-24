@@ -62,11 +62,11 @@
 # Q
 
 # R
-/reward.{1,10}has been authorized/i
-
-/reward.{1,10}is (here|waiting)/i
-/reward.{1,10}open (immediately|now)/i
-/reward.{1,10}you have been accepted/i
+/rewards?.{1,10}has been authorized/i
+/rewards?.{1,10}expiring soon/i
+/rewards?.{1,10}is (here|waiting)/i
+/rewards?.{1,10}open (immediately|now)/i
+/rewards?.{1,10}you have been accepted/i
 
 # S
 /secure your gift/i
