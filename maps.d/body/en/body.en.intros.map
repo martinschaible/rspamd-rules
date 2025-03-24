@@ -88,6 +88,8 @@
 /introduce our company/i
 /introduce you to my company/i
 
+/(i|we).{1,10}would like to take this opportunity.{1,10}introduce/i
+
 # J
 
 # K
@@ -158,7 +160,7 @@
 # W
 /we are.{1,10}company (based|located) in/i
 /we are.{1,10}digital marketing company/i
-/we are.{1,10}india based.{1,10}company/i
+/we are.{1,10}india based.{1,10}(application|company|development|mobile)/i
 /we are.{1,10}trading company/i
 
 # X
