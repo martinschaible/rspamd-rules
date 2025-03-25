@@ -110,7 +110,7 @@
 /my name is.{5,25}i have.{1,10}urgent/i
 /my name is.{5,35}i serve as/i
 
-/my name is.{5,25}i am reaching out/i
+/my name is.{5,25}(/\bi\s*(am|'m)\b reaching out/i
 /my name is.{5,25}i am representing/i
 /my name is.{5,25}i am writing to you/i
 /my name is.{5,25}i represent/i

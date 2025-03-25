@@ -73,7 +73,7 @@
 /you are.{1,10}lucky for.{1,10}prize/i
 /you have been selected as one of the.{1,15}winners of/i
 
-/you have won.{1,10}\d{2,3}(m|usd)/i
+/you have won.{1,15}\d{2,3}.?(m|usd)/i
 /you have won.{1,10}sum of.{1,10}\d{3}.{0,5}\d{3}/i
 /you just won.{1,10}some cash/i
 
