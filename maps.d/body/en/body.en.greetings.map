@@ -58,17 +58,17 @@
 
 /dear.{1,10}purchase.{1,10}(department|manager)/i
 
-/dear.{1,10}(buyer|madam|customer|partner|purchaser|sir).{1,15}are you looking/i
-/dear.{1,10}(buyer|madam|customer|partner|purchaser|sir).{1,15}glad to (contact|connect|know|write)/i
-/dear.{1,10}(buyer|madam|customer|partner|purchaser|sir).{1,15}(good|nice) (day|morning)/i
-/dear.{1,10}(buyer|madam|customer|partner|purchaser|sir).{1,15}hello/i
-/dear.{1,10}(buyer|madam|customer|partner|purchaser|sir).{1,10}how are you/i
-/dear.{1,10}(buyer|madam|customer|partner|purchaser|sir).{1,10}i am writing to you/i
-/dear.{1,10}(buyer|madam|customer|partner|purchaser|sir).{1,15}i work with a/i
-/dear.{1,10}(buyer|madam|customer|partner|purchaser|sir).{1,15}my name is.{5,35}i am from/i
-/dear.{1,10}(buyer|madam|customer|partner|purchaser|sir).{1,15}please find attached/i
-/dear.{1,10}(buyer|madam|customer|partner|purchaser|sir).{1,10}this is.{5,25}from/i
-/dear.{1,10}(buyer|madam|customer|partner|purchaser|sir).{1,15}you interested in/i
+/dear.{1,10}(buyer|customer|madam|manager|partner|purchaser|sir).{1,15}are you looking/i
+/dear.{1,10}(buyer|customer|madam|manager|partner|purchaser|sir).{1,15}glad to (contact|connect|know|write)/i
+/dear.{1,10}(buyer|customer|madam|manager|partner|purchaser|sir).{1,15}(good|nice) (day|morning)/i
+/dear.{1,10}(buyer|customer|madam|manager|partner|purchaser|sir).{1,15}hello/i
+/dear.{1,10}(buyer|customer|madam|manager|partner|purchaser|sir).{1,10}how are you/i
+/dear.{1,10}(buyer|customer|madam|manager|partner|purchaser|sir).{1,10}i am writing to you/i
+/dear.{1,10}(buyer|customer|madam|manager|partner|purchaser|sir).{1,15}i work with a/i
+/dear.{1,10}(buyer|customer|madam|manager|partner|purchaser|sir).{1,15}my name is.{5,35}i am from/i
+/dear.{1,10}(buyer|customer|madam|manager|partner|purchaser|sir).{1,15}please find attached/i
+/dear.{1,10}(buyer|customer|madam|manager|partner|purchaser|sir).{1,10}this is.{5,25}from/i
+/dear.{1,10}(buyer|customer|madam|manager|partner|purchaser|sir).{1,15}you interested in/i
 
 # E
 

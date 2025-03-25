@@ -237,7 +237,8 @@
 
 # Numeric
 /\d (cup|tbsp)/i
-/\{1,2} minerals/i
+/\{1,2} (minerals|signs)/i
+
 /120\/80/i
 /20\/20.{0,10}solution/i
 
@@ -694,7 +695,7 @@
 /(strange|spice).{0,10}trick/i
 
 /sweet.{0,10}deal/i
-/swollen.{0,10}(belly|foot|gut)/i
+/swollen.{0,10}(belly|foot|gut|legs)/i
 
 # T
 /thanksgiving.{0,10}delight/i
