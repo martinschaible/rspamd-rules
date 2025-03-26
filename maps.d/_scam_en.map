@@ -105,18 +105,6 @@
 
 /your inheritance.{1,10}contract.{1,10}payment/i
 
-# Investment
-# ------------------------------------------------------------------------------
-
-# Investment, Company
-# ------------------------------------------------------------------------------
-
-# Investment, Country
-# ------------------------------------------------------------------------------
-
-# Investment, Properties
-# ------------------------------------------------------------------------------
-
 # Legal
 # ------------------------------------------------------------------------------
 /this venture is legal/i
@@ -147,8 +135,10 @@
 
 # Trustworthy Person
 # ------------------------------------------------------------------------------
-/i am looking for.{1,10}trustworthy.{1,10}person outside/i
+/i am looking for.{1,10}(trusted|trustworthy).{1,10}person outside/i
 /i want is.{1,10}honest.{1,10}reliable.{1,10}person/i
+
+/we are seeking.{1,10}(trusted|trustworthy).{1,10}individual/i
 
 #
 #
@@ -297,6 +287,7 @@
 # ------------------------------------------------------------------------------
 /i have a.{1,10}sensitive.{1,10}delicate matter/i
 
+/you regarding.{1,15}his confidential clients/i
 /your urgent attention.{1,15}view the attached notice/i
 /we are seeking.{1,10}passionate.{1,10}entrepreneurs/i
 
