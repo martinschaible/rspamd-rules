@@ -536,6 +536,7 @@
 /mineral.{0,10}combination/i
 
 /miracle.{0,10}(drops?|minerals?)/i
+/missing.{0,10}nutrients?/i
 /mitochondria.{0,10}boost/i
 
 /morning.{0,10}(boost|detox|drink|hack|mistake|oil|routine|slimmer|wood)/i
@@ -643,7 +644,7 @@
 /scientists?.{0,10}reveals?/i
 
 /second.{0,10}tweak/i
-/secret.{0,10}(revealed|weapon)/i
+/secret.{0,10}(ancient|revealed|weapon)/i
 /sea.?sugar/i
 /senior.{0,10}moments/i
 /severe.{0,10}pain/i
@@ -722,7 +723,7 @@
 /type.?2/i
 
 # U
-/unlock.{0,10}hips/i
+/unlock.{0,10}(hips|mind)/i
 /unusual.{0,10}stretch/i
 /urinary.{0,10}(fix|help|incontinence)/i
 /urine?.{0,10}leaks?/i
