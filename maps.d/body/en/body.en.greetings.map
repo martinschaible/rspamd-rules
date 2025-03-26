@@ -118,7 +118,7 @@
 /(hello|hi).{1,10}to the.{1,25}owner/i
 
 /hi \[first.?name\]/i
-/hi.?sir/i
+/hi\b.?sir/i
 /hi there.{1,10}i hope this.{1,10}message/i
 
 /how are you.{1,10}attention/i
