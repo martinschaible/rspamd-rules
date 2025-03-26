@@ -14,6 +14,8 @@
 /\d{3}.{0,5}\d{3}.{1,10}(millionen|tausend|dollar|euro?|gbp|usd).{1,10}an sie zu spenden/i
 /\d{3}.{0,5}\d{3}.{1,10}(millionen|tausend|dollar|euro?|gbp|usd).{1,10}für sie/iu
 /\d{3}.{0,5}\d{3}.{1,10}(millionen|tausend|dollar|euro?|gbp|usd).{1,10}e?.?mail für details jetzt/iu
+
+/\d{3}.{0,5}\d{3}.{1,10}(millionen|tausend|dollar|euro?|gbp|usd).{1,15}weitere informationen kontaktieren sie/i
 /\d{3}.{0,5}\d{3}.{1,10}(millionen|tausend|dollar|euro?|gbp|usd).{1,10}wurde ihrer.{1,10}e?.?mail.?adresse/i
 /\d{3}.{0,5}\d{3}.{1,10}(millionen|tausend|dollar|euro?|gbp|usd).{1,10}wurden ihnen von/i
 
@@ -22,7 +24,7 @@
 /(millionen|tausend|dollar|euro?|gbp|usd).{1,10}ausgewählt.{1,10}kontaktieren sie mich/i
 /(millionen|tausend|dollar|euro?|gbp|usd).{1,10}gewährt.{1,10}antworten.{1,15}weitere details/iu
 
-(millionen|tausend|dollar|euro?|gbp|usd).{1,10}\d{3}.{0,5}\d{3}.{1,10}erhalten.{1,10}kontaktieren sie/i
+/(millionen|tausend|dollar|euro?|gbp|usd).{1,10}\d{3}.{0,5}\d{3}.{1,10}erhalten.{1,10}kontaktieren sie/i
 
 /herzlichen? (glückwunsch|glückwünsche).{1,25}(millionen|tausend).{1,10}(dollar|euro?|gbp|usd)/i
 /sie in höhe von.{1,10}\d{3}.{0,5}\d{3}.{1,10}(millionen|tausend|dollar|euro?|gbp|usd).{1,10}steht ihnen/iu
@@ -159,6 +161,8 @@
 
 /ausgewählt.{1,15}erhalten einen spendenzuschuss/iu
 /ausgewählt.{1,10}wurden.{1,10}um einen zuschuss von.{1,20}(dollar|euro?|gbp|usd)/i
+
+/bietet eine spende in höhe von/iu
 
 /erhalten sie den betrag von.{1,10}\d{3}.{0,5}\d{3}.{1,10}(millionen|tausend|dollar|euro?|gbp|usd)/i
 
