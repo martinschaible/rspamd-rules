@@ -111,7 +111,9 @@
 
 /rfq#order/i
 /rfq.?(oq|request)/i
-/rfq needed asap/i
+
+/rfq.{1,10}needed asap/i
+/rfq.{1,10}price.?list request/i
 
 # S
 /shipping.{1,10}order terms/i
