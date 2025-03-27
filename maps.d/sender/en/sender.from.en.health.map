@@ -713,7 +713,7 @@
 
 /top.{0,10}(fruits|medication)/i
 /toxic.{0,10}(food|milk)/i
-/toxin.{0,10}(destroyer|flush)/i
+/toxin.{0,10}(destroyer|flush|mineral)/i
 /tropical.{0,10}(fruit|juice)/i
 
 /true.{0,10}story/i
@@ -758,6 +758,7 @@
 # Y
 /years.{0,10}younger/i
 
+/your.{1,10}a1c/i
 /your.{1,10}(balance|bladder|brain)/i
 /your.{1,10}(craving|diet|ears|gut)/i
 /your.{1,10}(health|heart|knees)/i
