@@ -110,7 +110,7 @@
 /(hello|hi).{1,10}are you interested in/i
 /(hello|hi).{1,10}are you seeking/i
 /(hello|hi).{5,35}from.{5,35}(in)? (china|india|ukraine)/i
-/(hello|hi).{1,10}herr/i
+/(hello|hi\b).{1,10}herr/i
 /(hello|hi).{1,10}i am.{1,10}professional/i
 /(hello|hi).{1,10}glad to (contact|connect|know|write)/i
 
