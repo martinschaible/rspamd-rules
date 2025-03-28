@@ -18,6 +18,8 @@
 /achtung.{1,10}verdächtige aktivität/iu
 
 /aktion erforderlich!/i
+
+/aktion erforderlich.{1,10}dpd/i
 /aktion erforderlich.{1,15}(schliessen|schließen) sie/i
 /aktion erforderlich.{1,15}rückerstattung/i
 /aktion erforderlich.{1,15}zahlungsstatus/i
@@ -88,6 +90,7 @@
 /erforderliche.{1,10}(massnahmen?|maßnahmen?).{1,10}(liefer)?adresse/iu
 
 # F
+/fehlgeschlagen.{1,10}aktion erforderlich/i
 
 # G
 
