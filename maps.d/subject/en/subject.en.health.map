@@ -13,7 +13,7 @@
 
 # Hacks, Tricks, Secrets and other lies
 # ------------------------------------------------------------------------------
-/(ancient|at.?home|daily|day|easy|gummy|hidden).{1,15}(fix|hack|ritual|secret|solutiontrick)/i
+/(ancient|at.?home|daily|day|easy|gummy|hidden).{1,15}(fix|hack|ritual|secret|solution|trick)/i
 /(little.?known|minute|odd|second).{1,15}(fix|hack|ritual|secret|solution|trick)/i
 
 /(\d.?second|shocking|japanese).{1,10}(fix|hack|ritual|secret|trick)/i
@@ -26,6 +26,7 @@
 
 /#1 (hack|ritual|secret|solution|trick) to/i
 
+/(hack|ritual|secret|solution|trick).{1,10}changes everything/i
 /(hack|ritual|secret|solution|trick).{1,10}(extends|reverse|shocks)/i
 /(hack|ritual|secret|solution|trick).{1,10}that could change/i
 /(hack|ritual|secret|solution|trick).{1,10}to (cure|ease|boost)/i
