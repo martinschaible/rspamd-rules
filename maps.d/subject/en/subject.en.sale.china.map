@@ -68,7 +68,7 @@
 
 /freight services.{1,10}tailored/i
 
-/from china to/i
+/from china (recently|to)/i
 
 # G
 /good.{1,10}pcba?.?supplier/i
@@ -101,6 +101,7 @@
 
 # M
 /machined parts vendor/i
+/machinery parts tailor/i
 
 /many years.{1,10}oem/i
 
@@ -181,6 +182,7 @@
 # X
 
 # Y
+/you have any.{1,10}(cargo|export)/i
 /your (current|future).{1,15}supplier/i
 /your plastic.?mould/i
 

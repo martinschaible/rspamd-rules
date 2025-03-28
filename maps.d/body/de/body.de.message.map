@@ -68,7 +68,7 @@
 # G
 
 # H
-/haben sie meine.{1,10}(e?.?mail|nachricht) erhalten/i
+/haben sie.{1,15}(letzte|meine|vorherige).{1,10}(e?.?mail|nachricht) (beüglich|erhalten|von der)/i
 
 # I
 /ich hoffe.{1,10}(e?.?mail|nachricht).{1,10}erreicht sie gut/i
