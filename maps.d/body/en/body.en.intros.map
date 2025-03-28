@@ -47,7 +47,7 @@
 //\bi\s*(am|'m)\b.{5,25}from.{1,10}shenzhen/i
 
 # Sample: i am a international manager
-/(\bi\s*(am|'m)\b a.{1,15}manager/i
+/\bi\s*(am|'m)\b a.{1,15}manager/i
 
 # Sample: i am [name] [last name] the manager
 /(\bi\s*(am|'m)\b|my name is).{5,35}(a|the).{1,15}manager/i
@@ -111,7 +111,7 @@
 /my name is.{5,25}i have.{1,10}urgent/i
 /my name is.{5,35}i serve as/i
 
-/my name is.{5,25}(\bi\s*(am|'m)\b reaching out/i
+/my name is.{5,25}\bi\s*(am|'m)\b reaching out/i
 /my name is.{5,25}i am representing/i
 /my name is.{5,25}i am writing to you/i
 /my name is.{5,25}i represent/i
