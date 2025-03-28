@@ -6,6 +6,10 @@
 # Topics
 # ==============================================================================
 
+# Beneficiary
+# ------------------------------------------------------------------------------
+/(geschätzter|hallo|händen|lieber|sehr geehrter).{1,15}begünstigter?/iu
+
 # Companies
 # ------------------------------------------------------------------------------
 /deutsche bank.{1,10}sehr geehrte kunde/i
@@ -72,7 +76,7 @@
 /hallo.{1,10}ich bin.{5,35}eine?.{1,15}(geschäfts)?(frau|mann)/iu
 /hallo.{1,10}ich bin.{5,35}eine?.{1,15}(australisch|deutsch|indisch|schweizer)/i
 
-/hallo.{1,10}(begünstigter|ehrenwwert)/iu
+/hallo.{1,10}ehrenwwert/iu
 /hallo.{1,10}herzliche grüße an sie/iu
 /hallo.{1,10}ich bin single/i
 /hallo.{1,10}ich hoffe.{1,10}alles gut/i

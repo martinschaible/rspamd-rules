@@ -81,7 +81,6 @@
 /(dringende?|wichtige?).{1,10}mitteilung.{1,10}zoll.{1,10}steuerzahlung/i
 /(dringende?|wichtige?).{1,10}mitteilung.{1,10}zollgebühren/iu
 
-
 /dringende information.{1,10}korrektur/i
 /dringlichkeit.{1,10}aufmerksamkeit/i
 
@@ -194,6 +193,8 @@
 /wichtige?.{1,10}hinweis?.{1,10}sperrung ihrer/i
 
 #/wichtige?.{1,15}informationen/i
+/wichtige information.{1,10}ihrer rechnung/i
+
 /wichtige?.{1,15}kontofunktion(en)?/i
 /wichtige?.{1,15}kontowarnung/i
 /wichtige?.{1,15}(konto|profil).?informationen/i

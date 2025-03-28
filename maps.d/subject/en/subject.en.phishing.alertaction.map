@@ -22,6 +22,7 @@
 
 /action required.{1,15}(activate|update) your/i
 /action required.{1,10}(account|improve|payment failed)/i
+/action required.{1,10}complete customs/i
 /action required.{1,10}enable 2fa/i
 /action required.{10,35}for violation/i
 /action required.{1,10}for your.{1,15}@/i
@@ -33,6 +34,8 @@
 /action required.{1,15}prevent account/i
 
 /action required.{1,10}subscription renewal/i
+
+/action required.{1,10}upgrade.{1,10}e?.?mail/i
 
 /action required.{1,10}(imap|pop3)/i
 /action required.{1,20}de votre carte/i
