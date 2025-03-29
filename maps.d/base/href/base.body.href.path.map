@@ -23,6 +23,8 @@
 # -> Redirect via AWS
 /\.awstrack\.me\/l0\/https:/i
 
+/\.shop/\?u=https:/i
+
 # Simple path
 # ------------------------------------------------------------------------------
 /\/account\/index\.php/campaigns\//i
