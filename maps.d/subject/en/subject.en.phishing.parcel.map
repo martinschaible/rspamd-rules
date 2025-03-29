@@ -80,5 +80,6 @@
 
 /your (package|parcel|shipment).{1,10}not delivered/i
 /your (package|parcel|shipment).{1,10}has been returned/i
+/your (package|parcel|shipment).{1,10}is on hold/i
 
 # Z
