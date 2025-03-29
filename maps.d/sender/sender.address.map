@@ -89,6 +89,7 @@
 # H
 
 # I
+/info\d{15}@/i
 
 # J
 
@@ -125,6 +126,8 @@
 /smbc.?(card|email)/i
 
 /swisspost@/i
+
+/(suite|support)\d{15}@/i
 
 # T
 

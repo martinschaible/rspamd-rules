@@ -81,7 +81,6 @@
 /du bist (der|ein).{1,15}gewinner bei/i
 /du bist unser gewinner/i
 
-
 #du hast ein iphone 16 gewonnen/
 /du hast ein.{5,25}gewonnen/i
 
@@ -164,6 +163,9 @@
 /ihr.{1,10}geschenk ist bereit/i
 /ihr.{1,10}gewinn wartet/i
 /ihr.{1,10}gutscheincode.{1,15}enthält/iu
+
+# Don't use gutschein here
+/ihre.{1,10}belohnung wartet/i
 
 /ihr.{1,10}name steht.{1,15}auf der liste/i
 /ihr.{1,10}name wurde für ein/iu
