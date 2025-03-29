@@ -71,6 +71,8 @@
 
 # Dating
 # ------------------------------------------------------------------------------
+/alle user im.{1,10}radius/i
+
 /date.{1,10}(treffen|vereinbaren)/i
 
 /dating.{1,10}(in deiner stadt|singles treffen)/i
@@ -102,6 +104,7 @@
 /nähe möchte sich mit.{1,10}treffen/i
 
 /(direkt zum|garantiertes|jetzt ein|noch heute).{1,10}date/i
+/direkt.{1,10}treffen mit frauen/i
 
 /treffen organisieren mit.{1,10}frauen/i
 /treffen sie ältere frauen/iu
@@ -113,14 +116,12 @@
 
 /suchst.{1,10}ein erotisches abenteuer/i
 
-/wenn sie auf der suche nach frauen/i
-
+/verabredung mit einheimischen/i
+/verbinden.{1,10}kontaktdaten.{1,10}austauschen/i
 /versaute.{1,10}treffen/i
 
-/verbinden.{1,10}kontaktdaten.{1,10}austauschen/i
-
-/verabredung mit einheimischen/i
-/direkt.{1,10}treffen mit frauen/i
+/wenn sie auf der suche nach frauen/i
+/wer ist gerade online/i
 
 # Dating Sites
 # ------------------------------------------------------------------------------
