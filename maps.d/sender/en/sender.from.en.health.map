@@ -178,7 +178,7 @@
 
 /belly.{0,10}(detox|fix|flattening)/i
 
-/(belly|burn|eliminates?|lose|losing|melt|shed|stubborn|wobbly).{0,10}(bloat|fat|flab|lbs|pounds|weight)/i
+/(belly|burn|eliminates?|lose|losing|melt|shed|stubborn|wobbly).{0,10}(belly|bloat|fat|flab|lbs|pounds|weight)/i
 /(lose|melt|shed).{0,10}\d{2}/i
 
 /(bulging|flat|slimmer|tiny|your).{0,10}belly/i
@@ -500,7 +500,7 @@
 
 # K
 /kidney.{0,10}fix/i
-/knee.{0,10}(inflammation|mistake)/i
+/knee.{0,10}(inflammation|mistake|reset)/i
 
 # L
 /leak.{0,10}free/i
@@ -573,7 +573,7 @@
 /nutrition.{0,10}(nuances?|tips?)/i
 
 # O
-/odd.{0,10}(milk|mineral|liquid|tonic)/i
+/odd.{0,10}(chocolate|milk|mineral|liquid|tonic)/i
 /oral.{0,10}flush/i
 /overnight.{0,10}hack/i
 
@@ -642,7 +642,7 @@
 /safe.{1,10}foods?/i
 
 /satisfaction.{0,10}solution/i
-/sciatica.{0,10}fix/i
+/sciatica.{0,10}(fix|pain)/i
 /scientists?.{0,10}reveals?/i
 
 /second.{0,10}tweak/i
@@ -768,7 +768,7 @@
 /your.{1,10}(pee|pelvis|poop)/i
 /your.{1,10}(smile|stomach)/i
 
-/youthful.{0,10}(boost|glow|longevity)/i
+/youthful.{0,10}(boost|glow|longevity|strength)/i
 
 # Z
 /zero.{0,10}side.?effects?/i
