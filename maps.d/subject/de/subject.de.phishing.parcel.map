@@ -72,7 +72,8 @@
 /fehlgeschlagener zustellversuch/i
 
 # G
-/(gebühr|einlieferungsbeleg) für ihre?.{1,10}(lieferung|paket|sendung)/i
+#/(gebühr|einlieferungsbeleg) für ihre?.{1,10}(lieferung|paket|sendung)/i
+/gebühr für ihre?.{1,10}(lieferung|paket|sendung)/i
 
 # H
 
