@@ -335,7 +335,8 @@
 /(clean|fat|feeding|zombie).{0,10}cell/i
 /clean.{0,10}(gut|lungs)/i
 /cleansing.{0,10}pads/i
-/clear.{0,10}(eyes|(toe)?nails|skin)/i
+
+/clear.{0,10}(complexion|eyes|(toe)?nails|skin)/i
 
 /click(ing)?.{0,10}(free|noise|sounds?)/i
 /clinically.{0,10}proven/i
@@ -349,6 +350,8 @@
 /compression.{0,10}sleeve/i
 /control.{0,10}cholesterol/i
 /counting.{0,10}calories/i
+
+/correct.{0,10}use/i
 /cortisol.{0,10}level/i
 
 /cure.{0,10}herpes/i
@@ -361,6 +364,7 @@
 
 /dead.{0,10}(drink|foods?|kidneys|veggies)/i
 /(dead|deep).{0,10}cleansing/i
+/dead.{0,10}drink/i
 /dental.{0,10}(issues?|rescue)/i
 
 /desire.{0,10}revival/i
@@ -765,7 +769,7 @@
 /your.{1,10}(craving|diet|ears|gut)/i
 /your.{1,10}(health|heart|knees)/i
 /your.{1,10}(live.?span|liver)/i
-/your.{1,10}(pee|pelvis|poop)/i
+/your.{1,10}(pee|pelvis|poop|posture)/i
 /your.{1,10}(smile|stomach)/i
 
 /youthful.{0,10}(boost|glow|longevity|strength)/i
