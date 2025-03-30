@@ -108,7 +108,8 @@
 /manufacturer of.{5,25}since/i
 /manufacturer from.{1,10}china/i
 
-/microchip parts request/i
+/materials.{1,10}suppliers/i
+/microchip.{1,10}parts request/i
 
 /multilayer (pcba?|printed.?circuit.?board).{1,10}manufacturing/i
 /multiple freight solutions/i
