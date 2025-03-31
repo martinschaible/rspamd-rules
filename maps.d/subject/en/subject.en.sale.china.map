@@ -185,6 +185,9 @@
 # Y
 /you have any.{1,10}(cargo|export)/i
 /your (current|future).{1,15}supplier/i
-/your plastic.?mould/i
+
+/your.{1,10}pcba?.{1,20}partner/i
+/your.{1,10}plastic.?mould/i
+/your.{1,15}successful partner/i
 
 # Z
