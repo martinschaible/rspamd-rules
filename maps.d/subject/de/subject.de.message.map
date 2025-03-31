@@ -84,7 +84,7 @@
 # G
 
 # H
-/haben sie bitte meine erste nachricht/i
+/haben sie bitte meine (erste|vorherige) nachricht/i
 
 # I
 /ignorieren sie.{1,10}nachricht nicht/i
@@ -100,8 +100,11 @@
 /lies diese nachricht/i
 
 # M
-/meine.{1,15}e?.?mail in ihrem posteingang/i
-/meine.{1,15}e?.?mail ist angekommen/i
+/meine.{1,15}(e?.?mail|nachricht).{1,10}angekommen ist/i
+/meine.{1,15}(e?.?mail|nachricht).{1,10}bei ihnen eingegangen/i
+/meine.{1,15}(e?.?mail|nachricht).{1,10}in ihrem posteingang/i
+/meine.{1,15}(e?.?mail|nachricht).{1,10}ist angekommen/i
+/meine.{1,15}(e?.?mail|nachricht).{1,10}übersehen/iu
 
 # N
 /nachricht einsehen/i
