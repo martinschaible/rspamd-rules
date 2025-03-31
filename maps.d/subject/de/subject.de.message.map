@@ -63,6 +63,7 @@
 /auf meine.{1,15}e?.?mail/i
 
 # B
+/bestätigung.{1,15}(e?.?mail|nachricht).{0,10}eingangs? bitten/iu
 
 # C
 
@@ -79,12 +80,13 @@
 /endgültige mitteilung/i
 
 # F
-/freue mich auf.{1,10}nachricht/i
+/freue mich auf.{1,10}(e?.?mail|nachricht)/i
 
 # G
+/gelegenheit gehabt.{1,10}meine.{1,10}(e?.?mail|nachricht)/i
 
 # H
-/haben sie bitte meine (erste|vorherige) nachricht/i
+/haben sie bitte meine (erste|vorherige).{1,10}(e?.?mail|nachricht)/i
 
 # I
 /ignorieren sie.{1,10}nachricht nicht/i

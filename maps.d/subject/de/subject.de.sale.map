@@ -99,7 +99,6 @@
 
 # B
 /beheizten? westen?/i
-
 /branchen.?führer.{1,10}\d{4}/i
 
 /(büro|massage).?(sessel|stuhl|stühle).{1,25}(bezug|funktion|massage)/i
@@ -223,7 +222,7 @@
 /sie ihren online.?ruf/i
 /sie suchen arbeitskräfte/iu
 
-/smarte.{1,15}beleuchtung/i
+/smarte?.{1,15}(beleuchtung|sohle)/i
 
 /sprechen.{1,10}(in über|problemlos).{1,10}sprachen/i
 

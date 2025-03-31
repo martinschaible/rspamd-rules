@@ -408,7 +408,7 @@
 
 /expert.{0,10}recommendation/i
 
-/expert.{0,10}warn(ing)?/i
+/expert.{0,10}(approved|warn(ing)?)/i
 /extend.{0,10}life/i
 
 /eye.{0,10}(cell|check|exercise|surgery)/i
@@ -579,6 +579,7 @@
 # O
 /odd.{0,10}(chocolate|milk|mineral|liquid|tonic)/i
 /oral.{0,10}flush/i
+/over \d{2}/i
 /overnight.{0,10}hack/i
 
 # P

@@ -187,6 +187,7 @@
 
 /(express|kurier|notification).{0,5}(dhl|dpd)/i
 
+/die.?schweizerische/i
 /diba-ag/i
 /die(\.|-)?post/i
 
@@ -233,7 +234,7 @@
 /galaxus.?(™|®|©)$/i
 
 /g-l-s/i
-/gls.{0,5}(support|team)/i
+/gls.{0,10}(support|team)/i
 
 /google.?drive/i
 

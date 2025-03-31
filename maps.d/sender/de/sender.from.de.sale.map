@@ -32,6 +32,7 @@
 
 # B
 /bequemes.{0,10}sitzen/i
+/beweglich.{0,10}fit/i
 
 # C
 
@@ -115,9 +116,11 @@
 /sicher.{0,15}(leben|zuhause)/i
 /sicherheits?.{0,10}profis/i
 
-/smart.?büro/iu
+/smart.{0,10}(büro|sohle)/iu
 /solar.{0,10}(aktion|angebot|lösungen|preis)/i
 /solar.{0,10}(special|spezial)/i
+
+/soh?le.{0,10}boost/i
 
 /sprach.?(genie|ki|meister|tool)/i
 /sprechen.{0,10}(direkt|echtzeit|jetzt|lotse)/i
@@ -130,6 +133,8 @@
 # U
 /überwachung.{0,10}spezial/iu
 /unglaublicher.{0,10}deal/i
+
+/unsere empfehlung/i
 
 # V
 /versand.{0,10}gratis/i
