@@ -51,7 +51,7 @@
 /(dear|greetings?|good day|hello|hi\b).{1,10}i am.{1,15}broker/i
 /(dear|greetings?|good day|hello|hi\b).{1,10}i work as a/i
 
-/dear.{1,10}(ceo|confidant|trustee)/i
+/dear.{1,10}(ceo|confidant|export|trustee)/i
 
 /dear.{1,10}(good day|greetings)/i
 /dear.{1,25}this is.{5,25}from/i

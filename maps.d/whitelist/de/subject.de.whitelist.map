@@ -61,7 +61,7 @@
 # S
 
 # T
-/terminerinnerung/i
+/termin.{0,5}(absage|erinnerung)/i 5.0
 
 # U
 /\bunterricht\b/i
