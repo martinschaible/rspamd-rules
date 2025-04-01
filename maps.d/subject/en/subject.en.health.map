@@ -93,7 +93,7 @@
 /activate.{1,10}brain/i
 /after trying this/i
 
-/alzheimer.{1,15}take this/i
+/alzheimer.{1,15}(take this|trigger)/i
 
 /ancient.{1,10}herb/i
 /annoying ear buzzing/i
@@ -200,11 +200,12 @@
 
 /doing this to your/i
 
-/Drink That Reverses/i
+/drink that reverses/i
 /drink this.{1,15}(before|juice|to)/i
 /drink this.{1,20}beverage/i
-
 /drink triggers/i
+
+/drink you must avoid/i
 
 /drops?.{1,10}(a1c|blood sugar)/i
 /drop up to.{1,10}(lbs|pounds|weight)/i
