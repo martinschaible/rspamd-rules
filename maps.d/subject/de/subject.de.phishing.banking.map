@@ -27,7 +27,6 @@
 /authentifizierung für ihre.{1,15}(kredit)?karte/iu
 
 # B
-/^bestätigung benötigt$/iu
 
 # C
 
@@ -82,6 +81,8 @@
 /routineupdate für.{1,20}verfügbar/iu
 
 # S
+/sie müssen.{1,10}photo.?tan/iu
+
 /sicherheits(funktion|update).{1,10}ihre.{1,10}(app|karte)/i
 
 /sperrung.{1,10}diensten.{1,10}nichtbefolgung/i

@@ -61,7 +61,10 @@
 
 /benötigt aktion/iu
 
+/^bestätigung benötigt$/iu
 /bestätigung erforderlich.{1,10}(rück)?erstattung/i
+
+/bestätigen.?-.?#[a-z0-9]{4,10}/iu
 /bestätigen sie ihre.{1,10}(angaben|telefon.?nummer)/i
 
 /bitte beachten sie.{1,10}ihre.{1,20}muss/i
