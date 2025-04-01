@@ -115,6 +115,8 @@
 /coca.?cola/i
 /cup.?result/i
 
+/supply.?-pdf/i
+
 # Sample: Advice.PDF).html
 /\)\.html/i
 
@@ -145,6 +147,9 @@
 /\.(pdf|xlsx)\.(lz|t?gz|zip)/i
 
 /(,|_|-)(doc|pdf)\.(gz|htm|rar|svg|tar|zip)/i
+
+# Sample: pdf (4kb).docx
+/pdf.?\(\d{1,5}kb\).?\.docx/i
 
 # Triple Extension
 # ------------------------------------------------------------------------------
