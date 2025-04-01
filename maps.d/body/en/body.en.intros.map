@@ -43,8 +43,8 @@
 
 /i represent a team of over/i
 
-//\bi\s*(am|'m)\b.{5,25}from.{5,25}located in/i
-//\bi\s*(am|'m)\b.{5,25}from.{1,10}shenzhen/i
+/\bi\s*(am|'m)\b.{5,25}from.{5,25}located in/i
+/\bi\s*(am|'m)\b.{5,25}from.{1,10}shenzhen/i
 
 # Sample: i am a international manager
 /\bi\s*(am|'m)\b a.{1,15}manager/i
