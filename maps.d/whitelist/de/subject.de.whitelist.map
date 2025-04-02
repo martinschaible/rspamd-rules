@@ -6,6 +6,8 @@
 # Weight:   -0.5
 #           -0.25 (use muliplicator 0.5)
 #           -1.0 (use muliplicator 2.0)
+#           -2.5 (use muliplicator 5.0)
+#           -5.0 (use muliplicator 10.0)
 # ==============================================================================
 
 # Undeliveries / Out of office
@@ -40,9 +42,11 @@
 # I
 
 # J
+/jagdaufsichtspass/i 5.0
 /jahresversammlung/i
 
 # K
+/kanton zürich/i 5.0
 
 # L
 
