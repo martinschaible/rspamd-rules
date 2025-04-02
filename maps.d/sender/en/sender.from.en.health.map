@@ -240,6 +240,7 @@
 # Numeric
 /\d (cup|tbsp)/i
 /\d{1,2} (minerals|signs)/i
+/\d{2,3} sec rules/?
 /\d{2,3} years old/i
 
 /120\/80/i
