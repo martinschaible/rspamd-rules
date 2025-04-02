@@ -9,7 +9,7 @@
 # Alzheimer, Dementia, Memory
 # ------------------------------------------------------------------------------
 /(alze?heimer|dementia).{1,10}(alert|brain|test|trigger|warning)/i
-/brain.{0,10}(booster|cell|damage|fuel|fixer|food|fog|health)/i
+/brain.{0,10}(booster|cell|damage|experts?|fuel|fixer|food|fog|health)/i
 /brain.{0,10}(nutrient|power|scan|science|trick|waves)/i
 
 /cognitive.{0,10}(fix|health)/i
