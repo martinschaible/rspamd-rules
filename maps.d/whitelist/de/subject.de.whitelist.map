@@ -1,23 +1,47 @@
 # ==============================================================================
-# Subject Whitelist: Words and phrases
+# Whitelisting words and phrases can be dangerous.
+# Therefore, it's important to choose your content carefully and avoid
+# using generic words whenever possible.
 #
-# Tag:      subject, whitelist
+# Using the multiplier at the end of a line is a great way to increase the
+# scoring based on the importance of a word or phrase.
+#
+# ------------------------------------------------------------------------------
 # Language: german
 # Weight:   -0.5
-#           -0.25 (use muliplicator 0.5)
-#           -1.0 (use muliplicator 2.0)
-#           -2.5 (use muliplicator 5.0)
-#           -5.0 (use muliplicator 10.0)
+#           -0.25 -> muliplicator 0.5
+#           -1.0  -> muliplicator 2.0
+#           -1.5  -> muliplicator 3.0
+#           -2.0  -> muliplicator 4.0
+#           -2.5  -> muliplicator 5.0
+#           -3.0  -> muliplicator 6.0
+#           -3.5  -> muliplicator 7.0
+#           -4.0  -> muliplicator 8.0
+#           -4.5  -> muliplicator 9.0
+#           -5.0  -> muliplicator 10.0
+# ==============================================================================
+
+# Topics
 # ==============================================================================
 
 # Undeliveries / Out of office
-# ==============================================================================
+# ------------------------------------------------------------------------------
 /(out of office|undeliverable).{1,15}(einladung|symposium|willkommen)/i 2.0
 /(abwesend|automatische antwort).{1,15}(einladung|symposium|willkommen)/i 2.0
 
-/\babwesenheitsmeldung\b/i -1.0
+/\babwesenheitsmeldung\b/i 2.0
 
-# German words and phrases which i think will never occur in spam mails
+# Related to Germany
+# ------------------------------------------------------------------------------
+
+# Related to Switzerland
+# ------------------------------------------------------------------------------
+
+#
+#
+#
+
+# Generic: Words and phrases which i think will never occur in spam mails
 # ==============================================================================
 
 # A
@@ -43,7 +67,7 @@
 
 # J
 /jagdaufsichtspass/i 5.0
-/jahresversammlung/i
+/jahresversammlung/i 5.0
 
 # K
 /kanton zürich/i 5.0
@@ -79,9 +103,3 @@
 # Y
 
 # Z
-
-# Related to Germany
-# ==============================================================================
-
-# Related to Switzerland
-# ==============================================================================

@@ -1,15 +1,31 @@
 # ==============================================================================
-# Body Whitelist: Words and phrases
+# Whitelisting words and phrases can be dangerous.
+# Therefore, it's important to choose your content carefully and avoid
+# using generic words whenever possible.
 #
-# Tags:     body, whitelist
+# Using the multiplier at the end of a line is a great way to increase the
+# scoring based on the importance of a word or phrase.
+#
+# ------------------------------------------------------------------------------
 # Language: german
 # Weight:   -0.5
-#           -0.25 (use muliplicator 0.5)
-#           -1.0 (use muliplicator 2.0)
+#           -0.25 -> muliplicator 0.5
+#           -1.0  -> muliplicator 2.0
+#           -1.5  -> muliplicator 3.0
+#           -2.0  -> muliplicator 4.0
+#           -2.5  -> muliplicator 5.0
+#           -3.0  -> muliplicator 6.0
+#           -3.5  -> muliplicator 7.0
+#           -4.0  -> muliplicator 8.0
+#           -4.5  -> muliplicator 9.0
+#           -5.0  -> muliplicator 10.0
+# ==============================================================================
+
+# Topics
 # ==============================================================================
 
 # Undeliveries / Out of office
-# ==============================================================================
+# ------------------------------------------------------------------------------
 /ferienhalber abwesend/i 2.0
 
 /ich bin bis am.{1,15}abwesend/i 2.0
@@ -25,7 +41,105 @@
 
 /vielen dank.{1,10}ihre.{1,10}e?.?mail.{1,10}ich bin ab/i 2.0
 
-# German words and phrases which i think will never occur in spam mails
+# Related to Germany
+# ------------------------------------------------------------------------------
+
+# A
+/\bachensee\b/i
+
+# B
+/\bbayern\b/i
+/\bbezirksdirigent(in)?\b/i
+/\bbundesliga\b/i
+/\bbundestagswahl\b/i
+/\bbundestreffen\b/i
+/\bbundesverband\b/i
+
+# C
+/\bchristkindlmarkt\b/i
+
+# E
+/\bevangelisch\b/i
+
+# H
+/\bhandballbund\b/i
+
+# K
+/\bkarnevalistisch\b/i
+/\bkreislandfrau\b/i
+/\bkreispokal\b/i
+/\bkreisvorstand\b/i
+
+# L
+/\blandfrau\b/i
+/\blandeshauptstadt\b/i
+/\blandesleistungszentrum\b/i
+/\blandesverband\b/i
+/\blandgemeinde\b/i
+/\blandkreistag\b/i
+/\blandratsamt\b/i
+
+# M
+/\bmünchen\b/i 0.5
+/\bmittelrhein\b/i
+
+# P
+/\bparitätischen\b/i
+
+# S
+/\bschadenfreiheitsberechtigt\b/i
+
+# T
+
+# V
+/\bvergabeakte\b/i
+
+# W
+/\bwaldorfschule\b/i
+/\bwartungs.?termin\b/i
+/\bwaschbecken\b/i
+/\bwaschtag\b/i
+/\bwelpen\b/i
+
+/\bwiesbaden\b/i
+/\bwohlfahrtsverband\b/i
+
+# Z
+/\bzipfel.?mütze\b/i
+
+# Related to Switzerland
+# ------------------------------------------------------------------------------
+
+# H
+/\bhallo zäme\b/i
+
+# K
+/\bkantons.?spital\b/i
+/\bkanton zu\b/i
+
+# R
+/\brekrutenschule\b/i
+/\brestaurant au premier\b/i
+
+# S
+/\bsamichlaus\b/i
+
+/\bschweizer fachleute\b/i
+/\bschweizer medium\b/i
+/\bschweizermeisterschaft\b/i
+
+/\bsihlcity\b/i
+
+/\bsvp höri\b/i
+
+# Z
+/\bzürich\b/i
+
+#
+#
+#
+
+# Generic: Words and phrases which i think will never occur in spam mails
 # ==============================================================================
 
 # A
@@ -342,97 +456,3 @@
 # Z
 /\bzahn.?heil.?kunde\b/i
 /\bzugewiesen an\b/i
-
-# Related to Germany
-# ==============================================================================
-
-# A
-/\bachensee\b/i
-
-# B
-/\bbayern\b/i
-/\bbezirksdirigent(in)?\b/i
-/\bbundesliga\b/i
-/\bbundestagswahl\b/i
-/\bbundestreffen\b/i
-/\bbundesverband\b/i
-
-# C
-/\bchristkindlmarkt\b/i
-
-# E
-/\bevangelisch\b/i
-
-# H
-/\bhandballbund\b/i
-
-# K
-/\bkarnevalistisch\b/i
-/\bkreislandfrau\b/i
-/\bkreispokal\b/i
-/\bkreisvorstand\b/i
-
-# L
-/\blandfrau\b/i
-/\blandeshauptstadt\b/i
-/\blandesleistungszentrum\b/i
-/\blandesverband\b/i
-/\blandgemeinde\b/i
-/\blandkreistag\b/i
-/\blandratsamt\b/i
-
-# M
-/\bmünchen\b/i 0.5
-/\bmittelrhein\b/i
-
-# P
-/\bparitätischen\b/i
-
-# S
-/\bschadenfreiheitsberechtigt\b/i
-
-# T
-
-# V
-/\bvergabeakte\b/i
-
-# W
-/\bwaldorfschule\b/i
-/\bwartungs.?termin\b/i
-/\bwaschbecken\b/i
-/\bwaschtag\b/i
-/\bwelpen\b/i
-
-/\bwiesbaden\b/i
-/\bwohlfahrtsverband\b/i
-
-# Z
-/\bzipfel.?mütze\b/i
-
-# Related to Switzerland
-# ==============================================================================
-
-# H
-/\bhallo zäme\b/i
-
-# K
-/\bkantons.?spital\b/i
-/\bkanton zu\b/i
-
-# R
-/\brekrutenschule\b/i
-/\brestaurant au premier\b/i
-
-# S
-/\bsamichlaus\b/i
-
-/\bschweizer fachleute\b/i
-/\bschweizer medium\b/i
-/\bschweizermeisterschaft\b/i
-
-/\bsihlcity\b/i
-
-/\bsvp höri\b/i
-
-# Z
-/\bzürich\b/i
