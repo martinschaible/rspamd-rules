@@ -75,7 +75,8 @@
 #/eine neue nachricht/i
 /eine neue nachricht\./i
 
-/e?.?mail sie gut findet/i
+/e?.?mail.{1,10}interesse geweckt/i
+/e?.?mail.{1,10}sie gut findet/i
 
 /endgültige mitteilung/i
 
