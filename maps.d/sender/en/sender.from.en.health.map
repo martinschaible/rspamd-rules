@@ -311,6 +311,7 @@
 
 /bp.?drugs/i
 
+/bulging.{0,10}discs/i
 /burn.{0,10}(boost|calories)/i
 /(buzzing|hissing).{0,10}ears/i
 
@@ -413,7 +414,7 @@
 /expert.{0,10}recommendation/i
 
 /expert.{0,10}(approved|warn(ing)?)/i
-/extend.{0,10}life/i
+/extend.{0,10}(life|reveals)/i
 
 /eye.{0,10}(cell|check|exercise|surgery)/i
 
@@ -724,7 +725,7 @@
 /toned.{0,10}belly/i
 /tongue.{0,10}move/i
 
-/top.{0,10}(fruits|medication)/i
+/top.{0,10}(experts?|fruits|medication)/i
 /toxic.{0,10}(food|milk)/i
 /toxin.{0,10}(destroyer|flush|mineral)/i
 /tropical.{0,10}(fruit|juice)/i
