@@ -1,0 +1,76 @@
+# ==============================================================================
+# The entire URL is available here.
+# We can therefore whitelist the domain, the path, or parts of the path.
+#
+# Caution is advised here.
+# Domains, in particular, should only be used in conjunction with the path.
+# This ensures that the entry is unique.
+#
+# Note: The "prefilter" is applied here.
+# If a rule matches, the email is accepted, and all other filters are ignored.
+#
+# ------------------------------------------------------------------------------
+# Country: germany
+# Weight:  -
+# ==============================================================================
+
+# A
+
+# B
+
+# C
+
+# 03.04.25
+/rdir\.conrad\.ch/i
+
+# D
+
+# E
+
+# F
+
+# G
+
+# H
+
+# I
+
+# J
+
+# K
+
+# L
+
+# M
+
+# N
+
+# 03.04.25
+/nlink\.migros-kulturprozent-classics\.ch/i
+
+# 02.04.25 - Fired by "base.body.img.domain.name: 2.4"
+/link\.nzz\.ch\//i
+
+# O
+
+# P
+
+# Q
+
+# R
+
+# S
+
+# T
+
+# U
+
+# V
+
+# W
+
+# X
+
+# Y
+
+# Z
