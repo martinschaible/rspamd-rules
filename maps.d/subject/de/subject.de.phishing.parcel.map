@@ -128,6 +128,7 @@
 # Used in real life
 #/(paket|sendung).{1,10}ist unterwegs!/i
 
+/(paket|sendung).{1,10}an sie hätte geliefert/iu
 /(paket|sendung).{1,10}befindet sich in wartestellung/i
 /(paket|sendung).{1,20}bewegt sich/i
 /(paket|sendung).{1,10}erwartet sie/i
@@ -185,7 +186,7 @@
 /versandbestätigung erforderlich/iu
 
 # W
-/warten auf abholung/i
+/warten auf (abholung|paketzustellung)/i
 
 /wartet.{1,10}auf.{1,20}(abholung|anweisung|bestätigung|lieferung|versandzahlung|zustellung)/iu
 #/wartet auf sie/i
