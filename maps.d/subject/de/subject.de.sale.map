@@ -144,6 +144,7 @@
 # I
 /ich kann alles hören/iu
 
+/ihr.{1,10}(auto|fahrzeug|wagen|lkw|pkw) zum besten preis/i
 /ihr personalbedarf/i
 /ihr.{1,10}(4g|lte).{1,5}wifi/i
 /ihr.{1,10}wlan.?signal/i
@@ -220,7 +221,7 @@
 /schlechte.{1,10}beleuchtung/i
 /schöne.{1,10}zähne/i
 
-/sie ihr auto verkaufen/i
+/sie ihr.{1,10}(auto|fahrzeug|wagen|lkw|pkw) verkaufen/i
 /sie ihren online.?ruf/i
 /sie suchen arbeitskräfte/iu
 
