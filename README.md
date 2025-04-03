@@ -189,10 +189,19 @@ Folder structure:
 ```
 whitelist
   ├─ de
-  │   ├─ body.de.whitelist.map
-  │   └─ subject.de.whitelist.map
-  ├─ en
-  │   └─ ....
+  │   ├─ body.de.whitelist.map                   ─┐
+  │   ├─ sender.from.de.whitelist.map             │
+  │   └─ subject.de.whitelist.map                 │
+  ├─ en                                           │
+  │   └─ ....                                     │
+  ├─ body.href.url.az.whitelist.map           +   ├─ multimap.whitelist.conf  
+  ├─ body.href.url.ch.whitelist.map           +   │ 
+  ├─ body.href.url.de.whitelist.map           +   │ 
+  ├─ body.href.url.us.whitelist.map           +   │ 
+  └─ header.ip.whitelist.map                  +  ─┘
+
 ```
+
++ -> "prefilter" is set
 
 More content will follow soon.
