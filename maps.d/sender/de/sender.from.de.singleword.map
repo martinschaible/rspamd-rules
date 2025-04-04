@@ -137,6 +137,7 @@
 
 /deaktivierung/i
 
+/^dienst$/i
 /dividenden/i
 
 /doktor$/i
@@ -196,7 +197,9 @@
 # G
 /gebührenfrei/i
 
-/gedächtnistrainer/iu
+/gedächtnis.?alarm/i
+/gedächtnis.?trainer/iu
+
 /^geldsorgen/i
 /geiles?/i
 /geldsparende/i
