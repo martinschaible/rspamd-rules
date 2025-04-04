@@ -23,7 +23,7 @@
 /\.(biz|co|or)\.id$/i
 
 # The exotic ones
-/\.(agency|cam|fun|work|xyz)$/i
+/\.(agency|cam|chat|fun|work|xyz)$/i
 
 # Health
 # ------------------------------------------------------------------------------
@@ -136,7 +136,7 @@
 
 /swisspost@/i
 
-/(suite|support)\d{15}@/i
+/(suite|support)\d{1,10}@/i
 
 # T
 

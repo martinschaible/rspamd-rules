@@ -52,7 +52,7 @@
 /(dear|greetings?|good day|hello|hi\b).{1,10}i work as a/i
 
 /dear.{1,10}collegue.{1,10}i am.{5,35}director/i
-/dear.{1,10}(ceo|confidant|export|trustee)/i
+/dear.{1,10}(ceo|company|confidant|export|trustee)/i
 
 /dear.{1,10}(good day|greetings)/i
 /dear.{1,25}this is.{5,25}from/i
