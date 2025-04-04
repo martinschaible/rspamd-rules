@@ -70,7 +70,8 @@
 # O
 
 # P
-/photo.?tan.?verfahren/i
+/(photo|push).?tan.?verfahren/i
+/(photo|push).?tan.{1,10}vorübergehend aufgehoben/iu
 
 # Q
 
@@ -106,3 +107,4 @@
 # Y
 
 # Z
+/ihr zugriff auf.{1,20}vorübergehend aufgehoben/i
