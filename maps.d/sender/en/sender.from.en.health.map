@@ -238,7 +238,7 @@
 # ==============================================================================
 
 # Numeric
-/\d (cup|tbsp)/i
+/\d (cup|tbsp|tsp)/i
 /\d{1,2} (minerals|signs)/i
 /\d{2,3} sec rules/?
 /\d{2,3} years old/i
@@ -329,6 +329,7 @@
 /care.{0,10}secret/i
 /carb.{0,10}(secrets?|tricks?)/i
 
+/cause.{0,10}aging/i
 /cbd.{0,10}(experts?|fruit|gummies|solution|therapy)/i
 
 /celebrity.{0,10}doc(tor)?/i
@@ -505,7 +506,7 @@
 /irritating.{0,10}noise/i
 
 # J
-/japanese.{0,10}secret/i
+/japanese.{0,15}(experts?|secret|urology)/i
 
 # K
 /kidney.{0,10}fix/i
@@ -646,6 +647,7 @@
 
 /rise.{0,10}again/i
 /rock.{0,10}(hard|solid)/i
+/root.{0,10}cause/i
 
 /rx.?pharma/i
 
@@ -694,6 +696,7 @@
 /stinky.{0,10}breath/i
 /stop.{0,10}(breating|brushing|flossing)/i
 
+/strong.{0,10}urine/i
 /stroke.{0,10}(indication|prevention|signal)/i
 
 /strong(er)?.{0,10}(hair|immunity|smile)/i
@@ -740,7 +743,7 @@
 /unlock.{0,10}(hips|mind)/i
 /unusual.{0,10}stretch/i
 /urinary.{0,10}(fix|help|incontinence)/i
-/urine?.{0,10}leaks?/i
+/urine?.{0,10}(flow|leaks?)/i
 
 # V
 /varicose.{0,10}veins/i

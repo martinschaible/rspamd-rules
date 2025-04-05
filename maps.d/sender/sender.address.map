@@ -43,7 +43,8 @@
 # ------------------------------------------------------------------------------
 
 # Sample: Sales098@topmail.com
-/(girl|sales)\d{1,3}@/i
+/(girl|info|kontakt|local)\d{1,10}@/i
+/(sales|suite|support)\d{1,10}@/i
 
 #
 #
@@ -96,7 +97,6 @@
 # H
 
 # I
-/info\d{15}@/i
 
 # J
 
@@ -135,8 +135,6 @@
 /smbc.?(card|email)/i
 
 /swisspost@/i
-
-/(suite|support)\d{1,10}@/i
 
 # T
 
