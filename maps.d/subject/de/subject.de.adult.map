@@ -13,6 +13,9 @@
 # Generic
 # ==============================================================================
 
+#
+\d neues bild von/i
+
 # A
 /aufregende.{1,10}seitensprünge/iu
 /aufregendsten.{1,10}treffen/i
@@ -91,7 +94,7 @@
 /neue nachricht von/i
 /neuen?.{1,10}kostenlosen?.{1,10}web.?sites?/i
 /neuer.{1,10}steckbrief/i
-/neues.{1,10}privatbild/i
+/neues.{1,10}(privat|profile).?bild/i
 
 /neues foto von/i
 
