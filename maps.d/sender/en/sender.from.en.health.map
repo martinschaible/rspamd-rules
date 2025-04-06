@@ -88,7 +88,7 @@
 
 /health.?(digest|now|research)/i
 
-/healthy?.{0,10}(alert|alternative|brain|circulation|foods?)/i
+/healthy?.{0,10}(alert|alternative|brain|foods?)/i
 /healthy?.{0,10}(guides?|gut|heart|heaven|hero|insights)/i
 /healthy?.{0,10}(power|secret|transformation)/i
 
@@ -115,10 +115,6 @@
 /(beat|destroy|end|fight|goodbye|stop).{0,10}tinnitus/i
 
 /(irritating|strange).{0,10}(buzzing|sound)/i
-
-# Joints
-# ------------------------------------------------------------------------------
-/(achy|anti|chronic|reduce).{0,10}(inflammation|inflammatory)/i
 
 # Knee
 # ------------------------------------------------------------------------------
@@ -248,7 +244,6 @@
 
 # A
 /aching.{0,10}points/i
-/acute.{0,10}inflammation/i
 
 /age.{0,10}freezing/i
 /aged.{0,10}spot/i
@@ -307,7 +302,7 @@
 /\bboner$/i
 
 /bone.{0,10}bone/i
-/boost.{0,10}(circulation|energy)/i
+/boost.{0,10}energy/i
 
 /bp.?drugs/i
 
@@ -333,8 +328,6 @@
 /cbd.{0,10}(experts?|fruit|gummies|solution|therapy)/i
 
 /celebrity.{0,10}doc(tor)?/i
-
-/chronic.{0,10}inflammation/i
 
 /(clean|fat|feeding|zombie).{0,10}cell/i
 /clean.{0,10}(gut|lungs)/i
@@ -499,7 +492,6 @@
 /ice.{0,10}(hack|trick)/i
 /immune.{0,10}system/i
 /improved.{0,10}brain/i
-/inflammation.{0,10}fix/i
 /insuline?/i
 /irritating.{0,10}noise/i
 
@@ -508,7 +500,7 @@
 
 # K
 /kidney.{0,10}fix/i
-/knee.{0,10}(inflammation|mistake|reset)/i
+/knee.{0,10}(mistake|reset)/i
 
 # L
 /leak.{0,10}free/i
@@ -549,7 +541,7 @@
 /missing.{0,10}nutrients?/i
 /mitochondria.{0,10}boost/i
 
-/morning.{0,10}(boost|detox|drink|hack|mistake|oil|routine|slimmer|wood)/i
+/morning.{0,10}(boost|dessert|detox|drink|hack|mistake|oil|routine|slimmer|wood)/i
 /mouth.{0,10}(detox|odor)/i
 
 /muffled.{0,10}hearing/i

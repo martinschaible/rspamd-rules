@@ -28,6 +28,8 @@
 /alleine?.{0,10}zuhause/i
 /antworte.{5,25}noch heute/i
 
+/app.?(benachrichtigung(en)?|hinweis)/i
+
 # B
 /beste dating/i
 
@@ -52,6 +54,8 @@
 
 # H
 /hat dir eine nachricht geschickt/i
+
+/hinweis.{1,10}der app/i
 
 # I
 /ich warte/i
