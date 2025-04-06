@@ -76,11 +76,12 @@
 /\d{1,2}.{1,10}day trick to a/i
 /\d{1,2}.{1,10}second (rub|routine)/i
 /\d{1,3}.?(lbs|pounds) gone/i
-
 /\d cause of/i
 /\d simple habit/i
 /\d stretch/i
 /\d way to eliminate/i
+
+/1 daily habit/i
 
 # A
 /about.{1,10}weight.?loss/i
@@ -153,7 +154,7 @@
 
 # C
 /calories.{1,10}belly fat/i
-/cause of.{1,10}(dementia|joint pain|memory.?loss)/i
+/cause of.{1,10}(dementia|ed\b|joint pain|memory.?loss)/i
 /causes.{1,15}vision loss/i
 /cavity.{0,10}cure/i
 
@@ -432,6 +433,7 @@
 /rock.?(hard|solid) (in just|stiffness)/i
 
 # S
+/safe way to stop/i
 /save your.{1,10}(exe.?sight|nails)/i
 /saving secret/i
 

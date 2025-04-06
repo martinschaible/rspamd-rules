@@ -92,7 +92,7 @@
 /healthy?.{0,10}(guides?|gut|heart|heaven|hero|insights)/i
 /healthy?.{0,10}(power|secret|transformation)/i
 
-/(american|daily|insider|intimate|mens|womens).{0,10}health/i
+/(american|daily|insider|intimate|mens|simple|womens).{0,10}health/i
 
 /(better|bone|dangerous).{0,10}health/i
 
@@ -334,7 +334,6 @@
 
 /celebrity.{0,10}doc(tor)?/i
 
-/cholesterol.{0,10}(balance|control)/i
 /chronic.{0,10}inflammation/i
 
 /(clean|fat|feeding|zombie).{0,10}cell/i
@@ -353,7 +352,6 @@
 /cognitive.{0,10}(decline|support)/i
 
 /compression.{0,10}sleeve/i
-/control.{0,10}cholesterol/i
 /counting.{0,10}calories/i
 
 /correct.{0,10}use/i
@@ -487,7 +485,7 @@
 /herpes.{0,10}(eliminator|outbreak|talk)/i
 
 /hidden.{0,10}(danger|power|protein|risk|ritual|toxin)/i
-/high.{0,10}(cholesterol|sugar)/i
+/high.{0,10}sugar/i
 
 /hip.{0,10}(flexors?|muscles?)/i
 /hissing.{0,10}sounds?/i
@@ -595,7 +593,9 @@
 
 /pelvic.{0,10}recovery/i
 /penis.{0,10}(muscle|ritual)/i
+
 /perfect.{0,10}(sleep|smile)/i
+/performance.{0,10}power/i
 
 /pharmas?.{0,10}secret/i
 /pinched.{0,10}nerves?/i

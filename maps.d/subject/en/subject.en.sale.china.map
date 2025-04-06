@@ -47,11 +47,12 @@
 # D
 /dash.?cam(era)?/i
 
-/discover.{1,10}electronic.{1,10}components?/i
-/discover.{1,10}quality.{1,10}(bags|backpacks)/i
-
 # E
 /exclusive freight rates/i
+
+/(explore|discover).{1,10}electronic.{1,10}components?/i
+/(explore|discover).{1,10}our.{1,10}(company|factory)/i
+/(explore|discover).{1,10}quality.{1,10}(bags|backpacks)/i
 
 /electronic components?.{1,10}(stock|supplier|supply)/i
 /electronic components?.{1,10}you need/i
