@@ -22,7 +22,7 @@
 
 # C
 /chat.{1,10}dates?/i
-/chatten.{1,15}(fotos|videos)/i
+/chatten?.{1,15}(fotos|mit|videos)/i
 
 # D
 /dame möchte mit dir/i
@@ -33,7 +33,7 @@
 /dein profil 2 mal angesehen/i
 /dein sexy.{1,10}profil/i
 
-/deine verbindung mit/i
+/deine (freundschaft/verbindung) mit/i
 /deinen perfekten partner/i
 
 /du wurdest verbunden/i
@@ -90,12 +90,16 @@
 /neu in.{1,10}nachbarschaft/i
 /neue nachricht von/i
 /neuen?.{1,10}kostenlosen?.{1,10}web.?sites?/i
+/neuer.{1,10}steckbrief/i
+/neues.{1,10}privatbild/i
 
 /neues foto von/i
 
 # O
 
 # P
+/plz.?match mit/i
+
 /prickelnde dates/i
 /privater kontakt/i
 /profil gefällt mir/i
