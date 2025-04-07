@@ -34,7 +34,7 @@
 # D
 /dating.?in/i
 
-/(date|dating).{0,10}(cell|club|offer|team|room)/i
+/(date|dating).{0,10}(cell|club|offer|portal|team|room)/i
 /dirty.{0,10}talk/i
 
 /dream.{0,10}match/i
@@ -44,7 +44,7 @@
 
 # F
 /find.{0,10}fuck/i
-/flirt.{0,10}hotties/i
+/flirt.{0,10}(hotties|team)/i
 /fuck.{1,10}(friend|me tonight)/i
 
 # G
