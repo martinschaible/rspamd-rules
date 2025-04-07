@@ -562,6 +562,8 @@
 
 # W
 # ------------------------------------------------------------------------------
+/walmart.{0,10}(confirmation|shipment|winner)/i
+
 /we transfer/i
 /we-transfer/i
 /we.?transfer.?\|/i
