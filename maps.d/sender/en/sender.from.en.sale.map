@@ -86,6 +86,8 @@
 /instant.{0,10}access/i
 /instant.{0,10}quotes?/i
 
+/insurance.{0,10}(comparison|quotes?)/i
+
 /4k.?ip.?tv/i
 
 /ip.?tv.{1,10}(channels|company)/i
@@ -127,6 +129,7 @@
 /pro.?security/i
 
 # Q
+/quote.{0,10}fnder/i
 
 # R
 /radar.{0,10}detector/i
