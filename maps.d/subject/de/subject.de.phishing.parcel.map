@@ -99,6 +99,8 @@
 /korrigieren sie/i
 
 # L
+/letzter schritt zur zustellung/i
+
 /lieferadresse überprüfen/iu
 /lieferdetails.{1,10}um die lieferung/i
 /lieferproblem.{1,10}antworten sie/i
@@ -134,6 +136,8 @@
 /(paket|sendung).{1,10}befindet sich in wartestellung/i
 /(paket|sendung).{1,20}bewegt sich/i
 /(paket|sendung).{1,10}erwartet sie/i
+
+/(paket|sendung).{1,10}importgebühr ausstehend/iu
 
 /(paket|sendung).{1,10}ist bereit.{1,10}(zahlen|zustellung)/i
 /(paket|sendung).{1,10}ist im land angekommen/i

@@ -24,7 +24,7 @@
 /begegnung.{1,10}leidenschaft/i
 
 # C
-/chat.{1,10}dates?/i
+/chat.{1,10}(betreten|dates?)/i
 /chatten?.{1,15}(fotos|mit|videos)/i
 
 # D
@@ -58,6 +58,7 @@
 /(geile|heisse).{1,10}dates/i
 
 # H
+/hat.{1,10}den chat/i
 /heiße.{1,10}(frauen|singles)/i
 
 # I
