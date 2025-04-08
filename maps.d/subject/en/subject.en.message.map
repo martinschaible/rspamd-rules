@@ -120,8 +120,10 @@
 # Y
 /you an e?.?mail.{1,10}did you get it/i
 
-/you receive my message/i
-/you receive the e?.?mail/i
+/you receive my (e?.?mail|message)/i
+/you receive my previous.{1,10}(e?.?mail|message)/i
+
+/you receive the.{1,10}(e?.?mail|message)/i
 
 /your urgent attention/i
 

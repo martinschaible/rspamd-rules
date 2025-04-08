@@ -54,6 +54,7 @@
 # Weight Loss
 # ------------------------------------------------------------------------------
 /(fat|weight).?loss.{1,10}(breakthrough|tip)/i
+/(fat|weight).?burning.{1,10}(morning|routine)/i
 
 /(fat|weight).{1,10}success proven/i
 
@@ -420,7 +421,7 @@
 /(re)?ignite.{1,10}passion/i
 
 /relief with this.{1,15}(technique|weird)/i
-/relieve.{1,10}constipation/i
+/relieve.{1,10}(constipation|tinnitus)/i
 /remedy (restores|unleashes)/i
 
 /removes?.{1,10}dark spots/i
@@ -432,6 +433,8 @@
 /(reverse|reversing).{1,10}vision.?loss/i
 
 /rock.?(hard|solid) (in just|stiffness)/i
+
+/routine.{1,10}no exercise/i
 
 # S
 /safe way to stop/i
