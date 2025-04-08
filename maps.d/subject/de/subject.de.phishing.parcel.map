@@ -86,6 +86,8 @@
 /ihre?.{1,10}(lieferung|paket|sendung).{1,10}wartet/i
 /ihre(r|s).{5,15}fehlgeschlagen/i
 
+/importgebühren für.{1,10}(lieferung|paket|sendung)/iu
+
 /in der warteschleife/i
 
 /ist ausgesetzt/i
@@ -225,6 +227,8 @@
 # Z
 /zahlung.{1,15}(paket|sendung).{1,10}erforderlich/i
 /zahlung.{1,10}(ausstehend|erforderlich).{1,10}für.{1,10}(paket|zustellung)/iu
+
+/zahlungserinnerung.{1,10}importgebühren/iu
 
 /zustellung ansteht/i
 
