@@ -35,6 +35,7 @@
 
 /jetzt sichern.{1,15}fördergelder/iu
 
+/günstige preise.{1,10}(alle|für).{1,10}(photovoltaik|pv|solar).?anlagen?/i
 /(preissturz|preissenkungen).{1,10}(photovoltaik|pv|solar).?anlagen?/i
 /(rabatte|sinkende preise).{1,20}(photovoltaik|pv|solar).?anlagen?/i
 /preise.{1,10}(photovoltaik|pv|solar).?anlagen?.{1,10}gefallen/i
