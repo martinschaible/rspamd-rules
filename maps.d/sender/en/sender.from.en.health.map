@@ -345,6 +345,7 @@
 /cognitive.{0,10}(decline|support)/i
 
 /compression.{0,10}sleeve/i
+/constant.{0,10}urinatine/i
 /counting.{0,10}calories/i
 
 /correct.{0,10}use/i
@@ -403,7 +404,7 @@
 
 /(exotic|kitchen).{0,10}spice/i
 
-/expert.{0,10}recommendation/i
+/expert.{0,10}(recommendation|reveals)/i
 
 /expert.{0,10}(approved|warn(ing)?)/i
 /extend.{0,10}(life|reveals)/i
@@ -561,7 +562,7 @@
 /nature.{0,10}opioids?/i
 
 /neck.{0,10}skin/i
-/nerves?.{0,10}(comfort|health|pain|recovery|repair|revival)/i
+/nerves?.{0,10}(comfort|health|pain|recovery|repair|revival|support)/i
 
 /never.{0,10}(eat|forget)/i
 /new.{0,10}(energy|hair|research)/i
@@ -688,6 +689,7 @@
 /stinky.{0,10}breath/i
 /stop.{0,10}(breating|brushing|flossing)/i
 
+/stream.{0,10}strong(er)?/i
 /strong.{0,10}urine/i
 /stroke.{0,10}(indication|prevention|signal)/i
 
@@ -734,8 +736,10 @@
 # U
 /unlock.{0,10}(hips|mind)/i
 /unusual.{0,10}stretch/i
+
 /urinary.{0,10}(fix|help|incontinence)/i
 /urine?.{0,10}(flow|leaks?)/i
+/urology.{0,10}expert/i
 
 # V
 /varicose.{0,10}veins/i

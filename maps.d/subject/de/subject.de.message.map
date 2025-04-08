@@ -78,6 +78,7 @@
 /e?.?mail.{1,10}interesse geweckt/i
 /e?.?mail.{1,10}sie gut findet/i
 
+/empfang der.{1,10}e?.?mail bestätigen/i
 /endgültige mitteilung/i
 
 # F
@@ -88,7 +89,7 @@
 
 # H
 /haben sie bitte meine (erste|vorherige).{1,10}(e?.?mail|nachricht)/i
-/haben sie unsere.{1,10}(e?.?mail|nachricht) erhalten/i
+/haben sie (meine|unsere).{1,10}(e?.?mail|nachricht) (erhalten|gesehen)/i
 
 # I
 /ignorieren sie.{1,10}nachricht nicht/i

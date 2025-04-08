@@ -539,8 +539,12 @@
 /(try|this).{1,10}miracle/i
 /(try|this).{1,10}simple.{1,10}nutrient/i
 
+/this food kills.{1,10}(back|hip|knee|pain)/i
+
 /to get.{1,10}hard/i
 /to stay.{1,10}asleep/i
+
+/top doctor.{1,10}reveals/i
 
 # U
 /unusual asian treat/i
