@@ -60,7 +60,6 @@
 #/\.(com|info|us)\/about\//i
 
 /\.co\.in\/link\.php/i
-/\.cn\/link\.php/i
 
 /\.co\.au\/ml\//i
 /\.com\.br\/debit\//i
@@ -70,8 +69,6 @@
 /\.(sa|za)\.com\/clicks\//i
 
 /\.de\/browse\.php/i
-
-/\.cn\/admin\//i
 
 # Sample: .net/shop/out26TT-2/073a4bc137bad8229879a8ad4fbe7280/
 /\.net\/shop\/.{4,15}\/[a-z0-9]{20,40}\//i
