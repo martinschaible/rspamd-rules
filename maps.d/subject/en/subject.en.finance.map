@@ -71,7 +71,8 @@
 
 # L
 /loan @\d%/i
-/loan approval.{1,10}business/i
+/loan.{1,10}approval.{1,10}business/i
+/loan.{1,10}debt.{1,10}financing/i
 /loan within.{1,10}hours/i
 
 /^loans? offer/i
