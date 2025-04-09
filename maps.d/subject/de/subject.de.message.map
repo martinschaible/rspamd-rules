@@ -75,7 +75,8 @@
 #/eine neue nachricht/i
 /eine neue nachricht\./i
 
-/e?.?mail.{1,10}interesse geweckt/i
+/e?.?mail.{1,10}erhalten.{1,10}rückmeldung/iu
+/e?.?mail.{1,10}(interesse geweckt|noch interesse)/i
 /e?.?mail.{1,10}sie gut findet/i
 
 /empfang der.{1,10}e?.?mail bestätigen/i
@@ -125,6 +126,7 @@
 # Q
 
 # R
+/rückmeldung.{1,15}e.?mail erhalten/i
 
 # S
 /^sehr wichtig$/i
