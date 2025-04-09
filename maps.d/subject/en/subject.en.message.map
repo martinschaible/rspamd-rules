@@ -54,6 +54,7 @@
 # B
 
 # C
+/confirm my.{1,10}e?.?mail reached you/i
 /congratulations.{1,15}urgent reply needed/i
 
 /contact me at this.{1,10}e?.?mail/i
@@ -61,6 +62,7 @@
 # D
 
 # E
+/e?.?mail.{1,10}did you receive it/i
 /e?.?mail.{1,10}your interest/i
 
 # F
@@ -121,7 +123,7 @@
 /you an e?.?mail.{1,10}did you get it/i
 
 /you receive my (e?.?mail|message)/i
-/you receive my previous.{1,10}(e?.?mail|message)/i
+/you (get|receive) my (last|previous).{1,10}(e?.?mail|message)/i
 
 /you receive the.{1,10}(e?.?mail|message)/i
 

@@ -110,6 +110,7 @@
 
 /(hello|hi).{1,5}(dear|friend).{1,10}(confidential|private|strictly|urgent)/i
 /(hello|hi).{1,5}(dear|friend).{1,10}good day/i
+/(hello|hi).{1,5}(dear|friend).{1,10}i came across/i
 /(hello|hi).{1,5}(dear|friend).{1,10}we would like to introduce/i
 
 /(hello|hi).{1,10}\[first name\]/i
