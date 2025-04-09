@@ -76,6 +76,7 @@
 # P
 /price.?list.{1,10}(brochure|catalog|catalogue)/i
 
+/^po# \d{4,6}/i
 /po.?file via wetransfer/i
 
 /product.{1,10}(inquiry|pricing).{1,10}shipping/i

@@ -25,6 +25,9 @@
 # The exotic ones
 /\.(agency|cam|chat|fun|work|xyz)$/i
 
+# 08.04.25
+/\.top$/i
+
 # Health
 # ------------------------------------------------------------------------------
 # 10.01.25 - Last weapon. Rspamd isn't able to check the body.
