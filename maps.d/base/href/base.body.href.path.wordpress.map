@@ -42,7 +42,11 @@
 
 /\/wp-content\/[a-z0-9_-]{1,15}\/[a-z]{1,15}\.(html|php)/i
 /\/wp-content\/plugins\/[a-z0-9_-]{1,15}\/[a-z0-9_-]{1,15}\.(html|php)/i
-/\/wp-content\/(uploads|plugins|themes\/twentyeleven)\/[a-z0-9_-]{1,20}\/[a-z0-9_-]{1,20}\.(html|php)/i
+
+#
+/\/wp-content\/(uploads|plugins|themes)\/[a-z0-9_-]{1,20}\.(html|php)/i
+/\/wp-content\/(uploads|plugins|themes)\/[a-z0-9_-]{1,20}\/[a-z0-9_-]{1,20}\.(html|php)/i
+/\/wp-content\/(uploads|plugins|themes)\/[a-z0-9_-]{1,20}\/[a-z0-9_-]{1,20}\/[a-z0-9_-]{1,20}\.(html|php)/i
 
 # TLD's
 /\.com\/wp-admin\/css\/[a-z0-9_-]{1,15}\.(html|php)/i

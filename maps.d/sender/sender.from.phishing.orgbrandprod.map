@@ -260,6 +260,8 @@
 # Note relevant in Europe
 /home.?(depot|warranty)/i
 
+/hostpoint.{0,10}webdomain/i
+
 # I
 # ------------------------------------------------------------------------------
 /^icloud$/i
