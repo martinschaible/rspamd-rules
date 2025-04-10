@@ -20,7 +20,6 @@
 
 /\.[a-z]{1,4}.{1,10}de.?activation notice/i
 /\.[a-z]{1,4}.{1,10}mail.?server closure/i
-/\.[a-z]{1,4}.{1,10}server.{1,10}password.{1,10}expired/i
 /\.[a-z]{1,4}.{1,10}warning{1,10}the e?.?mail account/i
 /\.[a-z]{1,4}.{1,10}will be blocked/i
 
@@ -46,7 +45,6 @@
 # E
 /e?.?mail.{1,10}closure.{1,10}do not ignore/i
 /e?.?mail.{1,10}maintenance for/i
-/e?.?mail.{1,10}password will be disabled/i
 /e?.?mail.{1,10}verification notice/i
 
 /(e?.?mail|message).{1,10}failure delivery notice/i
@@ -87,7 +85,6 @@
 
 # R
 /report.{1,10}incoming.{1,10}(e?.?mails|message)/i
-/reset password.{1,15}(fail|message)/i
 
 /re.?validate server/i
 
@@ -128,7 +125,5 @@
 
 /your.{1,10}mailbox.{1,10}de.?activation/i
 /your.{1,10}mailbox.{1,10}has been flagged/i
-
-/your.{1,10}web.?mail password/i
 
 # Z

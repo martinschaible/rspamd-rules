@@ -33,7 +33,6 @@
 /bitte verifizieren/i
 
 # C
-/\.(ch|de|org).{1,10}passwort abgelaufen/i
 
 # D
 /(dringende|wichtig)e?.{1,5}(aktion|aktualisierung) erforderlich/i
@@ -48,7 +47,6 @@
 /(eingeschränkten|eingeschränkter) zugriff auf ihr.{1,15}konto/iu
 
 # F
-/festgestellt.{1,10}Ihr Passwort/i
 
 # Don't use "profile"
 /für ihr.{1,15}konto/i
@@ -66,8 +64,6 @@
 /ihr.{1,15}konto eingeschränkt/iu
 /ihr.{1,15}konto ist gefährdet/i
 /ihr.{1,15}konto jetzt/i
-
-/ihr.{1,15}passwort aktualisiert werden muss/i
 
 #/ihre identität verifizieren/iu
 

@@ -31,7 +31,6 @@
 /action required.{1,10}messages to/i
 /action required.{1,30}new notifications/i
 
-/action required.{10,35}password (about|expires?)/i
 /action required.{1,15}prevent account/i
 
 /action required.{1,10}subscription renewal/i
@@ -79,7 +78,6 @@
 /important mailbox/i
 
 /important (notice|notification).{1,10}for.{1,15}@/i
-/important (notice|notification).{1,10}password expiration/i
 /important (notice|notification).{1,10}upgrade/i
 
 /important update.{1,15}@/i
@@ -111,8 +109,6 @@
 /(receiving|reminder).{1,15}action required/i
 /reply back today/i
 
-/request.{1,10}expiring password/i
-
 # S
 /security alert.{1,10}funds/i
 /security update.{1,25}confirm your/i
@@ -141,8 +137,6 @@
 
 # W
 /wallet alert.{1,10}action required/i
-
-/warning.{1,10}password recovery/i
 
 # X
 

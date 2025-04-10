@@ -26,8 +26,6 @@
 # ==============================================================================
 
 # A
-/authentification.{1,10}failed.{1,10}reset password/i
-
 /avoid getting locked out/i
 
 # B
@@ -61,8 +59,6 @@
 # O
 
 # P
-/password is set to expire soon/i
-/password renewal required/i
 
 # Q
 
@@ -87,8 +83,5 @@
 /your.{5,20}details/i
 
 /your.{1,15}account is temporarily blocked/i
-
-# Probably too strong, will see
-/your.{1,15}password is set to expire/i
 
 # Z
