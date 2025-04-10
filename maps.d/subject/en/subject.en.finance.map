@@ -50,7 +50,9 @@
 # F
 /fast loans?/i
 
-/finance.{1,10}opportunities/i
+/finance.{1,10}(business(es)?|projects?)/i
+/finance.{1,10}(opportunities|opportunity)/i
+
 /financing for your.{1,15}(business|projects?)/i
 
 /flexible financing solutions/i
