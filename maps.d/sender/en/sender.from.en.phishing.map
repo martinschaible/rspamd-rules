@@ -117,7 +117,7 @@
 
 /mail.?center/i
 
-/membership.?updates/i
+/membership.?(offer|updates?)/i
 
 /message.{0,10}notification/i
 
@@ -157,6 +157,7 @@
 /supportch/i
 /support.{0,10}delivery/i
 
+/special.{0,10}membership/i
 /systems.?administrator/i
 
 # T
