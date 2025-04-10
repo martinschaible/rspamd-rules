@@ -73,6 +73,7 @@
 /sent you an important.{1,10}(e?.?mail|letter|message)/i
 
 # T
+/this.{1,10}(e?.?mail|letter|message).{1,10}as your last warning/i
 /this.{1,10}(e?.?mail|letter|message).{1,10}is safe/i
 /this.{1,10}(e?.?mail|letter|message).{1,10}is very important/i
 
