@@ -41,7 +41,7 @@
 
 # L
 /lotter(ie|y).{0,15}(alert|award|board|insider|promotion|syndicate|vip|winning)/i
-/lotter(ie|y).{0,15}(strategies|tips?)/i
+/lotter(ie|y).{0,15}(secrets|strategies|tips?)/i
 
 /lotter(ie|y)!/i
 
@@ -76,6 +76,7 @@
 /welfare.{0,10}lotter(ie|y)/i
 
 /win(ning)?.{0,10}lotter(ie|y)/i
+/win(ning)?.{0,10}lotto/i
 
 # X
 
