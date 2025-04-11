@@ -156,6 +156,7 @@
 # ------------------------------------------------------------------------------
 /(paket|sendung).{1,10}das sich im.{1,15}(distributions|verteil).?zentrum befindet/i
 /(paket|sendung).{1,10}hat jetzt das zollamt erreicht/i
+/(paket|sendung).{1,10}ist im zielland eingetroffen/i
 /(paket|sendung).{1,10}ist in unserer.{1,15}postfiliale angekommen/i
 /(paket|sendung).{1,10}mit der bestellnummer/i
 /(paket|sendung).{1,10}zurzeit in unserem.{1,10}(distributions|verteil).?zentrum/i
@@ -194,6 +195,8 @@
 
 /(lieferung|versand).{1,10}(ausstehende|unbezahlte).{1,10}(versandkosten|zollgebühren)/iu
 /(lieferung|versand).{1,10}zu planen.{1,10}muss eine versandgebühr/iu
+
+/lieferung ausgesetzt.{1,10}zahlung benötigt/iu
 /lieferung erhalten.{1,15}zahlung.{1,10}(notwendig|verpflichtend)/i
 /lieferdaten.{1,10}bezahlen sie die.{1,10}versandkosten/i
 
@@ -283,11 +286,12 @@
 /zollgebühren in höhe von.{1,10}euro zu begleichen/iu
 
 #
-/gebühren.{1,10}(chf|euro) 1(\.|,)99/iu
 /\d(\.|,)\d{2}.{1,10}zollgebühren wurden nicht bezahlt/i
-
-/betrag beträgt 1(\.|,)99 (chf|euro)/iu
+/gebühren.{1,10}(chf|euro) (1|2)(\.|,)99/iu
+/fälliger betrag: (1|2)(\.|,)99/iu
 /fälliger betrag: \d,(\.|,) (chf|euro)/iu
+
+/betrag beträgt (1|2)(\.|,)99 (chf|euro)/iu
 
 #
 /kaufen sie eine paysafecard/i

@@ -42,6 +42,7 @@
 
 /contact.{1,10}pcba?.{1,10}supplier/i
 
+/custom.{1,10}machined parts/i
 /custom.{1,10}metal stamping /i
 /custom.{1,10}(pcba?|printed.circuit.board)/i
 /custom.{1,10}products? manufacturing/i
@@ -182,6 +183,8 @@
 # V
 
 # W
+/we are china.{1,15}(dropshipping|platform|supplier)/i
+
 /we are looking for partners for/i
 /we supply.{1,20}priced chips/i
 
