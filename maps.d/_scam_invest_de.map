@@ -11,6 +11,8 @@
 # ------------------------------------------------------------------------------
 /ihnen einen.{10,20}investitionsvorschlag/i
 
+/projekt investieren.{1,10}gut kennst/i
+
 # Investment, Company
 # ------------------------------------------------------------------------------
 /sie wegen einer.{1,15}(geschäfts|investitions).?summe/i
@@ -18,6 +20,8 @@
 # Investment, Country
 # ------------------------------------------------------------------------------
 /ich das geld in ihrem land investieren kann/i
+
+/in (deinem|ihrem) land in ein.{1,10}projekt investieren/i
 
 #
 #
