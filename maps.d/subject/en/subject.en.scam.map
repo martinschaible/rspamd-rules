@@ -82,9 +82,12 @@
 /full proposal/i
 
 /fund(ing).?.{1,10}(donation|opportunity|proposal|recovered|request)/i
-/fund.{1,10}million/i
-/funds for you/i
-/funds (relief|request)/i
+
+/funds?.{1,10}million/i
+/funds? for you/i
+
+/funds? recovery.{1,10}(committee|team)/i
+/funds? (relief|request)/i
 
 # G
 
