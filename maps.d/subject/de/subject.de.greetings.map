@@ -43,6 +43,7 @@
 /(guten tag|hallo|sehr geehrter?).{1,20}(begünstigter|e?.?mail|empfänger|kunde)/iu
 
 /guten morgen.{1,10}mein.{1,15}freund/i
+/guten morgen.{1,10}meine liebe/i
 
 /gruß.{1,10}liebling/i
 

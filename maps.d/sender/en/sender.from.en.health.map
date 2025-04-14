@@ -54,10 +54,13 @@
 # ED, Erection, Potency
 # ------------------------------------------------------------------------------
 /(ed\s|enhancement|enlargement).{0,10}(gummie?s|news|treatment|solution)/i
+/ed\s.{0,10}(fix|forever|no.?more|treatment)/i
+
+/endo.?pump/i
+
 /(climax|erectile|libido|manhood)/i
 
 /(hard|iron).{0,10}erection/i
-/ed\s.{0,10}(fix|forever|no.?more|treatment)/i
 /(fix your|goodbye).{0,10}ed/i
 
 # Eyes, Vision
@@ -460,7 +463,7 @@
 /gut.{0,10}(balance|fix|flush|health|quiz|reboot|repair|solution)/i
 
 # H
-/hair.{0,5}(growth|loss|renewal|restoration|restorer?|thinning)/i
+/hair.{0,5}(balding|growth|loss|renewal|restoration|restorer?|thinning)/i
 /hard in\b/i
 
 /happy.{0,10}(gut|knees)/i
@@ -491,7 +494,7 @@
 
 # I
 /iced?.{0,10}(hack|trick|water)/i
-/immune.{0,10}system/i
+/immune.{0,10}(booster|system)/i
 /improved.{0,10}brain/i
 /insuline?/i
 /irritating.{0,10}noise/i
@@ -535,6 +538,8 @@
 /mental.{0,10}clarity/i
 
 /midnight.{0,10}bathroom/i
+
+/min.?stretch/i
 /mind.{0,10}(barriers?|blow|boost|clarity)/i
 /mineral.{0,10}combination/i
 

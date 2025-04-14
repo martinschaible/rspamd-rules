@@ -95,6 +95,7 @@
 /activate.{1,10}brain/i
 /after trying this/i
 
+/alleviate.{1,10}joint.?pain/i
 /alzheimer.{1,15}(take this|trigger)/i
 
 /ancient.{1,10}herb/i
@@ -110,8 +111,8 @@
 /avoid this.{1,10}(common|for)/i
 
 /avoid.{1,10}heart attack/i
-/avoid this.{1,10}(breakfast|food)/i
-/avoid this.{1,10}common/i
+/avoid (these|this).{1,10}(breakfast|food)/i
+/avoid (these|this).{1,10}common/i
 
 # B
 /back.?pain.{1,10}relief/i
@@ -289,6 +290,8 @@
 
 # H
 /hack silences/i
+
+/hair.?loss\.\./i
 /hair.?loss.{1,10}reversed/i
 /harvard.{1,15}(leaked|second|stretch)/i
 
@@ -332,7 +335,7 @@
 /juice lowers/i
 /jumpstart your.{1,15}health/i
 
-/joint.?pain.{1,10}(cut|relief)/i
+/joint.?pain.{1,15}(cut|instantly|learn more|relief)/i
 /joint.?pain now/i
 
 # K
@@ -390,7 +393,7 @@
 # P
 /pain free.{1,10}joints/i
 /pain in.{1,10}minutes?/i
-/pain.{1,10}try this/i
+/pain.{1,10}(do this|try this)/i
 
 /painful neuropathy/i
 
@@ -432,7 +435,7 @@
 /restores?.{1,10}(hearing|joint|memory|perfect|teeth)/i
 
 /(reverse|reversing).{1,10}(aging in|dementia|diabetes|ed\b|memory|type 2)/i
-/(reverse|reversing).{1,10}vision.?loss/i
+/(reverse|reversing).{1,10}(hair|vision).?loss/i
 
 /rock.?(hard|solid) (in just|stiffness)/i
 
@@ -524,6 +527,8 @@
 /this.{1,10}everyday habit/i
 /this.{1,10}for.{1,10}seconds/i
 /this.{1,10}kills knee/i
+
+/this.{1,10}speeds up memory/i
 /this.{1,10}strange method/i
 
 /this.{1,10}stops.{1,10}diabetes/i

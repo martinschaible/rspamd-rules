@@ -79,6 +79,7 @@
 /good quality.{1,10} pcba?/i
 
 # H
+/help increasing in.{1,15}market/i
 /high quality chinese/i
 
 # I
@@ -194,7 +195,10 @@
 
 # Y
 /you have any.{1,10}(cargo|export)/i
+/you looking for.{1,15}supplier/i
+
 /your (current|future|loyal).{1,15}(partner|supplier)/i
+
 
 /your.{1,15}pcba?.{1,20}partner/i
 /your.{1,15}plastic.?mould/i
