@@ -79,6 +79,7 @@
 /good quality.{1,10} pcba?/i
 
 # H
+/high quality chinese/i
 
 # I
 /ic microchip request/i
@@ -107,6 +108,7 @@
 /machined parts vendor/i
 /machinery parts tailor/i
 
+/magnet manufacturer?/i
 /many years.{1,10}oem/i
 
 /manufacturer of.{5,25}since/i
@@ -169,7 +171,7 @@
 
 /shoes direct factory/i
 
-/supplier from.{1,10}china/i
+/supplier (from|in).{1,10}china/i
 /supply steel plates/i
 
 # T

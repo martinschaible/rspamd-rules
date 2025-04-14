@@ -254,6 +254,10 @@
 # ------------------------------------------------------------------------------
 /sieh dir den verkauf an/i
 
+# SBB
+# ------------------------------------------------------------------------------
+/sbb cff ffs.{1,10}sehr geehrter kunde/i
+
 # Swiss Tax Office 
 # ------------------------------------------------------------------------------
 /sehr geehrter steuerzahler/i
@@ -316,7 +320,9 @@
 
 /formular so bald wie möglich ab/iu
 /lesen sie diesen hinweis sorgfältig durch/iu
-/lieber kunde.{1,10}wir haben probleme/i
+
+/(lieber|sehr geehrter) kunde.{1,10}wir möchten sie.{1,15}darauf aufmerksam machen/iu
+/(lieber|sehr geehrter) kunde.{1,10}wir haben probleme/i
 
 /schauen sie sich das bild unten an/i
 /sehr geehrte.{1,5}wir möchten/ui
