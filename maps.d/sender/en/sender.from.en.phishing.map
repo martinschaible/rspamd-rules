@@ -66,6 +66,8 @@
 
 /accounts?.?(department|help|payable|team)/i
 
+/action.{0,10}required/i
+
 # B
 /billing.?team/i
 
@@ -150,6 +152,7 @@
 /service.{0,10}notifications?/i
 /(service|storage).{0,10}(upgrades?|updates?)/i
 
+/safety.{0,10}(alert|check)/i
 /shared.{0,10}file/i
 
 /shipping.{0,10}(pending|team|update)/i

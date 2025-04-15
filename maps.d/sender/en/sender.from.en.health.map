@@ -239,7 +239,7 @@
 # Numeric
 /\d (cup|tbsp|tsp)/i
 /\d{1,2} (minerals|signs)/i
-/\d{2,3} sec rules/?
+/\d{1,2} sec rules/?
 /\d{2,3} years old/i
 
 /120\/80/i
@@ -625,6 +625,8 @@
 # R
 /radiant{0,10}glow/i
 /rare.{0,10}hormone/i
+
+/real.?cause/i
 
 /red.{0,10}(berry|juice)/i
 /regain your/i
