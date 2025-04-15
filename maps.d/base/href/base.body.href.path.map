@@ -98,6 +98,12 @@
 # 15.02.25 - Sample: .com/b/n/n/index.html
 /\.com\/[a-z]\/[a-z]\/[a-z]\/index\.html/i
 
+# Malware
+# ------------------------------------------------------------------------------
+
+# 15.04.25 - Sample: https://dl.dropboxusercontent.com/scl/fi/f4krtvvsfqviyih5qd43a/Rechnung.zip?
+/rechnung\.zip/i
+
 #
 #
 #

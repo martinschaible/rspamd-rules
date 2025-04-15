@@ -32,7 +32,7 @@
 
 /i\.?t (admin|notice|notification|server)/i
 
-/cpanel.{0,10}webmail/i
+/cpanel.{0,10}(webhost|webmail)/i
 
 /help-desk/i
 /helpdesk-/i
