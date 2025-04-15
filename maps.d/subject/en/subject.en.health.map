@@ -248,6 +248,7 @@
 
 /eliminates?.{1,15}without meds/i
 /eliminates?.{1,10}(nerve|type 2)/i
+/eliminates?.{1,15}eye bags/i
 
 /erases?.{1,10}(artery plaque|tinitus|wrinkles?)/i
 /erections?.{1,10}pill/i
@@ -312,6 +313,7 @@
 /hgh.{1,10}now legal/i
 
 /high a1c/i
+/high.{1,10}blood.{1,10}pressure/i
 
 /holds the secret/i
 /home remedy/i
@@ -379,7 +381,7 @@
 /nails in just/i
 /naturally.{1,10}(discover|restored?|with this)/i
 
-/high.{1,10}blood.{1,10}pressure/i
+/new way.{1,10}eliminate/i
 
 /no joint pain/i
 /no surgery needed/i
@@ -520,6 +522,8 @@
 
 /the.{1,10}minute morning/i
 /the.{1,10}secret ingredient/i
+
+/this.{1,10}back.?pain fix/i
 
 /this.{1,10}before going to bed/i
 /this.{1,10}cuts heart attack/i

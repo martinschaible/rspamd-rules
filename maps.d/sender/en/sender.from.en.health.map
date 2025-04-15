@@ -276,7 +276,7 @@
 
 /basic.{0,10}protein/i
 
-/bed.?hack/i
+/bed.{0,10}(hack|stretch)/i
 /bedroom.{0,10}(fix|secrets?)/i
 /belly.{0,10}(buddy|buster)/i
 /berry.{0,10}detox/i

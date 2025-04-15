@@ -128,6 +128,7 @@
 /^urgent (inquiry|rfq)$/i
 
 /urgent project/i
+/urgent.{1,10}order inquiry/i
 /urgent.{1,10}request.{1,10}(quotation|quote)/i
 /urgent.{1,10}rfq.{1,25}offer/i
 
