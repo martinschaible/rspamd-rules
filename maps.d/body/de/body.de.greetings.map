@@ -154,7 +154,8 @@
 /sehr geehrter fahrer/i
 /sehr geehrter manager/i
 
-/sehr geehrter?.{1,10}(empfänger|unternehmer)(in)?/i
+/sehr geehrter.{1,10}geschäftspartner.{1,10}mein name ist/i
+/sehr geehrter?.{1,10}(empfänger|nachfolger|unternehmer)(in)?/i
 /sehr geehrter?.{1,10}(freundlicher|nutzer)/i
 /sehr geehrter?.{1,20}ich bin ein/i
 /sehr geehrte\/?r?.{1,5}wir möchten sie informieren/iu

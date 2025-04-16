@@ -100,6 +100,8 @@
 /gift.{0,10}inside/i
 /gift(.?card)?.{0,10}(chance|opportunity)/i
 
+/group.{0,10}team/i
+
 # H
 /happy.?box/i
 
@@ -132,7 +134,7 @@
 /opinion.{0,10}request(ed)?/i
 
 # P
-/group.{0,10}team/i
+/pending.{1,10}e?.?mails/i
 
 # Q
 

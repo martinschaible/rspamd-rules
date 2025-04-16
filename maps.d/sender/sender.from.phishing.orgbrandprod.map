@@ -167,6 +167,7 @@
 /danke.{0,5}kaufland/i
 
 /-debix/i
+/debix+/i
 /debbix\+/i
 /decathlon-/i
 
@@ -275,6 +276,9 @@
 /^icloud$/i
 /^ing$/i
 /ihk.?(™|®|©)?$/i
+
+/international.{0,10}investigation/i
+/investigation.{0,10}department/i
 
 /ihre?.?migros/i
 

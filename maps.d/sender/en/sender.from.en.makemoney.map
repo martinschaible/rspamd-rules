@@ -57,6 +57,8 @@
 /art.?adivisory?/i
 /asset.?updates/i
 
+/attract.{0,10}wealth/i
+
 # B
 /bank.{0,10}breaker/i
 
@@ -115,7 +117,7 @@
 # V
 
 # W
-/wealth.{0,10}secret/i
+/wealth.{0,10}(attraction|secret)/i
 
 # X
 

@@ -32,9 +32,9 @@ _[a-z].{0,15}box/i
 /digitale.{0,10}dienste/i
 
 # E
-/vignette.{0,10}kundenservice/i
-
 /es tut uns leid/i
+
+/exklusiv.{0,10}(angebot|punkte)/i
 
 # F
 
@@ -96,7 +96,8 @@ _[a-z].{0,15}box/i
 /umfrage.{0,15}(exklusiv|starten|unter|verbraucher)/i
 
 # V
-/vignette.{0,10}(support|system)/i
+/vignette.{0,10}(kundenservice|support|system)/i
+
 /von.{1,15}kreditkarte/i
 
 # W

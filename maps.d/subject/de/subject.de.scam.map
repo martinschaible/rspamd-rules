@@ -100,6 +100,7 @@
 /betreff.{1,5}von/i
 
 /benachrichtigung(en)?.{1,10}nicht beanspruchte gelder/i
+/benannter.{1,10}begünstigter/iu
 
 /bestätigen sie den anspruch/iu
 /bestatigen sie/i
@@ -115,6 +116,8 @@
 # E
 /e?.?mail(.?adresse)?.{1,10}ansprüche bestätigen/iu
 /e?.?mail(.?adresse)?.{1,10}wurde.{1,15}(ausgewählt|zufallsprinzip)/iu
+
+/eintrag im firmenverzeichnis/i
 
 # F
 /firmen.?eintrag.{1,10}werbeanzeige/i

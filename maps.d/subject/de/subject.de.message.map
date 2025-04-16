@@ -132,7 +132,8 @@
 # Q
 
 # R
-/rückmeldung.{1,15}e.?mail erhalten/i
+/rückmeldung.{1,15}e.?mail erhalten/iu
+/rückmeldung.{1,10}letzten.{1,10}e?.?mail/iu
 
 # S
 /^sehr wichtig$/i

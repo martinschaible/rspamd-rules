@@ -251,6 +251,7 @@
 /age.{0,10}freezing/i
 /aged.{0,10}spot/i
 /ageless.{0,10}(beauty|treat)/i
+/aging.{0,10}reverse
 
 /allergy.{0,10}sufferers/i
 /ancient.{0,20}(enzyme|ritual|wellness|wine)/i
@@ -275,6 +276,7 @@
 
 /basic.{0,10}protein/i
 
+/beauty.{0,10}(hack|secret)/i
 /bed.{0,10}(hack|stretch)/i
 /bedroom.{0,10}(fix|secrets?)/i
 /belly.{0,10}(buddy|buster)/i
@@ -406,7 +408,7 @@
 
 /(exotic|kitchen).{0,10}spice/i
 
-/expert.{0,10}(recommendation|reveals)/i
+/(expert|neurologist).{0,15}(recommends|recommendation|reveals)/i
 
 /expert.{0,10}(approved|warn(ing)?)/i
 /extend.{0,10}(life|reveals)/i
