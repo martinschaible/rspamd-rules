@@ -75,10 +75,10 @@
 
 # Business register
 # ------------------------------------------------------------------------------
-/(publikation|schaltung|veröffentlichung|werbeanzeige).{1,10}(branchen.?führer|firmen.?eintrag)/iu
+/(publikation|schaltung|veröffentlichung|werbeanzeige|wichtig).{1,10}(branchen.?buch|branchen.?führer|firmen.?eintrag)/iu
 
-/(branchen.?führer|firmen.?eintrag).{1,20}(202\d|publikation|veröffentlichung)/iu
-/(branchen.?führer|firmen.?eintrag).{1,10}werbe.?(anzeige|annonce)/i
+/(branchen.?buch|branchen.?führer|firmen.?eintrag).{1,20}(202\d|publikation|veröffentlichung)/iu
+/(branchen.?buch|branchen.?führer|firmen.?eintrag).{1,10}werbe.?(anzeige|annonce)/i
 
 # Winning
 # ------------------------------------------------------------------------------
