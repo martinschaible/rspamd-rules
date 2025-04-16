@@ -62,6 +62,7 @@
 /guten (abend|morgen|tag).{1,10}unser sicherheitssystem/i
 /guten (abend|morgen|tag).{1,10}zum schutz ihres/i
 
+/guten hallo/i
 /grusse an dich/i
 
 /grüße.{1,10}an sie.{1,10}ich schreibe ihnen/i
@@ -88,6 +89,7 @@
 /hallo.{1,10}ich schreibe ihnen/i
 
 /hallo.{1,10}ihre e?.?mail.?adresse wurde/i
+/hallo.{1,10}ihr paket mit der/i
 
 /hallo.{1,10}mein lieber.{1,10}ich heiße/i
 
@@ -118,6 +120,8 @@
 
 # L
 /lieber?.{1,10}(paket)?empfänger/iu
+
+/lieber.{1,10}freund.{1,10}grüße/i
 /lieber?.{1,10}(fremder|geliebter?|unbekannter)/i
 /lieber?.{1,10}guter freund/i
 

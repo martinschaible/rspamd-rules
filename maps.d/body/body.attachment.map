@@ -96,6 +96,7 @@
 
 # Pattern
 # ------------------------------------------------------------------------------
+/confirm/i
 /detail.{0,10}specification/i
 /new.?order/i
 /inq.?no/i
@@ -108,6 +109,8 @@
 /request.?for/i
 
 /^rfq-/i
+
+/r\.?f\.?q.{0,15}our ref(erence)?/i
 
 /stock.{0,10}offer/i
 /swift.{0,10}message/i
@@ -149,6 +152,7 @@
 /\.(pdf|xlsx)\.(lz|t?gz|zip)/i
 
 /(,|_|-)(doc|pdf)\.(gz|htm|rar|svg|tar|zip)/i
+/(,|_|-)pdf\.docx/i
 
 # Sample: pdf (4kb).docx
 /pdf.?\(\d{1,5}kb\).?\.docx/i

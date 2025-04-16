@@ -444,6 +444,8 @@
 /food.{0,10}(cravings?|choices?|odor|trap)/i
 /foot.{0,10}(care|patch(es)?|solution)/i
 
+/free.{0,10}skin/i
+
 /fresh.{0,10}breath/i
 /fried.{0,10}chicken/i
 /fruit.{0,10}mistake/i
@@ -515,6 +517,8 @@
 /life.{0,10}(boost|pharmacy)/i
 
 /live.{0,10}(forver|long(er)?|years)/i
+/live.{0,10}to.{0,10}(years|yrs)/i
+
 /liver.{0,10}weight/i
 
 /lung.{0,10}trust/i
@@ -777,7 +781,7 @@
 /womens?.{0,10}(intimacy|secret)/i
 /wonder.?bread/i
 /worst.{0,10}(breakfast|food|veggie)/i
-/wrinkle.{0,10}cream/i
+/wrinkle.{0,10}(cream|free)/i
 
 # X
 
