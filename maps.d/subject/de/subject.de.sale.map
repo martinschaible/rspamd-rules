@@ -99,6 +99,10 @@
 
 # B
 /beheizten? westen?/i
+
+/bewertungen.{1,15}erfolgreich löschen/iu
+/bewertungen.{1,15}unverbindliche prüfung/iu
+
 /branchen.?führer.{1,10}\d{4}/i
 
 /(büro|massage).?(sessel|stuhl|stühle).{1,25}(bezug|funktion|massage)/i
@@ -135,8 +139,7 @@
 # G
 /gerät.{1,15}sprachbarrieren?/i
 
-/bewertungen.{1,15}erfolgreich löschen/iu
-/bewertungen.{1,15}unverbindliche prüfung/iu
+/guenstiges fernsehen/i
 
 # H
 /handgefertigte messer/i

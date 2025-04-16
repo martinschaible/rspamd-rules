@@ -67,6 +67,8 @@
 # B
 /bestätigung.{1,15}(e?.?mail|nachricht).{0,10}eingangs? bitten/iu
 
+/bezüglich meiner vorherigen mitteilung/iu
+
 # C
 
 # D
@@ -76,6 +78,8 @@
 # Too strong, False/Positives
 #/eine neue nachricht/i
 /eine neue nachricht\./i
+
+/eingang meiner letzten (e?.?mail|nachricht)/i
 
 /e?.?mail.{1,10}erhalten.{1,10}rückmeldung/iu
 /e?.?mail.{1,10}(interesse geweckt|noch interesse)/i
@@ -95,9 +99,9 @@
 /haben sie (meine|unsere).{1,10}(e?.?mail|nachricht) (erhalten|gesehen)/i
 
 # I
-/ignorieren sie.{1,10}nachricht nicht/i
+/ignorieren sie.{1,10}(e?.?mail|nachricht) nicht/i
 
-/ist meine nachricht angekommen/i
+/ist meine.{1,10}(e?.?mail|nachricht) angekommen/i
 
 # J
 
