@@ -18,9 +18,12 @@
 
 /fat.?tire.{1,10}e(lectric)?.{0,10}(bicycle|bike)/i
 
-/(about|battery|deals|expand|germany|inspired|interested).{1,15}e(lectric)?.{0,10}(bicycle|bike)/i
-/(next|portable|premium|seamless|shipping|stylish|trusted|our).{1,15}e(lectric)?.{0,10}(bicycle|bike)/i
+/(about|battery|deals|dual-purpose|expand|germany).{1,15}e(lectric)?.{0,10}(bicycle|bike)/i
+/(high.?performance|inspired|interested).{1,15}e(lectric)?.{0,10}(bicycle|bike)/i
+/(next|portable|premium|seamless|shipping|stylish).{1,15}e(lectric)?.{0,10}(bicycle|bike)/i
+/(trusted|ultimate|our).{1,15}e(lectric)?.{0,10}(bicycle|bike)/i
 
+Ultimate Dual-Purpose E-Bike
 /(in|with) our.{1,10}e(lectric)?.{0,10}(bicycle|bike)/i
 /your.{1,10}e.?bike/i
 
