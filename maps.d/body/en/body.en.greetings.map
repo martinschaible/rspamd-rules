@@ -64,7 +64,7 @@
 /dear.{1,10}(buyer|customer|madam|manager|partner|purchaser|sir).{1,15}(good|nice) (day|morning)/i
 /dear.{1,10}(buyer|customer|madam|manager|partner|purchaser|sir).{1,15}hello/i
 /dear.{1,10}(buyer|customer|madam|manager|partner|purchaser|sir).{1,10}how are you/i
-/dear.{1,10}(buyer|customer|madam|manager|partner|purchaser|sir).{1,10}i am writing to you/i
+/dear.{1,10}(buyer|customer|madam|manager|partner|purchaser|sir).{1,10}i am writing to/i
 /dear.{1,10}(buyer|customer|madam|manager|partner|purchaser|sir).{1,15}i work with a/i
 /dear.{1,10}(buyer|customer|madam|manager|partner|purchaser|sir).{1,15}my name is.{5,35}i am from/i
 /dear.{1,10}(buyer|customer|madam|manager|partner|purchaser|sir).{1,15}please find attached/i
@@ -73,8 +73,12 @@
 
 # Phishing
 /dear.{1,10}(buyer|customer|madam|manager|partner|purchaser|sir).{1,10}your (package|parcel|shipment) is ready/i
+
 # Sales
 /dear.{1,10}(buyer|customer|madam|manager|partner|purchaser|sir).{1,15}are you looking/i
+/dear.{1,10}(buyer|customer|madam|manager|partner|purchaser|sir).{1,15}we are.{1,10}(interested in|looking for|specialized)/i
+/dear.{1,10}(buyer|customer|madam|manager|partner|purchaser|sir).{1,15}we are.{1,10}leading partner/i
+/dear.{1,10}(buyer|customer|madam|manager|partner|purchaser|sir).{1,10}suppliers?/i
 /dear.{1,10}(buyer|customer|madam|manager|partner|purchaser|sir).{1,10}why choose/i
 
 /dear my friend/i
