@@ -463,7 +463,7 @@
 /grow.{0,10}(hair|trick)/i
 
 /gum.{0,10}(bleeding|disease|saver)/i
-/gut.{0,10}(balance|fix|flush|health|quiz|reboot|repair|solution)/i
+/gut.{0,10}(balance|cleanse|fix|flush|health|quiz|reboot|repair|solution)/i
 
 # H
 /hair.{0,5}(balding|growth|loss|renewal|restoration|restorer?|thinning)/i
@@ -676,6 +676,7 @@
 /shed.{1,15}faster/i
 /shed.{1,10}ibs by/i
 
+/side.{0,10}back/i
 /sight.{0,10}care/i
 /silence.{0,10}(buzzing|pain)/i
 /silent.{0,10}danger/i
@@ -684,6 +685,7 @@
 
 /(slim|skinny).{0,10}waist/i
 /slim.{0,10}(drink|hack)/i
+/slow.{0,10}metabolism/i
 
 /small.{0,10}stomach/i
 /smile.{0,10}fix/i
@@ -781,7 +783,7 @@
 /womens?.{0,10}(intimacy|secret)/i
 /wonder.?bread/i
 /worst.{0,10}(breakfast|food|veggie)/i
-/wrinkle.{0,10}(cream|filter|free)/i
+/wrinkle.{0,10}(cream|filler|filter|free)/i
 
 # X
 
