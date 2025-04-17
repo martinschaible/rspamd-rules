@@ -481,6 +481,8 @@
 
 /shell.?partner/i
 
+/suiss.?post/i
+
 /smbcプ/i
 /smbcコ/i
 
@@ -593,7 +595,7 @@
 /we transfer/i
 /we-transfer/i
 /we.?transfer.?\|/i
-/we.?transfer.{0,10}(document|message)/i
+/we.?transfer.{0,10}(document|file|message)/i
 
 /westpac/i
 

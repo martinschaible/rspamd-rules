@@ -80,6 +80,8 @@
 /(branchen.?buch|branchen.?führer|firmen.?eintrag).{1,20}(202\d|publikation|veröffentlichung)/iu
 /(branchen.?buch|branchen.?führer|firmen.?eintrag).{1,10}werbe.?(anzeige|annonce)/i
 
+/ihre organisation wurde in unserem verzeichnis/i
+
 # Winning
 # ------------------------------------------------------------------------------
 
