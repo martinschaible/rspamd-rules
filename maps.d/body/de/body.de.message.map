@@ -36,17 +36,18 @@
 /antworten sie.{1,15}um weitere informationen zu erhalten/i
 /antworten sie.{1,15}wenn sie diese.{1,10}e?.?mail erhalten haben/i
 
-/(benachrichtigung|brief|e?.?mail).{1,10}sie überraschend kommt/iu
-/(benachrichtigung|brief|e?.?mail).{1,10}sie überraschen wird/iu
-/(benachrichtigung|brief|e?.?mail).{1,10}eine.{1,10}überraschung (für sie|sein wird)/iu
+/(benachrichtigung|brief|e?.?mail|nachricht).{1,10}sie überraschend kommt/iu
+/(benachrichtigung|brief|e?.?mail|nachricht).{1,10}sie überraschen wird/iu
+/(benachrichtigung|brief|e?.?mail|nachricht).{1,10}eine.{1,10}überraschung (für sie|sein wird)/iu
 
-/(e?.?mail|nachricht).{1,10}erreicht dich gut gelaunt/i
-/(e?.?mail|nachricht).{1,10}erreicht sie in guter verfassung/i
-/(e?.?mail|nachricht).{1,10}(findet|trifft) sie gut/i
-/(e?.?mail|nachricht).{1,10}sie gut findet/i
-/(e?.?mail|nachricht).{1,10}sie in gutem zustand erreichen/i
+/(benachrichtigung|brief|e?.?mail|nachricht).{1,10}erreicht (dich|sie) (bei|in).{1,15}(gesundheit|stimmung|verfassung)/i
+/(benachrichtigung|brief|e?.?mail|nachricht).{1,10}erreicht dich gut gelaunt/i
 
-/sie diese (benachrichtigung|brief|e?.?mail).{1,10}überraschen wird/iu
+/(benachrichtigung|brief|e?.?mail|nachricht).{1,10}(findet|trifft) sie gut/i
+/(benachrichtigung|brief|e?.?mail|nachricht).{1,10}sie gut findet/i
+/(benachrichtigung|brief|e?.?mail|nachricht).{1,10}sie in gutem zustand erreichen/i
+
+/sie diese (benachrichtigung|brief|e?.?mail|nachricht).{1,10}überraschen wird/iu
 
 # Generic
 # ==============================================================================

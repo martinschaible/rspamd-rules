@@ -486,7 +486,7 @@
 
 /^sparkasse$/i
 
-/support.?swica/i
+/support.{0,5}(apple|swica)/i
 
 /^sumup\.?$/i
 /sum-up\./i

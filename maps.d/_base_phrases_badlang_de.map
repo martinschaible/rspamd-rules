@@ -11,7 +11,6 @@
 # ------------------------------------------------------------------------------
 /geht es dieser e?.?mail gut/i
 
-/dieser?.{1,10}(brief|e?.?mail|nachricht).{1,10}erreicht (dich|sie) (bei|in).{1,15}(gesundheit|stimmung)/i
 /dieser?.{1,10}(brief|e?.?mail|nachricht).{1,10}findet (dich|sie) gut/i
 /dieser?.{1,10}(brief|e?.?mail|nachricht).{1,10}bei guter gesundheit bei ihnen ankommt/i
 /dieser?.{1,10}(brief|e?.?mail|nachricht).{1,10}gut (aufgenommen|empfangen) (wird|wurde)/i

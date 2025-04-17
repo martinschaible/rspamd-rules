@@ -123,7 +123,8 @@
 
 # B
 /bauchfett in.{1,15}los/i
-/bauchumfang schmelzen/i
+/bauchfett.{1,10}(loswerden|verbrennen)/i
+/bauchumfang.{1,10}schmelzen/i
 
 /blauen? pille/i
 

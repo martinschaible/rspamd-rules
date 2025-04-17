@@ -46,6 +46,8 @@
 /dringende sicherheitswarnung/i
 
 # E
+/eingestellt.{1,5}#\d{2,15}/i
+
 /erinnerung.{1,10}aktualisiere deine/i
 /entschuldigen uns.{1,10}rückerstattung/iu
 
@@ -97,7 +99,9 @@
 /neue rückerstattung/iu
 
 /neuigkeiten zu ihrem swisspass/i
+
 # O
+/online.?dienste sind eingestellt/i
 
 # P
 
