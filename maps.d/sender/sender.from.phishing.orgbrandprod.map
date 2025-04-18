@@ -156,8 +156,11 @@
 /cff.?sbb/i
 
 /commerz-bank/i
+
 /consorsfinanz/i
 /^coop$/i
+
+/confirmation.{0,10}temu/i
 
 /^cpanel$/i
 /cpanel.{0,10}(service|team)/i
@@ -486,6 +489,8 @@
 /smbcプ/i
 /smbcコ/i
 
+/spyrec.?pro/i
+
 /^sparkasse$/i
 
 /support.{0,5}(apple|swica)/i
@@ -546,6 +551,7 @@ tcs.{0,10}kundenservice/i
 # 29.12.24 - The Norinchukin Bank
 /農林中央金庫/i
 
+/totalav.?(™|®|©)/i
 /touringclubsuisse/i
 
 /ts cubic card/i
