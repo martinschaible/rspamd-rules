@@ -122,15 +122,16 @@
 /(rück)?erstattung.{1,10}ist (online|verfügbar)/iu
 /(rück)?erstattung.{1,10}(jetzt|möglich|verfügbar)/iu
 /(rück)?erstattung.{1,10}von.{1,15}ihre krankenversicherung/i
+/(rück)?erstattung.{1,10}wurde angenommen/i
 /(rück)?erstattung.{1,10}zur verfügung/iu
 
 # Sample: Rundschreiben X2ZI-M29U
 /rundschreiben.?[0-9a-z]{4}-[0-9a-z]{4}/i
 
 # S
-/sie haben anspruch.{1,15}(rück)?erstattung/iu
+/sie haben.{1,10}anspruch.{1,15}(rück)?erstattung/iu
+/sie haben.{1,10}eine rückerstattung aus ihrer/iu
 
-/sie haben.{1,10}anspruch auf (rück)?erstattung/i
 /sie ihre.{1,15}(rück)?erstattung/iu
 /sie uns den.{1,10}(rück)?erstattungsantrag/i
 
