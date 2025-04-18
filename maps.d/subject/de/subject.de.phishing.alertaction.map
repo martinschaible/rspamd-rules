@@ -101,6 +101,8 @@
 /entdeckt.{1,10}schützen sie sich jetzt/iu
 /erforderliche.{1,10}(massnahmen?|maßnahmen?).{1,10}(liefer)?adresse/iu
 
+/erinnerung.{1,10}verifizierung ihrer/i
+
 # F
 /fehlgeschlagen.{1,10}aktion erforderlich/i
 
@@ -224,7 +226,8 @@
 /überprüfen sie ihre.{1,15}(kontodaten|persönlichen daten)/iu
 
 # V
-/verifiziere deine.{1,10}e?.?mail/i
+/verifiziere.{1,10}deine.{1,10}e?.?mail/i
+/verifizierung.{1,10}ihrer.{1,10}telefon.?nummer ausstehend/i
 
 # W
 /wichtige?.{1,10}aktualisieren sie/i
