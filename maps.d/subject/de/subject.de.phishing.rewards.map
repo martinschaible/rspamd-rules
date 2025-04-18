@@ -109,8 +109,10 @@
 /exklusiv für sie.{1,10}ihr.{1,20}wartet/i
 
 /^exklusive.{1,10}prämien?$/i
-/exklusive.{1,15}prämien? für sie/i
-/exklusive.{1,10}ersparnisse/i
+/exklusiven?.{1,15}prämien? für sie/i
+
+/exklusiven?.{1,10}ersparnisse/i
+/exklusiven?.{1,10}mystery.?box/i
 
 /exklusives.{1,10}geschenk wartet auf sie/i
 
@@ -209,6 +211,7 @@
 /letzte chance.{1,10}ihr kostenloses/i
 
 # M
+/mystery.?box.{1,15}(gelegenheit|sendung|steht bereit)/i
 
 # N
 /nicht abgeholte belohnung/i

@@ -138,7 +138,8 @@
 /hole? dir jetzt dein samsung/i
 
 # Mystery box, Surprise
-/mystery.?box.{1,10}ausstehende sendung/i
+/mystery.?box.{1,15}(gelegenheit|sendung|steht bereit)/i
+
 /exklusiven?.{1,10}mystery.?box/i
 
 /rituals.{1,10}mystery.?box/i

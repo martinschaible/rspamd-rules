@@ -58,7 +58,9 @@
 
 /(get found|guaranteed|top rank(ing)?).{1,10}(bing|google|yahoo)/i
 
+/google.{1,10}keyword ranking/i
 /google.?s top/i
+
 /grow.{1,10}sales.{1,10}traffic/i
 /grow your.{1,10}(web)?site/i
 

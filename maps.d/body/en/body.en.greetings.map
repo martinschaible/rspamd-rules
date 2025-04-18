@@ -81,6 +81,8 @@
 /dear.{1,10}(buyer|customer|madam|manager|partner|purchaser|sir).{1,10}suppliers?/i
 /dear.{1,10}(buyer|customer|madam|manager|partner|purchaser|sir).{1,10}why choose/i
 
+/dear.{1,10}\[/i
+/dear.{1,15}\]/i
 /dear my friend/i
 
 # E
