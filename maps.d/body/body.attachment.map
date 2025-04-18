@@ -19,21 +19,21 @@
 #/inv(oice)?.?\d{0,10}\.((?!pdf$)[^.]*)/i
 #/(receipt|winner).?\d{0,10}\.((?!pdf$)[^.]*)/i
 
-/(advice|arrival|business year).{0,25}\.(7z|gz|html|r11|r16|rar|tar|tgz|xla|xls|zip)/i
-/(enquiry|inquiry|invoice).{0,25}\.(7z|gz|html|r11|r16|rar|tar|tgz|xla|xls|zip)/i
-/(lading|notice).{0,25}\.(7z|gz|html|r11|r16|rar|tar|tgz|xla|xls|zip)/i
-/(order|payment|price.?list|proforma|project).{0,25}\.(7z|gz|html|r11|r16|rar|tar|tgz|xla|xls|zip)/i
-/(quotation|quote).{0,25}\.(7z|gz|html|r11|r16|rar|tar|tgz|xla|xls|zip)/i
-/(receipt|request).{0,25}\.(7z|gz|html|r11|r16|rar|tar|tgz|xla|xls|zip)/i
-/specifications?.{0,25}\.(7z|gz|html|r11|r16|rar|tar|tgz|xla|xls|zip)/i
-/urgent?.{0,25}\.(7z|gz|html|r11|r16|rar|tar|tgz|xla|xls|zip)/i
+/(advice|arrival|business year).{0,25}\.(7z|gz|html|rar|tar|tgz|xla|xls|zip)/i
+/(enquiry|inquiry|invoice).{0,25}\.(7z|gz|html|rar|tar|tgz|xla|xls|zip)/i
+/(lading|notice).{0,25}\.(7z|gz|html|rar|tar|tgz|xla|xls|zip)/i
+/(order|payment|price.?list|proforma|project).{0,25}\.(7z|gz|html|rar|tar|tgz|xla|xls|zip)/i
+/(quotation|quote).{0,25}\.(7z|gz|html|rar|tar|tgz|xla|xls|zip)/i
+/(receipt|request).{0,25}\.(7z|gz|html|rar|tar|tgz|xla|xls|zip)/i
+/specifications?.{0,25}\.(7z|gz|html|rar|tar|tgz|xla|xls|zip)/i
+/urgent?.{0,25}\.(7z|gz|html|rar|tar|tgz|xla|xls|zip)/i
 
-/new.?order.{0,25}\.(7z|gz|html|r11|r16|rar|tar|tgz|xla|xls|zip)/i
+/new.?order.{0,25}\.(7z|gz|html|rar|tar|tgz|xla|xls|zip)/i
 
-/(bestell|bestätigung).{0,25}\.(7z|gz|html|r11|r16|rar|tar|tgz|xla|xls|zip)/i
+/(bestell|bestätigung).{0,25}\.(7z|gz|html|rar|tar|tgz|xla|xls|zip)/i
 
 # Letter of Intent
-/loi.{0,5}\.(7z|gz|html|r11|r16|rar|tar|tgz|xla|xls|zip)/i
+/loi.{0,5}\.(7z|gz|html|rar|tar|tgz|xla|xls|zip)/i
 
 /rechnung.{0,45}\.(7z|gz|rar|zip)/i
 
@@ -88,8 +88,8 @@
 
 # 20.01.25 - Sample: PO# 4502288112.gz
 #                    PO200000035.gz
-/po(-|_|#)?.{1,25}\.(7z|gz|r16|rar|zip)/i
-/po(-|_|#)?\d{1,25}\.(7z|gz|r16|rar|zip)/i
+/po(-|_|#)?.{1,25}\.(7z|gz|rar|zip)/i
+/po(-|_|#)?\d{1,25}\.(7z|gz|rar|zip)/i
 
 # 22.01.25 - Sample: RFQ- 2708970-001.gz
 /(inq|rfq)-?.{0,15}\.(gz|zip)/i
@@ -133,10 +133,14 @@
 /\.001/i
 /\.arj/i
 /\.do$/i
-/\.(r11|r16|r19)/i
 /\.tbz2/i
 
 /\.library-ms/i
+
+/\.r09$/i
+/\.r11$/i
+/\.r16$/i
+/\.r18$/i
 
 /_\.lha/i
 /\.xlsx?_/i
@@ -147,7 +151,7 @@
 # The unique ones
 /\.img\.gz/i
 /\.(jpg|pdf)\.html/i
-/\.(pdf|r09)\.rar/i
+/\.pdf\.rar/i
 
 /\.(pdf|xlsx)\.(lz|t?gz|zip)/i
 
