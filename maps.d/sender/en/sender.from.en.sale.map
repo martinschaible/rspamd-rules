@@ -18,6 +18,7 @@
 # ==============================================================================
 
 # A
+/air.{0,10}drone/i
 /american.{0,10}(discounts|seniors)/i
 
 # B
@@ -163,6 +164,8 @@
 /stop wasting/i
 
 # T
+/tactical.{0,10}(drone|flashlight)/i
+
 /tax.{0,10}(consultant|helpers?|resolvers?)/i
 
 /tech.?safety/i

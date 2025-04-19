@@ -71,6 +71,7 @@
 /find your.{1,15}supplier/i
 
 /freight services.{1,10}tailored/i
+/freight.{1,10}china/i
 
 /from china (recently|to)/i
 
@@ -200,8 +201,7 @@
 /you have any.{1,10}(cargo|export)/i
 /you looking for.{1,15}supplier/i
 
-/your (current|future|loyal).{1,15}(partner|supplier)/i
-
+/your (current|future|loyal|reliable).{1,15}(partner|supplier)/i
 
 /your.{1,15}pcba?.{1,20}partner/i
 /your.{1,15}plastic.?mould/i
