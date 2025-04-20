@@ -96,8 +96,6 @@ body
   │   └─ body.href.url.path.orgbrandprod         ─┘
 ```
 
-More content will follow soon.
-
 ### Setup for "sender"
 
 Folder structure:
@@ -124,8 +122,6 @@ sender
   ├─ sender.from.phishing.orgbrandprod.map        │
   └─ sender.from.special.map                     ─┘
 ```
-
-More content will follow soon.
 
 ### Setup for "subject"
 
@@ -204,4 +200,4 @@ whitelist
 
 + -> "prefilter" is set
 
-More content will follow soon.
+Unfortunately, whitelisting with the prefilter option set doesn't work. I don't know why, and I can't find any help in the community. What a pity!
