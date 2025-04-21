@@ -20,9 +20,8 @@
 
 /^apps?.{1,10}(creation|development|programming).?!?$/i
 
-/app cost enquiry/i
-/app (for your web.?site|we build)/i
-/app proposal/i
+/app (cost enquiry|proposal|we build)/i
+/app for your.{1,10}(business|company|web.?site)/i
 
 # B
 /build own.{1,10}app/i
@@ -30,7 +29,7 @@
 /business.?apps/i
 
 # C
-/creating.{1,10}apps?/i
+/(creat|creating).{1,10}apps?/i
 
 # D
 
