@@ -28,6 +28,8 @@
 
 /(claims|message|reply|you have).{1,15}donation/i
 
+/charity donation/i
+
 # D
 /(donated|donation).{1,10}(claim|fund|offer)/i
 /(donated|donation).{1,15}(for|to) you/i

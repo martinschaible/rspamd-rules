@@ -82,6 +82,7 @@
 # H
 
 # I
+/income.{0,10}experts?/i
 
 # J
 
@@ -106,6 +107,8 @@
 
 # S
 /(luxury|social|student).{0,10}(housing|property)/i
+
+/smart.{0,10}(income|money)/i
 
 # T
 

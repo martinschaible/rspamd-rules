@@ -161,8 +161,10 @@
 
 # C
 /calories.{1,10}belly fat/i
-/cause of.{1,10}(dementia|ed\b|joint pain|memory.?loss)/i
-/causes.{1,15}vision loss/i
+
+/(causing|cause of|causes).{1,10}(dark spots|dementia|ed\b|joint pain)/i
+/(causing|cause of|causes).{1,15}(memory|vision) loss/i
+
 /cavity.{0,10}cure/i
 
 /celebrity.?secret/i
