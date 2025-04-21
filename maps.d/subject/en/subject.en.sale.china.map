@@ -8,13 +8,23 @@
 
 # China
 # ------------------------------------------------------------------------------
+/china with.{1,10}certification/i
+
 /best prices.{1,10}china/i
+/freight.{1,10}china/i
+
+/from china (recently|to)/i
+
 /(plastic|toolmaking).{1,10}china/i
 /parts in china/i
 
-/(manufacture|suppliers) (from|in|of).{1,10}china/i
+/(manufacturer?|moulding|suppliers?) (from|in|of).{1,10}china/i
+/moulding.{1,10}services (from|in|of) china/i
+/shoe factory (from|in|of) china/i
 
-/we are china.{1,10}leading/i
+/(pcba?|printed.?circuit.?board).{1,10}factory (from|in) china/i
+
+/we are china.{1,15}(dropshipping|leading|platform|supplier)/i
 
 #
 #
@@ -70,9 +80,6 @@
 /find your.{1,15}supplier/i
 
 /freight services.{1,10}tailored/i
-/freight.{1,10}china/i
-
-/from china (recently|to)/i
 
 # G
 /good.{1,10}pcba?.?supplier/i
@@ -113,7 +120,6 @@
 /many years.{1,10}oem/i
 
 /manufacturer of.{5,25}since/i
-/manufacturer from.{1,10}china/i
 
 /materials.{1,10}suppliers/i
 /microchip.{1,10}parts request/i
@@ -121,8 +127,6 @@
 /multilayer (pcba?|printed.?circuit.?board).{1,10}manufacturing/i
 /multiple freight solutions/i
 
-/moulding (from|in) china/i
-/moulding.{1,10}services (from|in) china/i
 /moulding.{1,10}supplier/i
 
 /(mold|moulds).{1,10}(maker|construction)/i
@@ -148,7 +152,6 @@
 /(pcba?|printed.?circuit.?board).{1,20}(assembly|business|cooperation|enquiry|fabrication|factory)/i
 /(pcba?|printed.?circuit.?board).{1,10}(manufacturer?|manufacturing|needs|provider|service|solutions?)/i
 
-/(pcba?|printed.?circuit.?board).{1,10}factory (from|in) china/i
 /(pcba?|printed.?circuit.?board).{1,10}partner? worthy/i
 /(pcba?|printed.?circuit.?board).{1,10}supplier for/i
 
@@ -173,7 +176,6 @@
 
 /shoes direct factory/i
 
-/supplier (from|in).{1,10}china/i
 /supply steel plates/i
 
 # T
@@ -189,8 +191,6 @@
 # V
 
 # W
-/we are china.{1,15}(dropshipping|platform|supplier)/i
-
 /we are looking for partners for/i
 /we supply.{1,20}priced chips/i
 
