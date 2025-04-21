@@ -102,6 +102,7 @@
 
 /click.{1,10}(update|upgrade).{1,10}mail.?box/i
 
+/is due for.{1,10}security update/i
 /your action is required.{1,10}upgrade.{1,10}e?.?mail/i
 
 # Server Update
@@ -139,6 +140,7 @@
 
 # Silly Errors
 # ------------------------------------------------------------------------------
+/admin server alert/i
 
 # WebMail
 # ------------------------------------------------------------------------------

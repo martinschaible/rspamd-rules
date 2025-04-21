@@ -75,6 +75,7 @@
 /a.d.a.c/i
 /a\.d\.a\.c/i
 
+/ad4c/i
 /adac \|/i
 /adac_/i
 /adac\.de
@@ -371,8 +372,9 @@
 /n26.{0,10}benachrichtigung(en)?/i
 
 /netflix.{0,10}konto/i
+/netflix.{0,10}(expiration|services|support|team|updates)/i
+/netflix.{0,10}(premium|prémium)/i
 /netflix.{0,10}(schweiz|suisse)/i
-/netflix.{0,10}(expiration|premium|services|support|team|updates)/i
 
 /netflix\./i
 /netƒlix/i
