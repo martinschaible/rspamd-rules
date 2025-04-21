@@ -53,7 +53,8 @@
 /sie erhalten.{1,10}kostenlosen informationen.{1,10}(da|weil).{1,10}sie/i
 
 /sie erhalten.{1,15}(e?.?mail|informationen|nachricht|newsletter).{1,15}an.{5,45}da sie sich bei uns oder einem/i
-/sie erhalten.{1,15}(e?.?mail|informationen|nachricht|newsletter).{1,15}weil sie dem erhalt von werbematerialien/i
+/sie erhalten.{1,15}(e?.?mail|informationen|nachricht|newsletter).{1,15}(da|weil) sie dem erhalt von werbematerialien/i
+/sie erhalten.{1,15}(e?.?mail|informationen|nachricht|newsletter).{1,15}(da|weil) sie sich mit.{1,15}e?.?mail.?adresse.{10,35}bei einem portal/i
 
 /sie haben diese?.{1,15}(e?.?mail|informationen|nachricht|newsletter).{1,15}weil sie (an|bei).{1,20}wettbewerbe?/i
 

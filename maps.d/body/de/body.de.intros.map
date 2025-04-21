@@ -56,6 +56,7 @@
 # M
 /mein.{1,15}freund.{1,10}wie geht es ihnen/i
 /mein lieber.{1,10}freund/i
+/mein.{1,15}(freund|herr).{1,10}ich heiße/i
 
 /mein name ist.{1,10}barr(\.|ister)/i
 /mein name ist.{1,10}(frau|fräulein|herr)/iu
