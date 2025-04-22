@@ -58,9 +58,11 @@
 
 # I
 /ihre.{1,10}(darlehen|kredit).{1,10}sind/i
+/ihre.{1,10}festgeldanlage sichern/i
 /ihre.{1,10}finanzielle unterstützung/iu
 
 # J
+/jetzt.{1,5}\d(,|.)\d.{1,5}zinsen/i
 
 # K
 /kostenlose.{1,10}kreditanfrage/i
