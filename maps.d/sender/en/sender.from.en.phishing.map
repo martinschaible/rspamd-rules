@@ -130,7 +130,7 @@
 /notification.{0,10}company/i
 
 # O
-/offers?.{0,10}team/i
+/offers?.{0,10}(program|team)/i
 /opinion.{0,10}request(ed)?/i
 
 # P
@@ -172,6 +172,8 @@
 /trusted authentication/i
 
 # U
+/ultimate.{0,10}offers?/i
+
 /user assistance/i
 
 /(upgrade|update).{0,10}(alert|notice)/i

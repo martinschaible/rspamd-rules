@@ -70,6 +70,8 @@
 
 # A
 # ------------------------------------------------------------------------------
+/aave.?(™|®|©)/i
+
 /^ace_/i
 
 /a.d.a.c/i
@@ -443,6 +445,8 @@
 # ------------------------------------------------------------------------------
 /raiffeisen.?twint/i
 
+/rituals.{0,10}team/i
+
 # 30.12.24 -Rakuten Card Co., Ltd.
 /楽天カード株式会社/i
 
@@ -550,8 +554,10 @@ tcs.{0,10}kundenservice/i
 /team.{0,10}(account|netflix|spotify)/i
 
 /temu-/i
-/temu.{0,10}gewinnen/i
 /temu.?ch/i
+
+/temu.{0,10}gewinnen/i
+/temu.{0,10}kundenservice/i
 
 /tepco/i
 /tfbank.?service/i
