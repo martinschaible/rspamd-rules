@@ -185,6 +185,8 @@
 # D
 /dealing.{1,10}constipation/i
 /defeat ed\b/i
+
+/dessert.{1,15}diabetes/i
 /destroys?.{1,10}(back|joint) pain/i
 /detox(es)? your gut/i
 
@@ -579,6 +581,7 @@
 
 /this food kills.{1,10}(back|hip|knee|pain)/i
 
+/to end.{1,10}(diabetes|pain)/i
 /to get.{1,10}hard/i
 /to stay.{1,10}asleep/i
 

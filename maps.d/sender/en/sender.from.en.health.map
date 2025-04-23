@@ -92,7 +92,7 @@
 /health.?(digest|now|research)/i
 
 /healthy?.{0,10}(alert|alternative|brain|foods?)/i
-/healthy?.{0,10}(guides?|gut|heart|heaven|hero|insights)/i
+/healthy?.{0,10}(guides?|gut|hack|heart|heaven|hero|insights)/i
 /healthy?.{0,10}(power|secret|transformation)/i
 
 /(american|daily|insider|intimate|mens|simple|womens).{0,10}health/i
@@ -410,7 +410,7 @@
 /erase.{0,10}fat/i
 /(exotic|kitchen).{0,10}spice/i
 
-/(expert|neurologist).{0,15}(recommends|recommendation|reveals)/i
+/(expert|neurologist).{0,15}(recommends?|recommendation|reveals)/i
 
 /expert.{0,10}(approved|warn(ing)?)/i
 /extend.{0,10}(life|reveals)/i
@@ -467,7 +467,7 @@
 /green.{0,10}(clay|oil)/i
 /grow.{0,10}(hair|trick)/i
 
-/gum.{0,10}(bleeding|disease|saver)/i
+/gum.{0,10}(bleeding|disease|health|saver)/i
 /gut.{0,10}(balance|cleanse|fix|flush|health|quiz|reboot|repair|solution)/i
 
 # H
