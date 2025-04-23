@@ -481,6 +481,7 @@
 /schweizer.?post/i
 
 /service.?center.?ard.?zdf/i
+/secretary.{0,5}treasury/i
 
 /^stanley$/i
 
@@ -561,6 +562,7 @@ tcs.{0,10}kundenservice/i
 /totalav.?(™|®|©)/i
 /touringclubsuisse/i
 
+/treasury.{0,10}department/i
 /ts cubic card/i
 
 /twint$/i

@@ -20,8 +20,13 @@
 # ------------------------------------------------------------------------------
 
 # Donation
-/betrag von.{1,20}(dollar|euro?|gbp|usd|€|\$|£) wurde ihnen/i
+/betrag von.{1,20}(dollar|euro?|gbp|usd|€|\$|£).{1,10}wurde ihnen/i
+
+/gespendet.{1,10}antworten sie für weitere informationen/iu
 /gespendet.{1,10}weitere informationen.{1,10}(kontaktieren sie|wenden sie sich)/i
+
+/hat ihnen.{1,20}(dollar|euro?|gbp|usd|€|\$|£).{1,10}gespendet/i
+/hat ihnen.{1,20}millionen.{1,10}gespendet/i
 
 # Unclaimed funds
 /wir haben einen nicht.{1,10}(beanspruchten|eingeforderten).{1,10}betrag/i

@@ -29,6 +29,8 @@
 
 # Phishing - Temporary
 # ------------------------------------------------------------------------------
+/cancel de.?activation.{1,15}(account|request)/i
+/confirm ownership here/i
 
 # Scam - Temporary
 # ------------------------------------------------------------------------------

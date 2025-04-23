@@ -36,6 +36,7 @@
 # F
 
 # G
+/guten (abend|morgen|tag).{5,35}als experten für/iu
 /guten (abend|morgen|tag).{1,10}begünstigter/iu
 /guten (abend|morgen|tag).{1,10}bitcoin/i
 /guten (abend|morgen|tag).{1,10}dieses?.{1,10}e?.?mail ist von/i
@@ -176,6 +177,7 @@
 
 /sehr geehrte\/?r?.{1,15}kunde(\/in)?.{1,15}aufgrund neuer/i
 /sehr geehrte\/?r?.{1,15}kunde(\/in)?.{1,15}aufgrund von verdächtigen/iu
+/sehr geehrte\/?r?.{1,15}kunde(\/in)?.{1,15}es wurde eine aktivität/iu
 /sehr geehrte\/?r?.{1,15}kunde(\/in)?.{1,15}ihre aktuelle zahlungsmethode/i
 /sehr geehrte\/?r?.{1,15}kunde(\/in)?.{1,20}ihre rechnung ist/i
 /sehr geehrte\/?r?.{1,15}kunde(\/in)?.{1,15}wichtige nachricht an sie/i
