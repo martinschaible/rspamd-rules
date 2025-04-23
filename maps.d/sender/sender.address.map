@@ -61,7 +61,9 @@
 # Numbers
 # 18.04.25 - Sample: re-936457730936457730@iol.ie
 /-\d{1,10}/i
-/^\d{10,25}@/i
+
+# Unbelievable: This is in use
+# /^\d{10,25}@/i
 
 # A
 /ab1infoa1/i

@@ -30,7 +30,7 @@
 
 /(hack|ritual|secret|solution|trick).{1,10}changes everything/i
 /(hack|ritual|secret|solution|trick).{1,10}(extends|reverse|shocks)/i
-/(hack|ritual|secret|solution|trick).{1,10}that could change/i
+/(hack|ritual|secret|solution|trick).{1,10}that could (change|unlock)/i
 /(hack|ritual|secret|solution|trick).{1,10}to (cure|ease|boost)/i
 
 /one simple stretch/i
@@ -83,6 +83,7 @@
 /\d simple habit/i
 /\d stretch/i
 /\d way to eliminate/i
+/\d word ritual/i
 
 /1 daily habit/i
 
@@ -505,6 +506,7 @@
 /solution.{1,10}for.{1,10}(digestion|ed)/i
 /solution.{1,10}vision.?loss/i
 
+/soothe.{1,10}joint.?pain/i
 /spikes with.{1,10}drop/i
 
 /stable blood sugar/i
@@ -583,6 +585,8 @@
 /top doctor.{1,10}reveals/i
 
 # U
+/unique protein/i
+
 /unusual asian treat/i
 /unlock.{1,10}pleasure.{1,10}(centers?|points?)/i
 
