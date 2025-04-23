@@ -9,6 +9,9 @@
 # Attention, Important, Urgent
 # ------------------------------------------------------------------------------
 
+# Make Money - Temporary
+# ------------------------------------------------------------------------------
+
 # Phishing - Temporary
 # ------------------------------------------------------------------------------
 /ihre rechnung ist fällig.{1,10}sehr geehrter kunde/iu
@@ -31,6 +34,8 @@
 
 /hat ihnen.{1,20}(dollar|euro?|gbp|usd|€|\$|£).{1,10}gespendet/i
 /hat ihnen.{1,20}millionen.{1,10}gespendet/i
+
+/(dollar|euro?|gbp|usd|€|\$|£).{1,10}wurden (an sie|ihnen) gespendet/i
 
 # Unclaimed funds
 /wir haben einen nicht.{1,10}(beanspruchten|eingeforderten).{1,10}betrag/i
