@@ -46,6 +46,8 @@
 
 /(imap|pop3).{0,10}settings/i
 
+/^webmail/i
+
 #
 /microsoft.{0,10}admin/i
 
