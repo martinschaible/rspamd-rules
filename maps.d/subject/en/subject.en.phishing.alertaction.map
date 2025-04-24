@@ -119,6 +119,8 @@
 
 # S
 /security alert.{1,10}funds/i
+/security alert.{1,10}verify your.{1,15}account/i
+
 /security update.{1,25}confirm your/i
 
 # T

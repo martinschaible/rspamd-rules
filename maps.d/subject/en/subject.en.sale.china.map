@@ -38,6 +38,7 @@
 
 # B
 /(best|better) (price|quality) pcba?/i
+/better (pcba?|printed.?circuit.?board).{1,10}supplier/i
 
 # C
 /capacitor.{1,10}(resistor|special) offer/i

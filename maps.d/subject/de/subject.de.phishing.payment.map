@@ -82,10 +82,12 @@
 # Y
 
 # Z
-/zahlung fehlgeschlagen.{1,10}aktualisiere deine/i
-/zahlung auf ihren namen
-/zahlung der einfuhrabgabe/i
+/zahlung.{1,10}auf ihren namen/i
+/zahlung.{1,10}der einfuhrabgabe/i
+/zahlung.{1,10}fehlgeschlagen.{1,10}aktualisiere deine/i
 
 /zahlungsdaten.{1,10}um fortzufahren/i
 /zahlungsproblem.{1,10}(bei ihrem|mit ihrer)/i
 /zahlungsvorgang bei/i
+
+/zahlungspflichtige.{1,10}rechnung/i

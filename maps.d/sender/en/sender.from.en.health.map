@@ -15,7 +15,7 @@
 /cognitive.{0,10}(fix|health)/i
 
 # Memory
-/memory.{0,10}(bean|boost(er)?|cure|drink)/i
+/memory.{0,10}(bean|boost(er)?|cure|decline|drink)/i
 /memory.{0,10}(fix(er)?|hack|enhancement|improver|improvement|laps(es)?|loss)/i
 /memory.{0,10}(problem|protection|recovery|restore|revive|saving|solution|strengthener|tonic)/i
 
@@ -693,7 +693,7 @@
 /slow.{0,10}metabolism/i
 
 /small.{0,10}stomach/i
-/smile.{0,10}fix/i
+/smile.{0,10}(fix|secret)/i
 
 /snore.{0,10}(again|stop)/i
 
@@ -782,7 +782,7 @@
 /weird.{0,10}sound/i
 /wellness.{0,10}insights/i
 
-/white.{0,10}carb/i
+/white.{0,10}(carb|smile)/i
 /without.{0,10}glasses/i
 
 /womens?.{0,10}(intimacy|secret)/i

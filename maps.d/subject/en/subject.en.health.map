@@ -296,7 +296,7 @@
 # G
 /get.{1,15}thick hair/i
 /get.{1,10}hard on demand/i
-/gets rid of.{1,10}(cavity|pain)/i
+/gets rid of.{1,10}(brain fog|cavity|pain)/i
 
 /gum.{0,10}(health|problem)/i
 /goodbye.{0,10}(pain|ringing ears)/i
@@ -458,8 +458,9 @@
 /(reverse|reversing).{1,10}(aging in|dementia|diabetes|ed\b|memory|type 2)/i
 /(reverse|reversing).{1,10}(hair|vision).?loss/i
 
-/rock.?(hard|solid) (in just|stiffness)/i
+/revives.{1,10}memory fast/i
 
+/rock.?(hard|solid) (in just|stiffness)/i
 /routine.{1,10}no exercise/i
 
 # S
@@ -484,7 +485,7 @@
 /sharpen.{1,10}memory/i
 /shed.{1,15}faster/i
 /shed.{1,10}ibs by/i
-/shrink.{1,10}belly/i
+/shrinks?.{1,10}(belly|prostate)/i
 /shocking.{1,10}brain/i
 
 /sign of a stroke/i
@@ -618,5 +619,6 @@
 /your.{1,10}(bladder|erection|hearing|liver|manhood|pecker|prostate)/i
 /your.{1,10}foot fungus/i
 /your.{1,10}heart health/i
+/your.{1,10}veins hurt/i
 
 # Z
