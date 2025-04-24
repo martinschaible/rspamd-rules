@@ -21,6 +21,9 @@
 
 # B
 
+# 22.04.25m - Fired by "base_no_ssl"
+/linkcd\.bvk\.ch/i
+
 # C
 
 # 03.04.25
@@ -29,6 +32,10 @@
 # D
 
 # E
+# 09.04.25 - No SPF
+/www\.exlibris\.ch\/de\/\?/i
+/www\.exlibris\.ch\/de\/mein-konto-gast/i
+/www\.exlibris\.ch\/de\/mein-konto\/login/i
 
 # F
 
@@ -44,17 +51,13 @@
 
 # L
 
-# 22.04.25m - Fired by "base_no_ssl"
-/linkcd\.bvk\.ch/i
-
 # M
-
-# N
-
 # 03.04.25
 /nlink\.migros-kulturprozent-classics\.ch/i
 # 22.04.25
 /nlink\.cumulus\.migros\.ch/i
+
+# N
 
 # 02.04.25 - Fired by "base.body.img.domain.name: 2.4"
 /link\.nzz\.ch\//i
@@ -83,10 +86,9 @@
 
 # W
 
-# 09.04.25 - No SPF
-/www\.exlibris\.ch\/de\/\?/i
-/www\.exlibris\.ch\/de\/mein-konto-gast/i
-/www\.exlibris\.ch\/de\/mein-konto\/login/i
+# 24.04.25
+/campaign\.weltwoche-daily\.ch/i
+/weltwoche\.ch/abonnemente/i
 
 # X
 
