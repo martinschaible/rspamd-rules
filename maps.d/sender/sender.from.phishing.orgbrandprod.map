@@ -80,7 +80,7 @@
 /ad4c/i
 /adac \|/i
 /adac_/i
-/adac\.de
+/adac\.de/i
 /adac.?202\d/i
 /adac.{0,10}(deutschland|exklusiv|karten.?service|kreditkarte|mitglieder|support)/i
 
@@ -353,6 +353,7 @@
 /microsoft.{0,10}rewards?/i
 
 /MIGROS/
+/migros.?(™|®|©)$/i
 
 /^migrol$/i
 
