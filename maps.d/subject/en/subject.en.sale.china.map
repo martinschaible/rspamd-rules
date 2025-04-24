@@ -74,6 +74,7 @@
 
 /^electronic components$/i
 
+/enhance your.{1,10}(pcba?|printed.?circuit.?board)/i
 /expert.{1,10}mold/i
 
 # F
@@ -157,6 +158,7 @@
 
 /(pcba?|printed.?circuit.?board).{1,10}partner? worthy/i
 /(pcba?|printed.?circuit.?board).{1,10}supplier for/i
+/(pcba?|printed.?circuit.?board).{1,10}supply chain/i
 
 /plastic.?injection.{1,10}mould.?maker/i
 /plastic.?tmold.{1,10}making/i
