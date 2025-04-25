@@ -70,6 +70,7 @@
 
 /bestätigen.?-.?#[a-z0-9]{4,10}/iu
 /bestätigen sie ihre.{1,10}(angaben|telefon.?nummer)/i
+/bestätigen sie ihre.{1,15}kontoidentität/iu
 
 /betreff.{1,5}achtung/i
 
@@ -88,6 +89,8 @@
 /(dringend|wichtig).{1,10}sie verpassen/i
 /(dringend|wichtig).{1,10}ungewöhnliche aktivitäten/iu
 /(dringend|wichtig).{1,10}zahlungsdetails/i
+
+/(dringend|wichtig).{1,10}bestätigen sie ihre/iu
 
 /(dringende?|wichtige?).{1,10}mitteilung.{1,10}aktualisieren sie ihre/i
 /(dringende?|wichtige?).{1,10}mitteilung.{1,10}aktualisierung ihrer/i

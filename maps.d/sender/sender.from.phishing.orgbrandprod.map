@@ -31,6 +31,7 @@
 # E.ON Kundenservice
 # facebook
 # google
+# Hermes Paketankündigung
 # Hermes Paketversand
 # Lidl Küchenliebe
 # Mein ROSSMANN April
@@ -63,6 +64,9 @@
 
 # Generic
 # ==============================================================================
+
+# 25.04.25 - Sample: M.i.g.r.o.s
+/([a-z]\.){3,6}/i
 
 # Number
 # ------------------------------------------------------------------------------
