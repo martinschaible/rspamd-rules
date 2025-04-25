@@ -99,12 +99,14 @@
 # V
 
 # W
-/web.{1,10}(designing|development).{1,10}(offer|proposal)/i
+/web.{1,10}design(ing)?.{1,10}development services/i
+/web.{1,10}(design(ing)?|development).{1,10}(offer|proposal)/i
+
 /web.{1,5}proposal/i
 /web re.?builder/i
 
-/web.?site.{1,10}design.{1,10}development/i
-/web.?site.{1,10}designing.?!/i
+/web.?site.{1,10}design(ing)?.{1,10}development/i
+/web.?site.{1,10}design(ing)?.?!/i
 /web.?site.{1,10}development.{1,10}solutions?/i
 /web.?site.{1,20}should be driving/i
 

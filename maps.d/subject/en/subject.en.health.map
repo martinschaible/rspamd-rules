@@ -131,6 +131,8 @@
 /before bed tonight/i
 /belly.{1,10}(fat|overnight)/i
 
+/better than.{1,10}retinol/i
+
 /big o$/i
 /big pharma.{1,15}want you/i
 
@@ -159,6 +161,8 @@
 /brain boost.{1,10}trick/i
 /brain.?fog.{1,10}seconds/i
 /burns?.{1,10}fat naturally/i
+
+/buzzing.{1,10}ears/i
 
 /by doing this daily/i
 /by this ancient/i
@@ -250,7 +254,6 @@
 /empty.{1,10}colon/i
 
 /end.{1,10}(back|knee|nerve) pain/i
-/end.{1,10}buzzing ears/i
 /end.{1,10}ear (buzzing|ringing)/i
 
 /end.{1,10}joint pain/i
@@ -342,7 +345,7 @@
 
 # I
 /improve memory (instantly|in.{1,15}seconds)/i
-/improve your.{1,15}(hearing|vision)/i
+/improve.{1,15}(hearing|urination|vision)/i
 
 /in \d{1,2} seconds/i
 
@@ -502,7 +505,7 @@
 /simple drink helps/i
 /simple habit (destroys|that)/i
 /simple oral flush/i
-/simple way to reverse/i
+/simple (trick|way).{1,10}(erase|reverse)/i
 
 /skin.{1,10}(miracle|secret|transformation)/i
 

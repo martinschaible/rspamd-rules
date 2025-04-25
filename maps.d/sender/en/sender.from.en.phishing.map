@@ -119,6 +119,8 @@
 # L
 /login.{0,10}attempt/i
 
+/loyalty.{0,10}(team|points)/i
+
 # M
 /mailbox.{0,10}(storage|team)/i
 

@@ -224,7 +224,7 @@
 /(amazonian|japanese|mayan|taiwan).{0,10}(diet|drink|fix|formula|hack|miracle|protocol|remedies|ritual|secret|seeds?|solution|tea|trick)/i
 /(ancient|crazy|dairy).{0,10}(amazonian|chocolate|healing|serum)/i
 
-/(exotic|forgotten|medical|miracle|natural|new|science|scientists?).{0,10}(breakthrough|drink|discovery|herb)/i
+/(exotic|forgotten|medical|miracle|natural|new|science|scientists?).{0,10}(breakthrough|drink|discovery|herb|secrets?)/i
 
 /(basic|secret).{0,10}protein/i
 /nasa.{0,10}(scientists?|study)/i
@@ -710,6 +710,7 @@
 
 /stay.{0,10}(asleep|hard|slim)/i
 /stinky.{0,10}breath/i
+/stop the/i
 /stop.{0,10}(breating|brushing|flossing)/i
 
 /stream.{0,10}strong(er)?/i
