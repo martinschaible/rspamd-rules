@@ -238,6 +238,7 @@
 /person hat noch nicht geantwortet/i
 
 /prämien im inneren/iu
+/prämien.?panel/i
 
 /preis.{1,15}mystery box/i
 /preis.{1,10}zugestellt zu bekommen/i
@@ -257,9 +258,12 @@
 /seien sie bereit/i
 
 /sichern sie es jetzt/i
-/sichern sie sich ihr exklusives/i
-/sichern sie sich ihre kostenlose/i
-/sichern sie sich ihre lieferung/i
+/sichern sie sich.{1,10}ihr exklusives/i
+/sichern sie sich.{1,10}ihre kostenlose/i
+/sichern sie sich.{1,10}ihre lieferung/i
+
+/sichern sie sich.{1,10}ihren gewinn/i
+
 /sichern sie ihr(en)?.{1,20}jetzt/i
 
 /sie haben.{1,10}(bei|das|den).{5,35}gewonnen/i
@@ -281,6 +285,8 @@
 
 /sie wurden ausgewählt/iu
 /sie wurden ausgewahlt/i
+
+/stunden.{1,10}sichern sie sich/i
 
 # T
 /teilnehmer erhalten.{1,10}belohnung/i
