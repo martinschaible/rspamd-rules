@@ -36,6 +36,10 @@
 /cancel de.?activation.{1,15}(account|request)/i
 /confirm ownership here/i
 
+# Phishing Account - Temporary
+# ------------------------------------------------------------------------------
+/important notification.{1,10}we noticed.{1,10}recent update/i
+
 # Phishing AlertAction - Temporary
 # ------------------------------------------------------------------------------
 
