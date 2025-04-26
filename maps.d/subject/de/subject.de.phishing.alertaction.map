@@ -50,7 +50,12 @@
 /aktualisierung.{1,10}überprüfen sie/i
 
 /aktualisierung ihrer telefonnummer/i
+
 /(aktualisieren|erneuern|prüfen).{1,10}ihre.{1,15}(adress|kontakt|zahlungs).?informationen/i
+
+/(aktualisieren?|bestätigen?).{1,10}(deine|sie).{1,10}(konto|sicherheits).?informationen/i
+/(aktualisieren?|bestätigen?).{1,10}sie ihre.{1,10}(angaben|telefon.?nummer)/i
+/(aktualisieren?|bestätigen?).{1,10}sie ihre.{1,15}kontoidentität/iu
 
 /aufforderung.{1,10}aktualisierung ihrer daten/i
 /aufforderung.{1,10}datenprüfung/i
@@ -69,8 +74,6 @@
 /bestätigung erforderlich.{1,10}(rück)?erstattung/i
 
 /bestätigen.?-.?#[a-z0-9]{4,10}/iu
-/bestätigen sie ihre.{1,10}(angaben|telefon.?nummer)/i
-/bestätigen sie ihre.{1,15}kontoidentität/iu
 
 /betreff.{1,5}achtung/i
 
@@ -242,11 +245,12 @@
 /wichtige?.{1,10}aktualisieren sie/i
 /wichtige?.{1,10}erinnerung.{1,10}daten checken/i
 
-/wichtige?.{1,10}hinweis?.{1,10}sperrung ihrer/i
+/wichtige?.{1,10}hinweis?.{1,10}bestätigen sie/iu
+/wichtige?.{1,15}hinweis?.{1,10}sperrung ihrer/i
 
 #/wichtige?.{1,15}informationen/i
-/wichtige?.{1,10}information.{1,10}ihrer rechnung/i
-/wichtige?.{1,10}information.{1,10}unternehmensdaten aktualisieren/i
+/wichtige?.{1,15}information.{1,10}ihrer rechnung/i
+/wichtige?.{1,15}information.{1,10}unternehmensdaten aktualisieren/i
 
 /wichtige?.{1,15}kontofunktion(en)?/i
 /wichtige?.{1,15}kontowarnung/i
