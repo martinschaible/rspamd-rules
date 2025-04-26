@@ -25,7 +25,7 @@
 /(order|payment|price.?list|proforma|project).{0,25}\.(7z|gz|html|rar|tar|tgz|xla|xls|zip)/i
 /(quotation|quote).{0,25}\.(7z|gz|html|rar|tar|tgz|xla|xls|zip)/i
 /(receipt|request).{0,25}\.(7z|gz|html|rar|tar|tgz|xla|xls|zip)/i
-/specifications?.{0,25}\.(7z|gz|html|rar|tar|tgz|xla|xls|zip)/i
+/(specifications?|swift).{0,25}\.(7z|gz|html|rar|tar|tgz|xla|xls|zip)/i
 /urgent?.{0,25}\.(7z|gz|html|rar|tar|tgz|xla|xls|zip)/i
 
 /new.?order.{0,25}\.(7z|gz|html|rar|tar|tgz|xla|xls|zip)/i
