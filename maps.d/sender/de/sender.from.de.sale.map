@@ -70,8 +70,9 @@
 
 # I
 /ihr.{0,10}solar.?experte/i
-/ihr.{0,10}(online|wifi)/i
-/ihre.{1,10}solaranlage/i
+/ihre.{1,10}(solaranlage|wifi)/i
+
+#/ihre?.{0,10}online/i
 
 # J
 /^jacke\b/i

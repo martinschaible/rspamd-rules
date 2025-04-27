@@ -55,7 +55,7 @@
 
 # Weight Loss
 # ------------------------------------------------------------------------------
-/(fat|weight).?loss.{1,10}(breakthrough|tip)/i
+/(fat|weight).?loss.{1,10}(breakthrough|switch|tip)/i
 /(fat|weight).?burning.{1,10}(morning|routine)/i
 
 /(fat|weight).{1,10}success proven/i
@@ -150,6 +150,7 @@
 
 /bloated because of/i
 /blood.?sugar.{1,10}(breakthrough|drops|naturally)/i
+/blood.?sugar.{1,10}limited time/i
 /blood.?sugar.{1,10}watch now/i
 
 /body burns fat/i
@@ -190,6 +191,8 @@
 /cut heart attack/i
 
 # D
+/dark spots.{1,10}aging/i
+
 /dealing.{1,10}constipation/i
 /defeat ed\b/i
 
@@ -382,6 +385,8 @@
 /makes you thin/i
 /massage restores/i
 
+/md discovers/i
+
 /memory loss.{1,10}(comes from|unveiled)/i
 /memory.{1,10}steroid/i
 
@@ -408,6 +413,8 @@
 
 /no joint pain/i
 /no surgery needed/i
+
+/nobel prize.{1,10}discovery/i
 
 # O
 /odd mix that/i

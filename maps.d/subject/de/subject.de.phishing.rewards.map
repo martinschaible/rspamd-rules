@@ -29,6 +29,13 @@
 
 /box.?set wartet auf sie/i
 
+# Apple
+/(airpods|apple|ipad|iphone).{1,10}gehören jetzt ihnen/i
+
+/gratulation.{1,10}(airpods|apple|ipad|iphone)/i
+/holen sie sich.{1,10}(airpods|ipad|iphone)/i
+/sie haben ein.{1,10}(airpods|ipad|iphone)/i
+
 #
 #
 #
@@ -165,8 +172,6 @@
 /holen sie ihre belohnung heute ab/i
 /holen sie sich noch heute/i
 
-/holen sie sich.{1,10}iphone/i
-
 # I
 /id\.#up/i
 
@@ -270,8 +275,6 @@
 
 /sie haben.{1,10}(bei|das|den).{5,35}gewonnen/i
 /sie haben.{1,10}ein(en)?.{5,35}gewonnen/i
-
-/sie haben ein.{1,10}(ipad|iphone)/i
 
 /sie haben ein{1,15}geschenk erhalten/i
 
