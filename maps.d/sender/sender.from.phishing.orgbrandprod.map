@@ -340,6 +340,7 @@
 
 /lidl.?202\d/i
 /lidl_/i
+/lidl.?versand/i
 
 /lieferung.{0,5}dhl/i
 
@@ -354,7 +355,7 @@
 
 /metanet-ch/i
 
-/(metamask|microsoft|migros).?(™|®|©)$/i
+/(microsoft|mediamarkt|metamask|migros).?(™|®|©)$/i
 
 /microsoft ads/i
 /microsoft.{0,10}rewards?/i
