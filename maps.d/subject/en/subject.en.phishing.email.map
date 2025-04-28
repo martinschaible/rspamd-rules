@@ -115,6 +115,7 @@
 
 # U
 /undeliverable.{1,10}outgoing e?.?mail failed/i
+/undeliverable.{1,10}pending incoming.{1,10}(e?.?mail|message)/i
 
 /update your.{1,20}@.{1,20}uota/i
 
@@ -126,6 +127,7 @@
 /verify your mail.?box/i
 
 # W
+/warning.{1,10}cancel.{1,10}de.?activation/i
 /web.?mail (notification|software upgrade)/i
 
 # X

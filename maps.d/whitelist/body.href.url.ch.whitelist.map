@@ -73,10 +73,10 @@
 # S
 
 # 04.04.25
-/sbb\.ch/de/abos-billette/i
-/sbb/.ch/de/fahrplan/i
+/sbb\.ch\/de\/abos-billette/i
+/sbb/.ch\/de\/fahrplan/i
 
-/shop\.sbb\.ch/customer\//i
+/shop\.sbb\.ch\/customer\//i
 
 # T
 
@@ -88,10 +88,13 @@
 
 # 24.04.25
 /campaign\.weltwoche-daily\.ch/i
-/weltwoche\.ch/abonnemente/i
+/weltwoche\.ch\/abonnemente/i
 
 # X
 
 # Y
 
 # Z
+
+# 28.04.25 - No DMARC
+/services\.zh\.ch\/basis/i
