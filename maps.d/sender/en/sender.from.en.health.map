@@ -175,7 +175,7 @@
 # Weightloss
 # ------------------------------------------------------------------------------
 /(fat|weight).{0,10}(fast|goals|loss|vanish)/i
-/(fat|weight).{0,10}(burn(er)?|burning|drop(er)?|flush|melting)/i
+/(fat|weight).{0,10}(banish|burn(er)?|burning|drop(er)?|flush|melting)/i
 
 /belly.{0,10}(detox|fix|flattening)/i
 
@@ -304,7 +304,7 @@
 
 /bright.{0,10}smile/i
 
-/body.{0,10}(balance|recharge|waves?)/i
+/body.{0,10}(balance|reboot|recharge|waves?)/i
 /\bboner$/i
 
 /bone.{0,10}bone/i
@@ -670,6 +670,7 @@
 
 /satisfaction.{0,10}solution/i
 /sciatica.{0,10}(fix|pain)/i
+
 /scientists?.{0,10}reveals?/i
 
 /second.{0,10}tweak/i
@@ -750,8 +751,6 @@
 /toxic.{0,10}(food|milk)/i
 /toxin.{0,10}(destroyer|flush|mineral|removal)/i
 /tropical.{0,10}(fruit|juice)/i
-
-/turmeric/i
 
 /traditional hypertension medications/i
 /true.{0,10}story/i

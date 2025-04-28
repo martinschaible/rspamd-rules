@@ -56,6 +56,7 @@
 # Weight Loss
 # ------------------------------------------------------------------------------
 /(fat|weight).?loss.{1,10}(breakthrough|switch|tip)/i
+/(fat|weight).?loss.{1,10}remedies|remedy)/i
 /(fat|weight).?burning.{1,10}(morning|routine)/i
 
 /(fat|weight).{1,10}success proven/i
@@ -407,6 +408,7 @@
 /nails in just/i
 
 /natural.{1,10}way.{1,10}relieve/i
+/natural.{1,10}weight.?loss/i
 /naturally.{1,10}(discover|restored?|with this)/i
 
 /new way.{1,10}eliminate/i
@@ -487,7 +489,10 @@
 /say goodbye.{1,15}(fungus|pain|prostate)/i
 
 /scientifically proven/i
-/scientists (confirm|discover).{1,10}(the|this|real|works)/i
+
+/scientists?.{0,10}(confirm|discover).{1,10}(the|this|real|works)/i
+/scientists?.{0,10}reveals?/i
+/scientists?.{0,10}this is/i
 
 /sec(ond)?.{1,10}(home remedy|sleep trick|stretch)/i
 
@@ -551,6 +556,7 @@
 
 /strong(er)?.{1,10}(erections?|gums|teeth)/i
 
+/stubborn.{1,10}(fat|flab|weight)/i
 /stuck poop/i
 
 /sugar.{0,10}(free|traps|trick)/i
@@ -599,6 +605,8 @@
 /(try|this).{1,10}simple.{1,10}nutrient/i
 
 /this food kills.{1,10}(back|hip|knee|pain)/i
+
+/tsp.{1,10}fat.?drain/i
 
 /to end.{1,10}(diabetes|pain)/i
 /to get.{1,10}hard/i
