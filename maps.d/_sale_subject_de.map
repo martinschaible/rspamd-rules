@@ -309,18 +309,13 @@
 # Google Reviews
 # ------------------------------------------------------------------------------
 /google.{1,10}festpreis/i
-/google.?bewertungen.{1,20}löschen/iu
 /entfernung bei google/i
 
 /(entfernen|löschen).{1,15}bewertungen/i
 
-/bewertungen.{1,15}(entfernen|löschen)/i
 /festpreis.{1,15}(je|pro) erfolg/i
 
 /(ihnen|ihre) google.?(bewertungen|einträge)/i
-
-/(negative|schlechte).{1,10}google.?(bewertungen|einträge)/i
-/(negative|schlechte).{1,10}(bewertungen|einträge) (entfernen|loswerden)/i
 
 # Offer to sell vehicles
 # ------------------------------------------------------------------------------
