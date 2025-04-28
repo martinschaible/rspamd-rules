@@ -117,17 +117,18 @@
 # R
 /reduzieren sie.{1,15}fett/i
 /ruhe.{1,15}nacht/i
-/ruhige.{0,10}nächte/i
+/(ruhige|stille).{0,10}(nächte|schlafzimmer)/i
 
 # S
 /sanfte.{0,10}hilfe/i
+
+/schlank.{0,10}boostrer/i
 /schmerzen in/i
 /schöne.{0,10}(nägel|zähne)/iu
 
 /sex.{0,10}produkt/i
 
 /starten sie/i
-/stille.{0,10}(nächte|schlafzimmer)/i
 
 # T
 /tipps von/i

@@ -54,8 +54,8 @@
 /(aktualisieren|erneuern|prüfen).{1,10}ihre.{1,15}(adress|kontakt|zahlungs).?informationen/i
 
 /(aktualisieren?|bestätigen?).{1,10}(deine|sie).{1,10}(konto|sicherheits).?informationen/i
-/(aktualisieren?|bestätigen?).{1,10}sie ihre.{1,10}(angaben|telefon.?nummer)/i
-/(aktualisieren?|bestätigen?).{1,10}sie ihre.{1,15}kontoidentität/iu
+/(aktualisieren?|bestätigen?).{1,10}sie ihre.{1,10}(angaben|identität|sicherheit|telefon.?nummer)/iu
+/(aktualisieren?|bestätigen?).{1,10}sie ihre.{1,20}(kontoidentität|verifizierung)/iu
 
 /aufforderung.{1,10}aktualisierung ihrer daten/i
 /aufforderung.{1,10}datenprüfung/i
@@ -129,9 +129,13 @@
 
 /hinweis.{1,10}ihre daten müssen bestätigt/iu
 
+/hohe dringlichkeit/i
+/höchste warnstufe.{1,15}abonnement/iu
+
 # I
 /identifikation erforderlich/i
 
+/ihr.{1,10}abonnement ist gefährdet/iu
 /ihr handeln ist erforderlich/i
 
 /ihre.{1,20}muss aktualisiert werden/i
@@ -203,8 +207,8 @@
 /sicherheit ihrer karte.{1,15}daten bestätigen/iu
 
 /sicherheitsalarm.{1,10}ungewöhnliche kontoaktivität/iu
-/sicherheitsaktualisierung durchführen/i
-/sicherheitsaktualisierung erforderlich/i
+
+/(sicherheits|system).?aktualisierung.{1,10}(bestätigen sie|durchführen|erforderlich)/iu
 
 /sicherheitsmaßnahmen.{1,15}jetzt.{1,15}konto/i
 /sicherheitsüberprüfung.{1,10}steht aus/iu
@@ -229,7 +233,7 @@
 /unvollständiges.{1,10}(unternehmens)?profil/iu
 
 /update erforderlich/i
-/update.{1,15}kontosicherheit/i
+/update.{1,15}(abonnement|kontosicherheit)/i
 
 /überprüfen sie bestellung/i
 /überprüfen sie ihre.{1,15}daten jetzt/iu
