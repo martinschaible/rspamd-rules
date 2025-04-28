@@ -242,7 +242,8 @@
 
 /gewinner(in)?/i
 /gewinn(er)?.?(deklaration|erklarung|erklärung|team)/i
-/gewinnspiel/i
+
+/^gewinnspiel/i
 /gewinnerklärung/i
 
 /girokonto/i
@@ -304,7 +305,10 @@
 /^kardiologie$/i
 
 /kartenkonto/i
-/karten.?service/i
+
+#/karten.?service/i
+/^karten.?service/i
+#/kreditkarten.?service/i
 
 /kasino/i
 /kassen$/i
@@ -591,6 +595,7 @@
 /ungelesen/i
 /unglaublich(er)?/i
 /unterstützung/i
+/unternehmensregister/i
 
 # V
 /validierungs.?zentrum/i

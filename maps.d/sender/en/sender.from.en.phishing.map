@@ -19,6 +19,8 @@
 /\.[a-z]{1,4}.{1,5}(admin$|administrator|helpdesk|security|server|support|update)/i
 /\.[a-z]{1,4}.{1,5}mail.?service/i
 /\.[a-z]{1,4}.{1,5}security.?center/i
+
+/\.[a-z]{1,4}.{1,5}support$/i
 /\.[a-z]{1,4}.{1,5}support.?team/i
 
 /\| system.?notification/i
@@ -32,6 +34,8 @@
 
 /i\.?t (admin|notice|notification|server)/i
 
+/cloud.{0,10}(admin|team)/i
+
 /cpanel.{0,10}(webhost|webmail)/i
 
 /help-desk/i
@@ -41,7 +45,7 @@
 /mail.?(admin|alert|helpdesk|server)/i
 /mail.?security.?team/i
 
-/server.?report/i
+/server.?(report|team)/i
 /^support.?(client|desk|team)$/i
 
 /(imap|pop3).{0,10}settings/i
