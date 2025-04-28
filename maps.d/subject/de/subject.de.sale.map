@@ -100,7 +100,7 @@
 # B
 /beheizten? westen?/i
 
-/bewertungen.{1,15}erfolgreich löschen/iu
+/bewertungen.{1,15}(entfernen|erfolgreich|löschen)/iu
 /bewertungen.{1,15}unverbindliche prüfung/iu
 
 # Sample: Bildschirm. Statt 169,-nur 49,90
@@ -201,6 +201,8 @@
 /mitarbeiter für.{1,15}(logistik|produktion|verarbeitung)/i
 
 # N
+/(negative|schlechte).{1,10}google.?(bewertungen|einträge)/iu
+/(negative|schlechte).{1,10}(bewertungen|einträge) (entfernen|loswerden)/iu
 
 # O
 

@@ -81,11 +81,13 @@
 /confirmation.{0,10}needed/i
 
 # D
-/domain.{0,10}support/i
+/domain.{0,10}(provider|support)/i
 
 /\| de$/i
 
 # E
+/e?.?mail.{0,10}support/i
+
 /exclusive.{0,10}offers/i
 
 # French
@@ -139,6 +141,7 @@
 
 # P
 /pending.{1,10}e?.?mails/i
+/provider.{0,10}support/i
 
 # Q
 
