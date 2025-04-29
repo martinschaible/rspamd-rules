@@ -209,6 +209,8 @@
 
 /dhl.?ups/i
 
+/mydhl.{0,5}express/i
+
 /(express|kurier|notification).{0,5}(dhl|dpd)/i
 
 /die.?schweizerische/i

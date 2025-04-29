@@ -10,6 +10,7 @@
 # ------------------------------------------------------------------------------
 /cardiotonus/i
 /endurancer24/i
+/hezkue/i
 
 # Hacks, Tricks, Secrets and other lies
 # ------------------------------------------------------------------------------
@@ -47,7 +48,7 @@
 /this.{1,10}night trick/i
 /this.{1,10}sec fix/i
 /this.{1,10}tsp hack/i
-/this.{1,10}unique (formula|hack|remedy)/i
+/this.{1,10}(tropical|unique) (formula|hack|remedy|trick)/i
 
 /unusual greek/i
 
@@ -96,7 +97,8 @@
 
 /(aching|achy|bad).{1,10}(knees|joints?)/i
 
-/activate.{1,10}brain/i
+/activates?.{1,10}(brain|third eye)/i
+
 /after trying this/i
 
 /ageless.{1,10}(glow|skin)/i
@@ -202,6 +204,8 @@
 /detox(es)? your gut/i
 
 /diabetes.{1,10}game changer/i
+
+/diet.{1,10}doctor says/i
 
 /\[discover how\]/i
 /discover.{1,10}breakthrough/i

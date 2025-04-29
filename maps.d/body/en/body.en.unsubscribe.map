@@ -56,6 +56,8 @@
 # O
 /opt.?out of this advertiser.{1,10}mailings.{1,10}(please|visit)/i
 
+/or send post.?mail to \d{3,5}/i
+
 # P
 /please manage your subscription.{1,20}\d{2,5}/i
 
@@ -64,8 +66,8 @@
 # R
 
 # S
-/stop future communications.{1,10}send post.?mail to/i
-/stop recei?ving.{1,10}e?.?mail from us.{1,10}send post.?mail to/i
+/stop.{1,10}future communications.{1,10}send post.?mail to/i
+/stop.{1,10}recei?ving.{1,10}e?.?mail from us.{1,10}send post.?mail to/i
 
 # T
 
