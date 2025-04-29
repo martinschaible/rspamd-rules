@@ -21,8 +21,7 @@
 /medicare.?(kit|set)/i
 /notfall.?rettungs.?paket/i
 
-# Mystery Box
-/mystery.?box.{1,10}(erhalten|gewonnen)/i
+/(brandschutzset|mystery.?box).{1,10}(erhalten|gewonnen)/i
 
 /(rituals|shein|zalando).{0,10}mystery.?box/i
 /(die|eine).{1,10}mystery.?box/i
