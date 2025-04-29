@@ -144,7 +144,8 @@
 /hi\b.?sir/i
 /hi there.{1,10}i hope this.{1,10}message/i
 
-/hey customer.{1,10}my name is/i
+/hey.{1,10}customer.{1,10}my name is/i
+/hey.{1,10}(madam|sir)/i
 
 /how are you.{1,10}attention/i
 /how are you.{1,10}find attached/i

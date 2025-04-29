@@ -27,37 +27,53 @@
 
 /extremely important.{1,10}urgent matter/i
 
-# Make Money - Temporary
+# Temporary
+# ==============================================================================
+#-> Until i have created new map files
+
+# Make Money
 # ------------------------------------------------------------------------------
 /unlock.{1,10}passive income/i 
 
-# Phishing - Temporary
+#
+#
+#
+
+# Phishing
 # ------------------------------------------------------------------------------
 /cancel de.?activation.{1,15}(account|request)/i
 /confirm ownership here/i
 
-# Phishing Account - Temporary
+# Phishing Account
 # ------------------------------------------------------------------------------
 /important notification.{1,10}we noticed.{1,10}recent update/i
 
-# Phishing AlertAction - Temporary
+# Phishing AlertAction
 # ------------------------------------------------------------------------------
 
-# Phishing Rewards - Temporary
+# Phishing EMail
+# ------------------------------------------------------------------------------
+/we notice you have not updated/i
+
+# Phishing Rewards
 # ------------------------------------------------------------------------------
 
-# Scam - Temporary
+#
+#
+#
+
+# Scam
 # ------------------------------------------------------------------------------
 
 # Donation
 /your.{1,10}e?.?mail.{1,20}(has been|was) (drawn|selected) for.{1,10}donation/i
 /your.{1,10}e?.?mail.{1,20}won.{1,10}donation/i
 
-# Scam Ransom - Temporary
+# Scam Ransom
 # ------------------------------------------------------------------------------
 /my perverted friend/i
 
-# Winning - Temporary
+# Winning
 # ------------------------------------------------------------------------------
 /lucky winner.{1,10}please contact our/i
 
