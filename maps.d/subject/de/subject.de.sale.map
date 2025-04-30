@@ -155,7 +155,9 @@
 # I
 /ich kann alles hören/iu
 
-/ihr.{1,10}(auto|fahrzeug|wagen|lkw|pkw) zum besten preis/i
+/ihr(en)?.{1,10}(auto|fahrzeug|wagen|lkw|pkw).{1,10}zum besten preis/i
+/ihr(en)?.{1,10}(auto|fahrzeug|wagen|lkw|pkw).{1,10}verkaufen/i
+
 /ihr personalbedarf/i
 /ihr.{1,10}(4g|lte).{1,5}wifi/i
 /ihr.{1,10}wlan.?signal/i

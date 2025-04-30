@@ -15,9 +15,10 @@
 # D
 
 # E
-/(e.?mail|message) finds you well.{1,10}i work with a/i
-/(e.?mail|message) finds you well.{1,10}my name is/i
-/(e.?mail|message) reaches you in.{1,10}good faith.{1,10}my name is/i
+/(e.?mail|letter|message) finds you well.{1,10}i work with a/i
+/(e.?mail|letter|message) finds you well.{1,10}my name is/i
+/(e.?mail|letter|message) meets you in.{1,10}best.{1,10}spirits/i
+/(e.?mail|letter|message) reaches you in.{1,10}good faith.{1,10}my name is/i
 
 # F
 /from.{1,10}the (desk|office) of.{1,10}(miss|mrs?|ms)/i
