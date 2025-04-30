@@ -21,7 +21,7 @@
 /medicare.?(kit|set)/i
 /notfall.?rettungs.?paket/i
 
-/(brandschutzset|mystery.?box).{1,10}(erhalten|gewonnen)/i
+/(brandschutzset|mystery.?box).{1,10}(erhalten|gewonnen|noch heute)/i
 
 /(rituals|shein|zalando).{0,10}mystery.?box/i
 /(die|eine).{1,10}mystery.?box/i
@@ -206,6 +206,8 @@
 /ihre.{1,15}prämie.{1,10}verschickt/i
 
 /ihrem.{1,10}fantastischen gewinn/i
+/ihrem.{1,10}gewinn!/i
+
 /ihren.{1,10}gutscheincode/i
 /ihren.{1,10}namen registriert/i
 
@@ -264,6 +266,8 @@
 /rewards sind.{1,15}freigeschaltet/i
 
 # S
+/schritt.{1,10}ihrem.{1,15}gewinn/i
+
 /sehr geehrter? gewinner/i
 /seien sie bereit/i
 

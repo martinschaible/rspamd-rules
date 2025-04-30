@@ -72,6 +72,7 @@
 /(e?.?mail|mailbox).{1,10}update alert/i
 
 # F
+/action needed.{1,10}final step.{1,15}(parcel|receive)/i
 
 # G
 

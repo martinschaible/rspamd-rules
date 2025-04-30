@@ -29,7 +29,8 @@
 /exklusive?.{1,10}mystery.?box/i
 /rituals.{1,10}mystery.?box/i
 
-/jetzt angaben bestätigen/iu
+/ihr gewinn.{1,10}ein neues/i
+/jetzt (angaben|gewinn) bestätigen/iu
 
 #
 #
@@ -52,6 +53,12 @@
 
 # Unclaimed funds
 /wir haben einen nicht.{1,10}(beanspruchten|eingeforderten).{1,10}betrag/i
+
+# Comparing Solar energy
+/förderung(en).{1,10}(anzeigen|berechnen)/iu
+/(photo.?voltaik|pv|solar).?anlage.{1,10}jetzt \d{2}.{1,10}günstiger/iu
+
+# Ransom
 
 # Winning
 # ------------------------------------------------------------------------------

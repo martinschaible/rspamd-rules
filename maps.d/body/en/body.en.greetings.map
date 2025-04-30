@@ -134,8 +134,11 @@
 /(hello|hi).{1,10}are you seeking/i
 /(hello|hi).{5,35}from.{5,35}(in)? (china|india|ukraine)/i
 /(hello|hi\b).{1,10}herr/i
+
 /(hello|hi).{1,10}i am contacting you/i
 /(hello|hi).{1,35}i am.{1,10}(employee|professional)/i
+/(hello|hi).{1,15}i am.{1,10}who has access/i
+
 /(hello|hi).{5,35}i hope this e?.?mail (finds|meets) you/i
 /(hello|hi).{1,10}glad to (contact|connect|know|write)/i
 /(hello|hi).{1,10}to the.{1,25}owner/i
