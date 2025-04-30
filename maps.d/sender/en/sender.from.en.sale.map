@@ -64,6 +64,7 @@
 /esaver/i
 
 # F
+/fan.{0,10}blower/i
 /(fluff|luxury|zen).{1,10}pillows?/i
 
 /foam.?seat/i
@@ -101,7 +102,7 @@
 /i p t v/i
 
 # J
-
+/jet.{0,10}fan/i
 # K
 
 # L
@@ -110,7 +111,7 @@
 /luxury.?(collections?|watch(es)?)/i
 
 # M
-/mini.{0,10}heater/i
+/mini.{0,10}(heater|jet)/i
 
 # N
 /(best|nex.?).?ip.?tv/i
