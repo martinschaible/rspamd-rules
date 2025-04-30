@@ -188,8 +188,8 @@
 /deutsche.?bnk/i
 /deutschen.?bahn/i
 
-/deutsche.?bahn.{1,10}(service|team)/i
-/deutschland.?ticket.{1,10}(service|team|zentrale)/i
+/deutsche.?bahn.{0,10}(service|team)/i
+/deutschland.?ticket.{0,10}(service|team|zentrale)/i
 
 /\.(ch|de).?\(dhl\)/i
 
@@ -240,6 +240,8 @@
 #/disney.?account/i
 
 /douglas$/i
+/douglas.{0,5}team/i
+
 
 # E
 # ------------------------------------------------------------------------------

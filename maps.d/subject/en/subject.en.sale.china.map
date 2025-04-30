@@ -166,7 +166,7 @@
 /(pcba?|printed.?circuit.?board).{1,10}supply chain/i
 
 /plastic.?injection.{1,10}mould.?maker/i
-/plastic.?tmold.{1,10}making/i
+/plastic.?mold.{1,10}(making|solution)/i
 /plastic.?tooling.{1,10}services?/i
 
 /product.{1,10}machining service/i

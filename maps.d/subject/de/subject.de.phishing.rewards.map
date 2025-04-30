@@ -32,8 +32,10 @@
 /(airpods|apple|ipad|iphone).{1,10}gehören jetzt ihnen/i
 
 /gratulation.{1,10}(airpods|apple|ipad|iphone)/i
-/holen sie sich.{1,10}(airpods|ipad|iphone)/i
-/sie haben ein.{1,10}(airpods|ipad|iphone)/i
+/holen sie sich.{1,10}(airpods|apple|ipad|iphone)/i
+
+/sichern sie sich.{1,15}(airpods|apple|ipad|iphone)/i
+/sie haben ein.{1,10}(airpods|apple|ipad|iphone)/i
 
 #
 #
@@ -171,6 +173,7 @@
 /hast im.{1,15}bei.{1,15}gewonnen/i
 
 /holen sie ihre belohnung heute ab/i
+/Holen Sie sich einen neuen/i
 /holen sie sich noch heute/i
 
 # I
