@@ -169,8 +169,11 @@
 /sehr geehrter manager/i
 
 /sehr geehrter.{1,10}geschäftspartner.{1,10}mein name ist/i
+
+/sehr geehrter?.{1,10}(damen|herren).{1,20}anbei erhalten sie ihre aktuelle rechnung/i
 /sehr geehrter?.{1,10}(empfänger|nachfolger|unternehmer)(in)?/i
 /sehr geehrter?.{1,10}(freundlicher|nutzer)/i
+
 /sehr geehrter?.{1,20}ich bin ein/i
 
 /sehr geehrter.{1,10}temu.?kunde/i

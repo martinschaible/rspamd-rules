@@ -111,6 +111,7 @@
 
 /good (afternoon|day|evening|morning).{1,10}sir.{1,5}(madam|mam?)\b/i
 
+/greetings.{1,10}beloved.{1,15}my name is/i
 /greetings.{1,15}greetings/i
 /greetings.?(of the day)?.{1,15}my friend/i
 /greetings.?(of the day)?.{1,15}my name is.{5,35}i am representing/i

@@ -14,7 +14,8 @@
 
 /i have.{1,15}(confidential|important) message/i
 
-/this.{1,10}e?.?mail.{1,15}strictly confidential/i
+/this.{1,10}(e?.?mail|message).{1,15}strictly confidential/i
+/This.{1,10}(e?.?mail|message).{1,15}confidential.{1,10}urgent
 
 /desk of secretary.{1,35}attention/i
 
