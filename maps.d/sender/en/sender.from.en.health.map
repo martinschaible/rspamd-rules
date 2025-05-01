@@ -381,7 +381,7 @@
 /discover.{0,15}today/i
 /diy.{0,10}lipo/i
 
-/do not (consume|eat|take)/i
+/do not (consume|drink|eat|take)/i
 /do this/i
 
 /doctor.{0,10}warning/i
@@ -716,7 +716,7 @@
 /stop.{0,10}(breating|brushing|flossing)/i
 
 /stream.{0,10}strong(er)?/i
-/strong.{0,10}urine/i
+/strong(er)?.{0,10}(heart|urine)/i
 /stroke.{0,10}(indication|prevention|signal)/i
 
 /strong(er)?.{0,10}(hair|immunity|performance|smile)/i

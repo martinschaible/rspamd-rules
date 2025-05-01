@@ -223,7 +223,7 @@
 /do this once a day/i
 
 /doctor has the.{1,10}answer/i
-/doctor reveals the/i
+/doctor reveals/i
 /doctors?.{1,10}recommend/i
 
 /does to joint pain/i
@@ -328,8 +328,9 @@
 /harvard.{1,15}(leaked|second|stretch)/i
 
 /heal.{1,15}pain/i
-/healing recipe/i
-/healthy nails/i
+/healing.{1,10}recipe/i
+/health.{1,10}miracle/i
+/healthy.{1,10}nails/i
 
 /hearing.{1,15}naturally/i
 

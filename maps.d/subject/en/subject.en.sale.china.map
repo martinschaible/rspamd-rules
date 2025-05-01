@@ -8,7 +8,8 @@
 
 # China
 # ------------------------------------------------------------------------------
-/china.{1,10}leading supplier/i
+/china.{1,15}clothing/i
+/china.{1,10}leading (manufacturer|supplier)/i
 /china.{1,10}with.{1,10}certification/i
 
 /best prices.{1,10}china/i
@@ -47,6 +48,7 @@
 
 /chips.{1,10}competitive prices/i
 
+/clothing.{1,15}manufacturer/i
 /cnc.{1,10}precision (in|parts)/i
 /cnc.{1,10}machining/i
 /(design|manufacture|you need).{1,15}pcba?/i
@@ -95,6 +97,8 @@
 
 # H
 /help increasing in.{1,15}market/i
+
+/high performance.{1,20}solution/i
 /high quality chinese/i
 
 # I
@@ -145,7 +149,7 @@
 /new product catalog/i
 
 # O
-/oem.{1,10}(plastic|products?|service|supplier)/i
+/(odm|oem).{1,10}(manufacturer|plastic|products?|service|supplier)/i
 
 /offers? for rectifiers/i
 
