@@ -83,10 +83,12 @@
 /letter from/i
 
 # M
+/^message for you$/i
 
 # N
 /^new email/i
 /^new message/i
+/^new letter/i
 
 # O
 /open.{1,5}immediately/i

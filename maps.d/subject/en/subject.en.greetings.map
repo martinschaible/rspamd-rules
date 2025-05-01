@@ -58,6 +58,7 @@
 /good (afternoon|day|evening|morning).{1,10}how.{1,10}going/i
 
 /greetings?.{1,10}@/i
+/greetings?.{1,10}beloved/i
 /greetings?.{1,10}from mrs?(\.|,)/i
 /greetings?.{1,10}(future|from here)/i
 /greetings?.{1,10}(in the name of god|to you)/i

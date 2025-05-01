@@ -354,6 +354,7 @@
 /constant.{0,10}urinatine/i
 /counting.{0,10}calories/i
 
+/cooking.{0,10}oil/i
 /correct.{0,10}use/i
 /cortisol.{0,10}level/i
 
@@ -576,7 +577,7 @@
 /natural.{0,10}(alternative|antibiotic|fix|shape|solution|tonic)/i
 /natural.{0,10}neuropathy/i
 
-/nature.{0,10}opioids?/i
+/nature.{0,10}(cure|opioids?)/i
 
 /neck.{0,10}skin/i
 /nerves?.{0,10}(comfort|health|pain|recovery|repair|revival|support)/i
@@ -716,6 +717,8 @@
 /stop.{0,10}(breating|brushing|flossing)/i
 
 /stream.{0,10}strong(er)?/i
+/stretch.{0,10}soothe/i
+
 /strong(er)?.{0,10}(heart|urine)/i
 /stroke.{0,10}(indication|prevention|signal)/i
 
