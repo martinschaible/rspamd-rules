@@ -36,10 +36,6 @@
 /you have.{1,10}pending{1,10}(e?.?mails?|messages?) on.{1,10}(imap|pop)/i
 /your.{1,10}e?.?mail.?address.{1,10}(imap|pop3)/i
 
-# Action to release EMails
-/(release|unlock).{1,10}(incoming|pending|suspended).{1,10}(e?.?mails?|messages?).{1,10}to.{1,10}inbox/i
-/(release|unlock).{1,10}(incoming|pending|suspended).{1,10}(e?.?mails?|messages?).{1,10}now/i
-
 #
 /disconnected from sending.{1,10}receiving.{1,10}e?.?mails/i
 /restrained from delivering to your.{1,10}mail.?box/i
