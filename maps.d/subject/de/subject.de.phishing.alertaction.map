@@ -63,6 +63,8 @@
 /aufmerksamkeit.{1,15}(dokument|mahnung)/i
 /aufmerksamkeit.{1,10}verifizierung erforderlich/i
 
+/anmeldeversuch.{1,10}bitte bestätigen sie/iu
+
 /(re)?aktivieren sie ihre.{1,10}photo.?tan/i
 
 # B
@@ -74,7 +76,7 @@
 /bestätigung erforderlich.{1,10}(rück)?erstattung/i
 
 /bestätigen.?-.?#[a-z0-9]{4,10}/iu
-/bestätigen sie kurz ihre angaben/iu
+/bestätigen sie kurz/iu
 
 /betreff.{1,5}achtung/i
 
