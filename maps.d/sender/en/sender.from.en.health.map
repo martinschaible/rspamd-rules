@@ -386,6 +386,7 @@
 /do this/i
 
 /doctor.{0,10}warning/i
+/dog.{0,10}health/i
 
 /dr\.?.?(derm|health)/i
 /dribbling.{0,10}urine/i
@@ -467,6 +468,7 @@
 /going.{0,10}viral/i
 
 /glow.{0,10}restorer?/i
+/golden.{0,10}spice/i
 /green.{0,10}(clay|oil)/i
 /grow.{0,10}(hair|trick)/i
 
@@ -507,6 +509,7 @@
 /iced?.{0,10}(hack|trick|water)/i
 /immune.{0,10}(booster|system)/i
 /improved.{0,10}brain/i
+/intimate.{0,10}life/i
 /insuline?/i
 /irritating.{0,10}noise/i
 
@@ -546,9 +549,12 @@
 
 /medicinal.{0,10}patch(es)?/i
 
+/memory.{0,10}drink/i
+
 /mens?.{0,10}(only|power)/i
-/metabolism.{0,10}(boost(er)?|loophole|organ|unleash)/i
 /mental.{0,10}clarity/i
+
+/metabolism.{0,10}(boost(er)?|loophole|organ|unleash)/i
 
 /midnight.{0,10}bathroom/i
 
@@ -710,6 +716,7 @@
 /spinal.{0,10}pain/i
 /strange.{0,10}acid/i
 /stretch.{0,10}smart(er)?/i
+/strong.{0,10}stream/i
 
 /stay.{0,10}(asleep|hard|slim)/i
 /stinky.{0,10}breath/i

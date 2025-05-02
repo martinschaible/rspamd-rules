@@ -19,7 +19,9 @@
 # A
 /account notification.{1,10}verification required/i
 /account safety alert/i
-/account security notification/i
+/account (security|suspension) notification/i
+
+/action needed.{1,10}final step.{1,15}(parcel|receive)/i
 
 /action required.{1,15}(activate|update) your/i
 /action required.{1,10}(account|improve|payment failed)/i
@@ -51,6 +53,8 @@
 
 /activation pending.{1,10}secure your account/i
 
+/activity detected.{1,10}activate.{1,20}2fa/i
+
 /alert.{1,10}your domain/i
 /alert.{1,10}mail.?server.{1,10}notification/i
 
@@ -73,7 +77,7 @@
 /(e?.?mail|mailbox).{1,10}update alert/i
 
 # F
-/action needed.{1,10}final step.{1,15}(parcel|receive)/i
+/final reminder.{1,10}enable.{1,20}2fa/i
 
 # G
 

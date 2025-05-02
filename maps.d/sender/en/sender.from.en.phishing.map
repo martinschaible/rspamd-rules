@@ -124,7 +124,7 @@
 # K
 
 # L
-/login.{0,10}attempt/i
+/login.{0,10}(attempt|review)/i
 
 /loyalty.{0,10}(team|points)/i
 
@@ -164,6 +164,7 @@
 
 /server.?(admin|support|update)/i
 
+/session.{0,10}(alert|control)/i
 /service.{0,10}notifications?/i
 /(service|storage).{0,10}(upgrades?|updates?)/i
 

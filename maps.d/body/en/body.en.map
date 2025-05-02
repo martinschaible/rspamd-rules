@@ -50,11 +50,16 @@
 # ------------------------------------------------------------------------------
 /important notification.{1,10}we noticed.{1,10}recent update/i
 
+/(activate|enable) 2fa now/i
+/(activate|enable) two.?factor authentication/i
+
 # Phishing AlertAction
 # ------------------------------------------------------------------------------
 
 # Phishing EMail
 # ------------------------------------------------------------------------------
+/(release|unlock|view).{1,10}(incoming|pending|suspended).{1,10}(e?.?mails?|messages?)/i
+
 /we notice you have not updated/i
 
 # Phishing Password

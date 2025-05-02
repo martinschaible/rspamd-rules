@@ -84,6 +84,7 @@
 /konto stillgelegt/i
 /kontosicherheit.{1,5}ref\./i
 /kontosperrung zu vermeiden/i
+/kontosperrung droht.{1,10}(ref(erenz)?|id)/i
 
 /konto.{1,10}ist betroffen.{1,10}vertrauliche nachricht/i
 /konto.{1,10}(bleibt|ist|wird|wurde).{1,20}(begrenzt|deaktiviert|eingeschränkt|inaktiv|gesperrt|verifiziert)/i

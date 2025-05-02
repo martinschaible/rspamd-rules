@@ -152,6 +152,8 @@
 /bleeding gums/i
 
 /bloated because of/i
+/blocking your climax/i
+
 /blood.?sugar.{1,10}(breakthrough|drops|naturally)/i
 /blood.?sugar.{1,10}limited time/i
 /blood.?sugar.{1,10}watch now/i
@@ -216,6 +218,8 @@
 /(do|try) this \d{1,2} minutes before/i
 #/try this before bed/i
 /(do|try) this.{1,20}before/i
+
+/do this common.{1,15}mistake/i
 
 /do this every day/i
 /do this for instant/i
@@ -352,6 +356,7 @@
 /hours of top performance/i
 /hours of deep sleep/i
 
+/hot.{1,10}sex.?life/i
 /how men.{1,10}improving/i
 
 # I
