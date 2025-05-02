@@ -102,7 +102,7 @@
 # M
 /meine grüße/iu
 /mein name ist/i
-/mein (guter|lieber) (freund|geliebter)/i
+/mein (guter|lieber).{1,10}(freund|geliebter)/i
 /meine liebste/i
 
 /mit freundlichen (grüssen?|grüßen?)/i
@@ -132,6 +132,7 @@
 # U
 
 # V
+/von.{1,25}guten morgen/i
 
 # W
 /wie geht es dir heute/i
