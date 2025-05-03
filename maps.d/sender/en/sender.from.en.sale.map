@@ -101,6 +101,8 @@
 /i p-tv/i
 /i p t v/i
 
+/(best|nex.?).?ip.?tv/i
+
 # J
 /jet.{0,10}fan/i
 # K
@@ -116,7 +118,7 @@
 /mobile.{0,10}photography/i
 
 # N
-/(best|nex.?).?ip.?tv/i
+/night.{0,10}(driving|vision)/i
 
 # O
 /offers?.{0,10}program/i
