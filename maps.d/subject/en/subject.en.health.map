@@ -329,7 +329,7 @@
 
 /hair.?loss\.\./i
 /hair.?loss.{1,10}reversed/i
-/harvard.{1,15}(leaked|second|stretch)/i
+/harvard.{1,15}(discovers|leaked|second|stretch)/i
 
 /heal.{1,15}pain/i
 /healing.{1,10}recipe/i
@@ -576,7 +576,7 @@
 /sugar.{0,10}(free|traps|trick)/i
 /supercharge your.{1,20}metabolism/i
 
-/surgeon recommends/i
+/surgeon.{1,10}(explains|recommends)/i
 /surprising discovery/i
 /survey reveals/i
 

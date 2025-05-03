@@ -91,8 +91,11 @@
 
 /adac.?mitglied$/i
 
-/adobe.?acrobat (document|e.?signature)/i
+/adobe.?acrobat (document|e.?signature|sign)/i
 /adobe.?pdf/i
+
+# 04.05.25 - AEON Card
+/イオンカード/i
 
 /ag.?twint/i
 
@@ -245,6 +248,10 @@
 
 # E
 # ------------------------------------------------------------------------------
+
+# 03.05.25 - EDM email group
+/edm邮件群发/i
+
 /etc-meisai/i
 
 # F

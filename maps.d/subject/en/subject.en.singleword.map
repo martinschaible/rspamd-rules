@@ -32,6 +32,7 @@
 #/attention(:|\$|!)/i
 /attention(:|\$)/i
 /attention,/i
+/attention:$/i
 
 # B
 /beneficiary!/i
@@ -152,6 +153,8 @@
 /ranking\.\./i
 
 /redesign\.\./i
+
+/request_/i
 /required.?!/i
 
 /rewards.?panel/i
