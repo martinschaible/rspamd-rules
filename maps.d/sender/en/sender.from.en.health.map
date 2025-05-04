@@ -251,11 +251,14 @@
 # A
 /aching.{0,10}points/i
 
+/african.{0,10}ritual/i
+
 /age.{0,10}freezing/i
 /aged.{0,10}spot/i
 /ageless.{0,10}(beauty|skin|treat)/i
 /aging.{0,10}reverse
 
+/alignment.{0,10}fix/i
 /allergy.{0,10}sufferers/i
 /ancient.{0,20}(enzyme|ritual|wellness|wine)/i
 /(anti|fight|stop).{0,10}snoring/i
@@ -299,14 +302,14 @@
 /bloat.{0,10}(free|solution)/i
 /blood.{0,10}(clots?|flow|glucose|pressure|solution|sugar)/i
 
-/blue.{0,10}(pill|plant|replacement)/i
+/blue.{0,10}(juice|pill|plant|replacement)/i
 /blurry.{0,10}fix/i
 
 /(breathe|breathing).{0,10}(better|clearer|easier|easy)/i
 
 /bright.{0,10}smile/i
 
-/body.{0,10}(balance|reboot|recharge|waves?)/i
+/body.{0,10}(alignment|balance|reboot|recharge|waves?)/i
 /\bboner$/i
 
 /bone.{0,10}bone/i
@@ -568,7 +571,7 @@
 /missing.{0,10}nutrients?/i
 /mitochondria.{0,10}boost/i
 
-/morning.{0,10}(boost|dessert|detox|drink|hack|mistake|oil|routine|slimmer|wood)/i
+/morning.{0,10}(boost|dessert|detox|drink|hack|mistake|oil|reset|routine|slimmer|wood)/i
 /mouth.{0,10}(detox|odor)/i
 
 /muffled.{0,10}hearing/i
@@ -684,7 +687,7 @@
 /scientists?.{0,10}reveals?/i
 
 /second.{0,10}tweak/i
-/secret.{0,10}(ancient|revealed|weapon)/i
+/secret.{0,15}(african|ancient|revealed|ritual|weapon)/i
 /sea.?sugar/i
 /senior.{0,10}moments/i
 /severe.{0,10}pain/i
@@ -748,7 +751,7 @@
 /(strange|spice).{0,10}trick/i
 
 /sweet.{0,10}deal/i
-/swollen.{0,10}(belly|foot|gut|legs)/i
+/swollen.{0,10}(belly|feet|foot|gut|legs)/i
 
 # T
 /thanksgiving.{0,10}delight/i
@@ -763,7 +766,7 @@
 /tongue.{0,10}move/i
 
 /top.{0,10}(experts?|fruits|medication)/i
-/toxic.{0,10}(food|milk)/i
+/toxic.{0,10}(food|milk|mineral)/i
 /toxin.{0,10}(destroyer|flush|mineral|removal)/i
 /tropical.{0,10}(fruit|juice)/i
 

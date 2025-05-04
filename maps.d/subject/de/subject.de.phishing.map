@@ -50,7 +50,7 @@
 /eingestellt.{1,5}#\d{2,15}/i
 
 /erinnerung.{1,10}aktualisiere deine/i
-/entschuldigen uns.{1,10}rückerstattung/iu
+/entschuldigen uns.{1,10}(rück)?erstattung/iu
 
 # Meta wants to delete your account
 /endgültige löschung ihrer seite/iu
@@ -58,7 +58,7 @@
 # F
 /fehler in ihrer letzten.{1,10}rechnung/i
 
-/fordern sie.{1,10}eine rückerstattung/iu
+/fordern sie.{1,10}eine.{1,10}(rück)?erstattung/iu
 /frist zur.{1,10}datenaktualisierung/i
 
 # G
@@ -71,12 +71,12 @@
 
 # H
 /hinweis zu ihrer letzten.{1,10}rechnung/i
-/holen sie sich.{1,15}rückerstattung/iu
+/holen sie sich.{1,15}(rück)?erstattung/iu
 
 # I
 /icloud.{1,10}speicher sind da/i
 
-/ihnen eine ausstehende rückerstattung/iu
+/ihnen eine ausstehende.{1,10}(rück)?erstattung/iu
 
 /ihr service ist abgelaufen/i
 /(ihr|lhr).{1,20}ist nicht mehr (gültig|gultig)/i
@@ -88,8 +88,9 @@
 
 /ihre offene verkehrsstrafe/i
 
-/ihre rückerstattung von/iu
-/ihre rückerstattungsanfrage/iu
+/ihre (rück)?erstattung.{1,25}wurde genehmigt/i
+/ihre (rück)?erstattung von/iu
+/ihre (rück)?erstattungs.?anfrage/iu
 
 # J
 
@@ -135,7 +136,7 @@
 
 # S
 /sie haben.{1,10}anspruch.{1,15}(rück)?erstattung/iu
-/sie haben.{1,10}eine rückerstattung aus ihrer/iu
+/sie haben.{1,10}eine.{1,10}(rück)?erstattung aus ihrer/iu
 
 /sie ihre.{1,15}(rück)?erstattung/iu
 /sie uns den.{1,10}(rück)?erstattungsantrag/i
