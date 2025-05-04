@@ -63,8 +63,6 @@
 
 /sicherheitswarnung.{1,10}(konto gesperrt|vervollständigen sie)/i
 
-/sperrung ihrer karte.{1,10}ihres kontos/i
-
 /bestätigung ihrer konto.?informationen erforderlich/iu
 
 /überprüfung ihrer.{1,15}(kontoinformationen|unternehmensdaten) erforderlich/i
@@ -111,7 +109,6 @@
 /registrierung für gebührenfrei/i
 
 /sicherheitsbenachrichtigung zu ihrer.{1,15}karte/i
-/sperrung.{1,10}mastercard/i
 /warnung.{1,10}verdächtige transaktion/iu
 
 # Return for double payed invoices
