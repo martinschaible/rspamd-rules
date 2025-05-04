@@ -70,7 +70,8 @@
 
 /eye.{0,10}(doctor|expert|help|secret)/i
 
-/(eye.?sight|vision).{0,10}(20.?20|boost|coach|enhancing|expert|fix|hack|help|loss)/i
+/(eye.?sight|vision).{0,10}(20.?20|at risk)/i
+/(eye.?sight|vision).{0,10}(boost|coach|enhancing|expert|fix|hack|help|loss)/i
 /(eye.?sight|vision).{0,10}(rescue|reset|restorer?||solution|supplement)/i
 
 # Fungus, Nails
@@ -535,7 +536,7 @@
 /live.{0,10}(forver|long(er)?|years)/i
 /live.{0,10}to.{0,10}(years|yrs)/i
 
-/liver.{0,10}weight/i
+/liver.{0,10}(cleanse|weight)/i
 
 /lung.{0,10}trust/i
 /longer.{0,10}life/i
@@ -610,6 +611,7 @@
 /overnight.{0,10}hack/i
 
 # P
+/painful.{0,10}piles/i
 /pancreas.{0,10}reset/i
 
 /pee.{0,10}(control|leaks|strong(er)?|out)/i

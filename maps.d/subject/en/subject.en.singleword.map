@@ -50,6 +50,7 @@
 /constipation\?/i
 
 /confidential.?!/i
+/confidential\.$/i
 
 # D
 /^dating$/i
@@ -75,6 +76,7 @@
 /faiiure/i
 /^financing$/i
 
+/friend\.\./i
 /^from:/i
 /funding!/i
 /funds?!/i
