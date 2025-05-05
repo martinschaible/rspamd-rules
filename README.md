@@ -84,9 +84,21 @@ body
   │   ├─ body.de.message.map                      │
   │   ├─ body.de.singleword.map                   │
   │   ├─ body.de.singleword.ucase.map             │
-  │   ├─ body.de.unsubscribe.map                  │
-  ├─ en                                           │
-  │   └─ ....                                    ─┘
+  │   ├─ body.de.unsubscribe.map                 ─┘
+  │   ├─ body.de.phishing.map                    ─┐
+  │   ├─ body.de.phishing.account.map             │
+  │   ├─ body.de.phishing.alertaction.map         │
+  │   ├─ body.de.phishing.banking.map             │
+  │   ├─ body.de.phishing.email.map               │
+  │   ├─ body.de.phishing.greetings.map           │
+  │   ├─ body.de.phishing.malware.map             ├─ multimap.body.phishing.conf
+  │   ├─ body.de.phishing.parcel.map              │
+  │   ├─ body.de.phishing.payment.map             │
+  │   ├─ body.de.phishing.rewards.map             │
+  │   ├─ body.de.phishing.subscription.map        │
+  │   └─ body.de.phishing.survey.map             ─┘
+  ├─ en
+  │   └─ ....
   ├─ href
   │   ├─ body.href.az.domain.name.map            ─┐
   │   ├─ body.href.ch.domain.name.map             │
@@ -141,6 +153,7 @@ subject
   │   ├─ subject.de.phishing.alertaction.map      │
   │   ├─ subject.de.phishing.banking.map          │
   │   ├─ subject.de.phishing.email.map            │
+  │   ├─ subject.de.phishing.greetings.map  *     │
   │   ├─ subject.de.phishing.malware.map          ├─ multimap.subject.phishing.conf
   │   ├─ subject.de.phishing.parcel.map           │
   │   ├─ subject.de.phishing.payment.map          │
