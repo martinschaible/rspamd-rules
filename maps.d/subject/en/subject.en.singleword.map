@@ -154,7 +154,8 @@
 /rank\.\./i
 /ranking\.\./i
 
-/redesign\.\./i
+/redesign.?\.\./i
+/redesign.?!/i
 
 /request_/i
 /required.?!/i
@@ -165,6 +166,8 @@
 /ryoko/i
 
 # S
+/sales.?\.\./i
+
 /services?.?!!/i
 /seo\.\.$/i
 /^soa$/i
