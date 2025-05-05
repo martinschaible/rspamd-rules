@@ -27,7 +27,7 @@
 # ==============================================================================
 
 # A
-/abnehm.{0,10}quiz/i
+/abnehm.{0,10}(quiz|trend)/i
 
 /^apotheken?.{0,10}(nachrichten|versand)/i
 /^apotheken?.{0,10}news(letter)?/i
