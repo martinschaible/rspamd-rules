@@ -46,11 +46,15 @@
 /(grab|grow|remake) your.{1,10}(home.?page|web.?site)/i
 
 # H
-/(home.?page|web.?site).{1,10}development.{1,10}redesign/i
+/(home.?page|web.?site).{1,10}creation.{1,10}update/i
+/(home.?page|web.?site).{1,10}design(ing)?.{1,10}development/i
+/(home.?page|web.?site).{1,10}design(ing)?.?!/i
+/(home.?page|web.?site).{1,10}development.{1,10}(redesign|solutions?)/i
 /(home.?page|web.?site).{1,10}for \d{2}% off/i
 /(home.?page|web.?site).{1,10}need.{1,10}update/i
 /(home.?page|web.?site).{1,10}re.?(build|design)(ing)?/i
 /(home.?page|web.?site).{1,10}(remake|renew|upgrade|upgrading)/i
+/(home.?page|web.?site).{1,20}should be driving/i
 
 /hire shopify developer/i
 
@@ -106,11 +110,6 @@
 
 /web.{1,5}proposal/i
 /web re.?builder/i
-
-/web.?site.{1,10}design(ing)?.{1,10}development/i
-/web.?site.{1,10}design(ing)?.?!/i
-/web.?site.{1,10}development.{1,10}solutions?/i
-/web.?site.{1,20}should be driving/i
 
 /with a web.?site/i
 
