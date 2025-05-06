@@ -144,8 +144,8 @@
 
 /moulding.{1,10}supplier/i
 
-/(mold|moulds).{1,10}(maker|construction)/i
-/(mold|moulds).{1,10}plastic parts/i
+/(molds?|moulds).{1,10}(maker|construction|in stock)/i
+/(molds?|moulds).{1,10}plastic parts/i
 
 # N
 /new product catalog/i
@@ -193,6 +193,7 @@
 
 /shoes direct factory/i
 
+/standard (molding|molds)/i
 /supplier who can serve/i
 /supply steel plates/i
 
@@ -200,7 +201,7 @@
 /trading co.{1,5}ltd/i
 
 /trusted.{1,15}custom fabrication/i
-/trusted.{1,15}manufacturer of/i
+/trusted.{1,15}(manufacturer|partner) (for|of)/i
 
 /trustworthy.{1,10}company/i
 

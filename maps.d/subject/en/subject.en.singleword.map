@@ -130,7 +130,8 @@
 /opportunity-/i
 
 # P
-/packages?\*\*/i
+/packages?.?\*\*/i
+/packages?.?\?\?/i
 
 /plans?\.\./i
 /price list\.\?/i
