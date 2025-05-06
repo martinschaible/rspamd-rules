@@ -88,7 +88,8 @@
 /dear manager of /i
 /dear my friend/i
 
-/dear.{1,10}vendor.{1,10}refer to/i
+/dear.{1,10}(supplier|vendor).{1,10}good (afternoon|day|evening|morning)/i
+/dear.{1,10}(supplier|vendor).{1,10}refer to/i
 
 # E
 
@@ -187,6 +188,7 @@
 /salaam.{1,10}we are impressed/i
 
 # T
+/top of the day to you/i
 
 # U
 

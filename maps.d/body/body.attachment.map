@@ -113,7 +113,7 @@
 /r\.?f\.?q.{0,15}our ref(erence)?/i
 
 /stock.{0,10}offer/i
-/swift.{0,10}message/i
+/swift.{0,10}(message|transaction)/i
 
 /nachricht/i
 
@@ -163,6 +163,8 @@
 
 # Sample: pdf (4kb).docx
 /pdf.?\(\d{1,5}kb\).?\.docx/i
+
+/xlsxr?\.tar/i
 
 # Triple Extension
 # ------------------------------------------------------------------------------

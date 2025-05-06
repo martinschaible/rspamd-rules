@@ -41,3 +41,9 @@
 /\.or\.jp\//i
 
 /\.(biz|co|or)\.id$/i
+
+# Combination of TLDs pretending to be the real domain
+# ------------------------------------------------------------------------------
+
+# Sample: https://trustwallet.com.loginfn.cc/public/index.html
+/\.com\.[a-z]{5,15}\.cc\//i
