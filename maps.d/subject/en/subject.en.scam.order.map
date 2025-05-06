@@ -19,6 +19,7 @@
 # ==============================================================================
 
 # A
+/about your offerings/i
 
 # B
 /(brochure|catalog|catalogue).{1,10}request/i
@@ -46,9 +47,11 @@
 /inquiry [a-z]{3,15}@/i
 
 /inquiry.?order/i
+
 /inquiry.{1,10}investment/i
 /inquiry.{1,15}about your products/i
 /inquiry.{1,10}urgent procurement/i
+/inquiry.{1,10}your products/i
 
 /invitation to tender/i
 

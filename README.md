@@ -93,6 +93,7 @@ body
   │   ├─ body.de.phishing.greetings.map           │
   │   ├─ body.de.phishing.malware.map             ├─ multimap.body.phishing.conf
   │   ├─ body.de.phishing.parcel.map              │
+  │   ├─ body.de.phishing.password.map            │
   │   ├─ body.de.phishing.payment.map             │
   │   ├─ body.de.phishing.rewards.map             │
   │   ├─ body.de.phishing.subscription.map        │
@@ -156,6 +157,7 @@ subject
   │   ├─ subject.de.phishing.greetings.map  *     │
   │   ├─ subject.de.phishing.malware.map          ├─ multimap.subject.phishing.conf
   │   ├─ subject.de.phishing.parcel.map           │
+  │   ├─ subject.de.phishing.password.map         │
   │   ├─ subject.de.phishing.payment.map          │
   │   ├─ subject.de.phishing.rewards.map          │
   │   ├─ subject.de.phishing.subscription.map     │
