@@ -59,6 +59,8 @@
 
 /(get found|guaranteed|top rank(ing)?).{1,10}(bing|google|yahoo)/i
 
+/get traffic.{1,10}autopilot/i
+
 /google.{1,10}keyword ranking/i
 /google.?s top/i
 
@@ -70,6 +72,7 @@
 # H
 /((home)?page|(web)?site).{1,10}seo/i
 /((home)?page|(web)?site).{1,10}(bing|google|yahoo)/i
+/((home)?page|(web)?site).{1,10}get traffic/i
 
 # I
 
