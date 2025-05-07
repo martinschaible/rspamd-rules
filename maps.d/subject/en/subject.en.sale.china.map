@@ -185,6 +185,8 @@
 /quotation of.{1,10}(multilayer)?.{1,10}(pcba?|printed.?circuit.?board)/i
 
 # R
+/reliable (pcba?|printed.?circuit.?board).{1,10}supplier/i
+
 /rfq.{1,15}(injection|moulding|plastic)/i
 
 # S

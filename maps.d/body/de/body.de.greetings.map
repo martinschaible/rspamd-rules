@@ -98,12 +98,10 @@
 /hallo.{1,10}ihre e?.?mail.?adresse wurde/i
 /hallo.{1,10}ihr paket mit der/i
 
-/hallo.{1,10}kunde/i
+/hallo.{1,10}(kunde|kundin)/i
 
 /hallo.{1,10}mein lieber.{1,10}ich heiße/i
-
 /hallo.{1,10}sehr geehrter kunde/i
-
 /hallo.{1,10}wenn sie finanzielle/i
 
 # Used for ransom attacks 
@@ -114,6 +112,7 @@
 
 # Phishing
 /hallo.{1,10}im anhang finden sie die rechnung/i
+/hallo.{1,10}uns ist ein ungewöhnlicher/iu
 
 /hallo.{1,10}wir haben.{1,10}einen verdächtigen/iu
 /hallo.{1,10}wir haben.{1,10}einen anmeldeversuch/i
