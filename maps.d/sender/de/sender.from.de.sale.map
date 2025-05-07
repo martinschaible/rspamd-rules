@@ -51,6 +51,8 @@
 # F
 /(fahnen|flaggen).{0,10}online/i
 
+/fett{0,10}löser/i
+
 /frische.{0,10}luft/i
 
 # G
@@ -115,6 +117,8 @@
 /reisen sie.{1,15}welt/i
 
 # S
+/schlaf.{0,10}frei/i
+
 /(sauberlauf|schmutzfang).{0,10}matten?/i
 /(lager|schwerlast).{0,10}regale?/i
 
@@ -127,8 +131,10 @@
 
 /soh?le.{0,10}boost/i
 
-/sprach.?(genie|ki|meister|tool)/i
+/sprache?.?(frei|genie|ki|klick|meister|plus|tool)/i
 /sprechen.{0,10}(direkt|echtzeit|jetzt|lotse)/i
+
+/stille.{0,10}plus/i
 
 # T
 /tarife?.{0,10}vergleichen/i
