@@ -39,6 +39,7 @@
 # C
 
 # D
+/direkt.?sprach/i
 
 # E
 /(e.?bike|elektro.?moped).{0,10}(hersteller|verkauf|vertrieb)/i
@@ -51,7 +52,7 @@
 # F
 /(fahnen|flaggen).{0,10}online/i
 
-/fett{0,10}löser/i
+/fett.{0,10}löser/i
 
 /frische.{0,10}luft/i
 
@@ -94,6 +95,7 @@
 /künstliche.{0,10}intelligenz/i
 
 # L
+/lauf.?sanft/i
 /led.?(meister|profi)/i
 
 # M
@@ -134,6 +136,7 @@
 /sprache?n?.?(app|frei|genie|ki|klick|meister|plus|tool)/i
 /sprechen.{0,10}(direkt|echtzeit|jetzt|lotse)/i
 
+/stark.?(bewegen|gehen)/i
 /stille.{0,10}plus/i
 
 # T
