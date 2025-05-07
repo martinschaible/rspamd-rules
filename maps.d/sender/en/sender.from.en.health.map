@@ -318,6 +318,8 @@
 
 /bp.?drugs/i
 
+/botox.{0,10}alternative/i
+
 /bulging.{0,10}discs/i
 /burn.{0,10}(boost|calories)/i
 /(buzzing|hissing).{0,10}ears/i
@@ -629,6 +631,7 @@
 /pins.{0,10}needles/i
 
 /pleasure.{0,10}(centers?|fix|hack|points?|unlock)/i
+/potent.{0,10}drink/i
 /pooch.{0,10}belly/i
 /poop.{0,10}(stuck|type)/i
 /poor.{0,10}(balance|posture)/i

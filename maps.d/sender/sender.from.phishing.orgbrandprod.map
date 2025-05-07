@@ -175,7 +175,7 @@
 
 /\.(ch|de) cpanel/i
 /^cpanel$/i
-/cpanel.{0,10}(service|team)/i
+/cpanel.{0,10}(server|service|team)/i
 
 # D
 # ------------------------------------------------------------------------------
@@ -513,6 +513,8 @@
 /sbi証券/i
 
 /schweizer.?post/i
+
+/server.?\|/i
 
 /service.?center.?ard.?zdf/i
 /secretary.{0,5}treasury/i

@@ -147,6 +147,8 @@
 /(molds?|moulds).{1,10}(maker|construction|in stock)/i
 /(molds?|moulds).{1,10}plastic parts/i
 
+/molex supplier/i
+
 # N
 /new product catalog/i
 
@@ -221,6 +223,7 @@
 /you still producing/i
 
 /your (current|future|loyal|reliable).{1,15}(partner|supplier)/i
+/your trusted source for
 
 /your.{1,15}pcba?.{1,20}partner/i
 /your.{1,15}plastic.?mould/i

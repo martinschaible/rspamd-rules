@@ -58,6 +58,7 @@
 
 # G
 /genau hinschauen/i
+/global.{0,10}sprache/i
 
 # H
 /haus.{0,10}schützer/iu
@@ -154,7 +155,7 @@
 
 # V
 /versand.{0,10}gratis/i
-/verstehen.{0,10}sprechen/i
+/verstehen.{0,10}(pro|sprechen)/i
 # W
 
 /(wifi|wlan).{0,15}(connection|team)/i

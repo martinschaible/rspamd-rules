@@ -106,6 +106,7 @@
 /after trying this/i
 
 /ageless.{1,10}(glow|skin)/i
+/aging your skin/i
 
 /alleviate.{1,10}joint.?pain/i
 /alzheimer.{1,15}(take this|trigger)/i
@@ -146,10 +147,11 @@
 /bizarre spice/i
 
 /(burn|drop|erase|lose|melt|shed).{1,10}(belly|more).?(fat|flab)/i
-/(burn|drop|erasel|ose|melt|shed).{1,10}(lbs|pounds|weight)/i
+/(burn|drop|erase|lose|melt|shed).{1,10}(lbs|pounds|weight)/i
 /(burn|drop|erase|lose|melt|shed).{1,10}fat.{1,15}(activate|easily|exercise|fast|with this|without)/i
 /(burn|drop|erase|lose|melt|shed).{1,10}fat.{1,15}scientists/i
 /(burn|drop|erase|lose|melt|shed).{1,10}fat.{1,10}while you/i
+/(burn|drop|erase|lose|melt|shed).{1,10}up to.{1,10}(lbs|pounds|weight)/i
 
 /bladder leaks/i
 
@@ -388,6 +390,8 @@
 /kills.{1,10}(pain|tinnitus)/i
 
 # L
+/(lbs|pounds|weight) of fat/i
+
 /life.?changing.{1,10}video/i
 /liver is in.{1,10}danger/i
 

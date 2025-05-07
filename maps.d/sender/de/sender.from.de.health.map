@@ -59,7 +59,7 @@
 /flacher.{0,10}bauch/i
 
 /fit.{0,10}(maker|pro|trainer)/i
-/(fuss|fuß).{0,10}(pflaster|pro)/iu
+/(fuss|fuß).{0,10}(pflaster|power|pro)/iu
 
 # G
 /gelenk.{0,10}(gesundheit|pflege)/i
@@ -90,7 +90,7 @@
 /kopf.?stark/i
 # L
 /leber.{0,10}detox/i
-/leise.{0,10}(nächte|schlafen)/iu
+/leise.{0,10}(nächte|schlafen|welt)/iu
 
 # M
 /mag.{0,10}boost/i
@@ -117,7 +117,7 @@
 
 # R
 /reduzieren sie.{1,15}fett/i
-/ruhe.{1,15}nacht/i
+/ruhe.{0,15}(deal|nacht)/i
 /(ruhige|stille).{0,10}(nächte|schlafzimmer)/i
 
 # S
@@ -125,12 +125,14 @@
 
 /schlank.{0,10}boostrer/i
 /schmerzen in/i
+/schnarch.{0,10}(hilfe|weg)/i
+
 /schöne.{0,10}(nägel|zähne)/iu
 
 /sex.{0,10}produkt/i
 
 /starten sie/i
-
+/stille.{0,10}plus/i
 # T
 /tipps von/i
 # U
