@@ -29,6 +29,7 @@
 
 /#1 (hack|ritual|secret|solution|trick) to/i
 
+/(hack|ritual|secret|solution|trick).{1,10}actually works/i
 /(hack|ritual|secret|solution|trick).{1,10}changes everything/i
 /(hack|ritual|secret|solution|trick).{1,10}(extends|reverse|shocks)/i
 /(hack|ritual|secret|solution|trick).{1,10}that could (change|unlock)/i
@@ -234,7 +235,7 @@
 
 /doctor has the.{1,10}answer/i
 /doctor reveals/i
-/doctors?.{1,10}recommend/i
+/doctors?.{1,10}(recommend|stunned)/i
 
 /does to joint pain/i
 
@@ -427,6 +428,7 @@
 
 /nails in just/i
 
+/natural.{1,10}tinnitus/i
 /natural.{1,10}remedy inside/i
 /natural.{1,10}way.{1,10}relieve/i
 /natural.{1,10}weight.?loss/i

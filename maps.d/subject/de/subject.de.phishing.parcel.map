@@ -87,6 +87,8 @@
 /ihr paket ist da/i
 
 /ihr paket wird (versendet|zugestellt)/i
+
+/ihre paketinformation(en)?/i
 /ihre? ausstehendes?.{1,10}(lieferung|paket|sendung)/i
 
 /ihre?.{1,10}(lieferung|paket|sendung).{1,10}wartet/i
