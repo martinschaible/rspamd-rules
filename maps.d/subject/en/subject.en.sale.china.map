@@ -95,13 +95,14 @@
 
 # G
 /good.{1,10}pcba?.?supplier/i
-/good quality.{1,10} pcba?/i
+
+/(good|high).?quality.{1,10}chinese/i
+/(good|high).?quality.{1,10}(pcba?|printed.?circuit.?board)/i
 
 # H
 /help increasing in.{1,15}market/i
 
 /high performance.{1,20}solution/i
-/high quality chinese/i
 
 # I
 /ic microchip request/i
