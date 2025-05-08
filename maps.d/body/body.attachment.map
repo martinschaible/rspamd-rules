@@ -112,6 +112,7 @@
 
 /r\.?f\.?q.{0,15}our ref(erence)?/i
 
+/statement.{0,10}account/i
 /stock.{0,10}offer/i
 /swift.{0,10}(message|transaction)/i
 

@@ -47,8 +47,9 @@
 # H
 
 # I
-
 /(confirm|if|is|response).{1,10}(the|this|your).{1,10}e?.?mail.{1,15}still (active|valid)/i
+
+/i apologize for.{1,10}long message/i
 
 /(if|is) this is your.{1,15}e?.?mail/i
 /if you still use this.{1,10}e?.?mail/i
