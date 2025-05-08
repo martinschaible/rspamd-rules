@@ -260,7 +260,7 @@
 /aging.{0,10}reverse
 
 /alignment.{0,10}fix/i
-/allergy.{0,10}sufferers/i
+/allergy.{0,10}(medication|sufferers)/i
 /ancient.{0,20}(enzyme|ritual|wellness|wine)/i
 /(anti|fight|stop).{0,10}snoring/i
 /anti.{0,10}(fungal|fungus|wrinkle)/i
@@ -429,7 +429,7 @@
 /extend.{0,10}(life|reveals)/i
 
 /evil.{0,10}fruits?/i
-/eye.{0,10}(cell|check|exercise|surgery)/i
+/eye.{0,10}(cell|check|exercise|surgery|trick)/i
 
 # F
 /fasting.{0,10}seeds/i
@@ -709,7 +709,7 @@
 /silence.{0,10}(buzzing|pain)/i
 /silent.{0,10}danger/i
 
-/sleep.{0,10}(hack|position)/i
+/sleep.{0,10}(discovery|hack|position)/i
 /slim.{0,10}diet/i
 
 /(slim|skinny).{0,10}waist/i

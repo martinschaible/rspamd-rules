@@ -17,7 +17,7 @@
 /(ancient|at.?home|daily|day|easy|gummy|hidden).{1,15}(fix|hack|ritual|secret|solution|trick)/i
 /(little.?known|minute|odd|second).{1,15}(fix|hack|ritual|secret|solution|trick)/i
 
-/(\d.?second|shocking|japanese).{1,10}(fix|hack|ritual|secret|trick)/i
+/(\d.?second|shocking|japanese).{1,10}(discovery|fix|hack|ritual|secret|trick)/i
 
 /(secret|simple|unusual).{1,10}(hack|ritual|solution|trick).{1,15}(activate|erases|needs|reverses|trusted|to end)/i
 
@@ -651,6 +651,7 @@
 # W
 /watch.{1,10}before they delete/i
 
+/want to sleep/i
 /wants.{1,10}burn fat/i
 /weird.{1,10}(remedy|stretch)/i
 

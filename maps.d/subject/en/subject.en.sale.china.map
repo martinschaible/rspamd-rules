@@ -132,9 +132,11 @@
 /machinery parts tailor/i
 
 /magnet manufacturer?/i
+
 /many years.{1,10}oem/i
 
-/manufacturer of.{5,25}since/i
+/manufacturers?.{1,10}looking.{1,10}cooperation/i
+/manufacturers?.{5,25}since/i
 
 /materials.{1,10}suppliers/i
 /microchip.{1,10}parts request/i
@@ -175,7 +177,7 @@
 /(pcba?|printed.?circuit.?board).{1,10}supply chain/i
 
 /plastic.?injection.{1,10}mould.?maker/i
-/plastic.?mold.{1,10}(making|solution)/i
+/plastic.?mold.{1,10}(making|quotation|solution)/i
 /plastic.?tooling.{1,10}services?/i
 
 /product.{1,10}machining service/i
