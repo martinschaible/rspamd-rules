@@ -20,13 +20,9 @@
 /\.gov\.ru/i
 /\.ru\.com/i
 
-/\.(biz|co|or)\.id$/i
-
 # The exotic ones
-/\.(agency|cam|chat|fun|work|xyz)$/i
-
-# 08.04.25
-/\.top$/i
+/\.(agency|cam|chat|fun|top|work|xyz)$/i
+/\.(biz|co|or)\.id$/i
 
 # Health
 # ------------------------------------------------------------------------------
