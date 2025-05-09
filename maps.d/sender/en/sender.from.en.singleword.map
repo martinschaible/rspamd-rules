@@ -27,6 +27,13 @@
 /安全系统/i     # 25.12.24 "Safety System"
 /セゾンカード/i   # 27.12.24 "Saison Card"
 
+# Titles
+# ------------------------------------------------------------------------------
+/^attorney/i
+/barrister/i
+/ceo\b/i
+/^miss\b/i
+
 #
 #
 #
@@ -52,14 +59,12 @@
 /antivirus$/i
 
 /attention/i
-/^attorney/i
 
 /avoid/i
 /award.?team/i
 
 # B
 /baldness/i
-/barrister/i
 /best.?seller/i
 
 /billionaire/i
@@ -80,8 +85,6 @@
 /cancer$/i
 /cardiovascular/i
 /cavities/i
-
-/ceo\b/i
 
 /cholesterol/i
 /circulation/i
@@ -197,8 +200,6 @@
 
 /migraine/i
 /milf$/i
-
-/^miss\b/i
 
 /mystery.?box/i
 

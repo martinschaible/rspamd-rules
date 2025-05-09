@@ -503,7 +503,8 @@
 /ṣbbcff/i
 /sbb.?cff$/i
 /sbb(.?cff.?ffs)?.{0,5}(kundenservice|konto|support)/i
-/sbb.?kundencenter/i
+/sbb.{0,5}kundencenter/i
+/sbb.{0,5}swisspass/i
 
 /sbbch/i
 /sbbcff/i

@@ -20,6 +20,15 @@
 # ==============================================================================
 /\|.?kunden/i
 
+# Titles
+# ------------------------------------------------------------------------------
+/apotheker/i
+
+/^dr\.?\b/i
+
+/^frau/i
+/^herr/i
+
 #
 #
 #
@@ -71,7 +80,6 @@
 /autoexport/i
 
 /^(apo|apotheke)$/i
-/apotheker/i
 
 /arsch.?luder/i
 
@@ -193,7 +201,6 @@
 /finanznachrichten/i
 /finanzrevolution/i
 
-/frau\b/i
 /freigeschaltet/i
 
 /freundschafts.?anfrage/i
@@ -243,6 +250,7 @@
 /gesundheitszentrum$/i
 
 /gewährt/iu
+/gewährleistungsteam/iu
 /gewichts?.?verlust/i
 
 /gewinner(in)?/i
@@ -279,8 +287,6 @@
 
 /heizungs.?team/i
 /helpcentrum/i
-/herr\b/i
-/^herr/i
 
 /hilfe.?center/i
 /hilfspersonal/i
@@ -484,7 +490,7 @@
 
 /rechnungss?telle/i
 /rechnung(en)/i
-/^rechtsanwalt/i
+#/^rechtsanwalt/i
 /reichtum/i
 /reinigungspartner/i
 

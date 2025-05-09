@@ -15,13 +15,16 @@
 # Senders pretending to be from the IT department
 # ------------------------------------------------------------------------------
 
-# TLD in front
+# TLD at the front
 /\.[a-z]{1,4}.{1,5}(admin$|administrator|helpdesk|security|server|support|update)/i
 /\.[a-z]{1,4}.{1,5}mail.?service/i
 /\.[a-z]{1,4}.{1,5}security.?center/i
 
 /\.[a-z]{1,4}.{1,5}support$/i
 /\.[a-z]{1,4}.{1,5}support.?team/i
+
+# TLD at the end
+/system.?administrator.{0,10}/\.[a-z]{1,4}^/i
 
 /\| system.?notification/i
 
