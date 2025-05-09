@@ -105,6 +105,8 @@
 
 /request.?quotation/i
 
+/request for.{1,25}pricing.{1,10}product/i
+
 /request.{1,10}quotation$/i
 /request.{1,10}quotation from/i
 /request.{1,10}quotation.{1,10}rfq/i

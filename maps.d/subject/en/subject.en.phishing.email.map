@@ -49,6 +49,7 @@
 # E
 /e?.?mail.{1,10}closure.{1,10}do not ignore/i
 /e?.?mail.{1,10}maintenance for/i
+/e?.?mail.{1,10}termination request/i
 /e?.?mail.{1,10}verification notice/i
 
 /(e?.?mail|message).{1,10}failure delivery notice/i

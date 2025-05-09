@@ -242,6 +242,7 @@
 
 /zustellung.{1,25}bestätigen sie/iu
 /zustellung.{1,25}(ausstehend|fehlgeschlagen)/i
+/zustellung.{1,10}(paket|sendung) wartet auf sie/i
 
 /zollabfertigung für.{1,10}(paket|sendung)/iu
 
