@@ -17,9 +17,10 @@ Before Rspamd, I used an older product called **Declude** as a spam filtering sy
 ## Installation
 The base is the file *multimaps.conf* in the folder `/etc/rspamd/local.d`. This file includes all configuration files of the map files. These files are located in the same folder and must also be copied to the server.
 
-The map files of the first generation begin with an underscore `_multimap....map` . The second generation does not have the leading underscore.
+The map files of the first generation begin with an underscore `_multimap....map`.
+The second generation does not have the leading underscore.
 
-Important: Both versions must be uploaded.
+Important: To be as effective as possible, both versions must be active until the migration is complete.
 
 Finally, the Rspamd service must be restarted
 
@@ -176,8 +177,9 @@ subject
   ├─ en
   │   └─ ....
   ├─ subject.health.medname.map                    - multimap.subject.health.conf
-  ├─ subject.orgbrandprod.map                      - multimap.subject.conf
-  └─ subject.special.map                           - multimap.subject.conf
+  ├─ subject.orgbrandprod.map                    ─┐
+  └─ subject.special.map                          ├─ multimap.subject.conf
+  └─ subject.special.emoji.map                   ─┘
 ```
 
 ### Setup for "body"
@@ -216,3 +218,9 @@ whitelist
 + -> "prefilter" is set
 
 Unfortunately, whitelisting with the prefilter option set doesn't work. I don't know why, and I can't find any help in the community. What a pity!
+
+## Tips and Tricks
+
+### Scoring
+If you want to increase or decrease a symbol's score, you can do so in the UI.
+Click "Symbols" in the menu, then find the desired symbol and change the score.
