@@ -2,6 +2,7 @@
 # Occasionally, spammers use strange and special paths in the URLs of images.
 # We check image tags for this bad stuff.
 #
+# This map works also to detect images file names.
 # ------------------------------------------------------------------------------
 # Language: -
 # Weight:   6.0
@@ -25,3 +26,9 @@
 
 # 14.04.25 - Sample: src="https://www.journeytrack.za.com/diqvdl/exbhxiwf19823qqcnirw/.jpg
 /\/\.(jpg|png)/i
+
+# Image names
+# ------------------------------------------------------------------------------
+
+# 10.05.25
+/\/wifi\.jpeg/j
