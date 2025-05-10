@@ -215,7 +215,9 @@ fettverbrenner/i
 
 /kooperation,/i
 
-/^kreditangebot$/i
+# Test
+/^.?kreditangebot.?$/i
+
 /kreditangebot.?(@|!|\?|-)/i
 
 /kreditkartenbenachrichtigung/i

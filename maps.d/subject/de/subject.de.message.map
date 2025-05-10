@@ -83,9 +83,10 @@
 
 /eingang meiner letzten (e?.?mail|nachricht)/i
 
-/e?.?mail.{1,10}erhalten.{1,10}rückmeldung/iu
-/e?.?mail.{1,10}(interesse geweckt|noch interesse)/i
-/e?.?mail.{1,10}sie gut findet/i
+/(e?.?mail|nachricht).{1,10}erhalten.{1,10}rückmeldung/iu
+/(e?.?mail|nachricht).{1,10}(interesse geweckt|noch interesse)/i
+/(e?.?mail|nachricht).{1,10}sie gut findet/i
+/(e?.?mail|nachricht).{1,10}(mrs\.|ms\.)/i
 
 /empfang der.{1,10}e?.?mail bestätigen/i
 /endgültige mitteilung/i
@@ -133,7 +134,7 @@
 # O
 
 # P
-
+/private nachricht für/iu
 # Q
 
 # R

@@ -32,6 +32,8 @@
 
 /for your attention/i
 
+/your urgent attention/i
+
 # Message
 # ------------------------------------------------------------------------------
 # Starts with a number
@@ -133,11 +135,10 @@
 # Y
 /you an e?.?mail.{1,10}did you get it/i
 
+/your attention!/i
 /you receive my (e?.?mail|message)/i
 /you (get|received?).{1,10}(last|previous).{1,10}(e?.?mail|message)/i
 
 /you receive the.{1,10}(e?.?mail|message)/i
-
-/your urgent attention/i
 
 # Z

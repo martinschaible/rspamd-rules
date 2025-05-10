@@ -496,7 +496,7 @@
 /hates it/i
 
 /healing.{0,10}(massage|technology)/i
-/healthy.{0,10}(choice(es)?|digest|habit|hair|smile)/i
+/healthy.{0,10}(choice(es)?|digest|habit|hair|liver|smile)/i
 
 /hearing.{0,10}problem/i
 /heart.{0,10}(attack|cells|danger|disease|health|helper|problems?|protection|risk)/i
@@ -686,8 +686,8 @@
 /rx.?pharma/i
 
 # S
-/safe.{1,10}foods?/i
-
+/safe.{0,10}foods?/i
+/salty.{0,10}drink/i
 /satisfaction.{0,10}solution/i
 /sciatica.{0,10}(fix|pain)/i
 
