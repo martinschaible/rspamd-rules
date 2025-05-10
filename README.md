@@ -34,9 +34,10 @@ The map files in the folder `/etc/rspamd/maps.d` do not need to be copied. **Rsp
 If I add new map files, the configuration files must be updated accordingly.
 These must then be manually copied to the Rspamd server and the Rspamd service must be restarted.
 
-| Date     | File                  | Reason              |
-| -------- | ----------------------| ------------------- |
-| 09.05.25 | multimap.subject.conf | New file for Emojis |
+| Date     | File                     | Reason              |
+| -------- | -------------------------| ------------------- |
+| 09.05.25 | multimap.subject.conf    | New file for Emojis |
+| 10.05.25 | All configuration files! | Splitted in DE and EN versions |
 
 ## Content
 All map files of the *first version* are in the folder `/etc/rspamd/maps.d`. The files of the *second edition* are stored in subfolders according to the topic.
