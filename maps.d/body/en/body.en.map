@@ -94,11 +94,16 @@
 /contact details.{1,10}your business/i
 /jet.?fan.?blower/i
 
+/seo.{1,10}needs.{1,15}improvement/i
+/seo.{1,15}saw that your (web)?site/i
+
 # Scam
 # ------------------------------------------------------------------------------
-
+/benefits?.{1,10}please get back/i
 /business proposal for you/i
+/donating.{1,10}million.{1,10}to you/i
 /has a.{1,15}business proposal/i
+/i have.{1,10}urgent.{1,10}opportunity/i
 
 # Donation
 /your.{1,10}e?.?mail.{1,20}(has been|was) (drawn|selected) for.{1,10}donation/i
