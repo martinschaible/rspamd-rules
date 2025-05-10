@@ -72,18 +72,23 @@
 
 # B
 /banken.{1,10}(geschockt|nicht wollen)/i
+/baut man.{1,10}vermögen/iu
 
 /bis zu.{1,10}\d{3,4}.{1,10}monatlich/i
 /bullenmarkt.{1,15}(nicht|verpassen)/i
 
 # C
+/code bringt.{1,10}geld/i
 
 # D
+/denken.{1,10}verdienen/i
 /dieses jahr reich zu werden/i
 
 # E
 /(es geht|einfach|garantiert|jetzt|methode|ohne scam).{1,20}reich werden/i
 
+/echte.{1,10}einnahmen/i
+/einfach war geld/i
 /einkommen.{1,10}reichtum/i
 
 /erklärt sein system/iu
@@ -98,6 +103,8 @@
 
 /geld machen mit/i
 /geld kostenlos/i
+/geld verdienen mit/i
+
 /generiert einkommen/i
 
 /grundeinkommen durch/i
@@ -131,6 +138,7 @@
 
 # N
 /neue goldrausch/i
+/neue technik.{1,10}geld/i
 
 # O
 /fangen sie an online.{1,10}zu verdienen/i
@@ -160,6 +168,8 @@
 
 /so verdienst du mit/i
 /stoppt live.?sendung/i
+
+/system sorgt für.{1,10}vermögen/iu
 
 # T
 

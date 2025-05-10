@@ -94,6 +94,7 @@
 /(ntv|rtl).?(finanzen|nachrichten)/i
 
 # O
+/output.{0,10}jetzt/i
 
 # P
 /private?.{0,10}finanzen/i
@@ -110,11 +111,13 @@
 /teuer.{0,10}verkaufen/i
 
 /top.?picks/i
+/trend.{0,10}signal/i
 
 # U
 /update lesen/i
 
 # V
+/verdienen.{0,10}(neu|sie)/i
 
 # W
 
