@@ -58,8 +58,9 @@
 /(aktualisieren|erneuern|prüfen).{1,10}ihre.{1,15}(adress|kontakt|zahlungs).?informationen/i
 
 /(aktualisieren?|bestätigen?).{1,10}(deine|sie).{1,10}(konto|sicherheits).?informationen/i
-/(aktualisieren?|bestätigen?).{1,10}sie ihre.{1,10}(angaben|identität|sicherheit|telefon.?nummer)/iu
-/(aktualisieren?|bestätigen?).{1,10}sie ihre.{1,20}(kontoidentität|verifizierung)/iu
+/(aktualisieren?|bestätigen?).{1,10}sie.{1,10}ihre.{1,10}(angaben|identität|sicherheit|telefon.?nummer)/iu
+/(aktualisieren?|bestätigen?).{1,10}sie.{1,10}ihre.{1,20}(kontoidentität|verifizierung)/iu
+/(aktualisieren?|bestätigen?).{1,10}sie.{1,10}ihren.{1,15}zugang/i
 
 /angaben jetzt vervollständigen/iu
 /anmeldeversuch.{1,10}bitte bestätigen sie/iu
@@ -186,6 +187,8 @@
 /letzte chance.{1,10}nutze deine punkte/i
 
 /letzte erinnerung \[/i
+
+/letzte erinnerung.{1,10}aktualisieren sie jetzt/i
 /letzte erinnerung.{1,20}ausstehenden lieferung/i
 /letzte erinnerung.{1,20}ihr.{1,15}speicher/i
 /letzte erinnerung.{1,10}ihre rechnung bei.{1,15}ist noch offen/i

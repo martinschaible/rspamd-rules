@@ -30,8 +30,8 @@
 /^urgents? please$/i
 /urgent respond needed/i
 
-/for your attention/i
-
+/for your.{1,10}attention/i
+/i need your.{1,10}attention/i
 /your urgent attention/i
 
 # Message
