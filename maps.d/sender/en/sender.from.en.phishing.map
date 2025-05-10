@@ -24,7 +24,7 @@
 /\.[a-z]{1,4}.{1,5}support.?team/i
 
 # TLD at the end
-/system.?administrator.{0,10}/\.[a-z]{1,4}^/i
+/system.?administrator.{0,10}/\.[a-z]{1,4}$/i
 
 /\| system.?notification/i
 
