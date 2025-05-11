@@ -78,6 +78,7 @@
 
 /^ace_/i
 
+/a\.dac/i
 /a.d.a.c/i
 /a\.d\.a\.c/i
 /a d a c/i
@@ -610,6 +611,8 @@
 
 /totalav.?(™|®|©)/i
 /touringclubsuisse/i
+
+/tractor.{0,10}supply/i
 
 /treasury.{0,10}department/i
 /ts cubic card/i

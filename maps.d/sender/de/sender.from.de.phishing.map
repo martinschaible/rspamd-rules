@@ -21,7 +21,7 @@
 # A
 
 # B
-/bank.{0,10}kreditkarte/i
+/(bank|goldene).{0,10}kreditkarte/i
 
 _[a-z].{0,15}box/i
 
@@ -65,7 +65,6 @@ _[a-z].{0,15}box/i
 /karte.?(™|®|©)$/i
 /krankenkassen?.{0,10}team/i
 
-/-kreditkarte/i
 /kreditkarten?.{0,10}banking/i
 
 /kurier.{0,10}agent/i
