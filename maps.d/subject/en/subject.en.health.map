@@ -199,7 +199,7 @@
 
 /culprid.{1,10}strokes?/i
 
-/cure.{1,10}neuropathy/i
+/cure.{1,10}(approved|fda|neuropathy)/i
 /cut heart attack/i
 
 # D
@@ -317,7 +317,7 @@
 /for.{1,10}weight.?loss/i
 
 /fruit that fights/i
-/fungus.{0,10}(fix|vanish)/i
+/fungus.{0,10}(cure|fix|vanish)/i
 
 # G
 /get.{1,15}thick hair/i
