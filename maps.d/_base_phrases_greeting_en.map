@@ -42,7 +42,6 @@
 
 /(dear|hello|hi).{1,15}(director|manager|purchaser|respected|supplier).{1,15}my name is/i
 
-/(dear|hello|hi).{1,10}congratulations/i
 /(dear|hello|hi).{1,10}director.{1,10}manager/i
 /(dear|hello|hi).{1,10}entrepreneur/i
 /(dear|hello|hi).{1,10}greetings.{1,10}i am.{5,25}manager/i
