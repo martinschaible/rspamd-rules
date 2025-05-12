@@ -31,9 +31,6 @@
 
 /(dringende?|wichtige?).{1,10}(angelegenheit|aufmerksamkeit|benachrichtigung|nachricht)/i
 
-# Phrase "Dringende Nachricht" is in use by E.ON Bank
-/wichtige.{1,10}nachricht/i
-
 # False/Positive 1x
 #/(dringend|wichtig)e?.{1,15}(information(en)?|info\b)/i
 /dringende?.{1,15}(erinnerung|mitteilung|nachricht\b)/i
@@ -41,7 +38,12 @@
 /ich habe eine.{1,10}wichtige information/i
 
 /nachricht wichtig/i
+
 /wichtig.{1,10}important/i
+
+# Phrase "Dringende Nachricht" is in use by E.ON Bank
+/wichtige.{1,10}nachricht/i
+
 
 /(sehr|wichtige).{1,10}dringende/i
 
@@ -65,6 +67,8 @@
 
 # A
 /auf meine.{1,15}e?.?mail/i
+/auf nachricht antworten/i
+
 
 # B
 /bestätigung.{1,15}(e?.?mail|nachricht).{0,10}eingangs? bitten/iu
