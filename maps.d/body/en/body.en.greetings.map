@@ -37,6 +37,8 @@
 /(dear|greetings?|good day|hello|hi\b).{1,5}(friend|madam|sir).{1,15}this e?.?mail is strictly/i
 /(dear|greetings?|good day|hello|hi\b).{1,5}(friend|madam|sir).{1,15}we are glad to introduce/i
 
+/(dear|greetings?|good day|hello|hi\b).{1,5}(friend|madam|sir).{1,15}find the attached/i
+
 /(dear|greetings?|good day|hello|hi\b).{1,15}(agency|beneficiary|engineer|manager|owner|purchasing)/i
 /(dear|greetings?|good day|hello|hi\b).{1,15}(domain.?name|site|web)/i
 /(dear|greetings?|good day|hello|hi\b).{1,15}(business|investment)/i

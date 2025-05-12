@@ -149,9 +149,9 @@
 
 /(burn|drop|erase|lose|melt|shed).{1,10}(belly|more|pounds).{1,10}(fat|flab)/i
 /(burn|drop|erase|lose|melt|shed).{1,10}(lbs|pounds|weight)/i
-/(burn|drop|erase|lose|melt|shed).{1,10}fat.{1,15}(activate|easily|exercise|fast|with this|without)/i
-/(burn|drop|erase|lose|melt|shed).{1,10}fat.{1,15}scientists/i
-/(burn|drop|erase|lose|melt|shed).{1,10}fat.{1,10}while you/i
+/(burn|drop|erase|lose|melt|shed).{1,10}fat.{1,15}(activate|easily|exercise|fast)/i
+/(burn|drop|erase|lose|melt|shed).{1,10}fat.{1,15}(overnight|scientists|while you|with this|without)/i
+
 /(burn|drop|erase|lose|melt|shed).{1,10}up to.{1,10}(lbs|pounds|weight)/i
 
 /bladder leaks/i
@@ -658,7 +658,7 @@
 
 /want to sleep/i
 /wants.{1,10}burn fat/i
-/weird.{1,10}(remedy|stretch)/i
+/weird.{1,10}(remedy|stretch|tonic)/i
 
 /with.{1,10}simple drink/i
 
