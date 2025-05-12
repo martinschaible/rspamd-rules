@@ -170,7 +170,6 @@ subject
   │   ├─ subject.de.phishing.alertaction.map      │
   │   ├─ subject.de.phishing.banking.map          │
   │   ├─ subject.de.phishing.email.map            │
-  │   ├─ subject.de.phishing.greetings.map  *     │
   │   ├─ subject.de.phishing.malware.map          ├─ multimap.subject.de.phishing.conf
   │   ├─ subject.de.phishing.parcel.map           │
   │   ├─ subject.de.phishing.password.map         │
@@ -194,6 +193,7 @@ subject
   └─ subject.special.map                          ├─ multimap.subject.conf
   └─ subject.special.emoji.map                   ─┘
 ```
+
 
 ### Setup for "whitelist"
 
