@@ -84,6 +84,7 @@
 /^po# \d{4,6}/i
 /po.?file via wetransfer/i
 
+/product.{1,10}(brochure|catalog|catalogue).{1,10}pricing/i
 /product.{1,10}(inquiry|pricing).{1,10}shipping/i
 /project.?inq no/i
 
@@ -98,9 +99,8 @@
 /quotation.{1,20}request.{1,10}processing/i
 
 # R
-/request.{1,10}company.{1,20}(brochure|catalog|catalogue)/i
+/request.{1,10}(company|products?).{1,20}(brochure|catalog|catalogue)/i
 /request.{1,10}for offer/i
-/request.{1,15}products.{1,10}catalogue/i
 /request.{1,10}update pricelist/i
 
 /request.?quotation/i
