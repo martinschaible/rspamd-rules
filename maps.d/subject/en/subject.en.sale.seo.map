@@ -59,6 +59,7 @@
 
 /(get found|guaranteed|top rank(ing)?).{1,10}(bing|google|yahoo)/i
 
+/get price\.?/i
 /get traffic.{1,10}autopilot/i
 
 /google.{1,10}keyword ranking/i

@@ -31,6 +31,7 @@
 
 # D
 /(dear|greetings?|good day|hello|hi\b).{1,5}(friend|madam|sir).{1,10}attached.{1,10}find/i
+/(dear|greetings?|good day|hello|hi\b).{1,5}(friend|madam|sir).{1,10}congratulations on/i
 /(dear|greetings?|good day|hello|hi\b).{1,5}(friend|madam|sir).{1,10}good day/i
 /(dear|greetings?|good day|hello|hi\b).{1,5}(friend|madam|sir).{1,15}in the (lord|name of)/i
 /(dear|greetings?|good day|hello|hi\b).{1,5}(friend|madam|sir).{1,15}this e?.?mail is strictly/i
