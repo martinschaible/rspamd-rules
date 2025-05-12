@@ -196,7 +196,7 @@
 /leitern?.{1,10}(leicht|handlich|professionell)/i
 
 # M
-/massage.?(sessel|stuhl|stühle).{1,15}(sessel|stuhl|stühle)/i
+/massage.{0,15}(büro|sessel|stuhl|stühle).{0,15}(sessel|stuhl|stühle)/iu
 
 /mehr halt.{1,10}mehr balance/i
 /mehr licht.{1,10}mehr/i
@@ -233,6 +233,7 @@
 /qualifizierte fachkräfte sofort/iu
 
 # R
+/rabatt auf.{1,10}(büro|massage).{0,5}stuhl/i
 /rechnungen um.{1,10}senken/i
 
 /(archiv|lager|schwerlast).?regale?/i
