@@ -6,6 +6,10 @@
 # Topics
 # ==============================================================================
 
+# Greetings
+# ------------------------------------------------------------------------------
+/hello.{1,10}there is.{1,10}unclaimed/i
+
 # People (Temporary)
 # ------------------------------------------------------------------------------
 /maria.?elisabeth schaeffler/i
@@ -35,6 +39,7 @@
 /atm department/i
 
 # B
+/beneficial sir/i
 /beneficiary.{1,15}(e?.?mail|final|fund|inquiry|notice|recover)/i
 
 /(attn|attention|congratulations|dear|fund|hello|my|valued|you).{1,20}beneficiary/i
@@ -113,6 +118,8 @@
 
 /inheritance.{1,10}(for|to) you/i
 /inheritance.{1,10}(matter|notice)/i
+
+/introduction.{1,10}proposal/i
 
 /internet crime complaint center/i
 
