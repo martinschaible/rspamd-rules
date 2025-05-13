@@ -86,9 +86,10 @@
 # I
 /immediate action required/i
 
-/important account (alert|update)/i
-/important e?.?mail.{1,10}do not ignore/i
-/important information.{1,15}your.{1,15}(account|profile)/i
+/important.{1,10}lose access.{1,15}account/i
+/important.{1,10}account (alert|update)/i
+/important.{1,10}e?.?mail.{1,10}do not ignore/i
+/important.{1,10}information.{1,15}your.{1,15}(account|profile)/i
 
 /important mailbox/i
 

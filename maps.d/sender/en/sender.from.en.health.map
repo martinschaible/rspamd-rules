@@ -499,8 +499,10 @@
 /healthy.{0,10}(choice(es)?|digest|habit|hair|liver|smile)/i
 
 /hearing.{0,10}problem/i
+
 /heart.{0,10}(attack|cells|danger|disease|health|helper|problems?|protection|risk)/i
 
+/hemorrhoids?.{0,10}pain/i
 /herpes.{0,10}(eliminator|outbreak|talk)/i
 
 /hidden.{0,10}(danger|power|protein|risk|ritual|toxin)/i
@@ -565,6 +567,7 @@
 
 /metabolism.{0,10}(boost(er)?|loophole|organ|unleash)/i
 
+/mexican.{0,10}salt/i
 /midnight.{0,10}bathroom/i
 
 /min.?stretch/i
@@ -773,7 +776,7 @@
 /tongue.{0,10}move/i
 
 /top.{0,10}(experts?|fruits|medication)/i
-/toxic.{0,10}(food|milk|mineral)/i
+/toxic.{0,10}(food|liquid|milk|mineral)/i
 /toxin.{0,10}(destroyer|flush|mineral|removal)/i
 /tropical.{0,10}(fruit|juice)/i
 

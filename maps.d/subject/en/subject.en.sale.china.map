@@ -39,6 +39,7 @@
 # ==============================================================================
 
 # A
+/ad.?parts.{1,10}request/i
 
 # B
 /(best|better) (price|quality) pcba?/i
@@ -83,6 +84,8 @@
 /^electronic components$/i
 
 /enhance your.{1,10}(pcba?|printed.?circuit.?board)/i
+
+/exclusive offer from/i
 /expert.{1,10}mold/i
 
 # F
@@ -189,7 +192,7 @@
 
 # R
 /reliable.{1,10}(pcba?|printed.?circuit.?board).{1,10}(partners?|suppliers?)/i
-/reliable.{1,15}(cnc|manufacturing|scaffolding).{1,10}(partners?|suppliers?)/i/i
+/reliable.{1,15}(cnc|manufacturing|scaffolding).{1,10}(partners?|suppliers?)/i
 
 /rfq.{1,15}(injection|moulding|plastic)/i
 
@@ -233,6 +236,7 @@
 
 /your.{1,15}pcba?.{1,20}partner/i
 /your.{1,15}plastic.?mould/i
+/your.{1,10}reliable alternative/i
 /your.{1,15}successful partner/i
 
 /your trustworth pcba?/i

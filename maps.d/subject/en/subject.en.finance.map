@@ -84,8 +84,8 @@
 /loan.{1,10}debt.{1,10}financing/i
 /loan.{1,10}for.{1,15}(business|projects)/i
 
-/loan package for/i
-/loan within.{1,10}hours/i
+/loans?.{1,10}(package|partner)/i
+/loans?.{1,10}within.{1,10}hours/i
 
 /^loans? offer/i
 
@@ -130,6 +130,7 @@
 # X
 
 # Y
+/you need.{1,10}urgent.{1,10}(financing|loan)/i
 /you with.{1,10}(financing|loan)/i
 /your business.{1,10}approved/i
 
