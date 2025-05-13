@@ -20,6 +20,7 @@
 # C
 
 # D
+/(donating|donation).{1,10}million.{1,10}to you/i
 
 # E
 
@@ -62,5 +63,7 @@
 # X
 
 # Y
+/your.{1,10}e?.?mail.{1,20}(has been|was) (drawn|selected) for.{1,10}donation/i
+/your.{1,10}e?.?mail.{1,20}won.{1,10}donation/i
 
 # Z

@@ -14,20 +14,27 @@
 # ==============================================================================
 
 # A
+/ausgewählt.{1,10}antworten sie.{1,10}e?.?mail an/iu
 
 # B
+/betrag von.{1,20}(dollar|euro?|gbp|usd|€|\$|£).{1,10}wurde ihnen/i
 
 # C
 
 # D
+/(dollar|euro?|gbp|usd|€|\$|£).{1,10}wurden (an sie|ihnen) gespendet/i
 
 # E
 
 # F
 
 # G
+/gespendet.{1,10}antworten sie für weitere informationen/iu
+/gespendet.{1,10}weitere informationen.{1,10}(kontaktieren sie|wenden sie sich)/i
 
 # H
+/hat ihnen.{1,20}(dollar|euro?|gbp|usd|€|\$|£).{1,10}gespendet/i
+/hat ihnen.{1,20}millionen.{1,10}gespendet/i
 
 # I
 

@@ -6,6 +6,28 @@
 # Topics
 # ==============================================================================
 
+# Beneficiary
+# ------------------------------------------------------------------------------
+
+# Comparing price for solar energy at home
+# ------------------------------------------------------------------------------
+# -> They are stealing personal information
+
+/förderung(en).{1,10}(anzeigen|berechnen)/iu
+/(photo.?voltaik|pv|solar).?anlage.{1,10}jetzt \d{2}.{1,10}günstiger/iu
+
+# Comparing price for bank accounts
+# ------------------------------------------------------------------------------
+# -> They are stealing personal information
+/jetzt zinsvergleich starten/i
+
+# Comparing investments
+# ------------------------------------------------------------------------------
+# -> They are stealing personal information
+
+# Business register
+# ------------------------------------------------------------------------------
+
 #
 #
 #
@@ -58,6 +80,7 @@
 # V
 
 # W
+/wir haben einen nicht.{1,10}(beanspruchten|eingeforderten).{1,10}betrag/i
 
 # X
 
