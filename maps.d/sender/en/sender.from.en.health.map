@@ -303,7 +303,7 @@
 /bloat.{0,10}(free|solution)/i
 /blood.{0,10}(clots?|flow|glucose|pressure|solution|sugar)/i
 
-/blue.{0,10}(juice|pill|plant|replacement)/i
+/blue.{0,10}(drink|juice|pill|plant|replacement)/i
 /blurry.{0,10}fix/i
 
 /(breathe|breathing).{0,10}(better|clearer|easier|easy)/i
@@ -419,6 +419,7 @@
 /end.{0,10}type.{0,10}2/i
 
 /energy.{0,10}without/i
+/enhanced.{0,10}recall/i
 
 /erase.{0,10}fat/i
 /(exotic|kitchen).{0,10}spice/i

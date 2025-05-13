@@ -29,13 +29,14 @@
 /box.?set wartet auf sie/i
 
 # Apple
-/(airpods|apple|ipad|iphone).{1,10}gehören jetzt ihnen/i
+/(airpods|apple|ipad|iphone|macbook).{1,10}gehören jetzt ihnen/i
+/(airpods|apple|ipad|iphone|macbook).{1,10}wartet auf dich/i
 
-/gratulation.{1,10}(airpods|apple|ipad|iphone)/i
-/holen sie sich.{1,10}(airpods|apple|ipad|iphone)/i
+/gratulation.{1,10}(airpods|apple|ipad|iphone|macbook)/i
+/holen sie sich.{1,10}(airpods|apple|ipad|iphone|macbook)/i
 
-/sichern sie sich.{1,15}(airpods|apple|ipad|iphone)/i
-/sie haben ein.{1,10}(airpods|apple|ipad|iphone)/i
+/sichern sie sich.{1,15}(airpods|apple|ipad|iphone)|macbook/i
+/sie haben ein.{1,10}(airpods|apple|ipad|iphone|macbook)/i
 
 #
 #

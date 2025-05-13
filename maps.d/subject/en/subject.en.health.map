@@ -148,7 +148,7 @@
 /bizarre spice/i
 
 /(burn|drop|erase|lose|melt|shed).{1,10}(belly|more|pounds).{1,10}(fat|flab)/i
-/(burn|drop|erase|lose|melt|shed).{1,10}(lbs|pounds|weight)/i
+/(burn|drop|erase|lose|melt|shed).{1,10}(inches|lbs|pounds|weight)/i
 /(burn|drop|erase|lose|melt|shed).{1,10}fat.{1,15}(activate|easily|exercise|fast)/i
 /(burn|drop|erase|lose|melt|shed).{1,10}fat.{1,15}(overnight|scientists|while you|with this|without)/i
 
@@ -248,6 +248,7 @@
 /drink this.{1,20}beverage/i
 /drink triggers/i
 
+/drink.{1,10}shed.{1,10}(inches|lbs|pounds|weight)/i
 /drink you must avoid/i
 
 /drops?.{1,10}(a1c|blood sugar)/i
