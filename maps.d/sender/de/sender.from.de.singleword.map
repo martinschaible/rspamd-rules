@@ -24,7 +24,8 @@
 # ------------------------------------------------------------------------------
 /apotheker/i
 
-/^dr\.?\b/i
+# Already covered by FROM_NAME_HAS_TITLE (1)
+#/^dr\.?\b/i
 
 /^frau/i
 /^herr/i
