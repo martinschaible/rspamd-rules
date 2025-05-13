@@ -265,7 +265,8 @@
 
 # T
 /\d{2,4}.{1,10}teiliges.{1,15}set/i
-/teiliges werkzeug.?set/i
+
+/teilige(n|s).{1,20}werkzeug.?(koffer|set)/i
 
 /teleskop.{1,10}profi.?leitern?/i
 /teleskop.{1,10}waschbürste/iu
@@ -295,10 +296,11 @@
 /werden sie zum sprachprofi/i
 /(werkstatt|werkzeug).{0,10}(trolley|wagen)/i
 
-/werkzeug.?set.{1,20}(für|mit|teilen)/i
-/werkzeug.?set.{1,20}jetzt sichern/i
+/werkzeug.?(koffer|set).{1,20}(für|mit|teilen)/i
+/werkzeug.?(koffer|set).{1,20}jetzt sichern/i
+/Werkzeug.?(koffer|set).{1,10}nur Heute/i
+
 /werkzeug.{1,10}(highlight|upgrade)/i
-/teilige(n|s).{1,20}werkzeug.?set/i
 
 /werkstatt.{1,15}in profi.?qualität/iu
 
