@@ -51,7 +51,7 @@
 
 /aktualisierung.{1,10}überprüfen sie/i
 
-/aktualisierung ihrer.{1,10}daten erforderlich/i
+/aktualisierung ihrer.{1,10}daten (erforderlich|notwendig)/i
 /aktualisierung ihrer.{1,10}telefonnummer/i
 /aktualisierung ihres.{1,10}profils empfohlen/i
 
@@ -237,7 +237,10 @@
 /sicherheitsbenachrichtigung.{1,10}bestätigen sie/iu
 /sicherheitshinweis.{1,10}ihr gerät benötigt/iu
 /sicherheitsmaßnahmen.{1,15}jetzt.{1,15}konto/i
+
+/sicherheitsüberprüfung.{1,10}aktualisierung ihrer/iu
 /sicherheitsüberprüfung.{1,10}steht aus/iu
+
 /sicherheitsupdate.{1,10}überprüfen sie ihr/i
 
 /sicherheitswarnung.{1,10}unbekannte anmeldung/i
@@ -262,6 +265,7 @@
 
 /update erforderlich/i
 /update.{1,15}(abonnement|kontosicherheit)/i
+/update.{1,10}app.?service.{1,10}erforderlich/i
 
 /überprüfen sie bestellung/i
 /überprüfen sie ihre.{1,15}daten jetzt/iu
