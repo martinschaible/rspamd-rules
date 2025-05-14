@@ -45,6 +45,7 @@
 # ------------------------------------------------------------------------------
 /(release|unlock|view).{1,10}(incoming|pending|suspended).{1,10}(e?.?mails?|messages?)/i
 
+/webmail.{1,10}dear/i
 /we notice you have not updated/i
 
 # Phishing Greetings
