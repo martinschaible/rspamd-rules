@@ -45,6 +45,7 @@ These must then be manually copied to the Rspamd server and the Rspamd service m
 |          | multimap.body.en.stocks.conf | New file                           |
 |          | _multimap_stocks.conf        | Old file deleted                   |
 |          | _multimap_winning.conf       | Old file deleted                   |
+| 14.05.25 | multimap.whitelist.conf      | Three silly typos fixed            |
 
 ## Content
 All map files of the *first version* are in the folder `/etc/rspamd/maps.d`. The files of the *second edition* are stored in subfolders according to the topic.
