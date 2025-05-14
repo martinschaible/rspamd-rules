@@ -110,12 +110,18 @@ body
   │   ├─ body.de.phishing.email.map               │
   │   ├─ body.de.phishing.greetings.map           │
   │   ├─ body.de.phishing.malware.map             ├─ multimap.body.de.phishing.conf
-  │   ├─ body.de.phishing.parcel.map              │
+  │   ├─ body.de.phishing.parcel.map              │  (Not yet implemented)
   │   ├─ body.de.phishing.password.map            │
   │   ├─ body.de.phishing.payment.map             │
   │   ├─ body.de.phishing.rewards.map             │
   │   ├─ body.de.phishing.subscription.map        │
-  │   └─ body.de.phishing.survey.map             ─┘
+  │   ├─ body.de.phishing.survey.map             ─┘
+  │   │
+  │   ├─ body.de.scam.map                        ─┐
+  │   ├─ body.de.scam.bignumbers.map              │
+  │   ├─ body.de.scam.donations.map               ├─ multimap.body.de.scam.conf
+  │   ├─ body.de.scam.order.map                   │
+  │   └─ body.de.scam.winning.map                ─┘
   ├─ en
   │   └─ ....
   ├─ href
@@ -172,6 +178,7 @@ subject
   │   ├─ subject.de.finance.map                    - multimap.subject.de.finance.conf
   │   ├─ subject.de.gambling.map                   - multimap.subject.de.gambling.conf
   │   ├─ subject.de.health.map                     - multimap.subject.de.health.conf
+  │   │
   │   ├─ subject.de.phishing.map                 ─┐
   │   ├─ subject.de.phishing.account.map          │
   │   ├─ subject.de.phishing.alertaction.map      │
@@ -184,10 +191,12 @@ subject
   │   ├─ subject.de.phishing.rewards.map          │
   │   ├─ subject.de.phishing.subscription.map     │
   │   ├─ subject.de.phishing.survey.map          ─┘
+  │   │
   │   ├─ subject.de.sale.map                     ─┐
   │   ├─ subject.de.sale.app.map                  ├─ multimap.subject.de.sale.conf
   │   ├─ subject.de.sale.seo.map                  │
   │   ├─ subject.de.sale.website.map             ─┘
+  │   │
   │   ├─ subject.de.scam.map                     ─┐
   │   ├─ subject.de.scam.bignumbers.map           │
   │   ├─ subject.de.scam.donation.map             ├─ multimap.subject.de.scam.conf
