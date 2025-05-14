@@ -190,7 +190,8 @@
 /prototype manufacturer?/i
 
 # Q
-/quotation of.{1,10}(multilayer)?.{1,10}(pcba?|printed.?circuit.?board)/i
+/quotation.{1,15}(multilayer)?.{1,10}(pcba?|printed.?circuit.?board)/i
+/quotation.{1,15}injection mold/i
 
 # R
 /reliable.{1,10}(pcba?|printed.?circuit.?board).{1,10}(partners?|suppliers?)/i

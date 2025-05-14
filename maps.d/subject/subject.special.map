@@ -58,12 +58,14 @@
 # Three hyphens
 /---/i
 
-
 # Three stars
 /\*\*\*/i
 
 # Dots between charcater like this: Fi.n.a.n.z.i.e.r.u.n.g
 /\w\.\w\.\w\.\w\./i
+
+#
+/【.{5,15}】/i
 
 # Multiple special characters in silly combinations
 # ------------------------------------------------------------------------------
