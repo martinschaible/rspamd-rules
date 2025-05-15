@@ -40,6 +40,7 @@
 /car.{0,10}(repair|shield)/i
 
 /clean.{0,10}shower/i
+/clear.{0,10}road/i
 /comfort.{0,10}only/i
 
 # D
@@ -51,6 +52,7 @@
 /don.?t miss out/i
 /door.{0,10}(camera|ringer|training)/i
 
+/drive.{0,10}clear/i
 /drone.?x/i
 /(4k|8k|raptor|smarty?).{0,10}drone/i
 
@@ -123,7 +125,7 @@
 /luxury.?(collections?|watch(es)?)/i
 
 # M
-/mini.{0,10}(heater|jet)/i
+/mini.{0,10}(blower|heater|jet)/i
 
 /mobile.{0,10}photography/i
 

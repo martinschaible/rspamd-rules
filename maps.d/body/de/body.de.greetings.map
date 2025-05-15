@@ -67,6 +67,9 @@
 /guten (abend|morgen|tag).{1,10}wir möchten sie darüber informieren/iu
 /guten (abend|morgen|tag).{1,10}zum schutz ihres/i
 
+# Related to Malware
+/guten (abend|morgen|tag).{1,10}unser abonnent/i
+
 /guten hallo/i
 /grusse an dich/i
 
@@ -115,6 +118,7 @@
 /hallo verkehrsteilnehmer/i
 
 # Phishing
+/hallo.{1,10}bei einer überprüfung/iu
 /hallo.{1,10}im anhang finden sie die rechnung/i
 /hallo.{1,10}uns ist ein ungewöhnlicher/iu
 /hallo.{1,10}während einer systemanalyse/iu
