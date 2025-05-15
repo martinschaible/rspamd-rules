@@ -284,22 +284,6 @@
 
 /vorladung.{1,20}erfordernisse einer gerichtlichen/i
 
-# Swiss Pass
-# ------------------------------------------------------------------------------
-/sbb pass deaktiviert/i
-/sehr geehrter swiss.?pass.?kunde/i
-
-/swiss.?pass.{1,10}wartung wird/i
-/swiss.?pass.{1,10}service.{1,15}zu aktivieren/i
-/doppelabrechnung.{1,10}swisspass gibt/i
-
-/nicht möglich.{1,10}den swisspass/iu
-
-/(ihr|lhr).{1,10}pass ist.{1,15}(deaktiviert|nicht mehr gültig)/iu
-/(ihr|lhr).{1,10}swisspass.{1,10}aufgrund eines problems mit ihrem konto/i
-
-/sie ihr swisspass.?konto/i
-
 # Swiss Post
 # ------------------------------------------------------------------------------
 /rechnung zu ihrer postfach.?jahresmiete/i
