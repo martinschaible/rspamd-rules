@@ -94,6 +94,7 @@
 /important mailbox/i
 
 /important (notice|notification).{1,10}for.{1,15}@/i
+/important (notice|notification).{1,10}service renewal/i
 /important (notice|notification).{1,10}upgrade/i
 
 /important update.{1,15}@/i

@@ -64,6 +64,8 @@
 
 /funding.{1,10}business growth/i
 
+/for your.{1,10}business projects/i
+
 # G
 /get your.{1,10}loan/i
 
@@ -101,9 +103,9 @@
 /our loan offer/i
 
 # P
-/private loan company/i
+/private.{1,10}loan company/i
 
-/project (financing|loans?)/i
+/project.{1,10}(financing|loans?)/i
 
 # Q
 
@@ -113,7 +115,7 @@
 /smart financing.{1,15}growth/i
 
 # T
-/tailored financial solutions?/i
+/tailored financial.{1,10}(solutions?|Collaboration)/i
 
 # U
 /unlock potential with/i
@@ -132,6 +134,8 @@
 # Y
 /you need.{1,10}urgent.{1,10}(financing|loan)/i
 /you with.{1,10}(financing|loan)/i
+
+/your business.{1,10}with.{1,10}available/i
 /your business.{1,10}approved/i
 
 # Z
