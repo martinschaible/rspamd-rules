@@ -78,8 +78,8 @@ base
       ├─ base.body.img.path.map               *   │
       └─ base.body.img.shortener.map          *  ─┘
 lists
-  ├─ list.tld.map                             *    - multimap.base.body.href.conf
-  └─ list.url.shortener.map                   *    - multimap.base.body.href.conf
+  ├─ list.tld.map                             *  --- multimap.base.body.href.conf
+  └─ list.url.shortener.map                   *  --- multimap.base.body.href.conf
 ```
 
 * -> "one_shot" is set
@@ -141,22 +141,22 @@ Folder structure:
 ```
 sender
   ├─ de
-  │   ├─ sender.from.de.map                        - multimap.sender.de.conf 
-  │   ├─ sender.from.de.adult.map                  - multimap.sender.de.adult.conf
-  │   ├─ sender.from.de.finance.map                - multimap.sender.de.finance.conf
-  │   ├─ sender.from.de.gambling.map               - multimap.sender.de.gambling.conf
-  │   ├─ sender.from.de.health.map                 - multimap.sender.de.health.conf
-  │   ├─ sender.from.de.lottery.map                - multimap.sender.de.lottery.conf
-  │   ├─ sender.from.de.makemoney.map              - multimap.sender.de.makemoney.conf
-  │   ├─ sender.from.de.phishing.map               - multimap.sender.de.phishing.conf
-  │   ├─ sender.from.de.phishing.malware.map       - multimap.sender.de.phishing.malware.conf
-  │   ├─ sender.from.de.sale.map                   - multimap.sender.de.sale.conf
+  │   ├─ sender.from.de.map                      --- multimap.sender.de.conf 
+  │   ├─ sender.from.de.adult.map                --- multimap.sender.de.adult.conf
+  │   ├─ sender.from.de.finance.map              --- multimap.sender.de.finance.conf
+  │   ├─ sender.from.de.gambling.map             --- multimap.sender.de.gambling.conf
+  │   ├─ sender.from.de.health.map               --- multimap.sender.de.health.conf
+  │   ├─ sender.from.de.lottery.map              --- multimap.sender.de.lottery.conf
+  │   ├─ sender.from.de.makemoney.map            --- multimap.sender.de.makemoney.conf
+  │   ├─ sender.from.de.phishing.map             --- multimap.sender.de.phishing.conf
+  │   ├─ sender.from.de.phishing.malware.map     --- multimap.sender.de.phishing.malware.conf
+  │   ├─ sender.from.de.sale.map                 --- multimap.sender.de.sale.conf
   │   │
-  │   ├─ sender.from.de.singleword.map             - multimap.sender.de.conf
-  │   └─ sender.from.de.singleword.ucase.map       - multimap.sender.de.conf
+  │   ├─ sender.from.de.singleword.map           --- multimap.sender.de.conf
+  │   └─ sender.from.de.singleword.ucase.map     --- multimap.sender.de.conf
   ├─ en
   │   └─ ....
-  ├─ sender.from.phishing.orgbrandprod.map         - multimap.sender.phishing.conf
+  ├─ sender.from.phishing.orgbrandprod.map       --- multimap.sender.phishing.conf
   │
   ├─ sender.address.map                          ─┐
   ├─ sender.address.orgbrandprod.map              │
@@ -177,20 +177,21 @@ subject
   │   ├─ subject.de.singleword.map                │
   │   ├─ subject.de.singleword.ucase.map         ─┘
   │   │
-  │   ├─ subject.de.adult.map                      - multimap.subject.de.adult.conf
-  │   ├─ subject.de.finance.map                    - multimap.subject.de.finance.conf
-  │   ├─ subject.de.gambling.map                   - multimap.subject.de.gambling.conf
-  │   ├─ subject.de.health.map                     - multimap.subject.de.health.conf
+  │   ├─ subject.de.adult.map                    --- multimap.subject.de.adult.conf
+  │   ├─ subject.de.finance.map                  --- multimap.subject.de.finance.conf
+  │   ├─ subject.de.gambling.map                 --- multimap.subject.de.gambling.conf
+  │   ├─ subject.de.health.map                   --- multimap.subject.de.health.conf
   │   │
   │   ├─ subject.de.phishing.map                 ─┐
   │   ├─ subject.de.phishing.account.map          │
   │   ├─ subject.de.phishing.alertaction.map      │
   │   ├─ subject.de.phishing.banking.map          │
   │   ├─ subject.de.phishing.email.map            │
-  │   ├─ subject.de.phishing.malware.map          ├─ multimap.subject.de.phishing.conf
+  │   ├─ subject.de.phishing.malware.map          │
   │   ├─ subject.de.phishing.parcel.map           │
-  │   ├─ subject.de.phishing.password.map         │
+  │   ├─ subject.de.phishing.password.map         ├─ multimap.subject.de.phishing.conf
   │   ├─ subject.de.phishing.payment.map          │
+  │   ├─ subject.de.phishing.refund.map           │
   │   ├─ subject.de.phishing.rewards.map          │
   │   ├─ subject.de.phishing.subscription.map     │
   │   ├─ subject.de.phishing.survey.map          ─┘
@@ -207,7 +208,7 @@ subject
   │   └─ subject.de.scam.winning.map             ─┘
   ├─ en
   │   └─ ....
-  ├─ subject.health.medname.map                    - multimap.subject.health.conf
+  ├─ subject.health.medname.map                  --- multimap.subject.health.conf
   ├─ subject.orgbrandprod.map                    ─┐
   └─ subject.special.map                          ├─ multimap.subject.conf
   └─ subject.special.emoji.map                   ─┘
