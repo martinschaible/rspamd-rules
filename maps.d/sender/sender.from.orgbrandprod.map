@@ -11,7 +11,7 @@
 #                      - Masked entries are allowed
 #
 # ------------------------------------------------------------------------------
-# Language: german, english
+# Language: -
 # Weight:   6.0
 # ==============================================================================
 
@@ -56,8 +56,12 @@
 # G
 
 # H
-/heat.?guard/i                                  # Heatable vest
-/huusk/i                                        # Fake japanese knives
+
+# Heatable vest
+/heat.?guard/i
+
+# Fake japanese knives
+/huusk/i
 
 # I
 /ikea-/i
