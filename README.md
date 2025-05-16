@@ -244,7 +244,7 @@ If you want to increase or decrease a symbol's score, you can do so in the UI.
 Click "Symbols" in the menu, then find the desired symbol and change the score.
 
 Important
-* You can only change the scoring for a map file, or rather its icon, and not for a single rule.
+* You can only change the scoring for a map file, or rather its **symbol**, and **not for a single rule**.
 * The scoring for a single rule can be changed in the map file.
 
 ### Which rule has fired?
