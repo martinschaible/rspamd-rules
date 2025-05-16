@@ -30,13 +30,8 @@
 /uppsu@/i
 /sprayx/i
 
-/fat.?burning/i
-/keto/i
-
 # Phishing
 # ------------------------------------------------------------------------------
-# Japan
-/(amex|ana|epos|jcb|tepco|vpass)(-|_)(card|mail|net)/i
 
 # Pattern
 # ------------------------------------------------------------------------------
@@ -65,48 +60,28 @@
 # A
 /ab1infoa1/i
 
-/accounts\.nintendo\.com/i
-
-/adac_/i
-/aeon-(akbtt|bank|email)/i
-
 # 16.02.25
 /admin-email\./i
 
-# ANA Card
-/info\.ana-/i
-
-/amazon-/i
-/americanexpress-/i
-
 /angebot\@/i
-/apple-bank/i
-/\.apple-/i
-
-/aupay_/i
 
 # B
 /bc2infob2/i
 
 # C
-/card.?vpass/i
 /claim.?refund/i
-/cpanel-/i
 
 # D
-/dhl-cn/i
 
 # E
-/edeka@/i
-
-/elon.?musk/i
-
-/epos-card-/i
 
 #/e-service\./i
 
 # F
 /factory@/i
+
+/fat.?burning/i
+
 # G
 
 # H
@@ -118,7 +93,6 @@
 # K
 
 # L
-/lidl\.cc/i
 
 # M
 /mailxcg/i
@@ -127,16 +101,9 @@
 /mail.?swiss/i
 
 /meineapp/i
-/mastercard-/i
-
-/medicar-/i
 
 # N
 /nachricht@/i
-
-/netflix.?swiss/i
-
-/nexco\.co\.jp/i
 
 /_net/i
 
@@ -150,8 +117,6 @@
 # Sample: no-reply@jovial-napier.84-247-11-185.plesk.page>
 /\d{2,3}-\d{2,3}-\d{2,3}-\d{2,3}\.plesk\.page/i
 
-/psmbcarfd/i
-
 # Q
 
 # R
@@ -161,28 +126,13 @@
 
 /seo@/i
 /slim.?diet/i
-/smbc.?(card|email)/i
-
-/swisspost@/i
 
 # T
 /test.?paket/i
 
 # U
-# Sample: ups@googlegroups.com
-/ups@[a-z]{5,25}\.com/i
-
-/\.americanexpress.\/i
-
-/uuccard-/i
-/uc-card\./i
-
-/user\.viewcard/i
 
 # V
-/viewsnet-/i
-
-/volksbank-/i
 
 # W
 
