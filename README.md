@@ -46,6 +46,7 @@ These must then be manually copied to the Rspamd server and the Rspamd service m
 |          | _multimap_stocks.conf        | Old file deleted                   |
 |          | _multimap_winning.conf       | Old file deleted                   |
 | 14.05.25 | multimap.whitelist.conf      | Three silly typos fixed            |
+| 16.05.25 | multimap.sender.conf         | New map file added                 |
 
 ## Content
 All map files of the *first version* are in the folder `/etc/rspamd/maps.d`. The files of the *second edition* are stored in subfolders according to the topic.
@@ -158,8 +159,9 @@ sender
   ├─ sender.from.phishing.orgbrandprod.map         - multimap.sender.phishing.conf
   │
   ├─ sender.address.map                          ─┐
-  ├─ sender.from.orgbrandprod.map                 │
-  ├─ sender.from.people.map                       ├─ multimap.sender.conf
+  ├─ sender.address.orgbrandprod.map              │
+  ├─ sender.from.orgbrandprod.map                 ├─ multimap.sender.conf
+  ├─ sender.from.people.map                       │
   └─ sender.from.special.map                     ─┘
 ```
 
