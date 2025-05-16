@@ -1,0 +1,128 @@
+# ==============================================================================
+# Fake and fictitious email addresses are often used.
+#
+# In the scam and phishing area, spammers like to use names of well-known
+# companies or organisations.
+# 
+# These names are kept generic, fake and sometimes silly because the companies
+# and organisations usually have personalized senders.
+#
+# Allowed entries are: - Name of organisations
+#                      - Name of brands
+#                      - Name of products
+#                      - Masked entries are allowed
+#
+# ------------------------------------------------------------------------------
+# Language: -
+# Weight:   6.0
+# ==============================================================================
+
+# Topics
+# ==============================================================================
+
+# Phishing
+# ------------------------------------------------------------------------------
+
+# Japan
+/(amex|ana|epos|jcb|tepco|vpass)(-|_)(card|mail|net)/i
+
+#
+#
+#
+
+# Generic
+# ==============================================================================
+
+# A
+/accounts\.nintendo\.com/i
+
+/adac_/i
+/aeon-(akbtt|bank|email)/i
+
+# ANA Card
+/info\.ana-/i
+
+/amazon-/i
+/americanexpress-/i
+/\.americanexpress.\/i
+
+/apple-bank/i
+/\.apple-/i
+
+/aupay_/i
+
+# B
+
+# C
+/card.?vpass/i
+/cpanel-/i
+
+# D
+/dhl-cn/i
+
+# E
+/edeka@/i
+/elon.?musk/i
+/epos-card-/i
+
+# F
+
+# G
+
+# H
+
+# I
+
+# J
+
+# K
+/keto/i
+
+# L
+/lidl\.cc/i
+
+# M
+/mastercard-/i
+
+/medicar-/i
+
+# N
+/netflix.?swiss/i
+/nexco\.co\.jp/i
+
+# O
+
+# P
+/psmbcarfd/i
+
+# Q
+
+# R
+
+# S
+/smbc.?(card|email)/i
+
+/swisspost@/i
+
+# T
+
+# U
+# Sample: ups@googlegroups.com
+/ups@[a-z]{5,25}\.com/i
+
+/uuccard-/i
+/uc-card\./i
+
+/user\.viewcard/i
+
+# V
+/viewsnet-/i
+/volksbank-/i
+
+# W
+
+# X
+
+# Y
+
+# Z
