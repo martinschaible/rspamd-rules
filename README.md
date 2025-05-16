@@ -242,3 +242,24 @@ Unfortunately, whitelisting with the prefilter option set doesn't work. I don't 
 ### Scoring
 If you want to increase or decrease a symbol's score, you can do so in the UI.
 Click "Symbols" in the menu, then find the desired symbol and change the score.
+
+Important
+* You can only change the scoring for a map file, or rather its icon, and not for a single rule.
+* The scoring for a single rule can be changed in the map file.
+
+### Which rule has fired?
+Unfortunately, Rspamd is unable to log the rule(s) of a map file that fired.
+This complicates the whole process in case of an error.
+
+### Handling false/positives
+There's always a risk that an email will be mistakenly marked as spam.
+
+If a map file is to blame, I'm happy to change or remove a rule.
+My rules are designed specifically for German-speaking countries.
+Therefore, some phrases might be too strong for English-speaking countries.
+
+Open an issue and I'll be happy to resolve the issue.
+
+### When spam emails slip through
+Great! I love fresh spam! To create one or more rules, I need the complete, unaltered email.
+Send it to spamcop[ät]netfusion[döt]ch and add the word "SPAM" to the subject line.
