@@ -196,8 +196,12 @@
 /quotation.{1,15}injection mold/i
 
 # R
-/reliable.{1,10}(pcba?|printed.?circuit.?board).{1,10}(partners?|suppliers?)/i
-/reliable.{1,15}(cnc|manufacturing|scaffolding).{1,10}(partners?|suppliers?)/i
+/(reliable|truested).{1,15}(components|electronic).{1,15}(manufacturer|partners?|suppliers?)/i
+
+/(reliable|truested).{1,10}(pcba?|printed.?circuit.?board).{1,10}(manufacturer|partners?|suppliers?)/i
+/(reliable|truested).{1,15}(cnc|manufacturing|scaffolding).{1,10}(manufacturer|partners?|suppliers?)/i
+/(reliable|truested).{1,15}(manufacturer|partners?|suppliers?) (for|of)/i
+/(reliable|truested).{1,15}custom fabrication/i
 
 /rfq.{1,15}(injection|moulding|plastic)/i
 
@@ -215,9 +219,6 @@
 
 # T
 /trading co.{1,5}ltd/i
-
-/trusted.{1,15}custom fabrication/i
-/trusted.{1,15}(manufacturer|partner) (for|of)/i
 
 /trustworthy.{1,10}company/i
 

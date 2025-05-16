@@ -97,6 +97,7 @@
 /(dringende|erforderliche?).{1,10}aktion/i
 /(dringende|erforderliche?).{1,10}(sicherheits)?aktualisierung/i
 
+/(dringend|wichtig).{1,5}(aktion|aktualisierung) erforderlich/i
 /(dringend|wichtig).{1,10}aktualisierung ihrer/i
 /(dringend|wichtig).{1,10}ihnen entgehen/i
 /(dringend|wichtig).{1,10}registrieren sie sich/i
@@ -129,7 +130,7 @@
 # F
 /führen sie.{1,10}den legitimationsprozess/iu
 
-/letzte mitteilung.{1,10}fordern sie/u
+/frist für wichtige maßnahmen?/i
 
 # G
 
@@ -178,6 +179,7 @@
 
 # K
 /konto benötigt.{1,10}ihre.{1,10}aufmerksamkeit/iu
+/kontos?.{1,10}jetzt handeln/i
 /konto gesperrt.{1,10}jetzt reaktivieren/i
 
 /kritische systemmeldung.{1,10}jetzt prüfen/iu
@@ -203,6 +205,8 @@
 /letzte erinnerung.{1,10}zahlungsinformationen aktualisieren/i
 /letzte erinnerung.{1,10}zustimmung zur neuen/i
 
+/letzte mitteilung.{1,10}fordern sie/u
+
 /letzte warnung.{1,10}bestätigen sie ihr.{1,15}konto/iu
 /letzte warnung.{1,10}ihr.{1,15}konto/i
 /letzte warnung.{1,10}(dateien|verdächtige|vorladung)/iu
@@ -212,6 +216,7 @@
 /letzter.{1,10}versuch.{1,10}planen sie/i
 
 # M
+/maßnahme notwendig vor dem/i
 
 # N
 /nachricht.{1,10}bestätigen sie ihr.{1,15}konto/iu
@@ -286,11 +291,13 @@
 
 # W
 /wichtige?.{1,10}aktualisieren sie/i
+/wichtige?.{1,10}einschränkung ihres.{1,15}kontos/i
 /wichtige?.{1,10}erinnerung.{1,10}daten checken/i
 
 /wichtige?.{1,15}hinweis?.{1,10}bestätigen sie/iu
 /wichtige?.{1,15}hinweis?.{1,10}nachrichten warten/i
 /wichtige?.{1,15}hinweis?.{1,10}sperrung ihrer/i
+/wichtige?.{1,15}hinweis?.{1,10}zur datensicherheit/i
 
 #/wichtige?.{1,15}informationen/i
 /wichtige?.{1,15}information.{1,10}ihrer rechnung/i
@@ -311,7 +318,7 @@
 /wichtige?.{1,10}sicherheitsmaßnahme/i
 /wichtige?.{1,10}sicherheitsüberprüfung erforderlich/iu
 
-/wichtige?.{1,10}sicherheitswarnung.{1,10}ihrem konto/i
+/wichtige?.{1,10}sicherheitswarnung.{1,10}ihr(em)?.{1,15}konto/i
 /wichtige?.{1,10}sicherheitswarnung.{1,10}infizierte dateien/i
 
 /wichtige?.{1,10}update ihrer.{1,25}app/i
