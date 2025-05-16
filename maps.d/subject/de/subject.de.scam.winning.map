@@ -30,16 +30,20 @@
 /auszeichnung.{1,10}benachrichtigung/i
 
 # B
+/bestätigung erforderlich.{1,10}ihr.{1,25}gewinn/i
 
 # C
 
 # D
-/du bist der gewinner von heute/i
-/du bist ein gewinner/i
+/du bist der.{1,15}gewinner bei/i
+/du bist der.{1,10}gewinner von heute/i
+/du bist (ein|unser).{1,10}gewinner/i
 
 # E
 /endgultige.{1,10}notifikation/i
 /endgültige.{1,10}notifikation/iu
+
+/erhalten sie ihren.{1,15}gewinn/i
 
 # F
 /finale auszeichnung/i
@@ -47,12 +51,33 @@
 # G
 /(geehrter|liebe).{1,15}gewinner/i
 
-/gewinnerliste des.{10,35}ist hier/i
+/gewinn.{1,10}(lauft|läuft) bald ab/i
+/gewinn.{1,10}wartet auf die zustellung/i
+/gewinn.{1,10}zeitlich begrenzt(es)?/i
+
+/gewinne.{1,10}ein kostenloses/i
+
+/(gewinnen|gewinner).{1,10}brandneu(en)?/i
+
+/gewinnen sie ein.{1,20}(brandneuen|set.{1,10}auto|testpaket)/i
 
 /gewinnen sie!/i
+/gewinnen sie eine? kostenloses?/i
+
+/gewinnerliste des.{10,35}ist hier/i
+
 /gewinnende nummer/i
-/gewinner wurden enthüllt/iu
-/glückliche chance/iu
+
+/gewinner.{1,20}bekannt.?gegeben/i
+/gewinner.{1,10}enthüllt/iu
+/gewinner.{1,15}monatswettbewerbs/i
+/gewinner.{1,15}wöchentlichen wettbewerbs/i
+/gewinner.{1,10}wurden enthüllt/iu
+
+/gewonnen.{1,10}dein.{1,20}wartet/i
+/gewonnen(es)?.{1,20}von.{1,15}abholen/i
+
+/glückliche.{1,10}chance/iu
 
 /glückwunsch.{1,15}@/i
 /glückwunsch.{1,10}an unsere.{1,10}gewinner/iu
@@ -61,8 +86,14 @@
 # H
 
 # I
-/ihr gewinncode lautet/i
-/ihre chance zu gewinnen/i
+/ihr.{1,10}gewinn innerhalb von.{1,10}stunden erhalten/i
+/ihr.{1,10}gewinn wartet/i
+
+/ihr.{1,10}gewinncode lautet/i
+/ihre.{1,10}chance zu gewinnen/i
+
+/ihrem.{1,10}fantastischen gewinn/i
+/ihrem.{1,10}gewinn!/i
 
 # J
 
@@ -71,7 +102,7 @@
 # L
 /letzter gewinner/i
 
-/^Lotto Gewinn/i
+/^lotto gewinn/i
 
 # M
 
@@ -88,6 +119,8 @@
 # R
 
 # S
+/sehr geehrter? gewinner/i
+
 /sie gehören zu (den|unseren).{1,15}gewinnern/i
 
 /sie haben.{1,10}euro von.{5,25}gewonnen/i
@@ -96,16 +129,22 @@
 /sie haben bei.{1,15}gewonnen/i
 
 /sie sich die neue gewinnerliste/i
-/sie sind der.{1,15}gewinner/i
+
+/sie sind ein.{1,10}gewinner/i
 /sie sind einer der.{1,15}monatsgewinner/i
 
+/sie sind der.{1,15}gewinner/i
+
 # T
+/top.?gewinnern/i
 
 # U
 
 # V
 
 # W
+/wählen sie ihren gewinn/iu
+/wir haben einen gewinner.{1,10}du bist es/i
 
 # X
 
