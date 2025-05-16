@@ -36,10 +36,6 @@
 /aktivierung erforderlich n°/i
 /aktivitäten erkannt.{1,10}maßnahmen erforderlich/i
 
-/aktualisieren sie.{1,15}konto/i
-/aktualisieren sie.{1,15}sicherheit/i
-/aktualisieren sie.{1,10}ihre?.{1,15}(app|daten|informationen|kontoangaben|profil|zahlungsdaten)/i
-
 /aktualisierung erforderlich/i
 #/aktualisierung.{1,10}erforderlich.{1,20}konto.{1,10}(gesperrt|stillgelegt)/i
 
@@ -58,9 +54,13 @@
 /(aktualisieren|erneuern|prüfen).{1,10}ihre.{1,15}(adress|kontakt|zahlungs).?informationen/i
 
 /(aktualisieren?|bestätigen?).{1,10}(deine|sie).{1,10}(konto|sicherheits).?informationen/i
-/(aktualisieren?|bestätigen?).{1,10}sie.{1,10}ihre.{1,10}(angaben|identität|sicherheit|telefon.?nummer)/iu
-/(aktualisieren?|bestätigen?).{1,10}sie.{1,10}ihre.{1,20}(kontoidentität|verifizierung)/iu
+
+/(aktualisieren?|bestätigen?).{1,10}sie.{1,10}ihre?.{1,15}(angaben|app|daten|identität|informationen)/i
+/(aktualisieren?|bestätigen?).{1,10}sie.{1,10}ihre?.{1,10}(kontoangaben|kontoidentität|profil|sicherheit|telefon.?nummer)/iu
+/(aktualisieren?|bestätigen?).{1,10}sie.{1,10}ihre.{1,20}(verifizierung|zahlungsdaten)/iu
 /(aktualisieren?|bestätigen?).{1,10}sie.{1,10}ihren.{1,15}zugang/i
+
+/aktualisieren sie.{1,15}sicherheit/i
 
 /angaben jetzt vervollständigen/iu
 /anmeldeversuch.{1,10}bitte bestätigen sie/iu
@@ -82,8 +82,8 @@
 /bestätigung erforderlich.{1,10}(rück)?erstattung/i
 
 /bestätigen.?-.?#[a-z0-9]{4,10}/iu
-/bestätigen sie ihre adresse für den/iu
-/bestätigen sie ihre lieferdaten/iu
+/bestätigen sie ihre.{1,10}adresse für den/iu
+/bestätigen sie ihre.{1,10}lieferdaten/iu
 /bestätigen sie kurz/iu
 
 /betreff.{1,5}achtung/i
@@ -99,19 +99,22 @@
 
 /(dringend|wichtig).{1,5}(aktion|aktualisierung) erforderlich/i
 /(dringend|wichtig).{1,10}aktualisierung ihrer/i
+/(dringend|wichtig).{1,10}bestätigen sie ihre/iu
 /(dringend|wichtig).{1,10}ihnen entgehen/i
 /(dringend|wichtig).{1,10}registrieren sie sich/i
 /(dringend|wichtig).{1,10}sie verpassen/i
 /(dringend|wichtig).{1,10}ungewöhnliche aktivitäten/iu
 /(dringend|wichtig).{1,10}zahlungsdetails/i
 
-/(dringend|wichtig).{1,10}bestätigen sie ihre/iu
+/(dringende?|letzte|wichtige?).{1,10}mitteilung.{1,10}aktualisieren sie ihre/i
+/(dringende?|letzte|wichtige?).{1,10}mitteilung.{1,10}aktualisierung ihrer/i
+/(dringende?|letzte|wichtige?).{1,10}mitteilung.{1,10}fordern sie/u
 
-/(dringende?|wichtige?).{1,10}mitteilung.{1,10}aktualisieren sie ihre/i
-/(dringende?|wichtige?).{1,10}mitteilung.{1,10}aktualisierung ihrer/i
+/(dringende?|letzte|wichtige?).{1,10}mitteilung.{1,10}ihre.{1,15}rechnung/i
+/(dringende?|letzte|wichtige?).{1,10}mitteilung.{1,10}ihr.{1,15}speicherplatz/i
 
-/(dringende?|wichtige?).{1,10}mitteilung.{1,10}zoll.{1,10}steuerzahlung/i
-/(dringende?|wichtige?).{1,10}mitteilung.{1,10}zollgebühren/iu
+/(dringende?|letzte|wichtige?).{1,10}mitteilung.{1,10}zoll.{1,10}steuerzahlung/i
+/(dringende?|letzte|wichtige?).{1,10}mitteilung.{1,10}zollgebühren/iu
 
 /dringende information.{1,10}korrektur/i
 /dringender handlungsbedarf.{1,15}bank/i
@@ -205,8 +208,6 @@
 /letzte erinnerung.{1,10}zahlungsinformationen aktualisieren/i
 /letzte erinnerung.{1,10}zustimmung zur neuen/i
 
-/letzte mitteilung.{1,10}fordern sie/u
-
 /letzte warnung.{1,10}bestätigen sie ihr.{1,15}konto/iu
 /letzte warnung.{1,10}ihr.{1,15}konto/i
 /letzte warnung.{1,10}(dateien|verdächtige|vorladung)/iu
@@ -258,8 +259,6 @@
 /sicherheitswarnung.{1,10}unbekannte anmeldung/i
 /sicherheitswarnung.{1,10}verdächtige dateien/i
 
-/systemmitteilung.{1,10}jetzt sofort handeln/i
-
 /sofort handeln.{1,10}aktivieren sie ihre/i
 /sofort öffnen/iu
 
@@ -267,6 +266,8 @@
 /sofortiger zugriff empfohlen/i
 
 /swisspass.{1,10}überprüfen sie/iu
+
+/systemmitteilung.{1,10}jetzt sofort handeln/i
 
 # T
 
@@ -306,9 +307,6 @@
 /wichtige?.{1,15}kontofunktion(en)?/i
 /wichtige?.{1,15}kontowarnung/i
 /wichtige?.{1,15}(konto|profil).?informationen/i
-
-/wichtige?.{1,10}mitteilung.{1,10}ihre.{1,15}Rechnung/i
-/wichtige?.{1,10}mitteilung.{1,10}ihr.{1,15}speicherplatz/i
 
 /wichtige?.{1,10}registrierung.{1,10}mastercard/i
 
