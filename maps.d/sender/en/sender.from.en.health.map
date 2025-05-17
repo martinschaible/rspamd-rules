@@ -286,7 +286,7 @@
 
 /beauty.{0,10}(hack|secret)/i
 /bed.{0,10}(hack|stretch)/i
-/bedtime.{0,10}habit/i
+/bedtime.{0,10}(habit|move)/i
 /bedroom.{0,10}(fix|secrets?)/i
 /belly.{0,10}(buddy|buster)/i
 /berry.{0,10}detox/i
@@ -334,7 +334,7 @@
 /calm.{0,10}ears/i
 
 /cancel(ed)?.{0,10}surgery/i
-/cancer.{0,10}(growth|switch)/i
+/cancer.{0,10}(food|growth|switch)/i
 
 /cardio.{0,10}boost/i
 /care.{0,10}secret/i
@@ -380,7 +380,7 @@
 /(dead|death).{0,10}(drink|foods?|kidneys|veggies)/i
 /(dead|deep).{0,10}cleansing/i
 
-/dental.{0,10}(alert|issues?|rescue)/i
+/dental.{0,10}(alert|issues?|rescue|trick)/i
 
 /desire.{0,10}revival/i
 
@@ -628,7 +628,7 @@
 
 /pee.{0,10}(control|leaks|strong(er)?|out)/i
 
-/pelvic.{0,10}recovery/i
+/pelvic.{0,10}(floor|recovery)/i
 /penis.{0,10}(muscle|ritual)/i
 
 /perfect.{0,10}(sleep|smile)/i
@@ -730,6 +730,8 @@
 /snore.{0,10}(again|block|stop)/i
 
 /simple.{0,10}natural/i
+
+/soft.{0,10}mineral/i
 /sore.{0,10}muscles?/i
 
 /spiky.{0,10}fruit/i

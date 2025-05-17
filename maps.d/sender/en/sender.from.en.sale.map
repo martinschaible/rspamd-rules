@@ -53,7 +53,8 @@
 /door.{0,10}(camera|ringer|training)/i
 
 /drive.{0,10}clear/i
-/drone.?x/i
+/drone.?(lasb|x|zone)/i
+
 /(4k|8k|raptor|smarty?).{0,10}drone/i
 
 /dusterx.?pro/i

@@ -6,6 +6,12 @@
 # Topics
 # ==============================================================================
 
+# Drones
+# ------------------------------------------------------------------------------
+/drone.{1,15}(deal|unbeatable|value)/i
+
+/(compact|foldable|friendly|lightweight|money|perfect|this 4k|ultimate).{1,10}drone/i
+
 # E Bike, Scooter
 # ------------------------------------------------------------------------------
 /(urban|power).?cruiser/i
@@ -95,8 +101,6 @@ Ultimate Dual-Purpose E-Bike
 # D
 /database.{1,10}switzerland.{1,15}companies/i
 
-/drone.{1,15}(deal|unbeatable|value)/i
-
 # E
 /elevate your.{1,10}brand with/i
 
@@ -117,7 +121,6 @@ Ultimate Dual-Purpose E-Bike
 
 /flag.{0,10}hat/i
 
-/(foldable|lightweight).{1,15}drone/i
 /followers.{1,15}youtube views/i
 
 /fuel availability notification/i
@@ -147,8 +150,6 @@ Ultimate Dual-Purpose E-Bike
 
 # M
 /maximize.{1,10}sales.{1,10}(customer|engagement)/i
-
-/money.{1,10}drone/i
 
 # N
 /never lose keys again/i
@@ -189,15 +190,11 @@ Ultimate Dual-Purpose E-Bike
 /targeted.{1,10}verified/i
 /(targeted|verified).{1,15}(e?.?mail.?list|leads)/i
 
-/this 4k.?drone/i
-
 /^t.?shirts$/i
 
 /traffic.{1,10}more visitors/i
 
 # U
-/ultimate.{1,10}drone/i
-
 /unlimited.{1,10}ip.?tv/i
 
 /unlock.{1,10}endless entertainment/i
