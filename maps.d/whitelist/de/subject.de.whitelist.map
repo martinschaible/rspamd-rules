@@ -48,6 +48,8 @@
 /\bauftrags.{0,5}bestätigung\b/i
 
 # B
+/bericht für ihre fritz.?box/i 5.0
+
 /\bbewerbung\b/i
 
 # C
@@ -76,6 +78,7 @@
 # L
 
 # M
+/mitgliederfahrt/i 5.0
 
 # N
 
@@ -91,7 +94,7 @@
 
 # T
 /teamturnier/i 5.0
-/termin.{0,5}(absage|erinnerung)/i 5.0
+/termin.{0,5}(änderung|absage|erinnerung)/iu 5.0
 
 # U
 /\bunterricht\b/i

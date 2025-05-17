@@ -94,8 +94,11 @@
 /dear manager of /i
 /dear my friend/i
 
+/dear.{1,10}(supplier|vendor).{1,15}find the attached/i
 /dear.{1,10}(supplier|vendor).{1,10}good (afternoon|day|evening|morning)/i
 /dear.{1,10}(supplier|vendor).{1,10}refer to/i
+/dear.{1,10}(supplier|vendor).{1,10}we are.{1,10}distributor/i
+
 
 # E
 

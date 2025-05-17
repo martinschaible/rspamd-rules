@@ -39,9 +39,12 @@
 /canvas.{0,10}prints/i
 /car.{0,10}(repair|shield)/i
 
+/chill.{0,10}insider/i
 /clean.{0,10}shower/i
 /clear.{0,10}road/i
+
 /comfort.{0,10}only/i
+/cool.{0,10}(edge|solutions?)/i
 
 # D
 /deal.{0,10}alarm/i
@@ -96,7 +99,7 @@
 /health(care)?.{0,10}enrollment/i
 
 /heating.{0,10}bill/i
-/home.{0,10}warranty/i
+/home.{0,10}(cool|warranty)/i
 
 # I
 /instant.{0,10}access/i
@@ -181,6 +184,7 @@
 /smart.{0,10}(protect|security)/i
 /smart.?house.{0,10}deals/i
 
+/summer.{0,10}chill/i
 /super.{0,10}list/i
 
 /sofa.{0,10}cover/i
@@ -193,7 +197,7 @@
 
 /tax.{0,10}(consultant|helpers?|resolvers?)/i
 
-/tech.?safety/i
+/tech.{0,10}(digest|safety)/i
 /text.{0,10}voice/i
 
 /timeshare.{0,10}owner/i
