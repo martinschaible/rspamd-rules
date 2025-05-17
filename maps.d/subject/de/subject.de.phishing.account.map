@@ -1,4 +1,11 @@
 # ==============================================================================
+# This involves any account: the scammers claim that the account is locked,
+# limited, or needs to be verified.
+#
+# The scammers naturally want to get your login credentials and then your money.
+# A classic phishing scam.
+#
+# ------------------------------------------------------------------------------
 # Language: german
 # Weight:   6.0
 # ==============================================================================
@@ -17,9 +24,9 @@
 # ==============================================================================
 
 # A
-/aktivitäten vorübergehend geschlossen/i
+/aktivitäten vorübergehend geschlossen/iu
 
-/anderes gerät ist mit ihrem konto/iu
+/anderes gerät ist mit ihrem.{1,15}konto/iu
 
 /aufrechterhaltung ihres zugangs/i
 /aussetzung droht am.{1,20}jetzt handeln/i
@@ -27,10 +34,10 @@
 # B
 /^benutzerkonto gesperrt/i
 /bestätigen sie jetzt ihr/iu
-/bestätigung des kontos/iu
+/bestätigung des.{1,15}kontos/iu
 
-#/(aktualisieren?|bestätigen?).{1,10}(deine|sie).{1,10}(kontakt|konto).?daten/i
-/aktualisieren.{1,10}(deine|sie).{1,10}(kontakt|konto).?daten/i
+#/(aktualisieren?|bestätigen?).{1,10}(deine|sie).{1,15}(kontakt|konto).?daten/i
+/aktualisieren.{1,10}(deine|sie).{1,15}(kontakt|konto).?daten/i
 
 /bitte loggen sie sich/i
 /bitte verifizieren/i
@@ -38,7 +45,7 @@
 # C
 
 # D
-/datensicherheit ihres kontos/i
+/datensicherheit ihres.{1,15}kontos/i
 
 /dringend.{1,10}die 2.?faktor.{1,10}authentifizierung/i
 /dringende aktivierung der/i
@@ -59,12 +66,11 @@
 /gesperrt.{1,10}letzte warnung/i
 
 # H
-/halten sie ihr.{1,15}konto aktiv /i
+/halten sie ihr.{1,15}konto aktiv/i
 
 # I
 /in ihrem.{1,15}konto erkannt/i
 
-/ihr.{1,15}konto eingeschränkt/iu
 /ihr.{1,15}konto ist gefährdet/i
 /ihr.{1,15}konto jetzt/i
 
@@ -83,21 +89,18 @@
 # K
 /(karte|konto).{1,10}in der warteschleife/i
 
-/^konto vorübergehend/iu
+/konto.{1,10}(stillgelegt|vorübergehende?)/iu
 
-/konto stillgelegt/i
 /kontosicherheit.{1,5}ref\./i
 /kontosperrung zu vermeiden/i
 /kontosperrung droht.{1,10}(ref(erenz)?|id)/i
 
+/konto.{1,10}(abgelaufen|eingeschränkt)/iu
 /konto.{1,10}ist betroffen.{1,10}vertrauliche nachricht/i
 /konto.{1,10}(bleibt|ist|wird|wurde).{1,20}(begrenzt|deaktiviert|eingeschränkt|inaktiv|gesperrt|verifiziert)/i
 /konto.{1,10}(erfordert|braucht) ihre aufmerksamkeit/i
-/konto.{1,10}stillgelegt/i
-/konto.{1,10}vorübergehende?/i
+/konto.{1,10}(stillgelegt|vorübergehende?)/iu
 /konto.{1,10}wurde aufgrund ungewöhnlicher/i
-
-/konto ist abgelaufen/i
 
 /kontostand ist (höher|hoeher) als/iu
 
@@ -113,13 +116,13 @@
 /optimierung.{1,10}kontosicherheit/i
 
 # P
-/profil läuft bald aus/iu
+/profil.{1,10}läuft bald aus/iu
 /profilüberprüfung.{1,20}sperrung/iu
 
 # Q
 
 # R
-/(re)?aktivierung ihres.{1,10}kontos/i
+/(re)?aktivierung ihres.{1,15}kontos/i
 
 # S
 /sicherheitsteam.{1,20}unautorisierter zugriff/i
@@ -127,7 +130,7 @@
 # T
 
 # U
-/überprüfung ihrer (konto|profil).?daten/iu
+/überprüfung ihrer.{1,15}(konto|profil).?daten/iu
 
 /um den service fortzusetzen/i
 
@@ -151,6 +154,6 @@
 # Y
 
 # Z
-/zu ihrer kontosperrung/i
+/zu ihrer.{1,10}kontosperrung/i
 
 /zugriff wurde.{1,15}eingeschränkt/iu
