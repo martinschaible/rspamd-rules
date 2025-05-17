@@ -1,4 +1,9 @@
 # ==============================================================================
+# Here, the scammers claim that an invoice, debit or tax has been charged twice.
+# To receive the refund, you must provide personal information,
+# which will then result in a scam.
+#
+# ------------------------------------------------------------------------------
 # Language: german
 # Weight:   6.0
 # ==============================================================================
@@ -15,22 +20,35 @@
 # ==============================================================================
 
 # A
+/anspruch.{1,15}steuer(rück)?erstattung/i
 
 # B
+/benachrichtigung.{1,10}doppelte zahlung/i
 
 # C
 
 # D
+/doppelte abbuchung erkannt/i
+/doppelzahlung beantragen/i
 
 # E
+/entschuldigen uns.{1,10}(rück)?erstattung/iu
 
 # F
+/fehler in ihrer letzten.{1,10}rechnung/i
+
+/fordern sie.{1,10}eine.{1,10}(rück)?erstattung/iu
 
 # G
 
 # H
+/hinweis zu ihrer letzten.{1,10}rechnung/i
+/holen sie sich.{1,15}(rück)?erstattung/iu
 
 # I
+/ihnen eine ausstehende.{1,10}(rück)?erstattung/iu
+
+/ihre.{1,10}rechnung wurde zweimal bezahlt/i
 
 # J
 
