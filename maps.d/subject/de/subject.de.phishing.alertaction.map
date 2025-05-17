@@ -256,6 +256,7 @@
 
 /sicherheits.?(hinweis|warnung).{1,10}\d{2,4} dateien/i
 /sicherheits.?(hinweis|warnung).{1,10}ihr gerät benötigt/iu
+/sicherheits.?(hinweis|warnung).{1,10}unbefugter zugriff auf/i
 /sicherheits.?(hinweis|warnung).{1,10}unbekannte anmeldung/i
 /sicherheits.?(hinweis|warnung).{1,10}verdächtige dateien/i
 /sicherheits.?(hinweis|warnung).{1,10}zu ihrem gerät/iu
