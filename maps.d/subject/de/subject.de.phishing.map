@@ -19,11 +19,9 @@
 
 /aktualität.{1,10}handelsregistereinträge/iu
 
-/anspruch.{1,15}steuer(rück)?erstattung/i
 /antworten sie innerhalb von/i
 
 # B
-/benachrichtigung.{1,10}doppelte zahlung/i
 /benachrichtigung.{1,15}kundenservice/i
 
 /bestätigung benötigt/iu
@@ -43,8 +41,6 @@
 /cloud.?speicher.{1,10}kritisch voll/i
 
 # D
-/doppelte abbuchung erkannt/i
-/doppelzahlung beantragen/i
 
 # E
 /e.?vignette.{1,5}ref/i
@@ -52,15 +48,11 @@
 /eingestellt.{1,5}#\d{2,15}/i
 
 /erinnerung.{1,10}aktualisiere deine/i
-/entschuldigen uns.{1,10}(rück)?erstattung/iu
 
 # Meta wants to delete your account
 /endgültige löschung ihrer seite/iu
 
 # F
-/fehler in ihrer letzten.{1,10}rechnung/i
-
-/fordern sie.{1,10}eine.{1,10}(rück)?erstattung/iu
 /frist zur.{1,10}datenaktualisierung/i
 
 # G
@@ -72,13 +64,9 @@
 /gwünne e/i
 
 # H
-/hinweis zu ihrer letzten.{1,10}rechnung/i
-/holen sie sich.{1,15}(rück)?erstattung/iu
 
 # I
 /icloud.{1,10}speicher sind da/i
-
-/ihnen eine ausstehende.{1,10}(rück)?erstattung/iu
 
 /ihr service ist abgelaufen/i
 /(ihr|lhr).{1,20}ist nicht mehr (gültig|gultig)/i
@@ -86,10 +74,8 @@
 /ihre?.{1,15}wallet wird gesperrt/i
 
 /ihre dienste werden eingestellt/i
-/ihre rechnung wurde zweimal bezahlt/i
 
 /ihre offene verkehrsstrafe/i
-
 /ihre (rück)?erstattung.{1,25}wurde genehmigt/i
 /ihre (rück)?erstattung von/iu
 /ihre (rück)?erstattungs.?anfrage/iu
