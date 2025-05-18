@@ -40,7 +40,7 @@
 
 # Diabetes
 # ------------------------------------------------------------------------------
-/(a1c|glucose).{0,10}(control|level|problems?|spike)/i
+/(a1c|glucose).{0,10}(control|fix|level|problems?|spike)/i
 
 /sugar.{0,10}(above|defender|disease|levels?|spikes?)/i
 
@@ -189,6 +189,7 @@
 /(big|fat|flab|flat).{0,10}(belly|melting|size|stomage|tummy)/i
 
 /\d{1,2}.?(lbs?|pounds).{0,10}(down|gone|lighter|overnight)/i
+/\d{1,2}.?(lbs?|pounds).{0,10}(month|week)/i
 
 /slim.{0,10}(belly|body|down|waist)/i
 /(metabolic|surprising).{0,10}water/i
@@ -423,6 +424,7 @@
 /enhanced.{0,10}recall/i
 
 /erase.{0,10}fat/i
+/estrogen.{0,10}belly/i
 /(exotic|kitchen).{0,10}spice/i
 
 /(expert|neurologist).{0,15}(recommends?|recommendation|reveals)/i
@@ -523,7 +525,10 @@
 # I
 /iced?.{0,10}(hack|trick|water)/i
 /immune.{0,10}(booster|system)/i
+
+/improve.{0,10}circulation/i
 /improved.{0,10}brain/i
+
 /intimate.{0,10}life/i
 /insuline?/i
 /irritating.{0,10}noise/i
