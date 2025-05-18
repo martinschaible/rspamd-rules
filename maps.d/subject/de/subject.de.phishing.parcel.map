@@ -83,8 +83,8 @@
 # H
 
 # I
-/ihre?.{1,10}(lieferung|paket|sendung).{1,10}ist blockiert/i
-/ihre?.{1,10}(lieferung|paket|sendung).{1,10}ist da/i
+/ihre?.{1,10}(lieferung|paket|sendung).{1,10}ist.{1,10}blockiert/i
+/ihre?.{1,10}(lieferung|paket|sendung).{1,10}ist.{1,10}da/i
 /ihre?.{1,10}(lieferung|paket|sendung).{1,10}wartet/i
 /ihre?.{1,10}(lieferung|paket|sendung).{1,10}wird (versendet|zugestellt)/i
 
