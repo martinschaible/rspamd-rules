@@ -68,17 +68,11 @@
 # I
 /icloud.{1,10}speicher sind da/i
 
-/ihr service ist abgelaufen/i
 /(ihr|lhr).{1,20}ist nicht mehr (gültig|gultig)/i
 
 /ihre?.{1,15}wallet wird gesperrt/i
 
-/ihre dienste werden eingestellt/i
-
 /ihre offene verkehrsstrafe/i
-/ihre (rück)?erstattung.{1,25}wurde genehmigt/i
-/ihre (rück)?erstattung von/iu
-/ihre (rück)?erstattungs.?anfrage/iu
 
 # J
 
@@ -105,33 +99,13 @@
 # Fake court
 /rechtlicher hinweis/i
 
-/rechnung wird zweimal bezahlt/i
-
 # Google Speicher
 /reaktivieren sie ihre dienste/i
-
-/(rück)?erstattung.{1,10}angefordert/i
-/(rück)?erstattung.{1,10}für doppelte/iu
-/(rück)?erstattung.{1,10}ihre zugreise/iu
-/(rück)?erstattung.{1,10}ihres beitrags/iu
-/(rück)?erstattung.{1,10}ist (online|verfügbar)/iu
-/(rück)?erstattung.{1,10}ist bereit/iu
-/(rück)?erstattung.{1,10}(jetzt|möglich|verfügbar)/iu
-/(rück)?erstattung.{1,10}von.{1,15}ihre krankenversicherung/i
-/(rück)?erstattung.{1,10}wurde angenommen/i
-/(rück)?erstattung.{1,10}zur verfügung/iu
 
 # Sample: Rundschreiben X2ZI-M29U
 /rundschreiben.?[0-9a-z]{4}-[0-9a-z]{4}/i
 
 # S
-/sie doppelt in rechnung gestellt/i
-
-/sie haben.{1,10}anspruch.{1,15}(rück)?erstattung/iu
-/sie haben.{1,10}eine.{1,10}(rück)?erstattung aus ihrer/iu
-
-/sie ihre.{1,15}(rück)?erstattung/iu
-/sie uns den.{1,10}(rück)?erstattungsantrag/i
 
 # T
 
@@ -144,13 +118,11 @@
 /verlieren sie.{1,15}videos.{1,15}bilder nicht/i
 
 /vermeiden sie dienstunterbrechungen/i
-/verpassen sie nicht ihre (rück)?erstattung/iu
 
 # W
 /wallet (wird|wurde).{1,10}vorübergehend gesperrt/iu
 
 /wir benötigen.{1,10}(einige|noch).{1,10}informationen von ihnen/iu
-/wurde doppelt bezahlt/i
 
 # X
 
@@ -158,5 +130,3 @@
 
 # Z
 /zahlung.{1,10}sofortige unterstützung/iu
-
-/zu ihrer vergutung/i
