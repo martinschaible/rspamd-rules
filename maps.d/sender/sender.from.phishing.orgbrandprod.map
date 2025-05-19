@@ -199,6 +199,8 @@
 /denner.{0,10}support/i
 /denner.?-/i
 
+/^denner$/i
+
 /deutsche.?bnk/i
 /deutschen.?bahn/i
 
@@ -208,6 +210,7 @@
 /\.(ch|de).?\(dhl\)/i
 
 /d\.h\.l/i
+/d h l/i
 
 /\(dhl\)/i
 /dhl\./i
@@ -430,7 +433,7 @@
 
 /membership.{0,10}netflix/i
 
-/nespresso.{0,10}(club|deutschland|kundenservice|schweiz|team)/i
+/nespresso.{0,10}(club|deutschland|exclusives|gifts|kundenservice|schweiz|team)/i
 /nespresso.{0,5}(ch|de)$/i
 
 # 22.02.25 - NHK Plus
@@ -678,7 +681,8 @@
 
 # W
 # ------------------------------------------------------------------------------
-/walmart.{0,10}(confirmation|shipment|winner)/i
+/walmart.{0,10}(confirmation|essentionals?|deals?|shipment|winner)/i
+/walmart.{0,10}pet/i
 
 /we transfer/i
 /we-transfer/i
