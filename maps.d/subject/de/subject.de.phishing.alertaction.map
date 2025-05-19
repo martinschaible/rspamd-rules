@@ -42,7 +42,13 @@
 /aktualisierung.{1,10}ihrer.{1,10}(kontakt|zahlungs).?informationen/i
 
 /aktualisierung.{1,20}bankanwendung/i
+
+/aktualisierung.{1,20}erforderlich.{1,10}konto/i
+/aktualisierung.{1,20}erforderlich.{1,15}sichern sie ihr.{1,15}konto/i
+
 /aktualisierung.{1,25}(kredit)?karte/i
+/aktualisierung.{1,10}informationen.{1,25}(sicherheit|erhöhung)/i
+/aktualisierung.{1,10}kontodaten erforderlich/i
 /aktualisierung.{1,20}phototan.?app/i
 
 /aktualisierung.{1,10}überprüfen sie/i
@@ -93,6 +99,8 @@
 # C
 
 # D
+/(domain|kontroll).{1,10}verifizierung ist erforderlich/i
+
 /dringends:/i
 /(dringende|erforderliche?).{1,10}aktion/i
 /(dringende|erforderliche?).{1,10}(sicherheits)?aktualisierung/i
@@ -174,11 +182,11 @@
 /jetzt bereinigen/i
 #/jetzt handeln/i
 
-/jetzt.{1,10}kontoüberprüfung durchführen/iu
+/jetzt.{1,10}(kontoüberprüfung|sicherheitsupdate|verifizierung) durchführen/iu
 /jetzt.{1,15}konto aktualisieren/i
 /jetzt.{1,10}maßnahmen ergreifen/i
 /jetzt.{1,10}prüfen.{1,10}unbestätigte/iu
-/jetzt.{1,10}sicherheitsupdate durchführen/iu
+
 /jetzt umstellen/i
 
 # K
@@ -290,8 +298,9 @@
 
 # V
 /verifiziere.{1,10}deine.{1,10}e?.?mail/i
+/verifizierung.{1,10}(erforderlich|notwendig).{1,10}erhalten sie weiterhin/i
 /verifizierung.{1,10}ihrer.{1,10}telefon.?nummer ausstehend/i
-/verifizierung.{1,10}notwendig.{1,10}erhalten sie weiterhin/i
+/verifizierung.{1,10}ihres.{1,15}kontos.{1,10}(erforderlich|jetzt)/i
 
 # W
 /wichtige?.{1,10}aktualisieren sie/i
