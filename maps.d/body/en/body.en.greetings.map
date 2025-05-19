@@ -160,6 +160,8 @@
 /(hello|hi).{1,10}glad to (contact|connect|know|write)/i
 /(hello|hi).{1,10}to the.{1,25}owner/i
 
+/(hello|hi).{1,5}partner.{1,10}good day/i
+
 /hi \[first.?name\]/i
 /hi\b.?sir/i
 /hi there.{1,10}i hope this.{1,10}message/i

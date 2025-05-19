@@ -46,6 +46,7 @@
 /bestätigen sie.{1,15}barcode/i
 /bestätigen sie.{1,10}lieferdetails/i
 /bestätigen sie.{1,10}(lieferung|zustellung)/i
+/bestätigen sie.{1,10}ihr paket/i
 
 /bestellung.{1,15}lieferung aussteht/i
 
@@ -146,6 +147,7 @@
 #/(paket|sendung).{1,10}ist unterwegs!/i
 
 /(paket|sendung).{1,10}an sie hätte geliefert/iu
+/(paket|sendung).{1,10}befindet sich im zustellzentrum/i
 /(paket|sendung).{1,10}befindet sich in wartestellung/i
 /(paket|sendung).{1,20}bewegt sich/i
 /(paket|sendung).{1,10}erwartet sie/i

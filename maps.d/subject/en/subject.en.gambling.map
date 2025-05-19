@@ -28,9 +28,11 @@
 /euro.?million!/i
 
 # F
+/free.{1,10}bonus/i
+
 /free casino.{1,10}(await|games|thrill)/i
 /free play.{1,15}(real|prices?)/i
-/free spins/i
+/free spins?\b/i
 
 # G
 

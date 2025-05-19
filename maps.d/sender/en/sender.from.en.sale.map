@@ -59,7 +59,7 @@
 /door.{0,10}(camera|ringer|training)/i
 
 /drive.{0,10}clear/i
-/drone.?(lasb|x|zone)/i
+/drone.?(labs|x|zone)/i
 
 /(4k|8k|raptor|smarty?).{0,10}drone/i
 
@@ -106,6 +106,8 @@
 /home.{0,10}(cool|warranty)/i
 
 # I
+/internet.{0,10}enhancement/i
+
 /instant.{0,10}access/i
 /instant.{0,10}quotes?/i
 
@@ -151,6 +153,9 @@
 
 /pest.{0,10}resister/i
 /pet.{0,10}(care|health|lifespan|wellness)/i
+
+/phone.{0,10}deals?/i
+/phone.?x/i
 
 /portable.{0,10}wi.?fi/i
 /power.{0,10}(blower|outage)/i

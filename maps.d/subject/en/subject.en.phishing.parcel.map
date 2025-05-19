@@ -84,8 +84,10 @@ https://e-tax-sutiti.hry83.com/login/reception/loginouudividua/
 # Y
 /you have.{1,10}(1|one).{1,10}pending delivery/i
 
-/your (package|parcel|shipment).{1,10}not delivered/i
-/your (package|parcel|shipment).{1,10}has been returned/i
-/your (package|parcel|shipment).{1,10}is on hold/i
+/your.{1,10}address .{1,10}pending.{1,10}(package|parcel|shipment)/i
+
+/your.{1,10}(package|parcel|shipment).{1,10}not delivered/i
+/your.{1,10}(package|parcel|shipment).{1,10}has been returned/i
+/your.{1,10}(package|parcel|shipment).{1,10}is on hold/i
 
 # Z
