@@ -40,7 +40,7 @@
 /guten (abend|tag).{1,10}(ich bin|mein lieber)/i
 /guten (abend|tag).{1,10}meine damen und herren/i
 
-/(guten tag|hallo|sehr geehrter?).{1,20}(begünstigter|e?.?mail|empfänger|kunde)/iu
+/(guten tag|hallo|lieber|sehr geehrter?).{1,20}(begünstigter|e?.?mail|empfänger|kunde)/iu
 
 /guten morgen\./i
 /guten morgen.{1,10}mein.{1,15}freund/i

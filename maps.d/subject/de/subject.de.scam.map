@@ -8,7 +8,8 @@
 
 # Beneficiary
 # ------------------------------------------------------------------------------
-/(achtung|glücklicher|guten tag|händen|lieber).{1,15}begünstigter?/iu
+/(achtung|benannter|glücklicher|händen|neuer).{1,15}begünstigter?/iu
+
 /sie sind.{1,15}begünstigten/iu
 
 /begünstigter.{1,10}des/i
@@ -101,7 +102,6 @@
 /betreff.{1,5}von/i
 
 /benachrichtigung(en)?.{1,10}nicht beanspruchte gelder/i
-/benannter.{1,10}begünstigter/iu
 
 /bestätigen sie den anspruch/iu
 /bestatigen sie/i
