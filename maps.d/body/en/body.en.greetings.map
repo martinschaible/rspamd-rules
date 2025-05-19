@@ -81,6 +81,7 @@
 
 # Sales
 /dear.{1,10}(buyer|customer|madam|manager|partner|purchaser|sir).{1,15}are you looking/i
+/dear.{1,10}(buyer|customer|madam|manager|partner|purchaser|sir).{1,15}i greet you/i
 /dear.{1,10}(buyer|customer|madam|manager|partner|purchaser|sir).{1,15}we at/i
 /dear.{1,10}(buyer|customer|madam|manager|partner|purchaser|sir).{1,15}we are.{1,10}(interested in|looking for|specialized)/i
 /dear.{1,10}(buyer|customer|madam|manager|partner|purchaser|sir).{1,15}we are.{1,10}leading partner/i
