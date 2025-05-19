@@ -78,6 +78,8 @@
 # H
 
 # I
+/is this.{1,10}e?.?mail.{1,10}still active/i
+/is this your.{1,10}e?.?mail/i
 
 # J
 
@@ -135,10 +137,12 @@
 # Y
 /you an e?.?mail.{1,10}did you get it/i
 
-/your attention!/i
 /you (getting|receive) my (e?.?mail|message)s?/i
 /you (get|received?).{1,10}(last|previous).{1,10}(e?.?mail|message)/i
 
 /you receive the.{1,10}(e?.?mail|message)/i
+
+/your attention!/i
+/your e?.?mail.{1,10}still active/i
 
 # Z
