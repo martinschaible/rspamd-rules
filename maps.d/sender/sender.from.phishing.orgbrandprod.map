@@ -98,6 +98,9 @@
 # 04.05.25 - AEON Card
 /イオンカード/i
 
+# 19.05.25 - AEON Pay
+/イオンペイ/i
+
 /ag.?twint/i
 
 /allgemeiner deutscher/i
@@ -182,6 +185,8 @@
 /^cpanel$/i
 /cpanel.{0,10}(server|service|team)/i
 
+# 19.05.25 - Co., Ltd.
+/株式会社/i
 # D
 # ------------------------------------------------------------------------------
 /danke.{0,5}kaufland/i
