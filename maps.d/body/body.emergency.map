@@ -32,6 +32,19 @@
 /data-saferedirecturl=.{0,5}https://www\.google\.com/i
 /data-saferedirecturl=.{0,5}https://www\.inbox\.org/i
 
+# Test Chinese Characters
+# ------------------------------------------------------------------------------
+
+# \u4e00-\u9fff: Kanji (CJK Unified Ideographs)
+/[\u4e00-\u9fff]{30,}/u
+
+# Test Japanes Characters
+# ------------------------------------------------------------------------------
+# \u3040-\u309f: Hiragana
+# \u30a0-\u30ff: Katakana
+
+/[\u3040-\u30ff\u4e00-\u9fff]{30,}/u
+
 #
 #
 #
