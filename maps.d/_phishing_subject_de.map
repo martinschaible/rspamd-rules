@@ -17,10 +17,6 @@
 # ------------------------------------------------------------------------------
 /aktualisieren ihres.{1,15}(kontos|profils)/i
 
-/aktualisierung erforderlich.{1,15}sichern sie ihr.{1,15}konto/i
-/aktualisierung erforderlich.{1,20}konto.{1,10}gesperrt/i
-/aktualisierung ihrer informationen.{1,25}(sicherheit|erhöhung)/i
-
 /anpassen ihrer.{1,10}kontodaten/i
 
 /konto.{0,15}(aktualisierung|update|überprüfung) erforderlich/iu
@@ -141,10 +137,6 @@
 /ihre informationen.{1,15}aktualisiert werden/i
 /ihre informationen.{1,10}zu aktualisieren/i
 
-/jetzt verifizierung durchführen/iu
-
-/(datenupdate|verifizierung).{1,10}erforderlich/i
-
 /erneuern sie ihre.{1,10}authentifizierung/iu
 /führen sie die geforderten schritte durch/iu
 
@@ -159,12 +151,6 @@
 /sollten aktualisiert werden/i
 
 /authentifizieren sie sich.{1,15}klicks/i
-
-/aktualisieren.{1,10}sie ihre.{1,10}daten von/i
-/aktualisierung.{1,10}erforderlich.{1,10}konto/i
-/aktualisierung.{1,10}kontodaten erforderlich/i
-
-/verifizierung ihres.{1,15}kontos.{1,10}(erforderlich|jetzt)/i
 
 #
 /dringende mitteilung.{1,10}bitte bestätigen/iu
