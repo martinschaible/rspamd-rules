@@ -191,7 +191,7 @@
 /steht noch aus/i
 /steht zur zustellung an/i
 
-/(steuer|zoll).{1,15}ihre? (paket|sendung)/i
+/(steuer|zoll).{1,15}ihre?.{1,10}(paket|sendung)/i
 
 # T
 
@@ -199,6 +199,8 @@
 /überprüfung für ihr paket/iu
 
 # V
+/vernichtung ihres.{1,10}pakets/i
+
 /verfolgen.{1,10}zu erhalten/i
 /vermeiden.{1,10}sie.{1,10}verzögerungen/iu
 
