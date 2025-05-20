@@ -36,6 +36,7 @@
 
 # B
 /besser.{0,10}sehen/i
+/bett.{0,10}stille/i
 /blut.{0,10}(druck|gesundheit|hochdruck)/i
 
 # C
@@ -118,7 +119,7 @@
 
 # R
 /reduzieren sie.{1,15}fett/i
-/ruhe.{0,15}(deal|nacht)/i
+/ruhe.{0,15}(deal|echt|nacht|start)/i
 /(ruhige|stille).{0,10}(nächte|schlafzimmer)/i
 
 # S
@@ -134,7 +135,7 @@
 /sex.{0,10}produkt/i
 
 /starten sie/i
-/stille.{0,10}plus/i
+/stille?.{0,10}(klar|plus|vorteil)/i
 
 # T
 /tipps von/i

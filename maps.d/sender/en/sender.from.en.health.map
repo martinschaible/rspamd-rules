@@ -248,7 +248,7 @@
 /\d{1,2} seconds?/i
 /\d{2,3} years old/i
 
-/120\/80/i
+/(120|150)\/80/i
 /20\/20.{0,10}solution/i
 
 # A
@@ -336,6 +336,8 @@
 
 /cancel(ed)?.{0,10}surgery/i
 /cancer.{0,10}(food|growth|switch)/i
+
+/cannabis.{0,10}oil/i
 
 /cardio.{0,10}boost/i
 /care.{0,10}secret/i
