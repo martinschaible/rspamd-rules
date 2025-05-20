@@ -385,7 +385,8 @@
 /media markt/i
 
 #/^meta$/i
-/meta.?ads.?team/i
+/meta.{0,5}ads.?team/i
+/meta.{0,5}compliance/i
 /meta for business/i
 /meta help center/i
 

@@ -123,6 +123,9 @@
 /this message is for you/i
 
 # U
+/\*.?urgent/i
+/urgent.?\*/i
+
 /^urgent (message|response)$/i
 /urgent response.{1,15}needed/i
 

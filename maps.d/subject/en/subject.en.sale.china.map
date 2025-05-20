@@ -120,7 +120,7 @@
 
 /injection.{1,15}molded parts/i
 /injection.{1,15}molding/i
-/injection.{1,15}mould/i
+/injection.{1,15}mou?ld/i
 
 /inquiry about.{1,10}pcba?/i
 
@@ -217,7 +217,9 @@
 /shoes direct factory/i
 
 /standard (molding|molds)/i
-/supplier who can serve/i
+
+/supplier.{1,10}mold.?products/i
+/supplier.{1,10}who can serve/i
 /supply steel plates/i
 
 # T
