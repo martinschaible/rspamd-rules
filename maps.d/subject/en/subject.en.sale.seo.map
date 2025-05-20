@@ -13,6 +13,9 @@
 # Generic
 # ==============================================================================
 
+# TLD in front, usualy (ch|com|de|org)
+/\.[a-z]{1,4}.{1,5}website sales/i
+
 # A
 /(affordable|looking for).{1,10}seo/i
 
