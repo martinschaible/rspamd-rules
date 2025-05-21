@@ -572,6 +572,7 @@
 
 /^sumup\.?$/i
 /sum-up\./i
+/sum.?up.{0,10}kontakt/i
 
 /sumup.{0,10}(assistenz|kundendienst|service.?desk|limited|team)/i
 /(team|von).{0,10}sumup/i
