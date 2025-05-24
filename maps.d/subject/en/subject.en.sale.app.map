@@ -31,7 +31,7 @@
 /business.?apps/i
 
 # C
-/(creat|creating).{1,10}apps?/i
+/(business|creat|creating).{1,10}apps?/i
 
 /cost for app/i
 
@@ -60,6 +60,7 @@
 
 
 # N
+/need.{1,15}app\b/i
 /new app launch/i
 
 # O
