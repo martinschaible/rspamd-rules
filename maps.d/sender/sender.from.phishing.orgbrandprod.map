@@ -399,7 +399,7 @@
 
 /MIGROS/
 /migros.?(™|®|©)$/i
-/migros.{0,10}aktionen/i
+/migros.{0,10}(aktionen|oral.?b/i
 
 /^migrol$/i
 
@@ -580,6 +580,8 @@
 /swicach/i
 /swica.{0,10}(leistungszentrum|support|versicherung)/i
 /swica.?-/i
+
+/swisscom.{0,10}(info.?team|kundenservice)/i
 
 /swiftpackage/i
 

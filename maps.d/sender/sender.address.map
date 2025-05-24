@@ -60,6 +60,12 @@
 # 17.05.25 - Sample: 0128427.47435.473.473@9554.de
 /\d{1,10}\.\d{1,10}\.\d{1,10}@/i
 
+# 24.05.25 - Sample: noreply@update-9-916d9.firebaseapp.com
+/@update-\d{1,2}-[a-z0-9]{5}\./i
+
+# 24.05.25 - Sample: noreply@update-20.firebaseapp.com
+/@update-\d{2}\./i
+
 # A
 /ab1infoa1/i
 
