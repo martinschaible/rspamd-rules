@@ -22,14 +22,16 @@
 /(photovoltaik|pv|solar).?anlagen?.{1,20}alle förderungen/iu
 /(photovoltaik|pv|solar).?anlagen?.{1,20}(extrem|gewerbe|günstig|häuser|nulltarif|tiefstand)/iu
 /(photovoltaik|pv|solar).?anlagen?.{1,20}(tiefstand|tiefstpreise)/iu
+/(photovoltaik|pv|solar).?anlagen?.{1,20}massiv im preis gefallen/i
 
 # 18.12.24 Sample: 18.12.2024 / PV-Anlage
 /\d{2}\.\d{2}\d.{4}.{1,10}(photovoltaik|pv|solar).?anlagen?/i
 
 /auszahlung.{1,10}förderung/iu
 
-/förderung(en)?.{1,10}(photovoltaik|pv|solar).?anlagen?/iu
 /förderung(en)?.{1,10}\d{2}\.\d{2}\.\d{4}/i
+/förderung(en)?.{1,10}geld einnehmen/iu
+/förderung(en)?.{1,10}(photovoltaik|pv|solar).?anlagen?/iu
 
 /ihre.{1,15}euro förderung/iu
 /ihre.{1,10}(photovoltaik|pv|solar).?anlagen?/i

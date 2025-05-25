@@ -30,6 +30,26 @@
 /uppsu@/i
 /sprayx/i
 
+# Numbers
+# ------------------------------------------------------------------------------
+# 25.05.25 - Sample: ef4541@edunetmail.com
+/^[a-z]{2}\d{1,10}@/i
+
+# 18.04.25 - Sample: re-936457730936457730@iol.ie
+/-\d{1,10}/i
+
+# Unbelievable: This is in use
+# /^\d{10,25}@/i
+
+# 17.05.25 - Sample: 0128427.47435.473.473@9554.de
+/\d{1,10}\.\d{1,10}\.\d{1,10}@/i
+
+# 24.05.25 - Sample: noreply@update-9-916d9.firebaseapp.com
+/@update-\d{1,2}-[a-z0-9]{5}\./i
+
+# 24.05.25 - Sample: noreply@update-20.firebaseapp.com
+/@update-\d{2}\./i
+
 # Phishing
 # ------------------------------------------------------------------------------
 
@@ -49,22 +69,6 @@
 
 # Generic
 # ==============================================================================
-
-# Numbers
-# 18.04.25 - Sample: re-936457730936457730@iol.ie
-/-\d{1,10}/i
-
-# Unbelievable: This is in use
-# /^\d{10,25}@/i
-
-# 17.05.25 - Sample: 0128427.47435.473.473@9554.de
-/\d{1,10}\.\d{1,10}\.\d{1,10}@/i
-
-# 24.05.25 - Sample: noreply@update-9-916d9.firebaseapp.com
-/@update-\d{1,2}-[a-z0-9]{5}\./i
-
-# 24.05.25 - Sample: noreply@update-20.firebaseapp.com
-/@update-\d{2}\./i
 
 # A
 /ab1infoa1/i
