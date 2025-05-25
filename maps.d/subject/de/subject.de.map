@@ -26,6 +26,9 @@
 
 /(dollar|euro?|gbp|usd|€|\$|£).{1,10}dividendenauszahlung/i
 
+# 25.05.25 - Sample: Jetzt unverbindlich anfragen - 5/25/2025
+/anfragen.{1,10}\d{1,2}\/\d{1,2}\/\d{4}/i
+
 # A
 /antwort von einem freund/i
 
