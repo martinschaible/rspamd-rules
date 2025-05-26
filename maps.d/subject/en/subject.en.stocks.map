@@ -1,0 +1,102 @@
+# ==============================================================================
+# Language: english
+# Weight:   6.0
+# ==============================================================================
+
+# Topics
+# ==============================================================================
+
+# Stocks
+# -------------------------------------------------------------------------------
+/(claim your|this extraordinary|with this).{1,15}(gem|stock)/i
+/(hidden fortune|remarkable).{1,10}(gem|stock)/i
+
+/(ignite|illuminate|launch|maximize|propel|rocket).{1,10}your (earnings|portfolio|returns|wealth)/i
+
+#
+#
+#
+
+# Generic
+# ==============================================================================
+
+# A
+/acquisition boosts.{1,15}revenue/i
+
+# Symbol
+/\$.{1,10}delivers big/i
+
+/\d{2,3} revenue growth/i
+
+
+# B
+/breakthrough growth/i
+
+# C
+
+# D
+
+# E
+/explosive investment/i
+/explosive growth ahead/i
+
+# F
+
+# G
+/growth.{1,10}stock opportunity/i
+
+# H
+/high.?growth opportunities/i
+
+# I
+/invest.{1,10}(gains|massive|success)/i
+
+# J
+
+# K
+
+# L
+
+# M
+
+# N
+
+# O
+
+# P
+/poised.{1,10}explosive growth/i
+/portfolio to new heights/i
+
+# Q
+
+# R
+/record growth highlights/i
+/record revenue growth/i
+
+/revolutionizing investor experience/i
+
+# S
+/sales soar with/i
+/shareholder letter details/i
+/smart investors?.{1,10}pick/i
+
+/stock to watch/i
+
+/stock.?symbol.{1,5}\$\d{4}/i
+
+# T
+/time to harvest profits/i
+
+# U
+/unlocks high.?growth/i
+/unveil the stock market/i
+
+# V
+
+# W
+
+# X
+
+# Y
+
+# Z
