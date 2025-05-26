@@ -71,6 +71,7 @@
 /guten (abend|morgen|tag).{1,10}ihr paket/i
 
 # Related to phishing
+/guten (abend|morgen|tag).{1,10}hiermit informieren wir sie/i
 /guten (abend|morgen|tag).{1,10}unser sicherheitssystem/i
 /guten (abend|morgen|tag).{1,10}wir möchten sie darüber informieren/iu
 /guten (abend|morgen|tag).{1,10}zum schutz ihres/i
@@ -209,7 +210,7 @@
 /sehr geehrter?.{1,10}(damen|herren).{1,10}wir möchten sie darüber informieren/iu
 
 /sehr geehrter?.{1,10}(empfänger|nachfolger|unternehmer)(in)?/i
-/sehr geehrter?.{1,10}(freundlicher|nutzer)/i
+/sehr geehrter?.{1,10}(gewinner|freundlicher|nutzer)/i
 /sehr geehrter?.{1,20}ich bin ein/i
 /sehr geehrter?.{1,10}temu.?kunde/i
 

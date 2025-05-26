@@ -142,6 +142,8 @@
 /\[action requise\]/i
 /\[special.?offer\]/i
 
+/#gutschrift/i
+
 # Too many False/Positives 
 #/[a-z]{5,15}(!!|\.\.)/i
 
