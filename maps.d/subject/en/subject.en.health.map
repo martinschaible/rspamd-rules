@@ -325,7 +325,7 @@
 /for.{1,10}slim belly/i
 /for.{1,10}weight.?loss/i
 
-/fruit that fights/i
+/fruit.{1,10}(for brain|that fights)/i
 /fungus.{0,10}(cure|fix|vanish)/i
 
 # G
@@ -446,6 +446,7 @@
 /naturally.{1,10}(discover|restored?|with this)/i
 
 /needs this drink/i
+/nerve.?pain getting/i
 /new way.{1,10}eliminate/i
 
 /no joint pain/i
@@ -464,7 +465,7 @@
 # P
 /pain free.{1,10}joints/i
 /pain in.{1,10}minutes?/i
-/pain.{1,10}(do this|try this)/i
+/pain.{1,10}(do this|getting worse|try this)/i
 /pain.{1,15}after this/i
 
 /painful neuropathy/i
@@ -554,6 +555,8 @@
 /simple drink helps/i
 /simple habit (destroys|that)/i
 /simple oral flush/i
+
+/simple.{1,10}minute stretch/i
 /simple (trick|way).{1,10}(erase|reverse)/i
 
 /skin.{1,10}(miracle|secret|transformation)/i
@@ -665,6 +668,7 @@
 /uncover the secret to/i
 /unusual asian treat/i
 /unlock.{1,10}pleasure.{1,10}(centers?|points?)/i
+/unlock.{1,10}tight hips/i
 
 # V
 /veggie to avoid/i
