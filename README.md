@@ -49,6 +49,9 @@ These are the latest changes:
 | 16.05.25 | multimap.sender.conf              | New map file added                 |
 | 17.05.25 | multimap.subject.de.phishing.conf | New map file added                 |
 | 17.05.25 | multimap.subject.en.phishing.conf | New map file added                 |
+| 26.05.25 | multimap.conf                     | New files added                    |
+| 26.05.25 | multimap.subject.de.stocks.conf   | New file                           |
+| 26.05.25 | multimap.subject.en.stocks.conf   | New file                           |
 
 What to do:
 * Copy these files to the Rspamd server
@@ -111,6 +114,8 @@ body
   │   ├─ body.de.singleword.map                   │
   │   ├─ body.de.singleword.ucase.map             │
   │   ├─ body.de.unsubscribe.map                 ─┘
+  │   │
+  │   ├─ body.de.stocks.map                      --- multimap.body.de.stocks.conf
   │   │
   │   ├─ body.de.phishing.map                    ─┐
   │   ├─ body.de.phishing.account.map             │
@@ -188,6 +193,7 @@ subject
   │   ├─ subject.de.finance.map                  --- multimap.subject.de.finance.conf
   │   ├─ subject.de.gambling.map                 --- multimap.subject.de.gambling.conf
   │   ├─ subject.de.health.map                   --- multimap.subject.de.health.conf
+  │   ├─ subject.de.stocks.map                   --- multimap.subject.de.stocks.conf
   │   │
   │   ├─ subject.de.phishing.map                 ─┐
   │   ├─ subject.de.phishing.account.map          │
