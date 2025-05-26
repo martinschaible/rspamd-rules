@@ -89,6 +89,9 @@
 /ihre?.{1,10}(lieferung|paket|sendung).{1,10}wartet/i
 /ihre?.{1,10}(lieferung|paket|sendung).{1,10}wird (versendet|zugestellt)/i
 
+# Sample:  Ihr Paket ist unterwegs!!
+/ihre?.{1,10}(lieferung|paket|sendung).{1,10}ist unterwegs/i
+
 /ihre paketinformation(en)?/i
 /ihre? ausstehendes?.{1,10}(lieferung|paket|sendung)/i
 
