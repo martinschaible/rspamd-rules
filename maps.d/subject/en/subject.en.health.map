@@ -553,8 +553,9 @@
 
 /simple at.?home/i
 /simple drink helps/i
-/simple habit (destroys|that)/i
+/simple habit.{1,10}(destroys|that)/i
 /simple oral flush/i
+/simple trick.{1,10}uncover/i
 
 /simple.{1,10}minute stretch/i
 /simple (trick|way).{1,10}(erase|reverse)/i
