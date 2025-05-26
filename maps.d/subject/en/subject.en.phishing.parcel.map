@@ -55,13 +55,14 @@
 
 # P
 /(package|parcel|shipment).{1,10}(awaiting|pending|ready).{1,10}(collection|delivery|processing|shipping)/i
+/(package|parcel|shipment).{1,10}awaits final confirmation/i
 
 /payment for your.{1,10}(package|parcel|shipment)/i
 
 # Q
 
 # R
-https://e-tax-sutiti.hry83.com/login/reception/loginouudividua/
+
 # S
 /shipment notification.{1,10}ref.?id/i
 /shipping document.{1,10}set to expire on/i
