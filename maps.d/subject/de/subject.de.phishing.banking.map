@@ -62,7 +62,8 @@
 
 # K
 /karte.{1,10}(bleibt|ist|wird|wurde).{1,20}(begrenzt|deaktiviert|eingeschränkt|inaktiv|gesperrt|verifiziert)/i
-/karte (ist|wurde).{1,20}(deaktiviert|eingeschränkt|inaktiv|gesperrt)/i
+
+/kartensperre aufgrund.{1,10}betrugsverdacht/i
 
 # L
 
