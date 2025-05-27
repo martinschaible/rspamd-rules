@@ -38,6 +38,7 @@
 # Meta
 # Migros
 # Migros - Cumulus
+# Migros Online
 # Miles & More
 # Miles & More Newsletter
 # myMediaMarkt
@@ -386,7 +387,7 @@
 
 #/^meta$/i
 /meta.{0,5}ads.?team/i
-/meta.{0,5}compliance/i
+/meta.{0,5}(compliance|advertising)/i
 /meta for business/i
 /meta help center/i
 
