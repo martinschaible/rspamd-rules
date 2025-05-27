@@ -71,13 +71,9 @@
 #
 #
 
-# Sale - Products
-# ------------------------------------------------------------------------------
-
 # Sale
 # ------------------------------------------------------------------------------
 /contact details.{1,10}your business/i
-/jet.?fan.?blower/i
 
 /reviewed your website.{1,10}was impressed/i
 /team specializes in seo/i
@@ -95,7 +91,7 @@
 /we.{1,10}rank you in the top/i
 
 /your.{1,10}mobile.?app.{1,10}requirement/i
-/your.{1,10}website has.{1,15}seo issues/i
+/your.{1,10}website.{1,15}seo issues/i
 /your.{1,10}website.{1,15}impressed /i
 
 #
