@@ -48,10 +48,14 @@ These are the latest changes:
 | 14.05.25 | multimap.whitelist.conf           | Three silly typos fixed            |
 | 16.05.25 | multimap.sender.conf              | New map file added                 |
 | 17.05.25 | multimap.subject.de.phishing.conf | New map file added                 |
-| 17.05.25 | multimap.subject.en.phishing.conf | New map file added                 |
+|          | multimap.subject.en.phishing.conf | New map file added                 |
 | 26.05.25 | multimap.conf                     | New files added                    |
-| 26.05.25 | multimap.subject.de.stocks.conf   | New file                           |
-| 26.05.25 | multimap.subject.en.stocks.conf   | New file                           |
+|          | multimap.subject.de.stocks.conf   | New file                           |
+|          | multimap.subject.en.stocks.conf   | New file                           |
+| 27.05.25 | multimap.conf                     | New configuration files added      |
+|          | multimap.body.de.sale.conf        | New file                           |
+|          | multimap.body.en.sale.conf        | New file                           |
+|          | _multimap_base_phrases.conf       | Old map files retired/removed      |
 
 What to do:
 * Copy these files to the Rspamd server
