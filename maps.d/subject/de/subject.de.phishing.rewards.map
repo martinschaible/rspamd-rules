@@ -142,7 +142,8 @@
 /geschenk.{1,15}ihre treue.{1,10}nur noch kurze zeit/i
 /geschenk.{1,15}innerhalb von.{1,20}erhalten/i
 /geschenk.{1,15}stunden verfügbar/iu
-/geschenk.{1,15}umfrage von/i
+/geschenke?.{1,15}umfrage von/i
+/geschenke?.{1,15}von.{1,15}sichern/i
 
 /glückliche chance/i
 /glücklichen benutzer von heute/iu
@@ -165,6 +166,7 @@
 /ihr.{1,15}kit zu beanspruchen/i
 
 /ihr.{1,10}(exklusives|kostenloses).{1,10}(treue)?.?geschenk/i
+/ihr.{1,10}(exklusiver|exklusives|kostenloses).{1,20}paket/i
 /ihr.{1,10}(exklusiver|exklusives|kostenloses).{1,20}wartet/i
 
 /ihr.{1,10}geschenk ist bereit/i

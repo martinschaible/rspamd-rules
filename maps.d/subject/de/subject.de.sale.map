@@ -139,7 +139,9 @@
 # F
 /fachkräfte für ihre projekte/iu
 
-/(falt)?pavillon.{1,15}(ideal|jetzt|lieferbar|mit|seitenteile|sofort)/i
+/(falt)?pavillon.{1,15}(aufbaubar|ideal|jetzt|lieferbar|mit|seitenteile|wetterfest)/i
+/(falt)?pavillon.{1,15}(schnell|sofort)/i
+
 /(falt)?pavillon.{1,15}für \d{3}/i
 
 /fernsehen muss nicht teuer sein/i
@@ -237,6 +239,8 @@
 
 /premium.?tv muss nicht/i
 
+/profi.?falt.?pavillon/i
+
 # Q
 /qualifizierte fachkräfte sofort/iu
 
@@ -264,6 +268,8 @@
 /sprechen.{1,10}(in über|problemlos).{1,10}sprachen/i
 
 /statt \d{2,3},- nur \d{2,3},-/i
+
+/reduziert.{1,10}(falt)?pavillon/i
 
 /steigern sie.{1,10}umsatz sofort/i
 /steigern sie.{1,10}social media/i

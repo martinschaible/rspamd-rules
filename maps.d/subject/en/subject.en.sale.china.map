@@ -239,7 +239,7 @@
 
 # Y
 /you have any.{1,10}(cargo|export)/i
-/you looking for.{1,15}supplier/i
+/you looking for.{1,15}(battery|supplier)/i
 /you still producing/i
 
 /your (current|future|loyal|reliable).{1,15}(partner|supplier)/i
