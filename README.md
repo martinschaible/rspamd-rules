@@ -115,6 +115,11 @@ body
   │   ├─ body.de.singleword.ucase.map             │
   │   ├─ body.de.unsubscribe.map                 ─┘
   │   │
+  │   ├─ body.de.sale.map                        ─┐
+  │   ├─ body.de.sale.app.map                     │
+  │   ├─ body.de.sale.china.map                   ├─ multimap.body.de.sale.conf
+  │   ├─ body.de.sale.seo                         │  (Not yet implemented)
+  │   ├─ body.de.sale.website                    ─┘
   │   ├─ body.de.stocks.map                      --- multimap.body.de.stocks.conf
   │   │
   │   ├─ body.de.phishing.map                    ─┐
@@ -223,7 +228,7 @@ subject
   │   └─ ....
   ├─ subject.health.medname.map                  --- multimap.subject.health.conf
   ├─ subject.orgbrandprod.map                    ─┐
-  └─ subject.special.map                          ├─ multimap.subject.conf
+  ├─ subject.special.map                          ├─ multimap.subject.conf
   └─ subject.special.emoji.map                   ─┘
 ```
 
@@ -247,9 +252,10 @@ whitelist
 
 ```
 
-+ -> "prefilter" is set
+**+ -> "prefilter" is set**
 
-Unfortunately, whitelisting with the prefilter option set doesn't work. I don't know why, and I can't find any help in the community. What a pity!
+Unfortunately, whitelisting with the prefilter option set doesn't work in some cases.
+I don't know why, and I can't find any help in the community. What a pity!
 
 ## Tips and Tricks
 
