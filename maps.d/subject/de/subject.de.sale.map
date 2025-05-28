@@ -49,6 +49,9 @@
 /(werbe)?(kugelschreiber|kuli).{1,15}(ab|für) nur/i
 /(werbe)?(kugelschreiber|kuli).{1,10}sonderpreis/i
 
+/die kulis/i
+/kulis mit ihrem/i
+
 # A - L
 /(cent per|eindruck|elegante|fordern|gummierte|hochwertige|individuellen?|kostenlos|luxus|logo).{0,15}(werbe)?(kugelschreiber|kuli)/iu
 # M
@@ -79,7 +82,6 @@
 /akku.?kettensäge/iu
 
 /aktion.{1,10}corona.?tests?/i
-/aktuellen datenbank von/i
 
 /anfrage.{1,10}personalunterstützung/iu
 
@@ -97,9 +99,6 @@
 # B
 /beheizten? westen?/i
 
-/bewertungen.{1,15}(entfernen|erfolgreich|löschen)/iu
-/bewertungen.{1,15}unverbindliche prüfung/iu
-
 # Sample: Bildschirm. Statt 169,-nur 49,90
 /bildschirm.{1,10}statt \d{2,3}.{1,5}nur.{1,5}\d{2}/i
 
@@ -111,11 +110,8 @@
 /corona.?tests?.{1,10}kombi.?tests?/i
 
 # D
-/datenbank(en)?.{0,20}(deutschen|schweizer|unternehmen)/i
-
 /derila.{1,10}kissen/i
 
-/die kulis/i
 /diese.{1,10}lampe/i
 
 # E
@@ -134,11 +130,9 @@
 
 /(falt)?pavillon.{1,15}(aufbaubar|ideal|jetzt|lieferbar|mit|seitenteile|wetterfest)/i
 /(falt)?pavillon.{1,15}(schnell|sofort)/i
-
 /(falt)?pavillon.{1,15}für \d{3}/i
 
 /fernsehen muss nicht teuer sein/i
-/firmendaten aus.{1,10}(deutschland|schweiz)/i
 
 /fortschrittliches.{1,15}gerät/iu
 
@@ -165,8 +159,6 @@
 /ihr.{1,10}(4g|lte).{1,5}wifi/i
 /ihr.{1,10}wlan.?signal/i
 
-/informationen.{1,10}unternehmen.{1,10}schweiz/iu
-
 /ip.?tv.{0,10}abonnement/i
 
 # J
@@ -180,11 +172,6 @@
 /(beheizbare|wärmende).{1,10}(daunen)?jacke/i
 
 # K
-/kulis mit ihrem/i
-
-/kontakte.{1,10}profitable kunden/i
-/kontakte in.{1,15}kunden/i
-
 /kooperationsmöglichkeit.{1,10}qualifiziertes?/iu
 
 # L
