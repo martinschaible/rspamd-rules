@@ -58,6 +58,9 @@ These are the latest changes:
 |          | _multimap_base_phrases.conf       | Old map files retired/removed      |
 | 28.05.25 | multimap.subject.de.sale.conf     | New map file added                 |
 |          | multimap.subject.en.sale.conf     | New map file added                 |
+| 29.05.25 | multimap.conf                     | New configuration files added      |
+|          | multimap.body.de.phishing.conf    | New file                           |
+|          | multimap.body.en.phishing.conf    | New file                           |
 
 What to do:
 * Copy these files to the Rspamd server
@@ -140,10 +143,11 @@ body
   │   ├─ body.de.phishing.banking.map             │
   │   ├─ body.de.phishing.email.map               │
   │   ├─ body.de.phishing.greetings.map           │
-  │   ├─ body.de.phishing.malware.map             ├─ multimap.body.de.phishing.conf
-  │   ├─ body.de.phishing.parcel.map              │  (Not yet implemented)
+  │   ├─ body.de.phishing.malware.map             │
+  │   ├─ body.de.phishing.parcel.map              ├─ multimap.body.de.phishing.conf
   │   ├─ body.de.phishing.password.map            │
   │   ├─ body.de.phishing.payment.map             │
+  │   ├─ body.de.phishing.refund.map              │
   │   ├─ body.de.phishing.rewards.map             │
   │   ├─ body.de.phishing.subscription.map        │
   │   ├─ body.de.phishing.survey.map             ─┘
