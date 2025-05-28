@@ -25,6 +25,7 @@
 # D
 
 # E
+/e?.?mail.?list.{1,10}rental/i
 
 # F
 
@@ -56,6 +57,9 @@
 # S
 
 # T
+/(targeted|verified).{1,15}contact.?lists of/i
+/(targeted|verified).{1,15}e?.?mail.{1,10}(databases?|leads?|lists?)/i
+/(targeted|verified).{1,15}databases?.{1,10}businesses.{1,10}operating/i
 
 # U
 
@@ -66,5 +70,6 @@
 # X
 
 # Y
+/you looking.{1,15}e?.?mail.?marketing/i
 
 # Z
