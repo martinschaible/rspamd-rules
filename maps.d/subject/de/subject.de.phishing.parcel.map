@@ -9,9 +9,9 @@
 # Address
 # ------------------------------------------------------------------------------
 /aktualisieren sie (die|ihre).{1,10}liefer(adresse|daten|details)/i
-/aktualisieren sie (die|ihre).{1,10}(lieferung|versandinformationen)/iu
+/aktualisieren sie (die|ihre).{1,10}(lieferung|versand.?informationen)/iu
 
-/bestätigen sie (die|ihre).{1,10}versanddetails/i
+/bestätigen sie (die|ihre).{1,10}versand.?details/i
 
 #
 #

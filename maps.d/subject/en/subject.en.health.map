@@ -49,7 +49,7 @@
 /this.{1,10}night trick/i
 /this.{1,10}sec fix/i
 /this.{1,10}tsp hack/i
-/this.{1,10}(tropical|unique) (formula|hack|remedy|trick)/i
+/(this|unlock).{1,10}(natural|tropical|unique).{1,10}(formula|hack|remedy|trick)/i
 
 /try this \d.sec/i
 
@@ -669,6 +669,7 @@
 
 /uncover the secret to/i
 /unusual asian treat/i
+
 /unlock.{1,10}pleasure.{1,10}(centers?|points?)/i
 /unlock.{1,10}tight hips/i
 
