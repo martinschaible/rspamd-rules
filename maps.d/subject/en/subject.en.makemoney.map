@@ -72,6 +72,8 @@
 # I
 /(income|money|security).{1,15}without leaving home/i
 
+/inspired property.{1,10}dubai/i
+
 /invest in.{1,15}(booming|student).{1,15}(hotel|property)/i
 /invest in.{1,15}(apartment|freehold|hotel|property)/i
 /invest in.{1,10}dubai.{1,10}booming/i
@@ -79,7 +81,7 @@
 
 /invest(ment)?.?system/i
 /investment.{1,15}(opportunity|participation)/i
-/Investment.{1,10}information for you/i
+/investment.{1,10}information for you/i
 
 # J
 
@@ -94,7 +96,7 @@
 # N
 
 # O
-/own.{1,10}(beachfront|dubai) property/i
+/own.{1,10}(beachfront|dubai|iconic|island) property/i
 
 # P
 /property in dubai/i

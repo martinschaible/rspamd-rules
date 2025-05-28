@@ -1,6 +1,15 @@
 # ==============================================================================
 # Language: german
 # Weight:   6.0
+# ------------------------------------------------------------------------------
+# This is about social and internet media in the broadest sense.
+# We check for dubious deals such as:
+# - Email lists for spamming
+# - Measures to improve visibility for Instagram, for example
+# - Fake reviews
+# - Removing bad reviews
+# - Leads
+#
 # ==============================================================================
 
 # Topics
@@ -24,26 +33,34 @@
 # ==============================================================================
 
 # A
+/aktuellen.{1,10}datenbank von/i
 
 # B
+/bewertungen.{1,15}(entfernen|erfolgreich|löschen)/iu
+/bewertungen.{1,15}unverbindliche prüfung/iu
 
 # C
 
 # D
+/datenbank(en)?.{0,20}(deutschen|schweizer|unternehmen)/i
 
 # E
 
 # F
+/firmendaten aus.{1,10}(deutschland|schweiz)/i
 
 # G
 
 # H
 
 # I
+/informationen.{1,10}unternehmen.{1,10}(deutschland|schweiz)/iu
 
 # J
 
 # K
+/kontakte.{1,10}profitable kunden/i
+/kontakte in.{1,15}kunden/i
 
 # L
 
