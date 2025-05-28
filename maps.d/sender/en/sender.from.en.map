@@ -33,9 +33,8 @@
 
 # Faked Company or Department names
 # ------------------------------------------------------------------------------
-/google.?(claim|inc|llc|team)/i
-
 /(eu|world).?(business|company).{0,10}(directory|register)/i
+/trade.?register/i
 
 # 25.12.24 - Sample: Email amelec.ch
 /e?.?mail.{1,15}\[a-z]{2,4}/i
@@ -85,6 +84,7 @@
 
 # B
 /barr\./i
+
 # C
 /communication from/i
 /company registration/i
