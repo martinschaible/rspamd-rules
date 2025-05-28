@@ -9,6 +9,7 @@
 # Chair
 # ------------------------------------------------------------------------------
 /(büro|massage).?(sessel|stuhl|stühle).{1,15}(abverkauf|angebot)/i
+/massage.{0,15}(büro|sessel|stuhl|stühle).{0,15}(sessel|stuhl|stühle)/iu
 
 /chance.{1,15}(büro|massage).?(sessel|stuhl|stühle)/i
 
@@ -43,27 +44,19 @@
 
 /metro.{1,5}rider/i
 
-# Google Reviews
-# ------------------------------------------------------------------------------
-/(falsche|negative|schlechte).{1,15}(google.?)bewertungen/i
-
-/(mehr sterne|positive bewertungen).{1,20}umsatz/i
-/kunden vertrauen bewertungen/i
-/schaden ihrem umsatz/i
-/top.?bewertungsprofil/i
-
 # Pen
 # ------------------------------------------------------------------------------
-/(kugelschreiber|kuli).{1,15}(ab|für) nur/i
+/(werbe)?(kugelschreiber|kuli).{1,15}(ab|für) nur/i
+/(werbe)?(kugelschreiber|kuli).{1,10}sonderpreis/i
 
 # A - L
-/(cent per|eindruck|elegante|fordern|gummierte|hochwertige|individuellen?|kostenlos|luxus|logo).{0,15}(kugelschreiber|kuli)/iu
+/(cent per|eindruck|elegante|fordern|gummierte|hochwertige|individuellen?|kostenlos|luxus|logo).{0,15}(werbe)?(kugelschreiber|kuli)/iu
 # M
-/(maßgeschneiderte|metall|moderne|muster).{0,15}(kugelschreiber|kuli)/iu
-# N - V
-/(neue|personalisierte|premium|profi|sichern|stilvolle|softtouch|unseren?).{0,15}(kugelschreiber|kuli)/iu
-# W
-/(werbe|werbung).{1,15}(kugelschreiber|kuli)/iu
+/(maßgeschneiderte|metall|moderne|muster).{0,15}(werbe)?(kugelschreiber|kuli)/iu
+# N - U
+/(neue|personalisierte|premium|profi|sichern|stilvolle|softtouch?|unseren).{0,15}(werbe)?(kugelschreiber|kuli)/iu
+# V - W
+/(verfügbar|werbe|werbung).{1,15}(werbe)?(kugelschreiber|kuli)/iu
 
 /jetzt markenbotschafter/i
 
@@ -93,7 +86,7 @@
 /angebot.{1,10}nur.{1,10}testen sie/i
 /angebot.{1,10}temporäre einsätze/iu
 
-/(annonce|anzeige) branchen.?führer/i
+/(annonce|anzeige).{1,10}branchen.?führer/i
 
 /arbeiter aus (europa|europe)/i
 
@@ -208,8 +201,6 @@
 /leitern?.{1,10}(leicht|handlich|professionell)/i
 
 # M
-/massage.{0,15}(büro|sessel|stuhl|stühle).{0,15}(sessel|stuhl|stühle)/iu
-
 /mehr halt.{1,10}mehr balance/i
 /mehr licht.{1,10}mehr/i
 
@@ -220,8 +211,6 @@
 /mitarbeiter für.{1,15}(logistik|produktion|verarbeitung)/i
 
 # N
-/(negative|schlechte).{1,10}google.?(bewertungen|einträge)/iu
-/(negative|schlechte).{1,10}(bewertungen|einträge) (entfernen|loswerden)/iu
 
 # O
 
@@ -273,9 +262,6 @@
 
 /reduziert.{1,10}(falt)?pavillon/i
 
-/steigern sie.{1,10}umsatz sofort/i
-/steigern sie.{1,10}social media/i
-
 /suchen?.{1,10}(anlagen|gebrauchtmaschinen)/i
 /suchen?.{1,10}qualifizierten handwerkern/i
 
@@ -302,7 +288,6 @@
 
 # V
 /verfügbar.{1,15}erneuerungsrabatt/iu
-/verfügbar.{1,10}(werbe)?kugelschreiber/iu
 
 /vermitteln produktionshelfer/i
 
@@ -310,8 +295,6 @@
 
 # W
 /waschbürste.{1,20}teleskop/i
-
-/(werbe)?kugelschreiber.{1,10}sonderpreis/i
 
 /werfen ihre? hörgeräte? weg/iu
 
