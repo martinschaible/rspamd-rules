@@ -39,8 +39,12 @@
 # K
 
 # L
-/litauische arbeiter gesucht/i
-/(leiharbeiter|mitarbeiter) aus litauen/i
+/leiharbeiter finden/i
+
+/litauen.{1,10}leiharbeiter/i
+/litauische.{1,10}(leih)?arbeiter gesucht/i
+
+/(arbeitskräfte|fachkräfte|hilfspersonal|leiharbeiter|mitarbeiter|personal|vermittlung|zeitarbeit) aus litauen/iu
 
 # M
 

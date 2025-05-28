@@ -22,11 +22,13 @@
 # C
 
 # D
+/(dollar|euro?|gbp|usd|€|\$|£).{1,10}ausgewählt.{1,10}melden sie sich/iu
 /(dollar|euro?|gbp|usd|€|\$|£).{1,10}wurden (an sie|ihnen) gespendet/i
 
 # E
 
 # F
+/fordern sie ihre.{1,10}spende/i
 
 # G
 /gespendet.{1,10}antworten sie für weitere informationen/iu
@@ -57,6 +59,7 @@
 # R
 
 # S
+/sie wurden für (die|eine).{1,15}spende/i
 
 # T
 
