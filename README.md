@@ -78,6 +78,7 @@ base
   ├─ base.body.charenc.windows1251.map        *   ├─ multimap.base.conf
   ├─ base.body.markup.hidden.map                  │
   ├─ base.body.markup.map                        ─┘
+  │
   ├─ href
   │   ├─ base.body.href.domain.map            *  ─┐
   │   ├─ base.body.href.domain.ip.map         *   │
@@ -86,6 +87,7 @@ base
   │   ├─ base.body.href.path.map              *   │
   │   ├─ base.body.href.path.filename.map     *   │
   │   └─ base.body.href.path.wordpress.map    *  ─┘
+  │
   └─ img
       ├─ base.body.img.domain.ip.map          *  ─┐
       ├─ base.body.img.domain.tld.map         *   │
@@ -93,6 +95,7 @@ base
       ├─ base.body.img.nossl.map              *   │
       ├─ base.body.img.path.map               *   │
       └─ base.body.img.shortener.map          *  ─┘
+
 lists
   ├─ list.tld.map                             *  --- multimap.base.body.href.conf
   └─ list.url.shortener.map                   *  --- multimap.base.body.href.conf
@@ -108,10 +111,12 @@ body
   ├─ body.attachment.map                         ─┐
   ├─ body.emergency.map                           │
   ├─ body.special.map                             │
-  ├─ body.az.orgname.map                          │
-  ├─ body.ch.orgname.map                          ├─ multimap.body.conf
+  │                                               │
+  ├─ body.az.orgname.map                          ├─ multimap.body.conf
+  ├─ body.ch.orgname.map                          │
   ├─ body.de.orgname.map                          │
   ├─ body.us.orgname.map                         ─┘
+  │
   ├─ de
   │   ├─ body.de.map                             ─┐
   │   ├─ body.de.greetings.map                    │
@@ -148,15 +153,17 @@ body
   │   ├─ body.de.scam.donations.map               ├─ multimap.body.de.scam.conf
   │   ├─ body.de.scam.order.map                   │
   │   └─ body.de.scam.winning.map                ─┘
+  │
   ├─ en
   │   └─ ....
-  ├─ href
-  │   ├─ body.href.az.domain.name.map            ─┐
-  │   ├─ body.href.ch.domain.name.map             │
-  │   ├─ body.href.de.domain.name.map             ├─ multimap.body.href.conf
-  │   ├─ body.href.us.domain.name.map             │
-  │   ├─ body.href.domain.name.pattern.map        │
-  │   └─ body.href.url.path.orgbrandprod.map     ─┘
+  │
+  └─ href
+      ├─ body.href.az.domain.name.map            ─┐
+      ├─ body.href.ch.domain.name.map             │
+      ├─ body.href.de.domain.name.map             ├─ multimap.body.href.conf
+      ├─ body.href.us.domain.name.map             │
+      ├─ body.href.domain.name.pattern.map        │
+      └─ body.href.url.path.orgbrandprod.map     ─┘
 ```
 
 ### Setup for "sender"
@@ -178,8 +185,10 @@ sender
   │   │
   │   ├─ sender.from.de.singleword.map           --- multimap.sender.de.conf
   │   └─ sender.from.de.singleword.ucase.map     --- multimap.sender.de.conf
+  │
   ├─ en
   │   └─ ....
+  │
   ├─ sender.from.phishing.orgbrandprod.map       --- multimap.sender.phishing.conf
   │
   ├─ sender.address.map                          ─┐
@@ -232,8 +241,10 @@ subject
   │   ├─ subject.de.scam.donation.map             ├─ multimap.subject.de.scam.conf
   │   ├─ subject.de.scam.order.map                │
   │   └─ subject.de.scam.winning.map             ─┘
+  │
   ├─ en
   │   └─ ....
+  │
   ├─ subject.health.medname.map                  --- multimap.subject.health.conf
   ├─ subject.orgbrandprod.map                    ─┐
   ├─ subject.special.map                          ├─ multimap.subject.conf
@@ -250,12 +261,15 @@ whitelist
   │   ├─ body.de.whitelist.map                   ─┐
   │   ├─ sender.from.de.whitelist.map             │
   │   └─ subject.de.whitelist.map                 │
+  │                                               │
   ├─ en                                           │
   │   └─ ....                                     │
-  ├─ body.href.url.az.whitelist.map           +   ├─ multimap.whitelist.conf  
-  ├─ body.href.url.ch.whitelist.map           +   │ 
-  ├─ body.href.url.de.whitelist.map           +   │ 
-  ├─ body.href.url.us.whitelist.map           +   │ 
+  │                                               │
+  ├─ body.href.url.az.whitelist.map           +   ├─ multimap.whitelist.conf
+  ├─ body.href.url.ch.whitelist.map           +   │
+  ├─ body.href.url.de.whitelist.map           +   │
+  ├─ body.href.url.us.whitelist.map           +   │
+  │                                               │
   └─ header.ip.whitelist.map                  +  ─┘
 
 ```
