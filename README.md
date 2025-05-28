@@ -56,6 +56,8 @@ These are the latest changes:
 |          | multimap.body.de.sale.conf        | New file                           |
 |          | multimap.body.en.sale.conf        | New file                           |
 |          | _multimap_base_phrases.conf       | Old map files retired/removed      |
+| 28.05.25 | multimap.subject.de.sale.conf     | New map file added                 |
+|          | multimap.subject.en.sale.conf     | New map file added                 |
 
 What to do:
 * Copy these files to the Rspamd server
@@ -219,8 +221,9 @@ subject
   │   ├─ subject.de.phishing.survey.map          ─┘
   │   │
   │   ├─ subject.de.sale.map                     ─┐
-  │   ├─ subject.de.sale.app.map                  ├─ multimap.subject.de.sale.conf
-  │   ├─ subject.de.sale.seo.map                  │
+  │   ├─ subject.de.sale.app.map                  │
+  │   ├─ subject.de.sale.seo.map                  ├─ multimap.subject.de.sale.conf
+  │   ├─ subject.de.sale.media.map                │
   │   ├─ subject.de.sale.website.map             ─┘
   │   │
   │   ├─ subject.de.scam.map                     ─┐
