@@ -1,0 +1,78 @@
+# ==============================================================================
+# Language: german
+# Weight:   6.0
+# ==============================================================================
+
+# Topics
+# ==============================================================================
+
+# Google Reviews
+# ------------------------------------------------------------------------------
+/(falsche|negative|schlechte).{1,10}(google.?)?.{0,5}(bewertungen|einträge)/iu
+/(falsche|negative|schlechte).{1,10}(bewertungen|einträge).{1,10}(entfernen|loswerden)/iu
+
+/(mehr sterne|positive bewertungen).{1,20}umsatz/i
+/kunden vertrauen bewertungen/i
+/schaden ihrem umsatz/i
+/top.?bewertungsprofil/i
+
+#
+#
+#
+
+# Generic
+# ==============================================================================
+
+# A
+
+# B
+
+# C
+
+# D
+
+# E
+
+# F
+
+# G
+
+# H
+
+# I
+
+# J
+
+# K
+
+# L
+
+# M
+
+# N
+
+# O
+
+# P
+
+# Q
+
+# R
+
+# S
+/steigern sie.{1,10}umsatz sofort/i
+/steigern sie.{1,10}social media/i
+
+# T
+
+# U
+
+# V
+
+# W
+
+# X
+
+# Y
+
+# Z
