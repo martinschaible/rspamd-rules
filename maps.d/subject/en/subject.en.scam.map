@@ -93,8 +93,9 @@
 
 /fund(ing).?.{1,10}(donation|opportunity|proposal|recovered|request)/i
 
+/funds?.{1,10}deposited in your name/i
+/funds?.{1,10}for you/i
 /funds?.{1,10}million/i
-/funds? for you/i
 
 /funds?.{1,10}recovery.{1,10}(committee|team)/i
 /funds?.{1,10}(relief|request)/i
