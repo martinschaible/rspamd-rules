@@ -337,7 +337,8 @@ fettverbrenner/i
 /^re:.?aw:.?spende$/i
 
 /spende\./i
-/spende!/i
+# Used by Glückkette
+#/spende!/i
 /spendenangebot/i
 /spendencode/i
 /spendenfonds/i

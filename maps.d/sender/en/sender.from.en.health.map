@@ -175,7 +175,7 @@
 
 # Weightloss
 # ------------------------------------------------------------------------------
-/(fat|weight).{0,10}(fast|goals|loss|vanish)/i
+/(fat|weight).{0,10}(blocking|fast|goals|loss|vanish)/i
 /(fat|weight).{0,10}(banish|burn(er)?|burning|drop(er)?|flush|melting)/i
 
 /belly.{0,10}(detox|fix|flattening)/i
@@ -267,7 +267,7 @@
 /(anti|fight|stop).{0,10}snoring/i
 /anti.{0,10}(fungal|fungus|wrinkle)/i
 
-/artery.{0,10}(cure|health|plaque)/i
+/artery.{0,10}(cure|fix|health|plaque)/i
 /arthritis.{0,10}gone/i
 
 # B
@@ -303,6 +303,7 @@
 /bladder.{0,10}(leaks?|leakage|leaking|issues?|problems?)/i
 
 /bloat.{0,10}(free|solution)/i
+/blocking.{0,10}teas?/i
 /blood.{0,10}(clots?|flow|glucose|pressure|solution|sugar)/i
 
 /blue.{0,10}(drink|juice|pill|plant|replacement)/i
@@ -441,7 +442,7 @@
 # F
 /fasting.{0,10}seeds/i
 
-/fat.{0,10}dissolving/i
+/fat(ty)?.{0,10}(artery|dissolving)/i
 /fatigue.{0,10}bloating/i
 /fat(ty)?.{0,10}arteries/i
 
