@@ -29,62 +29,10 @@
 #
 #
 
-# Phishing
-# ------------------------------------------------------------------------------
-/cancel de.?activation.{1,15}(account|request)/i
-/confirm ownership here/i
-
-# Phishing Account
-# ------------------------------------------------------------------------------
-/important notification.{1,10}we noticed.{1,10}recent update/i
-
-/account review report/i
-
-/(activate|enable) 2fa now/i
-/(activate|enable) two.?factor authentication/i
-
-/we suggest enabling 2fa/i
-
-# Phishing AlertAction
-# ------------------------------------------------------------------------------
-
-# Phishing EMail
-# ------------------------------------------------------------------------------
-/(release|unlock|view).{1,10}(incoming|pending|suspended).{1,10}(e?.?mails?|messages?)/i
-
-/webmail.{1,10}dear/i
-/we notice you have not updated/i
-
-# Phishing Greetings
-# ------------------------------------------------------------------------------
-
-# Phishing Parcel
-# ------------------------------------------------------------------------------
-/shipment.{1,15}is still waiting/i
-
-# Phishing Password
-# ------------------------------------------------------------------------------
-/activate same setttings/i
-/connect.{1,15}activate.{1,15}settings/i
-
-# Phishing Rewards
-# ------------------------------------------------------------------------------
-
-#
-#
-#
-
 # Generic
 # ==============================================================================
 
 # A
-/(apologies|apologize|sorry).{1,10}(for intruding|to invade)/i
-/(apologies|apologize|sorry).{1,10}if my e?.?mail/i
-/(apologies|apologize|sorry).{1,10}if the content of my e?.?mail/i
-/(apologies|apologize|sorry).{1,10}infringing.{1,10}your privacy/i
-/(apologies|apologize|sorry).{1,10}reach you through this medium/i
-/(apologies|apologize|sorry).{1,10}sending this unsolicited.{1,10}e.?mail/i
-/(apologies|apologize|sorry).{1,10}unsolicited (contact|e.?mail|letter|proposal)/i
 
 # B
 
@@ -109,12 +57,6 @@
 # H
 
 # I
-/i am writing to.{1,10}seek.{1,10}attention/i
-
-/i (came across|found) your.{1,10}(contact|details|e?.?mail|information|name|profile)/i
-/i (came across|found) your.{1,10}web.?site.{1,10}google/i
-
-/i was inspired after.{1,20}your.{1,15}profile/i
 
 # J
 
@@ -152,10 +94,5 @@
 # Y
 /you.{1,10}are in fact.{1,10}live/i
 /you.{1,10}dead.{1,10}alive/i
-
-/your (contact|details|e?.?mail|information|name).{1,20}(has been|was) provided by google/i
-
-/your.{1,15}profile (caught|drew) my.{1,10}attention/i
-/your.{1,15}profile jumped out at me/i
 
 # Z

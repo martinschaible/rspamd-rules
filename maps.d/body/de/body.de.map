@@ -33,58 +33,6 @@
 # ------------------------------------------------------------------------------
 /verdienen mit diesem.{1,10}schlupfloch/iu
 
-# Phishing
-# ------------------------------------------------------------------------------
-/ihre rechnung ist fällig.{1,10}sehr geehrter kunde/iu
-/sie ihre rückerstattungsrechnung/iu
-
-# Phishing Account 
-# ------------------------------------------------------------------------------
-/konto.{1,15}zu überprüfen und auf.{1,10}nachrichten/iu
-
-/jetzt zugriff wiederherstellen/i
-
-/anmeldedaten.{1,10}sehr geehrte damen.{1,10}herren/i
-
-/wichtige mitteilung.{1,10}verifizieren sie ihr konto/i
-
-# Phishing AlertAction 
-# ------------------------------------------------------------------------------
-/dringend.{1,10}bestätigen sie ihre identität/iu
-
-# Phishing EMail
-# ------------------------------------------------------------------------------
-
-# Phishing Greetings
-# ------------------------------------------------------------------------------
-/sehr geehrter kunde.{1,10}ihr paket/i 
-
-/swica.{1,10}guten tag/i
-
-# Phishing Malware
-# ------------------------------------------------------------------------------
-/unsere neueste sicherheitsprüfung hat ergeben/iu
-
-# Phishing Parcel
-# ------------------------------------------------------------------------------
-/(paket|sendung) ist bereit für die lieferung/iu
-
-# Phishing Rewards
-# ------------------------------------------------------------------------------
-/exklusive?.{1,10}mystery.?box/i
-/rituals.{1,10}mystery.?box/i
-
-/ihr gewinn.{1,10}ein neues/i
-/jetzt (angaben|gewinn) bestätigen/iu
-
-/was sie erwartet.{1,10}(airpod|apple|iphone|ipad)/i
-
-/versenden können.{1,10}benötigen wir.{1,20}lieferadresse/iu
-
-# Phishing OrgBrandProd
-# ------------------------------------------------------------------------------
-/ihr swisspass.?team/i
-
 #
 #
 #
@@ -103,12 +51,6 @@
 /(die|unsere) web.?(seite|site).{1,10}kostenlos/i
 
 # E
-/entschuldige mich für dieses eindringen/iu
-
-/entschuldigen sie.{1,10}art der kontaktaufnahme/i
-/entschuldigen sie.{1,10}eingriff in ihre privatsphäre/iu
-
-/ernstes thema mit ihnen besprechen/i
 
 # F
 
@@ -122,8 +64,6 @@
 /ich bin hier.{1,10}um ihnen/i
 /ich darüber gebetet habe/iu
 
-/ich habe gerade ihr profil gesehen/i
-/ich möchte mit ihnen kommunizieren/iu
 /ich nur noch wenige monate zu leben habe/i
 
 # J
@@ -135,8 +75,6 @@
 /jetzt unverbindlich ansehen/i
 
 # K
-/kann ich mit ihnen kommunizieren/i
-
 /klicken sie auf.{1,10}antworten/i
 
 /kostenlosen?.{1,10}internet.?seite.{1,10}erfahren sie/i
@@ -159,8 +97,6 @@
 # S
 /(seite|site) ist.{1,10}kostenlos/i
 
-/sie auf diesem weg kontaktiere/i
-
 # T
 
 # U
@@ -170,8 +106,6 @@
 /(dem|vom) schreibtisch (des|von) (herr|vize)/i
 
 # W
-/wichtiges thema mit ihnen besprechen/i
-/wichtigen vorschlag mit ihnen besprechen/i
 
 # X
 
