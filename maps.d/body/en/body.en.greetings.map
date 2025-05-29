@@ -38,7 +38,6 @@
 /(dear|greetings?|good day|hello|hi\b).{1,5}(friend|madam|sir).{1,10}good day/i
 /(dear|greetings?|good day|hello|hi\b).{1,5}(friend|madam|sir).{1,15}in the (lord|name of)/i
 /(dear|greetings?|good day|hello|hi\b).{1,5}(friend|madam|sir).{1,15}this e?.?mail is strictly/i
-/(dear|greetings?|good day|hello|hi\b).{1,5}(friend|madam|sir).{1,15}we are glad to introduce/i
 
 /(dear|greetings?|good day|hello|hi\b).{1,5}(friend|madam|sir).{1,15}find the attached/i
 
@@ -53,12 +52,10 @@
 /(greetings?|good day|hello|hi\b).{1,5}sir.{1,5}(madam|mam)/i
 /(dear|greetings?|good day|hello|hi\b).{1,15}this might come.{1,10}surprise/i
 /(dear|greetings?|good day|hello|hi\b).{1,15}this is.{5,25}from/i
-/(dear|greetings?|good day|hello|hi\b).{1,10}we are.{1,10}manufacturer/i
 
 /(dear|greetings?|good day|hello|hi\b).{1,10}i am.{1,15}broker/i
 /(dear|greetings?|good day|hello|hi\b).{1,10}i work as a/i
 
-/dear.{1,10}client.{1,10}this is.{1,25}factory/i
 /dear.{1,10}collegue.{1,10}i am.{5,35}director/i
 /dear.{1,10}(ceo|company|confidant|export|trustee)/i
 
@@ -77,22 +74,6 @@
 /dear.{1,10}(buyer|customer|madam|manager|partner|purchaser|sir).{1,15}my name is.{5,35}i am from/i
 /dear.{1,10}(buyer|customer|madam|manager|partner|purchaser|sir).{1,15}please find attached/i
 /dear.{1,10}(buyer|customer|madam|manager|partner|purchaser|sir).{1,10}this is.{5,25}from/i
-/dear.{1,10}(buyer|customer|madam|manager|partner|purchaser|sir).{1,15}you interested in/i
-
-# Phishing
-/dear.{1,10}(buyer|customer|madam|manager|partner|purchaser|sir).{1,10}your.{1,15}(package|parcel|shipment) is (on its way|ready)/i
-/dear.{1,10}member.{1,10}immediate attention required/i
-
-# Sales
-/dear.{1,10}(buyer|customer|madam|manager|partner|purchaser|sir).{1,15}are you looking/i
-/dear.{1,10}(buyer|customer|madam|manager|partner|purchaser|sir).{1,15}i greet you/i
-/dear.{1,10}(buyer|customer|madam|manager|partner|purchaser|sir).{1,15}i represent/i
-
-/dear.{1,10}(buyer|customer|madam|manager|partner|purchaser|sir).{1,10}suppliers?/i
-/dear.{1,10}(buyer|customer|madam|manager|partner|purchaser|sir).{1,15}we at/i
-/dear.{1,10}(buyer|customer|madam|manager|partner|purchaser|sir).{1,15}we are.{1,10}(interested in|looking for|specialized)/i
-/dear.{1,10}(buyer|customer|madam|manager|partner|purchaser|sir).{1,15}we are.{1,10}leading partner/i
-/dear.{1,10}(buyer|customer|madam|manager|partner|purchaser|sir).{1,10}why choose/i
 
 /dear.{1,10}\[/i
 /dear.{1,15}\]/i
@@ -104,8 +85,6 @@
 /dear.{1,10}(supplier|vendor).{1,15}find the attached/i
 /dear.{1,10}(supplier|vendor).{1,10}good (afternoon|day|evening|morning)/i
 /dear.{1,10}(supplier|vendor).{1,10}refer to/i
-/dear.{1,10}(supplier|vendor).{1,10}we are.{1,10}distributor/i
-
 
 # E
 
@@ -129,18 +108,12 @@
 /good (afternoon|day|evening|morning).{1,10}to you.{1,10}my name is/i
 /good (afternoon|day|evening|morning).{1,10}trust this message/i
 
-/good (afternoon|day|evening|morning).{1,10}we are.{1,10}manufacturer?/i
-/good (afternoon|day|evening|morning).{1,10}we require your updated details/i
-
 /good (afternoon|day|evening|morning).{1,10}sir.{1,5}(madam|mam?)\b/i
 
-/greetings.{1,10}beloved.{1,15}my name is/i
-/greetings.{1,15}greetings/i
-/greetings.{1,20}welcome to our company/i
-
+/greetings.?(of the day)?{.1,10}beloved.{1,15}my name is/i
+/greetings.?(of the day)?.{1,15}greetings/i
 /greetings.?(of the day)?.{1,15}my friend/i
 /greetings.?(of the day)?.{1,15}my name is.{5,35}i am representing/i
-/greetings.?(of the day)?.{1,15}professional.{1,10}(designer|graphic)/i 
 
 # H
 /have a nice day.{1,10}this is.{5,35}from/i
@@ -154,7 +127,6 @@
 /(hello|hi).{1,5}(dear|friend).{1,10}good day/i
 /(hello|hi).{1,5}(dear|friend).{1,10}my name  is/i
 /(hello|hi).{1,5}(dear|friend).{1,10}i came across/i
-/(hello|hi).{1,5}(dear|friend).{1,10}we would like to introduce/i
 
 /(hello|hi).{1,10}\[first name\]/i
 /(hello|hi).{1,10}are you interested in/i
