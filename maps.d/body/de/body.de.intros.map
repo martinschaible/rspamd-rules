@@ -19,6 +19,12 @@
 # D
 
 # E
+/entschuldige mich für dieses eindringen/iu
+
+/entschuldigen sie.{1,10}art der kontaktaufnahme/i
+/entschuldigen sie.{1,10}eingriff in ihre privatsphäre/iu
+
+/(ernstes|wichtiges|).{1,10}thema mit ihnen besprechen/i
 
 # F
 
@@ -51,12 +57,16 @@
 # :-)
 /ich bin.{1,10}elon musk/i
 
+/ich habe gerade ihr profil gesehen/i
+/ich möchte mit ihnen kommunizieren/iu
+
 /ihnen unser unternehmen vorzustellen/i
 /ihnen vor(zu)?stellen.{1,10}ich bin/i
 
 # J
 
 # K
+/kann ich mit ihnen kommunizieren/i
 
 # L
 
@@ -97,6 +107,7 @@
 # R
 
 # S
+/sie auf diesem weg kontaktiere/i
 /sie zu kontaktieren.{1,10}mein name ist/i
 
 # T
@@ -107,6 +118,8 @@
 # V
 
 # W
+/wichtigen vorschlag mit ihnen besprechen/i
+
 /wie geht es (dir|ihnen).{1,10}das ist.{5,35}von/i
 /wie geht es (dir|ihnen).{1,10}mein name ist/i
 

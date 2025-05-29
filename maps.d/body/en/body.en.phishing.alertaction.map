@@ -17,6 +17,10 @@
 # ==============================================================================
 
 # A
+/account review report/i
+
+/(activate|enable).{1,10}2fa now/i
+/(activate|enable).{1,10}two.?factor authentication/i
 
 # B
 
@@ -33,6 +37,7 @@
 # H
 
 # I
+/important notification.{1,10}we noticed.{1,10}recent update/i
 
 # J
 
@@ -61,6 +66,7 @@
 # V
 
 # W
+/we suggest enabling.{1,10}2fa/i
 
 # X
 

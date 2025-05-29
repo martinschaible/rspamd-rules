@@ -10,6 +10,13 @@
 # ==============================================================================
 
 # A
+/(apologies|apologize|sorry).{1,10}(for intruding|to invade)/i
+/(apologies|apologize|sorry).{1,10}if my e?.?mail/i
+/(apologies|apologize|sorry).{1,10}if the content of my e?.?mail/i
+/(apologies|apologize|sorry).{1,10}infringing.{1,10}your privacy/i
+/(apologies|apologize|sorry).{1,10}reach you through this medium/i
+/(apologies|apologize|sorry).{1,10}sending this unsolicited.{1,10}e.?mail/i
+/(apologies|apologize|sorry).{1,10}unsolicited (contact|e.?mail|letter|proposal)/i
 
 # B
 
@@ -46,6 +53,13 @@
 /i am writing to introduce/i
 
 /i represent a team of over/i
+
+/i am writing to.{1,10}seek.{1,10}attention/i
+
+/i (came across|found) your.{1,10}(contact|details|e?.?mail|information|name|profile)/i
+/i (came across|found) your.{1,10}web.?site.{1,10}google/i
+
+/i was inspired after.{1,20}your.{1,15}profile/i
 
 /\bi\s*(am|'m)\b.{5,25}from.{5,25}located in/i
 /\bi\s*(am|'m)\b.{5,25}from.{1,10}shenzhen/i
@@ -178,5 +192,9 @@
 # X
 
 # Y
+/your (contact|details|e?.?mail|information|name).{1,20}(has been|was) provided by google/i
+
+/your.{1,15}profile (caught|drew) my.{1,10}attention/i
+/your.{1,15}profile jumped out at me/i
 
 # Z

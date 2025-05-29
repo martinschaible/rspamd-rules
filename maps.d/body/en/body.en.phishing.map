@@ -21,6 +21,8 @@
 # B
 
 # C
+/cancel de.?activation.{1,15}(account|request)/i
+/confirm ownership here/i
 
 # D
 
@@ -61,6 +63,7 @@
 # V
 
 # W
+/we notice you have not updated/i
 
 # X
 
