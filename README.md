@@ -61,6 +61,9 @@ These are the latest changes:
 | 29.05.25 | multimap.conf                     | New configuration files added      |
 |          | multimap.body.de.phishing.conf    | New file                           |
 |          | multimap.body.en.phishing.conf    | New file                           |
+| 29.05.25 | multimap.conf                     | Old files removed                  |
+|          | _multimap_ad.conf                 | Old file deleted                   |
+|          | _multimap_domain.conf             | Old file deleted                   |
 
 What to do:
 * Copy these files to the Rspamd server
