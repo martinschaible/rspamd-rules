@@ -14,6 +14,7 @@
 # ==============================================================================
 
 # A
+/(aktien|anleihen).{1,10}in die sie investieren/i
 
 # B
 
@@ -34,6 +35,8 @@
 # J
 
 # K
+/kostenlose.{1,10}aktientipps/i
+/kostenloser monat.{1,10}aktientipps/i
 
 # L
 

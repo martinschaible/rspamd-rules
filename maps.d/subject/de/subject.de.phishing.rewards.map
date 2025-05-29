@@ -191,7 +191,7 @@
 /ihre.{1,10}chance auf ein gratis/i
 /ihre.{1,10}exklusive.{1,20}box/i
 /ihre.{1,10}lieferadresse/i
-/ihre.{1,15}prämie.{1,10}verschickt/i
+/ihre.{1,15}prämie.{1,10}(verschickt|wartet)/i
 /ihre.{1,10}teilnahme war erfolgreich/i
 /ihre.{1,10}teilnahme wurde (belohnt|ausgewählt)/iu
 
@@ -321,7 +321,8 @@
 #/wartet auf sie!/i
 /wartet auf sie.{1,10}jetzt einlösen/iu
 
-/wartet.{1,10}antworte jetzt/i
+/(prämie|wartet).{1,10}antworte jetzt/i
+/(prämie|wartet).{1,15}bestätigen Sie Ihre Adresse/iu
 /wartet nur auf sie/i
 
 /wichtig.{1,10}nur 48 stunden/i
