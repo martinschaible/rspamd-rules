@@ -490,7 +490,7 @@
 /grow.{0,10}(hair|trick)/i
 
 /gum.{0,10}(bleeding|disease|health|saver)/i
-/gut.{0,10}(balance|cleanse|fix|flush|health|quiz|reboot|repair|solution)/i
+/gut.{0,10}(balance|cleanse|fix|flush|health|quiz|reboot|repair|solution|trick)/i
 
 # H
 /hair.{0,5}(balding|enhancer|growth|loss|renewal|restoration|restorer?|thinning)/i
@@ -578,7 +578,7 @@
 
 /medicinal.{0,10}patch(es)?/i
 
-/memory.{0,10}drink/i
+/memory.{0,10}(drink|killer)/i
 
 /mens?.{0,10}(only|power)/i
 /mental.{0,10}clarity/i

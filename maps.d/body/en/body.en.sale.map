@@ -24,6 +24,7 @@
 # B
 
 # C
+/contact details.{1,10}your business/i
 
 # D
 
@@ -33,6 +34,7 @@
 # F
 
 # G
+/google at.{1,10}low cost/i
 
 # H
 
@@ -52,27 +54,41 @@
 # O
 
 # P
+/portable a.?c cools you/i
 
 # Q
 
 # R
+/reviewed your website.{1,10}was impressed/i
 
 # S
+/seo.{1,10}needs.{1,15}(improvement|significant)/i
+/seo.{1,15}saw that your (web)?site/i
+/seo.{1,10}poorly done/i
 
 # T
+/team specializes in seo/i
+
 /(targeted|verified).{1,15}contact.?lists of/i
 /(targeted|verified).{1,15}e?.?mail.{1,10}(databases?|leads?|lists?)/i
 /(targeted|verified).{1,15}databases?.{1,10}businesses.{1,10}operating/i
 
 # U
+/upgrade.{1,10}maintenance.{1,10}your website/i
 
 # V
 
 # W
+/we.{1,10}guarantee top.{1,10}(placement|ranking)/i
+/we.{1,10}rank you in the top/i
 
 # X
 
 # Y
 /you looking.{1,15}e?.?mail.?marketing/i
+
+/your.{1,10}mobile.?app.{1,10}requirement/i
+/your.{1,10}website.{1,15}seo issues/i
+/your.{1,10}website.{1,15}impressed /i
 
 # Z

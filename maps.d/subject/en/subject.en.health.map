@@ -47,7 +47,7 @@
 
 /this.{1,10}home remedy/i
 /this.{1,10}night trick/i
-/this.{1,10}sec fix/i
+/this.{1,10}sec(ond)? (fix|morning)/i
 /this.{1,10}tsp hack/i
 /(this|unlock).{1,10}(natural|tropical|unique).{1,10}(formula|hack|remedy|trick)/i
 
@@ -532,7 +532,7 @@
 /scientists?.{0,10}reveals?/i
 /scientists?.{0,10}this is/i
 
-/sec(ond)?.{1,10}(home remedy|sleep trick|stretch)/i
+/sec(ond)?.{1,10}(home remedy|morning cleanse|sleep trick|stretch)/i
 
 /secret behind.{1,10}aging/i
 /secret to.{1,15}fat.?burning/i
