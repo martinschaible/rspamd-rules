@@ -67,7 +67,8 @@
 /(aktualisieren?|bestätigen?).{1,10}sie.{1,10}ihre.{1,20}(verifizierung|zahlungsdaten)/iu
 /(aktualisieren?|bestätigen?).{1,10}sie.{1,10}ihren.{1,15}zugang/i
 
-/aktualisieren sie.{1,15}sicherheit/i
+/aktualisieren.{1,10}sie.{1,10}ihre.{1,20}credit.?card.?app/i
+/aktualisieren.{1,10}sie.{1,15}sicherheit/i
 
 /angaben jetzt vervollständigen/iu
 /anmeldeversuch.{1,10}bitte bestätigen sie/iu
