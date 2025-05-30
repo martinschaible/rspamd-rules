@@ -378,7 +378,7 @@
 
 /lidl.?202\d/i
 /lidl_/i
-/lidl.?versand/i
+/lidl.?(markt|versand)/i
 
 /lieferung.{0,5}dhl/i
 
@@ -491,6 +491,7 @@
 /post(ch|de)/i
 /post ch$/i
 /post.{1,5}schweiz/i
+/post(_|-)ch
 
 /post.?finance.{0,5}benachrichtigungen/i
 
