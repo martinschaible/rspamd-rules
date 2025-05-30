@@ -154,7 +154,9 @@
 
 # Skin
 # ------------------------------------------------------------------------------
-/skin.{0,10}(care|cure|rejuvenation|reviver|sagging|science)/i
+/skin.{0,10}(care|cure|sagging|science)/i
+/skin.{0,10}(regeneration|rejuvenation|reviver)/i
+
 /(aged|aging|perfect|radiant|saggy|smooth|timeless|young|youth).{0,10}skin/i
 /(dark|face).{0,10}spots?/i
 
