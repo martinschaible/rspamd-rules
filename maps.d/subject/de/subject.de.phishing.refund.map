@@ -50,9 +50,9 @@
 
 /ihre.{1,10}rechnung wurde zweimal bezahlt/i
 
-/ihre (rück)?erstattung.{1,25}wurde genehmigt/i
-/ihre (rück)?erstattung von/iu
-/ihre (rück)?erstattungs.?anfrage/iu
+/ihre.{1,10}online.?(rück)?erstattung/i
+/ihre.{1,10}(rück)?erstattung.{1,10}von/iu
+/ihre.{1,10}(rück)?erstattungs.?anfrage/iu
 
 # J
 
@@ -78,10 +78,10 @@
 /(rück)?erstattung.{1,10}für doppelte/iu
 /(rück)?erstattung.{1,10}ihre zugreise/iu
 /(rück)?erstattung.{1,10}ihres beitrags/iu
-/(rück)?erstattung.{1,10}ist (bereit7online|verfügbar)/iu
+/(rück)?erstattung.{1,10}ist (bereit|online|verfügbar)/iu
 /(rück)?erstattung.{1,10}(jetzt|möglich|verfügbar)/iu
 /(rück)?erstattung.{1,10}von.{1,15}ihre krankenversicherung/i
-/(rück)?erstattung.{1,10}wurde angenommen/i
+/(rück)?erstattung.{1,10}wurde (angenommen|genehmigt)/i
 /(rück)?erstattung.{1,10}zur verfügung/iu
 
 # S
