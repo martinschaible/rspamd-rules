@@ -80,6 +80,10 @@
 
 # A
 /akku.?kettensäge/iu
+/akku.{1,10}ausrüstung/i
+/akku.?(geräte|produkte|set) je \d{2} statt \d{3}/iu
+/akku.?(geräte|produkte|set).{1,10}versandbereit/i
+/Akku.?(geräte|produkte|set).{1,10}komplett/i
 
 /aktion.{1,10}corona.?tests?/i
 
@@ -144,6 +148,7 @@
 /guenstiges fernsehen/i
 
 # H
+/hammerpreis.{1,10}akku.?produkte/i
 /handgefertigte messer/i
 
 /hochdruck.?reiniger.{1,10}statt.{1,10}jetzt/i
