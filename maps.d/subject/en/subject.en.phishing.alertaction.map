@@ -18,6 +18,9 @@
 # Generic
 # ==============================================================================
 
+# TLD in front, usualy (ch|com|de|org)
+/\.[a-z]{1,4}.{1,5}verification required/i
+
 # Sample:  8:43:23 a.m. : Action Required
 /\d{1,2}:\d{1,2}:\d{1,2}.{1,10}action required/i
 
@@ -126,6 +129,7 @@
 /login detected.{1,10}action needed/i
 
 # M
+/mailbox full.{1,10}action required/i
 
 # N
 /notice.{1,10}(package|parcel|shipment) on hold/i

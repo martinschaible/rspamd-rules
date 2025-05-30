@@ -79,11 +79,11 @@
 /4k.{0,10}kamera/i
 
 # A
-/akku.?kettensäge/iu
+/akku.?(kettensäge|kraft)/iu
 /akku.{1,10}ausrüstung/i
 /akku.?(geräte|produkte|set) je \d{2} statt \d{3}/iu
 /akku.?(geräte|produkte|set).{1,10}versandbereit/i
-/Akku.?(geräte|produkte|set).{1,10}komplett/i
+/akku.?(geräte|produkte|set).{1,10}komplett/i
 
 /aktion.{1,10}corona.?tests?/i
 
@@ -102,6 +102,8 @@
 
 # B
 /beheizten? westen?/i
+
+/bestseller.{1,10}akku.?(geräte|produkte|set)/i
 
 # Sample: Bildschirm. Statt 169,-nur 49,90
 /bildschirm.{1,10}statt \d{2,3}.{1,5}nur.{1,5}\d{2}/i
