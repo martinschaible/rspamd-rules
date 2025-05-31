@@ -207,8 +207,8 @@
 
 # J
 /jetzt adresse bestätigen/iu
-/jetzt (antworten|öffnen)/i
-/jetzt gewinn bestätigen/iu
+/jetzt.{1,15}(belohnung|gewinn) (anfordern|bestätigen)/i
+/jetzt.{1,15}(antworten|öffnen)/i
 
 # K
 /kostenlos(es)?.{1,25}gewinnen/i

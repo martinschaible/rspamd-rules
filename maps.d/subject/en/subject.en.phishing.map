@@ -63,7 +63,6 @@
 /requesting authentication/i
 
 # S
-/secure.{1,10}wallet.{1,10}access (needed|now)/i
 /secure your access/i
 
 /server upgrade.{1,10}improved performance/i
@@ -78,11 +77,12 @@
 /validate wallet/i
 
 # W
+/wallet.{1,10}access (needed|now)/i
+/wallet needs verification/i
+/wallet will.{1,10}be suspended/i
 
 # X
 
 # Y
 /your.{1,15}funds at risk/i
-/your.{1,15}wallet will.{1,10}be suspended/i
-
 # Z

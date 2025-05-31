@@ -38,6 +38,8 @@
 
 /atm department/i
 
+/award.{1,10}ref.?code/i
+
 # B
 /beneficial sir/i
 /beneficiary.{1,15}(e?.?mail|final|fund|inquiry|notice|recover)/i

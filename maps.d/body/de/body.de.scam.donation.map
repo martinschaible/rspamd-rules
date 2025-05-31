@@ -31,6 +31,7 @@
 /(dollar|euro?|gbp|usd|€|\$|£).{1,10}wurden (an sie|ihnen) gespendet/i
 
 # E
+/erhalten.{1,10}kontaktieren sie uns.{1,10}weitere informationen/iu
 
 # F
 /fordern sie ihre.{1,10}spende/i
@@ -65,6 +66,8 @@
 # R
 
 # S
+/sie haben eine spende von.{1,5}\d{2,4}(\.|,)?\d{3,4}/i
+/sie haben eine spende von.{1,15}(dollar|euro?|gbp|usd|€|\$|£)/i
 /sie wurden für (die|eine).{1,15}spende/i
 
 # T
