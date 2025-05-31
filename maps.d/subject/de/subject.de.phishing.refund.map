@@ -20,6 +20,7 @@
 # ==============================================================================
 
 # A
+/abschluss.{1,10}(rück)?erstattung/i
 /anspruch.{1,15}steuer(rück)?erstattung/i
 
 # B
@@ -83,6 +84,8 @@
 /(rück)?erstattung.{1,10}von.{1,15}ihre krankenversicherung/i
 /(rück)?erstattung.{1,10}wurde (angenommen|genehmigt)/i
 /(rück)?erstattung.{1,10}zur verfügung/iu
+
+/(rück)?erstattungs.?prozess(es)?.{1,10}\d{2,3}/i
 
 # S
 /sie doppelt in rechnung gestellt/i

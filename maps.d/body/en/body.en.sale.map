@@ -38,6 +38,24 @@
 
 /(hello|hi).{1,5}(dear|friend).{1,10}we would like to introduce/i
 
+# SEO
+# ------------------------------------------------------------------------------
+/google at.{1,10}low cost/i
+
+/bringing more visitors.{1,10}leads/i
+/top quickly.{1,10}low cost/i
+/our.{1,10}seo services/i
+/our.{1,10}(complete|comprehensive).{1,10}seo/i
+
+/we.{1,10}guarantee top.{1,10}(placement|ranking)/i
+/we.{1,10}rank you in the top/i
+
+/you top positions.{1,10}low cost/i
+
+# Websites
+# ------------------------------------------------------------------------------
+/websites.{1,10}message us/i
+
 #
 #
 #
@@ -60,7 +78,6 @@
 # F
 
 # G
-/google at.{1,10}low cost/i
 
 # H
 
@@ -78,8 +95,6 @@
 # N
 
 # O
-/our.{1,10}seo services/i
-/our.{1,10}(complete|comprehensive).{1,10}seo/i
 
 # P
 /package features.{1,15}seo/i
@@ -109,8 +124,6 @@
 # V
 
 # W
-/we.{1,10}guarantee top.{1,10}(placement|ranking)/i
-/we.{1,10}rank you in the top/i
 
 # X
 
