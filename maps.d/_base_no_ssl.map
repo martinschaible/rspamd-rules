@@ -5,24 +5,6 @@
 #  10 |
 # ==============================================================================
 
-# Regular TLD
-# ------------------------------------------------------------------------------
-/http:\/\/(www\.)?[a-z]{3,20}\.(net|pl)/i
-
-/http:\/\/(www\.)?[a-z0-9-]{3,25}\.(ru|sa|za)\.com\//i
-/http:\/\/(www\.)?[a-z0-9-]{3,25}\.co\.(in|uk)\//i
-/http:\/\/(www\.)?[a-z0-9-]{3,25}\.me\.uk\//i
-/http:\/\/(www\.)?[a-z0-9-]{3,25}\.(in|ru)\//i
-
-# False/Positives
-#/http:\/\/(www\.)?[a-z0-9-]{3,25}\.(biz|info)/i
-
-/http:\/\/(www\.)?[a-z0-9-]{3,25}\.com\/redirect\.html/i
-
-# False/Positives
-# Sample: http://tructions.com/1O0b061o8t0mjje0-1pzqbi026rl2ut3a577d000001
-#/http:\/\/[a-z0-9-]{3,25}\.com\/[a-z0-9-]{3,20}-[a-z0-9-]{3,20}/i
-
 # Exotic TLD
 # ------------------------------------------------------------------------------
 /http:\/\/(www\.)?[a-z0-9-]{3,20}\.(bond|club|email|fun|help|life|ltd|me|one|pics|pro|rest|services|shop|social|space|store|today|world|xyz)\//i
