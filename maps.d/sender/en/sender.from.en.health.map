@@ -610,7 +610,7 @@
 /miracle.{0,10}syrup/i
 
 # N
-/(toe)?nail.{0,10}(fix(er)?|repair|rescue|restoration|rub|test)/i
+/(toe)?nail.{0,10}(fix(er)?|health|repair|rescue|restoration|rub|test)/i
 
 /nasty.{0,10}(lumps|(toe)?nails?)/i
 
@@ -795,7 +795,9 @@
 
 /thicker.{0,10}harder/i
 /thin(ning)?.{0,10}hair/i
+
 /this.{0,10}elixir/i
+/this.{0,10}(helped|helps)/i
 
 /(tingling|numb).{0,10}(feet|hand|nerves)/i
 
@@ -857,7 +859,7 @@
 /your.{1,10}(a1c|alcohol)/i
 /your.{1,10}(balance|bladder|brain)/i
 /your.{1,10}(craving|diet|ears|gut)/i
-/your.{1,10}(health|heart|intimacy|kidneys|knees)/i
+/your.{1,10}(health|heart|hips|intimacy|kidneys|knees)/i
 /your.{1,10}(live.?span|liver)/i
 /your.{1,10}(pee|pelvis|poop|posture)/i
 /your.{1,10}recipes/i
