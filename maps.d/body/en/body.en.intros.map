@@ -83,6 +83,8 @@
 /(\bi\s*(am|'m)\b|my name is).{5,35}(sales|senior|soldier|solicitor|specialist)/i
 /(\bi\s*(am|'m)\b|my name is).{5,35}trader/i
 
+/(\bi\s*(am|'m)\b|my name is).{5,35}from the/i
+
 # Country
 /(\bi\s*(am|'m)\b|my name is).{5,35}(french|indian?|nigeria|swedish|united kingdom)/i
 
