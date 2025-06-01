@@ -179,29 +179,33 @@ Folder structure:
 ```
 sender
   ├─ de
-  │   ├─ sender.from.de.map                      --- multimap.sender.de.conf 
-  │   ├─ sender.from.de.adult.map                --- multimap.sender.de.adult.conf
-  │   ├─ sender.from.de.finance.map              --- multimap.sender.de.finance.conf
-  │   ├─ sender.from.de.gambling.map             --- multimap.sender.de.gambling.conf
-  │   ├─ sender.from.de.health.map               --- multimap.sender.de.health.conf
-  │   ├─ sender.from.de.lottery.map              --- multimap.sender.de.lottery.conf
-  │   ├─ sender.from.de.makemoney.map            --- multimap.sender.de.makemoney.conf
-  │   ├─ sender.from.de.phishing.map             --- multimap.sender.de.phishing.conf
-  │   ├─ sender.from.de.phishing.malware.map     --- multimap.sender.de.phishing.malware.conf
-  │   ├─ sender.from.de.sale.map                 --- multimap.sender.de.sale.conf
+  │   ├─ sender.address.de.map                   --- multimap.sender.address.de.conf 
   │   │
-  │   ├─ sender.from.de.singleword.map           --- multimap.sender.de.conf
-  │   └─ sender.from.de.singleword.ucase.map     --- multimap.sender.de.conf
+  │   ├─ sender.from.de.map                      --- multimap.sender.from.de.conf 
+  │   ├─ sender.from.de.adult.map                --- multimap.sender.from.de.adult.conf
+  │   ├─ sender.from.de.finance.map              --- multimap.sender.from.de.finance.conf
+  │   ├─ sender.from.de.gambling.map             --- multimap.sender.from.de.gambling.conf
+  │   ├─ sender.from.de.health.map               --- multimap.sender.from.de.health.conf
+  │   ├─ sender.from.de.lottery.map              --- multimap.sender.from.de.lottery.conf
+  │   ├─ sender.from.de.makemoney.map            --- multimap.sender.from.de.makemoney.conf
+  │   ├─ sender.from.de.phishing.map             --- multimap.sender.from.de.phishing.conf
+  │   ├─ sender.from.de.phishing.malware.map     --- multimap.sender.from.de.phishing.malware.conf
+  │   ├─ sender.from.de.sale.map                 --- multimap.sender.from.de.sale.conf
+  │   │
+  │   ├─ sender.from.de.singleword.map           --- multimap.sender.from.de.conf
+  │   └─ sender.from.de.singleword.ucase.map     --- multimap.sender.from.de.conf
   │
   ├─ en
   │   └─ ....
   │
-  ├─ sender.from.phishing.orgbrandprod.map       --- multimap.sender.phishing.conf
-  │
   ├─ sender.address.map                          ─┐
-  ├─ sender.address.orgbrandprod.map              │
-  ├─ sender.from.orgbrandprod.map                 ├─ multimap.sender.conf
-  ├─ sender.from.people.map                       │
+  ├─ sender.address.orgbrandprod.map              ├─ multimap.sender.address.conf
+  ├─ sender.address......map                      │
+  ├─ sender.address.tld                          ─┘
+  │
+  ├─ sender.from.phishing.orgbrandprod.map       --- multimap.sender.from.phishing.conf
+  ├─ sender.from.orgbrandprod.map                ─┐
+  ├─ sender.from.people.map                       ├─ multimap.sender.from.conf
   └─ sender.from.special.map                     ─┘
 ```
 
