@@ -60,6 +60,10 @@
 # ------------------------------------------------------------------------------
 /websites.{1,10}message us/i
 
+/(i.?a?m|we are).{1,10}indian?.{1,10}(based|development|web)/i
+
+/you.{1,10}want.{1,10}(create|make).{1,15}(business|new)?.{1,10}(web)?.?site/i
+
 #
 #
 #
