@@ -65,6 +65,15 @@ These are the latest changes:
 |          | _multimap_ad.conf                 | Old file deleted                   |
 |          | _multimap_domain.conf             | Old file deleted                   |
 
+Attention: A major migration of the configuration files is necessary:
+The naming of the "Sender" files was unfortunate and has now been corrected.
+New configuration files have also been added. 
+
+| 02.06.25 | multimap.conf                     | New configuration files added      |
+|          | multimap.sender.address.conf      | New file                           |
+|          | multimap.sender.address.de.conf   | New file                           |
+|          | multimap.sender.address.en.conf   | New file                           |
+
 What to do:
 * Copy these files to the Rspamd server
 * Restart the Rspamd service
@@ -200,7 +209,7 @@ sender
   │
   ├─ sender.address.map                          ─┐
   ├─ sender.address.orgbrandprod.map              ├─ multimap.sender.address.conf
-  ├─ sender.address......map                      │
+  ├─ sender.address.people.map                    │
   ├─ sender.address.tld                          ─┘
   │
   ├─ sender.from.phishing.orgbrandprod.map       --- multimap.sender.from.phishing.conf
