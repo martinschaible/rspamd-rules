@@ -29,6 +29,8 @@
 
 # C
 /(casual|tiktok).{0,10}adult/i
+
+/chat with/i
 /christian matches/i
 
 # D
@@ -51,7 +53,7 @@
 
 # H
 /horny.{0,10}love/i
-/hot.{0,10}(app|friends|meeting)/i
+/hot.{0,10}(app|friends|girls?|meeting)/i
 
 # I
 
@@ -95,6 +97,7 @@
 /view.{0,10}singles/i
 
 # W
+/want.{0,10}chat/i
 
 # X
 
