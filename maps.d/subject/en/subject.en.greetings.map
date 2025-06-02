@@ -57,7 +57,7 @@
 /good (afternoon|day|evening|morning).{1,10}how.{1,10}going/i
 
 /greetings?.{1,10}@/i
-/greetings?.{1,10}beloved/i
+/greetings?.{1,10}(beloved|esteemed)/i
 /greetings?.{1,10}from mrs?(\.|,)/i
 /greetings?.{1,10}(future|from here)/i
 /greetings?.{1,10}(in the name of god|to you)/i
@@ -68,7 +68,7 @@
 /hello (madam|sir)/i
 
 /hello.{1,10}anticipated partner/i
-/hello.{1,10}(dear|good) friend/i
+/hello.{1,10}(dear|good)?.?friend/i
 /hello.{1,10}my (dear|friend)/i
 
 # I

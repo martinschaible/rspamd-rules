@@ -11,6 +11,7 @@
 
 # A
 /(apologies|apologize|sorry).{1,10}(for intruding|to invade)/i
+/(apologies|apologize|sorry).{1,10}for this.{1,10}sudden e?.?mail/i
 /(apologies|apologize|sorry).{1,10}if my e?.?mail/i
 /(apologies|apologize|sorry).{1,10}if the content of my e?.?mail/i
 /(apologies|apologize|sorry).{1,10}infringing.{1,10}your privacy/i
@@ -48,6 +49,7 @@
 
 # I
 /i am (engr|madam)/i
+/i am delighted to contact you/i
 /i am representing.{1,10}(company|my)/i
 /i am presently working as a/i
 /i am writing to introduce/i
