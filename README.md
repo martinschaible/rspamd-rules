@@ -69,6 +69,8 @@ Attention: A major migration of the configuration files is necessary:
 The naming of the "Sender" files was unfortunate and has now been corrected.
 New configuration files have also been added. 
 
+| Date     | File                              | Reason                             |
+| -------- | ----------------------------------| ---------------------------------- |
 | 03.06.25 | multimap.conf                     | New configuration files added      |
 |          | multimap.sender.address.conf      | New file                           |
 |          | multimap.sender.address.de.conf   | New file                           |
