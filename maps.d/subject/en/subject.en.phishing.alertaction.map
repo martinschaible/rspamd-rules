@@ -142,7 +142,10 @@
 
 # P
 /password notice alert/i
+
 /pending action.{1,10}final step to/i
+/pending failure notice/i
+
 /please validate now/i
 
 # Q

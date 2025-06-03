@@ -69,7 +69,9 @@
 # S
 /sie haben eine spende von.{1,5}\d{2,4}(\.|,)?\d{3,4}/i
 /sie haben eine spende von.{1,15}(dollar|euro?|gbp|usd|€|\$|£)/i
+
 /sie wurden für (die|eine).{1,15}spende/i
+/sie wurden von unserer stiftung/i
 
 /spende zugesprochen.{1,15}für weitere informationen/iu
 
