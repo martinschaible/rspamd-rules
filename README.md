@@ -69,10 +69,14 @@ Attention: A major migration of the configuration files is necessary:
 The naming of the "Sender" files was unfortunate and has now been corrected.
 New configuration files have also been added. 
 
-| 02.06.25 | multimap.conf                     | New configuration files added      |
+| 03.06.25 | multimap.conf                     | New configuration files added      |
 |          | multimap.sender.address.conf      | New file                           |
 |          | multimap.sender.address.de.conf   | New file                           |
 |          | multimap.sender.address.en.conf   | New file                           |
+|          | multimap.sender.from.de.*.conf    | New files                          |
+|          | multimap.sender.from.en.*.conf    | New files                          |
+|          | multimap.sender.de.*.conf         | Old file deleted/renamed           |
+|          | multimap.sender.en.*.conf         | Old file deleted/renamed           |
 
 What to do:
 * Copy these files to the Rspamd server
@@ -132,6 +136,14 @@ body
   ├─ body.de.orgname.map                          │
   ├─ body.us.orgname.map                         ─┘
   │
+  ├─ href
+  │   ├─ body.href.az.domain.name.map            ─┐
+  │   ├─ body.href.ch.domain.name.map             │
+  │   ├─ body.href.de.domain.name.map             ├─ multimap.body.href.conf
+  │   ├─ body.href.us.domain.name.map             │
+  │   ├─ body.href.domain.name.pattern.map        │
+  │   └─ body.href.url.path.orgbrandprod.map     ─┘
+  │
   ├─ de
   │   ├─ body.de.map                             ─┐
   │   ├─ body.de.greetings.map                    │
@@ -170,16 +182,8 @@ body
   │   ├─ body.de.scam.order.map                   │
   │   └─ body.de.scam.winning.map                ─┘
   │
-  ├─ en
-  │   └─ ....
-  │
-  └─ href
-      ├─ body.href.az.domain.name.map            ─┐
-      ├─ body.href.ch.domain.name.map             │
-      ├─ body.href.de.domain.name.map             ├─ multimap.body.href.conf
-      ├─ body.href.us.domain.name.map             │
-      ├─ body.href.domain.name.pattern.map        │
-      └─ body.href.url.path.orgbrandprod.map     ─┘
+  └─ en
+      └─ ....
 ```
 
 ### Setup for "sender"
@@ -187,8 +191,22 @@ body
 Folder structure:
 ```
 sender
+  ├─ sender.address.map                          ─┐
+  ├─ sender.address.orgbrandprod.map              ├─ multimap.sender.address.conf
+  ├─ sender.address.people.map                    │
+  ├─ sender.address.tld                          ─┘
+  │
   ├─ de
-  │   ├─ sender.address.de.map                   --- multimap.sender.address.de.conf 
+  │   └─ sender.address.de.map                   --- multimap.sender.address.de.conf 
+  │
+  ├─ sender.from.phishing.orgbrandprod.map       --- multimap.sender.from.phishing.conf
+  ├─ sender.from.orgbrandprod.map                ─┐
+  ├─ sender.from.people.map                       ├─ multimap.sender.from.conf
+  ├─ sender.from.special.map                     ─┘
+  │
+  ├─ de
+  │   ├─ sender.from.de.singleword.map           --- multimap.sender.from.de.conf
+  │   ├─ sender.from.de.singleword.ucase.map     --- multimap.sender.from.de.conf
   │   │
   │   ├─ sender.from.de.map                      --- multimap.sender.from.de.conf 
   │   ├─ sender.from.de.adult.map                --- multimap.sender.from.de.adult.conf
@@ -199,30 +217,22 @@ sender
   │   ├─ sender.from.de.makemoney.map            --- multimap.sender.from.de.makemoney.conf
   │   ├─ sender.from.de.phishing.map             --- multimap.sender.from.de.phishing.conf
   │   ├─ sender.from.de.phishing.malware.map     --- multimap.sender.from.de.phishing.malware.conf
-  │   ├─ sender.from.de.sale.map                 --- multimap.sender.from.de.sale.conf
-  │   │
-  │   ├─ sender.from.de.singleword.map           --- multimap.sender.from.de.conf
-  │   └─ sender.from.de.singleword.ucase.map     --- multimap.sender.from.de.conf
+  │   └─ sender.from.de.sale.map                 --- multimap.sender.from.de.sale.conf
   │
-  ├─ en
-  │   └─ ....
-  │
-  ├─ sender.address.map                          ─┐
-  ├─ sender.address.orgbrandprod.map              ├─ multimap.sender.address.conf
-  ├─ sender.address.people.map                    │
-  ├─ sender.address.tld                          ─┘
-  │
-  ├─ sender.from.phishing.orgbrandprod.map       --- multimap.sender.from.phishing.conf
-  ├─ sender.from.orgbrandprod.map                ─┐
-  ├─ sender.from.people.map                       ├─ multimap.sender.from.conf
-  └─ sender.from.special.map                     ─┘
+  └─ en
+      └─ ....
 ```
 
 ### Setup for "subject"
 
 Folder structure:
 ```
-subject
+subject  
+  ├─ subject.health.medname.map                  --- multimap.subject.health.conf
+  ├─ subject.orgbrandprod.map                    ─┐
+  ├─ subject.special.map                          ├─ multimap.subject.conf
+  ├─ subject.special.emoji.map                   ─┘
+  │
   ├─ de
   │   ├─ subject.de.map                          ─┐  
   │   ├─ subject.de.greetings.map                 │
@@ -262,13 +272,8 @@ subject
   │   ├─ subject.de.scam.order.map                │
   │   └─ subject.de.scam.winning.map             ─┘
   │
-  ├─ en
-  │   └─ ....
-  │
-  ├─ subject.health.medname.map                  --- multimap.subject.health.conf
-  ├─ subject.orgbrandprod.map                    ─┐
-  ├─ subject.special.map                          ├─ multimap.subject.conf
-  └─ subject.special.emoji.map                   ─┘
+  └─ en
+      └─ ....
 ```
 
 
@@ -277,21 +282,20 @@ subject
 Folder structure:
 ```
 whitelist
-  ├─ de
-  │   ├─ body.de.whitelist.map                   ─┐
-  │   ├─ sender.from.de.whitelist.map             │
-  │   └─ subject.de.whitelist.map                 │
-  │                                               │
-  ├─ en                                           │
-  │   └─ ....                                     │
-  │                                               │
-  ├─ body.href.url.az.whitelist.map           +   ├─ multimap.whitelist.conf
+  ├─ body.href.url.az.whitelist.map           +  ─┐ 
   ├─ body.href.url.ch.whitelist.map           +   │
   ├─ body.href.url.de.whitelist.map           +   │
   ├─ body.href.url.us.whitelist.map           +   │
   │                                               │
-  └─ header.ip.whitelist.map                  +  ─┘
-
+  ├─ header.ip.whitelist.map                  +   │
+  │                                               │
+  ├─ de                                           ├─ multimap.whitelist.conf
+  │   ├─ body.de.whitelist.map                    │
+  │   ├─ sender.from.de.whitelist.map             │
+  │   └─ subject.de.whitelist.map                 │
+  │                                               │
+  └─ en                                           │
+      └─ ....                                    ─┘
 ```
 
 **+ -> "prefilter" is set**
