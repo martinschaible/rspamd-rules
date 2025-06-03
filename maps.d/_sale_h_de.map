@@ -638,12 +638,6 @@
 
 # Offer to sell vehicles
 # ------------------------------------------------------------------------------
-/(ich|wir) kaufen?.{1,10}(autos|fahrzeuge|pkw).{1,10}(aller art|guten tag)/i
-/(ich|wir) kaufen?.{1,10}(autos|fahrzeuge|pkw) von jeder Marke/i
-
-/(ich|wir) kaufen?.{1,10}gebrauchte.{1,15}(autos|fahrzeuge|pkw)/i
-/(ich|wir) kaufen?.{1,10}(autos|fahrzeuge|pkw) mit unfallschäden/ui
-
 /unkomplizierten ankauf.{1,10}gebrauchte?.{1,10}(autos|fahrzeuge|pkw)/i
 
 /unsere firma sucht.{1,15}gebrauchte.{1,10}(autos|fahrzeuge|pkw)/i
