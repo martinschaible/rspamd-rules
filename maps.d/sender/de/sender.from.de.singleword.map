@@ -375,7 +375,7 @@
 /kundendienst.?(™|®|©)/i
 
 /kundenbefragung/i
-/kundenbetreuung/i
+/^kundenbetreuung$/i
 /kundendienstes/i
 
 /kundenerfahrung/i
@@ -436,6 +436,7 @@
 # M
 /männlichkeit/iu
 /malware.?schutz/i
+/marketingagentur$/i
 
 /matten$/i
 
@@ -645,7 +646,9 @@
 /technik.?bonus/i
 /telefon.?anlage/i
 /terrassenschirme?/i
+
 /testsieger$/i
+/testhörer/i
 
 /treppenlift/i
 /treuebonus/i
