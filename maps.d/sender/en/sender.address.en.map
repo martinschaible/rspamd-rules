@@ -1,0 +1,101 @@
+# ==============================================================================
+# Fake and fictitious email addresses are often used.
+#
+# ------------------------------------------------------------------------------
+# Language: english
+# Weight:   6.0
+# ==============================================================================
+
+# Topics
+# ==============================================================================
+
+# Pattern
+# ------------------------------------------------------------------------------
+# Sample: Sales098@topmail.com
+/(girl|info|kontakt|lifestyle|local)\d{1,10}@/i
+/(sales|suite|support|system)\d{1,10}@/i
+
+#
+#
+#
+
+# Generic
+# ==============================================================================
+
+# A
+
+# B
+
+# C
+/claim.?refund/i
+
+# D
+
+# E
+
+#/e-service\./i
+
+# F
+/factory@/i
+
+/fat.?burning/i
+
+# G
+
+# H
+
+# I
+
+# J
+
+# K
+
+# L
+
+# M
+/mailxcg/i
+/mailweb/i
+
+/mail.?swiss/i
+
+# N
+/news\.(info|mail)/i
+
+# O
+/offer\./i
+
+# P
+
+# Q
+
+# R
+# Sample: reply+58215353.52017217@capture.hireology.com
+/reply.?\+/i
+
+
+# S
+/sales.?manager/i
+
+/seo@/i
+/seo.?expert/i
+
+/slim.?diet/i
+
+# T
+
+# U
+# 24.05.25 - Sample: noreply@update-9-916d9.firebaseapp.com
+/@update-\d{1,2}-[a-z0-9]{5}\./i
+
+# 24.05.25 - Sample: noreply@update-20.firebaseapp.com
+/@update-\d{2}\./i
+
+# V
+
+# W
+
+# X
+
+# Y
+
+# Z
