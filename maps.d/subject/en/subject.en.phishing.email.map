@@ -27,7 +27,7 @@
 /\.[a-z]{1,4}.{1,10}warning{1,10}the e?.?mail account/i
 /\.[a-z]{1,4}.{1,10}will be blocked/i
 
-/\d pending.{1,10}(e?.?mail|message)/i
+/\d\)? (incoming|pending).{1,10}(e?.?mail|message)/i
 
 # A
 /access unread.{1,10}(e?.?mail|message)/i

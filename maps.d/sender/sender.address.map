@@ -44,24 +44,6 @@
 # 17.05.25 - Sample: 0128427.47435.473.473@9554.de
 /\d{1,10}\.\d{1,10}\.\d{1,10}@/i
 
-# 24.05.25 - Sample: noreply@update-9-916d9.firebaseapp.com
-/@update-\d{1,2}-[a-z0-9]{5}\./i
-
-# 24.05.25 - Sample: noreply@update-20.firebaseapp.com
-/@update-\d{2}\./i
-
-# Phishing
-# ------------------------------------------------------------------------------
-
-# Pattern
-# ------------------------------------------------------------------------------
-
-# Sample: Sales098@topmail.com
-/(girl|info|kontakt|lifestyle|local)\d{1,10}@/i
-/(sales|suite|support|system)\d{1,10}@/i
-
-/xxx.{1,15}@/i
-/rechnung\d{1,10}@/i
 
 #
 #
@@ -76,25 +58,16 @@
 # 16.02.25
 /admin-email\./i
 
-/angebot\@/i
-
 # B
 /bc2infob2/i
 
 # C
-/claim.?refund/i
 
 # D
-/datenaktualisierung/i
 
 # E
 
-#/e-service\./i
-
 # F
-/factory@/i
-
-/fat.?burning/i
 
 # G
 
@@ -109,47 +82,25 @@
 # L
 
 # M
-/mailxcg/i
-/mailweb/i
-
-/mail.?swiss/i
-
-/meineapp/i
 
 # N
-#/nachricht@/i
 
 /_net/i
 
-/news\.(info|mail)/i
-
 # O
-/offer\./i
 
 # P
 
 # Sample: no-reply@jovial-napier.84-247-11-185.plesk.page>
 /\d{2,3}-\d{2,3}-\d{2,3}-\d{2,3}\.plesk\.page/i
 
-/preise@/i
-
 # Q
 
 # R
 
-# Sample: reply+58215353.52017217@capture.hireology.com
-/reply.?\+/i
-
 # S
-/sales.?manager/i
-
-/seo@/i
-/seo.?expert/i
-
-/slim.?diet/i
 
 # T
-/test.?paket/i
 
 # U
 
@@ -158,6 +109,7 @@
 # W
 
 # X
+/xxx.{1,15}@/i
 
 # Y
 

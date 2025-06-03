@@ -152,6 +152,8 @@
 /(receiving|reminder).{1,15}action required/i
 /reply back today/i
 
+/report.{1,10}incoming messages/i
+
 # S
 /security alert.{1,10}funds/i
 /security alert.{1,10}verify your.{1,15}account/i
