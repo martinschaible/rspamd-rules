@@ -56,7 +56,6 @@
 /collaboration.{1,10}funding/i
 
 /^confidential information/i
-/confidential.{1,10}investment/i
 
 /confirmation.{1,10}next of kin/i
 /congrats your e.?mail/i
@@ -83,7 +82,6 @@
 /fund(ing).?.{1,10}(donation|opportunity|proposal|recovered|request)/i
 
 # G
-/guaranteed proposal/i
 
 # H
 
@@ -109,14 +107,6 @@
 
 /internet crime complaint center/i
 
-/invest in your.{1,10}(business|company|project)/i
-
-/^investment.{1,10}funds?$/i
-/^investment.{1,10}partner$/i
-
-/investment fund$/i
-/investment.{1,10}fund of/i
-
 # J
 
 # K
@@ -135,7 +125,6 @@
 /official.{1,10}grant notification/i
 
 /opportunity.{1,10}you.{1,10}afford to miss/i
-/opportunity.{1,10}invest/i
 /opportunity.{1,10}to connect/i
 
 # P
@@ -155,7 +144,6 @@
 
 # S
 /scam funds? back/i
-/scammed.{1,15}compensation/i
 
 /seeking.{1,10}your.{1,10}assistance/i
 /sincerely cooperate/i
