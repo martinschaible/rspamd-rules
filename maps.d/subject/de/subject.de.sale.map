@@ -139,7 +139,7 @@
 /(falt)?pavillon.{1,15}(blau|grau|schwarz)/i
 /(falt)?pavillon.{1,15}für (alle|\d{3})/i
 
-/(falt)?pavillon.{1,10}\d{1,5}\d/i
+/(falt)?pavillon.{1,10}\d{1,5}.?x.?\d{1,5}/i
 /(falt)?pavillon.{1,15}(aufbaubar|events?|ideal|jetzt|lieferbar|mit)i
 /(falt)?pavillon.{1,15}(schnell|seitenteile|sofort)/i
 /(falt)?pavillon.{1,15}(vorteilspreis|wetterfest)/i
