@@ -19,6 +19,10 @@
 # A
 
 # B
+/benefits?.{1,10}please get back/i
+
+/(business|proposal|transaction).{1,10}discuss with you/i
+/(business|proposal|transaction).{1,10}for you/i
 
 # C
 
@@ -31,8 +35,10 @@
 # G
 
 # H
+/has a.{1,15}business proposal/i
 
 # I
+/i have.{1,10}urgent.{1,10}opportunity/i
 
 # J
 
@@ -47,6 +53,7 @@
 # O
 
 # P
+/potential business cooperation.{1,10}your.{1,10}company/i
 
 # Q
 
@@ -59,6 +66,7 @@
 # U
 
 # V
+/you.{1,10}receive.{1,10}project proposal/i
 
 # W
 

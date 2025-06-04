@@ -21,18 +21,29 @@
 # B
 
 # C
+/compensation.{1,10}\d{2,4}(\.|,)?\d{3,4}/i
+/compensation.{1,10}(approval|donation|payment)/i
+/compensation.{1,10}has been approved/i
 
 # D
 
 # E
 
 # F
+/funds?.{1,10}deposited in your name/i
+/funds?.{1,10}for you/i
+/funds?.{1,10}million/i
+
+/funds?.{1,10}recovery.{1,10}(committee|team)/i
+/funds?.{1,10}(relief|request)/i
 
 # G
 
 # H
 
 # I
+/immediate.{1,10}transfer of your.{1,10}(dollars?|euro?|usd|€|\$|£)/i
+/important.{1,10}grant notification/i
 
 # J
 
@@ -57,6 +68,7 @@
 # T
 
 # U
+/urgent.{1,20}transaction/i
 
 # V
 
@@ -65,5 +77,16 @@
 # X
 
 # Y
+/your.{1,10}compensated/i
+/your.{1,10}(compensation|grant).{1,10}has been/i
+/your.{1,10}(compensation|grant).{1,10}payment/i
+
+# Funds
+/your.{1,10}fund$/i
+/your.{1,10}funds?.{1,15}(approved|has been|ready for|released|payout)/i
+/your.{1,10}funding notice/i
+
+/your.{1,10}payment.{1,10}(available|approved)/i
+/your.{1,10}unpaid funds/i
 
 # Z

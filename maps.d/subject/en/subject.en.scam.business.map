@@ -19,8 +19,16 @@
 # A
 
 # B
+/(business|partnership).{1,10}(enquiry|inquiry)/i
+
+/(business|partnership).{1,10}(assistance|collaboration|discussion|meeting request)/i
+/(business|partnership).{1,10}(offer|opportunity|proposal|proposition|response)/i
+
+/(business|partnership).{1,10}investment.{1,10}collaboration/i
+/(business|partnership).{1,10}project.{1,10}investment/i
 
 # C
+/^cooperation request/i
 
 # D
 
@@ -33,6 +41,10 @@
 # H
 
 # I
+/introduction.{1,10}proposal/i
+
+/investment.{1,10}(business|deal|funds|inquiry)/i
+/investment.{1,10}(partnership|proposal|proposition|relocation)/i
 
 # J
 
@@ -47,6 +59,26 @@
 # O
 
 # P
+/partnership.{1,10}(proposal|request)/i
+
+/potential.{1,10}business.{1,10}opportunity/i
+
+/profitable.{1,10}partnership/i
+
+/project.{1,10}financial.{1,10}support/i
+/project of interest/i
+/project.?workable/i
+
+/proposal.{1,10}(attached|for you)/i
+/proposal.{1,15}(collaboration|investment|material supply|project)/i
+/proposal\.\./i
+
+/(proposal|proposition).{1,10}(\.\.|!)/i
+/(proposal|proposition).{1,10}for (business|you)/i
+/(proposal|proposition).{1,10}from banker/i
+/(proposal|proposition).{1,10}work together/i
+
+/proposition.{1,10}business/i
 
 # Q
 
@@ -57,6 +89,7 @@
 # T
 
 # U
+/urgent.{1,15}(investment|opportunity|partnership|portfolio|proposal)/i
 
 # V
 
@@ -65,5 +98,6 @@
 # X
 
 # Y
+/you see the.{1,10}proposal/i
 
 # Z

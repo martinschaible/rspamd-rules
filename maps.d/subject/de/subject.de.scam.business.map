@@ -17,18 +17,24 @@
 # ==============================================================================
 
 # A
+/anfrage zu einer potentiellen/i
 
 # B
 
 # C
 
 # D
+/dringender.{1,10}vorschlag/i
 
 # E
 
 # F
 
 # G
+/gegenseitigen.{1,10}vorteil/i
+
+/(geschäfts?|transaktions?).{0,10}(angebot|vorschlag)/iu
+/(geschäfts?|transaktions?).{1,15}uns.{1,10}von vorteil/i
 
 # H
 
@@ -47,6 +53,10 @@
 # O
 
 # P
+/potenziell wertvolle idee/i
+
+/profitable.{1,10}geschäftsmöglichkeit/iu
+/profitables.{1,10}angebot/i
 
 # Q
 

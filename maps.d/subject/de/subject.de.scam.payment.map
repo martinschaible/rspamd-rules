@@ -17,18 +17,26 @@
 # ==============================================================================
 
 # A
+/anspruch.{1,10}(betrag|geld)/i
 
 # B
+/benachrichtigung(en)?.{1,10}nicht beanspruchte gelder/i
+/bestätigen sie den anspruch/iu
 
 # C
 
 # D
+/dringende ansprüche/i
 
 # E
+/e?.?mail(.?adresse)?.{1,10}ansprüche bestätigen/iu
+
+/empfänger des fonds/iu
 
 # F
 
 # G
+/geld.{1,10}anspruch/i
 
 # H
 
@@ -37,12 +45,17 @@
 # J
 
 # K
+/kontakt für ihren anspruch/iu
+/konto mit einem betrag/i
 
 # L
 
 # M
 
 # N
+/nicht beanspruchter?.{1,10}betrag/i
+/nicht beanspruchter?.{1,10}gelder/i
+/nicht beanspruchten.{1,10}(preis)?geld(es)?/i
 
 # O
 
@@ -53,10 +66,12 @@
 # R
 
 # S
+/sie den.{1,10}fonds erhalten/i
 
 # T
 
 # U
+/übertragung genehmigter mittel/iu
 
 # V
 
