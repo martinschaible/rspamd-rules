@@ -46,14 +46,6 @@
 
 /(attn|attention|congratulations|dear|fund|hello|my|valued|you).{1,20}beneficiary/i
 
-/(business|partnership).{1,10}(enquiry|inquiry)/i
-
-/(business|partnership).{1,10}(assistance|collaboration|discussion|meeting request)/i
-/(business|partnership).{1,10}(offer|opportunity|proposal|proposition|response)/i
-
-/(business|partnership).{1,10}investment.{1,10}collaboration/i
-/(business|partnership).{1,10}project.{1,10}investment/i
-
 # C
 /card is.{1,10}ready for delivery/i
 /chance to see.{1,10}proposal/i
@@ -63,17 +55,11 @@
 
 /collaboration.{1,10}funding/i
 
-/compensation.{1,10}\d{2,4}(\.|,)?\d{3,4}/i
-/compensation.{1,10}(approval|donation|payment)/i
-/compensation.{1,10}has been approved/i
-
 /^confidential information/i
 /confidential.{1,10}investment/i
 
 /confirmation.{1,10}next of kin/i
 /congrats your e.?mail/i
-
-/^cooperation request/i
 
 /covid.{1,10}relief.?package/i
 /covid.{1,10}support funding/i
@@ -96,13 +82,6 @@
 
 /fund(ing).?.{1,10}(donation|opportunity|proposal|recovered|request)/i
 
-/funds?.{1,10}deposited in your name/i
-/funds?.{1,10}for you/i
-/funds?.{1,10}million/i
-
-/funds?.{1,10}recovery.{1,10}(committee|team)/i
-/funds?.{1,10}(relief|request)/i
-
 # G
 /guaranteed proposal/i
 
@@ -122,15 +101,11 @@
 /illuminati.{1,10}(membership|recruiter|society)/i
 /(great|the).{1,10}illuminati/i
 
-/immediate.{1,10}transfer of your.{1,10}(dollars?|euro?|usd|€|\$|£)/i
 /important.{1,10}million/i
 /important.{1,10}(beneficiary|business|proposal|proposition)/i
-/important.{1,10}grant notification/i
 
 /inheritance.{1,10}(for|to) you/i
 /inheritance.{1,10}(matter|notice)/i
-
-/introduction.{1,10}proposal/i
 
 /internet crime complaint center/i
 
@@ -141,9 +116,6 @@
 
 /investment fund$/i
 /investment.{1,10}fund of/i
-
-/investment.{1,10}(business|deal|funds|inquiry)/i
-/investment.{1,10}(partnership|proposal|proposition|relocation)/i
 
 # J
 
@@ -167,26 +139,6 @@
 /opportunity.{1,10}to connect/i
 
 # P
-/partnership.{1,10}(proposal|request)/i
-
-/potential.{1,10}business.{1,10}opportunity/i
-
-/profitable.{1,10}partnership/i
-
-/project.{1,10}financial.{1,10}support/i
-/project of interest/i
-/project.?workable/i
-
-/proposal.{1,10}(attached|for you)/i
-/proposal.{1,15}(collaboration|investment|material supply|project)/i
-/proposal\.\./i
-
-/(proposal|proposition).{1,10}(\.\.|!)/i
-/(proposal|proposition).{1,10}for (business|you)/i
-/(proposal|proposition).{1,10}from banker/i
-/(proposal|proposition).{1,10}work together/i
-
-/proposition.{1,10}business/i
 
 # Q
 
@@ -217,8 +169,6 @@
 /unclaimed.{1,10}(family estate|funds)/i
 
 /urgent.{1,10}assistance required/i
-/urgent.{1,20}transaction/i
-/urgent.{1,15}(investment|opportunity|partnership|portfolio|proposal)/i
 
 # V
 /via atm.{1,10}(debit|visa).{1,10}card/i
@@ -241,7 +191,6 @@
 
 /you are eligible for an/i
 /you have.{1,5}\d{1,2}.{1,5}pending/i
-/you see the.{1,10}proposal/i
 
 /your.{1,10}a.?t.?m.?card/i
 /your atm.{1,10}(debit|visa).{1,10}card/i
@@ -255,22 +204,10 @@
 
 /your.{1,10}company for vendor/i
 
-# Compensation
-/your.{1,10}compensated/i
-/your.{1,10}(compensation|grant).{1,10}has been/i
-/your.{1,10}(compensation|grant).{1,10}payment/i
-
-# Funds
-/your.{1,10}fund$/i
-/your.{1,10}funds?.{1,15}(approved|has been|ready for|released|payout)/i
-/your.{1,10}funding notice/i
-
 /your.{1,15}immigration to the usa?/i
 
 /your.{1,10}(last).?name matches/i
-/your.{1,10}payment.{1,10}(available|approved)/i
 /your.{1,15}stock.?award/i
-/your.{1,10}unpaid funds/i
 /your.{1,10}yellow pages/i
 
 # Z

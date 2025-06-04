@@ -103,15 +103,9 @@
 # A
 /aktenzeichen.{1,20}telefonat/i
 
-/anfrage zu einer potentiellen/i
-/anspruch.{1,10}(betrag|geld)/i
-
 # B
 /betreff.{1,5}von/i
 
-/benachrichtigung(en)?.{1,10}nicht beanspruchte gelder/i
-
-/bestätigen sie den anspruch/iu
 /bestatigen sie/i
 
 # C
@@ -119,19 +113,13 @@
 # D
 /debitkarten zu verkaufen/i
 
-/dringende ansprüche/i
-/dringender.{1,10}vorschlag/i
-
 /du hast ein geschenk erhalten/i
 
 # E
-/e?.?mail(.?adresse)?.{1,10}ansprüche bestätigen/iu
 /e?.?mail(.?adresse)?.{1,10}wurde.{1,15}(ausgewählt|zufallsprinzip)/iu
 
 /edle einladung/i
 /eintrag im firmenverzeichnis/i
-
-/empfänger des fonds/iu
 
 /erbe für sie/iu
 
@@ -139,19 +127,11 @@
 /firmen.?eintrag.{1,10}werbeanzeige/i
 
 # G
-/gegenseitigen.{1,10}vorteil/i
-/geld.{1,10}anspruch/i
-
-/(geschäfts?|transaktions?).{0,10}(angebot|vorschlag)/iu
-/(geschäfts?|transaktions?).{1,15}uns.{1,10}von vorteil/i
-
 /grüße.{1,5}ref.{1,5}code/i
 
 # H
 /hier antworten/i
-/hier ist die letzte warnung/i
 
-/humanitärer zuschuss/iu
 /humanitäres projekt/iu
 
 /höfliche rückfrage/iu
@@ -168,9 +148,6 @@
 
 /kommission.{1,10}betrugsbekämpfung/iu
 
-/kontakt für ihren anspruch/iu
-/konto mit einem betrag/i
-
 /kostenloser? hilfsfonds/i
 
 # L
@@ -183,29 +160,20 @@
 /mastercard im wert/i
 
 # N
-/nicht beanspruchter? betrag/i
-/nicht beanspruchter? gelder/i
-/nicht beanspruchten preisgeld(es)?/i
 
 # O
 
 # P
-/potenziell wertvolle idee/i
-
-/profitable.{1,10}geschäftsmöglichkeit/iu
-/profitables.{1,10}angebot/i
 
 # Q
 
 # R
 
 # S
-/sie den.{1,10}fonds erhalten/i
 
 # T
 
 # U
-/übertragung genehmigter mittel/iu
 
 # V
 /vertraulich.{1,10}antworten/i
