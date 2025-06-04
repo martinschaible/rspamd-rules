@@ -16,6 +16,25 @@
 
 /(smart|stil).{0,10}(glüh|light)/i
 
+# Snore
+# ------------------------------------------------------------------------------
+/anti.{0,10}schnarch/i
+
+/endlich.{0,10}ruhe/i
+/erholsame.{0,10}nächte/iu
+
+/leise.{0,10}(nächte|schlafen|welt)/iu
+
+/schlaf.{0,10}frei/i
+/schnarch.{0,10}(hilfe|weg)/i
+
+/ruhe.{0,15}(deal|echt|nacht|start)/i
+/(ruhige|stille).{0,10}(nächte|schlafzimmer)/i
+
+/tief.{0,10}ruhig/i
+/traum.{0,10}nacht/i
+/tritt.{0,10}gesund/i
+
 #
 #
 #
@@ -28,7 +47,6 @@
 /\d{2}.{0,5}rabatt/i
 
 # A
-/anti.{0,10}schnarch/i
 
 /arbeitslicht.?pro/i
 
@@ -51,7 +69,6 @@
 /energie sparen/i
 /entdecken sie/i
 
-/erholsame.{0,10}nächte/iu
 /exklusive.{0,10}ersparnisse/i
 
 # F
@@ -130,9 +147,6 @@
 /router.{0,10}(genie|wifi)/i
 
 # S
-/schlaf.{0,10}frei/i
-
-/schnarch.{0,10}(hilfe|weg)/i
 
 /(sauberlauf|schmutzfang).{0,10}matten?/i
 /(lager|schwerlast).{0,10}regale?/i
