@@ -78,7 +78,9 @@
 
 # L
 /lieber.{1,10}kunde.{1,10}wir haben (ungewöhnliche|versucht)/iu
-/lieber?.{1,10}(paket)?empfänger/iu
+
+#/lieber?.{1,10}(paket)?empfänger/iu
+/lieber?.{1,10}paket?empfänger/iu
 
 # M
 
