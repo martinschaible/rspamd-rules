@@ -185,11 +185,11 @@ body
   │   ├─ body.de.phishing.survey.map             ─┘
   │   │
   │   ├─ body.de.scam.map                        ─┐
-  │   ├─ body.de.scam.business.map     *          │
+  │   ├─ body.de.scam.business.map                │
   │   ├─ body.de.scam.bignumbers.map              │
   │   ├─ body.de.scam.donations.map               ├─ multimap.body.de.scam.conf
   │   ├─ body.de.scam.order.map                   │
-  │   ├─ body.de.scam.payment.map      *          │
+  │   ├─ body.de.scam.payment.map                 │
   │   └─ body.de.scam.winning.map                ─┘
   │
   └─ en
@@ -278,10 +278,10 @@ subject
   │   │
   │   ├─ subject.de.scam.map                     ─┐
   │   ├─ subject.de.scam.bignumbers.map           │
-  │   ├─ subject.de.scam.business.map   *         │
+  │   ├─ subject.de.scam.business.map             │
   │   ├─ subject.de.scam.donation.map             ├─ multimap.subject.de.scam.conf
   │   ├─ subject.de.scam.order.map                │
-  │   ├─ subject.de.scam.payment.map    *         │
+  │   ├─ subject.de.scam.payment.map              │
   │   └─ subject.de.scam.winning.map             ─┘
   │
   └─ en
