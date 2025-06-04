@@ -17,6 +17,9 @@
 # 03.02.25 - Might cause False/Positives, will see how it goes
 /eu-north-1\.amazonaws\.com/i
 
+# 04.06.25 - Too much spam from this crappy company. The ydon't care
+/\.s3\.amazonaws\.com\//i
+
 # B
 /bing\.com/i
 /blogspot\.(ca|ie|it|mx|no|pt|qa|si)/i

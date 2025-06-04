@@ -23,13 +23,13 @@
 /endlich.{0,10}ruhe/i
 /erholsame.{0,10}nächte/iu
 
-/leise.{0,10}(nächte|schlafen|welt)/iu
+/(besser|leiser?).{0,10}(nächte|schlafen|traum|welt)/iu
 
 /schlaf.{0,10}frei/i
 /schnarch.{0,10}(hilfe|weg)/i
 
 /ruhe.{0,15}(deal|echt|nacht|start)/i
-/(ruhige|stille).{0,10}(nächte|schlafzimmer)/i
+/(ruhige?|stille).{0,10}(nacht|nächte|schlaf)/i
 
 /tief.{0,10}ruhig/i
 /traum.{0,10}nacht/i
