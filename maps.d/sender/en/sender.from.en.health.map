@@ -225,7 +225,7 @@
 /(bedtime|boosting|breakfast|coffee|crazy).{0,10}(diet|drink|fix|formula|hack|miracle|protocol|remedies|ritual|secret|solution|tea|trick)/i
 /(dairy|dental|diet|glucose|gummies|gummy|hidden).{0,10}(diet|drink|fix|formula|hack|miracle|protocol|remedies|ritual|secret|solution|tea|trick)/i
 /(k2|lipo|liposuction|liquid|magic|modern|muscle).{0,10}(diet|drink|fix|formula|hack|miracle|protocol|remedies|ritual|secret|solution|tea|trick)/i
-/(pain|second|simple|special|snoring|unusual).{0,10}(diet|drink|fix|formula|hack|miracle|protocol|remedies|ritual|secret|solution|tea|trick)/i
+/(pain|second|simple|special|unusual).{0,10}(diet|drink|fix|formula|hack|miracle|protocol|remedies|ritual|secret|solution|tea|trick)/i
 /(unlock|veins|water|weard|wellness|yummy).{0,10}(diet|drink|fix|formula|hack|miracle|protocol|remedies|ritual|secret|solution|tea|trick)/i
 
 /(amazonian|japanese|mayan|taiwan).{0,10}(diet|drink|fix|formula|hack|miracle|protocol|remedies|ritual|secret|seeds?|solution|tea|trick)/i
@@ -266,7 +266,6 @@
 /alignment.{0,10}fix/i
 /allergy.{0,10}(medication|sufferers)/i
 /ancient.{0,20}(enzyme|drink|ritual|tee|wellness|wine)/i
-/(anti|fight|stop).{0,10}snoring/i
 /anti.{0,10}(fungal|fungus|wrinkle)/i
 
 /artery.{0,10}(cure|fix|health|plaque)/i
@@ -623,7 +622,7 @@
 /neck.{0,10}skin/i
 /nerves?.{0,10}(comfort|damage|health|pain|recovery|repair|revival|support)/i
 
-/never.{0,10}(eat|forget|snore)/i
+/never.{0,10}(eat|forget)/i
 /new.{0,10}(energy|hair|research)/i
 
 /nightmare.{0,10}pee/i
@@ -786,7 +785,7 @@
 /sore.{0,10}back/i
 
 /stomach.{0,10}secret/i
-/stop.{0,10}(dieting|snoring)/i
+/stop.{0,10}dieting/i
 /(strange|spice).{0,10}trick/i
 
 /sweet.{0,10}(balance|deal|trick)/i
