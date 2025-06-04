@@ -24,6 +24,8 @@
 /(e.?bike|elektro.?moped).{1,15}(angebot|in nur|innovation|komfort|motor)/i
 /(e.?bike|elektro.?moped).{1,15}(power|reichweite|revolution|tagen|stärke)/i
 
+/elektromotorrad für nur/iu
+
 /(auf ein|faltbarefortbewegung|kauf|neues).{1,15}(e.?bike|elektro.?moped)/iu
 /(rabatt|unschlagbare?|unser|über).{1,15}(e.?bike|elektro.?moped)/iu
 
@@ -134,9 +136,12 @@
 # F
 /fachkräfte für ihre projekte/iu
 
-/(falt)?pavillon.{1,15}(aufbaubar|ideal|jetzt|lieferbar|mit|seitenteile|wetterfest)/i
-/(falt)?pavillon.{1,15}(schnell|sofort)/i
-/(falt)?pavillon.{1,15}für \d{3}/i
+/(falt)?pavillon.{1,15}(blau|grau|schwarz)/i
+/(falt)?pavillon.{1,15}für (alle|\d{3})/i
+
+/(falt)?pavillon.{1,15}(aufbaubar|ideal|jetzt|lieferbar|mit)i
+/(falt)?pavillon.{1,15}(schnell|seitenteile|sofort)/i
+/(falt)?pavillon.{1,15}(vorteilspreis|wetterfest)/i
 
 /fernsehen muss nicht teuer sein/i
 
@@ -179,6 +184,7 @@
 /(beheizbare|wärmende).{1,10}(daunen)?jacke/i
 
 # K
+/komplett für nur \d{2,3}.{1,10}netto/iu
 /kooperationsmöglichkeit.{1,10}qualifiziertes?/iu
 
 # L

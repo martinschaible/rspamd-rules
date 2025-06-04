@@ -27,7 +27,9 @@
 
 # B
 /benefits?.{1,10}please get back/i
-/business proposal for you/i
+
+/(business|proposal|transaction).{1,10}discuss with you/i
+/(business|proposal|transaction).{1,10}for you/i
 
 # C
 
@@ -49,6 +51,8 @@
 /i have.{1,10}urgent.{1,10}opportunity/i
 
 /illuminati.{1,15}(become rich|recruiter|society|today)/i
+
+/important business transaction/i
 
 # J
 
