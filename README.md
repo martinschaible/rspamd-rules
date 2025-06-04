@@ -79,6 +79,11 @@ New configuration files have also been added.
 |          | multimap.sender.from.en.*.conf    | New files                          |
 |          | multimap.sender.de.*.conf         | Old file deleted/renamed           |
 |          | multimap.sender.en.*.conf         | Old file deleted/renamed           |
+| 04.06.25 | multimap.subject.de.scam.conf     | New map file added                 |
+|          | multimap.subject.en.scam.conf     | New map file added                 |
+|          | multimap.body.de.scam.conf        | New map file added                 |
+|          | multimap.body.en.scam.conf        | New map file added                 |
+
 
 What to do:
 * Copy these files to the Rspamd server
@@ -161,6 +166,7 @@ body
   │   ├─ body.de.sale.media                       ├─ multimap.body.de.sale.conf
   │   ├─ body.de.sale.seo                         │  (Not yet implemented)
   │   ├─ body.de.sale.website                    ─┘
+  │   │
   │   ├─ body.de.stocks.map                      --- multimap.body.de.stocks.conf
   │   │
   │   ├─ body.de.phishing.map                    ─┐
@@ -179,9 +185,11 @@ body
   │   ├─ body.de.phishing.survey.map             ─┘
   │   │
   │   ├─ body.de.scam.map                        ─┐
+  │   ├─ body.de.scam.business.map     *          │
   │   ├─ body.de.scam.bignumbers.map              │
   │   ├─ body.de.scam.donations.map               ├─ multimap.body.de.scam.conf
   │   ├─ body.de.scam.order.map                   │
+  │   ├─ body.de.scam.payment.map      *          │
   │   └─ body.de.scam.winning.map                ─┘
   │
   └─ en
@@ -270,8 +278,10 @@ subject
   │   │
   │   ├─ subject.de.scam.map                     ─┐
   │   ├─ subject.de.scam.bignumbers.map           │
+  │   ├─ subject.de.scam.business.map   *         │
   │   ├─ subject.de.scam.donation.map             ├─ multimap.subject.de.scam.conf
   │   ├─ subject.de.scam.order.map                │
+  │   ├─ subject.de.scam.payment.map    *         │
   │   └─ subject.de.scam.winning.map             ─┘
   │
   └─ en
