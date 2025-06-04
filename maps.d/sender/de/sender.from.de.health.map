@@ -32,8 +32,6 @@
 /^apotheken?.{0,10}(nachrichten|versand)/i
 /^apotheken?.{0,10}news(letter)?/i
 
-/anti.{0,10}schnarch/i
-
 # B
 /besser.{0,10}sehen/i
 /bett.{0,10}stille/i
@@ -126,9 +124,8 @@
 /sanfte.{0,10}hilfe/i
 
 /schlaf.{0,10}(code|raum)/i
-/schlank.{0,10}booster/i
+/schlank.{0,10}(booster|check|hilfe|welt)/i
 /schmerzen in/i
-/schnarch.{0,10}(hilfe|weg)/i
 
 /schöne.{0,10}(nägel|zähne)/iu
 
