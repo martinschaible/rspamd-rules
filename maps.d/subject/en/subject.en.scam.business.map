@@ -37,14 +37,12 @@
 # F
 
 # G
+/guaranteed proposal/i
 
 # H
 
 # I
 /introduction.{1,10}proposal/i
-
-/investment.{1,10}(business|deal|funds|inquiry)/i
-/investment.{1,10}(partnership|proposal|proposition|relocation)/i
 
 # J
 
@@ -70,7 +68,7 @@
 /project.?workable/i
 
 /proposal.{1,10}(attached|for you)/i
-/proposal.{1,15}(collaboration|investment|material supply|project)/i
+/proposal.{1,15}(collaboration|material supply|project)/i
 /proposal\.\./i
 
 /(proposal|proposition).{1,10}(\.\.|!)/i
@@ -89,7 +87,7 @@
 # T
 
 # U
-/urgent.{1,15}(investment|opportunity|partnership|portfolio|proposal)/i
+/urgent.{1,15}(opportunity|partnership|portfolio|proposal)/i
 
 # V
 
