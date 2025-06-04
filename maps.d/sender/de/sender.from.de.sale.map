@@ -28,6 +28,8 @@
 /\d{2}.{0,5}rabatt/i
 
 # A
+/anti.{0,10}schnarch/i
+
 /arbeitslicht.?pro/i
 
 # B
@@ -129,6 +131,8 @@
 
 # S
 /schlaf.{0,10}frei/i
+
+/schnarch.{0,10}(hilfe|weg)/i
 
 /(sauberlauf|schmutzfang).{0,10}matten?/i
 /(lager|schwerlast).{0,10}regale?/i
