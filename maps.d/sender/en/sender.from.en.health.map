@@ -792,6 +792,8 @@
 /swollen.{0,10}(belly|feet|foot|gut|legs)/i
 
 # T
+/tap your/i
+
 /thanksgiving.{0,10}delight/i
 
 /thicker.{0,10}harder/i
@@ -859,7 +861,7 @@
 
 /your.{1,10}(a1c|alcohol)/i
 /your.{1,10}(balance|bladder|brain)/i
-/your.{1,10}(craving|diet|ears|gut)/i
+/your.{1,10}(craving|diet|ears?|gut)/i
 /your.{1,10}(health|heart|hips|intimacy|kidneys|knees)/i
 /your.{1,10}(live.?span|liver)/i
 /your.{1,10}(pee|pelvis|poop|posture)/i
