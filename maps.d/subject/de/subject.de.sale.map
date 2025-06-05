@@ -131,6 +131,8 @@
 /energiekosten um.{1,10}senkt/i
 
 /erleuchte.{1,15}(arbeitsplatz|home|office)/i
+
+/exklusive{1,10}(feigen|oliven).?bäume/iu
 /exklusives angebot/i 0.25
 
 # F
@@ -216,6 +218,7 @@
 # O
 
 # P
+/palmen für ihren/iu
 /partner.{1,10}zeitarbeit/i
 
 /(party|veranstaltungs).?zelte?.{1,15}(neu|wasserdicht)/i
