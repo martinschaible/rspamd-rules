@@ -132,7 +132,7 @@
 
 /erleuchte.{1,15}(arbeitsplatz|home|office)/i
 
-/exklusive{1,10}(feigen|oliven).?bäume/iu
+/exklusive.{1,10}(feigen|oliven).?bäume/iu
 /exklusives angebot/i 0.25
 
 # F
@@ -145,6 +145,8 @@
 /(falt)?pavillon.{1,15}(aufbaubar|events?|ideal|jetzt|lieferbar|mit)i
 /(falt)?pavillon.{1,15}(schnell|seitenteile|sofort)/i
 /(falt)?pavillon.{1,15}(vorteilspreis|wetterfest)/i
+
+/feigenbäume.{1,10}versandkostenfrei/iu
 
 /fernsehen muss nicht teuer sein/i
 
@@ -218,7 +220,10 @@
 # O
 
 # P
-/palmen für ihren/iu
+/palme.{1,15}per e?.?mail bestellen/i
+/(palmen|pflanzen) für ihren/iu
+/(palmen|pflanzen) direkt vom/i
+
 /partner.{1,10}zeitarbeit/i
 
 /(party|veranstaltungs).?zelte?.{1,15}(neu|wasserdicht)/i
