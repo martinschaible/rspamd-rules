@@ -665,7 +665,8 @@
 /(try|this).{1,10}miracle/i
 /(try|this).{1,10}simple.{1,10}nutrient/i
 
-/this food kills.{1,10}(back|hip|knee|pain)/i
+/this.{1,10}food kills.{1,10}(back|hip|knee|pain)/i
+/this.{1,10}second twist/i
 
 /tsp.{1,10}fat.?drain/i
 
@@ -684,7 +685,7 @@
 /unusual asian treat/i
 
 /unlock.{1,10}pleasure.{1,10}(centers?|points?)/i
-/unlock.{1,10}tight hips/i
+/unlock.{1,10}(memory|sharper|tight hips)/i
 
 # V
 /veggie to avoid/i

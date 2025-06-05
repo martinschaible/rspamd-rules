@@ -218,11 +218,12 @@
 # N
 
 # O
+/oliven?.{1,10}feigen?.{1,10}palmen?/i
 
 # P
 /palme.{1,15}per e?.?mail bestellen/i
-/(palmen|pflanzen) für ihren/iu
-/(palmen|pflanzen) direkt vom/i
+/(palmen|pflanzen).{1,10}für ihren/iu
+/(palmen|pflanzen).{1,10}(direkt vom|wochenangebot)/i
 
 /partner.{1,10}zeitarbeit/i
 
