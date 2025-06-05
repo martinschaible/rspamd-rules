@@ -36,7 +36,8 @@
 /greetings.?(of the day)?.{1,15}professional.{1,10}(designer|graphic)/i 
 /greetings.?(of the day)?.{1,20}welcome to our company/i
 
-/(hello|hi).{1,5}(dear|friend).{1,10}we would like to introduce/i
+/(hello|hi).{1,15}we would like to introduce/i
+/(hello|hi).{1,15}we are one of the/i
 
 # Apps
 # ------------------------------------------------------------------------------
