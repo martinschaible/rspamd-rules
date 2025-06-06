@@ -24,6 +24,14 @@
 # ------------------------------------------------------------------------------
 /i am a private.{1,10}lender/i
 /we process.{1,10}loans/i
+/we have.{1,10}funding solutions/i
+
+# Gambling
+# ------------------------------------------------------------------------------
+/bonus play.{1,10}(games|more)/i
+/deposit confirmed.{1,10}account credited/i
+
+/just been credited to your.{1,15}account/i
 
 # Make Money
 # ------------------------------------------------------------------------------
