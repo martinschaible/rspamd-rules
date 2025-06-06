@@ -31,7 +31,7 @@
 # A
 /air.{0,10}drone/i
 /american.{0,10}(discounts|seniors)/i
-/anti.{0,10}loss/i
+/anti.{0,10}(loss|noise)/i
 
 /arctic.{0,10}air/i
 
@@ -59,7 +59,7 @@
 /deal.{0,10}alarm/i
 /(designer|discount|rolex|top).?watch(es)?/i
 
-/dog.{0,5}(behaviour|trainers)/i
+/dogs?.{0,5}(behaviour|food|trainers)/i
 
 /don.?t miss out/i
 /door.{0,10}(camera|ringer|training)/i
@@ -150,7 +150,7 @@
 /mobile.{0,10}photography/i
 
 # N
-/night.{0,10}(driving|vision)/i
+/night.{0,10}(balance|driving|vision)/i
 
 # O
 /offers?.{0,10}program/i
@@ -198,9 +198,12 @@
 
 /shoe.{0,10}insole/i
 
+/silent.{0,10}(danger|space)/i
+
 /^smart.?deals$/i
-/smart.{0,10}(protect|security)/i
-/smart.?house.{0,10}deals/i
+
+/smart.{0,10}(deals|protect|security)/i
+/smart.{0,10}sleep/i
 
 /summer.{0,10}chill/i
 /super.{0,10}list/i
@@ -239,7 +242,7 @@
 
 /website.{0,10}seo/i
 
-/wi.?fi.{0,10}router/i
+/(wi.?fi|wlan).{0,15}(connection|router|team)/i
 
 /woodworking.{0,10}plans/i
 

@@ -25,11 +25,11 @@
 
 /(besser|leiser?).{0,10}(nächte|schlafen|traum|welt)/iu
 
-/schlaf.{0,10}frei/i
+/schlaf.{0,10}(frei|wert)/i
 /schnarch.{0,10}(hilfe|weg)/i
 
 /ruhe.{0,15}(deal|echt|nacht|start)/i
-/(ruhige?|stille).{0,10}(nacht|nächte|schlaf)/i
+/(ruhige?|stille).{0,10}(express|nacht|nächte|schlaf)/i
 
 /tief.{0,10}ruhig/i
 /traum.{0,10}nacht/i
@@ -183,9 +183,10 @@
 # V
 /versand.{0,10}gratis/i
 /verstehen.{0,10}(pro|sprechen)/i
+
 # W
 
-/(wifi|wlan).{0,15}(connection|team)/i
+/(wi.?fi|wlan).{0,15}experten?/i
 
 /wort.{0,10}direkt/i
 /(schnelle(re)?s|tragbares).?(wi.?fi|w.?lan)/i

@@ -31,6 +31,8 @@ _[a-z].{0,15}box/i
 
 # D
 /dankt ihnen/i
+
+/daten.{0,10}update/i
 /datensicherungs?.{0,10}garantie/i
 
 /deutschland.{0,10}support/i
@@ -122,7 +124,7 @@ _[a-z].{0,15}box/i
 /umfrage zu/i
 
 # V
-/vignette.{0,10}(kundenservice|support|system)/i
+/(e-)?vignette.{0,10}(kundenservice|service|support|system)/i
 
 /vom kundenservice/i
 /von.{1,15}kreditkarte/i
