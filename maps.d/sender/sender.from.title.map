@@ -1,0 +1,30 @@
+# ==============================================================================
+# People include their title, rank, or profession in the sender's email address.
+# This is usually done only by spammers
+#
+# ------------------------------------------------------------------------------
+# Language: any
+# Weight:   6.0
+# ==============================================================================
+
+# English
+# ------------------------------------------------------------------------------
+/^attorney/i
+/executive.?director/i
+/(purchase|sales).?manager/i
+
+/barr\./i
+/barrister/i
+
+/^(capt|mrs?)\.\s/i
+
+/from (capt|dr|mrs?)\.\s/i
+
+/ceo\b/i
+
+/^miss\b/i
+\^mrs\.?\b/i
+
+# German
+# ------------------------------------------------------------------------------
+/^(frau|herr|hr\.)\s/i
