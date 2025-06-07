@@ -9,6 +9,8 @@
 /\d{2,4}(\.|,)?\d{3,4}.{1,10}(for you|reply now|was donated)/i
 
 /\d{2,4}(\.|,)?\d{3,4}.{0,5}(dollars?|euro?|usd|€|\$|£)$/i
+
+/^\d{2,4}(\.|,)?\d{3,4}.{0,5}(million|mio).{0,5}(dollars?|euro?|usd|€|\$|£)$/i
 /^(dollars?|euro?|usd|€|\$|£).{0,5}\d{2,4}(\.|,)?\d{3,4}/i
 
 /claim (up to|your).{1,10}\d{2,4}(\.|,)?\d{3,4}/i

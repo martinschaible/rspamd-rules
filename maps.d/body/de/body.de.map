@@ -23,7 +23,11 @@
 # Finance
 # ------------------------------------------------------------------------------
 /benötigen sie zusätzliches geld/iu
-/sie suchen nach einem darlehen/i
+/sie suchen nach einem.{1,10}(darlehen|kredit)/i
+
+/unsere.{1,10}(darlehen|kredite) bieten flexible/i
+
+/zinsgünstige.{1,10}(darlehen|kredite).{1,10}privatpersonen/iu
 
 # Health
 # ------------------------------------------------------------------------------

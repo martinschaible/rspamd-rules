@@ -68,8 +68,10 @@
 /(fat|weight).{1,10}success proven/i
 /(fat|weight).{1,10}with this.{1,10}hack/i
 
-/(big|blocking|boost|daily|easy|fast|for){1,15}(fat|weight).?loss/i
+/(big|blocking|boost|daily|easy|fast|for).{1,15}(fat|weight).?loss/i
 /(hidden|massive|method for|rapid|simple|try this|your).{1,15}(fat|weight).?loss/i
+
+/erases.{1,10}(fat|weight).{1,10}overnight/i
 
 /shed.{1,10}sizes overnight/i
 
@@ -705,7 +707,8 @@
 
 /weird.{1,10}(remedy|stretch|tonic)/i
 
-/with.{1,10}simple drink/i
+/with.{1,10}this.{1,10}ritual/i
+/with.{1,10}simple.{1,10}drink/i
 
 /worse.{1,10}heres why/i
 /worst habit that/i

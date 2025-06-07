@@ -489,7 +489,7 @@
 
 /glow.{0,10}restorer?/i
 /golden.{0,10}spice/i
-/green.{0,10}(clay|oil)/i
+/green.{0,10}(clay|oil|remedy)/i
 /grow.{0,10}(hair|trick)/i
 
 /gum.{0,10}(bleeding|disease|health|saver)/i
@@ -516,6 +516,8 @@
 /heart.{0,10}(attack|cells|danger|disease|health|helper|problems?|protection|risk)/i
 
 /hemorrhoids?.{0,10}pain/i
+
+/herbal.{0,10}wisdom/i
 /herpes.{0,10}(eliminator|outbreak|talk)/i
 
 /hidden.{0,10}(danger|power|protein|risk|ritual|toxin)/i

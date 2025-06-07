@@ -41,6 +41,7 @@
 
 # C
 /capital.{1,10}(finance|funding).{1,15}(business|projects?|roi)/i
+/capital.{1,10}investment.{1,10}funding/i
 
 /credit coverage notice/i
 /^credit \d%/i

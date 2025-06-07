@@ -45,19 +45,25 @@
 
 # SEO
 # ------------------------------------------------------------------------------
-/google at.{1,10}low cost/i
+/google.{1,10}at.{1,10}low cost/i
+/google.{1,10}other major search engines/i
 /google.{1,10}we can optimize/i
 
 /after analyzing your.{1,10}(web)?site/i
 
+/best seo quote/i
 /boost your.{1,15}rankings with low/i
 
+/get to the first page.{1,10}(bing|google|yahoo)/i
 /greetings.{1,10}your search/i
 /(bring(ing)?|get).{1,10}more.{1,10}(traffic|visitors).{1,10}(leads|sales)/i
 
 /not showing up well.{1,10}google/i
 
 /rankings.{1,10}our.{1,10}effective/i
+
+/seo.{1,10}(packages?|proposal|services?)/i
+
 /top quickly.{1,10}low cost/i
 /our.{1,10}seo services/i
 /our.{1,10}(complete|comprehensive).{1,10}seo/i
@@ -93,6 +99,7 @@
 # EMail
 # ------------------------------------------------------------------------------
 /complete.{1,10}e?.?mail.?marketing.{1,10}for you/i
+/increasing.{1,10}leads.{1,10}sales/i
 /supercharge your sales/i
 /e?.?mail credits.{1,10}lead lists/i
 
