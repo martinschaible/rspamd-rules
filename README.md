@@ -84,6 +84,8 @@ New configuration files have also been added.
 |          | multimap.body.de.scam.conf        | New map file added                 |
 |          | multimap.body.en.scam.conf        | New map file added                 |
 | 07.06.25 | multimap.body.de.scam.conf        | Typo fixed                         |
+|          | multimap.body.en.scam.conf        | Typo fixed                         |
+|          | multimap.sender.from.conf         | New map file added                 |
 
 What to do:
 * Copy these files to the Rspamd server
@@ -213,7 +215,8 @@ sender
   ├─ sender.from.phishing.orgbrandprod.map       --- multimap.sender.from.phishing.conf
   ├─ sender.from.orgbrandprod.map                ─┐
   ├─ sender.from.people.map                       ├─ multimap.sender.from.conf
-  ├─ sender.from.special.map                     ─┘
+  ├─ sender.from.special.map                      │
+  ├─ sender.from.title.map                       ─┘
   │
   ├─ de
   │   ├─ sender.from.de.singleword.map           --- multimap.sender.from.de.conf
