@@ -25,6 +25,7 @@
 /(business|proposal|transaction).{1,10}for you/i
 
 # C
+/(completion|you for).{1,15}business.{1,10}transaction/i
 
 # D
 
@@ -38,7 +39,8 @@
 /has a.{1,15}business proposal/i
 
 # I
-/i have.{1,10}urgent.{1,10}opportunity/i
+/(i|we) have.{1,10}access to.{1,10}vital information/i
+/(i|we) have.{1,10}urgent.{1,10}opportunity/i
 
 # J
 
