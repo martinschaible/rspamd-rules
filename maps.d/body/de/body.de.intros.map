@@ -1,5 +1,10 @@
 # ==============================================================================
+# After the greeting, an introductory text often follows:
+# - The person introduces themselves or their organization.
+# - Silly excuses.
+# - Request for any help.
 #
+# We're not using greetings in this file!
 #
 # ------------------------------------------------------------------------------
 # Language: german
@@ -11,6 +16,8 @@
 
 # A
 /(antwort|dringend|kennenlernen|liebste).{1,15}mein name ist/i
+
+/antworten sie.{1,15}mein name ist/i
 
 # B
 
@@ -34,9 +41,11 @@
 
 # H
 /hier ist.{1,10}botschafter(in)?/i
+/hier spricht herr/i
 
 # I
 /ich bin.{5,25}die finanzvorständin/iu
+/ich bin.{1,10}jahre alt.{1,10}meine e?.?mail(.?adresse)? ist/i
 
 /ich bin.{5,45}eine?.{1,15}(investor|philanthrop|unternehmer|wirtschaftsmagnat)(in)?/i
 /ich bin.{5,45}eine?.{1,15}(geschäftsfrau|geschäftsmann)/i
@@ -116,6 +125,7 @@
 /unternehmen vorzustellen.{1,10}einen.{1,15}hersteller/i
 
 # V
+/(dem|vom) schreibtisch (des|von) (herr|vize)/i
 
 # W
 /wichtigen vorschlag mit ihnen besprechen/i
