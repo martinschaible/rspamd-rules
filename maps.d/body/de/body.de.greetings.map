@@ -1,5 +1,8 @@
 # ==============================================================================
-#
+# Greetings can actually be used as filters.
+# Non-personalized greetings rarely appear in regular emails.
+# We expect a name after the greeting. # Often, some introductory text is
+# written after the greeting, which indicates spam.
 #
 # ------------------------------------------------------------------------------
 # Language: german
@@ -21,7 +24,6 @@
 # ==============================================================================
 
 # A
-/antworten sie.{1,15}mein name ist/i
 /att.{1,5}sehr geehrter/i
 
 # B
@@ -110,11 +112,9 @@
 /hallo.{1,10}wir freuen uns.{1,10}ihnen mitteilen/i
 
 /herzliche grüße.{1,10}ich bin/i
-/hier spricht herr/i
 /hochachtungsvolle grüße/iu
 
 # I
-/ich bin.{1,10}jahre alt.{1,10}meine e?.?mail(.?adresse)? ist/i
 
 # J
 
