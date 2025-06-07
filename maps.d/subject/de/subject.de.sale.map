@@ -80,6 +80,8 @@
 #
 /4k.{0,10}kamera/i
 
+\d.?x.?\d(falt)?.{1,5}pavillon/i
+
 # A
 /akku.?(kettensäge|kraft)/iu
 /akku.{1,10}ausrüstung/i
@@ -142,10 +144,12 @@
 /(falt)?pavillon.{1,15}für (alle|\d{3})/i
 
 /(falt)?pavillon.{1,10}\d{1,5}.?x.?\d{1,5}/i
-/(falt)?pavillon.{1,15}(aufbaubar|events?|ideal|jetzt|lieferbar|mit)i
+/(falt)?pavillon.{1,15}(aufbaubar|events?|ideal|jetzt|lieferbar|mit)/i
+/(falt)?pavillon.{1,15}reduziert/i
 /(falt)?pavillon.{1,15}(schnell|seitenteile|sofort)/i
 /(falt)?pavillon.{1,15}(vorteilspreis|wetterfest)/i
 
+/(falt)?pavillon.{1,10}(halben|kleinen) preis/i
 /feigenbäume.{1,10}versandkostenfrei/iu
 
 /fernsehen muss nicht teuer sein/i

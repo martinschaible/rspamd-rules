@@ -402,7 +402,7 @@
 /(microsoft|mediamarkt|metamask|migros).?(™|®|©)$/i
 
 /microsoft ads/i
-/microsoft.{0,10}rewards?/i
+/microsoft.{0,10}(cashback|rewards?)/i
 
 /MIGROS/
 /migros.?(™|®|©)$/i

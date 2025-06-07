@@ -26,6 +26,8 @@
 # B
 /belohnung freischalten/i
 
+/(belohnung|geschenk|gutschein|preis|gewinn).{1,10}innerhalb von.{1,10}stunden erhalten/i
+
 # C
 
 # D
@@ -39,6 +41,7 @@
 # H
 
 # I
+/ihr.{1,15}(belohnung|geschenk|gutschein|preiss|gewinn) innerhalb von.{1,10}stunden/i
 
 # J
 /jetzt.{1,10}(angaben|gewinn).{1,10}bestätigen/iu
@@ -54,6 +57,7 @@
 # O
 
 # P
+/(person hat|sie haben) noch nicht geantwortet/i
 
 # Q
 

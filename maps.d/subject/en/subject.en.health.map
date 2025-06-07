@@ -36,10 +36,11 @@
 /(hack|ritual|secret|solution|trick).{1,10}to (cure|ease|boost)/i
 
 /one simple stretch/i
-/with.{1,10}(day|easy|simple) (method|tip|trick)/i
+/with.{1,10}(day|easy|simple).{1,10}(method|tip|trick)/i
 
 /breaking.{1,10}harvard study/i
 /discover.{1,10}(incredible|simple tip)/i
+
 /easy trick for clear/i
 /fingertip pressure trick/i
 
@@ -49,6 +50,7 @@
 /this.{1,10}night trick/i
 /this.{1,10}sec(ond)? (fix|morning)/i
 /this.{1,10}tsp hack/i
+
 /(this|unlock).{1,10}(natural|tropical|unique).{1,10}(formula|hack|remedy|trick)/i
 
 /try this \d.sec/i
@@ -199,7 +201,7 @@
 /cavity.{0,10}cure/i
 
 /celebrity.?secret/i
-/clear.{1,10}(eyes|nails|vision)/i
+/clear.{1,10}(cholesterol|eyes|nails|vision)/i
 
 /clears? blurry eyesight/i
 /clears.{1,10}fast/i
@@ -241,6 +243,7 @@
 /do this common.{1,15}mistake/i
 
 /do this every day/i
+/do this instead/i
 /do this for instant/i
 /do this to keep sugar/i
 /do this once a day/i
@@ -279,6 +282,7 @@
 
 /eat \d cup/i
 /eat this.{1,15}(arteries|daily|fruit)/i
+/eat this.{1,15}to clear/i
 /eat this to/i
 
 /ear rub trick/i
@@ -374,6 +378,7 @@
 
 /hgh.{1,10}now legal/i
 
+/hidden.{1,10}prostate/i
 /high a1c/i
 /high.{1,10}blood.{1,10}pressure/i
 
@@ -494,6 +499,7 @@
 /pounds with this/i
 
 /prevent.{1,15}(decay|disease|gum|tooth)/i
+/prostate.{1,10}relief/i
 /protect your heart/i
 
 # Q
@@ -643,7 +649,7 @@
 /this.{1,10}kills knee/i
 
 /this.{1,10}speeds up memory/i
-/this.{1,10}(simple|strange) (method|solution)/i
+/this.{1,10}(simple|strange) (method|solution|trick)/i
 
 /this.{1,10}stops.{1,10}diabetes/i
 /this.{1,10}stops.{1,15}in seconds/i
@@ -685,7 +691,7 @@
 /unusual asian treat/i
 
 /unlock.{1,10}pleasure.{1,10}(centers?|points?)/i
-/unlock.{1,10}(memory|sharper|tight hips)/i
+/unlock.{1,10}(memory|prostate|sharper|tight hips)/i
 
 # V
 /veggie to avoid/i
