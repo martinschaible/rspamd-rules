@@ -83,7 +83,7 @@ New configuration files have also been added.
 |          | multimap.subject.en.scam.conf     | New map file added                 |
 |          | multimap.body.de.scam.conf        | New map file added                 |
 |          | multimap.body.en.scam.conf        | New map file added                 |
-
+| 07.06.25 | multimap.body.de.scam.conf        | Typo fixed                         |
 
 What to do:
 * Copy these files to the Rspamd server
