@@ -52,15 +52,6 @@
 /important.?message/i
 /message from/i
 
-# Titles
-# ------------------------------------------------------------------------------
-/^(capt|mrs?)\.\s/i
-
-/from (capt|dr|mrs?)\.\s/i
-
-/executive.?director/i
-/(purchase|sales).?manager/i
-
 #
 #
 #
@@ -81,7 +72,6 @@
 /annuity comparison/i
 
 # B
-/barr\./i
 
 # C
 /communication from/i
