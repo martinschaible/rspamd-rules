@@ -1,5 +1,10 @@
 # ==============================================================================
+# After the greeting, an introductory text often follows:
+# - The person introduces themselves or their organization.
+# - Silly excuses.
+# - Request for any help.
 #
+# We're not using greetings in this file!
 #
 # ------------------------------------------------------------------------------
 # Language: english
@@ -24,6 +29,7 @@
 # C
 
 # D
+/disturb you with (my|this).{1,10}e?.?mail/i
 
 # E
 /(e.?mail|letter|message) finds you well.{1,10}i work with a/i
@@ -32,8 +38,10 @@
 /(e.?mail|letter|message) reaches you in.{1,10}good faith.{1,10}my name is/i
 
 # F
-/from.{1,10}the (desk|office) of.{1,10}(miss|mrs?|ms)/i
-/from.{1,10}the (desk|office) of.{1,10}(minister|president)/i
+/from the desk of/i
+#/from.{1,10}the (desk|office) of.{1,10}(miss|mrs?|ms)/i
+#/from.{1,10}the (desk|office) of.{1,10}(minister|president)/i
+
 
 # G
 /glad to (know|hear) that you.{1,15}in.{1,25}(business|field|need of)/i
