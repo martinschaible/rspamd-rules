@@ -151,7 +151,6 @@
 
 # Arrived somewhere
 # ------------------------------------------------------------------------------
-/(paket|sendung).{1,10}das sich im.{1,15}(distributions|verteil).?zentrum befindet/i
 /(paket|sendung).{1,10}hat jetzt das zollamt erreicht/i
 /(paket|sendung).{1,10}ist im zielland eingetroffen/i
 /(paket|sendung).{1,10}ist in unserer.{1,15}postfiliale angekommen/i
@@ -195,7 +194,6 @@
 
 /lieferung ausgesetzt.{1,10}zahlung benötigt/iu
 /lieferung erhalten.{1,15}zahlung.{1,10}(notwendig|verpflichtend)/i
-/lieferdaten.{1,10}bezahlen sie die.{1,10}versandkosten/i
 
 /versandkosten.{1,10}bezahlen.{1,10}damit ihre?.{1,10}(paket|sendung)/i
 /versandkosten.{1,10}in höhe von.{1,15}über den untenstehenden link/iu
