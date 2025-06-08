@@ -26,6 +26,7 @@
 # A
 
 # B
+/(beneficiaries|beneficiary).{1,10}the total sum of/i
 
 # C
 
@@ -75,5 +76,6 @@
 # X
 
 # Y
+/your name as.{1,10}beneficiary/i
 
 # Z

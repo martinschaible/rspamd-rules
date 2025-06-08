@@ -39,6 +39,7 @@
 # K
 
 # L
+/lieferdaten.{1,10}bezahlen sie die versandkosten/i
 
 # M
 
@@ -48,6 +49,7 @@
 
 # P
 /(paket|sendung).{1,20}auf.{1,10}anweisungen.{1,15}(bezüglich|wartet)/i
+/(paket|sendung).{1,15}sich im.{1,15}(distributions|verteil).{1,10}befindet/i
 /(paket|sendung).{1,10}ist bereit für die lieferung/iu
 /(paket|sendung).{1,10}mit der nummer.{1,20}anweisungen/i
 

@@ -171,11 +171,11 @@
 /sehr geehrter.{1,10}administrator/i
 /sehr geehrter.{1,10}(fahrer|geschäftspartner|manager|preisträger)/iu
 
-/sehr geehrter?.{1,10}(damen|herren).{1,10}ich hoffe.{1,10}sie erreichen/i
+/sehr geehrter?.{1,10}(damen|herren).{1,20}ich hoffe.{1,10}sie erreichen/i
 
-/sehr geehrter?.{1,10}(damen|herren).{1,20}wichtige nachricht an sie/i
-/sehr geehrter?.{1,10}(damen|herren).{1,10}wir kontaktieren sie/i
-/sehr geehrter?.{1,10}(damen|herren).{1,10}wir möchten sie darüber informieren/iu
+/sehr geehrter?.{1,15}(damen|herren).{1,20}wichtige nachricht an sie/i
+/sehr geehrter?.{1,15}(damen|herren).{1,10}wir kontaktieren sie/i
+/sehr geehrter?.{1,15}(damen|herren).{1,10}wir möchten sie darüber informieren/iu
 
 /sehr geehrter?.{1,10}(empfänger|nachfolger|unternehmer)(in)?/i
 /sehr geehrter?.{1,10}(gewinner|freundlicher|nutzer)/i
