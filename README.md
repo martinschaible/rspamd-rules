@@ -69,23 +69,25 @@ Attention: A major migration of the configuration files is necessary:
 The naming of the "Sender" files was unfortunate and has now been corrected.
 New configuration files have also been added. 
 
-| Date     | File                              | Reason                             |
-| -------- | ----------------------------------| ---------------------------------- |
-| 03.06.25 | multimap.conf                     | New configuration files added      |
-|          | multimap.sender.address.conf      | New file                           |
-|          | multimap.sender.address.de.conf   | New file                           |
-|          | multimap.sender.address.en.conf   | New file                           |
-|          | multimap.sender.from.de.*.conf    | New files                          |
-|          | multimap.sender.from.en.*.conf    | New files                          |
-|          | multimap.sender.de.*.conf         | Old file deleted/renamed           |
-|          | multimap.sender.en.*.conf         | Old file deleted/renamed           |
-| 04.06.25 | multimap.subject.de.scam.conf     | New map file added                 |
-|          | multimap.subject.en.scam.conf     | New map file added                 |
-|          | multimap.body.de.scam.conf        | New map file added                 |
-|          | multimap.body.en.scam.conf        | New map file added                 |
-| 07.06.25 | multimap.body.de.scam.conf        | Typo fixed                         |
-|          | multimap.body.en.scam.conf        | Typo fixed                         |
-|          | multimap.sender.from.conf         | New map file added                 |
+| Date     | File                               | Reason                             |
+| -------- | -----------------------------------| ---------------------------------- |
+| 03.06.25 | multimap.conf                      | New configuration files added      |
+|          | multimap.sender.address.conf       | New file                           |
+|          | multimap.sender.address.de.conf    | New file                           |
+|          | multimap.sender.address.en.conf    | New file                           |
+|          | multimap.sender.from.de.*.conf     | New files                          |
+|          | multimap.sender.from.en.*.conf     | New files                          |
+|          | multimap.sender.de.*.conf          | Old file deleted/renamed           |
+|          | multimap.sender.en.*.conf          | Old file deleted/renamed           |
+| 04.06.25 | multimap.subject.de.scam.conf      | New map file added                 |
+|          | multimap.subject.en.scam.conf      | New map file added                 |
+|          | multimap.body.de.scam.conf         | New map file added                 |
+|          | multimap.body.en.scam.conf         | New map file added                 |
+| 07.06.25 | multimap.body.de.scam.conf         | Typo fixed                         |
+|          | multimap.body.en.scam.conf         | Typo fixed                         |
+|          | multimap.sender.from.conf          | New map file added                 |
+| 08.06.25 | multimap.sender.from.phishing.conf | New map file added                 |
+
 
 What to do:
 * Copy these files to the Rspamd server
@@ -213,6 +215,8 @@ sender
   │   └─ sender.address.de.map                   --- multimap.sender.address.de.conf 
   │
   ├─ sender.from.phishing.orgbrandprod.map       --- multimap.sender.from.phishing.conf
+  ├─ sender.from.phishing.orgbrandprod.ucase.map --- multimap.sender.from.phishing.conf
+  │
   ├─ sender.from.orgbrandprod.map                ─┐
   ├─ sender.from.people.map                       ├─ multimap.sender.from.conf
   ├─ sender.from.special.map                      │
