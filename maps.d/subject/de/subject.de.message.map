@@ -126,7 +126,8 @@
 # K
 
 # L
-/lesen sie diese e?.?mail/i
+/lesen sie diesen?.{1,10}(brief|e?.?mail|mitteilung)/i
+
 /lies diese nachricht/i
 
 # M

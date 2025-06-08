@@ -392,8 +392,10 @@
 /media markt/i
 
 #/^meta$/i
+
+/
 /meta.{0,5}ads.?team/i
-/meta.{0,5}(compliance|advertising)/i
+/meta(mask)?.{0,5}(advertising|alert|compliance|system|trust|updates?|verification|wallet)/i
 /meta for business/i
 /meta help center/i
 
@@ -411,6 +413,7 @@
 /^migrol$/i
 
 /miles&more/i
+/MlLES.{0,10}MORE/
 
 #/^migros$/i
 /^milka$/i
@@ -528,6 +531,8 @@
 /rewe.?(™|®|©)?$/i
 /rossmann.?(™|®|©)?$/i
 /r0ssmann/i
+
+/ROSSMANN/
 
 # S
 # ------------------------------------------------------------------------------
