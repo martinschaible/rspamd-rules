@@ -237,7 +237,6 @@
 /diba-ag/i
 /die(\.|-)?post/i
 
-
 /dlsney/i
 
 /dkb\.de/i
@@ -406,14 +405,12 @@
 /microsoft ads/i
 /microsoft.{0,10}(cashback|rewards?)/i
 
-/MIGROS/
 /migros.?(™|®|©)$/i
 /migros.{0,10}(aktionen|markt|oral.?b)/i
 
 /^migrol$/i
 
 /miles&more/i
-/MlLES.{0,10}MORE/
 
 #/^migros$/i
 /^milka$/i
@@ -484,7 +481,6 @@
 # ------------------------------------------------------------------------------
 /partner.{0,10}mcafee/i
 
-/PAYPAL/
 /paypal.{0,5}(case.?id|europe?|inc|kunden|konto|support|voucher)/i
 /paypal_/i
 /pay pal/i
@@ -531,8 +527,6 @@
 /rewe.?(™|®|©)?$/i
 /rossmann.?(™|®|©)?$/i
 /r0ssmann/i
-
-/ROSSMANN/
 
 # S
 # ------------------------------------------------------------------------------
