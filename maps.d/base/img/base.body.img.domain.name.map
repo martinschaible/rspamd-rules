@@ -56,6 +56,9 @@
 # Tracker
 /(background|src)=.{0,5}https?:\/\/[0-9a-z]{3,10}\.efuserassets\.com/i
 
+# 08.06.25 - Might cause F/P -  Sample: https://f3cbea24f382f0d8715d.s3.amazonaws.com
+/(background|src)=.{0,5}https?:\/\/[a-z0-9]{15,25}\.s3\.amazonaws\.com/i
+
 # CSS
 /background: url\(.?https:\/\/i\.imgur\.com/i
 

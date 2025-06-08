@@ -26,7 +26,7 @@
 /(besser|leiser?).{0,10}(nächte|schlafen|traum|welt)/iu
 
 /schlaf.{0,10}(frei|wert)/i
-/schnarch.{0,10}(hilfe|weg)/i
+/schnarch.{0,10}(hilfe|leise|los|weg)/i
 
 /ruhe.{0,15}(deal|echt|nacht|start)/i
 /(ruhige?|stille).{0,10}(express|nacht|nächte|schlaf)/i
@@ -109,7 +109,7 @@
 # K
 /kamera.{0,10}(experten|profis)/i
 
-/ki.?hilfe/i
+/ki.?(assistent|hilfe|lösung|zauber)/iu
 /kicker.{0,10}premium/i
 
 /kissen.?nr\./i
