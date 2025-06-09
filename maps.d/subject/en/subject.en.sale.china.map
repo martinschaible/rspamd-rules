@@ -187,7 +187,7 @@
 /(pcba?|printed.?circuit.?board).{1,20}(assembly|business|cooperation|enquiry|fabrication|factory)/i
 /(pcba?|printed.?circuit.?board).{1,10}(manufacturer?|manufacturing|needs|provider|service|solutions?)/i
 
-/(pcba?|printed.?circuit.?board).{1,10}partners? worthy/i
+/(pcba?|printed.?circuit.?board).{1,10}partners?.{1,10}(iso|worthy)/i
 /(pcba?|printed.?circuit.?board).{1,10}production line/i
 /(pcba?|printed.?circuit.?board).{1,10}supplier for/i
 /(pcba?|printed.?circuit.?board).{1,10}supply chain/i

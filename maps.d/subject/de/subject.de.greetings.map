@@ -29,18 +29,20 @@
 # G
 /geliebten? grüße/i
 
-/^guten (abend|tag)$/i
-/guten (abend|tag).{1,20}@/i
+/^guten (abend|morgen|tag)$/i
+/guten (abend|morgen|tag).{1,20}@/i
 
-/guten (abend|tag).?$/i
-/guten (abend|tag).?\[/i
-/guten (abend|tag) (frau|herr)/i
+/guten (abend|morgen|tag).?$/i
+/guten (abend|morgen|tag).?\[/i
+/guten (abend|morgen|tag) (frau|herr)/i
 
-/guten (abend|tag).{1,10}lieber freund/i
-/guten (abend|tag).{1,10}(ich bin|mein lieber)/i
-/guten (abend|tag).{1,10}meine damen und herren/i
+/guten (abend|morgen|tag).{1,10}entschuldigen/i
+/guten (abend|morgen|tag).{1,10}lieber freund/i
+/guten (abend|morgen|tag).{1,10}(ich bin|mein lieber)/i
+/guten (abend|morgen|tag).{1,10}meine damen und herren/i
 
-/(guten tag|hallo|lieber|sehr geehrter?).{1,20}(begünstigter|e?.?mail|empfänger|kunde)/iu
+/guten (abend|morgen|tag)..{1,20}(begünstigter|e?.?mail|empfänger|kunde)/iu
+/(hallo|lieber|sehr geehrter?).{1,20}(begünstigter|e?.?mail|empfänger|kunde)/iu
 
 /guten morgen\./i
 /guten morgen.{1,10}mein.{1,15}freund/i

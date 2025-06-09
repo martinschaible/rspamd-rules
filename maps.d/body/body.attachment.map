@@ -19,16 +19,16 @@
 #/inv(oice)?.?\d{0,10}\.((?!pdf$)[^.]*)/i
 #/(receipt|winner).?\d{0,10}\.((?!pdf$)[^.]*)/i
 
-/(advice|arrival|bookings?|business year).{0,25}\.(7z|gz|html|rar|tar|tgz|xla|xls|zip)/i
-/(enquiry|inquiry|invoice).{0,25}\.(7z|gz|html|rar|tar|tgz|xla|xls|zip)/i
-/(lading|notice).{0,25}\.(7z|gz|html|rar|tar|tgz|xla|xls|zip)/i
-/(order|payment|price.?list|proforma|project).{0,25}\.(7z|gz|html|rar|tar|tgz|xla|xls|zip)/i
-/(quotation|quote).{0,25}\.(7z|gz|html|rar|tar|tgz|xla|xls|zip)/i
-/(receipt|request).{0,25}\.(7z|gz|html|rar|tar|tgz|xla|xls|zip)/i
-/(shipping|specifications?|swift).{0,25}\.(7z|gz|html|rar|tar|tgz|xla|xls|zip)/i
-/urgent?.{0,25}\.(7z|gz|html|rar|tar|tgz|xla|xls|zip)/i
+/(advice|arrival|bookings?|business year).{0,25}\.(7z|docx|gz|html|rar|tar|tgz|xla|xls|zip)/i
+/(enquiry|inquiry|invoice).{0,25}\.(7z|docx|gz|html|rar|tar|tgz|xla|xls|zip)/i
+/(lading|notice).{0,25}\.(7z|docx|gz|html|rar|tar|tgz|xla|xls|zip)/i
+/(order|payment|price.?list|proforma|project).{0,25}\.(7z|docx|gz|html|rar|tar|tgz|xla|xls|zip)/i
+/(quotation|quote).{0,25}\.(7z|docx|gz|html|rar|tar|tgz|xla|xls|zip)/i
+/(receipt|request).{0,25}\.(7z|docx|gz|html|rar|tar|tgz|xla|xls|zip)/i
+/(shipping|specifications?|swift).{0,25}\.(7z|docx|gz|html|rar|tar|tgz|xla|xls|zip)/i
+/urgent?.{0,25}\.(7z|docx|gz|html|rar|tar|tgz|xla|xls|zip)/i
 
-/new.?order.{0,25}\.(7z|gz|html|rar|tar|tgz|xla|xls|zip)/i
+/new.?order.{0,25}\.(7z|docx|gz|html|rar|tar|tgz|xla|xls|zip)/i
 
 /payment\.z$/i
 
@@ -104,11 +104,19 @@
 
 # Pattern
 # ------------------------------------------------------------------------------
+/coca.?cola/i
+/cup.?result/i
 /confirm/i
+
 /detail.{0,10}specification/i
-/new.?order/i
+/dringende.{0,10}bestellung/i
+
 /inq.?no/i
-/updated.?price/i
+
+/nachricht/i
+/new.?order/i
+
+/proposal.{0,10}quote/i
 
 /quotation#/i
 /quotation \(/i
@@ -122,20 +130,13 @@
 
 /statement.{0,10}account/i
 /stock.{0,10}offer/i
+/supply.?-pdf/i
 /swift.{0,10}(message|transaction)/i
 
-/nachricht/i
-
-/coca.?cola/i
-/cup.?result/i
-
-/supply.?-pdf/i
+/updated.?price/i
 
 # Sample: Advice.PDF).html
 /\)\.html/i
-
-# German
-/dringende.{0,10}bestellung/i
 
 # Extensions
 # ------------------------------------------------------------------------------
@@ -217,3 +218,8 @@
 # Pricelist
 # ------------------------------------------------------------------------------
 (business|price.?list).{0,20}\.zip/i
+
+# Scripts in images
+# ------------------------------------------------------------------------------
+# 09.06.25
+/\d{1,15}\.svg/i
