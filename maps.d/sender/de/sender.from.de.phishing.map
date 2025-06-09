@@ -121,7 +121,7 @@ _[a-z].{0,15}box/i
 
 # U
 /umfrage.{0,15}(exklusiv|starten|unter|verbraucher)/i
-/umfrage zu/i
+/umfrage.{0,5}(über|zu)/iu
 
 # V
 /(e-)?vignette.{0,10}(kundenservice|service|support|system)/i
