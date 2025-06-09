@@ -147,6 +147,7 @@
 
 /(hello|hi).{5,35}i hope this e?.?mail (finds|meets) you/i
 /(hello|hi).{1,10}glad to (contact|connect|know|write)/i
+/(hello|hi).{1,10}thank you for opening/i
 /(hello|hi).{1,10}to the.{1,25}owner/i
 
 /(hello|hi).{1,5}partner.{1,10}good day/i
