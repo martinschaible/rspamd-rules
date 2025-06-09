@@ -164,15 +164,6 @@ body
   │   ├─ body.de.singleword.ucase.map             │
   │   ├─ body.de.unsubscribe.map                 ─┘
   │   │
-  │   ├─ body.de.sale.map                        ─┐
-  │   ├─ body.de.sale.app.map                     │
-  │   ├─ body.de.sale.china.map                   │
-  │   ├─ body.de.sale.media                       ├─ multimap.body.de.sale.conf
-  │   ├─ body.de.sale.seo                         │  (Not yet implemented)
-  │   ├─ body.de.sale.website                    ─┘
-  │   │
-  │   ├─ body.de.stocks.map                      --- multimap.body.de.stocks.conf
-  │   │
   │   ├─ body.de.phishing.map                    ─┐
   │   ├─ body.de.phishing.account.map             │
   │   ├─ body.de.phishing.alertaction.map         │
@@ -187,6 +178,15 @@ body
   │   ├─ body.de.phishing.rewards.map             │
   │   ├─ body.de.phishing.subscription.map        │
   │   ├─ body.de.phishing.survey.map             ─┘
+  │   │
+  │   ├─ body.de.sale.map                        ─┐
+  │   ├─ body.de.sale.app.map                     │
+  │   ├─ body.de.sale.china.map                   │
+  │   ├─ body.de.sale.media                       ├─ multimap.body.de.sale.conf
+  │   ├─ body.de.sale.seo                         │  (Not yet implemented)
+  │   ├─ body.de.sale.website                    ─┘
+  │   │
+  │   ├─ body.de.stocks.map                      --- multimap.body.de.stocks.conf
   │   │
   │   ├─ body.de.scam.map                        ─┐
   │   ├─ body.de.scam.business.map                │
@@ -262,7 +262,6 @@ subject
   │   ├─ subject.de.finance.map                  --- multimap.subject.de.finance.conf
   │   ├─ subject.de.gambling.map                 --- multimap.subject.de.gambling.conf
   │   ├─ subject.de.health.map                   --- multimap.subject.de.health.conf
-  │   ├─ subject.de.stocks.map                   --- multimap.subject.de.stocks.conf
   │   │
   │   ├─ subject.de.phishing.map                 ─┐
   │   ├─ subject.de.phishing.account.map          │
@@ -280,8 +279,9 @@ subject
   │   │
   │   ├─ subject.de.sale.map                     ─┐
   │   ├─ subject.de.sale.app.map                  │
-  │   ├─ subject.de.sale.seo.map                  ├─ multimap.subject.de.sale.conf
-  │   ├─ subject.de.sale.media.map                │
+  │   ├─ subject.de.sale.china.map                │
+  │   ├─ subject.de.sale.media.map                ├─ multimap.subject.de.sale.conf
+  │   ├─ subject.de.sale.seo.map                  │
   │   ├─ subject.de.sale.website.map             ─┘
   │   │
   │   ├─ subject.de.scam.map                     ─┐
@@ -291,7 +291,9 @@ subject
   │   ├─ subject.de.scam.investment.map    *      │
   │   ├─ subject.de.scam.order.map                │
   │   ├─ subject.de.scam.payment.map              │
-  │   └─ subject.de.scam.winning.map             ─┘
+  │   ├─ subject.de.scam.winning.map             ─┘
+  │   │
+  │   └─ subject.de.stocks.map                   --- multimap.subject.de.stocks.conf
   │
   └─ en
       └─ ....
