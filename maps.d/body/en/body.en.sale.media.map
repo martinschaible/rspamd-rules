@@ -21,10 +21,13 @@
 # B
 
 # C
+/complete.{1,10}e?.?mail.?marketing.{1,10}for you/i
 
 # D
 
 # E
+/e?.?mail.{1,10}credits.{1,10}lead lists/i
+/e?.?mail.?list.{1,10}rental/i
 
 # F
 
@@ -33,6 +36,7 @@
 # H
 
 # I
+/increasing.{1,10}leads.{1,10}sales/i
 
 # J
 
@@ -53,8 +57,12 @@
 # R
 
 # S
+/supercharge your sales/i
 
 # T
+/(targeted|verified).{1,15}contact.?lists of/i
+/(targeted|verified).{1,15}e?.?mail.{1,10}(databases?|leads?|lists?)/i
+/(targeted|verified).{1,15}databases?.{1,10}businesses.{1,10}operating/i
 
 # U
 
@@ -65,5 +73,6 @@
 # X
 
 # Y
+/you looking.{1,15}e?.?mail.?marketing/i
 
 # Z
