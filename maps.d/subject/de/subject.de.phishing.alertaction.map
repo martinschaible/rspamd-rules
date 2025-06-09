@@ -91,6 +91,9 @@
 /^bestätigung benötigt$/iu
 /bestätigung erforderlich.{1,10}(rück)?erstattung/i
 
+# This is used everywhere
+#/^bestätigen sie ihre e?.?mail adresse$/iu
+
 /bestätigen.?-.?#[a-z0-9]{4,10}/iu
 /bestätigen sie ihre.{1,10}adresse für den/iu
 /bestätigen sie ihre.{1,10}lieferdaten/iu

@@ -37,7 +37,7 @@
 # Letter of Intent
 /loi.{0,5}\.(7z|gz|html|rar|tar|tgz|xla|xls|zip)/i
 
-/rechnung.{0,45}\.(7z|gz|rar|zip)/i
+/rechnung.{0,45}\.(7z|gz|rar|svg|zip)/i
 
 /rfq#{0,15}\.(7z|gz|rar|zip)/i
 /rfq\.zip/i

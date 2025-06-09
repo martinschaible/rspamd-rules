@@ -96,8 +96,6 @@
 # R
 
 # S
-/sehr geehrter?.{1,10}(damen|herren).{1,20}anbei erhalten sie ihre aktuelle rechnung/i
-
 /sehr geehrter?.{1,10}(kunde|kundin).{1,15}aufgrund neuer/i
 /sehr geehrter?.{1,10}(kunde|kundin).{1,15}aufgrund von verdächtigen/iu
 /sehr geehrter?.{1,10}(kunde|kundin).{1,30}aufgrund aktualisierter/i
@@ -107,7 +105,6 @@
 
 /sehr geehrter?.{1,10}(kunde|kundin).{1,10}ihr paket/i 
 /sehr geehrter?.{1,10}(kunde|kundin).{1,15}ihre aktuelle zahlungsmethode/i
-/sehr geehrter?.{1,10}(kunde|kundin).{1,20}ihre rechnung ist/i
 
 /sehr geehrter?.{1,10}(damen|herren).{1,10}im rahmen der gesetzlich/i
 /sehr geehrter?.{1,10}(damen|herren).{1,10}im rahmen ihrer eintragung/i
@@ -125,6 +122,11 @@
 
 /sehr geehrter.{1,10}geschäftsführer/iu
 /sehr geehrte\/?r?.{1,5}wir möchten sie informieren/iu
+
+# Invoices
+/sehr geehrter?.{1,10}(damen|herren).{1,20}anbei erhalten sie ihre aktuelle rechnung/i
+/sehr geehrter?.{1,10}(damen|herren).{1,20}anbei schicken wir ihnen ihre rechnung/i
+/sehr geehrter?.{1,10}(kunde|kundin).{1,20}ihre rechnung ist/i
 
 # T
 

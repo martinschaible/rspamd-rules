@@ -64,7 +64,7 @@
 /don.?t miss out/i
 /door.{0,10}(camera|ringer|training)/i
 
-/drive.{0,10}clear/i
+/drive.{0,10}(clear|safe)/i
 /drone.?(labs|x|zone)/i
 
 /(4k|8k|raptor|smarty?).{0,10}drone/i
@@ -150,7 +150,7 @@
 /mobile.{0,10}photography/i
 
 # N
-/night.{0,10}(balance|driving|vision)/i
+/night.{0,10}(balance|drive|driving|vision)/i
 
 # O
 /offers?.{0,10}program/i
