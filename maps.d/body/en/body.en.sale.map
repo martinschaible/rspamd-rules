@@ -12,11 +12,6 @@
 # Topics
 # ==============================================================================
 
-# China
-# ------------------------------------------------------------------------------
-/we are china.{1,15}steel ltd/i
-/we can provide steel/i
-
 # Greetings
 # ------------------------------------------------------------------------------
 /dear.{1,10}(buyer|customer|madam|manager|partner|purchaser|sir).{1,15}are you looking/i
@@ -44,72 +39,6 @@
 /(hello|hi).{1,15}we would like to introduce/i
 /(hello|hi).{1,15}we are one of the/i
 
-# Apps
-# ------------------------------------------------------------------------------
-/apps?.{1,10}development services/i
-
-# SEO
-# ------------------------------------------------------------------------------
-/google.{1,10}at.{1,10}low cost/i
-/google.{1,10}other major search engines/i
-/google.{1,10}we can optimize/i
-
-/after analyzing your.{1,10}(web)?site/i
-
-/best seo quote/i
-/boost your.{1,15}rankings with low/i
-
-/get to the first page.{1,10}(bing|google|yahoo)/i
-/greetings.{1,10}your search/i
-/(bring(ing)?|get).{1,10}more.{1,10}(traffic|visitors).{1,10}(leads|sales)/i
-
-/move you.{1,15}up in the rankings/i
-/not showing up well.{1,10}google/i
-
-/proposal.{1,10}of your.{1,10}(web)?.?site/i
-/rankings.{1,10}our.{1,10}effective/i
-
-/seo.{1,10}(packages?|proposal|services?)/i
-
-/top quickly.{1,10}low cost/i
-/our.{1,10}seo services/i
-/our.{1,10}(complete|comprehensive).{1,10}seo/i
-
-/we.{1,10}(get|guarantee) top.{1,15}(placement|positions?|ranking)/i
-/we.{1,10}offer.{1,15}seo.?solutions?/i
-/we.{1,10}rank you in the top/i
-/we.{1,10}specialize.{1,10}seo/i
-
-/we.{1,10}(boost|enhance|improve) your.{1,15}(position|ranking|ranks|search visibility)/i
-/we.{1,10}(boost|enhance|improve|optimize|place) your.{1,10}(web)?.?site/i
-
-/you top positions.{1,10}low cost/i
-/your.{1,10}search.?rankings?.{1,15}improvement/i
-
-# Websites
-# ------------------------------------------------------------------------------
-/examined your online presence/i
-
-/(i.?a?m|we are).{1,10}indian?.{1,10}(based|development|web)/i
-
-/we.{1,10}offer expert.{1,10}(web)?.?site/i
-/we.{1,10}offer web.?design/i
-/we.{1,10}design.{1,10}develop.{1,10}(web)?.?sites?/i 
-
-/websites.{1,10}message us/i
-
-/you.{1,10}want.{1,10}(create|make).{1,15}(business|new)?.{1,10}(web)?.?site/i
-
-/your.{1,10}(web)?.?site.{1,15}at an affordable price/i
-/improve your.{1,10}(web)?.?site.{1,10}performance/i
-
-# EMail
-# ------------------------------------------------------------------------------
-/complete.{1,10}e?.?mail.?marketing.{1,10}for you/i
-/increasing.{1,10}leads.{1,10}sales/i
-/supercharge your sales/i
-/e?.?mail credits.{1,10}lead lists/i
-
 #
 #
 #
@@ -127,7 +56,6 @@
 # D
 
 # E
-/e?.?mail.?list.{1,10}rental/i
 
 # F
 
@@ -151,32 +79,19 @@
 # O
 
 # P
-/package features.{1,15}seo/i
 /portable a.?c cools you/i
 
 # Q
 
 # R
-/reviewed your website.{1,10}was impressed/i
 
 # S
-/seo.{1,10}needs.{1,15}(improvement|significant)/i
-/seo.{1,10}poorly done/i
-/seo.{1,15}saw that your (web)?site/i
-/seo.{1,10}technical optimization/i
 
 # T
 /tactic(al)?.{1,10}air.?drone/i
-/team specializes in seo/i
-
-/(targeted|verified).{1,15}contact.?lists of/i
-/(targeted|verified).{1,15}e?.?mail.{1,10}(databases?|leads?|lists?)/i
-/(targeted|verified).{1,15}databases?.{1,10}businesses.{1,10}operating/i
 
 # U
 /ultimate.{1,10}foldable.{1,10}drone/i
-
-/upgrade.{1,10}maintenance.{1,10}your website/i
 
 # V
 
@@ -185,10 +100,5 @@
 # X
 
 # Y
-/you looking.{1,15}e?.?mail.?marketing/i
-
-/your.{1,10}mobile.?app.{1,10}requirement/i
-/your.{1,10}website.{1,15}seo issues/i
-/your.{1,10}website.{1,15}impressed /i
 
 # Z
