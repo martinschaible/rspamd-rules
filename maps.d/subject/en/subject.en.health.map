@@ -110,7 +110,7 @@
 
 /(aching|achy|bad).{1,10}(knees|joints?)/i
 
-/activates?.{1,10}(brain|third eye)/i
+/activates?.{1,10}(brain|third eye|pineal gland)/i
 
 /after trying this/i
 
@@ -120,7 +120,7 @@
 /alleviate.{1,10}joint.?pain/i
 /alzheimer.{1,15}(take this|trigger)/i
 
-/ancient.{1,10}(drink|herb|tea)/i
+/ancient.{1,10}(drink|formula|herb|tea)/i
 /annoying ear buzzing/i
 
 /anti.?aging.{1,10}breakthrough/i
@@ -135,6 +135,8 @@
 /avoid.{1,10}heart attack/i
 /avoid (these|this).{1,10}(breakfast|deadly|diabetic|food)/i
 /avoid (these|this).{1,10}common/i
+
+/awaken your.{1,10}power/i
 
 # B
 /back.?pain.{1,10}relief/i
@@ -339,6 +341,7 @@
 /for.{1,10}slim belly/i
 /for.{1,10}weight.?loss/i
 
+/formula restored by/i
 /fruit.{1,10}improving memory/i
 /fruit.{1,10}(for brain|that fights)/i
 
