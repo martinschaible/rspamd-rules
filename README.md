@@ -87,6 +87,8 @@ New configuration files have also been added.
 |          | multimap.body.en.scam.conf         | Typo fixed                         |
 |          | multimap.sender.from.conf          | New map file added                 |
 | 08.06.25 | multimap.sender.from.phishing.conf | New map file added                 |
+| 09.06.25 | multimap.body.de.sale.conf         | New map files added                |
+|          | multimap.body.en.sale.conf         | New map files added                |
 
 
 What to do:
