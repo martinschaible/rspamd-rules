@@ -182,9 +182,9 @@ body
   │   ├─ body.de.sale.map                        ─┐
   │   ├─ body.de.sale.app.map                     │
   │   ├─ body.de.sale.china.map                   │
-  │   ├─ body.de.sale.media                       ├─ multimap.body.de.sale.conf
-  │   ├─ body.de.sale.seo                         │  (Not yet implemented)
-  │   ├─ body.de.sale.website                    ─┘
+  │   ├─ body.de.sale.media.map                   ├─ multimap.body.de.sale.conf
+  │   ├─ body.de.sale.seo.map                     │  (Not yet implemented)
+  │   ├─ body.de.sale.website.map                ─┘
   │   │
   │   ├─ body.de.stocks.map                      --- multimap.body.de.stocks.conf
   │   │
