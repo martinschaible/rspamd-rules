@@ -91,7 +91,7 @@ New configuration files have also been added.
 |          | multimap.body.en.sale.conf         | New map files added                |
 | 10.06.25 | multimap.body.de.sale.conf         | New map file added                 |
 |          | multimap.body.en.sale.conf         | New map file added                 |
-
+|          | multimap.sender.from               | Typo fixed                         |
 
 What to do:
 * Copy these files to the Rspamd server
