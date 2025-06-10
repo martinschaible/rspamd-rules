@@ -64,7 +64,7 @@
 # B
 /beanspruchen.{1,10}aktivieren/i
 
-/bedankt sich.{1,10}exklusives angebot/i
+/bedankt sich.{1,10}exklusives?.{1,10}(anerkennung|angebot|prämie)/iu
 /bedankt sich.{1,10}ihre rückmeldung/iu
 
 /begrenztes angebot.{1,10}gewinnen sie/i
@@ -135,7 +135,7 @@
 
 /exklusive.{1,15}box wartet/j
 /^exklusive.{1,10}prämien?$/i
-/exklusiven?.{1,15}prämien? für sie/i
+/exklusiven?.{1,15}(anerkennung|angebot|prämien?) für sie/i
 
 /exklusiven?.{1,10}ersparnisse/i
 /exklusiven?.{1,10}mystery.?box/i
