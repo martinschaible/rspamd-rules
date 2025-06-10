@@ -89,6 +89,8 @@ New configuration files have also been added.
 | 08.06.25 | multimap.sender.from.phishing.conf | New map file added                 |
 | 09.06.25 | multimap.body.de.sale.conf         | New map files added                |
 |          | multimap.body.en.sale.conf         | New map files added                |
+| 10.06.25 | multimap.body.de.sale.conf         | New map file added                 |
+|          | multimap.body.en.sale.conf         | New map file added                 |
 
 
 What to do:
@@ -183,9 +185,10 @@ body
   │   │
   │   ├─ body.de.sale.map                        ─┐
   │   ├─ body.de.sale.app.map                     │
-  │   ├─ body.de.sale.china.map                   │
-  │   ├─ body.de.sale.media.map                   ├─ multimap.body.de.sale.conf
-  │   ├─ body.de.sale.seo.map                     │  (Not yet implemented)
+  │   ├─ body.de.sale.greetings.map               │
+  │   ├─ body.de.sale.china.map                   ├─ multimap.body.de.sale.conf
+  │   ├─ body.de.sale.media.map                   │
+  │   ├─ body.de.sale.seo.map                     │
   │   ├─ body.de.sale.website.map                ─┘
   │   │
   │   ├─ body.de.stocks.map                      --- multimap.body.de.stocks.conf
@@ -194,7 +197,7 @@ body
   │   ├─ body.de.scam.business.map                │
   │   ├─ body.de.scam.bignumbers.map              │
   │   ├─ body.de.scam.donations.map               │
-  │   ├─ body.de.scam.investment.map        *     ├─ multimap.body.de.scam.conf
+  │   ├─ body.de.scam.investment.map              ├─ multimap.body.de.scam.conf
   │   ├─ body.de.scam.order.map                   │
   │   ├─ body.de.scam.payment.map                 │
   │   └─ body.de.scam.winning.map                ─┘
