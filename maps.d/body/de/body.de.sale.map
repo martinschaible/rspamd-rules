@@ -20,19 +20,6 @@
 /(ich|wir) kaufen?.{1,10}gebrauchte.{1,15}(autos|fahrzeuge|pkw)/i
 /(ich|wir) kaufen?.{1,10}(autos|fahrzeuge|pkw) mit unfallschäden/ui
 
-# Greetings
-# ------------------------------------------------------------------------------
-/guten (abend|morgen|tag).{5,35}als experten für/iu
-
-/guten (abend|morgen|tag).{1,10}wir sind.{1,20}(führenden|führender)/i
-/guten (abend|morgen|tag).{1,10}wir sind.{1,20}hersteller/i
-
-/sehr geehrter?.{1,10}(damen|herren).{1,20}ihr(em)? unternehmensprofil/i
-
-# Health
-# ------------------------------------------------------------------------------    
-/erste auslieferungen bereits erfolgt/i
-
 #
 #
 #
