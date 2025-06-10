@@ -136,8 +136,6 @@
 /(hello|hi).{1,5}(dear|friend|manager).{1,10}i came across/i
 
 /(hello|hi).{1,10}\[first name\]/i
-/(hello|hi).{1,10}are you interested in/i
-/(hello|hi).{1,10}are you seeking/i
 /(hello|hi).{5,35}from.{5,35}(in)? (china|india|ukraine)/i
 /(hello|hi\b).{1,10}herr/i
 
