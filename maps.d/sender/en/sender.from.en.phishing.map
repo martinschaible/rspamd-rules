@@ -88,6 +88,8 @@
 # B
 /billing.?team/i
 
+/box.{0,10}offer/i
+
 # C
 /claim.{0,10}(free|refund)/i
 /clean.{0,10}(experts?|support)/i
