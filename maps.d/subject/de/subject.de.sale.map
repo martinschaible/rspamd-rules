@@ -8,10 +8,17 @@
 
 # Chair
 # ------------------------------------------------------------------------------
-/(büro|massage).?(sessel|stuhl|stühle).{1,15}(abverkauf|angebot)/i
+/(büro|massage).?(sessel|stuhl|stühle).{1,15}(abverkauf|angebot|charakter|stil|vorteilspreis)/i
+/(büro|massage).?(sessel|stuhl|stühle).{1,15}nur.{1,10}zzgl/i
+/(büro|massage).?(sessel|stuhl|stühle).{1,15}walholz/i
+
 /massage.{0,15}(büro|sessel|stuhl|stühle).{0,15}(sessel|stuhl|stühle)/iu
+/stilvoll.{0,15}(büro|sessel|stuhl|stühle).{0,15}(sessel|stuhl|stühle)/iu
 
 /chance.{1,15}(büro|massage).?(sessel|stuhl|stühle)/i
+
+/design.{1,10}komfort vereint/i
+/dtn.?stuhl/i
 
 # E Bike, Scooter
 # ------------------------------------------------------------------------------

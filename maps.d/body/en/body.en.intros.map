@@ -112,6 +112,7 @@
 /(\bi\s*(am|'m)\b|my name is).{5,35}we.{1,10}specialized? in/i
 
 /(\bi\s*(am|'m)\b|my name is).{5,45}(biological|only).{1,15}(daughter|son)/i
+/(\bi\s*(am|'m)\b|my name is).{5,45}winner of/i
 
 # Titles
 /(\bi\s*(am|'m)\b|my name is).{5,35}(dr\.|sir)/i
