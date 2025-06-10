@@ -101,9 +101,10 @@
 # T
 /telefonnummern? aktualisieren/i
 
-/transaktion auf (ihrem|ihrer).{1,15}karte/i
+/transaktion auf.{1,10}(ihrem|ihrer).{1,15}karte/i
 
 # U
+/update für ihre.{1,10}securego/i
 
 # V
 /verdächtiger zugriff aus/iu

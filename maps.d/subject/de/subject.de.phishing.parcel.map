@@ -261,6 +261,8 @@
 /zustellung.{1,25}(ausstehend|fehlgeschlagen)/i
 /zustellung.{1,10}(paket|sendung) wartet auf sie/i
 
+/zustellung.{1,10}möglich.{1,10}paket noch nicht abgeholt/iu
+
 /zollabfertigung für.{1,10}(paket|sendung)/iu
 
 /zollgebühr(en)?.{1,10}fällig für iihre?.{1,15}(paket|sendung)/i
