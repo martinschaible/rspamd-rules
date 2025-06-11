@@ -35,3 +35,7 @@
 
 # 07.05.25
 /.shop/\?.{1,2}=(3d)?https/i
+
+# 11.06.25 - Sample: https://dl.dropboxusercontent.com/scl/fi/iucydhsjf9l9353pu8l6d/Rechnung-von-technikboerse.com.zip?rlkey=0opmabq5eo89kiltspk71df28&st=ug7b8cgr&dl=0
+# Malware
+/\.(ch|com|de)\.zip\?rlkey=/i
