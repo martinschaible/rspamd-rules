@@ -279,6 +279,7 @@
 /schnarchfrei.{1,10}(nacht|schlafen)/i
 /schöne.{1,10}zähne/i
 
+/sichern sie.{1,10}teile/i
 /sie bei uns sparen können/iu
 /sie ihr.{1,10}(auto|fahrzeug|wagen|lkw|pkw) verkaufen/i
 /sie ihren online.?ruf/i
@@ -302,7 +303,7 @@
 # T
 /\d{2,4}.{1,10}teiliges.{1,15}set/i
 
-/teile (set)?.{1,10}statt.{1,10}uvp/i
+/(teile.?(set)?|trolley).{1,10}statt.{1,10}uvp/i
 /teilige(n|s).{1,20}werkzeug.?(koffer|set)/i
 
 /teleskop.{1,10}profi.?leitern?/i

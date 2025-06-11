@@ -52,6 +52,7 @@
 /action required.{1,10}subscription renewal/i
 
 /action required.{1,10}upgrade.{1,10}e?.?mail/i
+/action required.{1,15}(updated|security).{1,15}policy/i
 
 /action required.{1,10}(imap|pop3)/i
 /action required.{1,20}de votre carte/i
@@ -99,6 +100,7 @@
 
 /important.{1,10}lose access.{1,15}account/i
 /important.{1,10}account (alert|update)/i
+/important.{1,10}authentication notification/i
 /important.{1,10}e?.?mail.{1,10}do not ignore/i
 /important.{1,10}information.{1,15}your.{1,15}(account|profile)/i
 

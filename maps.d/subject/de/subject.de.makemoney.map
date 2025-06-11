@@ -39,6 +39,7 @@
 /(ai\b|chat.?gpt|ki\b).{1,15}(handeln?|reich|verhilft|verspricht)/i
 /(ai\b|chat.?gpt|ki\b).{1,15}(machen|macht).{1,10}reich/i
 /(ai\b|chat.?gpt|ki\b).{1,15}revolutioniert aktienhandel/i
+/(ai\b|chat.?gpt|ki\b).{1,15}reichtum verspricht/i
 /(ai\b|chat.?gpt|ki\b).{1,15}geld.{1,10}(machen|verdienen)/i
 
 /(geld|reich).{1,15}durch (ai\b|chat.?gpt|ki\b)/i
