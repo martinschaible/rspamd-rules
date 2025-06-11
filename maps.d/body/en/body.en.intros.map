@@ -209,6 +209,7 @@
 # X
 
 # Y
+/your (contact|details|e?.?mail|information|name).{1,10}business directory/i
 /your (contact|details|e?.?mail|information|name).{1,20}(has been|was) provided by google/i
 
 /your.{1,15}profile (caught|drew) my.{1,10}attention/i

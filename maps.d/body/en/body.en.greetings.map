@@ -149,6 +149,7 @@
 /(hello|hi).{1,10}to the.{1,25}owner/i
 
 /(hello|hi).{1,5}partner.{1,10}good day/i
+/(hello|hi).{1,5}sir.{1,10}i am dr\./i
 
 /hi \[first.?name\]/i
 /hi\b.?sir/i

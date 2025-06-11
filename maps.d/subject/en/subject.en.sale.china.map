@@ -73,6 +73,7 @@
 # D
 /dash.?cam(era)?/i
 
+/dependable.{1,10}(pcba?|printed.?circuit.?board).{1,10}partner/i
 /discuss.{1,10}(pcba?|printed.?circuit.?board).{1,10}products/i
 
 # E
@@ -191,6 +192,7 @@
 /(pcba?|printed.?circuit.?board).{1,10}production line/i
 /(pcba?|printed.?circuit.?board).{1,10}supplier for/i
 /(pcba?|printed.?circuit.?board).{1,10}supply chain/i
+/(pcba?|printed.?circuit.?board).{1,10}mould partner/i
 
 /plastic.?injection.{1,10}mould.?maker/i
 /plastic.?mold.{1,10}(making|quotation|solution)/i

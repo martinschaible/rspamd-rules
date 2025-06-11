@@ -198,7 +198,9 @@
 /(mit der|sie eine|wärmende).{1,10}jacke/i
 
 /jederzeit multilingual/i
+
 /jetzt.{1,10}nur \d{2,3}.{1,10}statt \d{2,3}/i
+/jetzt zugreifen.{1,10}teile/i
 
 /(beheizbare|wärmende).{1,10}(daunen)?jacke/i
 
@@ -300,6 +302,7 @@
 # T
 /\d{2,4}.{1,10}teiliges.{1,15}set/i
 
+/teile (set)?.{1,10}statt.{1,10}uvp/i
 /teilige(n|s).{1,20}werkzeug.?(koffer|set)/i
 
 /teleskop.{1,10}profi.?leitern?/i

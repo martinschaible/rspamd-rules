@@ -80,6 +80,7 @@
 # L
 
 # M
+/(e?.?mail|letter|message).{1,10}does not suit your current/i
 /(e?.?mail|letter|message).{1,10}finds you well.{1,10}following up/i
 /(e?.?mail|letter|message).{1,10}finds you well.{1,10}reaching out/i
 
