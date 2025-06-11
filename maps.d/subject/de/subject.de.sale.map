@@ -303,7 +303,8 @@
 # T
 /\d{2,4}.{1,10}teiliges.{1,15}set/i
 
-/(teile.?(set)?|trolley).{1,10}statt.{1,10}uvp/i
+/(teile|trolley).{1,15}statt.{1,10}uvp/i
+
 /teilige(n|s).{1,20}werkzeug.?(koffer|set)/i
 
 /teleskop.{1,10}profi.?leitern?/i

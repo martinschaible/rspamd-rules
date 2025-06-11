@@ -105,6 +105,7 @@
 /konto.{1,10}(erfordert|braucht) ihre aufmerksamkeit/i
 /konto.{1,10}ihre.{1,15}daten zu schützen/iu
 /konto.{1,10}(stillgelegt|vorübergehende?)/iu
+/konto.{1,15}vor einer endgültigen sperrung/iu
 /konto.{1,10}wurde aufgrund ungewöhnlicher/i
 
 /kontostand ist (höher|hoeher) als/iu
@@ -116,6 +117,7 @@
 # M
 
 # N
+/nachricht zur sicherheit ihres.{1,15}kontos/i
 
 # O
 /optimierung.{1,10}kontosicherheit/i
