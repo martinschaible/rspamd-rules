@@ -9,7 +9,8 @@
 # Bitcoin
 # ------------------------------------------------------------------------------
 /(bitcoin|btc|crypto|krypto).{0,20}(aufwertung|ausgesorgt|bietet|chance)/i
-/(bitcoin|btc|crypto|krypto).{0,20}.(enorme|geheimnis|goldrausch|handeln)/i
+/(bitcoin|btc|crypto|krypto).{0,20}(erfolgsgeschichte|enorme)/i
+/(bitcoin|btc|crypto|krypto).{0,20}(geheimnis|goldrausch|handeln)/i
 /(bitcoin|btc|crypto|krypto).{0,20}gewinne?\?/i
 /(bitcoin|btc|crypto|krypto).{0,20}.innovation in/i
 /(bitcoin|btc|crypto|krypto).{0,20}(konto|millionen|portfolio|chancen?|trader)/i
@@ -93,7 +94,9 @@
 /einfach war geld/i
 /einkommen.{1,10}reichtum/i
 
+/erfolgsgeschichte enthüllt/iu
 /erklärt sein system/iu
+
 /enthüllt.{1,10}so werden sie/iu
 /experten schlagen alarm/i
 
