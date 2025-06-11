@@ -25,6 +25,7 @@
 # D
 /dear.{1,10}(buyer|customer|madam|manager|partner|purchaser|sir).{1,10}your.{1,15}(package|parcel|shipment) is (on its way|ready)/i
 
+/dear.{1,10}client.{1,10}your.{1,15}form has expired/i
 /dear.{1,10}customer.{1,10}our system has shown/i
 /dear.{1,10}member.{1,10}immediate attention required/i
 
