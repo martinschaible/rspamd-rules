@@ -110,7 +110,6 @@
 
 /(keep|stay).{1,10}account password.{1,10}(current|existing|old|same)/i
 
-/(keep|stay).{1,10}(current|existing|old|same).{1,10}pass.?word/i
 /(keep|stay).{1,10}the.{1,10}(current|existing|old|same).{1,10}pass.?word/i
 
 /(here|link|want).{1,10}to (keep|stay).{1,10}(account|same|the) passwords?/i
