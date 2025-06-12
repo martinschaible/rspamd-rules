@@ -54,8 +54,6 @@
 
 /e?.?mail.{1,10}auswahl wurden sie ausgewählt/iu
 
-/hallo.{1,10}sie wurden ausgewählt/iu
-
 /ihre.{1,10}e?.?mail.{1,15}einer der begünstigten/iu
 /ihre.{1,10}e?.?mail.{1,15}genehmigt wurde/i
 
@@ -213,7 +211,6 @@
 /ihre? e?.?mail.?(adresse|konto)?.{0,25}wurde.{1,15}ausgewählt.{1,10}um (die|eine).{1,10}(spende|summe)/iu
 /ihre? e?.?mail.?(adresse|konto)?.{1,25}wurde.{1,10}ausgewählt.{1,10}erhalt einer spende/i
 
-/ihre? e?.?mail.?(adresse|konto)?.{0,25}wurde.{1,15}für (die|eine).{1,10}(investitionshilfe|spende|wohltätigkeitsspende)/iu
 /ihre? e?.?mail.?(adresse|konto)?.{1,25}wurde.{1,10}unter.{1,10}(begünstigten|glücklichen)/i
 /ihre? e?.?mail.?(adresse|konto)?.{1,25}wurde.{1,10}per online/i
 
