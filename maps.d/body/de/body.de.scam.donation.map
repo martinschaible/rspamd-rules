@@ -19,6 +19,7 @@
 # A
 /ausgewählt.{1,10}antworten sie.{1,10}e?.?mail an/iu
 /ausgewählt.{1,10}erhält einen spendenbetrag von/iu
+/ausgewählt.{1,10}weitere informationen kontaktieren sie/iu
 
 # B
 /belohnung endet am/i
@@ -47,6 +48,8 @@
 
 # I
 /ich habe einen.{1,10}charity.?fonds/i
+
+/ihre? e?.?mail.?(adresse|konto)?.{0,25}wurde.{1,15}für.{1,15}(investitionshilfe|spende|wohltätigkeitsspende)/iu
 
 # J
 
