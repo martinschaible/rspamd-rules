@@ -178,6 +178,7 @@
 /update to.{1,10}new.{1,20}account/i
 /update to.{1,10}new.{1,20}\.(ch|com|de|org) now/i
 
+/update.{1,10}your.{1,10}contact info/i
 /update.{1,10}your.{1,10}mailbox settings/i
 /update.{1,15}your.{1,10}web.?mail/i
 
@@ -192,6 +193,7 @@
 # V
 /verify your.{1,15}.(ch|de|org).{1,10}e?.?mail/i
 /verify your.{1,15}account activity/i
+/verify your.{1,15}identity to.{1,15}(access|maintain)/i
 
 # W
 /wallet alert.{1,10}action required/i
