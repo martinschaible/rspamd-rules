@@ -118,6 +118,7 @@
 /beheizten? westen?/i
 
 /bestseller.{1,10}akku.?(geräte|produkte|set)/i
+/bestseller.{1,10}(falt)?pavillon/i
 
 # Sample: Bildschirm. Statt 169,-nur 49,90
 /bildschirm.{1,10}statt \d{2,3}.{1,5}nur.{1,5}\d{2}/i
@@ -157,7 +158,7 @@
 /(falt)?pavillon.{1,15}(aufbaubar|events?|ideal|jetzt|lieferbar|mit)/i
 /(falt)?pavillon.{1,15}reduziert/i
 /(falt)?pavillon.{1,15}(schnell|seitenteile|sofort)/i
-/(falt)?pavillon.{1,15}(vorteilspreis|wetterfest)/i
+/(falt)?pavillon.{1,15}(sonderpreis|vorteilspreis|wetterfest)/i
 
 /(falt)?pavillon.{1,10}(halben|kleinen) preis/i
 /feigenbäume.{1,10}versandkostenfrei/iu

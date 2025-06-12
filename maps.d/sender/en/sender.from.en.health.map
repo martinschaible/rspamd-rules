@@ -310,6 +310,7 @@
 /blue.{0,10}(drink|juice|pill|plant|replacement)/i
 /blurry.{0,10}fix/i
 
+/breakfast.{0,10}(juice|treat)/i
 /(breathe|breathing).{0,10}(better|clearer|easier|easy)/i
 
 /bright.{0,10}smile/i
@@ -737,7 +738,7 @@
 /sight.{0,10}care/i
 /silence.{0,10}(buzz(ing)?|pain)/i
 
-/sleep.{0,10}(discovery|hack|mistake|position)/i
+/sleep.{0,10}(discovery|hack|mistake|position|reset)/i
 /slim.{0,10}diet/i
 
 /(slim|skinny).{0,10}waist/i

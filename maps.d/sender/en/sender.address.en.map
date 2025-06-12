@@ -25,6 +25,7 @@
 # A
 
 # B
+/banking@/i
 
 # C
 /claim.?refund/i
@@ -45,6 +46,7 @@
 # H
 
 # I
+/invoice@/i
 
 # J
 
@@ -72,9 +74,12 @@
 # Sample: reply+58215353.52017217@capture.hireology.com
 /reply.?\+/i
 
+/reset@/i
 
 # S
 /sales.?manager/i
+
+/security@/i
 
 /seo@/i
 /seo.?expert/i
@@ -82,6 +87,7 @@
 /slim.?diet/i
 
 # T
+/transaction@/i
 
 # U
 # 24.05.25 - Sample: noreply@update-9-916d9.firebaseapp.com
