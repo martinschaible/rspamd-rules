@@ -17,7 +17,7 @@
 # ==============================================================================
 
 # A
-/after analyzing your.{1,10}(web)?site/i
+/after analyzing your.{1,10}(web)?.?site/i
 
 # B
 /best seo quote/i
@@ -39,6 +39,7 @@
 
 /google.{1,10}at.{1,10}low cost/i
 /google.{1,10}other major search engines/i
+/google.{1,10}reviewed.{1,10}your (web)?.?site/i
 /google.{1,10}we can optimize/i
 
 # H
