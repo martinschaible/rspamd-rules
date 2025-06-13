@@ -72,12 +72,13 @@
 
 /web.{1,10}mobile.?app.{1,10}development/i
 
-/websites.{1,10}message us/i
+/websites?.{1,10}for your business/i
+/websites?.{1,10}message us/i
 
 # X
 
 # Y
-/you.{1,10}want.{1,10}(create|make).{1,15}(business|new)?.{1,10}(web)?.?site/i
+/you.{1,10}(need|want).{1,10}(create|make).{1,15}(business|new)?.{1,10}(web)?.?site/i
 
 /your.{1,10}(web)?.?site.{1,15}at an affordable price/i
 
