@@ -42,6 +42,6 @@
 /\d{3,4}(\.|,)?\d{3,4}.{0,5}(dollar|euro?|gbp|usd|€|\$|£)/i 0.17
 /^\d{3,4}(\.|,)?\d{3,4}.{0,5}(dollar|euro?|gbp|usd|€|\$|£)$/i
 
-/\d{3,4}(\.|,)?\d{3,4}.{1,10}(millionen).{1,10}(dollar|euro?|gbp|usd|€|\$|£)/i
+/\d{3,4}(\.|,)?\d{3,4}.{1,10}(millionen)?.{1,10}(dollar|euro?|gbp|usd|€|\$|£)/i
 
-/\d{1,2} mio (dollars?|euro?|usd|€|\$|£)$/i
+/\d{1,2} mio.{0,5}(dollars?|euro?|usd|€|\$|£)$/i
