@@ -44,7 +44,7 @@
 /beneficial sir/i
 /beneficiary.{1,15}(e?.?mail|final|fund|inquiry|notice|recover)/i
 
-/(attn|attention|congratulations|dear|fund|hello|my|valued|you).{1,20}beneficiary/i
+/(attn|attention|congratulations|dear|fund|hello|my|transfer|valued|you).{1,20}beneficiary/i
 
 # C
 /card is.{1,10}ready for delivery/i
@@ -108,7 +108,7 @@
 
 /internet crime complaint center/i
 
-/Invitation.{1,10}co.?operation/i
+/invitation.{1,10}co.?operation/i
 
 # J
 

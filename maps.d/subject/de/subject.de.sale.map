@@ -127,6 +127,8 @@
 
 /(büro|massage).?(sessel|stuhl|stühle).{1,25}(bezug|funktion|massage)/i
 
+/btu.{1,10}klima.?(anlage|gerät)/iu
+
 # C
 /corona.?tests?.{1,10}kombi.?tests?/i
 
@@ -206,6 +208,8 @@
 /(beheizbare|wärmende).{1,10}(daunen)?jacke/i
 
 # K
+/klima.?(anlage|gerät).{1,10}mobil/i
+
 /komplett für nur \d{2,3}.{1,10}netto/iu
 /kooperationsmöglichkeit.{1,10}qualifiziertes?/iu
 
@@ -250,6 +254,8 @@
 
 /personallösungen.{1,15}baltikum/iu
 /personalisierten?.{1,10}werbemittel/i
+
+/power.?cooling.{1,10}mobil/i
 
 /\/ (pv|solar).?anlage/i
 /(pv|solar).?anlagen? um.{1,10}günstiger/i
@@ -302,6 +308,8 @@
 /sofort verfügbare mitarbeiter/iu
 
 /sprachen sofort/i
+
+/stoppen mit.{1,10}btu/i
 
 # T
 /\d{2,4}.{1,10}teiliges.{1,15}set/i
