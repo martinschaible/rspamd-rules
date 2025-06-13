@@ -92,6 +92,8 @@ New configuration files have also been added.
 | 10.06.25 | multimap.body.de.sale.conf         | New map file added                 |
 |          | multimap.body.en.sale.conf         | New map file added                 |
 |          | multimap.sender.from               | Typo fixed                         |
+| 13.06.25 | multimap.body.de.scam.conf         | New map file added                 |
+|          | multimap.body.en.scam.conf         | New map file added                 |
 
 What to do:
 * Copy these files to the Rspamd server
@@ -200,6 +202,7 @@ body
   │   ├─ body.de.scam.investment.map              ├─ multimap.body.de.scam.conf
   │   ├─ body.de.scam.order.map                   │
   │   ├─ body.de.scam.payment.map                 │
+  │   ├─ body.de.scam.ransom.map                  │
   │   └─ body.de.scam.winning.map                ─┘
   │
   └─ en
