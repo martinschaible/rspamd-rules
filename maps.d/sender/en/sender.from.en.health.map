@@ -310,6 +310,8 @@
 /blue.{0,10}(drink|juice|pill|plant|replacement)/i
 /blurry.{0,10}fix/i
 
+/brain.{0,10}revival/i
+
 /breakfast.{0,10}(juice|treat)/i
 /(breathe|breathing).{0,10}(better|clearer|easier|easy)/i
 
@@ -361,11 +363,11 @@
 /click(ing)?.{0,10}(free|noise|sounds?)/i
 /clinically.{0,10}proven/i
 
-/clog(ged)?.{0,10}(arteries|artery)/i
+/clog(ged)?.{0,10}(arteries|artery|liver)/i
 /closed.{0,10}arteries/i
 
 /coffee.{0,10}extracts/i
-/cognitive.{0,10}(decline|support)/i
+/cognitive.{0,10}(boost|decline|support)/i
 
 /compression.{0,10}sleeve/i
 /constant.{0,10}urinatine/i
@@ -585,7 +587,7 @@
 
 /medicinal.{0,10}patch(es)?/i
 
-/memory.{0,10}(drink|killer)/i
+/memory.{0,10}(drink|killer|secret)/i
 
 /mens?.{0,10}(only|power)/i
 /mental.{0,10}clarity/i
@@ -596,7 +598,7 @@
 /midnight.{0,10}bathroom/i
 
 /min.?stretch/i
-/mind.{0,10}(barriers?|blow|boost|clarity)/i
+/mind.{0,10}(barriers?|blow|boost|clarity|recovery)/i
 /mineral.{0,10}combination/i
 
 /miracle.{0,10}(drops?|minerals?)/i
@@ -729,7 +731,7 @@
 /senior.{0,10}moments/i
 /severe.{0,10}pain/i
 
-/sharp(er)?.{0,10}(brain|ears|eyes|mind|thinking)/i
+/sharp(er)?.{0,10}(brain|ears|eyes|memroy|mind|thinking)/i
 
 /shed.{1,15}faster/i
 /shed.{1,10}ibs by/i

@@ -50,23 +50,24 @@
 /guten (abend|morgen|tag).{1,10}unser abonnent/i
 
 # H
-/hallo.{1,10}bei einer.{1,15}(routinemäßigen|überprüfung)/iu
+/hallo.{1,15}bei der zahlungsabwicklung/i
+/hallo.{1,15}bei einer.{1,15}(routinemäßigen|überprüfung)/iu
 
-/hallo.{1,10}ihre e?.?mail.?adresse wurde/i
-/hallo.{1,10}ihr paket mit der/i
-/hallo.{1,10}ihre.{1,15}sicherheitslösung/iu
+/hallo.{1,15}ihre e?.?mail.?adresse wurde/i
+/hallo.{1,15}ihr paket mit der/i
+/hallo.{1,15}ihre.{1,15}sicherheitslösung/iu
 
-/hallo.{1,10}im anhang finden sie die rechnung/i
-/hallo.{1,10}im rahmen einer.{1,20}(routinemäßigen|sicherheitsüberprüfung)/iu
+/hallo.{1,15}im anhang finden sie die rechnung/i
+/hallo.{1,15}im rahmen einer.{1,20}(routinemäßigen|sicherheitsüberprüfung)/iu
 
-/hallo.{1,10}uns ist ein ungewöhnlicher/iu
+/hallo.{1,15}uns ist ein ungewöhnlicher/iu
 
-/hallo.{1,10}verkehrsteilnehmer/i
-/hallo.{1,10}während einer systemanalyse/iu
+/hallo.{1,15}verkehrsteilnehmer/i
+/hallo.{1,15}während einer systemanalyse/iu
 
-/hallo.{1,10}wir haben.{1,10}einen verdächtigen/iu
-/hallo.{1,10}wir haben.{1,10}einen anmeldeversuch/i
-/hallo.{1,10}wir haben.{1,10}ungewöhnliche anmeldung/iu
+/hallo.{1,15}wir haben.{1,10}einen verdächtigen/iu
+/hallo.{1,15}wir haben.{1,10}einen anmeldeversuch/i
+/hallo.{1,15}wir haben.{1,10}ungewöhnliche anmeldung/iu
 
 /herzliche grüße.{1,10}ich kontaktiere sie/iu
 
@@ -97,37 +98,38 @@
 # R
 
 # S
-/sehr geehrter?.{1,10}(kunde|kundin).{1,15}aufgrund neuer/i
-/sehr geehrter?.{1,10}(kunde|kundin).{1,15}aufgrund von verdächtigen/iu
-/sehr geehrter?.{1,10}(kunde|kundin).{1,30}aufgrund aktualisierter/i
+/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}aus sicherheitsgründen/iu
+/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}aufgrund neuer/i
+/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}aufgrund von verdächtigen/iu
+/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,30}aufgrund aktualisierter/i
+ 
+/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}benötigen sie eine?/i
+/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}es wurde eine aktivität/iu
 
-/sehr geehrter?.{1,10}(damen|herren).{1,15}benötigen sie eine?/i
-/sehr geehrter?.{1,10}(kunde|kundin).{1,15}es wurde eine aktivität/iu
+/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}ihr paket/i 
+/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}ihre aktuelle zahlungsmethode/i
 
-/sehr geehrter?.{1,10}(kunde|kundin).{1,10}ihr paket/i 
-/sehr geehrter?.{1,10}(kunde|kundin).{1,15}ihre aktuelle zahlungsmethode/i
+/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}im rahmen der gesetzlich/i
+/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}im rahmen.{1,25}(datenschutz|eintragung|sicherheits)/i
 
-/sehr geehrter?.{1,10}(damen|herren).{1,10}im rahmen der gesetzlich/i
-/sehr geehrter?.{1,10}(damen|herren).{1,10}im rahmen ihrer eintragung/i
+/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,20}sicherheitswarnung/i
 
-/sehr geehrter?.{1,10}(kunde|kundin).{1,20}sicherheitswarnung/i
+/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,30}um den uneingeschränkten/iu
+/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}um die qualität/iu
+/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}um die rückzahlung/iu
+/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}unsere aufzeichnungen zeigen/i
 
-/sehr geehrter?.{1,10}(kunde|kundin).{1,30}um den uneingeschränkten/iu
-/sehr geehrter?.{1,10}(kunde|kundin).{1,15}um die qualität/iu
-/sehr geehrter?.{1,10}(kunde|kundin).{1,15}um die rückzahlung/iu
-/sehr geehrter?.{1,10}(kunde|kundin).{1,15}unsere aufzeichnungen zeigen/i
+/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}wichtige nachricht an sie/i
+/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}wir haben festgestellt/i
+/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}wir hatten kürzlich ein/iu
 
-/sehr geehrter?.{1,10}(kunde|kundin).{1,15}wichtige nachricht an sie/i
-/sehr geehrter?.{1,10}(kunde|kundin).{1,15}wir haben festgestellt/i
-/sehr geehrter?.{1,10}(kunde|kundin).{1,15}wir hatten kürzlich ein/iu
+# Invoices
+/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,20}anbei erhalten sie ihre aktuelle rechnung/i
+/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,20}anbei schicken wir ihnen ihre rechnung/i
+/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,20}ihre rechnung ist/i
 
 /sehr geehrter.{1,10}geschäftsführer/iu
 /sehr geehrte\/?r?.{1,5}wir möchten sie informieren/iu
-
-# Invoices
-/sehr geehrter?.{1,10}(damen|herren).{1,20}anbei erhalten sie ihre aktuelle rechnung/i
-/sehr geehrter?.{1,10}(damen|herren).{1,20}anbei schicken wir ihnen ihre rechnung/i
-/sehr geehrter?.{1,10}(kunde|kundin).{1,20}ihre rechnung ist/i
 
 # T
 
