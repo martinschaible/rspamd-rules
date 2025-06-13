@@ -93,7 +93,8 @@
 
 /\d{1,2}.{1,10}day trick to a/i
 /\d{1,2}.{1,10}second (rub|routine|reset)/i
-/\d{1,3}.?(lbs|pounds) gone/i
+/\d{1,3}.?(lbs|pounds).{1,10}(gone|flab)/i
+
 /\d cause of/i
 /\d simple habit/i
 /\d stretch/i
@@ -709,6 +710,7 @@
 /want to sleep/i
 /wants.{1,10}burn fat/i
 
+/wash away.{1,10}(lbs|pounds)/i
 /weird.{1,10}(remedy|stretch|tonic)/i
 
 /with.{1,10}this.{1,10}ritual/i

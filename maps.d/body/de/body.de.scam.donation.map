@@ -47,13 +47,15 @@
 /hat ihnen.{1,20}millionen.{1,10}gespendet/i
 
 # I
-/ich habe einen.{1,10}charity.?fonds/i
+/ich habe.{1,10}einen.{1,10}charity.?fonds/i
+/ich habe.{1,10}eine spende von.{1,15}(dollar|euro?|gbp|usd|€|\$|£)/i
 
 /ihre? e?.?mail.?(adresse|konto)?.{0,25}wurde.{1,15}für.{1,15}(investitionshilfe|spende|wohltätigkeitsspende)/iu
 
 # J
 
 # K
+/kontakt für ihre spende/iu
 /kontaktieren.{1,10}um ihre spende in höhe von/iu
 
 # L

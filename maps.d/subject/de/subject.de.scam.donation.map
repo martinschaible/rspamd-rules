@@ -41,6 +41,9 @@
 
 # I
 /ihnen eine spende von/i
+/ihnen.{1,10}millionen.{1,15}gespendet/i
+/ihnen.{1,10}(dollars?|euro?|usd|€|\$|£).{1,15}gespendet/i
+
 /ihre e?.?mail.{1,15}wurde.{1,15}spende/i
 
 /investitions?.{1,5}spenden?/i
