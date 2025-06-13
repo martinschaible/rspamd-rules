@@ -31,29 +31,41 @@
 # These are bad too:
 /src=.{0,5}https?:\/\/[a-z0-9-\.]{3,100}\.(makeup|men|work|yachts)\//i
 
-# First seen August 2023
+# 2023
+# ------------------------------------------------------------------------------
+# First seen August
 /src=.{0,5}https?:\/\/[a-z0-9-\.]{3,100}\.(bet|cfd)\//i
-# First seen September 2023
+# First seen September
 /src=.{0,5}https?:\/\/[a-z0-9-\.]{3,100}\.quest\//i
-# First seen October 2023
+# First seen October
 /src=.{0,5}https?:\/\/[a-z0-9-\.]{3,100}\.ovh\//i
-# First seen November 2023
+# First seen November
 /src=.{0,5}https?:\/\/[a-z0-9-\.]{3,100}\.cyou\//i
-# First seen December 2023
+# First seen December
 /src=.{0,5}https?:\/\/[a-z0-9-\.]{3,100}\.mom\//i
-# First seen January 2024
+
+# 2024
+# ------------------------------------------------------------------------------
+# First seen January
 /src=.{0,5}https?:\/\/[a-z0-9-\.]{3,100}\.(lat|sbs)\//i
-# First seen February 2024
+# First seen February
 /src=.{0,5}https?:\/\/[a-z0-9-\.]{3,100}\.guru\//i
-# First seen April 2024
+# First seen April
 /src=.{0,5}https?:\/\/[a-z0-9-\.]{3,100}\.(bar|su)\//i
+
 # removed on request
 #/src=.{0,5}https?:\/\/[a-z0-9-\.]{3,100}\.one\//i
-# First seen August 2024
+
+# First seen August
 /src=.{0,5}https?:\/\/[a-z0-9-\.]{3,100}\.hair\//i
-# First seen September 2024
+# First seen September
 /src=.{0,5}https?:\/\/[a-z0-9-\.]{3,100}\.(click|pw|sbs)\//i
-# First seen November 2024
+# First seen November
 /src=.{0,5}https?:\/\/[a-z0-9-\.]{3,100}\.(boutique|fun|link)\//i
-# First seen December 2024
+# First seen December
 /src=.{0,5}https?:\/\/[a-z0-9-\.]{3,100}\.(holiday|wtf)\//i
+
+# 2025
+# ------------------------------------------------------------------------------
+# First seen May
+/src=.{0,5}https?:\/\/[a-z0-9-\.]{3,100}\.za\.com\//i
