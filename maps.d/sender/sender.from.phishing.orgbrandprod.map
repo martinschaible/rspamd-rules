@@ -49,6 +49,7 @@
 # service@paypal.com
 # SwissPass Newsletter
 # Spotify
+# Support - Hetzner Online GmbH
 # Viseca
 # Wetransfer
 
@@ -580,7 +581,7 @@
 /\.starbucks/i
 
 #/(service|support).{0,10}paypal/i
-/support.{0,10}(hetzner|netflix|paypal)/i
+/support.{0,10}(netflix|paypal)/i
 
 /shell.?partner/i
 
