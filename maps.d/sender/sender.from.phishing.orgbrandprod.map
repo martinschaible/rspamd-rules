@@ -609,7 +609,8 @@
 /swica.{0,10}(leistungszentrum|support|versicherung)/i
 /swica.?-/i
 
-/swisscom.{0,10}(info.?team|kundenservice)/i
+/swisscom.{0,10}(info|support)/i
+/swisscom.{0,10}(kundenbetreung|kundenservice)/i
 
 /swiftpackage/i
 

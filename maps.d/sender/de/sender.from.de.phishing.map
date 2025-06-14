@@ -28,6 +28,7 @@
 _[a-z].{0,15}box/i
 
 # C
+/ch.?zustellung/i
 
 # D
 /dankt ihnen/i
@@ -61,6 +62,7 @@ _[a-z].{0,15}box/i
 /günstig(er)?.{0,10}streaming/iu
 
 # H
+/haben.{0,10}paket/i
 /hosting.{0,10}abrechnung/i
 
 # I
@@ -112,6 +114,7 @@ _[a-z].{0,15}box/i
 
 # S
 /service.?meldung(en)?/i
+/sie haben/i
 /speicher.?(icloud|dienste?|team)/i
 
 /store.{0,10}lager/i
