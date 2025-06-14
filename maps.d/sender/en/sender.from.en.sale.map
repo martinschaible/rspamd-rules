@@ -54,6 +54,7 @@
 /clear.{0,10}road/i
 
 /comfort.{0,10}only/i
+/compact.{0,10}(cleaning|power)/i
 /cool.{0,10}(edge|solutions?)/i
 
 # D
@@ -67,7 +68,9 @@
 /door.{0,10}(camera|ringer|training)/i
 
 /drive.{0,10}(clear|safe)/i
-/drone.?(labs|x|zone)/i
+
+/drone.{0,10}(expert|labs|zone)/i
+/drone.?x/i
 
 /(4k|8k|raptor|smarty?).{0,10}drone/i
 
@@ -255,6 +258,6 @@
 /x?pro.{0,5}drone/i
 
 # Y
-/your.{0,10}timeshare/i
+/your.{0,10}(drone|timeshare)/i
 
 # Z

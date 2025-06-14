@@ -354,7 +354,8 @@
 /get.{1,10}hard on demand/i
 /get hard.{1,10}stay hard/i
 
-/gets rid of.{1,10}(brain fog|cavity|pain)/i
+/gets? rid of.{1,10}(brain fog|cavity|pain)/i
+/gets? rid of.{1,10}unwanted/i
 
 /gum.{0,10}(health|problem)/i
 /goodbye.{0,10}(pain|ringing ears)/i
@@ -436,7 +437,10 @@
 
 # M
 /major.{1,10}fat.?loss/i
+
 /makes you thin/i
+/makes you gain weight/i
+
 /massage restores/i
 
 /md discovers/i

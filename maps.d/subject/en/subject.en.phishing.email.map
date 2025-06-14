@@ -19,11 +19,12 @@
 /\.[a-z]{1,4}.{1,5}confirm to complete/i
 /\.[a-z]{1,4}.{1,5}critical errors/i
 
+/\.[a-z]{1,4}.{1,10}(e?.?mail|mailbox|server).{1,10}suspended/i
+/\.[a-z]{1,4}.{1,10}(e?.?mail|mailbox|server|update).{1,10}(notification|verification)/i
+
 /\.[a-z]{1,4}.{1,10}de.?activation notice/i
 /\.[a-z]{1,4}.{1,10}mailbox notification/i
 /\.[a-z]{1,4}.{1,10}mail.?server closure/i
-/\.[a-z]{1,4}.{1,10}server.{1,10}suspended/i
-/\.[a-z]{1,4}.{1,10}update notification/i
 /\.[a-z]{1,4}.{1,10}warning{1,10}the e?.?mail account/i
 /\.[a-z]{1,4}.{1,10}will be blocked/i
 

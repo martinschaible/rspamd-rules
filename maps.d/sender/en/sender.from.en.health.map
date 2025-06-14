@@ -183,7 +183,7 @@
 /belly.{0,10}(detox|fix|flattening)/i
 /body.{0,10}fat/i
 
-/(belly|burn|eliminates?|lose|losing|melt|shed|stubborn|wobbly).{0,10}(belly|bloat|fat|flab|lbs|pounds|weight)/i
+/(belly|burn|eliminates?|lose|losing|melt|shed|stubborn|wobbly).{0,10}(belly|bloat|carbs|fat|flab|lbs|pounds|weight)/i
 /(lose|melt|shed).{0,10}\d{2}/i
 
 /(bulging|flat|slimmer|tiny|your).{0,10}belly/i
@@ -575,6 +575,8 @@
 
 /loosened.{0,10}hips/i
 /lost \d{2,3}/i
+
+/love.{0,10}handles?/i
 /low.{0,10}(cholesterol|sugar)/i
 /lower.{0,10}back/i
 
@@ -620,7 +622,7 @@
 
 /nasty.{0,10}(lumps|(toe)?nails?)/i
 
-/natural.{0,10}(alternative|antibiotic|fix|shape|solution|tonic)/i
+/natural.{0,10}(alternative|antibiotic|fix|shape|solution|tonic|vaccine)/i
 /natural.{0,10}neuropathy/i
 
 /nature.{0,10}(cure|opioids?|tea)/i
