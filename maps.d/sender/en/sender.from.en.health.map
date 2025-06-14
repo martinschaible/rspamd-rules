@@ -246,7 +246,7 @@
 # Numeric
 /\d (cup|tbsp|tsp)/i
 /\d{1,2} (minerals|signs)/i
-/\d{1,2} sec rules/?
+/\d{1,2} sec rules/i
 /\d{1,2} seconds?/i
 /\d{2,3} years old/i
 

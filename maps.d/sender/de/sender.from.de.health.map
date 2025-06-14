@@ -81,7 +81,7 @@
 
 # K
 /(kg|kilo).{1,10}(pro woche|weniger)/i
-/(kg|kilo).{1,10}(tagen?|wochen?)
+/(kg|kilo).{1,10}(tagen?|wochen?)/i
 
 /kein verlangen/i
 /keto.{0,10}(diät|erfolge?|kaffee)/i
