@@ -9,8 +9,7 @@
 # Crypto
 # ------------------------------------------------------------------------------
 /(bitcoin|btc|crypto|krypto).{0,10}(beratung|berater|bricht|bulletin)/i
-/(bitcoin|btc|crypto|krypto).{0,10}(einblick|erfolg|experte)/i
-/(bitcoin|btc|crypto|krypto).{0,10}(geld|gewinner|gratis|handel|händler)/i
+/(bitcoin|btc|crypto|krypto).{0,10}(geld|gewinner|gratis|handel|händler|heute)/i
 /(bitcoin|btc|crypto|krypto).{0,10}(nachrichten|neuigkeiten)/i
 /(bitcoin|btc|crypto|krypto).{0,10}(preis|team|tipps?)/i
 /(bitcoin|btc|crypto|krypto).{0,10}(vorteile?|währung(en)?|welle)/iu

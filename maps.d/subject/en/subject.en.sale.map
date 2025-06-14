@@ -12,6 +12,9 @@
 
 /(compact|foldable|friendly|lightweight|money|perfect|this 4k|ultimate).{1,10}drone/i
 
+/tactic(al)?.{1,15}drone/i
+/most (efficient|portable).{1,10}drone/i
+
 # E Bike, Scooter
 # ------------------------------------------------------------------------------
 /(urban|power).?cruiser/i
@@ -116,8 +119,6 @@
 # M
 /mini.?phone.{1,10}(offer|x)/i
 
-/most (efficient|portable).{1,10}drone/i
-
 # N
 
 /never lose keys again/i
@@ -153,8 +154,6 @@
 /starting at.{1,15}shop today/i
 
 # T
-/tactic(al)?.{1,15}drone/i
-
 /^t.?shirts$/i
 
 # U

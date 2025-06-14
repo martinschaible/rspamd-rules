@@ -58,7 +58,7 @@
 /cool.{0,10}(edge|solutions?)/i
 
 # D
-/deal.{0,10}alarm/i
+/deals?.{0,10}(alarm|today)/i
 /(designer|discount|rolex|top).?watch(es)?/i
 
 /defense.{0,10}brief/i
@@ -69,10 +69,10 @@
 
 /drive.{0,10}(clear|safe)/i
 
-/drone.{0,10}(expert|labs|zone)/i
+/drone.{0,10}(deals?|expert|labs|zone)/i
 /drone.?x/i
 
-/(4k|8k|raptor|smarty?).{0,10}drone/i
+/(4k|8k|raptor|skyview|smarty?).{0,10}drone/i
 
 /dusterx.?pro/i
 
