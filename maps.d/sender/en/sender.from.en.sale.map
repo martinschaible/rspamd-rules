@@ -6,6 +6,18 @@
 # Topics
 # ==============================================================================
 
+# Drone
+# ------------------------------------------------------------------------------
+/drone.{0,10}(deals?|expert|labs|zone)/i
+/drone.?x/i
+
+/(4k|8k|air|fly|raptor|skyview|smarty?|your).{0,10}drone/i
+/x?pro.{0,5}drone/i
+
+/tactic(al)?.{0,10}drone/i
+/tactic(al)?.{0,10}(air|official|team)/i
+
+
 # Replicas
 # ------------------------------------------------------------------------------
 /(hot|luxury|top).{0,10}(bags|watch(es)?)/i
@@ -29,7 +41,6 @@
 # ==============================================================================
 
 # A
-/air.{0,10}drone/i
 /american.{0,10}(discounts|seniors)/i
 /anti.{0,10}(loss|noise)/i
 
@@ -69,11 +80,6 @@
 
 /drive.{0,10}(clear|safe)/i
 
-/drone.{0,10}(deals?|expert|labs|zone)/i
-/drone.?x/i
-
-/(4k|8k|raptor|skyview|smarty?).{0,10}drone/i
-
 /dusterx.?pro/i
 
 # E
@@ -97,7 +103,6 @@
 /final.{0,10}expense/i
 /first.{0,10}american?/i
 
-/fly.{0,10}drones?/i
 /foam.{0,10}seat/i
 /food.{0,10}supply/i
 /fox.{0,10}scope/i
@@ -224,7 +229,7 @@
 /stop wasting/i
 
 # T
-/tactic(al)?.{0,10}(drone|flashlight|knive|official|report)/i
+/tactic(al)?.{0,10}(flashlight|knive|official|report)/i
 
 /tax.{0,10}(consultant|helpers?|resolvers?)/i
 
@@ -259,9 +264,8 @@
 /woodworking.{0,10}plans/i
 
 # X
-/x?pro.{0,5}drone/i
 
 # Y
-/your.{0,10}(drone|timeshare)/i
+/your.{0,10}timeshare/i
 
 # Z
