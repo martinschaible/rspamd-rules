@@ -113,6 +113,9 @@
 /gadget.{0,10}savers?/i
 /global.{0,10}food/i
 
+/guard.{0,10}(offer|partner)/i
+/gutter.{0,10}(clean|guard)/i
+
 # H
 /health(care)?.{0,10}enrollment/i
 
@@ -145,6 +148,7 @@
 /knives?.{0,10}(set|team)/i
 
 # L
+/leaf.?filter/i
 /limited time/i
 /local.?seo/i
 /luxury.?(collections?|watch(es)?)/i
