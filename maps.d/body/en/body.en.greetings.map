@@ -91,6 +91,8 @@
 /dear.{1,10}(supplier|vendor).{1,10}good (afternoon|day|evening|morning)/i
 /dear.{1,10}(supplier|vendor).{1,10}refer to/i
 
+/dearest one.{1,10}accept my greetings/i
+
 # E
 
 # F
@@ -119,6 +121,7 @@
 
 /greetings.?(of the day)?{.1,10}beloved.{1,15}my name is/i
 /greetings.?(of the day)?.{1,15}greetings/i
+/greetings.?(of the day)?.{1,15}in the name of/i
 /greetings.?(of the day)?.{1,15}my friend/i
 /greetings.?(of the day)?.{1,15}my name is.{5,35}i am representing/i
 
