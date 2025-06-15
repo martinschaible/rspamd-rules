@@ -58,8 +58,8 @@
 
 # F
 
-# Don't use "profile"
-/für ihr.{1,15}konto/i
+# Too generic
+#/für ihr.{1,15}(konto|profile)/i
 
 # G
 /gesperrt.{1,10}jetzt verifizieren/i
