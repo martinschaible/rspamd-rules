@@ -63,8 +63,11 @@
 # N
 /news\.(info|mail)/i
 /notice-/i
+
 # O
 /(offer|order)\./i
+
+/online.?bank/i
 
 # P
 
@@ -99,6 +102,7 @@
 /user\./i
 
 # V
+/verify/i
 
 # W
 /webmastermail/i
