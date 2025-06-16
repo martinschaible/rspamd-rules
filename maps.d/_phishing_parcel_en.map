@@ -42,7 +42,6 @@
 # ------------------------------------------------------------------------------
 /(package|parcel|shipment).{1,15}fill out the form in our website/i
 
-/your.{1,10}(package|parcel|shipment).{1,15}arrived at our.{1,10}post.?office/i
 /your.{1,10}(package|parcel|shipment).{1,15}is still awaiting delivery/i
 /your.{1,10}(package|parcel|shipment).{1,25}is still pending instructions/i
 /your.{1,10}(package|parcel|shipment).{1,15}pending.{1,10}is awaiting/i
