@@ -82,7 +82,8 @@
 
 # M
 /masato/i
-/metamask.{1,10}security warning/i
+/metamask.{1,10}security (alert|warning)/i
+/metamask.{1,10}was used to sign.?in/i
 
 /muama.?enence/i
 
