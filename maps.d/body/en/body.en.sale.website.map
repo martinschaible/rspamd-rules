@@ -66,9 +66,13 @@
 # V
 
 # W
+/we are.{1,20}professional.{1,10}(web)?.?sites?/i 
+
+/we.{1,10}(create|design).{1,10}develop.{1,10}(web)?.?sites?/i 
+/we.{1,10}(create|design).{1,10}new.{1,10}(web)?.?site/i
+
 /we.{1,10}offer.{1,10}expert.{1,10}(web)?.?site/i
 /we.{1,10}offer.{1,10}web.?design/i
-/we.{1,10}design.{1,10}develop.{1,10}(web)?.?sites?/i 
 
 /web.{1,10}mobile.?app.{1,10}development/i
 
@@ -78,6 +82,7 @@
 # X
 
 # Y
+/you.{1,10}(interested|looking|considering).{1,10}(for|in).{1,10}(web)?.?site/i
 /you.{1,10}(need|want).{1,10}(create|make).{1,15}(business|new)?.{1,10}(web)?.?site/i
 
 /your.{1,10}(web)?.?site.{1,15}at an affordable price/i

@@ -91,6 +91,8 @@
 /box.{0,10}offer/i
 
 # C
+/cargo notification/i
+
 /claim.{0,10}(free|refund)/i
 /clean.{0,10}(experts?|support)/i
 
@@ -183,7 +185,7 @@
 /rewards?.{0,10}(center|team)/i
 
 # S
-/safety.{0,10}check/i
+/safety.{0,10}(alert|check)/i
 /security.{0,10}alert/i
 
 /server.?(admin|support|update)/i
@@ -192,7 +194,8 @@
 /service.{0,10}notifications?/i
 /(service|storage).{0,10}(upgrades?|updates?)/i
 
-/safety.{0,10}(alert|check)/i
+/settlement.{0,10}administrator/i
+
 /shared.{0,10}file/i
 /sharepoint.{0,10}center/i
 /shipping.{0,10}(pending|team|update)/i
