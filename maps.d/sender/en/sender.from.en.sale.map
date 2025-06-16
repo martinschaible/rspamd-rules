@@ -62,20 +62,20 @@
 /car.{0,10}(repair|shield)/i
 
 /chef.{0,10}knife/i
-/chill.{0,10}insider/i
+/chill.{0,15}(air|companion|crew|insider|support)/i
 /clean.{0,10}shower/i
 /clear.{0,10}road/i
 
 /comfort.{0,10}only/i
 /compact.{0,10}(cleaning|power)/i
-/cool.{0,10}(edge|solutions?)/i
+/cool.{0,10}(edge|pocket|solutions?|time)/i
 
 # D
 /deals?.{0,10}(alarm|today)/i
 /(designer|discount|rolex|top).?watch(es)?/i
 
 /defense.{0,10}brief/i
-/dogs?.{0,5}(behaviour|food|trainers)/i
+/dogs?.{0,5}(armour|behaviour|food|trainers)/i
 
 /don.?t miss out/i
 /door.{0,10}(camera|ringer|training)/i
@@ -161,7 +161,7 @@
 /luxury.?(collections?|watch(es)?)/i
 
 # M
-/mini.{0,10}(blower|heater|jet)/i
+/mini.{0,10}(blower|cool|heater|jet)/i
 
 /mobile.{0,10}photography/i
 
