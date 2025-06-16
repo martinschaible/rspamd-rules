@@ -28,6 +28,7 @@
 /(bitcoin|btc|crypto|krypto).{0,10}(time|update|wealth)/i
 
  #/(swiss|world).{0,10}(bitcoin|btc|crypto|krypto)/i
+/finance.{0,10}(bitcoin|btc|crypto|krypto)/i
 
 # ETF (Exchange Traded Funds)
 # ------------------------------------------------------------------------------
