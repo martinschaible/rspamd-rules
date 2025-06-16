@@ -150,7 +150,7 @@
 
 # G
 /geschenk bereit/i
-/geschenk.{1,25}bestätigung/iu
+/(gewinn|geschenk).{1,25}(bestätigt|bestätigung)/iu
 /geschenk.{1,15}holen sie sich den/i
 /geschenk.{1,15}ihre treue.{1,10}nur noch kurze zeit/i
 /geschenk.{1,15}innerhalb von.{1,20}erhalten/i
@@ -222,10 +222,11 @@
 /ist noch unbeansprucht/i
 
 # J
-/jetzt adresse bestätigen/iu
+/jetzt.{1,10}adresse bestätigen/iu
 /jetzt.{1,15}(belohnung|gewinn) (anfordern|bestätigen)/i
 /jetzt.{1,15}(antworten|öffnen)/i
 /jetzt.{1,15}exklusive.{1,15}prämie sichern/iu
+/jetzt.{1,10}zustellung sichern/i
 
 # K
 /kostenlos(es)?.{1,25}gewinnen/i

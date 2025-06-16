@@ -230,6 +230,7 @@
 /letzte erinnerung.{1,10}ihre.{1,10}rechnung bei.{1,15}ist noch offen/i
 /letzte erinnerung.{1,10}securego/i
 /letzte erinnerung.{1,10}sicherheitsüberprüfung/iu
+/letzte erinnerung.{1,10}sicherheitssystem/i
 /letzte erinnerung.{1,10}sichern sie sich/i
 #/letzte erinnerung.{1,10}zahlungsinformationen aktualisieren/i
 /letzte erinnerung.{1,10}zustimmung zur neuen/i
@@ -269,7 +270,6 @@
 /schützen sie ihr.{1,15}konto.{1,10}verifizierung notwendig/i
 /sicherheit ihrer karte.{1,15}daten bestätigen/iu
 
-
 /(sicherheits|system).?aktualisierung.{1,10}(bestätigen sie|durchführen|erforderlich)/iu
 
 /sicherheitsalarm.{1,10}ungewöhnliche kontoaktivität/iu
@@ -277,21 +277,25 @@
 
 /sicherheitsmaßnahmen.{1,15}jetzt.{1,15}konto/i
 
+/sicherheitsproblem.{1,10}erkannt.{1,10}zahlung/i
+
 /sicherheitsüberprüfung.{1,10}aktualisierung ihrer/iu
 /sicherheitsüberprüfung.{1,10}steht aus/iu
 
 /sicherheitsupdate.{1,10}überprüfen sie ihr/i
 
-/sicherheits.?(hinweis|warnung).{1,10}\d{2,4} dateien/i
-/sicherheits.?(hinweis|warnung).{1,10}ihr gerät benötigt/iu
+/sicherheits.?(hinweis|mitteilung|warnung).{1,10}\d{2,4} dateien/i
+/sicherheits.?(hinweis|mitteilung|warnung).{1,10}ihr gerät benötigt/iu
 
-/sicherheits.?(hinweis|warnung).{1,10}unbefugter zugriff auf/i
-/sicherheits.?(hinweis|warnung).{1,10}(neuer|unbekannter) gerätezugriff/iu
-/sicherheits.?(hinweis|warnung).{1,10}unbekannte anmeldung/i
+/sicherheits.?(hinweis|mitteilung|warnung).{1,10}unbefugter zugriff auf/i
+/sicherheits.?(hinweis|mitteilung|warnung).{1,10}(neuer|unbekannter) gerätezugriff/iu
+/sicherheits.?(hinweis|mitteilung|warnung).{1,10}unbekannte anmeldung/i
 
-/sicherheits.?(hinweis|warnung).{1,10}verdächtige dateien/i
-/sicherheits.?(hinweis|warnung).{1,10}verdächtiger/i
-/sicherheits.?(hinweis|warnung).{1,10}zu ihrem gerät/iu
+/sicherheits.?(hinweis|mitteilung|warnung).{1,10}verdächtige dateien/i
+/sicherheits.?(hinweis|mitteilung|warnung).{1,10}verdächtiger/i
+/sicherheits.?(hinweis|mitteilung|warnung).{1,10}zu ihrem gerät/iu
+
+/(sicherheitssystem|systemmitteilung).{1,10}jetzt (aktualisieren|sofort handeln)/i
 
 /sichern sie ihr.{1,15}konto so schnell wie möglich/iu
 
@@ -305,7 +309,6 @@
 /swisspass.{1,10}überprüfen sie/iu
 
 /systemhinweis.{1,10}empfohlener sicherheitscheck/i
-/systemmitteilung.{1,10}jetzt sofort handeln/i
 
 # T
 
