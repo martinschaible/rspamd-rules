@@ -20,19 +20,23 @@
 # ------------------------------------------------------------------------------
 /bereit für ein.{1,10}date/iu
 /deiner nähe hat dein profil/iu
+/frau aus deiner nähe ist auf dich/iu
+/schaue?.{1,10}ihr.{1,10}profil/i
 /siehe? dir ihre seite an/i
-
 
 # Finance
 # ------------------------------------------------------------------------------
 /benötigen sie zusätzliches geld/iu
 
+/kreditangebote von.{1,15}bis/i
 /sie eine zuverlässige.{1,10}finanzierung/iu
 /sie suchen nach einem.{1,10}(darlehen|kredit)/i
 
 /unsere.{1,10}(darlehen|kredite) bieten flexible/i
 
 /wir bieten flexible.{1,10}kreditlösungen/iu
+/wir finanzieren weltweit/i
+
 /zinsgünstige.{1,10}(darlehen|kredite).{1,10}privatpersonen/iu
 
 # Health
@@ -51,6 +55,7 @@
 # ------------------------------------------------------------------------------
 /enthüllt.{1,10}ki.?system/iu
 /seien sie teil dieser revolution/i
+/system.{1,10}das reichtum verspricht/i
 /verdienen mit diesem.{1,10}schlupfloch/iu
 
 #

@@ -101,6 +101,7 @@
 /ihre? ausstehendes?.{1,10}(lieferung|paket|sendung)/i
 
 /ihre(r|s).{5,15}fehlgeschlagen/i
+/ihrer dhl.{0,5}bestellung/i
 
 /importgebühren für.{1,10}(lieferung|paket|sendung)/iu
 /importgebühren in höhe von.{1,10}offen/iu

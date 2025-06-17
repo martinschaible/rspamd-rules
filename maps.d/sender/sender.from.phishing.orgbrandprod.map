@@ -228,7 +228,9 @@
 /dhl.{0,5}(kundenservice|lieferung)/i
 /dhl.{0,5}logistik.?team/i
 /dhl.{0,5}(paketstatus|paketzentrum)/i
-/dhl.{0,5}(germany|messages?|package|team|tracking|your)/i
+/dhl.{0,5}(messages?|package|team|tracking|your)/i
+
+/dhl.{0,5}(germany|schweiz)/i
 
 /dhl.?ups/i
 

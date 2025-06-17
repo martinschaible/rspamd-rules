@@ -17,6 +17,7 @@
 # ==============================================================================
 
 # A
+/aktualisieren sie ihre adresse.{1,10}bezahlen sie/i
 
 # B
 
@@ -51,9 +52,10 @@
 
 # P
 /(paket|sendung).{1,20}auf.{1,10}anweisungen.{1,15}(bezüglich|wartet)/i
-/(paket|sendung).{1,15}sich im.{1,15}(distributions|verteil).{1,10}befindet/i
 /(paket|sendung).{1,10}ist bereit für die lieferung/iu
 /(paket|sendung).{1,10}mit der nummer.{1,20}anweisungen/i
+/(paket|sendung).{1,10}könnte zum absender zurückgeschickt werden/iu
+/(paket|sendung).{1,15}sich im.{1,15}(distributions|verteil).{1,10}befindet/i
 
 # Q
 
@@ -64,6 +66,7 @@
 # T
 
 # U
+/unvollständigen.{1,10}adressaktualisierung/iu
 
 # V
 
