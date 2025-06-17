@@ -11,7 +11,8 @@
 
 # Products
 # ------------------------------------------------------------------------------
-/(airpods|apple|ipad|iphone|macbook).{1,10}neu.{1,10}originalverpackt
+/(airpods|apple|ipad|iphone|macbook).{1,10}kostenloser versand/i
+/(airpods|apple|ipad|iphone|macbook).{1,10}neu.{1,10}originalverpackt/i
 
 /bereit zur auslieferung.{1,10}(airpods|apple|ipad|iphone|macbook)/i
 /ihre belohnung.{1,10}(airpods|apple|ipad|iphone|macbook)/i
@@ -66,6 +67,7 @@
 # R
 
 # S
+/sie gehören zu.{1,10}auserwählten/iu
 /sie sind auf unserer.{1,10}gewinnerliste/i
 
 # T
