@@ -187,7 +187,8 @@
 /sehr geehrter?.{1,20}ich bin ein/i
 /sehr geehrter?.{1,10}temu.?kunde/i
 
-/sehr geehrter?.{1,10}(kunde|kundin).{1,15}herzlichen glückwunsch/iu
+/sehr geehrter?.{1,15}(kunde|kundin).{1,15}herzlichen glückwunsch/iu
+/sehr geehrter?.{1,15}(kunde|kundin).{1,15}@/i
 
 /sehr geehrtes team von/i
 

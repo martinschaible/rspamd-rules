@@ -20,7 +20,10 @@
 # ------------------------------------------------------------------------------
 /bereit für ein.{1,10}date/iu
 /deiner nähe hat dein profil/iu
-/frau aus deiner nähe ist auf dich/iu
+
+/frau aus deiner.{1,10}(nähe|region|umgebung) hat dein profil/iu
+/frau aus deiner.{1,10}(nähe|region|umgebung) (findet|ist auf) dich/iu
+
 /schaue?.{1,10}ihr.{1,10}profil/i
 /siehe? dir ihre seite an/i
 
