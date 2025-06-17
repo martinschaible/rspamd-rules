@@ -66,6 +66,7 @@
 # I
 /imap.{1,10}ssl certificate failed/i
 
+/important.{1,10}(e?.?mail|message).{1,10}suspended/i
 /important.{1,10}web.?mail.{1,10}software/i
 
 /incoming.{1,10}(e?.?mail|message).{1,10}has been stopped/i

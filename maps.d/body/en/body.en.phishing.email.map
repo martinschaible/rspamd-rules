@@ -28,6 +28,7 @@
 # D
 
 # E
+/e?.?mail.{1,10}marked.{1,10}important.{1,10}pending/i
 
 # F
 
@@ -36,6 +37,7 @@
 # H
 
 # I
+/important.{1,10}(e?.?mail|message).{1,10}suspended/i
 
 # J
 
