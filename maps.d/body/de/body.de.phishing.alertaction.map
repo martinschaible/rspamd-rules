@@ -57,7 +57,7 @@
 # S
 /sicherheits.?(hinweis|warnung).{1,10}(neuer|unbekannter) gerätezugriff/iu
 
-/sicherheitsaktualisierung.{1,10}jetzt handeln/i
+/(sicherheits|system).?aktualisierung.{1,10}jetzt handeln/i
 /sicherheitsrichtlinien.{1,15}jetzt bestätigen/iu
 
 # T
