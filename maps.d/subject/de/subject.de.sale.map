@@ -93,9 +93,9 @@
 # A
 /akku.?(kettensäge|kraft)/iu
 /akku.{1,10}ausrüstung/i
-/akku.?(geräte|produkte|set) je \d{2} statt \d{3}/iu
-/akku.?(geräte|produkte|set).{1,10}versandbereit/i
-/akku.?(geräte|produkte|set).{1,10}komplett/i
+/akku.?(geräte|produkte|set|werkzeuge?) je \d{2} statt \d{3}/iu
+/akku.?(geräte|produkte|set|werkzeuge?).{1,10}versandbereit/i
+/akku.?(geräte|produkte|set|werkzeuge?).{1,10}(haus|jahren|komplett|versandbereit)/i
 
 /aktion.{1,10}corona.?tests?/i
 
@@ -180,6 +180,7 @@
 /hammerpreis.{1,10}akku.?produkte/i
 /handgefertigte messer/i
 
+/hochdruck.?reiniger.{1,10}ab \d{2}/i
 /hochdruck.?reiniger.{1,10}statt.{1,10}jetzt/i
 /hörgeräte kostenlos/i
 
@@ -352,7 +353,7 @@
 /werkzeug.?(koffer|set).{1,20}jetzt sichern/i
 /Werkzeug.?(koffer|set).{1,10}nur Heute/i
 
-/werkzeug.{1,10}(highlight|upgrade)/i
+/werkzeuge?.{1,10}(highlight|klassiker|power|upgrade)/i
 
 /werkstatt.{1,15}in profi.?qualität/iu
 
