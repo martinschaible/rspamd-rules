@@ -89,6 +89,7 @@
 
 /dear.{1,10}(supplier|vendor).{1,15}find the attached/i
 /dear.{1,10}(supplier|vendor).{1,10}good (afternoon|day|evening|morning)/i
+/dear.{1,10}(supplier|vendor).{1,10}i greet you/i
 /dear.{1,10}(supplier|vendor).{1,10}refer to/i
 
 /dearest one.{1,10}accept my greetings/i
@@ -168,6 +169,7 @@
 /how are you.{1,15}my name is/i
 
 # I
+/i greet you from.{1,10}republic/i
 
 # J
 
