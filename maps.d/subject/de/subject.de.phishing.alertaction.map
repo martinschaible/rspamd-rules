@@ -27,6 +27,7 @@
 /aktion erforderlich!/i
 
 /aktion erforderlich.{1,10}dpd/i
+/aktion erforderlich.{1,15}identitätsüberprüfung/iu
 /aktion erforderlich.{1,15}(schliessen|schließen) sie/i
 /aktion erforderlich.{1,15}(rückerstattung|zahlungsstatus)/i
 /aktion erforderlich.{1,15}um ihren artikel/i
@@ -179,6 +180,7 @@
 
 # I
 /(identitätsbestätigung|identifikation) erforderlich/i
+/identitätsüberprüfung für dein.{1,15}konto/iu
 
 /ihr.{1,10}abonnement ist gefährdet/iu
 /ihr.{1,15}konto benötigt eine bestätigung/iu
