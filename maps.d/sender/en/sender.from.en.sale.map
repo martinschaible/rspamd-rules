@@ -6,6 +6,12 @@
 # Topics
 # ==============================================================================
 
+# Camera
+# ------------------------------------------------------------------------------
+/cam(era)?.{0,10}(guard|protect|spy)/i
+
+/(hidden|home|secure|spy|watch).{0,10}cam(era)?/i
+
 # Drone
 # ------------------------------------------------------------------------------
 /drone.{0,10}(deals?|expert|labs|zone)/i
@@ -121,7 +127,7 @@
 /gadget.{0,10}savers?/i
 /global.{0,10}food/i
 
-/guard.{0,10}(offer|partner)/i
+/guard.{0,10}(offer|partner|pro)/i
 /gutter.{0,10}(clean|guard)/i
 
 # H
@@ -192,7 +198,7 @@
 /premium.{0,10}promotion/i
 /president.{0,15}trump/i
 /pro.?cam.{0,10}shop/i
-/pro.?security/i
+/pro.?(security|tablet)/i
 
 # Q
 /quote.{0,10}fnder/i
@@ -223,7 +229,7 @@
 
 /^smart.?deals$/i
 
-/smart.{0,10}(deals|protect|security)/i
+/smart.{0,10}(deals|guard|protect|security)/i
 /smart.{0,10}sleep/i
 
 /summer.{0,10}chill/i
