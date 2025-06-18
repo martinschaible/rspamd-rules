@@ -40,8 +40,6 @@
 /improve your.{1,10}wallet/i
 /internal revenue service/i
 
-/instagram.{1,10}verified center/i
-
 # J
 
 # K
@@ -81,8 +79,8 @@
 
 # W
 /wallet.{1,10}access (needed|now)/i
-/wallet needs verification/i
-/wallet will.{1,10}be suspended/i
+/wallet needs.{1,10}verification/i
+/wallet will.{1,10}be.{1,15}suspended/i
 
 /was used to sign in to{1,10}trust/i
 
@@ -90,4 +88,6 @@
 
 # Y
 /your.{1,15}funds at risk/i
+
+
 # Z
