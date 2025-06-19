@@ -267,8 +267,10 @@
 
 /person hat noch nicht geantwortet/i
 
-/prämien.{1,10}(freischalten|im inneren)/iu
-/prämien.?panel/i
+/prämien?.{1,10}(freischalten|im inneren)/iu
+/prämien?.{1,10}jetzt innerhalb von/iu
+/prämien?.{1,10}jetzt.{1,20}sichern/iu
+/prämien?.?panel/i
 
 /preis.{1,15}mystery box/i
 /preis.{1,10}zugestellt zu bekommen/i

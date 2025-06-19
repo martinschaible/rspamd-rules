@@ -77,6 +77,8 @@
 # R
 
 # S
+/sie als empfänger einer.{1,15}spende/iu
+
 /sie haben eine spende von.{1,5}\d{2,4}(\.|,)?\d{3,4}/i
 /sie haben eine spende von.{1,15}(dollar|euro?|gbp|usd|€|\$|£)/i
 
