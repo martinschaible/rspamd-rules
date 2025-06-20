@@ -25,6 +25,9 @@
 
 /bin ich deine.{1,10}liebe?/i
 
+/(bild|foto).{1,10}freigeschaltet/i
+/(bild|foto).{1,10}im brief/i
+
 # C
 /chat.{1,10}(betreten|dates?)/i
 /chatten?.{1,15}(fotos|mit|videos)/i
@@ -58,7 +61,6 @@
 
 /flirt.{1,10}(nachricht|treffen)/i
 
-/fotos.{1,10}freigeschaltet/i
 /frau.{1,10}ist ihre wahl/i
 /frau(en)?.{1,10}wollen dich/i
 
