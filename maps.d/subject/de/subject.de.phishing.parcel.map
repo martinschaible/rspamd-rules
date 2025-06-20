@@ -41,15 +41,18 @@
 /ausstehende?.{1,10}Versandkosten gestoppt/i
 
 # B
+/beantworten sie (wahrheitsgemäss|wahrheitsgemäß)/iu
+
 /begleichen sie ihre.{1,10}gebühr/iu
 /bei ihnen ankommt/i
 
 /benachrichtigung.{1,15}(die|letzte).{1,15}paketzustellung/i
 
-/bestätigen sie.{1,15}barcode/i
-/bestätigen sie.{1,10}lieferdetails/i
-/bestätigen sie.{1,10}(lieferung|zustellung)/i
-/bestätigen sie.{1,10}ihr paket/i
+/bestätigen sie.{1,15}barcode/iu
+/bestätigen sie.{1,10}lieferdetails/iu
+/bestätigen sie.{1,10}(lieferung|zustellung)/iu
+/bestätigen sie.{1,10}ihr paket/iu
+/bestätigen sie.{1,10}ihre lieferdaten/iu
 
 /bestellung.{1,15}lieferung aussteht/i
 
