@@ -32,7 +32,7 @@
 
 /payment\.z$/i
 
-/(bestell|bestätigung).{0,25}\.(7z|gz|html|rar|tar|tgz|xla|xls|zip)/i
+/(bestell|bestätigung|ordnung).{0,25}\.(7z|gz|html|rar|tar|tgz|xla|xls|zip)/i
 
 # Letter of Intent
 /loi.{0,5}\.(7z|gz|html|rar|tar|tgz|xla|xls|zip)/i

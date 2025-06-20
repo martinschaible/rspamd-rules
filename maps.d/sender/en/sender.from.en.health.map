@@ -300,6 +300,7 @@
 /big.{0,10}secret/i
 /(big|flat(ten)?).{0,10}stomach/i
 
+/black.{0,10}coffee/i
 /bladder.{0,10}(boost|care|control|danger|fix|flush|health)/i
 /bladder.{0,10}(leaks?|leakage|leaking|issues?|problems?)/i
 
@@ -410,6 +411,8 @@
 /dog.{0,10}health/i
 
 /dr\.?.?(derm|health)/i
+
+/dreamful.{0,10}(nights?|sleep)/i
 /dribbling.{0,10}urine/i
 /drink.{0,10}recipes?/i
 /dying.{0,10}signal/i
@@ -608,7 +611,7 @@
 /missing.{0,10}nutrients?/i
 /mitochondria.{0,10}boost/i
 
-/morning.{0,10}(boost|dessert|detox|drink|hack|mistake)/i
+/morning.{0,10}(boost|dessert|detox|drink|hack|metabolism|mistake)/i
 /morning.{0,10}(oil|reset|ritual|routine|slimmer|wood)/i
 
 /mouth.{0,10}(detox|odor)/i
@@ -780,7 +783,7 @@
 /stream.{0,10}strong(er)?/i
 /stretch.{0,10}soothe/i
 
-/strong(er)?.{0,10}(heart|urine)/i
+/strong(er)?.{0,10}(bladder|heart|urine)/i
 /stroke.{0,10}(indication|prevention|signal)/i
 
 /strong(er)?.{0,10}(hair|immunity|performance|smile)/i

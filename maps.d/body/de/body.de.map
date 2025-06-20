@@ -30,7 +30,8 @@
 
 # Finance
 # ------------------------------------------------------------------------------
-/benötigen sie zusätzliches geld/iu
+/benötigen sie.{1,15}zusätzliches geld/iu
+/(benötigen|brauchen) sie.{1,15}einen.{1,10}kredit/i
 
 /kreditangebote von.{1,15}bis/i
 /sie eine zuverlässige.{1,10}finanzierung/iu

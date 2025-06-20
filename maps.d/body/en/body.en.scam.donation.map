@@ -54,6 +54,7 @@
 # Q
 
 # R
+/receive the.{1,20}grant donation/i
 
 # S
 
@@ -68,6 +69,8 @@
 # X
 
 # Y
+/you have been selected to receive/i
+
 /your.{1,10}e?.?mail.{1,20}(has been|was) (drawn|selected) for.{1,10}donation/i
 /your.{1,10}e?.?mail.{1,20}was chosen at random/i
 /your.{1,10}e?.?mail.{1,20}won.{1,10}donation/i
