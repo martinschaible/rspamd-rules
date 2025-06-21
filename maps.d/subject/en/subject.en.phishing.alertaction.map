@@ -201,7 +201,10 @@
 
 # V
 /verify your.{1,15}.(ch|de|org).{1,10}e?.?mail/i
+
 /verify your.{1,15}account activity/i
+/verify your.{1,15}account.{1,15}@/i
+
 /verify your.{1,15}identity to.{1,15}(access|maintain)/i
 
 # W
