@@ -48,7 +48,7 @@
 # H
 
 # I
-/ihr.{1,15}(belohnung|geschenk|gutschein|preiss|gewinn) innerhalb von.{1,10}stunden/i
+/ihr.{1,15}(belohnung|geschenk|gutschein|preis|gewinn).{1,10}innerhalb von.{1,10}stunden/i
 
 # J
 /jetzt.{1,10}(angaben|gewinn).{1,10}bestätigen/iu
@@ -56,6 +56,7 @@
 # K
 
 # L
+/lieferung jetzt bestätigen/iu
 
 # M
 
