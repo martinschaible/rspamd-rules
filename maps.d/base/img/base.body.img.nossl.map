@@ -23,7 +23,7 @@
 
 #
 #                                        |-- Domain ---|
-/(background|src)=.{0,5}/http:\/\/(www\.)?[a-z0-9-]{3,25}\.(info|org)\//i
+/(background|src)=.{0,5}http:\/\/(www\.)?[a-z0-9-]{3,25}\.(info|org)\//i
 #                                        |- Subdomain -|   |-- Domain ---|
-/(background|src)=.{0,5}/http:\/\/(www\.)?[a-z0-9-]{3,25}\.[a-z0-9-]{3,25}\.(info|org)\//i
+/(background|src)=.{0,5}http:\/\/(www\.)?[a-z0-9-]{3,25}\.[a-z0-9-]{3,25}\.(info|org)\//i
 
