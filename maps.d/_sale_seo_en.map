@@ -121,9 +121,6 @@
 
 # Google
 # ------------------------------------------------------------------------------
-/(1st.?page|get top position|on page one).{1,10}(bing|google|yahoo)/i
-/1st.?page (listings|ranking).{1,15}(bing|google|yahoo)/i
-
 /be at.{1,10}(1|one) on.{1,10}(bing|google|yahoo)/i
 /drop.{1,10}traffic due to recent.{1,10}(bing|google|yahoo)/i
 /elevate.{1,20}rank at the top.{1,10}(bing|google|yahoo)/i
