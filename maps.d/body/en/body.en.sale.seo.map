@@ -32,6 +32,9 @@
 # E
 
 # F
+/(1st.?page|get.{1,10}position|on page one).{1,10}(bing|google|yahoo)/i
+/(1st.?page|top).{1,10}(listings|ranking).{1,15}(bing|google|yahoo)/i
+
 
 # G
 /get to the first page.{1,10}(bing|google|yahoo)/i
@@ -79,6 +82,7 @@
 /seo.{1,10}needs.{1,15}(improvement|significant)/i
 /seo.{1,10}(packages?|proposal|services?)/i
 /seo.{1,10}poorly done/i
+/seo.{1,10}pricing.{1,15}interested/i
 /seo.{1,15}saw that your (web)?site/i
 /seo.{1,10}technical optimization/i
 

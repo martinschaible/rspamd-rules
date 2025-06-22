@@ -42,6 +42,8 @@
 /gespendet.{1,10}antworten sie für weitere informationen/iu
 /gespendet.{1,10}weitere informationen.{1,10}(kontaktieren sie|wenden sie sich)/i
 
+/glückwunsch.{1,10}sie haben eine spende/iu
+
 # H
 /hat ihnen.{1,20}(dollar|euro?|gbp|usd|€|\$|£).{1,10}gespendet/i
 /hat ihnen.{1,20}millionen.{1,10}gespendet/i
@@ -78,6 +80,8 @@
 
 # S
 /sie als empfänger einer.{1,15}spende/iu
+
+/sie haben eine spende in höhe von{1,25}gewonnen/i
 
 /sie haben eine spende von.{1,5}\d{2,4}(\.|,)?\d{3,4}/i
 /sie haben eine spende von.{1,15}(dollar|euro?|gbp|usd|€|\$|£)/i
