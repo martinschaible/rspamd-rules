@@ -142,8 +142,8 @@
 /vermeiden sie dienstunterbrechungen/i
 
 # W
-/wallet (wird|wurde).{1,10}vorübergehend gesperrt/iu
-/Wallet wurde genutzt.{1,10}um/i
+/wallet (ist|wird|wurde).{1,10}vorübergehend gesperrt/iu
+/wallet wurde (genutzt|verwendet).{1,10}um/i
 
 /wichtige information.{1,10}datenaktualisierung/i
 /wir benötigen.{1,10}(einige|noch).{1,10}informationen von ihnen/iu
