@@ -88,7 +88,7 @@
 #
 /4k.{0,10}kamera/i
 
-\d.?x.?\d(falt)?.{1,5}pavillon/i
+\d.?x.?\d.{1,10}(event|falt|garten)?pavillon/i
 
 # A
 /akku.?(kettensäge|kraft)/iu
@@ -155,6 +155,7 @@
 
 /(event|falt|garten)?pavillon.{1,15}(blau|grau|schwarz)/i
 /(event|falt|garten)?pavillon.{1,15}für (alle|\d{3})/i
+/(event|falt|garten)?pavillon.{1,15}für nur/i
 
 /(event|falt|garten)?pavillon.{1,10}\d{1,5}.?x.?\d{1,5}/i
 /(event|falt|garten)?pavillon.{1,15}(aufbaubar|events?|ideal|jetzt|lieferbar|mit)/i
@@ -308,6 +309,7 @@
 /suchen?.{1,10}qualifizierten handwerkern/i
 
 /sofort verfügbare mitarbeiter/iu
+/sonderpreis.{1,10}(event|falt|garten)?pavillon/i
 
 /sprachen sofort/i
 

@@ -127,6 +127,8 @@
 /greetings.?(of the day)?.{1,15}my friend/i
 /greetings.?(of the day)?.{1,15}my name is.{5,35}i am representing/i
 
+/greetings.{1,10}recipient/i
+
 # Funny :-)
 /gooday sir.?ma/i
 
