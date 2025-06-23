@@ -43,6 +43,8 @@
 /cbd.{0,10}kapseln?/i
 
 # D
+/darm.{0,10}(gesundheit|power)/i
+
 /dein.{0,10}berater/i
 
 /deutsches.{0,10}gesundheits.{0,10}magazin/i
@@ -151,7 +153,7 @@
 #/versand.?apotheke$/i
 /verstopfter.{0,10}darm/i
 
-/vital.?pro/i
+/vital.{0,10}(fit|pro)/i
 
 # W
 /weniger in.{1,10}(tagen?|wochen?)/i
