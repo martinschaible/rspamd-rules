@@ -47,6 +47,8 @@
 /(attn|attention|congratulations|dear|fund|hello|my|transfer|valued|you).{1,20}beneficiary/i
 
 # C
+/can you be trusted/i
+
 /card is.{1,10}ready for delivery/i
 /chance to see.{1,10}proposal/i
 
@@ -92,7 +94,8 @@
 /honest partner/i
 
 # I
-/i need your.{1,10}assistance/i
+/i (need|wish to seek) your.{1,10}assistance/i
+
 /if we can work together/i
 
 /inheritance funds/i

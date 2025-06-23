@@ -119,7 +119,7 @@
 # P
 /private.{1,10}loan company/i
 
-/project.{1,10}(financing|loans?)/i
+/project.{1,10}(finance|financing|loans?)/i
 
 # Q
 
@@ -140,14 +140,13 @@
 
 # W
 /we.{1,10}funding.{1,10}projects/i
-/we.{1,10}help (finance|financing)/i
+/we.{1,10}help (finance|financing|loan)/i
 /we.{1,10}offer(ing)?.{1,30}(grants|loans)/i
 
 # X
 
 # Y
-/you need.{1,10}urgent.{1,10}(financing|loan)/i
-/you with.{1,10}(financing|loan)/i
+/you (need|with).{1,15}(finance|financing|loan)/i
 
 /your business.{1,10}with.{1,10}available/i
 /your business.{1,10}approved/i
