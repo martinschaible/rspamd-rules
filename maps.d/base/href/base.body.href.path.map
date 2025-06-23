@@ -13,7 +13,7 @@
 # Redirects
 # ------------------------------------------------------------------------------
 
-# 12.12.24, phishing
+# 12.12.24, Phishing
 /\/redirect\/redirect\.aspx/i
 /\/redirect\.php?url=https:/i
 
@@ -25,6 +25,9 @@
 /\.awstrack\.me\/l0\/https:/i
 
 /\.shop/\?u=https:/i
+
+# 23.06.25, Phishing
+/redir=(3d)?https://tinyurl\.com/i
 
 # Forwarder to exotic TLDs
 # ------------------------------------------------------------------------------
