@@ -507,6 +507,7 @@
 /paypal.{0,5}(case.?id|europe?|inc|kunden|konto|support|voucher)/i
 /paypal_/i
 /pay pal/i
+/pay-pal/i
 
 /^penny$/i
 
@@ -659,6 +660,8 @@
 
 /team_/i
 /team.{0,10}(account|netflix|paletten?|spotify)/i
+
+/telekom deutschland/i
 
 /temu-/i
 /temu.?ch/i

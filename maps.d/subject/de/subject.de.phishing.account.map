@@ -148,12 +148,12 @@
 /um den service fortzusetzen/i
 /um vollen zugriff zu behalten/i
 
-/ungewöhnliche aktivitäten auf ihrem konto/iu
+/(ungewöhnliche|verdächtige) (aktivitäten|vorgänge) (auf|in) (dem|ihrem).{1,15}konto/iu
 
 /unserer.{1,15}sicherheitsaktualisierung/i
 
 # V
-/verdächtige aktivitäten auf dem konto/iu
+
 /vermeiden sie die aussetzung/i
 
 /vorübergehende sperrung.{1,5}#/iu
