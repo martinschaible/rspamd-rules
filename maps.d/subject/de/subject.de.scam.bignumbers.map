@@ -20,7 +20,6 @@
 
 /ihnen.{1,10}\d{3,4}(\.|,)?\d{3,4}.{0,5}(dollars?|euro?|usd|€|\$|£).{1,10}zu spenden/i
 
-/sie.{1,10}erhalten.{1,10}entschädigung.{1,15}\d{2,4}(\.|,)?\d{3,4}.{0,5}(dollars?|euro?|usd|€|\$|£)/iu
 
 /sie.{1,10}haben eine spende.{1,15}\d{2,4}(\.|,)?\d{3,4}/i
 
@@ -29,11 +28,6 @@
 
 /sie.{1,15}(dollar|euro?|gbp|usd|€|\$|£).{1,10}spende erhalten/i
 /sie.{1,15}millionen.{1,10}spende erhalten/i
-
-# Lottery
-# ------------------------------------------------------------------------------
-/sie haben.{1,10}\d{2,4}(\.|,)?\d{3,4}.{0,5}(dollars?|euro?|usd|€|\$|£).{1,10}gewonnen/i
-/sie haben.{1,10}\d{2,4}(\.|,)?\d{3,4}.{0,5}.{1,15}gewonnen/i
 
 # Payments
 # ------------------------------------------------------------------------------
@@ -48,14 +42,6 @@
 /(entschädigung|geschäftsvorschlag|überweisen|überweisung|vergütung).{1,10}\d{3,4}(\.|,)?\d{2,4}.{0,5}(dollars?|euro?|usd|€|\$|£)/i
 /(entschädigung|geschäftsvorschlag|überweisen|überweisung|vergütung).{1,10}(dollars?|euro?|usd|€|\$|£){0,5}\d{2,4}(\.|,)?\d{3,4}/i
 
-/(glückwunsch|glückwünsche).{1,10}\d{2,4}(\.|,)?\d{3,4}/iu
-
-/ihnen.{1,10}millionen.{1,10}anvertrauen/i
-/investitions.?fonds.{1,10}\d{2,4}(\.|,)?\d{3,4}.{0,5}(dollars?|euro?|usd|€|\$|£)/i
-
-/erbe.{1,10}\d{2,4}(\.|,)?\d{3,4}/i
-/mastercard.{1,10}\d{2,4}(\.|,)?\d{3,4}.{0,5}(dollars?|euro?|usd|€|\$|£)/i
-
 # Just big numbers
 # ------------------------------------------------------------------------------
 /^\d{3,4}(\.|,)?\d{3,4}.{1,10}(dollar|euro?|gbp|usd|€|\$|£)/i
@@ -67,3 +53,66 @@
 /millionen.{1,15}tausend.{1,10}(dollar|euro?|gbp|usd|€|\$|£)/i
 /(million|mio\b).{1,10}(dollar|euro?|gbp|usd|€|\$|£)!/i
 
+# Generic
+# ==============================================================================
+
+# A
+
+# B
+
+# C
+
+# D
+
+# E
+/erbe.{1,10}\d{2,4}(\.|,)?\d{3,4}/i
+
+# F
+
+# G
+/(glückwunsch|glückwünsche).{1,10}\d{2,4}(\.|,)?\d{3,4}/iu
+
+# H
+
+# I
+/ihnen.{1,10}millionen.{1,10}anvertrauen/i
+/investitions.?fonds.{1,10}\d{2,4}(\.|,)?\d{3,4}.{0,5}(dollars?|euro?|usd|€|\$|£)/i
+
+# J
+
+# K
+
+# L
+
+# M
+/mastercard.{1,10}\d{2,4}(\.|,)?\d{3,4}.{0,5}(dollars?|euro?|usd|€|\$|£)/i
+
+# N
+
+# O
+
+# P
+
+# Q
+
+# R
+
+# S
+/sie.{1,10}erhalten.{1,10}entschädigung.{1,15}\d{2,4}(\.|,)?\d{3,4}.{0,5}(dollars?|euro?|usd|€|\$|£)/iu
+
+/sie haben.{1,10}\d{2,4}(\.|,)?\d{3,4}.{0,5}(dollars?|euro?|usd|€|\$|£).{1,10}gewonnen/i
+/sie haben.{1,10}\d{2,4}(\.|,)?\d{3,4}.{0,5}.{1,15}gewonnen/i
+
+# T
+
+# U
+
+# V
+
+# W
+
+# X
+
+# Y
+
+# Z
