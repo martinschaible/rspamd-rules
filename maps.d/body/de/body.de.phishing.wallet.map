@@ -61,9 +61,12 @@
 # V
 
 # W
+/wallet (ist|wird|wurde).{1,10}vorübergehend gesperrt/iu
+/wallet wurde (genutzt|verwendet).{1,10}um/i
 
 # X
 
 # Y
 
 # Z
+/2fa für meine wallet.{1,10}aktivieren/iu
