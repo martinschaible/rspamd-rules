@@ -62,7 +62,8 @@
 # V
 
 # W
-/we.{1,10}are.{1,10}leading manufacturer of/i
+/we.{1,10}are.{1,10}(leading|top).{1,20}manufacturer of/i
+/we.{1,10}are.{1,10}(leading|top).{1,20}factory/i
 
 /we.{1,10}are.{1,10}china.{1,15}steel ltd/i
 /we.{1,10}can.{1,10}provide steel/i

@@ -258,14 +258,14 @@
 
 /you still producing/i
 
-/your (current|future|loyal|reliable).{1,15}(partner|supplier)/i
+/your (current|future|loyal|reliable|successful).{1,15}(partner|supplier)/i
 /your trusted source for/i
 /your trusted.{1,20}supply partner/i
 
-/your.{1,15}pcba?.{1,20}partner/i
+/your.{1,15}pcba?.{1,20}(partner|supplier|products?)/i
+
 /your.{1,15}plastic.?mould/i
 /your.{1,10}reliable alternative/i
-/your.{1,15}successful partner/i
 
 /your trustworth pcba?/i
 

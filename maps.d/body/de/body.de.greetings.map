@@ -144,6 +144,7 @@
 #/liebe.{1,15}shop kund\*?in/i
 
 /(lieber?|sehr geehrter?).{1,5}e?.?mail.{0,15}(besitzer|eigentümer|empfänger|inhaber)/i
+/lieber empfänger.{1,10}wir freuen uns/iu
 
 /liebster.{1,10}(freund|geliebter)/i
 /liebster?.{1,10}im herrn/i
