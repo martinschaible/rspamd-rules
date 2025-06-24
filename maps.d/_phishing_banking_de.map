@@ -14,7 +14,6 @@
 /kredit,?karteninformationen aktualisieren/i
 
 /ihre.{1,20}(debit|kredit)?karte.{1,10}(temporär|vorsorglich|vorübergehend).{1,10}sperren.{1,10}damit sie wieder/i
-/ihre.{1,20}(debit|kredit)?karte.{1,10}(temporär|vorsorglich|vorübergehend).{1,10}(deaktiviert|einschränken|eingeschränkt|gesperrt)/iu
 
 /ihre.{1,20}(debit|kredit)?karte.{1,10}wurde aus sicherheitsgründen/iu
 /ihre.{1,20}(debit|kredit)?karte.{1,10}wurde mit sofortiger wirkung gesperrt/i
@@ -115,7 +114,6 @@
 
 /eine.{1,10}prüfung ihrer.{1,10}telefon.?nummer vorzunehmen/i
 
-/reaktivieren.{1,20}sie ihre handy.?nummer/i
 /verifizieren sie ihre telefon.?nummer/i
 
 # Photo TAN
