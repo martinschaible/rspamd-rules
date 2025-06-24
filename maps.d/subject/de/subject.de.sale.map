@@ -157,7 +157,7 @@
 /(event|falt|garten)?pavillon.{1,15}für (alle|\d{3})/i
 /(event|falt|garten)?pavillon.{1,15}für nur/i
 
-/(event|falt|garten)?pavillon.{1,10}\d{1,5}.?x.?\d{1,5}/i
+/(event|falt|garten)?pavillon.{1,10}\d.?x.?\d/i
 /(event|falt|garten)?pavillon.{1,15}(aufbaubar|events?|ideal|jetzt|lieferbar|mit)/i
 /(event|falt|garten)?pavillon.{1,15}reduziert/i
 /(event|falt|garten)?pavillon.{1,15}(schnell|seitenteile|sofort)/i

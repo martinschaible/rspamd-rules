@@ -47,6 +47,8 @@
 /delivery failure.{1,10}ref:/i
 /disconnected.{1,15}(receiving|sending).{1,15}e?.?mails/i
 
+/do not loose your.{1,15}@/i
+
 # E
 /e?.?mail.{1,15}(awaiting|delivery).{1,15}your inbox/i
 /e?.?mail.{1,10}closure.{1,10}do not ignore/i
