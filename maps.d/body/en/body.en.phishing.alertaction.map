@@ -19,6 +19,8 @@
 # A
 /account review report/i
 
+/action required.{1,10}incoming.{1,10}e?.?mails witheld/i
+
 /(activate|enable).{1,10}2fa now/i
 /(activate|enable).{1,10}two.?factor authentication/i
 
