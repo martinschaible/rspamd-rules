@@ -37,6 +37,8 @@
 # H
 
 # I
+/ihre.{1,20}karte.{1,10}(temporär|vorsorglich|vorübergehend).{1,10}(einschränken|eingeschränkt)/iu
+/ihre.{1,20}karte.{1,10}(temporär|vorsorglich|vorübergehend).{1,10}(deaktiviert|gesperrt)/iu
 
 # J
 
@@ -55,6 +57,7 @@
 # Q
 
 # R
+/re.?aktivieren sie ihre.{1,10}(handy|karte)/i
 
 # S
 
