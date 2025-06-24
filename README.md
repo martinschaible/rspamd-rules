@@ -94,6 +94,11 @@ New configuration files have also been added.
 |          | multimap.sender.from               | Typo fixed                         |
 | 13.06.25 | multimap.body.de.scam.conf         | New map file added                 |
 |          | multimap.body.en.scam.conf         | New map file added                 |
+| 24.06.25 | multimap.subject.de.phishing.conf  | New map file added                 |
+|          | multimap.subject.en.phishing.conf  | New map file added                 |
+|          | multimap.body.de.phishing.conf     | New map file added                 |
+|          | multimap.body.en.phishing.conf     | New map file added                 |
+
 
 What to do:
 * Copy these files to the Rspamd server
@@ -174,6 +179,7 @@ body
   │   ├─ body.de.phishing.account.map             │
   │   ├─ body.de.phishing.alertaction.map         │
   │   ├─ body.de.phishing.banking.map             │
+  │   ├─ body.de.phishing.card.map                │
   │   ├─ body.de.phishing.email.map               │
   │   ├─ body.de.phishing.greetings.map           │
   │   ├─ body.de.phishing.malware.map             │
@@ -183,7 +189,8 @@ body
   │   ├─ body.de.phishing.refund.map              │
   │   ├─ body.de.phishing.rewards.map             │
   │   ├─ body.de.phishing.subscription.map        │
-  │   ├─ body.de.phishing.survey.map             ─┘
+  │   ├─ body.de.phishing.survey.map              │
+  │   ├─ body.de.phishing.wallet.map             ─┘
   │   │
   │   ├─ body.de.sale.map                        ─┐
   │   ├─ body.de.sale.app.map                     │
@@ -275,6 +282,7 @@ subject
   │   ├─ subject.de.phishing.account.map          │
   │   ├─ subject.de.phishing.alertaction.map      │
   │   ├─ subject.de.phishing.banking.map          │
+  │   ├─ subject.de.phishing.card.map             │
   │   ├─ subject.de.phishing.email.map            │
   │   ├─ subject.de.phishing.malware.map          │
   │   ├─ subject.de.phishing.parcel.map           │
@@ -282,8 +290,8 @@ subject
   │   ├─ subject.de.phishing.payment.map          │
   │   ├─ subject.de.phishing.refund.map           │
   │   ├─ subject.de.phishing.rewards.map          │
-  │   ├─ subject.de.phishing.subscription.map     │
-  │   ├─ subject.de.phishing.survey.map          ─┘
+  │   ├─ subject.de.phishing.survey.map           │
+  │   ├─ subject.de.phishing.wallet.map          ─┘
   │   │
   │   ├─ subject.de.sale.map                     ─┐
   │   ├─ subject.de.sale.app.map                  │
