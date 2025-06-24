@@ -59,7 +59,7 @@
 # F
 
 # 19.05.25 - Sample: Finanznachrichten im Juni - 225292232502
-/Finanznachrichten im.{1,20}\d{10,20}/i
+/finanznachrichten im.{1,20}\d{10,20}/i
 
 /frist zur.{1,10}datenaktualisierung/i
 
@@ -91,8 +91,6 @@
 
 # Paypal
 /kontoauszug für.{1,10}ist verfügbar.{1,10}ref/iu
-
-/kreditkarten?.{1,10}sicherheitsüberprüfung/iu
 
 # L
 
@@ -144,9 +142,6 @@
 /vermeiden sie dienstunterbrechungen/i
 
 # W
-/wallet (ist|wird|wurde).{1,10}vorübergehend (eingeschränkt|gesperrt)/iu
-/wallet wurde (genutzt|verwendet).{1,10}um/i
-
 /wichtige information.{1,10}datenaktualisierung/i
 /wir benötigen.{1,10}(einige|noch).{1,10}informationen von ihnen/iu
 
