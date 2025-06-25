@@ -52,7 +52,11 @@
 /ich habe.{1,10}einen.{1,10}charity.?fonds/i
 /ich habe.{1,10}eine spende von.{1,15}(dollar|euro?|gbp|usd|€|\$|£)/i
 
-/ihre? e?.?mail.?(adresse|konto)?.{0,25}wurde.{1,15}für.{1,15}(investitionshilfe|spende|wohltätigkeitsspende)/iu
+/ihre?.{1,10}e?.?mail.?(adresse|konto)?.{0,25}wurde.{1,15}für.{1,15}(investitionshilfe|spende|wohltätigkeitsspende)/iu
+/ihre?.{1,10}e?.?mail.?(adresse|konto)?.{1,15}wurde per zufallsprinzip/i
+
+/spenden wir.{1,15}ihre?.{1,10}e?.?mail.?(adresse|konto)/i
+
 
 /ihnen in form von.{1,10}spenden?.{1,10}verfügung/iu
 

@@ -30,6 +30,8 @@
 
 # Finance
 # ------------------------------------------------------------------------------
+/(darlehen|kredite?).{1,15}mit einem günstigen/iu
+
 /benötigen sie.{1,15}zusätzliches geld/iu
 /(benötigen|brauchen) sie.{1,15}einen.{1,10}kredit/i
 
@@ -39,12 +41,12 @@
 
 /unsere.{1,10}(darlehen|kredite) bieten flexible/i
 
-/(ich|wir) (biete|gewähre|vergebe)n?.{1,15}(finanzlösungen|kreditlösungen)/iu
+/(ich|wir) (biete|gewähre|vergebe)n?.{1,15}(darlehensbeträge|finanzlösungen|kreditlösungen)/iu
 /(ich|wir) (biete|gewähre|vergebe)n?.{1,15}investitionsfinanzierungen/i
 
 /wir finanzieren weltweit/i
 
-/zinsgünstige.{1,10}(darlehen|kredite).{1,10}privatpersonen/iu
+/zinsgünstige.{1,10}(darlehen|kredite?).{1,10}privatpersonen/iu
 
 /investitionsfinanzierungen.{1,10}projektfinanzierungen/i
 
