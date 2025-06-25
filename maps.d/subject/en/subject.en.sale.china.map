@@ -187,6 +187,8 @@
 
 /(parts|source).{1,10}manufacturer/i
 
+/pcb and pcba/i
+
 /(pcba?|printed.?circuit.?board).{1,20}(assembly|business|cooperation|enquiry|fabrication|factory)/i
 /(pcba?|printed.?circuit.?board).{1,10}(manufacturer?|manufacturing|needs|provider|service|solutions?)/i
 
