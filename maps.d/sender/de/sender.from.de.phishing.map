@@ -27,6 +27,8 @@
 
 _[a-z].{0,15}box/i
 
+/box von/i
+
 # C
 /ch.?zustellung/i
 
@@ -63,6 +65,8 @@ _[a-z].{0,15}box/i
 /gewinner des/i
 
 /günstig(er)?.{0,10}streaming/iu
+
+/gratis.{0,10}box/i
 
 # H
 /haben.{0,10}paket/i

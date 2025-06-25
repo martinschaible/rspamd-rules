@@ -110,6 +110,8 @@
 
 # A
 /about.{1,10}weight.?loss/i
+
+/add \d{1,2}.{1,5}drops/i
 /add this to your/i
 
 /accelerate your metabolism/i
@@ -227,7 +229,9 @@
 
 /cup of this/i
 /cure.{1,10}(approved|fda|neuropathy)/i
-/cut heart attack/i
+
+/cuts?.{1,10}cholesterol by/i
+/cuts?.{1,10}heart attack/i
 
 # D
 /dark spots.{1,10}aging/i
@@ -695,6 +699,7 @@
 /(try|this).{1,10}(miracle|natural)/i
 /(try|this).{1,10}simple.{1,10}nutrient/i
 
+/this.{1,10}fruit cuts/i
 /this.{1,10}food kills.{1,10}(back|hip|knee|pain)/i
 /this.{1,10}second twist/i
 

@@ -263,6 +263,8 @@
 /dhl.?\|/i
 /decathlon.{0,5}noreply/i
 
+/(info|my).{0,5}dhl/i
+
 # Real Sender: "Digitec"
 /digitec\.ch/i
 

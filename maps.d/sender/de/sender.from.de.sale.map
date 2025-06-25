@@ -128,6 +128,8 @@
 
 # M
 /mini.{0,10}preis/i
+
+/mobile.{0,10}klimaanlagen?/i
 /motorad.{0,10}produktion/i
 
 # N
@@ -157,7 +159,7 @@
 /(sauberlauf|schmutzfang).{0,10}matten?/i
 /(lager|schwerlast).{0,10}regale?/i
 
-/sicher.{0,15}(leben|zuhause)/i
+/sicher.{0,15}(hilfe|leben|zuhause)/i
 /sicherheits?.{0,10}profis/i
 
 /smart.{0,10}(büro|sohle)/iu

@@ -24,6 +24,8 @@
 /(photovoltaik|pv|solar).?anlagen?.{1,20}(komplettpreis|tiefstand|tiefstpreise)/iu
 /(photovoltaik|pv|solar).?anlagen?.{1,20}massiv im preis gefallen/i
 
+/(photovoltaik|pv|solar).?vorteil/i
+
 # 18.12.24 Sample: 18.12.2024 / PV-Anlage
 /\d{2}\.\d{2}\d.{4}.{1,10}(photovoltaik|pv|solar).?anlagen?/i
 

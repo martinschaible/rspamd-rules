@@ -19,10 +19,13 @@
 /\.[a-z]{1,4}.{1,5}confirm to complete/i
 /\.[a-z]{1,4}.{1,5}critical errors/i
 
+/\.[a-z]{1,4}.{1,10}e?.?mail.?server.{1,10}update/i
+
 /\.[a-z]{1,4}.{1,10}(e?.?mail|mailbox|server).{1,10}suspended/i
 /\.[a-z]{1,4}.{1,10}(e?.?mail|mailbox|server|update).{1,10}(notification|verification)/i
 
 /\.[a-z]{1,4}.{1,10}de.?activation notice/i
+/\.[a-z]{1,4}.{1,10}has been blocked from receiving/i
 /\.[a-z]{1,4}.{1,10}mailbox notification/i
 /\.[a-z]{1,4}.{1,10}mail.?server closure/i
 /\.[a-z]{1,4}.{1,10}warning{1,10}the e?.?mail account/i
@@ -34,6 +37,7 @@
 /access unread.{1,10}(e?.?mail|message)/i
 
 # B
+/blocked from receiving.{1,10}(e?.?mail|message)/i
 
 # C
 /confirm.{1,15}pending (e?.?mail|message)/i
@@ -84,10 +88,11 @@
 /login.{1,10}update is required/i
 
 # M
-/mailbox account termination/i
-/mailbox has been suspended/i
-/mailbox is full.{1,10}support/i
-/mailbox.?login/i
+/mailbox.{1,10}account termination/i
+/mailbox.{1,10}has been suspended/i
+/mailbox.{1,10}is full.{1,10}support/i
+
+/mailbox.{1,10}(login|server)/i
 
 # N
 /notice of e?.?mail.{1,10}deactivation/i
