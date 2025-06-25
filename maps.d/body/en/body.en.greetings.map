@@ -62,6 +62,8 @@
 /dear.{1,10}collegue.{1,10}i am.{5,35}director/i
 /dear.{1,10}(ceo|company|confidant|export|trustee)/i
 
+/(dear|hi).{1,10}friend.{1,10}nice day/i
+
 /dear.{1,10}(good day|greetings)/i
 /dear.{1,25}this is.{5,25}from/i
 
@@ -164,6 +166,7 @@
 /(hello|hi).{1,5}sir.{1,10}i am dr\./i
 
 /hi \[first.?name\]/i
+
 /hi\b.?sir/i
 /hi there.{1,10}i hope this.{1,10}message/i
 
