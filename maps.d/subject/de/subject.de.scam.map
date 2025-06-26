@@ -110,7 +110,10 @@
 
 /anspruch.{1,15}versicherungsanspruch/i
 
-/aufmerksamkeit ist gefragt/i
+/aufmerksamkeit.{1,10}einen deal/i
+/aufmerksamkeit.{1,15}erforderlich/i
+/aufmerksamkeit.{1,10}(begünstigten|begünstigter|frau|herr)/iu
+/aufmerksamkeit.{1,10}ist gefragt/i
 
 # B
 /betreff.{1,5}von/i
