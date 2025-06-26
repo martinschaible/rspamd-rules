@@ -136,7 +136,7 @@
 # M
 /mine real name is/i
 
-/my names (are|is) mrs?/i
+/my names (are|is) (miss|mrs?)/i
 /my name is.{5,35}a registered/i
 /my name is.{5,25}employee of/i
 /my name is.{5,25}how.{1,10}everything/i
