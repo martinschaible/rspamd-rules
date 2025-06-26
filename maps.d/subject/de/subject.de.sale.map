@@ -216,7 +216,7 @@
 
 /jederzeit multilingual/i
 
-/jetzt.{1,10}nur \d{2,3}.{1,10}statt \d{2,3}/i
+/jetzt.{1,10}(nur)? \d{2,3}.{1,10}statt \d{2,3}/i
 /jetzt zugreifen.{1,10}teile/i
 
 /(beheizbare|wärmende).{1,10}(daunen)?jacke/i
@@ -311,7 +311,7 @@
 /smarte?.{1,15}(beleuchtung|sohle)/i
 
 # Sample:  sparen: 249 € statt 599
-/sparen.{1,10}\d{2,3}(an)?statt.{1,5}\d{2,3}/i
+/sparen.{1,10}\d{2,3}.{1,5}\(an)?statt.{1,5}\d{2,3}/i
 
 /sprechen.{1,10}(in über|problemlos).{1,10}sprachen/i
 
@@ -349,6 +349,8 @@
 # U
 /übersetzungsservice für ihr/iu
 /unglaubliches angebot/i
+
+/unseren.{1,10}luxusstuhl/i
 
 # V
 /verfügbar.{1,15}erneuerungsrabatt/iu

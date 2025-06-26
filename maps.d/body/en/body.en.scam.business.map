@@ -22,12 +22,13 @@
 /benefits?.{1,10}please get back/i
 
 /(business|proposal|transaction).{1,10}discuss with you/i
-/(business|proposal|transaction).{1,10}for you/i
+/(business|proposal|transaction).{1,10}(for|with) you/i
 
 # C
 /(completion|you for).{1,15}business.{1,10}transaction/i
 
 # D
+/discuss{1,10}business proposal/i
 
 # E
 
