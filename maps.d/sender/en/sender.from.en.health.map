@@ -565,7 +565,7 @@
 
 # K
 /kidney.{0,10}fix/i
-/knee.{0,10}(mistake|reset)/i
+/knee.{0,10}(mistake|reset|support)/i
 
 # L
 /leak.{0,10}free/i
@@ -655,13 +655,15 @@
 /no.{0,10}(diet|surgery)/i
 /noise.{0,10}(cancelling|inside)/i
 
-/nutrition.{0,10}(nuances?|tips?)/i
+/nutrition.{0,10}(healing|nuances?|tips?)/i
 
 # O
 /odd.{0,10}(chocolate|milk|mineral|liquid|tonic)/i
 /oral.{0,10}flush/i
 /oriental.{0,10}secret/i
+
 /over \d{2}/i
+/overactive.{0,10}bladder/i
 /overnight.{0,10}hack/i
 
 # P

@@ -47,6 +47,8 @@
 /^credit \d%/i
 
 # D
+/debt.?financing/i
+
 /direct loan.{1,10}interest/i
 
 /discuss your business/i
@@ -126,6 +128,7 @@
 # R
 
 # S
+/simple.{1,10}diy solution/i
 /smart financing.{1,15}growth/i
 
 # T
