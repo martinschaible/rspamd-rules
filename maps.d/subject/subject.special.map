@@ -132,6 +132,9 @@
 # 23.06.25 - Sample: ID: cKrQA
 /^id: [a-z0-9]{4,10}/i
 
+# 26.06.25 Sample: N9798963
+/^n\d{5,10}$/i
+
 # Text in brackets
 # ------------------------------------------------------------------------------
 # -> Theses RegEx might be constructed easier and better

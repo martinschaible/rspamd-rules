@@ -15,11 +15,15 @@
 /massage.{0,15}(büro|sessel|stuhl|stühle).{0,15}(sessel|stuhl|stühle)/iu
 /stilvoll.{0,15}(büro|sessel|stuhl|stühle).{0,15}(sessel|stuhl|stühle)/iu
 
+/\d{2,3}.{1,10}(büro|massage).?(sessel|stuhl|stühle)/i
+
 /chance.{1,15}(büro|massage).?(sessel|stuhl|stühle)/i
 
 /büro.{1,10}jetzt zugreifen/iu
 /design.{1,10}komfort vereint/i
 /dtn.?stuhl/i
+
+/rücken entspannen.{1,10}\d{2,3}/iu
 
 # E Bike, Scooter
 # ------------------------------------------------------------------------------
@@ -85,6 +89,13 @@
 
 # Sample: Nur 11,78 anstatt 25,90
 /nur.{1,5}\d{2,3}(,|.)\d{2}.{1,5}(an)?statt.{1,5}€?\d{2,3}(,|.)\d{2}/i
+
+# Sample: nur 249 € statt 599 € für
+/nur.{1,5}\d{2,3}.{1,5}(an)?statt.{1,5}\d{2,3}.{1,10}für/iu
+
+# Sample: 249 € – statt 599 € zahlen
+/\d{2,3}.{1,5}(an)?statt.{1,5}\d{2,3}.{1,10}zahlen/i
+
 #
 /4k.{0,10}kamera/i
 
@@ -298,6 +309,9 @@
 /sie suchen arbeitskräfte/iu
 
 /smarte?.{1,15}(beleuchtung|sohle)/i
+
+# Sample:  sparen: 249 € statt 599
+/sparen.{1,10}\d{2,3}(an)?statt.{1,5}\d{2,3}/i
 
 /sprechen.{1,10}(in über|problemlos).{1,10}sprachen/i
 
