@@ -88,6 +88,10 @@
 # D
 
 # E
+
+# Replicas
+/elegance for just.{1,10}\d{2,3}/i
+
 /ends?.{1,10}power bills/i
 
 /enhance.{1,10}your wifi/i
@@ -156,6 +160,8 @@
 
 # T
 /^t.?shirts$/i
+
+/targeted.{1,10}contact lists/i
 
 # U
 /unlimited.{1,10}ip.?tv/i
