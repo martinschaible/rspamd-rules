@@ -12,6 +12,10 @@
 # Topics
 # ==============================================================================
 
+# Chair
+# ------------------------------------------------------------------------------
+/(büro|dreh).?(stuhl|stühle).{1,15}mit massagefunktion/i
+
 # Buying your car
 # ------------------------------------------------------------------------------
 /(ich|wir) kaufen?.{1,10}(autos|fahrzeuge|pkw).{1,10}(aller art|guten tag)/i
@@ -42,8 +46,6 @@
 /befreit sie.{1,10}schnarchen/i
 
 /bestellen.{1,10}wir liefern per versand/i
-
-/(büro|dreh).?(stuhl|stühle).{1,10}mit massagefunktion/i
 
 # C
 
@@ -105,7 +107,6 @@
 
 # W
 /wir liefern personal in/i
-/wir übernehmen.{1,10}social.?media/iu
 /wir sanieren.{1,10}renovieren ihr.{1,10}haus/i
 
 # X

@@ -41,6 +41,12 @@
 /i have.{1,10}complete access/i
 /i have.{1,10}tracking your.{1,10}online.{1,10}activities/i
 
+/i.{1,10}managed.{1,10}install.{1,15}(trojan|virus)/i
+
+/i\b.{1,10}(hacked|monitored) your.{1,15}(account|computer|devices?|mobile|system)/i
+
+/i was able to put.{1,15}(trojan|virus)/i
+
 # J
 
 # K
@@ -61,7 +67,7 @@
 # R
 
 # S
-/second tо ѕtор/i
+/(send|transfer).{1,10}(us dollars|usd).{1,10}to.{1,10}(bitcoin|btc|cryptocurrency)/i
 
 # T
 /this is a hacker/i
