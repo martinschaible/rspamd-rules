@@ -188,7 +188,7 @@
 /ihr.{1,15}konto benötigt eine bestätigung/iu
 /ihr handeln ist erforderlich/i
 
-/ihre.{1,20}muss aktualisiert werden/i
+/ihre.{1,20}(muss|müssen) aktualisiert werden/i
 
 /ihre.{1,10}sicherheit ist in gefahr.{1,20}schutz.{1,10}erneuern/i
 /ihre sofortige aufmerksamkeit/i
@@ -366,10 +366,13 @@
 /wichtige?.{1,15}kontowarnung/i
 /wichtige?.{1,15}(konto|profil).?informationen/i
 
+/wichtige?.{1,10}mitteilung.{1,10}ihre zahlungsdaten/i
 /wichtige?.{1,10}mitteilung.{1,10}konto.?reaktivierung/i
 /wichtige?.{1,10}mitteilung.{1,10}neuer gerätezugriff festgestellt/iu
 /wichtige?.{1,10}mitteilung.{1,10}überprüfen sie die sicherheit/iu
 /wichtige?.{1,10}mitteilung.{1,15}parkgebühr/iu
+/wichtige?.{1,10}mitteilung.{1,15}zur sicherheit ihres.{1,15}kontos/i
+
 /wichtige?.{1,10}registrierung.{1,10}mastercard/i
 
 /wichtige?.{1,10}sicherheitsaktualisierung/i

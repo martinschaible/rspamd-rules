@@ -43,11 +43,16 @@
 
 /bestellen.{1,10}wir liefern per versand/i
 
+/(büro|dreh).?(stuhl|stühle).{1,10}mit massagefunktion/i
+
 # C
 
 # D
 
 # E
+/einfach auf diese{1,10}e?.?mail antworten/i
+/einfach antworten.{1,10}adresse.{1,10}lieferadresse/iu
+
 
 # Eso crap
 /erkenne deinen seelenplan/i

@@ -509,7 +509,7 @@
 # ------------------------------------------------------------------------------
 /partner.{0,10}mcafee/i
 
-/paypal\.de/i
+/paypal(\.|-)de/i
 /paypal.{0,5}(case.?id|europe?|inc|kunden|konto|support|voucher)/i
 /paypal_/i
 /pay pal/i
