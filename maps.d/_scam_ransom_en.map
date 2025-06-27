@@ -10,9 +10,7 @@
 # Ransom
 # ------------------------------------------------------------------------------
 /i\b.{1,10}(gained|get|have|obtained|succeeded).{1,20}access.{1,15}your.{1,10}(account|computer|devices?|messenger|mobile)/i
-/i\b.{1,10}hacked your.{1,15}(account|computer|devices?|mobile|system)/i
 
-/i.{1,10}managed.{1,10}install.{1,15}(trojan|virus)/i
 /i.{1,10}managed.{1,10}to get.{1,10}access.{1,10}all.{1,10}(account|computer|devices?|mobile)/i
 /i.{1,10}recorded some videos of you/i
 
@@ -58,8 +56,6 @@
 
 /(send|transfer).{1,10}\d{3,4}.{1,15}to my (bitcoin|cryptocurrency) wallet/i
 /(send|transfer).{1,10}(us dollars|usd).{1,10}in bitcoin equivalent/i
-/(send|transfer).{1,10}(us dollars|usd).{1,10}to my (bitcoin|cryptocurrency) wallet/i
-/(send|transfer).{1,10}(us dollars|usd).{1,15}to (bitcoin|btc)/i
 /(send|transfer).{1,10}(bitcoin|btc).{1,15}to my wallet/i
 
 /transfer to my.{1,10}account.{1,10}after the transaction/i
