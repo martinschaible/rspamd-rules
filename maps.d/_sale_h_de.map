@@ -57,7 +57,6 @@
 /(büro|dreh).?(stuhl|stühle).{1,10}(die perfekte|einzigartig|in leder|limitierte|in vielen farben|mit walnussholz|passt sich perfekt)/iu
 /(büro|dreh).?(stuhl|stühle).{1,10}neues modell/iu
 /(büro|dreh).?(stuhl|stühle).{1,10}regale?/i
-/(büro|dreh).?(stuhl|stühle).{1,10}mit massagefunktion/i
 /(büro|dreh).?(stuhl|stühle).{1,10}(vorzustellen|wochen zu testen)/i
 
 /stuhl.{1,15}vorzugspreis von nur/i
@@ -524,7 +523,7 @@
 
 /e?.?mail antworten.{1,10}ihre lieferadresse angeben/i
 
-/einfach mit.{1,10}adresse.{1,15}farbauswahl antworten/i
+/einfach mit.{1,10}adresse.{1,15}lieferadresse/i
 /einfach mit.{1,10}adresse.{1,15}diese e?.?mail.{1,15}wir senden ihnen/i
 /einfach mit.{1,10}adresse.{1,15}wir senden dann.{1,15}(frei haus|umgehend per)/i
 
