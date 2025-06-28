@@ -17,6 +17,7 @@
 
 /bereit zur auslieferung.{1,10}(airpods|apple|ipad|iphone|macbook)/i
 /(anerkennung|belohnung|prämie).{1,10}(airpods|apple|ipad|iphone|macbook)/iu
+/paket mit dem.{1,10}(airpods|apple|ipad|iphone|macbook)/iu
 /gewinner.{1,10}brandneuen?.{1,10}(airpods|apple|ipad|iphone|macbook)/iu
 
 #
@@ -79,6 +80,8 @@
 /sie sind auf unserer.{1,10}gewinnerliste/i
 
 /sie wurden ausgewählt.{1,10}haben.{1,10}die chance/iu
+
+/status.{1,10}versandbereit.{1,10}enthält/iu
 
 # T
 

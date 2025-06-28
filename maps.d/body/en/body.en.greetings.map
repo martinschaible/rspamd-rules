@@ -150,6 +150,7 @@
 
 /(hello|hi).{1,10}\[first name\]/i
 /(hello|hi).{5,35}from.{5,35}(in)? (china|india|ukraine)/i
+/(hello|hi).{1,10}glad to meet you/i
 /(hello|hi\b).{1,10}herr/i
 /(hello|hi\b).{1,10}greetings for the day/i
 

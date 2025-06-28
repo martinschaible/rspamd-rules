@@ -212,6 +212,8 @@
 # X
 
 # Y
+/you are (doing|going) well.{1,10}my name is/i
+
 /your (contact|details|e?.?mail|information|name).{1,10}business directory/i
 /your (contact|details|e?.?mail|information|name).{1,20}(has been|was) provided by google/i
 

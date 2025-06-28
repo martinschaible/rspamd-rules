@@ -105,7 +105,8 @@
 /lokaler?.{0,10}sex/i
 
 # M
-/mädchen will mit dir/i
+/mädchen will mit dir/iu
+/mädchen im umkreis von/iu
 
 /mann meiner träume/iu
 /mann zum.{1,15}gesucht/i
@@ -126,9 +127,9 @@
 # P
 /plz.?match mit/i
 
-/prickelnde dates/i
-/privater kontakt/i
-/profil gefällt mir/i
+/prickelnde.{1,10}dates/i
+/privater.{1,10}kontakt/i
+/profil.{1,10}(durchsucht|gefällt mir)/i
 
 # Q
 

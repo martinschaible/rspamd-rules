@@ -82,7 +82,8 @@
 /(belohnung|gewinn).{1,10}noch heute/i
 
 #/(belohnung|gutschein).{1,10}(code|einlösen|erhalten|freigeschaltet|ist zum versenden|reserviert|wartet)/i
-/(belohnung|gewinn).{1,10}(code|einlösen|erhalten|freigeschaltet|ist zum versenden|reserviert|wartet)/i
+/(belohnung|gewinn|lieferung).{1,10}(code|einlösen|erhalten|freigeschaltet|ist zum versenden|reserviert|wartet)/i
+/(belohnung|gewinn|lieferung).{1,10}steht bereit.{1,15}ein klick/i
 
 /belohnung(en)?.{1,10}kostenlose?/i
 
