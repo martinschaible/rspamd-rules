@@ -280,18 +280,18 @@
 /(sicherheits|system).?aktualisierung.{1,10}(bestätigen sie|durchführen|erforderlich)/iu
 /(sicherheits|system).?aktualisierung.{1,10}jetzt handeln/i
 
-/sicherheitsalarm.{1,10}ungewöhnliche kontoaktivität/iu
-/sicherheitsbenachrichtigung.{1,10}bestätigen sie/iu
+/sicherheits.?alarm.{1,10}ungewöhnliche kontoaktivität/iu
+/sicherheits.?benachrichtigung.{1,10}bestätigen sie/iu
 
 /sicherheitsmaßnahmen.{1,15}jetzt.{1,15}konto/i
-/Sicherheitsnachricht.{1,10}online/i
+/Sicherheits.?nachricht.{1,10}online/i
 
-/sicherheitsproblem.{1,10}erkannt.{1,10}zahlung/i
+/sicherheits.?problem.{1,10}erkannt.{1,10}zahlung/i
 
-/sicherheitsüberprüfung.{1,10}aktualisierung ihrer/iu
-/sicherheitsüberprüfung.{1,10}steht aus/iu
+/sicherheits.?überprüfung.{1,10}aktualisierung ihrer/iu
+/sicherheits.?überprüfung.{1,10}steht aus/iu
 
-/sicherheitsupdate.{1,10}überprüfen sie ihr/i
+/sicherheits.?update.{1,10}überprüfen sie ihr/i
 
 /sicherheits.?(hinweis|mitteilung|warnung).{1,10}\d{2,4} dateien/i
 /sicherheits.?(hinweis|mitteilung|warnung).{1,10}ihr gerät benötigt/iu
@@ -318,7 +318,8 @@
 
 /swisspass.{1,10}überprüfen sie/iu
 
-/systemhinweis.{1,10}empfohlener sicherheitscheck/i
+/system.?meldung.{1,10}aktion erforderlich/i
+/system.?hinweis.{1,10}empfohlener sicherheitscheck/i
 
 # T
 
