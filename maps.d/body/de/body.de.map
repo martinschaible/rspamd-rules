@@ -12,72 +12,6 @@
 # Attention, Important, Urgent
 # ------------------------------------------------------------------------------
 
-# Temporary
-# ==============================================================================
-#-> Until i have created new map files
-
-# Adult
-# ------------------------------------------------------------------------------
-/bereit für ein.{1,10}date/iu
-/deiner nähe hat dein profil/iu
-
-/frau (aus|in) deiner.{1,10}(nähe|region|umgebung) hat dein profil/iu
-/frau (aus|in) deiner.{1,10}(nähe|region|umgebung) hat dich bemerkt/iu
-/frau (aus|in) deiner.{1,10}(nähe|region|umgebung) (findet|ist auf) dich/iu
-
-/(entdecke|schaue?).{1,10}ihr.{1,10}profil/i
-/siehe? dir ihre seite an/i
-
-# Finance
-# ------------------------------------------------------------------------------
-/(darlehen|kredite?).{1,15}mit einem günstigen/iu
-
-/benötigen sie.{1,15}zusätzliches geld/iu
-/(benötigen|brauchen) sie.{1,15}einen.{1,10}kredit/i
-
-/kreditangebote von.{1,15}bis/i
-/sie eine zuverlässige.{1,10}finanzierung/iu
-
-/sie auf der suche nach.{1,15}(darlehen|kredit)/i
-/sie suchen nach einem.{1,10}(darlehen|kredit)/i
-
-/unsere.{1,10}(darlehen|kredite) bieten flexible/i
-
-/(ich|wir) (biete|gewähre|vergebe)n?.{1,15}(alle arten von)?.{1,15}(darlehen|kredit)/iu
-/(ich|wir) (biete|gewähre|vergebe)n?.{1,15}(darlehensbeträge|finanzlösungen|kreditlösungen)/iu
-/(ich|wir) (biete|gewähre|vergebe)n?.{1,15}investitionsfinanzierungen/i
-
-/informationen zum benötigten betrag/iu
-
-/wir finanzieren weltweit/i
-
-/zinsgünstige.{1,10}(darlehen|kredite?).{1,10}privatpersonen/iu
-/zuverlässigen kredit/i
-
-/investitionsfinanzierungen.{1,10}projektfinanzierungen/i
-
-# Health
-# ------------------------------------------------------------------------------
-/kleiner zusatz.{1,10}große wirkung/iu
-/sofortige.{1,10}erektion/i
-/erektion.{1,15}(erleben|sprühen)/i
-
-/diät.?wunder/i
-/jetzt testen.{1,10}diät/iu
-/erste auslieferungen bereits erfolgt/i
-
-/vitalität durch.{1,15}hilfe/i
-
-# Make Money
-# ------------------------------------------------------------------------------
-/bitcoin.{1,10}dein leben/i
-
-/einkommen.{1,10}bitcoin/i
-/enthüllt.{1,10}ki.?system/iu
-/seien sie teil dieser revolution/i
-/system.{1,10}das reichtum verspricht/i
-/verdienen mit diesem.{1,10}schlupfloch/iu
-
 #
 #
 #
@@ -91,7 +25,6 @@
 # B
 
 # C
-/cbd.{1,10}kapseln/i
 
 # D
 /(die|unsere) web.?(seite|site).{1,10}kostenlos/i
@@ -101,18 +34,12 @@
 # F
 
 # G
-/gott segne sie.{1,10}(frau|herr)/i
 
 # H
-/hier spricht (frau|herr)/i
-
 /höhle.{0,5}(der|des).{0,5}löwen.{1,10}deal/iu
 
 # I
 /ich bin hier.{1,10}um ihnen/i
-/ich darüber gebetet habe/iu
-
-/ich nur noch wenige monate zu leben habe/i
 
 # J
 
