@@ -19,10 +19,13 @@
 # A
 
 # B
+/(benötigen|brauchen) sie.{1,15}einen.{1,10}kredit/i
+/(benötigen|brauchen) sie.{1,15}zusätzliches geld/iu
 
 # C
 
 # D
+/(darlehen|kredite?).{1,15}mit einem günstigen/iu
 
 # E
 
@@ -33,10 +36,18 @@
 # H
 
 # I
+/(ich|wir) (biete|gewähre|vergebe)n?.{1,15}(alle arten von)?.{1,15}(darlehen|kredit)/iu
+/(ich|wir) (biete|gewähre|vergebe)n?.{1,15}(darlehensbeträge|finanzlösungen|kreditlösungen)/iu
+/(ich|wir) (biete|gewähre|vergebe)n?.{1,15}investitionsfinanzierungen/i
+
+/informationen zum benötigten betrag/iu
+
+/investitionsfinanzierungen.{1,10}projektfinanzierungen/i
 
 # J
 
 # K
+/kreditangebote von.{1,15}bis/i
 
 # L
 
@@ -53,17 +64,24 @@
 # R
 
 # S
+/sie auf der suche nach.{1,15}(darlehen|kredit)/i
+/sie eine zuverlässige.{1,10}finanzierung/iu
+/sie suchen nach einem.{1,10}(darlehen|kredit)/i
 
 # T
 
 # U
+/unsere.{1,10}(darlehen|kredite) bieten flexible/i
 
 # V
 
 # W
+/wir finanzieren weltweit/i
 
 # X
 
 # Y
 
 # Z
+/zinsgünstige.{1,10}(darlehen|kredite?).{1,10}privatpersonen/iu
+/zuverlässigen kredit/i

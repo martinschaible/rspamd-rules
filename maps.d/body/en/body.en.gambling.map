@@ -19,10 +19,12 @@
 # A
 
 # B
+/bonus play.{1,10}(games|more)/i
 
 # C
 
 # D
+/deposit confirmed.{1,10}account credited/i
 
 # E
 
@@ -35,6 +37,7 @@
 # I
 
 # J
+/just been credited to your.{1,15}account/i
 
 # K
 

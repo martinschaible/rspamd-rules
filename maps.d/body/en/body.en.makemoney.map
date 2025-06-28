@@ -16,6 +16,8 @@
 # Generic
 # ==============================================================================
 
+/\d{4,6} euro upbit/i
+
 # A
 
 # B
@@ -27,6 +29,7 @@
 # E
 
 # F
+/funding investment opportunity/i
 
 # G
 
@@ -57,6 +60,7 @@
 # T
 
 # U
+/unlock.{1,10}passive income/i 
 
 # V
 
@@ -65,5 +69,6 @@
 # X
 
 # Y
+/you to.{1,10}exclusive investment option/i
 
 # Z
