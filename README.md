@@ -98,6 +98,17 @@ New configuration files have also been added.
 |          | multimap.subject.en.phishing.conf  | New map file added                 |
 |          | multimap.body.de.phishing.conf     | New map file added                 |
 |          | multimap.body.en.phishing.conf     | New map file added                 |
+| 28.06.25 | multimap.conf                      | New configuration files added      |
+|          | multimap.body.de.adult.conf        | New file                           |
+|          | multimap.body.en.adult.conf        | New file                           |
+|          | multimap.body.de.finance.conf      | New file                           |
+|          | multimap.body.en.finance.conf      | New file                           |
+|          | multimap.body.de.gambling.conf     | New file                           |
+|          | multimap.body.en.gambling.conf     | New file                           |
+|          | multimap.body.de.health.conf       | New file                           |
+|          | multimap.body.en.health.conf       | New file                           |
+|          | multimap.body.de.makemoney.conf    | New file                           |
+|          | multimap.body.en.makemoney.conf    | New file                           |
 
 
 What to do:
@@ -175,6 +186,12 @@ body
   │   ├─ body.de.singleword.ucase.map             │
   │   ├─ body.de.unsubscribe.map                 ─┘
   │   │
+  │   ├─ body.de.adult.map           x           --- multimap.body.de.adult.conf
+  │   ├─ body.de.finance.map         x           --- multimap.body.de.finance.conf
+  │   ├─ body.de.gambling.map        x           --- multimap.body.de.gambling.conf
+  │   ├─ body.de.health.map          x           --- multimap.body.de.health.conf
+  │   ├─ body.de.makemoney.map       x           --- multimap.body.de.makemoney.conf
+  │   │
   │   ├─ body.de.phishing.map                    ─┐
   │   ├─ body.de.phishing.account.map             │
   │   ├─ body.de.phishing.alertaction.map         │
@@ -200,8 +217,6 @@ body
   │   ├─ body.de.sale.seo.map                     │
   │   ├─ body.de.sale.website.map                ─┘
   │   │
-  │   ├─ body.de.stocks.map                      --- multimap.body.de.stocks.conf
-  │   │
   │   ├─ body.de.scam.map                        ─┐
   │   ├─ body.de.scam.business.map                │
   │   ├─ body.de.scam.bignumbers.map              │
@@ -210,11 +225,15 @@ body
   │   ├─ body.de.scam.order.map                   │
   │   ├─ body.de.scam.payment.map                 │
   │   ├─ body.de.scam.ransom.map                  │
-  │   └─ body.de.scam.winning.map                ─┘
+  │   ├─ body.de.scam.winning.map                ─┘
+  │   │
+  │   └─ body.de.stocks.map                      --- multimap.body.de.stocks.conf
   │
   └─ en
       └─ ....
 ```
+
+* x -> Not yet implemented
 
 ### Setup for "sender"
 
