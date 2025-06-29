@@ -9,14 +9,11 @@
 
 # Ransom
 # ------------------------------------------------------------------------------
-/i\b.{1,10}(gained|get|have|obtained|succeeded).{1,20}access.{1,15}your.{1,10}(account|computer|devices?|messenger|mobile)/i
-
 /i.{1,10}managed.{1,10}to get.{1,10}access.{1,10}all.{1,10}(account|computer|devices?|mobile)/i
 /i.{1,10}recorded some videos of you/i
 
 /i.{1,10}can see your.{1,10}screen/i
 /i.{1,10}have.{1,10}access? to your.{1,15}(account|contacts?|device|e?.?mail|messenger|networks|social)/i
-/i.{1,10}have.{1,10}installed.{1,15}(malware|spyware|trojan|virus)/i
 
 /managed to hack.{1,10}your.{1,10}operating.?system/i
 
