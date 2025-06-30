@@ -60,14 +60,16 @@
 
 # Pen
 # ------------------------------------------------------------------------------
-/(werbe)?(kugelschreiber|kuli).{1,15}(ab|für) nur/i
-/(werbe)?(kugelschreiber|kuli).{1,10}sonderpreis/i
+/(werbe)?(kugelschreiber|kuli).{1,15}(ab|für) (\d|nur)/i
+/(werbe)?(kugelschreiber|kuli).{1,10}(sichern|sonderpreis)/i
 
 /die kulis/i
 /kulis mit ihrem/i
 
-# A - L
-/(cent per|eindruck|elegante|fordern|gummierte|hochwertige|individuellen?|kostenlos|luxus|logo).{0,15}(werbe)?(kugelschreiber|kuli)/iu
+# A - B
+/aluminium.{0,15}(werbe)?(kugelschreiber|kuli)/iu
+# C - L
+/(cent per|eindruck|elegante|fordern|gummierte|hochwertige|individuellen?|jetzt|kostenlos|luxus|logo).{0,15}(werbe)?(kugelschreiber|kuli)/iu
 # M
 /(maßgeschneiderte|metall|moderne|muster).{0,15}(werbe)?(kugelschreiber|kuli)/iu
 # N - U
@@ -76,6 +78,8 @@
 /(verfügbar|werbe|werbung).{1,15}(werbe)?(kugelschreiber|kuli)/iu
 
 /jetzt markenbotschafter/i
+
+/logo.{1,15}(modern|schwung|veredelt)/i
 
 #
 #
