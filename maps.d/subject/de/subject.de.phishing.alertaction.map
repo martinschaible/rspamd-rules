@@ -190,6 +190,7 @@
 /ihr.{1,15}konto benötigt eine bestätigung/iu
 /ihr handeln ist erforderlich/i
 
+/ihre domain verfaellt heute/i
 /ihre.{1,20}(muss|müssen) aktualisiert werden/i
 
 /ihre.{1,10}sicherheit ist in gefahr.{1,20}schutz.{1,10}erneuern/i
@@ -313,7 +314,8 @@
 /sofort handeln.{1,10}aktivieren sie ihre/i
 /sofort öffnen/iu
 
-/sofortige reaktion erforderlich/i
+/sofortiges? (handeln|reaktion) erforderlich/i
+
 /sofortige sicherheitswarnung/i
 /sofortiger zugriff empfohlen/i
 

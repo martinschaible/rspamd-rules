@@ -19,6 +19,7 @@
 # A
 
 # B
+/(benötigen|brauchen) sie.{1,15}ein darlehen/iu
 /(benötigen|brauchen) sie.{1,15}einen.{1,10}kredit/i
 /(benötigen|brauchen) sie.{1,15}zusätzliches geld/iu
 
@@ -26,6 +27,9 @@
 
 # D
 /(darlehen|kredite?).{1,15}mit einem günstigen/iu
+
+/(darlehen|kredit).{1,10}(mit|zu).{1,15}(günstigen|jährlichen|wettbewerbsfähigen).{1,20}zins.?satz/iu
+/(darlehen|kredit).{1,10}(mit|zu).{1,15}(zins.?satz|zinssätzen) (ab|von)/i
 
 # E
 
@@ -83,5 +87,7 @@
 # Y
 
 # Z
+/zinssatz von.{1,10}senden sie uns/i
+
 /zinsgünstige.{1,10}(darlehen|kredite?).{1,10}privatpersonen/iu
 /zuverlässigen kredit/i
