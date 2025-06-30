@@ -78,16 +78,15 @@
 /grüße.{1,10}an sie.{1,10}ich schreibe ihnen/i
 /grüße.{1,10}betreff/iu
 /grüße.{1,10}des tages/iu
-/grüße.{1,10}?.?mail inhaber/i
-/grüße.{1,10}ihre.{1,10}e?.?mail/i
-/grüße.{1,10}mein (lieber|neuer) freund/iu
+/grüße.{1,10}?.?mail inhaber/iu
+/grüße.{1,10}ihre.{1,10}e?.?mail/iu
 /grüße.{1,10}können wir reden/iu
+/grüße.{1,10}mein (lieber|neuer) freund/iu
 
 # H
 /hallo.{1,10}(das|dies) ist ihre letzte chance/i
 
 /hallo.{1,10}ich bin.{5,35}ceo von/iu
-
 /hallo.{1,10}ich bin.{5,35}eine?.{1,15}(geschäfts)?(frau|mann)/iu
 /hallo.{1,10}ich bin.{5,35}eine?.{1,15}(australisch|deutsch|indisch|schweizer)/i
 
@@ -132,7 +131,7 @@
 
 /lieber?.{1,10}e?.?mail.?nutzer/i
 
-/lieber.{1,10}freund.{1,10}grüße/i
+/lieber.{1,10}freund.{1,10}grüße/iu
 /lieber.{1,10}freund.{1,10}ich warte immer noch/i
 
 /liebe nutzerin.{1,10}lieber nutzer/i
@@ -143,7 +142,7 @@
 
 #/liebe.{1,15}shop kund\*?in/i
 
-/(lieber?|sehr geehrter?).{1,5}e?.?mail.{0,15}(besitzer|eigentümer|empfänger|inhaber)/i
+/(lieber?|sehr geehrter?).{1,5}e?.?mail.{0,15}(besitzer|eigentümer|empfänger|inhaber)/iu
 /lieber empfänger.{1,10}wir freuen uns/iu
 
 /liebster.{1,10}(freund|geliebter)/i
@@ -174,8 +173,7 @@
 
 /sehr geehrter herr.{1,5}frau/i
 
-/sehr geehrter.{1,10}administrator/i
-/sehr geehrter.{1,10}(fahrer|geschäftspartner|manager|preisträger)/iu
+/sehr geehrter.{1,10}(administrator|fahrer|geschäftspartner|manager|preisträger)/iu
 
 /sehr geehrter?.{1,10}(damen|herren).{1,20}ich hoffe.{1,10}sie erreichen/i
 /sehr geehrter?.{1,10}(damen|herren).{1,20}sind sie auf der suche/i
