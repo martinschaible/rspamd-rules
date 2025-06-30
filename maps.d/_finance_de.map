@@ -43,15 +43,11 @@
 /(darlehen|kredit).{1,10}ihr leben für immer/iu
 /(darlehen|kredit).{1,10}investitions.?angebot/i
 /(darlehen|kredit).{1,10}jetzt beantragen/i
-/(darlehen|kredit).{1,15}mit einem.{1,10}jährlichen zinssatz/i
-/(darlehen|kredit).{1,10}mit einem.{1,10}zins.?satz von/i
-/(darlehen|kredit).{1,10}mit zinssätzen ab \d.?%/i
 /(darlehen|kredit).{1,10}privat.{1,10}geschäfts.?kredit/iu
 /(darlehen|kredit).{1,15}schnell.{1,10}zuverlässig/iu
 /(darlehen|kredit).{1,10}sind weiterhin mit.{1,10}zinsen/i
 /(darlehen|kredit).{0,10}wenden sie sich bitte an/i
 /(darlehen|kredit).{1,10}wenn ja.{1,10}(kontaktieren sie uns|senden sie uns)/i
-/(darlehen|kredit).{1,10}zu einem.{1,10}(günstigen|wettbewerbsfähigen).{1,20}zins.?satz/iu
 
 /(benötigen|brauchen) sie (dringend)?.{1,10}(darlehen|kredit)/iu
 /(benötigen|brauchen) sie.{1,15}einen.{1,15}(geschäfts|persönlichen|privat|schnellen).{1,15}kredit/iu
