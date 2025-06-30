@@ -45,6 +45,8 @@
 /sichern sie sich.{1,15}(airpods|apple|ipad|iphone)|macbook/i
 /sie haben ein.{1,10}(airpods|apple|ipad|iphone|macbook)/i
 
+/gewinnen sie das.{1,10}(airpods|apple|ipad|iphone|macbook)/i
+
 #
 #
 #
@@ -245,9 +247,9 @@
 # L
 /leider konnten wir sie.{1,10}nicht erreichen/i
 
+/letzte chance.{1,10}gewinnen sie/i
 /letzte chance.{1,10}ihr.{1,30}wartet/i
 /letzte chance.{1,10}ihr kostenloses/i
-
 /letzte chance.{1,10}laptop.{1,10}freischalten/i
 
 /letzter schritt zur belohnung/i
