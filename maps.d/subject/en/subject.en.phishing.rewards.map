@@ -37,7 +37,7 @@
 
 /enjoy your free.{5,15}from/i
 
-/exclusive.{1,20}rewards now/i
+/exclusive.{1,20}rewards (for|now)/i
 
 # French
 /exclusive.{0,10}offre/i
@@ -71,8 +71,9 @@
 # Q
 
 # R
-/rewards?.{1,10}has been authorized/i
 /rewards?.{1,10}expiring soon/i
+/rewards?.{1,10}for?.{1,20}customers?/i
+/rewards?.{1,10}has been authorized/i
 /rewards?.{1,10}is (here|waiting)/i
 /rewards?.{1,10}open (immediately|now)/i
 /rewards?.{1,10}you have been accepted/i

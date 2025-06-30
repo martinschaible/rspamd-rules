@@ -107,9 +107,11 @@
 /konto.{1,10}(abgelaufen|eingeschränkt)/iu
 /konto.{0,15}(aktualisierung|update|überprüfung) erforderlich/iu
 
+/konto.{1,10}eingeschränkt.{1,10}id/i
+
 /konto.{1,10}ist betroffen.{1,10}vertrauliche nachricht/i
 /konto.{1,10}(bleibt|ist|wird|wurde).{1,20}(begrenzt|deaktiviert|eingeschränkt|inaktiv|gesperrt|verifiziert)/i
-/konto.{1,10}(erfordert|braucht) ihre aufmerksamkeit/i
+/konto.{1,10}(braucht|erfordert) ihre aufmerksamkeit/i
 /konto.{1,10}ihre.{1,15}daten zu schützen/iu
 /konto.{1,10}(stillgelegt|vorübergehende?)/iu
 /konto.{1,15}vor einer endgültigen sperrung/iu

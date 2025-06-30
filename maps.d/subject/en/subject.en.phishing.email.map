@@ -36,6 +36,8 @@
 # A
 /access unread.{1,10}(e?.?mail|message)/i
 
+/(a|p)\.m\..{1,10}roundcube webmail/i
+
 # B
 /blocked from receiving.{1,10}(e?.?mail|message)/i
 
@@ -117,6 +119,8 @@
 /ref.{0,5}#\d{5,15} your.{1,15}e?.?mail/i
 
 /review incoming.{1,15}(e?.?mail|message)/i
+
+/roundcube webmail.{1,15}@/i
 
 # S
 #             |--- TLD --|

@@ -336,6 +336,8 @@
 # T
 /\d{2,4}.{1,10}teiliges.{1,15}set/i
 
+/tankkarten?.{1,10}liter sparen/i
+
 /(teile|trolley).{1,15}statt.{1,10}uvp/i
 
 /teilige(n|s).{1,20}werkzeug.?(koffer|set)/i
