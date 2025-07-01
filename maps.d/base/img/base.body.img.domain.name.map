@@ -72,6 +72,9 @@
 /(background|src)=.{0,5}https?:\/\/upload\.wikimedia\.org\/wikipedia\/commons/i
 /(background|src)=.{0,5}https?:\/\/yahoo\.com/i
 
+# 01.07.25
+/(background|src)=.{0,5}https?:\/\/v2cdn\.nodesite\.eu/i
+
 # Lower Score
 /(background|src)=.{0,5}https?:\/\/[a-z0-9]{5,20}\.cloudfront\.net/i 0.20
 

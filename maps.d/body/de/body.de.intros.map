@@ -92,7 +92,9 @@
 /mein name ist.{1,10}(dr\.|mrs?|ms|leutnant|sir)/i
 
 /mein name ist.{5,35}ich bin.{1,10}(auf der suche|die|teil des)/i
-/mein name ist.{5,35}(ich bin.{1,20})?(anwalt|anwältin|bankangestellter|banker|gewinner(in)?|manager|professor|rechtsanwalt)/i
+
+/mein name ist.{5,35}(ich bin.{1,20})?(anwalt|anwältin|bankangestellter|banker|geschäftsmann|gewinner(in)?)/i
+/mein name ist.{5,35}(ich bin.{1,20})?(manager|professor|rechtsanwalt)/i
 
 /mein name ist.{5,40}ich bin eine.{1,15}(frau|witwe)/i
 
