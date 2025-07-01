@@ -75,13 +75,13 @@
 /guten hallo/i
 /grusse an dich/i
 
-/grüße.{1,10}an sie.{1,10}ich schreibe ihnen/i
-/grüße.{1,10}betreff/iu
-/grüße.{1,10}des tages/iu
-/grüße.{1,10}?.?mail inhaber/iu
-/grüße.{1,10}ihre.{1,10}e?.?mail/iu
-/grüße.{1,10}können wir reden/iu
-/grüße.{1,10}mein (lieber|neuer) freund/iu
+/(grüsse|grüße).{1,10}an sie.{1,10}ich schreibe ihnen/i
+/(grüsse|grüße).{1,10}betreff/iu
+/(grüsse|grüße).{1,10}des tages/iu
+/(grüsse|grüße).{1,10}?.?mail inhaber/iu
+/(grüsse|grüße).{1,10}ihre.{1,10}e?.?mail/iu
+/(grüsse|grüße).{1,10}können wir reden/iu
+/(grüsse|grüße).{1,10}mein (lieber|neuer) freund/iu
 
 # H
 /hallo.{1,10}(das|dies) ist ihre letzte chance/i
@@ -95,7 +95,7 @@
 /hallo.{1,10}glückwunsch/iu
 
 /hallo.{1,10}herr.{1,10}frau/i
-/hallo.{1,10}herzliche grüße an sie/iu
+/hallo.{1,10}herzliche (grüsse|grüße) an sie/iu
 /hallo.{1,10}herzlichen glückwunsch/iu
 
 /hallo.{1,10}ich bin single/i
@@ -115,8 +115,8 @@
 
 /hallo.{1,10}wir freuen uns.{1,10}ihnen mitteilen/i
 
-/herzliche grüße.{1,10}ich bin/i
-/hochachtungsvolle grüße/iu
+/herzliche (grüsse|grüße).{1,10}ich bin/i
+/hochachtungsvolle (grüsse|grüße)/iu
 
 # I
 
@@ -131,7 +131,7 @@
 
 /lieber?.{1,10}e?.?mail.?nutzer/i
 
-/lieber.{1,10}freund.{1,10}grüße/iu
+/lieber.{1,10}freund.{1,10}(grüsse|grüße)/iu
 /lieber.{1,10}freund.{1,10}ich warte immer noch/i
 
 /liebe nutzerin.{1,10}lieber nutzer/i
