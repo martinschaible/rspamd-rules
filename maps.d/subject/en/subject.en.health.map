@@ -145,7 +145,7 @@
 /avoid this.{1,10}(common|for)/i
 
 /avoid.{1,10}heart attack/i
-/avoid (these|this).{1,10}(breakfast|deadly|diabetic|food)/i
+/avoid (these|this).{1,10}(breakfast|deadly|diabetic|food|fruit)/i
 /avoid (these|this).{1,10}common/i
 
 /away your.{1,10}memory/i
@@ -545,6 +545,7 @@
 /reclaim.{1,10}perfect vision/i
 /reclaim.{1,10}your.{1,10}(strength|vitality)/i
 
+/reduces?.{1,10}heart attack/i
 /reduces?.{1,10}(inflammation|joint.?pain)/i
 /regain your ability/i
 

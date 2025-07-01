@@ -123,6 +123,7 @@
 /important.{1,15}(notice|notification).{1,10}upgrade/i
 
 /important update.{1,15}@/i
+/important update.{1,15}password expiration/i
 /important update.{1,25}server/i
 
 /important.{1,10}twint.{1,20}(authentification|app) /i

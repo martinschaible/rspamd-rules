@@ -31,9 +31,12 @@
 /(darlehen|kredit).{1,10}(mit|zu).{1,15}(günstigen|jährlichen|wettbewerbsfähigen).{1,20}zins.?satz/iu
 /(darlehen|kredit).{1,10}(mit|zu).{1,15}(zins.?satz|zinssätzen) (ab|von)/i
 
+/(darlehen|kredit).{1,15}schnell.{1,10}sicher/i
+
 # E
 
 # F
+/finanzierung ohne.{1,10}grenzen/i
 
 # G
 
