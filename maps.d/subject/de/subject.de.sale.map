@@ -226,7 +226,10 @@
 /(beheizbare|wärmende).{1,10}(daunen)?jacke/i
 
 # K
-/klima.?(anlage|gerät).{1,10}mobil/i
+/klima.?(anlage|geräte?).{1,10}mobil/i
+/klima.?(anlage|geräte?).{1,20}(für|nur).{1,10}zzgl.{1,10}mwst/iu
+/klima.?(anlage|geräte?).{1,20}(ab|nur).{1,10}statt/i
+/klima.?(anlage|geräte?).{1,20}(bestellen|einsatzbereit|jetzt|lieferbar|verfügbar)/i
 
 /komplett für nur \d{2,3}.{1,10}netto/iu
 /kooperationsmöglichkeit.{1,10}qualifiziertes?/iu

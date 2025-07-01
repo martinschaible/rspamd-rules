@@ -33,6 +33,7 @@
 # D
 
 # E
+/email\.update/i
 
 #/e-service\./i
 
@@ -103,6 +104,8 @@
 
 # 24.05.25 - Sample: noreply@update-20.firebaseapp.com
 /@update-\d{2}\./i
+
+/update\.service/i
 
 /user\./i
 
