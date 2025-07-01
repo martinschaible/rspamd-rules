@@ -10,10 +10,6 @@
 
 # Air Conditioning
 # ------------------------------------------------------------------------------
-/klima.?(anlage|geräte?).{1,20}(für|nur).{1,10}zzgl.{1,10}mwst/iu
-/klima.?(anlage|geräte?).{1,20}(ab|nur).{1,10}statt/i
-/klima.?(anlage|geräte?).{1,20}(bestellen|einsatzbereit|jetzt|lieferbar|verfügbar)/i
-
 /jetzt.{1,15}klima.?(anlage|geräte?).{1,10}kaufen/i
 /(echtes?|hitze|lieferbar|sommerhit|ventilatoren).{1,15}klima.?(anlage|geräte?)/i
 
