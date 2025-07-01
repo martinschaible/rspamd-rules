@@ -38,6 +38,11 @@
 
 # I
 /(i.?a?m|we are).{1,10}indian?.{1,10}(based|development|web)/i
+
+/i.?a?m.{1,15}professional web.?(designer|developer)/i
+/i.?a?m.{1,15}web.{0,10}development.{1,10}manager/i
+/i.?a?m.{1,15}web.{0,10}(designer|developer)/i
+
 /improve your.{1,10}(web)?.?site.{1,10}performance/i
 
 # J

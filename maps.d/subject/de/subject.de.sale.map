@@ -227,12 +227,15 @@
 
 # K
 /klima.?(anlage|geräte?).{1,10}mobil/i
+/klima.?(anlage|geräte?).{1,20}(für|nur).{1,10}\d{2,3}/i
 /klima.?(anlage|geräte?).{1,20}(für|nur).{1,10}zzgl.{1,10}mwst/iu
 /klima.?(anlage|geräte?).{1,20}(ab|nur).{1,10}statt/i
 /klima.?(anlage|geräte?).{1,20}(bestellen|einsatzbereit|jetzt|lieferbar|verfügbar)/i
 
 /komplett für nur \d{2,3}.{1,10}netto/iu
 /kooperationsmöglichkeit.{1,10}qualifiziertes?/iu
+
+/kühlen ohne einbau/iu
 
 # L
 /(innovativen?|perfekte|smarte).{1,10}lampe/i
@@ -323,6 +326,7 @@
 /sprechen.{1,10}(in über|problemlos).{1,10}sprachen/i
 
 /statt \d{2,3},-.{1,10}(jetzt|nur).{1,10}\d{2,3},-/i
+/statt \d{2,3}.{1,10}(jetzt|nur).{1,10}\d{2,3}.{1,10}sofort einsatzbereit/i
 
 /reduziert.{1,10}(falt)?pavillon/i
 
@@ -330,6 +334,8 @@
 /suchen?.{1,10}qualifizierten handwerkern/i
 
 /sofort verfügbare mitarbeiter/iu
+
+/sommerhitze.{1,10}klimaanlage/i
 /sonderpreis.{1,10}(event|falt|garten)?pavillon/i
 
 /sprachen sofort/i
@@ -398,4 +404,7 @@
 
 # Z
 /zauber.{1,10}die sofort wirken/i
+
+/zugreifen.{1,10}statt.{1,10}\d{2,3}.{1,10}nur.{1,10}\d{2,3}/i
+
 /zuverlässiges.{1,10}(wifi|wlan)/i

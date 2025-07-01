@@ -655,7 +655,7 @@
 /no.{0,10}(diet|surgery)/i
 /noise.{0,10}(cancelling|inside)/i
 
-/nutrition.{0,10}(healing|nuances?|tips?)/i
+/nutrition.{0,10}(healing|nuances?|report|tips?)/i
 
 # O
 /odd.{0,10}(chocolate|milk|mineral|liquid|tonic)/i
@@ -877,7 +877,7 @@
 /warning.{0,10}signs?/i
 
 /weird.{0,10}sound/i
-/wellness.{0,10}insights/i
+/wellness.{0,10}(alert|bulletin|insights)/i
 
 /white.{0,10}(carb|smile)/i
 /without.{0,10}glasses/i
