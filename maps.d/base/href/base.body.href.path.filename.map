@@ -79,6 +79,10 @@
 
 /\.xhtml/i
 
+# Invoices
+/re\d{1,10}\.zip/i
+
+
 # Domain name. path and file
 # ------------------------------------------------------------------------------
 # -> avoiding false/positives with this
