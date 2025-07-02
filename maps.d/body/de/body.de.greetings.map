@@ -191,7 +191,7 @@
 /sehr geehrter?.{1,15}(kunde|kundin).{1,15}herzlichen glückwunsch/iu
 /sehr geehrter?.{1,15}(kunde|kundin).{1,15}@/i
 
-/sehr geehrtes team von/i
+#/sehr geehrtes team von/i
 
 # Sample: geehrte/r amazon kunde/in
 /sehr geehrte\/?r?.{1,15}kunde.{1,5}\d{1,10}/i
