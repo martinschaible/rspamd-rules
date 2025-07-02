@@ -12,7 +12,7 @@
 # Pattern
 # ------------------------------------------------------------------------------
 # Sample: Sales098@topmail.com
-/(girl|info|kontakt|lifestyle|local)\d{1,10}@/i
+/(girl|info|kontakt|invest|lifestyle|local)\d{1,10}@/i
 /(sales|suite|support|system)\d{1,10}@/i
 
 #
@@ -48,7 +48,6 @@
 
 # I
 /investment.{1,10}@outlook\.com/i
-
 /invoice@/i
 
 # J

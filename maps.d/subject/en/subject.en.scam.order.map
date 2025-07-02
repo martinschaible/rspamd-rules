@@ -137,6 +137,7 @@
 /^urgent (inquiry|rfq)$/i
 
 /urgent.{1,10}inquiry.{1,15}needed by/i
+/urgent.{1,10}need for.{1,10}supplier/i
 /urgent.{1,10}s o a/i
 /urgent.{1,5}project/i
 /urgent.{1,10}order inquiry/i

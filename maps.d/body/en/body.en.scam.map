@@ -51,6 +51,8 @@
 # I
 /illuminati.{1,15}(become rich|recruiter|society|today)/i
 
+/inheritance.{1,15}associated with your.{1,15}name/i
+
 # J
 
 # K
@@ -79,11 +81,13 @@
 /view.{1,10}remittance advice/i
 
 # W
+/writing to notify you.{1,10}unclaimed/i
 
 # X
 
 # Y
-/you in respect.{1,20}my (client|customer)/i
+/you.{1,10}respect.{1,20}my (client|customer)/i
+/you.{1,10}unclaimed inheritance/i
 
 /your name as.{1,10}beneficiary/i
 
