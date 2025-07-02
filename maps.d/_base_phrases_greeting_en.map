@@ -56,9 +56,6 @@
 /hi (boss|director).{1,15}(how are you|wish you nice day)/i
 /hi dear.{1,10}(greetings of the day|my name is)/i
 
-/beloved.{1,10}i am glad to know you/i
-/beloved.{1,10}i.?a?m dr\./i
-
 /dear.{1,10}friend.{1,10}how are you.{1,10}are you looking for/i
 /dear.{1,10}friend.{1,10}i am (mrs?|ms)/i
 /dear.{1,10}friend.{1,10}i got your contact/i
@@ -264,9 +261,5 @@
 # ------------------------------------------------------------------------------
 /glad to write to you.{1,10}keen hope to open/i
 /keen hope to open.{1,10}business relationship.{1,10}with you/i
-
-# Silly Stuff
-# ------------------------------------------------------------------------------
-/beloved one.{1,10}please get back to me/i
 
 /you with an act of utmost good faith/i
