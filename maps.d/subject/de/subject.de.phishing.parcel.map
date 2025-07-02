@@ -75,7 +75,8 @@
 /einer falschen lieferadresse/i
 
 /eingehende sendung für ihre/iu
-/(einfuhrabgaben?|einlieferungsbeleg) für ihre?.{1,10}(lieferung|paket|sendung)/iu
+#/(einfuhrabgaben?|einlieferungsbeleg) für ihre?.{1,10}(lieferung|paket|sendung)/iu
+/einfuhrabgaben? für ihre?.{1,10}(lieferung|paket|sendung)/iu
 /erhalten sie ihre lieferung/i
 
 # F
