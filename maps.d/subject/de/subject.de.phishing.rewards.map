@@ -145,6 +145,8 @@
 /exklusiv für sie.{1,10}ihr.{1,20}wartet/i
 
 /exklusive.{1,15}box wartet/i
+/exklusive.{1,15}prämie ist reserviert/iu
+
 /^exklusive.{1,10}prämien?$/i
 /exklusiven?.{1,15}(anerkennung|angebot|belohnung|prämien?) für sie/i
 
@@ -235,8 +237,9 @@
 
 # J
 /jetzt.{1,10}adresse bestätigen/iu
-/jetzt.{1,15}(belohnung|gewinn) (anfordern|bestätigen)/i
 /jetzt.{1,15}(antworten|öffnen)/i
+/jetzt.{1,10}bestätigen.{1,15}(exklusive|ihre)/iu
+/jetzt.{1,15}(belohnung|gewinn).{1,10}(anfordern|bestätigen)/i
 /jetzt.{1,15}exklusive.{1,15}prämie sichern/iu
 /jetzt.{1,10}ist ihre prämie verfügbar/iu
 /jetzt.{1,10}zustellung sichern/i
@@ -375,6 +378,7 @@
 
 /wichtig.{1,10}nur 48 stunden/i
 
+/wir haben etwas für sie/iu
 /woche.{1,10}dein.{1,15}paket ist bereit/i
 
 # X
