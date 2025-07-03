@@ -35,6 +35,8 @@
 /(belohnung|geschenk|gutschein|preis|gewinn).{1,10}innerhalb von.{1,10}stunden erhalten/i
 
 # C
+/chance.{1,10}einen.{1,15}brandneuen?.{1,25}zu gewinnen/i
+/Chance.{1,10}einen.{1,15}gutschein der/i
 
 # D
 
