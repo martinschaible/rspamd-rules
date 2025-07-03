@@ -26,6 +26,7 @@
 /(bring(ing)?|get).{1,10}more.{1,10}(traffic|visitors).{1,10}(leads|sales)/i
 
 # C
+/your website.{1,10}you have.{1,10}impressive/i
 
 # D
 
@@ -61,8 +62,8 @@
 /move you.{1,15}up in the rankings/i
 
 # N
-/not ranking on.{1,10}google/i
-/not showing up well.{1,10}google/i
+/not (good|ranking) on.{1,10}(bing|google|yahoo)/i
+/not showing up well.{1,10}(bing|google|yahoo)/i
 
 # O
 /our.{1,10}seo services/i
@@ -107,11 +108,13 @@
 # X
 
 # Y
+/you like.{1,10}optimize your.{1,10}(web)?.?site/i
 /you top positions.{1,10}low cost/i
 /your.{1,10}search.?rankings?.{1,15}improvement/i
 
 /your.{1,10}(web)?.?site.{1,15}seo issues/i
 /your.{1,10}(web)?.?site.{1,15}impressed /i
+/your.{1,10}(web)?.?site.{1,15}not ranking (good|in|well)/i
 /your.{1,10}(web)?.?site.{1,15}rank top/i
 
 # Z

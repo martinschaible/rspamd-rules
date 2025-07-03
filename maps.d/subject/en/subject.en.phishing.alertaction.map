@@ -27,6 +27,7 @@
 /\d{1,2}:\d{1,2}:\d{1,2}.{1,10}action required/i
 
 # A
+/account is at risk.{1,10}action needed/i
 /account notification.{1,10}verification required/i
 /account safety alert/i
 /account (security|suspension) notification/i

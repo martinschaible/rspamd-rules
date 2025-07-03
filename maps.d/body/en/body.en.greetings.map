@@ -44,7 +44,7 @@
 /(dear|greetings?|good day|hello|hi\b).{1,5}(friend|madam|sir).{1,10}congratulations on/i
 /(dear|greetings?|good day|hello|hi\b).{1,5}(friend|madam|sir).{1,10}good day/i
 /(dear|greetings?|good day|hello|hi\b).{1,5}(friend|madam|sir).{1,15}in the (lord|name of)/i
-/(dear|greetings?|good day|hello|hi\b).{1,5}(friend|madam|sir).{1,15}this e?.?mail is strictly/i
+/(dear|greetings?|good day|hello|hi\b).{1,5}(friend|madam|sir).{1,15}this.{1,10}(e?.?mail|message) is strictly/i
 
 /(dear|greetings?|good day|hello|hi\b).{1,5}(friend|madam|sir).{1,15}find the attached/i
 
@@ -78,7 +78,7 @@
 /dear.{1,10}(buyer|customer|madam|manager|partner|purchaser|sir).{1,15}glad to (contact|connect|know|write)/i
 /dear.{1,10}(buyer|customer|madam|manager|partner|purchaser|sir).{1,15}(good|nice) (day|morning)/i
 /dear.{1,10}(buyer|customer|madam|manager|partner|purchaser|sir).{1,15}hello/i
-/dear.{1,10}(buyer|customer|madam|manager|partner|purchaser|sir).{1,15}hope this.{1,10}e?.?mail finds/i
+/dear.{1,10}(buyer|customer|madam|manager|partner|purchaser|sir).{1,15}hope this.{1,10}(e?.?mail|message) finds/i
 /dear.{1,10}(buyer|customer|madam|manager|partner|purchaser|sir).{1,10}how are you/i
 /dear.{1,10}(buyer|customer|madam|manager|partner|purchaser|sir).{1,10}i am writing to/i
 /dear.{1,10}(buyer|customer|madam|manager|partner|purchaser|sir).{1,15}i work with a/i
@@ -127,11 +127,13 @@
 /good (afternoon|day|evening|morning).{1,10}sir.{1,5}(madam|mam?)\b/i
 /good (afternoon|day|evening|morning).{1,10}we are reaching out/i
 
-/greetings.?(of the day)?{.1,10}beloved.{1,15}my name is/i
-/greetings.?(of the day)?.{1,15}greetings/i
-/greetings.?(of the day)?.{1,15}in the name of/i
-/greetings.?(of the day)?.{1,15}my friend/i
-/greetings.?(of the day)?.{1,15}my name is.{5,35}i am representing/i
+/greetings?.?(of the day)?{.1,10}beloved.{1,15}my name is/i
+/greetings?.?(of the day)?.{1,10}customer.{1,10}hope this/i
+/greetings?.?(of the day)?.{1,10}from.{1,10}(here|inc|saudi)/i
+/greetings?.?(of the day)?.{1,15}greetings/i
+/greetings?.?(of the day)?.{1,15}in the name of/i
+/greetings?.?(of the day)?.{1,15}my friend/i
+/greetings?.?(of the day)?.{1,15}my name is.{5,35}i am representing/i
 
 /greetings.{1,10}recipient/i
 
@@ -149,7 +151,7 @@
 /(hello|hi).{1,5}(dear|friend|manager).{1,10}(confidential|customer|private|strictly|urgent)/i
 /(hello|hi).{1,5}(dear|friend|manager).{1,10}good day/i
 /(hello|hi).{1,5}(dear|friend|manager).{1,10}my name  is/i
-/(hello|hi).{1,5}(dear|friend|manager).{1,10}hope this e?.?mail finds/i
+/(hello|hi).{1,5}(dear|friend|manager).{1,10}hope this.{1,10}(e?.?mail|message) finds/i
 /(hello|hi).{1,5}(dear|friend|manager).{1,10}i came across/i
 
 /(hello|hi).{1,10}\[first name\]/i
@@ -162,7 +164,7 @@
 /(hello|hi).{1,35}i am.{1,10}(employee|professional)/i
 /(hello|hi).{1,15}i am.{1,10}who has access/i
 
-/(hello|hi).{5,35}i hope this e?.?mail (finds|meets) you/i
+/(hello|hi).{5,35}i hope this.{1,10}(e?.?mail|message) (finds|meets) you/i
 /(hello|hi).{1,10}glad to (contact|connect|know|write)/i
 /(hello|hi).{1,10}thank you for opening/i
 /(hello|hi).{1,10}to the.{1,25}owner/i
