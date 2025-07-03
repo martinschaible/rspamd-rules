@@ -110,10 +110,6 @@
 /good (day|evening|morning).{1,10}i know you may find this/i
 /good (day|evening|morning).{1,10}(madam|sir).{1,10}hi/i
 
-/greetings?.{1,10}customer.{1,10}hope this/i
-/greetings?.{1,10}from.{1,10}(here|saudi)/i
-/greetings?.{1,10}from.{5,25}inc/i
-
 /greetings?.{1,15}i.?a?m (dr|sgt)/i
 /greetings?.{1,15}i.?a?m.{5,25}a member of/i
 /greetings?.{1,15}i came across your profile/i
