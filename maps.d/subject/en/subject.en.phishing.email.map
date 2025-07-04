@@ -128,6 +128,8 @@
 /roundcube webmail.{1,15}@/i
 
 # S
+/send.{1,10}receive new.{1,15}(e?.?mail|message)s?/i
+
 #             |--- TLD --|
 /server.{1,20}\.[a-z]{1,4}.{1,10}expired/i
 /server.{1,10}refresh required/i
