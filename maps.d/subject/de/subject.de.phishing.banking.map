@@ -53,7 +53,8 @@
 
 # I
 /ihr.{1,10}finanz.?update.{1,10}ref/i
-/ihr.{1,10}online.?banking ist nicht.{1,15}(geschützt|vollständig)/iu
+/ihr.{1,10}online.?(banking|zugang) ist gefährdet/iu
+/ihr.{1,10}online.?(banking|zugang) ist nicht.{1,15}(geschützt|vollständig)/iu
 
 /ihre.{1,10}bank informiert zu/i
 /ihre.{1,20}kreditkarten.?app/i

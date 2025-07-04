@@ -93,6 +93,8 @@
 /^bestätigung benötigt$/iu
 /bestätigung erforderlich.{1,10}(rück)?erstattung/i
 
+/bestätigung ihrer.{1,10}telefonnummer erforderlich/iu
+
 # This is used everywhere
 #/^bestätigen sie ihre e?.?mail adresse$/iu
 
@@ -205,7 +207,7 @@
 #/jetzt handeln/i
 
 /jetzt.{1,10}einsehen.{1,10}ihre transaktionen/i
-/jetzt.{1,10}handeln.{1,10}verdächtige/iu
+/jetzt.{1,10}handeln.{1,10}(vermeiden sie|verdächtige)/iu
 /jetzt.{1,10}(kontoüberprüfung|sicherheitsupdate|verifizierung) durchführen/iu
 /jetzt.{1,15}konto aktualisieren/i
 /jetzt.{1,10}maßnahmen ergreifen/i
