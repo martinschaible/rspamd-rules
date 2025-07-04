@@ -36,7 +36,9 @@
 /\.centerd$/i
 /\.digital$/i
 /\.host$/i
-/\.id$/i
+
+# threema.id
+#/\.id$/i
 /\.ke$/i
 /\.monster$/i
 # /\.online$/i                                              # False Positives: 1

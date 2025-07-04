@@ -297,6 +297,7 @@
 
 /sicherheits.?(hinweis|mitteilung|warnung).{1,10}\d{2,4} dateien/i
 /sicherheits.?(hinweis|mitteilung|warnung).{1,10}ihr gerät benötigt/iu
+/sicherheits.?(hinweis|mitteilung|warnung).{1,10}neue verbindung au/i
 
 /sicherheits.?(hinweis|mitteilung|warnung).{1,10}unbefugter zugriff auf/i
 /sicherheits.?(hinweis|mitteilung|warnung).{1,10}(neuer|unbekannter) gerätezugriff/iu

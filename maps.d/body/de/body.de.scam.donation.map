@@ -33,6 +33,7 @@
 # C
 
 # D
+/(dollar|euro?|gbp|usd|€|\$|£).{1,10}ausgewählt wurden.{1,10}kontaktieren sie uns/i
 /(dollar|euro?|gbp|usd|€|\$|£).{1,10}ausgewählt.{1,10}melden sie sich/iu
 /(dollar|euro?|gbp|usd|€|\$|£).{1,10}wurden (an sie|ihnen) gespendet/i
 
@@ -117,3 +118,4 @@
 # Y
 
 # Z
+/zufallsprinzip ausgewählt.{1,10}um eine zuwendung/i

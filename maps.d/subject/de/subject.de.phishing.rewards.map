@@ -39,10 +39,12 @@
 /holen sie sich.{1,10}(airpods|apple|ipad|iphone|macbook)/i
 
 /ihr neuer.{1,10}(airpods|apple|ipad|iphone|macbook).{1,10}gewinn/i
+/ihre prämie wartet.{1,10}(airpods|apple|ipad|iphone|macbook)/iu
 /ihre chance auf.{1,10}(airpods|apple|ipad|iphone|macbook)/i
 
 /jetzt bestätigen.{1,10}(airpods|apple|ipad|iphone|macbook)/iu
 /jetzt.{1,10}(airpods|apple|ipad|iphone|macbook).{1,10}sichern/i
+
 /sichern sie sich.{1,15}(airpods|apple|ipad|iphone)|macbook/i
 /sie haben ein.{1,10}(airpods|apple|ipad|iphone|macbook)/i
 
@@ -204,7 +206,7 @@
 /ihr.{1,10}name steht.{1,15}auf der liste/i
 /ihr.{1,10}name wurde für ein/iu
 
-/ihr.{1,10}neuer.{1,20}im wert/i
+/ihr.{1,10}(neuer|neues).{1,20}(im wert|wartet)/i
 
 /ihr.{1,20}wartet.{1,10}auf sie/i
 /ihr.{1,20}wartet.{1,10}jetzt.{1,10}(abholen|einlösen)/i
@@ -221,13 +223,7 @@
 /ihre.{1,10}chance auf ein gratis/i
 /ihre.{1,10}exklusive.{1,20}box/i
 /ihre.{1,10}lieferadresse/i
-/ihre.{1,10}meinung zählt.{1,10}jetzt.{1,20}sichern/i
 /ihre.{1,15}prämie.{1,10}(reserviert|verschickt|wartet)/i
-
-/ihre.{1,10}teilnahme bei.{1,20}hat wirkung/i
-/ihre.{1,10}teilnahme war erfolgreich/i
-/ihre.{1,10}teilnahme wurde (belohnt|ausgewählt)/iu
-
 
 /ihren.{1,10}gutscheincode/i
 /ihren.{1,10}namen registriert/i
@@ -242,7 +238,9 @@
 /jetzt.{1,10}bestätigen.{1,15}(exklusive|ihre)/iu
 /jetzt.{1,15}(belohnung|gewinn).{1,10}(anfordern|bestätigen)/i
 /jetzt.{1,15}exklusive.{1,15}prämie sichern/iu
+/jetzt.{1,15}innerhalb von.{1,10}stunden anfordern/i
 /jetzt.{1,10}ist ihre prämie verfügbar/iu
+/jetzt.{1,10}(lieferinformationen|versanddetails) bestätigen/iu
 /jetzt.{1,10}zustellung sichern/i
 
 # K

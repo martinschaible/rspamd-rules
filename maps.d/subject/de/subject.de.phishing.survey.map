@@ -41,9 +41,12 @@
 /(haupt)?gewinnern? unserer.{1,15}umfrage/i
 
 # I
-/ihre meinung zählt.{1,10}jetzt/iu
+/ihre.{1,10}(meinung|teilnahme) zählt/i
+/ihre.{1,10}(meinung|teilnahme) bei.{1,20}hat wirkung/i
+/ihre.{1,10}(meinung|teilnahme) war erfolgreich/i
+/ihre.{1,10}(meinung|teilnahme) wurde (belohnt|ausgewählt)/iu
+/ihre.{1,10}(meinung|teilnahme) zählt.{1,10}jetzt/iu
 
-/ihre teilnahme zählt.{1,10}jetzt versand/iu
 /ihre wertvolle eingabe/i
 /in unserer.{1,15}umfrage/i
 
@@ -103,3 +106,4 @@
 # Y
 
 # Z
+/zählt.{1,10}jetzt.{1,20}sichern/i
