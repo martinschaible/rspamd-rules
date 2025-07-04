@@ -61,7 +61,8 @@
 # V
 
 # W
-/wallet (ist|wird|wurde).{1,10}vorübergehend (eingeschränkt|gesperrt)/iu
+/wallet (ist|wird|wurde).{1,10}aus sicherheitsgründen.{1,10}(eingeschränkt|gesperrt)/iu
+/wallet (ist|wird|wurde).{1,10}vorübergehend.{1,10}(eingeschränkt|gesperrt)/iu
 /wallet wurde (genutzt|verwendet).{1,10}um/i
 
 # X

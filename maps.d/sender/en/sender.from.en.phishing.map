@@ -49,7 +49,7 @@
 /mail.?(admin|alert|helpdesk|server|update)/i
 /mail.?security.?team/i
 
-/roundcube.{0,5}administration/i
+/roundcube.{0,5}(administration|support)/i
 
 /server.?(report|team)/i
 /^support.?(access|client|desk|team)$/i

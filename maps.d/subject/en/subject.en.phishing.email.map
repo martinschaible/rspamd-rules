@@ -41,19 +41,19 @@
 /(a|p)\.m\..{1,10}roundcube webmail/i
 
 # B
-/blocked from receiving.{1,10}(e?.?mail|message)/i
+/blocked from receiving.{1,10}(e?.?mail|message)s?/i
 
 # C
-/confirm.{1,15}pending (e?.?mail|message)/i
+/confirm.{1,15}pending (e?.?mail|message)s?/i
 /confirm.{1,10}to avoid deactivation/i
 
 # D
 /de.?activation.{1,10}authentication required/i
 /de.?activation of.{1,10}mailbox/i
 
-/delayed (e?.?mail|message) in/i
+/delayed (e?.?mail|message)s? in/i
 /delivery failure.{1,10}ref:/i
-/disconnected.{1,15}(receiving|sending).{1,15}e?.?mails/i
+/disconnected.{1,15}(receiving|sending).{1,15}(e?.?mail|message)s?/i
 
 /do not loose your.{1,15}@/i
 
@@ -76,13 +76,13 @@
 # I
 /imap.{1,10}ssl certificate failed/i
 
-/important.{1,10}(e?.?mail|message).{1,10}suspended/i
+/important.{1,10}(e?.?mail|message)s?.{1,10}suspended/i
 /important.{1,10}web.?mail.{1,10}software/i
 
-/incoming.{1,10}(e?.?mail|message).{1,10}has been stopped/i
-/incoming.{1,10}(e?.?mail|message).{1,10}(blocked|bounced|failed|pending)/i
+/incoming.{1,10}(e?.?mail|message)s?.{1,10}has been stopped/i
+/incoming.{1,10}(e?.?mail|message)s?.{1,10}(blocked|bounced|failed|pending)/i
 
-/incoming.{1,10}pending.{1,10}(e?.?mail|messages?) for/i
+/incoming.{1,10}pending.{1,10}(e?.?mail|message)s? for/i
 
 # J
 
@@ -104,25 +104,26 @@
 # O
 
 # P
-/pending.{1,10}(e?.?mails|message).{1,10}undelivered for/i
-/pending.{1,10}(e?.?mails|message).{1,10}on hold for/i
+/pending.{1,10}(e?.?mail|message)s?.{1,10}undelivered for/i
+/pending.{1,10}(e?.?mail|message)s?.{1,10}on hold for/i
 
 /pending e?.?mail errors/i
-/pending.{1,10}important.{1,10}(e?.?mails|message)i
+/pending.{1,10}important.{1,10}(e?.?mail|message)s?/i
 
 # Q
 
 # R
-/report.{1,10}incoming.{1,10}(e?.?mails|message)/i
+/release pending message.{1,10}(e?.?mail|message)s?/i
+/report.{1,10}incoming.{1,10}(e?.?mail|message)s?/i
 
 /re.?validate server/i
 
 # Sample: Ref: #645733271 Your Email
 /ref.{0,5}#\d{5,15} your.{1,15}e?.?mail/i
 
-/returning.{1,10}(e?.?mails|message).{1,10}to the sender/i
+/returning.{1,10}(e?.?mail|message)s?.{1,10}to the sender/i
 
-/review incoming.{1,15}(e?.?mail|message)/i
+/review incoming.{1,15}(e?.?mail|message)s?/i
 
 /roundcube webmail.{1,15}@/i
 
@@ -137,14 +138,14 @@
 /(this|your).{1,10}e?.?mail.?account.{1,30}is suspended/i
 
 # U
-/undeliverable.{1,10}outgoing e?.?mail failed/i
-/undeliverable.{1,10}pending incoming.{1,10}(e?.?mail|message)/i
+/undeliverable.{1,10}outgoing.{1,10}(e?.?mail|message)s? failed/i
+/undeliverable.{1,10}pending incoming.{1,10}(e?.?mail|message)s?/i
 
 /update your.{1,20}@.{1,20}uota/i
 
 /upgrade to webmail/i
 
-/unread important.{1,10}(e?.?mail|message)/i
+/unread important.{1,10}(e?.?mail|message)s?/i
 
 # V
 /verify your mail.?box/i
@@ -156,9 +157,9 @@
 # X
 
 # Y
-/you have.{1,25}(important|incoming).{1,15}(e?.?mails?|message)/i
-/you have.{1,10}failed.{1,10}(e?.?mail|message) deliveries/i
-/you have.{1,10}unread.{1,10}(e?.?mail|message) from/i
+/you have.{1,25}(important|incoming).{1,15}(e?.?mails?|message)s?/i
+/you have.{1,10}failed.{1,10}(e?.?mail|message)s? deliveries/i
+/you have.{1,10}unread.{1,10}(e?.?mail|message)s? from/i
 
 /your.{1,10}e?.?mail.?account closure/i
 

@@ -166,7 +166,7 @@
 /exklusives angebot/i 0.25
 
 # F
-/fachkräfte für ihre projekte/iu
+/fachkräfte.{1,10}für ihre.{1,15}projekte/iu
 
 /(event|falt|garten)?pavillon.{1,15}(blau|grau|schwarz)/i
 /(event|falt|garten)?pavillon.{1,15}für (alle|\d{3})/i
@@ -230,6 +230,7 @@
 /klima.?(anlage|geräte?).{1,20}(für|nur).{1,10}\d{2,3}/i
 /klima.?(anlage|geräte?).{1,20}(für|nur).{1,10}zzgl.{1,10}mwst/iu
 /klima.?(anlage|geräte?).{1,20}(ab|nur).{1,10}statt/i
+/klima.?(anlage|geräte?).{1,20}(aktionspreis|sonderpreis)/i
 /klima.?(anlage|geräte?).{1,20}(bestellen|einsatzbereit|jetzt|lieferbar|verfügbar)/i
 
 /komplett für nur \d{2,3}.{1,10}netto/iu
@@ -313,6 +314,8 @@
 /schöne.{1,10}zähne/i
 
 /sichern sie.{1,10}teile/i
+/sichern Sie sich.{1,10}klima.?(anlage|geräte?)/iu
+
 /sie bei uns sparen können/iu
 /sie ihr.{1,10}(auto|fahrzeug|wagen|lkw|pkw) verkaufen/i
 /sie ihren online.?ruf/i

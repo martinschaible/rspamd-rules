@@ -38,8 +38,8 @@
 
 /account.{1,10}avoid restrictions/i
 /account.{1,10}de.?activation.{1,10}progress/i
-
 /account.{1,10}update (notice|required)/i
+/account.{1,10}verification required.{1,15}@/i
 
 /authentication on your.{1,15}(account|profile)/i
 
