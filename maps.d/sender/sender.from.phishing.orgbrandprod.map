@@ -44,6 +44,7 @@
 # Miles & More
 # Miles & More Newsletter
 # myMediaMarkt
+# mySWICA
 # Nespresso
 # playstation
 # Post CH AG - Info Sendungsstatus
@@ -52,6 +53,7 @@
 # SwissPass Newsletter
 # Spotify
 # Support - Hetzner Online GmbH
+# UBS Switzerland AG
 # Viseca
 # Wetransfer
 
@@ -400,7 +402,7 @@
 
 /lidl.?202\d/i
 /lidl_/i
-/lidl.?(markt|versand)/i
+/lidl.?(markt|team|versand)/i
 
 /lieferung.{0,5}dhl/i
 
@@ -445,8 +447,6 @@
 
 /^mycss$/i
 /mycss.{0,5}krankenversicherung/i
-
-/myswica/i
 
 # 05.02.25 - TOYOTA FINANCE CORPORATION
 /my ts cubic/i
@@ -703,7 +703,6 @@
 # ------------------------------------------------------------------------------
 /-ubereats/i
 
-/ubs.?switzerland/i
 /_ups/i
 /ups.?(gmbh|shipping)/i
 /ups \|/i

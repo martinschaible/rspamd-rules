@@ -136,6 +136,7 @@
 /annoying ear buzzing/i
 
 /anti.?aging.{1,10}breakthrough/i
+/anti.{1,10}inflammatory recipe/i
 /anti.{1,20}secret/i
 
 /arteries.{1,10}avoid now/i
@@ -219,9 +220,8 @@
 /cavity.{0,10}cure/i
 
 /celebrity.?secret/i
-/clear.{1,10}(cholesterol|eyes|nails|vision)/i
-
-/clears? blurry eyesight/i
+/clears?.{1,10}(artery|cholesterol|eyes|nails|vision)/i
+/clears?.{1,10}blurry eyesight/i
 /clears.{1,10}fast/i
 
 /conquer.{1,10}tinnitus/i
