@@ -64,7 +64,7 @@
 /contact.{1,10}pcba?.{1,10}supplier/i
 
 /custom.{1,10}metal components/i
-/custom.{1,10}(bags?|machined parts|metal stamping)/i
+/custom.{1,10}(bags?|cap|machined parts|metal stamping)/i
 /custom.{1,10}(pcba?|printed.circuit.board)/i
 /custom.{1,10}products? manufacturing/i
 
@@ -205,6 +205,8 @@
 
 /plastic.?injection.{1,10}mould.?maker/i
 /plastic.?(mold|tooling|toolmaking).{1,10}(making|quotation|services|solution)/i
+
+/polo.{1,10}lanyard.{1,10}supplier/i
 
 /premium bags.{1,10}manufacturer/i
 /product.{1,10}machining service/i
