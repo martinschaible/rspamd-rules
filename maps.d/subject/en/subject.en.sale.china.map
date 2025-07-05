@@ -204,8 +204,7 @@
 /(pcba?|printed.?circuit.?board).{1,10}mould partner/i
 
 /plastic.?injection.{1,10}mould.?maker/i
-/plastic.?mold.{1,10}(making|quotation|solution)/i
-/plastic.?tooling.{1,10}services?/i
+/plastic.?(mold|tooling|toolmaking).{1,10}(making|quotation|services|solution)/i
 
 /premium bags.{1,10}manufacturer/i
 /product.{1,10}machining service/i
@@ -216,12 +215,13 @@
 /quotation.{1,15}injection mold/i
 
 # R
-/(reliable|truested).{1,15}(components|electronic).{1,15}(manufacturer|partners?|suppliers?)/i
+/(reliable|trusted).{1,20}(components|electronic).{1,15}(manufacturer|partners?|suppliers?)/i
+/(reliable|trusted).{1,20}supplier.{1,15}partnership/i
 
-/(reliable|truested).{1,10}(pcba?|printed.?circuit.?board).{1,10}(manufacturer|partners?|suppliers?)/i
-/(reliable|truested).{1,15}(cnc|manufacturing|scaffolding).{1,10}(manufacturer|partners?|suppliers?)/i
-/(reliable|truested).{1,15}(manufacturer|partners?|suppliers?) (for|of)/i
-/(reliable|truested).{1,15}custom fabrication/i
+/(reliable|trusted).{1,10}(pcba?|printed.?circuit.?board).{1,10}(manufacturer|partners?|suppliers?)/i
+/(reliable|trusted).{1,15}(cnc|manufacturing|scaffolding).{1,10}(manufacturer|partners?|suppliers?)/i
+/(reliable|trusted).{1,15}(manufacturer|partners?|suppliers?) (for|of)/i
+/(reliable|trusted).{1,15}custom fabrication/i
 
 /rfq.{1,15}(injection|moulding|plastic)/i
 /rfq pcb/i
@@ -241,6 +241,7 @@
 /supply steel plates/i
 
 # T
+/toolmaking services.{1,10}china/i
 /tooling.{1,10}molding parts/i
 
 /trading co.{1,5}ltd/i
