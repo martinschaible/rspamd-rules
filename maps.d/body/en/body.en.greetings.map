@@ -85,6 +85,7 @@
 /dear.{1,10}(buyer|customer|madam|manager|partner|purchaser|sir).{1,15}my name is.{5,35}i am from/i
 /dear.{1,10}(buyer|customer|madam|manager|partner|purchaser|sir).{1,15}please find attached/i
 /dear.{1,10}(buyer|customer|madam|manager|partner|purchaser|sir).{1,10}this is.{5,35}(from|representing)/i
+/dear.{1,10}(buyer|customer|madam|manager|partner|purchaser|sir).{1,10}we are writing to seek your/i
 /dear.{1,10}(buyer|customer|madam|manager|partner|purchaser|sir).{1,10}your draft/i
 
 /dear.{1,10}\[/i
@@ -93,6 +94,8 @@
 /dear boss/i
 /dear manager of /i
 /dear my friend/i
+
+/DEAR SIR/
 
 /dear.{1,10}(supplier|vendor).{1,15}find the attached/i
 /dear.{1,10}(supplier|vendor).{1,10}good (afternoon|day|evening|morning)/i

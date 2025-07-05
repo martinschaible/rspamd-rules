@@ -140,7 +140,7 @@
 /blauen? pille/i
 
 # C
-/cbd.{1,10}kapseln/i
+/cbd.{1,10}(kapseln|methode)/i
 /cellulite innerhalb/i
 
 # D
@@ -160,6 +160,8 @@
 # G
 /gedächtnis(ses)?.{1,10}getestet wurde/i
 /geheimnis.{1,10}tiefenreinigung/i
+
+/gesund.{1,10}entdecken sie die neue/i
 
 # H
 /hartnäckiges bauchfett/iu

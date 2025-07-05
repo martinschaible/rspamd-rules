@@ -319,6 +319,8 @@
 /g-l-s/i
 /^gls$/i
 
+/gls.?(™|®|©)$/i
+
 /gls.{0,10}sendung/i
 /gls.{0,10}(infozentrum|kundendienst|lieferdienst|online|support|team)/i
 

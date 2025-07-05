@@ -35,8 +35,9 @@
 
 /aktiv werden.{1,10}online.?zahlungen/i
 
-/aktiviere.{1,10}telefonnummer/i
-/aktivieren sie.{1,25}sicherheitslösung/iu
+/aktivieren?.{1,10}telefonnummer/i
+/aktivieren sie.{1,25}(sicherheitslösung|sicherheitssystem)/iu
+
 /aktivierung erforderlich n°/i
 /aktivitäten erkannt.{1,10}maßnahmen erforderlich/i
 
