@@ -57,7 +57,6 @@
 # New Systems, Security, Technology, TAN
 # ------------------------------------------------------------------------------
 /aktivieren sie.{1,10}ihre karte gebührenfrei/iu
-/aktivieren sie.{1,10}jetzt das verfahren/i
 /aktivieren sie.{1,10}dazu.{1,10}sofort eines unserer zwei.{1,30}verfahren/i
 /aktivieren sie.{1,15}identity check/i
 /aktivieren sie.{1,10}neue update/i
@@ -121,7 +120,6 @@
 /(photo|push).?tan.{1,10}verfahren.{1,10}(aktualisiert|verbessert)/i
 
 /aktualisiert die.{1,20}alle.{1,15}(photo|push).?tan/i
-/(aktivieren|aktualisieren) sie.{1,15}(photo|push).?tan/i
 /aktiviere das neue.{1,15}(photo|push).?tan/i
 
 /ihre?.{1,15}(photo|push).?tan.{1,10}(aktualisieren|reaktivieren|synchronisieren)/i
