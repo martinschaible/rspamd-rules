@@ -39,6 +39,7 @@
 # Mein ROSSMANN April
 # Meta
 # Migros
+# Migros: Aktionen und News
 # Migros - Cumulus
 # Migros Online
 # Miles & More
@@ -433,7 +434,8 @@
 /microsoft.{0,10}(cashback|rewards?)/i
 
 /migros.?(™|®|©)$/i
-/migros.{0,10}(aktionen|markt|oral.?b)/i
+#/migros.{0,10}(aktionen|markt|oral.?b)/i
+/migros.{0,10}(markt|oral.?b)/i
 /-.?migros/i
 
 /^migrol$/i
