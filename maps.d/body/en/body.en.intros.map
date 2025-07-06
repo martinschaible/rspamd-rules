@@ -27,6 +27,7 @@
 # B
 
 # C
+/(contact|details|e?.?mail|information|name|profile).{1,10}on google/i
 
 # D
 /disturb you with (my|this).{1,10}e?.?mail/i
@@ -218,6 +219,7 @@
 
 /your (contact|details|e?.?mail|information|name).{1,10}business directory/i
 /your (contact|details|e?.?mail|information|name).{1,20}(has been|was) provided by google/i
+/your (contact|details|e?.?mail|information|name).{1,20}from.{1,15}(data.?base|marketing)/i
 
 /your.{1,15}profile (caught|drew) my.{1,10}attention/i
 /your.{1,15}profile jumped out at me/i

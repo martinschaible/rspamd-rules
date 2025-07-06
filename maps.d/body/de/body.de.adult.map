@@ -17,6 +17,7 @@
 # ==============================================================================
 
 # A
+/(auf|in) mein(em)?.{1,10}profil/i
 
 # B
 /bereit für ein.{1,10}date/iu
@@ -24,7 +25,10 @@
 # C
 
 # D
-/deiner nähe hat dein profil/iu
+/deiner.{1,10}nähe hat dein profil/iu
+/deine.{1,10}e?.?mail.?adresse auf.{1,10}website/i
+
+/du eine frau suchst/i
 
 # E
 /(entdecke|schaue?).{1,10}ihr.{1,10}profil/i
@@ -33,6 +37,8 @@
 /frau (aus|in) deiner.{1,10}(nähe|region|umgebung) hat dein profil/iu
 /frau (aus|in) deiner.{1,10}(nähe|region|umgebung) hat dich bemerkt/iu
 /frau (aus|in) deiner.{1,10}(nähe|region|umgebung) (findet|ist auf) dich/iu
+
+/freizügiges foto von mir/iu
 
 # G
 

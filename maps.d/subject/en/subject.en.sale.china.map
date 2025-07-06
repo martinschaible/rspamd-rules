@@ -146,6 +146,7 @@
 /low(est)? prices?.{1,10}plastic.?mold/i
 
 # M
+machining.{1,10}engineering.{1,10}services?/i
 /machined parts vendor/i
 /machinery parts tailor/i
 
@@ -208,6 +209,7 @@
 
 /polo.{1,10}lanyard.{1,10}supplier/i
 
+/precision.{1,10}machining.{1,10}engineering/i
 /premium bags.{1,10}manufacturer/i
 /product.{1,10}machining service/i
 /prototype manufacturer?/i
