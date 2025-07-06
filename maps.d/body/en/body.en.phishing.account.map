@@ -17,6 +17,7 @@
 # ==============================================================================
 
 # A
+/account below.{1,10}to prevent disconnection/i
 /avoid disabling your.{1,15}(account|profile).{1,10}update/i
 
 # B
@@ -27,6 +28,7 @@
 /单击以验证您的帐户/i
 
 # D
+/due for update.{1,10}verify your account/i
 
 # E
 
