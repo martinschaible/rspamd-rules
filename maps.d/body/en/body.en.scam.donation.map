@@ -26,6 +26,7 @@
 /(donating|donation).{1,10}million.{1,10}to you/i
 
 /donation.{1,10}how to claim it/i
+/donation.{1,10}reply for claims/i
 
 # E
 
@@ -69,7 +70,8 @@
 # X
 
 # Y
-/you have been selected to receive/i
+/you.{1,10}been picked for.{1,10}donation/i
+/you.{1,10}have been selected to receive/i
 
 /your.{1,10}e?.?mail.{1,20}(has been|was) (drawn|selected) for.{1,10}donation/i
 /your.{1,10}e?.?mail.{1,20}was chosen at random/i

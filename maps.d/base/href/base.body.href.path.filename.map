@@ -82,6 +82,8 @@
 # Invoices
 /re\d{1,10}\.zip/i
 
+# 07.07.25 - Sample: https://checkout.shopify.com/gift_cards/92840526207/7885539fe9f3c9cedeb28e2d8846fde7
+/\/gift_cards\//i
 
 # Domain name. path and file
 # ------------------------------------------------------------------------------
