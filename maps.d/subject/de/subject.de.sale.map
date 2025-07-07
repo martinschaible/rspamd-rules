@@ -222,6 +222,8 @@
 
 /jetzt.{1,10}(nur)? \d{2,3}.{1,10}statt \d{2,3}/i
 /jetzt zugreifen.{1,10}teile/i
+/jetzt zuschlagen/i
+/jetzt zum vorteilspreis/i
 
 /(beheizbare|wärmende).{1,10}(daunen)?jacke/i
 
@@ -250,6 +252,7 @@
 /leiharbeiter finden/i
 
 /leitern?.{1,10}(leicht|handlich|professionell)/i
+/leitern?.{1,10}stark reduziert/i
 
 # M
 /mehr halt.{1,10}mehr balance/i
@@ -315,6 +318,7 @@
 
 /sichern sie.{1,10}teile/i
 /sichern Sie sich.{1,10}klima.?(anlage|geräte?)/iu
+/sichern Sie sich.{1,10}leiter/i
 
 /sie bei uns sparen können/iu
 /sie ihr.{1,10}(auto|fahrzeug|wagen|lkw|pkw) verkaufen/i
@@ -368,6 +372,7 @@
 /übersetzungsservice für ihr/iu
 /unglaubliches angebot/i
 
+/unsere.{1,10}bestseller.{1,10}leiter/i
 /unseren.{1,10}luxusstuhl/i
 
 # V
