@@ -66,11 +66,12 @@
 # V
 
 # W
+/we.{1,10}specialize in.{1,10}app.?development/i
 
 # X
 
 # Y
-/you.{1,10}(interested|looking|considering).{1,10}(develop|for|in).{1,15}(android|ios|mobile)?.?app/i
+/you.{1,10}(interested|looking|considering).{1,10}(develop|for|in).{1,15}(android|ios|mobile)?.?(app|web)/i
 
 /your.{1,10}mobile.?app.{1,10}requirement/i
 
