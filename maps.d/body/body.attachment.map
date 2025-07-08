@@ -90,8 +90,8 @@
 
 # 20.01.25 - Sample: PO# 4502288112.gz
 #                    PO200000035.gz
-/po(-|_|#)?.{1,25}\.(7z|docx|gz|rar|zip)/i
-/po(-|_|#)?\d{1,25}\.(7z|docx|gz|rar|zip)/i
+/^po(-|_|#)?.{1,25}\.(7z|docx|gz|rar|zip)/i
+/^po(-|_|#)?\d{1,25}\.(7z|docx|gz|rar|zip)/i
 
 # 22.01.25 - Sample: RFQ- 2708970-001.gz
 /(inq|rfq)-?.{0,15}\.(gz|zip)/i
