@@ -16,8 +16,11 @@
 # ------------------------------------------------------------------------------
 # -> They are stealing personal information
 
-/förderung(en).{1,10}(anzeigen|berechnen)/iu
-/förderung(en).{1,10}garantierte einnahmen/i
+/förderung(en)?.{1,10}(anzeigen|berechnen)/iu
+/förderung(en)?.{1,10}garantierte einnahmen/i
+/förderung(en)?.{1,10}die sich wirklich lohnen/iu
+
+/fördergelder sichern.{1,10}bevor sie/iu
 
 /(photo.?voltaik|pv|solar).?anlage.{1,10}jetzt \d{2}.{1,10}günstiger/iu
 
@@ -25,7 +28,8 @@
 
 /preise für.{1,10}(photo.?voltaik|pv|solar).?anlage.{1,10}sind derzeit/iu
 
-/förderungen anzeigen/iu
+/jetzt.{1,10}förderungen.{1,10}prüfen/iu
+
 /sie von attraktiven förderprogrammen/iu
 /sinkende preise.{1,10}hohe förderung/iu
 /vergleichen.{1,10}förderungen sichern/iu

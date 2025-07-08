@@ -75,7 +75,8 @@
 # Q
 
 # R
-/rechnung wird zweimal bezahlt/i
+/rechnung.{1,10}steht zur überprüfung bereit/iu
+/rechnung.{1,10}wird zweimal bezahlt/i
 
 /(rück)?erstattung.{1,10}angefordert/i
 /(rück)?erstattung.{1,10}für doppelte/iu
