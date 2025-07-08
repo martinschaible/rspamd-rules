@@ -17,6 +17,7 @@
 # ==============================================================================
 
 # A
+/angebot.{1,10}das ich mit ihnen teilen/i
 
 # B
 /besprechen.{1,10}die für uns beide von nutzen/iu
@@ -37,7 +38,7 @@
 # H
 
 # I
-/ich habe.{1,10}ein.{1,10}dringendes geschäft/iu
+/ich habe.{1,10}ein.{1,10}(dringendes|wichtiges).{1,15}(angebot|geschäft)/iu
 
 # J
 
