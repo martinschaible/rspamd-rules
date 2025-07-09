@@ -313,7 +313,7 @@
 /sicherheits.?(hinweis|mitteilung|warnung).{1,10}unbekanntes gerät hat sich/iu
 /sicherheits.?(hinweis|mitteilung|warnung).{1,10}unbekannte anmeldung/i
 
-/sicherheits.?(hinweis|mitteilung|warnung).{1,10}verdächtige dateien/i
+/sicherheits.?(hinweis|mitteilung|warnung).{1,10}verdächtige (anmeldung|dateien)/i
 /sicherheits.?(hinweis|mitteilung|warnung).{1,10}verdächtiger/i
 /sicherheits.?(hinweis|mitteilung|warnung).{1,10}zu ihrem gerät/iu
 
@@ -352,7 +352,7 @@
 /überprüfen sie ihre.{1,15}(kontodaten|persönlichen daten)/iu
 
 # V
-/verdächtige aktivität auf ihrem konto/iu
+/verdächtige (aktivität|anmeldung) (auf|bei) ihrem.{1,15}konto/iu
 /verdächtiger login.?versuch auf ihrem.{1,15}konto/i
 
 /verifiziere.{1,10}deine.{1,10}e?.?mail/i
