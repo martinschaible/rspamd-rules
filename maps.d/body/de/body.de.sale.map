@@ -24,6 +24,36 @@
 /(ich|wir) kaufen?.{1,10}gebrauchte.{1,15}(autos|fahrzeuge|pkw)/i
 /(ich|wir) kaufen?.{1,10}(autos|fahrzeuge|pkw) mit unfallschäden/ui
 
+# Hiring people
+# ------------------------------------------------------------------------------
+/arbeitskräften?.{1,10}bei bedarf.{1,10}(einfach|schnell)/iu
+/arbeitskräften?.{1,10}unkompliziert/iu
+/(arbeitskräfte|fachkräfte|hilfspersonal|leiharbeiter|mitarbeiter|personal|vermittlung|zeitarbeit) aus litauen/iu
+
+/finden (sie|wir).{1,15}(motivierte|schnell|zuverlässige).{1,15}(arbeitnehmer|mitarbeiter)/i
+
+/leiharbeiter finden/i
+
+/ihnen bei der personalsuche/i
+/sie erhalten bei uns.{1,15}(fachkräfte|mitarbeiter|personal)/iu
+/sie qualifizierte fachkräfte/iu
+
+/motivierten?.{1,15}fachkräften? aus/iu
+
+/wir finden ihre mitarbeiter/i
+/wir sind ein.{1,15}unternehmen aus/i
+
+/litauen.{1,10}(arbeitskräfte|leiharbeiter)/i
+/litauen.{1,10}ihr zuverlässiger partner/iu
+/litauen.{1,10}ist ein unternehmen/i
+/litauen.{1,10}stellen ihnen fach.{1,10}hilfspersonal/i
+/litauen.{1,10}wir vermitteln ihnen/i
+
+/litauische.{1,10}(leih)?arbeiter gesucht/i
+
+/wir liefern personal in/i
+/wir sanieren.{1,10}renovieren ihr.{1,10}haus/i
+
 #
 #
 #
@@ -36,13 +66,8 @@
 # Eso crap
 /aktiviere dein.{1,10}potenzial/i
 
-/arbeitskräfte bei bedarf.{1,10}(einfach|schnell)/iu
-/(arbeitskräfte|fachkräfte|hilfspersonal|leiharbeiter|mitarbeiter|personal|vermittlung|zeitarbeit) aus litauen/iu
-
 /antworten sie.{1,10}auf diese.{1,10}e?.?mail mit.{1,15}(bestellung|lieferadresse|vollständigen)/i
 /antworten sie.{1,10}uns einfach mit.{1,10}rechnungsadresse/i
-
-/arbeitskräften?.{1,10}unkompliziert/iu
 
 # B
 /bei ihnen zu erreichen.{1,10}um eine mögliche zusammenarbeit/iu
@@ -58,7 +83,6 @@
 # E
 /einfach auf diese{1,10}e?.?mail antworten/i
 /einfach antworten.{1,10}adresse.{1,10}lieferadresse/iu
-
 
 # Eso crap
 /erkenne deinen seelenplan/i
@@ -77,11 +101,6 @@
 # K
 
 # L
-/leiharbeiter finden/i
-
-/litauen.{1,10}ihr zuverlässiger partner/iu
-/litauen.{1,10}leiharbeiter/i
-/litauische.{1,10}(leih)?arbeiter gesucht/i
 
 # M
 /marketing.{1,10}maschine/i
@@ -112,8 +131,6 @@
 /versand.{1,10}mediterrane.{1,10}gartenpflanzen/i
 
 # W
-/wir liefern personal in/i
-/wir sanieren.{1,10}renovieren ihr.{1,10}haus/i
 
 # X
 

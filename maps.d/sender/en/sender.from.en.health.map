@@ -396,7 +396,7 @@
 /damaged.{0,10}nerves/i
 /dangerous.{0,10}veggies?/i
 
-/(dead|death).{0,10}(drink|foods?|kidneys|metabolism|veggies)/i
+/(dead|death).{0,10}(drink|foods?|metabolism|veggies)/i
 /(dead|deep).{0,10}cleansing/i
 
 /dental.{0,10}(alert|issues?|rescue|trick|work)/i
@@ -565,7 +565,6 @@
 /japanese.{0,15}(experts?|secret|urology)/i
 
 # K
-/kidney.{0,10}fix/i
 /kilo{0,10}day/i
 
 /knee.{0,10}(mistake|reset|support)/i
@@ -822,7 +821,7 @@
 /stop.{0,10}dieting/i
 /(strange|spice).{0,10}trick/i
 
-/sweet.{0,10}(balance|deal|trick)/i
+/sweet.{0,10}(balance|deal|fix|trick)/i
 /swollen.{0,10}(belly|feet|foot|gut|legs)/i
 
 # T
@@ -900,7 +899,7 @@
 /your.{1,10}(a1c|alcohol)/i
 /your.{1,10}(balance|bladder|brain)/i
 /your.{1,10}(calories|craving|diet|ears?|gut)/i
-/your.{1,10}(health|heart|hips|intimacy|kidneys|knees)/i
+/your.{1,10}(health|heart|hips|intimacy|knees)/i
 /your.{1,10}(live.?span|liver)/i
 /your.{1,10}(pee|pelvis|poop|posture)/i
 /your.{1,10}recipes/i

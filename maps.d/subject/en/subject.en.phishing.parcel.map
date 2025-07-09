@@ -67,7 +67,9 @@
 
 # S
 /shipment notification.{1,10}ref.?id/i
-/shipping document.{1,10}set to expire on/i
+
+/shipping documents?.{1,10}for.{1,15}@/i
+/shipping documents?.{1,10}set to expire on/i
 
 /step to receive your.{1,10}(package|parcel|shipment)/i
 

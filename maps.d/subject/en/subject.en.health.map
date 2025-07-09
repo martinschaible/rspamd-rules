@@ -71,8 +71,8 @@
 /(fat|weight).{1,10}success proven/i
 /(fat|weight).{1,10}with this.{1,10}hack/i
 
-/(big|blocking|boost|daily|easy|fast|for).{1,15}(fat|weight).?loss/i
-/(hidden|massive|method for|rapid|simple|try this|your).{1,15}(fat|weight).?loss/i
+/(affects|big|blocking|boost|daily|easy|fast|for).{1,15}(fat|weight).?(burning|loss)/i
+/(hidden|massive|method for|rapid|simple|try this|your).{1,15}(fat|weight).?(burning|loss)/i
 
 /add inches.{1,15}waistline/i
 /dissolves.{1,10}lbs/i
@@ -326,6 +326,7 @@
 /energized.{1,10}pain.?free/i
 /enhance your.{1,20}(energy|hearing|metabolism|vitality)/i
 
+/eliminate.{1,10}this food/i
 /eliminates?.{1,15}without meds/i
 /eliminates?.{1,10}(nerve|type 2)/i
 /eliminates?.{1,15}eye bags/i
@@ -368,7 +369,8 @@
 
 /formula restored by/i
 /fruit.{1,10}improving memory/i
-/fruit.{1,10}(for brain|is safe|that fights)/i
+/fruit.{1,10}(for brain|is safe)/i
+/fruit.{1,10}that (fights|weakens)/i
 
 /fungus.{0,10}(cure|fix|vanish)/i
 
@@ -629,6 +631,7 @@
 /solution.{1,10}for.{1,10}(digestion|ed)/i
 /solution.{1,10}vision.?loss/i
 
+/solve.{1,10}prostate problems/i
 /soothe.{1,10}joint.?pain/i
 
 /(spice|water).{1,10}weight gone/i
@@ -748,6 +751,8 @@
 /wants.{1,10}burn fat/i
 
 /wash away.{1,10}(lbs|pounds)/i
+
+/weakens.{1,10}gut/i
 /weird.{1,10}(remedy|stretch|tonic)/i
 
 /with.{1,10}this.{1,10}ritual/i

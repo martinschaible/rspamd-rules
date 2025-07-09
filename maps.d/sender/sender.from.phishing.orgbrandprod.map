@@ -54,6 +54,7 @@
 # SwissPass Newsletter
 # Spotify
 # Support - Hetzner Online GmbH
+# Telekom Deutschland GmbH
 # UBS Switzerland AG
 # Viseca
 # Wetransfer
@@ -673,8 +674,6 @@
 
 /team_/i
 /team.{0,10}(account|netflix|paletten?|spotify)/i
-
-/telekom deutschland/i
 
 /temu-/i
 /temu.?ch/i
