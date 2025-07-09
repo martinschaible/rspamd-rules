@@ -28,6 +28,7 @@
 # CH Media Markt Kundendienst
 # DHL Express
 # DHL Paket
+# Die Schweizerische Post
 # DocMorris - Ihre Apotheke
 # Dropbox
 # E.ON Kundenservice
@@ -247,7 +248,6 @@
 
 /(express|kurier|notification).{0,5}(dhl|dpd)/i
 
-/die.?schweizerische/i
 /diba-ag/i
 /die(\.|-)?post/i
 
