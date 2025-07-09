@@ -130,6 +130,8 @@
 /good (afternoon|day|evening|morning).{1,10}sir.{1,5}(madam|mam?)\b/i
 /good (afternoon|day|evening|morning).{1,10}we are reaching out/i
 
+/greet you from.{1,10}republic/i
+
 /greetings?.?(of the day)?{.1,10}beloved.{1,15}my name is/i
 /greetings?.?(of the day)?.{1,10}customer.{1,10}hope this/i
 /greetings?.?(of the day)?.{1,10}from.{1,10}(here|inc|saudi)/i
@@ -188,7 +190,6 @@
 /how are you.{1,15}my name is/i
 
 # I
-/i greet you from.{1,10}republic/i
 
 # J
 
