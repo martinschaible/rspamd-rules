@@ -24,6 +24,8 @@
 # B
 /bestätigung ihrer identität.{1,10}erforderlich/iu
 
+/betreff.{1,5}(achtung|wichtige information)/i
+
 # C
 
 # D
@@ -77,7 +79,8 @@
 # V
 
 # W
-/wichtige mitteilung.{1,10}verifizieren sie ihr.{1,15}konto/i
+/wichtige?.{1,15}information.{1,10}ihr online.?banking/i
+/wichtige?.{1,15}mitteilung.{1,10}verifizieren sie ihr.{1,15}konto/i
 
 # X
 

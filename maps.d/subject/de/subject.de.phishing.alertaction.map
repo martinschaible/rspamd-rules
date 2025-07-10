@@ -105,7 +105,7 @@
 /bestätigen sie ihre.{1,10}lieferdaten/iu
 /bestätigen sie kurz/iu
 
-/betreff.{1,5}achtung/i
+/betreff.{1,5}(achtung|wichtige information)/i
 
 /bitte beachten sie.{1,10}ihre.{1,20}muss/i
 
@@ -377,6 +377,7 @@
 /wichtige?.{1,15}hinweis?.{1,10}zur datensicherheit/i
 
 #/wichtige?.{1,15}informationen/i
+/wichtige?.{1,15}information.{1,10}ihr online.?banking/i
 /wichtige?.{1,15}information.{1,10}ihrer rechnung/i
 /wichtige?.{1,15}information.{1,10}unternehmensdaten aktualisieren/i
 
