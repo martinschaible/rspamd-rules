@@ -51,6 +51,8 @@
 # C
 /confidential.{1,10}message i want to share/i
 
+/(contact me|get back|reach out|reply|send your reply).{1,10}(at|in|on).{1,10}private e?.?mail/i
+
 #  |- TLD -|
 /\.[a-z]{2,4}.{1,10}your.{1,10}(active|valid) e?.?mail/i
 

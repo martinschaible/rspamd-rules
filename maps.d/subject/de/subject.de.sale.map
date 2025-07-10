@@ -333,7 +333,7 @@
 
 /sprechen.{1,10}(in über|problemlos).{1,10}sprachen/i
 
-/statt \d{2,3},-.{1,10}(jetzt|nur).{1,10}\d{2,3},-/i
+/statt \d{2,3}(,-)?.{1,10}(jetzt|nur).{1,10}\d{2,3}(,-)?/i
 /statt \d{2,3}.{1,10}(jetzt|nur).{1,10}\d{2,3}.{1,10}sofort einsatzbereit/i
 
 /reduziert.{1,10}(falt)?pavillon/i
