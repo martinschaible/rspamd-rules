@@ -298,6 +298,9 @@
 
 /prämien?.?panel/i
 
+/(prämie|wartet).{1,10}antworte jetzt/i
+/(prämie|wartet).{1,15}bestätigen Sie Ihre Adresse/iu
+
 /preis.{1,15}mystery box/i
 /preis.{1,10}zugestellt zu bekommen/i
 /preise.{1,10}freigeschaltet/i
@@ -316,6 +319,8 @@
 # S
 /schenkt dir ein.{1,15}set/i
 /schnapp dir dein.{1,10}(€|euro)/i
+
+/schritt.{1,10}ihre.{1,15}prämie sichern/iu
 /schritt.{1,10}ihrem.{1,15}gewinn/i
 
 /seien sie bereit/i
@@ -380,8 +385,6 @@
 #/wartet auf sie!/i
 /wartet auf sie.{1,10}jetzt einlösen/iu
 
-/(prämie|wartet).{1,10}antworte jetzt/i
-/(prämie|wartet).{1,15}bestätigen Sie Ihre Adresse/iu
 /wartet nur auf sie/i
 
 /wichtig.{1,10}nur 48 stunden/i
