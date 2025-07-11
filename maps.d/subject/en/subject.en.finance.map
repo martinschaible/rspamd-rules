@@ -87,8 +87,11 @@
 
 # I
 /i am.{1,10}investment broker/i
+
 /investment.{1,10}(financing|offer|opportunities|services)/i
 /investment.{1,10}financial services/i
+/investment.{1,10}loan funding/i
+
 # J
 
 # K
@@ -103,6 +106,7 @@
 /loan.{1,10}approval.{1,10}business/i
 /loan.{1,10}debt.{1,10}financing/i
 /loan.{1,10}for.{1,15}(business|projects)/i
+/loan.{1,10}funding program/i
 /loan.{1,10}offer worldwide/i
 
 /loans?.{1,10}(package|partner)/i

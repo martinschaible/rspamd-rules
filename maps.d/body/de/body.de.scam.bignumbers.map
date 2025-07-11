@@ -58,6 +58,7 @@
 # R
 
 # S
+/sie haben einen.{1,15}gewinn von.{1,10}\d{2,4}(\.|,)?\d{3,4}.{0,10}(dollars?|euro?|usd|€|\$|£)/i
 /sie.{1,10}spende von.{1,10}\d{2,4}(\.|,)?\d{3,4}.{0,10}(dollars?|euro?|usd|€|\$|£)/i
 
 /spendet ihnen.{1,10}\d{2,4}(\.|,)?\d{3,4}.{0,10}(dollars?|euro?|usd|€|\$|£)/i
