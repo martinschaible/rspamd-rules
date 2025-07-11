@@ -52,3 +52,7 @@
 
 # Sample: https://trustwallet.com.loginfn.cc/public/index.html
 /\.com\.[a-z]{5,15}\.cc\//i
+
+# Companies and Brands masked
+# ------------------------------------------------------------------------------
+/_interactivebrokers_/i

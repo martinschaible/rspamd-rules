@@ -37,6 +37,7 @@
 /dieses.{1,15}kreditunternehmen entdeckte/i
 
 # E
+/erhalten sie.{1,10}finanzierung/i
 
 # F
 /finanzierung ohne.{1,10}grenzen/i
@@ -50,6 +51,8 @@
 /(ich|wir) (biete|gewähre|vergebe)n?.{1,15}(alle arten von)?.{1,15}(darlehen|kredit)/iu
 /(ich|wir) (biete|gewähre|vergebe)n?.{1,15}(darlehensbeträge|finanzlösungen|kreditlösungen)/iu
 /(ich|wir) (biete|gewähre|vergebe)n?.{1,15}investitionsfinanzierungen/i
+
+/(geschäftskredit|immobilienkredit).{1,10}autokredit/i
 
 /informationen zum benötigten betrag/iu
 
@@ -69,7 +72,7 @@
 # O
 
 # P
-/privatkredit.{1,10}geschäftskredit/iu
+/privatkredit.{1,10}(geschäftskredit|immobilienkredit)/iu
 
 # Q
 

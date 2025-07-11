@@ -31,6 +31,7 @@
 /(darlehen|kredit).{0,10}angebot \d/i
 /(darlehen|kredit).{1,15}(aller? arten|dringend|für \d|zu|leicht gemacht|wir helfen)/iu
 /(darlehen|kredit).{1,15}finanzierung/i
+/(darlehen|kredit).{1,10}für unternehmen/i
 /(darlehen|kredit).{1,15}in.{1,10}stunden/i/i
 /(darlehen|kredit).{1,10}(investition|online)/i
 /(darlehen|kredit).{1,15}(interest rate|loan)/i

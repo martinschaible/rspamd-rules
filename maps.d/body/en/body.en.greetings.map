@@ -136,6 +136,7 @@
 /greetings?.?(of the day)?.{1,10}customer.{1,10}hope this/i
 /greetings?.?(of the day)?.{1,10}from.{1,10}(here|inc|saudi)/i
 /greetings?.?(of the day)?.{1,15}greetings/i
+/greetings?.?(of the day)?.{5,35}the sales manager/i
 /greetings?.?(of the day)?.{1,15}in the name of/i
 /greetings?.?(of the day)?.{1,15}my friend/i
 /greetings?.?(of the day)?.{1,15}my name is.{5,35}i am representing/i
@@ -183,6 +184,7 @@
 /hi there.{1,10}i hope this.{1,10}message/i
 
 /hey.{1,10}customer.{1,10}my name is/i
+/hey.{1,10}greetings/i
 /hey.{1,10}(madam|sir)/i
 
 /how are you.{1,10}attention/i

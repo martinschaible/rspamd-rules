@@ -127,7 +127,7 @@
 /industrial.{1,15}product.{1,10} manufacturer/i
 
 /injection.{1,15}molded parts/i
-/injection.{1,15}molding/i
+/injection.{1,15}mold(ing)/i
 /injection.{1,15}mou?ld/i
 
 /inquiry about.{1,10}pcba?/i
@@ -211,6 +211,7 @@ machining.{1,10}engineering.{1,10}services?/i
 
 /polo.{1,10}lanyard.{1,10}supplier/i
 
+/precise.{1,10}mold(ing)?.{1,10}solutions?/i
 /precision.{1,10}machining.{1,10}engineering/i
 /premium bags.{1,10}manufacturer/i
 /product.{1,10}machining service/i
@@ -240,7 +241,7 @@ machining.{1,10}engineering.{1,10}services?/i
 
 /shoes direct factory/i
 
-/standard (molding|molds)/i
+/standard mold(ing)?/i
 
 /supplier.{1,10}mold.?products/i
 /supplier.{1,10}who can serve/i
@@ -248,7 +249,7 @@ machining.{1,10}engineering.{1,10}services?/i
 
 # T
 /toolmaking services.{1,10}china/i
-/tooling.{1,10}molding parts/i
+/tooling.{1,10}mold(ing)? parts/i
 
 /trading co.{1,5}ltd/i
 
