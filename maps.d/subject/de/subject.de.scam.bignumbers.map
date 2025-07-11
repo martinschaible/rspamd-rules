@@ -51,7 +51,9 @@
 # Just big number in words
 # ------------------------------------------------------------------------------
 /millionen.{1,15}tausend.{1,10}(dollar|euro?|gbp|usd|€|\$|£)/i
+
 /(million|mio\b).{1,10}(dollar|euro?|gbp|usd|€|\$|£)!/i
+/(million|mio\b).{1,10}(dollar|euro?|gbp|usd|€|\$|£).{1,10}für sie/iu
 
 # Generic
 # ==============================================================================

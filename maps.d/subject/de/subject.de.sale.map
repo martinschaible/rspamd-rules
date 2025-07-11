@@ -200,7 +200,8 @@
 
 /hochdruck.?reiniger.{1,10}ab \d{2}/i
 /hochdruck.?reiniger.{1,10}statt.{1,10}jetzt/i
-/hörgeräte kostenlos/i
+
+/hörgeräte (kostenlos|testen)/i
 
 # I
 /ich kann alles hören/iu
