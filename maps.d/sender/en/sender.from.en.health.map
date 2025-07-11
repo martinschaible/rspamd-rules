@@ -92,7 +92,7 @@
 
 /health.?(digest|now|research)/i
 
-/healthy?.{0,10}(alert|alternative|brain|foods?)/i
+/healthy?.{0,10}(alert|alternative|brain|fibes|foods?)/i
 /healthy?.{0,10}(guides?|gut|hack|heart|heaven|hero|insider|insights)/i
 /healthy?.{0,10}(power|secret|transformation)/i
 
@@ -541,6 +541,8 @@
 /hip.{0,10}(flexors?|muscles?)/i
 /hissing.{0,10}sounds?/i
 
+/holistic.{0,10}(approach|cure|fix|health|method|solution)/i
+
 /home.{0,10}(recipe|treatment|with ease)/i
 
 /huge.{0,10}(belly|tummy)/i
@@ -622,6 +624,8 @@
 /miraculous.{0,10}fruit/i
 
 /missing.{0,10}nutrients?/i
+
+/mit.{0,10}research/i
 /mitochondria.{0,10}boost/i
 
 /morning.{0,10}(boost|dessert|detox|drink|hack|metabolism|mistake)/i
@@ -881,7 +885,7 @@
 /warning.{0,10}signs?/i
 
 /weird.{0,10}sound/i
-/wellness.{0,10}(alert|bulletin|insights)/i
+/wellness.{0,10}(alert|bulletin|insights|living)/i
 
 /white.{0,10}(carb|smile)/i
 /without.{0,10}glasses/i
