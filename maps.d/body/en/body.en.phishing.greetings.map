@@ -47,6 +47,8 @@
 /good (afternoon|day|evening|morning).{1,10}we require your updated details/i
 
 # H
+/hello.{1,5}we need to confirm your/i
+
 /hi.{1,25}we noticed a recent login/i
 
 # I
@@ -58,6 +60,7 @@
 # L
 
 # M
+/mail.?server.{1,10}update.{1,10}hello/i
 
 # N
 
