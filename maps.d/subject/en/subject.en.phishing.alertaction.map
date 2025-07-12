@@ -91,6 +91,7 @@
 # B
 
 # C
+/compliance reminder.{1,10}verify your/i
 /confirm ownership of.{1,20}@/i
 
 /critical security alert/i
@@ -176,7 +177,9 @@
 
 /reconfirm.{1,10}e?.?mail.{1,10}before/i
 
+/reminder.{1,10}missing tax/i
 /reminder.{1,10}resolve your.{1,15}payment/i
+
 /(receiving|reminder).{1,15}action required/i
 /reply back today/i
 

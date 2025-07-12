@@ -43,7 +43,7 @@
 # ==============================================================================
 
 # A
-/ai.?rendite/i
+/ai.{0,5}(deutschland|rendite|schweiz)/i
 
 # B
 /banken.?(newsletter|zittern)/i

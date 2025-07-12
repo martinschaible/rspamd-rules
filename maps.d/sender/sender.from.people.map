@@ -21,6 +21,8 @@
 /(bill|melinda).?gates/i
 /bill.{5,10}melinda/i
 
+# E
+
 # G
 /günther.{1,5}jauch/iu
 
@@ -29,9 +31,10 @@
 /john.?travolta/i
 
 # M
-/(elon|tesla).?musk/i
+/(eder|elon|tesla).{1,10}musk/i
 /musk-/i
 
+/musk.{1,5}foundation/i
 /mackenzie.{1,5}scott/i
 /mark.{1,5}zuckerberg/i
 
