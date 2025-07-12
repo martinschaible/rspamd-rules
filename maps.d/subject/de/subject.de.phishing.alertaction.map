@@ -256,11 +256,12 @@
 
 /letzter.{1,10}hinweis.{1,10}zahlung.{1,15}noch nicht bestätigt/iu
 
-/letzter.{1,10}schritt.{1,10}bereiten sie ihre/i
-/letzter.{1,10}schritt.{1,10}bestätigen sie ihre daten/iu
-/letzter.{1,10}schritt.{1,10}holen sie sich/i
+/(letzter|verbleibender).{1,10}schritt.{1,10}bereiten sie ihre/i
+/(letzter|verbleibender).{1,10}schritt.{1,10}bestätigen sie ihre daten/iu
+/(letzter|verbleibender).{1,10}schritt.{1,10}holen sie sich/i
+/(letzter|verbleibender).{1,10}schritt.{1,10}lieferadresse/i
 
-/letzter.{1,10}versuch.{1,10}planen sie/i
+/(letzter|verbleibender).{1,10}versuch.{1,10}planen sie/i
 
 # M
 /maßnahme notwendig vor dem/i

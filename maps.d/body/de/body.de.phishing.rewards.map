@@ -15,10 +15,11 @@
 /(airpods|apple|ipad|iphone|macbook).{1,10}neu.{1,10}originalverpackt/i
 /(airpods|apple|ipad|iphone|macbook).{1,10}originalverpackt.{1,10}versandkostenfrei/i
 
-/bereit zur auslieferung.{1,10}(airpods|apple|ipad|iphone|macbook)/i
-/(anerkennung|belohnung|prämie).{1,10}(airpods|apple|ipad|iphone|macbook)/iu
-/paket mit dem.{1,10}(airpods|apple|ipad|iphone|macbook)/iu
 /gewinner.{1,10}brandneuen?.{1,10}(airpods|apple|ipad|iphone|macbook)/iu
+
+/bereit zur auslieferung.{1,10}(airpods|apple|ipad|iphone|macbook)/i
+/(anerkennung|belohnung).{1,10}(airpods|apple|ipad|iphone|macbook)/iu
+/(paket mit|prämie).{1,10}(airpods|apple|ipad|iphone|macbook)/iu
 
 #
 #
@@ -33,6 +34,9 @@
 /belohnung freischalten/i
 
 /(belohnung|geschenk|gutschein|preis|gewinn).{1,10}innerhalb von.{1,10}stunden erhalten/i
+
+/bestätigen sie.{1,10}ihre.{1,15}prämie/i
+/bestätigen sie innerhalb der nächsten.{1,15}ihre.{1,15}adresse/i
 
 # C
 /chance.{1,10}bestätigen sie.{1,10}ihre teilnahme/iu
@@ -74,7 +78,8 @@
 
 /(person hat|sie haben) noch nicht geantwortet/i
 
-/prämie zu sichern.{1,10}bestätigen sie.{1,10}ihre lieferadresse/iu
+/prämie an einen anderen teilnehmer weitergegeben/iu
+/prämie zu sichern.{1,10}bestätigen sie.{1,10}ihre.{1,15}adresse/iu
 
 # Q
 
