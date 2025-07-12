@@ -74,7 +74,8 @@
 /herzliche grüße.{1,10}ich kontaktiere sie/iu
 
 # I
-/ihre rechnung ist fällig.{1,10}sehr geehrter kunde/iu
+/ihre rechnung ist fällig.{1,10}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/iu
+/Ihre Rückerstattung von.{1,15}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/iu
 
 # J
 
@@ -100,8 +101,6 @@
 # R
 
 # S
-/schönen tag.{1,10}ich bin (frau|herr)/i
-
 /sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}aktivieren sie ihre/i
 /sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}aus sicherheitsgründen/iu
 /sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}aufgrund.{1,10}(aktualisierter|neuer|verdächtigen)/i
