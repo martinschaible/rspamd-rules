@@ -675,7 +675,8 @@
 /tcs.{0,10}kundenservice/i
 
 /team_/i
-/team.{0,10}(account|netflix|paletten?|spotify)/i
+/team.{0,10}(account||paletten?)/i
+/team.{0,10}(dhl|netflix|spotify)/i
 
 /temu-/i
 /temu.?ch/i

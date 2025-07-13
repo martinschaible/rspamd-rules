@@ -39,6 +39,7 @@
 
 # H
 /humanitärer zuschuss/iu
+/humanitäres angebot für ihre/iu
 
 # I
 /ihnen eine spende von/i
@@ -72,7 +73,7 @@
 /sie.{1,10}(erhalten|haben|wurden).{1,10}eine.{1,10}spende/i
 
 /spenden?.{1,10}(an|für) sie/iu
-/spenden?.{1,10}(ausgewählt|erhalten|gewonnen)/i
+/spenden?.{1,10}(ausgewählt|erhalten|gewonnen|interessiert)/i
 /spenden?.{0,15}(belohnung|benachrichtigung|cash|donation|gewinn|investition)/i
 
 /spenden?.{1,10}in höhe von/iu
