@@ -355,6 +355,8 @@
 # I
 # ------------------------------------------------------------------------------
 /^ing$/i
+/ing-diba/i
+
 /ihk.?(™|®|©)?$/i
 
 /international.{0,10}investigation/i
@@ -453,6 +455,7 @@
 
 /^mycss$/i
 /mycss.{0,5}krankenversicherung/i
+/mycss.{0,5}via/i
 
 # 05.02.25 - TOYOTA FINANCE CORPORATION
 /my ts cubic/i

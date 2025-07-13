@@ -140,6 +140,7 @@
 /anti.{1,10}inflammatory recipe/i
 /anti.{1,20}secret/i
 
+/are these.{1,10}so.?called/i
 /arteries.{1,10}avoid now/i
 /asap.{1,10}heres why/i
 
@@ -166,7 +167,7 @@
 /belly.{1,10}(fat|overnight)/i
 
 /better.{1,10}bladder/i
-/better than.{1,10}retinol/i
+/better than.{1,10}(hearing|retinol)/i
 
 /big o$/i
 /big pharma.{1,15}want you/i
@@ -373,6 +374,7 @@
 /fruit.{1,10}improving memory/i
 /fruit.{1,10}(for brain|is safe)/i
 /fruit.{1,10}that (fights|weakens)/i
+fruit.{1,10}worse than/i
 
 /fungus.{0,10}(cure|fix|vanish)/i
 
@@ -395,7 +397,7 @@
 /hair.?loss\.\./i
 /hair.?loss.{1,10}reversed/i
 
-/harming your gut/i
+/(harming|sabotaging) your.{1,10}(gut|health)/i
 /(harvard|ucl).{1,15}(discovers|leaked|reveal|second|stretch)/i
 
 /heal.{1,15}pain/i
@@ -747,7 +749,7 @@
 /unlock.{1,10}(memory|prostate|sharper|tight hips)/i
 
 # V
-/veggie to avoid/i
+/veggie.{1,10}(secretly|to avoid)/i
 /vision.{1,10}(fix|solutions?)/i
 
 # W

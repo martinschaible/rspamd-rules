@@ -90,7 +90,7 @@
 # ------------------------------------------------------------------------------
 /(health|quick).{0,10}(boost(er)?|fix|guide)/i
 
-/health.?(digest|now|research)/i
+/health.?(digest|now|research|vibes)/i
 
 /healthy?.{0,10}(alert|alternative|brain|fibes|foods?)/i
 /healthy?.{0,10}(guides?|gut|hack|heart|heaven|hero|insider|insights)/i
@@ -251,11 +251,13 @@
 /\d{2,3} years old/i
 
 /(120|150)\/80/i
-/20\/20.{0,10}solution/i
+/20\/20.{0,10}(hearing|solution)/i
 
 # A
+/according to/i
 /aching.{0,10}points/i
 /active.{0,10}knee/i
+
 /african.{0,10}ritual/i
 
 /age.{0,10}freezing/i
@@ -771,7 +773,7 @@
 /sight.{0,10}care/i
 /silence.{0,10}(buzz(ing)?|pain)/i
 
-/sleep.{0,10}(discovery|hack|mistake|position|reset)/i
+/sleep.{0,10}(discovery|hack|mistake|position|reset|slim)/i
 /slim.{0,10}diet/i
 
 /(slim|skinny).{0,10}waist/i
@@ -864,6 +866,7 @@
 /unlock.{0,10}(attraction|hips|memory|mind|sharper)/i
 /unlock.{0,10}pleasure/i
 
+/ultimate.{0,10}nutrition/i
 /unusual.{0,10}stretch/i
 
 /urinary.{0,10}(fix|help|incontinence)/i
@@ -887,7 +890,7 @@
 /warning.{0,10}signs?/i
 
 /weird.{0,10}sound/i
-/wellness.{0,10}(alert|bulletin|insights|living|news)/i
+/wellness.{0,10}(alert|bulletin|insights|living|news|weekly)/i
 
 /white.{0,10}(carb|smile)/i
 /without.{0,10}glasses/i

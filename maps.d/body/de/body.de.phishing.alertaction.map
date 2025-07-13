@@ -22,7 +22,8 @@
 /anmeldung.{1,15}bestätigen sie ihre identität/iu
 
 # B
-/bestätigung ihrer identität.{1,10}erforderlich/iu
+/bestätigen.{1,10}sie.{1,10}(meine|ihre).{1,10}telefon.?nummer/iu
+/bestätigung.{1,10}ihrer identität.{1,10}erforderlich/iu
 
 /betreff.{1,5}(achtung|wichtige information)/i
 
@@ -54,6 +55,7 @@
 # M
 
 # N
+/nicht aktiviert haben.{1,10}damit sie ihr.{1,15}konto/i
 
 # O
 
@@ -70,6 +72,8 @@
 /sicherheitsrichtlinien.{1,15}jetzt bestätigen/iu
 
 # T
+/telefonnummer.{1,10}nicht aktiviert haben.{1,10}damit sie/i
+/telefonnummer.{1,10}innerhalb von.{1,10}stunden zu bestätigen/iu
 
 # U
 /(ungewöhnliche|verdächtige) (aktivitäten|vorgänge) (auf|in) (dem|ihrem).{1,15}konto/iu
