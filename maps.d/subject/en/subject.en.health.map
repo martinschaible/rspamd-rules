@@ -112,6 +112,7 @@
 
 # A
 /about.{1,10}weight.?loss/i
+/about.{1,10}your veggies/i
 
 /add \d{1,2}.{1,5}drops/i
 /add this to your/i
@@ -148,7 +149,8 @@
 /avoid this.{1,10}(common|for)/i
 
 /avoid.{1,10}heart attack/i
-/avoid (these|this).{1,10}(breakfast|deadly|diabetic|food|fruit)/i
+/avoid (these|this).{1,10}(breakfast|damaging|deadly|diabetic|foods?|fruit)/i
+/avoid (these|this).{1,10}gut/i
 /avoid (these|this).{1,10}common/i
 
 /away your.{1,10}memory/i
@@ -216,6 +218,7 @@
 /by this ancient/i
 
 # C
+/call for your health/i
 /calories.{1,10}belly fat/i
 
 /(causing|cause of|causes).{1,10}(dark spots|dementia|ed\b|joint pain)/i
@@ -225,6 +228,9 @@
 /cavity.{0,10}cure/i
 
 /celebrity.?secret/i
+
+/cleansing fix/i
+
 /clears?.{1,10}(artery|cholesterol|eyes|nails|vision)/i
 /clears?.{1,10}blurry eyesight/i
 /clears.{1,10}fast/i
@@ -291,7 +297,7 @@
 /drink.{1,10}shed.{1,10}(inches|lbs|pounds|weight)/i
 /drink you must avoid/i
 
-/drops?.{1,10}(a1c|blood sugar)/i
+/(drops?|your).{1,10}(a1c|blood sugar)/i
 /drop up to.{1,10}(lbs|pounds|weight)/i
 
 /diy.{1,10}minute stretch/i
@@ -312,7 +318,7 @@
 /eat this.{1,15}to clear/i
 /eat this to/i
 
-/ear rub trick/i
+/ears?.{1,10}(rub trick|try this)/i
 
 /ed.?breakthrough/i
 /eliminates?.{1,10}(buzzing|clogged|neuropathy|tinnitus)/i
@@ -373,7 +379,7 @@
 /formula restored by/i
 /fruit.{1,10}improving memory/i
 /fruit.{1,10}(for brain|is safe)/i
-/fruit.{1,10}that (fights|weakens)/i
+/fruit.{1,10}that (fights|may|weakens)/i
 fruit.{1,10}worse than/i
 
 /fungus.{0,10}(cure|fix|vanish)/i
@@ -386,7 +392,7 @@ fruit.{1,10}worse than/i
 /gets? rid of.{1,10}(brain fog|cavity|pain)/i
 /gets? rid of.{1,10}unwanted/i
 
-/gum.{0,10}(health|problem)/i
+/(gum|gut).{0,10}(cleansing|health|problem)/i
 /goodbye.{0,10}(pain|ringing ears)/i
 
 /reveals greatest discovery/i
@@ -397,7 +403,7 @@ fruit.{1,10}worse than/i
 /hair.?loss\.\./i
 /hair.?loss.{1,10}reversed/i
 
-/(harming|sabotaging) your.{1,10}(gut|health)/i
+/(harm(ing)?|sabotaging) your.{1,10}(gut|health)/i
 /(harvard|ucl).{1,15}(discovers|leaked|reveal|second|stretch)/i
 
 /heal.{1,15}pain/i
@@ -418,6 +424,8 @@ fruit.{1,10}worse than/i
 /hgh.{1,15}(now legal|prescription|without)/i
 
 /hidden.{1,10}prostate/i
+/hidden.{1,10}toxin in.{1,10}(popular|superfoods)/i
+
 /high a1c/i
 /high.{1,10}blood.{1,10}pressure/i
 
@@ -435,10 +443,12 @@ fruit.{1,10}worse than/i
 
 /in \d{1,2} seconds/i
 
-/instantly look younger/i
 /in \d hours?.{1,10}try this/i
 /in half.{1,10}naturally/i
 /in just \d{1,2} seconds/i
+
+/ingredient you must never/i
+/instantly look younger/i
 
 # J
 /juice lowers/i
@@ -553,6 +563,8 @@ fruit.{1,10}worse than/i
 
 # R
 /reach 120.?80/i
+/really hiding in your/i
+
 /reclaim.{1,10}perfect vision/i
 /reclaim.{1,10}your.{1,10}(strength|vitality)/i
 
@@ -581,6 +593,7 @@ fruit.{1,10}worse than/i
 
 /revives.{1,10}memory fast/i
 
+/ringing.{1,10}your ears/i
 /rock.?(hard|solid) (in just|stiffness)/i
 /routine.{1,10}no exercise/i
 
@@ -618,6 +631,7 @@ fruit.{1,10}worse than/i
 /silence(d|s)?.{1,10}(pain|ringing|tinnitus)/i
 
 /simple at.?home/i
+/simple daily habit/i
 /simple drink helps/i
 /simple habit.{1,10}(destroys|that)/i
 /simple oral flush/i
@@ -625,7 +639,7 @@ fruit.{1,10}worse than/i
 /simple trick.{1,10}uncover/i
 
 /simple.{1,10}minute stretch/i
-/simple (trick|way).{1,10}(erase|reverse)/i
+/simple.{1,10}(trick|way).{1,10}(erase|reverse)/i
 
 /skin.{1,10}(miracle|secret|transformation)/i
 
@@ -645,6 +659,7 @@ fruit.{1,10}worse than/i
 /spine.{1,10}(hack|trick)/i
 /spikes with.{1,10}drop/i
 
+/stabilize your blood/i
 /stable blood sugar/i
 /start melting/i
 
@@ -712,6 +727,7 @@ fruit.{1,10}worse than/i
 /tinnitus.{1,10}(discovery|for good|relief)/i
 
 /tip.{1,10}enhanced performance/i
+/tired of that ringing/i
 
 /transform your.{1,15}(body|health)/i
 
@@ -771,6 +787,7 @@ fruit.{1,10}worse than/i
 
 /wrinkle.?free.{1,10}skin/i
 
+/why some.{1,10}fruits/i
 /why your.{1,10}joints/i
 
 # X

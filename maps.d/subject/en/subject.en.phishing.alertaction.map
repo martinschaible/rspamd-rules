@@ -32,6 +32,9 @@
 /account safety alert/i
 /account (security|suspension) notification/i
 
+# 13.07.25 - Account authentication needs to be updated
+/アカウント認証の更新が必要です/i
+
 /action needed.{1,10}final step.{1,15}(package|parcel|shipment)/i
 /action needed.{1,10}final step.{1,15}receive/i
 /action needed.{1,10}your.{1,15}(package|parcel|shipment) awaits/i
@@ -157,6 +160,9 @@
 /notice.{1,10}(package|parcel|shipment) on hold/i
 /notification.{1,10}(action required|incomplete|updated)/i
 /notification.{1,10}account.{1,30}closure/i
+
+# 13.07.25 - Notification of billing amount confirmation
+/ご請求金額確定のご案内/i
 
 # O
 
