@@ -39,6 +39,8 @@
 /(dollar|euro?|gbp|usd|€|\$|£).{1,10}wurden (an sie|ihnen) gespendet/i
 
 # E
+/e?.?mail bezüglich meiner spende erhalten/i
+
 /erhalten als.{1,15}e?.?mail.?nutzer eine spende/i
 /erhalten.{1,10}kontaktieren sie uns.{1,10}weitere informationen/iu
 
