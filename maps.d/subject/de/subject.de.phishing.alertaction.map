@@ -101,8 +101,7 @@
 #/^bestätigen sie ihre e?.?mail adresse$/iu
 
 /bestätigen.?-.?#[a-z0-9]{4,10}/iu
-/bestätigen sie ihre.{1,10}adresse für den/iu
-/bestätigen sie ihre.{1,10}lieferdaten/iu
+/bestätigen sie ihre.{1,10}(adresse|lieferdaten|zusendung)/iu
 /bestätigen sie kurz/iu
 
 /betreff.{1,5}(achtung|wichtige information)/i
@@ -231,6 +230,8 @@
 
 /(kunde|kundin) servicemeldung/i
 
+/kurzer aufwand.{1,10}geschäftsdaten prüfen/iu
+
 # L
 /legitimations.?prozess.{1,15}erledigen/i
 
@@ -318,7 +319,7 @@
 
 /sicherheits.?(hinweis|mitteilung|warnung).{1,10}verdächtige (anmeldung|dateien)/i
 /sicherheits.?(hinweis|mitteilung|warnung).{1,10}verdächtiger/i
-/sicherheits.?(hinweis|mitteilung|warnung).{1,10}zu ihrem gerät/iu
+/sicherheits.?(hinweis|mitteilung|warnung).{1,10}zu.{1,10}(gerät|karte)/iu
 
 /(sicherheitssystem|systemmitteilung).{1,10}jetzt (aktualisieren|sofort handeln)/i
 

@@ -120,6 +120,9 @@
 # Many dots
 /\.\.\.\./i
 
+# Question mark and some dots
+/\?\.\.\./i
+
 # A subject does never start with a special character
 /^(,|\.|!|\$)/i
 
