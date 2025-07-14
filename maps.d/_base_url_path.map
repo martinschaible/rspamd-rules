@@ -5,18 +5,8 @@
 #  10 |
 # ==============================================================================
 
-# CGI and old stuff
-# ------------------------------------------------------------------------------
-/\/cgi-bin\/click\.pl\?cid=/i
-/\/cgi-bin\/de\//i
-
-/\/wp-cgi/i
-
 # Files
 # ------------------------------------------------------------------------------
-
-# Sample: s.html#/redirect.html
-/\/.html#\/[a-z0-9]{2,10}\.html/i
 
 # Long URL with a exotic TLD
 # ------------------------------------------------------------------------------
@@ -37,12 +27,8 @@
 # Sample: .com/9/www/
 /\.com\/\d\/www\//i
 
-# Sample :https://pathwright.imgix.net/https%3A%2F%2Fcdn.filestackcontent.com%2FpJB9KI23SE6
-/\.[a-z]\d{2,3}\/https%/i
-
 # Sample: .com/i?u=3Dhttps://
 /\.(com|info|us)\/i\?u=3dhttps:\/\//i
-
 /\.(com|info|us)\/1\/index\.php/i
 
 # -> I expect some false/positives
@@ -87,28 +73,9 @@
 
 /\.shop\/update/i
 
-# Sample: .com/?a=1918&amp;oc=12660&amp;c=36265&amp;m=3&amp;s1=
-
-# 10.01.25 - Disabled
-#/\.com\/\?[a-z]{1,5}=[0-9]{1,5}&amp;[a-z]{1,5}=[0-9]{1,5}&amp;[a-z]{1,5}=[0-9]{1,5}&amp;/i
-
-# Sample: .com/?a=1918&oc=19666&c=53185&m=3&s1=
-# 10.01.25 - Disabled
-#/\.com\/\?[a-z]{1,5}=[0-9]{1,5}&[a-z]{1,5}=[0-9]{1,5}&[a-z]{1,5}=[0-9]{1,5}&[a-z]{1,5}=[0-9]&[a-z]{1,5}[0-9]{1,5}=/i
-
-# Sample: https://vc.dgnc7.shop/.ll/AB/#
-/\/\.[a-z]{2,10}\/[a-z]{2,10}\/#/i
-
 # URL's with exotic TLD
 # ------------------------------------------------------------------------------
 /\.(storage|tv)\/ipfs\//i
-
-# Sample: http://serviceplushomewarranty.shop/--VNs1_uw6cAtfNCihRUyn_smrz2t8T9jPTazXqcAShi42I4uQ
-/\.\w{1,4}\/--[a-z0-9]{2,4}_/i
-
-# URL's with Host
-# ------------------------------------------------------------------------------
-/\.r2\.dev\/index\.html#/i
 
 # Path and files
 # ------------------------------------------------------------------------------
@@ -158,78 +125,3 @@
 #
 /\/track\/open\.php/i
 
-#
-#
-#
-
-# Strange ports
-# ------------------------------------------------------------------------------
-
-# https://tcp-udp-ports.com/port-7070.htm
-/\.com:7070\//i
-
-# Unsubscribe from poland
-/\.pl/unsubscribe\.php\?/i
-
-# Companies
-# ------------------------------------------------------------------------------
-/\.net/spotify\//i
-
-# Facebook
-/email_forward_notice\//i
-
-# JCB
-/\/signin\/mfa/i
-/\/lkjhg1/i
-
-# LinkedIn
-/\/linkedin_\//i
-/\/linkedinpage\//i
-
-# Ricardo
-/\/ricardo\//i
-
-# SBB
-/\/sbb\/(index|sbb)\//i
-/\chpass\//i
-
-# SwissPass
-/\/suisspass\//i
-
-# Swiss Post
-/\/postch\//i
-
-# In use: https://www.instagram.com/swisspost/
-#/\/swisspost\//i
-
-# Twint
-/\.[a-z]{2,3}/twint/i
-
-# WeTransfer
-/\/transferwe\//i
-/\/wetransfers\//i
-/\/wtrernsfers\//i
-
-/\.ru/[a-z]{2,4}/we/[a-z]{2,4}/i
-
-#
-#
-#
-
-# Unclassified
-# ------------------------------------------------------------------------------
-/\/(chinaqq|keto)/i
-/\/cloudstorage\/index\.html/i
-/\/signin\//i
-
-# Medical spam, oopsy, F/P
-#/\/ss\/c\//i
-
-# Temporary
-# ------------------------------------------------------------------------------
-# 26.08.24: Japanese Phishing
-/\/tetsuzuki\//i
-
-# 12.10.24: Japanese Phishing
-/\/cpa01x/i
-/\.co\.jp/login/i
