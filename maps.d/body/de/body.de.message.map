@@ -67,6 +67,7 @@
 # D
 /(diese|ihre).{1,10}e?.?mail(.?adresse)?.{1,10}(aktiv|gültig\b)/i
 /dieser?.{1,10}(brief|e?.?mail|nachricht).{1,10}erreicht.{1,10}(sicher|wohlbehalten)/i
+/dieser?.{1,10}(brief|e?.?mail|nachricht).{1,10}wird sie überraschen/iu
 
 # E
 /e?.?mail wurde ihnen direkt vom/i
@@ -114,6 +115,8 @@
 /sie.{1,10}diese nachricht genießen/i
 /sie.{1,10}meine nachricht überrascht/iu
 /sie.{1,10}noch dieselbe.{1,10}e?.?mail.?adresse verwenden/i
+
+/sie ihn mit bedacht lesen/i
 
 # T
 
