@@ -5,19 +5,10 @@
 #  10 | German         |
 # ==============================================================================
 
-# Temporary: Malware, Downloads
-# ------------------------------------------------------------------------------
-/sie haben.{1,10}bestelldateien/i
-
 # Answer
 # ------------------------------------------------------------------------------
 /sie sich bei mir.{1,10}alle informationen zu erhalten/i
 /weiter.?geht.{1,10}antworten sie umgehend per e?.?mail/i
-
-# Clicking, Links
-# ------------------------------------------------------------------------------
-/klicken und erkunden sie/i
-/indem Sie unten klicken/i
 
 # Contact
 # ------------------------------------------------------------------------------
@@ -25,10 +16,6 @@
 /kontaktieren sie uns noch heute über unsere.{1,10}e?.?mail.?adresse/i
 
 /direktnachricht an diese.{1,10}e?.?mail.?adresse/i
-
-# Dead or alive
-# ------------------------------------------------------------------------------
-/bist du tot oder lebendig/i
 
 # E-Mail
 # ------------------------------------------------------------------------------
