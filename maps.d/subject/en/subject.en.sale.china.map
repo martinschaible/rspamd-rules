@@ -44,6 +44,8 @@
 /aluminum die casting/i
 
 # B
+/bag supplier from/i
+
 /(best|better) (price|quality) pcba?/i
 /better (pcba?|printed.?circuit.?board).{1,10}supplier/i
 
@@ -245,6 +247,7 @@ machining.{1,10}engineering.{1,10}services?/i
 
 /standard mold(ing)?/i
 
+/supplier.{1,10}from china
 /supplier.{1,10}mold.?products/i
 /supplier.{1,10}who can serve/i
 /supply steel plates/i
