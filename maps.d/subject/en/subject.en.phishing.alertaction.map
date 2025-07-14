@@ -45,9 +45,10 @@
 /action required.{1,15}(activate|update) your/i
 /action required.{1,10}(account|improve|payment failed)/i
 /action required.{1,10}complete customs/i
+/action required.{1,10}connect your/i
 /action required.{1,10}enable 2fa/i
-/action required.{10,35}for violation/i
 
+/action required.{10,35}for violation/i
 /action required.{1,10}for your.{1,15}@/i
 /action required.{1,10}for.{1,15}@/i
 
@@ -107,7 +108,8 @@
 /(e?.?mail|mailbox).{1,10}update alert/i
 
 # F
-/final reminder.{1,10}enable.{1,20}2fa/i
+/final (notice|reminder).{1,10}confirm your/i
+/final (notice|reminder).{1,10}enable.{1,20}2fa/i
 
 # G
 
@@ -155,6 +157,8 @@
 
 # M
 /mailbox full.{1,10}action required/i
+
+/migration.{1,10}last chance/i
 
 # N
 /notice.{1,10}(package|parcel|shipment) on hold/i
