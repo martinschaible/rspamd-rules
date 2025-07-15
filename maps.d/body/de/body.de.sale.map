@@ -88,6 +88,7 @@
 /erkenne deinen seelenplan/i
 
 # F
+/(event|falt|garten)?pavillons.{1,10}jetzt sonderposten/i
 /(event|falt|garten)?pavillons.{1,10}zum aktionspreis/i
 
 # G
@@ -120,6 +121,7 @@
 # S
 /schnarchfrei.{1,10}schlafen/i
 
+/sonderposten.{1,10}nur \d{2,3} statt \d{2,3}/i
 /sonderpreisen?.{1,10}lieferung frei haus/i
 /spürbare kraft beim laufen/iu
 /sprachen.{1,10}einem klick/i

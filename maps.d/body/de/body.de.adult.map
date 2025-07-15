@@ -34,6 +34,7 @@
 /(entdecke|schaue?).{1,10}ihr.{1,10}profil/i
 
 # F
+/finde mich auf der.{1,10}(web)?site/i
 
 /frau (aus|in) deiner.{1,10}(nähe|region|umgebung) hat dein profil/iu
 /frau (aus|in) deiner.{1,10}(nähe|region|umgebung) hat dich bemerkt/iu
@@ -47,9 +48,11 @@
 
 # H
 /hier kannst du mir antworten/i
+/hier ist mein profil/i
 
 # I
-/ich liebe.{1,10}oralsex/i
+/ich füge ein foto bei/iu
+/ich liebe.{1,10}oral.?sex/i
 
 # J
 

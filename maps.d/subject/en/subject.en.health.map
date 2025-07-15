@@ -148,10 +148,10 @@
 /avoid ed\b/i
 /avoid this.{1,10}(common|for)/i
 
+/avoid.{1,10}eating this/i
 /avoid.{1,10}heart attack/i
-/avoid (these|this).{1,10}(breakfast|damaging|deadly|diabetic|foods?|fruit)/i
-/avoid (these|this).{1,10}gut/i
-/avoid (these|this).{1,10}common/i
+/avoid.{1,10}(these|this).{1,10}(breakfast|damaging|deadly|diabetic|foods?|fruit)/i
+/avoid.{1,10}(these|this).{1,10}(common|gut)/i
 
 /away your.{1,10}memory/i
 /awaken your.{1,10}power/i
