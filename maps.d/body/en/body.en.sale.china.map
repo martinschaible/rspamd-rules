@@ -44,6 +44,7 @@
 /leading.{1,10}(pcba?|printed.?circuit.?board).{1,10}factory/i
 
 # M
+/manufacturer.{1,10}china.{1,10}who are in industry/i
 
 # N
 
@@ -75,6 +76,7 @@
 
 /we.{1,10}make packing bags/i
 /we.{1,10}offer.{1,10}range of.{1,15}(detailed|highly)/i
+/we.{1,10}offer.{1,10}stop solution/i
 
 /we.{1,10}provide.{1,10}customized oem/i
 /we.{1,10}provide.{1,10}printing/i
