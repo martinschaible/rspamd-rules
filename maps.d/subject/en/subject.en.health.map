@@ -392,7 +392,8 @@ fruit.{1,10}worse than/i
 /gets? rid of.{1,10}(brain fog|cavity|pain)/i
 /gets? rid of.{1,10}unwanted/i
 
-/(gum|gut).{0,10}(cleansing|health|problem)/i
+/(gum|gut).{0,10}(cleanse|cleansing)/i
+/(gum|gut).{0,10}(health|problem|power)/i
 /goodbye.{0,10}(pain|ringing ears)/i
 
 /reveals greatest discovery/i
@@ -586,7 +587,7 @@ fruit.{1,10}worse than/i
 /removes?.{1,10}dark spots/i
 /removes?.{1,10}(lbs|pounds) every.{1,10}days?/i
 
-/restores?.{1,10}(hearing|joint|memory|perfect|teeth)/i
+/restores?.{1,10}(gut|hearing|joint|memory|perfect|teeth)/i
 
 /(reverse|reversing).{1,10}(aging in|dementia|diabetes|ed\b|memory|type 2)/i
 /(reverse|reversing).{1,10}(hair|vision).?loss/i
@@ -706,7 +707,7 @@ fruit.{1,10}worse than/i
 /this.{1,10}back.?pain fix/i
 
 /this.{1,10}before (bed|going to bed)/i
-/this.{1,10}lower.{1,10}a1c/i
+/this.{1,10}common vegetable/i
 /this.{1,10}cuts heart attack/i
 /this.{1,10}(easy|simple) stretch/i
 /this.{1,10}everyday habit/i
@@ -714,6 +715,7 @@ fruit.{1,10}worse than/i
 /this.{1,10}food kills/i
 /this.{1,10}for.{1,10}seconds/i
 /this.{1,10}kills knee/i
+/this.{1,10}lower.{1,10}a1c/i
 
 /this.{1,10}speeds up memory/i
 /this.{1,10}(simple|strange) (method|solution|trick)/i
