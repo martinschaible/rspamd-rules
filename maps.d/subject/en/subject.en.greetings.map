@@ -46,7 +46,7 @@
 /good day(\.|,)/i
 
 /^good (day|morning)$/i
-/good (day|morning):/i
+/good (day|morning)(:|,)/i
 /good day (madam|sir)/i
 
 /good day.{1,10}my.{1,10}friend/i

@@ -122,7 +122,8 @@
 /good (afternoon|day|evening|morning).{1,10}my name is/i
 
 /good (afternoon|day|evening|morning).{1,15}this might come.{1,10}surprise/i
-/good (afternoon|day|evening|morning).{1,15}please (find|see) attached/i
+/good (afternoon|day|evening|morning).{1,15}please.{1,10}(find|see) attached/i
+/good (afternoon|day|evening|morning).{1,15}please.{1,10}i have/i
 /good (afternoon|day|evening|morning).{1,15}this message is/i
 /good (afternoon|day|evening|morning).{1,10}to you.{1,10}my name is/i
 /good (afternoon|day|evening|morning).{1,10}trust this message/i
