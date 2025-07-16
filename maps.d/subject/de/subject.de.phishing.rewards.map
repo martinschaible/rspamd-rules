@@ -118,6 +118,9 @@
 
 # D
 /\.de (germany|deutschland)/i
+
+/danke für ihr feedback.{1,10}jetzt/iu
+
 /dein preis ist auf dem weg/i
 /deine belohnung abholen/i
 
@@ -246,6 +249,8 @@
 /jetzt.{1,10}ist ihre prämie verfügbar/iu
 /jetzt.{1,10}(lieferinformationen|versanddaten|versanddetails) bestätigen/iu
 /jetzt.{1,10}zustellung sichern/i
+
+/jetzt.{1,15}prämie einlösen/iu
 
 # K
 /kostenlos(es)?.{1,25}gewinnen/i
