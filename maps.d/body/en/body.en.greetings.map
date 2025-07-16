@@ -180,6 +180,7 @@
 /(hello|hi).{1,5}sir.{1,10}i am dr\./i
 
 /hi \[first.?name\]/i
+/hi user.{1,10}you have requested/i
 
 /hi\b.?sir/i
 /hi there.{1,10}i hope this.{1,10}message/i

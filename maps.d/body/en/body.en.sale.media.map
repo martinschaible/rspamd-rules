@@ -17,6 +17,7 @@
 # ==============================================================================
 
 # A
+/attendee list with.{1,10}exclusive fee/i
 
 # B
 
@@ -45,7 +46,10 @@
 # K
 
 # L
+/list is available.{1,15}your promotional/i
+/list includes.{1,10}contact information/i
 /list comes with.{1,10}unrestricted.{1,10}rights/i
+
 # M
 
 # N
@@ -79,5 +83,7 @@
 # Y
 /you be interested in.{1,10}data lists?/i
 /you looking.{1,15}e?.?mail.?marketing/i
+
+/you want.{1,10}receive.{1,10}attendee list/i
 
 # Z
