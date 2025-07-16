@@ -21,6 +21,7 @@
 # B
 
 # C
+/china co.{1,10}ltd/i
 
 # D
 /distributor.{1,10}specializing in all kinds of/i
@@ -43,6 +44,8 @@
 # L
 /leading.{1,10}(pcba?|printed.?circuit.?board).{1,10}factory/i
 
+/(limited|ltd).{1,10}we are major/i
+
 # M
 /manufacturer.{1,10}china.{1,10}who are in industry/i
 
@@ -60,6 +63,8 @@
 
 # T
 /trade.{1,10}industry co.{1,5}ltd/i
+
+/top.{1,10}pcb.{1,10}manufacturer of/i
 
 # U
 
