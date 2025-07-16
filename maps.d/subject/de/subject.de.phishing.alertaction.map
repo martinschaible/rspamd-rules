@@ -244,7 +244,7 @@
 /letzte erinnerung.{1,10}aktualisierung zu (ihrem|ihrer)/i
 
 /letzte erinnerung.{1,20}ausstehenden lieferung/i
-/letzte erinnerung.{1,20}ihr.{1,15}speicher/i
+/letzte (aufforderung|erinnerung).{1,20}ihr(es)?.{1,15}(konto|speicher)/i
 /letzte erinnerung.{1,10}ihre.{1,10}rechnung bei.{1,15}ist noch offen/i
 
 /letzte erinnerung.{1,20}prämie/iu

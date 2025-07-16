@@ -19,6 +19,8 @@
 # A
 
 # B
+/beantragen sie ein(en)?.{1,10}(dringend)?.{1,10}(darlehen|kredite?)/i
+
 /(benötigen|brauchen) sie.{1,15}ein darlehen/iu
 /(benötigen|brauchen) sie.{1,15}einen.{1,15}kredit/i
 /(benötigen|brauchen) sie.{1,15}zusätzliches geld/iu
