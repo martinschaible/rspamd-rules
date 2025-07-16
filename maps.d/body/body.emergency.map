@@ -39,7 +39,7 @@
 #/[\u4e00-\u9fff]{30,}/u
 
 # PCRE notation:
-/\x{4e00}-\x{9fff}{30,}/u
+#/\x{4e00}-\x{9fff}{30,}/u
 
 
 # Test Japanes Characters
@@ -49,7 +49,7 @@
 
 #/[\u3040-\u30ff\u4e00-\u9fff]{30,}/u
 # PCRE notation:
-/\x{3040}-\x{30ff}\x{4e00}-\x{9fff}{30,}/u
+#/\x{3040}-\x{30ff}\x{4e00}-\x{9fff}{30,}/u
 
 #
 #
