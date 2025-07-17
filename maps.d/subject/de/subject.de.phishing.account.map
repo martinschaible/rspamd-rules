@@ -106,7 +106,7 @@
 
 /konto.{1,10}(abgelaufen|eingeschränkt)/iu
 /konto.{0,15}(aktualisierung|update|überprüfung) erforderlich/iu
-
+/konto.{1,10}benötigt ein sicherheitsupdate/iu
 /konto.{1,10}eingeschränkt.{1,10}id/i
 
 /konto.{1,10}ist betroffen.{1,10}vertrauliche nachricht/i

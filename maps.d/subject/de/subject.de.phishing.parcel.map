@@ -66,8 +66,6 @@
 # D
 /dhl.{1,10}zahlungsaufforderung/i
 
-/die zahlung abgeschlossen ist/i
-
 /dringend.{1,10}lieferung nicht möglich/iu
 /dringendes paket wird geliefert/i
 
@@ -137,9 +135,9 @@
 
 /(lieferung|versand).{1,10}jetzt bestätigen/i
 
-/(lieferung|versand|zustellung).{1,10}(ausstehende|unbezahlte).{1,10}(versandkosten|zollgebühren)/iu
-/(lieferung|versand|zustellung).{1,10}ist angehalten/i
-/(lieferung|versand|zustellung).{1,10}zahlung erforderlich/i
+/(lieferung|paket|sendung|versand|zustellung).{1,10}(ausstehende|unbezahlte).{1,10}(versandkosten|zollgebühren)/iu
+/(lieferung|paket|sendung|versand|zustellung).{1,10}ist angehalten/i
+/(lieferung|paket|sendung|versand|zustellung).{1,10}zahlung.{1,10}(ausstehend|erforderlich)/i
 
 #/live verfolgen.{1,10}(paket|sendung)/i
 
@@ -185,7 +183,6 @@
 /(paket|sendung).{1,10}bestätigen sie/iu
 /(paket|sendung).{1,10}wartet auf/i
 /(paket|sendung).{1,10}wartet.{1,10}holen sie es.{1,10}ab/i
-/(paket|sendung).{1,10}zahlung erforderlich/i
 
 /paketzustellung.{1,10}bestätigung erforderlich/i
 
@@ -260,6 +257,8 @@
 # Y
 
 # Z
+/zahlung abgeschlossen ist/i
+
 /zahlung.{1,15}(paket|sendung).{1,10}(erforderlich|steht aus)/i
 /zahlung.{1,10}(ausstehend|erforderlich).{1,10}für.{1,10}(paket|zustellung)/iu
 
