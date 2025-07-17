@@ -57,6 +57,8 @@
 /hat ihnen.{1,20}(dollar|euro?|gbp|usd|€|\$|£).{1,10}gespendet/i
 /hat ihnen.{1,20}millionen.{1,10}gespendet/i
 
+/heute wurden ihnen.{1,10}millionen/i
+
 # I
 /ich beschlossen.{1,10}eine.{1,10}spende an jemanden/i
 
@@ -67,8 +69,6 @@
 /ihre?.{1,10}e?.?mail.?(adresse|konto)?.{0,25}wurde.{1,15}für.{1,15}(investitionshilfe|spende|wohltätigkeitsspende)/iu
 /ihre?.{1,10}e?.?mail.?(adresse|konto)?.{1,15}wurde ausgewählt.{1,10}um einen zuschuss/iu
 /ihre?.{1,10}e?.?mail.?(adresse|konto)?.{1,15}wurde per zufallsprinzip/i
-
-/spenden wir.{1,15}ihre?.{1,10}e?.?mail.?(adresse|konto)/i
 
 /ihnen diesen betrag spenden/i
 /ihnen gerade eine.{1,10}spende in höhe von/iu
@@ -112,6 +112,8 @@
 
 /(spende|zuschuss) zugesprochen.{1,15}weitere informationen/iu
 /(spende|zuschuss) zu erhalten.{1,10}kontaktieren sie/i
+
+/spenden wir.{1,15}ihre?.{1,10}e?.?mail.?(adresse|konto)/i
 
 # T
 

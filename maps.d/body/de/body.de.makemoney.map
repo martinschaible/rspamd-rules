@@ -32,8 +32,10 @@
 # F
 
 # G
+/geheime.{1,15}handelssoftware/i
 
 # H
+/hier geht es zur software/i
 
 # I
 /ihr depositum ist sicher/i
@@ -61,6 +63,11 @@
 
 # S
 /seien sie teil dieser revolution/i
+
+/sie damit mindestens.{1,10}\d{3,5}.{1,5}euro pro/i
+
+/streng geheime strategie/i
+
 /system.{1,10}das reichtum verspricht/i
 
 # T
@@ -69,7 +76,8 @@
 /unserem revolutionären system/iu
 
 # V
-/verdienen mit diesem.{1,10}schlupfloch/iu
+/verdienen.{1,10}mit diesem.{1,10}schlupfloch/iu
+/verdienen.{1,10}sie bis zu.{1,10}\d{3,5}.{1,5}euro pro/i
 
 # W
 

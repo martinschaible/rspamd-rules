@@ -34,6 +34,7 @@
 /(hack|ritual|secret|solution|trick).{1,10}actually works/i
 /(hack|ritual|secret|solution|trick).{1,10}changes everything/i
 /(hack|ritual|secret|solution|trick).{1,10}(extends|reverse|shocks)/i
+/(hack|ritual|secret|solution|trick).{1,10}is saving/i
 /(hack|ritual|secret|solution|trick).{1,10}that could (change|unlock)/i
 /(hack|ritual|secret|solution|trick).{1,10}to (cure|ease|boost)/i
 
@@ -68,6 +69,7 @@
 /(fat|weight).?loss.{1,10}(remedies|remedy)/i
 /(fat|weight).?burning.{1,15}(exposed|fruit|morning|routine)/i
 
+/(fat|weight).{1,10}gain.{1,10}fatigue/i
 /(fat|weight).{1,10}success proven/i
 /(fat|weight).{1,10}with this.{1,10}hack/i
 
@@ -377,10 +379,11 @@
 /forget.{1,10}dieting/i
 
 /formula restored by/i
-/fruit.{1,10}improving memory/i
-/fruit.{1,10}(for brain|is safe)/i
-/fruit.{1,10}that (fights|may|weakens)/i
-fruit.{1,10}worse than/i
+/fruits?.{1,10}improving memory/i
+/fruits?.{1,10}(for brain|is safe)/i
+/fruits?.{1,10}that (fights|may|weakens)/i
+/fruits?.{1,10}to avoid/i
+/fruits?.{1,10}worse than/i
 
 /fungus.{0,10}(cure|fix|vanish)/i
 
