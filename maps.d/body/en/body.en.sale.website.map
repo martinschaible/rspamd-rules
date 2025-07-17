@@ -92,10 +92,11 @@
 
 /web.{1,10}mobile.?app.{1,10}development/i
 
-/websites?.{1,10}development.{1,10}mobile app/i
-/websites?.{1,10}for your business/i
-/websites?.{1,10}message us/i
-/websites?.{1,10}want to improve/i
+/(homepage|web.?site).{1,10}development.{1,10}mobile app/i
+/(homepage|web.?site).{1,10}for your business/i
+/(homepage|web.?site).{1,10}message us/i
+/(homepage|web.?site).{1,10}(re)design.?services?/i
+/(homepage|web.?site).{1,10}want to improve/i
 
 # X
 
