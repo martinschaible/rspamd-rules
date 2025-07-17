@@ -50,7 +50,9 @@
 /better (pcba?|printed.?circuit.?board).{1,10}supplier/i
 
 # C
-/capacitor.{1,10}(resistor|special) offer/i
+/capacitors?.{1,10}capacitors?/i
+/capacitors?.{1,10}(resistor|special) offer/i
+
 /capacity.{1,10}fuses from/i
 
 /chicken products.{1,10}sale/i
