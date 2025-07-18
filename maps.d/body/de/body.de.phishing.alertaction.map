@@ -24,6 +24,8 @@
 # B
 /bestätigen?.{1,10}den aktuellen status/i
 /bestätigen.{1,10}sie.{1,10}(meine|ihre).{1,10}telefon.?nummer/iu
+
+/bestätigung.{1,10}aktualisierung ihrer daten/iu
 /bestätigung.{1,10}ihrer identität.{1,10}erforderlich/iu
 
 /betreff.{1,5}(achtung|wichtige information)/i
@@ -72,6 +74,8 @@
 
 /(sicherheits|system).?aktualisierung.{1,10}jetzt handeln/i
 /sicherheitsrichtlinien.{1,15}jetzt bestätigen/iu
+
+/sofortige bestätigung.{1,10}neue/iu
 
 # T
 /telefonnummer.{1,10}nicht aktiviert haben.{1,10}damit sie/i

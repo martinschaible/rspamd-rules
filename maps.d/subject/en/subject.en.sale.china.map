@@ -80,6 +80,8 @@
 /dependable.{1,10}(pcba?|printed.?circuit.?board).{1,10}partner/i
 /discuss.{1,10}(pcba?|printed.?circuit.?board).{1,10}products/i
 
+/distribution.{1,15}manufactory/i
+
 /^do you buy/i
 
 # E
@@ -152,7 +154,7 @@
 /low(est)? prices?.{1,10}plastic.?mold/i
 
 # M
-machining.{1,10}engineering.{1,10}services?/i
+/machining.{1,10}engineering.{1,10}services?/i
 /machined parts vendor/i
 /machinery parts tailor/i
 
