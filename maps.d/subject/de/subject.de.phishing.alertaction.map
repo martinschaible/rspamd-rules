@@ -103,7 +103,9 @@
 #/^bestätigen sie ihre e?.?mail adresse$/iu
 
 /bestätigen.?-.?#[a-z0-9]{4,10}/iu
-/bestätigen sie ihre.{1,10}(adresse|lieferdaten|zusendung)/iu
+/bestätigen sie ihre.{1,5}adresse/i
+/bestätigen sie ihre.{1,10}(lieferdaten|zusendung)/iu
+
 /bestätigen sie kurz/iu
 
 /betreff.{1,5}(achtung|wichtige information)/i

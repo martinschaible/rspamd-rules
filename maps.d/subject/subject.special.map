@@ -166,7 +166,7 @@
 /\(action required.?\)/i
 
 # Sample: (Germany) |
-/\([a-z]{2,10}\) \|/i
+#/\([a-z]{2,10}\) \|/i
 
 # Sample: *spende*
 /\*[a-z]{2,15}\*/i
