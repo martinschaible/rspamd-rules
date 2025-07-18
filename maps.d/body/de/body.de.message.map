@@ -12,6 +12,7 @@
 # Attention, Important, Urgent
 # ------------------------------------------------------------------------------
 /achtung.{1,10}(eilmeldung|empfänger)/i
+/achtung.{1,10}e?.?mail.?eigentümer/iu
 /achtung.{1,10}inhaber dieser.{1,10}e.?mail.?adresse/iu
 /achtung.{1,10}lieber benutzer/i
 /achtung.{1,10}offizielle mitteilung/i
