@@ -19,6 +19,7 @@
 /\d{2,4}.?euro/i
 
 # A
+/abrechnung/i
 
 # B
 /(bank|goldene).{0,10}kreditkarte/i
@@ -85,7 +86,7 @@ _[a-z].{0,15}box/i
 # K
 /karte.?(™|®|©)$/i
 
-/konto.?informationsdienst/i
+/konto.?(informationsdienst|updates?)/i
 
 /krankenkassen?.{0,10}team/i
 /kreditkarten?.{0,10}banking/i
