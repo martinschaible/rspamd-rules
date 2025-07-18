@@ -532,7 +532,7 @@
 
 /health.{0,10}wire/i
 
-/heart.{0,10}(attack|cells|danger|disease|health|helper|problems?|protection|risk)/i
+/heart.{0,10}(attack|cells|check|danger|disease|health|helper|problems?|protection|risk)/i
 
 /hemorrhoids?.{0,10}pain/i
 
@@ -790,7 +790,7 @@
 
 /soft.{0,10}mineral/i
 /sore.{0,10}muscles?/i
-/soup.{0,10}(hack|trick)/i
+/soup.{0,10}(hack|solution|trick)/i
 
 /special.{0,10}salt/i
 /spiky.{0,10}fruit/i

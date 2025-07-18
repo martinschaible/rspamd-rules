@@ -421,7 +421,7 @@
 
 /herb.{1,10}(blocks?|discovery)/i
 
-/heart attack.{1,10}(risk by|warning)/i
+/heart attack.{1,10}(risk by|test|warning)/i
 /heart.{1,10}fix/i
 
 /helps fight.{1,10}diabetes/i
@@ -444,8 +444,8 @@
 /how men.{1,10}improving/i
 
 # I
-/improve memory (instantly|in.{1,15}seconds)/i
-/improve.{1,15}(hearing|urination|vision)/i
+/improved? memory (instantly|in.{1,15}seconds|memory)/i
+/improved?.{1,15}(hearing|urination|vision)/i
 
 /in \d{1,2} seconds/i
 
@@ -645,7 +645,7 @@
 /simple spine/i
 /simple trick.{1,10}uncover/i
 
-/simple.{1,10}minute stretch/i
+/simple.{1,10}(diy|minute) stretch/i
 /simple.{1,10}(trick|way).{1,10}(erase|reverse)/i
 
 /skin.{1,10}(miracle|secret|transformation)/i

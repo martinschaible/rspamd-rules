@@ -24,7 +24,9 @@
 #         "_ Congrats _"
 #         "- EMURA -"
 #         "* FedEx *"
-/[\[\|\-\*_!#][a-z0-9\s]{3,15}[\]\|\-\*_!#]$/i
+
+# "[" and "]" removed, because they are used
+/[\|\-\*_!#][a-z0-9\s]{3,15}[\|\-\*_!#]$/i
 
 #
 /\d{2,3}.?(dollars?|euro?|usd|€|\$|£)/i
