@@ -14,10 +14,10 @@
 # ==============================================================================
 
 # A
-/about your{1,10}(home.?page|web.?site)/i
+/about your.{1,10}(home.?page|web.?site)/i
 
 # B
-/build and redesign/i
+/build.{1,10}re.?design/i
 
 # C
 /create.{1,10}landing.?page/i
@@ -120,6 +120,8 @@
 
 # W
 /want.{1,10}fresh.{1,10}(homepage|web.?site)/i
+
+/we are.{1,10}(developer|web.?design)/i
 
 /web.{1,10}(design(ing)?|development).{1,15}(offer|proposal|service)/i
 

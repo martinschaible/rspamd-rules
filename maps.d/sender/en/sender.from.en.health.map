@@ -573,6 +573,7 @@
 
 # K
 /kilo{0,10}day/i
+/killing.{0,10}(pain|protein)/i
 
 /knee.{0,10}(mistake|reset|support)/i
 
@@ -658,7 +659,7 @@
 /nature.{0,10}(cure|opioids?|tea)/i
 
 /neck.{0,10}skin/i
-/nerves?.{0,10}(comfort|damage|health|pain|recovery|repair|revival|support)/i
+/nerves?.{0,10}(comfort|damage|health|killing|pain|recovery|repair|revival|support)/i
 
 /never.{0,10}(eat|forget)/i
 /new.{0,10}(energy|hair|research)/i
