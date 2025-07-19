@@ -324,14 +324,14 @@
 /sichern Sie sich.{1,10}leiter/i
 
 /sie bei uns sparen können/iu
-/sie ihr.{1,10}(auto|fahrzeug|wagen|lkw|pkw) verkaufen/i
+/sie ihr.{1,10}(auto|fahrzeug|wagen|lkw|pkw).{1,10}verkaufen/i
 /sie ihren online.?ruf/i
 /sie suchen arbeitskräfte/iu
 
 /smarte?.{1,15}(beleuchtung|sohle)/i
 
 # Sample:  sparen: 249 € statt 599
-/sparen.{1,10}\d{2,3}.{1,5}\(an)?statt.{1,5}\d{2,3}/i
+/sparen.{1,10}\d{2,3}.{1,5}(an)?statt.{1,5}\d{2,3}/i
 
 /sprechen.{1,10}(in über|problemlos).{1,10}sprachen/i
 
