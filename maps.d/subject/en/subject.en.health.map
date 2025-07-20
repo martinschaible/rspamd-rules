@@ -58,6 +58,7 @@
 /(this|unlock).{1,10}(natural|tropical|unique).{1,10}(formula|hack|remedy|trick)/i
 
 /try this \d.sec/i
+/try this.{1,10}stretch/i
 
 /unusual greek/i
 
@@ -152,6 +153,7 @@
 
 /avoid.{1,10}eating this/i
 /avoid.{1,10}heart attack/i
+/avoid.{1,10}here.{1,10}why/i
 /avoid.{1,10}(these|this).{1,10}(breakfast|damaging|deadly|diabetic|foods?|fruit)/i
 /avoid.{1,10}(these|this).{1,10}(common|gut)/i
 
@@ -384,7 +386,7 @@
 /fruits?.{1,10}improving memory/i
 /fruits?.{1,10}(for brain|is safe)/i
 /fruits?.{1,10}that (fights|may|weakens)/i
-/fruits?.{1,10}to avoid/i
+/fruits?.{1,10}(should|to) avoid/i
 /fruits?.{1,10}worse than/i
 
 /fungus.{0,10}(cure|fix|vanish)/i

@@ -14,7 +14,7 @@
 # ==============================================================================
 
 # A
-/about your.{1,10}(home.?page|web.?site)/i
+/(about|boost) your.{1,10}(home.?page|web.?site)/i
 
 # B
 /build.{1,10}re.?design/i
@@ -139,6 +139,6 @@
 /your.{1,10}(web)?.?site!!/i
 
 /your.{1,10}(web)?.?site deserves/i
-/your.{1,10}(web)?.?site.{1,15}performance/i
+/your.{1,10}(web)?.?site.{1,15}(performance|promotion)/i
 
 # Z
