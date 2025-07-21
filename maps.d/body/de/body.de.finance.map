@@ -54,6 +54,8 @@
 /(ich|wir) (biete|gewähre|vergebe)n?.{1,15}(darlehensbeträge|finanzlösungen|kreditlösungen)/iu
 /(ich|wir) (biete|gewähre|vergebe)n?.{1,15}investitionsfinanzierungen/i
 
+/ihnen einen kredit anbieten/i
+
 /(geschäftskredit|immobilienkredit).{1,10}autokredit/i
 
 /informationen zum benötigten betrag/iu
@@ -74,6 +76,7 @@
 # O
 
 # P
+/persönlichen.{1,10}kommerziellen.{1,15}(darlehen|kredit)/i
 /privatkredit.{1,10}(geschäftskredit|immobilienkredit)/iu
 
 # Q
@@ -89,6 +92,7 @@
 
 # U
 /unsere.{1,10}(darlehen|kredite) bieten flexible/i
+/unsere.{1,10}(darlehen|kredite) sind/i
 
 # V
 

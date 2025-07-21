@@ -59,6 +59,28 @@
 
 /metro.{1,5}rider/i
 
+# Pavillon
+# ------------------------------------------------------------------------------
+/(event|falt|garten)?pavillon.{1,15}(blau|grau|schwarz)/i
+/(event|falt|garten)?pavillon.{1,15}für (alle|\d{3})/i
+/(event|falt|garten)?pavillon.{1,15}für nur/i
+
+/(event|falt|garten)?pavillon.{1,10}\d.?(x|×).?\d/i
+/(event|falt|garten)?pavillon.{1,20}(gastro|events?|garten)/i
+/(event|falt|garten)?pavillon.{1,20}(aufbaubar|gesucht|ideal|jetzt|leicht|lieferbar|mit)/i
+/(event|falt|garten)?pavillon.{1,20}(reduziert|regenfest)/i
+/(event|falt|garten)?pavillon.{1,15}(schnell|seitenteile|sofort|sonderpreis)/i
+/(event|falt|garten)?pavillon.{1,15}(vorteilspreis|wetterfest)/i
+
+/(event|falt|garten)?pavillon.{1,10}(halben|kleinen) preis/i
+
+\d.?x.?\d.{1,10}(event|falt|garten)?pavillon/i
+/bestseller.{1,10}(event|falt|garten)?pavillon/i
+/(profi|reduziert|sonderpreis).{1,10}(event|falt|garten)?pavillon/i
+/wasserdichte?.{1,10}(event|falt|garten)?pavillon/i
+
+/wasserdicht(er)?.{1,10}eventschutz/i
+
 # Pen
 # ------------------------------------------------------------------------------
 /(werbe)?(kugelschreiber|kuli).{1,15}(ab|für) (\d|nur)/i
@@ -104,8 +126,6 @@
 #
 /4k.{0,10}kamera/i
 
-\d.?x.?\d.{1,10}(event|falt|garten)?pavillon/i
-
 # A
 /akku.?(kettensäge|kraft)/iu
 /akku.{1,10}ausrüstung/i
@@ -134,7 +154,6 @@
 /beheizten? westen?/i
 
 /bestseller.{1,10}akku.?(geräte|produkte|set)/i
-/bestseller.{1,10}(falt)?pavillon/i
 
 # Sample: Bildschirm. Statt 169,-nur 49,90
 /bildschirm.{1,10}statt \d{2,3}.{1,5}nur.{1,5}\d{2}/i
@@ -169,17 +188,6 @@
 # F
 /fachkräfte.{1,10}für ihre.{1,15}projekte/iu
 
-/(event|falt|garten)?pavillon.{1,15}(blau|grau|schwarz)/i
-/(event|falt|garten)?pavillon.{1,15}für (alle|\d{3})/i
-/(event|falt|garten)?pavillon.{1,15}für nur/i
-
-/(event|falt|garten)?pavillon.{1,10}\d.?x.?\d/i
-/(event|falt|garten)?pavillon.{1,15}(aufbaubar|events?|ideal|jetzt|leicht|lieferbar|mit)/i
-/(event|falt|garten)?pavillon.{1,15}reduziert/i
-/(event|falt|garten)?pavillon.{1,15}(schnell|seitenteile|sofort)/i
-/(event|falt|garten)?pavillon.{1,15}(sonderpreis|vorteilspreis|wetterfest)/i
-
-/(event|falt|garten)?pavillon.{1,10}(halben|kleinen) preis/i
 /feigenbäume.{1,10}versandkostenfrei/iu
 
 /fernsehen muss nicht teuer sein/i
@@ -295,8 +303,6 @@
 
 /premium.?tv muss nicht/i
 
-/profi.?falt.?pavillon/i
-
 # Q
 /qualifizierte (arbeitskräfte|fachkräfte) (aus|sofort)/iu
 
@@ -338,15 +344,12 @@
 /statt \d{2,3}(,-)?.{1,10}(jetzt|nur).{1,10}\d{2,3}(,-)?/i
 /statt \d{2,3}.{1,10}(jetzt|nur).{1,10}\d{2,3}.{1,10}sofort einsatzbereit/i
 
-/reduziert.{1,10}(falt)?pavillon/i
-
 /suchen?.{1,10}(anlagen|gebrauchtmaschinen)/i
 /suchen?.{1,10}qualifizierten handwerkern/i
 
 /sofort verfügbare mitarbeiter/iu
 
 /sommerhitze.{1,10}klimaanlage/i
-/sonderpreis.{1,10}(event|falt|garten)?pavillon/i
 
 /sprachen sofort/i
 

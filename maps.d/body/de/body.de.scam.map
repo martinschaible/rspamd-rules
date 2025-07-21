@@ -26,7 +26,7 @@
 /(photo.?voltaik|pv|solar).?anlage.{1,10}lässt sich heute innerhalb/iu
 
 /photo.?voltaik.{1,10}ihre entscheidungshilfe/i
-/photo.?voltaik.{1,10}lohnt sich mehr denn je/i
+/photo.?voltaik.{1,10}lohnt sich.{1,10}(auch für sie|mehr denn je)/iu
 
 /preise für.{1,10}(photo.?voltaik|pv|solar).?anlage.{1,10}sind derzeit/iu
 
@@ -35,6 +35,8 @@
 /sie von attraktiven förderprogrammen/iu
 /sinkende preise.{1,10}hohe förderung/iu
 /vergleichen.{1,10}förderungen sichern/iu
+
+/für sie auf unserer website zusammengestellt/iu
 
 #
 /reduzieren sie ihre stromkosten um/i

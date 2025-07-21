@@ -288,8 +288,8 @@
 
 /gls.?(™|®|©)$/i
 
-/gls.{0,10}sendung/i
-/gls.{0,10}(infozentrum|kundendienst|lieferdienst|online|support|team)/i
+/gls.{0,10}(deutschland|schweiz)/i
+/gls.{0,10}(infozentrum|kundendienst|lieferdienst|online|sendung|support|team)/i
 
 /google.?drive/i
 /google.?(claim|inc|llc|team)/i
