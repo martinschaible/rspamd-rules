@@ -298,7 +298,8 @@
 /reaktivieren sie ihren zugang/iu
 
 # S
-/schließen sie ihre.{1,10}identifizierung/iu
+/(schliessen|schließen).{1,10}sie ihre.{1,10}identifizierung/iu
+/(schliessen|schließen).{1,10}sie jetzt ihren authentifizierungsprozess ab/iu
 
 /schnelle.{1,10}aktion erforderlich/i
 /schützen sie ihr.{1,15}konto.{1,10}verifizierung notwendig/i
@@ -385,6 +386,8 @@
 # W
 /warnung.{1,10}ihre digitale/i
 /warnung.{1,10}neuer anmeldeversuch auf ihrem/i
+
+/wichtig.{1,10}sicherheit!/i
 
 /wichtige?.{1,10}aktualisieren sie/i
 /wichtige?.{1,10}änderungen.{1,10}ihre umgehende/i

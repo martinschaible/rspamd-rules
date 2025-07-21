@@ -82,7 +82,8 @@
 /(designer|discount|rolex|top).?watch(es)?/i
 
 /defense.{0,10}brief/i
-/dogs?.{0,5}(armour|behaviour|food|trainers)/i
+/dogs?.{0,5}(armour|behaviour|trainers)/i
+/^dogs?.{0,5}food/i
 
 /don.?t miss out/i
 /door.{0,10}(camera|ringer|training)/i
