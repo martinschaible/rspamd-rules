@@ -141,6 +141,8 @@
 
 /updated.?price/i
 
+/valued.?partner/i
+
 # Sample: Advice.PDF).html
 /\)\.html/i
 
@@ -160,6 +162,7 @@
 /\.r16"?$/i
 /\.r18"?$/i
 
+/\.shtml$/i
 /\.uue"?$/i
 
 /\.xlsx?_/i
