@@ -21,6 +21,7 @@
 # C
 /\.com reminder/i
 
+/confirm your tax residency/i
 /credit contact missing/i
 
 # D
@@ -78,9 +79,13 @@
 
 # T
 /tax information required/i
+/tax info before the/i
+/tax residency status today/i
 
 # U
 /unrecognized.{1,10}login attempt/i
+
+/update.{1,10}tax info before/i
 
 # V
 

@@ -201,9 +201,7 @@
 
 /o.{0,3}p.{0,3}r.{0,3}a.{0,3}h/i
 
-/(k2|man|slimm).{0,10}gummies/i
-
-/diet.{0,10}capsule/i
+/(diet|k2|man|slimm).{0,10}(capsule|gummies)/i
 
 #
 /fit.{0,10}(focus|solutions)?/i
