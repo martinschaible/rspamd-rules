@@ -87,6 +87,8 @@
 
 /amazon.{1,15}important.{1,10}(notice|notification)/i
 
+/attempt.{1,10}verification needed/i
+
 /(attention|reminder).{1,10}de.?activation.{1,10}account/i
 /(attention|reminder).{1,10}prevent account hold/i
 
