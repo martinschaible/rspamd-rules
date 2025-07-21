@@ -12,10 +12,6 @@
 # Topics
 # ==============================================================================
 
-# Chair
-# ------------------------------------------------------------------------------
-/(büro|dreh).?(stuhl|stühle).{1,15}mit massagefunktion/i
-
 # Buying your car
 # ------------------------------------------------------------------------------
 /(ich|wir) kaufen?.{1,10}(autos|fahrzeuge|pkw).{1,10}(aller art|guten tag)/i
@@ -23,6 +19,20 @@
 
 /(ich|wir) kaufen?.{1,10}gebrauchte.{1,15}(autos|fahrzeuge|pkw)/i
 /(ich|wir) kaufen?.{1,10}(autos|fahrzeuge|pkw) mit unfallschäden/ui
+
+# Chair
+# ------------------------------------------------------------------------------
+/(büro|dreh).?(stuhl|stühle).{1,15}mit massagefunktion/i
+
+# E-Bikes
+# ------------------------------------------------------------------------------
+/(neues|premium|unser).{1,15}(e.?bike|elektro.?moped)/i
+
+/(e.?bike|elektro.?moped).{1,10}fabrik/i
+/(e.?bike|elektro.?moped).{1,10}vorzustellen/i
+
+/(moped style|retro.?cruiser).{1,10}e.?bike/i
+/moped.?e.?bike/i
 
 # Hiring people
 # ------------------------------------------------------------------------------
