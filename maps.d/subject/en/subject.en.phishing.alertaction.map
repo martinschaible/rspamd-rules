@@ -54,6 +54,7 @@
 
 /action required.{1,10}identity verification/i
 /action required.{1,10}important verification/i
+/action required.{1,15}(incoming|pending).{1,10}e?.?mails?/i
 
 /action required.{1,10}messages to/i
 /action required.{1,30}new notifications/i
@@ -181,6 +182,8 @@
 /pending failure notice/i
 
 /please validate now/i
+
+/policy update.{1,10}your review is required/i
 
 # Q
 

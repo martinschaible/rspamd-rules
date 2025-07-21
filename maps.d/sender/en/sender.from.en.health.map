@@ -260,7 +260,7 @@
 
 /african.{0,10}ritual/i
 
-/age.{0,10}freezing/i
+/age.{0,10}(freezing|reversal)/i
 /aged.{0,10}spot/i
 /ageless.{0,10}(beauty|movement|skin|treat)/i
 /aging.{0,10}reverse
@@ -562,14 +562,15 @@
 /improved.{0,10}brain/i
 
 /instant.{0,10}(lung|relief)/i
-/intimate.{0,10}life/i
+/(intimacy|intimate).{0,10}(alignment|life)/i
+
 /insuline?/i
 /irritating.{0,10}noise/i
 
 /italian.{0,10}spice/i
 
 # J
-/japanese.{0,15}(experts?|secret|urology)/i
+/japanese.{0,15}(experts?|tonic|secret|urology)/i
 
 # K
 /kilo{0,10}day/i
@@ -777,7 +778,7 @@
 /sight.{0,10}care/i
 /silence.{0,10}(buzz(ing)?|pain)/i
 
-/sleep.{0,10}(discovery|hack|mistake|position|reset|slim)/i
+/sleep.{0,10}(age|discovery|hack|mistake|position|reset|slim)/i
 /slim.{0,10}diet/i
 
 /(slim|skinny).{0,10}waist/i

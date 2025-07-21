@@ -162,6 +162,8 @@
 /my name is.{5,25}represent(ing)?/i
 /my name is.{5,25}senior business/i
 
+/my name is.{5,25}writing to you because/i
+
 # With country
 /my name is.{5,35}from.{5,35}(in)?.{1,10}(china|india|swedish|ukraine)/i
 /my name is.{5,35}(china|india|swedish|ukraine)/i
