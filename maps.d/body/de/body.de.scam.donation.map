@@ -110,8 +110,9 @@
 /sie wurden für (die|eine).{1,15}spende/i
 /sie wurden von unserer stiftung/i
 
-/(spende|zuschuss) zugesprochen.{1,15}weitere informationen/iu
-/(spende|zuschuss) zu erhalten.{1,10}kontaktieren sie/i
+/(spende|zuschuss).{1,10}wurde bearbeitet und kann an sie/i
+/(spende|zuschuss).{1,10}zugesprochen.{1,15}weitere informationen/iu
+/(spende|zuschuss).{1,10}zu erhalten.{1,10}kontaktieren sie/i
 
 /spenden.{1,10}sie wurden als.{1,15}empfänger/iu
 /spenden wir.{1,15}ihre?.{1,10}e?.?mail.?(adresse|konto)/i
