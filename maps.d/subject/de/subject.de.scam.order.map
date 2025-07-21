@@ -52,6 +52,7 @@
 # R
 /request.{1,10}machine.{1,10}quotation/i
 /request.{1,10}distibutorship/i
+/request.{1,10}quotation{1,15}(july|order)/i
 
 /rfq.{1,10}price.?list request/i
 

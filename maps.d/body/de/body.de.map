@@ -34,8 +34,11 @@
 # F
 
 # G
+/geheime.{1,10}video anschauen/i
 
 # H
+/hier.{1,10}geheime.{1,10}video/i 
+
 /HIER KLICKEN/
 /höhle.{0,5}(der|des).{0,5}löwen.{1,10}deal/iu
 
@@ -78,7 +81,8 @@
 # R
 
 # S
-/schauen sie sich hier.{1,10}video an/i
+/schauen sie.{1,10}hier.{1,10}video/i
+
 /(seite|site) ist.{1,10}kostenlos/i
 
 # T
