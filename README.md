@@ -187,11 +187,11 @@ body
   │   ├─ body.de.singleword.ucase.map             │
   │   ├─ body.de.unsubscribe.map                 ─┘
   │   │
-  │   ├─ body.de.adult.map           x           --- multimap.body.de.adult.conf
-  │   ├─ body.de.finance.map         x           --- multimap.body.de.finance.conf
-  │   ├─ body.de.gambling.map        x           --- multimap.body.de.gambling.conf
-  │   ├─ body.de.health.map          x           --- multimap.body.de.health.conf
-  │   ├─ body.de.makemoney.map       x           --- multimap.body.de.makemoney.conf
+  │   ├─ body.de.adult.map                       --- multimap.body.de.adult.conf
+  │   ├─ body.de.finance.map                     --- multimap.body.de.finance.conf
+  │   ├─ body.de.gambling.map                    --- multimap.body.de.gambling.conf
+  │   ├─ body.de.health.map                      --- multimap.body.de.health.conf
+  │   ├─ body.de.makemoney.map                   --- multimap.body.de.makemoney.conf
   │   │
   │   ├─ body.de.phishing.map                    ─┐
   │   ├─ body.de.phishing.account.map             │
@@ -201,6 +201,7 @@ body
   │   ├─ body.de.phishing.email.map               │
   │   ├─ body.de.phishing.greetings.map           │
   │   ├─ body.de.phishing.malware.map             │
+  │   ├─ body.de.phishing.orgbrandprod.map  X     │
   │   ├─ body.de.phishing.parcel.map              ├─ multimap.body.de.phishing.conf
   │   ├─ body.de.phishing.password.map            │
   │   ├─ body.de.phishing.payment.map             │
