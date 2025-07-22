@@ -77,12 +77,13 @@
 /lieber herr.{5,25}ich bin dr\./i
 /lieber kunde.{1,10}wir senden ihnen diese e?.?mail/i
 
-/sehr geehrter?.{1,10}(begünstigter?|empfänger|geschäftsmann)/iu
 /sehr geehrter?.{1,10}(frau|herr).{1,10}hoffe es geht dir gut/i
 /sehr geehrter?.{1,10}(frau|herr).{1,10}ich schreibe ihnen/i
 /sehr geehrter?.{1,10}(frau|herr).{1,5}betreff/i
 
-/sehr geehrter?.{1,15}(bankkunde|director|direktor|käufer|manager|managing)/iu
+/sehr geehrter?.{1,15}(bankkunde|begünstigter?|empfänger|geschäftsmann|käufer|manager|managing)/iu
+/sehr geehrter?.{1,15}(director|direktor)/i
+
 /sehr geehrter.{1,10}unternehmer.{1,10}wir schreiben ihnen/i
 
 #
