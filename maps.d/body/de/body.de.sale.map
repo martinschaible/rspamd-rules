@@ -92,6 +92,7 @@
 # C
 
 # D
+/(das|diese).{1,10}mobile.{1,10}klima.?(anlage|gerät)/iu
 
 # E
 /einfach auf diese{1,10}e?.?mail antworten/i
@@ -116,10 +117,17 @@
 # K
 /(komfortable|neuen|revolutionäre).{1,10}einlagen/i
 
+/klima.?(anlage|gerät).{1,15}ein angenehmes/iu
+/klima.?(anlage|gerät).{1,10}jetzt noch günstig/iu
+/klima.?(anlage|gerät).{1,10}kühlt ihre/iu
+/klima.?(anlage|gerät).{1,10}watt.{1,20}nur.{1,10}statt/iu
+
 # L
 
 # M
 /marketing.{1,10}maschine/i
+
+/mobile.{1,10}klima.?(anlage|gerät).{1,10}(btu|kühlleistung|watt)/iu
 
 # N
 /neu.{1,10}falt.?(event|falt|garten)?pavillons?/i

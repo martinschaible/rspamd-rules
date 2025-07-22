@@ -61,6 +61,9 @@
 # Three stars
 /\*\*\*/i
 
+# Three dots at the end
+/\.\.\.$/i
+
 # Dots between charcater like this: Fi.n.a.n.z.i.e.r.u.n.g
 /\w\.\w\.\w\.\w\./i
 
