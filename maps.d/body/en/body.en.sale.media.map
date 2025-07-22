@@ -31,12 +31,20 @@
 # D
 
 # E
+/each.{1,10}million e?.?mails/i
+
 /e?.?mail.{1,10}credits.{1,10}lead lists/i
-/e?.?mail.?list.{1,10}rental/i
+/e?.?mail.?lists?.{1,10}rental/i
+/e?.?mail.?lists?.{1,10}of any country/i
+/e?.?mail.?lists?.{1,10}your.{1,10}marketing/i
+
+/e?.?mail.?marketing.{1,10}(free|works)/i
+/e?.?mail.?marketing.{1,10}service.{1,10}boost/i
 
 # F
 
 # G
+/get the best.{1,10}e?.?mail.?lists/i
 
 # H
 
