@@ -124,7 +124,10 @@
 /\?\.\.\./i
 
 # A subject does never start with a special character
-/^(,|\.|!|\$)/i
+/^(„|,|\.|!|\$)/i
+
+# A subject does never end with a special character
+/“$/i
 
 # Silly stupid stuff
 # ------------------------------------------------------------------------------
