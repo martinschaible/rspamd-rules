@@ -72,7 +72,8 @@
 # U
 /unread.{1,10}(e?.?mails?|messages?).{1,10}pending due to server/i
 
-/update your mailbox/i
+/update.{1,10}to continue using.{1,10}mailbox/i
+/update.{1,10}your.{1,10}mailbox/i
 
 # V
 

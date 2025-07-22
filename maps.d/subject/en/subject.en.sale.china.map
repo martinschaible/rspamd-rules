@@ -256,7 +256,9 @@
 /supplier.{1,10}from china
 /supplier.{1,10}mold.?products/i
 /supplier.{1,10}who can serve/i
+
 /supply steel plates/i
+/supplying.{1,15}(electronic|quality).{1,15}components/i
 
 # T
 /toolmaking services.{1,10}china/i
@@ -264,6 +266,7 @@
 
 /trading co.{1,5}ltd/i
 
+/trusted.{1,10}professionals?.{1,10}manufacturer/i
 /trustworthy.{1,10}company/i
 
 # U
@@ -281,6 +284,7 @@
 /you looking for.{1,15}(battery|supplier)/i
 
 /you need.{1,10}(hardware|springs)/i
+/you need.{1,10}trusted.{1,10}professional/i
 
 /you sell.{1,10}(pcba?|printed.?circuit.?board)/i
 /you sell.{1,20}related products/i

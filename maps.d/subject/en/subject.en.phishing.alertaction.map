@@ -35,6 +35,8 @@
 # 13.07.25 - Account authentication needs to be updated
 /アカウント認証の更新が必要です/i
 
+/^action required$/i
+
 /action needed.{1,10}final step.{1,15}(package|parcel|shipment)/i
 /action needed.{1,10}final step.{1,15}receive/i
 /action needed.{1,10}your.{1,15}(package|parcel|shipment) awaits/i
@@ -113,6 +115,7 @@
 # F
 /final (notice|reminder).{1,10}confirm your/i
 /final (notice|reminder).{1,10}enable.{1,20}2fa/i
+/final (notice|reminder).{1,10}verify your/i
 
 # G
 
@@ -239,6 +242,7 @@
 /verify your.{1,15}account activity/i
 /verify your.{1,15}account.{1,15}@/i
 
+/verify your.{1,10}address to avoid/i
 /verify your.{1,15}identity to.{1,15}(access|maintain)/i
 
 # W

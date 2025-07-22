@@ -137,7 +137,7 @@
 /alleviate.{1,10}joint.?pain/i
 /alzheimer.{1,15}(take this|trigger)/i
 
-/ancient.{1,10}(drink|formula|herb|tea)/i
+/ancient.{1,10}(drink|formula|herb|tea|tonic)/i
 /annoying ear buzzing/i
 
 /anti.?aging.{1,10}breakthrough/i
@@ -342,9 +342,10 @@
 /enhance your.{1,20}(energy|hearing|metabolism|vitality)/i
 
 /eliminate.{1,10}this food/i
-/eliminates?.{1,15}without meds/i
 /eliminates?.{1,10}(nerve|type 2)/i
 /eliminates?.{1,15}eye bags/i
+/eliminates?.{1,15}knee pain/i
+/eliminates?.{1,15}without meds/i
 
 /erases?.{1,15}(arthritis|artery|discomfort|plaque|tinitus|wrinkles?)/i
 /erections?.{1,10}pill/i
@@ -419,7 +420,7 @@
 /health.{1,10}miracle/i
 /healthy.{1,10}nails/i
 
-/hearing.{1,15}naturally/i
+/hearing.{1,15}(loss due|naturally)/i
 
 /herb.{1,10}(blocks?|discovery)/i
 
@@ -428,6 +429,8 @@
 
 /helps fight.{1,10}diabetes/i
 /here is the fix/i
+
+/\[here.{1,10}how\]/i
 
 /hgh.{1,15}(now legal|prescription|without)/i
 
@@ -761,6 +764,7 @@
 /to get.{1,10}hard/i
 /to stay.{1,10}asleep/i
 
+/tonic.{1,10}fixed/i
 /top nasa researcher/i
 /top doctor.{1,10}reveals/i
 

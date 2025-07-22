@@ -221,12 +221,6 @@ fettverbrenner/i
 /jetzt\.\.?!/i
 
 # K
-/^kredite?$/i
-/kredit\?/i
-/kredit \d/i
-/kredite?!/i
-#/-kredit/i
-
 /kochgeschirr/i
 
 /konto.?aktualisierung/i
@@ -239,11 +233,15 @@ fettverbrenner/i
 
 /kooperation,/i
 
+/^kredite?$/i
+/kredit\?/i
+/kredit \d/i
+/kredite?!/i
+#/-kredit/i
 /krediten/i
 
 # Test
 /^.?kreditangebot.?$/i
-
 /kreditangebot.?(@|!|\?|-)/i
 
 /kreditkartenbenachrichtigung/i
@@ -251,6 +249,7 @@ fettverbrenner/i
 /^kreditfinanzierung$/i
 /^kreditvorschlag$/i
 
+/kreditgelegenheit/i
 /kreditmöglichkeit/iu
 /kreditunternehmen/i
 /kreditvergleich/i
