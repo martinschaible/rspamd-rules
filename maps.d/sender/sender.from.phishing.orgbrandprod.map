@@ -269,7 +269,7 @@
 
 # F
 # ------------------------------------------------------------------------------
-/facebook (ads.?team|inc)/i
+/facebook.{0,10}(ads.?team|inc)/i
 
 /fedex$/i
 /fedpol/i
@@ -358,7 +358,7 @@
 
 /lidl.?202\d/i
 /lidl_/i
-/lidl.?(markt|team|versand)/i
+/lidl.{0,5}(markt|team|versand)/i
 
 /lieferung.{0,5}dhl/i
 
@@ -591,7 +591,7 @@
 /tcs.?car/i
 /tcs.{0,10}kundenservice/i
 
-/team_/i
+#/team_/i
 /team.{0,10}(account||paletten?)/i
 /team.{0,10}(dhl|netflix|spotify)/i
 
