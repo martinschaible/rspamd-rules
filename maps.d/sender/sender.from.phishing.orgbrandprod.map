@@ -177,6 +177,7 @@
 /\.(ch|de) cpanel/i
 /^cpanel$/i
 /cpanel.{0,10}(server|service|team)/i
+/cpanel on/i
 
 /css.?info/i
 
