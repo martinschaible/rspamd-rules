@@ -78,7 +78,7 @@
 /anmeldeversuch.{1,10}bitte bestätigen sie/iu
 /anmeldung blockiert.{1,10}jetzt einloggen/i
 
-/aufforderung.{1,10}aktualisierung ihrer daten/i
+/aufforderung.{1,10}aktualisierung.{1,10}(adress)?daten/i
 /aufforderung.{1,10}datenprüfung/i
 
 /aufmerksamkeit.{1,15}(dokument|mahnung)/i
@@ -120,6 +120,9 @@
 /(domain|kontroll).{1,10}verifizierung ist erforderlich/i
 
 /dringends:/i
+
+/dringende aufforderung.{1,10}zur aktualisierung/i
+
 /(dringende|erforderliche?).{1,10}aktion/i
 /(dringende|erforderliche?).{1,10}(sicherheits)?aktualisierung/i
 
