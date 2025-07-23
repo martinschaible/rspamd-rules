@@ -6,6 +6,19 @@
 # Topics
 # ==============================================================================
 
+# Air Conditioning
+# ------------------------------------------------------------------------------
+/klima.?(anlage|geräte?).{1,10}mobil/i
+/klima.?(anlage|geräte?).{1,20}(für|nur).{1,10}\d{2,3}/i
+/klima.?(anlage|geräte?).{1,20}(für|nur).{1,10}zzgl.{1,10}mwst/iu
+/klima.?(anlage|geräte?).{1,20}(ab|nur).{1,10}statt/i
+/klima.?(anlage|geräte?).{1,20}(aktionspreis|sonderpreis)/i
+/klima.?(anlage|geräte?).{1,20}(bestellen|einsatzbereit|jetzt|lieferbar|verfügbar)/i
+
+/(btu|mobilen?|mobiles?).{1,15}klima.?(anlage|geräte?)/iu
+
+/(sichern Sie sich|sommerhitze).{1,10}klima.?(anlage|geräte?)/iu
+
 # Chair
 # ------------------------------------------------------------------------------
 /(büro|massage).?(sessel|stuhl|stühle).{1,15}(abverkauf|angebot|charakter|stil|vorteilspreis)/i
@@ -104,6 +117,17 @@
 
 /logo.{1,15}(modern|schwung|veredelt)/i
 
+# Tools
+# ------------------------------------------------------------------------------
+/akkus?.?(kettensäge|kraft)/iu
+/akkus?.{1,10}(ausrüstung|schnellladegerät)/iu
+
+/akku.?(geräte|produkte|sets?|werkzeuge?) je \d{2} statt \d{3}/iu
+/akku.?(geräte|produkte|sets?|werkzeuge?).{1,10}(angebot|haus|jahren|komplett|versandbereit)/i
+/akku.?(geräte|produkte|sets?|werkzeuge?).{1,10}mit.{1,10}akkus/i
+
+/(ab lager|bestseller|hammerpreis|unsere).{1,10}akku.?(geräte|produkte|sets?)/i
+
 #
 #
 #
@@ -127,12 +151,6 @@
 /4k.{0,10}kamera/i
 
 # A
-/akku.?(kettensäge|kraft)/iu
-/akku.{1,10}ausrüstung/i
-/akku.?(geräte|produkte|set|werkzeuge?) je \d{2} statt \d{3}/iu
-/akku.?(geräte|produkte|set|werkzeuge?).{1,10}versandbereit/i
-/akku.?(geräte|produkte|set|werkzeuge?).{1,10}(haus|jahren|komplett|versandbereit)/i
-
 /aktion.{1,10}corona.?tests?/i
 
 /anfrage.{1,10}personalunterstützung/iu
@@ -153,16 +171,12 @@
 # B
 /beheizten? westen?/i
 
-/bestseller.{1,10}akku.?(geräte|produkte|set)/i
-
 # Sample: Bildschirm. Statt 169,-nur 49,90
 /bildschirm.{1,10}statt \d{2,3}.{1,5}nur.{1,5}\d{2}/i
 
 /branchen.?führer.{1,10}\d{4}/i
 
 /(büro|massage).?(sessel|stuhl|stühle).{1,25}(bezug|funktion|massage)/i
-
-/btu.{1,10}klima.?(anlage|gerät)/iu
 
 # C
 /corona.?tests?.{1,10}kombi.?tests?/i
@@ -203,7 +217,6 @@
 /guenstiges fernsehen/i
 
 # H
-/hammerpreis.{1,10}akku.?produkte/i
 /handgefertigte messer/i
 
 /hochdruck.?reiniger.{1,10}ab \d{2}/i
@@ -238,12 +251,7 @@
 /(beheizbare|wärmende).{1,10}(daunen)?jacke/i
 
 # K
-/klima.?(anlage|geräte?).{1,10}mobil/i
-/klima.?(anlage|geräte?).{1,20}(für|nur).{1,10}\d{2,3}/i
-/klima.?(anlage|geräte?).{1,20}(für|nur).{1,10}zzgl.{1,10}mwst/iu
-/klima.?(anlage|geräte?).{1,20}(ab|nur).{1,10}statt/i
-/klima.?(anlage|geräte?).{1,20}(aktionspreis|sonderpreis)/i
-/klima.?(anlage|geräte?).{1,20}(bestellen|einsatzbereit|jetzt|lieferbar|verfügbar)/i
+/kein risiko.{1,10}keine vorkasse/i
 
 /komplett für nur \d{2,3}.{1,10}netto/iu
 /kooperationsmöglichkeit.{1,10}qualifiziertes?/iu
@@ -273,8 +281,6 @@
 /mit einem klick/i
 
 /mitarbeiter für.{1,15}(logistik|produktion|verarbeitung)/i
-
-/(mobilen?|mobiles?).{1,15}klima.?(anlage|geräte?)/iu
 
 # N
 
@@ -326,7 +332,6 @@
 /schöne.{1,10}zähne/i
 
 /sichern sie.{1,10}teile/i
-/sichern Sie sich.{1,10}klima.?(anlage|geräte?)/iu
 /sichern Sie sich.{1,10}leiter/i
 
 /sie bei uns sparen können/iu
@@ -348,8 +353,6 @@
 /suchen?.{1,10}qualifizierten handwerkern/i
 
 /sofort verfügbare mitarbeiter/iu
-
-/sommerhitze.{1,10}klimaanlage/i
 
 /sprachen sofort/i
 
