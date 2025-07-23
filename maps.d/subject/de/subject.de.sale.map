@@ -121,6 +121,7 @@
 # ------------------------------------------------------------------------------
 /akkus?.?(kettensäge|kraft)/iu
 /akkus?.{1,10}(ausrüstung|schnellladegerät)/iu
+/akkus?.{1,10}(koffer|ladestation)/i
 
 /akku.?(geräte|produkte|sets?|werkzeuge?) je \d{2} statt \d{3}/iu
 /akku.?(geräte|produkte|sets?|werkzeuge?).{1,10}(angebot|haus|jahren|komplett|versandbereit)/i

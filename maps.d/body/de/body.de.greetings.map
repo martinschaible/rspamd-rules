@@ -67,7 +67,7 @@
 
 /guten (abend|morgen|tag).{5,35}was ich ihnen jetzt/i
 /guten (abend|morgen|tag).{1,10}wie geht es dir/i
-/guten (abend|morgen|tag).{1,10}wir kontaktieren sie/i
+#/guten (abend|morgen|tag).{1,10}wir kontaktieren sie/i
 
 # Finance
 /guten (abend|morgen|tag).{1,10}benötigen sie finanzhilfe/iu
@@ -122,7 +122,7 @@
 
 /hallo.{1,10}wir freuen uns.{1,10}ihnen mitteilen/i
 
-/herzliche (grüsse|grüße).{1,10}ich bin/i
+/herzliche (grüsse|grüße).{1,10}ich (bin|bitte sie)/i
 /hochachtungsvolle (grüsse|grüße)/iu
 
 # I

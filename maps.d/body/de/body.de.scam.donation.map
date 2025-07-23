@@ -41,6 +41,8 @@
 # E
 /e?.?mail bezüglich meiner spende erhalten/i
 
+/empfänger ausgewählt.{1,10}die jeweils.{1,15}erhalten/i
+
 /erhalten als.{1,15}e?.?mail.?nutzer eine spende/i
 /erhalten.{1,10}kontaktieren sie uns.{1,10}weitere informationen/iu
 
@@ -98,10 +100,12 @@
 
 # S
 /sie als empfänger einer.{1,15}spende/iu
+/sie als einer der.{1,15}(begünstigten|empfänger).{1,10}ausgewählt/i
+/sie als einer der.{1,15}(begünstigten|empfänger).{1,10}(\d{3,4}|der)/i
 
 /sie erhalten eine.{1,10}(fördersumme|spende|zuschuss)/iu
-/sie haben eine spende in höhe von{1,25}gewonnen/i
 
+/sie haben eine spende.{1,10}in höhe von{1,25}gewonnen/iu
 /sie haben eine spende von.{1,5}\d{2,4}(\.|,)?\d{3,4}/i
 /sie haben eine spende von.{1,15}(dollar|euro?|gbp|usd|€|\$|£)/i
 /sie haben eine spende von.{1,15}millionen/i
