@@ -57,7 +57,9 @@
 # B
 
 # C
-/confirm my.{1,10}e?.?mail reached you/i
+/confirm.{1,10}(my|this).{1,10}e?.?mail reached you/i
+/confirm.{1,10}receipt of (my|this).{1,10}e?.?mail/i
+
 /congratulations.{1,15}urgent reply needed/i
 
 /contact me at this.{1,10}e?.?mail/i
