@@ -10,7 +10,7 @@
 # ==============================================================================
 
 # Silly organisation names
-/202\d.{1,10}administrator service/i
+/202\d.{1,10}admin(istrator)?.{1,10}(service|support)/i
 
 /mail.?service.{1,10}center.?team/i
 
@@ -33,7 +33,8 @@
 # D
 
 # E
-/e?.?mail.{1,10}marked.{1,10}important.{1,10}pending/i
+/(e?.?mail|message).{1,10}abuse notice.{1,10}security alert/i
+/(e?.?mail|message).{1,10}marked.{1,10}important.{1,10}pending/i
 
 # F
 
@@ -51,7 +52,7 @@
 # L
 
 # M
-/(e?.?mail|message).{1,10}abuse notice.{1,10}security alert/i
+/mailbox.{1,10}keep my password/i
 
 # N
 

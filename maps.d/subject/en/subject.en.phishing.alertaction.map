@@ -168,6 +168,8 @@
 
 # N
 /notice.{1,10}(package|parcel|shipment) on hold/i
+/notice.{1,10}payment needed/i
+
 /notification.{1,10}(action required|incomplete|updated)/i
 /notification.{1,10}account.{1,30}closure/i
 

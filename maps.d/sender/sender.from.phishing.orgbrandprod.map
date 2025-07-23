@@ -305,7 +305,7 @@
 
 /(hetzner|hermes|hornbach).?(™|®|©)$/i
 /hetzner, inc/i
-/hetzner.{0,10}online$/i
+/hetzner.{0,5}(invoice|online)$/i
 /hetznersupport/i
 /help.{0,10}spotify/i
 
