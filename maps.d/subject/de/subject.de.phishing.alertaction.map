@@ -104,7 +104,7 @@
 
 /bestätigen.?-.?#[a-z0-9]{4,10}/iu
 /bestätigen sie ihre.{1,5}adresse/i
-/bestätigen sie ihre.{1,10}(lieferdaten|zusendung)/iu
+/bestätigen sie ihre.{1,10}(lieferdaten|prämie|rechtsform|zusendung)/iu
 
 /bestätigen sie kurz/iu
 
@@ -350,6 +350,8 @@
 
 /sofortige sicherheitswarnung/i
 /sofortiger zugriff empfohlen/i
+
+/stunden verbleiben.{1,10}bestätigen sie/iu
 
 /swisspass.{1,10}überprüfen sie/iu
 
