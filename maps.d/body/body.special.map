@@ -82,7 +82,8 @@
 # X
 
 # Y
-/video\>\>/i
-/\<\<video/i
+/video.?\>\>/i
+/\<\<.?video/i
+/\>\>.?video/i
 
 # Z

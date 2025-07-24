@@ -30,6 +30,8 @@
 # C
 /^cooperation request/i
 
+/commission.{1,10}if you are interested/i
+
 # D
 /deal.{1,10}will be of.{1,10}mutual benefit/i
 # E
@@ -81,6 +83,7 @@
 # Q
 
 # R
+/regarding a.{1,10}project/i
 
 # S
 

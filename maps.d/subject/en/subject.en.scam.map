@@ -88,7 +88,7 @@
 
 /full proposal/i
 
-/fund(ing).?.{1,10}(donation|office|opportunity|proposal|recovered|request)/i
+/fund(ing)?.{1,10}(donation|office|opportunity|proposal|recovered|request)/i
 
 # G
 /grant newsletter/i
@@ -102,6 +102,7 @@
 
 # I
 /i (need|wish to seek) your.{1,10}assistance/i
+/i seek.{1,10}reliable individual/i
 
 /if we can work together/i
 

@@ -130,6 +130,7 @@
 
 /good (afternoon|day|evening|morning).{1,10}sir.{1,5}(madam|mam?)\b/i
 /good (afternoon|day|evening|morning).{1,10}we are reaching out/i
+/good (afternoon|day|evening|morning).{1,10}we provide/i
 
 /greet you from.{1,10}republic/i
 
@@ -146,6 +147,7 @@
 
 # Funny :-)
 /gooday sir.?ma/i
+
 
 # H
 /have a nice day.{1,10}this is.{5,35}from/i
