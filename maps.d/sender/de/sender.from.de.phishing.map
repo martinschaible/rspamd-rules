@@ -96,6 +96,8 @@ _[a-z].{0,15}box/i
 /kundenportal.{0,10}service/i
 /kurier.{0,10}agent/i
 
+/kurier\d{1,2}/i
+
 # L
 /limit.{0,10}hinweis/i
 
