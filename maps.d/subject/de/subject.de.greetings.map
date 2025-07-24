@@ -97,9 +97,8 @@
 /lieber\/r freund\/in/i
 
 /lieber herr/i
-/lieber? e?.?mail.?(besitzer|empfänger|nutzer)/iu
-/lieber? empfänger/iu
-/lieber (freund|nutzer)/i
+/lieber?.{1,10}e?.?mail.?(besitzer|empfänger|nutzer)/iu
+/lieber?.{1,10}(empfänger|freund|nutzer)/iu
 
 /liebster? im herrn/i
 
