@@ -21,9 +21,9 @@
 
 # Chair
 # ------------------------------------------------------------------------------
-/(büro|massage).?(sessel|stuhl|stühle).{1,15}(abverkauf|angebot|charakter|stil|vorteilspreis)/i
-/(büro|massage).?(sessel|stuhl|stühle).{1,15}nur.{1,10}zzgl/i
-/(büro|massage).?(sessel|stuhl|stühle).{1,15}walholz/i
+/(büro|designer|massage).?(sessel|stuhl|stühle).{1,15}(abverkauf|angebot|charakter|stil|vorteilspreis)/i
+/(büro|designer|massage).?(sessel|stuhl|stühle).{1,15}nur.{1,10}zzgl/i
+/(büro|designer|massage).?(sessel|stuhl|stühle).{1,15}walholz/i
 
 /massage.{0,15}(büro|sessel|stuhl|stühle).{0,15}(sessel|stuhl|stühle)/iu
 /stilvoll.{0,15}(büro|sessel|stuhl|stühle).{0,15}(sessel|stuhl|stühle)/iu
@@ -34,7 +34,10 @@
 
 /büro.{1,10}jetzt zugreifen/iu
 /design.{1,10}komfort vereint/i
-/dtn.?stuhl/i
+/(edler|dtn).{1,5}stuhl/i
+
+jetzt im angebot:.{1,15}(design|klassiker|zeitlos)/i
+/leder.{1,10}jetzt bestellen/i
 
 /rücken entspannen.{1,10}\d{2,3}/iu
 

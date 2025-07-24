@@ -26,6 +26,8 @@
 /development.{1,10}company based in/i
 /development.{1,10}service at a very.{1,15}cost/i
 
+(developer|development).{1,10}offering.{1,10}wide range/i
+
 # E
 /examined your online presence/i
 
@@ -57,6 +59,8 @@
 # N
 
 # O
+/(offering|offers).{1,10}wide range.{1,10}services/i
+
 /our services include.{1,15}web(site)?.?design/i
 
 # P
@@ -70,6 +74,8 @@
 /(rebuilding|redesign|refurbish|revamp|repairing|upgrade) your.{1,10}(current|existing).{1,15}(web)?.?site/i
 
 # S
+/skilled.{1,10}web.?designer.{1,10}developer/i
+/specialized? in.{1,10}web.?site.{1,10}design/i
 
 # T
 

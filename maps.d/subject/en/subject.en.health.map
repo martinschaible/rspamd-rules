@@ -92,6 +92,8 @@
 
 /(ingredient|this).{1,10}melts.{1,10}fat/i
 
+/weight control.{1,10}power/i
+
 #
 #
 #
@@ -231,6 +233,7 @@
 
 /(causing|cause of|causes).{1,10}(dark spots|dementia|ed\b|joint pain)/i
 /(causing|cause of|causes).{1,15}(memory|vision) loss/i
+/(causing|cause of|causes).{1,10}type.{1,10}diabetes/i
 /(causing|cause of|causes).{1,10}weight gain/i
 
 /cavity.{0,10}cure/i
@@ -779,6 +782,7 @@
 
 /unusual asian treat/i
 
+/unlock.{1,10}lasting energy/i
 /unlock.{1,10}pleasure.{1,10}(centers?|points?)/i
 /unlock.{1,10}(memory|prostate|sharper|tight hips)/i
 
