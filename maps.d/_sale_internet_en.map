@@ -9,8 +9,6 @@
 # ------------------------------------------------------------------------------
 /\d{1,2}(m|mil).{1,10}email (campaign|marketing)/i
 
-/acquired.{1,10}event attendees/i
-
 /business.{1,10}e?.?mail.?addresses across/i
 /business.{1,10}contact.{1,10}details for only/i
 
@@ -37,17 +35,6 @@
 /lowest prices.{1,10}database.{1,10}e?.?mail.?addresses/i
 
 /you like to get.{1,10}direct.{1,10}contact.?list/i
-
-/you.{1,10}interested.{1,10}(acquiring|purchasing).{1,15}(attendees|registrants|visitors).{1,20}list/i
-/you.{1,10}interested.{1,10}(acquiring|purchasing).{1,10}the contacts of/i
-/you.{1,10}interested.{1,10}(acquiring|purchasing).{1,20}list/i
-/you.{1,10}interested.{1,10}(acquiring|purchasing).{1,10}linkedin.{1,10}leads/i
-/you.{1,10}interested.{1,10}(acquiring|purchasing).{1,10}unlimited targeted/i
-
-/you.{1,10}interested.{1,10}(acquiring|purchasing).{1,10}targeted.{1,10}e?.?mail/i
-
-/you.{1,10}interested.{1,10}attendees.{1,10}list/i
-/you.{1,10}interested.{1,10}in e?.?mail.?marketing/i
 
 /you want.{1,10}receive.{1,10}attendee.{1,10}list/i
 /you want.{1,15}e?.?mail.?list/i
