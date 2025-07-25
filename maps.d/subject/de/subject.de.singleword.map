@@ -37,9 +37,11 @@
 /anfrage\*/i
 /angebotsanforderung/i
 
+/^anspruch$/i
+/^ansprüche$/iu
+
 /anspruche/i
 /anspruchs.?!/i
-/^ansprüche$/iu
 /ansprüche.?!/iu
 /ansprüche\./iu
 
@@ -243,19 +245,20 @@ fettverbrenner/i
 
 # Test
 /^.?kreditangebot.?$/i
-/kreditangebot.?(@|!|\?|-)/i
-
-/kreditkartenbenachrichtigung/i
 
 /^kreditfinanzierung$/i
 /^kreditvorschlag$/i
 
+/kreditanfrage/i
+/kreditangebot.?(@|!|\?|-)/i
 /kreditgelegenheit/i
 /kreditmöglichkeit/iu
 /kreditunternehmen/i
 /kreditvergleich/i
 
 /k r e d i t/i
+
+/kreditkartenbenachrichtigung/i
 
 /kundedienst/i
 /^kundenservice$/i

@@ -87,6 +87,7 @@
 
 /gain weight.{1,10}here.{1,10}why/i
 
+/linked to.{1,10}weight gain/i
 /lose fat.{1,10}fast(er)?/i
 /lose.{1,10}of your.{1,10}weight/i
 
@@ -633,9 +634,9 @@
 /sec(ond)?.{1,10}(detox|home remedy|morning cleanse|sleep trick|stretch)/i
 
 /secret behind.{1,10}aging/i
-/secret for eating/i
+/secret for (eating|hair)/i
+/secret hormone/i
 /secret to.{1,15}(digestion|fat.?burning|healthy)/i
-/secret for hair/i
 /secret will.{1,15}your/i
 
 /see proof/i
@@ -691,7 +692,7 @@
 
 /stop doing this/i
 /stop.{1,10}ear ringing/i
-/stop.{1,10}(decay|dieting|teath)/i
+/stop.{1,10}(decay|dieting|secret|teath)/i
 /stop.{1,10}(eating|taking|using) (these|this)/i
 
 /stops?.{1,10}memory loss/i
@@ -832,6 +833,7 @@
 /your.{1,10}foot fungus/i
 /your.{1,10}healthy foods/i
 /your.{1,10}heart health/i
+/your.{1,10}knees deserve/i
 /your.{1,10}veins hurt/i
 /your.{1,15}with.{1,10}natural/i
 

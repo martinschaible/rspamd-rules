@@ -27,6 +27,8 @@
 /(business|partnership).{1,10}investment.{1,10}collaboration/i
 /(business|partnership).{1,10}project.{1,10}investment/i
 
+/^(business|partnership).?project$/i
+
 # C
 /^cooperation request/i
 

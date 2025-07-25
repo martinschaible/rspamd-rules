@@ -35,6 +35,7 @@
 # E
 /(e?.?mail|message).{1,10}abuse notice.{1,10}security alert/i
 /(e?.?mail|message).{1,10}marked.{1,10}important.{1,10}pending/i
+/(e?.?mail|message).{1,10}pending on your.{1,10}server/i
 
 # F
 

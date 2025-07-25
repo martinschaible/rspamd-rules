@@ -153,6 +153,8 @@
 
 /unread important.{1,10}(e?.?mail|message)s?/i
 
+/unusual activity detected.{1,10}messages queued/i
+
 # V
 /verify your mail.?box/i
 
