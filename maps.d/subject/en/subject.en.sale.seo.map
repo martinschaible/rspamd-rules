@@ -63,6 +63,8 @@
 /(1st|first|seo|top).{1,15}(page|place|position|rankings?|spot).{1,10}(plan|proposal|quote)/i
 /(1st|first|seo|top).{1,15}(page|place|position|rankings?|spot).{1,10}(bing|google|yahoo)/i
 
+/(1st|first|seo|top).?page\./i
+
 /full seo.?package/i
 
 # G

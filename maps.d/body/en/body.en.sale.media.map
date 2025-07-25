@@ -21,6 +21,8 @@
 
 /attendee list with.{1,10}exclusive fee/i
 
+/acquired.{1,10}event attendees/i
+
 # B
 
 # C
@@ -95,6 +97,13 @@
 /you be interested in.{1,10}data lists?/i
 /you looking.{1,15}e?.?mail.?marketing/i
 
-/you (are|want).{1,15}(acquiring|receive).{1,10}attendee list/i
+/you.{1,10}(are|interested|want).{1,10}(acquiring|purchasing|receive).{1,10}list/i
+/you.{1,10}(are|interested|want).{1,10}(acquiring|purchasing|receive).{1,15}(attendees|contacts|registrants|visitors).{1,20}list/i
+/you.{1,10}(are|interested|want).{1,10}(acquiring|purchasing|receive).{1,10}linkedin.{1,10}leads/i
+/you.{1,10}(are|interested|want).{1,10}(acquiring|purchasing|receive).{1,10}unlimited targeted/i
+
+/you.{1,10}(are|interested|want).{1,10}(acquiring|purchasing|receive).{1,10}targeted.{1,10}e?.?mail/i
+
+/you.{1,10}interested.{1,10}e?.?mail.?marketing/i
 
 # Z
