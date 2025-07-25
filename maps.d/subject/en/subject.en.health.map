@@ -442,7 +442,7 @@
 
 /hgh.{1,15}(now legal|prescription|without)/i
 
-/hidden.{1,10}prostate/i
+/hidden.{1,10}(danger|prostate)/i
 /hidden.{1,10}toxin in.{1,10}(popular|superfoods)/i
 
 /high a1c/i
@@ -800,6 +800,7 @@
 /want to (sleep|slim)/i
 /wants.{1,10}burn fat/i
 
+/warning.{1,10}toxic ingredients/i
 /wash away.{1,10}(lbs|pounds)/i
 
 /weakens.{1,10}gut/i
