@@ -23,7 +23,11 @@
 /beantworten sie.{1,20}ein paar kurze fragen/i
 /beantworten sie.{1,15}fragen.{1,25}erhalten sie.{1,10}geschenk/i
 /beantworten sie.{1,15}fragen.{1,10}gewinnen/i
-/beantworten sie.{1,10}unseren.{1,10}fragebogen/i
+/beantworten sie.{1,10}unseren?.{1,10}(befragung|fragebogen)/i
+
+/(befragung|feedback|umfrage).{1,10}eine belohnung/i
+/(befragung|feedback|umfrage).{1,10}erfolgreich (bestätigt|registriert)/iu
+/(befragung|feedback|umfrage).{1,10}erhalten sie eine?.{1,10}(belohnung|geschenk)/i
 
 # C
 
@@ -45,7 +49,6 @@
 
 # K
 /kundenfeedback programm.{1,10}ihre meinung zählt/iu
-/(kunden)?umfrage wurde erfolgreich (bestätigt|registriert)/iu
 
 # L
 
@@ -67,6 +70,8 @@
 # T
 
 # U
+/um.{1,15}kurzen.{1,10}(befragung|feedback|umfrage) von.{1,25}teilzunehmen/i
+/um.{1,10}folgenden?.{1,10}fragen zu beantworten/i
 
 # V
 
