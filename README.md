@@ -184,6 +184,7 @@ body
   │   ├─ body.de.intros.map                       │
   │   ├─ body.de.message.map                      ├─ multimap.body.de.conf
   │   ├─ body.de.singleword.map                   │
+  │   ├─ body.de.singleword.special.map     X     │
   │   ├─ body.de.singleword.ucase.map             │
   │   ├─ body.de.unsubscribe.map                 ─┘
   │   │
@@ -223,6 +224,7 @@ body
   │   ├─ body.de.scam.business.map                │
   │   ├─ body.de.scam.bignumbers.map              │
   │   ├─ body.de.scam.donations.map               │
+  │   ├─ body.de.scam.funds.map             X     │
   │   ├─ body.de.scam.investment.map              ├─ multimap.body.de.scam.conf
   │   ├─ body.de.scam.order.map                   │
   │   ├─ body.de.scam.payment.map                 │
@@ -291,9 +293,10 @@ subject
   ├─ de
   │   ├─ subject.de.map                          ─┐  
   │   ├─ subject.de.greetings.map                 │
-  │   ├─ subject.de.message.map                   ├─ multimap.subject.de.conf
-  │   ├─ subject.de.singleword.map                │
-  │   ├─ subject.de.singleword.ucase.map         ─┘
+  │   ├─ subject.de.message.map                   │
+  │   ├─ subject.de.singleword.map                ├─ multimap.subject.de.conf
+  │   ├─ subject.de.singleword.special.map        │ 
+  │   ├─ subject.de.singleword.ucase.map    X    ─┘
   │   │
   │   ├─ subject.de.adult.map                    --- multimap.subject.de.adult.conf
   │   ├─ subject.de.finance.map                  --- multimap.subject.de.finance.conf
@@ -326,7 +329,7 @@ subject
   │   ├─ subject.de.scam.bignumbers.map           │
   │   ├─ subject.de.scam.business.map             │
   │   ├─ subject.de.scam.donation.map             ├─ multimap.subject.de.scam.conf
-  │   ├─ subject.de.scam.investment.map    *      │
+  │   ├─ subject.de.scam.investment.map     X     │
   │   ├─ subject.de.scam.order.map                │
   │   ├─ subject.de.scam.payment.map              │
   │   ├─ subject.de.scam.winning.map             ─┘
