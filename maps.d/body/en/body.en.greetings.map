@@ -166,6 +166,7 @@
 /(hello|hi).{1,5}(dear|friend|manager).{1,10}i came across/i
 /(hello|hi).{1,5}(dear|friend|manager).{1,10}please quote us/i
 
+/(hello|hi).{1,15}btc.{1,10}usd?/i
 /(hello|hi).{1,10}\[first name\]/i
 /(hello|hi).{5,35}from.{5,35}(in)? (china|india|ukraine)/i
 /(hello|hi).{1,10}glad to meet you/i
