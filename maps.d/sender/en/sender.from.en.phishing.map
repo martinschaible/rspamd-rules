@@ -44,7 +44,7 @@
 
 /help-desk/i
 /helpdesk-/i
-/hosting team/i
+/hosting.?team/i
 
 /mail.?(admin|alert|helpdesk|server|update)/i
 /mail.?security.?team/i
@@ -53,6 +53,7 @@
 
 /server.?(report|team)/i
 /^support.?(access|client|desk|team)$/i
+/system.?report.?center/i
 
 /(imap|pop3).{0,10}settings/i
 
@@ -78,7 +79,7 @@
 # A
 /aaa.{0,10}deals?/i
 
-/accounts?.?(department|help|payable|team)/i
+/accounts?.?(department|help|payable|protection|team)/i
 
 /action.{0,10}required/i
 
@@ -168,6 +169,9 @@
 
 # P
 /pending.{1,10}e?.?mails/i
+
+/protection.{0,10}team/i
+/protection|team/i
 /provider.{0,10}support/i
 
 # Q
