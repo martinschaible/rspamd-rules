@@ -140,7 +140,6 @@
 
 /spendet sie an.{1,10}zufällige Personen/iu
 
-/(millionen|tausend|dollar|euro?|gbp|usd).{1,15}ausgewählt.{1,10}kontaktieren sie/iu
 /(millionen|tausend|dollar|euro?|gbp|usd).{1,15}von der.{1,25}foundation.{1,15} ausgewählt/i
 /(millionen|tausend|dollar|euro?|gbp|usd).{1,15}gespendet.{1,10}antworten sie für.{1,10}details/iu
 /(millionen|tausend|dollar|euro?|gbp|usd).{1,15}spenden.{1,10}was einen teil meiner investition/i
@@ -265,7 +264,7 @@
 /sie.{1,10}haben.{1,10}einen?.{1,15}(spende|zuschuss|zuwendung).{1,10}(im|in).{1,10}(höhe|wert) von/iu
 /sie.{1,10}haben.{1,10}(von|vom).{1,15}eine spende.{1,10}(im|in).{1,10}(höhe|wert) von/iu
 
-/sie.{1,10}für eine förderung in höhe von/iu
+
 /sie.{1,10}sind mit.{1,15}(millionen|tausend|dollar|euro?|gbp|usd).{1,15}ausgezeichnet worden/i
 /sie.{1,15}zufallsprinzip.{1,10}den erhalt eines spendenzuschusses/i
 
