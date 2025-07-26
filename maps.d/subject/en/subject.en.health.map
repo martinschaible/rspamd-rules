@@ -559,8 +559,10 @@
 # P
 /pain free.{1,10}joints/i
 /pain in.{1,10}minutes?/i
-/pain.{1,10}(do this|getting worse|try this)/i
-/pain.{1,15}after this/i
+
+/pain.{1,15}(after|do) this/i
+/pain.{1,10}(getting worse|try this)/i
+/pain.{1,10}relief.{1,10}stronger/i
 
 /painful neuropathy/i
 

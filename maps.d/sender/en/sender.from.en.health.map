@@ -520,7 +520,9 @@
 /gut.{0,10}(balance|cleanse|fix|flush|health|quiz|reboot|repair|solution|trick)/i
 
 # H
-/hair.{0,5}(balding|enhancer|growth|loss|renewal|restoration|restorer?|thinning)/i
+/hair.{0,5}(balding|enhancer|experts?|growth|loss)/i
+/hair.{0,5}(renewal|restoration|restorer?|revival|strength|thinning)/i
+
 /hard in\b/i
 
 /happy.{0,10}(gut|knees)/i
@@ -660,7 +662,7 @@
 /natural.{0,10}(alternative|antibiotic|digest|fix|shape|solution|tonic|trick|vaccine)/i
 /natural.{0,10}neuropathy/i
 
-/nature.{0,10}(cure|opioids?|tea)/i
+/nature.{0,10}(cure|morphine|opioids?|tea)/i
 
 /neck.{0,10}skin/i
 /nerves?.{0,10}(comfort|damage|health|killing|pain|recovery|repair|revival|support)/i
@@ -757,7 +759,7 @@
 
 /rise.{0,10}again/i
 /rock.{0,10}(hard|solid)/i
-/root.{0,10}cause/i
+/root.{0,10}(cause|power)/i
 
 /rx.?pharma/i
 
@@ -783,6 +785,7 @@
 /side.{0,10}back/i
 /sight.{0,10}care/i
 /silence.{0,10}(buzz(ing)?|pain)/i
+/silent.{0,10}danger/i
 
 /sleep.{0,10}(age|discovery|hack|mistake|position|reset|slim)/i
 /slim.{0,10}diet/i
