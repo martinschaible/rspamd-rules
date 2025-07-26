@@ -13,6 +13,25 @@
 # Weight:   6.0
 # ==============================================================================
 
+# Topics
+# ==============================================================================
+
+# US Zip Code at the front
+\d{5}.{1,10}you would like to unsubscribe from receiving/i
+
+# US Zip Code at the end
+/unsubscribe.{1,10}here.{1,10}or write to.{1,15}\d{5}/i
+/unsubscribe.{1,10}from this newsletter.{1,10}click here.{1,10}\d{5}/i
+
+# US State and Zipcode
+/(ca|nv|ny).{1,5}us \d{5}.{1,10}unsubscribe.{1,10}here/i
+/(ca|nv|ny).{1,5}\d{5}.{1,10}to update.{1,10}remove your contact information/i
+/(ca|nv|ny).{1,5}\d{5}.{1,10}you no longer wish to (receive|recieve)/i
+
+#
+#
+#
+
 # Generic
 # ==============================================================================
 
@@ -22,11 +41,6 @@
 # B
 
 # C
-
-# State and Zipcode
-/(ca|nv|ny).{1,5}us \d{5}.{1,10}unsubscribe.{1,10}here/i
-/(ca|nv|ny).{1,5}\d{5}.{1,10}you no longer wish to recieve/i
-/(ca|nv|ny).{1,5}\d{5}.{1,10}to update.{1,10}remove your contact information/i
 
 /click here.{1,10}or write (us at|to)/i
 
@@ -81,10 +95,6 @@
 /unsubscribe.{1,10}from future.{1,15}e?.?mails.{1,15}or send post.?mail to/i
 /unsubscribe.{1,10}from this offer.{1,10}click or write to/i
 /unsubscribe.{1,10}link.{1,10}or write to/i
-
-# Zip Code at the end
-/unsubscribe.{1,10}here.{1,10}or write to.{1,15}\d{2,5}/i
-/unsubscribe.{1,10}from this newsletter.{1,10}click here.{1,10}\d{2,5}/i
 
 # V
 
