@@ -103,6 +103,8 @@
 /sie als einer der.{1,15}(begünstigten|empfänger).{1,10}ausgewählt/i
 /sie als einer der.{1,15}(begünstigten|empfänger).{1,10}(\d{3,4}|der)/i
 
+/sie.{1,15}ausgewählt wurden.{1,10}um einen.{1,15}betrag/iu
+
 /sie.{1,10}für eine (förderung|spende) in höhe von/iu
 
 /sie erhalten eine.{1,10}(fördersumme|spende|zuschuss)/iu

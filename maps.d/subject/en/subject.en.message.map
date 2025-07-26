@@ -125,7 +125,8 @@
 # S
 
 # T
-/this message is for you/i
+/this.{1,10}(e?.?mail|message) finds you well/i
+/this.{1,10}(e?.?mail|message) is for you/i
 
 # U
 /\*.?urgent/i
