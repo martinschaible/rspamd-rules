@@ -44,6 +44,8 @@
 /fordern sie.{1,10}eine.{1,10}(rück)?erstattung/iu
 
 # G
+/gute nachrichten.{1,10}wir erstatten/i
+
 /gutschrift von chf.{1,15}verfügbar/iu
 
 # H
@@ -111,6 +113,8 @@
 /verpassen sie nicht ihre (rück)?erstattung/iu
 
 # W
+/wir erstatten ihnen chf \d{2,3}\.\d{2}/i
+
 /wurde doppelt bezahlt/i
 
 # X

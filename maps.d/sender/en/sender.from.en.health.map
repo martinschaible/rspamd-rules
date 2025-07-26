@@ -283,7 +283,7 @@
 
 /back.{0,10}(aches?|fixer|pain|stretch)/i
 
-/balance.{0,10}(blood|problem|restored|your)/i
+/balance.{0,10}(blood|brain|problem|restored|your)/i
 /balanced.?(bp|glucose)/i
 /bald.{0,10}spot/i
 
@@ -386,6 +386,9 @@
 /counting.{0,10}calories/i
 
 /cooking.{0,10}oil/i
+
+/copd.{0,10}fix/i
+
 /correct.{0,10}use/i
 /cortisol.{0,10}level/i
 
@@ -539,7 +542,7 @@
 /herbal.{0,10}wisdom/i
 /herpes.{0,10}(eliminator|outbreak|talk)/i
 
-/hidden.{0,10}(danger|deficiency|power|protein|risk|ritual|toxin)/i
+/hidden.{0,10}(danger|deficiency|organ|power|protein|risk|ritual|toxin)/i
 /high.{0,10}(bp|sugar)/i
 
 /hip.{0,10}(flexors?|muscles?)/i
@@ -675,7 +678,9 @@
 
 # O
 /odd.{0,10}(chocolate|milk|mineral|liquid|tonic)/i
+
 /oral.{0,10}flush/i
+/organ.{0,10}report/i
 /oriental.{0,10}secret/i
 
 /over \d{2}/i
