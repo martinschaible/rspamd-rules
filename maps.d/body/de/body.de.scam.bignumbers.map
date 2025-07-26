@@ -12,7 +12,7 @@
 # Just big numbers
 # ------------------------------------------------------------------------------
 /\d{2,4}(\.|,)?\d{3,4}.{1,10}für sie/iu
-/\d{2,4}(\.|,)?\d{3,4}.{0,10}(dollars?|euro?|usd|€|\$|£).{1,15}antworten sie/i
+/\d{2,4}(\.|,)?\d{3,4}.{0,10}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,15}antworten sie/i
 
 #
 #
@@ -30,6 +30,7 @@
 # D
 
 # E
+/(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,15}ausgewählt.{1,10}(bestätigen|kontaktieren) sie/iu
 
 # F
 
@@ -59,10 +60,10 @@
 # R
 
 # S
-/sie haben einen.{1,15}gewinn von.{1,10}\d{2,4}(\.|,)?\d{3,4}.{0,10}(dollars?|euro?|usd|€|\$|£)/i
-/sie.{1,10}spende von.{1,10}\d{2,4}(\.|,)?\d{3,4}.{0,10}(dollars?|euro?|usd|€|\$|£)/i
+/sie haben einen.{1,15}gewinn von.{1,10}\d{2,4}(\.|,)?\d{3,4}.{0,10}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£)/i
+/sie.{1,10}spende von.{1,10}\d{2,4}(\.|,)?\d{3,4}.{0,10}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£)/i
 
-/spendet ihnen.{1,10}\d{2,4}(\.|,)?\d{3,4}.{0,10}(dollars?|euro?|usd|€|\$|£)/i
+/spendet ihnen.{1,10}\d{2,4}(\.|,)?\d{3,4}.{0,10}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£)/i
 
 # T
 
