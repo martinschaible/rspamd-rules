@@ -14,10 +14,6 @@
 
 /your.{1,15}account has been frozen/i
 
-# Account - 2FA Activation
-# ------------------------------------------------------------------------------
-/activation required on.{1,20}user account/i
-
 /secure your funds with/i
 
 # Account - Access
@@ -28,14 +24,7 @@
 # ------------------------------------------------------------------------------
 /authentication request for/i
 
-/e?.?mail.{1,10}account validation for/i
-/e?.?mail.{1,10}verification.{1,10}action required/i
-
 /suspended.{1,15}confirm your e?.?mail/i
-
-# Locking Account
-# ------------------------------------------------------------------------------
-/your.{1,15}account.{1,15}(has been temporarily|might be).{1,10}(restricted|suspended)/i
 
 # Fake human resource department
 # ------------------------------------------------------------------------------
@@ -50,12 +39,6 @@
 /paypal.?gift.?card now/i
 /win.{1,10}paypal.{1,10}gift.?card/i
 
-# Payments
-# ------------------------------------------------------------------------------
-/payment.?failed.{1,10}invoice.?id/i
-
-/your payment didn’t go through/i
-
 # Subscriptions
 # ------------------------------------------------------------------------------
 /subscription renewal.{1,10}payment due/i
@@ -63,10 +46,6 @@
 # Games
 # ==============================================================================
 /collect your coins/i
-
-# Unclassified
-# ------------------------------------------------------------------------------
-/please confirm to continue/i
 
 #
 #
