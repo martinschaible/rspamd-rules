@@ -26,7 +26,7 @@
 /bin ich deine.{1,10}liebe?/i
 
 /(bild|foto).{1,10}freigeschaltet/i
-/(bild|foto).{1,10}im brief/i
+/(bild|foto).{1,10}(dem|im) brief/i
 
 # C
 /chat.{1,10}(betreten|dates?)/i
@@ -150,7 +150,7 @@
 /schwanz.{1,10}lutschen/i
 
 /schreibe an/i
-/dchreib jetzt mit/i
+/schreib jetzt mit/i
 
 /seitensprünge in/iu
 /seite mit intimen/i
@@ -160,6 +160,7 @@
 
 /sex mit.{1,15}(frauen|älteren)/iu
 
+/sich dir hingeben/i
 /singles warten auf dich/i
 
 /süße frau/iu

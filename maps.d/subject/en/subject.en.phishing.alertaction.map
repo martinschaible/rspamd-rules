@@ -81,7 +81,8 @@
 /action required.{1,10}you have.{1,15}e?.?mail/i
 /action required.{1,10}your.{1,15}(payment|web.?mail)/i
 
-/activation pending.{1,10}secure your account/i
+/activation (pending|required).{1,10}secure your account/i
+/activation (pending|required).{1,20}user account/i
 
 /activity detected.{1,10}activate.{1,20}2fa/i
 
@@ -110,8 +111,10 @@
 
 # E
 /(e?.?mail|mailbox).{1,10}account unusual sign.?in/i
+/(e?.?mail|mailbox).{1,10}account validation for/i
 /(e?.?mail|mailbox).{1,10}security reminder/i
 /(e?.?mail|mailbox).{1,10}update alert/i
+/(e?.?mail|mailbox).{1,10}verification.{1,10}action required/i
 
 # F
 /final (notice|reminder).{1,10}confirm your/i

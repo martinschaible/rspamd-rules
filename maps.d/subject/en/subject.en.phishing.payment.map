@@ -50,6 +50,7 @@
 # O
 
 # P
+/payment.{1,10}failed.{1,10}invoice.?id/i
 /payment.{1,10}failed.{1,10}update now/i
 /payment.{1,10}issue detected/i
 
@@ -74,6 +75,6 @@
 
 # Y
 /your.{1,25}awaits reactivation/i
-/your.{1,10}compensation.{1,10}(file|number)/i
+/your.{1,10}payment didn’t go through/i
 
 # Z
