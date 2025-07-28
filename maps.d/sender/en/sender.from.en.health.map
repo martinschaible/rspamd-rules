@@ -446,7 +446,7 @@
 /end.{0,10}noise/i
 /end.{0,10}type.{0,10}2/i
 
-/energy.{0,10}without/i
+/energy.{0,10}(unlock|without)/i
 /enhanced.{0,10}recall/i
 
 /erase.{0,10}fat/i
@@ -632,7 +632,7 @@
 
 /min.?stretch/i
 /mind.{0,10}(barriers?|blow|boost|clarity|health|recovery)/i
-/mineral.{0,10}combination/i
+/mineral.{0,10}(combination|magic)/i
 
 /miracle.{0,10}(drops?|minerals?)/i
 /miraculous.{0,10}fruit/i
