@@ -145,6 +145,9 @@ jetzt im angebot:.{1,15}(design|klassiker|zeitlos)/i
 # Sample: Nur 11,78 anstatt 25,90
 /nur.{1,5}\d{2,3}(,|.)\d{2}.{1,5}(an)?statt.{1,5}€?\d{2,3}(,|.)\d{2}/i
 
+# Sample: nur 77,35 € statt 239 €
+/nur.{1,5}\d{2,3}(,|.)\d{2}.{1,5}(an)?statt.{1,5}€?\d{2,3}/i
+
 # Sample: nur 249 € statt 599 € für
 /nur.{1,5}\d{2,3}.{1,5}(an)?statt.{1,5}\d{2,3}.{1,10}für/iu
 
@@ -224,6 +227,7 @@ jetzt im angebot:.{1,15}(design|klassiker|zeitlos)/i
 /handgefertigte messer/i
 
 /hochdruck.?reiniger.{1,10}ab \d{2}/i
+/hochdruck.?reiniger.{1,10}für nur/iu
 /hochdruck.?reiniger.{1,10}statt.{1,10}jetzt/i
 
 /hörgeräte (kostenlos|testen)/i

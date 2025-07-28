@@ -69,11 +69,15 @@
 /fit.{0,10}(maker|pro|trainer)/i
 /(fuss|fuß).{0,10}(pflaster|power|pro)/iu
 
+/frei.{0,10}bauch/i
+
 # G
 /gelenk.{0,10}(gesundheit|pflege|retter)/i
 
 /gesund.?heute/i
 /gesunde.{0,10}(augen|ohren)/i
+
+/gut.{0,10}start/i
 /gewichts?.{0,10}(verliert|weg)/i
 
 # H
@@ -139,7 +143,9 @@
 
 /sex.{0,10}produkt/i
 
+/start.{0,10}(klar|wohl)/i
 /starten sie/i
+
 /stille?.{0,10}(klar|plus|vorteil)/i
 
 /sofort.{0,10}kick/i
@@ -162,10 +168,11 @@
 
 /wichtige?.{0,10}covid/i
 /wirkung.{0,10}jetzt/i
-/wohl.{1,10}(detox|vital)/i
+/wohl.{1,10}(detox|klar|vital)/i
 
 # X
 
 # Y
 
 # Z
+/zimt.{0,10}(spezialist|wissen)/i
