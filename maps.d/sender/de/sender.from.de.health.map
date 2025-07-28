@@ -33,6 +33,7 @@
 /^apotheken?.{0,10}news(letter)?/i
 
 # B
+/bauch.{0,10}ruhe/i
 /besser.{0,10}sehen/i
 /bett.{0,10}stille/i
 /blut.{0,10}(druck|gesundheit|hochdruck)/i
@@ -72,6 +73,7 @@
 /frei.{0,10}bauch/i
 
 # G
+/gefahr durch/i
 /gelenk.{0,10}(gesundheit|pflege|retter)/i
 
 /gesund.?heute/i
@@ -95,10 +97,10 @@
 /(kg|kilo).{1,10}(pro woche|weniger)/i
 /(kg|kilo).{1,10}(tagen?|wochen?)/i
 
-/kein verlangen/i
+/kein.{0,10}(druck|verlangen)/i
 /keto.{0,10}(diät|erfolge?|kaffee)/i
 
-/klar.{0,10}(denken|hören)/i
+/klar.{0,10}(denken|hören|start)/i
 
 /kopf.?stark/i
 
@@ -163,6 +165,8 @@
 
 /vital.{0,10}(fit|pro)/i
 
+/vorsicht.{0,10}zimt/i
+
 # W
 /weniger in.{1,10}(tagen?|wochen?)/i
 
@@ -170,9 +174,10 @@
 /wirkung.{0,10}jetzt/i
 /wohl.{1,10}(detox|klar|vital)/i
 
+/würze.{0,10}(ratgeber|wunder)/iu
 # X
 
 # Y
 
 # Z
-/zimt.{0,10}(spezialist|wissen)/i
+/zimt.{0,10}(berater|bericht|hinweis|könig|risiko|spezialist|wissen)/iu

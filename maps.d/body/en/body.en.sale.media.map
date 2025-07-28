@@ -19,7 +19,8 @@
 # A
 /advertise.{1,10}to.{1,10}million.{1,10}e?.?mails/i
 
-/attendee list with.{1,10}exclusive fee/i
+/(attendees|visitors).{1,10}list.{1,10}available.{1,30}(discounted|promotional)/i
+/(attendees|visitors).{1,10}list.{1,10}with.{1,10}exclusive fee/i
 
 /acquired.{1,10}event attendees/i
 
@@ -98,7 +99,7 @@
 /you looking.{1,15}e?.?mail.?marketing/i
 
 /you.{1,10}(are|interested|want).{1,10}(acquiring|purchasing|receive).{1,10}list/i
-/you.{1,10}(are|interested|want).{1,10}(acquiring|purchasing|receive).{1,15}(attendees|contacts|registrants|visitors).{1,20}list/i
+/you.{1,10}(are|interested|want).{1,10}(acquiring|purchasing|receive).{1,15}(attendees?|contacts|registrants|visitors?).{1,20}list/i
 /you.{1,10}(are|interested|want).{1,10}(acquiring|purchasing|receive).{1,10}linkedin.{1,10}leads/i
 /you.{1,10}(are|interested|want).{1,10}(acquiring|purchasing|receive).{1,10}unlimited targeted/i
 
