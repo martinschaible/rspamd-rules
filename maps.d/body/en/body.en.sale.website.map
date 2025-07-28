@@ -68,7 +68,7 @@
 # Q
 
 # R
-/reliable.{1,10}creative.{1,10}website/i
+/reliable.{1,10}creative.{1,10}(web)?.?site/i
 
 /(rebuilding|redesign|refurbish|revamp|repairing|upgrade) your.{1,15}(web)?.?site/i
 /(rebuilding|redesign|refurbish|revamp|repairing|upgrade) your.{1,10}(current|existing).{1,15}(web)?.?site/i
@@ -80,11 +80,13 @@
 # T
 
 # U
-/upgrade.{1,10}maintenance.{1,10}your website/i
+/upgrade.{1,10}maintenance.{1,10}your.{1,15}(web)?.?site/i
 
 # V
 
 # W
+/wanted to say your.{1,15}(web)?.?site/i
+
 /we.{1,10}team from india/i
 
 /we are.{1,20}web.?design.{1,15}(company|development)/i
