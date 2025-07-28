@@ -241,6 +241,7 @@
 /dpdepot/i
 
 /_dpd/i
+/dpd.?(™|®|©)$/i
 /dpd.{0,5}deutschland/i
 /dpd-ch/i
 /dpd eu/i
@@ -376,7 +377,9 @@
 /media markt/i
 
 #/^meta$/i
+/ads.?meta/i
 
+/meta.{0,5}ads$/i
 /meta.{0,5}(ads|support).?team/i
 /meta(mask)?.{0,5}(advertising|alert|compliance|system|trust|updates?|verification|wallet)/i
 /meta for business/i
@@ -523,6 +526,13 @@
 /service.?center.?ard.?zdf/i
 /secretary.{0,5}treasury/i
 
+/(shein|smava|spotify).?(™|®|©)$/i
+
+/s p o t i f y/i
+/spotify.?(™|®|©)$/i
+/spotify_/i
+/spotify.{0,10}(ab|inc\.|premium|team)/i
+
 /^stanley$/i
 
 /\.starbucks/i
@@ -581,12 +591,6 @@
 /swiss post/i
 /^swisspost$/i
 /swisspost.{0,5}service/i
-
-/(shein|smava|spotify).?(™|®|©)$/i
-
-/s p o t i f y/i
-/spotify_/i
-/spotify.{0,10}(ab|inc\.|premium|team)/i
 
 # T
 # ------------------------------------------------------------------------------

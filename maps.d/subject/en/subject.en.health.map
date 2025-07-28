@@ -144,7 +144,7 @@
 /ancient.{1,10}(drink|formula|herb|tea|tonic)/i
 /annoying ear buzzing/i
 
-/anti.?aging.{1,10}breakthrough/i
+/anti.?aging.{1,10}(bottle|breakthrough)/i
 /anti.{1,10}inflammatory recipe/i
 /anti.{1,20}secret/i
 
@@ -394,7 +394,7 @@
 /forget.{1,10}dieting/i
 
 /formula restored by/i
-/fruits?.{1,10}improving memory/i
+/fruits?.{1,10}(Immediately|improving)/i
 /fruits?.{1,10}(for brain|is safe)/i
 /fruits?.{1,10}that (fights|may|weakens)/i
 /fruits?.{1,10}(should|to) avoid/i
@@ -498,7 +498,7 @@
 
 /lost \d{1,2}.?(lbs|pounds)/i
 
-/lower.{1,10}high.?blood/i
+/lower.{1,10}(blood sugar|high.?blood)/i
 
 # M
 /major.{1,10}fat.?loss/i
@@ -638,6 +638,7 @@
 /scientists?.{0,10}this is/i
 
 /sec(ond)?.{1,10}(detox|home remedy|morning cleanse|sleep trick|stretch)/i
+/seconds.{1,10}relieve.{1,10}pain/i
 
 /secret behind.{1,10}aging/i
 /secret for (eating|hair)/i
