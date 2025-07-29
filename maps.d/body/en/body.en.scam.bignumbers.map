@@ -26,6 +26,7 @@
 /\d{2,4}(\.|,)?\d{3,4}.{1,10}(dollars?|euro?|usd|€|\$|£).{1,10}your designated bank account/i
 
 /\d{2,4}(\.|,)?\d{3,4}.{1,10}if interested.{1,15}contact/i
+/\d{2,4}(\.|,)?\d{3,4}.{1,10}to be credited into your.{1,15}account/i
 
 # E
 
@@ -70,5 +71,6 @@
 # X
 
 # Y
+your fund.{1,10}\d{2,4}(\.|,)?\d{3,4}/i
 
 # Z

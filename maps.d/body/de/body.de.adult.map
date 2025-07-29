@@ -27,7 +27,7 @@
 # C
 
 # D
-/deiner.{1,10}nähe hat dein profil/iu
+/deiner.{1,10}nähe hat dein.{1,10}profil/iu
 /deine.{1,10}e?.?mail.?adresse auf.{1,10}website/i
 
 /dich auf der (plattform|website) treffen/i
@@ -35,6 +35,7 @@
 
 # E
 /echtes treffen mit mir/i
+/(echten|harten).{1,10}schwanz/i
 
 /(entdecke|schaue?).{1,10}ihr.{1,10}profil/i
 
@@ -42,7 +43,7 @@
 /finde mich auf der.{1,10}(web)?site/i
 /finde einfach mein.{1,10}profil/i
 
-/frau (aus|in) deiner.{1,10}(nähe|region|umgebung) hat dein profil/iu
+/frau (aus|in) deiner.{1,10}(nähe|region|umgebung) hat dein.{1,10}profil/iu
 /frau (aus|in) deiner.{1,10}(nähe|region|umgebung) hat dich bemerkt/iu
 /frau (aus|in) deiner.{1,10}(nähe|region|umgebung) (findet|ist auf) dich/iu
 
@@ -53,10 +54,11 @@
 # G
 
 # H
-/hat dein profil gesehen/i
+
+hat dein.{1,10}profil gesehen/i
 
 /hier kannst du mir antworten/i
-/hier ist mein profil/i
+/hier ist mein.{1,10}profil/i
 
 # I
 /ich füge ein foto bei/iu
@@ -73,6 +75,7 @@
 
 # M
 /mein freizügigstes (foto|selfie)/iu 
+/meine nummer im.{1,10}profil/i
 
 # N
 /nachricht auf der.{1,10}(web)?site/i
