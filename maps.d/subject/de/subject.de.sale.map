@@ -21,7 +21,8 @@
 
 # Chair
 # ------------------------------------------------------------------------------
-/(büro|designer|massage).?(sessel|stuhl|stühle).{1,15}(abverkauf|angebot|charakter|stil|vorteilspreis)/i
+/(büro|designer|massage).?(sessel|stuhl|stühle).{1,15}(abverkauf|angebot|bezug|charakter|funktion)/i
+/(büro|designer|massage).?(sessel|stuhl|stühle).{1,25}(massage|stil|vorteilspreis)/i
 /(büro|designer|massage).?(sessel|stuhl|stühle).{1,15}nur.{1,10}zzgl/i
 /(büro|designer|massage).?(sessel|stuhl|stühle).{1,15}walholz/i
 
@@ -132,6 +133,15 @@ jetzt im angebot:.{1,15}(design|klassiker|zeitlos)/i
 
 /(ab lager|bestseller|hammerpreis|unsere).{1,10}akku.?(geräte|produkte|sets?)/i
 
+# Washing brush
+# ------------------------------------------------------------------------------
+/teleskop.{1,10}waschbürste/iu
+/(teleskopbürste|waschbürste).{1,20}(aktionspreis|länge|teleskop)/iu
+
+/neu.{1,10}(teleskopbürste|waschbürste)/iu
+
+/endlich bequem reinigen/i
+
 #
 #
 #
@@ -182,8 +192,6 @@ jetzt im angebot:.{1,15}(design|klassiker|zeitlos)/i
 /bildschirm.{1,10}statt \d{2,3}.{1,5}nur.{1,5}\d{2}/i
 
 /branchen.?führer.{1,10}\d{4}/i
-
-/(büro|massage).?(sessel|stuhl|stühle).{1,25}(bezug|funktion|massage)/i
 
 # C
 /corona.?tests?.{1,10}kombi.?tests?/i
@@ -381,8 +389,6 @@ jetzt im angebot:.{1,15}(design|klassiker|zeitlos)/i
 /teilige(n|s).{1,20}werkzeug.?(koffer|set)/i
 
 /teleskop.{1,10}profi.?leitern?/i
-/teleskop.{1,10}waschbürste/iu
-
 /testen.{1,10}hörgeräte/iu
 
 /tragbare.{1,10}heizung/i
@@ -406,8 +412,6 @@ jetzt im angebot:.{1,15}(design|klassiker|zeitlos)/i
 /verständigung ohne stress/iu
 
 # W
-/waschbürste.{1,20}teleskop/i
-
 /wasserspender ab/i
 
 /werfen ihre? hörgeräte? weg/iu
