@@ -30,6 +30,8 @@
 /box.?set wartet auf sie/i
 /mystery.?box.{1,10}ist da/i
 
+/preise?.{1,15}mystery.?box/i
+
 # Apple
 /(airpods|apple|ipad|iphone|macbook).{1,10}ausgewählte.{1,20}kunden/i
 /(airpods|apple|ipad|iphone|macbook).{1,10}gehören jetzt ihnen/i
@@ -309,11 +311,11 @@
 /(prämie|wartet).{1,10}antworte jetzt/i
 /(prämie|wartet).{1,15}bestätigen Sie Ihre Adresse/iu
 
-/preis.{1,15}mystery box/i
-/preis.{1,10}zugestellt zu bekommen/i
-/preise.{1,10}freigeschaltet/i
-/preise ist begrenzt/i
+/preise?.{1,10}freigeschaltet/i
+/preise?.{1,10}(ist|sind) begrenzt/i
+/preise?.{1,10}zugestellt zu bekommen/i
 
+/produkt berechtigt.{1,10}bestätigung ausstehend/iu
 /produktbox.{1,10}(information|zugeteilt)/i
 /profil wurde für eine besondere/iu
 

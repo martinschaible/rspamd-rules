@@ -60,8 +60,9 @@
 # H
 
 # I
-/ihr.{1,15}(belohnung|geschenk|gutschein|preis|gewinn).{1,10}innerhalb von.{1,10}stunden/i
-
+/ihre?.{1,15}(belohnung|geschenk|gutschein|preis|gewinn).{1,10}innerhalb von.{1,10}stunden/i
+/ihre kostenlose Prämie zu sichern/iu
+ 
 # J
 /jetzt.{1,10}(angaben|gewinn).{1,10}bestätigen/iu
 
