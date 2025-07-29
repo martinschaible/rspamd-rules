@@ -204,7 +204,8 @@
 /block.{1,10}fat production/i
 /blocking.{1,10}your climax/i
 
-/blood.?sugar.{1,10}(breakthrough|dropping|drops|naturally)/i
+/blood.?sugar.{1,10}(breakthrough|danger|dropping|drops|naturally)/i
+/blood.?sugar.{1,15}eat this
 /blood.?sugar.{1,10}limited time/i
 /blood.?sugar.{1,10}watch now/i
 
@@ -233,6 +234,7 @@
 /call for your health/i
 /calories.{1,10}belly fat/i
 
+/(causing|cause of|causes).{1,10}back.?pain/i
 /(causing|cause of|causes).{1,10}(dark spots|dementia|ed\b|joint pain)/i
 /(causing|cause of|causes).{1,15}(memory|vision) loss/i
 /(causing|cause of|causes).{1,10}type.{1,10}diabetes/i
@@ -250,8 +252,11 @@
 
 /collagen.{1,10}exposed/i
 /common.{1,10}drink may/i
+
+/constant.{1,10}buzzing/i
 /conquer.{1,10}tinnitus/i
 /constipation.{1,10}read this/i
+
 /could change your life/i
 
 /culprid.{1,10}strokes?/i
@@ -593,6 +598,8 @@
 
 /reclaim.{1,10}perfect vision/i
 /reclaim.{1,10}your.{1,10}(strength|vitality)/i
+
+/recover your.{1,10}memory/i
 
 /reduces?.{1,10}heart attack/i
 /reduces?.{1,10}(inflammation|joint.?pain)/i
