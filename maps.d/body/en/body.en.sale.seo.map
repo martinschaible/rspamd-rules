@@ -52,6 +52,10 @@
 # I
 /i.?a?.?m.{1,20}seo.?(consultant|expert|manager)/i
 
+/(i|we).{1,10}can help you attract.{1,10}visitors?/i
+/(i|we).{1,10}can help.{1,10}seo/i
+/(i|we).{1,10}can help improve your rankings?/i
+
 # J
 
 # K
@@ -63,6 +67,8 @@
 /move you.{1,15}up in the rankings/i
 
 # N
+/needs better seo/i
+
 /not (good|ranking) on.{1,10}(bing|google|yahoo)/i
 /not showing up well.{1,10}(bing|google|yahoo)/i
 
@@ -99,9 +105,6 @@
 # V
 
 # W
-/we.{1,10}can help you attract more visitors/i
-/we.{1,10}can help.{1,10}seo/i
-
 /we.{1,10}(get|guarantee) top.{1,15}(placement|positions?|ranking)/i
 /we.{1,10}offer.{1,15}seo.?solutions?/i
 /we.{1,10}rank you in the top/i
