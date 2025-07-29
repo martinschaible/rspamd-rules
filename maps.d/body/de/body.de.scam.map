@@ -9,8 +9,20 @@
 # Topics
 # ==============================================================================
 
+# Address collector
+# ------------------------------------------------------------------------------
+# 28.07.25 - https://www.scam-detector.com/validator/ngos1-com-review/
+#            https://www.scam-detector.com/validator/gyms1-com-review/
+/ihr eintrag erfolgreich auf unserer plattform/i
+/ihre organisation erfolgreich in unserem globalen verzeichnis/i
+/sie unsere listings.?seite unter/i
+
 # Beneficiary
 # ------------------------------------------------------------------------------
+
+# Business register
+# ------------------------------------------------------------------------------
+/unternehmen erfolgreich auf.{1,15}dem ultimativen.{1,10}verzeichnis/i
 
 # Comparing price for solar energy at home
 # ------------------------------------------------------------------------------
@@ -52,19 +64,9 @@
 # ------------------------------------------------------------------------------
 # -> They are stealing personal information
 
-# Business register
-# ------------------------------------------------------------------------------
-
 # Fake Companies and organisations
 # ------------------------------------------------------------------------------
 /(europäischen|europäischer).{1,10}entschädigungsausschuss/iu
-
-# Address collector
-# ------------------------------------------------------------------------------
-# 28.07.25 - https://www.scam-detector.com/validator/ngos1-com-review/
-#            https://www.scam-detector.com/validator/gyms1-com-review/
-/ihre organisation erfolgreich in unserem globalen verzeichnis/i
-/sie unsere listings.?seite unter/i
 
 #
 #
@@ -87,6 +89,7 @@
 # D
 
 # E
+/(er|sie) ist staatsbürger ihres landes/iu
 
 # F
 /für sie.{1,10}die ihnen.{1,10}vorteile bringen/iu
@@ -147,7 +150,6 @@
 # T
 
 # U
-/unternehmen erfolgreich auf.{1,15}dem ultimativen.{1,10}verzeichnis/i
 
 # V
 
