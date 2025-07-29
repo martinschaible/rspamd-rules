@@ -82,13 +82,14 @@
 /aktiviere dein.{1,10}potenzial/i
 
 /antworten sie.{1,10}auf diese.{1,10}e?.?mail mit.{1,15}(bestellung|lieferadresse|vollständigen)/i
-/antworten sie.{1,10}uns einfach mit.{1,10}rechnungsadresse/i
+/antworten sie.{1,10}(bestellung|uns einfach mit).{1,10}(lieferadresse|rechnungsadresse)/i
 
 # B
 /bei ihnen zu erreichen.{1,10}um eine mögliche zusammenarbeit/iu
 
 /befreit sie.{1,10}schnarchen/i
 
+/bestellen sie.{1,15}sie.{1,10}auf diese e?.?mail/i
 /bestellen.{1,10}wir liefern per versand/i
 
 /buch ist lebensverändernd/iu
@@ -120,6 +121,7 @@
 /interesse.{1,10}entwicklung.{1,10}apps?/i
 
 # J
+/jetzt zum einführungspreis.{1,10}lieferung sofort/iu
 
 # K
 /(komfortable|neuen|revolutionäre).{1,10}einlagen/i
