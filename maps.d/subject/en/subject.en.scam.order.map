@@ -43,8 +43,10 @@
 # H
 /head of purchase/i
 
+/help with your.{1,10}product.?range/i
+
 # I
-/interested in your products/i
+/interested in your.{1,10}products/i
 
 # Sample: inquiry info@amelec.ch
 /inquiry [a-z]{3,15}@/i
@@ -52,10 +54,10 @@
 /inquiry.?order/i
 
 /inquiry.{1,10}investment/i
-/inquiry.{1,15}about your products/i
+/inquiry.{1,15}about your.{1,10}products/i
 /inquiry.{1,10}urgent procurement/i
-/inquiry.{1,10}product list/i
-/inquiry.{1,10}your products/i
+/inquiry.{1,10}product.?list/i
+/inquiry.{1,10}your.{1,10}products/i
 
 /invitation.{1,10}(contractors|tender|vendors)/i
 

@@ -70,7 +70,7 @@
 /financial support for you/i
 /financing for your.{1,15}(business|projects?)/i
 
-/flexible financing solutions/i
+/flexible.{1,10}(financing|loan).{1,10}(options?|solutions?)/i
 
 /fuel your growth/i
 
@@ -144,9 +144,10 @@
 /tailored financial.{1,10}(solutions?|Collaboration)/i
 
 # U
-/unlock potential with/i
-/unlock success with up to.{1,10}available/i
-/unlock tailored financial/i
+/unlock.{1,10}potential with/i
+/unlock.{1,10}success with up to.{1,10}available/i
+/unlock.{1,10}tailored financial/i
+/unlock.{1,10}your.{1,10}financial potential/i
 
 # V
 
