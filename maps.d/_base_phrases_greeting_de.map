@@ -119,9 +119,6 @@
 
 /(e?.?mail|sie zu kontaktieren).{1,10}mein name ist/i
 
-/hallo.{1,10}mein name ist.{5,25}ich bin.{1,10}jahre alt/i
-/hallo.{1,10}mein name ist.{5,25}ich wende mich von/i
-
 /von dr\..{5,30}ich bin dr\./i
 
 # Greetings, Country
