@@ -283,7 +283,7 @@
 
 /back.{0,10}(aches?|fixer|pain|stretch)/i
 
-/balance.{0,10}(blood|brain|problem|restored|your)/i
+/balance.{0,10}(blood|booster|brain|problem|restored|your)/i
 /balanced.?(bp|glucose)/i
 /bald.{0,10}spot/i
 
@@ -316,7 +316,7 @@
 /blue.{0,10}(drink|juice|pill|plant|replacement)/i
 /blurry.{0,10}fix/i
 
-/brain.{0,10}(fix|noise|revival|solution)/i
+/brain.{0,10}(boostfix|noise|revival|solution)/i
 
 /breakfast.{0,10}(juice|treat)/i
 /(breathe|breathing).{0,10}(better|clearer|easier|easy)/i
@@ -493,7 +493,7 @@
 /fountain of/i
 
 /food.{0,10}(cravings?|choices?|odor|safety|trap)/i
-/foot.{0,10}(care|patch(es)?|solution)/i
+/foot.{0,10}(care|patch(es)?|safety|solution)/i
 
 /free.{0,10}skin/i
 
@@ -522,6 +522,8 @@
 # H
 /hair.{0,5}(balding|enhancer|experts?|growth|loss)/i
 /hair.{0,5}(renewal|restoration|restorer?|revival|strength|thinning)/i
+
+/hanging.{0,10}belly/i
 
 /hard in\b/i
 
@@ -811,6 +813,7 @@
 /spinal.{0,10}pain/i
 
 /strange.{0,10}acid/i
+/stretch.{0,10}length/i
 /stretch.{0,10}smart(er)?/i
 /strong.{0,10}stream/i
 

@@ -34,8 +34,10 @@
 # C
 
 # D
-/(dollar|euro?|gbp|usd|€|\$|£).{1,10}ausgewählt wurden.{1,10}kontaktieren sie uns/i
+/(dollar|euro?|gbp|usd|€|\$|£).{1,10}ausgewählt wurden.{1,10}kontaktieren sie/i
 /(dollar|euro?|gbp|usd|€|\$|£).{1,10}ausgewählt.{1,10}melden sie sich/iu
+/(dollar|euro?|gbp|usd|€|\$|£).{1,10}erhalten haben.{1,10}kontaktieren sie/i
+/(dollar|euro?|gbp|usd|€|\$|£).{1,10}euro zu erhalten.{1,10}um ihren anspruch/i
 /(dollar|euro?|gbp|usd|€|\$|£).{1,10}wurden (an sie|ihnen) gespendet/i
 
 # E
@@ -68,7 +70,9 @@
 /ich habe.{1,10}einen.{1,10}charity.?fonds/i
 /ich habe.{1,10}eine spende von.{1,15}(dollar|euro?|gbp|usd|€|\$|£)/i
 
-/ihre?.{1,10}e?.?mail.?(adresse|konto)?.{0,25}wurde.{1,15}für.{1,15}(investitionshilfe|spende|wohltätigkeitsspende)/iu
+/ihre?.{1,10}e?.?mail.?(adresse|konto)?.{1,15}ausgewählt wurde.{1,15}spende/iu
+
+/ihre?.{1,10}e?.?mail.?(adresse|konto)?.{1,25}wurde.{1,15}für.{1,15}(investitionshilfe|spende|wohltätigkeitsspende)/iu
 /ihre?.{1,10}e?.?mail.?(adresse|konto)?.{1,15}wurde ausgewählt.{1,10}um einen zuschuss/iu
 /ihre?.{1,10}e?.?mail.?(adresse|konto)?.{1,15}wurde per zufallsprinzip/i
 

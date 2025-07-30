@@ -106,6 +106,8 @@
 /factory 202\d\//i
 /factory looking for.{1,10}cooperation/i
 
+/fast delivery.{1,10}cost efficiency/i
+
 /fiberglass fabric from/i
 
 /find.{1,10}tooling maker/i
@@ -127,7 +129,8 @@
 /help increasing in.{1,15}market/i
 
 /high performance.{1,20}solution/i
-/high quality.{1,10}good service/i
+/high.?quality.{1,10}good service/i
+/high.?quality.{1,10}transformers?/i
 
 # I
 /ic microchip request/i
@@ -162,6 +165,7 @@
 
 /many years.{1,10}oem/i
 
+/manufacture.{1,10}vendor from china/i
 /manufacturers?.{1,10}looking.{1,10}cooperation/i
 /manufacturers?.{1,10}seeks cooperation/i
 /manufacturers?.{5,25}since/i
@@ -203,17 +207,19 @@
 /(parts|source).{1,10}manufacturer/i
 
 /pcb and pcba/i
+/^pcb boards?$/i
 
 /(pcba?|printed.?circuit.?board).{1,20}(assembly|business|cooperation|enquiry|fabrication|factory)/i
 /(pcba?|printed.?circuit.?board).{1,10}(manufacturer?|manufacturing|needs|provider|service|solutions?)/i
 
 /(pcba?|printed.?circuit.?board).{1,10}co.{1,5}ltd/i
 /(pcba?|printed.?circuit.?board).{1,10}manufactuer for.{1,15}(customers|worldwide)/i
+/(pcba?|printed.?circuit.?board).{1,10}mould partner/i
 /(pcba?|printed.?circuit.?board).{1,10}partners?.{1,10}(iso|worthy)/i
 /(pcba?|printed.?circuit.?board).{1,10}production line/i
 /(pcba?|printed.?circuit.?board).{1,10}supplier for/i
 /(pcba?|printed.?circuit.?board).{1,10}supply chain/i
-/(pcba?|printed.?circuit.?board).{1,10}mould partner/i
+/(pcba?|printed.?circuit.?board).{1,10}with high quality/i
 
 /plastic.?injection.{1,10}mould.?maker/i
 /plastic.?(mold|tooling|toolmaking).{1,10}(making|quotation|services|solution)/i

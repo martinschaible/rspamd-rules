@@ -23,7 +23,7 @@
 /(secret|simple|unusual).{1,10}(hack|ritual|solution|trick).{1,15}(activate|erases|needs|reverses|trusted|to end)/i
 
 /second.{1,10}(dumping|water).{1,10}fix/i
-/second.{1,10}habit.{1,10}transforms/i
+/second.{1,10}habit.{1,15}(balance|better|transforms)/i
 
 /secrets? lowers.{1,10}high blood/i
 /secrets? to (enhancing|unlock(ing)?)/i
@@ -268,6 +268,7 @@
 /cuts?.{1,10}heart attack/i
 
 # D
+/damaging.{1,10}your (gut|memory)/i
 /dark spots.{1,10}aging/i
 
 /dealing.{1,10}constipation/i
@@ -285,8 +286,9 @@
 
 /discover.{1,10}breakthrough/i
 /discover.{1,10}the hidden/i
-/discover.{1,10}the (key|secret) to/i
-/discover.{1,10}the truth behind/i
+/discover.{1,10}the.{1,10}(key|secret) to/i
+/discover.{1,10}the.{1,10}truth behind/i
+/discover.{1,10}the.{1,10}worst/i
 
 /ditch your.{1,10}diabetes/i
 
@@ -548,9 +550,11 @@
 /new nerve relief/i
 /new way.{1,10}eliminate/i
 
+/no gym.{1,10}no bs/i
 /no joint pain/i
 /no more ibuprofen/i
 /no pills.{1,10}no side effects/i
+/no sit.?ups/i
 /no surgery needed/i
 
 /nobel prize.{1,10}discovery/i
@@ -714,7 +718,7 @@
 /stops?.{1,10}memory loss/i
 
 /strange.{1,15}(acid|boosts|tea)/i
-/stretch that (eliminates|restores|stops)/i
+/stretch that (eliminates|restores|stops|works)/i
 /stretch to (eliminate|prevent|unlock)/i
 
 /strong(er)?.{1,10}(erections?|gums|teeth)/i
