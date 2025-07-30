@@ -84,6 +84,8 @@
 # X
 
 # Y
+/you have.{1,10}pending.{1,10}(e?.?mails?|messages?).{1,10}on our/i
+
 /you must clear.{1,10}cache immediately/i
 /you must clear.{1,10}cache.{1,20}(send|receive)/i
 

@@ -122,6 +122,9 @@
 /final (notice|reminder).{1,10}enable.{1,20}2fa/i
 /final (notice|reminder).{1,10}verify your/i
 
+# 30.07.25 - Final Notice Regarding Unsubmitted Tax Documents
+/税務書類未提出に関する最終通知/i
+
 # G
 
 # H
@@ -137,6 +140,9 @@
 /important.{1,10}information.{1,15}your.{1,15}(account|profile)/i
 
 /important mailbox/i
+
+# 30.07.25 - Important notice
+/重要通知/i
 
 /important.{1,15}(notice|notification).{1,10}account verification/i
 /important.{1,15}(notice|notification).{1,10}for.{1,15}@/i
@@ -202,6 +208,9 @@
 
 /reconfirm.{1,10}e?.?mail.{1,10}before/i
 
+# 30.07.25 - Request for tax document submission
+/税務書類提出のお願い/i
+
 /reminder.{1,10}missing tax/i
 /reminder.{1,10}resolve your.{1,15}payment/i
 
@@ -241,6 +250,7 @@
 /urgent.{1,10}action.{1,15}delivery/i
 /urgent.{1,10}e.?mail.?confirmation/i
 /urgent.{1,10}(e.?mail|mailbox).{1,10}update required/i
+/urgent.{1,10}incoming pending.{1,10}(e?.?mails|messages)/i
 /urgent.{1,10}password notice/i
 /urgent.{1,10}two.?factor.{1,15}(activation|authentication)/i
 
