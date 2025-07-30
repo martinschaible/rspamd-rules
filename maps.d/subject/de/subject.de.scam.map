@@ -35,7 +35,7 @@
 
 # 18.12.24 Sample: 18.12.2024 / PV-Anlage
 /\d{2}\.\d{2}\d.{4}.{1,10}(photovoltaik|pv|solar).?anlagen?/i
-/\d{2}\.\d{2}\d.{4}.{1,10}pv.{1,5}förderung/iu
+/\d{2}\.\d{2}\d.{4}.{1,10}pv.{1,10}förderung/iu
 
 /auszahlung.{1,10}förderung/iu
 
