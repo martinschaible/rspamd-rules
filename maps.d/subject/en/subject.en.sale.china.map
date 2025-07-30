@@ -78,6 +78,8 @@
 /dash.?cam(era)?/i
 
 /dependable.{1,10}(pcba?|printed.?circuit.?board).{1,10}partner/i
+
+/die casting solutions/i
 /discuss.{1,10}(pcba?|printed.?circuit.?board).{1,10}products/i
 
 /distribution.{1,15}manufactory/i
@@ -141,6 +143,7 @@
 /injection.{1,15}mold(ing)/i
 /injection.{1,15}mou?ld/i
 
+/(international|trading).{1,10}co.{1,5}ltd/i
 /inquiry about.{1,10}pcba?/i
 
 /iso.{1,10}qualifed factory/i
@@ -260,6 +263,8 @@
 
 /shoes direct factory/i
 
+/solutions.{1,10}precision.{1,10}quality/i
+
 /standard mold(ing)?/i
 
 /supplier.{1,10}from china
@@ -272,8 +277,6 @@
 # T
 /toolmaking services.{1,10}china/i
 /tooling.{1,10}mold(ing)? parts/i
-
-/trading co.{1,5}ltd/i
 
 /trusted.{1,10}professionals?.{1,10}manufacturer/i
 /trustworthy.{1,10}company/i
