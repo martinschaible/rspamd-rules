@@ -27,8 +27,8 @@
 # Already covered by FROM_NAME_HAS_TITLE (1)
 #/^dr\.?\b/i
 
-/^frau/i
-/^herr/i
+/^frau\b/i
+/^herr\b/i
 
 #
 #
@@ -368,6 +368,7 @@
 /kennenlernen/i
 /kissen$/i
 
+/klarwissen/i
 /kontact/i
 
 /kontoaktivität/i
@@ -782,6 +783,8 @@
 
 /videotürklingel/iu
 /(viren|virus).?(bedrohung(en)?|schutz)/i
+
+/vorsicht/i
 
 # W
 /wachstumshormon/i

@@ -31,6 +31,8 @@
  #/(swiss|world).{0,10}(bitcoin|btc|crypto|krypto)/i
 /finance.{0,10}(bitcoin|btc|crypto|krypto)/i
 
+/blog.?coin/i
+
 # ETF (Exchange Traded Funds)
 # ------------------------------------------------------------------------------
 /(eft|etf).?customer/i

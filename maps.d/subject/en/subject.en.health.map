@@ -271,6 +271,7 @@
 /damaging.{1,10}your (gut|memory)/i
 /dark spots.{1,10}aging/i
 
+/(daily|relief).{1,10}pain/i
 /dealing.{1,10}constipation/i
 /defeat ed\b/i
 
@@ -796,6 +797,8 @@
 /tonic.{1,10}fixed/i
 /top nasa researcher/i
 /top doctor.{1,10}reveals/i
+
+/try this doctors?/i
 
 # U
 /unclogs?.{1,10}arteries/i

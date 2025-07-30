@@ -298,7 +298,7 @@
 /belly.{0,10}(buddy|buster)/i
 /berry.{0,10}detox/i
 
-/best.{0,10}sleep/i
+/best.{0,10}(salt|sleep)/i
 /better.{0,10}(balance|knees|live|nerves?|poop|sight)/i
 
 /big o$/i
@@ -359,7 +359,8 @@
 /cause.{0,10}aging/i
 /cbd.{0,10}(caps|experts?|fruit|gummies|solution|therapy)/i
 
-/celebrity.{0,10}doc(tor)?/i
+/celeb(rity)?.{0,10}doc(tor)?/i
+/celeb(rity)?.{0,10}diet/i
 
 /chicken.{0,10}protein/i
 
@@ -644,7 +645,7 @@
 /mit.{0,10}research/i
 /mitochondria.{0,10}boost/i
 
-/morning.{0,10}(boost|dessert|detox|drink|hack|metabolism|mistake)/i
+/morning.{0,10}(boost|dessert|detox|drink|hack|melt|metabolism|mistake)/i
 /morning.{0,10}(oil|reset|ritual|routine|slimmer|wood)/i
 
 /mouth.{0,10}(detox|odor)/i
@@ -667,7 +668,7 @@
 /nature.{0,10}(cure|morphine|opioids?|tea)/i
 
 /neck.{0,10}skin/i
-/nerves?.{0,10}(comfort|damage|health|killing|pain|recovery|repair|revival|support)/i
+/nerves?.{0,10}(comfort|damage|defense|health|killing|pain|recovery|repair|revival|support)/i
 
 /never.{0,10}(eat|forget)/i
 /new.{0,10}(energy|hair|research)/i
