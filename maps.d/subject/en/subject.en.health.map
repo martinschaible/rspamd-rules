@@ -784,6 +784,7 @@
 /(try|this).{1,10}(miracle|natural)/i
 /(try|this).{1,10}simple.{1,10}nutrient/i
 
+/this.{1,10}dangerous ingredient/i
 /this.{1,10}fruit.{1,15}(cuts|hurts|mistake)/i
 /this.{1,10}food kills.{1,10}(back|hip|knee|pain)/i
 /this.{1,10}second twist/i
@@ -812,6 +813,7 @@
 /unlock.{1,10}lasting energy/i
 /unlock.{1,10}pleasure.{1,10}(centers?|points?)/i
 /unlock.{1,10}(memory|prostate|sharper|tight hips)/i
+/unlock.{1,10}your body/i
 
 # V
 /veggie.{1,10}(secretly|to avoid)/i
