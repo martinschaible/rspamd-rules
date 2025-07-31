@@ -872,6 +872,8 @@
 /top.{0,10}(experts?|fruits|medication)/i
 /toxic.{0,10}(food|liquid|milk|mineral)/i
 /toxin.{0,10}(destroyer|flush|mineral|removal)/i
+
+/trapped.{0,10}toxins/i
 /tropical.{0,10}(fruit|juice)/i
 
 /traditional hypertension medications/i
@@ -911,7 +913,7 @@
 /warning.{0,10}signs?/i
 
 /weird.{0,10}sound/i
-/wellness.{0,10}(alert|bulletin|brief|insights|living|news|weekly)/i
+/wellness.{0,10}(alert|bulletin|brief|daily|insights|living|news|report|weekly)/i
 
 /white.{0,10}(carb|smile)/i
 /without.{0,10}glasses/i
