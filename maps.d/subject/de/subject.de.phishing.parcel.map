@@ -93,6 +93,7 @@
 /ihre?.{1,10}(lieferung|paket|sendung).{1,10}braucht sie/i
 #/ihre?.{1,10}(lieferung|paket|sendung).{1,10}ist.{1,10}(blockiert|erfolgt)/i
 /ihre?.{1,10}(lieferung|paket|sendung).{1,10}ist.{1,10}blockiert/i
+/ihre?.{1,10}(lieferung|paket|sendung).{1,10}ist fast da/i
 #/ihre?.{1,10}(lieferung|paket|sendung).{1,10}ist.{1,10}da/i
 /ihre?.{1,10}(lieferung|paket|sendung).{1,10}wartet/i
 #/ihre?.{1,10}(lieferung|paket|sendung).{1,10}wird (versendet|zugestellt)/i
@@ -128,13 +129,16 @@
 
 # L
 /letzte chance.{1,10}(lieferung|versand|zustellung) wird/i
-/letzter schritt zur zustellung/i
+
+/letzter schritt.{1,10}(vor der|zur).{1,10}(lieferung|zustellung)/i
 
 /lieferadresse überprüfen/iu
 /lieferdetails.{1,10}um die lieferung/i
 /lieferproblem.{1,10}antworten sie/i
 
 /(lieferung|versand).{1,10}jetzt bestätigen/i
+
+/(lieferung|paket|sendung|versand|zustellung).{1,10}\.\.\.\]/i
 
 /(lieferung|paket|sendung|versand|zustellung).{1,10}(ausstehende|unbezahlte).{1,10}(versandkosten|zollgebühren)/iu
 /(lieferung|paket|sendung|versand|zustellung).{1,10}ist angehalten/i
@@ -224,6 +228,7 @@
 /versand.{1,10}ist (auf seinem weg|unterwegs)/i
 /versand.{1,10}versendet wird/i
 
+/versandbereit.{1,10}bestätigung nötig/iu
 /versandbestätigung erforderlich/iu
 
 # W

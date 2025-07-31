@@ -57,6 +57,7 @@
 
 # P
 /(paket|sendung).{1,20}auf.{1,10}anweisungen.{1,15}(bezüglich|wartet)/i
+/(paket|sendung).{1,10}befindet sich.{1,10}(finalen|letzten).{1,10}(zustellphase|zustellprozess)/i
 /(paket|sendung).{1,10}bereit für die lieferung/iu
 /(paket|sendung).{1,15}das an sie hätte geliefert/iu
 /(paket|sendung).{1,15}dessen empfänger sie sind/iu
@@ -70,6 +71,7 @@
 /(paket|sendung).{1,15}werden dem importeur/iu
 
 /(paket|sendung).{1,20}wurde.{1,10}eine unstimmigkeit festgestellt/i
+/(paket|sendung).{1,10}wurde erfolgreich im verteilzentrum/i
 /(paket|sendung).{1,15}wurde.{1,20}in der schweiz (verarbeitet|zugestellt)/i
 
 /paketdienste? weiterhin ohne unterbrechung/i
@@ -79,7 +81,7 @@
 # R
 
 # S
-/sie um eine geringe servicegebühr/iu
+/sie um eine (geringe|kleine) (bearbeitungspauschale|servicegebühr|zustellgebühr)/iu
 
 # T
 
