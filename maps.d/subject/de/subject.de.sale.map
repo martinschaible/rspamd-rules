@@ -13,7 +13,7 @@
 /klima.?(anlage|geräte?).{1,20}(für|nur).{1,10}zzgl.{1,10}mwst/iu
 /klima.?(anlage|geräte?).{1,20}(ab|nur).{1,10}statt/i
 /klima.?(anlage|geräte?).{1,20}(aktionspreis|sonderpreis)/i
-/klima.?(anlage|geräte?).{1,20}(bestellen|einsatzbereit|jetzt|lieferbar|verfügbar)/i
+/klima.?(anlage|geräte?).{1,20}(bestellen|einsatzbereit|jetzt|lieferbar|reduziert|schnell|verfügbar)/i
 
 /(btu|mobilen?|mobiles?).{1,15}klima.?(anlage|geräte?)/iu
 
@@ -273,7 +273,7 @@ jetzt im angebot:.{1,15}(design|klassiker|zeitlos)/i
 /komplett für nur \d{2,3}.{1,10}netto/iu
 /kooperationsmöglichkeit.{1,10}qualifiziertes?/iu
 
-/kühlen ohne einbau/iu
+/kühlen?.{1,10}(ohne|räume)/iu
 
 # L
 /(innovativen?|perfekte|smarte).{1,10}lampe/i
