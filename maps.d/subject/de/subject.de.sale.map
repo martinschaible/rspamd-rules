@@ -101,13 +101,21 @@ jetzt im angebot:.{1,15}(design|klassiker|zeitlos)/i
 # Pen
 # ------------------------------------------------------------------------------
 /(werbe)?(kugelschreiber|kuli).{1,15}(ab|für) (\d|nur)/i
-/(werbe)?(kugelschreiber|kuli).{1,10}(sichern|sonderpreis)/i
+/(werbe)?(kugelschreiber|kuli).{1,10}(anfragen|bestellen)/i
+/(werbe)?(kugelschreiber|kuli).{1,10}geschäftspartner/iu
+/(werbe)?(kugelschreiber|kuli).{1,10}(sichern|sofort|sonderpreis)/i
+
+/(logo|werbe).?stifte/i
 
 /die kulis/i
+/jetzt markenbotschafter/i
 /kulis mit ihrem/i
+/logo.{1,15}(modern|schwung|stifte|veredelt)/i
+
+/mit ihrem logo/i
 
 # A - B
-/aluminium.{0,15}(werbe)?(kugelschreiber|kuli)/iu
+/(aluminium|bedruckte).{0,15}(werbe)?(kugelschreiber|kuli)/iu
 # C - L
 /(cent per|eindruck|elegante|fordern|gummierte|hochwertige|individuellen?|jetzt|kostenlos|luxus|logo).{0,15}(werbe)?(kugelschreiber|kuli)/iu
 # M
@@ -116,10 +124,6 @@ jetzt im angebot:.{1,15}(design|klassiker|zeitlos)/i
 /(neue|personalisierte|premium|profi|sichern|stilvolle|softtouch?|unseren).{0,15}(werbe)?(kugelschreiber|kuli)/iu
 # V - W
 /(verfügbar|werbe|werbung).{1,15}(werbe)?(kugelschreiber|kuli)/iu
-
-/jetzt markenbotschafter/i
-
-/logo.{1,15}(modern|schwung|veredelt)/i
 
 # Tools
 # ------------------------------------------------------------------------------
