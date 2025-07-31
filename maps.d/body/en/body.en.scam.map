@@ -43,6 +43,10 @@
 /(beneficiaries|beneficiary).{1,10}the total sum of/i
 
 # C
+
+# No idea what this is for
+/click below for.{1,10}complimentary copy of/i
+
 /commission basis.{1,10}if you.{1,10}interested/i
 
 # D

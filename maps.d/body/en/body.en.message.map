@@ -34,8 +34,13 @@
 
 /i have.{1,15}(confidential|important) message/i
 
+/important.{1,10}pending.{1,10}(e?.?mail|message)/i
+
+/review.{1,10}important.{1,10}pending.{1,10}(e?.?mail|message)/i
+
 /this.{1,10}(e?.?mail|message).{1,15}strictly confidential/i
 /this.{1,10}(e?.?mail|message).{1,15}confidential.{1,10}urgent/i
+
 
 # Message
 # ------------------------------------------------------------------------------

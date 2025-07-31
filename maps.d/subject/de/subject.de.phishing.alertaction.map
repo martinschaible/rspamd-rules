@@ -29,7 +29,7 @@
 
 /aktion erforderlich!/i
 
-/aktion erforderlich.{1,10}dpd/i
+/aktion erforderlich.{1,10}(dpd|sepa)/i
 /aktion erforderlich.{1,15}identitätsüberprüfung/iu
 /aktion erforderlich.{1,15}(schliessen|schließen) sie/i
 /aktion erforderlich.{1,15}(rückerstattung|zahlungsstatus)/i
@@ -159,6 +159,7 @@
 /entdeckt.{1,10}schützen sie sich jetzt/iu
 /erforderliche.{1,10}(massnahmen?|maßnahmen?).{1,10}(liefer)?adresse/iu
 
+/erinnerung.{1,10}angebot/i
 /erinnerung.{1,10}änderung ihrer anmeldedaten/iu
 /erinnerung.{1,10}persönliches angebot/iu
 /erinnerung.{1,10}verifizierung ihrer/i
