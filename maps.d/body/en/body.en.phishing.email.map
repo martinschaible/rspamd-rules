@@ -64,7 +64,7 @@
 # Q
 
 # R
-/(release|unlock|view).{1,10}(incoming|pending|suspended).{1,10}(e?.?mails?|messages?)/i
+/(release|review|unlock|view).{1,15}(important|incoming|pending|suspended).{1,15}(e?.?mails?|messages?)/i
 
 # S
 /server has important.{1,10}(e?.?mails?|messages?).{1,10}suspended/i
@@ -85,6 +85,7 @@
 
 # Y
 /you have.{1,10}pending.{1,10}(e?.?mails?|messages?).{1,10}on our/i
+/you have.{1,10}important.{1,10}pending.{1,10}(e?.?mails?|messages?)/i
 
 /you must clear.{1,10}cache immediately/i
 /you must clear.{1,10}cache.{1,20}(send|receive)/i

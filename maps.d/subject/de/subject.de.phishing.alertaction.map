@@ -107,7 +107,8 @@
 
 /bestätigen.?-.?#[a-z0-9]{4,10}/iu
 /bestätigen sie ihre.{1,5}adresse/i
-/bestätigen sie ihre.{1,10}(lieferdaten|prämie|rechtsform|zusendung)/iu
+/bestätigen sie (die|ihre).{1,10}(lieferadresse|lieferdaten)/i
+/bestätigen sie (die|ihre).{1,10}(prämie|rechtsform|zusendung)/iu
 
 /bestätigen sie kurz/iu
 
@@ -226,6 +227,7 @@
 /jetzt bereinigen/i
 #/jetzt handeln/i
 
+/jetzt.{1,10}aktiv werden.{1,10}sicherheitsüberprüfung/iu
 /jetzt.{1,10}einsehen.{1,10}ihre transaktionen/i
 /jetzt.{1,10}handeln.{1,10}(vermeiden sie|verdächtige)/iu
 /jetzt.{1,10}(kontoüberprüfung|sicherheitsupdate|verifizierung) durchführen/iu

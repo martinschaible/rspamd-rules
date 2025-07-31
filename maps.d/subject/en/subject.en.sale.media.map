@@ -56,7 +56,7 @@
 /database.{1,10}(germany|switzerland).{1,15}companies/i
 
 # E
-/e?.?mail.{1,10}list.{1,10}lead/i
+/e?.?mail.{1,10}list.{1,10}(lead|valid)/i
 /e?.?mail.{1,10}platform.{1,20}campaigns/i
 /e?.?mail.{1,10}success starts with us/i
 
@@ -122,6 +122,7 @@
 # U
 /unlimited mailing for/i
 
+/unlock.{1,15}instagram growth/i
 /unlock.{1,10}power.{1,10}wikipedia/i
 /unlock.{1,10}your leads?/i
 

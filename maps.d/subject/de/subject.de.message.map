@@ -66,9 +66,10 @@
 # ==============================================================================
 
 # A
+/anfrage für private nachrichten/iu
+
 /auf meine.{1,15}e?.?mail/i
 /auf nachricht antworten/i
-
 
 # B
 /bestätigung.{1,15}(e?.?mail|nachricht).{0,10}eingangs? bitten/iu
@@ -144,6 +145,7 @@
 
 #/nachricht.{1,10}für (dich|sie)/i
 /nachricht.{1,10}ref\b/i
+
 /neue nachricht von (der|einer)/i
 
 # O

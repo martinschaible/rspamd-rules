@@ -22,8 +22,9 @@
 /cruiser.{1,10}e.?bike/iu
 
 /^e(lectric)?.{0,10}(bicycle|bike)/i
-/e(lectric)?.{0,10}(bicycle|bike).{1,15}(adventrue|built|coorperation|delivers?|distribution|interest)/i
-/e(lectric)?.{0,10}(bicycle|bike).{1,15}(factory|germany|performance|ready|shipped|supplier)/i
+/e(lectric)?.{0,10}(bicycle|bike).{1,15}(adventrue|built|coorperation)/i
+/e(lectric)?.{0,10}(bicycle|bike).{1,15}(day shipping|delivers?|distribution)/i
+/e(lectric)?.{0,10}(bicycle|bike).{1,15}(factory|germany|interest|performance|ready|shipped|supplier)/i
 
 /fat.?tire.{1,10}e(lectric)?.{0,10}(bicycle|bike)/i
 

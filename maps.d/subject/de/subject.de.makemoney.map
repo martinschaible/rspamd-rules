@@ -46,6 +46,7 @@
 
 /(geld|reich).{1,15}durch (ai\b|chat.?gpt|ki\b)/i
 /(dividenden|geld verdienen).{1,15}(ai\b|chat.?gpt|ki\b)/i
+/schlupfloch.{1,5}(ai|ki)/i
 
 # ETF (Exchange Traded Funds)
 # ------------------------------------------------------------------------------
