@@ -17,17 +17,21 @@
 # ==============================================================================
 
 # A
+/about your business operations/i
+/(attached|enclosed).{1,10}file.{1,10}send us the price/i
 
 # B
 
 # C
 
 # D
+/details about your business/i
 
 # E
 
 # F
-/(attached|enclosed).{1,10}file.{1,10}send us the price/i
+
+/following up.{1,10}regarding your company/i
 
 # G
 

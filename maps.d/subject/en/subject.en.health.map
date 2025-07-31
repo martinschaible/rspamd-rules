@@ -22,8 +22,9 @@
 
 /(secret|simple|unusual).{1,10}(hack|ritual|solution|trick).{1,15}(activate|erases|needs|reverses|trusted|to end)/i
 
-/second.{1,10}(dumping|water).{1,10}fix/i
-/second.{1,10}habit.{1,15}(balance|better|transforms)/i
+/sec(ond)?.{1,10}(dumping|water).{1,10}fix/i
+/sec(ond)?.{1,10}habit.{1,15}(balance|better|transforms)/i
+/sec(ond)?.{1,10}skin trick/i
 
 /secrets? lowers.{1,10}high blood/i
 /secrets? to (enhancing|unlock(ing)?)/i
@@ -62,12 +63,14 @@
 
 /unusual greek/i
 
-/(weird|this simple).{1,20}(formula|hack|remedy|trick)/i
+/(viral|weird|this simple).{1,20}(formula|hack|remedy|trick)/i
 
 # Weight Loss
 # ------------------------------------------------------------------------------
-/(fat|weight).?loss.{1,10}(breakthrough|cure|soup|switch|tip)/i
+/(fat|weight).?loss.{1,10}(breakthrough|cure|coffee|tip)/i
 /(fat|weight).?loss.{1,10}(remedies|remedy)/i
+/(fat|weight).?loss.{1,10}(soup|switch)/i
+/(fat|weight).?loss.{1,10}viral/i
 /(fat|weight).?burning.{1,15}(exposed|fruit|morning|routine)/i
 
 /(fat|weight).{1,10}gain.{1,10}fatigue/i
@@ -106,7 +109,7 @@
 
 /\d{1,2}.{1,10}day trick to a/i
 /\d{1,2}.{1,10}second (rub|routine|reset|technique)/i
-/\d{1,3}.?(lbs|pounds).{1,10}(gone|flab)/i
+/\d{1,3}.?(lbs|pounds).{1,10}(gone|flab|transformation)/i
 
 /\d cause of/i
 /\d (easy|simple) (habit|stretch|trick)/i
@@ -402,10 +405,11 @@
 /forget.{1,10}dieting/i
 
 /formula restored by/i
-/fruits?.{1,10}(Immediately|improving)/i
+/fruits?.{1,10}(immediately|improving)/i
 /fruits?.{1,10}(for brain|is safe)/i
 /fruits?.{1,10}that (fights|may|weakens)/i
 /fruits?.{1,10}(should|to) avoid/i
+/fruits?.{1,10}surprising benefits/i
 /fruits?.{1,10}worse than/i
 
 /fungus.{0,10}(cure|fix|vanish)/i
@@ -673,6 +677,7 @@
 /simple at.?home/i
 /simple daily habit/i
 /simple drink helps/i
+/simple fruit with/i
 /simple habit.{1,10}(destroys|that)/i
 /simple oral flush/i
 /simple spine/i
@@ -738,7 +743,11 @@
 /swollen.{1,10}(feet|prostate)/i
 
 # T
+/that ages you/i
+
 /take this instead/i
+/take this simple/i
+
 /tea slows aging/i
 
 /the.{1,10}minute morning/i
@@ -790,6 +799,7 @@
 /this.{1,10}second twist/i
 
 /tsp.{1,10}fat.?drain/i
+/tsp of this/i
 
 /to end.{1,10}(diabetes|pain)/i
 /to get.{1,10}hard/i
