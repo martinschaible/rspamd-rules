@@ -185,6 +185,7 @@
 
 /(hello|hi).{1,5}partner.{1,10}good day/i
 /(hello|hi).{1,5}sir.{1,10}i am dr\./i
+/(hello|hi).{1,5}we are interested in your products/i
 
 /hi \[first.?name\]/i
 /hi user.{1,10}you have requested/i
