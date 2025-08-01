@@ -113,7 +113,9 @@
 /bestätigen sie kurz/iu
 
 /bestätigung ausständig/iu
-/bestätigung ihrer.{1,15}bestellung.{1,10}jetzt handeln/i
+
+/bestätigung.{1,10}ihrer.{1,10}zwei.?faktor.?authentifizierung.{1,10}erforderlich/i
+/bestätigung.{1,10}ihrer.{1,15}bestellung.{1,10}jetzt handeln/i
 
 /betreff.{1,5}(achtung|wichtige information)/i
 
@@ -327,7 +329,7 @@
 /sicherheits.?benachrichtigung.{1,10}bestätigen sie/iu
 
 /sicherheitsmaßnahmen.{1,15}jetzt.{1,15}konto/i
-/Sicherheits.?nachricht.{1,10}online/i
+/sicherheits.?nachricht.{1,10}online/i
 
 /sicherheits.?problem.{1,10}erkannt.{1,10}zahlung/i
 
@@ -408,6 +410,7 @@
 /wichtig.{1,10}sicherheit!/i
 
 /wichtige?.{1,10}aktualisieren sie/i
+/wichtige?.{1,20}kontosicherheit erforderlich/i
 /wichtige?.{1,10}änderungen.{1,10}ihre umgehende/i
 
 /wichtige?.{1,10}einschränkung ihres.{1,15}kontos/i

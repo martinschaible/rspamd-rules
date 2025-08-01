@@ -51,6 +51,7 @@
 
 /ritual that ends/i
 
+/this.{1,10}ancient african/i
 /this.{1,10}home remedy/i
 /this.{1,10}night trick/i
 /this.{1,10}sec(ond)? (fix|morning)/i
@@ -471,7 +472,8 @@
 /how men.{1,10}improving/i
 
 # I
-/improved? memory (instantly|in.{1,15}seconds|memory)/i
+/improved? memory.{1,10}(instantly|in.{1,15}seconds|memory)/i
+/improved? memory(easy|simple)/i
 /improved?.{1,15}(hearing|urination|vision)/i
 
 /in \d{1,2} seconds/i
