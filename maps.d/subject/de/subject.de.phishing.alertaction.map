@@ -172,7 +172,7 @@
 /(es ist|fehlgeschlagen|sofortige|wichtige) aktion erforderlich/i
 
 # F
-/fehlende steuerunterlagen.{1,10}sofort handeln/i
+/fehlende steuerunterlagen.{1,15}sofort handeln/i
 /führen sie.{1,10}den legitimationsprozess/iu
 
 /frist für wichtige maßnahmen?/i
@@ -352,6 +352,8 @@
 /sicherheits.?(hinweis|mitteilung|warnung).{1,10}verdächtige (anmeldung|dateien)/i
 /sicherheits.?(hinweis|mitteilung|warnung).{1,10}verdächtiger/i
 /sicherheits.?(hinweis|mitteilung|warnung).{1,10}zu.{1,10}(gerät|karte)/iu
+
+/sicherheits.?upgrade.{1,10}jetzt aktivieren/i
 
 /(sicherheitssystem|systemmitteilung).{1,10}jetzt (aktualisieren|sofort handeln)/i
 

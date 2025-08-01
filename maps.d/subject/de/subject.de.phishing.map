@@ -90,6 +90,8 @@
 /ihre parkgebühr ist noch offen/iu
 /ihre überprüfung wird empfohlen/iu
 
+/ihrer letzten handelsaktivität erforderlich/iu
+
 # J
 
 # K
@@ -135,6 +137,7 @@
 /rundschreiben.?[0-9a-z]{4}-[0-9a-z]{4}/i
 
 # S
+/sicherheitsüberprüfung.{1,10}ihrer.{1,10}identitätsdokumente/iu
 
 # T
 
