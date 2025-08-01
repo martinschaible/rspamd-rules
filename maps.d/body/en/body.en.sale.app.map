@@ -67,11 +67,13 @@
 
 # W
 /we.{1,10}specialize in.{1,10}app.?development/i
+/we.{1,10}make apps?.{1,10}just/i
 
 # X
 
 # Y
-/you.{1,10}(interested|looking|considering).{1,10}(develop|for|in).{1,15}(android|ios|mobile)?.?(app|web)/i
+/you.{1,10}(considering|interested|looking|need).{1,10}apps?.{1,10}(android|ios|iphone)/i
+/you.{1,10}(considering|interested|looking|need).{1,10}(develop|for|in).{1,15}(android|ios|iphone|mobile)?.?(app|web)/i
 
 /your.{1,10}mobile.?app.{1,10}requirement/i
 

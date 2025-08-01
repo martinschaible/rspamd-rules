@@ -35,6 +35,9 @@
 
 /\d\)? (incoming|pending).{1,10}(e?.?mail|message)/i
 
+# Sample: Your info@amelec.ch is blacklisted
+/your.{1,15}@.{1,15}\.[a-z]{1,4}.{1,10}is blacklisted/i
+
 # A
 /access unread.{1,10}(e?.?mail|message)/i
 

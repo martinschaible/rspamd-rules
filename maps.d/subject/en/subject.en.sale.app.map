@@ -16,16 +16,16 @@
 # A
 /(agency|real estate|shoppping).{1,10}apps/i
 
-/android.{1,10}app development/i
+/(android|mobile|perfect).{1,10}apps?.{1,5}(development|service)/i
 
 /apps?.{1,10}android.{1,10}ios/i
 /apps?.{1,10}(creating|creation|development|programming).?!?$/i
 /apps?.{1,10}creating info(rmation)?/i
 /apps?.{1,10}creation.{1,10}services/i
 
-/app development.{1,10}(android|ios)/i
-/app (cost enquiry|proposal|we build)/i
-/app for your.{1,10}(business|company|practice|web.?site)/i
+/apps?.{1,5}development.{1,10}(android|ios)/i
+/apps?.{1,5}(cost enquiry|proposal|we build)/i
+/apps?.{1,5}for your.{1,10}(business|company|practice|web.?site)/i
 
 # B
 /build own.{1,10}app/i
@@ -35,21 +35,21 @@
 # C
 /(business|creat|creating).{1,10}apps?/i
 
-/cost for app/i
+/cost for apps?/i
 
 # D
 
 # E
 
 # F
-/fitness.{1,5}app/i
+/fitness.{1,5}apps?/i
 
 # G
 
 # H
 
 # I
-/(ios|iphone).{1,5}android.{1,10}apps/i
+/(ios|iphone).{1,5}android.{1,10}apps?/i
 
 # J
 
@@ -59,19 +59,17 @@
 
 # M
 /^mobile.?app$/i
-/mobile.?app (development|service)/i
 
 
 # N
-/need.{1,15}app\b/i
-/new app launch/i
+/need.{1,15}apps?\b/i
+/new apps?.{1,5}launch/i
 
 # O
 /organic.{1,10}proposal/i
 
 # P
-/perfect app development/i
-/planning for.{1,10}app/i
+/planning for.{1,10}apps?/i
 
 # Q
 
