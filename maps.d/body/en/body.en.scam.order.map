@@ -52,17 +52,19 @@
 # O
 
 # P
-/price.?list.{1,10}available.{1,10}whatsapp/i
-/price.?list.{1,15}via whatsapp/i
+/(prices|price.?list).{1,15}(available|through|on|via).{1,10}whatsapp/i
 
-/products?.{1,10}connect with us.{1,15}whatsapp/i
-/products?.{1,10}information through.{1,10}Whatsapp/i
+/(items?|products?).{1,10}(connect|write) (to|with).{1,15}whatsapp/i
+/(items?|products?).{1,10}info(rmation)? (available|through|on|via).{1,10}whatsapp/i
+/(items?|products?).{1,10}feel free.{1,10}whatsapp/i
+/(items?|products?).{1,10}Whatsapp below/i
 
 # Q
 
 # R
 
 # S
+/suppliers?.{1,10}like you.{1,10}send us.{1,10}whatsapp/i
 
 # T
 
