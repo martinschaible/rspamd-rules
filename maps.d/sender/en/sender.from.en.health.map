@@ -234,6 +234,10 @@
 /(basic|secret).{0,10}protein/i
 /nasa.{0,10}(scientists?|study)/i
 
+# Medicine, Drugs, Pills, Supplements
+# ------------------------------------------------------------------------------
+/(bengay|ibuprofen|tumeric)/i
+
 #
 #
 #
@@ -319,7 +323,7 @@
 /brain.{0,10}(boostfix|noise|revival|solution)/i
 
 /breakfast.{0,10}(juice|treat)/i
-/(breathe|breathing).{0,10}(better|clearer|easier|easy)/i
+/(breathe|breathing).{0,10}(better|clearer|easier|easy|easy)/i
 
 /bright.{0,10}smile/i
 
