@@ -65,6 +65,8 @@
 # C
 
 # D
+/(die|ihre) lieferadresse.{1,5}\d{3,5}/i
+
 /dhl.{1,10}zahlungsaufforderung/i
 
 /dringend.{1,10}lieferung nicht möglich/iu

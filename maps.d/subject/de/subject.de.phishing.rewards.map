@@ -33,24 +33,25 @@
 /preise?.{1,15}mystery.?box/i
 
 # Apple
-/(airpods|apple|ipad|iphone|macbook).{1,10}ausgewählte.{1,20}kunden/i
-/(airpods|apple|ipad|iphone|macbook).{1,10}gehören jetzt ihnen/i
-/(airpods|apple|ipad|iphone|macbook).{1,10}wartet auf dich/i
+/(airpods|apple|ipad|iphone|macbook|watch ultra).{1,10}ausgewählte.{1,20}kunden/i
+/(airpods|apple|ipad|iphone|macbook|watch ultra).{1,10}für sie reserviert/iu
+/(airpods|apple|ipad|iphone|macbook|watch ultra).{1,10}gehören jetzt ihnen/i
+/(airpods|apple|ipad|iphone|macbook|watch ultra).{1,10}wartet auf dich/i
 
-/gratulation.{1,10}(airpods|apple|ipad|iphone|macbook)/i
-/holen sie sich.{1,10}(airpods|apple|ipad|iphone|macbook)/i
+/gratulation.{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
+/holen sie sich.{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
 
-/ihr neuer.{1,10}(airpods|apple|ipad|iphone|macbook).{1,10}gewinn/i
-/ihre.{1,10}prämie wartet.{1,10}(airpods|apple|ipad|iphone|macbook)/iu
-/ihre.{1,10}chance auf.{1,10}(airpods|apple|ipad|iphone|macbook)/i
+/ihr neuer.{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra).{1,10}gewinn/i
+/ihre.{1,10}prämie wartet.{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/iu
+/ihre.{1,10}chance auf.{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
 
-/jetzt bestätigen.{1,10}(airpods|apple|ipad|iphone|macbook)/iu
-/jetzt.{1,10}(airpods|apple|ipad|iphone|macbook).{1,10}sichern/i
+/jetzt bestätigen.{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/iu
+/jetzt.{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra).{1,10}sichern/i
 
-/sichern sie sich.{1,15}(airpods|apple|ipad|iphone)|macbook/i
-/sie haben ein.{1,10}(airpods|apple|ipad|iphone|macbook)/i
+/sichern sie sich.{1,15}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
+/sie haben ein.{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
 
-/gewinnen sie das.{1,10}(airpods|apple|ipad|iphone|macbook)/i
+/gewinnen sie das.{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
 
 #
 #
@@ -359,6 +360,7 @@
 /sie sind einer unserer.{1,15}(finalisten|gewinner)/i
 
 /sie haben noch nicht geantwortet/i
+/sie reserviert.{1,10}jetzt bestätigen/iu
 /sie verpassen.{1,15}belohnungen/i
 
 /sie wurden ausgewählt/iu

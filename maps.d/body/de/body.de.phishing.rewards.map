@@ -11,15 +11,16 @@
 
 # Products
 # ------------------------------------------------------------------------------
-/(airpods|apple|ipad|iphone|macbook).{1,10}kostenloser versand/i
-/(airpods|apple|ipad|iphone|macbook).{1,10}neu.{1,10}originalverpackt/i
-/(airpods|apple|ipad|iphone|macbook).{1,10}originalverpackt.{1,10}versandkostenfrei/i
-/(airpods|apple|ipad|iphone|macbook).{1,10}reserviert/i
+/(airpods|apple|ipad|iphone|macbook|watch ultra).{1,10}kostenloser versand/i
+/(airpods|apple|ipad|iphone|macbook|watch ultra).{1,10}neu.{1,10}originalverpackt/i
+/(airpods|apple|ipad|iphone|macbook|watch ultra).{1,10}originalverpackt.{1,10}versandkostenfrei/i
+/(airpods|apple|ipad|iphone|macbook|watch ultra).{1,10}reserviert/i
+/(airpods|apple|ipad|iphone|macbook|watch ultra).{1,10}wartet auf (dich|sie)/i
 
-/gewinner.{1,10}brandneuen?.{1,10}(airpods|apple|ipad|iphone|macbook)/iu
+/gewinner.{1,10}brandneuen?.{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/iu
 
-/bereit zur auslieferung.{1,10}(airpods|apple|ipad|iphone|macbook)/i
-/(anerkennung|belohnung).{1,10}(airpods|apple|ipad|iphone|macbook)/iu
+/bereit zur auslieferung.{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
+/(anerkennung|belohnung).{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/iu
 /(paket mit|prämie).{1,10}(airpods|apple|ipad|iphone|macbook)/iu
 
 #
@@ -51,6 +52,7 @@
 
 /(exklusive?|rituals).{1,10}mystery.?box/i
 
+/exklusive belohnung freuen/i
 /exklusives dankeschön/iu
 
 # F

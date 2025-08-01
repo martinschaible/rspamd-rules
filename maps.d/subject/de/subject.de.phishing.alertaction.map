@@ -105,6 +105,8 @@
 # This is used everywhere
 #/^bestätigen sie ihre e?.?mail adresse$/iu
 
+/besttigen sie/i
+
 /bestätigen.?-.?#[a-z0-9]{4,10}/iu
 /bestätigen sie ihre.{1,5}adresse/i
 /bestätigen sie (die|ihre).{1,10}(lieferadresse|lieferdaten)/i

@@ -399,7 +399,7 @@
 /(microsoft|mediamarkt|metamask|migros).?(™|®|©)$/i
 
 /microsoft ads/i
-/microsoft.{0,10}(cashback|rewards?)/i
+/microsoft.{0,10}(advertising|cashback|rewards?)/i
 
 /migros.?(™|®|©)$/i
 #/migros.{0,10}(aktionen|markt|oral.?b)/i
