@@ -94,9 +94,10 @@
 /dear.{1,10}\[/i
 /dear.{1,15}\]/i
 
-/dear (boss|leader)/i
-/dear manager of /i
-/dear my friend/i
+/dear.{1,10}(boss|leader)/i
+/dear.{1,10}manager of /i
+/dear.{1,10}my friend/i
+/dear.{1,10}valued user/i
 
 /DEAR SIR/
 
