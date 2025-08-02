@@ -30,13 +30,6 @@
 # E
 
 # F
-/funds? delivery/i
-/funds?.{1,10}deposited in your name/i
-/funds?.{1,10}for you/i
-/funds?.{1,10}million/i
-
-/funds?.{1,10}recovery.{1,10}(committee|team)/i
-/funds?.{1,10}(relief|request)/i
 
 # G
 
@@ -84,13 +77,5 @@
 /your.{1,10}(compensation|grant).{1,10}(file|number)/i
 /your.{1,10}(compensation|grant).{1,10}has been/i
 /your.{1,10}(compensation|grant).{1,10}payment/i
-
-# Funds
-/your.{1,10}fund$/i
-/your.{1,10}funds?.{1,15}(approved|has been|ready for|released|payout)/i
-/your.{1,10}funding notice/i
-
-/your.{1,10}payment.{1,10}(available|approved)/i
-/your.{1,10}unpaid funds/i
 
 # Z
