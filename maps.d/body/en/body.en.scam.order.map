@@ -54,6 +54,7 @@ i would like.{1,10}receive your.{1,10}price.?list/i
 # P
 /(prices|price.?list).{1,15}(available|through|on|share|use|via).{1,15}whatsapp/i
 
+/inventory.{1,10}start.{1,10}conversation with us/i
 /(items?|products?).{1,10}(connect|reach out|write) (to|via|with).{1,15}whatsapp/i
 /(items?|products?).{1,10}info(rmation)? (available|through|on|via).{1,10}whatsapp/i
 /(items?|products?).{1,10}feel free.{1,10}whatsapp/i
