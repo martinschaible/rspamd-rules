@@ -30,7 +30,6 @@
 # E
 
 # F
-
 /following up.{1,10}regarding your company/i
 
 # G
@@ -38,6 +37,7 @@
 # H
 
 # I
+i would like.{1,10}receive your.{1,10}price.?list/i
 
 # J
 
@@ -52,7 +52,7 @@
 # O
 
 # P
-/(prices|price.?list).{1,15}(available|through|on|use|via).{1,10}whatsapp/i
+/(prices|price.?list).{1,15}(available|through|on|share|use|via).{1,15}whatsapp/i
 
 /(items?|products?).{1,10}(connect|reach out|write) (to|via|with).{1,15}whatsapp/i
 /(items?|products?).{1,10}info(rmation)? (available|through|on|via).{1,10}whatsapp/i

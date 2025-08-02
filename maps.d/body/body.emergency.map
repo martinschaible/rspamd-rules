@@ -58,6 +58,12 @@
 # Generic
 # ==============================================================================
 
+# Domains
+# ==============================================================================
+
+# For some inexplicable reason, Rspamd can't always recognize domain names.
+# The only thing that helps is "type=content" and "filter=rawtext."
+
 # A
 /\.s3\.amazonaws\.com\//i
 
@@ -72,6 +78,7 @@
 # F
 
 # G
+/www\.gyms1/.com/i
 
 # H
 
