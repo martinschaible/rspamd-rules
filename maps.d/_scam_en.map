@@ -56,7 +56,6 @@
 # Beneficiary
 # ------------------------------------------------------------------------------
 /(beneficiaries|beneficiary).{1,10}(dollar|euro?|euros?|gbp|usd).{1,10}\d{3}.{0,5}\d{3}/i
-/(beneficiaries|beneficiary).{1,10}to receive the.{1,10}funds?/i
 /(beneficiaries|beneficiary).{1,10}to late mrs?/i
 /(beneficiaries|beneficiary).{1,10}which is you.{1,10}your name/i
 /(beneficiaries|beneficiary).{1,10}as next of kin/i

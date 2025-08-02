@@ -9,8 +9,6 @@
 
 # Funds, Money
 # ------------------------------------------------------------------------------
-/begünstigte des fonds/iu
-
 /fonds.{1,10}direkt an ihre privatadresse/i
 /fonds.{1,10}in höhe von.{1,10}millionen.{1,10}(dollar|euro?|gbp|usd).{1,10}auf ihr.{1,25}konto/i
 /fonds.{1,10}in ihrem land anlegen/i
@@ -41,11 +39,6 @@
 
 /vorschlag.{1,10}\d{2,3}.{0.5}\d{2,3}.{1,10}(dollar|euro?|gbp|usd)/i
 
-# Unclaimed funds
-# ------------------------------------------------------------------------------
-/nicht beanspruchten.{1,10}fonds bekommen/i
-/nicht beanspruchten.{1,10}erbschafts.?fonds/i
-
 # Claims
 # ------------------------------------------------------------------------------
 /antworten sie.{1,10}um den anspruch geltend zu machen/i
@@ -59,14 +52,3 @@
 /haben sie den.{1,10}fonds erhalten/i
 
 /sie zum.{1,20}begünstigten des fonds/iu
-
-#
-#
-#
-
-# Unclassified
-# ------------------------------------------------------------------------------
-/entschädigungsfonds/i
-
-# Masked
-# ------------------------------------------------------------------------------
