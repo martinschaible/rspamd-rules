@@ -6,6 +6,29 @@
 # Weight:   6.0
 # ==============================================================================
 
+# Topics
+# ==============================================================================
+
+# Single word in brackets
+# ------------------------------------------------------------------------------
+# -> Theses RegEx might be constructed easier and better
+
+/\[.?e.?mail.?\]/i
+/\[(confidential|donation|letter|offer|proposal|urgent|warning)\]/i
+/\{(confidential|donation|letter|offer|proposal|urgent|warning)\}/i
+/\*(confidential|donation|letter|offer|proposal|urgent|warning)\*/i
+
+# Single word with a date
+# ------------------------------------------------------------------------------
+
+# Sample: Hallo - 12/31/2024 or 1/1/2925
+# Sample: Hallo - 12/31/2024 or 1/1/2925
+/verify.{1,20}\d{1,2}\/\d{1,2}\/\d{4}/i
+
+#
+#
+#
+
 # Generic
 # ==============================================================================
 

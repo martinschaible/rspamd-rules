@@ -267,7 +267,7 @@
 /age.{0,10}(freezing|reversal|rewind)/i
 /aged.{0,10}spot/i
 /ageless.{0,10}(beauty|movement|skin|treat)/i
-/aging.{0,10}reverse
+/aging.{0,10}reversed?/i
 
 /aligend.{0,10}intimacy/i
 /alignment.{0,10}fix/i
@@ -625,7 +625,7 @@
 /make your own/i
 /male.{0,10}(virility|vitality)/i
 
-/medicinal.{0,10}patch(es)?/i
+/(medical|medicinal).{0,10}(discovery|patch(es)?)/i
 
 /memory.{0,10}(drink|killer|saver|secret)/i
 

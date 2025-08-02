@@ -6,6 +6,28 @@
 # Weight:   6.0
 # ==============================================================================
 
+# Topics
+# ==============================================================================
+
+# Single word in brackets
+# ------------------------------------------------------------------------------
+# -> Theses RegEx might be constructed easier and better
+
+# do not add "[wichtig]" to avoid false/positives
+/\[(belohnen|erinnerung|wichtig)\]/i
+/\{(belohnen|erinnerung|wichtig)\}/i
+
+# Single word with a date
+# ------------------------------------------------------------------------------
+
+# Sample: Hallo - 12/31/2024 or 1/1/2925
+/(aktualisieren|benachrichtigung|darlehen|erforderlich|finanzierung|hallo|kredit).{1,20}\d{1,2}\/\d{1,2}\/\d{4}/i
+
+
+#
+#
+#
+
 # Generic
 # ==============================================================================
 
