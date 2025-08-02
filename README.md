@@ -168,6 +168,7 @@ Folder structure:
 body
   ├─ body.attachment.map                         ─┐
   ├─ body.emergency.map                           │
+  ├─ body.orgbrandprod.map                  X     │
   ├─ body.special.map                             │
   │                                               │
   ├─ body.az.orgname.map                          ├─ multimap.body.conf
@@ -208,7 +209,6 @@ body
   │   ├─ body.de.phishing.email.map               │
   │   ├─ body.de.phishing.greetings.map           │
   │   ├─ body.de.phishing.malware.map             │
-  │   ├─ body.de.phishing.orgbrandprod.map  X     │
   │   ├─ body.de.phishing.parcel.map              ├─ multimap.body.de.phishing.conf
   │   ├─ body.de.phishing.password.map            │
   │   ├─ body.de.phishing.payment.map             │
