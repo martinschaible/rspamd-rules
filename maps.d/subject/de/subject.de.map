@@ -6,11 +6,6 @@
 # Topics
 # ==============================================================================
 
-# Hiring people
-# ------------------------------------------------------------------------------
-/(arbeiter|arbeitskräfte|fachkräfte|hilfspersonal|personalsuche|vermittlung|zeitarbeit).{1,15}(baltikum|litauen)/iu
-/litauische arbeiter/i
-
 #
 #
 #
@@ -77,8 +72,6 @@
 # J
 
 # K
-/KONTAKTIEREN SIE/
-
 /kontaktieren sie mich/i
 /kontaktieren sie uns sofort/i
 /kontaktieren sie.{1,10}umgehend.{1,10}e?.?mail/i

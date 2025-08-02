@@ -15,10 +15,6 @@
 # ------------------------------------------------------------------------------
 /^\d{1,2}\/\d{1,2}\/\d{4}$/i
 
-# Sample: Hallo - 12/31/2024 or 1/1/2925
-/(aktualisieren|benachrichtigung|darlehen|erforderlich|finanzierung|hallo|kredit).{1,20}\d{1,2}\/\d{1,2}\/\d{4}/i
-/verify.{1,20}\d{1,2}\/\d{1,2}\/\d{4}/i
-
 # Sample: "25/12/2024: Du hast"
 /\d{1,2}\/\d{1,2}\/\d{4}:/i
 
@@ -144,18 +140,10 @@
 # 26.06.25 Sample: N9798963
 /^n\d{5,10}$/i
 
-# Text in brackets
+# Worda in brackets
 # ------------------------------------------------------------------------------
 # -> Theses RegEx might be constructed easier and better
 
-/\[.?e.?mail.?\]/i
-/\[(confidential|donation|letter|offer|proposal|urgent|warning)\]/i
-/\{(confidential|donation|letter|offer|proposal|urgent|warning)\}/i
-/\*(confidential|donation|letter|offer|proposal|urgent|warning)\*/i
-
-# do not add "[wichtig]" to avoid false/positives
-/\[(belohnen|erinnerung|wichtig)\]/i
-/\{(belohnen|erinnerung|wichtig)\}/i
 /\[zahlung nötig\]/iu
 
 /\[action requise\]/i
