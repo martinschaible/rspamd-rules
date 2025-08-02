@@ -8,12 +8,6 @@
 
 # A
 
-# 14.02.25 - Might cause False/Positives, will see how it goes
-/app\.getresponse\.com/i
-
-# 20.03.25 - Might cause False/Positives, will see how it goes
-/\.app\.link/i
-
 # 03.02.25 - Might cause False/Positives, will see how it goes
 /eu-north-1\.amazonaws\.com/i
 
@@ -31,9 +25,6 @@
 # 23.01.25
 /dnsdojo\.org/i
 
-# 30.01.25 - IPFS
-/dweb\.link/i
-
 # E
 
 # 25.03.25 - engagebay.com, CRM used for spamming
@@ -49,6 +40,9 @@
 
 # G
 
+# 14.02.25 - Might cause False/Positives, will see how it goes
+/app\.getresponse\.com/i
+
 # H
 
 # I
@@ -63,8 +57,12 @@
 
 # L
 
-# 11.03.25 "Your voice. Your freedom. Your Spam"
-/links\.truthsocial\.com/i
+# 20.03.25 - Might cause False/Positives, will see how it goes
+/\.app\.link/i
+
+# 30.01.25 - IPFS
+/dweb\.link/i
+
 
 # M
 
@@ -113,6 +111,9 @@
 /link\.sbstck\.com/i
 
 # T
+
+# 11.03.25 "Your voice. Your freedom. Your Spam"
+/links\.truthsocial\.com/i
 
 # U
 
