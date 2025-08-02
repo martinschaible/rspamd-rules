@@ -76,6 +76,28 @@ jetzt im angebot:.{1,15}(design|klassiker|zeitlos)/i
 
 /metro.{1,5}rider/i
 
+# Hiring People
+# ------------------------------------------------------------------------------
+/(arbeiter|arbeitskräfte|fachkräfte|hilfspersonal|personalsuche|vermittlung|zeitarbeit).{1,15}(baltikum|litauen)/iu
+/(arbeiter|arbeitskräfte|fachkräfte|hilfspersonal|personalsuche|vermittlung|zeitarbeit).{1,10}für ihre.{1,15}projekte/iu
+/(arbeiter|arbeitskräfte|fachkräfte|hilfspersonal|personalsuche|vermittlung|zeitarbeit).{1,10}für.{1,15}(logistik|produktion|verarbeitung)/i
+
+/anfrage.{1,10}personalunterstützung/iu
+/arbeiter aus (europa|europe)/i
+/ausländische fachkräfte für ihr/iu
+
+/ihr personalbedarf/i
+/leiharbeiter finden/i
+/litauische arbeiter/i
+
+/sie suchen arbeitskräfte/iu
+/suchen?.{1,10}qualifizierten handwerkern/i
+/sofort verfügbare mitarbeiter/iu
+
+/qualifizierte (arbeitskräfte|fachkräfte) (aus|sofort)/iu
+
+/vermitteln produktionshelfer/i
+
 # Pavillon
 # ------------------------------------------------------------------------------
 /(event|falt|garten)?pavillon.{1,15}(blau|grau|schwarz)/i
@@ -174,8 +196,6 @@ jetzt im angebot:.{1,15}(design|klassiker|zeitlos)/i
 # A
 /aktion.{1,10}corona.?tests?/i
 
-/anfrage.{1,10}personalunterstützung/iu
-
 /angebot.{1,10}nur.{1,10}testen sie/i
 /angebot.{1,10}temporäre einsätze/iu
 
@@ -183,9 +203,6 @@ jetzt im angebot:.{1,15}(design|klassiker|zeitlos)/i
 
 /(annonce|anzeige).{1,10}branchen.?führer/i
 
-/arbeiter aus (europa|europe)/i
-
-/ausländische fachkräfte für ihr/iu
 /ausziehbare leiter/i
 /autoankauf.{1,10}export/i
 
@@ -221,8 +238,6 @@ jetzt im angebot:.{1,15}(design|klassiker|zeitlos)/i
 /exklusives angebot/i 0.25
 
 # F
-/fachkräfte.{1,10}für ihre.{1,15}projekte/iu
-
 /feigenbäume.{1,10}versandkostenfrei/iu
 
 /fernsehen muss nicht teuer sein/i
@@ -252,7 +267,6 @@ jetzt im angebot:.{1,15}(design|klassiker|zeitlos)/i
 /ihr(en)?.{1,10}(auto|fahrzeug|wagen|lkw|pkw).{1,10}zum besten preis/i
 /ihr(en)?.{1,10}(auto|fahrzeug|wagen|lkw|pkw).{1,10}verkaufen/i
 
-/ihr personalbedarf/i
 /ihr.{1,10}(4g|lte).{1,5}wifi/i
 /ihr.{1,10}wlan.?signal/i
 
@@ -290,8 +304,6 @@ jetzt im angebot:.{1,15}(design|klassiker|zeitlos)/i
 /led.{1,10}feuchtraumleuchte/i
 /led.{1,10}komplett.{1,10}beleuchtungsset/i
 
-/leiharbeiter finden/i
-
 /leitern?.{1,10}(leicht|handlich|professionell)/i
 /leitern?.{1,10}stark reduziert/i
 
@@ -302,8 +314,6 @@ jetzt im angebot:.{1,15}(design|klassiker|zeitlos)/i
 /methode.{1,10}um stromkosten/i
 /mit diesem.{1,15}kissen/i
 /mit einem klick/i
-
-/mitarbeiter für.{1,15}(logistik|produktion|verarbeitung)/i
 
 # N
 
@@ -337,7 +347,6 @@ jetzt im angebot:.{1,15}(design|klassiker|zeitlos)/i
 /profi.{1,10}roboter.?sauger/i
 
 # Q
-/qualifizierte (arbeitskräfte|fachkräfte) (aus|sofort)/iu
 
 # R
 /rabatt auf.{1,10}(büro|massage).{0,5}stuhl/i
@@ -366,7 +375,6 @@ jetzt im angebot:.{1,15}(design|klassiker|zeitlos)/i
 /sie bei uns sparen können/iu
 /sie ihr.{1,10}(auto|fahrzeug|wagen|lkw|pkw).{1,10}verkaufen/i
 /sie ihren online.?ruf/i
-/sie suchen arbeitskräfte/iu
 
 /smarte?.{1,15}(beleuchtung|sohle)/i
 
@@ -379,9 +387,6 @@ jetzt im angebot:.{1,15}(design|klassiker|zeitlos)/i
 /statt \d{2,3}.{1,10}(jetzt|nur).{1,10}\d{2,3}.{1,10}sofort einsatzbereit/i
 
 /suchen?.{1,10}(anlagen|gebrauchtmaschinen)/i
-/suchen?.{1,10}qualifizierten handwerkern/i
-
-/sofort verfügbare mitarbeiter/iu
 
 /sprachen sofort/i
 
@@ -415,7 +420,6 @@ jetzt im angebot:.{1,15}(design|klassiker|zeitlos)/i
 /verfügbar.{1,15}erneuerungsrabatt/iu
 
 /verkaufe dein auto schnell/i
-/vermitteln produktionshelfer/i
 
 /verständigung ohne stress/iu
 
