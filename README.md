@@ -65,9 +65,11 @@ These are the latest changes:
 |          | _multimap_ad.conf                 | Old file deleted                   |
 |          | _multimap_domain.conf             | Old file deleted                   |
 
-Attention: A major migration of the configuration files is necessary:
-The naming of the "Sender" files was unfortunate and has now been corrected.
-New configuration files have also been added. 
+:point_right: A major migration of the configuration files is necessary:
+* The naming of the "Sender" files was unfortunate and has now been corrected.
+* New configuration files have also been added
+
+:point_right: Maybe the easiest way is to re-copy all configuration files.
 
 | Date     | File                                       | Reason                        |
 | -------- | -------------------------------------------| ----------------------------- |
@@ -123,7 +125,8 @@ What to do:
 
 
 ## Content
-All map files of the *first version* are in the folder `/etc/rspamd/maps.d`. The files of the *second edition* are stored in subfolders according to the topic.
+:point_right: All map files of the *first version* are in the folder `/etc/rspamd/maps.d`.<br>
+:point_right: The files of the *second edition* are stored in subfolders according to the topic.
 
 ### Setup for "base"
 
