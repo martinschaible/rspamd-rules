@@ -69,7 +69,8 @@ These are the latest changes:
 * The naming of the "Sender" files was unfortunate and has now been corrected.
 * New configuration files have also been added
 
-:point_right: Maybe the easiest way is to re-copy all configuration files.
+:point_right: Maybe the easiest way is to re-copy all configuration files.<br>
+:point_right: After copying the files, the Rspamd service must be restarted.
 
 | Date     | File                                       | Reason                        |
 | -------- | -------------------------------------------| ----------------------------- |
@@ -118,10 +119,6 @@ These are the latest changes:
 |          | multimap.body.en.scam.conf                 | New map file added            |
 |          | multimap.subject.de.conf                   | New map file added            |
 |          | multimap.subject.en.conf                   | New map file added            |
-
-What to do:
-* Copy these files to the Rspamd server
-* Restart the Rspamd service
 
 
 ## Content
@@ -385,7 +382,7 @@ If you want to increase or decrease a symbol's score, you can do so in the UI.
 Click "Symbols" in the menu, then find the desired symbol and change the score.
 
 Important
-* You can only change the scoring for a map file, or rather its **symbol**, and **not for a single rule**.
+* You can change the scoring for a map file, or rather its **symbol**, and **not for a single rule**.
 * The scoring for a single rule can be changed in the map file.
 
 ### Which rule has fired?
