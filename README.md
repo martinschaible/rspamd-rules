@@ -110,7 +110,10 @@ New configuration files have also been added.
 |          | multimap.body.de.makemoney.conf            | New file                      |
 |          | multimap.body.en.makemoney.conf            | New file                      |
 | 19.07.25 | multimap.sender.from.phishing.conf         | New map file added            |
-|          | sender.from.phishing.orgbrandprod.asia.map | New file                      |
+| 02.08.25 | multimap.subject.de.scam.conf              | New map file added            |
+|          | multimap.subject.en.scam.conf              | New map file added            |
+|          | multimap.body.de.scam.conf                 | New map file added            |
+|          | multimap.body.en.scam.conf                 | New map file added            |
 
 What to do:
 * Copy these files to the Rspamd server
@@ -223,8 +226,8 @@ body
   │   ├─ body.de.scam.map                        ─┐
   │   ├─ body.de.scam.business.map                │
   │   ├─ body.de.scam.bignumbers.map              │
-  │   ├─ body.de.scam.donations.map               │
-  │   ├─ body.de.scam.funds.map             X     │
+  │   ├─ body.de.scam.donation.map                │
+  │   ├─ body.de.scam.funds.map                   │
   │   ├─ body.de.scam.investment.map              ├─ multimap.body.de.scam.conf
   │   ├─ body.de.scam.order.map                   │
   │   ├─ body.de.scam.payment.map                 │
@@ -295,8 +298,9 @@ subject
   │   ├─ subject.de.greetings.map                 │
   │   ├─ subject.de.message.map                   │
   │   ├─ subject.de.singleword.map                ├─ multimap.subject.de.conf
-  │   ├─ subject.de.singleword.special.map        │ 
-  │   ├─ subject.de.singleword.ucase.map    X    ─┘
+  │   ├─ subject.de.singleword.special.map  X     │ 
+  │   ├─ subject.de.singleword.ucase.map          │
+  │   ├─ subject.de.ucase.map               X    ─┘
   │   │
   │   ├─ subject.de.adult.map                    --- multimap.subject.de.adult.conf
   │   ├─ subject.de.finance.map                  --- multimap.subject.de.finance.conf
@@ -328,8 +332,9 @@ subject
   │   ├─ subject.de.scam.map                     ─┐
   │   ├─ subject.de.scam.bignumbers.map           │
   │   ├─ subject.de.scam.business.map             │
-  │   ├─ subject.de.scam.donation.map             ├─ multimap.subject.de.scam.conf
-  │   ├─ subject.de.scam.investment.map     X     │
+  │   ├─ subject.de.scam.donation.map             │
+  │   ├─ subject.de.scam.funds.map                ├─ multimap.subject.de.scam.conf
+  │   ├─ subject.de.scam.investment.map           │
   │   ├─ subject.de.scam.order.map                │
   │   ├─ subject.de.scam.payment.map              │
   │   ├─ subject.de.scam.winning.map             ─┘
