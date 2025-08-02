@@ -84,6 +84,8 @@
 # D
 /dies ist eine neue nachricht/i
 
+/diese.{1,10}(e?.?mail|nachricht).{1,10}öffnen/iu
+
 # E
 # Too strong, False/Positives
 #/eine neue nachricht/i

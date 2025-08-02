@@ -197,6 +197,8 @@ jetzt im angebot:.{1,15}(design|klassiker|zeitlos)/i
 
 /branchen.?führer.{1,10}\d{4}/i
 
+/briefkasten(anlagen?).{1,10}in edlem design/i
+
 # C
 /corona.?tests?.{1,10}kombi.?tests?/i
 
@@ -325,6 +327,8 @@ jetzt im angebot:.{1,15}(design|klassiker|zeitlos)/i
 /\/ (pv|solar).?anlage/i
 /(pv|solar).?anlagen? um.{1,10}günstiger/i
 /preise.{1,10}(pv|solar).?anlagen gefallen/i
+
+/preise.{1,10}(briefkasten|briefkästen)/iu
 
 /preiswerte.{1,10}vordächer/iu
 

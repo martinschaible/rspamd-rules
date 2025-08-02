@@ -52,7 +52,7 @@
 # O
 
 # P
-/(prices|price.?list).{1,15}(available|through|on|via).{1,10}whatsapp/i
+/(prices|price.?list).{1,15}(available|through|on|use|via).{1,10}whatsapp/i
 
 /(items?|products?).{1,10}(connect|write) (to|with).{1,15}whatsapp/i
 /(items?|products?).{1,10}info(rmation)? (available|through|on|via).{1,10}whatsapp/i
@@ -73,7 +73,7 @@
 # V
 
 # W
-/whatsapp below.{1,10}your product/i
+/whatsapp below.{1,10}(to send it|your product)/i
 
 /we are interested.{1,10}your product range/i
 /we are interested.{1,10}collaborating with your.{1,10}company/i
