@@ -20,56 +20,40 @@
 # ==============================================================================
 
 # A
-/-abonnenment/i
 /abnehmmethode/i
 /abnehmrezept/i
 
 /^achtung$/i
 
-/achtung.{0,5}!!/i
-/achtung.{0,5}!\?/i
 /achtung/i 0.09
 
 /adressuberprufung/i
 
 /aktualisierungsservice/i
 
-/anfrage\*/i
 /angebotsanforderung/i
 
 /^anspruch$/i
 /^ansprüche$/iu
 
 /anspruche/i
-/anspruchs.?!/i
-/ansprüche.?!/iu
-/ansprüche\./iu
 
 /arbeitnehmerüberlassung/iu
 /atm.?karte/i
 
 #/aufmerksamkeit$/i
-/aufmerksamkeit.?!/i
-/aufmerksamkeit:/i
 
 /ausverkaufsalarm/i
-
-/aut0.?set/i 
 
 # B
 /^beantragen$/i
 
 /bearbeitungsfortschritt/i
-/begrenzter.?!/i
 /^begünstigter$/iu
 
 /beitragsrückerstattung/iu
 
-/belohnung:/i
-/belohnung(en)?!/i
 /belohnungs.?panel/i
-
-/benachrichtigung#/i
 
 /betrugswiederherstellungsspezialist/i
 /bestatigung/i
@@ -87,10 +71,6 @@
 
 # D
 /^darlehen$/i
-/@darlehen/i
-/darlehen\?/i
-/darlehen.?!/i
-#/-darlehen/i
 
 /darlehensangebot/i
 /darlehensbeträgen?/iu
@@ -100,7 +80,6 @@
 /diatprodukt/iu
 
 /dringlichkeitsantrag/i
-#/^dringend:/i
 
 /durchlauferhitzer/i
 
@@ -112,8 +91,6 @@
 
 /entschädigungsfonds/iu
 /entschädigungslotterie/iu
-
-/entwicklung.?!!/i
 
 /erbenberechtigter/i
 /erbschaftsanspruch/i
@@ -130,13 +107,7 @@
 
 fettverbrenner/i
 
-/finanzieren!/i
-/finanzen\./i
-/finanzen,/i
 /^finanzierung$/i
-/finanzierung\.\./i
-/finanzierung\.$/i
-#/finanzierung,/i
 /finanzierungsangebot/i
 
 /finanziellen \d/i
@@ -147,12 +118,9 @@ fettverbrenner/i
 /fondsbewilligungsbescheid/i
 
 # G
-/gefahr.?!$/i
-
 /gelddarlehen/i
 /geldentschadigung/i
 /geldgenerierung/i
-/geldsorgen\?/i
 /^geldtransfer$/i
 
 /gerätesicherheitsabonnement/iu
@@ -174,8 +142,6 @@ fettverbrenner/i
 /gewichtsreduktion/i
 /gewichtsverlusts?/i
 
-#/gewinn!/i
-/^gewinn$/i
 /gewinn.?(benachrichtigung|mitteilung|notifikation)/i
 #/gewinnchance/i
 
@@ -193,17 +159,7 @@ fettverbrenner/i
 /goldrausch!/i
 
 # H
-/^hallo,/i
-/^hallo$/i
-/^hallo!$/i
-/:hallo/i
 /handlungsaufforderung/i
-
-/!.?holen/i
-
-/:hey/i
-
-/home.?page.?!!/i
 
 # I
 /illuminaten/i
@@ -222,7 +178,6 @@ fettverbrenner/i
 /investitions.?zuschuss/i
 
 # J
-/jetzt\.\.?!/i
 
 # K
 /kochgeschirr/i
@@ -231,17 +186,10 @@ fettverbrenner/i
 /kontoaktivitäts.?aktualisierung/iu
 
 /kontofunktionen/i
-/kontosicherheit!/i
-/kontosperrung!/i
 /kontowarnung/i
 
 /kooperation,/i
 
-/^kredite?$/i
-/kredit\?/i
-/kredit \d/i
-/kredite?!/i
-#/-kredit/i
 /krediten/i
 
 # Test
@@ -251,7 +199,6 @@ fettverbrenner/i
 /^kreditvorschlag$/i
 
 /kreditanfrage/i
-/kreditangebot.?(@|!|\?|-)/i
 /kreditgelegenheit/i
 /kreditmöglichkeit/iu
 /kreditunternehmen/i
@@ -268,28 +215,18 @@ fettverbrenner/i
 /löwenpreis/iu
 
 # M
-/manneskraft.?!/i
-/messer!/i
 /^mitarbeitern?$/i
 
 # N
-/nachricht#/i
-
-/nagelpilz\?/i
-
 /niedrigzinskreditangebot/i
 /niedrigzinsdarlehen/i
 /niedrigzinskredite?/i
-
-/n0tfall/i
 
 # O
 /onlineverdienen/i
 /ordnungscode/i
 
 # P
-/_paketdienst/i
-
 /paketanspruch/i
 /paketid/i
 
@@ -308,12 +245,10 @@ fettverbrenner/i
 /pflanzenangeboten?/i
 
 /postdienstbenachrichtigung/i
-/postfach#/i
 
 /pramienzahlung/i
 
 /privatkredite?/i
-/produktpaket!/i
 /profilvorschlag/i
 
 /^projekt$/i
@@ -357,8 +292,6 @@ fettverbrenner/i
 /sexy?.?cam/i
 /sexualorgan/i
 
-/sie\.\.\./i
-
 /sicherheitsgrunden/i
 /sicherheitsüberwachung/iu
 /sicherheitsverbesserung/i
@@ -369,13 +302,9 @@ fettverbrenner/i
 /sonderbelohnung/i
 
 /^spende$/i
-/spende!/i
-/^(aw|re):.?spende$/i
-/^re:.?aw:.?spende$/i
 
 /spende\./i
-# Used by Glückkette
-#/spende!/i
+
 /spendenangebot/i
 /spendencode/i
 /spendenfonds/i
@@ -394,7 +323,6 @@ fettverbrenner/i
 #/teilnahme/i
 /teleskopleiter/i
 
-/treue\.\./i
 /treuepunkte?/i
 
 # U
@@ -418,15 +346,12 @@ fettverbrenner/i
 /urheberrechtsverletzungsbenachrichtigung/i
 
 # V
-/verdienen.?!/i
 /vergütungspaket/iu
 /verfugbar/i
 
-/verifizieren.?!/i
 /verifizierungsbenachrichtigung/i
 
 /verkehrsordnungswidrigkeit/i
-/\bverlosung:/i
 /versandaktualisierung/i
 /vertraulichkeit/i
 
@@ -439,7 +364,6 @@ fettverbrenner/i
 /werkzeugset/i
 
 /^wichtig$/i
-/^wichtig!$/i
 
 /wohltätigkeitsfonds/iu
 /wohltätigkeitsspende/iu
@@ -456,6 +380,5 @@ fettverbrenner/i
 /^zeitarbeitskräfte$/iu
 /zusammenarbeitsmöglichkeit(en)?/i
 /zustellungsproblem/i
-/zustellversuch.?!/i
 
 /zollabsagens/i
