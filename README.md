@@ -114,6 +114,8 @@ New configuration files have also been added.
 |          | multimap.subject.en.scam.conf              | New map file added            |
 |          | multimap.body.de.scam.conf                 | New map file added            |
 |          | multimap.body.en.scam.conf                 | New map file added            |
+|          | multimap.subject.de.conf                   | New map file added            |
+|          | multimap.subject.en.conf                   | New map file added            |
 
 What to do:
 * Copy these files to the Rspamd server
@@ -189,6 +191,7 @@ body
   │   ├─ body.de.singleword.map                   │
   │   ├─ body.de.singleword.special.map     X     │
   │   ├─ body.de.singleword.ucase.map             │
+  │   ├─ body.de.ucase.map                  X     │
   │   ├─ body.de.unsubscribe.map                 ─┘
   │   │
   │   ├─ body.de.adult.map                       --- multimap.body.de.adult.conf
@@ -298,9 +301,9 @@ subject
   │   ├─ subject.de.greetings.map                 │
   │   ├─ subject.de.message.map                   │
   │   ├─ subject.de.singleword.map                ├─ multimap.subject.de.conf
-  │   ├─ subject.de.singleword.special.map  X     │ 
+  │   ├─ subject.de.singleword.special.map        │ 
   │   ├─ subject.de.singleword.ucase.map          │
-  │   ├─ subject.de.ucase.map               X    ─┘
+  │   ├─ subject.de.ucase.map                    ─┘
   │   │
   │   ├─ subject.de.adult.map                    --- multimap.subject.de.adult.conf
   │   ├─ subject.de.finance.map                  --- multimap.subject.de.finance.conf
