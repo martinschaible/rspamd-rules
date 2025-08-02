@@ -54,10 +54,12 @@
 # P
 /(prices|price.?list).{1,15}(available|through|on|use|via).{1,10}whatsapp/i
 
-/(items?|products?).{1,10}(connect|write) (to|with).{1,15}whatsapp/i
+/(items?|products?).{1,10}(connect|reach out|write) (to|via|with).{1,15}whatsapp/i
 /(items?|products?).{1,10}info(rmation)? (available|through|on|via).{1,10}whatsapp/i
 /(items?|products?).{1,10}feel free.{1,10}whatsapp/i
-/(items?|products?).{1,10}Whatsapp below/i
+/(items?|products?).{1,10}ping us.{1,10}whatsapp/i
+/(items?|products?).{1,10}send more info.{1,10}whatsapp/i
+/(items?|products?).{1,10}whatsapp below/i
 
 # Q
 
