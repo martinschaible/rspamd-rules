@@ -1,0 +1,151 @@
+# ==============================================================================
+#
+#
+# ------------------------------------------------------------------------------
+# Language: german
+# Weight:   6.0
+# ==============================================================================
+
+# Generic
+# ==============================================================================
+
+# A
+/-abonnenment/i
+
+/achtung.{0,5}!!/i
+/achtung.{0,5}!\?/i
+
+/anfrage\*/i
+
+/anspruchs.?!/i
+/ansprüche.?!/iu
+/ansprüche\./iu
+
+/aufmerksamkeit.?!/i
+/aufmerksamkeit:/i
+
+/aut0.?set/i 
+
+# B
+/begrenzter.?!/i
+
+/belohnung:/i
+/belohnung(en)?!/i
+
+/benachrichtigung#/i
+
+# C
+
+# D
+/@darlehen/i
+/darlehen\?/i
+/darlehen.?!/i
+#/-darlehen/i
+
+#/^dringend:/i
+
+# E
+/entwicklung.?!!/i
+
+# F
+/finanzieren!/i
+/finanzen\./i
+/finanzen,/i
+
+/finanzierung\.\./i
+/finanzierung\.$/i
+#/finanzierung,/i
+
+# G
+/gefahr.?!$/i
+
+/geldsorgen\?/i
+
+#/gewinn!/i
+/^gewinn$/i
+
+# H
+/^hallo,/i
+/^hallo$/i
+/^hallo!$/i
+/:hallo/i
+
+/!.?holen/i
+
+/:hey/i
+
+/home.?page.?!!/i
+
+# I
+
+# J
+/jetzt\.\.?!/i
+
+# K
+/kontosicherheit!/i
+/kontosperrung!/i
+
+/^kredite?$/i
+/kredit\?/i
+/kredit \d/i
+/kredite?!/i
+#/-kredit/i
+
+/kreditangebot.?(@|!|\?|-)/i
+
+# L
+
+# M
+/manneskraft.?!/i
+/messer!/i
+
+# N
+/n0tfall/i
+
+/nachricht#/i
+
+/nagelpilz\?/i
+
+# O
+
+# P
+/_paketdienst/i
+
+/postfach#/i
+
+/produktpaket!/i
+
+# Q
+
+# R
+
+# S
+/sie\.\.\./i
+
+# Used by Glückkette
+#/spende!/i
+
+/spende!/i
+/^(aw|re):.?spende$/i
+/^re:.?aw:.?spende$/i
+
+# T
+/treue\.\./i
+
+# U
+
+# V
+/verdienen.?!/i
+/verifizieren.?!/i
+
+/\bverlosung:/i
+
+# W
+/^wichtig!$/i
+
+# X
+
+# Y
+
+# Z
+/zustellversuch.?!/i
