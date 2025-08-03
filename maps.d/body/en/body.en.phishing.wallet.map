@@ -21,6 +21,8 @@
 # B
 
 # C
+/confirm.{1,10}wallet activity/i
+/confirm.{1,10}your.{1,10}wallet is active/i
 
 # D
 
@@ -53,7 +55,7 @@
 # R
 
 # S
-/secure your wallet (now|promptly)/i
+/secure your.{1,10}wallet (now|promptly)/i
 
 # T
 
