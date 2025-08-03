@@ -126,7 +126,6 @@
 # L
 
 # M
-/mini.?phone.{1,10}(offer|x)/i
 
 # N
 
@@ -155,6 +154,9 @@
 # S
 /scientists say this/i
 
+/(cam|secure).?(mini|protect|vision)/i
+
+
 /send your?.{1,10}proposal/i
 
 /shirt.{1,10}trump/i
@@ -170,6 +172,8 @@
 /targeted.{1,10}contact lists/i
 
 /top.{1,10}watches starting from/i
+
+/tracker.{1,10}secure protection/i
 
 # U
 /unlimited.{1,10}ip.?tv/i

@@ -45,6 +45,8 @@
 /finde mich auf der.{1,10}(web)?site/i
 /finde einfach mein.{1,10}profil/i
 
+/fotze|muschi|möse|pussy.{1,10}(leckst|lecken)/iu
+
 /frau (aus|in) deiner.{1,10}(nähe|region|umgebung) hat dein.{1,10}profil/iu
 /frau (aus|in) deiner.{1,10}(nähe|region|umgebung) hat dich bemerkt/iu
 /frau (aus|in) deiner.{1,10}(nähe|region|umgebung) (findet|ist auf) dich/iu
@@ -53,10 +55,11 @@
 
 /freizügiges (foto|selfie) von mir/iu
 
+/(feuchte|geile|lieblings|saubere).{0,10}(fotze|möse|pussy)/iu
+
 # G
 
 # H
-
 /hat dein.{1,10}profil gesehen/i
 
 /hier kannst du mir antworten/i
@@ -76,8 +79,13 @@
 # L
 
 # M
+/masturbieren.{1,10}spritzen/i
+
 /mein freizügigstes (foto|selfie)/iu 
-/meine nummer im.{1,10}profil/i
+
+/meine.{0,10}(fotze|muschi|möse|pussy)/iu
+/meine.{1,10}nummer im.{1,10}profil/i
+
 
 # N
 /nachricht auf der.{1,10}(web)?site/i
@@ -94,6 +102,8 @@
 # S
 /schreib mir einfach eine private nachricht/i
 /schreib mir einfach unter/i
+
+/schwanz brauche/i
 
 /sein intimstes foto/i
 
