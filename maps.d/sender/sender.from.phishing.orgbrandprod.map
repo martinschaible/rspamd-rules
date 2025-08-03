@@ -296,6 +296,7 @@
 /^gls$/i
 /^gls\./i
 
+/gls-(ch|de)/i
 /gls.?(™|®|©)$/i
 
 /(germany|team).{0,10}gls/i
@@ -465,6 +466,7 @@
 # ------------------------------------------------------------------------------
 /partner.{0,10}mcafee/i
 
+/päypäl/i
 /paypal(\.|-)de/i
 /paypal.{0,5}(case.?id|europe?|inc|kunden|konto|services?|support|voucher)/i
 /paypal_/i
