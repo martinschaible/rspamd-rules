@@ -25,8 +25,8 @@
 # US State and Zipcode
 /(ca|nv|ny).{1,5}us \d{5}.{1,10}unsubscribe.{1,10}here/i
 /(ca|nv|ny).{1,5}\d{5}.{1,10}to update.{1,10}remove your contact information/i
-/(ca|nv|ny).{1,5}\d{5}.{1,10}you no longer wish to (receive|recieve)/i
-/(ca|nv|ny).{1,5}\d{5}.{1,10}you would like to unsubscribe from receiving/i
+/(ca|nv|ny).{1,5}\d{5}.{1,10}you.{1,10}no longer wish to (receive|recieve)/i
+/(ca|nv|ny).{1,5}\d{5}.{1,10}you.{1,10}like to unsubscribe from receiving/i
 
 #
 #
