@@ -159,6 +159,7 @@
 /avoid ed\b/i
 /avoid this.{1,10}(common|for)/i
 
+/avoid.{1,5}\d.{1,5}foods/i
 /avoid.{1,10}eating this/i
 /avoid.{1,10}heart attack/i
 /avoid.{1,10}here.{1,10}why/i
@@ -311,7 +312,7 @@
 
 /doctor has the.{1,10}answer/i
 /doctors? reveals?/i
-/doctors?.{1,10}(recommend|stunned)/i
+/doctors?.{1,10}(recommend|stunned|warning)/i
 /doctors?.{1,10}says to avoid/i
 
 /does to joint pain/i
@@ -426,7 +427,7 @@
 /gets? rid of.{1,10}unwanted/i
 
 /(gum|gut).{0,10}(cleanse|cleansing)/i
-/(gum|gut).{0,10}(health|problem|power)/i
+/(gum|gut).{0,10}(fix|health|problem|power)/i
 /goodbye.{0,10}(pain|ringing ears)/i
 
 /reveals greatest discovery/i
@@ -601,6 +602,7 @@
 /protect your heart/i
 
 # Q
+/quick.{1,10}skin/i
 /quick relief for.{1,15}pain/i
 
 /quit eating.{1,10}blueberries/i
@@ -690,7 +692,7 @@
 /simple.{1,10}(diy|minute) stretch/i
 /simple.{1,10}(trick|way).{1,10}(erase|reverse)/i
 
-/skin.{1,10}(miracle|secret|transformation)/i
+/skin.{1,10}(miracle|secret|transformation|trick)/i
 
 /slash.{1,10}blood.?pressure/i
 
@@ -765,6 +767,7 @@
 /this.{1,10}before (bed|going to bed)/i
 /this.{1,10}common vegetable/i
 /this.{1,10}cuts heart attack/i
+/this.{1,10}drink.{1,10}(could|extend)/i
 /this.{1,10}(easy|simple) stretch/i
 /this.{1,10}everyday habit/i
 
