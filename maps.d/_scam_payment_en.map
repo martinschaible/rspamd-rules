@@ -35,7 +35,6 @@
 /\d{2,3}.{0,5}\d{2,3}.{1,10}awaiting.{1,10}transferred.{1,10}your.{1,10}account/i
 /\d{2,3}.{0,5}\d{2,3}.{1,10}(dollar|euro?|gbp|pounds?|usd).{1,10}your name/i
 
-/(dollar|euro?|gbp|usd).{1,10}would be released to you/i
 /millions?.{1,10}you have been waiting/i
 
 /sum of.{1,15}million.{1,10}(dollar|euro?|gbp|pounds?|usd).{1,10}to you/i
