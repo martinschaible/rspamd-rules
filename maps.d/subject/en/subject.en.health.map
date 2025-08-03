@@ -240,7 +240,7 @@
 /calories.{1,10}belly fat/i
 
 /(causing|cause of|causes).{1,10}back.?pain/i
-/(causing|cause of|causes).{1,10}(dark spots|dementia|ed\b|joint pain)/i
+/(causing|cause of|causes).{1,10}(dark spots|dementia|ed\b|fatigue|joint pain)/i
 /(causing|cause of|causes).{1,15}(memory|vision) loss/i
 /(causing|cause of|causes).{1,10}type.{1,10}diabetes/i
 /(causing|cause of|causes).{1,10}weight gain/i
@@ -527,8 +527,8 @@
 
 /md discovers/i
 
-/memory loss.{1,10}(comes from|unveiled)/i
-/memory.{1,10}steroid/i
+/memory.?loss.{1,10}(comes from|unveiled)/i
+/memory.{1,10}(rescue|steroid)/i
 
 /melt fat every/i
 /melt.{1,10}pounds/i

@@ -163,7 +163,8 @@
 
 # W
 /warning.{1,10}cancel.{1,10}de.?activation/i
-/web.?mail (notification|software upgrade)/i
+/web.?mail.{1,10}(notification|software upgrade)/i
+/web.?mail.{1,10}mailbox password/i
 
 # X
 

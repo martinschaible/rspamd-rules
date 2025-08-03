@@ -53,7 +53,7 @@
 
 # P
 /(prices|price.?list).{1,15}(available|through|on|share|use|via).{1,15}whatsapp/i
-/(prices|price.?list).{1,15}could you deliver/i
+/(prices|price.?list).{1,15}(could you deliver|drop it)/i
 
 /inventory.{1,10}start.{1,10}conversation with us/i
 
