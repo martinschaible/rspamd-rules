@@ -193,7 +193,7 @@
 /debbix\+/i
 /decathlon-/i
 
-/denner.{0,10}support/i
+/denner.{0,10}(support|team)/i
 /denner.?-/i
 
 /^denner$/i
@@ -402,6 +402,7 @@
 
 /microsoft ads/i
 /microsoft.{0,10}(advertising|cashback|rewards?)/i
+/service.{0,10}microsoft/i
 
 /migros.?(™|®|©)$/i
 #/migros.{0,10}(aktionen|markt|oral.?b)/i
