@@ -20,7 +20,6 @@
 /gruß.{1,10}geliebte/i
 
 /guten (abend|morgen|tag).{1,10}brauchen sie einen/i
-/guten (abend|morgen|tag).{1,10}(madam|ms|sir)/i
 
 /guten (abend|morgen|tag).{1,10}ich (brauche ihre unterstützung|suche ihre dienste|ich vertraue darauf)/iu
 /guten (abend|morgen|tag).{1,10}ich bin (der|ein)/i
@@ -69,16 +68,6 @@
 /lieber herr.{5,25}ich bin dr\./i
 /lieber kunde.{1,10}wir senden ihnen diese e?.?mail/i
 
-/sehr geehrter?.{1,10}(frau|herr).{1,10}hoffe es geht dir gut/i
-/sehr geehrter?.{1,10}(frau|herr).{1,10}ich schreibe ihnen/i
-/sehr geehrter?.{1,10}(frau|herr).{1,5}betreff/i
-
-/sehr geehrter?.{1,15}(bankkunde|begünstigter?|empfänger|geschäftsmann|käufer|manager|managing)/iu
-/sehr geehrter?.{1,15}(director|direktor)/i
-
-/sehr geehrter.{1,10}unternehmer.{1,10}wir schreiben ihnen/i
-
-#
 /ich bin.{5,30}schweizer staatsbürger.{1,10}wohne in/i
 
 /wie geht es ihnen.{1,10}mein guter freund/i
@@ -113,30 +102,6 @@
 
 /von dr\..{5,30}ich bin dr\./i
 
-# Greetings, Country
-# ------------------------------------------------------------------------------
-/mein name ist.{5,35}ein schweizer/i
-
-# Introduction
-# ------------------------------------------------------------------------------
-/ich bin.{5,25}(der|die) gewinner(in)? des/i
-/ich bin.{5,25}die einzige tochter/i
-/ich bin.{5,25}ein schweizer staatsbürger.{1,10}der in dubai/i
-
-# Introduction, Country
-# ------------------------------------------------------------------------------
-/ich bin.{5,25}aus abidjan/i
-/ich bin.{5,25}ein in dubai lebender/i
-
-# Introduction, Title
-# ------------------------------------------------------------------------------
-/ich bin.{5,25}filialleiterin einer bank/i
-/ich bin.{5,25}persönliche kundenbetreuer/i
-/ich bin hon.{1,5}dr/i
-
-/ich bin.{5,25}ein banker hier/i
-/ich bin mutter.{5,25}frau/i
-
 # Introduction, Dying
 # ------------------------------------------------------------------------------
 /ich habe weniger als.{1,10}wochen zu leben/i
@@ -145,14 +110,4 @@
 # ------------------------------------------------------------------------------
 /ich brauche.{1,10}hilfe.{1,10}mein name ist/i
 
-# Religious
-# ------------------------------------------------------------------------------
-/möge der friede des herrn mit dir sein/iu
-
-#
-#
-#
-
-# Masked
-# ------------------------------------------------------------------------------
 
