@@ -411,7 +411,7 @@
 /formula restored by/i
 /fruits?.{1,10}(immediately|improving)/i
 /fruits?.{1,10}(for brain|is safe)/i
-/fruits?.{1,10}that (fights|may|weakens)/i
+/fruits?.{1,10}that (fights|might|may|weakens)/i
 /fruits?.{1,10}(should|to) avoid/i
 /fruits?.{1,10}surprising benefits/i
 /fruits?.{1,10}worse than/i
@@ -476,7 +476,7 @@
 
 # I
 /improved? memory.{1,10}(instantly|in.{1,15}seconds|memory)/i
-/improved? memory(easy|simple)/i
+/improved? memory.{1,10}(concentration|easy|simple)/i
 /improved?.{1,15}(hearing|urination|vision)/i
 
 /in \d{1,2} seconds/i
