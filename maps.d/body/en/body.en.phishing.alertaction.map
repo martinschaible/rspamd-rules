@@ -72,7 +72,9 @@
 
 # U
 /urgent.{1,10}action required.{1,10}time.?sensitive/i
-/update.{1,10}required for your access/i
+
+/(update|upgrade).{1,10}required for your access/i
+/(update|upgrade).{1,10}mailbox.{1,10}storage now/i
 
 # V
 
