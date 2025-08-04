@@ -13,9 +13,9 @@
 # ------------------------------------------------------------------------------
 # 28.07.25 - https://www.scam-detector.com/validator/ngos1-com-review/
 #            https://www.scam-detector.com/validator/gyms1-com-review/
-/ihr eintrag erfolgreich auf unserer plattform/i
-/ihre organisation erfolgreich in unserem globalen verzeichnis/i
-/sie unsere listings.?seite unter/i
+/ihr.{1,10}eintrag erfolgreich auf unserer plattform/i
+/ihre?.{1,10}(organisation|unternehmen) erfolgreich in unserem.{1,15}verzeichnis/i
+/sie (die|unsere) listings.?seite unter/i
 
 # Beneficiary
 # ------------------------------------------------------------------------------
