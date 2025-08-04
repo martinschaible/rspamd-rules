@@ -233,7 +233,8 @@
 /ihre.{1,10}chance auf ein gratis/i
 /ihre.{1,10}exklusive.{1,20}box/i
 /ihre.{1,10}lieferadresse/i
-/ihre.{1,15}prämie.{1,10}(reserviert|verschickt|wartet)/i
+
+/ihre.{1,15}prämie.?(der?).{1,25}(reserviert|verschickt|(er)?wartet)/i
 
 /ihren.{1,10}gutscheincode/i
 /ihren.{1,10}namen registriert/i
@@ -340,7 +341,7 @@
 /sichere dir dein.{1,15}geschenk heute/i
 
 /sichern sie es jetzt/i
-/sichern sie sich.{1,10}ihr exklusives/i
+#/sichern sie sich.{1,10}ihr exklusives/i
 /sichern sie sich.{1,10}ihre kostenlose/i
 /sichern sie sich.{1,10}ihre.{1,15}(lieferung|prämie)/i
 
