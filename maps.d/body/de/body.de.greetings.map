@@ -60,6 +60,8 @@
 /guten (abend|morgen|tag).{1,10}kann ich sie kontaktieren/i
 /guten (abend|morgen|tag).{1,10}kontoinhaber/i
 /guten (abend|morgen|tag).{1,10}lieber?.{1,15}(kunde|kundin)/i
+/guten (abend|morgen|tag).{1,10}(madam|ms|sir)/i
+
 /guten (abend|morgen|tag).{1,10}mein.{1,15}herr/i
 /guten (abend|morgen|tag).{1,10}meine damen und herren/i
 
@@ -200,14 +202,22 @@
 
 /sehr geehrter herr.{1,5}frau/i
 
-/sehr geehrter.{1,10}(administrator|fahrer|geschäftspartner|manager|preisträger)/iu
+/sehr geehrter?.{1,15}(administrator|bankkunde|begünstigter?|empfänger|fahrer|firma|käufer)/iu
+/sehr geehrter?.{1,10}(geschäftspartner|geschäftsmann)/iu
+/sehr geehrter?.{1,10}nachfolger/i
+/sehr geehrter?.{1,10}(preisträger|unternehmer)/iu
+/sehr geehrter?.{1,15}(director|direktor)/i
+/sehr geehrter?.{1,15}(manager|managing)/iu
 
-/sehr geehrter?.{1,10}(damen|herren).{1,20}ich hoffe.{1,10}sie erreichen/i
-/sehr geehrter?.{1,10}(damen|herren).{1,20}sind sie auf der suche/i
+/sehr geehrter?.{1,10}(damen|frau|herr(en)?).{1,5}betreff/i
+/sehr geehrter?.{1,10}(damen|frau|herr(en)?).{1,10}hoffe es geht dir gut/i
+/sehr geehrter?.{1,10}(damen|frau|herr(en)?).{1,10}ich schreibe ihnen/i
+/sehr geehrter?.{1,10}(damen|frau|herr(en)?).{1,20}ich hoffe.{1,10}sie erreichen/i
+/sehr geehrter?.{1,10}(damen|frau|herr(en)?).{1,20}sind sie auf der suche/i
 
-/sehr geehrter?.{1,15}(damen|herren).{1,20}wichtige nachricht an sie/i
-/sehr geehrter?.{1,15}(damen|herren).{1,10}wir kontaktieren sie/i
-/sehr geehrter?.{1,15}(damen|herren).{1,10}wir möchten sie darüber informieren/iu
+/sehr geehrter?.{1,15}(damen|frau|herr(en)?).{1,20}wichtige nachricht an sie/i
+/sehr geehrter?.{1,15}(damen|frau|herr(en)?).{1,10}wir kontaktieren sie/i
+/sehr geehrter?.{1,15}(damen|frau|herr(en)?).{1,10}wir möchten sie darüber informieren/iu
 
 /sehr geehrter?.{1,10}(empfänger|firma|nachfolger|unternehmer)(in)?/i
 /sehr geehrter?.{1,10}(gewinner|freundlicher|nutzer)/i

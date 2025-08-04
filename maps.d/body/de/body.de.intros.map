@@ -50,25 +50,38 @@
 /hier spricht.{1,10}(frau|herr)/i
 
 # I
-/ich bin.{5,25}die finanzvorständin/iu
-/ich bin.{1,10}jahre alt.{1,10}meine e?.?mail(.?adresse)? ist/i
 
-/ich bin.{5,45}eine?.{1,15}(investor|philanthrop|unternehmer|wirtschaftsmagnat)(in)?/i
-/ich bin.{5,45}eine?.{1,15}(geschäftsfrau|geschäftsmann)/i
+# Country
+/ich bin.{5,25}aus abidjan/i
+/ich bin.{5,25}ein.{1,10}schweizer staatsbürger.{1,10}der in dubai/iu
+/ich bin.{5,25}ein.{1,10}dubai lebender/i
 /ich bin.{5,25}eine?.{1,10}(deutscher?|schwedischer?|indischer?|indisches|italienischer?)/i
 
-/ich bin.{1,35}(ceo|gründer).{1,15}von/i
-/ich bin.{1,10}(frau|fräulein|herr)/i
-
-/ich bin.{1,10}banker bei der/i
+# Title, Occupation
 /ich bin.{1,5}(barrister|captain|general|hauptmann|mutter|oberst)/i
-/ich bin.{1,5}prof\. dr\./i
-/ich bin.{1,10}(miss|mrs?|ms|sir)/i
-/ich bin.{5,35}(rechts)?vertreter der familie/i
-/ich bin.{5,35}(privat|rechts)?anwalt/i
-/ich bin.{1,5}(special|spezial).?agent/i
+/ich bin.{5,45}eine?.{1,15}(investor|philanthrop|unternehmer|wirtschaftsmagnat)(in)?/i
+/ich bin.{5,45}eine?.{1,15}(geschäftsfrau|geschäftsmann)/i
 
+/ich bin.{1,10}banker (bei der|hier)/i
+/ich bin.{1,35}(ceo|gründer).{1,15}von/i
+/ich bin.{5,25}filialleiterin einer bank/i
+/ich bin.{5,25}finanzvorständin/iu
+/ich bin.{1,5}hon.{1,5}dr/i
 /ich bin.{5,35}leitender offizier/i
+/ich bin.{5,35}(privat|rechts)?anwalt/i
+/ich bin.{1,5}prof\. dr\./i
+/ich bin.{1,5}(special|spezial).?agent/i
+/ich bin.{5,35}(rechts)?vertreter der familie/i
+/ich bin.{5,25}persönliche kundenbetreuer/i
+
+/ich bin.{5,25}(der|die) gewinner(in)? des/i
+/ich bin.{5,25}die einzige tochter/i
+
+/ich bin.{1,10}(frau|fräulein|herr)/i
+/ich bin.{1,10}(miss|mrs?|ms|sir)/i
+
+/ich bin mutter.{5,25}frau/i
+/ich bin.{1,10}jahre alt.{1,10}meine e?.?mail(.?adresse)? ist/i
 
 # :-)
 /ich bin.{1,10}elon musk/i
@@ -115,12 +128,16 @@
 /mein name ist.{5,25}ich (möchte|schreibe) ihnen/i
 /mein name ist.{5,25}ich suche jemanden/i
 
-/mein name ist.{5,30}ein.{1,10}(amerikanischer|angestellter)/i
-/mein name ist.{5,35}ein.{1,15}wirtschaftsmagnat/i
+/mein name ist.{5,35}ein schweizer/i
+
+/mein name ist.{5,30}ein.{1,10}(amerikanischer|schweizer)/i
+/mein name ist.{5,35}ein.{1,15}(angestellter|wirtschaftsmagnat)/i
 
 /mein name ist.{5,35}ich vertrete/i
 
 /mein name ist.{5,35}von.{5,25}(holdings|ltd)/i
+
+/möge der friede des herrn mit dir sein/iu
 
 # N
 

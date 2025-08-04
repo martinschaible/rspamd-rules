@@ -24,9 +24,10 @@
 # ==============================================================================
 
 # A
-/anmeldedaten.{1,10}sehr geehrte damen.{1,10}herren/i
+/anmeldedaten.{1,15}sehr geehrte damen.{1,10}herren/i
 
 # B
+/bestätigen sie ihre.{1,20}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/i
 
 # C
 
@@ -103,7 +104,7 @@
 # Q
 
 # R
-/rückerstattung.{1,10}zahlung.{1,10}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/iu
+/rückerstattung.{1,10}zahlung.{1,15}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/iu
 /(rückerstattung|rückzahlung).{1,15}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/iu
 
 # S
