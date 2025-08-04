@@ -27,7 +27,8 @@
 # TLD at the end
 /system.?administrator.{0,10}/\.[a-z]{1,4}$/i
 
-/\| system.?notification/i
+/\|.{1,5}delivery.?report/i
+/\|.{1,5}system.?notification/i
 
 /(e?.?mail|webmail).{0,5}(admin|hosting|manager|notice|server|support|team)/i
 

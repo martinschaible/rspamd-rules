@@ -42,7 +42,7 @@
 /action needed.{1,10}tax records incomplete/i
 /action needed.{1,10}your.{1,15}(package|parcel|shipment) awaits/i
 
-/action required on.{1,15}@/i
+/action required (on)?.{1,15}@/i
 /action required.{1,10}(january|february|march|april|may|june|july|august|september|october|november|december)/i
 
 /action required.{1,15}(activate|update) your/i
