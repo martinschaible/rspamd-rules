@@ -223,7 +223,7 @@
 /dhl.{0,5}logistik.?team/i
 /dhl.{0,5}(paketstatus|paketzentrum)/i
 /dhl.{0,5}(messages?|package|team|tracking|your)/i
-/dhl.{0,5}versandinfo/i
+/dhl.{0,5}(paketinfo|versandinfo)/i
 
 /dhl.{0,5}(germany|schweiz)/i
 

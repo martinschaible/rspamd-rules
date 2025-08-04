@@ -81,7 +81,7 @@
 # R
 
 # S
-/sie um eine (geringe|kleine) (bearbeitungspauschale|servicegebühr|zustellgebühr)/iu
+/sie um eine.{1,10}(geringe|kleine).{1,10}(bearbeitungspauschale|servicegebühr|zustellgebühr)/iu
 
 # T
 
@@ -89,6 +89,7 @@
 /unvollständigen.{1,10}adressaktualisierung/iu
 
 # V
+/verwenden.{1,10}die notwendigen angaben zu bestätigen/iu
 
 # W
 
