@@ -157,6 +157,8 @@
 # K
 
 # L
+/layer.{1,10}any.?layer/i
+
 /leading.{1,10}brands.{1,10}explore/i
 /leading.{1,15}manufacturer of/i
 
@@ -261,6 +263,10 @@
 # S
 /sea freight quote/i
 /sea freight transport from/i
+
+/seamless.{1,15}supplier/i
+
+/servo motor.{1,10}factory/i
 
 /shipping rfq/i
 /shipping (agent|service) (from|in)/i

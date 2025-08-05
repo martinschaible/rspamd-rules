@@ -410,7 +410,7 @@
 /(dead|death).{0,10}(drink|foods?|metabolism|veggies)/i
 /(dead|deep).{0,10}cleansing/i
 
-/dental.{0,10}(alert|issues?|rescue|trick|work)/i
+/dental.{0,10}(alert|issues?|repair|rescue|trick|work)/i
 
 /desire.{0,10}revival/i
 
@@ -536,7 +536,8 @@
 /happy.{0,10}(gut|knees)/i
 /harmful.{0,10}(toxins?|veggies)/i
 
-/harvard.{0,15}(breaks|breakthrough|discovery|scientist|secret)/i
+/harvard.{0,15}(breaks|breakthrough|discovery|secret)/i
+/harvard.{0,15}(science|scientist)/i
 
 /hates it/i
 
@@ -589,7 +590,7 @@
 /kilo{0,10}day/i
 /killing.{0,10}(pain|protein)/i
 
-/knee.{0,10}(mistake|reset|stretch|support)/i
+/knee.{0,10}(mistake|reset|restore|stretch|support)/i
 
 # L
 /leak.{0,10}free/i
@@ -825,6 +826,7 @@
 /strong.{0,10}stream/i
 
 /stay.{0,10}(asleep|hard|slim)/i
+/steady.{0,10}steps/i
 /stinky.{0,10}breath/i
 
 /stop the/i

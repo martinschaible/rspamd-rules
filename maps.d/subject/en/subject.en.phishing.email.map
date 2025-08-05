@@ -103,6 +103,8 @@
 
 /mailbox.{1,10}(login|server)/i
 
+/mailbox.{1,10}quota upgrade needed/i
+
 # N
 /notice of e?.?mail.{1,10}deactivation/i
 

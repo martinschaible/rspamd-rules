@@ -35,7 +35,8 @@
 # B
 /belohnung freischalten/i
 
-/(belohnung|geschenk|gutschein|preis|gewinn).{1,10}innerhalb von.{1,10}stunden erhalten/i
+/(belohnung|geschenk|gutschein|gewinn|preis).{1,15}anfordern/i
+/(belohnung|geschenk|gutschein|gewinn|preis).{1,10}innerhalb von.{1,10}stunden erhalten/i
 
 /bestätigen sie.{1,10}ihre.{1,15}prämie/i
 /bestätigen sie innerhalb der nächsten.{1,15}ihre.{1,15}adresse/i
@@ -66,7 +67,8 @@
 /ihre kostenlose Prämie zu sichern/iu
  
 # J
-/jetzt.{1,10}(angaben|gewinn).{1,10}bestätigen/iu
+/jetzt.{1,10}angaben.{1,10}bestätigen/iu
+/jetzt.{1,10}(belohnung|geschenk|gewinn|preis).{1,10}(beanspruchen|sichern)/iu
 
 # K
 
