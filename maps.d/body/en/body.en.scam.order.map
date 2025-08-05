@@ -51,6 +51,7 @@
 # N
 
 # O
+/over whatsapp below/i
 
 # P
 /(prices|price.?list).{1,15}(available|through|on|share|use|via).{1,15}whatsapp/i
@@ -59,11 +60,10 @@
 
 /inventory.{1,10}start.{1,10}conversation with us/i
 
+/(items?|offerings?|products?).{1,10}(appreciate|feel free|ping us|share).{1,20}whatsapp/i
 /(items?|offerings?|products?).{1,10}(connect|reach out|write) (to|via|with).{1,15}whatsapp/i
 /(items?|offerings?|products?).{1,10}info(rmation)? (available|through|on|via).{1,10}whatsapp/i
-/(items?|offerings?|products?).{1,10}feel free.{1,10}whatsapp/i
-/(items?|offerings?|products?).{1,10}on.{1,10}whatsapp/i
-/(items?|offerings?|products?).{1,10}ping us.{1,10}whatsapp/i
+/(items?|offerings?|products?).{1,10}(on|over).{1,10}whatsapp/i
 /(items?|offerings?|products?).{1,10}send more info.{1,10}whatsapp/i
 /(items?|offerings?|products?).{1,10}whatsapp below/i
 /(items?|offerings?|products?).{1,10}we can be reached on/i

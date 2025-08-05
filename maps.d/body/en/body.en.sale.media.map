@@ -84,11 +84,15 @@
 /(targeted|verified).{1,15}e?.?mail.{1,10}(databases?|leads?|lists?)/i
 /(targeted|verified).{1,15}databases?.{1,10}businesses.{1,10}operating/i
 
+/targeted.{1,15}e?.?mail.{1,10}campaigns.{1,10}generate/i
+
 # U
 
 # V
 
 # W
+/we can send.{1,10}targeted.{1,10}e?.?mail/i
+
 /we help creators grow/i
 /we work with brands to help them/i
 
