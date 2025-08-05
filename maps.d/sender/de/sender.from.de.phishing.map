@@ -138,6 +138,8 @@ _[a-z].{0,15}box/i
 #/team (vom|von)/i
 #/team vom/i
 
+/ticket.?nummer:/i
+
 # U
 /umfrage.{0,15}(exklusiv|starten|unter|verbraucher)/i
 /umfrage.{0,5}(über|zu)/iu

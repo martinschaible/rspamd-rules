@@ -32,6 +32,7 @@
 
 
 /(home.?page|web.?site).{1,15}(erstellen|gestalten|umgestalten|umsatz)/i
+/(home.?page|web.?site).{1,10}für ihr unternehmen/iu
 
 # I
 
@@ -45,19 +46,20 @@
 # M
 
 # N
-/neugestaltung der home.?page/i
+/neugestaltung der.{1,10}(home.?page|web.?site)/i
 
 # O
 
 # P
-/professionelle.{1,15}home.?page/i
+/professionelle.{1,15}(home.?page|web.?site)/i
 
 # Q
 
 # R
+/re-home.?page/i
 
 # S
-/sie ihrer website/i
+/sie ihrer.{1,10}(home.?page|web.?site)/i
 
 # T
 
@@ -68,9 +70,8 @@
 
 # W
 /webdesign.{1,10}partnerschaft/i
-/website für ihr unternehmen/iu
 
-/wir erstellen ihre website/i
+/wir erstellen ihre.{1,10}(home.?page|web.?site)/i
 
 # X
 

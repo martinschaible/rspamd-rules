@@ -31,9 +31,10 @@
 # G
 
 # H
+/(home.?page|web.?site).{1,10}(erstellen|gestalten|umgestalten|umsatz)/i
 
 # I
-/ihre.{1,10}(homepage|web.?site) weitergeleitet.{1,25}sie zu kontaktieren/i
+/ihre.{1,10}(home.?page|web.?site) weitergeleitet.{1,25}sie zu kontaktieren/i
 
 /interesse an einem unverbindlichen.{1,10}call/i
 
@@ -44,6 +45,7 @@
 # L
 
 # M
+/möchten sie ihre.{1,10}(home.?page|web.?site)/iu
 
 # N
 
@@ -56,19 +58,19 @@
 # R
 
 # S
-/sie eine schnelle.{1,10}(homepage|web.?site)/i
+/sie eine schnelle.{1,10}(home.?page|web.?site)/i
 
 # T
 
 # U
-/unsere.{1,10}miet.?(homepage|web.?site)/i
+/unsere.{1,10}miet.?(home.?page|web.?site)/i
 
 # V
 
 # W
-/(homepage|web.?site).{1,10}erschwinglichen preis(en)?/i
-/(homepage|web.?site).{1,10}erstellt.{1,10}gepflegt/i
-/(homepage|web.?site).{1,10}ich kann helfen/i
+/(home.?page|web.?site).{1,10}erschwinglichen preis(en)?/i
+/(home.?page|web.?site).{1,10}erstellt.{1,10}gepflegt/i
+/(home.?page|web.?site).{1,10}ich kann helfen/i
 
 # X
 
