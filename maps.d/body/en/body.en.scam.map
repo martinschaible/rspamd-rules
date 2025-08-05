@@ -39,6 +39,7 @@
 # ==============================================================================
 
 # A
+/attached with your.{1,10}(sur)?name/i
 
 # B
 /(beneficiaries|beneficiary).{1,10}the total sum of/i
@@ -83,7 +84,10 @@
 # M
 /my need for assistance in profiling/i
 
+/(my|your).{1,10}name.{1,15}as the next of kin/i
+
 # N
+/next of kin.{1,15}contact us/i
 
 # O
 
