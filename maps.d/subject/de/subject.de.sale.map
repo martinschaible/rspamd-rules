@@ -22,16 +22,14 @@
 # Chair
 # ------------------------------------------------------------------------------
 /(büro|designer|massage).?(sessel|stuhl|stühle).{1,15}(abverkauf|angebot|bezug|charakter|funktion)/i
+/(büro|designer|massage).?(sessel|stuhl|stühle).{1,15}jetzt (für|nur)/iu
 /(büro|designer|massage).?(sessel|stuhl|stühle).{1,25}(massage|stil|vorteilspreis)/i
 /(büro|designer|massage).?(sessel|stuhl|stühle).{1,15}nur.{1,10}zzgl/i
 /(büro|designer|massage).?(sessel|stuhl|stühle).{1,15}walholz/i
 
-/massage.{0,15}(büro|sessel|stuhl|stühle).{0,15}(sessel|stuhl|stühle)/iu
-/stilvoll.{0,15}(büro|sessel|stuhl|stühle).{0,15}(sessel|stuhl|stühle)/iu
+/(chance|stilvoll|top.?preis).{1,15}(büro|designer|massage).{0,15}(sessel|stuhl|stühle)/iu
 
-/\d{2,3}.{1,10}(büro|massage).?(sessel|stuhl|stühle)/i
-
-/chance.{1,15}(büro|massage).?(sessel|stuhl|stühle)/i
+/\d{2,3}.{1,10}(büro|designer|massage).?(sessel|stuhl|stühle)/i
 
 /büro.{1,10}jetzt zugreifen/iu
 /design.{1,10}komfort vereint/i
@@ -243,6 +241,8 @@ jetzt im angebot:.{1,15}(design|klassiker|zeitlos)/i
 /fernsehen muss nicht teuer sein/i
 
 /fortschrittliches.{1,15}gerät/iu
+
+/für nur \d{2}€$/i
 
 # G
 /gartenlautsprecher.{1,15}(garten|outdoor)/i
