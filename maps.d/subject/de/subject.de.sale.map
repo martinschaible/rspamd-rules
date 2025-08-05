@@ -35,7 +35,7 @@
 /design.{1,10}komfort vereint/i
 /(edler|dtn).{1,5}stuhl/i
 
-jetzt im angebot:.{1,15}(design|klassiker|zeitlos)/i
+/jetzt im angebot:.{1,15}(design|klassiker|zeitlos)/i
 /leder.{1,10}jetzt bestellen/i
 
 /rücken entspannen.{1,10}\d{2,3}/iu
@@ -225,6 +225,7 @@ jetzt im angebot:.{1,15}(design|klassiker|zeitlos)/i
 # E
 /edelstahl.{0,10}(briefkasten|briefkästen)/i
 
+/empfehlung sollten sie nicht verpassen/i
 /entdecken sie.{1,10}smart.?glasses/i
 /entdeckt eine einfache methode/i
 
