@@ -161,7 +161,7 @@
 
 /^bosch.?(™|®|©)$/i
 
-/bundespolizei$/i
+/bundes.?polizei$/i
 
 /bundeszentralamt.{1,10}steuern/i
 
@@ -237,6 +237,7 @@
 /(express|kurier|notification).{0,5}(dhl|dpd)/i
 
 /diba-ag/i
+/digitech/i
 /die(\.|-)?post/i
 
 /dlsney/i
@@ -584,7 +585,7 @@
 /swica.?-/i
 
 /swisscom.{0,10}(info|mitteilungen|support)/i
-/swisscom.{0,10}(kundenbetreung|kundenservice)/i
+/swisscom.{0,10}(kommunikation|kundenbetreung|kundenservice)/i
 
 /swiftpackage/i
 
