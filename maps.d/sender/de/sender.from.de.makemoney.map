@@ -74,6 +74,8 @@
 
 # I
 /ihre rechnung/i
+/ihre?.{0,15}(produkt|serechnungndung)/i
+
 /investment.{0,10}(guide|strategie)/i
 
 # J
