@@ -5,17 +5,6 @@
 #  10 | German         |
 # ==============================================================================
 
-# Beanbag
-# ------------------------------------------------------------------------------
-/bean.?bag.{1,10}nur.{1,10}netto/i
-/sitzsack.{1,10}bean.?bag/i
-/riesen.{1,10}sitzsack/i
-
-# Boxes
-# ------------------------------------------------------------------------------
-/aluminiumkiste.{1,10}transportbox/i
-/aluminium.?transportkisten.{1,10}set/i
-
 # Chair
 # ------------------------------------------------------------------------------
 /chefsessel.{1,10}erhältlich in einer/i
@@ -53,12 +42,6 @@
 /unsere.{1,10}(büro|dreh).?(stuhl|stühle) sind in/iu
 /unsere.{1,10}eleganten.{1,10}(büro|dreh).?(stuhl|stühle)/iu
 
-# Massage
-/jetzt.{1,10}mit massagefunktion/i
-
-#
-/teleskophocker/i
-
 # Coffee
 # ------------------------------------------------------------------------------
 /kaffee.?vollautomat(en)?.{1,10}firmen/i
@@ -77,61 +60,6 @@
 /wir haben.{1,15}(derila|klaudena)/i
 
 /unser.{1,10}(lendenstützkissen|rückenkissen)/i
-
-# Dishwasher
-# ------------------------------------------------------------------------------
-/fuguu/i
-/reinheit.{1,10}geschirrspüler/i
-
-# Durchlauferhitzer
-# ------------------------------------------------------------------------------
-/zugreifen.{1,10}durchlauferhitzer/i
-
-# Drones
-# ------------------------------------------------------------------------------
-/quadrocopter.{1,15}aktion.{1,10}statt.{1,10} nur/i
-/quadrocopter.{1,10}zum lernen/i
-
-# Energy Saver
-# ------------------------------------------------------------------------------
-/sie mit.{1,15}schon heute.{1,10}an zu sparen/i
-
-/reaktive elektroenergie/i
-
-# Flags
-# ------------------------------------------------------------------------------
-/teleskop.{1,10}(fahnen|flaggen).?mast/i
-
-/(fahnen|flaggen).?mast.{1,20}jetzt nur/i
-/(fahnen|flaggen).?mast.{1,10}mit fahne/i
-
-# Furniture
-# ------------------------------------------------------------------------------
-/gartenmöbel.?set.{1,10}statt.{1,10}nur/iu
-/(exklusive|unsere).{1,10}polyrattan.{1,10}sitzgruppe/i
-
-# Hearing aid
-# ------------------------------------------------------------------------------
-/hörgerät.{1,20}(durchbruch|weltweite?)/iu
-/werfen ihre hörgeräte weg/iu
-
-# Heater
-# ------------------------------------------------------------------------------
-/tragbare(n|s)?.?heizgeräte?/iu
-/heizgerät.{1,10}geld spart/i
-
-/übernehmen sie die kontrolle über ihren geldbeutel/iu
-
-# Insoles
-# ------------------------------------------------------------------------------
-/japanischer?.{1,10}einlegesohlen/i
-
-# Intercom
-# ------------------------------------------------------------------------------
-/unsere.{1,10}video.{1,10}türsprechanlage/iu
-
-/wlan.?full.?hd.{1,10}video.{1,10}türsprechanlage/iu
-/wlan.?internet.{1,10}türsprechanlage/iu
 
 # Jacket
 # ------------------------------------------------------------------------------
@@ -156,10 +84,6 @@
 /(einzigartig|empfehlung|team).{1,20}huusk/i
 /küchenmesser.{1,10}premium/i
 
-# Komposter
-# ------------------------------------------------------------------------------
-/neu im programm.{1,10}schnellkomposter/i
-
 # Ladder
 # ------------------------------------------------------------------------------
 /teleskopleiter.{1,15}kostenfreiem versand/i
@@ -170,43 +94,15 @@
 
 /profi.{1,10}aluminium.{1,10}teleskopleiter/i
 
-# Lamp
-# ------------------------------------------------------------------------------
-/arbeitslicht.{1,10}klicken sie hier/i
-/(besserem|besseres) licht.{1,10}klicken sie hier/i
-
-/(beleuchtung|effizient arbeit|homeoffice|tischlampe).{1,10}klicken sie/i
-/(beleuchtung|tischlampe).{1,10}fokussiert/i
-
-/(ideale|mit dieser|perfekte|unsere).{1,10}(tisch)?lampe/i
-/diese.{1,10}lampe.{1,10}macht/i
-
-/lösung.{1,10}perfektes arbeitslicht/i
-
 # Learning languages
 # ------------------------------------------------------------------------------
 /einfaches? englischlernen/i
 /erlernen sie eine.{1,15}sprache schneller als/i
 
-# LED
-# ------------------------------------------------------------------------------
-/(neu|unsere).{1,15}feuchtraum.?leuchte/i
-
 # Mats
 # ------------------------------------------------------------------------------
 /(sauberlauf|schmutzfang).?matten?.{1,10}sauberlaufteppich/i
 /(sauberlauf|schmutzfang).?matten?.{1,10}verschiedenen farben/i
-
-# Night Vision Scope
-# ------------------------------------------------------------------------------
-/unser neues.{1,10}nachtsichtfernglas/i
-
-# Pan
-# ------------------------------------------------------------------------------
-/emura.{1,10}pfanne/i
-/pfannen?.{1,10}emura/i
-
-/(innovative|neue|peek).{1,15}antihaftbeschichtung/i
 
 # Pen
 # ------------------------------------------------------------------------------
@@ -595,69 +491,3 @@
 /wir holen.{1,10}(auto|fahrzeug|pkw) vor ort ab/i
 /wir holen.{1,10}bundesweit.{1,10}(auto|fahrzeug|pkw) ab/i
 /wir suchen.{1,15}firmenfahrzeuge/i
-
-#
-#
-#
-
-# Unclassified
-# ------------------------------------------------------------------------------
-/dsgvo.{1,10}anfragen werden.{1,15}sofort beantwortet/i
-/exklusiven lagerabverkaufsangebot/i
-
-/wir bieten ki.?gestützte.{1,15}lösungen/i
-
-# Generic
-# ==============================================================================
-
-# A
-
-# B
-
-# C
-
-# D
-
-# E
-
-# F
-
-# G
-
-# H
-
-# I
-
-# J
-
-# K
-
-# L
-
-# M
-
-# N
-
-# O
-
-# P
-
-# Q
-
-# R
-
-# S
-
-# T
-
-# U
-
-# V
-
-# W
-
-# X
-
-# Y
-
-# Z
