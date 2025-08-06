@@ -148,6 +148,7 @@
 /(lieferung|paket|sendung|versand|zustellung).{1,10}(ausstehende|unbezahlte).{1,10}(versandkosten|zollgebühren)/iu
 /(lieferung|paket|sendung|versand|zustellung).{1,10}ist angehalten/i
 /(lieferung|paket|sendung|versand|zustellung).{1,10}zahlung.{1,10}(ausstehend|erforderlich)/i
+/(lieferung|paket|sendung|versand|zustellung).{1,10}benötigt eine bestätigung/iu
 
 #/live verfolgen.{1,10}(paket|sendung)/i
 
@@ -172,8 +173,7 @@
 #/(paket|sendung).{1,10}ist unterwegs!/i
 
 /(paket|sendung).{1,10}an sie hätte geliefert/iu
-/(paket|sendung).{1,10}befindet sich im zustellzentrum/i
-/(paket|sendung).{1,10}befindet sich in wartestellung/i
+/(paket|sendung).{1,10}befindet sich.{1,10}(wartestellung|zustellzentrum)/i
 /(paket|sendung).{1,20}bewegt sich/i
 /(paket|sendung).{1,10}erwartet sie/i
 
