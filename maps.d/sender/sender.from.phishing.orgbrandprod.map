@@ -39,6 +39,7 @@
 # Hermes Paketankündigung
 # Hermes Paketversand
 # iCloud
+# Kaufland Card
 # Lidl Küchenliebe
 # Mein ROSSMANN April
 # Meta
@@ -357,7 +358,7 @@
 # K
 # ------------------------------------------------------------------------------
 /kaufland.?(™|®|©)$/i
-/kaufland.{0,10}(card|geschenk|team)/i
+/kaufland.{0,10}(geschenk|team)/i
 /kaufland.{0,10}#\d{1,10}/i
 
 /kauf\.land/i
