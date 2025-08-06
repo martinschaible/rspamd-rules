@@ -58,6 +58,7 @@
 /mailbox.{1,10}keep my password/i
 
 # N
+/not being delivered to your inbox/i
 
 # O
 
@@ -67,6 +68,8 @@
 
 # R
 /(release|review|unlock|view).{1,15}(important|incoming|pending|suspended).{1,15}(e?.?mails?|messages?)/i
+
+/(refresh|reload).{1,10}e?.?mail.?server/i
 
 # S
 /server has important.{1,10}(e?.?mails?|messages?).{1,10}suspended/i

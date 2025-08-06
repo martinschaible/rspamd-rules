@@ -120,6 +120,8 @@
 # Q
 
 # R
+/(refresh|reload).{1,10}e?.?mail.?server/i
+
 /release pending message.{1,10}(e?.?mail|message)s?/i
 /report.{1,10}incoming.{1,10}(e?.?mail|message)s?/i
 
