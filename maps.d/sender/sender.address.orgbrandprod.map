@@ -129,6 +129,8 @@
 # Sample: ups@googlegroups.com
 /ups@[a-z]{5,25}\.com/i
 
+/ups@/i
+
 /uuccard-/i
 /uc-card\./i
 
@@ -139,8 +141,6 @@
 /volksbank-/i
 
 # W
-/warren.?buffet/i
-/^wyss.?foundation/i
 
 # X
 
