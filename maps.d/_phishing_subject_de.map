@@ -269,7 +269,6 @@
 /(paket|sendung).{1,10}wird heute zurückgeschickt/i
 /(paket|sendung).{0,10}zustellung.{1,10}(ansteht|mitteilung)/i
 
-/(paket|referenznummer|sendung).?id.?\d{5,25}/i
 /paket.?lieferung ausstehend/i
 
 /postamt angekommen/i
