@@ -549,7 +549,7 @@
 
 /hearing.{0,10}problem/i
 
-/health.{0,10}wire/i
+/health.{0,10}(alerts?|deals?|wire)/i
 
 /heart.{0,10}(attack|cells|check|danger|disease|health|helper|problems?|protection|risk)/i
 
@@ -671,8 +671,8 @@
 
 /nasty.{0,10}(lumps|(toe)?nails?)/i
 
-/natural.{0,10}(alternative|antibiotic|digest|fix|shape|solution|tonic|trick|vaccine)/i
-/natural.{0,10}neuropathy/i
+/natural.{0,10}(alternative|antibiotic|digest|fix|health|help|neuropathy)i
+/natural.{0,10}(shape|solution|tonic|trick|vaccine)/i
 
 /nature.{0,10}(cure|morphine|opioids?|tea)/i
 
@@ -723,7 +723,8 @@
 /pineapple/i
 /pins.{0,10}needles/i
 
-/pleasure.{0,10}(centers?|fix|hack|points?|unlock)/i
+/pleasure.{0,10}(alignment|centers?|fix|hack|points?|unlock)/i
+
 /potent.{0,10}drink/i
 /pooch.{0,10}belly/i
 /poop.{0,10}(stuck|type)/i
