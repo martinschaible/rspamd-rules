@@ -1,0 +1,43 @@
+# ==============================================================================
+#
+#
+# ------------------------------------------------------------------------------
+# Language: -
+# Weight:   6.0
+# ==============================================================================
+
+# TLD's
+# ==============================================================================
+
+# Azerbaijan
+\/[a-z]{2,4}\.edu\.az/i
+
+# Bangladesh
+\/[a-z]{2,4}\.edu\.bd/i
+
+# Sample: info@aldm118596.edu.bd
+\/\d{2,6}\.edu\.bd/i
+
+# Brazil
+\/[a-z]{2,4}\.gov\.br$/i
+
+# Russia
+/\.gov\.ru/i
+/\.ru\.com/i
+
+# The exotic ones
+/\.(agency|cam|chat|click|fun|top|work|xyz)$/i
+/\.(biz|co|net|or)\.id$/i
+
+/[a-z]{2,4}\.io$/i
+
+# Patterns
+# ------------------------------------------------------------------------------
+
+# 15.07.25 - Sample: ad.tjulete@service.vggrt.cn
+# -> No subdomain accepted
+/@[a-z]{3,15}\.[a-z]{3,15}\.cn/i
+
+# 16.07.24 - Sample: support@rea.ru
+# -> No short domain name accepted
+/[a-z]{3,5}\.ru/i
