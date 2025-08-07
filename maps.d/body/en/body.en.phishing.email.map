@@ -89,7 +89,7 @@
 # X
 
 # Y
-/you have.{1,10}pending.{1,10}(e?.?mails?|messages?).{1,10}on our/i
+/you have.{1,10}(pending|undelivered).{1,10}(e?.?mails?|messages?).{1,10}on (\d|our)/i
 /you have.{1,10}important.{1,10}pending.{1,10}(e?.?mails?|messages?)/i
 
 /you must clear.{1,10}cache immediately/i
