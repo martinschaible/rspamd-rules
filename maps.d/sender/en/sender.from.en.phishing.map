@@ -69,8 +69,8 @@
 
 # Kits for cars and stupid people
 # ------------------------------------------------------------------------------
-/(car|fire).{1,10}emergency.?kit/i
-/medicare.?kit/i
+/(car|fire).{1,10}emergency.?(kit|set/i
+/medicare.?(kit|set)/i
 
 #
 #

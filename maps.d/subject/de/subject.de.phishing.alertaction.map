@@ -217,6 +217,7 @@
 /ihr.{1,10}abonnement ist gefährdet/iu
 /ihr.{1,15}konto benötigt eine bestätigung/iu
 /ihr.{1,10}online.?zugang wird bald deaktiviert/i
+/ihr.{1,10}zugang ist pausiert/i
 
 /ihr handeln ist erforderlich/i
 
@@ -273,7 +274,10 @@
 
 /letzte erinnerung.{1,20}ausstehenden lieferung/i
 /letzte (aufforderung|erinnerung).{1,20}ihr(es)?.{1,15}(konto|speicher)/i
+
+/letzte erinnerung.{1,10}ihr.{1,15}zugang/i
 /letzte erinnerung.{1,10}ihre.{1,10}rechnung bei.{1,15}ist noch offen/i
+/letzte erinnerung.{1,10}ihre.{1,25}wartet/i
 
 /letzte erinnerung.{1,20}prämie/iu
 /letzte erinnerung.{1,10}securego/i

@@ -19,7 +19,6 @@
 /erste.?hilfe.?set/i
 /kostenloses.{1,10}sicherheitskit/i
 
-/medicare.?(kit|set)/i
 /notfall.?rettungs.?paket/i
 
 /(brandschutzset|mystery.?box).{1,10}(erhalten|gewonnen|noch heute)/i
@@ -42,6 +41,9 @@
 /holen sie sich.{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
 
 /ihr neuer.{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra).{1,10}gewinn/i
+
+/ihre.{1,15}(airpods|apple|ipad|iphone|macbook|watch ultra){1,15}wartet/i
+
 /ihre.{1,10}prämie wartet.{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/iu
 /ihre.{1,10}chance auf.{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
 
@@ -191,6 +193,8 @@
 /glückwunsch.{1,10}fordern sie.{1,10}(ihr|ihren?)/i
 /glückwunsch.{1,10}sie sind einer/i
 
+/gratuliere.{1,10}ihr kostenloses/i
+
 /gratis.{1,15}euro geschenkkarte/i
 
 # H
@@ -212,6 +216,7 @@
 
 /ihr.{1,15}kit zu beanspruchen/i
 /ihr.{1,10}konto wird ausgewählt/iu
+/ihr.{1,10}kostenloses.{1,15}ist bereit/i
 
 /ihr.{1,10}name steht.{1,15}auf der liste/i
 /ihr.{1,10}name wurde für ein/iu

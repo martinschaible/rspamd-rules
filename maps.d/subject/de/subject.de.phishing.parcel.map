@@ -165,6 +165,9 @@
 # N
 /nahe dem abschluss/i
 
+# Sample: nicht zugestellt werden - [ 100483 ]
+/nicht zugestellt werden.{1,10}\[.?\d{4,10}.?\]/i
+
 # O
 
 # P
