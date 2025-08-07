@@ -88,13 +88,14 @@
 /telefonnummer.{1,10}innerhalb von.{1,10}stunden zu bestätigen/iu
 
 # U
-/(ungewöhnliche|verdächtige) (aktivitäten|vorgänge) (auf|in) (dem|ihrem).{1,15}konto/iu
+/(ungewöhnliche|verdächtige).{1,10}(aktivitäten|vorgänge).{1,10}(auf|in) (dem|ihrem).{1,15}konto/iu
 
 /überprüfung ihres.{1,15}kontos ist erforderlich/iu
 
 # V
 
 # W
+/wichtige?.{1,15}aktualisierung.{1,15}kontaktdaten/i
 /wichtige?.{1,15}information.{1,10}ihr online.?banking/i
 /wichtige?.{1,15}mitteilung.{1,10}verifizieren sie ihr.{1,15}konto/i
 

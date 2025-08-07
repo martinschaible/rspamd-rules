@@ -548,6 +548,12 @@
 
 /(shein|smava|spotify).?(™|®|©)$/i
 
+/spar-kasse/i
+/^sparkasse$/i
+/sparkasse noreply/i
+
+/spyrec.?pro/i
+
 /s p o t i f y/i
 /spotify.?(™|®|©)$/i
 /spotify_/i
@@ -566,11 +572,6 @@
 
 /state.?farm/i
 
-/spyrec.?pro/i
-
-/^sparkasse$/i
-/sparkasse noreply/i
-
 /support.{0,5}(apple|swica)/i
 
 /^sumup\.?$/i
@@ -579,7 +580,7 @@
 /sumxup/i
 
 /sumup.{0,10}(assistenz|kundendienst|service.?desk|limited|team)/i
-/(team|von).{0,10}sumup/i
+/(account|team|von).{0,10}sumup/i
 
 /sw\/ca/i
 /swicach/i

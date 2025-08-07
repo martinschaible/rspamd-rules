@@ -429,7 +429,7 @@
 /gets? rid of.{1,10}unwanted/i
 
 /(gum|gut).{0,10}(cleanse|cleansing)/i
-/(gum|gut).{0,10}(fix|health|problem|power)/i
+/(gum|gut).{0,10}(fix|health|problem|power|reset)/i
 /goodbye.{0,10}(pain|ringing ears)/i
 
 /reveals greatest discovery/i
@@ -605,7 +605,7 @@
 
 # Q
 /quick.{1,10}glow.?fix/i
-/quick.{1,10}skin/i
+/quick.{1,10}(gut|skin)/i
 /quick relief for.{1,15}pain/i
 
 /quit eating.{1,10}blueberries/i

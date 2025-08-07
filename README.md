@@ -252,8 +252,8 @@ Folder structure:
 sender
   ├─ sender.address.map                          ─┐
   ├─ sender.address.orgbrandprod.map              ├─ multimap.sender.address.conf
-  ├─ sender.address.people.map                    │
-  ├─ sender.address.tld                          ─┘
+  ├─ sender.address.people.map             X      │
+  ├─ sender.address.tld                    X     ─┘
   │
   ├─ de
   │   └─ sender.address.de.map                   --- multimap.sender.address.de.conf 
