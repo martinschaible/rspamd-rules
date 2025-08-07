@@ -82,6 +82,7 @@
 # A
 /aaa.{0,10}deals?/i
 
+#/accounts?.?(department|help|payable|protection)/i
 /accounts?.?(department|help|payable|protection|team)/i
 
 /action.{0,10}required/i
