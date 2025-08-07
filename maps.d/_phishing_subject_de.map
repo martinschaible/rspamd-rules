@@ -332,7 +332,6 @@
 /zahlung.{1,10}versandgebühr.{1,10}(über)?fällig/iu
 
 #
-/referenz.?(code|nummer).{1,5}\d{4,15}/i
 /(ch|de|org).{1,10}referenz.?code/i
 /package.{1,10}informationen/i
 
