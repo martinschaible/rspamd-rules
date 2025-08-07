@@ -34,7 +34,7 @@
 /app.?(benachrichtigung(en)?|hinweis)/i
 
 # B
-/beste dating/i
+/besten?.{0,10}(dating|fotos)/i
 
 # C
 /chat.{0,10}liebe/i
@@ -107,6 +107,7 @@
 /teen.{0,10}girls?/i
 
 # V
+/vip.{0,10}zugang/i
 /vom (scout|service|support)/i
 /von (dir|ihnen) entfernt/i
 
