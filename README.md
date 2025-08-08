@@ -119,6 +119,7 @@ These are the latest changes:
 |          | multimap.body.en.scam.conf                 | New map file added            |
 |          | multimap.subject.de.conf                   | New map file added            |
 |          | multimap.subject.en.conf                   | New map file added            |
+| 08.08.25 | multimap.sender.address.conf               | New map file added, changes   |
 
 
 ## Content
@@ -156,6 +157,7 @@ base
 
 lists
   ├─ list.tld.map                             *  --- multimap.base.body.href.conf
+  │                                           *  --- multimap.sender.address.conf
   └─ list.url.shortener.map                   *  --- multimap.base.body.href.conf
 ```
 
@@ -252,8 +254,8 @@ Folder structure:
 sender
   ├─ sender.address.map                          ─┐
   ├─ sender.address.orgbrandprod.map              ├─ multimap.sender.address.conf
-  ├─ sender.address.people.map             X      │
-  ├─ sender.address.tld                    X     ─┘
+  ├─ sender.address.people.map                    │
+  ├─ sender.address.tld.map                      ─┘
   │
   ├─ de
   │   └─ sender.address.de.map                   --- multimap.sender.address.de.conf 
