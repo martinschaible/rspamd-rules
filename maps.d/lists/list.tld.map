@@ -11,9 +11,8 @@
 # Rspamd doesn't provide TLD extraction for image tags.
 #
 # The content of this file is also used in these files:
-# - base.body.img.domain.tld.list.map
-# - sender.address.tld.list
-# - sender.from.tld.list
+# - base.body.img.domain.list.tld.map
+# - sender.address.list.tld
 # ==============================================================================
 
 # https://www.spamhaus.org/statistics/tlds/
