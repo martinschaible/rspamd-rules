@@ -95,6 +95,13 @@
 
 /neu.{1,10}falt.?(event|falt|garten)?pavillons?/i
 
+# Regale
+# ------------------------------------------------------------------------------
+/gewerbe.?schwerlast.?regal/i
+
+/schwer.?lastregale? \d{3}.?x.?\d{2,3}/i
+/set blaue.{1,10}schwerlast.?regale/i
+
 #
 #
 #

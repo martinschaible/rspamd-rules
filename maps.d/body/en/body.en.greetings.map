@@ -137,6 +137,7 @@
 /good (afternoon|day|evening|morning).{1,10}we are reaching out/i
 /good (afternoon|day|evening|morning).{1,10}we provide/i
 
+/greet sir.{1,5}madam/i
 /greet you from.{1,10}republic/i
 
 /greetings?.?(of the day)?{.1,10}beloved.{1,15}my name is/i

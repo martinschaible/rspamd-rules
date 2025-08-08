@@ -124,6 +124,7 @@
 /sie (sind|waren) der empfänger einer.{1,15}spende/iu
 /sie wurden für (die|eine).{1,15}spende/i
 /sie wurden von unserer stiftung/i
+/sie wurden für einen.{1,10}(geldbetrag|zuschuss)/iu
 
 /(spende|zuschuss).{1,10}wurde bearbeitet und kann an sie/i
 /(spende|zuschuss).{1,10}zugesprochen.{1,15}weitere informationen/iu
@@ -149,3 +150,5 @@
 
 # Z
 /zufallsprinzip ausgewählt.{1,10}um eine zuwendung/i
+
+/zuschuss.{1,10}investitions.?fonds/i

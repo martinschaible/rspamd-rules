@@ -249,13 +249,14 @@
 /quotation.{1,15}injection mold/i
 
 # R
-/(reliable|trusted).{1,20}(components|electronic).{1,15}(manufacturer|partners?|suppliers?)/i
-/(reliable|trusted).{1,20}supplier.{1,15}partnership/i
+/(professional|reliable|trusted).{1,20}(components|electronic).{1,15}(manufacturer|partners?|suppliers?)/i
+/(professional|reliable|trusted).{1,20}supplier.{1,15}partnership/i
 
-/(reliable|trusted).{1,10}(pcba?|printed.?circuit.?board).{1,10}(manufacturer|partners?|suppliers?)/i
-/(reliable|trusted).{1,15}(cnc|manufacturing|scaffolding).{1,10}(manufacturer|partners?|suppliers?)/i
-/(reliable|trusted).{1,15}(manufacturer|partners?|suppliers?) (for|of)/i
-/(reliable|trusted).{1,15}custom fabrication/i
+/(professional|reliable|trusted).{1,10}(drag|chain|cnc).{1,10}(manufacturer|partners?|suppliers?)/i
+/(professional|reliable|trusted).{1,15}(manufacturing|scaffolding).{1,10}(manufacturer|partners?|suppliers?)/i
+/(professional|reliable|trusted).{1,10}(pcba?|printed.?circuit.?board).{1,10}(manufacturer|partners?|suppliers?)/i
+/(professional|reliable|trusted).{1,15}(manufacturer|partners?|suppliers?) (for|of)/i
+/(professional|reliable|trusted).{1,15}custom fabrication/i
 
 /rfq.{1,15}(injection|moulding|plastic)/i
 /rfq pcb/i
@@ -297,7 +298,8 @@
 # V
 
 # W
-/we are looking for partners for/i
+/we are.{1,10}looking for partners for/i
+/we are a.{1,10}professional/i
 /we (make|supply).{1,20}(bags|majority|packing|priced chips)/i
 
 # X

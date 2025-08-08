@@ -145,6 +145,10 @@
 # V - W
 /(verfügbar|werbe|werbung).{1,15}(werbe)?(kugelschreiber|kuli)/iu
 
+# Regale
+# ------------------------------------------------------------------------------
+/schwerlast.?regale.{1,10}für jede/iu
+
 # Tools
 # ------------------------------------------------------------------------------
 /akkus?.?(kettensäge|kraft)/iu
