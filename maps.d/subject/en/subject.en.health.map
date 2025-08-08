@@ -519,6 +519,7 @@
 
 /lost \d{1,2}.?(lbs|pounds)/i
 
+/loud.{1,10}snoring/i
 /lower.{1,10}(blood sugar|high.?blood)/i
 
 # M
@@ -697,6 +698,7 @@
 /simple.{1,10}(diy|minute) stretch/i
 /simple.{1,10}(trick|way).{1,10}(erase|reverse)/i
 
+/snoring.{1,10}sleep/i
 /skin.{1,10}(miracle|secret|transformation|trick)/i
 
 /slash.{1,10}blood.?pressure/i
