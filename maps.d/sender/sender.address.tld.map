@@ -36,7 +36,7 @@
 
 # 15.07.25 - Sample: ad.tjulete@service.vggrt.cn
 # -> No subdomain accepted
-/@[a-z]{3,15}\.[a-z]{3,15}\.cn/i
+/[a-z]{3,15}\.[a-z]{3,15}\.cn/i
 
 # 16.07.24 - Sample: support@rea.ru
 # -> No short domain name accepted
