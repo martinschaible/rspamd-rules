@@ -118,6 +118,7 @@ _[a-z].{0,15}box/i
 # P
 /paket in/i
 /paketdienst.{0,10}(deutschland|schweiz)/i
+/paketinfo/i
 /^paket.?service$/i
 
 /(photo|push).?tan/i
