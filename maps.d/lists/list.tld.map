@@ -6,15 +6,14 @@
 # .pro
 #
 # Used by symbols:
-# - base.body.href.domain.tld
+# - base.body.href.domain.tld.list
 #
 # Rspamd doesn't provide TLD extraction for image tags.
 #
 # The content of this file is also used in these files:
-# - base.body.img.domain.tld.map
-# - sender.address.tld
-# - sender.from.tld
-# ** Don't forget to update these files too!**
+# - base.body.img.domain.tld.list.map
+# - sender.address.tld.list
+# - sender.from.tld.list
 # ==============================================================================
 
 # https://www.spamhaus.org/statistics/tlds/
