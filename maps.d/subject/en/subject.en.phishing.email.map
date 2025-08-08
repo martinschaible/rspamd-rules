@@ -87,7 +87,7 @@
 /incoming.{1,10}(e?.?mail|message)s?.{1,10}has been stopped/i
 /incoming.{1,10}(e?.?mail|message)s?.{1,10}(blocked|bounced|failed|pending)/i
 
-/incoming.{1,10}pending.{1,10}(e?.?mail|message)s?i
+/incoming.{1,10}pending.{1,10}(e?.?mail|message)s?/i
 
 # J
 
