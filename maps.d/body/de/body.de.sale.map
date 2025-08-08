@@ -12,6 +12,17 @@
 # Topics
 # ==============================================================================
 
+# Air Conditioning
+# ------------------------------------------------------------------------------
+/klima.?(anlage|gerät).{1,15}ein angenehmes/iu
+/klima.?(anlage|gerät).{1,10}jetzt noch günstig/iu
+/klima.?(anlage|gerät).{1,10}kühlt ihre/iu
+/klima.?(anlage|gerät).{1,10}watt.{1,20}nur.{1,10}statt/iu
+
+/mobile.{1,10}klima.?(anlage|gerät).{1,10}(btu|kühlleistung|watt)/iu
+
+/(das|diese).{1,10}mobile.{1,10}klima.?(anlage|gerät)/iu
+
 # Buying your car
 # ------------------------------------------------------------------------------
 /(ich|wir) kaufen?.{1,10}(autos|fahrzeuge|pkw).{1,10}(aller art|guten tag)/i
@@ -57,6 +68,8 @@
 /sie erhalten bei uns.{1,15}(fachkräfte|mitarbeiter|personal)/iu
 /sie qualifizierte fachkräfte/iu
 
+/suchen sie (arbeitskräfte|fachkräfte).{1,15}unternehmen?/iu
+
 /motivierten?.{1,15}fachkräften? aus/iu
 
 /wir finden ihre mitarbeiter/i
@@ -73,6 +86,15 @@
 /wir liefern personal in/i
 /wir sanieren.{1,10}renovieren ihr.{1,10}haus/i
 
+# Pavillon
+# ------------------------------------------------------------------------------
+/(event|falt|garten)?pavillons?.{1,10}jetzt sonderposten/i
+/(event|falt|garten)?pavillons?.{1,10}zum aktionspreis/i
+
+/(event|falt|garten)?pavillons?.{1,10}profiqualität/iu
+
+/neu.{1,10}falt.?(event|falt|garten)?pavillons?/i
+
 #
 #
 #
@@ -87,6 +109,8 @@
 
 /antworten sie.{1,10}auf diese.{1,10}e?.?mail mit.{1,15}(bestellung|lieferadresse|vollständigen)/i
 /antworten sie.{1,10}(bestellung|uns einfach mit).{1,10}(lieferadresse|rechnungsadresse)/i
+
+/auf.{1,10}e?.?mail mit ihren angaben antworten/i
 
 # B
 /bei ihnen zu erreichen.{1,10}um eine mögliche zusammenarbeit/iu
@@ -104,7 +128,6 @@
 # C
 
 # D
-/(das|diese).{1,10}mobile.{1,10}klima.?(anlage|gerät)/iu
 
 # E
 /einfach auf diese{1,10}e?.?mail antworten/i
@@ -117,15 +140,12 @@
 /erkenne deinen seelenplan/i
 
 # F
-/(event|falt|garten)?pavillons?.{1,10}jetzt sonderposten/i
-/(event|falt|garten)?pavillons?.{1,10}zum aktionspreis/i
 
 # G
 
 # H
 
 # I
-/interesse.{1,10}entwicklung.{1,10}apps?/i
 
 # J
 /jetzt zum einführungspreis.{1,10}lieferung sofort/iu
@@ -133,20 +153,12 @@
 # K
 /(komfortable|neuen|revolutionäre).{1,10}einlagen/i
 
-/klima.?(anlage|gerät).{1,15}ein angenehmes/iu
-/klima.?(anlage|gerät).{1,10}jetzt noch günstig/iu
-/klima.?(anlage|gerät).{1,10}kühlt ihre/iu
-/klima.?(anlage|gerät).{1,10}watt.{1,20}nur.{1,10}statt/iu
-
 # L
 
 # M
 /marketing.{1,10}maschine/i
 
-/mobile.{1,10}klima.?(anlage|gerät).{1,10}(btu|kühlleistung|watt)/iu
-
 # N
-/neu.{1,10}falt.?(event|falt|garten)?pavillons?/i
 
 # O
 
@@ -164,8 +176,6 @@
 /sonderpreisen?.{1,10}lieferung frei haus/i
 /spürbare kraft beim laufen/iu
 /sprachen.{1,10}einem klick/i
-
-/suchen sie (arbeitskräfte|fachkräfte).{1,15}unternehmen?/iu
 
 # T
 
