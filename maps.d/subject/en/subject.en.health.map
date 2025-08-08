@@ -451,6 +451,7 @@
 /hearing.{1,15}(loss due|naturally)/i
 
 /herb.{1,10}(blocks?|discovery)/i
+/herb.{1,10}lowers glucose/i
 
 /heart attack.{1,10}(risk by|test|warning)/i
 /heart.{1,10}fix/i
@@ -488,6 +489,7 @@
 /in just \d{1,2} seconds/i
 /in your blood/i
 
+/indian.{1,10}herb/i
 /ingredient you must never/i
 /instantly look younger/i
 
@@ -852,6 +854,8 @@
 /warning.{1,10}harmful toxins/i
 /warning.{1,10}toxic ingredients/i
 /wash away.{1,10}(lbs|pounds)/i
+
+/watch.{1,20}hidden truth/i
 
 /weakens.{1,10}gut/i
 /weird.{1,10}(remedy|stretch|tonic)/i
