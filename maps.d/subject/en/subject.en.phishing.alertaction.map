@@ -36,6 +36,7 @@
 /アカウント認証の更新が必要です/i
 
 /^action required$/i
+/^action-required$/i
 
 /action needed.{1,10}final step.{1,15}(package|parcel|shipment)/i
 /action needed.{1,10}final step.{1,15}receive/i
