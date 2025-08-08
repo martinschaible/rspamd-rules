@@ -120,7 +120,7 @@ These are the latest changes:
 |          | multimap.subject.de.conf                   | New map file added            |
 |          | multimap.subject.en.conf                   | New map file added            |
 | 08.08.25 | multimap.sender.address.conf               | New map file added, changes   |
-
+|          | multimap.base.body.href.conf               | New map file added, changes   |
 
 ## Content
 :point_right: All map files of the *first version* are in the folder `/etc/rspamd/maps.d`.<br>
@@ -141,6 +141,7 @@ base
   ├─ href
   │   ├─ base.body.href.domain.map            *  ─┐
   │   ├─ base.body.href.domain.ip.map         *   │
+  │   ├─ base.body.href.domain.tld.map        *   │
   │   ├─ base.body.href.domain.google.map     *   │
   │   ├─ base.body.href.nossl.map             *   ├─ multimap.base.body.href.conf
   │   ├─ base.body.href.path.map              *   │
