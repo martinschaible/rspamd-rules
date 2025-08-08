@@ -35,18 +35,6 @@
 
 /https:\/\/\//i
 
-# Some Bad TLD's
-# ------------------------------------------------------------------------------
-/\.jp\.net\//i
-/\.ru\.com\//i
-/\.ne\.jp\//i
-/\.or\.jp\//i
-
-/\.(biz|co|or)\.id$/i
-
-# First seen July 2025
-/\.edu\.bd\//i
-
 # Combination of TLDs pretending to be the real domain
 # ------------------------------------------------------------------------------
 
