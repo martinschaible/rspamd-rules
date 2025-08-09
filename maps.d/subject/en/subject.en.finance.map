@@ -117,7 +117,7 @@
 /loans?.{1,10}(package|partner)/i
 /loans?.{1,10}within.{1,10}hours/i
 
-/^loans? offer/i
+/^loans?.{1,5}offer/i
 
 /loans?.{1,10}up to/i
 
