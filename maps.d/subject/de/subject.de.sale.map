@@ -64,8 +64,9 @@
 
 /mit einem.{1,10}(e.?bike|elektro.?moped)/i
 
-/(bestes?|entdecken|faltbar|ideale|leistungsstark|modernen|neuesten).{1,10}(e.?bike|elektro.?moped)/i
-/(perfektes?|richtigen|stylische|tragbare).{1,10}(e.?bike|elektro.?moped)/i
+/angebot.{1,15}(e.?bike|elektro.?moped)/i
+/(bestes?|entdecken|exklusives?faltbar|ideale|leistungsstark|modernen|neuesten).{1,15}(e.?bike|elektro.?moped)/i
+/(perfektes?|richtigen|stylische|tragbare).{1,15}(e.?bike|elektro.?moped)/i
 
 /retro.?cruiser.{1,5}e.?bike/i
 /moped.{1,5}(cruiser|e.?bikes?)/i
