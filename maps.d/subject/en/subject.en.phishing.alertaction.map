@@ -27,10 +27,11 @@
 /\d{1,2}:\d{1,2}:\d{1,2}.{1,10}action required/i
 
 # A
-/account is at risk.{1,10}action needed/i
-/account notification.{1,10}verification required/i
-/account safety alert/i
-/account (security|suspension) notification/i
+/account.{1,10}is at risk.{1,10}action needed/i
+/account.{1,10}notification.{1,10}verification required/i
+/account.{1,10}safety alert/i
+/account.{1,10}(security|suspension).{1,10}notification/i
+/account.{1,10}verification.{1,10}required.{1,10}compliance/i
 
 # 13.07.25 - Account authentication needs to be updated
 /アカウント認証の更新が必要です/i

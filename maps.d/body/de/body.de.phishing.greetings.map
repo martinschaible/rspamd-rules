@@ -24,7 +24,8 @@
 # ==============================================================================
 
 # A
-/anmeldedaten.{1,15}sehr geehrte damen.{1,10}herren/i
+/aktualisieren sie ihre daten.{1,10}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/i
+/anmeldedaten.{1,15}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/i
 
 # B
 /bestätigen sie ihre.{1,20}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/i
@@ -111,7 +112,7 @@
 # S
 /sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}aktivieren sie ihre/i
 /sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}aus sicherheitsgründen/iu
-/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}aufgrund.{1,10}(aktualisierter|neuer|verdächtigen)/i
+/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}aufgrund.{1,15}(aktualisierter|allgemeiner|neuer|verdächtigen)/i
  
 /sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}bei einer aktuellen überprüfung/iu
 /sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}benötigen sie eine?/iu
