@@ -136,4 +136,7 @@
 # Y
 
 # Z
-/ihr zugriff auf.{1,20}vorübergehend aufgehoben/i
+/zugriff auf.{1,20}vorübergehend aufgehoben/i
+
+# Sample: Zugang ID 9128903
+/zugang id.?\d{3,8}/i
