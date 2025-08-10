@@ -35,9 +35,15 @@
 # D
 
 # E
-/(e?.?mail|message).{1,10}abuse notice.{1,10}security alert/i
-/(e?.?mail|message).{1,10}marked.{1,10}important.{1,10}pending/i
-/(e?.?mail|message).{1,10}pending on your.{1,10}server/i
+/(e?.?mail|message)s?.{1,10}abuse notice.{1,10}security alert/i
+/(e?.?mail|message)s?.{1,10}awaiting your inbox/i
+/(e?.?mail|message)s?.{1,10}do not reach your.{1,10}inbox/i
+/(e?.?mail|message)s?.{1,10}from your contacts are.{1,15}on hold/i
+/(e?.?mail|message)s?.{1,10}has been blocked by.{1,10}administrator/i
+/(e?.?mail|message)s?.{1,10}marked.{1,10}important.{1,10}pending/i
+/(e?.?mail|message)s?.{1,10}pending on your.{1,10}server/i
+/(e?.?mail|message)s?.{1,10}sent to you.{1,10}but.{1,10}not.{1,20}delivered/i
+/(e?.?mail|message)s?.{1,10}you are yet to receive/i
 
 # F
 
@@ -47,6 +53,11 @@
 
 # I
 /important.{1,10}(e?.?mail|message).{1,10}suspended/i
+
+/(important|incoming|pending|sent).{1,10}(e?.?mail|message)s?.{1,10}(awaiting|failed)/i
+/(important|incoming|pending|sent).{1,10}(e?.?mail|message)s?.{1,10}have been placed on hold/i
+/(important|incoming|pending|sent).{1,10}(e?.?mail|message)s?.{1,10}on the server due to lack of/i
+/(important|incoming|pending|sent).{1,10}(e?.?mail|message)s?.{1,10}temporarily suspended/i
 
 # J
 
@@ -67,17 +78,19 @@
 # Q
 
 # R
-/(release|review|unlock|view).{1,15}(important|incoming|pending|suspended).{1,15}(e?.?mails?|messages?)/i
+/(release|retrieve|review|unlock|view).{1,15}(important|incoming|pending|suspended).{1,15}(e?.?mail|message)s?/i
 
 /(refresh|reload).{1,10}e?.?mail.?server/i
 
+/retrieve.{1,10}(e?.?mail|message)s?.{1,10}to inbox/i
+
 # S
-/server has important.{1,10}(e?.?mails?|messages?).{1,10}suspended/i
+/server has important.{1,10}(e?.?mail|message)s?.{1,10}suspended/i
 
 # T
 
 # U
-/unread.{1,10}(e?.?mails?|messages?).{1,10}pending due to server/i
+/unread.{1,10}(e?.?mail|message)s?.{1,10}pending due to server/i
 
 /update.{1,10}to continue using.{1,10}mailbox/i
 /update.{1,10}your.{1,10}(mailbox|storage)/i
@@ -89,8 +102,9 @@
 # X
 
 # Y
-/you have.{1,10}(pending|undelivered).{1,10}(e?.?mails?|messages?).{1,10}on (\d|our)/i
-/you have.{1,10}important.{1,10}pending.{1,10}(e?.?mails?|messages?)/i
+/you have.{1,5}\d.{1,5}(pending|undelivered).{1,10}(e?.?mail|message)s?/i
+/you have.{1,10}(pending|undelivered).{1,10}(e?.?mail|message)s?.{1,10}on (\d|our)/i
+/you have.{1,10}important.{1,10}pending.{1,10}(e?.?mail|message)s?/i
 
 /you must clear.{1,10}cache immediately/i
 /you must clear.{1,10}cache.{1,20}(send|receive)/i
