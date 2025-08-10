@@ -9,27 +9,13 @@
 
 # Delivery pending, bounced, blocked, hold
 # ------------------------------------------------------------------------------
-/(e?.?mails?|messages?).{1,10}awaiting your inbox/i
-/(e?.?mails?|messages?).{1,10}do not reach your.{1,10}inbox/i
-/(e?.?mails?|messages?).{1,10}from your contacts are.{1,15}on hold/i
-/(e?.?mails?|messages?).{1,10}has been blocked by.{1,10}administrator/i
-/(e?.?mails?|messages?).{1,10}sent to you.{1,10}but.{1,10}not.{1,20}delivered/i
-/(e?.?mails?|messages?).{1,10}you are yet to receive/i
-
-/(delivery|release).{1,10}(incoming|pending|suspended).{1,10}(e?.?mails?|messages?).{1,15}(here|inbox|to you)/i
+/(delivery|release).{1,10}(incoming|pending|suspended).{1,10}(e?.?mail|message)s?.{1,15}(here|inbox|to you)/i
 
 /not.{1,20}delivered to.{1,10}(inbox|mail.?box)/i
 
-/activate.{1,10}receive.{1,10}(incoming|pending).{1,10}(e?.?mails?|messages?)/i
-
-/(important|incoming|pending).{1,10}(e?.?mails|messages).{1,10}(awaiting|failed)/i
-/(important|incoming|pending).{1,10}(e?.?mails|messages).{1,10}on the server due to lack of/i
+/activate.{1,10}receive.{1,10}(incoming|pending).{1,10}(e?.?mail|message)s?/i
 
 /you have.{1,40}(bounced|delayed|important|incoming|new|pending|suspended|undelivered|unreceived).{1,25}(e?.?mails?|inbox|messages?)/i
-
-/your (incoming|sent).{1,10}(e?.?mails|messages).{1,10}failed to deliver/i
-/your (incoming|sent).{1,10}(e?.?mails|messages).{1,10}have been placed on hold/i
-/your (incoming|sent).{1,10}(e?.?mails|messages).{1,10}temporarily suspended/i
 
 # Protocol related
 /due to ssl.?port.?server.{1,10}errors.{1,10}(e?.?mails|messages)/i
