@@ -42,7 +42,8 @@
 /humanitäres angebot für ihre/iu
 
 # I
-/ihnen eine spende von/i
+/ihnen.{1,10}eine wohltätige Spende/i
+/ihnen.{1,10}eine spende von/i
 /ihnen.{1,10}millionen.{1,15}gespendet/i
 /ihnen.{1,10}(dollars?|euro?|usd|€|\$|£).{1,15}gespendet/i
 
@@ -95,7 +96,7 @@
 # W
 /wurden? (an sie|ihnen) gespendet/i
 
-/wohltätige spende/iu
+/wohltätige (spende|zuwendungen)/iu
 
 # X
 
