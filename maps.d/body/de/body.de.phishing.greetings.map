@@ -25,7 +25,7 @@
 
 # A
 /aktualisieren sie ihre daten.{1,10}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/i
-/anmeldedaten.{1,15}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/i
+/(abonnement|anmeldedaten).{1,15}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/i
 
 # B
 /bestätigen sie ihre.{1,20}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/i

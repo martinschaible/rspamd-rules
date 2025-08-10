@@ -54,10 +54,13 @@
 
 /eingestellt.{1,5}#\d{2,15}/i
 
-/erinnerung.{1,10}aktualisiere deine/i
-
 # Meta wants to delete your account
 /endgültige löschung ihrer seite/iu
+
+/erinnerung.{1,10}aktualisiere deine/i
+
+# Sample: erneuern (#7ZXTB8)
+/erneuern.{1,5}\(#[a-z0-9]{4,8}\)/i
 
 # F
 
