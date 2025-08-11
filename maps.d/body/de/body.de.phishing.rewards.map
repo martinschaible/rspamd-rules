@@ -25,6 +25,11 @@
 
 /gratis(airpods|apple|ipad|iphone|macbook|watch ultra).{1,20}spezialangebot/i
 
+# Kit
+/notfall.?(kit|set).{1,10}(auto|kfz|wartet|wert)/i
+
+/(hochwertiges|kostenloses).{1,10}notfall.?(kit|set)/i
+
 #
 #
 #
@@ -102,6 +107,7 @@
 # R
 
 # S
+/sie für ein exklusives geschenk ausgewählt/iu
 /sie gehören zu.{1,10}auserwählten/iu
 /sie sind auf unserer.{1,10}gewinnerliste/i
 

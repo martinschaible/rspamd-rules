@@ -12,7 +12,8 @@
 /(bestätigung|geschenk|gewinnen|kostenloses|unser).{1,20}notfall.?(kit|set)/i
 
 #
-/nur noch.{1,10}notfall.?(kit|set)/i
+/(hochwertiges|kostenlos|nur noch).{1,10}notfall.?(kit|set)/i
+
 /(auto|kfz).{1,10}notfall.?(kit|set)/i
 /notfall.?(kit|set).{1,10}(auto|kfz|wartet)/i
 
