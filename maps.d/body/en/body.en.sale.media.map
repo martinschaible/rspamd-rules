@@ -110,6 +110,8 @@
 
 /you.{1,10}(are|interested|want).{1,10}(acquiring|purchasing|receive).{1,10}targeted.{1,10}e?.?mail/i
 
-/you.{1,10}interested.{1,10}e?.?mail.?marketing/i
+/you.{1,10}interested.{1,10}e?.?mail.?(list|marketing)/i
+
+/you.{1,10}counts.{1,10}samples/i
 
 # Z

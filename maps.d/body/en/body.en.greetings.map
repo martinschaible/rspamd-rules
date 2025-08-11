@@ -134,7 +134,7 @@
 /good (afternoon|day|evening|morning).{1,10}trust this message/i
 
 /good (afternoon|day|evening|morning).{1,10}sir.{1,5}(madam|mam?)\b/i
-/good (afternoon|day|evening|morning).{1,10}we are reaching out/i
+/good (afternoon|day|evening|morning).{1,10}(i am|we) are reaching out/i
 /good (afternoon|day|evening|morning).{1,10}we provide/i
 
 /greet sir.{1,5}madam/i
@@ -177,9 +177,10 @@
 /(hello|hi\b).{1,10}herr/i
 /(hello|hi\b).{1,10}greetings for the day/i
 
-/(hello|hi).{1,10}i am contacting you/i
 /(hello|hi).{1,35}i am.{1,10}(employee|professional)/i
 /(hello|hi).{1,15}i am.{1,10}who has access/i
+/(hello|hi).{1,10}(i am|we) are reaching out/i
+/(hello|hi).{1,10}(i am|we) contacting you/i
 
 /(hello|hi).{5,35}i hope this.{1,10}(e?.?mail|message) (finds|meets) you/i
 /(hello|hi).{1,10}glad to (contact|connect|know|write)/i
