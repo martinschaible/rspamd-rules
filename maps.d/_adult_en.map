@@ -49,8 +49,6 @@
 
 # Find
 # ------------------------------------------------------------------------------
-/(find|looking|seeking).{1,10}(charming|good|hot|perfectible|supreme|unstained).{1,10}(buddy|dude|locals|male|man|mister)/i
-/(find|looking|seeking).{1,10}serious romantic/i
 
 # Fotos
 # ------------------------------------------------------------------------------
@@ -103,7 +101,6 @@
 
 # Singles
 # ------------------------------------------------------------------------------
-/i.?a?m a (alone|breezy|curvy|single|solitary|unmarried).{1,15}(female|girl|lady|miss|woman)/i
 /i.?a?m not a married.{1,15}(female|girl|lady|miss|woman)/i
 /alone bland.{1,15}(female|girl|lady|miss|woman)/i
 
