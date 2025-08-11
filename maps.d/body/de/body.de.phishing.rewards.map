@@ -70,6 +70,8 @@
 # H
 
 # I
+/ihr geschenk.{1,10}eine brandneue/i
+
 /ihre?.{1,15}(belohnung|geschenk|gutschein|preis|gewinn).{1,10}innerhalb von.{1,10}stunden/i
 /ihre?.{1,15}prämie ist noch unbestätigt/iu
 
@@ -109,7 +111,9 @@
 # S
 /sie für ein exklusives geschenk ausgewählt/iu
 /sie gehören zu.{1,10}auserwählten/iu
+
 /sie sind auf unserer.{1,10}gewinnerliste/i
+/sie sind einer.{1,20}exklusiv ausgewählten empfänger/i
 
 /sie wurden ausgewählt.{1,10}haben.{1,10}die chance/iu
 
