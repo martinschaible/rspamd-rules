@@ -40,6 +40,7 @@
 /(bing|google|yahoo).{1,10}(page 1st|listing|ranked)/i
 
 # C
+/crawl.?able.{1,10}search.?engines/i
 
 # D
 
@@ -149,6 +150,8 @@
 
 /seo.{1,10}made simple/i
 /seo.{1,10}content.{1,10}strategy/i
+
+/^simple cost/i
 
 /skyrocket your rankings/i
 /smart google seo/i

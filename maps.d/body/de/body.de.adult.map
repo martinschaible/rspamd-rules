@@ -66,9 +66,11 @@
 /hat dein.{1,10}profil gesehen/i
 
 /hier kannst du mir antworten/i
-/hier ist mein.{1,10}profil/i
+/hier ist mein.{1,10}(nickname|profil)/i
 
 /hier registriert.{1,10}mein profil/i
+
+/hinterlasse ich dir.{1,10}link/i
 
 # I
 /ich füge ein.{1,10}foto bei/iu
@@ -98,6 +100,7 @@
 /meine.{0,10}(fotze|muschi|möse|pussy)/iu
 /meine.{1,10}nummer im.{1,10}profil/i
 
+/(mich|profil) auf.{1,10}dating.?(web)?.?site/i
 
 # N
 /nachricht auf der.{1,10}(web)?site/i
@@ -105,7 +108,6 @@
 # O
 
 # P
-/profil auf.{1,10}dating.?(web)?.?site/i
 
 # Q
 

@@ -103,6 +103,8 @@
 /enhance your.{1,10}(pcba?|printed.?circuit.?board)/i
 
 /exclusive offer from/i
+
+/experience.{1,10}excellent.{1,15}quality/i
 /expert.{1,10}mold/i
 
 # F
@@ -160,7 +162,7 @@
 /layer.{1,10}any.?layer/i
 
 /leading.{1,10}brands.{1,10}explore/i
-/leading.{1,15}manufacturer of/i
+/leading.{1,15}manufacturers?.{1,10}(help|of)/i
 
 /low(est)? prices?.{1,10}(pcba?|printed.?circuit.?board)/i
 /low(est)? prices?.{1,10}plastic.?mold/i

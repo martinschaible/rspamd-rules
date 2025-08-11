@@ -90,9 +90,10 @@
 /^po# \d{4,6}/i
 /po.?file via wetransfer/i
 
-/product.{1,10}(brochure|catalog|catalogue).{1,10}pricing/i
-/product.{1,10}(inquiry|pricing).{1,10}shipping/i
-/project.?inq no/i
+/products?.{1,10}price.?list/i
+/products?.{1,10}(brochure|catalog|catalogue).{1,10}pricing/i
+/products?.{1,10}(inquiry|pricing).{1,10}shipping/i
+/projects?.?inq no/i
 
 /purchase order.{1,10}p\.o\./i
 /purchase order.{1,5}po/i

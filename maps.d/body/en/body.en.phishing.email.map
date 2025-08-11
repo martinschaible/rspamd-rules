@@ -96,8 +96,10 @@
 /update.{1,10}your.{1,10}(mailbox|storage)/i
 
 # V
+/view.{1,10}(failed|save).{1,10}(e?.?mail|message)s?/i
 
 # W
+/webmail.{1,10}this.{1,10}(e?.?mail|message)s?.{1,10}directed/i
 
 # X
 
@@ -108,6 +110,8 @@
 
 /you must clear.{1,10}cache immediately/i
 /you must clear.{1,10}cache.{1,20}(send|receive)/i
+
+/you received.{1,15}(e?.?mail|message)s?messages.{1,10}that could not be/i
 
 /your.{1,10}unreceived.{1,10}(e?.?mail|message)s?.{1,10}are stuck/i
 
