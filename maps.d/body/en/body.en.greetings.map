@@ -166,6 +166,8 @@
 /hello ma.sir/i
 /hello.{1,10}partner.{1,10}my name is/i
 
+/hello.{1,10}(madam|sir).{1,10}welcome to.{5,25}investment/i
+
 /(hello|hi).{1,10}(attention|customer|owner)/i
 
 /(hello|hi).{1,5}(dear|friend|manager).{1,10}(confidential|customer|private|strictly|urgent)/i
