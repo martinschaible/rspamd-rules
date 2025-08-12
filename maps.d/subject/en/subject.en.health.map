@@ -184,6 +184,7 @@
 /bedroom.{1,10}magic/i
 /before bed tonight/i
 /belly.{1,10}(fat|overnight)/i
+/behind.{1,10}bloat/i
 
 /best.{1,10}for type 2/i
 /better.{1,10}bladder/i
@@ -323,8 +324,9 @@
 /doing this to your/i
 
 /drink that.{1,10}(detoxes|reverses)/i
-/drink this.{1,15}(before|juice|to)/i
-/drink this.{1,20}beverage/i
+
+/drink this.{1,15}(before|juice|sec|to)/i
+/drink this.{1,20}(beverage|brew)/i
 /drink triggers/i
 
 /drink.{1,10}shed.{1,10}(inches|lbs|pounds|weight)/i
@@ -376,6 +378,8 @@
 
 /erases?.{1,15}(arthritis|artery|discomfort|plaque|tinitus|wrinkles?)/i
 /erections?.{1,10}pill/i
+
+/escape.{1,10}meomory/i
 
 /ever faked an/i
 /experts?.{1,10}(food|his food|warn)/i

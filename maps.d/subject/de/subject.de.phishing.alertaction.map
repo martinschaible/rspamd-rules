@@ -28,6 +28,9 @@
 /achtung.{1,10}unbezahlte gebühr/iu
 /achtung.{1,10}verdächtige.{1,10}(aktivität|vorgänge)/iu
 
+# Sample: Aktion ID 4236127
+/aktion.?id \d{3,10}/i
+
 /aktion erforderlich!/i
 
 /aktion erforderlich.{1,10}(dpd|sepa)/i

@@ -272,7 +272,10 @@
 /servo motor.{1,10}factory/i
 
 /shipping rfq/i
-/shipping (agent|service) (from|in)/i
+/(shipping|shipment) (agent|service).{1,10}(from|in)/i
+/(shipping|shipment) transport.{1,10}from china/i
+
+/(shipping|shipment|transport) from.{1,20}competitive price/i
 
 /shoes direct factory/i
 

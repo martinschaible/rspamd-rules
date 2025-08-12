@@ -17,6 +17,10 @@
 /bonjour.{1,10}(je.{1,5}appelle|nos noms sont)/i
 /bonjour.{1,10}désolé pour cette façon/iu
 
+# Netherlands
+# ------------------------------------------------------------------------------
+/hallo.{1,10}ik neem contact met/i
+
 #
 #
 #
@@ -144,8 +148,9 @@
 /greetings?.?(of the day)?.{1,10}customer.{1,10}hope this/i
 /greetings?.?(of the day)?.{1,10}from.{1,10}(here|inc|saudi)/i
 /greetings?.?(of the day)?.{1,15}greetings/i
-/greetings?.?(of the day)?.{5,35}the sales manager/i
+/greetings?.?(of the day)?{.1,10}(i am|we) are reaching out/i
 /greetings?.?(of the day)?.{1,15}in the name of/i
+/greetings?.?(of the day)?.{5,35}the sales manager/i
 /greetings?.?(of the day)?.{1,15}my friend/i
 /greetings?.?(of the day)?.{1,15}my name is.{5,35}i am representing/i
 
