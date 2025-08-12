@@ -70,6 +70,9 @@
 
 /(aktualisieren?|bestätigen?).{1,10}(deine|sie).{1,10}(konto|sicherheits).?informationen/i
 
+# Sample: Aktualisiere deine Prime-Zahlungsart (2187697782)
+/(aktualisieren?|bestätigen?).{1,10}deine.{1,15}zahlungsart \(\d{4,10\)/i
+
 /(aktualisieren?|bestätigen?).{1,10}sie.{1,10}ihre?.{1,15}(angaben|app|daten|identität|informationen)/i
 /(aktualisieren?|bestätigen?).{1,10}sie.{1,10}ihre?.{1,10}(kontoangaben|kontoidentität|profil|sicherheit|telefon.?nummer)/iu
 /(aktualisieren?|bestätigen?).{1,10}sie.{1,10}ihre.{1,20}(verifizierung|zahlungsdaten)/iu
@@ -227,7 +230,8 @@
 /ihre.{1,10}sicherheit ist in gefahr.{1,20}schutz.{1,10}erneuern/i
 /ihre sofortige aufmerksamkeit/i
 
-/ist abgelaufen.{1,10}jetzt handeln/i
+/ist.{1,10}abgelaufen.{1,10}jetzt handeln/i
+/ist.{1,10}ungesichert.{1,10}jetzt handeln/i
 
 # J
 /jetzt aktualisieren.{1,10}wichtige änderung/ui

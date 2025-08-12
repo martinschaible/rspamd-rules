@@ -54,9 +54,9 @@
 /over whatsapp below/i
 
 # P
-/(prices|price.?list).{1,15}(available|through|on|share|use|via).{1,15}whatsapp/i
-/(prices|price.?list).{1,15}(could you deliver|drop it|with me.{1,10}provide it)/i
-/(prices|price.?list).{1,25}send it.{1,10}whatsapp/i
+/(pricing|prices|price.?list).{1,15}(available|through|on|share|use|via).{1,15}whatsapp/i
+/(pricing|prices|price.?list).{1,15}(could you deliver|drop it|with me.{1,10}provide it)/i
+/pricing|(prices|price.?list).{1,25}send it.{1,10}whatsapp/i
 
 /inventory.{1,10}start.{1,10}conversation with us/i
 

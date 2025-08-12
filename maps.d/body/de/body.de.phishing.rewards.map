@@ -14,17 +14,19 @@
 /(airpods|apple|ipad|iphone|macbook|watch ultra).{1,10}kostenloser versand/i
 /(airpods|apple|ipad|iphone|macbook|watch ultra).{1,10}neu.{1,10}originalverpackt/i
 /(airpods|apple|ipad|iphone|macbook|watch ultra).{1,10}originalverpackt.{1,10}(bereit|versandkostenfrei)/i
-/(airpods|apple|ipad|iphone|macbook|watch ultra).{1,10}reserviert/i
+/(airpods|apple|ipad|iphone|macbook|watch ultra).{1,20}(für sie|reserviert|spezialangebot)/i
 /(airpods|apple|ipad|iphone|macbook|watch ultra).{1,10}wartet auf (dich|sie)/i
 
-/gewinner.{1,10}brandneuen?.{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/iu
+/(gewinner|überraschung).{1,20}(airpods|apple|ipad|iphone|macbook|watch ultra)/iu
 
 /bereit zur auslieferung.{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
+
 /(anerkennung|belohnung|brandneuen?).{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/iu
 /(paket mit|prämie).{1,10}(airpods|apple|ipad|iphone|macbook)/iu
 /sichern sie sich.{1,10}(airpods|apple|ipad|iphone|macbook)/iu
 
-/gratis(airpods|apple|ipad|iphone|macbook|watch ultra).{1,20}spezialangebot/i
+/gratis.{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
+/jetzt.{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra).{1,10}sichern/i
 
 # Kit
 /notfall.?(kit|set).{1,10}(auto|kfz|wartet|wert)/i
@@ -74,6 +76,8 @@
 /ihr geschenk.{1,10}eine brandneue/i
 
 /ihre?.{1,15}(belohnung|geschenk|gutschein|preis|gewinn).{1,10}innerhalb von.{1,10}stunden/i
+/ihre?.{1,15}(belohnung|geschenk|gutschein|preis|gewinn).{1,10}wurde bisher nicht eingelöst/iu
+
 /ihre?.{1,15}prämie ist noch unbestätigt/iu
 
 /ihre kostenlose Prämie zu sichern/iu
