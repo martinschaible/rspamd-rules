@@ -55,7 +55,7 @@
 /(grab|grow|remake) your.{1,10}(home.?page|web.?site)/i
 
 # H
-/(home.?page|web.?site).{1,10}creation.{1,10}update/i
+/(home.?page|web.?site).{1,10}creation.{1,10}(maintenance|update)/i
 /(home.?page|web.?site).{1,10}design(ing)?.{1,10}development/i
 /(home.?page|web.?site).{1,10}design(ing)?.?!/i
 /(home.?page|web.?site).{1,10}development.{1,10}(redesign|solutions?)/i
