@@ -58,7 +58,7 @@
 # R
 
 /(rückerstattung|rückzahlung).{1,15}zu beantragen.{1,10}füllen sie.{1,10}das.{1,15}(formular|verlinkte)/iu
-/(rückerstattung|rückzahlung) (beantragen|prüfen)/iu
+/(rückerstattung|rückzahlung).{1,10}(bearbeiten|beantragen|prüfen)/iu
 
 # S
 /sie ihre rückerstattungsrechnung/iu

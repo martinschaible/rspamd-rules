@@ -44,6 +44,7 @@
 /e?.?mail.?marketing.{1,10}(free|works)/i
 /e?.?mail.?marketing.{1,10}service.{1,10}boost/i
 
+/event attendees.{1,10}e?.?mail.{1,10}(databases?|leads?|lists?)/i
 # F
 
 # G
@@ -102,13 +103,14 @@
 /you be interested in.{1,10}data lists?/i
 /you looking.{1,15}e?.?mail.?marketing/i
 
-/you.{1,10}(are|interested|want).{1,10}(acquiring|purchasing|receive).{1,10}list/i
-/you.{1,10}(are|interested|want).{1,10}(acquiring|purchasing|receive).{1,15}(attendees?|contacts|registrants|visitors?).{1,20}list/i
-/you.{1,10}(are|interested|want).{1,10}(acquiring|purchasing|receive).{1,10}linkedin.{1,10}leads/i
-/you.{1,10}(are|interested|want).{1,10}(acquiring|purchasing|receive).{1,10}unlimited targeted/i
-/you.{1,10}(are|interested|want).{1,10}(acquiring|purchasing|receive).{1,10}(event|tradeshow).{1,10}attendees/i
+/you.{1,10}(are|interested|want).{1,10}(acquiring|purchase|purchasing|receive).{1,10}list/i
+/you.{1,10}(are|interested|want).{1,10}(acquiring|purchase|purchasing|receive).{1,15}(attendees?|contacts|registrants|visitors?).{1,20}list/i
+/you.{1,10}(are|interested|want).{1,10}(acquiring|purchase|purchasing|receive).{1,10}linkedin.{1,10}leads/i
+/you.{1,10}(are|interested|want).{1,10}(acquiring|purchase|purchasing|receive).{1,10}unlimited targeted/i
+/you.{1,10}(are|interested|want).{1,10}(acquiring|purchase|purchasing|receive).{1,10}(event|tradeshow).{1,10}attendees/i
+/you.{1,10}(are|interested|want).{1,10}(acquiring|purchase|purchasing|receive).{1,10}tradeshow.{1,10}event/i
 
-/you.{1,10}(are|interested|want).{1,10}(acquiring|purchasing|receive).{1,10}targeted.{1,10}e?.?mail/i
+/you.{1,10}(are|interested|want).{1,10}(acquiring|purchase|purchasing|receive).{1,10}targeted.{1,10}e?.?mail/i
 
 /you.{1,10}interested.{1,10}e?.?mail.?(list|marketing)/i
 

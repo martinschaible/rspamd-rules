@@ -139,6 +139,8 @@
 
 /good (afternoon|day|evening|morning).{1,10}sir.{1,5}(madam|mam?)\b/i
 /good (afternoon|day|evening|morning).{1,10}(i am|we) are reaching out/i
+
+/good (afternoon|day|evening|morning).{1,10}we wish to confirm.{1,10}if you/i
 /good (afternoon|day|evening|morning).{1,10}we provide/i
 
 /greet sir.{1,5}madam/i
