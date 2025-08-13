@@ -19,6 +19,14 @@
 
 /(sichern Sie sich|sommerhitze).{1,10}klima.?(anlage|geräte?)/iu
 
+# Cars
+# ------------------------------------------------------------------------------
+# I think, this is kinda scam
+/direkt vom händler.{1,10}verfügbare?/iu
+/fahrzeuge direkt verfügbar/iu
+/porsche.{1,10}werksvertrieb/i
+/werksmodelle.{1,10}sofort lieferbar/i
+
 # Chair
 # ------------------------------------------------------------------------------
 /(büro|designer|massage).?(sessel|stuhl|stühle).{1,15}(abverkauf|angebot|bezug|charakter|funktion)/i

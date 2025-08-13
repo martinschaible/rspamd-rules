@@ -31,6 +31,15 @@
 /(ich|wir) kaufen?.{1,10}gebrauchte.{1,15}(autos|fahrzeuge|pkw)/i
 /(ich|wir) kaufen?.{1,10}(autos|fahrzeuge|pkw) mit unfallschäden/ui
 
+# Cars
+# ------------------------------------------------------------------------------
+# I think, this is kinda scam
+/direktvertrieb.{1,10}porsche/i
+/porsche.{1,10}unangefochtenen preisen/i
+/porsche.{1,10}werkswagen/i
+
+/sofort verfügbarenb.{1,10}fahrzeugen/iu
+
 # Chair
 # ------------------------------------------------------------------------------
 /(büro|dreh).?(stuhl|stühle).{1,15}(|Aktionspreis|massagefunktion)/i
