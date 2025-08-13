@@ -143,6 +143,8 @@
 # 26.06.25 Sample: N9798963
 /^n\d{5,10}$/i
 
+/^#re:/i
+
 # Worda in brackets
 # ------------------------------------------------------------------------------
 # -> Theses RegEx might be constructed easier and better
