@@ -177,8 +177,8 @@
 
 # Weightloss
 # ------------------------------------------------------------------------------
-/(fat|weight).{0,10}(blocking|fast|goals|loss|vanish)/i
-/(fat|weight).{0,10}(banish|burn(er)?|burning|drop(er)?|flush|melting)/i
+/(fat|weight).{0,10}(blocking|fast|fix|flush|gain|goals|loss|melting|vanish)/i
+/(fat|weight).{0,10}(banish|burn(er)?|burning|drop(er)?)/i
 
 /belly.{0,10}(detox|fix|flattening)/i
 /body.{0,10}fat/i
@@ -213,7 +213,6 @@
 #/keto.{0,10}(coffee|diet|power|slim)/i
 /huge.{0,10}belly/i
 
-/weight.{0,10}(fix|gain)/i
 /^w.?loss/i
 
 # Breaktrough, Hacks, Miracle, Secrets, Tricks, Videos, etc...
@@ -289,6 +288,7 @@
 
 /back.{0,10}(aches?|fixer|pain|stretch)/i
 
+/bacon.{0,10}eggs/i
 /balance.{0,10}(blood|booster|brain|problem|restored|your)/i
 /balanced.?(bp|glucose)/i
 /bald.{0,10}spot/i
@@ -398,6 +398,8 @@
 /cooking.{0,10}oil/i
 
 /copd.{0,10}fix/i
+
+/craving.{0,10}cure/i
 
 /correct.{0,10}use/i
 /cortisol.{0,10}level/i
@@ -509,7 +511,7 @@
 
 /fresh.{0,10}breath/i
 /fried.{0,10}chicken/i
-/fruit.{0,10}(hack|mistake)/i
+/fruit.{0,10}(hack|mistake|risk)/i
 
 /fuzzy.{0,10}drink/i
 
@@ -682,10 +684,10 @@
 /neuro.{0,10}boost/i
 
 /never.{0,10}(eat|forget)/i
-/nerve.{0,10}(damage|do this)/i
+/nerve.{0,10}(damage|do this|research)/i
 /new.{0,10}(energy|hair|research)/i
 
-/night.{0,10}capsule/i
+/night(time)?.{0,10}(capsule|fix)/i
 /nightmare.{0,10}pee/i
 
 /no.{0,10}(diet|surgery)/i
@@ -821,6 +823,7 @@
 /soft.{0,10}mineral/i
 /sore.{0,10}muscles?/i
 /soup.{0,10}(hack|solution|trick)/i
+/sooth.{0,10}relief/i
 
 /special.{0,10}salt/i
 /spine.{0,10}reset/i
@@ -948,7 +951,7 @@
 
 /your.{1,10}(a1c|alcohol)/i
 /your.{1,10}(balance|bladder|brain)/i
-/your.{1,10}(calories|craving|diet|ears?|gut)/i
+/your.{1,10}(calories|craving|diet|ears?|eyes|gut)/i
 /your.{1,10}(health|heart|hips|intimacy|knees)/i
 /your.{1,10}(live.?span|liver)/i
 /your.{1,10}(pee|pelvis|poop|posture)/i

@@ -85,6 +85,7 @@
 /dies ist eine neue nachricht/i
 
 /diese.{1,10}(e?.?mail|nachricht).{1,10}öffnen/iu
+/dieser brief wird deine/i
 
 # E
 # Too strong, False/Positives
@@ -135,7 +136,7 @@
 # L
 /lesen sie diesen?.{1,10}(brief|e?.?mail|mitteilung)/i
 
-/lies den brief/i
+/lies (den|diesen) brief/i
 /lies diese nachricht/i
 
 # M

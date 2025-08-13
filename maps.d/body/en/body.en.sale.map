@@ -14,7 +14,9 @@
 
 # E-Bikes
 # ------------------------------------------------------------------------------
-/(experienced|reliable).{1,10}e(lectric)?.{0,10}(bicycle|bike).{1,10}manufacturer/i
+/(experienced|reliable).{1,10}e(lectric)?.{0,10}(bicycle|bike).{1,10}(factory|manufacturer)/i
+
+/we are an.{1,10}e(lectric)?.{0,10}(bicycle|bike).{1,10}(factory|manufacturer)/i
 
 #
 #
