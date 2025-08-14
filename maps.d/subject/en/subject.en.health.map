@@ -268,6 +268,7 @@
 
 /could change your life/i
 
+/craving.{1,10}cleanse/i
 /culprid.{1,10}strokes?/i
 
 /cup of this/i
@@ -435,7 +436,7 @@
 /gets? rid of.{1,10}unwanted/i
 
 /(gum|gut).{0,10}(cleanse|cleansing)/i
-/(gum|gut).{0,10}(fix|health|problem|power|reset)/i
+/(gum|gut).{0,10}(fix|health|problem|power|relief|reset)/i
 /goodbye.{0,10}(pain|ringing ears)/i
 
 /reveals greatest discovery/i
@@ -541,6 +542,7 @@
 /md discovers/i
 
 /memory.?loss.{1,10}(comes from|unveiled)/i
+/memory.{1,10}in just/i
 /memory.{1,10}(rescue|steroid)/i
 
 /melt fat every/i
@@ -623,6 +625,8 @@
 /quit eating.{1,10}blueberries/i
 
 # R
+/rapid.{1,10}gut/i
+
 /reach 120.?80/i
 /really hiding in your/i
 
@@ -751,7 +755,7 @@
 /stretch that (eliminates|restores|stops|works)/i
 /stretch to (eliminate|prevent|unlock)/i
 
-/strong(er)?.{1,10}(erections?|gums|teeth)/i
+/strong(er)?.{1,10}(erections?|gums|memory|teeth)/i
 
 /stubborn.{1,10}(fat|flab|weight)/i
 /stuck poop/i
@@ -852,7 +856,7 @@
 
 /unlock.{1,10}lasting energy/i
 /unlock.{1,10}pleasure.{1,10}(centers?|points?)/i
-/unlock.{1,10}(memory|prostate|sharper|tight hips)/i
+/unlock.{1,10}(memory|prostate|sharper|stronger|tight hips)/i
 /unlock.{1,10}your body/i
 
 # V

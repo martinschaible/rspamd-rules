@@ -16,8 +16,13 @@
 
 # Memory
 /memory.{0,10}(bean|boost(er)?|cure|decline|drink)/i
-/memory.{0,10}(fix(er)?|gap|hack|enhancement|fruit|improver|improvement|laps(es)?|loss)/i
-/memory.{0,10}(problem|protection|recovery|restore|revival|revive|saving|solution|strengthener|tonic)/i
+
+/memory.{0,10}(fix(er)?|gap|hack|enhancement|fruit)/
+/memory.{0,10}(improver|improvement|insider|killer|laps(es)?|loss)/i
+/memory.{0,10}master/i
+/memory.{0,10}(problem|protection)/i
+/memory.{0,10}(recovery|restore|revival|revive)/i
+/memory.{0,10}(saver|saving|secret|solution|strengthener|tonic)/i
 
 /(boost|excellent|fading|focus|future|perfect|poor|restore|sharp|your).{0,10}memory/i
 
@@ -634,8 +639,6 @@
 /male.{0,10}(virility|vitality)/i
 
 /(medical|medicinal).{0,10}(discovery|patch(es)?)/i
-
-/memory.{0,10}(drink|insider|killer|saver|secret)/i
 
 /men.?s?.{0,10}(only|power|wellness)/i
 /mental.{0,10}clarity/i

@@ -68,18 +68,6 @@
 /(dear|greetings?|good day|hello|hi\b).{1,10}i am.{1,15}broker/i
 /(dear|greetings?|good day|hello|hi\b).{1,10}i work as a/i
 
-/dear.{1,10}collegue.{1,10}i am.{5,35}director/i
-/dear.{1,10}(ceo|company|confidant|export|trustee)/i
-
-/(dear|hi).{1,10}friend.{1,10}nice day/i
-
-/dear.{1,10}(good day|greetings)/i
-/dear.{1,10}i hope you are doing well.{1,10}i am.{5,35}from/i
-/dear.{1,25}this is.{5,25}from/i
-
-/dear.{1,10}hiring manager/i
-/dear.{1,10}purchase.{1,10}(department|manager)/i
-
 /dear.{1,10}(buyer|customer|madam|manager|partner|purchaser|sir).{1,15}attached order/i
 /dear.{1,10}(buyer|customer|madam|manager|partner|purchaser|sir).{1,15}glad to (contact|connect|know|write)/i
 /dear.{1,10}(buyer|customer|madam|manager|partner|purchaser|sir).{1,15}(good|nice) (day|morning)/i
@@ -96,20 +84,34 @@
 /dear.{1,10}(buyer|customer|madam|manager|partner|purchaser|sir).{1,10}we make/i
 /dear.{1,10}(buyer|customer|madam|manager|partner|purchaser|sir).{1,10}your draft/i
 
-/dear.{1,10}\[/i
-/dear.{1,15}\]/i
-
-/dear.{1,10}(boss|leader)/i
-/dear.{1,10}manager of /i
-/dear.{1,10}my friend/i
-/dear.{1,10}(e?.?mail|valued) user/i
-
-/DEAR SIR/
-
 /dear.{1,10}(supplier|vendor).{1,15}find the attached/i
 /dear.{1,10}(supplier|vendor).{1,10}good (afternoon|day|evening|morning)/i
 /dear.{1,10}(supplier|vendor).{1,10}i greet you/i
 /dear.{1,10}(supplier|vendor).{1,10}refer to/i
+
+/(dear|hi).{1,10}friend.{1,10}nice day/i
+
+/dear.{1,10}\[/i
+/dear.{1,15}\]/i
+
+/dear.{1,10}(boss|leader)/i
+/dear.{1,10}collegue.{1,10}i am.{5,35}director/i
+/dear.{1,10}(ceo|company|confidant|export|trustee)/i
+/dear.{1,10}hiring manager/i
+
+/dear.{1,10}(good day|greetings)/i
+/dear.{1,10}i hope you are doing well.{1,10}i am.{5,35}from/i
+/dear.{1,25}this is.{5,25}from/i
+
+/dear.{1,10}manager of /i
+/dear.{1,10}my friend/i
+
+/dear.{1,10}e?.?mail.?address.{1,10}holder/i
+/dear.{1,10}(e?.?mail|valued) user/i
+
+/dear.{1,10}purchase.{1,10}(department|manager)/i
+
+/DEAR SIR/
 
 /dearest one.{1,10}accept my greetings/i
 
