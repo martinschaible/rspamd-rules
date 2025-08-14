@@ -192,6 +192,7 @@
 /(hello|hi).{1,15}i am.{1,10}who has access/i
 /(hello|hi).{1,10}(i am|we) are reaching out/i
 /(hello|hi).{1,10}(i am|we) contacting you/i
+/(hello|hi).{1,10}i have.{1,10}proposal/i
 
 /(hello|hi).{5,35}i hope this.{1,10}(e?.?mail|message) (finds|meets) you/i
 /(hello|hi).{1,10}glad to (contact|connect|know|write)/i

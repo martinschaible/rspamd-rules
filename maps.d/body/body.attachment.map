@@ -230,6 +230,8 @@
 /fedex_/i
 /hermes\.docx?/i
 
+/packing?.list\.zip/i
+
 # Pricelist
 # ------------------------------------------------------------------------------
 (business|price.?list).{0,20}\.zip/i
