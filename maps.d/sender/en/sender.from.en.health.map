@@ -47,7 +47,7 @@
 # ------------------------------------------------------------------------------
 /(a1c|glucose).{0,10}(control|fix|level|problems?|spike)/i
 
-/sugar.{0,10}(above|defender|disease|levels?|spikes?)/i
+/sugar.{0,10}(above|defender|disease|levels?|spikes?|trap)/i
 
 /(control|green|high|low|normalize|normalizing|perfect).{0,10}(a1c|glucose)/i
 
@@ -185,7 +185,8 @@
 /(fat|weight).{0,10}(blocking|fast|fix|flush|gain|goals|loss|melting|vanish)/i
 /(fat|weight).{0,10}(banish|burn(er)?|burning|drop(er)?)/i
 
-/belly.{0,10}(detox|fix|flattening)/i
+/belly.{0,10}(buddy|buster)/i
+/belly.{0,10}(detox|fix|flattening|reset)/i
 /body.{0,10}fat/i
 
 /(belly|burn|eliminates?|lose|losing|melt|shed|stubborn|wobbly).{0,10}(belly|bloat|carbs|fat|flab|lbs|pounds|weight)/i
@@ -307,7 +308,6 @@
 /bed.{0,10}(hack|stretch)/i
 /bedtime.{0,10}(brew|habit|move)/i
 /bedroom.{0,10}(fix|secrets?)/i
-/belly.{0,10}(buddy|buster)/i
 /berry.{0,10}detox/i
 
 /best.{0,10}(salt|sleep)/i
