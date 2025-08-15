@@ -324,6 +324,7 @@
 
 /doing this to your/i
 
+/drink a day.{1,15}(fell|live|longer|younger)/i
 /drink that.{1,10}(detoxes|reverses)/i
 
 /drink this.{1,15}(before|juice|sec|to)/i
@@ -526,6 +527,7 @@
 /loses.{1,10}pounds doing this/i
 /losing memory because/i
 
+/loss in.{1,10}minutes/i
 /lost \d{1,2}.?(lbs|pounds)/i
 
 /loud.{1,10}snoring/i
@@ -612,7 +614,7 @@
 
 /pounds with this/i
 
-/prevent.{1,15}(bladder|decay|disease|gum|tooth)/i
+/prevent.{1,15}(bladder|decay|disease|gum|memory|tooth)/i
 /prostate.{1,10}relief/i
 /protect your heart/i
 
@@ -653,7 +655,7 @@
 /removes?.{1,10}dark spots/i
 /removes?.{1,10}(lbs|pounds) every.{1,10}days?/i
 
-/restores?.{1,10}(gut|hearing|joint|memory|perfect|teeth)/i
+/restores?.{1,10}(gut|hearing|joint|memory|nerve|perfect|teeth)/i
 
 /(reverse|reversing).{1,10}(aging in|dementia|diabetes|ed\b|memory|type 2)/i
 /(reverse|reversing).{1,10}(hair|vision).?loss/i

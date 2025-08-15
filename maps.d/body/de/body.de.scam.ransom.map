@@ -33,10 +33,10 @@
 # H
 
 # I
-/ich.{1,25}(zugang|zugriff).{1,10}(auf|zu).{1,10}(alle|deine?|ihre?).{1,10}(dateien|geräte|konto)/i
-/ich.{1,25}(zugang|zugriff).{1,10}(auf|zu).{1,10}(computer|system).{1,10}verschafft/i
-/ich.{1,25}(zugang|zugriff).{1,10}auf alle ihre kontakte/i
-/ich.{1,25}(zugang|zugriff).{1,10}ihrer?.{1,10}kontakt(en)?liste/i
+/ich\b.{1,25}(zugang|zugriff).{1,10}(auf|zu).{1,10}(alle|deine?|ihre?).{1,10}(dateien|geräte|konto)/i
+/ich\b.{1,25}(zugang|zugriff).{1,10}(auf|zu).{1,10}(computer|system).{1,10}verschafft/i
+/ich\b.{1,25}(zugang|zugriff).{1,10}auf alle ihre kontakte/i
+/ich\b.{1,25}(zugang|zugriff).{1,10}ihrer?.{1,10}kontakt(en)?liste/i
 
 /ihr (computer|system) mit.{1,10}virus/i
 /ihr (computer|system) wurde (gehackt|geknackt) mit/i

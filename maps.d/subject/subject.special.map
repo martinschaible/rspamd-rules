@@ -148,6 +148,9 @@
 
 /^#re:/i
 
+# 16.08.25 - Just a simple long row of numbers. Sample: 73315681477562151626
+/\d{10,25}$/i
+
 # Worda in brackets
 # ------------------------------------------------------------------------------
 # -> Theses RegEx might be constructed easier and better

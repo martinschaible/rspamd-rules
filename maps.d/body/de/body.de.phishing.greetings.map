@@ -44,8 +44,10 @@
 
 /guten (abend|morgen|tag).{1,10}aufgrund neuer internationaler/i
 /guten (abend|morgen|tag).{1,10}hiermit informieren wir sie/i
+
 /guten (abend|morgen|tag).{1,10}ihr.{1,15}abonnement zum preis/i
 /guten (abend|morgen|tag).{1,10}ihre?.{1,15}befindet sich/i
+
 /guten (abend|morgen|tag).{1,10}unser sicherheitssystem/i
 /guten (abend|morgen|tag).{1,10}wir haben die zahlung/i
 /guten (abend|morgen|tag).{1,10}wir möchten sie darüber informieren/iu
@@ -116,8 +118,8 @@
 /sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}aus sicherheitsgründen/iu
 /sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}aufgrund.{1,15}(aktualisierter|allgemeiner|neuer|verdächtigen)/i
  
- 
 /sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}bei einer aktuellen überprüfung/iu
+/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}bei der letzten verwendung/i
 /sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}benötigen sie eine?/iu
 /sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}bestätigen sie ihre/iu
 
