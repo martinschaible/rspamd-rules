@@ -96,14 +96,17 @@
 # Three greater signs
 /\>\>\>/i
 
-#  Two and three periods and a question mark 
+# Two and three periods and a question mark 
 /\.\.\?/i
 /\.\.\.\?/i
 
-#  Two periods and a at sign
+# Two periods and a at sign
 /\.\.@/i
 
-#  Two stars and a question mark 
+# Two periods and a exclamation mark, twice
+/\.\.\.!\.\.\.!/i
+
+# Two stars and a question mark 
 /\*\*\?/i
 
 # Two and three periods and a exclamation mark at the end of the line

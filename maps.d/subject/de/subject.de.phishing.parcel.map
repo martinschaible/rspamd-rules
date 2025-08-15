@@ -196,7 +196,9 @@
 /(paket|sendung).{1,10}liegt in der filiale lieferbereit/i
 /(paket|sendung).{1,10}mit der nummer/i
 /(paket|sendung).{1,10}bestätigen sie/iu
+
 /(paket|sendung).{1,10}wartet auf/i
+/(paket|sendung).{1,10}wartet.{1,10}distributionszentrum/i
 /(paket|sendung).{1,10}wartet.{1,10}holen sie es.{1,10}ab/i
 
 /paketzustellung.{1,10}bestätigung erforderlich/i
