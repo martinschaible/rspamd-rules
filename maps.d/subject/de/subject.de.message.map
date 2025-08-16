@@ -56,7 +56,7 @@
 
 /-:neue nachricht/i
 
-/(beachten|öffnen sie.{1,10}nachricht/i
+/(beachten|öffnen sie).{1,10}nachricht/i
 
 #
 #
@@ -98,6 +98,7 @@
 
 /(e?.?mail|nachricht).{1,10}erhalten.{1,10}rückmeldung/iu
 /(e?.?mail|nachricht).{1,10}(interesse geweckt|noch interesse)/i
+/(e?.?mail|nachricht).{1,10}könnte dein leben/iu
 /(e?.?mail|nachricht).{1,10}sie gut findet/i
 /(e?.?mail|nachricht).{1,10}(mrs\.|ms\.)/i
 

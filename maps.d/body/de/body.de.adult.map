@@ -9,6 +9,32 @@
 # Topics
 # ==============================================================================
 
+# Profile
+# ------------------------------------------------------------------------------
+/profil.{1,10}neue fotos hinzugefügt/iu
+/profil.{1,10}ist wie ein/i
+
+
+/(auf|in) mein(em)?.{1,15}profil/i
+/deiner.{1,10}nähe hat dein.{1,10}profil/iu
+
+/(besuche|einfach|entdecke|finde|schaue?).{1,10}(mein|ihr).{1,15}profil/i
+
+/hat dein.{1,15}profil gesehen/i
+/hier ist mein.{1,15}(nickname|profil)/i
+
+/hier registriert.{1,15}profil/i
+
+/link zum meinem.{1,10}profil/i
+
+/mehr über mich.{1,15}profil/iu
+/mein.{1,15}profil.{1,10}(auf der seite|findest|erwartet dich|ist)/i
+/meine.{1,10}nummer im.{1,15}profil/i
+
+/nach meinem.{1,15}profil/i
+
+/schaue? dir.{1,10}mein.{1,15}profil an/i
+
 #
 #
 #
@@ -17,15 +43,16 @@
 # ==============================================================================
 
 # A
-/(auf|in) mein(em)?.{1,10}profil/i
 /auf.{1,10}dating.?website/i
 
 # B
 /beginnt unsere.{1,15}bekanntschaft/i
-/bekanntschaft beginnt hier/i
+
+/bekanntschaft.{1,10}beginnt hier/i
+/bekanntschaft.{1,10}schreib mir/i
+
 /bereit für ein.{1,10}date/iu
 
-/besuche mein.{1,10}profil/i
 
 # C
 /chatten hast{1,10}schreibe?/i
@@ -34,8 +61,7 @@
 /dating.?seiten?/i
 
 /dein.{1,10}(penis|schwanz)/i
-/deine.{1,10}e?.?mail.?adresse auf.{1,10}website/i
-/deiner.{1,10}nähe hat dein.{1,10}profil/iu
+/deine.{1,10}e?.?mail.?adresse auf.{1,15}website/i
 
 /dich auf.{1,10}(plattform|seite|website).{1,10}(sehen|treffen)/i
 /dich gerne.{1,10}kennen(zu)?lernen/i
@@ -48,13 +74,10 @@
 /(echten|harten).{1,10}(penis|schwanz)/i
 
 /ein echtes treffen/i
-/einfach mein profil/i
 
-/(entdecke|schaue?).{1,10}ihr.{1,10}profil/i
 
 # F
-/finde mich auf der.{1,10}(web)?site/i
-/finde einfach mein.{1,10}profil/i
+/finde mich auf der.{1,15}(web)?site/i
 
 /fotze|muschi|möse|pussy.{1,10}(leckst|lecken)/iu
 
@@ -73,20 +96,19 @@
 # G
 
 # H
-/hat dein.{1,10}profil gesehen/i
 
 /hier findest du mich/i
 /hier kannst du mir antworten/i
-/hier ist mein.{1,10}(nickname|profil)/i
-
-/hier registriert.{1,10}mein profil/i
 
 /hinterlasse ich dir.{1,10}link/i
+/hinterlasse meine.{1,10}kontaktdaten/i
 
 # I
 /ich füge ein.{1,10}foto bei/iu
 /ich liebe.{1,10}oral.?sex/i
+
 /ich möchte dich.{1,15}kennenlernen/iu
+/ich möchte einfach.{1,10}jemanden finden/iu
 
 /ich suche.{1,10}einen? (frau|mann)/i
 /ich suche.{1,10}leidenschaft/i
@@ -97,12 +119,10 @@
 # J
 
 # K
-/kontaktdaten findest du auf.{1,10}(web)?site/i
+/kontaktdaten findest du auf.{1,15}(web)?site/i
 /kostenlos reinschauen auf/i
 
 # L
-/link zum meinem.{1,10}profil
-
 /lust auf.{1,10}chat(ten)?/i
 /lust hast zu schreiben.{1,10}hier bin ich/i
 
@@ -111,33 +131,29 @@
 
 /masturbieren.{1,10}spritzen/i
 
-/mein.{1,10}freizügigstes (foto|selfie)/iu 
-/mein.{1,10}profil.{1,10}(auf der seite|findest|erwartet dich|ist)/i
+
+/mein.{1,10}freizügigstes.{1,10}(foto|selfie)/iu 
 
 /meine.{0,10}(fotze|muschi|möse|pussy)/iu
-/meine.{1,10}nummer im.{1,10}profil/i
+/meine.{1,10}ecke ist hier/i
+/meine.{1,10}online.{1,10}wartet auf dich/i
 
+/mich kennenlernen möchtet.{1,10}(schreibe?|schreibt) mir/iu
 /(mich|profil) auf.{1,10}dating.?(web)?.?site/i
 
 # N
-/nach meinem.{1,10}profil/i
-/nachricht auf der.{1,10}(web)?site/i
+/nachricht auf der.{1,15}(web)?site/i
 
 # O
 
 # P
-/(penis|schwanz) brauche/i
-
-/profil neue fotos hinzugefügt/iu
-/profil ist wie ein/i
+/(penis|schwanz).{1,10}brauche/i
 
 # Q
 
 # R
 
 # S
-/schaue? dir.{1,10}mein.{1,10}profil an/i
-
 /schreib mir.{1,10}einfach eine private nachricht/i
 /schreib mir.{1,10}einfach unter/i
 /schreib mir.{1,10}gleich jetzt/i

@@ -140,6 +140,8 @@
 
 /high performance.{1,20}solution/i
 /high.?quality.{1,10}good service/i
+/high.?quality.{1,10}(athletic|jersey|shoes)/i
+
 /high.?quality.{1,10}transformers?/i
 
 # I
@@ -154,9 +156,10 @@
 /(international|trading).{1,10}co.{1,5}ltd/i
 /inquiry about.{1,10}pcba?/i
 
-/iso.{1,10}qualifed factory/i
+/iso.{1,10}qualified.{1,10}factory/i
 
 # J
+/jersey.{1,10}customization/i
 
 # K
 
