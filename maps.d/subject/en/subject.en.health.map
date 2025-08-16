@@ -655,6 +655,8 @@
 /removes?.{1,10}dark spots/i
 /removes?.{1,10}(lbs|pounds) every.{1,10}days?/i
 
+/reset.{1,10}gut/i
+
 /restores?.{1,10}(gut|hearing|joint|memory|nerve|perfect|teeth)/i
 
 /(reverse|reversing).{1,10}(aging in|dementia|diabetes|ed\b|memory|type 2)/i
@@ -736,7 +738,9 @@
 
 /stabilize your blood/i
 /stable blood sugar/i
-/start melting/i
+
+/start.{1,10}melting/i
+/start.{1,10}with.{1,10}drink/i
 
 /strange.{1,10}pain.{1,10}relieving/i
 
@@ -746,7 +750,7 @@
 
 /stop doing this/i
 /stop.{1,10}ear ringing/i
-/stop.{1,10}(decay|dieting|secret|teath)/i
+/stop.{1,10}(artery|decay|dieting|secret|teeth)/i
 /stop.{1,10}(eating|taking|using) (these|this)/i
 /stop.{1,10}this hidden/i
 

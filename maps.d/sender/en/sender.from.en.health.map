@@ -17,7 +17,7 @@
 # Memory
 /memory.{0,10}(bean|boost(er)?|cure|decline|drink)/i
 
-/memory.{0,10}(fix(er)?|gap|hack|enhancement|fruit)/
+/memory.{0,10}(fix(er)?|gap|hack|enhancement|fruit)/i
 /memory.{0,10}(improver|improvement|insider|killer|laps(es)?|loss)/i
 /memory.{0,10}master/i
 /memory.{0,10}(problem|protection)/i
@@ -282,7 +282,7 @@
 
 /apnea.{0,10}(cure|watch)/i
 
-/artery.{0,10}(cure|fix|health|plaque)/i
+/artery.{0,10}(cure|fix|health|plaque|resque)/i
 /arthritis.{0,10}gone/i
 
 /awesome.{0,10}mix/i
@@ -780,7 +780,9 @@
 
 /restful.{0,10}(nights?|sleep)/i
 /restore.{0,10}cognition/i
+
 /reverse.{0,10}(aging|gum)/i
+/revive.{0,10}your/i
 
 /rise.{0,10}again/i
 /rock.{0,10}(hard|solid)/i
@@ -836,6 +838,7 @@
 
 /spine.{0,10}(alignment|hack|trick)/i
 /spinal.{0,10}pain/i
+
 
 /strange.{0,10}acid/i
 /stretch.{0,10}length/i
@@ -965,7 +968,7 @@
 /your.{1,10}wellness/i
 
 /youth.{0,10}restored/i
-/youthful.{0,10}(boost|glow|longevity|strength)/i
+/youthful.{0,10}(boost|glow|longevity|strength|you)/i
 
 # Z
 /zero.{0,10}side.?effects?/i

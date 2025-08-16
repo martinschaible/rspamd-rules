@@ -27,7 +27,7 @@
 /moulding.{1,10}services (from|in|of) china/i
 /shoe factory (from|in|of) china/i
 
-/(pcba?|printed.?circuit.?board).{1,10}factory (from|in) china/i
+/(pcba?|printed.?circuits?.?board).{1,10}factory (from|in) china/i
 
 /we are china.{1,15}(dropshipping|leading|platform|supplier)/i
 
@@ -49,7 +49,7 @@
 /bag supplier from/i
 
 /(best|better) (price|quality) pcba?/i
-/better (pcba?|printed.?circuit.?board).{1,10}supplier/i
+/better (pcba?|printed.?circuits?.?board).{1,10}supplier/i
 
 # C
 /capacitors?.{1,10}capacitors?/i
@@ -71,7 +71,7 @@
 
 /custom.{1,10}metal (components|parts)/i
 /custom.{1,10}(bags?|cap|machined parts|metal stamping)/i
-/custom.{1,10}(pcba?|printed.circuit.board)/i
+/custom.{1,10}(pcba?|printed.circuits?.board)/i
 /custom.{1,10}products? manufacturing/i
 /custom.{1,10}transformer.{1,10}manufacturer/i
 
@@ -80,10 +80,10 @@
 # D
 /dash.?cam(era)?/i
 
-/dependable.{1,10}(pcba?|printed.?circuit.?board).{1,10}partner/i
+/dependable.{1,10}(pcba?|printed.?circuits?.?board).{1,10}partner/i
 
 /die casting solutions/i
-/discuss.{1,10}(pcba?|printed.?circuit.?board).{1,10}products/i
+/discuss.{1,10}(pcba?|printed.?circuits?.?board).{1,10}products/i
 
 /distribution.{1,15}manufactory/i
 
@@ -102,7 +102,7 @@
 
 /^electronic components$/i
 
-/enhance your.{1,10}(pcba?|printed.?circuit.?board)/i
+/enhance your.{1,10}(pcba?|printed.?circuits?.?board)/i
 
 /exclusive offer from/i
 
@@ -133,7 +133,7 @@
 /good.{1,10}pcba?.?supplier/i
 
 /(good|high).?quality.{1,10}chinese/i
-/(good|high).?quality.{1,10}(pcba?|printed.?circuit.?board)/i
+/(good|high).?quality.{1,10}(pcba?|printed.?circuits?.?board)/i
 
 # H
 /help increasing in.{1,15}market/i
@@ -166,7 +166,7 @@
 /leading.{1,10}brands.{1,10}explore/i
 /leading.{1,15}manufacturers?.{1,10}(help|of)/i
 
-/low(est)? prices?.{1,10}(pcba?|printed.?circuit.?board)/i
+/low(est)? prices?.{1,10}(pcba?|printed.?circuits?.?board)/i
 /low(est)? prices?.{1,10}plastic.?mold/i
 
 # M
@@ -186,7 +186,7 @@
 /materials.{1,10}suppliers/i
 /microchip.{1,10}parts request/i
 
-/multilayer (pcba?|printed.?circuit.?board).{1,10}manufacturing/i
+/multilayer (pcba?|printed.?circuits?.?board).{1,10}manufacturing/i
 /multiple freight solutions/i
 
 /moulding.{1,10}supplier/i
@@ -204,9 +204,9 @@
 
 /offers? for rectifiers/i
 
-/one.?stop.{1,10}(pcba?|printed.?circuit.?board)?/i
-/our advanced.{1,10}(pcba?|printed.?circuit.?board)?/i
-/our high.?quality.{1,10}(pcba?|printed.?circuit.?board)?/i
+/one.?stop.{1,10}(pcba?|printed.?circuits?.?board)?/i
+/our advanced.{1,10}(pcba?|printed.?circuits?.?board)?/i
+/our high.?quality.{1,10}(pcba?|printed.?circuits?.?board)?/i
 /our wide range of/i
 
 # P
@@ -219,23 +219,23 @@
 /parts from china/i
 /(parts|source).{1,10}manufacturer/i
 
-/pc.?board.{1,10}(pcba?|printed.?circuit.?board)/i
+/pc.?board.{1,10}(pcba?|printed.?circuits?.?board)/i
 
 /pcb and pcba/i
 /^pcb boards?$/i
 
-/(pcba?|printed.?circuit.?board).{1,20}(assembly|business|cooperation|enquiry|fabrication|factory)/i
-/(pcba?|printed.?circuit.?board).{1,10}(manufacturer?|manufacturing|needs|provider|service|solutions?)/i
+/(pcba?|printed.?circuits?.?board).{1,20}(assembly|business|cooperation|enquiry|fabrication|factory)/i
+/(pcba?|printed.?circuits?.?board).{1,10}(manufacturer?|manufacturing|needs|provider|service|solutions?)/i
 
-/(pcba?|printed.?circuit.?board).{1,10}co.{1,5}ltd/i
-/(pcba?|printed.?circuit.?board).{1,10}manufactuer for.{1,15}(customers|worldwide)/i
-/(pcba?|printed.?circuit.?board).{1,10}mould partner/i
-/(pcba?|printed.?circuit.?board).{1,10}partners?.{1,10}(iso|worthy)/i
-/(pcba?|printed.?circuit.?board).{1,10}production line/i
-/(pcba?|printed.?circuit.?board).{1,10}quality counts/i
-/(pcba?|printed.?circuit.?board).{1,10}supplier for/i
-/(pcba?|printed.?circuit.?board).{1,10}supply chain/i
-/(pcba?|printed.?circuit.?board).{1,10}with high quality/i
+/(pcba?|printed.?circuits?.?board).{1,10}co.{1,5}ltd/i
+/(pcba?|printed.?circuits?.?board).{1,10}manufactuer for.{1,15}(customers|worldwide)/i
+/(pcba?|printed.?circuits?.?board).{1,10}mould partner/i
+/(pcba?|printed.?circuits?.?board).{1,10}partners?.{1,10}(iso|worthy)/i
+/(pcba?|printed.?circuits?.?board).{1,10}production line/i
+/(pcba?|printed.?circuits?.?board).{1,10}quality counts/i
+/(pcba?|printed.?circuits?.?board).{1,10}supplier for/i
+/(pcba?|printed.?circuits?.?board).{1,10}supply chain/i
+/(pcba?|printed.?circuits?.?board).{1,10}with high quality/i
 
 /plastic.?injection.{1,10}mould.?maker/i
 /plastic.?(mold|tooling|toolmaking).{1,10}(making|quotation|services|solution)/i
@@ -249,7 +249,7 @@
 /prototype manufacturer?/i
 
 # Q
-/quotation.{1,15}(multilayer)?.{1,10}(pcba?|printed.?circuit.?board)/i
+/quotation.{1,15}(multilayer)?.{1,10}(pcba?|printed.?circuits?.?board)/i
 /quotation.{1,15}injection mold/i
 
 # R
@@ -258,7 +258,7 @@
 
 /(professional|reliable|trusted).{1,10}(drag|chain|cnc).{1,10}(manufacturer|partners?|suppliers?)/i
 /(professional|reliable|trusted).{1,15}(manufacturing|scaffolding).{1,10}(manufacturer|partners?|suppliers?)/i
-/(professional|reliable|trusted).{1,10}(pcba?|printed.?circuit.?board).{1,10}(manufacturer|partners?|suppliers?)/i
+/(professional|reliable|trusted).{1,10}(pcba?|printed.?circuits?.?board).{1,10}(manufacturer|partners?|suppliers?)/i
 /(professional|reliable|trusted).{1,15}(manufacturer|partners?|suppliers?) (for|of)/i
 /(professional|reliable|trusted).{1,15}custom fabrication/i
 
@@ -300,7 +300,7 @@
 /trustworthy.{1,10}company/i
 
 # U
-/urgent.{1,10}(pcba?|printed.?circuit.?board).{1,10}orders?/i
+/urgent.{1,10}(pcba?|printed.?circuits?.?board).{1,10}orders?/i
 
 # V
 
@@ -318,7 +318,7 @@
 /you need.{1,10}(hardware|springs)/i
 /you need.{1,10}trusted.{1,10}professional/i
 
-/you sell.{1,10}(pcba?|printed.?circuit.?board)/i
+/you sell.{1,10}(pcba?|printed.?circuits?.?board)/i
 /you sell.{1,20}related products/i
 
 /you still producing/i

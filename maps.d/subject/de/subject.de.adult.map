@@ -6,6 +6,13 @@
 # Topics
 # ==============================================================================
 
+# Women, Girl, Lady
+/(entzückendes|freche|leidenschaftliches?|schönes?|süße).{1,10}(dame|frauen|mädchen)/iu
+
+/mädchen will mit dir/iu
+/mädchen im umkreis von/iu
+
+
 #
 #
 #
@@ -60,7 +67,6 @@
 /einen mann.{1,10}sex/i
 
 /entdecke die.{1,15}chats/i
-/entzückendes.{1,10}mädchen/iu
 
 /erregt mich/i
 
@@ -113,14 +119,10 @@
 
 # L
 /lebst du in der nähe/iu
-/leidenschaftliches mädchen/i
 
 /lokaler?.{0,10}sex/i
 
 # M
-/mädchen will mit dir/iu
-/mädchen im umkreis von/iu
-
 /mann meiner träume/iu
 /mann zum.{1,15}gesucht/i
 
@@ -152,7 +154,6 @@
 
 # S
 /schicke dir mein selfie/i
-/schönes?.{1,10}(dame|mädchen)/iu
 /schwanz.{1,10}lutschen/i
 
 /schreibe an/i
@@ -169,8 +170,6 @@
 
 /sich dir hingeben/i
 /singles warten auf dich/i
-
-/süße frau/iu
 
 # T
 
