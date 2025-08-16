@@ -18,8 +18,11 @@
 
 # A
 /(auf|in) mein(em)?.{1,10}profil/i
+/auf.{1,10}dating.?website/i
 
 # B
+/beginnt unsere.{1,15}bekanntschaft/i
+/bekanntschaft beginnt hier/i
 /bereit für ein.{1,10}date/iu
 
 /besuche mein.{1,10}profil/i
@@ -34,7 +37,7 @@
 /deine.{1,10}e?.?mail.?adresse auf.{1,10}website/i
 /deiner.{1,10}nähe hat dein.{1,10}profil/iu
 
-/dich auf der (plattform|website) treffen/i
+/dich auf.{1,10}(plattform|seite|website).{1,10}(sehen|treffen)/i
 
 /du eine frau suchst/i
 /du mehr sehen.{1,10}hier der link/i
@@ -84,8 +87,9 @@
 /ich möchte dich.{1,15}kennenlernen/iu
 
 /ich suche.{1,10}einen? (frau|mann)/i
-/Ich suche.{1,10}Leidenschaft/i
+/ich suche.{1,10}leidenschaft/i
 
+/ich will.{1,10}sex/i
 /ich warte hier.{1,10}auf dich/i
 
 # J
@@ -95,6 +99,8 @@
 /kostenlos reinschauen auf/i
 
 # L
+/link zum meinem.{1,10}profil
+
 /lust auf.{1,10}chat(ten)?/i
 /lust hast zu schreiben.{1,10}hier bin ich/i
 
@@ -128,7 +134,7 @@
 # R
 
 # S
-/schaue? dir mal mein.{1,10}profil an/i
+/schaue? dir.{1,10}mein.{1,10}profil an/i
 
 /schreib mir.{1,10}einfach eine private nachricht/i
 /schreib mir.{1,10}einfach unter/i

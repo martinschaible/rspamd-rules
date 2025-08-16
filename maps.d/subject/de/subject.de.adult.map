@@ -7,11 +7,26 @@
 # ==============================================================================
 
 # Women, Girl, Lady
-/(entzückendes|freche|leidenschaftliches?|schönes?|süße).{1,10}(dame|frauen|mädchen)/iu
+# ------------------------------------------------------------------------------
+/(bezaubernde|entzückende|freche|heiße|leidenschaftliche)s?.{1,10}(dame|frauen|mädchen)/iu
+/(schöne|süße|verführerische)s?.{1,10}(dame|frauen|mädchen)/iu
 
 /mädchen will mit dir/iu
 /mädchen im umkreis von/iu
 
+# Sex
+# ------------------------------------------------------------------------------
+/sex.{0,10}chat/i
+/sex.{0,10}finden/i
+
+/sex.{1,10}ihr foto/i
+/sex mit.{1,15}(frauen|älteren)/iu
+/sex mit dir/i
+
+/ich will.{1,10}sex/i
+/(feurigen|lokaler?|wilden).{1,10}sex/i
+
+(möchte|will).{1,10}(anal|oral).?sex/i
 
 #
 #
@@ -100,7 +115,6 @@
 /ich bin.{1,10}alleinstehende?/i
 /ich habe dir.{1,10}persönliches bild/iu
 /ich suche.{1,10}leidenschaft/i
-/ich will.{1,10}sex/i
 
 /ihre private fantasie/i
 /ihre übereinstimmung/iu
@@ -119,8 +133,6 @@
 
 # L
 /lebst du in der nähe/iu
-
-/lokaler?.{0,10}sex/i
 
 # M
 /mann meiner träume/iu
@@ -162,12 +174,6 @@
 /seitensprünge in/iu
 /seite mit intimen/i
 
-/sex.{0,10}chat/i
-/sex.{0,10}finden/i
-
-/sex mit.{1,15}(frauen|älteren)/iu
-/sex mit dir/i
-
 /sich dir hingeben/i
 /singles warten auf dich/i
 
@@ -184,8 +190,6 @@
 /wartet auf ein treffen/i
 
 /web.?cam.{1,10}sprechen/i
-
-/will.{1,10}(anal|oral).?sex/i
 
 /willst du.{1,10}neue leute/i
 /willst du.{1,10}zeit mit mir/i
