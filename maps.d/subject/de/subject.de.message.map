@@ -85,9 +85,11 @@
 /dies ist eine neue nachricht/i
 
 /diese.{1,10}(e?.?mail|nachricht).{1,10}öffnen/iu
-/dieser brief wird deine/i
+/dieser brief.{1,10}(ist kein|wird deine)/i
 
 # E
+/^ein brief/i
+
 # Too strong, False/Positives
 #/eine neue nachricht/i
 /eine neue nachricht\./i
