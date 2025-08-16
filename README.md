@@ -121,6 +121,7 @@ These are the latest changes:
 |          | multimap.subject.en.conf                   | New map file added            |
 | 08.08.25 | multimap.sender.address.conf               | New map file added, changes   |
 |          | multimap.base.body.href.conf               | New map file added, changes   |
+| 16.08.25 | multimap.sender.address.conf               | Configuration changed         |
 
 ## Content
 :point_right: All map files of the *first version* are in the folder `/etc/rspamd/maps.d`.<br>
