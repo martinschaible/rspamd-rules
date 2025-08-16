@@ -31,7 +31,6 @@
 /(dear|hello|hi).{1,15}(director|manager|purchaser|respected|supplier).{1,10}nice to contact you/i
 /(dear|hello|hi).{1,15}(director|manager|purchaser|respected|supplier).{1,10}this is (mrs?|ms)/i
 /(dear|hello|hi).{1,15}(director|manager|purchaser|respected|supplier).{1,10}this is.{5,25}from/i
-/(dear|hello|hi).{1,15}(director|friend|manager|purchaser|respected|supplier).{1,15}we are.{1,10}(agency|company|factory|produce)/i
 /(dear|hello|hi).{1,15}(director|manager|purchaser|respected|supplier).{1,15}we are.{1,10}renowned for/i
 /(dear|hello|hi).{1,15}(director|manager|purchaser|respected|supplier).{1,15}we have been producing/i
 /(dear|hello|hi).{1,15}(director|manager|purchaser|respected|supplier).{1,15}we specialize in/i
@@ -54,12 +53,6 @@
 
 /hi (boss|director).{1,15}(how are you|wish you nice day)/i
 /hi dear.{1,10}(greetings of the day|my name is)/i
-
-/dear.{1,10}friend.{1,10}how are you.{1,10}are you looking for/i
-/dear.{1,10}friend.{1,10}i am (mrs?|ms)/i
-/dear.{1,10}friend.{1,10}i got your contact/i
-/dear.{1,10}friend.{1,10}it might be a surprise/i
-/dear.{1,10}friend.{1,10}we.{1,10}(provide|supply)/i
 
 /dear.{1,15}(manager|partner).{1,10}(good|nice) day/i
 /dear.{1,15}(manager|partner).{1,10}this is.{5,25}from/i
