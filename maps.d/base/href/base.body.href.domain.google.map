@@ -15,10 +15,9 @@
 # ------------------------------------------------------------------------------
 /\.translate\.goog\//i
 
-
 # Google aDS as a forwarder
 # ------------------------------------------------------------------------------
-/\.googleads\.g.\doubleclick\.net\/pcs\/click/i
+/\.googleads\.g\.doubleclick\.net\/pcs\/click/i
 
 # Google AMP
 # ------------------------------------------------------------------------------
@@ -39,8 +38,11 @@
 # The amount of spam sent over this website is too much 
 /storage\.googleapis\.com/i
 
-
 #
 # Google Sites
 # ------------------------------------------------------------------------------
 /sites\.google\.com/i
+
+# Google whatever this is
+# ------------------------------------------------------------------------------
+/script\.google\.com\/macros/i
