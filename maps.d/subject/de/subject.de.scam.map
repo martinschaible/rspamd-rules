@@ -43,7 +43,7 @@
 
 /auszahlung.{1,10}förderung/iu
 
-/förderung(en)?.{1,10}\d{2}\.\d{2}\.\d{4}/i
+/förderung(en)?.{1,10}\d{2}\.\d{2}\.\d{4}/iu
 /förderung(en)?.{1,10}geld einnehmen/iu
 /förderung(en)?.{1,10}(photovoltaik|pv|solar).?anlagen?/iu
 
@@ -69,6 +69,8 @@
 /so lohnt sich solarstrom/i
 /stromkosten.{1,10}mit solarmodulen?/i
 /unverbindliches.{1,10}(photovoltaik|pv|solar).?angebot/i
+
+/überweisung ihrer förderungen/iu
 
 #
 /pers\. angebot vom/i
