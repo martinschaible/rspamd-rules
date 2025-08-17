@@ -11,8 +11,8 @@
 /(bezaubernde|entzückende|freche|heiße|leidenschaftliche)s?.{1,10}(dame|frauen|mädchen)/iu
 /(bezaubernde|entzückende|freche|heiße|leidenschaftliche)s?.{1,10}ukrainische/i
 
-/(schöne|süße|verführerische)s?.{1,10}(dame|frauen|mädchen)/iu
-/(schöne|süße|verführerische)s?.{1,10}ukrainische/iu
+/(schöne|spektakuläre|süße|verführerische)s?.{1,10}(dame|frauen|mädchen)/iu
+/(schöne|spektakuläre|süße|verführerische)s?.{1,10}ukrainische/iu
 
 /frauen warten.{1,15}auf dich/i
 
@@ -173,8 +173,9 @@
 /schicke dir mein selfie/i
 /schwanz.{1,10}lutschen/i
 
-/schreibe an/i
-/schreib jetzt mit/i
+/schreibe? an/i
+/schreibe?.{1,10}jetzt mit/i
+/schreibe? mir.{1,10}wenn du/i
 
 /seitensprünge in/iu
 /seite mit intimen/i

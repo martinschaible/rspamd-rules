@@ -85,7 +85,9 @@
 /dies ist eine neue nachricht/i
 
 /diese.{1,10}(e?.?mail|nachricht).{1,10}öffnen/iu
-/dieser brief.{1,10}(ist kein|wird deine)/i
+/dieser.{1,10}brief.{1,10}(ist kein|wird deine)/i
+/diesen.{1,10}brief (liest|sehen)/i
+/diesen.{1,10}brief.{1,15}zu haben/i
 
 # E
 /^ein brief/i
@@ -160,7 +162,7 @@
 
 # O
 /öffne die nachricht/iu
-/öffne diesen brief/i
+/öffne (den|diesen) brief/i
 /öffnen sie (den|diesen) brief/iu
 
 # P
