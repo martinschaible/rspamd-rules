@@ -288,8 +288,7 @@
 /awesome.{0,10}mix/i
 
 # B
-/(bad|big|poor|weak).{0,10}bladder/i
-/(bad|enhanced).{0,10}(eyes|memory)/i
+/(bad|big|enhanced|poor|weak).{0,10}(bladder|eyes|memory|veggies)/i
 /bad.{0,10}breath/i
 
 /back.{0,10}(aches?|fixer|pain|stretch)/i
@@ -814,6 +813,8 @@
 /sight.{0,10}care/i
 /silence.{0,10}(buzz(ing)?|pain)/i
 /silent.{0,10}danger/i
+
+/skin.{0,10}alert/i
 
 /sleep.{0,10}(age|discovery|hack|mistake|position|reset|slim|solution)/i
 /slim.{0,10}diet/i

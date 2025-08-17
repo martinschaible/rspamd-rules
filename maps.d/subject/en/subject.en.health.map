@@ -345,9 +345,9 @@
 
 /ear\b.{1,10}(buzzing|comfort|rub|trick)/i
 
-/eases.{1,10}back pain/i
-/eases.{1,10}joint.?pain/i
-/easing.{1,10}stiff joints/i
+/(eases?|easing).{1,10}eye bags/i
+/(eases?|easing).{1,10}(back|joint).?pain/i
+/(eases?|easing).{1,10}stiff joints/i
 
 /easy.?to.?do technique/i
 
@@ -435,6 +435,7 @@
 /get hard.{1,10}stay hard/i
 
 /gets? rid of.{1,10}(brain fog|cavity|pain)/i
+/gets? rid of.{1,10}these.{1,10}fruits/i
 /gets? rid of.{1,10}unwanted/i
 
 /(gum|gut).{0,10}(cleanse|cleansing)/i
@@ -472,7 +473,7 @@
 
 /hgh.{1,15}(now legal|prescription|without)/i
 
-/hidden.{1,10}(danger|prostate)/i
+/hidden.{1,10}(danger|prostate|truth)/i
 /hidden.{1,10}toxin in.{1,10}(popular|superfoods)/i
 
 /high a1c/i
@@ -829,7 +830,7 @@
 
 /trim your.{1,10}waistline/i
 
-/truth about.{1,10}vegetables/i
+/truth about.{1,10}(veggies|vegetables)/i
 
 /(try|this).{1,10}(miracle|natural)/i
 /(try|this).{1,10}simple.{1,10}nutrient/i
@@ -893,7 +894,7 @@
 /worst.{1,10}for blood sugar/i
 /worst.{1,10}habit that/i
 
-/wrinkle.{1,10}(fast|free|skin)/i
+/wrinkle.{1,10}(fast|free|hormone|skin)/i
 
 /why some.{1,10}fruits/i
 /why your.{1,10}joints/i
