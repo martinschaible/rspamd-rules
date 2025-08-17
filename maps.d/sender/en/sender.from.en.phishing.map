@@ -167,7 +167,8 @@
 /notification.{0,10}company/i
 
 # O
-/online.?banking/i
+/online.{0,10}banking/i
+/online.{0,10}survey/i
 
 /offers?.{0,10}(program|team)/i
 /opinion.{0,10}request(ed)?/i
