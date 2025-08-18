@@ -27,6 +27,8 @@
 /aktualisieren sie ihre daten.{1,10}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/i
 /(abonnement|anmeldedaten).{1,15}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/i
 
+/anmeldung festgestellt.{1,15}guten (abend|morgen|tag)/i
+
 # B
 /bestätigen sie ihre.{1,20}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/i
 
@@ -49,6 +51,7 @@
 /guten (abend|morgen|tag).{1,10}ihre?.{1,15}befindet sich/i
 /guten (abend|morgen|tag).{1,10}im rahmen unserer regulatorischen/i
 
+/guten (abend|morgen|tag).{1,10}sicherheitswarnung/i
 /guten (abend|morgen|tag).{1,10}unser sicherheitssystem/i
 /guten (abend|morgen|tag).{1,10}wir haben die zahlung/i
 /guten (abend|morgen|tag).{1,10}wir möchten sie darüber informieren/iu
