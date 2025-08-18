@@ -184,6 +184,7 @@
 # N
 /notice.{1,10}(package|parcel|shipment) on hold/i
 /notice.{1,10}payment needed/i
+/notice.{1,10}tax details/i
 
 /notification.{1,10}(action required|incomplete|updated)/i
 /notification.{1,10}account.{1,30}closure/i
@@ -220,6 +221,7 @@
 
 /reminder.{1,10}missing tax/i
 /reminder.{1,10}resolve your.{1,15}payment/i
+/reminder.{1,10}submit.{1,15}tax/i
 
 /(receiving|reminder).{1,15}action required/i
 /reply back today/i
@@ -227,6 +229,8 @@
 /report.{1,10}incoming messages/i
 
 # S
+/secure.{1,10}(update|upgrade).{1,10}required/i
+
 /security (alert|notice).{1,10}action required/i
 /security (alert|notice).{1,10}funds/i
 /security (alert|notice).{1,25}immediate action needed/i
@@ -266,6 +270,8 @@
 
 /urgent.{1,10}(re)?confirmation needed for/i
 
+/urgent.{1,10}verify your.{1,15}(documents|tax)/i
+
 # V
 /verify your.{1,15}.(ch|de|org).{1,10}e?.?mail/i
 
@@ -274,6 +280,7 @@
 
 /verify your.{1,10}(address|credentials) to avoid/i
 /verify your.{1,15}identity to.{1,15}(access|maintain)/i
+/verify your.{1,10}tax documents/i
 
 # W
 /wallet alert.{1,10}action required/i

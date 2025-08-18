@@ -41,6 +41,8 @@
 # 30.07.25 Sample: 2025 / PV & Förderung
 /\d.{4}.{1,10}pv.{1,10}förderung/iu
 
+/handlungsbedarf.{1,5}\d{2}\.\d{2}\d.{4}/i
+
 /auszahlung.{1,10}förderung/iu
 
 /förderung(en)?.{1,10}\d{2}\.\d{2}\.\d{4}/iu

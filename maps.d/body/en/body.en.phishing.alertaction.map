@@ -56,6 +56,7 @@
 # M
 
 # N
+/notice.{1,10}tax details/i
 
 # O
 
@@ -64,14 +65,18 @@
 # Q
 
 # R
+/reminder.{1,10}submit.{1,15}tax/i
+
 /review required.{1,10}your.{1,15}account was/i
 
 # S
+/secure.{1,10}/(update|upgrade).{1,10}required/i
 
 # T
 
 # U
 /urgent.{1,10}action required.{1,10}time.?sensitive/i
+/urgent.{1,10}verify your.{1,15}(documents|tax)/i
 
 /(update|upgrade).{1,10}required for your access/i
 /(update|upgrade).{1,10}mailbox.{1,10}storage now/i
