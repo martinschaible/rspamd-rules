@@ -356,7 +356,7 @@
 /cabernet.{0,10}merlot/i
 /calorie.{0,10}(booster|burn)/i
 /calcium.{0,10}boost/i
-/calm.{0,10}ears/i
+/calm.{0,10}(ears|nights?)/i
 
 /cancel(ed)?.{0,10}surgery/i
 /cancer.{0,10}(cells?|food|growth|switch)/i
@@ -392,6 +392,7 @@
 /coffee.{0,10}extracts/i
 /cognitive.{0,10}(boost|care|comeback|decline|help|support)/i
 
+/comfort.{0,10}water/i
 /compression.{0,10}sleeve/i
 
 /confidence.{0,10}booster/i
