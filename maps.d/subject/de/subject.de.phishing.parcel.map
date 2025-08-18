@@ -199,7 +199,9 @@
 
 /(paket|sendung).{1,10}wartet auf/i
 /(paket|sendung).{1,10}wartet.{1,10}distributionszentrum/i
-/(paket|sendung).{1,10}wartet.{1,10}holen sie es.{1,10}ab/i
+/(paket|sendung)§wartet.{1,10}holen sie es.{1,10}ab/i
+
+/(paket|sendung).{1,10}zahlung.{1,10}versandgebühren/iu
 
 /paketzustellung.{1,10}bestätigung erforderlich/i
 
@@ -279,7 +281,7 @@
 # Z
 /zahlung.{1,15}(paket|sendung).{1,10}(erforderlich|steht aus)/i
 /zahlung.{1,10}(ausstehend|erforderlich).{1,10}für.{1,10}(paket|zustellung)/iu
-/zahlung.{1,10}zustellgebühr.{1,10}erforderlich/iu
+/zahlung.{1,10}(versandgebühr|zustellgebühr).{1,10}erforderlich/iu
 
 /zahlung abgeschlossen ist/i
 /zahlung von.{1,10}erforderlich/i

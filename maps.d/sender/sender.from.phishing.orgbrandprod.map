@@ -34,6 +34,7 @@
 # Dropbox
 # E.ON Kundenservice
 # facebook
+# Facebook-Seiten
 # GLS Paket
 # google
 # Google Search Console Team
@@ -289,7 +290,7 @@
 # F
 # ------------------------------------------------------------------------------
 /facebook.{0,10}(ads.?team|inc)/i
-/facebook.{0,10}seite/i
+/facebook seiten?/i
 
 /fedex$/i
 /fedpol/i

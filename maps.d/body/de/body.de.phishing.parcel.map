@@ -69,6 +69,7 @@
 /(paket|sendung).{1,15}ist fast zugestellt/i
 /(paket|sendung).{1,10}könnte zum absender zurückgeschickt werden/iu
 /(paket|sendung).{1,10}mit der nummer.{1,20}anweisungen/i
+/(paket|sendung).{1,10}nicht zustellen.{1,10}informationen fehlen/i
 /(paket|sendung).{1,15}sich im.{1,15}(distributions|verteil).{1,15}befindet/i
 /(paket|sendung).{1,15}werden dem importeur/iu
 
