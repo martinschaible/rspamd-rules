@@ -277,11 +277,12 @@
 # Y
 
 # Z
-/zahlung abgeschlossen ist/i
-
 /zahlung.{1,15}(paket|sendung).{1,10}(erforderlich|steht aus)/i
 /zahlung.{1,10}(ausstehend|erforderlich).{1,10}für.{1,10}(paket|zustellung)/iu
 /zahlung.{1,10}zustellgebühr.{1,10}erforderlich/iu
+
+/zahlung abgeschlossen ist/i
+/zahlung von.{1,10}erforderlich/i
 
 /zahlungserinnerung.{1,10}importgebühren/iu
 

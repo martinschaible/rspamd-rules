@@ -177,6 +177,8 @@
 
 /(ab lager|bestseller|hammerpreis|unsere).{1,10}akku.?(geräte|produkte|sets?)/i
 
+/profi.{1,10}akku.{1,10}werkzeuggeräte/iu
+
 # Washing brush
 # ------------------------------------------------------------------------------
 /teleskop.{1,10}waschbürste/iu
@@ -204,6 +206,9 @@
 
 # Sample: nur 249 € statt 599 € für
 /nur.{1,5}\d{2,3}.{1,5}(an)?statt.{1,5}\d{2,3}.{1,10}für/iu
+
+# Sample: Nur 66,- bis 77,- Euro
+/nur.{1,5}\d{2,3}.{1,5}bis.{1,5}\d{2,3} euro/i
 
 # Sample: 249 € – statt 599 € zahlen
 /\d{2,3}.{1,5}(an)?statt.{1,5}\d{2,3}.{1,10}zahlen/i

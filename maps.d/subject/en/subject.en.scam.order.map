@@ -88,7 +88,8 @@
 # P
 /price.?list.{1,10}(brochure|catalog|catalogue)/i
 
-/^po# \d{4,6}/i
+/^po#? \d{4,6}/i
+
 /po.?file via wetransfer/i
 /po and contract/i
 
