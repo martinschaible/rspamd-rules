@@ -37,7 +37,7 @@
 
 /(bing|google|yahoo).{1,10}(1st|first|seo|top).{1,10}((home)?page|(web)?site)/i
 /(bing|google|yahoo).{1,10}front.?page/i
-/(bing|google|yahoo).{1,10}(page 1st|listing|ranked)/i
+/(bing|google|yahoo).{1,10}(page 1st|listing|ranked|rankings?)/i
 
 # C
 /crawl.?able.{1,10}search.?engines/i
