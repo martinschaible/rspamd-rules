@@ -484,9 +484,8 @@
 /^parkingpay$/i
 
 /päypäl/i
-/paypal(\.|-)de/i
 /paypal.{0,5}(case.?id|europe?|inc|kunden|konto|services?|support|voucher)/i
-/paypal_/i
+/paypal(-|_)/i
 /pay pal/i
 /pay-pal/i
 
