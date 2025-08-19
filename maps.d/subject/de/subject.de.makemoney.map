@@ -77,7 +77,9 @@
 /automatischer aktienhandel/i
 
 # B
-/banken.{1,10}(geschockt|nicht wollen|schockiert)/i
+/bank(en)?.{1,10}(geschockt|nicht wollen|schockiert)/i
+/bank(en)?.{1,10}hassen diesen trick/i
+
 /baut man.{1,10}vermögen/iu
 
 /bis zu.{1,10}\d{3,4}.{1,10}monatlich/i
