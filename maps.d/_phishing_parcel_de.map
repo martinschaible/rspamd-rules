@@ -194,9 +194,6 @@
 /lieferung ausgesetzt.{1,10}zahlung benötigt/iu
 /lieferung erhalten.{1,15}zahlung.{1,10}(notwendig|verpflichtend)/i
 
-/versandkosten.{1,10}bezahlen.{1,10}damit ihre?.{1,10}(paket|sendung)/i
-/versandkosten.{1,10}in höhe von.{1,15}über den untenstehenden link/iu
-
 /zoll.?gebühr(en)?.{1,10}bezahlen.{1,10}um den versand/i
 /zoll.?gebühr(en)?.{1,10}der betrag beträgt/iu
 /zoll.?gebühr(en)?.{1,10}um den lieferprozess/i
@@ -205,8 +202,6 @@
 
 /adresskorrektur.{1,10}versand/i
 /auf zahlungsgebühren wartet/iu
-
-/begleichen sie (die|eine).{1,10}zollgebühr/iu
 
 /bestätigen sie.{1,10}zahlung.{1,10}um eine rücksendung zu vermeiden/iu
 /bestätigen sie.{1,25}zahlung.{1,10}der kosten.{1,10}(der|die).{1,10}lieferung/iu
@@ -256,7 +251,8 @@
 /(versandkosten|versandgebühr).{1,10}damit wir die lieferung ohne.{1,15}verzögerungen/iu
 /(versandkosten|versandgebühr).{1,10}in höhe von.{1,10}chf erforderlich/i
 /(versandkosten|versandgebühr).{1,10}ihre bestellung.{1,10}nicht erhalten/i
-/(versandkosten|versandgebühr).{1,10}jetzt bezahlen/i
+/(versandkosten|versandgebühr).{1,10}bezahlen.{1,10}damit ihre?.{1,10}(paket|sendung)/i
+/(versandkosten|versandgebühr).{1,10}in höhe von.{1,15}über den untenstehenden link/iu
 
 /zahlung werden wir.{1,15}die erneute zustellung/i
 /zahlung jetzt durchführen/i
