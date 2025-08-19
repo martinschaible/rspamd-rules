@@ -23,26 +23,34 @@
 # C
 
 # D
-/(dear|hello|hi).{1,10}(buyer|customer|friend|madam|manager|partner|purchaser|sir).{1,15}are you looking/i
-/(dear|hello|hi).{1,10}(buyer|customer|friend|madam|manager|partner|purchaser|sir).{1,15}i greet you/i
-/(dear|hello|hi).{1,10}(buyer|customer|friend|madam|manager|partner|purchaser|sir).{1,15}i represent/i
+/dear.{1,10}purchase.{1,10}(department|manager)/i
 
-/(dear|hello|hi).{1,10}(buyer|customer|friend|madam|manager|partner|purchaser|sir).{1,10}suppliers?/i
-/(dear|hello|hi).{1,10}(buyer|customer|friend|madam|manager|partner|purchaser|sir).{1,15}we at/i
+/(dear|hello|hi\b).{1,10}(buyer|customer|director|friend|madam|manager|partner|purchaser|respected|sir).{1,15}are you looking/i
+/(dear|hello|hi\b).{1,10}(buyer|customer|director|friend|madam|manager|partner|purchaser|respected|sir).{1,15}i greet you/i
+/(dear|hello|hi\b).{1,10}(buyer|customer|director|friend|madam|manager|partner|purchaser|respected|sir).{1,15}i represent/i
 
-/(dear|hello|hi).{1,10}(buyer|customer|friend|madam|manager|partner|purchaser|sir).{1,15}we are.{1,10}(interested in|looking for|specialized)/i
-/(dear|hello|hi).{1,10}(buyer|customer|friend|madam|manager|partner|purchaser|sir).{1,15}we are.{1,10}leading partner/i
+/(dear|hello|hi\b).{1,10}(buyer|customer|director|friend|madam|manager|partner|purchaser|respected|sir).{1,10}suppliers?/i
 
-/(dear|hello|hi).{1,10}(buyer|customer|friend|madam|manager|partner|purchaser|sir).{1,10}we offer/i
+/(dear|hello|hi\b).{1,10}(buyer|customer|director|friend|madam|manager|partner|purchaser|respected|sir).{1,15}we at/i
 
-/(dear|hello|hi).{1,10}(buyer|customer|friend|madam|manager|partner|purchaser|sir).{1,10}why choose/i
-/(dear|hello|hi).{1,10}(buyer|customer|friend|madam|manager|partner|purchaser|sir).{1,15}you interested in/i
+/(dear|hello|hi\b).{1,15}(buyer|customer|director|friend|madam|manager|partner|purchaser|respected|sir).{1,15}we are.{1,10}(agency|company|factory|produce)/i
+/(dear|hello|hi\b).{1,10}(buyer|customer|director|friend|madam|manager|partner|purchaser|respected|sir).{1,15}we are.{1,10}(interested in|looking for|specialized)/i
+/(dear|hello|hi\b).{1,10}(buyer|customer|director|friend|madam|manager|partner|purchaser|respected|sir).{1,15}we are.{1,10}leading partner/i
 
-/(dear|hello|hi).{1,10}(client|supplier|vendor).{1,10}this is.{1,25}factory/i
-/(dear|hello|hi).{1,10}(client|supplier|vendor).{1,10}we are.{1,10}distributor/i
+/(dear|hello|hi\b).{1,10}(buyer|customer|director|friend|madam|manager|partner|purchaser|respected|sir).{1,10}we make/i
+/(dear|hello|hi\b).{1,10}(buyer|customer|director|friend|madam|manager|partner|purchaser|respected|sir).{1,10}we offer/i
+/(dear|hello|hi\b).{1,10}(buyer|customer|director|friend|madam|manager|partner|purchaser|respected|sir).{1,10}we.{1,10}(provide|supply)/i
+
+/(dear|hello|hi\b).{1,10}(buyer|customer|director|friend|madam|manager|partner|purchaser|respected|sir).{1,10}why choose/i
+/(dear|hello|hi\b).{1,10}(buyer|customer|director|friend|madam|manager|partner|purchaser|respected|sir).{1,15}you interested in/i
+
+/(dear|hello|hi\b).{1,10}(client|supplier|vendor).{1,10}this is.{1,25}factory/i
+/(dear|hello|hi\b).{1,10}(client|supplier|vendor).{1,10}we are.{1,10}distributor/i
 
 /(dear|greetings?|good day|hello|hi\b).{1,10}we are.{1,10}manufacturer/i
+
 /(dear|greetings?|good day|hello|hi\b).{1,5}(friend|madam|sir).{1,15}we are glad to introduce/i
+/(dear|greetings?|good day|hello|hi\b).{1,5}(friend|madam|sir).{1,15}we are.{1,15}(experienced|professional)/i
 
 # E
 
@@ -73,6 +81,7 @@
 # L
 
 # M
+/message finds you well.{1,10}we are.{1,10}leading/i
 
 # N
 
