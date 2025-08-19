@@ -20,6 +20,8 @@
 /aktualisieren sie ihre adresse.{1,10}bezahlen sie/i
 
 # B
+/(begleichen|bezahlen) sie.{1,10}(die|eine).{1,10}(ausstehenden).{1,10}(versandkosten|zollgebühr)/iu
+
 /bestätigen sie ihre lieferadresse/iu
 
 # C
@@ -66,7 +68,10 @@
 /(paket|sendung).{1,10}ihre heimatadresse zu/i
 /(paket|sendung).{1,10}im zielland eingetroffen ist/i
 /(paket|sendung).{1,10}in der warteschleife/i
+
 /(paket|sendung).{1,15}ist fast zugestellt/i
+/(paket|sendung).{1,10}ist noch nicht bezahlt/i
+
 /(paket|sendung).{1,10}könnte zum absender zurückgeschickt werden/iu
 /(paket|sendung).{1,10}mit der nummer.{1,20}anweisungen/i
 /(paket|sendung).{1,10}nicht zustellen.{1,10}informationen fehlen/i
@@ -93,6 +98,8 @@
 
 # V
 /verwenden.{1,10}die notwendigen angaben zu bestätigen/iu
+
+/(versandkosten|versandgebühr).{1,10}jetzt bezahlen/i
 
 # W
 

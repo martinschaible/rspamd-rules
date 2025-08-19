@@ -107,6 +107,13 @@
 
 /vermitteln produktionshelfer/i
 
+# Ladder
+# ------------------------------------------------------------------------------
+/teleskop.?klappleiter/i
+
+/(klapp)?leiter.{1,15}(betrieb|garten|haus|handwerk)/i
+/(kompakte|optionen|preise).{1,10}/(klapp)?leiter/i
+
 # Pavillon
 # ------------------------------------------------------------------------------
 /(event|falt|garten)?pavillon.{1,15}(blau|grau|schwarz)/i
