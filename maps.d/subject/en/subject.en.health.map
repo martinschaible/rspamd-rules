@@ -353,7 +353,7 @@
 /easy.?to.?do technique/i
 
 /eat \d cup/i
-/eat this.{1,15}(arteries|daily|every|fruit)/i
+/eat this.{1,15}(arteries|daily|every|fruit|spice)/i
 /eat this.{1,15}to clear/i
 /eat this to/i
 
@@ -728,6 +728,8 @@
 
 /sleep deep(er)? with this/i
 /sleeping position/i
+
+/slim(mer)?.{1,10}waist/i
 
 /solution.{1,10}enhanced performance/i
 /solution.{1,10}for.{1,10}(digestion|ed)/i
