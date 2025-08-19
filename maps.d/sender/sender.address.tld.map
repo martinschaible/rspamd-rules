@@ -3,7 +3,7 @@
 #
 # ------------------------------------------------------------------------------
 # Language: -
-# Weight:   6.0
+# Weight:   2.0
 # ==============================================================================
 
 # TLD's
@@ -32,10 +32,10 @@
 # ------------------------------------------------------------------------------
 
 # Bangladesh, Education Board Bangladesh
-/[a-z]{2,4}\.edu\.bd/i
+/[a-z]{2,4}\.edu\.bd/i 3.0
 
 # Brazil, Government
-/[a-z]{2,4}\.gov\.br$/i
+/[a-z]{2,4}\.gov\.br$/i 3.0
 
 # Pakistan, Government 
 /\.gov\.pk$/i
@@ -45,8 +45,8 @@
 
 # 15.07.25 - Sample: ad.tjulete@service.vggrt.cn
 # -> No subdomain accepted
-/[a-z]{3,15}\.[a-z]{3,15}\.cn/i
+/[a-z]{3,15}\.[a-z]{3,15}\.cn/i 3.0
 
 # 16.07.24 - Sample: support@rea.ru
 # -> No short domain name accepted
-/[a-z]{3,5}\.ru/i
+/[a-z]{3,5}\.ru/i 3.0
