@@ -54,6 +54,7 @@
 
 /roundcube.{0,5}(administration|support)/i
 
+/^server$/i
 /server.?(report|team)/i
 /^support.?(access|client|desk|team)$/i
 /system.?report.?center/i
