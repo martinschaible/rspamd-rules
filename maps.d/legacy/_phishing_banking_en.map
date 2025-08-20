@@ -1,0 +1,110 @@
+# ==============================================================================
+# Phishing: Related to Banking
+#
+# ----|----------------|
+#  10 | English        |
+# ==============================================================================
+
+# Cards
+# ------------------------------------------------------------------------------
+
+# Data no more valid
+# ------------------------------------------------------------------------------
+
+# Failed Payments
+# ------------------------------------------------------------------------------
+/payment for.{1,15}due to security reasons/i
+
+/declined.{1,10}wrong pin/i
+
+# Wallet
+# ------------------------------------------------------------------------------
+/you.{1,10}wallet has not yet been verified/i
+
+# Update Payment options
+# ------------------------------------------------------------------------------
+
+# Message
+# ------------------------------------------------------------------------------
+
+#
+#
+#
+
+# Silly lies
+# ------------------------------------------------------------------------------
+/eu.?regulations.{1,10}we are obligated to fulfill/i
+
+#
+#
+#
+
+# Companies
+# ------------------------------------------------------------------------------
+
+# Aeon
+/aeon financial service co.{1,10}ltd/i
+
+# Aiful
+/aiful corporation.{1,10}all rights reserved/i
+
+#
+/jaccs co.{1,5}ltd/i
+
+# JCB
+/jcb.?co.{1,10}ltd/i
+/jcbカ/i
+/jcb一般カ/i
+/myjcb/i
+
+# UBS
+/dear member of ubs/i
+
+# Orient Corporation
+/copyright.{1,10}orient corporation/i
+
+# Rakuten
+/rakuten card co.{1,10}ltd/i
+
+# Resona Bank
+/resona bank.{1,10}limited/i
+
+# SMBC
+/smbcプ/i
+/smbcコ/i
+/smbc信/i
+/copyright smbc consumer finance co/i
+
+#
+/sumitomo mitsui card co/i
+
+#
+/the nishi-nippon city bank.{1,10}ltd/i
+
+#
+/sumitomo mitsui card co/i
+
+#
+/toyota finance corporation/i
+
+#
+#
+#
+
+# Unclassified
+# ------------------------------------------------------------------------------
+/my jr-east/i
+
+/連絡先/i # contact address
+
+# Masked
+# ------------------------------------------------------------------------------
+
+#
+#
+#
+
+# FRENCH
+# ------------------------------------------------------------------------------
+/importante mise à jour de sécurité/iu
+/pour raiffeisen twint/i

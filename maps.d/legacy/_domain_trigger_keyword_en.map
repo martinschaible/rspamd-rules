@@ -1,0 +1,92 @@
+# ==============================================================================
+# Trigger: Keywords and Phrases
+#
+# -> Conditional -> Fired by the map "_domain_trigger.map"
+#
+# ----|
+# 1.1 |
+# ----|----------------|
+#  10 | English        |
+# ==============================================================================
+
+# A
+/activation/i
+/appeal/i
+
+/keep.{1,10}account/i
+
+# B
+/black friday/i
+/buy it/i
+
+# D
+/delivery/i
+/discount/i
+
+/document shared with you/i
+/docusign/i
+
+# E
+/earbuds/i
+# F
+/for you/i
+
+# G
+/go.?now/i
+
+# H
+
+# I
+/invoice/i
+
+# L
+/louis.?vuiton/i
+
+# M
+/(make|making).?money/i
+
+# N
+/notification/i
+
+# O
+/offer/i
+/view your order/i
+
+# P
+/payment (details|information|method)/i
+/(proof of|your) payment/i
+/my password/i
+
+# R
+/received.{1,10}shared files/i
+/received.{1,10}encrypted message/i
+
+/registration/i
+
+/renewal payment/i
+
+# S
+/sales start/i
+/shipment/i
+/spotify/i
+
+# T
+/notification/i
+
+# U
+/update information/i
+
+# V
+/verify/i
+
+# Y
+/you may unsubscribe by/i
+/your account/i
+
+#
+#
+#
+
+# FRENCH
+/réactiver/i
+/la banque postale/i

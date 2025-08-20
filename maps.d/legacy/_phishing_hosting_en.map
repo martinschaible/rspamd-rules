@@ -1,0 +1,48 @@
+# ==============================================================================
+# Phishing: Hosting
+#
+# ----|
+# 1.1 |
+# ----|----------------|
+#  10 | English        |
+# ==============================================================================
+
+# Domains
+# ------------------------------------------------------------------------------
+/continue using.{1,10}domain.?name.{1,15}address/i
+/dear sir.{1,10}we.{1,15}inform you.{1,10}your domain.?name/i
+/update it now.{1,10}risk losing you products/i
+
+# Messages
+# ------------------------------------------------------------------------------
+/important message awaiting your attention.{1,15}support.?panel/i
+/important message in your.{1,15}support.?panel/i
+
+# Registrar
+# ------------------------------------------------------------------------------
+/we are an agency.{1,15}in registering.{1,10}(brand|domain).{1,10}name/i
+
+# Storage
+# ------------------------------------------------------------------------------
+/confirm your storage capacity validation/i
+
+# Update
+# ------------------------------------------------------------------------------
+/apply update now/i
+/update to increase mailbox security/i
+
+#
+#
+#
+
+# Content in contact forms
+# ------------------------------------------------------------------------------
+/great article.{1,10}i appreciate the clear/i
+/i found an excellent resource that expands/i
+
+# Unclassified
+# ------------------------------------------------------------------------------
+/postmaster delivery system/i
+
+# Masked
+# ------------------------------------------------------------------------------

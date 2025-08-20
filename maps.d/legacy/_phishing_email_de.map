@@ -1,0 +1,66 @@
+# ==============================================================================
+# Phishing: EMail
+#
+# ----|
+# 1.1 |
+# ----|----------------|
+#  10 | German         |
+# ==============================================================================
+
+# Delivery pending, bounced, blocked, hold
+# ------------------------------------------------------------------------------
+/sie haben.{1,10}nicht zugestellte wichtige.{1,10}(e?.?mails|nachrichten)/i
+/sie haben.{1,10}ausstehende.{1,15}(e?.?mails|nachrichten)/i
+
+/laden sie ausstehende.{1,10}(e?.?mails|nachrichten).{1,10}herunter/i
+
+#
+#
+#
+
+# Authenticate EMail Account
+# ------------------------------------------------------------------------------
+
+# Deactivation, termination request EMail Account
+# ------------------------------------------------------------------------------
+
+# Keeping EMail Account
+# ------------------------------------------------------------------------------
+
+# Out of diskspace
+# ------------------------------------------------------------------------------
+/achtung.{1,10}mailbox.?benutzer/i
+
+/(e?.?mails|nachrichten).{1,10}konnten aufgrund unzureichenden speicherplatzes nicht/i
+
+/postfach ist.{1,10}voll.{1,15}aktualisieren sie ihr/i
+
+# Threatening deleting EMail Account
+# ------------------------------------------------------------------------------
+
+# Update EMail Account, Inbox, Mailbox
+# ------------------------------------------------------------------------------
+
+# Verify EMail Account, Mailbox
+# ------------------------------------------------------------------------------
+/bestätigen sie unten ihren besitz/iu
+/bestätigen sie den besitz ihrer e?.?mail.?adresse/iu
+
+/sie bestätigen.{1,10}dass (das|dies) ihre? e?.?mail.{1,10}ist/i
+
+# Silly Errors
+# ------------------------------------------------------------------------------
+/nachrichten.{1,10}aufgrund eines speicherfehlers/i
+
+# WebMail
+# ------------------------------------------------------------------------------
+
+#
+#
+#
+
+# Unclassified
+# ------------------------------------------------------------------------------
+
+# Masked
+# ------------------------------------------------------------------------------

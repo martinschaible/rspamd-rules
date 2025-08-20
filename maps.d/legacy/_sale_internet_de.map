@@ -1,0 +1,63 @@
+# ==============================================================================
+# Sale: internet
+#
+# ----|----------------|
+#  10 | German         |
+# ==============================================================================
+
+# Address lists for spamming, EMail Marketing
+# ------------------------------------------------------------------------------
+/(dienstleistung|informationen).{1,10}e?.?mail.?marketing/i
+
+/firmendatenbank.{1,10}deutschland/i
+/potenzielle kunden sofort finden/i
+
+# Social Media
+# ------------------------------------------------------------------------------
+
+# Traffic, leads
+# ------------------------------------------------------------------------------
+/erreichen sie über.{1,15}unternehmen in/i
+/unser zielgerichteter{1,10}marketing.?service/i
+
+# Illegal stuff
+# ------------------------------------------------------------------------------
+/ihre sichtbarkeit in sozialen netzwerken zu erhöhen/iu
+
+/wir ihnen helfen können.{1,10}ihre sichtbarkeit/iu
+/wir bieten.{1,10}(follower|likes)/i
+
+# Google Reviews
+# ------------------------------------------------------------------------------
+/ihnen garantierte bewertungen bietet/i
+/ihre.{1,10}negativen.{1,10}google.?bewertungen/i
+
+/positive.{1,10}google.?bewertungen.{1,10}wichtig/i
+/positive.{1,10}google.{1,20}ihr unternehmen/i
+
+/google.?bewertungsmanagement/i
+
+#
+#
+#
+
+#
+# ------------------------------------------------------------------------------
+/ihrem unternehmen ungerechtfertigte negative bewertungen bei google.{1,15}vorliegen/i
+/ungerechtfertigte bewertungen.{1,10}hilfe unseres medienanwalts/i
+
+/entfernen von rechtswidrigen.{1,20}sterne bewertungen/i
+/entfernung ihrer unfairen rezensionen.{1,10}erstellen/i
+
+/jede art.{1,15}google.?bewertung.{1,10}entfernen/i
+
+
+#
+#
+#
+
+# Unclassified
+# ------------------------------------------------------------------------------
+
+# Masked
+# ------------------------------------------------------------------------------

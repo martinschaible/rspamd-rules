@@ -1,0 +1,156 @@
+# ==============================================================================
+# Phishing: EMail
+#
+# ----|
+# 1.1 |
+# ----|----------------|
+#  10 | English        |
+# ==============================================================================
+
+# Delivery pending, bounced, blocked, hold
+# ------------------------------------------------------------------------------
+/(delivery|release).{1,10}(incoming|pending|suspended).{1,10}(e?.?mail|message)s?.{1,15}(here|inbox|to you)/i
+
+/not.{1,20}delivered to.{1,10}(inbox|mail.?box)/i
+
+/activate.{1,10}receive.{1,10}(incoming|pending).{1,10}(e?.?mail|message)s?/i
+
+/you have.{1,40}(bounced|delayed|important|incoming|new|pending|suspended|undelivered|unreceived).{1,25}(e?.?mails?|inbox|messages?)/i
+
+# Protocol related
+/due to ssl.?port.?server.{1,10}errors.{1,10}(e?.?mails|messages)/i
+/you have.{1,10}pending{1,10}(e?.?mails?|messages?) on.{1,10}(imap|pop)/i
+/your.{1,10}e?.?mail.?address.{1,10}(imap|pop3)/i
+
+#
+/disconnected from sending.{1,10}receiving.{1,10}e?.?mails/i
+/restrained from delivering to your.{1,10}mail.?box/i
+
+#
+#
+#
+
+# Authenticate EMail Account
+# ------------------------------------------------------------------------------
+/authentication.{1,10}here.{1,10}retrieve.{1,10}(e?.?mails?|messages?)/i
+/authentication.{1,10}retrieve.{1,10}undelivered.{1,10}(e?.?mails?|messages?)/i
+
+/below to authenticate your.{1,10}e?.?mail.?account/i
+/confirm your.{1,10}e?.?mail.?account.{1,10}identity/i
+
+/you (are requested|must).{1,10}authenticate.{1,10}e?.?mail/i
+
+# Deactivation, termination request EMail Account
+# ------------------------------------------------------------------------------
+/e?.?mail.{1,10}de.?activation.{1,10}progress/i
+
+/keep your.{1,15}account.{1,10}use the button/i
+/server has been approved.{1,10}initiated/i
+/termination request.{1,10}your.{1,10}e?.?mail/i
+/request.{1,10}permanently.{1,10}de.?activate your.{1,10}e?.?mail/i
+/your.{1,10}request.{1,10}de.?activate your.{1,10}e?.?mail/i
+
+/we are closing.{1,10}old versions.{1,10}non.?active users/i
+
+# Deleting EMail Accounts
+# ------------------------------------------------------------------------------
+/removal from{1,10}server has been processed/i
+/we are suspending inactive.{1,10}accounts/i
+
+# Keeping EMail Account
+# ------------------------------------------------------------------------------
+
+# Out of diskspace
+# ------------------------------------------------------------------------------
+/free up space.{1,10}avoid e?.?mail.{1,10}data.?loss/i
+
+# Password expiring
+# ------------------------------------------------------------------------------
+/the password to your (e?.?mail|mailbox)/i
+
+# Threatening deleting EMails or Account
+# ------------------------------------------------------------------------------
+/(incoming|pending|receive).{1,15}messages.{1,10}avoid termination of your.{1,10}account/i
+/your.{1,10}(e?.?mails?|messages?).{1,10}will be permanently deleted/i
+
+# Update EMail Account, Inbox, Mailbox
+# ------------------------------------------------------------------------------
+/(update|upgrade).{1,10}account.{1,10}cancel the request/i
+/(update|upgrade).{1,10}account.{1,10}increase.{5,15}quota/i
+/(update|upgrade).{1,10}required for your.{1,10}mail.?box/i
+/(update|upgrade).{1,10}your mail.?box/i
+
+/e?.?mail.?(update|upgrade).{1,10}latest version/i
+
+/click.{1,10}(update|upgrade).{1,10}mail.?box/i
+
+/is due for.{1,10}security update/i
+/your action is required.{1,10}upgrade.{1,10}e?.?mail/i
+
+# Server Update
+# ------------------------------------------------------------------------------
+/\.(ch|de|org).{1,10}server was.{1,15}to a newer version/i
+
+# Important
+/important notification.{1,10}welcome to the new/i
+
+# Verify EMail Account, Mailbox
+# ------------------------------------------------------------------------------
+/(confirm|verify).{1,10}your.{1,15}(account|e?.?mail).{1,10}is.{1,10}active on our server/i
+/(confirm|verify).{1,10}your.{1,15}(account|e?.?mail).{1,10}delivering e?.?mail/i
+/(confirm|verify).{1,10}your.{1,10}(account|e?.?mail).{1,10}switch to.{1,10}new version/i
+/(confirm|verify).{1,10}your.{1,10}(account|e?.?mail).{1,10}to enable/i
+
+/to continue using your address.{1,15}@/i
+
+/receiving.{1,10}e?.?mail.{1,10}if not verified within/i
+/out of storage.{1,10}you.{1,10}be able to send.{1,10}receive/i
+
+/steps below.{1,10}authenticate.{1,10}e?.?mail/i
+
+/messages.{1,10}verify your e?.?mail/i
+/mail validation update/i
+/verify.{1,10}ownership.{1,15}this is your e?.?mail.?address/i
+
+/your.{1,10}e?.?mail.?password.{1,10}(kindly|please).{1,10}(confirm|verify)/i
+/your.{1,10}mail.?box needs? to be verified/i
+
+# Out of diskspace
+# ------------------------------------------------------------------------------
+/free to avoid loss of.{1,10}e?.?mail.?data/i
+/upgrade your.{1,10}quota to.{1,10}for free/i
+
+# Silly Errors
+# ------------------------------------------------------------------------------
+/admin server alert/i
+
+# WebMail
+# ------------------------------------------------------------------------------
+/web.?mail password notification/i
+
+/we are upgrading.{1,10}web.?mail software/i
+
+/our.{1,10}web.?mail system/i
+/you are using.{1,10}outdated version.{1,10}web.?mail/i
+/your.{1,10}web.?mail to the latest version/i
+/your existing.{1,10}web.?mail/i
+
+#
+#
+#
+
+# Unclassified
+# ------------------------------------------------------------------------------
+/this sender has been verified from/i
+/message.{1,10}in spam.?quarantine.?inbox/i
+
+/permanent error when sending.{1,10}(e?.?mails|messages) to you/i
+/view your important contact messages/i
+
+#
+/smartermail account.?team/i
+
+# Masked
+# ------------------------------------------------------------------------------
+/cancel_request/i
+/stay_connected/i

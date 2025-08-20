@@ -1,0 +1,487 @@
+# ==============================================================================
+# Sale: Anything, Score level HIGH
+#
+# ----|----------------|
+#  10 | German         |
+# ==============================================================================
+
+# Chair
+# ------------------------------------------------------------------------------
+/chefsessel.{1,10}erhältlich in einer/i
+/chefsessel.{1,10}leder.{1,10}holz.{1,10}kombination/i
+/chefsessel.{1,10}limitierter?/i
+/chefsessel.{1,10}viele farben/i
+
+/(elegant(er)?|exklusiver|hochwertig|leder|mesh|toro).{1,10}chefsessel/i
+
+/lederbürostühle/iu
+
+/atmungsaktiver.{1,10}mesh.?stoff.{1,10}belastbar/i
+
+/highlights?.{1,20}(büro|dreh).?(stuhl|stühle)/i
+
+/diesen einzigartigen.{1,10}stuhl/i
+/massage.?leder.{1,20}büro.?(stuhl|stühle)/iu
+
+/erstaunliche.{1,10}massagestuhl/i
+
+/(büro|dreh).?(stuhl|stühle).{1,10}(elegantes|eleganz)/i
+/(büro|dreh).?(stuhl|stühle).{1,10}(die perfekte|einzigartig|in leder|limitierte|in vielen farben|mit walnussholz|passt sich perfekt)/iu
+/(büro|dreh).?(stuhl|stühle).{1,10}neues modell/iu
+/(büro|dreh).?(stuhl|stühle).{1,10}regale?/i
+/(büro|dreh).?(stuhl|stühle).{1,10}(vorzustellen|wochen zu testen)/i
+
+/stuhl.{1,15}vorzugspreis von nur/i
+/stuhl zum vorzugspreis/i
+
+/sonderangebot.{1,10}besucherstuhl/i
+
+/mesh.{1,10}(büro|dreh).?(stuhl|stühle).{1,10}schwarz/iu
+
+/sichern sie sich ihren stuhl/i
+/unsere.{1,10}(büro|dreh).?(stuhl|stühle) sind in/iu
+/unsere.{1,10}eleganten.{1,10}(büro|dreh).?(stuhl|stühle)/iu
+
+# Coffee
+# ------------------------------------------------------------------------------
+/kaffee.?vollautomat(en)?.{1,10}firmen/i
+/firmen.{1,10}kaffee.?vollautomat(en)?/i
+
+# Cushion
+# ------------------------------------------------------------------------------
+/kissen.{1,10}in.{1,10}(deutschland|schweiz)/i
+/kissen.{1,10}(revolutionieren|sonderpreis)/i
+
+/lendenstützkissen.{1,10}rückenkissen/i
+
+/(derila|klaudena).{1,15}entwickelt/i
+/(derila|klaudena).{1,15}(kissen|komfort|memory)/i
+
+/wir haben.{1,15}(derila|klaudena)/i
+
+/unser.{1,10}(lendenstützkissen|rückenkissen)/i
+
+# Jacket
+# ------------------------------------------------------------------------------
+/jacke.{1,15}winter nicht mehr zu frieren/i
+
+/beheizbare daunen.?jacke/i
+/beheizbaren? jacke.{1,10}perfekte?/i
+/beheizbaren? jacke.{1,10}werden sie nicht/i
+
+/(der|einer) beheizbaren jacke/i
+/die beheizbare jacke/i
+
+/eine beheizbare jacke an/i
+
+/heat.?guard.{1,10}weste/i
+
+# Knives
+# ------------------------------------------------------------------------------
+/huusk.{1,10}(absoluter|lieben)/i
+/huusk.{1,10}messer.{1,10}bestellen/i
+
+/(einzigartig|empfehlung|team).{1,20}huusk/i
+/küchenmesser.{1,10}premium/i
+
+# Ladder
+# ------------------------------------------------------------------------------
+/teleskopleiter.{1,15}kostenfreiem versand/i
+/(generation|optimale|optimierte|profi).{1,10}teleskopleiter/i
+
+/unserer?.{1,10}teleskop.{1,10}klappleiter/i
+/unserer?.{1,10}teleskopleiter/i
+
+/profi.{1,10}aluminium.{1,10}teleskopleiter/i
+
+# Learning languages
+# ------------------------------------------------------------------------------
+/einfaches? englischlernen/i
+/erlernen sie eine.{1,15}sprache schneller als/i
+
+# Mats
+# ------------------------------------------------------------------------------
+/(sauberlauf|schmutzfang).?matten?.{1,10}sauberlaufteppich/i
+/(sauberlauf|schmutzfang).?matten?.{1,10}verschiedenen farben/i
+
+# Pen
+# ------------------------------------------------------------------------------
+/kugelschreiber.{1,10}(gummierung|gummiert|ihr logo|softgriff|werbeeindruck)/i
+/kugelschreiber.{1,10}individuellem.{1,10}druck/i
+/kugelschreiber.{1,10}(erhältlich|schon) ab/iu
+/kugelschreiber.{1,10}mit.{1,10}(ihrem|kostenlosen)/i
+
+/(die neuen|erstklassige|gummierte|hochwertigen?|personalisierten|premium|softgriff).{1,20}kugelschreiber/i
+
+
+/(maßgeschneiderte|neue).{1,10}(metall|werbe).?kugelschreiber/i
+
+/unsere (exklusiven|neuen).{1,15}kugelschreiber/i
+
+/unsere?.{1,10}kugelschreiber ist ein/i
+/unsere?.{1,10}kugelschreibermuster/i
+/unsere?.{1,10}einzigartigen.{1,10}kugelschreiber/i
+
+/(ihren individuellen|sonderaktion).{1,15}kugelschreiber/i
+
+#
+/werbe.?kugelschreiber mit/i
+/premium.{1,10}werbe.?kugelschreiber/i
+
+/vertriebsteam.{1,10}werbemittel/i
+
+# Phone Systems
+# ------------------------------------------------------------------------------
+/telefonsysteme für ihr unternehmen mieten/iu
+
+# Power Generator
+# ------------------------------------------------------------------------------
+/(energie|gelegenheit|unser).{1,15}generator/i
+
+/stromgenerator.{1,10}vertrieb/i
+/mobiler.{1,10}benzin.{1,10}stromgenerator/i
+
+/unser.{1,10}mobiles.{1,10}stromaggregat/i
+
+# Pressure washer
+# ------------------------------------------------------------------------------
+/premium.{1,10}hochdruck.?reiniger/i
+
+
+# Router/WiFi
+# ------------------------------------------------------------------------------
+/tragbares.?wla/i
+/(tragbaren|tragbarer).{1,10}(drahtloser|high.?speed|hochgeschwindigkeits|w.?lan).{1,15}router/i
+
+/schnelle.{1,10}wlan.?verbindung/i
+
+# Safe
+# ------------------------------------------------------------------------------
+/wir haben.{1,15}(aktuell|neue).{1,15}tresore lieferbar/i
+
+# Schneeschieber
+# ------------------------------------------------------------------------------
+/(diesem|wir den).{1,10}schneeschieber/i
+
+# Software (illegal)
+# ------------------------------------------------------------------------------
+/office software.{1,15}für einmalige.{1,10}euro/iu
+
+/ihnen die.{1,10}(aktuelle|original).{1,10}version.{1,10}microsoft office/i
+/ihnen die.{1,10}(aktuelle|original).{1,10}microsoft office/i
+
+/alle programme auf dem neusten stand/i
+
+/sichern sie sich jetzt.{1,10}office professional/i
+/sie kaufen einmal eine lizenz.{1,10}nutzen alle programme /i
+/weiterhin alle updates kostenlos/i
+
+# Starthilfe
+# ------------------------------------------------------------------------------
+/kfz power.?starthilfe/i
+/powerbank.{1,10}auto.{1,10}starthilfe/i
+
+# Suitcase set
+# ------------------------------------------------------------------------------
+/kofferset.{1,10}teilig.{1,10}statt uvp.{1,10}nur/i
+
+# Suitcase
+# ------------------------------------------------------------------------------
+/koffer.{1,10}nur.{1,15}euro.{1,10}komplettpreis/i
+/koffer.{1,10}trolley.{1,10}extrem/i
+
+/sonderposten.{1,10}set.{1,10}reisekoffer/i
+
+# Surveillance Camera
+# ------------------------------------------------------------------------------
+/ptz.?kamera.{1,10}bewegungsmelder/i
+/4k.?kamera.{1,10}sonderpreis/i
+
+# Streaming TV
+# ------------------------------------------------------------------------------
+/exklusives.{1,10}/ip.?tv/i
+/ip.?tv.{0,10}abonnement/i
+
+# Tables
+# ------------------------------------------------------------------------------
+/elektrisch.{1,10}höhenverstellbare?.{1,10}schreibtische?/iu
+
+# Tischkicker
+# ------------------------------------------------------------------------------
+/tisch.?(fußball|kicker).{1,10}der kick/i
+/tisch.?(fußball|kicker).{1,10}turnierkicker/i
+
+/tischfußball.{1,10}highlight/i
+
+/erstklassiger.{1,10}tisch.?fußballtisch/iu
+
+/turnierkicker.{1,10}statt.{1,10}nur/i
+
+/wir unseren tisch.?fußballtisch/i
+
+# Tools
+# ------------------------------------------------------------------------------
+/werkzeug.?set statt.{1,10}nur/i
+/werkzeug.?set mit.{1,10}teilen/i
+
+/(sonderposten|ultimatives).{1,15}werkzeug.?set/i
+/unser.{1,10}teiliges.{1,10}werkzeug.?set/i
+
+# Translator
+# ------------------------------------------------------------------------------
+/gerät.{1,10}das sprachbarrieren/iu
+/das sprachbarrieren überwindet/iu
+/erleben sie.{1,10}sprachfreiheit/i
+
+/intelligenten.{1,10}übersetzungsgerät/iu
+
+/sofort.?sprach.?übersetzer/iu
+/sofort.?übersetzer/iu
+
+/sprachen.{1,10}sprachübersetzungen/iu
+/sprachfreiheit.{1,10}jetzt bestellen/i
+
+# Translation Service
+# ------------------------------------------------------------------------------
+/übersetzungen.{1,10}bis zu.{1,10}sprachen anbieten/iu
+/übersetzen ihre dokumente.{1,15}(professionell|schnell)/iu
+
+/ihnen unsere übersetzungsdienstleistungen anbieten/iu
+/ihr übersetzungsteam/iu
+
+/sie haben wichtige übersetzungsaufträge/iu
+
+/wir bieten professionelle übersetzungen/iu
+
+# Trees
+# ------------------------------------------------------------------------------
+/künstlicher.{1,10}eukalyptusbaum.{1,15}sonderpreis/iu
+/kirschlorbeerkugelbaum.{1,10}naturstamm.{1,15}sonderpreis/iu
+/olivenbaum.{1,15}jetzt nur.{1,10}euro/i
+
+/(auswahl an hochwertigen|mit unseren).{1,10}kunstbäumen/iu
+
+/gartenpflanzen.{1,10}sonderpreise/i
+
+# Trolley & Tools
+# ------------------------------------------------------------------------------
+/(werkstatt|werkzeug).?(trolley|wagen).{1,20}(angeben|eignet sich|gefüllt|konstruiert|spezialangebot|ultimative)/i
+/(werkstatt|werkzeug).?(trolley|wagen).{1,10}für.{1,10}(heimwerker|profis)/i
+/(werkstatt|werkzeug).?(trolley|wagen).{1,10}genau das richtige/i
+/(werkstatt|werkzeug).?(trolley|wagen).{1,10}mit.{1,10}schubladen/i
+/(werkstatt|werkzeug).?(trolley|wagen).{1,10}ist aus robustem/i
+/(werkstatt|werkzeug).?(trolley|wagen).{1,10}inklusive.{1,20}werkzeug/i
+
+/(hochwertiger|performance|unser).{1,10}(werkstatt|werkzeug).?(trolley|wagen).{1,10}(für|inkl|ist mit|kommt)/iu
+/ultimative.{1,10}(werkstatt|werkzeug).?(trolley|wagen)/i
+
+/(hochwertige|ultimative|unser|premium).{1,20}(werkstatt|werkzeug).?(trolley|wagen)/i
+
+/werkzeug.{1,10}aus chrom.?vanadium/i
+/werkzeug.{1,10}(komplett)?.?set.{1,10}alukoffer/i
+/werkzeug.{1,10}(komplett)?.?set.{1,10}bestehend aus/i
+
+/werkzeugset.{1,10}jetzt für nur/iu
+
+/sonderposten.{1,10}werkzeugset/i
+/\d{2,3}.?teiliges.{1,10}werkzeugset/i
+/netto.{1,10}komplett mit inhalt/i
+
+# Umbrellas
+# ------------------------------------------------------------------------------
+/(meter|patenter|sonnen).{1,10}ampelschirm/i
+/schirm.{1,10}ampelschirm/i
+
+/(ampel|sonnen).?schirme?.{1,10}(alu mit|verschiedenen farben)/i
+/(ampel|sonnen).?schirme?.{1,10}durchmesser.{1,10}nur.{1,10}statt/i
+/(ampel|sonnen).?schirme?.{1,10}perfekten sonnenschutz/i
+
+# Vacuum Cleaner
+# ------------------------------------------------------------------------------
+/patenter.{1,10}waschsauger/i
+/waschsauger.{1,10}sofort lieferbar/i
+
+/mobiler.{1,10}hochdruckreiniger mit.{1,10}akkus/i
+
+# Vending machine
+# ------------------------------------------------------------------------------
+/verkaufsautomat.{1,15}büro/iu
+
+#
+#
+#
+
+# How to order
+# ------------------------------------------------------------------------------
+/bestellen.{1,10}antworten sie.{1,15}(bitte|einfach).{1,15}mit ihrer anschrift/i
+
+/antworten sie.{1,15}bei fragen.{1,10}bestellungen/i
+/antworten sie.{1,15}bestellen sie mit rückgaberecht/iu
+
+/antworten sie.{1,15}einfach.{1,10}auf diese e?.?mail.{1,10}um ihre bestellung/i
+/antworten sie.{1,15}einfach.{1,10}auf diese e?.?mail mit ihrer/i
+
+/antworten sie.{1,15}einfach.{1,10}mit ihrer.{1,10}adresse.{1,10}(auf dieses schreiben|teilen sie uns)/i
+/antworten sie.{1,15}einfach.{1,10}mit ihrer.{1,10}(liefer|rechnungs).?adresse/i
+/antworten sie.{1,15}einfach.{1,10}zum bestellen/i
+/antworten sie.{1,15}direkt auf diese e?.?mail.{1,10}wir schicken ihnen ihr/i
+
+/antworten sie.{1,10}mit ihrer liefer.{1,10}rechnungs.?adresse/i
+/antworten sie.{1,10}mit ihrer adresse.{1,10}wir (liefern|senden)/i
+
+/antworten.{1,10}wir liefern umgehend auf rechnung/i
+
+/antworten.{1,10}adresse angeben/i
+
+/(bestellen|bestellung).{1,10}einfach antworten/i
+
+/bestellen.{1,10}auf rechnung einfach.{1,10}antworten/i
+/bestellen.{1,20}antworten sie.{1,20}mit.{1,15}(liefer|rechnungs).{1,15}anschrift/i
+/bestellen.{1,10}antworten sie.{1,20}mit ihrer adresse/i
+
+/bestellen.{1,20}einfach.{1,15}antworten sie uns/i
+/bestellen.{1,20}einfach.{1,15}auf dieses?.{1,10}(e?.?mail|schreiben) antworten/i
+/bestellen.{1,20}einfach.{1,15}auf dieses?.{1,10}(e?.?mail|schreiben) mit ihrer.{1,15}(adresse|anschrift)/i
+
+/bestellen.{1,20}einfach.{1,15}mit.{1,15}(adresse|anschrift).{1,10}diese e?.?mail antworten/i
+/bestellen.{1,20}einfach.{1,15}mit.{1,15}(adresse|anschrift).{1,10}antworten/i
+/bestellen.{1,20}einfach.{1,15}mit ihrer.{1,15}(liefer|rechnungs).{1,15}(adresse|anschrift)/i
+/bestellen.{1,20}einfach.{1,15}mit den gewünschten/iu
+/bestellen.{1,20}einfach.{1,15}per e?.?mail.{1,10}antwort/i
+/bestellen.{1,20}einfach.{1,15}sie auf.{1,15}diese e?.?mail antworten/i
+/bestellen.{1,20}einfach.{1,15}sie uns ihre.{1,15}adresse per e?.?mail.{1,10}senden/i
+
+/bestellen.{1,10}mit ihrer.{1,10}(adresse|anschrift).{1,10}(einfach antworten|wir liefern)/i
+/bestellen.{1,10}senden sie uns einfach.{1,10}e?.?mail/i
+/bestellen.{1,15}senden sie uns.{1,15}ihre.{1,20}(liefer|rechnungs).?anschrift/i
+/bestellen.{1,15}senden sie uns.{1,15}ihre.{1,20}ihre adresse/i
+/bestellen.{1,10}muster einfach antworten/i
+/bestellen.{1,10}mit adresse einfach antworten/i
+
+/bestellung(en)?.{1,15}antworten sie.{1,15}auf diese.{1,10}(e?.?mail|nachricht)/i
+/bestellung(en)?.{1,10}antworten sie.{1,15}mit ihrer.{1,10}(adresse|anschrift)/i
+/bestellung(en)?.{1,10}antworten sie.{1,15}mit ihrer.{1,10}(liefer|rechnung).{1,20}(adresse|anschrift)/i
+/bestellung(en)?.{1,10}sind.{1,15}einfach.{1,10}antworten sie uns mit ihrer.{1,10}(adresse|anschrift)/i
+/bestellung(en)?.{1,10}rückfragen einfach antworten/iu
+
+/direkt unsere sonderangebote per e?.?mail bestellen/i
+
+/e?.?mail antworten.{1,10}ihre lieferadresse angeben/i
+
+/einfach mit.{1,10}adresse.{1,15}lieferadresse/i
+/einfach mit.{1,10}adresse.{1,15}diese e?.?mail.{1,15}wir senden ihnen/i
+/einfach mit.{1,10}adresse.{1,15}wir senden dann.{1,15}(frei haus|umgehend per)/i
+
+/einfach antworten.{1,10}bestellungen.{1,10}rückfragen/iu
+/einfach antworten.{1,10}um zu bestellen/i
+/einfach antworten.{1,10}wir liefern.{1,20}auf rechnung/i
+/einfach antworten.{1,10}wir liefern.{1,10}direkt/i
+/einfach antworten.{1,10}zum bestellen/i
+
+/einfach.{1,10}bestellung antworten.{1,10}wir liefern.{1,10}auf rechnung/i
+
+/ihre antwort genügt.{1,10}wir senden.{1,10}zu ihnen/iu
+
+/zum antworten bestellen.{1,15}lieferung auf rechnung/i
+
+/klicken.{1,10}direkt unsere sonderangebote per.{1,10}e?.?mail bestellen/i
+
+/kontaktieren sie uns jetzt.{1,10}ihre bestellung/i
+
+/lieferung.{1,10}rechnung.{1,10}einfach antworten/i
+/lieferung.{1,10}rechnung.{1,10}statt uvp.{1,10}nur.{1,10}plus/i
+
+/lieferung.{1,10}erfolgt auf rechnung.{1,10}zu lediglich/i
+/lieferung.{1,15}erfolgt auf rechnung.{1,15}mit freundlichen/i
+/lieferung.{1,15}detaillierte rechnung sind/i
+
+/liefern direkt auf rechnung.{1,10}risikolos.{1,10}einkaufen/i
+
+/risikofreier kauf.{1,15}antworten sie mit ihrer lieferadresse/i
+
+/sie uns ihre liefer.{1,10}rechnungs.?adresse per antwort/i
+
+/sofort zugreifen per e?.?mail/i
+
+/teilen sie uns.{1,15}per.{1,10}antwort ihre.{1,10}lieferadresse/i
+/teilen sie uns.{1,10}ihre.{1,10}lieferadresse mit/i
+/teilen sie uns.{1,10}einfach ihre.{1,10}adresse mit/i
+
+# Pricing
+/(angebots|einführungs).?preis.{1,10}(anstelle|statt).{1,10}nur.{1,10}euro.{1,10}(plus|zzgl).{1,10}mwst/i
+/(angebots|einführungs).?preis.{1,10}(anstelle|statt).{1,10}nur.{1,10}(plus|zzgl).{1,10}mwst/i
+
+/euro zzgl.{1,10}mwst.{1,10}(anstelle|statt).{1,10}regulären.{1,10}euro/iu
+
+/(anstelle|statt).{1,10}bis.{1,10}euro jetzt nur.{1,10}euro netto/i
+/(anstelle|statt).{1,10}jetzt nur.{1,10}euro.{1,10}(plus|zzgl).{1,10}mwst/i
+/(anstelle|statt).{1,10}uvp.{1,10}nur.{1,10}(plus|zzgl).{1,10}mwst/i
+/(anstelle|statt).{1,10}vergleichbar bis zu.{1,10}nur.{1,10}euro.{1,10}zzgl/i
+
+/uvp.{1,10}des herstellers.{1,15}unser unschlagbarer preis.{1,10}nur/i
+/preis beträgt anstelle von.{1,10}euro nur.{1,10}euro.{1,10}zzgl/iu
+
+/sonder(posten|preis).{1,10}normaler preis \d{2,3}/i
+/sonder(posten|preis).{1,10}nur.{1,10}euro.{1,10}zzgl.{1,10}mwst/i
+/sonderposten.?aktion.{1,10}nur solange.{1,10}vorrat/i
+
+/(unschlagbaren|unschlagbarer) preis.{1,10}(anstelle|statt).{1,10}nur.{1,10}euro.{1,10}netto/i
+/(unschlagbaren|unschlagbarer) preis.{1,10}(anstelle|statt).{1,10}nur.{1,10}netto/i
+
+/weit unter.{1,10}uvp des herstellers/i
+
+/wir liefern.{1,10}(auf|mit).{1,10}rechnung.{1,10}(anstelle|statt).{1,10}nur.{1,10}zzgl/i
+/wir liefern.{1,15}(auf|mit).{1,10}rechnung.{1,15}(keine|ohne) (nachnahme|vorkasse)/i
+/wir liefern.{1,15}(auf|mit).{1,10}rechnung.{1,15}sie zahlen erst nach zufriedenheit/i
+/wir liefern.{1,10}umgehend (auf|mit).{1,10}rechnung.{1,15}zzgl.{1,15}mehrwertsteuer/i
+
+/wir senden sofort zu ihnen.{1,10}sie bezahlen nur/i
+
+/ohne vorkasse.{1,10}nachnahme/i
+
+/keine nachnahme.{1,10}risikolos einkaufen/i
+/keine vorkasse.{1,10}keine nachnahme/i
+
+#
+/cm.{1,10}jetzt nur.{1,10}\d{3}.{1,10}(anstelle|statt).{1,10}\d{3}.{1,10}euro/i
+
+#
+/verkauf.{1,10}vertrieb.{1,15}bitte einfach antworten/i
+
+# Discount
+/rabatt zu erhalten.{1,10}angebot.{1,10}unsere leser/i
+
+#
+/für rückfragen bitte kurze rückantwort/iu
+/antworten sie einfach auf diese e?.?mail/i
+
+# This companies are very annoying
+# ------------------------------------------------------------------------------
+/premium.box.gmbh/i
+/handelsregister:.{1,25}1.?0.?9.?3.?0.?0/i
+
+# WiFi
+# ------------------------------------------------------------------------------
+/tragbarer.?internetbegleiter/i
+/(holen sie sich|ihr eigenes|jederzeit|tragbares).{1,10}(wi.?fi|wlan)/i
+
+#
+#
+#
+
+# Offer to sell vehicles
+# ------------------------------------------------------------------------------
+/unkomplizierten ankauf.{1,10}gebrauchte?.{1,10}(autos|fahrzeuge|pkw)/i
+
+/unsere firma sucht.{1,15}gebrauchte.{1,10}(autos|fahrzeuge|pkw)/i
+
+/sie.{1,10}(auto|fahrzeug|pkw).{1,10}das zu verkaufen ist/i
+/sie.{1,10}(auto|fahrzeug|pkw).{1,10}zum verkauf haben/i
+
+/suche nach.{1,10}(auto|fahrzeug|pkw).{1,10}aller art/i
+/sofort bargeld.{1,10}wie gesehen/i
+/verkaufen sie ihr.{1,10}(auto|fahrzeug|pkw).{1,10}(schnell|sicher)/i
+
+/wir holen.{1,10}(auto|fahrzeug|pkw) vor ort ab/i
+/wir holen.{1,10}bundesweit.{1,10}(auto|fahrzeug|pkw) ab/i
+/wir suchen.{1,15}firmenfahrzeuge/i

@@ -1,0 +1,150 @@
+# ==============================================================================
+# Scam: Business, Partnership, Proposals, Projects
+#
+# ----|
+# 1.1 |
+# ----|----------------|
+#  10 | English        |
+# ==============================================================================
+
+# Business
+# ------------------------------------------------------------------------------
+/business.{1,15}(opportunity|proposition|proposal|transaction).{1,15}for.{1,15}(consideration|contact me)/i
+/business.{1,15}(opportunity|proposition|proposal|transaction).{1,15}get back to me/i
+/business.{1,15}(opportunity|proposition|proposal|transaction).{1,15}(i would|that).{1,10}(like|want) to discuss/i
+/business.{1,15}(opportunity|proposition|proposal|transaction).{1,10}i believe you/i
+/business.{1,15}(opportunity|proposition|proposal|transaction).{1,20}will be beneficial/i
+/business.{1,15}(opportunity|proposition|proposal|transaction).{1,15}with you/i
+/business.{1,15}(partnership|relationship)? that.{1,15}would be.{1,15}beneficial/i
+/business.{1,15}(partnership|relationship)? with you.{1,15}in your country/i
+
+/business.{1,15}agreement to discuss/i
+/business.{1,10}plan.{1,10}i want to share with you/i
+/business.{1,15}request for you.{1,10}stand as.{1,10}partner/i
+
+/obligation.{1,10}i would like us to complete/i
+
+/(opportunity|proposition|proposal|transaction).{1,15}could be mutually beneficial/i
+/(opportunity|proposition|proposal|transaction).{1,10}with you.{1,15}get back to me/i
+
+/partnership.{1,10}assistance in a business/i
+/partnership.{1,10}proposal for you here/i
+
+/(potential|private).{1,10}business.{1,10}if interested/i
+
+/proposal.{1,10}for you.{1,10}can i send it/i
+/proposal.{1,10}for your.{1,10}consideration/i
+/proposal.{1,10}is in your name/i
+/proposal.{1,10}of usd.{1,10}for you/i
+/proposal.{1,10}offers.{1,15}mutual.{1,10}benefits/i
+/proposal.{1,10}will not embarrass you/i
+/proposal.{1,10}your full understanding/i
+
+/proposition.{1,10}worth millions of dollars/i
+
+/(resourceful|serious).{1,15}(opportunity|proposition|proposal|transaction).{1,15}discuss with you/i
+
+/confidential.{1,10}business.{1,10}(opportunity|proposal|transaction).{1,10}(for|with) you/i
+/contacting you for.{1,10}(potential|private).{1,10}business/i
+/contacting you regarding.{1,10}(proposition|proposal)/i
+
+/deal.{1,10}that will benefit both parties/i
+/exciting.{1,10}business proposal/i
+/extend .{1,10}business request to you/i
+
+/lucrative proposal.{1,10}share with you/i
+
+/(i|we) have.{1,15}(business|investment).{1,15}(opportunity|proposition|proposal|transaction)/i
+/(i|we) have.{1,15}(confidential|profitable|lucrative).{1,15}(business|offer|opportunity|proposition|proposal|transaction)/i
+/(i|we) have.{1,10}deal for you/i
+/(i|we) have.{1,15}mission for you worth/i
+/(i|we) have.{1,15}mutual.{1,10}confidential/i
+
+/(i|we) have.{1,10}obligation.{1,10}that.{1,10}would like you/i
+/(i|we) have.{1,10}private proposal/i
+/(i|we) have.{1,10}project.{1,10}worth.{1,10}million/i
+/(i|we) have.{1,10}project.{1,10}which may interest.{1,10}you.{1,20}good profit/i
+/(i|we) have.{1,10}proposition for you.{1,10}which will be/i
+/(i|we) have.{1,10}(lucrative|prospective|scintillating).{1,10}(deal|job).{1,10}for you/i
+/(i|we) have.{1,10}decided.{1,10}send.{1,15}proposal/i
+
+/(i|we) look(ing)? forward to.{1,15}(beneficial|mutually).{1,10}relationship/i
+/(i|we) tried to send you.{1,10}proposal/i
+/(i|we) need you as.{1,10}foreign partner/i
+/(i|we) need.{1,10}business deal(ing)?.{1,10}with you/i
+/(i|we) would like to propose.{1,10}business/i
+/(i|we) would like to discuss.{1,10}proposal with you/i
+
+/(i|we) write to seek for.{1,10}partnership/i
+
+/introduce.{1,15}(business|opportunity|proposition|proposal|transaction).{1,10}to you/i
+/it.?s.{1,10}mutual.{1,10}beneficial/i
+
+/looking for.{1,10}reliable business.{1,20}in your/i
+
+/(talk to you about|regarding a potential).{1,10}business.{1,10}(opportunity|partnership)/i
+
+/discuss(ion)?.{1,10}potential.{1,10}business/i
+/discuss(ion)?.{1,20}business.{1,10}(opportunity|proposition|proposal|transaction).{1,10}(i believe|with you)/i
+/discuss(ion)?.{1,20}business.{1,10}mutual benefits/i
+/discuss(ion)?.{1,10}vital proposal with you/i
+/discuss(ion)?.{1,10}with you regarding.{1,10}(opportunity|proposition|proposal|transaction)/i
+
+/regarding (my|our) project.{1,10}in your country/i
+
+/share.{1,10}(business|investment).{1,15}(opportunity|proposition|proposal|transaction) with you/i
+/share.{1,10}this confidential deal/i
+/share.{1,10}with you.{1,15}business.{1,10}insights/i
+/share.{1,10}with you.{1,10}if you are interested.{1,10}reply/i
+/share.{1,10}with you.{1,15}(pending|remunerative).{1,15}business/i
+
+/secret private business/i
+/seek your attention.{1,10}joint partnership/i
+/serious.{1,10}(opportunity|proposition|proposal|transaction).{1,10}to discuss.{1,10}with you/i
+
+/e?.?mail about.{1,10}profitable idea/i
+
+/mutually.{1,15}(beneficial|business).{1,15}opportunity/i
+/mutual confidential offer/i
+
+/urgent.{1,10}business proposal.{1,10}to you/i
+/urgent.{1,10}opportunity/i
+
+/our investors are seeking.{1,10}business/i
+/offer you a.{1,10}busiпess proposal/i
+
+/you about.{1,10}existing.{1,10}(business|investment).{1,15}(opportunity|proposition|proposal|transaction)/i
+/you about.{1,10}business prospect/i
+
+/you are willing.{1,10}collaborate with me/i
+/you be interested in.{1,10}private.{1,10}proposal/i
+
+/you for.{1,15}business.{1,10}transaction/i
+/you for.{1,15}immediate business/i
+/you for.{1,15}opportunity.{1,10}that will benefit us both/i
+/you for.{1,15}potential.{1,10}business.{1,10}partnership/i
+
+/you regarding.{1,10}promising.{1,10}business.{1,10}(opportunity|proposition|proposal|transaction)/i
+
+/your consent to carry on.{1,10}business/i
+/your consent to discuss.{1,10}confidential/i
+
+/your.{1,10}e?.?mail.?address for.{1,10}business.{1,10}(opportunity|proposition|proposal|transaction)/i
+/your.{1,10}help is needed.{1,10}succeed.{1,10}business/i
+/your.{1,10}partnership.{1,10}financial.{1,10}business/i
+
+#
+/just wondering.{1,10}we can partner/i
+/joint partnership.{1,10}reply/i
+
+/would be mutually beneficial for both of us/i
+
+#
+#
+#
+
+# Unclassified
+# ------------------------------------------------------------------------------
+
+# Masked
+# ------------------------------------------------------------------------------

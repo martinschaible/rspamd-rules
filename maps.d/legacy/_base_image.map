@@ -1,0 +1,81 @@
+# ==============================================================================
+# Base: Image
+#
+# ----|
+#  10 |
+# ==============================================================================
+
+# Image with a deep path
+# ------------------------------------------------------------------------------
+# Sample: .com/20/3863/13270/UgGdXeQVQ.jpg
+#         .com/4/12522/61826/UDctgbliswq.jpg
+/\.com\/\d{1,5}\/\d{2,5}\/\d{2,5}\/[a-z]{4,20}\.(jpg|png)/i
+
+
+# Image with a very long filename and an exotic TLD
+# ------------------------------------------------------------------------------
+/\.(biz|life)\/[a-z0-9]{15,25}\.(jpg|png)/i
+
+# Image with a very long filename
+# ------------------------------------------------------------------------------
+# Sample: 
+
+# Image with a very deep path
+# ------------------------------------------------------------------------------
+# Sample: .com/20/3863/13270/UgGdXeQVQ.jpg
+/\.com\/\d{2,5}\/\d{2,5}\/\d{2,5}\/[a-z]{4,20}\.(jpg|png)/i
+
+# Image with an exotic TLD
+# ------------------------------------------------------------------------------
+/\.(sa|za)\.com\/images\/[a-z0-9]{5,25}\.(jpg|png)/i
+/\.co\.mz\/[a-z0-9]{5,25}\.(jpg|png)/i
+/\.in\.net\/[a-z0-9]{5,25}\.(jpg|png)/i
+
+# Image with 1 pixel height
+# ------------------------------------------------------------------------------
+/\.(jpg|png).? \/><img height=(3d)?.?1.{0,10}src={0,10}http:\/\//i
+
+/<img height=(3d)?.?1.? src=(3d)?.{0,10}http:\/\//i
+
+#/alt=3d'' width=3d'1' height=3d'1' border=3d'0'/i
+
+/<img style=(3d)?.?height:.?1px !important; width:.?1px !important;/i
+
+# Image with 1 pixel height/width and no SSL
+# ------------------------------------------------------------------------------
+/<img width=(3d)?.?1px.{0,10}height=(3d)?.?1px.{0,10}alt=.{0,10}src=.{0,10}http:\/\//i
+
+# Sample: .za.com/clicks/img/tupitea.png
+/\/clicks\/img\/[a-z0-9]{5,15}\.(jpg|png)/i
+
+# Image used a text (Image only Mail)
+# ------------------------------------------------------------------------------
+# Sample: https://files.hawkbull.de/page.png
+/\.de\/page\.(jpg|png)/i
+
+# Image without SSL
+# ------------------------------------------------------------------------------
+/<img alt=(3d)?.?[a-z0-9]{5,25}.{1,10}src=.{0,10}http:\/\//i
+
+# Image names
+# ------------------------------------------------------------------------------
+/\d{1,10}_img\d\.(jpg|png)/i
+
+/(mature|milf).?\d\.(jpg|png)/i
+
+/unsubscribe\.(jpg|png)/i
+
+# Image with lower/Uppercase letters.
+# This ruel might maybe a bit silly.
+# Sample: UxkNpcKM.jpg
+/[A-Z]{1,2}[a-z]{1,2}[A-Z]{1,2}[a-z]{1,2}[a-z]{1,2}[A-Z]{1,2}[A-Z]{1,2}\.jpg
+
+# Image domains
+# ------------------------------------------------------------------------------
+
+# CSS
+/url\(.?https:\/\/i\.imgur\.com\//i
+
+# HTML attribute
+/src=(3d)?.?https:\/\/i\.imgur\.com\//i
+/src=(3d)?.?https:\/\/(blogger|ci3)\.googleusercontent\.com\//i

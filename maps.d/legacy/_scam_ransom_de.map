@@ -1,0 +1,84 @@
+# ==============================================================================
+# Scam: Ransom
+#
+# ----|
+# 1.1 |
+# ----|----------------|
+#  10 | German         |
+# ==============================================================================
+
+# Ransom
+# ------------------------------------------------------------------------------
+/ich bin ein hacker/i
+/ich bin ein professioneller hacker/i
+
+/ich.{1,10}auf alle controller.{1,10}ihren geräten zugreifen/iu
+/ich auf alle daten auf deinem.{1,15}zugreifen/iu
+/ich beobachte sie.{1,15}seit einigen monaten/i
+
+/ich habe eine kopie.{1,15}webcam/i
+/ich habe installiert.{1,10}trojan/i
+
+/habe ich.{1,10}zugriff auf.{1,10}dateien/i
+/habe ich.{1,10}unbefugten zugriff/i
+
+# Malware
+/(trojaner|virus) hat mir.{1,10}zugriff auf ihre dateien/i
+
+/dieser virus ermöglichte mir/iu
+
+/ich erfolgreich den trojaner.?virus/i
+/ich habe einen trojaner in den betriebssystemen/i
+
+/ihr gerät mit meinem privaten/iu
+/ihnen besuchte web.?site mit einem trojaner/i
+/installierte ich.{1,10}trojaner erfolgreich/i
+/installierte ich.{1,10}trojaner.?virus/i
+
+/mein (trojaner|virus) (hat|ist)/i
+/meine spyware ist/i
+/meinem privaten trojaner/i
+
+/sie für.{1,10}internet.?browsing.{1,10}verwenden/i
+
+/zugang zu den geräten.{1,10}einsetzen/iu
+#
+/daten wurden auf meine.{1,10}server kopiert/i
+
+/bedeutet.{1,10}dass ich absolut alles auf/i
+/lassen sie mich.{1,20}was das.{1,10}bedeutet/i
+
+# Make pressure and fear
+/sollte ich feststellen.{1,10}dass sie diese/i
+/was ich tun muss.{1,10}dieses Video/i
+
+#
+/ich sehe ihren bildschirm/i
+/seitdem verfolge ich.{1,10}ihre.{1,10}online/i
+
+# Payment
+# ------------------------------------------------------------------------------
+/euro? an meine? bitcoin.?(adresse|wallet)/i
+/meine? (btc|bitcoin).?(adresse|brieftasche|geldbörse|wallet) sieht so aus/i
+/meine? (btc|bitcoin).?(adresse|brieftasche|geldbörse|wallet).{1,10}(btc|bitcoin).?wallet.{1,10}lautet/i
+/meine? (btc|bitcoin).?(adresse|brieftasche|geldbörse|wallet).{1,15}zahlung/i
+
+/unten ist meine? bitcoin.?(adresse|wallet)/i
+
+/überweise.{1,10}eur.{1,25}auf mein (btc|bitcoin).?wallet/iu
+/überweisen sie einfach.{1,10}usd/i
+/btc an die.{1,10}adresse unten/i
+
+/sie ganz einfach.{1,10}bitcoin.{1,10}kaufen/i
+/sie müssen mir.{1,10}euro überweisen.{1,10}bitcoin.?gegenwert/i
+
+#
+#
+#
+
+# Unclassified
+# ------------------------------------------------------------------------------
+/habe alle ihre kontakte.{1,10}verwandte/i
+
+# Masked
+# ------------------------------------------------------------------------------

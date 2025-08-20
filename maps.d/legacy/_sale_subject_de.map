@@ -1,0 +1,315 @@
+# ==============================================================================
+# Sale: Subject
+#
+# ----|----------------|
+#  10 | German         |
+# ==============================================================================
+
+# Sale
+# ==============================================================================
+
+# Air Conditioning
+# ------------------------------------------------------------------------------
+/jetzt.{1,15}klima.?(anlage|geräte?).{1,10}kaufen/i
+/(echtes?|hitze|lieferbar|sommerhit|ventilatoren).{1,15}klima.?(anlage|geräte?)/i
+
+# Alcohol Tester
+# ------------------------------------------------------------------------------
+/alkohol.?tester/i
+
+# Beanbag
+# ------------------------------------------------------------------------------
+/bean.?bag.{1,10}sitzkissen/i
+
+# Coffee
+# ------------------------------------------------------------------------------
+/kaffee.?vollautomat(en)?.{1,10}firmen/i
+/firmen.{1,10}kaffee.?vollautomat(en)?/i
+
+# Dog bed
+# ------------------------------------------------------------------------------
+/haustierbett(en)?.{1,10}tiefpreis(en)?/i
+
+# Chair
+# ------------------------------------------------------------------------------
+/(büro|massage).?(sessel|stuhl|stühle).{1,15}(eingebauter|integrierter|komfort|massage|walnussholz)/iu
+/(büro|massage).?(sessel|stuhl|stühle).{1,25}(erhältlich|netto|nur|reduziert|statt|testen|top.?design|zugreifen)/iu
+/(büro|massage).?(sessel|stuhl|stühle).{1,15}(sonder|spezial).?preis/i
+/(büro|massage).?(sessel|stuhl|stühle).{1,15}für (nur|\d{3})/i
+/(büro|massage).?(sessel|stuhl|stühle).{1,15}nur.{1,10}zzgl/i
+
+/leder.{0,10}(sessel|stuhl|stühle)/iu
+
+/(aktion|angebot).{1,20}(büro|massage).?(sessel|stuhl|stühle)/iu
+/(elegante|eleganz|ergonomische|lager).{1,20}(büro|massage).?(sessel|stuhl|stühle)/iu
+/(revolution|revolutionäre).{1,15}(büro|massage).?(sessel|stuhl|stühle)/iu
+/sichern sie sich.{1,20}(büro|massage).?(sessel|stuhl)/iu
+
+/(design|highlight|komfortabel|leder|neuer|office|premium|stilvolle|ultimativen|unsere|traum|walnussholz).{1,20}(büro|massage).?(sessel|stuhl|stühle)/iu
+/nur jetzt.{1,20}(büro|massage).?(sessel|stuhl|stühle)/iu
+/nur.{1,10}euro?.{1,20}(büro|massage).?(sessel|stuhl|stühle)/iu
+
+/(besucher|chef|dreh|leder|relax).{0,15}(sessel|stuhl)/i
+/(ergonomischer|mit dem|xxl).{1,15}(sessel|stuhl)/i
+/massage.{0,10}büro.?stuhl/i
+/traumstuhl/i
+
+#
+/(höhenverstellbarer|teleskop).?hocker/i
+/hocker.{1,10}jetzt nur.{1,10}statt/i
+
+# Cleaning
+# ------------------------------------------------------------------------------
+/mit diesem reinigungstipp/i
+/senkt ihre rechnungen/i
+
+#E-Bike
+# ------------------------------------------------------------------------------
+/(innovatives|perfektes?).{1,10}e.?bike/i
+/(jetzt|den).{1,10}urban cruiser/i
+
+/urban cruiser.{1,15}(lieferung|ist da|schnell|verfügbar|wartet)/i
+
+# Energy Saver
+# ------------------------------------------------------------------------------
+/(gerät|gerat).{1,20}sie ihre rechnungen/i
+/(gerät|gerat).{1,20}stromrechnung/i
+
+# Fans
+# ------------------------------------------------------------------------------
+/ventilatoren.{1,10}deckenventilatoren/i
+
+# Flags
+# ------------------------------------------------------------------------------
+/(premium|teleskop|xxl).{1,10}(fahnen|flaggen).?mast/i
+
+/(fahnen|flaggen).?mast.{1,20}jetzt.{1,10}(nur|statt)/i
+/(fahnen|flaggen).?mast.{1,10}mit.{1,15}(fahne|flagge)/i
+/(fahnen|flaggen).?mast.{1,10}sonderangebot/i
+
+/fahne.{1,20}jetzt für nur/iu
+
+/deutschlandfahne/i
+
+# Furniture
+# ------------------------------------------------------------------------------
+/gartenmöbel.?set nur.{1,10}statt/iu
+/polyrattan sitzgruppe/i
+/sitzgruppe.{1,10}für nur/iu
+
+# Gartenhaus
+# ------------------------------------------------------------------------------
+/(elegantes|metall).{1,15}gartenhaus/i
+
+# Grill
+# ------------------------------------------------------------------------------
+/mit unserem Grill/i
+/grill.{1,10}statt.{1,10}nur/i
+
+# Generator
+# ------------------------------------------------------------------------------
+/(benzin|mobiler|lohnt sich|vielseitiger).{1,15}stromgenerator/i
+/stromgenerator.{1,10}(für nur|sonderpreis)/iu
+
+# Heater
+# ------------------------------------------------------------------------------
+/tragbares?.?heizgeräte?/iu
+/heizgerät.{1,10}geld spart/i
+
+# Knives
+# ------------------------------------------------------------------------------
+/authentischen?.{1,10}japanischen?.{1,10}messern?/i
+
+# Lamp
+# ------------------------------------------------------------------------------
+/beleuchtung.{1,15}fokussiert/i
+/perfekt.{1,15}beleuchtet/i
+/perfektes.{1,15}licht/i
+
+/lampe.{1,15}(arbeiten|produktivität)/iu
+
+# LED
+# ------------------------------------------------------------------------------
+/leuchte.{1,15}jeden Raum/i
+/leuchte.{1,15}statt.{1,15}jetzt für nur/i
+/deckenleuchte.{1,10}lichtfarben/i
+/(perfekte|stark reduziert).{1,10}led.?leuchte/i
+
+# Mats
+# ------------------------------------------------------------------------------
+/(sauberlauf|schmutzfang).?matten/i
+
+# Night Vision Scope
+# ------------------------------------------------------------------------------
+/unser.{1,10}nachtsichtgerät/i
+
+# Pen
+# ------------------------------------------------------------------------------
+/(innovative|neue).{1,15}antihaftbeschichtung/i
+
+/(kugelschreiber|kuli).{1,15}(begeistern|bestpreis|individuellem|schon ab|testen|warten auf sie)/i
+/(kugelschreiber|kuli) mit.{1,15}(branding|logo|ihrem logo|personalisiertem)/i
+
+/kugelschreiber.?muster/i
+
+/(branded pens|firmenkugelschreiber|sponsorenstifte)/i
+
+# Plants
+# ------------------------------------------------------------------------------
+/(eleganz|lieferbar|pflegefreie|setzen sie auf|sparen).{1,15}kunstpflanzen/i
+
+/(bäume|palmen).{1,15}(sonderpreis|und mehr)/iu
+
+/(bäumen?|pflanzen).{1,10}mini.?preisen/i
+/(bäumen?|pflanzen).{1,15}(budget schonen|geld sparen|investition|sparwunder|vorteil)/i
+/(bäumen?|pflanzen).{1,15}radikalen? preisen?/i
+/(bäumen?|pflanzen).{1,15}warten auf Sie/i
+
+/sonderpreise auf.{1,15}pflanzen/i
+
+# Power Generator
+# ------------------------------------------------------------------------------
+/generator.{1,15}unterwegs/i
+/(der|entdecken|sichern sie|unser).{1,25}generator/i
+/850w.{1,15}generator/i
+
+# Pumps
+# ------------------------------------------------------------------------------
+/preiswerte pumpen/i
+/wasserpumpe für nur/iu
+
+# Schneeschieber
+# ------------------------------------------------------------------------------
+/unser.{1,10}schneeschieber/i
+/schneeschieber wartet/i
+
+# Screw drivers
+# ------------------------------------------------------------------------------
+/schrauben.?zieher.?sets/i
+
+# Software (illegal)
+# ------------------------------------------------------------------------------
+/(excel|word).{1,10}ohne laufende kosten/i
+/ihre office programme.{1,10}(excel|word)/i
+
+# Surveillence Camera
+# ------------------------------------------------------------------------------
+/unsere (erschwingliche|kabellose|neue).{1,20}kamera/i
+/(jetzt mit|sorgenfreie).{1,20}kamera/i
+
+/überwachung.{1,15}(sichern sie|sonderangebot|sonderpreis)/iu
+
+/jetzt mit.{1,15}überwachungskamera/i
+/ihr neues.{1,10}sicherheits.?system/i
+
+# Starthilfe
+# ------------------------------------------------------------------------------
+/(multi|power).{1,10}(powerbank|starthilfe)/i
+
+# Suitcases
+# ------------------------------------------------------------------------------
+/reise.?koffer.{1,10}nur.{1,15}netto/i
+
+# Surveillance Camera
+# ------------------------------------------------------------------------------
+/(ihre|premium|top|unsere).{1,10}(überwachungs|wlan).?kamera/iu
+/(überwachungs|wlan).?kamera.{1,10}(jetzt nur|für) (\d{2,3}|nur)/iu
+
+# Tables
+# ------------------------------------------------------------------------------
+/schreibtische.{1,10}neu.{1,10}statt/i
+
+# Translation Service
+# ------------------------------------------------------------------------------
+/übersetzungsfirma bietet/iu
+
+# Trolley & Tools
+# ------------------------------------------------------------------------------
+/werkzeuge?.{1,10}(die begeistern|komplettes set|schnäppchen)/i
+
+/werkzeug.?set.{1,15}(dramatisch|stark) reduziert/i
+/werkzeug.?set.{1,15}(handwerker|schnäppchen|sonderpreis|unschlagbar|wartet)/iu
+/werkzeug.?set.{1,10}(für \d{3}|jetzt nur)/i
+/werkzeug.?set.{1,10}(trolley|wagen)/i
+/werkzeug.?set.{1,10}\d{3,4} (teilen|teilig)/i
+/werkzeug.?set.{1,10}teile.{1,10}nur/i
+
+/(angebot|alarm|exklusiv|hochwertiges|komplettes|neues|premium|professionelles|teiliges|ultimatives|zugreifen).{1,15}werkzeug.?set/i
+
+/(angebot|ein|geniales|unser|riesiges).{1,10}werkzeug.?set/i
+/(angebot|kompletter|rabatt).{1,10}werkstattwagen/i
+
+/praktischen.{1,10}trolleykoffer/i
+/teiliges set für nur/iu
+
+#
+/jetzt zugreifen.{1,15}werkzeuge/i
+/werkzeuge.{1,10}ab \d{2}/i
+
+# Tischkicker
+# ------------------------------------------------------------------------------
+/tischfußball.{1,10}(aktion|angebot|highlight|perfekt)/i
+/tischfußball.{1,10}für nur/i
+
+/tischfußballtisch.{1,10}für nur/iu
+/tischfußballtisch.{1,10}für.{1,10}statt/iu
+/(hightlight|professioneller|profi).{1,10}tischfußballtisch/iu
+
+/(faszination|sparen sie).{1,20}tischfußball/i
+
+/(tisch|turnier).?kicker.{1,10}(erschwinglich|top.?preis)/i
+/(tisch|turnier).?kicker.{1,10}für \d{3}/i
+
+/(kleiner preis|ihren|neuen|neuer).{1,10}(tisch|turnier).?kicker/i
+
+#
+#
+#
+
+# Address lists for spamming, EMail Marketing
+# ------------------------------------------------------------------------------
+/(dienstleistung|informationen).{1,10}e?.?mail.?marketing/i
+/unsere.{1,10}deutschland.{1,10}datenbank/i
+/datenbank von unternehmen/i
+
+# Leads
+# ------------------------------------------------------------------------------
+/mit gezielten leads/i
+
+# Developing Websites
+# ------------------------------------------------------------------------------
+/web.?design.{1,10}entwicklung/i
+/kreative website.{1,10}wartung/i
+
+/(web.?site|home.?page) erstellen.{1,10}entwickeln/i
+
+# Shop
+/benötigen sie einen.{1,10}online.?shop/iu
+
+# SEO
+# ------------------------------------------------------------------------------
+/oben auf.{1,10}google/i
+/google.?seite/i
+
+/1\. seite bei google/i
+
+/professionell.{1,10}seo.?services?/i
+/seo.?service.?(angebot|plan|pläne|vorschlag)/i
+
+# Google Reviews
+# ------------------------------------------------------------------------------
+/google.{1,10}festpreis/i
+/entfernung bei google/i
+
+/(entfernen|löschen).{1,15}bewertungen/i
+
+/festpreis.{1,15}(je|pro) erfolg/i
+
+/(ihnen|ihre) google.?(bewertungen|einträge)/i
+
+# Offer to sell vehicles
+# ------------------------------------------------------------------------------
+/ankauf von.{1,10}(auto|fahrzeug|lkw|pkw)/i
+/kaufen.{1,10}jede art von.{1,10}(auto|fahrzeug|lkw|pkw)/i
+
+/an den fuhrparkleiter/i

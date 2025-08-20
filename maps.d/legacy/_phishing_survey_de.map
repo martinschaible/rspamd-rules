@@ -1,0 +1,61 @@
+# ==============================================================================
+# Phishing: Surveys
+#
+# ----|
+# 1.1 |
+# ----|----------------|
+#  10 | German         |
+# ==============================================================================
+
+# Surveys
+# ------------------------------------------------------------------------------
+/umfrage.{1,10}abgeschlossen.{1,20}dir.{1,10}gratulieren/i
+/umfrage.{1,10}aus.{1,10}und.{1,10}sie ihren gewinn/i
+/umfrage.{1,10}beantworten/i
+/umfrage.{1,10}gewinnen sie/i
+/umfrage.{1,10}helfen sie uns.{1,10}unseren service/i
+/umfrage.{1,10}ihre meinung.{1,15}sichern sie/i
+/umfrage.{1,10}jetzt zu starten/i
+/umfrage.{1,10}registrierung.{1,10}bestätigt/i
+/umfrage.{1,10}schenkt ihnen ein/i
+/umfrage.{1,15}sichern Sie sich Ihre/i
+/umfrage.{1,10}teilgenommen.{1,10}jetzt sind sie/i
+/umfrage.{1,10}teil(zu)?nehmen.{1,10}haben sie die möglichkeit/iu
+/umfrage.{1,10}teil(zu)?nehmen.{1,10}einen fantastischen preis/i
+
+/antworten und gewinnen/i
+
+/anspruch geltend zu machen.{1,10}beantworten sie.{1,10}die folgenden/i
+/anspruch zu nehmen.{1,10}nehmen sie.{1,15}an dieser.{1,10}umfrage/i
+
+/fragen.{1,10}alle teilnehmer haben die chance auf/i
+/fragen.{1,10}sichern sie sich ihr geschenk/i
+/fragen.{1,10}zu beantworten.{1,10}bevor wir die belohnung/i
+
+/jetzt.{1,10}an der.{1,10}umfrage teilnehmen/i
+/minuten teil.{1,10}erhalten sie einen fantastischen preis/i
+
+/sie.{1,10}an unserer umfrage teilgenommen haben/i
+/sie.{1,10}an unserer kurzen umfrage teilnehmen/i
+/sie.{1,10}eine kurze umfrage/i
+/sie.{1,10}(dazu|einfach).{1,15}kurze umfrage/i
+/sie.{1,10}haben.{1,10}minuten.{1,10}um die folgenden fragen zu beantworten/i
+/sie.{1,10}wurden ausgewählt.{1,10}um an unserer umfrage/iu
+
+/als dankeschön haben sie die chance/iu
+/auserwählten.{1,10}(die|eine).{1,15}umfrage/iu
+/an unserer kurzen.{1,10}umfrage teilzunehmen/i
+/einige fragen.{1,10}erhalten.{1,10}sie ihr/i
+/geltend zu machen.{1,10}nehmen sie.{1,15}an dieser.{1,10}umfrage/i
+/kostenlos.{1,10}es dauert nur eine minute/i
+/kostenlosen kundenumfrage/i
+/qualifizieren.{1,10}müssen sie.{1,10}die folgenden.{1,10}ragen/i
+/wurde ihre e?.?mail.?adresse ausgewählt/iu
+
+/lohnenswerten?.{1,10}umfrage.{1,10}teilzunehmen/i
+
+/ihr name wurde für.{1,15}umfrage zu.{1,20}vorgeschlagen/iu
+
+/ergebnisse unserer wöchentlichen.{1,20}umfrage sind da/i
+
+/gewinner unserer neuesten umfrage/i

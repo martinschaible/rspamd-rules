@@ -1,0 +1,422 @@
+# ==============================================================================
+# Phishing: Related to Accounts
+#
+# ----|----------------|
+#  10 | German         |
+# ==============================================================================
+
+# Account
+# ------------------------------------------------------------------------------
+/(lieber (kunde|nutzer)|sehr geehrte damen und herren).{1,10}betrügerische aktivitäten/iu
+/(lieber (kunde|nutzer)|sehr geehrte damen und herren).{1,10}ihr.{1,25}konto/i
+/(lieber (kunde|nutzer)|sehr geehrte damen und herren).{1,10}um die sicherheit ihres.{1,15}kontos/i
+/(lieber (kunde|nutzer)|sehr geehrte damen und herren).{1,10}wir haben.{1,10}(dein|ihr).{1,15}konto/i
+/(lieber (kunde|nutzer)|sehr geehrte damen und herren).{1,10}wir haben ungewöhnliche/iu
+
+/wir haben festgestellt.{1,15}ihrer?.{1,15}konto.?informationen/i
+
+/button auf ihr.{1,15}konto zuzugreifen/i
+
+# Account - Locking
+# ------------------------------------------------------------------------------
+/konto.{1,10}auf den neuesten stand bringen/i
+/konto.{1,20}ausgesetzt.{1,10}bis eine.{1,20}stattfindet/i
+/konto.{1,15}bei.{1,15}verknüpft ist.{1,15}nicht für die nutzung/iu
+/konto.{1,10}eine sperrung ihres kontos zu vermeiden/i
+/konto.{1,10}einige fehlende informationen/i
+/konto.{1,10}gesperrt wird.{1,10}wenn diese aktualisierung/i
+/konto.{1,10}läuft gefahr.{1,10}gesperrt zu werden/i
+/konto.{1,10}sicherheitsgründen bald abläuft/iu
+/konto.{1,10}unserer vorherigen erinnerungen/i
+/konto.{1,15}vervollständigen sie die erforderlichen/iu
+/konto.{1,15}vorübergehend gesperrt/iu
+/konto.{1,15}wurde aufgrund von.{1,15}fehlern gesperrt/i
+
+/konten müssen aktualisiert werden/iu
+
+/kontodaten jetzt verifizieren/i
+/kontodetails aktualisieren/i
+/kontoproblems.{1,10}(temporär|vorübergehend).{1,10}(blockiert|gesperrt) wurde/iu
+
+/anmeldung ihres.{1,15}kontos wird gesperrt/i
+/anforderungen.{1,10}haben wir ihr konto.{1,25}gesperrt/i
+
+/bis dahin sind.{1,15}funktionen.{1,25}kontos eingeschränkt/iu
+
+/eingeschränkten zugriff auf ihr.{1,15}konto/iu
+/gesperrt.{1,10}da ein update/i
+
+/ignorieren.{1,10}kann dies zu einer.{1,25}sperrung/i
+/ignorieren.{1,10}wird ihr.{1,15}konto gesperrt/i
+
+/informationen.{1,10}um eine sperrung ihres.{1,15}kontos/i
+
+/ihr.{1,15}konto.{1,15}aufgrund der fehlenden bestätigung/iu
+/ihr.{1,15}konto.{1,15}gefahr läuft/iu
+/ihr.{1,15}konto.{1,10}indem sie innerhalb von/i
+/ihr.{1,15}konto.{1,10}innerhalb von.{1,10}stunden gesperrt werden/i
+/ihr.{1,15}konto.{1,10}ist.{1,10}aufgrund.{1,10}fehlgeschlagenen updates/i
+
+/ihr.{1,15}konto.{1,10}ist.{1,10}(dauerhaft|derzeit|möglicherweise|vorübergehend).{1,10}(ausgesetzt|eingeschränkt|begrenzt|gesperrt)/iu
+/ihr.{1,15}konto.{1,10}ist.{1,10}noch nicht aktualisiert/i
+
+/ihr.{1,15}konto.{1,10}ist.{1,10}(ausgesetzt|begrenzt|eingeschränkt|gesperrt).{1,10}bis/iu
+/ihr.{1,15}konto.{1,10}ist.{1,10}(ausgesetzt|begrenzt|eingeschränkt|gesperrt).{1,10}aktualisieren sie ihre zahlungsdetails/i
+/ihr.{1,15}konto.{1,10}ist.{1,10}(ausgesetzt|begrenzt|eingeschränkt|gesperrt).{1,10}um es.{1,10}(online|wieder).{1,10}zu aktivieren/iu
+/ihr.{1,15}konto.{1,10}ist.{1,10}begrenzt/i
+
+/ihr.{1,15}konto.{1,10}kompromittiert wurde.{1,10}ihre karte/i
+
+/ihr.{1,15}konto.{1,10}überprüfen.{1,15}aktualisieren/iu
+/ihr.{1,15}konto.{1,10}sicherheitsgründen.{1,10}vorübergehend.{1,10}(ausgesetzt|eingeschränkt|begrenzt|gesperrt)/iu
+/ihr.{1,15}konto.{1,10}sperren.{1,10}bis wir ihre identität/iu
+
+/ihr.{1,15}konto.{1,15}vorübergehender sperrung zu schützen/iu
+/ihr.{1,15}konto.{1,15}vorübergehende beschränkung/iu
+/ihr.{1,15}konto.{1,10}vorübergehend.{1,10}sicherheitsgründen.{1,10}(ausgesetzt|eingeschränkt|begrenzt|gesperrt)/iu
+/ihr.{1,15}konto.{1,15}vorübergehend (de.?aktiviert|gesperrt)/i
+/ihr.{1,15}konto.{1,10}vorsorglich sperren/i
+/ihr.{1,15}konto.{1,10}vorübergehend (eingeschränkt|einzuschränken)/i
+
+/ihr.{1,15}konto.{1,10}wird bald gesperrt/i
+/ihr.{1,15}konto.{1,10}wird gesperrt.{1,15}aktualisieren sie ihre zahlungsdaten/i
+/ihr.{1,15}konto.{1,10}wird in diesem stadium blockiert/i
+
+/ihr.{1,15}konto.{1,10}zu ihrem eigenen schutz gesperrt haben/i
+/ihr.{1,15}konto.{1,10}zu schützen.{1,10}müssen wir sicherstellen/iu
+
+/ihre.{1,15}konto.?informationen zu aktualisieren/i
+/ihre.{1,10}kundendaten sind (abgelaufen|veraltet)/i
+
+/ihr.{1,15}vertrag.{1,10}wird vorübergehend ausgesetzt/iu
+
+/sicherheitsgründen.{1,10}wir den zugriff auf ihr.{1,15}konto gesperrt/iu
+
+/anmeldeversuchs vorübergehend gesperrt wurden?/iu
+
+/wir haben.{1,15}zugriff eingeschränkt/iu
+/wir vorsorglich ihr.{1,15}konto sperren/i
+/wir mussten.{1,15}konto.?funktionen einschränken/iu
+/wir ihr.{1,15}konto vorübergehend gesperrt/iu
+
+/wurde aufgrund.{1,15}abrechnungsfehler gesperrt/iu
+
+/einige ihrer konto.?funktionen eingeschränkt/iu
+
+/sicherheitsgründen gesperrt.{1,10}sehr geehrter kunde/i
+
+/sperren ihr.{1,15}konto zu ihrem schutz.{1,10}bis wir von ihnen hören/iu
+
+/nicht abgeschlossen haben.{1,10}wird ihr.{1,15}konto gesperrt/i
+
+/grund für die aussetzung.{1,10}unser abrechnungs.?system/iu
+
+/zugriff auf ihr.{1,15}konto wurde eingeschränkt/iu
+
+# Account - Confirm or reconfirm identity
+# ------------------------------------------------------------------------------
+/aktualisieren sie.{1,10}ihre.{1,10}konto.?(daten|informationen)/i
+/aktualisieren sie ihr.{1,15}konto/i
+/aktualisieren sie ihr.{1,15}profil.{1,10}um diese einschränkungen aufzuheben/iu
+/aktualisieren sie ihre.{1,10}persönlichen daten/iu
+
+/bestätigen sie.{1,10}ihre.{1,10}konto.?daten/iu
+/bestätigen sie.{1,10}ihre.{1,10}daten so bald wie möglich/iu
+/bestätigen sie.{1,10}mein konto/i
+
+/bestätigen.{1,10}dass sie der konto.?inhaber sind/iu
+/bestätigung ihrer.{1,10}aktuellen daten durchgeben/iu
+/bestätigung ihrer.{1,10}identität erforderlich/iu
+
+/konto.?(daten|informationen).{1,10}daher vorsorglich bestätigen/iu
+/konto.?(daten|informationen).{1,10}lieber kunde/i
+/konto.?(daten|informationen).{1,10}wir im system hinterlegen/iu
+/konto.?inhaber.{1,10}regelmä(ss|ß)igen abständen eine.{1,10}bestätigung/iu
+
+/kontaktinformationen auf unserer website/i
+/ausgesetzt.{1,10}aktualisieren sie ihr profil/i
+
+/gesperrt.{1,10}bis diese aktualisierung/i
+/deaktiviert.{1,10}bis ihre daten aktualisiert sind/i
+/direkt identifizieren/i
+
+/erforderlich.{1,20}(konto|kontaktdaten) zu (aktualisieren|überprüfen)/iu
+
+/haben sie ihre daten nicht bestätigt/iu
+/handeln sie.{1,10}um eine unterbrechung.{1,20}konto/i
+
+/identifikation vor ablauf der frist zu erneuern/i
+
+/(button|link).{1,15}um ihre informationen{1,10}zu aktualisieren/i
+/(button|link).{1,15}um ihr.{1,15}konto erneut zu aktivieren/i
+
+/ihr.{1,15}(konto|profil).{1,10}aktualisieren.{1,10}um.{1,15}(sicherheit|unterbrechungen)/i
+/ihr.{1,15}(konto|profil).{1,10}erneut zu reaktivieren/i
+/ihr.{1,15}(konto|profil).{1,10}verifiziert werden muss/i
+/ihr.{1,15}(konto|profil).{1,10}zu bestätigen.{1,10}Unterbrechungen/i
+/ihr.{1,15}(konto|profil) zu schützen.{1,10}sicherzustellen/i
+
+/ihre.{1,10}persönlichen daten zu aktualisieren/iu
+/ihre.{1,25}daten in unserem system aktualisieren/i
+/ihre.{1,10}daten schnell und sicher zu aktualisieren/i
+/ihre.{1,10}daten zu aktualisieren.{1,10}nach ablauf dieser frist/i
+
+/nicht.{1,10}identifikations.?prozess.{1,10}abgeschlossen/i
+/nicht.{1,10}ihre daten bei uns.{1,15}bestätigt haben/iu
+
+/überprüfen.{1,10}ändern sie ihre informationen/iu
+/überprüfen.{1,10}gegebenenfalls zu aktualisieren/iu
+
+/meine authentifizierung reaktivieren/i
+/müssen sie anhand der anleitung bestätigen/i
+
+/sie den bestätigungs.?prozess.{1,10}nicht durchlaufen haben/iu
+/sie ihre persönlichen daten bestätigen/iu
+/sie unseren? kontoüberprüfungs.?prozesse?/i
+
+/sicherzugehen.{1,10}dass ihre e?.?mail.{1,10}korrekt ist/i
+/sicherheits.?(aktualisierung|update).{1,10}ihr.{1,15}(konto|profil)/i
+
+/update ihrer konto.?nformationen erforderlich/i
+/update wartet auf.{1,10}bestätigung/iu
+/validieren sie ihre angaben/i
+
+/verpflichtet.{1,10}ihre.{1,10}aktuell(st)?en.{1,10}daten/i
+/verpflichtet.{1,10}ihre.{1,15}daten zu bestätigen/iu
+/verpflichtet.{1,10}ihre.{1,15}daten erneut zu bestätigen/iu
+/verpflichtet.{1,10}sind.{1,10}ihre.{1,15}daten.{1,20}zu bestätigen/iu
+/verpflichtende.{1,10}validierung/i
+
+/wichtige kontobenachrichtigung/i
+
+/wir einige ihrer.{1,10}konto.?informationen aktualisieren/i
+/wir sie dringend.{1,10}ihre.{1,15}daten zu überprüfen/i
+/wir.{1,15}die persönlichen daten.{1,15}kunden aktualisieren/i
+
+/zwingend erforderlich.{1,10}ihr.{1,15}konto zu aktualisieren/i
+
+/zu verhindern.{1,15}verifizierung starten/i
+
+/unterlagen zeigen.{1,10}dass die kontaktdaten ihres/i
+
+# Identity
+/aktualisieren sie ihre.{1,10}identität/iu
+/aktualisierung ihrer.{1,10}identitätsdaten/iu
+
+/identität.{1,10}sie unsere dienste nutzen/iu
+/identität verifizieren/i
+
+/ihre.{1,10}(identität|identifikation).{1,15}erneut bestätigen/i
+/ihre.{1,10}(identität|identifikation).{1,15}muss erneuert werden/i
+/ihre.{1,10}(identität|identifikation).{1,15}zu verifizieren/i
+
+/klicken und die identitätsprüfung durchführen/iu
+
+/konto.?(daten|informationen).{1,10}wir ihr.{1,10}identität bestätigen/iu
+/konto.{1,15}freigeben.{1,10}müssen sie ihre.{1,10}identität/iu
+
+/sie.{1,10}ihre.{1,10}identität zu überprüfen/iu
+
+#
+/abgleich.{1,10}mobilfunknummer.{1,10}zwingend notwendig/i
+/abgleich.{1,10}garantiert ihnen als kunde/i
+/klicken sie hier.{1,15}kontaktdaten zu aktualisieren/i
+
+# Account - Access
+# ------------------------------------------------------------------------------
+/request access to your account/i
+
+/konto.{1,10}wieder aktivieren.{1,15}wird von ihnen eine gebühr/iu
+
+# Account - Authentification
+# ------------------------------------------------------------------------------
+/ihr.{1,10}authentifizierungsdienst/i
+/authentifizierungsdienst läuft am.{1,15}ab/i
+/erneuern sie.{1,10}ihre authentifizierung/i
+
+# Account - Registration
+# ------------------------------------------------------------------------------
+/konto.{1,10}zuzugreifen.{1,10}die registrierung durchzuführen/iu
+/konto.{1,10}eine verifizierung.{1,10}ihre bankkarte erfordert/iu
+
+/alle kunden sich registrieren.{1,10}andernfalls/i
+
+/ihre registrierung.{1,10}aktualisieren/i
+
+/lieber kunde.{1,10}unser system hat festgestellt/i
+
+# Account - Verification
+# ------------------------------------------------------------------------------
+/konto einer.{1,10}verifizierung bedarf/i
+/konto zu.{1,10}verifizieren.{1,10}ihre rückerstattung/iu
+
+/anweisungen.{1,10}um den.{1,10}verifizierungsprozess/i
+/ihre verifizierung innerhalb von 24 stunden ab/i
+/ihre informationen zu bestätigen/iu
+/jetzt konto verifizieren/i
+/jetzt daten bestätigen/i
+/mitteilung.{1,10}kontoverifizierung erforderlich/i
+/online.?identifizierung für ihr.{1,20}konto/iu
+
+/stehende schaltfläche durchgeführt werden/iu
+
+/verifizierung.{1,10}ab.{1,10}um ihr konto/i
+/verifizierung.{1,10}ihres.{1,15}kontos.{1,20}ist ein fehler aufgetreten/i
+/verifizierung.{1,10}durchzuführen.{1,10}um.{1,15}zugriff wieder zu erlangen/i
+
+/verifizieren sie ihr bankkonto/i
+
+/wir sie bitten.{1,10}kontaktinformationen.{1,10}aktualisieren/i
+/wir müssen ihre.{1,10}konto.?informationen überprüfen/iu
+
+#
+/achtung.{1,10}sicherheitsprüfung erforderlich/iu
+/hallo.{1,10}bei der verifizierung/i
+
+# Account - Update & User options
+# ------------------------------------------------------------------------------
+/daten aktualisieren.{1,10}um unsere dienste weiterhin nutzen/i
+/daten unserer kunden zu überprüfen.{1,15}konto.{1,15}besitzen/iu
+
+/aktualisieren.{1,10}sie ihr.{1,15}(konto|profil)/i
+
+/aktualisierung.{1,10}ihres.{1,15}kontos erforderlich/i
+/aktualisierung.{1,10}ihres.{1,15}kontos zwingend erforderlich/i
+/aktualisierung.{1,10}ihrer.{1,10}kontaktdaten (hilft|versandt)/i
+/aktualisierung.{1,10}nutzerdaten.{1,10}hinweisen/i
+
+/anweisungen.{1,10}um die.{1,20}aktualisierung durchzuführen/iu
+/konto.{1,10}bei uns gesperrt.{1,10}aktualisieren sie ihr.{1,15}konto/i
+/konto.{1,10}mit einem.{1,15}sicherheits.?update.{1,10}ktualisieren/i
+/konto.{1,10}verknüpft ist.{1,10}aktualisiert werden muss/iu
+
+/informationen in ihrem.{1,15}konto scheinen zu fehlen/i
+/bitte aktualisieren sie ihre informationen/i
+/hinterlegten konto.?informationen aktualisiert werden/i
+
+/ohne ihre zustimmung wird ihr.{1,15}konto geschlossen/i
+
+/profilinformationen zu überprüfen/iu
+
+/auf den unten.?stehenden link.{1,10}um die aktualisierung zu starten/i
+
+/wir bitten sie.{1,15}schritte sorgfältig zu befolgen/iu
+/wichtige aktualisierung ihres.{1,15}kontos/i
+
+/zustimmen.{1,10}informiert bleiben/i
+
+# Account - Unlock
+# ------------------------------------------------------------------------------
+/schritte.{1,10}um ihr.{1,15}konto zu entsperren/i
+
+# Account - 2FA Activation
+# ------------------------------------------------------------------------------
+/jetzt 2fa aktivieren/i
+
+# Account - Payment options
+# ------------------------------------------------------------------------------
+/abonnement zu verlängern.{1,10}auf ein problem/iu
+/sie ihre zahlungsdaten aktualisieren/i
+/mit ihren zahlungsinformationen stimmt etwas nicht/i
+
+/einige probleme mit ihren aktuellen abrechnungsinformationen/i
+
+# Account - Recovery
+# ------------------------------------------------------------------------------
+/konto.{1,10}wiederherstellung erforderlich/i
+
+# Account - Warning
+# ------------------------------------------------------------------------------
+/nicht innerhalb von.{1,10}stunden ausgeführt wird/i
+/warnung.{1,15}ungewöhnliche aktivität auf ihrem konto/iu
+
+#
+#
+#
+
+# Password
+# ------------------------------------------------------------------------------
+/ihr.{1,10}passwort läuft.{1,10}ab.{1,10}ihr passwort läuft am/i
+
+/passwort.?status.{1,10}bald ablaufend/i
+
+#
+#
+#
+
+
+# Subscription, Membership
+# ------------------------------------------------------------------------------
+
+# Silly Lies
+# ------------------------------------------------------------------------------
+/bestätigungsprozess gemä.{1,10}abs.{1,10}nr/iu
+/gesetzlichen anforderungen bitten wir sie.{1,15}kontaktdaten/i
+/unseres systems ist es uns aufgefallen/i
+/informationen zu ihrem.{1,15}konto.{1,15}fehlen/i
+
+/basisdaten ihres unternehmens jährlich zu überprüfen/iu
+/ihr.{1,15}konto.{1,10}ein problem aufweist/i
+/ihre daten korrekt.{1,10}aktuell sind/i
+
+/persönlichen daten unvollständig übermittelt wurden/iu
+/problem mit den mit ihrem.{1,15}konto/i
+
+/unser sicherheitssystem hat verdächtige aktivitäten/iu
+/unsere server.{1,15}den neuen vorschriften/i
+
+/sie die unten.?stehende.{1,10}e?.?mail wegen einem systemfehler/i
+
+/wir ein spezielles programm eingerichtet.{1,10}sicherzustellen/i
+/wir eine unstimmigkeit bezüglich der informationen ihres.{1,10}kontos/iu
+/wir gesetzlich verpflichtet.{1,10}jährlich die unternehmensdaten/iu
+/wir unsere sicherheitsrichtlinien verbessert/i
+
+#
+#
+#
+
+# Companies
+# ------------------------------------------------------------------------------
+
+# Apple
+/ihr apple pay wurde ausgesetzt/i
+/transaktionen vorübergehend inaktiv/iu
+
+# Facebook/Meta
+/konto nicht unseren werberichtlinien entspricht/i
+/konto aufgrund schwerwiegender.{1,15}gegen unsere community/i
+
+/dein facebook.?konto hat gegen unsere werberichtlinien/i
+/keine besserung eintritt.{1,10}löschen wir ihr konto/iu
+/wichtig.{1,10}werberichtlinien von facebook/i
+
+/ihre.{1,10}anzeigen gegen.{1,10}facebook.{1,10}werberichtlinien/i
+/ihr werbekonto nicht den werberichtlinien/i
+
+/sie können facebook nicht nutzen/iu
+
+# PayPal
+/konto keine paypal.?dienste mehr anbieten/i
+
+#
+#
+#
+
+# Unclassified
+# ------------------------------------------------------------------------------
+/aktivieren sie den untenstehenden link/i
+/bis sie ihre rechnung aktualisiert haben/i
+/heben sie diese einschränkung auf.{1,10}indem sie/iu
+
+# Masked
+# ------------------------------------------------------------------------------
+/lhr konto/i
+/lhre rückerstattung/iu
+
+/lieb&shy;er/i
+
+# Example: SehrigeehrteriKunde
+/aktivieren[a-z]{1}sie/i
+/ihre[a-z]{1}karte/i
+/sehr[a-z]{1}geehrter[a-z]{1}kunde/i

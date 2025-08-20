@@ -1,0 +1,68 @@
+# ==============================================================================
+# Phishing: Rewards
+#
+# ----|
+# 1.1 |
+# ----|----------------|
+#  10 | English        |
+# ==============================================================================
+
+# Winning, Present, Rewards, Voucher
+# ------------------------------------------------------------------------------
+/(gift.?card|reward).{1,10}opportunity/i
+/(gift.?card|reward).{1,10}you complete.{1,10}survey/i
+
+/exclusive.{1,10}reward offer.{1,10}participating/i
+
+/opportunities.{1,10}claim rewards/i
+/receive your reward.{1,10}follow the link/i
+/time for a reward/i
+
+/win a.{1,15}reward when you.{1,10}complete/i
+
+/you can earn special rewards/i
+/your gift is inside/i
+
+#
+/you.{1,10}selected for.{1,20}reward/i
+
+# Present/Surprise box
+
+# Companies, Products
+# ------------------------------------------------------------------------------
+/(ace hardware|costco).{1,10}has.{1,10}surprise for you/i
+/(ace hardware|costco).{1,10}reward has arrived/i
+
+/dewalt.{1,15}rdrill.{1,10}confirmation/i
+/(pay.?pal|set).{1,10}rewards?/i
+
+/you.{1,10}received.{1,10}target reward/i
+/your.{1,10}(ace hardware|costco).{1,10}reward/i
+
+# Choosen
+# ------------------------------------------------------------------------------
+
+# Possible winner
+# ------------------------------------------------------------------------------
+
+#
+#
+#
+
+# Unclassified
+# ------------------------------------------------------------------------------
+/you can easily get gifts/i
+/trying to reach you.{1,10}please respond/i
+
+# Masked
+# ------------------------------------------------------------------------------
+
+#
+#
+#
+
+# JAPANESE
+# ------------------------------------------------------------------------------
+
+# "Get your reward now*
+/今すぐ特典を受け取る/i

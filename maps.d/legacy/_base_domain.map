@@ -1,0 +1,71 @@
+# ==============================================================================
+# Base: Domains
+#
+# ----|
+#  10 |
+# ==============================================================================
+
+# Bad Subdomain
+# ------------------------------------------------------------------------------
+
+# Sample: https://dsqqsjkdgbjkqshdbjkqsdbhgjkqshbdjqskdqdqsdqsd.s3.us-west-1.amazonaws.com
+#/https?:\/\/[a-z0-9]{25,50}\.s3/i
+
+# Sample: https://1633472409.babarkhursheed.com
+# Too many False/Positives
+#/https?:\/\/[0-9]{4,15}\./i
+
+#
+/https?:\/\/html\./i
+
+/https:\/\/login\.secure\./i
+
+# Sample: https://aliaswater.com.au/dote/wined.com/temous/auth8/inslght-a=
+/\.com\.au\/[a-z0-9]{2,15}\//[a-z0-9]{2,15}\.com\//i
+
+# Too many Subdomains
+# ------------------------------------------------------------------------------
+
+# Sample: https://secure.login.session.54548.mailljet.com.gassi-glamour.com
+
+# 2 Subdomains
+/https:\/\/[a-z0-9-]{2,20}\.[a-z0-9-]{2,20}\.[a-z0-9-]{4,15}\.(ru|su)/i
+# Too many False/Positives
+#/https:\/\/[a-z0-9-]{2,20}\.[a-z0-9-]{2,20}\.[a-z0-9-]{4,15}\.com/i
+
+# 3 Subdomains
+#/https:\/\/[a-z0-9-]{2,20}\.[a-z0-9-]{2,20}\.[a-z0-9-]{2,20}\.[a-z0-9-]{4,15}\.com/i
+
+# 4 Subdomains
+#/https:\/\/[a-z0-9-]{2,20}\.[a-z0-9-]{2,20}\.[a-z0-9-]{2,20}\.[a-z0-9-]{2,20}.[a-z0-9-]{4,15}\.com/i
+
+# False/Positives
+# Sample: https://hgdcjdg.r.bh.d.sendibt3.com
+#/https:\/\/[a-z]{2,10}\.[a-z]{1,5}\.[a-z]{1,5}\.[a-z]{1,5}\.[a-z0-9-]{4,15}\.com/i
+
+# Really long subdomain
+# ------------------------------------------------------------------------------
+
+# Sample: https://322084jbl10003333333333.s3.us-east-1.amazonaws.com
+#/https:\/\/[a-z0-9]{20,}\./i
+
+# Bad Domain - Pattern
+# ------------------------------------------------------------------------------
+# Sample: https://$%^&.
+/https:\/\/\$%.?&\./i
+/https:\/\/\*[a-z]{1,25}\(/i
+/https:\/\/\*[a-z]{1,25}\^/i
+
+/https:\/\/[a-z]{1,25}&/i
+/https:\/\/[a-z]{1,25}\(/i
+/https:\/\/[a-z]{1,25}\^/i
+
+# Sample: https://dc-btc.cc/
+/https:\/\/[a-z]{1,10}-btc\./i
+
+/https?:\/\/keto[a-z]{1,15}\.[a-z]{2,3}/i
+/https?:\/\/links\.keto/i
+/http:\/\/bitcoin\./i
+
+# 13.12.24, sample: http://0-2-5.com/
+/https?:\/\/\d-\d-\d\./i

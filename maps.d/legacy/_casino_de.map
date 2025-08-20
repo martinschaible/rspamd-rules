@@ -1,0 +1,57 @@
+# ==============================================================================
+# Casino, Gambling
+#
+# ----|
+# 1.1 |
+# ----|----------------|
+#  10 | German         |
+# ==============================================================================
+
+# Bonus
+# ------------------------------------------------------------------------------
+/bonus.{1,15}(freispiele?|mindesteinzahlung)/i
+/bonus.?spins/i
+
+/erhalten einen kostenlosen bonus/i
+/sensationeller.{1,10}bonus.{1,10}wartet dich/i
+
+# Welcome Bonus
+/(slots|fantastischen).{1,10}willkommens.?bonus/i
+
+/willkommens.?bonus.{1,15}(bonus|bis zu|echte)/i
+
+# Casino
+# ------------------------------------------------------------------------------
+/casino.{1,10}(von zu hause aus|zu hause wartet)/i
+/casino.{1,10}spielen sie kostenlos/i
+
+/freispiele.{1,15}(anmeldung|registrierung|willkommensangebot)/i
+
+/erhalte.{1,10}freispiele/i
+/sommer.{1,10}casino.{1,10}erlebnis/i
+
+/willkommen.{1,10}online.?casino/i
+/willkommensbonus.{1,15}casino/i
+
+# Gambling
+# ------------------------------------------------------------------------------
+/top.{1,10}online.?spiele anbieten/i
+
+/tausende.{1,10}slots/i
+
+# Jackpot
+# ------------------------------------------------------------------------------
+/kostenlosen.{1,10}online.?jackpot/i
+
+# Spins and Slots
+# ------------------------------------------------------------------------------
+
+#
+#
+#
+
+# Unclassified
+# ------------------------------------------------------------------------------
+
+# Masked
+# ------------------------------------------------------------------------------

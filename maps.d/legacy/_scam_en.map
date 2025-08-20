@@ -1,0 +1,295 @@
+# ==============================================================================
+# Scam: Anything
+#
+# ----|----------------|
+#  10 | German         |
+# ==============================================================================
+
+# Intros, strange stories
+# ------------------------------------------------------------------------------
+
+#
+#
+#
+
+# Abandoned stuff
+# ------------------------------------------------------------------------------
+/consignment was abandoned/i
+/i discovered.{1,10}abandoned shipment/i
+
+# Assistance
+# ------------------------------------------------------------------------------
+/assist me.{1,10}sincerely.{1,10}confident/i
+/assistance.{1,15}establish.{1,10}business in your country/i
+/assistance.{1,10}receiving the consignment/i
+
+/you.{1,10}help me receive.{1,10}secure/i
+/you.{1,10}assist in retrieving.{1,15}deposit/i
+
+/your.{1,10}assistance to receive.{1,10}sum/i
+/your.{1,10}help.{1,10}assistance in.{1,10}receipt/i
+/your.{1,10}indulgence to assist me/i
+
+/i solicit for your.{1,15}assistance/i
+
+/requesting your cooperation.{1,10}receive/i
+/this is.{1,10}urgent solicitation.{1,15}assistance/i
+
+# Award
+# ------------------------------------------------------------------------------
+/award winning.{1,10}notification/i
+/award you the sum of/i
+/awarded to your.{1,10}e?.?mail/i
+
+/congratulations.{1,10}\d{3}.{0,5}\d{3}.{1,10}has been awarded to/i
+/european enterprise awards?/i
+/nomination.{1,10}global business award/i
+
+/participate.{1,10}our global.?awards?/i
+/pending nomination for the.{1,20}awards?/i
+
+/you have been awarded.{1,10}\d{3}.{0,5}\d{3}/i
+/you have been awarded.{1,10}compensation/i
+
+/your.{1,15}(donation|stock) awards?/i
+
+# Beneficiary
+# ------------------------------------------------------------------------------
+/(beneficiaries|beneficiary).{1,10}(dollar|euro?|euros?|gbp|usd).{1,10}\d{3}.{0,5}\d{3}/i
+/(beneficiaries|beneficiary).{1,10}to late mrs?/i
+/(beneficiaries|beneficiary).{1,10}which is you.{1,10}your name/i
+/(beneficiaries|beneficiary).{1,10}as next of kin/i
+/(beneficiaries|beneficiary).{1,10}to receive the{1,15}donation/i
+
+/present you.{1,25}as.{1,10}(beneficiaries|beneficiary|contractor)/i
+
+/you.{1,15}(appear|are|selected|emerged).{1,10}(among|as one|to be one|one).{1,10}(of|the).{1,20}(beneficiaries|beneficiary)/i
+/you.{1,10}have been (listed|named|selected) as.{1,20}(beneficiaries|beneficiary)/i
+/you.{1,10}to be.{1,10}nearest.{1,10}beneficiary/i
+
+/your.{1,10}(application as|help to stand as|name as).{1,10}(beneficiaries|beneficiary)/i
+/your.{1,10}name is one of the.{1,10}(beneficiaries|beneficiary)/i
+
+# Currency, Big numbers
+# ------------------------------------------------------------------------------
+/million to you for business/i
+
+# Discuss something
+# ------------------------------------------------------------------------------
+/you about.{1,10}confidential topic/i
+/urgent information that.{1,10}would like to discuss/i
+
+# Fake Organisations
+# ------------------------------------------------------------------------------
+/jeff bezos.{1,10}management funds/i
+/microsoft.{1,10}anniversary grant/i
+/united.nations.{1,10}compensation.commission/i
+
+# Heir
+# ------------------------------------------------------------------------------
+
+# Important
+# ------------------------------------------------------------------------------
+/urgent.{1,10}there is.{1,10}unclaimed benefit/i
+
+# Inheritance
+# ------------------------------------------------------------------------------
+/i inherited money from my.{1,10}late.{1,10}husband/i
+/invest my inheritance fund/i
+
+/inheritance funds.{1,10}your bank account/i
+/inheritance claim.{1,10}in my bank/i
+
+/unclaimed inheritance.{1,10}your last.?name/i
+
+/your inheritance.{1,10}contract.{1,10}payment/i
+
+# Legal
+# ------------------------------------------------------------------------------
+/this venture is legal/i
+/it is legal and genuine/i
+
+# No risk
+# ------------------------------------------------------------------------------
+/you.{1,10}this deal has no risk/i
+/this transaction is.{1,15}(legit|risk free)/i
+
+# Share the same name or same nationality
+# ------------------------------------------------------------------------------
+/contacting.{1,20}you.{1,10}share the.{1,10}same (family|last|sur).?name/i
+/(deceased|late).{1,10}(client|customer).{1,10}of mine.{1,10}shares the same.{1,10}name/i
+/(family|last|sur).?name with.{1,10}(deceased|late).{1,10}(client|customer)/i
+
+/he has the same.{1,10}name as you/i
+/same name with.{1,20}kindly confirm.{1,10}if your related/i
+
+/who shares the same.{1,10}name with you/i
+
+/you bear the.{1,10}(family|last|sur).?name/i
+/you have the same.{1,10}(family|last|sur).?name/i
+
+# Sharing money
+# ------------------------------------------------------------------------------
+/we can split the fund in the ratio of/i
+
+# Trustworthy Person
+# ------------------------------------------------------------------------------
+/i am looking for.{1,10}(trusted|trustworthy).{1,10}person outside/i
+/i want is.{1,10}honest.{1,10}reliable.{1,10}person/i
+
+/we are seeking.{1,10}(trusted|trustworthy).{1,10}individual/i
+
+#
+#
+#
+
+# Dead Customers, Family Members
+# ------------------------------------------------------------------------------
+/(my|our).{1,10}(deceased|late).{1,10}(client|customer|husband|relative).{1,10}left (some|you) money/i
+/(my|our).{1,10}(deceased|late).{1,10}(client|customer|husband|relative).{1,10}(major|mrs?)/i
+/(my|our).{1,10}(deceased|late).{1,10}(client|customer|husband|relative).{1,10}made a deposit/i
+/(my|our).{1,10}(deceased|late).{1,10}(client|customer|husband|relative).{1,10}with no next of kin/i
+/(my|our).{1,10}(deceased|late).{1,10}(client|customer|husband|relative).{1,15}will be of interest/i
+
+/(my|our).{1,10}(deceased|late).{1,10}(father|husband|relative).{1,10}diverted this funds?/i
+/(my|our).{1,10}(deceased|late).{1,10}(father|husband|relative).{1,10}left me with/i
+
+/retrieve my.{1,10}(deceased|late).{1,10}(father|husband|relative) funds/i
+
+/assist me in moving out late/i
+
+/your.{1,10}(deceased|late).{1,10}(father|husband|relative).{1,10}who left behind/i
+/your.{1,10}(deceased|late).{1,10}(father|husband|relative).{1,15}you.{1,15}(confidentially|confirm)/i
+
+# Next Of Kin
+# ------------------------------------------------------------------------------
+/claim as his.{1,10}next of kin/i
+
+/i am the.{1,10}next of kin of/i
+
+/seek a next of kin/i
+
+# Insurance Policy
+# ------------------------------------------------------------------------------
+/you about an unclaimed.{1,15}life insurance policy/i
+
+#
+#
+#
+
+# Nomination
+# ------------------------------------------------------------------------------
+/the nominations team/i
+
+# Scam Victims
+# ------------------------------------------------------------------------------
+/scam(med)? victims?.{1,10}compensation/i
+/scam(med)? victims?.{1,10}to be paid/i
+
+/compensate.{1,10}the scam victims/i
+
+/we specializ.{1,10}helping people who have been scammed/i
+
+#
+#
+#
+
+# Business Register
+# ------------------------------------------------------------------------------
+/eu.business.register/i
+/world business directory/i
+
+/your company.{1,15}in the.{1,15}(business|world.?company).?(directory|register)/i
+/your company.{1,15}in the.{1,15}yellow.?pages.?web/i
+
+/yellow.?pages.?web.{1,10}(p\.o\.|for 202\d)/i
+
+# Collecting postal stamps
+# ------------------------------------------------------------------------------
+/i am philatelist.{1,10}i collect/i
+/i am (from|living)a.{1,10}russia.{1,10}i am collecting/i
+
+/i am collecting.{1,10}mail.?stamps/i
+
+/stamps from your country/i
+
+/collecting briefmarken/i
+
+# Crypto recovering
+# ------------------------------------------------------------------------------
+/crypto.?recovery.{1,10}specialist/i
+
+/your.{1,10}crypto.?recovery via/i
+
+# Domain Registration
+# ------------------------------------------------------------------------------
+/we are.{1,10}network service company/i
+
+/deal with.{1,10}domain name registration in/i
+
+# Gold
+# ------------------------------------------------------------------------------
+/we are.{1,10}gold seller company/i
+/we are looking for.{1,15}gold buyer/i
+/we have gold bars/i
+/you interested in buying gold/i
+
+# Greencard, Immigration
+# ------------------------------------------------------------------------------
+/green.?card.{1,10}now for only/i
+/green.?card.lottery.{1,10}(expert|program)/i
+
+/(apply for|chance to win|you deserve).{1,20}green.?card/i
+
+/proceed with your immigration to/i
+
+/start your application.{1,10}check if you.{1,10}eligible/i
+
+/you still interested.{1,10}to live.{1,10}work in/i
+
+# Oil
+# ------------------------------------------------------------------------------
+/crude oil company/i
+
+/i have an oil.{1,15}(contract|deal)/i
+
+# Stocks
+# ------------------------------------------------------------------------------
+/you.{1,10}been selected to receive.{1,20}stock/i
+/claim your.{1,15}stock valued at/i
+
+# Tax savings
+# ------------------------------------------------------------------------------
+/enhance your.{1,10}tax strategy/i
+/maximize your.{1,10}tax savings/i
+
+# Reports, Research
+# ------------------------------------------------------------------------------
+/we are excited to share our latest.{1,15}(findings|market|research|report)/i
+
+/report is meticulously crafted/i
+/review a sample report/i
+/send you an illustrative copy/i
+#
+#
+#
+
+# Unclassified
+# ------------------------------------------------------------------------------
+/i have a.{1,10}sensitive.{1,10}delicate matter/i
+
+/you regarding.{1,15}his confidential clients/i
+/your urgent attention.{1,15}view the attached notice/i
+/we are seeking.{1,10}passionate.{1,10}entrepreneurs/i
+
+# Masked
+# ------------------------------------------------------------------------------
+
+#
+#
+#
+
+# FRENCH
+# ------------------------------------------------------------------------------
+/je suis un hacker professionnel/i
+/vous avez gagné un don de.{1,10}millions.{1,10}euros?/iu

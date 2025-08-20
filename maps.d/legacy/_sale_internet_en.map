@@ -1,0 +1,222 @@
+# ==============================================================================
+# Sale: internet
+#
+# ----|----------------|
+#  10 | English        |
+# ==============================================================================
+
+# Address lists for spamming, EMail Marketing
+# ------------------------------------------------------------------------------
+/\d{1,2}(m|mil).{1,10}email (campaign|marketing)/i
+
+/business.{1,10}e?.?mail.?addresses across/i
+/business.{1,10}contact.{1,10}details for only/i
+
+/contact details.{1,10}from your industry/i
+/contact details.{1,10}verified e?.?mail/i
+
+/contact.{1,10}targeted.{1,10}database.{1,10}verified/i
+
+/(database|list).{1,10}targeted.{1,10}(business|residential)/i
+/(database|list).{1,10}top decision makers/i
+
+/million.{1,10}business database/i
+/million.{1,10}e?.?mails.{1,10}the lowest price/i
+/million.{1,10}usa?.{1,10}business contacts/i
+
+/target customer.{1,10}(e?.?mail.{1,10}lists|mobile numbers)/i
+
+/our targeted campaign/i
+/provide.{1,15}contact.{1,10}targeted.{1,10}database/i
+/promote your service to.{1,15}businesses/i
+/reach over.{1,15}businesses/i
+/get the best.{1,10}e?.?mail.{1,10}lists/i
+
+/lowest prices.{1,10}database.{1,10}e?.?mail.?addresses/i
+
+/you like to get.{1,10}direct.{1,10}contact.?list/i
+
+/you want.{1,10}receive.{1,10}attendee.{1,10}list/i
+/you want.{1,15}e?.?mail.?list/i
+
+# 
+/we are.{1,10}leading b2b.data.solutions/i
+/we are.{1,10}offering.{1,10}targeted.{1,10}e.?mail/i
+/we are.{1,10}offering.{1,15}visitors.{1,10}contact.?list/i
+/we (have|sell).{1,10}targeted.{1,10}(contact|databases|lists)/i
+
+/best e?.?mail.?lists/i
+
+/furnishing you with.{1,10}e?.?mail.?addresses/i
+/our.{1,15}databases available to the public/i
+
+/\d{2,5}.{1,10}verified visitor contacts/i
+
+/verified.{1,10}targeted.{1,10}e?.?mail/i
+
+# LinkedIn
+/linked.?in database.{1,15}(e?.?mail|phone).{1,15}list/i
+/linked.?in.{1,10}e?.?mail databases?/i
+/(linked.?in|targeted).{1,10}e?.?mail.?list/i
+
+/e?.?mail.?database from linkedin/i
+
+# Mailing Service
+# ------------------------------------------------------------------------------
+/(bulk|mass).{1,10}(e?.?mail|mailing).{1,10}marketing/i
+/(bulk|mass).{1,10}(e?.?mail|mailing).{1,10}marketer/i
+/(bulk|mass).{1,10}(e?.?mail|mailing).{1,10}tools service provider/i
+/(bulk|mass).{1,10}(advertising|marketing).{1,10}(e?.?mail|mailing).{1,10}service/i
+/(bulk|mass).{1,10}(advertising|marketing).{1,10}plan/i
+
+/e?.?mail.{1,10}campaign.{1,10}platform/i
+/e?.?mail.{1,10}marketing.{1,10}(bulk|mass).{0,10}mailing/i
+/e?.?mail.{1,10}maximum efficiency/i
+/e?.?mail.{1,10}with.{1,10}(efficiency|speed)/i
+
+/marketing.{1,10}(bulk|mass).{1,10}mailing/i
+
+/benefit.{1,10}bulk e?.?mail.?marketing/i
+/increase sales.{1,10}use.{1,10}(bulk|mass).{1,10}(e?.?mail|mailing)/i
+/reliable.{1,10}(bulk|mass).{1,10}e?.?mail/i
+
+/our (bulk|mass).{1,10}e?.?mail.{1,10}(campaign|marketing)/i
+
+/(we run|setup).{1,10}(bulk|mass).{1,10}(e?.?mail|mailing).{1,10}marketing/i
+/we are professional.{1,10}(bulk|mass).?mailing/i
+/we offer.{1,10}e?.?mail.?mailing/i
+
+#
+/spamming tools available/i
+
+# French
+/mails issus de notre fichier/iu
+/millions.{1,10}emails de professionnels/i
+/trouvez de nouveaux clients/iu
+
+# Affiliate Links
+# ------------------------------------------------------------------------------
+/generate.{1,15}affiliate links/i
+
+# Leads
+# ------------------------------------------------------------------------------
+/leads?.{1,10}feature.{1,10}you can automatically/i
+/leads.{1,10}can do for your/i
+/leads.{1,10}for all interested parties/i
+
+/automation.{1,10}convert.{1,10}leads/i
+
+/generate.{1,10}leads.{1,10}promote/i
+/generate.{1,10}leads.{1,10}here.{1,10}how/i
+
+/i will provide.{1,15}leads/i
+
+/you like to generate.{1,15}leads/i
+/you need.{1,10}(fresh|new).{1,10}leads/i
+
+/we.{1,10}provide.{1,15}(fresh|quality|targeted|verified).{1,15}leads/i
+
+/(web)?site.{1,25}generate more leads/i
+
+# LinkedIn
+/(targeted|verified).{1,10}leads from linkedin/i
+
+# Reveral
+# ------------------------------------------------------------------------------
+/referral marketing is.{1,10}proven/i
+/we specialize in.{1,20}referral programs/i
+
+/we.{1,10}woocommerce experts/i
+
+#
+#
+#
+
+# Social Media
+# ------------------------------------------------------------------------------
+/instagram followers.{1,10}limited offer/i
+/we offer.{1,10}instagram followers/i
+
+/your engagement on instagram/i
+
+# Traffic, leads
+# ------------------------------------------------------------------------------
+/get organic traffic from/i
+
+/(have|you).{1,10}interest(ed)?.{1,10}(getting|receiving).{1,10}more leads/i
+
+/web.?visitors into.{1,10}(leads|sales)/i
+
+/view our leads here/i
+/we can bring you more.{1,10}clients/i
+/we have.{1,10}following.{1,10}datasets available/i
+
+/offer you.{1,15}(premium|quality).{1,15}leads/i
+/you high quality leads/i
+
+/your web.?site.{1,10}lead generating/i
+
+# Illegal stuff
+# ------------------------------------------------------------------------------
+/we offer likes.{1,10}followers/i
+/we can help you.{1,10}increase your.{1,10}visibility/i
+
+# Google Reviews
+# ------------------------------------------------------------------------------
+
+# Guest Posts
+# ------------------------------------------------------------------------------
+/guest.?post.?service/i
+
+/i will write.{1,10}publish.{1,10}guest.?posts/i
+/expert guest blogger/i
+
+# ChatGPT Prompts
+# ------------------------------------------------------------------------------
+/chatgpt prompts bundle/i
+
+/ultimate.{1,15}chatgpt.{1,10}prompts/i
+
+#
+#
+#
+
+# Web Directories
+# ------------------------------------------------------------------------------
+/easier.{1,10}to promote your.{1,10}(web)?.?site/i
+
+/(leads|sales).{1,15}submitting your web.?site/i
+/our (list|database) consists.{1,10}millions.{1,10}business/i
+/is only listed in.{1,15}(out of|possible).{1,15}directories/i
+
+/e?.?mail.{1,10}cell.?phone.{1,10}(list|database)/i
+
+/promote your.{1,15}search.?engines?/i
+/promote your.{1,15}(web)?.?site.{1,10}just a few/i
+
+/service.{1,10}lists.{1,10}in all.{1,10}directories/i
+/submitting your.{1,15}(web)?.?site to.{1,25}directories/i
+/we can help you.{1,10}promote your.{1,15}business/i
+
+/lists you in all.{1,15}directories/i
+/not having the proper backlinks/i
+
+# Domain names
+# ------------------------------------------------------------------------------
+/we have.{1,10}domain that is.{1,15}on sale/i
+
+#
+#
+#
+
+# Unclassified
+# ------------------------------------------------------------------------------
+
+# Selling API
+/service for accepting cryptocurrency/i
+/our api allows your business/i
+
+# Masked
+# ------------------------------------------------------------------------------
+/l e a d/i
+/l i n k e d i n/i

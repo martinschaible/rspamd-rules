@@ -1,0 +1,718 @@
+# ==============================================================================
+# Phishing: Subject
+#
+# ----|----------------|
+#  10 | German         |
+# ==============================================================================
+
+# Checking company data
+# ------------------------------------------------------------------------------
+/ihre unternehmensdaten sind nicht mehr aktuell/i
+
+# New AGB and renewals
+# ------------------------------------------------------------------------------
+/aktion ist erforderlich.{1,10}neue agb/i
+
+# Accounts
+# ------------------------------------------------------------------------------
+/aktualisieren ihres.{1,15}(kontos|profils)/i
+
+/anpassen ihrer.{1,10}kontodaten/i
+
+/konto.{1,10}bleibt begrenzt/i
+/konto.{1,10}erforderlich.{1,10}id/i
+/konto.{1,10}gesperrt.{1,20}(fehlgeschlagen|kontakt)/i
+/konto.{1,10}ist nicht konform/i
+/konto.{1,10}mit einer.{1,15}sicherheitsaktualisierung/i
+
+/konto.{1,10}wird.{1,10}sicherheitsgründen überprüft/iu
+
+/kontosperrung.{1,10}vermeiden/i
+
+/(konto|profil).?informationen müssen aktualisiert werden/i
+
+/wir mussten.{1,15}konto.?funktionen einschränken/iu
+
+/nachricht.{1,10}gesperrtes konto/i
+/neue sicherheitsvorschriften für/iu
+
+/ihr.{1,10}konto wurde ausgewählt/iu
+/ihr.{1,10}konto zu entsperren/i
+
+/ihre.{1,10}kontoinformationen überprüfen/iu
+/ihre.{1,10}kundendaten sind (abgelaufen|veraltet)/i
+/ihre.{1,10}persönlichen daten.{1,10}informationen/i
+
+# Twint
+/ihre.{1,15}app wird bald gesperrt/i
+
+/benachrichtigung zur kontosperrung/i
+
+/risiko einer kontoschlie(ss|ß)ung/i
+
+/sicherheit.{1,10}(bestätigen|) sie ihre/iu
+
+/sicherheitsüberprüfung für ihr.{1,15}konto/i
+/sicherheitsüberprüfung ihres.{1,15}kontos.{1,15}erforderlich/iu
+
+/sicherheitswarnung.{1,10}(konto gesperrt|vervollständigen sie)/i
+
+/bestätigung ihrer konto.?informationen erforderlich/iu
+
+/überprüfung ihrer.{1,15}(kontoinformationen|unternehmensdaten) erforderlich/i
+
+/informationen zu ihrem.{1,15}konto.{1,15}fehlen/i
+
+/ihre hilfe bei der lösung.{1,15}problems mit ihrem.{1,15}konto/iu
+
+/vervollständigen.{1,15}kontoverifizierung/i
+
+/wichtige?.{1,10}e?.?mail.{1,10}ihr konto/i
+
+/(aufruf|hinweis|wichtig).{1,10}verifizieren sie ihr.{1,15}konto/i
+/(aufruf|hinweis|wichtig).{1,10}(dein|ihr).{1,15}konto zu verifizieren/i
+
+/erinnerung.{1,10}kontoupdate/i
+
+# Services
+/sperrung des.{1,15}dienstes.{1,15}handlungsbedarf/i
+
+# Alert
+/benachrichtigung zu einer auffälligkeit/iu
+
+/erfordert eine sofortige antwort/i
+
+/hinweis.{1,10}vorübergehende sperrung/iu
+/wichtige warnung.{1,10}ihr.{1,10}konto/i
+
+/halten sie ihre unternehmensinformationen/iu
+
+# Account - Payment options
+# ------------------------------------------------------------------------------
+/aussetzung.{1,10}zahlungsmethoden/i
+/dringend.{1,10}zahlungsdetails aktualisieren/i
+
+# Cards
+# ------------------------------------------------------------------------------
+/ihre kartenverifizierung/i
+
+/kartenverifizierung steht aus/i
+/kredit.?karte.{1,5}de_/i
+/kreditkarteninformationen.{1,10}aktualisieren/i
+
+/registrierung für gebührenfrei/i
+
+/sicherheitsbenachrichtigung zu ihrer.{1,15}karte/i
+/warnung.{1,10}verdächtige transaktion/iu
+
+# Return for double payed invoices
+# ------------------------------------------------------------------------------
+/ihre rechnung wurde zweimal bezahlt/i
+/informationen zu ihrer rückzahlung/iu
+/mitteilung zur rückerstattungsanfrage/iu
+
+/rechnung erstattungsfähig/iu
+/rückerstattungsdetails ausstehend/iu
+
+# Locking Account
+# ------------------------------------------------------------------------------
+/ihr photo.?tan wurde blockiert/i
+
+/gesperrt.{1,10}ref.?id#/i
+/gesperrt.{1,10}korrigieren sie ihn/i
+
+/letzte warnung.{1,10}konto/i
+
+/wir haben ihre id.{1,20}gesperrt/i
+
+/zahlungserinnerung.{1,10}konto wird gesperrt/i
+/zu ihrer sicherheit haben wir ihr.{1,15}konto/i
+
+# Confirm or reconfirm Account/Identity
+# ------------------------------------------------------------------------------
+/ihre identität.{1,10}erneut bestätigen/iu
+
+/ihre informationen.{1,15}aktualisiert werden/i
+/ihre informationen.{1,10}zu aktualisieren/i
+
+/erneuern sie ihre.{1,10}authentifizierung/iu
+/führen sie die geforderten schritte durch/iu
+
+/identifizieren sie sich neu/i
+
+/jetzt zu aktualisieren.{1,10}klicken sie dazu/i
+
+/online identifikation/i
+
+/schließen sie ihre.{1,15}identifizierung ab/iu
+/sie müssen sich neu identifizieren/iu
+/sollten aktualisiert werden/i
+
+/authentifizieren sie sich.{1,15}klicks/i
+
+#
+/dringende mitteilung.{1,10}bitte bestätigen/iu
+
+# Reminder
+/erinnerung aktualisierung/i
+
+# Banking
+# ------------------------------------------------------------------------------
+/bank.?konto.{1,10}erforderlich/i
+
+/ihre.{1,10}karte ist gesperrt/i
+/ihre.{1,10}daten sind veraltet/i
+
+/aktivieren sie.{1,15}(gebührenfrei|ihre banking|identity check)/i
+/aussetzung des.{1,15}bank.?dienstes/i
+
+/bankvertrag ausgesetzt/i
+
+/deaktivierung ihrer mastercard/i
+/dringende sicherheitsüberprüfung/iu
+
+/sicherheit anhand der.{1,10}anleitung bestätigen/iu
+/sicherheits.?gründen wurde ihr zugang gesperrt/iu
+/sicherheits.?funktionen.{1,15}online.?transaktionen/i
+
+#
+/wichtige.{1,10}aktualisierung für sie/iu
+
+/systemmeldung.{1,10}neue nachricht/i
+
+/^online.?konto/i
+
+#
+/banking.{1,15}benötigt ein update/i
+
+# Twint
+/dienstes bei twint/i
+
+# Message
+# ------------------------------------------------------------------------------
+/wichtige.{1,10}kundenbenachrichtigung/i
+/wichtiger?.{1,5}(benachrichtung|hinweis|mitteilung|sicherheitsmeldung).{1,10}(banking|steuererstattung|unternehmensdaten)/i
+/wichtiger?.{1,5}(benachrichtung|hinweis|mitteilung|sicherheitsmeldung).{1,10}aktualisieren sie (ihren|ihre)/i
+/wichtiger?.{1,5}(benachrichtung|hinweis|mitteilung|sicherheitsmeldung).{1,10}ihr.{1,15}konto/i
+
+# New Systems, Security, Technology, TAN
+# ------------------------------------------------------------------------------
+
+# TAN
+/(photo|push).?tan.{1,15}(aktivieren sie|aktivierung|brief|erforderlich|ihre konto|ist nicht|verfahren)/i
+/(photo|push).?tan.{1,10}gesperrt/i
+/(photo|push).?tan.{1,10}läuft innerhalb/iu
+/tan.?app.{1,10}dienst.{1,10}aktivieren/i
+
+/ihr.{1,10}banking.{1,15}authentifizierungsdienst/i
+
+/wichtiges update.{1,15}(photo|push).?tan/i
+/neues?.{1,10}(photo|push).?tan/i
+
+/tan.?verfahren.{1,10}vr.?securego/i
+/secure.?plus bestätigen/iu
+
+#
+/aktualisieren sie ihre?.{1,10}banking/i
+/aktualisierung ihres.{1,20}authentifizierungsdienstes/i
+/authentifizierungsdienst.{1,15}(banking|erforderlich)/i
+
+/bank.{1,10}wichtiges sicherheitsupdate/i
+
+/neues sicherheitsupdate.{1,10}erforderlich/i
+/obligatorische aktivierung/i
+/registrierung.{1,10}neue sicherheitsmaßnahmen/i
+
+/sehr geehrter kunde.{1,20}authentifizierungsdienst/i
+
+# Phone
+/telefon.?nummer ist nicht.{1,15}gültig/iu
+/telefon.?nummer für ihr.{1,20}konto/i
+
+/(aktualisieren|bestätigen) sie ihre telefon.?nummer/iu
+/ihre telefon.?nummer ist erforderlich/i
+
+# Parcel
+# ------------------------------------------------------------------------------
+
+# Address
+/adressüberprüfung für ihre sendung/iu
+/aktualisieren sie.{1,10}ihren?.{1,10}(adressinformationen|lieferdetails|lieferort|versanddetails)/i
+/aufgrund einer falschen adresse scheiterte die zustellung/i
+
+/benachrichtigung.{1,10}(erneuter versuch|über ihr paket)/iu
+/bestellung.{1,10}die noch auf.{1,10}bezahlung wartet/i
+
+/bestätigen sie (die|ihre).{1,10}adresse für die lieferung/iu
+/bestätigung der lieferadresse erforderlich/iu
+
+/dies ist unser letzter versuch/i
+
+/haben sie ihr paket erhalten/i
+
+/ihre angaben.{1,10}order.?id/i
+
+/wichtig.{1,15}(erneute zustellung|paket)/i
+
+/(paket|sendung).{1,10}aufgrund fehlender versandkosten nicht liefern/i
+/(paket|sendung).{1,10}auf die (lieferung|zustellung) wartet/i
+/(paket|sendung).{1,10}bestätigt.{1,15}planen sie/i
+/(paket|sendung).{1,15}distributionszentrum aufbewahrt wird/i
+/(paket|sendung).{1,10}hat.{1,15}distributionszentrum angehalten/i
+/(paket|sendung).{1,10}informationen bestätigen/iu
+
+/(paket|sendung).{1,10}ist zur (abholung|lieferung) bereit/i
+
+/(paket|sendung).{1,15}kann nicht zugestellt werden/i
+
+/(paket|sendung).{1,15}wird aufgrund.{1,10}unerwartet.{1,10}zollabwicklung/i
+/(paket|sendung).{1,10}wird heute zurückgeschickt/i
+/(paket|sendung).{0,10}zustellung.{1,10}(ansteht|mitteilung)/i
+
+/paket.?lieferung ausstehend/i
+
+/postamt angekommen/i
+
+/ihre bestellung konnte nicht geliefert werden/i
+
+/lieferadresse.{1,15}bevorstehende sendung/i
+
+/(lieferung|versand).{1,10}nach einem problem.{1,15}aufmerksamkeit/i
+/(lieferung|versand).{1,10}wurde aufgrund falscher angaben/i
+/(lieferung|versand).{1,10}steht aus/i
+
+/lieferung abgelehnt.{1,10}neuen zustelltermin/i
+/lieferung.{1,5}id ch/i
+
+/aktualisieren sie.{1,10}ihre lieferadresse/i
+/aktualisieren sie.{1,15}versandcode/i
+/aktualisierung.{1,10}erneuter zustellversuch/i
+
+/korrigieren sie ihre.{1,15}adresse/i
+/schritte.{1,15}zustellung.{1,10}(paket|sendung)/i
+/senden wir das produkt zurück/iu
+
+/sie haben.{1,10}\(\d\) paket/i
+/sie haben.{1,10}ausstehendes paket/i
+/sie haben.{1,10}jetzt.{1,10}stunden zeit/i
+
+/sie ihren paketzustellstatus/i
+
+/problem.{1,15}des liefervorgangs/i
+/problem in ihrem paket/i
+
+/unvollständige adressinformationen/i
+/unvollständige angaben.{1,10}auftrag/i
+
+/steht.{1,10}paket zur zustellung an/i
+
+/zahlung der zusätzlichen gebühr/iu
+/zahlung von.{1,10}chf.{1,10}paket erforderlich/i
+
+/zustellung.{1,10}eines neuen pakets/i
+/zustellung.{1,10}fehlgeschlagen.{1,10}handeln sie/i
+/zustellung.{1,10}nicht erfolgreich.{1,10}adresse nicht gefunden/i
+/zustellung.{1,10}ihres pakets.{1,10}fehlgeschlagen/i
+/zustellversuch.{1,10}bestellung.{1,10}zurückgeschickt/iu
+
+/verwenden sie ihren barcode/i
+/versand.{1,10}bestätigen sie ihre angaben/iu
+/wir haben ihr paket bereit/i
+
+/wurde an unser depot zurückgesandt/i
+
+# Fees, Customs
+/dringend.{1,10}zahlung der zoll/i
+/ihr ankommendes paket erforderlich/i
+/lieferverzögerung.{1,10}zahlen sie/i
+/wichtige mitteilung.{1,10}zahlung der/i
+
+/zahlen sie.{1,15}die zustellung ihres pakets/i
+/zahlung.{1,10}zollgebühren.{1,20}(erforderlich|euro)/iu
+/zahlung.{1,10}versandgebühr.{1,10}(über)?fällig/iu
+
+#
+/(ch|de|org).{1,10}referenz.?code/i
+/package.{1,10}informationen/i
+
+/(package|paketzustellung).?id/i
+
+#
+/erhalten sie ihre lieferung/i
+/ihre mitarbeit ist.{1,10}(erforderlich|gefragt)/i
+
+# Parcel - Fees
+# ------------------------------------------------------------------------------
+/sie an die ausstehenden versandkosten/i
+/sie müssen zollgebühren zahlen/iu
+/zahlung erforderlich.{1,5}ref/i
+
+#
+#
+#
+
+# Membership, subscription
+# ------------------------------------------------------------------------------
+/abonnement für die.{1,10}monats.?karte wurde ausgesetzt/i
+
+#/abonnement.{1,10}ist umgehendes handeln erforderlich/i
+/abonnement.{1,15}vorübergehend.{1,10}(ausgesetzt|pausiert)/iu
+
+/aktualisieren sie ihr.{1,20}abonnement/ui
+
+/überprüfung ihrer abonnementdetails/iu
+/musikdienst nicht ablaufen/i
+/wir wollen dich immer noch zurück/i
+
+/ihre zahlung wurde nicht ausgeführt/iu
+
+#
+#
+#
+
+# Winning, Present, Rewards
+# ------------------------------------------------------------------------------
+/antworten.{1,10}gewinnen/i
+
+/antworten sie jetzt.{1,10}sichern sie sich/i
+
+/bald ablaufend.{1,10}ihre/i
+
+/bestätige deine versanddetails/iu
+/bestätigen sie (den empfang|ihr geschenk)/iu
+/bestätigen.{1,10}sie.{1,10}ihre lieferdetails/i
+/bestätigung.{1,10}ausstehend.{1,10}sofortiger versand/i
+/bestätigung.{1,10}ihre bestellung zu (versenden|verschicken)/iu
+/bestätigung.{1,10}immer noch gültig/iu
+
+/beanspruche jetzt/i
+/beanspruchen sie (ihn|ihren preis)/i
+
+/bekanntgabe unseres gewinners/i
+
+/die prämien sind eingetroffen/iu
+/(chance auf|deine exklusive).{1,10}belohnung/i
+/der inhaber dieser e?.?mail.?adresse/i
+/der nächsten seite erwartet sie/iu
+
+/du bist heute der glückliche/iu
+/du gehörst zu den auserwählten/ui
+/du hast unser gewinnspiel gewonnen/i
+/du stehst auf der gewinnerliste/i
+
+/fordern sie.{1,10}ihr(en)?.{1,10}(geschenk|preis)/i
+
+/empfang.{1,10}bald ablaufend/i
+/erhalten sie.{1,10}(belohnung|gutschein)/i
+/erhalten.{1,10}belohnung/i
+/erinnerung an ihre.{1,30}belohnung/i
+
+/(exklusive|sichere).{1,10}chance auf ein.{1,15}produktpaket/i
+/exklusive.{1,10}belohnungen.{1,40}(kostenlos|umfrage)/i
+/exklusive.{1,10}belohnung wartet/i
+
+/fordern sie ihren?.{1,20}(belohnung|gewinn)/i
+
+/gratis.{1,20}euro.{1,10}geschenkkarte.{1,10}sichern/i
+
+/geschenke?.{1,5}(genehmigt|sind angekommen)/i
+
+/gewinnen.{1,10}jetzt bestätigen/iu
+/gewinnen.{1,10}sie eine.{1,15}geschenkkarte/i
+/gewinnen.{1,10}sie einen.{1,15}wunschgutschein/i
+/gewinnen.{1,10}sie.{1,20}geschenkkarte/i
+
+/gewinner.{1,10}des brandneuen/i
+/gewinner.{1,10}monatswettbewerbs.{1,10}bekanntzugeben/i
+
+#/gutscheine?.{1,10}im gesamtwert von/i
+/gutscheine?.{1,10}erinnerung/i
+/gutscheine?.{1,15}sie das untenstehende formular/i
+
+/hauptpreis geht an sie/i
+
+/hole? dir das brandneue iphone/i
+/holen sie sich einen kostenlosen/i
+/holen sie sich ihren preis/i
+
+/ihr (einzigartiger|individueller) code/i
+/ihr wöchentlicher preis/iu
+
+/ihre chance.{1,10}(einen kostenlosen|kostenlos ein)/i
+/ihren preis jetzt liefern/i
+
+/kunde.{1,10}exklusive prämien für sie/iu
+
+/letzte benachrichtigung für eine/iu
+
+/kunden.?belohnung(en)?/i
+/kostenlos ein.{1,20}zu erhalten/i
+
+/sie haben noch nicht geantwortet/i
+/sie haben das.{10,25}geschenkset gewonnen/i
+/sie haben die chance.{1,10}ein kostenloses/i
+/sie haben eine kostenlose.{10,25}gewonnen/i
+/sie haben glück.{1,10}erhalten kostenlos/i
+/sie haben ein.{1,40}set gewonnen/i
+
+/sie sind der auserwählte/iu
+/sie sich.{1,10}chance auf eine prämie/iu
+/sie sind.{1,10}der monatsgewinner/i
+/sie sich.{1,10}ihren?.{1,10}(belohnung|gutschein)/i
+/sie sind.{1,10}(berechtigt|teilnahme|zugelassen)/i
+
+/sie unsere.{1,10}umfrage/i
+
+/sie wurden als empfänger eines.{1,15}preises/iu
+/sie wurden für ein besonderes angebot/iu
+/sie wurden für millionen/iu
+
+/umfrage.?(belohnung|gutschein)/i
+/unsere.{1,10}glücklichsten/iu
+/ungelesene nachricht von/i
+
+/(Öffne|öffne) sofort/iu
+
+/preis ist ein brandneues/i
+/preis wird weitergeleitet/i
+/preis zugestellt zu bekommen/i
+
+/glückwunsch.{1,10}sie sind der erste/i
+/glückwunsch.{1,10}letzter gewinner/i
+
+/der besitzer dieser e?.?mail.{1,15}wurde/i
+
+/schnell.{1,10}stückzahl.{1,10}begrenzt/i
+
+/wählen.{1,10}sie (exklusiven produkte|ihr geschenk)/iu
+
+/wir haben einen sieger.{1,10}du bist/i
+/wir haben eine überraschung für.{1,15}kunden/iu
+/wir ihren?.{1,10}(belohnung|gutschein) liefern/i
+/wir vergeben deinen.{1,15}gutschein/i
+
+/zeit für.{1,10}belohnung/i
+
+# Testing
+/testen.{1,10}gewinnen/i
+
+#
+/edeka.{1,10}(belohnung|gutschein) erhalten/i
+
+/versanddetails.{1,10}sendung nr/i
+/warten auf ihre (antwort|genehmigung)/i
+
+/wir belohnen sie.{1,10}wir gratulieren/i
+/wir versuchen sie zu finden/i
+
+# Companies, Products
+# ------------------------------------------------------------------------------
+/bestätigung.{1,10}erhalten sie.{1,10}kostenlose?/iu
+/bestätigung.{1,50}reward/i
+
+/dankeschön.{1,10}ihr kostenloses.{1,30}(kit|surival)/i
+/du hast ein brandneues.{1,20}bekommen/i
+/sie haben ein.{5,25}gewonnen/i
+/verwenden sie diesen code/i
+/wartet auf sie.{1,10}jetzt sichern/i
+/wir haben versucht.{1,10}sie zu kontaktieren/i
+/wir haben ein(en)? brandneue(n|s)?.{5,25}für dich/i
+
+letzter gewinner/i
+/gerät genehmigt/iu
+
+/produkt kann nicht zugestellt werden/i
+
+/ausstehende sendung.{1,10}acer/i
+
+# ADAC, TCS
+/(adac|ihr).{1,10}(auto|kfz).?notfall.?set/i
+
+/(auto|kfz).?notfall.?set.{1,15}(bestellung|erfolgreich|sichern|wartet)/i
+
+/notfall.?set.{1,10}(fürs auto|für ihr auto|im auto|prämie|wartet auf sie)/i
+
+/sie sich das.{1,15}notfall.?(auto|set)/i
+
+# AliExpress
+/erhalten sie.{1,10}aliexpress.{1,10}mystery.?box/i
+
+# Amazon
+/amazon gutschein gewinnen/i
+
+# Apple
+/(ipad|iphone).{0,10}pro.{1,10}ausstehende sendung/i
+/du hast ein.{1,10}(ipad|iphone).{0,10}pro/i
+/erhalten sie ihr.{1,10}(ipad|iphone).{1,10}binnen/i
+/um ihr (ipad|iphone).{1,10}zu verschicken/iu
+
+# Dewalt
+/fordern sie ihren.{1,10}dewalt/i
+/herzlichen glückwunsch.{1,10}dewalt/iu
+/bald abgelaufen.{1,30}von dewalt/i
+/mit einem kostenlosen dewalt/i
+
+# GLS
+/ihre.{1,10}gls.?prämie/iu
+
+# Ikea
+/sichern sie sich ihr.{1,10}schlafset/i
+
+# Makita
+/sie wurden.{1,15}eine makita/i
+
+# MediaMarkt
+/media.?markt gutschein/i
+
+# Samsung
+/ihr galaxy s24 ultra wartet/i
+
+# Starbucks
+/box set erwartet sie/i
+
+# Voucher
+/chance einen.{1,15}gutschein zugewinnen/i
+
+#
+#
+#
+
+# Return for double payed invoices
+# ------------------------------------------------------------------------------
+/benachrichtigung.{1,10}rechnungskorrektur/i
+/erhalten sie.{1,15}jetzt.{1,10}rückerstattung/i
+
+/eine rückerstattung zu beantragen/iu
+
+/wichtige information(en)?.{1,10}rückerstattung/iu
+
+# Payments
+# ------------------------------------------------------------------------------
+/sie haben ihr.{1,20}guthaben nicht ausgezahlt/i
+/zahlung fehlgeschlagen.{1,10}sofortiges handeln.{1,10}erforderlich/i
+
+# Payment data
+# ------------------------------------------------------------------------------
+/erinnerung.{1,10}zahlungsdetails aktualisieren/i
+
+# Tax
+# ------------------------------------------------------------------------------
+
+#
+#
+#
+
+# Hosting and EMail
+# ------------------------------------------------------------------------------
+/deaktivierung.{1,10}e?.?mail.?postfachs?.{1,10}aufgrund/i
+
+# Storage
+# ------------------------------------------------------------------------------
+/erhalten sie.{1,10}zusätzlichen.{1,10}i?cloud.?speicher/i
+/achtung.{1,10}gesamter speicher belegt/i
+
+/gb kostenlos.{1,10}i?cloud.?speicher/i
+
+# Domains
+# ------------------------------------------------------------------------------
+/ihr domain.?name steht noch aus/i
+
+/verweigerung der verlängerung.{1,10}domain.?name/i
+
+#
+#
+#
+
+# Companies and Organisations
+# ------------------------------------------------------------------------------
+/\[targo.?bank\]/i
+/targo.?bank.{1,5}id/i
+
+/i0n0s.{1,5}mail/i
+
+# CSS
+/mycss.?rückerstattung/iu
+
+# DHL
+/dhl.{1,5}bestellnummer/i
+
+# DPD
+/benachrichtigung dpd/i
+
+# Facebook
+/dies betrifft ihren beitrag auf facebook/i
+
+# Deutschlandradio
+
+# DSGVO
+/abmahnung wegen möglicher verstöße gegen die dsgvo/i
+
+# Netflix
+/letzte.{1,10}netflix.{1,10}erinnerung/i
+
+# Postfinance
+/dringende aktualisierung.{1,10}postfinance/i
+
+# Swisscom
+/bestätigen sie ihre korrekturdaten/iu
+
+# Swisspass
+/swisspass.{1,10}abonnement.{1,15}aktivieren/i
+/swisspass.{1,10}authentifizieren/i
+/swisspass.{1,10}zahlung fehlgeschlagen/i
+
+/(anmelden mit|wichtiger hinweis zu).{1,10}swisspass/i
+
+/(ihr|lhr).{1,10}(swiss)?.?pass (ist|wurde).{1,20}(deaktiviert|gesperrt|nicht mehr gültig)/iu
+/(ihr|lhr).{1,10}(swiss)?.?pass wurde vorübergehend (deaktiviert|gesperrt)/iu
+
+/verbinde di mit dim konto/i
+
+/sbb ccf ffs/i
+
+# Swiss Goverment
+/steuererklärung.{1,10}wichtige anweisungen/iu
+
+# Swiss Police
+/die polizeiliche.{1,10}kommunikation/i
+/ihr engagement ist erforderlich/i
+/antwort.{1,10}rechtliche mitteilung/i
+/notwendige antwort/i
+
+# Swiss Railway
+/erstattungsticket akzeptiert/i
+/ihre ticketrückerstattung wurde akzeptiert/iu
+/sie haben eine ticketrückerstattung/iu
+
+# Twint
+/twint.{1,10}wartet auf die verifizierung/i
+/app.?twint/i
+
+# Lichtenstein
+# ------------------------------------------------------------------------------
+/erbeten.{1,10}sofortige reaktion/i
+
+#
+#
+#
+
+# Unclassified
+# ------------------------------------------------------------------------------
+/(dringende|wichtige) aufforderung.{1,10}aktualisieren sie ihr /i
+
+/(handeln|handlung) erforderlich.{1,10}(dauernde|sperrung)/i
+/(handeln|handlung) erforderlich.{1,10}lösen sie ihr problem/iu
+
+/bitte um rückruf.{1,10}aktenzeichen/iu
+/hallo.{1,10}wir warten auf ihre antwort/i
+/ihre gelder sind gefährdet/iu
+
+/mahnung.{1,10}dringender handlungsbedarf/i
+/neue nachricht.{1,10}neues update/i
+
+/profilaktualisierung erforderlich/i
+/sie sich mit dieser e.?mail/i
+
+# Masked
+# ------------------------------------------------------------------------------
+/\.gewonnen\./i

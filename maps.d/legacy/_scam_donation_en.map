@@ -1,0 +1,134 @@
+# ==============================================================================
+# Scam: Donation
+#
+# ----|----------------|
+#  10 | English        |
+# ==============================================================================
+
+# Big numbers
+# ------------------------------------------------------------------------------
+/\d{2,3}.{0.5}\d{2,3}.{1,10}(dollar|euro?|gbp|usd).{1,10}to you/i
+
+# BTC
+# ------------------------------------------------------------------------------
+/you to be one of the.{1,15}recipients to receive.{1,10}btc/i
+
+# Charity
+# ------------------------------------------------------------------------------
+
+# Choosen
+# ------------------------------------------------------------------------------
+
+# Contact
+# ------------------------------------------------------------------------------
+/reply back for.{1,10}information.{1,10}claims?/i
+
+# 
+# Donation
+# ------------------------------------------------------------------------------
+/\d{3}.{0,5}\d{3}.{1,15}has been donated to you/i
+/\d{3}.{0,5}\d{3}.{1,15}(donation|donated) (for|to) you/i
+
+/a gift.{1,10}donation was/i
+/(donation|grant).{1,10}has been made to you/i
+/donation.?investment fund/i
+
+/donation.{1,15}\d{3}.{0,5}\d{3}.{1,15}contact us.{1,10}(e?.?mail|fore more)/i
+
+/donation.{1,15}contact.{1,10}to claim/i
+/donation.{1,10}gift.{1,10}(cash|prize)/i
+
+/donation.{1,15}for more details e?.?mail/i
+/donation.{1,15}(for|to) you.{1,10}contact me/i
+/donation.{1,15}(for|to) you.{1,10}the sum of/i
+
+/donation.{1,15}lucky persons including you/i
+/donation.{1,10}reply for.{1,10}details/i
+/donation.{1,10}to help you empower/i
+/donation.{1,10}to you.{1,10}respond to/i
+/donation.{1,10}was made to you/i
+
+/donated?.{1,20}(dollar|euro?|gbp|usd).{1,10}(for|to) you/i
+/donated?.{1,10}some amount to you/i
+/donated?.{1,10}to you.{1,10}contact for.{1,10}details/i
+/donated?.{1,10}to you.{1,10}\d{3}.{0,5}\d{3}.{1,10}euros from/i
+/donated?.{1,10}from what i have inherited/i
+
+/(claim|reach you).{1,10}your.{1,10}donation/i
+/drawing to receive.{1,10}donation/i
+
+/grant of.{1,10}\d{3}.{0,5}\d{3}.{1,10}to you/i
+
+/has selected you for.{1,10}donation/i
+
+/i have decided to (donate|give).{1,10}\d{3}.{0,5}\d{3}.{1,15}million/i
+/i have decided to (donate|give).{1,20}to you/i
+/i (have|made).{1,15}donation for you/i
+
+/i.?a?m donating to.{1,10}random individuals/i
+/i.?a?m donating to you.{1,10}\d{3}.{0,5}\d{3}/i
+/i.?a?m donating.{1,10}million.{1,10}(dollar|euro?|euros?|gbp|usd) to you/i
+
+/i give you.{1,10}\d{3}.{0,5}\d{3}.{1,10}(dollar|euro?|gbp|usd)/i
+/i (want|wish) to donate.{1,10}my last funds/i
+/i (want|wish) to donate.{1,10}the sum of/i
+
+/million.{1,15}kindly reply for more details/i
+/million.{1,10}(dollar|euro?|gbp|usd).{1,10}reply for more details/i
+/(million|dollars?|euro?|gbp|usd).{1,10}have been donated to you/i
+
+/selected.{1,10}to receive.{1,15}donation/i
+/selected.{1,10}receive a.{1,15}donation/
+
+/was selected randomly.{1,10}receive.{1,15}donation/i
+
+/you.{1,15}are donation.{1,10}funds/i
+/you.{1,10}been (awarded|granted).{1,10}donation/i
+/you.{1,10}(have|received|will receive|won).{1,20}donation/i
+/you.{1,10}have been donated/i
+/you.{1,10}have been (awarded|picked|selected) for.{1,20}(donation|grant|humanitarian)/i
+/you.{1,10}have been (awarded|picked|selected).{1,10}receive.{1,15}(aid|benefit|financial|fund|donation)/i
+/you.{1,10}have.{1,10}received.{1,20}donation/i
+
+/you.{1,10}receive.{1,15}(million|dollars?|euro?|gbp|usd).{1,15}donation/i
+/you.{1,10}receive.{1,10}the sum of/i
+
+/your unclaimed donation/i
+
+/we got a give away.{1,10}donation/i
+
+# Donation, Companies
+# ------------------------------------------------------------------------------
+/active.{1,10}web.?user.{1,10}receive.{1,10}donation/i
+
+# Donation, Foundation
+# ------------------------------------------------------------------------------
+
+# Grant
+# ------------------------------------------------------------------------------
+/you have been selected for.{1,10}grant/i
+/you have been selected to receive.{1,10}grant/i
+/we have selected you to receive.{1,10}grant/i
+
+/grant.{1,10}reply for more details/i
+
+# Payments
+# ------------------------------------------------------------------------------
+
+#
+#
+#
+
+# Fake Winning
+# ------------------------------------------------------------------------------
+/i am.{1,10}winner of the.{1,10}million/i
+
+#
+#
+#
+
+# Unclassified
+# ------------------------------------------------------------------------------
+
+# Masked
+# ------------------------------------------------------------------------------

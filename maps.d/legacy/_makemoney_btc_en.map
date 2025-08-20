@@ -1,0 +1,88 @@
+# ==============================================================================
+# Make Money: Bitcoin
+#
+# ----|----------------|
+#  10 | English        |
+# ==============================================================================
+
+# Crypto
+# ------------------------------------------------------------------------------
+/free.{1,10}(bitcoin|btc|crypto).?secrets/i
+
+#
+/btc.?deposit/i
+/binance gift gdm/i
+
+/dear crypto user/i
+/discover coins/i
+
+/earn(ing)? free.{1,10}cryptocurrency/i
+/earn(ing)? real money.{1,10}cryptocurrency/i
+
+/(amplify|boost|multiply|optimize) your.{1,10}(bitcoin|btc|crypto)/i
+/swiss.{1,10}(bitcoin|btc|crypto)/i
+
+/see.{1,10}(bitcoin|btc|crypto).{1,10}details/i
+
+/your.{1,10}(bitcoin|btc|crypto).{1,10}wallet has been funded/i
+
+/we have funded your portfolio with.{1,10}(bitcoin|btc|crypto)/i
+
+# Bitcoin mining
+# ------------------------------------------------------------------------------
+/i work.{1,10}leading.{1,10}cryptocurrency/i
+
+/our platform for.{1,15}bitcoin mining/i
+/our own mining farm/i
+
+# Scam
+# ------------------------------------------------------------------------------
+/elon musk bitcoin/i
+/trump.{0,10}(coin movement|meme)/i
+
+#
+#
+#
+
+# Airdrop
+# ------------------------------------------------------------------------------
+/airdrop.{1,10}(access|to claim)/i
+/(get your|receive).{1,10}free.{1,10}airdrop/i
+/opportunity.{1,10}receive.{1,10}airdrop/i
+
+/exclusive.{1,10}airdrop.{1,10}event/i
+
+# ETF (Exchange Traded Funds)
+# ------------------------------------------------------------------------------
+/activate your etf bot/i
+/bot.{1,10}by clicking here/i
+
+# BNB
+# ------------------------------------------------------------------------------
+/we.{1,10}giving away.{1,15}bnb/i
+
+# NFT
+# ------------------------------------------------------------------------------
+/latest nft collection/i
+/free.{1,10}nft.?offer/i
+
+# NAGA Coin
+# ------------------------------------------------------------------------------
+/ngc tokens.{1,10}absolutely free/i
+
+/claim your.{1,10}\d{3}.{1,10}ngc coins/i
+
+# Fancy Titles
+# ------------------------------------------------------------------------------
+
+# Silly Lies
+# ------------------------------------------------------------------------------
+/your.{1,15}wallet has been funded with.{1,10}btc/i
+
+#
+#
+#
+
+# Unclassified
+# ------------------------------------------------------------------------------
+/requires.{1,10}users to verify their wallets/i

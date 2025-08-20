@@ -1,0 +1,230 @@
+# ==============================================================================
+# Sale: Anything, Score level HIGH
+#
+# ----|----------------|
+#  10 | English        |
+# ==============================================================================
+
+# Bags
+# ------------------------------------------------------------------------------
+/bags at only/i
+/(luxury|top).{1,10}bags?/i
+
+# Blender
+# ------------------------------------------------------------------------------
+/portable blender.{1,10}juicer/i
+
+# Booster
+# ------------------------------------------------------------------------------
+/boost your.{1,10}device performance/i
+/speed.?pro.adapter/i
+
+# Cushion, Pillow
+# ------------------------------------------------------------------------------
+/(cushion|pillow).{1,10}(revolutionize|transforms)/i
+/(comfortable|fluff|our|seat|zen).{1,10}(cushion|pillow)/i
+/revolutionary way to sit/i
+
+# Device to save energy
+# ------------------------------------------------------------------------------
+/end.{1,10}power bills/i
+/way to cut.{1,10}bills/i
+
+# Drone
+# ------------------------------------------------------------------------------
+/tactic(al)?.{0,10}drone/i
+
+
+# Door lock
+# ------------------------------------------------------------------------------
+/face smart.{1,10}door.?lock/i
+
+# Fuel Saver
+# ------------------------------------------------------------------------------
+/cut your fuel costs/i
+/revolutionary.{1,10}fuel.?saver/i
+
+# Glasses
+# ------------------------------------------------------------------------------
+/night vision glasses/i
+/see clearer with this/i
+/get clear.?view/i
+/clear.?view now/i
+
+/smallest objects while driving/i
+
+# Insurance
+# ------------------------------------------------------------------------------
+
+# Insoles
+# ------------------------------------------------------------------------------
+/japanese.?insoles/i
+
+# IQ Test
+# ------------------------------------------------------------------------------
+/test your iq now/i
+
+# Knives
+# ------------------------------------------------------------------------------
+/huusk.{1,10}(can provide|handmade|knives)/i
+
+/the sharpest kitchen knife/i
+/get.{1,10}off.{1,10}huusk/i
+
+# Learning languages
+# ------------------------------------------------------------------------------
+/lingoget/i
+
+# Logo Products
+# ------------------------------------------------------------------------------
+/we can put your.{1,10}logo/i
+/your branded.{1,10}merch/i
+
+# Monocular
+# ------------------------------------------------------------------------------
+/portable monocular with/i
+/new tactical zoom/i
+
+# Power Washing
+# ------------------------------------------------------------------------------
+/pressurepro/i
+/power.?nozzle/i
+
+# Promotional Products
+# ------------------------------------------------------------------------------
+/logo products.{1,10}apparel/i
+/(apparel|logo products).{1,15}for your business/i
+
+/array.{1,10}logo products/i
+
+/opportunities for.{1,10}logo products/i
+
+/our promotional.{1,10}products can/i
+/high.?quality.{1,10}promotional.{1,10}products/i
+
+/we specialize.{1,10}crafting.{1,10}custom/i
+
+/your business.{1,10}branding/i
+/your company.{1,10}logo.{1,10}products/i
+
+/enhances your brand/i
+
+#
+/t.?shirts.{1,10}mugs/i
+/usb flash drives.{1,10}pens/i
+
+# Satellite TV
+# ------------------------------------------------------------------------------
+/antenna that gives you/i
+/enjoy.{1,10}your favorite.{1,10}shows/i
+
+# Streaming TV
+# ------------------------------------------------------------------------------
+/\d{3,4}.{1,10}worldwide.channels/i
+
+/ip.?tv.{1,10}your ultimate/i
+
+/exclusive ip.?tv access/i
+/get ready.{1,10}unmatched.{1,10}streaming/i
+
+/live channels.{1,10}movies.{1,10}series/i
+/movies.{1,10}series.{1,10}subscribe now/i
+
+/netflix.{1,10}hbomax.{1,10}amazonprime/i
+/hbomax.{1,10}amazonprime.{1,10}appletv/i
+/amazonprime.{1,10}appletv.{1,10}disney/i
+
+/(over|unlock).{1,10}\d{3,4}.{1,10}channels/i
+
+/be an iptv.?reseller/i
+/join iptv.{1,10}now/i
+/welcome to iptv/i
+/with best iptv/i
+/promotion.{1,10}our iptv/i
+
+/nexiptv/i
+
+# Tracker
+# ------------------------------------------------------------------------------
+
+# Videos
+# ------------------------------------------------------------------------------
+/we are.{1,10}leading video agency/i
+/we can create explainer.{1,10}video/i
+
+/creates business videos/i
+/business videos.{1,10}boost your marketing/i
+/video ads.{1,10}communicate.{1,10}company/i
+
+# Watches, Replicas
+# ------------------------------------------------------------------------------
+/rolex.?watch(es)?.{1,10}start at/i
+/rolex.?watch(es)?.{1,10}up to.{1,10}off/i
+
+/designer watches.{1,10}unbeatable prices/i
+/discount.?watches/i
+
+/louis.?vuiton.{1,10}outlet/i
+
+/luxury collections.{1,10}official/i
+
+# WiFi
+# ------------------------------------------------------------------------------
+/wifi.{1,10}anywhere.{1,10}anytime/i
+/muama.{0,5}ryoko/i
+/ryoko.{1,10}wlan/i
+
+#
+#
+#
+
+# Properties
+# ------------------------------------------------------------------------------
+/island property in dubai/i
+
+/luxury.{1,15}property.{1,10}finding/i
+/property.{1,10}finding.{1,10}service/i
+/property.{1,10}rising from/i
+
+/exquisite luxury (penthouses|villas).{1,10}apartments/i
+/luxury home buyers locate/i
+/qualified buyers can apply/i
+
+/arrange viewings over.{1,15}(skype|wechat)/i
+
+/we.{1,15}find you the right property/i
+/we.{1,10}offer{1,15}luxury.{1,10}properties/i
+
+#
+/invest in.{1,10}luxury property/i
+
+# Software (illegal)
+# ------------------------------------------------------------------------------
+/office.{1,15}(plus|professional).{1,10}license key to download/i
+
+#
+#
+#
+
+# Unclassified
+# ------------------------------------------------------------------------------
+/i work for.{1,10}company who provides/i
+/your web.?site.{1,10}found.{1,10}we have many similar/i
+
+/esaver/i
+
+# Oprah
+/oprah{1,10}(approved|favorites?)/i
+/shop.{1,10}oprah/i
+
+# Masked
+# ------------------------------------------------------------------------------
+
+#
+#
+#
+
+# FRENCH
+# ------------------------------------------------------------------------------
+/le fichier des professionnels en/i
+/euros pour.{1,10}\d{2,3}.{1,10}emails/i

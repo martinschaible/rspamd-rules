@@ -1,0 +1,28 @@
+# ==============================================================================
+# Base: Phrases Unsubscribe from mailings
+#
+# ----|----------------|
+#  10 | English        |
+# ==============================================================================
+
+# Unsubscribe
+# ------------------------------------------------------------------------------
+/from out mailing.?list.{1,10}do so by clicking/i
+
+/you can opt out by sending a letter to/i
+/you do not want.{1,10}receive.{1,10}e?.?mails from us.{1,10}you.{1,10}go right here/i
+/you enjoy receiving this message.{1,15}if you.{1,10}(prefer|rather) not to receive/i
+/you may unsubscribe.{1,10}from these.{1,10}notifications/i
+/you want to say bye.?bye from.{1,10}future updates/i
+/you would no longer.{1,10}to receive.{1,10}e?.?mail.?advertisements from/i
+
+/you opted in to receive.{1,10}e?.?mails.{1,10}you requested information.{1,10}purchased/i
+
+# Unclassified
+# ------------------------------------------------------------------------------
+/with the message.{1,10}i am not interested/i
+/you are not interested.{1,10}we would appreciate it if you/i
+/your data has been collected in accordance with/i
+
+# Masked
+# ------------------------------------------------------------------------------

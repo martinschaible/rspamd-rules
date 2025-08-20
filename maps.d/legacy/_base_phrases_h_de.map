@@ -1,0 +1,127 @@
+# ==============================================================================
+# Base: Bad Phrases, Score level HIGH
+#
+# ----|----------------|
+#  10 | German         |
+# ==============================================================================
+
+# Answer
+# ------------------------------------------------------------------------------
+/sie sich bei mir.{1,10}alle informationen zu erhalten/i
+/weiter.?geht.{1,10}antworten sie umgehend per e?.?mail/i
+
+# Contact
+# ------------------------------------------------------------------------------
+/ich habe mich entschieden.{1,10}sie zu kontaktieren/i
+/kontaktieren sie uns noch heute über unsere.{1,10}e?.?mail.?adresse/i
+
+/direktnachricht an diese.{1,10}e?.?mail.?adresse/i
+
+# E-Mail
+# ------------------------------------------------------------------------------
+/(lieber|sehr geehrter) e?.?mail.?benutzer/i
+
+/ich wollte.{1,10} an meine letzte e?.?mail/i
+/nachricht bei guter gesundheit sind/i
+
+/sie der richtige besitzer dieser.{1,10}e?.?mail/i
+/sie den besitz dieser.{1,10}e?.?mail.{1,10}bestätigen/i
+/sie (diese|ihre).{1,10}e?.?mail.{1,10}nicht mehr benutzen/i
+/sie gelegenheit.{1,10}meine.{1,10}e?.?mail.{1,10}einzusehen/i
+
+# E-Mail active/correct
+# ------------------------------------------------------------------------------
+/wenn dies ihre gültige.{1,10}e?.?mail.?adresse ist/iu
+
+/(bestätigen sie|sie mir.{1,10}mitteilen).{1,15}(diese|ihre).{1,10}e?.?mail.{1,15}aktiv ist/iu
+
+/ist das deine e?.?mail/i
+
+/dass diese.{1,10}e?.?mail.?adresse aktiv ist/i
+/(diese|ihre).{1,10}e?.?mail.?adresse.{1,40}noch aktiv ist/i
+/(diese|ihre).{1,10}e?.?mail.{1,15}noch aktiv ist.{1,10}kontaktieren sie/i
+
+/verwenden Sie diese.{1,10}e?.?mail.{1,15}noch/i
+/wissen.{1,15}(diese|ihre).{1,10}e?.?mail.{1,15}korrekt ist/i
+
+# E-Mail received
+# ------------------------------------------------------------------------------
+/e?.?mail erhalten haben.{1,10}die ich ihnen gesendet habe/i
+
+/hallo.{1,10}haben sie unsere letzte.{1,10}e?.?mail.{1,10}erhalten/i
+/hallo.{1,5}hast du es erhalten/i
+/hallo.{1,10}ich habe ihnen eine.{1,10}e?.?mail.{1,10}geschickt/i
+/hallo.{1,10}lieber.{1,15}hast du meine.{1,10}(letzte|vorherige).{1,10}e?.?mail erhalten/i
+
+/teilen sie mir.{1,10}mit.{1,10}sie diese.{1,10}e?.?mail.{1,10}erhalten haben/i
+/sie mir.{1,10}bitte mit.{1,10}sie diese.{1,10}e?.?mail.{1,10}erhalten haben/i
+
+/wissen.{1,10}ob sie meine.{1,10}e?.?mail.{1,10}erhalten haben/i
+
+# Excuses and other silly stuff
+# ------------------------------------------------------------------------------
+/ich.{1,10}um ihre aufmerksamkeit bitten/i
+
+/es ist mir eine freude.{1,10}ihnen zu schreiben/i
+
+/nachricht auf diesem weg zu ihnen gelangt ist/i
+/sich auf diese weise an sie zu wenden/i
+/wenn ich ihre privatsphäre störe/iu
+
+# How they get the E-Mail address
+# ------------------------------------------------------------------------------
+/ich habe.{1,10}ihre.{1,10}adresse.{1,10}gefunden/iu
+/ich habe.{1,10}ihre.{1,10}adresse.{1,10}ein online.?verzeichnis/i
+/ich habe.{1,10}ihre.{1,10}e?.?mail.{1,15}ein online.?e?.?mail/i
+/ich habe.{1,10}ihre.{1,10}e?.?mail.{1,15}von google.{1,15}erhalten/i
+/ich habe.{1,10}ihre.{1,10}kontaktdaten bei meiner suche/i
+
+/ich habe.{1,10}ihren kontakt auf ihrer web.?site gefunden/i
+
+/ich habe.{1,10}beim surfen ihre.{1,10}e?.?mail/i
+
+/ihre.{1,10}e?.?mail(.?adresse)?.{1,10}bei einer suche im internet entdeckt/i
+/ihre.{1,10}e?.?mail(.?adresse)?.{1,10}wurde von google/i
+
+# Important, Serious
+# ------------------------------------------------------------------------------
+/ich etwas.{1,10}wichtiges mit ihnen besprechen muss/i
+
+/ich.{1,10}habe sehr wichtige informationen für sie/iu
+/ich.{1,10}habe etwas sehr wichtiges mit ihnen zu besprechen/i
+/ich.{1,10}habe eine.{1,10}wichtige information/i
+
+/ihnen vor.{1,15}tagen einen dringenden brief geschickt/i
+/mit ihnen ein ernstes thema vertraulich/i
+
+/sie kontaktieren.{1,10}ich etwas sehr wichtiges/i
+
+/wichtig.{1,10}wir.{1,10}e?.?mail.{1,10}kommunizieren/i
+/wichtig.{1,10}mit ihnen zu besprechen.{1,10}bitte antworten/i
+/wichtigen brief an.{1,10}e?.?mail.?adresse gesendet/i
+
+# Silly lies
+# ------------------------------------------------------------------------------
+/folgende nachricht konnte nicht auf ihr mobiltelefon/i
+/ihnen eine.{1,10}(e?.?mail|nachricht).{1,10}geschick.{1,10}die.{1,15}(unzustellbar|zurückkam)/iu
+
+#
+#
+#
+
+# Unclassified
+# ------------------------------------------------------------------------------
+/ihr gewinner.?team/i
+
+/absolut legal und.{1,5}100.{1,5}risikofrei/i
+
+/hier ist die letzte warnung/i
+
+/sie zu erreichen.{1,10}ich würde mich über eine.{1,15}antwort freuen/iu
+/warum haben sie nicht auf unsere vorherige.{1,10}e?.?mail.{1,10}geantwortet/i
+/wir freuen uns.{1,10}mit ihnen in kontakt zu treten/i
+
+/\].{1,10}bestätigen sie/iu
+
+/(geehrter|lieber)[a-z]kunde/i
+/sehr[a-z]geehrter/i

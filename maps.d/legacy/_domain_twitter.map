@@ -1,0 +1,24 @@
+# ==============================================================================
+# Domain Twitter used for image hosting
+#
+# ----|
+# 1.1 |
+# ----|
+#  10 |
+# ==============================================================================
+
+# Link
+# ------------------------------------------------------------------------------
+/<a href=(3d)?"https:\/\/t\.co\/[a-z0-9]{5,15}" target=(3d)?"_blank"/i
+/<a href=(3d)?"https:\/\/t\.co\/[a-z0-9]{5,15}" style="background-color:/i
+
+/https:\/\/t\.co\/[a-z0-9]{5,15}" target=(3d)?"_blank"><img src=(3d)?"https/i
+
+# As image map
+# ------------------------------------------------------------------------------
+/<img src="https:\/\/pbs\.twimg\.com\/media\/[a-z0-9]{1,20}\?format=png&amp;name=small" usemap="#image-map">/i
+
+# Combination with other domain
+# ------------------------------------------------------------------------------
+/https:\/\/t\.co\/(.|\n)*static\.wixstatic\.com/i
+/https:\/\/t\.co\/(.|\n)*\.googleusercontent\.com/i

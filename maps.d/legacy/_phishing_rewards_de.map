@@ -1,0 +1,195 @@
+# ==============================================================================
+# Phishing: Rewards
+#
+# ----|
+# 1.1 |
+# ----|----------------|
+#  10 | German         |
+# ==============================================================================
+
+# Winning, Present, Rewards, Voucher
+# ------------------------------------------------------------------------------
+/ausstehend.{1,10}bestellen sie/i
+
+/bestätigen sie den erhalt.{1,10}(belohnung|geschenk|gutschein|preis)/i
+/bestätigen sie ihre angaben.{1,10}der versand/i
+
+/gewinn.{1,10}sichern.{1,10}nehmen sie an unserer umfrage teil/i
+
+/gewinner.{1,10}unserer neuesten umfrage/i
+/gewinner.{1,10}daten eingeben/i
+/gewinnern.{1,10}geschenks ausgewählt/iu
+
+/gewinnenden preise.{1,10}begrenzt/i
+
+/chance.{1,10}von.{1,20}gutschein zugewinnen/i
+/chance.{1,10}von.{1,20}wunschgutscheinen/i
+
+/beanspruche jetzt kostenlos/i
+
+/gutschein.{1,10}(anfordern|beanspruchen)/i
+/belohnungen.{1,10}sind angekommen/i
+/belohnung zu erhalten/i
+
+/(belohnung|geschenk|gutschein|preis).{1,10}für sie.{1,10}sie ausgewählt wurden/iu
+/(belohnung|geschenk|gutschein|preis).{1,10}ihren individuellen zugang/i
+/(belohnung|geschenk|gutschein|preis).{1,10}in anspruch zu nehmen/i
+/(belohnung|geschenk|gutschein|preis).{1,10}in beschränkter zahl verfügbar/iu
+/(belohnung|geschenk|gutschein|preis).{1,10}in nur wenigen tagen erhalten/i
+/(belohnung|geschenk|gutschein|preis).{1,10}ist noch nicht beansprucht/i
+/(belohnung|geschenk|gutschein|preis).{1,15}sie hinterlegt wurde/i
+/(belohnung|geschenk|gutschein|preis).{1,10}sie verfügbar sind/iu
+#/(belohnung|geschenk|preis).{1,10}wartet auf sie/i
+/(belohnung|geschenk|gutschein|preis).{1,10}wartet auf sie/i
+
+/kunden.?belohnung(en)?/i
+
+#
+/\d{2,3}.{1,10}(belohnung|geschenk|gutschein|preis) auf sie wartet/i
+
+/wir für den versand ihres.{1,10}preises.{1,10}benötigen/iu
+
+/ihren gewinn zu bestätigen/iu
+/ihren.{1,10}prämie genehmigt hat/iu
+
+/jetzt erhalt bestätigen/i
+
+/kostenlos.{1,15}(treueprogramm|verlosung).{1,10}teilzunehmen/i
+/kostenlos.{1,15}ganz neu/i
+
+/letzte mitteilung.{1,10}eine belohnung/i
+
+/paket auf ihren namen registriert/i
+
+/sich ihr kostenloses geschenk/i
+/sichern sie sich ihre gewinnchance/i
+
+/sie eine exklusive belohnung/i
+/sie diesen fantastischen preis erhalten/i
+/sie haben eine kostenlose.{10,25}gewonnen/i
+/sie sind einer von.{1,10}benutzern.{1,10}die wir im rahmen unseres treueprogramms/i
+/sie sind unser gewinner.{1,15}belohnung/i
+
+/(gratis|kostenlos).{1,10}guthabenkarte/i
+/besuchen sie unser gewinnerportal/i
+/lieber kunde.{1,15}(belohnung|geschenk|gutschein|preis) abholen/i
+/werbegeschenke zu gewinnen/i
+
+/unserer? exklusiven?.{1,10}verlosung(en)?/i
+/wir verlosen.{1,10}\d{2,3}.{1,15}gutscheine/i
+
+/verlosung ausgewählt wurden/iu
+
+# Link
+/klicken sie hier.{1,10}um einen anspruch/i
+/klicken sie hier.{1,10}um die belohnung/i
+/klicken sie hier.{1,10}um zu beginnen/i
+
+/hier klicken.{1,10}\d{2,3}.{1,15}(belohnung|geschenk|gutschein|preis)/i
+
+# Present/Surprise box
+/lagerverkaufs.{1,10}geschenkbox/i
+
+# Brandnew
+/brandneues.{1,10}produkt zu erhalten/i
+/du hast ein brandneues.{1,20}bekommen/i
+/(haben die|ihnen die).{1,10}(einmalige|exklusive).{1,10}gelegenheit.{1,10}ein brandneues/i
+/gewinnern? eines brandneuen/i
+
+# Voucher
+
+# Make pressure to the winner
+/preis ist noch nicht beansprucht/i
+/preis zu beanspruchen.{1,10}müssen sie/iu
+
+# Companies, Products
+# ------------------------------------------------------------------------------
+/kaufland.{1,10}company/i
+/team.{1,10}kaufland/i
+
+# ADAC, TCS
+/(auto|kfz).?notfall.?set.{1,15}(genehmigt|gewinnen|schenken|sichern|wartet)/i
+/notfallset.{1,10}im auto/i
+
+/(chance|erhalten|exklusives|fordern|gewinnen|kostenloses).{1,15}(auto|kfz).?notfall.?set/i
+/(ihr|dieses).{1,15}(auto|kfz).?notfall.?set/i
+
+# AliExpress
+/erhalten sie.{1,10}aliexpress.{1,10}mystery.?box/i
+
+# Airdrop
+/exklusiven airdrop.?(aktion|gelegenheit)/i
+/airdrop.{1,10}zu ergattern/i
+
+# iPhone
+/iphone.{0,10}pro.{1,10}ausstehende sendung/i
+
+/ihr brandneues.{1,10}iphone.{0,10}pro wartet/i
+/jubiläums?.{1,10}erhalten sie.{1,10}iphone/i
+
+/sie haben ein.{1,10}iphone.{0,10}pro gewonnen/i
+/wir verlosen ein iphone.{1,10}im gesamtwert/i
+
+# Samsung
+/hole? dir jetzt dein samsung/i
+
+# Mystery box, Surprise
+/mystery.?box.{1,15}(gelegenheit|sendung|steht bereit)/i
+
+# Choosen
+# ------------------------------------------------------------------------------
+/auserwählt.{1,10}für das.{1,10}gewinnspiel/i
+
+/herzlichen glückwunsch.{1,10}sie wurden ausgewählt/iu
+/(du|sie) (gehören|gehörst) zu den.{1,10}auserwählten/iu
+/du bist der erste unter vielen/i
+
+/sie den exklusiven.{1,15}gewinn/i
+/sie diese e?.?mail erhalten.{1,10}wurde.{1,10}e?.?mail.?adresse/i
+/sie stehen auf der gewinnerliste/i
+/sie wurden für eine.{1,15}belohnung ausgewählt/iu
+/sie wurden ausgewählt.{1,10}an unserem.{1,15}treueprogramm/iu
+/sie wurden ausgewählt.{1,10}kostenlos/i
+
+/verfahren wurde.{1,10}e?.?mail.{1,10}ausgewählt/i
+
+# Contact data
+# ------------------------------------------------------------------------------
+/bitte geben sie.{1,10}(daten|details) an/i
+/geben sie die erforderlichen informationen an/i
+/geben sie ihre liefer.?(daten|details) ein/i
+
+/liefer.?(daten|details).{1,10}den untenstehenden link/i
+/liefer.?(daten|details) jetzt eingeben/i
+
+# Possible winner
+# ------------------------------------------------------------------------------
+/finalisten für ein gratis.{1,15}probierpaket/iu
+/(einer|gehören zu).{1,10}unserer möglichen finalisten/iu
+/(exklusive|sichere).{1,10}chance auf ein.{1,15}produktpaket/i
+
+/ihre chance.{1,10}auf eine kostenlose/i
+/ihre chance.{1,10}ein kostenloses/i
+/sie als finalist.{1,10}unsere.{1,30}verlosung/i
+/sie als möglicher gewinner/iu
+/sie haben.{1,10}die chance.{1,10}eine.{1,60}im wert von.{1,10}zu gewinnen/i
+
+/(du|sie) der.{1,15}(exklusiv|mögliche).{1,15}gewinner/i
+
+#
+#
+#
+
+# Unclassified
+# ------------------------------------------------------------------------------
+/bestätigung.{1,10}ihre bestellung zu (versenden|verschicken)/iu
+/details für die preiszustellung.{1,10}erforderlich/iu
+
+/fangen sie an.{1,10}kostenlos/i
+/jetzt antworten und dein.{1,20}sichern/i
+/unserer?.{1,10}aktivierungsplattform/i
+
+/100%.{1,10}gratis mitmachen/i
+
+# Masked
+# ------------------------------------------------------------------------------

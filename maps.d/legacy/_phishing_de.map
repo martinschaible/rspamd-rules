@@ -1,0 +1,309 @@
+# ==============================================================================
+# Phishing: Anything
+#
+# ----|----------------|
+#  10 | German         |
+# ==============================================================================
+
+# Fake Money
+# ------------------------------------------------------------------------------
+/ihren verbleibenden guthabenbetrag auf.{1,15}konto/i
+/restbetrag in ihrem portemonnaie/i
+/zurückzuerhalten.{1,10}klicken sie.{1,15}auf den unten stehenden link/i
+
+# Checking company data
+# ------------------------------------------------------------------------------
+/basisinformationen ihres unternehmens durchzuführen/iu
+/basisdaten ihres unternehmens durch/i
+/ihre.{1,10}unternehmensdaten sind nicht mehr aktuell/i
+/ihre.{1,10}unternehmensdaten zu prüfen/iu
+
+/unternehmensinformationen ansehen/i
+/wichtiger hinweis.{1,10}ihre.{1,10}unternehmensdaten/i
+
+# Festgeld angebote
+# ------------------------------------------------------------------------------
+/festgeld.{1,10}check/i
+/jetzt.{1,10}festgeld.?angebote vergleichen/i
+
+/mit unserem.{1,10}minuten.{1,15}check/i
+
+# Fake Reminders
+# ------------------------------------------------------------------------------
+
+#
+#
+#
+
+# Court, Police
+# ------------------------------------------------------------------------------
+/anhang.{1,10}antworten sie uns umgehend/i
+/anhang.{1,10}zur kenntnis.{1,10}antworten sie uns so schnell/i
+
+/anzeige.{1,10}von ihnen begangenen straftat/i
+
+/justiz.{1,10}klage.{1,10}bitte lesen sie/i
+
+/sie werden gebeten.{1,10}die.{1,20}vorladung zu lesen/iu
+/strafverfahren.{1,10}weitere informationen/i
+
+# Collecting personal data
+# ------------------------------------------------------------------------------
+/angaben.{1,10}die.{1,10}kostenfreie teilnahme/i
+
+/bestätigen sie ihre angaben.{1,10}mit.{1,10}glück/iu
+/seiten? ihre.{1,15}ein.{1,20}wir ihnen.{1,10}gewinn zusenden/i
+
+/\d{2,4}.{1,10}euro.{1,10}bestätige deine angaben/i
+
+# Domain Registration
+# ------------------------------------------------------------------------------
+
+# Return for double payed invoices
+# ------------------------------------------------------------------------------
+/benachrichtigung zur rückerstattung/iu
+
+/rechnung.{1,10}den monats?.{1,30}(doppelt|zweimal).{1,10}(bezahlt wurde|erfolgt ist)/i
+/rechnung.{1,10}für.{1,20}(doppelt|zweimal).{1,10}(bezahlt wurde|erfolgt ist)/i
+/rechnung.{1,10}versehentlich doppelt bezahlt wurde/i
+
+/kredit?.karte.{1,10}wurde doppelt belastet/i
+
+/doppelte zahlung.{1,15}ihre rechnung/i
+/doppelte zahlung.{1,15}rechnung.{1,15}verursacht wurden/i
+/doppelte zahlung.{1,10}verarbeitet wurde/i
+
+/(doppelt|zweimal).{1,10}(bezahlt wurde|erfolgt ist).{1,10}um eine erstattung/i
+/(doppelt|zweimal).{1,10}in rechnung gestellt wurden?/i
+
+/doppelabrechnung für.{1,25}gibt/i
+
+/füllen sie das rückerstattungsformular aus/iu
+
+/ihre rechnung doppelt bezahlt wurde/i
+/erstattung anfordern/i
+/mitteilung zur rückerstattungsanfrage/iu
+
+/rückerstattung.{1,10}(beantragen|bestätigen)/i
+/rückerstattung.{1,10}wird.{1,15}bearbeitet/iu
+/rückerstattung.{1,10}zu überprüfen/iu
+/rückerstattungs.?link/iu
+
+/rückerstattungsanforderung.{1,10}erfolgreich akzeptiert/iu
+/rückerstattungsstatus überprüfen/iu
+
+/rückerstattungsanfrage.{1,10}sehr geehrter?/i
+/sie haben.{1,10}anspruch auf rückerstattung/i
+/sie möglicherweise anspruch.{1,15}rückerstattung/iu
+
+/zurückerhalten.{1,10}indem sie unten klicken/iu
+
+/sicheren rückerstattungsprozess/iu
+/sofortige rückerstattung zu erhalten/iu
+/system aufgetreten ist.{1,10}der zu einer belastung/i
+
+/(link|sie ein).{1,15}eine rückerstattung zu (beantragen|erhalten)/iu
+
+/online.?erstattungszahlung/i
+
+/(monat|2024).{1,15}versehentlich doppelt erfolgt ist/i
+
+/wichtige informationen zur rückerstattung/iu
+/wir festgestellt.{1,10}dass.{1,10}eine.{1,10}rückerstattung/iu
+/zu einer doppelten rechnungsstellung gekommen ist/i
+
+#
+/ihnen.{1,10}helfen.{1,10}ihr geld zurückzubekommen/iu
+
+# Train ticket
+/erstattungsticket akzeptiert/i
+
+# Failed Payments
+# ------------------------------------------------------------------------------
+/die letzte Zahlung nicht korrekt verarbeitet wurde/i
+/öffnen sie die rechnung/i
+
+/zahlungsoption.{1,15}ungültig markiert/iu
+
+/wir haben schwierigkeiten.{1,10}den betrag der letzten rechnung/i
+
+/unterbrechung ihrer (dienste|services) zu vermeiden.{1,25}die zahlung.{1,20}(durchzuführen|überprüfen|zeitnah)/iu
+/klick auf den.{1,20}button.{1,10}können sie die zahlung/iu
+
+# Payments
+# ------------------------------------------------------------------------------
+/klicken sie hier.{1,10}um.{1,10}zahlung zu erhalten/i
+/geld zu beanspruchen.{1,10}aktualisieren sie.{1,20}ihre informationen/i
+
+/guten tag.{1,10}ihre letzte mobilrechnung/i
+/es steht noch eine zahlung aus/i
+/zahlung.{1,10}die.{1,10}noch nicht gesendet wurde/i
+
+/rechnung.{1,15}sehr geehrte kundin/i
+/sie ein ungenutztes guthaben von.{1,10}euro/i
+/link.{1,10}verwenden.{1,10}um ihr geld zu erhalten/i
+
+/button.{1,10}um die rechnung herunterzuladen/i
+
+/zahlung.{1,10}überprüfen/iu
+
+# Subscriptions
+# ------------------------------------------------------------------------------
+/abrechnung des kundendienstes/i
+/aktion erforderlich.{1,10}wir bedauern/i
+/antworten sie.{1,10}bevor ihre.{1,10}mitgliedschaft/i
+
+/abrechnungszyklus.{1,10}abonnements? nicht autorisieren/i
+
+/abonnement.{1,10}abgelehnt/i
+/abonnements?.{1,10}aufgrund fehlerhafter zahlungsinformationen/i
+/abonnements?.{1,10}aufgrund fehlgeschlagener zahlung(en)? ausgesetzt wurden?/i
+/abonnements?.{1,10}ausgesetzt wurde.{1,10}beim letzten versuch/i
+/abonnements?.{1,10}die zahlung wurde abgelehnt/i
+
+/das ablaufen ihrer zahlungskarte/i
+/gezwungen.{1,10}ihr abonnement vorübergehend zu deaktivieren/iu
+/hallo.{1,10}es gab ein problem mit.{1,10}zahlung/i
+
+/ihre.{1,10}abonnementzahlung zu aktualisieren/i
+/ihre.{1,10}mitgliedschaft.{1,10}ausgesetzt haben/i
+/ihre.{1,10}zahlungsdaten.{1,10}noch einmal angeben/i
+
+/reaktiviere mein.{1,10}abonnement/i
+/vorübergehend gesperrt.{1,15}verlängerung.{1,15}abonnements?/iu
+
+/zahlungsinformationen.{1,15}sie ihre vorteile nicht verlieren/i
+
+# Tax
+# ------------------------------------------------------------------------------
+/wichtige mitteilung.{1,10}steuererstattung/i
+
+/ihnen eine steuererstattung/i
+
+/unregelmäßigkeit(en)?.{1,15}steuererklärung(en)?.{1,10}festgestellt haben/iu
+
+/freundlichen grüßen.{1,10}finanzbehörde/iu
+
+# Accept AGB
+# ------------------------------------------------------------------------------
+/agb.{1,10}handlungsbedarf bis zum/i
+/neue agb überprüfen.{1,10}akzeptieren/iu
+
+/schaltfläche.{1,15}die neuen bedingungen zu akzeptieren/iu
+
+#
+#
+#
+
+# Companies, Government
+# ==============================================================================
+
+# AutoScout24
+/lieber autoscout24.?kunde/i
+
+# Apple
+# ------------------------------------------------------------------------------
+/sie ihre.{1,10}apple.?id wieder aktivieren/i
+/reaktivieren sie ihre.{1,10}apple.?id/i
+
+# Bundeszentralamt für Steuern
+# ------------------------------------------------------------------------------
+/direkten link zu dieser meldung/ui
+/gerichteten bescheid erlassen.{1,10}den sie als inhaber erhalten/i
+
+# Deutschlandradio
+# ------------------------------------------------------------------------------
+/rundfunkbeitrag.?team/i
+
+# DSGVO
+# ------------------------------------------------------------------------------
+/abmahnung wegen möglicher verstöße gegen die dsgvo/i
+/prüfung ihrer website ist uns aufgefallen/iu
+
+# Handelskammer IHK
+# ------------------------------------------------------------------------------
+/melden sie sich bei der.{1,15}neu an/i
+
+# Intrum
+/sie vorab eine kopie unseres mahnschreibens/i
+/die offene rechnung anzuzeigen/i
+
+# Meta
+# ------------------------------------------------------------------------------
+/überprüfung anfordern/i
+/einreichen.{1,10}wird ihr werbekonto dauerhaft gesperrt/i
+/ihrem werbekonto auf unserer plattform informiert/i
+
+# Netflix
+# ------------------------------------------------------------------------------
+/verlieren sie ihre aktuellen episoden nicht/i
+/wir wollen dich immer noch zurück/i
+
+# Ricardo
+# ------------------------------------------------------------------------------
+/sieh dir den verkauf an/i
+
+# SBB
+# ------------------------------------------------------------------------------
+/sbb cff ffs.{1,10}sehr geehrter kunde/i
+
+# Swiss Tax Office 
+# ------------------------------------------------------------------------------
+/sehr geehrter steuerzahler/i
+
+/estv rückerstattung/iu
+/steuerverwaltung freut sich/i
+
+# Swiss Police
+# ------------------------------------------------------------------------------
+/finden sie das für sie relevante dokument/iu
+
+/eingetretenen tatsachen ihres schuldhaften/i
+
+/ihre ip.?adresse gesammelt hat/i
+
+/polizeibericht gegen ihre internet/i
+
+/sehr geehrte.{1,15}wir haben die ehre/i
+/sie das beigefügte dokument sorgfältig durch/iu
+/sie haben eine vorladung erhalten/i
+/sind sie gegenstand von.{1,10}anklagepunkten/i
+
+/vorladung.{1,20}erfordernisse einer gerichtlichen/i
+
+# Swiss Post
+# ------------------------------------------------------------------------------
+/rechnung zu ihrer postfach.?jahresmiete/i
+/die post.{1,10}dear customer/i
+
+# TCS
+# ------------------------------------------------------------------------------
+/wir haben eine.{1,10}überraschung.{1,10}touring club/i
+
+#
+#
+#
+
+# Unclassified
+# ------------------------------------------------------------------------------
+/dringende handlung erforderlich/i
+/aktion erforderlich.{1,10}wir sind.{1,20}nicht in der lage/i
+
+/du ein überweisung machen/iu
+
+/formular so bald wie möglich ab/iu
+/lesen sie diesen hinweis sorgfältig durch/iu
+
+/(lieber|sehr geehrter) kunde.{1,10}wir möchten sie.{1,15}darauf aufmerksam machen/iu
+/(lieber|sehr geehrter) kunde.{1,10}wir haben probleme/i
+
+/schauen sie sich das bild unten an/i
+/sehr geehrte.{1,5}wir möchten/ui
+
+/hallo.{1,10}finanzübersicht/i
+
+/ihr.{1,15}sicherheitsteam/i
+/ihr.{1,15}schutz ist nicht aktiv/i
+
+# Masked
+# ------------------------------------------------------------------------------

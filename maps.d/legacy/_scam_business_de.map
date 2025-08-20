@@ -1,0 +1,77 @@
+# ==============================================================================
+# Scam: Business, Partnership, Proposals, Projects
+#
+# ----|
+# 1.1 |
+# ----|----------------|
+#  10 | German         |
+# ==============================================================================
+
+# Business
+# ------------------------------------------------------------------------------
+/angebot für eine.{1,10}geschäfts.?partnerschaft/iu
+
+/beide seiten.{1,10}vorteilhaftes.{1,10}geschäft im wert von/iu
+/beide seiten.{1,10}vorteilhaften.{1,10}(gelegenheit|geschäfts.?vorschlag)/iu
+
+/geschäft.{1,10}für sie.{1,10}kontaktieren sie mich/iu
+/geschäft.{1,10}im wert von.{1,15}(millionen|mio).{1,10}(von dem ich|zu besprechen)/iu
+
+/geschäft.{0,5}(angebot|vorschlag).{1,10}ich mit ihnen teilen/i
+/geschäft.{0,5}(angebot|vorschlag).{1,10}im wert von.{1,10}millionen.{1,10}(dollar|euro?|gbp|usd)/i
+/geschäft.{0,5}(angebot|vorschlag).{1,10}schreiben sie.{1,10}meine e?.?mail/iu
+/geschäft.{0,5}(angebot|vorschlag).{1,10}sie interessiert sind/i
+/geschäft.{0,5}(angebot|vorschlag).{1,10}von dem wir.{1,10}profitieren/i
+/geschäft.{0,5}(angebot|vorschlag).{1,10}zu kontaktieren/iu
+
+/geschäfts.?partnerschaft.{1,10}kontaktieren sie mich/i
+
+/ich.{1,10}brauche ihre.{1,10}partnerschaft/i
+/ich.{1,10}eine?.{1,10}(lukrative|profitable).{1,10}geschäfts?.{0,5}(angebot|möglichkeit|vorschlag)/iu
+
+/ich habe.{1,10}einen.{1,10}(vorteilhaften|wichtigen).{1,10}vorschlag/i
+/ich habe.{1,10}ein.{1,15}geschäft für sie/iu
+/ich habe.{1,10}ein.{1,15}geschäfts{0,5}(angebot|vorschlag)/iu
+/ich habe.{1,10}ein.{1,15}geschäfts?.{1,15}das ich.{1,10}mit ihnen/i
+/ich habe.{1,10}ein.{1,10}projekt.{1,15}kontaktieren sie mich/i
+
+/ich habe.{1,10}ein.{1,10}dringendes geschäft/iu
+/ich habe.{1,10}ein.{1,15}vorschlag.{1,10}der für uns von vorteil/i
+
+/ich habe.{1,10}einen.{1,10}deal für sie/i
+
+/ich mit ihnen ein.{1,10}geschäft machen/iu
+/ich suche einen.{1,10}vertrauenswürdigen partner/iu
+
+/ihre unterstützung.{1,15}durchführung.{1,15}projekts/i
+
+/ihnen.{1,10}ein.{1,10}gutes geschäft zu sprechen/iu
+/ihnen.{1,10}ein(en)?.{1,15}geschäfts.{0,5}(angebot|möglichkeit|vorschlag).{1,10}(im wert von|mitteilen|vorstellen)/iu
+/ihnen.{1,10}ein(en)?.{1,15}(gute|wertvolle)(n|s).{1,10}geschäfts.{0,5}(angebot|vorschlag)/iu
+/ihnen.{1,10}einen wichtigen vorschlag machen/i
+
+/antworten sie für weitere details/iu
+/bespreche ich mit ihnen einen.{1,10}vorschlag.{1,10}der.{1,15}von interesse/i
+
+/kontaktiere sie.{1,15}eines.{1,10}geschäfts.{0,5}(angebot|vorschlag)/iu
+/meine vorherige.{1,10}e?.?mail erhalten.{1,10}ich habe ein.{1,10}profitables/i
+/projekt.{1,10}sie mit mir abwickeln können/iu
+/rendite bietet.{1,15}kontaktieren sie mich/i
+
+/sie.{1,10}mit einer.{1,10}lukrativen geschäftsmöglichkeit/iu
+/sie.{1,10}zu kontaktieren.{1,10}um ein.{1,10}geschäft/iu
+/sie.{1,10}von interesse sein.{1,10}weitere informationen/i
+
+/vorschlag.{1,10}im wert von.{1,10}millionen.{1,10}(dollar|euro?|gbp|usd)/i
+/vorschlag.{1,10}mit ihnen besprechen.{1,10}sie ihn.{1,25}berücksichtigen/iu
+/vorschlag.{1,15}wir beide profitieren/i
+
+#
+#
+#
+
+# Unclassified
+# ------------------------------------------------------------------------------
+
+# Masked
+# ------------------------------------------------------------------------------

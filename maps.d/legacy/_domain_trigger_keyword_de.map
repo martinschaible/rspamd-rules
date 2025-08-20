@@ -1,0 +1,133 @@
+# ==============================================================================
+# Trigger: Keywords and Phrases
+#
+# -> Conditional -> Fired by the map "_domain_trigger.map"
+#
+# ----|
+# 1.1 |
+# ----|----------------|
+#  10 | German         |
+# ==============================================================================
+
+# A
+/abonnement/i
+/aktualisieren/i
+/akzeptieren/i
+/anmeldung/i
+/anschauen/i
+/auftragsbestätigung/iu
+/ausstehend/i
+
+# B
+/beitreten/i
+/belohnungen/
+/bestellen/i
+
+/blutdruck/i
+
+# C
+/chatten/i
+
+# D
+/details zu sehen/i
+
+# E
+/erfahren/i
+/erleben/i
+
+# F
+/finalist(en)/i
+/fortfahren/i
+/freundschaftsanfrage/i
+
+# G
+/gewicht/i
+/gewinnen/i
+/gratulieren/i
+/gutschein/i
+
+# H
+/holen sie/i
+
+# I
+/ihr paket/i
+/ihre.{1,15}bank/i
+/in.{0,5}tagen/i
+
+# J
+/jetzt kaufen/i
+
+# H
+/hier klicken/i
+
+# K
+/(bank|kredit).?karte/i
+/kilos/i
+/klick hier/i
+/kontaktaten/i
+
+# L
+/lieferadresse/i
+/lieferung/i
+/loslegen/i
+
+# M
+/mitmachen/i
+
+# N
+/nachricht/i
+
+# O
+/öffnen/iu
+
+# P
+/packet/i
+/profil/i
+/probieren sie/i
+
+# Q
+
+# R
+/rabatt/i
+/reaktivierung/i
+/rechnung/i
+/registrieren/i
+
+# S
+/sex/i
+/sperrung/i
+/starten/i
+/startseite/i
+
+/sexuell
+
+/sicherheits/i
+
+# T
+/transaktion/i
+
+# U
+/umfrage/i
+
+# v
+/verdienen sie/i
+/verfolgen/i
+/verlieren/i
+/verlosung/i
+/versuchen sie/i
+
+# W
+
+# X
+
+# Y
+
+# Z
+/zahlung/i
+/zugestellt/i
+/zustellung/i
+
+#
+# Companies, Services
+# ------------------------------------------------------------------------------
+/lufthansa team/i

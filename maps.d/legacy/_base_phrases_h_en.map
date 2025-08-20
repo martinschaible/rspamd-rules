@@ -1,0 +1,202 @@
+# ==============================================================================
+# Base: Bad Phrases, Score level HIGH
+#
+# ----|----------------|
+#  10 | English        |
+# ==============================================================================
+
+# Temporary: Malware, Downloads
+# ------------------------------------------------------------------------------
+/(accounts|payable).{1,10}shared (a file)?.?with you/i
+
+/xls.{1,10}it has been finalized/i
+/signed documents are attached/i
+
+# Addresses and titles
+# ------------------------------------------------------------------------------
+/marketing manager.{1,10}india.{1,10}whatsapp/i
+
+# Business
+# ------------------------------------------------------------------------------
+/you with keen hope to open.{1,10}business.relationship/i
+
+# E-Mail
+# ------------------------------------------------------------------------------
+/you through this your.{1,10}e?.?mail.{1,10}was abortive/i
+
+# E-Mail received
+# ------------------------------------------------------------------------------
+/(confirm|hello).{1,10}(did|if) you (get|receive).{1,10}(earlier|previous).{1,10}e?.?mail/i
+/confirm.{1,10}you received? my (last|previous).{1,10}e?.?mail/i
+
+/you get my e?.?mail.{1,10}haben sie/i
+
+/you received? the.{1,10}e?.?mail.{1,10}i sent to you/i
+/you received? my previous.{1,10}e?.?mail.{1,10}regards/i
+
+/your reply regarding the.{1,10}e?.?mail.{1,10}i sent to you/i
+
+# E-Mail surprise
+# ------------------------------------------------------------------------------
+/(my|this).{1,10}(e?.?mail|letter|message).{1,10}(came|come){1,10}surprise to you/i
+/(my|this).{1,10}(e?.?mail|letter|message).{1,10}(came|come){1,10}to you as.{1,10}surprise/i
+
+/you as a.{1,10}surprise as we have.{1,10}no previous correspondence/i
+
+# Excuses and other silly stuff
+# ------------------------------------------------------------------------------
+/barging.{1,10}your privacy without your approval/i
+
+/i did my research.{1,10}before.{1,10}contacting you/i
+
+/i am.{1,10}writing.{1,10}this.{1,10}e?.?mail with tears/i
+
+/i understand.{1,10}we don.?t.{1,10}know each other/i
+
+/(my|this) unexpected (e?.?mail|message) from me to you/i
+/(my|this) (e?.?mail|message).{1,10}does not (meet|suit) your.{1,10}(business|personal).{1,10}ethics/i
+/(my|this) (e?.?mail|message).{1,10}find.{1,10}you disturbing/i
+/(my|this) (e?.?mail|message).{1,10}has been well received/i
+/(my|this) (e?.?mail|message).{1,10}(intrudes|invades).{1,10}your privacy/i
+/(my|this) (e?.?mail|message).{1,10}inconvenienced you in any way/i
+
+# How they get the Email address
+# ------------------------------------------------------------------------------
+/your.{1,15}(company|name).{1,15}?e.?mail.?address from.{1,10}(google|internet)/i
+/your.{1,15}(company|name).{1,15}while browsing.{1,15}(google|internet)/i
+
+/your (contact|details|e?.?mail|information|name).{1,20}from.{1,15}africa exchange/i
+/your (contact|details|e?.?mail|information|name).{1,20}from.{1,15}(data.?base|research.?team)/i
+/your (contact|details|e?.?mail|information|name).{1,20}from.{1,10}(google|internet)/i
+/your (contact|details|e?.?mail|information|name).{1,20}from.{1,15}countries.{1,20}business/i
+/your (contact|details|e?.?mail|information|name).{1,20}from.{1,15}one of the.{1,15}directories/i
+/your (contact|details|e?.?mail|information|name).{1,20}from.{1,10}personal search/i
+
+/your (contact|details|e?.?mail|information|name).{1,20}during our search.{1,20}on.{1,10}internet/i
+/your (contact|details|e?.?mail|information|name).{1,20}information.{1,10}internet/i
+
+/your (contact|details|e?.?mail|information|name).{1,20}on.{1,10}(business directory|internet)/i
+/your (contact|details|e?.?mail|information|name).{1,20}through my online exploration/i
+/your (contact|details|e?.?mail|information|name).{1,20}via web searching/i
+
+/your (contact|details|e?.?mail|information|name).{1,20}during my search (for|through)/i
+
+/search before i came across yours/i
+
+# Important, Serious
+# ------------------------------------------------------------------------------
+/contact you.{1,10}i have something.{1,10}important/i
+/message for you.{1,10}important/i
+
+/talk to you about something.{1,10}important/i
+
+/(i have|there is).{1,10}something.{1,10}important to discuss with you/i
+/(i have|there is).{1,10}something.{1,10}important (i want to|to) discuss with you/i
+/(i have|there is).{1,10}important.{1,10}matter to discuss with you/i
+
+/get back to me swiftly.{1,10}very important/i
+
+/discuss with you.{1,10}very urgent please/i
+
+/you know about some.{1,15}important.{1,10}information/i
+/you to read with all carefulnes/i
+/your response regarding.{1,10}urgent.{1,10}important.{1,10}information/i
+
+/private link only for you/i
+
+# Reason for contact
+# ------------------------------------------------------------------------------
+/contacting you based on your.{1,10}name/i
+
+# Religious
+# ------------------------------------------------------------------------------
+/may the name.{1,10}god be praised/i
+/message finds you well.{1,10}by the grace of allah/i
+/may the peace of the lord/i
+
+/i can seek the face of the lord/i
+/in the name of of allah/i
+
+# Sickness, Dying :-)
+# ------------------------------------------------------------------------------
+/told me that i.{1,10}not live longer/i
+
+/i have only.{1,10}(month|weeks).{1,10}to live/i
+/i have limited time on.{1,10}mother earth/i
+/i.?ve been diagnosed with.{1,15}cancer/i
+/i would not last for the next.{1,10}(month|weeks)/i
+
+/cancer.{1,10}my time is limited/i
+
+/my days are numbered due to/i
+
+# Suggestions
+# ------------------------------------------------------------------------------
+/i have.{1,10}suggestions for the site.?owner/i
+/pass on.{1,10}suggestions.{1,10}contacts/i
+/you looked at.{1,10}suggestions that i.{1,10}attached/i
+
+# Videos
+# ------------------------------------------------------------------------------
+/(check out|watch) this.{1,10}eye.?opening.{1,10}video/i
+/before.{1,10}censored.{1,10}click here to watch/i
+
+/revolutionary.{1,10}video contains/i
+/groundbreaking.{1,10}video/i
+/shocking.{1,10}video.{1,10}will leave you/i
+
+/watch it.{1,10}before it.?i?s too late/i
+
+/watch (the|this).{1,10}(controversial|disturbing|revolutionary|shocking|urgent).{1,10}video/i
+/watch (the|this).{1,10}video.{1,10}before.{1,20}(attorney|banned|big)/i
+/watch (the|this).{1,10}video.{1,10}while.{1,10}still up/i
+
+/watch.{1,10}video.{1,10}join here/i
+
+/video.{1,10}before it.{1,10}(disappears|gone|too late)/i
+/video.{1,10}reveals how you can quickly/i
+/video.{1,10}uncover.{1,10}secrets?/i
+
+/you should check this page now/i
+/you seen this viral video/i
+
+# Silly lies
+# ------------------------------------------------------------------------------
+/i noticed that you opened my.{1,10}e?.?mail/i
+/i.{1,10}visited your web.?site.{1,10}know that you/i
+
+/your company web.?site.{1,10}and found that your/i
+
+#
+#
+#
+
+# Unlassified
+# ------------------------------------------------------------------------------
+/click now.{1,10}click now/i
+
+/you should check this page immediately/i
+
+/we only use chat for communication/i
+
+# Since a few years this wanker sends his crap
+/mayboroda_aleks/i
+
+/i stumbled upon your web.?site/i
+
+/i have.{1,10}urgent message.{1,10}for you/i
+/i am still waiting.{1,10}your response after.{1,10}previously/i
+
+/i am sending this message to you from/i
+
+/we are pleased.{1,15}found your esteemed company/i
+/we know your company from.{1,10}internet/i
+
+/warrenbuffett/i
+
+/confirm.{1,10}you can be trusted/i
+/contact my telegram account/i
+
+# First seen 29.02.
+/youll die a painful death/i
+/your parents are animals/i
