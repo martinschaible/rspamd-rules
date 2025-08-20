@@ -50,6 +50,8 @@
 /followers.{1,15}free for you/i
 
 # G
+/generate leads for you/i
+
 /get the best.{1,10}e?.?mail.?lists/i
 
 # H
@@ -84,8 +86,9 @@
 
 # T
 /(targeted|verified).{1,15}contact.?lists of/i
-/(targeted|verified).{1,15}e?.?mail.{1,10}(databases?|leads?|lists?)/i
 /(targeted|verified).{1,15}databases?.{1,10}businesses.{1,10}operating/i
+/(targeted|verified).{1,15}e?.?mail.{1,10}(databases?|leads?|lists?)/i
+/(targeted|verified).{1,15}list.{1,10}decision.?makers/i
 
 /targeted.{1,15}e?.?mail.{1,10}campaigns.{1,10}generate/i
 
@@ -95,7 +98,7 @@
 
 # W
 /we are able.{1,10}grow.{1,10}followers/i
-/we can send.{1,10}targeted.{1,10}e?.?mail/i
+/we can send.{1,10}targeted.{1,10}(campaigns|e?.?mail)/i
 
 /we help creators grow/i
 /we work with brands to help them/i

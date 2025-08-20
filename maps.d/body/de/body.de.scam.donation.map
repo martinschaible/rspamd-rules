@@ -118,10 +118,12 @@
 
 /sie erhalten eine.{1,10}(fördersumme|spende|zuschuss)/iu
 
-/sie haben eine spende.{1,10}in höhe von{1,25}gewonnen/iu
-/sie haben eine spende von.{1,5}\d{2,4}(\.|,)?\d{3,4}/i
-/sie haben eine spende von.{1,15}(dollar|euro?|gbp|usd|€|\$|£)/i
-/sie haben eine spende von.{1,15}millionen/i
+/sie.{1,10}haben.{1,15}(spende|zuschuss|zuwendung).{1,10}erhalten/iu
+/sie.{1,10}haben.{1,15}(spende|zuschuss|zuwendung).{1,10}ich habe.{1,20}im lotto/i
+/sie.{1,10}haben.{1,15}(spende|zuschuss|zuwendung).{1,10}(im|in).{1,10}(höhe|wert) von/iu
+/sie.{1,10}haben.{1,15}(spende|zuschuss|zuwendung).{1,10}von.{1,5}\d{2,4}(\.|,)?\d{3,4}/i
+/sie.{1,10}haben.{1,15}(spende|zuschuss|zuwendung).{1,10}von.{1,15}(dollar|euro?|gbp|usd|€|\$|£)/i
+/sie.{1,10}haben.{1,15}(spende|zuschuss|zuwendung).{1,10}von.{1,15}millionen/i
 
 /sie (sind|waren) der empfänger einer.{1,15}spende/iu
 /sie wurden für (die|eine).{1,15}spende/i
