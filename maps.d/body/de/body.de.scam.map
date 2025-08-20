@@ -41,6 +41,7 @@
 /(photo.?voltaik|pv|solar).?anlage.{1,10}jetzt \d{2}.{1,10}günstiger/iu
 /(photo.?voltaik|pv|solar).?anlage.{1,15}klären wir alles/iu
 /(photo.?voltaik|pv|solar).?anlage.{1,10}lässt sich heute innerhalb/iu
+/(photo.?voltaik|pv|solar).?anlage.{1,10}nulltarif/i
 
 /photo.?voltaik.{1,10}ihre entscheidungshilfe/i
 /photo.?voltaik.{1,10}lohnt sich.{1,10}(auch für sie|mehr denn je)/iu
@@ -55,7 +56,10 @@
 /mit unserem.{1,15}online.?rechner erhalten sie in wenigen/i
 
 /sichern sie sich.{1,10}ihre.{1,10}förderung/iu
+
+/sie in wenigen minuten.{1,10}welche förderungen/iu
 /sie von attraktiven förderprogrammen/iu
+
 /sinkende preise.{1,10}hohe förderung/iu
 
 /für sie auf unserer website zusammengestellt/iu

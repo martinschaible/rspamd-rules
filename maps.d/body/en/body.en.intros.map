@@ -27,7 +27,7 @@
 # B
 
 # C
-/Company Introduction Letter/i
+/company introduction letter/i
 
 /(contact|details|e?.?mail|information|name|profile).{1,10}on google/i
 
@@ -225,6 +225,8 @@
 /we are.{1,10}digital marketing company/i
 /we are.{1,10}india based.{1,10}(application|company|development|mobile)/i
 /we are.{1,10}trading company/i
+
+/we got.{1,10}contact from your.{1,10}instagram/i
 
 # X
 
