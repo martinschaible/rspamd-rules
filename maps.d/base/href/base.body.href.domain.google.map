@@ -9,7 +9,7 @@
 # Google Search as a forwarder
 # ------------------------------------------------------------------------------
 /www\.google\.[a-z]{2,3}\/url\?(sa|q)/i
-/www\.google\.com\.(au|co\.uk|np|ug|vt)\/url\?(sa|q)/i
+/www\.google\.com\.(au|co\.uk|mu|np|ug|vt)\/url\?(sa|q)/i
 
 # Google Translate as a forwarder
 # ------------------------------------------------------------------------------
