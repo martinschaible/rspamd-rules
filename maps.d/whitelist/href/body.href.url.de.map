@@ -1,0 +1,268 @@
+# ==============================================================================
+# The entire URL is available here.
+# We can therefore whitelist the domain, the path, or parts of the path.
+#
+# Caution is advised here.
+# Domains, in particular, should only be used in conjunction with the path.
+# This ensures that the entry is unique.
+#
+# Note: The "prefilter" is applied here.
+# If a rule matches, the email is accepted, and all other filters are ignored.
+#
+# ------------------------------------------------------------------------------
+# Country: germany
+# Weight:  -
+# ==============================================================================
+
+# A
+# ------------------------------------------------------------------------------
+
+# 13.07.25  - Animax GmbH, André Vogt
+/klick\.hundetraining\.de/i
+
+# 18.06.25
+/amazon\.de\/gp\/css\/shiptrack\/view\.html/i
+
+# 19.04.25
+/t\.angebote\.aldi-sued\.de/i
+
+# 07.08.25
+/links\.autoscout24\.com\/u\/click\?/i
+
+# B
+# ------------------------------------------------------------------------------
+
+# 19.04.25
+/www\.bahn\.de\/link_ihrkonto/i
+
+# 26.05.25
+/news\.bergfreunde\.de/i
+
+# 22.07.25
+/news\.bueromarkt-ag\.de/i
+
+# C
+# ------------------------------------------------------------------------------
+
+# 22.07.25 - Attachment fired
+/www\.condor\.com\/tcibe\/de\/mybooking\/login/i
+
+# 17.06.25
+/identity\.campax\.org/i
+
+# 15.05.25
+/click\.news\.hypovereinsbank\.de/i
+
+# D
+# ------------------------------------------------------------------------------
+
+# 06.05.25
+/link\.docmorris\.de/i
+
+# 28.05.25
+/my\.dpd\.de/\redirect\.aspx\?action=/i
+
+# 03.04.25 
+/info\.deutschepost\.de/i
+
+# 02.08.25
+/shop\.deutschepost\.de\/shop\/kundenkonto/i
+
+# E
+# ------------------------------------------------------------------------------
+
+# 16.05.25 - Declude fired
+/mt1\.1und1\.de/d\?/i
+
+# 15.06.25
+/newsletter\.edeka\.de/i
+
+# 10.08.25
+/link\.emp\.de/i
+
+# 17.06.25
+/elster\.de\/eportal\/wizard/i
+
+# 23.06.25
+/click\.news\.essen-und-trinken\.de/i
+
+# 28.07.25
+/service\.eventim\.de/i
+
+# F
+# ------------------------------------------------------------------------------
+
+# 04.08.25
+/trws\.flaschenpost\.de/i
+
+# 07.08.25
+/link\.fressnapf\.de/i
+
+# G
+# ------------------------------------------------------------------------------
+
+# H
+# ------------------------------------------------------------------------------
+
+# 29.07.25
+/(click|view)\.redaktion\.handelsblatt\.com/i
+
+# 05.07.25
+/parcel-api\.delivery\.hm\.com/i
+
+# 09.06.25
+/r\.news.hs-hundebett\.de/i
+
+# I
+# ------------------------------------------------------------------------------
+
+# J
+# ------------------------------------------------------------------------------
+
+# 03.07.25
+/clicks\.joyn\.de/i
+
+# K
+# ------------------------------------------------------------------------------
+
+# 22.07.25
+/click\.email\.kaiserkraft\.com/i
+
+# 03.04.25
+/www\.komoot\.com/i
+
+# L
+# ------------------------------------------------------------------------------
+
+# 31.07.25
+/go\.eu\.landsend\.com/i
+
+# 03.04.25
+/click\.mail\.lidlplus\.de/i
+
+# 26.07.25
+/lotto-bayern\.de\/static\//i
+
+# 29.07.25
+/my\.lufthansa\.com/i
+
+# 03.07.25
+/l\.newsletter\.lidl\.com/i
+
+# M
+# ------------------------------------------------------------------------------
+
+# 12.08.25 - mgo fachverlage GmbH & Co. KG
+/nl-medizin\.mgofv\.de/i
+
+# 03.04.25
+/www\.miles-and-more\.com\/content\//i
+
+# 17.05.25
+/service-mm\.mediamarkt\.de\/pub\//i
+
+# N
+# ------------------------------------------------------------------------------
+
+# 02.08.25
+/klicks\.nebenan\.de/i
+
+# 12.08.25
+/patient\.gonelly\.de/i
+
+# O
+# ------------------------------------------------------------------------------
+
+# 03.08.25
+/trk\.opentable\.com/i
+
+# 04.08.25
+/www\.otto-office\.de\/kundenkonto/i
+
+# P
+# ------------------------------------------------------------------------------
+
+# 09.08.25
+/track\.me\.eu\.panasonic\.com/i
+
+# 04.08.25
+/crm-cdn\.peek-cloppenburg\.com/i
+
+# Q
+# ------------------------------------------------------------------------------
+
+# R
+# ------------------------------------------------------------------------------
+
+# 27.04.25
+/epost\.rewe\.de/i
+
+# S
+# ------------------------------------------------------------------------------
+
+# 09.08.25
+/newsletter\.schaefer-shop\.de/i
+
+# 26.04.25 - Emoji in subject
+/news\.de\.strauss\.com/i
+
+# 19.05.25 - Emoji in subject
+/links\.secretescapes\.de/a/i
+
+# 16.05.25 - Old PHISHING_REWARDS_DE fired
+/secretescapes\.de\/neue-angebote/i
+/secretescapes\.de\/zeitlich-begrenzte-angebote/i
+
+# 19.05.25 - Emoji in subject
+/suedkurier\.de\/leserservice/i
+
+# T
+# ------------------------------------------------------------------------------
+
+# 14.05.25
+/view\.dialog-telekom\.de/i
+
+# 03.04.25
+/link\.tchibo\.de/i
+
+# 05.05.25
+/email-telekom\.de\/re\?/i
+
+# 10.08.25
+/news\.teufel\.de/i
+
+# 08.06.25
+/clicks\.news-tui\.com/i
+
+# U
+# ------------------------------------------------------------------------------
+
+# V
+# ------------------------------------------------------------------------------
+
+# 03.06.35
+/links\.mail\.vistaprint\.de/i
+
+# 30.07.25 - VNR Verlag für die Deutsche Wirtschaft AG
+/service\.vnrag\.de/i
+
+# W
+# ------------------------------------------------------------------------------
+
+# 14.07.25
+/link\.wisada\.de/i
+
+# X
+# ------------------------------------------------------------------------------
+
+# Y
+# ------------------------------------------------------------------------------
+
+# Z
+# ------------------------------------------------------------------------------
+
+# 06.08.25
+/clicks\.lounge\.zalando\.com/i
+
+# 28.07.25
+/zentrada\.com\/de\/myzentrada/i
