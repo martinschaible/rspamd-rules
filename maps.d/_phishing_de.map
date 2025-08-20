@@ -35,19 +35,6 @@
 #
 #
 
-# CEO Scam
-# ------------------------------------------------------------------------------
-# See: https://www.spam-info.de/11514/achtung-ceo-betrug-was-ist-unser-kontostand/
-
-/(bankguthaben|kontostand).{1,20}können wir heute.{1,10}bezahlen/i
-
-/(was|wie) ist unser kontostand/i
-/wie (hoch|viel) ist unser.{1,15}(bankguthaben|kontostand)/i
-
-/wir müssen heute eine zahlung von/i
-/wir heute eine internationale Zahlung/i
-/können wir bezahlen.{1,15}heute/i
-
 # Court, Police
 # ------------------------------------------------------------------------------
 /anhang.{1,10}antworten sie uns umgehend/i
