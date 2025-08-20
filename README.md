@@ -122,9 +122,15 @@ These are the latest changes:
 | 08.08.25 | multimap.sender.address.conf               | New map file added, changes   |
 |          | multimap.base.body.href.conf               | New map file added, changes   |
 | 16.08.25 | multimap.sender.address.conf               | Configuration changed         |
+| 20.08.25 | multimap.conf                              | Path of configuration files changed<br>New configuration files added |
+| 20.08.25 | multimap.whitelist.conf                    | New configuration files added |
+| 20.08.25 | multimap.whitelist.body.href.conf          | New configuration file        |
+| 20.08.25 | multimap.whitelist.body.de.conf            | New configuration file        |
+| 20.08.25 | multimap.whitelist.body.en.conf            | New configuration file        |
+| 20.08.25 | multimap.whitelist.header.ip.conf          | New configuration file        |
 
 ## Content
-:point_right: All map files of the *first version* are in the folder `/etc/rspamd/maps.d`.<br>
+:point_right: All map files of the *first version* are stored in the folder `/etc/rspamd/maps.d/legacy`.<br>
 :point_right: The files of the *second edition* are stored in subfolders according to the topic.
 
 ### Setup for "base"
@@ -358,20 +364,24 @@ subject
 Folder structure:
 ```
 whitelist
-  ├─ body.href.url.az.whitelist.map           +  ─┐ 
-  ├─ body.href.url.ch.whitelist.map           +   │
-  ├─ body.href.url.de.whitelist.map           +   │
-  ├─ body.href.url.us.whitelist.map           +   │
-  │                                               │
-  ├─ header.ip.whitelist.map                  +   │
-  │                                               │
-  ├─ de                                           ├─ multimap.whitelist.conf
-  │   ├─ body.de.whitelist.map                    │
-  │   ├─ sender.from.de.whitelist.map             │
-  │   └─ subject.de.whitelist.map                 │
-  │                                               │
-  └─ en                                           │
-      └─ ....                                    ─┘
+  ├─ header.ip.whitelist.map                     --- multimap.whitelist.header.ip.conf
+  │
+  ├─ href
+  │    ├─ body.href.url.az.map                +  ─┐ 
+  │    ├─ body.href.url.ch.map                +   │
+  │    ├─ body.href.url.de.map                +   ├─ multimap.whitelist.body.href.conf
+  │    └─ body.href.url.us.map                +  ─┘
+  │
+  ├─ de 
+  │   ├─ body.de.singleword.map                  ─┐
+  │   ├─ body.de.map                             ─┘─ multimap.whitelist.body.de.conf
+  │   │
+  │   ├─ sender.from.de.map                      ─┐
+  │   ├─ subject.de.map                           ├─ multimap.whitelist.conf
+  │   └─ subject.de.singleword.map               ─┘
+  │ 
+  └─ en
+      └─ ....
 ```
 
 **+ -> "prefilter" is set**
