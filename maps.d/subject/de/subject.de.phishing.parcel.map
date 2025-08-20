@@ -151,6 +151,8 @@
 /(lieferung|paket|sendung|versand|zustellung).{1,10}zahlung.{1,10}(ausstehend|erforderlich)/i
 /(lieferung|paket|sendung|versand|zustellung).{1,10}benötigt eine bestätigung/iu
 
+/lieferstatusinformationen id.?\d{3,10}/i
+
 #/live verfolgen.{1,10}(paket|sendung)/i
 
 /lieferung benötigt.{1,10}bestätigung/iu
@@ -170,6 +172,7 @@
 /nicht zugestellt werden.{1,10}\[.?\d{4,10}.?\]/i
 
 # O
+/offizielle lieferstatusinformationen/i
 
 # P
 

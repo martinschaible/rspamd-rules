@@ -189,6 +189,9 @@
 # Sample: pdf (4kb).docx
 /pdf.?\(\d{1,5}kb\).?\.docx/i
 
+# Sample: .xlxs(8).htm
+/\xlsx\(\d{1,5}\)\.html/i
+
 /xlsxr?\.tar/i
 /pdf\.z$/i
 

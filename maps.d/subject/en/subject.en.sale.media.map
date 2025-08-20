@@ -31,6 +31,9 @@
 # Generic
 # ==============================================================================
 
+# Numeric
+/202\d contact.?list/i
+
 # A
 /accelerate your business/i
 
@@ -89,6 +92,8 @@
 
 /instagram.{1,10}(marketing|service)/i
 
+/interested in the.{1,15}visitor list/i
+
 # J
 
 # K
@@ -116,6 +121,7 @@
 # Q
 
 # R
+/registered.{1,15}(contact|participants).{1,15}directory/i
 
 # S
 /send unlimited.{1,10}e?.?mails/i
