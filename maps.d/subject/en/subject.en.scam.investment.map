@@ -41,7 +41,7 @@
 /^investment.{1,10}(funds?|partner)$/i
 
 /investment fund$/i
-/investment.{1,10}(business|deal|fund of|funds|inquiry)/i
+/investment.{1,10}(business|collaboration|deal|fund of|funds|inquiry)/i
 /investment.{1,10}(partnership|proposal|proposition|relocation)/i
 
 # J
@@ -55,10 +55,10 @@
 # N
 
 # O
-/opportunity.{1,10}invest/i
+/(opportunity|proposal|urgent).{1,15}investment/i
+/opportunity.{1,10}foreign investment/i
 
 # P
-/proposal.{1,15}investment/i
 
 # Q
 
@@ -69,7 +69,6 @@
 # T
 
 # U
-/urgent.{1,15}investment/i
 
 # V
 
