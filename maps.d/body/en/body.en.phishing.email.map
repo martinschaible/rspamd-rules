@@ -41,9 +41,13 @@
 /(e?.?mail|message)s?.{1,10}awaiting your inbox/i
 /(e?.?mail|message)s?.{1,10}do not reach your.{1,10}inbox/i
 /(e?.?mail|message)s?.{1,10}from your contacts are.{1,15}on hold/i
+
+/(e?.?mail|message)s?.{1,10}have been put on hold from/i
 /(e?.?mail|message)s?.{1,10}has been blocked by.{1,10}administrator/i
+
 /(e?.?mail|message)s?.{1,10}marked.{1,10}important.{1,10}pending/i
 /(e?.?mail|message)s?.{1,10}pending on your.{1,10}server/i
+/(e?.?mail|message)s?.{1,10}restriction activity/i
 /(e?.?mail|message)s?.{1,10}sent to you.{1,10}but.{1,10}not.{1,20}delivered/i
 /(e?.?mail|message)s?.{1,10}you are yet to receive/i
 

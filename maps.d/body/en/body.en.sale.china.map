@@ -86,8 +86,9 @@ our.{1,10}(pcba?|printed.?circuit.?board).{1,10}(delivery|on.?time)/i
 # V
 
 # W
-/we.{1,10}are.{1,10}(independent|leading|professional|specialized|top|trusted).{1,20}(distributor|domestic|manufacturer) (in the|of|with)/i
+/we.{1,10}are.{1,10}(independent|leading|professional|specialized|top|trusted).{1,20}(distributor|domestic|manufacturer) (in the|of|producing|with)/i
 /we.{1,10}are.{1,10}(independent|leading|professional|specialized|top|trusted).{1,20}(factory|forwarder)/i
+/we.{1,10}are.{1,10}(independent|leading|professional|specialized|top|trusted).{1,20}(electric|bycycle)/i
 
 /we.{1,10}are.{1,10}pcb.{1,10}factory/i
 

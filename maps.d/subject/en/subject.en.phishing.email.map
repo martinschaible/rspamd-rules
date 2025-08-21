@@ -36,6 +36,7 @@
 /\.[a-z]{1,4}.{1,10}de.?activation notice/i
 /\.[a-z]{1,4}.{1,10}has been blocked from receiving/i
 /\.[a-z]{1,4}.{1,10}mailbox notification/i
+/\.[a-z]{1,4}.{1,10}requires immediate validation/i
 
 /\.[a-z]{1,4}.{1,10}warning{1,10}the e?.?mail account/i
 /\.[a-z]{1,4}.{1,10}will be blocked/i
@@ -80,6 +81,7 @@
 
 /(e?.?mail|message).{1,10}failure delivery notice/i
 /(e?.?mail|message).{1,10}in your.{1,15}quarantine/i
+/(e?.?mail|message).{1,10}restriction activity/i
 
 # F
 
