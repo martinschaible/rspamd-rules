@@ -68,23 +68,25 @@
 
 # Weight Loss
 # ------------------------------------------------------------------------------
-/(fat|weight).?loss.{1,10}(breakthrough|cure|coffee|tip)/i
-/(fat|weight).?loss.{1,10}(remedies|remedy)/i
-/(fat|weight).?loss.{1,10}(soup|switch)/i
-/(fat|weight).?loss.{1,10}viral/i
-/(fat|weight).?burning.{1,15}(exposed|fruit|morning|routine)/i
+/(fat|weight).?(burning|loss).{1,10}(breakthrough|cure|coffee|exposed|fruit)/i
+/(fat|weight).?(burning|loss).{1,15}(fruit|morning)/i
+/(fat|weight).?(burning|loss).{1,10}(remedies|remedy|routine)/i
+/(fat|weight).?(burning|loss).{1,10}(secret|soup|switch)/i
+/(fat|weight).?(burning|loss).{1,10}(tip|viral)/i
 
 /(fat|weight).{1,10}gain.{1,10}fatigue/i
 /(fat|weight).{1,10}success proven/i
 /(fat|weight).{1,10}with this.{1,10}hack/i
 
-/(affects|big|blocking|boost|daily|easy|fast|for).{1,15}(fat|weight).?(burning|loss)/i
-/(hidden|massive|method for|rapid|simple|try this|your).{1,15}(fat|weight).?(burning|loss)/i
+/(affects|big|blocking|boost|celeb|daily|easy|fast|for).{1,15}(fat|weight).?(burning|loss)/i
+/(hidden|massive|method|rapid|simple|try this|your).{1,15}(fat|weight).?(burning|loss)/i
 
 /add inches.{1,15}waistline/i
 /dissolves.{1,10}lbs/i
 /easy.{1,10}(fat|weight).{1,10}fighting/i
 /erases.{1,10}(fat|weight).{1,10}overnight/i
+
+/remove.{1,10}(fat|weight) without/i
 
 /shed.{1,10}sizes overnight/i
 /slim down.{1,10}with/i
@@ -383,7 +385,7 @@
 /eliminates?.{1,15}without meds/i
 
 /erases?.{1,15}(arthritis|artery|discomfort|plaque|tinitus|wrinkles?)/i
-/erections?.{1,10}pill/i
+/erections?.{1,10}(demand|pill)/i
 
 /escape.{1,10}meomory/i
 
@@ -426,6 +428,7 @@
 /fruits?.{1,10}(immediately|improving)/i
 /fruits?.{1,10}(for brain|is safe)/i
 /fruits?.{1,10}that (fights|harm|might|may|weakens)/i
+/fruits?.{1,10}that make you/i
 /fruits?.{1,10}(should|to) avoid/i
 /fruits?.{1,10}surprising benefits/i
 /fruits?.{1,10}worse than/i
@@ -633,6 +636,7 @@
 /quit eating.{1,10}blueberries/i
 
 # R
+/raging.{1,10}erections?/i
 /rapid.{1,10}gut/i
 
 /reach 120.?80/i

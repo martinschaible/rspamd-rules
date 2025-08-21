@@ -21,8 +21,8 @@
 /(apologies|apologize|sorry).{1,10}if the content of my e?.?mail/i
 /(apologies|apologize|sorry).{1,10}infringing.{1,10}your privacy/i
 /(apologies|apologize|sorry).{1,10}reach you through this medium/i
-/(apologies|apologize|sorry).{1,10}sending this unsolicited.{1,10}e.?mail/i
-/(apologies|apologize|sorry).{1,10}unsolicited (contact|e.?mail|letter|proposal)/i
+/(apologies|apologize|sorry).{1,10}sending this.{1,10}unsolicited.{1,10}e.?mail/i
+/(apologies|apologize|sorry).{1,10}unsolicited.{1,10}(contact|e.?mail|letter|proposal)/i
 
 # B
 
@@ -38,10 +38,10 @@
 /disturb you with (my|this).{1,10}e?.?mail/i
 
 # E
-/(e.?mail|letter|message) finds you well.{1,10}i work with a/i
-/(e.?mail|letter|message) finds you well.{1,10}my name is/i
-/(e.?mail|letter|message) meets you in.{1,10}best.{1,10}spirits/i
-/(e.?mail|letter|message) reaches you in.{1,10}good faith.{1,10}my name is/i
+/(e.?mail|letter|message).{1,10}finds you well.{1,10}i work with a/i
+/(e.?mail|letter|message).{1,10}finds you well.{1,10}my name is/i
+/(e.?mail|letter|message).{1,10}meets you in.{1,10}best.{1,10}spirits/i
+/(e.?mail|letter|message).{1,10}reaches you in.{1,10}good faith.{1,10}my name is/i
 
 # F
 /from the desk of/i

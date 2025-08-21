@@ -126,7 +126,8 @@
 /\?\.\.\./i
 
 # A subject does never start with a special character
-/^(„|,|\.|!|\$)/i
+#/^(„|,|\.|!|\$)/i
+/^(,|\.|!|\$)/i
 
 # A subject does never end with a special character
 /“$/i
@@ -150,6 +151,8 @@
 
 # 16.08.25 - Just a simple long row of numbers. Sample: 73315681477562151626
 /\d{10,25}$/i
+
+/re:\/w\//i
 
 # Worda in brackets
 # ------------------------------------------------------------------------------
