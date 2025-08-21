@@ -392,12 +392,18 @@ I don't know why, and I can't find any help in the community. What a pity!
 ## Tips and Tricks
 
 ### Scoring
+
 If you want to increase or decrease a symbol's score, you can do so in the UI.
 Click "Symbols" in the menu, then find the desired symbol and change the score.
 
 Important
 * You can change the scoring for a map file, or rather its **symbol**, and **not for a single rule**.
-* The scoring for a single rule can be changed in the map file.
+* The scoring for an individual rule can *only* be changed in the map file. Depending on the rule, I do it this way.
+
+A score of 6 can be considered SPAM-LOW.
+Using SmarterMail, this value is multiplied by 1.7 to reach 10 points.
+
+I set most map files to score level 12.
 
 ### Which rule has fired?
 Unfortunately, Rspamd is unable to log the rule(s) of a map file that fired.
@@ -407,7 +413,7 @@ This complicates the whole process in case of an error.
 There's always a risk that an email will be mistakenly marked as spam.
 
 If a map file is to blame, I'm happy to change or remove a rule.
-My rules are designed specifically for German-speaking countries.
+My rules are designed specifically for *German-speaking* countries.
 Therefore, some phrases might be too strong for English-speaking countries.
 
 Open an issue and I'll be happy to resolve the issue.
