@@ -28,7 +28,7 @@
 /link zum meinem.{1,10}profil/i
 
 /mehr über mich.{1,15}profil/iu
-/mein.{1,15}profil.{1,10}(auf der seite|findest|erwartet dich|ist)/i
+/mein.{1,15}profil.{1,10}(auf der seite|enthält|findest|erwartet dich|ist)/iu
 /meine.{1,10}nummer im.{1,15}profil/i
 
 /nach meinem.{1,15}profil/i
@@ -125,6 +125,8 @@
 # J
 
 # K
+/kennenlernen.{1,15}klicke? hier/i
+
 /klick einfach weiter/i
 
 /kontaktdaten findest du auf.{1,15}(web)?site/i

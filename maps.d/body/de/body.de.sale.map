@@ -42,7 +42,8 @@
 
 # Chair
 # ------------------------------------------------------------------------------
-/(büro|dreh).?(stuhl|stühle).{1,15}(|Aktionspreis|massagefunktion)/i
+/(büro|dreh).?(stuhl|stühle).{1,15}(aktionspreis|massagefunktion|stil.{1,10}komfort)/i
+/(büro|dreh).?(stuhl|stühle).{1,15}profitieren/i
 
 # A - G
 /(design|elegante|ergonomische|erlesene|genialer?).{1,20}(büro|dreh).?(stuhl|stühle)/iu
@@ -154,6 +155,8 @@
 
 # Eso crap
 /erkenne deinen seelenplan/i
+
+/euro netto.{1,10}abverkauf/i
 
 # F
 
