@@ -302,7 +302,7 @@
 
 /basic.{0,10}protein/i
 
-/beauty.{0,10}(acid|hack|secret)/i
+/beauty.{0,10}(acid|hack|secret|tip)/i
 
 /bed.{0,10}(hack|stretch)/i
 /bedtime.{0,10}(brew|habit|move)/i
@@ -870,7 +870,7 @@
 /super.{0,10}water/i
 
 /surgeon.{0,10}reveals?/i
-/surgery.{0,10}canceled/i
+/surgery.{0,10}(alternative|canceled)/i
 
 /survival.{0,10}muscle/i
 

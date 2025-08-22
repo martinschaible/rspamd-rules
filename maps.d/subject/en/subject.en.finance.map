@@ -47,7 +47,9 @@
 /capital.{1,10}(finance|funding).{1,15}(business|inquiry|projects?|roi)/i
 /capital.{1,10}investment.{1,10}funding/i
 
-/credit coverage notice/i
+/credit.{1,10}coverage notice/i
+/credit.{1,10}request/i
+
 /^credit \d%/i
 
 # D

@@ -47,10 +47,11 @@
 /(dear|hello|hi\b).{1,10}(client|supplier|vendor).{1,10}this is.{1,25}factory/i
 /(dear|hello|hi\b).{1,10}(client|supplier|vendor).{1,10}we are.{1,10}distributor/i
 
-/(dear|greetings?|good day|hello|hi\b).{1,10}we are.{1,10}manufacturer/i
+/(dear|greetings?|good day|good morning|hello|hi\b).{1,10}we are.{1,10}manufacturer/i
 
-/(dear|greetings?|good day|hello|hi\b).{1,5}(friend|madam|sir).{1,15}we are glad to introduce/i
-/(dear|greetings?|good day|hello|hi\b).{1,5}(friend|madam|sir).{1,15}we are.{1,15}(experienced|professional)/i
+/(dear|greetings?|good day|good morning|hello|hi\b).{1,5}(friend|madam|sir).{1,15}we are glad to introduce/i
+/(dear|greetings?|good day|good morning|hello|hi\b).{1,5}(friend|madam|sir).{1,15}we are.{1,15}(experienced|professional)/i
+/(dear|greetings?|good day|good morning|hello|hi\b).{1,5}(friend|madam|sir).{1,15}established/i
 
 # E
 

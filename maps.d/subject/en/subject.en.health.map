@@ -110,8 +110,8 @@
 
 /20.?20.{1,10}vision/i
 
-/\d{1,2}.{1,10}day trick to a/i
-/\d{1,2}.{1,10}second (rub|routine|reset|technique)/i
+/\d{1,2}.{1,10}(day|sec(ond)?) trick (for|to a)/i
+/\d{1,2}.{1,10}(day|sec(ond)?) (rub|routine|reset|technique)/i
 /\d{1,3}.?(lbs|pounds).{1,10}(gone|flab|transformation)/i
 
 /\d cause of/i

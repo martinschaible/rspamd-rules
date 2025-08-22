@@ -256,7 +256,8 @@
 /jetzt umstellen/i
 
 # K
-/konto benötigt.{1,10}ihre.{1,10}aufmerksamkeit/iu
+/konto(informationen)?.{1,10}(benötigen|benötigt).{1,10}ihre.{1,10}aufmerksamkeit/iu
+
 /kontos?.{1,10}jetzt handeln/i
 /konto gesperrt.{1,10}jetzt reaktivieren/i
 
