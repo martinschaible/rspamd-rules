@@ -36,7 +36,7 @@
 /(photovoltaik|pv|solar).?vorteil/i
 
 # 18.12.24 Sample: 18.12.2024 / PV-Anlage
-/\d{2}\.\d{2}\d.{4}.{1,10}(photovoltaik|pv|solar).?anlagen?/i
+/\d{2}\.\d{2}\.\d.{4}.{1,10}(photovoltaik|pv|solar).{1,10}anlagen?/i
 
 # 30.07.25 Sample: 2025 / PV & Förderung
 /\d.{4}.{1,10}pv.{1,10}förderung/iu
