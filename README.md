@@ -178,6 +178,7 @@ Folder structure:
 body
   ├─ body.attachment.map                         ─┐
   ├─ body.emergency.map                           │
+  ├─ body.emergency.extension.map           X     │
   ├─ body.orgbrandprod.map                  X     │
   ├─ body.special.map                             │
   │                                               │
@@ -253,7 +254,7 @@ body
       └─ ....
 ```
 
-* x -> Not yet implemented
+* X -> Not yet implemented
 
 ### Setup for "sender"
 
