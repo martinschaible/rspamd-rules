@@ -85,8 +85,9 @@
 /dies ist eine neue nachricht/i
 
 /diese.{1,10}(e?.?mail|nachricht).{1,10}öffnen/iu
-/dieser.{1,10}brief.{1,10}(ist kein|ist wie|wird deine)/i
-/diesen.{1,10}brief (liest|sehen)/i
+/dieser.{1,10}brief.{1,10}ist (kein|der|wie)/i
+/diesen.{1,10}brief.{1,10}(liest|sehen)/i
+/dieser.{1,10}brief.{1,10}wird deine/i
 /diesen.{1,10}brief.{1,15}zu haben/i
 
 # E
@@ -139,7 +140,7 @@
 # K
 
 # L
-/lesen sie diesen?.{1,10}(brief|e?.?mail|mitteilung)/i
+/lesen sie diesen?.{1,10}(brief|e?.?mail|mitteilung|nachricht)/i
 
 /lies (den|diesen) brief/i
 /lies diese nachricht/i
