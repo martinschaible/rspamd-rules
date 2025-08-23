@@ -44,6 +44,7 @@
 /(airpods|apple|ipad|iphone|macbook|watch ultra).{1,10}steht für sie bereit/i
 /(airpods|apple|ipad|iphone|macbook|watch ultra).{1,10}wartet auf dich/i
 
+/exklusiver preis.{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
 /gratulation.{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
 /holen sie sich.{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
 
@@ -168,6 +169,7 @@
 /exklusiv für sie.{1,10}ihr.{1,20}wartet/i
 
 /exklusive.{1,15}box wartet/i
+/exklusive.{1,10}chance auf die/i
 /exklusive.{1,15}prämie ist reserviert/iu
 
 /^exklusive.{1,10}prämien?$/i
