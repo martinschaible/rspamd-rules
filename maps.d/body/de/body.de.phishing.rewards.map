@@ -45,9 +45,7 @@
 # A
 
 # B
-/belohnung freischalten/i
-
-/(belohnung|geschenk|gutschein|gewinn|preis).{1,15}anfordern/i
+/(belohnung|geschenk|gutschein|gewinn|preis).{1,15}(anfordern|freigeschaltet|freischalten)/i
 /(belohnung|geschenk|gutschein|gewinn|preis).{1,10}innerhalb von.{1,10}stunden erhalten/i
 
 /bestätigen sie.{1,10}ihre.{1,15}prämie/i

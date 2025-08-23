@@ -58,8 +58,10 @@
 /earn.{1,15}assured rentals/i
 /earn.{1,10}big with.{1,10}(funds|legal)/i
 /earn.{1,10}(fixed|net) returns/i
-/earn.{1,10}monthly.{1,10}income/i
+/earn.{1,10}(monthly|yearly).{1,10}income/i
 /earn.{1,15}over \d years/i
+
+/earn.{1,10}(monthly|yearly).{1,10}(income|rentals)/i
 
 /earning.{1,15}on autopilot/i
 
