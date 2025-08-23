@@ -517,7 +517,7 @@
 
 /fresh.{0,10}breath/i
 /fried.{0,10}chicken/i
-/fruit.{0,10}(hack|mistake|risk)/i
+/fruit.{0,10}(hack|mistake|risk|truth)/i
 
 /fuzzy.{0,10}drink/i
 
@@ -543,7 +543,7 @@
 
 /hanging.{0,10}belly/i
 
-/hard in\b/i
+/hard(er)? (in\b|tonight)/i
 
 /happy.{0,10}(gut|knees)/i
 /harmful.{0,10}(toxins?|veggies)/i

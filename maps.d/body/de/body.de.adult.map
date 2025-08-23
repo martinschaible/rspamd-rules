@@ -14,7 +14,6 @@
 /profil.{1,10}neue fotos hinzugefügt/iu
 /profil.{1,10}ist wie ein/i
 
-
 /(auf|in) mein(em)?.{1,15}profil/i
 /deiner.{1,10}nähe hat dein.{1,10}profil/iu
 
@@ -43,8 +42,9 @@
 # ==============================================================================
 
 # A
-/auf.{1,10}dating.?website/i
+/(antworte|kennenlernen).{1,15}(klicke?|schreibe?) hier/i
 
+/auf.{1,10}dating.?website/i
 /aufrichtig freund/i
 
 # B
@@ -125,8 +125,6 @@
 # J
 
 # K
-/kennenlernen.{1,15}klicke? hier/i
-
 /klick einfach weiter/i
 
 /kontaktdaten findest du auf.{1,15}(web)?site/i
