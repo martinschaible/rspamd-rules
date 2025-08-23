@@ -100,6 +100,9 @@
 # 10.04.25 - Phishing - It is shame, that sendgrid has no control over their customers
 /u3066574\.ct\.sendgrid\.net/i
 
+# 23.08.25 - QR code generator, used to generate QR codes for spam links
+/scanned\.page/i
+
 # 21.03.25 - Probably a tracker and redirector
 /smtpurl\.com/i
 
