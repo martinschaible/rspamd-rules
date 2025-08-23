@@ -25,6 +25,7 @@
 
 /aktualisierung ihrer.{1,10}banking.?app/i
 /aktualisierung ihrer.{1,10}persönlichen daten/iu
+/aktualisierung ihres.{1,10}phototan/i
 
 /antrag auf reaktivierung.{1,10}ihrer.{1,15}card/i
 /antrag auf reaktivierung.{1,10}ihrer.{1,15}(kredit)?karte/i
@@ -94,7 +95,7 @@
 # O
 
 # P
-/(photo|push).?tan.?verfahren/i
+/(photo|push).?tan.?(systems?|verfahren)/i
 /(photo|push).?tan.{1,10}registrierung läuft/i
 /(photo|push).?tan.{1,10}vorübergehend aufgehoben/iu
 

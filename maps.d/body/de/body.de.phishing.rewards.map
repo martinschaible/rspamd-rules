@@ -23,10 +23,12 @@
 
 /(anerkennung|belohnung|brandneuen?).{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/iu
 /(paket mit|prämie).{1,10}(airpods|apple|ipad|iphone|macbook)/iu
+
 /sichern sie sich.{1,10}(airpods|apple|ipad|iphone|macbook)/iu
+/sie wartet ein.{1,10}(airpods|apple|ipad|iphone|macbook)/iu
 
 /gratis.{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
-/jetzt.{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra).{1,10}sichern/i
+/jetzt.{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra).{1,10}(anfordern|einfordern|sichern)/i
 
 # Kit
 /notfall.?(kit|set).{1,10}(auto|kfz|wartet|wert)/i
