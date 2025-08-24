@@ -11,8 +11,8 @@
 /(bezaubernde|entzückende|freche|heiße|leidenschaftliche)s?.{1,10}(dame|frauen|mädchen)/iu
 /(bezaubernde|entzückende|freche|heiße|leidenschaftliche)s?.{1,10}ukrainische/i
 
-/(schöne|spektakuläre|süße|verführerische)s?.{1,10}(dame|frauen|mädchen)/iu
-/(schöne|spektakuläre|süße|verführerische)s?.{1,10}ukrainische/iu
+/(magische|schöne|spektakuläre|süße|verführerische)s?.{1,10}(dame|frauen|mädchen)/iu
+/(magische|schöne|spektakuläre|süße|verführerische)s?.{1,10}ukrainische/iu
 
 /frauen warten.{1,15}auf dich/i
 
@@ -48,6 +48,8 @@
 /aufregende.{1,10}seitensprünge/iu
 /aufregendsten.{1,10}treffen/i
 
+/(aufrichtig|deutche|glänzend|wunderbar).{1,10}(freund|herr|mann)/i
+
 # B
 /begegnung.{1,10}leidenschaft/i
 
@@ -78,6 +80,8 @@
 /deine (freundschaft|verbindung) mit/i
 /deinen.{1,10}genitalien/i
 /deinen perfekten partner/i
+
+/dir eine.{1,10}massage/i
 
 /du bist mir aufgefallen/i
 /du wurdest (angestupst|verbunden)/i
@@ -111,8 +115,6 @@
 /geiles.{1,10}biest/i
 
 /geschlossenen gruppe/i
-
-/glänzend herr/iu
 
 # H
 /hat.{1,10}den chat/i

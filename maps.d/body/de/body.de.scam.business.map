@@ -20,7 +20,7 @@
 /angebot.{1,10}das ich mit ihnen teilen/i
 
 # B
-/besprechen.{1,10}die für uns beide von nutzen/iu
+/(besprechen|thema).{1,15}für uns beide von (interesse|nutzen)/iu
 
 # C
 
@@ -74,3 +74,4 @@
 # Y
 
 # Z
+/zu einem geschäftlichen thema/iu
