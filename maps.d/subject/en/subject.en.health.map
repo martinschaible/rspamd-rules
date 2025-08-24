@@ -167,7 +167,7 @@
 /avoid.{1,10}eating this/i
 /avoid.{1,10}heart attack/i
 /avoid.{1,10}here.{1,10}why/i
-/avoid.{1,10}(these|this).{1,10}(breakfast|damaging|deadly|diabetic|foods?|fruit)/i
+/avoid.{1,10}(these|this).{1,10}(back|breakfast|damaging|deadly|diabetic|foods?|fruit)/i
 /avoid.{1,10}(these|this).{1,10}(common|gut)/i
 
 /\[avoid these/i
@@ -427,6 +427,7 @@
 /formula restored by/i
 /fruits?.{1,10}(immediately|improving)/i
 /fruits?.{1,10}(for brain|is safe)/i
+/fruits?.{1,10}harm your/i
 /fruits?.{1,10}that (fights|harm|might|may|weakens)/i
 /fruits?.{1,10}that make you/i
 /fruits?.{1,10}(should|to) avoid/i
@@ -735,6 +736,7 @@
 /sleeping position/i
 
 /slim(mer)?.{1,10}waist/i
+/slowing.{1,10}digestion/i
 
 /solution.{1,10}enhanced performance/i
 /solution.{1,10}for.{1,10}(digestion|ed)/i

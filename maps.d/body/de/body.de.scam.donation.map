@@ -39,6 +39,7 @@
 # D
 /(dollar|euro?|gbp|usd|€|\$|£).{1,10}ausgewählt wurden.{1,10}kontaktieren sie/i
 /(dollar|euro?|gbp|usd|€|\$|£).{1,10}ausgewählt.{1,10}melden sie sich/iu
+/(dollar|euro?|gbp|usd|€|\$|£).{1,10}um ihren.{1,15}anspruch/i
 /(dollar|euro?|gbp|usd|€|\$|£).{1,10}erhalten haben.{1,10}kontaktieren sie/i
 /(dollar|euro?|gbp|usd|€|\$|£).{1,10}euro zu erhalten.{1,10}um ihren anspruch/i
 /(dollar|euro?|gbp|usd|€|\$|£).{1,10}wurden (an sie|ihnen) gespendet/i
@@ -63,6 +64,7 @@
 # H
 /hat ihnen.{1,20}(dollar|euro?|gbp|usd|€|\$|£).{1,10}gespendet/i
 /hat ihnen.{1,20}millionen.{1,10}gespendet/i
+/hat ihnen.{1,10}(grosszügige|großzügige).{1,10}summe/i
 
 /heute wurden ihnen.{1,10}millionen/i
 

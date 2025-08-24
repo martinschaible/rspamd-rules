@@ -330,7 +330,7 @@
 /breath(ing)?.{0,10}(clear|science)/i
 /brain.{0,10}(boost|care|exercise|fix|noise|reset|revival|shrinkage|solution)/i
 
-/breakfast.{0,10}(juice|myth|treat)/i
+/breakfast.{0,10}(alert|juice|myth|treat)/i
 /(breathe|breathing).{0,10}(better|clearer|easier|easy|easy)/i
 
 /bright.{0,10}smile/i
@@ -558,8 +558,7 @@
 
 /hearing.{0,10}problem/i
 
-/health.{0,10}(alerts?|deals?|wire)/i
-
+/healthy?.{0,10}(alerts?|deals?|wire)/i
 /heart.{0,10}(attack|cells|check|danger|disease|health|helper|problems?|protection|risk)/i
 
 /herbal.{0,10}wisdom/i
