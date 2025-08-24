@@ -123,6 +123,7 @@
 /importgebühren in höhe von.{1,10}offen/iu
 
 /information zu ihrer.{1,10}paketnummer/i
+/internationaler.{1,10}poststatus/i
 
 /in der warteschleife/i
 
@@ -231,6 +232,9 @@
 /sie haben.{1,15}(immer|noch).{1,15}nicht abgeholte bestellung/i
 
 /sie ihre zollzahlung ab/i
+
+/statusmeldung.{1,10}grenzüberschreitende?/i
+
 /steht aus.{1,10}zahlung erforderlich/i
 /steht noch aus/i
 /steht zur zustellung an/i

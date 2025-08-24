@@ -28,7 +28,9 @@
 
 /begrenzte.{0,10}dauer/i
 
-_[a-z].{0,15}box/i
+/bitcoin.{0,10}swiss/i
+
+/_[a-z].{0,15}box/i
 
 /box von/i
 
@@ -130,6 +132,8 @@ _[a-z].{0,15}box/i
 # R
 
 # S
+(schneller|sicherer).{0,10}(express|versand)/i
+
 /service.{0,10}meldung(en)?/i
 /servicecenter.{0,10}verifizierung/i
 
