@@ -65,16 +65,16 @@
 
 /inventory.{1,10}start.{1,10}conversation with us/i
 
-/(items?|offerings?|products?).{1,10}(appreciate|feel free|ping us|share).{1,20}whatsapp/i
-/(items?|offerings?|products?).{1,10}caught our attention/i
-/(items?|offerings?|products?).{1,10}(connect|contact|reach out|write).{1,10}(through|to|via|with).{1,15}whatsapp/i
-/(items?|offerings?|products?).{1,10}info(rmation)?.{1,10}(available|through|on|via).{1,10}whatsapp/i
-/(items?|offerings?|products?).{1,10}(on|over|send us).{1,10}whatsapp/i
-/(items?|offerings?|products?).{1,10}send more info.{1,10}whatsapp/i
-/(items?|offerings?|products?).{1,10}start a conversation/i
-/(items?|offerings?|products?).{1,10}whatsapp below/i
-/(items?|offerings?|products?).{1,10}we can be reached on/i
-/(items?|offerings?|products?).{1,10}you can message us/i
+/(items?|offerings?|products?).{1,15}(appreciate|feel free|ping us|share).{1,20}whatsapp/i
+/(items?|offerings?|products?).{1,15}caught our attention/i
+/(items?|offerings?|products?).{1,15}(connect|contact|reach out|write).{1,10}(through|to|via|with).{1,15}whatsapp/i
+/(items?|offerings?|products?).{1,15}info(rmation)?.{1,10}(available|through|on|via).{1,10}whatsapp/i
+/(items?|offerings?|products?).{1,15}(on|over|send us).{1,10}whatsapp/i
+/(items?|offerings?|products?).{1,15}send more info.{1,10}whatsapp/i
+/(items?|offerings?|products?).{1,15}start a conversation/i
+/(items?|offerings?|products?).{1,15}whatsapp below/i
+/(items?|offerings?|products?).{1,15}we can be reached on/i
+/(items?|offerings?|products?).{1,15}you can message us/i
 
 # Q
 
@@ -91,7 +91,7 @@
 # V
 
 # W
-/whatsapp below.{1,10}(to share your|to send it|your product)/i
+/whatsapp below.{1,10}(for sharing|to share your|to send it|your product)/i
 /whatsapp below.{1,10}(prices|price.?list)/i
 
 /we are interested.{1,10}collaborating with your.{1,10}company/i

@@ -47,6 +47,7 @@
 
 # B
 /(belohnung|geschenk|gutschein|gewinn|preis).{1,15}(anfordern|freigeschaltet|freischalten)/i
+/(belohnung|geschenk|gutschein|gewinn|preis).{1,10}an den nächsten teilnehmer/iu
 /(belohnung|geschenk|gutschein|gewinn|preis).{1,10}innerhalb von.{1,10}stunden erhalten/i
 /(belohnung|geschenk|gutschein|gewinn|preis).{1,10}wurde noch nicht/i
 
@@ -92,6 +93,7 @@
 /jetzt.{1,10}(belohnung|geschenk|gewinn|preis).{1,10}(beanspruchen|sichern)/iu
 
 # K
+/kostenfreies.{1,10}Geschenk/i
 
 # L
 /lieferung jetzt bestätigen/iu
