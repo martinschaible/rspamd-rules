@@ -295,7 +295,8 @@
 /(lieferadresse|lieferdetails|lieferung) ihre?.{1,15}prämie bestätigen/iu
 
 # M
-/mitmachen.{1,10}ljetzt.{1,15}sichern/i
+/mitmachen.{1,10}belohnung sichern/i
+/mitmachen.{1,10}jetzt.{1,15}sichern/i
 
 /möglichen.{1,10}gutschein.?gewinner/i
 /mystery.?box.{1,15}(gelegenheit|sendung|sichern|steht bereit)/i
