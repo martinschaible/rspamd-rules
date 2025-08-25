@@ -154,6 +154,8 @@
 
 /anti.?aging.{1,10}(bottle|breakthrough)/i
 /anti.{1,10}inflammatory recipe/i
+
+/anti.{1,10}inflammatory food/i
 /anti.{1,20}secret/i
 
 /are these.{1,10}so.?called/i
@@ -417,7 +419,7 @@
 /flush(es)? out.{1,10}(fat|this)/i
 
 /focus.{1,10}memory/i
-/foods? that fight/i
+/foods?.{1,10}that.{1,10}(fights?|prevents)/i
 /follow these steps at/i
 
 /for.{1,10}better memory/i
@@ -430,7 +432,7 @@
 /fruits?.{1,10}(immediately|improving)/i
 /fruits?.{1,10}(for brain|is safe)/i
 /fruits?.{1,10}harm your/i
-/fruits?.{1,10}that (fights|harm|might|may|weakens)/i
+/fruits?.{1,10}that.{1,10}(fights|harm|might|may|weakens)/i
 /fruits?.{1,10}that make you/i
 /fruits?.{1,10}(should|to) avoid/i
 /fruits?.{1,10}surprising benefits/i
@@ -464,6 +466,8 @@
 
 /heal.{1,15}pain/i
 /healing.{1,10}recipe/i
+/helps.{1,10}prevent.{1,10}diabetes/i
+
 /health.{1,10}miracle/i
 /healthy.{1,10}nails/i
 

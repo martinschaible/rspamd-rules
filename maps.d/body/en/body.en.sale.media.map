@@ -101,6 +101,7 @@
 /we are able.{1,10}grow.{1,10}followers/i
 /we can send.{1,10}targeted.{1,10}(campaigns|e?.?mail)/i
 
+/we have compiled total.{1,10}(attendees?|contacts|registrants|visitors?)/i
 /we help creators grow/i
 /we work with brands to help them/i
 
@@ -111,7 +112,7 @@
 /you looking.{1,15}e?.?mail.?marketing/i
 
 /you.{1,10}(are|interested|want).{1,10}(acquiring|purchase|purchasing|receive).{1,10}list/i
-/you.{1,10}(are|interested|want).{1,10}(acquiring|purchase|purchasing|receive).{1,15}(attendees?|contacts|registrants|visitors?).{1,20}list/i
+/you.{1,10}(are|interested|want).{1,10}(acquiring|purchase|purchasing|receive).{1,15}(attendees?|contacts|registrants|visitors?)/i
 /you.{1,10}(are|interested|want).{1,10}(acquiring|purchase|purchasing|receive).{1,10}linkedin.{1,10}leads/i
 /you.{1,10}(are|interested|want).{1,10}(acquiring|purchase|purchasing|receive).{1,10}unlimited targeted/i
 /you.{1,10}(are|interested|want).{1,10}(acquiring|purchase|purchasing|receive).{1,10}(event|tradeshow).{1,10}attendees/i
