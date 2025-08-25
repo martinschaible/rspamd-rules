@@ -47,11 +47,11 @@
 # K
 
 # L
-/like you.{1,15}(message us|reach out).{1,10}whatsapp/i/i
+/like you.{1,15}(message us|reach out).{1,10}whatsapp/i
 /looking for suppliers like you/i
 
 # M
-/more information via whatsapp/i
+/(details on|more information).{1,10}whatsapp/i
 
 # N
 
@@ -91,7 +91,7 @@
 # V
 
 # W
-/whatsapp below.{1,10}(to send it|your product)/i
+/whatsapp below.{1,10}(to share your|to send it|your product)/i
 /whatsapp below.{1,10}(prices|price.?list)/i
 
 /we are interested.{1,10}collaborating with your.{1,10}company/i
