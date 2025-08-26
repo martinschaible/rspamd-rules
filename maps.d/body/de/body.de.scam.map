@@ -33,11 +33,13 @@
 /porsche werkswagen/i
 /mercedes.?benz team/i
 
-/werkswagen.{1,10}(anfragen|direkt|katalog)/i
+/(werksmodelle|werkswagen).{1,15}(anfragen|direkt|katalog|persönlich)/i
 
 /fahrzeugen?.{1,15}(direktverwertung|zwischenlager)/i
 
+/katalogzugang auf anfrage/i
 /unsere geprüften.{1,10}fahrzeuge/iu
+/unsere.{1,10}(werksmodelle|werkswagen)/i
 
 # Comparing price for solar energy at home
 # ------------------------------------------------------------------------------

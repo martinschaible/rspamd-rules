@@ -83,7 +83,8 @@
 /hallo.{1,15}wir haben.{1,10}einen anmeldeversuch/i
 /hallo.{1,15}wir haben.{1,10}ungewöhnliche anmeldung/iu
 
-/herzliche grüße.{1,10}ich kontaktiere sie/iu
+/herzliche (grüsse|grüße).{1,10}ich kontaktiere sie/iu
+/herzliche (grüsse|grüße).{1,10}mein name ist/iu
 
 # I
 /ihr konto wurde gesperrt.{1,10}sehr geehrter?/i
