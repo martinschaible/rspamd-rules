@@ -67,6 +67,10 @@
 /\d{3,5}.{1,10}global channels/i
 /\d(0|o).{0,5}reduction/i
 
+# Nonsense
+/^\d (did|have) you/i
+/^[a-z] (did|have) you/i
+
 # A
 /american.{0,10}flag/i
 
