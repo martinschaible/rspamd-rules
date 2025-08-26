@@ -24,6 +24,7 @@
 
 # Cars
 # ------------------------------------------------------------------------------
+/(mercedes.?benz|porsche){1,10}werkszugang/i
 /fahrzeuge.{1,10}vertragsauflösungen/iu
 
 /exklusiven katalog anfordern/i

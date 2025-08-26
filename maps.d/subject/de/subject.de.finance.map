@@ -20,8 +20,9 @@
 
 # B
 /(beantragen|benötigen|brauchen|erhalten) sie.{1,15}(finanz|darlehen|kredit)/i
-
+/benötigen sie.{1,15}(unternehmer|privatperson).{1,15}finanzierung/iu
 /benötigen persönlichen/iu
+
 
 # C
 

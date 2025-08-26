@@ -45,7 +45,9 @@
 /aktivieren?.{1,10}telefonnummer/i
 /aktivieren sie.{1,25}(sicherheitslösung|sicherheitssystem)/iu
 
-/aktivierung erforderlich n°/i
+/aktivierung.{1,10}erforderlich n°/i
+/aktivierung.{1,10}zusätzlicher sicherheitsfunktionen bei/iu
+
 /aktivitäten erkannt.{1,10}maßnahmen erforderlich/i
 
 /aktualisierung erforderlich/i
@@ -377,13 +379,14 @@
 /sicherheits.?(hinweis|mitteilung|warnung).{1,10}verdächtiger/i
 /sicherheits.?(hinweis|mitteilung|warnung).{1,10}zu.{1,10}(gerät|karte)/iu
 
-/sicherheits.?upgrade.{1,10}jetzt aktivieren/i
+/sicherheits.?(funktionen|option|upgrade).{1,10}für ihr.{1,15}konto (aktivieren|aktualisieren)/i
+/sicherheits.?(funktionen|option|upgrade).{1,10}jetzt (aktivieren|aktualisieren)/i
 
 /(sicherheitssystem|systemmitteilung).{1,10}jetzt (aktualisieren|sofort handeln)/i
 
 /sichern sie ihr.{1,15}konto so schnell wie möglich/iu
 
-/sofort handeln.{1,10}aktivieren sie ihre/i
+/sofort handeln.{1,10}(aktivieren|aktualisieren) sie ihre/i
 /sofort öffnen/iu
 
 /sofortiges? (handeln|reaktion) erforderlich/i
@@ -417,9 +420,9 @@
 /update.{1,10}app.?service.{1,10}erforderlich/i
 
 /überprüfen sie bestellung/i
-/überprüfen sie ihre.{1,15}daten jetzt/iu
 /überprüfen sie ihr.{1,15}(konto|profil)/iu
-/überprüfen sie ihre.{1,15}(kontodaten|persönlichen daten)/iu
+/überprüfen sie (die|ihre).{1,15}daten jetzt/iu
+/überprüfen sie (die|ihre).{1,15}(kontodaten|persönlichen daten|sicherheitseinstellungen)/iu
 
 /überprüfung erforderlich.{1,10}um eine sperrung/i
 
