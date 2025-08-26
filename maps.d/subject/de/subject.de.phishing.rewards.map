@@ -40,6 +40,8 @@
 /(airpods|apple|ipad|iphone|macbook|watch ultra).{1,10}gehören jetzt ihnen/i
 /(airpods|apple|ipad|iphone|macbook|watch ultra).{1,10}ist reserviert/i
 /(airpods|apple|ipad|iphone|macbook|watch ultra).{1,10}jetzt.{1,10}anfordern/i
+/(airpods|apple|ipad|iphone|macbook|watch ultra).{1,10}für kurze zeit verfügbar/iu
+
 /(airpods|apple|ipad|iphone|macbook|watch ultra).{1,10}sichern/i
 /(airpods|apple|ipad|iphone|macbook|watch ultra).{1,10}steht für sie bereit/i
 /(airpods|apple|ipad|iphone|macbook|watch ultra).{1,10}wartet auf dich/i
@@ -277,6 +279,7 @@
 # K
 /kostenlos(es)?.{1,25}gewinnen/i
 /kostenlos(es)?.{5,25}zu erhalten/i
+/(kostenloses|kostenfreies).{1,10}geschenk/i
 
 /kundeninformation verfügbar/iu
 

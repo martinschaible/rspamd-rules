@@ -22,7 +22,8 @@
 
 /bereit zur auslieferung.{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
 
-/(anerkennung|belohnung|brandneuen?).{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/iu
+/(anerkennung|belohnung|brandneuen?|brandneues).{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/iu
+/exklusiver preis.{1,10}(airpods|apple|ipad|iphone|macbook)/iu
 /(paket mit|prämie).{1,10}(airpods|apple|ipad|iphone|macbook)/iu
 
 /sichern sie sich.{1,10}(airpods|apple|ipad|iphone|macbook)/iu
@@ -93,7 +94,7 @@
 /jetzt.{1,10}(belohnung|geschenk|gewinn|preis).{1,10}(beanspruchen|sichern)/iu
 
 # K
-/kostenfreies.{1,10}Geschenk/i
+/(kostenloses|kostenfreies).{1,10}geschenk/i
 
 # L
 /lieferung jetzt bestätigen/iu
@@ -138,6 +139,8 @@
 # T
 
 # U
+/um ihr.{1,15}zu erhalten.{1,10}klicken sie/i
+
 /umfrage.{1,10}ergebnisse.{1,10}gewinner/i
 
 # V

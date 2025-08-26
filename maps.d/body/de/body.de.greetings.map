@@ -210,7 +210,8 @@
 /sehr geehrter herr.{1,5}frau/i
 
 /sehr geehrter?.{1,15}(administrator|bankkunde|begünstigter?|empfänger|fahrer|firma|käufer)/iu
-/sehr geehrter?.{1,10}(geschäftspartner|geschäftsmann)/iu
+#/sehr geehrter?.{1,10}geschäftspartner/iu
+/sehr geehrter?.{1,10}geschäftsmann/iu
 /sehr geehrter?.{1,10}nachfolger/i
 /sehr geehrter?.{1,10}(preisträger|unternehmer)/iu
 /sehr geehrter?.{1,15}(director|direktor)/i
