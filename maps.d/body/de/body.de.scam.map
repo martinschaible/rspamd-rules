@@ -50,7 +50,7 @@
 # ------------------------------------------------------------------------------
 # -> They are stealing personal information
 
-/förderung(en)?.{1,10}(anzeigen|berechnen)/iu
+/förderung(en)?.{1,10}(anzeigen|belohnt|berechnen)/iu
 /förderung(en)?.{1,10}garantierte einnahmen/i
 /förderung(en)?.{1,10}die sich wirklich lohnen/iu
 /förderung(en)?.{1,10}nur wenige tage/iu
@@ -83,6 +83,8 @@
 /sinkende preise.{1,10}hohe förderung/iu
 
 /für sie auf unserer website zusammengestellt/iu
+
+/unserer internetseite.{1,10}zusammengefasst/i
 /unsere zertifizierte internetseite/i
 
 #
