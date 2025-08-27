@@ -65,7 +65,9 @@
 /our steel is manufactured/i
 
 # P
-our.{1,10}(pcba?|printed.?circuit.?board).{1,10}(delivery|on.?time)/i
+/our.{1,10}(pcba?|printed.?circuit.?board).{1,10}(delivery|on.?time)/i
+
+/our.{1,10}(company|factory) specializes.{1,10}producing/i
 
 # Q
 
@@ -75,7 +77,8 @@ our.{1,10}(pcba?|printed.?circuit.?board).{1,10}(delivery|on.?time)/i
 /shenzhen.{1,15}technology.{1,10}co.{1,5}ltd/i
 /since foun?dation.{1,15}we specialized in/i
 
-/specialized in rapid prototyping/i
+/(specializes|specialized).{1,10}rapid prototyping/i
+/(specializes|specialized).{1,10}producing.{1,10}(injection|moulding|parts)/i
 
 # T
 /trade.{1,10}industry co.{1,5}ltd/i
