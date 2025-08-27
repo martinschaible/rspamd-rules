@@ -50,7 +50,9 @@
 
 # F
 /finanz.?(nachrichten|update) für den/iu
-/finanz.?(nachrichten|update) im (januar|februar|märz|april|mai|juni|juli|august|september|oktober|november|dezember)/iu
+/finanz.?(nachrichten|update) im.{1,10}(januar|februar|märz|april|mai|juni|juli|august|september|oktober|november|dezember)/iu
+
+/führen sie es durch.{1,10}um eine unterbrechung/iu
 
 # G
 
