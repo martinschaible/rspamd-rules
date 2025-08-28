@@ -93,6 +93,8 @@
 /kontakt für ihre spende/iu
 /kontaktieren.{1,10}um ihre spende in höhe von/iu
 
+/kostenlosen zuschusses/i
+
 # L
 /laufenden freiwilligen spende/i
 
@@ -116,10 +118,8 @@
 /sie als einer der.{1,15}(begünstigten|empfänger).{1,10}(\d{3,4}|der)/i
 
 /sie.{1,15}ausgewählt wurden.{1,10}um einen.{1,15}betrag/iu
-
+/sie.{1,10}erhalten eine.{1,10}(fördersumme|spende|zuschuss)/iu
 /sie.{1,10}für eine (förderung|spende) in höhe von/iu
-
-/sie erhalten eine.{1,10}(fördersumme|spende|zuschuss)/iu
 
 /sie.{1,10}haben.{1,15}(spende|zuschuss|zuwendung).{1,10}erhalten/iu
 /sie.{1,10}haben.{1,15}(spende|zuschuss|zuwendung).{1,10}ich habe.{1,20}im lotto/i
@@ -127,6 +127,8 @@
 /sie.{1,10}haben.{1,15}(spende|zuschuss|zuwendung).{1,10}von.{1,5}\d{2,4}(\.|,)?\d{3,4}/i
 /sie.{1,10}haben.{1,15}(spende|zuschuss|zuwendung).{1,10}von.{1,15}(dollar|euro?|gbp|usd|€|\$|£)/i
 /sie.{1,10}haben.{1,15}(spende|zuschuss|zuwendung).{1,10}von.{1,15}millionen/i
+
+/sie.{1,10}zu den ausgewählten empfängern des.{1,15}zuschusses/i
 
 /sie (sind|waren) der empfänger einer.{1,15}spende/iu
 /sie wurden für (die|eine).{1,15}spende/i
