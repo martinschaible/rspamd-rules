@@ -24,12 +24,13 @@
 
 # Cars
 # ------------------------------------------------------------------------------
-/(mercedes.?benz|porsche){1,10}werkszugang/i
+/(mercedes.?benz|porsche).{1,10}werkszugang/i
 /fahrzeuge.{1,10}vertragsauflösungen/iu
 
 /exklusiven katalog anfordern/i
 /jetzt werkskatalog/i
 /jetzt zugang anfordern/i
+/vertragsrückläufer.{1,10}sonderkonditionen/iu
 
 # Comparing price for solar energy at home
 # ------------------------------------------------------------------------------
@@ -37,7 +38,7 @@
 
 /^/(photovoltaik|pv|solar).?anlagen?/i
 /(photovoltaik|pv|solar).?anlagen?.{1,20}alle förderungen/iu
-/(photovoltaik|pv|solar).?anlagen?.{1,20}(extrem|gewerbe|günstig|häuser|nulltarif|tiefstand)/iu
+/(photovoltaik|pv|solar).?anlagen?.{1,20}(extrem|finden|gewerbe|günstig|häuser|nulltarif|tiefstand)/iu
 /(photovoltaik|pv|solar).?anlagen?.{1,20}(komplettpreis|tiefstand|tiefstpreise)/iu
 /(photovoltaik|pv|solar).?anlagen?.{1,20}massiv im preis gefallen/i
 
@@ -64,7 +65,7 @@
 
 /jetzt sichern.{1,15}fördergelder/iu
 
-/die günstigste.{1,10}(photovoltaik|pv|solar).?anlagen?.{1,20}finden/i
+/(auszahlung|günstigste).{1,10}(photovoltaik|pv|solar).?anlagen?/i
 /mit günstiger.{1,10}(photovoltaik|pv|solar).?anlagen?/iu
 /günstige preise.{1,10}(alle|für).{1,10}(photovoltaik|pv|solar).?anlagen?/iu
 

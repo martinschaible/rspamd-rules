@@ -41,6 +41,7 @@
 /fahrzeugen?.{1,15}(direktverwertung|zwischenlager)/i
 
 /katalogzugang auf anfrage/i
+/konditionen.{1,10}vertragsrückläufer/iu
 /unsere geprüften.{1,10}fahrzeuge/iu
 /unsere.{1,10}(werksmodelle|werkswagen)/i
 
@@ -58,6 +59,7 @@
 /fördergelder sichern.{1,10}bevor sie/iu
 
 /(photo.?voltaik|pv|solar).?anlage.{1,10}jetzt \d{2}.{1,10}günstiger/iu
+/(photo.?voltaik|pv|solar).?anlage.{1,10}jetzt handeln/i
 /(photo.?voltaik|pv|solar).?anlage.{1,15}klären wir alles/iu
 /(photo.?voltaik|pv|solar).?anlage.{1,10}lässt sich heute innerhalb/iu
 /(photo.?voltaik|pv|solar).?anlage.{1,10}nulltarif/i
@@ -65,9 +67,10 @@
 /photo.?voltaik.{1,10}ihre entscheidungshilfe/i
 /photo.?voltaik.{1,10}lohnt sich.{1,10}(auch für sie|mehr denn je)/iu
 
+/beste.{1,10}(photo.?voltaik|pv|solar).?anlage.{1,10}/iu
 /preise für.{1,10}(photo.?voltaik|pv|solar).?anlage.{1,10}sind derzeit/iu
 
-/jetzt.{1,10}förderungen ansehen/iu
+/jetzt.{1,10}förderungen (ansehen|prüfen)/iu
 /jetzt.{1,10}kostenlos (berechnen lassen|vergleichen)/i
 /(jetzt|vergleichen).{1,10}förderungen.{1,10}(prüfen|sichern)/iu
 
