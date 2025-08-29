@@ -30,15 +30,17 @@
 
 # Cars
 # ------------------------------------------------------------------------------
-/(mercedes.?benz|porsche) team/i
-/(mercedes.?benz|porsche).{1,10}unangefochtenen preisen/i
-/(mercedes.?benz|porsche).{1,10}werkswagen/i
+/(audi|mercedes.?benz|porsche) team/i
+/(audi|mercedes.?benz|porsche).{1,10}unangefochtenen preisen/i
+/(audi|mercedes.?benz|porsche).{1,10}werkswagen/i
 
-/direktvertrieb.{1,10}(mercedes.?benz|porsche)/i
+/direktvertrieb.{1,10}(audi|mercedes.?benz|porsche)/i
 
 /(werksmodelle|werkswagen).{1,15}(anfragen|direkt|katalog|persönlich)/i
 
-/fahrzeugen?.{1,15}(direktverwertung|zwischenlager)/i
+/fahrzeugen?.{1,15}(direktverwertung|sind direkt|zwischenlager)/i
+
+/jetzt verfügbar.{1,10}(audi|mercedes.?benz|porsche)/i
 
 /katalogzugang auf anfrage/i
 /konditionen.{1,10}vertragsrückläufer/iu

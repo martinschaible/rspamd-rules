@@ -24,10 +24,14 @@
 
 # Cars
 # ------------------------------------------------------------------------------
-/(mercedes.?benz|porsche).{1,10}werkszugang/i
+/(audi|mercedes.?benz|porsche).{1,10}werkszugang/i
 /fahrzeuge.{1,10}vertragsauflösungen/iu
 
+/verfügbare.{1,10}(audi|mercedes.?benz|porsche)/iu
+
 /exklusiven katalog anfordern/i
+/geprüfte fahrzeuge direkt/iu
+
 /jetzt werkskatalog/i
 /jetzt zugang anfordern/i
 /vertragsrückläufer.{1,10}sonderkonditionen/iu
