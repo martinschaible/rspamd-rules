@@ -7,6 +7,10 @@
 # Topics
 # ==============================================================================
 
+# Companies
+# ------------------------------------------------------------------------------
+/ihr swisscom gewinn/i
+
 # Products
 # ------------------------------------------------------------------------------
 /(bestätigung|geschenk|gewinnen|kostenloses|unser).{1,20}notfall.?(kit|set)/i
@@ -47,7 +51,7 @@
 /(airpods|apple|ipad|iphone|macbook|watch ultra).{1,10}wartet auf dich/i
 
 /exklusiver preis.{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
-/gratulation.{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
+/(gewinn|gratulation).{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
 /holen sie sich.{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
 
 /ihr neuer.{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra).{1,10}gewinn/i
@@ -174,7 +178,7 @@
 /exklusive.{1,15}prämie ist reserviert/iu
 
 /^exklusive.{1,10}prämien?$/i
-/exklusiven?.{1,15}(anerkennung|angebot|belohnung|prämien?) für sie/i
+/exklusiven?.{1,15}(anerkennung|angebot|belohnung|prämien?).{1,10}(ausgewählt|für sie)/i
 
 /exklusiven?.{1,10}ersparnisse/i
 /exklusiven?.{1,10}mystery.?box/i
@@ -301,6 +305,8 @@
 /(lieferadresse|lieferdetails|lieferung) ihre?.{1,15}prämie bestätigen/iu
 
 # M
+/marke.{1,15}hat ein sonderangebot/i
+
 /mitmachen.{1,10}belohnung sichern/i
 /mitmachen.{1,10}jetzt.{1,15}sichern/i
 
@@ -394,6 +400,8 @@
 
 /sie wurden ausgewählt/iu
 /sie wurden ausgewahlt/i
+
+/sie wurden.{1,15}exklusive belohnung/i
 
 /stunden.{1,10}sichern sie sich/i
 
