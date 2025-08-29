@@ -338,6 +338,7 @@
 
 /your.{1,15}pcba?.{1,20}(choice|partner|supplier|products?)/i
 
+/your.{1,10}next.{1,10}(pcba?|printed.?circuits?.?board)/i
 /your.{1,15}plastic.?mould/i
 /your.{1,10}reliable alternative/i
 

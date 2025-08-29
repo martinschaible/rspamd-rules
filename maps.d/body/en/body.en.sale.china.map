@@ -122,6 +122,7 @@
 # Y
 /you to our range of custom/i
 
-/your web.?site.{1,20}we are in the same/i
+/your.{1,10}web.?site.{1,20}we are in the same/i
+/your.{1,10}next.{1,10}(pcba?|printed.?circuits?.?board)/i
 
 # Z
