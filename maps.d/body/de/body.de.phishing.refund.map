@@ -16,6 +16,9 @@
 # Generic
 # ==============================================================================
 
+# Numeric
+/202\d.{1,10}rechnung zurückerstatten/iu
+
 # A
 
 # B
@@ -36,7 +39,7 @@
 # I
 /ihr gewinn.{1,10}ein neues/i
 
-/ihre.{1,15}rechnung für den monat.{1,15}doppelt bezahlt/iu
+/ihre.{1,15}rechnung für den monat.{1,25}doppelt bezahlt/iu
 
 # J
 /jetzt rückerstattung beantragen/iu
@@ -56,8 +59,7 @@
 # Q
 
 # R
-
-/(rückerstattung|rückzahlung).{1,15}zu beantragen.{1,10}füllen sie.{1,10}das.{1,15}(formular|verlinkte)/iu
+/(rückerstattung|rückzahlung).{1,10}zu beantragen.{1,10}füllen sie.{1,10}das/i
 /(rückerstattung|rückzahlung).{1,10}(bearbeiten|beantragen|prüfen)/iu
 
 # S
