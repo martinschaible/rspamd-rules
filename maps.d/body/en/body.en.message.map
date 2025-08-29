@@ -22,6 +22,7 @@
 
 /(attn|attention).{1,10}(beneficiary|ceo|honorable|madam|managing partner|president|relative|sir|vendor)/i
 /(attn|attention).{1,10}read this message/i
+/(attn|attention).{1,10}owner/i
 /(attn|attention).{1,10}this is very urgent/i
 /(attn|attention).{1,10}we hope this.{1,10}e?.?mail/i
 
