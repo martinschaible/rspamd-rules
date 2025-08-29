@@ -29,6 +29,8 @@
 /单击以验证您的帐户/i
 
 # D
+/disabled within.{1,15}unless you verify your.{1,15}account/i
+
 /due for update.{1,10}verify your.{1,15}account/i
 
 # E
@@ -79,6 +81,8 @@
 # X
 
 # Y
+/your device has sent.{1,10}shutdown request/i
+
 /your.{1,15}account during this transition/i
 /your.{1,15}account requires verification/i
 
