@@ -27,7 +27,8 @@
 /(audi|mercedes.?benz|porsche).{1,10}werkszugang/i
 /fahrzeuge.{1,10}vertragsauflösungen/iu
 
-/verfügbare.{1,10}(audi|mercedes.?benz|porsche)/iu
+/lagerabverkauf.{1,15}fahrzeuge/i
+/(lagerabverkauf|verfügbare).{1,10}(audi|mercedes.?benz|porsche)/iu
 
 /exklusiven katalog anfordern/i
 /geprüfte fahrzeuge direkt/iu
