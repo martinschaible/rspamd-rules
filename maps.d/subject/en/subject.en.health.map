@@ -249,8 +249,9 @@
 /call for your health/i
 /calories.{1,10}belly fat/i
 
-/(causing|cause of|causes).{1,10}back.?pain/i
-/(causing|cause of|causes).{1,10}(dark spots|dementia|ed\b|fatigue|joint pain)/i
+/(causing|cause of|causes).{1,10}(back|joint).{1,10}pain/i
+/(causing|cause of|causes).{1,10}bloating/i
+/(causing|cause of|causes).{1,10}(dark spots|dementia|ed\b|fatigue)/i
 /(causing|cause of|causes).{1,15}(memory|vision) loss/i
 /(causing|cause of|causes).{1,10}type.{1,10}diabetes/i
 /(causing|cause of|causes).{1,10}weight gain/i
@@ -486,7 +487,8 @@
 
 /hgh.{1,15}(now legal|prescription|without)/i
 
-/hidden.{1,10}(danger|prostate|toxin|truth)/i
+/hidden.{1,10}(danger|hormone|prostate|toxin|truth)/i
+/
 
 /high a1c/i
 /high.{1,10}blood.{1,10}pressure/i
@@ -496,6 +498,7 @@
 /hours of top performance/i
 /hours of deep sleep/i
 
+/hormone.{1,10}(aging|skin)/i
 /hot.{1,10}sex.?life/i
 /how men.{1,10}improving/i
 

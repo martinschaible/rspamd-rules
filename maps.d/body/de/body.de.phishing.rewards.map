@@ -27,7 +27,8 @@
 /bereit zur auslieferung.{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
 
 /(anerkennung|belohnung|brandneuen?|brandneues).{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/iu
-/exklusiver preis.{1,10}(airpods|apple|ipad|iphone|macbook)/iu
+/erinnerung.{1,10}.{1,10}(airpods|apple|ipad|iphone|macbook)/iu
+/exklusiver.{1,10}(gewinn|preis).{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/iu
 /(paket mit|prämie).{1,10}(airpods|apple|ipad|iphone|macbook)/iu
 
 /sichern sie sich.{1,10}(airpods|apple|ipad|iphone|macbook)/iu
@@ -116,6 +117,7 @@
 
 # P
 /persönliche.{1,15}prämie wartet/iu
+/persönlicher.{1,10}link ist.{1,15}stunden gültig/iu
 
 /(person hat|sie haben) noch nicht geantwortet/i
 

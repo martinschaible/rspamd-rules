@@ -341,7 +341,7 @@
 /bone.{0,10}bone/i
 /boost.{0,10}energy/i
 
-/bp.?drugs/i
+/bp.?(drugs|tonic)/i
 
 /botox.{0,10}alternative/i
 
@@ -643,7 +643,7 @@
 
 /(medical|medicinal).{0,10}(discovery|patch(es)?)/i
 
-/men.?s?.{0,10}(only|power|wellness)/i
+/men.?s?.{0,10}(only|power|vitality|wellness)/i
 /mental.{0,10}clarity/i
 
 /metabolism.{0,10}(boost(er)?|loophole|organ|reset|unleash)/i
@@ -796,6 +796,7 @@
 
 # S
 /safe.{0,10}foods?/i
+/sagging.{0,10}skin/i
 /salty.{0,10}drink/i
 /satisfaction.{0,10}solution/i
 

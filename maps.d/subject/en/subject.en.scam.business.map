@@ -21,11 +21,11 @@
 # B
 /(business|partnership).{1,10}(enquiry|inquiry)/i
 
-/(business|partnership).{1,10}(assistance|collaboration|discussion|meeting request)/i
-/(business|partnership).{1,10}(offer|opportunity|proposal|proposition|response)/i
+/(business|partnership).{1,15}(assistance|collaboration|discussion|request)/i
+/(business|partnership).{1,15}(offer|opportunity|proposal|proposition|response)/i
 
-/(business|partnership).{1,10}investment.{1,10}collaboration/i
-/(business|partnership).{1,10}project.{1,10}investment/i
+/(business|partnership).{1,15}investment.{1,10}(collaboration|request)/i
+/(business|partnership).{1,15}project.{1,10}investment/i
 
 /^(business|partnership).?project$/i
 
