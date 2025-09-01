@@ -160,11 +160,14 @@
 /router.{0,10}(genie|wifi)/i
 
 # S
-
 /(sauberlauf|schmutzfang).{0,10}matten?/i
 /(lager|schwerlast).{0,10}regale?/i
 
+/schnelles.{0,10}internet/i
+
 /sicher.{0,15}(hilfe|leben|zuhause)/i
+/sichern sie/i
+
 /sicherheits?.{0,10}profis/i
 
 /smart.{0,10}(büro|sohle)/iu
@@ -194,6 +197,7 @@
 /unsere empfehlung/i
 
 # V
+/vergleichen.{0,10}sparen/i
 /versand.{0,10}gratis/i
 /verstehen.{0,10}(pro|sprechen)/i
 

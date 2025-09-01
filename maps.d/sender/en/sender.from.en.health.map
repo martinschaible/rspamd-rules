@@ -561,7 +561,7 @@
 
 /hearing.{0,10}problem/i
 
-/healthy?.{0,10}(alerts?|deals?|feet|gift|wire)/i
+/healthy?.{0,10}(alerts?|deals?|feet|files?|gift|wire)/i
 /heart.{0,10}(attack|cells|check|danger|disease|health|helper|problems?|protection|risk)/i
 
 /herbal.{0,10}wisdom/i
@@ -797,7 +797,7 @@
 
 # S
 /safe.{0,10}foods?/i
-/sagging.{0,10}skin/i
+/sagging.{0,10}(neck|skin)/i
 /salty.{0,10}drink/i
 /satisfaction.{0,10}solution/i
 
@@ -809,6 +809,8 @@
 /secret.{0,15}(african|ancient|herb|revealed|organ|ritual|weapon)/i
 /secret.{0,10}(big|of)/i
 /sea.?sugar/i
+/see.{0,10}clear(er)/i
+
 /senior.{0,10}moments/i
 /severe.{0,10}pain/i
 
@@ -952,6 +954,7 @@
 
 /water.{0,10}(diy|pill|science|weight)/i
 /warning.{0,10}signs?/i
+/wax.{0,10}free/i
 
 /weird.{0,10}sound/i
 /wellness.{0,10}(alert|bulletin|brief|daily|insights|living|news|report|weekly)/i

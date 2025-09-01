@@ -477,6 +477,8 @@
 /^obi -/i
 /obi.gmbh/i
 
+/ohama.{0,5}steaks/i
+
 /official.{0,5}(netflix|spotify)/i
 
 # 01.02.25 - Orico Corporation
@@ -624,7 +626,7 @@
 /swiss-pass/i
 /swisspas\./i
 #/swisspass\.ch/i
-/swisspass.{1,5}(benachrichtigung|cff|kunden?(dienst)?|sbb|support)/i
+/swisspass.{1,5}(benachrichtigung|cff|kartendienst|kunden?(dienst)?|sbb|support)/i
 /swisspass\./i
 /swisspass-./i
 

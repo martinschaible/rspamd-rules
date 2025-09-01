@@ -21,6 +21,8 @@
 # ------------------------------------------------------------------------------
 /(ai|ki).?(investment|rendite)/i
 
+/^chatgpt$/i
+
 # ETF (Exchange Traded Funds)
 # ------------------------------------------------------------------------------
 /etf.{0,10}(aktien|anmeldung|beratung|dividende|empfehlung|fonds|kenner|news)/i
