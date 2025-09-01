@@ -45,6 +45,8 @@
 #/guten (abend|morgen|tag).{1,10}ihr paket/i
 
 /guten (abend|morgen|tag).{1,10}aufgrund neuer internationaler/i
+/guten (abend|morgen|tag).{1,10}aus sicherheits.{1,10}servicegründen/iu
+
 /guten (abend|morgen|tag).{1,10}hiermit informieren wir sie/i
 
 /guten (abend|morgen|tag).{1,10}ihr.{1,15}abonnement zum preis/i
@@ -62,6 +64,8 @@
 
 # Related to Malware
 /guten (abend|morgen|tag).{1,10}unser abonnent/i
+
+/(grüsse|grüße).{1,10}wir möchten sicherstellen/i
 
 # H
 /hallo.{1,15}bei der zahlungsabwicklung/i
@@ -97,6 +101,7 @@
 # J
 
 # K
+/kontoaktualisierung erforderlich.{1,10}guten (abend|morgen|tag)/i
 
 # L
 /lieber.{1,10}kunde.{1,10}leider war es uns.{1,10}nicht möglich/iu

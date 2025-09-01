@@ -44,6 +44,8 @@
 /genialen.{1,10}patentierten.{1,10}Software/i
 /geheime.{1,15}handelssoftware/i
 
+/gewinnsystem.{1,15}täglich ergebnisse/ii
+
 # H
 /heute noch.{1,15}euro verdienen/i
 
@@ -54,9 +56,12 @@
 
 # J
 /jeder .{1,15}euro pro tag verdienen kann/i
-/jetzt mit.{1,10}chf starten/i
+
+/jetzt mit.{1,10}(chf|euro?) starten/i
+/jetzt \d{3,5}.{1,10}einzahlen/i
 
 # K
+/konto füllt sich täglich/iu
 
 # L
 
@@ -82,7 +87,9 @@
 # Q
 
 # R
+/registrieren.{1,15}geprüfter berater/iu
 /registrieren.{1,10}mit dem handel beginnen/i
+/registrieren.{1,10}sie sich.{1,15}ein experte/i
 
 /risikofrei starten.{1,10}250/i
 
@@ -96,6 +103,9 @@
 /sie garantiert.{1,15}euro pro tag verdienen/i
 
 /sofort mindestens.{1,15}euro pro tag verdienen/i
+
+/starten sie ihren.{1,10}wachstumskurs/i
+/starten sie klein.{1,10}ab \d{3,5}/i
 
 /streng geheime strategie/i
 
@@ -124,3 +134,5 @@
 # Y
 
 # Z
+/zahlen sie 250 eur/i
+
