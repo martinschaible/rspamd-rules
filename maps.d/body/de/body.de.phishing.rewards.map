@@ -38,6 +38,8 @@
 /gratis.{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
 /jetzt.{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra).{1,10}(anfordern|einfordern|sichern)/i
 
+/ihre? (brandneuen|brandneues).{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra).{1,10}wartet/i
+
 # Kit
 /notfall.?(kit|set).{1,10}(auto|kfz|wartet|wert)/i
 
@@ -142,6 +144,9 @@
 /sie sind einer.{1,20}exklusiv ausgewählten empfänger/i
 
 /sie wurden ausgewählt.{1,10}haben.{1,10}die chance/iu
+/sie wurden ausgewählt.{1,10}um die brandneuen?/i
+
+/sobald sie ihre.{1,10}daten bestätigt haben/iu
 
 /status.{1,10}neu.{1,10}versandbereit/i
 /status.{1,10}versandbereit.{1,10}enthält/iu
