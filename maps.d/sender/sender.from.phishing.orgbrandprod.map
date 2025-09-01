@@ -317,7 +317,7 @@
 
 /(germany|team).{0,10}gls/i
 
-/gls.{0,10}(deutschland|schweiz)/i
+/gls.{0,10}(deutschland|germany|schweiz)/i
 /gls.{0,10}(infozentrum|lieferdienst)/i
 /gls.{0,10}(kundendienst|kundenservice)/i
 /gls.{0,10}(online|sendung|support|team)/i

@@ -211,9 +211,11 @@
 /(paket|sendung).{1,10}mit der nummer/i
 /(paket|sendung).{1,10}bestätigen sie/iu
 
+/(paket|sendung).{1,10}von.{1,25}zahlung erforderlich/i
+
 /(paket|sendung).{1,10}wartet auf/i
 /(paket|sendung).{1,10}wartet.{1,10}distributionszentrum/i
-/(paket|sendung)§wartet.{1,10}holen sie es.{1,10}ab/i
+/(paket|sendung).{1,10}wartet.{1,10}holen sie es.{1,10}ab/i
 
 /(paket|sendung).{1,10}zahlung.{1,10}versandgebühren/iu
 
@@ -301,6 +303,7 @@
 /zahlung.{1,10}(versandgebühr|zustellgebühr).{1,10}erforderlich/iu
 
 /zahlung abgeschlossen ist/i
+/zahlung erforderlich \d\.\d{2}/i
 /zahlung von.{1,10}erforderlich/i
 
 /zahlungserinnerung.{1,10}importgebühren/iu
