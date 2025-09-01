@@ -58,6 +58,9 @@
 
 /handlungsbedarf.{1,5}\d{2}\.\d{2}\d.{4}/i
 
+# Sample: Angebot (Nr. 25-7615) vom 01.09.2025 verfügbar
+/angebot.{1,10}nr\..{1,15}vom.{1,10}\d{2}\.\d{2}\.\d{4} verfügbar/i
+
 /auszahlung.{1,10}förderung/iu
 
 /förderung(en)?.{1,10}\d{2}\.\d{2}\.\d{4}/iu

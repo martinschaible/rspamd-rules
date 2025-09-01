@@ -23,6 +23,7 @@
 
 /(business|proposal|transaction).{1,10}discuss with you/i
 /(business|proposal|transaction).{1,10}(for|with) you/i
+/(business|proposal|transaction).{1,10}offer that will benefit both/i
 
 # C
 /(completion|you for).{1,15}business.{1,10}transaction/i
