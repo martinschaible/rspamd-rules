@@ -447,8 +447,10 @@
 /get hard.{1,10}stay hard/i
 
 /gets? rid of.{1,10}(brain fog|cavity|pain)/i
+/gets? rid of.{1,10}constipation/i
 /gets? rid of.{1,10}these.{1,10}fruits/i
 /gets? rid of.{1,10}unwanted/i
+
 
 /(gum|gut).{0,10}(cleanse|cleansing)/i
 /(gum|gut).{0,10}(fix|health|problem|power|relief|reset)/i
@@ -488,7 +490,6 @@
 /hgh.{1,15}(now legal|prescription|without)/i
 
 /hidden.{1,10}(danger|gut|hormone|prostate|toxin|truth)/i
-/
 
 /high a1c/i
 /high.{1,10}blood.{1,10}pressure/i
@@ -537,7 +538,9 @@
 /(lbs|pounds|weight) of fat/i
 
 /legal.{1,10}boner/i
+
 /life.?changing.{1,10}video/i
+/lift.{1,10}saggy butt/i
 /liver is in.{1,10}danger/i
 
 /lose weight.{1,10}(fast|without)/i

@@ -347,6 +347,7 @@
 
 /bulging.{0,10}discs/i
 /burn.{0,10}(boost|calories)/i
+/butt.{0,10}lift/i
 /(buzzing|hissing).{0,10}ears/i
 
 /breakfast.{0,10}mistake/i
@@ -428,7 +429,7 @@
 
 /detox.{0,10}(drink|solution|your)/i
 
-/digestive.{0,10}(boost|health|help|insight|reset|system)/i
+/digestive.{0,10}(boost|health|help|insight|problems?|reset|system)/i
 /digestion/i
 
 /discover.{0,15}today/i
@@ -694,7 +695,7 @@
 /nerve.{0,10}(damage|do this|research)/i
 /new.{0,10}(energy|hair|research)/i
 
-/night(time)?.{0,10}(capsule|fix)/i
+/night(time)?.{0,10}(capsule|fix|sip)/i
 /nightly.{0,10}reset/i
 /nightmare.{0,10}pee/i
 
@@ -821,7 +822,7 @@
 /silence.{0,10}(buzz(ing)?|pain)/i
 /silent.{0,10}danger/i
 
-/skin.{0,10}alert/i
+/skin.{0,10}(alert|fix)/i
 
 /sleep.{0,10}(age|discovery|hack|mistake|position|reset)/i
 /sleep.{0,10}(shortcut|slim|solution|trick)/i
@@ -843,12 +844,13 @@
 /sooth.{0,10}relief/i
 
 /special.{0,10}salt/i
+
+/spice.{0,10}doctor/i
 /spine.{0,10}reset/i
 /spiky.{0,10}fruit/i
 
 /spine.{0,10}(alignment|hack|trick)/i
 /spinal.{0,10}pain/i
-
 
 /strange.{0,10}acid/i
 /stretch.{0,10}(length|solutions?)/i

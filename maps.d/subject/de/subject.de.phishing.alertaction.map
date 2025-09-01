@@ -206,6 +206,7 @@
 
 /handlungsbedarf.{1,10}bestätigen sie ihre identität/iu
 /handlungsbedarf.{1,10}daten.{1,10}handelsregister bestätigen/iu
+/handlungsbedarf.{1,10}für ihr.{1,15}konto/i
 /handlungsbedarf.{1,10}ihr online.?banking/i
 /handlungsbedarf.{1,10}neue gesetzliche/i
 /handlungsbedarf.{1,10}problem mit.{1,10}rechnung/i
@@ -367,6 +368,7 @@
 
 /sicherheits.?(hinweis|mitteilung|warnung).{1,10}\d{2,4} dateien/i
 /sicherheits.?(hinweis|mitteilung|warnung).{1,10}für ihr konto/iu
+/sicherheits.?(hinweis|mitteilung|warnung).{1,10}handlungsbedarf/i
 /sicherheits.?(hinweis|mitteilung|warnung).{1,10}ihr gerät benötigt/iu
 /sicherheits.?(hinweis|mitteilung|warnung).{1,10}neue verbindung au/i
 

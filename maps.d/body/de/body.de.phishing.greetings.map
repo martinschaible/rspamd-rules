@@ -53,7 +53,10 @@
 
 /guten (abend|morgen|tag).{1,10}sicherheitswarnung/i
 /guten (abend|morgen|tag).{1,10}unser sicherheitssystem/i
+
 /guten (abend|morgen|tag).{1,10}wir haben die zahlung/i
+/guten (abend|morgen|tag).{1,10}wir haben eine rückerstattung/iu
+
 /guten (abend|morgen|tag).{1,10}wir möchten sie darüber informieren/iu
 /guten (abend|morgen|tag).{1,10}zum schutz ihres/i
 
@@ -138,6 +141,8 @@
 /sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}im rahmen (der|ihrer) gesetzlich(en)?/i
 /sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}im rahmen.{1,25}(datenschutz|eintragung|europäischen|sicherheits|verpflichtungen)/iu
 /sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}im zuge.{1,10}europaweiten anpassung/i
+ 
+/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,10}nach artikel/i
 
 /sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,20}sicherheitswarnung/i
 /sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}sie wurden für unser/i
