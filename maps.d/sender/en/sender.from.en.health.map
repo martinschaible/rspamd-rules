@@ -457,7 +457,7 @@
 /ed.?problems?/i
 /egyptian.{0,10}hack/i
 
-/ejaculation/i
+/(eliminates|eliminating).{0,10}(fat|pain)/i
 
 /embarassing.{0,10}leaks/i
 
@@ -817,6 +817,8 @@
 
 /shed.{1,15}faster/i
 /shed.{1,10}ibs by/i
+
+/shoulder.{0,10}(pain|relief)/i
 
 /side.{0,10}back/i
 /sight.{0,10}care/i

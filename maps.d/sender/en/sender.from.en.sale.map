@@ -71,6 +71,9 @@
 
 /chef.{0,10}knife/i
 /chill.{0,15}(air|companion|crew|insider|support)/i
+
+/claim.{0,10}(drone|off)/i
+
 /clean.{0,10}(living|shower)/i
 /clear.{0,10}road/i
 
@@ -107,6 +110,8 @@
 /ergo.{0,10}light/i
 
 /esaver/i
+
+/_experience/i
 
 # F
 /fan.{0,10}blower/i
@@ -251,8 +256,11 @@
 /sofa.{0,10}cover/i
 /solar.{0,10}savings/i
 
+/speed.{0,10}enhancer/i
+
 /stop wasting/i
 
+/stunning.{0,10}(4k|footage)/i
 # T
 /tactic(al)?.{0,10}(flashlight|hiking|knive|official|report|stick)/i
 

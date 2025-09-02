@@ -11,11 +11,14 @@
 /(bitcoin|btc|crypto|krypto).{0,10}(beratung|berater|bricht|bulletin)/i
 /(bitcoin|btc|crypto|krypto).{0,10}(chance|crash)/i
 /(bitcoin|btc|crypto|krypto).{0,10}(geld|gewinner|gratis|handel|händler|heute)/i
+/(bitcoin|btc|crypto|krypto).{0,10}meisterschaft/i
 /(bitcoin|btc|crypto|krypto).{0,10}(nachrichten|neuigkeiten)/i
 /(bitcoin|btc|crypto|krypto).{0,10}(preis|team|tipps?)/i
 /(bitcoin|btc|crypto|krypto).{0,10}(vorteile?|währung(en)?|welle)/iu
 
 /offizielle?.{0,10}(bitcoin|btc|crypto|krypto)/i
+
+/k r y p t o/i
 
 # KI
 # ------------------------------------------------------------------------------
