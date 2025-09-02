@@ -28,7 +28,7 @@
 /(aktien|einkommen|dividenden|geld|gewinne|reich).{1,10}(durch|mit|per|wird).{1,10}(bitcoin|etf|ki\b|openai|krypto)/i
 
 #/(einsteigen|einstieg|empfiehlt|geld verdienen|gewinnen sie|schweizer).{1,15}(bitcoin|etf|ki\b|openai|krypto)/i
-/(einsteigen|empfiehlt|geld verdienen|gewinnen sie|schweizer).{1,15}(bitcoin|etf|ki\b|openai|krypto)/i
+/(einsteigen|empfiehlt|geld verdienen|gewinnen sie).{1,15}(bitcoin|etf|ki\b|openai|krypto)/i
 
 /(250|bitcoin).{1,10}reich werden/i
 
