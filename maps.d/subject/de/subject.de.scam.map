@@ -80,6 +80,7 @@
 /(preissturz|preissenkungen).{1,10}(photovoltaik|pv|solar).?anlagen?/i
 /(rabatte|sinkende preise).{1,20}(photovoltaik|pv|solar).?anlagen?/i
 
+/kostet eine.{1,10}(photovoltaik|pv|solar).?anlagen? keinen/i
 /preise.{1,10}(photovoltaik|pv|solar).?anlagen?.{1,10}gefallen/i
 /preise.{1,10}pv deutlich gesunken/i
 
@@ -233,6 +234,7 @@
 # Q
 
 # R
+/rechtliche information.{1,10}aktenzeichen/i
 
 # S
 /sie haben anspruch auf einen/i

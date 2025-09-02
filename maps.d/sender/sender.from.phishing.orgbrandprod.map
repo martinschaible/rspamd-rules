@@ -189,6 +189,7 @@
 /\.(ch|de) cpanel/i
 /^cpanel$/i
 /cpanel.{0,10}(host|server|service|team)/i
+/cpanel.{0,10}roundcube/i
 /cpanel on/i
 
 /css.?info/i
@@ -695,6 +696,7 @@
 #/^viseca$/i
 /viseca.?one.?app/i
 
+/^volksbank$/i
 /volksbanken$/i
 
 /von.{0,10}swica/i
