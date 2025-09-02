@@ -263,6 +263,9 @@
 /quotation.{1,15}injection mold/i
 
 # R
+/reliable.{1,10}(china|chinese).{1,20}(freight|forwarder)/i
+/reliable.{1,20}(freight|forwarder)/i
+
 /(professional|reliable|trusted).{1,20}(components|electronic).{1,15}(manufacturer|partners?|suppliers?)/i
 /(professional|reliable|trusted).{1,20}supplier.{1,15}partnership/i
 
