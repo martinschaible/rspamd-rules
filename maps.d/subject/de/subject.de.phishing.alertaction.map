@@ -174,7 +174,9 @@
 
 # E
 /entdeckt.{1,10}schützen sie sich jetzt/iu
+
 /erforderliche.{1,10}(massnahmen?|maßnahmen?).{1,10}(liefer)?adresse/iu
+/erforderliche.{1,10}(massnahmen?|maßnahmen?).{1,10}versäumte lieferung/iu
 
 /erinnerung.{1,10}angebot/i
 /erinnerung.{1,10}aktualisierung ihrer/i
@@ -220,6 +222,9 @@
 
 /hinweis.{1,10}ihre daten müssen bestätigt/iu
 /hinweis.{1,10}update endet/i
+
+# Swiss Dialect
+/hinweis.{1,10}automatische verlängerig/iu
 
 /hohe dringlichkeit/i
 /höchste warnstufe.{1,15}abonnement/iu

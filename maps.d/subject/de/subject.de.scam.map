@@ -25,6 +25,8 @@
 # Cars
 # ------------------------------------------------------------------------------
 /(audi|mercedes.?benz|porsche).{1,10}werkszugang/i
+
+/fahrzeuge.{1,10}bis zu.{1,10}rabatt/i
 /fahrzeuge.{1,10}vertragsauflösungen/iu
 
 /lagerabverkauf.{1,15}fahrzeuge/i
@@ -35,6 +37,8 @@
 
 /jetzt werkskatalog/i
 /jetzt zugang anfordern/i
+
+/rabatte?.{1,10}über.{1,10}fahrzeuge/iu
 /vertragsrückläufer.{1,10}sonderkonditionen/iu
 
 # Comparing price for solar energy at home

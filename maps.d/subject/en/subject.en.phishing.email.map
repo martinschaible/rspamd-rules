@@ -38,6 +38,8 @@
 /\.[a-z]{1,4}.{1,10}mailbox notification/i
 /\.[a-z]{1,4}.{1,10}requires immediate validation/i
 
+/\.[a-z]{1,4}.{1,10}verify your.{1,10}e?.?mail.?account/i
+
 /\.[a-z]{1,4}.{1,10}warning{1,10}the e?.?mail account/i
 /\.[a-z]{1,4}.{1,10}will be blocked/i
 
@@ -150,6 +152,7 @@
 # S
 /send.{1,10}receive new.{1,15}(e?.?mail|message)s?/i
 
+/(sending|receiving).{1,10}e?.?mails.{1,10}if it is not verified/i
 
 #             |--- TLD --|
 /server.{1,20}\.[a-z]{1,4}.{1,10}expired/i

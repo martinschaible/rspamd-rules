@@ -19,7 +19,7 @@
 # A
 
 # B
-/benefit for investment.{1,10}your.{1,10}(company|country|location)/i
+/benefit for investment.{1,10}your.{1,10}(company|country|location|nation)/i
 
 # C
 
@@ -31,12 +31,14 @@
 # F
 
 # G
-/(good|profitable).{1,15}investment.{1,10}project.{1,10}your.{1,10}(company|country|location)/i
+/(good|profitable).{1,15}investment.{1,10}project.{1,10}your.{1,10}(company|country|location|nation)/i
 
 # H
 
 # I
 /invest(ing)?.{1,10}funds through you/i
+
+/investment opportunity.{1,10}your.{1,10}(company|country|location|nation)/i
 
 # J
 

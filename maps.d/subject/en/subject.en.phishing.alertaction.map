@@ -39,6 +39,9 @@
 /^action required$/i
 /^action-required$/i
 
+# Sample: Action needed: (1585755969)
+/action (needed|required).{1,5}\d{5,15}/i
+
 /action (needed|required) (on)?.{1,15}@/i
 /action (needed|required).{1,10}(january|february|march|april|may|june|july|august|september|october|november|december)/i
 
