@@ -106,6 +106,7 @@
 /(e?.?mail|nachricht).{1,10}könnte dein leben/iu
 /(e?.?mail|nachricht).{1,10}sie gut findet/i
 /(e?.?mail|nachricht).{1,10}(mrs\.|ms\.)/i
+/(e?.?mail|nachricht).{1,10}von (letzter|vergangener) woche.{1,10}(angekommen|bekommen|erhalten|erreichen|gesehen)/i
 
 /empfang der.{1,10}e?.?mail bestätigen/i
 /endgültige mitteilung/i

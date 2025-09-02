@@ -40,6 +40,8 @@
 
 /ihre? (brandneuen|brandneues).{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra).{1,10}wartet/i
 
+/ihre?.{1,15}(belohnung|geschenk|gutschein|gewinn|preis).{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
+
 # Kit
 /notfall.?(kit|set).{1,10}(auto|kfz|wartet|wert)/i
 
