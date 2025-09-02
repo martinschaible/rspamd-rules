@@ -31,10 +31,6 @@
 
 /(balanced|deadly|high|your).{0,10}blood/i
 
-# Cleanse
-# ------------------------------------------------------------------------------
-/(colon|detox|mayan).{0,10}cleanse/i
-
 # Cure, healing, etc...
 # ------------------------------------------------------------------------------
 /(herpes|historical|ultimate|uncommon).{0,10}cure/i
@@ -393,6 +389,9 @@
 
 /coffee.{0,10}extracts/i
 /cognitive.{0,10}(boost|care|comeback|decline|help|support)/i
+
+/colon.{0,10}(care|cleanse|detox|health|ics|irrigation|problems?)/i
+/(colon|detox|mayan).{0,10}cleanse/i
 
 /comfort.{0,10}water/i
 /compression.{0,10}sleeve/i

@@ -93,8 +93,9 @@
 /we are.{1,20}web.?design.{1,15}(company|development)/i
 /we are.{1,20}professional.{1,10}(web)?.?sites?/i 
 
-/we.{1,10}(create|design).{1,10}develop.{1,10}(web)?.?sites?/i 
-/we.{1,10}(create|design).{1,10}new.{1,10}(web)?.?site/i
+/we.{1,10}(build|create|design|develop|make).{1,10}develop.{1,10}(web)?.?sites?/i 
+/we.{1,10}(build|create|design|develop|make).{1,10}(new|your).{1,10}(web)?.?site/i
+/we.{1,10}(build|create|design|develop|make).{1,15}re.?design/i
 
 /we.{1,10}offer.{1,10}expert.{1,10}(web)?.?site/i
 /we.{1,10}offer.{1,10}web.?design/i
