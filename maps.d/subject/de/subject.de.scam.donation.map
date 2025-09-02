@@ -38,6 +38,7 @@
 /gratulation.{1,10}ihre spende/i
 
 # H
+
 /humanitärer zuschuss/iu
 /humanitäres angebot für ihre/iu
 
@@ -45,7 +46,7 @@
 /ihnen.{1,10}eine wohltätige Spende/i
 /ihnen.{1,10}eine spende von/i
 /ihnen.{1,10}millionen.{1,15}gespendet/i
-/ihnen.{1,10}(dollars?|euro?|usd|€|\$|£).{1,15}gespendet/i
+/ihnen.{1,10}(million)?.{1,10}(dollars?|euro?|usd|€|\$|£).{1,15}gespendet/i
 
 /ihre e?.?mail.{1,15}wurde.{1,15}spende/i
 
