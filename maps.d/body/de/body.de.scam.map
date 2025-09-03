@@ -40,6 +40,7 @@
 
 /fahrzeugen?.{1,15}(direktverwertung|sind direkt|zwischenlager)/i
 
+/(direkten|direkter) zugriff.{1,15}limitierte auswahl/i
 /jetzt verfügbar.{1,10}(audi|mercedes.?benz|porsche)/i
 
 /katalogzugang auf anfrage/i
@@ -48,6 +49,8 @@
 /unsere.{1,10}(werksmodelle|werkswagen)/i
 
 /sofort verfügbaren.{1,10}fahrzeugen/iu
+
+/verträgen stammen.{1,10}sofort für sie/iu
 
 # Comparing price for solar energy at home
 # ------------------------------------------------------------------------------

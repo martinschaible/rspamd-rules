@@ -43,7 +43,10 @@
 # I
 /(i|we) have.{1,10}access to.{1,10}vital information/i
 /(i|we) have.{1,10}some project funds/i
-/(i|we) have.{1,10}urgent.{1,10}opportunity/i
+
+/(i|we) have.{1,15}(business|investment).{1,15}(offer|opportunity|proposition|proposal|transaction)/i
+/(i|we) have.{1,15}(confidential|genuine|lucrative).{1,15}(business|offer|opportunity|proposition|proposal|transaction)/i
+/(i|we) have.{1,15}(profitable|urgent).{1,15}(business|offer|opportunity|proposition|proposal|transaction)/i
 
 /it is legitimate.{1,15}risk free/i
 
