@@ -166,6 +166,7 @@
 /avoid this.{1,10}(common|for)/i
 
 /avoid.{1,5}\d.{1,5}foods/i
+/avoid.{1,10}better health/i
 /avoid.{1,10}eating this/i
 /avoid.{1,10}heart attack/i
 /avoid.{1,10}here.{1,10}why/i
@@ -258,6 +259,7 @@
 
 /cavity.{0,10}cure/i
 
+/calorie burn with/i
 /celebrity.?secret/i
 
 /cleansing fix/i
@@ -420,7 +422,9 @@
 /flush(es)? out.{1,10}(fat|this)/i
 
 /focus.{1,10}memory/i
-/foods?.{1,10}that.{1,10}(fights?|prevents)/i
+/foods?.{1,10}that.{1,10}(fights?|poisonous|prevents)/i
+/foods?.{1,10}to avoid/i
+
 /follow these steps at/i
 
 /for.{1,10}better memory/i

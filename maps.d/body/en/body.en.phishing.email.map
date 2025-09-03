@@ -40,10 +40,12 @@
 /(e?.?mail|message)s?.{1,10}abuse notice.{1,10}security alert/i
 /(e?.?mail|message)s?.{1,10}are.{1,15}suspended on the.{1,10}server/i
 /(e?.?mail|message)s?.{1,10}awaiting your inbox/i
+/(e?.?mail|message)s?.{1,10}blocked.{1,10}(e?.?mail|message)s?.{1,10}have failed/i
 /(e?.?mail|message)s?.{1,10}do not reach your.{1,10}inbox/i
 /(e?.?mail|message)s?.{1,10}from your contacts are.{1,15}on hold/i
 
 /(e?.?mail|message)s?.{1,10}have been put on hold from/i
+/(e?.?mail|message)s?.{1,10}have failed to send.{1,20}due.{1,10}server error/i
 /(e?.?mail|message)s?.{1,10}has been blocked by.{1,10}administrator/i
 
 /(e?.?mail|message)s?.{1,10}marked.{1,10}important.{1,10}pending/i
