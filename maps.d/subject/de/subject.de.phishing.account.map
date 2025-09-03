@@ -171,7 +171,8 @@
 /unbekannter anmeldeversuch erkannt.{1,10}bitte prüfen/iu
 /(ungewöhnliche|verdächtige).{1,10}(aktivitäten|vorgänge) (auf|in) (dem|ihrem).{1,15}konto/iu
 
-/unserer.{1,15}sicherheitsaktualisierung/i
+/unserer?.{1,10}login.?methoden?/i
+/unserer?.{1,15}sicherheitsaktualisierung/i
 
 # V
 /vermeiden sie die aussetzung/i
