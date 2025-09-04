@@ -28,7 +28,8 @@
 # C
 /check.{1,10}update your.{1,10}e?.?mail/i
 
-/click here to verify.{1,15}@.{1,15}now/i
+/click.{1,10}here to verify.{1,15}@.{1,15}now/i
+/click.{1,10}(update|upgrade).{1,10}mail.?box/i
 
 /confirm your.{1,10}e?.?mail.{1,15}ensure uninterrupted service/i
 
@@ -53,6 +54,8 @@
 /(e?.?mail|message)s?.{1,10}restriction activity/i
 /(e?.?mail|message)s?.{1,10}sent to you.{1,10}but.{1,10}not.{1,20}delivered/i
 /(e?.?mail|message)s?.{1,10}you are yet to receive/i
+
+/e?.?mail.?(update|upgrade).{1,10}latest version/i
 
 # F
 
@@ -102,8 +105,12 @@
 # U
 /unread.{1,10}(e?.?mail|message)s?.{1,10}pending due to server/i
 
-/update.{1,10}to continue using.{1,10}mailbox/i
-/update.{1,10}your.{1,10}(mailbox|storage)/i
+/(update|upgrade).{1,10}account.{1,10}cancel the request/i
+/(update|upgrade).{1,10}account.{1,10}increase.{5,15}quota/i
+
+/(update|upgrade).{1,10}required.{1,10}your.{1,10}mail.?box/i
+/(update|upgrade).{1,10}to continue using.{1,10}mail.?box/i
+/(update|upgrade).{1,10}your.{1,10}(mail.?box|storage)/i
 
 # V
 /view.{1,10}(failed|save).{1,10}(e?.?mail|message)s?/i
