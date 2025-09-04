@@ -658,7 +658,8 @@
 /mind.{0,10}(barriers?|blow|boost|clarity|health|recovery)/i
 /mineral.{0,10}(combination|magic)/i
 
-/miracle.{0,10}(drops?|minerals?)/i
+/(mineral|miracle).{0,10}(alert|burner|drops?|minerals?|syrup)/i
+
 /miraculous.{0,10}fruit/i
 
 /missing.{0,10}nutrients?/i
@@ -666,7 +667,7 @@
 /mit.{0,10}research/i
 /mitochondria.{0,10}boost/i
 
-/morning.{0,10}(boost|dessert|detox|drink|hack|melt|metabolism|mistake)/i
+/morning.{0,10}(boost|brew|dessert|detox|drink|hack|melt|metabolism|mistake)/i
 /morning.{0,10}(oil|reset|ritual|routine|slimmer|wood)/i
 
 /mouth.{0,10}(detox|odor)/i
@@ -675,9 +676,6 @@
 /muffled.{0,10}hearing/i
 /muscle.{0,10}(miracle|pain|repair|stretch)/i
 /mushroom.{0,10}magic/i
-
-/mineral.{0,10}alert/i
-/miracle.{0,10}(burner|syrup)/i
 
 # N
 /(toe)?nail.{0,10}(fix(er)?|health|repair|rescue|restoration|rub|test)/i

@@ -120,10 +120,10 @@
 
 /request for.{1,25}pricing.{1,10}product/i
 
-/request.{1,10}quotation$/i
-/request.{1,10}quotation from/i
-/request.{1,10}quotation.{1,10}rfq/i
-/request.{1,10}quotation.{1,20}purchase/i
+/request.{1,10}(quote|quotation)$/i
+/request.{1,10}(quote|quotation) from/i
+/request.{1,10}(quote|quotation).{1,20}purchase/i
+/request.{1,10}(quote|quotation).{1,10}rfq/i
 
 # Sample: RFQ # 0110-2025
 /^rfq.{1,5}\d{2,5}-\d{2,5}/i
