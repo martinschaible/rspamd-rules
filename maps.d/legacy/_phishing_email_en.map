@@ -73,20 +73,6 @@
 /(incoming|pending|receive).{1,15}messages.{1,10}avoid termination of your.{1,10}account/i
 /your.{1,10}(e?.?mails?|messages?).{1,10}will be permanently deleted/i
 
-# Update EMail Account, Inbox, Mailbox
-# ------------------------------------------------------------------------------
-/(update|upgrade).{1,10}account.{1,10}cancel the request/i
-/(update|upgrade).{1,10}account.{1,10}increase.{5,15}quota/i
-/(update|upgrade).{1,10}required for your.{1,10}mail.?box/i
-/(update|upgrade).{1,10}your mail.?box/i
-
-/e?.?mail.?(update|upgrade).{1,10}latest version/i
-
-/click.{1,10}(update|upgrade).{1,10}mail.?box/i
-
-/is due for.{1,10}security update/i
-/your action is required.{1,10}upgrade.{1,10}e?.?mail/i
-
 # Server Update
 # ------------------------------------------------------------------------------
 /\.(ch|de|org).{1,10}server was.{1,15}to a newer version/i
