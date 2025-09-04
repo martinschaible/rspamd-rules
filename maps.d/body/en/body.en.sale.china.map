@@ -30,8 +30,8 @@
 /co.{1,5}ltd.{1,10}mob(ile)?.{1,10}wechat/i
 /co.{1,5}ltd.{1,10}machining/i
 /co.{1,5}ltd.{1,10}nice to know you/i
+/co.{1,5}ltd.{1,10}is.{1,10}popular in/i
 /co.{1,5}ltd.{1,10}trusted/i
-/co.{1,5}ltd.{1,10}we provide/i
 
 # D
 /distributor.{1,10}specializing in all kinds of/i
@@ -55,6 +55,7 @@
 /leading.{1,10}(pcba?|printed.?circuit.?board).{1,10}factory/i
 
 /(limited|ltd).{1,10}(specializes in|we are major)/i
+/(limited|ltd).{1,10}we (provide|specialize)/i
 
 # M
 /manufacturer.{1,10}china.{1,10}who are in industry/i
@@ -116,7 +117,8 @@
 /we.{1,10}provide.{1,10}customized oem/i
 /we.{1,10}provide.{1,10}(cnc|machining|printing)/i
 
-/we.{1,10}specialize.{1,10}(advanced|custom|design|manufacture|metal|producing)/i
+/we.{1,10}specialize.{1,10}(advanced|custom|design|metal|producing)/i
+/we.{1,10}specialize.{1,10}(manufacture|manufacturing)/i
 /we.{1,10}specialize.{1,10}(eu|us).{1,10}designs/i
 
 # X

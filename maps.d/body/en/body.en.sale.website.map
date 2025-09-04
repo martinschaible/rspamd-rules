@@ -71,6 +71,7 @@
 # R
 /reliable.{1,10}creative.{1,10}(web)?.?site/i
 
+/(rebuilding|redesign|refurbish|revamp|repairing|upgrade) your.{1,15}business/i
 /(rebuilding|redesign|refurbish|revamp|repairing|upgrade) your.{1,15}(web)?.?site/i
 /(rebuilding|redesign|refurbish|revamp|repairing|upgrade) your.{1,10}(current|existing).{1,15}(web)?.?site/i
 
@@ -97,8 +98,8 @@
 /we.{1,10}(build|create|design|develop|make).{1,10}(new|your).{1,10}(web)?.?site/i
 /we.{1,10}(build|create|design|develop|make).{1,15}re.?design/i
 
-/we.{1,10}offer.{1,10}expert.{1,10}(web)?.?site/i
-/we.{1,10}offer.{1,10}web.?design/i
+/(i|we).{1,10}offer.{1,10}expert.{1,10}(web)?.?site/i
+/(i|we).{1,10}offer.{1,10}(web.?design|website)/i
 
 /web.{1,10}mobile.?app.{1,10}development/i
 

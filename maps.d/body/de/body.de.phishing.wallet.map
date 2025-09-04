@@ -53,6 +53,7 @@
 # R
 
 # S
+/sie ihre wallet nicht aktualisieren/i
 
 # T
 
@@ -61,8 +62,9 @@
 # V
 
 # W
-/wallet (ist|wird|wurde).{1,10}vorübergehend gesperrt/iu
-/wallet wurde (genutzt|verwendet).{1,10}um/i
+/wallets?.{1,10}(ist|wird|wurde).{1,10}vorübergehend gesperrt/iu
+/wallets?.{1,10}wurde (genutzt|verwendet).{1,10}um/i
+/wallets?.{1,20}auf die neue version aktualisiert/i
 
 # X
 
