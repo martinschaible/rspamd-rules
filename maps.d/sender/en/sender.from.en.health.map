@@ -364,7 +364,7 @@
 /can.?t.{0,10}sleep/i
 
 /carb.{0,10}(control|secrets?|tricks?)/i
-/cardio.{0,10}(boost|kitchen|wellness)/i
+/cardio.{0,10}(boost|health|kitchen|wellness)/i
 /care.{0,10}secret/i
 /cartilage.{0,10}care/i
 
@@ -373,6 +373,8 @@
 
 /celeb(rity)?.{0,10}doc(tor)?/i
 /celeb(rity)?.{0,10}diet/i
+
+/cell.{0,10}rewind/i
 
 /chicken.{0,10}protein/i
 
@@ -397,7 +399,7 @@
 /comfort.{0,10}water/i
 /compression.{0,10}sleeve/i
 
-/confidence.{0,10}booster/i
+/confidence.{0,10}boost(er)?/i
 /constant.{0,10}urinatine/i
 
 /counting.{0,10}calories/i

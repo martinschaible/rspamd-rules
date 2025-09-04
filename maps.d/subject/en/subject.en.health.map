@@ -685,7 +685,7 @@
 
 /reset.{1,10}gut/i
 
-/restores?.{1,10}(gut|hearing|joint|memory|nerve|perfect|teeth)/i
+/restores?.{1,10}(gut|hearing|help|joint|memory|nerve|perfect|teeth)/i
 
 /(reverse|reversing).{1,10}(aging in|dementia|diabetes|ed\b|memory|type 2)/i
 /(reverse|reversing).{1,10}(hair|vision).?loss/i
@@ -907,7 +907,9 @@
 /use this secret/i
 
 # V
-/veggie.{1,10}(secretly|to avoid)/i
+/(vegetable|veggie).{1,10}(insights|secretly|to avoid)/i
+
+/vets.{1,10}concerned/i
 /vision.{1,10}(fix|solutions?)/i
 
 # W

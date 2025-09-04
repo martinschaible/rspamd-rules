@@ -30,6 +30,7 @@
 # CH Media Markt Kundendienst
 # DHL Express
 # DHL Paket
+# Coop Aktionen
 # Die Schweizerische Post
 # DocMorris - Ihre Apotheke
 # Dropbox
@@ -603,7 +604,7 @@
 
 /^sumup\.?$/i
 /sum-up\./i
-/sum.?up.{0,10}kontakt/i
+/sum.?up.{0,10}(kundenservice|kontakt)/i
 /sumxup/i
 
 /sumup.{0,10}(assistenz|kundendienst|service.?desk|limited|team)/i
