@@ -40,6 +40,8 @@
 /du bist der.{1,10}gewinner von heute/i
 /du bist (ein|unser).{1,10}gewinner/i
 
+/du könntest gewinnen/iu
+
 # E
 /endgultige.{1,10}notifikation/i
 /endgültige.{1,10}notifikation/iu
@@ -99,7 +101,10 @@
 /glückwunsch.{1,10}an unsere.{1,10}gewinner/iu
 /glückwunsch.{1,5}gewinner/i
 /glückwunsch.{1,10}ref.?no/i
+
 /glückwunsch.{1,10}sie sind.{1,15}sieger/i
+/glückwunsch.{1,10}sie wurden als.{1,20}gewinner/iu
+
 /glückwunsch.{1,10}zum gewinn/iu
 
 # H
