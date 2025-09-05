@@ -225,6 +225,7 @@ body
   │   ├─ body.de.phishing.payment.map             │
   │   ├─ body.de.phishing.refund.map              │
   │   ├─ body.de.phishing.rewards.map             │
+  │   ├─ body.de.phishing.sale.map           X    │
   │   ├─ body.de.phishing.subscription.map        │
   │   ├─ body.de.phishing.survey.map              │
   │   ├─ body.de.phishing.wallet.map             ─┘
@@ -333,6 +334,7 @@ subject
   │   ├─ subject.de.phishing.payment.map          │
   │   ├─ subject.de.phishing.refund.map           │
   │   ├─ subject.de.phishing.rewards.map          │
+  │   ├─ subject.de.phishing.sale.map        X    │
   │   ├─ subject.de.phishing.survey.map           │
   │   ├─ subject.de.phishing.wallet.map          ─┘
   │   │
