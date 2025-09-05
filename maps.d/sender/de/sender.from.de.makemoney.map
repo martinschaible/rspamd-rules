@@ -61,6 +61,7 @@
 /cash.{0,10}modul/i
 
 # D
+/deutsche?.{0,10}wahrheit/i
 
 # E
 
@@ -73,15 +74,16 @@
 /forex.?(broker|handel)/i
 
 # G
-/geheim.{0,10}aktuell/i
+/geheim(es)?.{0,10}(aktuell|geld)/i
 /geld.{0,10}(gratis|info|strategien|verdienen)/i
 
 # H
 
 # I
-/ihre rechnung/i
+#/ihre rechnung/i
 /ihre?.{0,15}(produkt|serechnungndung)/i
 
+/insider.{0,10}(news|risiko)/i
 /investment.{0,10}(guide|strategie)/i
 
 # J
@@ -119,6 +121,8 @@
 # S
 /schock.{0,10}fakten/i
 /sicheres?.{0,10}investments?/i
+
+/skandal.{0,10}fakten/i
 
 # T
 /teuer.{0,10}verkaufen/i
