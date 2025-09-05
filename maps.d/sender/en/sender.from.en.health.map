@@ -91,11 +91,16 @@
 # ------------------------------------------------------------------------------
 /(health|quick).{0,10}(boost(er)?|fix|guide)/i
 
-/health.?(digest|now|research|vibes)/i
-
-/healthy?.{0,10}(alert|alternative|brain|fibes|foods?)/i
-/healthy?.{0,10}(guides?|gut|hack|heart|heaven|hero|insider|insights)/i
-/healthy?.{0,10}(power|secret|transformation)/i
+/healthy?.{0,10}(aging|alerts?|alternative)/i
+/healthy?.{0,10}(brain|choice(es)?|deals?|digest)/i
+/health.?.{0,10}(discovery|digest)/i
+/healthy?.{0,10}(feet|fibes|files?|foods?)/i
+/healthy?.{0,10}(gift|guides?|gut)/i
+/healthy?.{0,10}(habit|hack|hair|heart|heaven|hero)/i
+/healthy?.{0,10}(insider|insights)/i
+/healthy?.{0,10}(liver|now|power)/i
+/healthy?.{0,10}research/i
+/healthy?.{0,10}(secret|smile|spine|transformation|vibes|wire)/i
 
 /(american|daily|insider|intimate|mens|simple|womens).{0,10}health/i
 
@@ -413,7 +418,7 @@
 /correct.{0,10}use/i
 /cortisol.{0,10}level/i
 
-/cure.{0,10}herpes/i
+/cure.{0,10}(herpes|report)/i
 
 # D
 /daily.{0,10}(burn|comfort|fatigue|metabolism|wellness)/i
@@ -559,11 +564,9 @@
 /hates it/i
 
 /healing.{0,10}(massage|technology)/i
-/healthy.{0,10}(aging|choice(es)?|digest|habit|hair|liver|smile|spine)/i
 
 /hearing.{0,10}problem/i
 
-/healthy?.{0,10}(alerts?|deals?|feet|files?|gift|wire)/i
 /heart.{0,10}(attack|cells|check|danger|disease|health|helper|problems?|protection|risk)/i
 
 /herbal.{0,10}wisdom/i
@@ -613,8 +616,10 @@
 /leaky.{0,10}brain/i
 
 /leakage.{0,10}(fixer|prevention)/i
+/legs?.{0,10}balance/i
 /lemon.{0,10}water/i
 
+/light.{0,10}therapy/i
 /life.{0,10}(boost|changing|extender|pharmacy)/i
 
 /live.{0,10}(forver|long(er)?|years)/i
@@ -826,7 +831,7 @@
 /silence.{0,10}(buzz(ing)?|pain)/i
 /silent.{0,10}danger/i
 
-/skin.{0,10}(alert|fix)/i
+/skin.{0,10}(alert|fix|sculptor)/i
 
 /sleep.{0,10}(age|discovery|hack|mistake|position|reset)/i
 /sleep.{0,10}(shortcut|slim|solution|trick)/i
@@ -959,7 +964,7 @@
 /wax.{0,10}free/i
 
 /weird.{0,10}sound/i
-/wellness.{0,10}(alert|bulletin|brief|daily|insights|living|news|report|weekly)/i
+/wellness.{0,10}(alert|bulletin|brief|daily|insights|living|news|report|watch|weekly)/i
 
 /white.{0,10}(carb|smile)/i
 /without.{0,10}glasses/i
