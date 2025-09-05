@@ -161,6 +161,7 @@
 /(lieferung|paket|sendung|versand|zustellung).{1,10}benötigt eine bestätigung/iu
 /(lieferung|paket|sendung|versand|zustellung).{1,20}warten auf freigabe/i
 /(lieferung|paket|sendung|versand|zustellung).{1,10}wurde aufgrund falscher angaben/i
+/(lieferung|paket|sendung|versand|zustellung).{1,10}zurück ins lager schicken/iu
 
 /lieferstatusinformationen id.?\d{3,10}/i
 
@@ -252,7 +253,9 @@
 # T
 
 # U
-/überprüfung.{1,10}ihr(er)? /(paket|sendung)/iu
+/überprüfung.{1,10}ihr(er)?.{1,10}(paket|sendung)/iu
+
+/um ihren.{1,10}artikel zu liefern/i
 
 # V
 /vernichtung ihres.{1,10}pakets/i

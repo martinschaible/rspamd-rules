@@ -132,6 +132,7 @@
 /ihre gute nachricht/i
 
 /im brief befindet sich/i
+/in diesem brief/i
 
 /ist.{1,10}ihre (aktive|gültige) e?.?mail/iu
 /ist das (deine|ihre) e?.?mail/i
@@ -181,7 +182,7 @@
 /rückmeldung.{1,10}letzten.{1,10}e?.?mail/iu
 
 # S
-/schauen sie sich diese.{1,10}(e?.?mail|nachricht) an/i
+/(schauen sie sich|sieh dir) diese.{1,10}(e?.?mail|nachricht) an/i
 
 /^sehr wichtig$/i
 

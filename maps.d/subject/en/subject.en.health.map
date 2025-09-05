@@ -75,6 +75,7 @@
 /(fat|weight).?(burning|loss).{1,10}(tip|viral)/i
 
 /(fat|weight).{1,10}gain.{1,10}fatigue/i
+/(fat|weight).{1,10}blocking herbs/i
 /(fat|weight).{1,10}success proven/i
 /(fat|weight).{1,10}with this.{1,10}hack/i
 
@@ -170,10 +171,11 @@
 /avoid.{1,10}eating this/i
 /avoid.{1,10}heart attack/i
 /avoid.{1,10}here.{1,10}why/i
-/avoid.{1,10}(these|this).{1,10}(back|breakfast|damaging|deadly|diabetic|foods?|fruit)/i
+/avoid.{1,10}(these|this).{1,10}(back|breakfast)/i
+/avoid.{1,10}(these|this).{1,10}(damaging|dangerous|deadly|diabetic|foods?|fruit)/i
 /avoid.{1,10}(these|this).{1,10}(common|gut)/i
 
-/\[avoid these/i
+/\[avoid (these|this)/i
 
 /away your.{1,10}memory/i
 /awaken your.{1,10}power/i
@@ -288,6 +290,8 @@
 
 # D
 /damaging.{1,10}your (gut|memory)/i
+/dangerous.{1,10}fruits/i
+
 /dark spots.{1,10}aging/i
 
 /(daily|relief).{1,10}pain/i
@@ -771,6 +775,8 @@
 /stabilize your blood/i
 /stable blood sugar/i
 
+/standford.{1,10}discovery/i
+
 /start.{1,10}melting/i
 /start.{1,10}with.{1,10}drink/i
 
@@ -907,7 +913,7 @@
 /use this secret/i
 
 # V
-/(vegetable|veggie).{1,10}(insights|secretly|to avoid)/i
+/(vegetable|veggie).{1,10}(insights|secretly|truth|to avoid)/i
 
 /vets.{1,10}concerned/i
 /vision.{1,10}(fix|solutions?)/i
