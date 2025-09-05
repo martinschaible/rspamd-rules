@@ -163,10 +163,11 @@
 /greetings?.?(of the day)?.{5,35}the sales manager/i
 /greetings?.?(of the day)?.{1,15}my friend/i
 /greetings?.?(of the day)?.{1,15}my name is.{5,35}i am representing/i
+/greetings?.?(of the day)?.{1,15}we are.{1,10}supplier/i
 
 /greetings?.{1,10}recipient/i
-/greetings? from.{5,35}distributors? of/i
-/greetings? from the republic/i
+/greetings?.{1,10}from.{5,35}distributors? of/i
+/greetings?.{1,10}from the republic/i
 
 # Funny :-)
 /gooday sir.?ma/i
