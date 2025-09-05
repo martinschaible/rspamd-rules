@@ -80,7 +80,8 @@
 /\/[a-z]{1,15}\.index\.html?/i
 /\/[a-z]{0,10}keto[a-z]{0,10}\.html?/i
 
-/\.xhtml/i
+# Used by SVA Zürich
+#/\.xhtml/i
 
 # Invoices
 /re\d{1,10}\.zip/i
