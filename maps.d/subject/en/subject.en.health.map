@@ -250,6 +250,7 @@
 
 # C
 /call for your health/i
+/calms?.{1,10}nerve pain/i
 /calories.{1,10}belly fat/i
 
 /(causing|cause of|causes).{1,10}(back|joint).{1,10}pain/i
@@ -619,7 +620,10 @@
 
 # O
 /odd mix that/i
+
 /one.?finger (rub|trick)/i
+/one.{1,10}daily habit could/i
+
 /open the mystical/i
 /overcome diabetes/i
 

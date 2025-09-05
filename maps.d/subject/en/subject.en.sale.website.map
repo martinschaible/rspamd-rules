@@ -93,7 +93,8 @@
 
 /new.?redesign/i
 /new site.{1,10}redesign/i
-/new web.?site\?/i
+
+/new web.?site(\?|!)/i
 
 # O
 
