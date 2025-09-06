@@ -84,6 +84,10 @@
 /crude oil.{1,10}(contract|proposal)/i
 
 # D
+
+# Sample: Details: Ref #810298/543E2C8B
+/details.{1,5}ref.{1,5}#?\d{3,10}/i
+
 /^development.{1,10}opportunity$/i
 /discussion.{1,10}request/i
 /discussion.{1,10}about.{1,10}opportunity/i

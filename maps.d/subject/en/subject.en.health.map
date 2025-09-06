@@ -36,7 +36,8 @@
 /(hack|ritual|secret|solution|trick).{1,10}changes everything/i
 /(hack|ritual|secret|solution|trick).{1,10}(extends|reverse|shocks)/i
 /(hack|ritual|secret|solution|trick).{1,10}is saving/i
-/(hack|ritual|secret|solution|trick).{1,10}that could (change|unlock)/i
+/(hack|ritual|secret|solution|trick).{1,10}that.{1,10}(changes?|unlocks?)/i
+/(hack|ritual|secret|solution|trick).{1,10}that.{1,10}(helped|helps)/i
 /(hack|ritual|secret|solution|trick).{1,10}to (cure|ease|boost)/i
 
 /one simple stretch/i
@@ -172,7 +173,7 @@
 /avoid.{1,10}heart attack/i
 /avoid.{1,10}here.{1,10}why/i
 /avoid.{1,10}(these|this).{1,10}(back|breakfast)/i
-/avoid.{1,10}(these|this).{1,10}(damaging|dangerous|deadly|diabetic|foods?|fruit)/i
+/avoid.{1,10}(these|this).{1,10}(damaging|dangerous|deadly|diabetic|foods?|fruit|ingredient)/i
 /avoid.{1,10}(these|this).{1,10}(common|gut)/i
 
 /\[avoid (these|this)/i
@@ -285,6 +286,7 @@
 
 /cup of this/i
 /cure.{1,10}(approved|fda|neuropathy)/i
+/curbs?.{1,10}appetite/i
 
 /cuts?.{1,10}cholesterol by/i
 /cuts?.{1,10}heart attack/i
@@ -333,10 +335,9 @@
 /do this to keep sugar/i
 /do this once a day/i
 
-/doctor has the.{1,10}answer/i
-/doctors? reveals?/i
-/doctors?.{1,10}(recommend|stunned|warning)/i
-/doctors?.{1,10}says to avoid/i
+/(dentists?|doctors?).{1,10}the.{1,10}answer/i
+/(dentists?|doctors?).{1,10}(avoid|recommend|reveals|stunned|warn(ing)?)/i
+/(dentists?|doctors?).{1,10}says to avoid/i
 
 /does to joint pain/i
 
@@ -793,12 +794,12 @@
 /stubborn.{1,10}(fat|mucus)/i
 
 /stop doing this/i
-/stop.{1,10}ear ringing/i
-/stop.{1,10}(artery|decay|dieting|secret|teeth)/i
-/stop.{1,10}(eating|taking|using) (these|this)/i
-/stop.{1,10}this hidden/i
+/stops?.{1,10}ear ringing/i
+/stops?.{1,10}(artery|decay|dieting|secret|teeth)/i
+/stops?.{1,10}(eating|taking|using) (these|this)/i
+/stops?.{1,10}this hidden/i
 
-/stopped.{1,10}ringing/i
+/stopped.{1,10}(knee|ringing)/i
 /stops?.{1,10}memory loss/i
 /stops?.{1,10}protein/i
 

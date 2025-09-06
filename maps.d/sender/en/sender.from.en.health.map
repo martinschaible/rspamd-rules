@@ -306,7 +306,7 @@
 /beauty.{0,10}(acid|hack|secret|tip)/i
 
 /bed.{0,10}(hack|stretch)/i
-/bedtime.{0,10}(brew|habit|move)/i
+/bedtime.{0,10}(brew|habit|move|reset)/i
 /bedroom.{0,10}(fix|secrets?)/i
 /berry.{0,10}detox/i
 
@@ -336,7 +336,7 @@
 
 /bright.{0,10}smile/i
 
-/body.{0,10}(alignment|balance|reboot|recharge|waves?)/i
+/body.{0,10}(alignment|balance|reboot|recharge|reset|waves?)/i
 /\bboner$/i
 
 /bone.{0,10}bone/i
@@ -446,7 +446,7 @@
 /do not (consume|drink|eat|take)/i
 /do this/i
 
-/doctor.{0,10}warning/i
+/doctors?.{0,10}(oral|tip|warning)/i
 /dog.{0,10}health/i
 
 /dr\.?.?(derm|health)/i
@@ -674,6 +674,8 @@
 /mit.{0,10}research/i
 /mitochondria.{0,10}boost/i
 
+/mobility.{0,10}(fix|matters)/i
+
 /morning.{0,10}(boost|brew|dessert|detox|drink|hack|melt|metabolism|mistake)/i
 /morning.{0,10}(oil|reset|ritual|routine|slimmer|wood)/i
 
@@ -715,7 +717,7 @@
 /oat.?meal.{0,10}hack/i
 /odd.{0,10}(chocolate|milk|mineral|liquid|tonic)/i
 
-/oral.{0,10}flush/i
+/oral.{0,10}(care|flush)/i
 /organ.{0,10}report/i
 /oriental.{0,10}secret/i
 
@@ -772,7 +774,7 @@
 /radiant{0,10}glow/i
 /rare.{0,10}hormone/i
 
-/real.?cause/i
+/real.{0,10}(cause|result)/i
 
 /red.{0,10}(berry|elixir|juice)/i
 /regain your/i
