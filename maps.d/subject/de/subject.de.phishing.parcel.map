@@ -76,6 +76,8 @@
 # C
 
 # D
+/auf die zahlung der.{1,10}(import|zoll).?gebühren wartet/iu
+
 /(die|ihre) lieferadresse.{1,5}\d{3,5}/i
 
 /dhl.{1,10}zahlungsaufforderung/i
@@ -123,8 +125,8 @@
 /ihre(r|s).{5,15}fehlgeschlagen/i
 /ihrer dhl.{0,5}bestellung/i
 
-/importgebühren für.{1,10}(lieferung|paket|sendung)/iu
-/importgebühren in höhe von.{1,10}offen/iu
+/(import|zoll).?gebühren für.{1,10}(lieferung|paket|sendung)/iu
+/(import|zoll).?gebühren in höhe von.{1,10}offen/iu
 
 /information zu ihrer.{1,10}paketnummer/i
 /internationaler.{1,10}poststatus/i
@@ -171,7 +173,7 @@
 /lieferung benötigt.{1,10}bestätigung/iu
 
 # M
-/mahnung.{1,10}zollgebühren.{1,10}fällig/iu
+/mahnung.{1,10}(import|zoll).?gebühren.{1,10}fällig/iu
 
 /maßnahmen zu ihrem paket/i
 
@@ -316,7 +318,7 @@
 /zahlung erforderlich \d\.\d{2}/i
 /zahlung von.{1,10}erforderlich/i
 
-/zahlungserinnerung.{1,10}importgebühren/iu
+/zahlungserinnerung.{1,10}(import|zoll).?gebühren/iu
 
 /zustellgebühr.{1,10}ausstehend.{1,10}\d(\.|,)\d{2}/i
 
