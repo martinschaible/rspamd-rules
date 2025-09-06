@@ -11,6 +11,10 @@
 # ------------------------------------------------------------------------------
 /ihr swisscom gewinn/i
 
+# Cheap products
+# ------------------------------------------------------------------------------
+/nur noch heute sichern/i
+
 # Products
 # ------------------------------------------------------------------------------
 /(bestätigung|geschenk|gewinnen|kostenloses|unser).{1,20}notfall.?(kit|set)/i
@@ -123,9 +127,7 @@
 /besonderer zugang von/i
 /besonderes geschenk.{1,10}nur für dich/iu
 
-/bestätigen sie den erhalt/iu
-
-/bestätigen sie ihren gewinn/iu
+/bestätigen sie (den|ihren) (erhalt|gewinn)/iu
 
 #/bestätigen sie jetzt!^/iu
 /bestätigen sie jetzt/iu
@@ -135,7 +137,7 @@
 /bitte kurz bestätigen/iu
 
 # C
-/chance auf eine.{1,15}geschenkekarte/i
+/chance auf eine.{1,15}geschenke?.?karte/i
 
 # D
 /\.de (germany|deutschland)/i
