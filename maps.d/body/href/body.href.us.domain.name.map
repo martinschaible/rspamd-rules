@@ -11,8 +11,12 @@
 # 03.02.25 - Might cause False/Positives, will see how it goes
 /eu-north-1\.amazonaws\.com/i
 
-# 04.06.25 - Too much spam from this crappy company. The ydon't care
+# 04.06.25 - Too much spam from this crappy company. They don't care
 /\.s3\.amazonaws\.com\//i
+
+# 06.09.25 - Too much spam from this crappy company. They don't care
+/\.s3\.dualstack\.eu-central-1\.amazonaws\.com/i
+
 
 # B
 /bing\.com/i

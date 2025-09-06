@@ -24,7 +24,7 @@
 
 # Cars
 # ------------------------------------------------------------------------------
-/(audi|mercedes.?benz|porsche).{1,10}werkszugang/i
+/(audi|mercedes.?benz|porsche).{1,15}(ab lager|sofort|werkszugang)/i
 
 /fahrzeuge.{1,10}bis zu.{1,10}rabatt/i
 /fahrzeuge.{1,10}vertragsauflösungen/iu

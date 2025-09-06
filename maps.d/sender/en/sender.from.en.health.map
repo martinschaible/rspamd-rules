@@ -20,7 +20,7 @@
 /memory.{0,10}(fix(er)?|gap|hack|enhancement|fruit)/i
 /memory.{0,10}(improver|improvement|insider|killer|laps(es)?|loss)/i
 /memory.{0,10}master/i
-/memory.{0,10}(problem|protection)/i
+/memory.{0,10}protection/i
 /memory.{0,10}(recovery|restore|revival|revive)/i
 /memory.{0,10}(saver|saving|secret|solution|strengthener|tonic)/i
 
@@ -41,7 +41,7 @@
 
 # Diabetes
 # ------------------------------------------------------------------------------
-/(a1c|glucose).{0,10}(control|fix|level|problems?|spike)/i
+/(a1c|glucose).{0,10}(control|fix|level|spike)/i
 
 /sugar.{0,10}(above|defender|disease|levels?|spikes?|trap)/i
 
@@ -168,7 +168,7 @@
 
 # Sleep
 # ------------------------------------------------------------------------------
-/sleep(ing)?.{0,10}(blockers?|fix|instantly|problem|saboteur|struggles?|tight)/i
+/sleep(ing)?.{0,10}(blockers?|fix|instantly|saboteur|struggles?|tight)/i
 /(about|better|deep).{0,10}sleep/i
 
 # Stretching
@@ -295,7 +295,7 @@
 /back.{0,10}(aches?|fixer|pain|stretch)/i
 
 /bacon.{0,10}eggs/i
-/balance.{0,10}(blood|booster|brain|problem|restored|your)/i
+/balance.{0,10}(blood|booster|brain|restored|your)/i
 /balanced.?(bp|glucose)/i
 /bald.{0,10}spot/i
 
@@ -319,7 +319,7 @@
 
 /black.{0,10}coffee/i
 /bladder.{0,10}(boost|care|control|danger|fix|flush|health)/i
-/bladder.{0,10}(leaks?|leakage|leaking|issues?|problems?)/i
+/bladder.{0,10}(leaks?|leakage|leaking|issues?)/i
 
 /bloat.{0,10}(free|solution)/i
 /blocking.{0,10}teas?/i
@@ -398,7 +398,7 @@
 /coffee.{0,10}extracts/i
 /cognitive.{0,10}(boost|care|comeback|decline|help|support)/i
 
-/colon.{0,10}(care|cleanse|detox|health|ics|irrigation|problems?)/i
+/colon.{0,10}(care|cleanse|detox|health|ics|irrigation)/i
 /(colon|detox|mayan).{0,10}cleanse/i
 
 /comfort.{0,10}water/i
@@ -436,7 +436,7 @@
 
 /detox.{0,10}(drink|solution|your)/i
 
-/digestive.{0,10}(boost|health|help|insight|problems?|reset|system)/i
+/digestive.{0,10}(boost|health|help|insight|reset|system)/i
 /digestion/i
 
 /discover.{0,15}today/i
@@ -462,7 +462,6 @@
 /ear.{0,10}reset/i
 /easy.{0,10}(breathing|spine|stretch)/i
 /eat.{0,10}(fruitme|me|this)/i
-/ed.?problems?/i
 /egyptian.{0,10}hack/i
 
 /(eliminates|eliminating).{0,10}(fat|pain)/i
@@ -565,9 +564,7 @@
 
 /healing.{0,10}(massage|technology)/i
 
-/hearing.{0,10}problem/i
-
-/heart.{0,10}(attack|cells|check|danger|disease|health|helper|problems?|protection|risk)/i
+/heart.{0,10}(attack|cells|check|danger|disease|health|helper|protection|risk)/i
 
 /helps?.{0,10}you/i
 
@@ -623,6 +620,8 @@
 
 /light.{0,10}therapy/i
 /life.{0,10}(boost|changing|extender|pharmacy)/i
+
+/limitless.{0,10}brain/i
 
 /live.{0,10}(forver|long(er)?|years)/i
 /live.{0,10}to.{0,10}(years|yrs)/i
@@ -887,7 +886,7 @@
 
 /stuck.{0,10}poop/i
 
-/sugar.{0,10}(control|eraser|fix|free|problems?|reboot|report|spike|traps|trick)/i
+/sugar.{0,10}(control|eraser|fix|free|reboot|report|spike|traps|trick)/i
 /super.{0,10}water/i
 
 /surgeon.{0,10}reveals?/i
