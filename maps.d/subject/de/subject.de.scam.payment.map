@@ -59,10 +59,8 @@
 # M
 
 # N
-/nicht beanspruchter?.{1,10}betrag/i
-/nicht beanspruchten?.{1,10}entschädigung/iu
-/nicht beanspruchter?.{1,10}gelder/i
-/nicht beanspruchten?.{1,10}(preis)?geld(es)?/i
+/nicht beanspruchte(n|r)?.{1,10}(betrag|entschädigung|gelder|transaktion)/i
+/nicht beanspruchte(n|r)?.{1,10}(preis)?geld(es)?/i
 
 # O
 

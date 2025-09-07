@@ -212,6 +212,7 @@
 #/handeln sie (innerhalb|jetzt|schnell|sofort)/i
 /handeln sie (innerhalb|schnell|sofort)/i
 /handeln Sie noch heute/i
+/handeln sie sofort.{1,10}ihr link/i
 
 /handeln.{1,10}erforderlich$/i
 /handeln.{1,10}erforderlich.{1,10}vermeiden sie die/i
@@ -247,6 +248,7 @@
 
 /ihr.{1,10}abonnement ist gefährdet/iu
 /ihr.{1,15}konto benötigt eine bestätigung/iu
+/ihr.{1,10}link läuft bald ab/i
 /ihr.{1,10}online.?zugang wird bald deaktiviert/i
 /ihr.{1,10}zugang ist pausiert/i
 
@@ -432,6 +434,7 @@
 /system.?hinweis.{1,10}empfohlener sicherheitscheck/i
 
 # T
+/transaktion.{1,10}aktion erforderlich/i
 
 # U
 /umgehende aufmerksamkeit benötigt/iu

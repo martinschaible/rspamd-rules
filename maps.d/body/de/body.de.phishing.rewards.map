@@ -20,8 +20,13 @@
 /(airpods|apple|ipad|iphone|macbook|watch ultra).{1,10}originalverpackt.{1,10}(bereit|versandkostenfrei)/i
 /(airpods|apple|ipad|iphone|macbook|watch ultra).{1,20}(für sie|reserviert|spezialangebot)/i
 /(airpods|apple|ipad|iphone|macbook|watch ultra).{1,10}wartet auf (dich|sie)/i
+/(airpods|apple|ipad|iphone|macbook|watch ultra).{1,10}sichern/i
 
-/auf sie wartet.{1,20}(airpods|apple|ipad|iphone|macbook|watch ultra)/iu
+
+/auf sie wartet.{1,20}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
+/das brandneue?.{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
+/exklusiver preis.{1,20}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
+/letzte chance.{1,20}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
 /erhalten sie ihr.{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
 /(gewinner|überraschung).{1,20}(airpods|apple|ipad|iphone|macbook|watch ultra)/iu
 
