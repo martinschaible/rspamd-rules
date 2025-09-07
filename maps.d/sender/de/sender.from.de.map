@@ -30,7 +30,7 @@
 
 # Message
 # ------------------------------------------------------------------------------
-/(aktuelle|neue|offizielle|wichtige).{0,10}(mitteilung|nachricht)/i
+/(aktuelle|eine|neue|offizielle|spezielle|wichtige).{0,10}(mitteilung|nachricht)/i
 
 /(mitteilung|nachricht).{0,5}(des|vom|von)/i
 
@@ -64,7 +64,6 @@
 /die.?lösung/iu
 
 # E
-/eine nachricht/i
 
 # F
 

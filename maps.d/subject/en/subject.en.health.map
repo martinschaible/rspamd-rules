@@ -275,6 +275,7 @@
 /collagen.{1,10}exposed/i
 /common.{1,10}drink may/i
 
+/concerning.{1,10}ingredient.{1,10}found/i
 /constant.{1,10}buzzing/i
 /conquer.{1,10}tinnitus/i
 /constipation.{1,10}read this/i
@@ -492,7 +493,9 @@
 /heart attack.{1,10}(risk by|test|warning)/i
 /heart.{1,10}fix/i
 
-/helps fight.{1,10}diabetes/i
+/helps? fight.{1,10}diabetes/i
+/(helps?|reclaims?).{1,10}intimacy/i
+
 /here is the fix/i
 
 /\[here.{1,10}how\]/i
