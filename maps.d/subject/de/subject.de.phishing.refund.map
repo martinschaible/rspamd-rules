@@ -29,6 +29,8 @@
 
 /benachrichtigung.{1,10}doppelte zahlung/i
 
+/bestätigen sie{1,10}auszahlungsdetails/iu
+
 # C
 
 # D
@@ -121,7 +123,6 @@
 
 # W
 /wir erstatten ihnen chf \d{2,3}\.\d{2}/i
-
 /wurde doppelt bezahlt/i
 
 # X

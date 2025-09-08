@@ -194,7 +194,9 @@
 /belly.{1,10}(fat|overnight)/i
 /behind.{1,10}bloat/i
 
-/best.{1,10}for type 2/i
+/(best|worst).{1,10}breakfast foods?/i
+/(best|worst).{1,10}for type 2/i
+
 /better.{1,10}bladder/i
 /better than.{1,10}(hearing|retinol)/i
 
@@ -234,6 +236,7 @@
 /boost.{1,10}heart health/i
 /boost.{1,15}(brain|cellular|focus|health|metabolism|stamina|vitality)/i
 /boost.{1,10}fat breakdown/i
+/(boost|energy).{1,15}manage weight/i
 
 /breakfast.{1,10}(avoid|memory)/i
 
@@ -767,7 +770,8 @@
 /sleeping position/i
 
 /slim(mer)?.{1,10}waist/i
-/slowing.{1,10}digestion/i
+/slow(ing)?.{1,10}digestion/i
+/slows?.{1,10}metabolism/i
 
 /solution.{1,10}enhanced performance/i
 /solution.{1,10}for.{1,10}(digestion|ed)/i

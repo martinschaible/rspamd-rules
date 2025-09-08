@@ -72,6 +72,8 @@
 
 /contact.{1,10}pcba?.{1,10}supplier/i
 
+/cooperation invitation from/i
+
 /custom.{1,10}metal (components|parts)/i
 /custom.{1,10}(bags?|cap|machined parts|metal stamping)/i
 /custom.{1,10}(pcba?|printed.circuits?.board)/i
@@ -161,7 +163,7 @@
 /injection.{1,15}mold(ing)/i
 /injection.{1,15}mou?ld/i
 
-/(international|trading).{1,10}co.{1,5}ltd/i
+/(international|shenzhen|trading).{1,15}co.{1,5}ltd/i
 /inquiry about.{1,10}pcba?/i
 
 /iso.{1,10}qualified.{1,10}factory/i
