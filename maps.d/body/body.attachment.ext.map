@@ -1,0 +1,59 @@
+# ==============================================================================
+# Most viruses and malware hide in attachments.
+# Mostly hidden in invoices, orders and other business-related data.
+# The documents are usually sent as archive files.
+#
+# Rspamd already searches for unwanted file extensions.
+# Here we supplement the file with other combinations.
+#
+# ------------------------------------------------------------------------------
+# Language: -
+# Weight:   12.0
+# ==============================================================================
+
+# Extensions
+# ------------------------------------------------------------------------------
+/\.001$/i
+/\.arj$/i
+/\.do$/i
+/\.jar$/i
+/\.lha$/i
+/\.library-ms$/i
+/\.shtml$/i
+/\.tbz2/i
+/\.uue$/i
+
+/\.r00$/i
+/\.r09$/i
+/\.r10$/i
+/\.r11$/i
+/\.r16$/i
+/\.r18$/i
+
+# Special
+/\.\.docx/i
+/\.xlsx?_/i
+
+# Double Extension
+# ------------------------------------------------------------------------------
+/\.img\.gz/i
+/\.pdf\.rar/i
+
+/\.(jpg|pdf|xlsx|xlx)\.(html|lz|t?gz|zip)/i
+
+/xlsxr?\.tar/i
+/pdf\.z$/i
+
+# Pseudo Double Extension
+# ------------------------------------------------------------------------------
+/(,|_|-)(doc|pdf)\.(docx|gz|htm|rar|svg|tar|zip)/i
+
+# Sample: pdf (4kb).docx
+/pdf.?\(\d{1,5}kb\).?\.docx/i
+
+# Sample: .xlxs(8).htm
+/\xlsx\(\d{1,5}\)\.html/i
+
+# Triple Extension
+# ------------------------------------------------------------------------------
+/\.xls\.tar\.gz/i
