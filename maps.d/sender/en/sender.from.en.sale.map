@@ -55,6 +55,10 @@
 /authorized.{0,10}(dealer|retailer)/i
 
 # B
+/battle.{0,10}ready/i
+
+/blade.{0,10}works/i
+
 /boom de vendas/i
 /boom of sales/i
 
@@ -262,7 +266,7 @@
 
 /stunning.{0,10}(4k|footage)/i
 # T
-/tactic(al)?.{0,10}(flashlight|hiking|knive|official|report|stick)/i
+/tactic(al)?.{0,10}(edge|flashlight|hiking|knive|official|report|stick)/i
 
 /tax.{0,10}(consultant|helpers?|resolvers?)/i
 
