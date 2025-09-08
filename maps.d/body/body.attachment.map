@@ -3,12 +3,9 @@
 # Mostly hidden in invoices, orders and other business-related data.
 # The documents are usually sent as archive files.
 #
-# Rspamd already searches for unwanted file extensions.
-# Here we supplement the file extensions with other combinations.
-#
 # ------------------------------------------------------------------------------
 # Language: german, english
-# Weight:   6.0
+# Weight:   12.0
 # ==============================================================================
 
 # Invoices, orders, etc
@@ -151,58 +148,6 @@
 # Sample: Advice.PDF).html
 /\)\.html/i
 
-# Extensions
-# ------------------------------------------------------------------------------
-/\.001/i
-/\.arj/i
-/\.do$/i
-/\.jar/i
-/\.tbz2/i
-
-/\.lha/i
-/\.library-ms/i
-
-/\.r00"?$/i
-/\.r09"?$/i
-/\.r10"?$/i
-/\.r11"?$/i
-/\.r16"?$/i
-/\.r18"?$/i
-
-/\.shtml$/i
-/\.uue"?$/i
-
-/\.xlsx?_/i
-
-/\.\.docx/i
-
-# Double Extension
-# ------------------------------------------------------------------------------
-
-# The unique ones
-/\.img\.gz/i
-/\.(jpg|pdf)\.html/i
-/\.pdf\.rar/i
-
-/\.(pdf|xlsx)\.(lz|t?gz|zip)/i
-
-/\.(pdf|xlx)\.html?/i
-
-/(,|_|-)(doc|pdf)\.(gz|htm|rar|svg|tar|zip)/i
-/(,|_|-)pdf\.docx/i
-
-# Sample: pdf (4kb).docx
-/pdf.?\(\d{1,5}kb\).?\.docx/i
-
-# Sample: .xlxs(8).htm
-/\xlsx\(\d{1,5}\)\.html/i
-
-/xlsxr?\.tar/i
-/pdf\.z$/i
-
-# Triple Extension
-# ------------------------------------------------------------------------------
-/\.xls\.tar\.gz/i
 
 #
 #
