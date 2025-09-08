@@ -64,6 +64,7 @@ These are the latest changes:
 | 29.05.25 | multimap.conf                     | Old files removed                  |
 |          | _multimap_ad.conf                 | Old file deleted                   |
 |          | _multimap_domain.conf             | Old file deleted                   |
+| 08.09.25 | multimap.body.conf                | New map file added                 |
 
 :point_right: A major migration of the configuration files is necessary:
 * The naming of the "Sender" files was unfortunate and has now been corrected.
@@ -178,7 +179,7 @@ Folder structure:
 body
   ├─ body.attachment.map                         ─┐
   ├─ body.emergency.map                           │
-  ├─ body.emergency.extension.map           X     │
+  ├─ body.emergency.ext.map                       │
   ├─ body.orgbrandprod.map                  X     │
   ├─ body.special.map                             │
   │                                               │
