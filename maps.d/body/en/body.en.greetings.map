@@ -76,6 +76,7 @@
 /(dear|hello|hi\b).{1,10}(buyer|customer|director|friend|madam|manager|partner|purchaser|respected|sir).{1,15}glad to (contact|connect|know|write)/i
 /(dear|hello|hi\b).{1,10}(buyer|customer|director|friend|madam|manager|partner|purchaser|respected|sir).{1,15}(good|nice) (day|morning)/i
 /(dear|hello|hi\b).{1,10}(buyer|customer|director|friend|madam|manager|partner|purchaser|respected|sir).{1,15}hello/i
+/(dear|hello|hi\b).{1,10}(buyer|customer|director|friend|madam|manager|partner|purchaser|respected|sir).{1,15}here from/i
 /(dear|hello|hi\b).{1,10}(buyer|customer|director|friend|madam|manager|partner|purchaser|respected|sir).{1,15}hope this.{1,10}(e?.?mail|message) finds/i
 /(dear|hello|hi\b).{1,10}(buyer|customer|director|friend|madam|manager|partner|purchaser|respected|sir).{1,10}how are you/i
 /(dear|hello|hi\b).{1,10}(buyer|customer|director|friend|madam|manager|partner|purchaser|respected|sir).{1,10}i am writing to/i
