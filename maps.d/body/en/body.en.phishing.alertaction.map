@@ -39,7 +39,8 @@
 # E
 
 # F
-/final notice.{1,10}before.{1,15}(message|pending).{1,15}deletion/i
+/final (notice|reminder).{1,10}before.{1,15}(message|pending).{1,15}deletion/i
+/final (notice|reminder).{1,10}(confirm|refresh|verify) your/i
 
 # G
 

@@ -10,6 +10,7 @@
 # ------------------------------------------------------------------------------
 /action requise.{1,10}confirmez votre/i
 /confirmez votre addresse postale/i
+/rappel.{1,10}problème de paiement/iu
 
 #
 #
@@ -129,10 +130,9 @@
 /(e?.?mail|mailbox).{1,10}verification.{1,10}action required/i
 
 # F
-/final (notice|reminder).{1,10}confirm your/i
+/final (notice|reminder).{1,10}(confirm|refresh|verify) your/i
 /final (notice|reminder).{1,10}do not miss/i
 /final (notice|reminder).{1,10}enable.{1,20}2fa/i
-/final (notice|reminder).{1,10}verify your/i
 
 # 30.07.25 - Final Notice Regarding Unsubmitted Tax Documents
 /税務書類未提出に関する最終通知/i
