@@ -45,6 +45,8 @@
 
 /at our.{1,10}facility/i
 
+/authorized distributor of/i
+
 # B
 /bag supplier from/i
 
@@ -288,10 +290,10 @@
 
 /seamless.{1,15}supplier/i
 
-/servo motor.{1,10}factory/i
+/servo motor.{1,10}(factory|manufacturer)/i
 
 /shipping rfq/i
-/(shipping|shipment)).{1,15}(agent|service).{1,10}(from|in)/i
+/(shipping|shipment).{1,15}(agent|service).{1,10}(from|in)/i
 /(shipping|shipment).{1,15}from china/i
 
 /(shipping|shipment|transport) from.{1,20}competitive price/i
