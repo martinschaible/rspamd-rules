@@ -75,6 +75,7 @@
 /(paket|sendung).{1,10}in der warteschleife/i
 /(paket|sendung).{1,15}in unserer bearbeitung befindet/i
 
+/(paket|sendung).{1,10}ist versandfertig.{1,10}aber die versandkosten/i
 /(paket|sendung).{1,15}ist fast zugestellt/i
 /(paket|sendung).{1,10}ist in.{1,20}eingetroffen.{1,10}(durch den zoll|wurde verzollt)/i
 /(paket|sendung).{1,10}ist noch nicht bezahlt/i
@@ -97,6 +98,8 @@
 
 # S
 /sie um eine.{1,10}(geringe|kleine).{1,10}(bearbeitungspauschale|servicegebühr|zustellgebühr)/iu
+
+/sie müssen eine geringe.{1,10}gebühr entrichten/iu
 
 # T
 

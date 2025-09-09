@@ -173,7 +173,7 @@
 # 29.06.25 - Used by fake "EOS Deutscher Inkasso-Dienst GmbH" 
 /sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}wir kontaktieren sie im auftrag von/i
 
-/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}wir haben festgestellt/i
+/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}wir haben.{1,10}(ein problem|festgestellt)/i
 /sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}wir hatten kürzlich ein/iu
 /sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}wir konnten ihre letzte zahlung/i
 /sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}wir möchten sie.{1,15}(dringend|informieren)/iu
