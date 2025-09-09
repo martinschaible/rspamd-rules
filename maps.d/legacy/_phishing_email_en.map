@@ -15,11 +15,8 @@
 
 /activate.{1,10}receive.{1,10}(incoming|pending).{1,10}(e?.?mail|message)s?/i
 
-/you have.{1,40}(bounced|delayed|important|incoming|new|pending|suspended|undelivered|unreceived).{1,25}(e?.?mails?|inbox|messages?)/i
-
 # Protocol related
 /due to ssl.?port.?server.{1,10}errors.{1,10}(e?.?mails|messages)/i
-/you have.{1,10}pending{1,10}(e?.?mails?|messages?) on.{1,10}(imap|pop)/i
 /your.{1,10}e?.?mail.?address.{1,10}(imap|pop3)/i
 
 #
