@@ -159,13 +159,15 @@
 
 /(lieferung|paket|sendung|versand|zustellung).{1,10}(ausstehende|unbezahlte).{1,10}(versandkosten|zollgebühren)/iu
 /(lieferung|paket|sendung|versand|zustellung).{1,10}bereit.{1,30}bestätigen sie sofort/iu
-/(lieferung|paket|sendung|versand|zustellung).{1,10}ist angehalten/i
-/(lieferung|paket|sendung|versand|zustellung).{1,10}zahlung.{1,10}(ausstehend|erforderlich)/i
 /(lieferung|paket|sendung|versand|zustellung).{1,10}(benötigt|erfordert) eine.{1,15}bestätigung/iu
 /(lieferung|paket|sendung|versand|zustellung).{1,10}für sie zurückgehalten/iu
+/(lieferung|paket|sendung|versand|zustellung).{1,10}ist angehalten/i
+
 /(lieferung|paket|sendung|versand|zustellung).{1,20}warten auf freigabe/i
 /(lieferung|paket|sendung|versand|zustellung).{1,10}wurde aufgrund falscher angaben/i
 /(lieferung|paket|sendung|versand|zustellung).{1,10}zurück ins lager schicken/iu
+/(lieferung|paket|sendung|versand|zustellung).{1,10}zahlung.{1,10}(ausstehend|erforderlich)/i
+/(lieferung|paket|sendung|versand|zustellung).{1,10}zustellversuch fehlgeschlagen/i
 
 /lieferstatusinformationen id.?\d{3,10}/i
 
