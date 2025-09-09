@@ -47,6 +47,8 @@
 
 /event attendees.{1,10}e?.?mail.{1,10}(databases?|leads?|lists?)/i
 
+/expert.{1,10}guest blogger/i
+
 # F
 /followers.{1,15}free for you/i
 
@@ -61,6 +63,8 @@
 
 # I
 /increasing.{1,10}leads.{1,10}sales/i
+
+/i will write.{1,20}guest.?posts/i
 
 # J
 
@@ -79,6 +83,7 @@
 # O
 
 # P
+/guest.?post.{1,10}services?/i
 
 # Q
 
@@ -87,6 +92,7 @@
 # S
 /supercharge your sales/i
 
+/specializing.{1,10}guest.?posts/i
 # T
 /(targeted|verified).{1,15}contact.?lists of/i
 /(targeted|verified).{1,15}databases?.{1,10}businesses.{1,10}operating/i

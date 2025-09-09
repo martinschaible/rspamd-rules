@@ -54,6 +54,7 @@
 # N
 
 # O
+/on hold.{0,10}\d{5,20}/i
 
 # P
 /(package|parcel|shipment).{1,10}(awaiting|pending|ready).{1,10}(collection|delivery|processing|shipping)/i

@@ -53,6 +53,8 @@
 /(best|better) (price|quality) pcba?/i
 /better (pcba?|printed.?circuits?.?board).{1,10}supplier/i
 
+/boost your.{1,15}profit by/i
+
 # C
 /capacitors?.{1,10}capacitors?/i
 /capacitors?.{1,10}active.{1,10}passive/i

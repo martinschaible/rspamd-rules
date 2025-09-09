@@ -62,7 +62,8 @@
 # O
 /offering.{1,15}financing to existing companies/i
 
-/our investors.{1,10}are ready to provide/i
+/our.{1,10}business loan offers/i
+/our.{1,10}investors.{1,10}are ready to provide/i
 
 # P
 
@@ -89,10 +90,13 @@
 /we fund.{1,10}wide range/i
 /we have.{1,10}funding.{1,10}solutions/i
 
-/we.{1,10}(give|issuing|offer|offering|provide|source).{1,10}(financing|funding)/i
-/we.{1,10}(give|issuing|offer|offering|provide|source).{1,10}loan facilities/i
+/we.{1,10}(give|issuing|offer|offering|provide|source).{1,15}(financial|financing|funding)/i
+/we.{1,10}(give|issuing|offer|offering|provide|source).{1,15}loan facilities/i
 
 /we process.{1,10}loans/i
+
+/we represent.{1,10}financial institution/i
+/we represent.{1,10}reputable financial/i
 
 # X
 

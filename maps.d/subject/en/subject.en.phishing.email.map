@@ -53,6 +53,8 @@
 
 /(a|p)\.m\..{1,10}roundcube webmail/i
 
+/authentication error in.{1,15}@/i
+
 # B
 /blocked from receiving.{1,10}(e?.?mail|message)s?/i
 

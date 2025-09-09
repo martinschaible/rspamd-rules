@@ -30,7 +30,7 @@
 /\d{2,3}k pre.?approval/i
 
 # A
-/access.{1,10}competitive financing/i
+/access.{1,10}(business|competitive).{1,10}(financing|lending)/i
 
 /achieve more with up to \d{3,4}/i
 /achieve success with.{1,10}in capital/i
