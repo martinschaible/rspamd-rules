@@ -450,7 +450,10 @@
 /unvollständiges.{1,10}(unternehmens)?profil/iu
 
 /update erforderlich/i
-/update.{1,15}(abonnement|kontosicherheit)/i
+
+# Microsoft uses this
+#/update.{1,15}(abonnement|kontosicherheit)/i
+/update.{1,15}kontosicherheit/i
 /update.{1,10}app.?service.{1,10}erforderlich/i
 
 /überprüfen sie bestellung/i
