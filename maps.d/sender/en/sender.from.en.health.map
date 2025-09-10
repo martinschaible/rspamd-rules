@@ -295,6 +295,7 @@
 /back.{0,10}(aches?|fixer|pain|stretch)/i
 
 /bacon.{0,10}eggs/i
+/bad.{0,10}foods?/i
 /balance.{0,10}(blood|booster|brain|restored|your)/i
 /balanced.?(bp|glucose)/i
 /bald.{0,10}spot/i
@@ -435,6 +436,7 @@
 /desire.{0,10}revival/i
 
 /detox.{0,10}(drink|solution|your)/i
+/deficiency.{0,10}alert/i
 
 /digestive.{0,10}(boost|health|help|insight|reset|system)/i
 /digestion/i
@@ -1000,3 +1002,5 @@
 
 # Z
 /zero.{0,10}side.?effects?/i
+
+/zinc.{0,10}deficiency/i
