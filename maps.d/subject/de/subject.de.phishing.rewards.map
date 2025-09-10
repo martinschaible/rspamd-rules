@@ -43,19 +43,21 @@
 /preise?.{1,15}mystery.?box/i
 
 # Apple
-/(airpods|apple|ipad|iphone|macbook|watch ultra).{1,10}ausgewählte.{1,20}kunden/i
-/(airpods|apple|ipad|iphone|macbook|watch ultra).{1,10}für sie reserviert/iu
-/(airpods|apple|ipad|iphone|macbook|watch ultra).{1,10}gehören jetzt ihnen/i
-/(airpods|apple|ipad|iphone|macbook|watch ultra).{1,10}ist reserviert/i
-/(airpods|apple|ipad|iphone|macbook|watch ultra).{1,10}jetzt.{1,10}anfordern/i
-/(airpods|apple|ipad|iphone|macbook|watch ultra).{1,10}für kurze zeit verfügbar/iu
+/(airpods|apple|ipad|iphone|macbook|watch ultra).{1,15}ausgewählte.{1,20}kunden/i
+/(airpods|apple|ipad|iphone|macbook|watch ultra).{1,15}bereit zur lieferung/i
+/(airpods|apple|ipad|iphone|macbook|watch ultra).{1,15}für sie reserviert/iu
+/(airpods|apple|ipad|iphone|macbook|watch ultra).{1,15}gehören jetzt ihnen/i
+/(airpods|apple|ipad|iphone|macbook|watch ultra).{1,15}ist reserviert/i
+/(airpods|apple|ipad|iphone|macbook|watch ultra).{1,15}jetzt.{1,10}anfordern/i
+/(airpods|apple|ipad|iphone|macbook|watch ultra).{1,15}für kurze zeit verfügbar/iu
 
-/(airpods|apple|ipad|iphone|macbook|watch ultra).{1,10}sichern/i
-/(airpods|apple|ipad|iphone|macbook|watch ultra).{1,10}steht für sie bereit/i
-/(airpods|apple|ipad|iphone|macbook|watch ultra).{1,10}wartet auf dich/i
+/(airpods|apple|ipad|iphone|macbook|watch ultra).{1,15}sichern/i
+/(airpods|apple|ipad|iphone|macbook|watch ultra).{1,15}steht für sie bereit/i
+/(airpods|apple|ipad|iphone|macbook|watch ultra).{1,15}versand bestätigen/iu
+/(airpods|apple|ipad|iphone|macbook|watch ultra).{1,15}wartet auf dich/i
 
+/(benachrichtigung|gewinn|gratulation).{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
 /exklusiver preis.{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
-/(gewinn|gratulation).{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
 /holen sie sich.{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
 
 /ihr neuer.{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra).{1,10}gewinn/i
