@@ -64,7 +64,6 @@ These are the latest changes:
 | 29.05.25 | multimap.conf                     | Old files removed                  |
 |          | _multimap_ad.conf                 | Old file deleted                   |
 |          | _multimap_domain.conf             | Old file deleted                   |
-| 08.09.25 | multimap.body.conf                | New map file added                 |
 
 :point_right: A major migration of the configuration files is necessary:
 * The naming of the "Sender" files was unfortunate and has now been corrected.
@@ -129,6 +128,7 @@ These are the latest changes:
 | 20.08.25 | multimap.whitelist.body.de.conf            | New configuration file        |
 | 20.08.25 | multimap.whitelist.body.en.conf            | New configuration file        |
 | 20.08.25 | multimap.whitelist.header.ip.conf          | New configuration file        |
+| 08.09.25 | multimap.body.conf                         | New map file added            |
 
 ## Content
 :point_right: All map files of the *first version* are stored in the folder `/etc/rspamd/maps.d/legacy`.<br>
