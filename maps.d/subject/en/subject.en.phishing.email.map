@@ -83,11 +83,12 @@
 /e?.?mail.{1,10}(validation|verification) for mailbox/i
 /e?.?mail.{1,10}(validation|verification) notice/i
 
-/(e?.?mail|message).{1,10}failure delivery notice/i
-/(e?.?mail|message).{1,10}in your.{1,15}quarantine/i
-/(e?.?mail|message).{1,10}restriction activity/i
+/(e?.?mail|message)s?.{1,10}failure delivery notice/i
+/(e?.?mail|message)s?.{1,10}in your.{1,15}quarantine/i
+/(e?.?mail|message)s?.{1,10}restriction activity/i
 
 # F
+/failed incoming.{1,10}(e?.?mail|message)s?.{1,10}administrator restriction/i
 
 # G
 

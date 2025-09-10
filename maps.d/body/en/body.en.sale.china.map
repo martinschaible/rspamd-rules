@@ -65,10 +65,12 @@
 # O
 /our steel is manufactured/i
 
-# P
 /our.{1,10}(pcba?|printed.?circuit.?board).{1,10}(delivery|on.?time)/i
 
 /our.{1,10}(company|factory) specializes.{1,10}producing/i
+
+# P
+/professional.{1,10}freight forwarding/i
 
 # Q
 

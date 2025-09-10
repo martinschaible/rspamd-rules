@@ -198,6 +198,21 @@
 
 /profi.{1,10}akku.{1,10}werkzeuggeräte/iu
 
+#
+/(werkstatt|werkzeug).{0,10}(trolley|wagen)/i
+
+/werkzeug.?(koffer|set).{1,20}(für|mit|teilen)/i
+/werkzeug.?(koffer|set).{1,20}jetzt sichern/i
+/Werkzeug.?(koffer|set).{1,10}nur Heute/i
+
+/werkzeuge?.{1,10}(aktion|highlight|power|upgrade)/i
+/werkzeuge?.{1,10}(klassiker|komplett)/i
+/werkzeuge?.{1,15}(für|fuer|nur) \d/i
+
+/werkstatt.{1,15}in profi.?qualität/iu
+
+/teile.{1,10}werkzeug/i
+
 # Washing brush
 # ------------------------------------------------------------------------------
 /teleskop.{1,10}waschbürste/iu
@@ -491,16 +506,6 @@
 /werfen ihre? hörgeräte? weg/iu
 
 /werden sie zum sprachprofi/i
-/(werkstatt|werkzeug).{0,10}(trolley|wagen)/i
-
-/werkzeug.?(koffer|set).{1,20}(für|mit|teilen)/i
-/werkzeug.?(koffer|set).{1,20}jetzt sichern/i
-/Werkzeug.?(koffer|set).{1,10}nur Heute/i
-
-/werkzeuge?.{1,10}(highlight|klassiker|power|upgrade)/i
-
-/werkstatt.{1,15}in profi.?qualität/iu
-
 /wir bieten zeitarbeitsservice/i
 
 /wir kaufen.{1,10}(auto|fahrzeug|wagen|lkw|pkw)/i
