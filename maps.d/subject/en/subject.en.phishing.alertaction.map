@@ -58,6 +58,7 @@
 
 /action (needed|required).{1,10}final step.{1,15}(package|parcel|shipment)/i
 /action (needed|required).{1,10}final step.{1,15}receive/i
+/action (needed|required).{1,10}(complete|finalize).{1,15}(identity|verification)/i
 
 /action (needed|required).{10,35}for violation/i
 /action (needed|required).{1,10}for your.{1,15}@/i
@@ -114,7 +115,9 @@
 # B
 
 # C
-/compliance reminder.{1,10}verify your/i
+/compliance (notice|reminder).{1,10}(complete|finalize).{1,15}(identity|verification)/i
+/compliance (notice|reminder).{1,10}verify your/i
+
 /confirm ownership of.{1,20}@/i
 
 /critical security alert/i

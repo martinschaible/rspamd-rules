@@ -239,6 +239,8 @@
 # S
 /sein ziel erreicht/i
 
+/sendungs.?id.{1,5}dpd_/i
+
 /sich im distributionszentrum befindet/i
 
 /sie haben.{1,10}\(.?\d.?\).{1,5}(paket|update)/i
