@@ -31,7 +31,9 @@
 /click.{1,10}here to verify.{1,15}@.{1,15}now/i
 /click.{1,10}(update|upgrade).{1,10}mail.?box/i
 
+/confirm ownership of.{1,10}e?.?mail/i
 /confirm your.{1,10}e?.?mail.{1,15}ensure uninterrupted service/i
+
 /confirmation is complete.{1,10}your mailbox/i
 
 /C‌Pa​ne​l‌ /
@@ -115,6 +117,7 @@
 
 # V
 /view.{1,10}(failed|save).{1,10}(e?.?mail|message)s?/i
+/verify.{1,10}your.{1,10}(e?.?mail|mail.?box).{1,15}to restore/i
 
 # W
 /webmail.{1,10}storage.{1,10}(re.?)?validation/i
@@ -137,6 +140,8 @@
 /you received.{1,15}(e?.?mail|message)s?messages.{1,10}that could not be/i
 
 /your.{1,15}account is.{1,10}active on our server/i
+/your.{1,10}e?.?mail.{1,10}undergoing.{1,15}maintenance/i
+
 /your.{1,10}unreceived.{1,10}(e?.?mail|message)s?.{1,10}are stuck/i
 
 # Z

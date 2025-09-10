@@ -21,6 +21,8 @@
 # ==============================================================================
 
 # A
+/als aktiver webnutzer ausgewählt/iu
+
 /ausgewählt.{1,10}antworten sie.{1,10}e?.?mail an/iu
 /ausgewählt.{1,15}antworten sie.{1,10}weitere informationen/i
 /ausgewählt.{1,10}erhält einen spendenbetrag von/iu
@@ -83,6 +85,7 @@
 /ihre?.{1,10}e?.?mail.?(adresse|konto)?.{1,15}wurde ausgewählt.{1,10}um einen zuschuss/iu
 /ihre?.{1,10}e?.?mail.?(adresse|konto)?.{1,15}wurde per zufallsprinzip/i
 /ihre?.{1,10}e?.?mail.?(adresse|konto)?.{1,15}wurde bei einer.{1,20}zufällig ausgewählt/iu
+/ihre?.{1,10}e?.?mail.?(adresse|konto)?.{1,15}wurde von.{1,15}zufällig/i
 
 /ihnen eine wohltätige spende/iu
 /ihnen diesen betrag spenden/i

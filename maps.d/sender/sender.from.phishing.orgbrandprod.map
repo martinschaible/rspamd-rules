@@ -139,7 +139,7 @@
 /ap.?vertrieb/i
 
 /apple.{0,10}airtag/i
-/apple.{0,10}zahlung/i
+/apple.{0,10}(autorisierung|zahlung)/i
 
 /apple.?pay/i
 /(app|apple).?store.{0,10}rechnung/i

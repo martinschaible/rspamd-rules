@@ -64,6 +64,7 @@
 
 /(imap|pop3).{0,10}settings/i
 
+/team.?©/i
 /^webmail/i
 
 /web.?admin/i
