@@ -77,6 +77,7 @@
 /\d{2,3}.{1,10}guaranteed returns/i
 
 # H
+/home.{1,10}earn.{1,15}yearly/i
 
 # I
 /(income|money|security).{1,15}without leaving home/i
@@ -107,7 +108,7 @@
 # N
 
 # O
-/own.{1,10}(beachfront|dubai|iconic|island|luxury).{1,15}(home|property)/i
+/own.{1,10}(beachfront|dubai|iconic|island|luxury|uk\b).{1,15}(home|property)/i
 /own.{1,10}(home|property) (developed|near)/i
 
 # P
