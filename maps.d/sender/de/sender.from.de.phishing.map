@@ -36,6 +36,7 @@
 /_[a-z].{0,15}box/i
 
 /box von/i
+/bundesnews/i
 
 # C
 /ch.?zustellung/i
@@ -125,6 +126,9 @@
 
 # P
 /paket in/i
+
+/pakketdiensten/i
+
 /paketdienst.{0,10}(deutschland|schweiz)/i
 #/paketinfo/i
 /^paket.?service$/i

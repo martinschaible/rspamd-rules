@@ -51,11 +51,12 @@
 /gruß.{1,10}liebling/i
 
 /^grüße$/i
-/grüße.{1,10}(an sie|liebling|meine liebe)/i
-/grüße.{1,10}(dich|sie).{1,10}ich bin/i
-/grüße.{1,10}(dich|sie).{1,10}im namen des herrn/iu
-/grüße.{1,10}?.?mail inhaber/i
-/grüße.{1,10}wie geht es ihnen/i
+/(grüsse|grüße).{1,10}(an sie|liebling|meine liebe)/i
+/(grüsse|grüße).{1,10}(dich|sie).{1,10}ich bin/i
+/(grüsse|grüße).{1,10}(dich|sie).{1,10}im namen des herrn/iu
+/(grüsse|grüße).{1,10}im herrn/i
+/(grüsse|grüße).{1,10}e?.?mail inhaber/i
+/(grüsse|grüße).{1,10}wie geht es ihnen/i
 
 /grüß dich.{1,10}mein.{1,15}herr/i
 

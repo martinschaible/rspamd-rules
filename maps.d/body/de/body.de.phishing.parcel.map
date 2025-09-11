@@ -21,6 +21,8 @@
 
 # B
 /(begleichen|bezahlen) sie.{1,10}(die|eine).{1,10}(ausstehenden).{1,10}(versandkosten|zollgebühr)/iu
+/(begleichen|bezahlen) sie.{1,10}eventuelle.{1,10}(steuer|zoll).{1,15}gebühren/iu
+
 /begleichung.{1,10}der.{1,10}(bearbeitungs|zoll).?gebühr erforderlich/iu
 
 /bestätigen sie ihre lieferadresse/iu
@@ -34,6 +36,8 @@
 # F
 
 # G
+/gebühren.{1,10}um die lieferung fortzusetzen/iu
+
 /geringe servicegebühr von.{1,10}chf/iu
 
 # H
@@ -86,6 +90,7 @@
 /(paket|sendung).{1,15}sich im.{1,15}(distributions|verteil).{1,15}befindet/i
 /(paket|sendung).{1,15}werden dem importeur/iu
 
+/(paket|sendung).{1,10}wurde bearbeitet.{1,10}ist auf dem weg/i
 /(paket|sendung).{1,20}wurde.{1,10}eine unstimmigkeit festgestellt/i
 /(paket|sendung).{1,10}wurde erfolgreich im verteilzentrum/i
 /(paket|sendung).{1,15}wurde.{1,20}in der schweiz (verarbeitet|zugestellt)/i

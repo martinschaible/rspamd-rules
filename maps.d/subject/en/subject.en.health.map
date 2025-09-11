@@ -24,7 +24,7 @@
 
 /sec(ond)?.{1,10}(dumping|water).{1,10}fix/i
 /sec(ond)?.{1,10}habit.{1,15}(balance|better|transforms)/i
-/sec(ond)?.{1,10}skin trick/i
+/sec(ond)?.{1,10}(morning|skin).{1,10}(habbit|trick)/i
 
 /secrets? lowers.{1,10}high blood/i
 /secrets? to (enhancing|unlock(ing)?)/i
@@ -81,7 +81,7 @@
 /(fat|weight).{1,10}with this.{1,10}hack/i
 
 /(affects|big|blocking|boost|celeb|daily|easy|fast|for).{1,15}(fat|weight).?(burning|loss)/i
-/(hidden|massive|method|rapid|simple|try this|your).{1,15}(fat|weight).?(burning|loss)/i
+/(hidden|massive|method|rapid|simple|steady|try this|your).{1,15}(fat|weight).?(burning|loss)/i
 
 /add inches.{1,15}waistline/i
 /dissolves.{1,10}lbs/i
@@ -413,8 +413,8 @@
 # F
 /fastest way to eliminate/i
 
+/fatigue.{1,10}bloating/i
 /fatty cells/i
-
 /fight.{1,10}(cavities|inflammation|memory.?loss)/i
 
 /fix ed\b/i
