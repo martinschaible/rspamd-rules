@@ -23,7 +23,9 @@
 
 # C
 /cancel de.?activation.{1,15}(account|request)/i
-/confirm ownership here/i
+
+/confirm.{1,10}ownership here/i
+/confirm.{1,10}current tax residency/i
 
 # 11.08.25 - Check here
 /ご確認はこちら/i

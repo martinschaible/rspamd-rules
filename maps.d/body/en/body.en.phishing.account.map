@@ -63,6 +63,8 @@
 # Q
 
 # R
+/records show that your.{1,15}account/i
+
 /re.?confirm your.{1,10}details to enable/i
 
 # S
@@ -87,6 +89,7 @@
 /your device has sent.{1,10}shutdown request/i
 
 /your.{1,15}account during this transition/i
+/your.{1,15}account.{1,10}(active|fully).{1,10}finish.{1,10}verification/i
 /your.{1,15}account requires verification/i
 
 # Z

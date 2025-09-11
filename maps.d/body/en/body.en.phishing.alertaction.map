@@ -19,13 +19,14 @@
 # A
 /account review (needed|report)/i
 
-/action.{1,10}required.{1,10}continue enjoying/i
-/action.{1,10}required.{1,10}incoming.{1,10}(e?.?mail|message)s?.{1,10}witheld/i
-/action.{1,10}required.{1,10}(e?.?mail|message)s?.{1,10}quarantined/i
-/action.{1,10}required.{1,15}protect your.{1,15}account/i
-/action.{1,10}required.{1,10}upgrade.{1,10}(e?.?mail|mail.?box)/i
-/action.{1,10}required.{1,10}verify now/i
-/action.{1,10}required.{1,10}you must verify your account within/i
+
+/(action|update) (needed|required).{1,10}continue enjoying/i
+/(action|update) (needed|required).{1,10}required.{1,10}incoming.{1,10}(e?.?mail|message)s?.{1,10}witheld/i
+/(action|update) (needed|required).{1,10}required.{1,10}(e?.?mail|message)s?.{1,10}quarantined/i
+/(action|update) (needed|required).{1,10}required.{1,15}protect your.{1,15}account/i
+/(action|update) (needed|required).{1,10}required.{1,10}upgrade.{1,10}(e?.?mail|mail.?box)/i
+/(action|update) (needed|required).{1,10}required.{1,10}verify now/i
+/(action|update) (needed|required).{1,10}required.{1,10}you must verify your account within/i
 
 /(activate|enable).{1,10}2fa now/i
 /(activate|enable).{1,10}two.?factor authentication/i
@@ -47,6 +48,8 @@
 # H
 
 # I
+/(important|notice).{1,10}tax (details|document)/i
+
 /important notification.{1,10}we noticed.{1,10}recent update/i
 
 # J
@@ -58,7 +61,6 @@
 # M
 
 # N
-/notice.{1,10}tax details/i
 
 # O
 

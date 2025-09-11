@@ -81,7 +81,7 @@
 /(action|update) (needed|required).{1,10}secure wallet/i
 /(action|update) (needed|required).{1,10}subscription renewal/i
 
-/(action|update) (needed|required).{1,10}tax records incomplete/i
+/(action|update) (needed|required).{1,15}tax (documents|records incomplete)/i
 
 /(action|update) (needed|required).{1,10}upgrade for/i
 /(action|update) (needed|required).{1,10}(upgrade|verify).{1,10}e?.?mail/i
@@ -154,6 +154,7 @@
 /important.{1,10}authentication notification/i
 /important.{1,10}e?.?mail.{1,10}do not ignore/i
 /important.{1,10}information.{1,15}your.{1,15}(account|profile)/i
+/important.{1,10}tax document/i
 
 /important mailbox/i
 
@@ -166,7 +167,6 @@
 /important.{1,15}(notice|notification).{1,10}service renewal/i
 /important.{1,15}(notice|notification).{1,10}upgrade/i
 
-/important.{1,10}tax document/i
 /important.{1,10}update.{1,15}@/i
 /important.{1,10}update.{1,15}password expiration/i
 /important.{1,10}update.{1,25}server/i
