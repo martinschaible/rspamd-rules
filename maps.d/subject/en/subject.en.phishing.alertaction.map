@@ -41,59 +41,60 @@
 /^action-required$/i
 
 # Sample: Action needed: (1585755969)
-/action (needed|required).{1,5}\d{5,15}/i
+/(action|update) (needed|required).{1,5}\d{5,15}/i
 
-/action (needed|required) (on)?.{1,15}@/i
-/action (needed|required).{1,10}(january|february|march|april|may|june|july|august|september|october|november|december)/i
+/(action|update) (needed|required) (on)?.{1,15}@/i
+/(action|update) (needed|required).{1,10}(january|february|march|april|may|june|july|august|september|october|november|december)/i
 
-/action (needed|required).{1,15}(activate|update) your/i
-/action (needed|required).{1,10}(account|improve|payment failed)/i
+/(action|update) (needed|required).{1,15}(activate|update) your/i
+/(action|update) (needed|required).{1,10}(account|improve|payment failed)/i
 
-/action (needed|required).{1,10}complete customs/i
-/action (needed|required).{1,10}connect your/i
+/(action|update) (needed|required).{1,10}complete customs/i
+/(action|update) (needed|required).{1,10}connect your/i
 
-/action (needed|required).{1,20}de votre carte/i
+/(action|update) (needed|required).{1,20}de votre carte/i
 
-/action (needed|required).{1,10}enable 2fa/i
+/(action|update) (needed|required).{1,10}enable 2fa/i
 
-/action (needed|required).{1,10}final step.{1,15}(package|parcel|shipment)/i
-/action (needed|required).{1,10}final step.{1,15}receive/i
-/action (needed|required).{1,10}(complete|finalize).{1,15}(identity|verification)/i
+/(action|update) (needed|required).{1,10}final step.{1,15}(package|parcel|shipment)/i
+/(action|update) (needed|required).{1,10}final step.{1,15}receive/i
+/(action|update) (needed|required).{1,10}(complete|finalize).{1,15}(identity|verification)/i
 
-/action (needed|required).{10,35}for violation/i
-/action (needed|required).{1,10}for your.{1,15}@/i
-/action (needed|required).{1,10}for.{1,15}@/i
+/(action|update) (needed|required).{10,35}for violation/i
+/(action|update) (needed|required).{1,10}for your.{1,15}@/i
+/(action|update) (needed|required).{1,10}for.{1,15}@/i
 
-/action (needed|required).{1,10}identity verification/i
-/action (needed|required).{1,10}important verification/i
-/action (needed|required).{1,15}(incoming|pending).{1,15}e?.?mails?/i
-/action (needed|required).{1,10}(imap|pop3)/i
+/(action|update) (needed|required).{1,10}identity verification/i
+/(action|update) (needed|required).{1,10}important verification/i
+/(action|update) (needed|required).{1,15}(incoming|pending).{1,15}e?.?mails?/i
+/(action|update) (needed|required).{1,10}(imap|pop3)/i
 
-/action (needed|required).{1,10}messages to/i
-/action (needed|required).{1,30}new (important|notifications?)/i
-/action (needed|required).{1,10}notice of/i
+/(action|update) (needed|required).{1,10}messages to/i
 
-/action (needed|required).{1,20}payment update/i
-/action (needed|required).{1,15}prevent account/i
+/(action|update) (needed|required).{1,10}missing tax
+/(action|update) (needed|required).{1,30}new (important|notifications?)/i
+/(action|update) (needed|required).{1,10}notice of/i
 
-/action (needed|required).{1,10}secure wallet/i
-/action (needed|required).{1,10}subscription renewal/i
+/(action|update) (needed|required).{1,20}payment update/i
+/(action|update) (needed|required).{1,15}prevent account/i
 
-/action (needed|required).{1,10}tax records incomplete/i
+/(action|update) (needed|required).{1,10}secure wallet/i
+/(action|update) (needed|required).{1,10}subscription renewal/i
 
-/action (needed|required).{1,10}upgrade for/i
-/action (needed|required).{1,10}(upgrade|verify).{1,10}e?.?mail/i
-/action (needed|required).{1,15}(updated|security).{1,15}policy/i
+/(action|update) (needed|required).{1,10}tax records incomplete/i
 
+/(action|update) (needed|required).{1,10}upgrade for/i
+/(action|update) (needed|required).{1,10}(upgrade|verify).{1,10}e?.?mail/i
+/(action|update) (needed|required).{1,15}(updated|security).{1,15}policy/i
 
-/action (needed|required).{1,10}verify your.{1,20}@/i
-/action (needed|required).{1,10}verify your.{1,15}account/i
+/(action|update) (needed|required).{1,10}verify your.{1,20}@/i
+/(action|update) (needed|required).{1,10}verify your.{1,15}account/i
 
-/action (needed|required).{1,10}you have.{1,15}(document|e?.?mail)/i
+/(action|update) (needed|required).{1,10}you have.{1,15}(document|e?.?mail)/i
 
-/action (needed|required).{1,15}your.{1,15}account active/i
-/action (needed|required).{1,10}your.{1,15}(package|parcel|shipment) awaits/i
-/action (needed|required).{1,10}your.{1,15}(payment|web.?mail)/i
+/(action|update) (needed|required).{1,15}your.{1,15}account active/i
+/(action|update) (needed|required).{1,10}your.{1,15}(package|parcel|shipment) awaits/i
+/(action|update) (needed|required).{1,10}your.{1,15}(payment|web.?mail)/i
 
 /activation (pending|required).{1,10}secure your account/i
 /activation (pending|required).{1,20}user account/i
@@ -165,9 +166,10 @@
 /important.{1,15}(notice|notification).{1,10}service renewal/i
 /important.{1,15}(notice|notification).{1,10}upgrade/i
 
-/important update.{1,15}@/i
-/important update.{1,15}password expiration/i
-/important update.{1,25}server/i
+/important.{1,10}tax document/i
+/important.{1,10}update.{1,15}@/i
+/important.{1,10}update.{1,15}password expiration/i
+/important.{1,10}update.{1,25}server/i
 
 /important.{1,10}twint.{1,20}(authentification|app) /i
 
