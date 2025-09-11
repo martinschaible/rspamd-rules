@@ -168,13 +168,14 @@
 /greetings?.?(of the day)?.{1,15}my name is.{5,35}i am representing/i
 /greetings?.?(of the day)?.{1,15}we are.{1,10}supplier/i
 
+/greetings?.?(of the day)?.{1,15}(global|investment)/i 
+
 /greetings?.{1,10}recipient/i
 /greetings?.{1,10}from.{5,35}distributors? of/i
 /greetings?.{1,10}from the republic/i
 
 # Funny :-)
 /gooday sir.?ma/i
-
 
 # H
 /have a nice day.{1,10}this is.{5,35}from/i

@@ -233,7 +233,7 @@
 
 # T
 /tax.{0,10}(audit|department)/i
-/team.{0,10}support/i
+/\bteam.{0,10}support/i
 /thanks? you/i
 /tool.?set/i
 /trusted authentication/i
