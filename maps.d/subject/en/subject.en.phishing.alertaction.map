@@ -50,6 +50,7 @@
 /(action|update) (needed|required).{1,10}(account|improve|payment failed)/i
 
 /(action|update) (needed|required).{1,10}complete customs/i
+/(action|update) (needed|required).{1,10}confirm your phone/i
 /(action|update) (needed|required).{1,10}connect your/i
 
 /(action|update) (needed|required).{1,20}de votre carte/i

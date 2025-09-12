@@ -24,7 +24,7 @@
 
 
 /auf sie wartet.{1,20}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
-/das brandneue?.{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
+/(das|ein) brandneue?s?.{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
 /exklusiver preis.{1,20}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
 /letzte chance.{1,20}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
 /erhalten sie ihr.{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
@@ -60,6 +60,7 @@
 # ==============================================================================
 
 # A
+/anspruchsfrist.{1,10}stunden/i
 
 # B
 /(belohnung|geschenk|gutschein|gewinn|preis).{1,10}ein (brandneuer|brandneues)/i

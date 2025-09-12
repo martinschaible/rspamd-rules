@@ -81,9 +81,6 @@
 # L
 /^let me know$/i
 
-/loan.{1,5}\d{2}\/\d{2}\/\d{2,4}/i
-/loan.{1,5}financing/i
-
 /look in here/i
 /looking for a reply/i
 
@@ -131,6 +128,7 @@
 
 # T
 /thank you.{1,10}be blessed/i
+/there is a question/i
 /this is not an advertisement/i
 
 /trust you are doing fine/i

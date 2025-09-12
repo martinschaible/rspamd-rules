@@ -79,12 +79,12 @@
 
 /fuel your growth/i
 
-/fund(ing)?.{1,10}your project/i
 /(funding|funds).{1,10}business growth/i
 /(funding|funds).{1,10}joint venture/i
 /(funding|funds).{1,10}loan/i
 /(funding|funds).{1,10}low(er) rates?/i
 /(funding|funds).{1,10}support available/i
+/(funding|funds).{1,10}your project/i
 
 /for your.{1,10}business projects/i
 
@@ -109,11 +109,12 @@
 
 /loan @\d%/i
 
-/loan.{1,10}(approval|support)/i
+/loan.{1,5}\d{2}\/\d{2}\/\d{2,4}/i
+
+/loan.{1,15}(approval|business|financing|projects|support)/i
+
 /loan.{1,10}at.{1,10}interest rate/i
-/loan.{1,10}approval.{1,10}business/i
 /loan.{1,10}debt.{1,10}financing/i
-/loan.{1,10}for.{1,15}(business|projects)/i
 /loan.{1,10}funding program/i
 /loan.{1,10}interest rate/i
 /loan.{1,10}offer worldwide/i

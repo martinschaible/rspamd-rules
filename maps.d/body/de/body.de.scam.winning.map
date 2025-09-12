@@ -20,6 +20,7 @@
 # ==============================================================================
 
 # A
+/auserwählten für das.{1,20}gewinnspiel/i
 
 # B
 /betreff.{1,10}nicht abgeholter gewinn/i
@@ -81,6 +82,8 @@
 
 # S
 /sie gehören zu den.{1,10}gewinnern/iu
+
+/sie haben ein brandneues.{1,20}gewonnen/i
 
 /sie wurden.{1,10}durch ein.{1,15}glücksrad/iu
 /sie wurden.{1,10}als.{1,10}gewinner.{1,10}ausgewählt.{1,10}erhalten die summe/iu

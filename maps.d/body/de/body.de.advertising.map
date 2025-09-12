@@ -18,7 +18,8 @@
 # C
 
 # D
-/diese.{1,10}e?.?mail wurde an.{5,45}zu werbezwecken gesendet/i
+/diese.{1,10}(e?.?mail|nachricht).{1,10}wurde an.{5,45}zu werbezwecken gesendet/i
+/diese.{1,10}(e?.?mail|nachricht).{1,10}wurde dir geschickt.{1,10}weil jemand dachte/i
 
 # E
 /einem unserer werbepartner angemeldet haben/i
