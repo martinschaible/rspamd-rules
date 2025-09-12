@@ -33,10 +33,9 @@
 # B
 /build (own|your).{1,10}app/i
 
-/business.?apps/i
-
 # C
-/(business|creat|creating).{1,10}apps?/i
+#/(business|creat|creating).{1,10}apps?/i
+/(create|creating).{1,10}apps?/i
 
 /cost for apps?/i
 
@@ -67,7 +66,9 @@
 
 # N
 /need.{1,15}apps?\b/i
+
 /new apps?.{1,5}launch/i
+/new mobile apps?/i
 
 # O
 /organic.{1,10}proposal/i
@@ -96,6 +97,7 @@
 # Y
 /you need.{1,10}mobile.?app/i
 
+/your app ideas?/i
 /your own app/i
 
 # Z

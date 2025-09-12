@@ -19,6 +19,7 @@
 # ------------------------------------------------------------------------------
 # Accounting - Hetzner Online GmbH
 # Aktuelle Lidl Angebote
+# aldi-now
 # aldi süd newslsetter
 # Aldi Suisse AG News
 # ALDI SUISSE AG - News
@@ -126,7 +127,7 @@
 
 /ahv.?iv/i
 
-/aldi-/i
+#/aldi-/i
 /aldi.{0,15}(deals?|support)/i
 
 /amaz0n/i
@@ -209,7 +210,7 @@
 /debbix\+/i
 /decathlon-/i
 
-/denner.{0,10}(kundenservice|schweiz|support|team|überraschung)/i
+/denner.{0,10}(aktionen|kundenservice|schweiz|support|team|überraschung)/i
 /denner.?-/i
 
 /\|.?denner/i

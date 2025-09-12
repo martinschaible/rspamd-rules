@@ -25,12 +25,13 @@
 # Cars
 # ------------------------------------------------------------------------------
 /(audi|mercedes.?benz|porsche).{1,15}(ab lager|sofort|werkszugang)/i
+/(audi|mercedes.?benz|porsche).{1,10}fahrzeuge/i
 
 /fahrzeuge.{1,10}bis zu.{1,10}rabatt/i
 /fahrzeuge.{1,10}vertragsauflösungen/iu
 
 /lagerabverkauf.{1,15}fahrzeuge/i
-/(lagerabverkauf|verfügbare).{1,10}(audi|mercedes.?benz|porsche)/iu
+/(geprüfte|lagerabverkauf|verfügbare|zertifizierte).{1,10}(audi|mercedes.?benz|porsche)/iu
 
 /exklusiven katalog anfordern/i
 /geprüfte fahrzeuge direkt/iu

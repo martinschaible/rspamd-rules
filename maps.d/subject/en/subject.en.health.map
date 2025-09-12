@@ -120,7 +120,7 @@
 /\d (easy|simple) (habit|stretch|trick)/i
 /\d stretch/i
 /\d surprising fruits/i
-/\d way to eliminate/i
+/\d way to (clear up|eliminate)/i
 /\d word ritual/i
 
 /1 daily habit/i
@@ -271,7 +271,7 @@
 
 /cleansing fix/i
 
-/clears?.{1,10}(artery|cholesterol|eyes|nails|vision)/i
+/clears?.{1,10}(artery|digestive|cholesterol|eyes|nails|vision)/i
 /clears?.{1,10}blurry eyesight/i
 /clears.{1,10}fast/i
 
@@ -375,6 +375,7 @@
 
 /eat \d cup/i
 /eat this.{1,15}(arteries|daily|every|fruit|spice)/i
+/eat this.{1,15}for perfect/i
 /eat this.{1,15}to clear/i
 /eat this to/i
 
@@ -683,7 +684,7 @@
 /recover your.{1,10}memory/i
 
 /reduces?.{1,10}heart attack/i
-/reduces?.{1,10}(inflammation|joint.?pain)/i
+/reduces?.{1,10}(inflammation|joint.?pain|snoring)/i
 
 /regain.{1,10}sharp mind/i
 /regain.{1,10}your ability/i
@@ -915,8 +916,8 @@
 # U
 /unclogs?.{1,10}arteries/i
 
-/uncover the hidden/i
-/uncover the secret to/i
+/uncover(ing)? big pharma/i
+/uncover(ing)? the (hidden|secret)/i
 
 /unexpected fruits?/i
 /unique.{1,10}protein/i
