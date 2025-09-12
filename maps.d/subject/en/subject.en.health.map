@@ -396,13 +396,14 @@
 /energized.{1,10}pain.?free/i
 /enhance your.{1,20}(energy|hearing|metabolism|vitality)/i
 
-/eliminate.{1,10}this food/i
-/eliminates?.{1,10}(nerve|swelling|type 2)/i
-/eliminates?.{1,15}eye bags/i
-/eliminates?.{1,15}knee pain/i
-/eliminates?.{1,15}without meds/i
+/(eliminates?|eradicates?|erases?).{1,15}(arthritis|artery|discomfort|herpes|plaque|tinitus|wrinkles?)/i
 
-/erases?.{1,15}(arthritis|artery|discomfort|plaque|tinitus|wrinkles?)/i
+/(eliminates?|eradicates?|erases?).{1,10}this food/i
+/(eliminates?|eradicates?|erases?).{1,10}(nerve|swelling|type 2)/i
+/(eliminates?|eradicates?|erases?).{1,15}eye bags/i
+/(eliminates?|eradicates?|erases?).{1,15}knee pain/i
+/(eliminates?|eradicates?|erases?).{1,15}without meds/i
+
 /erections?.{1,10}(demand|pill)/i
 
 /escape.{1,10}meomory/i
@@ -615,7 +616,8 @@
 
 /never eat these/i
 
-/new nerve relief/i
+/new.{1,10}harvard discovery/i
+/new.{1,10}nerve relief/i
 /new way.{1,10}eliminate/i
 
 /no gym.{1,10}no bs/i
