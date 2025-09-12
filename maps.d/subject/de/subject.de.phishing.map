@@ -6,6 +6,13 @@
 # Topics
 # ==============================================================================
 
+# Cloud  Storage
+# -----------------------------------------------------------------------------
+/cloud.?speicher.{1,10}kritisch voll/i
+/gb kostenlos(en).{1,10}i?cloud.?speicher/i
+
+/erhalten sie.{1,10}zusätzlichen.{1,15}speicher/i
+
 #
 #
 #
@@ -46,7 +53,6 @@
 /betreff.{1,10}prüfen sie/iu
 
 # C
-/cloud.?speicher.{1,10}kritisch voll/i
 
 # D
 /digitale.{1,10}vignette ist ungültig/iu
