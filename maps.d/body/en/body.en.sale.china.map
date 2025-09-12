@@ -52,7 +52,8 @@
 # K
 
 # L
-/leading.{1,10}(pcba?|printed.?circuit.?board).{1,10}factory/i
+/(leading|trusted).{1,10}(pcba?|printed.?circuit.?board).{1,10}factory/i
+/(leading|trusted).{1,10}partner to oem/i
 
 /(limited|ltd).{1,10}(specializes in|we are major)/i
 /(limited|ltd).{1,10}we (provide|specialize)/i
@@ -119,7 +120,7 @@
 /we.{1,10}provide.{1,10}customized oem/i
 /we.{1,10}provide.{1,10}(cnc|machining|printing)/i
 
-/we.{1,10}specialize.{1,10}(advanced|custom|design|metal|producing)/i
+/we.{1,10}specialize.{1,10}(advanced|custom|design|metal|producing|supplying)/i
 /we.{1,10}specialize.{1,10}(manufacture|manufacturing)/i
 /we.{1,10}specialize.{1,10}(eu|us).{1,10}designs/i
 
