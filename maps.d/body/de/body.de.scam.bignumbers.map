@@ -12,6 +12,7 @@
 # Just big numbers
 # ------------------------------------------------------------------------------
 #/\d{2,4}(\.|,)?\d{3,4}.{1,10}für sie/iu
+/\d{2,4}(\.|,)?\d{3,4}.{0,10}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,10}auf ihr.{1,15}konto/i
 /\d{2,4}(\.|,)?\d{3,4}.{0,10}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,15}antworten sie/i
 /\d{2,4}(\.|,)?\d{3,4}.{0,10}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,15}steht weiterhin zur verfügung/iu
 
@@ -32,6 +33,7 @@
 
 # E
 /(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,15}ausgewählt.{1,10}(bestätigen|kontaktieren) sie/iu
+/(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,10}die nutzung.{1,10}google/i
 
 # F
 
@@ -87,3 +89,5 @@
 # Y
 
 # Z
+/(zahlung|überweisung) von.{1,10}\d{2,4}(\.|,)?\d{3,4}.{0,10}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,10}auf ihr.{1,25}konto/i
+
