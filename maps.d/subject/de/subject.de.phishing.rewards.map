@@ -59,7 +59,8 @@
 /(airpods|apple|ipad|iphone|macbook|watch ultra).{1,15}versand bestätigen/iu
 /(airpods|apple|ipad|iphone|macbook|watch ultra).{1,15}wartet auf dich/i
 
-/(benachrichtigung|gewinn|gratulation|unglaublich).{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
+/(benachrichtigung|bestätigt).{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
+/(gewinn|gratulation|unglaublich).{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
 /exklusiver preis.{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
 /holen sie sich.{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
 
@@ -278,6 +279,7 @@
 
 # J
 /jetzt.{1,10}adresse bestätigen/iu
+/jetzt.{1,10}anspruch sichern/i
 /jetzt.{1,15}(antworten|öffnen)/i
 /jetzt.{1,10}anfordern.{1,10}bevor die frist abläuft/iu
 /jetzt.{1,10}bestätigen.{1,15}(exklusive|ihre)/iu
