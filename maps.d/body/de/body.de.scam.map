@@ -68,6 +68,7 @@
 /(photo.?voltaik|pv|solar).?anlage.{1,10}jetzt handeln/i
 /(photo.?voltaik|pv|solar).?anlage.{1,15}klären wir alles/iu
 /(photo.?voltaik|pv|solar).?anlage.{1,10}lässt sich heute innerhalb/iu
+/(photo.?voltaik|pv|solar).?anlagen?.{1,20}mit speicher für nur/iu
 /(photo.?voltaik|pv|solar).?anlage.{1,10}nulltarif/i
 
 /photo.?voltaik.{1,10}ihre entscheidungshilfe/i
@@ -77,7 +78,7 @@
 /preise für.{1,10}(photo.?voltaik|pv|solar).?anlage.{1,10}sind derzeit/iu
 
 /jetzt.{1,10}förderungen (ansehen|prüfen)/iu
-/jetzt.{1,10}kostenlos (berechnen lassen|vergleichen)/i
+/jetzt.{1,10}kostenlose?.{1,10}(analyse starten|berechnen lassen|vergleichen)/i
 /(jetzt|vergleichen).{1,10}förderungen.{1,10}(prüfen|sichern)/iu
 
 /klicks erfahren sie.{1,10}wie viel.{1,15}sie/i

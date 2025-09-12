@@ -124,7 +124,9 @@
 /\<hello\>/i
 /hell0\./i
 
-/homepage\.\./i
+/homepage.?\.\./i
+
+/\*\*.?homepage/i
 
 # I
 /inquiry\*/i

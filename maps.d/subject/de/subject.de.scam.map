@@ -46,17 +46,18 @@
 # ------------------------------------------------------------------------------
 # -> They are stealing personal information
 
-/^/(photovoltaik|pv|solar).?anlagen?/i
-/(photovoltaik|pv|solar).?anlagen?.{1,20}alle förderungen/iu
-/(photovoltaik|pv|solar).?anlagen?.{1,20}(extrem|finden|gewerbe|günstig|häuser|nulltarif|tiefstand)/iu
-/(photovoltaik|pv|solar).?anlagen?.{1,20}(komplettpreis|tiefstand|tiefstpreise)/iu
-/(photovoltaik|pv|solar).?anlagen?.{1,20}massiv im preis gefallen/i
+/^(photo.?voltaik|pv|solar).?anlagen?/i
+/(photo.?voltaik|pv|solar).?anlagen?.{1,20}alle förderungen/iu
+/(photo.?voltaik|pv|solar).?anlagen?.{1,20}(extrem|finden|gewerbe|günstig|häuser|nulltarif|tiefstand)/iu
+/(photo.?voltaik|pv|solar).?anlagen?.{1,20}(komplettpreis|tiefstand|tiefstpreise)/iu
+/(photo.?voltaik|pv|solar).?anlagen?.{1,20}massiv im preis gefallen/i
+/(photo.?voltaik|pv|solar).?anlagen?.{1,20}mit speicher für nur/iu
 
-/photovoltaik lohnt sich.{1,10}prüfen sie/iu
-/(photovoltaik|pv|solar).?vorteil/i
+/photo.?voltaik lohnt sich.{1,10}prüfen sie/iu
+/(photo.?voltaik|pv|solar).?vorteil/i
 
 # 18.12.24 Sample: 18.12.2024 / PV-Anlage
-/\d{2}\.\d{2}\.\d.{4}.{1,10}(photovoltaik|pv|solar).{1,10}anlagen?/i
+/\d{2}\.\d{2}\.\d.{4}.{1,10}(photo.?voltaik|pv|solar).{1,10}anlagen?/i
 
 # 30.07.25 Sample: 2025 / PV & Förderung
 /\d.{4}.{1,10}pv.{1,10}förderung/iu

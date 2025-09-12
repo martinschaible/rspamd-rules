@@ -198,7 +198,8 @@
 /many years.{1,10}oem/i
 
 /manufacture.{1,10}vendor from china/i
-/manufacturers?.{1,10}looking.{1,10}cooperation/i
+
+/manufacturers?.{1,10}looking.{1,10}(cooperate|cooperation|opportunities)/i
 /manufacturers?.{1,10}seeks cooperation/i
 /manufacturers?.{5,25}since/i
 
@@ -279,6 +280,7 @@
 /(professional|reliable|trusted).{1,20}supplier.{1,15}partnership/i
 
 /(professional|reliable|trusted).{1,10}(drag|chain|cnc).{1,10}(manufacturer|partners?|suppliers?)/i
+/(professional|reliable|trusted).{1,10}freight forwarding/i
 /(professional|reliable|trusted).{1,15}(manufacturing|scaffolding).{1,10}(manufacturer|partners?|suppliers?)/i
 /(professional|reliable|trusted).{1,10}(pcba?|printed.?circuits?.?board).{1,10}(manufacturer|partners?|suppliers?)/i
 /(professional|reliable|trusted).{1,15}(manufacturer|partners?|suppliers?) (for|of)/i
