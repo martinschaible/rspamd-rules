@@ -27,7 +27,6 @@
 
 # Google
 /entschädigt google sie mit/iu
-/(million|dollar|euro?|gbp|usd).{1,10}die nutzung.{1,10}google browsers/i
 
 # Payments
 # ------------------------------------------------------------------------------
@@ -48,7 +47,6 @@
 /sie (werden|wurden).{1,10}mit.{1,10}summe entschädigt/iu
 
 /zahlung auf ihren namen vor/i
-/zahlung von.{1,10}\d{3}.{0,5}\d{3}.{1,15}(million|dollar|euro?|gbp|usd).{1,10}auf ihr konto/i
 /(aus)?zahlung nicht beanspruchter gelder/i
 
 #
