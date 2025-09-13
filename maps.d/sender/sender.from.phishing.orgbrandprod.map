@@ -44,6 +44,7 @@
 # Google Search Console Team
 # Hermes Paketankündigung
 # Hermes Paketversand
+# Hetzner Cloud
 # iCloud
 # Kaufland Card
 # Lidl Küchenliebe
@@ -82,6 +83,8 @@
 /(adac|metamask|netflix).{0,10}(account|assistance|billing|customer|help.?desk)/i
 /(adac|metamask|netflix).{0,10}(info.?desk|notifications?|protection)/i
 /(adac|metamask|netflix).{0,10}(security|service|support|team|update|user|verification|wallet)/i
+
+/(hetzner|hermes|hornbach).?(™|®|©)$/i
 
 # Products
 # ------------------------------------------------------------------------------
@@ -350,7 +353,6 @@
 # ------------------------------------------------------------------------------
 /harbor.?freight.{0,10}department
 
-/(hetzner|hermes|hornbach).?(™|®|©)$/i
 /hetzner, inc/i
 /hetzner.{0,5}(invoice|online)$/i
 /hetznersupport/i
