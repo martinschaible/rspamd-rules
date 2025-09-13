@@ -59,7 +59,12 @@
 # R
 
 # S
-/sie eine schnelle.{1,10}(home.?page|web.?site)/i
+/sie ein.{1,10}(home.?page|web.?site).?(re)?design/i
+/sie eine.{1,15}(home.?page|web.?site) erstellen/i
+
+/sie eine (neue|schnelle).{1,10}(home.?page|web.?site)/i
+/sie ihre.{1,15}(home.?page|web.?site) mit einem neuen/i
+
 
 # T
 
@@ -72,6 +77,8 @@
 /(home.?page|web.?site).{1,10}erschwinglichen preis(en)?/i
 /(home.?page|web.?site).{1,10}erstellt.{1,10}gepflegt/i
 /(home.?page|web.?site).{1,10}ich kann helfen/i
+
+/web.?design.{1,10}entwicklung.{1,10}(php|wordpress|woocommerce)/i
 
 # X
 

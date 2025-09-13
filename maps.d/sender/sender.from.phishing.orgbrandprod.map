@@ -333,7 +333,8 @@
 /gls.{0,10}(online|sendung|support|team)/i
 
 /google.?drive/i
-/google.?(claim|inc|llc|team)/i
+/google.{0,10}(claim|inc|llc|team)/i
+/google.{0,10}(gewinnspiel|online)/i
 
 /^gmbh/i
 /- gmbh/i
