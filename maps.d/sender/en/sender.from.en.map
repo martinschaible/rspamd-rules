@@ -95,9 +95,10 @@
 # F
 /fraud.{0,10}prevention/i
 
-/funds?.{0,10}approve/i
+/funds?.{0,10}(approve|recovery)/i
 
 # G
+/global.{0,10}funds/i
 /golden.{0,10}visa/i
 
 # H

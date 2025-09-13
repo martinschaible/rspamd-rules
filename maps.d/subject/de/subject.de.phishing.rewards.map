@@ -60,7 +60,10 @@
 /(airpods|apple|ipad|iphone|macbook|watch ultra).{1,15}wartet auf dich/i
 
 /(benachrichtigung|bestätigt).{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
-/(gewinn|gratulation|unglaublich).{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
+/(gewinn|gratulation).{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
+/nur heute.{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
+/unglaublich.{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
+
 /exklusiver preis.{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
 /holen sie sich.{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
 
