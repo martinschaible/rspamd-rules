@@ -425,3 +425,5 @@ Open an issue and I'll be happy to resolve the issue.
 ### When spam emails slip through
 Great! I love fresh spam! To create one or more rules, I need the complete, unaltered email.
 Send it to spamcop[ät]netfusion[döt]ch and add the word "SPAM" to the subject line.
+
+<p align="center">Made with :heart: and :coffee:</p>

@@ -33,6 +33,9 @@
 # H
 
 # I
+/ich bin ein professioneller hacker/i
+/ich bin ein hacker/i
+
 /ich\b.{1,25}(zugang|zugriff).{1,10}(auf|zu).{1,10}(alle|deine?|ihre?).{1,10}(dateien|geräte|konto)/i
 /ich\b.{1,25}(zugang|zugriff).{1,10}(auf|zu).{1,10}(computer|system).{1,10}verschafft/i
 /ich\b.{1,25}(zugang|zugriff).{1,10}auf alle ihre kontakte/i
@@ -41,6 +44,8 @@
 /ihr (computer|system) mit.{1,10}virus/i
 /ihr (computer|system) wurde (gehackt|geknackt) mit/i
 
+/ihre aktivitäten heimlich überwacht/iu
+
 # J
 
 # K
@@ -48,6 +53,7 @@
 # L
 
 # M
+/mein(em)?.{1,10}bitcoins?.?konto.{1,10}bitcoins?.?wallet/i
 
 # N
 
