@@ -14,18 +14,6 @@
 # Weight:  -
 # ==============================================================================
 
-# Special
-# ------------------------------------------------------------------------------
-
-# List-manage.com is repeatedly blacklisted.
-# Therefore, we have to whitelist newsletters from companies that use list-manage.com.
-/annabelle\.us\d{1,2}.list-manage.com\//i 3
-/gcz\.us\d{1,2}.list-manage.com\//i 3
-/insideparadeplatz\.us\d{1,2}.list-manage.com\//i 3
-/theaterhechtplatz\.us\d{1,2}.list-manage.com\//i 3
-/weberverlag\.us\d{1,2}.list-manage.com\//i 3
-
-
 # Domain names excluding Germany, Switzerland and Trumpistan
 # ==============================================================================
 

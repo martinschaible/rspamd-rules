@@ -20,6 +20,9 @@
 # Generic
 # ==============================================================================
 
+# TLD in front, usualy (ch|com|de|org)
+/@\.[a-z]{1,4}.{1,10}wichtiger hinweis/i
+
 # A
 /aktualisierung.{1,15}teilnahmebedingungen/i
 /aktualisierung.{1,10}telefonnummer/i

@@ -14,6 +14,21 @@
 # Weight:  -
 # ==============================================================================
 
+# Special
+# ------------------------------------------------------------------------------
+
+# Repeatedly blacklisted mailing services
+
+# list-manage.com
+/annabelle\.us\d{1,2}.list-manage.com\//i 3
+/gcz\.us\d{1,2}.list-manage.com\//i 3
+/insideparadeplatz\.us\d{1,2}.list-manage.com\//i 3
+/theaterhechtplatz\.us\d{1,2}.list-manage.com\//i 3
+/weberverlag\.us\d{1,2}.list-manage.com\//i 3
+
+# cmail20.com
+/volgkonsumwarenag\.cmail20\.com\//i
+
 # A
 # ------------------------------------------------------------------------------
 
