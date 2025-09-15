@@ -141,7 +141,7 @@
 
 /(event|falt|garten)?pavillons?.{1,10}(halben|kleinen) preis/i
 
-\d.?x.?\d.{1,10}(event|falt|garten)?pavillons?/i
+/\d.?x.?\d.{1,10}(event|falt|garten)?pavillons?/i
 /bestseller.{1,10}(event|falt|garten)?pavillons?/i
 /(profi|reduziert|sonderpreis).{1,10}(event|falt|garten)?pavillons?/i
 

@@ -216,6 +216,8 @@
 # H
 /handeln sie jetzt/i
 #/handeln sie (innerhalb|jetzt|schnell|sofort)/i
+
+/handeln sie.{1,10}bevor ihr gewinn/i
 /handeln sie (innerhalb|schnell|sofort)/i
 /handeln Sie noch heute/i
 /handeln sie sofort.{1,10}ihr link/i
