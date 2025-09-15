@@ -137,11 +137,11 @@
 
 /sie (sind|waren) der empfänger einer.{1,15}spende/iu
 
+/sie wurden ausgewählt.{1,10}eine spende/iu
 /sie wurden als.{1,10}empfänger einer auszeichnung/iu
-/sie wurden für (die|eine).{1,15}spende/i
-/sie wurden von unserer stiftung/i
-/sie wurden für einen.{1,10}(geldbetrag|zuschuss)/iu
+/sie wurden für (die|einen?).{1,10}(geldbetrag|spende|zuschuss)/iu
 /sie wurden per zufallsprinzip.{1,15}eine.{1,10}(spende|zuschuss|zuwendung)/iu
+/sie wurden von unserer stiftung/i
 
 /(spende|zuschuss).{1,10}wurde bearbeitet und kann an sie/i
 /(spende|zuschuss).{1,10}zugesprochen.{1,15}weitere informationen/iu

@@ -324,6 +324,7 @@
 /discover.{1,10}the.{1,10}(key|secret) to/i
 /discover.{1,10}the.{1,10}truth behind/i
 /discover.{1,10}the.{1,10}worst/i
+/discover.{1,10}the.{1,15}old (key|secret)/i
 
 /ditch your.{1,10}diabetes/i
 
@@ -486,7 +487,8 @@
 
 /heal.{1,15}pain/i
 /healing.{1,10}recipe/i
-/helps.{1,10}prevent.{1,10}diabetes/i
+
+/helps.{1,10}(prevent|reduce).{1,15}(diabetes|sugar|spikes)/i
 
 /health.{1,10}miracle/i
 /healthy.{1,10}nails/i
@@ -504,7 +506,7 @@
 
 /here is the fix/i
 
-/\[here.{1,10}how\]/i
+/\[here.{1,10}(ho|why)\]/i
 
 /hgh.{1,15}(now legal|prescription|without)/i
 

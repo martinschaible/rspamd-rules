@@ -537,7 +537,7 @@
 # G
 /get hard/i
 
-/glucose.{0,10}stabilizer/i
+/glucose.{0,10}(guide|stabilizer)/i
 /global dermatology/i
 
 /going.{0,10}viral/i
@@ -932,6 +932,7 @@
 /toxin.{0,10}(destroyer|flush|mineral|removal)/i
 
 /trapped.{0,10}toxins/i
+/trick.{0,10}revealed/i
 /tropical.{0,10}(fruit|juice)/i
 
 /traditional hypertension medications/i
