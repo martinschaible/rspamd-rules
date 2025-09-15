@@ -24,6 +24,7 @@
 /(benötigen|brauchen) sie.{1,15}ein darlehen/iu
 /(benötigen|brauchen) sie.{1,15}einen.{1,15}kredit/i
 /(benötigen|brauchen) sie.{1,15}zusätzliches geld/iu
+/(benötigen|brauchen) sie.{1,20}kredite/i
 
 # C
 
@@ -57,6 +58,7 @@
 /(ich|wir) (biete|gewähre|vergebe)n?.{1,15}(darlehensbeträge|finanzlösungen|kreditlösungen)/iu
 /(ich|wir) (biete|gewähre|vergebe)n?.{1,15}investitionsfinanzierungen/i
 
+/ihnen.{1,10}den benötigten kredit/iu
 /ihnen.{1,10}finanzierungsmöglichkeit.{1,10}präsentieren/iu
 /ihnen.{1,10}einzigartige finanzielle/i
 /ihnen einen kredit anbieten/i

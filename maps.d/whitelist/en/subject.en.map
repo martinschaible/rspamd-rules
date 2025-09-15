@@ -71,6 +71,10 @@
 
 # R
 
+# DMARC reports
+# Sample: Report Domain: officesupport.ch Submitter: gmx.net Report-ID:
+/report domain.{10,25}submitter.{5,15}report.?id/i
+
 # S
 
 # T

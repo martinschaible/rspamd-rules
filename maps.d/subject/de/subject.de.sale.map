@@ -125,29 +125,30 @@
 /(klapp)?leiter.{1,15}(betrieb|garten|haus|handwerk)/i
 /(kompakte|optionen|preise).{1,10}/(klapp)?leiter/i
 
-# Pavillon
+# Pavillon/Tent
 # ------------------------------------------------------------------------------
-/(event|falt|garten)?pavillon.{1,15}(blau|grau|schwarz)/i
-/(event|falt|garten)?pavillon.{1,15}für (alle|\d{3})/i
-/(event|falt|garten)?pavillon.{1,15}für nur/i
+/(event|falt|garten)?pavillons?.{1,15}(blau|grau|schwarz)/i
+/(event|falt|garten)?pavillons?.{1,15}für (alle|\d{3})/i
+/(event|falt|garten)?pavillons?.{1,15}für nur/i
 
-/(event|falt|garten)?pavillon.{1,10}\d.?(x|×).?\d/i
-/(event|falt|garten)?pavillon.{1,20}(gastro|events?|garten)/i
-/(event|falt|garten)?pavillon.{1,20}(aufbaubar|gesucht|ideal|jetzt|leicht|lieferbar|mit)/i
-/(event|falt|garten)?pavillon.{1,20}(profi.?qualität|reduziert|regenfest)/iu
-/(event|falt|garten)?pavillon.{1,15}(schnell|seitenteile|sofort|sonderpreis)/i
-/(event|falt|garten)?pavillon.{1,15}(verschiedenen|vorteilspreis)/i
-/(event|falt|garten)?pavillon.{1,15}(wasserfest|wetterfest)/i
+/(event|falt|garten)?pavillons?.{1,10}\d.?(x|×).?\d/i
+/(event|falt|garten)?pavillons?.{1,20}(gastro|events?|garten)/i
+/(event|falt|garten)?pavillons?.{1,20}(aufbaubar|gesucht|ideal|jetzt|leicht|lieferbar|mit)/i
+/(event|falt|garten)?pavillons?.{1,20}(profi.?qualität|reduziert|regenfest)/iu
+/(event|falt|garten)?pavillons?.{1,15}(schnell|seitenteile|sofort|sonderpreis)/i
+/(event|falt|garten)?pavillons?.{1,15}(verschiedenen|vorteilspreis)/i
+/(event|falt|garten)?pavillons?.{1,15}(wasserdicht|wasserfest|wetterfest)/i
 
-/(event|falt|garten)?pavillon.{1,10}(halben|kleinen) preis/i
+/(event|falt|garten)?pavillons?.{1,10}(halben|kleinen) preis/i
 
-\d.?x.?\d.{1,10}(event|falt|garten)?pavillon/i
-/bestseller.{1,10}(event|falt|garten)?pavillon/i
-/(profi|reduziert|sonderpreis).{1,10}(event|falt|garten)?pavillon/i
+\d.?x.?\d.{1,10}(event|falt|garten)?pavillons?/i
+/bestseller.{1,10}(event|falt|garten)?pavillons?/i
+/(profi|reduziert|sonderpreis).{1,10}(event|falt|garten)?pavillons?/i
 
-/(robuste|stabile|wasserdichte?).{1,10}(event|falt|garten)?pavillon/i
+/(robuste|stabile|wasserdichte?).{1,10}(event|falt|garten)?pavillons?/i
 
 /wasserdicht(er)?.{1,10}eventschutz/i
+/wasserdichte?.{1,10}veranstaltungszelte?/i
 
 #
 /praktische überdachung/iu

@@ -99,14 +99,16 @@
 /wir liefern personal in/i
 /wir sanieren.{1,10}renovieren ihr.{1,10}haus/i
 
-# Pavillon
+# Pavillon/Tent
 # ------------------------------------------------------------------------------
 /(event|falt|garten)?pavillons?.{1,10}jetzt sonderposten/i
 /(event|falt|garten)?pavillons?.{1,10}zum aktionspreis/i
 
 /(event|falt|garten)?pavillons?.{1,10}profiqualität/iu
+/(event|falt|garten)?pavillons?.{1,15}(wasserdicht|wasserfest|wetterfest)/i
 
 /neu.{1,10}falt.?(event|falt|garten)?pavillons?/i
+/(wasserdicht|wasserfest|wetterfest).{1,10}(event|falt|garten)?pavillons?/i
 
 # Regale
 # ------------------------------------------------------------------------------
