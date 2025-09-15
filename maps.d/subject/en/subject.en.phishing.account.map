@@ -32,6 +32,9 @@
 # Generic
 # ==============================================================================
 
+# TLD in front, usualy (ch|com|de|org)
+/\.[a-z]{1,4}.{1,5}account security/i
+
 # A
 /account.{1,10}access needs re.?confirmation/i
 /account.{1,10}access will be suspended/i

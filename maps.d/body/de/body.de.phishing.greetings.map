@@ -150,12 +150,13 @@
 
 /sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}ihr paket/i 
 /sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}ihre aktuelle zahlungsmethode/i
+/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}ihre.{1,10}e?.?mail.?adresse wurde von/i
 
 /sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}im rahmen (der|ihrer) gesetzlich(en)?/i
 /sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}im rahmen.{1,25}(datenschutz|eintragung|europäischen|sicherheits|verpflichtungen)/iu
 /sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}im zuge.{1,10}europaweiten anpassung/i
  
-/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,10}nach artikel/i
+/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,10}nach (artikel|datenschutzgrundverordnung)/i
 /sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,50}notwendigen vertraglichen anpassungen/i
 
 /sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,20}sicherheitswarnung/i
@@ -184,6 +185,7 @@
 # Invoices
 /sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,20}anbei erhalten sie ihre aktuelle rechnung/i
 /sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,20}anbei schicken wir ihnen ihre rechnung/i
+
 /sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,20}ihre rechnung ist/i
 
 /sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}zu ihrem schutz/i

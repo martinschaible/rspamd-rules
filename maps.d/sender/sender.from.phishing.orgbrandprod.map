@@ -276,6 +276,8 @@
 /dpdepot/i
 
 /_dpd/i
+/dpdgroup/i
+
 /dpd.?(™|®|©)$/i
 /dpd.{0,5}deutschland/i
 /dpd-ch/i
@@ -283,6 +285,7 @@
 /dpd_paket/i
 /dpd.?zoll/i
 /dpd_/i
+
 /dhl.?\|/i
 /decathlon.{0,5}noreply/i
 
