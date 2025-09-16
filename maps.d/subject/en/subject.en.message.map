@@ -72,6 +72,7 @@
 
 /^e?.?mail.?message$/i
 
+/e?.?mail.{1,10}i sent on.{1,10}reach you/i
 /e?.?mail.{1,10}still valid/i
 /e?.?mail.{1,10}your interest/i
 
@@ -149,8 +150,10 @@
 # Y
 /you an e?.?mail.{1,10}did you get it/i
 
+/you checked.{1,10}(e?.?mail|message).{1,10}from/i
 /you (getting|receive) my (e?.?mail|message)s?/i
 /you (get|received?).{1,10}(last|previous).{1,10}(e?.?mail|message)/i
+/you (get|received?).{1,10}(e?.?mail|message).{1,10}i sent on/i
 
 /you received? the.{1,10}(e?.?mail|message)/i
 
