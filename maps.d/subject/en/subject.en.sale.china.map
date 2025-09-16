@@ -12,7 +12,9 @@
 /china.{1,10}leading (manufacturer|supplier)/i
 /china.{1,10}with.{1,10}certification/i
 
+/chinese.{1,10}cold rolled/i
 /chinese.{1,15}shoe factory/i
+/chinese.{1,10}steel manufacturer/i
 
 /best prices.{1,10}china/i
 /freight.{1,10}china/i
@@ -79,7 +81,7 @@
 
 /custom.{1,10}metal (components|parts)/i
 /custom.{1,10}(bags?|cap|machined parts|metal stamping)/i
-/custom.{1,10}(pcba?|printed.circuits?.board)/i
+/(custom|excellent).{1,10}(pcba?|printed.circuits?.board)/i
 /custom.{1,10}products? manufacturing/i
 /custom.{1,10}transformer.{1,10}manufacturer/i
 
@@ -199,6 +201,7 @@
 
 /manufacture.{1,10}vendor from china/i
 
+/manufacturers?.{5,25}good rate/i
 /manufacturers?.{1,10}looking.{1,10}(cooperate|cooperation|opportunities)/i
 /manufacturers?.{1,10}seeks cooperation/i
 /manufacturers?.{5,25}since/i

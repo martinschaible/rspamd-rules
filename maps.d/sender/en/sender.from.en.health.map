@@ -453,7 +453,7 @@
 /doctors?.{0,10}(oral|tip|warning)/i
 /dog.{0,10}health/i
 
-/dr\.?.?(derm|health)/i
+/dr\.?.?(derm|health|wellness)/i
 
 /dreamful.{0,10}(nights?|sleep)/i
 /dribbling.{0,10}urine/i
@@ -504,7 +504,7 @@
 /female.{0,10}desire/i
 /female o$/i
 
-/food.{0,10}(facts|quiz)/i
+/food.{0,10}(facts|quiz|stops)/i
 /(feet|foot).{0,10}(detox|massage|odor|test)/i
 
 /fiber.{0,10}fix/i
@@ -615,7 +615,7 @@
 /knee.{0,10}(mistake|reset|restore|stretch|support)/i
 
 # L
-/leak.{0,10}free/i
+/leak.{0,10}(free|stop(per)?)/i
 /leaky.{0,10}brain/i
 
 /leakage.{0,10}(fixer|prevention)/i
@@ -721,7 +721,7 @@
 /oat.?meal.{0,10}hack/i
 /odd.{0,10}(chocolate|milk|mineral|liquid|tonic)/i
 
-/oral.{0,10}(care|flush)/i
+/oral.{0,10}(care|flush|help)/i
 /organ.{0,10}report/i
 /oriental.{0,10}secret/i
 
@@ -887,7 +887,7 @@
 /strong(er)?.{0,10}(bladder|heart|memory|urine)/i
 /stroke.{0,10}(indication|prevention|signal)/i
 
-/strong(er)?.{0,10}(hair|immunity|performance|smile)/i
+/strong(er)?.{0,10}(bones|hair|immunity|performance|smile)/i
 
 /stuck.{0,10}poop/i
 
