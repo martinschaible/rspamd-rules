@@ -12,6 +12,8 @@
 # B
 /big.{0,10}winners?/i
 
+/bonus.{0,10}offers?/i
+
 # C
 /casino.{0,10}(deal|for you|gaming|luck|special|team|you)/i
 /casino4/i
@@ -65,6 +67,7 @@
 /vip.{1,10}top/i
 
 # W
+/welcome.{0,10}bonus/i
 /win real prizes/i
 
 # X
