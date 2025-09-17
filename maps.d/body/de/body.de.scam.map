@@ -113,6 +113,17 @@
 # ------------------------------------------------------------------------------
 /(europäischen|europäischer).{1,10}entschädigungsausschuss/iu
 
+# Illuminati
+# ------------------------------------------------------------------------------
+/(bruderschaft|imperium|mitglied).{1,15}(illuminaten|illuminati)/i
+/(weltordnung|welteliteimperium|willkommen).{1,15}(illuminaten|illuminati) /i
+
+/(illuminaten|illuminati).{1,10}(bruderschaft|familie)/i
+
+/treten sie.{1,10}(den|heute).{1,10}(bruderschaft|illuminaten|illuminati)/i
+/mitglied der neuen weltordnung/i
+/sie wurden ausgewählt.{1,15}(bruderschaft|illuminaten|illuminati)/i
+
 #
 #
 #

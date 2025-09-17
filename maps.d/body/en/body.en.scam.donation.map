@@ -23,6 +23,7 @@
 # A
 
 # B
+/beneficiaries.{1,10}compensated with the sum/i
 
 # C
 
@@ -74,9 +75,9 @@
 # X
 
 # Y
-/you.{1,10}been (choo?sen|drawn|picked|selected) for.{1,10}(donation|financing)/i
-/you.{1,10}been (choo?sen|drawn|picked|selected) to receive/i
-/you.{1,10}been (choo?sen|drawn|picked|selected).{1,10}receive.{1,20}donation/i
+/you.{1,10}(are|been) (awarded|choo?sen|drawn|picked|selected) for.{1,10}(donation|financing)/i
+/you.{1,10}(are|been) (awarded|choo?sen|drawn|picked|selected) to receive/i
+/you.{1,10}(are|been) a(warded|choo?sen|drawn|picked|selected).{1,10}receive.{1,20}(aid|benefit|financial|fund|donation)/i
 
 /your.{1,10}e?.?mail.{1,20}(has been|was).{1,15}(choo?sen|drawn|picked|selected).{1,10}for.{1,10}donation/i
 /your.{1,10}e?.?mail.{1,20}(has been|was).{1,15}(choo?sen|drawn|picked|selected).{1,10}to be a part/i

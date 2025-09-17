@@ -133,9 +133,12 @@
 
 /your business to the top of.{1,15}rankings/i
 
-/your.{1,10}(web)?.?site.{1,15}seo issues/i
 /your.{1,10}(web)?.?site.{1,15}impressed /i
 /your.{1,10}(web)?.?site.{1,15}not ranking (good|in|well)/i
-/your.{1,10}(web)?.?site.{1,15}rank top/i
+/your.{1,10}(web)?.?site.{1,15}seo issues/i
+
+/your.{1,10}(web)?site.{1,10}(ranks?|ranking).{1,10}(first|higher|top|well)/i
+/your.{1,10}(web)?site.{1,10}(ranks?|ranking).{1,10}search.?engines/i
+/your.{1,10}(web)?site.{1,10}(ranks?|ranking).{1,10}not good/i
 
 # Z
