@@ -94,6 +94,7 @@
 /(action|update) (needed|required).{1,10}you have.{1,15}(document|e?.?mail)/i
 
 /(action|update) (needed|required).{1,15}your.{1,15}account active/i
+/(action|update) (needed|required).{1,10}your.{1,10}e?.?mail.?account/i
 /(action|update) (needed|required).{1,10}your.{1,15}(package|parcel|shipment) awaits/i
 /(action|update) (needed|required).{1,10}your.{1,15}(payment|web.?mail)/i
 
