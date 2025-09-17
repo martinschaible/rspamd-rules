@@ -274,7 +274,7 @@
 /product.{1,10}inquiry.{1,10}potential partnership/i
 /product.{1,10}machining service/i
 
-/prototype manufacturer?/i
+/prototype (manufacturer?|mould)/i
 
 # Q
 /quotation.{1,15}(multilayer)?.{1,10}(pcba?|printed.?circuits?.?board)/i
