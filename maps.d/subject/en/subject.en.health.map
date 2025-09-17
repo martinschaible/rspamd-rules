@@ -529,7 +529,7 @@
 # I
 /improved? memory.{1,10}(instantly|in.{1,15}seconds|memory)/i
 /improved? memory.{1,10}(concentration|easy|simple)/i
-/improved?.{1,15}(hearing|urination|vision)/i
+/improved?.{1,15}(digestion|hearing|urination|vision)/i
 
 /in \d{1,2} seconds/i
 
@@ -559,6 +559,7 @@
 # L
 /(lbs|pounds|weight) of fat/i
 
+/leg pain.{1,10}swelling/i
 /legal.{1,10}boner/i
 
 /life.?changing.{1,10}video/i
