@@ -88,6 +88,7 @@
 /(action|update) (needed|required).{1,10}(upgrade|verify).{1,10}e?.?mail/i
 /(action|update) (needed|required).{1,15}(updated|security).{1,15}policy/i
 
+/(action|update) (needed|required).{1,10}verification.{1,10}security status/i
 /(action|update) (needed|required).{1,10}verify your.{1,20}@/i
 /(action|update) (needed|required).{1,10}verify your.{1,15}account/i
 
@@ -270,6 +271,8 @@
 
 /update.{1,10}required for your access/i
 /update.{1,10}required to ensure uninterrupted/i
+
+/update.{1,10}violation.{1,10}action required/i
 
 /update.{1,10}your.{1,10}contact info/i
 /update.{1,10}your.{1,10}e?.?mail.?account/i

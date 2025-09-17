@@ -296,7 +296,9 @@
 /back.{0,10}(aches?|fixer|pain|stretch)/i
 
 /bacon.{0,10}eggs/i
-/bad.{0,10}foods?/i
+
+/(bad|evil).{0,10}(foods?|fruits?)/i
+
 /balance.{0,10}(blood|booster|brain|restored|your)/i
 /balanced.?(bp|glucose)/i
 /bald.{0,10}spot/i
@@ -491,7 +493,6 @@
 
 /extend.{0,10}(life|reveals)/i
 
-/evil.{0,10}fruits?/i
 /eye.{0,10}(cell|check|exercise|fix|surgery|trick)/i
 
 # F

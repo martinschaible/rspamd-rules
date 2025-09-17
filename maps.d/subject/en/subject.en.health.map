@@ -296,7 +296,7 @@
 /cuts?.{1,10}heart attack/i
 
 # D
-/damaging.{1,10}your (gut|memory)/i
+/(damaging|detox(es)?|upsetting).{1,10}your (gut|memory)/i
 /dangerous.{1,10}fruits/i
 
 /dark spots.{1,10}aging/i
@@ -308,8 +308,6 @@
 /dessert.{1,15}diabetes/i
 /destroys?.{1,10}(back|joint) pain/i
 /destroys?.{1,10}your gut/i
-
-/(damaging|detox(es)?) your gut/i
 
 /diabetes.{1,10}game changer/i
 

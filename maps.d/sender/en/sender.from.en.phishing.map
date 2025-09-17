@@ -110,7 +110,7 @@
 /^customer.{0,10}(engagement|feedback|support)/i
 
 /compliance concerns?/i
-/confirmation.{0,10}needed/i
+/confirmation.{0,10}(needed|required)/i
 
 /copyright.{0,10}team/i
 
@@ -123,7 +123,7 @@
 # E
 /(e?.?)?mail.{0,10}(account|hosters?|support)/i
 
-/exclusive.{0,10}offers/i
+/exclusive.{0,10}(deals?|offers?)/i
 /experts.{0,10}team/i
 
 /express.{0,10}updates?/i
