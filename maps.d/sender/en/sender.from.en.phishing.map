@@ -19,10 +19,11 @@
 /\.[a-z]{1,4}.{1,5}(admin$|administrator|cpanel|helpdesk|postmaster|security|server|support|update)/i
 /\.[a-z]{1,4}.{1,5}mail.?(notification|service|system)/i
 /\.[a-z]{1,4}.{1,5}it.?team/i
+
 /\.[a-z]{1,4}.{1,5}security.?center/i
+/\.[a-z]{1,4}.{1,5}(service|support).?(deck|team)/i
 
 /\.[a-z]{1,4}.{1,5}support$/i
-/\.[a-z]{1,4}.{1,5}support.?team/i
 
 # TLD at the end
 /system.?administrator.{0,10}/\.[a-z]{1,4}$/i

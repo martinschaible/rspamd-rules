@@ -186,13 +186,14 @@
 
 # W
 /warning.{1,10}cancel.{1,10}de.?activation/i
-/web.?mail.{1,10}(notification|software upgrade)/i
+
+/web.?mail.{1,10}(notification|software upgrade|update required)/i
 /web.?mail.{1,10}mailbox password/i
 
 # X
 
 # Y
-/you have.{1,25}(held|important|incoming).{1,15}(e?.?mails?|message)s?/i
+/you have.{1,25}(held|important|incoming|undelivered).{1,15}(e?.?mails?|message)s?/i
 /you have.{1,10}failed.{1,10}(e?.?mail|message)s? deliveries/i
 /you have.{1,10}unread.{1,10}(e?.?mail|message)s? from/i
 
