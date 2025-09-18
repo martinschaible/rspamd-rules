@@ -66,9 +66,10 @@
 # O
 /our steel is manufactured/i
 
-/our.{1,10}(pcba?|printed.?circuit.?board).{1,10}(delivery|on.?time)/i
-
+/our.{1,10}competency.{1,15}manufacturing/i
 /our.{1,10}(company|factory) specializes.{1,10}producing/i
+
+/our.{1,10}(pcba?|printed.?circuit.?board).{1,10}(delivery|on.?time)/i
 
 # P
 /professional.{1,10}freight forwarding/i
