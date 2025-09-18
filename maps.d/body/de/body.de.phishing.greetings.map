@@ -179,6 +179,7 @@
 
 /sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}wir haben.{1,10}(ein problem|festgestellt)/i
 /sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}wir hatten kürzlich ein/iu
+
 /sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}wir konnten ihre letzte zahlung/i
 /sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}wir möchten sie.{1,15}(dringend|informieren)/iu
 /sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}wir mussten feststellen/i
@@ -214,6 +215,8 @@
 
 # X
 /wichtige aktualisierung.{1,10}att:?/i
+
+/wir konnten ihr paket.{1,10}nicht zustellen.{1,10}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/i
 
 # Y
 
