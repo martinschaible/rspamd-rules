@@ -12,6 +12,7 @@
 /ihr swisscom gewinn/i
 
 /rewe bestätigt.{1,10}ihr/iu
+/rewe.{1,10}iphone/i
 
 # Cheap products
 # ------------------------------------------------------------------------------
@@ -52,19 +53,20 @@
 /(airpods|apple|ipad|iphone|macbook|watch ultra).{1,15}ist reserviert/i
 /(airpods|apple|ipad|iphone|macbook|watch ultra).{1,15}jetzt.{1,10}anfordern/i
 /(airpods|apple|ipad|iphone|macbook|watch ultra).{1,15}für kurze zeit verfügbar/iu
-
+/(airpods|apple|ipad|iphone|macbook|watch ultra).{1,15}läuft bald ab/iu
 /(airpods|apple|ipad|iphone|macbook|watch ultra).{1,15}sichern/i
 /(airpods|apple|ipad|iphone|macbook|watch ultra).{1,15}steht für sie bereit/i
 /(airpods|apple|ipad|iphone|macbook|watch ultra).{1,15}verfällt bald/iu
 /(airpods|apple|ipad|iphone|macbook|watch ultra).{1,15}versand bestätigen/iu
 /(airpods|apple|ipad|iphone|macbook|watch ultra).{1,15}wartet auf dich/i
 
+/anspruch auf.{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
 /(benachrichtigung|bestätigt).{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
+/exklusiver preis.{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
 /(gewinn|gratulation).{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
 /nur heute.{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
 /unglaublich.{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
 
-/exklusiver preis.{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
 /holen sie sich.{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
 
 /ihr neuer.{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra).{1,10}gewinn/i
@@ -309,6 +311,8 @@
 /kundeninformation verfügbar/iu
 
 # L
+/läuft bald ab.{1,10}reagieren sie rechtzeitig/iu
+
 /leider konnten wir sie.{1,10}nicht erreichen/i
 
 /letzte chance.{1,10}gewinnen sie/i
