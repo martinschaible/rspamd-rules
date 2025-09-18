@@ -529,6 +529,8 @@
 /food.{0,10}(alert|cravings?|choices?|medicine|odor|safety|trap)/i
 /foot.{0,10}(care|patch(es)?|safety|solution)/i
 
+/forever.{0,10}young/i
+
 /free.{0,10}skin/i
 
 /fresh.{0,10}breath/i
@@ -720,7 +722,7 @@
 /no.{0,10}(diet|surgery)/i
 /noise.{0,10}(cancelling|inside)/i
 
-/nutrition.{0,10}(healing|nuances?|report|tips?|truth)/i
+/nutrition.{0,10}(fruits?healing|nuances?|report|tips?|truth)/i
 
 # O
 /oat.?meal.{0,10}hack/i

@@ -199,6 +199,8 @@
 /^coop$/i
 /\| coop$/i
 
+/communication.{0,10}wix/i
+
 /confirmation.{0,10}temu/i
 
 /\.(ch|de) cpanel/i

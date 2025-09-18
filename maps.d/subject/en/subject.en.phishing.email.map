@@ -133,6 +133,8 @@
 /pending e?.?mail errors/i
 /pending.{1,10}important.{1,10}(e?.?mail|message)s?/i
 
+/pending.{1,10}undelivered.{1,10}(e?.?mail|message)s?.{1,10}to your inbox/i
+
 # Q
 
 # R
