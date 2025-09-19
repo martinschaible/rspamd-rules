@@ -74,6 +74,8 @@
 /(paket|sendung).{1,15}dessen empfänger sie sind/iu
 
 /(paket|sendung).{1,15}erfordert eine.{1,10}bestätigung/iu
+/(paket|sendung).{1,15}erhalten.{1,25}ihre daten zu überprüfen/iu
+
 /(paket|sendung).{1,10}ihre heimatadresse zu/i
 /(paket|sendung).{1,10}im zielland eingetroffen ist/i
 /(paket|sendung).{1,10}in der warteschleife/i
@@ -94,6 +96,8 @@
 /(paket|sendung).{1,20}wurde.{1,10}eine unstimmigkeit festgestellt/i
 /(paket|sendung).{1,10}wurde erfolgreich im verteilzentrum/i
 /(paket|sendung).{1,15}wurde.{1,20}in der schweiz (verarbeitet|zugestellt)/i
+
+/(paket|sendung).{1,15}zurückbehalten.{1,25}nur für die nächsten/iu
 
 /paketdienste? weiterhin ohne unterbrechung/i
 
