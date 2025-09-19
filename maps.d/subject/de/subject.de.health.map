@@ -59,6 +59,7 @@
 /abnehmen.{1,10}noch nie so einfach/i
 
 /(kg|kilo|pfund).{1,10}abgenommen (habe|hat)/i
+/(kg|kilo|pfund).{1,10}erfahren sie/i
 /(kg|kilo|pfund).{1,10}in.{1,10}tagen.{1,10}(abnehmen|verlieren)/i
 /(kg|kilo|pfund).{1,10}schmelzen/i
 /(kg|kilo|pfund).{1,10}weniger in.{1,10}Woche/i
@@ -99,6 +100,8 @@
 
 # Product
 /vorteile.{1,10}keto/i
+
+/wochen.{1,10}(kg|kilo|pfund) abgenommen/i
 
 # Temporary until i found the right regex
 # ------------------------------------------------------------------------------

@@ -328,6 +328,7 @@
 /zahlung von.{1,10}erforderlich/i
 
 /zahlungserinnerung.{1,10}(import|zoll).?gebühren/iu
+/zahlungserinnerung.{1,15}(paket|sendung)/i
 
 /zustellgebühr.{1,10}ausstehend.{1,10}\d(\.|,)\d{2}/i
 
