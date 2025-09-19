@@ -434,7 +434,7 @@
 /damaged.{0,10}nerves/i
 /dangerous.{0,10}veggies?/i
 
-/(dead|death).{0,10}(drink|foods?|metabolism|veggies|water)/i
+/(dead(ly)?|death).{0,10}(drink|foods?|metabolism|veggies?|water)/i
 /(dead|deep).{0,10}cleansing/i
 
 /dental.{0,10}(alert|issues?|repair|rescue|trick|work)/i
@@ -722,7 +722,7 @@
 /no.{0,10}(diet|surgery)/i
 /noise.{0,10}(cancelling|inside)/i
 
-/nutrition.{0,10}(fruits?healing|nuances?|report|tips?|truth)/i
+/nutrition.{0,15}(fruits?healing|less|nuances?|report|tips?|truth|veggies)/i
 
 # O
 /oat.?meal.{0,10}hack/i
