@@ -438,6 +438,7 @@
 
 /focus.{1,10}memory/i
 /foods?.{1,10}that.{1,10}(fights?|poisonous|prevents)/i
+/foods?.{1,10}that.{1,10}makes? you/i
 /foods?.{1,10}to (avoid|skip)/i
 
 /follow these steps at/i
@@ -449,6 +450,8 @@
 /forget.{1,10}dieting/i
 
 /formula restored by/i
+
+/(fruits?|vegetable|veggies?).{1,10}could be/i
 /(fruits?|vegetable|veggies?).{1,10}(immediately|improving)/i
 /(fruits?|vegetable|veggies?).{1,10}(for brain|is safe)/i
 /(fruits?|vegetable|veggies?).{1,10}(harmful|harm your)/i
@@ -716,6 +719,7 @@
 
 /restores?.{1,10}(gut|hearing|help|joint|memory|nerve|perfect|teeth)/i
 
+/reveals hidden.{1,10}(food|triggers)/i
 /(reverse|reversing).{1,10}(aging in|dementia|diabetes|ed\b|memory|type 2)/i
 /(reverse|reversing).{1,10}(hair|vision).?loss/i
 
@@ -980,6 +984,7 @@
 # X
 
 # Y
+/you.{1,10}live longer/i
 /you.{1,10}should never eat/i
 
 /your.{1,10}aging memory/i
