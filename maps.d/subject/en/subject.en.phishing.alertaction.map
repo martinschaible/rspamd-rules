@@ -104,8 +104,9 @@
 
 /activity detected.{1,10}activate.{1,20}2fa/i
 
-/alert.{1,10}your domain/i
 /alert.{1,10}mail.?server.{1,10}notification/i
+/alert.{1,10}you have.{1,10}undelivered/i
+/alert.{1,10}your domain/i
 
 /amazon.{1,15}important.{1,10}(notice|notification)/i
 
@@ -197,6 +198,7 @@
 /login detected.{1,10}action needed/i
 
 # M
+/mail alert/i 0.25
 /mailbox full.{1,10}action required/i
 
 /migration.{1,10}last chance/i

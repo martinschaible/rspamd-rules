@@ -41,8 +41,10 @@
 /dear.{1,15}(client|customer).{1,15}your.{1,15}form has expired/i
 
 /dear.{1,15}(client|customer).{1,10}our system has shown/i
-/dear.{1,15}(member|user).{1,10}immediate attention required/i
+
 /dear.{1,15}(member|user).{1,10}during a.{1,10}account/i
+/dear.{1,15}(member|user).{1,10}immediate attention required/i
+/dear.{1,15}(member|user).{1,10}we have detected that your/i
 
 /dear.{1,15}your mailbox is.{1,15}full/i
 
