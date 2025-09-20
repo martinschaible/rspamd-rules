@@ -212,7 +212,10 @@
 
 /(paket|sendung).{1,10}ist bereit.{1,10}(zahlen|zustellung)/i
 /(paket|sendung).{1,10}ist im land angekommen/i
+
 /(paket|sendung).{1,10}ist in wartestellung/i
+/(paket|sendung).{1,10}ist in.{1,10}(deutschland|schweiz){1,10}(angekommen|eingetroffen)/i
+
 /(paket|sendung).{1,10}ist jetzt bei uns/i
 /(paket|sendung).{1,10}ist noch nicht bezahlt/i
 /(paket|sendung).{1,10}ist zur (lieferung|zustellung) bereit/i
@@ -344,7 +347,7 @@
 
 /zollabfertigung für.{1,10}(paket|sendung)/iu
 
-/zollgebühr(en)?.{1,10}benachrichtigung/iu
+/zollgebühr(en)?.{1,10}(benachrichtigung|erforderlich)/iu
 /zollgebühr(en)?.{1,10}fällig für iihre?.{1,15}(paket|sendung)/i
 /zollgebühr(en)?.{1,10}für ihre?.{1,15}(paket|sendung).{1,10}fällig/iu
 

@@ -30,6 +30,22 @@
 /(befragung|feedback|umfrage).{1,10}erhalten sie eine?.{1,10}(belohnung|geschenk)/i
 /(befragung|feedback|umfrage).{1,10}starten.{1,10}sich ihre.{1,15}prämie/iu
 
+/(befragung|feedback|umfrage).{1,10}abgeschlossen.{1,20}dir.{1,10}gratulieren/i
+/(befragung|feedback|umfrage).{1,10}aus.{1,10}und.{1,10}sie ihren gewinn/i
+/(befragung|feedback|umfrage).{1,10}beantworten/i
+/(befragung|feedback|umfrage).{1,10}gewinnen sie/i
+/(befragung|feedback|umfrage).{1,10}helfen sie uns.{1,10}unseren service/i
+/(befragung|feedback|umfrage).{1,10}ihre meinung.{1,15}sichern sie/i
+/(befragung|feedback|umfrage).{1,10}jetzt zu starten/i
+/(befragung|feedback|umfrage).{1,10}registrierung.{1,10}bestätigt/i
+/(befragung|feedback|umfrage).{1,10}schenkt ihnen ein/i
+/(befragung|feedback|umfrage).{1,15}sichern Sie sich Ihre/i
+/(befragung|feedback|umfrage).{1,15}starten.{1,15}sichern/i
+/(befragung|feedback|umfrage).{1,10}teilgenommen.{1,10}jetzt sind sie/i
+
+/(befragung|feedback|umfrage).{1,10}teil(zu)?nehmen.{1,10}einen fantastischen preis/i
+/(befragung|feedback|umfrage).{1,10}teil(zu)?nehmen.{1,10}haben sie die möglichkeit/iu
+
 # C
 
 # D
@@ -68,6 +84,7 @@
 # R
 
 # S
+/sie.{1,10}eine kurze umfrage/i
 
 # T
 /teilnahme.{1,5}link/i

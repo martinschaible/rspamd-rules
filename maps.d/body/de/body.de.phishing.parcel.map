@@ -32,6 +32,7 @@
 # D
 
 # E
+/es ist eine.{1,15}(einfuhrabgabe|zollgebühr) fällig/iu
 
 # F
 
@@ -83,7 +84,11 @@
 
 /(paket|sendung).{1,10}ist versandfertig.{1,10}aber die versandkosten/i
 /(paket|sendung).{1,15}ist fast zugestellt/i
-/(paket|sendung).{1,10}ist in.{1,20}eingetroffen.{1,10}(durch den zoll|wurde verzollt)/i
+
+/(paket|sendung).{1,10}ist im.{1,10}empfangsland.{1,10}(angekommen|eingetroffen)/i
+/(paket|sendung).{1,10}ist in.{1,10}(deutschland|schweiz){1,10}(angekommen|eingetroffen)/i
+/(paket|sendung).{1,10}ist in.{1,20}(angekommen|eingetroffen).{1,15}(den zoll|wurde verzollt)/i
+
 /(paket|sendung).{1,10}ist noch nicht bezahlt/i
 
 /(paket|sendung).{1,10}könnte zum absender zurückgeschickt werden/iu

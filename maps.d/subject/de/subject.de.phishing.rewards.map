@@ -48,6 +48,7 @@
 # Apple
 /(airpods|apple|ipad|iphone|macbook|watch ultra).{1,15}ausgewählte.{1,20}kunden/i
 /(airpods|apple|ipad|iphone|macbook|watch ultra).{1,15}bereit zur lieferung/i
+/(airpods|apple|ipad|iphone|macbook|watch ultra).{1,15}exklusiv (bei|für)/i
 /(airpods|apple|ipad|iphone|macbook|watch ultra).{1,15}für sie reserviert/iu
 /(airpods|apple|ipad|iphone|macbook|watch ultra).{1,15}gehören jetzt ihnen/i
 /(airpods|apple|ipad|iphone|macbook|watch ultra).{1,15}ist reserviert/i
@@ -63,7 +64,7 @@
 /anspruch auf.{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
 /(benachrichtigung|bestätigt).{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
 /exklusiver preis.{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
-/(gewinn|gratulation).{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
+/(gewinn|glückwunsch|gratulation).{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/iu
 /nur heute.{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
 /unglaublich.{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
 
@@ -153,6 +154,8 @@
 
 # C
 /chance auf eine.{1,15}geschenke?.?karte/i
+
+/(chf|euro) \d.{1,10}nur für kurze zeit/i
 
 # D
 /\.de (germany|deutschland)/i
@@ -391,7 +394,8 @@
 
 /seien sie bereit/i
 
-/sichere dir dein.{1,15}geschenk heute/i
+/sichere dir.{1,15}jetzt.{1,15}brandneues/i
+/sichere dir.{1,15}dein.{1,15}geschenk heute/i
 
 /sichern sie es jetzt/i
 #/sichern sie sich.{1,10}ihr exklusives/i

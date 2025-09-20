@@ -258,6 +258,7 @@
 /dhl.{0,5}(paketinfo|versandinfo)/i
 
 /dhl.{0,5}(germany|schweiz)/i
+/dhl.{0,5}express (germany|schweiz)/i
 
 /dhl.?ups/i
 
