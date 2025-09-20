@@ -123,8 +123,6 @@
 # ------------------------------------------------------------------------------
 /(paket|sendung).{1,15}auf (die|eine).{1,10}(lieferung|zustellung) wartet/i
 /(paket|sendung).{1,10}(in der|ist in).{1,10}(warteschleife|wartestellung)/i
-/(paket|sendung).{1,10}ist in deutschland (angekommen|eingetroffen)/i
-/(paket|sendung).{1,10}ist im empfangsland (angekommen|eingetroffen)/i
 /(paket|sendung).{1,10}noch auf die bearbeitung wartet/i
 /(paket|sendung).{1,25}noch auf ihre anweisung(en)? wartet/i
 
