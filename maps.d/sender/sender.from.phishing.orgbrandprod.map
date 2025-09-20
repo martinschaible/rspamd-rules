@@ -362,6 +362,9 @@
 /hetzner, inc/i
 /hetzner.{0,5}(invoice|online)$/i
 /hetznersupport/i
+
+/login.?hetzner/i
+
 /help.{0,10}spotify/i
 
 /-hermes$/i
@@ -686,6 +689,7 @@
 /temu-/i
 /temu.?(ch|schweiz)/i
 
+/temu.{0,10}exclusive/i
 /temu.{0,10}gewinnen/i
 /temu.{0,10}kundenservice/i
 

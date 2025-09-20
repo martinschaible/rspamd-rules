@@ -235,6 +235,7 @@
 
 /(paket|sendung).{1,10}zahlung.{1,10}versandgebühren/iu
 
+/paketbenachrichtigung.{1,10}ihre?.{1,10}(paket|sendung)/iu
 /paketzustellung.{1,10}bestätigung erforderlich/i
 
 /probleme mit ihrer adresse/i

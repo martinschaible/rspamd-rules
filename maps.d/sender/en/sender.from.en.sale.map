@@ -23,7 +23,6 @@
 /tactic(al)?.{0,10}drone/i
 /tactic(al)?.{0,10}(air|official|team)/i
 
-
 # Replicas
 # ------------------------------------------------------------------------------
 /(hot|luxury|top).{0,10}(bags|watch(es)?)/i
@@ -119,6 +118,8 @@
 
 /_experience/i
 
+/exclusive.{0,10}(deals?|offers?)/i
+
 # F
 /fan.{0,10}blower/i
 
@@ -145,10 +146,12 @@
 /guard.{0,10}(offer|partner|pro)/i
 /gutter.{0,10}(clean|guard)/i
 
+/(gogo|portable|small).{0,10}(heater|heating)/i
+
 # H
 /health(care)?.{0,10}enrollment/i
 
-/heating.{0,10}bill/i
+/heating.{0,10}(bill|system)/i
 /home.{0,10}(cool|warranty)/i
 
 /hot.{0,10}handbags/i

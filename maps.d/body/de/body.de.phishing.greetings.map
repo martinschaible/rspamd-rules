@@ -161,6 +161,8 @@
 /sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,50}notwendigen vertraglichen anpassungen/i
 
 /sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,20}sicherheitswarnung/i
+
+/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,20}sie daran erinnern.{1,10}dass ihre rechnung/i
 /sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}sie wurden für unser/i
 
 /sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}trotz unserer vorherigen erinnerung/i
@@ -178,12 +180,14 @@
 /sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}wir kontaktieren sie im auftrag von/i
 
 /sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}wir haben.{1,10}(ein problem|festgestellt)/i
+/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}wir haben.{1,10}probleme/i
 /sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}wir hatten kürzlich ein/iu
 
 /sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}wir konnten ihre letzte zahlung/i
-/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}wir möchten sie.{1,15}(dringend|informieren)/iu
-/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}wir mussten feststellen/i
 
+/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}wir möchten sie.{1,15}(dringend|informieren)/iu
+/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}wir möchten sie.{1,15}darauf aufmerksam machen/iu
+/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}wir mussten feststellen/i
 # Invoices
 /sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,20}anbei erhalten sie ihre aktuelle rechnung/i
 /sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,20}anbei schicken wir ihnen ihre rechnung/i
