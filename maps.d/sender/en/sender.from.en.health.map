@@ -98,7 +98,7 @@
 /healthy?.{0,10}(gift|guides?|gut)/i
 /healthy?.{0,10}(habit|hack|hair|heart|heaven|hero)/i
 /healthy?.{0,10}(insider|insights)/i
-/healthy?.{0,10}(liver|now|power)/i
+/healthy?.{0,10}(liver|mornings?|now|power)/i
 /healthy?.{0,10}research/i
 /healthy?.{0,10}(secret|smile|spine|transformation|vibes|wire)/i
 
@@ -297,7 +297,7 @@
 
 /bacon.{0,10}eggs/i
 
-/(bad|evil).{0,10}(foods?|fruits?)/i
+/(bad|evil).{0,10}(bacteria|foods?|fruits?)/i
 
 /balance.{0,10}(blood|booster|brain|restored|your)/i
 /balanced.?(bp|glucose)/i
@@ -498,8 +498,10 @@
 # F
 /fasting.{0,10}seeds/i
 
-/fat(ty)?.{0,10}(artery|dissolving)/i
 /fatigue.{0,10}bloating/i
+
+/fat.{0,5}hack/i
+/fat(ty)?.{0,10}(artery|dissolving)/i
 /fat(ty)?.{0,10}arteries/i
 
 /fda.{0,10}alert/i
@@ -843,6 +845,8 @@
 
 /shoulder.{0,10}(pain|relief)/i
 
+/skin.{0,10}confidence/i
+
 /side.{0,10}back/i
 /sight.{0,10}care/i
 /silence.{0,10}(buzz(ing)?|pain|restored?)/i
@@ -914,7 +918,7 @@
 /stop.{0,10}dieting/i
 /(strange|spice).{0,10}trick/i
 
-/sweet.{0,10}(balance|deal|fix|trick)/i
+/sweet.{0,10}(balance|deal|fix|solution|trick)/i
 /swelling.{0,10}solution/i
 /swollen.{0,10}(belly|feet|foot|gut|legs)/i
 
