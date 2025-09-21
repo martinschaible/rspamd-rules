@@ -67,6 +67,7 @@
 
 # M
 /mini phone x/i
+/muama.{0,5}ryoko/i
 
 # N
 
@@ -78,6 +79,7 @@
 # Q
 
 # R
+/ryoko.{1,10}wlan/i
 
 # S
 /slow.{1,10}internet/i
@@ -91,7 +93,8 @@
 # V
 
 # W
-/wireless.{1,10}(home|security).{1,10}camera.{1,10}rechargeable/i
+/(wifi|wireless).{1,10}(home|security).{1,10}camera.{1,10}rechargeable/i
+/(wifi|wireless).{1,10}anywhere.{1,10}anytime/i
 
 # X
 

@@ -69,12 +69,14 @@
 /gewinne.{1,10}ein kostenloses/i
 /gewinne.{1,10}el.?gordo/i
 
-/(gewinnen|gewinner).{1,10}brandneu(en)?/i
+/(gewinnen|gewinner).{1,15}brandneu(en)?/i
+/(gewinnen|gewinner).{1,15}brandneu(es)?/i
 
 /gewinnen sie ein.{1,20}(brandneuen|set.{1,10}auto|testpaket)/i
 
 /gewinnen sie!/i
 /gewinnen sie eine? kostenloses?/i
+/gewinnen sie jetzt/i
 
 /gewinneralarm.{1,10}dein/i
 /gewinnerliste des.{10,35}ist hier/i
