@@ -325,7 +325,7 @@
 /bladder.{0,10}(boost|care|control|danger|fix|flush|health)/i
 /bladder.{0,10}(leaks?|leakage|leaking|issues?)/i
 
-/bloat.{0,10}(free|solution)/i
+/bloat(ing)?.{0,10}(free|fruits?|solution)/i
 /blocking.{0,10}teas?/i
 /blood.{0,10}(clots?|flow|glucose|pressure|solution|sugar)/i
 
@@ -555,7 +555,7 @@
 /grow.{0,10}(hair|trick)/i
 
 /gum.{0,10}(bleeding|disease|health|saver)/i
-/gut.{0,10}(balance|cleanse|fix|flush|health|insider|quiz|reboot|repair|reset|solution|trick)/i
+/gut.{0,10}(balance|check|cleanse|fix|flush|health|insider|quiz|reboot|repair|reset|solution|trick)/i
 
 # H
 /hair.{0,5}(balding|enhancer|experts?|growth|loss)/i
@@ -981,7 +981,7 @@
 # W
 /\bw.?loss/i
 
-/water.{0,10}(diy|pill|science|weight)/i
+/water.{0,10}(diy|pill|science|watch|weight)/i
 /warning.{0,10}signs?/i
 /wax.{0,10}free/i
 

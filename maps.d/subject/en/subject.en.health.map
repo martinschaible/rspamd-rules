@@ -440,6 +440,7 @@
 /foods?.{1,10}that.{1,10}(fights?|poisonous|prevents)/i
 /foods?.{1,10}that.{1,10}makes? you/i
 /foods?.{1,10}to (avoid|skip)/i
+/foods?.{1,10}slowing you/i
 
 /follow these steps at/i
 
@@ -473,7 +474,6 @@
 /gets? rid of.{1,10}constipation/i
 /gets? rid of.{1,10}these.{1,10}fruits/i
 /gets? rid of.{1,10}unwanted/i
-
 
 /(gum|gut).{0,10}(cleanse|cleansing)/i
 /(gum|gut).{0,10}(fix|health|problem|power|relief|reset)/i
@@ -934,7 +934,7 @@
 /try this doctors?/i
 
 # U
-/unclogs?.{1,10}arteries/i
+/unclogs?.{1,10}(arteries|gut)/i
 
 /uncover(ing)? big pharma/i
 /uncover(ing)? the (hidden|secret)/i
@@ -977,7 +977,7 @@
 
 /worse.{1,10}heres why/i
 
-/worst.{1,10}for (blood sugar|heart)/i
+/worst.{1,10}for.{1,10}(blood sugar|heart|weight)/i
 /worst.{1,10}habit that/i
 
 /wrinkle.{1,10}(fast|free|hormone|instantly|skin)/i
@@ -997,7 +997,7 @@
 /your.{1,10}blood pressure/i
 /your.{1,10}back pain/i
 /your.{1,10}(bladder|erection|hearing|liver|manhood|pecker|prostate|wrinkles)/i
-/your.{1,10}gut (could|might)/i
+/your.{1,10}gut (could|knows|might)/i
 /your.{1,10}(super)?food.{1,10}(harmful|secret)/i
 /your.{1,10}foot fungus/i
 /your.{1,10}healthy foods/i
