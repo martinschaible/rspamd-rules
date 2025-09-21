@@ -99,6 +99,8 @@
 /fehler bei der zustellung/i
 /fehlgeschlagener zustellversuch/i
 
+/freigegeben.{1,10}zahlung erforderlich/i
+
 # G
 #/(gebühr|einlieferungsbeleg) für ihre?.{1,10}(lieferung|paket|sendung)/i
 /gebühr für ihre?.{1,10}(lieferung|paket|sendung)/i
@@ -233,6 +235,7 @@
 /(paket|sendung).{1,10}wartet.{1,10}distributionszentrum/i
 /(paket|sendung).{1,10}wartet.{1,10}holen sie es.{1,10}ab/i
 
+/(paket|sendung).{1,10}freigegeben/i
 /(paket|sendung).{1,10}zahlung.{1,10}versandgebühren/iu
 
 /paketbenachrichtigung.{1,10}ihre?.{1,10}(paket|sendung)/iu

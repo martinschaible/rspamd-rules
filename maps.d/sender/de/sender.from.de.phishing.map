@@ -182,5 +182,5 @@
 # Y
 
 # Z
-/zoll.?paket/i
+/zoll.{0,10}(paket|service)/i
 /-zustellung/i

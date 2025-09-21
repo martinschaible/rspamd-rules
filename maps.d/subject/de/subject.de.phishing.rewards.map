@@ -46,7 +46,7 @@
 /preise?.{1,15}mystery.?box/i
 
 # Apple
-/(airpods|apple|ipad|iphone|macbook|watch ultra).{1,15}ausgewählte.{1,20}kunden/i
+/(airpods|apple|ipad|iphone|macbook|watch ultra).{1,15}ausgewählte.{1,20}(gewinner|kunden)/i
 /(airpods|apple|ipad|iphone|macbook|watch ultra).{1,15}bereit zur lieferung/i
 /(airpods|apple|ipad|iphone|macbook|watch ultra).{1,15}exklusiv (bei|für)/i
 /(airpods|apple|ipad|iphone|macbook|watch ultra).{1,15}für sie reserviert/iu
@@ -63,7 +63,7 @@
 
 /anspruch auf.{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
 /(benachrichtigung|bestätigt).{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
-/exklusiver preis.{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
+/(entscheiden sie|exklusiver preis).{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
 /(gewinn|glückwunsch|gratulation).{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/iu
 /nur heute.{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
 /unglaublich.{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i

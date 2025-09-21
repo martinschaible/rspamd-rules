@@ -264,7 +264,8 @@
 
 /mydhl.{0,5}express/i
 
-/(center|express|kurier|notification).{0,5}(dhl|dpd)/i
+/(center|express|notification).{0,5}(dhl|dpd)/i
+/(kurier|zoll).{0,5}(dhl|dpd)/i
 
 /diba-ag/i
 /digitech/i

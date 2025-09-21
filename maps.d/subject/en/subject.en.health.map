@@ -458,6 +458,7 @@
 /(fruits?|vegetable|veggies?).{1,10}(harmful|harm your)/i
 /(fruits?|vegetable|veggies?).{1,10}that.{1,10}(fights|harm|might|may|weakens)/i
 /(fruits?|vegetable|veggies?).{1,10}that make you/i
+/(fruits?|vegetable|veggies?).{1,10}to stop/i
 /(fruits?|vegetable|veggies?).{1,10}(should|to) avoid/i
 /(fruits?|vegetable|veggies?).{1,10}surprising benefits/i
 /(fruits?|vegetable|veggies?).{1,10}worse than/i
@@ -754,6 +755,7 @@
 /secret to.{1,15}(digestion|fat.?burning|healthy)/i
 /secret will.{1,15}your/i
 
+/secretly draining you/i
 /see proof/i
 
 /sharpen.{1,10}memory/i
@@ -819,7 +821,7 @@
 /stubborn.{1,10}(fat|mucus)/i
 
 /stop doing this/i
-/stop eating them/i
+/stop eating (now|them)/i
 
 /stops?.{1,10}ear ringing/i
 /stops?.{1,10}(artery|decay|dieting|secret|teeth)/i

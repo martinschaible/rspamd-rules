@@ -35,6 +35,8 @@
 
 # E
 /einkommen.{1,10}bitcoin/i
+
+/endlich reich werden/i
 /enthüllt.{1,20}(finanztrick|ki.?system)/iu
 
 /euro mit nur.{1,10}stunden einsatz/i
@@ -61,7 +63,7 @@
 
 # J
 /jeden tag auszahlung/i
-/jeder .{1,15}euro pro tag verdienen kann/i
+/jeder.{1,15}euro pro tag verdienen kann/i
 
 /jetzt mit.{1,10}(chf|euro?) starten/i
 /jetzt \d{3,5}.{1,10}einzahlen/i
@@ -69,6 +71,7 @@
 # K
 /ki einkommen generiert/i
 
+/klickt.{1,10}erhält.{1,15}(konkrete|schritte)/i
 /konto füllt sich täglich/iu
 
 # L
@@ -139,6 +142,8 @@
 
 # W
 /wohlstand per knopfdruck/i
+
+/wollen sie.{1,15}reich werden?
 
 # X
 

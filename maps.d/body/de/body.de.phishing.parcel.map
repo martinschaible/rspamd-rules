@@ -57,6 +57,8 @@
 /kleine gebühr muss beglichen/iu
 
 # L
+/letzter status.{1,10}zahlung erforderlich/i
+
 /lieferdaten.{1,10}bezahlen sie die versandkosten/i
 
 /lieferung.{1,10}aufgeschobenen.{1,10}pakets/i
@@ -86,7 +88,7 @@
 /(paket|sendung).{1,15}ist fast zugestellt/i
 
 /(paket|sendung).{1,10}ist im.{1,10}empfangsland.{1,10}(angekommen|eingetroffen)/i
-/(paket|sendung).{1,10}ist in.{1,10}(deutschland|schweiz){1,10}(angekommen|eingetroffen)/i
+/(paket|sendung).{1,10}ist in.{1,10}(deutschland|schweiz).{1,10}(angekommen|eingetroffen)/i
 /(paket|sendung).{1,10}ist in.{1,20}(angekommen|eingetroffen).{1,15}(den zoll|wurde verzollt)/i
 
 /(paket|sendung).{1,10}ist noch nicht bezahlt/i
@@ -134,7 +136,7 @@
 # Z
 /zahlungserinnerung.{1,15}(paket|sendung)/i
 
-/zoll.{1,10}steuergebühren.{1,10}erforderlich/iu
-/zollzahlung ist erforderlich
+/zoll.{1,10}(steuergebühren|steuerzahlung).{1,10}erforderlich/iu
+/zollzahlung ist erforderlich/i
 
 /zustellversuche sind mit zusätzlichen gebühren verbunden/iu

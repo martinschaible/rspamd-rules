@@ -100,7 +100,8 @@
 /healthy?.{0,10}(insider|insights)/i
 /healthy?.{0,10}(liver|mornings?|now|power)/i
 /healthy?.{0,10}research/i
-/healthy?.{0,10}(secret|smile|spine|transformation|vibes|wire)/i
+/healthy?.{0,10}(secret|smile|spine|start)/i
+/healthy?.{0,10}(transformation|vibes|wire)/i
 
 /(american|daily|insider|intimate|mens|simple|womens).{0,10}health/i
 
@@ -185,6 +186,7 @@
 # ------------------------------------------------------------------------------
 /(fat|weight).{0,10}(blocking|fast|fix|flush|gain|goals|lock|loss|melting|vanish)/i
 /(fat|weight).{0,10}(banish|burn(er)?|burning|drop(er)?)/i
+/(fat|weight).{0,10}solution/i
 
 /belly.{0,10}(buddy|buster)/i
 /belly.{0,10}(detox|fix|flattening|reset)/i
@@ -203,7 +205,7 @@
 /slim.{0,10}(belly|body|down|waist)/i
 /(metabolic|surprising).{0,10}water/i
 
-/(toxic|visceral).{0,10}fat/i
+/(deep|toxic|visceral).{0,10}fat/i
 /tummy.{0,10}(cleanse|tamer)/i
 
 /o.{0,3}p.{0,3}r.{0,3}a.{0,3}h/i
@@ -994,7 +996,7 @@
 
 /womens?.{0,10}(intimacy|secret)/i
 /wonder.?bread/i
-/worst.{0,10}(breakfast|food|veggie)/i
+/worst.{0,10}(breakfast|fruits?|food|veggie)/i
 /wrinkle.{0,10}(cream|filler|filter|free|solution)/i
 
 # X
