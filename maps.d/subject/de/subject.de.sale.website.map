@@ -60,7 +60,7 @@
 /re-(home.?page|kosten|web.?site)/i
 
 # S
-/sie ihrer.{1,10}(home.?page|web.?site)/i
+/sie ihrer?.{1,10}(home.?page|web.?site)/i
 
 /site.{1,10}make.?over/i
 
@@ -70,6 +70,7 @@
 
 # V
 /verbessern sie.{1,25}online.?präsenz/iu
+/verbessern sie.{1,15}(home.?page|web.?site)/iu
 
 # W
 /webdesign.{1,10}partnerschaft/i

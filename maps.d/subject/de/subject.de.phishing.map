@@ -24,6 +24,8 @@
 /@\.[a-z]{1,4}.{1,10}wichtiger hinweis/i
 
 # A
+/adressdaten ihres unternehmens aktualisieren/i
+
 /aktualisierung.{1,15}teilnahmebedingungen/i
 /aktualisierung.{1,10}telefonnummer/i
 /aktualisierung.{1,15}unternehmensdaten/i
@@ -88,6 +90,8 @@
 /geben sie ihre telefonnummer innerhalb/i
 /gemeldeten ordnungswidrigkeit/i
 
+/(geschäfts|unternehmens)?adresse muss.{1,10}bestätigt werden/iu
+
 /gesperrte aktivitat auf/iu
 
 # Swiss german :-)
@@ -116,6 +120,7 @@
 /ihrer letzten handelsaktivität erforderlich/iu
 
 # J
+/jährliche bestätigung.{1,10}(geschäfts|unternehmens)?adresse/iu
 
 # K
 
@@ -172,6 +177,7 @@
 /transaktionshistorie freigegeben.{1,10}ref/i
 
 # U
+
 /unternehmensdaten.{1,10}müssen bestätigt/iu
 /unterstützung.{1,10}paypal/iu
 

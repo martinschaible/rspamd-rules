@@ -153,8 +153,10 @@
 /sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}ihre aktuelle zahlungsmethode/i
 /sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}ihre.{1,10}e?.?mail.?adresse wurde von/i
 
-/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}im rahmen (der|ihrer) gesetzlich(en)?/i
+/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}im rahmen.{1,10}(der|ihrer) gesetzlich(en)?/i
 /sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}im rahmen.{1,25}(datenschutz|eintragung|europäischen|sicherheits|verpflichtungen)/iu
+/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}im rahmen.{1,15}jährlichen kontrolle/iu
+
 /sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}im zuge.{1,10}europaweiten anpassung/i
  
 /sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,10}nach (artikel|datenschutzgrundverordnung)/i

@@ -104,6 +104,7 @@
 /server has important.{1,10}(e?.?mail|message)s?.{1,10}suspended/i
 
 # T
+/terminate your.{1,10}e?.?mail.{1,10}account.{1,15}@/i
 
 # U
 /unread.{1,10}(e?.?mail|message)s?.{1,10}pending due to server/i
