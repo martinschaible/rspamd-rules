@@ -27,13 +27,7 @@
 
 # Catalog
 # ------------------------------------------------------------------------------
-/(brochure|catalog|catalogue).{1,10}e?.?mail for our consideration/i
-/(brochure|catalog|catalogue).{1,10}your company products/i
-/(brochure|catalog|catalogue).{1,10}price list.{1,10}payment method/i
 /brochure.{1,10}product catalog.{1,10}price details/i
-
-/provide us.{1,15}(brochure|catalog|catalogue).{1,10}of your products/i
-/provide us.{1,15}(brochure|catalog|catalogue).{1,10}data.?sheet for approval/i
 
 /product along with your.{1,15}(brochure|catalog|catalogue)/i
 
