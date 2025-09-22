@@ -180,7 +180,7 @@ body
   ├─ body.attachment.map                         ─┐
   ├─ body.emergency.map                           │
   ├─ body.emergency.ext.map                       │
-  ├─ body.orgbrandprod.map                  X     │
+  ├─ body.orgbrandprod.map                        │ X
   ├─ body.special.map                             │
   │                                               │
   ├─ body.az.orgname.map                          ├─ multimap.body.conf
@@ -202,9 +202,9 @@ body
   │   ├─ body.de.intros.map                       │
   │   ├─ body.de.message.map                      ├─ multimap.body.de.conf
   │   ├─ body.de.singleword.map                   │
-  │   ├─ body.de.singleword.special.map     X     │
+  │   ├─ body.de.singleword.special.map           │ X
   │   ├─ body.de.singleword.ucase.map             │
-  │   ├─ body.de.ucase.map                  X     │
+  │   ├─ body.de.ucase.map                        │ X
   │   ├─ body.de.unsubscribe.map                 ─┘
   │   │
   │   ├─ body.de.adult.map                       --- multimap.body.de.adult.conf
@@ -221,12 +221,13 @@ body
   │   ├─ body.de.phishing.email.map               │
   │   ├─ body.de.phishing.greetings.map           │
   │   ├─ body.de.phishing.malware.map             │
-  │   ├─ body.de.phishing.parcel.map              ├─ multimap.body.de.phishing.conf
-  │   ├─ body.de.phishing.password.map            │
+  │   ├─ body.de.phishing.parcel.map              │
+  │   ├─ body.de.phishing.password.map            ├─ multimap.body.de.phishing.conf
   │   ├─ body.de.phishing.payment.map             │
   │   ├─ body.de.phishing.refund.map              │
   │   ├─ body.de.phishing.rewards.map             │
-  │   ├─ body.de.phishing.sale.map           X    │
+  │   ├─ body.de.phishing.rewards.products.map    │ X
+  │   ├─ body.de.phishing.sale.map                │ X
   │   ├─ body.de.phishing.subscription.map        │
   │   ├─ body.de.phishing.survey.map              │
   │   ├─ body.de.phishing.wallet.map             ─┘
@@ -335,7 +336,8 @@ subject
   │   ├─ subject.de.phishing.payment.map          │
   │   ├─ subject.de.phishing.refund.map           │
   │   ├─ subject.de.phishing.rewards.map          │
-  │   ├─ subject.de.phishing.sale.map        X    │
+  │   ├─ subject.de.phishing.rewards.products.map │ X
+  │   ├─ subject.de.phishing.sale.map             │ X
   │   ├─ subject.de.phishing.survey.map           │
   │   ├─ subject.de.phishing.wallet.map          ─┘
   │   │
