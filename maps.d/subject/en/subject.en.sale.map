@@ -26,7 +26,8 @@
 /^e(lectric)?.{0,10}(bicycle|bike)/i
 /e(lectric)?.{0,10}(bicycle|bike).{1,15}(adventrue|built|coorperation)/i
 /e(lectric)?.{0,10}(bicycle|bike).{1,15}(day shipping|delivers?|distribution)/i
-/e(lectric)?.{0,10}(bicycle|bike).{1,15}(factory|germany|interest|performance|ready|shipped|supplier)/i
+/e(lectric)?.{0,10}(bicycle|bike).{1,15}(factory|germany|interest|performance|ready)/i
+/e(lectric)?.{0,10}(bicycle|bike).{1,15}(shipped|shipping|supplier)/i
 
 /fat.?tire.{1,10}e(lectric)?.{0,10}(bicycle|bike)/i
 
@@ -40,7 +41,11 @@
 
 /city.?voyager/i
 /(classic|electric).{1,10}moped/i
+
+/mountainblazer/i
 /moped.{1,10}style/i
+
+/(unlock|revolutionize).{1,10}your ride/i
 
 /versatile riding/i
 

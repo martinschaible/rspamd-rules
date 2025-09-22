@@ -45,6 +45,10 @@
 # B
 /below.{1,10}your.{1,10}(price|product).?list/i
 
+/(brochure|catalog|catalogue).{1,10}e?.?mail for our consideration/i
+/(brochure|catalog|catalogue).{1,10}your company products/i
+/(brochure|catalog|catalogue).{1,10}price list.{1,10}payment method/i
+
 # C
 /catalog is of interest.{1,10}contact us/i
 
@@ -81,6 +85,9 @@
 # P
 /(pricing|prices|price.?list).{1,15}(could you deliver|drop it|with me.{1,10}provide it)/i
 
+/provide us.{1,15}(brochure|catalog|catalogue).{1,10}of your products/i
+/provide us.{1,15}(brochure|catalog|catalogue).{1,10}data.?sheet for approval/i
+
 /inventory.{1,10}start.{1,10}conversation with us/i
 
 /(items?|offerings?|products?).{1,15}caught our attention/i
@@ -106,7 +113,7 @@
 /we are interested.{1,10}collaborating with your.{1,10}company/i
 /we are interested.{1,10}your product range/i
 
-/we.{1,10}(looking|reviewing).{1,10}(innovative|potential|reliable).{1,20}(contractors|manufacturers|suppliers)/i
+/we.{1,10}(looking|reviewing).{1,10}(innovative|potential|reliable).{1,20}(contractors|manufacturers|suppliers?)/i
 
 # X
 
