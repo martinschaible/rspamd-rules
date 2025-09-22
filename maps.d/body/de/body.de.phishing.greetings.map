@@ -208,7 +208,8 @@
 # Companies/Organizations
 /sehr geehrter? volksbank.?(kunde|kundin)/i
 
-/sicherheitsupdate erforderlich.{1,10}sehr geehrter?/i
+/sicherheitsupdate erforderlich.{1,10}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/i
+/sicherheitsmitteilung.{1,15}konto.{1,10}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/i
 
 # T
 

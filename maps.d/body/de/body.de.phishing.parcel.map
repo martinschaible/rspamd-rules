@@ -99,10 +99,11 @@
 /(paket|sendung).{1,15}sich im.{1,15}(distributions|verteil).{1,15}befindet/i
 /(paket|sendung).{1,15}werden dem importeur/iu
 
-/(paket|sendung).{1,10}wurde bearbeitet.{1,10}ist auf dem weg/i
+/(paket|sendung).{1,10}wurde.{1,10}bearbeitet.{1,10}ist auf dem weg/i
 /(paket|sendung).{1,20}wurde.{1,10}eine unstimmigkeit festgestellt/i
-/(paket|sendung).{1,10}wurde erfolgreich im verteilzentrum/i
+/(paket|sendung).{1,10}wurde.{1,10}erfolgreich im verteilzentrum/i
 /(paket|sendung).{1,15}wurde.{1,20}in der schweiz (verarbeitet|zugestellt)/i
+/(paket|sendung).{1,15}wurde.{1,10}verzollung vorgelegt/i
 
 /(paket|sendung).{1,15}zurückbehalten.{1,25}nur für die nächsten/iu
 
@@ -116,6 +117,8 @@
 /sie um eine.{1,10}(geringe|kleine).{1,10}(bearbeitungspauschale|servicegebühr|zustellgebühr)/iu
 
 /sie müssen eine geringe.{1,10}gebühr entrichten/iu
+
+/steuer.{1,10}vorauszahlungsgebühr/iu
 
 # T
 
