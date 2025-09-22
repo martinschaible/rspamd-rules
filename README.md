@@ -280,6 +280,7 @@ sender
   ├─ sender.from.orgbrandprod.map                ─┐
   ├─ sender.from.people.map                       ├─ multimap.sender.from.conf
   ├─ sender.from.special.map                      │
+  ├─ sender.from.special.emoji.map                │ X
   ├─ sender.from.title.map                       ─┘
   │
   ├─ de
