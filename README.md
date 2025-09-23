@@ -228,6 +228,7 @@ body
   │   ├─ body.de.phishing.rewards.map             │
   │   ├─ body.de.phishing.rewards.products.map    │ X
   │   ├─ body.de.phishing.sale.map                │ X
+  │   ├─ body.de.phishing.security.map            │ X
   │   ├─ body.de.phishing.subscription.map        │
   │   ├─ body.de.phishing.survey.map              │
   │   ├─ body.de.phishing.wallet.map             ─┘
@@ -341,6 +342,7 @@ subject
   │   ├─ subject.de.phishing.rewards.map          │
   │   ├─ subject.de.phishing.rewards.products.map │ X
   │   ├─ subject.de.phishing.sale.map             │ X
+  │   ├─ subject.de.phishing.security.map         │ X
   │   ├─ subject.de.phishing.survey.map           │
   │   ├─ subject.de.phishing.wallet.map          ─┘
   │   │
