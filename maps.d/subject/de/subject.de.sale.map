@@ -100,6 +100,8 @@
 # Hiring People
 # ------------------------------------------------------------------------------
 /(arbeiter|arbeitskräfte|fachkräfte|hilfspersonal|personalsuche|vermittlung|zeitarbeit).{1,15}(baltikum|litauen)/iu
+
+/(arbeiter|arbeitskräfte|fachkräfte|hilfspersonal|personalsuche|vermittlung|zeitarbeit).{1,15}ab.{1,10}(chf|euro)/iu
 /(arbeiter|arbeitskräfte|fachkräfte|hilfspersonal|personalsuche|vermittlung|zeitarbeit).{1,10}für ihre.{1,15}projekte/iu
 /(arbeiter|arbeitskräfte|fachkräfte|hilfspersonal|personalsuche|vermittlung|zeitarbeit).{1,10}für.{1,15}(logistik|produktion|verarbeitung)/i
 

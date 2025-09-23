@@ -53,7 +53,7 @@
 /(photo.?voltaik|pv|solar).?anlagen?.{1,20}(extrem|finden|gewerbe|günstig|häuser|nulltarif|tiefstand)/iu
 /(photo.?voltaik|pv|solar).?anlagen?.{1,20}(komplettpreis|tiefstand|tiefstpreise)/iu
 /(photo.?voltaik|pv|solar).?anlagen?.{1,20}massiv im preis gefallen/i
-/(photo.?voltaik|pv|solar).?anlagen?.{1,20}mit speicher.{1,10}(für nur|schon ab)/iu
+/(photo.?voltaik|pv|solar).?anlagen?.{1,20}mit speicher.{1,10}(ab \d{2,3}|für nur|schon ab)/iu
 
 /photo.?voltaik lohnt sich.{1,10}prüfen sie/iu
 /(photo.?voltaik|pv|solar).?vorteil/i

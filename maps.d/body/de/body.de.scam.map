@@ -57,7 +57,7 @@
 # ------------------------------------------------------------------------------
 # -> They are stealing personal information
 
-/förderung(en)?.{1,10}(anzeigen|belohnt|berechnen)/iu
+/förderung(en)?.{1,10}(anzeigen|belohnt|berechnen|prüfen)/iu
 /förderung(en)?.{1,10}garantierte einnahmen/i
 /förderung(en)?.{1,10}die sich wirklich lohnen/iu
 /förderung(en)?.{1,10}nur wenige tage/iu
@@ -74,12 +74,15 @@
 /photo.?voltaik.{1,10}ihre entscheidungshilfe/i
 /photo.?voltaik.{1,10}lohnt sich.{1,10}(auch für sie|mehr denn je)/iu
 
+/(anlage|photo.?voltaik) mit speicher ab \d{2,3}/iu
 /beste.{1,10}(photo.?voltaik|pv|solar).?anlage.{1,10}/iu
 /preise für.{1,10}(photo.?voltaik|pv|solar).?anlage.{1,10}sind derzeit/iu
 
 /jetzt.{1,10}förderungen (ansehen|prüfen)/iu
 /jetzt.{1,10}kostenlose?.{1,10}(analyse starten|berechnen lassen|vergleichen)/i
-/(jetzt|vergleichen).{1,10}förderungen.{1,10}(prüfen|sichern)/iu
+/jetzt.{1,10}photovoltaik.{1,15}(besonders|günstig).{1,15}starten/i
+
+/(jetzt|vergleichen).{1,10}förderungen.{1,15}(prüfen|sichern)/iu
 
 /klicks erfahren sie.{1,10}wie viel.{1,15}sie/i
 /mit unserem.{1,15}online.?rechner erhalten sie in wenigen/i
