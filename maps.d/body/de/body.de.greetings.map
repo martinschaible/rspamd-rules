@@ -41,6 +41,18 @@
 # F
 
 # G
+/grüße.{1,15}antworten sie auf meine/iu
+/grüße.{1,10}diese.{1,10}e?.?mail/iu
+/grüße.{1,10}(geliebte|gewinner|mein lieber)/i
+/grüße.{1,5}ich bin/i
+/grüße.{1,10}ich hoffe.{1,10}es geht ihnen gut/i
+/grüße.{1,10}in bester gesundheit/iu
+/grüße.{1,10}mein.{1,10}name.ist/iu
+/grüße.{1,10}meine? (lieben|lieber)/iu
+/grüße.{1,10}wir freuen uns/iu
+
+/gruß.{1,10}geliebte/i
+
 /guten (abend|morgen|tag).{1,10}begünstigter/iu
 /guten (abend|morgen|tag).{1,10}bitcoin/i
 /guten (abend|morgen|tag).{1,10}dies ist die ankündigung/iu
@@ -57,6 +69,7 @@
 /guten (abend|morgen|tag).{1,10}ich brauche ihre hilfe/i
 /guten (abend|morgen|tag).{1,10}ich hoffe.{1,10}dieser?.{1,10}(brief|e?.?mail|nachricht)/i
 
+/guten (abend|morgen|tag).{1,10}ich.{1,35}spende ihnen/i
 /guten (abend|morgen|tag).{1,10}kann ich sie kontaktieren/i
 /guten (abend|morgen|tag).{1,10}kontoinhaber/i
 /guten (abend|morgen|tag).{1,10}lieber?.{1,15}(kunde|kundin)/i
