@@ -40,7 +40,7 @@
 /(glückwunsch|hallo).{1,10}ihre.{1,10}e?.?mail?adresse gehört zu den glücklichen/i
 /(glückwunsch|hallo).{1,10}sie gehören zu den glücklichen.{1,10}gewinnern/iu
 
-/gewinn.{1,10}ein brandneues/i
+/gewinn.{1,10}(das|ein) brandneues?/i
 /gewinn.{1,10}jetzt beanspruchen/i
 /gewinn.{1,10}schnellstmöglich bei ihnen eintrifft/iu
 /gewinn.{1,10}unwiderruflich an eine/i
@@ -84,6 +84,7 @@
 
 # S
 /sie gehören zu den.{1,10}gewinnern/iu
+/sie sind einer der.{1,10}gewinner/i
 
 /sie haben ein brandneues.{1,20}gewonnen/i
 

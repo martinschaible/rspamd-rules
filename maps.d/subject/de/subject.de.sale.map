@@ -99,11 +99,11 @@
 
 # Hiring People
 # ------------------------------------------------------------------------------
-/(arbeiter|arbeitskräfte|fachkräfte|hilfspersonal|personalsuche|vermittlung|zeitarbeit).{1,15}(baltikum|litauen)/iu
+/(arbeiter|arbeitskräfte|fachkräfte|hilfspersonal|mitarbeiter|personalsuche|vermittlung|zeitarbeit).{1,15}(baltikum|litauen|slowakei|tschechien)/iu
 
-/(arbeiter|arbeitskräfte|fachkräfte|hilfspersonal|personalsuche|vermittlung|zeitarbeit).{1,15}ab.{1,10}(chf|euro)/iu
-/(arbeiter|arbeitskräfte|fachkräfte|hilfspersonal|personalsuche|vermittlung|zeitarbeit).{1,10}für ihre.{1,15}projekte/iu
-/(arbeiter|arbeitskräfte|fachkräfte|hilfspersonal|personalsuche|vermittlung|zeitarbeit).{1,10}für.{1,15}(logistik|produktion|verarbeitung)/i
+/(arbeiter|arbeitskräfte|fachkräfte|hilfspersonal|mitarbeiter|personalsuche|vermittlung|zeitarbeit).{1,15}ab.{1,10}(chf|euro)/iu
+/(arbeiter|arbeitskräfte|fachkräfte|hilfspersonal|mitarbeiter|personalsuche|vermittlung|zeitarbeit).{1,10}für ihre.{1,15}projekte/iu
+/(arbeiter|arbeitskräfte|fachkräfte|hilfspersonal|mitarbeiter|personalsuche|vermittlung|zeitarbeit).{1,10}für.{1,15}(logistik|produktion|verarbeitung)/i
 
 /anfrage.{1,10}personalunterstützung/iu
 /arbeiter aus (europa|europe)/i
@@ -114,6 +114,8 @@
 /ihr personalbedarf/i
 /leiharbeiter finden/i
 /litauische arbeiter/i
+
+/neue mitarbeiter aus der/i
 
 /sie suchen arbeitskräfte/iu
 /suchen?.{1,10}qualifizierten handwerkern/i

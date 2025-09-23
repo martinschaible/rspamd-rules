@@ -76,6 +76,7 @@
 /(action|update) (needed|required).{1,30}new (important|notifications?)/i
 /(action|update) (needed|required).{1,10}notice of/i
 
+/(action|update) (needed|required).{1,10}password expiration bulletin/i
 /(action|update) (needed|required).{1,20}payment update/i
 /(action|update) (needed|required).{1,15}prevent account/i
 

@@ -38,6 +38,7 @@
 /exklusiver.{1,10}(gewinn|preis).{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/iu
 /(paket mit|prämie).{1,10}(airpods|apple|ipad|iphone|macbook)/iu
 
+/sehr geehrter.{1,15}(airpods|apple|ipad|iphone|macbook)/iu
 /sichern sie sich.{1,10}(airpods|apple|ipad|iphone|macbook)/iu
 /sie wartet ein.{1,10}(airpods|apple|ipad|iphone|macbook)/iu
 
@@ -84,6 +85,7 @@
 /einlöse.?link/i
 
 /erhalten eine.{1,10}mystery.?box/i
+/erhalten.{1,10}benötigen wir eine kurze bestätigung/iu
 
 /(exklusive?|rituals).{1,10}mystery.?box/i
 

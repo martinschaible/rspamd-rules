@@ -70,7 +70,7 @@
 /(entscheiden sie|exklusiver preis).{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
 /(gewinn|glückwunsch|gratulation).{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/iu
 /nur heute.{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
-/(umfrage|unglaublich.{1,20}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
+/(umfrage|unglaublich).{1,20}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
 
 /holen sie sich.{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
 
@@ -90,6 +90,7 @@
 /sichern sie (ihre|sich).{1,15}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
 /sie haben ein.{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
 
+/(paket|sendung).{1,10}ist unterwegs.{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
 /(gewinnen sie das|gratis).{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
 
 #
@@ -482,4 +483,5 @@
 # Y
 
 # Z
+/zu den herausragenden teilnehmern/i
 /zu sichern!/i
