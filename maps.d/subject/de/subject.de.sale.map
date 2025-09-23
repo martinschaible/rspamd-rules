@@ -67,7 +67,6 @@
 /(anfragen|jetzt|passende).{1,10}(elektrofahrrad|elektrofahrrädern?|elektromotorrad)/i
 /(distributor|geschäft|händler).{1,10}(elektrofahrrad|elektrofahrrädern?|elektromotorrad)/iu
 
-
 /(auf ein|faltbarefortbewegung|kauf|kraftvoll|neues).{1,15}(e.?bike|elektro.?moped)/iu
 /(rabatt|unschlagbare?|unser|über|zuverlässig(er)?).{1,15}(e.?bike|elektro.?moped)/iu
 /\d (elektrofahrrad|elektrofahrrädern?|elektromotorrad)/i
@@ -92,6 +91,11 @@
 /moped style/i
 
 /metro.{1,5}rider/i
+
+#
+/aus deutschem lager/i
+/direkt(versand)? aus deutschland/i
+/(direktversand|lieferung).{1,10}zoll/i
 
 # Hiring People
 # ------------------------------------------------------------------------------

@@ -55,6 +55,7 @@
 /(konto|profil).{1,15}innerhalb der nächsten.{1,10}Stunden zu bestätigen/iu
 /(konto|profil).{1,15}sicher zu halten.{1,10}ist eine identitätsbestätigung/iu
 /(konto|profil).{1,15}vorübergehend eingeschränkt/iu
+/(konto|profil).{1,15}wird aufgrund eines.{1,20}fehlers/i
 /(konto|profil).{1,15}wurden einige funktionen vorübergehend eingeschränkt/iu
 /(konto|profil).{1,15}zu überprüfen und auf.{1,10}nachrichten/iu
 
@@ -85,6 +86,7 @@
 /sicherstellung des schutzes ihres.{1,15}kontos/i
 
 /sie gebeten.{1,10}sich.{1,10}zu identifizieren/i
+/sie ihr.{1,15}(konto|profil) aktualisieren/i
 /sie sämtlichen angeforderten anweisungen folgen/i
 
 # T
