@@ -160,7 +160,10 @@
 /important.{1,10}account (alert|update)/i
 /important.{1,10}authentication notification/i
 /important.{1,10}e?.?mail.{1,10}do not ignore/i
+
+/important.{1,10}information.{1,15}security/i
 /important.{1,10}information.{1,15}your.{1,15}(account|profile)/i
+
 /important.{1,10}tax document/i
 
 /important mailbox/i
@@ -252,7 +255,8 @@
 /report.{1,10}incoming messages/i
 
 # S
-/secure.{1,10}(update|upgrade).{1,10}required/i
+/(secure|security).{1,10}(action|update|upgrade).{1,10}identity confirmation/i
+/(secure|security).{1,10}(action|update|upgrade).{1,10}required/i
 
 /security (alert|notice).{1,10}action required/i
 /security (alert|notice).{1,10}funds/i

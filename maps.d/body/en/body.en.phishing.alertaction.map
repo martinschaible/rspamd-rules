@@ -52,8 +52,9 @@
 # I
 /(important|notice).{1,10}tax (details|document)/i
 
-/important notification.{1,10}we noticed.{1,10}recent update/i
-/important security update.{1,10}dear valued customer/i
+/important.{1,10}information.{1,15}security/i
+/important.{1,10}notification.{1,10}we noticed.{1,10}recent update/i
+/important.{1,10}security update.{1,10}dear valued customer/i
 
 # J
 
@@ -77,7 +78,8 @@
 /review required.{1,10}your.{1,15}account was/i
 
 # S
-/secure.{1,10}/(update|upgrade).{1,10}required/i
+/(secure|security).{1,10}(action|update|upgrade).{1,10}identity confirmation/i
+/(secure|security).{1,10}(action|update|upgrade).{1,10}required/i
 
 # T
 
