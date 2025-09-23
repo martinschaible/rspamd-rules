@@ -50,6 +50,8 @@
 /(brochure|catalog|catalogue).{1,10}price list.{1,10}payment method/i
 
 # C
+/can I get prices for the attached/i
+
 /catalog is of interest.{1,10}contact us/i
 
 /details about your business/i

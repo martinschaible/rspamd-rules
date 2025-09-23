@@ -66,8 +66,11 @@
 # ==============================================================================
 
 #
-/2500.{1,10}pro monat/i
 /(\d{3,4}|euro).{1,10}nebeneinkommen/i
+
+/2500.{1,10}pro monat/i
+/250.?(€|euro).{1,10}einzuzahlen/i
+
 /(€|euro) verdienen können/iu
 
 # A

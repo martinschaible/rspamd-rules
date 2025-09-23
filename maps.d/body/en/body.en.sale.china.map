@@ -53,7 +53,7 @@
 # K
 
 # L
-/(leading|trusted).{1,10}(pcba?|printed.?circuit.?board).{1,10}factory/i
+/(leading|trusted|your).{1,10}(pcba?|printed.?circuit.?board).{1,10}(factory|supplier)/i
 /(leading|trusted).{1,10}partner to oem/i
 
 /(limited|ltd).{1,10}(specializes in|we are major)/i

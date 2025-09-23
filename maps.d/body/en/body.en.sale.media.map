@@ -25,7 +25,9 @@
 /acquired.{1,10}event attendees/i
 
 /available.{1,10}guest posts?/i
+
 # B
+/buy traffic today/i
 
 # C
 /came across your instagram/i
@@ -90,7 +92,7 @@
 # R
 
 # S
-/supercharge your sales/i
+/supercharge your.{1,10}(online|sales)/i
 
 /specializing.{1,10}guest.?posts/i
 # T
@@ -98,6 +100,7 @@
 /(targeted|verified).{1,15}databases?.{1,10}businesses.{1,10}operating/i
 /(targeted|verified).{1,15}e?.?mail.{1,10}(databases?|leads?|lists?)/i
 /(targeted|verified).{1,15}list.{1,10}decision.?makers/i
+/(targeted|verified).{1,15}visitors.{1,10}for just/i
 
 /targeted.{1,15}e?.?mail.{1,10}campaigns.{1,10}generate/i
 
@@ -105,6 +108,7 @@
 /unrestricted.{1,10}bulk mailing/i
 
 # V
+/visitors only.{1,10}no bots/i
 
 # W
 /we are able.{1,10}grow.{1,10}followers/i
