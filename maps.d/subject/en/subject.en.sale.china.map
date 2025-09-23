@@ -85,6 +85,7 @@
 /custom.{1,10}(bags?|cap|machined parts|metal stamping)/i
 /(custom|excellent).{1,10}(pcba?|printed.circuits?.board)/i
 /custom.{1,10}products? manufacturing/i
+/custom.{1,10}printing solutions?/i
 /custom.{1,10}transformer.{1,10}manufacturer/i
 
 /customized.{1,10}(mannequins|metal solutions)/i
@@ -108,7 +109,7 @@
 /(explore|discover).{1,10}our.{1,10}distinctive/i
 /(explore|discover).{1,10}quality.{1,10}(bags|backpacks)/i
 
-/electronic components?.{1,10}(stock|supplier|supply)/i
+/electronic components?.{1,10}(distributor|stock|supplier|supply)/i
 /electronic components?.{1,10}you need/i
 
 /^electronic components$/i
@@ -278,6 +279,8 @@
 /prototype (manufacturer?|mould)/i
 
 # Q
+/quality.{1,10}paper.{1,10}(bags|boxes)i
+
 /quotation.{1,15}(multilayer)?.{1,10}(pcba?|printed.?circuits?.?board)/i
 /quotation.{1,15}injection mold/i
 
@@ -326,8 +329,8 @@
 /supplier.{1,10}mold.?products/i
 /supplier.{1,10}who can serve/i
 
-/supply steel plates/i
-/supplying.{1,15}(electronic|quality).{1,15}components/i
+/supply(ing)?{1,15}(electronic|quality).{1,15}components/i
+/supply(ing)?{1,15}steel plates/i
 
 # T
 /toolmaking services.{1,10}china/i

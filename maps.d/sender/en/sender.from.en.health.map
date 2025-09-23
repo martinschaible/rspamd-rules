@@ -100,7 +100,7 @@
 /healthy?.{0,10}(insider|insights)/i
 /healthy?.{0,10}(liver|mornings?|now|power)/i
 /healthy?.{0,10}research/i
-/healthy?.{0,10}(secret|smile|spine|start)/i
+/healthy?.{0,10}(secret|skin|smile|spine|start)/i
 /healthy?.{0,10}(transformation|vibes|wire)/i
 
 /(american|daily|insider|intimate|mens|simple|womens).{0,10}health/i
@@ -742,7 +742,7 @@
 /overnight.{0,10}(hack|trick)/i
 
 # P
-/pain.{0,10}reset/i
+/pain.{0,10}(culprit|reset)/i
 /painful.{0,10}piles/i
 /pancreas.{0,10}reset/i
 /passion.{0,10}tea/i
@@ -857,7 +857,7 @@
 
 /skin.{0,10}(alert|fix|sculptor)/i
 
-/sleep.{0,10}(age|discovery|hack|health|mistake|position|reset)/i
+/sleep.{0,10}(age|discovery|hack|health|memory|mistake|position|reset)/i
 /sleep.{0,10}(shortcut|slim|solution|trick)/i
 
 /slim.{0,10}diet/i
@@ -929,6 +929,7 @@
 /tap your/i
 
 /thanksgiving.{0,10}delight/i
+/the.{0,10}pain/i
 
 /thicker.{0,10}harder/i
 /thin(ning)?.{0,10}hair/i
