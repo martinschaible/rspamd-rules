@@ -26,7 +26,7 @@
 # A
 /aktivitäten vorübergehend geschlossen/iu
 
-/aktualisierung.{1,10}kontosicherheit/i
+/aktualisierung.{1,10}(kontosicherheit|zahlungsangaben)/i
 
 /anderes gerät ist mit ihrem.{1,15}konto/iu
 
@@ -61,6 +61,7 @@
 /(eingeschränkten|eingeschränkter) zugriff auf ihr.{1,15}konto/iu
 
 # F
+/funktionen.{1,15}konto aktualisieren/i
 
 # Too generic
 #/für ihr.{1,15}(konto|profile)/i

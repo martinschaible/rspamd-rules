@@ -45,6 +45,8 @@
 # H
 /(haupt)?gewinnern? unserer.{1,15}umfrage/i
 
+/nur heute.{1,15}umfrage ausfüllen/iu
+
 # I
 #/ihre.{1,10}(meinung|teilnahme) zählt/i
 /ihre.{1,10}(meinung|teilnahme) bei.{1,20}hat wirkung/i

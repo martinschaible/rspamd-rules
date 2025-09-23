@@ -51,7 +51,7 @@
 /(airpods|apple|ipad|iphone|macbook|watch ultra).{1,15}exklusiv (bei|für)/i
 
 /(airpods|apple|ipad|iphone|macbook|watch ultra).{1,15}für kurze zeit verfügbar/iu
-/(airpods|apple|ipad|iphone|macbook|watch ultra).{1,15}für nur \d (chf|euro)/iu
+/(airpods|apple|ipad|iphone|macbook|watch ultra).{1,15}für.{1,10}\d (chf|euro)/iu
 /(airpods|apple|ipad|iphone|macbook|watch ultra).{1,15}für nur (chf|euro) \d/iu
 /(airpods|apple|ipad|iphone|macbook|watch ultra).{1,15}für sie reserviert/iu
 
@@ -70,7 +70,7 @@
 /(entscheiden sie|exklusiver preis).{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
 /(gewinn|glückwunsch|gratulation).{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/iu
 /nur heute.{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
-/unglaublich.{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
+/(umfrage|unglaublich.{1,20}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
 
 /holen sie sich.{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
 
