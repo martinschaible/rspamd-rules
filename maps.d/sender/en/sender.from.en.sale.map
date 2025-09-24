@@ -149,6 +149,7 @@
 /(gogo|portable|small).{0,10}(heater|heating)/i
 
 # H
+/handheld.{0,10}vacuum/i
 /health(care)?.{0,10}enrollment/i
 
 /heating.{0,10}(bill|system)/i
@@ -196,6 +197,8 @@
 # N
 /next.?gen.{0,10}flight/i
 /night.{0,10}(balance|drive|driving|vision)/i
+
+/non.?stick.{0,10}pan/i
 
 # O
 /offers?.{0,10}program/i
@@ -284,6 +287,7 @@
 /tiny.{0,10}(camera|drone|phone|projector)/i
 
 /top.{0,10}(device|watche(es)?)/i
+/top.{0,10}rolex/i
 
 # U
 /ultimate.{0,10}offers?/i

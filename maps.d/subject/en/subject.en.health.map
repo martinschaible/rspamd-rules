@@ -157,7 +157,7 @@
 /ancient.{1,10}(drink|formula|herb|tea|tonic)/i
 /annoying ear buzzing/i
 
-/anti.?aging.{1,10}(bottle|breakthrough)/i
+/anti.?aging.{1,15}(bottle|breakthrough|extract|unveiled)/i
 /anti.{1,10}inflammatory recipe/i
 
 /anti.{1,10}inflammatory food/i
@@ -628,11 +628,14 @@
 
 /never eat these/i
 
+/new.{1,10}anti.?aging/i
 /new.{1,10}harvard discovery/i
 /new.{1,10}nerve relief/i
 /new way.{1,10}eliminate/i
 
-/no gym.{1,10}no bs/i
+/no (exercise|gym).{1,15}secret/i
+/no (exercise|gym).{1,10}no bs/i
+
 /no joint pain/i
 /no more ibuprofen/i
 /no pills.{1,10}no side effects/i
