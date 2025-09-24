@@ -46,6 +46,7 @@
 
 /(i|we) have.{1,15}(business|investment).{1,15}(offer|opportunity|proposition|proposal|transaction)/i
 /(i|we) have.{1,15}(confidential|genuine|lucrative).{1,15}(business|offer|opportunity|proposition|proposal|transaction)/i
+/(i|we) have.{1,10}obligation.{1,10}that.{1,10}would like you/i
 /(i|we) have.{1,15}(profitable|urgent).{1,15}(business|offer|opportunity|proposition|proposal|transaction)/i
 
 /it is legitimate.{1,15}risk free/i
@@ -62,6 +63,7 @@
 # N
 
 # O
+/obligation.{1,10}i would like us to complete/i
 
 # P
 /partner with you.{1,15}let me know if you/i

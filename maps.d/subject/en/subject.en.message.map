@@ -102,7 +102,7 @@
 # M
 /^message for you$/i
 
-/my previous.{1,10}(e?.?mail|message).{1,10}received/i
+/my (last|previous).{1,10}(e?.?mail|message).{1,10}(delivered|received)/i
 
 # N
 /^new email/i
@@ -116,7 +116,9 @@
 /please read/i
 /please send reply to/i
 
+/previous.{1,10}(e?.?mail|message).{1,10}confirmation/i
 /previous.{1,10}(e?.?mail|message).{1,10}get delivered/i
+
 /private (letter|message).{1,10}follow up/i
 /private (letter|message)$/i
 

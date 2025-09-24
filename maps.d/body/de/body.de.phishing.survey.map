@@ -87,7 +87,8 @@
 /sie.{1,10}eine kurze umfrage/i
 
 # T
-/teilnahme.{1,5}link/i
+/teilnahme.{0,5}link/i
+/teilnahme dauert.{1,15}minuten.{1,10}als dank erhalten sie/i
 
 # U
 /um.{1,15}kurzen.{1,10}(befragung|feedback|umfrage) von.{1,25}teilzunehmen/i

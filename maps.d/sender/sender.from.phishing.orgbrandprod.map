@@ -682,7 +682,7 @@
 # T
 # ------------------------------------------------------------------------------
 /tcs.?car/i
-/tcs.{0,10}kundenservice/i
+/tcs.{0,10}(kundenservice|mitglieder)/i
 
 /team_/i
 /team.{0,10}(account|paletten?)/i

@@ -73,6 +73,9 @@
 # X
 
 # Y
+/you will be awarded.{1,15}(dollars?|euro?|usd|€|\$|£)/i
+/you will be awarded.{1,15}million/i
+
 /your fund.{1,10}\d{2,4}(\.|,)?\d{3,4}/i
 
 # Z

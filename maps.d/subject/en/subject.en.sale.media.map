@@ -53,14 +53,14 @@
 # C
 /customized list.{1,10}education/i
 
-/collaboration.{1,15}users list/i
-
+/collaboration.{1,15}users (database|list)/i
+/complete visitor.{1,10}(database|list)/i
 /contact list of.{1,15}stores/i
 
 /(customers|visitors) database/i
 
 # D
-/database.{1,10}(germany|switzerland).{1,15}companies/i
+/(database|list).{1,10}(germany|switzerland).{1,15}companies/i
 
 /digital marketing.{1,10}proposal/i
 
@@ -99,7 +99,7 @@
 
 /instagram.{1,10}(marketing|service)/i
 
-/interested in the.{1,15}visitor list/i
+/interested in the.{1,15}visitor (database|list)/i
 
 # J
 

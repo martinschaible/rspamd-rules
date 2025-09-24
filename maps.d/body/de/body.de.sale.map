@@ -41,6 +41,11 @@
 # K -
 /(komfort|komfortable|praktische).{1,20}(büro|dreh).?(stuhl|stühle)/iu
 
+# Coffee machines
+# ------------------------------------------------------------------------------
+/kaffee.?vollautomat(en)?.{1,10}firmen/i
+/firmen.{1,10}kaffee.?vollautomat(en)?/i
+
 # E-Bikes
 # ------------------------------------------------------------------------------
 /(neues|premium|unser).{1,15}(e.?bike|elektro.?moped)/i

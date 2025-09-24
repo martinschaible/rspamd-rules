@@ -21,7 +21,7 @@
 
 # TLD at the front
 /\.[a-z]{1,4}.{1,5}(admin$|administrator|cpanel|helpdesk|postmaster|security|server|support|update)/i
-/\.[a-z]{1,4}.{1,5}mail.?(notification|service|system)/i
+/\.[a-z]{1,4}.{1,5}mail.?(notification|portal|service|system)/i
 /\.[a-z]{1,4}.{1,5}it.?team/i
 
 /\.[a-z]{1,4}.{1,5}security.?center/i
