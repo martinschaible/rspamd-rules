@@ -193,6 +193,7 @@
 /(hello|hi).{1,5}(dear|friend|manager).{1,10}good day/i
 /(hello|hi).{1,5}(dear|friend|manager).{1,10}my name  is/i
 /(hello|hi).{1,5}(dear|friend|manager).{1,10}hope this.{1,10}(e?.?mail|message) finds/i
+/(hello|hi).{1,5}(dear|friend|manager).{1,10}i am.{5,35}this is to officially inform you/i
 /(hello|hi).{1,5}(dear|friend|manager).{1,10}i came across/i
 /(hello|hi).{1,5}(dear|friend|manager).{1,10}please quote us/i
 
