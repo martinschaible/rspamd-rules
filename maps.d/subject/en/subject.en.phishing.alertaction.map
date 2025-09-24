@@ -126,6 +126,7 @@
 /compliance (notice|reminder).{1,10}(complete|finalize).{1,15}(identity|verification)/i
 /compliance (notice|reminder).{1,10}verify your/i
 
+/confirm access immediately/i
 /confirm ownership of.{1,20}@/i
 
 /critical security alert/i
@@ -259,6 +260,7 @@
 /(secure|security).{1,10}(action|update|upgrade).{1,10}required/i
 
 /security (alert|notice).{1,10}action required/i
+/security (alert|notice).{1,10}confirm access/i
 /security (alert|notice).{1,10}funds/i
 /security (alert|notice).{1,25}immediate action needed/i
 /security (alert|notice).{1,10}verify your.{1,15}account/i
