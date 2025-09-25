@@ -440,7 +440,7 @@
 /(dead(ly)?|death).{0,10}(drink|foods?|metabolism|veggies?|water)/i
 /(dead|deep).{0,10}cleansing/i
 
-/dental.{0,10}(alert|issues?|repair|rescue|trick|work)/i
+/dental.{0,10}(advisor|alert|issues?|repair|rescue|trick|work)/i
 
 /desire.{0,10}revival/i
 
@@ -560,7 +560,8 @@
 /grow.{0,10}(hair|trick)/i
 
 /gum.{0,10}(bleeding|disease|health|saver)/i
-/gut.{0,10}(balance|check|cleanse|fix|flush|health|insider|quiz|reboot|repair|reset|solution|trick)/i
+
+/gut.{0,10}(balance|check|cleanse|fix|flush|health|insider|quiz|reboot|repair|reset|rituals?|solution|trick)/i
 
 # H
 /hair.{0,5}(balding|enhancer|experts?|growth|loss)/i

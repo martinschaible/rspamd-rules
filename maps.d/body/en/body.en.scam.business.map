@@ -20,6 +20,7 @@
 
 # B
 /benefits?.{1,10}please get back/i
+/(beneficial|mutually).{1,10}let me know/i
 
 /(business|proposal|transaction).{1,10}discuss with you/i
 /(business|proposal|transaction).{1,10}(for|with) you/i
@@ -64,6 +65,8 @@
 
 # O
 /obligation.{1,10}i would like us to complete/i
+
+/opportunity.{1,10}could be mutually beneficial/i
 
 # P
 /partner with you.{1,15}let me know if you/i

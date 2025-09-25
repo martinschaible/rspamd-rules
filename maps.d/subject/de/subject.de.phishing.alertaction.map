@@ -145,6 +145,8 @@
 /bitte beachten.{1,10}handlungsbedarf/i
 /bitte beachten sie.{1,10}ihre.{1,20}muss/i
 
+/bitte online.?zahlung.{1,10}bestätigen/iu
+
 # C
 
 # D
@@ -519,11 +521,13 @@
 /wichtige?.{1,15}hinweis?.{1,10}zur datensicherheit/i
 
 #/wichtige?.{1,15}informationen/i
-/wichtige?.{1,15}information.{1,10}ihr online.?banking/i
-/wichtige?.{1,15}information.{1,10}ihre domain läuft bald ab/i
-/wichtige?.{1,15}information.{1,10}ihrer rechnung/i
-/wichtige?.{1,15}information.{1,10}unternehmensdaten aktualisieren/i
-/wichtige?.{1,15}information.{1,10}zahlung von/i
+/wichtige info(rmation)?.{1,10}zur lieferung.{1,20}zahlung/i
+
+/wichtige?.{1,15}info(rmation)?.{1,10}ihr online.?banking/i
+/wichtige?.{1,15}info(rmation)?.{1,10}ihre domain läuft bald ab/i
+/wichtige?.{1,15}info(rmation)?.{1,10}ihrer rechnung/i
+/wichtige?.{1,15}info(rmation)?.{1,10}unternehmensdaten aktualisieren/i
+/wichtige?.{1,15}info(rmation)?.{1,10}zahlung von/i
 
 /wichtige?.{1,15}kontofunktion(en)?/i
 /wichtige?.{1,15}kontowarnung/i

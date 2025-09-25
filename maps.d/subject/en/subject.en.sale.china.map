@@ -95,6 +95,7 @@
 /dependable.{1,10}(pcba?|printed.?circuits?.?board).{1,10}partner/i
 
 /die casting solutions/i
+/direct manufacturer of/i
 /discuss.{1,10}(pcba?|printed.?circuits?.?board).{1,10}products/i
 
 /distribution.{1,15}manufactory/i
@@ -234,9 +235,11 @@
 /offers? for rectifiers/i
 
 /one.?stop.{1,10}(pcba?|printed.?circuits?.?board)?/i
-/our advanced.{1,10}(pcba?|printed.?circuits?.?board)?/i
-/our high.?quality.{1,10}(pcba?|printed.?circuits?.?board)?/i
-/our wide range of/i
+
+/our.{1,10}advanced.{1,10}(pcba?|printed.?circuits?.?board)?/i
+/our.{1,10}paper.?bag solutions/i
+/our.{1,10}high.?quality.{1,10}(pcba?|printed.?circuits?.?board)?/i
+/our.{1,10}wide range of/i
 
 # P
 /passive.{1,10}component broker/i
