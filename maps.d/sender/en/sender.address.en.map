@@ -14,7 +14,7 @@
 # Sample: Sales098@topmail.com
 /(girl|info|invest|lifestyle|local)\d{1,10}@/i
 /marketing\d{1,10}@/i
-/(sales|suite|support|system)\d{1,10}@/i
+/(sales|sender|suite|support|system)\d{1,10}@/i
 
 # Sample: marketing8989ptm@
 /marketing\d{1,10}[a-z]{1,5}@/i

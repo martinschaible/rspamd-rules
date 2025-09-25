@@ -199,6 +199,8 @@
 /^coop$/i
 /\| coop$/i
 
+/coop.{0,10}team/i
+
 /communication.{0,10}wix/i
 
 /confirmation.{0,10}temu/i

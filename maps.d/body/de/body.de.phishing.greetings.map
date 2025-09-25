@@ -27,6 +27,8 @@
 /aktualisieren sie ihre daten.{1,10}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/i
 /(abonnement|anmeldedaten).{1,15}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/i
 
+/abonnementverlängerung.{1,15}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/iu
+
 /anmeldung festgestellt.{1,15}guten (abend|morgen|tag)/i
 
 # B
@@ -178,6 +180,7 @@
 
 /sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}verpflichtende aktualisierung/i
 /sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}wichtige nachricht an sie/i
+/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}wichtige sicherheitsinformation/i
 
 # 29.06.25 - Used by fake "EOS Deutscher Inkasso-Dienst GmbH" 
 /sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}wir kontaktieren sie im auftrag von/i
