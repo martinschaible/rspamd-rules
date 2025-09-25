@@ -70,6 +70,7 @@
 /(entscheiden sie|exklusiver preis).{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
 /(gewinn|glückwunsch|gratulation).{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/iu
 /nur heute.{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
+/nur \d (chf|euro).{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
 /(umfrage|unglaublich).{1,20}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
 
 /holen sie sich.{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
@@ -128,10 +129,11 @@
 
 /belohnung für deine meinung/iu
 
-/(belohnung|gewinn).{1,10}bereit zur freischaltung/i
-/(belohnung|gewinn).{1,10}erwartet dich/i
-/(belohnung|gewinn).{1,10}innerhalb von.{1,10}stunden/i
-/(belohnung|gewinn).{1,10}noch heute/i
+/(belohnung|geschenk|gewinn).{1,10}bereit zur freischaltung/i
+/(belohnung|geschenk|gewinn).{1,10}erwartet dich/i
+/(belohnung|geschenk|gewinn).{1,10}innerhalb von.{1,10}stunden/i
+/(belohnung|geschenk|gewinn).{1,10}noch heute/i
+/(belohnung|geschenk|gewinn).{1,10}wartet.{1,10}nur (chf|euro)/i
 
 #/(belohnung|gutschein).{1,10}(code|einlösen|erhalten|freigeschaltet|ist zum versenden|reserviert|wartet)/i
 /(belohnung|gewinn|lieferung).{1,10}(code|einlösen|erhalten|freigeschaltet|ist zum versenden|reserviert|wartet)/i
