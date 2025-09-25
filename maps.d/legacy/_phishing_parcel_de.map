@@ -150,8 +150,6 @@
 # Arrived somewhere
 # ------------------------------------------------------------------------------
 /(paket|sendung).{1,10}hat jetzt das zollamt erreicht/i
-/(paket|sendung).{1,10}ist im zielland eingetroffen/i
-/(paket|sendung).{1,10}ist in unserer.{1,15}postfiliale angekommen/i
 /(paket|sendung).{1,10}mit der bestellnummer/i
 /(paket|sendung).{1,10}zurzeit in unserem.{1,10}(distributions|verteil).?zentrum/i
 
