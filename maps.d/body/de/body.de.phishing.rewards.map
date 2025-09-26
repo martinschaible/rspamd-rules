@@ -110,8 +110,9 @@
 /ihre?.{1,15}(belohnung|geschenk|gutschein|gewinn|preis).{1,10}ist ein brandneues/i
 /ihre?.{1,15}(belohnung|geschenk|gutschein|gewinn|preis).{1,10}wurde bisher nicht eingelöst/iu
 
-/ihre.{1,10}exklusive belohnung/i
+/ihre.{1,10.}exklusive belohnung/i
 /ihre?.{1,15}prämie ist noch unbestätigt/iu
+/ihre.{1,10.}e.?mail.{1,10.}wurde unter.{1,10.}ausgewählt/iu
 
 /ihre kostenlose Prämie zu sichern/iu
  
