@@ -114,6 +114,7 @@
 /loan.{1,5}\d{2}\/\d{2}\/\d{2,4}/i
 
 /loan.{1,15}(approval|business|financing|projects|support)/i
+/loan.{1,15}apply now/i
 
 /loan.{1,10}at.{1,10}interest rate/i
 /loan.{1,10}debt.{1,10}financing/i
@@ -151,6 +152,7 @@
 # S
 /secure funding.{1,20}(business|expansion|project)i
 
+/send in your loan/i
 /simple.{1,10}diy solution/i
 /smart financing.{1,15}growth/i
 

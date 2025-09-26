@@ -74,8 +74,8 @@
 /auf nachricht antworten/i
 
 # B
-/bestätigung.{1,15}(e?.?mail|nachricht).{0,10}eingangs? bitten/iu
-/bestätigung des e.?mail.?eingangs/i
+/bestätigung.{1,15}(e?.?mail|nachricht).{0,10}eingangs?/iu
+/bestätigung des empfangs erbeten/i
 
 /(bestätigen sie|sie mir.{1,10}mitteilen).{1,15}(diese|ihre).{1,10}e?.?mail.{1,15}(aktiv|gültig) ist/iu
 /(bestätigen sie|sie mir.{1,10}mitteilen).{1,10}ob ihre e?.?mail.{1,15}(aktiv|gültig) ist/i
@@ -157,13 +157,13 @@
 
 # M
 /meine.{1,15}(e?.?mail|nachricht).{1,10}angekommen ist/i
-/meine.{1,15}(e?.?mail|nachricht).{1,10}bei ihnen eingegangen/i
+/meine.{1,15}(e?.?mail|nachricht).{1,10}bei ihnen (angekommen|eingegangen)/i
 /meine.{1,15}(e?.?mail|nachricht).{1,10}erfolgreich zugestellt/i
 /meine.{1,15}(e?.?mail|nachricht).{1,10}in ihrem posteingang/i
 /meine.{1,15}(e?.?mail|nachricht).{1,10}ist angekommen/i
 /meine.{1,15}(e?.?mail|nachricht).{1,10}übersehen/iu
 
-/meine vorherige nachricht/i
+/meiner? (letzte|vorherige).{1,10}(e?.?mail|nachricht)/i
 /(aktuelle|ihre).{1,20}mitteilung.{1,10}bitte prüfen/iu
 
 # N
@@ -187,7 +187,7 @@
 
 # R
 /rückmeldung.{1,15}e.?mail erhalten/iu
-/rückmeldung.{1,10}letzten.{1,10}e?.?mail/iu
+/rückmeldung.{1,10}letzten.{1,10}(e?.?mail|nachricht)/iu
 
 # S
 /(schauen sie sich|sieh dir) diese.{1,10}(e?.?mail|nachricht) an/i
@@ -201,8 +201,8 @@
 
 /sie haben.{1,10}ungelesene nachricht(en)?/i
 
-/sie meine.{1,15}e?.?mail.{1,10}(erhalten|gelesen)/i
-/sie meine.{1,15}e?.?mail.{1,10}übersehen haben/i
+/sie meine.{1,15}(e?.?mail|nachricht).{1,10}(erhalten|gelesen)/i
+/sie meine.{1,15}(e?.?mail|nachricht).{1,10}übersehen haben/i
 
 /(sie|wir) haben eine.{1,15}nachricht/i
 /(sofort|unverzüglich) öffnen/iu

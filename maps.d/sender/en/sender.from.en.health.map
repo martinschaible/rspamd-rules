@@ -452,6 +452,8 @@
 /digestion/i
 
 /discover.{0,15}today/i
+/discovery.{0,10}report/i
+
 /ditch.{0,10}your/i
 /diy.{0,10}lipo/i
 
@@ -519,7 +521,9 @@
 /fiber.{0,10}fix/i
 /fine.{0,10}lines/i
 /firm.{1,10}strong/i
+
 /fix.{1,10}(nail|toe).{0,10}fungus/i
+/(fix|poor).{0,10}(balance|posture)/i
 
 /flawless.{0,10}skin/i
 /flexibility.{0,10}booster/i
@@ -772,7 +776,6 @@
 /potent.{0,10}drink/i
 /pooch.{0,10}belly/i
 /poop.{0,10}(stuck|type)/i
-/poor.{0,10}(balance|posture)/i
 
 /posture.{0,10}fix/i
 
@@ -781,7 +784,7 @@
 
 /prepare now/i
 
-/posture{0,10}reset/i
+/posture.{0,10}(help|reset)/i
 /promising.{0,10}therapy/i
 /proper.{0,15}detox/i
 /protein.{0,10}(danger|hack)/i
