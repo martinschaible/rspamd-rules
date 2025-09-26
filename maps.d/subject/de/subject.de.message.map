@@ -75,6 +75,7 @@
 
 # B
 /bestätigung.{1,15}(e?.?mail|nachricht).{0,10}eingangs? bitten/iu
+/bestätigung des e.?mail.?eingangs/i
 
 /(bestätigen sie|sie mir.{1,10}mitteilen).{1,15}(diese|ihre).{1,10}e?.?mail.{1,15}(aktiv|gültig) ist/iu
 /(bestätigen sie|sie mir.{1,10}mitteilen).{1,10}ob ihre e?.?mail.{1,15}(aktiv|gültig) ist/i
@@ -115,6 +116,8 @@
 
 /erhalten sie unsere.{1,10}e?.?mails/i
 
+/erinnerung an meine?.{1,10}(e?.?mail|nachricht)/i
+
 # F
 /freue mich auf.{1,10}(e?.?mail|nachricht)/i
 
@@ -125,7 +128,7 @@
 
 # H
 /haben sie bitte meine (erste|vorherige).{1,10}(e?.?mail|nachricht)/i
-/haben sie (meine|unsere).{1,10}(e?.?mail|nachricht) (erhalten|gesehen)/i
+/haben sie (meine|unsere).{1,10}(anfrage|e?.?mail|nachricht).{1,10}(bekommen|erhalten|gesehen)/i
 
 # I
 /ich schreibe dir/i
@@ -160,6 +163,7 @@
 /meine.{1,15}(e?.?mail|nachricht).{1,10}ist angekommen/i
 /meine.{1,15}(e?.?mail|nachricht).{1,10}übersehen/iu
 
+/meine vorherige nachricht/i
 /(aktuelle|ihre).{1,20}mitteilung.{1,10}bitte prüfen/iu
 
 # N
@@ -210,6 +214,8 @@
 
 /ungelesene nachrichten!/i
 
+/überprüfung.{1,10}eingangs meiner.{1,10}(e?.?mail|nachricht)/i
+
 # V
 /vertrauliche nachricht bereitgestellt/i
 
@@ -219,6 +225,8 @@
 
 /wichtige?.{1,10}?.?mail.{1,10}ihr konto/i
 /wichtige?.{1,10}?.?mail.{1,10}zustellungsbericht/i
+
+/wurde meine?.{1,10}(e?.?mail|nachricht).{1,10}(empfangen|zugestellt)/i
 
 # X
 
