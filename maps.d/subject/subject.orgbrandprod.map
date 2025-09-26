@@ -45,6 +45,9 @@
 /dhl.{1,10}letzte mahnung/i
 /(dhl|dpd) \[\d{4,15}\]/i
 
+# Sample: (DPD_403264)
+/\(dpd_\d{4,15}\)/i
+
 /dpd.?ch.{1,10}betreff/i
 /dpd(-|_)ch/i
 /dpd_ref/i
