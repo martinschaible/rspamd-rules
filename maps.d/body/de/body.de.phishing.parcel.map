@@ -18,6 +18,7 @@
 
 # A
 /aktualisieren sie ihre adresse.{1,10}bezahlen sie/i
+/angekommen.{1,10}wurde durch den zoll geprüft/iu
 
 # B
 /(begleichen|bezahlen) sie.{1,10}(die|eine).{1,10}(ausstehenden).{1,10}(versandkosten|zollgebühr)/iu
@@ -145,4 +146,5 @@
 /zoll.{1,10}(steuergebühren|steuerzahlung).{1,10}erforderlich/iu
 /zollzahlung ist erforderlich/i
 
+/zustellung ist eine.{1,15}(kurze|online).{1,10}bestätigung erforderlich/iu
 /zustellversuche sind mit zusätzlichen gebühren verbunden/iu

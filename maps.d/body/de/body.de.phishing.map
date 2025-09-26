@@ -87,7 +87,7 @@
 /jetzt auf digitech\.ch kaufen/i
 
 # K
-/kontrolle.{1,10}gespeicherten.{1,10}(unternehmensangaben|unternehmensinformationen)
+/kontrolle.{1,10}gespeicherten.{1,10}(unternehmensangaben|unternehmensinformationen)/i
 
 # L
 
@@ -116,8 +116,12 @@
 # U
 /unbekanntes gerät erkannt.{1,10}ein.{1,10}unbekanntes gerät/iu
 
+/(unternehmensangaben|unternehmensinformationen).{1,10}in unserem system/i
+
 # Fake Transparenzregister 
 /unstimmigkeitsmeldung nach.{1,10}23 a gwg/i
+
+/überprüfen wir (die|ihre).{1,10}(unternehmensangaben|unternehmensinformationen)/i
 
 # V
 /vignette.{1,10}ihres fahrzeugs.{1,15}deaktiviert wurde/i
