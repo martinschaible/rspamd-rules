@@ -41,7 +41,7 @@
 /\.[a-z]{1,4}.{1,10}verify your.{1,10}e?.?mail.?account/i
 
 /\.[a-z]{1,4}.{1,10}warning{1,10}the e?.?mail account/i
-/\.[a-z]{1,4}.{1,10}will be blocked/i
+/\.[a-z]{1,4}.{1,10}will (be blocked|no longer)/i
 
 /\d\)? (incoming|pending).{1,10}(e?.?mail|message)/i
 
@@ -198,10 +198,9 @@
 # X
 
 # Y
-/you have.{1,25}(held|important|incoming|undelivered).{1,15}(e?.?mails?|message)s?/i
+/you have.{1,25}(held|important|incoming|undelivered|unsent).{1,15}(e?.?mails?|message)s?/i
 /you have.{1,10}failed.{1,10}(e?.?mail|message)s? deliveries/i
 /you have.{1,10}unread.{1,10}(e?.?mail|message)s? from/i
-
 
 /your.{1,10}e?.?mail.?account.{1,10}closure/i
 /your.{1,10}e?.?mail.?account.{1,10}has been limited/i
@@ -210,6 +209,7 @@
 /your.{1,10}mailbox.{1,10}de.?activation/i
 /your.{1,10}mailbox.{1,10}has been flagged/i
 
+/your.{1,10}current.{1,10}e?.?mail.{1,10}address/i
 /your.{1,10}unreceived.{1,10}(e?.?mail|message)s?.{1,10}are stuck/i
 
 # Z

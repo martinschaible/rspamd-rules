@@ -80,8 +80,8 @@
 /(fat|weight).{1,10}success proven/i
 /(fat|weight).{1,10}with this.{1,10}hack/i
 
-/(affects|big|blocking|boost|celeb|daily|easy|fast|for).{1,15}(fat|weight).?(burning|loss)/i
-/(hidden|massive|method|rapid|simple|steady|try this|your).{1,15}(fat|weight).?(burning|loss)/i
+/(affects|big|blocking|boost|celeb|daily|easy|fast|for).{1,15}(fat|weight).?(burn(ing)?|loss)/i
+/(hidden|massive|method|overnight|rapid|simple|steady|try this|your).{1,15}(fat|weight).?(burn(ing)?|loss)/i
 
 /add inches.{1,15}waistline/i
 /dissolves.{1,10}lbs/i
@@ -119,7 +119,7 @@
 /\d{1,3}.?(lbs|pounds).{1,10}(gone|flab|transformation)/i
 
 /\d cause of/i
-/\d (easy|simple) (habit|stretch|trick)/i
+/\d (easy|simple) (habit|stretch|trick|tweak)/i
 /\d stretch/i
 /\d surprising fruits/i
 /\d way to (clear up|eliminate)/i
@@ -270,6 +270,8 @@
 /cavity.{0,10}cure/i
 
 /calorie burn with/i
+
+/chew this to fix/i
 /celebrity.?secret/i
 
 /cleansing fix/i
@@ -323,7 +325,7 @@
 
 /discover.{1,10}(breakthrough|hormone)/i
 /discover.{1,10}the hidden/i
-/discover.{1,10}the.{1,10}(key|secret) to/i
+/discover.{1,10}(the|your).{1,10}(key|secret)/i
 /discover.{1,10}the.{1,10}truth behind/i
 /discover.{1,10}the.{1,10}worst/i
 /discover.{1,10}the.{1,15}old (key|secret)/i
@@ -426,6 +428,7 @@
 
 /fix.{1,10}back pain/i
 /fix.{1,10}blurry vision/i
+/fix.{1,10}(cavities|gum)/i
 /fix.{1,15}pain in just/i
 /fix.{1,10}restores.{1,10}(ankles|legs|slender)/i
 /fix.{1,10}(vertigo|stronger)/i
@@ -437,6 +440,8 @@
 /flush(es)? out.{1,10}(fat|this)/i
 
 /focus.{1,10}memory/i
+
+/foods?.{1,10}contain this/i
 /foods?.{1,10}that.{1,10}(fights?|poisonous|prevents)/i
 /foods?.{1,10}that.{1,10}makes? you/i
 /foods?.{1,10}to (avoid|skip)/i
@@ -477,7 +482,9 @@
 /gets? rid of.{1,10}unwanted/i
 
 /(gum|gut).{0,10}(cleanse|cleansing)/i
-/(gum|gut).{0,10}(fix|health|problem|power|relief|reset)/i
+/(gum|gut).{0,10}(fix|health|message)/i
+/(gum|gut).{0,10}(problem|power|relief|reset)/i
+
 /goodbye.{0,10}(pain|ringing ears)/i
 
 /reveals greatest discovery/i
@@ -603,6 +610,7 @@
 /melts.{1,10}in.{1,10}weeks/i
 
 /men.{1,10}horny/i
+/message.{1,10}uncovered/i
 
 /minute stretch.{1,10}regain/i
 /morning.{1,10}(brain|change to)/i
@@ -871,6 +879,8 @@
 /the.{1,10}minute morning/i
 /the.{1,10}secret ingredient/i
 /the.{1,10}truth about/i
+
+/these.{1,10}fruits? (are|may|might|should|tworse)/i
 
 /this.{1,10}anti.?aging.{1,10}product/i
 /this.{1,10}back.?pain fix/i
