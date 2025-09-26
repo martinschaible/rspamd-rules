@@ -379,7 +379,7 @@
 /easy.?to.?do technique/i
 
 /eat \d cup/i
-/eat this.{1,15}(arteries|daily|every|fruit|spice)/i
+/eat this.{1,15}(arteries|breakfast|daily|every|fruit|spice)/i
 /eat this.{1,15}for perfect/i
 /eat this.{1,15}to clear/i
 /eat this to/i
@@ -775,7 +775,9 @@
 /sharpen.{1,10}memory/i
 /shed.{1,15}faster/i
 /shed.{1,10}ibs by/i
-/shrinks?.{1,10}(belly|prostate)/i
+
+/shrinks?.{1,10}(belly|prostate|waistline)/i
+
 /shocking.{1,10}brain/i
 
 /sign of a stroke/i

@@ -35,6 +35,7 @@
 /confirm ownership of.{1,10}e?.?mail/i
 /confirm your.{1,10}e?.?mail.{1,15}ensure uninterrupted service/i
 
+/confirm you.{1,10}not a robot/i
 /confirmation is complete.{1,10}your mailbox/i
 
 /C‌Pa​ne​l‌ /
@@ -122,6 +123,8 @@
 /verify.{1,10}your.{1,10}(e?.?mail|mail.?box).{1,15}to restore/i
 
 # W
+/we want to reduce the numbers?.{1,10}dormant.{1,10}accounts/i
+
 /webmail.{1,10}storage.{1,10}(re.?)?validation/i
 /webmail.{1,10}this.{1,10}(e?.?mail|message)s?.{1,10}directed/i
 

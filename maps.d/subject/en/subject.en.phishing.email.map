@@ -64,6 +64,8 @@
 /confirm.{1,15}pending (e?.?mail|message)s?/i
 /confirm.{1,10}to avoid deactivation/i
 
+/confirm you.{1,10}not a robot/i
+
 # D
 /de.?activation.{1,10}authentication required/i
 /de.?activation of.{1,10}mailbox/i

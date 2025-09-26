@@ -169,6 +169,8 @@
 /rundschreiben.?[0-9a-z]{4}-[0-9a-z]{4}/i
 
 # S
+/serviceportal \(\d\)/i
+
 /sicherheitsüberprüfung.{1,10}ihrer.{1,10}identitätsdokumente/iu
 
 # T
