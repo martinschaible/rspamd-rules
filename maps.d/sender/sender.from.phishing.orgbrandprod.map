@@ -242,6 +242,7 @@
 /d\.h\.l/i
 /d h l/i
 
+/dhi.?express/i
 /dh.?(e.?commerce|frachtlogistik|luftfracht|servicezentrum|versandzentrum)/i
 
 /\(dhl\)/i
@@ -604,6 +605,8 @@
 
 /schaeffler.?gruppe/iu
 /schweizer.?post/i
+
+/secureplus.{0,5}support/i
 
 /server.?\|/i
 

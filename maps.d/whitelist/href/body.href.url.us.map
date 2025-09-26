@@ -24,7 +24,7 @@
 /gcz\.us\d{1,2}.list-manage.com\//i 3
 /insideparadeplatz\.us\d{1,2}.list-manage.com\//i 3
 /narayana-verlag\.us\d{1,2}.list-manage.com\//i 3
-/platinum-swiss\.us\d{1,2}.list-manage.com\//i 3
+/(physicians|platinum-swiss)\.us\d{1,2}.list-manage.com\//i 3
 /theaterhechtplatz\.us\d{1,2}.list-manage.com\//i 3
 /weberverlag\.us\d{1,2}.list-manage.com\//i 3
 
@@ -106,6 +106,8 @@
 
 # P
 # ------------------------------------------------------------------------------
+# 26.09.25
+/www\.g-med\.com/i
 
 # 11.09.25
 /www\.positivessl\.com/i

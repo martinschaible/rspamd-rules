@@ -60,7 +60,7 @@
 /mail.?(admin|alert|helpdesk|server|update)/i
 /mail.?security.?team/i
 
-/roundcube.{0,5}(administration|support)/i
+/roundcube.{0,5}(administration|server|support)/i
 
 /^server$/i
 /server.?(report|team)/i
