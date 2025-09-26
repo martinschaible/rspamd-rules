@@ -87,7 +87,14 @@
 # R
 
 # S
+/sie.{1,10}an unserer.{1,10}umfrage teilgenommen haben/i
+/sie.{1,10}an unserer.{1,10}kurzen umfrage teilnehmen/i
+
 /sie.{1,10}eine kurze umfrage/i
+/sie.{1,10}(dazu|einfach).{1,15}kurze umfrage/i
+/sie.{1,10}haben.{1,10}minuten.{1,10}um die folgenden fragen zu beantworten/i
+/sie.{1,10}wurden ausgewählt.{1,10}um an unserer.{1,10}umfrage/iu
+
 
 # T
 /teilnahme.{0,5}link/i

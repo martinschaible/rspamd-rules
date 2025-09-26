@@ -110,6 +110,7 @@
 
 # U
 /unread.{1,10}(e?.?mail|message)s?.{1,10}pending due to server/i
+/unverified.{1,10}will be deactivated from.{1,20}server/i
 
 /(update|upgrade).{1,10}account.{1,10}cancel the request/i
 /(update|upgrade).{1,10}account.{1,10}increase.{5,15}quota/i
@@ -120,6 +121,8 @@
 
 # V
 /view.{1,10}(failed|save).{1,10}(e?.?mail|message)s?/i
+
+/verify.{1,10}your.{1,10}(e?.?mail|mail.?box).{1,15}to avoid.{1,10}deactivation/i
 /verify.{1,10}your.{1,10}(e?.?mail|mail.?box).{1,15}to restore/i
 
 # W
