@@ -59,6 +59,7 @@
 /this.{1,10}tsp hack/i
 
 /(this|unlock).{1,10}(natural|tropical|unique).{1,10}(formula|hack|remedy|trick)/i
+/this.{1,10}min(ute)? trick/i
 
 /try this \d.sec/i
 /try this.{1,10}stretch/i
@@ -461,6 +462,7 @@
 /(fruits?|vegetable|veggies?).{1,10}(immediately|improving)/i
 /(fruits?|vegetable|veggies?).{1,10}(for brain|is safe)/i
 /(fruits?|vegetable|veggies?).{1,10}(harmful|harm your)/i
+/(fruits?|vegetable|veggies?).{1,10}might not/i
 /(fruits?|vegetable|veggies?).{1,10}that.{1,10}(fights|harm|might|may|weakens)/i
 /(fruits?|vegetable|veggies?).{1,10}that make you/i
 /(fruits?|vegetable|veggies?).{1,10}to stop/i
@@ -496,7 +498,7 @@
 /hair.?loss.{1,10}reversed/i
 
 /(harm(ing)?|sabotaging) your.{1,10}(gut|health)/i
-/(harvard|ucl).{1,15}(discovers|leaked|reveal|second|stretch)/i
+/(harvard|ucl).{1,15}(discovers|exposes|leaked|reveal|second|stretch)/i
 
 /heal.{1,15}pain/i
 /healing.{1,10}recipe/i
@@ -716,6 +718,8 @@
 
 /regain.{1,10}sharp mind/i
 /regain.{1,10}your ability/i
+
+/regenerates?.{1,10}male performance/i
 
 /(re)?grows?.{1,10}lost hair/i
 /(re)?grows?.{1,10}your (gums|teeth)/i

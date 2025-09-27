@@ -91,7 +91,7 @@
 
 /(action|update) (needed|required).{1,10}verification.{1,10}security status/i
 /(action|update) (needed|required).{1,10}verify your.{1,20}@/i
-/(action|update) (needed|required).{1,10}verify your.{1,15}account/i
+/(action|update) (needed|required).{1,10}verify your.{1,15}(account|transaction)/i
 
 /(action|update) (needed|required).{1,10}you have.{1,15}(document|e?.?mail)/i
 

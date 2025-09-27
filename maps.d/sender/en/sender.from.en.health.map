@@ -441,7 +441,7 @@
 /(dead(ly)?|death).{0,10}(drink|foods?|metabolism|veggies?|water)/i
 /(dead|deep).{0,10}cleansing/i
 
-/dental.{0,10}(advisor|alert|issues?|repair|rescue|trick|work)/i
+/dental.{0,10}(advisor|alert|issues?|repair|rescue|tips?|trick|work)/i
 
 /desire.{0,10}revival/i
 
@@ -789,7 +789,7 @@
 /proper.{0,15}detox/i
 /protein.{0,10}(danger|hack)/i
 
-/purple.{1,10}(drink|pee|powder)/i
+/purple.{1,10}(drink|pee|powder|tonic)/i
 
 # Q
 /quick.{1,10}(stretch|technique)/i
@@ -915,7 +915,7 @@
 
 /stuck.{0,10}poop/i
 
-/sugar.{0,10}(control|eraser|fix|free|reboot|report|spike|traps|trick)/i
+/sugar.{0,10}(control|eraser|fix|free|guilty|reboot|report|spike|traps|trick)/i
 /super.{0,10}water/i
 
 /surgeon.{0,10}reveals?/i
@@ -998,7 +998,7 @@
 /wax.{0,10}free/i
 
 /weird.{0,10}sound/i
-/wellness.{0,10}(alert|bulletin|brief|daily|insights|living|news|report|watch|weekly)/i
+/wellness.{0,10}(alert|bulletin|brief|daily|dairy|insights|living|news|report|watch|weekly)/i
 
 /white.{0,10}(carb|smile)/i
 /without.{0,10}glasses/i
