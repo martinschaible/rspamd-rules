@@ -139,7 +139,9 @@
 /aldi.{0,15}(deals?|support)/i
 
 /amaz0n/i
-/amazon.?visa/i
+/amazon{0,10}visa/i
+
+/von{1,10}amazon/i
 
 /^ana$/i
 /ana.?sky.?web/i

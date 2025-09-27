@@ -35,12 +35,13 @@
 /achieve more with up to \d{3,4}/i
 /achieve success with.{1,10}in capital/i
 
-/(apply for|need).{1,10}(grant|loan)/i
-/apply for our financial/i
+/need.{1,10}(grant|loan)/i
+/apply for.{1,15}(financial|grant|loan)/i
 
 /(approved|expansion).{1,15}loans?/i
 
 # B
+/business.{1,10}lending/i
 /business.{1,10}project.{1,15}loans?/i
 
 # C
