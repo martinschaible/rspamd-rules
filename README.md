@@ -211,6 +211,7 @@ body
   │   ├─ body.de.finance.map                     --- multimap.body.de.finance.conf
   │   ├─ body.de.gambling.map                    --- multimap.body.de.gambling.conf
   │   ├─ body.de.health.map                      --- multimap.body.de.health.conf
+  │   ├─ body.de.health.specific.map           X --- multimap.body.de.health.conf
   │   ├─ body.de.makemoney.map                   --- multimap.body.de.makemoney.conf
   │   │
   │   ├─ body.de.phishing.map                    ─┐
@@ -238,7 +239,7 @@ body
   │   ├─ body.de.sale.greetings.map               │
   │   ├─ body.de.sale.china.map                   ├─ multimap.body.de.sale.conf
   │   ├─ body.de.sale.media.map                   │
-  │   ├─ body.de.sale.products.map                │ X
+  │   ├─ body.de.sale.specific.map                │ X
   │   ├─ body.de.sale.seo.map                     │
   │   ├─ body.de.sale.website.map                ─┘
   │   │
@@ -351,7 +352,7 @@ subject
   │   ├─ subject.de.sale.china.map                │
   │   ├─ subject.de.sale.media.map                ├─ multimap.subject.de.sale.conf
   │   ├─ subject.de.sale.seo.map                  │
-  │   ├─ subject.de.sale.products.map             │ X
+  │   ├─ subject.de.sale.specific.map             │ X
   │   ├─ subject.de.sale.website.map             ─┘
   │   │
   │   ├─ subject.de.scam.map                     ─┐
