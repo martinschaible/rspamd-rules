@@ -51,6 +51,7 @@
 
 /guten (abend|morgen|tag).{1,10}bei der überprüfung/iu
 /guten (abend|morgen|tag).{1,10}erhalten sie eine korrigierte rechnung/i
+/guten (abend|morgen|tag).{1,10}es wurde eine ungewöhnliche anmeldung/iu
 /guten (abend|morgen|tag).{1,10}hiermit informieren wir sie/i
 
 /guten (abend|morgen|tag).{1,10}ich habe ihren namen/i
@@ -219,9 +220,11 @@
 # T
 
 # U
+/ungewöhnliche aktivitäten festgestellt.{1,10}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/iu
 
 # V
 /verifizierung ihres.{1,15}kontos?.{1,10}guten tag/i
+/verifizierung notwendig.{1,10}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/i
 
 # W
 

@@ -17,6 +17,7 @@
 # ==============================================================================
 
 # A
+/aufzuheben.{1,10} bestätigen sie.{1,10}ihre identität/iu
 
 # B
 
@@ -55,6 +56,7 @@
 /(konto|profil).{1,15}innerhalb der nächsten.{1,10}Stunden zu bestätigen/iu
 /(konto|profil).{1,15}sicher zu halten.{1,10}ist eine identitätsbestätigung/iu
 /(konto|profil).{1,15}vorübergehend eingeschränkt/iu
+/(konto|profil).{1,15}wieder freizuschalten.{1,10}bestätigen sie/iu
 /(konto|profil).{1,15}wird aufgrund eines.{1,20}fehlers/i
 /(konto|profil).{1,15}wurden einige funktionen vorübergehend eingeschränkt/iu
 /(konto|profil).{1,15}zu überprüfen und auf.{1,10}nachrichten/iu
@@ -83,6 +85,7 @@
 # R
 
 # S
+/sicherheitslücke in ihrem.{1,15}(konto|profil) (festgestellt|registriert)/iu
 /sicherstellung des schutzes ihres.{1,15}kontos/i
 
 /sie gebeten.{1,10}sich.{1,10}zu identifizieren/i
@@ -95,6 +98,7 @@
 /uneingeschränkte nutzung ihres.{1,15}kontos.{1,15}sicherzustellen/i
 
 # V
+/verdächtige handlungen auf ihrem.{1,15}konto (festgestellt|registriert)/iu
 /vermeiden.{1,10}führen sie die verifizierung/iu
 
 /verifizierung nicht innerhalb von.{1,10}stunden (abschliessen|abschließen)/iu
