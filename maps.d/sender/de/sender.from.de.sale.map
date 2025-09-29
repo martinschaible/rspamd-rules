@@ -6,35 +6,6 @@
 # Topics
 # ==============================================================================
 
-# Lamp, light
-# ------------------------------------------------------------------------------
-/(focus|glanz|glüh|helles|power|spar|stil).?(lampen?|licht)/iu
-
-/(lampen?|licht).{0,10}(balance|doctor|fix|klar|komfort)/i
-/(lampen?|licht).{0,10}(effekt|experten?)/i
-/(lampen?|licht).{0,10}(magic|meister|technik|king|pro|zone)/i
-
-/(smart|stil).{0,10}(glüh|light)/i
-
-# Snore
-# ------------------------------------------------------------------------------
-/anti.{0,10}schnarch/i
-
-/endlich.{0,10}ruhe/i
-/erholsame.{0,10}nächte/iu
-
-/(besser|leiser?).{0,10}(nächte|schlafen|traum|welt)/iu
-
-/schlaf.{0,10}(frei|wert)/i
-/schnarch.{0,10}(hilfe|leise|los|weg)/i
-
-/ruhe.{0,15}(deal|echt|nacht|start)/i
-/(ruhige?|stille).{0,10}(express|nacht|nächte|schlaf)/i
-
-/tief.{0,10}ruhig/i
-/traum.{0,10}nacht/i
-/tritt.{0,10}gesund/i
-
 #
 #
 #

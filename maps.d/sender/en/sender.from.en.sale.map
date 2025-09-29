@@ -6,44 +6,20 @@
 # Topics
 # ==============================================================================
 
-# Camera
-# ------------------------------------------------------------------------------
-/cam(era)?.{0,10}(guard|protect|spy)/i
-
-/(hidden|home|secure|spy|watch).{0,10}cam(era)?/i
-
-# Drone
-# ------------------------------------------------------------------------------
-/drone.{0,10}(deals?|expert|labs|zone)/i
-/drone.?x/i
-
-/(4k|8k|air|fly|raptor|skyview|smarty?|your).{0,10}drone/i
-/x?pro.{0,5}drone/i
-
-/tactic(al)?.{0,10}drone/i
-/tactic(al)?.{0,10}(air|official|team)/i
-
-# Replicas
-# ------------------------------------------------------------------------------
-/(hot|luxury|top).{0,10}(bags|watch(es)?)/i
-
-# Snore
-# ------------------------------------------------------------------------------
-/snore.{0,10}(again|block|stop)/i
-/(anti|fight|stop).{0,10}snoring/i
-/never.{0,10}snore/i
-
-#
-#
-#
-
 # Italian
 # ------------------------------------------------------------------------------
 /soluzioni.{0,10}wifi/i
 /wifi.{0,10}portatili/i
 
+#
+#
+#
+
 # Generic
 # ==============================================================================
+
+/\d{1,2}.{0,10}(discount|off)/i
+/\d{1,2}.{0,10}languages/i
 
 # A
 /american.{0,10}(discounts|pope|seniors)/i
@@ -105,8 +81,8 @@
 
 # E
 /e.?bike.?pro/i
-/e.?(bicycle|bike).{0,10}(care|company|customer|expert|factory|manufacturr)/i
-/e.?(bicycle|bike).{0,5}(sales|service|support|team)/i
+/e.?(bicycle|bike|velo).{0,10}(care|company|customer|expert|factory|manufacturr)/i
+/e.?(bicycle|bike|velo).{0,5}(sales|service|support|team)/i
 
 /electric.{0,10}bill/i
 
