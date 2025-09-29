@@ -75,6 +75,9 @@
 /our.{1,10}(pcba?|printed.?circuit.?board).{1,10}(delivery|on.?time)/i
 /our.{1,10}customizable.{1,10}paper bag solutions/i
 
+/our main items are.{1,10}glass/i
+/our main items are.{1,10}tempered/i
+
 # P
 /professional.{1,10}freight forwarding/i
 
@@ -102,7 +105,7 @@
 # V
 
 # W
-/we.{1,10}are.{1,10}(independent|leading|professional|specialized|top|trusted).{1,20}(distributor|domestic|manufacturer) (in the|of|producing|with)/i
+/we.{1,10}are.{1,10}(independent|leading|professional|specialized|top|trusted).{1,20}(distributor|domestic|manufacturer|supplier) (in the|of|producing|with)/i
 /we.{1,10}are.{1,10}(independent|leading|professional|specialized|top|trusted).{1,20}(factory|forwarder)/i
 /we.{1,10}are.{1,10}(independent|leading|professional|specialized|top|trusted).{1,20}(electric|bycycle)/i
 /we.{1,10}are.{1,10}(independent|leading|professional|specialized|top|trusted).{1,20}pvc hose/i 

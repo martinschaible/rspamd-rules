@@ -39,6 +39,7 @@
 /(werksmodelle|werkswagen).{1,15}(anfragen|direkt|katalog|persönlich)/i
 
 /fahrzeugen?.{1,15}(direktverwertung|sind direkt|zwischenlager)/i
+/fahrzeugen?.{1,10}inkl.{1,10}mwst.{1,10}fahrbereit/i
 /fahrzeugen?.{1,15}klarer historie/i
 
 /(direkten|direkter) zugriff.{1,15}limitierte auswahl/i
@@ -49,7 +50,7 @@
 /unsere geprüften.{1,10}fahrzeuge/iu
 /unsere.{1,10}(werksmodelle|werkswagen)/i
 
-/sofort verfügbaren.{1,10}fahrzeugen/iu
+/sofort verfügbaren.{1,10}fahrzeugen?/iu
 
 /verträgen stammen.{1,10}sofort für sie/iu
 
