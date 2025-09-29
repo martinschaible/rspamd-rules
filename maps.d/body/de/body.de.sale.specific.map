@@ -1,0 +1,119 @@
+# ==============================================================================
+# To avoid overloading the "body.en.sale.map" file,
+# we add product-specific rules to this file.
+#
+# ------------------------------------------------------------------------------
+# Language: german
+# Weight:   12.0
+# ==============================================================================
+
+
+# Air Conditioning
+# ------------------------------------------------------------------------------
+/klima.?(anlage|gerät).{1,15}ein angenehmes/iu
+/klima.?(anlage|gerät).{1,10}jetzt noch günstig/iu
+/klima.?(anlage|gerät).{1,10}kühlt ihre/iu
+/klima.?(anlage|gerät).{1,10}watt.{1,20}nur.{1,10}statt/iu
+
+/mobile.{1,10}klima.?(anlage|gerät).{1,10}(btu|kühlleistung|watt)/iu
+
+/(das|diese).{1,10}mobile.{1,10}klima.?(anlage|gerät)/iu
+
+# Cars (Not selling, buying your old car)
+# ------------------------------------------------------------------------------
+/(ich|wir) kaufen?.{1,10}(autos|fahrzeuge|pkw).{1,10}(aller art|guten tag)/i
+/(ich|wir) kaufen?.{1,10}(autos|fahrzeuge|pkw) von jeder Marke/i
+
+/(ich|wir) kaufen?.{1,10}gebrauchte.{1,15}(autos|fahrzeuge|pkw)/i
+/(ich|wir) kaufen?.{1,10}(autos|fahrzeuge|pkw) mit unfallschäden/ui
+
+# Chair
+# ------------------------------------------------------------------------------
+/(büro|dreh).?(stuhl|stühle).{1,15}(aktionspreis|massagefunktion|stil.{1,10}komfort)/i
+/(büro|dreh).?(stuhl|stühle).{1,15}profitieren/i
+
+# A - G
+/(design|elegante|ergonomische|erlesene|genialer?).{1,20}(büro|dreh).?(stuhl|stühle)/iu
+# K -
+/(komfort|komfortable|praktische).{1,20}(büro|dreh).?(stuhl|stühle)/iu
+
+# Coffee machines
+# ------------------------------------------------------------------------------
+/kaffee.?vollautomat(en)?.{1,10}firmen/i
+/firmen.{1,10}kaffee.?vollautomat(en)?/i
+
+# E-Bikes
+# ------------------------------------------------------------------------------
+/(neues|premium|unser).{1,15}(e.?bike|elektro.?moped)/i
+
+/(e.?bike|elektrische|elektro|fahrräder).{1,15}(fabrik|tretunterstützung)/iu
+/(e.?bike|elektrische|elektro|fahrräder).{1,15}vor(zu)?stellen/i
+
+/(moped.?style|retro.?cruiser).{1,10}e.?bike/i
+/(moped.?style|retro.?cruiser).{1,10}fat.?tire/i
+
+/moped.?e.?bike/i
+
+/fat.?tire e.?bike.{1,10}leistungsstark/i
+
+/suchen neue.{1,10}distributionspartner/i
+
+/unsere elektrofahrradmodelle/i
+/unsere fabrik produziert/iu
+
+/wir sind ein.{1,15}(e.?bike|elektro.?moped).{1,10}hersteller/iu
+
+/wir sind ein.{1,15}hersteller.{1,10}elektro.?fahrrädern/iu
+/wir sind ein.{1,15}hersteller.{1,15}der sich auf die produktion/i
+
+# Hiring people
+# ------------------------------------------------------------------------------
+/arbeitskräften?.{1,10}bei bedarf.{1,10}(einfach|schnell)/iu
+/arbeitskräften?.{1,10}unkompliziert/iu
+/(arbeitskräfte|fachkräfte|hilfspersonal|leiharbeiter|mitarbeiter|personal|vermittlung|zeitarbeit) aus litauen/iu
+
+/finden (sie|wir).{1,15}(motivierte|schnell|zuverlässige).{1,15}(arbeitnehmer|mitarbeiter)/i
+
+/haben sie derzeit personalbedarf/i
+/leiharbeiter finden/i
+
+/ihnen bei der personalsuche/i
+/sie erhalten bei uns.{1,15}(fachkräfte|mitarbeiter|personal)/iu
+/sie qualifizierte fachkräfte/iu
+
+/suchen sie (arbeitskräfte|fachkräfte).{1,15}unternehmen?/iu
+/suchen sie.{1,15}zuverlässige fachkräfte/iu
+
+/motivierten?.{1,15}fachkräften? aus/iu
+
+/wir finden ihre mitarbeiter/i
+/wir sind ein.{1,15}unternehmen aus/i
+
+/litauen.{1,10}(arbeitskräfte|leiharbeiter)/i
+/litauen.{1,10}ihr zuverlässiger partner/iu
+/litauen.{1,10}ist ein unternehmen/i
+/litauen.{1,10}stellen ihnen fach.{1,10}hilfspersonal/i
+/litauen.{1,10}wir vermitteln ihnen/i
+
+/litauische.{1,10}(leih)?arbeiter gesucht/i
+
+/wir liefern personal in/i
+/wir sanieren.{1,10}renovieren ihr.{1,10}haus/i
+
+# Pavillon/Tent
+# ------------------------------------------------------------------------------
+/(event|falt|garten)?pavillons?.{1,10}jetzt sonderposten/i
+/(event|falt|garten)?pavillons?.{1,10}zum aktionspreis/i
+
+/(event|falt|garten)?pavillons?.{1,10}profiqualität/iu
+/(event|falt|garten)?pavillons?.{1,15}(wasserdicht|wasserfest|wetterfest)/i
+
+/neu.{1,10}falt.?(event|falt|garten)?pavillons?/i
+/(wasserdicht|wasserfest|wetterfest).{1,10}(event|falt|garten)?pavillons?/i
+
+# Regale
+# ------------------------------------------------------------------------------
+/gewerbe.?schwerlast.?regal/i
+
+/schwer.?lastregale? \d{3}.?x.?\d{2,3}/i
+/set blaue.{1,10}schwerlast.?regale/i

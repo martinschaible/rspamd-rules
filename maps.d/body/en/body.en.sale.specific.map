@@ -1,0 +1,27 @@
+# ==============================================================================
+# To avoid overloading the "body.en.sale.map" file,
+# we add product-specific rules to this file.
+#
+# ------------------------------------------------------------------------------
+# Language: english
+# Weight:   12.0
+# ==============================================================================
+
+# E-Bikes
+# ------------------------------------------------------------------------------
+/(experienced|reliable).{1,10}e(lectric)?.{0,10}(bicycle|bike).{1,10}(factory|manufacturer)/i
+/(fat.?tire|moped).{1,15}e(lectric)?.{0,10}(bicycle|bike)/i
+
+/bicycles.{1,10}we produce.{1,15}units/i
+
+/looking.{1,10}high.?performance.{1,10}e(lectric)?.{0,10}(bicycle|bike)/i
+
+/(the|we are an).{1,10}e(lectric)?.{0,10}(bicycle|bike).{1,10}(factory|manufacturer)/i
+
+/our bicycles to reach/i
+/our featured.{1,10}moped/i
+
+/we keep stock in.{1,10}(europe|usa)/i
+/we produce.{1,10}high.?quality.{1,10}electric/i
+
+/(electric|pedal).{1,10}assistant bicycles/i

@@ -1,0 +1,258 @@
+# ==============================================================================
+# To avoid overloading the "subject.en.sale.map" file,
+# we add product-specific rules to this file.
+#
+# ------------------------------------------------------------------------------
+# Language: german
+# Weight:   12.0
+# ==============================================================================
+
+# Air Conditioning
+# ------------------------------------------------------------------------------
+/klima.?(anlage|geräte?).{1,10}mobil/i
+/klima.?(anlage|geräte?).{1,20}(für|nur).{1,10}\d{2,3}/i
+/klima.?(anlage|geräte?).{1,20}(für|nur).{1,10}zzgl.{1,10}mwst/iu
+/klima.?(anlage|geräte?).{1,20}(ab|nur).{1,10}statt/i
+/klima.?(anlage|geräte?).{1,20}(aktionspreis|sonderpreis)/i
+/klima.?(anlage|geräte?).{1,20}(bestellen|einsatzbereit|jetzt|lieferbar|reduziert|schnell|verfügbar)/i
+
+/(btu|mobilen?|mobiles?).{1,15}klima.?(anlage|geräte?)/iu
+
+/(sichern Sie sich|sommerhitze).{1,10}klima.?(anlage|geräte?)/iu
+
+# Cars (Not selling, buying your old car)
+# ------------------------------------------------------------------------------
+/ankauf.{1,10}fahrzeugen?/i
+/autoankauf.{1,10}export/i
+
+/ihr(en)?.{1,10}(auto|fahrzeug|wagen|lkw|pkw).{1,10}zum besten preis/i
+/ihr(en)?.{1,10}(auto|fahrzeug|wagen|lkw|pkw).{1,10}verkaufen/i
+
+/sie ihr.{1,10}(auto|fahrzeug|wagen|lkw|pkw).{1,10}verkaufen/i
+/suchen?.{1,10}(anlagen|gebrauchtmaschinen)/i
+
+/verkaufe dein auto schnell/i
+/wir kaufen.{1,10}(auto|fahrzeug|wagen|lkw|pkw)/i
+/wir kaufen.{1,10}gebraucht(en)?/i
+
+# Chair
+# ------------------------------------------------------------------------------
+/(büro|designer|massage).?(sessel|stuhl|stühle).{1,15}(abverkauf|angebot|bezug|charakter|funktion)/i
+/(büro|designer|massage).?(sessel|stuhl|stühle).{1,15}jetzt (für|nur)/iu
+/(büro|designer|massage).?(sessel|stuhl|stühle).{1,25}(massage|stil|vorteilspreis)/i
+/(büro|designer|massage).?(sessel|stuhl|stühle).{1,15}nur.{1,10}zzgl/i
+/(büro|designer|massage).?(sessel|stuhl|stühle).{1,15}walholz/i
+
+/(chance|stilvoll|top.?preis).{1,15}(büro|designer|massage).{0,15}(sessel|stuhl|stühle)/iu
+
+/\d{2,3}.{1,10}(büro|designer|massage).?(sessel|stuhl|stühle)/i
+
+/büro.{1,10}jetzt zugreifen/iu
+/design.{1,10}komfort vereint/i
+/(edler|dtn).{1,5}stuhl/i
+
+/jetzt im angebot:.{1,15}(design|klassiker|zeitlos)/i
+/leder.{1,10}jetzt bestellen/i
+
+/rabatt auf.{1,10}(büro|designer|massage).?(sessel|stuhl|stühle)/i
+/rücken entspannen.{1,10}\d{2,3}/iu
+
+/unseren.{1,10}luxusstuhl/i
+
+# E Bike, Scooter
+# ------------------------------------------------------------------------------
+# -> I think, this is scam
+/e.?bike\?/i
+/e.?bike!/i
+
+/(e.?bike|elektro.?moped).{1,15}eu.?(lieferung|weit)/i
+/(e.?bike|elektro.?moped).{1,10}(besten|bester).{1,10}preis/i
+/(e.?bike|elektro.?moped).{1,10}für (alle|den|ihre|jedes?)/i
+/(e.?bike|elektro.?moped).{1,15}(abenteuer|angebot|in nur|innovation|komfort|motor)/i
+/(e.?bike|elektro.?moped).{1,15}(power|reichweite|revolution|tagen|stärke|zukunft)/i
+
+/(elektrofahrrad|elektrofahrrädern?|elektromotorrad).{1,10}(beste wahl|direkt|herstellerpreisen?)/i
+/(elektrofahrrad|elektrofahrrädern?|elektromotorrad).{1,10}(für nur|zukunft)/iu
+/(elektrofahrrad|elektrofahrrädern?|elektromotorrad).{1,10}(berge|stadt)/i
+
+/(anfragen|jetzt|passende).{1,10}(elektrofahrrad|elektrofahrrädern?|elektromotorrad)/i
+/(distributor|geschäft|händler).{1,10}(elektrofahrrad|elektrofahrrädern?|elektromotorrad)/iu
+
+/(auf ein|faltbarefortbewegung|kauf|kraftvoll|neues).{1,15}(e.?bike|elektro.?moped)/iu
+/(rabatt|unschlagbare?|unser|über|zuverlässig(er)?).{1,15}(e.?bike|elektro.?moped)/iu
+/\d (elektrofahrrad|elektrofahrrädern?|elektromotorrad)/i
+
+# Brand
+/e.?bikes?.{1,10}city voyager/i
+/der.{1,10}city voyager/i
+/fat.?tire e.?bike/i
+
+/mit einem.{1,10}(e.?bike|elektro.?moped)/i
+
+/angebot.{1,15}(e.?bike|elektro.?moped)/i
+/(bestes?|entdecken|exklusives?faltbar|ideale|leistungsstark|modernen|neuesten).{1,15}(e.?bike|elektro.?moped)/i
+/(perfektes?|richtigen|stylische|tragbare).{1,15}(e.?bike|elektro.?moped)/i
+
+/unseren?.{1,10}elektrofahrrädern?/iu
+
+/retro.?cruiser.{1,5}e.?bike/i
+
+/moped.{1,5}(cruiser|e.?bikes?)/i
+/moped.{1,15}e.?bikes?/i
+/moped style/i
+
+/metro.{1,5}rider/i
+
+#
+/aus deutschem lager/i
+/direkt(versand)? aus deutschland/i
+/(direktversand|lieferung).{1,10}zoll/i
+
+# Hiring People
+# ------------------------------------------------------------------------------
+/(arbeiter|arbeitskräfte|fachkräfte|hilfspersonal|mitarbeiter|personallösungen|personalsuche|vermittlung|zeitarbeit).{1,15}(baltikum|litauen|slowakei|tschechien)/iu
+
+/(arbeiter|arbeitskräfte|fachkräfte|hilfspersonal|personallösungen|mitarbeiter|personalsuche|vermittlung|zeitarbeit).{1,15}ab.{1,10}(chf|euro)/iu
+/(arbeiter|arbeitskräfte|fachkräfte|hilfspersonal|personallösungen|mitarbeiter|personalsuche|vermittlung|zeitarbeit).{1,10}für ihre.{1,15}projekte/iu
+/(arbeiter|arbeitskräfte|fachkräfte|hilfspersonal|personallösungen|mitarbeiter|personalsuche|vermittlung|zeitarbeit).{1,10}für.{1,15}(logistik|produktion|verarbeitung)/i
+
+/(anfrage|angebot).{1,10}(personalunterstützung|temporäre einsätze)/iu
+/arbeiter aus (europa|europe)/i
+/ausländische fachkräfte für ihr/iu
+
+/freiberufler.{1,10}arbeiter/i
+
+/ihr personalbedarf/i
+/leiharbeiter finden/i
+/litauische arbeiter/i
+
+/neue mitarbeiter aus der/i
+
+/partner.{1,10}zeitarbeit/i
+
+/sie suchen arbeitskräfte/iu
+/suchen?.{1,10}qualifizierten handwerkern/i
+/sofort verfügbare mitarbeiter/iu
+
+/qualifizierte (arbeitskräfte|fachkräfte) (aus|sofort)/iu
+
+/vermitteln produktionshelfer/i
+/wir bieten zeitarbeitsservice/i
+
+/zuverlässig aus.{1,10}(baltikum|litauen)/iu
+
+# Ladder
+# ------------------------------------------------------------------------------
+/teleskop.{1,10}(klappleiter|profi.?leitern?)/i
+
+/leitern?.{1,10}(leicht|handlich|professionell)/i
+/leitern?.{1,10}stark reduziert/i
+
+/ausziehbare leiter/i
+/(klapp)?leiter.{1,15}(betrieb|garten|haus|handwerk)/i
+/(kompakte|optionen|preise).{1,10}/(klapp)?leiter/i
+
+/sichern sie sich.{1,10}leiter/i
+/unsere.{1,10}bestseller.{1,10}leiter/i
+
+# Pavillon/Tent
+# ------------------------------------------------------------------------------
+/(event|falt|garten)?pavillons?.{1,15}(blau|grau|schwarz)/i
+/(event|falt|garten)?pavillons?.{1,15}für (alle|\d{3})/i
+/(event|falt|garten)?pavillons?.{1,15}für nur/i
+
+/(event|falt|garten)?pavillons?.{1,10}\d.?(x|×).?\d/i
+/(event|falt|garten)?pavillons?.{1,20}(gastro|events?|garten)/i
+/(event|falt|garten)?pavillons?.{1,20}(aufbaubar|gesucht|ideal|jetzt|leicht|lieferbar|mit)/i
+/(event|falt|garten)?pavillons?.{1,20}(profi.?qualität|reduziert|regenfest)/iu
+/(event|falt|garten)?pavillons?.{1,15}(schnell|seitenteile|sofort|sonderpreis)/i
+/(event|falt|garten)?pavillons?.{1,15}(verschiedenen|vorteilspreis)/i
+/(event|falt|garten)?pavillons?.{1,15}(wasserdicht|wasserfest|wetterfest)/i
+
+/(event|falt|garten)?pavillons?.{1,10}(halben|kleinen) preis/i
+/(party|veranstaltungs).?zelte?.{1,15}(neu|wasserdicht)/i
+
+/\d.?x.?\d.{1,10}(event|falt|garten)?pavillons?/i
+/bestseller.{1,10}(event|falt|garten)?pavillons?/i
+/(profi|reduziert|sonderpreis).{1,10}(event|falt|garten)?pavillons?/i
+
+/(robuste|stabile|wasserdichte?).{1,10}(event|falt|garten)?pavillons?/i
+
+/wasserdicht(er)?.{1,10}eventschutz/i
+/wasserdichte?.{1,10}veranstaltungszelte?/i
+
+#
+/praktische überdachung/iu
+/verlässlicher wetterschutz für den/iu
+
+# Pen
+# ------------------------------------------------------------------------------
+/(werbe)?(kugelschreiber|kuli).{1,15}(ab|für) (\d|nur)/i
+/(werbe)?(kugelschreiber|kuli).{1,10}(anfragen|bestellen)/i
+/(werbe)?(kugelschreiber|kuli).{1,10}geschäftspartner/iu
+/(werbe)?(kugelschreiber|kuli).{1,10}(sichern|sofort|sonderpreis)/i
+
+/(logo|werbe).?stifte/i
+
+/die kulis/i
+/jetzt markenbotschafter/i
+/kulis mit ihrem/i
+/logo.{1,15}(modern|schwung|stifte|veredelt)/i
+
+/mit ihrem logo/i
+
+# A - B
+/(aluminium|bedruckte).{0,15}(werbe)?(kugelschreiber|kuli)/iu
+# C - L
+/(cent per|eindruck|elegante|fordern|gummierte|hochwertige|individuellen?|jetzt|kostenlos|luxus|logo).{0,15}(werbe)?(kugelschreiber|kuli)/iu
+# M
+/(maßgeschneiderte|metall|moderne|muster).{0,15}(werbe)?(kugelschreiber|kuli)/iu
+# N - U
+/(neue|personalisierte|premium|profi|sichern|stilvolle|softtouch?|unseren).{0,15}(werbe)?(kugelschreiber|kuli)/iu
+# V - W
+/(verfügbar|werbe|werbung).{1,15}(werbe)?(kugelschreiber|kuli)/iu
+
+# Regale
+# ------------------------------------------------------------------------------
+/(archiv|lager|schwerlast|stabile?).{1,10}regale?/i
+
+# Tools
+# ------------------------------------------------------------------------------
+/\d{2,4}.{1,10}teiliges.{1,15}set/i
+
+/akkus?.?(kettensäge|kraft)/iu
+/akkus?.{1,10}(ausrüstung|schnellladegerät)/iu
+/akkus?.{1,10}(koffer|ladestation)/i
+
+/akku.?(geräte|produkte|sets?|werkzeuge?) je \d{2} statt \d{3}/iu
+/akku.?(geräte|produkte|sets?|werkzeuge?).{1,10}(angebot|haus|jahren|komplett|versandbereit)/i
+/akku.?(geräte|produkte|sets?|werkzeuge?).{1,10}mit.{1,10}akkus/i
+
+/(ab lager|bestseller|hammerpreis|unsere).{1,10}akku.?(geräte|produkte|sets?)/i
+
+/profi.{1,10}akku.{1,10}werkzeuggeräte/iu
+
+#
+/(werkstatt|werkzeug).{0,10}(trolley|wagen)/i
+
+/werkzeug.?(koffer|set).{1,20}(für|mit|teilen)/i
+/werkzeug.?(koffer|set).{1,20}jetzt sichern/i
+/werkzeug.?(koffer|set).{1,10}nur heute/i
+
+/werkzeuge?.{1,10}(aktion|highlight|power|upgrade)/i
+/werkzeuge?.{1,10}(klassiker|komplett)/i
+/werkzeuge?.{1,15}(für|fuer|nur) \d/i
+
+/werkstatt.{1,15}in profi.?qualität/iu
+
+/teile.{1,10}werkzeug/i
+/teilige(n|s).{1,20}werkzeug.?(koffer|set)/i
+
+# Washing brush
+# ------------------------------------------------------------------------------
+/teleskop.{1,10}waschbürste/iu
+/(teleskopbürste|waschbürste).{1,20}(aktionspreis|länge|teleskop)/iu
+
+/neu.{1,10}(teleskopbürste|waschbürste)/iu
+
+/endlich bequem reinigen/i
