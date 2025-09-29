@@ -153,7 +153,7 @@ body
   ├─ body.attachment.map                         ─┐
   ├─ body.emergency.map                           │
   ├─ body.emergency.ext.map                       │
-  ├─ body.orgbrandprod.map                        │ X
+  ├─ body.orgbrandprod.map                      X │
   ├─ body.special.map                             │
   │                                               │
   ├─ body.az.orgname.map                          ├─ multimap.body.conf
@@ -173,11 +173,13 @@ body
   │   ├─ body.de.map                             ─┐
   │   ├─ body.de.greetings.map                    │
   │   ├─ body.de.intros.map                       │
-  │   ├─ body.de.message.map                      ├─ multimap.body.de.conf
+  │   ├─ body.de.message.map                      │
+  │   │                                           │      
   │   ├─ body.de.singleword.map                   │
-  │   ├─ body.de.singleword.special.map           │ X
+  │   ├─ body.de.singleword.special.map         X ├─ multimap.body.de.conf 
   │   ├─ body.de.singleword.ucase.map             │
-  │   ├─ body.de.ucase.map                        │ X
+  │   │                                           │
+  │   ├─ body.de.ucase.map                      X │ 
   │   ├─ body.de.unsubscribe.map                 ─┘
   │   │
   │   ├─ body.de.adult.map                       --- multimap.body.de.adult.conf
@@ -200,9 +202,9 @@ body
   │   ├─ body.de.phishing.payment.map             │
   │   ├─ body.de.phishing.refund.map              │
   │   ├─ body.de.phishing.rewards.map             │
-  │   ├─ body.de.phishing.rewards.products.map    │ X
-  │   ├─ body.de.phishing.sale.map                │ X
-  │   ├─ body.de.phishing.security.map            │ X
+  │   ├─ body.de.phishing.rewards.products.map  X │
+  │   ├─ body.de.phishing.sale.map              X │
+  │   ├─ body.de.phishing.security.map          X │
   │   ├─ body.de.phishing.subscription.map        │
   │   ├─ body.de.phishing.survey.map              │
   │   ├─ body.de.phishing.wallet.map             ─┘
@@ -219,7 +221,7 @@ body
   │   ├─ body.de.scam.map                        ─┐
   │   ├─ body.de.scam.business.map                │
   │   ├─ body.de.scam.bignumbers.map              │
-  │   ├─ body.de.scam.choosen.map                 │ X
+  │   ├─ body.de.scam.choosen.map               X │
   │   ├─ body.de.scam.donation.map                │
   │   ├─ body.de.scam.funds.map                   ├─ multimap.body.de.scam.conf
   │   ├─ body.de.scam.investment.map              │
@@ -254,14 +256,15 @@ sender
   ├─ sender.from.phishing.orgbrandprod.ucase.map ─┘
   │
   ├─ sender.from.orgbrandprod.map                ─┐
-  ├─ sender.from.people.map                       ├─ multimap.sender.from.conf
-  ├─ sender.from.special.map                      │
-  ├─ sender.from.special.emoji.map                │ X
+  ├─ sender.from.people.map                       │
+  ├─ sender.from.special.map                      ├─ multimap.sender.from.conf
+  ├─ sender.from.special.emoji.map              X │
   ├─ sender.from.title.map                       ─┘
   │
   ├─ de
-  │   ├─ sender.from.de.singleword.map           --- multimap.sender.from.de.conf
-  │   ├─ sender.from.de.singleword.ucase.map     --- multimap.sender.from.de.conf
+  │   ├─ sender.from.de.singleword.map           ─┐
+  │   ├─ sender.from.de.singleword.special.map    ├─ multimap.sender.from.de.conf
+  │   ├─ sender.from.de.singleword.ucase.map   X ─┘
   │   │
   │   ├─ sender.from.de.map                      --- multimap.sender.from.de.conf 
   │   ├─ sender.from.de.adult.map                --- multimap.sender.from.de.adult.conf
@@ -273,6 +276,7 @@ sender
   │   ├─ sender.from.de.phishing.map             --- multimap.sender.from.de.phishing.conf
   │   ├─ sender.from.de.phishing.malware.map     --- multimap.sender.from.de.phishing.malware.conf
   │   └─ sender.from.de.sale.map                 --- multimap.sender.from.de.sale.conf
+  │   └─ sender.from.de.sale.specific.map      X --- multimap.sender.from.de.sale.conf
   │
   └─ en
       └─ ....
@@ -292,15 +296,18 @@ subject
   │   ├─ subject.de.map                          ─┐  
   │   ├─ subject.de.greetings.map                 │
   │   ├─ subject.de.message.map                   │
+  │   │                                           │
   │   ├─ subject.de.singleword.map                ├─ multimap.subject.de.conf
-  │   ├─ subject.de.singleword.special.map        │ 
+  │   ├─ subject.de.singleword.special.map        │
   │   ├─ subject.de.singleword.ucase.map          │
+  │   │                                           │
   │   ├─ subject.de.ucase.map                    ─┘
   │   │
   │   ├─ subject.de.adult.map                    --- multimap.subject.de.adult.conf
   │   ├─ subject.de.finance.map                  --- multimap.subject.de.finance.conf
   │   ├─ subject.de.gambling.map                 --- multimap.subject.de.gambling.conf
   │   ├─ subject.de.health.map                   --- multimap.subject.de.health.conf
+  │   ├─ subject.de.health.specific.map        X --- multimap.subject.de.health.conf
   │   │
   │   ├─ subject.de.phishing.map                 ─┐
   │   ├─ subject.de.phishing.account.map          │
