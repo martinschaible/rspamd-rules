@@ -558,6 +558,8 @@
 /ingredient you must never/i
 /instantly look younger/i
 
+/is this veggie/i
+
 # J
 /juice lowers/i
 /jumpstart your.{1,15}health/i
@@ -600,7 +602,7 @@
 
 /massage restores/i
 
-/md discovers/i
+/m\.?d\.? (discovers|leaks)/i
 
 /memory.?loss.{1,10}(comes from|unveiled)/i
 /memory.{1,10}in just/i
@@ -951,6 +953,7 @@
 /tonic.{1,10}fixed/i
 /top nasa researcher/i
 /top doctor.{1,10}reveals/i
+/top worst.{1,10}veggies?/i
 
 /toxin.{1,10}avoid/i
 /toxin in.{1,10}(popular|superfoods)/i

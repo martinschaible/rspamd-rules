@@ -191,6 +191,7 @@
 /cff.?sbb/i
 
 /chatgpt.?ai/i
+/chatgpt.?zahlung(en)?/i
 
 /coca.?cola company/i
 
@@ -725,6 +726,8 @@
 
 # U
 # ------------------------------------------------------------------------------
+/ubs.?ag.?ch/i
+
 /-ubereats/i
 
 /_ups/i
@@ -750,6 +753,7 @@
 
 /^volksbank$/i
 /volksbanken$/i
+/volksbanken.{0,10}(service|support)/i
 
 /von.{0,10}swica/i
 
