@@ -40,11 +40,14 @@
 
 /(about|battery|deals|dual.?purpose|expand|germany).{1,15}e(lectric)?.{0,10}(bicycle|bike|velo)/i
 /(high.?performance|inspired|interested).{1,15}e(lectric)?.{0,10}(bicycle|bike|velo)/i
-/(next|portable|premium|revolutionary|seamless|shipping|stylish).{1,15}e(lectric)?.{0,10}(bicycle|bike|velo)/i
+/(next|portable|premium|revolutionary).{1,15}e(lectric)?.{0,10}(bicycle|bike|velo)/i
+/(seamless|shipping|stylish|summit).{1,15}e(lectric)?.{0,10}(bicycle|bike|velo)/i
 /(trusted|ultimate|our).{1,15}e(lectric)?.{0,10}(bicycle|bike|velo)/i
 
 /find your.{1,15}e(lectric)?.{0,10}(bicycle|bike|velo)/i
+/with these.{1,15}e(lectric)?.{0,10}(bicycle|bike|velo)/i
 /(in|with) our.{1,10}e(lectric)?.{0,10}(bicycle|bike|velo)/i
+
 /your.{1,10}e.?bike/i
 
 /city.?voyager/i
