@@ -1,9 +1,19 @@
 # ==============================================================================
+# Here, we enter more generic phrases related to sales.
+# For specific topics that occur frequently and require many entries,
+# we create separate files:
 #
+# - body.de.sale.app.map
+# - body.de.sale.greetings.map
+# - body.de.sale.media.map
+# - body.de.sale.seo.map
+# - body.de.sale.website.map
+#
+# The file "body.de.sale.specific.map" contains rules for products whose entries are not so specific.
 #
 # ------------------------------------------------------------------------------
 # Language: german
-# Weight:   6.0
+# Weight:   12.0
 # -------------------------------------------------------------------------------
 # This is about sales that are not assigned to very specific topics or industries.
 #
