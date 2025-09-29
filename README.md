@@ -102,6 +102,8 @@ These are the latest changes:
 |          | multimap.body.en.sale.conf                 | New map file added            |
 |          | multimap.subject.de.sale.conf              | New map file added            |
 |          | multimap.subject.en.sale.conf              | New map file added            |
+|          | multimap.sender.from.de.sale.conf          | New map file added            |
+|          | multimap.sender.from.en.sale.conf          | New map file added            |
 
 ## Content
 :point_right: All map files of the *first version* are stored in the folder `/etc/rspamd/maps.d/legacy`.<br>
@@ -276,7 +278,7 @@ sender
   │   ├─ sender.from.de.phishing.map             --- multimap.sender.from.de.phishing.conf
   │   ├─ sender.from.de.phishing.malware.map     --- multimap.sender.from.de.phishing.malware.conf
   │   └─ sender.from.de.sale.map                 --- multimap.sender.from.de.sale.conf
-  │   └─ sender.from.de.sale.specific.map      X --- multimap.sender.from.de.sale.conf
+  │   └─ sender.from.de.sale.specific.map        --- multimap.sender.from.de.sale.conf
   │
   └─ en
       └─ ....
