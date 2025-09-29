@@ -34,37 +34,6 @@ The map files in the folder `/etc/rspamd/maps.d` do not need to be copied. **Rsp
 If I add new map files, the configuration files must be updated accordingly.
 These are the latest changes:
 
-| Date     | File                              | Reason                             |
-| -------- | ----------------------------------| ---------------------------------- |
-| 09.05.25 | multimap.subject.conf             | New file for Emojis                |
-| 10.05.25 | All configuration files!          | Splitted in DE and EN versions     |
-| 13.05.25 | multimap.conf                     | New files added, old files removed |
-|          | multimap.body.de.scam.conf        | New file                           |
-|          | multimap.body.en.scam.conf        | New file                           |
-|          | multimap.body.de.stocks.conf      | New file                           |
-|          | multimap.body.en.stocks.conf      | New file                           |
-|          | _multimap_stocks.conf             | Old file deleted                   |
-|          | _multimap_winning.conf            | Old file deleted                   |
-| 14.05.25 | multimap.whitelist.conf           | Three silly typos fixed            |
-| 16.05.25 | multimap.sender.conf              | New map file added                 |
-| 17.05.25 | multimap.subject.de.phishing.conf | New map file added                 |
-|          | multimap.subject.en.phishing.conf | New map file added                 |
-| 26.05.25 | multimap.conf                     | New files added                    |
-|          | multimap.subject.de.stocks.conf   | New file                           |
-|          | multimap.subject.en.stocks.conf   | New file                           |
-| 27.05.25 | multimap.conf                     | New configuration files added      |
-|          | multimap.body.de.sale.conf        | New file                           |
-|          | multimap.body.en.sale.conf        | New file                           |
-|          | _multimap_base_phrases.conf       | Old map files retired/removed      |
-| 28.05.25 | multimap.subject.de.sale.conf     | New map file added                 |
-|          | multimap.subject.en.sale.conf     | New map file added                 |
-| 29.05.25 | multimap.conf                     | New configuration files added      |
-|          | multimap.body.de.phishing.conf    | New file                           |
-|          | multimap.body.en.phishing.conf    | New file                           |
-| 29.05.25 | multimap.conf                     | Old files removed                  |
-|          | _multimap_ad.conf                 | Old file deleted                   |
-|          | _multimap_domain.conf             | Old file deleted                   |
-
 :point_right: A major migration of the configuration files is necessary:
 * The naming of the "Sender" files was unfortunate and has now been corrected.
 * New configuration files have also been added
@@ -129,6 +98,10 @@ These are the latest changes:
 | 20.08.25 | multimap.whitelist.body.en.conf            | New configuration file        |
 | 20.08.25 | multimap.whitelist.header.ip.conf          | New configuration file        |
 | 08.09.25 | multimap.body.conf                         | New map file added            |
+| 29.09.25 | multimap.body.de.sale.conf                 | New map file added            |
+|          | multimap.body.en.sale.conf                 | New map file added            |
+|          | multimap.subject.de.sale.conf              | New map file added            |
+|          | multimap.subject.en.sale.conf              | New map file added            |
 
 ## Content
 :point_right: All map files of the *first version* are stored in the folder `/etc/rspamd/maps.d/legacy`.<br>
@@ -239,7 +212,7 @@ body
   │   ├─ body.de.sale.greetings.map               │
   │   ├─ body.de.sale.china.map                   ├─ multimap.body.de.sale.conf
   │   ├─ body.de.sale.media.map                   │
-  │   ├─ body.de.sale.specific.map                │ X
+  │   ├─ body.de.sale.specific.map                │
   │   ├─ body.de.sale.seo.map                     │
   │   ├─ body.de.sale.website.map                ─┘
   │   │
@@ -352,7 +325,7 @@ subject
   │   ├─ subject.de.sale.china.map                │
   │   ├─ subject.de.sale.media.map                ├─ multimap.subject.de.sale.conf
   │   ├─ subject.de.sale.seo.map                  │
-  │   ├─ subject.de.sale.specific.map             │ X
+  │   ├─ subject.de.sale.specific.map             │
   │   ├─ subject.de.sale.website.map             ─┘
   │   │
   │   ├─ subject.de.scam.map                     ─┐
