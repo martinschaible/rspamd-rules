@@ -1,12 +1,14 @@
 # ==============================================================================
-# Spammers often use special and strange HTML and CSS, which we find here.
+# Spammers often use special and strange HTML and CSS.
 #
+# We also want to find these things
+# - Special or unusual colors and fonts are also used
+# - Rare or undesirable TLDs in connection with markup
+# 
 # ------------------------------------------------------------------------------
 # Language: -
-# Weight:   6.0
+# Weight:   12.0
 # ==============================================================================
-
-# -> Not yet implemented or used
 
 # Strange stuff
 # ------------------------------------------------------------------------------
