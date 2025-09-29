@@ -77,10 +77,18 @@
 /(fat|weight).?(burning|loss).{1,10}(secret|soup|switch)/i
 /(fat|weight).?(burning|loss).{1,10}(tip|viral)/i
 
-/(fat|weight).{1,10}gain.{1,10}fatigue/i
 /(fat|weight).{1,10}blocking herbs/i
+/(fat|weight).{1,10}gain.{1,10}fatigue/i
 /(fat|weight).{1,10}success proven/i
 /(fat|weight).{1,10}with this.{1,10}hack/i
+
+/(burn|drop|erase|lose|melt|remove|shed).{1,10}(belly|more|pounds).{1,10}(fat|flab|weight)/i
+/(burn|drop|erase|lose|melt|remove|shed).{1,10}(inches|lbs|pounds|weight)/i
+/(burn|drop|erase|lose|melt|remove|shed).{1,10}(fat|weight).{1,15}(activate|easily|exercise|fast|in your)/i
+/(burn|drop|erase|lose|melt|remove|shed).{1,10}(fat|weight).{1,15}(overnight|scientists|while you|with this|without)/i
+
+/(burn|drop|erase|lose|melt|remove|shed).{1,10}of your.{1,10}(fat|weight)/i
+/(burn|drop|erase|lose|melt|remove|shed).{1,10}up to.{1,10}(fat|lbs|pounds|weight)/i
 
 /(affects|big|blocking|boost|celeb|daily|easy|fast|for).{1,15}(fat|weight).?(burn(ing)?|loss)/i
 /(hidden|massive|method|overnight|rapid|simple|steady|try this|your).{1,15}(fat|weight).?(burn(ing)?|loss)/i
@@ -90,16 +98,15 @@
 /easy.{1,10}(fat|weight).{1,10}fighting/i
 /erases.{1,10}(fat|weight).{1,10}overnight/i
 
-/remove.{1,10}(fat|weight) without/i
-
+/shed.{1,15}faster/i
+/shed.{1,10}ibs by/i
 /shed.{1,10}sizes overnight/i
+
 /slim down.{1,10}with/i
 
 /gain weight.{1,10}here.{1,10}why/i
 
 /linked to.{1,10}weight gain/i
-/lose fat.{1,10}fast(er)?/i
-/lose.{1,10}of your.{1,10}weight/i
 
 /(ingredient|this).{1,10}melts.{1,10}fat/i
 
@@ -148,7 +155,7 @@
 /after trying this/i
 
 /ageless.{1,10}(glow|skin)/i
-/aginng.{1,10}hormone/i
+/aging.{1,10}hormone/i
 
 /aging in reverse/i
 /aging your skin/i
@@ -211,13 +218,6 @@
 /big pharma.{1,15}want you/i
 
 /bizarre spice/i
-
-/(burn|drop|erase|lose|melt|shed).{1,10}(belly|more|pounds).{1,10}(fat|flab)/i
-/(burn|drop|erase|lose|melt|shed).{1,10}(inches|lbs|pounds|weight)/i
-/(burn|drop|erase|lose|melt|shed).{1,10}fat.{1,15}(activate|easily|exercise|fast|in your)/i
-/(burn|drop|erase|lose|melt|shed).{1,10}fat.{1,15}(overnight|scientists|while you|with this|without)/i
-
-/(burn|drop|erase|lose|melt|shed).{1,10}up to.{1,10}(lbs|pounds|weight)/i
 
 /bladder (control|leaks|relief)/i
 
@@ -782,8 +782,6 @@
 /see proof/i
 
 /sharpen.{1,10}memory/i
-/shed.{1,15}faster/i
-/shed.{1,10}ibs by/i
 
 /shrinks?.{1,10}(belly|prostate|waistline)/i
 
