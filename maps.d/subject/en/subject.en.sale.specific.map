@@ -30,20 +30,21 @@
 
 /cruiser.{1,10}e.?bike/iu
 
-/^e(lectric)?.{0,10}(bicycle|bike)/i
-/e(lectric)?.{0,10}(bicycle|bike).{1,15}(adventrue|built|coorperation)/i
-/e(lectric)?.{0,10}(bicycle|bike).{1,15}(day shipping|delivers?|distribution)/i
-/e(lectric)?.{0,10}(bicycle|bike).{1,15}(factory|germany|interest|performance|ready)/i
-/e(lectric)?.{0,10}(bicycle|bike).{1,15}(shipped|shipping|supplier)/i
+/^e(lectric)?.{0,10}(bicycle|bike|velo)/i
+/e(lectric)?.{0,10}(bicycle|bike|velo).{1,15}(adventrue|built|coorperation)/i
+/e(lectric)?.{0,10}(bicycle|bike|velo).{1,15}(day shipping|delivers?|distribution)/i
+/e(lectric)?.{0,10}(bicycle|bike|velo).{1,15}(factory|germany|interest|performance|ready)/i
+/e(lectric)?.{0,10}(bicycle|bike|velo).{1,15}(shipped|shipping|supplier)/i
 
-/fat.?tire.{1,10}e(lectric)?.{0,10}(bicycle|bike)/i
+/fat.?tire.{1,10}e(lectric)?.{0,10}(bicycle|bike|velo)/i
 
-/(about|battery|deals|dual.?purpose|expand|germany).{1,15}e(lectric)?.{0,10}(bicycle|bike)/i
-/(high.?performance|inspired|interested).{1,15}e(lectric)?.{0,10}(bicycle|bike)/i
-/(next|portable|premium|revolutionary|seamless|shipping|stylish).{1,15}e(lectric)?.{0,10}(bicycle|bike)/i
-/(trusted|ultimate|our).{1,15}e(lectric)?.{0,10}(bicycle|bike)/i
+/(about|battery|deals|dual.?purpose|expand|germany).{1,15}e(lectric)?.{0,10}(bicycle|bike|velo)/i
+/(high.?performance|inspired|interested).{1,15}e(lectric)?.{0,10}(bicycle|bike|velo)/i
+/(next|portable|premium|revolutionary|seamless|shipping|stylish).{1,15}e(lectric)?.{0,10}(bicycle|bike|velo)/i
+/(trusted|ultimate|our).{1,15}e(lectric)?.{0,10}(bicycle|bike|velo)/i
 
-/(in|with) our.{1,10}e(lectric)?.{0,10}(bicycle|bike)/i
+/find your.{1,15}e(lectric)?.{0,10}(bicycle|bike|velo)/i
+/(in|with) our.{1,10}e(lectric)?.{0,10}(bicycle|bike|velo)/i
 /your.{1,10}e.?bike/i
 
 /city.?voyager/i
