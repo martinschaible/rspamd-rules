@@ -1,0 +1,35 @@
+# ==============================================================================
+# To avoid overloading the "sender.en.sale.map" file,
+# we add product-specific rules to this file.
+#
+# ------------------------------------------------------------------------------
+# Language: german
+# Weight:   12.0
+# ==============================================================================
+
+# Camera
+# ------------------------------------------------------------------------------
+/cam(era)?.{0,10}(guard|protect|spy)/i
+
+/(hidden|home|secure|spy|watch).{0,10}cam(era)?/i
+
+# Drone
+# ------------------------------------------------------------------------------
+/drone.{0,10}(deals?|expert|labs|zone)/i
+/drone.?x/i
+
+/(4k|8k|air|fly|raptor|skyview|smarty?|your).{0,10}drone/i
+/x?pro.{0,5}drone/i
+
+/tactic(al)?.{0,10}drone/i
+/tactic(al)?.{0,10}(air|official|team)/i
+
+# Replicas
+# ------------------------------------------------------------------------------
+/(hot|luxury|top).{0,10}(bags|watch(es)?)/i
+
+# Snore
+# ------------------------------------------------------------------------------
+/snore.{0,10}(again|block|stop)/i
+/(anti|fight|stop).{0,10}snoring/i
+/never.{0,10}snore/i
