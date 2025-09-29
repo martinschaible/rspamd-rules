@@ -25,22 +25,25 @@
 # Cars
 # ------------------------------------------------------------------------------
 /(audi|mercedes.?benz|porsche|volkswagen|vw).{1,15}(ab lager|sofort|werkszugang)/i
-/(audi|mercedes.?benz|porsche|volkswagen|vw).{1,15}vertragsrücklauf/iu
 /(audi|mercedes.?benz|porsche|volkswagen|vw).{1,10}fahrzeuge/i
+/(audi|mercedes.?benz|porsche|volkswagen|vw).{1,15}vertragsrücklauf/iu
+/(audi|mercedes.?benz|porsche|volkswagen|vw).{1,10}werksvertrieb/i
 
-/fahrzeuge.{1,10}bis zu.{1,10}rabatt/i
-/fahrzeuge.{1,10}vertragsauflösungen/iu
+/(fahrzeuge|jahreswagen|werksmodelle).{1,10}bis zu.{1,10}rabatt/i
+/(fahrzeuge|jahreswagen|werksmodelle).{1,10}vertragsauflösungen/iu
+/(fahrzeuge|jahreswagen|werksmodelle).{1,10}sofort lieferbar/i
+/(fahrzeuge|jahreswagen|werksmodelle).{1,10}direkt (mitnehmen|verfügbar)/iu
 
-/lagerabverkauf.{1,15}fahrzeuge/i
 /(geprüfte|lagerabverkauf|verfügbare|zertifizierte).{1,10}(audi|mercedes.?benz|porsche)/iu
+/(geprüfte|lagerabverkauf|verfügbare|zertifizierte).{1,10}fahrzeuge/iu
 
+/direkt vom händler.{1,10}verfügbare?/iu
 /exklusiven katalog anfordern/i
-/geprüfte fahrzeuge direkt/iu
 
 /jetzt werkskatalog/i
 /jetzt zugang anfordern/i
 
-/neue fahrzeuge auf lager
+/neue fahrzeuge auf lager/i
 /rabatte?.{1,10}über.{1,10}fahrzeuge/iu
 /sonderkontingent freigegeben/i
 /vertragsrückläufer.{1,10}sonderkonditionen/iu
@@ -50,14 +53,15 @@
 # -> They are stealing personal information
 
 /^(photo.?voltaik|pv|solar).?anlagen?/i
+/\/ (photo.?voltaik|pv|solar).?anlagen?/i
+
 /(photo.?voltaik|pv|solar).?anlagen?.{1,20}alle förderungen/iu
-/(photo.?voltaik|pv|solar).?anlagen?.{1,20}(extrem|finden|gewerbe|günstig|häuser|nulltarif|tiefstand)/iu
-/(photo.?voltaik|pv|solar).?anlagen?.{1,20}(komplettpreis|tiefstand|tiefstpreise)/iu
+/(photo.?voltaik|pv|solar).?anlagen?.{1,20}(extrem|finden|gewerbe|günstig(er)?|häuser|nulltarif)/iu
+/(photo.?voltaik|pv|solar).?anlagen?.{1,20}(komplettpreis|tiefstand|tiefstpreise|vorteil)/iu
 /(photo.?voltaik|pv|solar).?anlagen?.{1,20}massiv im preis gefallen/i
 /(photo.?voltaik|pv|solar).?anlagen?.{1,20}mit speicher.{1,10}(ab \d{2,3}|für nur|schon ab)/iu
 
 /photo.?voltaik lohnt sich.{1,10}prüfen sie/iu
-/(photo.?voltaik|pv|solar).?vorteil/i
 
 # 18.12.24 Sample: 18.12.2024 / PV-Anlage
 /\d{2}\.\d{2}\.\d.{4}.{1,10}(photo.?voltaik|pv|solar).{1,10}anlagen?/i
@@ -87,6 +91,8 @@
 /(auszahlung|günstigste).{1,10}(photovoltaik|pv|solar).?anlagen?/i
 /mit günstiger.{1,10}(photovoltaik|pv|solar).?anlagen?/iu
 /günstige preise.{1,10}(alle|für).{1,10}(photovoltaik|pv|solar).?anlagen?/iu
+
+/preise.{1,10}(photovoltaik|pv|solar).?anlagen?.?anlagen gefallen/i
 
 /(preissturz|preissenkungen).{1,10}(photovoltaik|pv|solar).?anlagen?/i
 /(rabatte|sinkende preise).{1,20}(photovoltaik|pv|solar).?anlagen?/i
@@ -148,9 +154,11 @@
 # ------------------------------------------------------------------------------
 /(publikation|schaltung|veröffentlichung|werbeanzeige|wichtig).{1,10}(branchen.?buch|branchen.?führer|firmen.?eintrag)/iu
 
+/(branchen.?buch|branchen.?führer|firmen.?eintrag).{1,10}.{1,10}\d{4}/i
 /(branchen.?buch|branchen.?führer|firmen.?eintrag).{1,20}(202\d|publikation|veröffentlichung)/iu
 /(branchen.?buch|branchen.?führer|firmen.?eintrag).{1,10}werbe.?(anzeige|annonce)/i
 
+/(annonce|anzeige).{1,10}branchen.?führer/i
 /ihre organisation wurde in unserem verzeichnis/i
 
 #
