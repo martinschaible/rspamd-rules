@@ -92,9 +92,10 @@
 /customized.{1,10}works for/i
 
 # D
-/dependable.{1,10}(pcba?|printed.?circuits?.?board).{1,10}partner/i
+/(dependable|different).{1,10}(pcba?|printed.?circuits?.?board).{1,10}(partner|supplier)/i
 
 /die casting solutions/i
+
 /direct manufacturer of/i
 /discuss.{1,10}(pcba?|printed.?circuits?.?board).{1,10}products/i
 
@@ -216,6 +217,9 @@
 /manufacturers?.{5,25}since/i
 
 /materials.{1,10}suppliers/i
+
+/medical.{1,10}transformer.{1,10}manufacturer/i
+
 /microchip.{1,10}parts request/i
 
 /multilayer (pcba?|printed.?circuits?.?board).{1,10}manufacturing/i

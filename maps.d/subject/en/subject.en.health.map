@@ -22,6 +22,7 @@
 
 /(secret|simple|unusual).{1,10}(hack|ritual|solution|trick).{1,15}(activate|erases|needs|reverses|trusted|to end)/i
 
+/sec(ond)?.{1,10}bedtime habit/i
 /sec(ond)?.{1,10}(dumping|water).{1,10}fix/i
 /sec(ond)?.{1,10}habit.{1,15}(balance|better|transforms)/i
 /sec(ond)?.{1,10}(morning|skin).{1,10}(habbit|trick)/i
@@ -465,7 +466,7 @@
 /(fruits?|vegetable|veggies?).{1,10}might not/i
 /(fruits?|vegetable|veggies?).{1,10}that.{1,10}(fights|harm|might|may|weakens)/i
 /(fruits?|vegetable|veggies?).{1,10}that make you/i
-/(fruits?|vegetable|veggies?).{1,10}to stop/i
+/(fruits?|vegetable|veggies?).{1,10}to (eat|stop)/i
 /(fruits?|vegetable|veggies?).{1,10}(should|to) avoid/i
 /(fruits?|vegetable|veggies?).{1,10}surprising benefits/i
 /(fruits?|vegetable|veggies?).{1,10}worse than/i
@@ -666,6 +667,8 @@
 /one.{1,10}daily habit could/i
 
 /open the mystical/i
+
+/our.{1,10}herbal extract/i
 /overcome diabetes/i
 
 # P
