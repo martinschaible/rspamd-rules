@@ -43,6 +43,8 @@
 # D
 
 # E
+/e?.?mail.?address due.{1,10}security restrictions.{1,10}your.{1,10}e?.?mail.?server/i
+
 /(e?.?mail|message)s?.{1,10}abuse notice.{1,10}security alert/i
 /(e?.?mail|message)s?.{1,10}are.{1,15}suspended on the.{1,10}server/i
 /(e?.?mail|message)s?.{1,10}awaiting your inbox/i
@@ -150,11 +152,11 @@
 
 /your.{1,15}account is.{1,10}active on our server/i
 
-/Your.{1,15}e?.?mail.{1,10}account has been flagged/i
+/your.{1,15}e?.?mail.{1,10}account has been flagged/i
 /your.{1,10}e?.?mail.{1,10}undergoing.{1,15}maintenance/i
 
 /your.{1,10}electronic.{1,10}e?.?mail.{1,10}account/i
 /your.{1,10}unreceived.{1,10}(e?.?mail|message)s?.{1,10}are stuck/i
-/your.{1,15}settings are.{1,15}blocking incoming.{1,10}(e?.?mail|message)s?/i
+/your.{1,15}settings are.{1,15}blocking.{1,10}incoming.{1,10}(e?.?mail|message)s?/i
 
 # Z
