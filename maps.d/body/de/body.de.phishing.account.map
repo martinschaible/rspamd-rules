@@ -41,8 +41,9 @@
 # I
 /ihr.{1,10}kundenprofil ist nicht aktuell/i
 
-/ihre identitätsinformationen überprüfen/iu
-/ihre kontoinformationen erneut bestätigen/i
+/ihre.{1,15}identitätsinformationen überprüfen/iu
+/ihre.{1,15}kontoinformationen erneut bestätigen/i
+/ihre.{1,15}kontaktdaten zu bestätigen/iu
 
 /ist eine neue verifizierung erforderlich/i
 
@@ -50,6 +51,8 @@
 /jetzt.{1,10}zugriff wiederherstellen/i
 
 # K
+/kontaktdaten jetzt aktualisieren/i
+
 /(konto|profil).{1,15}erfordert eine aktualisierung/i
 /(konto|profil).{1,10}einer verifizierung bedarf/i
 /(konto|profil).{1,15}festgestellt.{1,10}die ungewöhnlich erscheint/iu
@@ -62,6 +65,7 @@
 /(konto|profil).{1,15}zu überprüfen und auf.{1,10}nachrichten/iu
 
 /kontoinformationen.{1,10}nicht bestätigt wurden/iu
+/kontoinformationen.{1,10}überprüfen.{1,15}aktualisieren/iu
 
 /kontodetails unter folgendem link/i
 
