@@ -71,6 +71,8 @@
 /e.?bike\?/i
 /e.?bike!/i
 
+/elektrovellos/i
+
 /(e.?bike|elektro.?moped).{1,15}eu.?(lieferung|weit)/i
 /(e.?bike|elektro.?moped).{1,10}(besten|bester).{1,10}preis/i
 /(e.?bike|elektro.?moped).{1,10}für (alle|den|ihre|jedes?)/i
@@ -113,6 +115,10 @@
 /aus deutschem lager/i
 /direkt(versand)? aus deutschland/i
 /(direktversand|lieferung).{1,10}zoll/i
+
+/haben sie interesse an unseren/i
+/könnte eines unserer neuen/iu
+/sind sie interessiert.{1,10}mehr über unsere/iu
 
 # Hiring People
 # ------------------------------------------------------------------------------

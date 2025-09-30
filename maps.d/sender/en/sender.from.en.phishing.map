@@ -145,7 +145,7 @@
 
 /fraud.{0,15}(detection|prevention)/i
 
-/free.{0,10}samples?/i
+/free.{0,10}(kit|samples?)/i
 
 # G
 /gift.{0,10}inside/i
@@ -275,6 +275,7 @@
 # X
 
 # Y
+/your.{0,10}free/i
 /your.{0,10}gift/i
 /your.{0,10}membership/i
 /your.{0,10}reward/i

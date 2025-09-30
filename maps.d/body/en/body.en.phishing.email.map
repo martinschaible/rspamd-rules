@@ -146,7 +146,7 @@
 /you must clear.{1,10}cache immediately/i
 /you must clear.{1,10}cache.{1,20}(send|receive)/i
 
-/you received.{1,15}(e?.?mail|message)s?messages.{1,10}that could not be/i
+/you received.{1,15}(e?.?mail|message)s?.{1,10}that could not be/i
 
 /your.{1,15}account is.{1,10}active on our server/i
 
@@ -155,5 +155,6 @@
 
 /your.{1,10}electronic.{1,10}e?.?mail.{1,10}account/i
 /your.{1,10}unreceived.{1,10}(e?.?mail|message)s?.{1,10}are stuck/i
+/your.{1,15}settings are.{1,15}blocking incoming.{1,10}(e?.?mail|message)s?/i
 
 # Z
