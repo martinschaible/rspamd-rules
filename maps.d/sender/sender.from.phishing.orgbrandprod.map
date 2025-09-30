@@ -536,7 +536,7 @@
 /paypal.{0,15}(account|case.?id|customer)/i
 /paypal.{0,15}(europe?|inc)/i
 /paypal.{0,15}(benachrichtigung(en)?|betrieb|kunden|konto|management|sicherheit|verifizierung|vertrauen)/i
-/paypal.{0,15}(compliance|update|security|services?|support|team|voucher)/i
+/paypal.{0,15}(compliance|update|security|services?|support|team|technischer|voucher)/i
 
 /paypal(-|_)/i
 /pay pal/i
@@ -628,7 +628,7 @@
 /s p o t i f y/i
 /spotify.?(™|®|©)$/i
 /spotify_/i
-/spotify.{0,10}(ab|inc\.|premium|team)/i
+/spotify.{0,10}(ab|inc\.|premium|support|team)/i
 
 /^stanley$/i
 

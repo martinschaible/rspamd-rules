@@ -19,6 +19,7 @@
 # A
 /account.{1,10}verification required.{1,10}dear/i
 
+/action.{1,10}required.{1,10}dear.{1,15}(client|customer)/i
 # B
 
 # C
@@ -33,6 +34,8 @@
 
 /dear.{1,15}(client|customer).{1,15}reviewing your.{1,15}account information/i
 /dear.{1,15}(client|customer).{1,20}(pleased|writing).{1,10}(inform|notify) you/i
+
+/dear.{1,15}(client|customer).{1,15}verification needed/i
 
 /dear.{1,15}(client|customer).{1,15}we have recently updated our/i
 /dear.{1,15}(client|customer).{1,15}we would like to inform.{1,15}your invoice/i

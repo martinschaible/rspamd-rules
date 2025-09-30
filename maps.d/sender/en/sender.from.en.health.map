@@ -93,7 +93,7 @@
 
 /healthy?.{0,10}(aging|alerts?|alternative)/i
 /healthy?.{0,10}(brain|choice(es)?|deals?|digest)/i
-/health.?.{0,10}(discovery|digest)/i
+/health.?.{0,10}(discovery|digest|enigma)/i
 /healthy?.{0,10}(feet|fibes|files?|foods?)/i
 /healthy?.{0,10}(gift|guides?|gut)/i
 /healthy?.{0,10}(habit|hack|hair|heart|heaven|hero)/i
@@ -506,7 +506,7 @@
 
 /fatigue.{0,10}bloating/i
 
-/fat.{0,5}hack/i
+/fat.{0,5}(hack|water)/i
 /fat(ty)?.{0,10}(artery|dissolving)/i
 /fat(ty)?.{0,10}arteries/i
 
