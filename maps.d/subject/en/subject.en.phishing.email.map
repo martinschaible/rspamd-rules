@@ -50,6 +50,8 @@
 
 # A
 /access unread.{1,10}(e?.?mail|message)/i
+/account verification for.{1,10}(imap|pop3)/i
+
 
 /(a|p)\.m\..{1,10}roundcube webmail/i
 
