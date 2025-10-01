@@ -261,6 +261,7 @@
 /\d{1,2} seconds?/i
 /\d{2,3} years old/i
 
+/1 surprising update/i
 /(120|150)\/80/i
 /20\/20.{0,10}(hearing|solution)/i
 
@@ -691,7 +692,7 @@
 
 /(mineral|miracle).{0,10}(alert|burner|drops?|minerals?|syrup)/i
 
-/miraculous.{0,10}fruit/i
+/(miracle|miraculous).{0,10}(fruit|mind)/i
 
 /missing.{0,10}nutrients?/i
 
@@ -794,7 +795,7 @@
 
 # Q
 /quick.{1,10}(stretch|technique)/i
-/quiet.{1,10}nights?/i
+/quiet.{1,10}(mornings?|nights?)/i
 
 # R
 /radiant{0,10}glow/i

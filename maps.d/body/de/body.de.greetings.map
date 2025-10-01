@@ -264,6 +264,7 @@
 
 # Sample: geehrte/r amazon kunde/in
 /sehr geehrte\/?r?.{1,15}kunde.{1,5}\d{1,10}/i
+/sehr geehrte\/?r?.{1,15}betroffener?/i
 
 /sehr geehrtes.{1,10}unternehmen/i
 
