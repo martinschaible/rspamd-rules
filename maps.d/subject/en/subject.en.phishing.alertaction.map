@@ -43,6 +43,8 @@
 /^action-required$/i
 
 # Sample: Action needed: (1585755969)
+/^(action|update) (needed|required)$/i
+
 /(action|update) (needed|required).{1,5}\d{5,15}/i
 
 /(action|update) (needed|required) (on)?.{1,15}@/i
