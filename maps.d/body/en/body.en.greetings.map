@@ -60,12 +60,15 @@
 /(dear|greetings?|good day|hello|hi\b).{1,10}apologize for sending you/i
 /(dear|greetings?|good day|hello|hi\b).{1,10}from.{5,35}the.{1,15}manager/i
 /(dear|greetings?|good day|hello|hi\b).{1,20}nice to meet you/i
-/(greetings?|good day|hello|hi\b).{1,5}sir.{1,5}(madam|mam)/i
+
+/(dear|greetings?|good day|hello|hi\b).{1,10}pleased to introduce myself as/i
 /(dear|greetings?|good day|hello|hi\b).{1,15}this might come.{1,10}surprise/i
 /(dear|greetings?|good day|hello|hi\b).{1,15}this is.{5,25}from/i
 
 /(dear|greetings?|good day|hello|hi\b).{1,10}i am.{1,15}broker/i
 /(dear|greetings?|good day|hello|hi\b).{1,10}i work as a/i
+
+/(greetings?|good day|hello|hi\b).{1,5}sir.{1,5}(madam|mam)/i
 
 /dear.{1,10}friend.{1,10}how are you.{1,10}are you looking for/i
 /dear.{1,10}friend.{1,10}i am (mrs?|ms)/i

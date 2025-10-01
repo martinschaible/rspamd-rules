@@ -341,8 +341,8 @@
 /supplier.{1,10}mold.?products/i
 /supplier.{1,10}who can serve/i
 
-/supply(ing)?{1,15}(electronic|quality).{1,15}components/i
-/supply(ing)?{1,15}steel plates/i
+/supply(ing)?.{1,15}(electronic|quality).{1,15}components/i
+/supply(ing)?.{1,15}steel plates/i
 
 # T
 /toolmaking services.{1,10}china/i

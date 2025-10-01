@@ -350,6 +350,7 @@
 /zustellung.{1,10}möglich.{1,10}paket noch nicht abgeholt/iu
 
 /(zustellung|zustellversuch).{1,25}(ausstehend|fehlgeschlagen)/i
+/zustellung nicht möglich.{1,10}falsche adresse/iu
 
 /zustellinformation für ihre.{1,10}paketsendung/iu
 
