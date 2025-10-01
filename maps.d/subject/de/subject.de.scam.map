@@ -52,19 +52,19 @@
 # ------------------------------------------------------------------------------
 # -> They are stealing personal information
 
-/^(photo.?voltaik|pv|solar).?anlagen?/i
-/\/ (photo.?voltaik|pv|solar).?anlagen?/i
+/^(photo.?voltaik|pv|solar).{0,5}anlagen?/i
+/\/ (photo.?voltaik|pv|solar).{0,5}anlagen?/i
 
-/(photo.?voltaik|pv|solar).?anlagen?.{1,20}alle förderungen/iu
-/(photo.?voltaik|pv|solar).?anlagen?.{1,20}(extrem|finden|gewerbe|günstig(er)?|häuser|nulltarif)/iu
-/(photo.?voltaik|pv|solar).?anlagen?.{1,20}(komplettpreis|tiefstand|tiefstpreise|vorteil)/iu
-/(photo.?voltaik|pv|solar).?anlagen?.{1,20}massiv im preis gefallen/i
-/(photo.?voltaik|pv|solar).?anlagen?.{1,20}mit speicher.{1,10}(ab \d{2,3}|für nur|schon ab)/iu
+/(photo.?voltaik|pv|solar).{0,5}anlagen?.{1,20}alle förderungen/iu
+/(photo.?voltaik|pv|solar).{0,5}anlagen?.{1,20}(extrem|finden|gewerbe|günstig(er)?|häuser|nulltarif)/iu
+/(photo.?voltaik|pv|solar).{0,5}anlagen?.{1,20}(komplettpreis|tiefstand|tiefstpreise|vorteil)/iu
+/(photo.?voltaik|pv|solar).{0,5}anlagen?.{1,20}massiv im preis gefallen/i
+/(photo.?voltaik|pv|solar).{0,5}anlagen?.{1,20}mit speicher.{1,10}(ab \d{2,3}|für nur|schon ab)/iu
 
 /photo.?voltaik lohnt sich.{1,10}prüfen sie/iu
 
 # 18.12.24 Sample: 18.12.2024 / PV-Anlage
-/\d{2}\.\d{2}\.\d.{4}.{1,10}(photo.?voltaik|pv|solar).{1,10}anlagen?/i
+/\d{2}\.\d{2}\.\d.{4}.{1,10}(photo.?voltaik|pv|solar).{0,10}anlagen?/i
 
 # 30.07.25 Sample: 2025 / PV & Förderung
 /\d.{4}.{1,10}pv.{1,10}förderung/iu
@@ -76,29 +76,31 @@
 
 /auszahlung.{1,10}förderung/iu
 
-/eigene.{1,10}(photo.?voltaik|pv|solar).?anlagen?.{1,10}mit speicher/i
+/eigene.{1,10}(photo.?voltaik|pv|solar).{0,5}anlagen?.{1,10}mit speicher/i
 
 /förderung(en)?.{1,10}\d{2}\.\d{2}\.\d{4}/iu
 /förderung(en)?.{1,10}geld einnehmen/iu
-/förderung(en)?.{1,10}(photo.?voltaik|pv|solar).?anlagen?/iu
+/förderung(en)?.{1,10}(photo.?voltaik|pv|solar).{0,5}anlagen?/iu
 
 /ihre.{1,15}euro förderung/iu
-/ihre.{1,10}(photo.?voltaik|pv|solar).?anlagen?/i
+/ihre.{1,10}(photo.?voltaik|pv|solar).{0,5}anlagen?/i
 /ihr.{1,10}solar.?vorteil/i
 
 /jetzt sichern.{1,15}fördergelder/iu
 
-/(auszahlung|günstigste).{1,10}(photo.?voltaik|pv|solar).?anlagen?/i
-/mit günstiger.{1,10}(photo.?voltaik|pv|solar).?anlagen?/iu
-/günstige preise.{1,10}(alle|für).{1,10}(photo.?voltaik|pv|solar).?anlagen?/iu
+/komplette.{1,10}(photo.?voltaik|pv|solar).{0,5}anlagen?.{1,10}für nur/iu
 
-/preise.{1,10}(photo.?voltaik|pv|solar).?anlagen?.?anlagen gefallen/i
+/(auszahlung|günstigste).{1,10}(photo.?voltaik|pv|solar).{0,5}anlagen?/i
+/mit günstiger.{1,10}(photo.?voltaik|pv|solar).{0,5}anlagen?/iu
+/günstige preise.{1,10}(alle|für).{1,10}(photo.?voltaik|pv|solar).{0,5}anlagen?/iu
 
-/(preissturz|preissenkungen).{1,10}(photo.?voltaik|pv|solar).?anlagen?/i
-/(rabatte|sinkende preise).{1,20}(photo.?voltaik|pv|solar).?anlagen?/i
+/preise.{1,10}(photo.?voltaik|pv|solar).?anlagen?.{0,5}anlagen gefallen/i
 
-/kostet eine.{1,10}(photo.?voltaik|pv|solar).?anlagen? keinen/i
-/preise.{1,10}(photo.?voltaik|pv|solar).?anlagen?.{1,10}gefallen/i
+/(preissturz|preissenkungen).{1,10}(photo.?voltaik|pv|solar).{0,5}anlagen?/i
+/(rabatte|sinkende preise).{1,20}(photo.?voltaik|pv|solar).{0,5}anlagen?/i
+
+/kostet eine.{1,10}(photo.?voltaik|pv|solar).{0,5}anlagen? keinen/i
+/preise.{1,10}(photo.?voltaik|pv|solar).{0,5}anlagen?.{1,10}gefallen/i
 /preise.{1,10}pv deutlich gesunken/i
 
 /persönliches angebot nr\./iu
@@ -108,11 +110,11 @@
 
 /so lohnt sich solarstrom/i
 /stromkosten.{1,10}mit solarmodulen?/i
-/unverbindliches.{1,10}(photo.?voltaik|pv|solar).?angebot/i
+/unverbindliches.{1,10}(photo.?voltaik|pv|solar).{0,5}angebot/i
 
 /überweisung ihrer förderungen/iu
 
-/wieder verfügbar.{1,10}(photo.?voltaik|pv|solar).?anlagen?/i
+/wieder verfügbar.{1,10}(photo.?voltaik|pv|solar).{0,5}anlagen?/i
 
 #
 /pers\. angebot vom/i
