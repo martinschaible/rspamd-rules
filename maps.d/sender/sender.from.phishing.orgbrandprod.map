@@ -48,6 +48,7 @@
 # iCloud
 # Kaufland Card
 # Lidl Küchenliebe
+# McAfee
 # Mein ROSSMANN April
 # Meta
 # Microsoft account team
@@ -441,6 +442,8 @@
 # ------------------------------------------------------------------------------
 /^mastercard$/i
 
+/mccafee/i
+
 /media markt/i
 
 #/^meta$/i
@@ -650,7 +653,7 @@
 /sum.?up.{0,10}(kundenservice|kontakt)/i
 /sumxup/i
 
-/sumup.{0,10}(assistenz|kundendienst|service.?desk|limited|team)/i
+/sumup.{0,10}(assistenz|kundendienst|service.?desk|support|limited|team)/i
 /(account|mein|team|von).{0,10}sumup/i
 
 /sunrise.{0,10}support/i
