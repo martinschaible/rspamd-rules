@@ -72,6 +72,7 @@
 
 # I
 /important.{1,10}(e?.?mail|message).{1,10}suspended/i
+/important.{1,10}(action|update) (needed|required)/i
 
 /(important|incoming|pending|sent).{1,10}(e?.?mail|message)s?.{1,10}(awaiting|failed)/i
 /(important|incoming|pending|sent).{1,10}(e?.?mail|message)s?.{1,10}have been placed on hold/i
@@ -132,6 +133,7 @@
 
 /webmail.{1,10}storage.{1,10}(re.?)?validation/i
 /webmail.{1,10}this.{1,10}(e?.?mail|message)s?.{1,10}directed/i
+/webmail.{1,10}update required/i
 
 # X
 

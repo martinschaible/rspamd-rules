@@ -150,7 +150,9 @@
 /from.{1,15}guangdong.{1,10}china/i
 
 # G
+/get your.{1,10}best quote from/i
 /good.{1,10}pcba?.?supplier/i
+/good.{1,10}supplier for you/i
 
 /(good|high).?quality.{1,10}chinese/i
 /(good|high).?quality.{1,10}(pcba?|printed.?circuits?.?board)/i
@@ -363,7 +365,10 @@
 # W
 /we are.{1,10}looking for partners for/i
 /we are a.{1,10}professional/i
+/we guarantee stable quality/i
+
 /we (make|supply).{1,20}(bags|majority|microphone|packing|priced chips|wireless)/i
+/we (make|supply){1,10}high.?quality{1,15}with full/i
 
 /with our precision.{1,20}(engineered|solutions)/i
 

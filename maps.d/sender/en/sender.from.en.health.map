@@ -297,7 +297,7 @@
 /(bad|big|enhanced|poor|weak).{0,10}(bladder|eyes|memory|veggies)/i
 /bad.{0,10}breath/i
 
-/back.{0,10}(aches?|fixer|pain|stretch)/i
+/back.{0,10}(aches?|fixer|neck|pain|stretch)/i
 
 /bacon.{0,10}eggs/i
 
@@ -314,8 +314,9 @@
 /beauty.{0,10}(acid|hack|secret|tip)/i
 
 /bed.{0,10}(hack|stretch)/i
-/bedtime.{0,10}(brew|habit|move|reset)/i
+/bed.?time.{0,10}(brew|habit|move|reset|solution)/i
 /bedroom.{0,10}(fix|secrets?)/i
+
 /berry.{0,10}detox/i
 
 /best.{0,10}(salt|sleep)/i
@@ -867,7 +868,7 @@
 
 /skin.{0,10}(alert|fix|sculptor|secret|tightening)/i
 
-/sleep.{0,10}(age|discovery|hack|health|lab|memory|mineral|mistake|position|reset)/i
+/sleep.{0,10}(age|discovery|hack|health|lab|memory|mineral|mistake|position|posture|reset)/i
 /sleep.{0,10}(shortcut|slim|solution|trick)/i
 
 /slim.{0,10}diet/i
@@ -908,6 +909,7 @@
 /stop.{0,10}(breating|brushing|flossing)/i
 
 /stream.{0,10}strong(er)?/i
+/stress.{0,10}weight/i
 /stretch.{0,10}soothe/i
 
 /strong(er)?.{0,10}(bladder|heart|memory|urine)/i

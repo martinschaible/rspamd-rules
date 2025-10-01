@@ -145,7 +145,7 @@
 /(e?.?mail|mailbox).{1,10}account validation for/i
 /(e?.?mail|mailbox).{1,10}security reminder/i
 /(e?.?mail|mailbox).{1,10}update alert/i
-/(e?.?mail|mailbox).{1,10}verification.{1,10}action required/i
+/(e?.?mail|mailbox).{1,10}verification.{1,10}(action|update) (needed|required)/i
 
 # F
 /final (notice|reminder).{1,10}(confirm|refresh|verify) your/i
@@ -178,6 +178,7 @@
 # 30.07.25 - Important notice
 /重要通知/i
 
+/IMPORTANT.{1,15}Action required
 /important.{1,15}(notice|notification).{1,10}account verification/i
 /important.{1,15}(notice|notification).{1,10}for.{1,15}@/i
 /important.{1,15}(notice|notification).{1,10}regarding your.{1,15}account/i
@@ -201,16 +202,16 @@
 # L
 /last chance to avoid.{1,20}interruption/i
 
-/last reminder.{1,10}action needed/i
+/last reminder.{1,10}(action|update) (needed|required)/i
 /last reminder.{1,10}e?.?mail.{1,10}shutdown/i
 /last reminder.{1,10}we noticed/i
 /last reminder.{1,10}your access to/i
 
-/login detected.{1,10}action needed/i
+/login detected.{1,10}(action|update) (needed|required)/i
 
 # M
 /mail alert/i 0.25
-/mailbox full.{1,10}action required/i
+/mailbox full.{1,10}(action|update) (needed|required)/i
 
 /migration.{1,10}last chance/i
 
@@ -265,10 +266,10 @@
 /(secure|security).{1,10}(action|update|upgrade).{1,10}identity confirmation/i
 /(secure|security).{1,10}(action|update|upgrade).{1,10}required/i
 
-/security (alert|notice).{1,10}action required/i
+/security (alert|notice).{1,10}(action|update) (needed|required)/i
 /security (alert|notice).{1,10}confirm access/i
 /security (alert|notice).{1,10}funds/i
-/security (alert|notice).{1,25}immediate action needed/i
+/security (alert|notice).{1,25}immediate.{1,10}(action|update) (needed|required)/i
 /security (alert|notice).{1,10}verify your.{1,15}account/i
 
 /security update.{1,25}confirm your/i
@@ -289,7 +290,7 @@
 /update.{1,10}required for your access/i
 /update.{1,10}required to ensure uninterrupted/i
 
-/update.{1,10}violation.{1,10}action required/i
+/update.{1,10}violation.{1,10}(action|update) (needed|required)/i
 
 /update.{1,10}your.{1,10}contact info/i
 /update.{1,10}your.{1,10}e?.?mail.?(account|portal)/i
@@ -305,7 +306,7 @@
 
 /urgent.{1,10}action.{1,15}delivery/i
 /urgent.{1,10}e.?mail.?confirmation/i
-/urgent.{1,10}(e.?mail|mailbox).{1,10}update required/i
+/urgent.{1,10}(e.?mail|mailbox).{1,10}(action|update) (needed|required)/i
 /urgent.{1,10}incoming pending.{1,10}(e?.?mails|messages)/i
 /urgent.{1,10}password notice/i
 /urgent.{1,10}two.?factor.{1,15}(activation|authentication)/i
@@ -329,7 +330,7 @@
 /verify your.{1,10}tax documents/i
 
 # W
-/wallet alert.{1,10}action required/i
+/(wallet alert|webmail update).{1,10}(action|update) (needed|required)/i
 
 /welcome back.{1,10}your attention/i
 

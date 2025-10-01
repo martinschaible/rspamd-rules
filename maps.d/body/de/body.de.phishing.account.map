@@ -57,6 +57,13 @@
 /(konto|profil).{1,10}einer verifizierung bedarf/i
 /(konto|profil).{1,15}festgestellt.{1,10}die ungewöhnlich erscheint/iu
 /(konto|profil).{1,15}innerhalb der nächsten.{1,10}Stunden zu bestätigen/iu
+
+/(konto|profil).{1,15}ist.{1,10}(dauerhaft|derzeit|möglicherweise|vorübergehend).{1,10}(ausgesetzt|eingeschränkt|begrenzt|gesperrt)/iu
+
+/(konto|profil).{1,10}ist.{1,10}(ausgesetzt|begrenzt|eingeschränkt|gesperrt).{1,10}bis/iu
+/(konto|profil).{1,10}ist.{1,10}(ausgesetzt|begrenzt|eingeschränkt|gesperrt).{1,10}aktualisieren sie ihre zahlungsdetails/i
+/(konto|profil).{1,10}ist.{1,10}(ausgesetzt|begrenzt|eingeschränkt|gesperrt).{1,10}um es.{1,10}(online|wieder).{1,10}zu aktivieren/iu
+
 /(konto|profil).{1,15}sicher zu halten.{1,10}ist eine identitätsbestätigung/iu
 /(konto|profil).{1,15}vorübergehend eingeschränkt/iu
 /(konto|profil).{1,15}wieder freizuschalten.{1,10}bestätigen sie/iu

@@ -72,6 +72,7 @@
 /e.?bike!/i
 
 /elektrovellos/i
+/^elektrofahrräder/iu
 
 /(e.?bike|elektro.?moped).{1,15}eu.?(lieferung|weit)/i
 /(e.?bike|elektro.?moped).{1,10}(besten|bester).{1,10}preis/i
@@ -80,10 +81,10 @@
 /(e.?bike|elektro.?moped).{1,15}(power|reichweite|revolution|tagen|stärke|zukunft)/i
 
 /(elektrofahrrad|elektrofahrrädern?|elektromotorrad).{1,10}(beste wahl|direkt|herstellerpreisen?)/i
-/(elektrofahrrad|elektrofahrrädern?|elektromotorrad).{1,10}(für nur|zukunft)/iu
+/(elektrofahrrad|elektrofahrrädern?|elektromotorrad).{1,10}(für europa|für nur|zukunft)/iu
 /(elektrofahrrad|elektrofahrrädern?|elektromotorrad).{1,10}(berge|stadt)/i
 
-/(anfragen|jetzt|passende).{1,10}(elektrofahrrad|elektrofahrrädern?|elektromotorrad)/i
+/(anfragen|beste|jetzt|passende).{1,10}(elektrofahrrad|elektrofahrrädern?|elektromotorrad)/i
 /(distributor|geschäft|händler).{1,10}(elektrofahrrad|elektrofahrrädern?|elektromotorrad)/iu
 
 /(auf ein|faltbarefortbewegung|kauf|kraftvoll|neues).{1,15}(e.?bike|elektro.?moped)/iu
@@ -113,7 +114,7 @@
 
 #
 /aus deutschem lager/i
-/direkt(versand)? aus deutschland/i
+/(direkter versand|direkt(versand)?) aus (deutschland|europa)/i
 /(direktversand|lieferung).{1,10}zoll/i
 
 /haben sie interesse an unseren/i

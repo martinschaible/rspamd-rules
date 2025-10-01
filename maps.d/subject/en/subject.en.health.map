@@ -197,7 +197,7 @@
 
 # B
 /back.?pain.{1,10}relief/i
-/backpine relief/i
+/back.{1,10}neck.{1,10}pain/i
 
 /balanced?.{1,10}blood (pressure|sugar)/i
 /banishing.{1,10}toenail/i
@@ -639,6 +639,8 @@
 /natural.{1,10}weight.?loss/i
 /naturally.{1,10}(discover|restored?|with this)/i
 
+/neck.{1,10}back.{1,10}pain/i
+
 /needs this drink/i
 /nerve.?pain getting/i
 
@@ -800,6 +802,7 @@
 /simple fruit with/i
 /simple habit.{1,10}(destroys|that)/i
 /simple oral flush/i
+/simple solution.{1,15}(back|neck|pain)/i
 /simple spine/i
 /simple trick.{1,10}uncover/i
 
@@ -983,7 +986,7 @@
 /use this secret/i
 
 # V
-/veggies?.{1,10}facts/i
+/veggies?.{1,15}(facts|rethinking|worth)/i
 
 /vets.{1,10}concerned/i
 /vision.{1,10}(fix|solutions?)/i
