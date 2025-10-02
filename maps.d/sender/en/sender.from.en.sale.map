@@ -40,6 +40,8 @@
 /boresighter/i
 
 /bright.{0,10}path/i
+
+/built.{0,10}(tough|to last)/i
 /bullet.{0,10}embedded/i
 /business.{0,10}(growth|leads?)/i
 
@@ -118,7 +120,7 @@
 
 # G
 /gadget.{0,10}savers?/i
-/gear.{0,10}dispatch/i
+/gear.{0,10}(dispatch|support)/i
 /global.{0,10}food/i
 
 /guard.{0,10}(offer|partner|pro)/i
@@ -162,12 +164,15 @@
 /knives?.{0,10}(set|team)/i
 
 # L
+/launch.{0,10}offer/i
+
 /leaf.?filter/i
 /limited time/i
 /local.?seo/i
 /luxury.?(collections?|watch(es)?)/i
 
 # M
+/meet.{0,10}your/i
 /mini.{0,10}(blower|cool|heater|jet)/i
 
 /mobile.{0,10}photography/i
@@ -216,16 +221,16 @@
 /rk.?pro/i
 
 # S
-/safe.?tech/i
+/safe.{0,10}(tech|living)/i
 /safety on/i
 
 /^sales.?team$/i
 
-/save (more|on)/i
+/save (more|on|today)/i
 
 /seat.?cushion/i
 
-/secure.{0,10}nation/i
+/secure.{0,10}(experts?|master|nation|space)/i
 /security.{0,10}camera/i
 
 /senior.{0,10}perks/i
@@ -285,6 +290,8 @@
 /vending.{0,10}machines?/i
 
 # W
+/water.{0,10}resistant/i
+
 /wasting.{0,10}money/i
 /watch(es)?.?online/i
 
@@ -302,3 +309,4 @@
 /your.{0,10}timeshare/i
 
 # Z
+/zero.{0,10}bulk/i

@@ -37,6 +37,8 @@
 /(geprüfte|lagerabverkauf|verfügbare|zertifizierte).{1,10}(audi|mercedes.?benz|porsche)/iu
 /(geprüfte|lagerabverkauf|verfügbare|zertifizierte).{1,10}fahrzeuge/iu
 
+/sofort verfügbare.{1,10}(audi|mercedes.?benz|porsche|volkswagen|vw).{1,10}modelle/i
+
 /direkt vom händler.{1,10}verfügbare?/iu
 /exklusiven katalog anfordern/i
 
@@ -251,6 +253,8 @@
 
 # M
 /mastercard im wert/i
+
+/meine bescheidene bitte an sie/i
 
 # N
 

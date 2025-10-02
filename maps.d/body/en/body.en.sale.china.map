@@ -70,7 +70,9 @@
 /our steel is manufactured/i
 
 /our.{1,10}competency.{1,15}manufacturing/i
-/our.{1,10}(company|factory) specializes.{1,10}producing/i
+
+/our.{1,10}(company|factory).{1,10}leading/i
+/our.{1,10}(company|factory).{1,10}specializes.{1,10}producing/i
 
 /our.{1,10}(pcba?|printed.?circuit.?board).{1,10}(delivery|on.?time)/i
 /our.{1,10}customizable.{1,10}paper bag solutions/i
@@ -105,10 +107,10 @@
 # V
 
 # W
-/we.{1,10}are.{1,10}(independent|leading|professional|specialized|top|trusted).{1,20}(distributor|domestic|manufacturer|supplier) (in the|of|producing|with)/i
-/we.{1,10}are.{1,10}(independent|leading|professional|specialized|top|trusted).{1,20}(factory|forwarder)/i
-/we.{1,10}are.{1,10}(independent|leading|professional|specialized|top|trusted).{1,20}(electric|bycycle)/i
-/we.{1,10}are.{1,10}(independent|leading|professional|specialized|top|trusted).{1,20}pvc hose/i 
+/we.{1,10}are.{1,10}(independent|leading|professional|specialized?|top|trusted).{1,20}(distributor|domestic|manufacturer|supplier) (in the|of|producing|with)/i
+/we.{1,10}are.{1,10}(independent|leading|professional|specialized?|top|trusted).{1,20}(factory|forwarder)/i
+/we.{1,10}are.{1,10}(independent|leading|professional|specialized?|top|trusted).{1,20}(electric|bycycle)/i
+/we.{1,10}are.{1,10}(independent|leading|professional|specialized?|top|trusted).{1,20}pvc hose/i 
 
 /we.{1,10}are.{1,20}manufacturers?.{1,10}exporters?/i
 
@@ -137,7 +139,7 @@
 
 /we.{1,10}setup.{1,10}(our|own).{1,10}manufacturing/i
 
-/we.{1,10}specialize.{1,10}(advanced|custom|design|metal|producing|supplying)/i
+/we.{1,10}specialize.{1,10}(advanced|cnc|custom|design|metal|producing|supplying)/i
 /we.{1,10}specialize.{1,10}(manufacture|manufacturing)/i
 /we.{1,10}specialize.{1,10}(eu|us).{1,10}designs/i
 

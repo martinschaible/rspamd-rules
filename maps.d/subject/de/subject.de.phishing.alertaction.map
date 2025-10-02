@@ -87,7 +87,7 @@
 /(aktualisieren?|bestätigen?).{1,10}deine.{1,15}zahlungsart \(\d{4,20}\)/i
 
 /(aktualisieren?|bestätigen?).{1,10}sie.{1,10}ihre?.{1,15}(angaben|app|daten|identität|informationen)/i
-/(aktualisieren?|bestätigen?).{1,10}sie.{1,10}ihre?.{1,10}(kontoangaben|kontoidentität|profil|sicherheit|telefon.?nummer)/iu
+/(aktualisieren?|bestätigen?).{1,10}sie.{1,10}ihre?.{1,10}(kontoangaben|kontoidentität|profil|sicherheit|stammdaten|telefon.?nummer)/iu
 /(aktualisieren?|bestätigen?).{1,10}sie.{1,10}ihre.{1,20}(verifizierung|zahlungsdaten)/iu
 /(aktualisieren?|bestätigen?).{1,10}sie.{1,10}ihren.{1,15}zugang/i
 
@@ -145,6 +145,7 @@
 
 /bitte beachten.{1,10}handlungsbedarf/i
 /bitte beachten sie.{1,10}ihre.{1,20}muss/i
+/bitte bestätigen.{1,10}aktualisieren/iu
 
 /bitte online.?zahlung.{1,10}bestätigen/iu
 
