@@ -13,6 +13,9 @@
 # Weight:   12.0
 # ==============================================================================
 
+# BackPack
+# ------------------------------------------------------------------------------
+
 # E-Bikes
 # ------------------------------------------------------------------------------
 /(experienced|reliable).{1,10}e(lectric)?.{0,10}(bicycle|bike|velo).{1,10}(factory|manufacturer)/i
@@ -35,3 +38,16 @@
 
 /with warehouses.{1,10}in.{1,10}(europe|states|usa)/i
 /(electric|pedal).{1,10}assistant bicycles/i
+
+# Night Glasses
+# ------------------------------------------------------------------------------
+# Product
+/clear.?view/i
+
+/drive.?bright.{1,15}(anti.?glare|glasses)/i
+/drive.{1,10}after dark with/i
+
+/night driving starts here/i
+
+/shop.{1,10}smart.{1,10}backpack/i
+/the.{1,10}smart backpack/i
