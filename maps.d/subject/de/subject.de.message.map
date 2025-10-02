@@ -109,7 +109,10 @@
 /(e?.?mail|nachricht).{1,10}könnte dein leben/iu
 /(e?.?mail|nachricht).{1,10}sie gut findet/i
 /(e?.?mail|nachricht).{1,10}(mrs\.|ms\.)/i
-/(e?.?mail|nachricht).{1,10}von (letzter|vergangener) woche.{1,10}(angekommen|bekommen|erhalten|erreichen|gesehen)/i
+
+/(e?.?mail|nachricht).{1,10}von.{1,10}gestern angekommen ist/i
+/(e?.?mail|nachricht).{1,10}von.{1,10}(letzter|vergangener) woche.{1,10}(angekommen|bekommen|erhalten|erreichen|gesehen)/i
+/(e?.?mail|nachricht).{1,10}von.{1,10}gestern zu lesen/i
 
 /empfang der.{1,10}e?.?mail bestätigen/i
 /endgültige mitteilung/i
@@ -119,6 +122,7 @@
 /erinnerung an meine?.{1,10}(e?.?mail|nachricht)/i
 
 # F
+/feedback zu meiner.{1,10}gestrigen e?.??mail/i
 /freue mich auf.{1,10}(e?.?mail|nachricht)/i
 
 /funktioniert (die|ihre).{1,10}e?.?mail noch/i

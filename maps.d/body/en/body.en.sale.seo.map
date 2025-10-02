@@ -111,6 +111,13 @@
 # V
 
 # W
+/we are.{1,10}(leading|offering) seo/i
+/we are.{1,10}seo.?agency/i
+
+/we can.{1,10}(promote|put|rank) your.{1,10}(web)?site/i
+/we can.{1,10}help you rank higher/i
+/we do.{1,10}seo for all/i
+
 /we.{1,10}(get|guarantee) top.{1,15}(placement|positions?|ranking)/i
 /we.{1,10}help companies enhance.{1,10}seo/i
 /we.{1,10}offer.{1,15}seo.?solutions?/i
@@ -118,7 +125,7 @@
 /we.{1,10}specialize.{1,10}seo/i
 
 /we.{1,10}(boost|enhance|improve) your.{1,15}(position|ranking|ranks|search visibility)/i
-/we.{1,10}(boost|enhance|improve|optimize|place) your.{1,10}(web)?.?site/i
+/we.{1,10}(boost|enhance|improve|optimize|place|promote) your.{1,10}(web)?.?site/i
 
 /with the right seo/i
 
