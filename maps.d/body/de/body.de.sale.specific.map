@@ -52,8 +52,8 @@
 # ------------------------------------------------------------------------------
 /(neues|premium|unser).{1,15}(e.?bike|elektro.?moped)/i
 
-/(e.?bike|elektrische|elektro|fahrräder).{1,15}(fabrik|tretunterstützung)/iu
-/(e.?bike|elektrische|elektro|fahrräder).{1,15}vor(zu)?stellen/i
+/(e.?bike|e.?cycle|elektrische|elektro|fahrräder).{1,15}(fabrik|tretunterstützung)/iu
+/(e.?bike|e.?cycle|elektrische|elektro|fahrräder).{1,15}vor(zu)?stellen/i
 
 /(moped.?style|retro.?cruiser).{1,10}e.?bike/i
 /(moped.?style|retro.?cruiser).{1,10}fat.?tire/i
@@ -67,7 +67,7 @@
 /unsere elektrofahrradmodelle/i
 /unsere fabrik produziert/iu
 
-/wir sind ein.{1,15}(e.?bike|elektro.?moped).{1,10}hersteller/iu
+/wir sind ein.{1,15}(e.?bike|e.?cycle|elektro.?moped).{1,10}hersteller/iu
 
 /wir sind ein.{1,15}hersteller.{1,10}elektro.?fahrrädern/iu
 /wir sind ein.{1,15}hersteller.{1,15}der sich auf die produktion/i
