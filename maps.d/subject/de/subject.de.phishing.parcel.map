@@ -204,6 +204,7 @@
 # Used in real life
 #/(paket|sendung).{1,10}ist unterwegs!/i
 
+/(paket|sendung).{1,10}\d{5,15}.{1,10}zahlung/i
 /(paket|sendung).{1,10}an sie hätte geliefert/iu
 /(paket|sendung).{1,10}auf die freigabe wartet/i
 /(paket|sendung).{1,10}befindet sich.{1,10}(wartestellung|zustellzentrum)/i
@@ -330,6 +331,7 @@
 # Sample Zahl 7204300
 /zahl.{1,5}\d{5,10}/i
 
+/zahlung.{1,10}erforderlich.{1,10}fortsetzung/i
 /zahlung.{1,15}(paket|sendung).{1,10}(erforderlich|steht aus)/i
 /zahlung.{1,10}(ausstehend|erforderlich).{1,10}für.{1,10}(paket|zustellung)/iu
 /zahlung.{1,10}(versandgebühr|zustellgebühr).{1,10}erforderlich/iu
