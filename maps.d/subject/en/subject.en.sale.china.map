@@ -43,6 +43,8 @@
 # A
 /ad.?parts.{1,10}request/i
 
+/(acrylic|window).{1,10}display systems/i
+
 /aluminum die casting/i
 /(apparel|caps).{1,10}together/i
 
@@ -73,7 +75,7 @@
 /cnc.{1,10}machining/i
 /(design|manufacture|you need).{1,15}pcba?/i
 
-/co.{1,5}ltd/i
+/co.{1,5}(limited|ltd)/i
 /component distributor.{1,10}rfq/i
 
 /contact.{1,10}pcba?.{1,10}supplier/i
@@ -92,6 +94,8 @@
 /customized.{1,10}(mannequins|metal solutions|pvc.?hoses?)/i
 /customized.{1,10}works for/i
 
+/costs.{1,10}direct from.{1,10}factory/i
+
 # D
 /(dependable|different).{1,10}(pcba?|printed.?circuits?.?board).{1,10}(partner|supplier)/i
 
@@ -100,6 +104,7 @@
 /direct manufacturer of/i
 /discuss.{1,10}(pcba?|printed.?circuits?.?board).{1,10}products/i
 
+/discover cnc.{1,20}for your business/i
 /distribution.{1,15}manufactory/i
 
 /^do you buy/i
@@ -107,9 +112,13 @@
 # E
 /exclusive freight rates/i
 
+/(explore|discover).{1,10}(cnc|milling)/i
 /(explore|discover).{1,10}electronic.{1,10}components?/i
+
 /(explore|discover).{1,10}our.{1,10}(company|factory)/i
+/(explore|discover).{1,10}our.{1,10}advanced.{1,10}(led|lighting|solutions)/i
 /(explore|discover).{1,10}our.{1,10}distinctive/i
+
 /(explore|discover).{1,10}quality.{1,10}(bags|backpacks)/i
 
 /electronic components?.{1,10}(distributor|stock|supplier|supply)/i

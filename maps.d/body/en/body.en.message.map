@@ -73,6 +73,7 @@
 # H
 
 # I
+/(confirm|if|is|response).{1,10}(the|this|your).{1,10}e?.?mail.{1,15}is functional/i
 /(confirm|if|is|response).{1,10}(the|this|your).{1,10}e?.?mail.{1,15}still (active|valid)/i
 
 /i apologize for.{1,10}long message/i

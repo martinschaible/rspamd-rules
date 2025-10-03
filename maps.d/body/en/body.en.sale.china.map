@@ -22,17 +22,18 @@
 # B
 
 # C
-/china co.{1,10}ltd/i
+/china co.{1,10}(limited|ltd)/i
 /china.{1,10}thank you for taking the time/i
 /china.{1,10}we can offer/i
 
-/co.{1,5}ltd.{1,10}excited to introduce/i
-/co.{1,5}ltd.{1,15}(manufacturer|professional|supplier)/i
-/co.{1,5}ltd.{1,10}mob(ile)?.{1,10}wechat/i
-/co.{1,5}ltd.{1,10}machining/i
-/co.{1,5}ltd.{1,10}nice to know you/i
-/co.{1,5}ltd.{1,10}is.{1,10}popular in/i
-/co.{1,5}ltd.{1,10}trusted/i
+/co.{1,5}(limited|ltd).{1,10}excited to introduce/i
+/co.{1,5}(limited|ltd).{1,15}(manufacturer|professional|specialize|supplier)/i
+/co.{1,5}(limited|ltd).{1,10}is.{1,10}popular in/i
+/co.{1,5}(limited|ltd).{1,10}mob(ile)?.{1,10}wechat/i
+/co.{1,5}(limited|ltd).{1,10}machining/i
+/co.{1,5}(limited|ltd).{1,10}nice to know you/i
+/co.{1,5}(limited|ltd).{1,10}offers a wide range/i
+/co.{1,5}(limited|ltd).{1,10}trusted/i
 
 # D
 /distributor.{1,10}specializing in all kinds of/i
@@ -120,6 +121,7 @@
 /we.{1,10}are.{1,10}electronic.{1,10}parts/i
 /we.{1,10}can.{1,10}provide steel/i
 
+/we.{1,10}believe our advanced/i
 /we.{1,10}(focus on|support).{1,10}(pcba?|printed.?circuit.?board)/i
 
 /we.{1,10}have been specializing.{1,10}exporting/i
@@ -143,10 +145,13 @@
 /we.{1,10}specialize.{1,10}(manufacture|manufacturing)/i
 /we.{1,10}specialize.{1,10}(eu|us).{1,10}designs/i
 
+/wide range.{1,15}(led|lighting|products)/i
+
 # X
 
 # Y
 /you have.{1,10}goods.{1,10}transport from/i
+/you be interested in exploring/i
 /you to our range of custom/i
 
 /your.{1,10}web.?site.{1,20}we are in the same/i
