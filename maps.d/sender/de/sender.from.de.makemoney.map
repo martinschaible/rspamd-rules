@@ -51,8 +51,10 @@
 # ==============================================================================
 
 # A
-/ai.{0,5}(deutschland|rendite|schweiz)/i
+/(ai|ki).{0,5}(deutschland|schweiz)/i
+/(ai|ki).{0,5}(gewinn|rendite)/i
 
+/auto.{0,10}gewinn/i
 # B
 /banken.?(newsletter|zittern)/i
 
