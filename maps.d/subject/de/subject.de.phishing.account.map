@@ -26,7 +26,7 @@
 # A
 /aktivitäten vorübergehend geschlossen/iu
 
-/aktualisierung.{1,10}(kontosicherheit|zahlungsangaben)/i
+/aktualisierung.{1,10}(kontoinformationen|kontosicherheit|zahlungsangaben)/i
 
 /anderes gerät ist mit ihrem.{1,15}konto/iu
 
@@ -107,6 +107,9 @@
 /(karte|konto).{1,10}in der warteschleife/i
 
 /konto.{1,10}(stillgelegt|vorübergehende?)/iu
+
+# Sample: Kontoinformationen - 420998446741
+/kontoinformationen.{1,10}\d{4,20}/i
 
 /kontosicherheit.{1,5}ref\./i
 /kontosperrung zu vermeiden/i

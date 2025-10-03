@@ -86,9 +86,17 @@
 # ------------------------------------------------------------------------------
 /(omega|seamaster).{1,15}starting at/i
 
+/enhance.{1,10}your wifi/i
 /exclusive luxury watches/i
 /luxury watches at just/i
 /timepieces collection starting at/i
 
 /hot.{1,10}handbags from/i
 /top.{1,10}watches starting from/i
+
+# WiFi
+# ------------------------------------------------------------------------------
+/(boost|improve) your (internet|wi.?fi|wireless)/i
+
+/portable.{1,10}(wi.?fi|wireless).{1,10}/i
+/reliable internet for all your/i
