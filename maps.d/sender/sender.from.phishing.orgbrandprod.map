@@ -24,6 +24,7 @@
 # Aldi Suisse AG News
 # ALDI SUISSE AG - News
 # Aliexpress
+# Allianz
 # Amazon Business
 # amazon.de
 # Apple
@@ -47,6 +48,7 @@
 # Hetzner Cloud
 # iCloud
 # Kaufland Card
+# LANDI Kundendienst
 # Lidl Küchenliebe
 # McAfee
 # Mein ROSSMANN April
@@ -152,6 +154,7 @@
 
 /apple.{0,10}airtag/i
 /apple.{0,10}(autorisierung|zahlung)/i
+/apple.{0,10}services/i
 
 /apple.?pay/i
 /(app|apple).?store.{0,10}rechnung/i
@@ -479,7 +482,7 @@
 /^mycss$/i
 /my-css/i
 /mycss.{0,5}krankenversicherung/i
-/mycss.{0,5}via/i
+/mycss.{0,5}(team|via)/i
 
 # 05.02.25 - TOYOTA FINANCE CORPORATION
 /my ts cubic/i
