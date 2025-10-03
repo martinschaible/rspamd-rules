@@ -157,6 +157,8 @@
 /lieferdetails.{1,10}um die lieferung/i
 /lieferproblem.{1,10}antworten sie/i
 
+/lieferung nicht möglich.{1,10}falsche adresse/i
+
 /(lieferung|versand).{1,10}jetzt bestätigen/i
 
 /(lieferung|paket|sendung|versand|zustellung).{1,10}\.\.\.\]/i
@@ -165,6 +167,7 @@
 /(lieferung|paket|sendung|versand|zustellung).{1,10}bereit.{1,30}bestätigen sie sofort/iu
 /(lieferung|paket|sendung|versand|zustellung).{1,10}(benötigt|erfordert) eine.{1,15}bestätigung/iu
 /(lieferung|paket|sendung|versand|zustellung).{1,10}für sie zurückgehalten/iu
+/(lieferung|paket|sendung|versand|zustellung).{1,10}konnte nicht zugestellt werden.{1,10}verschieben sie/i
 /(lieferung|paket|sendung|versand|zustellung).{1,10}ist angehalten/i
 /(lieferung|paket|sendung|versand|zustellung).{1,10}steht zur zustellung bereit/i
 
@@ -203,6 +206,8 @@
 
 # Used in real life
 #/(paket|sendung).{1,10}ist unterwegs!/i
+
+/(paket|sendung).{1,10}(dhl|dpd).{1,5}ref/i
 
 /(paket|sendung).{1,10}\d{5,15}.{1,10}zahlung/i
 /(paket|sendung).{1,10}an sie hätte geliefert/iu
