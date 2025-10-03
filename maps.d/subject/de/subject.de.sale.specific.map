@@ -68,6 +68,9 @@
 # E Bike, Scooter
 # ------------------------------------------------------------------------------
 # -> I think, this is scam
+/d{1,2} elektro.?rad/i
+/elektro.?rad/i
+
 /e.?bike\?/i
 /e.?bike!/i
 
