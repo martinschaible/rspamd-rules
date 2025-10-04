@@ -303,6 +303,7 @@ subject
   │   ├─ subject.de.singleword.special.map        │
   │   ├─ subject.de.singleword.ucase.map          │
   │   │                                           │
+  │   ├─ subject.de.special.map                X  │
   │   ├─ subject.de.ucase.map                    ─┘
   │   │
   │   ├─ subject.de.adult.map                    --- multimap.subject.de.adult.conf
