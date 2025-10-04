@@ -29,6 +29,7 @@
 # E
 /einlage eines.{1,10}verstorbenen kunden/i
 
+/es gibt eine geschäftsmöglichkeit/iu
 /es handelt sich um eine.{1,10}geschäftstransaktion/iu
 
 # F
@@ -39,7 +40,9 @@
 
 # I
 /ich habe.{1,10}ein.{1,10}(dringendes|wichtiges).{1,15}(angebot|geschäft)/iu
-/ich habe .{1,10}ein.{1,10}lukratives angebot für sie/iu
+/ich habe.{1,10}ein.{1,10}lukratives angebot für sie/iu
+
+/ihnen teilen möchte.{1,30}dass sie für uns beide von vorteil/iu
 
 # J
 

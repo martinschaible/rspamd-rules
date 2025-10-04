@@ -85,7 +85,6 @@
 
 /(jetzt|vergleichen).{1,10}förderungen.{1,15}(prüfen|sichern)/iu
 
-/klicks erfahren sie.{1,10}wie viel.{1,15}sie/i
 /mit unserem.{1,15}online.?rechner erhalten sie in wenigen/i
 
 /sichern sie sich.{1,10}günstige.{1,10}(photo.?voltaik|pv|solar).?anlage/iu
@@ -134,6 +133,9 @@
 
 # Generic
 # ==============================================================================
+
+#
+/\d{2}.{1,10}für ihre bemühungen behalten/iu
 
 # A
 /abwicklung ist risikofrei.{1,10}legal/i
