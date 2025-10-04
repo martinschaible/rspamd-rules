@@ -1,0 +1,156 @@
+# ==============================================================================
+# To avoid overloading the "body.de.health.map" file,
+# we add health-specific rules to this file.
+#
+# ------------------------------------------------------------------------------
+# Language: german
+# Weight:   12.0
+# ==============================================================================
+
+# Topics
+# ==============================================================================
+
+# Medication
+# ------------------------------------------------------------------------------
+/medikamente.{1,10}(apotheke|einkaufen|kaufen|ordern|pharma)/i
+/(meds|tabletten|pillen).{1,10}(anfordern|apotheke|bestellen|bestellung|einkaufen|kaufen|ordern|pharma)/i
+/(herren|original).{1,10}(medikamente|meds|tabletten|pillen)/i
+
+/medikamente online bestellen/i
+
+# Men
+# ------------------------------------------------------------------------------
+/(erektions|potenz).?(mittel|leistung|pillen|stundenlang)/i
+
+/(garantierte|starke).?erektion/i
+/produktion.{1,10}sexualhormonen/i
+
+/(gut|schlecht).{1,10}beim (beischlaf|lieben|liebesspiel|sex|s\.e\.x)/i
+/(gut|schlecht).{1,10}(im bett|in der kiste)/i
+
+/(harte|härtere|längere|sofortige|starke).{1,10}erektion(en)?/iu
+/gigantischer.?penis/i
+
+/(glied|penis).{1,10}erigiert/i
+/ihr.{1,10}(glied|penis)/i
+
+/länge.{1,10}dicke/i
+/herren.?meds/i
+
+/ursache.{1,10}erektionsstörung(en)?/i
+
+/sie (den|ihren) penis/i
+/stärker.{1,10}länger/iu
+
+# Potency
+# ------------------------------------------------------------------------------
+/gute.{1,10}potenz/i
+
+/langweilig im bett/i
+
+/männlichen potenzsteigerung/iu
+/männlichkeit (zurückgewinnen|zu steigern)/iu
+
+/kapseln verändern alles/iu
+/partner im schlafzimmer/i
+/potenz in die/i
+/power im bett/i
+
+/sexual.?leben.{1,15}(mann|männer)/i
+/stärke.{1,10}männlichkeit/iu
+/vitalität.{1,10}durchhaltevermögen/i
+/volle.{1,10}manneskraft/i
+
+/blauen? pille/i
+
+# Weightloss
+# ------------------------------------------------------------------------------
+/\d{1,2}.?(kg|kilos?) in einem monat/i
+/\d{1,2}.?(kg|kilos?) in \d{1,2} tagen/i
+/\d{1,2}.?(kg|kilos?) (verlieren|weg)/i
+
+/\d{2,3}.{1,10}gewichtsverlust/i
+
+/abnehm.?quiz/i
+/abnehmen.{1,10}kg in.{1,10}tagen/i
+/abnehmen.{1,10}(einfach|günstig|schnell)/i
+/abnehmen.{1,10}echte ergebnisse/i
+/abnehmen.{1,10}mit diesem/i
+/abnehmen.{1,10}noch nie so einfach/i
+
+/(kg|kilos?|pfund).{1,10}abgenommen (habe|hat)/i
+/(kg|kilos?|pfund).{1,10}erfahren sie/i
+/(kg|kilos?|pfund).{1,10}fett eliminieren/i
+/(kg|kilos?|pfund).{1,10}in.{1,10}tagen.{1,10}(abnehmen|verlieren)/i
+/(kg|kilos?|pfund).{1,10}monat.{1,10}(abnehmen|verlieren)/i
+/(kg|kilos?|pfund).{1,10}schmelzen/i
+/(kg|kilos?|pfund).{1,10}weniger in.{1,10}Woche/i
+/(kg|kilos?|pfund).{1,10}verlieren in nur/i
+
+/bauchfett.{1,10}(loswerden|lösung|schmelzen|verbrennen|verlieren|verschwindet)/iu
+/bauchfett in.{1,15}los/i
+
+/bauchumfang.{1,10}schmelzen/i
+
+/bauch.?weg.{1,10}lösung/iu
+
+/diät erobert/iu
+/diät ohne verzicht.{1,10}jetzt/iu
+
+/diese.{1,10}diät/i
+/einfaches abnehmen mit/i
+
+/fett.{1,10}wunder/i
+/fettverbrennung auf/i
+/flacher.{1,10}bauch/i
+/für echte resultate/iu
+
+/ganz ohne diät/iu
+/gewicht zu verlieren/i
+/haben sie gewichtsprobleme/i
+/hartnäckiges bauchfett/iu
+
+/jetzt abnehmen/i
+/kostenlos.{1,10}abnehmen/i
+
+/mühelos \d{1,2} kilo/iu
+/mühelos.{1,10}strandfigur/iu
+
+/monaten.{1,10}kg verloren/i
+
+/nehmen sie.{1,10}(kg|kilos?) in.{1,10}woche/i
+
+/ohne diat/i
+/ohne rezept/i
+
+/schlank(er)?.{1,10}starten/i
+/schlankheit.{1,15}(endlich|enthüllt)/i
+
+/schluss mit.{1,10}diät(en)?/i
+/schluss mit.{1,10}nagelpilz/i
+
+/schnell.{1,10}einfach.{1,10}abnehmen/i
+/schnellste fettkiller/i
+
+/sie hat.{1,10}kilo verloren/i
+/sicherer.{1,10}gewichts.?verlust/i
+
+/tipp gegen bauchfett/i
+
+/um schnell abzunehmen/i
+
+/verbrennt.{1,15}bauchfett/i
+
+/verliert.{1,10}kg in.{1,10}wochen/i
+/verlieren.{1,10}kilo.{1,10}während sie/i
+
+/verlieren sie.{1,10}bis zu.{1,10}(kg|kilos?)/i
+/verlieren sie.{1,10}gewicht/i
+/verlieren sie.{1,10}(kg|kilos?) in.{1,10}wochen/i
+
+# Product
+/vorteile.{1,10}keto/i
+
+/wochen.{1,10}(kg|kilo|pfund) abgenommen/i
+
+/zum abnehmen.{1,10}verholfen/i

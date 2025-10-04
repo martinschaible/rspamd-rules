@@ -1,0 +1,33 @@
+# ==============================================================================
+# To avoid overloading the "body.de.health.map" file,
+# we add health-specific rules to this file.
+#
+# ------------------------------------------------------------------------------
+# Language: german
+# Weight:   12.0
+# ==============================================================================
+
+# Topics
+# ==============================================================================
+
+# Weight Loss
+# ------------------------------------------------------------------------------
+/abnehmen.{1,10}ganz ohne hungern/i
+
+/bauchfett.{1,10}(los(zu)?werden|verlieren|verschwindet|weg)/i
+/bauchfett.{1,10}lösung/iu
+
+/diät.?wunder/i
+/diät ohne verzicht.{1,10}jetzt/iu
+
+/jetzt testen.{1,10}diät/iu
+
+/natürlich abnehmen.{1,10}ganz ohne/iu
+/ohne diät.{1,10}ohne sport/iu
+/rabatt auf.{1,15}diät.?kapseln/iu
+/täglich.{1,10}fett schmilzt/i
+
+# Men
+# ------------------------------------------------------------------------------
+/erektion.{1,15}(erleben|sprühen)/i
+/sofortige.{1,10}erektion/i
