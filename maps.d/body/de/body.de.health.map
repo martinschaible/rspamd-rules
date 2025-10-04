@@ -1,39 +1,29 @@
 # ==============================================================================
+# Here, we enter more generic phrases related to health.
 #
+# - The file "body.en.health.specific.map" contains rules for specific things,
+#   but not in sufficient quantity to require a separate file.
 #
 # ------------------------------------------------------------------------------
 # Language: german
-# Weight:   6.0
+# Weight:   12.0
 # ==============================================================================
-
-# Topics
-# ==============================================================================
-
-#
-#
-#
 
 # Generic
 # ==============================================================================
 
 # A
-/abnehmen.{1,10}ganz ohne hungern/i
 
 # B
-/bauchfett.{1,10}(los(zu)?werden|verlieren|verschwindet|weg)/i
-/bauchfett.{1,10}lösung/iu
 
 # C
 /cbd.{1,10}kapseln/i
 
 # D
-/diät.?wunder/i
-/diät ohne verzicht.{1,10}jetzt/iu
 
 # E
 /entfalte dein.{1,10}gehirn/i
 
-/erektion.{1,15}(erleben|sprühen)/i
 /erste auslieferungen bereits erfolgt/i
 
 # F
@@ -46,7 +36,6 @@
 # I
 
 # J
-/jetzt testen.{1,10}diät/iu
 
 # K
 /kleiner zusatz.{1,10}große wirkung/iu
@@ -56,23 +45,18 @@
 # M
 
 # N
-/natürlich abnehmen.{1,10}ganz ohne/iu
 
 # O
-/ohne diät.{1,10}ohne sport/iu
 
 # P
 
 # Q
 
 # R
-/rabatt auf.{1,15}diät.?kapseln/iu
 
 # S
-/sofortige.{1,10}erektion/i
 
 # T
-/täglich.{1,10}fett schmilzt/i
 
 # U
 

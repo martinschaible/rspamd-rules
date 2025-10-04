@@ -1,17 +1,13 @@
 # ==============================================================================
+# Here, we enter more generic phrases related to health.
 #
+# - The file "body.en.health.specific.map" contains rules for specific things,
+#   but not in sufficient quantity to require a separate file.
 #
 # ------------------------------------------------------------------------------
 # Language: english
-# Weight:   6.0
+# Weight:   12.0
 # ==============================================================================
-
-# Topics
-# ==============================================================================
-
-#
-#
-#
 
 # Generic
 # ==============================================================================
@@ -32,8 +28,6 @@
 /for your.{1,10}joints/i
 
 /forget.{1,10}cutting carbs/i
-/forget.{1,10}ozempic/i
-/forget.{1,15}workouts.{1,15}diets/i
 
 # G
 
@@ -49,7 +43,6 @@
 /leading doctors.{1,10}discovered/i
 
 # M
-/make it long.{1,10}hard/i
 
 # N
 
@@ -60,8 +53,6 @@
 # Q
 
 # R
-/rapid.{1,10}weight.?loss/i
-
 /research reveals.{1,10}hidden spots/i
 /restore.{1,10}(clear|crystal).{1,10}memory/i
 /restore.{1,10}your memory/i
@@ -69,7 +60,6 @@
 /revolutionary.{1,10}minute.{1,10}routine/i
 
 # S
-/she lost.{1,10}(ibs|lbs)/i
 /skin aging.{1,10}hair thinning/i
 
 /start sleeping better tonight/i
