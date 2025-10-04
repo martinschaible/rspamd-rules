@@ -192,7 +192,7 @@ body
   │   ├─ body.de.finance.map                     --- multimap.body.de.finance.conf
   │   ├─ body.de.gambling.map                    --- multimap.body.de.gambling.conf
   │   ├─ body.de.health.map                      --- multimap.body.de.health.conf
-  │   ├─ body.de.health.specific.map           X --- multimap.body.de.health.conf
+  │   ├─ body.de.health.specific.map             --- multimap.body.de.health.conf
   │   ├─ body.de.makemoney.map                   --- multimap.body.de.makemoney.conf
   │   │
   │   ├─ body.de.phishing.map                    ─┐
@@ -314,7 +314,7 @@ subject
   │   ├─ subject.de.finance.map                  --- multimap.subject.de.finance.conf
   │   ├─ subject.de.gambling.map                 --- multimap.subject.de.gambling.conf
   │   ├─ subject.de.health.map                   --- multimap.subject.de.health.conf
-  │   ├─ subject.de.health.specific.map        X --- multimap.subject.de.health.conf
+  │   ├─ subject.de.health.specific.map          --- multimap.subject.de.health.conf
   │   │
   │   ├─ subject.de.phishing.map                 ─┐
   │   ├─ subject.de.phishing.account.map          │
