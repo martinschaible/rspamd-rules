@@ -22,6 +22,8 @@
 # B
 
 # C
+/certified.{1,10}(company|factory|supplier).{1,10}manufactures/i
+
 /china co.{1,10}(limited|ltd)/i
 /china.{1,10}thank you for taking the time/i
 /china.{1,10}we can offer/i
@@ -34,6 +36,8 @@
 /co.{1,5}(limited|ltd).{1,10}nice to know you/i
 /co.{1,5}(limited|ltd).{1,10}offers a wide range/i
 /co.{1,5}(limited|ltd).{1,10}trusted/i
+
+/(company|factory|supplier) of.{1,10}electronic components since/i
 
 # D
 /distributor.{1,10}specializing in all kinds of/i
@@ -49,14 +53,14 @@
 # H
 
 # I
-/is.{1,10}well.{1,10}established supplier of /i
+/is.{1,10}well.{1,10}established.{1,10}(company|factory|supplier) of /i
 
 # J
 
 # K
 
 # L
-/(leading|trusted|your).{1,10}(pcba?|printed.?circuit.?board).{1,10}(factory|supplier)/i
+/(leading|trusted|your).{1,10}(pcba?|printed.?circuit.?board).{1,10}(company|factory|supplier)/i
 /(leading|trusted).{1,10}partner to oem/i
 
 /(limited|ltd).{1,10}(specializes in|we are major)/i
@@ -72,8 +76,8 @@
 
 /our.{1,10}competency.{1,15}manufacturing/i
 
-/our.{1,10}(company|factory).{1,10}leading/i
-/our.{1,10}(company|factory).{1,10}specializes.{1,10}producing/i
+/our.{1,10}(company|factory|supplier).{1,10}leading/i
+/our.{1,10}(company|factory|supplier).{1,10}specializes.{1,10}producing/i
 
 /our.{1,10}(pcba?|printed.?circuit.?board).{1,10}(delivery|on.?time)/i
 /our.{1,10}customizable.{1,10}paper bag solutions/i
@@ -93,7 +97,6 @@
 /shenzhen.{1,15}technology.{1,10}co.{1,5}ltd/i
 /since foun?dation.{1,15}we specialized in/i
 
-/supplier of.{1,10}electronic components since/i
 /(specializes|specialized).{1,10}rapid prototyping/i
 /(specializes|specialized).{1,10}producing.{1,10}(injection|moulding|parts)/i
 
@@ -131,6 +134,7 @@
 /we.{1,10}make.{1,30}(backpacks|sportswear)/i
 
 /we.{1,10}offer.{1,10}manufacturing/i
+/we.{1,10}offer.{1,10}modern designs/i
 /we.{1,10}offer.{1,10}professional proposals/i
 /we.{1,10}offer.{1,10}range of.{1,15}(detailed|highly)/i
 /we.{1,10}offer.{1,10}stop solution/i

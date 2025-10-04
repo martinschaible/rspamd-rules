@@ -94,7 +94,7 @@
 /healthy?.{0,10}(aging|alerts?|alternative)/i
 /healthy?.{0,10}(brain|choice(es)?|deals?|digest)/i
 /health.?.{0,10}(discovery|digest|enigma)/i
-/healthy?.{0,10}(feet|fibes|files?|foods?)/i
+/healthy?.{0,10}(feet|fibes|files?|foods?|freedom)/i
 /healthy?.{0,10}(gift|guides?|gut)/i
 /healthy?.{0,10}(habit|hack|hair|heart|heaven|hero)/i
 /healthy?.{0,10}(insider|insights)/i
@@ -680,7 +680,7 @@
 /make your own/i
 /male.{0,10}(virility|vitality)/i
 
-/(medical|medicinal).{0,10}(discovery|patch(es)?)/i
+/(medical|medicinal).{0,15}(daily|discovery|patch(es)?)/i
 
 /men.?s?.{0,10}(only|power|vitality|wellness)/i
 /mental.{0,10}clarity/i
@@ -771,7 +771,7 @@
 /perfect.{0,10}(sleep|smile)/i
 /performance.{0,10}power/i
 
-/pharmas?.{0,10}secret/i
+/pharmas?.{0,10}(files|secret)/i
 
 /pillow.{0,10}secret/i
 
