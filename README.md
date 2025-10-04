@@ -104,6 +104,10 @@ These are the latest changes:
 |          | multimap.subject.en.sale.conf              | New map file added            |
 |          | multimap.sender.from.de.sale.conf          | New map file added            |
 |          | multimap.sender.from.en.sale.conf          | New map file added            |
+| 04.10.25 | multimap.body.de.health.conf               | New map file added            |
+|          | multimap.body.en.health.conf               | New map file added            |
+|          | multimap.subject.de.health.conf            | New map file added            |
+|          | multimap.subject.en.health.conf            | New map file added            |
 
 ## Content
 :point_right: All map files of the *first version* are stored in the folder `/etc/rspamd/maps.d/legacy`.<br>
