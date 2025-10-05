@@ -1,35 +1,20 @@
 # ==============================================================================
-# The entire URL is available here.
-# We can therefore whitelist the domain, the path, or parts of the path.
+# Here we whitelist domains from the USA , mostly with the TLD ".com"
 #
-# Caution is advised here.
-# Domains, in particular, should only be used in conjunction with the path.
-# This ensures that the entry is unique.
+# We can use the entire URL for a rule.
+# This makes sense because spammers and fraudsters often use company domain names.
+# This is especially common in phishing scams.
 #
-# Note: The "prefilter" is applied here.
-# If a rule matches, the email is accepted, and all other filters are ignored.
+# That's why it's smarter to choose unique URLs.
+# For example, with a specific folder in the URL.
+#
+# You should be careful when awarding points.
+# The default value of -1.0 can be increased with the multiplier.
 #
 # ------------------------------------------------------------------------------
 # Country: trumpistan
-# Weight:  -
+# Weight:  -1.0
 # ==============================================================================
-
-# Special
-# ------------------------------------------------------------------------------
-
-# Repeatedly blacklisted mailing services
-
-# list-manage.com
-/annabelle\.us\d{1,2}.list-manage.com\//i 3
-/gcz\.us\d{1,2}.list-manage.com\//i 3
-/insideparadeplatz\.us\d{1,2}.list-manage.com\//i 3
-/narayana-verlag\.us\d{1,2}.list-manage.com\//i 3
-/(physicians|platinum-swiss)\.us\d{1,2}.list-manage.com\//i 3
-/theaterhechtplatz\.us\d{1,2}.list-manage.com\//i 3
-/weberverlag\.us\d{1,2}.list-manage.com\//i 3
-
-# cmail20.com
-/volgkonsumwarenag\.cmail20\.com\//i
 
 # A
 # ------------------------------------------------------------------------------
@@ -41,25 +26,25 @@
 # ------------------------------------------------------------------------------
 
 # 04.04.25 - Was captured by an old filter of declude
-/account\.cometbackup\.com/i
+/account\.cometbackup\.com/i 5.0
 
 # 06.08.25
-/cometbackup\.acemlna\.com/i
+/cometbackup\.acemlna\.com/i 5.0
 
 # D
 # ------------------------------------------------------------------------------
 
 # 02.08.25
-/duolingo\.com\/course/i
-/www\.duolingo\.com\/\?email=/i
+/duolingo\.com\/course/i 5.0
+/www\.duolingo\.com\/\?email=/i 5.0
 
 
 # 04.09.25
-/eu\.docusign\.net\/signing\/emailstart\.aspx/i
+/eu\.docusign\.net\/signing\/emailstart\.aspx/i 5.0
 
 # E
 # ------------------------------------------------------------------------------
-/email\.jbonamassa\.com/i
+/email\.jbonamassa\.com/i 5.0
 
 # F
 # ------------------------------------------------------------------------------
@@ -68,10 +53,10 @@
 # ------------------------------------------------------------------------------
 
 # 08.04.25
-/i\.gopro\.com/i
+/i 5.0\.gopro\.com/i 5.0
 
 # 02.09.25
-/www\.geocaching\.com\/blog\//i
+/www\.geocaching\.com\/blog/i 5.0
 
 # H
 # ------------------------------------------------------------------------------
@@ -80,8 +65,8 @@
 # ------------------------------------------------------------------------------
 
 # 07.06.25 -  Was captured by base.body.img.domain.name
-/r\.market\.insta360-news\.com/i
-/store\.insta360\.com/i
+/r\.market\.insta360-news\.com/i 5.0
+/store\.insta360\.com/i 5.0
 
 # J
 # ------------------------------------------------------------------------------
@@ -92,8 +77,8 @@
 # L
 # ------------------------------------------------------------------------------
 
-/https:\/\/lovable\.dev/i
-/shipped\.lovable\.app/i
+/https:\/\/lovable\.dev/i 5.0
+/shipped\.lovable\.app/i 5.0
 
 # M
 # ------------------------------------------------------------------------------
@@ -107,10 +92,10 @@
 # P
 # ------------------------------------------------------------------------------
 # 26.09.25
-/www\.g-med\.com/i
+/www\.g-med\.com/i 5.0
 
 # 11.09.25
-/www\.positivessl\.com/i
+/www\.positivessl\.com/i 5.0
 
 # Q
 # ------------------------------------------------------------------------------
@@ -121,20 +106,19 @@
 # S
 # ------------------------------------------------------------------------------
 
-/support\.sectigo\.com/i
+/support\.sectigo\.com/i 5.0
 
 # T
 
 # ------------------------------------------------------------------------------
-/secure\.trust-provider\.com/products/i
+/secure\.trust-provider\.com/products/i 5.0
 
 # U
 # ------------------------------------------------------------------------------
 
 # V
 # ------------------------------------------------------------------------------
-
-/email\.mg\.vistaprint\.com/i
+/email\.mg\.vistaprint\.com/i 5.0
 
 # W
 # ------------------------------------------------------------------------------
