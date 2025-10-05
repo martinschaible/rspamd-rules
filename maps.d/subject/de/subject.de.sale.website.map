@@ -57,7 +57,8 @@
 # Q
 
 # R
-/re-(home.?page|kosten|web.?site)/i
+/re-.?(home.?page|kosten|web.?site)/i
+/re-.?design kosten/i
 
 # S
 /sie ihrer?.{1,10}(home.?page|web.?site)/i
