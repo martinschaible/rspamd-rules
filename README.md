@@ -109,6 +109,9 @@ These are the latest changes:
 |          | multimap.subject.de.health.conf            | New map file added            |
 |          | multimap.subject.en.health.conf            | New map file added            |
 | 05.10.25 | multimap.whitelist.body.href.conf          | New map file added            |
+|          | multimap.whitelist.body.conf               | New file                      |
+|          | multimap.whitelist.conf                    | Map file removed              |
+|          | multimap.conf                              | New configuration file added  |
 
 ## Content
 :point_right: All map files of the *first version* are stored in the folder `/etc/rspamd/maps.d/legacy`.<br>
@@ -367,6 +370,11 @@ Folder structure:
 ```
 whitelist
   ├─ header.ip.whitelist.map                     --- multimap.whitelist.header.ip.conf
+  │
+  ├─ body.az.orgname.map                         ─┐
+  ├─ body.ch.orgname.map                          │
+  ├─ body.de.orgname.map                          ├─ multimap.whitelist.body.conf
+  ├─ body.us.orgname.map                         ─┘
   │
   ├─ href
   │    ├─ body.href.az.url.map                   ─┐ 
