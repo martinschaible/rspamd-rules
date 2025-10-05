@@ -111,12 +111,6 @@
 /spenden?.{1,10}kontaktieren sie mich.{1,15}weitere informationen/i
 
 /spenden?.{1,10}ich ihnen geben möchte/iu
-/spenden?.{1,10}ihnen die summe von.{1,10}(millionen|tausend|dollar|euro?|gbp|usd)/i
-
-/spenden?.{1,10}in höhe von.{1,10}\d{3}.{0,5}\d{3}.{1,10}(ausgezeichnet|getätigt)/iu
-/spenden?.{1,10}in höhe von.{1,20}(dollar|euro?|gbp|usd).{1,25}(ausgewählt|die ihnen|wurde ihnen von)/iu
-/spenden?.{1,10}in höhe von.{1,20}(dollar|euro?|gbp|usd).{1,25}erfolgte durch die/iu
-/spenden?.{1,10}in höhe von.{1,20}(dollar|euro?|gbp|usd).{1,25}million.{1,15}zu erhalten/i
 
 /spenden?.{1,10}ist für die ersten.{1,10}personen/i
 /spenden?.{1,10}investitions.?geld(er)?/i
