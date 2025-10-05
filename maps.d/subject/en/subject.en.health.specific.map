@@ -72,6 +72,8 @@
 
 /(secret|simple|unusual).{1,10}(hack|ritual|solution|trick).{1,15}(activate|erases|needs|reverses|trusted|to end)/i
 
+/minute.{1,10}at.?home.{1,10}method/i
+
 /sec(ond)?.{1,10}bedtime habit/i
 /sec(ond)?.{1,10}(dumping|water).{1,10}fix/i
 /sec(ond)?.{1,10}habit.{1,15}(balance|better|transforms)/i
