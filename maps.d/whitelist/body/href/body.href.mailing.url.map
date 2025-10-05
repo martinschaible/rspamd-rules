@@ -1,0 +1,29 @@
+# ==============================================================================
+# Domains of mailing providers often end up on blacklists.
+# Spammers often use the providers' free offers for their campaigns.
+#
+# That's why we have to whitelist the providers' innocent customers.
+# This is safe because the customer can be clearly identified in the subdomain.
+#
+# ------------------------------------------------------------------------------
+# Country: -
+# Weight:  -5.0
+# ==============================================================================
+
+# Repeatedly blacklisted mailing services
+# ------------------------------------------------------------------------------
+
+# list-manage.com
+# ------------------------------------------------------------------------------
+/annabelle\.us\d{1,2}\.list-manage.com\//i 2.0
+/gcz\.us\d{1,2}\.list-manage.com\//i 2.0
+/insideparadeplatz\.us\d{1,2}\.list-manage.com\//i 2.0
+/narayana-verlag\.us\d{1,2}\.list-manage.com\//i 10.0
+/(physicians|platinum-swiss)\.us\d{1,2}\.list-manage.com\//i 2.0
+/qualipet\.us\d{1,2}\.list-manage\.com/i 5.0
+/theaterhechtplatz\.us\d{1,2}\.list-manage.com\//i 2.0
+/weberverlag\.us\d{1,2}<.list-manage.com\//i 2.0
+
+# cmail20.com
+# ------------------------------------------------------------------------------
+/volgkonsumwarenag\.cmail20\.com\//i 2.0
