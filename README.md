@@ -108,6 +108,7 @@ These are the latest changes:
 |          | multimap.body.en.health.conf               | New map file added            |
 |          | multimap.subject.de.health.conf            | New map file added            |
 |          | multimap.subject.en.health.conf            | New map file added            |
+| 05.10.25 | multimap.whitelist.body.href.conf          | New map file added            |
 
 ## Content
 :point_right: All map files of the *first version* are stored in the folder `/etc/rspamd/maps.d/legacy`.<br>
@@ -368,14 +369,16 @@ whitelist
   ├─ header.ip.whitelist.map                     --- multimap.whitelist.header.ip.conf
   │
   ├─ href
-  │    ├─ body.href.url.az.map                +  ─┐ 
-  │    ├─ body.href.url.ch.map                +   │
-  │    ├─ body.href.url.de.map                +   ├─ multimap.whitelist.body.href.conf
-  │    └─ body.href.url.us.map                +  ─┘
+  │    ├─ body.href.az.url.map                   ─┐ 
+  │    ├─ body.href.ch.url.map                    │
+  │    ├─ body.href.de.url.map                    ├─ multimap.whitelist.body.href.conf
+  │    ├─ body.href.us.url.map                    │
+  │    └─ body.href.mailing.url.map              ─┘
   │
-  ├─ de 
-  │   ├─ body.de.singleword.map                  ─┐
-  │   ├─ body.de.map                             ─┘─ multimap.whitelist.body.de.conf
+  ├─ de
+  │   ├─ body.de.orgbrandprod.map                ─┐
+  │   ├─ body.de.singleword.map                   ├─ multimap.whitelist.body.de.conf
+  │   ├─ body.de.map                             ─┘
   │   │
   │   ├─ sender.from.de.map                      ─┐
   │   ├─ subject.de.map                           ├─ multimap.whitelist.conf
@@ -384,11 +387,6 @@ whitelist
   └─ en
       └─ ....
 ```
-
-**+ -> "prefilter" is set**
-
-Unfortunately, whitelisting with the prefilter option set doesn't work in some cases.
-I don't know why, and I can't find any help in the community. What a pity!
 
 ## Tips and Tricks
 
