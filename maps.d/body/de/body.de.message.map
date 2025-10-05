@@ -62,8 +62,9 @@
 /antworten Sie direkt auf diese.{1,10}(brief|e?.?mail|nachricht)/i
 
 # B
-/bestätigen sie.{1,10}die inhaberschaft.{1,10}e.?mail(.?adresse)?/i
-/bestätigen sie.{1,10}dies ihre gültige.{1,15}e?.?mail(.?adresse)?/i
+/bestätigen sie.{1,10}den inhaber dieser.{1,10}e.?mail(.?adresse)?/iu
+/bestätigen sie.{1,10}die inhaberschaft.{1,10}e.?mail(.?adresse)?/iu
+/bestätigen sie.{1,10}dies ihre gültige.{1,15}e?.?mail(.?adresse)?/iu
 /bestätigen sie.{1,10}sie der eigentümer.{1,10}e.?mail(.?adresse)?/iu
 
 # C

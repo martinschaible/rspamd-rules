@@ -30,11 +30,13 @@
 
 # Cars
 # ------------------------------------------------------------------------------
-/(audi|mercedes.?benz|porsche) team/i
-/(audi|mercedes.?benz|porsche).{1,10}unangefochtenen preisen/i
-/(audi|mercedes.?benz|porsche).{1,10}werkswagen/i
+/(audi|mercedes.?benz|porsche|volkswagen|vw) team/i
+/(audi|mercedes.?benz|porsche|volkswagen|vw).{1,10}unangefochtenen preisen/i
+/(audi|mercedes.?benz|porsche|volkswagen|vw).{1,10}kundenauftrag/i
+/(audi|mercedes.?benz|porsche|volkswagen|vw).{1,10}werkswagen/i
 
-/direktvertrieb.{1,10}(audi|mercedes.?benz|porsche)/i
+/direktvertrieb.{1,10}(audi|mercedes.?benz|porsche|volkswagen|vw)/i
+/kollektion.{1,10}(audi|mercedes.?benz|porsche|volkswagen|vw)/i
 
 /(werksmodelle|werkswagen).{1,15}(anfragen|direkt|katalog|persönlich)/i
 

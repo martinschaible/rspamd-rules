@@ -12,7 +12,7 @@
 
 # Weight Loss
 # ------------------------------------------------------------------------------
-/(fat|weight).?(burning|loss).{1,10}(breakthrough|cure|coffee|exposed|fruit)/i
+/(fat|weight).?(burning|loss).{1,10}(breakthrough|cure|coffee|exposed)/i
 /(fat|weight).?(burning|loss).{1,15}(fruit|morning)/i
 /(fat|weight).?(burning|loss).{1,10}(remedies|remedy|routine)/i
 /(fat|weight).?(burning|loss).{1,10}(secret|soup|switch)/i
@@ -23,22 +23,21 @@
 /(fat|weight).{1,10}success proven/i
 /(fat|weight).{1,10}with this.{1,10}hack/i
 
-/(burn|drop|erase|lose|melt|remove|shed).{1,10}(belly|more|pounds).{1,10}(fat|flab|weight)/i
-/(burn|drop|erase|lose|melt|remove|shed).{1,10}(inches|lbs|pounds|weight)/i
+/(burn|drop|erase|lose|melt|remove|shed).{1,10}(belly|more|pounds).{1,10}(fat|flab|lbs|weight)/i
+/(burn|drop|erase|lose|melt|remove|shed).{1,10}(fat|inches|lbs|pounds|weight)/i
 /(burn|drop|erase|lose|melt|remove|shed).{1,10}(fat|weight).{1,15}(activate|easily|exercise|fast|in your)/i
 /(burn|drop|erase|lose|melt|remove|shed).{1,10}(fat|weight).{1,15}(overnight|scientists|while you|with this|without)/i
 
 /(burn|drop|erase|lose|melt|remove|shed).{1,10}of your.{1,10}(fat|weight)/i
 /(burn|drop|erase|lose|melt|remove|shed).{1,10}up to.{1,10}(fat|lbs|pounds|weight)/i
 
-/(affects|big|blocking|boost|celeb|daily|easy|fast|for).{1,15}(fat|weight).?(burn(ing)?|loss)/i
+/(about|affects|big|blocking|boost|celeb|daily|easy|fast|for).{1,15}(fat|weight).?(burn(ing)?|loss)/i
 /(hidden|massive|method|overnight|rapid|simple|steady|try this|your).{1,15}(fat|weight).?(burn(ing)?|loss)/i
 
-/about.{1,10}weight.?loss/i
 /add inches.{1,15}waistline/i
-/dissolves.{1,10}lbs/i
-/easy.{1,10}(fat|weight).{1,10}fighting/i
-/erases.{1,10}(fat|weight).{1,10}overnight/i
+/dissolves.{1,10}(fat|flab|lbs|pounds|weight)/i
+
+/(easy|erases).{1,10}(fat|weight).{1,10}(fighting|overnight)/i
 
 /helps.{1,10}(burn|drop|erase|lose|melt|remove|shed).{1,10}(fat|weight)/i
 /shed.{1,15}faster/i
@@ -56,6 +55,9 @@
 /weight control.{1,10}power/i
 
 /which.{1,20}melts fat/i
+
+# Products
+/slimming.{0,10}gummies/i
 
 # Men
 # ------------------------------------------------------------------------------
