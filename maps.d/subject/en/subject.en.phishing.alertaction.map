@@ -161,7 +161,6 @@
 
 # I
 /immediate action required/i
-/immediate password update needed/i
 
 /important.{1,10}lose access.{1,15}account/i
 /important.{1,10}account (alert|update)/i
@@ -234,9 +233,6 @@
 # O
 
 # P
-/password notice alert/i
-/password update required/i
-
 /pending action.{1,10}final step to/i
 /pending delivery.{1,10}requires action/i
 /pending failure notice/i
@@ -311,7 +307,6 @@
 /urgent.{1,10}e.?mail.?confirmation/i
 /urgent.{1,10}(e.?mail|mailbox).{1,10}(action|update) (needed|required)/i
 /urgent.{1,10}incoming pending.{1,10}(e?.?mails|messages)/i
-/urgent.{1,10}password notice/i
 /urgent.{1,10}two.?factor.{1,15}(activation|authentication)/i
 
 /urgent.{1,10}unusual activity detected/i
