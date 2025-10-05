@@ -1,0 +1,339 @@
+# ==============================================================================
+# Here we whitelist domains from Switzerland or with the TLD ".ch"
+# 
+# We can use the entire URL for a rule.
+# This makes sense because spammers and fraudsters often use company domain names.
+# This is especially common in phishing scams.
+#
+# That's why it's smarter to choose unique URLs.
+# For example, with a specific folder in the URL.
+#
+# You should be careful when awarding points.
+# The default value of -1.0 can be increased with the multiplier.
+#
+# ------------------------------------------------------------------------------
+# Country: switzerland
+# Weight:  -1.0
+# ==============================================================================
+
+# A
+# ------------------------------------------------------------------------------
+
+# 21.06.25 - Fired by "body.de.greetings"
+/mwstabrechnen\.estv\.admin\.ch/i 5.0
+
+# 10.07.25
+/www\.(eda|nlt)\.admin\.ch/i 5.0
+
+# 27.07.25
+/\.news\.aldi-suisse\.ch/i 5.0
+
+# 03.08.25
+/click\.news\.aldi-suisse-tours\.ch/i 5.0
+
+# 03.04.24 - They use "red.php"
+/click\.az-direct\.ch/i 5.0
+
+# 11.08.25
+/links\.amorana\.ch/i 5.0
+
+# 04.09.25
+/api\.axa\.ch:443\/rest/i 5.0
+
+# 25.09.25
+/www\.arzt-zollikon\.ch/i 5.0
+
+# B
+# ------------------------------------------------------------------------------
+
+# 05.08.25
+/online\.bettybossi\.ch/i 5.0
+
+# 22.04.25 - Fired by "base_no_ssl"
+/linkcd\.bvk\.ch/i 5.0
+
+# 22.07.25
+/i 5.0nfo\.bonprix\.ch/i 5.0
+
+# 25.05.25
+/www\.balgrist\.ch\/sportmedizin/i 5.0
+
+# 06.08.25
+/link\.mailings\.brack\.ch/i 5.0
+
+# 04.09.25
+/cx\.bernexpo\.ch/i 5.0
+
+# C
+# ------------------------------------------------------------------------------
+
+# 09.07.25
+/links\.comparis\.ch/i 5.0
+
+# 03.04.25
+/rdir\.conrad\.ch/i 5.0
+
+# 04.09.25
+/click\.news\.coop\.ch/i 5.0
+
+# D
+# ------------------------------------------------------------------------------
+
+# 29.07.25
+/links\.newsletter\.digitec\.ch/i 5.0
+
+# 23.09.25
+/external\.e-newsletter.ideoon\.ch/i 5.0
+/www\.ideoon\.ch/i 5.0
+
+# 04.10.25
+/www\.drogi\.ch\/catalogsearch/i 5.0
+
+# E
+# ------------------------------------------------------------------------------
+
+# 08.05.25 - DMARC failed
+/https:\/\/my\.ekz\.ch/i 5.0
+
+# 09.04.25 - No SPF
+/www\.exlibris\.ch\/de\/\?/i 5.0
+
+/www\.exlibris\.ch\/de\/customer-ratings/i 5.0
+/www\.exlibris\.ch\/de\/mein-konto/i 5.0
+/www\.exlibris\.ch\/de\/mein-konto-gast/i 5.0
+/www\.exlibris\.ch\/de\/mein-konto\/login/i 5.0
+
+# 14.06.25
+/inspiriert\.exlibris\.ch/i 5.0
+
+# 06.08.25
+/ws\.exlibris\.ch\/v1/i 5.0
+
+# F
+# ------------------------------------------------------------------------------
+
+# 01.08.25
+/news-cdn\.frankenspalter\.ch/i 5.0
+
+# 03.08.25
+/news\.fust\.ch/i 5.0
+
+# G
+# ------------------------------------------------------------------------------
+
+# 05.08.25
+/portal\.generali\.ch/\customer\//i 5.0
+
+# 03.07.25
+/links\.community\.galaxus\.ch/i 5.0
+
+# 08.08.25
+/www\.gga\.ch\/cmsmodules/i 5.0
+
+# H
+# ------------------------------------------------------------------------------
+
+# 05.10.25
+/helvika\.ch\/collections/i 5.0
+
+# I
+# ------------------------------------------------------------------------------
+
+# 24.07.25
+/elink9a3\.6ibrief\.ch/i 5.0
+
+# 31.07.25
+/click\.news\.interdiscount\.ch/i 5.0
+
+# 02.09.25
+/i 5.0nsideparadeplatz\.ch/i 5.0
+
+# 12.08.25
+/pay\.intrum\.ch\//i 5.0
+
+# 09.08.25
+/mk\.iwayapp\.ch/i 5.0
+
+# J
+# ------------------------------------------------------------------------------
+
+# 04.09.25
+/click\.info\.jumbo\.ch/i 5.0
+
+# 18.09.25
+/www.just-eat\.ch\//i 5.0
+
+# K
+# ------------------------------------------------------------------------------
+
+# 19.07.25
+/mto\.kellerfahnen\.ch/i 5.0
+
+# L
+# ------------------------------------------------------------------------------
+
+# 18.07.25
+/landquartfashionoutlet\.ch/marken/i 5.0
+
+# M
+# ------------------------------------------------------------------------------
+# 03.04.25
+/nlink\.migros-kulturprozent-classics\.ch/i 5.0
+# 22.04.25
+/nlink\.cumulus\.migros\.ch/i 5.0
+
+# 18.05.25
+/service-mail\.my\.mediamarkt\.ch/i 5.0
+
+# 27.05.25
+/nlink\.migrosonline\.ch/i 5.0
+
+# N
+# ------------------------------------------------------------------------------
+
+# 17.08.25
+/www\.nahrin\.ch/i 5.0
+
+# 19.07.25
+/www\.nau\.ch\/news/i 5.0
+
+# 03.07.25
+/www\.nebelspalter\.ch\/abonnierung/i 5.0
+
+# 27.08.25
+/www\.nespresso\.com\/emailing/i 5.0
+/www\.nespresso\.com\/ch\/de/i 5.0
+
+# 03.08.25
+/link\.mail\.nettoshop\.ch/i 5.0
+
+# 02.04.25 - Fired by "base.body.img.domain.name: 2.4"
+/link\.nzz\.ch/i 5.0
+
+# O
+# ------------------------------------------------------------------------------
+
+# 03.08.25
+/link\.ochsner-shoes\.ch/i 5.0
+
+# 06.08.25
+/studio\.onedigitalservice\.ch\/public/i 5.0
+
+# P
+# ------------------------------------------------------------------------------
+/platinum-swiss\.ch\/\?utm_source/i 5.0
+
+# Q
+# ------------------------------------------------------------------------------
+
+# R
+# ------------------------------------------------------------------------------
+
+# 03.08.25
+/info\.redcare-apotheke\.ch/i 5.0
+
+# 09.08.25
+/www\.ricardo\.ch\/de\/a\//i 5.0
+
+# 05.10.25
+/rohner-socks\.com\/collections/i 5.0
+
+# S
+# ------------------------------------------------------------------------------
+
+# 15.05.25 - SwissPass
+/kmsp\.sbb\.ch\/sap/i 5.0
+/kmsp\.sbb\.ch:443\/sap/i 5.0
+
+# 04.04.25
+#/sbb\.ch\/de\/abos-billette/i 5.0
+/sbb\.ch\/de\/fahrplan/i 5.0
+
+#/shop\.sbb\.ch\/customer/i 5.0
+
+# 04.05.25
+/schedulechanges\.swiss\.com/i 5.0
+
+# 07.05.25
+/info\.swisscom\.ch/i 5.0
+
+# 03.07.25
+/click\.news\.supercard\.ch/i 5.0
+
+# 03.08.25 - tutti.ch
+/cdn\.marketing\.swissmarketplace\.group/i 5.0
+
+# 18.08.25
+/www\.sz\.ch/i 5.0
+
+# 05.09.25
+/www\.swissarbeitgeberaward\.ch/i 5.0
+
+# 04.09.25
+/www\.swisscom\.ch\/myswisscom\/d/i 5.0
+
+# 05.10.25
+/snocks\.com\/collections\/maenner/i 5.0
+
+# 05.10.25
+/switcher\.com\/products/i 5.0
+
+# T
+# ------------------------------------------------------------------------------
+
+# 19.08.25
+/click\.mc\.tamedia\.ch/i 5.0
+
+# 06.08.25
+/link\.tchibo\.ch/i 5.0
+
+# 04.09.25
+/www\.theatervereinzh\.ch/i 5.0
+
+# 12.09.25
+/theaterhechtplatz\.ch/i 5.0
+
+# 04.09.25
+/newsletter\.ticketcorner\.ch/i 5.0
+
+# 14.08.25
+/link\.transa\.ch/i 5.0
+
+# 26.08.25
+/shop\.tsri\.ch/i 5.0
+
+
+# U
+# ------------------------------------------------------------------------------
+
+# V
+# ------------------------------------------------------------------------------
+/vhszh\.ch/i 5.0
+
+/www\.volg\.ch\/fileadmin/i 5.0
+
+# W
+# ------------------------------------------------------------------------------
+
+# 24.04.25
+/campaign\.weltwoche-daily\.ch/i 5.0
+/weltwoche\.ch\/abonnemente/i 5.0
+
+# X
+# ------------------------------------------------------------------------------
+
+# Y
+# ------------------------------------------------------------------------------
+/email\.newsletters\.yallo\.ch/i 5.0
+
+# Z
+# ------------------------------------------------------------------------------
+
+# 28.04.25 - No DMARC
+/services\.zh\.ch\/basis/i 5.0
+
+# 25.08.25
+/info\.zooplus\.ch/i 5.0
+
+# 02.09.25
+/aktuelles\.zwischengas\.com/i 5.0
