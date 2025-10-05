@@ -1,8 +1,12 @@
 # ==============================================================================
-# We can use the entire URL for a rule.
+# Domains of mailing providers often end up on blacklists.
+# Spammers often use the providers' free offers for their campaigns.
+#
+# That's why we have to whitelist the providers' innocent customers.
+# This is safe because the customer can be clearly identified in the subdomain.
 #
 # ------------------------------------------------------------------------------
-# Country: trumpistan
+# Country: -
 # Weight:  -5.0
 # ==============================================================================
 
