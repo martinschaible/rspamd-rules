@@ -279,6 +279,7 @@
 /(pcba?|printed.?circuits?.?board).{1,10}(manufacturer?|manufacturing|needs|provider|service|solutions?)/i
 
 /(pcba?|printed.?circuits?.?board).{1,10}co.{1,5}ltd/i
+/(pcba?|printed.?circuits?.?board).{1,10}from (china|shenzhen)/i
 /(pcba?|printed.?circuits?.?board).{1,10}manufactuer for.{1,15}(customers|worldwide)/i
 /(pcba?|printed.?circuits?.?board).{1,10}mould partner/i
 /(pcba?|printed.?circuits?.?board).{1,10}partners?.{1,10}(iso|worthy)/i
@@ -300,6 +301,16 @@
 /product.{1,10}inquiry.{1,10}potential partnership/i
 /product.{1,10}machining service/i
 
+/(professional|reliable|trusted).{1,20}(components|electronic).{1,15}(manufacturer|partners?|suppliers?)/i
+/(professional|reliable|trusted).{1,20}supplier.{1,15}partnership/i
+
+/(professional|reliable|trusted).{1,10}(drag|chain|cnc).{1,10}(manufacturer|partners?|suppliers?)/i
+/(professional|reliable|trusted).{1,10}freight forwarding/i
+/(professional|reliable|trusted).{1,15}(manufacturing|scaffolding).{1,10}(manufacturer|partners?|suppliers?)/i
+/(professional|reliable|trusted).{1,10}(pcba?|printed.?circuits?.?board).{1,10}(manufacturer|partners?|suppliers?)/i
+/(professional|reliable|trusted).{1,15}(manufacturer|partners?|suppliers?) (for|of)/i
+/(professional|reliable|trusted).{1,15}custom fabrication/i
+
 /prototype (manufacturer?|mould)/i
 
 # Q
@@ -311,16 +322,6 @@
 # R
 /reliable.{1,10}(china|chinese).{1,20}(freight|forwarder)/i
 /reliable.{1,20}(freight|forwarder)/i
-
-/(professional|reliable|trusted).{1,20}(components|electronic).{1,15}(manufacturer|partners?|suppliers?)/i
-/(professional|reliable|trusted).{1,20}supplier.{1,15}partnership/i
-
-/(professional|reliable|trusted).{1,10}(drag|chain|cnc).{1,10}(manufacturer|partners?|suppliers?)/i
-/(professional|reliable|trusted).{1,10}freight forwarding/i
-/(professional|reliable|trusted).{1,15}(manufacturing|scaffolding).{1,10}(manufacturer|partners?|suppliers?)/i
-/(professional|reliable|trusted).{1,10}(pcba?|printed.?circuits?.?board).{1,10}(manufacturer|partners?|suppliers?)/i
-/(professional|reliable|trusted).{1,15}(manufacturer|partners?|suppliers?) (for|of)/i
-/(professional|reliable|trusted).{1,15}custom fabrication/i
 
 /rfq.{1,15}(injection|moulding|plastic)/i
 /rfq.{1,10}parts quote/i

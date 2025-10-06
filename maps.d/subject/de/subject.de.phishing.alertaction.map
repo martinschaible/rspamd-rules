@@ -33,6 +33,7 @@
 # Sample: Aktion ID 4236127
 /aktion.?id \d{3,10}/i
 
+/Aktion erforderlich.{1,10}\d{1,20}/i
 /aktion erforderlich!/i
 
 /aktion erforderlich.{1,10}(dpd|sepa)/i
@@ -352,6 +353,7 @@
 /letzte erinnerung.{1,10}sicherheitsüberprüfung/iu
 /letzte erinnerung.{1,10}sicherheitssystem/i
 /letzte erinnerung.{1,10}sichern sie sich/i
+/letzte erinnerung.{1,10}überprüfen sie/iu
 /letzte erinnerung.{1,10}zahlungsmethode (aktualisieren|überprüfen)/i
 #/letzte erinnerung.{1,10}zahlungsinformationen aktualisieren/i
 /letzte erinnerung.{1,10}zustimmung zur neuen/i
@@ -485,8 +487,9 @@
 
 /überprüfen sie bestellung/i
 /überprüfen sie ihr.{1,15}(konto|profil)/iu
-/überprüfen sie (die|ihre).{1,15}daten jetzt/iu
-/überprüfen sie (die|ihre).{1,15}(kontodaten|persönlichen daten|sicherheitseinstellungen)/iu
+/überprüfen sie.{1,10}(die|ihre).{1,15}daten jetzt/iu
+/überprüfen sie.{1,10}(die|ihre).{1,15}(kontodaten|persönlichen daten|sicherheitseinstellungen)/iu
+/überprüfen sie.{1,10}jetzt ihre daten/iu
 
 /überprüfung erforderlich.{1,10}um eine sperrung/i
 
@@ -504,6 +507,7 @@
 /verifizierung.{1,10}(erforderlich|notwendig).{1,10}erhalten sie weiterhin/i
 /verifizierung.{1,10}ihrer.{1,10}telefon.?nummer ausstehend/i
 /verifizierung.{1,10}ihres.{1,15}kontos.{1,10}(erforderlich|jetzt)/i
+/verifizierung.{1,10}jetzt erforderlich/i
 
 /vervollständigen sie ihre.{1,10}(online.?)?identifikation/i
 
@@ -556,6 +560,7 @@
 /wichtige?.{1,10}neuigkeiten zu ihrer information/i
 /wichtige?.{1,10}registrierung.{1,10}mastercard/i
 
+/wichtige?.{1,10}schritte zur aktualisierung/i
 /wichtige?.{1,10}sicherheitsaktualisierung/i
 /wichtige?.{1,10}sicherheitsanpassung/i
 
