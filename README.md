@@ -112,6 +112,9 @@ These are the latest changes:
 |          | multimap.whitelist.body.conf               | New file                      |
 |          | multimap.whitelist.conf                    | Map file removed              |
 |          | multimap.conf                              | New configuration file added  |
+| 06.10.25 | multimap.sender.from.de.scam.conf          | New map file added            |
+|          | multimap.sender.from.en.scam.conf          | New map file added            |
+|          | multimap.conf                              | New configuration file added  |
 
 ## Content
 :point_right: All map files of the *first version* are stored in the folder `/etc/rspamd/maps.d/legacy`.<br>
@@ -285,8 +288,9 @@ sender
   │   ├─ sender.from.de.makemoney.map            --- multimap.sender.from.de.makemoney.conf
   │   ├─ sender.from.de.phishing.map             --- multimap.sender.from.de.phishing.conf
   │   ├─ sender.from.de.phishing.malware.map     --- multimap.sender.from.de.phishing.malware.conf
-  │   └─ sender.from.de.sale.map                 --- multimap.sender.from.de.sale.conf
-  │   └─ sender.from.de.sale.specific.map        --- multimap.sender.from.de.sale.conf
+  │   ├─ sender.from.de.sale.map                 --- multimap.sender.from.de.sale.conf
+  │   ├─ sender.from.de.sale.specific.map        --- multimap.sender.from.de.sale.conf
+  │   └─ sender.from.de.scam.map                 --- multimap.sender.from.de.scam.conf
   │
   └─ en
       └─ ....
