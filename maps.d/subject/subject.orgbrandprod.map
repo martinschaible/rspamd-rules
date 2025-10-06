@@ -111,7 +111,8 @@
 # O
 
 # P
-/paypal.?support/i
+/paypal.{1,10}referenznummer/i
+/paypal.{1,10}support/i
 
 /post-ch/i
 
