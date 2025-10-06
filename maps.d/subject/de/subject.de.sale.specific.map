@@ -68,8 +68,7 @@
 # E Bike, Scooter
 # ------------------------------------------------------------------------------
 # -> I think, this is scam
-/\d{1,2}.{1,5}(elektro.?rad|elektro.?rädern?)/iu
-/elektro.?rad/i
+/elektro.?(rad|rädern?)/iu
 
 /e.?bike\?/i
 /e.?bike!/i
@@ -77,22 +76,23 @@
 /elektrovellos/i
 /^elektrofahrräder/iu
 
+/\d{1,2}{1,5}elektro.?(fahrrad|fahrrädern?|motorrad)/i
+
 /(e.?bike|e.?cycle|elektro.?moped).{1,15}eu.?(lieferung|weit)/i
 /(e.?bike|e.?cycle|elektro.?moped).{1,10}(besten|bester).{1,10}preis/i
 /(e.?bike|e.?cycle|elektro.?moped).{1,10}für (alle|den|ihre|jedes?)/i
 /(e.?bike|e.?cycle|elektro.?moped).{1,15}(abenteuer|angebot|in nur|innovation|komfort|motor)/i
 /(e.?bike|e.?cycle|elektro.?moped).{1,15}(power|reichweite|revolution|tagen|stärke|zukunft)/i
 
-/(elektrofahrrad|elektrofahrrädern?|elektromotorrad).{1,10}(beste wahl|direkt|herstellerpreisen?)/i
-/(elektrofahrrad|elektrofahrrädern?|elektromotorrad).{1,10}(für europa|für nur|zukunft)/iu
-/(elektrofahrrad|elektrofahrrädern?|elektromotorrad).{1,10}(berge|stadt)/i
+/elektro.?(fahrrad|fahrrädern?|motorrad|moped).{1,10}(beste wahl|direkt|herstellerpreisen?)/i
+/elektro.?(fahrrad|fahrrädern?|motorrad|moped).{1,10}(für europa|für nur|zukunft)/iu
+/elektro.?(fahrrad|fahrrädern?|motorrad|moped).{1,10}(berge|stadt)/i
 
-/(anfragen|beste|jetzt|passende).{1,10}(elektrofahrrad|elektrofahrrädern?|elektromotorrad)/i
-/(distributor|geschäft|händler).{1,10}(elektrofahrrad|elektrofahrrädern?|elektromotorrad)/iu
+/(anfragen|beste|jetzt|passende).{1,10}elektro.?(fahrrad|fahrrädern?|motorrad|moped)/i
+/(distributor|geschäft|händler).{1,10}elektro.?(fahrrad|fahrrädern?|motorrad|moped)/iu
 
 /(auf ein|faltbarefortbewegung|kauf|kraftvoll|neues).{1,15}(e.?bike|e.?cycle|elektro.?moped)/iu
-/(rabatt|unschlagbare?|unser|über|zuverlässig(er)?).{1,15}(e.?bike|e.?cycle|elektro.?moped)/iu
-/\d (elektrofahrrad|elektrofahrrädern?|elektromotorrad)/i
+/(rabatt|unschlagbare?|unser|über|zuverlässig).{1,15}(e.?bike|e.?cycle|elektro.?moped)/iu
 
 # Brand
 /e.?bikes?.{1,10}city voyager/i

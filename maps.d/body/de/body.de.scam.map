@@ -32,7 +32,7 @@
 # ------------------------------------------------------------------------------
 /(audi|mercedes.?benz|porsche|volkswagen|vw) team/i
 /(audi|mercedes.?benz|porsche|volkswagen|vw).{1,10}unangefochtenen preisen/i
-/(audi|mercedes.?benz|porsche|volkswagen|vw).{1,10}kundenauftrag/i
+/(audi|mercedes.?benz|porsche|volkswagen|vw).{1,15}kundenauftrag/i
 /(audi|mercedes.?benz|porsche|volkswagen|vw).{1,10}werkswagen/i
 
 /direktvertrieb.{1,10}(audi|mercedes.?benz|porsche|volkswagen|vw)/i
@@ -49,6 +49,7 @@
 
 /katalogzugang auf anfrage/i
 /konditionen.{1,10}vertragsrückläufer/iu
+/modelle im kundenauftrag/i
 /unsere geprüften.{1,10}fahrzeuge/iu
 /unsere.{1,10}(werksmodelle|werkswagen)/i
 
