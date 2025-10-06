@@ -59,10 +59,9 @@
 /after trying this/i
 
 /ageless.{1,10}(glow|skin)/i
-/aging.{1,10}hormone/i
 
-/aging in reverse/i
-/aging your skin/i
+/aging.{1,10}hormone/i
+/aging.{1,10}(in reverse|your skin)/i
 
 /alleviate.{1,10}joint.?pain/i
 /alzheimer.{1,15}(take this|trigger)/i
@@ -71,9 +70,7 @@
 /annoying ear buzzing/i
 
 /anti.?aging.{1,15}(bottle|breakthrough|extract|unveiled)/i
-/anti.{1,10}inflammatory recipe/i
-
-/anti.{1,10}inflammatory food/i
+/anti.{1,10}inflammatory (food|recipe)/i
 /anti.{1,20}secret/i
 
 /are these.{1,10}so.?called/i
@@ -112,7 +109,9 @@
 /behind.{1,10}bloat/i
 
 /(best|worst).{1,10}breakfast foods?/i
-/(best|worst).{1,10}for type 2/i
+/(best|worst).{1,10}for.{1,10}(blood sugar|heart|type.?2|weight)/i
+/(best|worst).{1,10}habit that/i
+/(best|worst).{1,10}veggies?/i
 
 /better.{1,10}bladder/i
 /better.{1,10}than ibuprofen/i
@@ -134,28 +133,21 @@
 /block.{1,10}fat production/i
 /blocking.{1,10}your (climax|lungs)/i
 
-/blood.?sugar.{1,10}(breakthrough|danger|dropping|drops|naturally)/i
-/blood.?sugar.{1,15}eat this/i
-/blood.?sugar.{1,10}limited time/i
-/blood.?sugar.{1,10}watch now/i
+/blood.?(pressure|sugar).{1,10}(breakthrough|danger|dropping|drops|mistake|naturally)/i
+/blood.?(pressure|sugar).{1,15}eat this/i
+/blood.?(pressure|sugar).{1,10}limited time/i
+/blood.?(pressure|sugar).{1,10}watch now/i
 
-/blood.?pressure.{1,10}mistake/i
-
-/body burns fat/i
 /bone to bone/i
 
 /boost.{1,10}heart health/i
 /boost.{1,15}(brain|cellular|focus|health|metabolism|stamina|vitality)/i
-/boost.{1,10}fat breakdown/i
-/(boost|energy).{1,15}manage weight/i
 
 /breakfast.{1,10}(avoid|memory)/i
 
-/brain boost.{1,10}trick/i
-/brain.?fog.{1,10}seconds/i
+/brain (boost|fog).{1,10}(seconds|trick)/i
 
 /burning.{1,10}nerves/i
-/burns?.{1,10}fat naturally/i
 
 /buzzing.{1,10}ears/i
 
@@ -166,7 +158,6 @@
 # C
 /call for your health/i
 /calms?.{1,10}nerve pain/i
-/calories.{1,10}belly fat/i
 
 /(causing|cause of|causes).{1,10}(back|joint).{1,10}pain/i
 /(causing|cause of|causes).{1,10}bloating/i
@@ -212,9 +203,8 @@
 
 # D
 /(damaging|detox(es)?|upsetting).{1,10}your (gut|memory)/i
-/dangerous.{1,10}fruits/i
 
-/dark side.{1,10}(fruits|veggies)/i
+/(dangerous|dark side).{1,10}(fruits?|veggies)/i
 /dark spots.{1,10}aging/i
 
 /(daily|relief).{1,10}pain/i
@@ -226,8 +216,6 @@
 /destroys?.{1,10}your gut/i
 
 /diabetes.{1,10}game changer/i
-
-/diet.{1,10}doctor says/i
 
 /digestion.{1,10}problems?/i
 
@@ -271,11 +259,9 @@
 /drink this.{1,20}(beverage|brew)/i
 /drink triggers/i
 
-/drink.{1,10}shed.{1,10}(inches|lbs|pounds|weight)/i
 /drink you must avoid/i
 
 /(drops?|your).{1,10}(a1c|blood sugar)/i
-/drop up to.{1,10}(lbs|pounds|weight)/i
 
 /diy.{1,10}minute stretch/i
 
@@ -299,7 +285,6 @@
 
 /ears?.{1,10}(rub trick|try this)/i
 
-/ed.?breakthrough/i
 /eliminates?.{1,10}(buzzing|clogged|neuropathy|tinnitus)/i
 
 /empty.{1,10}colon/i
@@ -322,11 +307,8 @@
 /(eliminates?|eradicates?|erases?).{1,15}knee pain/i
 /(eliminates?|eradicates?|erases?).{1,15}without meds/i
 
-/erections?.{1,10}(demand|muscle|pill)/i
+/escape.{1,10}memory/i
 
-/escape.{1,10}meomory/i
-
-/evacuate.{1,10}fat/i
 /ever faked an/i
 /experts?.{1,10}(food|his food|warn)/i
 
@@ -350,7 +332,6 @@
 /fix.{1,10}tooth decay/i
 /fix.{1,10}your.{1,10}(gut|teeth)/i
 
-/flattens?.{1,10}(belly|tummy)/i
 /flush(es)? out.{1,10}(fat|this)/i
 
 /focus.{1,10}memory/i
@@ -364,8 +345,6 @@
 /follow these steps at/i
 
 /for.{1,10}better memory/i
-/for.{1,10}slim belly/i
-/for.{1,10}weight.?loss/i
 
 /forget.{1,10}dieting/i
 
@@ -520,11 +499,6 @@
 /memory.?loss.{1,10}(comes from|unveiled)/i
 /memory.{1,10}in just/i
 /memory.{1,10}(rescue|steroid)/i
-
-/melt fat every/i
-/melt.{1,10}pounds/i
-/melts.{1,10}fat fast/i
-/melts.{1,10}in.{1,10}weeks/i
 
 /men.{1,10}horny/i
 /message.{1,10}uncovered/i
@@ -875,7 +849,6 @@
 /tonic.{1,10}fixed/i
 /top nasa researcher/i
 /top doctor.{1,10}reveals/i
-/top worst.{1,10}veggies?/i
 
 /toxin.{1,10}avoid/i
 /toxin in.{1,10}(popular|superfoods)/i
@@ -925,9 +898,6 @@
 /with.{1,10}simple.{1,10}drink/i
 
 /worse.{1,10}heres why/i
-
-/worst.{1,10}for.{1,10}(blood sugar|heart|weight)/i
-/worst.{1,10}habit that/i
 
 /wrinkle.{1,10}(fast|free|hormone|instantly|skin)/i
 

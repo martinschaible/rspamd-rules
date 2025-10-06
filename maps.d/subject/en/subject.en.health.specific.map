@@ -25,19 +25,32 @@
 
 /(burn|drop|erase|lose|melt|remove|shed).{1,10}(belly|more|pounds).{1,10}(fat|flab|lbs|weight)/i
 /(burn|drop|erase|lose|melt|remove|shed).{1,10}(fat|inches|lbs|pounds|weight)/i
-/(burn|drop|erase|lose|melt|remove|shed).{1,10}(fat|weight).{1,15}(activate|easily|exercise|fast|in your)/i
+/(burn|drop|erase|lose|melt|remove|shed).{1,10}(fat|weight).{1,15}(activate|easily|exercise|fast|naturally|in your)/i
 /(burn|drop|erase|lose|melt|remove|shed).{1,10}(fat|weight).{1,15}(overnight|scientists|while you|with this|without)/i
 
 /(burn|drop|erase|lose|melt|remove|shed).{1,10}of your.{1,10}(fat|weight)/i
 /(burn|drop|erase|lose|melt|remove|shed).{1,10}up to.{1,10}(fat|lbs|pounds|weight)/i
 
+/(burn|drop|erase|lose|melt|remove|shed).{1,10}in.{1,10}weeks/i
+
 /(about|affects|big|blocking|boost|celeb|daily|easy|fast|for).{1,15}(fat|weight).?(burn(ing)?|loss)/i
 /(hidden|massive|method|overnight|rapid|simple|steady|try this|your).{1,15}(fat|weight).?(burn(ing)?|loss)/i
 
 /add inches.{1,15}waistline/i
-/dissolves.{1,10}(fat|flab|lbs|pounds|weight)/i
+/body burns fat/i
+/boost.{1,10}fat breakdown/i
+/(boost|energy).{1,15}manage weight/i
+/calories.{1,10}belly fat/i
+
+/diet.{1,10}doctor says/i
+/(dissolves?|evacuates?).{1,10}(fat|flab|lbs|pounds|weight)/i
+/drink.{1,10}shed.{1,10}(inches|lbs|pounds|weight)/i
+/drop up to.{1,10}(lbs|pounds|weight)/i
 
 /(easy|erases).{1,10}(fat|weight).{1,10}(fighting|overnight)/i
+/flattens?.{1,10}(belly|tummy)/i
+/for.{1,10}slim belly/i
+/for.{1,10}weight.?loss/i
 
 /helps.{1,10}(burn|drop|erase|lose|melt|remove|shed).{1,10}(fat|weight)/i
 /shed.{1,15}faster/i
@@ -62,9 +75,11 @@
 
 # Men
 # ------------------------------------------------------------------------------
+/erections?.{1,10}(demand|muscle|pill)/i
 
 # Potency
 # ------------------------------------------------------------------------------
+/ed.?breakthrough/i
 
 # Hacks, Tricks, Secrets and other lies
 # ------------------------------------------------------------------------------
