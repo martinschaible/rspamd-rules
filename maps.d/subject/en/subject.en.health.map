@@ -254,6 +254,7 @@
 
 /(dentists?|doctors?).{1,10}the.{1,10}answer/i
 /(dentists?|doctors?).{1,10}(avoid|recommend|reveals|stunned|warn(ing)?)/i
+/(dentists?|doctors?).{1,10}never eat/i
 /(dentists?|doctors?).{1,10}says to avoid/i
 
 /does to joint pain/i
@@ -416,7 +417,7 @@
 /helps.{1,10}(prevent|reduce).{1,15}(diabetes|sugar|spikes)/i
 
 /health.{1,10}miracle/i
-/healthy.{1,10}nails/i
+/healthy.{1,10}(gut|nails)/i
 
 /hearing.{1,15}(loss due|naturally)/i
 
@@ -679,9 +680,9 @@
 
 /scientifically proven/i
 
-/scientists?.{0,10}(confirm|discover).{1,10}(the|this|real|secret|works)/i
-/scientists?.{0,10}reveals?/i
-/scientists?.{0,10}this is/i
+/(science|scientists?).{0,10}(confirm|discover).{1,10}(the|this|real|secret|works)/i
+/(science|scientists?).{0,10}(debunked|reveals?)/i
+/(science|scientists?).{0,10}this is/i
 
 /sec(ond)?.{1,10}(detox|home remedy|morning cleanse|sleep trick|stretch)/i
 /seconds.{1,10}relieve.{1,10}pain/i
@@ -898,7 +899,7 @@
 /use this secret/i
 
 # V
-/veggies?.{1,15}(facts|rethinking|worth)/i
+/veggies?.{1,15}(facts|myth|rethinking|worth)/i
 
 /vets.{1,10}concerned/i
 /vision.{1,10}(fix|solutions?)/i

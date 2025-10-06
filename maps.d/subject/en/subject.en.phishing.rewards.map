@@ -12,10 +12,14 @@
 /car emergency.?(kit|set)/i
 /medicare.?(kit|set)/i
 
-/pittsburgh.?toolset/i
+# Tool set
+/\d{2,3}.{1,10}tool.?set/i
+
 /tool.?set gift/i
+/tool.?set.{1,10}your feedback/i
 
 /get your.{1,15}kobalt.{1,10}tool.?set/i
+/(piece|pittsburgh).{1,10}toolset/i
 
 #
 #
