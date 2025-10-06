@@ -84,7 +84,7 @@
 
 # I
 #/ihre rechnung/i
-/ihre?.{0,15}(produkt|serechnungndung)/i
+/ihre?.{0,15}(produkt|sendung)/i
 
 /insider.{0,10}(news|risiko)/i
 /investment.{0,10}(guide|strategie)/i
@@ -93,7 +93,7 @@
 /ihr investment/i
 /ihre.{0,10}(finanzen|rendite)/i
 
-/insider.{0,10}(archiv|wissen)/i
+/insider.{0,10}(archiv|handel|wissen)/i
 
 # K
 /ki.?(aktien|news)/i

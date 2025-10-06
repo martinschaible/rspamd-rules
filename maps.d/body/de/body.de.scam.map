@@ -28,6 +28,13 @@
 # ------------------------------------------------------------------------------
 /unternehmen erfolgreich auf.{1,15}dem ultimativen.{1,10}verzeichnis/i
 
+/(aufnahme|eintragungsantrag).{1,15}(branchen.?(buch|führer)|firmen.?eintrag)/i
+
+/für die veröffentlichung.{1,10}im branchen.?(buch|führer)/iu
+
+/gewerbe.?informationsdatenbank/i
+/grosses schweizer firmenverzeichnis/i
+
 # Cars
 # ------------------------------------------------------------------------------
 /(audi|mercedes.?benz|porsche|volkswagen|vw) team/i

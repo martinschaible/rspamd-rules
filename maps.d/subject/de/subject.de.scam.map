@@ -293,6 +293,9 @@
 /vertraulich.{1,10}antworten/i
 /vertraulich.{1,10}confidential/i
 
+/(publikation|veröffentlichung).{1,10}unternehmenseintrag 202\d/iu
+/unternehmenseintrag.{1,10}(publikation|veröffentlichung) 202\d/i
+
 /vom bundeskriminalamt/iu
 
 # W
