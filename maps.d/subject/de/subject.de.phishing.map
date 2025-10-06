@@ -60,7 +60,9 @@
 # C
 
 # D
-/^datesätze aktualisieren$/iu
+/datensatz.{1,10}mitgliedsunternehmen/i
+/^datenätze aktualisieren/iu
+
 /digitale.{1,10}vignette ist ungültig/iu
 
 # E

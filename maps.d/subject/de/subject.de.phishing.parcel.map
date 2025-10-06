@@ -56,12 +56,13 @@
 
 /benachrichtigung.{1,15}(die|letzte).{1,15}paketzustellung/i
 
-/bestätigen sie.{1,15}barcode/iu
-/bestätigen sie.{1,10}die nächsten schritte/iu
-/bestätigen sie.{1,10}lieferdetails/iu
-/bestätigen sie.{1,10}(lieferung|zustellung)/iu
-/bestätigen sie.{1,10}ihr paket/iu
-/bestätigen sie.{1,10}ihre lieferdaten/iu
+/(bestätige|bestätigen sie).{1,15}adresse .{1,10}(sichere|sichern).{1,10}zustellung/i
+/(bestätige|bestätigen sie).{1,15}barcode/iu
+/(bestätige|bestätigen sie).{1,10}(dein|ihr) paket/iu
+/(bestätige|bestätigen sie).{1,10}(deine|ihre) lieferdaten/iu
+/(bestätige|bestätigen sie).{1,10}die nächsten schritte/iu
+/(bestätige|bestätigen sie).{1,10}lieferdetails/iu
+/(bestätige|bestätigen sie).{1,10}(lieferung|zustellung)/iu
 
 /bestätigung.{1,10}ihr.{1,10}paket zu versenden/iu
 

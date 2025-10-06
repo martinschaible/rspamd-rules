@@ -30,6 +30,7 @@
 /^\d:\b/i
 
 # Just numbers
+# -> Effective, but also dangerous
 #/^\d{2,15}$/i
 
 # Multiple special characters
