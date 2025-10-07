@@ -23,6 +23,7 @@
 
 /(business|partnership).{1,10}(enquiry|inquiry)/i
 
+/(business|partnership).{1,15}corporation.{1,10}contract/i
 /(business|partnership).{1,15}(assistance|collaboration|discussion|request)/i
 /(business|partnership).{1,15}(offer|opportunity|proposal|proposition|response)/i
 

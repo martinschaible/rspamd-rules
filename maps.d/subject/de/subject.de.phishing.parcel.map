@@ -160,7 +160,8 @@
 
 /lieferung nicht möglich.{1,10}falsche adresse/i
 
-/(lieferung|versand).{1,10}jetzt bestätigen/i
+/(lieferung|paket|sendung|versand|zustellung).{1,10}bestätigt/iu
+/(lieferung|paket|sendung|versand|zustellung).{1,10}jetzt bestätigen/i
 
 /(lieferung|paket|sendung|versand|zustellung).{1,10}\.\.\.\]/i
 
@@ -170,6 +171,7 @@
 /(lieferung|paket|sendung|versand|zustellung).{1,10}für sie zurückgehalten/iu
 /(lieferung|paket|sendung|versand|zustellung).{1,10}konnte nicht zugestellt werden.{1,10}verschieben sie/i
 /(lieferung|paket|sendung|versand|zustellung).{1,10}ist angehalten/i
+/(lieferung|paket|sendung|versand|zustellung).{1,20}lieferdaten verifizieren/iu
 /(lieferung|paket|sendung|versand|zustellung).{1,10}steht zur zustellung bereit/i
 
 /(lieferung|paket|sendung|versand|zustellung).{1,20}warten auf freigabe/i

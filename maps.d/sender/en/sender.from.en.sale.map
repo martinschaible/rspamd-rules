@@ -39,6 +39,7 @@
 
 /boresighter/i
 
+/breaking.{0,10}deals?/i/i
 /bright.{0,10}path/i
 
 /built.{0,10}(tough|to last)/i
@@ -65,7 +66,7 @@
 /cool.{0,10}(edge|pocket|solutions?|time)/i
 
 # D
-/deals?.{0,10}(alarm|today)/i
+/deals?.{0,10}(alarm|days?|today)/i
 /(designer|discount|rolex|top).?watch(es)?/i
 
 /defense.{0,10}brief/i

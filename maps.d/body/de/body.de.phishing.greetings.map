@@ -140,74 +140,77 @@
 /(rückerstattung|rückzahlung).{1,15}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/iu
 
 # S
-/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}aktivieren sie ihre/i
-/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}aus sicherheitsgründen/iu
-/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}aufgrund.{1,15}(aktualisierter|allgemeiner|neuer|verdächtigen)/i
-/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}aufgrund.{1,10}verschärften/i
+/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}aktivieren sie ihre/i
+/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}aus sicherheitsgründen/iu
+/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}aufgrund.{1,15}(aktualisierter|allgemeiner|neuer|verdächtigen)/i
+/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}aufgrund.{1,10}verschärften/i
 
-/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}bei einer aktuellen überprüfung/iu
-/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}bei der letzten verwendung/i
-/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}benötigen sie eine?/iu
-/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}bestätigen sie ihre/iu
+/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}bei einer aktuellen überprüfung/iu
+/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}bei der letzten verwendung/i
+/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}benötigen sie eine?/iu
+/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}bestätigen sie ihre/iu
 
-/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}die sicherheit ihrer/i
-/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}dies ist eine benachrichtigung/i
-/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,25}dies ist eine dringende mitteilung/i
-/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}es wurde eine aktivität/iu
-/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}(gemäss|gemäß).{1,15}richtlinie/iu
+/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}die sicherheit ihrer/i
+/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}dies ist eine benachrichtigung/i
+/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,25}dies ist eine dringende mitteilung/i
 
-/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}ihr paket/i 
-/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}ihre aktuelle zahlungsmethode/i
-/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}ihre.{1,10}e?.?mail.?adresse wurde von/i
+/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}es liegt ein unbefugter zugriff/i
+/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}es wurde eine aktivität/iu
+/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}(gemäss|gemäß).{1,15}richtlinie/iu
 
-/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}im rahmen.{1,10}(der|ihrer) gesetzlich(en)?/i
-/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}im rahmen.{1,25}(datenschutz|eintragung|europäischen|sicherheits|verpflichtungen)/iu
-/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}im rahmen.{1,15}jährlichen.{1,10}(datenpflege|kontrolle)/iu
+/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}ihr paket/i 
+/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}ihre aktuelle zahlungsmethode/i
+/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}ihre.{1,10}e?.?mail.?adresse wurde von/i
 
-/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}im zuge.{1,10}europaweiten anpassung/i
+/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}im rahmen.{1,10}(der|ihrer) gesetzlich(en)?/i
+/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}im rahmen.{1,25}(datenschutz|eintragung|europäischen|sicherheits|verpflichtungen)/iu
+/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}im rahmen.{1,15}jährlichen.{1,10}(datenpflege|kontrolle)/iu
 
-/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}leider konnten wir ihre?.{1,10}(paket|sendung)/i
-/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,10}nach (artikel|datenschutzgrundverordnung)/i
-/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,50}notwendigen vertraglichen anpassungen/i
+/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}im zuge.{1,10}europaweiten anpassung/i
 
-/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,20}sicherheitswarnung/i
+/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}leider konnten wir ihre?.{1,10}(paket|sendung)/i
+/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,10}nach (artikel|datenschutzgrundverordnung)/i
+/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,50}notwendigen vertraglichen anpassungen/i
 
-/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,20}sie daran erinnern.{1,10}dass ihre rechnung/i
-/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}sie wurden für unser/i
+/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,10}seit dem.{1,25}sind wir gesetzlich/i
+/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,20}sicherheitswarnung/i
 
-/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}trotz unserer vorherigen erinnerung/i
+/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,20}sie daran erinnern.{1,10}dass ihre rechnung/i
+/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}sie wurden für unser/i
 
-/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,30}um den uneingeschränkten/iu
-/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}um die (qualität|rückzahlung)/iu
-/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}um (die|ihre) sicherheit ihres.{1,20}kontos/i
-/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}um die zollabfertigung/i
+/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}trotz unserer vorherigen erinnerung/i
 
-/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}unsere aufzeichnungen zeigen/i
+/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,30}um den uneingeschränkten/iu
+/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}um die (qualität|rückzahlung)/iu
+/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}um (die|ihre) sicherheit ihres.{1,20}kontos/i
+/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}um die zollabfertigung/i
 
-/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}verpflichtende aktualisierung/i
-/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}wichtige nachricht an sie/i
-/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}wichtige sicherheitsinformation/i
+/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}unsere aufzeichnungen zeigen/i
+
+/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}verpflichtende aktualisierung/i
+/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}wichtige nachricht an sie/i
+/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}wichtige sicherheitsinformation/i
 
 # 29.06.25 - Used by fake "EOS Deutscher Inkasso-Dienst GmbH" 
-/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}wir kontaktieren sie im auftrag von/i
+/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}wir kontaktieren sie im auftrag von/i
 
-/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}wir haben.{1,10}(ein problem|festgestellt)/i
-/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}wir haben.{1,10}probleme/i
-/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}wir hatten kürzlich ein/iu
+/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}wir haben.{1,10}(ein problem|festgestellt)/i
+/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}wir haben.{1,10}probleme/i
+/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}wir hatten kürzlich ein/iu
 
-/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}wir konnten ihre letzte zahlung/i
+/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}wir konnten ihre letzte zahlung/i
 
-/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}wir möchten sie.{1,15}(dringend|informieren)/iu
-/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}wir möchten sie.{1,15}darauf aufmerksam machen/iu
-/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}wir mussten feststellen/i
+/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}wir möchten sie.{1,15}(dringend|informieren)/iu
+/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}wir möchten sie.{1,15}darauf aufmerksam machen/iu
+/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}wir mussten feststellen/i
 # Invoices
-/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,20}anbei erhalten sie ihre aktuelle rechnung/i
-/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,20}anbei schicken wir ihnen ihre rechnung/i
+/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,20}anbei erhalten sie ihre aktuelle rechnung/i
+/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,20}anbei schicken wir ihnen ihre rechnung/i
 
-/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,20}ihre rechnung ist/i
+/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,20}ihre rechnung ist/i
 
-/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}zu ihrem schutz/i
-/sehr geehrter?.{1,10}(damen|herren|kunde|kundin).{1,15}zum schutz ihrer/i
+/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}zu ihrem schutz/i
+/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}zum schutz ihrer/i
 
 /sehr geehrter.{1,10}anleger.{1,10}unser sicherheitssystem/i
 /sehr geehrter.{1,10}anleger.{1,10}unsere unterlagen zeigen/i
