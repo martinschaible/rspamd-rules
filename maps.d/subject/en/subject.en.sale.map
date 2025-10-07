@@ -97,6 +97,7 @@
 # N
 /never lose keys again/i
 
+/no contracts.{1,10}start ip.?tv/i
 # O
 /our.{1,10}ip.?tv.{1,10}service/i
 /our.{1,10}products.{1,10}(match|something|to your)/i
@@ -127,6 +128,8 @@
 /snoring.{1,10}(is|solution)/i
 
 /special promotion.{1,10}limited time discounts/i
+
+/start ip.?tv today/i
 /starting at.{1,15}shop today/i
 
 # T

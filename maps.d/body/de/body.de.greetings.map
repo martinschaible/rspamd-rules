@@ -64,7 +64,8 @@
 /guten (abend|morgen|tag).{1,10}gute nachrichten/i
 /guten (abend|morgen|tag).{1,10}hier spricht/i
 
-/guten (abend|morgen|tag).{1,10}ich bin (frau|herr)/i
+/guten (abend|morgen|tag).{1,10}ich bin.{1,10}(frau|herr)/i
+/guten (abend|morgen|tag).{1,10}ich bin.{1,10}content.?verantwortlich/i
 /guten (abend|morgen|tag).{1,10}ich bitte um entschuldigung/i
 /guten (abend|morgen|tag).{1,10}ich brauche ihre hilfe/i
 /guten (abend|morgen|tag).{1,10}ich hoffe.{1,10}dieser?.{1,10}(brief|e?.?mail|nachricht)/i
