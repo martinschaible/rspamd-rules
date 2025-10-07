@@ -22,6 +22,7 @@
 
 # TLD in front, usualy (ch|com|de|org)
 /\.[a-z]{1,4}.{1,10}wichtiger hinweis/i
+/\.[a-z]{1,4}.{1,10}zur beendigung vorgemerkt/i
 
 # A
 /adressdaten ihres unternehmens aktualisieren/i
