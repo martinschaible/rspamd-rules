@@ -20,6 +20,7 @@
 
 /(fat|weight).{1,10}blocking herbs/i
 /(fat|weight).{1,10}gain.{1,10}fatigue/i
+/(fat|weight).{1,10}\[learn more\]/i
 /(fat|weight).{1,10}success proven/i
 /(fat|weight).{1,10}with this.{1,10}hack/i
 
@@ -53,6 +54,8 @@
 /for.{1,10}weight.?loss/i
 
 /helps.{1,10}(burn|drop|erase|lose|melt|remove|shed).{1,10}(fat|weight)/i
+/may aid.{1,10}weight.?loss/i
+
 /shed.{1,15}faster/i
 /shed.{1,10}ibs by/i
 /shed.{1,10}sizes overnight/i
@@ -76,6 +79,8 @@
 # Men
 # ------------------------------------------------------------------------------
 /erections?.{1,10}(demand|muscle|pill)/i
+
+/keeps men rock.?hard/i
 
 # Potency
 # ------------------------------------------------------------------------------
