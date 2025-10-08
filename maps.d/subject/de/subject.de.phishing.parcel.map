@@ -172,6 +172,8 @@
 /(lieferung|paket|sendung|versand|zustellung).{1,10}konnte nicht zugestellt werden.{1,10}verschieben sie/i
 /(lieferung|paket|sendung|versand|zustellung).{1,10}ist angehalten/i
 /(lieferung|paket|sendung|versand|zustellung).{1,20}lieferdaten verifizieren/iu
+
+/(lieferung|paket|sendung|versand|zustellung).{1,10}nicht zustellen.{1,10}(\d{5,10}|ids)/i
 /(lieferung|paket|sendung|versand|zustellung).{1,10}steht zur zustellung bereit/i
 
 /(lieferung|paket|sendung|versand|zustellung).{1,20}warten auf freigabe/i
