@@ -60,7 +60,9 @@
 # H
 
 # I
+/ihr.{1,10}finanz.?update.{1,10}(oktober|november|dezember)/i
 /ihr.{1,10}finanz.?update.{1,10}ref/i
+
 /ihr.{1,10}online.?(banking|zugang) ist gefährdet/iu
 /ihr.{1,10}online.?(banking|zugang) ist nicht.{1,15}(geschützt|vollständig)/iu
 

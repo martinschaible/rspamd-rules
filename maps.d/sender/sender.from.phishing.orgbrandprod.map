@@ -467,6 +467,8 @@
 
 /microsoft ads/i
 /microsoft.{0,10}(advertising|cashback|rewards?)/i
+/microsoft.{0,10}konto/i
+
 /service.{0,10}microsoft/i
 
 /migros.?(™|®|©)$/i

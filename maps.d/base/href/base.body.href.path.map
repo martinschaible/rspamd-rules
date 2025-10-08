@@ -44,6 +44,9 @@
 # Malware
 /\.(ch|com|de)\.zip\?rlkey=/i
 
+# 08.10.25
+/\.net\/visit\?url=https:\/\//i
+
 # Forwarder to exotic TLDs
 # ------------------------------------------------------------------------------
 # 14.04.25 - Sample: redirect=3Dhttps://blinks.to/8Olu8jg
