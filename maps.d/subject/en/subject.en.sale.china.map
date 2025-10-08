@@ -101,7 +101,8 @@
 
 /die casting solutions/i
 
-/direct manufacturer of/i
+/direct (factory|manufacturer) of/i
+/direct (factory|manufacturer).{1,10}vacuum/i
 /discuss.{1,10}(pcba?|printed.?circuits?.?board).{1,10}products/i
 
 /discover cnc.{1,20}for your business/i

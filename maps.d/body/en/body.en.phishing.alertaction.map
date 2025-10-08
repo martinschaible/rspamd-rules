@@ -23,7 +23,7 @@
 # A
 /account review (needed|report)/i
 
-
+/(action|update) (needed|required).{1,10}agreement confirmation/i
 /(action|update) (needed|required).{1,10}continue enjoying/i
 /(action|update) (needed|required).{1,10}required.{1,10}incoming.{1,10}(e?.?mail|message)s?.{1,10}witheld/i
 /(action|update) (needed|required).{1,10}required.{1,10}(e?.?mail|message)s?.{1,10}quarantined/i

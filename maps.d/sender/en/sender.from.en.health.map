@@ -452,7 +452,7 @@
 /detox.{0,10}(drink|solution|your)/i
 /deficiency.{0,10}alert/i
 
-/digestive.{0,10}(boost|health|help|insight|reset|system)/i
+/digestive.{0,10}(boost|food|health|help|insight|reset|system)/i
 /digestion/i
 
 /dinner.{0,10}secret/i
@@ -480,7 +480,7 @@
 /eagle.{0,10}vision/i
 
 /ear.{0,10}reset/i
-/easy.{0,10}(breathing|spine|stretch)/i
+/easy.{0,10}(breathing|digestive|spine|stretch)/i
 /eat.{0,10}(fruitme|me|this)/i
 /egyptian.{0,10}hack/i
 
@@ -745,7 +745,7 @@
 /nutrition.{0,15}(explorer|fruits|healing|insights|less|nuances?|report|tips?|truth|veggies)/i
 
 # O
-/oat.?meal.{0,10}hack/i
+/oat.?meal.{0,10}(trick|hack)/i
 /odd.{0,10}(chocolate|milk|mineral|liquid|tonic)/i
 
 /of ed$/i
