@@ -45,6 +45,7 @@
 # A
 /(antworte|kennenlernen).{1,15}(klicke?|schreibe?) hier/i
 
+/alles ist anonym.{1,10}diskret/i
 /auf.{1,10}dating.?website/i
 
 /(aufrichtig|deutche|glänzend|wunderbar|zielstrebige).{1,10}(freund|herr|mann)/i
@@ -113,6 +114,7 @@
 # I
 /ich bin ein.{1,10}romantisches mädchen/iu
 /ich bin (bereit|offen).{1,10}bekanntschaften/i
+/Ich bin.{1,10}geil/i
 
 /ich füge ein.{1,10}foto bei/iu
 /ich liebe.{1,10}oral.?sex/i
@@ -139,6 +141,8 @@
 
 # L
 /link zu meinem profil/i
+
+/lokalen? chat.?kontakten?/i
 
 /lust auf.{1,10}chat(ten)?/i
 /lust hast zu schreiben.{1,10}hier bin ich/i

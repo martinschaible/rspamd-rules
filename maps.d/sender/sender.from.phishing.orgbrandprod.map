@@ -216,6 +216,7 @@
 /^cpanel$/i
 /cpanel.{0,10}(host|server|service|team)/i
 /cpanel.{0,10}roundcube/i
+/cpanel.{5,15}\.(ch|de)/i
 /cpanel on/i
 
 /css.{0,10}(info|kundeninformation)/i
