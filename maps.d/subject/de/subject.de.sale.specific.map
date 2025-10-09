@@ -76,7 +76,7 @@
 /elektrovellos/i
 /^elektrofahrräder/iu
 
-/\d{1,2}{1,5}elektro.?(fahrrad|fahrrädern?|motorrad)/i
+/\d{1,2}{1,5}elektro.?(fahrrad|fahrrädern?|motorrad|velo)/i
 
 /(e.?bike|e.?cycle|elektro.?moped).{1,15}eu.?(lieferung|weit)/i
 /(e.?bike|e.?cycle|elektro.?moped).{1,10}(besten|bester).{1,10}preis/i
@@ -84,15 +84,15 @@
 /(e.?bike|e.?cycle|elektro.?moped).{1,15}(abenteuer|angebot|in nur|innovation|komfort|motor)/i
 /(e.?bike|e.?cycle|elektro.?moped).{1,15}(power|reichweite|revolution|tagen|stärke|zukunft)/i
 
-/elektro.?(fahrrad|fahrrädern?|motorrad|moped).{1,10}(beste wahl|direkt|herstellerpreisen?)/i
-/elektro.?(fahrrad|fahrrädern?|motorrad|moped).{1,10}(für europa|für nur|zukunft)/iu
-/elektro.?(fahrrad|fahrrädern?|motorrad|moped).{1,10}(berge|stadt)/i
+/elektro.?(fahrrad|fahrrädern?|motorrad|moped|velo).{1,10}(beste wahl|direkt|herstellerpreisen?)/i
+/elektro.?(fahrrad|fahrrädern?|motorrad|moped|velo).{1,10}(für europa|für nur|zukunft)/iu
+/elektro.?(fahrrad|fahrrädern?|motorrad|moped|velo).{1,10}(berge|stadt)/i
 
-/(anfragen|beste|jetzt|passende).{1,10}elektro.?(fahrrad|fahrrädern?|motorrad|moped)/i
-/(distributor|geschäft|händler).{1,10}elektro.?(fahrrad|fahrrädern?|motorrad|moped)/iu
+/(anfragen|beste|jetzt|passende).{1,10}elektro.?(fahrrad|fahrrädern?|motorrad|moped|velo)/i
+/(distributor|geschäft|händler).{1,10}elektro.?(fahrrad|fahrrädern?|motorrad|moped|velo)/iu
 
 /(auf ein|faltbarefortbewegung|kauf|kraftvoll|neues).{1,15}(e.?bike|e.?cycle|elektro.?moped)/iu
-/(rabatt|unschlagbare?|unser|über|zuverlässig).{1,15}(e.?bike|e.?cycle|elektro.?moped)/iu
+/(rabatt|unschlagbare?|unser|über|zuverlässig).{1,15}(e.?bike|e.?cycle|elektro.?moped|velo)/iu
 
 # Brand
 /e.?bikes?.{1,10}city voyager/i

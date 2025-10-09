@@ -192,7 +192,8 @@
 
 # R
 /rank\.\./i
-/ranking\.\./i
+/ranking.?\.\./i
+/ranking.?\?\?/i
 
 /read.?!!/i
 
@@ -222,6 +223,7 @@
 
 # T
 /_trader/i
+/\+.?testosterone?/i
 
 # U
 /undeiivered/i
