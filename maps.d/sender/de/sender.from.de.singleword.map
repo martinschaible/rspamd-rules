@@ -19,6 +19,8 @@
 # Special
 # ==============================================================================
 /\|.?kunden/i
+/\|btc\./i
+/p l a t t f o r m/i
 
 # Titles
 # ------------------------------------------------------------------------------
@@ -826,6 +828,7 @@
 # V
 /validierung/i
 /validierungs.?zentrum/i
+
 /ventilatoren/i
 /venenmittel/i
 
@@ -841,8 +844,9 @@
 /verlorenes/i
 /verlosung/i
 
-/^versand$/i
+/vermögensgenerierung/iu
 
+/^versand$/i
 /versandabteilung/i
 /versandaktualisierung/i
 /versandalarm/i

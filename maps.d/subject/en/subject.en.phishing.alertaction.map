@@ -130,8 +130,9 @@
 # B
 
 # C
-/compliance (notice|reminder).{1,10}(complete|finalize).{1,15}(identity|verification)/i
-/compliance (notice|reminder).{1,10}verify your/i
+/compliance (alert|notice|reminder).{1,10}(complete|finalize).{1,15}(identity|verification)/i
+/compliance (alert|notice|reminder).{1,10}renewal required/i
+/compliance (alert|notice|reminder).{1,10}verify your/i
 
 /confirm access immediately/i
 /confirm ownership of.{1,20}@/i
@@ -149,9 +150,13 @@
 /(e?.?mail|mailbox).{1,10}verification.{1,10}(action|update) (needed|required)/i
 
 # F
+/final compliance.{1,10}alert/i
+
 /final (notice|reminder).{1,10}(confirm|refresh|verify) your/i
 /final (notice|reminder).{1,10}do not miss/i
 /final (notice|reminder).{1,10}enable.{1,20}2fa/i
+
+/form renewal required/i
 
 # 30.07.25 - Final Notice Regarding Unsubmitted Tax Documents
 /税務書類未提出に関する最終通知/i
@@ -217,6 +222,8 @@
 /mail alert/i 0.25
 /mailbox full.{1,10}(action|update) (needed|required)/i
 
+/mandatory update.{1,10}maintain valid/i
+
 /migration.{1,10}last chance/i
 
 # N
@@ -263,6 +270,8 @@
 /reply back today/i
 
 /report.{1,10}incoming messages/i
+
+/requirement.{1,10}renew your/i
 
 # S
 /(secure|security).{1,10}(action|update|upgrade).{1,10}identity confirmation/i

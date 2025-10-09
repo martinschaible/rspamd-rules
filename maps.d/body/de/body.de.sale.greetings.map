@@ -59,7 +59,8 @@
 # R
 
 # S
-/sehr geehrter?.{1,10}(damen|herren).{1,20}ihr(em)? unternehmensprofil/i
+/sehr geehrter?.{1,15}(damen|frau|herr(en)?).{1,20}ihr(em)? unternehmensprofil/i
+/sehr geehrter?.{1,15}(damen|frau|herr(en)?).{1,10}wir sind ein.{1,10}dienstleister/i
 
 # T
 
