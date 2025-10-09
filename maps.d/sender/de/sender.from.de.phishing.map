@@ -41,6 +41,8 @@
 # C
 /ch.?zustellung/i
 
+/cloud.{0,10}(hinweis|wichtig(er)?)/i
+
 # D
 /dankt ihnen/i
 
@@ -180,6 +182,8 @@
 /-werbung/i
 
 /wichtig(es)?.{0,10}update/i
+/wichtig(er)?.{0,10}hinweis/i
+
 /wir gratulieren/i
 
 # X
