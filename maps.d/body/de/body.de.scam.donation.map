@@ -128,7 +128,9 @@
 
 /sie.{1,15}ausgewählt wurden.{1,10}um einen.{1,15}betrag/iu
 /sie.{1,10}erhalten eine.{1,10}(fördersumme|spende|zuschuss)/iu
-/sie.{1,10}für eine (förderung|spende) in höhe von/iu
+/sie.{1,10}für eine.{1,10}(förderung|spende).{1,10}(in höhe von|nominiert)/iu
+
+/sie.{1,10}haben.{1,10}anspruch auf.{1,10}allgemeine unterstützung/iu
 
 /sie.{1,10}haben.{1,15}(spende|zuschuss|zuwendung).{1,10}erhalten/iu
 /sie.{1,10}haben.{1,15}(spende|zuschuss|zuwendung).{1,10}ich habe.{1,20}im lotto/i
