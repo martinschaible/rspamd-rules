@@ -167,7 +167,7 @@
 
 /sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}im rahmen.{1,10}(der|ihrer) gesetzlich(en)?/i
 /sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}im rahmen.{1,25}(datenschutz|eintragung|europäischen|sicherheits|verpflichtungen)/iu
-/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}im rahmen.{1,15}jährlichen.{1,10}(datenpflege|kontrolle)/iu
+/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}im rahmen.{1,15}(jährlichen|regelmäßigen).{1,10}(datenpflege|kontrolle|qualitätskontrolle)/iu
 
 /sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}im zuge.{1,10}europaweiten anpassung/i
 
@@ -234,6 +234,8 @@
 
 # U
 /ungewöhnliche aktivitäten festgestellt.{1,10}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/iu
+
+/unverzügliche zahlung.{1,10}guten tag/i
 
 # V
 /verifizierung ihres.{1,15}kontos?.{1,10}guten tag/i

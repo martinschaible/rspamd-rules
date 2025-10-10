@@ -358,7 +358,7 @@
 /(fruits?|vegetable|veggies?).{1,10}(harmful|harm your)/i
 /(fruits?|vegetable|veggies?).{1,10}might not/i
 /(fruits?|vegetable|veggies?).{1,10}that.{1,10}(fights|harm|might|may|weakens)/i
-/(fruits?|vegetable|veggies?).{1,10}that make you/i
+/(fruits?|vegetable|veggies?).{1,10}that (ends|make you)/i
 /(fruits?|vegetable|veggies?).{1,10}to (eat|stop)/i
 /(fruits?|vegetable|veggies?).{1,10}(should|to) avoid/i
 /(fruits?|vegetable|veggies?).{1,10}surprising benefits/i
@@ -530,7 +530,7 @@
 /neck.{1,10}back.{1,10}pain/i
 
 /needs this drink/i
-/nerve.?pain getting/i
+/nerve.?pain.{1,10}(getting|trigger)/i
 
 /never eat these/i
 
@@ -784,7 +784,7 @@
 /the.{1,10}secret ingredient/i
 /the.{1,10}truth about/i
 
-/these.{1,10}fruits? (are|may|might|should|tworse)/i
+/(these|this).{1,10}(food|fruits?).{1,10}(are|kills?|may|might|should|tworse)/i
 
 /this.{1,10}anti.?aging.{1,10}product/i
 /this.{1,10}back.?pain fix/i
@@ -796,7 +796,6 @@
 /this.{1,10}(easy|simple) stretch/i
 /this.{1,10}everyday habit/i
 
-/this.{1,10}food kills/i
 /this.{1,10}for.{1,10}seconds/i
 /this.{1,10}ingredient may/i
 /this.{1,10}kills knee/i
@@ -831,6 +830,7 @@
 
 /truth about.{1,10}(fruits?|vegetables|veggies?)/i
 
+/the fruit that/i
 /that age you fast(er)?/i
 
 /(try|this).{1,10}(miracle|natural)/i
