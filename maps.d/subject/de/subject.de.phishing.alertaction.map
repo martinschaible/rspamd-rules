@@ -491,12 +491,15 @@
 /update.{1,10}app.?service.{1,10}erforderlich/i
 
 /überprüfen sie bestellung/i
-/überprüfen sie ihr.{1,15}(konto|profil)/iu
-/überprüfen sie.{1,10}(die|ihre).{1,15}daten jetzt/iu
-/überprüfen sie.{1,10}(die|ihre).{1,15}(kontodaten|persönlichen daten|sicherheitseinstellungen)/iu
-/überprüfen sie.{1,10}jetzt ihre daten/iu
 
-/überprüfung erforderlich.{1,10}um eine sperrung/i
+/(überprüfen|verifizieren) sie.{1,10}(die|ihre).{1,15}sicherheitseinstellungen/iu
+/(überprüfen|verifizieren) sie.{1,10}(die|ihre?).{1,15}(daten|konto|profil)/iu
+
+/(überprüfung|verifizierung).{1,10}(erforderlich|notwendig).{1,10}erhalten sie weiterhin/i
+/(überprüfung|verifizierung).{1,10}(erforderlich|notwendig).{1,10}um eine sperrung/i
+/(überprüfung|verifizierung).{1,10}ihrer.{1,10}telefon.?nummer ausstehend/i
+/(überprüfung|verifizierung).{1,10}ihres.{1,15}kontos.{1,10}(erforderlich|jetzt)/i
+/(überprüfung|verifizierung).{1,10}jetzt erforderlich/i
 
 /überweisung läuft.{1,10}sofortige stornierung/iu
 
@@ -507,12 +510,6 @@
 
 /verifiziere.{1,10}deine.{1,10}e?.?mail/i
 /verifizieren sie sich rechtzeitig/i
-/verifizieren sie ihr.{1,15}konto/i
-
-/verifizierung.{1,10}(erforderlich|notwendig).{1,10}erhalten sie weiterhin/i
-/verifizierung.{1,10}ihrer.{1,10}telefon.?nummer ausstehend/i
-/verifizierung.{1,10}ihres.{1,15}kontos.{1,10}(erforderlich|jetzt)/i
-/verifizierung.{1,10}jetzt erforderlich/i
 
 /vervollständigen sie ihre.{1,10}(online.?)?identifikation/i
 

@@ -35,7 +35,8 @@
 # C
 /claim your.{1,10}exclusive/i
 /claim your.{1,20}(prize|rewards)/i
-/claim your.{1,10}free.{1,15}kit/i
+/claim your.{1,10}free.{1,15}(box|kit)/i
+
 /congratulations.{1,10}you.{1,10}won/i
 
 # D

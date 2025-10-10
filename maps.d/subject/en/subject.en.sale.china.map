@@ -241,7 +241,7 @@
 
 /moulding.{1,10}supplier/i
 
-/(molds?|moulds).{1,10}(maker|construction|in stock)/i
+/(molds?|moulds).{1,10}(maker|construction|in stock|partner)/i
 /(molds?|moulds).{1,10}plastic parts/i
 
 /molex supplier/i
@@ -407,7 +407,7 @@
 /your.{1,15}pcba?.{1,20}(choice|partner|supplier|products?)/i
 
 /your.{1,10}next.{1,10}(pcba?|printed.?circuits?.?board)/i
-/your.{1,15}plastic.?mould/i
+/your.{1,15}plastic.?(mold|mould)/i
 /your.{1,10}reliable alternative/i
 
 /your.{1,10}trusted (odm|oem).{1,10}partner/i

@@ -26,7 +26,8 @@
 # B
 
 # C
-/charitable grant/i
+/charitable.{1,10}donation notification/i
+/charitable.{1,10}grant/i
 
 /(claims|message|reply|you have).{1,15}donation/i
 
