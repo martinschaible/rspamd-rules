@@ -115,6 +115,7 @@ These are the latest changes:
 | 06.10.25 | multimap.sender.from.de.scam.conf          | New map file added            |
 |          | multimap.sender.from.en.scam.conf          | New map file added            |
 |          | multimap.conf                              | New configuration file added  |
+| 10.10.25 | multimap.whitelist.header.ip.conf          | Configuration changed         |
 
 ## Content
 :point_right: All map files of the *first version* are stored in the folder `/etc/rspamd/maps.d/legacy`.<br>
