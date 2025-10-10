@@ -61,6 +61,8 @@
 # A
 /antworten Sie direkt auf diese.{1,10}(brief|e?.?mail|nachricht)/i
 
+/auf anweisung der.{1,30}kontaktieren wir sie/i
+
 # B
 /bestätigen sie.{1,10}den inhaber dieser.{1,10}e.?mail(.?adresse)?/iu
 /bestätigen sie.{1,10}die inhaberschaft.{1,10}e.?mail(.?adresse)?/iu

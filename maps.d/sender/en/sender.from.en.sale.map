@@ -156,7 +156,7 @@
 /^.?ip.?tv.?$/i
 /ip.?tv.{1,10}(access|channels|company)/i
 /ip.?tv.{1,10}(deal|live|max|movies|royals|offer|show|stream(ing)?|trial|today)/i
-/ip.?tv.{1,10}world/i
+/ip.?tv.{1,10}(vod|world)/i
 
 /i p t\.v/i
 /i p-tv/i
@@ -295,7 +295,7 @@
 /vaccum.{0,10}(go|pro)/i
 
 /value for money/i
-
+/value.{0,10}ip.?tv/i
 /vending.{0,10}machines?/i
 
 # W

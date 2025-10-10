@@ -109,6 +109,7 @@
 /ihre?.{1,15}(belohnung|geschenk|gutschein|gewinn|preis).{1,10}innerhalb von.{1,10}stunden/i
 /ihre?.{1,15}(belohnung|geschenk|gutschein|gewinn|preis).{1,10}ist ein brandneues/i
 /ihre?.{1,15}(belohnung|geschenk|gutschein|gewinn|preis).{1,10}wurde bisher nicht eingelöst/iu
+/ihre?.{1,15}(belohnung|geschenk|gutschein|gewinn|preis).{1,10}zu sichern.{1,10}klicken sie auf den untenstehenden button/iu
 
 /ihre.{1,10.}exklusive belohnung/i
 /ihre?.{1,15}prämie ist noch unbestätigt/iu
@@ -135,6 +136,7 @@
 # M
 
 # N
+/nach.{1,10}stunden verfällt ihre chance/iu
 
 # O
 
@@ -184,6 +186,7 @@
 # W
 /was sie erwartet.{1,10}(airpod|apple|iphone|ipad)/i
 
+/wenige angaben.{1,15}erfolgreichen zustellung/i
 /wlan.?geschenk/i
 
 /woche.{1,10}dein.{1,15}paket ist bereit/i
