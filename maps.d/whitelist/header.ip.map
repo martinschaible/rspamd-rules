@@ -2,58 +2,55 @@
 # It sometimes makes sense to whitelist the IP address of a mail host.
 #
 # You have to be aware that only highly trustworthy companies are eligible.
-#
-# Note: The "prefilter" is applied here.
-# If a rule matches, the email is accepted, and all other filters are ignored.
 # ------------------------------------------------------------------------------
 # Language: -
-# Weight:   -
+# Weight:   -1.0
 # ==============================================================================
 
 # 11.07.25 - mta.services.decathlon.com
-13.111.13.21
+/13\.111\.13\.21/i 6.0
 # 18.07.25 - mta.services.decathlon.nl
-13.111.28.57
+/13\.111\.28\.57/i 6.0
 
 # 06.04.25 - mail-mx03.fcb.de - Allianz Arena Muenchen Stadion GmbH
-85.159.246.47
+/85\.159\.246\.47/i 3.0
 
 # 28.03.25 - mail1.nespresso.com
-91.209.84.239
+/91\.209\.84\.239/i 6.0
 
 # 28.03.25 - mail21-67.srv2.de - DHL Deutschland
-91.241.72.67
+/91\.241\.72\.67/i 6.0
 
 # 16.09.25 - inxmx186.inxserver.de - DPD Deutschland GmbH
-93.191.162.37
-93.191.162.130
-93.191.164.162
+/93\.191\.162\.37/i 6.0
+/93\.191\.162\.130/i 6.0
+/93\.191\.164\.162/i 6.0
 
 # 28.03.25 - envelope.amag-group.ch
-130.248.172.27
+/130\.248\.172\.27/i 6.0
 
 # 29.03.25 - mta.nl.faz.net - Frankfurter Allgemeine Zeitung GmbH
-136.147.180.4
+/136\.147\.180\.4/i 6.0
 
 # 07.04.25 - mta.dialog-telekom.de - Dialog Telekom GmbH
 #            it is a IP address of Salesforce
-161.71.69.193
+/161\.71\.69\.193/i 3.0
 
 # 28.03.25 - aspmailout01.mail.admin.ch
-162.23.22.167
+/162\.23\.22\.167/i 6.0
 
 # 07.04.25 - r112.angebote.mein-aldi.de
-172.82.224.112
-# 28.03.25 - r116.angebote.mein-aldi.de 
-172.82.224.116
+/172\.82\.224\.112/i 6.0
+# 28.03.25 - r116.angebote.mein-aldi.de
+/172\.82\.224\.116/i 6.0
 
 # 01.04.25 - mail.balgrist.ch, srv-dmz-017.balgrist.ch
-185.133.46.17
+/185\.133\.46\.17/i 6.0
 
-# 28.03.25 - smtp02.login.raiffeisen.ch 
-194.11.223.142
+# 28.03.25 - smtp02.login.raiffeisen.ch
+/194\.11\.223\.142/i 6.0
 # 10.04.25 - smtp.info.raiffeisen.ch
-194.11.223.158
+/194\.11\.223\.158/i 6.0
 
 # 25.04.25 - mailtsyip1rz3-2.paketankuendigung.myhermes.de
-195.68.198.241
+/195\.68\.198\.241/i 6.0
