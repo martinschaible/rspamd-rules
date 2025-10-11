@@ -89,6 +89,8 @@
 /^gewinn$/i
 /gewinnerbenachrichtigung/i
 
+/gewonnen.?\/\//i
+
 # H
 /^hallo,/i
 /^hallo$/i
@@ -111,6 +113,7 @@
 /kontosicherheit!/i
 /kontosperrung!/i
 
+/@kredit/i
 /^kredite?$/i
 /kredit\?/i
 /kredit \d/i

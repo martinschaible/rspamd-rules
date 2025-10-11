@@ -26,7 +26,8 @@
 
 # Business register
 # ------------------------------------------------------------------------------
-/unternehmen erfolgreich auf.{1,15}dem ultimativen.{1,10}verzeichnis/i
+/unternehmen erfolgreich auf.{1,15}dem.{1,10}(globalen|ultimativen).{1,30}verzeichnis/i
+/unternehmen nun in unserem.{1,10}(globalen|ultimativen).{1,30}verzeichnis/i
 
 /(aufnahme|eintragungsantrag).{1,15}(branchen.?(buch|führer)|firmen.?eintrag)/i
 

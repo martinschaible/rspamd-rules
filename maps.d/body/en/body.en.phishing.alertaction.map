@@ -31,6 +31,7 @@
 /(action|update) (needed|required).{1,10}required.{1,10}upgrade.{1,10}(e?.?mail|mail.?box)/i
 /(action|update) (needed|required).{1,10}required.{1,10}verify now/i
 /(action|update) (needed|required).{1,10}required.{1,10}you must verify your account within/i
+/(action|update) (needed|required).{1,10}required.{1,10}your membership/i
 
 /(activate|enable).{1,10}2fa now/i
 /(activate|enable).{1,10}two.?factor authentication/i

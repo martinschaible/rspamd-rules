@@ -358,7 +358,7 @@
 /(fruits?|vegetable|veggies?).{1,10}(harmful|harm your)/i
 /(fruits?|vegetable|veggies?).{1,10}might not/i
 /(fruits?|vegetable|veggies?).{1,10}that.{1,10}(fights|harm|might|may|weakens)/i
-/(fruits?|vegetable|veggies?).{1,10}that (ends|make you)/i
+/(fruits?|vegetable|veggies?).{1,10}that (cause|ends|make you)/i
 /(fruits?|vegetable|veggies?).{1,10}to (eat|stop)/i
 /(fruits?|vegetable|veggies?).{1,10}(should|to) avoid/i
 /(fruits?|vegetable|veggies?).{1,10}surprising benefits/i
@@ -378,7 +378,7 @@
 /gets? rid of.{1,10}unwanted/i
 
 /(gum|gut).{0,10}(cleanse|cleansing)/i
-/(gum|gut).{0,10}(fix|health|message)/i
+/(gum|gut).{0,10}(doctor|fix|health|message)/i
 /(gum|gut).{0,10}(problem|power|relief|reset)/i
 
 /goodbye.{0,10}(pain|ringing ears)/i
@@ -796,6 +796,7 @@
 /this.{1,10}(easy|simple) stretch/i
 /this.{1,10}everyday habit/i
 
+this.{1,10}food scam/
 /this.{1,10}for.{1,10}seconds/i
 /this.{1,10}ingredient may/i
 /this.{1,10}kills knee/i

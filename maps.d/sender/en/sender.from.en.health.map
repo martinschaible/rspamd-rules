@@ -23,6 +23,7 @@
 /memory.{0,10}protection/i
 /memory.{0,10}(recovery|restore|revival|revive)/i
 /memory.{0,10}(saver|saving|secret|solution|strengthener|tonic)/i
+/memory.{0,10}vitamins?/i
 
 /(boost|excellent|fading|focus|future|perfect|poor|restore|sharp|your).{0,10}memory/i
 
@@ -491,7 +492,7 @@
 /end.{0,10}noise/i
 /end.{0,10}type.{0,10}2/i
 
-/energy.{0,10}(unlock|without)/i
+/energy.{0,10}(balance|unlock|without)/i
 /enhanced.{0,10}recall/i
 
 /erase.{0,10}fat/i
@@ -553,7 +554,9 @@
 
 /fresh.{0,10}breath/i
 /fried.{0,10}chicken/i
-/fruit.{0,10}(hack|mistake|risk|truth)/i
+
+/(fruits?|vegetable|veggies?).{0,10}(fatigue|hack|mistake|risk|truth)/i
+/(fruits?|vegetable|veggies?).{0,10}(quiz|watch)/i
 
 /fuzzy.{0,10}drink/i
 
@@ -991,7 +994,6 @@
 
 # V
 /varicose.{0,10}veins/i
-/veggies?.{0,10}(quiz|watch)/i
 /vein.{0,10}solutions?/i
 
 /victim.{0,10}of/i
@@ -1037,7 +1039,7 @@
 /your.{1,10}wellness/i
 
 /youth.{0,10}restored/i
-/youthful.{0,10}(boost|glow|longevity|strength|you)/i
+/youthful.{0,10}(boost|glow|longevity|strength|water|you)/i
 
 # Z
 /zero.{0,10}side.?effects?/i

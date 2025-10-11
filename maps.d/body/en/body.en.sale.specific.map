@@ -59,6 +59,16 @@
 /see clearer with this/i
 /smallest objects while driving/i
 
+# Streaming TV
+# ------------------------------------------------------------------------------
+
+/\d{3,4}.{1,10}(live|worldwide).{1,10}channels/i
+/\d{3,4}.{1,10}movies.{1,10}series/i
+
+/(affordable|experience|premium|strong).{1,10}ip.?tv.{1,10}(service|streaming|subscription)/i
+
+/live channels.{1,10}movies.{1,10}series/i
+
 # WiFi
 # ------------------------------------------------------------------------------
 /(wi.?fi|wireless).{1,10}(home|security).{1,10}camera.{1,10}rechargeable/i
