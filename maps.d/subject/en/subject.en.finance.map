@@ -116,7 +116,7 @@
 
 /loan.{1,5}\d{2}\/\d{2}\/\d{2,4}/i
 
-/loan.{1,15}(approval|business|financing|projects|support)/i
+/loan.{1,15}(approval|business|financing|projects|proposal|support)/i
 /loan.{1,15}apply now/i
 
 /loan.{1,10}at.{1,10}interest rate/i
