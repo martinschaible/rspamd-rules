@@ -97,6 +97,7 @@
 /(dear|hello|hi\b).{1,10}(supplier|vendor).{1,10}i greet you/i
 /(dear|hello|hi\b).{1,10}(supplier|vendor).{1,10}refer to/i
 /(dear|hello|hi\b).{1,15}(supplier|vendor).{1,15}we are.{1,10}(agency|company|factory|produce)/i
+/(dear|hello|hi\b).{1,15}(supplier|vendor).{1,15}we are.{1,10}interested in your products/i
 
 /(dear|hello|hi\b).{1,10}potential partner/i
 

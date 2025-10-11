@@ -42,14 +42,9 @@
 #/\x{4e00}-\x{9fff}{30,}/u
 
 
-# Test Japanes Characters
+# Test strange Characters
 # ------------------------------------------------------------------------------
-# \u3040-\u309f: Hiragana
-# \u30a0-\u30ff: Katakana
-
-#/[\u3040-\u30ff\u4e00-\u9fff]{30,}/u
-# PCRE notation:
-#/\x{3040}-\x{30ff}\x{4e00}-\x{9fff}{30,}/u
+/KÐ¾ntÐ¾vÐµrÑfÑziÐµrung/i
 
 # Unusual patterns
 # ------------------------------------------------------------------------------
