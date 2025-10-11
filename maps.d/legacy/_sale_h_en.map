@@ -107,14 +107,11 @@
 
 # Streaming TV
 # ------------------------------------------------------------------------------
-/\d{3,4}.{1,10}worldwide.channels/i
-
 /ip.?tv.{1,10}your ultimate/i
 
 /exclusive ip.?tv access/i
 /get ready.{1,10}unmatched.{1,10}streaming/i
 
-/live channels.{1,10}movies.{1,10}series/i
 /movies.{1,10}series.{1,10}subscribe now/i
 
 /netflix.{1,10}hbomax.{1,10}amazonprime/i
