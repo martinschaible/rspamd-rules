@@ -81,6 +81,12 @@ These are the latest changes:
 |          | multimap.body.en.conf                      | New configuration file        |
 |          | multimap.sender.de.conf                    | New configuration file        |
 |          | multimap.sender.en.conf                    | New configuration file        |
+|          | multimap.whitelist.sender.from.de.conf     | New configuration file        |
+|          | multimap.whitelist.sender.from.en.conf     | New configuration file        |
+|          | multimap.whitelist.subject.de.conf         | New configuration file        |
+|          | multimap.whitelist.subject.en.conf         | New configuration file        |
+|          | multimap.whitelist.conf                    | File deleted                  |
+|          | multimap.conf                              | New configuration files added |
 
 ## Content
 :point_right: All map files of the *first version* are stored in the folder `/etc/rspamd/maps.d/legacy`.<br>
