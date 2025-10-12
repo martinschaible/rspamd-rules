@@ -1,10 +1,12 @@
 # ==============================================================================
+# This file contains only single words.
+#
 # Whitelisting words and phrases can be dangerous.
 # Therefore, it's important to choose your content carefully and avoid
 # using generic words whenever possible.
 #
-# Using the multiplier at the end of a line is a great way to increase the
-# scoring based on the importance of a word or phrase.
+# If an entry is commented out then we have received false/positive mails.
+# This way we know that the entry is not usable.
 #
 # ------------------------------------------------------------------------------
 # Language: german
