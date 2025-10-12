@@ -16,14 +16,7 @@
 # Generic
 # ==============================================================================
 
-/\d{2,4}.?euro/i
-
 # A
-/abrechnung/i
-
-/ag.?angebote?/i
-
-/auto.?service/i
 
 # B
 /(bank|goldene).{0,10}kreditkarte/i
@@ -36,7 +29,6 @@
 /_[a-z].{0,15}box/i
 
 /box von/i
-/bundesnews/i
 
 # C
 /ch.?zustellung/i
@@ -74,7 +66,6 @@
 # G
 /garantie.{0,10}team/i
 
-/geschenk$/i
 /geschenk (von|wartet)/i
 
 /gewinn wartet/i
@@ -102,8 +93,6 @@
 # J
 
 # K
-/karte.?(™|®|©)$/i
-
 /konto.?(informationsdienst|updates?)/i
 
 /krankenkassen?.{0,10}team/i
@@ -135,8 +124,6 @@
 # P
 /paket in/i
 
-/pakketdiensten/i
-
 /paketdienst.{0,10}(deutschland|schweiz)/i
 #/paketinfo/i
 /^paket.?service$/i
@@ -159,13 +146,9 @@
 
 /store.{0,10}lager/i
 
-/support.?(™|®|©)/i
-
 # T
 #/team (vom|von)/i
 #/team vom/i
-
-/ticket.?nummer:/i
 
 # U
 /umfrage.{0,15}(exklusiv|starten|unter|verbraucher)/i
@@ -180,8 +163,6 @@
 # W
 /wartet auf sie/i
 
-/-werbung/i
-
 /wichtig(es)?.{0,10}update/i
 /wichtig(er)?.{0,10}hinweis/i
 
@@ -193,4 +174,3 @@
 
 # Z
 /zoll.{0,10}(paket|service)/i
-/-zustellung/i
