@@ -147,9 +147,10 @@
 # M
 /mine real name is/i
 
-/my names (are|is) (miss|mrs?)/i
+/my names? (are|is) (miss|mrs?)/i
 /my name is.{5,35}a registered/i
 /my name is.{5,25}employee of/i
+/my name is.{5,35}from.{5,25}i was married/i
 /my name is.{5,25}how.{1,10}everything/i
 /my name is.{5,25}(honest|seeking|single)/i
 
