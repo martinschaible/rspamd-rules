@@ -120,7 +120,7 @@
 /routineupdate für.{1,20}verfügbar/iu
 
 # S
-/sie müssen.{1,10}photo.?tan/iu
+/(sie müssen|wichtige?).{1,10}photo.?tan/iu
 
 /sicherheits(funktion|update).{1,10}ihre.{1,10}(app|karte)/i
 
@@ -143,7 +143,6 @@
 /vorschriften erfordern.{1,10}verifizierung/i
 
 # W
-
 /wir haben ihren.{1,15}vertrag gesperrt/i
 
 # X

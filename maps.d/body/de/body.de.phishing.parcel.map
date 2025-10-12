@@ -103,7 +103,7 @@
 
 /(paket|sendung).{1,10}wurde.{1,10}bearbeitet.{1,10}ist auf dem weg/i
 /(paket|sendung).{1,20}wurde.{1,10}eine unstimmigkeit festgestellt/i
-/(paket|sendung).{1,10}wurde.{1,10}erfolgreich im verteilzentrum/i
+/(paket|sendung).{1,10}wurde.{1,10}erfolgreich.{1,10}(verarbeitet|verteilzentrum)/i
 /(paket|sendung).{1,15}wurde.{1,20}in der schweiz (verarbeitet|zugestellt)/i
 /(paket|sendung).{1,15}wurde.{1,10}verzollung vorgelegt/i
 
@@ -148,5 +148,6 @@
 /zoll.{1,10}(steuergebühren|steuerzahlung).{1,10}erforderlich/iu
 /zollzahlung ist erforderlich/i
 
+/zustellung ist eine.{1,10}zahlung von/i
 /zustellung ist eine.{1,15}(kurze|online).{1,10}bestätigung erforderlich/iu
 /zustellversuche sind mit zusätzlichen gebühren verbunden/iu

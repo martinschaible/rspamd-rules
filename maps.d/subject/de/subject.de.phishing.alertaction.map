@@ -73,6 +73,7 @@
 /aktualisierung.{1,25}(kredit)?karte/i
 /aktualisierung.{1,10}informationen.{1,25}(sicherheit|erhöhung)/i
 /aktualisierung.{1,10}kontodaten erforderlich/i
+/aktualisierung.{1,10}noch ausstehend/i
 /aktualisierung.{1,20}phototan.?app/i
 
 /aktualisierung.{1,10}überprüfen sie/i
@@ -391,6 +392,7 @@
 # O
 
 # P
+/photo.?tan.{1,10}Verifikation erforderlich/i
 /probleme vermeiden.{1,10}stellen sie sicher/i
 /profildaten.{1,10}wichtige mitteilung/i
 /(unternehmens)?profil.{1,10}bitte handeln sie/i
