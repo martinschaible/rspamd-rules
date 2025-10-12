@@ -545,8 +545,8 @@
 
 /paypal.{0,15}(account|case.?id|customer)/i
 /paypal.{0,15}(europe?|inc)/i
-/paypal.{0,15}(benachrichtigung(en)?|betrieb|kunden|konto|management|sicherheit|verifizierung|vertrauen)/i
-/paypal.{0,15}(compliance|update|security|services?|support|team|technischer|voucher)/i
+/paypal.{0,15}(benachrichtigung(en)?|betrieb|kunden|konto|sicherheit|technischer|verifizierung|vertrauen)/i
+/paypal.{0,15}(compliance|management|update|safety|security|services?|support|team|trust|voucher)/i
 
 /paypal(-|_)/i
 /pay pal/i

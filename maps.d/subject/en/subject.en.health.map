@@ -19,6 +19,11 @@
 /endurancer24/i
 /hezkue/i
 
+# Special
+# ------------------------------------------------------------------------------
+/\[.?avoid (these|this)/i
+/\].?(find out here|here.{1,5}how)/i
+
 #
 #
 #
@@ -88,9 +93,6 @@
 /avoid.{1,10}(these|this).{1,10}(back|breakfast)/i
 /avoid.{1,10}(these|this).{1,10}(damaging|dangerous|deadly|diabetic|foods?|fruit|ingredient)/i
 /avoid.{1,10}(these|this).{1,10}(common|gut)/i
-
-/\[avoid (these|this)/i
-/\] find out here/i
 
 /away your.{1,10}memory/i
 /awaken your.{1,10}power/i
@@ -549,6 +551,7 @@
 /no surgery needed/i
 
 /nobel prize.{1,10}discovery/i
+/normalize.{1,10}blood sugar/i
 
 /nutrition.{1,10}alerts/i
 /nutritionists warn/i

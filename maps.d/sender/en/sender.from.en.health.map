@@ -42,7 +42,7 @@
 
 # Diabetes
 # ------------------------------------------------------------------------------
-/(a1c|glucose).{0,10}(control|fix|level|spike)/i
+/(a1c|glucose).{0,10}(control|drop|fix|level|spike)/i
 
 /sugar.{0,10}(above|defender|disease|levels?|spikes?|trap)/i
 

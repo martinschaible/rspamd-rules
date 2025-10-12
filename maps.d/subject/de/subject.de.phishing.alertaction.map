@@ -33,7 +33,8 @@
 # Sample: Aktion ID 4236127
 /aktion.?id \d{3,10}/i
 
-/Aktion erforderlich.{1,10}\d{1,20}/i
+/^aktion erforderlich$/i
+/aktion erforderlich.{1,10}\d{1,20}/i
 /aktion erforderlich!/i
 
 /aktion erforderlich.{1,10}(dpd|sepa)/i
@@ -530,6 +531,7 @@
 /wichtige?.{1,10}einschränkung ihres.{1,15}kontos/i
 /wichtige?.{1,10}erinnerung.{1,10}daten checken/i
 
+/wichtige?.{1,15}hinweis?.{1,10}aktualisieren sie ihr konto/i
 /wichtige?.{1,15}hinweis?.{1,10}bestätigen sie/iu
 /wichtige?.{1,15}hinweis?.{1,10}nachrichten warten/i
 /wichtige?.{1,15}hinweis?.{1,10}mtan/i

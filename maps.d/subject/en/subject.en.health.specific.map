@@ -91,7 +91,8 @@
 /(ancient|at.?home|daily|day|easy|gummy|hidden).{1,15}(fix|hack|ritual|secret|solution|trick)/i
 /(little.?known|minute|odd|second).{1,15}(fix|hack|ritual|secret|solution|trick)/i
 
-/(\d.?second|shocking|japanese).{1,10}(discovery|fix|hack|ritual|secret|trick)/i
+/(\d.?second|shocking|simple|japanese).{1,10}(discovery|fix|hack|ritual|secret|trick)/i
+/\d simple fix/i
 
 /(secret|simple|unusual).{1,10}(hack|ritual|solution|trick).{1,15}(activate|erases|needs|reverses|trusted|to end)/i
 
