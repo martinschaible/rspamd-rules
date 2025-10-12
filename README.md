@@ -43,46 +43,7 @@ These are the latest changes:
 
 | Date     | File                                       | Reason                        |
 | -------- | -------------------------------------------| ----------------------------- |
-| 03.06.25 | multimap.conf                              | New configuration files added |
-|          | multimap.sender.address.conf               | New file                      |
-|          | multimap.sender.address.de.conf            | New file                      |
-|          | multimap.sender.address.en.conf            | New file                      |
-|          | multimap.sender.from.de.*.conf             | New files                     |
-|          | multimap.sender.from.en.*.conf             | New files                     |
-|          | multimap.sender.de.*.conf                  | Old file deleted/renamed      |
-|          | multimap.sender.en.*.conf                  | Old file deleted/renamed      |
-| 04.06.25 | multimap.subject.de.scam.conf              | New map file added            |
-|          | multimap.subject.en.scam.conf              | New map file added            |
-|          | multimap.body.de.scam.conf                 | New map file added            |
-|          | multimap.body.en.scam.conf                 | New map file added            |
-| 07.06.25 | multimap.body.de.scam.conf                 | Typo fixed                    |
-|          | multimap.body.en.scam.conf                 | Typo fixed                    |
-|          | multimap.sender.from.conf                  | New map file added            |
-| 08.06.25 | multimap.sender.from.phishing.conf         | New map file added            |
-| 09.06.25 | multimap.body.de.sale.conf                 | New map files added           |
-|          | multimap.body.en.sale.conf                 | New map files added           |
-| 10.06.25 | multimap.body.de.sale.conf                 | New map file added            |
-|          | multimap.body.en.sale.conf                 | New map file added            |
-|          | multimap.sender.from                       | Typo fixed                    |
-| 13.06.25 | multimap.body.de.scam.conf                 | New map file added            |
-|          | multimap.body.en.scam.conf                 | New map file added            |
-| 24.06.25 | multimap.subject.de.phishing.conf          | New map file added            |
-|          | multimap.subject.en.phishing.conf          | New map file added            |
-|          | multimap.body.de.phishing.conf             | New map file added            |
-|          | multimap.body.en.phishing.conf             | New map file added            |
-| 28.06.25 | multimap.conf                              | New configuration files added |
-|          | multimap.body.de.adult.conf                | New file                      |
-|          | multimap.body.en.adult.conf                | New file                      |
-|          | multimap.body.de.finance.conf              | New file                      |
-|          | multimap.body.en.finance.conf              | New file                      |
-|          | multimap.body.de.gambling.conf             | New file                      |
-|          | multimap.body.en.gambling.conf             | New file                      |
-|          | multimap.body.de.health.conf               | New file                      |
-|          | multimap.body.en.health.conf               | New file                      |
-|          | multimap.body.de.makemoney.conf            | New file                      |
-|          | multimap.body.en.makemoney.conf            | New file                      |
-| 19.07.25 | multimap.sender.from.phishing.conf         | New map file added            |
-| 02.08.25 | multimap.subject.de.scam.conf              | New map file added            |
+ 02.08.25 | multimap.subject.de.scam.conf              | New map file added            |
 |          | multimap.subject.en.scam.conf              | New map file added            |
 |          | multimap.body.de.scam.conf                 | New map file added            |
 |          | multimap.body.en.scam.conf                 | New map file added            |
@@ -116,6 +77,10 @@ These are the latest changes:
 |          | multimap.sender.from.en.scam.conf          | New map file added            |
 |          | multimap.conf                              | New configuration file added  |
 | 10.10.25 | multimap.whitelist.header.ip.conf          | Configuration changed         |
+| 12.10.25 | multimap.body.de.conf                      | New configuration file        |
+|          | multimap.body.en.conf                      | New configuration file        |
+|          | multimap.sender.de.conf                    | New configuration file        |
+|          | multimap.sender.en.conf                    | New configuration file        |
 
 ## Content
 :point_right: All map files of the *first version* are stored in the folder `/etc/rspamd/maps.d/legacy`.<br>
@@ -190,7 +155,7 @@ body
   │   ├─ body.de.message.map                      │
   │   │                                           │      
   │   ├─ body.de.singleword.map                   │
-  │   ├─ body.de.singleword.special.map         X ├─ multimap.body.de.conf 
+  │   ├─ body.de.singleword.special.map           ├─ multimap.body.de.conf 
   │   ├─ body.de.singleword.ucase.map             │
   │   │                                           │
   │   ├─ body.de.ucase.map                      X │ 
@@ -278,7 +243,7 @@ sender
   ├─ de
   │   ├─ sender.from.de.singleword.map           ─┐
   │   ├─ sender.from.de.singleword.special.map    ├─ multimap.sender.from.de.conf
-  │   ├─ sender.from.de.singleword.ucase.map   X ─┘
+  │   ├─ sender.from.de.singleword.ucase.map     ─┘
   │   │
   │   ├─ sender.from.de.map                      --- multimap.sender.from.de.conf 
   │   ├─ sender.from.de.adult.map                --- multimap.sender.from.de.adult.conf
