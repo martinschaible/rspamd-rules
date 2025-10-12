@@ -1,0 +1,118 @@
+# ==============================================================================
+# This file contains only single words additionally
+# with special characters and other specialties.
+#
+# This can be a bit dangerous. Use with care.
+#
+# If an entry is commented out then we have received false/positive mails.
+# This way we know that the entry is not usable.
+#
+# ------------------------------------------------------------------------------
+# Language: german
+# Weight:   12.0
+# ==============================================================================
+
+# Topics
+# ==============================================================================
+
+# Special
+# ==============================================================================
+
+#
+#
+#
+
+# Generic
+# ==============================================================================
+
+# A
+/abteilung-/i
+
+/_angebote/i
+
+# Lidl uses this
+#/angebote/i
+
+#/anzeige.?$/i
+
+# B
+/bank®/i
+
+/belohnen #/i
+
+/\|btc\./i
+
+# C
+
+# D
+/-dokument/i
+
+# E
+/endlich!/i
+
+# F
+/_freundlichen/i
+
+# G
+/-genie/i
+/_geschenk/i
+/-gutachten/i
+
+# H
+/h i l f e/i
+
+# I
+
+# J
+
+# K
+/_klimaanlage/i
+
+/-.?kreditkarte/i
+/_.?kreditkarte/i
+/\|.?kreditkarte/i
+/\|.?kunden/i
+
+/-kunde\b/i
+/-kundin/i
+
+/kundendienst.?(™|®|©)/i
+
+#/- kundenservice/i
+/_kundenservice/i
+
+# L
+
+# M
+
+# N
+/\.nachricht/i
+/_nachrichten/i
+
+# O
+
+# P
+#/-paketzustellung/i
+
+/p l a t t f o r m/i
+
+# Q
+
+# R
+
+# S
+
+# T
+
+# U
+
+# V
+
+# W
+/_werbung/i
+
+# X
+
+# Y
+
+# Z
