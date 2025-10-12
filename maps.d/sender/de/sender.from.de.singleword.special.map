@@ -25,6 +25,8 @@
 # Generic
 # ==============================================================================
 
+/\d{2,4}.?euro/i
+
 # A
 /abteilung-/i
 
@@ -66,6 +68,8 @@
 # J
 
 # K
+/karte.?(™|®|©)$/i
+
 /_klimaanlage/i
 
 /-.?kreditkarte/i
@@ -101,8 +105,10 @@
 # R
 
 # S
+/support.?(™|®|©)/i
 
 # T
+/ticket.?nummer:/i
 
 # U
 
@@ -116,3 +122,4 @@
 # Y
 
 # Z
+/-zustellung/i

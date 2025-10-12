@@ -45,6 +45,7 @@
 
 # D
 /_department/i
+/-desk/i
 
 # E
 /_experience/i
@@ -63,6 +64,7 @@
 /^hello,$/i
 
 # I
+/info.?\[/i
 
 # J
 
@@ -108,6 +110,7 @@
 # T
 /- team/i
 /_team/i
+
 /team!/i
 
 /^tesla \($/i

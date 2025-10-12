@@ -36,11 +36,13 @@
 # A
 /abnehmen/i
 /abnehmhilfe/i
+/abrechnung/i
 /abteilung$/i
 
 /achtung/i
 
 /^ag$/i
+/ag.?angebote?/i
 
 /apotheker/i
 
@@ -75,6 +77,7 @@
 /autoangebote?/i
 /autoexport/i
 /autopannnenhilfe/i
+/auto.?service/i
 
 /^(apo|apotheke)$/i
 
@@ -138,6 +141,7 @@
 /bundes.?investment/i
 /bundes.?nachrichten/i
 /bundes.?melder/i
+/bundesnews/i
 /bundes.?polizei/i
 
 # C
@@ -284,8 +288,9 @@
 /gerichtsvollzieher/i
 
 /geschatsstelle/i
-/geschenkabteilung/i
 
+/geschenk$/i
+/geschenkabteilung/i
 /geschenkidee/i
 /geschenkprämien/i
 /geschenkservice/i
@@ -555,6 +560,8 @@
 /paketteam/i
 /paketzustellung/i
 #/^paketzustellung!/i
+
+/pakketdiensten/i
 
 /palettenfinder/i
 /parkbank/i
