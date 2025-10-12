@@ -1,5 +1,5 @@
 # ==============================================================================
-# This file only contains words, one per entry.
+# This file contains only single words.
 #
 # This can be dangerous and should only be used if:
 # - The sender only consists of one word and should be additionally equipped
@@ -16,15 +16,9 @@
 # Weight:   6.0
 # ==============================================================================
 
-# Special
-# ==============================================================================
-/\|.?kunden/i
-/\|btc\./i
-/p l a t t f o r m/i
 
 # Titles
 # ------------------------------------------------------------------------------
-/apotheker/i
 
 # Already covered by FROM_NAME_HAS_TITLE (1)
 #/^dr\.?\b/i
@@ -42,17 +36,13 @@
 # A
 /abnehmen/i
 /abnehmhilfe/i
-/abteilung-/i
 /abteilung$/i
 
 /achtung/i
 
 /^ag$/i
 
-/_angebote/i
-
-# Lidl uses this
-#/angebote/i
+/apotheker/i
 
 /aktivitäts.?center/i
 /aktualisierung/i
@@ -68,7 +58,6 @@
 /antiviren.?partner/i
 /antragsprozess/i
 /anwältin/i
-#/anzeige.?$/i
 
 /auftragsbestätigung/iu
 /augenheilkunde/i
@@ -92,7 +81,6 @@
 /arsch.?luder/i
 
 # B
-/bank®/i
 /bankanlage/i
 
 /bankenkrise/i
@@ -108,7 +96,6 @@
 
 /bekanntschaft(en)?/i
 
-/belohnen #/i
 /belohnen/i
 /belohnung(en)?/i
 /belohnungspanel/i
@@ -176,7 +163,6 @@
 
 /doktor$/i
 /doktor.?versand/i
-/-dokument/i
 
 /dringend/i
 /drucker$/i
@@ -186,7 +172,6 @@
 /durchschlafen/i
 
 # E
-/endlich!/i
 /energierechnung/i
 /enthüllt/iu
 /enthüllung/iu
@@ -255,8 +240,6 @@
 # Used by Facebook
 #/freundschaftsvorschläge/i
 
-/_freundlichen/i
-
 /förder.?check/iu
 
 /fußgesundheits?/i
@@ -291,8 +274,6 @@
 /geheimnisvolle?/i
 /geheimnis(se)?/i
 
-/-genie/i
-
 /genussmomente/i
 /gepäcksets?/i
 
@@ -305,7 +286,6 @@
 /geschatsstelle/i
 /geschenkabteilung/i
 
-/_geschenk/i
 /geschenkidee/i
 /geschenkprämien/i
 /geschenkservice/i
@@ -344,7 +324,6 @@
 /größerer/i
 /grösserer/i
 
-/-gutachten/i
 /guthaben/i
 #/gutscheine?/i
 
@@ -360,8 +339,6 @@
 /heizungs.?team/i
 /helpcentrum/i
 /herstellung/i
-
-/h i l f e/i
 
 /^hilfe$/i
 /hilfe.?center/i
@@ -413,9 +390,6 @@
 
 /kissen$/i
 /klarwissen/i
-/_klimaanlage/i
-
-/kontact/i
 
 /kontoaktivität/i
 /kontoaktualisierung/i
@@ -427,10 +401,6 @@
 /kostenlos(er)?/i
 
 /kraft.?quelle/i
-
-/-.?kreditkarte/i
-/_.?kreditkarte/i
-/\|.?kreditkarte/i
 
 /^kreditkarten?$/i
 
@@ -445,8 +415,6 @@
 /kuhlung/i
 
 #/kundenbetreuung/i
-/-kunde\b/i
-/-kundin/i
 
 /kundenbefragung/i
 /^kundenbetreuung$/i
@@ -456,7 +424,6 @@
 
 /^kunden.?(dienst|service)$/i
 /kunden-dienst/i
-/kundendienst.?(™|®|©)/i
 /kundeninfo\b/i
 
 /kundendienstes/i
@@ -474,10 +441,8 @@
 
 /kunden.?(helpdesk|id|informationen|unterstützung)$/iu
 /kundenservice.?team/i
-#/- kundenservice/i
 /^kundenservice-/i
 /^kundenservice$/i
-/_kundenservice/i
 
 /küchenhelfer/iu
 /küchennachrichten/iu
@@ -547,8 +512,6 @@
 # N
 /^nachrichtendienst$/i
 
-/\.nachricht/i
-/_nachrichten/i
 /nachrichten.?(box|system|zentrale)/i
 /nachrichtennummer/i
 
@@ -591,7 +554,6 @@
 /paketbenachrichtigung(en)?/i
 /paketteam/i
 /paketzustellung/i
-#/-paketzustellung/i
 #/^paketzustellung!/i
 
 /palettenfinder/i
@@ -902,7 +864,6 @@
 
 /werbegeschenk/i
 /werbemittel/i
-/_werbung/i
 /werkzeugset/i
 
 /wett.?tip/i

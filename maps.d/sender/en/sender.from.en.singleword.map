@@ -1,5 +1,5 @@
 # ==============================================================================
-# This file only contains words, one per entry.
+# This file contains only single words.
 #
 # This can be dangerous and should only be used if:
 # - The sender only consists of one word and should be additionally equipped
@@ -15,34 +15,15 @@
 # Weight:   6.0
 # ==============================================================================
 
-# Special
-# ==============================================================================
-/_confirmation/i
-/_winner/i
-
-# Asian language
-# ------------------------------------------------------------------------------
-# -> Probably very temporary
-/通知/i        # 25.12.24 "notification"
-/安全系统/i     # 25.12.24 "Safety System"
-/セゾンカード/i   # 27.12.24 "Saison Card"
-
-#
-#
-#
-
 # Generic
 # ==============================================================================
 
 # A
 /^ai$/i
 
-/\s-\sag$/i
-
 /^account$/i
 #/^accounting/i
 
-/-.?accounts?/i
 /^administration$/i
 
 #/affiliate/i
@@ -53,8 +34,6 @@
 /antifungal/i
 /antivirus$/i
 /antioxidant/i
-
-/_app/i
 
 /attention/i
 
@@ -69,9 +48,7 @@
 /^billing$/i
 /^bill$/i
 
-/_bitcoin/i
 /bit?coin$/i
-/bitcoin#/i
 /bitcoinee?r/i
 
 /bloated/i
@@ -80,16 +57,12 @@
 /breakthrough/i
 /broccoli/i
 
-/btc-/i
-/-bonus/i
-
 # C
 /cancer$/i
 /cancerous/i
 /cardiovascular/i
 /cavities/i
 
-/chatgpt_/i
 /cholesterol/i
 /circulation/i
 
@@ -99,15 +72,11 @@
 
 /congratulations/i
 
-/_confirmation/i
-
 /constipatied/i
 /constipation/i
 
 /cracking/i
 /creaking/i
-
-/customer_/i
 
 # D
 /danger$/i
@@ -117,7 +86,6 @@
 /deficit/i
 /dementia/i
 /deliciousness/i
-/_department/i
 /dermatologist/i
 /^detox$/i
 
@@ -143,16 +111,10 @@
 /eyesight/i
 /^exports?/i
 
-/_experience/i
-
 # F
 /facelift/i
 /fasting/i
-/fat-/i
 /fatigue/i
-
-/_file/i
-/_fix/i
 
 /firearms/i
 /flashlight/i
@@ -172,9 +134,7 @@
 
 # H
 /hallux/i
-/_hardware/i
 
-/^hello,$/i
 /^help.?center$/i
 
 /hemorrhoids?/i
@@ -213,7 +173,6 @@
 /knives?$/i
 
 # L
-/_lander/i
 /lenders/i
 
 /lifehack/i
@@ -222,8 +181,6 @@
 /^management$/i
 
 /^mail$/i
-
-/m-a-l-e/i
 
 /manufacture/i
 /major/i
@@ -247,11 +204,8 @@
 /noreplay/i
 /noreplych/i
 
-/notice.?!!/i
-/notification.?!/i
-
 # O
-/online.?lotto/
+/online.?lotto/i
 
 /^online.?service$/i
 /osteoporosis/i
@@ -264,7 +218,6 @@
 /\bpecker$/i
 /peeing/i
 
-/p\*nis/i
 /\bpenis/i
 
 /pillows?i
@@ -278,8 +231,6 @@
 /prescription/i
 /preparedness/i
 /preppers/i
-
-/price\.!/i
 
 /problems?/i
 /procurements$/i
@@ -298,12 +249,7 @@
 
 /relief/i
 /remedy/i
-/response\.\./i
 /revolutionary/i
-
-/-rewards/i
-/_rewards/i
-/rewards!/i
 
 /^ritual$/i
 
@@ -315,10 +261,7 @@
 /^service$/i
 /^service.?team$/i
 
-/sex-/i
-
 /^sharepoint$/i
-/_shrink/i
 
 /slimmer/i
 /slimming/i
@@ -337,40 +280,26 @@
 
 #/^support/i
 /^support$/i
-/support.?!/i
-/support.?#/i
-
-/_survey/i
 /survival$/i
 
 /spinach/i
 /squirter/i
 
 # T
-/- team/i
-/_team/i
-/team!/i
 /^team$/i
 /teaspoon/i
 /^tesla$/i
-/^tesla \($/i
 
 /testosterone/i
 /thyroid/i
 /tinnitus/i
-/_trader/i
 /translator/i
 /turmeric/i
-/t0tal/i
 
 # U
 /unclaimed/i
 
-/_update/i
-
 /unsatisfied/i
-/urgent$/i
-/urgent!/i
 
 # V
 /vice.?president/i
