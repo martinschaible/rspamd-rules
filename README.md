@@ -347,29 +347,41 @@ Folder structure:
 whitelist
   ├─ header.ip.whitelist.map                     --- multimap.whitelist.header.ip.conf
   │
-  ├─ body.az.orgname.map                         ─┐
-  ├─ body.ch.orgname.map                          │
-  ├─ body.de.orgname.map                          ├─ multimap.whitelist.body.conf
-  ├─ body.us.orgname.map                         ─┘
+  ├─ body
+  │    ├─ body.emergency.map                     ─┐
+  │    ├─ body.az.orgname.map                     │
+  │    ├─ body.ch.orgname.map                     ├─ multimap.whitelist.body.conf
+  │    ├─ body.de.orgname.map                     │
+  │    ├─ body.us.orgname.map                    ─┘
+  │    │
+  │    ├─ href
+  │    │   ├─ body.href.az.url.map               ─┐ 
+  │    │   ├─ body.href.ch.url.map                │
+  │    │   ├─ body.href.de.url.map                ├─ multimap.whitelist.body.href.conf
+  │    │   ├─ body.href.us.url.map                │
+  │    │   └─ body.href.mailing.url.map          ─┘
+  │    │
+  │    ├─ de
+  │    │   ├─ body.de.orgbrandprod.map         X ─┐
+  │    │   ├─ body.de.singleword.map              ├─ multimap.whitelist.body.de.conf
+  │    │   └─ body.de.map                        ─┘
+  │    │ 
+  │    └─ en
+  │        └─ ....
+  ├─ sender
+  │    ├─ de
+  │    │   └─ sender.from.de.map                 --- multimap.whitelist.sender.from.de.conf
+  │    │
+  │    └─ en
+  │        └─ ....
   │
-  ├─ href
-  │    ├─ body.href.az.url.map                   ─┐ 
-  │    ├─ body.href.ch.url.map                    │
-  │    ├─ body.href.de.url.map                    ├─ multimap.whitelist.body.href.conf
-  │    ├─ body.href.us.url.map                    │
-  │    └─ body.href.mailing.url.map              ─┘
-  │
-  ├─ de
-  │   ├─ body.de.orgbrandprod.map                ─┐
-  │   ├─ body.de.singleword.map                   ├─ multimap.whitelist.body.de.conf
-  │   ├─ body.de.map                             ─┘
-  │   │
-  │   ├─ sender.from.de.map                      ─┐
-  │   ├─ subject.de.map                           ├─ multimap.whitelist.conf
-  │   └─ subject.de.singleword.map               ─┘
-  │ 
-  └─ en
-      └─ ....
+  └─ subject
+       ├─ de
+       │   ├─ subject.de.map                     --- multimap.whitelist.subject.de.conf
+       │   └─ subject.de.singleword.map       X  --- multimap.whitelist.subject.de.conf
+       │
+       └─ en
+           └─ ....
 ```
 
 ## Tips and Tricks
