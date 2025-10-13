@@ -143,8 +143,9 @@
 /blood.?(pressure|sugar).{1,10}watch now/i
 
 /bone to bone/i
-
-/boost.{1,10}heart health/i
+/bone knee pain/i
+/
+boost.{1,10}heart health/i
 /boost.{1,15}(brain|cellular|focus|health|metabolism|stamina|vitality)/i
 
 /breakfast.{1,10}(avoid|memory)/i
@@ -588,6 +589,7 @@
 /plastic surgeon reveals/i
 /pleasure.{1,10}fix/i
 
+/popular drink worsens/i
 /pounds with this/i
 
 /prevent.{1,15}(bladder|decay|disease|gum|memory|tooth)/i
@@ -808,7 +810,7 @@ this.{1,10}food scam/
 /this.{1,10}popular.{1,10}vegetable/i
 /this.{1,10}speeds up memory/i
 /this.{1,10}(odd|simple|strange) (habbit|method|solution|trick)/i
-/this.{1,10}one nutrient/i
+/this.{1,10}one (drink|nutrient)/i
 
 /this.{1,10}simple mixture/i
 /this.{1,10}stops.{1,10}diabetes/i
