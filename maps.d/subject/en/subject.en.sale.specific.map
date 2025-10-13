@@ -27,6 +27,7 @@
 # E Bike, Scooter
 # ------------------------------------------------------------------------------
 /\d{1,3}.{1,5}electric/i
+/\d{1,3}.{1,5}e(lectric)?.{0,10}(bicycle|bike|velo)
 
 /(urban|power).?cruiser/i
 
@@ -36,6 +37,7 @@
 /^e(lectric)?.{0,10}(bicycle|bike|velo)/i
 /e(lectric)?.{0,10}(bicycle|bike|velo).{1,15}(adventrue|built|coorperation)/i
 /e(lectric)?.{0,10}(bicycle|bike|velo).{1,15}(day shipping|delivers?|distribution)/i
+/e(lectric)?.{0,10}(bicycle|bike|velo).{1,15}in stock/i
 /e(lectric)?.{0,10}(bicycle|bike|velo).{1,15}(factory|germany|interest|performance|ready)/i
 /e(lectric)?.{0,10}(bicycle|bike|velo).{1,15}(shipped|shipping|supplier)/i
 

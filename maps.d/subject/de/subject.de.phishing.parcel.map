@@ -71,6 +71,8 @@
 
 /bericht über die paketzustellung/iu
 
+/betreff.{1,10}zustellbenachrichtigung/i
+
 /(be)?zahlen sie jetzt.{1,10}\d(\.|,)\d{2}/i
 /(be)?zahlen sie.{1,10}(versandgebühr|versandkosten)/iu
 
@@ -354,6 +356,7 @@
 /zahlungserinnerung.{1,10}(import|zoll).?gebühren/iu
 /zahlungserinnerung.{1,15}(paket|sendung)/i
 
+/zugestellt werden.{1,10}(dhl|dpd)_/i
 /zustellgebühr.{1,10}ausstehend.{1,10}\d(\.|,)\d{2}/i
 
 /zustellung ansteht/i

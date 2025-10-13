@@ -76,6 +76,7 @@
 
 /fördergelder sichern.{1,10}bevor sie/iu
 
+/(photo.?voltaik|pv|solar).?anlage.{1,10}aktuell so günstig/iu
 /(photo.?voltaik|pv|solar).?anlage.{1,10}jetzt \d{2}.{1,10}günstiger/iu
 /(photo.?voltaik|pv|solar).?anlage.{1,10}jetzt handeln/i
 /(photo.?voltaik|pv|solar).?anlage.{1,15}klären wir alles/iu
@@ -96,6 +97,8 @@
 
 /(jetzt|vergleichen).{1,10}förderungen.{1,15}(prüfen|sichern)/iu
 
+/als zertifizierte energieberatung/i
+/auf (meiner|unserer).{1,10}internetseite können sie sich kostenlos/iu
 /mit unserem.{1,15}online.?rechner erhalten sie in wenigen/i
 
 /sichern sie sich.{1,10}günstige.{1,10}(photo.?voltaik|pv|solar).?anlage/iu
