@@ -175,7 +175,7 @@
 /vendor.{1,10}contractor.{1,10}(partnership|registration)/i
 /vendor.{1,10}202\d.{1,10}project/i
 /vendor.{1,10}procurement project/i
-/vendor.{1,10}registration request/i
+/vendor.{1,10}registration (request|unit)/i
 
 /^vendor registration$/i
 
