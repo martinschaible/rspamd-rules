@@ -224,6 +224,13 @@ body
 * X -> Not yet implemented
 
 ### Setup for "sender"
+```
+header
+  ├─ header.ipaddress.map                        --- multimap.header.conf
+  └─ header.hostname.map                         --- multimap.header.conf 
+```
+
+### Setup for "sender"
 
 Folder structure:
 ```
