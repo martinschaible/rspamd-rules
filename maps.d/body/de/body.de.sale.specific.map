@@ -47,6 +47,10 @@
 /kaffee.?vollautomat(en)?.{1,10}firmen/i
 /firmen.{1,10}kaffee.?vollautomat(en)?/i
 
+# Dirt-trapping mats
+# ------------------------------------------------------------------------------
+(fussmatten|fußmatten|sauberlaufmatten|schmutzfangmatten).{1,10}verschieden farben/iu
+
 # E-Bikes
 # ------------------------------------------------------------------------------
 /(neues|premium|unser).{1,15}(e.?bike|elektro.?moped)/i

@@ -21,7 +21,7 @@
 
 /from china (recently|to)/i
 
-/(components|plastic|toolmaking).{1,10}china/i
+/(components|plastic|supply|toolmaking).{1,10}china/i
 /parts in china/i
 
 /hot.{1,15}from china/i
@@ -233,7 +233,7 @@
 /materials.{1,10}suppliers/i
 
 /medical.{1,10}transformer.{1,10}manufacturer/i
-
+/metal sheet.{1,10}(supplier|supply)/i
 /microchip.{1,10}parts request/i
 
 /multilayer (pcba?|printed.?circuits?.?board).{1,10}manufacturing/i
