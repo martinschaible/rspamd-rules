@@ -472,16 +472,18 @@
 /migrol.{0,10}automobil/i
 
 /migros.?(™|®|©)$/i
+#/^migros$/i
 #/migros.{0,10}(aktionen|markt|oral.?b)/i
+
 /migros.{0,10}(markt|oral.?b)/i
 /-.?migros/i
+/\|.?migros/i
 
 /^migrol$/i
 
 /miles&more/i
 /miles & more.{0,10}support/i
 
-#/^migros$/i
 /^milka$/i
 
 /^mycss$/i
