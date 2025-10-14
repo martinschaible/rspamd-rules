@@ -34,16 +34,16 @@ The map files in the folder `/etc/rspamd/maps.d` do not need to be copied. **Rsp
 If I add new map files, the configuration files must be updated accordingly.
 These are the latest changes:
 
-:point_right: A major migration of the configuration files is necessary:
-* The naming of the "Sender" files was unfortunate and has now been corrected.
-* New configuration files have also been added
+:point_right: A major migration of the configuration files is necessary:<br>
+:small_blue_diamond: The naming of the "Sender" files was unfortunate and has now been corrected.<br>
+:small_blue_diamond: New configuration files have also been added<br><br>
 
 :point_right: Maybe the easiest way is to re-copy all configuration files.<br>
 :point_right: After copying the files, the Rspamd service must be restarted.
 
 | Date     | File                                       | Reason                        |
 | -------- | -------------------------------------------| ----------------------------- |
- 02.08.25 | multimap.subject.de.scam.conf              | New map file added            |
+| 02.08.25 | multimap.subject.de.scam.conf              | New map file added            |
 |          | multimap.subject.en.scam.conf              | New map file added            |
 |          | multimap.body.de.scam.conf                 | New map file added            |
 |          | multimap.body.en.scam.conf                 | New map file added            |
@@ -87,6 +87,8 @@ These are the latest changes:
 |          | multimap.whitelist.subject.en.conf         | New configuration file        |
 |          | multimap.whitelist.conf                    | File deleted                  |
 |          | multimap.conf                              | New configuration files added |
+| 14.10.25 | multimap.conf                              | New configuration file added  |
+|          | multimap.header.conf                       | New configuration file        |
 
 ## Content
 :point_right: All map files of the *first version* are stored in the folder `/etc/rspamd/maps.d/legacy`.<br>
@@ -138,7 +140,7 @@ body
   ├─ body.attachment.map                         ─┐
   ├─ body.emergency.map                           │
   ├─ body.emergency.ext.map                       │
-  ├─ body.orgbrandprod.map                      X │
+  ├─ body.orgbrandprod.map                      :zap: │
   ├─ body.special.map                             │
   │                                               │
   ├─ body.az.orgname.map                          ├─ multimap.body.conf
@@ -164,7 +166,7 @@ body
   │   ├─ body.de.singleword.special.map           ├─ multimap.body.de.conf 
   │   ├─ body.de.singleword.ucase.map             │
   │   │                                           │
-  │   ├─ body.de.ucase.map                      X │ 
+  │   ├─ body.de.ucase.map                      :zap: │ 
   │   ├─ body.de.unsubscribe.map                 ─┘
   │   │
   │   ├─ body.de.adult.map                       --- multimap.body.de.adult.conf
@@ -187,9 +189,9 @@ body
   │   ├─ body.de.phishing.payment.map             │
   │   ├─ body.de.phishing.refund.map              │
   │   ├─ body.de.phishing.rewards.map             │
-  │   ├─ body.de.phishing.rewards.products.map  X │
-  │   ├─ body.de.phishing.sale.map              X │
-  │   ├─ body.de.phishing.security.map          X │
+  │   ├─ body.de.phishing.rewards.products.map  :zap: │
+  │   ├─ body.de.phishing.sale.map              :zap: │
+  │   ├─ body.de.phishing.security.map          :zap: │
   │   ├─ body.de.phishing.subscription.map        │
   │   ├─ body.de.phishing.survey.map              │
   │   ├─ body.de.phishing.wallet.map             ─┘
@@ -206,7 +208,7 @@ body
   │   ├─ body.de.scam.map                        ─┐
   │   ├─ body.de.scam.business.map                │
   │   ├─ body.de.scam.bignumbers.map              │
-  │   ├─ body.de.scam.choosen.map               X │
+  │   ├─ body.de.scam.choosen.map               :zap: │
   │   ├─ body.de.scam.donation.map                │
   │   ├─ body.de.scam.funds.map                   ├─ multimap.body.de.scam.conf
   │   ├─ body.de.scam.investment.map              │
@@ -221,7 +223,7 @@ body
       └─ ....
 ```
 
-* X -> Not yet implemented
+* :zap: -> Not yet implemented
 
 ### Setup for "sender"
 ```
