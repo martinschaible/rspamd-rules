@@ -259,6 +259,7 @@
 # Swiss Dialect
 /hinweis.{1,10}automatische verlängerig/iu
 
+/hinweis.{1,10}vorübergehende einschränkung/iu
 /hohe dringlichkeit/i
 /höchste warnstufe.{1,15}abonnement/iu
 
@@ -479,6 +480,7 @@
 # U
 /umgehende aufmerksamkeit benötigt/iu
 
+/unbefugte nutzung von.{1,30}aktion erforderlich/i
 /unterbrochen.{1,10}jetzt zahlungsdetails prüfen/iu
 
 /(ungewöhnliche|verdächtige) kontoaktivität festgestellt/iu
@@ -528,11 +530,12 @@
 /wichtige?.{1,10}aktion.{1,10}phototan/i
 
 /wichtige?.{1,10}aktualisieren sie/i
-/wichtige?.{1,20}kontosicherheit erforderlich/i
 /wichtige?.{1,10}änderungen.{1,10}ihre umgehende/i
+/wichtige?.{1,10}benachrichtigung.{1,10}urheberrechtsverstoß/iu
 
 /wichtige?.{1,10}einschränkung ihres.{1,15}kontos/i
 /wichtige?.{1,10}erinnerung.{1,10}daten checken/i
+/wichtige?.{1,20}kontosicherheit erforderlich/i
 
 /wichtige?.{1,15}hinweis?.{1,10}aktualisieren sie ihr konto/i
 /wichtige?.{1,15}hinweis?.{1,10}bestätigen sie/iu

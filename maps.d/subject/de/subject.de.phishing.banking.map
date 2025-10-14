@@ -49,6 +49,8 @@
 # E
 /eingehender vorgang/i
 
+/einschränkung ihres.{1,10}online.?bankings/iu
+
 # F
 /finanz.?(nachrichten|update) für den/iu
 /finanz.?(nachrichten|update) im.{1,10}(januar|februar|märz|april|mai|juni|juli|august|september|oktober|november|dezember)/iu
@@ -138,8 +140,10 @@
 
 # V
 /verdächtiger zugriff aus/iu
-/vorübergehende aussetzung ihres/iu
+
+/vorübergehende (aussetzung|einschränkung) ihres/iu
 /vorübergehend gesperrt.?!/iu
+
 /vorschriften erfordern.{1,10}verifizierung/i
 
 # W
