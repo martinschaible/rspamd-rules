@@ -115,14 +115,8 @@
 /verifizieren sie ihre telefon.?nummer/i
 
 # Photo TAN
-/(photo|push).?tan.{1,10}(aktivierungsbrief|gesperrt wurde|ist da)/i
-/(photo|push).?tan.{1,10}verfahren.{1,10}(aktualisiert|verbessert)/i
-
 /aktualisiert die.{1,20}alle.{1,15}(photo|push).?tan/i
 /aktiviere das neue.{1,15}(photo|push).?tan/i
-
-/ihre?.{1,15}(photo|push).?tan.{1,10}(aktualisieren|reaktivieren|synchronisieren)/i
-/ihre?.{1,15}(photo|push).?tan.{1,10}läuft bald ab/iu
 
 /wurde festgestellt.{1,10}dass ihre.{1,15}(photo|push).?tan/i
 
