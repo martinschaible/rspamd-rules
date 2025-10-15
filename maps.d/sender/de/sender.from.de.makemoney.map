@@ -40,6 +40,7 @@
 # Make Money
 # ------------------------------------------------------------------------------
 /(bank(en)?|investment).{0,10}(beratung|berater|call.?center|fonds?|verband)/i
+/banken.{0,10}toben/i
 
 /(dividenden|ihre).{0,10}auszahlung/i
 

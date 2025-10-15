@@ -121,6 +121,7 @@
 /maximize.{1,10}sales.{1,10}(customer|engagement)/i
 
 # N
+/new leads.{1,10}linkedin/i
 
 # O
 /online presence.{1,10}wikipedia/i
@@ -160,7 +161,8 @@
 /verified client details/i
 
 # W
-/we offer.{1,10}social media services/i
+/we.{1,10}offer.{1,10}social media services/i
+/we.{1,10}provide.{1,15}(fresh|quality|targeted|verified).{1,15}leads/i
 
 /wikipedia.{1,10}for your/i
 /wikipedia.{1,10}your key/i
