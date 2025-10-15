@@ -270,7 +270,8 @@
 
 /ihr.{1,10}(exklusives|kostenloses).{1,10}(treue)?.?geschenk/i
 /ihr.{1,10}(exklusiver|exklusives|kostenloses).{1,20}paket/i
-/ihr.{1,10}(exklusiver|exklusives|kostenloses).{1,20}wartet/i
+#/ihr.{1,10}(exklusiver|exklusives|kostenloses).{1,20}wartet/i
+/ihr.{1,10}kostenloses.{1,20}wartet/i
 
 /ihr.{1,10}geschenk ist bereit/i
 /ihr.{1,10}gutscheincode.{1,15}enthält/iu
