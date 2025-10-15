@@ -55,6 +55,7 @@
 /(direkten|direkter) zugriff.{1,15}limitierte auswahl/i
 /jetzt verfügbar.{1,10}(audi|mercedes.?benz|porsche)/i
 
+/entdecken sie unsere.{1,15}werksfahrzeuge/i
 /katalogzugang auf anfrage/i
 /konditionen.{1,10}vertragsrückläufer/iu
 /modelle im kundenauftrag/i
@@ -64,6 +65,7 @@
 /sofort verfügbaren.{1,10}fahrzeugen?/iu
 
 /verträgen stammen.{1,10}sofort für sie/iu
+/werksfahrzeug.?team/i
 
 # Comparing price for solar energy at home
 # ------------------------------------------------------------------------------
