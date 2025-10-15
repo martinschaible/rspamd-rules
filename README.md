@@ -89,6 +89,7 @@ These are the latest changes:
 |          | multimap.conf                              | New configuration files added |
 | 14.10.25 | multimap.conf                              | New configuration file added  |
 |          | multimap.header.conf                       | New configuration file        |
+| 15.10.25 | multimap.conf                              | Mistakes fixed                |
 
 ## Content
 :point_right: All map files of the *first version* are stored in the folder `/etc/rspamd/maps.d/legacy`.<br>
@@ -354,7 +355,9 @@ subject
 Folder structure:
 ```
 whitelist
-  ├─ header.ip.whitelist.map                     --- multimap.whitelist.header.ip.conf
+  ├─ header
+  │    ├─ header.ipaddress.map                   --- multimap.whitelist.header.conf
+  │    └─ header.hostname.map                    --- multimap.whitelist.header.conf 
   │
   ├─ body
   │    ├─ body.emergency.map                     ─┐
