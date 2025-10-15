@@ -50,9 +50,9 @@
 /ihre?.{1,15}(belohnung|geschenk|gutschein|gewinn|preis).{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
 
 # Kit
-/notfall.?(kit|set).{1,10}(auto|kfz|wartet|wert)/i
+/(medicare|notfall).?(kit|set).{1,10}(auto|kfz|wartet|wert)/i
 
-/(hochwertiges|kostenloses).{1,10}notfall.?(kit|set)/i
+/(chance|hochwertiges|kostenloses).{1,10}(medicare|notfall).?(kit|set)/i
 
 #
 #
@@ -91,7 +91,7 @@
 
 /(exklusive?|rituals).{1,10}mystery.?box/i
 
-/exklusive belohnung freuen/i
+/exklusive belohnung(en)?.{1,10}(erhalten|freuen)/i
 
 /exklusives dankeschön/iu
 

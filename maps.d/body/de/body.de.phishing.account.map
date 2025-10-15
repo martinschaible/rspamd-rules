@@ -36,6 +36,8 @@
 # F
 /facebook.{1,10}kontoüberprüfung/iu
 
+/führen sie eine identitätsprüfung durch/iu
+
 # G
 
 # H
@@ -70,6 +72,7 @@
 /(konto|profil).{1,15}vorübergehend eingeschränkt/iu
 /(konto|profil).{1,15}wieder freizuschalten.{1,10}bestätigen sie/iu
 /(konto|profil).{1,15}wird aufgrund eines.{1,20}fehlers/i
+/(konto|profil).{1,15}konto wurde vorsorglich gesichert/i
 /(konto|profil).{1,15}wurden einige funktionen vorübergehend eingeschränkt/iu
 /(konto|profil).{1,15}zu überprüfen und auf.{1,10}nachrichten/iu
 

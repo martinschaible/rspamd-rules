@@ -20,12 +20,13 @@
 
 # Products
 # ------------------------------------------------------------------------------
-/(bestätigung|geschenk|gewinnen|kostenloses|unser).{1,20}notfall.?(kit|set)/i
+/(bestätigung|geschenk|gewinnen|kostenloses|unser).{1,20}(medicare|notfall).?(kit|set)/i
 
 /satz wartet auf sie/i
 
 #
-/(hochwertiges|kostenlos|nur noch).{1,10}notfall.?(kit|set)/i
+/auto.?notfall in limitierter/i
+/(hochwertiges|kostenlos|nur noch).{1,10}(medicare|notfall).?(kit|set)/i
 
 /(auto|kfz).{1,10}notfall.?(kit|set)/i
 /notfall.?(kit|set).{1,10}(auto|kfz|wartet)/i
