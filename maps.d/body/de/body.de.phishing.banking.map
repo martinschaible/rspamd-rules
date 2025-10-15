@@ -63,7 +63,11 @@
 /online.?banking.{1,10}um die erforderlichen/i
 
 # P
+/(photo|push).?tan.{1,10}(aktivierungsbrief|gesperrt wurde|ist da)/i
 /(photo|push).?tan.{1,15}damit die sicherheit ihres/i
+/(photo|push).?tan.{1,10}(aktualisieren|reaktivieren|synchronisieren)/i
+/(photo|push).?tan.{1,10}läuft bald ab/iu
+/(photo|push).?tan.{1,10}verfahren.{1,10}(aktualisiert|verbessert)/i
 
 # Q
 
@@ -72,6 +76,9 @@
 
 # S
 /sicherheitsupdate.{1,15}online.?banking/i
+
+/sie daran erinnern.{1,10}dass ihre.{1,10}(photo|push).?tan/i
+
 /sie ihr.{1,10}tan.?verfahren/i
 
 /starten sie jetzt die bestätigung/iu
