@@ -96,6 +96,8 @@
 
 /we are required.{1,10}by our.{1,10}funders/i
 /we fund.{1,10}wide range/i
+
+/we have.{1,10}checked your company records/i
 /we have.{1,10}funding.{1,10}solutions/i
 
 /we.{1,10}(give|issuing|offer|offering|provide|specialize|source).{1,15}(financial|financing|funding)/i
@@ -110,7 +112,8 @@
 # X
 
 # Y
-/you.{1,10}prequalified for up to \{d3,6}/i
+/you.{1,10}(pre)?qualified for our business/i
+/you.{1,10}(pre)?qualified for up to \{d3,6}/i
 
 /you need.{1,10}(reputable|urgent).{1,10}loan/i
 
