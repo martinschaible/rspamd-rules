@@ -21,6 +21,8 @@
 /apps?.{1,10}affordable rates?/i
 
 /apps?.{1,10}android.{1,10}ios/i
+/apps?.{1,10}boost your business/i
+
 /apps?.{1,10}(creating|creation|development|programming).?!?$/i
 /apps?.{1,10}creating info(rmation)?/i
 /apps?.{1,10}creation.{1,10}services/i
@@ -61,8 +63,8 @@
 # L
 
 # M
-/^mobile.?app$/i
-
+/^mobile.?apps?$/i
+/mobile apps?.{1,10}(boost|business)/i
 /modify your.{1,10}apps/i
 
 # N

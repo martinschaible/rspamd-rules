@@ -549,8 +549,9 @@
 
 /paypal.{0,15}(account|billing|case.?id|customer)/i
 /paypal.{0,15}(department|europe?|help.?desk|inc)/i
+
 /paypal.{0,15}(benachrichtigung(en)?|betrieb|kunden|konto|sicherheit|technischer|verifizierung|vertrauen)/i
-/paypal.{0,15}(compliance|management|update|safety|security|services?|support|team|trust|voucher)/i
+/paypal.{0,15}(compliance|management|update|payments?|safety|security|services?|support|team|trust|voucher)/i
 
 /paypal(-|_)/i
 /pay pal/i

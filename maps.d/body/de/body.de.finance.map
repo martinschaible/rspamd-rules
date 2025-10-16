@@ -23,8 +23,10 @@
 
 /(benötigen|brauchen) sie.{1,15}ein darlehen/iu
 /(benötigen|brauchen) sie.{1,15}einen.{1,15}kredit/i
+/(benötigen|brauchen) sie.{1,10}geld.{1,10}um (ein|ihre?)/i
+/(benötigen|brauchen) sie.{1,10}geld.{1,10}den persönlichen/iu
+/(benötigen|brauchen) sie.{1,20}kredite?/i
 /(benötigen|brauchen) sie.{1,15}zusätzliches geld/iu
-/(benötigen|brauchen) sie.{1,20}kredite/i
 
 # C
 
@@ -52,6 +54,7 @@
 /günstiges kreditangebot der.{1,15}bank/i
 
 # H
+/haben sie schulden.{1,10}brauchen sie geld/i
 
 # I
 /(ich|wir) (biete|gewähre|vergebe)n?.{1,15}(alle arten von)?.{1,15}(darlehen|kredit)/iu
