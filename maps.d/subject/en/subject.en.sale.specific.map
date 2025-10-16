@@ -36,6 +36,8 @@
 /velomobile/i
 
 /^e(lectric)?.{0,10}(bicycle|bike|velo)/i
+/- e(lectric)?.{0,10}(bicycle|bike|velo)/i
+
 /e(lectric)?.{0,10}(bicycle|bike|velo).{1,15}(adventrue|built|coorperation)/i
 /e(lectric)?.{0,10}(bicycle|bike|velo).{1,15}(day shipping|delivers?|distribution)/i
 /e(lectric)?.{0,10}(bicycle|bike|velo).{1,15}in stock/i

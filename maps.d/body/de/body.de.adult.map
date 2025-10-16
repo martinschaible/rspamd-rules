@@ -50,6 +50,8 @@
 
 /(aufrichtig|deutche|glänzend|wunderbar|zielstrebige).{1,10}(freund|herr|mann)/i
 
+/authentische.{1,10}respektvolle mitglieder/i
+
 # B
 /beginnt unsere.{1,15}bekanntschaft/i
 
@@ -105,7 +107,7 @@
 # H
 /heute bin ich in deiner stadt/i
 
-/hier findest du mich/i
+/hier findest du.{1,10}(frauen|mich)/i
 /hier kannst du mir antworten/i
 
 /hinterlasse (einen|ich dir).{1,10}link/i
