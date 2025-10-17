@@ -108,6 +108,12 @@
 # R
 
 # S
+/send.{1,10}(me|us).{1,10}copy of your.{1,15}(brochure|catalog|catalogue)/i
+/send.{1,10}(me|us).{1,10}through e?.?mail.{1,10}your.{1,15}(brochure|catalog|catalogue)/i
+/send.{1,10}(me|us).{1,10}your (latest|newest).{1,15}(brochure|catalog|catalogue)/i
+/send.{1,10}(me|us).{1,10}your.{1,15}(brochure|catalog|catalogue).{1,10}through e?.?mail/i
+/send.{1,10}(me|us).{1,10}your.{1,15}(brochure|catalog|catalogue).{1,10}that we can place/i
+
 /suppliers?.{1,10}hit us up on/i
 
 # T

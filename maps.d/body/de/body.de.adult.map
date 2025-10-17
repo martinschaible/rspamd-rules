@@ -9,6 +9,11 @@
 # Topics
 # ==============================================================================
 
+# Ukraine
+# ------------------------------------------------------------------------------
+/(swiss|treff).?ukrain(a|e)/i
+/(treffe|triff).{1,10}ukrainische frauen/i
+
 # Profile
 # ------------------------------------------------------------------------------
 /profil.{1,10}neue fotos hinzugefügt/iu
@@ -211,9 +216,6 @@
 /suchst.{1,10}schreibe? mir/i
 
 # T
-/(treffe|triff).{1,10}ukrainische frauen/i
-/treff.?ukraine/i
-
 /traust.{1,10}schaue? hier vorbei/i
 
 # U
