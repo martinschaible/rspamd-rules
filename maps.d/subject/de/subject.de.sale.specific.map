@@ -82,6 +82,7 @@
 
 /\d{1,2}.{1,5}elektro.?(fahrrad|fahrrädern?|motorrad|velo)/i
 /\d{1,2}.{1,5}elektrischen/i
+/\d{1,2}.{1,5}e.?fahrrädern?/i
 
 /(e.?bike|e.?cycle|elektro.?moped).{1,15}eu.?(lieferung|weit)/i
 /(e.?bike|e.?cycle|elektro.?moped).{1,10}(besten|bester).{1,10}preis/i

@@ -340,7 +340,7 @@
 /blurry.{0,10}fix/i
 
 /breath(ing)?.{0,10}(clear|science)/i
-/brain.{0,10}(boost|care|exercise|fix|noise|reset|revival|shrinkage|solution|upgrade)/i
+/brain.{0,10}(boost|care|exercise|fix|health|noise|reset|revival|shrinkage|solution|upgrade)/i
 
 /breakfast.{0,10}(alert|insider|juice|myth|treat|quiz)/i
 /(breathe|breathing).{0,10}(better|clearer|easier|easy|easy)/i
@@ -381,6 +381,7 @@
 /candy.{0,10}cure/i
 
 /carb.{0,10}(control|secrets?|tricks?)/i
+/cardiac.{0,10}(clock|health)/i
 /cardio.{0,10}(boost|health|kitchen|wellness)/i
 /care.{0,10}secret/i
 /cartilage.{0,10}care/i
@@ -696,7 +697,7 @@
 /midnight.{0,10}bathroom/i
 
 /min.?stretch/i
-/mind.{0,10}(barriers?|blow|button|body|boost|clarity|health|recovery)/i
+/mind.{0,10}(barriers?|blow|button|body|boost|clarity|health|recovery|restore)/i
 /mineral.{0,10}(combination|magic)/i
 
 /(mineral|miracle).{0,10}(alert|burner|drops?|minerals?|syrup)/i
