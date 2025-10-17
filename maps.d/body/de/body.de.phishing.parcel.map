@@ -40,7 +40,7 @@
 # G
 /gebühren.{1,10}um die lieferung fortzusetzen/iu
 
-/geringe servicegebühr von.{1,10}chf/iu
+/(geringe|geringe) (service)?gebühr von.{1,10}(chf|euro|€)/iu
 
 # H
 
@@ -72,7 +72,9 @@
 
 # P
 /(paket|sendung).{1,20}auf.{1,10}anweisungen.{1,15}(bezüglich|wartet)/i
+
 /(paket|sendung).{1,10}befindet sich.{1,10}(finalen|letzten).{1,10}(zustellphase|zustellprozess)/i
+/(paket|sendung).{1,10}befindet sich.{1,10}derzeit beim.{1,15}zoll/i
 /(paket|sendung).{1,10}bereit für die lieferung/iu
 /(paket|sendung).{1,15}das an sie hätte geliefert/iu
 /(paket|sendung).{1,15}dessen empfänger sie sind/iu

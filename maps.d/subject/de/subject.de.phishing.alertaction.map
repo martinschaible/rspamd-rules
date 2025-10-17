@@ -137,7 +137,7 @@
 /bestätigen.?-.?#[a-z0-9]{4,10}/iu
 /bestätigen sie ihre.{1,5}adresse/i
 /bestätigen sie (die|ihre).{1,10}(lieferadresse|lieferdaten)/i
-/bestätigen sie (die|ihre).{1,10}(prämie|rechtsform|telefonnummer|zusendung)/iu
+/bestätigen sie (die|ihre).{1,10}(prämie|rechtsform|telefonnummer|zahlung|zusendung)/iu
 
 /bestätigen sie kurz/iu
 
@@ -315,8 +315,9 @@
 
 /kontos?.{1,10}jetzt handeln/i
 
-/konto gesperrt.{1,10}jetzt reaktivieren/i
-/konto getätigt.{1,10}überprüfen sie.{1,10}jetzt/iu
+/(konto|profil) gesperrt.{1,10}jetzt reaktivieren/i
+/(konto|profil) getätigt.{1,10}überprüfen sie.{1,10}jetzt/iu
+/(konto|profil).{1,10}wird in kürze als inaktiv betrachtet/iu
 
 /kontrollschild.{1,15}prüfen sie ihre angaben/iu
 

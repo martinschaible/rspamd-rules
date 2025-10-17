@@ -340,7 +340,7 @@
 /blurry.{0,10}fix/i
 
 /breath(ing)?.{0,10}(clear|science)/i
-/brain.{0,10}(boost|care|exercise|fix|noise|reset|revival|shrinkage|solution)/i
+/brain.{0,10}(boost|care|exercise|fix|noise|reset|revival|shrinkage|solution|upgrade)/i
 
 /breakfast.{0,10}(alert|insider|juice|myth|treat|quiz)/i
 /(breathe|breathing).{0,10}(better|clearer|easier|easy|easy)/i
@@ -710,7 +710,7 @@
 
 /mobility.{0,10}(fix|matters)/i
 
-/morning.{0,10}(boost|brew|dessert|detox|drink|hack|melt|metabolism|mistake)/i
+/morning.{0,10}(alert|boost|brew|dessert|detox|drink|hack|melt|metabolism|mistake)/i
 /morning.{0,10}(oil|reset|ritual|routine|slimmer|tweak|wood)/i
 /morphine.{0,10}fruit/i
 
@@ -1016,7 +1016,7 @@
 /wax.{0,10}free/i
 
 /weird.{0,10}sound/i
-/wellness.{0,10}(alert|bulletin|brief|daily|dairy|files?|insights|living|news|report|watch|weekly)/i
+/wellness.{0,10}(alert|archive|bulletin|brief|daily|dairy|files?|insights|living|news|report|watch|weekly)/i
 
 /white.{0,10}(carb|smile)/i
 /without.{0,10}glasses/i
