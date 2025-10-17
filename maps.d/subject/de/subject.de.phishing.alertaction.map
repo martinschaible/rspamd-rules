@@ -93,7 +93,7 @@
 
 /(aktualisieren?|bestätigen?).{1,10}sie.{1,10}ihre?.{1,15}(angaben|app|daten|identität|informationen)/i
 /(aktualisieren?|bestätigen?).{1,10}sie.{1,10}ihre?.{1,10}(kontoangaben|kontoidentität|profil|sicherheit|stammdaten|telefon.?nummer)/iu
-/(aktualisieren?|bestätigen?).{1,10}sie.{1,10}ihre.{1,20}(verifizierung|zahlungsdaten)/iu
+/(aktualisieren?|bestätigen?).{1,10}sie.{1,10}ihre.{1,20}(verifizierung|zahlung(sdaten)?)/iu
 /(aktualisieren?|bestätigen?).{1,10}sie.{1,10}ihren.{1,15}zugang/i
 
 /aktualisieren.{1,10}sie.{1,10}ihre.{1,20}credit.?card.?app/i
