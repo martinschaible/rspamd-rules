@@ -14,4 +14,4 @@
 /-host\.colocrossing\.com/i 6.0
 
 # Quick Test
-/mail-wm1-f\d{2}\.google\.com/i
+/mail-[a-z]{1,2}\d-f\d{2,3}\.google\.com/i
