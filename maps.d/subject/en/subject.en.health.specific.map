@@ -93,7 +93,7 @@
 /(little.?known|minute|odd|second).{1,15}(fix|hack|ritual|secret|solution|trick)/i
 
 /(\d{1,2}.?second|shocking|simple|japanese).{1,10}(discovery|fix|hack|ritual|secret|tip|trick)/i
-/\d simple fix/i
+/\d simple (fix|switch)/i
 
 /(secret|simple|unusual).{1,10}(hack|ritual|solution|trick).{1,15}(activate|erases|needs|reverses|trusted|to end)/i
 

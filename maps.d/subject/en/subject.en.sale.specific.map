@@ -103,11 +103,15 @@
 
 # Replicas
 # ------------------------------------------------------------------------------
-/(omega|seamaster).{1,15}starting at/i
+/(omega|rolex|seamaster).{1,15}starting at/i
+/(omega|rolex|seamaster).{1,15}watches from/i
 
 /enhance.{1,10}your wifi/i
 /exclusive luxury watches/i
-/luxury watches at just/i
+
+/luxury for less.{1,10}louis vuitton/i
+/luxury watches (at just|from)/i
+
 /timepieces collection starting at/i
 
 /hot.{1,10}handbags from/i
