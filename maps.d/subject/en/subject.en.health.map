@@ -15,6 +15,7 @@
 # Medication Names
 # ------------------------------------------------------------------------------
 /alkotox/i
+/alphamaax/i
 /cardiotonus/i
 /endurancer24/i
 /hezkue/i
@@ -931,7 +932,7 @@
 /your.{1,10}blood pressure/i
 /your.{1,10}back pain/i
 /your.{1,10}(bladder|erection|hearing|liver|manhood|pecker|prostate|wrinkles)/i
-/your.{1,10}gut (could|knows|might)/i
+/your.{1,10}gut.{1,10}(could|knows|might|warning)/i
 /your.{1,10}(super)?food.{1,10}(harmful|secret)/i
 /your.{1,10}foot fungus/i
 /your.{1,10}healthy foods/i
