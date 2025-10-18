@@ -93,6 +93,7 @@ These are the latest changes:
 | 16.10.25 | multimap.header.conf                       | Wrong configuration fixed     |
 |          | multimap.whitelist.header.conf             | Wrong configuration fixed     |
 |          | multimap.sender.from.de.scam.conf          | Typo fixed                    |
+| 18.10.25 | multimap.header.conf                       | Configuration finalized       |
 
 ## Content
 :point_right: All map files of the *first version* are stored in the folder `/etc/rspamd/maps.d/legacy`.<br>
