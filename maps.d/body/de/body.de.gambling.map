@@ -21,6 +21,9 @@
 # B
 /beanspruchen sie ihre.{1,10}frei.?spiele/i
 
+/bonus.{1,15}(freispiele?|mindesteinzahlung)/i
+/bonus.{1,10}(slots|spins)/i
+
 # C
 
 # D
@@ -31,6 +34,7 @@
 # F
 
 # G
+/(geniessen|genießen) sie.{1,10}willkommensbonus/iu
 
 # H
 
@@ -55,14 +59,18 @@
 # R
 
 # S
+/fantastischen.{1,10}willkommens.?bonus/i
+/(slots|spins).{1,10}willkommens.?bonus/i
 
 # T
+/tausende.{1,10}(slots|spins)/i
 
 # U
 
 # V
 
 # W
+/willkommens.?bonus.{1,15}(bonus|bis zu|cashback|echte)/i
 
 # X
 
