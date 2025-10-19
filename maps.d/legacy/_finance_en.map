@@ -105,14 +105,8 @@
 
 /quick.{1,10}fast.{1,10}loans?/i
 
-/(my|our) company.{1,10}(offering|offers|provides|providing).{1,10}(competitive|corporate).{1,15}loans/i
-/(my|our) company.{1,10}(offering|offers|provides|providing).{1,15}loans/i
-
 /our loan.{1,10}(acquisition|funding|investment|programme)/i
 /our business loan offers/i
-
-/(offering|offers|provides|providing).{1,10}corporate.{1,10}(financing|personal).{1,10}loans/i
-/(offering|offers|provides|providing).{1,10}business loans.{1,10}interest.?rate/i
 
 /investment company offering.{1,20}(corporate|personal|unsecured).{1,10}loans?/i
 /leading.{1,10}institution.{1,10}(corporate|personal|unsecured).{1,10}loans/i
@@ -130,7 +124,6 @@
 /we.{1,10}(give|issuing|offer|offering|provide).{1,10}independent.{1,10}(financial|funding)/i
 /we.{1,10}(give|issuing|offer|offering|provide).{1,20}(financial|strategic).{1,10}advisory services/i
 
-/we are.{1,10}investment.{1,20}(asset|group|management)/i
 /we are.{1,10}seeking to finance/i
 /we are.{1,10}high profile investors/i
 /we are.{1,10}willing.{1,10}(give|issuing|offer|offering|provide).{1,10}financing/i
