@@ -9,7 +9,7 @@
 # Bitcoin
 # ------------------------------------------------------------------------------
 /(bitcoin|btc|crypto|krypto).{0,20}(aufwertung|ausgesorgt|autopilot)/i
-/(bitcoin|btc|crypto|krypto).{0,20}(bietet|chance)/i
+/(bitcoin|btc|crypto|krypto).{0,20}(bietet|chancen?)/i
 /(bitcoin|btc|crypto|krypto).{0,20}(erfolgsgeschichte|enorme)/i
 /(bitcoin|btc|crypto|krypto).{0,20}(geheimnis|goldrausch|handeln)/i
 /(bitcoin|btc|crypto|krypto).{0,20}gewinne?\?/i
@@ -30,6 +30,7 @@
 
 #/(einsteigen|einstieg|empfiehlt|geld verdienen|gewinnen sie|schweizer).{1,15}(bitcoin|etf|ki\b|openai|krypto)/i
 /(einsteigen|empfiehlt|geld verdienen|gewinnen sie).{1,15}(bitcoin|etf|ki\b|openai|krypto)/i
+/investment.{1,15}(bitcoin|etf|ki\b|openai|krypto)/i
 
 /(250|bitcoin).{1,10}reich werden/i
 
