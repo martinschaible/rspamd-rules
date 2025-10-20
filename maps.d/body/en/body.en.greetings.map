@@ -90,6 +90,7 @@
 /(dear|hello|hi\b).{1,10}(buyer|customer|director|friend|madam|manager|partner|purchaser|respected|sir).{1,10}this is.{1,10}(effort|private)/i
 
 /(dear|hello|hi\b).{1,10}(buyer|customer|director|friend|madam|manager|partner|purchaser|respected|sir).{1,10}we are writing to seek your/i
+/(dear|hello|hi\b).{1,10}(buyer|customer|director|friend|madam|manager|partner|purchaser|respected|sir).{1,10}we supply/i
 /(dear|hello|hi\b).{1,10}(buyer|customer|director|friend|madam|manager|partner|purchaser|respected|sir).{1,10}your draft/i
 
 /(dear|hello|hi\b).{1,10}(supplier|vendor).{1,15}find the attached/i
@@ -187,6 +188,7 @@
 /gooday sir.?ma/i
 
 # H
+/have a nice day.{1,10}china/i
 /have a nice day.{1,10}this is.{5,35}from/i
 
 /hello ma.sir/i
@@ -199,10 +201,11 @@
 
 /(hello|hi).{1,5}(dear|friend|manager).{1,10}(confidential|customer|private|strictly|urgent)/i
 /(hello|hi).{1,5}(dear|friend|manager).{1,10}good day/i
-/(hello|hi).{1,5}(dear|friend|manager).{1,10}my name  is/i
 /(hello|hi).{1,5}(dear|friend|manager).{1,10}hope this.{1,10}(e?.?mail|message) finds/i
 /(hello|hi).{1,5}(dear|friend|manager).{1,10}i am.{5,35}this is to officially inform you/i
 /(hello|hi).{1,5}(dear|friend|manager).{1,10}i came across/i
+/(hello|hi).{1,5}(dear|friend|manager).{1,10}my name  is/i
+/(hello|hi).{1,5}(dear|friend|manager).{1,10}nice monday/i
 /(hello|hi).{1,5}(dear|friend|manager).{1,10}please quote us/i
 
 /(hello|hi).{1,15}btc.{1,10}usd?/i
@@ -232,6 +235,7 @@
 /(hello|hi).{1,5}sir.{1,10}i am dr\./i
 
 /(hello|hi).{1,5}we are interested in your products/i
+/(hello|hi).{1,5}we mainly produce/i
 
 /hi \[first.?name\]/i
 /hi user.{1,10}you have requested/i

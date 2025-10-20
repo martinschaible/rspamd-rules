@@ -65,6 +65,7 @@
 /(package|parcel|shipment).{1,10}awaits final confirmation/i
 /(package|parcel|shipment).{1,10}on hold.{1,10}address confirmation/i
 /(package|parcel|shipment).{1,10}requires address confirmation/i
+/(package|parcel|shipment).{1,10}returned.{1,10}payment failed/i
 
 /payment for your.{1,10}(package|parcel|shipment)/i
 
@@ -77,6 +78,8 @@
 
 /shipping documents?.{1,10}for.{1,15}@/i
 /shipping documents?.{1,10}set to expire on/i
+
+/shipping (resumption|suspension).{1,10}payment (update|problem)/i
 
 /step to receive your.{1,10}(package|parcel|shipment)/i
 

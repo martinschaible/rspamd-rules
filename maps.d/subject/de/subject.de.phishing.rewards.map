@@ -177,9 +177,10 @@
 
 /danke für ihr feedback.{1,10}jetzt/iu
 
-/dein.{1,10}\d{3,4}.{1,15}gutschein wartet auf dich/i
-
-/dein preis ist auf dem weg/i
+/(dein|ihr).{1,10}\d{3,4}.{1,15}gutschein wartet auf dich/i
+/(dein|ihr) geschenk schon gesehen/
+/(dein|ihr) preis ist auf dem weg/i
+i
 /deine belohnung abholen/i
 
 /du bist bestätigt/iu

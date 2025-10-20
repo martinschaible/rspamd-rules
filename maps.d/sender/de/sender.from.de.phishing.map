@@ -93,7 +93,7 @@
 # J
 
 # K
-/konto.?(informationsdienst|updates?)/i
+/konto.{0,10}(informationsdienst|team|updates?)/i
 
 /krankenkassen?.{0,10}team/i
 /kreditkarten?.{0,10}banking/i

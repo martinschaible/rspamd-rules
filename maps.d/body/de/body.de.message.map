@@ -14,7 +14,7 @@
 /achtung.{1,10}(eilmeldung|empfänger)/i
 /achtung.{1,10}e?.?mail.?eigentümer/iu
 /achtung.{1,10}inhaber dieser.{1,10}e.?mail.?adresse/iu
-/achtung.{1,10}lieber benutzer/i
+/achtung.{1,10}(lieber|mail.?box).{0,5}benutzer/i
 /achtung.{1,10}offizielle mitteilung/i
 /achtung.{1,10}schweizer/i
 /achtung.{1,10}sie haben eine/i
