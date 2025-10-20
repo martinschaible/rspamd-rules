@@ -29,8 +29,6 @@
 
 # Out of diskspace
 # ------------------------------------------------------------------------------
-/achtung.{1,10}mailbox.?benutzer/i
-
 /(e?.?mails|nachrichten).{1,10}konnten aufgrund unzureichenden speicherplatzes nicht/i
 
 /postfach ist.{1,10}voll.{1,15}aktualisieren sie ihr/i
