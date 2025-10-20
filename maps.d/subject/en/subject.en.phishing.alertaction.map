@@ -30,6 +30,8 @@
 /\d{1,2}:\d{1,2}:\d{1,2}.{1,10}action required/i
 
 # A
+/account alert.{1,10}payment method/i
+
 /account.{1,10}is at risk.{1,10}action needed/i
 /account.{1,10}notification.{1,10}verification required/i
 /account.{1,10}safety alert/i

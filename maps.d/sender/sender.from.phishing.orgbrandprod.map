@@ -264,7 +264,7 @@
 /dhl.{0,5}(logistik.?team|logistikzentrum)/i
 /dhl.{0,5}(paketstatus|paketzentrum)/i
 /dhl.{0,5}(messages?|package|service|team|tracking|your)/i
-/dhl.{0,5}(paketinfo|versandinfo)/i
+/dhl.{0,5}(payment|paketinfo|versandinfo)/i
 
 /dhl.{0,5}(germany|schweiz)/i
 /dhl.{0,5}express (germany|schweiz)/i
@@ -638,6 +638,7 @@
 /spar-kasse/i
 /^sparkasse$/i
 /sparkasse noreply/i
+/sparkasse-de/i
 
 /spyrec.?pro/i
 
