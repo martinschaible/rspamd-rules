@@ -115,10 +115,11 @@
 
 # W
 /wichtige?.{1,15}aktualisierung.{1,15}kontaktdaten/i
-/wichtige?.{1,15}information.{1,10}ihr online.?banking/i
 
-/wichtige?.{1,15}mitteilung.{1,10}ihr dienst läuft heute ab/iu
-/wichtige?.{1,15}mitteilung.{1,10}verifizieren sie ihr.{1,15}konto/i
+/wichtige?.{1,15}(erinnerung|information|mitteilung).{1,10}aktualisieren sie ihre/i
+/wichtige?.{1,15}(erinnerung|information|mitteilung).{1,10}ihr dienst läuft heute ab/iu
+/wichtige?.{1,15}(erinnerung|information|mitteilung).{1,10}ihr online.?banking/i
+/wichtige?.{1,15}(erinnerung|information|mitteilung).{1,10}verifizieren sie ihr.{1,15}konto/i
 
 /wichtige.{1,10}sicherheitsaktualisierung.{1,10}erforderlich/i
 /wichtige.{1,10}sicherheitsinformation.{1,10}wir haben ungewöhnliche aktivitäten/iu

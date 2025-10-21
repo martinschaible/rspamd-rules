@@ -74,7 +74,9 @@
 /(konto|profil).{1,15}wird aufgrund eines.{1,20}fehlers/i
 /(konto|profil).{1,15}konto wurde vorsorglich gesichert/i
 /(konto|profil).{1,15}wurden einige funktionen vorübergehend eingeschränkt/iu
-/(konto|profil).{1,15}zu überprüfen und auf.{1,10}nachrichten/iu
+
+/(konto|profil).{1,15}zu überprüfen.{1,10}um eine.{1,15}nutzung/iu
+/(konto|profil).{1,15}zu überprüfen.{1,10}und auf.{1,10}nachrichten/iu
 
 /kontoinformationen.{1,10}nicht bestätigt wurden/iu
 /kontoinformationen.{1,10}überprüfen.{1,15}aktualisieren/iu
