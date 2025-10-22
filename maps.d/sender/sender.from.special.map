@@ -29,7 +29,7 @@
 /[\|\-\*_!#][a-z0-9\s]{3,15}[\|\-\*_!#]$/i
 
 #
-/\d{2,3}.?(dollars?|euro?|usd|€|\$|£)/i
+/\d{2,3}.?(dollars?|euro?|gbp|usd|€|\$|£)/i
 
 # Sample: "25/12/2024 Nachrichten"
 /\d{2}\/\d{2}\/\d{4}/i
