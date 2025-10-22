@@ -31,6 +31,8 @@
 # B
 /based lender offering/i
 
+/business opportunities.{1,10}potential.{1,15}(funding|investment)/i
+
 # C
 /capital.{1,10}your profitable project/i
 
@@ -126,6 +128,6 @@
 
 /you need.{1,10}(reputable|urgent).{1,10}loan/i
 
-/your organization.{1,10}seeking capital/i
+/your (company|organization).{1,10}seeking capital/i
 
 # Z

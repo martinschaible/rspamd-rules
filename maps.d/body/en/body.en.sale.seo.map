@@ -63,7 +63,8 @@
 /(i|we).{1,10}can help.{1,10}seo/i
 /(i|we).{1,10}can help improve your rankings?/i
 
-/i was browsing your web.?site.{1,10}noticed/i
+/i was.{1,10}(browsing|visiting) your (web.?)?site.{1,25}it looks like/i
+/i was.{1,10}(browsing|visiting) your (web.?)?site.{1,10}noticed/i
 
 /it.{1,10}not ranking on.{1,10}(bing|google|yahoo)/i
 
