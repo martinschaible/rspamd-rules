@@ -63,7 +63,6 @@
 /your.{1,10}over due approved funds/i
 
 /your.{1,10}funds?.{1,10}(total|worth).{1,10}sum of.{1,10}million/i
-/your.{1,10}funds?.{1,10}\d{3}.{0,5}\d{3}.{1,10}(dollar|euro?|gbp|usd)/i
 /your.{1,10}funds?.{1,10}in the amount of.{1,10}million/i
 /your.{1,10}funds?.{1,10}is now ready for payment/i
 /your.{1,10}funds?.{1,10}million.{1,15}would be released/i
