@@ -5,9 +5,9 @@
 
 # Donation
 # ------------------------------------------------------------------------------
-/\d{2,4}(\.|,)?\d{3,4}.{1,10}(dollars?|euro?|usd|€|\$|£) spende/i
+/\d{2,4}(\.|,)?\d{3,4}.{1,10}(dollars?|euro?|gbp|usd|€|\$|£) spende/i
 
-/^\d{1,2}.{1,10}millionen.{1,10}(dollars?|euro?|usd|€|\$|£) spende/i
+/^\d{1,2}.{1,10}millionen.{1,10}(dollars?|euro?|gbp|usd|€|\$|£) spende/i
 
 /^spende.{1,10}\d{2,4}(\.|,)?\d{3,4}/i
 
@@ -15,10 +15,10 @@
 /spende.{1,10}von.{1,10}\d{2,4}(\.|,)?\d{3,4}.{0,5}millionen/i
 /spende.{1,10}von \d(\.|,)?\d{2,3} millionen$/i
 
-/spende.{1,10}\d{2,4}(\.|,)?\d{3,4}.{0,5}(dollars?|euro?|usd|€|\$|£)/i
+/spende.{1,10}\d{2,4}(\.|,)?\d{3,4}.{0,5}(dollars?|euro?|gbp|usd|€|\$|£)/i
 /spenden.?(angebot|zuschuss).{1,10}\d{3,4}(\.|,)?\d{3,4}/i
 
-/ihnen.{1,10}\d{3,4}(\.|,)?\d{3,4}.{0,5}(dollars?|euro?|usd|€|\$|£).{1,10}zu spenden/i
+/ihnen.{1,10}\d{3,4}(\.|,)?\d{3,4}.{0,5}(dollars?|euro?|gbp|usd|€|\$|£).{1,10}zu spenden/i
 
 
 /sie.{1,10}haben eine spende.{1,15}\d{2,4}(\.|,)?\d{3,4}/i
@@ -31,16 +31,16 @@
 
 # Payments
 # ------------------------------------------------------------------------------
-/\d{3,4}.{1,10}(dollars?|euro?|usd|€|\$|£) (auszahlen lassen|auszahlung)/i
-/\d{2,4}(\.|,)?\d{3,4}.{0,5}(dollars?|euro?|usd|€|\$|£).{1,10}wurden ihnen gespendet/i
+/\d{3,4}.{1,10}(dollars?|euro?|gbp|usd|€|\$|£) (auszahlen lassen|auszahlung)/i
+/\d{2,4}(\.|,)?\d{3,4}.{0,5}(dollars?|euro?|gbp|usd|€|\$|£).{1,10}wurden ihnen gespendet/i
 
-/(ansprüche|überweisen|überweisung von).{1,10}(dollars?|euro?|usd|€|\$|£).{0,5}\d{2,4}(\.|,)?\d{3,4}/iu
-/(ansprüche|überweisen|überweisung von).{1,10}\d{2,3}(\.|,)?\d{3,4}.{0,5}(dollars?|euro?|usd|€|\$|£)/iu
+/(ansprüche|überweisen|überweisung von).{1,10}(dollars?|euro?|gbp|usd|€|\$|£).{0,5}\d{2,4}(\.|,)?\d{3,4}/iu
+/(ansprüche|überweisen|überweisung von).{1,10}\d{2,3}(\.|,)?\d{3,4}.{0,5}(dollars?|euro?|gbp|usd|€|\$|£)/iu
 
 # Not categorized
 # ------------------------------------------------------------------------------
-/(entschädigung|geschäftsvorschlag|überweisen|überweisung|vergütung).{1,10}\d{3,4}(\.|,)?\d{2,4}.{0,5}(dollars?|euro?|usd|€|\$|£)/i
-/(entschädigung|geschäftsvorschlag|überweisen|überweisung|vergütung).{1,10}(dollars?|euro?|usd|€|\$|£){0,5}\d{2,4}(\.|,)?\d{3,4}/i
+/(entschädigung|geschäftsvorschlag|überweisen|überweisung|vergütung).{1,10}\d{3,4}(\.|,)?\d{2,4}.{0,5}(dollars?|euro?|gbp|usd|€|\$|£)/i
+/(entschädigung|geschäftsvorschlag|überweisen|überweisung|vergütung).{1,10}(dollars?|euro?|gbp|usd|€|\$|£){0,5}\d{2,4}(\.|,)?\d{3,4}/i
 
 # Just big numbers
 # ------------------------------------------------------------------------------
@@ -79,7 +79,7 @@
 
 # I
 /ihnen.{1,10}millionen.{1,10}anvertrauen/i
-/investitions.?fonds.{1,10}\d{2,4}(\.|,)?\d{3,4}.{0,5}(dollars?|euro?|usd|€|\$|£)/i
+/investitions.?fonds.{1,10}\d{2,4}(\.|,)?\d{3,4}.{0,5}(dollars?|euro?|gbp|usd|€|\$|£)/i
 
 # J
 
@@ -88,7 +88,7 @@
 # L
 
 # M
-/mastercard.{1,10}\d{2,4}(\.|,)?\d{3,4}.{0,5}(dollars?|euro?|usd|€|\$|£)/i
+/mastercard.{1,10}\d{2,4}(\.|,)?\d{3,4}.{0,5}(dollars?|euro?|gbp|usd|€|\$|£)/i
 
 # N
 
@@ -101,9 +101,9 @@
 # R
 
 # S
-/sie.{1,10}erhalten.{1,10}entschädigung.{1,15}\d{2,4}(\.|,)?\d{3,4}.{0,5}(dollars?|euro?|usd|€|\$|£)/iu
+/sie.{1,10}erhalten.{1,10}entschädigung.{1,15}\d{2,4}(\.|,)?\d{3,4}.{0,5}(dollars?|euro?|gbp|usd|€|\$|£)/iu
 
-/sie haben.{1,10}\d{2,4}(\.|,)?\d{3,4}.{0,5}(dollars?|euro?|usd|€|\$|£).{1,10}gewonnen/i
+/sie haben.{1,10}\d{2,4}(\.|,)?\d{3,4}.{0,5}(dollars?|euro?|gbp|usd|€|\$|£).{1,10}gewonnen/i
 /sie haben.{1,10}\d{2,4}(\.|,)?\d{3,4}.{0,5}.{1,15}gewonnen/i
 
 # T

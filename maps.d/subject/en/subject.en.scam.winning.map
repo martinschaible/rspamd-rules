@@ -84,8 +84,8 @@
 # V
 
 # W
-/win.{1,10}(dollars?|euro?|usd|€|\$|£) (for)?.{1,10}tonight/i
-/win (dollars?|euro?|usd|€|\$|£).{0,5}\d{2,4} for/i
+/win.{1,10}(dollars?|euro?|gbp|usd|€|\$|£) (for)?.{1,10}tonight/i
+/win (dollars?|euro?|gbp|usd|€|\$|£).{0,5}\d{2,4} for/i
 
 /win for free/i
 /winning.{1,15}(formula|number|reference)/i

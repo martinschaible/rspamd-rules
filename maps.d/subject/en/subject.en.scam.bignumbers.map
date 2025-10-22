@@ -8,10 +8,10 @@
 /\d{2,4}(\.|,)?\d{3,4}.{1,10}has been.{1,10}to you/i
 /\d{2,4}(\.|,)?\d{3,4}.{1,10}(for you|reply now|was donated)/i
 
-/\d{2,4}(\.|,)?\d{3,4}.{0,5}(dollars?|euro?|usd|€|\$|£)$/i
+/\d{2,4}(\.|,)?\d{3,4}.{0,5}(dollars?|euro?|gbp|usd|€|\$|£)$/i
 
-/^\d{2,4}(\.|,)?\d{3,4}.{0,5}(million|mio).{0,5}(dollars?|euro?|usd|€|\$|£)$/i
-/^(dollars?|euro?|usd|€|\$|£).{0,5}\d{2,4}(\.|,)?\d{3,4}/i
+/^\d{2,4}(\.|,)?\d{3,4}.{0,5}(million|mio).{0,5}(dollars?|euro?|gbp|usd|€|\$|£)$/i
+/^(dollars?|euro?|gbp|usd|€|\$|£).{0,5}\d{2,4}(\.|,)?\d{3,4}/i
 
 /(donated|donation).{1,15}\d{2,4}(\.|,)?\d{3,4}/i
 
@@ -26,7 +26,7 @@
 
 /\d{3,4}(\.|,)?\d{3,4}.{1,10}(millionen)?.{1,10}(dollar|euro?|gbp|usd|€|\$|£)/i
 
-/\d{1,2} mio.{0,5}(dollars?|euro?|usd|€|\$|£)$/i
+/\d{1,2} mio.{0,5}(dollars?|euro?|gbp|usd|€|\$|£)$/i
 
 # Generic
 # ==============================================================================

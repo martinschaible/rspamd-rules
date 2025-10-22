@@ -32,7 +32,7 @@
 # D
 
 # E
-/(dollars?|euro?|usd|€|\$|£).{1,10}would be released to you/i
+/(dollars?|euro?|gbp|usd|€|\$|£).{1,10}would be released to you/i
 
 # F
 
@@ -92,5 +92,5 @@
 
 /your.{1,10}pending policy claims/i
 
-/your.{1,10}trust in moving.{1,10}(dollars?|euro?|usd|€|\$|£)/i
+/your.{1,10}trust in moving.{1,10}(dollars?|euro?|gbp|usd|€|\$|£)/i
 # Z
