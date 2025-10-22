@@ -10,7 +10,7 @@
 # ------------------------------------------------------------------------------
 /(alze?heimer|dementia).{1,10}(alert|brain|sign|test|trigger|warning)/i
 /brain.{0,10}(booster|cell|damage|experts?|fuel|fixer|food|fog|hack|health)/i
-/brain.{0,10}(nutrient|power|scan|science|sleep|technique|tonic|trick|waves)/i
+/brain.{0,10}(nutrient|power|scan|science|sleep|technique|threat|tonic|trick|waves)/i
 
 /cognitive.{0,10}(fix|health)/i
 
@@ -21,7 +21,7 @@
 /memory.{0,10}(improver|improvement|insider|killer|laps(es)?|loss)/i
 /memory.{0,10}master/i
 /memory.{0,10}protection/i
-/memory.{0,10}(recovery|restore|revival|revive)/i
+/memory.{0,10}(recovery|report|restore|revival|revive)/i
 /memory.{0,10}(saver|saving|secret|solution|strengthener|tonic)/i
 /memory.{0,10}vitamins?/i
 
@@ -730,7 +730,7 @@
 /nasa.{0,10}research/i
 /nasty.{0,10}(lumps|(toe)?nails?)/i
 
-/natural.{0,10}(alternative|antibiotic|digest|fix|health|help|neuropathy)/i
+/natural.{0,10}(alternative|antibiotic|defense|digest|fix|health|help|neuropathy)/i
 /natural.{0,10}(shape|solution|tonic|trick|vaccine)/i
 
 /nature.{0,10}(cure|morphine|opioids?|tea)/i

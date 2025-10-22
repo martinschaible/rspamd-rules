@@ -297,6 +297,7 @@
 /geschenkidee/i
 /geschenkprämien/i
 /geschenkservice/i
+/geschenke?.?team/i
 
 /gesundheitsbonus/i
 /gesundheitskanal/i
@@ -452,6 +453,8 @@
 /kundenservice.?team/i
 /^kundenservice-/i
 /^kundenservice$/i
+
+/kunden.?feedback/i
 
 /küchenhelfer/iu
 /küchennachrichten/iu
@@ -791,9 +794,10 @@
 /turnierplatte/i
 
 # U
-/überall/i
+/überall/iu
 /\büberraschung/i
-/überwachung/i
+/überraschungsteam/iu
+/überwachung/iu
 
 /uberprufen/i
 
@@ -801,7 +805,7 @@
 
 /umfrage.?panel/i
 /umfrage.?prämien?/i
-/Umfrage.?rewards?/i
+/umfrage.?rewards?/i
 /umfrage.?team/i
 
 /ungelesen/i

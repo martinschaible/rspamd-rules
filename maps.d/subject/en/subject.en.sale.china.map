@@ -215,6 +215,7 @@
 /low(est)? prices?.{1,10}plastic.?mold/i
 
 # M
+/machines from.{1,10}leading factory/i
 /machining.{1,10}engineering.{1,10}services?/i
 /machined.{1,10}(main shaft|parts vendor)/i
 /machinery parts tailor/i

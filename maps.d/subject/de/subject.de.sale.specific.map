@@ -210,9 +210,15 @@
 # Pen
 # ------------------------------------------------------------------------------
 /(werbe)?(kugelschreiber|kuli).{1,15}(ab|für) (\d|nur)/i
-/(werbe)?(kugelschreiber|kuli).{1,10}(anfragen|bestellen)/i
-/(werbe)?(kugelschreiber|kuli).{1,10}geschäftspartner/iu
-/(werbe)?(kugelschreiber|kuli).{1,10}(sichern|sofort|sonderpreis)/i
+/(werbe)?(kugelschreiber|kuli).{1,10}(anfragen|begeistern|bestellen|bestpreis|branding)/i
+/(werbe)?(kugelschreiber|kuli).{1,10}(geschäftspartner|individuellem)/iu
+/(werbe)?(kugelschreiber|kuli).{1,10}(ihrem|mit).{1,10}logo/i
+/(werbe)?(kugelschreiber|kuli).{1,10}(personalisiertem|schon ab|sichern|sofort|sonderpreis)/i
+/(werbe)?(kugelschreiber|kuli).{1,15}(testen|warten auf sie)/i
+
+/kugelschreiber.?muster/i
+
+/(branded pens|firmenkugelschreiber|sponsorenstifte)/i
 
 /(logo|werbe).?stifte/i
 

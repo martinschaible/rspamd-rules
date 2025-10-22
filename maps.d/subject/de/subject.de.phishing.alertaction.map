@@ -451,6 +451,8 @@
 
 /sicherheits.?(hinweis|mitteilung|warnung).{1,10}verdächtige (anmeldung|dateien)/i
 /sicherheits.?(hinweis|mitteilung|warnung).{1,10}verdächtiger/i
+
+/sicherheits.?(hinweis|mitteilung|warnung).{1,10}wichtige aktualisierung/i
 /sicherheits.?(hinweis|mitteilung|warnung).{1,10}zu.{1,10}(gerät|karte)/iu
 
 /sicherheits.?(funktionen|option|upgrade).{1,10}für ihr.{1,15}konto (aktivieren|aktualisieren)/i
