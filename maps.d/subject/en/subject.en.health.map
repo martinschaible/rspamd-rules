@@ -315,6 +315,7 @@
 /(eliminates?|eradicates?|erases?).{1,15}knee pain/i
 /(eliminates?|eradicates?|erases?).{1,15}without meds/i
 
+/erase.{1,10}(breath|decay)/i
 /escape.{1,10}memory/i
 
 /ever faked an/i
@@ -494,6 +495,8 @@
 
 /loud.{1,10}snoring/i
 /lower.{1,10}(blood sugar|high.?blood)/i
+
+/lunch.{1,10}hack/i
 
 # M
 /major.{1,10}fat.?loss/i
