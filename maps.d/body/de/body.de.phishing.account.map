@@ -17,7 +17,8 @@
 # ==============================================================================
 
 # A
-/aktualisierung.{1,10}(kontoinformationen|kontosicherheit|zahlungsangaben)/i
+/aktualisierung.{1,10}(kontoinformationen|kontosicherheit|kontozugriffs?)/i
+/aktualisierung.{1,10}zahlungsangaben/i
 
 /aufzuheben.{1,10} bestätigen sie.{1,10}ihre identität/iu
 

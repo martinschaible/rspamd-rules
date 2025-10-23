@@ -12,11 +12,11 @@
 
 # Weight Loss
 # ------------------------------------------------------------------------------
-/(fat|weight).?(burning|loss).{1,10}(breakthrough|cure|coffee|exposed)/i
-/(fat|weight).?(burning|loss).{1,15}(fruit|morning)/i
-/(fat|weight).?(burning|loss).{1,10}(remedies|remedy|routine)/i
-/(fat|weight).?(burning|loss).{1,10}(secret|soup|switch)/i
-/(fat|weight).?(burning|loss).{1,10}(tip|viral)/i
+/(fat|weight).?(burning|loss|melting).{1,10}(breakthrough|cure|coffee|exposed)/i
+/(fat|weight).?(burning|loss|melting).{1,15}(fruit|morning)/i
+/(fat|weight).?(burning|loss|melting).{1,10}(remedies|remedy|routine)/i
+/(fat|weight).?(burning|loss|melting).{1,10}(secret|soup|switch)/i
+/(fat|weight).?(burning|loss|melting).{1,10}(drink|tip|viral)/i
 
 /(fat|weight).{1,10}blocking herbs/i
 /(fat|weight).{1,10}gain.{1,10}fatigue/i

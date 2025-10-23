@@ -9,7 +9,8 @@
 # China
 # ------------------------------------------------------------------------------
 /china.{1,15}clothing/i
-/china.{1,10}leading (manufacturer|supplier)/i
+/china.{1,10}leading.{1,15}(factory|manufacturer|supplier)/i
+/china.{1,20}manufacturing/i
 /china.{1,10}with.{1,10}certification/i
 
 /chinese.{1,10}cold rolled/i
@@ -71,6 +72,7 @@
 /chicken products.{1,10}sale/i
 /chips.{1,10}competitive prices/i
 
+/choose us.{1,10}(pcba?|printed.?circuits?.?board)/i
 /clothing.{1,15}manufacturer/i
 /cnc.{1,10}precision (in|parts)/i
 /cnc.{1,10}machining/i

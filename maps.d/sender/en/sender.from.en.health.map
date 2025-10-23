@@ -119,7 +119,8 @@
 /(buzz|noise).{0,10}free/i
 /(no more|stop).{0,10}ringing/i
 
-/hear(ing)?.{0,10}(aid|cure|fix|health|loss|memory|noises?|restorer?|solution|symptoms|warning)/i
+/hear(ing)?.{0,10}(aid|cure|fix|health|insight|loss|memory|noises?)/i
+/hear(ing)?.{0,10}(restorer?|solution|symptoms|warning)/i
 
 /(bad|poor|restore).{0,10}hearing/i
 
@@ -343,7 +344,7 @@
 /breath(ing)?.{0,10}(clear|science)/i
 /brain.{0,10}(boost|care|exercise|fix|health|noise|reset|revival|shrinkage|solution|upgrade)/i
 
-/breakfast.{0,10}(alert|insider|juice|myth|treat|quiz)/i
+/breakfast.{0,10}(alert|boost|insider|juice|myth|treat|quiz)/i
 /(breathe|breathing).{0,10}(better|clearer|easier|easy|easy)/i
 
 /bright.{0,10}smile/i
