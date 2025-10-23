@@ -132,11 +132,11 @@
 
 # Hiring People
 # ------------------------------------------------------------------------------
-/(arbeiter|arbeitskräfte|fachkräfte|hilfspersonal|mitarbeiter|personallösungen|personalsuche|vermittlung|zeitarbeit).{1,15}(baltikum|litauen|slowakei|tschechien)/iu
+/(arbeiter|arbeitskräfte|fachkräfte|mitarbeiter|personal|vermittlung|zeitarbeit).{1,15}(baltikum|litauen|slowakei|tschechien)/iu
 
-/(arbeiter|arbeitskräfte|fachkräfte|hilfspersonal|personallösungen|mitarbeiter|personalsuche|vermittlung|zeitarbeit).{1,15}ab.{1,10}(chf|euro)/iu
-/(arbeiter|arbeitskräfte|fachkräfte|hilfspersonal|personallösungen|mitarbeiter|personalsuche|vermittlung|zeitarbeit).{1,10}für ihre.{1,15}projekte/iu
-/(arbeiter|arbeitskräfte|fachkräfte|hilfspersonal|personallösungen|mitarbeiter|personalsuche|vermittlung|zeitarbeit).{1,10}für.{1,15}(logistik|produktion|verarbeitung)/i
+/(arbeiter|arbeitskräfte|fachkräfte|mitarbeiter|personal|vermittlung|zeitarbeit).{1,15}ab.{1,10}(chf|euro)/iu
+/(arbeiter|arbeitskräfte|fachkräfte|mitarbeiter|personal|vermittlung|zeitarbeit).{1,10}für ihre.{1,15}projekte/iu
+/(arbeiter|arbeitskräfte|fachkräfte|mitarbeiter|personal|vermittlung|zeitarbeit).{1,10}für.{1,15}(logistik|produktion|verarbeitung)/i
 
 /(anfrage|angebot).{1,10}(personalunterstützung|temporäre einsätze)/iu
 /arbeiter aus (europa|europe)/i
@@ -161,7 +161,8 @@
 /vermitteln produktionshelfer/i
 /wir bieten zeitarbeitsservice/i
 
-/zuverlässig aus.{1,10}(baltikum|litauen)/iu
+/zuverlässig.{1,10}(baltikum|litauen)/iu
+/zuverlässig.{1,10}personal/i
 
 # Ladder
 # ------------------------------------------------------------------------------

@@ -61,6 +61,7 @@
 /(photo.?voltaik|pv|solar).{0,5}anlagen?.{1,20}alle förderungen/iu
 /(photo.?voltaik|pv|solar).{0,5}anlagen?.{1,20}(extrem|finden|gewerbe|günstig(er)?|häuser|nulltarif)/iu
 /(photo.?voltaik|pv|solar).{0,5}anlagen?.{1,20}(komplettpreis|tiefstand|tiefstpreise|vorteil)/iu
+/(photo.?voltaik|pv|solar).{0,5}anlagen?.{1,20}für \d{2,3}.{0,5}euro/i
 /(photo.?voltaik|pv|solar).{0,5}anlagen?.{1,20}massiv im preis gefallen/i
 /(photo.?voltaik|pv|solar).{0,5}anlagen?.{1,20}mit speicher.{1,10}(ab \d{2,3}|für nur|schon ab)/iu
 
