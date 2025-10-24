@@ -66,6 +66,7 @@
 /capacitors?.{1,10}capacitors?/i
 /capacitors?.{1,10}active.{1,10}passive/i
 /capacitors?.{1,10}(resistor|special) offer/i
+/capacitors?.{1,10}reliable supplier/i
 
 /capacity.{1,10}fuses from/i
 
@@ -342,7 +343,7 @@
 /sea freight transport from/i
 
 /seamless.{1,15}supplier/i
-
+/secure your supply/i
 /servo motor.{1,10}(factory|manufacturer)/i
 
 /shipping rfq/i
@@ -355,6 +356,7 @@
 
 /solutions.{1,10}precision.{1,10}quality/i
 
+/stable pricing.{1,10}fast lead times/i
 /standard mold(ing)?/i
 
 /supplier.{1,10}from china
@@ -406,7 +408,7 @@
 
 /you still producing/i
 
-/your.{1,10}(current|future|loyal|reliable|successful).{1,15}(partner|supplier)/i
+/your.{1,10}(current|future|loyal|reliable|successful).{1,15}(alternative|partner|supplier)/i
 /your.{1,10}trusted.{1,10}source for/i
 /your.{1,10}trusted.{1,20}supply partner/i
 
@@ -414,7 +416,6 @@
 
 /your.{1,10}next.{1,10}(pcba?|printed.?circuits?.?board)/i
 /your.{1,15}plastic.?(mold|mould)/i
-/your.{1,10}reliable alternative/i
 
 /your.{1,10}trusted (odm|oem).{1,10}partner/i
 /your trustworth.{1,10}pcba?/i

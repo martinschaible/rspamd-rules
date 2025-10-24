@@ -674,8 +674,9 @@
 /(science|scientists?).{0,10}(debunked|reveals?)/i
 /(science|scientists?).{0,10}this is/i
 
-/sec(ond)?.{1,10}(detox|home remedy|morning cleanse|sleep trick|stretch)/i
-/seconds.{1,10}relieve.{1,10}pain/i
+/sec(ond)?.{1,10}(detox|home remedy|morning cleanse|oral flush|sleep trick|stretch)/i
+
+/seconds?.{1,10}relieve.{1,10}pain/i
 
 /secret behind.{1,10}aging/i
 /secret for (eating|hair)/i

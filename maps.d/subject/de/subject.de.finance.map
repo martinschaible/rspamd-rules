@@ -23,6 +23,7 @@
 /benötigen sie.{1,15}(unternehmer|privatperson).{1,15}finanzierung/iu
 /benötigen persönlichen/iu
 
+/(billiger|geldsorgen).{1,10}(privat|schnell)?kredite?/i
 
 # C
 
@@ -58,7 +59,6 @@
 /garantieangebot jetzt beantragen/i
 
 /geld zum besten zinssatz/i
-/geldsorgen.{1,10}(privat)?kredite?/i
 /geschäfts.{1,10}projekt.?finanzierung/iu
 
 /guten.{1,10}kredit/i

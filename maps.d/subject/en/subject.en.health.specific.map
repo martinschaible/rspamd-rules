@@ -61,6 +61,8 @@
 /shed.{1,10}sizes overnight/i
 
 /slim down.{1,10}with/i
+
+/targets.{1,10}(fat|weight)/i
 /trims your waist(line)?/i
 
 /gain weight.{1,10}here.{1,10}why/i
@@ -114,7 +116,7 @@
 /(hack|ritual|secret|solution|trick).{1,10}changes everything/i
 /(hack|ritual|secret|solution|trick).{1,10}(extends|reverse|shocks)/i
 /(hack|ritual|secret|solution|trick).{1,10}is saving/i
-/(hack|ritual|secret|solution|trick).{1,10}that.{1,10}(changes?|unlocks?)/i
+/(hack|ritual|secret|solution|trick).{1,10}that.{1,10}(changes?|targets|unlocks?)/i
 /(hack|ritual|secret|solution|trick).{1,10}that.{1,10}(helped|helps)/i
 /(hack|ritual|secret|solution|trick).{1,10}to (cure|ease|boost)/i
 
