@@ -35,7 +35,7 @@
 
 /^aktion erforderlich$/i
 /aktion erforderlich.{1,10}\d{1,20}/i
-/aktion erforderlich!/i
+/aktion erforderlich.?!/i
 
 /aktion erforderlich.{1,10}(dpd|sepa)/i
 
@@ -207,6 +207,7 @@
 /erinnerung.{1,10}aktualisierung ihrer/i
 /erinnerung.{1,10}änderung ihrer anmeldedaten/iu
 /erinnerung.{1,10}ihre listing auf/i
+/erinnerung.{1,10}konto ist.{1,15}ungeschützt/iu
 /erinnerung.{1,15}möglichkeit einer zusammenarbeit/iu
 
 /erinnerung.{1,10}persönliches angebot/iu
@@ -320,6 +321,7 @@
 /(konto|profil) getätigt.{1,10}überprüfen sie.{1,10}jetzt/iu
 /(konto|profil).{1,10}wird in kürze als inaktiv betrachtet/iu
 
+/kontosicherheit.{1,10}starten sie/i
 /kontrollschild.{1,15}prüfen sie ihre angaben/iu
 
 /kritische systemmeldung.{1,10}jetzt prüfen/iu
@@ -475,6 +477,7 @@
 /sofortige sicherheitswarnung/i
 /sofortiger zugriff empfohlen/i
 
+/starten sie den reaktivierungsprozess/i
 /stunden verbleiben.{1,10}bestätigen sie/iu
 
 /swisspass.{1,10}überprüfen sie/iu
