@@ -24,7 +24,8 @@
 /(beneficiaries|beneficiary).{1,10}to receive the.{1,10}funds?/i
 
 # C
-/claim your (winning)?.{1,10}fund/i
+/claim your.{1,10}(winning)?.{1,10}fund/i
+/claim your.{1,10}fund.{1,10}payment/i
 
 # D
 
@@ -54,10 +55,12 @@
 # O
 
 # P
+/pandemic fund.{1,10}(payment|relief)/i
 
 # Q
 
 # R
+/ref.{1,10}pandemic fund/i
 
 # S
 

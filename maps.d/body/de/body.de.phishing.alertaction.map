@@ -59,9 +59,9 @@
 /(gefahr|warnung).{1,10}spam.{1,10}nachrichten entdeckt/i
 
 # H
-/handeln sie (jetzt|sofort).{1,10}bevor es verfällt/iu
-/handeln sie (jetzt|sofort).{1,10}sichern Sie sich Ihr/i
-/handeln sie (jetzt|sofort).{1,10}um ihre app/i
+/handeln sie.{1,10}(jetzt|heute|sofort).{1,10}bevor es verfällt/iu
+/handeln sie.{1,10}(jetzt|heute|sofort).{1,10}sichern sie sich (bis zu|ihr)/i
+/handeln sie.{1,10}(jetzt|heute|sofort).{1,10}um ihre app/i
 
 /handlungsbedarf.{1,10}passkey aktivieren/iu
 
@@ -71,7 +71,7 @@
 /jetzt.{1,10}kartendaten.{1,10}aktualisieren/i
 
 # K
-/(kritische|wichtige).{1,10}sicherheitswarnung.{1,10}konto/i
+/(kritische|wichtige).{1,10}sicherheitswarnung.{1,10}(konto|lizenz)/i
 
 # L
 
