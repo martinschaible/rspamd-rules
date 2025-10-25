@@ -397,7 +397,7 @@
 /celeb(rity)?.{0,10}diet/i
 
 /cell.{0,10}rewind/i
-/cellular.{0,10}(cure|health)/i
+/cell(ar|ular)?.{0,10}(cure|health|rewind|science)/i
 
 /chemo.{0,10}secret/i
 /chicken.{0,10}protein/i
@@ -443,7 +443,7 @@
 /cure.{0,10}(herpes|report)/i
 
 # D
-/daily.{0,10}(burn|comfort|detox|fatigue|metabolism|wellness)/i
+/daily.{0,10}(burn|comfort|detox|fatigue|gut|metabolism|wellness)/i
 /dairy.{0,10}recipe/i
 
 /damaged.{0,10}nerves/i
@@ -582,7 +582,7 @@
 
 /gum.{0,10}(bleeding|disease|health|saver)/i
 
-/gut.{0,10}(balance|check|cleanse|fix|flush|health|insider|quiz|reboot|repair|reset|rituals?|solution|trick)/i
+/gut.{0,10}(balance|check|cleanse|fix|flush|health|insider|quiz|reboot|repair|reset|rituals?|solution|tip|trick)/i
 
 # H
 /hair.{0,5}(balding|enhancer|experts?|growth|loss)/i
@@ -635,6 +635,7 @@
 
 /instant.{0,10}(lung|recall|relief)/i
 /(intimacy|intimate).{0,10}(alignment|guide|life)/i
+/(intimacy|intimate).{0,10}(restored|secret)/i
 
 /insuline?/i
 /irritating.{0,10}noise/i
@@ -852,7 +853,7 @@
 # S
 /safe.{0,10}foods?/i
 /sagging.{0,10}(neck|skin)/i
-/salty.{0,10}drink/i
+/salty?.{0,10}(drink|solution)/i
 /satisfaction.{0,10}solution/i
 
 /sciatica.{0,10}(fix|pain|solution)/i
@@ -942,7 +943,7 @@
 /stuck.{0,10}poop/i
 
 /sugar.{0,10}(control|eraser|fix|free|guilty|reboot|report|spike|traps|trick)/i
-/super.{0,10}water/i
+/super.{0,10}(fruits?|water)/i
 
 /surgeon.{0,10}reveals?/i
 /surgery.{0,10}(alternative|canceled)/i

@@ -166,6 +166,8 @@
 /call for your health/i
 /calms?.{1,10}nerve pain/i
 
+/cardiologist warns/i
+
 /(causing|cause of|causes).{1,10}(back|joint).{1,10}pain/i
 /(causing|cause of|causes).{1,10}bloating/i
 /(causing|cause of|causes).{1,10}(dark spots|dementia|ed\b|fatigue)/i
@@ -183,7 +185,7 @@
 
 /cleansing fix/i
 
-/clears?.{1,10}(artery|digestive|cholesterol|eyes|nails|vision)/i
+/clears?.{1,10}(artery|arteries|digestive|cholesterol|eyes|nails|vision)/i
 /clears?.{1,10}blurry eyesight/i
 /clears.{1,10}fast/i
 
@@ -387,7 +389,7 @@
 
 /(gum|gut).{0,10}(cleanse|cleansing)/i
 /(gum|gut).{0,10}(doctor|fix|health|message)/i
-/(gum|gut).{0,10}(problem|power|relief|reset)/i
+/(gum|gut).{0,10}(problem|power|relief|reset|support)/i
 
 /goodbye.{0,10}(pain|ringing ears)/i
 
@@ -441,7 +443,7 @@
 /hot.{1,10}sex.?life/i
 /how men.{1,10}improving/i
 
-/(hurting|resets?).{1,10}your gut/i
+/(hurt(ing)?|resets?).{1,10}your gut/i
 
 # I
 /improved? memory.{1,10}(instantly|in.{1,15}seconds|memory)/i
@@ -601,7 +603,7 @@
 
 /prevent.{1,15}(bladder|decay|disease|gum|memory|tooth)/i
 /prostate.{1,10}relief/i
-/protect your heart/i
+/protects? your.{1,10}heart/i
 
 # Q
 /quick.{1,10}glow.?fix/i
@@ -805,12 +807,15 @@
 /this.{1,10}before (bed|going to bed)/i
 /this.{1,10}common vegetable/i
 /this.{1,10}cuts heart attack/i
+/this.{1,10}dangerous ingredient/i
 /this.{1,10}drink.{1,10}(could|extend)/i
 /this.{1,10}(easy|simple) stretch/i
 /this.{1,10}everyday habit/i
 
 /this.{1,10}food scam/i
+/this.{1,10}food kills.{1,10}(back|hip|knee|pain)/i
 /this.{1,10}for.{1,10}seconds/i
+/this.{1,10}fruit.{1,15}(cuts|hurts|mistake)/i
 /this.{1,10}ingredient may/i
 /this.{1,10}kills knee/i
 /this.{1,10}lower.{1,10}a1c/i
@@ -823,6 +828,7 @@
 /this.{1,10}simple mixture/i
 /this.{1,10}stops.{1,10}diabetes/i
 /this.{1,10}stops.{1,15}in seconds/i
+/this.{1,10}second twist/i
 
 /this.{1,10}tea stops/i
 /this.{1,10}your ears/i
@@ -849,11 +855,6 @@
 
 /(try|this).{1,10}(miracle|natural)/i
 /(try|this).{1,10}simple.{1,10}nutrient/i
-
-/this.{1,10}dangerous ingredient/i
-/this.{1,10}fruit.{1,15}(cuts|hurts|mistake)/i
-/this.{1,10}food kills.{1,10}(back|hip|knee|pain)/i
-/this.{1,10}second twist/i
 
 /tsp.{1,10}fat.?drain/i
 /tsp of this/i

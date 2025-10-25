@@ -28,6 +28,7 @@
 /\.[a-z]{1,4}.{1,5}(service|support).?(deck|team)/i
 
 /\.[a-z]{1,4}.{1,5}support$/i
+/\.[a-z]{1,4}.{1,5}webmail/i
 
 # TLD at the end
 /system.?administrator.{0,10}/\.[a-z]{1,4}$/i

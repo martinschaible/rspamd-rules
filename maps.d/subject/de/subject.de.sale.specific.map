@@ -186,7 +186,7 @@
 
 /(event|falt|garten)?pavillons?.{1,10}\d.?(x|×).?\d/i
 /(event|falt|garten)?pavillons?.{1,20}(gastro|events?|garten)/i
-/(event|falt|garten)?pavillons?.{1,20}(aufbaubar|gesucht|ideal|jetzt|leicht|lieferbar|mit)/i
+/(event|falt|garten)?pavillons?.{1,20}(aufbaubar|erhältlich|gesucht|ideal|jetzt|leicht|lieferbar|mit)/iu
 /(event|falt|garten)?pavillons?.{1,20}(profi.?qualität|reduziert|regenfest)/iu
 /(event|falt|garten)?pavillons?.{1,15}(schnell|seitenteile|sofort|sonderpreis)/i
 /(event|falt|garten)?pavillons?.{1,15}(verschiedenen|vorteilspreis)/i
