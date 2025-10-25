@@ -156,6 +156,7 @@
 # ------------------------------------------------------------------------------
 # -> They are stealing personal information
 
+/angebot wärmepumpe vom.{1,10}\d{2}\.\d{2}\.\d{4}/iu
 /angebot wärmepumpe.{1,10}preise.{1,10}gefallen/iu
 /förderung wartet auf sie/iu
 
