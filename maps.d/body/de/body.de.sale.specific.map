@@ -88,7 +88,8 @@
 # ------------------------------------------------------------------------------
 /arbeitskräften?.{1,10}bei bedarf.{1,10}(einfach|schnell)/iu
 /arbeitskräften?.{1,10}unkompliziert/iu
-/(arbeitskräfte|fachkräfte|hilfspersonal|leiharbeiter|mitarbeiter|personal|vermittlung|zeitarbeit) aus litauen/iu
+/(arbeiter|arbeitskräfte|fachkräfte|personal|vermittlung|zeitarbeit) aus litauen/iu
+/(arbeiter|arbeitskräfte|fachkräfte|personal|vermittlung|zeitarbeit).{1,10}für ihre?.{1,15}(projekte|team)/iu
 
 /finden (sie|wir).{1,15}(motivierte|schnell|zuverlässige).{1,15}(arbeitnehmer|mitarbeiter)/i
 

@@ -604,7 +604,8 @@
 
 /healing.{0,10}(massage|news|technology)/i
 
-/heart.{0,10}(attack|cells|check|danger|disease|health|helper|protection|risk|saver|shield)/i
+/heart.{0,10}(attack|cells|check|danger|disease|health|helper)/i
+/heart.{0,10}(protection|risk|saver|secret|shield)/i
 
 /helps?.{0,10}you/i
 

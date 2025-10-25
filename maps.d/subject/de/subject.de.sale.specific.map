@@ -132,11 +132,12 @@
 
 # Hiring People
 # ------------------------------------------------------------------------------
-/(arbeiter|arbeitskräfte|fachkräfte|mitarbeiter|personal|vermittlung|zeitarbeit).{1,15}(baltikum|litauen|slowakei|tschechien)/iu
+/(arbeiter|arbeitskräfte|fachkräfte|personal|vermittlung|zeitarbeit).{1,15}(baltikum|litauen|slowakei|tschechien)/iu
 
-/(arbeiter|arbeitskräfte|fachkräfte|mitarbeiter|personal|vermittlung|zeitarbeit).{1,15}ab.{1,10}(chf|euro)/iu
-/(arbeiter|arbeitskräfte|fachkräfte|mitarbeiter|personal|vermittlung|zeitarbeit).{1,10}für ihre.{1,15}projekte/iu
-/(arbeiter|arbeitskräfte|fachkräfte|mitarbeiter|personal|vermittlung|zeitarbeit).{1,10}für.{1,15}(logistik|produktion|verarbeitung)/i
+/(arbeiter|arbeitskräfte|fachkräfte|personal|vermittlung|zeitarbeit).{1,15}ab.{1,10}(chf|euro)/iu
+/(arbeiter|arbeitskräfte|fachkräfte|personal|vermittlung|zeitarbeit).{1,10}(aus|sofort)/iu
+/(arbeiter|arbeitskräfte|fachkräfte|personal|vermittlung|zeitarbeit).{1,10}für ihre?.{1,15}(projekte|team)/iu
+/(arbeiter|arbeitskräfte|fachkräfte|personal|vermittlung|zeitarbeit).{1,10}für.{1,15}(logistik|produktion|verarbeitung)/i
 
 /(anfrage|angebot).{1,10}(personalunterstützung|temporäre einsätze)/iu
 /arbeiter aus (europa|europe)/i
@@ -154,9 +155,7 @@
 
 /sie suchen arbeitskräfte/iu
 /suchen?.{1,10}qualifizierten handwerkern/i
-/sofort verfügbare mitarbeiter/iu
-
-/qualifizierte (arbeitskräfte|fachkräfte) (aus|sofort)/iu
+/sofort verfügbare.{1,10}mitarbeiter/iu
 
 /vermitteln produktionshelfer/i
 /wir bieten zeitarbeitsservice/i
