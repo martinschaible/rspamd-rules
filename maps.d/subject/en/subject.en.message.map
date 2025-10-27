@@ -78,9 +78,10 @@
 
 /^e?.?mail.?message$/i
 
-/e?.?mail.{1,10}i sent on.{1,10}reach you/i
-/e?.?mail.{1,10}still valid/i
-/e?.?mail.{1,10}your interest/i
+/(e?.?mail|message).{1,10}from last week received on your/i
+/(e?.?mail|message).{1,10}i sent on.{1,10}reach you/i
+/(e?.?mail|message).{1,10}still valid/i
+/(e?.?mail|message).{1,10}your interest/i
 
 # F
 /following up my last.{1,10}(e?.?mail|message)/i
@@ -100,14 +101,14 @@
 # K
 
 # L
-/let me know.{1,15}e?.?mail.{1,10}was received/i
+/let me know.{1,15}(e?.?mail|message).{1,10}was received/i
 
 /letter for you/i
 /letter from/i
 
 # M
-/^message for you$/i
-/message reach the right person/i
+/^(e?.?mail|message) for you$/i
+/(e?.?mail|message).{1,10}reach.{1,10}the right person/i
 
 /my (last|previous).{1,10}(e?.?mail|message).{1,10}(delivered|received)/i
 /my update from last week reached/i
