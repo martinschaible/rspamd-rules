@@ -75,9 +75,10 @@
 # X
 
 # Y
-/you.{1,10}(are|been) (awarded|choo?sen|drawn|picked|selected) for.{1,10}(donation|financing|grant)/i
-/you.{1,10}(are|been) (awarded|choo?sen|drawn|picked|selected) to receive/i
-/you.{1,10}(are|been) (awarded|choo?sen|drawn|picked|selected).{1,10}receive.{1,20}(aid|benefit|donation|financial|fund|grant)/i
+/you.{1,10}(are|been).{1,10}(awarded|choo?sen|drawn|picked|selected).{1,10}for.{1,10}(donation|financing|grant)/i
+/you.{1,10}(are|been).{1,10}(awarded|choo?sen|drawn|picked|selected).{1,10}receive.{1,20}(aid|benefit|donation|financial|fund|grant)/i
+/you.{1,10}(are|been).{1,10}(awarded|choo?sen|drawn|picked|selected).{1,10}to receive/i
+/you.{1,10}(are|been).{1,10}(awarded|choo?sen|drawn|picked|selected).{1,10}with the sum/i
 
 /you.{1,10}have been selected (by|for).{1,10}(donation|financing|foundation|grant)/i
 

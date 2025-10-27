@@ -107,8 +107,10 @@
 
 # M
 /^message for you$/i
+/message reach the right person/i
 
 /my (last|previous).{1,10}(e?.?mail|message).{1,10}(delivered|received)/i
+/my update from last week reached/i
 
 # N
 /^new email/i
@@ -169,9 +171,9 @@
 /you checked.{1,10}(e?.?mail|message).{1,10}from/i
 /you (getting|receive) my (e?.?mail|message)s?/i
 
-/you (get|received?).{1,10}(e?.?mail|message).{1,10}last week/i
-/you (get|received?).{1,10}(earlier|last|previous).{1,10}(e?.?mail|message)/i
-/you (get|received?).{1,10}(e?.?mail|message).{1,10}i sent on/i
+/you (caught|get|received?).{1,10}(e?.?mail|message).{1,10}last week/i
+/you (caught|get|received?).{1,10}(earlier|last|previous).{1,10}(e?.?mail|message)/i
+/you (caught|get|received?).{1,10}(e?.?mail|message).{1,10}i sent on/i
 
 /you received? the.{1,10}(e?.?mail|message)/i
 
