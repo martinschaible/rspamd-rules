@@ -31,9 +31,12 @@
 
 # Men
 # ------------------------------------------------------------------------------
-/(anwendung|einfache).{1,10}erektionsstörung/iu
+
+# Erection
 /erektion.{1,15}(erleben|sprühen)/i
+/(harte|sofortige).{1,10}erektion/i
+
+/(anwendung|einfache).{1,10}erektionsstörung/iu
 
 /ohne rezept.{1,10}potenztabletten/i
-/sofortige.{1,10}erektion/i
 /tabletten? ohne rezept/i
