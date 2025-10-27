@@ -85,7 +85,7 @@
 # R
 
 # S
-/seeking new business.{1,10}opportunities/i
+/(seeking|new|share with) you.{1,10}(business|investment).{1,10}(opportunities|opportunity)/i
 
 # T
 
@@ -93,6 +93,7 @@
 
 # V
 /you.{1,10}receive.{1,10}project proposal/i
+/your{1,10}kind collaboration{1,15}(business|investment).{1,10}(opportunities|opportunity)/i
 
 # W
 
