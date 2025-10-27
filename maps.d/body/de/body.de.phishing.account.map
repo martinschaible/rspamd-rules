@@ -19,6 +19,7 @@
 # A
 /aktualisierung.{1,10}(kontoinformationen|kontosicherheit|kontozugriffs?)/i
 /aktualisierung.{1,10}zahlungsangaben/i
+/aktualisierung.{1,10}innerhalb der nächsten.{1,10}stunden durch/iu
 
 /aufzuheben.{1,10} bestätigen sie.{1,10}ihre identität/iu
 
@@ -127,10 +128,11 @@
 /uneingeschränkte nutzung ihres.{1,15}kontos.{1,15}sicherzustellen/i
 
 # V
-/verdächtige handlungen auf ihrem.{1,15}konto (festgestellt|registriert)/iu
+/verdächtige handlungen auf ihrem.{1,15}konto.{1,10}(festgestellt|registriert)/iu
 /vermeiden.{1,10}führen sie die verifizierung/iu
 
-/verifizierung nicht innerhalb von.{1,10}stunden (abschliessen|abschließen)/iu
+/verifizierung.{1,10}ihres.{1,15}kontos bisher nicht/i
+/verifizierung.{1,10}nicht innerhalb von.{1,10}stunden (abschliessen|abschließen)/iu
 
 # W
 
