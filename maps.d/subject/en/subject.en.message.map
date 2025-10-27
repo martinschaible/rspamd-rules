@@ -53,6 +53,7 @@
 # ==============================================================================
 
 # A
+/about last week.{1,10}(e?.?mail|message)/i
 
 # B
 
@@ -70,6 +71,8 @@
 /contact us on whatsapp/i
 
 # D
+/details.{1,10}did you get them/i
+
 /did my.{1,10}(e?.?mail|message) reach you?/i
 /did you see my.{1,10}(e?.?mail|message)/i
 
@@ -77,9 +80,11 @@
 /e?.?mail.{1,10}did you receive it/i
 
 /^e?.?mail.?message$/i
+/^(e?.?mail|message) for you$/i
 
 /(e?.?mail|message).{1,10}from last week received on your/i
 /(e?.?mail|message).{1,10}i sent on.{1,10}reach you/i
+/(e?.?mail|message).{1,10}reach.{1,10}the right person/i
 /(e?.?mail|message).{1,10}still valid/i
 /(e?.?mail|message).{1,10}your interest/i
 
@@ -107,8 +112,7 @@
 /letter from/i
 
 # M
-/^(e?.?mail|message) for you$/i
-/(e?.?mail|message).{1,10}reach.{1,10}the right person/i
+/missed my message last week/i
 
 /my (last|previous).{1,10}(e?.?mail|message).{1,10}(delivered|received)/i
 /my update from last week reached/i
@@ -117,6 +121,8 @@
 /^new email/i
 /^new message/i
 /^new letter/i
+
+/note from last week.{1,10}did it reach you/i
 
 # O
 /open.{1,5}immediately/i
@@ -150,6 +156,8 @@
 /this.{1,10}(e?.?mail|message).{1,10}is for you/i
 
 # U
+/update from last week make it through to you/i
+
 /\*.?urgent/i
 /urgent.?\*/i
 
@@ -172,9 +180,9 @@
 /you checked.{1,10}(e?.?mail|message).{1,10}from/i
 /you (getting|receive) my (e?.?mail|message)s?/i
 
-/you (caught|get|received?).{1,10}(e?.?mail|message).{1,10}last week/i
-/you (caught|get|received?).{1,10}(earlier|last|previous).{1,10}(e?.?mail|message)/i
-/you (caught|get|received?).{1,10}(e?.?mail|message).{1,10}i sent on/i
+/you (caught|get|received?|saw).{1,10}(e?.?mail|message).{1,10}last week/i
+/you (caught|get|received?|saw).{1,10}(earlier|last|previous).{1,10}(e?.?mail|message)/i
+/you (caught|get|received?|saw).{1,10}(e?.?mail|message).{1,10}i sent on/i
 
 /you received? the.{1,10}(e?.?mail|message)/i
 
