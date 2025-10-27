@@ -218,7 +218,8 @@
 /last reminder.{1,10}we noticed/i
 /last reminder.{1,10}your access to/i
 
-/login detected.{1,10}(action|update) (needed|required)/i
+/login.{1,10}detected.{1,10}(action|update) (needed|required)/i
+/login.{1,10}detected.{1,15}verify your.{1,15}account/i
 
 # M
 /mail alert/i 0.25

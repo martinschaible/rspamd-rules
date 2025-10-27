@@ -532,7 +532,7 @@
 # N
 /nail.?fungus/i
 
-/nails in just/i
+/nails?.{1,10}(discoloration|in just)/i
 
 /natural.{1,10}tinnitus/i
 /natural.{1,10}remedy inside/i
@@ -816,7 +816,7 @@
 /this.{1,10}food scam/i
 /this.{1,10}food kills.{1,10}(back|hip|knee|pain)/i
 /this.{1,10}for.{1,10}seconds/i
-/this.{1,10}fruit.{1,15}(cuts|hurts|mistake)/i
+/this.{1,10}fruit.{1,15}(cuts|hurts|improves|mistake)/i
 /this.{1,10}ingredient may/i
 /this.{1,10}kills knee/i
 /this.{1,10}lower.{1,10}a1c/i

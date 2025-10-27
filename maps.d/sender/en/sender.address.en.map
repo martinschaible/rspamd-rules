@@ -35,8 +35,12 @@
 
 /application/i
 
+/auth@/i
+
 # B
 #/banking@/i
+
+/billing/i
 
 # C
 /claim.?refund/i
@@ -53,6 +57,8 @@
 /factory@/i
 
 /fat.?burning/i
+
+/finance@/i
 
 /\.firebaseapp\.com/i
 
@@ -71,6 +77,7 @@
 # K
 
 # L
+/login@/i
 
 # M
 /mailxcg/i
@@ -117,6 +124,8 @@
 
 #  24.06.25 - Sample: store+90808156488@t.shopifyemail.com
 #/store\+\d{4,10}/i
+
+/system@/i
 
 # T
 /transaction@/i

@@ -132,7 +132,7 @@
 
 # R
 /read message/i
-/read.{1,10}reply urgent/i
+/read.{1,10}reply (please|urgent)/i
 
 /respond at your earliest/i
 /respond back to my.{1,10}e?.?mail/i
