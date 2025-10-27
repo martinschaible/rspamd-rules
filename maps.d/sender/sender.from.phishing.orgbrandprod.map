@@ -702,7 +702,7 @@
 #/swisspass\.ch/i
 /swisspass.{1,5}(benachrichtigung|cff|kartendienst|kunden?(dienst)?|sbb|support)/i
 /swisspass\./i
-/swisspass-./i
+/swisspass-/i
 
 /-swisspass/i
 /suisspass/i
