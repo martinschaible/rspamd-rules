@@ -89,8 +89,7 @@
 /(e?.?mail|message).{1,10}your interest/i
 
 # F
-/following up my last.{1,10}(e?.?mail|message)/i
-/following up on my.{1,10}(e?.?mail|message)/i
+/follow(ing)? up (my last|on my).{1,10}(e?.?mail|message)/i
 
 # G
 

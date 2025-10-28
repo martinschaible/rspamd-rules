@@ -100,12 +100,13 @@
 
 /preise.{1,10}(photo.?voltaik|pv|solar).?anlagen?.{0,5}anlagen gefallen/i
 
-/(preissturz|preissenkungen).{1,10}(photo.?voltaik|pv|solar).{0,5}anlagen?/i
-/(preissturz|preissenkungen).{1,10}massive förderungen/iu
+/(preissturz|preissenkung).{1,10}(photo.?voltaik|pv|solar).{0,5}anlagen?/i
+/(preissturz|preissenkung).{1,10}massive förderungen/iu
 
 /(rabatte|sinkende preise).{1,20}(photo.?voltaik|pv|solar).{0,5}anlagen?/i
 
 /kostet eine.{1,10}(photo.?voltaik|pv|solar).{0,5}anlagen? keinen/i
+
 /preise.{1,10}(photo.?voltaik|pv|solar).{0,5}anlagen?.{1,10}gefallen/i
 /preise.{1,10}pv deutlich gesunken/i
 
