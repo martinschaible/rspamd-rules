@@ -9,14 +9,6 @@
 # ------------------------------------------------------------------------------
 /kontrolliere dein gewicht.{1,10}reduzieren/i
 
-/(kg|kilo).{1,10}in.{1,10}monat ohne fasten/i
-/(kg|kilo).{1,10}in.{1,10}monat sind hiermit kein problem/i
-/(kg|kilo).{1,10}(in|pro).{1,10}(tagen|stunden|woche) abnehmen/i
-
-/\d{1,2}.{1,5}/(kg|kilo).{1,10}in.{1,10}monat/i
-
-/(abnehmen|abzunehmen).{1,10}in nur einer woche/i
-/(abnehmen|abzunehmen).{1,15}ohne verzicht/i
 /alle überschüssigen kilos loswerden/i
 
 /(effektive weg|schnellen?).{1,10}gewichts.?(reduktion|verlust)/i
