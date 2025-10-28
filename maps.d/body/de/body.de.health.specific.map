@@ -47,13 +47,20 @@
 # ------------------------------------------------------------------------------
 
 # Meds
-/(diskrete|ohne rezept).{1,10}potenztabletten/i
+/(diskrete|ohne rezept|rezeptfreie).{1,10}(potenzmittel|potenztabletten)/i
 /(pillen|tabletten?|tabs).{1,10}ohne rezept/i
 
-/unauffällige verpackung.{1,10}schneller versand/i
+/(neutrale|unauffällige) verpackung.{1,10}schneller versand/iu
+/bestellung.{1,10}(neutrale|unauffällige) verpackung/iu
+
+/diskretion.{1,10}wirkung/i
+/sorgenfreie?.{1,10}diskretion/i
+
 # Erection
 /erektion.{1,15}(erleben|ohne|sprühen)/i
 /(harte|sofortige).{1,10}erektion/i
 
 /(anwendung|einfache).{1,10}erektionsstörung/iu
+/rezeptfreie.{1,10}(bestellung|möglichkeiten|optionen)/iu
 
+/ohne rezept.{1,10}sofort bestellbar/i
