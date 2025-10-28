@@ -47,8 +47,8 @@
 # ------------------------------------------------------------------------------
 
 # Meds
-/ohne rezept.{1,10}potenztabletten/i
-/tabletten? ohne rezept/i
+/(diskrete|ohne rezept).{1,10}potenztabletten/i
+/(pillen|tabletten?|tabs).{1,10}ohne rezept/i
 
 /unauffällige verpackung.{1,10}schneller versand/i
 # Erection
