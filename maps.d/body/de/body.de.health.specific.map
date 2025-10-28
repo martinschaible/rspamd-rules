@@ -12,7 +12,9 @@
 
 # Weight Loss
 # ------------------------------------------------------------------------------
-/abnehmen.{1,10}ganz ohne hungern/i
+/(abnehmen|abzunehmen).{1,10}ganz ohne hungern/i
+/(abnehmen|abzunehmen).{1,10}in nur einer woche/i
+/(abnehmen|abzunehmen).{1,15}ohne verzicht/i
 
 /bauchfett.{1,10}(los(zu)?werden|verlieren|verschwindet|weg)/i
 /bauchfett.{1,10}lösung/iu
@@ -20,14 +22,26 @@
 /diät.?wunder/i
 /diät ohne verzicht.{1,10}jetzt/iu
 
+/Fettanteil drastisch reduziert
+
+/(kg|kilo).{1,10}(in|pro).{1,10}monat.{1,10}ohne (diät|fasten)/i
+/(kg|kilo).{1,10}(in|pro).{1,10}monat sind hiermit kein problem/i
+/(kg|kilo).{1,10}(in|pro).{1,10}(tagen|stunden|woche) abnehmen/i
+
+/\d{1,2}.{1,5}/(kg|kilo).{1,10}in.{1,10}monat/i
+
 /jetzt testen.{1,10}diät/iu
+/lösung zur.{1,10}gewichtsreduktion/iu
 
 /natürlich abnehmen.{1,10}ganz ohne/iu
+/noch heute aus und erleben?.{1,10}den unterschied/i
 
 /ohne diät.{1,10}ohne sport/iu
 
 /rabatt auf.{1,15}diät.?kapseln/iu
 /täglich.{1,10}fett schmilzt/i
+
+/höhle.{1,10}unterstützt dieses produkt/iu
 
 # Men
 # ------------------------------------------------------------------------------
