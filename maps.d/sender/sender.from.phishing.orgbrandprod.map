@@ -193,7 +193,8 @@
 /cff.?sbb/i
 
 /chatgpt.?ai/i
-/chatgpt.?zahlung(en)?/i
+/chatgpt.{0,10}zahlung(en)?/i
+/chatgpt.{0,10}(payments|services|team)/i
 
 /coca.?cola company/i
 

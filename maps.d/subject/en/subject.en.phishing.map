@@ -9,6 +9,11 @@
 # Sample: [info@mydomain.ch]:
 /\[[a-z]{3,15}@[a-z]{5,15}\.[a-z]{1,4}\]:/i
 
+# Invoices
+# ------------------------------------------------------------------------------
+/invoice (details|ready) for your.{1,10}(records|review)/i
+/your invoice is now available/i
+
 #
 #
 #
