@@ -73,9 +73,11 @@
 
 /unsere.{1,10}elektrofahrradmodelle/i
 /unsere.{1,10}fabrik produziert/iu
-/unserem.{1,10}europäischen lager bieten wir/iu
+/unserem.{1,10}(deutschen|europäischen) lager.{1,10}(bieten wir|derzeit)/iu
 
-/wir produzieren.{1,25}mountain.?bikes=/i
+/wir haben in unserem deutschen lager/i
+
+/wir produzieren.{1,25}mountain.?bikes?/i
 /wir produzieren.{1,25}(e.?bike|e.?cycle|elektrische|elektro|fahrräder)/i
 
 /wir sind ein.{1,15}(e.?bike|e.?cycle|elektro.?moped).{1,10}hersteller/iu

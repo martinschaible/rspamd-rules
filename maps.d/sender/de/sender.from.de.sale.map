@@ -153,7 +153,7 @@
 /schnelles.{0,10}internet/i
 /schreib.{0,10}kauf/i
 
-/sicher.{0,15}(hilfe|leben|zuhause)/i
+/sichere?.{0,15}(hilfe|leben|wallet|zuhause)/i
 /sichern sie/i
 
 /sicherheits?.{0,10}profis/i
@@ -194,6 +194,7 @@
 /verstehen.{0,10}(pro|sprechen)/i
 
 # W
+/wallet.{0,10}lösung/iu
 
 /(wi.?fi|wlan).{0,15}experten?/i
 
