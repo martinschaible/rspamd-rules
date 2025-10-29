@@ -15,6 +15,9 @@
 # Bangladesh - Sample: info@aldm118596.edu.bd
 /\d{2,6}\.edu\.bd/i
 
+# Brunai - Sample: smssa.moe.edu.bn
+/\.[a-z]{2,4}\.edu\.bn$/i
+
 # Indonesia
 /\.ac\.id$/i
 
