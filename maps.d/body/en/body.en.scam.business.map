@@ -45,6 +45,7 @@
 /(i|we) have.{1,10}access to.{1,10}vital information/i
 /(i|we) have.{1,10}some project funds/i
 
+/(i|we) have.{1,15}investment.{1,10}business.{1,10}(offer|opportunity|proposition|proposal|transaction)/i
 /(i|we) have.{1,15}(business|investment).{1,15}(offer|opportunity|proposition|proposal|transaction)/i
 /(i|we) have.{1,15}(confidential|genuine|lucrative).{1,15}(business|offer|opportunity|proposition|proposal|transaction)/i
 /(i|we) have.{1,10}obligation.{1,10}that.{1,10}would like you/i
@@ -79,6 +80,7 @@
 /project proposal.{1,15}(contact|did you receive)/i
 
 /proposal.{1,10}i would like you to handle for me/i
+/proposal.{1,10}for you.{1,10}contact me/i
 
 # Q
 

@@ -263,12 +263,15 @@
 /dhl.{0,5}delivery express/i
 /dhl.{0,5}(kundenservice|lieferung)/i
 /dhl.{0,5}(logistik.?team|logistikzentrum)/i
+
+/dhl.{0,5}(messages?|service|support|team|tracking|versandinfo|your)/i
+
 /dhl.{0,5}(paketstatus|paketzentrum)/i
-/dhl.{0,5}(messages?|package|service|team|tracking|your)/i
-/dhl.{0,5}(payment|paketinfo|versandinfo)/i
+/dhl.{0,5}(package|payment|paketinfo)/i
 
 /dhl.{0,5}(germany|schweiz)/i
 /dhl.{0,5}express (germany|schweiz)/i
+/dhl.{0,10}team/i
 
 /dhl.?ups/i
 

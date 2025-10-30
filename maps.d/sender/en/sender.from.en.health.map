@@ -582,7 +582,9 @@
 
 /gum.{0,10}(bleeding|disease|health|saver)/i
 
-/gut.{0,10}(balance|check|cleanse|fix|flush|health|insider|quiz|reboot|repair|reset|rituals?|solution|tip|trick)/i
+/gut.{0,10}(balance|check|cleanse|fix|flush|freedom)/i
+/gut.{0,10}(health|insider|quiz)/i
+/gut.{0,10}(reboot|repair|reset|rituals?|solution|tip|trick)/i
 
 # H
 /hair.{0,5}(balding|enhancer|experts?|growth|loss)/i
