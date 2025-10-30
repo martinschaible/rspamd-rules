@@ -143,14 +143,16 @@
 
 # Illuminati
 # ------------------------------------------------------------------------------
-/(bruderschaft|imperium|mitglied).{1,15}(illuminaten|illuminati)/i
+/(bruderschaft|imperium|mitglied|namens).{1,15}(illuminaten|illuminati)/i
 /(weltordnung|welteliteimperium|willkommen).{1,15}(illuminaten|illuminati) /i
 
 /(illuminaten|illuminati).{1,10}(bruderschaft|familie)/i
 
+/die aufnahme ist ein privileg/i
 /treten sie.{1,10}(den|heute).{1,10}(bruderschaft|illuminaten|illuminati)/i
 /mitglied der neuen weltordnung/i
 /sie wurden ausgewählt.{1,15}(bruderschaft|illuminaten|illuminati)/i
+/werdet?.{1,10}teil dieser.{1,10}eliteorganisation/i
 
 #
 #

@@ -264,6 +264,7 @@
 # 30.07.25 - Request for tax document submission
 /税務書類提出のお願い/i
 
+/regulatory.{1,10}notice.{1,10}immediate renewal/i
 /reminder.{1,10}missing tax/i
 /reminder.{1,10}resolve your.{1,15}payment/i
 /reminder.{1,10}server notification/i

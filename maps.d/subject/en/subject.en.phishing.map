@@ -20,10 +20,12 @@
 
 # Tax W-8BEN
 # ------------------------------------------------------------------------------
-/w.?8ben.{1,10}(form|records?|renewal)/i
-/(alert|renew|your).{1,10}w.?8ben/i
+/w.?8ben.{1,10}(documentation|form|records?|renewal)/i
+/(alert|expired|form|renew|your).{1,10}w.?8ben/i
 
 /irs.{1,10}requirement/i
+
+/official compliance advisory/i
 
 # Generic
 # ==============================================================================

@@ -49,9 +49,9 @@
 /(dear|greetings?|good day|hello|hi\b).{1,5}(friend|madam|sir).{1,15}find the attached/i
 /(dear|greetings?|good day|hello|hi\b).{1,5}(friend|madam|sir).{1,10}good day/i
 /(dear|greetings?|good day|hello|hi\b).{1,5}(friend|madam|sir).{1,15}in the (lord|name of)/i
+/(dear|greetings?|good day|hello|hi\b).{1,5}(friend|madam|sir).{1,15}representing/i
 /(dear|greetings?|good day|hello|hi\b).{1,5}(friend|madam|sir).{1,10}my name is/i
 /(dear|greetings?|good day|hello|hi\b).{1,5}(friend|madam|sir).{1,15}this.{1,10}(e?.?mail|message) is strictly/i
-
 /(dear|greetings?|good day|hello|hi\b).{1,15}(agency|beneficiary|engineer|manager|owner|purchasing)/i
 /(dear|greetings?|good day|hello|hi\b).{1,15}(domain.?name|site|web)/i
 /(dear|greetings?|good day|hello|hi\b).{1,15}(business|investment)/i
@@ -63,6 +63,7 @@
 
 /(dear|greetings?|good day|hello|hi\b).{1,10}pleased to introduce myself as/i
 /(dear|greetings?|good day|hello|hi\b).{1,15}this might come.{1,10}surprise/i
+/(dear|greetings?|good day|hello|hi\b).{1,15}this is.{5,25}contacting you/i
 /(dear|greetings?|good day|hello|hi\b).{1,15}this is.{5,25}from/i
 
 /(dear|greetings?|good day|hello|hi\b).{1,10}i am.{1,15}broker/i
@@ -138,6 +139,8 @@
 /fellow patriot/i
 
 # G
+/good (afternoon|day|evening|morning).{1,10}(advice|check).{1,10}if you can handle/i
+/good (afternoon|day|evening|morning).{1,15}find our attached.{1,10}inquiry/i
 /good (afternoon|day|evening|morning).{1,10}getting in touch with you/i
 
 /good (afternoon|day|evening|morning).{1,10}i.?a?m.{1,10}dr\./i
