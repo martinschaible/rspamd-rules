@@ -94,6 +94,7 @@ These are the latest changes:
 |          | multimap.whitelist.header.conf             | Wrong configuration fixed     |
 |          | multimap.sender.from.de.scam.conf          | Typo fixed                    |
 | 18.10.25 | multimap.header.conf                       | Configuration finalized       |
+| 29.10.25 | multimap.header.conf                       | Configuration fixed/finalized |
 
 ## Content
 :point_right: All map files of the *first version* are stored in the folder `/etc/rspamd/maps.d/legacy`.<br>
@@ -230,11 +231,13 @@ body
 
 * x -> Not yet implemented
 
-### Setup for "sender"
+### Setup for "header"
 ```
 header
-  ├─ header.ipaddress.map                        --- multimap.header.conf
-  └─ header.hostname.map                         --- multimap.header.conf 
+  ├─ header.hostname.map                         ─┐
+  ├─ header.ipaddress.map                         ├─ multimap.header.conf
+  ├─ header.googlegroups.groupid.map              │
+  └─ header.googlegroups.listpost.map            ─┘
 ```
 
 ### Setup for "sender"
