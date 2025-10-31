@@ -7,6 +7,7 @@
 # ==============================================================================
 
 # A
+/(alpen|magischer|rekord).{0,10}jackpot/i
 
 # B
 
@@ -17,6 +18,8 @@
 
 # E
 /(el.?gordo|lotter(ie|y)|loteria|lotto|millionen).?(gewinner|rabatt|schein)/i
+
+/euro.?jackpot.{0,10}rabatt/i
 /euro.?million(en)?/i
 
 # F
@@ -31,7 +34,7 @@
 # I
 
 # J
-/eurojackpot.{0,10}rabatt/i
+/(jeder|jedes|los).{0,10}gewinnt/i
 
 # K
 
@@ -48,7 +51,6 @@
 # Q
 
 # R
-/(alpen|rekord).?jackpot/i
 
 # S
 

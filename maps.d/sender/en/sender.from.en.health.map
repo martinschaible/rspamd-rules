@@ -752,7 +752,10 @@
 /new.{0,10}(energy|hair|research)/i
 
 /night(time)?.{0,10}(capsule|fix|flush|sip)/i
+
 /nightly.{0,10}reset/i
+/night(ly)?.{1,10}rituals?/i
+
 /nightmare.{0,10}pee/i
 
 /no.{0,10}(diet|surgery)/i
