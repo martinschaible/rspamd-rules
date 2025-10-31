@@ -90,10 +90,12 @@
 /(funding|funds).{1,10}support available/i
 /(funding|funds).{1,10}your project/i
 
+/(funds|loan).{1,10}you need/i
+
 /for your.{1,10}business projects/i
 
 # G
-/get your.{1,10}loan/i
+/get your.{1,10}(funds|loan)/i
 
 # H
 
@@ -163,7 +165,8 @@
 # T
 /take control.{1,10}your business with/i
 
-/tailored financial.{1,10}(solutions?|collaboration)/i
+/tailored.{1,10}business.{1,10}financing/i
+/tailored.{1,10}financial.{1,10}(solutions?|collaboration)/i
 /tailored funding/i
 
 # U

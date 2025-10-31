@@ -25,6 +25,7 @@
 /bonus.{1,10}(slots|spins)/i
 
 # C
+/(casino|willkommens).?bonus.{1,15}(bonus|bis zu|cashback|echte)/i
 
 # D
 
@@ -34,7 +35,7 @@
 # F
 
 # G
-/(geniessen|genießen) sie.{1,10}willkommensbonus/iu
+/(geniessen|genießen) sie.{1,10}(casino|willkommens)/iu
 
 # H
 
@@ -59,8 +60,8 @@
 # R
 
 # S
-/fantastischen.{1,10}willkommens.?bonus/i
-/(slots|spins).{1,10}willkommens.?bonus/i
+/(fantastischen|riesiger).{1,10}(casino|willkommens).?bonus/i
+/(slots|spins).{1,10}(casino|willkommens).?bonus/i
 
 # T
 /tausende.{1,10}(slots|spins)/i
@@ -70,7 +71,6 @@
 # V
 
 # W
-/willkommens.?bonus.{1,15}(bonus|bis zu|cashback|echte)/i
 
 # X
 
