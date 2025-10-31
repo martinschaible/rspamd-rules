@@ -203,6 +203,8 @@
 # E
 /entdeckt.{1,10}schützen sie sich jetzt/iu
 
+/endgültige.{1,10}erinnerung.{1,10}punkte/i
+
 /erforderliche.{1,10}(massnahmen?|maßnahmen?).{1,10}(liefer)?adresse/iu
 /erforderliche.{1,10}(massnahmen?|maßnahmen?).{1,10}versäumte lieferung/iu
 
@@ -632,7 +634,9 @@
 
 /zahlungsproblem erkannt.{1,15}konto aktualisieren/i
 
-/zahlung.{1,10}jetzt erneuern/i 
+/zahlung.{1,10}jetzt erneuern/i
+/zahlungsinformationen bei.{1,15}sind veraltet/i
+
 /zugangssperre verhindern.{1,10}jetzt/i
 /zugriff blockiert.{1,10}starten sie/i
 

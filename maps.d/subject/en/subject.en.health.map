@@ -289,7 +289,7 @@
 
 /eat \d cup/i
 /eat this.{1,15}(arteries|breakfast|daily|every|fruit|spice)/i
-/eat this.{1,15}for perfect/i
+/eat this.{1,15}for.{1,10}(days|perfect)/i
 /eat this.{1,15}to clear/i
 /eat this to/i
 

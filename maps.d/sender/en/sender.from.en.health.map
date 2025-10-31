@@ -208,12 +208,12 @@
 /(metabolic|surprising).{0,10}water/i
 
 /diet.{0,10}caps/i
+/(diet|k2|man|slimm).{0,10}(capsule|fix|gummies¬hack|plan|trick|water)/i
+
 /(deep|toxic|visceral).{0,10}fat/i
 /tummy.{0,10}(cleanse|tamer)/i
 
 /o.{0,3}p.{0,3}r.{0,3}a.{0,3}h/i
-
-/(diet|k2|man|slimm).{0,10}(capsule|gummies)/i
 
 #
 /fit.{0,10}(focus|solutions)?/i
@@ -760,6 +760,7 @@
 
 /no.{0,10}(diet|surgery)/i
 /noise.{0,10}(cancelling|inside)/i
+/normal.{0,10}a1c/i
 
 /nutrition.{0,15}(explorer|fruits|healing|insider|insights|less|nuances?|notes?|report|tips?|truth|veggies)/i
 

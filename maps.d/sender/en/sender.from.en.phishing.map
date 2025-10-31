@@ -108,6 +108,7 @@
 # B
 /billing.?team/i
 
+/bonus.{0,10}(center|offer|points|reward|treat)/i
 /box.{0,10}offer/i
 
 /brand.{0,10}affiliate/i

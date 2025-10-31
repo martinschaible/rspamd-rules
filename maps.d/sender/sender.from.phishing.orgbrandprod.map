@@ -521,7 +521,8 @@
 
 /membership.{0,10}netflix/i
 
-/nespresso.{0,10}(club|deutschland|exclusives|gifts|kundenservice|schweiz|team)/i
+/nespresso.{0,10}(deutschland|schweiz)/i
+/nespresso.{0,10}(club|exclusives|gifts|kundenservice|team)/i
 /nespresso.{0,5}(ch|de)$/i
 
 /nortonav$/i
