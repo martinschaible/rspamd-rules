@@ -273,6 +273,7 @@ sender
   │   ├─ sender.from.de.finance.map              --- multimap.sender.from.de.finance.conf
   │   ├─ sender.from.de.gambling.map             --- multimap.sender.from.de.gambling.conf
   │   ├─ sender.from.de.health.map               --- multimap.sender.from.de.health.conf
+  │   ├─ sender.from.de.health.specific.map    X --- multimap.sender.from.de.health.conf
   │   ├─ sender.from.de.lottery.map              --- multimap.sender.from.de.lottery.conf
   │   ├─ sender.from.de.makemoney.map            --- multimap.sender.from.de.makemoney.conf
   │   ├─ sender.from.de.phishing.map             --- multimap.sender.from.de.phishing.conf
@@ -320,6 +321,7 @@ subject
   │   ├─ subject.de.phishing.card.map             │
   │   ├─ subject.de.phishing.email.map            │
   │   ├─ subject.de.phishing.malware.map          │
+  │   ├─ subject.de.phishing.orgbrandprod.map   X │
   │   ├─ subject.de.phishing.parcel.map           │
   │   ├─ subject.de.phishing.password.map         ├─ multimap.subject.de.phishing.conf
   │   ├─ subject.de.phishing.payment.map          │
