@@ -63,6 +63,7 @@
 # H
 /hallo -/i
 
+/hallo.{1,5}bonjour/i
 /hallo.{1,10}(freund|geliebte|liebling|liebste|love)/i
 /hallo.{1,10}herr.{1,5}frau/i
 /hallo.{1,10}von (frau|herr)/i
