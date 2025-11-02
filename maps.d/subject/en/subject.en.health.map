@@ -190,6 +190,7 @@
 /clears?.{1,10}blurry eyesight/i
 /clears.{1,10}fast/i
 
+/clear(er)?.{1,10}memory/i
 /collagen.{1,10}exposed/i
 /common.{1,10}drink may/i
 
@@ -456,7 +457,7 @@
 /in \d hours?.{1,10}try this/i
 /in half.{1,10}naturally/i
 /in just \d{1,2} seconds/i
-/in your blood/i
+/in your (blood|ears?)/i
 
 /(re)?ignite your passion/i
 /indian.{1,10}herb/i
@@ -697,7 +698,7 @@
 
 /shrinks?.{1,10}(belly|prostate|waistline)/i
 
-/shocking.{1,10}brain/i
+/shocking.{1,10}(brain|vitamin)/i
 
 /sign of a stroke/i
 
@@ -948,7 +949,7 @@
 /your.{1,10}blood pressure/i
 /your.{1,10}back pain/i
 /your.{1,10}(bladder|bloating|erection|hearing|liver|manhood|pecker|prostate|wrinkles)/i
-/your.{1,10}gut.{1,10}(could|knows|might|warning)/i
+/your.{1,10}gut.{1,10}(could|knows|making|might|warning)/i
 /your.{1,10}(super)?food.{1,10}(harmful|secret)/i
 /your.{1,10}foot fungus/i
 /your.{1,10}healthy foods/i

@@ -177,6 +177,7 @@
 /(dringend|wichtig).{1,10}bestätigen sie ihre/iu
 /(dringend|wichtig).{1,10}einschränkungen bei ihrer/iu
 /(dringend|wichtig).{1,10}ihnen entgehen/i
+/(dringend|wichtig).{1,10}ihr systemschutz läuft heute ab/iu
 /(dringend|wichtig).{1,10}ihre kundendaten/i
 /(dringend|wichtig).{1,10}registrieren sie sich/i
 /(dringend|wichtig).{1,10}sie verpassen/i
@@ -344,6 +345,8 @@
 /kurzer aufwand.{1,10}geschäftsdaten prüfen/iu
 
 # L
+/läuft heute ab.{1,10}(jetzt|sofort) handeln/iu
+
 /legitimations.?prozess.{1,15}erledigen/i
 
 /letzte chance.{1,30}für nur.{1,15}jetzt sichern/i

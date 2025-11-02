@@ -21,7 +21,7 @@
 /memory.{0,10}(improver|improvement|insider|killer|laps(es)?|loss)/i
 /memory.{0,10}master/i
 /memory.{0,10}protection/i
-/memory.{0,10}(recovery|report|restore|revival|revive)/i
+/memory.{0,10}(recovery|report|research|restore|revival|revive)/i
 /memory.{0,10}(saver|saving|secret|solution|strengthener|tonic)/i
 /memory.{0,10}vitamins?/i
 
@@ -695,7 +695,7 @@
 /male.{0,10}(virility|vitality)/i
 
 /med.?journal/i
-/(medical|medicinal).{0,15}(daily|discovery|patch(es)?)/i
+/(medical|medicinal).{0,15}(daily|discovery|patch(es)?|shock)/i
 
 /men.?s?.{0,10}(only|power|vitality|wellness)/i
 /mental.{0,10}clarity/i
