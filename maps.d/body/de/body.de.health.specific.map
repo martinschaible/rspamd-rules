@@ -45,9 +45,10 @@
 
 # Men
 # ------------------------------------------------------------------------------
+/nicht zum orgasmus/i
 
 # Meds
-/(diskrete|ohne rezept|rezeptfreie).{1,10}(potenzmittel|potenztabletten)/i
+/diskrete.{1,10}(potenzmittel|potenztabletten)/i
 /(pillen|tabletten?|tabs).{1,10}ohne rezept/i
 
 /(neutrale|unauffällige) verpackung.{1,10}schneller versand/iu
@@ -61,6 +62,8 @@
 /(harte|sofortige).{1,10}erektion/i
 
 /(anwendung|einfache).{1,10}erektionsstörung/iu
-/rezeptfreie.{1,10}(bestellung|möglichkeiten|optionen)/iu
+/(ohne rezept|rezeptfrei).{1,10}(bestellung|möglichkeiten|optionen)/iu
+/(ohne rezept|rezeptfrei).{1,10}sofort bestellbar/i
+/(ohne rezept|rezeptfrei).{1,10}(potenzmittel|potenztabletten)/i
 
-/ohne rezept.{1,10}sofort bestellbar/i
+/kein arztbesuch nötig.{1,10}(ohne rezept|rezeptfrei)/iu
