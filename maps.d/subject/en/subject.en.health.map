@@ -644,7 +644,8 @@
 /(re)?ignite.{1,10}passion/i
 
 /relief with this.{1,15}(technique|weird)/i
-/relief(es)?.{1,10}(constipation|joint|pain|tinnitus)/i
+/relief(es)?.{1,15}(constipation|joint|pain|tinnitus)/i
+/relief(es)?.{1,10}chronic/i
 
 /remedy (restores|unleashes)/i
 
@@ -827,6 +828,7 @@
 /this.{1,10}lower.{1,10}a1c/i
 
 /this.{1,10}popular.{1,10}vegetable/i
+/this.{1,10}simple.{1,15}stretch/i
 /this.{1,10}speeds up memory/i
 /this.{1,10}(odd|simple|strange) (habbit|method|solution|trick)/i
 /this.{1,10}one (drink|nutrient)/i
