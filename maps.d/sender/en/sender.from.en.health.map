@@ -738,7 +738,7 @@
 /nasa.{0,10}research/i
 /nasty.{0,10}(lumps|(toe)?nails?)/i
 
-/natural.{0,10}(alternative|antibiotic|defense|digest|fix|health|help|neuropathy)/i
+/natural.{0,10}(alternative|antibiotic|control|defense|digest|fix|health|help|neuropathy)/i
 /natural.{0,10}(shape|solution|tonic|trick|vaccine)/i
 
 /nature.{0,10}(cure|morphine|opioids?|tea)/i
@@ -1024,7 +1024,7 @@
 /viril.{0,10}wood/i
 /virus.{0,10}cure/i
 
-/vital.{0,10}(health|now)/i
+/vital(ity)?.{0,10}fix|(health|now)/i
 /vitamin.{0,10}recall/i
 
 # W
