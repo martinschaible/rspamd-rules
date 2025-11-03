@@ -100,7 +100,9 @@
 /reliable partner.{1,10}high.?quality/i
 
 # S
-/shenzhen.{1,15}technology.{1,10}co.{1,5}ltd/i
+/(shanghai|shenzhen).{1,15}co.{1,5}ltd/i
+/(shanghai|shenzhen).{1,15}technology.{1,10}co.{1,5}ltd/i
+
 /since foun?dation.{1,15}we specialized in/i
 
 /solutions tailored to your.{1,10}requirements/i

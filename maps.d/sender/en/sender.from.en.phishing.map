@@ -38,6 +38,8 @@
 
 /(e?.?mail|webmail).{0,5}(admin|hosting|manager|notice|server|support|team)/i
 
+/account.{0,5}support/i
+
 # Sample: Admin-mydomain.ch
 /admin(-|_)[a-z]{5,15}/\.[a-z]{1,4}/i
 

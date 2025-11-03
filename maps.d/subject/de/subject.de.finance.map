@@ -56,7 +56,7 @@
 /finanzhilfe innerhalb von.{1,10}stunden/i
 /finanzielle mitteilung/i
 /finanzierung ohne.{1,10}grenzen/i
-/finanzierungs?.{0,10}(angebot|investition)/i
+/finanzierungs?.{0,10}(angebot|investition|möglichkeit)/i
 
 # G
 /garantieangebot jetzt beantragen/i
@@ -124,6 +124,7 @@
 /sie eine.{1,10}finanzierung/i
 /sie finanzielle probleme/i
 
+/strategische.{1,10}finanzierungsmöglichkeiten/iu
 /suchen?.{1,10}nach.{1,10}(darlehen|kapital|kredit)/i
 
 # T

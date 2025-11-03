@@ -48,9 +48,9 @@
 /your.{1,15}@.{1,15}\.[a-z]{1,4}.{1,10}is blacklisted/i
 
 # A
+/account termination request/i
 /access unread.{1,10}(e?.?mail|message)/i
 /account verification for.{1,10}(imap|pop3)/i
-
 
 /(a|p)\.m\..{1,10}roundcube webmail/i
 

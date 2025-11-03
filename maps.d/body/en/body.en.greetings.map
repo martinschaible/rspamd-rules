@@ -52,6 +52,7 @@
 /(dear|greetings?|good day|hello|hi\b).{1,5}(friend|madam|sir).{1,15}representing/i
 /(dear|greetings?|good day|hello|hi\b).{1,5}(friend|madam|sir).{1,10}my name is/i
 /(dear|greetings?|good day|hello|hi\b).{1,5}(friend|madam|sir).{1,15}this.{1,10}(e?.?mail|message) is strictly/i
+
 /(dear|greetings?|good day|hello|hi\b).{1,15}(agency|beneficiary|engineer|manager|owner|purchasing)/i
 /(dear|greetings?|good day|hello|hi\b).{1,15}(domain.?name|site|web)/i
 /(dear|greetings?|good day|hello|hi\b).{1,15}(business|investment)/i
@@ -68,6 +69,8 @@
 
 /(dear|greetings?|good day|hello|hi\b).{1,10}i am.{1,15}broker/i
 /(dear|greetings?|good day|hello|hi\b).{1,10}i work as a/i
+
+/(dear|greetings?|good day|hello|hi\b).{1,10}we are.{1,10}supplier/i
 
 /(greetings?|good day|hello|hi\b).{1,5}sir.{1,5}(madam|mam)/i
 

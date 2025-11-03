@@ -36,6 +36,8 @@
 /dhl.{1,10}failed delivery/i
 /dhl.{1,10}notice of arrival/i
 
+/dpd_\d{6,10}/i
+
 # E
 
 # F

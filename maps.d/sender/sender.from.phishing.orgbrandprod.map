@@ -277,6 +277,7 @@
 
 /mydhl.{0,5}express/i
 
+/(deutschland|schweiz).{0,5}(dhl|dpd)/i
 /(center|europa|express|notification|support).{0,5}(dhl|dpd)/i
 /(kurier|zoll).{0,5}(dhl|dpd)/i
 /paket.?(dienst|service).{0,5}(dhl|dpd)/i
