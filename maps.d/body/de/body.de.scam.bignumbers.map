@@ -82,9 +82,12 @@
 /spenden?.{1,10}ihnen die summe von.{1,10}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£)/i
 
 /spenden?.{1,10}in höhe von.{1,10}\d{2,4}(\.|,)?\d{3,4}.{1,10}(ausgezeichnet|getätigt)/iu
+
 /spenden?.{1,10}in höhe von.{1,20}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,25}(ausgewählt|die ihnen|wurde ihnen von)/iu
 /spenden?.{1,10}in höhe von.{1,20}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£)erfolgte durch die/iu
 /spenden?.{1,10}in höhe von.{1,20}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,25}million.{1,15}zu erhalten/i
+
+/spenden?.{1,10}in höhe von.{1,20}(millionen|tausend).{1,15}(euro?|dollars?|gbp|usd|€|\$|£).{1,10}an sie/i
 
 /spendet ihnen.{1,10}\d{2,4}(\.|,)?\d{3,4}.{0,10}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£)/i
 /spendet ihnen.{1,10}millionen dollar/i

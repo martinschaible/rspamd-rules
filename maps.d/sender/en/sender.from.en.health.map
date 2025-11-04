@@ -895,7 +895,7 @@
 
 /skin.{0,10}(alert|fix|sculptor|secret|tightening)/i
 
-/sleep.{0,10}(age|discovery|hack|health)/i
+/sleep.{0,10}(age|care|discovery|hack|health)/i
 /sleep.{0,10}(lab|memory|mineral|mistake|position|posture|reset)/i
 /sleep.{0,10}(science|secret|shortcut|slim|solution|trick)/i
 
@@ -1024,7 +1024,7 @@
 /viril.{0,10}wood/i
 /virus.{0,10}cure/i
 
-/vital(ity)?.{0,10}fix|(health|now)/i
+/vital(ity)?.{0,10}(fix|health|now)/i
 /vitamin.{0,10}recall/i
 
 # W
@@ -1054,7 +1054,7 @@
 
 /your.{1,10}(a1c|alcohol)/i
 /your.{1,10}(balance|bladder|brain)/i
-/your.{1,10}(calories|craving|diet|ears?|eyes|figure|gut)/i
+/your.{1,10}(calories|craving|diet|ears?|eyes|feet|figure|gut)/i
 /your.{1,10}(health|heart|hips|intimacy|knees)/i
 /your.{1,10}(live.?span|liver)/i
 /your.{1,10}(pee|pelvis|poop|posture)/i

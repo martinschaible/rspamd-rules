@@ -24,6 +24,26 @@
 /tactic(al)?.{0,10}drone/i
 /tactic(al)?.{0,10}(air|official|team)/i
 
+# Electric Bike
+# ------------------------------------------------------------------------------
+/e.?bike.?pro/i
+/e.?(bicycle|bike|velo).{0,10}(care|company|customer|expert|factory|manufacturr)/i
+/e.?(bicycle|bike|velo).{0,5}(sales|service|support|team)/i
+
+# IP TV/Steaming
+# ------------------------------------------------------------------------------
+/4k.?ip.?tv/i
+/^.?ip.?tv.?$/i
+/ip.?tv.{1,10}(access|channels|company)/i
+/ip.?tv.{1,10}(deal|live|max|movies|royals|offer|show|stream(ing)?|trial|today)/i
+/ip.?tv.{1,10}(vod|world)/i
+
+/i p t\.v/i
+/i p-tv/i
+/i p t v/i
+
+/(best|nex.?|unlimited|value).?ip.?tv/i
+
 # Replicas
 # ------------------------------------------------------------------------------
 /(hot|luxury|top).{0,10}(bags|watch(es)?)/i
@@ -33,3 +53,14 @@
 /snore.{0,10}(again|block|stop)/i
 /(anti|fight|stop).{0,10}snoring/i
 /never.{0,10}snore/i
+
+# WLAN Router, Scam
+# ------------------------------------------------------------------------------
+/hotspot.{0,10}central/i
+/portable.{0,10}wi.?fi/i
+/technology.{0,10}travel/i
+
+/travel.{0,10}router/i
+
+/(wi.?fi|wlan).{0,15}(boost(ing)?|connection|router|team)/i
+
