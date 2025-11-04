@@ -88,10 +88,6 @@
 /dusterx.?pro/i
 
 # E
-/e.?bike.?pro/i
-/e.?(bicycle|bike|velo).{0,10}(care|company|customer|expert|factory|manufacturr)/i
-/e.?(bicycle|bike|velo).{0,5}(sales|service|support|team)/i
-
 /electric.{0,10}bill/i
 
 /elon.{0,10}device/i
@@ -156,18 +152,6 @@
 
 /insurance.{0,10}(comparison|quotes?)/i
 
-/4k.?ip.?tv/i
-/^.?ip.?tv.?$/i
-/ip.?tv.{1,10}(access|channels|company)/i
-/ip.?tv.{1,10}(deal|live|max|movies|royals|offer|show|stream(ing)?|trial|today)/i
-/ip.?tv.{1,10}(vod|world)/i
-
-/i p t\.v/i
-/i p-tv/i
-/i p t v/i
-
-/(best|nex.?).?ip.?tv/i
-
 # J
 /jet.{0,10}fan/i
 
@@ -214,11 +198,11 @@
 
 /pocket.{0,10}hose/i
 
-/portable.{0,10}wi.?fi/i
 /power.{0,10}(blower|scrubber|outage)/i
 
 /premium.{0,10}promotion/i
 /president.{0,15}trump/i
+
 /pro.?cam.{0,10}shop/i
 /pro.?(security|tablet)/i
 
@@ -232,6 +216,7 @@
 /rk.?pro/i
 
 /roof.{0,10}replacement/i
+
 # S
 /safe.{0,10}(tech|living)/i
 /safety on/i
@@ -282,6 +267,7 @@
 /tax.{0,10}(consultant|helpers?|resolvers?)/i
 
 /tech.{0,10}(digest|safety)/i
+
 /team.{0,10}team/i
 /text.{0,10}voice/i
 
@@ -291,15 +277,11 @@
 /top.{0,10}(device|watche(es)?)/i
 /top.{0,10}rolex/i
 
-/travel.{0,10}router/i
-
 /tv.{0,10}(deals|streaming)/i
 
 # U
 /ultimate.{0,10}offers?/i
 /ultimate.{0,10}dog/i
-
-/unlimited.{0,10}iptv/i
 
 /urban.{0,10}warzone/i
 /usb.{0,10}stick/i
@@ -308,7 +290,6 @@
 /vaccum.{0,10}(go|pro)/i
 
 /value for money/i
-/value.{0,10}ip.?tv/i
 /vending.{0,10}machines?/i
 
 # W
@@ -318,8 +299,6 @@
 /watch(es)?.?online/i
 
 /website.{0,10}seo/i
-
-/(wi.?fi|wlan).{0,15}(boost(ing)?|connection|router|team)/i
 
 /wi.?fi.{0,15}projector/i
 
