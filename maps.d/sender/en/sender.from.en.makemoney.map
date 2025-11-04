@@ -29,12 +29,8 @@
 /(bitcoin|btc|crypto|krypto).{0,10}(rebound|revolution)/i
 /(bitcoin|btc|crypto|krypto).{0,10}(time|update|wealth)/i
 
-/btcneer/i
-
  #/(swiss|world).{0,10}(bitcoin|btc|crypto|krypto)/i
 /finance.{0,10}(bitcoin|btc|crypto|krypto)/i
-
-/blog.?coin/i
 
 # ETF (Exchange Traded Funds)
 # ------------------------------------------------------------------------------
