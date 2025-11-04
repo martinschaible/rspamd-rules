@@ -108,6 +108,7 @@
 
 /aufforderung.{1,10}aktualisierung.{1,10}(adress)?daten/i
 /aufforderung.{1,10}datenprüfung/i
+/aufforderung.{1,10}zur erneuten.{1,10}verifizierung/i
 
 /aufmerksamkeit.{1,15}(dokument|mahnung)/i
 /aufmerksamkeit.{1,10}in dieser angelegenheit/i
@@ -543,6 +544,7 @@
 
 /verifiziere.{1,10}deine.{1,10}e?.?mail/i
 /verifizieren sie sich rechtzeitig/i
+/verifizierung.{1,10}administratoridentität/iu
 
 /vervollständigen sie ihre.{1,10}(online.?)?identifikation/i
 

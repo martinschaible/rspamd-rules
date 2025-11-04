@@ -48,10 +48,12 @@
 # Related to Parcel
 #/guten (abend|morgen|tag).{1,10}ihr paket/i
 
+/guten (abend|morgen|tag).{1,10}als treuer.{1,15}kunde/i
 /guten (abend|morgen|tag).{1,10}aufgrund neuer internationaler/i
 /guten (abend|morgen|tag).{1,10}aus sicherheits.{1,10}servicegründen/iu
 
 /guten (abend|morgen|tag).{1,10}bei der überprüfung/iu
+/guten (abend|morgen|tag).{1,10}das sicherheitssystem/i
 /guten (abend|morgen|tag).{1,10}erhalten sie eine korrigierte rechnung/i
 /guten (abend|morgen|tag).{1,10}es wurde eine ungewöhnliche anmeldung/iu
 /guten (abend|morgen|tag).{1,10}hiermit informieren wir sie/i

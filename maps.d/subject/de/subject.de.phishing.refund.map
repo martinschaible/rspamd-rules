@@ -132,6 +132,7 @@
 
 # W
 /wir erstatten ihnen chf \d{2,3}\.\d{2}/i
+/wir haben eine.{1,10}(rück)?erstattung für sie/iu
 /wir schulden ihnen (chf|euro?)/i
 
 /wurde doppelt bezahlt/i
