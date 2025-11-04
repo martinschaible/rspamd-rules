@@ -24,7 +24,7 @@
 # Beneficiary
 # ------------------------------------------------------------------------------
 
-# Business register
+# Business register, directory listings
 # ------------------------------------------------------------------------------
 /unternehmen erfolgreich auf.{1,15}dem.{1,10}(globalen|ultimativen).{1,30}verzeichnis/i
 /unternehmen nun in unserem.{1,10}(globalen|ultimativen).{1,30}verzeichnis/i
@@ -35,6 +35,9 @@
 
 /gewerbe.?informationsdatenbank/i
 /grosses schweizer firmenverzeichnis/i
+
+/ihr unternehmen.{1,10}in unserem verzeichnis/i
+/jetzt erfolgreich in unserem globalen verzeichnis/i
 
 # Cars
 # ------------------------------------------------------------------------------
@@ -210,7 +213,6 @@
 /informationen zum teilen.{1,10}kontaktieren sie/i
 
 # J
-/jetzt erfolgreich in unserem globalen verzeichnis/i
 
 # K
 /kein risiko.{1,10}kein aufwand/i

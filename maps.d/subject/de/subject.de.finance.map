@@ -23,8 +23,8 @@
 /benötigen sie.{1,15}(unternehmer|privatperson).{1,15}finanzierung/iu
 /benötigen persönlichen/iu
 
-/bietet.{1,15}(langfristige|kurzfristige).{1,10}kredite/i
-/(billiger|geldsorgen).{1,10}(privat|schnell)?kredite?/i
+/bietet.{1,15}(langfristige|kurzfristige).{1,10}(darlehen|kredite)/i
+/(billiger|geldsorgen).{1,10}(privat|schnell)?(darlehen|kredite)/i
 
 # C
 
@@ -57,6 +57,7 @@
 /finanzielle mitteilung/i
 /finanzierung ohne.{1,10}grenzen/i
 /finanzierungs?.{0,10}(angebot|investition|möglichkeit)/i
+/finanzierungs?.{0,10}(darlehen|kredite)/i
 
 # G
 /garantieangebot jetzt beantragen/i
