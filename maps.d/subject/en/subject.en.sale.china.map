@@ -100,10 +100,11 @@
 /customized.{1,10}(mannequins|metal solutions|pvc.?hoses?)/i
 /customized.{1,10}works for/i
 
+/(cutting.?edge|dependable|different).{1,10}(pcba?|printed.?circuits?.?board).{1,10}(partner|supplier)/i
+
 /costs.{1,10}direct from.{1,10}factory/i
 
 # D
-/(dependable|different).{1,10}(pcba?|printed.?circuits?.?board).{1,10}(partner|supplier)/i
 
 /die casting solutions/i
 
@@ -292,10 +293,10 @@
 /(pcba?|printed.?circuits?.?board).{1,10}from (china|shenzhen)/i
 /(pcba?|printed.?circuits?.?board).{1,10}manufactuer for.{1,15}(customers|worldwide)/i
 /(pcba?|printed.?circuits?.?board).{1,10}mould partner/i
-/(pcba?|printed.?circuits?.?board).{1,10}partners?.{1,10}(iso|worthy)/i
 /(pcba?|printed.?circuits?.?board).{1,10}production line/i
 /(pcba?|printed.?circuits?.?board).{1,10}quality counts/i
-/(pcba?|printed.?circuits?.?board).{1,10}supplier for/i
+/(pcba?|printed.?circuits?.?board).{1,10}(partner|supplier).{1,10}(for|with)/i
+/(pcba?|printed.?circuits?.?board).{1,10}(partner|supplier).{1,10}(iso|worthy)/i
 /(pcba?|printed.?circuits?.?board).{1,10}supply chain/i
 /(pcba?|printed.?circuits?.?board).{1,10}with high quality/i
 

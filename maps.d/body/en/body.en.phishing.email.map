@@ -42,6 +42,7 @@
 /confirmation is complete.{1,10}your mailbox/i
 
 /continue to keep.{1,10}change your.{1,10}password/i
+/continue using your existing password/i
 
 # D
 
@@ -168,5 +169,7 @@
 /your.{1,10}electronic.{1,10}e?.?mail.{1,10}account/i
 /your.{1,10}unreceived.{1,10}(e?.?mail|message)s?.{1,10}are stuck/i
 /your.{1,15}settings are.{1,15}blocking.{1,10}incoming.{1,10}(e?.?mail|message)s?/i
+
+/your.{1,10}webmail will log you out/i
 
 # Z
