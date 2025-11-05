@@ -33,7 +33,7 @@
 
 /(darlehen|kredit).{1,10}ab.{1,10}(fest)?zins/i
 /(darlehen|kredit).{0,10}angebot \d/i
-/(darlehen|kredit).{1,15}(aller? arten|dringend|für \d|zu|leicht gemacht|wir helfen)/iu
+/(darlehen|kredit).{1,15}(aller? art(en)?|dringend|für \d|zu|leicht gemacht|wir helfen)/iu
 /(darlehen|kredit).{1,15}finanzierung/i
 /(darlehen|kredit).{1,10}für.{1,10}(business|privat|projekte|unternehmen)/iu
 /(darlehen|kredit).{1,15}in.{1,10}stunden/i/i
@@ -65,6 +65,7 @@
 /geld zum besten zinssatz/i
 /geschäfts.{1,10}projekt.?finanzierung/iu
 
+/gewähren?.{1,15}(darlehen|kredite)/i
 /guten.{1,10}kredit/i
 /günstiges.{1,10}kreditangebot/iu
 
