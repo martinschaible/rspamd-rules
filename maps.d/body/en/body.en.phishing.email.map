@@ -152,6 +152,7 @@
 /you have.{1,40}(bounced|delayed|important|incoming|new|pending|suspended|undelivered|unreceived).{1,25}(e?.?mails?|inbox|messages?)/i
 
 /you have.{1,10}important.{1,10}(incoming|pending).{1,10}(e?.?mail|message)s?/i
+/You have .{1,10}(e?.?mail|message)s?.{1,10}pending on the server/i
 
 /you must clear.{1,10}cache immediately/i
 /you must clear.{1,10}cache.{1,20}(send|receive)/i

@@ -40,7 +40,7 @@
 
 /\d breakfast mistake/i
 /\d cause of/i
-/\d (easy|simple) (habit|stretch|trick|tweak)/i
+/\d (easy|simple|week).{1,10}(fix|habit|stretch|trick|tweak)/i
 /\d stretch/i
 /\d surprising fruits/i
 /\d way to (clear up|eliminate)/i
@@ -406,7 +406,9 @@
 /hair.?loss.{1,10}reversed/i
 
 /(harm(ing)?|sabotaging) your.{1,10}(gut|health)/i
+
 /(harvard|ucl).{1,15}(discovers|exposes|leaked|reveal|second|stretch)/i
+/(harvard|ucl).{1,10}study.{1,10}surprising/i
 
 /heal.{1,15}pain/i
 /healing.{1,10}recipe/i
@@ -957,6 +959,7 @@
 /your.{1,10}blood?/i
 /your.{1,10}blood pressure/i
 /your.{1,10}back pain/i
+/your.{1,10}body stuck/i
 /your.{1,10}(bladder|bloating|erection|hearing|liver|manhood|pecker|prostate|wrinkles)/i
 /your.{1,10}gut.{1,10}(could|knows|making|might|warning)/i
 /your.{1,10}(super)?food.{1,10}(harmful|secret)/i
