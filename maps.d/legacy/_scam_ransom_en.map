@@ -42,14 +42,8 @@
 
 # Payment
 # ------------------------------------------------------------------------------
-/bitcoin.{1,15}below.{1,15}spaces/i
 
 /below is.{1,10}(bitcoin|btc).?(address|wallet) of mine/i
-
-/my (bitcoin|btc).?(address|wallet).{1,10}(for payment|is)/i
-/my (bitcoin|btc).?(address|wallet).{1,15}(btc.?wallet|for transfer)/i
-
-/my bitcoin.{1,10}btc.{1,10}(address|wallet) is/i
 
 /(send|transfer).{1,10}\d{3,4}.{1,15}to my (bitcoin|cryptocurrency) wallet/i
 /(send|transfer).{1,10}(us dollars|usd).{1,10}in bitcoin equivalent/i
