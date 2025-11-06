@@ -16,6 +16,9 @@
 /my perverted friend/i
 /mi pervertido amigo/i
 
+# Polish
+/mój adres (bitcoin|btc).{1,10}(address|wallet)/i
+
 #
 #
 #
@@ -26,7 +29,9 @@
 # A
 
 # B
-/btc.?wallet.{1,10}or your transaction/i
+/(bitcoin|btc).{1,10}(address|wallet).{1,10}for.{1,10}(payment|transaction|transfer)/i
+/(bitcoin|btc).{1,10}(address|wallet).{1,10}is/i
+/(bitcoin|btc).{1,15}below.{1,15}spaces/i
 
 # C
 

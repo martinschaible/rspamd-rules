@@ -23,6 +23,7 @@
 
 /(benötigen|brauchen) sie.{1,15}ein darlehen/iu
 /(benötigen|brauchen) sie.{1,15}einen.{1,15}kredit/i
+/(benötigen|brauchen) sie.{1,10}finanzielle unterstützung/iu
 /(benötigen|brauchen) sie.{1,10}geld.{1,10}um (ein|ihre?)/i
 /(benötigen|brauchen) sie.{1,10}geld.{1,10}den persönlichen/iu
 /(benötigen|brauchen) sie.{1,20}kredite?/i
@@ -105,6 +106,8 @@
 /sie eine zuverlässige.{1,10}finanzierung/iu
 /sie ein(en)?.{1,10}(darlehen|kredit) benötigen/iu
 
+/sie.{1,10}finanzielle.{1,10}unterstützung benötigen/iu
+
 /sie suchen nach einem.{1,10}(darlehen|kredit)/i
 
 /suchen?.{1,10}(ein(en)?|nach).{1,10}(darlehen|kapital|kredit)/i
@@ -112,10 +115,11 @@
 # T
 
 # U
-/unsere.{1,10}(darlehen|kredite) bieten.{1,10}(attraktiven?|flexible)/i
-/unsere.{1,10}(darlehen|kredite) sind/i
+/unsere.{1,10}(darlehen|kredite).{1,10}bieten.{1,10}(attraktiven?|flexible)/i
+/unsere.{1,10}(darlehen|kredite).{1,10}sind/i
 
 /unsere.{1,10}kredit.?(angebote|optionen)/i
+
 
 # V
 

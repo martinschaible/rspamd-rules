@@ -81,7 +81,9 @@
 /(design|manufacture|you need).{1,15}pcba?/i
 
 /co.{1,5}(limited|ltd)/i
-/component distributor.{1,10}rfq/i
+/components?.{1,10}distributor.{1,10}rfq/i
+/components?.{1,10}rfqs? dealing/i
+
 
 /contact.{1,10}pcba?.{1,10}supplier/i
 
@@ -96,9 +98,9 @@
 /custom.{1,10}printing solutions?/i
 /custom.{1,10}transformer.{1,10}manufacturer/i
 
-/customized.{1,10}freight solutions?/i
-/customized.{1,10}(mannequins|metal solutions|pvc.?hoses?)/i
-/customized.{1,10}works for/i
+/(customizable|customized).{1,10}(freight|packaging).{1,10}solutions?/i
+/(customizable|customized).{1,10}(mannequins|metal solutions|pvc.?hoses?)/i
+/(customizable|customized).{1,10}works for/i
 
 /(cutting.?edge|dependable|different).{1,10}(pcba?|printed.?circuits?.?board).{1,10}(partner|supplier)/i
 
@@ -291,6 +293,7 @@
 
 /(pcba?|printed.?circuits?.?board).{1,10}co.{1,5}ltd/i
 /(pcba?|printed.?circuits?.?board).{1,10}from (china|shenzhen)/i
+/(pcba?|printed.?circuits?.?board).{1,10}industry.{1,10}sourcing/i
 /(pcba?|printed.?circuits?.?board).{1,10}manufactuer for.{1,15}(customers|worldwide)/i
 /(pcba?|printed.?circuits?.?board).{1,10}mould partner/i
 /(pcba?|printed.?circuits?.?board).{1,10}production line/i

@@ -28,7 +28,10 @@
 /google relief support/i
 /musk foundation charity/i
 
-/german business awards 202\d/i
+# Fake Awards
+# ------------------------------------------------------------------------------
+/(german|switzerland).{1,10}business awards 202\d/i
+/(german|switzerland).{1,10}Prestige Awards/i
 
 # Business in Dubai
 # ------------------------------------------------------------------------------

@@ -45,8 +45,14 @@
 
 /you (got|have been) hacked/i
 
-# Fake organisatiopns and Awards
+# Fake Organisations
 # ------------------------------------------------------------------------------
+
+# Fake Awards
+# ------------------------------------------------------------------------------
+/(german|switzerland).{1,10}business awards 202\d/i
+/(german|switzerland).{1,10}Prestige Awards/i
+
 /golden business awards/i
 
 #

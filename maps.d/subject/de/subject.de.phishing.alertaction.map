@@ -6,6 +6,11 @@
 # Topics
 # ==============================================================================
 
+# Temporary alert action for phishing
+/(anmeldung|(konto)?zugriff).{1,25}(erkannt|festgestellt||um).{1,15}(moskau|russland)/i
+/festgestellt.{1,10}moskau.{1,10}russland/i
+/unbekannte anmeldung/i
+
 #
 #
 #
@@ -106,7 +111,6 @@
 /angaben jetzt vervollständigen/iu
 /anmeldeversuch.{1,10}bitte bestätigen sie/iu
 
-/(anmeldung|kontozugriff) (erkannt|um).{1,15}(moskau|russland)/i
 /anmeldung blockiert.{1,10}jetzt einloggen/i
 
 /aufforderung.{1,10}aktualisierung.{1,10}(adress)?daten/i
