@@ -441,8 +441,8 @@
 
 /sie haben.{1,10}(bei|das|den).{5,35}gewonnen/i
 /sie haben.{1,10}ein(en)?.{5,35}gewonnen/i
-
-/sie haben ein{1,15}geschenk erhalten/i
+/sie haben.{1,15}bonuscode erhalten/i
+/sie haben.{1,15}geschenk erhalten/i
 
 /sie ihr geschenk annehmen/i
 /sie können ein.{5,35}erhalten/i
