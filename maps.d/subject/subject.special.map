@@ -59,7 +59,9 @@
 /\*\*\*/i
 
 # Three dots at the end
-/\.\.\.$/i
+# -> Yes, some silly people are doing this in real life.
+#    Decreasing score to avoid False/Positives
+/\.\.\.$/i 0.34
 
 # Dots between charcater like this: Fi.n.a.n.z.i.e.r.u.n.g
 /\w\.\w\.\w\.\w\./i
