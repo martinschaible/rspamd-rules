@@ -50,6 +50,7 @@
 # A
 /(antworte|kennenlernen).{1,15}(klicke?|schreibe?) hier/i
 
+/aktive chats.{1,10}talks/i
 /alles ist anonym.{1,10}diskret/i
 /auf.{1,10}dating.?website/i
 
@@ -74,6 +75,8 @@
 /dating.?seiten?/i
 
 /dein.{1,10}(penis|schwanz)/i
+/dein.{1,10}profil hat meine/i
+
 /deine.{1,10}e?.?mail.?adresse auf.{1,15}website/i
 
 /dich auf.{1,10}(plattform|seite|website).{1,10}(sehen|treffen)/i
@@ -127,6 +130,9 @@
 /Ich bin.{1,10}geil/i
 
 /ich füge ein.{1,10}foto bei/iu
+
+/ich habe dich.{1,10}online gesehen/i
+
 /ich liebe.{1,10}oral.?sex/i
 
 /ich möchte dich.{1,15}kennenlernen/iu
@@ -164,6 +170,7 @@
 
 
 /mein.{1,10}freizügigstes.{1,10}(foto|selfie)/iu 
+/mein.{1,10}profil ansehen/i
 
 /meine freunde nennen mich/i
 /meine.{0,10}(fotze|muschi|möse|pussy)/iu
@@ -219,6 +226,8 @@
 
 # T
 /traust.{1,10}schaue? hier vorbei/i
+
+/treffe.{1,10}junge.{1,10}singles/i
 
 # U
 
