@@ -8,7 +8,10 @@
 
 # Temporary alert action for phishing
 /(anmeldung|(konto)?zugriff).{1,25}(erkannt|festgestellt||um).{1,15}(moskau|russland)/i
-/festgestellt.{1,10}moskau.{1,10}russland/i
+
+/(festgestellt|gestartet).{1,10}lagos.{1,10}nigeria/i
+/(festgestellt|gestartet).{1,10}moskau.{1,10}russland/i
+
 /unbekannte anmeldung/i
 
 #

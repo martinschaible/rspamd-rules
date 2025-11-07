@@ -31,14 +31,16 @@
 /ankauf.{1,10}fahrzeugen?/i
 /autoankauf.{1,10}export/i
 
-/ihr(en)?.{1,10}(auto|fahrzeug|wagen|lkw|pkw).{1,10}zum besten preis/i
-/ihr(en)?.{1,10}(auto|fahrzeug|wagen|lkw|pkw).{1,10}verkaufen/i
+/ihr(en)?.{1,10}(auto|fahrzeug|kfz|lkw|pkw|wagen).{1,10}zum besten preis/i
+/ihr(en)?.{1,10}(auto|fahrzeug|kfz|lkw|pkw|wagen).{1,10}verkaufen/i
 
-/sie ihr.{1,10}(auto|fahrzeug|wagen|lkw|pkw).{1,10}verkaufen/i
+(auto|fahrzeug|kfz|lkw|pkw|wagen).{1,10}export jeglicher art/i
+
+/sie ihr.{1,10}(auto|fahrzeug|kfz|lkw|pkw|wagen).{1,10}verkaufen/i
 /suchen?.{1,10}(anlagen|gebrauchtmaschinen)/i
 
 /verkaufe dein auto schnell/i
-/wir kaufen.{1,10}(auto|fahrzeug|wagen|lkw|pkw)/i
+/wir kaufen.{1,10}(auto|fahrzeug|kfz|lkw|pkw|wagen)/i
 /wir kaufen.{1,10}gebraucht(en)?/i
 
 # Chair
