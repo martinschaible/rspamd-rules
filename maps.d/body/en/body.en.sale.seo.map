@@ -96,14 +96,18 @@
 
 # R
 /rankings.{1,10}our.{1,10}effective/i
-/reviewed your website.{1,10}was impressed/i
+/reviewed your.{1,10}(web)?site.{1,10}was impressed/i
+
+/run.{1,10}free seo/i
 
 # S
+/seo.{1,10}check now/i
+/seo.{1,10}issues.{1,10}your.{1,10}(web)?site/i
 /seo.{1,10}needs.{1,15}(improvement|significant)/i
 /seo.{1,10}(packages?|proposal|services?)/i
 /seo.{1,10}poorly done/i
 /seo.{1,10}pricing.{1,15}interested/i
-/seo.{1,15}saw that your (web)?site/i
+/seo.{1,15}saw that your.{1,10}(web)?site/i
 /seo.{1,10}technical optimization/i
 
 /services.{1,10}seo.{1,10}website/i

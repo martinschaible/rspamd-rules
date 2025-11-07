@@ -65,7 +65,7 @@
 /\d{2,3} spins/i
 
 /spins on the house/i
-/spin.{1,10}win/i
+/spin.{1,10}(slots|win)/i
 
 # T
 
@@ -74,6 +74,7 @@
 # V
 
 # W
+/win big starts with/i
 /win.{1,10}every week/i
 
 # X
