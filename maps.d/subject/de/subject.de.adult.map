@@ -58,6 +58,8 @@
 /(bild|foto).{1,10}freigeschaltet/i
 /(bild|foto).{1,10}(dem|im) brief/i
 
+/bist du.{1,15}(single|interessant)/i
+
 # C
 /chat.{1,10}(betreten|dates?)/i
 /chatten?.{1,15}(fotos|mit|videos)/i
@@ -83,8 +85,9 @@
 
 /dir eine.{1,10}massage/i
 
-/du bist mir aufgefallen/i
-/du wurdest (angestupst|verbunden)/i
+/du bist mir.{1,10}aufgefallen/i
+/Du kommst mir.{1,10}bekannt vor/i
+/du wurdest.{1,10}(angestupst|verbunden)/i
 
 # E
 /ein.{1,10}madchen/i
@@ -122,6 +125,9 @@
 /geschlossenen gruppe/i
 
 # H
+/habe? dein foto gesehen/i
+/habe? dich online gesehen/i
+
 /hat.{1,10}den chat/i
 /heißen?.{1,10}(frauen|singles)/i
 /heißen?.{1,10}bilder/i

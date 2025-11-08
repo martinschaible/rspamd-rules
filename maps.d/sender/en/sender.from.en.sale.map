@@ -111,12 +111,9 @@
 /foam.{0,10}seat/i
 /food.{0,10}supply/i
 /fox.{0,10}scope/i
-/luxury.?comfort/i
 
+/free.{0,10}gear/i
 /franking.{0,10}machine/i
-
-/free.{0,10}ip.?tv/i
-
 
 /fuel.{0,10}saver/i
 
@@ -164,7 +161,7 @@
 /leaf.?filter/i
 /limited time/i
 /local.?seo/i
-/luxury.?(collections?|watch(es)?)/i
+/luxury.?(collections?|comfort|watch(es)?)/i
 
 # M
 /meet.{0,10}your/i
@@ -227,7 +224,7 @@
 
 /seat.?cushion/i
 
-/secure.{0,10}(experts?|master|nation|space)/i
+/secure.{0,10}(experts?|master|nation|space|yours?)/i
 /security.{0,10}camera/i
 
 /senior.{0,10}perks/i

@@ -170,7 +170,7 @@
 
 /cardiologist warns/i
 
-/(causing|cause of|causes).{1,10}(back|joint).{1,10}pain/i
+/(causing|cause of|causes).{1,10}(back|joint|knee).{1,10}pain/i
 /(causing|cause of|causes).{1,10}bloating/i
 /(causing|cause of|causes).{1,10}(dark spots|dementia|ed\b|fatigue)/i
 /(causing|cause of|causes).{1,15}(memory|vision) loss/i
@@ -190,6 +190,7 @@
 /clears?.{1,10}(artery|arteries|digestive|cholesterol|eyes|nails|vision)/i
 /clears?.{1,10}blurry eyesight/i
 /clears.{1,10}fast/i
+/clears.{1,10}skin in/i
 
 /clear(er)?.{1,10}memory/i
 /collagen.{1,10}exposed/i
@@ -483,7 +484,7 @@
 /keep your.{1,10}(arteries|heart)/i
 /knee.{1,10}(stiffness|stretch)/i
 
-/kills.{1,10}(pain|tinnitus)/i
+/kills.{1,10}(pain|nerve|tinnitus)/i
 
 # L
 /(lbs|pounds|weight) of fat/i
@@ -525,7 +526,8 @@
 /men.{1,10}horny/i
 /message.{1,10}uncovered/i
 
-/minute stretch.{1,10}regain/i
+/minute (move|stretch).{1,10}(changing|regain)/i
+
 /miracle.{1,10}fungus/i
 /mistake that can.{1,10}harm/i
 /morning.{1,10}(brain|change to|erections?)/i
@@ -848,6 +850,7 @@
 /this.{1,10}second twist/i
 
 /this.{1,10}tea stops/i
+/this.{1,10}vitamin kills/i
 /this.{1,10}your ears/i
 
 /throw away these.{1,10}fruits/i
@@ -960,6 +963,7 @@
 /your.{1,10}blood pressure/i
 /your.{1,10}back pain/i
 /your.{1,10}body stuck/i
+/your.{1,10}drink be linked/i
 /your.{1,10}(bladder|bloating|digestion|erection|hearing|liver|manhood|pecker|prostate|wrinkles)/i
 /your.{1,10}gut.{1,10}(could|knows|making|might|warning)/i
 /your.{1,10}(super)?food.{1,10}(harmful|secret)/i
