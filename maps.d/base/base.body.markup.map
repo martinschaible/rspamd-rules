@@ -27,7 +27,3 @@
 
 # 28.09.25 - Used for a link
 /<span style=(3d)?"font-size:22px;">.{0,5}<strong>.{0,5}<a href=(3d)?"https:\/\/www\.[a-z]{5,15}\.sa\.com/>/i
-
-# 06.11.25 - Image only - Sample: <img src=3D"cid:905709489@94876389-98D8"></body></html></p>
-/<img src=(3d)?"cid:[0-9a-z]{10}@[0-9a-z]{8}-[0-9]{4}[0-9a-f]{4}"></body></html></p>/i
-
