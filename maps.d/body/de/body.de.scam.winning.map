@@ -63,7 +63,9 @@
 # H
 
 # I
-/ihre.{1,10}e?.?mail.?adresse wurde nach dem zufallsprinzip/i
+/ihre.{1,10}e?.?mail.{1,15}bei einer ziehung/i
+/ihre.{1,10}e?.?mail.{1,15}wurde nach dem zufallsprinzip/i
+
 /ihrem.{1,10}möglichen gewinn/iu
 /ihren.{1,10}gewinn zu bestätigen/iu
 

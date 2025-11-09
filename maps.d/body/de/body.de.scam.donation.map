@@ -88,6 +88,7 @@
 /ich habe.{1,10}eine.{1,10}spende von.{1,15}(dollar|euro?|gbp|usd|€|\$|£)/i
 /ich habe.{1,10}einen.{1,10}charity.?fonds/i
 
+/ihre?.{1,10}e?.?mail.?(adresse|konto)?.{1,15}als.{1,20}begünstigter/iu
 /ihre?.{1,10}e?.?mail.?(adresse|konto)?.{1,15}ausgewählt wurde.{1,15}spende/iu
 
 /ihre?.{1,10}e?.?mail.?(adresse|konto)?.{1,25}wurde.{1,15}für.{1,15}(investitionshilfe|spende|wohltätigkeitsspende)/iu
