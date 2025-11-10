@@ -60,6 +60,8 @@
 /(important|notice).{1,10}tax (details|document)/i
 
 /important.{1,10}information.{1,15}security/i
+/important.{1,10}information is missing from your.{1,15}account/i
+
 /important.{1,10}notification.{1,10}we noticed.{1,10}recent update/i
 /important.{1,10}security update.{1,10}dear valued customer/i
 
