@@ -285,7 +285,7 @@
 /alignment.{0,10}fix/i
 /allergy.{0,10}(fix|medication|sufferers)/i
 
-/ancient.{0,20}(enzyme|drink|fruit|ritual|tee|wellness|wine)/i
+/ancient.{0,20}(enzyme|drink|fruit|health|ritual|tee|wellness|wine)/i
 /anti.{0,10}(aging|fungal|fungus|wrinkle)/i
 
 /apnea.{0,10}(cure|watch)/i
@@ -615,7 +615,9 @@
 /herbal.{0,10}(discovery|wisdom)/i
 /herpes.{0,10}(beat it|breakthrough|eliminator|outbreak|talk)/i
 
-/hidden.{0,10}(danger|deficiency|dish|organ|path|power|protein|risk|ritual|science|threat|toxin)/i
+/hidden.{0,10}(crisis|danger|deficiency|dish)/i
+/hidden.{0,10}(organ|path|power|protein|risk|ritual|science|threat|toxin)/i
+
 /high.{0,10}(bp|sugar)/i
 
 /hip.{0,10}(flexors?|muscles?)/i
