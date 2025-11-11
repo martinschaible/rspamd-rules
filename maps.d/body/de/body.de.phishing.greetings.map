@@ -64,6 +64,7 @@
 /guten (abend|morgen|tag).{1,10}ihre sendung mit der/i
 /guten (abend|morgen|tag).{1,10}im rahmen unserer regulatorischen/i
 
+/guten (abend|morgen|tag).{1,10}sichern sie ihr.{1,15}konto/i
 /guten (abend|morgen|tag).{1,10}sicherheitswarnung/i
 /guten (abend|morgen|tag).{1,10}unser sicherheitssystem/i
 
@@ -129,6 +130,7 @@
 /lieb ,/i
 /lieber?.{1,10}kunde.{1,10}aus sicherheitsgründen/iu
 /lieber?.{1,10}kunde.{1,10}ihr.{1,15}(konto|passwort)/i
+/lieber?.{1,10}kunde.{1,10}Ihre?.{1,10}(paket|sendung) konnte nicht zugestellt/i
 /lieber?.{1,10}kunde.{1,10}leider war es uns.{1,10}nicht möglich/iu
 /lieber?.{1,10}kunde.{1,10}nach der aktualisierung/i
 /lieber?.{1,10}kunde.{1,10}wir haben (ungewöhnliche|versucht)/iu

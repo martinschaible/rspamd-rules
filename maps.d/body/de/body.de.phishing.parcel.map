@@ -152,6 +152,8 @@
 /zoll.{1,10}(steuergebühren|steuerzahlung).{1,10}erforderlich/iu
 /zollzahlung ist erforderlich/i
 
-/zustellung ist eine.{1,10}zahlung von/i
-/zustellung ist eine.{1,15}(kurze|online).{1,10}bestätigung erforderlich/iu
-/zustellversuche sind mit zusätzlichen gebühren verbunden/iu
+/(zustellung|zustellversuch).{1,10}aufgrund einer (falschen|unvollständigen).{1,10}adresse/iu
+/(zustellung|zustellversuch).{1,10}aufgrund falscher angaben/i
+/(zustellung|zustellversuch).{1,10}ist eine.{1,10}zahlung von/i
+/(zustellung|zustellversuch).{1,10}ist eine.{1,15}(kurze|online).{1,10}bestätigung erforderlich/iu
+/(zustellung|zustellversuch).{1,10}sind mit zusätzlichen gebühren verbunden/iu

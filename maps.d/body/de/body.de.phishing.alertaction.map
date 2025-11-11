@@ -98,7 +98,9 @@
 /sicherheits.?(hinweis|warnung).{1,10}(neuer|unbekannter) gerätezugriff/iu
 /sicherheits.?(hinweis|warnung).{1,10}zu ihrer.{1,10}(kredit)?karte/i
 
-/(sicherheits|system).?aktualisierung.{1,10}jetzt handeln/i
+/(sicherheits|system).?(aktualisierung|update).{1,10}ihr.{1,15}konto/i
+/(sicherheits|system).?(aktualisierung|update).{1,10}jetzt handeln/i
+
 /sicherheitsrichtlinien.{1,15}jetzt bestätigen/iu
 
 /sofortige bestätigung.{1,10}neue/iu

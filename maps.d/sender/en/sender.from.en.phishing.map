@@ -225,7 +225,7 @@
 
 # S
 /safety.{0,10}(alert|check)/i
-/security.{0,10}alert/i
+/security.{0,10}(alert|compliance)/i
 
 /server.?(admin|support|update)/i
 
