@@ -86,8 +86,8 @@
 
 /wir haben in unserem deutschen lager/i
 
-/wir produzieren.{1,25}mountain.?bikes?/i
-/wir produzieren.{1,25}(e.?bike|e.?cycle|elektrische|elektro|fahrräder)/i
+/wir (fertigen|produzieren).{1,25}mountain.?bikes?/i
+/wir (fertigen|produzieren).{1,25}(e.?bike|e.?cycle|elektrische|elektro|fahrräder)/i
 
 /wir sind ein.{1,15}(e.?bike|e.?cycle|elektro.?moped).{1,10}hersteller/iu
 
