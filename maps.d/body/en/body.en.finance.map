@@ -64,6 +64,7 @@
 
 /llc.{1,15}investment (company|firm)/i
 
+/(loan|credit)s?.{1,15}business with low interest/i
 /(loan|credit)s?.{1,10}you can now get up/i
 /(loan|credit)s?.{1,15}we offer/i
 
@@ -129,6 +130,7 @@
 /you.{1,10}(pre)?qualified for up to \{d3,6}/i
 
 /you need.{1,10}(reputable|urgent).{1,10}loan/i
+/you seeking.{1,10}financial assistance/i
 
 /your (company|organization).{1,10}seeking capital/i
 

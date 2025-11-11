@@ -45,11 +45,12 @@
 
 # D
 /dringend.{1,10}bestätigen sie ihre.{1,15}identität/iu
-/dringend.{1,10}überprüfung.{1,10}zahlungsinformationen.{1,10}erforderlich/i
+/dringend.{1,10}überprüfung.{1,10}(kundendaten|zahlungsinformationen).{1,10}erforderlich/iu
 
 /dringende aktualisierung ihres.{1,15}kontos/i
 
 # E
+/erinnerung.{1,10}ihre kundenpunkte/i
 
 # F
 /finale.{1,10}aufforderung.{1,15}kontomigration/i

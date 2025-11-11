@@ -205,7 +205,7 @@
 /(dringende?|letzte|wichtige?).{1,10}mitteilung.{1,10}zollgebühren/iu
 
 /dringende information.{1,10}korrektur/i
-/dringende sicherheitswarnung/i
+/dringende (sicherheitsprüfung|sicherheitswarnung)/iu
 /dringender handlungsbedarf.{1,15}bank/i
 
 /dringlichkeit.{1,10}aufmerksamkeit/i
@@ -222,6 +222,7 @@
 /erinnerung.{1,10}aktualisierung ihrer/i
 /erinnerung.{1,10}änderung ihrer anmeldedaten/iu
 /erinnerung.{1,10}ihre listing auf/i
+/erinnerung.{1,10}ihre kundenpunkte/i
 /erinnerung.{1,10}konto ist.{1,15}ungeschützt/iu
 /erinnerung.{1,15}möglichkeit einer zusammenarbeit/iu
 
