@@ -82,10 +82,11 @@
 /unsere.{1,10}elektrofahrradmodelle/i
 /unsere.{1,10}fabrik produziert/iu
 /unserem.{1,10}(deutschen|europäischen) lager.{1,10}(bieten wir|derzeit)/iu
-/unserem.{1,10}lager in deutschland beträgt/iu
+/unserem.{1,10}lager in deutschland (beträgt|erfolgt)/iu
 
 /wir haben in unserem deutschen lager/i
 
+/wir bieten.{1,20}elektro.?fahrräder/iu
 /wir (fertigen|produzieren).{1,25}mountain.?bikes?/i
 /wir (fertigen|produzieren).{1,25}(e.?bike|e.?cycle|elektrische|elektro|fahrräder)/i
 
