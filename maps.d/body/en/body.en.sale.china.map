@@ -9,6 +9,26 @@
 # Topics
 # ==============================================================================
 
+# Company stuff
+# ------------------------------------------------------------------------------
+/china co.{1,10}(limited|ltd)/i
+
+/co.{1,5}(limited|ltd).{1,10}tel: \+86/i
+/co.{1,5}(limited|ltd).{1,10}excited to introduce/i
+/co.{1,5}(limited|ltd).{1,15}(manufacturer|professional|specialize|supplier)/i
+/co.{1,5}(limited|ltd).{1,10}is.{1,10}popular in/i
+/co.{1,5}(limited|ltd).{1,10}mob(ile)?.{1,10}wechat/i
+/co.{1,5}(limited|ltd).{1,10}machining/i
+/co.{1,5}(limited|ltd).{1,10}nice to know you/i
+/co.{1,5}(limited|ltd).{1,10}offers a wide range/i
+/co.{1,5}(limited|ltd).{1,10}trusted/i
+/co.{1,5}(limited|ltd).{1,10}to you/i
+
+/(ceramics|clothing|plastic|product).{1,10}co.{1,5}(limited|ltd)/i
+
+/(limited|ltd).{1,10}(specializes in|we are major)/i
+/(limited|ltd).{1,10}we (provide|specialize)/i
+
 #
 #
 #
@@ -24,24 +44,11 @@
 # C
 /certified.{1,10}(company|factory|supplier).{1,10}manufactures/i
 
-/china co.{1,10}(limited|ltd)/i
 /china.{1,10}thank you for taking the time/i
 /china.{1,10}we can offer/i
 
-/co.{1,5}(limited|ltd).{1,10}tel: \+86/i
-/co.{1,5}(limited|ltd).{1,10}excited to introduce/i
-/co.{1,5}(limited|ltd).{1,15}(manufacturer|professional|specialize|supplier)/i
-/co.{1,5}(limited|ltd).{1,10}is.{1,10}popular in/i
-/co.{1,5}(limited|ltd).{1,10}mob(ile)?.{1,10}wechat/i
-/co.{1,5}(limited|ltd).{1,10}machining/i
-/co.{1,5}(limited|ltd).{1,10}nice to know you/i
-/co.{1,5}(limited|ltd).{1,10}offers a wide range/i
-/co.{1,5}(limited|ltd).{1,10}trusted/i
-/co.{1,5}(limited|ltd).{1,10}to you/i
-
 /(company|factory|supplier) of.{1,10}electronic components since/i
 
-/(ceramics|clothing|plastic).{1,10}co.{1,5}(limited|ltd)/i
 
 # D
 /discover our stunning.{1,15}(acrylic|furniture)/i
@@ -68,9 +75,6 @@
 # L
 /(leading|trusted|your).{1,10}(pcba?|printed.?circuit.?board).{1,10}(company|factory|supplier)/i
 /(leading|trusted).{1,10}partner to oem/i
-
-/(limited|ltd).{1,10}(specializes in|we are major)/i
-/(limited|ltd).{1,10}we (provide|specialize)/i
 
 # M
 /manufacturer.{1,10}china.{1,10}who are in industry/i
@@ -107,10 +111,12 @@
 /since foun?dation.{1,15}we specialized in/i
 
 /solutions tailored to your.{1,10}requirements/i
-/(specializes|specialized).{1,10}rapid prototyping/i
-/(specializes|specialized).{1,10}producing.{1,10}(injection|moulding|parts)/i
 
 /special sea freight space to/i
+/specialist.{1,15}plastic products factory/i
+
+/(specializes|specialized).{1,10}rapid prototyping/i
+/(specializes|specialized).{1,10}producing.{1,10}(injection|moulding|parts)/i
 
 # T
 /trade.{1,10}industry co.{1,5}ltd/i

@@ -42,7 +42,7 @@
 /ihre.{1,15}rechnung für den monat.{1,25}doppelt bezahlt/iu
 
 # J
-/jetzt rückerstattung beantragen/iu
+/jetzt.{1,15}rückerstattung beantragen/iu
 
 # K
 
@@ -66,6 +66,9 @@
 /(rückerstattung|rückzahlung).{1,15}ist vorbereitet/i
 
 # S
+/sie eine.{1,15}entschädigung in höhe von.{1,15}erhalten werden/iu
+/sie haben eine.{1,10}entschädigung von/iu
+
 /sie ihre rückerstattungsrechnung/iu
 
 /swisspass\.ch.{1,10}(rück)?erstattung/iu

@@ -12,7 +12,7 @@
 # Ukraine
 # ------------------------------------------------------------------------------
 /(swiss|treff).?ukrain(a|e)/i
-/(treffe|triff).{1,10}ukrainische frauen/i
+/(finde|treffe|triff).{1,10}ukrainische.{1,10}(frauen|mädchen)/iu
 
 # Profile
 # ------------------------------------------------------------------------------
@@ -103,9 +103,9 @@
 
 /fotze|muschi|möse|pussy.{1,10}(leckst|lecken)/iu
 
-/frau (aus|in) deiner.{1,10}(nähe|region|umgebung) hat dein.{1,10}profil/iu
-/frau (aus|in) deiner.{1,10}(nähe|region|umgebung) hat dich bemerkt/iu
-/frau (aus|in) deiner.{1,10}(nähe|region|umgebung) (findet|ist auf) dich/iu
+/frau(en)? (aus|in) deiner.{1,10}(nähe|region|umgebung) hat dein.{1,10}profil/iu
+/frau(en)? (aus|in) deiner.{1,10}(nähe|region|umgebung) hat dich bemerkt/iu
+/frau(en)? (aus|in) deiner.{1,10}(nähe|region|umgebung) (findet|ist auf) dich/iu
 
 /frauen.{1,10}schreiben täglich/iu
 

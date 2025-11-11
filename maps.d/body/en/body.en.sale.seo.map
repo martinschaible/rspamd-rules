@@ -85,6 +85,8 @@
 /not showing up well.{1,10}(bing|google|yahoo)/i
 
 # O
+/on to the front page of.{1,10}(bing|google|yahoo)/i
+
 /our.{1,10}seo services/i
 /our.{1,10}(complete|comprehensive).{1,10}seo/i
 
@@ -126,9 +128,10 @@
 
 /we can.{1,10}(promote|put|rank) your.{1,10}(web)?site/i
 /we can.{1,10}help you.{1,15}(rank higher|seo)/i
+/we can.{1,10}help get your.{1,10}(web)?site/i
 /we do.{1,10}seo for all/i
 
-/we.{1,10}(get|guarantee) top.{1,15}(placement|positions?|ranking)/i
+/we.{1,10}(get|guarantee){1,10}top.{1,15}(placement|positions?|ranking)/i
 /we.{1,10}help companies enhance.{1,10}seo/i
 /we.{1,10}offer.{1,15}seo.?solutions?/i
 /we.{1,10}rank you in the top/i
