@@ -115,7 +115,7 @@
 # F
 /^fachkräften?$/iu
 
-fettverbrenner/i
+/fettverbrenner/i
 
 /finanzbedürfnissen/iu
 /finanzinvestitionen/i
@@ -284,6 +284,7 @@ fettverbrenner/i
 # Q
 
 # R
+/radarfallen?/i
 /rauchmelder!/i
 
 /rechnungsrückerstattung/iu
@@ -301,6 +302,8 @@ fettverbrenner/i
 # S
 /sauberlaufmatten/i
 /sauberlaufteppiche/i
+
+/schlafstörung(en)?/i
 
 /schlankheitsmethode/i
 /schlankpaket/i
@@ -366,8 +369,9 @@ fettverbrenner/i
 /^übertragen/i
 /übertragungsbegünstigter/iu
 
-/^überprüfung$/iu
-/^Überprüfung$/u
+/überprüfung/iu
+/Überprüfung/u
+
 #/überraschungsbox/iu
 /überraschungsspende/iu
 
