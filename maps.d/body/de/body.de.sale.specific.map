@@ -150,7 +150,19 @@
 
 # Pen
 # ------------------------------------------------------------------------------
-/(werbe)?(kugelschreiber|kuli).{1,10}(ihrem|mit).{1,10}logo/i
+/(werbe)?(kugelschreiber|kuli).{1,10}(individuellem|ihrem|mit).{1,10}(druck|logo)/i
+/(werbe)?(kugelschreiber|kuli).{1,10}(gummierung|gummiert|ihr logo|softgriff|werbeeindruck)/i
+/(werbe)?(kugelschreiber|kuli).{1,10}(erhältlich|schon) ab/iu
+/(werbe)?(kugelschreiber|kuli).{1,10}mit.{1,10}(ihrem|kostenlosen)/i
+
+/ab.{1,10}cent.{1,20}(werbe)?(kugelschreiber|kuli)/i
+/(die neuen|einzigartige|erstklassige|gummierte|hochwertige|individuelle).{1,20}(werbe)?(kugelschreiber|kuli)/i
+/(personalisierten|premium).{1,20}(werbe)?(kugelschreiber|kuli)/i
+/(softgriff|sonderaktion).{1,20}(werbe)?(kugelschreiber|kuli)/i
+
+/unsere (exklusiven|neuen).{1,15}(werbe)?(kugelschreiber|kuli)/i
+
+/unsere?.{1,10}(werbe)?(kugelschreiber|kuli) ist ein/i
 
 # Regale
 # ------------------------------------------------------------------------------

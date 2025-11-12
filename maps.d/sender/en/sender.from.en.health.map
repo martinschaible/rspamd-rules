@@ -706,7 +706,8 @@
 /mental.{0,10}clarity/i
 
 /metabolic.{0,10}insights/i
-/metabolism.{0,10}(boost(er)?|hack|loophole|mute|organ|reset|unleash)/i
+/metabolism.{0,10}(boost(er)?|hack|loophole|mute|organ|unleash)/i
+/metabolism.{0,10}(research|reset|revival)/i
 
 /mexican.{0,10}salt/i
 /midnight.{0,10}bathroom/i
@@ -717,6 +718,8 @@
 /mineral.{0,10}(combination|magic)/i
 
 /(mineral|miracle).{0,10}(alert|burner|drops?|minerals?|syrup)/i
+
+/minute.{0,10}fix/i
 
 /(miracle|miraculous).{0,10}(fruit|mind)/i
 

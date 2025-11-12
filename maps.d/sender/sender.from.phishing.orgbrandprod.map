@@ -144,7 +144,7 @@
 /amaz0n/i
 /amazon{0,10}visa/i
 
-/von{1,10}amazon/i
+/(kundenservice|von).{1,10}amazon/i
 
 /^ana$/i
 /ana.?sky.?web/i

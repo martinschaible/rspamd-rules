@@ -69,24 +69,23 @@
 /aktivitäten erkannt.{1,10}maßnahmen erforderlich/i
 
 /aktualisierung erforderlich/i
-#/aktualisierung.{1,10}erforderlich.{1,20}konto.{1,10}(gesperrt|stillgelegt)/i
+#/aktualisierung.{1,10}(erforderlich|notwendig).{1,20}konto.{1,10}(gesperrt|stillgelegt)/i
 
 /aktualisierung.{1,10}ihrer.{1,10}(kontakt|zahlungs).?informationen/i
 
 /aktualisierung.{1,20}bankanwendung/i
 
-/aktualisierung.{1,20}erforderlich.{1,10}konto/i
-/aktualisierung.{1,20}erforderlich.{1,15}sichern sie ihr.{1,15}konto/i
+/aktualisierung.{1,20}(erforderlich|notwendig).{1,10}konto/i
+/aktualisierung.{1,20}(erforderlich|notwendig).{1,15}sichern sie ihr.{1,15}konto/i
 
 /aktualisierung.{1,10}informationen.{1,25}(sicherheit|erhöhung)/i
 /aktualisierung.{1,10}kontozugriffs?/i
-/aktualisierung.{1,10}kontodaten erforderlich/i
+/aktualisierung.{1,20}kontodaten (erforderlich|notwendig)/i
 /aktualisierung.{1,25}(kredit)?karte/i
 /aktualisierung.{1,10}noch ausstehend/i
 /aktualisierung.{1,20}phototan.?app/i
 
 /aktualisierung.{1,10}überprüfen sie/i
-
 /aktualisierung ihrer.{1,10}unternehmensdaten/i
 /aktualisierung ihrer.{1,10}daten (erforderlich|notwendig)/i
 /aktualisierung ihrer.{1,10}telefonnummer/i
