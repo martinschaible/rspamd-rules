@@ -60,7 +60,7 @@
 # K
 
 # L
-/lender offering great/i
+/lender.{1,10}offering great/i
 
 /llc.{1,15}investment (company|firm)/i
 
@@ -69,15 +69,16 @@
 /(loan|credit)s?.{1,15}we offer/i
 
 # M
-/(my|our) company.{1,10}(offering|offers|provides|providing).{1,10}(competitive|corporate).{1,15}loans/i
-/(my|our) company.{1,10}(offering|offers|provides|providing).{1,15}loans/i
+/(my|our) company.{1,10}(offering|offers?|provides?|providing).{1,10}(competitive|corporate).{1,15}loans/i
+/(my|our) company.{1,10}(offering|offers?|provides?|providing).{1,15}loans/i
 
 # N
 
 # O
-/(offering|offers|provides|providing).{1,10}corporate.{1,10}(financing|personal).{1,10}loans/i
-/(offering|offers|provides|providing).{1,10}business loans.{1,10}interest.?rate/i
-/(offering|offers|provides|providing).{1,15}financing to.{1,15}companies/i
+/(offering|offers?|provides?|providing).{1,10}corporate.{1,10}(financing|personal).{1,10}loans/i
+/(offering|offers?|provides?|providing).{1,10}business loans.{1,10}interest.?rate/i
+/(offering|offers?|provides?|providing).{1,10}business loans.{1,10}personal loans/i
+/(offering|offers?|provides?|providing).{1,15}financing to.{1,15}companies/i
 
 /our.{1,10}business loan offers/i
 /our.{1,10}investors.{1,10}are ready to provide/i
@@ -88,6 +89,7 @@
 /quick.{1,10}reliable.{1,10}financial support/i
 
 # R
+/reputable.{1,10}reliable.{1,10}lender/i
 
 # S
 /secure.{1,10}funding/i

@@ -22,13 +22,14 @@
 
 /from china (recently|to)/i
 
+/competitive.{1,15}from.{1,10}china/i
 /(components|plastic|supply|toolmaking).{1,10}china/i
-/parts in china/i
+/parts.{1,10}(from|in|of).{1,10}china/i
 
 /hot.{1,15}from china/i
-/(manufacturer?|moulding|suppliers?) (from|in|of).{1,10}china/i
-/moulding.{1,10}services (from|in|of) china/i
-/shoe factory (from|in|of) china/i
+/(manufacturer?|moulding|suppliers?).{1,10}(from|in|of).{1,10}china/i
+/moulding.{1,10}services.{1,10}(from|in|of).{1,10}china/i
+/shoe factory.{1,10}(from|in|of).{1,10}china/i
 
 /(pcba?|printed.?circuits?.?board).{1,10}factory (from|in) china/i
 
@@ -81,9 +82,9 @@
 /(design|manufacture|you need).{1,15}pcba?/i
 
 /co.{1,5}(limited|ltd)/i
+
 /components?.{1,10}distributor.{1,10}rfq/i
 /components?.{1,10}rfqs? dealing/i
-
 
 /contact.{1,10}pcba?.{1,10}supplier/i
 
