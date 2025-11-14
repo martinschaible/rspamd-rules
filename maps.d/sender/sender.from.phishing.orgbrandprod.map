@@ -261,6 +261,7 @@
 /dhl-paket$/i
 /dhl.{0,5}\d{1,2}/i
 
+/dhl.{0,5}clearance/i
 /dhl.{0,5}delivery express/i
 /dhl.{0,5}(kundenservice|lieferung)/i
 /dhl.{0,5}(logistik.?team|logistikzentrum)/i
@@ -610,7 +611,7 @@
 /rewe.?(™|®|©)$/i
 /\| rewe$/i
 
-/\brossmann.?(™|®|©)?$/i
+/\brossmann.?(™|®|©)$/i
 /r0ssmann/i
 
 # S
@@ -695,6 +696,7 @@
 /swica.{0,10}(leistungszentrum|support|versicherung)/i
 /swica.?-/i
 
+/swisscom-ag/i
 /swisscom.{0,10}(exklusiv|info|mitteilung(en)?|support)/i
 /swisscom.{0,10}(kommunikation|kundenbetreuu?ng|kundenservice)/i
 /swisscom.{0,10}rechnung/i
