@@ -117,6 +117,8 @@
 
 /fuel.{0,10}saver/i
 
+/furniture.{0,10}plans?/i
+
 # G
 /gadget.{0,10}savers?/i
 /gear.{0,10}(dispatch|support)/i
@@ -165,6 +167,7 @@
 
 # M
 /meet.{0,10}your/i
+/military.{0,10}grade/i
 /mini.{0,10}(blower|cool|heater|jet)/i
 
 /mobile.{0,10}photography/i
@@ -299,7 +302,7 @@
 
 /wi.?fi.{0,15}projector/i
 
-/woodworking.{0,10}plans/i
+/woodwork(ing)?.{0,10}(plans|tooling)/i
 
 # X
 

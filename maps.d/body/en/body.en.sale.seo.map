@@ -108,6 +108,7 @@
 /seo.{1,10}needs.{1,15}(improvement|significant)/i
 /seo.{1,10}(packages?|proposal|services?)/i
 /seo.{1,10}poorly done/i
+/seo.{1,10}price.?list/i
 /seo.{1,10}pricing.{1,15}interested/i
 /seo.{1,15}saw that your.{1,10}(web)?site/i
 /seo.{1,10}technical optimization/i
@@ -155,14 +156,15 @@
 
 /your business to the top of.{1,15}rankings/i
 
+/your.{1,10}(web)?.?site.{1,15}affect its ranking/i
 /your.{1,10}(web)?.?site.{1,15}impressed /i
 /your.{1,10}(web)?.?site.{1,15}not ranking (good|in|well)/i
 /your.{1,10}(web)?.?site.{1,15}seo issues/i
 
-/your.{1,10}(web)?site.{1,10}(ranks?|ranking).{1,10}(first|higher|top|well)/i
-/your.{1,10}(web)?site.{1,10}(ranks?|ranking).{1,10}search.?engines/i
-/your.{1,10}(web)?site.{1,10}(ranks?|ranking).{1,10}not good/i
+/your.{1,10}(web)?.?site.{1,10}(ranks?|ranking).{1,10}(first|higher|top|well)/i
+/your.{1,10}(web)?.?site.{1,10}(ranks?|ranking).{1,10}search.?engines/i
+/your.{1,10}(web)?.?site.{1,10}(ranks?|ranking).{1,10}not good/i
 
-/your.{1,10}(web)?site.{1,10}that might be affecting.{1,20}ranking/i
+/your.{1,10}(web)?.?site.{1,10}that might be affecting.{1,20}ranking/i
 
 # Z

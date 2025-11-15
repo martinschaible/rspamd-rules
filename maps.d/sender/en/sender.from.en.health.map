@@ -314,7 +314,7 @@
 
 /basic.{0,10}protein/i
 
-/beauty.{0,10}(acid|hack|secret|tip)/i
+/beauty.{0,10}(acid|hack|revival||secret|tip)/i
 
 /bed.{0,10}(hack|stretch)/i
 /bed.?time.{0,10}(brew|habit|move|reset|solution)/i
@@ -332,12 +332,12 @@
 
 /bitter.{0,10}fruit/i
 /black.{0,10}coffee/i
-/bladder.{0,10}(boost|care|control|danger|fix|flush|health)/i
+/bladder.{0,10}(boost|care|coach|control|danger|fix|flush|health)/i
 /bladder.{0,10}(leaks?|leakage|leaking|issues?)/i
 
 /bloat(ing)?.{0,10}(free|fruits?|solution)/i
 /blocking.{0,10}teas?/i
-/blood.{0,10}(clots?|flow|glucose|pressure|solution|sugar)/i
+/blood.{0,10}(boost|clots?|flow|glucose|pressure|solution|sugar)/i
 
 /blue.{0,10}(drink|juice|pill|plant|replacement)/i
 /blurry.{0,10}fix/i
