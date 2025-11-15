@@ -74,7 +74,7 @@
 /anspruch auf.{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
 /(benachrichtigung|bestätigt).{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
 /(entscheiden sie|erhalten sie ihre?|exklusiver preis).{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
-/(gewinn|glückwunsch|gratulation).{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/iu
+/(gewinn|gewinnspiel|glückwunsch|gratulation).{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/iu
 /nur heute.{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
 /nur \d (chf|euro).{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
 /(umfrage|unglaublich).{1,20}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
@@ -401,6 +401,7 @@
 
 /preise?.{1,10}freigeschaltet/i
 /preise?.{1,10}(ist|sind) begrenzt/i
+/preise?.{1,10}steht bereit.{1,10}verbleiben/i
 /preise?.{1,10}zugestellt zu bekommen/i
 
 /produkt berechtigt.{1,10}bestätigung ausstehend/iu
