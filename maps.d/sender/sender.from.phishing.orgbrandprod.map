@@ -192,7 +192,7 @@
 
 /cff.?sbb/i
 
-/chatgpt.?(ai|\+)/i
+/chatgpt.?(ai|\+|plus)/i
 /chatgpt.{0,10}zahlung(en)?/i
 /chatgpt.{0,10}(payments|services|team)/i
 

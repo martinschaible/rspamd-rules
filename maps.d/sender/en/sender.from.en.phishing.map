@@ -150,6 +150,7 @@
 # F
 /f\.b\.i agent/i
 
+/failed.{0,10}delivery/i
 /feedback.{0,10}(center|team)/i
 
 /fraud.{0,15}(detection|prevention)/i
@@ -204,6 +205,7 @@
 
 /offers?.{0,10}(program|team)/i
 /opinion.{0,10}request(ed)?/i
+/order.{0,10}(confirmation|pending|update)/i
 
 # P
 /pending.{1,10}e?.?mails/i

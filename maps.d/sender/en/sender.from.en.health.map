@@ -343,7 +343,7 @@
 /blurry.{0,10}fix/i
 
 /breath(ing)?.{0,10}(clear|science)/i
-/brain.{0,10}(boost|care|exercise|fix|flow|health|noise|reset|revival|shrinkage|solution|upgrade)/i
+/brain.{0,10}(boost|re?(boot)care|exercise|fix|flow|health|noise|reset|revival|shrinkage|solution|upgrade)/i
 
 /breakfast.{0,10}(alert|boost|insider|juice|myth|treat|quiz)/i
 /(breathe|breathing).{0,10}(better|clearer|easier|easy|easy)/i
@@ -792,7 +792,7 @@
 /pancreas.{0,10}reset/i
 /passion.{0,10}tea/i
 
-/pee.{0,10}(control|leaks|solution|strong(er)?|out)/i
+/pee.{0,10}(control|fix|leaks?|solution|strong(er)?|out)/i
 
 /pelvic.{0,10}(care|floor|recovery)/i
 /penis.{0,10}(muscle|ritual)/i
@@ -958,7 +958,7 @@
 
 /stuck.{0,10}poop/i
 
-/sugar.{0,10}(control|eraser|fix|free|guilty|reboot|report|spike|traps|trick)/i
+/sugar.{0,10}(control|eraser|fix|free|guilty|hack|reboot|report|spike|traps|trick)/i
 /super.{0,10}(fruits?|water)/i
 
 /surgeon.{0,10}reveals?/i

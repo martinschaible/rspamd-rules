@@ -488,8 +488,9 @@
 /sicherheits.?(funktionen|option|upgrade).{1,10}für ihr.{1,15}konto (aktivieren|aktualisieren)/i
 /sicherheits.?(funktionen|option|upgrade).{1,10}jetzt (aktivieren|aktualisieren)/i
 
-/(systemaktualisierung|sicherheitssystem|systemmitteilung).{1,10}jetzt (aktualisieren|sofort handeln)/i
-/(systemaktualisierung|sicherheitssystem|systemmitteilung).{1,10}umgehend durchführen/iu
+/(systemaktualisierung|sicherheitssystem|systemmeldung|systemmitteilung).{1,10}jetzt (aktualisieren|sofort handeln)/i
+/(systemaktualisierung|sicherheitssystem|systemmeldung|systemmitteilung).{1,10}letzter schritt/i
+/(systemaktualisierung|sicherheitssystem|systemmeldung|systemmitteilung).{1,10}umgehend durchführen/iu
 
 /sichern sie ihr.{1,15}konto so schnell wie möglich/iu
 

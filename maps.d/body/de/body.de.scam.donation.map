@@ -36,6 +36,7 @@
 
 # B
 /beantragung.{1,10}spende zu erhalten/i
+
 /belohnung endet am/i
 
 /bestätigen sie den erhalt ihrer spende/i
@@ -175,6 +176,8 @@
 /(spende|zuschuss).{1,10}wurde bearbeitet und kann an sie/i
 /(spende|zuschuss).{1,10}zugesprochen.{1,15}weitere informationen/iu
 /(spende|zuschuss).{1,10}zu erhalten.{1,10}kontaktieren sie/i
+
+/(spende|zuschuss|weltweit)weltweit.{1,10}sie gehören zu den.{1,10}begünstigten/iu
 
 /spenden.{1,10}können sie mir helfen/iu
 /spenden.{1,10}sie wurden als.{1,15}empfänger/iu
