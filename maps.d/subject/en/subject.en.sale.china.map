@@ -47,6 +47,7 @@
 
 /(acrylic|window).{1,10}display systems/i
 (acrylic|bottles|jar).{1,10}wholesale rates/i
+/acrylic.{1,10}chairs?.{1,10}sales?/i
 
 /aluminum die casting/i
 /(apparel|caps).{1,10}together/i
@@ -307,6 +308,7 @@
 
 /plastic.?injection.{1,10}mould.?maker/i
 /plastic.?(mold|tooling|toolmaking).{1,10}(making|quotation|services|solution)/i
+/plate.{1,10}mesh.{1,10}manufacturer/i
 
 /polo.{1,10}lanyard.{1,10}supplier/i
 
@@ -381,6 +383,8 @@
 # T
 /toolmaking services.{1,10}china/i
 /tooling.{1,10}mold(ing)? parts/i
+
+/try.{1,10}acrylic.{1,10}furniture/i
 
 /trusted.{1,10}manufacturer/i
 /trusted.{1,10}professionals?.{1,10}manufacturer/i

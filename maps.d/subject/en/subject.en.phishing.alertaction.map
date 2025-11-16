@@ -240,6 +240,7 @@
 
 /notification.{1,10}(action required|incomplete|updated)/i
 /notification.{1,10}account.{1,30}closure/i
+/(confidential|notification).{1,10}(access|protect) your crypto/i
 
 # 13.07.25 - Notification of billing amount confirmation
 /ご請求金額確定のご案内/i

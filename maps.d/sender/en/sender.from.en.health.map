@@ -93,7 +93,7 @@
 /(health|quick).{0,10}(boost(er)?|fix|guide)/i
 
 /healthy?.{0,10}(aging|alerts?|alternative)/i
-/healthy?.{0,10}(brain|choice(es)?|deals?|digest)/i
+/healthy?.{0,10}(brain|briefing|choice(es)?|deals?|digest)/i
 /health.?.{0,10}(discovery|digest|enigma)/i
 /healthy?.{0,10}(feet|fibes|files?|foods?|freedom)/i
 /healthy?.{0,10}(gift|guides?|gut)/i
@@ -707,7 +707,7 @@
 
 /metabolic.{0,10}insights/i
 /metabolism.{0,10}(boost(er)?|hack|loophole|mute|organ|unleash)/i
-/metabolism.{0,10}(research|reset|revival)/i
+/metabolism.{0,10}(research|reset|revival|wine)/i
 
 /mexican.{0,10}salt/i
 /midnight.{0,10}bathroom/i
@@ -731,7 +731,7 @@
 /mobility.{0,10}(fix|matters)/i
 
 /morning.{0,10}(alert|boost|brew|dessert|detox|drink|hack|melt|metabolics|metabolism|mistake)/i
-/morning.{0,10}(oil|reset|ritual|routine|slimmer|tweak|wood)/i
+/morning.{0,10}(oil|reset|ritual|routine|slimmer|tweak|vitality|wood)/i
 /morphine.{0,10}fruit/i
 
 /mouth.{0,10}(detox|odor)/i
@@ -753,6 +753,7 @@
 /nature.{0,10}(cure|morphine|opioids?|tea)/i
 
 /neck.{0,10}skin/i
+/nectar.{0,10}fix/i
 /nerves?.{0,10}(comfort|damage|defense|health|killing|pain|recovery|repair|revival|support|tip)/i
 /neuro.{0,10}boost/i
 

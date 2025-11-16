@@ -61,7 +61,7 @@
 /cellulite innerhalb/i
 
 # D
-/dezent.{1,10}kaufen/i
+/(dezent|diskret).{1,10}(bestellen|kaufen)/i
 /dünner werdendes haar/iu
 
 # E
@@ -78,6 +78,8 @@
 /gesund.{1,10}entdecken sie die neue/i
 
 # H
+/härter im bett/i
+
 /herz.?(beschleunigung|unruhe|schlag|stolpern)/i
 
 # I
@@ -118,11 +120,13 @@
 
 /pflegeleicht mit.{1,10}earpro/i
 
+/produkt.{1,10}diskret/i
 /prostatitis in nur.{1,10}tagen/i
 
 # Q
 
 # R
+/rezeptfreie.{1,10}bestellung/i
 
 # S
 /schluss mit.{1,10}(nagel|fuss|fuß).?pilz/i
