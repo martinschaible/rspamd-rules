@@ -84,10 +84,14 @@
 /ich bin.{1,10}(frau|fräulein|herr)/i
 /ich bin.{1,10}(miss|mrs?|ms|sir)/i
 
-/ich bin mutter.{5,25}frau/i
 /ich bin.{1,10}jahre alt.{1,10}meine e?.?mail(.?adresse)? ist/i
 
 /ich bin.{1,10}auf ihre.{1,10}e?.?mail.?adresse/i
+
+/ich bin hier.{1,10}um ihnen/i
+/ich bin mutter.{5,25}frau/i
+/ich habe einen grund.{1,10}sie zu kontaktieren/i
+
 
 # :-)
 /ich bin.{1,10}elon musk/i

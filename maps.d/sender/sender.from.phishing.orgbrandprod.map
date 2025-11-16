@@ -469,7 +469,10 @@
 
 /meta.{0,5}ads$/i
 /meta.{0,5}(ads|support).?team/i
+
 /meta(mask)?.{0,5}(advertising|alert|compliance|system|trust|updates?|verification|wallet)/i
+/meta(mask)?.{0,5}verifiziert/i
+
 /meta for business/i
 /meta help center/i
 

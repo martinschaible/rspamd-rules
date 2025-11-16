@@ -34,8 +34,8 @@
 # H
 
 # I
-/ich bin ein professioneller hacker/i
-/ich bin ein hacker/i
+/ich bin ein professioneller (hacker|häcker)/i
+/ich bin ein (hacker|häcker)/i
 
 /ich\b.{1,25}(zugang|zugriff).{1,10}(auf|zu).{1,10}(alle|deine?|ihre?).{1,10}(dateien|geräte|konto)/i
 /ich\b.{1,25}(zugang|zugriff).{1,10}(auf|zu).{1,10}(computer|system).{1,10}verschafft/i
@@ -44,6 +44,7 @@
 
 /ihr (computer|system) mit.{1,10}virus/i
 /ihr (computer|system) wurde (gehackt|geknackt) mit/i
+/ihr.{1,25}zu häcken/i
 
 /ihre aktivitäten heimlich überwacht/iu
 
