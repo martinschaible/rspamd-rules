@@ -296,6 +296,8 @@
 /dkb\.de/i
 /dkb.{0,5}team/i
 
+/d k b.{0,5}ag/i
+
 /dpdepot/i
 
 /_dpd/i
@@ -735,7 +737,7 @@
 /targ0bank/i
 
 /tcs.?car/i
-/tcs.{0,10}(kundenservice|mitglieder)/i
+/tcs.{0,10}(abteilung|kundenservice|mitglieder)/i
 
 /team_/i
 /team.{0,10}(account|paletten?)/i
