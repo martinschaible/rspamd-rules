@@ -38,6 +38,8 @@
 /(activate|enable).{1,10}2fa now/i
 /(activate|enable).{1,10}two.?factor authentication/i
 
+/alert.{1,10}verify your wallet/i
+
 /attention.{5,20}incoming messages/i
 
 # B

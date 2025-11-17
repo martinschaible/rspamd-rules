@@ -40,8 +40,7 @@
 /(darlehen|kredit).{1,10}(investition|online)/i
 /(darlehen|kredit).{1,15}(interest rate|loan)/i
 
-/(darlehen|kredit).{1,10}mit.{1,10}zinssatz/i
-
+/(darlehen|kredit).{1,10}(mit|nur).{1,10}(jahreszins|zinssatz)/i
 /(darlehen|kredit).{1,10}projekt.{1,10}finanzierung/i
 /(darlehen|kredit).{1,10}sichern.{1,10}(anfragen|jetzt)/i
 /(darlehen|kredit).{1,10}verfügbar/i
@@ -132,6 +131,7 @@
 /suchen?.{1,10}nach.{1,10}(darlehen|kapital|kredit)/i
 
 # T
+/top.{1,10}(darlehen|kredit).{1,10}nur/i
 
 # U
 
