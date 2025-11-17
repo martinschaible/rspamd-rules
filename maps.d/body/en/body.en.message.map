@@ -125,6 +125,8 @@
 # X
 
 # Y
+/you.{1,10}(e?.?mail|letter|message).{1,10}ask for your personal help/i
+
 /you.{1,10}have a new.{1,10}(e?.?mail|letter|message).{1,10}an individual/i
 
 /you.{1,10}received the letter sent to your/i

@@ -88,7 +88,7 @@
 /(action|update) (needed|required).{1,20}payment update/i
 /(action|update) (needed|required).{1,15}prevent account/i
 
-/(action|update) (needed|required).{1,10}secure wallet/i
+/(action|update) (needed|required).{1,10}secure.{1,10}wallet/i
 /(action|update) (needed|required).{1,10}subscription renewal/i
 
 /(action|update) (needed|required).{1,15}tax (documents|records incomplete)/i
@@ -109,7 +109,7 @@
 /(action|update) (needed|required).{1,10}your.{1,15}(package|parcel|shipment) awaits/i
 /(action|update) (needed|required).{1,10}your.{1,15}(payment|web.?mail)/i
 
-/activation (pending|required).{1,10}secure your account/i
+/activation (pending|required).{1,10}secure.{1,10}(account|wallet)/i
 /activation (pending|required).{1,20}user account/i
 
 /activity detected.{1,10}activate.{1,20}2fa/i

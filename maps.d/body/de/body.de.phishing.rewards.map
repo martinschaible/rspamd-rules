@@ -54,6 +54,9 @@
 
 /(chance|hochwertiges|kostenloses).{1,10}(medicare|notfall).?(kit|set)/i
 
+# Nespresso
+/neue.{1,10}nespresso.{1,10}maschine sichern/iu
+
 #
 #
 #
@@ -137,6 +140,7 @@
 
 # N
 /nach.{1,10}stunden verfällt ihre chance/iu
+
 # O
 
 # P
