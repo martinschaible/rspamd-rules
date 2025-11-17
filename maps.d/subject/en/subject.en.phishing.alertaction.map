@@ -331,6 +331,7 @@
 /urgent.{1,10}(e.?mail|mailbox).{1,10}(action|update) (needed|required)/i
 /urgent.{1,10}incoming pending.{1,10}(e?.?mails|messages)/i
 /urgent.{1,10}two.?factor.{1,15}(activation|authentication)/i
+/urgent.{1,10}priority access to/i
 
 /urgent.{1,10}unusual activity detected/i
 /urgent.{1,10}upgrade your.{1,15}(mailbox|storage)/i

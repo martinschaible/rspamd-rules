@@ -107,6 +107,8 @@
 /sie haben.{1,10}\d{2,4}(\.|,)?\d{3,4}.{0,5}(dollars?|euro?|gbp|usd|€|\$|£).{1,10}gewonnen/i
 /sie haben.{1,10}\d{2,4}(\.|,)?\d{3,4}.{0,5}.{1,15}gewonnen/i
 
+/sie haben.{1,10}millionen.{1,10}(dollars?|euro?|gbp|usd|€|\$|£)/i
+
 # T
 
 # U
