@@ -121,6 +121,8 @@
 /aufmerksamkeit.{1,10}in dieser angelegenheit/i
 /aufmerksamkeit.{1,10}verifizierung erforderlich/i
 
+/automatic reply.{1,10}letzte chance/i
+
 /(re)?aktivieren sie ihre.{1,10}photo.?tan/i
 
 /assets.{1,10}jetzt aktualisieren/i
@@ -299,6 +301,8 @@
 /ihr handeln ist erforderlich/i
 
 /ihre domain verfaellt heute/i
+
+/ihre.{1,10}angaben sind veraltet/i
 /ihre.{1,20}(muss|müssen) aktualisiert werden/i
 
 /ihre.{1,10}sicherheit ist in gefahr.{1,20}schutz.{1,10}erneuern/i
@@ -589,6 +593,7 @@
 /wichtige?.{1,15}hinweis?.{1,10}nachrichten warten/i
 /wichtige?.{1,15}hinweis?.{1,10}mtan/i
 /wichtige?.{1,15}hinweis?.{1,10}sperrung ihrer/i
+/wichtige?.{1,15}hinweis?.{1,10}von/i
 /wichtige?.{1,15}hinweis?.{1,10}zur datensicherheit/i
 
 #/wichtige?.{1,15}informationen/i

@@ -55,7 +55,9 @@
 /(chance|hochwertiges|kostenloses).{1,10}(medicare|notfall).?(kit|set)/i
 
 # Nespresso
-/neue.{1,10}nespresso.{1,10}maschine sichern/iu
+/(jetzt|neue)(.{1,10}nespresso)?.{1,10}maschine sichern/iu
+
+/maschine sichern.{1,10}ohne aufpreis/i
 
 #
 #
@@ -182,6 +184,7 @@
 # T
 
 # U
+/um ihr.{1,10}geschenk abzuholen/i
 /um ihr.{1,15}zu erhalten.{1,10}klicken sie/i
 
 /umfrage.{1,10}ergebnisse.{1,10}gewinner/i
