@@ -368,6 +368,8 @@
 /gls.{0,10}(kundendienst|kundenservice)/i
 /gls.{0,10}(online|sendung|support|team)/i
 
+/group.{0,5}gls/i
+
 /google.?drive/i
 /google.{0,10}(claim|inc|llc|team)/i
 /google.{0,10}(gewinnspiel|online)/i
