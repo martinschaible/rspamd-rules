@@ -91,6 +91,7 @@
 # L
 
 # M
+/imap\/pop3.{1,10}delivery incomplete/i
 
 # N
 /not being delivered to your inbox/i
@@ -111,6 +112,7 @@
 
 # S
 /server has important.{1,10}(e?.?mail|message)s?.{1,10}suspended/i
+/server issues.{1,10}port:993.{1,10}incoming/i
 
 # T
 /terminate your.{1,10}e?.?mail.{1,10}account.{1,15}@/i
