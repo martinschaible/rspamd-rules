@@ -159,7 +159,7 @@
 
 # G
 /gift from/i
-/gift.{0,10}inside/i
+/gift.{0,10}(deals?|inside)/i
 /gift(.?card)?.{0,10}(chance|opportunity)/i
 
 /group.{0,10}(sales|team)/i

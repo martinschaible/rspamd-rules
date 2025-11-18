@@ -63,7 +63,7 @@
 
 # C
 /chat.{1,10}(betreten|dates?)/i
-/chatten?.{1,15}(fotos|mit|videos)/i
+/chatten?.{1,15}(dating|fotos|mit|videos)/i
 
 /check meine.{1,10}fotos/i
 
@@ -210,7 +210,7 @@
 /sexy.{1,10}(bild|foto).{1,10}ansehen/i
 
 /sich dir hingeben/i
-/singles warten auf dich/i
+/singles.{1,10}(treffen|warten auf)/i
 
 /sucht einen.{1,10}one.?night.?stand/i
 

@@ -229,6 +229,8 @@
 
 /smarte?.{1,15}(beleuchtung|sohle)/i
 
+/sonderverkauf.{1,10}unternehmensauflösungen/iu
+
 # Sample:  sparen: 249 € statt 599
 /sparen.{1,10}\d{2,3}.{1,5}(an)?statt.{1,5}\d{2,3}/i
 
