@@ -29,6 +29,12 @@
 /(limited|ltd).{1,10}(specializes in|we are major)/i
 /(limited|ltd).{1,10}we (provide|specialize)/i
 
+# Phone related
+# ------------------------------------------------------------------------------
+/guangdong.{1,10}china.{1,10}tel.{1,5}\+86/i
+
+/whatsapp.{1,10}\+?86.{1,25}company/i
+
 #
 #
 #

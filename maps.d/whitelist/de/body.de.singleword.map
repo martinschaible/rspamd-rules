@@ -325,6 +325,7 @@
 /orchestervorstände/i
 
 # P
+/partnerschaftsverein 5.0/i
 /\bparodontologie\b/i
 /\bparklift\b/i
 /\bpartnerschafts.?gesellschaft\b/i
@@ -354,6 +355,8 @@
 /\bsanierung\b/i
 
 /\bschadenfall\b/i
+/schatzmeister(in)?\b/i 5.0
+
 /\bschiedsrichter\b/i
 /\bschlafapnoe\b/i
 /\bschlaganfall\b/i
@@ -417,7 +420,7 @@
 /\bturntrainer\b/i
 
 # U
-/\bultraschall.{0,5}untersuchung\b/i
+/\bultraschall.{0,5}untersuchung\b 5.0/i
 /\bunterricht\b/i
 
 # V
