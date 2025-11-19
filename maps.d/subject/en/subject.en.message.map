@@ -58,6 +58,8 @@
 # B
 
 # C
+/can.{1,10}see my last.{1,10}(e?.?mail|message)/i
+
 /checking last week.{1,10}(e?.?mail|message)/i
 
 /confirm.{1,10}(my|this).{1,10}(e?.?mail|message).{1,10}reached you/i
