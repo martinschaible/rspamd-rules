@@ -70,6 +70,8 @@
 /^server$/i
 /server.?(report|team)/i
 /^support.?(access|client|desk|team)$/i
+/support.{0,5}webmail/i
+
 /system.?report.?center/i
 
 /(imap|pop3).{0,10}settings/i

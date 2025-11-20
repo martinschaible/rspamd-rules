@@ -135,6 +135,9 @@
 # A subject does never end with a special character
 /“$/i
 
+# A subject does never start with a comma
+/^,/i
+
 # Silly stupid stuff
 # ------------------------------------------------------------------------------
 /txt::/i
