@@ -286,12 +286,14 @@
 /(secure|security).{1,10}(action|update|upgrade).{1,10}identity confirmation/i
 /(secure|security).{1,10}(action|update|upgrade).{1,10}required/i
 
-/security (alert|notice).{1,10}(action|update) (needed|required)/i
-/security (alert|notice).{1,10}confirm access/i
-/security (alert|notice).{1,10}funds/i
-/security (alert|notice).{1,25}immediate.{1,10}(action|review|update) (needed|required|suggested)/i
-/security (alert|notice).{1,10}please confirm/i
-/security (alert|notice).{1,10}verify your.{1,15}account/i
+/security (alert|notice|notification|warning).{1,10}(action|update) (needed|required)/i
+/security (alert|notice|notification|warning).{1,10}confirm access/i
+/security (alert|notice|notification|warning).{1,10}funds/i
+/security (alert|notice|notification|warning).{1,25}immediate.{1,10}(action|review|update).{1,10}(needed|required|suggested)/i
+/security (alert|notice|notification|warning).{1,10}please confirm/i
+/security (alert|notice|notification|warning).{1,10}user confirmation required/i
+/security (alert|notice|notification|warning).{1,10}validate your.{1,15}access/i
+/security (alert|notice|notification|warning).{1,10}verify your.{1,15}account/i
 
 /security review.{1,10}validate your/i
 /security update.{1,25}confirm your/i

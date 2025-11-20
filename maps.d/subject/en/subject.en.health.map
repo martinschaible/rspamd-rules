@@ -473,7 +473,7 @@
 /(re)?ignite your passion/i
 /indian.{1,10}herb/i
 /ingredient you must never/i
-/instantly look younger/i
+/instant(ly)?.{1,10}(look younger|stamina)/i
 
 /is this.{1,10}veggie/i
 /is your.{1,10}brain/i
@@ -559,7 +559,7 @@
 /naturally.{1,10}(discover|restored?|with this)/i
 
 /neck.{1,10}back.{1,10}pain/i
-/neck.{1,10}lift{1,10}surgery/i
+/neck.{1,10}lift.{1,10}(surgery|trick)/i
 
 /needs this drink/i
 /nerve.?pain.{1,10}(getting|trigger)/i

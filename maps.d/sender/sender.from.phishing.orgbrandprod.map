@@ -89,6 +89,9 @@
 
 /(hetzner|hermes|hornbach).?(™|®|©)$/i
 
+# Black Friday
+/ikea.{0,10}black.?friday/i
+
 # Products
 # ------------------------------------------------------------------------------
 /(airpods|ipad|iphone|macbook|watch ultra)/i
