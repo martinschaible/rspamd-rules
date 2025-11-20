@@ -467,6 +467,7 @@
 /^mastercard$/i
 
 /mccafee/i
+/mcafee.{0,10}kundenservice/i
 
 /media markt/i
 
@@ -500,7 +501,7 @@
 #/^migros$/i
 #/migros.{0,10}(aktionen|markt|oral.?b)/i
 
-/migros.{0,10}(markt|kundenservice|oral.?b)/i
+/migros.{0,10}(gewinn|markt|kundenservice|oral.?b)/i
 /-.?migros/i
 /\|.?migros/i
 

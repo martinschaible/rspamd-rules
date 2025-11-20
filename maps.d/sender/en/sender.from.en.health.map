@@ -385,7 +385,7 @@
 
 /carb.{0,10}(control|secrets?|tricks?)/i
 /cardiac.{0,10}(clock|health)/i
-/cardio.{0,10}(boost|health|kitchen|wellness)/i
+/cardio.{0,10}(boost|coach|health|kitchen|wellness)/i
 /care.{0,10}secret/i
 /cartilage.{0,10}care/i
 
@@ -607,6 +607,8 @@
 
 /healing.{0,10}(massage|news|technology)/i
 
+/hearing.{0,10}habit/i
+
 /heart.{0,10}(attack|cells|check|danger|disease|health|helper)/i
 /heart.{0,10}(protection|risk|saver|secret|shield)/i
 
@@ -657,7 +659,7 @@
 /kilo{0,10}day/i
 /killing.{0,10}(pain|protein)/i
 
-/knee.{0,10}(mistake|myth|pinch|reset|restore|stretch|support)/i
+/knee.{0,10}(coach|mistake|myth|pinch|reset|restore|stretch|support)/i
 
 # L
 /leak.{0,10}(free|stop(per)?)/i

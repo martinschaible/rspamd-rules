@@ -31,8 +31,8 @@
 /entschädigung.{1,10}beantragen.{1,10}antworten sie.{1,10}so schnell wie möglich/iu
 /entschädigungszuschuss in höhe von.{1,20}ausgewählt wurden/iu
 
-
-/e?.?mail bezüglich ihres geldanspruch/iu
+/(e?.?mail|nachricht).{1,10}bezüglich ihres geldanspruch/iu
+/(e?.?mail|nachricht).{1,10}detaillierte anweisungen zum erhalt/i
 
 # F
 
