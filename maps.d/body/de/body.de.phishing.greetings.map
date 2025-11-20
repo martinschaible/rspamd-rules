@@ -118,6 +118,8 @@
 /ihre rechnung ist fällig.{1,10}sehr geehrter?/iu
 /ihre rückerstattung von.{1,15}sehr geehrter?/iu
 
+/information zu (ihrem|ihrer) (paket|sendung).{1,10}sehr geehrter?/i
+
 # J
 
 # K
@@ -232,6 +234,7 @@
 
 /sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,20}ihre rechnung ist/i
 
+/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}paketnummer/i
 /sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}vollständige nutzung ihres.{1,15}kontos/iu
 
 /sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}zu ihrem schutz/i

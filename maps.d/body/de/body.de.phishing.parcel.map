@@ -92,8 +92,9 @@
 
 /(paket|sendung).{1,10}ist im.{1,10}(empfangsland|zielland).{1,10}(angekommen|eingetroffen)/i
 /(paket|sendung).{1,10}ist in.{1,10}(deutschland|schweiz).{1,10}(angekommen|eingetroffen)/i
+/(paket|sendung).{1,10}ist in.{1,25}(postfiliale|zollstelle).{1,10}(angekommen|eingetroffen)/i
+
 /(paket|sendung).{1,10}ist in.{1,20}(angekommen|eingetroffen).{1,15}(den zoll|wurde verzollt)/i
-/(paket|sendung).{1,10}ist in.{1,25}postfiliale angekommen/i
 
 /(paket|sendung).{1,10}ist noch nicht bezahlt/i
 
@@ -151,6 +152,7 @@
 
 /zoll.{1,10}(steuergebühren|steuerzahlung).{1,10}erforderlich/iu
 /zollzahlung ist erforderlich/i
+/zollabfertigung.{1,10}angaben erforderlich/i
 
 /(zustellung|zustellversuch).{1,10}aufgrund einer (falschen|unvollständigen).{1,10}adresse/iu
 /(zustellung|zustellversuch).{1,10}aufgrund falscher angaben/i

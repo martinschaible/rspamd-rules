@@ -134,6 +134,7 @@
 /ihre(r|s).{5,15}fehlgeschlagen/i
 /ihrer dhl.{0,5}bestellung/i
 
+/(import|zoll).?dokumente ausstehend/i
 /(import|zoll).?gebühren für.{1,10}(lieferung|paket|sendung)/iu
 /(import|zoll).?gebühren in höhe von.{1,10}offen/iu
 

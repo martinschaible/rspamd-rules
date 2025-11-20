@@ -156,6 +156,7 @@
 # Sample: Ref: #645733271 Your Email
 /ref.{0,5}#\d{5,15} your.{1,15}e?.?mail/i
 
+/restore.{1,10}e?.?mail delivery/i
 /returning.{1,10}(e?.?mail|message)s?.{1,10}to the sender/i
 
 /review incoming.{1,15}(e?.?mail|message)s?/i
