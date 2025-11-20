@@ -376,7 +376,9 @@
 /(zustellung|zustellversuch).{1,25}(ausstehend|fehlgeschlagen)/i
 /zustellung nicht möglich.{1,10}falsche adresse/iu
 
-/zustellinformation für ihre.{1,10}paketsendung/iu
+/zustellinformation(en)?.{1,15}aktualisieren/i
+/zustellinformation(en)?.{1,10}für ihre.{1,10}paketsendung/iu
+
 /zustellversuch nicht erfolgreich.{1,10}(dpd_|\d{5,10})/i
 /zollabfertigung für.{1,10}(paket|sendung|versand)/iu
 

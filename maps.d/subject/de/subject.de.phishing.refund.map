@@ -39,7 +39,7 @@
 /doppelte abbuchung erkannt/i
 /doppelte berechnung rückerstattung/iu
 
-/doppelter? zahlung.{1,5}id/i
+/doppelte(n|r)? zahlung.{1,5}id/i
 /doppelzahlung beantragen/i
 
 # E
@@ -99,7 +99,7 @@
 /(rück)?erstattung.{1,10}für doppelte/iu
 
 /(rück)?erstattung.{1,10}ihre zugreise/iu
-/(rück)?erstattung.{1,10}(ihrer|wegen) (doppelten|doppelter) zahlung/iu
+/(rück)?erstattung.{1,10}(aufgrund|ihrer|wegen)d.{1,10}(doppelten|doppelter) zahlung/iu
 
 /(rück)?erstattung.{1,10}Ihrer (september|oktober|november|dezember).?Rechnung/iu
 /(rück)?erstattung.{1,10}ihres beitrags/iu
