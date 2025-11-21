@@ -99,7 +99,7 @@
 
 /elektro.?(fahrrad|fahrrädern?|motorrad|moped|velo).{1,10}(beste wahl|direkt|herstellerpreisen?)/i
 /elektro.?(fahrrad|fahrrädern?|motorrad|moped|velo).{1,10}(für europa|für nur|zukunft)/iu
-/elektro.?(fahrrad|fahrrädern?|motorrad|moped|velo).{1,10}(berge|stadt)/i
+/elektro.?(fahrrad|fahrrädern?|motorrad|moped|velo).{1,10}(berge|modelle|stadt)/i
 
 /(anfragen|beste|jetzt|passende).{1,10}elektro.?(fahrrad|fahrrädern?|motorrad|moped|velo)/i
 /(distributor|geschäft|händler).{1,10}elektro.?(fahrrad|fahrrädern?|motorrad|moped|velo)/iu
@@ -130,6 +130,7 @@
 
 #
 /aus deutschem lager/i
+/deutschen lager verfügbar/iu
 /(direkter versand|direkt(versand)?) aus (deutschland|europa)/i
 /(direktversand|lieferung).{1,10}zoll/i
 

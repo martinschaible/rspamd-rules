@@ -81,6 +81,7 @@
 # L
 /(leading|trusted|your).{1,10}(pcba?|printed.?circuit.?board).{1,10}(company|factory|supplier)/i
 /(leading|trusted).{1,10}partner to oem/i
+/(leading|trusted).{1,10}warehouse distributor/i
 
 # M
 /manufacturer.{1,10}china.{1,10}who are in industry/i
