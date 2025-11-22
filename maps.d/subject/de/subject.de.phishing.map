@@ -8,7 +8,10 @@
 
 # Cloud  Storage
 # -----------------------------------------------------------------------------
-/cloud.?speicher.{1,10}kritisch voll/i
+/cloud.{1,10}speicher.{1,10}kritisch voll/i
+/cloud.{1,10}speicher ist voll.{1,10}dateien in gefahr/i
+/cloud.{1,10}speicher sind da/i
+
 /gb kostenlos(en).{1,10}i?cloud.?speicher/i
 
 /erhalten sie.{1,10}zusätzlichen.{1,15}speicher/i
@@ -121,8 +124,6 @@
 /hinweis zur.{1,15}(datenpflege|systemintegrität)/iu
 
 # I
-/icloud.{1,10}speicher sind da/i
-
 /(ihr|lhr).{1,20}ist nicht mehr (gültig|gultig)/i
 
 /ihr speicher wird entfernt/i

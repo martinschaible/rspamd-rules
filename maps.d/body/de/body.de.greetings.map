@@ -198,7 +198,7 @@
 
 #/liebe.{1,15}shop kund\*?in/i
 
-/lieber?.{1,10}empfänger(in)?
+/lieber?.{1,10}empfänger(in)?/iu
 /(lieber?|sehr geehrter?).{1,5}e?.?mail.{0,15}(besitzer|eigentümer|inhaber)/iu
 
 /liebster.{1,10}(freund|geliebter)/i
@@ -233,6 +233,7 @@
 /sehr geehrte\/r ,/i
 
 /(liebe|sehr geehrte)\/r begünstigte\/r./i
+/(liebe|sehr geehrte)\/r.{1,5}wir freuen uns/i
 
 /sehr geehrte damen und herren.{1,10}guten tag/i
 /sehr geehrte damen und herren.{1,10}wir sind eine?/i

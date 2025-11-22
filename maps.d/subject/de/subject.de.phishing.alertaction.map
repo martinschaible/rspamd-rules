@@ -351,10 +351,10 @@
 /kontosicherheit.{1,10}starten sie/i
 /kontrollschild.{1,15}prüfen sie ihre angaben/iu
 
-/kritische systemmeldung.{1,10}jetzt prüfen/iu
-/kritische warnung.{1,10}ihre (domainverlängerung|geräte)/iu
-
-/kritischer sicherheitshinweis.{1,10}ihre.{1,15}schutzsoftware/i
+/kritischer?.{1,10}(alarm|sicherheitshinweis|systemmeldung|warnung).{1,10}ihre (domainverlängerung|geräte)/iu
+/kritischer?.{1,10}(alarm|sicherheitshinweis|systemmeldung|warnung).{1,10}ihr konto/i
+/kritischer?.{1,10}(alarm|sicherheitshinweis|systemmeldung|warnung).{1,10}ihre.{1,15}schutzsoftware/i
+/kritischer?.{1,10}(alarm|sicherheitshinweis|systemmeldung|warnung).{1,10}jetzt prüfen/iu
 
 /(kunde|kundin) servicemeldung/i
 
@@ -507,7 +507,7 @@
 /sofort handeln.{1,10}(aktivieren|aktualisieren) sie ihre/i
 /sofort öffnen/iu
 
-/sofortiges? (aktion|handeln|reaktion) erforderlich/i
+/sofortiges? (aktion|handeln|reaktion).{1,10}(erforderlich|nötig)/iU
 
 /sofortige sicherheitswarnung/i
 /sofortiger zugriff empfohlen/i
@@ -517,7 +517,7 @@
 
 /swisspass.{1,10}überprüfen sie/iu
 
-/system.?meldung.{1,10}aktion erforderlich/i
+/system.?meldung.{1,10}aktion.{1,10}(erforderlich|nötig)/i
 /system.?hinweis.{1,10}empfohlener sicherheitscheck/i
 
 # T

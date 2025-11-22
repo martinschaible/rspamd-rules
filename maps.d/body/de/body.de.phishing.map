@@ -30,6 +30,7 @@
 
 # Cloud  Storage
 # ------------------------------------------------------------------------------
+/cloud.?konto wurde gesperrt/i
 
 # Product Test
 # ------------------------------------------------------------------------------
@@ -48,6 +49,8 @@
 
 /angaben müssen sofort.{1,10}aktualisiert/i
 /angaben sind veraltet.{1,10}wodurch der zugriff/i
+
+/anmeldeversuch.{1,15}ungewöhnlichen standort registriert/iu
 
 # B
 /bei der validierung ihrer.{1,10}daten/i
