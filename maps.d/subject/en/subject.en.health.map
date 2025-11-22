@@ -121,7 +121,7 @@
 /(best|worst).{1,10}habit that/i
 /(best|worst).{1,10}veggies?/i
 
-/better.{1,10}bladder/i
+/better.{1,10}(bladder|metabolism)/i
 /better.{1,10}than ibuprofen/i
 /better.{1,10}than.{1,10}(hearing|retinol)/i
 
@@ -710,6 +710,7 @@
 
 /secret behind.{1,10}aging/i
 /secret for (eating|hair)/i
+/secret trick to/i
 /secret hormone/i
 /secret to.{1,15}(digestion|fat.?burning|healthy)/i
 /secret will.{1,15}your/i

@@ -499,7 +499,7 @@
 /end.{0,10}noise/i
 /end.{0,10}type.{0,10}2/i
 
-/energy.{0,10}(balance|unlock|without)/i
+/energy.{0,10}(balance|boost|unlock|without)/i
 /enhanced.{0,10}recall/i
 
 /erase.{0,10}fat/i
@@ -1043,7 +1043,7 @@
 # W
 /\bw.?loss/i
 
-/water.{0,10}(diy|pill|science|watch|weight)/i
+/water.{0,10}(diy|pill|lab|science|watch|weight)/i
 /warning.{0,10}signs?/i
 /wax.{0,10}free/i
 
