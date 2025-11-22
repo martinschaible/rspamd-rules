@@ -190,7 +190,9 @@
 /nl-medizin\.mgofv\.de/i 5.0
 
 # 03.04.25
-/www\.miles-and-more\.com\/content\//i 5.0
+
+# To dangerous for general whitelist, path is used to grab images
+#/www\.miles-and-more\.com\/content\//i 5.0
 
 # 17.05.25
 /service-mm\.mediamarkt\.de\/pub\//i 5.0

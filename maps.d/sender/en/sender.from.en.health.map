@@ -605,7 +605,7 @@
 
 /hates it/i
 
-/healing.{0,10}(massage|news|technology)/i
+/healing.{0,10}(massage|news|secret|technology)/i
 
 /hearing.{0,10}habit/i
 
@@ -618,7 +618,7 @@
 /herpes.{0,10}(beat it|breakthrough|discovery|eliminator|outbreak|talk)/i
 
 /hidden.{0,10}(crisis|danger|deficiency|dish)/i
-/hidden.{0,10}(organ|path|power|protein|risk|ritual|science|threat|toxin)/i
+/hidden.{0,10}(organ|path|power|protein|remedy|risk|ritual|science|threat|toxin)/i
 
 /high.{0,10}(bp|sugar)/i
 
@@ -848,6 +848,8 @@
 /(re)?grows?.{1,10}lost hair/i
 /(re)?ignite.{1,10}passion/i
 
+/relief.{0,10}discovery/i
+
 /remote.{0,10}pharmacy/i
 /removal.{0,10}expert/i
 /remove.{0,10}(herpes|toxin)/i
@@ -913,7 +915,7 @@
 
 /slim.{0,10}diet/i
 
-/(slim|skinny).{0,10}waist/i
+/(slim|skinny).{0,10}(boost|waist)/i
 /slim.{0,10}(drink|hack)/i
 /slow.{0,10}metabolism/i
 
