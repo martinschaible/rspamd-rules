@@ -155,6 +155,8 @@
 /breakfast.{1,10}(avoid|memory)/i
 /breakthrough method transforming/i
 
+/breathe.{1,10}(easier|easy)/i
+
 /brain (boost|fog).{1,10}(seconds|trick)/i
 
 /burning.{1,10}nerves/i
@@ -728,16 +730,17 @@
 
 /silence(d|s)?.{1,10}(pain|ringing|tinnitus)/i
 
-/simple at.?home/i
-/simple daily habit/i
-/simple drink helps/i
-/simple fruit with/i
-/simple habit.{1,10}(destroys|that)/i
-/simple oral flush/i
-/simple solution.{1,15}(back|neck|pain)/i
-/simple spine/i
-/simple stretch/i
-/simple trick.{1,10}uncover/i
+/simple.{1,10}at.?home/i
+/simple.{1,10}daily habit/i
+/simple.{1,10}drink helps/i
+/simple.{1,10}fruit with/i
+/simple.{1,10}habit.{1,10}(destroys|that)/i
+/simple.{1,10}oral flush/i
+/simple.{1,15}solution.{1,15}(back|neck|pain)/i
+/simple.{1,10}spine/i
+/simple.{1,10}stretch/i
+/simple.{1,10}trick.{1,10}uncover/i
+/simple.{1,10}vitamin could/i
 
 /simple.{1,10}(diy|minute) stretch/i
 /simple.{1,10}(trick|way).{1,10}(erase|reverse)/i
@@ -788,7 +791,7 @@
 /stops?.{1,10}bone.?loss/i
 /stops?.{1,10}ringing.{1,10}fast/i
 /stops?.{1,10}(ear ringing|tinnitus)/i
-/stops?.{1,10}(artery|decay|dieting|secret|teeth)/i
+/stops?.{1,10}(artery|decay|dieting|sciatica|secret|teeth)/i
 /stops?.{1,10}(eating|taking|using) (these|this)/i
 /stops?.{1,10}(these|this).{1,10}(hidden|morning)/i
 

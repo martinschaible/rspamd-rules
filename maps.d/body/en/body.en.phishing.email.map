@@ -124,9 +124,12 @@
 /(update|upgrade).{1,10}account.{1,10}cancel the request/i
 /(update|upgrade).{1,10}account.{1,10}increase.{5,15}quota/i
 
-/(update|upgrade).{1,10}required.{1,10}your.{1,10}mail.?box/i
-/(update|upgrade).{1,10}to continue using.{1,10}mail.?box/i
-/(update|upgrade).{1,10}your.{1,10}(mail.?box|storage)/i
+/(update|upgrade).{1,15}required.{1,10}your.{1,10}mail.?box/i
+
+/(update|upgrade|required).{1,15}incoming.{1,10}(e?.?mail|message)s?.{1,10}failed/i
+/(update|upgrade|required).{1,15}to continue using.{1,10}mail.?box/i
+/(update|upgrade|required).{1,15}your.{1,10}(mail.?box|storage)/i
+
 
 # V
 /view.{1,10}(failed|save).{1,10}(e?.?mail|message)s?/i
@@ -139,7 +142,9 @@
 /we want to reduce the numbers?.{1,10}dormant.{1,10}accounts/i
 
 /webmail.{1,10}account credentials/i
+/Webmail.{1,10}e.?mail.{1,10}prevented the delivery/i
 /webmail.{1,5}id:/i
+
 /webmail.{1,10}storage.{1,10}(re.?)?validation/i
 /webmail.{1,10}this.{1,10}(e?.?mail|message)s?.{1,10}directed/i
 /webmail.{1,10}update required/i

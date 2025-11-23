@@ -117,6 +117,8 @@
 /(e?.?mail|nachricht).{1,10}von.{1,10}(letzter|vergangener) woche.{1,10}(angekommen|bekommen|erhalten|erreichen|gesehen)/i
 /(e?.?mail|nachricht).{1,10}von.{1,10}gestern zu lesen/i
 
+/e?.?mail.?adresse noch gültig/iu
+
 /empfang der.{1,10}e?.?mail bestätigen/i
 /endgültige mitteilung/i
 

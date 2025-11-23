@@ -36,6 +36,7 @@
 # Die Schweizerische Post
 # DocMorris - Ihre Apotheke
 # Dropbox
+# EDEKA
 # E.ON Kundenservice
 # facebook
 # Facebook-Seiten
@@ -337,6 +338,7 @@
 /\|.?express/i
 
 # 23.11.25
+/edeka.?(™|®)$/i
 /edeka.{0,10}2026/i
 /christmas.{0,10}edeka/i
 
