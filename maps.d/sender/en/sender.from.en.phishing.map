@@ -164,6 +164,8 @@
 /gift.{0,10}(deals?|inside)/i
 /gift(.?card)?.{0,10}(chance|opportunity)/i
 
+/gov.?(grant|money)/i
+
 /group.{0,10}(sales|team)/i
 /guide.{0,10}team/i
 
@@ -228,7 +230,7 @@
 /rewards?.{0,10}(center|team)/i
 
 # S
-/safety.{0,10}(alert|check)/i
+/safety.{0,10}(alert|check|kit)/i
 /security.{0,10}(alert|compliance)/i
 
 /server.?(admin|support|update)/i
