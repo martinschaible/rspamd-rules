@@ -33,6 +33,7 @@
 
 # E
 /(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,15}ausgewählt.{1,10}(bestätigen|kontaktieren) sie/iu
+/(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,15}die an ihre e?.?mail.?adresse/i
 /(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,10}die nutzung.{1,10}google/i
 
 # F

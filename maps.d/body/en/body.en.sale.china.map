@@ -17,14 +17,15 @@
 /co.{1,5}(limited|ltd).{1,10}excited to introduce/i
 /co.{1,5}(limited|ltd).{1,15}(manufacturer|professional|specialize|supplier)/i
 /co.{1,5}(limited|ltd).{1,10}is.{1,10}popular in/i
-/co.{1,5}(limited|ltd).{1,10}mob(ile)?.{1,10}wechat/i
+/co.{1,5}(limited|ltd).{1,10}mob(ile)?.{1,10}(\+86|wechat)/i
 /co.{1,5}(limited|ltd).{1,10}machining/i
 /co.{1,5}(limited|ltd).{1,10}nice to know you/i
 /co.{1,5}(limited|ltd).{1,10}offers a wide range/i
 /co.{1,5}(limited|ltd).{1,10}trusted/i
 /co.{1,5}(limited|ltd).{1,10}to you/i
 
-/(ceramics|clothing|packaging||plastic|product).{1,10}co.{1,5}(limited|ltd)/i
+/enterprise.{1,15}co.{1,5}(limited|ltd)/i
+/(ceramics|clothing|packaging|plastic|product).{1,10}co.{1,5}(limited|ltd)/i
 
 /(limited|ltd).{1,10}(specializes in|we are major)/i
 /(limited|ltd).{1,10}we (provide|specialize)/i
@@ -100,6 +101,7 @@
 
 /our.{1,10}(pcba?|printed.?circuit.?board).{1,10}(delivery|on.?time)/i
 /our.{1,10}customizable.{1,10}paper bag solutions/i
+/our.{1,10}packaging.{1,10}solutions are/i
 
 /our main items are.{1,10}glass/i
 /our main items are.{1,10}tempered/i
@@ -185,6 +187,8 @@
 /we.{1,10}specialize.{1,10}(advanced|cleanroom|cnc|custom|design|metal|producing|supplying)/i
 /we.{1,10}specialize.{1,10}(manufacture|manufacturing)/i
 /we.{1,10}specialize.{1,10}(eu|us).{1,10}designs/i
+
+/we.{1,10}specialize.{1,10}providing.{1,15}(pricing|reasonable)/i
 
 /wide range.{1,15}(led|lighting|products)/i
 

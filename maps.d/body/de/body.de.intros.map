@@ -154,8 +154,8 @@
 
 /mein name ist.{5,35}ein schweizer/i
 
-/mein name ist.{5,30}ein.{1,10}(amerikanischer|schweizer)/i
-/mein name ist.{5,35}ein.{1,15}(angestellter|wirtschaftsmagnat)/i
+/mein name ist.{5,30}eine?.{1,10}(amerikanischer?|schweizer)/i
+/mein name ist.{5,35}eine?.{1,15}(angestellter?|wirtschaftsmagnat)/i
 
 /mein name ist.{5,35}ich vertrete/i
 

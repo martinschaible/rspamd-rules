@@ -70,9 +70,9 @@
 
 /guten (abend|morgen|tag).{1,10}wir bieten verschiedene/i
 
-/guten (abend|morgen|tag).{1,10}wir haben die zahlung/i
-/guten (abend|morgen|tag).{1,10}wir haben einen? verdächtigen?/i
-/guten (abend|morgen|tag).{1,10}wir haben eine rückerstattung/iu
+/guten (abend|morgen|tag).{1,10}wir haben.{1,10}die zahlung/i
+/guten (abend|morgen|tag).{1,10}wir haben.{1,10}verdächtigen?/i
+/guten (abend|morgen|tag).{1,10}wir haben.{1,10}rückerstattung/iu
 
 /guten (abend|morgen|tag).{1,10}wir möchten sie darüber informieren/iu
 /guten (abend|morgen|tag).{1,10}wir sind eine fabrik/i
@@ -106,7 +106,7 @@
 /hallo.{1,15}verkehrsteilnehmer/i
 /hallo.{1,15}während einer systemanalyse/iu
 
-/hallo.{1,15}wir haben.{1,10}einen verdächtigen/iu
+/hallo.{1,15}wir haben.{1,15}verdächtigen?/iu
 /hallo.{1,15}wir haben.{1,10}einen anmeldeversuch/i
 /hallo.{1,15}wir haben.{1,10}ungewöhnliche anmeldung/iu
 
@@ -223,7 +223,7 @@
 /sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}wir kontaktieren sie im auftrag von/i
 
 /sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}wir haben.{1,10}(ein problem|festgestellt)/i
-/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}wir haben.{1,10}probleme/i
+/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}wir haben.{1,10}(probleme|verdächtige)/iu
 /sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}wir hatten kürzlich ein/iu
 
 /sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}wir konnten ihre letzte zahlung/i
@@ -271,11 +271,13 @@
 
 # V
 /verifizierung ihres.{1,15}kontos?.{1,10}guten tag/i
-/verifizierung notwendig.{1,10}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/i
+/verifizierung notwendig.{1,10}(sehr geehrter?|werter?).{1,10}(damen|herren|kunde|kundin)/i
 
 # W
 
 # X
+/werte.{1,15}(damen|herren|kunde|kundin).{1,10}wir haben.{1,10}verdächtigen?/i
+
 /wichtige aktualisierung.{1,10}att:?/i
 
 /wir konnten ihr paket.{1,10}nicht zustellen.{1,10}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/i
