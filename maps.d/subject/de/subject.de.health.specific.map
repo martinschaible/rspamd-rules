@@ -52,7 +52,9 @@
 
 # Potency
 # ------------------------------------------------------------------------------
-/blaue.{1,10}(pille|tabs)/i
+/(pillen?|tabletten?|tabs?).{1,10}(mann|männer)/i
+
+/blaue.{1,10}(pillen?|tabletten?|tabs?)/i
 /gute.{1,10}potenz/i
 
 /(hart|langweilig) im bett/i

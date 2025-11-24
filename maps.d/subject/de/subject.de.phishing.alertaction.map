@@ -212,6 +212,7 @@
 /dringlichkeit.{1,10}aufmerksamkeit/i
 
 # E
+/eilmeldung.{1,25}gewinnerliste aktualisiert/i
 /entdeckt.{1,10}schützen sie sich jetzt/iu
 
 /endgültige.{1,10}erinnerung.{1,10}punkte/i
@@ -471,26 +472,27 @@
 
 /sicherheits.?update.{1,10}überprüfen sie ihr/i
 
-/sicherheits.?(hinweis|mitteilung|warnung).{1,10}\d{2,4} dateien/i
-/sicherheits.?(hinweis|mitteilung|warnung).{1,10}für ihr konto/iu
-/sicherheits.?(hinweis|mitteilung|warnung).{1,10}handlungsbedarf/i
-/sicherheits.?(hinweis|mitteilung|warnung).{1,10}ihr gerät benötigt/iu
-/sicherheits.?(hinweis|mitteilung|warnung).{1,10}ihre daten/i
-/sicherheits.?(hinweis|mitteilung|warnung).{1,10}jetzt handeln/i
-/sicherheits.?(hinweis|mitteilung|warnung).{1,10}neue verbindung au/i
+/sicherheits.?(benachrichtigung|hinweis|mitteilung|warnung).{1,15}Karte reaktivieren/i
+/sicherheits.?(benachrichtigung|hinweis|mitteilung|warnung).{1,10}\d{2,4} dateien/i
+/sicherheits.?(benachrichtigung|hinweis|mitteilung|warnung).{1,10}für ihr konto/iu
+/sicherheits.?(benachrichtigung|hinweis|mitteilung|warnung).{1,10}handlungsbedarf/i
+/sicherheits.?(benachrichtigung|hinweis|mitteilung|warnung).{1,10}ihr gerät benötigt/iu
+/sicherheits.?(benachrichtigung|hinweis|mitteilung|warnung).{1,10}ihre daten/i
+/sicherheits.?(benachrichtigung|hinweis|mitteilung|warnung).{1,10}jetzt handeln/i
+/sicherheits.?(benachrichtigung|hinweis|mitteilung|warnung).{1,10}neue verbindung au/i
 
-/sicherheits.?(hinweis|mitteilung|warnung).{1,10}unbefugter zugriff auf/i
-/sicherheits.?(hinweis|mitteilung|warnung).{1,10}ungewöhnliche aktivität festgestellt/iu
-/sicherheits.?(hinweis|mitteilung|warnung).{1,10}(neuer|unbekannter) gerätezugriff/iu
-/sicherheits.?(hinweis|mitteilung|warnung).{1,10}unbekanntes gerät hat sich/iu
-/sicherheits.?(hinweis|mitteilung|warnung).{1,10}unbekannte anmeldung/i
+/sicherheits.?(benachrichtigung|hinweis|mitteilung|warnung).{1,10}unbefugter zugriff auf/i
+/sicherheits.?(benachrichtigung|hinweis|mitteilung|warnung).{1,10}ungewöhnliche aktivität festgestellt/iu
+/sicherheits.?(benachrichtigung|hinweis|mitteilung|warnung).{1,10}(neuer|unbekannter) gerätezugriff/iu
+/sicherheits.?(benachrichtigung|hinweis|mitteilung|warnung).{1,10}unbekanntes gerät hat sich/iu
+/sicherheits.?(benachrichtigung|hinweis|mitteilung|warnung).{1,10}unbekannte anmeldung/i
 
-/sicherheits.?(hinweis|mitteilung|warnung).{1,10}verdächtige (anmeldung|dateien)/i
-/sicherheits.?(hinweis|mitteilung|warnung).{1,10}verdächtiger/i
-/sicherheits.?(hinweis|mitteilung|warnung).{1,10}verifizierung notwendig/i
+/sicherheits.?(benachrichtigung|hinweis|mitteilung|warnung).{1,10}verdächtige (anmeldung|dateien)/i
+/sicherheits.?(benachrichtigung|hinweis|mitteilung|warnung).{1,10}verdächtiger/i
+/sicherheits.?(benachrichtigung|hinweis|mitteilung|warnung).{1,10}verifizierung notwendig/i
 
-/sicherheits.?(hinweis|mitteilung|warnung).{1,10}wichtige aktualisierung/i
-/sicherheits.?(hinweis|mitteilung|warnung).{1,10}zu.{1,10}(gerät|karte)/iu
+/sicherheits.?(benachrichtigung|hinweis|mitteilung|warnung).{1,10}wichtige aktualisierung/i
+/sicherheits.?(benachrichtigung|hinweis|mitteilung|warnung).{1,10}zu.{1,10}(gerät|karte)/iu
 
 /sicherheits.?(funktionen|option|upgrade).{1,10}für ihr.{1,15}konto (aktivieren|aktualisieren)/i
 /sicherheits.?(funktionen|option|upgrade).{1,10}jetzt (aktivieren|aktualisieren)/i

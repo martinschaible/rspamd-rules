@@ -217,6 +217,7 @@
 
 # Pen
 # ------------------------------------------------------------------------------
+/(werbe)?(kugelschreiber|kuli).{1,10}aus/i
 /(werbe)?(kugelschreiber|kuli).{1,15}(ab|für) (\d|nur)/i
 /(werbe)?(kugelschreiber|kuli).{1,10}(anfragen|begeistern|bestellen|bestpreis|branding)/i
 /(werbe)?(kugelschreiber|kuli).{1,10}(geschäftspartner|individuellem)/iu
