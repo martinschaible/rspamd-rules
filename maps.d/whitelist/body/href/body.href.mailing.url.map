@@ -15,7 +15,8 @@
 
 # list-manage.com
 # ------------------------------------------------------------------------------
-/(advisca|annabelle)\.us\d{1,2}\.list-manage.com\//i 2.0
+/(advisca|annabelle)
+/baumuster\.us\d{1,2}\.list-manage.com\//i 2.0
 /(eisexpeditionen|energiestiftung)\.us\d{1,2}\.list-manage.com\//i 2.0
 /(gaultmillau|gcz)\.us\d{1,2}\.list-manage.com\//i 2.0
 /hrtoday\.us\d{1,2}\.list-manage.com\//i 5.0

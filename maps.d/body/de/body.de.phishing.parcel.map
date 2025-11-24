@@ -21,7 +21,7 @@
 /angekommen.{1,10}wurde durch den zoll geprüft/iu
 
 # B
-/(begleichen|bezahlen) sie.{1,10}(die|eine).{1,10}(ausstehenden).{1,10}(versandkosten|zollgebühr)/iu
+/(begleichen|bezahlen) sie.{1,10}(die|eine).{1,10}(ausstehenden?|erforderlichen?).{1,10}(versandkosten|verwaltungsgebühr|zollgebühr)/iu
 /(begleichen|bezahlen) sie.{1,10}eventuelle.{1,10}(steuer|zoll).{1,15}gebühren/iu
 
 /begleichung.{1,10}der.{1,10}(bearbeitungs|zoll).?gebühr erforderlich/iu
@@ -103,6 +103,7 @@
 /(paket|sendung).{1,10}nicht zustellen.{1,10}informationen fehlen/i
 /(paket|sendung).{1,15}sich im.{1,15}(distributions|verteil).{1,15}befindet/i
 /(paket|sendung).{1,15}werden dem importeur/iu
+/(paket|sendung).{1,10}wird.{1,15}in unserem logistikzentrum festgehalten/i
 
 /(paket|sendung).{1,10}wurde.{1,10}bearbeitet.{1,10}ist auf dem weg/i
 /(paket|sendung).{1,20}wurde.{1,10}eine unstimmigkeit festgestellt/i

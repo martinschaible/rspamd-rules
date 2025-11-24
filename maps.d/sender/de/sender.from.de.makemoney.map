@@ -67,7 +67,7 @@
 # D
 /dein.{0,10}finanz/i
 
-/deutsche?.{0,10}wahrheit/i
+/deutsche?.{0,10}(banken|wahrheit)/i
 
 # E
 
@@ -124,6 +124,7 @@
 # Q
 
 # R
+/regierung.{0,10}zensiert/i
 /reich.{0,10}(sein|werden)/i
 
 # S
@@ -149,8 +150,10 @@
 
 # V
 /verdienen.{0,10}(neu|sie)/i
+/verbotenes?.{0,10}wissen/i
 
 # W
+/wahrheit.{0,10}gefahr/i
 
 # X
 
