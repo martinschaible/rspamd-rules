@@ -77,7 +77,8 @@
 /coins.?etf/i
 
 # D
-/(dubai|malta|uae|uk).{0,10}(central|district|estate|freezone|hills|marina|property|residence|residency)/i
+/(dubai|malta|uae|uk).{0,10}(central|district|estate|hills|marina|property|residence|residency)/i
+/(dubai|malta|uae|uk).{0,10}(freehold|freezone)/i
 
 # E
 /european.{0,10}bonds/i

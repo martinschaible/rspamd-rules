@@ -455,6 +455,8 @@
 
 # L
 # ------------------------------------------------------------------------------
+/lepostesuisse/i
+
 /lidl.?(™|®|©)$/i
 
 /lidl.?202\d/i
@@ -503,13 +505,15 @@
 
 /migrol.{0,10}automobil/i
 
+/migros - online/i
 /migros.?(™|®|©)$/i
+/-.?migros/i
+/\|.?migros/i
+
 #/^migros$/i
 #/migros.{0,10}(aktionen|markt|oral.?b)/i
 
 /migros.{0,10}(gewinn|markt|kundenservice|oral.?b)/i
-/-.?migros/i
-/\|.?migros/i
 
 /^migrol$/i
 
@@ -724,6 +728,7 @@
 /swica.{0,10}(leistungszentrum|support|versicherung)/i
 /swica.?-/i
 
+/swiscomm/i
 /swisscom-ag/i
 /swisscom.{0,10}(exklusiv|info|mitteilung(en)?|support)/i
 /swisscom.{0,10}(kommunikation|kundenbetreuu?ng|kundenservice)/i
