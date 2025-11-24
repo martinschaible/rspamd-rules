@@ -75,6 +75,9 @@
 # 16.02.25
 /admin-email\./i
 
+# Sample: admin42969@
+/admin[0-9]{2,10}@/i
+
 # B
 /bc2infob2/i
 
