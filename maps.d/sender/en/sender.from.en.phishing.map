@@ -124,7 +124,7 @@
 /claim.{0,10}(free|refund|your)/i
 /clean.{0,10}(experts?|support)/i
 
-/^customer.{0,10}(engagement|experience|feedback|support)/i
+/customer.{0,10}(engagement|experience|feedback|survey|support)/i
 
 /compliance.{0,10}(concerns?|team)/i
 /complimentary.{0,10}gift/i
@@ -192,7 +192,8 @@
 /mail.{0,10}(center|client|security)/i
 /mailbox.{0,10}(storage|team)/i
 
-/membership.?(offer|updates?)/i
+/member.{0,10}survey/i
+/membership.{0,10}(offer|updates?)/i
 
 /message.{0,10}notification/i
 
@@ -217,6 +218,8 @@
 
 /policy.{0,10}violation/i
 /power.{0,10}reward/i
+
+/prime.{0,10}(customer|membership|reward)/i
 
 /protection.{0,10}team/i
 /provider.{0,10}support/i

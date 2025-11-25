@@ -117,6 +117,8 @@
 /benachrichtigungsteam/i
 
 /betrugserkennungsteam/i
+/betrugsprävention/i
+
 /beratung$/i
 /^bestätigung$/i
 /beseitigt/i
@@ -276,6 +278,8 @@
 /gedächtnis.?alarm/i
 /gedächtnis.?trainer/iu
 
+/geschäftsführer(in)?/iu
+
 /^geldsorgen/i
 /geiles?/i
 
@@ -342,8 +346,9 @@
 /gratisproben/i
 
 #/gratuliert/i
-/grund.?einkommen/i
-/grund.?gehalt/i
+/grundeinkommen/i
+/grundgehalt/i
+/grundversicherung/i
 
 /größerer/i
 /grösserer/i
@@ -736,6 +741,7 @@
 
 /-.?sicherheit/i
 /sicherheitsabteilung/i
+/sicherheitsbenachrichtigung(en)?/i
 /sicherheitscenter/i
 /sicherheitsmeldung/i
 /sicherheitsprotokoll/i

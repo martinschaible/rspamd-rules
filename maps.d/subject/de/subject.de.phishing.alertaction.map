@@ -445,7 +445,9 @@
 
 # R
 /reaktivieren sie es jetzt/i
-/reaktivieren sie ihren zugang/iu
+/reaktivieren sie ihr(en)?.{1,15}kundenkonto/i
+/reaktivieren sie ihr(en)?.{1,15}zugang/iu
+
 
 # S
 /(schliessen|schließen).{1,10}sie.{1,10}ihre.{1,10}(authentifizierungsprozess|identifizierung)/iu
