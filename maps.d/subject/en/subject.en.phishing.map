@@ -100,7 +100,7 @@
 /requesting authentication/i
 
 # S
-/secure your access/i
+/secure your.{1,15}(access|wallet)/i
 
 # 13.07.25 - Send a test email
 /テストメールの送信/i

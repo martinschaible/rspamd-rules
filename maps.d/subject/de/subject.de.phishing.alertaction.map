@@ -307,7 +307,9 @@
 /ihre.{1,10}angaben sind veraltet/i
 /ihre.{1,20}(muss|müssen) aktualisiert werden/i
 
+/ihre.{1,10}sicherheit ist deaktiviert/i
 /ihre.{1,10}sicherheit ist in gefahr.{1,20}schutz.{1,10}erneuern/i
+
 /ihre sofortige aufmerksamkeit/i
 /ihre zustimmung ist dringend erforderlich/i
 
@@ -356,6 +358,8 @@
 /kritischer?.{1,10}(alarm|sicherheitshinweis|systemmeldung|warnung).{1,10}ihr konto/i
 /kritischer?.{1,10}(alarm|sicherheitshinweis|systemmeldung|warnung).{1,10}ihre.{1,15}schutzsoftware/i
 /kritischer?.{1,10}(alarm|sicherheitshinweis|systemmeldung|warnung).{1,10}jetzt prüfen/iu
+
+/kritischer endhinweis/i
 
 /(kunde|kundin) servicemeldung/i
 

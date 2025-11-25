@@ -76,7 +76,7 @@
 /admin-email\./i
 
 # Sample: admin42969@
-/admin[0-9]{2,10}@/i
+/admin\d{2,10}@/i
 
 # B
 /bc2infob2/i
@@ -132,6 +132,7 @@
 # U
 
 # V
+/vps\d{2,10}@/i
 
 # W
 /wordpress.?(demo|ubuntu)/i

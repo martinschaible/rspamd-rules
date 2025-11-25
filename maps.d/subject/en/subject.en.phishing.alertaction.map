@@ -169,7 +169,7 @@
 # H
 
 # I
-/immediate action required/i
+/immediate (action|verification) (needed|required)/i
 
 /important.{1,10}lose access.{1,15}account/i
 /important.{1,10}account (alert|update)/i
