@@ -136,6 +136,20 @@
 /wir liefern personal in/i
 /wir sanieren.{1,10}renovieren ihr.{1,10}haus/i
 
+# Ladders
+# ------------------------------------------------------------------------------
+/(klapp|teleskop).{1,15}anleger.?leiter/i
+/(klapp|teleskop)?leiter.{1,15}kostenfreiem versand/i
+
+/(generation|optimale|optimierte|profi).{1,10}(klapp|teleskop)?leiter/i
+
+/unserer?.{1,10}teleskop.{1,10}klappleiter/i
+/unserer?.{1,10}(klapp|teleskop)?leiter/i
+
+/profi.{1,10}aluminium.{1,10}(klapp|teleskop)?leiter/i
+
+/teleskop.{1,10}klappleiter/i
+
 # Pavillon/Tent
 # ------------------------------------------------------------------------------
 /(event|falt|garten)?pavillons?.{1,10}jetzt sonderposten/i

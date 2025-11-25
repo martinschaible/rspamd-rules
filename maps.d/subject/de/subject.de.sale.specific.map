@@ -180,11 +180,11 @@
 /teleskop.{1,10}(klappleiter|profi.?leitern?)/i
 
 /leitern?.{1,10}(leicht|handlich|professionell)/i
-/leitern?.{1,10}stark reduziert/i
+/leitern?.{1,15}(stark reduziert|top preis)/i
 
 /ausziehbare leiter/i
-/(klapp)?leiter.{1,15}(betrieb|garten|haus|handwerk)/i
-/(kompakte|optionen|preise).{1,10}/(klapp)?leiter/i
+/(klapp|teleskop)?leiter.{1,15}(betrieb|garten|haus|handwerk)/i
+/(kompakte|optionen|preise).{1,10}(klapp|teleskop)?leiter/i
 
 /sichern sie sich.{1,10}leiter/i
 /unsere.{1,10}bestseller.{1,10}leiter/i

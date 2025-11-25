@@ -309,7 +309,7 @@
 /dpdgroup/i
 
 /dpd.?(™|®|©)$/i
-/dpd.{0,5}deutschland/i
+/dpd.{0,5}(deutschland|schweiz)/i
 /dpd-ch/i
 /dpd eu/i
 /dpd_paket/i
@@ -500,7 +500,7 @@
 
 /(microsoft|mediamarkt|metamask|migros).?(™|®|©)$/i
 
-/microsoft ads/i
+/microsoft (365|ads)/i
 /microsoft.{0,10}(advertising|cashback|rewards?)/i
 /microsoft.{0,10}konto/i
 
