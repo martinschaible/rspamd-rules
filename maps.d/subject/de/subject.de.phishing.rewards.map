@@ -245,6 +245,8 @@
 /für nur chf \d\.\d{2}.{1,10}nur 24h gültig/iu
 
 # G
+/genießen sie.{1,10}ihre.{1,10}(anerkennung|angebot|belohnung|prämien?)?/iu
+
 /geschenk bereit/i
 /(gewinn|geschenk).{1,25}(bestätigt|bestätigung)/iu
 

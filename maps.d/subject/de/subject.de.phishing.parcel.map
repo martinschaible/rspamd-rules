@@ -373,11 +373,12 @@
 /zustellung ansteht/i
 
 /zustellung.{1,25}bestätigen sie/iu
+/zustellung.{1,10}(fuer|für).{1,20}(bestaetigen|bestätigen)/i
 /zustellung.{1,10}(paket|sendung).{1,10}(angehalten|wartet auf sie)/i
 /zustellung.{1,10}möglich.{1,10}paket noch nicht abgeholt/iu
 
 /(zustellung|zustellversuch).{1,25}(ausstehend|fehlgeschlagen)/i
-/zustellung nicht möglich.{1,10}falsche adresse/iu
+/(zustellung|zustellversuch).{1,10}nicht möglich.{1,10}falsche adresse/iu
 
 /zustellinformation(en)?.{1,15}aktualisieren/i
 /zustellinformation(en)?.{1,10}für ihre.{1,10}paketsendung/iu
