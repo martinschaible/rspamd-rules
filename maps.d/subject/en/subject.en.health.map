@@ -326,7 +326,7 @@
 /(eliminates?|eradicates?|erases?).{1,15}knee pain/i
 /(eliminates?|eradicates?|erases?).{1,15}without meds/i
 
-/erase.{1,10}(breath|decay)/i
+/erases?.{1,10}back.?pain|(breath|decay)/i
 /escape.{1,10}memory/i
 
 /ever faked an/i
@@ -502,6 +502,7 @@
 
 /life.?changing.{1,10}video/i
 /lift.{1,10}saggy butt/i
+/link to.{1,10}nails/i
 /listen to your.{1,10}gut/i
 /liver is in.{1,10}danger/i
 
@@ -534,7 +535,7 @@
 /men.{1,10}horny/i
 /message.{1,10}uncovered/i
 
-/minute (move|stretch).{1,10}(changing|regain)/i
+/minute (move|rub|stretch).{1,10}(changing|erases|regain)/i
 
 /miracle.{1,10}fungus/i
 /mistake that can.{1,10}harm/i
@@ -734,7 +735,7 @@
 /simple.{1,10}daily habit/i
 /simple.{1,10}drink helps/i
 /simple.{1,10}fruit with/i
-/simple.{1,10}habit.{1,10}(destroys|that)/i
+/simple.{1,10}(habit|routine).{1,10}(destroys|inspired|that)/i
 /simple.{1,10}oral flush/i
 /simple.{1,15}solution.{1,15}(back|neck|pain)/i
 /simple.{1,10}spine/i

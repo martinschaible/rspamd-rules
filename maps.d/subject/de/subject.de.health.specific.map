@@ -69,7 +69,7 @@
 /potenz in die/i
 /produkt für.{1,10}männliche/i
 
-/power im bett/i
+/(ausdauer|power).{1,10}im bett/i
 
 /sexual.?leben.{1,15}(mann|männer)/i
 /standfestigkeit.{1,10}sex/i
@@ -172,6 +172,8 @@ abnehmen.{1,10}ohne stress/i
 /verlieren sie.{1,10}bis zu.{1,10}(kg|kilos?)/i
 /verlieren sie.{1,15}gewicht/i
 /verlieren sie.{1,10}(kg|kilos?) in.{1,10}wochen/i
+
+/wie (er|sie).{1,10}(kg|kilos?) verloren hat/i
 
 # Product
 /vorteile.{1,10}keto/i

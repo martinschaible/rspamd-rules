@@ -40,11 +40,14 @@
 
 /funds?.{0,10}(approve|recovery)/i
 
+/forbidden.{0,10}files?/i
+
 # G
 /global.{0,10}funds/i
 /golden.{0,10}visa/i
 
 # H
+/hidden.{0,10}truth/i
 
 # I
 /illuminati/i
@@ -70,13 +73,15 @@
 
 # R
 /randomly.{0,10}selected/i
+
+/revealed now/i
 /(residency|retirement).{0,15}visa/i
 
 # S
 /scam.{0,10}victim/i
 
 # T
-
+/truth.{0,10}(exposed|revealed)/i
 # U
 /usa.{0,10}donation/i
 
