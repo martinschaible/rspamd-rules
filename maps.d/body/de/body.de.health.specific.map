@@ -54,7 +54,10 @@
 /(neutrale|unauffällige) verpackung.{1,10}schneller versand/iu
 /bestellung.{1,10}(neutrale|unauffällige) verpackung/iu
 
-/diskrete.{1,10}bestellung(en)?.{1,10}keine wartezeit/i
+/diskrete.{1,10}abwicklung.{1,10}klare informationen/i
+/diskrete.{1,10}(bestellung|lieferung)(en)?.{1,10}geprüfte präparate/iu
+/diskrete.{1,10}(bestellung|lieferung)(en)?.{1,10}keine wartezeit/i
+
 /diskretion.{1,10}wirkung/i
 /sorgenfreie?.{1,10}diskretion/i
 
@@ -68,11 +71,16 @@
 /(ohne rezept|rezeptfrei).{1,10}(potenzmittel|potenztabletten)/i
 
 /kein arztbesuch nötig.{1,10}(ohne rezept|rezeptfrei)/iu
+/kein rezept.{1,10}keine arztpraxis/i
+
+/klick.{1,10}rezeptfrei/i
+/stunden.{1,10}diskret geliefert/i
 
 #
 /männer.{1,10}die zu früh kommen/iu
 
 # Potency
 # ------------------------------------------------------------------------------
-/potenzmittel wirken schon/i
+/potenzmittel.{1,10}(ganz legal|wirken schon)/i
+
 /moderne präparate wirklich helfen/iu

@@ -50,7 +50,7 @@
 # P
 /(package|parcel|shipment).{1,15}arrived at.{1,15}post.?office/i
 /(package|parcel|shipment).{1,15}cannot be delivered.{1,25}due to an error/i
-
+/(package|parcel|shipment).{1,15}has arrived at the office/i
 # Q
 
 # R

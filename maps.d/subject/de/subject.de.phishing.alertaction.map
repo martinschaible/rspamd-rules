@@ -84,8 +84,9 @@
 /aktualisierung.{1,25}(kredit)?karte/i
 /aktualisierung.{1,10}noch ausstehend/i
 /aktualisierung.{1,20}phototan.?app/i
-
+/aktualisierung.{1,10}rechnungs.{1,10}zahlungsinformationen.{1,10}erforderlich/i
 /aktualisierung.{1,10}überprüfen sie/i
+
 /aktualisierung ihrer.{1,10}unternehmensdaten/i
 /aktualisierung ihrer.{1,10}daten (erforderlich|notwendig)/i
 /aktualisierung ihrer.{1,10}telefonnummer/i
@@ -186,6 +187,8 @@
 /(dringend|wichtig).{1,10}aktualisierung ihrer/i
 /(dringend|wichtig).{1,10}bestätigen sie ihre/iu
 /(dringend|wichtig).{1,10}einschränkungen bei ihrer/iu
+/(dringend|wichtig).{1,10}geräteschutzplan/i
+
 /(dringend|wichtig).{1,10}ihnen entgehen/i
 /(dringend|wichtig).{1,10}ihr systemschutz läuft heute ab/iu
 /(dringend|wichtig).{1,10}ihre kundendaten/i
@@ -487,6 +490,8 @@
 /sicherheits.?(benachrichtigung|hinweis|mitteilung|warnung).{1,10}jetzt handeln/i
 /sicherheits.?(benachrichtigung|hinweis|mitteilung|warnung).{1,10}neue verbindung au/i
 
+/sicherheits.?(benachrichtigung|hinweis|mitteilung|warnung).{1,10}sofortige verlängerung/iu
+
 /sicherheits.?(benachrichtigung|hinweis|mitteilung|warnung).{1,10}unbefugter zugriff auf/i
 /sicherheits.?(benachrichtigung|hinweis|mitteilung|warnung).{1,10}ungewöhnliche aktivität festgestellt/iu
 /sicherheits.?(benachrichtigung|hinweis|mitteilung|warnung).{1,10}(neuer|unbekannter) gerätezugriff/iu
@@ -602,6 +607,7 @@
 /wichtige?.{1,20}kontosicherheit erforderlich/i
 
 /wichtige?.{1,15}hinweis?.{1,10}aktualisieren sie ihr konto/i
+/wichtige?.{1,15}hinweis?.{1,10}geräteschutzplan/i
 /wichtige?.{1,15}hinweis?.{1,10}bestätigen sie/iu
 /wichtige?.{1,15}hinweis?.{1,10}nachrichten warten/i
 /wichtige?.{1,15}hinweis?.{1,10}mtan/i
