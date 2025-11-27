@@ -129,7 +129,8 @@
 /ihr.{1,10}wlan.?signal/i
 
 /insolvenzen.{1,10}günstigen.{1,10}konditionen/iu
-/insolvenzmassen.{1,15}gmbh/i
+/insolvenzmassen?.{1,15}gmbh/i
+/insolvenzmassen?.{1,5}pdf/i
 
 /ip.?tv.{0,10}(abonnement|erlebnis)/i
 

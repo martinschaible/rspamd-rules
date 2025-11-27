@@ -24,14 +24,12 @@
 # Fake Companies and organisations
 # ------------------------------------------------------------------------------
 /european anti.?fraud commission/i
-/european enterprise awards?/i
 /google relief support/i
 /musk foundation charity/i
 
 # Fake Awards
 # ------------------------------------------------------------------------------
-/(german|switzerland).{1,10}business awards 202\d/i
-/(german|switzerland).{1,10}Prestige Awards/i
+/(european|german|switzerland).{1,10}(business|enterprise|excellence|prestige).{1,10}awards?/i
 
 # Business in Dubai
 # ------------------------------------------------------------------------------
