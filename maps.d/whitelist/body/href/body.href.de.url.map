@@ -26,7 +26,8 @@
 /amazon\.de\/gp\/css\/shiptrack\/view\.html/i 5.0
 
 # 19.04.25
-/t\.angebote\.aldi-sued\.de/i 5.0
+# Spammer are using this as hidden text link
+#/t\.angebote\.aldi-sued\.de/i 5.0
 
 # 07.08.25
 /links\.autoscout24\.com\/u\/click\?/i 5.0
@@ -175,7 +176,9 @@
 /go\.eu\.landsend\.com/i 5.0
 
 # 03.04.25
-/click\.mail\.lidlplus\.de/i 5.0
+
+# Spammer are using this as hidden text link
+#/click\.mail\.lidlplus\.de/i 5.0
 
 # 30.08.25
 /www\.lieferando\.de/foodtracker/i 5.0
