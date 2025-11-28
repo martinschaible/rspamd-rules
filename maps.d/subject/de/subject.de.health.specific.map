@@ -25,6 +25,7 @@
 # Men
 # ------------------------------------------------------------------------------
 /(erektions|potenz).?(mittel|leistung|pillen|stundenlang)/i
+/erektion nicht/i
 
 /(garantierte|starke).?erektion/i
 /produktion.{1,10}sexualhormonen/i
@@ -57,7 +58,7 @@
 /blaue.{1,10}(pillen?|tabletten?|tabs?)/i
 /gute.{1,10}potenz/i
 
-/(hart|langweilig) im bett/i
+/(behalten|hart|langweilig|sicherheit|stark) im.{1,10}bett/i
 
 /männlichen potenzsteigerung/iu
 /männlichkeit.{1,10}(zurückgewinnen|zu steigern)/iu
@@ -80,7 +81,8 @@
 /vitalität.{1,10}durchhaltevermögen/i
 /volle.{1,10}manneskraft/i
 
-/blauen? pille/i
+/wenn die erektion/i
+/(blauen?|rezepfreie).{1,10}(pillen?|tabletten?)/i
 
 # Weightloss
 # ------------------------------------------------------------------------------

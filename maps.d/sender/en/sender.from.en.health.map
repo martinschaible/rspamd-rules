@@ -99,7 +99,7 @@
 /healthy?.{0,10}(gift|guides?|gut)/i
 /healthy?.{0,10}(habit|hack|hair|heart|heaven|hero)/i
 /healthy?.{0,10}(insider|insights)/i
-/healthy?.{0,10}(liver|mornings?|now|power)/i
+/healthy?.{0,10}(liver|mornings?|mouth|now|power)/i
 /healthy?.{0,10}research/i
 /healthy?.{0,10}(secret|skin|smile|spine|start)/i
 /healthy?.{0,10}(transformation|vibes|wire)/i
@@ -454,6 +454,7 @@
 /(dead(ly)?|death).{0,10}(drink|foods?|metabolism|veggies?|water)/i
 /(dead|deep).{0,10}cleansing/i
 
+/deep.{0,10}(cleanse|rest|sleep)/i
 /dental.{0,10}(advisor|alert|daily|issues?|repair|rescue|tips?|trick|work)/i
 
 /desire.{0,10}revival/i
@@ -884,8 +885,7 @@
 /science.{0,10}(leak|update)/i
 /scientists?.{0,10}reveals?/i
 
-/second.{0,10}tweak/i
-/sec(ond)?.{1,10}neck lift
+/sec(ond)?.{1,10}(move|neck lift|tweak)/i
 
 /secret.{0,15}(african|ancient|herb|revealed|organ|ritual|weapon)/i
 /secret.{0,10}(big|of)/i

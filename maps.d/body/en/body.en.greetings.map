@@ -45,6 +45,7 @@
 
 # D
 /(dear|greetings?|good day|hello|hi\b).{1,5}(friend|madam|sir).{1,10}attached.{1,10}find/i
+/(dear|greetings?|good day|hello|hi\b).{1,5}(friend|madam|sir).{1,10}barrister/i
 /(dear|greetings?|good day|hello|hi\b).{1,5}(friend|madam|sir).{1,10}congratulations on/i
 /(dear|greetings?|good day|hello|hi\b).{1,5}(friend|madam|sir).{1,15}find the attached/i
 /(dear|greetings?|good day|hello|hi\b).{1,5}(friend|madam|sir).{1,10}good day/i
