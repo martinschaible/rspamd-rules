@@ -28,6 +28,9 @@
 # C
 
 # D
+/(deine|ihre).{1,10}(ein)?zahlung wurde pausiert/i
+/(deine|ihre).{1,10}(ein)?zahlung ist fehlgeschlagen/i
+/(deine|ihre).{1,10}(ein)?zahlung wurde nicht ausgeführt/iu
 
 # E
 /erfordert eine zahlung/i
@@ -49,8 +52,6 @@
 /ihre online.?rückzahlung/iu
 /ihre rückzahlung wartet/iu
 
-/ihre zahlung ist fehlgeschlagen/i
-/ihre zahlung wurde nicht ausgeführt/iu
 /ihre zahlungsdaten sind unvollständig/iu
 
 /information zu einer aktuellen auszahlung/i
