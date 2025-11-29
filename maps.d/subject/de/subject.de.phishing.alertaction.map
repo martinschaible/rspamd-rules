@@ -435,6 +435,8 @@
 # M
 /maßnahme notwendig vor dem/i
 
+/mitteilung zu ihrem geräteschutz/iu
+
 # N
 /nachricht.{1,10}bestätigen sie ihr.{1,15}konto/iu
 
@@ -514,6 +516,7 @@
 /(systemaktualisierung|sicherheitssystem|systemmeldung|systemmitteilung).{1,10}letzter schritt/i
 /(systemaktualisierung|sicherheitssystem|systemmeldung|systemmitteilung).{1,10}umgehend durchführen/iu
 
+/sicherheitsstatus.{1,10}risiko erkannt/i
 /sichern sie ihr.{1,15}konto so schnell wie möglich/iu
 
 /sie die sicherheit ihres.{1,15}kontos?/i

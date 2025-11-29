@@ -93,6 +93,7 @@
 
 # S
 /secure.{1,10}funding/i
+/seeking.{1,10}capital for your.{1,10}business/i
 
 /seek.{1,15}(corporate|personal).{1,10}loans/i
 
@@ -116,9 +117,9 @@
 /we have.{1,10}checked your company records/i
 /we have.{1,10}funding.{1,10}solutions/i
 
-/we.{1,10}(give|issuing|offer|offering|provide|specialize|source).{1,15}(financial|financing|funding)/i
-/we.{1,10}(give|issuing|offer|offering|provide|specialize|source).{1,15}(capital|sourcing)/i
-/we.{1,10}(give|issuing|offer|offering|provide|specialize|source).{1,15}loan facilities/i
+/we.{1,15}(give|issuing|offer|offering|provide|providing|specialize|source).{1,15}(financial|financing|funding)/i
+/we.{1,15}(give|issuing|offer|offering|provide|providing|specialize|source).{1,15}(capital|sourcing)/i
+/we.{1,15}(give|issuing|offer|offering|provide|providing|specialize|source).{1,15}loan facilities/i
 
 /we process.{1,10}loans/i
 
