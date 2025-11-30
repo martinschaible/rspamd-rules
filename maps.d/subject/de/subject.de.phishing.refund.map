@@ -36,6 +36,7 @@
 # C
 
 # D
+/doppelabbuchung.{1,10}id:\d/i
 /doppelte abbuchung erkannt/i
 /doppelte berechnung rückerstattung/iu
 
@@ -107,6 +108,7 @@
 
 /(rück)?erstattung.{1,10}ist (bereit|online|verfügbar)/iu
 /(rück)?erstattung.{1,10}(jetzt|möglich|verfügbar)/iu
+/(rück)?erstattung.{1,10}wegen doppelabbuchung/iu
 /(rück)?erstattung.{1,10}von.{1,15}ihre krankenversicherung/i
 /(rück)?erstattung.{1,10}wurde (angenommen|genehmigt)/i
 /(rück)?erstattung.{1,10}zur verfügung/iu

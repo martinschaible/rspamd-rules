@@ -352,6 +352,7 @@
 
 /body.{0,10}(alignment|balance|reboot|recharge|reset|waves?)/i
 /\bboner$/i
+/boner.{0,10}(brew|pills?)/i
 
 /bone.{0,10}bone/i
 /boost.{0,10}energy/i
@@ -425,7 +426,7 @@
 /colon.{0,10}(care|cleanse|detox|health|ics|irrigation)/i
 /(colon|detox|mayan).{0,10}cleanse/i
 
-/comfort.{0,10}water/i
+/comfort.{0,10}(restore|water)/i
 /compression.{0,10}sleeve/i
 
 /confidence.{0,10}boost(er)?/i
