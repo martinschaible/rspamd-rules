@@ -86,7 +86,9 @@
 /ich bin.{1,10}susanne klatten/i
 
 /ich habe.{1,10}ein dringendes wohlfahrtsprojekt/i
+/ich habe.{1,10}eine.{1,10}spende bis/i
 /ich habe.{1,10}eine.{1,10}spende von.{1,15}(dollar|euro?|gbp|usd|€|\$|£)/i
+
 /ich habe.{1,10}einen.{1,10}charity.?fonds/i
 
 /ihre?.{1,10}e?.?mail.?(adresse|konto)?.{1,15}als.{1,20}begünstigter/iu
@@ -101,6 +103,7 @@
 
 /ihnen.{1,10}eine spende zukommen lassen/i
 /ihnen.{1,10}eine wohltätige spende/iu
+/ihnen.{1,20}für wohltätige zwecke in ihrem land spenden/iu
 /ihnen.{1,10}diesen betrag spenden/i
 /ihnen.{1,10}gerade eine.{1,10}spende in höhe von/iu
 /ihnen.{1,10}in form von.{1,10}spenden?.{1,10}verfügung/iu
@@ -180,7 +183,9 @@
 
 /(spende|zuschuss).{1,10}wurde bearbeitet und kann an sie/i
 /(spende|zuschuss).{1,10}zugesprochen.{1,15}weitere informationen/iu
+
 /(spende|zuschuss).{1,10}zu erhalten.{1,10}kontaktieren sie/i
+/(spende|zuschuss).{1,10}zu erhalten.{1,10}senden sie.{1,10}eine e?.?mail/i
 
 /(spende|zuschuss|weltweit)weltweit.{1,10}sie gehören zu den.{1,10}begünstigten/iu
 
