@@ -72,6 +72,8 @@
 
 /moped.{1,10}e.?fahrrad/i
 
+/(entwickelt|fertigt|palette).{1,15}elektro.?fahrräder/iu
+
 /fat.?tire.{1,10}e.?bike.{1,10}leistungsstark/i
 /fat.?tire.{1,10}elektrorad/i
 
@@ -86,9 +88,12 @@
 /unserem.{1,10}(deutschen|europäischen) lager.{1,10}(bieten wir|derzeit)/iu
 /unserem.{1,10}lager in deutschland (beträgt|erfolgt)/iu
 
+/wir ein lager in deutschland/i
 /wir haben in unserem deutschen lager/i
 
-/wir bieten.{1,20}elektro.?fahrräder/iu
+/wir bieten.{1,30}elektro.?fahrräder/iu
+/wir decken mit.{1,15}elektro.?fahrräder/iu
+
 /wir (fertigen|produzieren).{1,25}mountain.?bikes?/i
 /wir (fertigen|produzieren).{1,25}(e.?bike|e.?cycle|elektrische|elektro|fahrräder)/i
 

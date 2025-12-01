@@ -8,18 +8,17 @@
 
 # Bitcoin
 # ------------------------------------------------------------------------------
-/(bitcoin|btc|crypto|krypto).{0,20}(aufwertung|ausgesorgt|autopilot)/i
-/(bitcoin|btc|crypto|krypto).{0,20}(bietet|chancen?)/i
-/(bitcoin|btc|crypto|krypto).{0,20}(erfolgsgeschichte|enorme)/i
-/(bitcoin|btc|crypto|krypto).{0,20}(geheimnis|goldrausch|handeln)/i
-/(bitcoin|btc|crypto|krypto).{0,20}gewinne?\?/i
-/(bitcoin|btc|crypto|krypto).{0,15}gewinnchance/i
-/(bitcoin|btc|crypto|krypto).{0,20}.innovation in/i
-/(bitcoin|btc|crypto|krypto).{0,20}(konto|millionen|portfolio|chancen?|trader)/i
-/(bitcoin|btc|crypto|krypto).{0,20}(verhilft|verpassen sie nicht|versteuern|welle)/i
-/(bitcoin|btc|crypto|krypto).{0,20}wieder lohnt/i
-
-/(bitcoin|btc|crypto|krypto).{0,20}(machen|macht).{1,10}reich/i
+/(bitcoin|btc|crypto|gpt|krypto).{0,20}(aufwertung|ausgesorgt|autopilot)/i
+/(bitcoin|btc|crypto|gpt|krypto).{0,20}(bietet|chancen?)/i
+/(bitcoin|btc|crypto|gpt|krypto).{0,20}(erfolgsgeschichte|enorme)/i
+/(bitcoin|btc|crypto|gpt|krypto).{0,20}(geheimnis|goldrausch|handeln)/i
+/(bitcoin|btc|crypto|gpt|krypto).{0,20}gewinne?\?/i
+/(bitcoin|btc|crypto|gpt|krypto).{0,15}gewinnchance/i
+/(bitcoin|btc|crypto|gpt|krypto).{0,20}.innovation in/i
+/(bitcoin|btc|crypto|gpt|krypto).{0,20}(konto|millionen|portfolio|chancen?|trader)/i
+/(bitcoin|btc|crypto|gpt|krypto).{0,20}(verhilft|verpassen sie nicht|versteuern|welle)/i
+/(bitcoin|btc|crypto|gpt|krypto).{0,20}wieder lohnt/i
+/(bitcoin|btc|crypto|gpt|krypto).{0,20}(machen|macht).{1,10}reich/i
 
 #
 /schock.{1,10}(ai|chatgpt|ki\b)/i
@@ -134,6 +133,7 @@
 
 /generiert einkommen/i
 
+/gratis strategie.?tipp/i
 /grundeinkommen durch/i
 
 /goldrausch ki/i

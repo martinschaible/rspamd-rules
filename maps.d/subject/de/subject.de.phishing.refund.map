@@ -36,11 +36,11 @@
 # C
 
 # D
-/doppelabbuchung.{1,10}id:\d/i
+/(doppelabbuchung|zahlung).{1,10}id:\d/i
+
 /doppelte abbuchung erkannt/i
 /doppelte berechnung rückerstattung/iu
 
-/doppelte(n|r)? zahlung.{1,5}id/i
 /doppelzahlung beantragen/i
 
 # E

@@ -735,7 +735,8 @@
 
 /mobility.{0,10}(fix|matters)/i
 
-/morning.{0,10}(alert|boost|brew|dessert|detox|drink|hack|melt|metabolics|metabolism|mistake)/i
+/morning.{0,10}(alert|boost|brew|dessert|detox|drink|fruit|hack|lift)/i
+/morning.{0,10}(melt|metabolics|metabolism|mistake)/i
 /morning.{0,10}(oil|reset|ritual|routine|slimmer|tweak|vitality|wood)/i
 /morphine.{0,10}fruit/i
 
@@ -777,7 +778,8 @@
 /noise.{0,10}(cancelling|inside)/i
 /normal.{0,10}a1c/i
 
-/nutrition.{0,15}(explorer|fruits|healing|insider|insights|less|nuances?|notes?|report|tips?|truth|veggies)/i
+/nutrition.{0,15}(explorer|fruits|healing|insider|insights|less)/i
+/nutrition.{0,15}(nuances?|notes?|paradox|report|tips?|truth|veggies)/i
 
 # O
 /oat.?meal.{0,10}(trick|hack)/i
