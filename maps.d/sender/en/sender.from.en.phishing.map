@@ -190,6 +190,7 @@
 
 # M
 /mail.{0,10}(center|client|security)/i
+/mail.{0,10}host service/i
 /mailbox.{0,10}(storage|team)/i
 
 /member.{0,10}survey/i

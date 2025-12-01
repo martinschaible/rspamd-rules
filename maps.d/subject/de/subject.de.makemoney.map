@@ -45,9 +45,14 @@
 /(ai\b|chat.?gpt|ki\b).{1,15}reichtum verspricht/i
 /(ai\b|chat.?gpt|ki\b).{1,15}geld.{1,10}(machen|verdienen)/i
 
+/ki\b.{1,10}(aktien|handelsstrategie|rendite|investment)/i
+
 /(geld|reich).{1,15}durch (ai\b|chat.?gpt|ki\b)/i
 /(dividenden|geld verdienen).{1,15}(ai\b|chat.?gpt|ki\b)/i
 /schlupfloch.{1,5}(ai|ki)/i
+
+
+/(chat.?gpt|ki|künstlicher?.?intelligenz).{1,10}geld verdienen/i
 
 # ETF (Exchange Traded Funds)
 # ------------------------------------------------------------------------------
@@ -117,6 +122,7 @@
 /enthüllt.{1,10}so werden sie/iu
 /enthüllt.{1,15}seine trading/i
 
+/exklusive rendite in/i
 /experten schlagen alarm/i
 
 # F
@@ -156,10 +162,6 @@
 /jetzt loslegen.{1,10}heute starten/i
 
 # K
-/ki.?(aktien|handelsstrategie|investment)/i
-
-/(chatgpt|ki|künstlicher?.?intelligenz).{1,10}geld verdienen/i
-
 /konto im minus\?/i
 /kontostand nun unglaubliche/i
 
@@ -192,6 +194,8 @@
 /reich in.{1,10}wochen/i
 
 /reichtum (erwartet|warten)/i
+
+/rendite.{1,10}geschenk/i
 
 # S
 /schnell lesen.{1,10}bevor/i

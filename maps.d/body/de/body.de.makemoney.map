@@ -16,6 +16,8 @@
 
 /(bitcoin|btc|crypto|gpt|krypto).{0,20}passives einkommen/i
 
+/einkommen.{1,10}gpt/i
+
 #
 #
 #
@@ -94,6 +96,8 @@
 
 /mitglieder.{1,15}euro pro tag/i
 
+/möchten.{1,10}passives einkommen/iu
+
 # N
 /neue geldmethode/i
 
@@ -124,7 +128,10 @@
 /sie damit mindestens.{1,10}\d{3,5}.{1,5}euro pro/i
 /sie sofort bis zu.{1,15}euro pro tag verdienen/i
 /sie garantiert.{1,15}euro pro tag verdienen/i
+
+/sie in.{1,10}der krise finanziell vorankommen/i
 /sie in.{1,10}jahren noch arm sein/i
+
 /sie können viel geld verdienen ohne/i
 
 /sofort mindestens.{1,15}euro pro tag verdienen/i
