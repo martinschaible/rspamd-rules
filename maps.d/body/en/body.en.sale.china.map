@@ -25,7 +25,7 @@
 /co.{1,5}(limited|ltd).{1,10}to you/i
 
 /enterprise.{1,15}co.{1,5}(limited|ltd)/i
-/(ceramics|clothing|packaging|plastic|product).{1,10}co.{1,5}(limited|ltd)/i
+/(ceramics|clothing|material||packaging|plastic|product).{1,10}co.{1,5}(limited|ltd)/i
 
 /(limited|ltd).{1,10}(specializes in|we are major)/i
 /(limited|ltd).{1,10}we (provide|specialize)/i
@@ -78,6 +78,7 @@
 # J
 
 # K
+/knowing your email from.{1,10}web.?site/i
 
 # L
 /(leading|trusted|your).{1,10}(pcba?|printed.?circuit.?board).{1,10}(company|factory|supplier)/i
@@ -140,6 +141,7 @@
 # V
 
 # W
+/we.{1,10}are.{1,10}(independent|leading|professional|specialized?|top|trusted).{1,10}professional company of/i
 /we.{1,10}are.{1,10}(independent|leading|professional|specialized?|top|trusted).{1,20}(distributor|domestic|manufacturer|supplier) (in the|of|producing|with)/i
 /we.{1,10}are.{1,10}(independent|leading|professional|specialized?|top|trusted).{1,20}(factory|forwarder)/i
 /we.{1,10}are.{1,10}(independent|leading|professional|specialized?|top|trusted).{1,20}(electric|bycycle)/i
