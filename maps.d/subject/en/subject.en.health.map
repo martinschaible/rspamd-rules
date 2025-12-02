@@ -312,7 +312,7 @@
 /end.{1,10}(back|knee|nerve) pain/i
 /end.{1,10}ear (buzzing|ringing)/i
 
-/end.{1,10}constipation/i
+/end.{1,10}(constipation|neuropathy)/i
 /end.{1,10}joint pain/i
 /end.{1,10}memory loss/i
 /end.{1,10}urine leaks/i
@@ -740,6 +740,7 @@
 /simple.{1,10}drink helps/i
 /simple.{1,10}fruit with/i
 /simple.{1,10}(habit|routine).{1,10}(destroys|inspired|that)/i
+/simple.{1,10}inspired trick/i
 /simple.{1,10}oral flush/i
 /simple.{1,15}solution.{1,15}(back|neck|pain)/i
 /simple.{1,10}spine/i

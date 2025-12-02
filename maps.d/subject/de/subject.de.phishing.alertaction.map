@@ -152,6 +152,7 @@
 
 /bestätigen.?-.?#[a-z0-9]{4,10}/iu
 /bestätigen sie ihre.{1,5}adresse/i
+/bestätigen sie (die|ihre).{1,10}aktuellen angaben/i
 /bestätigen sie (die|ihre).{1,10}(lieferadresse|lieferdaten)/i
 /bestätigen sie (die|ihre).{1,10}(prämie|rechtsform|telefonnummer|zahlung|zusendung)/iu
 
@@ -231,6 +232,7 @@
 /erinnerung.{1,10}ihre listing auf/i
 /erinnerung.{1,10}ihre kundenpunkte/i
 /erinnerung.{1,10}konto ist.{1,15}ungeschützt/iu
+/erinnerung.{1,10}lastschriftmandat erneuern/i
 /erinnerung.{1,15}möglichkeit einer zusammenarbeit/iu
 
 /erinnerung.{1,10}persönliches angebot/iu

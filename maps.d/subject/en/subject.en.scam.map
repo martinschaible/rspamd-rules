@@ -144,12 +144,12 @@
 
 /fund(ing)?.{1,10}(donation|office|opportunity|proposal|recovered|request)/i
 /funds claim/i
+/funds recovery service/i
 
 # G
+/genuine collaboration$/i
 /get.{1,15}golden visa/i
 /get.{1,15}retirement residency visa/i
-
-/funds recovery service/i
 
 /gold nuggets? available/i
 
