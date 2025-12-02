@@ -7,6 +7,7 @@
 # - body.de.sale.greetings.map
 # - body.de.sale.media.map
 # - body.de.sale.seo.map
+# - body.de.sale.specific.map
 # - body.de.sale.website.map
 #
 # - The file "body.de.sale.specific.map" contains rules for specific products,
@@ -21,11 +22,9 @@
 # ==============================================================================
 
 # A
-/angebotsübersicht.{1,10}insolvenzmassen?/iu
 
 # Eso crap
 /aktiviere.{1,10}dein.{1,10}potenzial/i
-/aktuellen.{1,10}liquidierungen.{1,10}anbieten/i
 
 /antworten sie.{1,10}auf diese.{1,10}e?.?mail mit.{1,15}(bestellung|lieferadresse|vollständigen)/i
 /antworten sie.{1,10}(bestellung|uns einfach mit).{1,10}(lieferadresse|rechnungsadresse)/i
@@ -127,7 +126,6 @@
 
 # V
 /versand.{1,10}mediterrane.{1,10}gartenpflanzen/i
-/verwertung.{1,10}(aus|von).{1,10}(Insolvenzmasse|insolvenzverfahren)/i
 
 # W
 /wir sind ein.{1,15}indisches unternehmen/i
