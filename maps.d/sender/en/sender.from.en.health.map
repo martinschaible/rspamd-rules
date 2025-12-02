@@ -460,7 +460,7 @@
 
 /desire.{0,10}revival/i
 
-/detox.{0,10}(drink|solution|your)/i
+/detox.{0,10}(drink|minute|solution|your)/i
 /deficiency.{0,10}alert/i
 
 /digestive.{0,10}(boost|fix|food|health|help|insight|reset|system)/i
@@ -665,6 +665,8 @@
 /knee.{0,10}(coach|mistake|myth|pinch|reset|restore|stretch|support)/i
 
 # L
+/latte.{0,10}hack/i
+
 /leak.{0,10}(free|stop(per)?)/i
 /leaky.{0,10}brain/i
 

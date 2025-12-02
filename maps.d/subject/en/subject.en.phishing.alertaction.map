@@ -242,6 +242,7 @@
 
 /notification.{1,10}(action required|incomplete|updated)/i
 /notification.{1,10}account.{1,30}closure/i
+/notification.{1,10}please review/i
 /(confidential|notification).{1,10}(access|protect) your crypto/i
 
 # 13.07.25 - Notification of billing amount confirmation
