@@ -138,6 +138,9 @@
 # A subject does never start with a comma
 /^,/i
 
+#
+\^\[.?\]$/i
+
 # Silly stupid stuff
 # ------------------------------------------------------------------------------
 /txt::/i

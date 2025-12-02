@@ -133,6 +133,8 @@
 /system.{0,10}input/i
 
 # T
+/trader.?v\d/i
+
 /trading.{0,10}(bot|system)/i
 
 # U
