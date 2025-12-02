@@ -56,7 +56,7 @@
 
 # ETF (Exchange Traded Funds)
 # ------------------------------------------------------------------------------
-/etf.{1,15}(anmeldung|bricht|gestartet|investieren|rekorde|zulassung)/i
+/etf.{1,15}(anmeldung|bricht|gestartet|investieren|rekorde|schlagzeilen|zulassung)/i
 /etfs?.{1,10}in der schweiz/i
 
 # Income
@@ -72,6 +72,7 @@
 
 #
 /(\d{3,4}|euro).{1,10}nebeneinkommen/i
+/\+.?\d{3,4}.{1,10}täglich/iu
 
 /2500.{1,10}pro monat/i
 /250.?(€|euro).{1,10}einzuzahlen/i
@@ -80,8 +81,9 @@
 
 # A
 
-/aktien.{1,10}reich werden/i
+/aktien.{1,10}(machen reicht|reich werden)/i
 
+/arm durch aktien/i
 /aufsehen.{1,10}bankensektor/i
 /automatischer aktienhandel/i
 
@@ -116,6 +118,7 @@
 
 /einkommen.{1,10}reichtum/i
 
+/erreichen sie.{1,10}finanzielle freiheit/i
 /erfolgsgeschichte enthüllt/iu
 /erklärt sein system/iu
 
@@ -219,6 +222,7 @@
 /system sorgt für.{1,10}vermögen/iu
 
 # T
+/trotz gehalt arm/i
 
 # U
 /um tausende pro monat zu verdienen/i

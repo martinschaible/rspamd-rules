@@ -189,3 +189,9 @@
 
 /schwer.?lastregale? \d{3}.?x.?\d{2,3}/i
 /set blaue.{1,10}schwerlast.?regale/i
+
+# Tools
+# ------------------------------------------------------------------------------
+/\d{2,4}.{1,10}(teiliger|teiliges).{1,15}(koffer|set|sortiment)/i
+
+/werkzeugset im trolley/i

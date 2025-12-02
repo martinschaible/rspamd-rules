@@ -259,7 +259,7 @@
 
 # Tools
 # ------------------------------------------------------------------------------
-/\d{2,4}.{1,10}teiliges.{1,15}set/i
+/\d{2,4}.{1,10}(teiliger|teiliges).{1,15}(koffer|set|sortiment)/i
 
 /akkus?.?(kettensäge|kraft)/iu
 /akkus?.{1,10}(ausrüstung|schnellladegerät)/iu
@@ -280,7 +280,7 @@
 /werkzeug.?(koffer|set).{1,20}jetzt sichern/i
 /werkzeug.?(koffer|set).{1,10}nur heute/i
 
-/werkzeuge?.{1,10}(aktion|highlight|power|upgrade)/i
+/werkzeuge?.{1,10}(aktion|highlight|power|sparpaket|upgrade)/i
 /werkzeuge?.{1,10}(klassiker|komplett)/i
 /werkzeuge?.{1,15}(für|fuer|nur) \d/i
 

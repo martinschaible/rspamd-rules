@@ -499,7 +499,7 @@
 /sicherheits.?(benachrichtigung|hinweis|mitteilung|warnung).{1,10}sofortige verlängerung/iu
 
 /sicherheits.?(benachrichtigung|hinweis|mitteilung|warnung).{1,10}unbefugter zugriff auf/i
-/sicherheits.?(benachrichtigung|hinweis|mitteilung|warnung).{1,10}ungewöhnliche aktivität festgestellt/iu
+/sicherheits.?(benachrichtigung|hinweis|mitteilung|warnung).{1,10}ungewöhnliche.{1,10}(anmelde)?aktivität(en)?.{1,10}festgestellt/iu
 /sicherheits.?(benachrichtigung|hinweis|mitteilung|warnung).{1,10}(neuer|unbekannter) gerätezugriff/iu
 /sicherheits.?(benachrichtigung|hinweis|mitteilung|warnung).{1,10}unbekanntes gerät hat sich/iu
 /sicherheits.?(benachrichtigung|hinweis|mitteilung|warnung).{1,10}unbekannte anmeldung/i
@@ -576,6 +576,8 @@
 
 /überweisung läuft.{1,10}sofortige stornierung/iu
 
+/ungewöhnlichen?.{1,10}(anmeldevorgang|anmeldung) festgestellt/iu
+
 # V
 /verdacht auf ungewöhnliche aktivität.{1,15}prüfen sie ihr.{1,15}konto/i
 /verdächtige (aktivität|anmeldung) (auf|bei) ihrem.{1,15}konto/iu
@@ -606,11 +608,14 @@
 
 /wichtige?.{1,10}aktualisieren sie/i
 /wichtige?.{1,10}änderungen.{1,10}ihre umgehende/i
-/wichtige?.{1,10}benachrichtigung.{1,10}urheberrechtsverstoß/iu
 
+/wichtige?.{1,10}benachrichtigung.{1,10}urheberrechtsverstoß/iu
 /wichtige?.{1,10}bestätigung erforderlich/i
+
 /wichtige?.{1,10}einschränkung ihres.{1,15}kontos/i
 /wichtige?.{1,10}erinnerung.{1,10}daten checken/i
+
+/wichtige?.{1,10}informationen zu.{1,10}rückerstattung/iu
 /wichtige?.{1,20}kontosicherheit erforderlich/i
 
 /wichtige?.{1,15}hinweis?.{1,10}aktualisieren sie ihr konto/i

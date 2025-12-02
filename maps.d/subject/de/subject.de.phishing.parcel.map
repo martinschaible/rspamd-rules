@@ -186,6 +186,7 @@
 
 /(lieferung|paket|sendung|versand|zustellung).{1,20}lieferdaten verifizieren/iu
 
+/(lieferung|paket|sendung|versand|zustellung).{1,10}neu planen.{1,10}(id|ref)\d/i
 /(lieferung|paket|sendung|versand|zustellung).{1,10}nicht zustellen.{1,10}(\d{5,10}|ids)/i
 /(lieferung|paket|sendung|versand|zustellung).{1,10}steht zur zustellung bereit/i
 
@@ -237,6 +238,7 @@
 /(paket|sendung).{1,10}erwartet sie/i
 /(paket|sendung).{1,10}freigegeben/i
 
+/(paket|sendung).{1,5}id:\d{5,15}/i
 /(paket|sendung).{1,10}importgebühr ausstehend/iu
 /(paket|sendung).{1,15}informationen erforderlich/i
 
