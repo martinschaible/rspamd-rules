@@ -378,6 +378,7 @@
 
 /gls-(ch|de)/i
 /gls.?(™|®|©)$/i
+/gls\d{3,10}/i
 
 /(germany|team).{0,10}gls/i
 

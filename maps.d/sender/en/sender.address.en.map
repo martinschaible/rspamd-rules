@@ -37,6 +37,7 @@
 /application/i
 
 /auth@/i
+/auth\d{1,10}/i
 
 # B
 #/banking@/i
@@ -45,6 +46,8 @@
 
 # C
 /claim.?refund/i
+
+/(crypto|invest).?(ai|ki)\./i
 
 # D
 
@@ -81,6 +84,8 @@
 /login@/i
 
 # M
+/mailbox.?service/i
+
 /mailxcg/i
 /mailweb/i
 

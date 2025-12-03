@@ -97,7 +97,9 @@
 # Q
 
 # R
-/rankings.{1,10}our.{1,10}effective/i
+/rankings?.{1,10}our.{1,10}effective/i
+/rankings?.{1,10}issues on your.{1,10}(web)?site/i
+
 /reviewed your.{1,10}(web)?site.{1,10}was impressed/i
 
 /run.{1,10}free seo/i

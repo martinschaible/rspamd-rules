@@ -65,7 +65,7 @@
 # F
 /#.?1st page/i
 /1st page.?!/i
-/^1st page$/i
+/^(re: )?1st page$/i
 
 /(1st|first|seo|top).{1,10}((home)?page|(web)?site)\?/i
 /(1st|first|seo|top).{1,10}((home)?page|(web)?site).{1,10}(google|of)/i
@@ -202,7 +202,7 @@
 # V
 
 # W
-/want more traffic/i
+/want more.{1,10}(organic|sales|traffic)/i
 
 /(web)?site.{1,10}rankings?/i
 

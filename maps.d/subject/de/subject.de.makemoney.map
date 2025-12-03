@@ -38,7 +38,8 @@
 /reich wird.{1,10}(etf|ki|openai)/i
 /warum sich.{1,10}(etf|ki|openai).{1,25}lohnt/i
 
-/(ai\b|chat.?gpt|ki\b).{1,15}(aktien?|dividenden|geheimnis|gewinne|einkommen|goldrausch)/i
+/(ai\b|chat.?gpt|ki\b).{1,15}(aktien?|dividenden|einkommen)/i
+/(ai\b|chat.?gpt|ki\b).{1,15}(geheimnis|gewinne?|goldrausch)/i
 /(ai\b|chat.?gpt|ki\b).{1,15}(handeln?|reich|verhilft|verspricht)/i
 /(ai\b|chat.?gpt|ki\b).{1,15}(machen|macht).{1,10}reich/i
 /(ai\b|chat.?gpt|ki\b).{1,15}revolutioniert aktienhandel/i
@@ -129,6 +130,7 @@
 /experten schlagen alarm/i
 
 # F
+/fest.?gewinn/i
 /finanzgeheimnis schockiert/i
 
 # G
@@ -141,6 +143,8 @@
 /geld verdienen mit/i
 
 /generiert einkommen/i
+
+/gewinn.{1,10}boosten/i
 
 /gratis strategie.?tipp/i
 /grundeinkommen durch/i
