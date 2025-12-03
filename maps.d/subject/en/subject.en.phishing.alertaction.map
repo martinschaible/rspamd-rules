@@ -151,7 +151,7 @@
 /(e?.?mail|mailbox).{1,10}account unusual sign.?in/i
 /(e?.?mail|mailbox).{1,10}account validation for/i
 /(e?.?mail|mailbox).{1,10}security reminder/i
-/(e?.?mail|mailbox).{1,10}update alert/i
+/(e?.?mail|mailbox).{1,10}(termination|update) alert/i
 /(e?.?mail|mailbox).{1,10}verification.{1,10}(action|update) (needed|required)/i
 
 # F

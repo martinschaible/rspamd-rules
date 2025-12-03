@@ -139,6 +139,7 @@
 
 # W
 /we are closing.{1,10}old versions/i
+/we.{1,15}received.{1,10}request to disable your.{1,10}(e?.?mail|mail.?box)/i
 /we want to reduce the numbers?.{1,10}dormant.{1,10}accounts/i
 
 /webmail.{1,10}account credentials/i
