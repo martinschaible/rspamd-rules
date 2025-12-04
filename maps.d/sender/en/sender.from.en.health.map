@@ -283,6 +283,8 @@
 
 /aligend.{0,10}intimacy/i
 /alignment.{0,10}fix/i
+/(alkaline|spring).{0,10}water/i
+
 /allergy.{0,10}(fix|medication|sufferers)/i
 
 /ancient.{0,20}(enzyme|drink|fruit|health|ritual|tee|wellness|wine)/i
@@ -595,7 +597,7 @@
 
 # H
 /hair.{0,5}(balding|enhancer|experts?|growth|loss)/i
-/hair.{0,5}(renewal|restoration|restorer?|revival|strength|thinning)/i
+/hair.{0,5}(renewal|restoration|restorer?|revival|strength|thinning|vitality)/i
 
 /hanging.{0,10}belly/i
 
@@ -697,6 +699,7 @@
 /loosened.{0,10}hips/i
 
 /lost \d{2,3}/i
+/lost.{0,10}hair/i
 
 /love.{0,10}handles?/i
 /low.{0,10}(cholesterol|sugar)/i
@@ -873,7 +876,7 @@
 /replace.{0,10}blue/i
 
 /restful.{0,10}(nights?|sleep)/i
-/restore.{0,10}cognition/i
+/restore.{0,10}(cognition|hair)/i
 
 /reverse.{0,10}(aging|gum)/i
 /revive.{0,10}your/i
@@ -919,7 +922,7 @@
 /silence.{0,10}(buzz(ing)?|foundry|hack|pain|restored?)/i
 /silent.{0,10}danger/i
 
-/skin.{0,10}(alert|fix|sculptor|secret|tightening)/i
+/skin.{0,10}(alert|fix|restore|sculptor|secret|tightening)/i
 
 /sleep.{0,10}(age|care|discovery|hack|health)/i
 /sleep.{0,10}(lab|memory|mineral|mistake|position|posture|reset)/i
@@ -1053,6 +1056,8 @@
 
 /vital(ity)?.{0,10}(fix|health|now)/i
 /vitamin.{0,10}recall/i
+
+/vitiligo.{0,10}solution/i
 
 # W
 /\bw.?loss/i
