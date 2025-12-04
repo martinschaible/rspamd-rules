@@ -126,6 +126,7 @@
 
 /request.?quotation/i
 
+/request for.{1,10}(brochure|catalog|catalogue)/i
 /request for.{1,25}pricing.{1,10}product/i
 /request.{1,10}updated.{1,20}(brochure|catalog|catalogue)/i
 

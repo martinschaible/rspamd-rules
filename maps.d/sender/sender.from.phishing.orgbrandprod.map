@@ -486,6 +486,8 @@
 /^mastercard$/i
 
 /mccafee/i
+
+/(-|\|).?mcafee/i
 /mcafee.{0,10}(kundendienst|kundenservice)/i
 
 /media markt/i
