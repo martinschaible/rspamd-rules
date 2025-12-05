@@ -38,8 +38,11 @@
 # K
 /kristi.{0,5}noem/i
 
+# L
+/(lanz|schweiger|til).{0,10}(leak|sendung|skandal)/i
+
 # M
-/(eder|elon|tesla).{1,10}musk/i
+/(eder|elon|tesla).{0,10}musk/i
 /musk-/i
 
 /musk.{1,5}foundation/i
