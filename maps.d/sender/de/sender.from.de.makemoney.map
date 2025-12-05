@@ -59,6 +59,7 @@
 # B
 /banken.?(newsletter|zittern)/i
 
+/bericht.{0,10}panel/i
 /bicoinvest/i
 
 # C
@@ -131,6 +132,7 @@
 # R
 /regierung.{0,10}zensiert/i
 /reich.{0,10}(sein|werden)/i
+/report.{0,10}(einheit|finanz)/i
 
 # S
 /schock.{0,10}fakten/i
@@ -139,8 +141,6 @@
 /skandal.{0,10}fakten/i
 
 # T
-/\\tagesschau/i
-
 /teuer.{0,10}verkaufen/i
 
 /top.?picks/i

@@ -156,6 +156,7 @@
 
 # F
 /factory 202\d\//i
+/factory.{1,10}direct.{1,10}(kitchen|sink|waste)/i
 /factory.{1,20}from china/i
 /factory.{1,10}looking for.{1,10}cooperation/i
 
@@ -424,7 +425,9 @@
 
 # Y
 /you confirm your.{1,10}interest/i
-/you have any.{1,10}(cargo|export)/i
+
+/you.{1,15}have any.{1,10}(cargo|export)/i
+
 /you looking for.{1,15}(battery|supplier)/i
 
 /you need.{1,10}(hardware|springs|transportation)/i

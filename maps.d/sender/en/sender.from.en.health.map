@@ -308,7 +308,7 @@
 
 /(bad|evil).{0,10}(bacteria|foods?|fruits?)/i
 
-/balance.{0,10}(blood|booster|brain|clinic|restored|your)/i
+/balance.{0,10}(blood|booster|brain|clinic|restored|science|your)/i
 /balanced.?(bp|glucose)/i
 /bald.{0,10}spot/i
 
@@ -339,7 +339,7 @@
 
 /bloat(ing)?.{0,10}(free|fruits?|solution)/i
 /blocking.{0,10}teas?/i
-/blood.{0,10}(boost|clots?|flow|glucose|pressure|solution|sugar)/i
+/blood.{0,10}(balance|boost|clots?|flow|glucose|pressure|solution|sugar)/i
 
 /blue.{0,10}(drink|juice|pill|plant|replacement)/i
 /blurry.{0,10}fix/i
@@ -734,7 +734,7 @@
 
 /minute.{0,10}fix/i
 
-/(miracle|miraculous).{0,10}(fruit|mind)/i
+/(miracle|miraculous).{0,10}(brand|fruit|mind)/i
 
 /missing.{0,10}nutrients?/i
 
@@ -753,7 +753,7 @@
 
 /mucus.{0,10}cleanse/i
 /muffled.{0,10}hearing/i
-/muscle.{0,10}(miracle|pain|repair|stretch)/i
+/muscle.{0,10}(care|miracle|pain|repair|stretch)/i
 /mushroom.{0,10}magic/i
 
 # N
@@ -890,6 +890,8 @@
 # S
 /safe.{0,10}foods?/i
 /sagging.{0,10}(neck|skin)/i
+
+/salad.{0,10}alert/i
 /salty?.{0,10}(drink|solution|trick)/i
 /satisfaction.{0,10}solution/i
 

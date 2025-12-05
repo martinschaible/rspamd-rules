@@ -191,6 +191,8 @@
 # O
 /offers?.{0,10}program/i
 
+/online.{0,10}online/i
+
 # P
 /path.{0,10}team/i
 
@@ -248,6 +250,7 @@
 
 /shoe.{0,10}insole/i
 /shower.{0,10}scrubber/i
+/shop(ping)?.{0,10}(deal|deals?|discounts?|guide)/i
 
 /silent.{0,10}(danger|space)/i
 
