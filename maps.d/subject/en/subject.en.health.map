@@ -332,7 +332,7 @@
 /escape.{1,10}memory/i
 
 /ever faked an/i
-/experts?.{1,10}(food|his food|warn)/i
+/experts?.{1,10}(food|his food|warn\b)/i
 
 # F
 /faster than.{1,10}pills/i
