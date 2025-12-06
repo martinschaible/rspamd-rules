@@ -111,6 +111,7 @@
 
 # H
 /hallo.{1,10}(das|dies) ist ihre letzte chance/i
+/hallo.{1,10}damen und herren/i
 
 /hallo.{1,10}ich bin.{5,35}ceo von/iu
 /hallo.{1,10}ich bin.{5,35}eine?.{1,15}(geschäfts)?(frau|mann)/iu
@@ -151,6 +152,9 @@
 /hallo.{1,10}wenn sie finanzielle/i
 /hallo.{1,10}wie geht es ihnen/i
 
+/hallo freund/i
+/hallo guten tag/i
+/hallo von (frau|herr)/i
 # Used for ransom attacks 
 /hallo perversling/i
 

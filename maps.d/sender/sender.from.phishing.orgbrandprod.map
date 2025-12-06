@@ -170,6 +170,8 @@
 /^ard.?zdf$/i
 /ard.?zdf.?(radio|service)/i
 
+/aarp.{0,10}(advertiser|offer|opportunity)/i
+
 # 07.03.25 - au FINANCIAL SERVICE CORPORATION
 /au pay/i
 
@@ -383,7 +385,7 @@
 /(germany|team).{0,10}gls/i
 
 /gls.{0,10}(deutschland|germany|schweiz)/i
-/gls.{0,10}(infozentrum|lieferdienst)/i
+/gls.{0,10}(infozentrum|lieferdienst|lieferung)/i
 /gls.{0,10}(kundendienst|kundenservice)/i
 /gls.{0,10}(online|sendung|support|team)/i
 

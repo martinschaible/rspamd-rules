@@ -52,7 +52,8 @@
 /(pillen|tabletten?|tabs).{1,10}ohne rezept/i
 
 /(neutrale|unauffällige) verpackung.{1,10}schneller versand/iu
-/bestellung.{1,10}(neutrale|unauffällige) verpackung/iu
+/(bestellen|bestellung).{1,10}(neutrale|unauffällige) verpackung/iu
+/(bestellen|bestellung).{1,10}diskreter? (verpackung|versand)/iu
 
 /diskrete.{1,10}abwicklung.{1,10}klare informationen/i
 /diskrete.{1,10}(bestellung|lieferung)(en)?.{1,10}geprüfte präparate/iu
@@ -83,4 +84,5 @@
 # ------------------------------------------------------------------------------
 /potenzmittel.{1,10}(ganz legal|wirken schon)/i
 
+/männlicher leistung.{1,50}(diskret|natürlich)/i
 /moderne präparate wirklich helfen/iu
