@@ -1,0 +1,56 @@
+# ==============================================================================
+# Phishing obfuscation detection patterns
+#
+# Detects text obfuscated with zero-width Unicode characters
+# Common in phishing emails to bypass spam filters
+#
+# Zero-width characters used by spammers:
+# U+200B (Zero Width Space)
+# U+200C (Zero Width Non-Joiner)
+# U+200D (Zero Width Joiner)
+# U+FEFF (Zero Width No-Break Space / BOM)
+# ------------------------------------------------------------------------------
+# Language: german
+# Weight:   6.0
+# ==============================================================================
+
+# Generic pattern: detects 3+ letters with zero-width chars between them
+# Matches obfuscated words regardless of content
+/[a-zäöüß]([\u200B\u200C\u200D\uFEFF][a-zäöüß]){2,}/i
+
+# Specific phishing terms
+# ------------------------------------------------------------------------------
+
+# Critical phishing terms with obfuscation detection
+# Requires at least 2-3 obfuscation chars to avoid false positives on normal words
+# Pattern: .{1,3} ensures there's at least 1 char between letters
+
+# Zahlung / Zahlungsproblem (min 3 obfuscated chars required)
+/z.{1,3}a.{1,3}h.{1,3}l.{1,3}u.{1,3}n.{1,3}g/i
+
+# Konto / Kontostand (min 2 obfuscated chars required)
+/k.{1,3}o.{1,3}n.{1,3}t.{1,3}o/i
+
+# Passwort (min 3 obfuscated chars required)
+/p.{1,3}a.{1,3}s.{1,3}s.{1,3}w.{1,3}o.{1,3}r.{1,3}t/i
+
+# Überprüfung / Überprüfen (min 3 obfuscated chars required)
+/[uü].{1,3}b.{1,3}e.{1,3}r.{1,3}p.{1,3}r.{1,3}[uü].{1,3}f/i
+
+# Bestätigung / Bestätigen (min 3 obfuscated chars required)
+/b.{1,3}e.{1,3}s.{1,3}t.{1,3}[äa].{1,3}t.{1,3}i.{1,3}g/i
+
+# Verifizierung / Verifizieren (min 4 obfuscated chars required)
+/v.{1,3}e.{1,3}r.{1,3}i.{1,3}f.{1,3}i.{1,3}z.{1,3}i.{1,3}e.{1,3}r/i
+
+# Sicherheit (min 4 obfuscated chars required)
+/s.{1,3}i.{1,3}c.{1,3}h.{1,3}e.{1,3}r.{1,3}h.{1,3}e.{1,3}i.{1,3}t/i
+
+# Dringend (min 3 obfuscated chars required)
+/d.{1,3}r.{1,3}i.{1,3}n.{1,3}g.{1,3}e.{1,3}n.{1,3}d/i
+
+# Sofort / Sofortig (min 2 obfuscated chars required)
+/s.{1,3}o.{1,3}f.{1,3}o.{1,3}r.{1,3}t/i
+
+# Aktualisierung / Aktualisieren (min 4 obfuscated chars required)
+/a.{1,3}k.{1,3}t.{1,3}u.{1,3}a.{1,3}l.{1,3}i.{1,3}s.{1,3}i.{1,3}e.{1,3}r/i

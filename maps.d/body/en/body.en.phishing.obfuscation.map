@@ -1,0 +1,22 @@
+# ==============================================================================
+# Phishing obfuscation detection patterns
+#
+# Detects text obfuscated with zero-width Unicode characters
+# Common in phishing emails to bypass spam filters
+#
+# Zero-width characters used by spammers:
+# U+200B (Zero Width Space)
+# U+200C (Zero Width Non-Joiner)
+# U+200D (Zero Width Joiner)
+# U+FEFF (Zero Width No-Break Space / BOM)
+# ------------------------------------------------------------------------------
+# Language: english
+# Weight:   6.0
+# ==============================================================================
+
+# Specific phishing terms
+# ------------------------------------------------------------------------------
+
+# Critical phishing terms with obfuscation detection
+# Requires at least 2-3 obfuscation chars to avoid false positives on normal words
+# Pattern: .{1,3} ensures there's at least 1 char between letters
