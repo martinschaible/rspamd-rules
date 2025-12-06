@@ -30,6 +30,7 @@
 /(completion|you for).{1,15}business.{1,10}transaction/i
 
 # D
+/deal to discuss with you/i
 /discuss.{1,10}business proposal/i
 
 # E
@@ -46,6 +47,7 @@
 /(i|we) have.{1,10}access to.{1,10}vital information/i
 /(i|we) have.{1,10}some project funds/i
 
+/(i|we) have.{1,10}have an oil contract deal/i
 /(i|we) have.{1,15}investment.{1,10}business.{1,10}(offer|opportunity|proposition|proposal|transaction)/i
 /(i|we) have.{1,15}(business|investment).{1,15}(offer|opportunity|proposition|proposal|transaction)/i
 /(i|we) have.{1,15}(confidential|genuine|lucrative).{1,15}(business|offer|opportunity|proposition|proposal|transaction)/i

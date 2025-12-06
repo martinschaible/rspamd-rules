@@ -182,6 +182,7 @@
 /(lieferung|paket|sendung|versand|zustellung).{1,10}ist angehalten/i
 /(lieferung|paket|sendung|versand|zustellung).{1,10}ist im bestimmungsland eingetroffen/i
 
+/(lieferung|paket|sendung|versand|zustellung).{1,10}kann erst nach gebührenzahlung/iu
 /(lieferung|paket|sendung|versand|zustellung).{1,10}konnte nicht zugestellt werden.{1,10}id/i
 /(lieferung|paket|sendung|versand|zustellung).{1,10}konnte nicht zugestellt werden.{1,10}verschieben sie/i
 
