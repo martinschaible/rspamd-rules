@@ -16,7 +16,8 @@
 
 # Generic pattern: detects 3+ letters with zero-width chars between them
 # Matches obfuscated words regardless of content
-/[a-zäöüß]([\u200B\u200C\u200D\uFEFF][a-zäöüß]){2,}/i
+# Using \x{} notation for PCRE2 compatibility
+/[a-zäöüß]([\x{200B}\x{200C}\x{200D}\x{FEFF}][a-zäöüß]){2,}/i
 
 # Specific phishing terms
 # ------------------------------------------------------------------------------
