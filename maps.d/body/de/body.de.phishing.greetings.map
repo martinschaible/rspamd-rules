@@ -133,7 +133,7 @@
 
 /lieb ,/i
 /lieber?.{1,10}kunde.{1,10}aus sicherheitsgründen/iu
-llieber?.{1,10}kunde.{1,10}beim letzten versuch konnte ihre?.{1,10}(paket|sendung)/i
+/lieber?.{1,10}kunde.{1,10}beim letzten versuch konnte ihre?.{1,10}(paket|sendung)/i
 /lieber?.{1,10}kunde.{1,10}ihr.{1,15}(konto|passwort)/i
 /lieber?.{1,10}kunde.{1,10}ihre?.{1,10}(paket|sendung) konnte nicht zugestellt/i
 /lieber?.{1,10}kunde.{1,10}leider war es uns.{1,10}nicht möglich/iu
@@ -288,4 +288,6 @@ llieber?.{1,10}kunde.{1,10}beim letzten versuch konnte ihre?.{1,10}(paket|sendun
 
 # Z
 /zahlung wurde nicht ausgeführt.{1,10}hallo/iu
+
 /zahlungsinformationen.{1,10}sehr geehrter kunde/i
+/zahlungsproblem.{1,10}sehr geehrtes mitglied/i
