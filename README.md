@@ -32,69 +32,16 @@ The map files in the folder `/etc/rspamd/maps.d` do not need to be copied. **Rsp
 
 ## Updates configuration files
 If I add new map files, the configuration files must be updated accordingly.
-These are the latest changes:
-
-:point_right: A major migration of the configuration files is necessary:<br>
-:small_blue_diamond: The naming of the "Sender" files was unfortunate and has now been corrected.<br>
-:small_blue_diamond: New configuration files have also been added<br>
 
 :small_blue_diamond: Maybe the easiest way is to re-copy all configuration files.<br>
 :small_blue_diamond: After copying the files, the Rspamd service must be restarted.
 
 | Date     | File                                       | Reason                        |
 | -------- | -------------------------------------------| ----------------------------- |
-| 02.08.25 | multimap.subject.de.scam.conf              | New map file added            |
-|          | multimap.subject.en.scam.conf              | New map file added            |
-|          | multimap.body.de.scam.conf                 | New map file added            |
-|          | multimap.body.en.scam.conf                 | New map file added            |
-|          | multimap.subject.de.conf                   | New map file added            |
-|          | multimap.subject.en.conf                   | New map file added            |
-| 08.08.25 | multimap.sender.address.conf               | New map file added, changes   |
-|          | multimap.base.body.href.conf               | New map file added, changes   |
-| 16.08.25 | multimap.sender.address.conf               | Configuration changed         |
-| 20.08.25 | multimap.conf                              | Path of configuration files changed<br>New configuration files added |
-| 20.08.25 | multimap.whitelist.conf                    | New configuration files added |
-| 20.08.25 | multimap.whitelist.body.href.conf          | New configuration file        |
-| 20.08.25 | multimap.whitelist.body.de.conf            | New configuration file        |
-| 20.08.25 | multimap.whitelist.body.en.conf            | New configuration file        |
-| 20.08.25 | multimap.whitelist.header.ip.conf          | New configuration file        |
-| 08.09.25 | multimap.body.conf                         | New map file added            |
-| 29.09.25 | multimap.body.de.sale.conf                 | New map file added            |
-|          | multimap.body.en.sale.conf                 | New map file added            |
-|          | multimap.subject.de.sale.conf              | New map file added            |
-|          | multimap.subject.en.sale.conf              | New map file added            |
-|          | multimap.sender.from.de.sale.conf          | New map file added            |
-|          | multimap.sender.from.en.sale.conf          | New map file added            |
-| 04.10.25 | multimap.body.de.health.conf               | New map file added            |
-|          | multimap.body.en.health.conf               | New map file added            |
-|          | multimap.subject.de.health.conf            | New map file added            |
-|          | multimap.subject.en.health.conf            | New map file added            |
-| 05.10.25 | multimap.whitelist.body.href.conf          | New map file added            |
-|          | multimap.whitelist.body.conf               | New file                      |
-|          | multimap.whitelist.conf                    | Map file removed              |
-|          | multimap.conf                              | New configuration file added  |
-| 06.10.25 | multimap.sender.from.de.scam.conf          | New map file added            |
-|          | multimap.sender.from.en.scam.conf          | New map file added            |
-|          | multimap.conf                              | New configuration file added  |
-| 10.10.25 | multimap.whitelist.header.ip.conf          | Configuration changed         |
-| 12.10.25 | multimap.body.de.conf                      | New configuration file        |
-|          | multimap.body.en.conf                      | New configuration file        |
-|          | multimap.sender.de.conf                    | New configuration file        |
-|          | multimap.sender.en.conf                    | New configuration file        |
-|          | multimap.whitelist.sender.from.de.conf     | New configuration file        |
-|          | multimap.whitelist.sender.from.en.conf     | New configuration file        |
-|          | multimap.whitelist.subject.de.conf         | New configuration file        |
-|          | multimap.whitelist.subject.en.conf         | New configuration file        |
-|          | multimap.whitelist.conf                    | File deleted                  |
-|          | multimap.conf                              | New configuration files added |
-| 14.10.25 | multimap.conf                              | New configuration file added  |
-|          | multimap.header.conf                       | New configuration file        |
-| 15.10.25 | multimap.conf                              | Mistakes fixed                |
-| 16.10.25 | multimap.header.conf                       | Wrong configuration fixed     |
-|          | multimap.whitelist.header.conf             | Wrong configuration fixed     |
-|          | multimap.sender.from.de.scam.conf          | Typo fixed                    |
 | 18.10.25 | multimap.header.conf                       | Configuration finalized       |
 | 29.10.25 | multimap.header.conf                       | Configuration fixed/finalized |
+| 06.12.25 | multimap.body.phishing.conf                | New map file added            |
+|          | multimap.body.phishing.conf                | New map file added            |
 
 ## Content
 :point_right: All map files of the *first version* are stored in the folder `/etc/rspamd/maps.d/legacy`.<br>
@@ -190,6 +137,7 @@ body
   │   ├─ body.de.phishing.email.map               │
   │   ├─ body.de.phishing.greetings.map           │
   │   ├─ body.de.phishing.malware.map             │
+  │   ├─ body.de.phishing.obfuscation.map         │
   │   ├─ body.de.phishing.parcel.map              │
   │   ├─ body.de.phishing.password.map            ├─ multimap.body.de.phishing.conf
   │   ├─ body.de.phishing.payment.map             │
