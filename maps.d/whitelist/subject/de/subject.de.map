@@ -1,0 +1,121 @@
+# ==============================================================================
+# Whitelisting words and phrases can be dangerous.
+# Therefore, it's important to choose your content carefully and avoid
+# using generic words whenever possible.
+#
+# Using the multiplier at the end of a line is a great way to increase the
+# scoring based on the importance of a word or phrase.
+#
+# ------------------------------------------------------------------------------
+# Language: german
+# Weight:   -0.5
+#           -0.25 -> muliplicator 0.5
+#           -1.0  -> muliplicator 2.0
+#           -1.5  -> muliplicator 3.0
+#           -2.0  -> muliplicator 4.0
+#           -2.5  -> muliplicator 5.0
+#           -3.0  -> muliplicator 6.0
+#           -3.5  -> muliplicator 7.0
+#           -4.0  -> muliplicator 8.0
+#           -4.5  -> muliplicator 9.0
+#           -5.0  -> muliplicator 10.0
+# ==============================================================================
+
+# Topics
+# ==============================================================================
+
+# Undeliveries / Out of office
+# ------------------------------------------------------------------------------
+/(out of office|undeliverable).{1,15}(einladung|symposium|willkommen)/i 2.0
+/(abwesend|automatische antwort).{1,15}(einladung|symposium|willkommen)/i 2.0
+
+/\babwesenheitsmeldung\b/i 2.0
+
+# Related to Germany
+# ------------------------------------------------------------------------------
+
+# Related to Switzerland
+# ------------------------------------------------------------------------------
+
+#
+#
+#
+
+# Generic: Words and phrases which i think will never occur in spam mails
+# ==============================================================================
+
+# A
+/\bauftrags.{0,5}bestätigung\b/i
+
+# B
+/bericht für ihre fritz.?box/i 5.0
+
+/\bbewerbung\b/i
+
+/blutanalyse/i 5.0
+
+# C
+
+# D
+/darmspiegelung/i 5.0
+
+# E
+/\beinbruch.{0,5}alarm\b/i
+/einkommensteuererklärung/iu 2.0
+
+/endoskopie/i 5.0
+
+# F
+
+# G
+
+# H
+/hundetraining/i 5.0
+
+# I
+
+# J
+/jagdaufsichtspass/i 5.0
+/jahresversammlung/i 5.0
+
+# K
+/kanton zürich/iu 5.0
+/kinderfestival/i 5.0
+
+# L
+
+# M
+/mitgliederfahrt/i 5.0
+
+# N
+
+# O
+
+# P
+/protokollentwurf/i 5.0
+ 
+# Q
+
+# R
+
+# S
+/stuhluntersuchung/i 5.0
+
+# T
+/teamturnier/i 5.0
+/termin.{0,5}(änderung|absage|erinnerung)/iu 5.0
+
+/topcc.{1,10}cash & carry/i 5.0
+
+# U
+/\bunterricht\b/i
+
+# V
+
+# W
+
+# X
+
+# Y
+
+# Z
