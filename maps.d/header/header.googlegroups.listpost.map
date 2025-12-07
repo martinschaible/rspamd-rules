@@ -1,2 +1,13 @@
+# ==============================================================================
+# Google is annoying. Google is a spam machine and does nothing about it.
+# The only solution is to block Google Groups.
+# So much spam comes from there that there's no other option.
+#
+# We trigger in the header on "List Post".
+# ------------------------------------------------------------------------------
+# Language: -
+# Weight:   6.0
+# ==============================================================================
+
 /groups\.google\.com/i
 /https:\/\/groups\.google\.com/i
