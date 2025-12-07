@@ -458,7 +458,8 @@
 /(dead|deep).{0,10}cleansing/i
 
 /deep.{0,10}(cleanse|rest|sleep)/i
-/dental.{0,10}(advisor|alert|daily|issues?|repair|rescue|tips?|trick|work)/i
+/dental.{0,10}(advisor|alert|daily|issues?|repair|rescue|work)/i
+/dental.{0,10}(tips?|tricks?|truth)/i
 
 /desire.{0,10}revival/i
 
@@ -938,7 +939,7 @@
 /slow.{0,10}metabolism/i
 
 /small.{0,10}stomach/i
-/smile.{0,10}(fix|secret)/i
+/smile.{0,10}(fix|health|secret)/i
 
 /silent.{0,10}signal/i
 /simple.{0,10}natural/i
