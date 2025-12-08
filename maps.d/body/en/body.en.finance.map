@@ -26,6 +26,7 @@
 # ==============================================================================
 
 # A
+/(any|upcoming) projects?.{1,10}(in need of|that require).{1,10}funding/i
 /apply for.{1,10}loan today/i
 
 # B
@@ -84,6 +85,7 @@
 /our.{1,10}investors.{1,10}are ready to provide/i
 
 # P
+/presently providing.{1,15}(financial|loans)/i
 
 # Q
 /quick.{1,10}reliable.{1,10}financial support/i
@@ -102,7 +104,7 @@
 
 # U
 /unlock the funds you need/i
-/upcoming projects? in need of funding/i
+
 # V
 
 # W
