@@ -247,6 +247,7 @@
 
 /(hello|hi).{1,5}we are interested in your products/i
 /(hello|hi).{1,5}we mainly produce/i
+/(hello|hi).{1,5}we offer a solution for/i
 
 /hi \[first.?name\]/i
 /hi user.{1,10}you have requested/i
