@@ -217,6 +217,8 @@
 # N
 /nahe dem abschluss/i
 
+/nicht erfolgreich.{1,10}(lieferung|paket|sendung|versand|zustellung).{1,5}\d{4,10}/i
+
 # Sample: nicht zugestellt werden - [ 100483 ]
 /nicht zugestellt werden.{1,10}\[.?\d{4,10}.?\]/i
 

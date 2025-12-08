@@ -57,7 +57,9 @@
 /(extra|free|lucky?).{0,10}(spins?|splns?)/i
 /(spicy|verde).?casino/i
 
-/spins?.{1,10}(team|win)/i
+/spins?.{0,10}(team|win)/i
+
+/super.{0,10}jackpot/i
 
 # T
 /the.{0,10}(casino|fortune|slots?)/i

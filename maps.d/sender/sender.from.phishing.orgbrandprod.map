@@ -290,6 +290,8 @@
 /(deutschland|schweiz).{0,5}(dhl|dpd)/i
 /(center|europa|express|notification|support).{0,5}(dhl|dpd)/i
 /(kundeninfo|kurier|zoll).{0,5}(dhl|dpd)/i
+
+/paket.{0,5}(dhl|dpd)/i
 /paket.?(dienst|service).{0,5}(dhl|dpd)/i
 
 /diba-ag/i
