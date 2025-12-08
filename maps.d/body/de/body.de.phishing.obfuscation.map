@@ -17,41 +17,41 @@
 # Generic pattern: detects 3+ letters with zero-width chars between them
 # Matches obfuscated words regardless of content
 # Using \x{} notation for PCRE2 compatibility
-/[a-zäöüß]([\x{200B}\x{200C}\x{200D}\x{FEFF}][a-zäöüß]){2,}/i 0.5
+# This is the SAFE rule - only matches actual zero-width characters
 
-# Specific phishing terms
+/[a-zäöüß]([\x{200B}\x{200C}\x{200D}\x{FEFF}][a-zäöüß]){2,}/i 0.1
+
+# Specific phishing terms with ONLY zero-width characters
 # ------------------------------------------------------------------------------
+# IMPORTANT: Using explicit zero-width chars instead of .{1,3} to avoid 
+# false positives on normal punctuation (apostrophes, spaces, etc.)
 
-# Critical phishing terms with obfuscation detection
-# Requires at least 2-3 obfuscation chars to avoid false positives on normal words
-# Pattern: .{1,3} ensures there's at least 1 char between letters
+# Zahlung / Zahlungsproblem
+/z[\x{200B}\x{200C}\x{200D}\x{FEFF}]+a[\x{200B}\x{200C}\x{200D}\x{FEFF}]+h[\x{200B}\x{200C}\x{200D}\x{FEFF}]+l[\x{200B}\x{200C}\x{200D}\x{FEFF}]+u[\x{200B}\x{200C}\x{200D}\x{FEFF}]+n[\x{200B}\x{200C}\x{200D}\x{FEFF}]+g/i
 
-# Zahlung / Zahlungsproblem (min 3 obfuscated chars required)
-/z.{1,3}a.{1,3}h.{1,3}l.{1,3}u.{1,3}n.{1,3}g/i
+# Konto / Kontostand
+/k[\x{200B}\x{200C}\x{200D}\x{FEFF}]+o[\x{200B}\x{200C}\x{200D}\x{FEFF}]+n[\x{200B}\x{200C}\x{200D}\x{FEFF}]+t[\x{200B}\x{200C}\x{200D}\x{FEFF}]+o/i
 
-# Konto / Kontostand (min 2 obfuscated chars required)
-/k.{1,3}o.{1,3}n.{1,3}t.{1,3}o/i
+# Passwort
+/p[\x{200B}\x{200C}\x{200D}\x{FEFF}]+a[\x{200B}\x{200C}\x{200D}\x{FEFF}]+s[\x{200B}\x{200C}\x{200D}\x{FEFF}]+s[\x{200B}\x{200C}\x{200D}\x{FEFF}]+w[\x{200B}\x{200C}\x{200D}\x{FEFF}]+o[\x{200B}\x{200C}\x{200D}\x{FEFF}]+r[\x{200B}\x{200C}\x{200D}\x{FEFF}]+t/i
 
-# Passwort (min 3 obfuscated chars required)
-/p.{1,3}a.{1,3}s.{1,3}s.{1,3}w.{1,3}o.{1,3}r.{1,3}t/i
+# Überprüfung / Überprüfen
+/[uü][\x{200B}\x{200C}\x{200D}\x{FEFF}]+b[\x{200B}\x{200C}\x{200D}\x{FEFF}]+e[\x{200B}\x{200C}\x{200D}\x{FEFF}]+r[\x{200B}\x{200C}\x{200D}\x{FEFF}]+p[\x{200B}\x{200C}\x{200D}\x{FEFF}]+r[\x{200B}\x{200C}\x{200D}\x{FEFF}]+[uü][\x{200B}\x{200C}\x{200D}\x{FEFF}]+f/i
 
-# Überprüfung / Überprüfen (min 3 obfuscated chars required)
-/[uü].{1,3}b.{1,3}e.{1,3}r.{1,3}p.{1,3}r.{1,3}[uü].{1,3}f/i
+# Bestätigung / Bestätigen
+/b[\x{200B}\x{200C}\x{200D}\x{FEFF}]+e[\x{200B}\x{200C}\x{200D}\x{FEFF}]+s[\x{200B}\x{200C}\x{200D}\x{FEFF}]+t[\x{200B}\x{200C}\x{200D}\x{FEFF}]+[äa][\x{200B}\x{200C}\x{200D}\x{FEFF}]+t[\x{200B}\x{200C}\x{200D}\x{FEFF}]+i[\x{200B}\x{200C}\x{200D}\x{FEFF}]+g/i
 
-# Bestätigung / Bestätigen (min 3 obfuscated chars required)
-/b.{1,3}e.{1,3}s.{1,3}t.{1,3}[äa].{1,3}t.{1,3}i.{1,3}g/i
+# Verifizierung / Verifizieren
+/v[\x{200B}\x{200C}\x{200D}\x{FEFF}]+e[\x{200B}\x{200C}\x{200D}\x{FEFF}]+r[\x{200B}\x{200C}\x{200D}\x{FEFF}]+i[\x{200B}\x{200C}\x{200D}\x{FEFF}]+f[\x{200B}\x{200C}\x{200D}\x{FEFF}]+i[\x{200B}\x{200C}\x{200D}\x{FEFF}]+z[\x{200B}\x{200C}\x{200D}\x{FEFF}]+i[\x{200B}\x{200C}\x{200D}\x{FEFF}]+e[\x{200B}\x{200C}\x{200D}\x{FEFF}]+r/i
 
-# Verifizierung / Verifizieren (min 4 obfuscated chars required)
-/v.{1,3}e.{1,3}r.{1,3}i.{1,3}f.{1,3}i.{1,3}z.{1,3}i.{1,3}e.{1,3}r/i
+# Sicherheit
+/s[\x{200B}\x{200C}\x{200D}\x{FEFF}]+i[\x{200B}\x{200C}\x{200D}\x{FEFF}]+c[\x{200B}\x{200C}\x{200D}\x{FEFF}]+h[\x{200B}\x{200C}\x{200D}\x{FEFF}]+e[\x{200B}\x{200C}\x{200D}\x{FEFF}]+r[\x{200B}\x{200C}\x{200D}\x{FEFF}]+h[\x{200B}\x{200C}\x{200D}\x{FEFF}]+e[\x{200B}\x{200C}\x{200D}\x{FEFF}]+i[\x{200B}\x{200C}\x{200D}\x{FEFF}]+t/i
 
-# Sicherheit (min 4 obfuscated chars required)
-/s.{1,3}i.{1,3}c.{1,3}h.{1,3}e.{1,3}r.{1,3}h.{1,3}e.{1,3}i.{1,3}t/i
+# Dringend
+/d[\x{200B}\x{200C}\x{200D}\x{FEFF}]+r[\x{200B}\x{200C}\x{200D}\x{FEFF}]+i[\x{200B}\x{200C}\x{200D}\x{FEFF}]+n[\x{200B}\x{200C}\x{200D}\x{FEFF}]+g[\x{200B}\x{200C}\x{200D}\x{FEFF}]+e[\x{200B}\x{200C}\x{200D}\x{FEFF}]+n[\x{200B}\x{200C}\x{200D}\x{FEFF}]+d/i
 
-# Dringend (min 3 obfuscated chars required)
-/d.{1,3}r.{1,3}i.{1,3}n.{1,3}g.{1,3}e.{1,3}n.{1,3}d/i
+# Sofort / Sofortig
+/s[\x{200B}\x{200C}\x{200D}\x{FEFF}]+o[\x{200B}\x{200C}\x{200D}\x{FEFF}]+f[\x{200B}\x{200C}\x{200D}\x{FEFF}]+o[\x{200B}\x{200C}\x{200D}\x{FEFF}]+r[\x{200B}\x{200C}\x{200D}\x{FEFF}]+t/i
 
-# Sofort / Sofortig (min 2 obfuscated chars required)
-/s.{1,3}o.{1,3}f.{1,3}o.{1,3}r.{1,3}t/i
-
-# Aktualisierung / Aktualisieren (min 4 obfuscated chars required)
-/a.{1,3}k.{1,3}t.{1,3}u.{1,3}a.{1,3}l.{1,3}i.{1,3}s.{1,3}i.{1,3}e.{1,3}r/i
+# Aktualisierung / Aktualisieren
+/a[\x{200B}\x{200C}\x{200D}\x{FEFF}]+k[\x{200B}\x{200C}\x{200D}\x{FEFF}]+t[\x{200B}\x{200C}\x{200D}\x{FEFF}]+u[\x{200B}\x{200C}\x{200D}\x{FEFF}]+a[\x{200B}\x{200C}\x{200D}\x{FEFF}]+l[\x{200B}\x{200C}\x{200D}\x{FEFF}]+i[\x{200B}\x{200C}\x{200D}\x{FEFF}]+s[\x{200B}\x{200C}\x{200D}\x{FEFF}]+i[\x{200B}\x{200C}\x{200D}\x{FEFF}]+e[\x{200B}\x{200C}\x{200D}\x{FEFF}]+r/i
