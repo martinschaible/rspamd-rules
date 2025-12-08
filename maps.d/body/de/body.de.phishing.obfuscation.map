@@ -21,6 +21,10 @@
 
 /[a-zäöüß]([\x{200B}\x{200C}\x{200D}\x{FEFF}][a-zäöüß]){2,}/i 0.1
 
+# Soft Hyphen obfuscation (HTML &shy; = U+00AD)
+# Spammers insert soft hyphens to break up words: me&shy;ssage&shy;s
+/[a-zäöüß]([\x{00AD}][a-zäöüß]){2,}/i
+
 # Specific phishing terms with ONLY zero-width characters
 # ------------------------------------------------------------------------------
 # IMPORTANT: Using explicit zero-width chars instead of .{1,3} to avoid 
