@@ -16,46 +16,44 @@
 
 # Generic pattern: detects 3+ letters with zero-width chars between them
 # Matches obfuscated words regardless of content
-# Using \x{} notation for PCRE2 compatibility
-# This is the SAFE rule - only matches actual zero-width characters
+# Using individual \x{} outside of character class due to PCRE2 limits
 
-/[a-zäöüß]([\x{200B}\x{200C}\x{200D}\x{FEFF}][a-zäöüß]){2,}/i 0.1
+/[a-zäöüß](?:\x{200B}|\x{200C}|\x{200D}|\x{FEFF})[a-zäöüß](?:\x{200B}|\x{200C}|\x{200D}|\x{FEFF})[a-zäöüß]/i 0.1
 
 # Soft Hyphen obfuscation (HTML &shy; = U+00AD)
 # Spammers insert soft hyphens to break up words: me&shy;ssage&shy;s
-/[a-zäöüß]([\x{00AD}][a-zäöüß]){2,}/i
+/[a-zäöüß](?:\x{00AD})[a-zäöüß](?:\x{00AD})[a-zäöüß]/i
 
 # Specific phishing terms with ONLY zero-width characters
 # ------------------------------------------------------------------------------
-# IMPORTANT: Using explicit zero-width chars instead of .{1,3} to avoid 
-# false positives on normal punctuation (apostrophes, spaces, etc.)
+# IMPORTANT: Using alternation (?:...|...) instead of character class to avoid PCRE2 limits
 
 # Zahlung / Zahlungsproblem
-/z[\x{200B}\x{200C}\x{200D}\x{FEFF}]+a[\x{200B}\x{200C}\x{200D}\x{FEFF}]+h[\x{200B}\x{200C}\x{200D}\x{FEFF}]+l[\x{200B}\x{200C}\x{200D}\x{FEFF}]+u[\x{200B}\x{200C}\x{200D}\x{FEFF}]+n[\x{200B}\x{200C}\x{200D}\x{FEFF}]+g/i
+/z(?:\x{200B}|\x{200C}|\x{200D}|\x{FEFF})+a(?:\x{200B}|\x{200C}|\x{200D}|\x{FEFF})+h(?:\x{200B}|\x{200C}|\x{200D}|\x{FEFF})+l(?:\x{200B}|\x{200C}|\x{200D}|\x{FEFF})+u(?:\x{200B}|\x{200C}|\x{200D}|\x{FEFF})+n(?:\x{200B}|\x{200C}|\x{200D}|\x{FEFF})+g/i
 
 # Konto / Kontostand
-/k[\x{200B}\x{200C}\x{200D}\x{FEFF}]+o[\x{200B}\x{200C}\x{200D}\x{FEFF}]+n[\x{200B}\x{200C}\x{200D}\x{FEFF}]+t[\x{200B}\x{200C}\x{200D}\x{FEFF}]+o/i
+/k(?:\x{200B}|\x{200C}|\x{200D}|\x{FEFF})+o(?:\x{200B}|\x{200C}|\x{200D}|\x{FEFF})+n(?:\x{200B}|\x{200C}|\x{200D}|\x{FEFF})+t(?:\x{200B}|\x{200C}|\x{200D}|\x{FEFF})+o/i
 
 # Passwort
-/p[\x{200B}\x{200C}\x{200D}\x{FEFF}]+a[\x{200B}\x{200C}\x{200D}\x{FEFF}]+s[\x{200B}\x{200C}\x{200D}\x{FEFF}]+s[\x{200B}\x{200C}\x{200D}\x{FEFF}]+w[\x{200B}\x{200C}\x{200D}\x{FEFF}]+o[\x{200B}\x{200C}\x{200D}\x{FEFF}]+r[\x{200B}\x{200C}\x{200D}\x{FEFF}]+t/i
+/p(?:\x{200B}|\x{200C}|\x{200D}|\x{FEFF})+a(?:\x{200B}|\x{200C}|\x{200D}|\x{FEFF})+s(?:\x{200B}|\x{200C}|\x{200D}|\x{FEFF})+s(?:\x{200B}|\x{200C}|\x{200D}|\x{FEFF})+w(?:\x{200B}|\x{200C}|\x{200D}|\x{FEFF})+o(?:\x{200B}|\x{200C}|\x{200D}|\x{FEFF})+r(?:\x{200B}|\x{200C}|\x{200D}|\x{FEFF})+t/i
 
 # Überprüfung / Überprüfen
-/[uü][\x{200B}\x{200C}\x{200D}\x{FEFF}]+b[\x{200B}\x{200C}\x{200D}\x{FEFF}]+e[\x{200B}\x{200C}\x{200D}\x{FEFF}]+r[\x{200B}\x{200C}\x{200D}\x{FEFF}]+p[\x{200B}\x{200C}\x{200D}\x{FEFF}]+r[\x{200B}\x{200C}\x{200D}\x{FEFF}]+[uü][\x{200B}\x{200C}\x{200D}\x{FEFF}]+f/i
+/[uü](?:\x{200B}|\x{200C}|\x{200D}|\x{FEFF})+b(?:\x{200B}|\x{200C}|\x{200D}|\x{FEFF})+e(?:\x{200B}|\x{200C}|\x{200D}|\x{FEFF})+r(?:\x{200B}|\x{200C}|\x{200D}|\x{FEFF})+p(?:\x{200B}|\x{200C}|\x{200D}|\x{FEFF})+r(?:\x{200B}|\x{200C}|\x{200D}|\x{FEFF})+[uü](?:\x{200B}|\x{200C}|\x{200D}|\x{FEFF})+f/i
 
 # Bestätigung / Bestätigen
-/b[\x{200B}\x{200C}\x{200D}\x{FEFF}]+e[\x{200B}\x{200C}\x{200D}\x{FEFF}]+s[\x{200B}\x{200C}\x{200D}\x{FEFF}]+t[\x{200B}\x{200C}\x{200D}\x{FEFF}]+[äa][\x{200B}\x{200C}\x{200D}\x{FEFF}]+t[\x{200B}\x{200C}\x{200D}\x{FEFF}]+i[\x{200B}\x{200C}\x{200D}\x{FEFF}]+g/i
+/b(?:\x{200B}|\x{200C}|\x{200D}|\x{FEFF})+e(?:\x{200B}|\x{200C}|\x{200D}|\x{FEFF})+s(?:\x{200B}|\x{200C}|\x{200D}|\x{FEFF})+t(?:\x{200B}|\x{200C}|\x{200D}|\x{FEFF})+[äa](?:\x{200B}|\x{200C}|\x{200D}|\x{FEFF})+t(?:\x{200B}|\x{200C}|\x{200D}|\x{FEFF})+i(?:\x{200B}|\x{200C}|\x{200D}|\x{FEFF})+g/i
 
 # Verifizierung / Verifizieren
-/v[\x{200B}\x{200C}\x{200D}\x{FEFF}]+e[\x{200B}\x{200C}\x{200D}\x{FEFF}]+r[\x{200B}\x{200C}\x{200D}\x{FEFF}]+i[\x{200B}\x{200C}\x{200D}\x{FEFF}]+f[\x{200B}\x{200C}\x{200D}\x{FEFF}]+i[\x{200B}\x{200C}\x{200D}\x{FEFF}]+z[\x{200B}\x{200C}\x{200D}\x{FEFF}]+i[\x{200B}\x{200C}\x{200D}\x{FEFF}]+e[\x{200B}\x{200C}\x{200D}\x{FEFF}]+r/i
+/v(?:\x{200B}|\x{200C}|\x{200D}|\x{FEFF})+e(?:\x{200B}|\x{200C}|\x{200D}|\x{FEFF})+r(?:\x{200B}|\x{200C}|\x{200D}|\x{FEFF})+i(?:\x{200B}|\x{200C}|\x{200D}|\x{FEFF})+f(?:\x{200B}|\x{200C}|\x{200D}|\x{FEFF})+i(?:\x{200B}|\x{200C}|\x{200D}|\x{FEFF})+z(?:\x{200B}|\x{200C}|\x{200D}|\x{FEFF})+i(?:\x{200B}|\x{200C}|\x{200D}|\x{FEFF})+e(?:\x{200B}|\x{200C}|\x{200D}|\x{FEFF})+r/i
 
 # Sicherheit
-/s[\x{200B}\x{200C}\x{200D}\x{FEFF}]+i[\x{200B}\x{200C}\x{200D}\x{FEFF}]+c[\x{200B}\x{200C}\x{200D}\x{FEFF}]+h[\x{200B}\x{200C}\x{200D}\x{FEFF}]+e[\x{200B}\x{200C}\x{200D}\x{FEFF}]+r[\x{200B}\x{200C}\x{200D}\x{FEFF}]+h[\x{200B}\x{200C}\x{200D}\x{FEFF}]+e[\x{200B}\x{200C}\x{200D}\x{FEFF}]+i[\x{200B}\x{200C}\x{200D}\x{FEFF}]+t/i
+/s(?:\x{200B}|\x{200C}|\x{200D}|\x{FEFF})+i(?:\x{200B}|\x{200C}|\x{200D}|\x{FEFF})+c(?:\x{200B}|\x{200C}|\x{200D}|\x{FEFF})+h(?:\x{200B}|\x{200C}|\x{200D}|\x{FEFF})+e(?:\x{200B}|\x{200C}|\x{200D}|\x{FEFF})+r(?:\x{200B}|\x{200C}|\x{200D}|\x{FEFF})+h(?:\x{200B}|\x{200C}|\x{200D}|\x{FEFF})+e(?:\x{200B}|\x{200C}|\x{200D}|\x{FEFF})+i(?:\x{200B}|\x{200C}|\x{200D}|\x{FEFF})+t/i
 
 # Dringend
-/d[\x{200B}\x{200C}\x{200D}\x{FEFF}]+r[\x{200B}\x{200C}\x{200D}\x{FEFF}]+i[\x{200B}\x{200C}\x{200D}\x{FEFF}]+n[\x{200B}\x{200C}\x{200D}\x{FEFF}]+g[\x{200B}\x{200C}\x{200D}\x{FEFF}]+e[\x{200B}\x{200C}\x{200D}\x{FEFF}]+n[\x{200B}\x{200C}\x{200D}\x{FEFF}]+d/i
+/d(?:\x{200B}|\x{200C}|\x{200D}|\x{FEFF})+r(?:\x{200B}|\x{200C}|\x{200D}|\x{FEFF})+i(?:\x{200B}|\x{200C}|\x{200D}|\x{FEFF})+n(?:\x{200B}|\x{200C}|\x{200D}|\x{FEFF})+g(?:\x{200B}|\x{200C}|\x{200D}|\x{FEFF})+e(?:\x{200B}|\x{200C}|\x{200D}|\x{FEFF})+n(?:\x{200B}|\x{200C}|\x{200D}|\x{FEFF})+d/i
 
 # Sofort / Sofortig
-/s[\x{200B}\x{200C}\x{200D}\x{FEFF}]+o[\x{200B}\x{200C}\x{200D}\x{FEFF}]+f[\x{200B}\x{200C}\x{200D}\x{FEFF}]+o[\x{200B}\x{200C}\x{200D}\x{FEFF}]+r[\x{200B}\x{200C}\x{200D}\x{FEFF}]+t/i
+/s(?:\x{200B}|\x{200C}|\x{200D}|\x{FEFF})+o(?:\x{200B}|\x{200C}|\x{200D}|\x{FEFF})+f(?:\x{200B}|\x{200C}|\x{200D}|\x{FEFF})+o(?:\x{200B}|\x{200C}|\x{200D}|\x{FEFF})+r(?:\x{200B}|\x{200C}|\x{200D}|\x{FEFF})+t/i
 
 # Aktualisierung / Aktualisieren
-/a[\x{200B}\x{200C}\x{200D}\x{FEFF}]+k[\x{200B}\x{200C}\x{200D}\x{FEFF}]+t[\x{200B}\x{200C}\x{200D}\x{FEFF}]+u[\x{200B}\x{200C}\x{200D}\x{FEFF}]+a[\x{200B}\x{200C}\x{200D}\x{FEFF}]+l[\x{200B}\x{200C}\x{200D}\x{FEFF}]+i[\x{200B}\x{200C}\x{200D}\x{FEFF}]+s[\x{200B}\x{200C}\x{200D}\x{FEFF}]+i[\x{200B}\x{200C}\x{200D}\x{FEFF}]+e[\x{200B}\x{200C}\x{200D}\x{FEFF}]+r/i
+/a(?:\x{200B}|\x{200C}|\x{200D}|\x{FEFF})+k(?:\x{200B}|\x{200C}|\x{200D}|\x{FEFF})+t(?:\x{200B}|\x{200C}|\x{200D}|\x{FEFF})+u(?:\x{200B}|\x{200C}|\x{200D}|\x{FEFF})+a(?:\x{200B}|\x{200C}|\x{200D}|\x{FEFF})+l(?:\x{200B}|\x{200C}|\x{200D}|\x{FEFF})+i(?:\x{200B}|\x{200C}|\x{200D}|\x{FEFF})+s(?:\x{200B}|\x{200C}|\x{200D}|\x{FEFF})+i(?:\x{200B}|\x{200C}|\x{200D}|\x{FEFF})+e(?:\x{200B}|\x{200C}|\x{200D}|\x{FEFF})+r/i
