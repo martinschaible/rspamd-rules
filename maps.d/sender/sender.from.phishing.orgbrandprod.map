@@ -168,7 +168,7 @@
 /apple-/i
 
 /^ard.?zdf$/i
-/ard.?zdf.?(radio|service)/i
+/ard.?zdf.?(radio|service|team)/i
 
 /aarp.{0,10}(advertiser|offer|opportunity)/i
 
@@ -505,6 +505,7 @@
 /meta.{0,5}ads$/i
 /meta.{0,5}(ads|support).?team/i
 
+/meta(mask)?.?(™|®|©)$/i
 /meta(mask)?.{0,5}(advertising|alert|compliance|inc|system|trust|updates?|verification|wallet)/i
 /meta(mask)?.{0,5}verifiziert/i
 

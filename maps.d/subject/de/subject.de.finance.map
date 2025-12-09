@@ -15,6 +15,7 @@
 
 # A
 /(angebot|arten von).{1,10}(darlehen|kredit)/i
+/angebot.{1,10}betriebsmittelkredit/iu
 
 /(akkreditiert(es)?|spezielles).{1,15}kreditangebot/i
 
