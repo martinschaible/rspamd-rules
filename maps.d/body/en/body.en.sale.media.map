@@ -27,6 +27,13 @@
 /available.{1,10}guest posts?/i
 
 # B
+/(bulk|mass).{1,10}(advertising|marketing).{1,10}(e?.?mail|mailing).{1,10}service/i
+/(bulk|mass).{1,10}(advertising|marketing).{1,10}plan/i
+
+/(bulk|mass).{1,10}(e?.?mail|mailing).{1,10}marketing/i
+/(bulk|mass).{1,10}(e?.?mail|mailing).{1,10}marketer/i
+/(bulk|mass).{1,10}(e?.?mail|mailing).{1,10}tools service provider/i
+
 /buy traffic today/i
 
 # C
@@ -40,10 +47,18 @@
 # E
 /each.{1,10}million e?.?mails/i
 
+/e?.?mail.{1,10}campaign.{1,10}platform/i
 /e?.?mail.{1,10}credits.{1,10}lead lists/i
+/e?.?mail.{1,10}marketing.{1,10}(bulk|mass).{0,10}mailing/i
+/e?.?mail.{1,10}maximum efficiency/i
+/e?.?mail.{1,10}with.{1,10}(efficiency|speed)/i
+
+/e?.?mail.?lists?.{1,10}202\d/i
+/e?.?mail.?lists?.{1,10}for your e?.?mail blasting/i
 /e?.?mail.?lists?.{1,10}rental/i
 /e?.?mail.?lists?.{1,10}of any country/i
 /e?.?mail.?lists?.{1,10}your.{1,10}marketing/i
+
 
 /e?.?mail.?marketing.{1,10}(free|for you|works)/i
 /e?.?mail.?marketing.{1,10}service.{1,10}boost/i
@@ -82,6 +97,8 @@
 
 # M
 /millions?.{1,10}e?.?mails.{1,15}lowest price/i
+
+/mx tested e?.?mails/i
 
 # N
 

@@ -60,7 +60,8 @@
 /inquiry.{1,10}product.?list/i
 /inquiry.{1,10}your.{1,10}products/i
 
-/invitation.{1,10}(contractors|tender|vendors)/i
+/invitation.{1,10}(contractors?|tender|vendors?)/i
+/invitation.{1,10}register.{1,10}(contractors?|tender|vendors?)/i
 
 # J
 
