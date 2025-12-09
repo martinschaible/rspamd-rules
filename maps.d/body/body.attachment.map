@@ -18,7 +18,8 @@
 
 /(advice|arrival|bookings?|business year).{0,25}\.(7z|docx|gz|html|rar|tar|tgz|xla|xls|zip)/i
 /drawing.{0,25}\.(7z|docx|gz|html|rar|tar|tgz|xla|xls|zip)/i
-/(enquiry|inquiry|invoice).{0,25}\.(7z|docx|gz|html|rar|tar|tgz|xla|xls|zip)/i
+/(enquiry|fatura).{0,25}\.(7z|docx|gz|html|rar|tar|tgz|xla|xls|zip)/i
+/(inquiry|invoice).{0,25}\.(7z|docx|gz|html|rar|tar|tgz|xla|xls|zip)/i
 /(lading|notice).{0,25}\.(7z|docx|gz|html|rar|tar|tgz|xla|xls|zip)/i
 /(order|payment|price.?list|proforma|project).{0,25}\.(7z|docx|gz|html|rar|tar|tgz|xla|xls|zip)/i
 /(quotation|quote).{0,25}\.(7z|docx|gz|html|rar|tar|tgz|xla|xls|zip)/i

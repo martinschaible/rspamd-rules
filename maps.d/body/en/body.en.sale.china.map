@@ -24,7 +24,9 @@
 /co.{1,5}(limited|ltd).{1,10}trusted/i
 /co.{1,5}(limited|ltd).{1,10}to you/i
 
-/enterprise.{1,15}co.{1,5}(limited|ltd)/i
+/(enterprise|logistics).{1,15}co.{1,5}(limited|ltd)/i
+/(enterprise|logistics).{1,10}ltd.{1,5}whatsapp/i
+
 /(ceramics|clothing|material||packaging|plastic|product).{1,10}co.{1,5}(limited|ltd)/i
 
 /(limited|ltd).{1,10}(specializes in|we are major)/i

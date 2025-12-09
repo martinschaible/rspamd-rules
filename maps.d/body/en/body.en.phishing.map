@@ -99,7 +99,9 @@
 
 # W
 /wallet.{1,10}complete the.{1,10}identity verification/i
-/we notice you have not updated/i
+
+/we noticed?.{1,10}activity.{1,10}requires confirmation/i
+/we noticed?.{1,10}you have not updated/i
 
 # X
 

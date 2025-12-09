@@ -191,7 +191,8 @@
 /(dein|ihr) geschenk schon gesehen/i
 /(dein|ihr) preis ist auf dem weg/i
 
-/deine belohnung abholen/i
+/deine.{1,15}belohnung abholen/i
+/deine.{1,15}bestätigung läuft gleich ab/iu
 
 /du bist bestätigt/iu
 
