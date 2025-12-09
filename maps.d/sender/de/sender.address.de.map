@@ -71,7 +71,7 @@
 
 #/rechnung@/i
 
-/rechnung\d{1,10}@/i
+/rechnung.?\d{1,10}@/i
 
 # S
 /schweiz\.zoll/i
