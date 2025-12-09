@@ -63,17 +63,6 @@
 
 # Mailing Service
 # ------------------------------------------------------------------------------
-/(bulk|mass).{1,10}(e?.?mail|mailing).{1,10}marketing/i
-/(bulk|mass).{1,10}(e?.?mail|mailing).{1,10}marketer/i
-/(bulk|mass).{1,10}(e?.?mail|mailing).{1,10}tools service provider/i
-/(bulk|mass).{1,10}(advertising|marketing).{1,10}(e?.?mail|mailing).{1,10}service/i
-/(bulk|mass).{1,10}(advertising|marketing).{1,10}plan/i
-
-/e?.?mail.{1,10}campaign.{1,10}platform/i
-/e?.?mail.{1,10}marketing.{1,10}(bulk|mass).{0,10}mailing/i
-/e?.?mail.{1,10}maximum efficiency/i
-/e?.?mail.{1,10}with.{1,10}(efficiency|speed)/i
-
 /marketing.{1,10}(bulk|mass).{1,10}mailing/i
 
 /benefit.{1,10}bulk e?.?mail.?marketing/i
