@@ -36,6 +36,8 @@ If I add new map files, the configuration files must be updated accordingly.
 :small_blue_diamond: Maybe the easiest way is to re-copy all configuration files.<br>
 :small_blue_diamond: After copying the files, the Rspamd service must be restarted.
 
+:collision: Latest Changes:
+
 | Date     | File                                       | Reason                        |
 | -------- | -------------------------------------------| ----------------------------- |
 | 18.10.25 | multimap.header.conf                       | Configuration finalized       |
