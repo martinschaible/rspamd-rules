@@ -106,9 +106,10 @@
 /(rück)?erstattung.{1,10}angefordert/i
 /(rück)?erstattung.{1,10}für doppelte/iu
 
-/(rück)?erstattung.{1,10}ihre zugreise/iu
 /(rück)?erstattung.{1,10}(aufgrund|ihrer|wegen).{1,10}(doppelten|doppelter) zahlung/iu
 
+/(rück)?erstattung.{1,10}ihrer? zugreise/iu
+/(rück)?erstattung.{1,10}ihrer doppelten buchung/iu
 /(rück)?erstattung.{1,10}ihrer (september|oktober|november|dezember).?rechnung/iu
 /(rück)?erstattung.{1,10}ihres beitrags/iu
 

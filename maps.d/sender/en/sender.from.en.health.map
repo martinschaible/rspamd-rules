@@ -258,10 +258,10 @@
 
 # Numeric
 /\d (cup|tbsp|tsp)/i
-/\d{1,2} (minerals|signs)/i
-/\d{1,2} sec rules/i
-/\d{1,2} (minute|second)s?/i
-/\d{2,3} years old/i
+/\d{1,2}.{0,10}(minerals|signs)/i
+/\d{1,2}.?sec rules/i
+/\d{1,2}.?(minute|second)s?/i
+/\d{2,3}.?years old/i
 
 /1 surprising update/i
 /(120|150)\/80/i
@@ -881,7 +881,7 @@
 /replace.{0,10}blue/i
 
 /restful.{0,10}(nights?|sleep)/i
-/restore.{0,10}(cognition|hair)/i
+/restore.{0,10}(clarity|cognition|hair)/i
 
 /reverse.{0,10}(aging|gum)/i
 /revive.{0,10}your/i
