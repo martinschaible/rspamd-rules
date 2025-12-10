@@ -103,6 +103,7 @@
 
 /sicherheits.?(hinweis|warnung).{1,10}für ihr.{1,15}konto/iu
 /sicherheits.?(hinweis|warnung).{1,10}(neuer|unbekannter) gerätezugriff/iu
+/sicherheits.?(hinweis|warnung).{1,10}ungewöhnliche aktivität festgestellt/iu
 /sicherheits.?(hinweis|warnung).{1,10}zu ihrer.{1,10}(kredit)?karte/i
 
 /(sicherheits|system).?(aktualisierung|update).{1,10}ihr.{1,15}konto/i
