@@ -173,7 +173,7 @@
 /price\.\?/i
 /price\.!!/i
 /price list\.\?/i
-/price list\?\?/i
+/price list.?\?\?/i
 
 /projects.?\.\./i
 
@@ -199,6 +199,7 @@
 /rank\.\./i
 /ranking.?\.\./i
 /ranking.?\?\?/i
+/ranking.?\/\//i
 
 /read.?!!/i
 
@@ -223,6 +224,8 @@
 
 /s\.\.eo/i
 /seo\.\.\.?$/i
+/seo.?!!$/i
+
 /#.?seo/i
 
 /shopify\.\.!/i

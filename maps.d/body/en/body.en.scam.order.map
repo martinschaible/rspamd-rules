@@ -56,7 +56,7 @@
 
 /details about your business/i
 
-/download.{1,10}purchase.?order/i
+/download.{1,10}(purchase.?order|po_)/i
 
 # E
 
