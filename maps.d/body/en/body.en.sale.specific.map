@@ -18,8 +18,11 @@
 
 # E-Bikes
 # ------------------------------------------------------------------------------
+/e(lectric)?.{0,10}(bicycle|bike|cycle|velo).{1,10}from german stock/i
+
 /(experienced|reliable).{1,10}e(lectric)?.{0,10}(bicycle|bike|cycle|velo).{1,10}(factory|manufacturer)/i
 /(fat.?tire|moped).{1,15}e(lectric)?.{0,10}(bicycle|bike|cycle|velo)/i
+
 
 /fat.?tire.{1,10}(moped|mtb)/i
 /inch.{1,10}fat.?tire/i
