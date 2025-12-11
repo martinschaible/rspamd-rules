@@ -66,9 +66,6 @@
 # Dots between charcater like this: Fi.n.a.n.z.i.e.r.u.n.g
 /\w\.\w\.\w\.\w\./i
 
-#
-/【.{5,15}】/i
-
 # Multiple special characters in silly combinations
 # ------------------------------------------------------------------------------
 # -> Theses RegEx might be constructed easier and better
@@ -159,7 +156,7 @@
 /^#re:/i
 
 # 16.08.25 - Just a simple long row of numbers. Sample: 73315681477562151626
-/\d{10,25}$/i
+#/\d{10,25}$/i
 
 /re:\/w\//i
 
