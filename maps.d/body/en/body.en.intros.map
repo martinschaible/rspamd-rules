@@ -71,13 +71,15 @@
 /i am reaching out.{1,10}acquaint our company/i
 /i am reaching out.{1,10}with a sincere heart/i
 
-/i am representing.{1,10}(company|my)/i
 /i am presently working as a/i
 /i am writing to introduce/i
 
 /i represent a team of over/i
 
 /i am writing to.{1,10}seek.{1,10}attention/i
+
+/i.{1,10}represent(ing)?.{1,10}(company|my)/i
+/i.{1,10}represent(ing)?.{1,10}leading.{1,20}institution/i
 
 /i (came across|found) your.{1,10}(contact|details|e?.?mail|information|name|profile)/i
 /i (came across|found) your.{1,10}web.?site.{1,10}google/i

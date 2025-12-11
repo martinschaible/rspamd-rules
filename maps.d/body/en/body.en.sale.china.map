@@ -189,11 +189,16 @@
 /we.{1,10}setup.{1,10}(our|own).{1,10}manufacturing/i
 
 /we.{1,10}supply.{1,15}(custom digital|displays|printing products)/i
+/we.{1,10}supply.{1,15}(active|passive).{1,15}(components|electronic)/i
 /we.{1,10}support.{1,10}(odm|oem)/i
 
-/we.{1,10}specialize.{1,10}(advanced|bearings|cleanroom|cnc|custom|design|groove|metal|producing|supplying)/i
-/we.{1,10}specialize.{1,10}(manufacture|manufacturing)/i
+/we.{1,10}specialize.{1,20}(advanced|bearings|design|groove)/i
+/we.{1,10}specialize.{1,20}(cleanroom|cnc|components|custom)/i
+/we.{1,10}specialize.{1,20}electronic/i
+/we.{1,10}specialize.{1,20}(manufacture|manufacturing|metal)/i
+/we.{1,10}specialize.{1,20}(producing|supplying)/i
 /we.{1,10}specialize.{1,10}(eu|us).{1,10}designs/i
+/We.{1,10}specialize.{1,10}high.?quality/i
 
 /we.{1,10}specialize.{1,10}providing.{1,15}(pricing|reasonable)/i
 
