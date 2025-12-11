@@ -63,7 +63,9 @@
 
 /finanzierungs?.{0,10}(angebot|investition|möglichkeit)/i
 /finanzierungs?.{0,10}(darlehen|kredite)/i
+
 /finanzierungslösung(en)?.{1,10}(privatkunden|unternehmen)/iu
+/finanzierungsoption(en)?.{1,15}zinssatz/i
 
 # G
 /garantieangebot jetzt beantragen/i
