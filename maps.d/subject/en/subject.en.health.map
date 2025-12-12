@@ -23,6 +23,8 @@
 # Special
 # ------------------------------------------------------------------------------
 /\[.?avoid (these|this)/i
+/\[heres how\]/i
+
 /\].?(find out here|here.{1,5}how)/i
 
 #
@@ -171,7 +173,7 @@
 
 # C
 /call for your health/i
-/calms?.{1,10}nerve pain/i
+/(calms?|calmer).{1,10}nerves?/i
 
 /cardiologist warns/i
 
@@ -518,7 +520,7 @@
 /lost \d{1,2}.?(lbs|pounds)/i
 
 /loud.{1,10}snoring/i
-/lower.{1,10}(blood sugar|high.?blood)/i
+/lower.{1,10}(a1c.?levels?|blood sugar|high.?blood)/i
 
 /lunch.{1,10}hack/i
 

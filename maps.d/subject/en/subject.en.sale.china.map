@@ -21,7 +21,8 @@
 /best prices.{1,10}china/i
 /freight.{1,10}china/i
 
-/from china (recently|to)/i
+/from.{1,10}china.{1,10}(recently|to)/i
+/from.{1,10}ports.{1,10}china/i
 
 /competitive.{1,15}from.{1,10}china/i
 /(components|plastic|supply|toolmaking).{1,10}china/i
@@ -282,6 +283,7 @@
 /one.?stop.{1,10}(pcba?|printed.?circuits?.?board)?/i
 
 /our.{1,10}advanced.{1,10}(pcba?|printed.?circuits?.?board)?/i
+/our.{1,10}latest.{1,20}for your reference/i
 /our.{1,10}paper.?bag solutions/i
 /our.{1,10}high.?quality.{1,10}(pcba?|printed.?circuits?.?board)?/i
 /our.{1,10}wide range of/i
@@ -329,6 +331,7 @@
 
 /procurement.{1,10}discounts/i
 
+/products?.{1,10}from.{1,15}china/i
 /products?.{1,10}inquiry.{1,10}potential partnership/i
 /products?.{1,10}machining service/i
 /products?.{1,10}partnership prospect/i
@@ -342,6 +345,7 @@
 /(professional|reliable|trusted).{1,10}(pcba?|printed.?circuits?.?board).{1,10}(manufacturer|partners?|suppliers?)/i
 /(professional|reliable|trusted).{1,15}(manufacturer|partners?|suppliers?) (for|of)/i
 /(professional|reliable|trusted).{1,15}custom fabrication/i
+/(professional|reliable|trusted).{1,15}solutions to drive/i
 
 /prototype (manufacturer?|mould)/i
 
@@ -419,7 +423,8 @@
 /we (make|supply).{1,20}(bags|majority|microphone|packing|priced chips|wireless)/i
 /we (make|supply).{1,10}high.?quality{1,15}with full/i
 
-/with.{1,20}Services/i
+/(welding|wire).{1,20}for your needs/i
+/with.{1,20}services/i
 /with our precision.{1,20}(engineered|solutions)/i
 
 # X

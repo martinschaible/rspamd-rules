@@ -29,6 +29,8 @@
 /(benötigen|brauchen) sie.{1,20}kredite?/i
 /(benötigen|brauchen) sie.{1,15}zusätzliches geld/iu
 
+/bieten? (ich|wir).{1,20}(kurz|mittel|langfristige).{1,20}(darlehen|kredite?)/iu
+
 # C
 
 # D
@@ -36,6 +38,7 @@
 /(darlehen|kredite?).{1,10}interessiert sind/i
 /(darlehen|kredite?).{1,15}mit einem günstigen/iu
 
+/(darlehen|kredit).{1,10}(mit|zu).{1,15}erschwinglichen rückzahlungsfristen/iu
 /(darlehen|kredit).{1,10}(mit|zu).{1,15}(günstigen|jährlichen|wettbewerbsfähigen).{1,20}zins.?satz/iu
 /(darlehen|kredit).{1,10}(mit|zu).{1,15}(zins.?satz|zinssätzen) (ab|von)/i
 
