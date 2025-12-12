@@ -26,13 +26,14 @@
 
 # D
 /dear.{1,15}(buyer|customer|madam|manager|partner|purchaser|sir).{1,10}your.{1,15}(package|parcel|shipment) is (on its way|ready)/i
+/dear.{1,10}member.{1,10}your.{1,15}account is on hold/i
 
 /dear.{1,15}(client|customer).{1,15}as part of our.{1,15}(commitment|efforts)/i
 /dear.{1,15}(client|customer).{1,15}as part of our.{1,25}to your.{1,15}account/i
 
 /dear.{1,15}(client|customer).{1,15}attempt to deliver your package/i
 
-/dear.{1,15}(client|customer).{1,15}in accordance with the latest regulatory/i
+/dear.{1,15}(client|customer).{1,15}in accordance with.{1,15}regulatory/i
 /dear.{1,15}(client|customer).{1,15}reviewing your.{1,15}account information/i
 /dear.{1,15}(client|customer).{1,20}(pleased|writing).{1,10}(inform|notify) you/i
 

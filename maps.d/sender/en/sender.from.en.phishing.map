@@ -24,6 +24,7 @@
 /\.[a-z]{1,4}.{1,5}mail.?(notification|portal|service|system)/i
 /\.[a-z]{1,4}.{1,5}it.?team/i
 
+/\.[a-z]{1,4}.{1,5}notification alert/i
 /\.[a-z]{1,4}.{1,5}security.?center/i
 /\.[a-z]{1,4}.{1,5}(service|support).?(deck|team)/i
 
@@ -173,6 +174,7 @@
 /guide.{0,10}team/i
 
 # H
+/hold placed/i
 
 # I
 /interactive.{0,10}brokers/i
@@ -290,6 +292,8 @@
 /user assistance/i
 
 /(upgrade|update).{0,10}(alert|notice)/i
+
+/urgent.{0,10}(action|required|security)/i
 
 # V
 /verification.{0,10}center/i

@@ -43,6 +43,7 @@
 /account.{1,10}de.?activation.{1,10}progress/i
 /account.{1,15}(has been temporarily|might be).{1,10}(restricted|suspended)/i
 /account.{1,10}needs.{1,15}review/i
+/account.{1,10}review confirmation/i
 /account.{1,10}update (notice|required)/i
 /account.{1,10}verification required.{1,15}@/i
 
@@ -120,6 +121,8 @@
 
 /your account!/i
 /your.{1,15}account is temporarily blocked/i
+/your.{1,15}account is on hold/i
+
 /your.{1,15}account with us.{1,10}please verify/i
 
 # Z
