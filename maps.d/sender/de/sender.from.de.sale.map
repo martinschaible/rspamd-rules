@@ -66,7 +66,7 @@
 
 # G
 /genau hinschauen/i
-/global.{0,10}sprache/i
+/(global|klick).{0,10}sprachen?/i
 
 /gratis.{0,10}katalog/i
 
@@ -169,7 +169,8 @@
 /soh?le.{0,10}boost/i
 
 /spezialist(en)? für/iu
-/sprache?n?.?(app|bot|frei|genie|ki|klick|meister|plus|profi|tool)/i
+/sprache?n?.?(app|bot|frei|genie|ki|klick|meister|plus|profi|schritt|tool)/i
+
 /sprechen.{0,10}(direkt|echtzeit|jetzt|lotse)/i
 
 /stark.?(bewegen|gehen)/i

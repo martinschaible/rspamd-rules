@@ -50,6 +50,7 @@
 /(beneficiaries|beneficiary).{1,10}the total sum of/i
 
 # C
+/claim your.{1,15}british pounds from mr/i
 
 # No idea what this is for
 /click below for.{1,10}complimentary copy of/i
@@ -139,6 +140,8 @@
 
 /we have.{1,15}gold nuggets/i
 /we seek.{1,10}individuals.{1,10}who can be trusted/i
+/we want.{1,10}transfer.{1,10}fund out of the country/i
+
 /writing to notify you.{1,10}unclaimed/i
 
 # X
@@ -152,6 +155,7 @@
 /you.{1,10}share.{1,10}last.?name.{1,10}please contact/i
 /you.{1,10}unclaimed inheritance/i
 
+/your.{1,10}assistance in providing your.{1,15}banking/i
 /your.{1,10}help to recover my inheritance/i
 /your.{1,10}funds.{1,10}waiting for your.{1,10}response/i
 /your.{1,10}name as.{1,10}beneficiary/i
