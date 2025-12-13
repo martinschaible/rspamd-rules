@@ -1,10 +1,49 @@
 # ==============================================================================
+# Spammers are trying to trick you into renewing a subscription.
+# To create a lot of pressure, the content refers to expired antivirus software.
+#
+# Another common trick is to claim that the monthly subscription fee couldn't be paid.
+# The goal is always for the scammers to obtain credit card information.
+# 
+# ------------------------------------------------------------------------------
 # Language: german
 # Weight:   6.0
 # ==============================================================================
 
 # Topics
 # ==============================================================================
+
+# Antivirus - Pressure buildup: System is infected
+# ------------------------------------------------------------------------------
+/\d{2,3}.{1,5}infizierte dateien erkannt/i
+
+/(bedrohungen|dateien) auf ihrem.{1,10}(computer|gerät|system).{1,10}erkannt/iu
+
+/blockiert.{1,10}ausstehender gerätescan/iu
+/handeln.{1,10}daten schützen/iu
+/hinweis.{1,10}verdächtige.{1,10}(system)?aktivität(en)?/i
+
+/prozesse erkannt auf ihrem.{1,10}(computer|gerät|system)/i
+
+/sie sind hackern ausgeliefert/i
+
+/sichern sie ihre daten sofort/i
+
+/sicherheitslücke.{1,10}entdeckt/iu
+/sicherheitsstatus.{1,10}jetzt scan/i
+
+/stellen sie die sicherheit.{1,10}wieder her/i
+
+/systempflege fällig/iu
+
+/(überprüfung|systemprüfung) empfohlen.{1,10}für ihr system/iu
+/(überprüfung|systemprüfung) empfohlen.{1,10}verdächtige aktivität/iu
+
+/verdächtige.{1,10}(system)?aktivität(en)?.{1,10}(erkannt|festgestellt|jetzt)/iu
+/verdächtige.{1,10}dateien erkannt.{1,10}schützen sie/iu
+
+/(viren|virus) infiziert.{1,10}jetzt.{1,10}(computer|gerät|system) scannen/iu
+/(viren|virus) in ihrem.{1,10}(computer|gerät|system)/iu
 
 #
 #
@@ -14,6 +53,8 @@
 # ==============================================================================
 
 # A
+/abgelaufen.{1,10}erneuern sie ihn.{1,10}um geschützt/iu
+
 /abonnement.{1,10}ist abgelaufen.{1,10}erneuern sie (es jetzt|mit)/i
 /abonnement.{1,10}ist abgelaufen.{1,10}jetzt erneuern/i
 /abonnement.{1,10}ist abgelaufen.{1,10}reaktivieren sie/i
@@ -22,30 +63,66 @@
 /abonnement.{1,10}ruht derzeit/i
 /abonnement.{1,10}wird ausgesetzt/i
 
+/achtung.{1,10}ihr.{1,10}(computer|gerät|system) ist/i
+
+/aktivieren sie ihren schutz.{1,10}bevor/i
 /aktivierung.{1,10}abonnements erforderlich/i
+
+/antivirus zum sonderpreis/i
 
 # B
 
 # C
+/(computer|gerät|system).{1,10}erneuern sie jetzt/i
+/(computer|gerät|system).{1,10}ist einer hohen sicherheitsbedrohung/iu
+/(computer|gerät|system).{1,10}jetzt (absichern|erneuern)/iu
+/(computer|gerät|system).{1,10}könnte gefährdet sein/iu
+/(computer|gerät|system).{1,10}wurde mit.{1,10}viren infiziert/i
 
 # D
 
 # E
-/erneuern sie es jetzt/i
-/erneuern sie ihr.{1,15}abonnement/i
-/erneuern sie noch heute ihr.{1,15}abonnement/i
+/(erneuern|reaktivieren) sie.{1,10}es jetzt/i
+/(erneuern|reaktivieren) sie.{1,10}ihr.{1,15}abonnement/i
+/(erneuern|reaktivieren) sie.{1,10}ihr antivirus/i
+/(erneuern|reaktivieren) sie.{1,15}ihre persönlichen daten/iu
+/(erneuern|reaktivieren) sie.{1,10}ihren.{1,20}schutz/i
+/(erneuern|reaktivieren) sie.{1,10}noch heute ihr.{1,15}abonnement/i
+
+/erneuerung warnung/i
 
 # F
 
 # G
+/dateien auf ihrem.{1,10}gerät(computer|gerät|system).{1,10}sind infiziert/iu
 
 # H
+/holen sie sich jetzt.{1,10}virenschutz/i
 
 # I
 /ihr service ist abgelaufen/i
-/ihre dienste werden eingestellt/i
+
+/ihr gerät ist anfällig/iu
+/ihr.{1,15}schutz ist abgelaufen/i
+/ihr.{1,15}schutz ist nicht mehr aktiv/i
+
+/ihre?.{1,10}(computer|geräte?|system).{1,10}benötigt eine überprüfung/iu
+/ihre?.{1,10}(computer|geräte?|system).{1,10}ist ohne maßnahmen angreifbar/iu
+/ihre?.{1,10}(computer|geräte?|system).{1,10}(ist|könnten?) (angreifbar|gefährdet|infiziert|offen)/iu
+/ihre?.{1,10}(computer|geräte?|system).{1,10}sind ungeschützt/i
+
+/ihre.{1,10}dienste werden eingestellt/i
+/ihre.{1,10}sicherheit ist in gefahr/i
+/ihre.{1,15}sicherheitslösung neu/iu
+
+/ihren.{1,20}schutz auf den neuesten stand/i
+/ihren.{1,20}schutz noch heute/i
 
 # J
+/jetzt.{1,10}(computer|gerät|system).{1,10}prüfen/i
+/jetzt.{1,10}scan (aktualisieren|durchführen|starten)/i
+/jetzt.{1,10}sicherheitscheck durchführen/iu
+/jetzt.{1,10}sicherheitsstatus wiederherstellen/i
 
 # K
 
@@ -65,6 +142,12 @@
 # R
 
 # S
+/schützen sie ihre?.{1,10}(computer|gerät|informationen|system) (jetzt|sofort)/i
+
+/sensible daten in gefahr/i
+
+/sicherer status.{1,10}suspendiert/i
+/sicherheitsabonnement.{1,15}(computer|gerät|system) ist abgelaufen/iu
 
 # T
 /tage.{1,10}um netflix/i

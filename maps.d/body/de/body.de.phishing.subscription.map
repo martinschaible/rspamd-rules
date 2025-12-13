@@ -1,6 +1,10 @@
 # ==============================================================================
+# Spammers are trying to trick you into renewing a subscription.
+# To create a lot of pressure, the content refers to expired antivirus software.
 #
-#
+# Another common trick is to claim that the monthly subscription fee couldn't be paid.
+# The goal is always for the scammers to obtain credit card information.
+# 
 # ------------------------------------------------------------------------------
 # Language: german
 # Weight:   6.0
@@ -8,6 +12,14 @@
 
 # Topics
 # ==============================================================================
+
+# Antivirus - Pressure buildup: System is infected
+# ------------------------------------------------------------------------------
+/bedrohungen jetzt entfernen/i
+/unsere neueste sicherheitsprüfung hat ergeben/iu
+
+/jetzt (systemcheck|überprüfung).{1,10}(durchführen|starten)/iu
+/jetzt.{1,10}system bereinigen/i
 
 #
 #
@@ -22,10 +34,14 @@
 # B
 
 # C
+/(computer|gerät|system).{1,10}ist.{1,15}ungeschützt.{1,10}anfällig/iu
+/(computer|gerät|system).{1,10}ist.{1,15}unsicher.{1,10}der plan ist abgelaufen/i
+/(computer|gerät|system).{1,10}sofortiges handeln.{1,10}erforderlich/i
 
 # D
 
 # E
+/erneuern sie jetzt.{1,10}um geschützt zu bleiben/iu
 
 # F
 
@@ -36,6 +52,13 @@
 # I
 /ihr.{1,10}abonnement gefährdet ist/iu
 /ihr.{1,15}abonnement wurde vorübergehend pausiert/iu
+
+/ihr.{1,15}schutz ist abgelaufen/i
+/ihr.{1,15}schutz ist möglicherweise abgelaufen/iu
+/ihr.{1,15}schutz ist nicht mehr aktiv/i
+
+/ihre?.{1,10}(computer|gerät|system).{1,15}(derzeit|möglicherweise).{1,15}nicht geschützt/iu
+/ihre?.{1,10}(computer|gerät|system).{1,10}ist.{1,15}einem hohen risiko für malware/i
 
 # J
 
@@ -56,6 +79,10 @@
 # R
 
 # S
+/schutzplan ist abgelaufen.{1,10}sofortige massnahme erforderlich/iu
+/schutzplan ist abgelaufen.{1,10}ihre?.{1,10}(computer|gerät|system).{1,15}ungeschützt/iu
+
+/schützen sie ihr.{1,10}(computer|gerät|system).{1,10}jetzt/iu
 
 # T
 
@@ -63,6 +90,8 @@
 /unterbrechung ihrer.{1,10}(dienste|services) zu vermeiden.{1,25}die zahlung.{1,20}(durchzuführen|überprüfen|zeitnah)/iu
 
 # V
+/verfällt der zugang zu dieser.{1,15}sicherheitsüberprüfung/iu
+/verlängern sie noch heute.{1,10}erhalten sie vollständigen schutz/iu
 
 # W
 

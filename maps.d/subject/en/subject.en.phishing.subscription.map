@@ -1,10 +1,21 @@
 # ==============================================================================
+# Spammers are trying to trick you into renewing a subscription.
+# To create a lot of pressure, the content refers to expired antivirus software.
+#
+# Another common trick is to claim that the monthly subscription fee couldn't be paid.
+# The goal is always for the scammers to obtain credit card information.
+# 
+# ------------------------------------------------------------------------------
 # Language: english
 # Weight:   6.0
 # ==============================================================================
 
 # Topics
 # ==============================================================================
+
+# Antivirus - Pressure buildup: System is infected
+# ------------------------------------------------------------------------------
+/stop viruses.{1,10}protect your devices/i
 
 #
 #
