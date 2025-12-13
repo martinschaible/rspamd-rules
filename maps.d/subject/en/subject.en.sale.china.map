@@ -11,7 +11,7 @@
 /china.{1,15}clothing/i
 /china.{1,10}freight down/i
 /china.{1,10}leading.{1,15}(factory|manufacturer|supplier)/i
-/china.{1,20}manufacturing/i
+/china.{1,20}(logistics|manufacturing)/i
 /china.{1,10}with.{1,10}certification/i
 
 /chinese.{1,10}cold rolled/i
@@ -131,6 +131,8 @@
 /^do you buy/i
 
 # E
+/efficient.{1,15}logistics.{1,10}(business|europe)/i
+
 /exclusive freight rates/i
 
 /(explore|discover).{1,10}(cnc|milling)/i
