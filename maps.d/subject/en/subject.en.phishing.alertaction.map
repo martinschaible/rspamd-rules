@@ -325,7 +325,7 @@
 /update.{1,10}required for your access/i
 /update.{1,10}required to ensure uninterrupted/i
 
-/update.{1,10}violation.{1,10}(action|update) (needed|required)/i
+/update.{1,10}violation.{1,10}(action|update).{1,10}(needed|required)/i
 
 /update.{1,10}your.{1,10}contact info/i
 /update.{1,10}your.{1,10}e?.?mail.?(account|portal)/i
@@ -341,7 +341,7 @@
 
 /urgent.{1,10}action.{1,15}delivery/i
 /urgent.{1,10}e.?mail.?confirmation/i
-/urgent.{1,10}(e.?mail|mailbox).{1,10}(action|update) (needed|required)/i
+/urgent.{1,10}(e.?mail|mailbox).{1,10}(action|update).{1,10}(needed|required)/i
 /urgent.{1,10}incoming pending.{1,10}(e?.?mails|messages)/i
 /urgent.{1,10}two.?factor.{1,15}(activation|authentication)/i
 /urgent.{1,10}priority access to/i
@@ -367,7 +367,7 @@
 /verify your.{1,10}tax documents/i
 
 # W
-/(wallet alert|webmail update).{1,10}(action|update) (needed|required)/i
+/(wallet alert|webmail update).{1,10}(action|update).{1,10}(needed|required)/i
 
 /welcome back.{1,10}your attention/i
 
