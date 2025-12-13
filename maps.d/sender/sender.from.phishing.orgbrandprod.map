@@ -275,7 +275,7 @@
 /dhl.{0,5}(kundenservice|lieferung)/i
 /dhl.{0,5}(logistik.?team|logistikzentrum)/i
 
-/dhl.{0,5}(messages?|service|support|team|tracking|versandinfo|your)/i
+/dhl.{0,5}(messages?|order|service|support|team|tracking|versandinfo|your)/i
 
 /dhl.{0,5}paket(status|zentrum)?/i
 /dhl.{0,5}(package|payment|paketinfo)/i
@@ -493,7 +493,7 @@
 /mccafee/i
 
 /(-|\|).?mcafee/i
-/mcafee.{0,10}(kundendienst|kundenservice|team)/i
+/mcafee.{0,10}(kundendienst|kundenservice|support|team)/i
 /mcafee.?\//i
 
 /media markt/i
