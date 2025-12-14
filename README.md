@@ -134,14 +134,15 @@ body
   │   ├─ body.de.phishing.map                    ─┐
   │   ├─ body.de.phishing.account.map             │
   │   ├─ body.de.phishing.alertaction.map         │
+  │   ├─ body.de.phishing.asian.map             X │
   │   ├─ body.de.phishing.banking.map             │
   │   ├─ body.de.phishing.card.map                │
   │   ├─ body.de.phishing.email.map               │
   │   ├─ body.de.phishing.greetings.map           │
   │   ├─ body.de.phishing.malware.map             │
   │   ├─ body.de.phishing.obfuscation.map         │
-  │   ├─ body.de.phishing.parcel.map              │
-  │   ├─ body.de.phishing.password.map            ├─ multimap.body.de.phishing.conf
+  │   ├─ body.de.phishing.parcel.map              ├─ multimap.body.de.phishing.conf
+  │   ├─ body.de.phishing.password.map            │
   │   ├─ body.de.phishing.payment.map             │
   │   ├─ body.de.phishing.refund.map              │
   │   ├─ body.de.phishing.rewards.map             │
@@ -267,13 +268,14 @@ subject
   │   ├─ subject.de.phishing.map                 ─┐
   │   ├─ subject.de.phishing.account.map          │
   │   ├─ subject.de.phishing.alertaction.map      │
+  │   ├─ subject.de.phishing.asian.map          X │
   │   ├─ subject.de.phishing.banking.map          │
   │   ├─ subject.de.phishing.card.map             │
   │   ├─ subject.de.phishing.email.map            │
   │   ├─ subject.de.phishing.malware.map          │
   │   ├─ subject.de.phishing.orgbrandprod.map   X │
-  │   ├─ subject.de.phishing.parcel.map           │
-  │   ├─ subject.de.phishing.password.map         ├─ multimap.subject.de.phishing.conf
+  │   ├─ subject.de.phishing.parcel.map           ├─ multimap.subject.de.phishing.conf
+  │   ├─ subject.de.phishing.password.map         │
   │   ├─ subject.de.phishing.payment.map          │
   │   ├─ subject.de.phishing.refund.map           │
   │   ├─ subject.de.phishing.rewards.map          │
