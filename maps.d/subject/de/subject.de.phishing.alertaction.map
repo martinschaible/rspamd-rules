@@ -710,7 +710,8 @@
 /zahlung fehlgeschlagen.{1,10}aktualisieren sie jetzt/i
 /zahlung für ihre?.{1,10}(paket|sendung) erforderlich/i
 
-/zahlungsproblem erkannt.{1,15}konto aktualisieren/i
+/zahlungsproblem (erkannt|festgestellt).{1,15}konto aktualisieren/i
+/zahlungsproblem (erkannt|festgestellt).{1,15}jetzt manuell/i
 
 /zahlung.{1,10}jetzt erneuern/i
 /zahlungsinformationen bei.{1,15}sind veraltet/i
