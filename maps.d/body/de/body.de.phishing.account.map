@@ -62,7 +62,7 @@
 # K
 /kontaktdaten jetzt aktualisieren/i
 
-/(konto|profil).{1,15}erfordert eine aktualisierung/i
+/(konto|profil).{1,15}(benötigt|erfordert) eine? (aktualisierung|update)/i
 /(konto|profil).{1,10}einer verifizierung bedarf/i
 /(konto|profil).{1,15}festgestellt.{1,10}die ungewöhnlich erscheint/iu
 /(konto|profil).{1,15}innerhalb der nächsten.{1,10}Stunden zu bestätigen/iu
@@ -76,15 +76,18 @@
 /(konto|profil).{1,15}sicher zu halten.{1,10}ist eine identitätsbestätigung/iu
 /(konto|profil).{1,15}vorübergehend eingeschränkt/iu
 /(konto|profil).{1,15}wieder freizuschalten.{1,10}bestätigen sie/iu
-/(konto|profil).{1,15}wird aufgrund eines.{1,20}fehlers/i
+
+/(konto|profil).{1,15}(wird|wurde) aufgrund.{1,10}(fehlers|sicherheitsüberprüfung)/iu
 
 /(konto|profil).{1,15}wurde vorsorglich gesichert/i
 /(konto|profil).{1,10}wurde zum schutz vorübergehend.{1,10}(ausgesetzt|begrenzt|eingeschränkt|gesperrt)/iu
 /(konto|profil).{1,15}wurden einige funktionen vorübergehend.{1,10}(ausgesetzt|begrenzt|eingeschränkt|gesperrt)/iu
 
 /(konto|profil).{1,10}zu gewährleisten.{1,10}müssen sie ihre identität/iu
-/(konto|profil).{1,15}zu überprüfen.{1,10}um eine.{1,15}nutzung/iu
-/(konto|profil).{1,15}zu überprüfen.{1,10}und auf.{1,10}nachrichten/iu
+
+/(konto|profil).{1,15}überprüfen.{1,10}damit wir es.{1,10}aktivieren können/iu
+/(konto|profil).{1,15}überprüfen.{1,10}um eine.{1,15}nutzung/iu
+/(konto|profil).{1,15}überprüfen.{1,10}und auf.{1,10}nachrichten/iu
 
 /kontoinformationen.{1,10}nicht bestätigt wurden/iu
 /kontoinformationen.{1,10}überprüfen.{1,15}aktualisieren/iu
