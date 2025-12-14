@@ -168,7 +168,8 @@
 
 /seo.{1,10}analysis report/i
 /seo.{1,10}(agency|best cost|bundle|expert|low cost|meeting|monthly cost)/i
-/seo.{1,10}(offer|opportunities|opportunity|price)/i
+/seo.{1,10}(offer|opportunities|opportunity)/i
+/seo.{1,10}(portal|price)/i
 /seo.{1,10}quotes?.{1,10}price/i
 /seo.{1,10}quotes?.?\?/i
 /seo.{1,10}(package|performance|plans?|portfolio|pricing|proposal)/i

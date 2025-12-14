@@ -130,7 +130,8 @@
 /adac_/i
 /adac\.de/i
 /adac.?202\d/i
-/adac.{0,10}(abteilung|deutschland|exklusiv|karten.?service|kreditkarte|mitglieder|online|support)/i
+/adac.{0,10}(abteilung|deutschland|exklusiv|mitglieder|online|support)/i
+/adac.{0,10}(karten.?service|kreditkarte)/i
 
 /adac.?mitglied$/i
 
