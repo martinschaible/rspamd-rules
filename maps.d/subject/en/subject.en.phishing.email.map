@@ -79,11 +79,14 @@
 /do not loose your.{1,15}@/i
 
 # E
+/e?.?mail.{1,10}account.{1,10}shutdown notice/i
+/e?.?mail.{1,10}account.{1,10}will expire in.{1,10}hours/i
+/e?.?mail.{1,10}account.{1,10}will be deactivated/i
+
 /e?.?mail.{1,15}(awaiting|delivery).{1,15}your inbox/i
 /e?.?mail.{1,10}closure.{1,10}do not ignore/i
 /e?.?mail.{1,10}maintenance for/i
 /e?.?mail.{1,10}server warning/i
-/e?.?mail.{1,10}account.{1,10}shutdown notice/i
 /e?.?mail.{1,10}termination request/i
 
 /e?.?mail.{1,10}(validation|verification) for mailbox/i
@@ -216,7 +219,6 @@
 /your.{1,10}e?.?mail.?account.{1,10}closure/i
 /your.{1,10}e?.?mail.?account.{1,10}has been limited/i
 /your.{1,10}e?.?mail.?account.{1,10}that violates/i
-/your.{1,10}e?.?mail.?account.{1,10}will be deactivated/i
 
 /your.{1,10}mailbox.{1,10}de.?activation/i
 /your.{1,10}mailbox.{1,10}has been flagged/i

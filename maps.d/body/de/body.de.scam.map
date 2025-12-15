@@ -51,6 +51,7 @@
 
 /(werksmodelle|werkswagen).{1,15}(anfragen|direkt|katalog|persönlich)/i
 
+/fahrzeugen?.{1,25}aus dem leasingrücklauf vermarktet/iu
 /fahrzeugen?.{1,15}(direktverwertung|sind direkt|zwischenlager)/i
 /fahrzeugen?.{1,10}inkl.{1,10}mwst.{1,10}fahrbereit/i
 /fahrzeugen?.{1,15}klarer historie/i
