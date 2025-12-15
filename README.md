@@ -197,6 +197,7 @@ Folder structure:
 ```
 sender
   ├─ sender.address.map                          ─┐
+  ├─ sender.address.domain.name.map               │
   ├─ sender.address.orgbrandprod.map              ├─ multimap.sender.address.conf
   ├─ sender.address.people.map                    │
   ├─ sender.address.tld.map                      ─┘
