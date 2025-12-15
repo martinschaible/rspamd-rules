@@ -478,7 +478,7 @@
 /lidl - /i
 /lidl_/i
 
-/lidl.{0,5}(einladung|markt|team|versand|vip)/i
+/lidl.{0,5}(einladung|exklusiv|markt|team|versand|vip)/i
 /lidl.{0,5}(deutschland|schweiz)/i
 
 /lieferung.{0,5}dhl/i
@@ -494,7 +494,7 @@
 /mccafee/i
 
 /(-|\|).?mcafee/i
-/mcafee.{0,10}(kundendienst|kundenservice|support|team)/i
+/mcafee.{0,10}(kundendienst|kundenservice|security|support|team)/i
 /mcafee.?\//i
 
 /media markt/i

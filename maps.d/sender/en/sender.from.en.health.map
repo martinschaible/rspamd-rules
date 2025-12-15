@@ -268,6 +268,7 @@
 /20\/20.{0,10}(hearing|solution)/i
 
 # A
+# ------------------------------------------------------------------------------
 /according to/i
 /aching.{0,10}points/i
 
@@ -299,6 +300,7 @@
 /awesome.{0,10}mix/i
 
 # B
+# ------------------------------------------------------------------------------
 /(bad|big|enhanced|poor|weak).{0,10}(bladder|eyes|memory|veggies)/i
 /bad.{0,10}breath/i
 
@@ -309,6 +311,7 @@
 /(bad|evil).{0,10}(bacteria|foods?|fruits?)/i
 
 /balance.{0,10}(blood|booster|brain|clinic|reset|restored|science|your)/i
+/balanced.{0,10}breakfast/i
 /balanced.?(bp|glucose)/i
 /bald.{0,10}spot/i
 
@@ -350,7 +353,7 @@
 /brain.{0,10}(reset|revival|routine)/i
 /brain.{0,10}test/i
 
-/breakfast.{0,10}(alert|boost|burner|insider|juice|myth|treat|quiz)/i
+/breakfast.{0,10}(alert|boost|burner|insider|juice|mistake|myth|treat|quiz)/i
 /(breathe|breathing).{0,10}(better|clearer|easier|easy|easy)/i
 
 /bright.{0,10}smile/i
@@ -371,11 +374,11 @@
 /butt.{0,10}lift/i
 /(buzzing|hissing).{0,10}ears/i
 
-/breakfast.{0,10}mistake/i
 /breathe.{0,10}free(ly)?/i
 /brown.{0,10}food/i
 
 # C
+# ------------------------------------------------------------------------------
 /cabernet.{0,10}merlot/i
 /calorie.{0,10}(booster|burn)/i
 /calcium.{0,10}boost/i
@@ -430,7 +433,7 @@
 /coffee.{0,10}extracts/i
 /cognitive.{0,10}(boost|care|comeback|decline|help|lab|support)/i
 
-/colon.{0,10}(care|cleanse|detox|health|ics|irrigation)/i
+/colon.{0,10}(care|cleanse|detox|health|ics|irrigation|support)/i
 /(colon|detox|mayan).{0,10}cleanse/i
 
 /comfo.?knee/i
@@ -454,6 +457,7 @@
 /cure.{0,10}(herpes|report)/i
 
 # D
+# ------------------------------------------------------------------------------
 /daily.{0,10}(burn|comfort|detox|fatigue|gut|heart|metabolism|ritual|wellness)/i
 /dairy.{0,10}recipe/i
 
@@ -498,6 +502,7 @@
 /dying.{0,10}signal/i
 
 # E
+# ------------------------------------------------------------------------------
 /eagle.{0,10}vision/i
 
 /ear.{0,10}(health|reset)/i
@@ -532,6 +537,7 @@
 /eye.{0,10}(cell|check|exercise|fix|surgery|trick)/i
 
 # F
+# ------------------------------------------------------------------------------
 /fasting.{0,10}seeds/i
 
 /fatigue.{0,10}bloating/i
@@ -584,6 +590,7 @@
 /fuzzy.{0,10}drink/i
 
 # G
+# ------------------------------------------------------------------------------
 /get hard/i
 
 /glucose.{0,10}(guide|stabilizer)/i
@@ -606,6 +613,7 @@
 /gut.{0,10}(reboot|repair|reset|rituals?|solution|tip|trick)/i
 
 # H
+# ------------------------------------------------------------------------------
 /hair.{0,5}(balding|enhancer|experts?|growth|loss)/i
 /hair.{0,5}(renewal|restoration|restorer?|revival|strength|thinning|vitality)/i
 
@@ -632,7 +640,7 @@
 
 /helps?.{0,10}you/i
 
-/herbal.{0,10}(discovery|wisdom)/i
+/herb(al)?.{0,10}(discovery|wisdom|zempic)/i
 /herpes.{0,10}(beat it|breakthrough|discovery|eliminator|outbreak|talk)/i
 
 /hidden.{0,10}(crisis|danger|deficiency|dish)/i
@@ -654,6 +662,7 @@
 /hydration.{0,10}hack/i
 
 # I
+# ------------------------------------------------------------------------------
 /iced?.{0,10}(hack|trick|water)/i
 /immune.{0,10}(booster|link|system)/i
 
@@ -670,9 +679,11 @@
 /italian.{0,10}(herb|spice)/i
 
 # J
+# ------------------------------------------------------------------------------
 /japanese.{0,15}(experts?|tonic|secret|urology)/i
 
 # K
+# ------------------------------------------------------------------------------
 /kidney.{0,10}(cleanse|health|help|restore|trust)/i
 
 /kilo{0,10}day/i
@@ -681,6 +692,7 @@
 /knee.{0,10}(coach|comfort|mistake|myth|pinch|reset|restore|saver|stretch|support)/i
 
 # L
+# ------------------------------------------------------------------------------
 /latte.{0,10}hack/i
 
 /leak.{0,10}(free|stop(per)?)/i
@@ -717,6 +729,7 @@
 /lower.{0,10}back/i
 
 # M
+# ------------------------------------------------------------------------------
 /magic.{0,10}oil/i
 /magenesium.{0,10}(guide|guru|info)/i
 
@@ -768,6 +781,7 @@
 /mushroom.{0,10}magic/i
 
 # N
+# ------------------------------------------------------------------------------
 /(toe)?nail.{0,10}(fix(er)?|health|repair|rescue|restoration|rub|test)/i
 
 /nasa.{0,10}research/i
@@ -803,6 +817,7 @@
 /nutrition.{0,15}(nuances?|notes?|paradox|report|tips?|truth|veggies)/i
 
 # O
+# ------------------------------------------------------------------------------
 /oat.?meal.{0,10}(trick|hack)/i
 /odd.{0,10}(chocolate|milk|mineral|liquid|tonic)/i
 
@@ -816,6 +831,7 @@
 /overnight.{0,10}(hack|trick)/i
 
 # P
+# ------------------------------------------------------------------------------
 /pain.{0,10}(alert|culprit|reset)/i
 /painful.{0,10}piles/i
 /pancreas.{0,10}reset/i
@@ -859,10 +875,12 @@
 /purple.{1,10}(drink|pee|powder|tonic)/i
 
 # Q
+# ------------------------------------------------------------------------------
 /quick.{1,10}(stretch|technique)/i
 /quiet.{1,10}(mornings?|nights?)/i
 
 # R
+# ------------------------------------------------------------------------------
 /radiant{0,10}glow/i
 /rare.{0,10}hormone/i
 
@@ -899,6 +917,7 @@
 /rx.?pharma/i
 
 # S
+# ------------------------------------------------------------------------------
 /safe.{0,10}foods?/i
 /sagging.{0,10}(neck|skin)/i
 
@@ -1009,6 +1028,7 @@
 /swollen.{0,10}(belly|feet|foot|gut|legs)/i
 
 # T
+# ------------------------------------------------------------------------------
 /tap your/i
 
 /thanksgiving.{0,10}delight/i
@@ -1043,6 +1063,7 @@
 /type.?2/i
 
 # U
+# ------------------------------------------------------------------------------
 /unlock.{0,10}(attraction|core|hips|memory|mind|sharper)/i
 /unlock.{0,10}(pleasure|vitality)/i
 /unlock.{0,10}your/i
@@ -1055,6 +1076,7 @@
 /urology.{0,10}expert/i
 
 # V
+# ------------------------------------------------------------------------------
 /varicose.{0,10}veins/i
 /vein.{0,10}solutions?/i
 
@@ -1072,6 +1094,7 @@
 /vitiligo.{0,10}solution/i
 
 # W
+# ------------------------------------------------------------------------------
 /\bw.?loss/i
 
 /water.{0,10}(diy|flush|pill|lab|science|watch|weight)/i
@@ -1090,8 +1113,10 @@
 /wrinkle.{0,10}(cream|eraser|filler|filter|free|solution)/i
 
 # X
+# ------------------------------------------------------------------------------
 
 # Y
+# ------------------------------------------------------------------------------
 /years.{0,10}younger/i
 
 /you.{0,10}grow/i
@@ -1110,6 +1135,7 @@
 /youthful.{0,10}(boost|glow|longevity|strength|water|you)/i
 
 # Z
+# ------------------------------------------------------------------------------
 /zero.{0,10}side.?effects?/i
 
 /zinc.{0,10}(deficiency|upgrade)/i

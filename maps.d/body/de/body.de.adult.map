@@ -49,6 +49,7 @@
 # ==============================================================================
 
 # A
+# ------------------------------------------------------------------------------
 /(antworte|kennenlernen).{1,15}(klicke?|schreibe?) hier/i
 
 /aktive chats.{1,10}talks/i
@@ -60,6 +61,7 @@
 /authentische.{1,10}respektvolle mitglieder/i
 
 # B
+# ------------------------------------------------------------------------------
 /beginnt unsere.{1,15}bekanntschaft/i
 
 /bekanntschaft.{1,10}beginnt hier/i
@@ -70,9 +72,11 @@
 /besser kennenlernen möchtest/iu
 
 # C
+# ------------------------------------------------------------------------------
 /chatten hast{1,10}schreibe?/i
 
 # D
+# ------------------------------------------------------------------------------
 /dating.?seiten?/i
 
 /dein.{1,10}(penis|schwanz)/i
@@ -91,6 +95,7 @@
 /du siehst.{1,15}interessant aus/i
 
 # E
+# ------------------------------------------------------------------------------
 /echte.{1,10}verifizierte mitglieder/i
 /echtes (date|treffen) mit mir/i
 /(echten|harten).{1,10}(penis|schwanz)/i
@@ -101,6 +106,7 @@
 /erwarten dich.{1,10}auf dieser seite/i
 
 # F
+# ------------------------------------------------------------------------------
 /finde mich auf der.{1,15}(web)?site/i
 
 /fotze|muschi|möse|pussy.{1,10}(leckst|lecken)/iu
@@ -118,8 +124,10 @@
 /folge (einfach dem|meinem).{1,10}link/i
 
 # G
+# ------------------------------------------------------------------------------
 
 # H
+# ------------------------------------------------------------------------------
 /heute bin ich in deiner stadt/i
 
 /hier findest du.{1,10}(frauen|mich)/i
@@ -129,6 +137,7 @@
 /hinterlasse meine.{1,10}kontaktdaten/i
 
 # I
+# ------------------------------------------------------------------------------
 /ich bin ein.{1,10}romantisches mädchen/iu
 /ich bin (bereit|offen).{1,10}bekanntschaften/i
 /Ich bin.{1,10}geil/i
@@ -152,17 +161,23 @@
 /ihr name auf der seite ist/i
 
 # J
+# ------------------------------------------------------------------------------
 
 # K
+# ------------------------------------------------------------------------------
 /klick einfach weiter/i
 
 /kontaktdaten findest du auf.{1,15}(web)?site/i
 
 /kostenlos reinschauen auf/i
-/kostenlosen.{1,10}fick/i
+/(kostenlos|online).{1,10}fick/i
+/(kostenlos|online).{1,10}sex.?(dating|treff(en)?)/i
+/(kostenlos|online).{1,10}(dating|treff(en)?).{1,10}sex/i
+
 /kostenlosen.{1,10}(video?.?)chat/i
 
 # L
+# ------------------------------------------------------------------------------
 /link zu meinem profil/i
 
 /lokalen? chat.?kontakten?/i
@@ -171,10 +186,10 @@
 /lust hast zu schreiben.{1,10}hier bin ich/i
 
 # M
+# ------------------------------------------------------------------------------
 /mann für.{1,15}flirts/iu
 
 /masturbieren.{1,10}spritzen/i
-
 
 /mein.{1,10}freizügigstes.{1,10}(foto|selfie)/iu 
 /mein.{1,10}profil ansehen/i
@@ -189,22 +204,27 @@
 /(mich|profil) auf.{1,10}dating.?(web)?.?site/i
 
 # N
+# ------------------------------------------------------------------------------
 /nachricht auf der.{1,15}(web)?site/i
 /neue.{1,10}frauen.{1,10}treffen/i
 
 /nur einen klick entfernt/i
 
 # O
+# ------------------------------------------------------------------------------
 
 # P
+# ------------------------------------------------------------------------------
 /(penis|schwanz).{1,10}brauche/i
 
 # Q
+# ------------------------------------------------------------------------------
 
 # R
 /registriere dich kostenlos auf der (web)?site/i
 
 # S
+# ------------------------------------------------------------------------------
 /schreibe?.{1,10}mir hier/i
 
 /schreibe?.{1,10}mir.{1,10}auf der web.?site/i
@@ -223,8 +243,12 @@
 /sex mit dir zu haben/i
 
 /sex.{1,10}(erlebnis|gemeinschaft|treffen)/i
+/sexpartner.{1,10}(finden|findest)/i
+
 /sex-online/i
 /sex.?kontakte in ihrem land/i
+
+/sichere?.{1,10}diskrete?.{1,10}(kommunikation|neues)/i
 
 /sie möchten chatten/iu
 /siehe? dir ihre seite an/i
@@ -233,21 +257,28 @@
 /suchst.{1,10}schreibe? mir/i
 
 # T
+# ------------------------------------------------------------------------------
 /traust.{1,10}schaue? hier vorbei/i
 
 /treffe.{1,10}junge.{1,10}singles/i
 
 # U
+# ------------------------------------------------------------------------------
 /unbefriedigte frau/i
 
 # V
+# ------------------------------------------------------------------------------
 /verifizierte mitglieder.{1,10}keine.{1,10}fake.?profile/i
 
 # W
+# ------------------------------------------------------------------------------
 /wollen wir uns.{1,10}kennenlernen/i
 
 # X
+# ------------------------------------------------------------------------------
 
 # Y
+# ------------------------------------------------------------------------------
 
 # Z
+# ------------------------------------------------------------------------------

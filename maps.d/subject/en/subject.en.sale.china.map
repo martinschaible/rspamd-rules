@@ -45,6 +45,7 @@
 # ==============================================================================
 
 # A
+# ------------------------------------------------------------------------------
 /ad.?parts.{1,10}request/i
 
 /(acrylic|window).{1,10}display systems/i
@@ -61,6 +62,7 @@
 /authorized distributor of/i
 
 # B
+# ------------------------------------------------------------------------------
 /(bag|luggage).{1,10}supplier/i
 /(bag|luggage).{1,10}turn.?key/i
 
@@ -70,6 +72,7 @@
 /boost your.{1,15}profit by/i
 
 # C
+# ------------------------------------------------------------------------------
 /capacitors?.{1,10}capacitors?/i
 /capacitors?.{1,10}active.{1,10}passive/i
 /capacitors?.{1,10}(resistors?|special).{1,10}offer/i
@@ -118,6 +121,7 @@
 /costs.{1,10}direct from.{1,10}factory/i
 
 # D
+# ------------------------------------------------------------------------------
 
 /die casting solutions/i
 
@@ -125,13 +129,16 @@
 /direct (factory|manufacturer).{1,10}vacuum/i
 /discuss.{1,10}(pcba?|printed.?circuits?.?board).{1,10}products/i
 
-/discover faster.{1,10}(pcba?|printed.?circuits?.?board)/i
-/discover cnc.{1,20}for your business/i
+/discover.{1,10}cnc.{1,20}for your business/i
+/discover.{1,10}faster.{1,10}(pcba?|printed.?circuits?.?board)/i
+/discover.{1,10}reliability of/i
+
 /distribution.{1,15}manufactory/i
 
 /^do you buy/i
 
 # E
+# ------------------------------------------------------------------------------
 /efficient.{1,15}logistics.{1,10}(business|europe)/i
 
 /exclusive freight rates/i
@@ -159,6 +166,7 @@
 /expert.{1,10}mold/i
 
 # F
+# ------------------------------------------------------------------------------
 /factory 202\d\//i
 /factory.{1,10}direct.{1,20}(kitchen|packaging|paper|sink|waste)/i
 /factory.{1,20}from china/i
@@ -187,6 +195,7 @@
 /from.{1,15}guangdong.{1,10}china/i
 
 # G
+# ------------------------------------------------------------------------------
 /get your.{1,10}best quote from/i
 /good.{1,10}pcba?.?supplier/i
 /good.{1,10}supplier for you/i
@@ -194,7 +203,10 @@
 /(good|high).?quality.{1,10}chinese/i
 /(good|high).?quality.{1,10}(pcba?|printed.?circuits?.?board)/i
 
+/high.?performance.{1,10}quartz.{1,10}products/i
+
 # H
+# ------------------------------------------------------------------------------
 /heavy copper.{1,10}(pcba?|printed.?circuits?.?board)/i
 
 /help increasing in.{1,15}market/i
@@ -208,6 +220,7 @@
 /home.?appliances.{1,10}manufacturer/i
 
 # I
+# ------------------------------------------------------------------------------
 /ic microchip request/i
 
 /industrial.{1,15}product.{1,10} manufacturer/i
@@ -224,11 +237,14 @@
 /iso.{1,10}qualified.{1,10}factory/i
 
 # J
+# ------------------------------------------------------------------------------
 /jersey.{1,10}customization/i
 
 # K
+# ------------------------------------------------------------------------------
 
 # L
+# ------------------------------------------------------------------------------
 /layer.{1,10}any.?layer/i
 
 /leading.{1,10}brands.{1,10}explore/i
@@ -242,6 +258,7 @@
 /low(est)? prices?.{1,10}plastic.?mold/i
 
 # M
+# ------------------------------------------------------------------------------
 /machines from.{1,10}leading factory/i
 /machining.{1,10}engineering.{1,10}services?/i
 /machined.{1,10}(main shaft|parts vendor)/i
@@ -275,10 +292,12 @@
 /molex supplier/i
 
 # N
+# ------------------------------------------------------------------------------
 /need printings?.{1,10}we do/i
 /new product catalog/i
 
 # O
+# ------------------------------------------------------------------------------
 /(odm|oem).{1,10}(manufacturer|plastic|products?|service|supplier)/i
 
 /offers? for rectifiers/i
@@ -292,6 +311,7 @@
 /our.{1,10}wide range of/i
 
 # P
+# ------------------------------------------------------------------------------
 /passive.{1,10}component.{1,10}(broker|supply)/i
 /passive.{1,10}parts?.{1,10}(req|xilinx)/i
 
@@ -353,12 +373,14 @@
 /prototype (manufacturer?|mould)/i
 
 # Q
+# ------------------------------------------------------------------------------
 /quality.{1,10}paper.{1,10}(bags|boxes)i
 
 /quotation.{1,15}(multilayer)?.{1,10}(pcba?|printed.?circuits?.?board)/i
 /quotation.{1,15}injection mold/i
 
 # R
+# ------------------------------------------------------------------------------
 /reliable.{1,10}(china|chinese).{1,20}(freight|forwarder)/i
 /reliable.{1,20}(faucets|freight|forwarder)/i
 /reliable.{1,10}shower/i
@@ -367,7 +389,10 @@
 /rfq.{1,10}parts quote/i
 /rfq pcb/i
 
+/resistors?.{1,15}(film|metal).{1,15}discounts?/i
+
 # S
+# ------------------------------------------------------------------------------
 /saving cost.{1,15}manufacuring/i
 /screw.{1,10}manufacturer/i
 
@@ -400,6 +425,7 @@
 /supply(ing)?.{1,15}steel plates/i
 
 # T
+# ------------------------------------------------------------------------------
 /toolmaking services.{1,10}china/i
 /tooling.{1,10}mold(ing)? parts/i
 
@@ -410,12 +436,12 @@
 /trustworthy.{1,10}company/i
 
 # U
+# ------------------------------------------------------------------------------
 /urgent.{1,10}(pcba?|printed.?circuits?.?board).{1,10}orders?/i
 
-# Unresolved review requests
-/未解决的审核请求/i
 
 # V
+# ------------------------------------------------------------------------------
 
 # W
 /we are.{1,10}looking for partners for/i
@@ -431,6 +457,7 @@
 /with our precision.{1,20}(engineered|solutions)/i
 
 # X
+# ------------------------------------------------------------------------------
 
 # Y
 /you confirm your.{1,10}interest/i
@@ -460,3 +487,4 @@
 /your trustworth.{1,10}pcba?/i
 
 # Z
+# ------------------------------------------------------------------------------
