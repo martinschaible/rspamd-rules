@@ -243,7 +243,8 @@ Folder structure:
 ```
 subject  
   ├─ subject.health.medname.map                  --- multimap.subject.health.conf
-  ├─ subject.orgbrandprod.map                    ─┐
+  ├─ subject.asia.map                            ─┐
+  ├─ subject.orgbrandprod.map                     │
   ├─ subject.special.map                          ├─ multimap.subject.conf
   ├─ subject.special.emoji.map                   ─┘
   │
@@ -268,7 +269,6 @@ subject
   │   ├─ subject.de.phishing.map                 ─┐
   │   ├─ subject.de.phishing.account.map          │
   │   ├─ subject.de.phishing.alertaction.map      │
-  │   ├─ subject.de.phishing.asian.map          X │
   │   ├─ subject.de.phishing.banking.map          │
   │   ├─ subject.de.phishing.card.map             │
   │   ├─ subject.de.phishing.email.map            │
