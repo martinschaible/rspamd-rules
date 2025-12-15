@@ -27,11 +27,13 @@
 # ==============================================================================
 
 # A
-/app storeでの/i
+# -----------------------------------------------------------------------------
 
 # B
+# -----------------------------------------------------------------------------
 
 # C
+# -----------------------------------------------------------------------------
 /cancel de.?activation.{1,15}(account|request)/i
 
 /click here.{1,15}luck is on your side/i
@@ -39,79 +41,87 @@
 /confirm.{1,10}ownership here/i
 /confirm.{1,10}current tax residency/i
 
-# 11.08.25 - Check here
-/ご確認はこちら/i
-
-
-# 13.08.25 - Attention Awakening
-/注意喚起/i
-
 # D
+# -----------------------------------------------------------------------------
 
 # E
+# -----------------------------------------------------------------------------
 
 # F
+# -----------------------------------------------------------------------------
 /flagged.{1,10}demands urgent review/i
 
 # G
+# -----------------------------------------------------------------------------
 
 # H
+# -----------------------------------------------------------------------------
 
 # I
-
-# 09.08.25 - Important notice
-/重要なお知らせ/i
+# -----------------------------------------------------------------------------
 
 # J
+# -----------------------------------------------------------------------------
 
 # K
+# -----------------------------------------------------------------------------
 
 # L
 
 # M
+# -----------------------------------------------------------------------------
 /missing identity information/i
 
 # N
-
-# 11.08.25 - Notice from the National Tax Agency
-/国税局からのお知らせ/i
+# -----------------------------------------------------------------------------
 
 # O
+# -----------------------------------------------------------------------------
 
 # P
+# -----------------------------------------------------------------------------
 /policy.{1,15}verify your advertiser/i
 
 /protect.{1,10}files by adding more.{1,10}space/i
 
 # Q
+# -----------------------------------------------------------------------------
 
 # R
+# -----------------------------------------------------------------------------
 /regain access.{1,10}your.{1,10}wallet/i
 
 # S
+# -----------------------------------------------------------------------------
 /secure the metmask dashboard/i
 
 /servers.{1,15}review the details in your account/i
 /service update.{1,15}we would like to inform you/i
 
 # T
+# -----------------------------------------------------------------------------
 
 # U
+# -----------------------------------------------------------------------------
 /update the necessary information.{1,15}accessing/i
 
 # V
+# -----------------------------------------------------------------------------
 /verify.{1,10}advertiser identity/i
 /verify.{1,10}details to ensure uninterrupted/i
 
 # W
+# -----------------------------------------------------------------------------
 /wallet.{1,10}complete the.{1,10}identity verification/i
 
 /we noticed?.{1,10}activity.{1,10}requires confirmation/i
 /we noticed?.{1,10}you have not updated/i
 
 # X
+# -----------------------------------------------------------------------------
 
 # Y
+# -----------------------------------------------------------------------------
 /you.{1,10}are requested.{1,10}complete.{1,10}security/i
 /you.{1,10}to confirm your.{1,10}phone.?number/i
 
@@ -125,147 +135,4 @@
 /your.{1,10}wallet.{1,10}not been synchronized/i
 
 # Z
-
-#
-#
-#
-
-# Chinese and Japanese
-# ------------------------------------------------------------------------------
-
-# "Add WeChat to issue VAT invoice on behalf of others"
-/代开增值税发票加微信/i
-
-# "Add WeChat to issue VAT invoice"
-/开增值税发票加微信/i
-
-# "Add WeChat 16228126454 to open VAT invoice"
-/开增值税发票加微信.{1,20}尸卫诸少铁酒却邵软块肾例/i
-
-# "Add WeChat to issue VAT invoice on behalf of others"
-/代开增值税普通发票加微信/i
-
-# "Add WeChat to issue VAT invoice"
-/开增值税 发票加微信/i
-/代开增值税普票发票加微信/i
-
-# "Add WeChat to issue electronic invoice"
-/代开电子普票发票加微信/i
-
-# "Add WeChat to open an electronic invoice"
-/开电子普票加微信/i
-
-# "Add WeChat for Cape Ticket"
-/开普票加微信/i
-
-# "Authentifizierung starten"
-/認証を開始する/i
-
-# "Branded goods by air and by express"
-/品牌货物空运通过快递/i
-
-# "Business trust company*"
-/業務受託会社/i
-
-# "Cape ticket plus WeChat"
-/代开普 票加微/i
-
-# "Check the details at"
-/で詳細を確認する/i
-
-# "Complete the procedure"
-/手続きを行う/i
-
-# "Customer Service Specialist"
-/客服专员/i
-
-# "Dear valued customer"
-/お客様各位/i
-
-# "Get your reward now"
-/今すぐ特典を受け取る/i
-
-# "Cancellation procedure here"
-/キャンセル手続きはこちら/i
-
-# "Dear customer"
-/尊敬的客/i
-
-# "If you don’t remember the transaction"
-/取引に覚えがない場合は/i
-
-# "If you have any questions"
-/ご不明な点がございましたら/i
-
-# "Important notice"
-/重要通知/i
-
-# "Invoice code"
-/发票代码/i
-
-# "Invoice number"
-/請求書番号/i
-/发票号码/i
-
-# "Manual method"
-/手続き方法/i
-
-# "More details link"
-/詳細リンク/i
-
-# "Need a general ticket? Add WeChat"
-/需要普 票加微信/i
-
-# "Now on sale with big price cuts"
-/现做促销大降价/i
-
-# "Open regular tickets on behalf of others and add WeChat"
-/代 开正 规普票加微 信/i
-
-# "Payment details link"
-/支払いの詳細リンク/i
-
-# "Please contact us at"
-/下記までご連絡ください/i
-
-# "Purchase invoice add WeChat"
-/购买发票加微信/i
-
-# "Payment deadline"
-/お支払い期限/i
-
-# "Reconfirm your personal information"
-/個人情報を再確認/i
-
-# "Request for information"
-/情報提供のお願い/i
-
-# "Special offer"
-/特典を今すぐ受け取る/i
-
-# "The server has been upgraded to a newer server"
-/服务器已升级到较新的服务器/i
-
-# "Update to continue"
-/立即更新以继续/i
-
-# "We are Hong Kong"
-/我们是香港/i
-
-# "Your account will expire today"
-/您的帐户将于今天到期/i
-
-# "Your email account"
-/您的邮箱账号/i
-
-# "Use Resona Bank"
-/りそな銀行をご利用/i
-
-# "ATM withdrawal"
-/ATMでの入/i
-
-# No idea
-/盐毁读鞍炸弟翟丝/i
-/冠峭拨讲油垂近悬/i
-/载拨嫌吧鞍拿饥侵悄/i
-/有貨歡迎來電咨詢/i
+# -----------------------------------------------------------------------------
