@@ -91,9 +91,6 @@
 /online.?dating.{1,20}(für alle|warten sie nicht)/iu
 /online.?dating.{1,10}bezahlen/i
 
-/(kostenlos|online).{1,10}sex.?(dating|treffen)/i
-/(kostenlos|online).{1,10}(dating|treffen).{1,10}sex/i
-
 /(europäisches|internationales).{1,15}sex.?(dating|treffen)/i
 /ich möchte einen.{1,10}mann treffen/iu
 /ich möchte jemanden finden/iu
@@ -459,7 +456,6 @@
 
 # Unclassified
 # ------------------------------------------------------------------------------
-/sichere.{1,10}diskrete.{1,10}kommunikation/i
 /jetzt.{1,10}liebe finden/i
 
 # Masked
