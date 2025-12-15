@@ -46,11 +46,14 @@
 # ==============================================================================
 
 # A
+# ------------------------------------------------------------------------------
 /as a (established|leading){1,15}manufacturer.{1,10}(of|we)/i
 
 # B
+# ------------------------------------------------------------------------------
 
 # C
+# ------------------------------------------------------------------------------
 /certified.{1,10}(company|factory|supplier).{1,10}manufactures/i
 
 /china.{1,10}thank you for taking the time/i
@@ -58,44 +61,57 @@
 
 /(company|factory|supplier) of.{1,10}electronic components since/i
 
-
 # D
+# ------------------------------------------------------------------------------
 /discover our stunning.{1,15}(acrylic|furniture)/i
 
 /distributor.{1,10}specializing in all kinds of/i
 
 # E
+# ------------------------------------------------------------------------------
 /electronic.{1,10}components.{1,10}provided here/i
 
+/e?.?mail us.{1,10}for.{1,10}shipping solution/i
+
 # F
+# ------------------------------------------------------------------------------
 /factory offers comprehensive.{1,10}(odm|oem)/i
 
 # G
+# ------------------------------------------------------------------------------
 /(gifts|premium|promotional).{1,15}supplier for.{1,10}years/i
 
 # H
+# ------------------------------------------------------------------------------
 
 # I
+# ------------------------------------------------------------------------------
 /is.{1,10}well.{1,10}established.{1,10}(company|factory|supplier) of /i
 
 # J
+# ------------------------------------------------------------------------------
 
 # K
+# ------------------------------------------------------------------------------
 /knowing your email from.{1,10}web.?site/i
 
 # L
+# ------------------------------------------------------------------------------
 /(leading|trusted|your).{1,10}(pcba?|printed.?circuit.?board).{1,10}(company|factory|supplier)/i
 /(leading|trusted).{1,10}partner to oem/i
 /(leading|trusted).{1,10}warehouse distributor/i
 
 # M
+# ------------------------------------------------------------------------------
 /manufacturer.{1,10}china.{1,10}who are in industry/i
 
 /manufacturing.{1,10}exporting.{1,10}(custom|shirts|tracksuits)/i
 
 # N
+# ------------------------------------------------------------------------------
 
 # O
+# ------------------------------------------------------------------------------
 /our steel is manufactured/i
 
 /our.{1,10}competency.{1,15}manufacturing/i
@@ -113,15 +129,18 @@
 /our main items are.{1,10}tempered/i
 
 # P
+# ------------------------------------------------------------------------------
 /printing center.{1,10}china/i
 /professional.{1,10}freight forwarding/i
 
 # Q
+# ------------------------------------------------------------------------------
 
 # R
 /reliable partner.{1,10}high.?quality/i
 
 # S
+# ------------------------------------------------------------------------------
 /(shanghai|shenzhen).{1,15}co.{1,5}ltd/i
 /(shanghai|shenzhen).{1,15}technology.{1,10}co.{1,5}ltd/i
 
@@ -136,16 +155,20 @@
 /(specializes|specialized).{1,10}producing.{1,10}(injection|moulding|parts)/i
 
 # T
+# ------------------------------------------------------------------------------
 /trade.{1,10}industry co.{1,5}ltd/i
 
 /top choice.{1,10}railway transport/i
 /top.{1,10}pcb.{1,10}manufacturer of/i
 
 # U
+# ------------------------------------------------------------------------------
 
 # V
+# ------------------------------------------------------------------------------
 
 # W
+# ------------------------------------------------------------------------------
 /we.{1,10}are.{1,10}(independent|leading|professional|specialized?|top|trusted).{1,10}professional company of/i
 /we.{1,10}are.{1,10}(independent|leading|professional|specialized?|top|trusted).{1,20}(distributor|domestic|manufacturer|supplier) (in the|of|producing|with)/i
 /we.{1,10}are.{1,10}(independent|leading|professional|specialized?|top|trusted).{1,20}(factory|forwarder)/i
@@ -206,8 +229,10 @@
 /wide range.{1,15}(led|lighting|products)/i
 
 # X
+# ------------------------------------------------------------------------------
 
 # Y
+# ------------------------------------------------------------------------------
 /you have.{1,10}goods.{1,10}transport from/i
 /you be interested in exploring/i
 /you to our range of custom/i
@@ -219,3 +244,4 @@
 /your.{1,10}next.{1,10}(pcba?|printed.?circuits?.?board)/i
 
 # Z
+# ------------------------------------------------------------------------------

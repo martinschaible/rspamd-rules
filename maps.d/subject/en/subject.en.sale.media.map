@@ -32,14 +32,17 @@
 # ==============================================================================
 
 # Numeric
+# ------------------------------------------------------------------------------
 /202\d contact.?list/i
 
 # A
+# ------------------------------------------------------------------------------
 /accelerate your business/i
 
 /attendees list.{1,10}202\d/i
 
 # B
+# ------------------------------------------------------------------------------
 /backlink services.{1,10}proposal/i
 
 /boost your instagram/i
@@ -51,6 +54,9 @@
 /business.{1,10}development proposal/i
 
 # C
+# ------------------------------------------------------------------------------
+/cheap(er)? lead tools/i
+
 /customized list.{1,10}education/i
 
 /collaboration.{1,15}users (database|list)/i
@@ -60,6 +66,7 @@
 /(customers|visitors) database/i
 
 # D
+# ------------------------------------------------------------------------------
 /(database|list).{1,10}(germany|switzerland).{1,15}companies/i
 
 /digital marketing.{1,10}proposal/i
@@ -67,6 +74,7 @@
 /directory.{1,10}registered.{1,10}participants/i
 
 # E
+# ------------------------------------------------------------------------------
 /e?.?mail.{1,10}lists?.{1,10}202\d/i
 /e?.?mail.{1,10}lists?.{1,10}(lead|valid)/i
 
@@ -80,10 +88,12 @@
 /exclusive.{1,10}guest posting/i
 
 # F
+# ------------------------------------------------------------------------------
 /fix your instagram/i
 /followers.{1,15}youtube views/i
 
 # G
+# ------------------------------------------------------------------------------
 /genuine leads/i
 
 /get.{1,15}business contacts/i
@@ -94,8 +104,10 @@
 /guest post(ing)?.{1,10}(opportunities|opportunity)/i
 
 # H
+# ------------------------------------------------------------------------------
 
 # I
+# ------------------------------------------------------------------------------
 /(improve|increase|transform).{1,10}brand.{1,10}recognition/i
 /(improve|increase|transform).{1,10}sales.{1,10}wikipedia/i
 /(improve|increase|transform).{1,10}trustpilot reviews/i
@@ -106,10 +118,13 @@
 /interested in the.{1,15}visitor (database|list)/i
 
 # J
+# ------------------------------------------------------------------------------
 
 # K
+# ------------------------------------------------------------------------------
 
 # L
+# ------------------------------------------------------------------------------
 /leads.{1,10}from.{1,10}events/i
 
 /^link affinity$/i
@@ -117,6 +132,7 @@
 /list of attendees for.{1,15}202\d/i
 
 # M
+# ------------------------------------------------------------------------------
 /make your brand/i
 
 /mailing.{1,10}for your clients/i
@@ -127,36 +143,44 @@
 /mx tested e?.?mails/i
 
 # N
+# ------------------------------------------------------------------------------
 /new leads.{1,10}linkedin/i
 
 # O
+# ------------------------------------------------------------------------------
 /online presence.{1,10}wikipedia/i
 
 /optimize.{1,10}ad campaigns?/i
 /optimize.{1,10}sales now/i
 
 # P
+# ------------------------------------------------------------------------------
 /professionals?.{1,10}e?.?mail.?list/i
 
 /promote to millions of people/i
 
 # Q
+# ------------------------------------------------------------------------------
 /qualified leads/i
 
 # R
+# ------------------------------------------------------------------------------
 /registered.{1,15}(contact|participants).{1,15}directory/i
 
 # S
+# ------------------------------------------------------------------------------
 /send unlimited.{1,10}e?.?mails/i
 
 /social.?media.{1,10}management.{1,10}content.?creation/i
 /social.?media.{1,10}(boost|packages?|services?)/i
 
 # T
+# ------------------------------------------------------------------------------
 /targeted.{1,10}verified/i
 /(targeted|verified).{1,15}(contact lists|e?.?mail.?list|leads)/i
 
 # U
+# ------------------------------------------------------------------------------
 /unlimited mailing for/i
 
 /unlock.{1,15}instagram growth/i
@@ -166,9 +190,11 @@
 /unrestricted.{1,10}e?.?mail.{1,10}marketing/i
 
 # V
+# ------------------------------------------------------------------------------
 /verified client details/i
 
 # W
+# ------------------------------------------------------------------------------
 /we.{1,10}offer.{1,10}social media services/i
 /we.{1,10}provide.{1,15}(fresh|quality|targeted|verified).{1,15}leads/i
 
@@ -180,8 +206,10 @@
 /with.{1,10}wikipedia listing/i
 
 # X
+# ------------------------------------------------------------------------------
 
 # Y
+# ------------------------------------------------------------------------------
 /you grow your.{1,10}(brand|business|online)/i
 /you utilizing.{1,10}visitors.{1,10}e?.?mails/i
 
@@ -191,3 +219,4 @@
 /your.{1,10}lead potential/i
 
 # Z
+# ------------------------------------------------------------------------------

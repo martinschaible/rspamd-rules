@@ -17,6 +17,7 @@
 # ==============================================================================
 
 # A
+# ------------------------------------------------------------------------------
 /aktualisierung.{1,10}(kontoinformationen|kontosicherheit|kontozugriffs?)/i
 /aktualisierung.{1,10}ist zu gunsten ihrer sicherheit/i
 /aktualisierung.{1,10}innerhalb der nächsten.{1,10}stunden durch/iu
@@ -25,14 +26,18 @@
 /aufzuheben.{1,10} bestätigen sie.{1,10}ihre identität/iu
 
 # B
+# ------------------------------------------------------------------------------
 /bericht zum kontozugriff/i
 
 # C
+# ------------------------------------------------------------------------------
 
 # D
+# ------------------------------------------------------------------------------
 /deaktiviert.{1,10}sofern sie ihr.{1,15}konto nicht bestätigen/iu
 
 # E
+# ------------------------------------------------------------------------------
 /ein nicht identifiziertes Gerät auf das.{1,15}konto/iu
 
 /eingeschränkt.{1,10}bis deine identität bestätigt wurde/iu
@@ -40,15 +45,19 @@
 /erfolgen.{1,10}um eine.{1,20}sperre zu vermeiden/i
 
 # F
+# ------------------------------------------------------------------------------
 /facebook.{1,10}kontoüberprüfung/iu
 
 /führen sie eine identitätsprüfung durch/iu
 
 # G
+# ------------------------------------------------------------------------------
 
 # H
+# ------------------------------------------------------------------------------
 
 # I
+# ------------------------------------------------------------------------------
 /ihr.{1,10}kundenprofil ist nicht aktuell/i
 
 /ihre.{1,15}identitätsinformationen überprüfen/iu
@@ -58,8 +67,10 @@
 /ist eine neue verifizierung erforderlich/i
 
 # J
+# ------------------------------------------------------------------------------
 
 # K
+# ------------------------------------------------------------------------------
 /kontaktdaten jetzt aktualisieren/i
 
 /(konto|profil).{1,15}(benötigt|erfordert) eine? (aktualisierung|update)/i
@@ -69,9 +80,10 @@
 
 /(konto|profil).{1,15}ist.{1,10}(dauerhaft|derzeit|möglicherweise|vorübergehend).{1,10}(ausgesetzt|eingeschränkt|begrenzt|gesperrt)/iu
 
-/(konto|profil).{1,10}ist.{1,10}(ausgesetzt|begrenzt|eingeschränkt|gesperrt).{1,10}bis/iu
-/(konto|profil).{1,10}ist.{1,10}(ausgesetzt|begrenzt|eingeschränkt|gesperrt).{1,10}aktualisieren sie ihre zahlungsdetails/i
-/(konto|profil).{1,10}ist.{1,10}(ausgesetzt|begrenzt|eingeschränkt|gesperrt).{1,10}um es.{1,10}(online|wieder).{1,10}zu aktivieren/iu
+/(konto|profil).{1,10}(ausgesetzt|begrenzt|eingeschränkt|gesperrt).{1,10}da die anmeldung bei ihrem.{1,15}konto/i
+/(konto|profil).{1,10}(ausgesetzt|begrenzt|eingeschränkt|gesperrt).{1,10}bis/iu
+/(konto|profil).{1,10}(ausgesetzt|begrenzt|eingeschränkt|gesperrt).{1,10}aktualisieren sie ihre zahlungsdetails/i
+/(konto|profil).{1,10}(ausgesetzt|begrenzt|eingeschränkt|gesperrt).{1,10}um es.{1,10}(online|wieder).{1,10}zu aktivieren/iu
 
 /(konto|profil).{1,15}sicher zu halten.{1,10}ist eine identitätsbestätigung/iu
 /(konto|profil).{1,15}vorübergehend eingeschränkt/iu
@@ -98,25 +110,33 @@
 /korrigieren sie ihre angaben/i
 
 # L
+# ------------------------------------------------------------------------------
 
 # M
+# ------------------------------------------------------------------------------
 /mein.{1,15}konto jetzt sichern/i
 
 /migrieren.{1,10}verlieren sie dauerhaft den zugriff/i
 
 # N
+# ------------------------------------------------------------------------------
 /nachricht zur sicherheit ihres.{1,15}kontos/i
 
 # O
+# ------------------------------------------------------------------------------
 
 # P
+# ------------------------------------------------------------------------------
 /prozess.{1,10}persönlicher link/iu
 
 # Q
+# ------------------------------------------------------------------------------
 
 # R
+# ------------------------------------------------------------------------------
 
 # S
+# ------------------------------------------------------------------------------
 /sicherheitsgründen bitten wir sie.{1,10}ihre identität zu bestätigen/iu
 
 /sicherheitslücke in ihrem.{1,15}(konto|profil) (festgestellt|registriert)/iu
@@ -134,11 +154,14 @@
 /sofortige bestätigung ihres.{1,15}kontos/iu
 
 # T
+# ------------------------------------------------------------------------------
 
 # U
+# ------------------------------------------------------------------------------
 /uneingeschränkte nutzung ihres.{1,15}kontos.{1,15}sicherzustellen/i
 
 # V
+# ------------------------------------------------------------------------------
 /verdächtige handlungen auf ihrem.{1,15}konto.{1,10}(festgestellt|registriert)/iu
 /vermeiden.{1,10}führen sie die verifizierung/iu
 
@@ -146,11 +169,15 @@
 /verifizierung.{1,10}nicht innerhalb von.{1,10}stunden (abschliessen|abschließen)/iu
 
 # W
+# ------------------------------------------------------------------------------
 
 # X
+# ------------------------------------------------------------------------------
 
 # Y
+# ------------------------------------------------------------------------------
 
 # Z
+# ------------------------------------------------------------------------------
 /zugang zu (ihrem|meinem).{1,15}konto wiederherstellen/i
 /zum schutz.{1,15}ihres kontos ist die aktivierung/i
