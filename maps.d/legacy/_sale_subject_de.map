@@ -32,17 +32,9 @@
 
 # Chair
 # ------------------------------------------------------------------------------
-/(büro|massage).?(sessel|stuhl|stühle).{1,15}(eingebauter|integrierter|komfort|massage|walnussholz)/iu
-/(büro|massage).?(sessel|stuhl|stühle).{1,25}(erhältlich|netto|nur|reduziert|statt|testen|top.?design|zugreifen)/iu
-/(büro|massage).?(sessel|stuhl|stühle).{1,15}(sonder|spezial).?preis/i
-/(büro|massage).?(sessel|stuhl|stühle).{1,15}für (nur|\d{3})/i
-/(büro|massage).?(sessel|stuhl|stühle).{1,15}nur.{1,10}zzgl/i
-
 /leder.{0,10}(sessel|stuhl|stühle)/iu
 
 /(aktion|angebot).{1,20}(büro|massage).?(sessel|stuhl|stühle)/iu
-/(elegante|eleganz|ergonomische|lager).{1,20}(büro|massage).?(sessel|stuhl|stühle)/iu
-/(revolution|revolutionäre).{1,15}(büro|massage).?(sessel|stuhl|stühle)/iu
 /sichern sie sich.{1,20}(büro|massage).?(sessel|stuhl)/iu
 
 /(design|highlight|komfortabel|leder|neuer|office|premium|stilvolle|ultimativen|unsere|traum|walnussholz).{1,20}(büro|massage).?(sessel|stuhl|stühle)/iu
