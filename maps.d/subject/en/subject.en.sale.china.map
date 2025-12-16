@@ -35,7 +35,8 @@
 
 /(pcba?|printed.?circuits?.?board).{1,10}factory (from|in) china/i
 
-/we are china.{1,15}(dropshipping|leading|platform|supplier)/i
+/we are.{1,10}china.{1,15}(dropshipping|leading|platform|supplier)/i
+/we are.{1,10}the best chinese/i
 
 #
 #
@@ -57,6 +58,7 @@
 /aluminum die casting/i
 /(apparel|caps).{1,10}together/i
 
+/are you looking for.{1,10}new/i
 /at our.{1,10}facility/i
 
 /authorized distributor of/i
@@ -446,13 +448,16 @@
 # ------------------------------------------------------------------------------
 
 # W
-/we are.{1,10}looking for partners for/i
 /we are a.{1,10}professional/i
+/we are.{1,10}looking for partners for/i
+/we are.{1,10}the best.{1,10}supplier/i
+
 /we guarantee stable quality/i
 /we have focused on offering/i
 
 /we (make|supply).{1,20}(bags|majority|microphone|packing|priced chips|wireless)/i
-/we (make|supply).{1,10}high.?quality{1,15}with full/i
+/we (make|supply).{1,10}high.?quality.{1,15}with full/i
+/we (make|supply).{1,10}high.?quality.{1,10}products/i
 
 /(welding|wire).{1,20}for your needs/i
 /with.{1,20}services/i
