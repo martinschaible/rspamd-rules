@@ -24,6 +24,7 @@
 # ==============================================================================
 
 # A
+# ------------------------------------------------------------------------------
 /aktualisieren sie ihre daten.{1,10}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/i
 /(abonnement|anmeldedaten).{1,15}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/i
 
@@ -32,17 +33,23 @@
 /anmeldung festgestellt.{1,15}guten (abend|morgen|tag)/i
 
 # B
+# ------------------------------------------------------------------------------
 /bestätigen sie ihre.{1,20}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/i
 
 # C
+# ------------------------------------------------------------------------------
 
 # D
+# ------------------------------------------------------------------------------
 
 # E
+# ------------------------------------------------------------------------------
 
 # F
+# ------------------------------------------------------------------------------
 
 # G
+# ------------------------------------------------------------------------------
 /gerätesicherheit.{1,15}sehr geehrter?.{1,15}(damen|herren|kunde|kundin)/iu
 
 # Related to Parcel
@@ -115,6 +122,7 @@
 /herzliche (grüsse|grüße).{1,10}mein name ist/iu
 
 # I
+# ------------------------------------------------------------------------------
 /ihr konto wurde gesperrt.{1,10}sehr geehrter?/i
 /ihre rechnung ist fällig.{1,10}sehr geehrter?/iu
 /ihre rückerstattung von.{1,15}sehr geehrter?/iu
@@ -122,14 +130,17 @@
 /information zu (ihrem|ihrer) (paket|sendung).{1,10}sehr geehrter?/i
 
 # J
+# ------------------------------------------------------------------------------
 
 # K
+# ------------------------------------------------------------------------------
 /kontoaktualisierung erforderlich.{1,10}guten (abend|morgen|tag)/i
 (kontoinformationen|kontosicherheit|zahlungsangaben).{1,10}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/i
 
 /konto verifizieren.{1,10}lieber?.{1,10}kunde/i
 
 # L
+# ------------------------------------------------------------------------------
 /letzte erinnerung.{1,10}nur solange der vorrat reicht/i
 
 /lieb ,/i
@@ -146,23 +157,31 @@
 /lieber?.{1,10}paket?empfänger/iu
 
 # M
+# ------------------------------------------------------------------------------
+/meine aufrichtigen grüße/iu
 
 # N
+# ------------------------------------------------------------------------------
 /neues gerät verbunden.{1,10}lieber nutzer/iu
 
 /nicht erfolgreich.{1,10}guten tag/i
 
 # O
+# ------------------------------------------------------------------------------
 
 # P
+# ------------------------------------------------------------------------------
 
 # Q
+# ------------------------------------------------------------------------------
 
 # R
+# ------------------------------------------------------------------------------
 /rückerstattung.{1,10}zahlung.{1,15}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/iu
 /(rückerstattung|rückzahlung).{1,15}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/iu
 
 # S
+# ------------------------------------------------------------------------------
 /sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}aktivieren sie ihre/i
 /sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}aus sicherheitsgründen/iu
 /sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}aufgrund.{1,15}(aktualisierter|allgemeiner|neuer|verdächtigen)/i
@@ -268,19 +287,24 @@
 /sicherheitsupdate.{1,10}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/i
 
 # T
+# ------------------------------------------------------------------------------
 
 # U
+# ------------------------------------------------------------------------------
 /ungewöhnliche aktivitäten festgestellt.{1,10}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/iu
 
 /unverzügliche zahlung.{1,10}guten tag/i
 
 # V
+# ------------------------------------------------------------------------------
 /verifizierung ihres.{1,15}kontos?.{1,10}guten tag/i
 /verifizierung notwendig.{1,10}(sehr geehrter?|werter?).{1,10}(damen|herren|kunde|kundin)/i
 
 # W
+# ------------------------------------------------------------------------------
 
 # X
+# ------------------------------------------------------------------------------
 /werte.{1,15}(damen|herren|kunde|kundin).{1,10}wir haben.{1,10}verdächtigen?/i
 
 /wichtige aktualisierung.{1,10}att:?/i
@@ -288,8 +312,10 @@
 /wir konnten ihr paket.{1,10}nicht zustellen.{1,10}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/i
 
 # Y
+# ------------------------------------------------------------------------------
 
 # Z
+# ------------------------------------------------------------------------------
 /zahlung wurde nicht ausgeführt.{1,10}hallo/iu
 
 /zahlungsinformationen.{1,10}sehr geehrter kunde/i

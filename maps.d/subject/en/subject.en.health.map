@@ -51,6 +51,7 @@
 /1 (daily|sleep) (habit|hack)/i
 
 # A
+# ------------------------------------------------------------------------------
 /about.{1,10}your.{1,10}(fruits?|vegetables|veggies)/i
 
 /add \d{1,2}.{1,5}drops/i
@@ -104,6 +105,7 @@
 /awaken your.{1,10}power/i
 
 # B
+# ------------------------------------------------------------------------------
 /back.?pain.{1,10}relief/i
 /back.{1,10}neck.{1,10}pain/i
 
@@ -172,6 +174,7 @@
 /by this ancient/i
 
 # C
+# ------------------------------------------------------------------------------
 /call for your health/i
 /(calms?|calmer).{1,10}nerves?/i
 
@@ -222,6 +225,7 @@
 /cuts?.{1,10}heart attack/i
 
 # D
+# ------------------------------------------------------------------------------
 /(damaging|detox(es)?|upsetting).{1,10}your (gut|memory)/i
 
 /(dangerous|dark side).{1,10}(fruits?|veggies)/i
@@ -291,6 +295,7 @@
 /diy.{1,10}minute stretch/i
 
 # E
+# ------------------------------------------------------------------------------
 /ease nerve pain/i
 
 /ear\b.{1,10}(buzzing|comfort|rub|trick)/i
@@ -340,6 +345,7 @@
 /experts?.{1,10}(food|his food|warn\b)/i
 
 # F
+# ------------------------------------------------------------------------------
 /faster than.{1,10}pills/i
 /fastest way to eliminate/i
 
@@ -394,6 +400,7 @@
 /fungus.{0,10}(cure|fix|free|vanish)/i
 
 # G
+# ------------------------------------------------------------------------------
 /get.{1,15}thick hair/i
 /get.{1,10}hard on demand/i
 /get.{1,10}tinnitus/i
@@ -413,6 +420,7 @@
 /reveals greatest discovery/i
 
 # H
+# ------------------------------------------------------------------------------
 /hack silences/i
 
 /hair.?loss\.\./i
@@ -468,6 +476,7 @@
 /(hurt(ing)?|resets?).{1,10}your gut/i
 
 # I
+# ------------------------------------------------------------------------------
 /improved? memory.{1,10}(instantly|in.{1,15}seconds|memory)/i
 /improved? memory.{1,10}(concentration|easy|simple)/i
 /improved?.{1,15}(digestion|hearing|urination|vision)/i
@@ -489,6 +498,7 @@
 /is your.{1,10}brain/i
 
 # J
+# ------------------------------------------------------------------------------
 /juice lowers/i
 /jumpstart your.{1,15}health/i
 
@@ -496,12 +506,14 @@
 /joint.?pain now/i
 
 # K
+# ------------------------------------------------------------------------------
 /keep (their|your).{1,10}(arteries|heart|nails)/i
 /knee.{1,10}(pain|stiffness|stretch)/i
 
 /kills.{1,10}(pain|nerve|tinnitus)/i
 
 # L
+# ------------------------------------------------------------------------------
 /(lbs|pounds|weight) of fat/i
 
 /leg pain.{1,10}swelling/i
@@ -527,6 +539,7 @@
 /lunch.{1,10}hack/i
 
 # M
+# ------------------------------------------------------------------------------
 /major.{1,10}fat.?loss/i
 
 /makes you (hard|thin)/i
@@ -558,6 +571,7 @@
 /myth buster.{1,10}(dr\.|find out)/i
 
 # N
+# ------------------------------------------------------------------------------
 /nail.?fungus/i
 
 /nails?.{1,10}(discoloration|in just)/i
@@ -599,6 +613,7 @@
 /nutritionists warn/i
 
 # O
+# ------------------------------------------------------------------------------
 /odd mix that/i
 
 /one.?finger (rub|trick)/i
@@ -610,6 +625,7 @@
 /overcome diabetes/i
 
 # P
+# ------------------------------------------------------------------------------
 /pain free.{1,10}joints/i
 /pain in.{1,10}minutes?/i
 
@@ -640,6 +656,7 @@
 /protects? your.{1,10}heart/i
 
 # Q
+# ------------------------------------------------------------------------------
 /quick.{1,10}glow.?fix/i
 /quick.{1,10}(gut|skin)/i
 /quick relief for.{1,15}pain/i
@@ -648,6 +665,7 @@
 /quit eating.{1,10}blueberries/i
 
 # R
+# ------------------------------------------------------------------------------
 /raging.{1,10}erections?/i
 /rapid.{1,10}gut/i
 
@@ -702,6 +720,7 @@
 /routine.{1,10}no exercise/i
 
 # S
+# ------------------------------------------------------------------------------
 /safe way to stop/i
 /safety of fruit/i
 /salt.?water.{1,10}method/i
@@ -833,6 +852,7 @@
 /swollen.{1,10}(feet|prostate)/i
 
 # T
+# ------------------------------------------------------------------------------
 /that ages.{1,10}(skin|you)/i
 
 /take this instead/i
@@ -874,6 +894,7 @@
 /this.{1,10}speeds up memory/i
 /this.{1,10}(odd|simple|strange) (habbit|method|solution|trick)/i
 /this.{1,10}one (drink|nutrient)/i
+/this.{1,10}quick habit/i
 
 /this.{1,10}simple mixture/i
 /this.{1,10}stops.{1,10}diabetes/i
@@ -925,6 +946,7 @@
 /try this doctors?/i
 
 # U
+# ------------------------------------------------------------------------------
 /unclogs?.{1,10}(arteries|gut)/i
 
 /uncover(ing)? big pharma/i
@@ -944,12 +966,14 @@
 /use this secret/i
 
 # V
+# ------------------------------------------------------------------------------
 /veggies?.{1,15}(facts|myth|rethinking|worth)/i
 
 /vets.{1,10}concerned/i
 /vision.{1,10}(fix|solutions?)/i
 
 # W
+# ------------------------------------------------------------------------------
 /watch.{1,10}before they delete/i
 
 /want to (sleep|slim)/i
@@ -985,8 +1009,10 @@
 /why your.{1,10}joints/i
 
 # X
+# ------------------------------------------------------------------------------
 
 # Y
+# ------------------------------------------------------------------------------
 /you.{1,10}always tired/i
 /you.{1,10}live longer/i
 /you.{1,10}should never eat/i
@@ -1011,3 +1037,4 @@
 /your.{1,15}with.{1,10}natural/i
 
 # Z
+# ------------------------------------------------------------------------------

@@ -37,6 +37,7 @@
 /guangdong.{1,10}china.{1,10}tel.{1,5}\+86/i
 
 /whatsapp.{1,10}\+?86.{1,25}company/i
+/whatsapp.{1,10}wecha.{1,10}mobile/i
 
 #
 #
@@ -190,6 +191,8 @@
 /we.{1,10}(focus on|support).{1,10}(pcba?|printed.?circuit.?board)/i
 
 /we.{1,10}have been specializing.{1,10}exporting/i
+/we.{1,10}have been.{1,10}trusted partner for/i
+
 /we.{1,10}have over.{1,10}years.{1,10}(experience|machining)/i
 
 /we.{1,10}make.{1,25}(packing|sport).{1,10}bags/i
