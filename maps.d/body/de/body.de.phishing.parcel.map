@@ -17,10 +17,12 @@
 # ==============================================================================
 
 # A
+# ------------------------------------------------------------------------------
 /aktualisieren sie ihre adresse.{1,10}bezahlen sie/i
 /angekommen.{1,10}wurde durch den zoll geprüft/iu
 
 # B
+# ------------------------------------------------------------------------------
 /(begleichen|bezahlen) sie.{1,10}(die|eine).{1,10}(ausstehenden?|erforderlichen?).{1,10}(versandkosten|verwaltungsgebühr|zollgebühr)/iu
 /(begleichen|bezahlen) sie.{1,10}eventuelle.{1,10}(steuer|zoll).{1,15}gebühren/iu
 
@@ -29,22 +31,29 @@
 /bestätigen sie ihre lieferadresse/iu
 
 # C
+# ------------------------------------------------------------------------------
 
 # D
+# ------------------------------------------------------------------------------
 
 # E
+# ------------------------------------------------------------------------------
 /es ist eine.{1,15}(einfuhrabgabe|zollgebühr) fällig/iu
 
 # F
+# ------------------------------------------------------------------------------
 
 # G
+# ------------------------------------------------------------------------------
 /gebühren.{1,10}um die lieferung fortzusetzen/iu
 
 /(geringe|geringe) (service)?gebühr von.{1,10}(chf|euro|€)/iu
 
 # H
+# ------------------------------------------------------------------------------
 
 # I
+# ------------------------------------------------------------------------------
 /ihr paket wartet/i
 
 /ihre adressdaten unverzüglich.{1,10}überprüfen/iu
@@ -52,12 +61,15 @@
 /information zu ihrer sendung.{1,10}hallo/i
 
 # J
+# ------------------------------------------------------------------------------
 
 # K
+# ------------------------------------------------------------------------------
 /kleine gebühr beglichen werden/iu
 /kleine gebühr muss beglichen/iu
 
 # L
+# ------------------------------------------------------------------------------
 /letzter status.{1,10}zahlung erforderlich/i
 
 /lieferdaten.{1,10}bezahlen sie die versandkosten/i
@@ -65,12 +77,16 @@
 /lieferung.{1,10}aufgeschobenen.{1,10}pakets/i
 
 # M
+# ------------------------------------------------------------------------------
 
 # N
+# ------------------------------------------------------------------------------
 
 # O
+# ------------------------------------------------------------------------------
 
 # P
+# ------------------------------------------------------------------------------
 /(paket|sendung).{1,20}auf.{1,10}anweisungen.{1,15}(bezüglich|wartet)/i
 
 /(paket|sendung).{1,10}befindet sich.{1,10}(finalen|letzten).{1,10}(zustellphase|zustellprozess)/i
@@ -90,9 +106,11 @@
 /(paket|sendung).{1,10}ist versandfertig.{1,10}aber die versandkosten/i
 /(paket|sendung).{1,15}ist fast zugestellt/i
 
+/(paket|sendung).{1,10}ist im.{1,15}paketshop/i
 /(paket|sendung).{1,10}ist im.{1,10}(empfangsland|zielland).{1,10}(angekommen|eingetroffen)/i
 /(paket|sendung).{1,10}ist in.{1,10}(deutschland|schweiz).{1,10}(angekommen|eingetroffen)/i
 /(paket|sendung).{1,10}ist in.{1,25}(postfiliale|zollstelle).{1,10}(angekommen|eingetroffen)/i
+/(paket|sendung).{1,10}ist in.{1,25}internationalen verteilzentrum/i
 
 /(paket|sendung).{1,10}ist in.{1,20}(angekommen|eingetroffen).{1,15}(den zoll|wurde verzollt)/i
 
@@ -116,10 +134,13 @@
 /paketdienste? weiterhin ohne unterbrechung/i
 
 # Q
+# ------------------------------------------------------------------------------
 
 # R
+# ------------------------------------------------------------------------------
 
 # S
+# ------------------------------------------------------------------------------
 /sie haben.{1,10}(paket|sendung).{1,10}zur zustellung bereit/i
 /sie um eine.{1,10}(geringe|kleine).{1,10}(bearbeitungspauschale|servicegebühr|zustellgebühr)/iu
 
@@ -128,11 +149,14 @@
 /steuer.{1,10}vorauszahlungsgebühr/iu
 
 # T
+# ------------------------------------------------------------------------------
 
 # U
+# ------------------------------------------------------------------------------
 /unvollständigen.{1,10}adressaktualisierung/iu
 
 # V
+# ------------------------------------------------------------------------------
 /verwenden.{1,10}die notwendigen angaben zu bestätigen/iu
 
 /(versandkosten|versandgebühr).{1,10}jetzt bezahlen/i
@@ -142,12 +166,17 @@
 /verifizierung der lieferadresse/i
 
 # W
+# ------------------------------------------------------------------------------
+/wird.{1,15}wegen fehlender zollangaben zurückgehalten/iu
 
 # X
+# ------------------------------------------------------------------------------
 
 # Y
+# ------------------------------------------------------------------------------
 
 # Z
+# ------------------------------------------------------------------------------
 /zahlung der einfuhrabgaben.{1,10}erforderlich/i
 
 /zahlungserinnerung.{1,15}(paket|sendung)/i

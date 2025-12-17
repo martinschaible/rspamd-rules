@@ -20,6 +20,7 @@
 # ==============================================================================
 
 # A
+# ------------------------------------------------------------------------------
 /abrechnung.{1,15}rückerstattungsanfrage/iu
 /abrechnungsprüfung abgeschlossen.{1,10}rückzahlung/iu
 
@@ -28,6 +29,7 @@
 /anspruch.{1,15}steuer(rück)?erstattung/i
 
 # B
+# ------------------------------------------------------------------------------
 /bearbeitung ihrer rückerstattung/iu
 /bearbeitung.{1,10}rückerstattungsantrags/iu
 
@@ -37,8 +39,10 @@
 /bestätigen sie.{1,10}auszahlungsdetails/iu
 
 # C
+# ------------------------------------------------------------------------------
 
 # D
+# ------------------------------------------------------------------------------
 /(doppelabbuchung|zahlung).{1,10}id:\d/i
 
 /doppelte abbuchung erkannt/i
@@ -47,23 +51,28 @@
 /doppelzahlung beantragen/i
 
 # E
+# ------------------------------------------------------------------------------
 /entschuldigen uns.{1,10}(rück)?erstattung/iu
 
 # F
+# ------------------------------------------------------------------------------
 /fehler in ihrer letzten.{1,10}rechnung/i
 
 /fordern sie.{1,10}eine.{1,10}(rück)?erstattung/iu
 
 # G
+# ------------------------------------------------------------------------------
 /gute nachrichten.{1,10}wir erstatten/i
 
 /gutschrift von chf.{1,15}verfügbar/iu
 
 # H
+# ------------------------------------------------------------------------------
 /hinweis zu ihrer letzten.{1,10}rechnung/i
 /holen sie sich.{1,15}(rück)?erstattung/iu
 
 # I
+# ------------------------------------------------------------------------------
 /ihnen eine ausstehende.{1,10}(rück)?erstattung/iu
 /ihnen zwei rechnungen gestellt wurden/i
 
@@ -83,23 +92,32 @@
 /information.{1,10}zu ihrer.{1,10}(steuer)?rückerstattung/iu
 
 # J
+# ------------------------------------------------------------------------------
 
 # K
+# ------------------------------------------------------------------------------
 
 # L
+# ------------------------------------------------------------------------------
 
 # M
+# ------------------------------------------------------------------------------
 
 # N
+# ------------------------------------------------------------------------------
 /neue (rück)?erstattung/iu
 
 # O
+# ------------------------------------------------------------------------------
 
 # P
+# ------------------------------------------------------------------------------
 
 # Q
+# ------------------------------------------------------------------------------
 
 # R
+# ------------------------------------------------------------------------------
 /rechnung.{1,10}steht zur überprüfung bereit/iu
 /rechnung.{1,10}wird zweimal bezahlt/i
 
@@ -108,7 +126,7 @@
 /(rück)?erstattung.{1,10}angefordert/i
 /(rück)?erstattung.{1,10}für doppelte/iu
 
-/(rück)?erstattung.{1,10}(aufgrund|ihrer|wegen).{1,10}(doppelten|doppelter) zahlung/iu
+/(rück)?erstattung.{1,10}(aufgrund|bei|ihrer|wegen).{1,10}(doppelten|doppelter) zahlung/iu
 
 /(rück)?erstattung.{1,10}ihrer? zugreise/iu
 /(rück)?erstattung.{1,10}ihrer doppelten buchung/iu
@@ -131,6 +149,7 @@
 /(rück)?erstattungsbestätigung.{1,10}antrag genehmigt/i
 
 # S
+# ------------------------------------------------------------------------------
 /sie doppelt in rechnung gestellt/i
 
 /sie haben.{1,10}anspruch.{1,15}(rück)?erstattung/iu
@@ -144,14 +163,18 @@
 /steuererstattung.{1,10}bundeszentralamt/i
 
 # T
+# ------------------------------------------------------------------------------
 
 # U
+# ------------------------------------------------------------------------------
 /um bestätigung.{1,10}(rück)?erstattung/iu
 
 # V
+# ------------------------------------------------------------------------------
 /verpassen sie nicht ihre (rück)?erstattung/iu
 
 # W
+# ------------------------------------------------------------------------------
 /wir erstatten ihnen chf \d{2,3}\.\d{2}/i
 /wir haben eine.{1,10}(rück)?erstattung für sie/iu
 /wir schulden ihnen (chf|euro?)/i
@@ -159,10 +182,13 @@
 /wurde doppelt bezahlt/i
 
 # X
+# ------------------------------------------------------------------------------
 
 # Y
+# ------------------------------------------------------------------------------
 
 # Z
+# ------------------------------------------------------------------------------
 /zahlung.{1,5}id:\d/i
 
 /zu ihrer vergutung/i

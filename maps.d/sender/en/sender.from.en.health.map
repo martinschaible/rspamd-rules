@@ -343,7 +343,7 @@
 /bloat(ing)?.{0,10}(free|fruits?|solution)/i
 
 /blocking.{0,10}teas?/i
-/blood.{0,10}(balance|boost|clots?|flow|glucose|pressure|solution|sugar)/i
+/blood.{0,10}(balance|boost|clots?|flow|glucose|pressure|solution|sugar|thinner)/i
 
 /blue.{0,10}(drink|juice|pill|plant|replacement)/i
 /blurry.{0,10}fix/i
@@ -636,7 +636,7 @@
 /hearing.{0,10}(habit|support)/i
 
 /heart.{0,10}(attack|boost|cells|check|danger|disease|health|helper)/i
-/heart.{0,10}(protection|rate|risk|saver|secret|shield)/i
+/heart.{0,10}(protection|rate|risk|saver|secret|shield|surgeon)/i
 
 /helps?.{0,10}you/i
 
@@ -968,6 +968,7 @@
 /small.{0,10}stomach/i
 /smile.{0,10}(fix|health|secret)/i
 
+/skip this/i
 /silent.{0,10}signal/i
 /simple.{0,10}natural/i
 
@@ -1078,6 +1079,7 @@
 # V
 # ------------------------------------------------------------------------------
 /varicose.{0,10}veins/i
+/veggie.{0,10}poison/i
 /vein.{0,10}solutions?/i
 
 /victim.{0,10}of/i
@@ -1105,6 +1107,8 @@
 /wellness.{0,10}(alert|archive|bulletin|brief|daily|dairy|files?|insider|insights|living|news|report|watch|weekly)/i
 
 /white.{0,10}(carb|smile)/i
+
+/wine.{0,10}insight/i
 /without.{0,10}glasses/i
 
 /womens?.{0,10}(intimacy|secret)/i
