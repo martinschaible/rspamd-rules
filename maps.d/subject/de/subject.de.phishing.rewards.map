@@ -119,6 +119,7 @@
 /1\)? belohnung/i
 
 # A
+# ------------------------------------------------------------------------------
 /abholen.{1,10}bevor es zu spät ist/iu
 /auf ein exklusives geschenk/i
 /auf eine kostenlose/i
@@ -131,6 +132,7 @@
 /auszeichnung.{1,15}rückmeldung/iu
 
 # B
+# ------------------------------------------------------------------------------
 /beanspruchen.{1,10}aktivieren/i
 
 /bedankt sich.{1,10}exklusives?.{1,10}(anerkennung|angebot|prämie)/iu
@@ -179,11 +181,13 @@
 /bitte kurz bestätigen/iu
 
 # C
+# ------------------------------------------------------------------------------
 /chance auf eine.{1,15}geschenke?.?karte/i
 
 /(chf|euro) \d.{1,10}nur für kurze zeit/i
 
 # D
+# ------------------------------------------------------------------------------
 /\.de (germany|deutschland)/i
 
 /danke für ihr feedback.{1,10}jetzt/iu
@@ -204,6 +208,7 @@
 #/glückwunsch.{1,10}sie wurden ausgewählt/iu
 
 # E
+# ------------------------------------------------------------------------------
 /ein.{5,20}gehört Ihnen/i
 /eine zu erhalten/i
 /eine kostenlose.{5,25}von/i
@@ -243,6 +248,7 @@
 /exklusives.{1,10}geschenk wartet auf sie/i
 
 # F
+# ------------------------------------------------------------------------------
 /fordern sie.{1,10}(ihr|ihren?).{1,25}(im wert von|(jetzt)? an)/i
 /fordern sie.{1,10}(ihr|ihren?).{1,25}noch heute/i
 
@@ -251,6 +257,7 @@
 /für nur chf \d\.\d{2}.{1,10}nur 24h gültig/iu
 
 # G
+# ------------------------------------------------------------------------------
 /genießen sie.{1,10}ihre.{1,10}(anerkennung|angebot|belohnung|prämien?)?/iu
 
 /geschenk bereit/i
@@ -279,6 +286,7 @@
 /gratisproben.{1,10}schnell zugreifen/i
 
 # H
+# ------------------------------------------------------------------------------
 /hast im.{1,15}bei.{1,15}gewonnen/i
 
 /hole? dir deinen preis.{1,10}bevor es zu spät ist/iu
@@ -288,6 +296,7 @@
 /holen sie sich noch heute/i
 
 # I
+# ------------------------------------------------------------------------------
 /id\.#up/i
 
 /ihr.{1,10}(exklusives|kostenloses).{1,10}(treue)?.?geschenk/i
@@ -336,6 +345,7 @@
 /ist noch unbeansprucht/i
 
 # J
+# ------------------------------------------------------------------------------
 /jetzt.{1,10}adresse bestätigen/iu
 /jetzt.{1,10}anspruch sichern/i
 /jetzt.{1,15}(antworten|öffnen)/i
@@ -351,6 +361,7 @@
 /jetzt.{1,15}prämie einlösen/iu
 
 # K
+# ------------------------------------------------------------------------------
 /kostenlos(es)?.{1,25}gewinnen/i
 /kostenlos(es)?.{5,25}zu erhalten/i
 /(kostenloses|kostenfreies).{1,10}geschenk/i
@@ -359,6 +370,7 @@
 /kundeninformation verfügbar/iu
 
 # L
+# ------------------------------------------------------------------------------
 /läuft bald ab.{1,10}reagieren sie rechtzeitig/iu
 
 /leider konnten wir sie.{1,10}nicht erreichen/i
@@ -377,6 +389,7 @@
 /lösen sie ihr punkteguthaben.{1,15}ein/iu
 
 # M
+# ------------------------------------------------------------------------------
 /marke.{1,15}hat ein sonderangebot/i
 
 /mitmachen.{1,10}belohnung sichern/i
@@ -387,6 +400,7 @@
 /mystery.?box.{1,15}(erhalten|für sie)/iu
 
 # N
+# ------------------------------------------------------------------------------
 /nicht abgeholte belohnung/i
 /nicht verpassen.{1,25}verlosung/i
 
@@ -399,8 +413,10 @@
 /\|.{0,5}noch nicht geantwortet/i
 
 # O
+# ------------------------------------------------------------------------------
 
 # P
+# ------------------------------------------------------------------------------
 /paket.{1,10}limitiertem vorrat/i
 
 /palette zu erhalten/i
@@ -429,14 +445,19 @@
 /profil wurde für eine besondere/iu
 
 # Q
+# ------------------------------------------------------------------------------
 
 # R
+# ------------------------------------------------------------------------------
+/rabatt bei.{1,15}ref\./i
+
 /rewards panel/i
 /rewards sind.{1,15}freigeschaltet/i
 
 /rückmeldung.{1,10}(belohnt|bestätigt)/iu
 
 # S
+# ------------------------------------------------------------------------------
 /schenkt dir ein.{1,15}set/i
 /schnapp dir dein.{1,10}(€|euro)/i
 
@@ -486,9 +507,11 @@
 /stunden.{1,10}sichern sie sich/i
 
 # T
+# ------------------------------------------------------------------------------
 /teilnehmer erhalten.{1,10}belohnung/i
 
 # U
+# ------------------------------------------------------------------------------
 /überraschung für dich von/iu
 /überraschungsbox wartet auf sie/iu
 /ueberraschung fuer/i
@@ -500,6 +523,7 @@
 /unterstützung.{1,10}ihre.{1,15}prämie ist bereit/iu
 
 # V
+# ------------------------------------------------------------------------------
 /versandadresse.{1,10}noch offen/i
 /verlosung.{1,10}jetzt mitmachen/i
 
@@ -509,6 +533,7 @@
 /vielen dank.{1,15}treue/i
 
 # W
+# ------------------------------------------------------------------------------
 /wähle deine belohnung/iu
 /wählen sie ihr geschenk/iu
 
@@ -527,9 +552,12 @@
 /woche.{1,10}dein.{1,15}paket ist bereit/i
 
 # X
+# ------------------------------------------------------------------------------
 
 # Y
+# ------------------------------------------------------------------------------
 
 # Z
+# ------------------------------------------------------------------------------
 /zu den herausragenden teilnehmern/i
 /zu sichern!/i
