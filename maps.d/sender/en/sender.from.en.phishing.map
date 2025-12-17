@@ -39,7 +39,7 @@
 
 /(e?.?mail|webmail).{0,5}(admin|hosting|manager|notice|server|support|team)/i
 
-/account.{0,5}support/i
+/account.{0,5}(alert|support)/i
 
 # Sample: Admin-mydomain.ch
 /admin(-|_)[a-z]{5,15}/\.[a-z]{1,4}/i
@@ -53,7 +53,7 @@
 /i\.?t (admin|notice|notification|server)/i
 /^it.?support$/i
 
-/cloud.{0,10}(admin|limit|team)/i
+/cloud.{0,10}(admin|limit|operations|team)/i
 /cloud.{0,10}benachrichtigung/i
 
 /cpanel.{0,10}(webhost|webmail)/i
@@ -71,7 +71,7 @@
 /roundcube.{0,5}(administration|server|support)/i
 
 /^server$/i
-/server.?(report|team)/i
+/server.?(notification|report|team)/i
 /^support.?(access|client|desk|team)$/i
 /support.{0,5}webmail/i
 
@@ -239,6 +239,8 @@
 
 # P
 # ------------------------------------------------------------------------------
+/payment.{0,10}(alert|gateway|team)/i
+
 /pending.{1,10}e?.?mails/i
 
 /policy.{0,10}violation/i
