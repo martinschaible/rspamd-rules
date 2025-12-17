@@ -67,12 +67,14 @@
 # ==============================================================================
 
 # A
+# ------------------------------------------------------------------------------
 /anspruch.{1,10}zu sichern.{1,10}klicken sie.{1,10}auf den button/i
 /anspruch.{1,10}auf das.{1,30}ist noch offen/i
 /anspruch.{1,10}an eine andere teilnehmende person/i
 /anspruchsfrist.{1,10}stunden/i
 
 # B
+# ------------------------------------------------------------------------------
 /(belohnung|geschenk|gutschein|gewinn|preis).{1,10}ein (brandneuer|brandneues)/i
 /(belohnung|geschenk|gutschein|gewinn|preis).{1,15}(anfordern|freigeschaltet|freischalten)/i
 /(belohnung|geschenk|gutschein|gewinn|preis).{1,10}an den nächsten teilnehmer/iu
@@ -83,13 +85,16 @@
 /bestätigen sie innerhalb der nächsten.{1,15}ihre.{1,15}adresse/i
 
 # C
+# ------------------------------------------------------------------------------
 /chance.{1,10}bestätigen sie.{1,10}ihre teilnahme/iu
 /chance.{1,10}einen.{1,15}brandneuen?.{1,25}zu gewinnen/i
 /chance.{1,10}einen.{1,15}gutschein der/i
 
 # D
+# ------------------------------------------------------------------------------
 
 # E
+# ------------------------------------------------------------------------------
 /einlöse.?link/i
 
 /erhalten eine.{1,10}mystery.?box/i
@@ -99,18 +104,23 @@
 /(exklusive?|rituals).{1,10}mystery.?box/i
 
 /exklusive belohnung(en)?.{1,10}(erhalten|freuen)/i
+/exklusive rabattkarte zu aktivieren/i
 
 /exklusives dankeschön/iu
 
 # F
+# ------------------------------------------------------------------------------
 /(freiwillige|optionale) belohnung/i
 
 # G
+# ------------------------------------------------------------------------------
 /geringe gebühr von (chf|euro).{1,10}für den versand/iu
 
 # H
+# ------------------------------------------------------------------------------
 
 # I
+# ------------------------------------------------------------------------------
 /ihr.{1,10}geschenk.{1,10}eine brandneue/i
 /ihr.{1,15}kalender wartet auf sie/i
 
@@ -130,26 +140,33 @@
 /im rahmen einer kürzlich durchgeführten kundenaktion/iu
 
 # J
+# ------------------------------------------------------------------------------
 /jetzt.{1,10}angaben.{1,10}bestätigen/iu
 /jetzt.{1,10}(anspruch|belohnung|geschenk|gewinn|preis).{1,10}(beanspruchen|einlösen|sichern)/iu
 
 # K
+# ------------------------------------------------------------------------------
 /(kostenloses|kostenfreies).{1,10}geschenk/i
 
 # L
+# ------------------------------------------------------------------------------
 /lieferung jetzt bestätigen/iu
 
 /limitierte.{1,15}mystery.?box/i
 
 # M
+# ------------------------------------------------------------------------------
 
 # N
+# ------------------------------------------------------------------------------
 /nach.{1,10}stunden verfällt ihre chance/iu
 
 # O
+# ------------------------------------------------------------------------------
 /online.{1,10}supermarktgewinnspiels?/i
 
 # P
+# ------------------------------------------------------------------------------
 /persönliche.{1,15}prämie wartet/iu
 /persönlicher.{1,10}link ist.{1,15}stunden gültig/iu
 
@@ -166,10 +183,13 @@
 /produktbox.{1,10}(information|zugeteilt)/i
 
 # Q
+# ------------------------------------------------------------------------------
 
 # R
+# ------------------------------------------------------------------------------
 
 # S
+# ------------------------------------------------------------------------------
 /sie für ein exklusives geschenk ausgewählt/iu
 /sie gehören zu.{1,10}auserwählten/iu
 
@@ -186,16 +206,20 @@
 /status.{1,10}versandbereit.{1,10}enthält/iu
 
 # T
+# ------------------------------------------------------------------------------
 
 # U
+# ------------------------------------------------------------------------------
 /um ihr.{1,10}geschenk abzuholen/i
 /um ihr.{1,15}zu erhalten.{1,10}klicken sie/i
 
 /umfrage.{1,10}ergebnisse.{1,10}gewinner/i
 
 # V
+# ------------------------------------------------------------------------------
 
 # W
+# ------------------------------------------------------------------------------
 /was sie erwartet.{1,10}(airpod|apple|iphone|ipad)/i
 
 /wenige angaben.{1,15}erfolgreichen zustellung/i
@@ -204,7 +228,10 @@
 /woche.{1,10}dein.{1,15}paket ist bereit/i
 
 # X
+# ------------------------------------------------------------------------------
 
 # Y
+# ------------------------------------------------------------------------------
 
 # Z
+# ------------------------------------------------------------------------------
