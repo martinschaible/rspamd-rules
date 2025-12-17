@@ -24,6 +24,7 @@
 /(order|payment|price.?list|proforma|project).{0,25}\.(7z|docx|gz|html|rar|tar|tgz|xla|xls|zip)/i
 /(quotation|quote).{0,25}\.(7z|docx|gz|html|rar|tar|tgz|xla|xls|zip)/i
 /(receipt|request).{0,25}\.(7z|docx|gz|html|rar|tar|tgz|xla|xls|zip)/i
+/rechnung.{0,25}\.(7z|docx|gz|html|rar|tar|tgz|xla|xls|zip)/i
 /(shipping|specifications?|swift).{0,25}\.(7z|docx|gz|html|rar|tar|tgz|xla|xls|zip)/i
 /urgent?.{0,25}\.(7z|docx|gz|html|rar|tar|tgz|xla|xls|zip)/i
 
@@ -36,7 +37,7 @@
 # Letter of Intent
 /loi.{0,5}\.(7z|gz|html|rar|tar|tgz|xla|xls|zip)/i
 
-/rechnung.{0,45}\.(7z|gz|rar|svg|zip)/i
+/rechnung.{0,45}\.svg/i
 
 /rfq#{0,15}\.(7z|gz|rar|zip)/i
 /rfq\.zip/i
@@ -149,6 +150,8 @@
 /updated.?price/i
 
 /valued.?partner/i
+
+/zahlungsrechnung/i
 
 # Sample: Advice.PDF).html
 /\)\.html/i

@@ -47,7 +47,6 @@
 # Phrase "Dringende Nachricht" is in use by E.ON Bank
 /wichtige.{1,10}nachricht/i
 
-
 /(sehr|wichtige).{1,10}dringende/i
 
 # Message
@@ -69,12 +68,14 @@
 # ==============================================================================
 
 # A
+# ------------------------------------------------------------------------------
 /anfrage für private nachrichten/iu
 
 /auf meine.{1,15}e?.?mail/i
 /auf nachricht antworten/i
 
 # B
+# ------------------------------------------------------------------------------
 /bestätigung.{1,15}(e?.?mail|nachricht).{0,10}eingangs?/iu
 /bestätigung des empfangs erbeten/i
 
@@ -86,8 +87,10 @@
 /brief der hoffnung/i
 
 # C
+# ------------------------------------------------------------------------------
 
 # D
+# ------------------------------------------------------------------------------
 /dies ist eine neue nachricht/i
 
 /diese.{1,10}(e?.?mail|nachricht).{1,10}öffnen/iu
@@ -99,6 +102,7 @@
 /du diese nachricht liest/i
 
 # E
+# ------------------------------------------------------------------------------
 /^ein brief/i
 
 # Too strong, False/Positives
@@ -130,19 +134,23 @@
 /aufregende.{1,15}eine neue nachricht/i
 
 # F
+# ------------------------------------------------------------------------------
 /feedback zu meiner.{1,10}gestrigen e?.??mail/i
 /freue mich auf.{1,10}(e?.?mail|nachricht)/i
 
 /funktioniert (die|ihre).{1,10}e?.?mail noch/i
 
 # G
+# ------------------------------------------------------------------------------
 /gelegenheit gehabt.{1,10}meine.{1,10}(e?.?mail|nachricht)/i
 
 # H
+# ------------------------------------------------------------------------------
 /haben sie bitte meine (erste|vorherige).{1,10}(e?.?mail|nachricht)/i
 /haben sie (meine|unsere).{1,10}(anfrage|e?.?mail|nachricht).{1,10}(bekommen|erhalten|gesehen)/i
 
 # I
+# ------------------------------------------------------------------------------
 /ich schreibe dir/i
 /ignorieren sie.{1,10}(e?.?mail|nachricht) nicht/i
 
@@ -158,17 +166,21 @@
 /ist meine.{1,10}(e?.?mail|nachricht) angekommen/i
 
 # J
+# ------------------------------------------------------------------------------
 
 # K
+# ------------------------------------------------------------------------------
 /kontaktieren sie.{1,10}privat unter/i
 
 # L
+# ------------------------------------------------------------------------------
 /lesen sie diesen?.{1,10}(brief|e?.?mail|mitteilung|nachricht)/i
 
 /lies (den|diesen) brief/i
 /lies diese nachricht/i
 
 # M
+# ------------------------------------------------------------------------------
 /meine.{1,15}(e?.?mail|nachricht).{1,10}angekommen ist/i
 /meine.{1,15}(e?.?mail|nachricht).{1,10}bei ihnen (angekommen|eingegangen)/i
 /meine.{1,15}(e?.?mail|nachricht).{1,10}erfolgreich zugestellt/i
@@ -180,30 +192,37 @@
 /(aktuelle|ihre).{1,20}mitteilung.{1,10}bitte prüfen/iu
 
 # N
+# ------------------------------------------------------------------------------
 /nachricht einsehen/i
 /nachricht zur verfuegung/i
 
 #/nachricht.{1,10}für (dich|sie)/i
 /nachricht.{1,10}ref\b/i
+/nachricht wichtig/i
 
 /neue nachricht von (der|einer)/i
 
 # O
+# ------------------------------------------------------------------------------
 /öffne die nachricht/iu
 /öffne (den|diesen) brief/iu
 /öffnen sie (den|diesen) brief/iu
 
 # P
+# ------------------------------------------------------------------------------
 /persönliche nachricht nur für dich/iu
 /private nachricht für/iu
 
 # Q
+# ------------------------------------------------------------------------------
 
 # R
+# ------------------------------------------------------------------------------
 /rückmeldung.{1,15}e.?mail erhalten/iu
 /rückmeldung.{1,10}letzten.{1,10}(e?.?mail|nachricht)/iu
 
 # S
+# ------------------------------------------------------------------------------
 /(schauen sie sich|sieh dir) diese.{1,10}(e?.?mail|nachricht) an/i
 
 /^sehr wichtig$/i
@@ -222,8 +241,10 @@
 /(sofort|unverzüglich) öffnen/iu
 
 # T
+# ------------------------------------------------------------------------------
 
 # U
+# ------------------------------------------------------------------------------
 /uber ihre schnelle antwort/i
 
 /ungelesene nachrichten!/i
@@ -231,9 +252,11 @@
 /überprüfung.{1,10}eingangs meiner.{1,10}(e?.?mail|nachricht)/i
 
 # V
+# ------------------------------------------------------------------------------
 /vertrauliche nachricht bereitgestellt/i
 
 # W
+# ------------------------------------------------------------------------------
 /wenn dieser brief/i
 
 /wichtige?.{1,15}(erinnerung|nachricht\b)/i
@@ -245,7 +268,10 @@
 /wurde meine?.{1,10}(e?.?mail|nachricht).{1,10}(empfangen|zugestellt)/i
 
 # X
+# ------------------------------------------------------------------------------
 
 # Y
+# ------------------------------------------------------------------------------
 
 # Z
+# ------------------------------------------------------------------------------

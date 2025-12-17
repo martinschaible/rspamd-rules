@@ -15,6 +15,7 @@
 # ==============================================================================
 
 # A
+# ------------------------------------------------------------------------------
 /(apologies|apologize|sorry).{1,10}(for intruding|to invade)/i
 /(apologies|apologize|sorry).{1,10}for this.{1,10}sudden e?.?mail/i
 /(apologies|apologize|sorry).{1,10}if my e?.?mail/i
@@ -25,38 +26,44 @@
 /(apologies|apologize|sorry).{1,10}unsolicited.{1,10}(contact|e.?mail|letter|proposal)/i
 
 # B
+# ------------------------------------------------------------------------------
 /barrister.{5,35}i am contacting you/i
 
 # C
+# ------------------------------------------------------------------------------
 /company introduction letter/i
 
 /(contact|details|e?.?mail|information|name|profile).{1,10}on google/i
 
 # D
+# ------------------------------------------------------------------------------
 /desk of barr(ister)?/i
 /desk of secretary.{1,35}attention/i
 
 /disturb you with (my|this).{1,10}e?.?mail/i
 
 # E
+# ------------------------------------------------------------------------------
 /(e.?mail|letter|message).{1,10}finds you well.{1,10}i work with a/i
 /(e.?mail|letter|message).{1,10}finds you well.{1,10}my name is/i
 /(e.?mail|letter|message).{1,10}meets you in.{1,10}best.{1,10}spirits/i
 /(e.?mail|letter|message).{1,10}reaches you in.{1,10}good faith.{1,10}my name is/i
 
 # F
+# ------------------------------------------------------------------------------
 /from the desk of/i
 #/from.{1,10}the (desk|office) of.{1,10}(miss|mrs?|ms)/i
 #/from.{1,10}the (desk|office) of.{1,10}(minister|president)/i
 
-
 # G
+# ------------------------------------------------------------------------------
 /glad to (know|hear) that you.{1,15}in.{1,25}(business|field|need of)/i
 /glad to (know|hear) that you.{1,15}on the.{1,20}market/i
 /glad to (know|hear) that you.{1,10}on the market for/i
 /glad to (know|hear) that you.{1,15}professional/i
 
 # H
+# ------------------------------------------------------------------------------
 /hope this e?.?mail finds you well.{1,10}i.?a?m (miss|mrs?|ms)/i
 /hope this e?.?mail finds you well.{1,10}my name is/i
 /hope this e?.?mail finds you well.{1,10}we are.{1,10}professional/i
@@ -64,6 +71,7 @@
 /how are you doing.{1,10}this is.{5,35}member from/i
 
 # I
+# ------------------------------------------------------------------------------
 /i am (engr|madam)/i
 /i am contacting you.{1,10}after making/i
 /i am delighted to contact you/i
@@ -145,12 +153,16 @@
 /if this message comes across.{1,10}intrusion/i
 
 # J
+# ------------------------------------------------------------------------------
 
 # K
+# ------------------------------------------------------------------------------
 
 # L
+# ------------------------------------------------------------------------------
 
 # M
+# ------------------------------------------------------------------------------
 /mine real name is/i
 
 /my names? (are|is) (miss|mrs?)/i
@@ -164,6 +176,7 @@
 
 /my name is.{5,25}solitary lady/i
 /my name is.{5,25}i am representing/i
+/my name is.{5,25}i specialize in/i
 /my name is.{5,25}i am writing to you/i
 
 /my name is.{5,25}i have.{1,10}(decided|urgent)/i
@@ -183,15 +196,20 @@
 /my name is.{5,35}(china|india|swedish|ukraine)/i
 
 # N
+# ------------------------------------------------------------------------------
 
 # O
+# ------------------------------------------------------------------------------
 /our company.{1,10}a.{1,15}producer of/i
 
 # P
+# ------------------------------------------------------------------------------
 
 # Q
+# ------------------------------------------------------------------------------
 
 # R
+# ------------------------------------------------------------------------------
 /reach you.{1,10}really need to connect/i
 /read carefully.{1,10}my name is/i
 
@@ -200,6 +218,7 @@
 /represent mrs?\./i
 
 # S
+# ------------------------------------------------------------------------------
 
 # No greetings
 /supplier.{1,10}my name is/i
@@ -207,6 +226,7 @@
 /sorry for disturbing you.{1,10}do you want to/i
 
 # T
+# ------------------------------------------------------------------------------
 /this is.{5,25}from.{5,25}electronics/i
 /this is.{5,25}from.{5,25}(limited|ltd)/i
 /this is.{5,25}from.{5,25}(co|pe)\..{0,5}(limited|ltd)/i
@@ -227,13 +247,16 @@
 /to whom it may concern.{1,10}nice.{1,10}(write|writing).{1,10}you/i
 
 # U
+# ------------------------------------------------------------------------------
 /understand.{1,15}my purpose.{1,10}contacting you/i
 
 /urgent response.{1,10}my name is/i
 
 # V
+# ------------------------------------------------------------------------------
 
 # W
+# ------------------------------------------------------------------------------
 /we.{1,10}(reaching out|writing).{1,10}introduce.{1,10}(company|ourselves)/i
 
 /we are.{1,10}company (based|located) in/i
@@ -246,8 +269,10 @@
 /we got.{1,10}contact from your.{1,10}instagram/i
 
 # X
+# ------------------------------------------------------------------------------
 
 # Y
+# ------------------------------------------------------------------------------
 /you are (doing|going) well.{1,10}my name is/i
 /you with.{1,10}keen hope to open.{1,10}business/i
 
@@ -261,3 +286,4 @@
 /your.{1,15}profile.{1,10}i decided to contact you/i
 
 # Z
+# ------------------------------------------------------------------------------

@@ -57,9 +57,6 @@
 # I
 /you no longer wish to hear from us.{1,10}you can/i
 
-# 22.07.25 - Chinese: If you don't want to receive our emails anymore
-/如果你不想再收到我们的邮件/i
-
 # J
 
 # K
@@ -67,6 +64,8 @@
 # L
 
 # M
+/manage your subscription.{1,25}p\.o\. box/i
+/manage your subscription.{1,25}\d{2,5}/i
 
 # N
 /newsletters?.{1,10}click here.{1,15}send post.?mail to/i
@@ -77,7 +76,6 @@
 /or send post.?mail to \d{3,5}/i
 
 # P
-/please manage your subscription.{1,20}\d{2,5}/i
 
 # Temporary
 /phoenix, az.{1,10}unsubscribe/i
