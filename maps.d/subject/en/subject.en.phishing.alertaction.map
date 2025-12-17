@@ -6,6 +6,12 @@
 # Topics
 # ==============================================================================
 
+# TLD in front, usualy (ch|com|de|org)
+# ------------------------------------------------------------------------------
+/\.[a-z]{1,4}.{1,5}notification.{1,10}e?.?mail/i
+/\.[a-z]{1,4}.{1,5}verification required/i
+/\.[a-z]{1,4}.{1,5}e?.?mail verfication/i
+
 # French
 # ------------------------------------------------------------------------------
 /action (requise|urgente).{1,10}confirmez votre/i
@@ -21,15 +27,11 @@
 # Generic
 # ==============================================================================
 
-# TLD in front, usualy (ch|com|de|org)
-/\.[a-z]{1,4}.{1,5}notification.{1,10}e?.?mail/i
-/\.[a-z]{1,4}.{1,5}verification required/i
-/\.[a-z]{1,4}.{1,5}e?.?mail verfication/i
-
 # Sample:  8:43:23 a.m. : Action Required
 /\d{1,2}:\d{1,2}:\d{1,2}.{1,10}action required/i
 
 # A
+# ------------------------------------------------------------------------------
 /account alert.{1,10}payment method/i
 
 /account.{1,10}is at risk.{1,10}action needed/i
@@ -37,9 +39,6 @@
 /account.{1,10}safety alert/i
 /account.{1,10}(security|suspension).{1,10}notification/i
 /account.{1,10}verification.{1,10}required.{1,10}compliance/i
-
-# 13.07.25 - Account authentication needs to be updated
-/アカウント認証の更新が必要です/i
 
 /^action required$/i
 /^action-required$/i
@@ -133,8 +132,10 @@
 /avoid shutdown.{1,10}do not ignore/i
 
 # B
+# ------------------------------------------------------------------------------
 
 # C
+# ------------------------------------------------------------------------------
 /compliance (alert|notice|reminder).{1,10}(complete|finalize).{1,15}(identity|verification)/i
 /compliance (alert|notice|reminder).{1,10}renewal required/i
 /compliance (alert|notice|reminder).{1,10}verify your/i
@@ -146,9 +147,11 @@
 /critical security alert/i
 
 # D
+# ------------------------------------------------------------------------------
 /dear.{1,5}your.{1,15}wallet was used/i
 
 # E
+# ------------------------------------------------------------------------------
 /(e?.?mail|mailbox).{1,10}account unusual sign.?in/i
 /(e?.?mail|mailbox).{1,10}account validation for/i
 /(e?.?mail|mailbox).{1,10}security reminder/i
@@ -156,6 +159,7 @@
 /(e?.?mail|mailbox).{1,10}verification.{1,10}(action|update) (needed|required)/i
 
 # F
+# ------------------------------------------------------------------------------
 /final compliance.{1,10}alert/i
 
 /final (notice|reminder|warning).{1,10}account termination imminent/i
@@ -165,14 +169,14 @@
 
 /form renewal required/i
 
-# 30.07.25 - Final Notice Regarding Unsubmitted Tax Documents
-/税務書類未提出に関する最終通知/i
-
 # G
+# ------------------------------------------------------------------------------
 
 # H
+# ------------------------------------------------------------------------------
 
 # I
+# ------------------------------------------------------------------------------
 /immediate (action|verification) (needed|required)/i
 
 /important.{1,10}lose access.{1,15}account/i
@@ -186,9 +190,6 @@
 /important.{1,10}tax document/i
 
 /important mailbox/i
-
-# 30.07.25 - Important notice
-/重要通知/i
 
 /important.{1,15}action required/i
 /important.{1,10}alert.{1,15}billing problem/i
@@ -211,15 +212,15 @@
 
 /important.{1,10}twint.{1,20}(authentification|app) /i
 
-# 07.04.25 - Important Notice
-/重要なご連絡/i
-
 # J
+# ------------------------------------------------------------------------------
 
 # K
+# ------------------------------------------------------------------------------
 /keep your.{1,15}account current/i
 
 # L
+# ------------------------------------------------------------------------------
 /last chance to avoid.{1,20}interruption/i
 
 /last reminder.{1,10}(action|update) (needed|required)/i
@@ -231,6 +232,7 @@
 /login.{1,10}detected.{1,15}verify your.{1,15}account/i
 
 # M
+# ------------------------------------------------------------------------------
 /mail alert/i 0.25
 /mailbox full.{1,10}(action|update) (needed|required)/i
 
@@ -239,6 +241,7 @@
 /migration.{1,10}last chance/i
 
 # N
+# ------------------------------------------------------------------------------
 /notice.{1,10}(package|parcel|shipment) on hold/i
 /notice.{1,10}payment needed/i
 /notice.{1,10}tax details/i
@@ -248,15 +251,13 @@
 /notification.{1,10}please review/i
 /(confidential|notification).{1,10}(access|protect) your crypto/i
 
-# 13.07.25 - Notification of billing amount confirmation
-/ご請求金額確定のご案内/i
-
-/ 11.08.25 - Notice
-/ご注意/i
-
 # O
+# ------------------------------------------------------------------------------
 
 # P
+# ------------------------------------------------------------------------------
+/payment failed.{1,10}cloud storage suspended/i
+
 /pending action.{1,10}final step to/i
 /pending delivery.{1,10}requires action/i
 /pending failure notice/i
@@ -266,8 +267,10 @@
 /policy update.{1,10}your review is required/i
 
 # Q
+# ------------------------------------------------------------------------------
 
 # R
+# ------------------------------------------------------------------------------
 /re.?confirm your details/i
 
 /reconfirm.{1,10}e?.?mail.{1,10}before/i
@@ -289,6 +292,7 @@
 /requirement.{1,10}renew your/i
 
 # S
+# ------------------------------------------------------------------------------
 /(secure|security).{1,10}(action|update|upgrade).{1,10}identity confirmation/i
 /(secure|security).{1,10}(action|update|upgrade).{1,10}required/i
 
@@ -310,10 +314,12 @@
 /suspension.{1,10}last warning/i
 
 # T
+# ------------------------------------------------------------------------------
 /take action to avoid restrictions/i
 /tax season alert/i
 
 # U
+# ------------------------------------------------------------------------------
 /unfamiliar.{1,10}login activity.{1,10}your/i
 
 /update.{1,10}account information today/i
@@ -336,9 +342,6 @@
 /update.{1,15}tax.{1,10}(forms today|information)/i
 /update.{1,15}missing tax documentation/i
 
-# 22.08.25 - Urgent attention required
-/需要緊急關注/i
-
 /urgent.{1,10}action.{1,15}delivery/i
 /urgent.{1,10}e.?mail.?confirmation/i
 /urgent.{1,10}(e.?mail|mailbox).{1,10}(action|update).{1,10}(needed|required)/i
@@ -354,6 +357,7 @@
 /urgent.{1,10}verify your.{1,15}(documents|tax)/i
 
 # V
+# ------------------------------------------------------------------------------
 /validation check to avoid.{1,15}suspension/i
 
 /verify your.{1,15}.(ch|de|org).{1,10}e?.?mail/i
@@ -367,13 +371,17 @@
 /verify your.{1,10}tax documents/i
 
 # W
+# ------------------------------------------------------------------------------
 /(wallet alert|webmail update).{1,10}(action|update).{1,10}(needed|required)/i
 
 /welcome back.{1,10}your attention/i
 
 # X
+# ------------------------------------------------------------------------------
 
 # Y
+# ------------------------------------------------------------------------------
 /your investments?.{1,10}act now/i
 
 # Z
+# ------------------------------------------------------------------------------
