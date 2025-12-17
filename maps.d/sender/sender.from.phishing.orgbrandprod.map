@@ -278,7 +278,7 @@
 
 /dhl.{0,5}(messages?|order|service|support|team|tracking|versandinfo|your)/i
 
-/dhl.{0,5}paket(status|zentrum)?/i
+/dhl.{0,5}paket.?(status|zentrum)/i
 /dhl.{0,5}(package|payment|paketinfo)/i
 
 /dhl.{0,5}(germany|schweiz)/i
