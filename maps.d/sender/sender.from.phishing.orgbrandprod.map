@@ -90,7 +90,22 @@
 /(adac|metamask|netflix).{0,10}(info.?desk|notifications?|protection)/i
 /(adac|metamask|netflix).{0,10}(security|service|support|team|update|user|verification|wallet)/i
 
+#
+/(aave|apple).?(™|®|©)$/i
+/(balea|baumarkt|bosch).?(™|®|©)$/i
+/(carrefour|cpanel).?(™|®|©)$/i
+/galaxus.?(™|®|©)$/i
 /(hetzner|hermes|hornbach).?(™|®|©)$/i
+/ihk.?(™|®|©)?$/i
+/(kaufland|krankenkasse).?(™|®|©)$/i
+/lidl.?(™|®|©)$/i
+/meta(mask)?.?(™|®|©)$/i
+/(microsoft|mediamarkt|metamask|migros).?(™|®|©)$/i
+/(paypal|pch).?(™|®|©)$/i
+/(rewe|\brossmann).?(™|®|©)$/i
+/(schweizerische|shein|smava|spotify).?(™|®|©)$/i
+/totalav.?(™|®|©)/i
+/western.?union(™|®|©)/i
 
 # Black Friday
 /ikea.{0,10}black.?friday/i
@@ -198,8 +213,6 @@
 # ------------------------------------------------------------------------------
 /aaa.{0,10}department/i
 
-/aave.?(™|®|©)/i
-
 /^ace_/i
 
 /a\.dac/i
@@ -248,7 +261,6 @@
 /apple.?pay/i
 /(app|apple).?store.{0,10}rechnung/i
 
-/apple.?(™|®|©)$/i
 /apple-/i
 
 /^ard.?zdf$/i
@@ -263,25 +275,19 @@
 # ------------------------------------------------------------------------------
 /banksantander/i
 
-/balea.?(™|®|©)$/i
 
 # Very funny these suckers
 /bank of nigeria/i
-/baumarkt.?(™|®|©)$/i
 
 /binance.{0,10}(customer|security|support|web3)/i
 
 /bíngo/i
-
-/^bosch.?(™|®|©)$/i
 
 /bundeskriminalpolizei/i
 /bundeszentralamt.{1,10}steuern/i
 
 # C
 # ------------------------------------------------------------------------------
-/(carrefour|cpanel).?(™|®|©)$/i
-
 /cff.?sbb/i
 
 /chatgpt.?(ai|\+|plus)/i
@@ -306,11 +312,9 @@
 
 /\.(ch|de) cpanel/i
 /^cpanel$/i
-/cpanel.{0,10}(host|server|service|team)/i
-/cpanel.{0,10}roundcube/i
+/cpanel.{0,10}(host|roundcube|server|service|team|zertifikatsstelle)/i
 /cpanel.{5,15}\.(ch|de)/i
 /cpanel on/i
-/cpanel.{0,10}zertifikatsstelle/i
 
 /css.{0,10}(info|kundeninformation)/i
 
@@ -395,7 +399,6 @@
 
 # G
 # ------------------------------------------------------------------------------
-/galaxus.?(™|®|©)$/i
 /galaxus.{0,10}(markt|team)/i
 
 /google.?drive/i
@@ -438,8 +441,6 @@
 /^ing$/i
 /ing-diba/i
 
-/ihk.?(™|®|©)?$/i
-
 /international.{0,10}investigation/i
 /investigation.{0,10}department/i
 
@@ -456,14 +457,11 @@
 
 # K
 # ------------------------------------------------------------------------------
-/kaufland.?(™|®|©)$/i
 /kaufland.{0,10}(geschenk|team)/i
 /kaufland.{0,10}#\d{1,10}/i
 
 /kauf\.land/i
 /kauflandmarkt/i
-
-/krankenkasse.?(™|®|©)$/i
 
 /kunden.?dm/i
 
@@ -474,8 +472,6 @@
 # L
 # ------------------------------------------------------------------------------
 /lepostesuisse/i
-
-/lidl.?(™|®|©)$/i
 
 /lidl.?202\d/i
 /lidl - /i
@@ -510,7 +506,6 @@
 /meta.{0,5}ads$/i
 /meta.{0,5}(ads|support).?team/i
 
-/meta(mask)?.?(™|®|©)$/i
 /meta(mask)?.{0,5}(advertising|alert|compliance|inc|system|trust|updates?|verification|wallet)/i
 /meta(mask)?.{0,5}verifiziert/i
 
@@ -518,8 +513,6 @@
 /meta help center/i
 
 /metanet-ch/i
-
-/(microsoft|mediamarkt|metamask|migros).?(™|®|©)$/i
 
 /microsoft (365|ads)/i
 /microsoft.{0,10}(advertising|cashback|rewards?)/i
@@ -530,7 +523,6 @@
 /migrol.{0,10}automobil/i
 
 /migros - online/i
-/migros.?(™|®|©)$/i
 /-.?migros/i
 /\|.?migros/i
 
@@ -619,8 +611,6 @@
 /paypi@/i
 /päypäl/i
 
-/paypal.?(™|®|©)$/i
-
 /paypal.{0,15}(account|alarme?|billing|case.?id|customer)/i
 /paypal.{0,15}(department|europe?|help.?desk|inc)/i
 
@@ -637,8 +627,6 @@
 /pay-pai/i
 
 /ihr paypal/i
-
-/pch.?(™|®|©)$/i
 
 /^penny$/i
 
@@ -672,10 +660,8 @@
 
 /rituals.{0,10}team/i
 
-/rewe.?(™|®|©)$/i
 /\| rewe$/i
 
-/\brossmann.?(™|®|©)$/i
 /r0ssmann/i
 
 # S
@@ -704,7 +690,6 @@
 
 /schaeffler.?gruppe/iu
 /schweizer.?post/i
-/schweizerische.?(™|®|©)/i
 
 /secureplus.{0,5}support/i
 
@@ -712,8 +697,6 @@
 
 /service.?center.?ard.?zdf/i
 /secretary.{0,5}treasury/i
-
-/(shein|smava|spotify).?(™|®|©)$/i
 
 /spar-kasse/i
 /^sparkasse$/i
@@ -724,7 +707,6 @@
 
 /sp0tify/i
 /s p o t i f y/i
-/spotify.?(™|®|©)$/i
 /spotify_/i
 /spotify.{0,10}(ab|inc\.|premium|support|team)/i
 /spotify.{0,10}kundenservice/i
@@ -793,7 +775,6 @@
 /^swisspost$/i
 /swisspost.{0,5}service/i
 
-/die schweizerische.?(™|®|©)$/i
 /id.?swiss/i
 
 # T
@@ -822,7 +803,6 @@
 /tepco/i
 /tfbank.?service/i
 
-/totalav.?(™|®|©)/i
 /touringclubsuisse/i
 
 /tractor.{0,10}supply/i
@@ -872,7 +852,6 @@
 /we.?transfer.{0,10}(document|file|message)/i
 /wetrànsfer/i
 
-/western.?union(™|®|©)/i
 /westpac/i
 
 /^wix$/i
