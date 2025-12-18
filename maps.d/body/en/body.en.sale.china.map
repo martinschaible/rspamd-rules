@@ -75,6 +75,8 @@
 
 /e?.?mail us.{1,10}for.{1,10}shipping solution/i
 
+/exporter specializing.{1,10}variety of/i
+
 # F
 # ------------------------------------------------------------------------------
 /factory offers comprehensive.{1,10}(odm|oem)/i
@@ -171,7 +173,7 @@
 
 # W
 # ------------------------------------------------------------------------------
-/we.{1,10}are.{1,10}(independent|leading|professional|specialized?|top|trusted).{1,10}professional company of/i
+/we.{1,10}are.{1,10}(independent|leading|professional|specialized?|top|trusted).{1,10}professional.{1,10}(company|product|textile)/i
 /we.{1,10}are.{1,10}(independent|leading|professional|specialized?|top|trusted).{1,20}(distributor|domestic|manufacturer|supplier) (in the|of|producing|with)/i
 /we.{1,10}are.{1,10}(independent|leading|professional|specialized?|top|trusted).{1,20}(factory|forwarder)/i
 /we.{1,10}are.{1,10}(independent|leading|professional|specialized?|top|trusted).{1,20}(electric|bycycle)/i
@@ -185,6 +187,7 @@
 /we.{1,10}are.{1,10}china.{1,15}steel ltd/i
 /we.{1,10}are.{1,10}electronic.{1,10}parts/i
 /we.{1,10}are.{1,10}manufacturer.{1,15}(catalogue|folder|printing|sticker)/i
+/we.{1,10}are.{1,20}strong in supplying/i
 
 /we.{1,10}can.{1,10}provide steel/i
 

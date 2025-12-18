@@ -436,6 +436,7 @@
 /healing.{1,10}recipe/i
 
 /helps.{1,10}(prevent|reduce).{1,15}(diabetes|sugar|spikes)/i
+/helps.{1,10}back pain/i
 
 /health.{1,10}miracle/i
 /healthy.{1,10}(gut|nails)/i
@@ -818,8 +819,9 @@
 
 /stubborn.{1,10}(fat|mucus)/i
 
-/stop doing this/i
-/stop eating (now|them)/i
+/stop.{1,10}doing this/i
+/stop.{1,10}eating (now|them)/i
+/stop.{1,10}pain today/i
 
 /stops?.{1,10}bone.?loss/i
 /stops?.{1,10}ringing.{1,10}fast/i

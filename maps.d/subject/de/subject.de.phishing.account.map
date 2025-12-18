@@ -24,6 +24,7 @@
 # ==============================================================================
 
 # A
+# ------------------------------------------------------------------------------
 /aktivitäten vorübergehend geschlossen/iu
 
 /aktualisierung.{1,10}(kontoinformationen|kontosicherheit|zahlungsangaben)/i
@@ -36,6 +37,7 @@
 /aussetzung droht am.{1,20}jetzt handeln/i
 
 # B
+# ------------------------------------------------------------------------------
 /^benutzerkonto gesperrt/i
 /bestätigen sie jetzt ihr/iu
 /bestätigung des.{1,15}kontos/iu
@@ -48,8 +50,10 @@
 /bitte verifizieren/i
 
 # C
+# ------------------------------------------------------------------------------
 
 # D
+# ------------------------------------------------------------------------------
 /datensicherheit ihres.{1,15}kontos/i
 
 /dringend.{1,10}die 2.?faktor.{1,10}authentifizierung/i
@@ -57,21 +61,25 @@
 /dringender überprüfungshinweis/iu
 
 # E
+# ------------------------------------------------------------------------------
 /eine sperrung zu vermeiden/i
 
 /(eingeschränkten|eingeschränkter) zugriff auf ihr.{1,15}konto/iu
 
 # F
+# ------------------------------------------------------------------------------
 /funktionen.{1,15}konto aktualisieren/i
 
 # Too generic
 #/für ihr.{1,15}(konto|profile)/i
 
 # G
+# ------------------------------------------------------------------------------
 /gesperrt.{1,10}jetzt verifizieren/i
 /gesperrt.{1,10}letzte warnung/i
 
 # H
+# ------------------------------------------------------------------------------
 /halten sie ihr.{1,15}konto aktiv/i
 
 /(sicherheits)?hinweis zu ihrem.{1,15}konto/i
@@ -79,6 +87,7 @@
 /helfen sie uns.{1,10}ihr.{1,15}konto sicher zu halten/i
 
 # I
+# ------------------------------------------------------------------------------
 /in ihrem.{1,15}konto erkannt/i
 
 /ihr.{1,15}konto(:|!)/i
@@ -101,9 +110,11 @@
 /(ihrer|ihres).{5,25}erforderlich/i
 
 # J
+# ------------------------------------------------------------------------------
 /jetzt die wiederherstellung/i
 
 # K
+# ------------------------------------------------------------------------------
 /klicken sie zur prüfung/iu
 
 /^konto gesperrt$/i
@@ -147,26 +158,34 @@
 /kurze (überprüfung|verifizierung) (für ihr.{1,15}konto|ihrer angaben)/iu
 
 # L
+# ------------------------------------------------------------------------------
 
 # M
+# ------------------------------------------------------------------------------
 /maximieren sie.{1,10}sicherheit.{1,15}passkey/i
 
 # N
+# ------------------------------------------------------------------------------
 /nachricht zur sicherheit ihres.{1,15}kontos/i
 
 # O
+# ------------------------------------------------------------------------------
 /optimierung.{1,10}kontosicherheit/i
 
 # P
+# ------------------------------------------------------------------------------
 /profil.{1,10}läuft bald aus/iu
 /profilüberprüfung.{1,20}sperrung/iu
 
 # Q
+# ------------------------------------------------------------------------------
 
 # R
+# ------------------------------------------------------------------------------
 #/aktivierung ihres.{1,15}kontos/i
 
 # S
+# ------------------------------------------------------------------------------
 /schutzblock für.{1,10}konto/iu
 /schützen sie ihr konto.{1,10}aktivieren sie/iu
 
@@ -180,11 +199,15 @@
 
 /sicherheitsüberprüfung ihres.{1,15}kontos/iu
 
+/sie sollten ihren kontostatus.{1,10}(über)?prüfen/iu
+
 /sperrung ihres.{1,15}kontos zu vermeiden/i
 
 # T
+# ------------------------------------------------------------------------------
 
 # U
+# ------------------------------------------------------------------------------
 /überprüfung deines.{1,15}kontos.{1,10}erforderlich/iu
 /überprüfung ihrer.{1,15}(konto|profil).?daten/iu
 
@@ -200,12 +223,14 @@
 /unserer?.{1,15}sicherheitsaktualisierung/i
 
 # V
+# ------------------------------------------------------------------------------
 /vermeiden sie die aussetzung/i
 
 /vorübergehende sperrung.{1,5}#/iu
 /vorübergehende sperrung ihres bereichs/iu
 
 # W
+# ------------------------------------------------------------------------------
 /warnung zur kontosperrung/i
 /weiterhin vollen kontozugriff/i
 
@@ -213,10 +238,13 @@
 /wurde vorübergehend deaktiviert/i
 
 # X
+# ------------------------------------------------------------------------------
 
 # Y
+# ------------------------------------------------------------------------------
 
 # Z
+# ------------------------------------------------------------------------------
 /zu ihrer.{1,10}kontosperrung/i
 /zur vermeidung einer zugangssperre/i
 

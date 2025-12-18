@@ -149,6 +149,7 @@
 
 /amaz0n/i
 /amazon.{0,10}(visa|xmas)/i
+/amazon.{0,10}weihnachten/i
 
 /(kundenservice|von).{1,10}amazon/i
 
@@ -768,6 +769,7 @@
 
 /swiftpackage/i
 
+/swiss a\.g$/i
 /swiss federal railways/i
 
 /swissch/i
@@ -796,7 +798,7 @@
 /targ0bank/i
 
 /tcs.?car/i
-/tcs.{0,10}(abteilung|kundenservice|mitglieder)/i
+/tcs.{0,10}(abteilung|admin|kundenservice|mitglieder)/i
 
 /team_/i
 /team.{0,10}(account|paletten?)/i

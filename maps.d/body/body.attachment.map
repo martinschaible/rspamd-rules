@@ -21,7 +21,7 @@
 /(enquiry|fatura).{0,25}\.(7z|docx|gz|html|rar|tar|tgz|xla|xls|zip)/i
 /(inquiry|invoice).{0,25}\.(7z|docx|gz|html|rar|tar|tgz|xla|xls|zip)/i
 /(lading|notice).{0,25}\.(7z|docx|gz|html|rar|tar|tgz|xla|xls|zip)/i
-/(order|payment|price.?list|proforma|project).{0,25}\.(7z|docx|gz|html|rar|tar|tgz|xla|xls|zip)/i
+/(order|payment|price.?list|proforma|project|purchase).{0,25}\.(7z|docx|gz|html|rar|tar|tgz|xla|xls|zip)/i
 /(quotation|quote).{0,25}\.(7z|docx|gz|html|rar|tar|tgz|xla|xls|zip)/i
 /(receipt|request).{0,25}\.(7z|docx|gz|html|rar|tar|tgz|xla|xls|zip)/i
 /rechnung.{0,25}\.(7z|docx|gz|html|rar|tar|tgz|xla|xls|zip)/i
