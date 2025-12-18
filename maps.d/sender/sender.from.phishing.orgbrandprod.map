@@ -84,7 +84,8 @@
 # Topics
 # ==============================================================================
 
-# Organisations, Companies, Authorities
+# Generic Companies
+# ------------------------------------------------------------------------------
 /(adac|metamask|netflix).{0,10}(account|assistance|billing|customer|help.?desk)/i
 /(adac|metamask|netflix).{0,10}(info.?desk|notifications?|protection)/i
 /(adac|metamask|netflix).{0,10}(security|service|support|team|update|user|verification|wallet)/i
@@ -93,6 +94,87 @@
 
 # Black Friday
 /ikea.{0,10}black.?friday/i
+
+# Parcel Companies
+# ------------------------------------------------------------------------------
+
+# DHL 
+/\.(ch|de).?\(dhl\)/i
+
+/d\.h\.l/i
+/d h l/i
+
+/dhi.?express/i
+/dh.?(e.?commerce|frachtlogistik|luftfracht|servicezentrum|versandzentrum)/i
+
+/\(dhl\)/i
+/dhl\./i
+/dhl.?(cn|hk)/i
+
+/mydhl.{0,5}express/i
+/dhl.?ups/i
+
+# DPD
+/dpdepot/i
+/dpdgroup/i
+
+/dpd eu/i
+/dpd_/i
+
+# Fedex
+/fedex$/i
+/fedex.?(express|ups)/i
+
+# GLS
+/g-l-s/i
+/^gls$/i
+/^gls\./i
+
+# UPS
+/u\.p\.s/i
+/ups(-|_)/i
+
+# DHL, DPD, GLS and UPS combinations
+/_(dhl|dpd|fedex|gls|ups)/i
+
+/(dhl|dpd|fedex|gls|ups).?\|/i
+
+/(dhl|dpd|fedex|gls|ups)\d{3,10}/i
+/(dhl|dpd|fedex|gls|ups).?(™|®|©)$/i
+/(dhl|dpd|fedex|gls|ups)-(ch|eu)/i
+/(dhl|dpd|fedex|gls|ups)-paket$/i
+/(dhl|dpd|fedex|gls|ups)_paket/i
+/(dhl|dpd|fedex|gls|ups).{0,5}\d{1,2}/i
+
+/(dhl|dpd|fedex|gls|ups).{0,5}clearance/i
+/(dhl|dpd|fedex|gls|ups).{0,5}delivery express/i
+/(dhl|dpd|fedex|gls|ups).{0,10}helpdesk/i
+/(dhl|dpd|fedex|gls|ups).{0,10}infozentrum/i
+/(dhl|dpd|fedex|gls|ups).{0,5}(kundendienst|kundenservice)/i
+/(dhl|dpd|fedex|gls|ups).{0,5}(lieferdienst|lieferung)/i
+/(dhl|dpd|fedex|gls|ups).{0,10}(logistik.?team|logistikzentrum)/i
+/(dhl|dpd|fedex|gls|ups).{0,5}(gmbh|noreply)/i
+
+/(dhl|dpd|fedex|gls|ups).{0,5}(messages?|tracking|versand|your)/i
+/(dhl|dpd|fedex|gls|ups).{0,5}(offers?|online|order)/i
+/(dhl|dpd|fedex|gls|ups).{0,5}(sendung|service|shipping|support|surveys?)/i
+/(dhl|dpd|fedex|gls|ups).{0,5}umfrage/i
+
+/(dhl|dpd|fedex|gls|ups).{0,5}paket.?(status|zentrum)/i
+/(dhl|dpd|fedex|gls|ups).{0,5}(package|payment|paketinfo)/i
+/(dhl|dpd|fedex|gls|ups).{0,10}team/i
+/(dhl|dpd|fedex|gls|ups).{0,5}zoll/i
+
+/(dhl|dpd|fedex|gls|ups).{0,5}(deutschland|germany|schweiz)/i
+/(dhl|dpd|fedex|gls|ups).{0,5}express (germany|schweiz)/i
+
+/(deutschland|germany|schweiz).{0,5}(dhl|dpd|fedex|gls|ups)/i
+/(center|europa|express|group|notification|support).{0,5}(dhl|dpd|fedex|gls|ups)/i
+/(kundeninfo|kurier|zoll).{0,5}(dhl|dpd|fedex|gls|ups)/i
+/(info|my).{0,5}(dhl|dpd|fedex|gls|ups)/i
+
+/paket.{0,5}(dhl|dpd|fedex|gls|ups)/i
+/paket.?(dienst|service).{0,5}(dhl|dpd|fedex|gls|ups)/i
 
 # Products
 # ------------------------------------------------------------------------------
@@ -256,47 +338,6 @@
 /deutschland.?radio.{0,10}nachrichtendienst/i
 /deutschland.?ticket.{0,10}(service|team|zentrale)/i
 
-/\.(ch|de).?\(dhl\)/i
-
-/d\.h\.l/i
-/d h l/i
-
-/dhi.?express/i
-/dh.?(e.?commerce|frachtlogistik|luftfracht|servicezentrum|versandzentrum)/i
-
-/\(dhl\)/i
-/dhl\./i
-
-/dhl.?(cn|hk)/i
-
-/dhl-paket$/i
-/dhl.{0,5}\d{1,2}/i
-
-/dhl.{0,5}clearance/i
-/dhl.{0,5}delivery express/i
-/dhl.{0,5}(kundenservice|lieferung)/i
-/dhl.{0,5}(logistik.?team|logistikzentrum)/i
-
-/dhl.{0,5}(messages?|order|service|support|team|tracking|versandinfo|your)/i
-
-/dhl.{0,5}paket.?(status|zentrum)/i
-/dhl.{0,5}(package|payment|paketinfo)/i
-
-/dhl.{0,5}(germany|schweiz)/i
-/dhl.{0,5}express (germany|schweiz)/i
-/dhl.{0,10}team/i
-
-/dhl.?ups/i
-
-/mydhl.{0,5}express/i
-
-/(deutschland|schweiz).{0,5}(dhl|dpd)/i
-/(center|europa|express|notification|support).{0,5}(dhl|dpd)/i
-/(kundeninfo|kurier|zoll).{0,5}(dhl|dpd)/i
-
-/paket.{0,5}(dhl|dpd)/i
-/paket.?(dienst|service).{0,5}(dhl|dpd)/i
-
 /diba-ag/i
 /digitech/i
 /die(\.|-)?post/i
@@ -311,28 +352,12 @@
 
 /d k b.{0,5}ag/i
 
-/dpdepot/i
-
-/_dpd/i
-/dpdgroup/i
-
-/dpd.?(™|®|©)$/i
-/dpd.{0,5}(deutschland|schweiz)/i
-/dpd-ch/i
-/dpd eu/i
-/dpd_paket/i
-/dpd.?zoll/i
-/dpd_/i
-
-/dhl.?\|/i
-/decathlon.{0,5}noreply/i
-
-/(info|my).{0,5}dhl/i
-
 # Real Sender: "Digitec"
 /digitec\.ch/i
 
 #/disney.?account/i
+
+/decathlon.{0,5}noreply/i
 
 /douglas$/i
 /douglas.{0,5}team/i
@@ -366,35 +391,12 @@
 /facebook.{0,10}(ads.?team|inc)/i
 /facebook seiten?/i
 
-/fedex$/i
 /fedpol/i
-
-/fedex.?(express|ups)/i
-/fedex.{0,10}(deutschland|schweiz)/i
-/fedex.{0,10}(kundendienst|umfrage|versand)/i
-/fedex.{0,15}(fedex|helpdesk|support)/i
 
 # G
 # ------------------------------------------------------------------------------
 /galaxus.?(™|®|©)$/i
 /galaxus.{0,10}(markt|team)/i
-
-/g-l-s/i
-/^gls$/i
-/^gls\./i
-
-/gls-(ch|de)/i
-/gls.?(™|®|©)$/i
-/gls\d{3,10}/i
-
-/(germany|team).{0,10}gls/i
-
-/gls.{0,10}(deutschland|germany|schweiz)/i
-/gls.{0,10}(infozentrum|lieferdienst|lieferung)/i
-/gls.{0,10}(kundendienst|kundenservice)/i
-/gls.{0,10}(online|sendung|support|team)/i
-
-/group.{0,5}gls/i
 
 /google.?drive/i
 /google.{0,10}(claim|inc|llc|team)/i
@@ -840,17 +842,6 @@
 /ubs.?ag.?ch/i
 
 /-ubereats/i
-
-/_ups/i
-/ups.?(gmbh|noreply|shipping)/i
-/ups \|/i
-/ups(-|_)/i
-
-/ups.?(™|®|©)$/i
-
-/u\.p\.s/i
-
-/usps.{0,10}(offers?|surveys?)/i
 
 # V
 # ------------------------------------------------------------------------------
