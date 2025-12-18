@@ -469,7 +469,8 @@
 /(dead|deep).{0,10}cleansing/i
 
 /deep.{0,10}(cleanse|rest|sleep)/i
-/dental.{0,10}(advisor|alert|daily|issues?|repair|rescue|work)/i
+/dental.{0,10}(advisor|alert|daily|issues?|work)/i
+/dental.{0,10}(repair|rescue|reset)/i
 /dental.{0,10}(tips?|tricks?|truth)/i
 
 /desire.{0,10}revival/i
@@ -788,7 +789,8 @@
 /nasa.{0,10}research/i
 /nasty.{0,10}(lumps|(toe)?nails?)/i
 
-/natural.{0,10}(alternative|antibiotic|control|defense|digest|fix|health|help|neuropathy)/i
+/natural.{0,10}(alternative|antibiotic|control|fix|health|help|neuropathy)/i
+/natural.{0,10}(defense|detox|digest)/i
 /natural.{0,10}(shape|solution|tonic|trick|vaccine)/i
 
 /nature.{0,10}(cure|morphine|opioids?|tea)/i
