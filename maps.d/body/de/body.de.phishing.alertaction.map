@@ -17,10 +17,13 @@
 # ==============================================================================
 
 # A
+# ------------------------------------------------------------------------------
 /(aktivieren|aktualisieren) sie.{1,20}(photo|push).?tan/i
 /aktualisieren sie ihre informationen.{1,10}um sicherzustellen/i
 
 /aktion.{1,10}erforderlich.{1,10}aktualisieren sie ihr.{1,15}abonnement/i
+/aktion.{1,10}erforderlich.{1,10}freigabe.{1,10}(paket|sendung)/i
+
 /aktion.{1,10}ihre?.{1,10}(paket|sendung).{1,10}erforderlich/iu
 
 /aktualisierung ihrer.{1,10}(kunden)?daten erforderlich/i
@@ -28,6 +31,7 @@
 /anmeldung.{1,15}bestätigen sie ihre identität/iu
 
 # B
+# ------------------------------------------------------------------------------
 /bestätigen?.{1,10}den aktuellen status/i
 
 /bestätigen.{1,10}sie.{1,10}details.{1,10}um den abschluss/i
@@ -41,9 +45,11 @@
 /betreff.{1,5}handlung erforderlich/i
 
 # C
+# ------------------------------------------------------------------------------
 /(computer|gerät|system) ist gefährdet.{1,10}handeln sie jetzt/iu
 
 # D
+# ------------------------------------------------------------------------------
 /dies ist.{1,10}endgültige erinnerung/iu
 /dringend.{1,10}bestätigen sie ihre.{1,15}identität/iu
 /dringend.{1,10}überprüfung.{1,10}(kundendaten|zahlungsinformationen).{1,10}erforderlich/iu
@@ -51,19 +57,23 @@
 /dringende aktualisierung ihres.{1,15}kontos/i
 
 # E
+# ------------------------------------------------------------------------------
 /endgültige warnung.{1,10}kontoaussetzung aktiv/i
 
 /erinnerung.{1,10}ihre kundenpunkte/i
 /erinnerung.{1,10}wettbewerb/i
 
 # F
+# ------------------------------------------------------------------------------
 /finale.{1,10}aufforderung.{1,15}kontomigration/i
 /finale.{1,10}systemaktualisierung.{1,15}erforderlich/i
 
 # G
+# ------------------------------------------------------------------------------
 /(gefahr|warnung).{1,10}spam.{1,10}nachrichten entdeckt/i
 
 # H
+# ------------------------------------------------------------------------------
 /handeln sie.{1,10}(jetzt|heute|sofort).{1,10}bevor es verfällt/iu
 /handeln sie.{1,10}(jetzt|heute|sofort).{1,10}sichern sie sich (bis zu|ihr)/i
 /handeln sie.{1,10}(jetzt|heute|sofort).{1,10}um ihre app/i
@@ -71,6 +81,7 @@
 /handlungsbedarf.{1,10}passkey aktivieren/iu
 
 # I
+# ------------------------------------------------------------------------------
 
 # J
 /jetzt.{1,10}kartendaten.{1,10}aktualisieren/i
@@ -78,25 +89,35 @@
 /jetzt.{1,10}zugriff wiederherstellen/i
 
 # K
+# ------------------------------------------------------------------------------
 /(kritische|wichtige).{1,10}sicherheitswarnung.{1,10}(konto|lizenz)/i
 
 # L
+# ------------------------------------------------------------------------------
 /letzte erinnerung.{1,10}ihre geräte/iu
+
 # M
+# ------------------------------------------------------------------------------
 
 # N
+# ------------------------------------------------------------------------------
 /nicht abgeholt.{1,10}handeln sie sofort/i
 /nicht aktiviert haben.{1,10}damit sie ihr.{1,15}konto/i
 
 # O
+# ------------------------------------------------------------------------------
 
 # P
+# ------------------------------------------------------------------------------
 
 # Q
+# ------------------------------------------------------------------------------
 
 # R
+# ------------------------------------------------------------------------------
 
 # S
+# ------------------------------------------------------------------------------
 /schütz dis konto/i
 
 /sendungsstatus.{1,10}aktion erforderlich/i
@@ -114,19 +135,23 @@
 /sofortige bestätigung.{1,10}neue/iu
 
 # T
+# ------------------------------------------------------------------------------
 /telefonnummer.{1,10}nicht aktiviert haben.{1,10}damit sie/i
 /telefonnummer.{1,10}innerhalb von.{1,10}stunden zu bestätigen/iu
 
 # U
+# ------------------------------------------------------------------------------
 /(ungewöhnliche|verdächtige).{1,10}(aktivitäten|vorgänge|zugang).{1,10}(auf|in).{1,10}(dem|ihrem).{1,15}konto/iu
 
 /überprüfung ihres.{1,15}kontos ist erforderlich/iu
 
 # V
+# ------------------------------------------------------------------------------
 /verifizieren sie ihr.{1,15}wallet/i
 /vervollständigen sie ihre.{1,10}(online.?)?identifikation/i
 
 # W
+# ------------------------------------------------------------------------------
 /wallet.{1,10}nicht verifiziert wurde/i
 
 /wichtig.{1,10}erweitertes schutzprogramm/i
@@ -145,9 +170,12 @@
 /wichtig(er)?.{1,10}hinweis zu ihrer.{1,15}rechnung/i
 
 # X
+# ------------------------------------------------------------------------------
 
 # Y
+# ------------------------------------------------------------------------------
 
 # Z
+# ------------------------------------------------------------------------------
 /zahlung erforderlich.{1,10}ihr schutz/i
 /zahlungsaktualisierung.{1,10}erforderlich/i

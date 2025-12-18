@@ -13,7 +13,7 @@
 
 /bestätigen sie (die|ihre).{1,10}versand.?details/i
 
-#Swiss German
+# Swiss German
 # ------------------------------------------------------------------------------
 /ihri sendig/i
 /sendig wird zruggghalte/i
@@ -32,6 +32,7 @@
 /^\d{1,2}-\d{1,2}-\d{2,4}.{1,5}ch-\d{5,20}/i
 
 # A
+# ------------------------------------------------------------------------------
 /adresse.{1,10}bestätigen.{1,10}zustellung vereinbaren/iu
 /adresse.{1,15}lieferung erforderlich/i
 
@@ -49,6 +50,7 @@
 /ausstehende?.{1,10}Versandkosten gestoppt/i
 
 # B
+# ------------------------------------------------------------------------------
 /beantworten sie (wahrheitsgemäss|wahrheitsgemäß)/iu
 
 /begleichen sie ihre.{1,10}gebühr/iu
@@ -79,8 +81,10 @@
 /blockiert ihre.{1,10}zustellung/i
 
 # C
+# ------------------------------------------------------------------------------
 
 # D
+# ------------------------------------------------------------------------------
 /auf die zahlung der.{1,10}(import|zoll).?gebühren wartet/iu
 
 /(die|ihre) lieferadresse.{1,5}\d{3,5}/i
@@ -91,6 +95,7 @@
 /dringendes paket wird geliefert/i
 
 # E
+# ------------------------------------------------------------------------------
 /einer falschen lieferadresse/i
 
 /eingehende sendung für ihre/iu
@@ -101,19 +106,23 @@
 /es ist ein lieferfehler aufgetreten/i
 
 # F
+# ------------------------------------------------------------------------------
 /fehler bei der zustellung/i
 /fehlgeschlagener zustellversuch/i
 
 /freigegeben.{1,10}zahlung erforderlich/i
 
 # G
+# ------------------------------------------------------------------------------
 #/(gebühr|einlieferungsbeleg) für ihre?.{1,10}(lieferung|paket|sendung)/i
 /gebühr für ihre?.{1,10}(lieferung|paket|sendung)/i
 
 # H
+# ------------------------------------------------------------------------------
 /haben.{1,10}(lieferung|paket|sendung)/i
 
 # I
+# ------------------------------------------------------------------------------
 /ihr dh-paket/i
 
 /ihre?.{1,10}(lieferung|paket|sendung).{1,10}braucht sie/i
@@ -152,13 +161,16 @@
 /ist in unserer.{1,25}angekommen/i
 
 # J
+# ------------------------------------------------------------------------------
 /jetzt zustellung aktivieren/i
 
 # K
+# ------------------------------------------------------------------------------
 /kann heute nicht zugestellt werden/i
 /korrigieren sie/i
 
 # L
+# ------------------------------------------------------------------------------
 /letzte chance.{1,10}(lieferung|versand|zustellung) wird/i
 
 /letzter schritt.{1,10}(vor der|zur).{1,10}(lieferung|zustellung)/i
@@ -208,6 +220,7 @@
 /lieferung benötigt.{1,10}bestätigung/iu
 
 # M
+# ------------------------------------------------------------------------------
 /mahnung.{1,10}(import|zoll).?gebühren.{1,10}fällig/iu
 
 /maßnahmen zu ihrem paket/i
@@ -216,6 +229,7 @@
 /mussen uns kontaktieren/i
 
 # N
+# ------------------------------------------------------------------------------
 /nahe dem abschluss/i
 
 /nicht erfolgreich.{1,10}(lieferung|paket|sendung|versand|zustellung).{1,5}\d{4,10}/i
@@ -224,9 +238,11 @@
 /nicht zugestellt werden.{1,10}\[.?\d{4,10}.?\]/i
 
 # O
+# ------------------------------------------------------------------------------
 /offizielle lieferstatusinformationen/i
 
 # P
+# ------------------------------------------------------------------------------
 
 # Used in real life
 #/(paket|sendung).{1,10}ist unterwegs!/i
@@ -278,10 +294,13 @@
 /probleme mit ihrer adresse/i
 
 # Q
+# ------------------------------------------------------------------------------
 
 # R
+# ------------------------------------------------------------------------------
 
 # S
+# ------------------------------------------------------------------------------
 /sein ziel erreicht/i
 
 /sendungs.?id.{1,5}dpd_/i
@@ -305,13 +324,16 @@
 /(steuer|zoll).{1,15}ihre?.{1,10}(paket|sendung)/i
 
 # T
+# ------------------------------------------------------------------------------
 
 # U
+# ------------------------------------------------------------------------------
 /überprüfung.{1,10}ihr(er)?.{1,10}(paket|sendung)/iu
 
 /um ihren.{1,10}artikel zu liefern/i
 
 # V
+# ------------------------------------------------------------------------------
 /vernichtung ihres.{1,10}pakets/i
 
 /verfolgen.{1,10}zu erhalten/i
@@ -330,7 +352,8 @@
 /fortsetzung.{1,10}paketprozesses/i
 
 # W
-/warten auf (abholung|paketzustellung)/i
+# ------------------------------------------------------------------------------
+/warten auf.{1,10}(abholung|paketzustellung)/i
 
 /wartet.{1,10}auf.{1,20}(abholung|anweisung|bestätigung|lieferung|versandzahlung|zustellung)/iu
 #/wartet auf sie/i
@@ -358,10 +381,13 @@
 /wurde zurückgeschickt/i
 
 # X
+# ------------------------------------------------------------------------------
 
 # Y
+# ------------------------------------------------------------------------------
 
 # Z
+# ------------------------------------------------------------------------------
 
 # Sample Zahl 7204300
 /zahl.{1,5}\d{5,10}/i
@@ -369,7 +395,7 @@
 /zahlung.{1,10}erforderlich.{1,10}fortsetzung/i
 /zahlung.{1,15}(paket|sendung).{1,10}(erforderlich|steht aus)/i
 /zahlung.{1,10}(ausstehend|erforderlich).{1,10}für.{1,10}(paket|zustellung)/iu
-/zahlung.{1,10}(versandgebühr|zustellgebühr).{1,10}erforderlich/iu
+/zahlung.{1,10}(versandgebühr|zustellgebühr|zollabgaben).{1,10}erforderlich/iu
 
 /zahlung abgeschlossen ist/i
 /zahlung erforderlich \d\.\d{2}/i

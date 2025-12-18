@@ -57,6 +57,7 @@
 # ------------------------------------------------------------------------------
 /certified.{1,10}(company|factory|supplier).{1,10}manufactures/i
 
+/china.{1,10}our (company|factory).{1,15}(provide|supply)/i
 /china.{1,10}thank you for taking the time/i
 /china.{1,10}we can offer/i
 

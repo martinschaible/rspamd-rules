@@ -22,12 +22,15 @@
 # ==============================================================================
 
 # A
+# ------------------------------------------------------------------------------
 /administrator services.{1,10}all rights reserved/i
 /avoid.{1,10}e?.?mail.{1,10}lock.{1,10}hours from/i
 
 # B
+# ------------------------------------------------------------------------------
 
 # C
+# ------------------------------------------------------------------------------
 /check.{1,10}update your.{1,10}e?.?mail/i
 
 /clear your.{1,10}to release blocked.{1,10}(e?.?mail|messages)/i
@@ -45,8 +48,10 @@
 /continue using your existing password/i
 
 # D
+# ------------------------------------------------------------------------------
 
 # E
+# ------------------------------------------------------------------------------
 /e?.?mail.?address due.{1,10}security restrictions.{1,10}your.{1,10}e?.?mail.?server/i
 
 /(e?.?mail|message)s?.{1,10}abuse notice.{1,10}security alert/i
@@ -70,12 +75,16 @@
 /e?.?mail.{1,15}below to secure your account/i
 
 # F
+# ------------------------------------------------------------------------------
 
 # G
+# ------------------------------------------------------------------------------
 
 # H
+# ------------------------------------------------------------------------------
 
 # I
+# ------------------------------------------------------------------------------
 /important.{1,10}(e?.?mail|message).{1,10}suspended/i
 /important.{1,10}(action|update) (needed|required)/i
 
@@ -85,24 +94,35 @@
 /(important|incoming|pending|sent).{1,10}(e?.?mail|message)s?.{1,10}temporarily suspended/i
 
 # J
+# ------------------------------------------------------------------------------
 
 # K
+# ------------------------------------------------------------------------------
 
 # L
+# ------------------------------------------------------------------------------
 
 # M
+# ------------------------------------------------------------------------------
+/mailbox.{1,15}service closure notice/i
+
 /imap\/pop3.{1,10}delivery incomplete/i
 
 # N
+# ------------------------------------------------------------------------------
 /not being delivered to your inbox/i
 
 # O
+# ------------------------------------------------------------------------------
 
 # P
+# ------------------------------------------------------------------------------
 
 # Q
+# ------------------------------------------------------------------------------
 
 # R
+# ------------------------------------------------------------------------------
 /(release|retrieve|review|unlock|view).{1,15}(important|incoming|pending|suspended).{1,15}(e?.?mail|message)s?/i
 /(release|retrieve|review|unlock|view).{1,15}(e?.?mail|message)s?.{1,10}stuck on the server/i
 
@@ -111,13 +131,16 @@
 /retrieve.{1,10}(e?.?mail|message)s?.{1,10}to inbox/i
 
 # S
+# ------------------------------------------------------------------------------
 /server has important.{1,10}(e?.?mail|message)s?.{1,10}suspended/i
 /server issues.{1,10}port:993.{1,10}incoming/i
 
 # T
+# ------------------------------------------------------------------------------
 /terminate your.{1,10}e?.?mail.{1,10}account.{1,15}@/i
 
 # U
+# ------------------------------------------------------------------------------
 /unread.{1,10}(e?.?mail|message)s?.{1,10}pending due to server/i
 /unverified.{1,10}will be deactivated from.{1,20}server/i
 
@@ -130,14 +153,15 @@
 /(update|upgrade|required).{1,15}to continue using.{1,10}mail.?box/i
 /(update|upgrade|required).{1,15}your.{1,10}(mail.?box|storage)/i
 
-
 # V
+# ------------------------------------------------------------------------------
 /view.{1,10}(failed|save).{1,10}(e?.?mail|message)s?/i
 
 /verify.{1,10}your.{1,10}(e?.?mail|mail.?box).{1,15}to avoid.{1,10}deactivation/i
 /verify.{1,10}your.{1,10}(e?.?mail|mail.?box).{1,15}to restore/i
 
 # W
+# ------------------------------------------------------------------------------
 /we are closing.{1,10}old versions/i
 /we.{1,15}received.{1,10}request to disable your.{1,10}(e?.?mail|mail.?box)/i
 /we want to reduce the numbers?.{1,10}dormant.{1,10}accounts/i
@@ -151,8 +175,10 @@
 /webmail.{1,10}update required/i
 
 # X
+# ------------------------------------------------------------------------------
 
 # Y
+# ------------------------------------------------------------------------------
 /you have.{1,5}\d.{1,5}(bounced|delayed|important|incoming|new|pending|suspended|undelivered|unreceived).{1,10}(e?.?mail|message)s?/i
 
 /you have.{1,10}(bounced|delayed|important|incoming|new|pending|suspended|undelivered|unreceived).{1,10}(e?.?mail|message)s?.{1,10}as of/i
@@ -163,7 +189,7 @@
 /you have.{1,40}(bounced|delayed|important|incoming|new|pending|suspended|undelivered|unreceived).{1,25}(e?.?mails?|inbox|messages?)/i
 
 /you have.{1,10}important.{1,10}(incoming|pending).{1,10}(e?.?mail|message)s?/i
-/You have .{1,10}(e?.?mail|message)s?.{1,10}pending on the server/i
+/you have .{1,10}(e?.?mail|message)s?.{1,10}pending on the server/i
 
 /you must clear.{1,10}cache immediately/i
 /you must clear.{1,10}cache.{1,20}(send|receive)/i
@@ -187,3 +213,4 @@
 /your.{1,10}webmail will log you out/i
 
 # Z
+# ------------------------------------------------------------------------------
