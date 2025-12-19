@@ -5,17 +5,6 @@
 #  10 | German         |
 # ==============================================================================
 
-# Account
-# ------------------------------------------------------------------------------
-/(lieber (kunde|nutzer)|sehr geehrte damen und herren).{1,10}betrügerische aktivitäten/iu
-/(lieber (kunde|nutzer)|sehr geehrte damen und herren).{1,10}um die sicherheit ihres.{1,15}kontos/i
-/(lieber (kunde|nutzer)|sehr geehrte damen und herren).{1,10}wir haben.{1,10}(dein|ihr).{1,15}konto/i
-/(lieber (kunde|nutzer)|sehr geehrte damen und herren).{1,10}wir haben ungewöhnliche/iu
-
-/wir haben festgestellt.{1,15}ihrer?.{1,15}konto.?informationen/i
-
-/button auf ihr.{1,15}konto zuzugreifen/i
-
 # Account - Locking
 # ------------------------------------------------------------------------------
 /konto.{1,10}auf den neuesten stand bringen/i
@@ -321,13 +310,6 @@
 # ------------------------------------------------------------------------------
 /nicht innerhalb von.{1,10}stunden ausgeführt wird/i
 /warnung.{1,15}ungewöhnliche aktivität auf ihrem konto/iu
-
-#
-#
-#
-
-# Subscription, Membership
-# ------------------------------------------------------------------------------
 
 # Silly Lies
 # ------------------------------------------------------------------------------
