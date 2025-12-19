@@ -144,14 +144,17 @@
 /letzte erinnerung.{1,10}nur solange der vorrat reicht/i
 
 /lieb ,/i
-/lieber?.{1,10}kunde.{1,10}aus sicherheitsgründen/iu
-/lieber?.{1,10}kunde.{1,10}beim letzten versuch konnte ihre?.{1,10}(paket|sendung)/i
-/lieber?.{1,10}kunde.{1,10}ihr.{1,15}(konto|passwort)/i
-/lieber?.{1,10}kunde.{1,10}ihre?.{1,10}(paket|sendung) konnte nicht zugestellt/i
-/lieber?.{1,10}kunde.{1,10}leider war es uns.{1,10}nicht möglich/iu
-/lieber?.{1,10}kunde.{1,10}nach der aktualisierung/i
-/lieber?.{1,10}kunde.{1,10}wir haben (ungewöhnliche|versucht)/iu
-/lieber?.{1,10}kunde.{1,10}es wurden.{1,20}(unregelmäßige|zugriffsversuche)/iu
+/lieber?.{1,10}(kunde|nutzer).{1,10}aus sicherheitsgründen/iu
+/lieber?.{1,10}(kunde|nutzer).{1,10}betrügerische aktivitäten/iu
+/lieber?.{1,10}(kunde|nutzer).{1,10}beim letzten versuch konnte ihre?.{1,10}(paket|sendung)/i
+/lieber?.{1,10}(kunde|nutzer).{1,10}es wurden.{1,20}(unregelmäßige|zugriffsversuche)/iu
+/lieber?.{1,10}(kunde|nutzer).{1,10}ihr.{1,15}(konto|passwort)/i
+/lieber?.{1,10}(kunde|nutzer).{1,10}ihre?.{1,10}(paket|sendung) konnte nicht zugestellt/i
+/lieber?.{1,10}(kunde|nutzer).{1,10}leider war es uns.{1,10}nicht möglich/iu
+/lieber?.{1,10}(kunde|nutzer).{1,10}nach der aktualisierung/i
+
+/lieber?.{1,10}(kunde|nutzer).{1,10}wir haben.{1,10}(dein|ihr).{1,15}konto/i
+/lieber?.{1,10}(kunde|nutzer).{1,10}wir haben (ungewöhnliche|versucht)/iu
 
 #/lieber?.{1,10}(paket)?empfänger/iu
 /lieber?.{1,10}paket?empfänger/iu
@@ -192,8 +195,9 @@
 /sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}bei der letzten verwendung/i
 /sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}benötigen sie eine?/iu
 /sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}bestätigen sie ihre/iu
+/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}betrügerische aktivitäten/iu
 
-/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}die sicherheit ihrer/i
+/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}die sicherheit (ihrer|ihres)/i
 /sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}dies ist eine benachrichtigung/i
 /sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,25}dies ist eine dringende mitteilung/i
 
@@ -246,9 +250,11 @@
 # 29.06.25 - Used by fake "EOS Deutscher Inkasso-Dienst GmbH" 
 /sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}wir kontaktieren sie im auftrag von/i
 
+/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}wir haben.{1,10}(dein|ihr).{1,15}konto/i
 /sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}wir haben.{1,10}(ein problem|festgestellt)/i
 /sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}wir haben.{1,10}eine neue transaktion/i
-/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}wir haben.{1,10}(probleme|verdächtige)/iu
+/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}wir haben.{1,10}(probleme|ungewöhnliche|verdächtige)/iu
+
 /sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}wir hatten kürzlich ein/iu
 
 /sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}wir konnten ihre letzte zahlung/i

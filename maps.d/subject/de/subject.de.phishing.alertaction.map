@@ -20,6 +20,7 @@
 # ==============================================================================
 
 # A
+# ------------------------------------------------------------------------------
 /achtung.{1,10}betreff\b/i
 /achtung.{1,10}empfänger/iu
 /achtung.{1,10}garantiert/i
@@ -35,6 +36,8 @@
 /achtung.{1,10}unautorisierte.{1,10}e?.?mails/i
 /achtung.{1,10}unbezahlte gebühr/iu
 /achtung.{1,10}verdächtige.{1,10}(aktivität|vorgänge)/iu
+
+/aktion.{1,10}aktualisierung.{1,10}zahlungsinformationen/i
 
 # Sample: Aktion ID 4236127
 /aktion.?id \d{3,10}/i
@@ -132,6 +135,7 @@
 /assets.{1,10}jetzt aktualisieren/i
 
 # B
+# ------------------------------------------------------------------------------
 /(bedroht|festgestellt).{1,10}ergreifen sie maßnahmen/iu
 
 /benachrichtigung.{1,10}kontoaktivität/iu
@@ -177,8 +181,10 @@
 /bitte um bestätigung.{1,10}zustellversuch/iu
 
 # C
+# ------------------------------------------------------------------------------
 
 # D
+# ------------------------------------------------------------------------------
 /dies ist ihre letzte erinnerung/i
 
 /(domain|kontroll).{1,10}verifizierung ist erforderlich/i
@@ -223,6 +229,7 @@
 /dringlichkeit.{1,10}aufmerksamkeit/i
 
 # E
+# ------------------------------------------------------------------------------
 /eilmeldung.{1,25}gewinnerliste aktualisiert/i
 /entdeckt.{1,10}schützen sie sich jetzt/iu
 
@@ -247,6 +254,7 @@
 /(es ist|fehlgeschlagen|sofortige|wichtige) aktion erforderlich/i
 
 # F
+# ------------------------------------------------------------------------------
 /fehlende steuerunterlagen.{1,15}sofort handeln/i
 /führen sie.{1,10}den legitimationsprozess/iu
 
@@ -254,12 +262,14 @@
 /frist läuft ab.{1,10}sichern sie.{1,10}zugang/iu
 
 # G
+# ------------------------------------------------------------------------------
 /(gefahr|warnung).{1,10}spam.{1,10}nachrichten entdeckt/i
 
 /gewinner(liste)?.{1,10}jetzt bestätigen/iu
 /guthaben verfällt heute.{1,10}letzte erinnerung/iu
 
 # H
+# ------------------------------------------------------------------------------
 /handeln sie jetzt/i
 #/handeln sie (innerhalb|jetzt|schnell|sofort)/i
 
@@ -302,6 +312,7 @@
 /höchste warnstufe.{1,15}abonnement/iu
 
 # I
+# ------------------------------------------------------------------------------
 /identifizierung erforderlich.{1,10}zugriff/i
 
 /(identitätsbestätigung|identitätsprüfung|identifikation) erforderlich/i
@@ -333,6 +344,7 @@
 /ist.{1,10}ungesichert.{1,10}jetzt handeln/i
 
 # J
+# ------------------------------------------------------------------------------
 /jetzt aktualisieren.{1,10}wichtige änderung/ui
 
 /jetzt bereinigen/i
@@ -356,6 +368,7 @@
 /jetzt umstellen/i
 
 # K
+# ------------------------------------------------------------------------------
 /kartendaten jetzt aktualisieren/i
 
 /kontaktdaten jetzt aktualisieren/i
@@ -383,6 +396,7 @@
 /kurzer aufwand.{1,10}geschäftsdaten prüfen/iu
 
 # L
+# ------------------------------------------------------------------------------
 /läuft heute ab.{1,10}(jetzt|sofort) handeln/iu
 
 /legitimations.?prozess.{1,15}erledigen/i
@@ -444,31 +458,37 @@
 /letztes.{1,10}stunden.{1,10}verlängerungsfenster/iu
 
 # M
+# ------------------------------------------------------------------------------
 /maßnahme notwendig vor dem/i
 
 /mitteilung zu ihrem geräteschutz/iu
 
 # N
+# ------------------------------------------------------------------------------
 /nachricht.{1,10}bestätigen sie ihr.{1,15}konto/iu
 /neuigkeit.{1,10}für sie.{1,10}(paket|sendung).{1,10}angekommen/iu
 
 # O
+# ------------------------------------------------------------------------------
 
 # P
+# ------------------------------------------------------------------------------
 /photo.?tan.{1,10}Verifikation erforderlich/i
 /probleme vermeiden.{1,10}stellen sie sicher/i
 /profildaten.{1,10}wichtige mitteilung/i
 /(unternehmens)?profil.{1,10}bitte handeln sie/i
 
 # Q
+# ------------------------------------------------------------------------------
 
 # R
+# ------------------------------------------------------------------------------
 /reaktivieren sie es jetzt/i
 /reaktivieren sie ihr(en)?.{1,15}kundenkonto/i
 /reaktivieren sie ihr(en)?.{1,15}zugang/iu
 
-
 # S
+# ------------------------------------------------------------------------------
 /(schliessen|schließen).{1,10}sie.{1,10}ihre.{1,10}(authentifizierungsprozess|identifizierung)/iu
 /(schliessen|schließen).{1,10}sie die kontoaktivierung jetzt ab/iu
 
@@ -555,9 +575,11 @@
 /system.?hinweis.{1,10}empfohlener sicherheitscheck/i
 
 # T
+# ------------------------------------------------------------------------------
 /transaktion.{1,10}aktion erforderlich/i
 
 # U
+# ------------------------------------------------------------------------------
 /umgehende aufmerksamkeit benötigt/iu
 
 /unbefugte nutzung von.{1,30}aktion erforderlich/i
@@ -593,6 +615,7 @@
 /ungewöhnlichen?.{1,10}(anmeldevorgang|anmeldung) festgestellt/iu
 
 # V
+# ------------------------------------------------------------------------------
 /verdacht auf ungewöhnliche aktivität.{1,15}prüfen sie ihr.{1,15}konto/i
 /verdächtige (aktivität|anmeldung) (auf|bei) ihrem.{1,15}konto/iu
 /verdächtiger login.?versuch auf ihrem.{1,15}konto/i
@@ -608,6 +631,7 @@
 /virenschutz läuft aus.{1,10}jetzt handeln/iu
 
 # W
+# ------------------------------------------------------------------------------
 /warnung.{1,10}ihre digitale/i
 /warnung.{1,10}neuer anmeldeversuch auf ihrem/i
 /warnung.{1,10}sicherheit.{1,15}überfällig/iu
@@ -704,10 +728,13 @@
 /wichtiges.{1,10}sicherheitsupdate steht an/i
 
 # X
+# ------------------------------------------------------------------------------
 
 # Y
+# ------------------------------------------------------------------------------
 
 # Z
+# ------------------------------------------------------------------------------
 /zahlung erforderlich für ihre?.{1,10}(paket|sendung)/i
 /zahlung fehlgeschlagen.{1,10}aktualisieren sie jetzt/i
 /zahlung für ihre?.{1,10}(paket|sendung) erforderlich/i
