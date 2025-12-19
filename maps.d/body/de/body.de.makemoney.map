@@ -29,24 +29,29 @@
 # ==============================================================================
 
 # A
+# ------------------------------------------------------------------------------
 /ab 250 (euro|€) einsteigen/i
 /automatische geldanlage/i
 
 /armut.{1,10}kryptowährung(en)?/iu
 
 # B
+# ------------------------------------------------------------------------------
 /besitzen sie ein.{1,10}krypto.?wallet/i
 
 /bitcoin.{1,10}(boni|dein leben)/i
 
 # C
+# ------------------------------------------------------------------------------
 /chatgpt.{1,10}trader.{1,10}profitieren/i
 
 # D
+# ------------------------------------------------------------------------------
 /digitale.{1,10}(anlageintelligenz|investmenthilfe)/i
 /diskret.{1,10}vermögensstrategie/iu
 
 # E
+# ------------------------------------------------------------------------------
 /einkommen.{1,10}bitcoin/i
 
 /endlich reich werden/i
@@ -56,8 +61,10 @@
 /euro (verdienen|verdient)!/i
 
 # F
+# ------------------------------------------------------------------------------
 
 # G
+# ------------------------------------------------------------------------------
 /garantierte?.{1,10}euro pro tag/i
 /garantiertes.{1,10}mindesteinkommen von.{1,15}euro pro tag/i
 
@@ -68,17 +75,20 @@
 /gewinnsystem.{1,15}täglich ergebnisse/i
 
 # H
+# ------------------------------------------------------------------------------
 /haben sie eine.{1,10}krypto.{1,10}brieftasche/i
 /heute noch.{1,15}euro verdienen/i
 /hier geht es zur software/i
 
 # I
+# ------------------------------------------------------------------------------
 /ihnen eine außergewöhnliche investmentchance/iu
 
 /ihr depositum ist sicher/i
 /ihr finanzlotse/i
 
 # J
+# ------------------------------------------------------------------------------
 /jeden tag auszahlung/i
 /jeder.{1,15}euro pro tag verdienen kann/i
 
@@ -86,14 +96,17 @@
 /jetzt \d{3,5}.{1,10}einzahlen/i
 
 # K
+# ------------------------------------------------------------------------------
 /klick trennt sie von.{1,10}finanzieller/i
 /klickt.{1,10}erhält.{1,15}(konkrete|schritte)/i
 /konto füllt sich täglich/iu
 
 # L
+# ------------------------------------------------------------------------------
 /löwen.{0,10}system/iu
 
 # M
+# ------------------------------------------------------------------------------
 /melden sie sich an.{1,10}lassen sie sich unverbindlich/i
 
 /minimalen betrag beginnen.{1,25}und.{1,15}enorme/i
@@ -104,22 +117,27 @@
 /möchten.{1,10}passives einkommen/iu
 
 # N
+# ------------------------------------------------------------------------------
 /neue geldmethode/i
 
 /nur einem tag.{1,10}euro verdient/i
 /nur noch.{1,10}zugänge verfügbar/iu
 
 # O
+# ------------------------------------------------------------------------------
 /ohne investment.{1,10}willkommen/i
 
 # P
+# ------------------------------------------------------------------------------
 /preisgekrönte plattform/iu
 
 /pro tag verdienen.{1,10}vollautomatisch/i
 
 # Q
+# ------------------------------------------------------------------------------
 
 # R
+# ------------------------------------------------------------------------------
 /registrieren.{1,15}geprüfter berater/iu
 /registrieren.{1,10}mit dem handel beginnen/i
 /registrieren.{1,10}mit einem finanzexperten/i
@@ -128,6 +146,7 @@
 /risikofrei starten.{1,10}250/i
 
 # S
+# ------------------------------------------------------------------------------
 /schalten sie schnell den tv/i
 
 /seien sie teil dieser revolution/i
@@ -152,12 +171,15 @@
 /system.{1,10}das reichtum verspricht/i
 
 # T
+# ------------------------------------------------------------------------------
 
 # U
+# ------------------------------------------------------------------------------
 /unsere.{1,10}investment.?(experten|profis)/i
 /unserem revolutionären system/iu
 
 # V
+# ------------------------------------------------------------------------------
 /verdienen.{1,10}mit diesem.{1,10}schlupfloch/iu
 /verdienen.{1,10}durchschnitt die mitglieder/i
 /verdienen.{1,10}ohne vorkenntnisse/i
@@ -168,15 +190,19 @@
 /vermögensstrategie.{1,15}(elite|europäischen)/iu
 
 # W
+# ------------------------------------------------------------------------------
 /wohlstand per knopfdruck/i
 
 /wollen sie.{1,15}reich werden?
 
 # X
+# ------------------------------------------------------------------------------
 
 # Y
+# ------------------------------------------------------------------------------
 
 # Z
+# ------------------------------------------------------------------------------
 /zahlen sie 250 eur/i
 /zeige ich.{1,15}wie dieses system aussieht/i
 

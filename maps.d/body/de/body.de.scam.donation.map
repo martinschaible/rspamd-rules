@@ -21,6 +21,7 @@
 # ==============================================================================
 
 # A
+# ------------------------------------------------------------------------------
 /als aktiver webnutzer ausgewählt/iu
 
 /antworten sie.{1,20}spendenzuwendung/i
@@ -36,6 +37,7 @@
 /ausgewählt.{1,15}wurden.{1,10}um eine.{1,20}spende von/i
 
 # B
+# ------------------------------------------------------------------------------
 /beantragung.{1,10}spende zu erhalten/i
 
 /belohnung endet am/i
@@ -44,8 +46,10 @@
 /betrag von.{1,20}(dollar|euro?|gbp|usd|€|\$|£).{1,10}wurde ihnen/i
 
 # C
+# ------------------------------------------------------------------------------
 
 # D
+# ------------------------------------------------------------------------------
 /(dollar|euro?|gbp|usd|€|\$|£).{1,10}ausgewählt wurden.{1,10}kontaktieren sie/i
 /(dollar|euro?|gbp|usd|€|\$|£).{1,10}ausgewählt.{1,10}melden sie sich/iu
 /(dollar|euro?|gbp|usd|€|\$|£).{1,10}um ihren.{1,15}anspruch/i
@@ -54,6 +58,7 @@
 /(dollar|euro?|gbp|usd|€|\$|£).{1,10}wurden (an sie|ihnen) gespendet/i
 
 # E
+# ------------------------------------------------------------------------------
 /e?.?mail bezüglich meiner spende erhalten/i
 
 /empfänger ausgewählt.{1,10}die jeweils.{1,15}erhalten/i
@@ -64,9 +69,11 @@
 /es wartet eine.{1,10}spende auf sie/i
 
 # F
+# ------------------------------------------------------------------------------
 /fordern sie ihre.{1,10}spende/i
 
 # G
+# ------------------------------------------------------------------------------
 /geschenk interessiert sind.{1,10}antworten sie/i
 
 /gespendet.{1,10}antworten sie für weitere informationen/iu
@@ -75,6 +82,7 @@
 /glückwunsch.{1,10}sie haben eine spende/iu
 
 # H
+# ------------------------------------------------------------------------------
 /hat ihnen.{1,20}(dollar|euro?|gbp|usd|€|\$|£).{1,10}gespendet/i
 /hat ihnen.{1,20}millionen.{1,10}gespendet/i
 /hat ihnen.{1,10}(grosszügige|großzügige).{1,10}summe/i
@@ -82,6 +90,7 @@
 /heute wurden ihnen.{1,10}millionen/i
 
 # I
+# ------------------------------------------------------------------------------
 /ich beschlossen.{1,10}eine.{1,10}spende an jemanden/i
 
 /ich bin.{1,10}susanne klatten/i
@@ -111,8 +120,10 @@
 /ihnen.{1,25}zur investition zu spenden/i
 
 # J
+# ------------------------------------------------------------------------------
 
 # K
+# ------------------------------------------------------------------------------
 /kontakt für ihre spende/iu
 /kontaktieren.{1,15}ihre spende in höhe von/iu
 
@@ -124,24 +135,32 @@
 /kostenlosen zuschusses/i
 
 # L
+# ------------------------------------------------------------------------------
 /laufenden freiwilligen spende/i
 
 # M
+# ------------------------------------------------------------------------------
 /millionen.{1,10}(dollar|euro?|gbp|usd|€|\$|£).{1,10}erhalten.{1,10}(antworten|kontaktieren) sie uns/i
 
 # N
+# ------------------------------------------------------------------------------
 
 # O
+# ------------------------------------------------------------------------------
 
 # P
+# ------------------------------------------------------------------------------
 /personen zu spenden.{1,10}sie wurden/i
 /private?.?spende für sie/iu
 
 # Q
+# ------------------------------------------------------------------------------
 
 # R
+# ------------------------------------------------------------------------------
 
 # S
+# ------------------------------------------------------------------------------
 /sie.{1,10}als empfänger (einer|von).{1,15}(humanitären|mitteln?|spende)/iu
 /sie.{1,10}an meiner spende interessiert sind/i
 /sie.{1,20}eine gesetzliche förderung in höhe/iu
@@ -196,21 +215,28 @@
 /spenden wir.{1,15}ihre?.{1,10}e?.?mail.?(adresse|konto)/i
 
 # T
+# ------------------------------------------------------------------------------
 
 # U
+# ------------------------------------------------------------------------------
 
 # V
+# ------------------------------------------------------------------------------
 
 # W
+# ------------------------------------------------------------------------------
 /weitere informationen zu dieser.{1,15}spende/i
 
 /wir haben ihnen.{1,15}eine spende/i
 
 # X
+# ------------------------------------------------------------------------------
 
 # Y
+# ------------------------------------------------------------------------------
 
 # Z
+# ------------------------------------------------------------------------------
 /zufallsprinzip ausgewählt.{1,10}um eine zuwendung/i
 
 /zuschuss.{1,10}investitions.?fonds/i
