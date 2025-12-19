@@ -63,6 +63,8 @@
 
 /(company|factory|supplier) of.{1,10}electronic components since/i
 
+/(capacitors?|resistors?).{1,15}supplier since/i
+
 # D
 # ------------------------------------------------------------------------------
 /discover our stunning.{1,15}(acrylic|furniture)/i
@@ -91,6 +93,7 @@
 # I
 # ------------------------------------------------------------------------------
 /is.{1,10}well.{1,10}established.{1,10}(company|factory|supplier) of /i
+/is a professional iso \d{4,5}/i
 
 # J
 # ------------------------------------------------------------------------------

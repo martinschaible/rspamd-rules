@@ -14,22 +14,28 @@
 # ==============================================================================
 
 # A
+# ------------------------------------------------------------------------------
 /(angebot|arten von).{1,10}(darlehen|kredit)/i
 /angebot.{1,10}betriebsmittelkredit/iu
 
 /(akkreditiert(es)?|spezielles).{1,15}kreditangebot/i
 
 # B
+# ------------------------------------------------------------------------------
 /(beantragen|benötigen|brauchen|erhalten) sie.{1,15}(finanz|darlehen|kredit)/i
-/benötigen sie.{1,15}(unternehmer|privatperson).{1,15}finanzierung/iu
-/benötigen persönlichen/iu
+
+/(benötigen|brauchen) sie.{1,20}geschäfts.{1,10}privatdarlehen/iu
+/(benötigen|brauchen) sie.{1,15}(unternehmer|privatperson).{1,15}finanzierung/iu
+/(benötigen|brauchen) persönlichen/iu
 
 /bietet.{1,15}(langfristige|kurzfristige).{1,10}(darlehen|kredite)/i
 /(billiger|geldsorgen).{1,10}(privat|schnell)?(darlehen|kredite)/i
 
 # C
+# ------------------------------------------------------------------------------
 
 # D
+# ------------------------------------------------------------------------------
 /darlehen\d/i
 
 /(darlehen|kredit).{1,10}ab.{1,10}(fest)?zins/i
@@ -53,9 +59,11 @@
 /dringend(es)?.{1,10}(darlehen|kredit)/i
 
 # E
+# ------------------------------------------------------------------------------
 /eilkredit beantragen/i
 
 # F
+# ------------------------------------------------------------------------------
 /finanzhilfe innerhalb von.{1,10}stunden/i
 /finanzielle mitteilung/i
 
@@ -69,6 +77,7 @@
 /finanzierungsoption(en)?.{1,15}zinssatz/i
 
 # G
+# ------------------------------------------------------------------------------
 /garantieangebot jetzt beantragen/i
 
 /geld zum besten zinssatz/i
@@ -79,14 +88,17 @@
 /günstiges.{1,10}kreditangebot/iu
 
 # H
+# ------------------------------------------------------------------------------
 /holen sie sich.{1,10}finanzielle/i
 
 # I
+# ------------------------------------------------------------------------------
 /ihre.{1,10}(darlehen|kredit).{1,10}sind/i
 /ihre.{1,10}festgeldanlage sichern/i
 /ihre.{1,10}finanzielle unterstützung/iu
 
 # J
+# ------------------------------------------------------------------------------
 /jetzt.{1,5}\d(,|.)\d.{1,5}zinsen/i
 /jetzt.{1,10}finanzieren/i
 /jetzt.{1,10}prozent zinsen sichern/i
@@ -94,6 +106,7 @@
 /jetzt unverbindlich anfragen/i
 
 # K
+# ------------------------------------------------------------------------------
 /kostenlose.{1,10}kreditanfrage/i
 /kostenloses?.{1,10}finanz.?darlehen/i
 
@@ -106,25 +119,33 @@
 /\d% kredit(angebot)?/i
 
 # L
+# ------------------------------------------------------------------------------
 /leihen sie sich geld/i
 /loan.?darlehen/i
 
 # M
+# ------------------------------------------------------------------------------
 
 # N
+# ------------------------------------------------------------------------------
 
 # O
+# ------------------------------------------------------------------------------
 
 # P
+# ------------------------------------------------------------------------------
 /privat.{1,10}geschäftskredit/iu
 
 /profitieren sie von einem.{1,15}(darlehen|kredit)/i
 
 # Q
+# ------------------------------------------------------------------------------
 
 # R
+# ------------------------------------------------------------------------------
 
 # S
+# ------------------------------------------------------------------------------
 /schnelle?.{1,10}kredit/i
 /seriös.{1,10}kredit/i
 
@@ -139,13 +160,17 @@
 /suchen?.{1,10}nach.{1,10}(darlehen|kapital|kredit)/i
 
 # T
+# ------------------------------------------------------------------------------
 /top.{1,10}(darlehen|kredit).{1,10}nur/i
 
 # U
+# ------------------------------------------------------------------------------
 
 # V
+# ------------------------------------------------------------------------------
 
 # W
+# ------------------------------------------------------------------------------
 /wettbewerbsfähig.{1,10}kredit/i
 /wie zu mehr geld/i
 
@@ -153,10 +178,13 @@
 /wir helfen.{1,10}(bei der finanzierung|ihnen zu einem kredit)/i
 
 # X
+# ------------------------------------------------------------------------------
 
 # Y
+# ------------------------------------------------------------------------------
 
 # Z
+# ------------------------------------------------------------------------------
 /zinssatz.{1,10}schnelle genehmigung/i
 /(zinsgünstig|zuverlässig).{1,10}(darlehen|kredit)/i
 /zuverlässige.{1,10}finanzierung/iu

@@ -30,6 +30,8 @@
 
 /bestätigen sie ihre lieferadresse/iu
 
+/(bearbeitungs|zoll).?leistungen anfallen.{1,10}die.{1,10}bestätigt werden müssen/iu
+
 # C
 # ------------------------------------------------------------------------------
 
@@ -123,7 +125,9 @@
 /(paket|sendung).{1,15}werden dem importeur/iu
 /(paket|sendung).{1,10}wird.{1,15}in unserem logistikzentrum festgehalten/i
 
-/(paket|sendung).{1,10}wurde.{1,10}bearbeitet.{1,10}ist auf dem weg/i
+/(paket|sendung).{1,10}wurde.{1,10}(bearbeitet|registriert).{1,10}ist auf dem weg/i
+/(paket|sendung).{1,10}wurde.{1,10}(bearbeitet|registriert).{1,10}befindet sich.{1,15}im lieferprozess/i
+
 /(paket|sendung).{1,20}wurde.{1,10}eine unstimmigkeit festgestellt/i
 /(paket|sendung).{1,10}wurde.{1,10}erfolgreich.{1,10}(verarbeitet|verteilzentrum)/i
 /(paket|sendung).{1,15}wurde.{1,20}in der schweiz (verarbeitet|zugestellt)/i

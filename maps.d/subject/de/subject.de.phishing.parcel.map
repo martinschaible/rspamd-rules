@@ -126,12 +126,12 @@
 /ihr dh-paket/i
 
 /ihre?.{1,10}(lieferung|paket|sendung).{1,10}braucht sie/i
-#/ihre?.{1,10}(lieferung|paket|sendung).{1,10}ist.{1,10}(blockiert|erfolgt)/i
+#/ihre?.{1,10}(lieferung|paket|sendung).{1,10}ist.{1,10}(da|blockiert|erfolgt)/i
 /ihre?.{1,10}(lieferung|paket|sendung).{1,10}ist.{1,10}blockiert/i
 /ihre?.{1,10}(lieferung|paket|sendung).{1,10}ist.{1,10}in Bearbeitung/i
 /(deine?|ihre?).{1,10}(lieferung|paket|sendung).{1,10}ist fast da/i
-#/ihre?.{1,10}(lieferung|paket|sendung).{1,10}ist.{1,10}da/i
 /ihre?.{1,10}(lieferung|paket|sendung).{1,10}konnte nicht zugestellt werden/i
+/ihre?.{1,10}(lieferung|paket|sendung).{1,10}statusaktualisierung/i
 /ihre?.{1,10}(lieferung|paket|sendung).{1,10}wartet/i
 #/ihre?.{1,10}(lieferung|paket|sendung).{1,10}wird (versendet|zugestellt)/i
 /ihre?.{1,10}(lieferung|paket|sendung).{1,10}wird versendet/i

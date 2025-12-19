@@ -22,7 +22,7 @@
 /memory.{0,10}master/i
 /memory.{0,10}protection/i
 /memory.{0,10}(recovery|report|research|restore|revival|revive)/i
-/memory.{0,10}(saver|saving|secret|solution|strengthener|tonic)/i
+/memory.{0,10}(saver|saving|secret|solution|strengthener|support|tonic)/i
 /memory.{0,10}vitamins?/i
 
 /(boost|excellent|fading|focus|future|perfect|poor|restore|sharp|your).{0,10}memory/i
@@ -205,7 +205,7 @@
 /\d{1,2}.?(lbs?|pounds).{0,10}(month|week)/i
 
 /slim.{0,10}(belly|body|down|waist)/i
-/(metabolic|surprising).{0,10}water/i
+/(metabolic|slim|surprising).{0,10}water/i
 
 /diet.{0,10}caps/i
 /(diet|k2|man|slimm).{0,10}(capsule|fix|gummies¬hack|plan|trick|water)/i
@@ -394,7 +394,7 @@
 
 /carb.{0,10}(control|secrets?|tricks?)/i
 /cardiac.{0,10}(clock|health)/i
-/cardio.{0,10}(boost|coach|health|kitchen|wellness)/i
+/cardio.{0,10}(boost|coach|health|insights|kitchen|wellness)/i
 /care.{0,10}secret/i
 /cartilage.{0,10}care/i
 
@@ -482,7 +482,7 @@
 /digestive.{0,10}(support|system)/i
 /digestion/i
 
-/dinner.{0,10}secret/i
+/dinner.{0,10}(ritual|secret)/i
 
 /discover.{0,15}today/i
 /discovery.{0,10}report/i

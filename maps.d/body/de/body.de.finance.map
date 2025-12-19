@@ -24,6 +24,8 @@
 /beantragen sie ein(en)?.{1,10}(dringend)?.{1,10}(darlehen|kredite?)/i
 
 /(benötigen|brauchen) sie.{1,15}ein darlehen/iu
+/(benötigen|brauchen) sie.{1,20}geschäfts.{1,10}privatdarlehen/iu
+
 /(benötigen|brauchen) sie.{1,15}einen.{1,15}kredit/i
 /(benötigen|brauchen) sie.{1,10}finanzielle unterstützung/iu
 /(benötigen|brauchen) sie.{1,10}geld.{1,10}um (ein|ihre?)/i
