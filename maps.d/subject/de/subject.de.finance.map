@@ -39,6 +39,7 @@
 /darlehen\d/i
 
 /(darlehen|kredit).{1,10}ab.{1,10}(fest)?zins/i
+/(darlehen|kredit).{0,10}angebot!/i
 /(darlehen|kredit).{0,10}angebot \d/i
 /(darlehen|kredit).{1,15}(aller? art(en)?|dringend|für \d|zu|leicht gemacht|wir helfen)/iu
 /(darlehen|kredit).{1,15}finanzierung/i
