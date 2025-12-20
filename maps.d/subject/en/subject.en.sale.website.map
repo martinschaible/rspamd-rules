@@ -92,6 +92,7 @@
 
 # M
 /makeover.{1,10}(homepage|web.?site)/i
+/maximize your.{1,10}(homepage|web.?site)/i
 
 # N
 
@@ -143,6 +144,7 @@
 /we are.{1,10}(developer|web.?design)/i
 
 /web.{1,10}(design(ing)?|development).{1,15}(offer|proposal|service)/i
+/web.?design.{1,10}seo/i
 
 /web.{1,5}applications?/i
 /web.{1,5}proposal/i
