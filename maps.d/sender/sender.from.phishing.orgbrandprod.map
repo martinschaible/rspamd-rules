@@ -161,6 +161,7 @@
 /(dhl|dpd|fedex|gls|ups)_paket/i
 /(dhl|dpd|fedex|gls|ups).{0,5}\d{1,2}/i
 
+/(dhl|dpd|fedex|gls|ups).{0,5}abteilung/i
 /(dhl|dpd|fedex|gls|ups).{0,5}clearance/i
 /(dhl|dpd|fedex|gls|ups).{0,5}delivery express/i
 /(dhl|dpd|fedex|gls|ups).{0,10}helpdesk/i

@@ -68,6 +68,7 @@
 /(home.?page|web.?site).{1,10}design(ing)?.?!/i
 /(home.?page|web.?site).{1,10}development.{1,10}(redesign|solutions?)/i
 /(home.?page|web.?site).{1,10}for \d{2}% off/i
+/(home.?page|web.?site).{1,10}maintenance contracts?/i
 /(home.?page|web.?site).{1,10}need.{1,10}update/i
 /(home.?page|web.?site).{1,10}re.?(build|design)(ing)?/i
 /(home.?page|web.?site).{1,10}(overhaul|quotation|re.?make|renew|revamping|upgrade|upgrading)/i
