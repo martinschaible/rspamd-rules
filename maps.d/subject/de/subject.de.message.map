@@ -200,7 +200,8 @@
 /nachricht.{1,10}ref\b/i
 /nachricht wichtig/i
 
-/neue nachricht von (der|einer)/i
+#/neue nachricht von (der|einer)/i
+/neue nachricht von einer/i
 
 /notwendige benachrichtigung/i
 

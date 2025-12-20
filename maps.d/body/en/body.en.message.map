@@ -12,7 +12,8 @@
 # Attention, Important, Urgent
 # ------------------------------------------------------------------------------
 /(attn|attention).{1,10}dear.{1,10}(customer|valued)/i
-/(attn|attention).{1,10}(dear|please)/i
+#/(attn|attention).{1,10}(dear|please)/i
+/(attn|attention).{1,10}dear/i
 /(attn|attention).{1,10}bénéficiaire/iu
 
 /(attn|attention).{1,10}e?.?mail.{1,15}owner/i
