@@ -42,18 +42,6 @@
 
 # Loans
 # ------------------------------------------------------------------------------
-/loans?.{1,10}apply/i
-/loans?.{1,10}for your.{1,10}(business|personal)/i
-/loans?.{1,10}small.{1,10}medium business(es)/i
-/loans?.{1,10}options.{1,15}feel free to contact/i
-/loans?.{1,10}offer at.{1,10}interest rate/i
-/loans?.{1,10}offer.{1,10}with.{1,10}perfect/i
-/loans?.{1,15}that will help you/i
-/loans?.{1,10}unsecured.{1,15}funding/i
-/loans?.{1,10}we (manage|offer competitive)/i
-/loans?.{1,10}you can.{1,10}get up/i
-/loans?.{1,10}your needs/i
-
 /exclusives?.loans?/i
 
 /apply for.{1,10}(business|corporate|personal).{1,10}loans?/i
@@ -62,20 +50,6 @@
 /incredibler.{1,10}loan opportunity/i
 
 /need.{1,10}loan.{1,10}million (dollar|euro)/i
-
-/we.{1,10}(give|issuing|offer|offering|provide|source).{1,15}loans?.{1,10}all purposes/i
-/we.{1,10}(give|issuing|offer|offering|provide|source).{1,15}loans?.{1,10}at.{1,10}interest/i
-/we.{1,10}(give|issuing|offer|offering|provide|source).{1,15}loans?.{1,10}(acquisition|contact|funding|projects)/i
-/we.{1,10}(give|issuing|offer|offering|provide|source).{1,15}loans?.{1,10}(for|to)/i
-/we.{1,10}(give|issuing|offer|offering|provide|source).{1,10}loans?.{1,10}as debt/i
-
-/we.{1,10}(give|issuing|offer|offering|provide|source).{1,15}(debt|financing|non.?recourse).{1,10}loans/i
-/we.{1,10}(give|issuing|offer|offering|provide|source).{1,15}(business|corporate|home|personal).{1,15}loans?/i
-/we.{1,10}(give|issuing|offer|offering|provide|source).{1,15}(all kinds|various types) of.{1,15}loans?/i
-/we.{1,10}(give|issuing|offer|offering|provide|source).{1,15}unbeatable.{1,10}loan/i
-
-/we.{1,10}(give|issuing|offer|offering|provide|source).{1,10}student.?loans?/i
-
 
 /we have.{1,15}available.{1,10}funds/i
 /we are.{1,10}giving.{1,15}loan grants/i
@@ -117,12 +91,6 @@
 
 # Financing, Investing
 # ------------------------------------------------------------------------------
-/we.{1,10}(give|issuing|offer|offering|provide).{1,10}financing/i
-
-/we.{1,10}(give|issuing|offer|offering|provide).{1,10}personal.{1,10}business.{1,10}financial/i
-/we.{1,10}(give|issuing|offer|offering|provide).{1,10}independent.{1,10}(financial|funding)/i
-/we.{1,10}(give|issuing|offer|offering|provide).{1,20}(financial|strategic).{1,10}advisory services/i
-
 /we are.{1,10}seeking to finance/i
 /we are.{1,10}high profile investors/i
 /we are.{1,10}willing.{1,10}(give|issuing|offer|offering|provide).{1,10}financing/i
@@ -156,9 +124,6 @@
 /you need.{1,15}financial.{1,15}offer/i
 
 /your company needs?.{1,10}funding/i
-
-# Forms
-# ------------------------------------------------------------------------------
 
 # Funding
 # ------------------------------------------------------------------------------
