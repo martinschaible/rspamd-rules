@@ -7,7 +7,7 @@
 # ==============================================================================
 
 # Cloud  Storage
-# -----------------------------------------------------------------------------
+# ------------------------------------------------------------------------------
 /cloud.{1,10}speicher.{1,10}kritisch voll/i
 /cloud.{1,10}speicher ist voll.{1,10}dateien in gefahr/i
 /cloud.{1,10}speicher sind da/i
@@ -28,10 +28,12 @@
 # ==============================================================================
 
 # TLD in front, usualy (ch|com|de|org)
+# ------------------------------------------------------------------------------
 /\.[a-z]{1,4}.{1,10}wichtiger hinweis/i
 /\.[a-z]{1,4}.{1,10}zur beendigung vorgemerkt/i
 
 # A
+# ------------------------------------------------------------------------------
 /adressdaten ihres unternehmens aktualisieren/i
 
 /aktualisierung.{1,15}teilnahmebedingungen/i
@@ -55,6 +57,7 @@
 /antrag auf identifizierung/i
 
 # B
+# ------------------------------------------------------------------------------
 /benachrichtigung.{1,15}kundenservice/i
 
 /bestätigung benötigt/iu
@@ -72,8 +75,10 @@
 /betreff.{1,10}prüfen sie/iu
 
 # C
+# ------------------------------------------------------------------------------
 
 # D
+# ------------------------------------------------------------------------------
 /datensatz.{1,10}mitgliedsunternehmen/i
 /^datenätze aktualisieren/iu
 
@@ -86,6 +91,7 @@
 /dringende.{1,10}notwendige mahnung/i
 
 # E
+# ------------------------------------------------------------------------------
 /e.?vignette.{1,5}ref/i
 /e.?vignette.{1,10}service unterbrochen/i
 
@@ -103,6 +109,7 @@
 /erneuern.{1,5}\(#[a-z0-9]{4,8}\)/i
 
 # F
+# ------------------------------------------------------------------------------
 
 # 19.05.25 - Sample: Finanznachrichten im Juni - 225292232502
 /finanznachrichten im.{1,20}\d{10,20}/i
@@ -115,6 +122,7 @@
 /fur unsere leistungen/i
 
 # G
+# ------------------------------------------------------------------------------
 /geben sie ihre telefonnummer innerhalb/i
 /gemeldeten ordnungswidrigkeit/i
 
@@ -126,9 +134,11 @@
 /gwünne e/i
 
 # H
+# ------------------------------------------------------------------------------
 /hinweis zur.{1,15}(datenpflege|systemintegrität)/iu
 
 # I
+# ------------------------------------------------------------------------------
 /(ihr|lhr).{1,20}ist nicht mehr (gültig|gultig)/i
 
 /ihr speicher wird entfernt/i
@@ -158,34 +168,41 @@
 /interface aktualisiert werden/i
 
 # J
+# ------------------------------------------------------------------------------
 /jährliche bestätigung.{1,10}(geschäfts|unternehmens)?adresse/iu
 
 # K
+# ------------------------------------------------------------------------------
 /kundendaten.{1,10}benötigen eine aktualisierung/iu
 /kundendaten.{1,10}sind (abgelaufen|veraltet)/i
 
 /kundenservice von/i
 
 # Paypal
+# ------------------------------------------------------------------------------
 /kontoauszug für.{1,10}ist verfügbar.{1,10}ref/iu
 
 /kurze datenprüfung.{1,10}erforderlich/iu
 
 # L
+# ------------------------------------------------------------------------------
 /lastschriftmandat jetzt bestätigen/iu
 
 /login im kundenportal.{1,10}empfohlen/i
 /login.?versuch.{1,10}alarm/i
 
 # M
+# ------------------------------------------------------------------------------
 /mitteilung zu ihrem zugang/i
 
 # N
+# ------------------------------------------------------------------------------
 /neues update identifiziert/i
 /neues wichtiges update/i
 /neuigkeiten zu ihrem swisspass/i
 
 # O
+# ------------------------------------------------------------------------------
 /offizielle.{1,10}sicherheitsmitteilung/i
 /ohne verifizierung keine.{1,20}möglich/iu
 /online.?dienste sind eingestellt/i
@@ -193,12 +210,15 @@
 /ordnungsverfahren.{1,10}datenüberprüfung/iu
 
 # P
+# ------------------------------------------------------------------------------
 /punkte gehen am.{1,15}verloren/i
 /punkte laufen bald ab.{1,10}jetzt einlösen/iu
 
 # Q
+# ------------------------------------------------------------------------------
 
 # R
+# ------------------------------------------------------------------------------
 /rechnung.{1,15}nr\..{1,10}\d{4,15}.{1,10}rstellt/i
 
 /rechtliche mitteilung.{1,10}firmendaten/i
@@ -210,6 +230,9 @@
 # Fake court
 /rechtlicher hinweis/i
 
+# Paypal
+/referenznummer.{1,5}pp/i
+
 # Google Speicher
 /reaktivieren sie ihre dienste/i
 
@@ -217,6 +240,7 @@
 /rundschreiben.?[0-9a-z]{4}-[0-9a-z]{4}/i
 
 # S
+# ------------------------------------------------------------------------------
 /schutz ohne unterbrechung fortzusetzen/i
 
 /serviceportal \(\d\)/i
@@ -228,11 +252,13 @@
 /sind momentan vorübergehend gesperrt/iu
 
 # T
+# ------------------------------------------------------------------------------
 
 # Paypal
 /transaktionshistorie freigegeben.{1,10}ref/i
 
 # U
+# ------------------------------------------------------------------------------
 
 /unternehmensdaten.{1,10}müssen bestätigt/iu
 /unternehmensinformationen zur bestätigung/iu
@@ -244,6 +270,7 @@
 /übersicht ihrer unternehmensinformationen/iu
 
 # V
+# ------------------------------------------------------------------------------
 /verbindliche anweisung zum jahresabschluss/i
 
 # Google Speicher
@@ -256,6 +283,7 @@
 /^vorübergehende aussetzung/iu
 
 # W
+# ------------------------------------------------------------------------------
 /wartet auf ihre eingabe/i
 
 /wichtige überprüfung ihrer.{1,10}einstellungen/iu
@@ -265,10 +293,13 @@
 /wir benötigen ein.{1,10}update von ihnen/iu
 
 # X
+# ------------------------------------------------------------------------------
 
 # Y
+# ------------------------------------------------------------------------------
 
 # Z
+# ------------------------------------------------------------------------------
 /zahlung.{1,10}sofortige unterstützung/iu
 
 /zugang wartet auf ihre zahlung/i
