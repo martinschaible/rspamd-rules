@@ -61,6 +61,7 @@
 /ihre adressdaten unverzüglich.{1,10}überprüfen/iu
 
 /information zu ihrer sendung.{1,10}hallo/i
+/information zum zollstatus ihrer sendung/i
 
 # J
 # ------------------------------------------------------------------------------
@@ -109,8 +110,8 @@
 /(paket|sendung).{1,15}ist fast zugestellt/i
 
 /(paket|sendung).{1,10}ist im.{1,15}paketshop/i
-/(paket|sendung).{1,10}ist im.{1,10}(empfangsland|zielland).{1,10}(angekommen|eingetroffen)/i
-/(paket|sendung).{1,10}ist in.{1,10}(deutschland|schweiz).{1,10}(angekommen|eingetroffen)/i
+/(paket|sendung).{1,10}ist im.{1,20}(empfangsland|zielland|verteilzentrum).{1,10}(angekommen|eingetroffen)/i
+/(paket|sendung).{1,10}ist in.{1,15}(deutschland|schweiz).{1,10}(angekommen|eingetroffen)/i
 /(paket|sendung).{1,10}ist in.{1,25}(postfiliale|zollstelle).{1,10}(angekommen|eingetroffen)/i
 /(paket|sendung).{1,10}ist in.{1,25}internationalen verteilzentrum/i
 

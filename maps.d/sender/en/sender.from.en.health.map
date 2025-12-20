@@ -997,6 +997,7 @@
 
 /stay.{0,10}(asleep|hard|slim)/i
 /steady.{0,10}steps/i
+/stiff.{0,10}(joints|painful)/i
 /stinky.{0,10}breath/i
 
 /stop the/i
@@ -1077,7 +1078,7 @@
 
 /urinary.{0,10}(fix|help|incontinence)/i
 /urine?.{0,10}(flow|leaks?)/i
-/urology.{0,10}expert/i
+/urology.{0,10}(expert|research)/i
 
 # V
 # ------------------------------------------------------------------------------
@@ -1093,7 +1094,7 @@
 /virility.{0,10}expert/i
 /virus.{0,10}cure/i
 
-/vital(ity)?.{0,10}(fix|health|now)/i
+/vital(ity)?.{0,10}(fix|health|now|stats)/i
 /vitamin.{0,10}recall/i
 
 /vitiligo.{0,10}solution/i

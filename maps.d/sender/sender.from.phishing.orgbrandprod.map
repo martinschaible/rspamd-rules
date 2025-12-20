@@ -189,7 +189,7 @@
 /(info|my).{0,5}(dhl|dpd|fedex|gls|ups)/i
 
 /paket.{0,5}(dhl|dpd|fedex|gls|ups)/i
-/paket.?(dienst|service).{0,5}(dhl|dpd|fedex|gls|ups)/i
+/paket.?(dienst|service|status).{0,5}(dhl|dpd|fedex|gls|ups)/i
 
 # Products
 # ------------------------------------------------------------------------------

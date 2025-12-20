@@ -152,6 +152,7 @@
 /(import|zoll).?gebühren für.{1,10}(lieferung|paket|sendung)/iu
 /(import|zoll).?gebühren in höhe von.{1,10}offen/iu
 
+/information zu ihrer.{1,10}internationalen sendung/i
 /information zu ihrer.{1,10}paketnummer/i
 /internationaler.{1,10}poststatus/i
 

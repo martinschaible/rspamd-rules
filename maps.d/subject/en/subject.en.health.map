@@ -630,7 +630,7 @@
 
 # P
 # ------------------------------------------------------------------------------
-/pain free.{1,10}joints/i
+/pain.?free.{1,10}joints/i
 /pain in.{1,10}minutes?/i
 
 /pain.{1,15}(after|do) this/i
@@ -708,6 +708,7 @@
 
 /reset.{1,10}gut/i
 
+/rest.{1,10}signals?/i
 /restores?.{1,10}(brain|gut|hearing|help|joint|memory|nerve|perfect|teeth)/i
 
 /reveals hidden.{1,10}(food|triggers)/i
