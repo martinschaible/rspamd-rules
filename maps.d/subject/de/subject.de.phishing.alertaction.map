@@ -416,6 +416,8 @@
 
 /letzte erinnerung.{1,10}daten (aktualisieren|bestätigen)/i
 
+/letzte erinnerung.{1,10}identifikation/i
+
 /letzte erinnerung.{1,10}nur solange der vorrat reicht/i
 
 /letzte (aufforderung|erinnerung).{1,20}ihr(es)?.{1,15}(konto|speicher)/i
@@ -461,7 +463,7 @@
 # ------------------------------------------------------------------------------
 /maßnahme notwendig vor dem/i
 
-/mitteilung zu ihrem geräteschutz/iu
+/(meldung|mitteilung) zu ihrem geräteschutz/iu
 
 # N
 # ------------------------------------------------------------------------------
@@ -702,12 +704,13 @@
 /wichtige?.{1,10}sicherheitsaktualisierung/i
 /wichtige?.{1,10}sicherheitsanpassung/i
 
-/wichtige?.{1,10}(sicherheitsinformation|sicherheitsmitteilung|sicherheitswarnung).{1,10}ihr(em)?.{1,15}konto/i
-/wichtige?.{1,10}(sicherheitsinformation|sicherheitsmitteilung|sicherheitswarnung).{1,10}ihre.{1,15}kreditkarte/i
-/wichtige?.{1,10}(sicherheitsinformation|sicherheitsmitteilung|sicherheitswarnung).{1,10}infizierte dateien/i
-/wichtige?.{1,10}(sicherheitsinformation|sicherheitsmitteilung|sicherheitswarnung).{1,10}zugriff auf ihr.{1,15}eingeschränkt/iu
-/wichtige?.{1,10}(sicherheitsinformation|sicherheitsmitteilung|sicherheitswarnung).{1,10}kontosperrung/i
-/wichtige?.{1,10}(sicherheitsinformation|sicherheitsmitteilung|sicherheitswarnung).{1,10}zu ihrem/i
+/wichtige?.{1,10}(sicherheitsinformation|sicherheitsmeldung|sicherheitsmitteilung|sicherheitswarnung).{1,10}geräteschutz/i
+/wichtige?.{1,10}(sicherheitsinformation|sicherheitsmeldung|sicherheitsmitteilung|sicherheitswarnung).{1,10}ihr(em)?.{1,15}konto/i
+/wichtige?.{1,10}(sicherheitsinformation|sicherheitsmeldung|sicherheitsmitteilung|sicherheitswarnung).{1,10}ihre.{1,15}kreditkarte/i
+/wichtige?.{1,10}(sicherheitsinformation|sicherheitsmeldung|sicherheitsmitteilung|sicherheitswarnung).{1,10}infizierte dateien/i
+/wichtige?.{1,10}(sicherheitsinformation|sicherheitsmeldung|sicherheitsmitteilung|sicherheitswarnung).{1,10}zugriff auf ihr.{1,15}eingeschränkt/iu
+/wichtige?.{1,10}(sicherheitsinformation|sicherheitsmeldung|sicherheitsmitteilung|sicherheitswarnung).{1,10}kontosperrung/i
+/wichtige?.{1,10}(sicherheitsinformation|sicherheitsmeldung|sicherheitsmitteilung|sicherheitswarnung).{1,10}zu ihrem/i
 
 /wichtige?.{1,10}sicherheitsmaßnahme/i
 

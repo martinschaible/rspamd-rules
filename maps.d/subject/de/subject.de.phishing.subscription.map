@@ -80,10 +80,12 @@
 /(computer|gerät|system).{1,10}ist einer hohen sicherheitsbedrohung/iu
 /(computer|gerät|system).{1,10}jetzt (absichern|erneuern)/iu
 /(computer|gerät|system).{1,10}könnte gefährdet sein/iu
+/(computer|gerät|system).{1,10}verfügt.{1,15}über keinen.{1,15}schutz/iu
 /(computer|gerät|system).{1,10}wurde mit.{1,10}viren infiziert/i
 
 # D
 # ------------------------------------------------------------------------------
+/dateien auf ihrem.{1,10}gerät(computer|gerät|system).{1,10}sind infiziert/iu
 
 # E
 # ------------------------------------------------------------------------------
@@ -101,7 +103,8 @@
 
 # G
 # ------------------------------------------------------------------------------
-/dateien auf ihrem.{1,10}gerät(computer|gerät|system).{1,10}sind infiziert/iu
+/geräteschutz derzeit inaktiv/iu
+
 
 # H
 # ------------------------------------------------------------------------------
