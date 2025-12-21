@@ -24,7 +24,7 @@
 # Generic
 # ==============================================================================
 
-/\d{2,6} (euro|usd) (binance|btc|upbit)/i
+/\d{2,6} (euro|usd) (binance|btc|trade|upbit)/i
 
 # 29.06.25 - Sample: www.koiyvf.blogspot.ch - 1.353244 BTC
 /\.[a-z]{1,3} - \d\.\d{4,10} btc/i
