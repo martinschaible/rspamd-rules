@@ -104,6 +104,7 @@
 
 /(paket|sendung).{1,10}ist unterwegs.{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
 /(gewinnen sie das|gratis).{1,10}(airpods|apple|ipad|iphone|macbook|watch ultra)/i
+/du hast ein.{1,20}iphone.{1,20}gewonnen/i
 
 # Deutsche Bahn
 /gratis.{1,10}bahngutschein zu erhalten/i
