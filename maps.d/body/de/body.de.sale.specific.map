@@ -30,12 +30,14 @@
 /(auto|fahrzeug|kfz|lkw|pkw|wagen).{1,10}zum verkauf haben/i
 
 
-/(ich|wir) kaufen?.{1,10}(auto|fahrzeug|kfz|lkw|pkw|wagen).{1,10}(aller art|guten tag)/i
-/(ich|wir) kaufen?.{1,10}(auto|fahrzeug|kfz|lkw|pkw|wagen).{1,10}von jeder Marke/i
+/(ich|wir) kaufen?.{1,10}(auto|fahrzeug|kfz|lkw|pkw|wagen).{1,10}(aller|jeder) (art|marken)/i
+/(ich|wir) kaufen?.{1,10}(auto|fahrzeug|kfz|lkw|pkw|wagen).{1,10}guten tagi
 
 /(ich|wir) kaufen?.{1,10}gebrauchte.{1,15}(auto|fahrzeug|kfz|lkw|pkw|wagen)/i
 /(ich|wir) kaufen?.{1,10}(auto|fahrzeug|kfz|lkw|pkw|wagen).{1,10}mit unfallschäden/ui
 
+/fahrzeugankauf bundesweit/i
+/professionellen fahrzeugankauf/i
 /unabhängig.{1,10}kilometerstandes.{1,10}zustand/iu
 /unkomplizierten ankauf.{1,10}gebrauchte?.{1,10}(auto|fahrzeug|kfz|lkw|pkw|wagen)/i
 

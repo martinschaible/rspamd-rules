@@ -84,6 +84,7 @@
 /financial solutions for/i
 /financial support for you/i
 
+/financing at.{1,10}fixed rate/i
 /financing for your.{1,15}(business|projects?)/i
 /financing opportunities/i
 
@@ -155,6 +156,8 @@
 /^loans?.{1,5}offer/i
 
 /loans?.{1,10}up to/i
+
+/long.?term.{1,15}(expansion|project).{1,15}financing/i
 
 # M
 # ------------------------------------------------------------------------------
