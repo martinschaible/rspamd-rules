@@ -36,7 +36,8 @@
 /(burn|drop|erase|lose|melt|remove|shed).{1,10}in.{1,10}weeks/i
 
 /(about|affects|big|blocking|boost|celeb|daily|easy|fast|for).{1,15}(fat|weight).?(burn(ing)?|loss)/i
-/(hidden|massive|method|overnight|rapid|real|simple|steady|try this|your).{1,15}(fat|weight).?(burn(ing)?|loss)/i
+/(hidden|massive|method|overnight|rapid|real|try this|your).{1,15}(fat|weight).?(burn(ing)?|loss)/i
+/(simple|speed.?up|steady).{1,15}(fat|weight).?(burn(ing)?|loss)/i
 
 /add inches.{1,15}waistline/i
 /body burns fat/i

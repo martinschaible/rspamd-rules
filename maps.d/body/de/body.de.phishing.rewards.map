@@ -75,11 +75,23 @@
 
 # B
 # ------------------------------------------------------------------------------
-/(belohnung|geschenk|gutschein|gewinn|preis).{1,10}ein (brandneuer|brandneues)/i
-/(belohnung|geschenk|gutschein|gewinn|preis).{1,15}(anfordern|freigeschaltet|freischalten)/i
 /(belohnung|geschenk|gutschein|gewinn|preis).{1,10}an den nächsten teilnehmer/iu
+/(belohnung|geschenk|gutschein|gewinn|preis).{1,15}(anfordern|freigeschaltet|freischalten)/i
+/(belohnung|geschenk|gutschein|gewinn|preis).{1,10}ein (brandneuer|brandneues)/i
+/(belohnung|geschenk|gutschein|gewinn|preis).{1,10}für sie.{1,10}sie ausgewählt wurden/iu
+/(belohnung|geschenk|gutschein|gewinn|preis).{1,10}ihren individuellen zugang/i
+/(belohnung|geschenk|gutschein|gewinn|preis).{1,10}in anspruch zu nehmen/i
+/(belohnung|geschenk|gutschein|gewinn|preis).{1,10}in beschränkter zahl verfügbar/iu
+/(belohnung|geschenk|gutschein|gewinn|preis).{1,10}in nur wenigen tagen erhalten/i
 /(belohnung|geschenk|gutschein|gewinn|preis).{1,10}innerhalb von.{1,10}stunden erhalten/i
+/(belohnung|geschenk|gutschein|gewinn|preis).{1,10}ist noch nicht beansprucht/i
+/(belohnung|geschenk|gutschein|gewinn|preis).{1,10}sind limitiert/i
+/(belohnung|geschenk|gutschein|gewinn|preis).{1,15}sie hinterlegt wurde/i
+/(belohnung|geschenk|gutschein|gewinn|preis).{1,10}sie verfügbar sind/iu
+#/(belohnung|geschenk|preis).{1,10}wartet auf sie/i
+/(belohnung|geschenk|gutschein|preis).{1,10}wartet auf sie/i
 /(belohnung|geschenk|gutschein|gewinn|preis).{1,10}wurde noch nicht/i
+
 
 /bestätigen sie.{1,10}ihre.{1,15}prämie/i
 /bestätigen sie innerhalb der nächsten.{1,15}ihre.{1,15}adresse/i
@@ -160,6 +172,8 @@
 # N
 # ------------------------------------------------------------------------------
 /nach.{1,10}stunden verfällt ihre chance/iu
+
+/wenige stunden verbleiben.{1,15}(belohnung|geschenk|gutschein|gewinn|preis)/i
 
 # O
 # ------------------------------------------------------------------------------
