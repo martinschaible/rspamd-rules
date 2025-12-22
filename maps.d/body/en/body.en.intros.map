@@ -168,7 +168,7 @@
 # ------------------------------------------------------------------------------
 /mine real name is/i
 
-/my names? (are|is) (miss|mrs?)/i
+/my names? (are|is) (miss|ms\b|mrs?)/i
 /my name is.{5,35}a registered/i
 /my name is.{5,25}employee of/i
 /my name is.{5,35}from.{5,25}i was married/i
@@ -280,6 +280,7 @@
 /you with.{1,10}keen hope to open.{1,10}business/i
 
 /your (contact|details|e?.?mail|information|name).{1,10}business directory/i
+/your (contact|details|e?.?mail|information|name).{1,20}during.{1,10}research/i
 /your (contact|details|e?.?mail|information|name).{1,20}(has been|was) provided by google/i
 /your (contact|details|e?.?mail|information|name).{1,10}from.{1,20}business directory/i
 /your (contact|details|e?.?mail|information|name).{1,20}from.{1,15}(data.?base|marketing)/i

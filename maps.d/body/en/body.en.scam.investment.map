@@ -46,6 +46,7 @@
 # I
 # ------------------------------------------------------------------------------
 /i have.{1,15}(client|customer) who has money.{1,15}invest/i
+/i (like|want) to invest in your.{1,10}(company|country|location|nation)/i
 
 /invest(ing)?.{1,10}funds through you/i
 
