@@ -14,69 +14,70 @@
 # Weight:   6.0
 # ==============================================================================
 
-# Generic pattern: detects 3+ letters with zero-width chars between them
+# Generic pattern: detects 3+ letters with obfuscation chars between them
 # Matches obfuscated words regardless of content
 # Using actual UTF-8 characters instead of \x{} syntax for Hyperscan compatibility
 
+# Zero-width characters between letters
 /[a-zäöüß][​‌‍﻿][a-zäöüß][​‌‍﻿][a-zäöüß]/i
 
 # Soft Hyphen obfuscation (HTML &shy; = U+00AD)
 # Spammers insert soft hyphens to break up words: me&shy;ssage&shy;s
 /[a-zäöüß]­[a-zäöüß]­[a-zäöüß]/i
-
-# Specific phishing terms with ONLY zero-width characters
+- require at least 2 obfuscation characters
 # ------------------------------------------------------------------------------
-# Using actual UTF-8 characters for Hyperscan compatibility
+# Patterns require minimum 2 obfuscation chars to avoid false positives
 
-# Aktualisierung / Aktualisieren (mit optionalen Obfuskationszeichen)
-/a[​‌‍﻿­]*k[​‌‍﻿­]*t[​‌‍﻿­]*u[​‌‍﻿­]*a[​‌‍﻿­]*l[​‌‍﻿­]*i[​‌‍﻿­]*s[​‌‍﻿­]*i[​‌‍﻿­]*e[​‌‍﻿­]*r[​‌‍﻿­]*e[​‌‍﻿­]*n/i
+# Aktualisierung / Aktualisieren
+/a[​‌‍﻿­]+k[​‌‍﻿­]*t[​‌‍﻿­]*u[​‌‍﻿­]*a[​‌‍﻿­]+l[​‌‍﻿­]*i[​‌‍﻿­]*s[​‌‍﻿­]*i[​‌‍﻿­]*e[​‌‍﻿­]*r/i
 
-# Bestätigung / Bestätigen (mit optionalen Obfuskationszeichen)
-/b[​‌‍﻿­]*e[​‌‍﻿­]*s[​‌‍﻿­]*t[​‌‍﻿­]*[äa][​‌‍﻿­]*t[​‌‍﻿­]*i[​‌‍﻿­]*g[​‌‍﻿­]*e[​‌‍﻿­]*n/i
+# Bestätigung / Bestätigen
+/b[​‌‍﻿­]+e[​‌‍﻿­]*s[​‌‍﻿­]*t[​‌‍﻿­]+[äa][​‌‍﻿­]*t[​‌‍﻿­]*i[​‌‍﻿­]*g/i
 
-# Dringend (mit optionalen Obfuskationszeichen)
-/d[​‌‍﻿­]*r[​‌‍﻿­]*i[​‌‍﻿­]*n[​‌‍﻿­]*g[​‌‍﻿­]*e[​‌‍﻿­]*n[​‌‍﻿­]*d/i
+# Dringend
+/d[​‌‍﻿­]+r[​‌‍﻿­]*i[​‌‍﻿­]*n[​‌‍﻿­]*g[​‌‍﻿­]+e[​‌‍﻿­]*n[​‌‍﻿­]*d/i
 
-# Kontaktdaten (mit optionalen Obfuskationszeichen)
-/k[​‌‍﻿­]*o[​‌‍﻿­]*n[​‌‍﻿­]*t[​‌‍﻿­]*a[​‌‍﻿­]*k[​‌‍﻿­]*t[​‌‍﻿­]*d[​‌‍﻿­]*a[​‌‍﻿­]*t[​‌‍﻿­]*e[​‌‍﻿­]*n/i
+# Kontaktdaten
+/k[​‌‍﻿­]+o[​‌‍﻿­]*n[​‌‍﻿­]*t[​‌‍﻿­]*a[​‌‍﻿­]+k[​‌‍﻿­]*t/i
 
-# Konto / Kontostand (mit optionalen Obfuskationszeichen)
-/k[​‌‍﻿­]*o[​‌‍﻿­]*n[​‌‍﻿­]*t[​‌‍﻿­]*o/i
+# Konto / Kontostand
+/k[​‌‍﻿­]+o[​‌‍﻿­]*n[​‌‍﻿­]+t[​‌‍﻿­]*o/i
 
-# Kunde (mit optionalen Obfuskationszeichen)
-/k[​‌‍﻿­]*u[​‌‍﻿­]*n[​‌‍﻿­]*d[​‌‍﻿­]*e/i
+# Kunde
+/k[​‌‍﻿­]+u[​‌‍﻿­]*n[​‌‍﻿­]+d[​‌‍﻿­]*e/i
 
-# Kundin (mit optionalen Obfuskationszeichen)
-/k[​‌‍﻿­]*u[​‌‍﻿­]*n[​‌‍﻿­]*d[​‌‍﻿­]*i[​‌‍﻿­]*n/i
+# Kundin
+/k[​‌‍﻿­]+u[​‌‍﻿­]*n[​‌‍﻿­]+d[​‌‍﻿­]*i[​‌‍﻿­]*n/i
 
-# Passwort (mit optionalen Obfuskationszeichen)
-/p[​‌‍﻿­]*a[​‌‍﻿­]*s[​‌‍﻿­]*s[​‌‍﻿­]*w[​‌‍﻿­]*o[​‌‍﻿­]*r[​‌‍﻿­]*t/i
+# Passwort
+/p[​‌‍﻿­]+a[​‌‍﻿­]*s[​‌‍﻿­]*s[​‌‍﻿­]+w[​‌‍﻿­]*o[​‌‍﻿­]*r[​‌‍﻿­]*t/i
 
-# Sicherheit / Sicherheitsmaßnahmen (mit optionalen Obfuskationszeichen)
-/s[​‌‍﻿­]*i[​‌‍﻿­]*c[​‌‍﻿­]*h[​‌‍﻿­]*e[​‌‍﻿­]*r[​‌‍﻿­]*h[​‌‍﻿­]*e[​‌‍﻿­]*i[​‌‍﻿­]*t/i
+# Sicherheit / Sicherheitsmaßnahmen
+/s[​‌‍﻿­]+i[​‌‍﻿­]*c[​‌‍﻿­]*h[​‌‍﻿­]+e[​‌‍﻿­]*r[​‌‍﻿­]*h[​‌‍﻿­]*e[​‌‍﻿­]*i[​‌‍﻿­]*t/i
 
-# Sofort / Sofortig (mit optionalen Obfuskationszeichen)
-/s[​‌‍﻿­]*o[​‌‍﻿­]*f[​‌‍﻿­]*o[​‌‍﻿­]*r[​‌‍﻿­]*t/i
+# Sofort / Sofortig
+/s[​‌‍﻿­]+o[​‌‍﻿­]*f[​‌‍﻿­]+o[​‌‍﻿­]*r[​‌‍﻿­]*t/i
 
-# Überprüfung / Überprüfen (mit optionalen Obfuskationszeichen)
-/[uü][​‌‍﻿­]*b[​‌‍﻿­]*e[​‌‍﻿­]*r[​‌‍﻿­]*p[​‌‍﻿­]*r[​‌‍﻿­]*[uü][​‌‍﻿­]*f[​‌‍﻿­]*e[​‌‍﻿­]*n/i
+# Überprüfung / Überprüfen
+/[uü][​‌‍﻿­]+b[​‌‍﻿­]*e[​‌‍﻿­]*r[​‌‍﻿­]+p[​‌‍﻿­]*r[​‌‍﻿­]*[uü][​‌‍﻿­]*f/i
 
-# Verifizierung / Verifizieren (mit optionalen Obfuskationszeichen)
-/v[​‌‍﻿­]*e[​‌‍﻿­]*r[​‌‍﻿­]*i[​‌‍﻿­]*f[​‌‍﻿­]*i[​‌‍﻿­]*z[​‌‍﻿­]*i[​‌‍﻿­]*e[​‌‍﻿­]*r[​‌‍﻿­]*e[​‌‍﻿­]*n/i
+# Verifizierung / Verifizieren
+/v[​‌‍﻿­]+e[​‌‍﻿­]*r[​‌‍﻿­]*i[​‌‍﻿­]+f[​‌‍﻿­]*i[​‌‍﻿­]*z[​‌‍﻿­]*i[​‌‍﻿­]*e[​‌‍﻿­]*r/i
 
-# Zahlung / Zahlungsproblem (mit optionalen Obfuskationszeichen)
-/z[​‌‍﻿­]*a[​‌‍﻿­]*h[​‌‍﻿­]*l[​‌‍﻿­]*u[​‌‍﻿­]*n[​‌‍﻿­]*g/i
+# Zahlung / Zahlungsproblem
+/z[​‌‍﻿­]+a[​‌‍﻿­]*h[​‌‍﻿­]+l[​‌‍﻿­]*u[​‌‍﻿­]*n[​‌‍﻿­]*g/i
 
-# Kontaktinformation / Kontaktdaten (mit optionalen Obfuskationszeichen)
-/k[​‌‍﻿­]*o[​‌‍﻿­]*n[​‌‍﻿­]*t[​‌‍﻿­]*a[​‌‍﻿­]*k[​‌‍﻿­]*t/i
+# Telefonnummer
+/t[​‌‍﻿­]+e[​‌‍﻿­]*l[​‌‍﻿­]*e[​‌‍﻿­]+f[​‌‍﻿­]*o[​‌‍﻿­]*n/i
 
-# Telefonnummer (mit optionalen Obfuskationszeichen)
-/t[​‌‍﻿­]*e[​‌‍﻿­]*l[​‌‍﻿­]*e[​‌‍﻿­]*f[​‌‍﻿­]*o[​‌‍﻿­]*n/i
+# Zugriffsbeschränkung / Zugriff
+/z[​‌‍﻿­]+u[​‌‍﻿­]*g[​‌‍﻿­]+r[​‌‍﻿­]*i[​‌‍﻿­]*f[​‌‍﻿­]*f/i
 
-# Zugriffsbeschränkung / Zugriff (mit optionalen Obfuskationszeichen)
-/z[​‌‍﻿­]*u[​‌‍﻿­]*g[​‌‍﻿­]*r[​‌‍﻿­]*i[​‌‍﻿­]*f[​‌‍﻿­]*f/i
+# Online-Service / Online-Dienst
+/o[​‌‍﻿­]+n[​‌‍﻿­]*l[​‌‍﻿­]+i[​‌‍﻿­]*n[​‌‍﻿­]*e/i
 
-# Online-Service / Online-Dienst (mit optionalen Obfuskationszeichen)
+# Reibungslos
+/r[​‌‍﻿­]+e[​‌‍﻿­]*i[​‌‍﻿­]*b[​‌‍﻿­]+ optionalen Obfuskationszeichen)
 /o[​‌‍﻿­]*n[​‌‍﻿­]*l[​‌‍﻿­]*i[​‌‍﻿­]*n[​‌‍﻿­]*e/i
 
 # Reibungslos (mit optionalen Obfuskationszeichen)
