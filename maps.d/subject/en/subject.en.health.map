@@ -43,7 +43,7 @@
 /\d breakfast mistake/i
 /\d cause of/i
 /\d (easy|simple|week).{1,10}(fix|habit|stretch|trick|tweak)/i
-/\d simple vitamin/i
+/\d simple (ingredient|vitamin)/i
 /\d stretch/i
 /\d surprising fruits/i
 /\d way to (clear up|eliminate)/i
@@ -323,7 +323,7 @@
 /end.{1,10}(back|knee|nerve) pain/i
 /end.{1,10}ear (buzzing|ringing)/i
 
-/end.{1,10}(constipation|neuropathy)/i
+/end.{1,10}(constipation|neuropathy|tinnitus)/i
 /end.{1,10}joint pain/i
 /end.{1,10}memory loss/i
 /end.{1,10}urine leaks/i
