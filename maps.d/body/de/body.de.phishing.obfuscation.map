@@ -24,7 +24,8 @@
 # Soft Hyphen obfuscation (HTML &shy; = U+00AD)
 # Spammers insert soft hyphens to break up words: me&shy;ssage&shy;s
 /[a-zäöüß]­[a-zäöüß]­[a-zäöüß]/i 0.2
-- require at least 2 obfuscation characters
+
+# - require at least 2 obfuscation characters
 # ------------------------------------------------------------------------------
 # Patterns require minimum 2 obfuscation chars to avoid false positives
 
