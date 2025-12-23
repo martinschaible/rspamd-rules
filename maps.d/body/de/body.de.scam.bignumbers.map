@@ -62,6 +62,8 @@
 /ihnen.{1,15}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,15}wohltätige zwecke gespendet/iu
 /ihnen.{1,15}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,15}spenden/i
 
+/ihnen eine entschädigung in höhe von.{1,10}\d{2,4}(\.|,)?\d{3,4}.{1,15}zugesprochen/iu
+
 /ihr guthaben von.{1,10}\d(\.|,)\d.{1,10}millionen/i
 
 # J

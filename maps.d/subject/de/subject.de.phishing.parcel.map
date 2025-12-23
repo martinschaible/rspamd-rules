@@ -239,6 +239,8 @@
 # Sample: nicht zugestellt werden - [ 100483 ]
 /nicht zugestellt werden.{1,10}\[.?\d{4,10}.?\]/i
 
+/nicht zugestelltes paket.{1,10}\d{4,15}/i
+
 # O
 # ------------------------------------------------------------------------------
 /offizielle lieferstatusinformationen/i
