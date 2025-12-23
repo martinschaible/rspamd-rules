@@ -436,6 +436,7 @@
 
 /heal.{1,15}pain/i
 /healing.{1,10}recipe/i
+/(healthy|unclogs?).{1,10}(arteries|gut)/i
 
 /helps.{1,10}(prevent|reduce).{1,15}(diabetes|sugar|spikes)/i
 /helps.{1,10}back pain/i
@@ -955,8 +956,6 @@
 
 # U
 # ------------------------------------------------------------------------------
-/unclogs?.{1,10}(arteries|gut)/i
-
 /uncover(ing)? big pharma/i
 /uncover(ing)? the (hidden|secret)/i
 

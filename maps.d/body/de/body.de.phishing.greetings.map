@@ -134,8 +134,10 @@
 
 # K
 # ------------------------------------------------------------------------------
-/kontoaktualisierung erforderlich.{1,10}guten (abend|morgen|tag)/i
-(kontoinformationen|kontosicherheit|zahlungsangaben).{1,10}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/i
+/kontoaktualisierung.{1,15}guten (abend|morgen|tag)/i
+/kontaktdaten.{1,15}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/i
+
+(kontoinformationen|kontosicherheit|zahlungsangaben).{1,15}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/i
 
 /konto verifizieren.{1,10}lieber?.{1,10}kunde/i
 
@@ -162,6 +164,7 @@
 # M
 # ------------------------------------------------------------------------------
 /meine aufrichtigen grüße/iu
+/mitteilung zu ihrem konto.{1,10}sehr geehrter?.{1,15}(damen|herren|kunde|kundin)/i
 
 # N
 # ------------------------------------------------------------------------------

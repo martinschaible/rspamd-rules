@@ -43,7 +43,7 @@
 
 # Diabetes
 # ------------------------------------------------------------------------------
-/(a1c|glucose).{0,10}(control|drop|fix|level|spike)/i
+/(a1c|glucose).{0,10}(control|drop|fix|level|myth|spike)/i
 
 /sugar.{0,10}(above|defender|disease|levels?|spikes?|trap)/i
 
@@ -474,6 +474,8 @@
 /dental.{0,10}(advisor|alert|daily|issues?|work)/i
 /dental.{0,10}(repair|rescue|reset)/i
 /dental.{0,10}(tips?|tricks?|truth)/i
+
+/dentist.{0,10}secret/i
 
 /desire.{0,10}revival/i
 

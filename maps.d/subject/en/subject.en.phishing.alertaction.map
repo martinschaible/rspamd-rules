@@ -377,6 +377,7 @@
 # ------------------------------------------------------------------------------
 /(wallet alert|webmail update).{1,10}(action|update).{1,10}(needed|required)/i
 
+/warning.{1,10}your portfolio/i
 /welcome back.{1,10}your attention/i
 
 # X
