@@ -102,6 +102,10 @@
 /krankenkassen?.{0,10}team/i
 /kreditkarten?.{0,10}banking/i
 
+/kunde.{0,5}\d{2,10}/i
+/kundeservice.{0,5}\d{2,10}/i
+
+/kundenbetreuung.{0,10}team/i
 /kundenportal.{0,10}service/i
 /^kundenservice.{0,10}schweiz/i
 /kundenservice.{0,10}sicherheit/i

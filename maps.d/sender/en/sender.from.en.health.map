@@ -281,7 +281,7 @@
 
 /age.{0,10}(freezing|reversal|rewind)/i
 /aged.{0,10}spot/i
-/ageless.{0,10}(beauty|movement|look|project|skin|treat)/i
+/ageless.{0,10}(beauty|movement|look|project|secrets?|skin|treat)/i
 /aging.{0,10}(fruits?|reversed?)/i
 
 /aligend.{0,10}intimacy/i
@@ -327,6 +327,7 @@
 /bed.?time.{0,10}(brew|habit|move|reset|solution)/i
 /bedroom.{0,10}(fix|master|secrets?)/i
 
+/belly.{0,10}burn/i
 /berry.{0,10}detox/i
 
 /best.{0,10}(salt|sleep)/i
@@ -387,7 +388,7 @@
 /calm.{0,10}(ears|nights?)/i
 
 /cancel(ed)?.{0,10}surgery/i
-/cancer.{0,10}(cells?|flush|food|growth|switch)/i
+/cancer.{0,10}(cells?|flush|food|growth|switch|watch)/i
 
 /cannabis.{0,10}oil/i
 
@@ -480,7 +481,7 @@
 
 /desire.{0,10}revival/i
 
-/detox.{0,10}(drink|minute|solution|your)/i
+/detox.{0,10}(drink|lab|minute|solution|your)/i
 /deficiency.{0,10}alert/i
 
 /digestive.{0,10}(boost|fix|food|health|help|insight|reset)/i
@@ -803,7 +804,7 @@
 /neck.{0,10}skin/i
 /nectar.{0,10}fix/i
 /nerves?.{0,10}(comfort|damage|defense|health|killing|pain|recovery|repair|revival|support|tip)/i
-/neuro.{0,10}(boost|fix|healing)/i
+/(neural|neuro).{0,10}(boost|detox|fix|healing)/i
 
 /never.{0,10}(eat|forget)/i
 /nerve.{0,10}(damage|do this|ease|pain|regrowth|research|reset)/i
@@ -932,7 +933,7 @@
 /sagging.{0,10}(neck|skin)/i
 
 /salad.{0,10}alert/i
-/salty?.{0,10}(drink|solution|swap|trick)/i
+/salty?.{0,10}(drink|heart|solution|swap|trick)/i
 /satisfaction.{0,10}solution/i
 
 /sciatica.{0,10}(fix|pain|solution)/i
@@ -1084,13 +1085,14 @@
 /ultimate.{0,10}nutrition/i
 /unusual.{0,10}stretch/i
 
-/urinary.{0,10}(fix|help|incontinence)/i
+/urinary.{0,10}(control|fix|help|incontinence)/i
 /urine?.{0,10}(flow|leaks?)/i
 /urology.{0,10}(expert|research)/i
 
 # V
 # ------------------------------------------------------------------------------
 /varicose.{0,10}veins/i
+/vascular.{0,10}health/i
 /veggie.{0,10}poison/i
 /vein.{0,10}solutions?/i
 

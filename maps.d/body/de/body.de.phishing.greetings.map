@@ -332,5 +332,5 @@
 # ------------------------------------------------------------------------------
 /zahlung wurde nicht ausgeführt.{1,10}hallo/iu
 
-/zahlungsinformationen.{1,10}sehr geehrter kunde/i
+/(zahlungsinformationen|zahlungsprüfung).{1,10}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/i
 /zahlungsproblem.{1,10}sehr geehrtes mitglied/i

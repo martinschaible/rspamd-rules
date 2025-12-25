@@ -14,9 +14,11 @@
 # ==============================================================================
 
 #
+# ------------------------------------------------------------------------------
 /3.?d.?secure/i
 
 # A
+# ------------------------------------------------------------------------------
 /aktivieren sie 2fa/i
 /aktivieren sie ihre.{1,20}app/i
 
@@ -37,31 +39,39 @@
 /app\b.{1,10}es gibt neue/i
 
 # B
+# ------------------------------------------------------------------------------
 
 # C
+# ------------------------------------------------------------------------------
 
 # D
+# ------------------------------------------------------------------------------
 /das neue update/i
 /deutsche.?bank.{1,10}wichtige information/i
 
 /deine?.{1,10}sicherheits.?pin ist abgelaufen/i
 
 # E
+# ------------------------------------------------------------------------------
 /eingehender vorgang/i
 
 /einschränkung ihres.{1,10}online.?bankings/iu
 
 # F
+# ------------------------------------------------------------------------------
 /finanz.?(nachrichten|update) für den/iu
 /finanz.?(nachrichten|update) im.{1,10}(januar|februar|märz|april|mai|juni|juli|august|september|oktober|november|dezember)/iu
 
 /führen sie es durch.{1,10}um eine unterbrechung/iu
 
 # G
+# ------------------------------------------------------------------------------
 
 # H
+# ------------------------------------------------------------------------------
 
 # I
+# ------------------------------------------------------------------------------
 /ihr.{1,10}finanz.?update.{1,10}(oktober|november|dezember)/i
 /ihr.{1,10}finanz.?update.{1,10}ref/i
 
@@ -85,37 +95,49 @@
 /informationen in ihrer post.?box/i
 
 # J
+# ------------------------------------------------------------------------------
 /jetzt.{1,10}bankkonto.{1,10}überprüfen/iu
 
 # K
+# ------------------------------------------------------------------------------
 /karte.{1,10}(bleibt|ist|wird|wurde).{1,20}(begrenzt|deaktiviert|eingeschränkt|inaktiv|gesperrt|verifiziert)/i
 
 /kartensperre aufgrund.{1,10}betrugsverdacht/i
 
 # L
+# ------------------------------------------------------------------------------
 
 # M
+# ------------------------------------------------------------------------------
 /mastercard.{1,10}identity.?check/i
 
 /mtan.{1,10}verifizierung.{1,10}ausstehend/i
 
 # N
+# ------------------------------------------------------------------------------
 /neue starke authentifizierungsdienst/i
 
 /^neuigkeiten für sie/i
 
+/notwendiges update/i
+
 # O
+# ------------------------------------------------------------------------------
 
 # P
+# ------------------------------------------------------------------------------
 /(photo|push).?tan.?(aktivierung|systems?|verfahren)/i
 /(photo|push).?tan.{1,10}jetzt aktivieren/i
 /(photo|push).?tan.{1,10}registrierung läuft/i
 /(photo|push).?tan.{1,10}vorübergehend aufgehoben/iu
 
 /^(photo|push).?tan$/i
+
 # Q
+# ------------------------------------------------------------------------------
 
 # R
+# ------------------------------------------------------------------------------
 /reaktivierung ihrer.{1,20}kredit.?karte
 /reaktivierung ihrer.{1,10}(photo|push).?tan/i
 
@@ -124,6 +146,7 @@
 /routineupdate für.{1,20}verfügbar/iu
 
 # S
+# ------------------------------------------------------------------------------
 /(sie müssen|wichtige?).{1,10}photo.?tan/iu
 
 /sicherheits(funktion|update).{1,10}ihre.{1,10}(app|karte)/i
@@ -133,14 +156,17 @@
 /sperrung.{1,10}ihrer.{1,10}zahlungsmittel/i
 
 # T
+# ------------------------------------------------------------------------------
 /telefonnummern? aktualisieren/i
 
 /transaktion auf.{1,10}(ihrem|ihrer).{1,15}karte/i
 
 # U
+# ------------------------------------------------------------------------------
 /update für ihre.{1,10}securego/i
 
 # V
+# ------------------------------------------------------------------------------
 /verdächtiger zugriff aus/iu
 
 /vorübergehende (aussetzung|einschränkung) ihres/iu
@@ -151,13 +177,17 @@
 /vr.?securego/i
 
 # W
+# ------------------------------------------------------------------------------
 /wir haben ihren.{1,15}vertrag gesperrt/i
 
 # X
+# ------------------------------------------------------------------------------
 
 # Y
+# ------------------------------------------------------------------------------
 
 # Z
+# ------------------------------------------------------------------------------
 /zugriff auf.{1,10}online.?banking.{1,10}gefährdet/iu
 /zugriff auf.{1,20}vorübergehend aufgehoben/i
 

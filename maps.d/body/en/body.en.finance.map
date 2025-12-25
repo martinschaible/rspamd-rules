@@ -134,20 +134,16 @@
 /we have.{1,10}funding.{1,10}solutions/i
 
 /we.{1,15}(give|issuing|offer|offering|provide|providing|specialize|source).{1,20}(business|corporate|home|independent|personal|student).{1,20}(financial|financing|funding|loans)/i
-/we.{1,10}(give|issuing|offer|offering|provide|providing|specialize|source).{1,15}personal.{1,10}business.{1,10}financial/i
+/we.{1,15}(give|issuing|offer|offering|provide|providing|specialize|source).{1,15}personal.{1,10}business.{1,10}financial/i
 
 /we.{1,15}(give|issuing|offer|offering|provide|providing|specialize|source).{1,15}(financial|financing|funding)/i
-/we.{1,10}(give|issuing|offer|offering|provide|providing|specialize|source).{1,20}(financial|strategic).{1,10}advisory services/i
+/we.{1,15}(give|issuing|offer|offering|provide|providing|specialize|source).{1,20}(financial|strategic).{1,10}advisory services/i
 /we.{1,15}(give|issuing|offer|offering|provide|providing|specialize|source).{1,15}(capital|sourcing)/i
 
-/we.{1,10}(give|issuing|offer|offering|provide|providing|specialize|source).{1,15}loans?.{1,10}all purposes/i
-/we.{1,10}(give|issuing|offer|offering|provide|providing|specialize|source).{1,10}loans?.{1,10}as debt/i
-/we.{1,10}(give|issuing|offer|offering|provide|providing|specialize|source).{1,15}loans?.{1,10}at.{1,10}interest/i
-/we.{1,10}(give|issuing|offer|offering|provide|providing|specialize|source).{1,15}loans?.{1,10}(acquisition|contact|facilities|funding|projects)/i
-/we.{1,10}(give|issuing|offer|offering|provide|providing|specialize|source).{1,15}loans?.{1,10}(for|to)/i
+/we.{1,15}(give|issuing|offer|offering|provide|providing|specialize|source).{1,15}loans?/i
 
-/we.{1,10}(give|issuing|offer|offering|provide|providing|specialize|source).{1,15}(debt|financing|non.?recourse|unbeatable).{1,10}loans?/i
-/we.{1,10}(give|issuing|offer|offering|provide|providing|specialize|source).{1,15}(all|various).{1,10}(kinds|types) of.{1,15}loans?/i
+/we.{1,15}(give|issuing|offer|offering|provide|providing|specialize|source).{1,15}(debt|financing|non.?recourse|unbeatable).{1,10}loans?/i
+/we.{1,15}(give|issuing|offer|offering|provide|providing|specialize|source).{1,15}(all|various).{1,10}(kinds|types) of.{1,15}loans?/i
 
 /we process.{1,10}(financing|loans)/i
 
@@ -160,6 +156,7 @@
 /you.{1,10}(pre)?qualified for our business/i
 /you.{1,10}(pre)?qualified for up to \{d3,6}/i
 
+/you need.{1,15}(business|personal).{1,10}loan/i
 /you need.{1,10}(reputable|urgent).{1,10}loan/i
 /you seeking.{1,10}financial assistance/i
 

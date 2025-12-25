@@ -53,7 +53,7 @@
 /i\.?t (admin|notice|notification|server)/i
 /^it.?support$/i
 
-/cloud.{0,10}(admin|limit|operations|team)/i
+/cloud.{0,10}(admin|backup|limit|operations|team)/i
 /cloud.{0,10}benachrichtigung/i
 
 /cpanel.{0,10}(webhost|webmail)/i
@@ -225,6 +225,8 @@
 # N
 # ------------------------------------------------------------------------------
 /national.{0,10}emergency/i
+
+/network.{0,10}outage/i
 
 /notice.{0,10}ads/i
 /notification.{0,10}company/i
