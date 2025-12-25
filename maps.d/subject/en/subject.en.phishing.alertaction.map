@@ -20,6 +20,11 @@
 /confirmez votre addresse postale/i
 /rappel.{1,10}problème de paiement/iu
 
+# Badge
+# ------------------------------------------------------------------------------
+/activate your.{1,20}badge today/i
+/complete.{1,15}to receive your badge/i
+
 #
 #
 #
@@ -109,8 +114,6 @@
 /(action|update) (needed|required).{1,10}your.{1,10}e?.?mail.?account/i
 /(action|update) (needed|required).{1,10}your.{1,15}(package|parcel|shipment) awaits/i
 /(action|update) (needed|required).{1,10}your.{1,15}(payment|web.?mail)/i
-
-/activate your.{1,20}badge today/i
 
 /activation (pending|required).{1,10}secure.{1,10}(account|wallet)/i
 /activation (pending|required).{1,20}user account/i
