@@ -87,6 +87,7 @@
 
 /gewinnen sie!/i
 /gewinnen sie eine? kostenloses?/i
+/gewinnen sie.{1,10}\d{3,4}.{1,15}guthaben/i
 /gewinnen sie jetzt/i
 
 /gewinneralarm.{1,10}dein/i

@@ -64,3 +64,9 @@
 # 16.07.24 - Sample: support@rea.ru
 # -> No short domain name accepted
 /[a-z]{3,5}\.ru/i 3.0
+
+# Triple
+# ------------------------------------------------------------------------------
+
+# 26.12.25 - Sample: @86ce.adm0nm5c0q4r.top
+/@[a-z0-9]{2,10}\.[a-z0-9]{5,25}\.top$/i 3.0
