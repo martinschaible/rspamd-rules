@@ -90,51 +90,47 @@
 
 # P
 # ------------------------------------------------------------------------------
-/(paket|sendung).{1,20}auf.{1,10}anweisungen.{1,15}(bezüglich|wartet)/i
+/(lieferung|paket|sendung).{1,20}auf.{1,10}anweisungen.{1,15}(bezüglich|wartet)/i
 
-/(paket|sendung).{1,10}befindet sich.{1,10}(finalen|letzten).{1,10}(zustellphase|zustellprozess)/i
-/(paket|sendung).{1,10}befindet sich.{1,10}derzeit beim.{1,15}zoll/i
-/(paket|sendung).{1,10}bereit für die lieferung/iu
-/(paket|sendung).{1,15}das an sie hätte geliefert/iu
-/(paket|sendung).{1,15}dessen empfänger sie sind/iu
+/(lieferung|paket|sendung).{1,10}befindet sich.{1,10}(finalen|letzten).{1,10}(zustellphase|zustellprozess)/i
+/(lieferung|paket|sendung).{1,10}befindet sich.{1,10}derzeit beim.{1,15}zoll/i
+/(lieferung|paket|sendung).{1,10}bereit für die lieferung/iu
+/(lieferung|paket|sendung).{1,15}das an sie hätte geliefert/iu
+/(lieferung|paket|sendung).{1,15}dessen empfänger sie sind/iu
+/(lieferung|paket|sendung).{1,15}erfordert eine.{1,10}bestätigung/iu
+/(lieferung|paket|sendung).{1,15}erhalten.{1,25}ihre daten zu überprüfen/iu
 
-/(paket|sendung).{1,15}erfordert eine.{1,10}bestätigung/iu
-/(paket|sendung).{1,15}erhalten.{1,25}ihre daten zu überprüfen/iu
+/(lieferung|paket|sendung).{1,10}ihre heimatadresse zu/i
+/(lieferung|paket|sendung).{1,10}im zielland eingetroffen ist/i
+/(lieferung|paket|sendung).{1,10}in der warteschleife/i
+/(lieferung|paket|sendung).{1,15}in unserer bearbeitung befindet/i
 
-/(paket|sendung).{1,10}ihre heimatadresse zu/i
-/(paket|sendung).{1,10}im zielland eingetroffen ist/i
-/(paket|sendung).{1,10}in der warteschleife/i
-/(paket|sendung).{1,15}in unserer bearbeitung befindet/i
+/(lieferung|paket|sendung).{1,10}ist versandfertig.{1,10}aber die versandkosten/i
+/(lieferung|paket|sendung).{1,15}ist fast zugestellt/i
+/(lieferung|paket|sendung).{1,10}ist im.{1,15}paketshop/i
+/(lieferung|paket|sendung).{1,10}ist im.{1,20}(empfangsland|zielland|verteilzentrum).{1,10}(angekommen|eingetroffen)/i
+/(lieferung|paket|sendung).{1,10}ist in.{1,15}(deutschland|schweiz).{1,10}(angekommen|eingetroffen)/i
+/(lieferung|paket|sendung).{1,10}ist in.{1,25}(postfiliale|zollstelle).{1,10}(angekommen|eingetroffen)/i
+/(lieferung|paket|sendung).{1,10}ist in.{1,25}internationalen verteilzentrum/i
 
-/(paket|sendung).{1,10}ist versandfertig.{1,10}aber die versandkosten/i
-/(paket|sendung).{1,15}ist fast zugestellt/i
+/(lieferung|paket|sendung).{1,10}ist in.{1,20}(angekommen|eingetroffen).{1,15}(den zoll|wurde verzollt)/i
 
-/(paket|sendung).{1,10}ist im.{1,15}paketshop/i
-/(paket|sendung).{1,10}ist im.{1,20}(empfangsland|zielland|verteilzentrum).{1,10}(angekommen|eingetroffen)/i
-/(paket|sendung).{1,10}ist in.{1,15}(deutschland|schweiz).{1,10}(angekommen|eingetroffen)/i
-/(paket|sendung).{1,10}ist in.{1,25}(postfiliale|zollstelle).{1,10}(angekommen|eingetroffen)/i
-/(paket|sendung).{1,10}ist in.{1,25}internationalen verteilzentrum/i
+/(lieferung|paket|sendung).{1,10}ist noch nicht bezahlt/i
+/(lieferung|paket|sendung).{1,10}könnte zum absender zurückgeschickt werden/iu
+/(lieferung|paket|sendung).{1,10}mit der nummer.{1,20}anweisungen/i
+/(lieferung|paket|sendung).{1,10}nicht zustellen.{1,10}informationen fehlen/i
+/(lieferung|paket|sendung).{1,15}sich im.{1,15}(distributions|verteil).{1,15}befindet/i
+/(lieferung|paket|sendung).{1,15}werden dem importeur/iu
+/(lieferung|paket|sendung).{1,10}wird.{1,15}in unserem logistikzentrum festgehalten/i
 
-/(paket|sendung).{1,10}ist in.{1,20}(angekommen|eingetroffen).{1,15}(den zoll|wurde verzollt)/i
-
-/(paket|sendung).{1,10}ist noch nicht bezahlt/i
-
-/(paket|sendung).{1,10}könnte zum absender zurückgeschickt werden/iu
-/(paket|sendung).{1,10}mit der nummer.{1,20}anweisungen/i
-/(paket|sendung).{1,10}nicht zustellen.{1,10}informationen fehlen/i
-/(paket|sendung).{1,15}sich im.{1,15}(distributions|verteil).{1,15}befindet/i
-/(paket|sendung).{1,15}werden dem importeur/iu
-/(paket|sendung).{1,10}wird.{1,15}in unserem logistikzentrum festgehalten/i
-
-/(paket|sendung).{1,10}wurde.{1,10}(bearbeitet|registriert).{1,10}ist auf dem weg/i
-/(paket|sendung).{1,10}wurde.{1,10}(bearbeitet|registriert).{1,10}befindet sich.{1,15}im lieferprozess/i
-
-/(paket|sendung).{1,20}wurde.{1,10}eine unstimmigkeit festgestellt/i
-/(paket|sendung).{1,10}wurde.{1,10}erfolgreich.{1,10}(verarbeitet|verteilzentrum)/i
-/(paket|sendung).{1,15}wurde.{1,20}in der schweiz (verarbeitet|zugestellt)/i
-/(paket|sendung).{1,15}wurde.{1,10}verzollung vorgelegt/i
-
-/(paket|sendung).{1,15}zurückbehalten.{1,25}nur für die nächsten/iu
+/(lieferung|paket|sendung).{1,10}wurde.{1,10}(bearbeitet|registriert).{1,10}ist auf dem weg/i
+/(lieferung|paket|sendung).{1,10}wurde.{1,10}(bearbeitet|registriert).{1,10}befindet sich.{1,15}im lieferprozess/i
+/(lieferung|paket|sendung).{1,20}wurde.{1,10}eine unstimmigkeit festgestellt/i
+/(lieferung|paket|sendung).{1,10}wurde.{1,10}erfolgreich.{1,10}(verarbeitet|verteilzentrum)/i
+/(lieferung|paket|sendung).{1,15}wurde.{1,20}in der schweiz (verarbeitet|zugestellt)/i
+/(lieferung|paket|sendung).{1,10}wurde.{1,10}wurde in.{1,20}erfasst/i
+/(lieferung|paket|sendung).{1,15}wurde.{1,10}verzollung vorgelegt/i
+/(lieferung|paket|sendung).{1,15}zurückbehalten.{1,25}nur für die nächsten/iu
 
 /paketdienste? weiterhin ohne unterbrechung/i
 

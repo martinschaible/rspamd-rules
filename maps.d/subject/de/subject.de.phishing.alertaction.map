@@ -21,6 +21,8 @@
 
 # A
 # ------------------------------------------------------------------------------
+/abwicklung ihrer sendung in/i
+
 /achtung.{1,10}betreff\b/i
 /achtung.{1,10}empfänger/iu
 /achtung.{1,10}garantiert/i
@@ -499,6 +501,8 @@
 
 /schutzplan ist abgelaufen.{1,10}erneuern sie jetzt/iu
 /schützen sie ihr.{1,15}konto.{1,10}verifizierung notwendig/i
+
+/sendungshinweis.{1,10}handlung notwendig/i
 
 /service.?hinweis.{1,10}profildaten prüfen/iu
 /service.?warnung.{1,10}zahlungsziel erreicht/i

@@ -18,6 +18,8 @@
 
 # A
 # ------------------------------------------------------------------------------
+/adresskonflikt.{1,20}lösung benötigt/iu
+
 /(aktivieren|aktualisieren) sie.{1,20}(photo|push).?tan/i
 /aktualisieren sie ihre informationen.{1,10}um sicherzustellen/i
 
@@ -120,6 +122,7 @@
 # ------------------------------------------------------------------------------
 /schütz dis konto/i
 
+/sendungshinweis.{1,10}handlung notwendig/i
 /sendungsstatus.{1,10}aktion erforderlich/i
 
 /sicherheits.?(hinweis|warnung).{1,10}für ihr.{1,15}konto/iu
