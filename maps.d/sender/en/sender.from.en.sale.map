@@ -280,8 +280,8 @@
 
 /^smart.?deals$/i
 
-/smart.{0,10}(cleaning|deals|guard|protect|security)/i
-/smart.{0,10}sleep/i
+/smart.{0,10}(cleaning|deals|guard|protect)/i
+/smart.{0,10}(security|sleep|stick)/i
 /smart.?tv/i
 
 /summer.{0,10}chill/i
@@ -321,7 +321,7 @@
 
 /translation.{0,10}(device|services?)/i
 
-/tv.{0,10}(deals|streaming)/i
+/tv.{0,10}(deals|streaming|upgrade)/i
 
 # U
 # ------------------------------------------------------------------------------

@@ -312,7 +312,7 @@
 
 /(bad|evil).{0,10}(bacteria|foods?|fruits?)/i
 
-/balance.{0,10}(blood|booster|brain|clinic|reset|restored|science|your)/i
+/balance.{0,10}(blood|booster|brain|clinic|project|reset|restored|science|your)/i
 /balanced.{0,10}breakfast/i
 /balanced.?(bp|glucose)/i
 /bald.{0,10}spot/i
@@ -559,7 +559,7 @@
 /female.{0,10}desire/i
 /female o$/i
 
-/food.{0,10}(facts|quiz|stops|warning|wellness)/i
+/food.{0,10}(facts|nerves?|quiz|stops|warning|wellness)/i
 /(feet|foot).{0,10}(detox|health|massage|odor|test)/i
 
 /fiber.{0,10}fix/i
@@ -1022,7 +1022,7 @@
 
 /stuck.{0,10}poop/i
 
-/sugar.{0,10}(control|eraser|fix|free|guilty|hack|reboot|report|solution|spike|traps|trick)/i
+/sugar.{0,10}(balance|control|eraser|fix|free|guilty|hack|reboot|report|solution|spike|traps|trick)/i
 /super.{0,10}(fruits?|water)/i
 /supplement.{0,10}(alert|choice|insider|mistake|review|truth)/i
 
@@ -1147,7 +1147,7 @@
 /your.{1,10}(pantry|pee|pelvis|poop|posture)/i
 /your.{1,10}recipes/i
 /your.{1,10}(skin|smile|stomach)/i
-/your.{1,10}wellness/i
+/your.{1,10}(waist|wellness)/i
 
 /youth.{0,10}restored/i
 /youthful.{0,10}(boost|glow|longevity|strength|water|you)/i

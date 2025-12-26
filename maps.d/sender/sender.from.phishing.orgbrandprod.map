@@ -186,6 +186,7 @@
 
 /(deutschland|germany|schweiz).{0,5}(dhl|dpd|fedex|gls|ups)/i
 /(center|europa|express|group|notification|support).{0,5}(dhl|dpd|fedex|gls|ups)/i
+/logistikbenachrichtigung.{0,5}(dhl|dpd|fedex|gls|ups)/i
 /(kundeninfo|kurier|zoll).{0,5}(dhl|dpd|fedex|gls|ups)/i
 /(info|my).{0,5}(dhl|dpd|fedex|gls|ups)/i
 
@@ -407,7 +408,7 @@
 
 /google.?drive/i
 /google.{0,10}(claim|inc|llc|team)/i
-/google.{0,10}(gewinnspiel|online)/i
+/google.{0,10}(gewinnspiel|online|zahlung)/i
 
 /^gmbh/i
 /- gmbh/i
@@ -600,6 +601,7 @@
 /^open.?ai$/i
 
 /open.?ai.{0,5}chatgpt/i
+/open.?ai.{0,5}(account|subscriptions?|upgrade)/i
 
 /oral.?b/i
 
