@@ -193,6 +193,8 @@
 
 # E
 # ------------------------------------------------------------------------------
+/einen nicht beanspruchten vorteil/i
+
 /(er|sie) ist staatsbürger ihres landes/iu
 
 /e?.?mail informiert sie.{1,15}e.?mail ausgewählt wurde/iu
@@ -226,6 +228,7 @@
 /ihnen etwas sehr wichtiges mitteilen/i
 /ihnen jetzt erzähle.{1,10}ist.{1,10}wahr/iu
 
+/ihr(en)?.{1,10}namen?.{1,10} mit einer nicht beanspruchten/i
 /ihre.{1,10}gold.{1,10}debit.{1,10}mastercard/i
 /ihre.{1,10}hilfe.{1,10}als begünstigter?/iu
 /ihres familienerbes/i
@@ -262,7 +265,8 @@
 # ------------------------------------------------------------------------------
 /neuigkeiten für sie.{1,10}bitten sie um ihr feedback/iu
 
-/nicht beanspruchten erbschaftsvermögen/iu
+/nicht beanspruchten.{1,10}erbschaftsvermögen/iu
+/nicht beanspruchten.{1,10}leistung an sie/i
 
 # O
 # ------------------------------------------------------------------------------
@@ -278,6 +282,7 @@
 
 # S
 # ------------------------------------------------------------------------------
+/sie.{1,15}einer nicht beanspruchten leistung/i
 /sind sie tot oder noch am leben/i
 
 /suchen? einen vertrauenswürdigen.{1,10}diskreten.{1,10}partner/iu

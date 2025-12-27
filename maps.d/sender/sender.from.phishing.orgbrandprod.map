@@ -664,7 +664,8 @@
 
 # R
 # ------------------------------------------------------------------------------
-/raiffeisen.?twint/i
+/raiffeisen.{0,10}twint/i
+/(info|twint).{0,10}raiffeisen/i
 
 /rituals.{0,10}team/i
 

@@ -46,6 +46,7 @@
 
 # Phrase "Dringende Nachricht" is in use by E.ON Bank
 /wichtige.{1,10}nachricht/i
+/wichtige.{1,10}(e?.?mail|nachricht).{1,10}ihr konto/i
 
 /(sehr|wichtige).{1,10}dringende/i
 
