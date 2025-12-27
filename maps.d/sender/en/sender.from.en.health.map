@@ -24,8 +24,10 @@
 /memory.{0,10}notes/i
 /memory.{0,10}protection/i
 /memory.{0,10}(recovery|report|research|restore|revival|revive)/i
-/memory.{0,10}(saver|saving|secret|solution|strengthener|support|tonic)/i
+/memory.{0,10}(saver|saving|secret|solution|strengthener|support)/i
+/memory.{0,10}tonic/i
 /memory.{0,10}vitamins?/i
+/memory.{0,10}watch/i
 
 /(boost|excellent|fading|focus|future|perfect|poor|restore|sharp|your).{0,10}memory/i
 
@@ -648,7 +650,7 @@
 
 /helps?.{0,10}you/i
 
-/herb(al)?.{0,10}(discovery|wisdom|zempic)/i
+/herb(al)?.{0,10}(discovery|high|wisdom|zempic)/i
 /herpes.{0,10}(beat it|breakthrough|discovery|eliminator|outbreak|talk)/i
 
 /hidden.{0,10}(crisis|danger|deficiency|dish)/i
@@ -849,7 +851,7 @@
 /pee.{0,10}(control|fix|leaks?|solution|strong(er)?|out)/i
 /pen.{0,10}balance/i
 
-/pelvic.{0,10}(care|floor|recovery)/i
+/pelvic.{0,10}(care|floor|recovery|strength)/i
 /penis.{0,10}(muscle|ritual)/i
 
 /perfect.{0,10}(sleep|smile)/i

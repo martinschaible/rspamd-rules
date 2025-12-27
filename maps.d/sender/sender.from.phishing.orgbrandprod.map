@@ -439,7 +439,7 @@
 
 # I
 # ------------------------------------------------------------------------------
-/icloud.{0,10}idrive/i
+/icloud.{0,10}(idrive|storage)/i
 
 /storage.{0,10}icloud/i
 
@@ -535,6 +535,7 @@
 #/migros.{0,10}(aktionen|markt|oral.?b)/i
 
 /migros.{0,10}(gewinn|markt|kundenservice|kommunikation|oral.?b)/i
+/(deine|dini).{0,10}migros/i
 
 /^migrol$/i
 
@@ -568,7 +569,7 @@
 
 /n e t f i i x/i
 
-/membership.{0,10}netflix/i
+/(membership|no.?reply).{0,10}netflix/i
 
 /nespresso.{0,10}(deutschland|schweiz)/i
 /nespresso.{0,10}(club|exclusives|gifts|kundenservice|team)/i
@@ -714,6 +715,7 @@
 
 /sp0tify/i
 /s p o t i f y/i
+/@spotify$/i
 /spotify_/i
 /spotify.{0,10}(ab|inc\.|premium|support|team)/i
 /spotify.{0,10}kundenservice/i
@@ -850,6 +852,7 @@
 
 # W
 # ------------------------------------------------------------------------------
+/walmart.?\./i
 /walmart.{0,10}(confirmation|essentionals?|deals?|shipment|winner)/i
 /walmart.{0,10}pet/i
 
