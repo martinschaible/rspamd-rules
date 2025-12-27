@@ -595,6 +595,7 @@
 
 /needs this drink/i
 /nerve.?pain.{1,10}(getting|trigger)/i
+/nerve.{1,10}comfort/i
 
 /never eat these/i
 
@@ -747,11 +748,12 @@
 
 /seconds?.{1,10}relieve.{1,10}pain/i
 
+/secret.{1,10}(eating|hair)/i
+/secret.{1,10}learn more/i
+/secret.{1,10}trick to/i
+/secret.{1,15}(digestion|fat.?burning|healthy)/i
 /secret behind.{1,10}aging/i
-/secret for (eating|hair)/i
-/secret trick to/i
 /secret hormone/i
-/secret to.{1,15}(digestion|fat.?burning|healthy)/i
 /secret will.{1,15}your/i
 
 /secretly draining you/i
@@ -936,6 +938,7 @@
 /the fruit that/i
 /that age you fast(er)?/i
 
+/try this instead/i
 /(try|this).{1,10}(miracle|natural)/i
 /(try|this).{1,10}simple.{1,10}nutrient/i
 

@@ -477,7 +477,7 @@
 /deep.{0,10}(cleanse|rest|sleep)/i
 /dental.{0,10}(advisor|alert|daily|issues?|work)/i
 /dental.{0,10}(repair|rescue|reset)/i
-/dental.{0,10}(tips?|tricks?|truth)/i
+/dental.{0,10}(insider|tips?|tricks?|truth)/i
 
 /dentist.{0,10}secret/i
 
@@ -747,7 +747,7 @@
 /male.{0,10}(virility|vitality)/i
 
 /med.?journal/i
-/(medical|medicinal).{0,15}(daily|discovery|patch(es)?|shock)/i
+/(medical|medicinal|medication).{0,15}(alert|daily|discovery|findings?|patch(es)?|shock)/i
 
 /men.?s?.{0,10}(only|power|vitality|wellness)/i
 /mental.{0,10}clarity/i
@@ -805,8 +805,11 @@
 
 /neck.{0,10}skin/i
 /nectar.{0,10}fix/i
-/nerves?.{0,10}(comfort|damage|defense|health|killing|pain|recovery|repair|revival|support|tip)/i
-/(neural|neuro).{0,10}(boost|detox|fix|healing)/i
+
+/nerves?.{0,10}(comfort|damage|defense|health|killing|pain|quiz|support|tip)/i
+/nerves?.{0,10}(recovery|repair|revival)/i
+
+/(neural|neuro).{0,10}(boost|detox|fix|healing|report)/i
 
 /never.{0,10}(eat|forget)/i
 /nerve.{0,10}(damage|do this|ease|pain|regrowth|research|reset)/i
@@ -824,7 +827,7 @@
 /normal.{0,10}a1c/i
 /nose.{0,10}test/i
 
-/nutrition.{0,15}(explorer|fruits|healing|insider|insights|less)/i
+/nutrition.{0,15}(absorption|explorer|fruits|healing|insider|insights|less)/i
 /nutrition.{0,15}(nuances?|notes?|paradox|report|tips?|truth|veggies)/i
 
 # O
@@ -979,7 +982,7 @@
 /slim.{0,10}(drink|hack)/i
 
 /small.{0,10}stomach/i
-/smile.{0,10}(fix|health|secret)/i
+/smile.{0,10}(fix|health|secret|science)/i
 
 /skip this/i
 /silent.{0,10}signal/i

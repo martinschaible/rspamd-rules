@@ -8,6 +8,10 @@
 
 # China
 # ------------------------------------------------------------------------------
+
+# Sample: China - <18:58:12.584 27/12/2025>
+/china.{1,10}\d{1,2}:\d{1,2}:\d{1,2}/i
+
 /china.{1,15}clothing/i
 /china.{1,10}freight down/i
 /china.{1,10}leading.{1,15}(factory|manufacturer|supplier)/i
@@ -25,8 +29,8 @@
 /from.{1,10}ports.{1,10}china/i
 
 /competitive.{1,15}from.{1,10}china/i
-/(components|plastic|supply|toolmaking).{1,10}china/i
-/parts.{1,10}(from|in|of).{1,10}china/i
+/(components|plastic|supply|toolmaking).{1,15}china/i
+/(disposer|parts).{1,15}(from|in|of).{1,10}china/i
 
 /hot.{1,15}from china/i
 /(manufacturer?|moulding|suppliers?).{1,10}(from|in|of).{1,10}china/i
@@ -292,12 +296,10 @@
 /multilayer (pcba?|printed.?circuits?.?board).{1,10}manufacturing/i
 /multiple freight solutions/i
 
-/moulding.{1,10}supplier/i
+/(molex|moulding).{1,10}supplier/i
 
 /(molds?|moulds).{1,10}(maker|construction|in stock|partner)/i
 /(molds?|moulds).{1,10}plastic parts/i
-
-/molex supplier/i
 
 # N
 # ------------------------------------------------------------------------------
@@ -427,7 +429,7 @@
 /stable pricing.{1,10}fast lead times/i
 /standard mold(ing)?/i
 
-/supplier.{1,10}from china
+/supplier.{1,10}high.{1,10}(precision|quality)/i
 /supplier.{1,10}mold.?products/i
 /supplier.{1,10}who can serve/i
 
@@ -436,7 +438,6 @@
 
 # T
 # ------------------------------------------------------------------------------
-/toolmaking services.{1,10}china/i
 /tooling.{1,10}mold(ing)? parts/i
 
 /try.{1,10}acrylic.{1,10}furniture/i
