@@ -191,7 +191,8 @@
 
 /auszug aus.{1,10}insolvenzmassen/i
 /unser(em)?.{1,10}insolvenzkatalog/i
-/verwertung aus insolvenzverfahren/i
+
+/(verwertung|waren) aus.{1,15}(insolvenzverfahren|liquidationen)/i
 
 # Ladder
 # ------------------------------------------------------------------------------

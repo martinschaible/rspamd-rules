@@ -559,6 +559,7 @@
 
 /fda.{0,10}alert/i
 
+/feeling.{0,10}(dizzy|younger)/i
 /female.{0,10}desire/i
 /female o$/i
 
@@ -939,7 +940,7 @@
 /sagging.{0,10}(neck|skin)/i
 
 /salad.{0,10}alert/i
-/salty?.{0,10}(drink|heart|solution|swap|trick)/i
+/salty?.{0,10}(drink|heart|solution|swap|trick|water)/i
 /satisfaction.{0,10}solution/i
 
 /sciatica.{0,10}(fix|pain|solution)/i

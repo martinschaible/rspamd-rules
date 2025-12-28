@@ -155,7 +155,9 @@
 /angebotsübersicht.{1,10}insolvenzmassen?/iu
 
 /unsere insolvenzmassen?/i
-/verwertung.{1,10}(aus|von).{1,10}(Insolvenzmasse|insolvenzverfahren)/i
+/verwertung.{1,10}(aus|von).{1,10}(insolvenzmasse|insolvenzverfahren)/i
+
+/liquidationen aus insolvenzverfahren/i
 
 # Ladders
 # ------------------------------------------------------------------------------

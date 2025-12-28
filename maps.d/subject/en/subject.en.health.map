@@ -136,7 +136,7 @@
 /big o$/i
 /big pharma.{1,15}want you/i
 
-/bizarre spice/i
+/bizarre.{1,10}(drink|spice)/i
 
 /bladder (control|leaks|relief)/i
 
@@ -453,6 +453,7 @@
 /heart.{1,10}fix/i
 
 /helps? fight.{1,10}diabetes/i
+/helps you sleep/i
 /(helps?|reclaims?).{1,10}intimacy/i
 
 /here is the fix/i

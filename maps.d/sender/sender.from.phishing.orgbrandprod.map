@@ -651,7 +651,7 @@
 /post(ch|de)/i
 /post ch$/i
 /post.{1,5}schweiz/i
-/post(_|-)ch
+/post(_|-)ch/i
 
 /post.?finance.{0,5}benachrichtigungen/i
 

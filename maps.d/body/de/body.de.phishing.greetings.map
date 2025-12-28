@@ -34,6 +34,8 @@
 
 # B
 # ------------------------------------------------------------------------------
+/beendigung ihres abonnements.{1,10}hallo/i
+
 /bestätigen sie ihre.{1,20}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/i
 
 # C
@@ -101,7 +103,7 @@
 /hallo.{1,15}ihr paket mit der/i
 
 /hallo.{1,15}ihre e?.?mail.?adresse wurde/i
-/hallo.{1,15}ihre transaktionen/i
+/hallo.{1,15}ihre? (abonnement|transaktion(en)?)/i
 /hallo.{1,15}ihre.{1,15}sicherheitslösung/iu
 
 /hallo.{1,15}im anhang finden sie die rechnung/i
