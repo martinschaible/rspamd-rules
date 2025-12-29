@@ -193,6 +193,8 @@
 /paket.{0,5}(dhl|dpd|fedex|gls|ups)/i
 /paket.?(dienst|service|status).{0,5}(dhl|dpd|fedex|gls|ups)/i
 
+/service.{0,10}hermes/i
+
 # Products
 # ------------------------------------------------------------------------------
 /(airpods|ipad|iphone|macbook|watch ultra)/i

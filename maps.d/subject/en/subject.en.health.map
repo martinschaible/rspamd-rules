@@ -356,7 +356,7 @@
 
 /fix ed\b/i
 
-/fix.{1,10}back pain/i
+/fix.{1,10}(back|nerve) pain/i
 /fix.{1,10}blurry vision/i
 /fix.{1,10}(cavities|gum)/i
 /fix.{1,10}learn more/i
