@@ -72,6 +72,8 @@
 /(bag|luggage).{1,10}supplier/i
 /(bag|luggage).{1,10}turn.?key/i
 
+/(batteries|rechargeable).{1,15}lithium prices/i
+
 /best quotation.{1,10}best quality/i
 
 /(best|better) (price|quality) pcba?/i
@@ -81,6 +83,8 @@
 
 # C
 # ------------------------------------------------------------------------------
+/cables durable.{1,10}flexible/i
+
 /capacitors?.{1,10}capacitors?/i
 /capacitors?.{1,10}active.{1,10}passive/i
 /capacitors?.{1,10}(resistors?|special).{1,10}offer/i

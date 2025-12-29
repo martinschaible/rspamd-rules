@@ -18,14 +18,23 @@
 
 # A
 # ------------------------------------------------------------------------------
+/affecting.{1,10}rankings.{1,10}traffic/i
 /after analyzing your.{1,10}(web)?.?site/i
 
 # B
 # ------------------------------------------------------------------------------
 /best seo quote/i
 
-/boost.{1,10}online visibility.{1,10}organic growth/i
-/boost.{1,10}your.{1,15}rankings with low/i
+/(boost|rank).{1,10}in your search rankings?/i
+/(boost|rank).{1,10}search rankings?.{1,10}key terms/i
+/(boost|rank).{1,15}(online|visibility).{1,15}organic growth/i
+
+/(boost|rank).{1,10}your.{1,10}sales with.{1,15}seo/i
+/(boost|rank).{1,10}your.{1,10}seo.?(effort|rank)/i
+/(boost|rank).{1,10}your.{1,15}rankings with low/i
+
+/(boost|rank).{1,10}your.{1,10}(web)?site.{1,10}ranking/i
+/(boost|rank).{1,10}your.{1,15}(web)?site.{1,10}(on the top|ranking|traffic)/i
 
 /(bring(ing)?|get).{1,10}more.{1,10}(traffic|visitors).{1,10}(leads|sales)/i
 
@@ -64,6 +73,8 @@
 /i.?a?.?m.{1,20}seo.?(consultant|expert|manager)/i
 
 /i found a number.{1,10}seo.{1,10}issues/i
+
+/improve ranking.{1,10}traffic/i
 /improve your.{1,10}website.{1,10}visibility/i
 
 /(i|we).{1,10}can get your (web)?.?site/i
@@ -74,8 +85,10 @@
 
 /(i|we).{1,10}help seo/i
 
-/i was.{1,10}(browsing|visiting) your (web.?)?site.{1,25}it looks like/i
-/i was.{1,10}(browsing|visiting) your (web.?)?site.{1,10}noticed/i
+/i (came|went).{1,10}(across|through) your.{1,10}(web)?site.{1,10}(found|noticed)/i
+
+/i was.{1,10}(browsing|reviewing|visiting) your (web.?)?site.{1,25}it looks like/i
+/i was.{1,10}(browsing|reviewing|visiting) your (web.?)?site.{1,10}(found|noticed)/i
 
 /it.{1,10}not ranking on.{1,10}(bing|google|yahoo)/i
 
@@ -125,16 +138,35 @@
 /run.{1,10}free seo/i
 
 # S
+/search.?engine.{1,10}came across your.{1,15}(web)?site/i
+
+/seo.{1,10}based.{1,10}(web)?site.{1,10}design/i
+/seo.{1,10}(bundle|success)/i
+/seo.{1,10}backlinks.{1,10}increase your (web)?site/i
+
 /seo.{1,10}check now/i
+
+/seo.{1,10}expert.{1,10}manager/i
+/seo.{1,10}expert.{1,10}i can help/i
+/seo.{1,10}expert on/i
+
+/seo.{1,10}issues.{1,10}that might/i
 /seo.{1,10}issues.{1,10}your.{1,10}(web)?site/i
+
 /seo.{1,10}needs.{1,15}(improvement|significant)/i
 /seo.{1,10}opportunities/i
+
 /seo.{1,10}(packages?|proposal|services?)/i
+/seo.{1,10}pleased to meet you/i
 /seo.{1,10}poorly done/i
 /seo.{1,10}price.?list/i
 /seo.{1,10}pricing.{1,15}interested/i
+
 /seo.{1,15}saw that your.{1,10}(web)?site/i
 /seo.{1,10}technical optimization/i
+
+/seo.{1,10}(web)?site.{1,10}design.{1,10}development/i
+/seo.{1,15}web.?design.{1,15}(web)?site/i
 
 /services.{1,10}seo.{1,10}website/i
 
@@ -186,16 +218,45 @@
 /your business to the top of.{1,15}rankings/i
 /your online presence.{1,10}(bing|google|yahoo)/i
 
-/your.{1,10}(web)?.?site.{1,15}affect its ranking/i
+/your.{1,10}(web)?.?site.{1,10}1st page.?rank/i
+
+/your.{1,10}(web)?.?site.{1,15}affect(ing)? its ranking/i
+/your.{1,10}(web)?.?site.{1,15}affect(ing)? your.{1,15}(online|presence)/i
+/your.{1,10}(web)?.?site.{1,15}found.{1,15}(errors|important|issues)/i
+/your.{1,10}(web)?.?site.{1,10}found it.{1,10}impressive/i
+
+/your.{1,10}(web)?.?site.{1,10}get.{1,10}on first/i
+/your.{1,10}(web)?.?site.{1,10}get.{1,10}top.{1,15}(bing|google|yahoo)/i
+
+/your.{1,10}(web)?.?site.{1,10}has.{1,10}broken links/i
+/your.{1,10}(web)?.?site.{1,25}has.{1,10}problems.{1,10}you.{1,10}(might|need)/i
+
 /your.{1,10}(web)?.?site.{1,15}impressed /i
-/your.{1,10}(web)?.?site.{1,15}not ranking (good|in|well)/i
+/your.{1,10}(web)?.?site.{1,10}indexed on the first.?page/i
+
+/your.{1,10}(web)?.?site.{1,30}is not listed.{1,15}(bing|google|yahoo)/i
+/your.{1,10}(web)?.?site.{1,30}is only listed in/i
+
+/your.{1,10}(web)?.?site.{1,10}not ranking/i
+/your.{1,10}(web)?.?site.{1,10}not receiving.{1,20}traffic/i
+
+/your.{1,10}(web)?.?site.{1,10}on.{1,10}1st page/i
+/your.{1,10}(web)?.?site.{1,10}on.{1,10}google.{1,10}top/i
+/your.{1,10}(web)?.?site.{1,10}on.{1,10}page one of/i
+
+/your.{1,10}(web)?.?site.{1,10}position.{1,15}(bing|google|yahoo)/i
+/your.{1,10}(web)?.?site.{1,15}promote it.{1,10}(bing|google|yahoo)/i
+
 /your.{1,10}(web)?.?site.{1,15}seo issues/i
 
 /your.{1,10}(web)?.?site.{1,10}(ranks?|ranking).{1,10}(first|higher|top|well)/i
 /your.{1,10}(web)?.?site.{1,10}(ranks?|ranking).{1,10}search.?engines/i
 /your.{1,10}(web)?.?site.{1,10}(ranks?|ranking).{1,10}not good/i
 
+/your.{1,10}(web)?.?site.{1,10}search.?engines/i
+
 /your.{1,10}(web)?.?site.{1,10}that might be affecting.{1,20}ranking/i
+/your.{1,10}(web)?.?site.{1,15}top.{1,10}positions/i
 
 # Z
 # ------------------------------------------------------------------------------
