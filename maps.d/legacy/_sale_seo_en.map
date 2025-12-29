@@ -9,34 +9,6 @@
 
 # SEO
 # ------------------------------------------------------------------------------
-/seo.?(packages?|services?).{1,10}(pricing|price.?list|proposal|provider|tailored)/i
-/seo.?(packages?|services?).{1,10}include/i
-/seo.?(packages?|services?).{1,10}your.{1,15}(company|(web)?site)/i
-
-/seo.?based.{1,10}(web)?site design/i
-/seo.?(bundle|success)/i
-
-/seo.{1,10}website design.{1,10}development/i
-/seo.{1,10}pleased to meet you/i
-/seo.{1,15}web.?design for your (web)?site/i
-
-/seo.?expert.{1,10}manager/i
-/seo.?expert.{1,10}i can help/i
-/seo.?expert on/i
-
-/seo.?backlinks.{1,10}increase your (web)?site/i
-/seo.?issues.{1,10}that might/i
-
-/search.?engine.{1,10}i came across your (web)?site/i
-
-/boost.{1,10}in your search rankings?/i
-/boost.{1,10}search rankings?.{1,10}key terms/i
-
-/boost.{1,10}your.{1,10}seo.?(effort|rank)/i
-/boost.{1,10}your.{1,10}(web)?site.{1,10}ranking/i
-/(boost|rank) your.{1,15}(web)?site.{1,10}(on the top|ranking|traffic)/i
-/(boost|rank) your.{1,10}sales with.{1,15}seo/i
-
 /while browsing online.{1,10}your (web)?site showed up/i
 
 /increase search engine rankings/i
@@ -65,10 +37,7 @@
 
 /i recently came across your.{1,10}(web).?site/i
 /i was just browsing your.{5,35}and i came up/i
-/i was reviewing your.{1,10}(web)?site/i
-/i went through your.{1,10}(web)?site.{1,10}found/i
 
-/improve ranking.{1,10}traffic/i
 /found a number of seo.?issues/i
 
 /we (are offering|offer).{1,10}range.{1,10}seo.?services/i
@@ -84,29 +53,10 @@
 /your business keywords/i
 /your business.{1,25}website.?traffic/i
 
-/your (web)?site.{1,10}indexed on the first.?page/i
-/your (web)?site.{1,10}is not ranking/i
-/your (web)?site.{1,10}1st page.?rank/i
-/your (web)?site.{1,10}on.{1,10}1st page/i
-/your (web)?site.{1,10}on.{1,10}page one of/i
-/your (web)?site.{1,10}to get on first/i
-/your (web)?site.{1,10}rank (higher|top|well)/i
-
 # Lies
-/i came across your website.{1,10}noticed/i
 /i have reviewed your domain in/i
 
 /you are losing.{1,15}traffic.{1,10}sales/i
-
-/your (web)?site.{1,15}affecting your online presence/i
-/your (web)?site.{1,10}found those errors/i
-/your (web)?site.{1,10}has.{1,10}broken links/i
-/your (web)?site.{1,25}has some problems.{1,10}you.{1,10}(might|need)/i
-/your (web)?site.{1,10}i found it.{1,10}impressive/i
-/your (web)?site.{1,10}in the top.{1,10}positions/i
-/your (web)?site.{1,30}is only listed in/i
-/your (web)?site.{1,10}search.?engines/i
-/your (web)?site.{1,10}not receiving enough.{1,10}traffic/i
 
 # Google
 # ------------------------------------------------------------------------------
@@ -127,12 +77,6 @@
 
 /your company.{1,10}position.{1,15}(bing|google|yahoo)/i
 /your (competitors|page.?rank).{1,15}(bing|google|yahoo)/i
-
-/your (web)?site.{1,10}get.{1,10}top.{1,15}(bing|google|yahoo)/i
-/your (web)?site.{1,30}is not listed.{1,15}(bing|google|yahoo)/i
-/your (web)?site.{1,10}on google.{1,10}top/i
-/your (web)?site.{1,10}position.{1,15}(bing|google|yahoo)/i
-/your (web)?site.{1,15}promote it.{1,10}(bing|google|yahoo)/i
 
 #
 /our.{1,15}seo.?feedbacks/i
@@ -161,25 +105,3 @@
 /noticed.{1,15}percentage.{1,10}toxic links/i
 
 /domain rating links right here/i
-
-# India
-# ------------------------------------------------------------------------------
-
-# Instagram
-# ------------------------------------------------------------------------------
-/custom growth trajectory/i
-/we specialize.{1,10}organic growth/i
-
-# Wikipedia
-# ------------------------------------------------------------------------------
-/professional wikipedia writer/i
-
-#
-#
-#
-
-# Unclassified
-# ------------------------------------------------------------------------------
-
-# Masked
-# ------------------------------------------------------------------------------
