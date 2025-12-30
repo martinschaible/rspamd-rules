@@ -443,7 +443,7 @@
 # ------------------------------------------------------------------------------
 /icloud.{0,10}(idrive|storage)/i
 
-/storage.{0,10}icloud/i
+/storage.{0,10}(alert|icloud)/i
 
 /^ing$/i
 /ing-diba/i
