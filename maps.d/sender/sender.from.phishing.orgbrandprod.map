@@ -259,7 +259,7 @@
 /ap.?vertrieb/i
 
 /apple.{0,10}airtag/i
-/apple.{0,10}(autorisierung|zahlung)/i
+/apple.{0,10}(autorisierung|kundenservice|zahlung)/i
 /apple.{0,10}services/i
 /apple.{0,10}warnsystem/i
 
@@ -518,8 +518,12 @@
 /meta(mask)?.{0,5}(advertising|alert|compliance|inc|system|trust|updates?|verification|wallet)/i
 /meta(mask)?.{0,5}verifiziert/i
 
+/metamask.?id/i
+
 /meta for business/i
 /meta help center/i
+
+/info.{0,5}metamask/i
 
 /metanet-ch/i
 

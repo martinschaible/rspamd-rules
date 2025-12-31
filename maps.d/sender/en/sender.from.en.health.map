@@ -364,7 +364,10 @@
 
 /bright.{0,10}smile/i
 
-/body.{0,10}(alignment|balance|confidence|reboot|recharge|reset|toning|waves?)/i
+/body.{0,10}(alignment|balance|confidence|toning|waves?)/i
+/body.{0,10}(reboot|recharge|reset)/i
+/body.{0,10}science/i
+
 /\bboner$/i
 /boner.{0,10}(brew|pills?)/i
 
@@ -762,7 +765,8 @@
 /midnight.{0,10}bathroom/i
 
 /min.?stretch/i
-/mind.{0,10}(barriers?|blow|button|body|boost|clarity|clear|health|mood|recovery|restore|science)/i
+/mind.{0,10}(balance|barriers?|blow|button|body|boost)/i
+/mind.{0,10}(clarity|clear|health|mood|recovery|restore|science)/i
 
 /mineral.{0,10}(combination|magic)/i
 
@@ -829,7 +833,7 @@
 /normal.{0,10}a1c/i
 /nose.{0,10}test/i
 
-/nutrition.{0,15}(absorption|explorer|fruits|healing|insider|insights|less)/i
+/nutrition.{0,15}(absorption|explorer|fruits|healing|insider|insights|intelligence|less)/i
 /nutrition.{0,15}(nuances?|notes?|paradox|report|tips?|truth|veggies)/i
 
 # O
@@ -1016,7 +1020,7 @@
 /stinky.{0,10}breath/i
 
 /stop the/i
-/stop.{0,10}(breating|brushing|flossing)/i
+/stop.{0,10}(breating|brushing|flossing|pain)/i
 
 /stream.{0,10}strong(er)?/i
 /stress.{0,10}weight/i

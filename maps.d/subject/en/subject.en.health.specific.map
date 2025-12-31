@@ -129,15 +129,16 @@
 
 /#1 (hack|ritual|secret|solution|trick) to/i
 
-/(hack|ritual|secret|solution|trick).{1,10}actually works/i
-/(hack|ritual|secret|solution|trick).{1,10}changes everything/i
-/(hack|ritual|secret|solution|trick).{1,10}(extends|reverse|shocks)/i
-/(hack|ritual|secret|solution|trick).{1,10}is saving/i
+/(fix|hack|ritual|secret|solution|trick).{1,10}actually works/i
+/(fix|hack|ritual|secret|solution|trick).{1,10}changes everything/i
+/(fix|hack|ritual|secret|solution|trick).{1,10}(extends|reverse|shocks)/i
+/(fix|hack|ritual|secret|solution|trick).{1,10}is saving/i
 
-/(hack|ritual|secret|solution|trick).{1,10}reigniting women/i
-/(hack|ritual|secret|solution|trick).{1,10}that.{1,10}(changes?|targets|unlocks?)/i
-/(hack|ritual|secret|solution|trick).{1,10}that.{1,10}(helped|helps)/i
-/(hack|ritual|secret|solution|trick).{1,10}to (cure|ease|boost)/i
+/(fix|hack|ritual|secret|solution|trick).{1,10}reigniting women/i
+/(fix|hack|ritual|secret|solution|trick).{1,10}that.{1,10}(changes?|targets|unlocks?)/i
+/(fix|hack|ritual|secret|solution|trick).{1,10}that.{1,10}(helped|helps)/i
+/(fix|hack|ritual|secret|solution|trick).{1,10}to (cure|ease|boost)/i
+/(fix|hack|ritual|secret|solution|trick).{1,10}will restore/i
 
 /one simple stretch/i
 /with.{1,10}(day|easy|simple).{1,10}(method|tip|trick)/i

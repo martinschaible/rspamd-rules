@@ -691,17 +691,17 @@
 /wichtige?.{1,15}kontowarnung/i
 /wichtige?.{1,15}(konto|profil).?informationen/i
 
-/wichtige?.{1,10}mitteilung.{1,10}ihre zahlungsdaten/i
-/wichtige?.{1,10}mitteilung.{1,10}konto.?(reaktivierung|sicherheit)/i
-/wichtige?.{1,10}mitteilung.{1,10}neuer gerätezugriff festgestellt/iu
-/wichtige?.{1,10}mitteilung.{1,10}überprüfen sie die sicherheit/iu
-/wichtige?.{1,10}mitteilung.{1,15}parkgebühr/iu
-/wichtige?.{1,10}mitteilung.{1,15}reaktivierung erforderlich/i
+/wichtige?.{1,10}(hinweis|mitteilung).{1,10}ihre zahlungsdaten/i
+/wichtige?.{1,10}(hinweis|mitteilung).{1,10}konto.?(reaktivierung|sicherheit)/i
+/wichtige?.{1,10}(hinweis|mitteilung).{1,10}neuer gerätezugriff festgestellt/iu
+/wichtige?.{1,10}(hinweis|mitteilung).{1,10}überprüfen sie die sicherheit/iu
+/wichtige?.{1,10}(hinweis|mitteilung).{1,15}parkgebühr/iu
+/wichtige?.{1,10}(hinweis|mitteilung).{1,15}reaktivierung erforderlich/i
 
-/wichtige?.{1,10}mitteilung.{1,10}zu ihrem konto/i
-/wichtige?.{1,10}mitteilung.{1,10}zu ihrer rückerstattung/iu
-/wichtige?.{1,10}mitteilung.{1,10}zur einhaltung/i
-/wichtige?.{1,10}mitteilung.{1,15}zur sicherheit ihres.{1,15}kontos/i
+/wichtige?.{1,10}(hinweis|mitteilung).{1,10}zu ihrem konto/i
+/wichtige?.{1,10}(hinweis|mitteilung).{1,10}zu ihrer rückerstattung/iu
+/wichtige?.{1,10}(hinweis|mitteilung).{1,10}zur einhaltung/i
+/wichtige?.{1,10}(hinweis|mitteilung).{1,15}zur sicherheit ihres.{1,15}kontos/i
 
 /wichtige?.{1,10}neuigkeiten zu ihrer information/i
 /wichtige?.{1,10}registrierung.{1,10}mastercard/i

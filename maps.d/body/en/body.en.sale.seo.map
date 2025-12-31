@@ -77,7 +77,7 @@
 
 /i found a number.{1,10}seo.{1,10}issues/i
 
-/improve ranking.{1,10}traffic/i
+/improve.{1,15}rankings?.{1,10}(leads|traffic)/i
 /improve your.{1,10}website.{1,10}visibility/i
 
 /(i|we).{1,10}can get your (web)?.?site/i
@@ -88,7 +88,8 @@
 
 /(i|we).{1,10}help seo/i
 
-/i (came|went).{1,10}(across|through) your.{1,10}(web)?site.{1,10}(found|noticed)/i
+/(i|we) checked your.{1,10}(web.?)?site.{1,10}(found|noticed)/i
+/(i|we) (came|went).{1,10}(across|through) your.{1,10}(web)?site.{1,10}(found|noticed)/i
 
 /i was.{1,10}(browsing|reviewing|visiting) your (web.?)?site.{1,25}it looks like/i
 /i was.{1,10}(browsing|reviewing|visiting) your (web.?)?site.{1,10}(found|noticed)/i
