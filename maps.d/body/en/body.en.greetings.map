@@ -116,6 +116,7 @@
 /(dear|hello|hi\b).{1,10}potential partner/i
 
 /(dear|hi).{1,10}friend.{1,10}nice day/i
+/(dear|hi).{1,10}i am.{5,35}i have been diagnosed/i
 
 /dear.{1,10}\[/i
 /dear.{1,15}\]/i
