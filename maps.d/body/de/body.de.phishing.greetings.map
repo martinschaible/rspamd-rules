@@ -71,7 +71,8 @@
 /guten (abend|morgen|tag).{1,10}ihr.{1,15}abonnement zum preis/i
 /guten (abend|morgen|tag).{1,10}ihre?.{1,15}befindet sich/i
 /guten (abend|morgen|tag).{1,10}ihre?.{1,15}(paket|sendung)/i
-/guten (abend|morgen|tag).{1,10}ihre sendung mit der/i
+/guten (abend|morgen|tag).{1,10}ihre? (paket|sendung) mit der/i
+/guten (abend|morgen|tag).{1,15}ihre? internationales? (paket|sendung)/i
 /guten (abend|morgen|tag).{1,10}im rahmen unserer regulatorischen/i
 
 /guten (abend|morgen|tag).{1,10}sichern sie ihr.{1,15}konto/i
@@ -192,6 +193,8 @@
 
 # S
 # ------------------------------------------------------------------------------
+/schweizerische post.{1,10}guten (abend|morgen|tag)/i
+
 /sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}aktivieren sie ihre/i
 /sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}aus sicherheitsgründen/iu
 /sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}aufgrund.{1,15}(aktualisierter|allgemeiner|neuer|verdächtigen)/i

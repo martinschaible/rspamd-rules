@@ -103,7 +103,7 @@
 /(microsoft|mediamarkt|metamask|migros).?(™|®|©)$/i
 /(paypal|pch).?(™|®|©)$/i
 /(rewe|\brossmann).?(™|®|©)$/i
-/(schweizerische|shein|smava|spotify).?(™|®|©)$/i
+/(schweizerische|shein|smava|spotify).?(™|®|©)/i
 /totalav.?(™|®|©)/i
 /western.?union(™|®|©)/i
 
@@ -510,6 +510,7 @@
 #/^meta$/i
 /ads.?meta/i
 
+/mediamarkt.?!/i
 /mediamarkt.{0,5}gutschein/i
 
 /meta.{0,5}ads$/i
@@ -630,6 +631,7 @@
 /paypal.{0,15}(department|europe?|help.?desk|inc)/i
 
 /paypal.{0,15}(benachrichtigung(en)?|betrieb|kunden|konto|nachricht|sicherheit|team|verifizierung|vertrauen)/i
+/paypal.{0,15}guthaben/i
 
 /paypal.{0,15}(compliance|concierge|management|update|payments?)/i
 /paypal.{0,15}(safety|security|services?|support)/i
@@ -707,7 +709,6 @@
 
 /schaeffler.?gruppe/iu
 /schweizer.?post/i
-
 /secureplus.{0,5}support/i
 
 /server.?\|/i

@@ -112,7 +112,7 @@
 /(lieferung|paket|sendung).{1,10}ist im.{1,20}(empfangsland|zielland|verteilzentrum).{1,10}(angekommen|eingetroffen)/i
 /(lieferung|paket|sendung).{1,10}ist in.{1,15}(deutschland|schweiz).{1,10}(angekommen|eingetroffen)/i
 /(lieferung|paket|sendung).{1,10}ist in.{1,25}(postfiliale|zollstelle).{1,10}(angekommen|eingetroffen)/i
-/(lieferung|paket|sendung).{1,10}ist in.{1,25}internationalen verteilzentrum/i
+/(lieferung|paket|sendung).{1,10}ist in.{1,25}(internationalen|unserem) verteilzentrum/i
 
 /(lieferung|paket|sendung).{1,10}ist in.{1,20}(angekommen|eingetroffen).{1,15}(den zoll|wurde verzollt)/i
 
