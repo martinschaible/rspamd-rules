@@ -36,8 +36,8 @@
 
 /20.?20.{1,10}vision/i
 
-/\d{1,2}.{1,10}(day|sec(ond)?) trick (for|to a)/i
-/\d{1,2}.{1,10}(day|sec(ond)?) (habit|rub|routine|reset|technique|test)/i
+/\d{1,2}.{1,10}(day|sec(ond)?).{1,10}trick (for|to a)/i
+/\d{1,2}.{1,10}(day|sec(ond)?).{1,10}(habit|rub|routine|reset|technique|test)/i
 /\d{1,3}.?(lbs|pounds).{1,10}(gone|flab|transformation)/i
 
 /\d breakfast mistake/i
@@ -366,7 +366,7 @@
 /fix.{1,10}(vertigo|stronger)/i
 /fix.{1,10}them in seconds/i
 /fix.{1,10}tooth decay/i
-/fix.{1,10}your.{1,10}(gut|teeth)/i
+/fix.{1,10}your.{1,10}(brain|gut|teeth)/i
 
 /flush(es)?.{1,10}(cancer|fat|gut|this)/i
 
@@ -573,7 +573,7 @@
 
 /most.{1,10}anti.?inflammatory/i
 
-/mute.{1,10}tinnitus/i
+/mute.{1,10}(ear noises?|tinnitus)/i
 
 /myth buster.{1,10}(dr\.|find out)/i
 
