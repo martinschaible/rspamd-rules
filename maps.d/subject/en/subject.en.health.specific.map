@@ -25,15 +25,15 @@
 /(fat|weight).{1,10}success proven/i
 /(fat|weight).{1,10}with this.{1,10}hack/i
 
-/(burn|drop|erase|lose|melt|remove|shed).{1,10}(belly|more|pounds).{1,10}(fat|flab|lbs|weight)/i
-/(burn|drop|erase|lose|melt|remove|shed).{1,10}(fat|inches|lbs|pounds|weight)/i
-/(burn|drop|erase|lose|melt|remove|shed).{1,10}(fat|weight).{1,15}(activate|easily|exercise|fast|naturally|in your)/i
-/(burn|drop|erase|lose|melt|remove|shed).{1,10}(fat|weight).{1,15}(overnight|scientists|while you|with this|without)/i
+/(burn|drop|erase|flush|lose|melt|remove|shed).{1,10}(belly|more|pounds).{1,10}(fat|flab|lbs|weight)/i
+/(burn|drop|erase|flush|lose|melt|remove|shed).{1,10}(fat|inches|lbs|pounds|weight)/i
+/(burn|drop|erase|flush|lose|melt|remove|shed).{1,10}(fat|weight).{1,15}(activate|easily|exercise|fast|naturally|in your)/i
+/(burn|drop|erase|flush|lose|melt|remove|shed).{1,10}(fat|weight).{1,15}(overnight|scientists|while you|with this|without)/i
 
-/(burn|drop|erase|lose|melt|remove|shed).{1,10}of your.{1,10}(fat|weight)/i
-/(burn|drop|erase|lose|melt|remove|shed).{1,10}up to.{1,10}(fat|lbs|pounds|weight)/i
+/(burn|drop|erase|flush|lose|melt|remove|shed).{1,10}of your.{1,10}(fat|weight)/i
+/(burn|drop|erase|flush|lose|melt|remove|shed).{1,10}up to.{1,10}(fat|lbs|pounds|weight)/i
 
-/(burn|drop|erase|lose|melt|remove|shed).{1,10}in.{1,10}weeks/i
+/(burn|drop|erase|flush|lose|melt|remove|shed).{1,10}in.{1,10}weeks/i
 
 /(about|affects|big|blocking|boost|celeb|daily|easy|fast|for).{1,15}(fat|weight).?(burn(ing)?|loss)/i
 /(hidden|massive|method|overnight|rapid|real|try this|your).{1,15}(fat|weight).?(burn(ing)?|loss)/i

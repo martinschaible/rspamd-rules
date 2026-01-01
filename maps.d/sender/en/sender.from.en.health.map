@@ -785,7 +785,7 @@
 
 /morning.{0,10}(alert|bite|boost|brew|dessert|detox|drink|fruit|hack|lift)/i
 /morning.{0,10}(melt|metabolics|metabolism|mistake)/i
-/morning.{0,10}(oil|reset|ritual|routine|slimmer|tweak|vitality|wood)/i
+/morning.{0,10}(oil|reset|ritual|routine|slimmer|smoothie|tweak|vitality|wood)/i
 /morphine.{0,10}fruit/i
 
 /mouth.{0,10}(detox|odor)/i
@@ -976,7 +976,7 @@
 /silence.{0,10}(buzz(ing)?|foundry|hack|pain|restored?)/i
 /silent.{0,10}danger/i
 
-/skin.{0,10}(alert|fix|restore|sculptor|secret|tightening)/i
+/skin.{0,10}(alert|doctor|fix|restore|sculptor|secret|tightening)/i
 
 /sleep.{0,10}(age|care|discovery|hack|health)/i
 /sleep.{0,10}(lab|memory|mineral|mistake|position|posture|reset)/i
@@ -1115,7 +1115,7 @@
 /virility.{0,10}expert/i
 /virus.{0,10}cure/i
 
-/vital(ity)?.{0,10}(fix|health|now|stats)/i
+/vital(ity)?.{0,10}(fix|health|now|stats|signs?)/i
 /vitamin.{0,10}recall/i
 
 /vitiligo.{0,10}solution/i
