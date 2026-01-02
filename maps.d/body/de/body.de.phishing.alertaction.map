@@ -40,6 +40,7 @@
 /bestätigen.{1,10}sie.{1,10}details.{1,10}um den abschluss/i
 /bestätigen.{1,10}sie.{1,10}(meine|ihre).{1,10}telefon.?nummer/iu
 /bestätigen.{1,10}sie.{1,10}ihr geschenk/iu
+/(bestätigen|verifizieren) sie ihr.{1,15}wallet/i
 
 /bestätigung.{1,10}aktualisierung ihrer daten/iu
 /bestätigung.{1,10}ihrer identität.{1,10}erforderlich/iu
@@ -151,7 +152,6 @@
 
 # V
 # ------------------------------------------------------------------------------
-/verifizieren sie ihr.{1,15}wallet/i
 /vervollständigen sie ihre.{1,10}(online.?)?identifikation/i
 
 # W
