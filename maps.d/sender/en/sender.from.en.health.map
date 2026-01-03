@@ -795,7 +795,7 @@
 
 /mucus.{0,10}cleanse/i
 /muffled.{0,10}hearing/i
-/muscle.{0,10}(care|miracle|pain|repair|stretch)/i
+/muscle.{0,10}(care|miracle|pain|relax|repair|stretch)/i
 /mushroom.{0,10}magic/i
 
 # N
@@ -982,7 +982,7 @@
 
 /sleep.{0,10}(age|care|discovery|hack|health)/i
 /sleep.{0,10}(lab|memory|mineral|mistake|position|posture|reset)/i
-/sleep.{0,10}(science|secret|shortcut|slim|solution|trick)/i
+/sleep.{0,10}(science|secret|shortcut|slim|solution|support|trick)/i
 
 /slim.{0,10}diet/i
 
@@ -1062,6 +1062,7 @@
 /the.{0,10}pain/i
 
 /thicker.{0,10}harder/i
+/thight(er)?.{0,10}skin/i
 /thin(ning)?.{0,10}hair/i
 
 /this.{0,10}(elixir|secret)/i
