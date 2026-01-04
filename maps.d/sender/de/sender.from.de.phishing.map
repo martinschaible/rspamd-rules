@@ -145,7 +145,7 @@
 # R
 
 # S
-(schneller|sicherer).{0,10}(express|versand)/i
+/(schneller|sicherer).{0,10}(express|versand)/i
 
 /service.{0,10}meldung(en)?/i
 /servicecenter.{0,10}verifizierung/i

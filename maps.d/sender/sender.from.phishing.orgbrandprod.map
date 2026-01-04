@@ -424,7 +424,7 @@
 
 # H
 # ------------------------------------------------------------------------------
-/harbor.?freight.{0,10}department
+/harbor.?freight.{0,10}department/i
 
 /hetzner, inc/i
 /hetzner.{0,5}(invoice|online)$/i

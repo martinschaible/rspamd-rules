@@ -53,7 +53,7 @@
 /\.download$/i
 /\.faith$/i
 /\.homes$/i
-/\.host$/i
+# /\.host$/i # duplicate of top-20-tld-by-phishing-domain-score
 /\.icu$/i
 /\.kim$/i
 /\.loan$/i
@@ -113,7 +113,7 @@
 # First seen September 2024
 /\.click$/i
 /\.pw$/i
-/\.sbs$/i
+# /\.sbs$/i # duplicate of January 2024
 
 # First seen November 2024
 /\.boutique$/i
@@ -140,7 +140,7 @@
 
 # First seen May 2025
 /\.bond$/i
-/\.cfd$/i
+# /\.cfd$/i # duplicate of August 2023
 /\.center$/i
 
 # First seen October 2025
@@ -151,13 +151,13 @@
 /\.ink$/i
 
 # First seen November 2025
-/\.cfd$/i
+# /\.cfd$/i # duplicate of August 2023
 
 # First seen Dezember 2025
-/\.hair$/i
-/\.makeup$/i
-/\.lat$/i
-/\.mom$/i
+# /\.hair$/i # duplicate of August 2024
+# /\.makeup$/i # duplicate of "These are bad too"
+# /\.lat$/i # duplicate of January 2024
+# /\.mom$/i # duplicate of December 2023
 
 # Countries
 # ------------------------------------------------------------------------------

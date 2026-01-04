@@ -34,7 +34,7 @@
 /ihr(en)?.{1,10}(auto|fahrzeug|kfz|lkw|pkw|wagen).{1,10}zum besten preis/i
 /ihr(en)?.{1,10}(auto|fahrzeug|kfz|lkw|pkw|wagen).{1,10}verkaufen/i
 
-(auto|fahrzeug|kfz|lkw|pkw|wagen).{1,10}export jeglicher art/i
+/(auto|fahrzeug|kfz|lkw|pkw|wagen).{1,10}export jeglicher art/i
 
 /sie ihr.{1,10}(auto|fahrzeug|kfz|lkw|pkw|wagen).{1,10}verkaufen/i
 /suchen?.{1,10}(anlagen|gebrauchtmaschinen)/i
@@ -53,7 +53,7 @@
 /(büro|designer|massage).?(sessel|stuhl|stühle).{1,25}(erhältlich|netto|nur|reduziert|statt|testen|top.?design|zugreifen)/iu
 /(büro|designer|massage).?(sessel|stuhl|stühle).{1,15}(sonder|spezial).?preis/i
 /(büro|designer|massage).?(sessel|stuhl|stühle).{1,15}für (nur|\d{3})/i
-/(büro|designer|massage).?(sessel|stuhl|stühle).{1,15}nur.{1,10}zzgl/i
+# /(büro|designer|massage).?(sessel|stuhl|stühle).{1,15}nur.{1,10}zzgl/i # duplicate see 5 lines above
 /(büro|designer|massage).?(sessel|stuhl|stühle).{1,15}walholz/i
 
 /(chance|elegante|eleganz|ergonomische|lager).{1,20}(büro|designer|massage).?(sessel|stuhl|stühle)/iu

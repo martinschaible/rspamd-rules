@@ -199,7 +199,7 @@
 
 #/nachricht.{1,10}für (dich|sie)/i
 /nachricht.{1,10}ref\b/i
-/nachricht wichtig/i
+# /nachricht wichtig/i # duplicate of "Attention"
 
 #/neue nachricht von (der|einer)/i
 /neue nachricht von einer/i
