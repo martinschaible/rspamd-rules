@@ -435,7 +435,8 @@
 
 /(zollgebühr|zustellgebühr)(en)?.{1,10}(benachrichtigung|erforderlich)/iu
 /(zollgebühr|zustellgebühr)(en)?.{1,10}fällig für iihre?.{1,15}(paket|sendung)/i
-/(zollgebühr|zustellgebühr)(en)?.{1,10}für ihre?.{1,15}(paket|sendung).{1,10}fällig/iu
+/(zollgebühr|zustellgebühr)(en)?.{1,10}für ihre?.{1,15}(paket|sendung).{1,10}(erforderlich|fällig)/iu
 /(zollgebühr|zustellgebühr)(en)?.{1,10}ausstehend.{1,10}\d(\.|,)\d{2}/i
+/(zollgebühr|zustellgebühr)(en)?.{1,10}zustellung (erforderlich|fällig)/iu
 
 /zwischenlager erhalten/i

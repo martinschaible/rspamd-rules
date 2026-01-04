@@ -173,7 +173,8 @@
 # ------------------------------------------------------------------------------
 /unbekanntes gerät erkannt.{1,10}ein.{1,10}unbekanntes gerät/iu
 
-/(unternehmensangaben|unternehmensinformationen).{1,10}in unserem system/i
+/unternehmens.?(angaben|daten|informationen).{1,10}in unserem system/i
+/unternehmens.?(angaben|daten|informationen).{1,10}unserer.{1,10}kunden.{1,20}zu überprüfen/iu
 
 /upgrade durch.{1,10}bevor.{1,10}dateien auf ihrem/i
 

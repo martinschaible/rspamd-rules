@@ -288,7 +288,7 @@
 /aging.{0,10}(fruits?|reversed?)/i
 
 /aligend.{0,10}intimacy/i
-/alignment.{0,10}fix/i
+/alignment.{0,10}(fix|method)/i
 /(alkaline|spring).{0,10}water/i
 
 /allergy.{0,10}(fix|medication|sufferers)/i
@@ -700,7 +700,7 @@
 
 # K
 # ------------------------------------------------------------------------------
-/kidney.{0,10}(cleanse|health|help|restore|trust)/i
+/kidney.{0,10}(cells|cleanse|health|help|restore|trust)/i
 
 /kilo{0,10}day/i
 /killing.{0,10}(pain|protein)/i
