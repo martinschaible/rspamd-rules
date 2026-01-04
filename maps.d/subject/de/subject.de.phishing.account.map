@@ -121,8 +121,6 @@
 
 /(karte|konto).{1,10}in der warteschleife/i
 
-/konto.{1,10}(stillgelegt|vorübergehende?)/iu
-
 # Sample: Kontoinformationen - 420998446741
 /kontoinformationen.{1,10}\d{4,20}/i
 

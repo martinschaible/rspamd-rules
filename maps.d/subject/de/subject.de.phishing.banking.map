@@ -138,7 +138,7 @@
 
 # R
 # ------------------------------------------------------------------------------
-/reaktivierung ihrer.{1,20}kredit.?karte
+/reaktivierung ihrer.{1,20}kredit.?karte/i
 /reaktivierung ihrer.{1,10}(photo|push).?tan/i
 
 /registrieren sie sich (jetzt|umgehend) für/iu
@@ -161,7 +161,6 @@
 /telefonnummern? aktualisieren/i
 
 /transaktion auf.{1,10}(ihrem|ihrer).{1,15}karte/i
-
 
 # U
 # ------------------------------------------------------------------------------
