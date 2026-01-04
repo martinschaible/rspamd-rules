@@ -141,7 +141,7 @@
 /kontoaktualisierung.{1,15}guten (abend|morgen|tag)/i
 /kontaktdaten.{1,15}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/i
 
-(kontoinformationen|kontosicherheit|zahlungsangaben).{1,15}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/i
+/(kontoinformationen|kontosicherheit|zahlungsangaben).{1,15}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/i
 
 /konto verifizieren.{1,10}lieber?.{1,10}kunde/i
 
@@ -303,7 +303,6 @@
 /sehr geehrter? volksbank.?(kunde|kundin)/i
 
 /sicherheitsaktualisierung.{1,10}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/i
-/sicherheitsupdate.{1,10}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/i
 /sicherheitsmitteilung.{1,15}konto.{1,10}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/i
 /sicherheitsupdate.{1,10}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/i
 

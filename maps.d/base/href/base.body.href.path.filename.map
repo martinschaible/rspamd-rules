@@ -103,7 +103,7 @@
 /\.appspot\.com/redirect\?/i
 
 # 18.02.25 - Sample: https://storage.googleapis.com/9743934b507eab2/lf220.html
-/\.googleapis\.com\/[a-z0-9]{5,20}\/[a-z0-9]{5,20}\.html?
+/\.googleapis\.com\/[a-z0-9]{5,20}\/[a-z0-9]{5,20}\.html/i
 
 /\.cn\/link\.php/i
 
@@ -112,10 +112,10 @@
 
 # 26.12.24 - Sample: /bvhvdbvhdbhdbhdbvh.html
 # 15 as a start is to low, trying 20
-#/\/[a-z0-9]{20,50}\.html?/i
+#/\/[a-z0-9]{20,50}\.html/i
 
 # 04.06.25 - Sample: /e0620e415e71f660ae89.html
-\[0-9]{1,6}[a-z]{1,6}[0-9]{1,6}[a-z]{1,6}[0-9]{1,6}\.html?/i
+\[0-9]{1,6}[a-z]{1,6}[0-9]{1,6}[a-z]{1,6}[0-9]{1,6}\.html/i
 
 # Files with strange names
 # ------------------------------------------------------------------------------

@@ -31,10 +31,10 @@
 
 
 /(ich|wir) kaufen?.{1,10}(auto|fahrzeug|kfz|lkw|pkw|wagen).{1,10}(aller|jeder) (art|marken)/i
-/(ich|wir) kaufen?.{1,10}(auto|fahrzeug|kfz|lkw|pkw|wagen).{1,10}guten tagi
+/(ich|wir) kaufen?.{1,10}(auto|fahrzeug|kfz|lkw|pkw|wagen).{1,10}guten tag/i
 
 /(ich|wir) kaufen?.{1,10}gebrauchte.{1,15}(auto|fahrzeug|kfz|lkw|pkw|wagen)/i
-/(ich|wir) kaufen?.{1,10}(auto|fahrzeug|kfz|lkw|pkw|wagen).{1,10}mit unfallschäden/ui
+/(ich|wir) kaufen?.{1,10}(auto|fahrzeug|kfz|lkw|pkw|wagen).{1,10}mit unfallschäden/iu
 
 /fahrzeugankauf bundesweit/i
 /professionellen fahrzeugankauf/i
@@ -58,7 +58,7 @@
 
 # Dirt-trapping mats
 # ------------------------------------------------------------------------------
-(fussmatten|fußmatten|sauberlaufmatten|schmutzfangmatten).{1,10}verschieden farben/iu
+/(fussmatten|fußmatten|sauberlaufmatten|schmutzfangmatten).{1,10}verschieden farben/iu
 
 # E-Bikes
 # ------------------------------------------------------------------------------
