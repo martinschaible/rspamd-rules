@@ -54,7 +54,7 @@
 /ad.?parts.{1,10}request/i
 
 /(acrylic|window).{1,10}display systems/i
-(acrylic|bottles|jar).{1,10}wholesale rates/i
+/(acrylic|bottles|jar).{1,10}wholesale rates/i
 /acrylic.{1,10}chairs?.{1,10}sales?/i
 
 /affordable freight for your/i
@@ -390,7 +390,7 @@
 
 # Q
 # ------------------------------------------------------------------------------
-/quality.{1,10}paper.{1,10}(bags|boxes)i
+/quality.{1,10}paper.{1,10}(bags|boxes)/i
 
 /quotation.{1,15}(multilayer)?.{1,10}(pcba?|printed.?circuits?.?board)/i
 /quotation.{1,15}injection mold/i

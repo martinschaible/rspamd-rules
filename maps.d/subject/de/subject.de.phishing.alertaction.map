@@ -194,7 +194,6 @@
 /dringends:/i
 
 /dringende aufforderung.{1,10}zur aktualisierung/i
-^dringender handlungsbedarf$/i
 
 /(dringende|erforderliche?).{1,10}aktion/i
 /(dringende|erforderliche?).{1,10}(sicherheits)?aktualisierung/i
@@ -226,6 +225,7 @@
 
 /dringende information.{1,10}korrektur/i
 /dringende (sicherheitsprüfung|sicherheitswarnung)/iu
+/^dringender handlungsbedarf$/i
 /dringender handlungsbedarf.{1,15}bank/i
 
 /dringlichkeit.{1,10}aufmerksamkeit/i
@@ -570,7 +570,7 @@
 /sofort handeln.{1,10}(aktivieren|aktualisieren) sie ihre/i
 /sofort öffnen/iu
 
-/sofortiges? (aktion|handeln|reaktion).{1,10}(erforderlich|nötig)/iU
+/sofortiges? (aktion|handeln|reaktion).{1,10}(erforderlich|nötig)/iu
 
 /sofortige sicherheitswarnung/i
 /sofortiger zugriff empfohlen/i

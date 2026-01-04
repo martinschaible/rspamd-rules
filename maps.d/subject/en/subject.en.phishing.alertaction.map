@@ -84,7 +84,7 @@
 
 /(action|update) (needed|required).{1,10}messages to/i
 
-/(action|update) (needed|required).{1,10}missing tax
+/(action|update) (needed|required).{1,10}missing tax/i
 /(action|update) (needed|required).{1,30}new (important|notifications?)/i
 /(action|update) (needed|required).{1,10}notice of/i
 
