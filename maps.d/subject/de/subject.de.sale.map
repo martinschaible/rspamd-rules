@@ -42,6 +42,7 @@
 /4k.{0,10}kamera/i
 
 # A
+# ------------------------------------------------------------------------------
 /aktion.{1,10}corona.?tests?/i
 
 /angebot.{1,10}nur.{1,10}testen sie/i
@@ -49,6 +50,7 @@
 /anti.{1,10}schnarch(en)?/i
 
 # B
+# ------------------------------------------------------------------------------
 /bakterien in sekunden entfernen/i
 /beheizten? westen?/i
 
@@ -62,9 +64,11 @@
 /briefkasten(anlagen?).{1,10}in edlem design/i
 
 # C
+# ------------------------------------------------------------------------------
 /corona.?tests?.{1,10}kombi.?tests?/i
 
 # D
+# ------------------------------------------------------------------------------
 /datenschutz.{1,10}(flatrate|zum halben preis)/i
 /datenschutzbeauftragter mit.{1,15}rabatt/i
 
@@ -75,6 +79,7 @@
 /diese.{1,10}lampe/i
 
 # E
+# ------------------------------------------------------------------------------
 /edelstahl.{0,10}(briefkasten|briefkästen)/i
 
 /einlegesohlen.{1,10}(körperhaltung|verbesserung)/i
@@ -93,6 +98,7 @@
 /(excel|outlook|word).{1,15}ohne laufende kosten/i
 
 # F
+# ------------------------------------------------------------------------------
 /feigenbäume.{1,10}versandkostenfrei/iu
 
 /fernsehen muss nicht teuer sein/i
@@ -104,6 +110,7 @@
 /für nur \d{2}€$/i
 
 # G
+# ------------------------------------------------------------------------------
 /gartenlautsprecher.{1,15}(garten|outdoor)/i
 /geheimnis der promis/i
 
@@ -112,6 +119,7 @@
 /guenstiges fernsehen/i
 
 # H
+# ------------------------------------------------------------------------------
 /handgefertigte messer/i
 
 /hochdruck.?reiniger.{1,10}ab \d{2}/i
@@ -121,6 +129,7 @@
 /hörgeräte (kostenlos|testen)/i
 
 # I
+# ------------------------------------------------------------------------------
 /ich kann alles hören/iu
 
 /ihr.{1,10}(4g|lte).{1,5}wifi/i
@@ -129,6 +138,7 @@
 /ip.?tv.{0,10}(abonnement|erlebnis)/i
 
 # J
+# ------------------------------------------------------------------------------
 /japanischer?.{1,10}einlegesohlen/i
 /jacke.{1,10}anzuziehen/i
 /(mit der|sie eine|wärmende).{1,10}jacke/i
@@ -143,6 +153,7 @@
 /(beheizbare|wärmende).{1,10}(daunen)?jacke/i
 
 # K
+# ------------------------------------------------------------------------------
 /kein risiko.{1,10}keine vorkasse/i
 
 /komfort.{1,10}(magnetfeldtherapie|spezialisten)/i
@@ -153,6 +164,7 @@
 /kühlen?.{1,10}(ohne|räume)/iu
 
 # L
+# ------------------------------------------------------------------------------
 /(innovativen?|perfekte|smarte).{1,10}lampe/i
 
 /lebensverändernde.{1,10}(wasser)?.?flasche/i
@@ -162,6 +174,7 @@
 /led.{1,10}komplett.{1,10}beleuchtungsset/i
 
 # M
+# ------------------------------------------------------------------------------
 /magnetischen?.{1,10}einlagen?/i
 /magnetischen?.{1,10}mini.?kamera/i
 
@@ -173,12 +186,15 @@
 /mit einem klick/i
 
 # N
+# ------------------------------------------------------------------------------
 
 # O
+# ------------------------------------------------------------------------------
 /oliven?.{1,10}feigen?.{1,10}palmen?/i
 /olivenbäume.{1,10}palmen/iu
 
 # P
+# ------------------------------------------------------------------------------
 /(palmen?|pflanzen?).{1,10}für ihren/iu
 /(palmen?|pflanzen?).{1,10}(direkt vom|wochenangebot)/i
 /(palmen?|pflanzen?).{1,15}per e?.?mail bestellen/i
@@ -198,8 +214,10 @@
 /profi.{1,10}roboter.?sauger/i
 
 # Q
+# ------------------------------------------------------------------------------
 
 # R
+# ------------------------------------------------------------------------------
 /rechnungen um.{1,10}senken/i
 
 /revolutionieren sie.{1,10}heute/i
@@ -207,7 +225,8 @@
 /roboter.?sauger.{1,10}automatisch(es)/i
 
 # S
-/schlafen.{1,10}sparen?
+# ------------------------------------------------------------------------------
+/schlafen.{1,10}sparen/i
 /schlechte.{1,10}beleuchtung/i
 /schluss.{1,15}monatlichen kabel/iu
 
@@ -240,6 +259,7 @@
 /stoppen mit.{1,10}btu/i
 
 # T
+# ------------------------------------------------------------------------------
 /tankkarten?.{1,10}liter sparen/i
 /taschen?.{1,10}internetzugang/i
 
@@ -253,15 +273,18 @@
 /traumhafte.{1,15}(olivenbäume|palmen)/i
 
 # U
+# ------------------------------------------------------------------------------
 /übersetzungsservice für ihr/iu
 /unglaubliches angebot/i
 
 # V
+# ------------------------------------------------------------------------------
 /verfügbar.{1,15}erneuerungsrabatt/iu
 
 /verständigung ohne stress/iu
 
 # W
+# ------------------------------------------------------------------------------
 /wasserspender ab/i
 
 /werden sie zum sprachprofi/i
@@ -271,10 +294,13 @@
 /wir schützen vor bußgeldern/i
 
 # X
+# ------------------------------------------------------------------------------
 
 # Y
+# ------------------------------------------------------------------------------
 
 # Z
+# ------------------------------------------------------------------------------
 /zauber.{1,10}die sofort wirken/i
 
 /zugreifen.{1,10}statt.{1,10}\d{2,3}.{1,10}nur.{1,10}\d{2,3}/i
