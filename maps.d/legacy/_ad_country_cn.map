@@ -54,7 +54,7 @@
 /(china|dongguan|guangdong|guangzhou|shanghai|shenzhen|zhejiang).{1,15}(my|our) main products/i
 /(china|dongguan|guangdong|guangzhou|shanghai|shenzhen|zhejiang).{1,15}visit our web page/i
 
-/(china|dongguan|guangdong|guangzhou|shanghai|shenzhen|zhejiang).{1,15}we are.{1,10}able to manufacture/
+/(china|dongguan|guangdong|guangzhou|shanghai|shenzhen|zhejiang).{1,15}we are.{1,10}able to manufacture/i
 /(china|dongguan|guangdong|guangzhou|shanghai|shenzhen|zhejiang).{1,15}we are.{1,10}(company|factory|manufacturer|producing|supplier)/i
 /(china|dongguan|guangdong|guangzhou|shanghai|shenzhen|zhejiang).{1,15}we are.{1,10}leading.{1,10}professional/i
 /(china|dongguan|guangdong|guangzhou|shanghai|shenzhen|zhejiang).{1,15}we can handle all kinds/i
@@ -253,7 +253,7 @@
 /(co|limited|ltd).{1,15}has been.{1,10}(established for|trusted name)/i
 /(co|limited|ltd).{1,10}i wanted to follow up/i
 /(co|limited|ltd).{1,15}is dedicated.{1,10}providing/i
-/(co|limited|ltd).{1,15}is a high.?tech enterprise/
+/(co|limited|ltd).{1,15}is a high.?tech enterprise/i
 /(co|limited|ltd).{1,15}is a factory specialized in/i
 /(co|limited|ltd).{1,15}is excited/i
 /(co|limited|ltd).{1,20}(leading|professional).{1,15}(company|manufacturer)/i
