@@ -66,7 +66,6 @@
 # 18.01.25 - Sample: Rg. Fa. Schophuis.zip
 /rg\..{0,5}fa\..{0,15}\.(gz|zip)/i
 
-
 # 23.01.25 - Sample: FD_EberleR176612.zip
 /(fd|pis)_.{0,20}\.(gz|zip)/i
 
@@ -82,6 +81,9 @@
 # 04.02.25 - Sample: 02-04-2025.gz
 /\d{2}-\d{2}-\d{2,4}\.(gz|zip)/i
 /\d{2}_\d{2}_\d{2,4}\.(gz|zip)/i
+
+# 05.01.25  - Sample: RP24916095.zip
+/[a-z]{2}\d{6,10}\.zip/i
 
 # 19.02.25 - Sample: VS03706941011_02_19_25.gz
 

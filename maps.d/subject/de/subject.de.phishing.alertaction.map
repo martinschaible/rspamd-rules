@@ -215,8 +215,8 @@
 
 /(dringende?|letzte|wichtige?).{1,10}mitteilung.{1,10}aktualisieren sie ihre/i
 /(dringende?|letzte|wichtige?).{1,10}mitteilung.{1,10}aktualisierung ihrer/i
-/(dringende?|letzte|wichtige?).{1,10}mitteilung.{1,10}domain abgelaufen/u
-/(dringende?|letzte|wichtige?).{1,10}mitteilung.{1,10}fordern sie/u
+/(dringende?|letzte|wichtige?).{1,10}mitteilung.{1,10}domain abgelaufen/i
+/(dringende?|letzte|wichtige?).{1,10}mitteilung.{1,10}fordern sie/i
 
 /(dringende?|letzte|wichtige?).{1,10}mitteilung.{1,10}ihre.{1,15}rechnung/i
 /(dringende?|letzte|wichtige?).{1,10}mitteilung.{1,10}ihr.{1,15}speicherplatz/i
@@ -349,7 +349,7 @@
 
 # J
 # ------------------------------------------------------------------------------
-/jetzt aktualisieren.{1,10}wichtige änderung/ui
+/jetzt aktualisieren.{1,10}wichtige änderung/iu
 
 /jetzt bereinigen/i
 #/jetzt handeln/i
