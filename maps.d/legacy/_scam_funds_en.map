@@ -80,12 +80,6 @@
 /ask him for your.{1,10}draft.{1,10}\d{3}.{0,5}\d{3}.{1,10}(dollar|euro?|gbp|usd)/i
 /your.{1,10}draft of.{1,10}\d{3}.{0,5}\d{3}.{1,10}(dollar|euro?|gbp|usd)/i
 
-# Unclaimed funds
-# ------------------------------------------------------------------------------
-/obtaining .{1,10}unclaimed.{1,10}funds/i
-
-/your.{1,10}unclaimed.{1,10}funds.{1,10}(are due|need to be)/u
-
 # Claims
 # ------------------------------------------------------------------------------
 /claim of your.{1,10}fund/i

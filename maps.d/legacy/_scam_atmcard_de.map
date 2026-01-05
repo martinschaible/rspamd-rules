@@ -7,41 +7,6 @@
 #  10 | German         |
 # ==============================================================================
 
-# ATM Card
-# ------------------------------------------------------------------------------
-/atm.{0.10}(card|karte).{1,15}die auf ihren.{1,10}namen ausgestellt/i
-/atm.{0.10}(card|karte).{1,10}enthält.{1,15}\d{3}.{0,5}\d{3}.{1,10}millionen/i
-/atm.{0.10}(card|karte).{1,10}(in höhe von|mitbringen)/iu
-/atm.{0.10}(card|karte).{1,15}kontaktieren sie herrn/i
-/atm.{0.10}(card|karte).{1,10}mit.{1,15}\d{3}.{0,5}\d{3}.{1,10}(dollar|euro|gbp|usd) gesendet wird/i
-
-/ihr.{1,15}geld wurde auf eine.{1,10}(bank|debit).{0,10}(card|karte) geladen/i
-/ihr.{1,15}konto eine geldautomaten.{1,10}(bank|debit).{0,10}(card|karte)/i
-
-/ihre.{1,10}atm.{1,10}(kredit|swift).{0,10}karte/i
-/ihre.{1,10}atm.{0.10}(card|karte).{1,10}zu liefern/i
-/ihre.{1,10}geldautomaten.?karte im wert von/i
-/ihre.{1,10}swift atm.{0.10}(card|karte)/i
-/ihre.{1,10}zahlung.{1,10}atm.{0,10}(card|karte)/i
-
-/ihnen.{1,10}eine atm.{0,10}(card|karte)/i
-/ihren.{1,10}namen ausgestellte.{1,10}geldautomatenkarte/i
-
-/(dollar|euro|gbp|usd).{1,15}atm.{0.10}(card|karte)/i
-
-/lieferung ihrer.{1,10}atm.{0,10}(card|karte)/i
-/zahlung an sie.{1,10}eine atm.{0.10}(card|karte)/i
-/visa.?bankomat.?karte.{1,10}(einlösen|kann überall)/iu
-
-/bankkarte bekommen.{1,10}mit der ich/i
-/karten aus.{1,10}um den armen/i
-
-/leeren geldautomatenkarte/i
-
-#
-#
-#
-
 # Unclassified
 # ------------------------------------------------------------------------------
 

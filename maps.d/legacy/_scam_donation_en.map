@@ -77,9 +77,6 @@
 /million.{1,10}(dollar|euro?|gbp|usd).{1,10}reply for more details/i
 /(million|dollars?|euro?|gbp|usd).{1,10}have been donated to you/i
 
-/selected.{1,10}to receive.{1,15}donation/i
-/selected.{1,10}receive a.{1,15}donation/
-
 /was selected randomly.{1,10}receive.{1,15}donation/i
 
 /you.{1,15}are donation.{1,10}funds/i
