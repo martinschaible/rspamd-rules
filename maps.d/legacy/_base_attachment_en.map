@@ -172,9 +172,6 @@
 
 /updated.?soa\.(7z|doc|gz|htm|r11|rar|tgz|xls|zip)/i
 
-# Sample: RP24916095.zip
-\[a-z]{2}\d{6,10}\.zip/i
-
 # Parcel
 # ------------------------------------------------------------------------------
 /parcel.?items.{0,20}\.html/i
