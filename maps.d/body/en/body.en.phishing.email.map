@@ -183,7 +183,7 @@
 
 /you have.{1,10}(bounced|delayed|important|incoming|new|pending|suspended|undelivered|unreceived).{1,10}(e?.?mail|message)s?.{1,10}as of/i
 /you have.{1,10}(bounced|delayed|important|incoming|new|pending|suspended|undelivered|unreceived).{1,10}(e?.?mail|message)s?.{1,10}on (\d|the|our)/i
-/you have.{1,10}(bounced|delayed|important|incoming|new|pending|suspended|undelivered|unreceived).{1,10}(e?.?mail|message)s?.{1,10}that could not be sent/
+/you have.{1,10}(bounced|delayed|important|incoming|new|pending|suspended|undelivered|unreceived).{1,10}(e?.?mail|message)s?.{1,10}that could not be sent/i
 /you have.{1,10}(bounced|delayed|important|incoming|new|pending|suspended|undelivered|unreceived).{1,10}(e?.?mail|message)s? on.{1,10}(imap|pop)/i
 
 /you have.{1,40}(bounced|delayed|important|incoming|new|pending|suspended|undelivered|unreceived).{1,25}(e?.?mails?|inbox|messages?)/i
