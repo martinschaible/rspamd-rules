@@ -56,13 +56,19 @@
 # ------------------------------------------------------------------------------
 /abgelaufen.{1,10}erneuern sie ihn.{1,10}um geschützt/iu
 
+/abonnement.{1,10}für die.{1,10}monats.?karte wurde ausgesetzt/i
+
 /abonnement.{1,10}ist abgelaufen.{1,10}erneuern sie (es jetzt|mit)/i
 /abonnement.{1,10}ist abgelaufen.{1,10}jetzt erneuern/i
 /abonnement.{1,10}ist abgelaufen.{1,10}reaktivieren sie/i
+#/abonnement.{1,10}ist umgehendes handeln erforderlich/i
 
 /abonnement.{1,10}muss erneuert/i
 /abonnement.{1,10}ruht derzeit/i
 /abonnement.{1,10}wird ausgesetzt/i
+/abonnement.{1,15}vorübergehend.{1,10}(ausgesetzt|pausiert)/iu
+
+/aktualisieren sie ihr.{1,20}abonnement/iu
 
 /achtung.{1,10}ihr.{1,10}(computer|gerät|system) ist/i
 
@@ -129,6 +135,8 @@
 /ihre.{1,10}sicherheit ist in gefahr/i
 /ihre.{1,15}sicherheitslösung neu/iu
 
+/ihre.{1,10}zahlung wurde nicht ausgeführt/iu
+
 /ihren.{1,20}schutz auf den neuesten stand/i
 /ihren.{1,20}schutz noch heute/i
 
@@ -147,6 +155,7 @@
 
 # M
 # ------------------------------------------------------------------------------
+/musikdienst nicht ablaufen/i
 
 # N
 # ------------------------------------------------------------------------------
@@ -179,6 +188,7 @@
 
 # U
 # ------------------------------------------------------------------------------
+/überprüfung ihrer abonnementdetails/iu
 
 # V
 # ------------------------------------------------------------------------------
@@ -192,6 +202,7 @@
 # W
 # ------------------------------------------------------------------------------
 /wir konnen deine zahlung nicht verarbeiten/i
+/wir wollen dich immer noch zurück/iu
 
 # X
 # ------------------------------------------------------------------------------
