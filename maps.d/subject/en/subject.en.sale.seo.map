@@ -216,7 +216,8 @@
 /traffic.{1,10}your web.?site/i
 /traffic.{1,10}with traffic/i
 
-/transform your.{1,25}listing/i
+/transform.{1,10}website traffic/i
+/transform.{1,10}your.{1,25}listing/i
 
 # U
 # ------------------------------------------------------------------------------
@@ -247,6 +248,8 @@
 /your.{1,10}search.?engine.{1,10}rankings?/i
 
 /your.{1,10}online visibility/i
+
+/your.{1,10}((home)?page|(web)?site).{1,10}may.{1,10}losing/i
 
 # Z
 # ------------------------------------------------------------------------------
