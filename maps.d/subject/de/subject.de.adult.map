@@ -42,15 +42,18 @@
 # ==============================================================================
 
 #
+# ------------------------------------------------------------------------------
 /\d neues bild von/i
 
 # A
+# ------------------------------------------------------------------------------
 /aufregende.{1,10}seitensprünge/iu
 /aufregendsten.{1,10}treffen/i
 
 /(aufrichtig|bewundernswert|deutche|glänzend|nützlich|wunderbar|zielstrebige).{1,10}(freund|herr|mann)/i
 
 # B
+# ------------------------------------------------------------------------------
 /begegnung.{1,10}leidenschaft/i
 
 /bin ich deine.{1,10}liebe?/i
@@ -62,12 +65,14 @@
 /bist du.{1,15}(single|interessant)/i
 
 # C
+# ------------------------------------------------------------------------------
 /chat.{1,10}(betreten|dates?)/i
 /chatten?.{1,15}(dating|fotos|mit|videos)/i
 
 /check meine.{1,10}fotos/i
 
 # D
+# ------------------------------------------------------------------------------
 /dame möchte mit dir/i
 
 /dates?.{1,10}video.?chat/i
@@ -87,10 +92,12 @@
 /dir eine.{1,10}massage/i
 
 /du bist mir.{1,10}aufgefallen/i
-/Du kommst mir.{1,10}bekannt vor/i
+/du gefickt/i
+/du kommst mir.{1,10}bekannt vor/i
 /du wurdest.{1,10}(angestupst|verbunden)/i
 
 # E
+# ------------------------------------------------------------------------------
 /ein.{1,10}madchen/i
 
 /eine dame hat ihnen/i
@@ -106,6 +113,7 @@
 /erotisches selfie/i
 
 # F
+# ------------------------------------------------------------------------------
 /finde mich in dieser.{1,20}gruppe/i
 
 /flirt.{1,10}(nachricht|treffen)/i
@@ -117,8 +125,10 @@
 /frauen suchen.{1,10}liebe/i
 
 # G
+# ------------------------------------------------------------------------------
 /gefalle ich dir/i
 
+/gefickt werden/i
 /geile?.{1,10}heisse?/i
 /(geile|heisse).{1,10}dates/i
 /geiles.{1,10}biest/i
@@ -126,6 +136,7 @@
 /geschlossenen gruppe/i
 
 # H
+# ------------------------------------------------------------------------------
 /habe? dein foto gesehen/i
 /habe? dich online gesehen/i
 
@@ -134,6 +145,7 @@
 /heißen?.{1,10}bilder/i
 
 # I
+# ------------------------------------------------------------------------------
 /ich bin.{1,10}alleinstehende?/i
 /ich habe dir.{1,10}persönliches bild/iu
 /ich möchte dich.{1,10}verwöhnen/iu
@@ -143,6 +155,7 @@
 /ihre übereinstimmung/iu
 
 # J
+# ------------------------------------------------------------------------------
 /jemand mag dich/i
 
 /jetzt im chat/i
@@ -150,14 +163,17 @@
 /(jetzig|sittlich) freund/i
 
 # K
+# ------------------------------------------------------------------------------
 /kommen sie zu uns/i
 /kommt ein neues profil/i
 /könnte zu dir passen/i
 
 # L
+# ------------------------------------------------------------------------------
 /lebst du in der nähe/iu
 
 # M
+# ------------------------------------------------------------------------------
 /mann meiner träume/iu
 /mann zum.{1,15}gesucht/i
 
@@ -170,6 +186,7 @@
 /möchtest du.{1,10}chatten/iu
 
 # N
+# ------------------------------------------------------------------------------
 /nachricht von einer dame/i
 
 /neu in.{1,10}nachbarschaft/i
@@ -181,8 +198,10 @@
 /neues foto von/i
 
 # O
+# ------------------------------------------------------------------------------
 
 # P
+# ------------------------------------------------------------------------------
 /plz.?match mit/i
 
 /prickelnde.{1,10}dates/i
@@ -193,10 +212,13 @@
 /profil.{1,10}(durchsucht|gefällt mir)/i
 
 # Q
+# ------------------------------------------------------------------------------
 
 # R
+# ------------------------------------------------------------------------------
 
 # S
+# ------------------------------------------------------------------------------
 /schaue? dir meine fotos an/i
 
 /schicke dir mein selfie/i
@@ -217,14 +239,18 @@
 /sucht einen.{1,10}one.?night.?stand/i
 
 # T
+# ------------------------------------------------------------------------------
 
 # U
+# ------------------------------------------------------------------------------
 /umgebung.{1,25}singles/i
 
 # V
+# ------------------------------------------------------------------------------
 /verabrede dich mit.{1,10}(frauen|singles)/i
 
 # W
+# ------------------------------------------------------------------------------
 /warte im chat/i
 
 /wartet.{1,10}auf ein treffen/i
@@ -234,13 +260,17 @@
 /web.?cam.{1,10}sprechen/i
 
 /wie dich zu treffen/i
+/willst du.{1,10}chatten/i
 /willst du.{1,10}neue leute/i
 /willst du.{1,10}zeit mit mir/i
 
 /wir uns kennenlernen/i
 
 # X
+# ------------------------------------------------------------------------------
 
 # Y
+# ------------------------------------------------------------------------------
 
 # Z
+# ------------------------------------------------------------------------------
