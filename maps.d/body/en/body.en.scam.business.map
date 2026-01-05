@@ -37,7 +37,8 @@
 # D
 # ------------------------------------------------------------------------------
 /deal to discuss with you/i
-/discuss.{1,10}business proposal/i
+
+/(discuss|has a).{1,15}(business|project) proposal/i
 
 # E
 # ------------------------------------------------------------------------------
@@ -51,7 +52,6 @@
 
 # H
 # ------------------------------------------------------------------------------
-/has a.{1,15}business proposal/i
 
 # I
 # ------------------------------------------------------------------------------
@@ -100,6 +100,7 @@
 /project opportunity.{1,10}mentioned.{1,10}is genuine/i
 /project proposal.{1,15}(contact|did you receive)/i
 
+/proposal.{1,10}i would like to share/i
 /proposal.{1,10}i would like you to handle for me/i
 /proposal.{1,10}for you.{1,10}contact me/i
 
