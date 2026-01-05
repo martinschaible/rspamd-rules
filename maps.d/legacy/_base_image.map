@@ -65,11 +65,6 @@
 
 /unsubscribe\.(jpg|png)/i
 
-# Image with lower/Uppercase letters.
-# This ruel might maybe a bit silly.
-# Sample: UxkNpcKM.jpg
-/[A-Z]{1,2}[a-z]{1,2}[A-Z]{1,2}[a-z]{1,2}[a-z]{1,2}[A-Z]{1,2}[A-Z]{1,2}\.jpg
-
 # Image domains
 # ------------------------------------------------------------------------------
 
