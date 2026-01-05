@@ -74,6 +74,7 @@
 # O
 # ------------------------------------------------------------------------------
 /(offering|offers).{1,10}wide range.{1,10}services/i
+/offering.{1,10}web.{1,10}mobile developers/i
 
 /our designers.{1,10}developers have/i
 /our services include.{1,15}web(site)?.?design/i
@@ -112,6 +113,7 @@
 /wanted to say your.{1,15}(web)?.?site/i
 
 /we.{1,10}team from india/i
+/we.{1,10}india.?based.{1,10}development/i
 
 /we are.{1,15}helping.{1,15}(shops|web.?sites).{1,15}with/i
 
