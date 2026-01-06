@@ -77,8 +77,11 @@
 /eye.{0,10}(doctor|expert|help|secret)/i
 
 /(eye.?sight|vision).{0,10}(20.?20|at risk)/i
-/(eye.?sight|vision).{0,10}(boost|coach|scan|enhancing|expert|fix|hack|help|loss)/i
-/(eye.?sight|vision).{0,10}(rescue|reset|restorer?|solution|supplement)/i
+/(eye.?sight|vision).{0,10}(boost|discovery|fix|hack|health|help|improvement|loss)/i
+/(eye.?sight|vision).{0,10}(care|clear|coach)/i
+/(eye.?sight|vision).{0,10}(enhancing|expert)/i
+/(eye.?sight|vision).{0,10}(rescue|reset|restorer?)/i
+/(eye.?sight|vision).{0,10}(scan|solution|supplement|support)/i
 
 # Fungus, Nails
 # ------------------------------------------------------------------------------

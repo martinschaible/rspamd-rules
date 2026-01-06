@@ -96,7 +96,7 @@
 /aktualisierung.{1,10}rechnungs.{1,10}zahlungsinformationen.{1,10}erforderlich/i
 /aktualisierung.{1,10}überprüfen sie/i
 
-/aktualisierung ihrer.{1,10}unternehmensdaten/i
+/aktualisierung ihrer.{1,15}(banking.?daten|unternehmens.?daten)/i
 /aktualisierung ihrer.{1,10}daten (erforderlich|notwendig)/i
 /aktualisierung ihrer.{1,10}telefonnummer/i
 /aktualisierung ihres.{1,10}profils empfohlen/i
@@ -289,6 +289,7 @@
 /handle jetzt.{1,10}deine?.{1,10}(lieferung|paket)/i
 /handlung erforderlich/i
 
+/handlungsbedarf.{1,10}aktualisierung ihrer.{1,15}(banking|online)/i
 /handlungsbedarf.{1,10}bestätigen sie ihre identität/iu
 /handlungsbedarf.{1,10}daten.{1,10}handelsregister bestätigen/iu
 /handlungsbedarf.{1,10}für ihr.{1,15}konto/i
@@ -299,7 +300,7 @@
 /(erinnerung|handlungsbedarf).{1,10}schützen sie ihr.{1,15}(gerät|konto)/i
 /handlungsbedarf.{1,10}telefonnummer überprüfen/iu
 /handlungsbedarf.{1,10}überprüfung.{1,10}aktualisierung/iu
-/handlungsbedarf.{1,10}überprüfung ihrer/iu
+/handlungsbedarf.{1,10}überprüfung.{1,10}ihrer/iu
 /handlungsbedarf.{1,10}unvollständige lieferadresse/iu
 
 /hier ist die letzte warnung/i

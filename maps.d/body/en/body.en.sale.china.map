@@ -191,11 +191,13 @@
 /we.{1,10}are.{1,10}forwarding agent/i
 /we.{1,10}are.{1,20}manufacturers?.{1,10}exporters?/i
 
-/we.{1,10}are.{1,10}pcb.{1,10}factory/i
+/we.{1,10}are.{1,10}pcb.{1,10}(factory|manufacturer)/i
 
 /we.{1,10}are.{1,10}china.{1,15}steel ltd/i
 /we.{1,10}are.{1,10}electronic.{1,10}parts/i
-/we.{1,10}are.{1,10}manufacturer.{1,15}(catalogue|folder|printing|sticker)/i
+
+/we.{1,10}are.{1,15}(factory|manufacturer).{1,10}from.{1,10}china/i
+/we.{1,10}are.{1,10}(factory|manufacturer).{1,15}(catalogue|folder|printing|sticker)/i
 /we.{1,10}are.{1,20}strong in supplying/i
 
 /we.{1,10}can.{1,10}provide steel/i

@@ -306,7 +306,7 @@
 
 /commerz-bank/i
 /commerz$/i
-/commerzbank.?team/i
+/commerzbank.{0,10}(sicherheitszentrum|team)/i
 /consorsfinanz/i
 
 /^coop$/i

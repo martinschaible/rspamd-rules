@@ -256,6 +256,7 @@
 /(paket|sendung).{1,10}\d{5,15}.{1,10}zahlung/i
 /(paket|sendung).{1,10}an sie hätte geliefert/iu
 /(paket|sendung).{1,10}auf die freigabe wartet/i
+/(paket|sendung).{1,20}bearbeitung erforderlich/i
 /(paket|sendung).{1,10}befindet sich.{1,10}(wartestellung|zustellzentrum)/i
 /(paket|sendung).{1,10}benötigt eine aktion/iu
 /(paket|sendung).{1,10}bestätigen sie/iu
