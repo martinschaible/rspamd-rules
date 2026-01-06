@@ -51,6 +51,8 @@
 
 /1 (daily|sleep) (habit|hack)/i
 
+/1 fix for/i
+
 # A
 # ------------------------------------------------------------------------------
 /about.{1,10}your.{1,10}(fruits?|vegetables|veggies)/i
@@ -359,6 +361,7 @@
 /fix.{1,10}(back|nerve) pain/i
 /fix.{1,10}blurry vision/i
 /fix.{1,10}(cavities|gum)/i
+/fix.{1,10}ear noises?/i
 /fix.{1,10}learn more/i
 /fix.{1,10}most people miss/i
 /fix.{1,10}nerves?.{1,10}pain/i

@@ -127,6 +127,7 @@
 
 /(lieferung|paket|sendung).{1,10}wird.{1,15}in unserem logistikzentrum festgehalten/i
 /(lieferung|paket|sendung).{1,10}wird.{1,15}zahlung der gebühr zugestellt/iu
+/(lieferung|paket|sendung).{1,10}wird.{1,15}zurückgehalten/iu
 
 /(lieferung|paket|sendung).{1,10}wurde.{1,10}(bearbeitet|registriert).{1,10}ist auf dem weg/i
 /(lieferung|paket|sendung).{1,10}wurde.{1,10}(bearbeitet|registriert).{1,10}befindet sich.{1,15}im lieferprozess/i
@@ -135,6 +136,8 @@
 /(lieferung|paket|sendung).{1,15}wurde.{1,20}in der schweiz (verarbeitet|zugestellt)/i
 /(lieferung|paket|sendung).{1,10}wurde.{1,10}wurde in.{1,20}erfasst/i
 /(lieferung|paket|sendung).{1,15}wurde.{1,10}verzollung vorgelegt/i
+
+/(lieferung|paket|sendung).{1,15}(muessen|müssen) sie umgehend/iu
 /(lieferung|paket|sendung).{1,15}zurückbehalten.{1,25}nur für die nächsten/iu
 
 /paketdienste? weiterhin ohne unterbrechung/i

@@ -14,6 +14,7 @@
 #/\d{2,4}(\.|,)?\d{3,4}.{1,10}für sie/iu
 /\d{2,4}(\.|,)?\d{3,4}.{0,10}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,10}auf ihr.{1,15}konto/i
 /\d{2,4}(\.|,)?\d{3,4}.{0,10}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,15}antworten sie/i
+/\d{2,4}(\.|,)?\d{3,4}.{0,10}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,10}kontaktieren sie sie unter/i
 /\d{2,4}(\.|,)?\d{3,4}.{0,10}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,15}steht weiterhin zur verfügung/iu
 
 #
