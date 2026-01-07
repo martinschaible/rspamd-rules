@@ -58,8 +58,7 @@
 
 /cpanel.{0,10}(webhost|webmail)/i
 
-/data.{0,10}retention/i
-/e.?mail.{0,5}service/i
+/(data|digital|e.?mail).{0,10}(retention|service|storage)/i
 
 /helpdesk©/i
 /help-desk/i

@@ -253,6 +253,7 @@
 /(kundenservice|von).{1,10}amazon/i
 
 /^ana$/i
+/ana.?card/i
 /ana.?sky.?web/i
 
 # Poochy Couture
@@ -300,7 +301,7 @@
 /chat-gpt/i
 /chatgpt.?(ai|\+|plus)/i
 /chatgpt.{0,10}zahlung(en)?/i
-/chatgpt.{0,10}(payments|services|team)/i
+/chatgpt.{0,10}(billing|payments|services|team)/i
 
 /coca.?cola company/i
 
