@@ -40,6 +40,8 @@
 /(simple|speed.?up|steady).{1,15}(fat|weight).?(burn(ing)?|loss)/i
 
 /add inches.{1,15}waistline/i
+/belly.{1,15}in less than/i
+
 /body burns fat/i
 /boost.{1,10}fat breakdown/i
 /(boost|energy).{1,15}manage weight/i
@@ -56,6 +58,9 @@
 /for.{1,10}flat tummys/i
 /for.{1,10}slim belly/i
 /for.{1,10}weight.?loss/i
+
+/get rid of.{1,10}belly/i
+/get rid of.{1,10}(fat|inches|lbs|pounds|weight)/i
 
 /helps.{1,10}(burn|drop|erase|lose|melt|remove|shed).{1,10}(fat|weight)/i
 /may aid.{1,10}weight.?loss/i
