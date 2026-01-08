@@ -43,6 +43,7 @@
 
 # I
 # ------------------------------------------------------------------------------
+/ich biete kostengünstige website/iu
 /ich habe mir ihre.{1,10}(home.?page|web.?site).{1,20}angesehen/i
 
 /ihnen gerne ein angebot für ihre.{1,10}(home.?page|web.?site)/iu
@@ -103,6 +104,7 @@
 /(home.?page|web.?site).{1,10}erschwinglichen preis(en)?/i
 /(home.?page|web.?site).{1,10}erstellt.{1,10}gepflegt/i
 /(home.?page|web.?site).{1,10}ich kann helfen/i
+/(home.?page|web.?site).{1,10}upgrades?.{1,10}redesigns?/i
 
 /web.?design.{1,10}entwicklung.{1,10}(php|wordpress|woocommerce)/i
 
