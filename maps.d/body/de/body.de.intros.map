@@ -212,6 +212,8 @@
 # ------------------------------------------------------------------------------
 /(dem|vom) schreibtisch (des|von) (herr|vize)/i
 
+/von unserem schreibtisch.{1,10}ref/i
+
 /vorzustellen.{1,10}mein name ist/i
 
 # W
