@@ -28,6 +28,8 @@
 
 /begleichung.{1,10}der.{1,10}(bearbeitungs|zoll).?gebühr erforderlich/iu
 
+/benötigen wir eine.{1,10}(bearbeitungs|zoll).?gebühr/iu
+
 /bestätigen sie ihre lieferadresse/iu
 
 /(bearbeitungs|zoll).?leistungen anfallen.{1,10}die.{1,10}bestätigt werden müssen/iu
@@ -134,7 +136,10 @@
 /(lieferung|paket|sendung).{1,20}wurde.{1,10}eine unstimmigkeit festgestellt/i
 /(lieferung|paket|sendung).{1,10}wurde.{1,10}erfolgreich.{1,10}(verarbeitet|verteilzentrum)/i
 /(lieferung|paket|sendung).{1,15}wurde.{1,20}in der schweiz (verarbeitet|zugestellt)/i
-/(lieferung|paket|sendung).{1,10}wurde.{1,10}wurde in.{1,20}erfasst/i
+
+/(lieferung|paket|sendung).{1,10}wurde.{1,10}wurde beim zoll.{1,10}(erfasst|registriert)/i
+/(lieferung|paket|sendung).{1,10}wurde.{1,10}wurde in.{1,20}(erfasst|registriert)/i
+
 /(lieferung|paket|sendung).{1,15}wurde.{1,10}verzollung vorgelegt/i
 
 /(lieferung|paket|sendung).{1,15}(muessen|müssen) sie umgehend/iu
@@ -194,6 +199,7 @@
 /zollzahlung ist erforderlich/i
 /zollabfertigung.{1,10}angaben erforderlich/i
 
+/zurückgehalten.{1,10}fälliger betrag/iu
 
 /(zustellung|zustellversuch).{1,10}aufgrund einer (falschen|unvollständigen).{1,10}adresse/iu
 /(zustellung|zustellversuch).{1,10}aufgrund falscher angaben/i

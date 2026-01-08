@@ -93,6 +93,7 @@
 
 /fuel your growth/i
 
+/(funding|funds).{1,10}at a low interest rate/i
 /(funding|funds).{1,10}business growth/i
 /(funding|funds).{1,10}for.{1,15}(projects|viable)/i
 /(funding|funds).{1,10}joint venture/i
@@ -220,6 +221,8 @@
 
 # W
 # ------------------------------------------------------------------------------
+/we{1,10}are investors{1,10}seeking/i
+
 /we.{1,10}deliver.{1,15}(fast|flexible|tailored|structured).{1,10}(financing|funding)/i
 
 /we.{1,10}fund your/i

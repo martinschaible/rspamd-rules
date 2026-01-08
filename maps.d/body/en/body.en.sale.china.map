@@ -67,6 +67,7 @@
 
 # D
 # ------------------------------------------------------------------------------
+/direct.{1,10}(pcba?|printed.?circuit.?board).{1,10}manufacturer/i
 /discover our stunning.{1,15}(acrylic|furniture)/i
 
 /distributor.{1,10}specializing in all kinds of/i
@@ -111,6 +112,7 @@
 # M
 # ------------------------------------------------------------------------------
 /manufacturer.{1,10}china.{1,10}who are in industry/i
+/manufacturer.{1,10}with.{1,10}years.{1,10}experience/i
 
 /manufacturing.{1,10}exporting.{1,10}(custom|shirts|tracksuits)/i
 
@@ -259,9 +261,11 @@
 
 /you.{1,15}have any projects.{1,20}export/i
 /you.{1,10}looking for.{1,10}international.{1,15}(freight|forwarder)/i
+/you.{1,15}looking for.{1,10}reliable supplier/i
 
-/your.{1,10}web.?site.{1,20}we are in the same/i
 /your.{1,10}next.{1,10}(pcba?|printed.?circuits?.?board)/i
+/your.{1,10}(pcba?|printed.?circuits?.?board).{1,10}projects?/i
+/your.{1,10}web.?site.{1,20}we are in the same/i
 
 # Z
 # ------------------------------------------------------------------------------
