@@ -289,6 +289,7 @@
 /handle jetzt.{1,10}deine?.{1,10}(lieferung|paket)/i
 /handlung erforderlich/i
 
+/handlungsbedarf.{1,15}abgabe/i
 /handlungsbedarf.{1,10}aktualisierung ihrer.{1,15}(banking|online)/i
 /handlungsbedarf.{1,10}bestätigen sie ihre identität/iu
 /handlungsbedarf.{1,10}daten.{1,10}handelsregister bestätigen/iu
@@ -332,9 +333,10 @@
 
 /ihr handeln ist erforderlich/i
 
-/ihre domain verfaellt heute/i
-
 /ihre.{1,10}angaben sind veraltet/i
+/ihre.{1,10}domain verfaellt heute/i
+/ihre.{1,10}id wurde vorübergehend gesperrt/iu
+
 /ihre.{1,20}(muss|müssen) aktualisiert werden/i
 
 /ihre.{1,10}sicherheit ist deaktiviert/i

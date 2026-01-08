@@ -790,7 +790,8 @@
 /morning.{0,10}(alert|bite|boost|brew|dessert|detox|drink|fruit|lift)/i
 /morning.{0,10}(habit|hack)/i
 /morning.{0,10}(melt|metabolics|metabolism|mistake)/i
-/morning.{0,10}(oil|reset|ritual|routine|slimmer|smoothie|tweak|vitality|wood)/i
+/morning.{0,10}(secret|slimmer|smoothie)/i
+/morning.{0,10}(oil|reset|ritual|routine|tweak|vitality|wood)/i
 /morphine.{0,10}fruit/i
 
 /mouth.{0,10}(detox|odor)/i
@@ -814,7 +815,7 @@
 
 /nature.{0,10}(cure|morphine|opioids?|tea)/i
 
-/neck.{0,10}skin/i
+/neck.{0,10}(sagging|skin)/i
 /nectar.{0,10}fix/i
 
 /nerves?.{0,10}(comfort|damage|defense|health|killing|pain|quiz|support|tip)/i
@@ -886,7 +887,7 @@
 /pooch.{0,10}belly/i
 /poop.{0,10}(stuck|type)/i
 
-/posture.{0,10}(check|fix|update)/i
+/posture.{0,10}(check|fix|scan|update)/i
 /pounding.{0,10}pressure/i
 
 /power.{0,10}(boost|shape|start)/i
@@ -1020,7 +1021,7 @@
 /stretch.{0,10}(helps|smart(er)?)/i
 /strong.{0,10}stream/i
 
-/stay.{0,10}(asleep|hard|slim)/i
+/stay.{0,10}(asleep|hard|slim|trim)/i
 /steady.{0,10}steps/i
 /stiff.{0,10}(joints|painful)/i
 /stinky.{0,10}breath/i

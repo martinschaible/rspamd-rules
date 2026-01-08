@@ -60,6 +60,7 @@
 
 # K
 # ------------------------------------------------------------------------------
+/klicken sie.{1,15}auszahlung beantragen/i
 
 # L
 # ------------------------------------------------------------------------------
@@ -82,11 +83,12 @@
 
 # R
 # ------------------------------------------------------------------------------
-/(rückerstattung|rückzahlung).{1,10}zu beantragen.{1,10}füllen sie.{1,10}das/i
-/(rückerstattung|rückzahlung).{1,10}(bearbeiten|beantragen|prüfen)/iu
 /(rückerstattung|rückzahlung).{1,15}bearbeiten zu können.{1,10}ist.{1,10}bestätigung/iu
+/(rückerstattung|rückzahlung).{1,10}(bearbeiten|beantragen|prüfen)/iu
 /(rückerstattung|rückzahlung).{1,15}damit diese.{1,15}erfolgen/iu
-/(rückerstattung|rückzahlung).{1,15}ist vorbereitet/i
+/(rückerstattung|rückzahlung).{1,10}erfolgreich geprüft wurde/iu
+/(rückerstattung|rückzahlung).{1,15}ist (bereit|vorbereitet)/i
+/(rückerstattung|rückzahlung).{1,10}zu beantragen.{1,10}füllen sie.{1,10}das/i
 
 # S
 # ------------------------------------------------------------------------------
