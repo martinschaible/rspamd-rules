@@ -20,8 +20,10 @@
 # ------------------------------------------------------------------------------
 
 # 19.12.25
-/control-center\.1und1\.de/mailing\/rechnungen/i 5.0
+/control-center\.1und1\.de\/mailing\/rechnungen/i 5.0
 /hilfe-center\.1und1\.de\/rechnung-verstehen/i 5.0
+# 16.05.25 - Declude fired
+/mt1\.1und1\.de\/d\?/i 5.0
 
 # A
 # ------------------------------------------------------------------------------
@@ -77,7 +79,7 @@
 /link\.docmorris\.de/i 5.0
 
 # 28.05.25
-/my\.dpd\.de/\redirect\.aspx\?action=/i 5.0
+/my\.dpd\.de\/redirect\.aspx\?action=/i 5.0
 
 # 03.04.25 
 /info\.deutschepost\.de/i 5.0
@@ -90,9 +92,6 @@
 
 # E
 # ------------------------------------------------------------------------------
-
-# 16.05.25 - Declude fired
-/mt1\.1und1\.de/d\?/i 5.0
 
 # 15.06.25
 /newsletter\.edeka\.de/i 5.0
@@ -194,7 +193,7 @@
 #/click\.mail\.lidlplus\.de/i 5.0
 
 # 30.08.25
-/www\.lieferando\.de/foodtracker/i 5.0
+/www\.lieferando\.de\/foodtracker/i 5.0
 
 # 26.07.25
 /lotto-bayern\.de\/static\//i 5.0
@@ -286,7 +285,7 @@
 /news\.de\.strauss\.com/i 5.0
 
 # 19.05.25 - Emoji in subject
-/links\.secretescapes\.de/a/i 5.0
+/links\.secretescapes\.de\/a/i 5.0
 
 # 16.05.25 - Old PHISHING_REWARDS_DE fired
 /secretescapes\.de\/neue-angebote/i 5.0
@@ -317,7 +316,7 @@
 /clicks\.news-tui\.com/i 5.0
 
 # 23.10.25
-/mailing-link\.trustedshops\.com//i 5.0
+/mailing-link\.trustedshops\.com/i 5.0
 
 # U
 # ------------------------------------------------------------------------------
