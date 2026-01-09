@@ -24,9 +24,11 @@
 # ------------------------------------------------------------------------------
 
 # A
+# ------------------------------------------------------------------------------
 /\bachensee\b/i
 
 # B
+# ------------------------------------------------------------------------------
 /\bbayern\b/i
 /\bbezirksdirigent(in)?\b/i
 /\bbundesliga\b/i
@@ -35,24 +37,30 @@
 /\bbundesverband\b/i
 
 # C
+# ------------------------------------------------------------------------------
 /\bchristkindlmarkt\b/i
 
 # D
+# ------------------------------------------------------------------------------
 /darmspiegelung/i
 
 # E
+# ------------------------------------------------------------------------------
 /\bevangelisch\b/i
 
 # H
+# ------------------------------------------------------------------------------
 /\bhandballbund\b/i
 
 # K
+# ------------------------------------------------------------------------------
 /\bkarnevalistisch\b/i
 /\bkreislandfrau\b/i
 /\bkreispokal\b/i
 /\bkreisvorstand\b/i
 
 # L
+# ------------------------------------------------------------------------------
 /\blandfrau\b/i
 /\blandeshauptstadt\b/i
 /\blandesleistungszentrum\b/i
@@ -62,21 +70,27 @@
 /\blandratsamt\b/i
 
 # M
+# ------------------------------------------------------------------------------
 /\bmünchen\b/i 0.5
 /\bmittelrhein\b/i
 
 # P
+# ------------------------------------------------------------------------------
 /\bparitätischen\b/i
 
 # S
+# ------------------------------------------------------------------------------
 /\bschadenfreiheitsberechtigt\b/i
 
 # T
+# ------------------------------------------------------------------------------
 
 # V
+# ------------------------------------------------------------------------------
 /\bvergabeakte\b/i
 
 # W
+# ------------------------------------------------------------------------------
 /\bwaldorfschule\b/i
 /\bwartungs.?termin\b/i
 /\bwaschbecken\b/i
@@ -87,23 +101,32 @@
 /\bwohlfahrtsverband\b/i
 
 # Z
+# ------------------------------------------------------------------------------
 /\bzipfel.?mütze\b/i
+
+#
+#
+#
 
 # Related to Switzerland
 # ------------------------------------------------------------------------------
 
 # H
+# ------------------------------------------------------------------------------
 /\bhallo zäme\b/i
 
 # K
+# ------------------------------------------------------------------------------
 /\bkantons.?spital\b/i
 /\bkanton zu\b/i
 
 # R
+# ------------------------------------------------------------------------------
 /\brekrutenschule\b/i
 /\brestaurant au premier\b/i
 
 # S
+# ------------------------------------------------------------------------------
 /\bsamichlaus\b/i
 
 /\bschweizer fachleute\b/i
@@ -115,6 +138,7 @@
 /\bsvp höri\b/i
 
 # Z
+# ------------------------------------------------------------------------------
 /\bzürich\b/i
 
 #
@@ -126,6 +150,7 @@
 # -> Words and phrases which i think will never occur in spam mails
 
 # A
+# ------------------------------------------------------------------------------
 /\babteilung\b/i
 /\babrechnungs.?periode\b/i
 /\babsenz wegen krankheit\b/i
@@ -142,6 +167,7 @@
 /\batemtherapie\b/i
 
 # B
+# ------------------------------------------------------------------------------
 /\bbewerbung\b/i
 
 /\bbauchbereich\b/i
@@ -160,6 +186,7 @@
 /\bbodenverglasung\b/i
 
 # C
+# ------------------------------------------------------------------------------
 /\bchorprobe\b/i
 
 # D
@@ -173,6 +200,7 @@
 /\bdosier.?pumpe\b/i
 
 # E
+# ------------------------------------------------------------------------------
 /einkommensteuererklärung/iu 2.0
 
 /\beinbruch.{0,10}alarm\b/i
@@ -184,6 +212,7 @@
 /\beuropalette\b/i
 
 # F
+# ------------------------------------------------------------------------------
 /\bfachkraft\b/i
 /\bfachpraxis\b/i
 /\bfachpsychologe\b/i
@@ -204,6 +233,7 @@
 /\bfussball\b/i
 
 # G
+# ------------------------------------------------------------------------------
 /\bgasthof\b/i
 /\bgastroenterologie\b/i
 /\bgastroenterologisch\b/i
@@ -215,6 +245,7 @@
 /\bgymnastik\b/i
 
 # H
+# ------------------------------------------------------------------------------
 /\bhallen.?belegung\b/i
 /\bhallen.?koordinator\b/i
 /\bhallen.?masters\b/i
@@ -240,17 +271,20 @@
 /\bhundetraining\b/i
 
 # I
+# ------------------------------------------------------------------------------
 /\bihre rücksendung\b/i
 /\binfarkt\b/i
 /\bisolierverglasung\b/i
 
 # J
+# ------------------------------------------------------------------------------
 /\bjahresabschluss\b/i
 /\bjugendleiterin\b/i
 /\bjugendspiel\b/i
 /\bjunghund\b/i
 
 # K
+# ------------------------------------------------------------------------------
 /\bkabelanschluss\b/i
 /\bkalender von\b/i
 /\bkampfrichter\b/i
@@ -283,6 +317,7 @@
 /\bkursleiter\b/i
 
 # L
+# ------------------------------------------------------------------------------
 /\bleichtathletik\b/i
 /\blehrgang\b/i
 /lektion(en)?.{1,10}abgeschlossen/i
@@ -300,6 +335,7 @@
 /\blucee\b/i
 
 # M
+# ------------------------------------------------------------------------------
 /\bmammographie\b/i
 /\bmagistrat\b/i
 /\bmaterialkosten\b/i
@@ -309,11 +345,13 @@
 /\bmontagetermin\b/i
 
 # N
+# ------------------------------------------------------------------------------
 /\bniederschrift\b/i
 /\bnetzspannung\b/i
 /\bnotbetreuung\b/i
 
 # O
+# ------------------------------------------------------------------------------
 /\boberlichtverglasung\b/i
 /\boffene.?bestellung\b/i
 /\bolma.?halle\b/i
@@ -325,6 +363,7 @@
 /orchestervorstände/i
 
 # P
+# ------------------------------------------------------------------------------
 /partnerschaftsverein 5.0/i
 /\bparodontologie\b/i
 /\bparklift\b/i
@@ -336,9 +375,11 @@
 /\bprojekt.?planung\b/i
 
 # Q
+# ------------------------------------------------------------------------------
 /\bquartett\b/i
 
 # R
+# ------------------------------------------------------------------------------
 /\bradregion\b/i
 /\bradweg\b/i
 /\braum.?mietung\b/i
@@ -351,6 +392,7 @@
 /\breferendum\b/i
 
 # S
+# ------------------------------------------------------------------------------
 /\bsamstagabend\b/i
 /\bsanierung\b/i
 
@@ -377,7 +419,7 @@
 /\bskipass\b/i
 /\bsocialwalk\b/i
 
-/\bsonntagabend/\b/i
+/\bsonntagabend\b/i
 /\bsonntagnachmittag\b/i
 
 /\bspannungs.?versorgung\b/i
@@ -404,6 +446,7 @@
 /\bstudierendenverein\b/i
 
 # T
+# ------------------------------------------------------------------------------
 /\btankrechnung\b/i
 /\btelefonat\b/i
 /\bterminverschiebung\b/i
@@ -420,10 +463,12 @@
 /\bturntrainer\b/i
 
 # U
+# ------------------------------------------------------------------------------
 /\bultraschall.{0,5}untersuchung\b 5.0/i
 /\bunterricht\b/i
 
 # V
+# ------------------------------------------------------------------------------
 /\bveranstaltungs.?kalender\b/i
 /\bvereinsmitglied\b/i
 /\bvereinsregister\b/i
@@ -439,10 +484,12 @@
 /\bvorsorgeuntersuchung\b/i
 
 # W
+# ------------------------------------------------------------------------------
 /\bwinternachtsball\b/i
 /\bwirtschaftsraum\b/i
 /\bwochenreport\b/i
 
 # Z
+# ------------------------------------------------------------------------------
 /\bzahn.?heil.?kunde\b/i
 /\bzugewiesen an\b/i
