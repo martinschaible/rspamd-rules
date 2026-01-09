@@ -21,7 +21,7 @@
 /font-size:\d{3,15}px;.{0,5}opacity:0/i
 
 # 03.01.24
-/<div style=.?visibility: hidden;.?>.{0,15}<title></title>/i
+/<div style=.?visibility: hidden;.?>.{0,15}<title></\title>/i
 
 # 06.01.24
 /<font style=(3d)?"color:transparent;.?font-size:0px">/i
