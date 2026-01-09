@@ -122,7 +122,7 @@
 # ------------------------------------------------------------------------------
 
 # Some merging is needed
-/ear.{0,10}(buzzing|care|clarity|comfort|humming|noises?|ringing|silencer|wax)/i
+/ear.{0,10}(buzzing|care|clarity|comfort|humming|noises?|pinch|ringing|silencer|wax)/i
 
 /(buzz|noise).{0,10}free/i
 /(no more|stop).{0,10}ringing/i
@@ -664,6 +664,7 @@
 /herb(al)?.{0,10}(discovery|high|wisdom|zempic)/i
 /herpes.{0,10}(beat it|breakthrough|discovery|eliminator|outbreak|talk)/i
 
+/hgh.{0,10}(alert|boost|secret)/i
 /hidden.{0,10}(crisis|danger|deficiency|dish)/i
 /hidden.{0,10}(organ|path|power|protein|remedy|risk|ritual|science|threat|toxin)/i
 
@@ -1032,7 +1033,7 @@
 /stop.{0,10}(breating|brushing|flossing|pain)/i
 
 /stream.{0,10}strong(er)?/i
-/stress.{0,10}weight/i
+/stress.{0,10}(tension|weight)/i
 /stretch.{0,10}soothe/i
 
 /strong(er)?.{0,10}(bladder|heart|memory|urine)/i

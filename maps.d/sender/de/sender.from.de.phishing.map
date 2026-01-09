@@ -169,6 +169,7 @@
 # S
 # ------------------------------------------------------------------------------
 /(schneller|sicherer).{0,10}(express|versand)/i
+/schnell.{0,10}zustell/i
 
 /service.{0,10}meldung(en)?/i
 /servicecenter.{0,10}verifizierung/i
