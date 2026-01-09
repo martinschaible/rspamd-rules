@@ -699,17 +699,16 @@
 
 /^sbb$/i
 /ṣbbcff/i
+
+/sbb ch/i
 /sbb.?cff$/i
+/sbb.{0,5}(kundencenter|swisspass)/i
 /sbb(.?cff.?ffs)?.{0,5}(kundenservice|konto|support|technikzentrum)/i
 #/sbb.?ffs$/i
 
-/sbbcffffs/i
-
-/sbb.{0,5}kundencenter/i
-/sbb.{0,5}swisspass/i
-
 /sbbch/i
 /sbbcff/i
+/sbbcffffs/i
 
 /-sbb cff/i
 /\|.?sbb/i

@@ -36,6 +36,7 @@
 /^.?ip.?tv.?$/i
 /ip.?tv.{1,10}(access|channels|company)/i
 /ip.?tv.{1,10}(deal|live|max|movies|royals|offer|show|stream(ing)?|trial|today)/i
+/ip.?tv.{1,10}unlimited/i
 /ip.?tv.{1,10}(vod|world)/i
 
 /i p t\.v/i
@@ -43,6 +44,7 @@
 /i p t v/i
 
 /(best|free|nex.?|unlimited|value).?ip.?tv/i
+/unlimited.{0,10}tv/i
 
 # Replicas
 # ------------------------------------------------------------------------------

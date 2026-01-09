@@ -107,6 +107,7 @@
 /healthy?.{0,10}(habit|hack|hair|heart|heaven|hero)/i
 /healthy?.{0,10}(insider|insights)/i
 /healthy?.{0,10}(liver|mornings?|mouth|now|power)/i
+/healthy?.{0,10}metabolism/i
 /healthy?.{0,10}research/i
 /healthy?.{0,10}(secret|skin|smile|spine|start)/i
 /healthy?.{0,10}(transformation|vibes|wire)/i
@@ -358,7 +359,8 @@
 /blurry.{0,10}fix/i
 
 /breath(ing)?.{0,10}(clear|science)/i
-/brain.{0,10}(boost|re?(boot)care|exercise|fix|flow|health|noise|shrinkage|solution|upgrade)/i
+
+/brain.{0,10}(boost|re?(boot)care|consequence|exercise|fix|flow|health|noise|shrinkage|solution|upgrade)/i
 /brain.{0,10}(reset|revival|routine)/i
 /brain.{0,10}test/i
 
@@ -1040,7 +1042,10 @@
 
 /stuck.{0,10}poop/i
 
-/sugar.{0,10}(balance|control|eraser|fix|free|guilty|hack|reboot|report|solution|spike|traps|trick)/i
+/sugar.{0,10}(balance|control|eraser|fix|free|guilty|hack|traps|trick)/i
+/sugar.{0,10}(reboot|report)/i
+/sugar.{0,10}(solution|spike|surprise)/i
+
 /super.{0,10}(fruits?|water)/i
 /supplement.{0,10}(alert|choice|insider|mistake|review|truth)/i
 
@@ -1123,7 +1128,7 @@
 /virility.{0,10}expert/i
 /virus.{0,10}cure/i
 
-/vital(ity)?.{0,10}(fix|health|now|stats|signs?|update)/i
+/vital(ity)?.{0,10}(daily|fix|health|now|stats|signs?|update)/i
 /vitamin.{0,10}recall/i
 
 /vitiligo.{0,10}solution/i

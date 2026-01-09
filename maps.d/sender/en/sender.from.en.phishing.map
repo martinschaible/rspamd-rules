@@ -53,12 +53,12 @@
 /i\.?t (admin|notice|notification|server)/i
 /^it.?support$/i
 
-/cloud.{0,10}(admin|backup|limit|operations|team)/i
+/cloud.{0,10}(admin|backup|limit|membership|operations|storage|team)/i
 /cloud.{0,10}benachrichtigung/i
 
 /cpanel.{0,10}(webhost|webmail)/i
 
-/(data|digital|e.?mail).{0,10}(retention|service|storage)/i
+/(data|digital|e.?mail).{0,10}(protection|retention|service|storage)/i
 
 /helpdesk©/i
 /help-desk/i
