@@ -32,13 +32,8 @@
 # -> Redirect via AWS
 /\.awstrack\.me\/l0\/https:/i
 
-/\.shop/\?u=https:/i
-
 # 23.06.25, Phishing
 /redir=(3d)?https:\/\/tinyurl\.com/i
-
-# 07.05.25
-/.shop/\?.{1,2}=(3d)?https/i
 
 # 11.06.25 - Sample: https://dl.dropboxusercontent.com/scl/fi/iucydhsjf9l9353pu8l6d/Rechnung-von-technikboerse.com.zip?rlkey=0opmabq5eo89kiltspk71df28&st=ug7b8cgr&dl=0
 # Malware
@@ -58,15 +53,15 @@
 
 # Simple path
 # ------------------------------------------------------------------------------
-/\/account\/index\.php/campaigns\//i
+/\/account\/index\.phpy\/campaigns\//i
 
 # 11.12.24
 /\/scancopy\d{2}\//i
 /\/shopping\d{2}\//i
 
 # 15.12.24, French spammer are using this
-/\/iem66/link\.php/i
-/\/iem7/link\.php/i
+/\/iem66\/link\.php/i
+/\/iem7\/link\.php/i
 
 /\/images\//i
 
@@ -76,7 +71,7 @@
 
 # Simple path and file
 # ------------------------------------------------------------------------------
-/\/mail/link\.html/i
+/\/mail\/link\.html/i
 
 # Strange stuff
 # ------------------------------------------------------------------------------

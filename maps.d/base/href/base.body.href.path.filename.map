@@ -72,8 +72,6 @@
 /\/redirect\.html?/i
 /\/rooster\.html?/i
 
-/\/serv/\d\.html?/i
-
 /\/url\.html?/i
 
 # Used in real life
@@ -100,7 +98,7 @@
 # -> avoiding false/positives with this
 
 # 15.04.25
-/\.appspot\.com/redirect\?/i
+/\.appspot\.com\/redirect\?/i
 
 # 18.02.25 - Sample: https://storage.googleapis.com/9743934b507eab2/lf220.html
 /\.googleapis\.com\/[a-z0-9]{5,20}\/[a-z0-9]{5,20}\.html/i

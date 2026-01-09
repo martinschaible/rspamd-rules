@@ -32,7 +32,7 @@
 /\.[a-z]{1,4}.{1,5}webmail/i
 
 # TLD at the end
-/system.?administrator.{0,10}/\.[a-z]{1,4}$/i
+/system.?administrator.{0,10}\.[a-z]{1,4}$/i
 
 /\|.{1,5}delivery.?report/i
 /\|.{1,5}system.?notification/i
@@ -42,7 +42,7 @@
 /account.{0,5}(alert|support)/i
 
 # Sample: Admin-mydomain.ch
-/admin(-|_)[a-z]{5,15}/\.[a-z]{1,4}/i
+/admin(-|_)[a-z]{5,15}\.[a-z]{1,4}/i
 
 /admin.?it$/i
 /admin.?(notification|support|technical|updates)/i
