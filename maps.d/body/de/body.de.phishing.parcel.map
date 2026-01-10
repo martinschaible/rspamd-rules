@@ -109,6 +109,7 @@
 /(lieferung|paket|sendung).{1,10}im zielland eingetroffen ist/i
 /(lieferung|paket|sendung).{1,10}in der warteschleife/i
 /(lieferung|paket|sendung).{1,15}in unserer bearbeitung befindet/i
+/(lieferung|paket|sendung).{1,10}in vorbereitung.{1,10}zahlung ausstehend/i
 
 /(lieferung|paket|sendung).{1,10}ist versandfertig.{1,10}aber die versandkosten/i
 /(lieferung|paket|sendung).{1,15}ist fast zugestellt/i
