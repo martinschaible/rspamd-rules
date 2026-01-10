@@ -524,7 +524,7 @@
 # ------------------------------------------------------------------------------
 /eagle.{0,10}vision/i
 
-/ear.{0,10}(health|reset)/i
+/ear.{0,10}(health|mystery|reset)/i
 /easy.{0,10}(breath(ing)?|digestive|spine|stretch|wellness)/i
 /eat.{0,10}(fruitme|me|this)/i
 /eggs.{0,10}hack/i
@@ -718,7 +718,7 @@
 /latte.{0,10}hack/i
 
 /leak.{0,10}(free|stop(per)?)/i
-/leaky.{0,10}brain/i
+/leaky.{0,10}(brain|gut)/i
 
 /leakage.{0,10}(fixer|prevention)/i
 /legs?.{0,10}balance/i

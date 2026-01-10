@@ -79,6 +79,9 @@
 # D
 # ------------------------------------------------------------------------------
 /deals?.{0,10}(alarm|days?|today)/i
+
+/deep.{0,10}state/i
+
 /(designer|discount|rolex|top).?watch(es)?/i
 
 /defense.{0,10}brief/i
@@ -115,6 +118,8 @@
 /(essential|outdoor).{0,10}gloves?/i
 
 /_experience/i
+
+/everyday.{0,10}(carry|comfort|gear|health)/i
 
 /exclusive.{0,10}(deals?|offers?)/i
 
@@ -324,6 +329,7 @@
 
 /translation.{0,10}(device|services?)/i
 
+/truth.{0,10}(finder|watch)/i
 /tv.{0,10}(deals|streaming|upgrade)/i
 
 # U

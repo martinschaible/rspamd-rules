@@ -36,7 +36,8 @@
 # ------------------------------------------------------------------------------
 /beendigung ihres abonnements.{1,10}hallo/i
 
-/bestätigen sie ihre.{1,20}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/i
+/bestätigen.{1,10}sie ihre.{1,20}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/i
+/bestätigung.{1,10}erforderlich.{1,20}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/i
 
 # C
 # ------------------------------------------------------------------------------
