@@ -67,6 +67,7 @@
 /exklusiv.{0,15}(löwen|vox)/iu
 
 /express.{0,10}(deutschland|schweiz)/i
+/express.{0,10}versand/i
 
 # F
 # ------------------------------------------------------------------------------
@@ -128,6 +129,7 @@
 
 # L
 # ------------------------------------------------------------------------------
+/liefer.{0,10}express/i
 /lieferdienst.{0,10}deutschland/i
 /lieferinfo.{0,10}(online|service)/i
 

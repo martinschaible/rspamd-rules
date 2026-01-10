@@ -292,7 +292,8 @@
 /sehr geehrter.{1,10}anleger.{1,10}unser sicherheitssystem/i
 /sehr geehrter.{1,10}anleger.{1,10}unsere unterlagen zeigen/i
 
-/sehr geehrter.{1,10}(anleger|geschäftsführer|geschäftspartner)/iu
+/sehr geehrter?.{1,10}(anleger|geschäftsführer|geschäftspartner)/iu
+/sehr geehrter?.{1,15}bank.{1,10}(kunde|kundin)/i
 
 /sehr geehrter.?,/i
 
