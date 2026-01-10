@@ -135,7 +135,7 @@
 # N
 # ------------------------------------------------------------------------------
 /^new email/i
-/^new message/i
+#/^new message/i
 /^new letter/i
 
 /note from last week.{1,10}did it reach you/i
