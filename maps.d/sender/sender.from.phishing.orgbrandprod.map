@@ -259,6 +259,8 @@
 # Poochy Couture
 /ap.?vertrieb/i
 
+/apobank -/i
+
 /apiie ld/i
 /apple.{0,10}airtag/i
 /apple.{0,10}(autorisierung|kundenservice|zahlung)/i
@@ -281,7 +283,6 @@
 # B
 # ------------------------------------------------------------------------------
 /banksantander/i
-
 
 # Very funny these suckers
 /bank of nigeria/i
@@ -361,7 +362,7 @@
 
 /dkb-ag/i
 /dkb\.de/i
-/dkb.{0,5}team/i
+/dkb.{0,5}(kundenbetreuung|team)/i
 
 /d k b.{0,5}ag/i
 
@@ -476,8 +477,9 @@
 /kauf\.land/i
 /kauflandmarkt/i
 
-/kunden.?dm/i
+/kleinanzeigen.{0,10}team/i
 
+/kunden.?dm/i
 /kundenservice.{0,10}telecom/i
 
 /kontakt.{0,10}(spotify|swisspass)/i
@@ -727,6 +729,7 @@
 
 /spar-kasse/i
 /^sparkasse$/i
+/sparkasse -/i
 /sparkasse noreply/i
 /sparkasse-de/i
 
@@ -864,6 +867,7 @@
 /viseca.?one.?app/i
 
 /^volksbank$/i
+/volksbank -/i
 /volksbanken$/i
 /volksbanken.{0,10}(service|support)/i
 

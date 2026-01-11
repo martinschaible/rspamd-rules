@@ -226,8 +226,11 @@
 
 /dringende information.{1,10}korrektur/i
 /dringende (sicherheitsprüfung|sicherheitswarnung)/iu
+
 /^dringender handlungsbedarf$/i
-/dringender handlungsbedarf.{1,15}bank/i
+
+/dringender.{1,10}handlungsbedarf.{1,15}bank/i
+/dringender.{1,10}handlungsbedarf.{1,10}im bereich/i
 
 /dringlichkeit.{1,10}aufmerksamkeit/i
 
@@ -303,7 +306,7 @@
 /handlungsbedarf.{1,10}telefonnummer überprüfen/iu
 /handlungsbedarf.{1,10}überprüfung.{1,10}aktualisierung/iu
 /handlungsbedarf.{1,10}überprüfung.{1,10}ihrer/iu
-/handlungsbedarf.{1,10}unvollständige lieferadresse/iu
+/handlungsbedarf.{1,10}unvollständige.{1,10}(lieferadresse|sendungsdaten)/iu
 
 /hier ist die letzte warnung/i
 
@@ -466,6 +469,8 @@
 /(letzter|verbleibender).{1,10}versuch.{1,10}planen sie/i
 
 /letztes.{1,10}stunden.{1,10}verlängerungsfenster/iu
+
+/lieferung.{1,10}handlungsbedarf/i
 
 # M
 # ------------------------------------------------------------------------------
