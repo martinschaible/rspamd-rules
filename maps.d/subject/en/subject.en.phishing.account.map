@@ -48,6 +48,8 @@
 /account.{1,10}update (notice|required)/i
 /account.{1,10}verification required.{1,15}@/i
 
+/account setup.{1,10}final step/i
+
 /authentication expires? today id/i
 /authentication expires?.{1,10}id.?\d{5,15}/i
 /authentication on your.{1,15}(account|profile)/i

@@ -70,6 +70,7 @@
 /(action|update) (needed|required).{1,10}final step.{1,15}(package|parcel|shipment)/i
 /(action|update) (needed|required).{1,10}final step.{1,15}receive/i
 /(action|update) (needed|required).{1,10}(complete|finalize).{1,15}(identity|verification)/i
+/(action|update) (needed|required).{1,10}confirm.{1,10}e?.?mail.?address/i
 
 /(action|update) (needed|required).{1,10}(e?.?mail|mailbox).{1,10}optimization/i
 
@@ -141,13 +142,15 @@
 
 # C
 # ------------------------------------------------------------------------------
+/complete registration process
+
 /compliance (alert|notice|reminder).{1,10}(complete|finalize).{1,15}(identity|verification)/i
 /compliance (alert|notice|reminder).{1,10}renewal required/i
 /compliance (alert|notice|reminder).{1,10}verify your/i
 
 /confirm access immediately/i
 /confirm ownership of.{1,20}@/i
-/Confirm your.{1,10}e?.?mail.?address.{1,10}continue usage/i
+/confirm your.{1,10}e?.?mail.?address.{1,10}continue usage/i
 
 /credential.{1,10}update alert/i
 /critical security alert/i
@@ -299,6 +302,7 @@
 
 /report.{1,10}incoming messages/i
 
+/required.{1,10}complete.{1,15}account activation/i
 /requirement.{1,10}renew your/i
 
 # S
