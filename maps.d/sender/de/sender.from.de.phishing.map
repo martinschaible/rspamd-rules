@@ -129,7 +129,7 @@
 
 # L
 # ------------------------------------------------------------------------------
-/liefer.{0,10}express/i
+/liefer.{0,10}(express|schnell.?versand)/i
 /lieferdienst.{0,10}deutschland/i
 /lieferinfo.{0,10}(online|service)/i
 
@@ -225,4 +225,4 @@
 #/zoll.{0,10}(paket|service)/i
 /zoll.{0,10}paket/i
 
-/zustell.{0,10}express/i
+/zustell.{0,10}(express|kunden)/i

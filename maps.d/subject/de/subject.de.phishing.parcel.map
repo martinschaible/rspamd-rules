@@ -436,8 +436,9 @@
 
 /zustellverifizierung erforderlich/i
 
-/zollabfertigung bezahlen no/i
-/zollabfertigung für.{1,10}(paket|sendung|versand)/iu
+/(zollabfertigung|zollabwicklung).{1,10}(bezahlen|online) no/i
+/(zollabfertigung|zollabwicklung).{1,10}für.{1,10}(paket|sendung|versand)/iu
+/(zollabfertigung|zollabwicklung).{1,10}ist noch nicht abgeschlossen/i
 
 /(zollgebühr|zustellgebühr)(en)?.{1,10}(benachrichtigung|erforderlich)/iu
 /(zollgebühr|zustellgebühr)(en)?.{1,10}fällig für iihre?.{1,15}(paket|sendung)/i

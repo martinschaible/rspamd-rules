@@ -574,7 +574,7 @@
 /female o$/i
 
 /food.{0,10}(facts|nerves?|quiz|stops|warning|wellness)/i
-/(feet|foot).{0,10}(detox|health|massage|odor|test)/i
+/(feet|foot).{0,10}(detox|health|massage|odor|test|warning)/i
 
 /fiber.{0,10}fix/i
 /fine.{0,10}lines/i
@@ -1065,6 +1065,7 @@
 
 /sweet.{0,10}(balance|control||deal|fix|solution|trick)/i
 /swelling.{0,10}solution/i
+
 /swollen.{0,10}(belly|feet|foot|gut|legs)/i
 
 # T
