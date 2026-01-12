@@ -119,7 +119,7 @@
 
 # T
 # ------------------------------------------------------------------------------
-/telefon.?nummer (aktualisieren|verifizieren)/i
+/telefon.?nummer.{1,10}(aktualisieren|verifizieren)/i
 
 # U
 # ------------------------------------------------------------------------------
@@ -129,7 +129,7 @@
 
 # W
 # ------------------------------------------------------------------------------
-/wir haben neue (sicherheitsmassnahmen|sicherheitsmaßnahmen) eingeführt/iu
+/wir haben neue.{1,10}(sicherheitsmassnahmen|sicherheitsmaßnahmen).{1,10}eingeführt/iu
 
 # X
 # ------------------------------------------------------------------------------
@@ -140,3 +140,5 @@
 # Z
 # ------------------------------------------------------------------------------
 /zugang aus sicherheitsgründen temporär eingeschränkt/iu
+
+/zum sicheren online.?banking.{1,10}login/i
