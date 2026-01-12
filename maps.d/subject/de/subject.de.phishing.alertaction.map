@@ -96,7 +96,7 @@
 /aktualisierung.{1,10}rechnungs.{1,10}zahlungsinformationen.{1,10}erforderlich/i
 /aktualisierung.{1,10}überprüfen sie/i
 
-/aktualisierung ihrer.{1,15}(banking.?daten|unternehmens.?daten)/i
+/aktualisierung ihrer.{1,15}(banking|kunden|unternehmens).?daten/i
 /aktualisierung ihrer.{1,10}daten (erforderlich|notwendig)/i
 /aktualisierung ihrer.{1,10}telefonnummer/i
 /aktualisierung ihres.{1,10}profils empfohlen/i
@@ -504,6 +504,8 @@
 
 # S
 # ------------------------------------------------------------------------------
+/service.?anfrage.{1,10}aktualisierung ihrer/i
+
 /(schliessen|schließen).{1,10}sie.{1,10}ihre.{1,10}(authentifizierungsprozess|identifizierung)/iu
 /(schliessen|schließen).{1,10}sie die kontoaktivierung jetzt ab/iu
 

@@ -9,6 +9,10 @@
 # Topics
 # ==============================================================================
 
+# Company names
+# ------------------------------------------------------------------------------
+/deutsche bank.{1,10}offizielle mitteilung/i
+
 #
 #
 #
@@ -35,6 +39,7 @@
 /banking.?dienste stabil.{1,10}sicher zu halten/i
 
 /bestätigung.{1,10}zwei.?faktor.?authentifizierung.{1,10}erforderlich/iu
+/bestätigung.{1,15}nahtlosen übergang.{1,10}unseren neuen banking/iu
 
 /betreff.{1,10}verbindliche sicherheitsumstellung/i
 

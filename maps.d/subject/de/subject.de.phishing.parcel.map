@@ -37,6 +37,7 @@
 /adresse.{1,15}lieferung erforderlich/i
 
 /angekommen.{1,10}verzollt/i
+/anleitung.{1,10}(zollabfertigung|zollabwicklung)/i
 
 /aktualisierung.{1,10}internationalen pakets/i
 /antworten sie/i
@@ -436,6 +437,7 @@
 
 /zustellverifizierung erforderlich/i
 
+/(zollabfertigung|zollabwicklung).{1,10}bearbeitungsgebühr.{1,10}erforderlich/iu
 /(zollabfertigung|zollabwicklung).{1,10}(bezahlen|online) no/i
 /(zollabfertigung|zollabwicklung).{1,10}für.{1,10}(paket|sendung|versand)/iu
 /(zollabfertigung|zollabwicklung).{1,10}ist noch nicht abgeschlossen/i

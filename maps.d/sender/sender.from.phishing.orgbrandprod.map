@@ -542,7 +542,7 @@
 /microsoft.{0,10}(advertising|cashback|rewards?)/i
 /microsoft.{0,10}konto/i
 
-/service.{0,10}microsoft/i
+/(service|support).{0,10}(hetzner|microsoft)/i
 
 /migrol.{0,10}automobil/i
 

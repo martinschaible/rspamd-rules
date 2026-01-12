@@ -68,6 +68,7 @@
 
 /express.{0,10}(deutschland|schweiz)/i
 /express.{0,10}versand/i
+/express.{0,10}zentrale/i
 
 # F
 # ------------------------------------------------------------------------------
@@ -158,8 +159,7 @@
 
 /paketdienst.{0,10}(deutschland|schweiz)/i
 #/paketinfo/i
-/^paket.?service$/i
-/paket.{0,10}express.{0,10}zentrale/i
+/paket.?(express|service)/i
 
 /(photo|push).?tan/i
 
