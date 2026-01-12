@@ -102,7 +102,8 @@
 /(lieferung|paket|sendung).{1,10}bereit für die lieferung/iu
 /(lieferung|paket|sendung).{1,15}das an sie hätte geliefert/iu
 /(lieferung|paket|sendung).{1,15}dessen empfänger sie sind/iu
-/(lieferung|paket|sendung).{1,15}erfordert eine.{1,10}bestätigung/iu
+/(lieferung|paket|sendung).{1,15}erfordert.{1,10}eine.{1,10}bestätigung/iu
+/(lieferung|paket|sendung).{1,10}erfordert.{1,10}sofortige aufmerksamkeit/i
 /(lieferung|paket|sendung).{1,15}erhalten.{1,25}ihre daten zu überprüfen/iu
 
 /(lieferung|paket|sendung).{1,10}ihre heimatadresse zu/i

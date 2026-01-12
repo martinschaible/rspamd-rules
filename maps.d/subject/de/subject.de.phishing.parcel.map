@@ -286,6 +286,7 @@
 
 /(paket|sendung).{1,10}liegt in der filiale lieferbereit/i
 /(paket|sendung).{1,10}mit der nummer/i
+/(paket|sendung).{1,10}neueste aktualisierung/i
 /(paket|sendung).{1,10}nicht möglich.{1,10}fehlerhafte.{1,10}(adresse?|angaben|mwst)/iu
 
 /(paket|sendung).{1,10}von.{1,25}zahlung erforderlich/i
