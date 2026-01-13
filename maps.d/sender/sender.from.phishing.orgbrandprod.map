@@ -260,6 +260,7 @@
 /ap.?vertrieb/i
 
 /apobank -/i
+/apobank.{0,10}kundenservice/i
 
 /apiie ld/i
 /apple.{0,10}airtag/i
@@ -641,7 +642,7 @@
 /paypal.{0,15}(account|alarme?|billing|case.?id|customer)/i
 /paypal.{0,15}(department|europe?|help.?desk|inc)/i
 
-/paypal.{0,15}(benachrichtigung(en)?|betrieb|kunden|konto|nachricht|sicherheit|team|verifizierung|vertrauen)/i
+/paypal.{0,15}(benachrichtigung(en)?|betrieb|kunden|konto|nachricht|rechtliches|sicherheit|team|verifizierung|vertrauen)/i
 /paypal.{0,15}guthaben/i
 
 /paypal.{0,15}(compliance|concierge|management|update|payments?)/i

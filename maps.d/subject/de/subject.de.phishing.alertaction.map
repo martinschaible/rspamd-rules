@@ -142,6 +142,7 @@
 /(bedroht|festgestellt).{1,10}ergreifen sie maßnahmen/iu
 
 /benachrichtigung.{1,10}kontoaktivität/iu
+/benachrichtigung.{1,10}sofortige aktion/i
 /benachrichtigung.{1,10}ungewöhnlicher login/iu
 
 /benötigt aktion/iu
@@ -241,8 +242,9 @@
 
 /endgültige.{1,10}erinnerung.{1,10}punkte/i
 
-/erforderliche.{1,10}(massnahmen?|maßnahmen?).{1,10}(liefer)?adresse/iu
-/erforderliche.{1,10}(massnahmen?|maßnahmen?).{1,10}versäumte lieferung/iu
+/erforderliche?.{1,10}(massnahmen?|maßnahmen?).{1,10}(liefer)?adresse/iu
+/erforderliche?.{1,10}(massnahmen?|maßnahmen?).{1,10}versäumte lieferung/iu
+/erforderliche?.{1,10}ihre bestätigung für/iu
 
 /erinnerung.{1,10}angebot/i
 /erinnerung.{1,10}aktualisierung ihrer/i
@@ -583,6 +585,7 @@
 /sofort öffnen/iu
 
 /sofortiges? (aktion|handeln|reaktion).{1,10}(erforderlich|nötig)/iu
+/sofortige.{1,10}aktion no\b/i
 
 /sofortige sicherheitswarnung/i
 /sofortiger zugriff empfohlen/i
