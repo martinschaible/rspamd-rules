@@ -113,7 +113,10 @@
 /(dear|hello|hi\b).{1,15}(supplier|vendor).{1,15}we are.{1,10}interested in your products/i
 /(dear|hello|hi\b).{1,15}(supplier|vendor).{1,15}we offer.{1,10}wide range/i
 
-/(dear|hello|hi\b).{1,10}potential partner/i
+/(dear|hello|hi\b).{1,10}potential (customer|partner)/i
+
+/(dear|hello|hi\b).{1,10}(esteemed|valued) customer.{1,10}(good day|how are you|this is)/i
+/(dear|hello|hi\b).{1,10}(esteemed|valued) customer.{1,10}our (company|factory|firm)/i
 
 /(dear|hi).{1,10}friend.{1,10}nice day/i
 /(dear|hi).{1,10}i am.{5,35}i have been diagnosed/i

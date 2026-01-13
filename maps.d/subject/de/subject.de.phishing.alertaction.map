@@ -613,7 +613,8 @@
 
 /unvollständiges.{1,10}(unternehmens)?profil/iu
 
-/update erforderlich/i
+/(update|upgrade) erforderlich/i
+/(update|upgrade).{1,15}ihre bestätigung{1,10}erforderlich/iu
 
 # Microsoft uses this
 #/update.{1,15}(abonnement|kontosicherheit)/i

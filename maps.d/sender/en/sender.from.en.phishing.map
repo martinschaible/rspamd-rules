@@ -118,7 +118,7 @@
 # B
 # ------------------------------------------------------------------------------
 /bill.{0,5}alert/i
-/billing.?team/i
+/billing.{0,5}(services|team)/i
 
 /bonus.{0,10}(center|offer|points|reward|treat)/i
 /box.{0,10}offer/i

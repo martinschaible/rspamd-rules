@@ -621,7 +621,7 @@
 /^open.?ai$/i
 
 /open.?ai.{0,5}chatgpt/i
-/open.?ai.{0,5}(account|subscriptions?|upgrade)/i
+/open.?ai.{0,5}(account|billing|subscriptions?|team|upgrade)/i
 /open.?ai.{0,5}zahlung(en)/i
 
 /oral.?b/i

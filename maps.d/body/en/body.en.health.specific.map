@@ -15,9 +15,10 @@
 /forget.{1,10}ozempic/i
 /forget.{1,15}workouts.{1,15}diets/i
 
-/rapid.{1,10}weight.?loss/i
+/rapid.{1,10}(fat|weight).?loss/i
 /she lost.{1,10}(ibs|lbs)/i
 
+/try this.{1,10}(fat|weight).?loss/i
 # Men
 # ------------------------------------------------------------------------------
 /make it long.{1,10}hard/i
