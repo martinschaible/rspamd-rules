@@ -21,6 +21,7 @@
 
 # A
 # ------------------------------------------------------------------------------
+/aussieht.{1,10}aber bei google/i
 
 # B
 # ------------------------------------------------------------------------------
@@ -47,8 +48,14 @@
 
 # I
 # ------------------------------------------------------------------------------
-/ihre website.{1,10}bestimmte keywords/i
-/ihre website.{1,15}ersten seite von/i
+/ich habe ihre web.?site angesehen/i
+/ich habe ihre web.?site überprüft.{1,10}glaube/iu
+
+/ihre sichtbarkeit.{1,10}google/i
+
+/ihre web.?site.{1,10}bestimmte keywords/i
+/ihre web.?site.{1,15}ersten seite von/i
+/ihrer? web.?site auf einige probleme/i
 
 # J
 # ------------------------------------------------------------------------------
@@ -81,6 +88,8 @@
 
 # S
 # ------------------------------------------------------------------------------
+/seite.{1,10}google platzieren/i
+
 /seo.{1,10}(angebot|rabatt)/i
 /seo.?service.?(angebot|plan|pläne|vorschlag)/i
 
