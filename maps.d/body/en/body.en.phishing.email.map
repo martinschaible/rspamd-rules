@@ -64,6 +64,7 @@
 /(e?.?mail|message)s?.{1,10}have been put on hold from/i
 /(e?.?mail|message)s?.{1,10}have failed to send.{1,20}due.{1,10}server error/i
 /(e?.?mail|message)s?.{1,10}has been blocked by.{1,10}administrator/i
+/(e?.?mail|message)s?.{1,10}were blocked.{1,10}view.{1,10}e?.?mails here/i
 
 /(e?.?mail|message)s?.{1,10}marked.{1,10}important.{1,10}pending/i
 /(e?.?mail|message)s?.{1,10}pending on your.{1,10}server/i

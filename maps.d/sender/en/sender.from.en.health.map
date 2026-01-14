@@ -594,7 +594,7 @@
 
 /fountain of/i
 
-/food.{0,10}(alert|cravings?|choices?|medicine|odor|safety|trap)/i
+/food.{0,10}(alert|cravings?|choices?|medicine|odor|safety|stretch|trap)/i
 /foot.{0,10}(alert|care|patch(es)?|safety|solution)/i
 
 /for your.{1,10}joints/i
@@ -1021,7 +1021,7 @@
 /spine.{0,10}(alignment|hack|trick)/i
 /spinal.{0,10}pain/i
 
-/strange.{0,10}acid/i
+/strange.{0,10}(acid|berry)/i
 /stretch.{0,10}(length|solutions?)/i
 /stretch.{0,10}(helps|smart(er)?)/i
 /strong.{0,10}stream/i
