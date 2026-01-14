@@ -52,7 +52,8 @@
 
 # E
 # ------------------------------------------------------------------------------
-/earn.{1,10}guaranteed.{1,15}yearly/i
+/earn(ing)?.{1,10}guaranteed.{1,15}yearly/i
+/earn(ing)?.{1,10}you cryptocurrency every.{1,10}day/i
 
 # F
 # ------------------------------------------------------------------------------
@@ -66,6 +67,8 @@
 
 # I
 # ------------------------------------------------------------------------------
+/internet into.{1,10}passive income/i
+
 /invest in.{1,10}(age home|villa)/i
 /invest in.{1,15}dubai.{1,10}property/i
 /invest in.{1,10}warehouse converted/i
