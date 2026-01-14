@@ -221,6 +221,8 @@
 
 # U
 # ------------------------------------------------------------------------------
+
+/upgrade{1,10}your seo/i
 /unlock.{1,10}seo.{1,10}(potential|trust)/i
 
 # V
@@ -243,6 +245,8 @@
 # ------------------------------------------------------------------------------
 /you need.{1,15}seo/i
 /you want.{1,10}promote.{1,15}customers/i
+
+/your seo.?\?/i
 
 /your.{1,10}((home)?page|(web)?site).{1,10}rankings?/i
 /your.{1,10}search.?engine.{1,10}rankings?/i
