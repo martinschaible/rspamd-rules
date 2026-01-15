@@ -47,6 +47,7 @@
 
 /^aktion erforderlich$/i
 /aktion erforderlich.{1,10}\d{1,20}/i
+/aktion erforderlich.{1,10}no\b/i
 /aktion erforderlich.?!/i
 
 /aktion erforderlich.{1,10}(dpd|sepa)/i

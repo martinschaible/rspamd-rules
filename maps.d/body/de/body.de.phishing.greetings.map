@@ -290,7 +290,7 @@
 /sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}paketnummer/i
 /sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}vollständige nutzung ihres.{1,15}kontos/iu
 
-/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}zu ihrem schutz/i
+/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}zu ihrem (konto|schutz)/i
 /sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}zum schutz ihrer/i
 
 /sehr geehrter.{1,10}anleger.{1,10}unser sicherheitssystem/i
@@ -332,6 +332,7 @@
 
 # W
 # ------------------------------------------------------------------------------
+/wichtige mitteilung.{1,10}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/iu
 
 # X
 # ------------------------------------------------------------------------------

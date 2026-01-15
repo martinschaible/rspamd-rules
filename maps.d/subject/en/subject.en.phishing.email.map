@@ -85,6 +85,7 @@
 
 /e?.?mail.{1,15}(awaiting|delivery).{1,15}your inbox/i
 /e?.?mail.{1,10}closure.{1,10}do not ignore/i
+/e?.?mail.{1,10}deactivation request in progress/i
 /e?.?mail.{1,10}maintenance for/i
 /e?.?mail.{1,10}server warning/i
 /e?.?mail.{1,10}termination request/i
