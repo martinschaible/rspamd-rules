@@ -603,6 +603,7 @@
 /ninja.?air.?fryer/i
 
 /nortonav$/i
+/norton.{0,5}original/i
 
 /^nutella$/i
 
@@ -641,6 +642,8 @@
 /paypl/i
 /paypi@/i
 /päypäl/i
+
+/paypal.?(™|®)$/i
 
 /paypal.{0,15}(account|alarme?|billing|case.?id|customer)/i
 /paypal.{0,15}(department|europe?|help.?desk|inc)/i
@@ -774,7 +777,7 @@
 /sum.?up.{0,10}(kundenservice|kontakt)/i
 /sumxup/i
 
-/sumup.{0,10}(assistenz|kundendienst|service.?desk|sicherheit|support|limited|team)/i
+/sumup.{0,10}(assistenz|kundendienst|service(.?desk)?|sicherheit|support|limited|team)/i
 /(account|mein|team|von).{0,10}sumup/i
 
 /sunrise.{0,10}support/i

@@ -406,7 +406,8 @@
 
 /kritischer endhinweis/i
 
-/(kunde|kundin) servicemeldung/i
+/(kunde|kundin).{1,10}servicemeldung/i
+/kundenservice.{1,10}bitte prüfen/iu
 
 /kurz prüfen.{1,10}ihre zahlungsdaten/iu
 /kurzer aufwand.{1,10}geschäftsdaten prüfen/iu

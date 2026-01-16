@@ -13,6 +13,7 @@
 # ------------------------------------------------------------------------------
 /china co.{1,10}(limited|ltd)/i
 
+/co.{1,5}(limited|ltd).{1,10}a trusted
 /co.{1,5}(limited|ltd).{1,10}tel: \+86/i
 /co.{1,5}(limited|ltd).{1,10}excited to introduce/i
 /co.{1,5}(limited|ltd).{1,15}(manufacturer|professional|specialize|supplier)/i
@@ -247,7 +248,7 @@
 /we.{1,10}specialize.{1,10}(eu|us).{1,10}designs/i
 /We.{1,10}specialize.{1,10}high.?quality/i
 
-/we.{1,10}specialize.{1,10}providing.{1,15}(pricing|reasonable)/i
+/we.{1,10}specialize.{1,10}providing.{1,15}(premium|pricing|reasonable)/i
 
 /we.{1,10}take pride.{1,10}offering.{1,10}wide range/i
 
