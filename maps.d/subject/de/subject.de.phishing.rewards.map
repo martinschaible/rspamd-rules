@@ -54,6 +54,7 @@
 /(airpods|apple|ipad|iphone|macbook|watch ultra).{1,15}ausgewählte.{1,20}(gewinner|kunden)/i
 /(airpods|apple|ipad|iphone|macbook|watch ultra).{1,15}bereit zur lieferung/i
 /(airpods|apple|ipad|iphone|macbook|watch ultra).{1,15}deal endet in/i
+/(airpods|apple|ipad|iphone|macbook|watch ultra).{1,15}einzulösen/iu
 /(airpods|apple|ipad|iphone|macbook|watch ultra).{1,15}erwartet dich/i
 /(airpods|apple|ipad|iphone|macbook|watch ultra).{1,15}exklusiv (bei|für)/i
 
@@ -383,8 +384,10 @@
 /leider konnten wir sie.{1,10}nicht erreichen/i
 
 /letzte chance.{1,10}gewinnen sie/i
-/letzte chance.{1,10}ihr.{1,30}wartet/i
 /letzte chance.{1,10}ihr kostenloses/i
+/letzte chance.{1,10}ihre?.{1,30}wartet/i
+/letzte chance.{1,10}ihren.{1,15}preis/i
+
 /letzte chance.{1,10}laptop.{1,10}freischalten/i
 
 /letzter schritt zur belohnung/i

@@ -150,31 +150,31 @@
 /benötigt aktion/iu
 /benötigt sofortige aufmerksamkeit/i
 
-# Sample: bestätigen (792254690993421)
-/bestätigen.{1,10}\(.?\d{4,20}.?\)/i
-
-/^bestätigung benötigt$/iu
-/bestätigung erforderlich.{1,10}(rück)?erstattung/i
-
-/bestätigung ihrer.{1,10}telefonnummer erforderlich/iu
-
-# This is used everywhere
-#/^bestätigen sie ihre e?.?mail adresse$/iu
-
 /besttigen sie/i
 
 /bestätigen.?-.?#[a-z0-9]{4,10}/iu
+
+# Sample: bestätigen (792254690993421)
+/bestätigen.{1,10}\(.?\d{4,20}.?\)/i
+
 /bestätigen sie ihre.{1,5}adresse/i
 /bestätigen sie (die|ihre).{1,10}aktuellen (angaben|kontaktdaten)/i
 /bestätigen sie (die|ihre).{1,10}(lieferadresse|lieferdaten)/i
 /bestätigen sie (die|ihre).{1,10}(prämie|rechtsform|telefonnummer|zahlung|zusendung)/iu
+# This is used everywhere
+#/^bestätigen (die|ihre) ihre e?.?mail adresse$/iu
 
 /bestätigen sie kurz/iu
 
+/^bestätigung benötigt$/iu
 /bestätigung ausständig/iu
+
+/bestätigung.{1,10}erforderlich.{1,10}(rück)?erstattung/i
+/bestätigung.{1,10}erforderlich.{1,20}systemaktualisierung/iu
 
 /bestätigung.{1,10}ihrer.{1,10}zwei.?faktor.?authentifizierung.{1,10}erforderlich/i
 /bestätigung.{1,10}ihrer.{1,15}bestellung.{1,10}jetzt handeln/i
+/bestätigung.{1,10}ihrer.{1,10}telefonnummer erforderlich/iu
 
 /betreff.{1,5}(achtung|wichtige information)/i
 

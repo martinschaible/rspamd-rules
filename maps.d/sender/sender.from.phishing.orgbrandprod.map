@@ -285,6 +285,8 @@
 # ------------------------------------------------------------------------------
 /banksantander/i
 
+/bank ag-?-.?(kundenbetreuung|kundenservice)/i
+
 # Very funny these suckers
 /bank of nigeria/i
 
@@ -524,6 +526,7 @@
 
 /media.?mart/i
 /mediamarkt.?!/i
+/mediamarkt.{0,5}customer/i
 /mediamarkt.{0,5}gutschein/i
 
 /meta.{0,5}ads$/i

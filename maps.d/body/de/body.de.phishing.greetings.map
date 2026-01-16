@@ -28,7 +28,7 @@
 /aktualisieren sie ihre daten.{1,10}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/i
 /(abonnement|anmeldedaten).{1,15}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/i
 
-/abonnementverlängerung.{1,15}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/iu
+/(abonnementverlängerung|authentifizierung).{1,15}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/iu
 
 /anmeldung festgestellt.{1,15}guten (abend|morgen|tag)/i
 
@@ -232,7 +232,7 @@
 /sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}ihnen auch in zukunft/i
 
 /sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}im rahmen.{1,10}(der|ihrer) gesetzlich(en)?/i
-/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}im rahmen.{1,25}(datenschutz|eintragung|europäischen|sicherheits|verpflichtungen)/iu
+/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}im rahmen.{1,25}(datenschutz|eintragung|europäischen|optimierung|sicherheits|verpflichtungen)/iu
 /sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}im rahmen.{1,15}(jährlichen|regelmäßigen).{1,10}(datenpflege|kontrolle|qualitätskontrolle)/iu
 
 /sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}im zuge.{1,10}europaweiten anpassung/i

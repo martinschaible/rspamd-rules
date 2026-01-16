@@ -23,6 +23,7 @@
 # A
 # ------------------------------------------------------------------------------
 /als aktiver webnutzer ausgewählt/iu
+/als glücklicher? gewinner(in)? des/iu
 
 /antworten sie.{1,20}spendenzuwendung/i
 /ansprüche.{1,10}kontaktieren sie diese.{1,10}e?.?mail/iu
@@ -119,6 +120,7 @@
 /ihnen.{1,10}diesen betrag spenden/i
 /ihnen.{1,10}gerade eine.{1,10}spende in höhe von/iu
 /ihnen.{1,10}in form von.{1,10}spenden?.{1,10}verfügung/iu
+/ihnen.{1,10}meine stiftung.{10,25}zu spenden/i
 /ihnen.{1,25}zur investition zu spenden/i
 
 # J
@@ -203,6 +205,7 @@
 /sie zu einem.{1,10}spendenfonds/i
 
 /(spende|zuschuss).{1,10}auf sie.{1,10}einzufordern/i
+/(spende|zuschuss).{1,10}erhalten.{1,10}schreiben Sie uns.{1,10}damit/iu
 /(spende|zuschuss).{1,10}in höhe von.{1,30}wurde an sie/iu
 
 /(spende|zuschuss).{1,10}wurde bearbeitet und kann an sie/i

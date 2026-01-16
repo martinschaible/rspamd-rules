@@ -155,7 +155,10 @@
 /(konto|profil).{1,10}bleibe geschützt/iu
 
 /kontoprüfung.{1,10}einkommensteuererstattung/iu
+
 /kontostand ist (höher|hoeher) als/iu
+/kontostatus.{1,10}aktualisierung no\b/i
+
 /kontozugriff.{1,10}sichern/i
 
 /kurze (überprüfung|verifizierung) (für ihr.{1,15}konto|ihrer angaben)/iu
