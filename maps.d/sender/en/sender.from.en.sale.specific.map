@@ -27,8 +27,8 @@
 # Electric Bike
 # ------------------------------------------------------------------------------
 /e.?bike.?pro/i
-(bicycle|bike|velo).{0,10}(care|company|customer|expert|factory|manufacturr)/i
-(bicycle|bike|velo).{0,5}(sales|service|support|team)/i
+/(bicycle|bike|velo).{0,10}(care|company|customer|expert|factory|manufacturr)/i
+/(bicycle|bike|velo).{0,5}(sales|service|support|team)/i
 
 # IP TV/Steaming
 # ------------------------------------------------------------------------------

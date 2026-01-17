@@ -13,7 +13,7 @@
 # ------------------------------------------------------------------------------
 /china co.{1,10}(limited|ltd)/i
 
-/co.{1,5}(limited|ltd).{1,10}a trusted
+/co.{1,5}(limited|ltd).{1,10}a trusted/i
 /co.{1,5}(limited|ltd).{1,10}tel: \+86/i
 /co.{1,5}(limited|ltd).{1,10}excited to introduce/i
 /co.{1,5}(limited|ltd).{1,15}(manufacturer|professional|specialize|supplier)/i
