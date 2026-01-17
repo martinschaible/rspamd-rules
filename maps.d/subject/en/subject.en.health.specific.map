@@ -63,6 +63,9 @@
 /get rid of.{1,10}(fat|inches|lbs|pounds|weight)/i
 
 /helps.{1,10}(burn|drop|erase|lose|melt|remove|shed).{1,10}(fat|weight)/i
+
+/into.{1,10}(fat|weight).?burner/i
+
 /may aid.{1,10}weight.?loss/i
 
 /no gym.{1,10}no knive/i
@@ -78,6 +81,7 @@
 /slim down.{1,10}with/i
 
 /targets.{1,10}(fat|weight)/i
+/those extra (lbs|ibs|pounds)/i
 /trims? your waist(line)?/i
 
 /gain weight.{1,10}here.{1,10}why/i

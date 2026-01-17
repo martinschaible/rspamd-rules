@@ -199,7 +199,7 @@
 
 /celebrity.?secret/i
 
-/cleanse.{1,10}helping/i
+/cleanse.{1,10}(gut|helping)/i
 /cleansing fix/i
 
 /clears?.{1,10}(artery|arteries|digestive|cholesterol|eyes|nails|vision)/i
@@ -550,7 +550,8 @@
 /lost \d{1,2}.?(lbs|pounds)/i
 
 /loud.{1,10}snoring/i
-/lower.{1,10}(a1c.?levels?|blood sugar|high.?blood)/i
+/lower.{1,10}(a1c.?levels?|high.?blood)/i
+/lower.{1,10}blood.{1,10}(pressure|sugar)/i
 
 /lunch.{1,10}hack/i
 

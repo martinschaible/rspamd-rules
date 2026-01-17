@@ -75,7 +75,9 @@
 # ------------------------------------------------------------------------------
 /kontaktdaten jetzt aktualisieren/i
 
-/(konto|profil).{1,15}(benötigt|erfordert) eine? (aktualisierung|update)/i
+/(konto|profil).{1,15}(benötigen|benötigt|erfordert).{1,10}eine? (aktualisierung|update)/i
+/(konto|profil).{1,15}(benötigen|benötigt|erfordert).{1,10}sofortige aufmerksamkeit/i
+
 /(konto|profil).{1,10}einer verifizierung bedarf/i
 /(konto|profil).{1,15}festgestellt.{1,10}die ungewöhnlich erscheint/iu
 /(konto|profil).{1,15}innerhalb der nächsten.{1,10}Stunden zu bestätigen/iu
