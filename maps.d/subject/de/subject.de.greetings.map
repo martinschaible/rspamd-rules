@@ -18,7 +18,7 @@
 
 # B
 # ------------------------------------------------------------------------------
-/beste grüße/iu
+/(beste|betreff).{1,10}grüße/iu
 
 # C
 # ------------------------------------------------------------------------------
@@ -62,6 +62,7 @@
 /(grüsse|grüße).{1,10}(dich|sie).{1,10}im namen des herrn/iu
 /(grüsse|grüße).{1,10}im herrn/i
 /(grüsse|grüße).{1,10}e?.?mail inhaber/i
+/(grüsse|grüße).{1,10}von herrn/i
 /(grüsse|grüße).{1,10}wie geht es ihnen/i
 
 /grüß dich.{1,10}mein.{1,15}herr/i

@@ -9,9 +9,11 @@
 # Alzheimer, Dementia, Memory
 # ------------------------------------------------------------------------------
 /(alze?heimer|dementia).{1,10}(alert|brain|sign|test|trigger|warning)/i
+
 /brain.{0,10}(booster|cell|damage|experts?|fuel|fixer|food|fog|hack|health|logic)/i
-/brain.{0,10}(nutrient|power|technique|threat|tonic|trick|waves)/i
-/brain.{0,10}(scan|science|sleep|steroid)/i
+/brain.{0,10}(nutrient|power|waves?)/i
+/brain.{0,10}(scan|science|sleep|signal|steroid)/i
+/brain.{0,10}(technique|threat|tonic|trick)/i
 
 /cognitive.{0,10}(fix|health)/i
 
@@ -292,7 +294,7 @@
 /age.{0,10}(freezing|reversal|rewind)/i
 /aged.{0,10}spot/i
 /ageless.{0,10}(beauty|movement|look|project|secrets?|skin|treat)/i
-/aging.{0,10}(fruits?|reversed?)/i
+/aging.{0,10}(fruits?|reversed?|trigger)/i
 
 /aligend.{0,10}intimacy/i
 /alignment.{0,10}(fix|method)/i
@@ -758,7 +760,7 @@
 # M
 # ------------------------------------------------------------------------------
 /magic.{0,10}oil/i
-/magenesium.{0,10}(guide|guru|info)/i
+/magenesium.{0,10}(guide|guru|info|power)/i
 
 /make your own/i
 /male.{0,10}(virility|vitality)/i

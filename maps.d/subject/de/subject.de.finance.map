@@ -22,6 +22,8 @@
 
 # B
 # ------------------------------------------------------------------------------
+/bankkredit.{1,10}bancaire/iu
+
 /(beantragen|benötigen|brauchen|erhalten) sie.{1,15}(finanz|darlehen|kredit)/i
 
 /(benötigen|brauchen) sie.{1,20}geschäfts.{1,10}privatdarlehen/iu

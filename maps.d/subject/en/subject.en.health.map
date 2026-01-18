@@ -158,8 +158,10 @@
 
 /bone to bone/i
 /bone knee pain/i
+
 /boost.{1,10}heart health/i
 /boost.{1,15}(brain|cellular|focus|health|metabolism|stamina|vitality)/i
+/boost.{1,10}recall.{1,15}minutes/i
 /boost your.{1,10}(iq|nerve)/i
 
 /breakfast.{1,10}(avoid|memory)/i
@@ -417,7 +419,7 @@
 /get.{1,10}tinnitus/i
 /get hard.{1,10}stay hard/i
 
-/gets? rid of.{1,10}(brain fog|cavity|pain)/i
+/gets? rid of.{1,10}(brain fog|cavity|glasses|pain)/i
 /gets? rid of.{1,10}burning/i
 /gets? rid of.{1,10}constipation/i
 /gets? rid of.{1,10}these.{1,10}fruits/i
@@ -819,6 +821,8 @@
 /(fueling|soothe).{1,10}joint.?pain/i
 
 /(spice|water).{1,10}weight gone/i
+/spice may be harming/i
+
 /spice.{1,10}burns (carbs|fat)/i
 /spine.{1,10}(hack|trick)/i
 /spikes with.{1,10}drop/i
@@ -1043,6 +1047,7 @@
 /you.{1,10}always tired/i
 /you.{1,10}live longer/i
 /you.{1,10}should never eat/i
+/you.{1,10}sleep through.{1,10}night/i
 
 /your.{1,10}aging memory/i
 /your.{1,10}arms without/i
