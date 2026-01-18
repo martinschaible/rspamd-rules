@@ -204,6 +204,8 @@
 /(fat|weight).{0,10}reset/i
 /(fat|weight).{0,10}solution/i
 
+/weight.{0,10}journey/i
+
 /belly.{0,10}(buddy|buster)/i
 /belly.{0,10}(detox|fix|flattening|reset)/i
 /body.{0,10}fat/i
@@ -215,7 +217,7 @@
 
 /(big|fat|flab|flat).{0,10}(belly|melting|size|stomage|tummy)/i
 
-/\d{1,2}.?(lbs?|pounds).{0,10}(down|gone|lighter|overnight)/i
+/\d{1,2}.?(lbs?|pounds).{0,10}(down|gone|lighter|lost|overnight)/i
 /\d{1,2}.?(lbs?|pounds).{0,10}(month|week)/i
 
 /slim.{0,10}(belly|body|down|waist)/i
@@ -1038,6 +1040,8 @@
 
 /stop the/i
 /stop.{0,10}(breating|brushing|flossing|pain)/i
+
+/strange.{0,10}(fix|fruit)/i
 
 /stream.{0,10}strong(er)?/i
 /stress.{0,10}(tension|weight)/i
