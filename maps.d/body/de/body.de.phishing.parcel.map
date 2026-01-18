@@ -99,6 +99,8 @@
 
 /(lieferung|paket|sendung).{1,10}befindet sich.{1,10}(finalen|letzten).{1,10}(zustellphase|zustellprozess)/i
 /(lieferung|paket|sendung).{1,10}befindet sich.{1,10}derzeit beim.{1,15}zoll/i
+/(lieferung|paket|sendung).{1,10}befindet sich.{1,10}in der zollabfertigung/i
+
 /(lieferung|paket|sendung).{1,10}bereit für die lieferung/iu
 /(lieferung|paket|sendung).{1,15}das an sie hätte geliefert/iu
 /(lieferung|paket|sendung).{1,15}dessen empfänger sie sind/iu
@@ -185,6 +187,9 @@
 
 # W
 # ------------------------------------------------------------------------------
+/wir halten ihre?.{1,10}(paket|sendung).{1,10}im depot/i
+/wir halten ihre?.{1,10}(paket|sendung).{1,10}sendungsnummer/i
+
 /wird.{1,15}wegen fehlender zollangaben zurückgehalten/iu
 
 # X
