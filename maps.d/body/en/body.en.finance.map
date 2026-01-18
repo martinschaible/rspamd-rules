@@ -92,6 +92,8 @@
 /(loan|credit)s?.{1,10}you can.{1,10}get up/i
 /(loan|credit)s?.{1,10}your needs/i
 
+/(looking|seeking).{1,15}(financial|reliable).{1,15}(assistance|partner)/i
+
 # M
 # ------------------------------------------------------------------------------
 /(my|our) company.{1,10}(offering|offers?|provides?|providing).{1,10}(competitive|corporate).{1,15}loans/i
@@ -175,6 +177,8 @@
 /we represent.{1,10}financial institution/i
 /we represent.{1,10}reputable financial/i
 
+/who can provide loans/i
+
 # X
 # ------------------------------------------------------------------------------
 
@@ -185,7 +189,6 @@
 
 /you need.{1,15}(business|personal).{1,10}loan/i
 /you need.{1,10}(reputable|urgent).{1,10}loan/i
-/you seeking.{1,10}financial assistance/i
 
 /your (company|organization).{1,10}seeking capital/i
 

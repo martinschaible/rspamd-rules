@@ -62,6 +62,10 @@
 # ------------------------------------------------------------------------------
 /antworten Sie direkt auf diese.{1,10}(brief|e?.?mail|nachricht)/i
 
+/(antworten|kontaktieren|schreiben) sie.{1,15}meine.{1,10}(persönliche|private).{1,10}e?.?mail.?adresse/iu
+/(antworten|kontaktieren|schreiben) sie.{1,15}mich.{1,15}meine.{1,10}(persönliche|private).{1,10}e?.?mail.?adresse/iu
+/(antworten|kontaktieren|schreiben) sie.{1,15}so bald wie möglich.{1,10}(persönliche|private).{1,10}e?.?mail.?adresse/iu
+
 /auf anweisung der.{1,30}kontaktieren wir sie/i
 
 # B
@@ -146,13 +150,11 @@
 
 # S
 # ------------------------------------------------------------------------------
-/(antworten|kontaktieren|schreiben) sie.{1,15}meine.{1,10}(persönliche|private).{1,10}e?.?mail.?adresse/iu
-/(antworten|kontaktieren|schreiben) sie.{1,15}mich.{1,15}meine.{1,10}(persönliche|private).{1,10}e?.?mail.?adresse/iu
-/(antworten|kontaktieren|schreiben) sie.{1,15}so bald wie möglich.{1,10}(persönliche|private).{1,10}e?.?mail.?adresse/iu
-
 /schreibe? mir eine persönliche nachricht/iu
 
 /(server)?fehlers kann es vorkommen.{1,10}dass unsere.{1,10}(e?.?mail|nachricht).{1,10}im spam/i
+
+/sicherstellen.{1,10}meine.{1,10}(e?.?mail|nachricht).{1,10}sie erreicht hat./i
 
 /sie.{1,10}erreichen meine e?.?mail gut/i
 /sie.{1,10}meine erste nachricht erhalten haben/i
