@@ -50,6 +50,8 @@
 # ------------------------------------------------------------------------------
 /flexible.{1,10}confidential.{1,10}loan/i
 
+/financing.{1,10}competitive.{1,10}interest rates/i
+
 /funds.{1,10}reply with your/i
 /funding.{1,10}projects/i
 /funding.{1,10}solutions?.{1,10}lcompetitive/i
@@ -79,7 +81,6 @@
 
 /(loan|credit)s?.{1,10}apply/i
 /(loan|credit)s?.{1,15}business with low interest/i
-
 /(loan|credit)s?.{1,10}for your.{1,10}(business|personal)/i
 /(loan|credit)s?.{1,10}small.{1,10}medium business(es)/i
 /(loan|credit)s?.{1,10}offer.{1,10}interest rate/i
@@ -190,7 +191,7 @@
 /you need.{1,15}(business|personal).{1,10}loan/i
 /you need.{1,10}(reputable|urgent).{1,10}loan/i
 
-/your (company|organization).{1,10}seeking capital/i
+/your (company|organization).{1,10}(require|seeking).{1,10}(capital|financing|project)/i
 
 # Z
 # ------------------------------------------------------------------------------

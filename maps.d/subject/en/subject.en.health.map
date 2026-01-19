@@ -42,17 +42,14 @@
 
 /\d breakfast mistake/i
 /\d cause of/i
-/\d (easy|simple|week).{1,10}(fix|habit|stretch|trick|tweak)/i
+/\d (daily|easy|simple|sleep|week).{1,10}(fix|habit|hack|stretch|trick|tweak)/i
+/\d fix for/i
 /\d simple (ingredient|vitamin)/i
 /\d step solution to/i
 /\d stretch/i
 /\d surprising fruits/i
 /\d way to (clear up|eliminate)/i
 /\d word ritual/i
-
-/1 (daily|sleep) (habit|hack)/i
-
-/1 fix for/i
 
 # A
 # ------------------------------------------------------------------------------
@@ -501,8 +498,8 @@
 /improve your.{1,10}clarity/i
 
 /in \d{1,2} seconds/i
+/in \d{1,2} hours?.{1,10}try this/i
 
-/in \d hours?.{1,10}try this/i
 /in half.{1,10}naturally/i
 /in just \d{1,2} seconds/i
 /in your (blood|ears?)/i

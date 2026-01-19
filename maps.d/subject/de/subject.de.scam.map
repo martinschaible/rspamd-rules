@@ -185,7 +185,16 @@
 /(branchen.?buch|branchen.?führer|firmen.?eintrag).{1,10}werbe.?(anzeige|annonce)/i
 
 /(annonce|anzeige).{1,10}branchen.?führer/i
-/ihre organisation wurde in unserem verzeichnis/i
+/eintrag im firmenverzeichnis/i
+/firmen.?eintrag.{1,10}werbeanzeige/i
+
+/ihre aufnahme.{1,10}unserem verzeichnis/i
+/ihre organisation wurde.{1,20}in unserem verzeichnis/i
+
+/(publikation|veröffentlichung).{1,10}unternehmenseintrag 202\d/iu
+/unternehmenseintrag.{1,10}(publikation|veröffentlichung) 202\d/i
+
+/willkommen auf unserem verzeichnis/i
 
 #
 #
@@ -198,6 +207,7 @@
 /\.[a-z]{1,4}.{1,5}wurde ausgewählt/iu
 
 # A
+# ------------------------------------------------------------------------------
 /aktenzeichen.{1,20}telefonat/i
 
 /anspruch.{1,15}versicherungsanspruch/i
@@ -208,6 +218,7 @@
 /aufmerksamkeit.{1,10}ist gefragt/i
 
 # B
+# ------------------------------------------------------------------------------
 /bescheidene bitte/i
 
 /betreff.{1,5}von/i
@@ -220,8 +231,10 @@
 /bist du tot oder (lebst du|lebendig)/i
 
 # C
+# ------------------------------------------------------------------------------
 
 # D
+# ------------------------------------------------------------------------------
 /debitkarten zu verkaufen/i
 
 /du hast ein geschenk erhalten/i
@@ -229,22 +242,24 @@
 /dringende anfrage.{1,10}diskussion/i
 
 # E
+# ------------------------------------------------------------------------------
 /e?.?mail(.?adresse)?.{1,10}wurde.{1,15}(ausgewählt|zufallsprinzip)/iu
 
 /edle einladung/i
-/eintrag im firmenverzeichnis/i
 
 /erbe für sie/iu
 
 # F
-/firmen.?eintrag.{1,10}werbeanzeige/i
+# ------------------------------------------------------------------------------
 
 # G
+# ------------------------------------------------------------------------------
 /gespräch.{1,15}geschäftlichen thema/iu
 
 /grüße.{1,5}ref.{1,5}code/i
 
 # H
+# ------------------------------------------------------------------------------
 /habe einen deal über/iu
 /hier antworten/i
 
@@ -253,20 +268,20 @@
 /höfliche rückfrage/iu
 
 # I
+# ------------------------------------------------------------------------------
 /ich auf ihr vertrauen/i
 /ich habe versucht.{1,10}dich zu erreichen/i
 
-/ihre aufnahme.{1,10}unserem verzeichnis/i
 /ihre unternehmensdaten.{1,15}überprüfen/iu
-
-/ihre organisation wurde.{1,20}in unser verzeichnis aufgenommen/i
 
 # Ransom
 /ihren ruf zu retten/i
 
 # J
+# ------------------------------------------------------------------------------
 
 # K
+# ------------------------------------------------------------------------------
 /kann ich ihnen vertrauen/i
 
 /kommission.{1,10}betrugsbekämpfung/iu
@@ -274,20 +289,25 @@
 /kostenloser? hilfsfonds/i
 
 # L
+# ------------------------------------------------------------------------------
 /lesen.{1,10}bestätigen/iu
 
 /letzte chance auf günstige/iu
 /letzter aufruf!/i
 
 # M
+# ------------------------------------------------------------------------------
 /mastercard im wert/i
 
 # N
+# ------------------------------------------------------------------------------
 
 # O
+# ------------------------------------------------------------------------------
 /offizielle neuigkeiten für sie/iu
 
 # P
+# ------------------------------------------------------------------------------
 /pflichtprüfung nach dsgvo/iu
 
 /preis ref.?.?num(mer)?/i
@@ -300,34 +320,42 @@
 /programmierte.{1,10}geldautomatenkarte/i
 
 # Q
+# ------------------------------------------------------------------------------
 
 # R
+# ------------------------------------------------------------------------------
 /rechtliche information.{1,10}aktenzeichen/i
 
 # S
+# ------------------------------------------------------------------------------
 /sie haben anspruch auf einen/i
 
 /suchen ihre aufmerksamkeit/i
 
 # T
+# ------------------------------------------------------------------------------
 /treten sie der bruderschaft bei/i
 
 # U
+# ------------------------------------------------------------------------------
 
 # V
+# ------------------------------------------------------------------------------
 /vertraulich.{1,10}antworten/i
 /vertraulich.{1,10}confidential/i
 
-/(publikation|veröffentlichung).{1,10}unternehmenseintrag 202\d/iu
-/unternehmenseintrag.{1,10}(publikation|veröffentlichung) 202\d/i
+/vorschlag zum gegenseitigen nutzen/i
 
 /vom bundeskriminalamt/iu
 
 # W
-/willkommen auf unserem verzeichnis/i
+# ------------------------------------------------------------------------------
 
 # X
+# ------------------------------------------------------------------------------
 
 # Y
+# ------------------------------------------------------------------------------
 
 # Z
+# ------------------------------------------------------------------------------
