@@ -145,7 +145,9 @@
 /bloated because of/i
 /bloating.{0,10}you/i
 
-/block.{1,10}fat production/i
+/blocks?.{1,10}fat production/i
+/blocks?.{1,10}joint pain/i
+
 /blocking.{1,10}your (climax|lungs)/i
 
 /blood.?(pressure|sugar).{1,10}(breakthrough|danger|dropping|drops|mistake|naturally)/i
@@ -607,7 +609,7 @@
 /needs this drink/i
 /nerve.?pain.{1,10}(getting|trigger)/i
 /nerve.?pain.{1,10}with this/i
-/nerve.{1,10}comfort/i
+/nerve.{1,10}(comfort|reset)/i
 
 /never eat these/i
 
@@ -921,6 +923,8 @@
 
 /this.{1,10}popular.{1,10}vegetable/i
 /this.{1,10}quick habit/i
+
+/this.{1,15}reset hack/i
 
 /this.{1,10}second twist/i
 /this.{1,10}simple.{1,15}(mixture|pill|routine|stretch|vitamin)/i

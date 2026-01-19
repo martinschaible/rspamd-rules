@@ -88,7 +88,8 @@
 # 19.02.25 - Sample: VS03706941011_02_19_25.gz
 
 # Just numbers
-/\d{6,20}\.(doc|gz|html?)/i
+/\d{6,20}\.(doc|gz?)/i
+/\b\d{6,20}\.html?/i
 
 # Just a date
 /d{2}(-|\.)\d{2}(-|\.)\d{2,4}\.(gz|html?)/i

@@ -601,7 +601,7 @@
 
 /fountain of/i
 
-/food.{0,10}(alert|cravings?|choices?|medicine|odor|safety|stretch|trap)/i
+/food.{0,10}(alert|cravings?|choices?|medicine|odor|safety|stretch|trap|truth)/i
 /foot.{0,10}(alert|care|patch(es)?|safety|solution)/i
 
 /for your.{1,10}joints/i
@@ -870,7 +870,7 @@
 
 # P
 # ------------------------------------------------------------------------------
-/pain.{0,10}(alert|culprit|reset)/i
+/pain.{0,10}(alert|culprit|reset|support)/i
 /painful.{0,10}piles/i
 /pancreas.{0,10}reset/i
 /passion.{0,10}tea/i
