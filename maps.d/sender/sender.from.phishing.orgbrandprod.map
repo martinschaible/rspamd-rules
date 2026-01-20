@@ -886,8 +886,9 @@
 
 /^volksbank$/i
 /volksbank -/i
+
 /volksbanken$/i
-/volksbanken.{0,10}(service|support)/i
+/volksbank(en)?.{0,10}(kundenservice|service|support)/i
 
 /von.{0,10}swica/i
 
