@@ -164,7 +164,7 @@
 /good (afternoon|day|evening|morning).{1,15}find our attached.{1,10}inquiry/i
 /good (afternoon|day|evening|morning).{1,10}getting in touch with you/i
 
-/good (afternoon|day|evening|morning).{1,10}i.?a?m.{1,10}dr\./i
+/good (afternoon|day|evening|morning).{1,10}i.?a?m.{1,10}(dr\.|mrs?\.)/i
 /good (afternoon|day|evening|morning).{1,10}i.?a?m.{5,25}(chairman|director)/i
 /good (afternoon|day|evening|morning).{1,10}i.?a?m.{5,25}from/i
 

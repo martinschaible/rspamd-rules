@@ -116,6 +116,7 @@
 /manufacturer.{1,10}with.{1,10}years.{1,10}experience/i
 
 /manufacturing.{1,10}exporting.{1,10}(custom|shirts|tracksuits)/i
+/manufacturing.{1,10}one.?stop.{1,10}(pcba?|printed.?circuit.?board)/i
 
 # N
 # ------------------------------------------------------------------------------
@@ -264,8 +265,10 @@
 /you to our range of custom/i
 
 /you.{1,15}have any projects.{1,20}export/i
+
 /you.{1,10}looking for.{1,10}international.{1,15}(freight|forwarder)/i
-/you.{1,15}looking for.{1,10}reliable supplier/i
+/you.{1,15}looking for.{1,10}reliable.{1,10}(pcba?|printed.?circuit.?board)/i
+/you.{1,15}looking for.{1,10}reliable.{1,10}supplier/i
 
 /your.{1,10}next.{1,10}(pcba?|printed.?circuits?.?board)/i
 /your.{1,10}(pcba?|printed.?circuits?.?board).{1,10}projects?/i

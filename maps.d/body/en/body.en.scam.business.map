@@ -124,10 +124,13 @@
 # V
 # ------------------------------------------------------------------------------
 /you.{1,10}receive.{1,10}project proposal/i
-/your{1,10}kind collaboration{1,15}(business|investment).{1,10}(opportunities|opportunity)/i
+
+/your.{1,10}assistance inr.{1,10}business/i
+/your.{1,10}kind collaboration.{1,15}(business|investment).{1,10}(opportunities|opportunity)/i
 
 # W
 # ------------------------------------------------------------------------------
+/write to solicit.{1,10}your assistance/i
 
 # X
 # ------------------------------------------------------------------------------
