@@ -21,8 +21,10 @@
 # Tax W-8BEN
 # ------------------------------------------------------------------------------
 /w.?8ben.{1,10}(documentation|form|records?|renewal|submission)/i
+/w.?8ben.{1,10}expiration.{1,15}renewal/i
 
-/(alert|expired|form|renew|your).{1,10}w.?8ben/i
+/(communication|compliance).{1,10}w.?8ben/i
+/(alert|expired|form|notice|renew|your).{1,10}w.?8ben/i
 
 /irs.{1,10}requirement/i
 
