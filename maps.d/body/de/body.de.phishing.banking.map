@@ -99,6 +99,7 @@
 /(photo|push).?tan.{1,10}(aktivierungsbrief|gesperrt wurde|ist da)/i
 /(photo|push).?tan.{1,15}damit die sicherheit ihres/i
 /(photo|push).?tan.{1,10}(aktualisieren|reaktivieren|synchronisieren)/i
+/(photo|push).?tan.{1,10}ist leider nicht.{1,10}gültig/iu
 /(photo|push).?tan.{1,10}läuft bald ab/iu
 /(photo|push).?tan.{1,10}verfahren.{1,10}(aktualisiert|verbessert)/i
 /(photo|push).?tan.{1,10}verfahren.{1,10}ist nicht/i
