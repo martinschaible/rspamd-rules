@@ -37,7 +37,7 @@
 /achieve more with up to \d{3,4}/i
 /achieve success with.{1,10}in capital/i
 
-/need.{1,10}(grant|loan)/i
+/amazing loan offer/i
 /apply for.{1,15}(financial|grant|loan)/i
 
 /(approved|expansion).{1,15}loans?/i
@@ -168,7 +168,8 @@
 
 # N
 # ------------------------------------------------------------------------------
-/need funding.{1,15}offering/i
+/need.{1,10}funding.{1,15}offering/i
+/need.{1,10}(grant|loan)/i
 
 # O
 # ------------------------------------------------------------------------------
@@ -228,7 +229,7 @@
 
 /we.{1,10}fund your/i
 /we.{1,10}funding.{1,10}projects/i
-/we.{1,10}give out.{1,10}loans/i
+/we.{1,10}(give out|provide).{1,10}loans/i
 /we.{1,10}help (finance|financing|loan)/i
 
 /we.{1,10}offer(ing)?.{1,10}financial assistance/i
