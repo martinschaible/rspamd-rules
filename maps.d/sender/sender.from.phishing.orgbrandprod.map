@@ -460,6 +460,8 @@
 # ------------------------------------------------------------------------------
 /icloud.{0,10}(idrive|storage)/i
 
+/icorner.{0,10}kundenservice/i
+
 /storage.{0,10}(alert|icloud)/i
 
 /^ing$/i
@@ -548,7 +550,7 @@
 /metanet.{0,10}(kundendienst|kundenservice)/i
 
 /microsoft (365|ads)/i
-/microsoft.{0,10}(advertising|cashback|rewards?)/i
+/microsoft.{0,10}(advertising|cashback|rewards?|subscription)/i
 /microsoft.{0,10}konto/i
 
 /(service|support).{0,10}(hetzner|microsoft)/i
@@ -888,7 +890,9 @@
 /volksbank -/i
 
 /volksbanken$/i
-/volksbank(en)?.{0,10}(kundenservice|service|support)/i
+/volksbank(en)?.{0,10}(service|support)/i
+/volksbank(en)?.{0,10}(kundenbetreuung|kundenservice)/i
+
 
 /von.{0,10}swica/i
 

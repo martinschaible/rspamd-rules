@@ -57,6 +57,8 @@
 /aktion erforderlich.{1,15}identität bestätigen/iu
 /aktion erforderlich.{1,15}identitätsüberprüfung/iu
 
+/aktion erforderlich.{1,10}ihre.{1,15}app/i
+
 /aktion erforderlich.{1,10}(#|fall)/i
 /aktion erforderlich.{1,15}liefern sie/i
 /aktion erforderlich.{1,15}(schliessen|schließen) sie/i
@@ -75,6 +77,7 @@
 
 /aktivierung.{1,10}erforderlich n°/i
 /aktivierung.{1,10}ihrer.{1,20}online.?services erforderlich/i
+/aktivierung.{1,15}sicherheitsebene/i
 /aktivierung.{1,10}zusätzlicher sicherheitsfunktionen bei/iu
 
 /aktivitäten erkannt.{1,10}maßnahmen erforderlich/i
@@ -660,6 +663,7 @@
 /verifizieren sie sich rechtzeitig/i
 
 /verifizierung.{1,10}administratoridentität/iu
+/verifizierung.{1,10}(ihrer|ihres).{1,10}securego/i
 
 /vervollständigen sie ihre.{1,10}(online.?)?identifikation/i
 

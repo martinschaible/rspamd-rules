@@ -116,6 +116,8 @@
 
 # K
 # ------------------------------------------------------------------------------
+/karten.{0,10}(service|support|team)/i
+
 /konto.{0,10}(informationsdienst|team|updates?)/i
 
 /krankenkassen?.{0,10}team/i
