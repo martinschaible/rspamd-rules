@@ -133,8 +133,10 @@
 
 /you.{1,10}have a new.{1,10}(e?.?mail|letter|message).{1,10}an individual/i
 
-/you.{1,10}received the letter sent to your/i
-/you.{1,10}received my last.{1,10}(e?.?mail|letter|message).{1,10}safely/i
+/you.{1,10}(received|recieved) the letter sent to your/i
+/you.{1,10}(received|recieved) my last.{1,10}(e?.?mail|letter|message).{1,10}safely/i
+/you.{1,10}(received|recieved) my last.{1,10}(e?.?mail|letter|message).{1,10}send.{1,10}feedback/i
+
 /you.{1,15}(operating|reachable|using).{1,10}(the|this|your).{1,10}e?.?mail/i
 
 /you opened my.{1,10}(e?.?mail|letter|message)/i

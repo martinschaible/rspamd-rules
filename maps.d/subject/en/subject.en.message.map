@@ -212,6 +212,8 @@
 /you (caught|get|received?|saw).{1,10}(earlier|last|previous).{1,10}(e?.?mail|message)/i
 /you (caught|get|received?|saw).{1,10}(e?.?mail|message).{1,10}i sent on/i
 
+/you recive my.{1,10}e?.?mail/i
+
 /you received? the.{1,10}(e?.?mail|message)/i
 
 /your attention!/i

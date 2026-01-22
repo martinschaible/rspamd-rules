@@ -151,7 +151,9 @@
 
 # Insolvenz
 # ------------------------------------------------------------------------------
-/(insolvenzverfahren|liquidierungen).{1,10}(anbieten|verwerten)/i
+/(insolvenzverfahren|liquidierungen|insolvenzverwaltung).{1,10}(anbieten|verwerten)/i
+/(insolvenzverfahren|liquidierungen|insolvenzverwaltung).{1,20}ihnen.{1,20}verzeichnis/i
+
 /angebotsübersicht.{1,10}insolvenzmassen?/iu
 
 /positionen.{1,10}laufenden insolvenz/i
