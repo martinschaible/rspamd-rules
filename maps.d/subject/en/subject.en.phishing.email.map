@@ -48,6 +48,7 @@
 /your.{1,15}@.{1,15}\.[a-z]{1,4}.{1,10}is blacklisted/i
 
 # A
+# ------------------------------------------------------------------------------
 /account termination request/i
 /access unread.{1,10}(e?.?mail|message)/i
 /account verification for.{1,10}(imap|pop3)/i
@@ -57,9 +58,11 @@
 /authentication error in.{1,15}@/i
 
 # B
+# ------------------------------------------------------------------------------
 /blocked from receiving.{1,10}(e?.?mail|message)s?/i
 
 # C
+# ------------------------------------------------------------------------------
 /clear cache to continue/i
 
 /confirm.{1,15}pending (e?.?mail|message)s?/i
@@ -69,6 +72,7 @@
 /confirm you.{1,10}not a robot/i
 
 # D
+# ------------------------------------------------------------------------------
 /de.?activation.{1,10}authentication required/i
 /de.?activation of.{1,10}mailbox/i
 
@@ -79,6 +83,7 @@
 /do not loose your.{1,15}@/i
 
 # E
+# ------------------------------------------------------------------------------
 /e?.?mail.{1,10}account.{1,10}shutdown notice/i
 /e?.?mail.{1,10}account.{1,10}will expire in.{1,10}hours/i
 /e?.?mail.{1,10}account.{1,10}will be deactivated/i
@@ -98,14 +103,18 @@
 /(e?.?mail|message)s?.{1,10}restriction activity/i
 
 # F
+# ------------------------------------------------------------------------------
 /failed incoming.{1,10}(e?.?mail|message)s?.{1,10}administrator restriction/i
 /failed incoming.{1,10}(e?.?mail|message)s?.{1,10}review account/i
 
 # G
+# ------------------------------------------------------------------------------
 
 # H
+# ------------------------------------------------------------------------------
 
 # I
+# ------------------------------------------------------------------------------
 /(imap|pop).{1,10}ssl certificate failed/i
 
 /important.{1,10}(e?.?mail|message)s?.{1,10}suspended/i
@@ -118,13 +127,17 @@
 /incoming.{1,10}pending.{1,10}(e?.?mail|message)s?/i
 
 # J
+# ------------------------------------------------------------------------------
 
 # K
+# ------------------------------------------------------------------------------
 
 # L
+# ------------------------------------------------------------------------------
 /login.{1,10}update is required/i
 
 # M
+# ------------------------------------------------------------------------------
 /mailbox.{1,10}account termination/i
 /mailbox.{1,10}has been suspended/i
 /mailbox.{1,10}is full.{1,10}support/i
@@ -134,12 +147,15 @@
 /mailbox.{1,10}quota upgrade needed/i
 
 # N
+# ------------------------------------------------------------------------------
 /notice of e?.?mail.{1,10}deactivation/i
 /notice regarding.{1,10}(imap|pop)/i
 
 # O
+# ------------------------------------------------------------------------------
 
 # P
+# ------------------------------------------------------------------------------
 /pending.{1,10}(e?.?mail|message)s?.{1,10}cloud storage/i
 /pending.{1,10}(e?.?mail|message)s?.{1,10}undelivered for/i
 /pending.{1,10}(e?.?mail|message)s?.{1,10}on hold for/i
@@ -150,8 +166,10 @@
 /pending.{1,10}undelivered.{1,10}(e?.?mail|message)s?.{1,10}to your inbox/i
 
 # Q
+# ------------------------------------------------------------------------------
 
 # R
+# ------------------------------------------------------------------------------
 /(refresh|reload).{1,10}e?.?mail.?server/i
 
 /release pending message.{1,10}(e?.?mail|message)s?/i
@@ -171,6 +189,7 @@
 /roundcube webmail.{1,15}@/i
 
 # S
+# ------------------------------------------------------------------------------
 /send.{1,10}receive new.{1,15}(e?.?mail|message)s?/i
 
 /(sending|receiving).{1,10}e?.?mails.{1,10}if it is not verified/i
@@ -181,11 +200,13 @@
 /server.{1,10}refresh required/i
 
 # T
+# ------------------------------------------------------------------------------
 /termination notice.{1,10}important/i
 
 /(this|your).{1,10}e?.?mail.?account.{1,30}is suspended/i
 
 # U
+# ------------------------------------------------------------------------------
 /undeliverable.{1,10}outgoing.{1,10}(e?.?mail|message)s? failed/i
 /undeliverable.{1,10}pending incoming.{1,10}(e?.?mail|message)s?/i
 
@@ -202,20 +223,26 @@
 /update your.{1,10}mailbox/i
 
 # V
+# ------------------------------------------------------------------------------
 /verify your mail.?box/i
 
 # W
+# ------------------------------------------------------------------------------
 /warning.{1,10}cancel.{1,10}de.?activation/i
 
 /web.?mail.{1,10}authentication/i
 /web.?mail.{1,10}(notification|software upgrade|update required)/i
 
 # X
+# ------------------------------------------------------------------------------
 
 # Y
+# ------------------------------------------------------------------------------
 /you have.{1,25}(held|important|incoming|undelivered|unsent).{1,15}(e?.?mails?|message)s?/i
 /you have.{1,10}failed.{1,10}(e?.?mail|message)s? deliveries/i
 /you have.{1,10}unread.{1,10}(e?.?mail|message)s? from/i
+
+/you no longer can send.{1,10}receive.{1,10}e?.?mails/i
 
 /your.{1,10}e?.?mail.?account.{1,10}closure/i
 /your.{1,10}e?.?mail.?account.{1,10}has been limited/i
@@ -228,3 +255,4 @@
 /your.{1,10}unreceived.{1,10}(e?.?mail|message)s?.{1,10}are stuck/i
 
 # Z
+# ------------------------------------------------------------------------------
