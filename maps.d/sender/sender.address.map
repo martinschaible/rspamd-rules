@@ -32,8 +32,8 @@
 # 14.09.25 - Sample: 02360456@etmaam.com.sa
 /\d{4,10}@[a-z]{3,15}\.com\.sa/i
 
-# 25.10.25 - Sample: 603004.com
-/@\d{5,10}\.com/i
+# 25.10.25 - Sample: 603004.com, @3209748.io
+/@\d{5,10}\.(com|io)/i
 
 # 24.11.25 - Sample:  85839797.X@thesparklebar.com
 /\.\d{5,10}\.[a-z]@/i

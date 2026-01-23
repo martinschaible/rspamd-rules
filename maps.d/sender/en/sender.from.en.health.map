@@ -27,7 +27,7 @@
 /memory.{0,10}protection/i
 /memory.{0,10}(recovery|report|research|restore|revival|revive)/i
 /memory.{0,10}(saver|saving|secret|solution|strengthener|support)/i
-/memory.{0,10}tonic/i
+/memory.{0,10}(tonic|toxin)/i
 /memory.{0,10}vitamins?/i
 /memory.{0,10}watch/i
 
@@ -487,7 +487,7 @@
 /dairy.{0,10}recipe/i
 
 /damaged.{0,10}nerves/i
-/dangerous.{0,10}(pills|veggies?=/i
+/dangerous.{0,10}(pills|veggies?)/i
 
 /dark.{0,10}milk/i
 

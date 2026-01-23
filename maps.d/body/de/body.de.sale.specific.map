@@ -159,7 +159,9 @@
 /positionen.{1,10}laufenden insolvenz/i
 
 /unsere insolvenzmassen?/i
+
 /verwertung.{1,10}(aus|von).{1,10}(insolvenzmasse|insolvenzverfahren)/i
+/verwertung.{1,15}gegenstände.{1,10}(insolvenzmasse|insolvenzverfahren)/iu
 
 /liquidationen aus insolvenzverfahren/i
 
