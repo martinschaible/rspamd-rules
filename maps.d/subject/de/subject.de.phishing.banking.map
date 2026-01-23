@@ -34,7 +34,8 @@
 
 /aussetzung ihrer.{1,15}(kredit)?karte/i
 
-/authentifizierung für ihre.{1,15}(kredit)?karte/iu
+/authentifizierung.{1,15}ihre.{1,15}(kredit)?karte/iu
+/authentifizierung .{1,15}verlängerung erforderlich bis/iu
 
 /app\b.{1,10}authentifizierung (endet|verlängern)/iu
 /app\b.{1,10}authentifizierung läuft.{1,10}ab/iu
@@ -83,6 +84,7 @@
 /ihr.{1,10}online.?(banking|zugang) ist gefährdet/iu
 /ihr.{1,10}online.?(banking|zugang) ist nicht.{1,15}(geschützt|vollständig)/iu
 
+/ihre.{1,15}app.{1,10}authentifizierung/i
 /ihre.{1,10}bank informiert zu/i
 /ihre.{1,20}kreditkarten.?app/i
 /ihre.{1,10}zahlungsmittel.{1,10}vorübergehend gesperrt/iu

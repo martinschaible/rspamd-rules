@@ -237,6 +237,8 @@
 /adobe.?acrobat (document|e.?signature|sign)/i
 /adobe.?pdf/i
 
+/service.{0,10}advancia/i
+
 /ag.?twint/i
 
 /allgemeiner deutscher/i
@@ -532,6 +534,8 @@
 /mediamarkt.?!/i
 /mediamarkt.{0,5}customer/i
 /mediamarkt.{0,5}gutschein/i
+
+/^mercedes$/i
 
 /meta.{0,5}ads$/i
 /meta.{0,5}(ads|support).?team/i

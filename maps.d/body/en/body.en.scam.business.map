@@ -114,7 +114,9 @@
 # S
 # ------------------------------------------------------------------------------
 /(seeking|new|share with) you.{1,10}(business|investment).{1,10}(opportunities|opportunity)/i
-/share with you.{1,10}private proposal/i
+
+/share.{1,10}you.{1,10}business opportunity/i
+/share.{1,10}you.{1,10}private proposal/i
 
 # T
 # ------------------------------------------------------------------------------
