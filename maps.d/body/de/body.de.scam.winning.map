@@ -27,7 +27,9 @@
 # ------------------------------------------------------------------------------
 /beanspruchen sie ihren.{1,15}gewinn jetzt/i
 /betreff.{1,10}nicht abgeholter gewinn/i
+
 /bestätigt ihren exklusiven gewinn/iu
+/bestätigen sie.{1,10}gewinn innerhalb von/i
 
 # C
 # ------------------------------------------------------------------------------
@@ -49,7 +51,7 @@
 /(glückwunsch|hallo).{1,10}sie gehören zu den glücklichen.{1,10}gewinnern/iu
 
 /gewinn.{1,10}(das|ein) brandneues?/i
-/gewinn.{1,10}jetzt beanspruchen/i
+/gewinn.{1,10}jetzt (beanspruchen|bestätigen)/iu
 /gewinn.{1,10}schnellstmöglich bei ihnen eintrifft/iu
 /gewinn.{1,10}unwiderruflich an eine/i
 /gewinn.{1,10}zu erhalten.{1,10}müssen sie ihn innerhalb/iu
