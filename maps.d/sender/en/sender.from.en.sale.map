@@ -315,7 +315,9 @@
 
 # T
 # ------------------------------------------------------------------------------
-/tactic(al)?.{0,10}(edge|flashlight|hiking|knive|official|report|stick)/i
+/tactic(al)?.{0,10}(edge|flashlight|gear|hiking|knive|report)/i
+/tactic(al)?.{0,10}(official|outdoors)/i
+/tactic(al)?.{0,10}(stick|survival)/i
 
 /tax.{0,10}(consultant|helpers?|resolvers?)/i
 
