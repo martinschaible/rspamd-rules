@@ -33,6 +33,7 @@
 
 # B
 # ------------------------------------------------------------------------------
+
 /(bulk|mass).{1,10}(advertising|marketing).{1,10}(e?.?mail|mailing).{1,10}service/i
 /(bulk|mass).{1,10}(advertising|marketing).{1,10}plan/i
 
@@ -110,6 +111,8 @@
 /list is available.{1,15}your promotional/i
 /list includes.{1,10}contact information/i
 /list comes with.{1,10}unrestricted.{1,10}rights/i
+
+/looking.{1,10}(for|buy).{1,15}quality backlinks/i
 
 # M
 # ------------------------------------------------------------------------------
