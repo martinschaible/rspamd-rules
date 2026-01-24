@@ -312,7 +312,7 @@
 /artery.{0,10}(cleanse|cure|fix|flush|health|plaque|tea)/i
 /artery.{0,10}(research|reset|resque)/i
 
-/arthritis.{0,10}(alert|gone)/i
+/arthritis.{0,10}(alert|gone|trigger)/i
 
 /attraction.{0,10}secrets?/i
 /awesome.{0,10}mix/i
@@ -921,7 +921,7 @@
 # Q
 # ------------------------------------------------------------------------------
 /quick.{1,10}(stretch|technique)/i
-/quiet.{1,10}(mornings?|nights?)/i
+/quiet.{1,10}(mind|mornings?|nights?)/i
 
 # R
 # ------------------------------------------------------------------------------

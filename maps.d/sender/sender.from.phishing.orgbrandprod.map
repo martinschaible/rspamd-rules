@@ -30,12 +30,13 @@
 # Apple
 # BahnBonus Service
 # CH Media Markt Kundendienst
+# Coop Aktionen
 # DHL Express
 # DHL Paket
-# Coop Aktionen
 # Die Schweizerische Post
 # DocMorris - Ihre Apotheke
 # Dropbox
+# DPD Schweiz
 # EDEKA
 # E.ON Kundenservice
 # facebook
@@ -181,8 +182,12 @@
 /(dhl|dpd|fedex|gls|ups).{0,10}team/i
 /(dhl|dpd|fedex|gls|ups).{0,5}zoll/i
 
-/(dhl|dpd|fedex|gls|ups).{0,5}(deutschland|germany|schweiz)/i
+
+/(dhl|fedex|gls|ups).{0,5}(deutschland|germany|schweiz)/i
+/dpd.{0,5}(deutschland|germany)/i
+
 /(dhl|dpd|fedex|gls|ups).{0,5}express (germany|schweiz)/i
+
 
 /(deutschland|germany|schweiz).{0,5}(dhl|dpd|fedex|gls|ups)/i
 /(center|europa|express|group|notification|on.?demand|support).{0,5}(dhl|dpd|fedex|gls|ups)/i
@@ -837,7 +842,7 @@
 /targ0bank/i
 
 /tcs.?car/i
-/tcs.{0,10}(abteilung|admin|kundenservice|mitglieder)/i
+/tcs.{0,10}(abteilung|ngebote?|admin|kundenservice|mitglieder|partner|vip|werbung)/i
 
 /team_/i
 /team.{0,10}(account|paletten?)/i
