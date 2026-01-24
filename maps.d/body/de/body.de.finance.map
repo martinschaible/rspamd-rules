@@ -28,12 +28,16 @@
 
 /(benötigen|brauchen) sie.{1,15}einen.{1,15}kredit/i
 /(benötigen|brauchen) sie.{1,10}finanzielle unterstützung/iu
+/(benötigen|brauchen) sie.{1,10}eine.{1,10}finanzierung/iu
 /(benötigen|brauchen) sie.{1,10}geld.{1,10}um (ein|ihre?)/i
 /(benötigen|brauchen) sie.{1,10}geld.{1,10}den persönlichen/iu
+/(benötigen|brauchen) sie.{1,10}kapital/iu
 /(benötigen|brauchen) sie.{1,20}kredite?/i
+/(benötigen|brauchen) sie.{1,10}persönliche finanzen/iu
 /(benötigen|brauchen) sie.{1,15}zusätzliches geld/iu
 
 /bieten? (ich|wir).{1,20}(kurz|mittel|langfristige).{1,20}(darlehen|kredite?)/iu
+/bietet einzelpersonen.{1,10}unternehmen.{1,10}finanzielle/i
 
 # C
 # ------------------------------------------------------------------------------
@@ -156,7 +160,8 @@
 # ------------------------------------------------------------------------------
 /wenn sie an einem.{1,10}(darlehen|kredit)/i
 
-/wir bieten ihnen alle.{1,10}finanzierungsarten/i
+/wir bieten.{1,10}ihnen alle.{1,10}finanzierungsarten/i
+/wir bieten.{1,10}privatpersonen.{1,10}unternehmen/i
 /wir bieten.{1,25}(schnelle|unbesicherte|unkomplizierte).{1,25}finanzierungen/i
 
 /wir finanzieren.{1,10}(alle projekte|weltweit)/i
