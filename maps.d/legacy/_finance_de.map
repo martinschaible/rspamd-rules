@@ -77,8 +77,6 @@
 /angebot.{1,10}einen günstigen.{1,15}kredit/iu
 /angebot.{1,10}(darlehen|kredit)/i
 
-/benötigen sie einen.{1,20}(garantierten|schnellen).{1,20}kredit/i
-
 /bewerben sie sich.{1,15}(darlehen|kredit)/i
 /bietet online.?darlehen/i
 
@@ -137,16 +135,10 @@
 
 /ihre geldsorgen.{1,10}bald vorbei sein werden/i
 
-# Mortgage
-# ------------------------------------------------------------------------------
-
 # Financing
 # ------------------------------------------------------------------------------
-/bietet einzelpersonen.{1,10}unternehmen.{1,10}finanzielle/i
 
 /benötigen.{1,10}eine (projekt|unternehmens).{1,20}finanzierung/i
-/benötigen.{1,10}sie eine.{1,10}finanzierung/iu
-/benötigen.{1,10}sie persönliche finanzen/iu
 /brauchen.{1,10}sie einen investor/i
 
 /(finanz|kredit).?angebot mit einem zinssatz von/i
@@ -177,14 +169,6 @@
 /wir sind.{1,10}aktiv in der.{1,15}finanzierung/i
 /wir sind.{1,10}ein privates (finanz.?unternehmen|kredit)/i
 /wir sind.{1,10}eine gruppe.{1,15}investoren/i
-
-# Silly promises
-# ------------------------------------------------------------------------------
-/ihre geldsorgen.{1,10}vorbei sein werden/i
-
-#
-#
-#
 
 # Unclassified
 # ------------------------------------------------------------------------------
