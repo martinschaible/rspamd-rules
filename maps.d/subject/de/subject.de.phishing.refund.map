@@ -141,6 +141,8 @@
 
 /(rück)?erstattung.{1,10}(jetzt|möglich|verfügbar)/iu
 
+/(rück)?erstattung.{1,10}kann nicht bearbeitet werden/iu
+
 /(rück)?erstattung.{1,10}wegen doppelabbuchung/iu
 /(rück)?erstattung.{1,10}von.{1,15}ihre krankenversicherung/i
 /(rück)?erstattung.{1,10}wurde (angenommen|genehmigt)/i

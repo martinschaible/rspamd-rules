@@ -570,6 +570,7 @@
 /migros - online/i
 /-.?migros/i
 /\|.?migros/i
+/migros!/i
 
 #/^migros$/i
 #/migros.{0,10}(aktionen|markt|oral.?b)/i
@@ -710,6 +711,7 @@
 # R
 # ------------------------------------------------------------------------------
 /raiffeisen.{0,10}twint/i
+/raiffeisenbanken,/i
 /(info|twint).{0,10}raiffeisen/i
 
 /rituals.{0,10}team/i

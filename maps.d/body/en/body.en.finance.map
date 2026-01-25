@@ -147,6 +147,9 @@
 
 # W
 # ------------------------------------------------------------------------------
+/we are.{1,10}dubai based/i
+/we are.{1,10}(dubai|leading).{1,15}investors/i
+
 /we are.{1,10}fiduciary.{1,10}asset/i
 /we are.{1,10}financial institution/i
 /we are.{1,10}pleased to offer.{1,10}(funds|loans)/i

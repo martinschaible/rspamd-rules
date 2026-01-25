@@ -83,6 +83,8 @@
 /(action|update) (needed|required).{1,15}(incoming|pending).{1,15}e?.?mails?/i
 /(action|update) (needed|required).{1,10}(imap|pop3)/i
 
+/(action|update) (needed|required).{1,10}last alert/i
+
 /(action|update) (needed|required).{1,10}messages to/i
 
 /(action|update) (needed|required).{1,10}missing tax/i
