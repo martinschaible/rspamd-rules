@@ -30,6 +30,8 @@
 
 /(ceramics|clothing|goods|material||packaging|plastic|product).{1,10}co.{1,5}(limited|ltd)/i
 
+/this is.{1,15}from.{1,15}technology ltd/i
+
 /(limited|ltd).{1,10}(specializes in|we are major)/i
 /(limited|ltd).{1,10}we (provide|specialize)/i
 
@@ -118,6 +120,8 @@
 
 /manufacturing.{1,10}exporting.{1,10}(custom|shirts|tracksuits)/i
 /manufacturing.{1,10}one.?stop.{1,10}(pcba?|printed.?circuit.?board)/i
+
+/mold parts.{1,10}located in shenzhen/i
 
 # N
 # ------------------------------------------------------------------------------
@@ -218,6 +222,8 @@
 
 /we.{1,10}have over.{1,10}years.{1,10}(experience|machining)/i
 
+/we.{1,10}help companies get.{1,10}electronic/i
+
 /we.{1,10}make.{1,25}(packing|sport).{1,10}bags/i
 /we.{1,10}make.{1,30}(backpacks|sportswear)/i
 
@@ -254,6 +260,7 @@
 
 /we.{1,10}take pride.{1,10}offering.{1,10}wide range/i
 
+/which is.{1,10}professional manufacturer/i
 /wide range.{1,15}(led|lighting|products)/i
 
 # X

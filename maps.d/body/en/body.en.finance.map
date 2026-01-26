@@ -108,12 +108,14 @@
 /(offering|offers?|provides?|providing).{1,10}corporate.{1,10}(financing|personal).{1,10}loans/i
 /(offering|offers?|provides?|providing).{1,10}business loans.{1,10}interest.?rate/i
 /(offering|offers?|provides?|providing).{1,10}business loans.{1,10}personal loans/i
+/(offering|offers?|provides?|providing).{1,15}financial support to/i
 /(offering|offers?|provides?|providing).{1,20}financing solutions/i
 /(offering|offers?|provides?|providing).{1,15}financing to.{1,15}companies/i
 
 /our.{1,10}business loan offers/i
 /our.{1,15}funding programs/i
 /our.{1,10}investors.{1,10}are ready to provide/i
+/our.{1,10}organization provides financial/i
 
 # P
 # ------------------------------------------------------------------------------
@@ -188,6 +190,8 @@
 
 # Y
 # ------------------------------------------------------------------------------
+/you.{1,10}have.{1,10}project.{1,10}requires funding/i
+
 /you.{1,10}(pre)?qualified for our business/i
 /you.{1,10}(pre)?qualified for up to \{d3,6}/i
 
