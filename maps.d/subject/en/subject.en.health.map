@@ -123,7 +123,8 @@
 /bedroom.{1,10}magic/i
 /before bed tonight/i
 /belly.{1,10}(fat|overnight)/i
-/behind.{1,10}bloat/i
+
+/behind.{1,10}(bloat|nerve pain)/i
 
 /(best|worst).{1,10}breakfast foods?/i
 /(best|worst).{1,10}for.{1,10}(blood sugar|heart|type.?2|weight)/i
@@ -655,6 +656,7 @@
 
 /pain.{1,15}(after|do) this/i
 /pain.{1,10}(getting worse|try this)/i
+/pain.{1,10}learn more/i
 /pain.{1,10}melt away/i
 /pain.{1,10}relief.{1,10}stronger/i
 
