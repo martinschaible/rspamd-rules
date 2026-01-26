@@ -50,7 +50,7 @@
 
 /^administrator/i
 
-/i\.?t (admin|notice|notification|server)/i
+/i\.?t (admin|notice|management|notification|server)/i
 /^it.?support$/i
 
 /cloud.{0,10}(admin|backup|limit|membership|operations|storage|team)/i
