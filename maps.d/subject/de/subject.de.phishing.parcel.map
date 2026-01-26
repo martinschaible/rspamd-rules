@@ -75,6 +75,7 @@
 /bericht über die paketzustellung/iu
 
 /betreff.{1,10}zustellbenachrichtigung/i
+/betreff.{1,10}wichtig.{1,10}ihre? (lieferung|paket|sendung)/i
 
 /(be)?zahlen sie jetzt.{1,10}\d(\.|,)\d{2}/i
 /(be)?zahlen sie.{1,10}(versandgebühr|versandkosten)/iu
@@ -138,7 +139,8 @@
 /ihre?.{1,10}(lieferung|paket|sendung).{1,10}statusaktualisierung/i
 /ihre?.{1,10}(lieferung|paket|sendung).{1,10}wartet/i
 #/ihre?.{1,10}(lieferung|paket|sendung).{1,10}wird (versendet|zugestellt)/i
-/ihre?.{1,10}(lieferung|paket|sendung).{1,10}wird versendet/i
+/ihre?.{1,10}(lieferung|paket|sendung).{1,10}wird.{1,15}(versendet|zurückgehalten)/i
+/ihre?.{1,10}(lieferung|paket|sendung).{1,10}vorübergehend/iu
 /ihre?.{1,10}(lieferung|paket|sendung).{1,10}zu erhalten/i
 
 # Sample:  Ihr Paket ist unterwegs!!

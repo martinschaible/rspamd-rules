@@ -227,7 +227,9 @@
 
 /we.{1,10}deliver.{1,15}(fast|flexible|tailored|structured).{1,10}(financing|funding)/i
 
-/we.{1,10}fund your/i
+/we.{1,10}fund.{1,10}projects/i
+/we.{1,10}fund.{1,10}your/i
+
 /we.{1,10}funding.{1,10}projects/i
 /we.{1,10}(give out|provide).{1,10}loans/i
 /we.{1,10}help (finance|financing|loan)/i

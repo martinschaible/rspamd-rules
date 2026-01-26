@@ -330,6 +330,8 @@
 
 /confirmation.{0,10}temu/i
 
+/consorsbank.{0,10}kundenservice/i
+
 /\.(ch|de) cpanel/i
 /^cpanel$/i
 /cpanel.{0,10}(host|roundcube|server|service|team|zertifikatsstelle)/i
@@ -386,6 +388,8 @@
 #/disney.?account/i
 
 /decathlon.{0,5}noreply/i
+
+/docu.?sign.{0,10}notification/i
 
 /douglas$/i
 /douglas.{0,5}team/i

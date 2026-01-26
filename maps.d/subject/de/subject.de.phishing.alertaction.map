@@ -460,6 +460,8 @@
 /letzte erinnerung.{1,10}sichern sie sich/i
 /letzte erinnerung.{1,10}system.?update/i
 /letzte erinnerung.{1,10}überprüfen sie/iu
+/letzte erinnerung.{1,10}vor rücksendung/iu
+
 /letzte erinnerung.{1,10}zahlungsmethode.{1,10}(aktualisieren|überprüfen)/i
 /letzte erinnerung.{1,10}zahlungsinformationen.{1,10}swisspass/i
 
@@ -726,6 +728,7 @@
 /wichtige?.{1,15}(konto|profil).?informationen/i
 
 /wichtige?.{1,10}(hinweis|mitteilung).{1,10}ihre zahlungsdaten/i
+/wichtige?.{1,10}(hinweis|mitteilung).{1,10}jetzt bestätigen/iu
 /wichtige?.{1,10}(hinweis|mitteilung).{1,10}konto.?(reaktivierung|sicherheit)/i
 /wichtige?.{1,10}(hinweis|mitteilung).{1,10}neuer gerätezugriff festgestellt/iu
 /wichtige?.{1,10}(hinweis|mitteilung).{1,10}überprüfen sie die sicherheit/iu
@@ -793,6 +796,7 @@
 /zahlung.{1,10}jetzt erneuern/i
 /zahlungsinformationen bei.{1,15}sind veraltet/i
 
+/zugriffseinschränkung.{1,10}fehlender aktualisierung/iu
 /zugangssperre verhindern.{1,10}jetzt/i
 /zugriff blockiert.{1,10}starten sie/i
 

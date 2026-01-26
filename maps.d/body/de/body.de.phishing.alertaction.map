@@ -106,7 +106,8 @@
 
 # L
 # ------------------------------------------------------------------------------
-/letzte erinnerung.{1,10}ihre geräte/iu
+/letzte (aufforderung|erinnerung).{1,10}datenaktualisierung/i
+/letzte (aufforderung|erinnerung).{1,10}ihre geräte/iu
 
 # M
 # ------------------------------------------------------------------------------
