@@ -484,8 +484,10 @@
 
 # D
 # ------------------------------------------------------------------------------
-/daily.{0,10}(aches|burn|comfort|detox|fatigue|gut|heart|metabolism|ritual|soup|wellness|wisdom)/i
-/dairy.{0,10}recipe/i
+/daily.{0,10}(aches|burn|comfort|detox|energy|fatigue|gut|heart|metabolism|ritual|soup)/i
+/daily.{0,10}(wellness|wisdom)/i
+
+/dairy.{0,10}(recipe|ritual)/i
 
 /damaged.{0,10}nerves/i
 /dangerous.{0,10}(pills|veggies?)/i
