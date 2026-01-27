@@ -264,9 +264,12 @@
 /ihre.{1,10}hilfe.{1,10}als begünstigter?/iu
 /ihres familienerbes/i
 
-/ihre.{1,10}e?.?mail.{1,15}von meiner persönlichen suche/iu
-/ihre.{1,10}e?.?mail.{1,15}wurde unter.{1,15}glücklichen empfänger/iu
-/ihre.{1,10}e?.?mail.{1,15}zufällig ausgewählt wurde/iu
+/ihre?.{1,10}e?.?mail.{1,15}von meiner persönlichen suche/iu
+
+/ihre?.{1,10}e?.?mail.{1,25}wurde ausgewählt.{1,15}(als|begünstigter)/iu
+/ihre?.{1,10}e?.?mail.{1,15}wurde unter.{1,15}glücklichen empfänger/iu
+/ihre?.{1,10}e?.?mail.{1,15}wurde zufällig/iu
+/ihre?.{1,10}e?.?mail.{1,15}zufällig ausgewählt wurde/iu
 
 /informationen zum teilen.{1,10}kontaktieren sie/i
 

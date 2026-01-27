@@ -108,10 +108,12 @@
 /elektro.?(fahrrad|fahrrädern?|motorrad|moped|velo).{1,10}(berge|modelle|stadt)/i
 
 /(anfragen|beste|jetzt|passende).{1,10}elektro.?(fahrrad|fahrrädern?|motorrad|moped|velo)/i
-/(distributor|geschäft|händler).{1,10}elektro.?(fahrrad|fahrrädern?|motorrad|moped|velo)/iu
+/(distributor|händler).{1,15}elektro.?(fahrrad|fahrrädern?|motorrad|moped|velo)/iu
+/(geschäft|großhandel).{1,15}elektro.?(fahrrad|fahrrädern?|motorrad|moped|velo)/iu
 
 /(auf ein|faltbarefortbewegung|kauf|kraftvoll|neues).{1,15}(e.?bike|e.?cycle|elektro.?moped)/iu
 /(rabatt|unschlagbare?|unser|über|zuverlässig).{1,15}(e.?bike|e.?cycle|elektro.?moped|velo)/iu
+/(zusammenarbeit|zuverlässig).{1,15}(e.?bike|e.?cycle|elektro.?moped|velo)/iu
 
 # Brand
 /e.?bikes?.{1,10}city voyager/i
@@ -140,6 +142,7 @@
 /(direkter versand|direkt(versand)?) aus (deutschland|europa)/i
 /(direktversand|lieferung).{1,10}zoll/i
 
+/eu.?konform.{1,25}sofort verfügbar/iu
 /haben sie interesse an unseren/i
 /könnte eines unserer neuen/iu
 /sind sie interessiert.{1,10}mehr über unsere/iu
