@@ -66,6 +66,7 @@
 
 /(e.?bike|e.?cycle|elektrische|elektro|fahrrad|fahrräder).{1,15}aktion/iu
 /(e.?bike|e.?cycle|elektrische|elektro|fahrrad|fahrräder).{1,25}deutschem lager/iu
+/(e.?bike|e.?cycle|elektrische|elektro|fahrrad|fahrräder).{1,25}für handel/iu
 /(e.?bike|e.?cycle|elektrische|elektro|fahrrad|fahrräder).{1,15}(fabrik|tretunterstützung)/iu
 /(e.?bike|e.?cycle|elektrische|elektro|fahrrad|fahrräder).{1,15}vor(zu)?stellen/iu
 
@@ -94,11 +95,14 @@
 /unserem.{1,10}lager in deutschland (beträgt|erfolgt)/iu
 
 /wir ein lager in deutschland/i
+
+/wir haben bestand im.{1,10}warehouse/i
 /wir haben in unserem deutschen lager/i
 
 /wir bieten.{1,30}elektro.?fahrräder/iu
 /wir decken mit.{1,15}elektro.?fahrräder/iu
 /wir in einem Lager in Deutschland/i
+/wir liefern.{1,15}(e.?bike|e.?cycle|elektro.?moped)/i
 
 /wir auf die herstellung von.{1,20}(scootern?|zweirädern?)/i
 /wir (fertigen|produzieren).{1,25}mountain.?bikes?/i
