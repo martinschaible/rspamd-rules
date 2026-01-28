@@ -359,6 +359,7 @@
 /ihre.{1,10}sicherheit ist in gefahr.{1,20}schutz.{1,10}erneuern/i
 
 /ihre sofortige aufmerksamkeit/i
+/ihre zahlungsmethode aktualisieren/i
 /ihre zustimmung ist dringend erforderlich/i
 
 /information erforderlich no\b/i 
@@ -519,6 +520,8 @@
 /reaktivieren sie es jetzt/i
 /reaktivieren sie ihr(en)?.{1,15}kundenkonto/i
 /reaktivieren sie ihr(en)?.{1,15}zugang/iu
+
+/ref.{1,10}\d{4,15}.{1,10}handlungsbedarf/i
 
 # S
 # ------------------------------------------------------------------------------

@@ -374,7 +374,7 @@
 /brain.{0,10}test/i
 
 /breakfast.{0,10}(alert|boost|burner|insider|juice|mistake|myth|treat|quiz)/i
-/(breathe|breathing).{0,10}(better|clearer|easier|easy|easy)/i
+/(breathe|breathing).{0,10}(better|clearer|easier|easy)/i
 
 /bright.{0,10}smile/i
 
@@ -728,7 +728,8 @@
 /kilo{0,10}day/i
 /killing.{0,10}(pain|protein)/i
 
-/knee.{0,10}(coach|comfort|mistake|mobility|myth|pinch|reset|restore|saver|stretch|support)/i
+/knee.{0,10}(coach|comfort|mistake|mobility|myth|pinch|saver|stretch|support)/i
+/knee.{0,10}(reset|restore|ritual)/i
 
 # L
 # ------------------------------------------------------------------------------
@@ -781,9 +782,8 @@
 /men.?s?.{0,10}(only|power|vitality|wellness)/i
 /mental.{0,10}clarity/i
 
-/metabolic.{0,10}(cause|health|insights?|reset)/i
-/metabolism.{0,10}(boost(er)?|discovery|hack|insider|loophole|mute|organ|unleash)/i
-/metabolism.{0,10}(research|reset|revival|wine)/i
+/(metabolic|metabolism).{0,10}(boost(er)?|cause|discovery|flow|health|hack|insider|insights?|loophole|mute|organ|unleash)/i
+/(metabolic|metabolism).{0,10}(research|reset|revival|wine)/i
 
 /(mexican|rare).{0,10}salt/i
 /midnight.{0,10}bathroom/i
