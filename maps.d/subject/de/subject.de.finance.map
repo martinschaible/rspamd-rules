@@ -77,7 +77,7 @@
 /finanzierungs?.{0,10}(angebot|investition|möglichkeit)/i
 /finanzierungs?.{0,10}(darlehen|kredite)/i
 
-/Finanzierungsoption(en)?.{1,10}(private|geschäftliche)/i
+/finanzierungsoption(en)?.{1,10}(private|geschäftliche)/i
 /finanzierungslösung(en)?.{1,10}(privatkunden|unternehmen)/iu
 /finanzierungsoption(en)?.{1,15}zinssatz/i
 
@@ -184,6 +184,8 @@
 
 /wir bieten.{1,10}(darlehen|kredit)/i
 /wir helfen.{1,10}(bei der finanzierung|ihnen zu einem kredit)/i
+
+/wir stellen.{1,10}finanzierung.{1,10} projekte/i
 
 # X
 # ------------------------------------------------------------------------------

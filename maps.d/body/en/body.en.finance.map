@@ -115,7 +115,8 @@
 /our.{1,10}business loan offers/i
 /our.{1,15}funding programs/i
 /our.{1,10}investors.{1,10}are ready to provide/i
-/our.{1,10}organization provides financial/i
+
+/organization.{1,10}(offering|offers?|provides?|providing).{1,10}(financial|funding)/i
 
 # P
 # ------------------------------------------------------------------------------
@@ -191,6 +192,7 @@
 # Y
 # ------------------------------------------------------------------------------
 /you.{1,10}have.{1,10}project.{1,10}requires funding/i
+/you.{1,10}have.{1,10}project.{1,10}in need.{1,10}financial/i
 
 /you.{1,10}(pre)?qualified for our business/i
 /you.{1,10}(pre)?qualified for up to \{d3,6}/i
