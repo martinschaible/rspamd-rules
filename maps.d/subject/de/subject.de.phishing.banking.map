@@ -78,7 +78,9 @@
 
 # I
 # ------------------------------------------------------------------------------
-/ihr.{1,10}finanz.?update.{1,10}(oktober|november|dezember)/i
+/ihr beitrag zu einem.{1,15}sichereren banking/i
+
+/ihr.{1,10}finanz.?update.{1,10}(oktober|november|dezember|januar|februar)/i
 /ihr.{1,10}finanz.?update.{1,10}ref/i
 
 /ihr.{1,10}online.?(banking|zugang) ist gefährdet/iu
