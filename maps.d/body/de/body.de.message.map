@@ -105,7 +105,7 @@
 
 # H
 # ------------------------------------------------------------------------------
-/haben sie.{1,15}(letzte|meine|vorherige).{1,10}(e?.?mail|nachricht).{1,10}(beüglich|erhalten|von der)/i
+/haben sie.{1,15}(letzte|meine|vorherige).{1,15}(e?.?mail|nachricht).{1,10}(bezüglich|erhalten|von der)/i
 
 /hatten sie gelegenheit.{1,15}(letzte|meine|vorherige).{1,10}(e?.?mail|nachricht).{1,10}zu lesen/i
 
