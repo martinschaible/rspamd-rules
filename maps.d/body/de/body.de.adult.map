@@ -50,6 +50,8 @@
 
 # A
 # ------------------------------------------------------------------------------
+/abenteuer.{1,10}in (deiner|ihrer) nähe/iu
+
 /(antworte|kennenlernen).{1,15}(klicke?|schreibe?) hier/i
 
 /aktive chats.{1,10}talks/i
@@ -135,6 +137,7 @@
 /heute bin ich in deiner stadt/i
 
 /hier findest du.{1,10}(frauen|mich)/i
+/hier geht.{1,15}zu den profilen/i
 /hier kannst du mir antworten/i
 
 /hinterlasse (einen|ich dir).{1,10}link/i
@@ -259,10 +262,12 @@
 
 /sichere?.{1,10}diskrete?.{1,10}(kommunikation|neues)/i
 
+/sie diskrete kontakte/i
 /sie möchten chatten/iu
 /siehe? dir ihre seite an/i
 
 /suche einen mann.{1,10}mit dem ich/i
+/suchen sie diskrete/i
 /suchst.{1,10}schreibe? mir/i
 
 # T

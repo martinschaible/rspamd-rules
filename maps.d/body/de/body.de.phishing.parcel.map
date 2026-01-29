@@ -46,6 +46,7 @@
 
 # F
 # ------------------------------------------------------------------------------
+/freigabe.{1,10}(lieferung|paket|sendung).{1,10}ist eine bearbeitungsgebühr/iu
 
 # G
 # ------------------------------------------------------------------------------
@@ -114,6 +115,8 @@
 /(lieferung|paket|sendung).{1,15}in unserer bearbeitung befindet/i
 /(lieferung|paket|sendung).{1,10}in vorbereitung.{1,10}zahlung ausstehend/i
 
+/(lieferung|paket|sendung).{1,10}jetzt freischalten/i
+
 /(lieferung|paket|sendung).{1,10}ist versandfertig.{1,10}aber die versandkosten/i
 /(lieferung|paket|sendung).{1,15}ist fast zugestellt/i
 /(lieferung|paket|sendung).{1,10}ist im.{1,15}paketshop/i
@@ -131,18 +134,19 @@
 /(lieferung|paket|sendung).{1,15}sich im.{1,15}(distributions|verteil).{1,15}befindet/i
 /(lieferung|paket|sendung).{1,15}werden dem importeur/iu
 
-/(lieferung|paket|sendung).{1,10}wird.{1,15}in unserem logistikzentrum festgehalten/i
-/(lieferung|paket|sendung).{1,10}wird.{1,15}zahlung der gebühr zugestellt/iu
-/(lieferung|paket|sendung).{1,10}wird.{1,15}zurückgehalten/iu
+/(lieferung|paket|sendung).{1,20}wird.{1,15}in unserem logistikzentrum festgehalten/i
+/(lieferung|paket|sendung).{1,20}wird.{1,15}zahlung der gebühr zugestellt/iu
+/(lieferung|paket|sendung).{1,20}wird.{1,15}zurückgehalten/iu
 
-/(lieferung|paket|sendung).{1,10}wurde.{1,10}(bearbeitet|registriert).{1,10}ist auf dem weg/i
-/(lieferung|paket|sendung).{1,10}wurde.{1,10}(bearbeitet|registriert).{1,10}befindet sich.{1,15}im lieferprozess/i
+/(lieferung|paket|sendung).{1,20}wurde.{1,10}(bearbeitet|registriert).{1,10}ist auf dem weg/i
+/(lieferung|paket|sendung).{1,20}wurde.{1,10}(bearbeitet|registriert).{1,10}befindet sich.{1,15}im lieferprozess/i
 /(lieferung|paket|sendung).{1,20}wurde.{1,10}eine unstimmigkeit festgestellt/i
-/(lieferung|paket|sendung).{1,10}wurde.{1,10}erfolgreich.{1,10}(verarbeitet|verteilzentrum)/i
-/(lieferung|paket|sendung).{1,15}wurde.{1,20}in der schweiz (verarbeitet|zugestellt)/i
+/(lieferung|paket|sendung).{1,20}wurde.{1,10}erfolgreich.{1,10}(verarbeitet|verteilzentrum)/i
+/(lieferung|paket|sendung).{1,20}wurde.{1,10}importzentrum zur zollprüfung/iu
+/(lieferung|paket|sendung).{1,20}wurde.{1,20}in der schweiz (verarbeitet|zugestellt)/i
 
-/(lieferung|paket|sendung).{1,10}wurde.{1,10}wurde beim zoll.{1,10}(erfasst|registriert)/i
-/(lieferung|paket|sendung).{1,10}wurde.{1,10}wurde in.{1,20}(erfasst|registriert)/i
+/(lieferung|paket|sendung).{1,20}wurde.{1,10}wurde beim zoll.{1,10}(erfasst|registriert)/i
+/(lieferung|paket|sendung).{1,20}wurde.{1,10}wurde in.{1,20}(erfasst|registriert)/i
 
 /(lieferung|paket|sendung).{1,15}wurde.{1,10}verzollung vorgelegt/i
 

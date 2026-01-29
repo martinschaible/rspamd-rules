@@ -11,6 +11,7 @@
 /action urgente.{1,10}finalisez/i
 /(attention|examen) requise? no\b/i
 
+/Cette offre.{1,10}durée limitée expire dans/iu
 /colis.{1,10}pas pu être livré/iu
 /nécessaire \d{4,8}/iu
 /nous avons un colis non livré/iu
