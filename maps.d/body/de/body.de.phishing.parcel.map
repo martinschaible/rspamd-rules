@@ -96,11 +96,16 @@
 
 # P
 # ------------------------------------------------------------------------------
-/(lieferung|paket|sendung).{1,20}auf.{1,10}anweisungen.{1,15}(bezüglich|wartet)/i
+/(lieferung|paket|sendung).{1,20}auf.{1,15}(anweisungen|bearbeitung).{1,15}(bezüglich|wartet)/i
+/(lieferung|paket|sendung).{1,15}auf.{1,15}(lieferung|zustellung) wartet/i
+
+/(lieferung|paket|sendung).{1,20}aufgrund eines barcode.?fehlers/i
+/(lieferung|paket|sendung).{1,20}aufgrund einer falschen.{1,15}adresse/i
 
 /(lieferung|paket|sendung).{1,10}befindet sich.{1,10}(finalen|letzten).{1,10}(zustellphase|zustellprozess)/i
 /(lieferung|paket|sendung).{1,10}befindet sich.{1,10}derzeit beim.{1,15}zoll/i
 /(lieferung|paket|sendung).{1,10}befindet sich.{1,10}in der zollabfertigung/i
+/(lieferung|paket|sendung).{1,15}befindet sich.{1,25}lager in der nähe/iu
 
 /(lieferung|paket|sendung).{1,10}bereit für die lieferung/iu
 /(lieferung|paket|sendung).{1,15}das an sie hätte geliefert/iu
@@ -111,11 +116,9 @@
 
 /(lieferung|paket|sendung).{1,10}ihre heimatadresse zu/i
 /(lieferung|paket|sendung).{1,10}im zielland eingetroffen ist/i
-/(lieferung|paket|sendung).{1,10}in der warteschleife/i
+/(lieferung|paket|sendung).{1,10}(in der|ist in).{1,10}(warteschleife|wartestellung)/i
 /(lieferung|paket|sendung).{1,15}in unserer bearbeitung befindet/i
 /(lieferung|paket|sendung).{1,10}in vorbereitung.{1,10}zahlung ausstehend/i
-
-/(lieferung|paket|sendung).{1,10}jetzt freischalten/i
 
 /(lieferung|paket|sendung).{1,10}ist versandfertig.{1,10}aber die versandkosten/i
 /(lieferung|paket|sendung).{1,15}ist fast zugestellt/i
@@ -126,13 +129,27 @@
 /(lieferung|paket|sendung).{1,10}ist in.{1,25}(internationalen|unserem) verteilzentrum/i
 
 /(lieferung|paket|sendung).{1,10}ist in.{1,20}(angekommen|eingetroffen).{1,15}(den zoll|wurde verzollt)/i
-
 /(lieferung|paket|sendung).{1,10}ist noch nicht bezahlt/i
+
+/(lieferung|paket|sendung).{1,10}jetzt freischalten/i
+
+/(lieferung|paket|sendung).{1,20}kann nicht zugestellt werden.{1,20}aktualisieren sie.{1,15}adresse/i
+/(lieferung|paket|sendung).{1,20}konnte nicht.{1,10}zugestellt werden.{1,15}falsche.{1,15}adresse/i
+/(lieferung|paket|sendung).{1,20}konnte nicht.{1,20}werden.{1,10}da bei.{1,15}zustellung/i
+
+/(lieferung|paket|sendung).{1,15}(muessen|müssen) sie umgehend/iu
+/(lieferung|paket|sendung).{1,20}nicht zugestellt werden.{1,20}fehler beim barcode/i
+
 /(lieferung|paket|sendung).{1,10}könnte zum absender zurückgeschickt werden/iu
 /(lieferung|paket|sendung).{1,10}mit der nummer.{1,20}anweisungen/i
 /(lieferung|paket|sendung).{1,10}nicht zustellen.{1,10}informationen fehlen/i
 /(lieferung|paket|sendung).{1,15}sich im.{1,15}(distributions|verteil).{1,15}befindet/i
 /(lieferung|paket|sendung).{1,10}status.{1,10}warteposition/i
+
+/(lieferung|paket|sendung).{1,15}wartet auf (die|eine).{1,15}(lieferung|zustellung)/i
+/(lieferung|paket|sendung).{1,15}wartet auf sie/i
+
+/(lieferung|paket|sendung).{1,15}welches kurz vor der.{1,10}(lieferung|zustellung) steht/i
 /(lieferung|paket|sendung).{1,15}werden dem importeur/iu
 
 /(lieferung|paket|sendung).{1,20}wird.{1,15}beim zoll festgehalten/i
@@ -152,8 +169,10 @@
 
 /(lieferung|paket|sendung).{1,15}wurde.{1,10}verzollung vorgelegt/i
 
-/(lieferung|paket|sendung).{1,15}(muessen|müssen) sie umgehend/iu
 /(lieferung|paket|sendung).{1,15}zurückbehalten.{1,25}nur für die nächsten/iu
+/(lieferung|paket|sendung).{1,20}zustellen.{1,10}aufgrund einer falschen.{1,15}adresse/i
+/(lieferung|paket|sendung).{1,20}zustellen.{1,10}da ihre adresse falsch ist/i
+/(lieferung|paket|sendung).{1,20}zustellen.{1,10}jedoch aufgrund eines barcode/i
 
 /paketdienste? weiterhin ohne unterbrechung/i
 
@@ -170,7 +189,9 @@
 /sie haben.{1,10}(paket|sendung).{1,10}zur zustellung bereit/i
 /sie um eine.{1,10}(geringe|kleine).{1,10}(bearbeitungspauschale|servicegebühr|zustellgebühr)/iu
 
-/sie müssen eine geringe.{1,10}gebühr entrichten/iu
+/sie müssen.{1,10}eine geringe.{1,10}gebühr entrichten/iu
+/sie müssen.{1,10}eine neue zustellung vereinbaren/iu
+/sie müssen.{1,10}ihre lieferinformationen bestätigen/iu
 
 /steuer.{1,10}vorauszahlungsgebühr/iu
 
