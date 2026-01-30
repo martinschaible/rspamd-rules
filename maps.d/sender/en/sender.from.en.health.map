@@ -386,7 +386,7 @@
 /boner.{0,10}(brew|pills?)/i
 
 /bone.{0,10}bone/i
-/boost.{0,10}energy/i
+/boost(ing)?.{0,10}(energy|tips?)/i
 
 /bp.?(drugs|tonic)/i
 
@@ -1005,7 +1005,7 @@
 
 /skin.{0,10}(alert|doctor|fix|restore|sculptor|secret|tightening)/i
 
-/sleep.{0,10}(age|care|discovery|hack|health)/i
+/sleep.{0,10}(age|boosting|care|discovery|hack|health)/i
 /sleep.{0,10}(lab|memory|mineral|mistake|position|posture|reset)/i
 /sleep.{0,10}(science|secret|shortcut|slim|solution|support|trick)/i
 

@@ -359,7 +359,7 @@
 /(pcba?|printed.?circuits?.?board).{1,10}(partner|supplier).{1,10}(iso|worthy)/i
 /(pcba?|printed.?circuits?.?board).{1,10}supply chain/i
 /(pcba?|printed.?circuits?.?board).{1,10}turnaround/i
-/(pcba?|printed.?circuits?.?board).{1,10}with high quality/i
+/(pcba?|printed.?circuits?.?board).{1,10}with (high quality|plated)/i
 
 /plastic.?injection.{1,10}mould.?maker/i
 /plastic.?(mold|tooling|toolmaking).{1,10}(making|quotation|services|solution)/i
@@ -376,6 +376,8 @@
 /procurement.{1,10}discounts/i
 
 /products?.{1,10}from.{1,15}china/i
+/products?.{1,10}for your project needs/i
+
 /products?.{1,10}inquiry.{1,10}potential partnership/i
 /products?.{1,10}machining service/i
 /products?.{1,10}partnership prospect/i
