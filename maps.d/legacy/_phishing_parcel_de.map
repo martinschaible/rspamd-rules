@@ -79,7 +79,6 @@
 # "bestätigen Sie Ihre E-Mail-Adresse" is in use in real life
 #/bestätigen sie ihre.{1,10}adresse/i
 /sie ihre (lieferdetails aktualisieren|versandzone)/i
-/sie müssen.{1,10}ihre lieferinformationen bestätigen/iu
 /stunden zeit.{1,10}um ihre.{1,10}versandpräferenzen/iu
 
 #
@@ -88,19 +87,6 @@
 
 # Delivery Failed
 # ------------------------------------------------------------------------------
-/(paket|sendung).{1,20}aufgrund eines barcode.?fehlers/i
-/(paket|sendung).{1,20}aufgrund einer falschen.{1,15}adresse/i
-
-/(paket|sendung).{1,20}kann nicht zugestellt werden.{1,20}aktualisieren sie.{1,15}adresse/i
-/(paket|sendung).{1,20}konnte nicht.{1,10}zugestellt werden.{1,15}falsche.{1,15}adresse/i
-/(paket|sendung).{1,20}konnte nicht.{1,20}werden.{1,10}da bei.{1,15}zustellung/i
-
-/(paket|sendung).{1,20}nicht zugestellt werden.{1,20}fehler beim barcode/i
-
-/(paket|sendung).{1,20}zustellen.{1,10}aufgrund einer falschen.{1,15}adresse/i
-/(paket|sendung).{1,20}zustellen.{1,10}da ihre adresse falsch ist/i
-/(paket|sendung).{1,20}zustellen.{1,10}jedoch aufgrund eines barcode/i
-
 /sehr geehrter kunde.{1,10}ihre sendung konnte/i
 /sehr geehrter kunde.{1,10}wir haben.{1,10}versucht.{1,10}ihr paket/i
 /sehr geehrter kunde.{1,10}wir konnten ihr paket/i
@@ -115,18 +101,6 @@
 /nicht zustellen.{1,10}da keine.{1,20}anwesend war/i
 /problem entstand aufgrund einer falschen lieferadresse/i
 /zustellung.{1,15}(paket|sendung).{1,30}ist ein fehler aufgetreten/i
-
-# Delivery Pending/Waiting
-# ------------------------------------------------------------------------------
-/(paket|sendung).{1,15}auf (die|eine).{1,10}(lieferung|zustellung) wartet/i
-/(paket|sendung).{1,10}(in der|ist in).{1,10}(warteschleife|wartestellung)/i
-/(paket|sendung).{1,10}noch auf die bearbeitung wartet/i
-/(paket|sendung).{1,25}noch auf ihre anweisung(en)? wartet/i
-
-/(paket|sendung).{1,15}wartet auf (die|eine).{1,15}(lieferung|zustellung)/i
-/(paket|sendung).{1,15}wartet auf sie/i
-/(paket|sendung).{1,15}welches kurz vor der.{1,10}(lieferung|zustellung) steht/i
-/(paket|sendung).{1,15}befindet sich{1,25}lager in der nähe/iu
 
 /(ihr|sie haben).{1,10}(ausgesetztes?|ausstehendes?).{1,10}(paket|sendung)/i
 
