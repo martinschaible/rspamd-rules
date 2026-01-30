@@ -190,7 +190,8 @@
 /insolvenzmassen?:/i
 /insolvenzmassen?.{1,15}(gmbh|katalog|pdf)/i
 
-/(angebot|auszug|inventargegenständen?) aus.{1,10}insolvenzmassen?/i
+/(angebot|auszug|inventargegenständen?).{1,25}(insolvenzmassen?|insolvenzverfahren)/i
+/(fahrzeuge|maschinen|vermögenswerte).{1,25}(insolvenzmassen?|insolvenzverfahren)/i
 
 /katalog.{1,10}masseverwertung/i
 /unser(em)?.{1,10}insolvenzkatalog/i
