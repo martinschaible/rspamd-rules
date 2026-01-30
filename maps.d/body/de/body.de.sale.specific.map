@@ -48,13 +48,19 @@
 
 # Chair
 # ------------------------------------------------------------------------------
-/(büro|dreh).?(stuhl|stühle).{1,15}(aktionspreis|massagefunktion|stil.{1,10}komfort)/i
-/(büro|dreh).?(stuhl|stühle).{1,15}profitieren/i
+/(büro|chef|dreh).?(sessel|stuhl|stühle).{1,15}(aktionspreis|massagefunktion|stil.{1,10}komfort)/i
+/(büro|chef|dreh).?(sessel|stuhl|stühle).{1,15}profitieren/i
 
 # A - G
-/(design|elegante|ergonomische|erlesene|genialer?).{1,20}(büro|dreh).?(stuhl|stühle)/iu
+/(design|genialer?).{1,20}(büro|chef|dreh).?(sessel|stuhl|stühle)/iu
+/(elegante|ergonomische|erlesene|exklusive).{1,20}(büro|chef|dreh).?(sessel|stuhl|stühle)/iu
+
 # K -
-/(komfort|komfortable|praktische).{1,20}(büro|dreh).?(stuhl|stühle)/iu
+/(komfort|komfortable|praktische).{1,20}(büro|chef|dreh).?(sessel|stuhl|stühle)/iu
+
+/unsere.{1,10}(büro|chef|dreh).?(sessel|stuhl|stühle) sind in/iu
+/unsere.{1,10}eleganten.{1,10}(büro|chef|dreh).?(sessel|stuhl|stühle)/iu
+/unsere.{1,10}massage.{1,10}(büro|chef|dreh).?(sessel|stuhl|stühle)/iu
 
 # Coffee machines
 # ------------------------------------------------------------------------------
