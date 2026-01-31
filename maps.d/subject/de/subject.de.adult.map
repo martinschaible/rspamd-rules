@@ -162,7 +162,7 @@
 
 /jetzt im chat/i
 /jetzt verabredung/i
-/(jetzig|sittlich) freund/i
+/(jetzig|sittlich)? freund/i
 
 # K
 # ------------------------------------------------------------------------------
@@ -179,8 +179,8 @@
 /mann meiner träume/iu
 /mann zum.{1,15}gesucht/i
 
-/meine bilder sehen/i
-/meine intimsten/i
+/meine.{1,10}bilder (live an|sehen)/i
+/meine.{1,10}intimsten/i
 
 /mit.{1,15}zu flirten/i
 
