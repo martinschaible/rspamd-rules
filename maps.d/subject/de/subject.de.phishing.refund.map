@@ -142,13 +142,14 @@
 /(rück)?erstattung.{1,10}(jetzt|möglich|verfügbar)/iu
 
 /(rück)?erstattung.{1,10}kann nicht bearbeitet werden/iu
+/(rück)?erstattung steht zur auszahlung$/iu
 
-/(rück)?erstattung.{1,10}wegen doppelabbuchung/iu
 /(rück)?erstattung.{1,10}von.{1,15}ihre krankenversicherung/i
+/(rück)?erstattung.{1,10}wegen doppelabbuchung/iu
 /(rück)?erstattung.{1,10}wurde (angenommen|genehmigt)/i
 /(rück)?erstattung.{1,10}zur verfügung/iu
 
-/rückerstattung.{1,5}id:\d/i
+/(rück)?kerstattung.{1,5}id:\d/i
 /(rück)?erstattung.{1,10}\d{1,4}.{1,5}\[id/i
 
 /(rück)?erstattungs.?anfrage.{1,10}online einreichen/iu

@@ -10,7 +10,8 @@
 # ------------------------------------------------------------------------------
 /(alze?heimer|dementia).{1,10}(alert|brain|sign|test|trigger|warning)/i
 
-/brain.{0,10}(booster|cell|damage|experts?|fuel|fixer|food|fog|hack|health|logic)/i
+/brain.{0,10}(booster|cell|damage|ears|experts?|hack|health|logic)/i
+/brain.{0,10}(fuel|fixer|food|fog)/i
 /brain.{0,10}(nutrient|power|waves?)/i
 /brain.{0,10}(scan|science|sleep|signal|steroid)/i
 /brain.{0,10}(technique|threat|tonic|trick)/i
@@ -403,7 +404,7 @@
 # C
 # ------------------------------------------------------------------------------
 /cabernet.{0,10}merlot/i
-/calorie.{0,10}(booster|burn)/i
+/calorie.{0,10}(active|booster|burn)/i
 /calcium.{0,10}boost/i
 /calm.{0,10}(ears|nights?)/i
 /calorie.{0,10}bypass/i
@@ -881,7 +882,7 @@
 # ------------------------------------------------------------------------------
 /pain.{0,10}(alert|culprit|reset|support)/i
 /painful.{0,10}piles/i
-/pancreas.{0,10}reset/i
+/pancreas.{0,10}(health|reset)/i
 /passion.{0,10}tea/i
 
 /pee.{0,10}(control|fix|leaks?|solution|strong(er)?|out)/i
@@ -1017,7 +1018,7 @@
 /small.{0,10}stomach/i
 /smile.{0,10}(fix|health|secret|science)/i
 
-/skin.{0,10}(boost|rescue|tip)/i
+/skin.{0,10}(boost|insight|rescue|tip)/i
 /skip this/i
 /silent.{0,10}signal/i
 /simple.{0,10}natural/i
@@ -1118,6 +1119,8 @@
 /traditional hypertension medications/i
 /true.{0,10}story/i
 /truth.{0,10}behind/i
+
+/try this/i
 
 /twist.{0,10}growth/i
 /type.?2/i
