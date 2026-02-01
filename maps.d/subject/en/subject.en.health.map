@@ -217,7 +217,7 @@
 /common.{1,10}drink may/i
 
 /concerning.{1,10}ingredient.{1,10}found/i
-/constant.{1,10}buzzing/i
+/constant.{1,10}(buzzing|ringing)/i
 /conquer.{1,10}tinnitus/i
 /constipation.{1,10}(read this|worse)/i
 
@@ -544,7 +544,7 @@
 /legal.{1,10}(boner|hgh)/i
 
 /life.?changing.{1,10}video/i
-/lift.{1,10}saggy butt/i
+/lift(ed)?.{1,10}butt/i
 /link to.{1,10}nails/i
 /listen to your.{1,10}gut/i
 /liver is in.{1,10}danger/i
@@ -769,6 +769,7 @@
 /science.{1,15}anti.?aging/i
 
 /sec(ond)?.{1,10}(detox|home remedy|morning cleanse|oral flush|sleep trick|stretch)/i
+/sec(ond)?.{1,10}rinse/i
 
 /seconds?.{1,10}relieve.{1,10}pain/i
 
@@ -942,7 +943,7 @@
 /this.{1,10}speeds up memory/i
 /this.{1,10}stops.{1,10}diabetes/i
 /this.{1,10}stops.{1,15}in seconds/i
-/this.{1,10}stretch works/i
+/this.{1,10}(stretch|trick) works/i
 
 /this.{1,10}tea stops/i
 /this.{1,10}vitamin kills/i
@@ -1001,7 +1002,7 @@
 
 /unlock.{1,10}lasting energy/i
 /unlock.{1,10}pleasure.{1,10}(centers?|points?)/i
-/unlock.{1,10}(memory|prostate|sharper|stronger|tight hips)/i
+/unlock.{1,10}(memory|prostate|relieve|sharper|stronger|tight hips)/i
 /unlock.{1,10}your body/i
 
 /unusual.{1,10}asian.{1,10}treat/i

@@ -393,6 +393,7 @@
 
 /botox.{0,10}alternative/i
 
+/bubble.{0,10}bootie/i
 /bulging.{0,10}discs/i
 /burn.{0,10}(boost|calories)/i
 /butt.{0,10}lift/i
@@ -681,7 +682,7 @@
 /herpes.{0,10}(beat it|breakthrough|discovery|eliminator|outbreak|talk)/i
 
 /hgh.{0,10}(alert|boost|secret)/i
-/hidden.{0,10}(crisis|danger|deficiency|dish)/i
+/hidden.{0,10}(crisis|cure|danger|deficiency|dish)/i
 /hidden.{0,10}(organ|path|power|protein|remedy|risk|ritual|science|threat|toxin)/i
 
 /high.{0,10}(bp|sugar)/i
@@ -724,7 +725,7 @@
 
 # K
 # ------------------------------------------------------------------------------
-/kidney.{0,10}(cells|cleanse|health|help|restore|trust)/i
+/kidney.{0,10}(cells|cleanse|health|help|restore|insight|trust)/i
 
 /kilo{0,10}day/i
 /killing.{0,10}(pain|protein)/i
@@ -903,6 +904,7 @@
 /pink.{0,10}salt/i
 /pins.{0,10}needles/i
 
+/plaque.{0,10}flush(er)?/i
 /pleasure.{0,10}(alignment|boost|centers?|fix|hack|points?|unlock)/i
 
 /potent.{0,10}drink/i

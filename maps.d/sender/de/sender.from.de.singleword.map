@@ -151,6 +151,7 @@
 
 /bürostuhl/i
 
+/^buchaltung$/i
 /bumsen/i
 
 /bundesalarm/i
@@ -496,7 +497,8 @@
 /kundenclub/i
 /kundenpflege/i
 
-/^kunden.?(dienst|service)$/i
+/^kundendienst$/i
+#/^kunden.?(dienst|service)$/i
 /kundendienst!/i
 /kunden-dienst/i
 /kundeninfo\b/i
