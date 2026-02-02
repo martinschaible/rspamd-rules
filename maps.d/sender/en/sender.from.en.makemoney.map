@@ -84,8 +84,9 @@
 
 # D
 # ------------------------------------------------------------------------------
-/(dubai|malta|uae|uk).{0,10}(central|district|estate|hills|marina|property|residence|residency)/i
+/(dubai|malta|uae|uk).{0,10}(central|district|estate|hills|island|marina|property)/i
 /(dubai|malta|uae|uk).{0,10}(freehold|freezone)/i
+/(dubai|malta|uae|uk).{0,10}(residence|residency)/i
 
 # E
 # ------------------------------------------------------------------------------
