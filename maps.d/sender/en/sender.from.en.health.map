@@ -723,6 +723,8 @@
 # ------------------------------------------------------------------------------
 /japanese.{0,15}(experts?|tonic|secret|urology)/i
 
+/joint.{0,10}experts?/i
+
 # K
 # ------------------------------------------------------------------------------
 /kidney.{0,10}(cells|cleanse|health|help|restore|insight|trust)/i
@@ -779,7 +781,7 @@
 /male.{0,10}(virility|vitality)/i
 
 /med.?journal/i
-/(medical|medicinal|medication).{0,15}(alert|daily|discovery|findings?|patch(es)?|shock)/i
+/(medical|medicinal|medication).{0,15}(alert|daily|discovery|findings?|patch(es)?|shock|unit)/i
 
 /men.?s?.{0,10}(only|power|vitality|wellness)/i
 /mental.{0,10}clarity/i
