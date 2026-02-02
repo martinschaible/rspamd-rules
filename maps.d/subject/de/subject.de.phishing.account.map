@@ -94,8 +94,6 @@
 # I
 # ------------------------------------------------------------------------------
 /identitätscheck.{1,10}schritt für schritt/iu
-/in ihrem.{1,15}konto erkannt/i
-/information zur kontoverifizierung/i
 
 /ihr.{1,15}konto(:|!)/i
 /ihr.{1,15}konto aktiv zu halten/i
@@ -111,8 +109,12 @@
 /ihren.{1,10}kontozugang wiederherzustellen/i
 /ihrer?.{1,10}(kontosperrung|kontosicherheit)/i
 
-/in ihrem online.?konto/i
+/in ihrem.{1,10}online.?konto/i
+/in ihrem.{1,15}konto erkannt/i
+
+/information zur kontoverifizierung/i
 /information.{1,15}kontoverwaltung/i
+/informationen zu ihrem kundenprofil/i
 
 /(ihrer|ihres).{5,25}erforderlich/i
 
