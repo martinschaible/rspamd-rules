@@ -723,6 +723,8 @@
 # R
 # ------------------------------------------------------------------------------
 /raiffeisen.{0,10}twint/i
+/^raiffeisen$/i
+
 /raiffeisenbanken,/i
 /(info|twint).{0,10}raiffeisen/i
 

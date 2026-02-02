@@ -152,8 +152,8 @@
 /(lieferung|paket|sendung).{1,15}welches kurz vor der.{1,10}(lieferung|zustellung) steht/i
 /(lieferung|paket|sendung).{1,15}werden dem importeur/iu
 
-/(lieferung|paket|sendung).{1,20}wird.{1,15}beim zoll festgehalten/i
-/(lieferung|paket|sendung).{1,20}wird.{1,15}in unserem logistikzentrum festgehalten/i
+/(lieferung|paket|sendung).{1,20}wird.{1,15}beim zoll (festgehalten|zurückgehalten)/iu
+/(lieferung|paket|sendung).{1,20}wird.{1,15}in unserem logistikzentrum (festgehalten|zurückgehalten)/iu
 /(lieferung|paket|sendung).{1,20}wird.{1,15}zahlung der gebühr zugestellt/iu
 /(lieferung|paket|sendung).{1,20}wird.{1,15}zurückgehalten/iu
 
