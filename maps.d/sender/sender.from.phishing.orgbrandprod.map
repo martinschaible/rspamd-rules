@@ -179,8 +179,10 @@
 /(dhl|dpd|fedex|gls|ups).{0,5}(messages?|tracking|versand|your)/i
 /(dhl|dpd|fedex|gls|ups).{0,5}(offers?|online|order)/i
 /(dhl|dpd|fedex|gls|ups).{0,5}(sendung|service|shipping|support|surveys?)/i
-/(dhl|dpd|fedex|gls|ups).{0,5}umfrage/i
 
+/(dhl|dpd|fedex|gls|ups).{0,5}(deutschland|germany|schweiz)/i
+
+/(dhl|dpd|fedex|gls|ups).{0,5}umfrage/i
 /(dhl|dpd|fedex|gls|ups).{0,5}paket.?(status|zentrum)/i
 /(dhl|dpd|fedex|gls|ups).{0,5}(package|payment|paketinfo)/i
 /(dhl|dpd|fedex|gls|ups).{0,10}team/i
