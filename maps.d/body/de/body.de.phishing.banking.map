@@ -148,6 +148,7 @@
 
 # Z
 # ------------------------------------------------------------------------------
-/zugang aus sicherheitsgründen temporär eingeschränkt/iu
+/zugang.{1,10}aus sicherheitsgründen.{1,10}(temporär|vorübergehend) eingeschränkt/iu
+/zugang.{1,10}online.?banking.{1,10}(temporär|vorübergehend) eingeschränkt/iu
 
 /zum sicheren online.?banking.{1,10}login/i

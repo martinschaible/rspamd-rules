@@ -972,7 +972,8 @@
 /the fruit that/i
 /that age you fast(er)?/i
 
-/try this instead/i
+/try this (fast|instead)/i
+
 /(try|this).{1,10}(miracle|natural)/i
 /(try|this).{1,10}simple.{1,10}nutrient/i
 
