@@ -87,6 +87,9 @@
 # False/positive received, unbelievable
 #/\/-\//i
 
+# 023.0226 - Sample: deutschetelekomumfrage31.lab-lafage2.com/
+/umfrage\d{1,2}\./i
+
 # Path bound to TLDs to avoid false/positives
 # ------------------------------------------------------------------------------
 # We cannot block all of the new or exotic TLDs because they are sometimes
