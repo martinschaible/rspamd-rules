@@ -306,7 +306,7 @@
 /handlung erforderlich/i
 
 /handlungsbedarf.{1,15}abgabe/i
-/handlungsbedarf.{1,10}aktualisierung ihrer.{1,15}(banking|online)/i
+/handlungsbedarf.{1,10}aktualisierung (ihrer|ihres).{1,15}(banking|online)/i
 /handlungsbedarf.{1,10}bestätigen sie ihre identität/iu
 /handlungsbedarf.{1,10}daten.{1,10}handelsregister bestätigen/iu
 /handlungsbedarf.{1,10}für ihr.{1,15}konto/i
@@ -744,7 +744,7 @@
 /wichtige?.{1,10}(hinweis|mitteilung).{1,15}reaktivierung erforderlich/i
 /wichtige?.{1,10}(hinweis|mitteilung).{1,15}systemaktualisierung(en)?/i
 
-/wichtige?.{1,10}(hinweis|mitteilung).{1,10}zu ihrem konto/i
+/wichtige?.{1,10}(hinweis|mitteilung).{1,10}zu ihrem.{1,15}konto/i
 /wichtige?.{1,10}(hinweis|mitteilung).{1,10}zu ihrer rückerstattung/iu
 /wichtige?.{1,10}(hinweis|mitteilung).{1,10}zur einhaltung/i
 /wichtige?.{1,10}(hinweis|mitteilung).{1,15}zur sicherheit ihres.{1,15}kontos/i

@@ -12,3 +12,6 @@
 
 # Sample: 107-172-135-68-host.colocrossing.com
 /-host\.colocrossing\.com/i 6.0
+
+# 04.02.26 - Sample: cloud-hosting-1.shuangshixian.cn
+/cloud-hosting-\d\.[a-z]{5,20}\.cn/i 6.0

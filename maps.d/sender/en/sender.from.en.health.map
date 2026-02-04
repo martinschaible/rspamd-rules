@@ -541,7 +541,10 @@
 /eagle.{0,10}vision/i
 
 /ear.{0,10}(health|mystery|reset)/i
-/easy.{0,10}(breath(ing)?|digestive|spine|stretch|wellness)/i
+
+/easy.{0,10}(breath(ing)?|digestive|wellness)/i
+/easy.{0,10}(slim|spine|stretch)/i
+
 /eat.{0,10}(fruitme|me|this)/i
 /eggs.{0,10}hack/i
 /egyptian.{0,10}hack/i

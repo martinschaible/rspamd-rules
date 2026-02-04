@@ -319,7 +319,7 @@
 
 /chat-gpt/i
 /chatgpt.?(ai|\+|plus)/i
-/chatgpt.{0,10}kundenservice/i
+/chatgpt.{0,10}(abonnement|kundenservice)/i
 /chatgpt.{0,10}zahlung(en)?/i
 /chatgpt.{0,10}(account|billing|payments|services|team)/i
 
@@ -425,7 +425,7 @@
 /christmas.{0,10}edeka/i
 
 # 15.01.26
-/Eidgenössische Steuerverwaltung/iu
+/eidgenössische steuerverwaltung/iu
 
 # 30.07.25 - Scam
 /eu.?finma/i
