@@ -77,7 +77,7 @@
 
 /(e.?bike|e.?cycle|elektrische|elektro|fahrrad|fahrräder).{1,15}aktion/iu
 /(e.?bike|e.?cycle|elektrische|elektro|fahrrad|fahrräder).{1,25}deutschem lager/iu
-/(e.?bike|e.?cycle|elektrische|elektro|fahrrad|fahrräder).{1,25}für handel/iu
+/(e.?bike|e.?cycle|elektrische|elektro|fahrrad|fahrräder).{1,25}für (handel|wiederverkäufer)/iu
 /(e.?bike|e.?cycle|elektrische|elektro|fahrrad|fahrräder).{1,15}(fabrik|tretunterstützung)/iu
 /(e.?bike|e.?cycle|elektrische|elektro|fahrrad|fahrräder).{1,15}vor(zu)?stellen/iu
 
@@ -97,6 +97,7 @@
 /gefragte.{1,10}mountain.?e?bike/i
 /sechsundzwanzig zoll/i
 /lager können wir aktuell ein/i
+/lieferung.{1,10}aus deutschem lager/i
 
 /suchen neue.{1,10}distributionspartner/i
 
