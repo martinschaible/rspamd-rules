@@ -396,6 +396,9 @@
 /(wallet alert|webmail update).{1,10}(action|update).{1,10}(needed|required)/i
 
 /warning.{1,10}your portfolio/i
+
+/we.{1,10}detected an issue with your.{1,20}(account|profile)/i
+
 /welcome back.{1,10}your attention/i
 
 # X
