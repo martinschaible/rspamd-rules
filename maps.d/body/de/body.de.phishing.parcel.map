@@ -42,6 +42,7 @@
 
 # E
 # ------------------------------------------------------------------------------
+/eine geringe bearbeitungsgebühr an/iu
 /es ist eine.{1,15}(einfuhrabgabe|zollgebühr) fällig/iu
 
 # F
@@ -68,6 +69,8 @@
 /information zum zollstatus ihrer sendung/i
 
 /ist eine bearbeitungsgebühr von.{1,15}erforderlich/i
+
+/internationale sendung ist eingetroffen/i
 
 # J
 # ------------------------------------------------------------------------------

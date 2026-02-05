@@ -39,6 +39,7 @@
 /bieten? (ich|wir).{1,20}(kurz|mittel|langfristige).{1,20}(darlehen|kredite?)/iu
 /bietet.{1,10}einzelpersonen.{1,10}unternehmen.{1,10}finanzielle/i
 /bietet.{1,10}individuelle.{1,10}kreditlösungen/iu
+/bietet.{1,10}strukturierte.{1,10}kreditlösungen/iu
 
 # C
 # ------------------------------------------------------------------------------
@@ -64,7 +65,7 @@
 # F
 # ------------------------------------------------------------------------------
 /finanzierung ohne.{1,10}grenzen/i
-/Finanzierungsmöglichkeit(en).{1,10}private/i
+/finanzierungsmöglichkeit(en).{1,10}private/i
 
 # G
 # ------------------------------------------------------------------------------
@@ -139,7 +140,7 @@
 /sie ein(en)?.{1,10}(darlehen|kredit) benötigen/iu
 /sie interesse an einer.{1,20}finanzierung/i
 
-/sie.{1,10}finanzielle.{1,10}unterstützung benötigen/iu
+/sie.{1,10}finanzielle.{1,10}(hilfe|unterstützung) (benötigen|brauchen)/iu
 
 /sie suchen nach einem.{1,10}(darlehen|kredit)/i
 
@@ -178,6 +179,8 @@
 
 # Z
 # ------------------------------------------------------------------------------
+/zeitnahe finanzierungshilfe/i
+
 /zinssatz von.{1,10}senden sie uns/i
 
 /zinsgünstige.{1,10}(darlehen|kredite?).{1,10}privatpersonen/iu

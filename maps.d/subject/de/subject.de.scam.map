@@ -194,7 +194,9 @@
 /ihre organisation wurde.{1,20}in unserem verzeichnis/i
 
 /(publikation|veröffentlichung).{1,10}unternehmenseintrag 202\d/iu
+
 /unternehmenseintrag.{1,10}(publikation|veröffentlichung) 202\d/i
+/unternehmer.{1,10}verzeichnis.{1,10}anzeige/i
 
 /willkommen auf unserem verzeichnis/i
 

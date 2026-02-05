@@ -87,6 +87,7 @@
 # ------------------------------------------------------------------------------
 /(package|parcel|shipment).{1,10}(awaiting|pending|ready).{1,10}(collection|delivery|processing|shipping)/i
 /(package|parcel|shipment).{1,10}awaits final confirmation/i
+/(package|parcel|shipment).{1,10}immediate action/i
 /(package|parcel|shipment).{1,10}on hold.{1,10}address confirmation/i
 /(package|parcel|shipment).{1,10}(re)?delivery reminder/i
 /(package|parcel|shipment).{1,10}requires address confirmation/i

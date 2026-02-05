@@ -419,7 +419,7 @@
 /candy.{0,10}(cure|fix)/i
 
 /carb.{0,10}(control|secrets?|tricks?)/i
-/cardiac.{0,10}(clock|health)/i
+/cardiac.{0,10}(clock|health|insights?)/i
 /cardio.{0,10}(boost|care|coach|health|insights|kitchen|wellness)/i
 /care.{0,10}secret/i
 /cartilage.{0,10}care/i
@@ -486,7 +486,7 @@
 
 # D
 # ------------------------------------------------------------------------------
-/daily.{0,10}(aches|burn|comfort|detox|energy|fatigue|gut|heart|metabolism|ritual|soup)/i
+/daily.{0,10}(aches|burn|comfort|detox|energy|fatigue|gut|heart|metabolism|ritual|skin|soup)/i
 /daily.{0,10}(wellness|wisdom)/i
 
 /dairy.{0,10}(recipe|ritual)/i
@@ -676,7 +676,7 @@
 
 /healing.{0,10}(massage|news|secret|technology)/i
 
-/hearing.{0,10}(habit|support)/i
+/hearing.{0,10}(habit|support|trouble)/i
 
 /heart.{0,10}(attack|boost|cells|check|danger|disease|health|helper)/i
 /heart.{0,10}(protection|rate|risk|saver|secret|shield|surgeon|wellness)/i

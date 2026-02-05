@@ -174,7 +174,7 @@
 # ------------------------------------------------------------------------------
 /final compliance.{1,10}alert/i
 
-/final (notice|reminder|warning).{1,10}account termination imminent/i
+/final (notice|reminder|warning).{1,10}account (information|termination)/i
 /final (notice|reminder|warning).{1,10}(confirm|refresh|verify) your/i
 /final (notice|reminder|warning).{1,10}do not miss/i
 /final (notice|reminder|warning).{1,10}enable.{1,20}2fa/i
@@ -363,6 +363,7 @@
 /update.{1,15}missing tax documentation/i
 
 /urgent.{1,10}action.{1,15}delivery/i
+/urgent.{1,10}account review required/i
 /urgent.{1,10}e.?mail.?confirmation/i
 /urgent.{1,10}(e.?mail|mailbox).{1,10}(action|update).{1,10}(needed|required)/i
 /urgent.{1,10}incoming pending.{1,10}(e?.?mails|messages)/i
