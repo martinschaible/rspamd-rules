@@ -80,7 +80,7 @@
 
 /amazon.{1,10}cocktail/i
 /ancient.{1,10}(drink|formula|herb|tea|tonic)/i
-/annoying ear buzzing/i
+/annoying.{1,10}ear (buzzing|noise)/i
 
 /anti.?aging.{1,15}(bottle|breakthrough|extract|unveiled)/i
 /anti.{1,10}inflammatory (food|recipe)/i
@@ -774,6 +774,7 @@
 /sec(ond)?.{1,10}rinse/i
 
 /seconds?.{1,10}relieve.{1,10}pain/i
+/seconds?.{1,10}that open/i
 
 /secret.{1,10}(eating|hair)/i
 /secret.{1,10}learn more/i
@@ -1030,7 +1031,8 @@
 /wants.{1,10}burn fat/i
 
 /warning.{1,10}harmful toxins/i
-/warning you.{1,10}stroke/i
+/warning.{1,10}this vitamin/i
+/warning.{1,10}you.{1,10}stroke/i
 
 /warning.{1,10}toxic ingredients/i
 
@@ -1047,7 +1049,7 @@
 /will end.{1,10}constipation/i
 
 /with.{1,10}(one|this).{1,10}(habit|hack|ritual|trick)/i
-/with.{1,10}simple.{1,10}drink/i
+/with.{1,10}simple.{1,10}(drink|press)/i
 
 /worse.{1,10}heres why/i
 

@@ -117,6 +117,9 @@
 /^from:/i
 /funding!/i
 /funding_/i
+/funding\>/i
+/\<funding/i
+
 /funds?!/i
 /funds\.\./i
 /funds_/i
