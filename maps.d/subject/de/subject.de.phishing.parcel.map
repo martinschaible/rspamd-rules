@@ -197,10 +197,12 @@
 /(lieferung|paket|sendung|versand|zustellung).{1,10}\.\.\.\]/i
 
 /(lieferung|paket|sendung|versand|zustellung).{1,10}(ausstehende|unbezahlte).{1,10}(versandkosten|zollgebühren)/iu
+/(lieferung|paket|sendung|versand|zustellung).{1,10}benachrichtigung.{1,10}überprüfung/iu
 /(lieferung|paket|sendung|versand|zustellung).{1,10}bereit.{1,30}bestätigen sie sofort/iu
 /(lieferung|paket|sendung|versand|zustellung).{1,10}bitte antworten/i
 /(lieferung|paket|sendung|versand|zustellung).{1,10}(benötigt|erfordert) eine.{1,15}bestätigung/iu
 /(lieferung|paket|sendung|versand|zustellung).{1,10}für sie zurückgehalten/iu
+/(lieferung|paket|sendung|versand|zustellung).{1,10}handlungsbedarf/i
 
 /(lieferung|paket|sendung|versand|zustellung).{1,10}ist angehalten/i
 /(lieferung|paket|sendung|versand|zustellung).{1,10}ist im.{1,10}bestimmungsland eingetroffen/i
