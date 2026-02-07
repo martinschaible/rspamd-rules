@@ -25,6 +25,7 @@
 /(important|urgent).{1,10}action required/i
 /(important|urgent).{1,10}(claim your|letter to you|message for you|you are)/i
 /(important|urgent).{1,10}(please|pls).{1,10}(reply|reply)/i
+/(important|urgent).{1,10}you get back to us/i
 
 /: (important|urgent) message/i
 
