@@ -110,12 +110,13 @@
 /healthy?.{0,10}(feet|fibes|files?|flush|foods?|freedom)/i
 /healthy?.{0,10}(gift|guides?|gut)/i
 /healthy?.{0,10}(habit|hack|hair|heart|heaven|hero)/i
-/healthy?.{0,10}(insider|insights?)/i
+/healthy?.{0,10}(insider|insights?|investigators?)/i
 /healthy?.{0,10}(liver|mornings?|mouth|now|power)/i
 /healthy?.{0,10}metabolism/i
 /healthy?.{0,10}research/i
 /healthy?.{0,10}(secret|skin|smile|spine|start)/i
 /healthy?.{0,10}(transformation|vibes|wire)/i
+/healthy?.{0,10}update/i
 
 /(american|daily|insider|intimate|mens|simple|womens).{0,10}health/i
 
@@ -360,6 +361,7 @@
 /bladder.{0,10}(boost|care|coach|control|danger|fix|flush|health|issues?)/i
 /bladder.{0,10}(leaks?|leakage|leaking|issues?)/i
 
+/bleeding.{0,10}gums/i
 /bloat(ing)?.{0,10}(free|fruits?|solution)/i
 
 /blocking.{0,10}teas?/i
@@ -787,6 +789,7 @@
 
 /med.?journal/i
 /(medical|medicinal|medication).{0,15}(alert|daily|discovery|findings?|patch(es)?|shock|unit)/i
+/medical.{0,10}watchdog/i
 
 /men.?s?.{0,10}(only|power|vitality|wellness)/i
 /mental.{0,10}clarity/i
@@ -1043,7 +1046,7 @@
 /special.{0,10}salt/i
 
 /spice.{0,10}doctor/i
-/spine.{0,10}reset/i
+/spine.{0,10}(report|reset)/i
 /spiky.{0,10}fruit/i
 
 /spine.{0,10}(alignment|hack|trick)/i
@@ -1129,6 +1132,7 @@
 
 /traditional hypertension medications/i
 /true.{0,10}story/i
+/trusted.{0,10}health/i
 /truth.{0,10}behind/i
 
 /try this/i

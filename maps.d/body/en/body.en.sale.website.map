@@ -70,6 +70,7 @@
 
 # N
 # ------------------------------------------------------------------------------
+/noticed.{1,10}issues on your website while browsing/i
 
 # O
 # ------------------------------------------------------------------------------
@@ -77,7 +78,7 @@
 /offering.{1,10}web.{1,10}mobile developers/i
 
 /our designers.{1,10}developers have/i
-/our services include.{1,15}web(site)?.?design/i
+/our services include.{1,15}(web)?.?site.?design/i
 
 # P
 # ------------------------------------------------------------------------------
@@ -96,7 +97,7 @@
 # S
 # ------------------------------------------------------------------------------
 /skilled.{1,10}web.?designer.{1,10}developer/i
-/specialized? in.{1,10}web.?site.{1,10}design/i
+/specialized? in.{1,10}(web)?.?site.{1,10}design/i
 
 # T
 # ------------------------------------------------------------------------------

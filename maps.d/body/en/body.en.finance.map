@@ -192,7 +192,7 @@
 # Y
 # ------------------------------------------------------------------------------
 /you.{1,10}have.{1,10}project.{1,10}requires funding/i
-/you.{1,10}have.{1,10}project.{1,10}in need.{1,10}financial/i
+/you.{1,10}have.{1,10}project.{1,10}(in|that) need.{1,10}(financial|funded)/i
 
 /you.{1,10}(pre)?qualified for our business/i
 /you.{1,10}(pre)?qualified for up to \{d3,6}/i
