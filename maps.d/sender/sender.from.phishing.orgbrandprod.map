@@ -533,7 +533,7 @@
 /lidl - /i
 /lidl_/i
 
-/lidl.{0,5}(einladung|exklusiv|markt|team|versand|vip)/i
+/lidl.{0,5}(einladung|exklusiv|kundenservice|markt|team|versand|vip)/i
 /lidl.{0,5}(deutschland|schweiz)/i
 
 /lieferung.{0,5}dhl/i
@@ -614,6 +614,8 @@
 
 # 05.02.25 - TOYOTA FINANCE CORPORATION
 /my ts cubic/i
+
+/mytokyogas/i
 
 # N
 # ------------------------------------------------------------------------------
@@ -895,7 +897,7 @@
 
 /tepco/i
 /tfbank.{0,10}service/i
-/tk.{0,10}kundenservice/i
+/tk.{0,10}(mitglieder|kundenservice)/i
 
 /touringclubsuisse/i
 

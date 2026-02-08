@@ -225,6 +225,8 @@
 /(dringend|wichtig).{1,10}ungewöhnliche aktivitäten/iu
 /(dringend|wichtig).{1,10}(verifizierung|zahlungsdetails)/i
 
+/(dringende?|letzte|wichtige?).{1,10}bestätigung.{1,10}rücküberweisung/iu
+
 /(dringende?|letzte|wichtige?).{1,10}mitteilung.{1,10}aktualisieren sie ihre/i
 /(dringende?|letzte|wichtige?).{1,10}mitteilung.{1,10}aktualisierung ihrer/i
 /(dringende?|letzte|wichtige?).{1,10}mitteilung.{1,10}domain abgelaufen/i
@@ -721,6 +723,8 @@
 
 #/wichtige?.{1,15}informationen/i
 /wichtige info(rmation)?.{1,10}zur lieferung.{1,20}zahlung/i
+
+/wichtige?.{1,15}info(rmation)?.{1,10}\d{10,20}/i
 
 /wichtige?.{1,15}info(rmation)?.{1,10}ihr online.?banking/i
 /wichtige?.{1,15}info(rmation)?.{1,10}ihre domain läuft bald ab/i

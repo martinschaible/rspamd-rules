@@ -26,7 +26,7 @@
 /memory.{0,10}master/i
 /memory.{0,10}notes/i
 /memory.{0,10}protection/i
-/memory.{0,10}(recovery|report|research|restore|revival|revive)/i
+/memory.{0,10}(recovery|report|research|restoration|restore|revival|revive)/i
 /memory.{0,10}(saver|saving|secret|solution|strengthener|support)/i
 /memory.{0,10}(tonic|toxin)/i
 /memory.{0,10}vitamins?/i
@@ -297,7 +297,7 @@
 
 /age.{0,10}(freezing|reversal|rewind)/i
 /aged.{0,10}spot/i
-/ageless.{0,10}(beauty|movement|look|project|secrets?|skin|treat)/i
+#/ageless.{0,10}(beauty|movement|look|project|secrets?|skin|treat)/i
 /aging.{0,10}(fruits?|reversed?|trigger)/i
 
 /aligend.{0,10}intimacy/i
@@ -330,7 +330,7 @@
 
 /(bad|evil).{0,10}(bacteria|foods?|fruits?)/i
 
-/balance.{0,10}(blood|booster|brain|clinic|project|reset|restored|science|your)/i
+/balance.{0,10}(blood|booster|brain|clinic|lab|project|reset|restored|science|your)/i
 /balanced.{0,10}breakfast/i
 /balanced.?(bp|glucose)/i
 /bald.{0,10}spot/i
@@ -381,7 +381,7 @@
 
 /bright.{0,10}smile/i
 
-/body.{0,10}(alignment|balance|confidence|toning|waves?)/i
+/body.{0,10}(alignment|balance|confidence|improvement|toning|waves?)/i
 /body.{0,10}(reboot|recharge|reset)/i
 /body.{0,10}(science|signals?)/i
 
@@ -681,7 +681,8 @@
 /hearing.{0,10}(habit|support|trouble)/i
 
 /heart.{0,10}(attack|boost|cells|check|danger|disease|health|helper)/i
-/heart.{0,10}(protection|rate|risk|saver|secret|shield|surgeon|wellness)/i
+/heart.{0,10}(protection|rate|risk|wellness)/i
+/heart.{0,10}(saver|secret|shield|science|surgeon)/i
 
 /helps?.{0,10}you/i
 
@@ -924,7 +925,7 @@
 /posture.{0,10}(check|fix|scan|update)/i
 /pounding.{0,10}pressure/i
 
-/power.{0,10}(boost|shape|start)/i
+/power.{0,10}(boost|shape|start|wash)/i
 /powerful.{0,10}(fat.?burner|fungus|juice)/i
 
 /prepare now/i
