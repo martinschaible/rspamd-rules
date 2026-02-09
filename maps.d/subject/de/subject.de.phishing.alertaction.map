@@ -509,6 +509,7 @@
 
 # O
 # ------------------------------------------------------------------------------
+/offene forderung.{1,10}rechnung.{1,20}konnte nicht/i
 
 # P
 # ------------------------------------------------------------------------------
@@ -545,6 +546,7 @@
 /sendungsstatus aktualisiert.{1,10}aktion erforderlich/i
 
 /service.?hinweis.{1,10}profildaten prüfen/iu
+/service.?nachricht.{1,10}ihre.{1,15}zahlung/i
 /service.?warnung.{1,10}zahlungsziel erreicht/i
 
 /sicherheit.{1,10}authentifizierung aktualisieren/i

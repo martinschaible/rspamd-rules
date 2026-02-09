@@ -22,6 +22,7 @@
 # ------------------------------------------------------------------------------
 /w.?8ben.{1,10}(documentation|form|records?|renewal|submission)/i
 /w.?8ben.{1,10}expiration.{1,15}renewal/i
+/w.?8ben.{1,10}expired.{1,10}must be renewed/i
 
 /(communication|compliance).{1,10}w.?8ben/i
 /(alert|expired|form|notice|renew|your).{1,10}w.?8ben/i

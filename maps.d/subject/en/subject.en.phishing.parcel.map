@@ -103,6 +103,7 @@
 
 # S
 # ------------------------------------------------------------------------------
+/shipping notification.{1,10}information needed/i
 /shipment notification.{1,10}ref.?id/i
 
 /shipping documents?.{1,10}for.{1,15}@/i
