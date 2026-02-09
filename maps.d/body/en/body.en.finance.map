@@ -28,7 +28,9 @@
 # A
 # ------------------------------------------------------------------------------
 /(any|upcoming) projects?.{1,10}(in need of|that require).{1,10}funding/i
-/apply for.{1,10}loan today/i
+
+/apply.{1,10}for{1,15}(easy|quick){1,15}processing/i
+/apply.{1,10}for.{1,10}loan today/i
 
 # B
 # ------------------------------------------------------------------------------

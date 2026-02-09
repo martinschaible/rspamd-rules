@@ -69,6 +69,8 @@
 /mail.?(admin|alert|helpdesk|server|update)/i
 /mail.?security.?team/i
 
+/mx.?support/i
+
 /roundcube.{0,5}(administration|server|support)/i
 
 /^server$/i
