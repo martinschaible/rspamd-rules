@@ -12,10 +12,13 @@
 # Just big numbers
 # ------------------------------------------------------------------------------
 #/\d{2,4}(\.|,)?\d{3,4}.{1,10}für sie/iu
+/\d{2,4}(\.|,)?\d{3,4}.{0,10}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,10}(an|für) sie/iu
 /\d{2,4}(\.|,)?\d{3,4}.{0,10}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,10}auf ihr.{1,15}konto/i
 /\d{2,4}(\.|,)?\d{3,4}.{0,10}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,15}antworten sie/i
 /\d{2,4}(\.|,)?\d{3,4}.{0,10}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,10}kontaktieren sie sie unter/i
 /\d{2,4}(\.|,)?\d{3,4}.{0,10}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,15}steht weiterhin zur verfügung/iu
+
+/\d{2,4}(\.|,)?\d{3,4}.{1,10}wurden an sie gespendet/i
 
 #
 #
@@ -109,13 +112,14 @@
 /spenden?.{1,10}ihnen die summe von.{1,10}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£)/i
 
 /spenden?.{1,15}\d{2,4}(\.|,)?\d{3,4}.{0,10}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,15}hunderttausend/i
+/spenden?.{1,10}(euro?|dollars?|gbp|usd|€|\$|£).{1,10}(an|für) sie/iu
 /spenden?.{1,10}in höhe von.{1,10}\d{2,4}(\.|,)?\d{3,4}.{1,10}(ausgezeichnet|getätigt)/iu
 
 /spenden?.{1,10}in höhe von.{1,20}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,25}(ausgewählt|die ihnen|wurde ihnen von)/iu
 /spenden?.{1,10}in höhe von.{1,20}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£)erfolgte durch die/iu
 /spenden?.{1,10}in höhe von.{1,20}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,25}million.{1,15}zu erhalten/i
 
-/spenden?.{1,10}in höhe von.{1,20}(millionen|tausend).{1,15}(euro?|dollars?|gbp|usd|€|\$|£).{1,10}an sie/i
+/spenden?.{1,10}in höhe von.{1,20}(millionen|tausend).{1,15}(euro?|dollars?|gbp|usd|€|\$|£).{1,10}(an|für) sie/iu
 
 /spendet ihnen.{1,10}\d{2,4}(\.|,)?\d{3,4}.{0,10}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£)/i
 /spendet ihnen.{1,10}millionen dollar/i

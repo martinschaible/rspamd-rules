@@ -544,7 +544,7 @@
 # ------------------------------------------------------------------------------
 /eagle.{0,10}vision/i
 
-/ear.{0,10}(health|mystery|reset)/i
+/ear.{0,10}(health|mystery|reset|science)/i
 
 /easy.{0,10}(breath(ing)?|digestive|wellness)/i
 /easy.{0,10}(slim|spine|stretch)/i
@@ -803,7 +803,7 @@
 
 /min.?stretch/i
 /mind.{0,10}(balance|barriers?|blow|button|body|boost)/i
-/mind.{0,10}(clarity|clear|health|mood|recovery|restore|science)/i
+/mind.{0,10}(clarity|clear|focus|health|mood|recovery|restore|science)/i
 
 /mineral.{0,10}(combination|magic)/i
 

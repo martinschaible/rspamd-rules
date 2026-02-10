@@ -163,7 +163,8 @@
 /bone knee pain/i
 
 /boost.{1,10}heart health/i
-/boost.{1,15}(brain|cellular|focus|health|metabolism|stamina|vitality)/i
+/boost.{1,15}(memory|metabolism)/i
+/boost.{1,15}(brain|cellular|focus|health|stamina|vitality)/i
 /boost.{1,10}recall.{1,15}minutes/i
 /boost your.{1,10}(iq|nerve)/i
 
@@ -575,6 +576,8 @@
 /massage restores/i
 
 /m\.?d\.? (discovers|leaks)/i
+
+/may block.{1,10}tinnitus/i
 
 /memory.?loss.{1,10}(comes from|discovery|unveiled)/i
 /memory.{1,10}in just/i
