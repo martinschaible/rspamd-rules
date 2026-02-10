@@ -115,7 +115,7 @@
 /healthy?.{0,10}metabolism/i
 /healthy?.{0,10}research/i
 /healthy?.{0,10}(secret|skin|smile|spine|start)/i
-/healthy?.{0,10}(transformation|vibes|wire)/i
+/healthy?.{0,10}(trainer|transformation|vibes|wire)/i
 /healthy?.{0,10}update/i
 
 /(american|daily|insider|intimate|mens|simple|womens).{0,10}health/i
@@ -1016,7 +1016,7 @@
 /side.{0,10}back/i
 /sight.{0,10}care/i
 /silence.{0,10}(buzz(ing)?|foundry|hack|pain|restored?)/i
-/silent.{0,10}danger/i
+/silent.{0,10}(danger|infection)/i
 
 /skin.{0,10}(alert|doctor|fix|restore|sculptor|secret|tightening)/i
 
@@ -1053,29 +1053,31 @@
 /spine.{0,10}(alignment|hack|trick)/i
 /spinal.{0,10}pain/i
 
-/strange.{0,10}(acid|berry)/i
-/stretch.{0,10}(length|solutions?)/i
-/stretch.{0,10}(helps|smart(er)?)/i
-/strong.{0,10}(legs|stream)/i
-
 /stay.{0,10}(asleep|hard|slim|trim)/i
 /steady.{0,10}steps/i
+
 /stiff.{0,10}(joints|painful)/i
 /stinky.{0,10}breath/i
 
 /stop the/i
 /stop.{0,10}(breating|brushing|flossing|pain)/i
 
+/strange.{0,10}(acid|berry)/i
 /strange.{0,10}(fix|fruit)/i
 
 /stream.{0,10}strong(er)?/i
 /stress.{0,10}(tension|weight)/i
-/stretch.{0,10}soothe/i
 
-/strong(er)?.{0,10}(bladder|heart|memory|urine)/i
-/stroke.{0,10}(indication|prevention|signal)/i
+/stretch.{0,10}(length|solutions?|soothe)/i
+/stretch.{0,10}(helps|smart(er)?)/i
 
-/strong(er)?.{0,10}(bones|hair|immunity|performance|smile)/i
+/stroke.{0,10}(indication|prevention|risk|signal)/i
+
+/strong(er)?.{0,10}(bladder|bones)/i
+/strong(er)?.{0,10}(hair|heart)/i
+/strong(er)?.{0,10}(immunity|performance|smile)/i
+/strong(er)?.{0,10}(memory|urine)/i
+/strong(er)?.{0,10}(legs|stream)/i
 
 /stuck.{0,10}poop/i
 

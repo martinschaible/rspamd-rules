@@ -45,6 +45,7 @@
 # ------------------------------------------------------------------------------
 /(doppelabbuchung|zahlung).{1,10}id:\d/i
 
+/doppelt erfolgter zahlung/i
 /doppelte abbuchung erkannt/i
 /doppelte.{1,10}berechnung rückerstattung/iu
 /doppelte.{1,10}zahlung.{1,10}rückerstattung beantragen/iu
@@ -156,6 +157,8 @@
 /(rück)?erstattungs.?anfrage.{1,10}online einreichen/iu
 /(rück)?erstattungs.?prozess(es)?.{1,10}\d{2,3}/i
 /(rück)?erstattungsbestätigung.{1,10}antrag genehmigt/i
+
+/rückzahlung bei doppelt/iu
 
 # S
 # ------------------------------------------------------------------------------
