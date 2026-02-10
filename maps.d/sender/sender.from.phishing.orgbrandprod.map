@@ -448,7 +448,7 @@
 
 # G
 # ------------------------------------------------------------------------------
-/galaxus.{0,10}(markt|team)/i
+/galaxus.{0,10}(angebote|markt|team)/i
 /galaxus.{0,10}kundenzufriedenheit/i
 
 /galaxus.?ag/i
@@ -560,7 +560,7 @@
 /media.?mart/i
 /mediamarkt.?!/i
 /mediamarkt.{0,5}customer/i
-/mediamarkt.{0,5}(gutschein|team)/i
+/mediamarkt.{0,5}(aktion(en)?|gutschein|team)/i
 
 /^mercedes$/i
 

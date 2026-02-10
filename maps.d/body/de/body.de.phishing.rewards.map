@@ -132,6 +132,7 @@
 
 # G
 # ------------------------------------------------------------------------------
+/gelegenheit anbieten.{1,10}erhalten sie eine/i
 /geringe gebühr von (chf|euro).{1,10}für den versand/iu
 
 # H
@@ -142,10 +143,10 @@
 /ihr.{1,10}geschenk.{1,10}eine brandneue/i
 /ihr.{1,15}kalender wartet auf sie/i
 
-/ihre?.{1,15}(belohnung|geschenk|gutschein|gewinn|preis).{1,10}innerhalb von.{1,10}stunden/i
-/ihre?.{1,15}(belohnung|geschenk|gutschein|gewinn|preis).{1,10}ist ein brandneues/i
-/ihre?.{1,15}(belohnung|geschenk|gutschein|gewinn|preis).{1,10}wurde bisher nicht eingelöst/iu
-/ihre?.{1,15}(belohnung|geschenk|gutschein|gewinn|preis).{1,10}zu sichern.{1,10}klicken sie auf den untenstehenden button/iu
+/ihre?.{1,15}(belohnung|geschenk|gutschein|gewinn|prämie|preis).{1,10}innerhalb von.{1,10}stunden/iu
+/ihre?.{1,15}(belohnung|geschenk|gutschein|gewinn|prämie|preis).{1,10}ist ein brandneues/iu
+/ihre?.{1,15}(belohnung|geschenk|gutschein|gewinn|prämie|preis).{1,10}wurde.{1,10.}nicht (bestätigt|eingelöst)/iu
+/ihre?.{1,15}(belohnung|geschenk|gutschein|gewinn|prämie|preis).{1,10}zu sichern.{1,10}klicken sie auf den untenstehenden button/iu
 
 /ihre.{1,10.}exklusive belohnung/i
 /ihre?.{1,15}prämie ist noch unbestätigt/iu
@@ -178,6 +179,8 @@
 # N
 # ------------------------------------------------------------------------------
 /nach.{1,10}stunden verfällt ihre chance/iu
+
+/nicht bestätigte.{1,10}(belohnung|geschenk|gutschein|gewinn|prämie|preis).{1,10}werden/iu
 
 /wenige stunden verbleiben.{1,15}(belohnung|geschenk|gutschein|gewinn|preis)/i
 
@@ -230,6 +233,7 @@
 
 /status.{1,10}neu.{1,10}versandbereit/i
 /status.{1,10}versandbereit.{1,10}enthält/iu
+/status.{1,10}vorübergehend reserviert/iu
 
 # T
 # ------------------------------------------------------------------------------

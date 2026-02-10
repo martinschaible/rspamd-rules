@@ -32,6 +32,7 @@
 /unternehmen nun in unserem.{1,10}(globalen|ultimativen).{1,30}verzeichnis/i
 
 /(aufnahme|eintragungsantrag).{1,15}(branchen.?(buch|führer)|firmen.?eintrag)/i
+/(aufnahme|eintragungsantrag).{1,15}für die veröffentlichung/iu
 
 /für die veröffentlichung.{1,10}im branchen.?(buch|führer)/iu
 
@@ -40,6 +41,8 @@
 
 /ihr unternehmen.{1,10}in unserem verzeichnis/i
 /jetzt erfolgreich in unserem globalen verzeichnis/i
+
+/veröffentlichung.{1,10}(branchen|firmen).?register/i
 
 # Cars
 # ------------------------------------------------------------------------------

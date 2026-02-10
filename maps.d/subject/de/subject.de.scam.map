@@ -186,7 +186,8 @@
 /(branchen.?buch|branchen.?führer|firmen.?eintrag).{1,20}(202\d|publikation|veröffentlichung)/iu
 /(branchen.?buch|branchen.?führer|firmen.?eintrag).{1,10}werbe.?(anzeige|annonce)/i
 
-/(annonce|anzeige).{1,10}branchen.?führer/i
+/(annonce|anzeige).{1,10}(branchen|firmen).?führer/i
+
 /eintrag im firmenverzeichnis/i
 /firmen.?eintrag.{1,10}werbeanzeige/i
 
