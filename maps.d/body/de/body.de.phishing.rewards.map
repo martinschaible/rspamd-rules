@@ -145,7 +145,7 @@
 
 /ihre?.{1,15}(belohnung|geschenk|gutschein|gewinn|prämie|preis).{1,10}innerhalb von.{1,10}stunden/iu
 /ihre?.{1,15}(belohnung|geschenk|gutschein|gewinn|prämie|preis).{1,10}ist ein brandneues/iu
-/ihre?.{1,15}(belohnung|geschenk|gutschein|gewinn|prämie|preis).{1,10}wurde.{1,10.}nicht (bestätigt|eingelöst)/iu
+/ihre?.{1,20}(belohnung|geschenk|gutschein|gewinn|prämie|preis).{1,10}wurde.{1,10.}nicht (bestätigt|eingelöst)/iu
 /ihre?.{1,15}(belohnung|geschenk|gutschein|gewinn|prämie|preis).{1,10}zu sichern.{1,10}klicken sie auf den untenstehenden button/iu
 
 /ihre.{1,10.}exklusive belohnung/i

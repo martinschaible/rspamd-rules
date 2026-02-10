@@ -191,6 +191,8 @@
 /sie.{1,10}haben.{1,15}(spende|zuschuss|zuwendung).{1,10}von.{1,15}(dollar|euro?|gbp|usd|€|\$|£)/i
 /sie.{1,10}haben.{1,15}(spende|zuschuss|zuwendung).{1,10}von.{1,15}millionen/i
 
+/sie.{1,15}teil dieser spendenaktion sein/i
+
 /sie.{1,10}zu den ausgewählten empfängern des.{1,15}zuschusses/i
 
 /sie (sind|waren) der empfänger einer.{1,15}spende/iu
