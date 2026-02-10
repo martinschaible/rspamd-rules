@@ -7,19 +7,14 @@
 
 # Big numbers
 # ------------------------------------------------------------------------------
-/\d{3}.{0,5}\d{3}.{1,10}wurden an sie gespendet/i
 /\d{3}.{0,5}\d{3}.{1,10}bitte kontaktieren sie/i
 
 /\d{3}.{0,5}\d{3}.{1,10}(millionen|tausend|dollar|euro?|gbp|usd).{1,10}anbietet.{1,20}informationen kontaktieren sie/i
-/\d{3}.{0,5}\d{3}.{1,10}(millionen|tausend|dollar|euro?|gbp|usd).{1,10}an sie zu spenden/i
-/\d{3}.{0,5}\d{3}.{1,10}(millionen|tausend|dollar|euro?|gbp|usd).{1,10}für sie/iu
 /\d{3}.{0,5}\d{3}.{1,10}(millionen|tausend|dollar|euro?|gbp|usd).{1,10}e?.?mail für details jetzt/iu
 
 /\d{3}.{0,5}\d{3}.{1,10}(millionen|tausend|dollar|euro?|gbp|usd).{1,15}weitere informationen kontaktieren sie/i
 /\d{3}.{0,5}\d{3}.{1,10}(millionen|tausend|dollar|euro?|gbp|usd).{1,10}wurde ihrer.{1,10}e?.?mail.?adresse/i
 /\d{3}.{0,5}\d{3}.{1,10}(millionen|tausend|dollar|euro?|gbp|usd).{1,10}wurden ihnen von/i
-
-/(millionen|tausend).{1,10}(dollar|euro?|gbp|usd).{1,10}an sie zu spenden/i
 
 /(millionen|tausend|dollar|euro?|gbp|usd).{1,10}ausgewählt.{1,10}kontaktieren sie mich/i
 /(millionen|tausend|dollar|euro?|gbp|usd).{1,10}gewährt.{1,10}antworten.{1,15}weitere details/iu
@@ -86,7 +81,6 @@
 
 # Donation
 # ------------------------------------------------------------------------------
-/spenden?.{1,10}\d{3}.{0,5}\d{3}.{1,10}an sie/i
 /spenden?.{1,10}anforderung.{1,10}wenden sie sich/i
 /spenden?.{1,10}anfordern.{1,10}kontaktieren Sie/i
 /spenden?.{1,20}ausgewählt.{1,10}antworten sie/i
