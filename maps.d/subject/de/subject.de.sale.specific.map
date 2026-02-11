@@ -103,6 +103,7 @@
 /(e.?bike|e.?cycle|elektro.?moped).{1,15}(abenteuer|angebot|in nur|innovation|komfort|motor)/i
 /(e.?bike|e.?cycle|elektro.?moped).{1,15}(power|reichweite|revolution|tagen|stärke|zukunft)/i
 
+/elektro.?(fahrrad|fahrrädern?|motorrad|moped|velo).{1,10}Angebot.{1,10}(b2b|handel|händler|wiederverkäufer)/i
 /elektro.?(fahrrad|fahrrädern?|motorrad|moped|velo).{1,10}(beste wahl|direkt|herstellerpreisen?)/i
 /elektro.?(fahrrad|fahrrädern?|motorrad|moped|velo).{1,10}(für europa|für nur|zukunft)/iu
 /elektro.?(fahrrad|fahrrädern?|motorrad|moped|velo).{1,10}(berge|modelle|stadt)/i
@@ -143,6 +144,9 @@
 /(direktversand|lieferung).{1,10}zoll/i
 /dropshipping optionen.{1,10}händler/iu
 
+/e.?(fahrzeuge|fahrzeuglinie|fahrzeugprogramm).{1,20}(fachhandel|kunden|wiederverkäufer)/iu
+/e.?(fahrzeuge|fahrzeuglinie|fahrzeugprogramm).{1,20}europäischen markt/iu
+
 /eu.?konform.{1,25}sofort verfügbar/iu
 /haben sie interesse an unseren/i
 /könnte eines unserer neuen/iu
@@ -150,6 +154,7 @@
 /sofort verfügbar.{1,10}versionen/iu
 /sofortlieferung innerhalb der/i
 /verkaufsschlager auf lager/i
+/versorgung.{1,10}deutsches lager/i
 /wir haben lager in/i
 
 #
