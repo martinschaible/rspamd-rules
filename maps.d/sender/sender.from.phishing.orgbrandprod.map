@@ -597,7 +597,8 @@
 #/^migros$/i
 #/migros.{0,10}(aktionen|markt|oral.?b)/i
 
-/migros.{0,10}(gewinn|markt|kundenservice|kommunikation|oral.?b)/i
+/migros.{0,10}(kundendienst|kundenservice)/i
+/migros.{0,10}(gewinn|markt|kommunikation|oral.?b)/i
 /(deine|dini).{0,10}migros/i
 
 /^migrol$/i
