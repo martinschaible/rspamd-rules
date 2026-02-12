@@ -78,7 +78,7 @@
 
 /(e.?bike|e.?cycle|elektrische|elektro|fahrrad|fahrräder).{1,15}aktion/iu
 /(e.?bike|e.?cycle|elektrische|elektro|fahrrad|fahrräder).{1,25}deutschem lager/iu
-/(e.?bike|e.?cycle|elektrische|elektro|fahrrad|fahrräder).{1,25}für (b2b|handel|händler|wiederverkäufer)/iu
+/(e.?bike|e.?cycle|elektrische|elektro|fahrrad|fahrräder).{1,25}für.{1,10}(b2b|handel|händler|wiederverkäufer)/iu
 /(e.?bike|e.?cycle|elektrische|elektro|fahrrad|fahrräder).{1,15}(fabrik|tretunterstützung)/iu
 /(e.?bike|e.?cycle|elektrische|elektro|fahrrad|fahrräder).{1,15}vor(zu)?stellen/iu
 
@@ -100,6 +100,7 @@
 /lager können wir aktuell ein/i
 /lieferung.{1,10}aus deutschem lager/i
 
+/schnell aus de lieferbar/i
 /suchen neue.{1,10}distributionspartner/i
 
 /unsere.{1,10}elektrofahrradmodelle/i

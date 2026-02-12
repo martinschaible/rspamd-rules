@@ -102,6 +102,7 @@
 /(e.?bike|e.?cycle|elektro.?moped).{1,10}für (alle|den|ihre|jedes?)/i
 /(e.?bike|e.?cycle|elektro.?moped).{1,15}(abenteuer|angebot|in nur|innovation|komfort|motor)/i
 /(e.?bike|e.?cycle|elektro.?moped).{1,15}(power|reichweite|revolution|tagen|stärke|zukunft)/i
+/(e.?bike|e.?cycle|elektro.?moped).{1,15}verfügbar/iu
 
 /elektro.?(fahrrad|fahrrädern?|motorrad|moped|velo).{1,10}Angebot.{1,10}(b2b|handel|händler|wiederverkäufer)/i
 /elektro.?(fahrrad|fahrrädern?|motorrad|moped|velo).{1,10}(beste wahl|direkt|herstellerpreisen?)/i
@@ -138,24 +139,32 @@
 /metro.{1,5}rider/i
 
 #
+/abwicklung ab de/i
 /aus deutschem lager/i
+/b2b.{1,10}zusammenarbeit/i
 /deutschen lager verfügbar/iu
 /(direkter versand|direkt(versand)?) aus (deutschland|europa)/i
 /(direktversand|lieferung).{1,10}zoll/i
-/dropshipping optionen.{1,10}händler/iu
+/dropshipping optionenvhändler/iu
 
 /e.?(fahrzeuge|fahrzeuglinie|fahrzeugprogramm).{1,20}(fachhandel|kunden|wiederverkäufer)/iu
 /e.?(fahrzeuge|fahrzeuglinie|fahrzeugprogramm).{1,20}europäischen markt/iu
-
+v
 /eu.?konform.{1,25}sofort verfügbar/iu
-/haben sie interesse an unseren/i
+/haben sie interesse an unseren/iv
+/händlerprogramm mit klaren konditionen/iu
+/katalog.{1,10}bedingungen erhalten/i
+/konditionen heute anfordern/i
 /könnte eines unserer neuen/iu
+
 /sind sie interessiert.{1,10}mehr über unsere/iu
 /sofort verfügbar.{1,10}versionen/iu
 /sofortlieferung innerhalb der/i
+/verfügbar für.{1,10}verkauf/iu
 /verkaufsschlager auf lager/i
 /versorgung.{1,10}deutsches lager/i
 /wir haben lager in/i
+/zusammenarbeit starten/i
 
 #
 /interesse an einer händlerpartnerschaft/iu
