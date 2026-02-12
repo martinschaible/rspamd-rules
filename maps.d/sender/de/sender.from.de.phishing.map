@@ -106,7 +106,7 @@
 # ------------------------------------------------------------------------------
 /ihr.{0,15}(geschenk|gewinn|vorteil)/i
 
-/ihre.{0,15}(bestellung|chance)/i
+/ihre.{0,15}(bestellung|chance|)/i
 /ihre?.{0,15}(paket|sendung)/i
 
 /import.{0,10}zoll/i
