@@ -48,8 +48,11 @@
 /nicht zum orgasmus/i
 
 # Meds
-/diskrete.{1,10}(potenzmittel|potenztabletten)/i
+/apotheke.{1,10}innerhalb.{1,10}stunden.{1,10}diskret/i
+
+/(diskrete|originale).{1,10}(potenzmittel|potenztabletten)/i
 /(pillen|tabletten?|tabs).{1,10}ohne rezept/i
+/potenzmittel aus der.{1,10}apotheke/i
 
 /(neutrale|unauffällige) verpackung.{1,10}schneller versand/iu
 /(bestellen|bestellung).{1,10}(neutrale|unauffällige) verpackung/iu
