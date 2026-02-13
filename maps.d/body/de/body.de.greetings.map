@@ -70,7 +70,7 @@
 #/guten (abend|morgen|tag).{1,10}e?.?mail/i
 /guten (abend|morgen|tag).{1,10}geliebt in christus/i
 /guten (abend|morgen|tag).{1,10}gute nachrichten/i
-/guten (abend|morgen|tag).{1,10}hier spricht/i
+/guten (abend|morgen|tag).{1,10}hier (ist|spricht)/i
 
 /guten (abend|morgen|tag).{1,10}ich bin.{1,10}(dr\.|frau|herr)/i
 /guten (abend|morgen|tag).{1,10}ich bin.{1,10}content.?verantwortlich/i
@@ -84,6 +84,7 @@
 /guten (abend|morgen|tag).{1,10}kontoinhaber/i
 /guten (abend|morgen|tag).{1,10}lieber?.{1,15}(kunde|kundin)/i
 /guten (abend|morgen|tag).{1,10}(madam|ms|sir)/i
+/guten (abend|morgen|tag).{5,35}meldet sich/i
 
 /guten (abend|morgen|tag).{1,10}mein.{1,15}herr/i
 /guten (abend|morgen|tag).{1,10}mein name ist.{5,35}ich bin ihre/i

@@ -82,6 +82,8 @@
 /(e.?bike|e.?cycle|elektrische|elektro|fahrrad|fahrräder).{1,15}(fabrik|tretunterstützung)/iu
 /(e.?bike|e.?cycle|elektrische|elektro|fahrrad|fahrräder).{1,15}vor(zu)?stellen/iu
 
+/eu.{1,5}konforme.{1,10}(e.?bike|e.?cycle|elektrische|elektro|fahrrad|fahrräder)/iu
+
 /elektro.?räder.{1,10}produzieren/i
 
 /(moped.?style|retro.?cruiser).{1,10}e.?bike/i
@@ -94,6 +96,8 @@
 
 /fat.?tire.{1,10}e.?bike.{1,10}leistungsstark/i
 /fat.?tire.{1,10}elektrorad/i
+
+/de.{1,5}lagerbestand/i
 
 /gefragte.{1,10}mountain.?e?bike/i
 /sechsundzwanzig zoll/i
