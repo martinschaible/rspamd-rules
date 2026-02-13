@@ -122,10 +122,12 @@
 /products?.{1,10}(inquiry|pricing).{1,10}shipping/i
 /products?.{1,10}order.{1,10}export capabilities/i
 /products?.{1,10}purchase order contract/i
-/products?.{1,10}(sourcing|supply) inquiry/i
+/products?.{1,10}(sourcing|supply).{1,10}inquiry/i
 /products?.{1,10}tender supply/i
 
 /projects?.?inq no/i
+
+/purchase inquiry.{1,15}group/i
 
 /purchase order.{1,10}p\.o\./i
 /purchase order.{1,5}po/i

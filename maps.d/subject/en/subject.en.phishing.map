@@ -23,13 +23,17 @@
 /w.?8ben.{1,10}(documentation|form|records?|renewal|submission)/i
 /w.?8ben.{1,10}expiration.{1,15}renewal/i
 /w.?8ben.{1,10}expired.{1,10}must be renewed/i
+/w.?8ben.{1,10}has expired/i
+/w.?8ben.{1,10}no longer valid/i
 
 /(communication|compliance).{1,10}w.?8ben/i
 /(alert|expired|form|notice|renew|your).{1,10}w.?8ben/i
 
 /irs.{1,10}requirement/i
 
-/account documentation compliance reminder/i
+/account.{1,10}documentation compliance.{1,10}reminder/i
+/account.{1,10}tax documentation.{1,10}status/i
+
 /document review.{1,10}action notice/i
 /official compliance advisory/i
 /tax status.{1,10}update notification/i

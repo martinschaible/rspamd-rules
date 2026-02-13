@@ -17,7 +17,7 @@
 
 /translate\.google\.com\/translate\?/i
 
-# Google aDS as a forwarder
+# Google ADS as a forwarder
 # ------------------------------------------------------------------------------
 /\.googleads\.g\.doubleclick\.net\/pcs\/click/i
 
@@ -32,7 +32,6 @@
 # No SSL
 /http:\/\/google\.com/i
 
-#
 # Google API
 # ------------------------------------------------------------------------------
 
@@ -40,7 +39,9 @@
 # The amount of spam sent over this website is too much 
 /storage\.googleapis\.com/i
 
-#
+# Google Docs - Drawings
+/docs\.google\.com\/drawings\/d\//i
+
 # Google Sites
 # ------------------------------------------------------------------------------
 /sites\.google\.com/i

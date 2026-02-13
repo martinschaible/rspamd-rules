@@ -602,6 +602,8 @@
 /sicherheits.?(funktionen|option|upgrade).{1,10}für ihr.{1,15}konto (aktivieren|aktualisieren)/i
 /sicherheits.?(funktionen|option|upgrade).{1,10}jetzt (aktivieren|aktualisieren)/i
 
+/systemmeldung.{1,10}neue nachricht/i
+
 /(systemaktualisierung|sicherheitssystem|systemmeldung|systemmitteilung).{1,10}jetzt (aktualisieren|sofort handeln)/i
 /(systemaktualisierung|sicherheitssystem|systemmeldung|systemmitteilung).{1,10}letzter schritt/i
 /(systemaktualisierung|sicherheitssystem|systemmeldung|systemmitteilung).{1,10}umgehend durchführen/iu
@@ -741,7 +743,8 @@
 /wichtige?.{1,15}info(rmation)?.{1,10}verdächtige aktivität/iu
 /wichtige?.{1,15}info(rmation)?.{1,10}zahlung von/i
 /wichtige?.{1,15}info(rmation)?.{1,10}zu ihrem.{1,10}(eintrag|kundenportal)/i
-/wichtige?.{1,15}info(rmation)?.{1,10}zu (ihrem|ihrer).{1,10}(paket|sendung)/i
+/wichtige?.{1,15}info(rmation)?.{1,10}zu.{1,10}(ihrem|ihrer).{1,10}(paket|sendung)/i
+/wichtige?.{1,15}info(rmation)?.{1,10}zur?.{1,10}sendung.{1,20}adresse unvollständig/iu
 
 /wichtige?.{1,15}kontofunktion(en)?/i
 /wichtige?.{1,10}kontoverifizierung erforderlich/i

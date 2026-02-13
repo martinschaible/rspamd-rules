@@ -195,6 +195,7 @@
 
 /(dhl|dpd|fedex|gls|ups).{0,5}express (germany|schweiz)/i
 
+/gls.?paket$/i
 
 /(deutschland|germany|schweiz).{0,5}(dhl|dpd|fedex|gls|ups)/i
 /(center|europa|express|group|notification|on.?demand|support).{0,5}(dhl|dpd|fedex|gls|ups)/i
@@ -388,6 +389,7 @@
 /disney.{0,10}support/i
 /llc.{0,10}disney/i
 
+/_dkb/i
 /dkb-ag/i
 /dkb\.de/i
 /dkb.{0,5}communications/i
