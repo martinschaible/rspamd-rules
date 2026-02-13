@@ -122,7 +122,9 @@
 # ------------------------------------------------------------------------------
 /karten.{0,10}(service|support|team)/i
 
-/konto.{0,10}(informationsdienst|team|updates?)/i
+# Microsoft uses "konto-team"!
+#/konto.{0,10}(informationsdienst|team|updates?)/i
+/konto.{0,10}(informationsdienst|updates?)/i
 /konto.?id/i
 
 /krankenkassen?.{0,10}team/i
