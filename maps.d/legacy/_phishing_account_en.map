@@ -70,21 +70,6 @@
 /verify.{1,10}your contact information/i
 /verify.{1,10}your.{1,15}account.{1,10}ensure/i
 
-# Account - Account & User options
-# ------------------------------------------------------------------------------
-
-# Account - 2FA Activation
-# ------------------------------------------------------------------------------
-/(activate|enable) 2fa.{1,10}click the button below/i
-/(activate|enable) two.?factor.?authentication.{1,10}immediately/i
-
-/click the button.{1,10}to activate 2fa/i
-/protection to your account.{1,10}click.{1,10}to get started/i
-/secure your account with 2fa/i
-
-# Account - Payment options
-# ------------------------------------------------------------------------------
-
 #
 #
 #
