@@ -13,9 +13,6 @@
 # Topics
 # ==============================================================================
 
-# 2FA
-# ------------------------------------------------------------------------------
-
 #
 #
 #
@@ -31,6 +28,7 @@
 /aktualisierung ihres.{1,10}(kontos?|profils?).{1,10}update/i
 
 /anderes gerät ist mit ihrem.{1,15}konto/iu
+/anfrage.{1,10}ungewöhnlichen?.{1,10}aktivitäten/iu
 
 /anmeldung bei deinem metamask/i
 

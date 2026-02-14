@@ -200,7 +200,7 @@
 
 # Weightloss
 # ------------------------------------------------------------------------------
-/(fat|weight).{0,10}(blocking|fast|fix|flush|gain|goals|lock|loss|vanish)/i
+/(fat|weight).{0,10}(blocking|fast|fix|flush|gain|goals|journey|lock|loss|vanish)/i
 /(fat|weight).{0,10}(banish|burn(er)?|burning|eraser|drop(er)?)/i
 /(fat|weight).{0,10}(metabolism|melting)/i
 /(fat|weight).{0,10}reset/i
@@ -453,6 +453,7 @@
 /cleansing.{0,10}(fruit|pads)/i
 
 /clear.{0,10}(arteries|breathing|complexion|eyes|(toe)?nails|skin)/i
+/clear.{0,10}lungs/i
 
 /click(ing)?.{0,10}(free|noise|sounds?)/i
 /clinically.{0,10}proven/i
@@ -655,7 +656,9 @@
 
 /gut.{0,10}(balance|check|cleanse|fix|flush|freedom)/i
 /gut.{0,10}(health|insider|quiz)/i
-/gut.{0,10}(reboot|repair|reset|rituals?|solution|tip|trick)/i
+/gut.{0,10}(reboot|repair|reset|rituals?)/i
+/gut.{0,10}(solution|support|symptoms?)/i
+/gut.{0,10}(tip|trick)/i
 
 # H
 # ------------------------------------------------------------------------------
