@@ -83,6 +83,7 @@
 
 /(loan|credit)s?.{1,10}apply/i
 /(loan|credit)s?.{1,15}business with low interest/i
+/(loan|credit)s?.{1,10}finance.{1,10}project/i
 /(loan|credit)s?.{1,10}for your.{1,10}(business|personal)/i
 /(loan|credit)s?.{1,10}small.{1,10}medium business(es)/i
 /(loan|credit)s?.{1,10}offer.{1,10}interest rate/i
@@ -198,6 +199,8 @@
 
 /you.{1,10}(pre)?qualified for our business/i
 /you.{1,10}(pre)?qualified for up to \{d3,6}/i
+
+/you need.{1,10}loan/i
 
 /you need.{1,15}(business|personal).{1,10}loan/i
 /you need.{1,10}(reputable|urgent).{1,10}loan/i

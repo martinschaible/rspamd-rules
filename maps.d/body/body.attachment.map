@@ -170,7 +170,7 @@
 
 # Documents
 # ------------------------------------------------------------------------------
-/(document|preview|scan).{0,20}\.(7z|gz|html?)/i
+/(document|email|preview|scan).{0,20}\.(7z|gz|html?)/i
 /doc\d.{0,20}\.(7z|gz|html?)/i
 
 /contract\.docx?/i
