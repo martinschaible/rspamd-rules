@@ -195,6 +195,9 @@
 # ------------------------------------------------------------------------------
 /letzter schritt.{1,10}aktivieren des.{1,10}zugriffs/i
 
+# Sample: Letztes Update: 16.02.2025
+/letztes update.{1,10}\d{2}\.\d{2}\.\d{4}$/i
+
 /lastschriftmandat jetzt bestätigen/iu
 
 /login im kundenportal.{1,10}empfohlen/i
