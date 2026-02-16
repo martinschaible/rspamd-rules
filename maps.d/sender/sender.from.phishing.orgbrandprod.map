@@ -344,7 +344,7 @@
 
 /confirmation.{0,10}temu/i
 
-/consorsbank.{0,10}kundenservice/i
+/consorsbank.{0,10}(informations|kunden)?service/i
 
 /\.(ch|de) cpanel/i
 /^cpanel$/i
@@ -502,7 +502,7 @@
 /international.{0,10}investigation/i
 /investigation.{0,10}department/i
 
-/ihre?.?migros/i
+/ihre?.{0,5}(migros|spotify)/i
 /ihre volksbank eg/i
 
 /i0n0s/i

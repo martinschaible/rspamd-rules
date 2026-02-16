@@ -203,7 +203,7 @@
 /(fat|weight).{0,10}(blocking|fast|fix|flush|gain|goals|journey|lock|loss|vanish)/i
 /(fat|weight).{0,10}(banish|burn(er)?|burning|eraser|drop(er)?)/i
 /(fat|weight).{0,10}(metabolism|melting)/i
-/(fat|weight).{0,10}reset/i
+/(fat|weight).{0,10}(read this|reset)/i
 /(fat|weight).{0,10}solution/i
 
 /weight.{0,10}journey/i
@@ -257,6 +257,7 @@
 
 /(amazonian|japanese|mayan|taiwan).{0,10}(diet|drink|fix|formula|hack|miracle|protocol|remedies|ritual|secret|seeds?|solution|tea|trick)/i
 /(ancient|crazy|dairy).{0,10}(amazonian|chocolate|healing|serum)/i
+/(ancient|crazy|dairy).{0,10}(biblical|boost)/i
 
 /(exotic|forgotten|medical|miracle|natural|new|science|scientists?).{0,10}(breakthrough|drink|discovery|herb|secrets?)/i
 
@@ -856,7 +857,8 @@
 /neck.{0,10}(sagging|skin)/i
 /nectar.{0,10}fix/i
 
-/nerves?.{0,10}(comfort|damage|defense|health|killing|pain|quiz|support|tip)/i
+/nerves?.{0,10}(damage|defense|health|killing|pain|quiz|support|tip)/i
+/nerves?.{0,10}(care|comfort)/i
 /nerves?.{0,10}(recovery|repair|revival)/i
 
 /(neural|neuro).{0,10}(boost|detox|fix|healing|report)/i

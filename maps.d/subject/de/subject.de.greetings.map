@@ -57,6 +57,8 @@
 /gruß.{1,10}liebling/i
 
 /^grüße$/i
+/(grüsse|grüße).?:/i
+
 /(grüsse|grüße).{1,10}(an sie|liebling|meine liebe)/i
 /(grüsse|grüße).{1,10}(dich|sie).{1,10}ich bin/i
 /(grüsse|grüße).{1,10}(dich|sie).{1,10}im namen des herrn/iu
