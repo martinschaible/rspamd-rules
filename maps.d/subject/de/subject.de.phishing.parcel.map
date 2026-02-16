@@ -226,6 +226,7 @@
 /(lieferung|paket|sendung|versand|zustellung).{1,10}(zollabfertigung|zollabwicklung).{1,20}erforderlich/iu
 /(lieferung|paket|sendung|versand|zustellung).{1,10}zurück ins lager schicken/iu
 /(lieferung|paket|sendung|versand|zustellung).{1,10}zustellversuch fehlgeschlagen/i
+/(lieferung|paket|sendung|versand|zustellung).{1,10}zuzustellen.{1,10}\d{5,20}/i
 
 /lieferstatusinformationen id.?\d{3,10}/i
 
@@ -395,6 +396,7 @@
 
 /wir haben eine? nicht zugestelltes?.{1,10}(paket|sendung)/i
 /wir haben ihre?.{1,10}(paket|sendung).{1,10}bereit/i
+/wir haben versucht.{1,10}ihnen am \d{1,2}\.\d{1,2}\.\d{2,4} um/i
 
 /wird bearbeitet/i
 /wird hiermit zugestellt/i
