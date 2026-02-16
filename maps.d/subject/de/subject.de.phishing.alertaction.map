@@ -19,6 +19,10 @@
 # Generic
 # ==============================================================================
 
+# Numbers
+# ------------------------------------------------------------------------------
+/\d{1,2}\.\d{1,2}\.\d{4}.{1,5}aktualisiere/i
+
 # A
 # ------------------------------------------------------------------------------
 /abgabejahr.{1,20}zahlungsstatus überprüfen/iu
@@ -88,13 +92,14 @@
 
 /aktuelle aktualisierung/i
 
-/aktualisierung.{1,10}ihrer.{1,10}(kontakt|zahlungs).?informationen/i
+/aktualisiere.{1,10}deine persönlichen daten/iu
 
 /aktualisierung.{1,20}bankanwendung/i
 
 /aktualisierung.{1,20}(erforderlich|notwendig).{1,10}konto/i
 /aktualisierung.{1,20}(erforderlich|notwendig).{1,15}sichern sie ihr.{1,15}konto/i
 
+/aktualisierung.{1,10}ihrer.{1,10}(kontakt|zahlungs).?informationen/i
 /aktualisierung.{1,10}informationen.{1,25}(sicherheit|erhöhung)/i
 /aktualisierung.{1,10}kontozugriffs?/i
 /aktualisierung.{1,20}kontodaten (erforderlich|notwendig)/i
@@ -185,6 +190,7 @@
 /bestätigung.{1,10}ihrer.{1,10}telefonnummer erforderlich/iu
 
 /betreff.{1,5}(achtung|wichtige information)/i
+/betreff.{1,5}wichtiges software.?update/i
 
 /bitte beachten.{1,10}handlungsbedarf/i
 /bitte beachten sie.{1,10}ihre.{1,20}muss/i
@@ -636,6 +642,8 @@
 
 # T
 # ------------------------------------------------------------------------------
+/telefonnummer.{1,10}bestätigung erforderlich/iu
+
 /transaktion.{1,10}aktion erforderlich/i
 
 # U
