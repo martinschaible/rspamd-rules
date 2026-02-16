@@ -11,12 +11,17 @@
 /action urgente.{1,10}finalisez/i
 /(attention|examen) requise? no\b/i
 
-/Cette offre.{1,10}durée limitée expire dans/iu
+/cette offre.{1,10}durée limitée expire dans/iu
+
+/colis.{1,10}a été retourné/iu
 /colis.{1,10}pas pu être livré/iu
+
 /nécessaire \d{4,8}/iu
 /nous avons un colis non livré/iu
 /problème de livraison.{1,10}votre réponse est requise/iu
-/votre coli.{1,10}est en cours de livraison/i
+
+/votre colis.{1,10}\d{5,20}/i
+/votre colis.{1,10}est en cours de livraison/i
 
 #
 #
