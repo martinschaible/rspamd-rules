@@ -163,9 +163,9 @@ body
   │   ├─ body.de.sale.website.map                ─┘
   │   │
   │   ├─ body.de.scam.map                        ─┐
+  │   ├─ body.de.scam.beneficiary-choosen.map   x │
   │   ├─ body.de.scam.business.map                │
   │   ├─ body.de.scam.bignumbers.map              │
-  │   ├─ body.de.scam.choosen.map               x │
   │   ├─ body.de.scam.donation.map                │
   │   ├─ body.de.scam.funds.map                   ├─ multimap.body.de.scam.conf
   │   ├─ body.de.scam.investment.map              │
