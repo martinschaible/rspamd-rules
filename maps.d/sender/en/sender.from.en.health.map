@@ -385,7 +385,7 @@
 
 /body.{0,10}(alignment|balance|confidence|improvement|toning|waves?)/i
 /body.{0,10}(reboot|recharge|reset)/i
-/body.{0,10}(science|signals?)/i
+/body.{0,10}(science|secret|signals?)/i
 
 /\bboner$/i
 /boner.{0,10}(brew|pills?)/i
@@ -1225,7 +1225,8 @@
 /your.{1,10}(waist|wellness)/i
 
 /youth.{0,10}(hack|restored)/i
-/youthful.{0,10}(boost|glow|longevity|strength|water|you)/i
+/youthful.{0,10}(boost|glow|strength|water|you)/i
+/youthful.{0,10}(longevity|look)/i
 
 # Z
 # ------------------------------------------------------------------------------

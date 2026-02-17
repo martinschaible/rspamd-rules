@@ -393,10 +393,12 @@
 /llc.{0,10}disney/i
 
 /_dkb/i
-/dkb-ag/i
+/dkb.?ag/i
 /dkb\.de/i
 /dkb.{0,5}communications/i
 /dkb.{0,5}(kundenbetreuung|kundenservice|team)/i
+
+/info.{0,10}dkb/i
 
 /d k b.{0,5}ag/i
 
@@ -677,6 +679,8 @@
 /open.?ai.{0,5}llc/i
 /open.?ai.{0,5}(account|billing|services?|subscriptions?|team|upgrade)/i
 /open.?ai.{0,5}(mitgliederverwaltung|zahlung(en)?)/i
+
+/kundendienst.{0,10}open.?ai/i
 
 /oral.?b/i
 
