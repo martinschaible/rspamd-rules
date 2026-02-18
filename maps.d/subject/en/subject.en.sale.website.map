@@ -125,7 +125,8 @@
 # P
 # ------------------------------------------------------------------------------
 /potential with our.{1,10}expertise/i
-/proposal.{1,10}(design|develop)/i
+
+/proposal.{1,10}(design|develop|re.?built)/i
 
 /(php|shopify|wordpress).{1,15}experts at/i
 

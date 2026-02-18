@@ -121,8 +121,9 @@
 /we are.{1,20}web.?design.{1,15}(company|development)/i
 /we are.{1,20}professional.{1,10}(web)?.?sites?/i 
 
-/we.{1,10}(build|create|design|develop|make|specialize).{1,10}(building|develop|responsive).{1,10}(web)?.?sites?/i 
-/we.{1,10}(build|create|design|develop|make|specialize).{1,10}(new|your).{1,10}(web)?.?site/i
+/we.{1,10}(build|create|design|develop|make|specialize).{1,20}(building|develop|responsive).{1,10}(web)?.?sites?/i 
+/we.{1,10}(build|create|design|develop|make|specialize).{1,20}(high.?performance|modern).{1,20}(web)?.?site/i
+/we.{1,10}(build|create|design|develop|make|specialize).{1,20}(new|your).{1,10}(web)?.?site/i
 /we.{1,10}(build|create|design|develop|make|specialize).{1,15}re.?design/i
 
 /(i|we).{1,10}offer.{1,10}expert.{1,10}(web)?.?site/i
@@ -142,8 +143,8 @@
 # Y
 # ------------------------------------------------------------------------------
 /you.{1,10}(interested|looking|considering).{1,10}(for|in).{1,10}(web)?.?site/i
-/you.{1,10}(looking|need|want).{1,15}(create|make)?.{1,15}(business|new)?.{1,10}(web)?.?site/i
-/you.{1,10}(looking|need|want).{1,15}(new|quality).{1,15}(web)?.?site/i
+/you.{1,10}(looking|need|planning|want).{1,15}(create|make)?.{1,15}(business|new)?.{1,10}(web)?.?site/i
+/you.{1,10}(looking|need|planning|want).{1,15}(new|quality).{1,15}(web)?.?site/i
 
 /your.{1,10}attention.{1,15}concerning issues regarding your.{1,25}(web)?.?site/i
 /your.{1,10}(web)?.?site.{1,15}at an affordable price/i
