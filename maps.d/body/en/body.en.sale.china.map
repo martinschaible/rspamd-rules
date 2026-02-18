@@ -122,6 +122,7 @@
 
 /manufacturing.{1,10}exporting.{1,10}(custom|shirts|tracksuits)/i
 /manufacturing.{1,10}one.?stop.{1,10}(pcba?|printed.?circuit.?board)/i
+/manufacturing.{1,10}partner trusted.{1,10}industry/i
 
 /mold parts.{1,10}located in shenzhen/i
 
@@ -260,6 +261,7 @@
 /we.{1,10}specialize.{1,20}(printing|producing|supplying)/i
 /we.{1,10}specialize.{1,10}(eu|us).{1,10}designs/i
 /We.{1,10}specialize.{1,10}high.?quality/i
+/we.{1,10}specialize.{1,10}providing high.?quality/i
 
 /we.{1,10}specialize.{1,10}providing.{1,15}(premium|pricing|reasonable)/i
 

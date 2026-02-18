@@ -121,8 +121,9 @@
 
 /(exklusive?|rituals).{1,10}mystery.?box/i
 
-/exklusive belohnung(en)?.{1,10}(erhalten|freuen)/i
-/exklusive rabattkarte zu aktivieren/i
+/exklusive.{1,10}belohnung(en)?.{1,10}(erhalten|freuen)/i
+/exklusive.{1,10}probierbox/i
+/exklusive.{1,10}rabattkarte.{1,10}aktivieren/i
 
 /exklusives dankeschön/iu
 
@@ -134,6 +135,8 @@
 # ------------------------------------------------------------------------------
 /gelegenheit anbieten.{1,10}erhalten sie eine/i
 /geringe gebühr von (chf|euro).{1,10}für den versand/iu
+
+/gratis.{1,10}genuss.?box/i
 
 # H
 # ------------------------------------------------------------------------------
