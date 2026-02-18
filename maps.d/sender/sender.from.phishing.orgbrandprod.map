@@ -80,6 +80,7 @@
 # SwissPass Newsletter
 # Spotify
 # Support - Hetzner Online GmbH
+# TARGOBANK Online-Postfach
 # Telekom Deutschland GmbH
 # UBS Switzerland AG
 # Viseca
@@ -195,6 +196,8 @@
 /dpd.{0,5}(deutschland|germany)/i
 
 /(dhl|dpd|fedex|gls|ups).{0,5}express (germany|schweiz)/i
+
+/dh.?express/i
 
 /gls.?paket$/i
 

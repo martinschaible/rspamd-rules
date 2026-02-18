@@ -47,6 +47,7 @@
 /(boost|energy).{1,15}manage weight/i
 /calories.{1,10}belly fat/i
 
+/deflates?.{1,10}belly/i
 /diet.{1,10}doctor says/i
 /(dissolves?|evacuates?).{1,10}(fat|flab|lbs|pounds|weight)/i
 /drink.{1,10}shed.{1,10}(inches|lbs|pounds|weight)/i
@@ -64,6 +65,7 @@
 
 /helps.{1,10}(burn|drop|erase|lose|melt|remove|shed).{1,10}(fat|weight)/i
 
+/inches.{1,10}your waistline/i
 /into.{1,10}(fat|weight).?burner/i
 
 /may aid.{1,10}weight.?loss/i

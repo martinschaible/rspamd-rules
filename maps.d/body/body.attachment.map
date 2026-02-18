@@ -16,7 +16,7 @@
 #/inv(oice)?.?\d{0,10}\.((?!pdf$)[^.]*)/i
 #/(receipt|winner).?\d{0,10}\.((?!pdf$)[^.]*)/i
 
-/(advice|arrival|bookings?|business year).{0,25}\.(7z|docx|gz|html|rar|tar|tgz|xla|xls|zip)/i
+/(account|advice|arrival|bookings?|business year).{0,25}\.(7z|docx|gz|html|rar|tar|tgz|xla|xls|zip)/i
 /drawing.{0,25}\.(7z|docx|gz|html|rar|tar|tgz|xla|xls|zip)/i
 /(enquiry|fatura).{0,25}\.(7z|docx|gz|html|rar|tar|tgz|xla|xls|zip)/i
 /(inquiry|invoice).{0,25}\.(7z|docx|gz|html|rar|tar|tgz|xla|xls|zip)/i
@@ -26,7 +26,7 @@
 /(receipt|request).{0,25}\.(7z|docx|gz|html|rar|tar|tgz|xla|xls|zip)/i
 /rechnung.{0,25}\.(7z|docx|gz|html|rar|tar|tgz|xla|xls|zip)/i
 /(shipping|specifications?|swift).{0,25}\.(7z|docx|gz|html|rar|tar|tgz|xla|xls|zip)/i
-/urgent?.{0,25}\.(7z|docx|gz|html|rar|tar|tgz|xla|xls|zip)/i
+/(update|urgent).{0,25}\.(7z|docx|gz|html|rar|tar|tgz|xla|xls|zip)/i
 /zahlungsnachweis.{0,25}\.(7z|docx|gz|html|rar|tar|tgz|xla|xls|zip)/i
 
 /new.?order.{0,25}\.(7z|docx|gz|html|rar|tar|tgz|xla|xls|zip)/i

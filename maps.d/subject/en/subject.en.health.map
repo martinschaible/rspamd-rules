@@ -880,9 +880,11 @@
 /stops?.{1,10}(eating|taking|using) (these|this)/i
 /stops?.{1,10}(these|this).{1,10}(hidden|morning)/i
 
-/stopped.{1,10}(knee|ringing)/i
 /stops?.{1,10}memory loss/i
+/stops?.{1,10}nerve pain/i
 /stops?.{1,10}protein/i
+
+/stopped.{1,10}(knee|ringing)/i
 
 /strange.{1,15}(acid|boosts|tea)/i
 /stretch that (eliminates|restores|stops|works)/i

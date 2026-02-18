@@ -53,9 +53,10 @@
 
 /ihre sichtbarkeit.{1,10}google/i
 
-/ihre web.?site.{1,10}bestimmte keywords/i
-/ihre web.?site.{1,15}ersten seite von/i
-/ihrer? web.?site auf einige probleme/i
+/ihrer? web.?site.{1,15}auf einige probleme/i
+/ihrer? web.?site.{1,10}bei Google/i
+/ihrer? web.?site.{1,10}bestimmte keywords/i
+/ihrer? web.?site.{1,15}ersten seite von/i
 
 # J
 # ------------------------------------------------------------------------------
@@ -68,6 +69,7 @@
 
 # M
 # ------------------------------------------------------------------------------
+/mit unseren.{1,10}seo/i
 
 # N
 # ------------------------------------------------------------------------------
@@ -91,6 +93,9 @@
 /seite.{1,10}google platzieren/i
 
 /seo.{1,10}(angebot|rabatt)/i
+/seo.{1,10}local.?seo/i
+/seo.{1,10}verbessern sie/i
+
 /seo.?service.?(angebot|plan|pläne|vorschlag)/i
 
 # T
@@ -104,6 +109,7 @@
 
 # V
 # ------------------------------------------------------------------------------
+/verbessern sie das.{1,10}ranking/i
 
 # W
 # ------------------------------------------------------------------------------

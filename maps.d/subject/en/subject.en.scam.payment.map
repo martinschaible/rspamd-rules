@@ -25,7 +25,7 @@
 # C
 # ------------------------------------------------------------------------------
 /compensation.{1,10}\d{2,4}(\.|,)?\d{3,4}/i
-/compensation.{1,10}(approval|donation|payment)/i
+/compensation.{1,10}(approval|donation|funds|payment)/i
 /compensation.{1,10}has been approved/i
 
 # D
