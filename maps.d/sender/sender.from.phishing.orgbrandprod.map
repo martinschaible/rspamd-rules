@@ -96,7 +96,7 @@
 /(adac|metamask|netflix).{0,10}(security|service|support|team|update|user|verification|wallet)/i
 
 #
-/(aave|apple).?(™|®|©)$/i
+/(aave|adac|apple).?(™|®|©)$/i
 /(balea|baumarkt|bosch).?(™|®|©)$/i
 /(carrefour|cpanel).?(™|®|©)$/i
 /galaxus.?(™|®|©)$/i
@@ -318,7 +318,9 @@
 
 /bundeskriminalpolizei/i
 /bundessteueramt/i
-/bundeszentralamt.{1,10}steuern/i
+/bundeszentralamt.{0,10}steuern/i
+
+/bw.?bank.{0,10}kundendienst/i
 
 # C
 # ------------------------------------------------------------------------------

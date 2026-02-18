@@ -75,8 +75,8 @@
 
 /^server$/i
 /server.?(notification|report|team)/i
-/^support.?(admin|access|client|desk|team)$/i
-/support.{0,5}webmail/i
+/^support.?(access|client|desk|team)$/i
+/support.{0,5}(adfmin|webmail)/i
 
 /system.?report.?center/i
 
