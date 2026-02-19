@@ -31,6 +31,7 @@
 # BahnBonus Service
 # CH Media Markt Kundendienst
 # Coop Aktionen
+# Denner Aktionen
 # DHL Express
 # DHL Paket
 # Die Schweizerische Post
@@ -371,7 +372,8 @@
 /debbix\+/i
 /decathlon-/i
 
-/denner.{0,10}(aktionen|kundenservice|schweiz|support|team|überraschung)/i
+/denner.{0,10}(kundenservice|schweiz|support|team|überraschung)/i
+#/denner.{0,10}(aktionen|kundenservice|schweiz|support|team|überraschung)/i
 /denner.?-/i
 
 /\|.?denner/i
@@ -544,6 +546,7 @@
 # ------------------------------------------------------------------------------
 /lepostesuisse/i
 
+/lidl\./i
 /lidl.?202\d/i
 /lidl - /i
 /lidl_/i

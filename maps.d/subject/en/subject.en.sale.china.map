@@ -183,6 +183,9 @@
 /experience.{1,10}excellent.{1,15}quality/i
 /expert.{1,10}mold/i
 
+/explore our durable/i
+/explore our.{1,15}(pipes|stainless|steel)/i
+
 # F
 # ------------------------------------------------------------------------------
 /factory 202\d\//i
@@ -299,6 +302,8 @@
 
 /medical.{1,10}transformer.{1,10}manufacturer/i
 /metal sheet.{1,10}(supplier|supply)/i
+
+/microchip.{1,10}offer/i
 /microchip.{1,10}parts request/i
 
 /multilayer (pcba?|printed.?circuits?.?board).{1,10}manufacturing/i
