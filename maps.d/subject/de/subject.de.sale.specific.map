@@ -194,7 +194,9 @@
 /neue mitarbeiter aus der/i
 
 /sie suchen arbeitskräfte/iu
+
 /suchen?.{1,10}qualifizierten handwerkern/i
+/suchen.{1,10}sie kurzfristig personal/i
 
 /sofort einsatzbereit.{1,10}personal/i
 /sofort verfügbare?.{1,10}mitarbeiter/iu
@@ -221,6 +223,8 @@
 /(fahrzeuge|maschinen|vermögenswerte).{1,25}(insolvenzmassen?|insolvenzverfahren)/i
 
 /katalog.{1,10}masseverwertung/i
+/neue.{1,10}insolvenzposten/i
+/posten aus.{1,15}insolvenz/i
 /unser(em)?.{1,10}insolvenzkatalog/i
 
 /(verwertung|waren) aus.{1,15}(insolvenzverfahren|liquidationen)/i

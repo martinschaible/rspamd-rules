@@ -1178,7 +1178,9 @@
 /virility.{0,10}expert/i
 /virus.{0,10}cure/i
 
-/vital(ity)?.{0,10}(daily|fix|health|now|stats|signs?|update)/i
+/vital(ity)?.{0,10}(daily|fix|health|now|update)/i
+/vital(ity)?.{0,10}(secret|stats|signs?)/i
+
 /vitamin.{0,10}recall/i
 
 /vitiligo.{0,10}solution/i

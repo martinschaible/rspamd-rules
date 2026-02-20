@@ -178,9 +178,11 @@
 /(insolvenzverfahren|liquidierungen|insolvenzverwaltung).{1,20}veräußern wir aktuell/iu
 
 /aktuelle verwertungsangebote/i
+/angebote?.{1,10}(insolvenzverwertung|Insolvenzware)/i
 /angebotsübersicht.{1,10}insolvenzmassen?/iu
 
 /positionen.{1,10}laufenden insolvenz/i
+/Sonderangebot.{1,10}Insolvenzware/i
 
 /unsere insolvenzmassen?/i
 
@@ -188,6 +190,8 @@
 /verwertung.{1,15}gegenstände.{1,10}(insolvenzmasse|insolvenzverfahren)/iu
 
 /liquidationen aus insolvenzverfahren/i
+
+/treuhänderisch.{1,15}insolvenzverfahren/iu
 
 # Ladders
 # ------------------------------------------------------------------------------
