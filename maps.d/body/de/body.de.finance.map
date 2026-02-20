@@ -18,6 +18,7 @@
 
 # A
 # ------------------------------------------------------------------------------
+/angebot zu erhalten.{1,10}(darlehen|kredite?)/i
 
 # B
 # ------------------------------------------------------------------------------
@@ -47,6 +48,7 @@
 # D
 # ------------------------------------------------------------------------------
 /(darlehen|kredite?).{1,10}benötigen.{1,10}schreiben sie/i
+/(darlehen|kredite?).{1,15}ihre rechnungen zu bezahlen/i
 /(darlehen|kredite?).{1,10}interessiert sind/i
 /(darlehen|kredite?).{1,15}mit einem günstigen/iu
 /(darlehen|kredite?).{1,15}privatpersonen.{1,10}unternehmen/i

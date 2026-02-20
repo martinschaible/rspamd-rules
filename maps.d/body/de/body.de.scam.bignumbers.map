@@ -106,7 +106,10 @@
 /sie ein.{1,10}million.{1,15}zu gewinnen/i
 
 /sie.{1,10}spende von.{1,10}\d{2,4}(\.|,)?\d{3,4}.{0,10}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£)/i
+
 /sie haben einen.{1,15}gewinn von.{1,10}\d{2,4}(\.|,)?\d{3,4}.{0,10}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£)/i
+/sie haben.{1,10}\d{2,4}(\.|,)?\d{3,4}.{0,10}bei der.{1,15}(euromillion|lottery)/i
+
 /sie wurden ausgewählt.{1,15}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,15}zu erhalten/iu
 
 /spenden?.{1,10}ihnen die summe von.{1,10}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£)/i
