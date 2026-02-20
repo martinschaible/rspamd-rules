@@ -180,6 +180,8 @@
 /ihr.{1,15}geld wurde auf eine.{1,10}(bank|debit).{0,10}(card|karte) geladen/i
 /ihr.{1,15}konto eine geldautomaten.{1,10}(bank|debit).{0,10}(card|karte)/i
 
+/ihre?.{1,10}e?.?mail.?(adresse|konto)?.{1,15}wurde bei einer.{1,15}(online|suche)/i
+
 /ihre.{1,10}atm.{1,10}(kredit|swift).{0,10}karte/i
 /ihre.{1,10}atm.{0.10}(card|karte).{1,10}zu liefern/i
 /ihre.{1,10}geldautomaten.?karte im wert von/i

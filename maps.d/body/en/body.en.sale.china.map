@@ -194,11 +194,12 @@
 
 # W
 # ------------------------------------------------------------------------------
-/we.{1,10}are.{1,10}(independent|leading|professional|specialized?|top|trusted).{1,10}professional.{1,10}(company|product|textile)/i
-/we.{1,10}are.{1,10}(independent|leading|professional|specialized?|top|trusted).{1,20}(distributor|domestic|manufacturer|supplier) (in the|of|producing|with)/i
-/we.{1,10}are.{1,10}(independent|leading|professional|specialized?|top|trusted).{1,20}(factory|forwarder)/i
-/we.{1,10}are.{1,10}(independent|leading|professional|specialized?|top|trusted).{1,20}(electric|bycycle)/i
-/we.{1,10}are.{1,10}(independent|leading|professional|specialized?|top|trusted).{1,20}pvc hose/i 
+/we.{1,15}(independent|leading|professional|specialized?|top|trusted).{1,10}professional.{1,10}(company|product|textile)/i
+/we.{1,15}(independent|leading|professional|specialized?|top|trusted).{1,20}(distributor|domestic|manufacturer|supplier).{1,10}(in the|of|with)/i
+/we.{1,15}(independent|leading|professional|specialized?|top|trusted).{1,20}(distributor|domestic|manufacturer|supplier).{1,10}(producing|specializing)/i
+/we.{1,15}(independent|leading|professional|specialized?|top|trusted).{1,20}(factory|forwarder)/i
+/we.{1,15}(independent|leading|professional|specialized?|top|trusted).{1,20}(electric|bycycle)/i
+/we.{1,15}(independent|leading|professional|specialized?|top|trusted).{1,20}pvc hose/i 
 
 /we.{1,10}are.{1,10}forwarding agent/i
 /we.{1,10}are.{1,20}manufacturers?.{1,10}exporters?/i
@@ -284,6 +285,8 @@
 /you.{1,10}looking for.{1,10}international.{1,15}(freight|forwarder)/i
 /you.{1,15}looking for.{1,10}reliable.{1,10}(pcba?|printed.?circuit.?board)/i
 /you.{1,15}looking for.{1,10}reliable.{1,10}supplier/i
+
+/you.{1,15}sourcing.{1,15}(coats|spring|women)/i
 
 /your.{1,10}next.{1,10}(pcba?|printed.?circuits?.?board)/i
 /your.{1,10}(pcba?|printed.?circuits?.?board).{1,10}projects?/i

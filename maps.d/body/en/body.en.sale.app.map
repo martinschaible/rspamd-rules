@@ -116,8 +116,9 @@
 
 # Y
 # ------------------------------------------------------------------------------
-/you.{1,10}(considering|interested|looking|need).{1,10}apps?.{1,10}(android|ios|iphone)/i
-/you.{1,10}(considering|interested|looking|need).{1,10}(develop|for|in).{1,15}(android|ios|iphone|mobile)?.?(app|web)/i
+/you.{1,10}(considering|interested|looking|need|thinking).{1,15}apps?.{1,10}(android|ios|iphone)/i
+/you.{1,10}(considering|interested|looking|need|thinking).{1,15}(about|for|in).{1,15}(android|ios|iphone|mobile)?.?(app|web)/i
+/you.{1,10}(considering|interested|looking|need|thinking).{1,15}(create|creating|develop).{1,15}(android|ios|iphone|mobile)?.?(app|web)/i
 
 /your.{1,10}mobile.?app.{1,10}requirement/i
 

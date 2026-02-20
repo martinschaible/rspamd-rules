@@ -68,6 +68,8 @@
 # F
 # ------------------------------------------------------------------------------
 /free.{5,25}claim it now/i
+/free.{1,15}health.{1,10}wellness kit/i
+/free.{1,10}medicare.{1,10}(health|kit|wellness)/i
 /free.{1,10}stun.?gun/i
 
 # G
@@ -147,6 +149,7 @@
 /you.{1,10}(received|selected).{1,20}reward/i
 /you.{1,10}won an/i
 
+/your.{1,10}health at no cost/i
 /your.{1,10}pallet is pending/i
 
 # Z
