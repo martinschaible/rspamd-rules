@@ -106,6 +106,8 @@
 # ------------------------------------------------------------------------------
 /aaa.{0,10}deals?/i
 
+/(aca|health).{0,10}plans?/i
+
 #/accounts?.?(department|help|payable|protection)/i
 /accounts?.?(department|help|payable|protection|team)/i
 
@@ -121,7 +123,7 @@
 # B
 # ------------------------------------------------------------------------------
 /bill.{0,5}alert/i
-/billing.{0,5}(services|team)/i
+/billing.{0,5}(services|support|team)/i
 
 /bonus.{0,10}(center|offer|points|reward|treat)/i
 /box.{0,10}offer/i
@@ -213,6 +215,8 @@
 
 # L
 # ------------------------------------------------------------------------------
+/limited.{0,10}(offer|time)/i
+
 /login.{0,10}(attempt|review)/i
 
 /loyalty.{0,10}(team|offer|points)/i
@@ -244,7 +248,7 @@
 /online.{0,10}banking/i
 /online.{0,10}survey/i
 
-/offers?.{0,10}(program|team)/i
+/offers?.{0,10}(connector|program|team)/i
 /opinion.{0,10}request(ed)?/i
 /order.{0,10}(confirmation|pending|update)/i
 
@@ -274,11 +278,13 @@
 # ------------------------------------------------------------------------------
 /recommended.{0,10}tea/i
 
+/redeem.{0,10}(gift|reward)/i
+
 /ref.?#/i
 /refund.{0,10}support/i
 
 /revise.id/i
-/rewards?.{0,10}(center|team)/i
+/rewards?.{0,10}(center|notification|team)/i
 
 # S
 # ------------------------------------------------------------------------------
@@ -330,6 +336,8 @@
 # U
 # ------------------------------------------------------------------------------
 /ultimate.{0,10}offers?/i
+
+/unlock.{0,10}reward/i
 
 /usa.{0,10}ad$/i
 /usa.{0,10}(affiliate|partner)/i

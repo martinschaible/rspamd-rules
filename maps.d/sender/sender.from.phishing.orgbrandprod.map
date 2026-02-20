@@ -301,6 +301,8 @@
 
 /aarp.{0,10}(advertiser|offer|opportunity)/i
 
+/autotrader.{0,10}rewards?/i
+
 # 07.03.25 - au FINANCIAL SERVICE CORPORATION
 /au pay/i
 
@@ -669,7 +671,7 @@
 /ninja.?air.?fryer/i
 
 /nortonav$/i
-/norton.{0,5}original/i
+/norton.{0,5}(official|original)/i
 
 /^nutella$/i
 

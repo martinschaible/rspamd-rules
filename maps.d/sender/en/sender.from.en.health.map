@@ -630,7 +630,7 @@
 /fresh.{0,10}breath/i
 /fried.{0,10}chicken/i
 
-/(fruits?|vegetable|veggies?).{0,10}(fatigue|hack|mistake|risk|truth)/i
+/(fruits?|vegetable|veggies?).{0,10}(code|fatigue|hack|mistake|risk|truth)/i
 /(fruits?|vegetable|veggies?).{0,10}(quiz|watch)/i
 
 /fuzzy.{0,10}drink/i
@@ -696,7 +696,9 @@
 
 /hgh.{0,10}(alert|boost|secret)/i
 /hidden.{0,10}(crisis|cure|danger|deficiency|dish)/i
-/hidden.{0,10}(organ|path|power|protein|remedy|risk|ritual|science|threat|toxin)/i
+/hidden.{0,10}(organ|path|power|protein|science)/i
+/hidden.{0,10}(remedy|risk|ritual)/i
+/hidden.{0,10}(threat|toxin|truth)/i
 
 /high.{0,10}(bp|sugar)/i
 
@@ -795,6 +797,7 @@
 
 /med.?journal/i
 /(medical|medicinal|medication).{0,15}(alert|daily|discovery|findings?|patch(es)?|shock|unit)/i
+/medical.{0,10}update/i
 /medical.{0,10}watchdog/i
 
 /men.?s?.{0,10}(only|power|vitality|wellness)/i
