@@ -105,7 +105,7 @@
 /(health|quick).{0,10}(boost(er)?|fix|guide)/i
 
 /healthy?.{0,10}(aging|alerts?|alternative)/i
-/healthy?.{0,10}(brain|briefing|choice(es)?|deals?|digest)/i
+/healthy?.{0,10}(brain|briefing|choice(es)?|conspiracy|deals?|digest)/i
 /health.?.{0,10}(discovery|digest|enigma)/i
 /healthy?.{0,10}(feet|fibes|files?|flush|foods?|freedom)/i
 /healthy?.{0,10}(gift|guides?|gut)/i
@@ -1224,7 +1224,7 @@
 /your.{1,10}(ears?|energy|eyes|eyesight)/i
 /your.{1,10}(health|heart|hips|intimacy|knees)/i
 /your.{1,10}(live.?span|liver)/i
-/your.{1,10}(pantry|pee|pelvis|poop|posture)/i
+/your.{1,10}(pantry|pee|pelvic|poop|posture)/i
 /your.{1,10}recipes/i
 /your.{1,10}(skin|smile|stomach)/i
 /your.{1,10}(waist|wellness)/i

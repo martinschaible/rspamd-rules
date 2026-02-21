@@ -45,15 +45,15 @@
 
 # Chair
 # ------------------------------------------------------------------------------
-/(büro|designer|massage).?(sessel|stuhl|stühle).{1,15}(abverkauf|angebot|bezug|charakter|funktion)/i
-/(büro|designer|massage).?(sessel|stuhl|stühle).{1,15}jetzt (für|nur)/iu
-/(büro|designer|massage).?(sessel|stuhl|stühle).{1,25}(massage|stil|vorteilspreis)/i
-/(büro|designer|massage).?(sessel|stuhl|stühle).{1,15}(eingebauter|integrierter|komfort|massage|walnussholz)/iu
-/(büro|designer|massage).?(sessel|stuhl|stühle).{1,25}(erhältlich|netto|nur|reduziert|statt|testen|top.?design|zugreifen)/iu
-/(büro|designer|massage).?(sessel|stuhl|stühle).{1,15}(sonder|spezial).?preis/i
-/(büro|designer|massage).?(sessel|stuhl|stühle).{1,15}für (nur|\d{3})/i
-/(büro|designer|massage).?(sessel|stuhl|stühle).{1,15}nur.{1,10}zzgl/i
-/(büro|designer|massage).?(sessel|stuhl|stühle).{1,15}walholz/i
+/(büro|designer|massage).{0,10}(sessel|stuhl|stühle).{1,15}(abverkauf|angebot|bezug|charakter|funktion)/i
+/(büro|designer|massage).{0,10}(sessel|stuhl|stühle).{1,15}jetzt (für|nur|stark)/iu
+/(büro|designer|massage).{0,10}(sessel|stuhl|stühle).{1,25}(massage|stil|vorteilspreis)/i
+/(büro|designer|massage).{0,10}(sessel|stuhl|stühle).{1,15}(eingebauter|integrierter|komfort|massage|walnussholz)/iu
+/(büro|designer|massage).{0,10}(sessel|stuhl|stühle).{1,25}(erhältlich|netto|nur|reduziert|statt|testen|top.?design|zugreifen)/iu
+/(büro|designer|massage).{0,10}(sessel|stuhl|stühle).{1,15}(sonder|spezial).?preis/i
+/(büro|designer|massage).{0,10}(sessel|stuhl|stühle).{1,15}für (nur|\d{3})/i
+/(büro|designer|massage).{0,10}(sessel|stuhl|stühle).{1,15}nur.{1,10}zzgl/i
+/(büro|designer|massage).{0,10}(sessel|stuhl|stühle).{1,15}walholz/i
 
 /(chance|elegante|eleganz|ergonomische|lager).{1,20}(büro|designer|massage).?(sessel|stuhl|stühle)/iu
 /(revolution|revolutionäre).{1,15}(büro|designer|massage).?(sessel|stuhl|stühle)/iu

@@ -48,6 +48,9 @@
 # Sample: (DPD_403264)
 /\(dpd_\d{4,15}\)/i
 
+# Sample: DPD Paket. 37854970
+/dpd.{1,5}paket.{1,5}?\d{4,10}/i
+
 /dpd.?ch.{1,10}betreff/i
 /dpd(-|_)ch/i
 /dpd_ref/i
