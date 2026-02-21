@@ -240,12 +240,16 @@
 /unserer?.{1,10}login.?methoden?/i
 /unserer?.{1,15}sicherheitsaktualisierung/i
 
+/update zu ihrem.{1,15}(konto|profil)/i
+
 # V
 # ------------------------------------------------------------------------------
 /vermeiden sie die aussetzung/i
 
 /vorübergehende sperrung.{1,5}#/iu
-/vorübergehende sperrung ihres bereichs/iu
+/vorübergehende sperrung.{1,10}ihres bereichs/iu
+
+/vorübergehende zugangsbeschränkung/iu
 
 # W
 # ------------------------------------------------------------------------------

@@ -202,6 +202,7 @@
 # Z
 # ------------------------------------------------------------------------------
 /zugang zu (ihrem|meinem).{1,15}konto wiederherstellen/i
-/zugriff auf ihr.{1,15}konto.{1,10}eingeschränkt/iu
+
+/zugriff auf ihr.{1,15}konto.{1,10}(vorübergehend)?.{1,10}(eingeschränkt|pausiert)/iu
 
 /zum schutz.{1,15}ihres kontos ist die aktivierung/i
