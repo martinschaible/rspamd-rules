@@ -57,6 +57,9 @@
 # ------------------------------------------------------------------------------
 /each.{1,10}million e?.?mails/i
 
+/e?.?mail.{1,10}addresses.{1,10}for sale/i
+/e?.?mail.{1,10}are verified.{1,10}valid/i
+
 /e?.?mail.{1,10}campaign.{1,10}platform/i
 /e?.?mail.{1,10}credits.{1,10}lead lists/i
 /e?.?mail.{1,10}marketing.{1,10}(bulk|mass).{0,10}mailing/i
@@ -110,6 +113,8 @@
 
 # L
 # ------------------------------------------------------------------------------
+/leads.{1,10}e?.?mail.{1,10}addresses/i
+
 /list is available.{1,15}your promotional/i
 /list includes.{1,10}contact information/i
 /list comes with.{1,10}unrestricted.{1,10}rights/i
@@ -128,11 +133,13 @@
 
 # O
 # ------------------------------------------------------------------------------
-/promote on.{1,10}platforms.{1,10}millions of people/i
-/promote your.{1,20}instagram business/i
+/offer.{1,10}e?.?mail.{1,10}marketing/i
+
 
 # P
 # ------------------------------------------------------------------------------
+/promote on.{1,10}platforms.{1,10}millions of people/i
+/promote your.{1,20}instagram business/i
 
 # Q
 # ------------------------------------------------------------------------------
@@ -142,6 +149,8 @@
 
 # S
 # ------------------------------------------------------------------------------
+/sell.{1,10}million.{1,10}e?.?mails/i
+
 /supercharge your.{1,10}(online|sales)/i
 
 /(specialize|specializing).{1,10}guest.?posts/i
