@@ -412,9 +412,8 @@
 
 # K
 # ------------------------------------------------------------------------------
-/kartendaten jetzt aktualisieren/i
+/(kartendaten|kontaktdaten) jetzt aktualisieren/i
 
-/kontaktdaten jetzt aktualisieren/i
 /konto(informationen)?.{1,10}(benötigen|benötigt).{1,10}ihre.{1,10}aufmerksamkeit/iu
 
 /kontos?.{1,10}jetzt handeln/i
@@ -562,9 +561,9 @@
 /service.?nachricht.{1,10}ihre.{1,15}zahlung/i
 /service.?warnung.{1,10}zahlungsziel erreicht/i
 
-/sicherheit.{1,10}authentifizierung aktualisieren/i
+/sicherheit.{1,10}authentifizierung.{1,10}aktualisieren/i
 /sicherheit.{1,10}ihrer karte.{1,15}daten bestätigen/iu
-/sicherheit.{1,10}(konto|profil) aktualisieren/i
+/sicherheit.{1,10}(konto|profil).{1,10}aktualisieren/i
 
 /(sicherheits|system).?aktualisierung.{1,10}(bestätigen sie|durchführen|erforderlich)/iu
 /(sicherheits|system).?aktualisierung.{1,10}jetzt handeln/i
@@ -827,9 +826,9 @@
 /zahlung fehlgeschlagen.{1,10}aktualisieren sie jetzt/i
 /zahlung für ihre?.{1,10}(paket|sendung) erforderlich/i
 
-/–.?zahlungsdetails prüfen/iu
-/zahlungsproblem (erkannt|festgestellt).{1,15}konto aktualisieren/i
-/zahlungsproblem (erkannt|festgestellt).{1,15}jetzt manuell/i
+/zahlungsdetails.{1,10}prüfen/iu
+/zahlungsproblem.{1,10}(erkannt|festgestellt).{1,15}konto aktualisieren/i
+/zahlungsproblem.{1,10}(erkannt|festgestellt).{1,15}jetzt manuell/i
 
 /zahlungsprüfung erforderlich/iu
 /zahlung.{1,10}jetzt erneuern/i
