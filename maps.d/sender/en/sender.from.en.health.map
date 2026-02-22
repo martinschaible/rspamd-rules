@@ -360,8 +360,9 @@
 
 /bitter.{0,10}fruit/i
 /black.{0,10}coffee/i
-/bladder.{0,10}(boost|care|coach|control|danger|fix|flush|health|issues?)/i
+/bladder.{0,10}(boost|care|coach|control|danger|fix|flush|health)/i
 /bladder.{0,10}(leaks?|leakage|leaking|issues?)/i
+/bladder.{0,10}support/i
 
 /bleeding.{0,10}gums/i
 /bloat(ing)?.{0,10}(free|fruits?|solution)/i
@@ -374,7 +375,8 @@
 
 /breath(ing)?.{0,10}(clear|science)/i
 
-/brain.{0,10}(boost|re?(boot)care|consequence|exercise|fix|flow|health|noise|shrinkage|solution|upgrade)/i
+/brain.{0,10}(boost|re?(boot)|exercise|fix|flow|health|noise|shrinkage|solution|upgrade)/i
+/brain.{0,10}(care|check|consequence)/i
 /brain.{0,10}(reset|revival|routine)/i
 /brain.{0,10}test/i
 
@@ -463,7 +465,7 @@
 /closed.{0,10}arteries/i
 
 /coffee.{0,10}extracts/i
-/cognitive.{0,10}(boost|care|comeback|decline|help|lab|support)/i
+/cognitive.{0,10}(boost|care|comeback|decline|help|lab|support|wellness)/i
 
 /colon.{0,10}(care|cleanse|detox|health|ics|irrigation|support)/i
 /(colon|detox|mayan).{0,10}cleanse/i
@@ -769,7 +771,8 @@
 /live.{0,10}(forver|long(er)?|years)/i
 /live.{0,10}to.{0,10}(years|yrs)/i
 
-/liver.{0,10}(cleanse|danger|weight)/i
+/liver.{0,10}(check|cleanse)/i
+/liver.{0,10}(danger|weight)/i
 
 /living.{0,10}(longer|natural)/i
 
