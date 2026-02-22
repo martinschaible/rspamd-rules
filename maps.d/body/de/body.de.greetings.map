@@ -76,6 +76,7 @@
 /guten (abend|morgen|tag).{1,10}ich bin.{1,10}content.?verantwortlich/i
 /guten (abend|morgen|tag).{1,10}ich bitte um entschuldigung/i
 /guten (abend|morgen|tag).{1,10}ich brauche ihre hilfe/i
+/guten (abend|morgen|tag).{1,10}ich habe keine antwort auf meine.{1,15}e?.?mail/i
 /guten (abend|morgen|tag).{1,10}ich hoffe.{1,10}dieser?.{1,10}(brief|e?.?mail|nachricht)/i
 /guten (abend|morgen|tag).{1,10}ich vertrete eine?.{1,15}(firma|seriöses|unternehmen)/iu
 /guten (abend|morgen|tag).{1,10}ich.{1,35}spende ihnen/i
@@ -136,7 +137,7 @@
 /hallo.{1,10}glückwunsch/iu
 
 #/hallo.{1,10}herr.{1,10}frau/i
-/hallo.{1,10}herzliche (grüsse|grüße) an sie/iu
+/hallo.{1,10}herzliche (grüsse|grüße).{1,10}(an sie|hiermit)/iu
 /hallo.{1,10}herzlichen glückwunsch/iu
 
 /hallo.{1,10}ich benötige.{1,15}ihre hilfe/iu
