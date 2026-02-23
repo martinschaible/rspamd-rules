@@ -854,8 +854,10 @@
 /nasa.{0,10}research/i
 /nasty.{0,10}(lumps|(toe)?nails?)/i
 
-/natural.{0,10}(alternative|antibiotic|control|fix|health|help|neuropathy)/i
+/natural.{0,10}(alternative|antibiotic|fix|health|help|neuropathy)/i
+/natural.{0,10}(cure|control)/i
 /natural.{0,10}(defense|detox|digest)/i
+/natural.{0,10}pain.?killer/i
 /natural.{0,10}(shape|solution|tonic|trick|vaccine)/i
 
 /nature.{0,10}(cure|morphine|opioids?|tea)/i
@@ -1220,6 +1222,8 @@
 /years.{0,10}younger/i
 
 /you.{0,10}grow/i
+
+/younger.{0,10}knees/i
 
 /your.{1,10}(a1c|alcohol)/i
 /your.{1,10}(balance|bladder|brain)/i
