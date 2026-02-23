@@ -66,6 +66,7 @@
 # Migros Online
 # Miles & More
 # Miles & More Newsletter
+# MyDPD
 # myMediaMarkt
 # mySWICA
 # Nespresso
@@ -811,7 +812,7 @@
 
 /securego.?plus/i
 
-/serafe.?ag.?\|/i
+/serafe(.?ag)?.?\|/i
 /serafe\.ag/i
 /serafe.{0,5}schweiz/i
 
@@ -970,6 +971,7 @@
 /volksbank(en)?.{0,10}(service|support|team)/i
 /volksbank(en)?.{0,10}(kundenbetreuung|kundenservice)/i
 
+/kundenservice.{0,10}volksbank(en)?/i
 
 /von.{0,10}swica/i
 
