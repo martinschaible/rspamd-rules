@@ -64,6 +64,7 @@
 
 /dear.{1,15}(member|user).{1,10}during a.{1,10}account/i
 /dear.{1,15}(member|user).{1,10}immediate attention required/i
+/dear.{1,15}(member|user).{1,10}your.{1,15}(account|password).{1,15}is due to expire/i
 
 /dear.{1,15}(member|user).{1,10}we have detected that your/i
 
@@ -114,6 +115,8 @@
 
 # P
 # ------------------------------------------------------------------------------
+/password expiration notice.{1,10}dear.{1,15}(member|user)/i
+
 /(pending|undelivered).{1,10}(e?.?mail|message)s?.{1,10}hello/i
 
 /problem with your payment.{1,10}hello/i
