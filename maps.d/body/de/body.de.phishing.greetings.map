@@ -225,7 +225,7 @@
 
 /sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}es liegt ein unbefugter zugriff/i
 /sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}es wurde eine aktivität/iu
-/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}(gemäss|gemäß).{1,15}richtlinie/iu
+/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}(gemäss|gemäß).{1,20}richtlinien?/iu
 /sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}gute nachrichten/i
 
 /sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}führt regelmäßig eine überprüfung/iu
@@ -318,6 +318,7 @@
 
 /sehr geehrter?.{1,10}(anleger|geschäftsführer|geschäftspartner)/iu
 /sehr geehrter?.{1,15}bank.{1,10}(kunde|kundin)/i
+/sehr geehrter?.{1,20}(exchange|microsoft).{1,15}benutzer/i
 
 /sehr geehrter.?,/i
 
