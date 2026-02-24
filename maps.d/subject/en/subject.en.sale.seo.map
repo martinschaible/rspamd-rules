@@ -149,6 +149,8 @@
 # ------------------------------------------------------------------------------
 /(on.?site|position).{1,10}seo/i
 
+/organic.{1,10}search potential/i
+
 # P
 # ------------------------------------------------------------------------------
 /page.{1,10}(bing|google|yahoo)/i
@@ -255,6 +257,7 @@
 /your.{1,10}search.?engine.{1,10}rankings?/i
 
 /your.{1,10}online visibility/i
+/your.{1,10}organic search/i
 
 /your.{1,10}((home)?page|(web)?site).{1,10}may.{1,10}losing/i
 
