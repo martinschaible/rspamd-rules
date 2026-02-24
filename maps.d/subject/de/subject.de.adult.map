@@ -34,6 +34,12 @@
 
 /(möchte|will).{1,10}(anal|oral).?sex/i
 
+# Silly language
+# ------------------------------------------------------------------------------
+/(aufrichtig|anziehend).{1,10}(freund|herr|mann)/i
+/(bewundernswert|deutche|fehlerlos|glänzend|heutig|nützlich|scharfsinnig|wunderbar|zielstrebige).{1,10}(freund|herr|mann)/i
+/ergeben.{1,10}(freund|herr|mann)/i
+
 #
 #
 #
@@ -49,9 +55,6 @@
 # ------------------------------------------------------------------------------
 /aufregende.{1,10}seitensprünge/iu
 /aufregendsten.{1,10}treffen/i
-
-/(aufrichtig|bewundernswert|deutche|fehlerlos|glänzend|heutig|nützlich|scharfsinnig|wunderbar|zielstrebige).{1,10}(freund|herr|mann)/i
-/ergeben.{1,10}(freund|herr|mann)/i
 
 # B
 # ------------------------------------------------------------------------------
