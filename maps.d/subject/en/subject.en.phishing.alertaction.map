@@ -58,6 +58,7 @@
 
 /(action|update) (needed|required).{1,15}(activate|update) your/i
 /(action|update) (needed|required).{1,10}(account|improve|payment failed)/i
+/(action|update) (needed|required).{1,15}agreement/i
 
 /(action|update) (needed|required).{1,10}complete customs/i
 /(action|update) (needed|required).{1,10}confirm your phone/i

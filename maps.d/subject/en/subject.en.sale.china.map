@@ -321,6 +321,8 @@
 
 /nice price for you/i
 
+/note on.{1,10}potential partnership/i
+
 # O
 # ------------------------------------------------------------------------------
 /(odm|oem).{1,10}(manufacturer|plastic|products?|service|supplier)/i
@@ -470,6 +472,8 @@
 
 # U
 # ------------------------------------------------------------------------------
+/unlock.{1,10}rapid market.{1,20}with/i
+
 /urgent.{1,10}(pcba?|printed.?circuits?.?board).{1,10}orders?/i
 
 

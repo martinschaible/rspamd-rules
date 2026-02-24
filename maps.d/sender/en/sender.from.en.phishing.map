@@ -61,6 +61,8 @@
 
 /(data|digital|e.?mail).{0,10}(protection|retention|service|storage)/i
 
+/digital.{0,10}support/i
+
 /helpdesk©/i
 /help-desk/i
 /helpdesk-/i
@@ -248,6 +250,7 @@
 # O
 # ------------------------------------------------------------------------------
 /online.{0,10}banking/i
+/online.{0,10}department/i
 /online.{0,10}survey/i
 
 /offers?.{0,10}(connector|program|team)/i
