@@ -237,6 +237,9 @@
 # ------------------------------------------------------------------------------
 /aaa.{0,10}(beneifts|car|department|rewards|travel)/i
 
+/aarp.{0,10}(benefits|invitation|offer|opportunity)/i
+/join.{0,10}aarp/i
+
 /abc.{0,10}health/i
 
 /^ace_/i

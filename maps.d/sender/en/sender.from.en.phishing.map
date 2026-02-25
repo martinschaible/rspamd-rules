@@ -124,6 +124,8 @@
 
 # B
 # ------------------------------------------------------------------------------
+/benefits.{0,10}(center|offer|points|reward|treat)/i
+
 /bill.{0,5}alert/i
 /billing.{0,5}(services|support|team)/i
 

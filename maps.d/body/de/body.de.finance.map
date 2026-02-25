@@ -31,6 +31,7 @@
 
 /(benötigen|brauchen) sie.{1,15}einen.{1,15}kredit/i
 /(benötigen|brauchen) sie.{1,10}finanzielle unterstützung/iu
+/(benötigen|brauchen) sie.{1,20}finanzierungsangebot/i
 /(benötigen|brauchen) sie.{1,10}eine.{1,10}finanzierung/iu
 /(benötigen|brauchen) sie.{1,10}geld.{1,10}um (ein|ihre?)/i
 /(benötigen|brauchen) sie.{1,10}geld.{1,10}den persönlichen/iu
@@ -96,6 +97,8 @@
 /ihnen einen kredit anbieten/i
 
 /(geschäftskredit|immobilienkredit).{1,10}autokredit/i
+
+/ihr zuverlässiger finanzexperte/iu
 
 /informationen zum benötigten betrag/iu
 
