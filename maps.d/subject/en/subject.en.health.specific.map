@@ -12,7 +12,8 @@
 
 # Weight Loss
 # ------------------------------------------------------------------------------
-/(fat|weight).?(burning|loss|melting).{1,10}(breakthrough|cure|coffee|exposed)/i
+/(fat|weight).?(burning|loss|melting).{1,10}(breakthrough|by)/i
+/(fat|weight).?(burning|loss|melting).{1,10}(cure|coffee|exposed)/i
 /(fat|weight).?(burning|loss|melting).{1,15}(fruit|morning)/i
 /(fat|weight).?(burning|loss|melting).{1,10}(remedies|remedy|routine)/i
 /(fat|weight).?(burning|loss|melting).{1,10}(secret|starts?|soup|switch)/i
@@ -83,6 +84,7 @@
 /shrink.{1,10}fat tissue/i
 /shrink.{1,10}your (belly|tummy)/i
 /slim down.{1,10}with/i
+/(re)?start.{1,10}(fat|weight) burning/i
 
 /targets.{1,10}(fat|weight)/i
 /those extra (lbs|ibs|pounds)/i

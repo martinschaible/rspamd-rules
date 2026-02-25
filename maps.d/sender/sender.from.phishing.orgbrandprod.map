@@ -60,6 +60,7 @@
 # Meta
 # METRO
 # Microsoft account team
+# Microsoft Defender
 # Migros
 # Migros: Aktionen und News
 # Migros - Cumulus
@@ -618,7 +619,7 @@
 /metanet.{0,10}(kundendienst|kundenservice)/i
 
 /microsoft (365|ads)/i
-/microsoft.{0,10}(advertising|billing|cashback|defender|rewards?|subscription)/i
+/microsoft.{0,10}(advertising|billing|cashback|rewards?|subscription)/i
 #/microsoft.{0,10}konto/i
 
 /(service|support).{0,10}(hetzner|microsoft)/i
