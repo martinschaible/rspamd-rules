@@ -110,9 +110,9 @@
 # ------------------------------------------------------------------------------
 
 # Drupal Support
-/need a.{1,10}website/i
-
-/need help with.{1,10}we.?a?re here/i
+/need a.{1,10}web.?site/i
+/need.{1,10}help with.{1,10}we.?a?re here/i
+/need.{1,10}web.?site.{1,10}services/i
 
 /new.?redesign/i
 /new site.{1,10}redesign/i

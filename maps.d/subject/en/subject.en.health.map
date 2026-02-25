@@ -688,7 +688,7 @@
 /plastic surgeon reveals/i
 /pleasure.{1,10}fix/i
 
-/popular drink worsens/i
+/popular.{1,10}(drink worsens|protein)/i
 /pounds with this/i
 
 /predicts.{1,10}memory.?loss/i
@@ -746,6 +746,7 @@
 /reset.{1,10}gut/i
 
 /rest.{1,10}signals?/i
+/restless.{1,10}prostate/i
 /restores?.{1,10}(brain|gut|hearing|help|joint|memory|nerve|perfect|teeth)/i
 
 /reveals hidden.{1,10}(food|triggers)/i

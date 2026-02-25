@@ -948,7 +948,8 @@
 
 /prepare now/i
 
-/popular.{0,10}supplement/i
+/popular.{1,10}(drink|protein|supplement)/i
+
 /posture.{0,10}(help|reset)/i
 /promising.{0,10}therapy/i
 /proper.{0,15}detox/i

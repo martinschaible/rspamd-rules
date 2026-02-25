@@ -86,10 +86,10 @@
 # ------------------------------------------------------------------------------
 /cables durable.{1,10}flexible/i
 
-/capacitors?.{1,10}capacitors?/i
 /capacitors?.{1,10}active.{1,10}passive/i
-/capacitors?.{1,10}(resistors?|special).{1,10}offer/i
+/capacitors?.{1,10}special.{1,10}offer/i
 /capacitors?.{1,10}reliable supplier/i
+/capacitors?.{1,10}resistors?/i
 
 /capacity.{1,10}fuses from/i
 
@@ -111,6 +111,7 @@
 /components?.{1,10}distributor.{1,10}rfq/i
 /components?.{1,10}rfqs? dealing/i
 
+/connectors?.{1,10}brands?.{1,10}rfq/i
 /contact.{1,10}pcba?.{1,10}supplier/i
 
 /cooling solutions offer/i
@@ -251,7 +252,8 @@
 /injection.{1,15}mold(ing)/i
 /injection.{1,15}mou?ld/i
 
-/innovative solutions?.{1,15}(badges|custom)/i
+/innovative.{1,10}solutions?.{1,15}(badges|custom)/i
+/innovative.{1,10}vacuum.{1,10}cleaners?/i
 
 /(international|shenzhen|trading).{1,15}co.{1,5}ltd/i
 /international.{1,10}freight forwarding/i
