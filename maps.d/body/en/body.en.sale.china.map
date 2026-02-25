@@ -261,9 +261,10 @@
 /we.{1,10}specialize.{1,20}(manufacture|manufacturing|metal)/i
 /we.{1,10}specialize.{1,20}(printing|producing|supplying)/i
 /we.{1,10}specialize.{1,10}(eu|us).{1,10}designs/i
-/We.{1,10}specialize.{1,10}high.?quality/i
-/we.{1,10}specialize.{1,10}providing high.?quality/i
+/we.{1,10}specialize.{1,20}heavy copper/i
+/we.{1,10}specialize.{1,10}high.?(current|quality)/i
 
+/we.{1,10}specialize.{1,10}providing high.?quality/i
 /we.{1,10}specialize.{1,10}providing.{1,15}(premium|pricing|reasonable)/i
 
 /we.{1,10}take pride.{1,10}offering.{1,10}wide range/i

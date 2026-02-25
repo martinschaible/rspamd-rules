@@ -478,6 +478,8 @@
 
 /fedpol/i
 
+/finom.{0,10}team/i
+
 /f.?secure.{0,10}deals/i
 
 # G
@@ -555,6 +557,8 @@
 /kauf\.land/i
 /kauflandmarkt/i
 
+/klarna.{0,10}(finanzservice|kundenservice)/i
+
 /kleinanzeigen.{0,10}team/i
 
 /kunden.?dm/i
@@ -602,10 +606,13 @@
 
 /^mercedes$/i
 
-/meta.{0,5}ads$/i
-/meta.{0,5}(ads|support).?team/i
+/meta(mask)?.{0,5}ads$/i
+/meta(mask)?.{0,5}(ads|support).?team/i
 
-/meta(mask)?.{0,5}(advertising|alert|compliance|inc|system|trust|updates?|verification|wallet)/i
+/meta(mask)?.{0,5}(advertising|alert)/i
+/meta(mask)?.{0,5}business/i
+/meta(mask)?.{0,5}(compliance|inc|trust|updates?|verification|wallet)/i
+/meta(mask)?.{0,5}(security|system)/i
 /meta(mask)?.{0,5}verifiziert/i
 
 /metamask.?id/i
