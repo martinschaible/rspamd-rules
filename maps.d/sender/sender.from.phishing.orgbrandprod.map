@@ -448,7 +448,8 @@
 # E
 # ------------------------------------------------------------------------------
 
-/easybank.{0,10}support/i
+/easybank.{0,10}(app|support)/i
+/easybank.{0,10}kundenservice/i
 
 # 08.06.25
 /ebanking.{0,10}(ubs|postfinance)/i
@@ -793,7 +794,7 @@
 
 # R
 # ------------------------------------------------------------------------------
-/raiffeisen.{0,10}twint/i
+/raiffeisen.{0,10}(kundenservice|team|twint)/i
 /^raiffeisen$/i
 
 /raiffeisenbanken,/i
@@ -913,7 +914,7 @@
 #/swisspas\./i
 #/swisspass\.ch/i
 /swisspass.{1,5}(benachrichtigung|cff|kartendienst|kunden?(dienst)?|sbb|support)/i
-/swisspass\./i
+#/swisspass\./i
 /swisspass-/i
 
 /swisspass.?id/i

@@ -76,6 +76,8 @@
 /cholesterol/i
 /circulation/i
 
+/^cloud$/i
+
 /commissions?/i
 /compensation/i
 /companyname/i
@@ -312,7 +314,7 @@
 
 /stubborn/i
 
-/subsystem/i
+#/subsystem/i
 /supplychain/i
 
 #/^support/i

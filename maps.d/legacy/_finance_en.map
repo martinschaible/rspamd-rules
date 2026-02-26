@@ -9,19 +9,6 @@
 
 # Intros
 # ------------------------------------------------------------------------------
-/we are.{1,15}(financial|investment).{1,10}(advisors|company|consultant|institution)/i
-/we are.{1,10}(financial|investment).{1,10}consulting company/i
-
-/we are.{1,10}first.?class.{1,10}financial.{1,10}institution/i
-/we are.{1,20}based investment company/i
-/we are.{1,15}(europe|kuwait).{1,10}based.{1,10}(asset|financial|investment)/i
-
-/we are.{1,15}debt.{1,15}funding/i
-/we are.{1,10}independent.{1,10}financial/i
-/we are.{1,10}international.{1,10}finance.{1,10}institute/i
-
-/we are.{1,15}loan brokers?/i
-
 /greetings from.{1,15}investors/i
 /investment.?company offering.{1,10}funding/i
 

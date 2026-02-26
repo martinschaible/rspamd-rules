@@ -82,7 +82,8 @@
 /(20|bad|blurred|blurry|clear|declining|enhancing|flawless).{0,10}(eye.?sight|view|vision)/i
 /(new|night|perfect|poor|restore|supreme|weak).{0,10}(eye?sight|view|vision)/i
 
-/eye.{0,10}(doctor|expert|help|secret)/i
+/eye.{0,10}(doctor|expert|secret)/i
+/eye.{0,10}(health|help/i)
 
 /(eye.?sight|vision).{0,10}(20.?20|at risk)/i
 /(eye.?sight|vision).{0,10}(boost|discovery|fix|hack|health|help|improvement|loss)/i
@@ -376,6 +377,7 @@
 /blue.{0,10}(drink|juice|pill|plant|replacement)/i
 /blurry.{0,10}fix/i
 
+/breaking.{0,10}health/i
 /breath(ing)?.{0,10}(clear|science)/i
 
 /brain.{0,10}(boost|re?(boot)|exercise|fix|flow|health|noise|shrinkage|solution|upgrade)/i
@@ -623,6 +625,7 @@
 /full(er)?.{0,10}hair/i
 /(fungal|fungus).{0,10}(cure|eliminator|fix|free|infection|remover?|vanishing)/i
 
+/focus.{0,10}clarity/i
 /fountain of/i
 
 /food.{0,10}(alert|cravings?|choices?|medicine|odor|safety|stretch|trap|truth)/i
@@ -859,9 +862,10 @@
 /nasa.{0,10}research/i
 /nasty.{0,10}(lumps|(toe)?nails?)/i
 
-/natural.{0,10}(alternative|antibiotic|fix|health|help|neuropathy)/i
+/natural.{0,10}(alternative|antibiotic|health|help|neuropathy)/i
 /natural.{0,10}(cure|control)/i
 /natural.{0,10}(defense|detox|digest)/i
+/natural.{0,10}(fix|formula)/i
 /natural.{0,10}pain.?killer/i
 /natural.{0,10}(shape|solution|tonic|trick|vaccine)/i
 
@@ -901,6 +905,8 @@
 /odd.{0,10}(chocolate|milk|mineral|liquid|tonic)/i
 
 /of ed$/i
+
+/optical.{0,10}science/i
 /oral.{0,10}(care|flush|health|help|repair)/i
 /organ.{0,10}report/i
 /oriental.{0,10}secret/i
@@ -1021,7 +1027,7 @@
 /sea.?sugar/i
 /see.{0,10}clear(er)/i
 
-/senior.{0,10}moments/i
+/senior.{0,10}(health|moments)/i
 /severe.{0,10}pain/i
 
 /sharp(er)?.{0,10}(brain|ears|eyes|memroy|mind|thinking)/i
