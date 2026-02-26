@@ -189,6 +189,7 @@
 
 /bestätigung.{1,10}ihrer.{1,10}zwei.?faktor.?authentifizierung.{1,10}erforderlich/i
 /bestätigung.{1,10}ihrer.{1,15}bestellung.{1,10}jetzt handeln/i
+/bestätigung.{1,10}ihrer.{1,10}kundendaten/iu
 /bestätigung.{1,10}ihrer.{1,10}telefonnummer erforderlich/iu
 
 /betreff.{1,5}(achtung|wichtige information)/i
@@ -220,7 +221,10 @@
 
 /(dringend|wichtig).{1,5}(aktion|aktualisierung) erforderlich/i
 /(dringend|wichtig).{1,10}aktualisierung ihrer/i
+
 /(dringend|wichtig).{1,10}bestätigen sie ihre/iu
+/(dringend|wichtig).{1,10}bestätigung ihrer/iu
+
 /(dringend|wichtig).{1,10}einschränkungen bei ihrer/iu
 /(dringend|wichtig).{1,10}geräteschutzplan/i
 

@@ -212,23 +212,6 @@
 #
 /kommerzielle immobilienrenovierung/i
 
-# Insolvenz
-# ------------------------------------------------------------------------------
-/insolvenzen.{1,10}günstigen.{1,10}konditionen/iu
-
-/insolvenzmassen?:/i
-/insolvenzmassen?.{1,15}(gmbh|katalog|pdf)/i
-
-/(angebot|auszug|inventargegenständen?).{1,25}(insolvenzmassen?|insolvenzverfahren)/i
-/(fahrzeuge|maschinen|vermögenswerte).{1,25}(insolvenzmassen?|insolvenzverfahren)/i
-
-/katalog.{1,10}masseverwertung/i
-/neue.{1,10}insolvenzposten/i
-/posten aus.{1,15}insolvenz/i
-/unser(em)?.{1,10}insolvenzkatalog/i
-
-/(verwertung|waren) aus.{1,15}(insolvenzverfahren|liquidationen)/i
-
 # Ladder
 # ------------------------------------------------------------------------------
 /teleskop.{1,10}(klappleiter|profi.?leitern?)/i

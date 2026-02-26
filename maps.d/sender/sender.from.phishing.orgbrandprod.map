@@ -461,6 +461,7 @@
 # 23.11.25
 /edeka.?(™|®)$/i
 /edeka.{0,10}2026/i
+/edeka.{0,10}markt/i
 /christmas.{0,10}edeka/i
 
 # 15.01.26
@@ -874,7 +875,7 @@
 
 /state.?farm/i
 
-/support.{0,5}(apple|swica)/i
+/support.{0,5}(open.?ia|apple|swica)/i
 
 /#?sumup/i
 /^sumup\.?$/i
@@ -924,6 +925,9 @@
 /swisspost.{0,5}service/i
 
 /id.?swiss/i
+
+#
+/swissquote.?(bank)?.?ltd/i
 
 # T
 # ------------------------------------------------------------------------------

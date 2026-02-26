@@ -18,7 +18,9 @@
 
 # A
 # ------------------------------------------------------------------------------
-/aktualisierung.{1,10}(kontoinformationen|kontosicherheit|kontozugriffs?)/i
+/aktualisierung.{1,20}(kontoinformationen|kontosicherheit|kontozugriffs?)/i
+/aktualisierung.{1,20}kundendaten.{1,10}(erforderlich|durch)/i
+
 /aktualisierung.{1,10}ihrer.{1,10}daten ist unkompliziert/i
 /aktualisierung.{1,10}ist zu gunsten ihrer sicherheit/i
 /aktualisierung.{1,10}innerhalb der nächsten.{1,10}stunden durch/iu
@@ -73,9 +75,12 @@
 
 # J
 # ------------------------------------------------------------------------------
+/jetzt kundendaten.{1,10}aktualisieren/i
 
 # K
 # ------------------------------------------------------------------------------
+/klicken.{1,10}ihre daten.{1,10}aktualisieren/i
+
 /kontaktdaten jetzt aktualisieren/i
 
 /(konto|profil).{1,15}(benötigen|benötigt|erfordert).{1,10}eine? (aktualisierung|update)/i

@@ -32,6 +32,28 @@
 # ------------------------------------------------------------------------------
 /cloud.?konto wurde gesperrt/i
 
+# Insolvenz
+# ------------------------------------------------------------------------------
+/(insolvenzverfahren|liquidierungen|insolvenzverwaltung).{1,10}(anbieten|bieten wir|verwerten)/i
+/(insolvenzverfahren|liquidierungen|insolvenzverwaltung).{1,20}ihnen.{1,20}verzeichnis/i
+/(insolvenzverfahren|liquidierungen|insolvenzverwaltung).{1,20}veräußern wir aktuell/iu
+
+/aktuelle verwertungsangebote/i
+/angebote?.{1,10}(insolvenzverwertung|insolvenzmasse|insolvenzware)/i
+/angebotsübersicht.{1,10}insolvenzmassen?/iu
+
+/positionen.{1,10}laufenden insolvenz/i
+/Sonderangebot.{1,10}Insolvenzware/i
+
+/unsere insolvenzmassen?/i
+
+/verwertung.{1,10}(aus|von).{1,10}(insolvenzmasse|insolvenzverfahren)/i
+/verwertung.{1,15}gegenstände.{1,10}(insolvenzmasse|insolvenzverfahren)/iu
+
+/liquidationen aus insolvenzverfahren/i
+
+/treuhänderisch.{1,15}insolvenzverfahren/iu
+
 # Product Test
 # ------------------------------------------------------------------------------
 /produkte.{1,10}testen und.{1,10}bewerten/i
