@@ -233,6 +233,8 @@
 /mail.{0,10}host service/i
 /mailbox.{0,10}(storage|team)/i
 
+/meat.{0,10}box/i
+
 /member.{0,10}survey/i
 /membership.{0,10}(offer|updates?)/i
 
@@ -277,7 +279,7 @@
 /prime.{0,10}(customer|membership|reward)/i
 /privacy.{0,10}policy/i
 
-/protection.{0,10}team/i
+/(promotion|protection).{0,10}team/i
 /provider.{0,10}support/i
 
 # Q

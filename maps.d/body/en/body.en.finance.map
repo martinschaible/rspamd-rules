@@ -34,7 +34,8 @@
 
 # B
 # ------------------------------------------------------------------------------
-/based lender offering/i
+/based.{1,10}investment.{1,10}loan company/i
+/based.{1,10}lender offering/i
 
 /business opportunities.{1,10}potential.{1,15}(funding|investment)/i
 
@@ -53,6 +54,8 @@
 /flexible.{1,10}confidential.{1,10}loan/i
 
 /financing.{1,10}competitive.{1,10}interest rates/i
+
+/first.?class.{1,10}financial.{1,10}institution/i
 
 /funds.{1,10}reply with your/i
 /funding.{1,10}projects/i
@@ -153,16 +156,27 @@
 
 # W
 # ------------------------------------------------------------------------------
-/we are.{1,10}dubai based/i
-/we are.{1,10}(dubai|leading).{1,15}investors/i
-
-/we are.{1,10}fiduciary.{1,10}asset/i
-/we are.{1,10}financial institution/i
-/we are.{1,10}pleased to offer.{1,10}(funds|loans)/i
 /we are.{1,15}asset.{1,20}investment /i
 
+/we are.{1,10}(dubai|europe|kuwait) based/i
+/we are.{1,15}(dubai|europe|kuwait).{1,20}(asset|financial|investment|investors)/i
+
+/we are.{1,20}based investment company/i
+/we are.{1,15}debt.{1,15}funding/i
+/we are.{1,10}fiduciary.{1,10}asset/i
+
+/we are.{1,15}(financial|investment).{1,10}(advisors|company|consultant|institution)/i
+/we are.{1,10}(financial|investment).{1,10}consulting company/i
+
+/we are.{1,15}leading.{1,15}investors/i
+/we are.{1,10}pleased to offer.{1,10}(funds|loans)/i
+
+/we are.{1,10}independent.{1,10}financial/i
+/we are.{1,10}international.{1,10}finance.{1,10}institute/i
 /we are.{1,15}investment.{1,20}(asset|company|group|management)/i
 /we are.{1,15}investors seeking/i
+
+/we are.{1,15}loan brokers?/i
 
 /we are required.{1,10}by our.{1,10}funders/i
 /we fund.{1,10}wide range/i

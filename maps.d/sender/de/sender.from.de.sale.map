@@ -202,6 +202,9 @@
 /streaming.{0,10}freiheit/i
 
 # T
+# ------------------------------------------------------------------------------
+/tanken.{0,10}(preis|sparen)/i
+
 /tarife?.{0,10}(aktivieren|vergleichen)/i
 /tech.{0,10}sicherheit/i
 
@@ -229,6 +232,8 @@
 # W
 # ------------------------------------------------------------------------------
 /wallet.{0,10}lösung/iu
+
+/werkzeug.{0,10}deals/i
 
 /(wi.?fi|wlan).{0,15}experten?/i
 

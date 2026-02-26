@@ -394,6 +394,7 @@
 /focus.{1,10}memory/i
 
 /foods?.{1,10}contain this/i
+/foods?.{1,10}healthy.{1,15}(blood|sugar)/i
 /foods?.{1,10}that.{1,10}(dissolves|fights?|poisonous|prevents)/i
 /foods?.{1,10}that.{1,10}makes? you/i
 /foods?.{1,10}to (avoid|skip)/i
@@ -933,6 +934,8 @@
 /this.{1,10}back.?pain fix/i
 
 /this.{1,10}before (bed|going to bed)/i
+/this.{1,10}brain nutrient/i
+
 /this.{1,10}common.{1,10}(food|vegetable)/i
 /this.{1,10}could add/i
 /this.{1,10}cuts heart attack/i
@@ -1101,6 +1104,7 @@
 /your.{1,10}heart health/i
 /your.{1,10}knees deserve/i
 /your.{1,10}leg swelling/i
+/your.{1,10}tingling feet/i
 /your.{1,10}toenails are/i
 /your.{1,10}veins hurt/i
 /your.{1,15}with.{1,10}natural/i
