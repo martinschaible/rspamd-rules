@@ -82,7 +82,7 @@
 /(20|bad|blurred|blurry|clear|declining|enhancing|flawless).{0,10}(eye.?sight|view|vision)/i
 /(new|night|perfect|poor|restore|supreme|weak).{0,10}(eye?sight|view|vision)/i
 
-/eye.{0,10}(doctor|expert|secret)/i
+/eye.{0,10}(clarity|doctor|expert|secret)/i
 /eye.{0,10}(health|help/i)
 
 /(eye.?sight|vision).{0,10}(20.?20|at risk)/i
@@ -91,6 +91,8 @@
 /(eye.?sight|vision).{0,10}(enhancing|expert)/i
 /(eye.?sight|vision).{0,10}(rescue|reset|restorer?)/i
 /(eye.?sight|vision).{0,10}(scan|solution|supplement|support)/i
+
+/sight.{0,10}restored?/i
 
 # Fungus, Nails
 # ------------------------------------------------------------------------------

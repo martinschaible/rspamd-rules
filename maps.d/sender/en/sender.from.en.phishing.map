@@ -295,7 +295,7 @@
 /refund.{0,10}support/i
 
 /revise.id/i
-/rewards?.{0,10}(center|notification|team)/i
+/rewards?.{0,10}(center|notification|status|team)/i
 
 # S
 # ------------------------------------------------------------------------------
@@ -320,6 +320,8 @@
 /supermarket.{0,10}team/i
 
 /supply.{0,10}chain/i
+/supply.{0,10}reward/i
+
 /supportch/i
 
 /support.{0,10}(delivery|team)/i
