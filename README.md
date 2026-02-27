@@ -274,9 +274,9 @@ subject
   │   ├─ subject.de.phishing.card.map             │
   │   ├─ subject.de.phishing.email.map            │
   │   ├─ subject.de.phishing.malware.map          │
-  │   ├─ subject.de.phishing.orgbrandprod.map   X │
-  │   ├─ subject.de.phishing.parcel.map           ├─ multimap.subject.de.phishing.conf
-  │   ├─ subject.de.phishing.password.map         │
+  │   ├─ subject.de.phishing.orgbrandprod.map     │ X
+  │   ├─ subject.de.phishing.parcel.map           │
+  │   ├─ subject.de.phishing.password.map         ├─ multimap.subject.de.phishing.conf
   │   ├─ subject.de.phishing.payment.map          │
   │   ├─ subject.de.phishing.refund.map           │
   │   ├─ subject.de.phishing.rewards.map          │
@@ -391,4 +391,9 @@ Open an issue and I'll be happy to resolve the issue.
 Great! I love fresh spam! To create one or more rules, I need the complete, unaltered email.
 Send it to spamcop[ät]netfusion[döt]ch and add the word "SPAM" to the subject line.
 
+### Dealing with false/positives
+No Great! Sometimes a rule is to restrictive and a good email was marked as spam.
+Send it to the same mail address as above and add the word "NOSPAM" to the subject line.
+
+<br>
 <p align="center">Made with :heart: and :coffee:</p>
