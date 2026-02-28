@@ -15,7 +15,7 @@ Before Rspamd, I used an older product called **Declude** as a spam filtering sy
 🍀 Feel free to use these maps on your Rspamd server.
 
 ## Installation
-The base is the file *multimaps.conf* in the folder `/etc/rspamd/local.d`. This file includes all configuration files of the map files. These files are located in the same folder and must also be copied to the server.
+The base is the file *multimap.conf* in the folder `/etc/rspamd/local.d`. This file includes all configuration files of the map files. These files are located in the same folder and must also be copied to the server.
 
 The map files of the first generation begin with an underscore `_multimap....map`.
 The second generation does not have the leading underscore.
