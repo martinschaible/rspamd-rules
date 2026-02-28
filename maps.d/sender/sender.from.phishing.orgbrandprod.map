@@ -20,7 +20,7 @@
 # Accounting - Hetzner Online GmbH
 # Aktuelle Lidl Angebote
 # aldi-now
-# aldi süd newslsetter
+# ALDI SÜD newslsetter
 # Aldi Suisse AG News
 # ALDI SUISSE AG - News
 # Aliexpress
@@ -85,6 +85,7 @@
 # Support - Hetzner Online GmbH
 # TARGOBANK Online-Postfach
 # Telekom Deutschland GmbH
+# Touring Club Schweiz
 # UBS Switzerland AG
 # Viseca
 # Wetransfer
@@ -207,8 +208,9 @@
 /(deutschland|germany|schweiz).{0,5}(dhl|dpd|fedex|gls|ups)/i
 /(center|europa|express|group|notification|on.?demand|support).{0,5}(dhl|dpd|fedex|gls|ups)/i
 /logistikbenachrichtigung.{0,5}(dhl|dpd|fedex|gls|ups)/i
-/(kundeninfo|kurier|zoll).{0,5}(dhl|dpd|fedex|gls|ups)/i
 /(info|my).{0,5}(dhl|dpd|fedex|gls|ups)/i
+/(kundeninfo|kundenservice|kurier).{0,5}(dhl|dpd|fedex|gls|ups)/i
+/zoll.{0,5}(dhl|dpd|fedex|gls|ups)/i
 
 /paket.{0,5}(dhl|dpd|fedex|gls|ups)/i
 /paket.?(dienst|service|status).{0,5}(dhl|dpd|fedex|gls|ups)/i
@@ -579,6 +581,7 @@
 
 /lidl\./i
 /lidl.?202\d/i
+/lidl.?ch/i
 /lidl - /i
 /lidl_/i
 
@@ -713,6 +716,8 @@
 /ohama.{0,5}steaks/i
 
 /official.{0,5}(netflix|spotify)/i
+
+/^onedrive$/i
 
 # 01.02.25 - Orico Corporation
 /e-orico/i

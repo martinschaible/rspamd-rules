@@ -642,7 +642,7 @@
 /fresh.{0,10}breath/i
 /fried.{0,10}chicken/i
 
-/(fruits?|vegetable|veggies?).{0,10}(code|fatigue|hack|mistake|risk|truth)/i
+/(fruits?|vegetable|veggies?).{0,10}(code|fatigue|hack|mistake|risk|skin|truth)/i
 /(fruits?|vegetable|veggies?).{0,10}(quiz|watch)/i
 
 /fuzzy.{0,10}drink/i
@@ -710,7 +710,7 @@
 /hidden.{0,10}(crisis|cure|danger|deficiency|dish)/i
 /hidden.{0,10}(organ|path|power|protein|science)/i
 /hidden.{0,10}(remedy|risk|ritual)/i
-/hidden.{0,10}(threat|toxin|truth)/i
+/hidden.{0,10}(threat|toxin|trigger|truth)/i
 
 /high.{0,10}(bp|sugar)/i
 
@@ -736,6 +736,8 @@
 
 /improve.{0,10}circulation/i
 /improved.{0,10}brain/i
+
+/inner.{0,10}ear/i
 
 /instant.{0,10}(heart|lung|recall|relief|sleep)/i
 /(intimacy|intimate).{0,10}(alignment|guide|life)/i
@@ -816,7 +818,8 @@
 /men.?s?.{0,10}(only|power|vitality|wellness)/i
 /mental.{0,10}clarity/i
 
-/(metabolic|metabolism).{0,10}(boost(er)?|cause|discovery|flow|health|hack|insider|insights?|loophole|mute|organ|unleash)/i
+/(metabolic|metabolism).{0,10}(balance|boost(er)?)/i
+/(metabolic|metabolism).{0,10}(cause|discovery|flow|health|hack|insider|insights?|loophole|mute|organ|unleash)/i
 /(metabolic|metabolism).{0,10}(reactivation|research|reset|revival|wine)/i
 
 /(mexican|rare).{0,10}salt/i
@@ -869,7 +872,9 @@
 /natural.{0,10}(defense|detox|digest)/i
 /natural.{0,10}(fix|formula)/i
 /natural.{0,10}pain.?killer/i
-/natural.{0,10}(shape|solution|tonic|trick|vaccine)/i
+/natural.{0,10}(shape|solution)/i
+/natural.{0,10}(tonic|trick|trt)/i
+/natural.{0,10}vaccine/i
 
 /nature.{0,10}(cure|morphine|opioids?|tea)/i
 
@@ -1100,7 +1105,7 @@
 /stretch.{0,10}(length|solutions?|soothe)/i
 /stretch.{0,10}(helps|smart(er)?)/i
 
-/stroke.{0,10}(indication|prevention|risk|signal)/i
+/stroke.{0,10}(awareness|indication|prevention|risk|signal)/i
 
 /strong(er)?.{0,10}(bladder|bones)/i
 /strong(er)?.{0,10}(hair|heart)/i

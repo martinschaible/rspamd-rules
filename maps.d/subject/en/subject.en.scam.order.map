@@ -182,8 +182,9 @@
 /shipping.{1,10}order terms/i
 /sourcing.{1,10}raw materials/i
 
-/supplier inquiry.{1,10}(catalog|terms)/i
-/^supply proposal/i
+/(supplier|supply).{1,10}distribution inquiry/i
+/(supplier|supply).{1,10}inquiry.{1,10}(catalog|terms)/i
+/^(supplier|supply) proposal/i
 
 # T
 # ------------------------------------------------------------------------------

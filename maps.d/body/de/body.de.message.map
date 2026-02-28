@@ -168,12 +168,15 @@
 
 /sicherstellen.{1,10}meine.{1,10}(e?.?mail|nachricht).{1,10}sie erreicht hat./i
 
-/sie.{1,10}erreichen meine e?.?mail gut/i
-/sie.{1,10}meine erste nachricht erhalten haben/i
 /sie.{1,10}diese nachricht genießen/i
+/sie.{1,10}erreichen meine e?.?mail gut/i
+
+/sie.{1,10}meine erste nachricht erhalten haben/i
+/sie.{1,10}meine e?.?mail.{1,10}letzter? woche erhalten haben/i
 /sie.{1,10}meine nachricht überrascht/iu
+
 /sie.{1,10}noch dieselbe.{1,10}e?.?mail.?adresse verwenden/i
-/sie.{1,10}unsere.{1,10}nachricht in.{1,15}stimmung erreicht hat/i
+/sie.{1,10}unsere.{1,10}(e?.?mail|nachricht) in.{1,15}stimmung erreicht hat/i
 
 /sie ihn mit bedacht lesen/i
 

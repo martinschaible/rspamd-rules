@@ -218,6 +218,7 @@
 # R
 # ------------------------------------------------------------------------------
 /reach you.{1,10}really need to connect/i
+/reaching out to you in confidence/i
 /read carefully.{1,10}my name is/i
 
 /represent a.{1,10}(based|company|group)/i
@@ -284,6 +285,7 @@
 /you with.{1,10}keen hope to open.{1,10}business/i
 
 /your (contact|details|e?.?mail|information|name).{1,10}business directory/i
+/your (contact|details|e?.?mail|information|name).{1,20}came to me through/i
 /your (contact|details|e?.?mail|information|name).{1,20}during.{1,10}research/i
 /your (contact|details|e?.?mail|information|name).{1,20}(has been|was) provided by google/i
 /your (contact|details|e?.?mail|information|name).{1,10}from.{1,20}business directory/i
