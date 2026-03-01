@@ -130,6 +130,7 @@
 
 # N
 # ------------------------------------------------------------------------------
+/new(ly)?.{1,10}validated.{1,10}business contacts/i
 
 # O
 # ------------------------------------------------------------------------------
@@ -178,6 +179,7 @@
 # ------------------------------------------------------------------------------
 /we are.{1,10}able.{1,10}grow.{1,10}followers/i
 /we are.{1,10}leading.{1,10}data solutions provider/i
+/we are.{1,10}offering.{1,15}leads/i
 
 /we can send.{1,10}targeted.{1,10}(campaigns|e?.?mail)/i
 /we can help.{1,10}your business solve/i

@@ -37,7 +37,7 @@
 # ------------------------------------------------------------------------------
 /bauch.{0,10}(ruhe|weg)/i
 /besser.{0,10}sehen/i
-/bett.{0,10}stille/i
+/bett.{0,10}(stille|zeit)/i
 /blut.{0,10}(druck|gesundheit|hochdruck)/i
 
 # C
@@ -120,13 +120,15 @@
 
 /klar.{0,10}(denken|hören|start)/i
 
-/komfort.{0,10}boost/i
+/komfort.{0,10}(boost|schlaf)/i
 /kopf.?stark/i
 
 # L
 # ------------------------------------------------------------------------------
 /leben.{0,10}aktiv/i
 /leber.{0,10}detox/i
+
+/leise.{0,10}nacht/i
 
 # M
 # ------------------------------------------------------------------------------
@@ -164,12 +166,15 @@
 # ------------------------------------------------------------------------------
 /rauchen.{0,10}aufhören/i
 /reduzieren sie.{1,15}fett/i
+/ruhe.{0,10}fit/i
 
 # S
 # ------------------------------------------------------------------------------
 /sanfte.{0,10}hilfe/i
 
-/schlaf.{0,10}(code|direkt|hilfe|plus|raum|scout|vorteil)/i
+/schlaf.{0,10}(code|direkt|hilfe|plus|raum|vorteil)/i
+/schlaf.{0,10}klar/i
+/schlaf.{0,10}(scout|spur)/i
 /schlank.{0,10}(booster|check|hilfe|welt)/i
 /schmerzen in/i
 
@@ -181,7 +186,7 @@
 /start.{0,10}(klar|wohl)/i
 /starten sie/i
 
-/stille?.{0,10}(klar|plus|vorteil)/i
+/stille?.{0,10}(direkt|klar|plus|vorteil|wirkung)/i
 
 /sofort.{0,10}kick/i
 

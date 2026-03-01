@@ -184,7 +184,7 @@
 
 /(supplier|supply).{1,10}distribution inquiry/i
 /(supplier|supply).{1,10}inquiry.{1,10}(catalog|terms)/i
-/^(supplier|supply) proposal/i
+/^(supplier|supply).{1,10}(partnership|proposal)/i
 
 # T
 # ------------------------------------------------------------------------------

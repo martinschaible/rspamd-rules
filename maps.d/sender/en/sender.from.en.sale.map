@@ -320,7 +320,8 @@
 
 # T
 # ------------------------------------------------------------------------------
-/tactic(al)?.{0,10}(edge|flashlight|gear|hiking|knive|report)/i
+/tactic(al)?.{0,10}(deal|flashlight|gear|hiking|knive|report)/i
+/tactic(al)?.{0,10}(edge|essentials)/i
 /tactic(al)?.{0,10}(official|outdoors)/i
 /tactic(al)?.{0,10}(stick|survival)/i
 

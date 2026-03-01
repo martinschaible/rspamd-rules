@@ -69,6 +69,7 @@
 /earn.{1,10}big with.{1,10}(funds|legal)/i
 /earn.{1,10}(fixed|net) returns/i
 /earn.{1,10}(monthly|yearly).{1,10}income/i
+/earn.{1,10}(monthly|yearly).{1,15}(monthly|rental).{1,15}returns/i
 /earn.{1,15}over \d years/i
 
 /earn.{1,10}(monthly|yearly).{1,10}(income|rentals)/i
@@ -135,7 +136,8 @@
 
 # P
 # ------------------------------------------------------------------------------
-/(home|property) in dubai/i
+/(home|property).{1,10}in dubai/i
+/(home|property).{1,15}investment.{1,15}guaranteed returns/i
 
 # Q
 # ------------------------------------------------------------------------------
@@ -146,6 +148,8 @@
 
 # S
 # ------------------------------------------------------------------------------
+/secured.{1,15}property investment/i
+
 /start earning commissions?/i
 
 /steady income.{1,10}any age/i

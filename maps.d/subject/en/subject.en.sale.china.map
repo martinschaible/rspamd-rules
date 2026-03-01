@@ -38,7 +38,8 @@
 /moulding.{1,10}services.{1,10}(from|in|of).{1,10}china/i
 /shoe factory.{1,10}(from|in|of).{1,10}china/i
 
-/(pcba?|printed.?circuits?.?board).{1,10}factory (from|in) china/i
+/logistic company.{1,10}(from|in|of).{1,10}china/i
+/(pcba?|printed.?circuits?.?board).{1,10}(company|factory) (from|in) china/i
 
 /we are.{1,10}china.{1,15}(dropshipping|leading|platform|supplier)/i
 /we are.{1,10}the best chinese/i
@@ -82,6 +83,8 @@
 
 /boost your.{1,15}profit by/i
 
+/brief introductory.{1,10}zoom call/i
+
 # C
 # ------------------------------------------------------------------------------
 /cables durable.{1,10}flexible/i
@@ -92,6 +95,8 @@
 /capacitors?.{1,10}resistors?/i
 
 /capacity.{1,10}fuses from/i
+
+/cast iron.{1,10}supplier/i
 
 /change.{1,10}printing supplier/i
 /charger.{1,10}solar products?/i
@@ -130,10 +135,13 @@
 /custom.{1,10}printing solutions?/i
 /custom.{1,10}(t.?)shirts.{1,10}tracksuits/i
 /custom.{1,10}transformer.{1,10}manufacturer/i
+/custom.{1,10}wire.{1,10}harness/i
 
 /(customizable|customized).{1,10}(freight|packaging).{1,10}solutions?/i
 /(customizable|customized).{1,10}(mannequins|metal solutions|pvc.?hoses?)/i
 /(customizable|customized).{1,10}works for/i
+
+/customization promotional/i
 
 /(cutting.?edge|dependable|different).{1,10}(pcba?|printed.?circuits?.?board).{1,10}(partner|supplier)/i
 
@@ -400,12 +408,15 @@
 /(professional|reliable|trusted).{1,20}supplier.{1,15}partnership/i
 
 /(professional|reliable|trusted).{1,10}(capacitor|chain|cnc|drag).{1,10}(manufacturer|partners?|suppliers?)/i
-/(professional|reliable|trusted).{1,10}freight forwarding/i
+/(professional|reliable|trusted).{1,10}freight.{1,10}forwarding/i
+/(professional|reliable|trusted).{1,10}logisti.{1,10}company/i
 /(professional|reliable|trusted).{1,15}(manufacturing|scaffolding).{1,10}(manufacturer|partners?|suppliers?)/i
 /(professional|reliable|trusted).{1,10}(pcba?|printed.?circuits?.?board).{1,10}(manufacturer|partners?|suppliers?)/i
 /(professional|reliable|trusted).{1,15}(manufacturer|partners?|suppliers?) (for|of)/i
 /(professional|reliable|trusted).{1,15}custom fabrication/i
 /(professional|reliable|trusted).{1,15}solutions to drive/i
+
+/promotional.{1,10}bags/i
 
 /prototype (manufacturer?|mould)/i
 
