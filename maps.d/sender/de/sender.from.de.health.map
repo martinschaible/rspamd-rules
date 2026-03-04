@@ -218,7 +218,8 @@
 /wirkung.{0,10}jetzt/i
 /wohl.{1,10}(detox|klar|vital)/i
 
-/würze.{0,10}(insider|ratgeber|tages|wunder)/iu
+/würze.{0,10}(insider|tages|wunder)/iu
+/würze.{0,10}(ratgeber|revolution)/i
 
 # X
 # ------------------------------------------------------------------------------
@@ -228,4 +229,10 @@
 
 # Z
 # ------------------------------------------------------------------------------
-/zimt.{0,10}(berater|bericht|hinweis|könig|risiken|risiko|spezialist|wissen)/iu
+/zimt.{0,10}(hinweis|könig|spezialist)/iu
+/zimt.{0,10}(berater|bericht|booster)/i
+/zimt.{0,10}experte/i
+/zimt.{0,10}notiz/i
+/zimt.{0,10}pionier/i
+/zimt.{0,10}(ratgeber|risiken|risiko)/i
+/zimt.{0,10}(warnung|wissen)/i

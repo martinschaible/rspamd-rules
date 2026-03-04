@@ -35,6 +35,11 @@
 /(verwertung|waren).{1,15}(insolvenzverfahren|liquidationen)/i
 /vermögensveräußerung.{1,15}(insolvenzverfahren|liquidationen)/iu
 
+# Fake Selling
+# ------------------------------------------------------------------------------
+/nur noch wenige flaschen/i
+/sichere dir dein angebot/i
+
 #
 #
 #

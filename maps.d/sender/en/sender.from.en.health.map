@@ -112,7 +112,7 @@
 
 /healthy?.{0,10}(aging|alerts?|alternative)/i
 /healthy?.{0,10}(brain|briefing|choice(es)?|conspiracy|deals?|digest)/i
-/health.?.{0,10}(discovery|digest|enigma)/i
+/health.?.{0,10}(discovery|digest|drink|enigma)/i
 /healthy?.{0,10}(feet|fibes|files?|flush|foods?|freedom)/i
 /healthy?.{0,10}(gift|guides?|gut)/i
 /healthy?.{0,10}(habit|hack|hair|heart|heaven|hero)/i
@@ -347,7 +347,7 @@
 
 /basic.{0,10}protein/i
 
-/beauty.{0,10}(acid|hack|revival||secret|tip)/i
+/beauty.{0,10}(acid|hack|revival|secret|tip)/i
 
 /bed.{0,10}(hack|stretch)/i
 /bed.?time.{0,10}(brew|habit|move|reset|solution)/i
@@ -1134,7 +1134,7 @@
 /stop.{0,10}dieting/i
 /(strange|spice).{0,10}trick/i
 
-/sweet.{0,10}(balance|control||deal|fix|solution|trick)/i
+/sweet.{0,10}(balance|control|deal|fix|solution|trick)/i
 /swelling.{0,10}solution/i
 
 /swollen.{0,10}(belly|feet|foot|gut|legs)/i

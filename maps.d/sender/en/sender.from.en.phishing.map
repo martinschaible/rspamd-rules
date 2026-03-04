@@ -54,7 +54,7 @@
 /i\.?t (admin|notice|management|notification|server)/i
 /^it.?support$/i
 
-/cloud.{0,10}(admin|backup|limit|membership|operations|storage|team)/i
+/cloud.{0,10}(admin|backup|limit|membership|operations|ops|storage|team)/i
 /cloud.{0,10}benachrichtigung/i
 
 /cpanel.{0,10}(webhost|webmail)/i
@@ -77,6 +77,9 @@
 
 /^server$/i
 /server.?(notification|report|team)/i
+
+/storage.{0,10}admin/i
+
 /^support.?(access|client|desk|team)$/i
 /support.{0,5}(admin|webmail)/i
 
