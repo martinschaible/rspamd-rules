@@ -61,6 +61,9 @@
 # Three stars
 /\*\*\*/i
 
+# Four dots
+/\.\.\.\./i
+
 # Three dots at the end
 # -> Yes, some silly people are doing this in real life.
 #    Decreasing score to avoid False/Positives

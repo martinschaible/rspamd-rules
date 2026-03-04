@@ -32,7 +32,8 @@
 /posten aus.{1,15}insolvenz/i
 /unser(em)?.{1,10}insolvenzkatalog/i
 
-/(verwertung|waren) aus.{1,15}(insolvenzverfahren|liquidationen)/i
+/(verwertung|waren).{1,15}(insolvenzverfahren|liquidationen)/i
+/vermögensveräußerung.{1,15}(insolvenzverfahren|liquidationen)/iu
 
 #
 #
@@ -289,6 +290,7 @@
 
 # T
 # ------------------------------------------------------------------------------
+/technische systemmaßnahme mit frist/iu
 
 # Paypal
 /transaktionshistorie freigegeben.{1,10}ref/i

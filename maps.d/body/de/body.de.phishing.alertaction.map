@@ -46,6 +46,7 @@
 /bestätigen.{1,10}sie.{1,10}details.{1,10}um den abschluss/i
 /bestätigen.{1,10}sie.{1,10}(meine|ihre).{1,10}telefon.?nummer/iu
 /bestätigen.{1,10}sie.{1,10}ihr geschenk/iu
+/bestätigen.{1,10}sie.{1,10}ihr werbekonto/iu
 /bestätigen.{1,10}sie.{1,10}schnell.{1,15}ihre identität/iu
 
 /(bestätigen|verifizieren) sie ihr.{1,15}wallet/i
@@ -74,6 +75,7 @@
 # ------------------------------------------------------------------------------
 /endgültige warnung.{1,10}kontoaussetzung aktiv/i
 
+/erinnerung.{1,10}ihre identitätsprüfung/iu
 /erinnerung.{1,10}ihre kundenpunkte/i
 /erinnerung.{1,10}wettbewerb/i
 

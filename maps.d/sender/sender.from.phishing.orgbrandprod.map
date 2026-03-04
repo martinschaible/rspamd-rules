@@ -606,6 +606,7 @@
 
 /media markt/i
 
+/m e t a/i
 #/^meta$/i
 /ads.?meta/i
 
@@ -885,7 +886,8 @@
 
 /#?sumup/i
 /^sumup\.?$/i
-/sum-up\./i
+/sum(-|_)up\./i
+/sum up/i
 /sum.?up.{0,10}(kundenservice|kontakt)/i
 /sumxup/i
 
