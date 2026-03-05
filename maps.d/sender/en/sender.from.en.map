@@ -20,7 +20,7 @@
 /\(\d{6,15}\)/i
 
 # Patterns
-/sales\d{1,2}/i
+/(sales|services)\d{1,2}/i
 
 /aaa/i
 

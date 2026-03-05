@@ -37,8 +37,9 @@
 # Silly language
 # ------------------------------------------------------------------------------
 /(aufrichtig|anziehend).{1,10}(freund|herr|mann)/i
-/(bewundernswert|deutche|fehlerlos|glänzend|heutig|nützlich|scharfsinnig|wunderbar|zielstrebige).{1,10}(freund|herr|mann)/i
+/(bewundernswert|deutche|fehlerlos|glänzend|heutig|nützlich|wunderbar|zielstrebige).{1,10}(freund|herr|mann)/i
 /ergeben.{1,10}(freund|herr|mann)/i
+/(scharfsinnig|sympathisch).{1,10}(freund|herr|mann)/i
 
 #
 #
@@ -168,6 +169,8 @@
 
 /ihre private fantasie/i
 /ihre übereinstimmung/iu
+
+/interessiert.{1,10}mich zu treffen/i
 
 # J
 # ------------------------------------------------------------------------------

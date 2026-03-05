@@ -256,7 +256,8 @@
 /adac_/i
 /adac\.de/i
 /adac.?202\d/i
-/adac.{0,10}(abteilung|deutschland|exklusiv|gmbh|mitglieder|online|sicherheit|support)/i
+/adac.{0,10}(abteilung|deutschland|exklusiv|gmbh|mitglieder|online|support)/i
+/adac.{0,10}(servies?|sicherheit)/i
 /adac.{0,10}(karten.?service|kreditkarte|kundendienst)/i
 
 /adac.?mitglied$/i
@@ -307,6 +308,7 @@
 
 /^ard.?zdf$/i
 /ard.?zdf.?(radio|service|team)/i
+(ard|zdf).{0,10}(gebühren|service|support)/iu
 
 /aarp.{0,10}(advertiser|offer|opportunity)/i
 
@@ -811,6 +813,8 @@
 /\| rewe$/i
 
 /r0ssmann/i
+
+/(beitrag|rundfunk).{0,10}info/i
 
 # S
 # ------------------------------------------------------------------------------
