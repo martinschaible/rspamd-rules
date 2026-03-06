@@ -33,7 +33,8 @@
 
 /(ceramics|clothing|goods|material|packaging|plastic|product).{1,10}co.{1,5}(limited|ltd)/i
 
-/this is.{1,15}from.{1,15}technology ltd/i
+/this is.{1,15}from.{1,15}technology (limited|ltd)/i
+/this is.{1,25}co.{1,5}(limited|ltd)/i
 
 /(limited|ltd).{1,10}(specializes in|we are major)/i
 /(limited|ltd).{1,10}we (provide|specialize)/i

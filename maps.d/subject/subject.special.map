@@ -72,6 +72,9 @@
 # Dots between charcater like this: Fi.n.a.n.z.i.e.r.u.n.g
 /\w\.\w\.\w\.\w\./i
 
+#
+/~_/i
+
 # Multiple special characters in silly combinations
 # ------------------------------------------------------------------------------
 # -> Theses RegEx might be constructed easier and better

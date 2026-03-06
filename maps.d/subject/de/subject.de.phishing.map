@@ -125,6 +125,7 @@
 # ------------------------------------------------------------------------------
 /e.?vignette.{1,5}ref/i
 /e.?vignette.{1,10}service unterbrochen/i
+/e.?vignette.{1,10}vorübergehend deaktiviert/iu
 
 /eingestellt.{1,5}#\d{2,15}/i
 
@@ -287,8 +288,9 @@
 /sicherheitsüberprüfung.{1,10}ihrer.{1,10}identitätsdokumente/iu
 /sicherheitsupdate.{1,10}control.?panel/i
 
-
 /sie sicher.{1,10}dass alle informationen korrekt sind/iu
+/sie wurden für die.{1,15}woche ausgewählt/i
+
 /sind momentan vorübergehend gesperrt/iu
 
 /statusprüfung.{1,10}unterlagenprüfung/iu

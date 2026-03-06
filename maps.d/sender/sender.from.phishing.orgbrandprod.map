@@ -322,6 +322,9 @@
 
 # B
 # ------------------------------------------------------------------------------
+
+/bahn\.de/i
+
 /banksantander/i
 
 /bank ag-?-.?(kundenbetreuung|kundenservice)/i
@@ -335,6 +338,7 @@
 /bíngo/i
 
 /brack\.ch/i
+/brack.?\|/i
 
 /bundeskriminalpolizei/i
 /bundessteueramt/i
@@ -560,6 +564,8 @@
 /jcbカ/i
 /my.?jcb/i
 
+/jura.{0,10}(kundenservice|team)/i
+
 # K
 # ------------------------------------------------------------------------------
 /kaufland.{0,10}(geschenk|team)/i
@@ -697,7 +703,7 @@
 /support.{0,10}netflix/i
 
 /nespresso.{0,10}(deutschland|schweiz)/i
-/nespresso.{0,10}(club|exclusives|gifts|kundenservice|team)/i
+/nespresso.{0,10}(club|exclusives|gifts|kundenservice|mitgliedschaft|team)/i
 /nespresso.{0,5}(ch|de)$/i
 
 /netto_/i

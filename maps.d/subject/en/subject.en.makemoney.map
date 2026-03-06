@@ -131,6 +131,7 @@
 # O
 # ------------------------------------------------------------------------------
 /own.{1,10}(beachfront|dubai|iconic|island|luxury|uk\b).{1,15}(home|property)/i
+/own.{1,10}renovated.{1,15}(home|property)/i
 /own.{1,10}(home|property).{1,10}(at|developed|near)/i
 /own.{1,10}high yield buy/i
 
@@ -138,6 +139,7 @@
 # ------------------------------------------------------------------------------
 /(home|property).{1,10}in dubai/i
 /(home|property).{1,15}investment.{1,15}guaranteed returns/i
+/(home|property).{1,15}investment.{1,15}offering guaranteed/i
 
 # Q
 # ------------------------------------------------------------------------------
@@ -149,6 +151,7 @@
 # S
 # ------------------------------------------------------------------------------
 /secured.{1,15}property investment/i
+
 
 /start earning commissions?/i
 

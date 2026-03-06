@@ -240,8 +240,10 @@
 # R
 # ------------------------------------------------------------------------------
 /reason.{1,10}contacting you/i
+
 /recovered.{1,10}lost crypto(currency)?/i
-/recover your money/i
+/recover.{1,10}your money/i
+/recovery?.{1,10}your lost money/i
 
 /relationship with you/i
 
