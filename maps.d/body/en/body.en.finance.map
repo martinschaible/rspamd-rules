@@ -42,6 +42,7 @@
 # C
 # ------------------------------------------------------------------------------
 /capital.{1,10}your profitable project/i
+/(company|finance).{1,15}offering.{1,15}project funding/i
 
 # D
 # ------------------------------------------------------------------------------
@@ -85,6 +86,7 @@
 /llc.{1,15}investment (company|firm)/i
 
 /(loan|credit)s?.{1,10}apply/i
+/(loan|credit)s?.{1,10}at a competitive/i
 /(loan|credit)s?.{1,15}business with low interest/i
 /(loan|credit)s?.{1,10}finance.{1,10}project/i
 /(loan|credit)s?.{1,10}for your.{1,10}(business|personal)/i

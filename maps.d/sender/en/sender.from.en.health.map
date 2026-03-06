@@ -365,6 +365,9 @@
 /(big|flat(ten)?).{0,10}stomach/i
 
 /bitter.{0,10}fruit/i
+
+/biological.{0,10}fix/i
+
 /black.{0,10}coffee/i
 /bladder.{0,10}(boost|care|coach|control|danger|fix|flush|health)/i
 /bladder.{0,10}(leaks?|leakage|leaking|issues?)/i
@@ -565,7 +568,7 @@
 /easy.{0,10}(slim|spine|stretch)/i
 
 /eat.{0,10}(fruitme|me|this)/i
-/eggs.{0,10}hack/i
+/egg?.{0,10}(bacon|hack)/i
 /egyptian.{0,10}hack/i
 
 /(eliminates|eliminating).{0,10}(fat|pain)/i
@@ -623,6 +626,8 @@
 /flexibility.{0,10}booster/i
 
 /flirt.{0,10}trigger/i
+
+/fluid.{0,10}release/i
 /flush.{0,10}(trick|toxins?)/i
 
 /full(er)?.{0,10}hair/i
@@ -904,8 +909,10 @@
 /normal.{0,10}a1c/i
 /nose.{0,10}test/i
 
-/nutrition.{0,15}(absorption|explorer|fruits|healing|insider|insights|intelligence|less)/i
-/nutrition.{0,15}(nuances?|notes?|paradox|report|tips?|truth|veggies)/i
+/nutrition.{0,15}(absorption|discovery|explorer|fruits|healing|less)/i
+/nutrition.{0,15}(insider|insights|intelligence)/i
+/nutrition.{0,15}(nuances?|notes?)/i
+/nutrition.{0,15}(paradox|report|tips?|truth|veggies)/i
 
 # O
 # ------------------------------------------------------------------------------
@@ -984,7 +991,7 @@
 
 /real.{0,10}(cause|result)/i
 
-/red.{0,10}(berry|elixir|juice|meat)/i
+/red.{0,10}(berry|elixir|juice|meat|water)/i
 /regain your/i
 /regenerate.{0,10}eyes?/i
 
@@ -1078,7 +1085,7 @@
 /sound.{0,10}reset/i
 /sore.{0,10}muscles?/i
 /soup.{0,10}(hack|solution|trick)/i
-/sooth.{0,10}relief/i
+/soothe?.{0,10}(irritation|relief)/i
 
 /special.{0,10}salt/i
 
@@ -1086,7 +1093,8 @@
 /spine.{0,10}(report|reset|study)/i
 /spiky.{0,10}fruit/i
 
-/spine.{0,10}(alignment|hack|trick)/i
+/spine.{0,10}(alignment|trick)/i
+/spine.{0,10}(hack|health)/i
 /spinal.{0,10}pain/i
 
 /stay.{0,10}(asleep|hard|slim|trim)/i

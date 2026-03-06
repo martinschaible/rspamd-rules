@@ -84,7 +84,10 @@
 
 /shrink.{1,10}fat tissue/i
 /shrink.{1,10}your (belly|tummy)/i
-/slim down.{1,10}with/i
+
+/slim(med)? down.{1,10}in a matter/i
+/slim(med)? down.{1,10}with/i
+
 /(re)?start.{1,10}(fat|weight) burning/i
 
 /targets.{1,10}(fat|weight)/i
