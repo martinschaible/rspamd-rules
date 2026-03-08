@@ -32,7 +32,8 @@
 /custom shirts.{1,15}from.{1,10}china/i
 /competitive.{1,15}from.{1,10}china/i
 /(components|plastic|supply|toolmaking).{1,15}china/i
-/(disposer|parts).{1,15}(from|in|of).{1,10}china/i
+
+/(disposer|solutions|parts).{1,15}(from|in|of).{1,10}china/i
 
 /hot.{1,15}from china/i
 /(manufacturer?|moulding|suppliers?).{1,10}(from|in|of).{1,10}china/i
@@ -308,6 +309,8 @@
 /many years.{1,10}oem/i
 
 /manufacture.{1,10}vendor from china/i
+
+/manufacturers?.{1,10}for.{1,15}packing/i
 
 /manufacturers?.{5,25}good rate/i
 /manufacturers?.{1,10}looking.{1,10}(cooperate|cooperation|opportunities)/i

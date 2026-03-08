@@ -218,6 +218,7 @@
 
 /(spende|zuschuss).{1,10}in höhe von.{1,30}von einem philanthropen/iu
 /(spende|zuschuss).{1,10}in höhe von.{1,30}wurde an sie/iu
+/(spende|zuschuss).{1,25}in höhe von.{1,20}(dollar|euro?|gbp|usd|€|\$|£).{1,15}ausgewählt/iu
 
 /(spende|zuschuss).{1,10}ist für die ersten.{1,10}personen/i
 

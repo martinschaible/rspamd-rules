@@ -41,6 +41,7 @@
 # EDEKA
 # E.ON Kundenservice
 # facebook
+# Facebook Freundschaftsvorschläge
 # Facebook-Seiten
 # GLS Paket
 # google
@@ -56,7 +57,7 @@
 # Lidl Küchenliebe
 # Lidl lohnt sich
 # McAfee
-# Mein ROSSMANN April
+# Mein ROSSMANN
 # Meta
 # METRO
 # Microsoft account team
@@ -337,6 +338,8 @@
 
 /bíngo/i
 
+/bmw.?x/i
+
 /brack\.ch/i
 /brack.?\|/i
 
@@ -393,6 +396,8 @@
 # ------------------------------------------------------------------------------
 /danke.{0,5}kaufland/i
 
+/db.{0,5}deutschland/i
+
 /-debix/i
 /debix+/i
 /debbix\+/i
@@ -410,6 +415,8 @@
 /deutschen.?bahn/i
 
 /deutsche.?bahn.{0,10}(gutschein|service|team|umfrage)/i
+
+/deutsche-bank/i
 /deutsche bank.{0,10}kundenservice/i
 
 /deutschland.?radio.{0,10}nachrichtendienst/i
@@ -808,7 +815,7 @@
 
 # R
 # ------------------------------------------------------------------------------
-/raiffeisen.{0,10}(kundenservice|team|twint)/i
+/raiffeisen.{0,10}(kundenservice|sicherheit|team|twint)/i
 /^raiffeisen$/i
 
 /raiffeisenbanken,/i
