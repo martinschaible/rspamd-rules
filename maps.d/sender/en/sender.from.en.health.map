@@ -817,6 +817,8 @@
 /male.{0,10}(virility|vitality)/i
 
 /med.?journal/i
+/media.{0,10}leak/i
+
 /(medical|medicinal|medication).{0,15}(alert|daily|discovery|findings?|patch(es)?|shock|unit)/i
 /medical.{0,10}update/i
 /medical.{0,10}watchdog/i
@@ -1153,7 +1155,7 @@
 /tap your/i
 
 /thanksgiving.{0,10}delight/i
-/the.{0,10}pain/i
+/the.{0,10}(pain|spray)/i
 
 /thicker.{0,10}harder/i
 /thight(er)?.{0,10}skin/i
@@ -1170,7 +1172,8 @@
 /tongue.{0,10}move/i
 
 /top.{0,10}(experts?|fruits?|medication)/i
-/toxic.{0,10}(food|fruits?|liquid|milk|mineral|veggies)/i
+/toxic.{0,10}(food|fruits?)/i
+/toxic.{0,10}(ingredient|liquid|milk|mineral|veggies)/i
 /toxin.{0,10}(destroyer|flush|mineral|removal|watch)/i
 
 /trapped.{0,10}toxins/i

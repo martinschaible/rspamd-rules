@@ -163,6 +163,9 @@
 # ------------------------------------------------------------------------------
 /kein risiko.{1,10}keine vorkasse/i
 
+# Probably more scam as sale
+/ki.?webinare für.{1,10}mitglieder/iu
+
 /komfort.{1,10}(magnetfeldtherapie|spezialisten)/i
 
 /komplett für nur \d{2,3}.{1,10}netto/iu

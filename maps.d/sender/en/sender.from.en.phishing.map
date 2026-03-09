@@ -31,6 +31,7 @@
 /\.[a-z]{1,4}.{1,5}(service|support).?(deck|team)/i
 
 /\.[a-z]{1,4}.{1,5}support$/i
+/\.[a-z]{1,4}.{1,5}voicemail/i
 /\.[a-z]{1,4}.{1,5}webmail/i
 
 # TLD at the end
@@ -55,7 +56,8 @@
 /i\.?t (admin|notice|management|notification|server)/i
 /^it.?support$/i
 
-/cloud.{0,10}(admin|backup|limit|membership|operations|ops|storage|team)/i
+/cloud.{0,10}(account|admin)/i
+/cloud.{0,10}(backup|limit|membership|operations|ops|storage|team)/i
 /cloud.{0,10}benachrichtigung/i
 
 /cpanel.{0,10}(webhost|webmail)/i

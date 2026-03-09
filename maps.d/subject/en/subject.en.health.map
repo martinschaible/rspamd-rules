@@ -103,9 +103,9 @@
 /avoid.{1,10}eating this/i
 /avoid.{1,10}heart attack/i
 /avoid.{1,10}here.{1,10}why/i
-/avoid.{1,10}(these|this).{1,10}(back|breakfast)/i
-/avoid.{1,10}(these|this).{1,10}(damaging|dangerous|deadly|diabetic|foods?|fruit|ingredient)/i
-/avoid.{1,10}(these|this).{1,10}(common|gut)/i
+/avoid.{1,10}(these|this).{1,15}(back|breakfast)/i
+/avoid.{1,10}(these|this).{1,15}(damaging|dangerous|deadly|diabetic|foods?|fruit|ingredient)/i
+/avoid.{1,10}(these|this).{1,15}(common|gut)/i
 /avoid.{1,10}tinnitus/i
 
 /away your.{1,10}memory/i
@@ -688,6 +688,8 @@
 /penis.{1,10}(enlargement|growth|ritual|size|stiffness)/i
 /perfect vision/i
 
+/pesky.{1,10}ear noises?/i
+
 /pill to end/i
 
 /plastic surgeon reveals/i
@@ -933,6 +935,8 @@
 /the.{1,10}minute morning/i
 /the.{1,10}secret ingredient/i
 /the.{1,10}truth about/i
+
+/they cause alzheimer/i
 
 /(these|this).{1,10}(food|fruits?).{1,10}(are|kills?|may|might|should|worse)/i
 

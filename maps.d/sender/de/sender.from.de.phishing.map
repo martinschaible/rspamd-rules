@@ -18,7 +18,7 @@
 
 # A
 # ------------------------------------------------------------------------------
-/Abonnement.{0,10}Verwaltung/i
+/abonnement.{0,10}verwaltung/i
 /automatische.{0,10}systemmeldung/i
 
 # B
@@ -115,6 +115,7 @@
 /import.{0,10}zoll/i
 
 /in kooperation mit/i
+/info.{0,10}paketzentrum/i
 /international(er).{0,10}(kurier|lieferung)/i
 
 # J
@@ -206,7 +207,7 @@
 /sicherheits?.{0,10}(kartenservice|support|vertrauen)/i
 /sie haben/i
 
-/speicher.?(icloud|dienste?|team|update)/i
+/speicher.{0,5}(i?cloud|dienste?|team|update)/i
 /spezielle.{0,10}nachricht/i
 
 /store.{0,10}lager/i

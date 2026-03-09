@@ -53,6 +53,8 @@
 # ------------------------------------------------------------------------------
 /database includes verified.{1,15}contacts/i
 
+/discounted.{1,10}contact lists/i
+
 # E
 # ------------------------------------------------------------------------------
 /each.{1,10}million e?.?mails/i
@@ -60,7 +62,9 @@
 /e?.?mail.{1,10}addresses.{1,10}for sale/i
 /e?.?mail.{1,10}are verified.{1,10}valid/i
 
-/e?.?mail.{1,10}campaign.{1,10}platform/i
+/e?.?mail.{1,10}campaigns?.{1,10}platform/i
+e?.?mail.{1,10}campaigns?.{1,10}tailored to your/i
+
 /e?.?mail.{1,10}credits.{1,10}lead lists/i
 /e?.?mail.{1,10}marketing.{1,10}(bulk|mass).{0,10}mailing/i
 /e?.?mail.{1,10}maximum efficiency/i

@@ -342,9 +342,11 @@
 
 /translation.{0,10}(device|services?)/i
 
+/trend.{0,10}toys/i
+
 /truth.{0,10}(finder|watch)/i
 /tv.{0,10}access?/i
-/tv.{0,10}(deals|streaming|upgrade)/i
+/tv.{0,10}(deals|offers?|streaming|upgrade)/i
 
 # U
 # ------------------------------------------------------------------------------

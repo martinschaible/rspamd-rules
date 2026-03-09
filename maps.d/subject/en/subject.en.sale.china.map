@@ -39,6 +39,7 @@
 /(manufacturer?|moulding|suppliers?).{1,10}(from|in|of).{1,10}china/i
 /moulding.{1,10}services.{1,10}(from|in|of).{1,10}china/i
 /shoe factory.{1,10}(from|in|of).{1,10}china/i
+/simplifying.{1,10}china.{1,10}imports/i
 
 /logistic company.{1,10}(from|in|of).{1,10}china/i
 /(pcba?|printed.?circuits?.?board).{1,10}(company|factory) (from|in) china/i
@@ -133,11 +134,15 @@
 /custom.{1,10}metal (components|parts)/i
 /custom.{1,10}(bags?|cap|machined parts|metal stamping)/i
 /(custom|excellent).{1,10}(pcba?|printed.circuits?.board)/i
+/custom.{1,10}manufacturing.{1,10}prototype/i
+
 /custom.{1,10}products? manufacturing/i
 /custom.{1,10}printing solutions?/i
 /custom.{1,10}(t.?)shirts.{1,10}tracksuits/i
 /custom.{1,10}transformer.{1,10}manufacturer/i
 /custom.{1,10}wire.{1,10}harness/i
+/custom.{1,10}women.{1,10}clothing/i
+
 
 /(customizable|customized).{1,10}(freight|packaging).{1,10}solutions?/i
 /(customizable|customized).{1,10}(mannequins|metal solutions|pvc.?hoses?)/i
@@ -160,6 +165,7 @@
 
 /discover.{1,10}cnc.{1,20}for your business/i
 /discover.{1,10}faster.{1,10}(pcba?|printed.?circuits?.?board)/i
+/discover.{1,10}our.{1,10}home.{1,10}products/i
 /discover.{1,10}reliability of/i
 /discover.{1,10}stainless steel/i
 
@@ -352,8 +358,9 @@
 
 /our.{1,10}advanced.{1,10}(pcba?|printed.?circuits?.?board)?/i
 /our.{1,10}latest.{1,20}for your reference/i
-/our.{1,10}paper.?bag solutions/i
 /our.{1,10}high.?quality.{1,10}(pcba?|printed.?circuits?.?board)?/i
+/our.{1,10}paper.?bag.{1,10}solutions?/i
+/our.{1,10}silicone oil.{1,10}solutions?/i
 /our.{1,10}wide range of/i
 
 # P
@@ -478,6 +485,7 @@
 /solutions.{1,10}your projects/i
 
 /stable pricing.{1,10}fast lead times/i
+/stainless steel.{1,10}wire rope/i
 /standard mold(ing)?/i
 
 /supplier.{1,10}high.{1,10}(precision|quality)/i
@@ -513,7 +521,8 @@
 /we are.{1,10}looking for partners for/i
 /we are.{1,10}the best.{1,10}supplier/i
 
-/we guarantee stable quality/i
+/we deliver.{1,10}robust cnc/i
+/we guarantee.{1,10}stable quality/i
 /we have focused on offering/i
 
 /we (make|supply).{1,20}(bags|majority|microphone|packing|priced chips|wireless)/i
@@ -524,8 +533,6 @@
 /(welding|wire).{1,20}for your needs/i
 /with.{1,20}services/i
 /with our precision.{1,20}(engineered|solutions)/i
-
-/custom women.{1,10}clothing/i
 
 # X
 # ------------------------------------------------------------------------------

@@ -95,6 +95,8 @@
 #/bestätigung.{1,15}ihre bestellung/i
 #/bestätigung erforderlich/i
 
+/bestaetigung noetig/i
+
 /bestellnummer.{1,15}bestätigt/i
 
 /betreff.{1,10}prüfen sie/iu
@@ -110,6 +112,7 @@
 /^datenätze.{1,10}aktualisieren/iu
 
 /datenbestätigung.{1,10}erforderlich/iu
+/datenbestätigung.{1,10}zur vermeidung/iu
 
 /datenpflege.{1,10}ihr unternehmen/i
 /datenpflege.{1,10}umgehend handeln/i
@@ -210,6 +213,9 @@
 
 /kundenservice von/i
 
+# Sample: Kurzer Check 3/10/2026
+/kurzer check.{1,10}\d{1,2}\/\d{1,2}\/\d{4}/i
+
 # Paypal
 # ------------------------------------------------------------------------------
 /kontoauszug für.{1,10}ist verfügbar.{1,10}ref/iu
@@ -308,6 +314,8 @@
 /unternehmensdaten.{1,10}müssen bestätigt/iu
 /unternehmensinformationen zur bestätigung/iu
 /unterstützung.{1,10}paypal/iu
+
+/uebergang.{1,10}einmalige anpassung/i
 
 /überprüfung.{1,10}aktualisierung.{1,10}adresse/iu
 /überprüfung.{1,10}(unternehmensangaben|unternehmensinformationen)/iu

@@ -28,8 +28,8 @@
 /co.{1,5}(limited|ltd).{1,10}trusted/i
 /co.{1,5}(limited|ltd).{1,10}to you/i
 
-/(enterprise|logistics).{1,15}co.{1,5}(limited|ltd)/i
-/(enterprise|logistics).{1,10}ltd.{1,5}whatsapp/i
+/(enterprise|equipment|logistics).{1,15}co.{1,5}(limited|ltd)/i
+/(enterprise|equipment|logistics).{1,10}ltd.{1,5}whatsapp/i
 
 /(ceramics|clothing|goods|material|packaging|plastic|product).{1,10}co.{1,5}(limited|ltd)/i
 
@@ -256,6 +256,7 @@
 /we.{1,10}provide.{1,10}one.?stop services/i
 /we.{1,10}provide.{1,10}reliable.{1,10}high.?performance/i
 /we.{1,10}provide.{1,10}reliable.{1,10}(capacitors|connectors|ics|resistors)/i
+/we.{1,10}provide.{1,10}the following.{1,10}custom/i
 
 /we.{1,10}setup.{1,10}(our|own).{1,10}manufacturing/i
 

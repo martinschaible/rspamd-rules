@@ -90,6 +90,8 @@
 
 /(i|we).{1,10}checked your.{1,10}(web.?)?site.{1,10}(found|noticed)/i
 /(i|we).{1,10}(came|went).{1,10}(across|through) your.{1,10}(web)?site.{1,10}(found|noticed)/i
+
+/(i|we).{1,10}have gone through your.{1,10}(web)?site/i
 /(i|we).{1,10}have studied your.{1,10}(web)?site/i
 
 /i was.{1,10}(browsing|reviewing|visiting) your (web.?)?site.{1,25}it looks like/i
@@ -190,6 +192,8 @@
 
 # W
 # ------------------------------------------------------------------------------
+/weaken your.{1,10}seo/i
+
 /we are.{1,10}(leading|offering) seo/i
 /we are.{1,10}seo.?agency/i
 

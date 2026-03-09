@@ -340,6 +340,7 @@
 
 /bmw.?x/i
 
+/\|.?brack/i
 /brack\.ch/i
 /brack.?\|/i
 
@@ -497,6 +498,8 @@
 # ------------------------------------------------------------------------------
 /facebook.{0,10}(ads.?team|inc)/i
 /facebook seiten?/i
+
+/fahrzeugwerkzeuge?/i
 
 /fedpol/i
 
