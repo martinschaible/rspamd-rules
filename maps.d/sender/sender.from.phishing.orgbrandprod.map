@@ -593,6 +593,8 @@
 
 /kontakt.{0,10}(spotify|swisspass)/i
 
+/rechnung.{0,10}klarna/i
+
 # L
 # ------------------------------------------------------------------------------
 /lepostesuisse/i
@@ -818,7 +820,9 @@
 
 # R
 # ------------------------------------------------------------------------------
-/raiffeisen.{0,10}(gruppe|kundenservice|sicherheit|team|twint)/i
+/raiffeisen.{0,10}(gruppe|kundenservice|team|twint)/i
+/raiffeisen.{0,10}(sicherheit|support)/i
+
 /^raiffeisen$/i
 
 /raiffeisenbanken,/i

@@ -41,7 +41,8 @@
 # C
 # ------------------------------------------------------------------------------
 #/(business|creat|creating).{1,10}apps?/i
-/(create|creating).{1,10}apps?/i
+/(create|creating).{1,15}apps?/i
+/(create|creating).{1,10}any.{1,15}application/i
 
 /cost for apps?/i
 

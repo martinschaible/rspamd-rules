@@ -112,9 +112,9 @@
 /guten (abend|morgen|tag).{1,10}bitcoins?/i
 
 /guten hallo/i
-/grusse an dich/i
+/grusse an (dich|sie)/i
 
-/(grüsse|grüße).{1,10}an sie.{1,10}ich schreibe ihnen/i
+/(grüsse|grüße).{1,10}an sie.{1,10}ich (bete|schreibe ihnen)/i
 /(grüsse|grüße).{1,10}betreff/iu
 /(grüsse|grüße).{1,10}(des|der) (saison|tages)/iu
 /(grüsse|grüße).{1,10}?.?mail inhaber/iu
@@ -147,7 +147,7 @@
 
 /hallo.{1,10}ich benötige.{1,15}ihre hilfe/iu
 
-/hallo.{1,10}ich bin.{1,10}finanzberater/i
+/hallo.{1,10}ich bin.{1,10}(finanzberater|web.?designer)/i
 /hallo.{1,10}ich bin.{1,10}single/i
 
 /hallo.{1,10}ich habe spenden?/i
@@ -307,7 +307,7 @@
 /sehr geehrter?.{1,15}(damen|frau|herr(en)?).{1,5}bitte überprüfen sie/iu
 /sehr geehrter?.{1,15}(damen|frau|herr(en)?).{1,10}beachten sie die angehängte mahnung/iu
 
-/sehr geehrter?.{1,5}(empfänger|firma|freund|nachfolger|unternehmer)(in)?/i
+/sehr geehrter?.{1,5}(empfänger|firma|freund|geschäftsführung|nachfolger|unternehmer)(in)?/iu
 /sehr geehrter?.{1,10}(gewinner|freundlicher|nutzer)/i
 /sehr geehrter?.{1,20}ich bin ein/i
 /sehr geehrter?.{1,10}temu.?kunde/i

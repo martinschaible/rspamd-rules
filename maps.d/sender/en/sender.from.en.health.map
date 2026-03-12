@@ -827,7 +827,8 @@
 /mental.{0,10}clarity/i
 
 /(metabolic|metabolism).{0,10}(balance|boost(er)?)/i
-/(metabolic|metabolism).{0,10}(cause|discovery|flow|health|hack|insider|insights?|loophole|mute|organ|unleash)/i
+/(metabolic|metabolism).{0,10}(health|hack)/i
+/(metabolic|metabolism).{0,10}(cause|discovery|flow|insider|insights?|loophole|mute|organ|unleash)/i
 /(metabolic|metabolism).{0,10}(reactivation|research|reset|revival|wine)/i
 
 /(mexican|rare).{0,10}salt/i
@@ -843,7 +844,7 @@
 
 /minute.{0,10}fix/i
 
-/(miracle|miraculous).{0,10}(brand|fruit|mind)/i
+/(miracle|miraculous).{0,10}(brand|fruit|mind|syrup)/i
 
 /missing.{0,10}nutrients?/i
 
@@ -1102,7 +1103,7 @@
 /stay.{0,10}(asleep|hard|slim|trim)/i
 /steady.{0,10}steps/i
 
-/stiff.{0,10}(joints|painful)/i
+/stiff.{0,10}(joints|painful|shoulder)/i
 /stinky.{0,10}breath/i
 
 /stop the/i
@@ -1163,6 +1164,8 @@
 
 /this.{0,10}(elixir|secret)/i
 /this.{0,10}(helped|helps)/i
+
+/throbbing.{0,10}shoulder/i
 
 /tiktok.{0,10}viral/i
 
