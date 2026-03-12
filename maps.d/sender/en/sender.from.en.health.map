@@ -32,6 +32,7 @@
 /memory.{0,10}(recovery|report|research|restoration|restore|revival|revive)/i
 /memory.{0,10}(saver|saving|secret|solution|strengthener|support)/i
 /memory.{0,10}(tonic|toxin)/i
+/memory.{0,10}update/i
 /memory.{0,10}vitamins?/i
 /memory.{0,10}watch/i
 
@@ -387,7 +388,7 @@
 
 /brain.{0,10}(boost|re?(boot)|exercise|fix|flow|health|noise|shrinkage|solution|upgrade)/i
 /brain.{0,10}(care|check|consequence)/i
-/brain.{0,10}(reset|revival|routine)/i
+/brain.{0,10}(report|reset|revival|routine)/i
 /brain.{0,10}test/i
 
 /breakfast.{0,10}(alert|boost|burner|insider|juice|mistake|myth|treat|quiz)/i
@@ -667,6 +668,8 @@
 /glp-1.{0,10}trick/i
 
 /golden.{0,10}spice/i
+/goodbye.{0,10}herpes/i
+
 /greek.{0,10}brew/i
 /green.{0,10}(black|clay|oil|remedy)/i
 /grow.{0,10}(hair|trick)/i

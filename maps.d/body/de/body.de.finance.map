@@ -24,7 +24,7 @@
 
 # B
 # ------------------------------------------------------------------------------
-/beantragen sie ein(en)?.{1,10}(dringend)?.{1,10}(darlehen|kredite?)/i
+/beantragen sie.{1,15}ein(en)?.{1,10}(dringend)?.{1,10}(darlehen|kredite?)/i
 
 /(benötigen|brauchen) sie.{1,15}ein darlehen/iu
 /(benötigen|brauchen) sie.{1,20}geschäfts.{1,10}privatdarlehen/iu
@@ -38,7 +38,9 @@
 /(benötigen|brauchen) sie.{1,10}kapital/iu
 /(benötigen|brauchen) sie.{1,20}kredite?/i
 /(benötigen|brauchen) sie.{1,10}persönliche finanzen/iu
+/(benötigen|brauchen) sie.{1,10}sie.{1,10}geld/iu
 /(benötigen|brauchen) sie.{1,15}zusätzliches geld/iu
+
 
 /bieten? (ich|wir).{1,20}(kurz|mittel|langfristige).{1,20}(darlehen|kredite?)/iu
 /bietet.{1,10}einzelpersonen.{1,10}unternehmen.{1,10}finanzielle/i
@@ -66,7 +68,10 @@
 
 # E
 # ------------------------------------------------------------------------------
+/erhalten sie.{1,10}benötigten mittel/iu
 /erhalten sie.{1,10}finanzierung/i
+/erhalten sie.{1,20}(einfache|günstige|schnelle).{1,25}kredite/i
+/erhalten sie.{1,10}darlehen.{1,15}kredite/i
 
 # F
 # ------------------------------------------------------------------------------
@@ -75,6 +80,8 @@
 
 # G
 # ------------------------------------------------------------------------------
+/geld.{1,10}wir helfen ihnen/i
+
 /geschäftskredit.{1,10}hypothek/iu
 
 /günstiges kreditangebot der.{1,15}bank/i
@@ -122,6 +129,7 @@
 
 # N
 # ------------------------------------------------------------------------------
+/flexible konditionen.{1,10}niedrige zinsen/i
 
 # O
 # ------------------------------------------------------------------------------
