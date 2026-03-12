@@ -155,6 +155,9 @@
 
 /statement.{0,10}account/i
 /stock.{0,10}offer/i
+
+/successfully.{0,5}confirmed/i
+
 /supply.?-pdf/i
 /swift.{0,10}(message|transaction)/i
 

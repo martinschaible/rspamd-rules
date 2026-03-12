@@ -31,7 +31,9 @@
 
 /aktion.{1,10}ihre?.{1,10}(paket|sendung).{1,10}erforderlich/iu
 
-/aktualisierung ihrer.{1,10}(kunden|kontakt)?daten erforderlich/i
+/aktualisierung ihrer.{1,10}(kunden|kontakt)?daten.{1,10}erforderlich/i
+/aktualisierung ihres.{1,10}(kontos|profils).{1,10}ist eine voraussetzung/i
+
 /(aktivieren|aktivierung).{1,15}sicherheitsebene/i
 
 /anfrage.{1,10}aktualisierung.{1,10}e?.?mail.?adresse/i

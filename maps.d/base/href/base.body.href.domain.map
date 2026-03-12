@@ -28,6 +28,9 @@
 
 /https?:\/\/\//i
 
+# Sample: http://16x9inc.com/http://malkermalrdimlfasmalrdi-4654.twil.io
+/https?:\/\/[a-z0-9-]{3,30}\.[a-z]{2,4}\/https?:\/\//i
+
 # Combination of TLDs pretending to be the real domain
 # ------------------------------------------------------------------------------
 

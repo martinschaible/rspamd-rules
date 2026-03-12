@@ -818,7 +818,7 @@
 
 # R
 # ------------------------------------------------------------------------------
-/raiffeisen.{0,10}(kundenservice|sicherheit|team|twint)/i
+/raiffeisen.{0,10}(gruppe|kundenservice|sicherheit|team|twint)/i
 /^raiffeisen$/i
 
 /raiffeisenbanken,/i

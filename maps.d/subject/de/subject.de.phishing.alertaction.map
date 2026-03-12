@@ -158,6 +158,7 @@
 # ------------------------------------------------------------------------------
 /(bedroht|festgestellt).{1,10}ergreifen sie maßnahmen/iu
 
+/benachrichtigung.{1,15}account suspendiert/i
 /benachrichtigung.{1,10}kontoaktivität/iu
 /benachrichtigung.{1,10}sofortige aktion/i
 /benachrichtigung.{1,10}ungewöhnlicher login/iu
@@ -201,6 +202,7 @@
 /bitte beachten sie.{1,10}ihre.{1,20}muss/i
 /bitte bestätigen.{1,10}aktualisieren/iu
 
+/bitte konto überprüfen/iu
 /bitte online.?zahlung.{1,10}bestätigen/iu
 
 /bitte um bestätigung.{1,10}zustellversuch/iu
@@ -306,6 +308,7 @@
 
 /frist für wichtige maßnahmen?/i
 /frist läuft ab.{1,10}sichern sie.{1,10}zugang/iu
+/frist zur.{1,20}datenbestätigung/iu
 
 # G
 # ------------------------------------------------------------------------------
