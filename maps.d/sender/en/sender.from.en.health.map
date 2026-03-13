@@ -706,7 +706,7 @@
 
 /hearing.{0,10}(habit|support|trouble)/i
 
-/heart.{0,10}(attack|boost|cells|check|danger|disease|health|helper)/i
+/heart.{0,10}(attack|boost|cells|check|danger|disease|freedom|health|helper)/i
 /heart.{0,10}(protection|rate|risk|wellness)/i
 /heart.{0,10}(saver|secret|shield|science|surgeon)/i
 
@@ -993,6 +993,7 @@
 # R
 # ------------------------------------------------------------------------------
 /radiant{0,10}glow/i
+/rapid.{0,10}aging/i
 /rare.{0,10}hormone/i
 
 /real.{0,10}(cause|result)/i

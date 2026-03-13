@@ -139,8 +139,9 @@
 
 # I
 # ------------------------------------------------------------------------------
-/im rahmen einer systemüberprüfung ist/iu
-/im rahmen unserer aktuellen sicherheitsrichtlinien/i
+/im rahmen.{1,10}einer systemüberprüfung ist/iu
+/im rahmen.{1,15}aktuellen sicherheitsrichtlinien/i
+/im rahmen.{1,15}laufenden sicherheitsverbesserungen/i
 
 /ihr.{1,10}sicherheitsteam/i
 
@@ -185,6 +186,7 @@
 # O
 # ------------------------------------------------------------------------------
 /ohne aktualisierung wird der zugang/i
+/ohne datenfreigabe erfolgt eine vorübergehende/iu
 
 # P
 # ------------------------------------------------------------------------------

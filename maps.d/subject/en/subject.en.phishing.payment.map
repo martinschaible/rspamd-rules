@@ -73,6 +73,8 @@
 
 /payment.{1,10}failed.{1,10}invoice.?id/i
 /payment.{1,10}failed.{1,10}update now/i
+/payment.{1,10}failed.{1,10}your subscription/i
+
 /payment.{1,10}issue detected/i
 
 /-.?payment details/i

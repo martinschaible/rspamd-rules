@@ -22,6 +22,7 @@
 /aktualisierung.{1,20}kundendaten.{1,10}(erforderlich|durch)/i
 
 /aktualisierung.{1,10}ihrer.{1,10}daten ist unkompliziert/i
+/aktualisierung.{1,10}ist eine verbindliche maßnahme/iu
 /aktualisierung.{1,10}ist zu gunsten ihrer sicherheit/i
 /aktualisierung.{1,10}innerhalb der nächsten.{1,10}stunden durch/iu
 /aktualisierung.{1,10}kann der funktionsumfang nicht/i
@@ -72,6 +73,7 @@
 /ihre.{1,15}kontaktdaten zu bestätigen/iu
 
 /ist eine neue verifizierung erforderlich/i
+/ist eine kurze kontoverifizierung erforderlich/i
 
 # J
 # ------------------------------------------------------------------------------
@@ -86,11 +88,14 @@
 /(konto|profil).{1,15}(benötigen|benötigt|erfordert).{1,10}eine? (aktualisierung|update)/i
 /(konto|profil).{1,15}(benötigen|benötigt|erfordert).{1,10}sofortige aufmerksamkeit/i
 
+/(konto|profil).{1,15}bleibt bis zur.{1,25}datenüberprüfung eingeschränkt/iu
+
 /(konto|profil).{1,10}einer verifizierung bedarf/i
 /(konto|profil).{1,15}festgestellt.{1,10}die ungewöhnlich erscheint/iu
 /(konto|profil).{1,15}innerhalb der nächsten.{1,10}Stunden zu bestätigen/iu
 
 /(konto|profil).{1,15}ist.{1,10}(dauerhaft|derzeit|möglicherweise|vorübergehend).{1,10}(ausgesetzt|eingeschränkt|begrenzt|gesperrt)/iu
+/(konto|profil).{1,15}ist.{1,10}verpflichtende handlung/i
 
 /(konto|profil).{1,10}(ausgesetzt|begrenzt|eingeschränkt|gesperrt).{1,10}da die anmeldung bei ihrem.{1,15}konto/i
 /(konto|profil).{1,10}(ausgesetzt|begrenzt|eingeschränkt|gesperrt).{1,10}bis/iu
