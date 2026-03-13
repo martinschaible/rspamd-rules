@@ -126,6 +126,7 @@
 #/benachrichtigung/i
 
 /coca.?cola/i
+/confirmed/i
 /cup.?result/i
 #/confirm/i
 
@@ -139,7 +140,8 @@
 #/nachricht/i
 /new.?order/i
 
-/order.?id.?order/i
+/order.?id.{0,10}order/i
+/order.{0,10}transaction/i
 
 /proposal.{0,10}quote/i
 

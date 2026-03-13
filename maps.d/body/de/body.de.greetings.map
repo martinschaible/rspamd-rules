@@ -94,6 +94,7 @@
 /guten (abend|morgen|tag).{5,35}meldet sich/i
 
 /guten (abend|morgen|tag).{1,10}mein.{1,15}herr/i
+/guten (abend|morgen|tag).{1,10}mein.{1,15}mann/i
 /guten (abend|morgen|tag).{1,10}mein name ist.{5,35}ich bin ihre/i
 /guten (abend|morgen|tag).{1,10}meine damen und herren/i
 
@@ -227,7 +228,8 @@
 /lieber?.{1,10}e?.?mail?eigentümer(in)?/iu
 /lieber?.{1,10}guter freund/i
 
-/lieber kunde.{1,10}ich hoffe.{1,10}es geht ihnen gut/i
+/lieber?.{1,10}(kunde|nutzer).{1,10}ich hoffe.{1,10}es geht ihnen gut/i
+/lieber?.{1,10}(kunde|nutzer).{5,35}im rahmen unserer/i
 
 #/liebe.{1,15}shop kund\*?in/i
 
