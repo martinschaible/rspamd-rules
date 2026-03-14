@@ -136,21 +136,23 @@
 # ------------------------------------------------------------------------------
 /arbeitskräften?.{1,10}bei bedarf.{1,10}(einfach|schnell)/iu
 /arbeitskräften?.{1,10}unkompliziert/iu
-/(arbeiter|arbeitskräfte|fachkräfte|personal|vermittlung|zeitarbeit) aus litauen/iu
-/(arbeiter|arbeitskräfte|fachkräfte|personal|vermittlung|zeitarbeit).{1,10}für ihre?.{1,15}(projekte|team)/iu
+/(arbeiter|arbeitskräfte|fachkräfte|mitarbeitern?|personal|vermittlung|zeitarbeit) aus litauen/iu
+/(arbeiter|arbeitskräfte|fachkräfte|mitarbeitern?|personal|vermittlung|zeitarbeit).{1,10}für ihre?.{1,15}(projekte|team)/iu
 
 /(fach|hilfs).?kräften? aus litauen/iu
 
 /personalsuche in litauen/i
 
-/benötigen sie{1,10}(arbeiter|arbeitskräfte|fachkräfte|personal)/iu
+/benötigen sie{1,10}(arbeiter|arbeitskräfte|fachkräfte|mitarbeiter|personal)/iu
 /finden (sie|wir).{1,15}(motivierte|schnell|zuverlässige).{1,15}(arbeitnehmer|mitarbeiter)/i
 
 /haben sie derzeit personalbedarf/i
 /leiharbeiter finden/i
 
 /ihnen bei der personalsuche/i
+
 /sie erhalten bei uns.{1,15}(fachkräfte|mitarbeiter|personal)/iu
+/sie mit passenden mitarbeitern/i
 /sie qualifizierte fachkräfte/iu
 
 /suchen sie (arbeitskräfte|fachkräfte).{1,15}unternehmen?/iu
