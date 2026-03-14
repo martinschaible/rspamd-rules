@@ -126,13 +126,6 @@
 /web (design|development).{1,10}company.{1,10}with.{1,10}primary/i
 /web (design|development).{1,10}apps?.?development/i
 
-/web.?site.{1,10}design(ing)?.{1,10}web.?development/i
-/web.?site.{1,10}design.{1,10}redesign/i
-/web.?site.{1,10}desing.{1,10}revamp/i
-/web.?site.{1,10}development.{1,10}custom web.?site/i
-
-/web.?site.{1,10}kindly consider us/i
-
 /web.?development.{1,10}php.?development/i
 
 /who are into.{1,10}responsive.?web/i
@@ -166,7 +159,6 @@
 
 # WordPress
 # ------------------------------------------------------------------------------
-/i.?a?m.{1,10}(expert|professional).{1,15}wordpress/i
 /you looking.{1,10}experienced.{1,10}wordpress/i
 
 /interested.{1,10}outsourcing.{1,10}wordpress/i
@@ -174,13 +166,3 @@
 /we can deliver.{1,10}quality.{1,10}wordpress/i
 
 /(upgrade|re.?design).{1,10}your current.{1,25}wordpress/i
-
-#
-#
-#
-
-# Unclassified
-# ------------------------------------------------------------------------------
-
-# Masked
-# ------------------------------------------------------------------------------
