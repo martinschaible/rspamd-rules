@@ -300,7 +300,7 @@
 
 /^smart.?deals$/i
 
-/smart.{0,10}(cleaning|deals|guard|protect)/i
+/smart.{0,10}(cleaning|deals|guard|protect|traveler)/i
 /smart.{0,10}(security|sleep|stick)/i
 /smart.?tv/i
 
@@ -346,6 +346,7 @@
 /top.{0,10}rolex/i
 
 /translation.{0,10}(device|services?)/i
+/traveler.{0,10}deals/i
 
 /trend.{0,10}toys/i
 

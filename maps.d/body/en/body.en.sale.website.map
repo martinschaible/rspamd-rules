@@ -24,6 +24,7 @@
 
 # C
 # ------------------------------------------------------------------------------
+/customised.{1,10}high.?quality.{1,10}web.?sites?/i
 
 # D
 # ------------------------------------------------------------------------------
@@ -50,6 +51,7 @@
 # ------------------------------------------------------------------------------
 /(i.?a?m|we are).{1,10}indian?.{1,10}(based|development|web)/i
 
+/i.?a?m.{1,10}(expert|professional).{1,15}wordpress/i
 /i.?a?m.{1,15}professional web.?(designer|developer)/i
 /i.?a?m.{1,15}web.{0,10}development.{1,10}manager/i
 /i.?a?m.{1,15}web.{0,10}(designer|developer)/i
@@ -82,6 +84,7 @@
 
 # P
 # ------------------------------------------------------------------------------
+/professional.{1,15}(web)?.?site.{1,10}developer/i
 
 # Q
 # ------------------------------------------------------------------------------
@@ -131,8 +134,15 @@
 
 /web.{1,10}mobile.?app.{1,10}development/i
 
+/(homepage|web.?site).{1,10}businesses.{1,10}personal/i
+/(homepage|web.?site).{1,10}design(ing)?.{1,10}web.?development/i
+/(homepage|web.?site).{1,10}design.{1,10}(redesign|revamp)/i
+/(homepage|web.?site).{1,10}developer.{1,10}graphic designer/i
+/(homepage|web.?site).{1,10}development.{1,10}custom web.?site/i
 /(homepage|web.?site).{1,10}development.{1,10}mobile app/i
+
 /(homepage|web.?site).{1,10}for your business/i
+/(homepage|web.?site).{1,10}kindly consider us/i
 /(homepage|web.?site).{1,10}message us/i
 /(homepage|web.?site).{1,10}(re)design.?services?/i
 /(homepage|web.?site).{1,10}want to improve/i
