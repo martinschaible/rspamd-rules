@@ -66,7 +66,8 @@
 # ------------------------------------------------------------------------------
 
 # Replicas
-/elegance for just.{1,10}\d{2,3}/i
+/elegance.{1,10}for just.{1,10}\d{2,3}/i
+/elegant.{1,10}bag.{1,10}starting at/i
 
 /ends?.{1,10}power bills/i
 

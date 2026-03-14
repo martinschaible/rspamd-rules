@@ -343,6 +343,8 @@
 
 /ihr.{1,10}(neuer|neues).{1,20}(im wert|wartet)/i
 
+/ihr.{1,15}rewards/i
+
 #/ihr.{1,20}wartet.{1,10}auf sie/i
 /ihr.{1,20}wartet.{1,10}jetzt.{1,10}(abholen|einlösen)/i
 /ihr.{1,20}wartet.{1,10}sichern sie es/i

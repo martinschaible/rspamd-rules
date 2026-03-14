@@ -968,7 +968,8 @@
 /targ0bank/i
 
 /tcs.?car/i
-/tcs.{0,10}(abteilung|ngebote?|admin|kundenservice|mitglieder|partner|vip|werbung)/i
+/tcs.{0,10}(abteilung|ngebote?|admin|kundenservice|mitglieder|vip|werbung)/i
+tcs.{0,10}(partner|prioritäts?)/i
 
 /team_/i
 /team.{0,10}(account|paletten?)/i

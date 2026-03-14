@@ -120,7 +120,8 @@
 /healthy?.{0,10}metabolism/i
 /healthy?.{0,10}research/i
 /healthy?.{0,10}(secret|skin|smile|spine|start)/i
-/healthy?.{0,10}(trainer|transformation|vibes|wire)/i
+/healthy?.{0,10}(trainer|transformation|truth)/i
+/healthy?.{0,10}(vibes|wire)/i
 /healthy?.{0,10}update/i
 
 /(american|daily|insider|intimate|mens|simple|womens).{0,10}health/i
@@ -529,9 +530,10 @@
 
 /dentist.{0,10}(secret|stunned)/i
 
+/dermatology.{0,10}insights/i
 /desire.{0,10}revival/i
 
-/detox.{0,10}(drink|lab|minute|patch(es)?|solution|your)/i
+/detox.{0,10}(drink|guide|lab|minute|patch(es)?|solution|your)/i
 /deficiency.{0,10}alert/i
 
 /digestive.{0,10}(boost|fix|food|guide|health|help|insider|insight|reset)/i
@@ -874,7 +876,7 @@
 
 # N
 # ------------------------------------------------------------------------------
-/(toe)?nail.{0,10}(fix(er)?|health|repair|rescue|restoration|rub|test)/i
+/(toe)?nail.{0,10}(fix(er)?|health|repair|rescue|restoration|rub|test|update)/i
 
 /nasa.{0,10}research/i
 /nasty.{0,10}(lumps|(toe)?nails?)/i
@@ -1067,7 +1069,7 @@
 /silent.{0,10}(danger|infection)/i
 /simpler.{0,10}slim/i
 
-/skin.{0,10}(alert|doctor|fix|restore|sculptor|secret|tightening)/i
+/skin.{0,10}(alert|doctor|fix|nail|restore|sculptor|secret|tightening)/i
 
 /slash.{0,10}calories/i
 /sleep.{0,10}(age|boosting|care|discovery|hack|health)/i
@@ -1226,7 +1228,7 @@
 /virility.{0,10}expert/i
 /virus.{0,10}cure/i
 
-/vital(ity)?.{0,10}(daily|fix|health|now|update)/i
+/vital(ity)?.{0,10}(daily|fix|health|now|update|research)/i
 /vital(ity)?.{0,10}(secret|stats|signs?)/i
 
 /vitamin.{0,10}recall/i
