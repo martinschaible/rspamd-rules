@@ -185,7 +185,8 @@
 
 # O
 # ------------------------------------------------------------------------------
-/ohne aktualisierung wird der zugang/i
+/ohne aktualisierung wird der.{1,15}(service|zugriff)/i
+/ohne datenaktualisierung wird der.{1,15}(service|zugriff)/i
 /ohne datenfreigabe erfolgt eine vorübergehende/iu
 
 # P
