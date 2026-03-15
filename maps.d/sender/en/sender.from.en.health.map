@@ -15,6 +15,7 @@
 /brain.{0,10}(nutrient|power|waves?)/i
 /brain.{0,10}(scan|science|sleep|signal|steroid)/i
 /brain.{0,10}(technique|threat|tonic|trick)/i
+/brain.{0,10}wellness/i
 
 /cognitive.{0,10}(fix|health)/i
 
@@ -479,7 +480,7 @@
 /closed.{0,10}arteries/i
 
 /coffee.{0,10}extracts/i
-/cognitive.{0,10}(boost|care|comeback|decline|help|lab|support|wellness)/i
+/cognitive.{0,10}(boost|care|comeback|decline|help|insight|lab|support|wellness)/i
 
 /(cold|tongue).{0,10}trick/i
 /colon.{0,10}(care|cleanse|detox|health|ics|irrigation|support)/i
@@ -905,7 +906,7 @@
 /nerve.{0,10}(damage|do this|ease|pain|regrowth|research|reset)/i
 /new.{0,10}(energy|findings?|hair|research)/i
 
-/night(time)?.{0,10}(capsule|fix|flush|sip)/i
+/night(time)?.{0,10}(capsule|fix|flush|reset|sip)/i
 
 /nightly.{0,10}reset/i
 /night(ly)?.{1,10}rituals?/i
