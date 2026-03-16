@@ -61,7 +61,8 @@
 
 # E
 # ------------------------------------------------------------------------------
-/e?.?mail bezüglich meiner spende erhalten/i
+/e?.?mail.{1,15}als empfänger einer spende/iu
+/e?.?mail.{1,15}bezüglich meiner spende erhalten/i
 
 /empfänger ausgewählt.{1,10}die jeweils.{1,15}erhalten/i
 
@@ -193,6 +194,8 @@
 /sie.{1,10}haben.{1,15}(spende|zuschuss|zuwendung).{1,10}von.{1,5}\d{2,4}(\.|,)?\d{3,4}/i
 /sie.{1,10}haben.{1,15}(spende|zuschuss|zuwendung).{1,10}von.{1,15}(dollar|euro?|gbp|usd|€|\$|£)/i
 /sie.{1,10}haben.{1,15}(spende|zuschuss|zuwendung).{1,10}von.{1,15}millionen/i
+
+/sie.{1,10}informieren.{1,10}dass ihre.{1,10}e?.?mail.?adresse/i
 
 /sie.{1,15}teil dieser spendenaktion sein/i
 

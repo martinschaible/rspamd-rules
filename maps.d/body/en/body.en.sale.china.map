@@ -72,6 +72,8 @@
 /chinese manufacturer that produce/i
 /(company|factory|supplier) of.{1,10}electronic components since/i
 
+/comparing.{1,10}printing.{1,10}quotations?/i
+
 /(capacitors?|resistors?).{1,15}supplier since/i
 
 # D
@@ -164,11 +166,15 @@
 # ------------------------------------------------------------------------------
 /(pcba?|printed.circuit.board).{1,10}in china for.{1,10}years/i
 
+/plastic.{1,10}metal limited/i
 /printing center.{1,10}china/i
 /professional.{1,10}freight forwarding/i
 
+/publication.{1,10}printing.{1,10}services/i
+
 # Q
 # ------------------------------------------------------------------------------
+/quality publication printing/i
 
 # R
 /reliable partner.{1,10}high.?quality/i
