@@ -90,7 +90,8 @@
 /(rückerstattung|rückzahlung).{1,10}(bearbeiten|beantragen|prüfen)/iu
 /(rückerstattung|rückzahlung).{1,15}damit diese.{1,15}erfolgen/iu
 /(rückerstattung|rückzahlung).{1,10}erfolgreich geprüft wurde/iu
-/(rückerstattung|rückzahlung).{1,15}ist (bereit|vorbereitet)/i
+/(rückerstattung|rückzahlung).{1,15}ist (bereit|vorbereitet)/iu
+/(rückerstattung|rückzahlung).{1,15}für sie verfügbar/iu
 /(rückerstattung|rückzahlung).{1,10}zu beantragen.{1,10}füllen sie.{1,10}das/i
 
 /rückerstattungsanfrage.{1,10}sehr geehrter?/i

@@ -22,7 +22,8 @@
 
 # Insolvenz
 # ------------------------------------------------------------------------------
-/insolvenzen.{1,10}günstigen.{1,10}konditionen/iu
+/insolvenz(en)?.{1,10}günstigen.{1,10}konditionen/iu
+/insolvenz(en)?.{1,10}verwertung/i
 
 /(angebot|auszug|inventargegenständen?).{1,25}insolvenzverfahren/i
 /(fahrzeuge|maschinen|vermögenswerte).{1,25}insolvenzverfahren/i

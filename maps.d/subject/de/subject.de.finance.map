@@ -72,10 +72,10 @@
 /finanzhilfe innerhalb von.{1,10}stunden/i
 /finanzielle mitteilung/i
 
-/finanzierung ohne.{1,10}grenzen/i
-/finanzierung.{1,10}financement/i
-/finanzierung.{1,10}privates.{1,10}geschäftliches/i
-
+/(finanzieren|finanzierung).{1,10}maßgeschneiderte.{1,10}konditionen/iu
+/(finanzieren|finanzierung).{1,10}financement/i
+/(finanzieren|finanzierung).{1,10}ohne.{1,10}grenzen/i
+/(finanzieren|finanzierung).{1,10}privates.{1,10}geschäftliches/i
 
 /finanzierungs?.{0,10}(angebot|investition|möglichkeit)/i
 /finanzierungs?.{0,10}(darlehen|kredite)/i
