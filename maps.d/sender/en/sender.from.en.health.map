@@ -470,7 +470,7 @@
 
 /cleansing.{0,10}(fruit|pads)/i
 
-/clear.{0,10}(arteries|breathing|complexion|eyes|(toe)?nails|skin)/i
+/clear.{0,10}(arteries|breathing|complexion|eyes|(toe)?nails|mind|skin)/i
 /clear.{0,10}lungs/i
 
 /click(ing)?.{0,10}(free|noise|sounds?)/i
@@ -844,6 +844,7 @@
 
 /min.?stretch/i
 /mind.{0,10}(balance|barriers?|blow|button|body|boost)/i
+/mind.{0,10}discovery/i
 /mind.{0,10}(clarity|clear|focus|health|mood|recovery|restore|science)/i
 
 /mineral.{0,10}(combination|magic)/i
