@@ -536,7 +536,8 @@
 # ------------------------------------------------------------------------------
 /maßnahme notwendig vor dem/i
 
-/(meldung|mitteilung) zu ihrem geräteschutz/iu
+/(meldung|mitteilung).{1,10}ihrem geräteschutz/iu
+/(meldung|mitteilung).{1,10}sicherstellung.{1,10}uneingeschränkten nutzung/iu
 
 /mobilfunknummer erforderlich/i
 

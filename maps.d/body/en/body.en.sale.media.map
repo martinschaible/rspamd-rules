@@ -163,7 +163,7 @@ e?.?mail.{1,10}campaigns?.{1,10}tailored to your/i
 
 # T
 # ------------------------------------------------------------------------------
-/(targeted|verified).{1,15}contact.?lists of/i
+/(targeted|verified).{1,15}contact.?lists (from|of)/i
 /(targeted|verified).{1,15}databases?.{1,10}businesses.{1,10}operating/i
 /(targeted|verified).{1,15}e?.?mail.{1,10}(databases?|leads?|lists?)/i
 /(targeted|verified).{1,15}list.{1,10}decision.?makers/i
@@ -193,8 +193,9 @@ e?.?mail.{1,10}campaigns?.{1,10}tailored to your/i
 
 /we.{1,10}help (businesses|creators) grow/i
 
-/we.{1,10}offer.{1,20}ai.?powered solution to fix them/i
-/we.{1,10}offer.{1,20}bulk.{1,10}e?.?mailing tools/i
+/we.{1,10}offer(ing)?.{1,20}ai.?powered solution to fix them/i
+/we.{1,10}offer(ing)?.{1,20}bulk.{1,10}e?.?mailing tools/i
+/we.{1,10}offer(ing)?.{1,20}targeted.{1,15}(contact|list)/i
 
 /we.{1,10}provide.{1,15}(accurate|customizable).{1,15}datasets/i
 /we.{1,10}provide.{1,15}verified.{1,10}reliable.{1,10}marketing data/i

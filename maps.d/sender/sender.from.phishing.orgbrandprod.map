@@ -364,7 +364,8 @@
 /chatgpt.?(ai|\+|plus)/i
 /chatgpt.{0,10}(abonnement|kundenservice)/i
 /chatgpt.{0,10}zahlung(en)?/i
-/chatgpt.{0,10}(account|billing|payments|services|team)/i
+/chatgpt.{0,10}(account|billing|payments|team)/i
+/chatgpt.{0,10}(services|serviceportal)/i
 
 /coca.?cola company/i
 

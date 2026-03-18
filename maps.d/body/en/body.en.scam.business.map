@@ -58,6 +58,7 @@
 # ------------------------------------------------------------------------------
 /(i|we) have.{1,10}access to.{1,10}vital information/i
 /(i|we) have.{1,10}good.{1,10}business project/i
+/(i|we) have.{1,10}million business/i
 /(i|we) have.{1,10}some project funds/i
 
 /(i|we) have.{1,10}have an oil contract deal/i
@@ -89,6 +90,7 @@
 # ------------------------------------------------------------------------------
 /obligation.{1,10}i would like us to complete/i
 
+/opportunity.{1,15}be of mutual benefit/i
 /opportunity.{1,10}could benefit us both/i
 /opportunity.{1,10}could be mutually beneficial/i
 
