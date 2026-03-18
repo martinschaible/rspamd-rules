@@ -1039,10 +1039,15 @@ tcs.{0,10}(partner|prioritäts?)/i
 /volksbanken$/i
 /volksbank(en)?.{0,10}(service|support|team)/i
 /volksbank(en)?.{0,10}(kundenbetreuung|kundenservice)/i
+/volksbank(en)?.{0,10}online/i
+
+/volksbank(en)? deutschland eg/i
 
 /kundenservice.{0,10}volksbank(en)?/i
 
 /von.{0,10}swica/i
+
+/vr.?bank.{0,10}online/i
 
 # W
 # ------------------------------------------------------------------------------
