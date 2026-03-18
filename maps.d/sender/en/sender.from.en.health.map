@@ -976,7 +976,7 @@
 /pooch.{0,10}belly/i
 /poop.{0,10}(stuck|type)/i
 
-/posture.{0,10}(check|fix|scan|update)/i
+/posture.{0,10}(check|fix|scan|test|update)/i
 /pounding.{0,10}pressure/i
 
 /power.{0,10}(boost|shape|start|wash)/i
@@ -1238,6 +1238,7 @@
 /vital(ity)?.{0,10}(secret|stats|signs?)/i
 
 /vitamin.{0,10}recall/i
+/vitamin [a-z]\b/i
 
 /vitiligo.{0,10}solution/i
 

@@ -87,6 +87,7 @@
 /boost your.{1,15}profit by/i
 
 /brief introductory.{1,10}zoom call/i
+/building steel.{1,10}materials/i
 
 # C
 # ------------------------------------------------------------------------------
@@ -504,6 +505,7 @@
 /supplier.{1,10}who can serve/i
 
 /supply(ing)?.{1,15}(electronic|quality).{1,15}components/i
+/supply(ing)?.{1,15}raw.{1,15}material/i
 /supply(ing)?.{1,15}steel plates/i
 
 # T
@@ -552,6 +554,7 @@
 
 # Y
 # ------------------------------------------------------------------------------
+/years in making/i
 /years?.{1,10}steel supplier/i
 
 /you confirm your.{1,10}interest/i

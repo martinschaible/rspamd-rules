@@ -101,6 +101,8 @@
 /(adac|metamask|netflix).{0,10}(security|service|support|team|update|user|verification|wallet)/i
 
 #
+/(™|®|©)$/i
+
 /(aave|adac|apple).?(™|®|©)$/i
 /(balea|baumarkt|bosch).?(™|®|©)$/i
 /(carrefour|cpanel).?(™|®|©)$/i
@@ -116,6 +118,7 @@
 /(schweizerische|shein|smava|spotify).?(™|®|©)/i
 /(tcs|totalav).?(™|®|©)/i
 /western.?union(™|®|©)/i
+
 
 # Black Friday
 /ikea.{0,10}black.?friday/i
@@ -468,6 +471,7 @@
 # E
 # ------------------------------------------------------------------------------
 
+/easyb-ank/i
 /easybank.{0,10}(app|support)/i
 /easybank.{0,10}kundenservice/i
 
