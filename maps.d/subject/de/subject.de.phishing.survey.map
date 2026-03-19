@@ -40,7 +40,7 @@
 # ------------------------------------------------------------------------------
 /ergebnisse unserer.{1,15}umfrage sind da/i
 
-/exklusive.{1,10}meinungsumfrage/i
+/exklusive.{1,10}(meinungsumfrage|umfrage)/i
 
 # F
 # ------------------------------------------------------------------------------
@@ -141,7 +141,7 @@
 /umfrage.{1,10}(deutschland|schweiz).{1,10}teilnahmemöglichkeit/iu
 /umfrage.{1,10}endet (bald|heute)/i
 /umfrage.{1,15}erhalten Sie ein.{1,10}geschenk/i
-/umfrage.{1,10}für (kostenlosen|sie)/iu
+/umfrage.{1,10}für (kostenlosen|kunden|sie)/iu
 /umfrage.{1,10}ihre chance/i
 
 /umfrage.{1,15}(neue belohnung|verdienen sie)/i

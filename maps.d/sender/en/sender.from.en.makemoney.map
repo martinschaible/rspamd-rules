@@ -76,8 +76,9 @@
 # C
 # ------------------------------------------------------------------------------
 /canadian.{0,10}minerals/i
-
 /cash.?bot/i
+
+/ceo.{0,10}(invest|secret)/i
 
 /coins.?etf/i
 
@@ -93,7 +94,7 @@
 
 # F
 # ------------------------------------------------------------------------------
-/financial.{0,10}(freedom|portfolio|security)/i
+/financial.{0,10}(desk|freedom|portfolio|security)/i
 
 /future.{0,10}(unfolded|wealth)/i
 
@@ -174,7 +175,8 @@
 
 # W
 # ------------------------------------------------------------------------------
-/wealth.{0,10}(attraction|bridge|code|secret)/i
+/wealth.{0,10}(bridge|code|secret)/i
+/wealth.{0,10}(alert|attraction)/i
 
 # X
 # ------------------------------------------------------------------------------

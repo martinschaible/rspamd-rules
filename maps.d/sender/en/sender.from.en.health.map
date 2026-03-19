@@ -339,7 +339,9 @@
 
 /(bad|evil).{0,10}(bacteria|foods?|fruits?)/i
 
-/balance.{0,10}(blood|booster|brain|clinic|lab|project|reset|restored|science|your)/i
+/balance.{0,10}(blood|booster|brain|clinic|lab|project|science|your)/i
+/balance.{0,10}(recovery|reset|restored)/i
+
 /balanced.{0,10}breakfast/i
 /balanced.?(bp|glucose)/i
 /bald.{0,10}spot/i

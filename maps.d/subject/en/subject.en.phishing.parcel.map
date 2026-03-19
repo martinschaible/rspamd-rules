@@ -45,6 +45,7 @@
 # D
 # ------------------------------------------------------------------------------
 /delivery delayed.{1,10}payment verification/i
+/(delivered|delivery).{1,10}confirm details/i
 
 /details delaying your.{1,10}(package|parcel|shipment)/i
 

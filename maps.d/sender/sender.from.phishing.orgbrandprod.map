@@ -260,7 +260,7 @@
 /adac_/i
 /adac\.de/i
 /adac.?202\d/i
-/adac.{0,10}(abteilung|deutschland|exklusiv|gmbh|mitglieder|online|support)/i
+/adac.{0,10}(abteilung|deutschland|exklusiv|forschung|gmbh|mitglieder|online|support)/i
 /adac.{0,10}(servies?|sicherheit)/i
 /adac.{0,10}(karten.?service|kreditkarte|kundendienst)/i
 
@@ -519,10 +519,12 @@
 # ------------------------------------------------------------------------------
 /-galaxus/i
 /galaxus.{0,10}(angebote|markt|team)/i
-/galaxus.{0,10}kundenzufriedenheit/i
+/galaxus.{0,10}(kundenservice|kundenzufriedenheit)/i
 
 /galaxus.?ag/i
 /galaxus\.ch/i
+
+/vom galaxus/i
 
 /google.?drive/i
 /google.{0,10}(claim|inc|llc|team)/i
