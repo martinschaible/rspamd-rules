@@ -168,6 +168,7 @@
 /(lieferung|paket|sendung).{1,20}wurde.{1,10}erfolgreich.{1,10}(verarbeitet|verteilzentrum)/i
 /(lieferung|paket|sendung).{1,20}wurde.{1,10}importzentrum zur zollprüfung/iu
 /(lieferung|paket|sendung).{1,20}wurde.{1,20}in der schweiz (verarbeitet|zugestellt)/i
+/(lieferung|paket|sendung).{1,10}wurde.{1,10}unterbrochen/i
 
 /(lieferung|paket|sendung).{1,20}wurde.{1,10}wurde beim zoll.{1,10}(erfasst|registriert)/i
 /(lieferung|paket|sendung).{1,20}wurde.{1,10}wurde in.{1,20}(erfasst|registriert)/i

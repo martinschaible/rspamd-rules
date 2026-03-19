@@ -196,7 +196,8 @@
 
 # W
 # ------------------------------------------------------------------------------
-/wichtige.{1,10}e?.?mail.{1,10}sollten sie diese.{1,10}e?.?mail/i
+/wichtige.{1,10}(e?.?mail|nachricht).{1,10}für sie.{1,10}antworten sie/iu
+/wichtige.{1,10}(e?.?mail|nachricht).{1,10}sollten sie diese.{1,10}e?.?mail/i
 
 /wir hoffen.{1,10}dass sie diese.{1,10}(e?.?mail|nachricht) nützlich/iu
 

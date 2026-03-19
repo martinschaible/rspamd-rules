@@ -44,6 +44,8 @@
 /capital.{1,10}your profitable project/i
 /(company|finance).{1,15}offering.{1,15}project funding/i
 
+/corporate funding opportunities/i
+
 # D
 # ------------------------------------------------------------------------------
 
@@ -54,7 +56,8 @@
 # ------------------------------------------------------------------------------
 /flexible.{1,10}confidential.{1,10}loan/i
 
-/financing.{1,10}competitive.{1,10}interest rates/i
+/(finance|financing).{1,20}funding opportunities/i
+/(finance|financing).{1,10}competitive.{1,10}interest rates/i
 
 /first.?class.{1,10}financial.{1,10}institution/i
 

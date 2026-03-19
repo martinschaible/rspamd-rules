@@ -103,6 +103,8 @@
 /^po(-|_|#)?.{1,25}\.(7z|docx|gz|rar|zip)/i
 /^po(-|_|#)?\d{1,25}\.(7z|docx|gz|rar|zip)/i
 
+/po\d{4,15}\.xls/i
+
 # 22.01.25 - Sample: RFQ- 2708970-001.gz
 /(inq|rfq)-?.{0,15}\.(gz|rar|zip)/i
 

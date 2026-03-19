@@ -29,17 +29,21 @@
 
 # D
 # ------------------------------------------------------------------------------
-/dear.{1,10}(beloved|due respect|esteemed|friend|madam|sir|recipient)/i
+/dear.{1,10}(customer|due respect|esteemed|friend)/i
+/dear.{1,10}(sir|recipient|winner)/i
+/dear.{1,10}(beloved|buyer)/i
+/dear.{1,10}(madam|manager)/i
+
 /dear.{1,10}your.{1,10}(profile|reputable)/i
 
 /dear herr/i
 
 /dear e?.?mail.{1,10}(user|owner)/i
-/dear (buyer|friend|manager|winner)/i
 /dear partner.{1,10}(contact|e?.?mail)/i
 /dear sir.{1,5}madam/i
 
-/dearest (friend|one)/i
+/dearest.{1,10}one/i
+
 
 # E
 # ------------------------------------------------------------------------------
