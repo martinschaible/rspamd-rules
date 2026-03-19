@@ -884,7 +884,8 @@
 
 # N
 # ------------------------------------------------------------------------------
-/(toe)?nail.{0,10}(fix(er)?|health|repair|rescue|restoration|rub|test|update)/i
+/(toe)?nail.{0,10}(fix(er)?|health|test|update)/i
+/(toe)?nail.{0,10}(repair|rescue|restoration|revive|rub)/i
 
 /nasa.{0,10}research/i
 /nasty.{0,10}(lumps|(toe)?nails?)/i
