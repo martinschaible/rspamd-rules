@@ -17,7 +17,7 @@
 /(agent|ticket)\.?\d{1,10}@/i
 /marketing\.?\d{1,10}@/i
 /notes\.?\d{1,10}@/i
-/(sales|sender|services|suite|support|system)
+/(sales|sender|services|suite|support|system)/i
 
 /do.?not.?reply\.?\d{1,10}@/i
 /top\.?\d{1,10}@/i
