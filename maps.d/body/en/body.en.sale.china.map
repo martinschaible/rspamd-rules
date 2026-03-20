@@ -88,6 +88,7 @@
 /direct.{1,10}(pcba?|printed.?circuit.?board).{1,10}manufacturer/i
 /discover our stunning.{1,15}(acrylic|furniture)/i
 
+/distributor.{1,10}specializing in a wide range of/i
 /distributor.{1,10}specializing in all kinds of/i
 
 # E
@@ -113,6 +114,8 @@
 
 # I
 # ------------------------------------------------------------------------------
+/i am.{5,35}from.{1,10}china.{5,40}manufacturer/i
+
 /inquiries.{1,10}feel free to share/i
 
 /is.{1,10}well.{1,10}established.{1,10}(company|factory|supplier) of /i
@@ -145,6 +148,8 @@
 
 /mold parts.{1,10}located in shenzhen/i
 
+/my factory producing/i
+
 # N
 # ------------------------------------------------------------------------------
 
@@ -169,8 +174,10 @@
 /our.{1,15}product range includes/i
 /our.{1,10}products are known for their high qualit/i
 
-/our main items are.{1,10}glass/i
-/our main items are.{1,10}tempered/i
+/our.{1,10}main items are.{1,10}glass/i
+/our.{1,10}main items are.{1,10}tempered/i
+
+/our.{1,10}years of professional experience/i
 
 # P
 # ------------------------------------------------------------------------------

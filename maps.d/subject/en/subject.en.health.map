@@ -319,7 +319,8 @@
 
 # E
 # ------------------------------------------------------------------------------
-/ease nerve pain/i
+/ease.{1,10}nerve pain/i
+/ease.{1,10}ear ringing/i
 
 /ear\b.{1,10}(buzzing|comfort|rub|trick)/i
 
@@ -1006,6 +1007,7 @@
 
 /trick.{1,10}heres why/i
 /trick melts.{1,10}fat/i
+/trick that may/i
 /trick to end.{1,15}pain/i
 
 /trim your.{1,10}waistline/i
