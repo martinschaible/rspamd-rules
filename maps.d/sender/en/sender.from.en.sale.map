@@ -58,7 +58,9 @@
 # ------------------------------------------------------------------------------
 /camo.{0,10}lighter/i
 /canvas.{0,10}prints/i
+
 /car.{0,10}(repair|shield)/i
+/car.{0,10}tech.{0,5}daily/i
 
 /cheech.{0,10}chong/i
 
@@ -136,6 +138,7 @@
 
 /final.{0,10}expense/i
 /first.{0,10}american?/i
+
 
 /foam.{0,10}seat/i
 /food.{0,10}supply/i
