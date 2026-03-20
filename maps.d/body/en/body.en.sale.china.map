@@ -43,6 +43,10 @@
 /(limited|ltd).{1,10}(specializes in|we are major)/i
 /(limited|ltd).{1,10}we (provide|specialize)/i
 
+# Address patterns
+# ------------------------------------------------------------------------------
+/shenzhen city.{1,10}p\.b.{1,10}china/i
+
 # Phone related
 # ------------------------------------------------------------------------------
 /(dongguan|guangdong|guangzhou|shenzhen|zhejiang).{1,10}china.{1,10}tel.{1,5}(|\+)86/i
@@ -170,7 +174,9 @@
 
 # P
 # ------------------------------------------------------------------------------
+/(pcba?|printed.circuit.board).{1,10}customer.{1,10}the past.{1,10}years/i
 /(pcba?|printed.circuit.board).{1,10}in china for.{1,10}years/i
+/(pcba?|printed.circuit.board).{1,10}manufacturer (from|in) china/i
 
 /plastic.{1,10}metal limited/i
 /printing center.{1,10}china/i

@@ -127,7 +127,7 @@
 
 # N
 # ------------------------------------------------------------------------------
-/never lose keys again/i
+/never.{1,10}lose.{1,10}(keys|wallet).{1,10}again/i
 
 /no contracts.{1,10}start ip.?tv/i
 # O
@@ -143,6 +143,8 @@
 /premium ip.?tv/i
 
 /proposal.{1,10}reasonable price/i
+
+/providing.{1,10}top.?quality.{1,25}services/i
 
 # Q
 # ------------------------------------------------------------------------------
