@@ -416,7 +416,7 @@
 
 /bubble.{0,10}bootie/i
 /bulging.{0,10}discs/i
-/burn.{0,10}(boost|calories)/i
+/burn.{0,10}(boost|calories|slim)/i
 /butt.{0,10}lift/i
 /buzzing.{0,10}(ears|sounds?)/i
 
@@ -1267,7 +1267,9 @@
 /womens?.{0,10}(intimacy|secret)/i
 /wonder.?bread/i
 /worst.{0,10}(breakfast|fruits?|food|veggie)/i
-/wrinkle.{0,10}(cream|eraser|filler|filter|free|solution)/i
+
+/wrinkle.{0,10}(cream|eraser|solution|trick)/i
+/wrinkle.{0,10}(filler|filter|fix|free)/i
 
 # X
 # ------------------------------------------------------------------------------
