@@ -515,43 +515,46 @@
 /kugelschreiber/i
 /kuhlung/i
 
-#/kundenbetreuung/i
 
+/kunden.?(feedback|helpdesk|id|informationen|unterstützung)$/iu
+
+#/kundenbetreuung/i
 /kundenbefragung/i
 /^kundenbetreuung$/i
 /kundenbewertung/i
 /kundenbindungsteam/i
+
 /kundenclub/i
-/kundenkontakt/i
-/kundenpflege/i
 
 /^kundendienst$/i
 #/^kunden.?(dienst|service)$/i
 /kundendienst!/i
 /kunden-dienst/i
-/kundeninfo\b/i
-
 /kundendienstes/i
 
 /kundenerfahrung/i
 /kundenerlebnis/i
 /kundenfeedback/i
+
+/kundenkontakt/i
+/kundenpflege/i
+/kundeninfo\b/i
 #/kundeninformation/i
+
 /kundennummer/i
 /kunden.?pakete/i
 /kundenprogramm/i
+/kundenreport/i
+
+/kundenservice.?team/i
+/^kundenservice-/i
+/^kundenservice$/i
 /kundensupport/i
+
 /kundenteam/i
 /kundenumfrage/i
 /kundenvertrauen/i
 #/kundenzufriedenheit/i
-
-/kunden.?(helpdesk|id|informationen|unterstützung)$/iu
-/kundenservice.?team/i
-/^kundenservice-/i
-/^kundenservice$/i
-
-/kunden.?feedback/i
 
 /küchenhelfer/iu
 /küchennachrichten/iu
@@ -895,6 +898,7 @@
 
 /steakmesser/i
 /steigerer/i
+/stellungnahme/i
 
 /steuerrückerstattungsdienst/iu
 /steuerprofis/i
