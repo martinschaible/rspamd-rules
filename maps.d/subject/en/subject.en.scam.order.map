@@ -104,7 +104,8 @@
 /order inquiry.?--/i
 /order inquiry.{1,10}shipping/i
 
-/order request.{1,10}(new|partnership|project|via)/i
+/order.{1,10}(cooperation|supply)/i
+/order.{1,10}request.{1,10}(new|partnership|project|via)/i
 
 /our products?.{1,10}(brochure|catalog|catalogue)/i
 
