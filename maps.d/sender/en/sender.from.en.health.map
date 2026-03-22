@@ -62,6 +62,9 @@
 
 /(control|green|high|low|normalize|normalizing|perfect).{0,10}(a1c|glucose)/i
 
+/diabetes.{0,10}(alert|cure|food|insights?|prevention|reversal|type.?2)/i
+/diabetes.{0,10}(support|switch)/i
+
 # Digestive System
 # ------------------------------------------------------------------------------
 /(can|daily).{0,10}poops?/i

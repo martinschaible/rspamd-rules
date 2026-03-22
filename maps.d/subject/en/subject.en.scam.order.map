@@ -30,12 +30,15 @@
 # ------------------------------------------------------------------------------
 /(brochure|catalog|catalogue).{1,10}request/i
 
+/buyers are finding.{1,20}your business/i
+
 # C
 # ------------------------------------------------------------------------------
-/confirm po please/i
-
-/cooperation.{1,10}expectations/i
 /collaboration invitations?/i
+/cooperation.{1,10}expectations/i
+
+/confirm po please/i
+/connects suppliers with over.{1,10}buyers/i
 
 # D
 # ------------------------------------------------------------------------------
