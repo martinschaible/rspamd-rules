@@ -26,6 +26,9 @@
 # Sample: /wp-modules/sitemaps/?email=
 /wp-[a-z]{1,15}\/[a-z]{1,15}\/?email=/i
 
+# 
+/\/wp-admin\/-\//i
+
 # TLD's
 /\.(in|io|net|vn)\/wp-content\//i
 /\.info\/wp-admin\/assets\//i

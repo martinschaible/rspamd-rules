@@ -104,6 +104,7 @@
 /(grüsse|grüße).{1,10}wir möchten sicherstellen/i
 
 # H
+/hallo.{1,10}achtung.{1,15}(es gab|problem)/i
 /hallo.{1,15}bei der zahlungsabwicklung/i
 /hallo.{1,15}bei einer.{1,15}(routinemäßigen|überprüfung)/iu
 

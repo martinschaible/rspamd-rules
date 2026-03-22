@@ -777,6 +777,8 @@
 # ------------------------------------------------------------------------------
 /partner.{0,10}mcafee/i
 
+/parking.?pay\+/i
+
 /payback.{0,10}(deutschland|österreich|schweiz)/i
 
 #/^parkingpay$/i
@@ -1047,6 +1049,7 @@ tcs.{0,10}(partner|prioritäts?)/i
 
 /volksbank(en)? deutschland eg/i
 /volksbank(en)? eg deutschland/i
+/volksbank(en)?.?vr/i
 
 /kundenservice.{0,10}volksbank(en)?/i
 
