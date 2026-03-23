@@ -286,6 +286,8 @@
 /do this to keep sugar/i
 /do this once a day/i
 
+/dementia.{1,10}learn more/i
+
 /(dentists?|doctors?).{1,10}the.{1,10}answer/i
 /(dentists?|doctors?).{1,10}(avoid|recommend|reveals|stunned|warn(ing)?)/i
 /(dentists?|doctors?).{1,10}natural (alternative|fat|weight)/i
@@ -936,6 +938,7 @@
 # T
 # ------------------------------------------------------------------------------
 /that ages.{1,10}(skin|you)/i
+/that causes?.{1,10}dementia/i
 
 /take this instead/i
 /take this simple/i
