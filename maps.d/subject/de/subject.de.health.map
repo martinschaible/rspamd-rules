@@ -111,8 +111,10 @@
 
 # L
 # ------------------------------------------------------------------------------
+/lassen sie sich vo.{1,10}schmerzen/i
+
 /linderung.{1,10}(fussschmerzen|fußschmerzen)/i
-/lösungen bei (fussschmerzen|fußschmerzen)/iu
+/lösungen bei.{1,10}(fussschmerzen|fußschmerzen)/iu
 
 # M
 # ------------------------------------------------------------------------------
