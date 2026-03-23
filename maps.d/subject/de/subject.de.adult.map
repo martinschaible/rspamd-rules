@@ -146,8 +146,8 @@
 
 # H
 # ------------------------------------------------------------------------------
-/habe? dein foto gesehen/i
-/habe? dich online gesehen/i
+/habe? dein.{1,10}(foto|profil) gesehen/i
+/habe? dich.{1,10}online gesehen/i
 
 /hallo süsser/iu
 
