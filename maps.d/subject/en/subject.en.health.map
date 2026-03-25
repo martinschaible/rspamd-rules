@@ -206,10 +206,11 @@
 /cavity.{0,10}cure/i
 
 /calorie burn with/i
+/change this.{1,10}habit/i
 /chew this to fix/i
 /cholesterol danger/i
-
 /celebrity.?secret/i
+
 
 /cleanse.{1,10}(gut|helping)/i
 /cleansing fix/i
@@ -450,7 +451,8 @@
 /gets? rid of.{1,10}burning/i
 /gets? rid of.{1,10}constipation/i
 /gets? rid of.{1,10}these.{1,10}fruits/i
-/gets? rid of.{1,10}unwanted/i
+/gets? rid of.{1,10}(nasty|unwanted)/i
+/gets? rid of.{1,15}(infections?|nail)/i
 
 /(gum|gut).{0,10}(cleanse|cleansing)/i
 /(gum|gut).{0,10}(doctor|fix|health|message)/i
@@ -849,6 +851,8 @@
 
 /simple.{1,10}(diy|minute) stretch/i
 /simple.{1,10}(trick|way).{1,10}(erase|reverse)/i
+
+/signs of dementia/i
 
 /snoring.{1,10}sleep/i
 /skin.?aging.{1,10}hormone/i
