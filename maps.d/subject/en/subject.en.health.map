@@ -361,6 +361,7 @@
 
 /(eliminates?|eradicates?|erases?).{1,15}(arthritis|artery|discomfort|herpes|plaque|tinitus|wrinkles?)/i
 
+/(eliminates?|eradicates?|erases?).{1,10}blind spots?/i
 /(eliminates?|eradicates?|erases?).{1,10}this food/i
 /(eliminates?|eradicates?|erases?).{1,10}(nerve|swelling|type 2)/i
 /(eliminates?|eradicates?|erases?).{1,15}eye bags/i
@@ -864,7 +865,7 @@
 /sleeping position/i
 
 /slim(mer)?.{1,10}(belly|waist)/i
-/slow(ing)?.{1,10}digestion/i
+/slow(ing)?.{1,10}(digestion|peeing)/i
 /slows?.{1,10}metabolism/i
 
 /sluggish.{1,10}(digestion|liver)/i

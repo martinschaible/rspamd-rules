@@ -340,6 +340,8 @@
 /multilayer (pcba?|printed.?circuits?.?board).{1,10}manufacturing/i
 /multiple freight solutions/i
 
+/models.{1,10}for your.{1,10}market/i
+
 /(molex|moulding).{1,10}supplier/i
 
 /(molds?|moulds).{1,10}(maker|construction|in stock|partner)/i
@@ -399,6 +401,7 @@
 /(pcba?|printed.?circuits?.?board).{1,10}quality.{1,10}(counts|delivery)/i
 /(pcba?|printed.?circuits?.?board).{1,10}(partner|supplier).{1,10}(for|with)/i
 /(pcba?|printed.?circuits?.?board).{1,10}(partner|supplier).{1,10}(iso|worthy)/i
+/(pcba?|printed.?circuits?.?board).{1,10}pricing/i
 /(pcba?|printed.?circuits?.?board).{1,10}supply chain/i
 /(pcba?|printed.?circuits?.?board).{1,10}turnaround/i
 /(pcba?|printed.?circuits?.?board).{1,10}with (high quality|plated)/i

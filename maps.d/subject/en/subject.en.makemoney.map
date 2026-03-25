@@ -131,9 +131,10 @@
 # O
 # ------------------------------------------------------------------------------
 /own.{1,10}(beachfront|dubai|iconic|island|luxury|uk\b).{1,15}(home|property)/i
-/own.{1,10}renovated.{1,15}(home|property)/i
-/own.{1,10}(home|property).{1,10}(at|developed|near)/i
 /own.{1,10}high yield buy/i
+/own.{1,10}(home|property).{1,10}(at|developed|near)/i
+/own.{1,10}(home|property).{1,10}in the world/i
+/own.{1,10}renovated.{1,15}(home|property)/i
 
 # P
 # ------------------------------------------------------------------------------
