@@ -32,6 +32,8 @@
 
 /bestätigen sie ihre lieferadresse/iu
 
+/(bestaetigung|bestätigung).{1,10}bearbeitungsstatus/iu
+
 /(bearbeitungs|zoll).?leistungen anfallen.{1,10}die.{1,10}bestätigt werden müssen/iu
 
 # C
@@ -64,6 +66,7 @@
 /ihr paket wartet/i
 
 /ihre adressdaten unverzüglich.{1,10}überprüfen/iu
+/ihrer registrierten lieferung/i
 
 /importgebühr.{1,10}zollzahlung erforderlich/iu
 /information zu ihrer sendung.{1,10}hallo/i
