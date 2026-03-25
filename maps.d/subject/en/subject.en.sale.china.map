@@ -190,7 +190,7 @@
 
 /(explore|discover).{1,10}quality.{1,10}(bags|backpacks)/i
 
-/(electrical|network).{1,15}product supply/i
+/(electrical|electronic|network).{1,15}(components?|products?).{1,10}supply/i
 
 /electronic components?.{1,10}(distributor|rfq|stock|supplier|supply)/i
 /electronic components?.{1,10}solutions?/i
