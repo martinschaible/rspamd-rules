@@ -135,6 +135,8 @@
 # ------------------------------------------------------------------------------
 /request.{1,15}(brochure|catalog|catalogue)/i
 
+/review.{1,10}attached.{1,10}quotation/i
+
 # S
 # ------------------------------------------------------------------------------
 /send.{1,10}copy of your.{1,15}(brochure|catalog|catalogue)/i
@@ -159,6 +161,7 @@
 # W
 # ------------------------------------------------------------------------------
 /we are interested.{1,10}collaborating with your.{1,10}company/i
+/we are interested.{1,10}obtaining.{1,10}quotation/i
 /we are interested.{1,10}your product range/i
 /we are open.{1,10}cooperation across a wide/i
 

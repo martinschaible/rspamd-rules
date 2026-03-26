@@ -52,6 +52,8 @@
 /xlsxr?\.tar/i
 /pdf\.z$/i
 
+/\.(docx|rar|zip)\.txt$/i
+
 # Pseudo Double Extension
 # ------------------------------------------------------------------------------
 /(,|_|-)(doc|pdf)\.(docx|gz|htm|rar|svg|tar|zip)/i

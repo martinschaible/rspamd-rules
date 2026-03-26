@@ -39,6 +39,7 @@
 
 # B
 # ------------------------------------------------------------------------------
+/before.{1,10}(package|parcel|shipment) is returned/i
 
 # C
 # ------------------------------------------------------------------------------
@@ -97,6 +98,7 @@
 # ------------------------------------------------------------------------------
 /(package|parcel|shipment).{1,10}(awaiting|pending|ready).{1,10}(collection|delivery|processing|shipping)/i
 /(package|parcel|shipment).{1,10}awaits final confirmation/i
+/(package|parcel|shipment).{1,10}has been denied/i
 /(package|parcel|shipment).{1,10}immediate action/i
 /(package|parcel|shipment).{1,10}on hold.{1,10}address confirmation/i
 /(package|parcel|shipment).{1,10}(re)?delivery reminder/i

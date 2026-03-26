@@ -146,6 +146,7 @@
 
 /DEAR SIR/
 
+/dear sir.{1,10}we are interested/i
 /dearest one.{1,10}accept my greetings/i
 
 /dear ,.{1,10}we wanted to inform you/i
@@ -162,6 +163,7 @@
 # G
 # ------------------------------------------------------------------------------
 /good (afternoon|day|evening|morning).{1,10}(advice|check).{1,10}if you can handle/i
+/good (afternoon|day|evening|morning).{1,10}attached is our.{1,10}order/i
 /good (afternoon|day|evening|morning).{1,15}find our attached.{1,10}inquiry/i
 /good (afternoon|day|evening|morning).{1,10}getting in touch with you/i
 
