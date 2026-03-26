@@ -181,6 +181,7 @@
 
 # P
 # ------------------------------------------------------------------------------
+/(pcba?|printed.circuit.board).{1,10}component sourcing/i
 /(pcba?|printed.circuit.board).{1,10}customer.{1,10}the past.{1,10}years/i
 /(pcba?|printed.circuit.board).{1,10}in china for.{1,10}years/i
 /(pcba?|printed.circuit.board).{1,10}manufacturer (from|in) china/i

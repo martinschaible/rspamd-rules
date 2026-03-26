@@ -594,7 +594,7 @@
 /kauf\.land/i
 /kauflandmarkt/i
 
-/klarna.{0,10}(finanzservice|kundenservice)/i
+/klarna.{0,10}(finanzservice|kundenservice|support)/i
 /info.{0,10}klarna/i
 
 /kleinanzeigen.{0,10}team/i
@@ -648,12 +648,13 @@
 
 /^mercedes$/i
 
+/meta\./i
 /meta(mask)?.{0,5}ads$/i
 /meta(mask)?.{0,5}(ads|support).?team/i
 
-/meta(mask)?.{0,5}(advertising|alert)/i
+/meta(mask)?.{0,5}(account|advertising|alert)/i
 /meta(mask)?.{0,5}business/i
-/meta(mask)?.{0,5}(compliance|inc|trust|updates?|verification|wallet)/i
+/meta(mask)?.{0,5}(inc|trust|updates?|verification|wallet)/i
 /meta(mask)?.{0,5}(security|system)/i
 /meta(mask)?.{0,5}verifiziert/i
 
@@ -790,11 +791,13 @@
 /paypal.?(™|®)$/i
 /paypal.?lu/i
 
-/paypal.{0,15}(account|alarme?|billing|case.?id|customer)/i
+/paypal.{0,15}(account|admin|alarme?|billing|case.?id|customer)/i
 /paypal.{0,15}(department|europe?|help.?desk|inc)/i
 
-/paypal.{0,15}(benachrichtigung(en)?|betrieb|kunden|konto|nachricht|rechtliches|sicherheit|team|verifizierung|vertrauen)/i
+/paypal.{0,15}(benachrichtigung(en)?|betrieb|kunden|konto|nachricht|sicherheit|verifizierung|vertrauen)/i
+/paypal.{0,15}(rechtliches|rechtsabteilung)/i
 /paypal.{0,15}guthaben/i
+/paypal.{0,15}hilfe/i
 
 /paypal.{0,15}(compliance|concierge|management|update|payments?)/i
 /paypal.{0,15}(safety|security|services?|support)/i
@@ -1055,7 +1058,7 @@ tcs.{0,10}(partner|prioritäts?)/i
 
 /von.{0,10}swica/i
 
-/vr.?bank.{0,10}(deutschland|online)/i
+/vr.?bank.{0,10}(deutschland|online|zentrale)/i
 
 # W
 # ------------------------------------------------------------------------------

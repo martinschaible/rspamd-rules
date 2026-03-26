@@ -154,7 +154,6 @@
 
 /customer.{0,10}(engagement|experience|feedback|survey|support)/i
 
-/compliance.{0,10}(concerns?|team)/i
 /complimentary.{0,10}gift/i
 
 /confirmation.{0,10}(needed|required)/i
@@ -338,6 +337,7 @@
 
 /supportch/i
 
+/support.?de$/i
 /support.{0,10}(delivery|team)/i
 /supporter.{0,10}giveaway/i
 

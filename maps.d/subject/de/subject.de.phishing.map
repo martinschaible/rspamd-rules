@@ -231,7 +231,8 @@
 
 # L
 # ------------------------------------------------------------------------------
-/lagerbereinigung (deutschland|schweiz)/i
+/lagerbereinigung.{1,10}(deutschland|schweiz)/i
+/langfristig(en)?.{1,10}zugangssicherheit/i
 
 /letzter schritt.{1,10}aktivieren des.{1,10}zugriffs/i
 
