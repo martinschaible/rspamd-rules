@@ -151,7 +151,6 @@
 /ich (gebe|spende) ihnen.{1,10}\d{3}.{0,5}\d{3}.{1,10}meine gemeinnützige/iu
 /ich (gebe|spende) ihnen diese.{1,10}millionen/i
 
-/ich habe beschlossen.{1,10}ihnen die summe/i
 /ich schreibe ihnen.{1,10}um mich nach der spende/i
 
 /ihnen den betrag von.{1,15}millionen/i
@@ -269,16 +268,6 @@
 /beantragung ihrer spende/i
 
 /sie an (dieser|meiner).{1,15}spende interessiert sind/i
-
-#
-/ich habe beschlossen.{1,10}\d{3}.{0,5}\d{3}.{1,15}an sie/i
-
-/(ich|wir) spenden?.{1,10}an.{1,10}zufällige personen/iu
-/(ich|wir) spenden?.{1,10}an.{1,10}zufällig ausgewählte personen/iu
-/(ich|wir) spenden?.{1,10}ihnen.{1,10}die summe von/i
-/(ich|wir) spenden?.{1,10}ihnen.{1,10}\d{3}.{0,5}\d{3}/i
-/(ich|wir) spenden?.{1,10}(meines|unseres).{1,10}vermögens/iu
-/(ich|wir) spenden?.{1,10}prozent meines.{1,10}vermögens/iu
 
 /ich mein vermögen spenden/iu
 
