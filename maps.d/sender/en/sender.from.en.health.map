@@ -336,7 +336,8 @@
 /(bad|big|enhanced|poor|weak).{0,10}(bladder|eyes|memory|veggies)/i
 /bad.{0,10}breath/i
 
-/back.{0,10}(aches?|cure|fixer|health|neck|pain|stretch)/i
+/back.{0,10}(aches?|fixer|health|neck|pain|stretch)/i
+/back.{0,10}(carte|cure)/i
 
 /bacon.{0,10}eggs/i
 
@@ -741,6 +742,8 @@
 
 /home.{0,10}(doctor|liposuction|recipe|treatment|with ease)/i
 /home.{0,10}(remedies|remedy)/i
+
+/hormone.{0,10}myth/i
 
 /(hot|slow).{0,10}metabolism/i
 

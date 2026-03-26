@@ -305,6 +305,7 @@
 
 /^smart.?deals$/i
 
+/smart.{0,10}glasses/i
 /smart.{0,10}(cleaning|deals|guard|protect|traveler)/i
 /smart.{0,10}(security|sleep|stick)/i
 /smart.?tv/i
