@@ -63,8 +63,9 @@
 
 # I
 # ------------------------------------------------------------------------------
-/ihr.{1,10}abonnement gefährdet ist/iu
-/ihr.{1,15}abonnement wurde vorübergehend pausiert/iu
+/ihre?.{1,15}(abonnement|mitgliedschaft).{1,10}derzeit zurückgestellt/iu
+/ihre?.{1,10}(abonnement|mitgliedschaft).{1,10}gefährdet ist/iu
+/ihre?.{1,15}(abonnement|mitgliedschaft).{1,10}(ist|wurde) vorübergehend pausiert/iu
 
 /ihr.{1,15}schutz ist abgelaufen/i
 /ihr.{1,15}schutz ist möglicherweise abgelaufen/iu

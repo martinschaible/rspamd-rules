@@ -1030,6 +1030,7 @@
 
 /try this (fast|instead)/i
 
+/(try|this).{1,10}fix/i
 /(try|this).{1,10}(miracle|natural)/i
 /(try|this).{1,10}simple.{1,10}nutrient/i
 

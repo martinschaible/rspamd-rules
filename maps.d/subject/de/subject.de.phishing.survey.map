@@ -60,10 +60,11 @@
 # I
 # ------------------------------------------------------------------------------
 #/ihre.{1,10}(meinung|teilnahme) zählt/i
-/ihre.{1,10}(meinung|teilnahme) bei.{1,20}hat wirkung/i
-/ihre.{1,10}(meinung|teilnahme) war erfolgreich/i
-/ihre.{1,10}(meinung|teilnahme) wurde (belohnt|ausgewählt)/iu
-/ihre.{1,10}(meinung|teilnahme) zählt.{1,10}jetzt/iu
+/ihre.{1,10}(meinung|teilnahme).{1,20}hat wirkung/i
+/ihre.{1,10}(meinung|teilnahme).{1,20}erhalten sie/i
+/ihre.{1,10}(meinung|teilnahme).{1,10}war erfolgreich/i
+/ihre.{1,10}(meinung|teilnahme).{1,10}wurde (belohnt|ausgewählt)/iu
+/ihre.{1,10}(meinung|teilnahme).{1,10}zählt.{1,10}jetzt/iu
 
 /ihr gewinn aus der.{1,15}umfrage/i
 /ihre wertvolle eingabe/i

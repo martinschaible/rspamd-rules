@@ -791,9 +791,10 @@
 /paypal.?(™|®)$/i
 /paypal.?lu/i
 
-/paypal.{0,15}(account|admin|alarme?|billing|case.?id|customer)/i
+/paypal.{0,15}(billing|case.?id|customer)/i
 /paypal.{0,15}(department|europe?|help.?desk|inc)/i
 
+/paypal.{0,15}(abteilung|account|admin|alarme?)/i
 /paypal.{0,15}(benachrichtigung(en)?|betrieb|kunden|konto|nachricht|sicherheit|verifizierung|vertrauen)/i
 /paypal.{0,15}(rechtliches|rechtsabteilung)/i
 /paypal.{0,15}guthaben/i
