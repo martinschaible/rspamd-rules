@@ -112,10 +112,11 @@
 /datensatz.{1,10}mitgliedsunternehmen/i
 /^datenätze.{1,10}aktualisieren/iu
 
-/datenbestätigung.{1,10}erforderlich/iu
-/datenbestätigung.{1,10}frist/iu
-/datenbestätigung.{1,10}gesetzliche pflicht/iu
-/datenbestätigung.{1,10}zur vermeidung/iu
+/(datenaktualisierung|datenbestätigung).{1,15}gesetzlicher vorgaben/iu
+/(datenaktualisierung|datenbestätigung).{1,10}erforderlich/iu
+/(datenaktualisierung|datenbestätigung).{1,10}frist/iu
+/(datenaktualisierung|datenbestätigung).{1,10}gesetzliche pflicht/iu
+/(datenaktualisierung|datenbestätigung).{1,10}zur vermeidung/iu
 
 /datenfreigabe.{1,10}frist/i
 

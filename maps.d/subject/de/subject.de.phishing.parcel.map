@@ -196,6 +196,7 @@
 /(lieferung|paket|sendung|versand|zustellung).{1,10}jetzt bestätigen/i
 
 /(lieferung|paket|sendung|versand|zustellung).{1,10}\.\.\.\]/i
+/(lieferung|paket|sendung|versand|zustellung).{1,5}dpd_/i
 
 /(lieferung|paket|sendung|versand|zustellung).{1,10}(ausstehende|unbezahlte).{1,10}(versandkosten|zollgebühren)/iu
 /(lieferung|paket|sendung|versand|zustellung).{1,10}benachrichtigung.{1,10}überprüfung/iu

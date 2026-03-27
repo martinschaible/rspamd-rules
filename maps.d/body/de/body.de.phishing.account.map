@@ -58,6 +58,7 @@
 /facebook.{1,10}kontoüberprüfung/iu
 
 /fehlende (konto|profil).?bereinigung/i
+/fehlende (konto|profil).?pflege/i
 /führen sie eine identitätsprüfung durch/iu
 
 # G
@@ -93,6 +94,8 @@
 
 /(konto|profil).{1,15}bleibt bis zur.{1,25}datenüberprüfung eingeschränkt/iu
 
+/(konto|profil).{1,10}erfordert eine turnusgemäße/iu
+/(konto|profil).{1,10}aktualisierung.{1,15}funktionalität eingeschränkt/iu
 /(konto|profil).{1,10}einer verifizierung bedarf/i
 /(konto|profil).{1,15}festgestellt.{1,10}die ungewöhnlich erscheint/iu
 /(konto|profil).{1,15}innerhalb der nächsten.{1,10}Stunden zu bestätigen/iu
