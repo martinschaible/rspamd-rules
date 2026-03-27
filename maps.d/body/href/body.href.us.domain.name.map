@@ -29,7 +29,7 @@
 
 # Sample: https://google-billing-01..ch/
 /-\d{2}\.blogspot\.[a-z]{2,4}/i
-/openai\.blogspot\./i
+/(openai|ssl)\.blogspot\./i
 
 # 16.10.25
 /\.bubbleapps\.io/i

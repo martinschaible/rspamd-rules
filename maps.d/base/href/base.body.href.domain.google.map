@@ -49,3 +49,6 @@
 # Google whatever this is
 # ------------------------------------------------------------------------------
 /script\.google\.com\/macros/i
+
+# Google uses never a hyphen in their domains, so this is a good indicator for spam.
+/https:\/\/google-/i
