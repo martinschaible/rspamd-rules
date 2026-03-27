@@ -86,6 +86,8 @@
 
 /hd.{0,10}überwachung/i
 
+/heim.{0,10}deals?/i
+
 /heizen.{0,10}einfach/i
 /heizungs?.{0,10}angebote?/i
 
@@ -177,6 +179,7 @@
 # S
 # ------------------------------------------------------------------------------
 /sauber für/iu
+/sauber.{0,10}service/i
 
 /(sauberlauf|schmutzfang).{0,10}matten?/i
 /(lager|schwerlast).{0,10}regale?/i
