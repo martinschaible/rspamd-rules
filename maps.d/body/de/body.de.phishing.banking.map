@@ -123,6 +123,7 @@
 
 # S
 # ------------------------------------------------------------------------------
+/sicheres.{1,10}reibungsloses.{1,10}online.?banking/i
 /sicherheitsupdate.{1,15}online.?banking/i
 
 /sie daran erinnern.{1,10}dass ihre.{1,10}(photo|push).?tan/i
@@ -160,6 +161,8 @@
 # Z
 # ------------------------------------------------------------------------------
 /zugang.{1,10}aus sicherheitsgründen.{1,10}(temporär|vorübergehend) eingeschränkt/iu
+
+/zugang.{1,10}online.?banking.{1,10}eingeschränkt/iu
 /zugang.{1,10}online.?banking.{1,10}(temporär|vorübergehend) eingeschränkt/iu
 
-/zum sicheren online.?banking.{1,10}login/i
+/zum.{1,15}online.?banking.{1,10}(anmelden|login)/i
