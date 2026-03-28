@@ -50,8 +50,8 @@
 /admin(-|_)[a-z]{5,15}\.[a-z]{1,4}/i
 
 /admin.?it$/i
-/admin.?(notification|support|technical|updates)/i
-/administration.{0,5}(support|team)/i
+/admin(istration)?.{0,5}(notification|technical|updates)/i
+/admin(istration)?.{0,5}(support|team)/i
 
 /^administrator/i
 
@@ -177,7 +177,7 @@
 # ------------------------------------------------------------------------------
 /(e?.?)?mail.{0,10}(account|administration|hosters?|support)/i
 
-/exclusive.{0,10}(deals?|offers?)/i
+/exclusive.{0,10}(benefits?|deals?|offers?)/i
 /experts.{0,10}team/i
 
 /express.{0,10}(gruppe|tracking|updates?)/i

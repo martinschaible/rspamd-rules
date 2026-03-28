@@ -98,6 +98,7 @@
 /guten (abend|morgen|tag).{1,10}wir möchten sie (darauf|darüber) (hinweisen|informieren)/iu
 /guten (abend|morgen|tag).{1,10}wir sind eine fabrik/i
 /guten (abend|morgen|tag).{1,10}zum schutz ihres/i
+/guten (abend|morgen|tag).{1,10}zur erhöhung der/i
 
 # Related to Malware
 /guten (abend|morgen|tag).{1,10}unser abonnent/i
@@ -140,6 +141,8 @@
 
 /herzliche (grüsse|grüße).{1,10}ich kontaktiere sie/iu
 /herzliche (grüsse|grüße).{1,10}mein name ist/iu
+
+/hilfe ist nötig.{1,10}guten (abend|morgen|tag)/iu
 
 # I
 # ------------------------------------------------------------------------------
@@ -238,6 +241,8 @@
 /sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}gute nachrichten/i
 
 /sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}führt regelmäßig eine überprüfung/iu
+
+/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}ihr.{1,15}(konto|profil).{1,10}wurde aktualisiert/i
 
 /sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}ihre?.{1,10}speicher ist voll/i
 /sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}ihre?.{1,10}photo.?tan/i

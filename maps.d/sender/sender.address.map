@@ -56,6 +56,9 @@
 # 21.11.25 - Sample: pest-control-83838.shop
 /-\d{4,10}\.shop/i
 
+# 28.03.26 - Sample: R.40819992@younity.team
+/^[a-z]\.\d{5,10}@/i
+
 #
 #
 #

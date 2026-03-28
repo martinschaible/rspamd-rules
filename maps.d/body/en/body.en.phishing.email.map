@@ -128,6 +128,8 @@
 /(release|retrieve|review|unlock|view).{1,15}(important|incoming|pending|suspended).{1,15}(e?.?mail|message)s?/i
 /(release|retrieve|review|unlock|view).{1,15}(e?.?mail|message)s?.{1,10}stuck on the server/i
 
+/remove.{1,15}(e?.?mail|message)s?.{1,10}from hold.{1,10}deliver/i
+
 /(refresh|reload).{1,10}e?.?mail.?server/i
 
 /retrieve.{1,10}(e?.?mail|message)s?.{1,10}to inbox/i
@@ -157,7 +159,7 @@
 
 # V
 # ------------------------------------------------------------------------------
-/view.{1,10}(failed|save).{1,10}(e?.?mail|message)s?/i
+/view.{1,10}(failed|release|save).{1,10}(e?.?mail|message)s?/i
 
 /verify.{1,10}your.{1,10}(e?.?mail|mail.?box).{1,15}to avoid.{1,10}deactivation/i
 /verify.{1,10}your.{1,10}(e?.?mail|mail.?box).{1,15}to restore/i

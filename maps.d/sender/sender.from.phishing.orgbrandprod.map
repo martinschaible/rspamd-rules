@@ -199,13 +199,14 @@
 /(dhl|dpd|fedex|gls|ups).{0,10}team/i
 /(dhl|dpd|fedex|gls|ups).{0,5}zoll/i
 
-
 /(dhl|fedex|gls|ups).{0,5}(deutschland|germany|schweiz)/i
 /dpd.{0,5}(deutschland|germany)/i
 
 /(dhl|dpd|fedex|gls|ups).{0,5}express (germany|schweiz)/i
 
 /dh.?express/i
+
+/hermes.{0,5}zoll/i
 
 #/gls.?paket$/i
 
@@ -872,6 +873,8 @@
 /sbb.{0,5}(kundencenter|swisspass)/i
 /sbb(.?cff.?ffs)?.{0,5}(konto|support|technikzentrum)/i
 /sbb(.?cff.?ffs)?.{0,5}(kunden)?service/i
+/sbb\.cff\.ffs/i
+
 #/sbb.?ffs$/i
 
 /sbbch/i
@@ -1052,9 +1055,13 @@ tcs.{0,10}(partner|prioritäts?)/i
 /volksbank(en)?.{0,10}(kundenbetreuung|kundenservice)/i
 /volksbank(en)?.{0,10}online/i
 
+/volksbank(en)?.{0,10}raiffeisenbankenverbund/i
+
 /volksbank(en)? deutschland eg/i
 /volksbank(en)? eg deutschland/i
 /volksbank(en)?.?vr/i
+
+/volksbankengruppe eg/i
 
 /kundenservice.{0,10}volksbank(en)?/i
 
