@@ -556,6 +556,8 @@
 # Note relevant in Europe
 /home.?(depot|warranty)/i
 
+/hsbc.?bank.{0,10}plc/i
+
 /hostpoint.{0,10}webdomain/i
 
 # I
