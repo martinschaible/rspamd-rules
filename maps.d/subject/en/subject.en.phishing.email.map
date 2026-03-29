@@ -72,6 +72,8 @@
 
 /confirm you.{1,10}not a robot/i
 
+/confirmation.{1,10}required.{1,20}(roundcube|webmail)/i
+
 # D
 # ------------------------------------------------------------------------------
 /de.?activation.{1,10}authentication required/i

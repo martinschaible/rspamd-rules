@@ -29,12 +29,13 @@
 # Cars (Not selling, buying your old car)
 # ------------------------------------------------------------------------------
 /ankauf.{1,10}fahrzeugen?/i
-/autoankauf.{1,10}export/i
+/(autoankauf|fahrzeugankauf).{1,10}(bundesweit|export)/i
 
 /ihr(en)?.{1,10}(auto|fahrzeug|kfz|lkw|pkw|wagen).{1,10}zum besten preis/i
 /ihr(en)?.{1,10}(auto|fahrzeug|kfz|lkw|pkw|wagen).{1,10}verkaufen/i
 
 /(auto|fahrzeug|kfz|lkw|pkw|wagen).{1,10}export jeglicher art/i
+
 
 /sie ihr.{1,10}(auto|fahrzeug|kfz|lkw|pkw|wagen).{1,10}verkaufen/i
 /suchen?.{1,10}(anlagen|gebrauchtmaschinen)/i
@@ -184,6 +185,7 @@
 /(anfrage|angebot).{1,10}(personalunterstützung|temporäre einsätze)/iu
 /(anfrage|angebot).{1,10}freien kapazitäten/iu
 /(anfrage|angebot).{1,10}personeller unterstützung/iu
+/(anfrage|angebot).{1,10}personalunterstützung/iu
 
 /arbeiter aus (europa|europe)/i
 /ausländische fachkräfte für ihr/iu

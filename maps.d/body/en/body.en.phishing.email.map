@@ -42,7 +42,9 @@
 /confirm your.{1,10}e?.?mail.{1,15}ensure uninterrupted service/i
 
 /confirm you.{1,10}not a robot/i
-/confirmation is complete.{1,10}your mailbox/i
+
+/confirmation.{1,10}complete.{1,10}your mailbox/i
+/confirmation.{1,10}required.{1,20}(roundcube|webmail)/i
 
 /continue to keep.{1,10}change your.{1,10}password/i
 /continue using your existing password/i
@@ -174,6 +176,7 @@
 /Webmail.{1,10}e.?mail.{1,10}prevented the delivery/i
 /webmail.{1,5}id:/i
 
+/webmail.{1,15}has not yet been confirmed/i
 /webmail.{1,10}storage.{1,10}(re.?)?validation/i
 /webmail.{1,10}this.{1,10}(e?.?mail|message)s?.{1,10}directed/i
 /webmail.{1,10}update required/i

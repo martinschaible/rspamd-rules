@@ -298,7 +298,8 @@
 
 /does to joint pain/i
 
-/doing this to your/i
+/do(ing)? this to reverse/i
+/do(ing)? this to your/i
 
 /dr phil.{1,10}reveals/i
 
@@ -781,6 +782,7 @@
 /(reverse|reversing).{1,10}(aging in|dementia|diabetes|ed\b|memory|type 2)/i
 /(reverse|reversing).{1,10}(hair|vision).?loss/i
 /(reverse|reversing).{1,10}premature aging/i
+/(reverse|reversing).{1,20}(high blood|sugar levels?)/i
 
 /revives.{1,10}memory fast/i
 /revolutionary all natural/i
@@ -958,6 +960,7 @@
 /the cause.{1,10}learn more/i
 /the.{1,10}minute morning/i
 /the.{1,10}secret ingredient/i
+/the.{1,10}thing killing your/i
 /the.{1,10}truth about/i
 
 /they cause alzheimer/i
