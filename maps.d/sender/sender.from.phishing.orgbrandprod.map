@@ -300,11 +300,11 @@
 /ap.?vertrieb/i
 
 /apobank -/i
-/apobank.{0,10}kundenservice/i
+/apobank.{0,10}(kunden.?service|mitglieder.?service)/i
 
 /apiie ld/i
 /apple.{0,10}airtag/i
-/apple.{0,10}(autorisierung|kundenservice|netzwerk|zahlung)/i
+/apple.{0,10}(autorisierung|kunden.?service|netzwerk|zahlung)/i
 /apple.{0,10}services/i
 /apple.{0,10}warnsystem/i
 
