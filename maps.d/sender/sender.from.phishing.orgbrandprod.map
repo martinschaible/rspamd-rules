@@ -1071,7 +1071,10 @@
 
 /volksbankengruppe eg/i
 
+/volks\.eg.{0,10}service/i
+
 /kundenservice.{0,10}volksbank(en)?/i
+/kunden volks\./i
 
 /von.{0,10}swica/i
 

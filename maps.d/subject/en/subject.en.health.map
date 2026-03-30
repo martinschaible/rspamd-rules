@@ -838,6 +838,7 @@
 /sign of a stroke/i
 
 /silence(d|s)?.{1,10}(pain|ringing|tinnitus)/i
+/silence(d|s)?.{1,10}silence ear/i
 
 /simple.{1,10}at.?home/i
 /simple.{1,10}daily habit/i
