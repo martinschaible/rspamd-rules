@@ -112,6 +112,10 @@
 
 /review.{1,10}confirm your details/i
 
+# Login attempt from a new device
+/russian federation.{1,10}high.?risk zone/i
+/russian ip.{1,10}detected/i
+
 # S
 # ------------------------------------------------------------------------------
 /secure the metmask dashboard/i

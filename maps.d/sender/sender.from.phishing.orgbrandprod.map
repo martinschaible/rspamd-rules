@@ -440,6 +440,7 @@
 
 /dlsney/i
 /disney.{0,10}support/i
+/disneyplus/i
 /llc.{0,10}disney/i
 
 /_dkb/i
@@ -903,6 +904,8 @@
 
 /service.?center.?ard.?zdf/i
 /secretary.{0,5}treasury/i
+
+/shell.{0,10}(partner|research|support|team)/i
 
 /spar-kasse/i
 /^sparkasse$/i

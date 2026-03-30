@@ -36,7 +36,8 @@
 
 # D
 # ------------------------------------------------------------------------------
-/deal to discuss with you/i
+/deal.{1,10}discuss with you/i
+/deal.{1,15}i need a partner/i
 
 /(discuss|has a).{1,15}(business|project) proposal/i
 
@@ -58,6 +59,7 @@
 # ------------------------------------------------------------------------------
 /(i|we) have.{1,10}access to.{1,10}vital information/i
 /(i|we) have.{1,10}financial proposition/i
+/(i|we) have.{1,20}deal for you/i
 /(i|we) have.{1,10}good.{1,10}business project/i
 /(i|we) have.{1,10}million business/i
 /(i|we) have.{1,10}some project funds/i
@@ -68,6 +70,8 @@
 /(i|we) have.{1,15}(confidential|genuine|lucrative).{1,15}(business|offer|opportunity|proposition|proposal|transaction)/i
 /(i|we) have.{1,10}obligation.{1,10}that.{1,10}would like you/i
 /(i|we) have.{1,15}(profitable|urgent).{1,15}(business|offer|opportunity|proposition|proposal|transaction)/i
+
+/(i|we) need.{1,10}partner with the capacity.{1,10}handle/i
 
 /it is legitimate.{1,15}risk free/i
 
@@ -100,6 +104,7 @@
 /partner with you.{1,15}let me know if you/i
 /partnership.{1,10}representation.{1,10}interested/i
 
+/profitable.{1,10}its?.{1,10}risk.?free/i
 /profiting.{1,10}venture that concerns you/i
 
 /potential business cooperation.{1,10}your.{1,10}company/i

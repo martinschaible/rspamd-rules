@@ -81,8 +81,10 @@
 /finanzierungs?.{0,10}(darlehen|kredite)/i
 
 /finanzierungsoption(en)?.{1,10}(private|geschäftliche)/i
-/finanzierungslösung(en)?.{1,10}(privatkunden|unternehmen)/iu
 /finanzierungsoption(en)?.{1,15}zinssatz/i
+
+/finanzierungslösung(en)?.{1,10}(privatkunden|unternehmen)/iu
+/finanzierungslösung(en)?.{1,10}für ihre/i
 
 # G
 # ------------------------------------------------------------------------------
