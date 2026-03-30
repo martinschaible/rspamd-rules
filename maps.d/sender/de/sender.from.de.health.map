@@ -15,6 +15,8 @@
 /(drink|hilfe|hilft|jetzt|schnell|zum).{1,10}abnehmen/i
 /\d.?kg weniger/i
 
+/diät.{1,10}(plan|programm|pillen|tipps|tricks?|wunder)/i
+
 # Pharmacy
 # ------------------------------------------------------------------------------
 /(herren|pillen|playboy).{0,10}apotheke/i
