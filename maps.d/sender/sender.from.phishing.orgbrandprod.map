@@ -315,7 +315,7 @@
 
 /^ard.?zdf$/i
 /ard.?zdf.?(radio|service|team)/i
-(ard|zdf).{0,10}(gebühren|service|support)/iu
+/(ard|zdf).{0,10}(gebühren|service|support)/iu
 
 /aarp.{0,10}(advertiser|offer|opportunity)/i
 
@@ -1000,7 +1000,7 @@
 
 /tcs.?car/i
 /tcs.{0,10}(abteilung|ngebote?|admin|kundenservice|mitglieder|vip|werbung)/i
-tcs.{0,10}(partner|prioritäts?)/i
+/tcs.{0,10}(partner|prioritäts?)/i
 
 /team_/i
 /team.{0,10}(account|paletten?)/i
