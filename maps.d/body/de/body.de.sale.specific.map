@@ -76,9 +76,10 @@
 /(neues|premium|unser).{1,15}(e.?bike|elektro.?moped)/i
 /eu.?konformes?.{1,10}(e.?bike|elektro.?moped)/i
 
+/(e.?bike|e.?cycle|elektrische|elektro|fahrrad|fahrräder).{1,15}ab.{1,10}stock/iu
 /(e.?bike|e.?cycle|elektrische|elektro|fahrrad|fahrräder).{1,15}aktion/iu
 /(e.?bike|e.?cycle|elektrische|elektro|fahrrad|fahrräder).{1,25}deutschem lager/iu
-/(e.?bike|e.?cycle|elektrische|elektro|fahrrad|fahrräder).{1,25}für.{1,10}(b2b|handel|händler|wiederverkäufer)/iu
+/(e.?bike|e.?cycle|elektrische|elektro|fahrrad|fahrräder).{1,25}für.{1,10}(b2b|handel|händler|wiederverkäufer|sortiment)/iu
 /(e.?bike|e.?cycle|elektrische|elektro|fahrrad|fahrräder).{1,15}(fabrik|tretunterstützung)/iu
 /(e.?bike|e.?cycle|elektrische|elektro|fahrrad|fahrräder).{1,15}vor(zu)?stellen/iu
 
@@ -101,6 +102,9 @@
 
 /gefragte.{1,10}mountain.?e?bike/i
 /sechsundzwanzig zoll/i
+
+/kurzen b2b.?anfrage/i
+
 /lager können wir aktuell ein/i
 /lieferung.{1,10}aus deutschem lager/i
 

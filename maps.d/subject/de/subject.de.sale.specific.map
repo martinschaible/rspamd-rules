@@ -110,6 +110,9 @@
 /e.?(fahrzeuge|fahrzeuglinie|fahrzeugprogramm|mobilität).{1,20}europäischen markt/iu
 /e.?(fahrzeuge|fahrzeuglinie|fahrzeugprogramm|mobilität).{1,20}zielgruppe/iu
 
+/e?.?(fahrzeugflotte|mobilitätsflotte).{1,20}für.{1,10}europäischen markt/iu
+/e?.?(fahrzeugflotte|mobilitätsflotte).{1,20}für.{1,10}ihre region/iu
+
 /elektro.?(fahrrad|fahrrädern?|motorrad|moped|velo).{1,10}Angebot.{1,10}(b2b|handel|händler|wiederverkäufer)/i
 /elektro.?(fahrrad|fahrrädern?|motorrad|moped|velo).{1,10}(beste wahl|direkt|herstellerpreisen?)/i
 /elektro.?(fahrrad|fahrrädern?|motorrad|moped|velo).{1,10}(für europa|für nur|zukunft)/iu
@@ -148,7 +151,10 @@
 /abwicklung ab de/i
 /aus deutschem lager/i
 /b2b.{1,10}zusammenarbeit/i
+
 /deutschen lager verfügbar/iu
+/deutschem lagerbestand/i
+
 /(direkter versand|direkt(versand)?) aus (deutschland|europa)/i
 /(direktversand|lieferung).{1,10}zoll/i
 /dropshipping optionenvhändler/iu
@@ -160,9 +166,13 @@
 /konditionen heute anfordern/i
 /könnte eines unserer neuen/iu
 
+/lager in deutschland/i
+
 /sind sie interessiert.{1,10}mehr über unsere/iu
 /sofort verfügbar.{1,10}versionen/iu
 /sofortlieferung innerhalb der/i
+/stabile lieferkettenr.{1,10}fachhandel/i
+/standort mit kurzer lieferzeit/i
 /verfügbar für.{1,10}verkauf/iu
 /verkaufsschlager auf lager/i
 /versorgung.{1,10}deutsches lager/i

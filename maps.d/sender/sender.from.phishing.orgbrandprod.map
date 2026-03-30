@@ -430,6 +430,7 @@
 
 /deutschland.?radio.{0,10}nachrichtendienst/i
 /deutschland.?ticket.{0,10}(service|team|zentrale)/i
+/deutschland.?tickets/i
 
 /diba-ag/i
 /digitech/i
@@ -475,6 +476,7 @@
 /easyb-ank/i
 /easybank.{0,10}(app|support)/i
 /easybank.{0,10}kundenservice/i
+/easybank.{0,10}service.?team/i
 
 # 08.06.25
 /ebanking.{0,10}(ubs|postfinance)/i
