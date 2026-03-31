@@ -139,6 +139,8 @@
 # P
 # ------------------------------------------------------------------------------
 /package features.{1,15}seo/i
+/page 1 of.{1,10}(bing|google|yahoo)/i
+
 /proposal.{1,10}of your.{1,10}(web)?.?site/i
 
 # Q
@@ -146,6 +148,8 @@
 
 # R
 # ------------------------------------------------------------------------------
+/rank higher.{1,10}get.{1,15}leads/i
+
 /rankings?.{1,10}our.{1,10}effective/i
 /rankings?.{1,10}issues on your.{1,10}(web)?site/i
 
@@ -211,8 +215,9 @@
 
 /we.{1,10}(get|guarantee){1,10}top.{1,15}(placement|positions?|ranking)/i
 
-/we.{1,10}help (businesses|companies) enhance.{1,10}seo/i
-/we.{1,10}help (businesses|companies) like yours.{1,10}get/i
+/we.{1,10}help (businesses|companies).{1,10}enhance.{1,10}seo/i
+/we.{1,10}help (businesses|companies).{1,10}like yours.{1,10}get/i
+/we.{1,10}help (businesses|companies).{1,15}(rank higher|seo)/i
 
 /we.{1,10}offer.{1,15}seo.?solutions?/i
 /we.{1,10}rank you in the top/i
@@ -277,6 +282,7 @@
 /your.{1,10}(web)?.?site.{1,10}(ranks?|ranking).{1,10}not good/i
 
 /your.{1,10}(web)?.?site.{1,10}search.?engines/i
+/your.{1,10}(web)?.?site.{1,10}show on page/i
 
 /your.{1,10}(web)?.?site.{1,10}that might be affecting.{1,20}ranking/i
 /your.{1,10}(web)?.?site.{1,15}top.{1,10}positions/i
