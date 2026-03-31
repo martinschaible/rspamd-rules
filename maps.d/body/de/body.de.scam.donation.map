@@ -59,6 +59,8 @@
 /(dollar|euro?|gbp|usd|€|\$|£).{1,10}euro zu erhalten.{1,10}um ihren anspruch/i
 /(dollar|euro?|gbp|usd|€|\$|£).{1,10}wurden (an sie|ihnen) gespendet/i
 
+/diese e?.?mail erhalten.{1,10}wurden ihr name/i
+
 # E
 # ------------------------------------------------------------------------------
 /e?.?mail.{1,15}als empfänger einer spende/iu
@@ -107,6 +109,7 @@
 
 /ich habe.{1,10}einen.{1,10}charity.?fonds/i
 
+/ihr.{1,10}spenden.?code/i
 /ihre.{1,10}daten wurden uns für einen?.{1,10}(spende|zuschuss)/iu
 
 /ihre?.{1,10}e?.?mail.?(adresse|konto)?.{1,15}als.{1,20}begünstigter/iu

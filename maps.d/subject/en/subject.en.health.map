@@ -152,7 +152,9 @@
 
 /bleeding gums/i
 
-/bloated because of/i
+/bloated.{1,10}because of/i
+/bloated.{1,10}belly/i
+
 /bloating.{0,10}you/i
 
 /blocks?.{1,10}fat production/i
@@ -451,7 +453,7 @@
 /get.{1,10}tinnitus/i
 /get hard.{1,10}stay hard/i
 
-/gets? rid of.{1,10}(brain fog|cavity|glasses|pain)/i
+/gets? rid of.{1,10}(brain fog|bloated|cavity|glasses|pain)/i
 /gets? rid of.{1,10}burning/i
 /gets? rid of.{1,10}constipation/i
 /gets? rid of.{1,10}these.{1,10}fruits/i

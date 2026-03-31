@@ -103,6 +103,8 @@
 /(konto|profil).{1,10}haben wir ein update durchgeführt/iu
 /(konto|profil).{1,15}innerhalb der nächsten.{1,10}Stunden zu bestätigen/iu
 
+/(konto|profil).{0,10}informationen.{1,10}sicherheitsgründen/iu
+
 /(konto|profil).{1,15}ist.{1,10}(dauerhaft|derzeit|möglicherweise|vorübergehend).{1,10}(ausgesetzt|eingeschränkt|begrenzt|gesperrt)/iu
 /(konto|profil).{1,15}ist.{1,10}verpflichtende handlung/i
 
