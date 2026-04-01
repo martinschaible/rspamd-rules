@@ -29,6 +29,11 @@
 
 /(das|diese).{1,10}mobile.{1,10}klima.?(anlage|gerät)/iu
 
+# Cars
+# ------------------------------------------------------------------------------
+/führender anbieter.{1,10}geprüften.{1,10}geschäftswagen/iu
+/strategischen partner.{1,10}professionelle/i
+
 # Cars (Not selling, buying your old car)
 # ------------------------------------------------------------------------------
 /(auto|fahrzeug|kfz|lkw|pkw|wagen).{1,10}das zu verkaufen ist/i
