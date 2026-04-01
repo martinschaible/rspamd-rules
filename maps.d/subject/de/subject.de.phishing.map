@@ -324,7 +324,8 @@
 # Paypal
 /transaktionshistorie freigegeben.{1,10}ref/i
 
-/turnusgemäßen (aktualisierung|datenfreigabe)/iu
+/turnusgemäßen.{1,10}(aktualisierung|datenfreigabe)/iu
+/turnusgemäßen.{1,10}kundenkommunikation/iu
 
 # U
 # ------------------------------------------------------------------------------

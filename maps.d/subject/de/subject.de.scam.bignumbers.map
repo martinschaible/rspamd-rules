@@ -59,6 +59,9 @@
 /(million|mio\b).{1,10}(dollar|euro?|gbp|usd|€|\$|£)!/i
 /(million|mio\b).{1,10}(dollar|euro?|gbp|usd|€|\$|£).{1,10}für sie/iu
 
+# Sample:  Millionen Euro (Eine Million fünfhunderttausend Euro)
+/(million|mio\b).{1,10}(dollar|euro?|gbp|usd|€|\$|£).{1,10}million/i
+
 # Generic
 # ==============================================================================
 
