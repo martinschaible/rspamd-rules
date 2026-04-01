@@ -117,9 +117,10 @@
 
 # I
 # ------------------------------------------------------------------------------
-/improve rankings/i
-/improve seo now/i
-/improve your ranking/i
+/(improve|improving).{1,10}rankings/i
+/(improve|improving).{1,10}seo now/i
+/(improve|improving).{1,10}your ranking/i
+/(improve|improving).{1,10}your.{1,10}((home)?page|(web)?site).{1,10}visibility/i
 
 /increase local leads/i
 /increase your.{1,10}traffic/i

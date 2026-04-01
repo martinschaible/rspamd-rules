@@ -204,6 +204,7 @@
 
 # S
 # ------------------------------------------------------------------------------
+/(shanghai|shenzhen).{1,10}based.{1,10}(pcba?|printed.circuit.board)/i
 /(shanghai|shenzhen).{1,15}co.{1,5}ltd/i
 /(shanghai|shenzhen).{1,15}technology.{1,10}co.{1,5}ltd/i
 

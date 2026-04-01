@@ -777,6 +777,7 @@
 /open.?ai.{0,5}(account|billing|team|upgrade)/i
 /open.?ai.{0,5}(services?|subscriptions?|support)/i
 /open.?ai.{0,5}(mitgliederverwaltung|zahlung(en)?)/i
+/open.?ai.{0,5}via/i
 
 /kundendienst.{0,10}open.?ai/i
 /service.{0,10}open.?ai/i
@@ -1082,7 +1083,7 @@
 
 /von.{0,10}swica/i
 
-/vr.?bank.{0,10}(deutschland|online|zentrale)/i
+/vr.?(bank|gruppe).{0,10}(deutschland|online|zentrale)/i
 
 # W
 # ------------------------------------------------------------------------------

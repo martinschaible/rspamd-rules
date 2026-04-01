@@ -184,13 +184,13 @@
 
 # Hiring People
 # ------------------------------------------------------------------------------
-/(arbeiter|arbeitskräfte|fachkräfte|personal|vermittlung|zeitarbeit).{1,15}(baltikum|litauen|slowakei|tschechien)/iu
+/(arbeiter|arbeitskräfte|fachkräfte|hilfskräfte|personal|vermittlung|zeitarbeit).{1,15}(baltikum|litauen|slowakei|tschechien)/iu
 
-/(arbeiter|arbeitskräfte|fachkräfte|personal|vermittlung|zeitarbeit).{1,15}ab.{1,10}(chf|euro)/iu
-/(arbeiter|arbeitskräfte|fachkräfte|personal|vermittlung|zeitarbeit).{1,10}(aus|sofort)/iu
-/(arbeiter|arbeitskräfte|fachkräfte|personal|vermittlung|zeitarbeit).{1,10}bauprojekt/i
-/(arbeiter|arbeitskräfte|fachkräfte|personal|vermittlung|zeitarbeit).{1,10}für ihre?.{1,15}(projekte|team)/iu
-/(arbeiter|arbeitskräfte|fachkräfte|personal|vermittlung|zeitarbeit).{1,10}für.{1,15}(logistik|produktion|verarbeitung)/i
+/(arbeiter|arbeitskräfte|fachkräfte|hilfskräfte|personal|vermittlung|zeitarbeit).{1,15}ab.{1,10}(chf|euro)/iu
+/(arbeiter|arbeitskräfte|fachkräfte|hilfskräfte|personal|vermittlung|zeitarbeit).{1,10}(aus|sofort)/iu
+/(arbeiter|arbeitskräfte|fachkräfte|hilfskräfte|personal|vermittlung|zeitarbeit).{1,10}bauprojekt/i
+/(arbeiter|arbeitskräfte|fachkräfte|hilfskräfte|personal|vermittlung|zeitarbeit).{1,10}für ihre?.{1,15}(projekte|team)/iu
+/(arbeiter|arbeitskräfte|fachkräfte|hilfskräfte|personal|vermittlung|zeitarbeit).{1,10}für.{1,15}(logistik|produktion|verarbeitung)/i
 
 /(anfrage|angebot).{1,10}(personalunterstützung|temporäre einsätze)/iu
 /(anfrage|angebot).{1,10}freien kapazitäten/iu
