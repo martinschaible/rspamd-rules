@@ -55,8 +55,9 @@
 
 # I
 # ------------------------------------------------------------------------------
-/ihnen.{1,15}(entschädigungszahlung|überweisung) in höhe von/iu
 /ihnen.{1,15}betrag von.{1,15}millionen.{1,10}steuerfrei zu überweisen/iu
+/ihnen.{1,15}(entschädigungszahlung|überweisung) in höhe von/iu
+/ihnen.{1,15}nicht abgeholte gelder zustehen/u
 
 /ihre gelder zu erhalten.{1,10}kontaktieren sie uns.{1,10}unter/i
 /ihre unterstützung.{1,15}überweisung/iu

@@ -109,6 +109,7 @@
 
 /(lieferung|paket|sendung).{1,20}aufgrund eines barcode.?fehlers/i
 /(lieferung|paket|sendung).{1,20}aufgrund einer falschen.{1,15}adresse/i
+/(lieferung|paket|sendung).{1,20}aufgrund einer fehlenden.{1,15}zahlung/i
 
 /(lieferung|paket|sendung).{1,10}befindet sich.{1,10}(finalen|letzten).{1,10}(zustellphase|zustellprozess)/i
 /(lieferung|paket|sendung).{1,10}befindet sich.{1,10}derzeit beim.{1,15}zoll/i
@@ -227,6 +228,8 @@
 
 # W
 # ------------------------------------------------------------------------------
+/wichtiges update zu.{1,15}(lieferung|paket|sendung)/i
+
 /wir halten ihre?.{1,10}(paket|sendung).{1,10}im depot/i
 /wir halten ihre?.{1,10}(paket|sendung).{1,10}sendungsnummer/i
 

@@ -197,6 +197,7 @@
 /(dhl|dpd|fedex|gls|ups).{0,5}paket.?(status|zentrum)/i
 /(dhl|dpd|fedex|gls|ups).{0,5}(package|payment|paketinfo)/i
 /(dhl|dpd|fedex|gls|ups).{0,10}team/i
+/(dhl|dpd|fedex|gls|ups).{0,5}verteilzentrum/i
 /(dhl|dpd|fedex|gls|ups).{0,5}zoll/i
 
 /(dhl|fedex|gls|ups).{0,5}(deutschland|germany|schweiz)/i

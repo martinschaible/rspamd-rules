@@ -81,7 +81,7 @@
 # E
 # ------------------------------------------------------------------------------
 /e?.?mail.{1,10}lists?.{1,10}202\d/i
-/e?.?mail.{1,10}lists?.{1,10}(lead|valid)/i
+/e?.?mail.{1,10}lists?.{1,10}(for sale|lead|valid)/i
 
 /e?.?mail.{1,10}per leads?/i
 /e?.?mail.{1,10}platform.{1,20}campaigns/i
@@ -134,6 +134,7 @@
 
 # L
 # ------------------------------------------------------------------------------
+/leads.{1,10}databases/i
 /leads.{1,10}from.{1,10}events/i
 
 /^link affinity$/i
@@ -229,6 +230,8 @@
 
 /will help your.{1,15}stand out/i
 /with.{1,10}wikipedia listing/i
+/with full contact details/i
+
 
 # X
 # ------------------------------------------------------------------------------

@@ -47,6 +47,7 @@
 /confirmation.{1,10}required.{1,20}(roundcube|webmail)/i
 
 /continue to keep.{1,10}change your.{1,10}password/i
+/continue receiving all.{1,10}(e?.?mail|messages)/i
 /continue using your existing password/i
 
 # D
@@ -140,6 +141,8 @@
 # ------------------------------------------------------------------------------
 /server has important.{1,10}(e?.?mail|message)s?.{1,10}suspended/i
 /server issues.{1,10}port:993.{1,10}incoming/i
+
+/settings to continue receiving.{1,15}(e?.?mail|message)s?/i
 
 # T
 # ------------------------------------------------------------------------------

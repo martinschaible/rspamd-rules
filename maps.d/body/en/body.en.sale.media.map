@@ -71,11 +71,13 @@
 /e?.?mail.{1,10}maximum efficiency/i
 /e?.?mail.{1,10}with.{1,10}(efficiency|speed)/i
 
-/e?.?mail.?lists?.{1,10}202\d/i
-/e?.?mail.?lists?.{1,10}for your e?.?mail blasting/i
-/e?.?mail.?lists?.{1,10}rental/i
-/e?.?mail.?lists?.{1,10}of any country/i
-/e?.?mail.?lists?.{1,10}your.{1,10}marketing/i
+/e?.?mail.{0,10}lists?.{1,10}202\d/i
+/e?.?mail.{0,10}lists collected from/i
+/e?.?mail.{0,10}lists?.{1,10}for your e?.?mail blasting/i
+/e?.?mail.{0,10}lists?.{1,10}leads/i
+/e?.?mail.{0,10}lists?.{1,10}rental/i
+/e?.?mail.{0,10}lists?.{1,10}of any country/i
+/e?.?mail.{0,10}lists?.{1,10}your.{1,10}marketing/i
 
 
 /e?.?mail.?marketing.{1,10}(free|for you|works)/i
@@ -124,6 +126,7 @@
 # L
 # ------------------------------------------------------------------------------
 /leads.{1,10}e?.?mail.{1,10}addresses/i
+/leads.{1,10}databases/i
 
 /list is available.{1,15}your promotional/i
 /list includes.{1,10}contact information/i
@@ -161,6 +164,7 @@
 # S
 # ------------------------------------------------------------------------------
 /sell.{1,10}million.{1,10}e?.?mails/i
+/selling e?.?mail.?lists/i
 
 /supercharge your.{1,10}(online|sales)/i
 
@@ -194,6 +198,7 @@
 /we can send.{1,10}targeted.{1,10}(campaigns|e?.?mail)/i
 /we can help.{1,10}your business solve/i
 
+/we have.{1,15}access.{1,15}your target audience/i
 /we have.{1,15}compiled total.{1,10}(attendees?|contacts|registrants|visitors?)/i
 /we have.{1,15}sourced contact details/i
 

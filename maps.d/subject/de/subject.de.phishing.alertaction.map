@@ -44,6 +44,8 @@
 /achtung.{1,10}unbezahlte gebühr/iu
 /achtung.{1,10}verdächtige.{1,10}(aktivität|vorgänge)/iu
 
+/administrative mitteilung.{1,10}referenz/i
+
 /aktion.{1,10}aktualisierung.{1,10}zahlungsinformationen/i
 
 # Sample: Aktion ID 4236127
@@ -266,7 +268,7 @@
 /^dringender handlungsbedarf$/i
 
 /dringender.{1,10}handlungsbedarf.{1,15}bank/i
-/dringender.{1,10}handlungsbedarf.{1,10}im bereich/i
+/dringender.{1,10}handlungsbedarf.{1,10}(besteht|im bereich)/i
 
 /dringlichkeit.{1,10}aufmerksamkeit/i
 
