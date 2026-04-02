@@ -17,7 +17,6 @@
 /(agent|ticket)\.?\d{1,10}@/i
 /marketing\.?\d{1,10}@/i
 /notes\.?\d{1,10}@/i
-/(sales|sender|services|suite|support)/i
 
 /do.?not.?reply\.?\d{1,10}@/i
 /top\.?\d{1,10}@/i
@@ -170,6 +169,8 @@
 /service.?client/i
 
 /slim.?diet/i
+
+/(sales|sender|services|suite)/i
 
 #  24.06.25 - Sample: store+90808156488@t.shopifyemail.com
 #/store\+\d{4,10}/i
