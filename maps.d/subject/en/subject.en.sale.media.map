@@ -53,6 +53,7 @@
 /bulk.{1,10}mailing/i
 
 /business.{1,10}contacts now/i
+/business.{1,10}database.{1,25}to connect/i
 /business.{1,10}development proposal/i
 
 # C
@@ -66,6 +67,7 @@
 /company data.{1,10}contact.{1,10}e?.?mails/i
 /complete visitor.{1,10}(database|list)/i
 
+/connect with more.{1,10}customers/i
 /contact list of.{1,15}stores/i
 
 /(customers|visitors) database/i
@@ -105,6 +107,8 @@
 /get.{1,15}business contacts/i
 /get.{1,15}instagram followers/i
 /get.{1,15}trustpilot reviews/i
+
+/(germany|switzerland).{1,10}company.{1,10}database/i
 
 /guest post(ing)?.{1,10}(backlinks|services)/i
 /guest post(ing)?.{1,10}(opportunities|opportunity)/i
@@ -218,6 +222,8 @@
 # V
 # ------------------------------------------------------------------------------
 /verified client details/i
+
+/view.{1,10}business database/i
 
 # W
 # ------------------------------------------------------------------------------
