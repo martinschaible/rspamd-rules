@@ -97,6 +97,8 @@
 /(konto|profil).{1,15}bestätigen sie.{1,10}ihre kontoinformationen/iu
 /(konto|profil).{1,15}bleibt bis zur.{1,25}datenüberprüfung eingeschränkt/iu
 
+/(konto|profil).{1,10}damit wir den vollen betrag/i
+
 /(konto|profil).{1,10}erfordert eine turnusgemäße/iu
 /(konto|profil).{1,10}aktualisierung.{1,15}funktionalität eingeschränkt/iu
 /(konto|profil).{1,10}einer verifizierung bedarf/i
@@ -234,8 +236,9 @@
 
 # Z
 # ------------------------------------------------------------------------------
-/zugang zu (ihrem|meinem).{1,15}konto wiederherstellen/i
+/zu erhalten.{1,10}verifizieren sie.{1,15}ihr.{1,15}konto/i
 
+/zugang zu (ihrem|meinem).{1,15}konto wiederherstellen/i
 /zugriff auf ihr.{1,15}konto.{1,10}(vorübergehend)?.{1,10}(eingeschränkt|pausiert)/iu
 
 /zum schutz.{1,15}ihres kontos ist die aktivierung/i

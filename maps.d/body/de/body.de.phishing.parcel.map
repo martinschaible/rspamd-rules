@@ -53,6 +53,7 @@
 # F
 # ------------------------------------------------------------------------------
 /freigabe.{1,10}(lieferung|paket|sendung).{1,10}ist eine bearbeitungsgebühr/iu
+/freigabe.{1,10}zustellung.{1,10}(lieferung|paket|sendung)/i
 
 # G
 # ------------------------------------------------------------------------------
@@ -114,7 +115,7 @@
 /(lieferung|paket|sendung).{1,20}aufgrund einer fehlenden.{1,15}zahlung/i
 
 /(lieferung|paket|sendung).{1,10}befindet sich.{1,10}(finalen|letzten).{1,10}(zustellphase|zustellprozess)/i
-/(lieferung|paket|sendung).{1,10}befindet sich.{1,10}derzeit beim.{1,15}zoll/i
+/(lieferung|paket|sendung).{1,10}befindet sich.{1,10}derzeit.{1,20}(versandzentrum|zoll)/i
 /(lieferung|paket|sendung).{1,10}befindet sich.{1,10}in der zollabfertigung/i
 /(lieferung|paket|sendung).{1,15}befindet sich.{1,25}lager in der nähe/iu
 
@@ -173,14 +174,14 @@
 /(lieferung|paket|sendung).{1,20}wurde.{1,10}(bearbeitet|registriert).{1,10}ist auf dem weg/i
 /(lieferung|paket|sendung).{1,20}wurde.{1,10}(bearbeitet|registriert).{1,10}wird.{1,10}(derzeit|verarbeitet)/i
 /(lieferung|paket|sendung).{1,20}wurde.{1,10}(bearbeitet|registriert).{1,10}befindet sich.{1,15}im lieferprozess/i
+/(lieferung|paket|sendung).{1,20}wurde.{1,10}beim zoll.{1,10}(erfasst|registriert)/i
 /(lieferung|paket|sendung).{1,20}wurde.{1,10}eine unstimmigkeit festgestellt/i
 /(lieferung|paket|sendung).{1,20}wurde.{1,10}erfolgreich.{1,10}(verarbeitet|verteilzentrum)/i
 /(lieferung|paket|sendung).{1,20}wurde.{1,10}importzentrum zur zollprüfung/iu
-/(lieferung|paket|sendung).{1,20}wurde.{1,20}in der schweiz (verarbeitet|zugestellt)/i
+/(lieferung|paket|sendung).{1,20}wurde.{1,10}in.{1,20}(erfasst|registriert)/i
+/(lieferung|paket|sendung).{1,20}wurde.{1,20}in.{1,20}(verarbeitet|zugestellt)/i
 /(lieferung|paket|sendung).{1,10}wurde.{1,10}unterbrochen/i
-
-/(lieferung|paket|sendung).{1,20}wurde.{1,10}wurde beim zoll.{1,10}(erfasst|registriert)/i
-/(lieferung|paket|sendung).{1,20}wurde.{1,10}wurde in.{1,20}(erfasst|registriert)/i
+/(lieferung|paket|sendung).{1,25}wurde.{1,10}verteilzentrum zurückgehalten/iu
 
 /(lieferung|paket|sendung).{1,15}wurde.{1,10}verzollung vorgelegt/i
 

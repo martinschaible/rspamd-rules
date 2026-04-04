@@ -12,6 +12,7 @@
 # Company stuff
 # ------------------------------------------------------------------------------
 /china co.{1,10}(limited|ltd)/i
+/sichuan.{1,10}(limited|ltd)/i
 
 /co.{1,5}(limited|ltd).{1,10}a trusted/i
 /co.{1,5}(limited|ltd).{1,10}tel: \+86/i
@@ -30,8 +31,8 @@
 /co.{1,5}(limited|ltd).{1,10}to you/i
 /co.{1,5}(limited|ltd).{1,10}whatsapp/i
 
-/(enterprise|equipment|logistics|technology).{1,15}co.{1,5}(limited|ltd)/i
-/(enterprise|equipment|logistics|technology).{1,10}ltd.{1,5}whatsapp/i
+/(enterprise|equipment|logistics|technology|trade).{1,15}co.{1,5}(limited|ltd)/i
+/(enterprise|equipment|logistics|technology|trade).{1,10}ltd.{1,5}whatsapp/i
 
 /(ceramics|clothing).{1,10}co.{1,5}(limited|ltd)/i
 /export group.{1,10}co.{1,5}(limited|ltd)/i

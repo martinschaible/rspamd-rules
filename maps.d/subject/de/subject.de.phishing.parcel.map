@@ -277,7 +277,7 @@
 /(paket|sendung).{1,10}an sie hätte geliefert/iu
 /(paket|sendung).{1,10}auf die freigabe wartet/i
 /(paket|sendung).{1,20}bearbeitung erforderlich/i
-/(paket|sendung).{1,10}befindet sich.{1,10}(wartestellung|zustellzentrum)/i
+/(paket|sendung).{1,15}befindet sich.{1,15}(versandzentrum|wartestellung|zustellzentrum)/i
 /(paket|sendung).{1,10}benötigt eine aktion/iu
 /(paket|sendung).{1,10}bestätigen sie/iu
 /(paket|sendung).{1,20}bewegt sich/i
@@ -307,6 +307,7 @@
 /(paket|sendung).{1,10}nicht möglich.{1,10}fehlerhafte.{1,10}(adresse?|angaben|mwst)/iu
 /(paket|sendung).{1,10}überprüfung erforderlich/iu
 
+/(paket|sendung).{1,10}von.{1,25}befindet sich/i
 /(paket|sendung).{1,10}von.{1,25}zahlung erforderlich/i
 
 /(paket|sendung).{1,10}wartet auf/i
@@ -318,6 +319,8 @@
 
 /paketbenachrichtigung.{1,10}ihre?.{1,10}(paket|sendung)/iu
 /paketbenachrichtigung.{1,10}zustellung verzögert sich/iu
+
+/paketstatus.{1,10}aktion erforderlich/i
 
 /paketzustellung.{1,10}benötigt weitere informationen/iu
 /paketzustellung.{1,10}bestätigung erforderlich/i

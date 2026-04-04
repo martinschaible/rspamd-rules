@@ -31,6 +31,7 @@
 # ------------------------------------------------------------------------------
 /dear.{1,10}(customer|due respect|esteemed|friend)/i
 /dear.{1,10}(sir|recipient|winner)/i
+/dear.{1,10}mr.?ms/i
 /dear.{1,10}(beloved|buyer)/i
 /dear.{1,10}(madam|manager)/i
 
