@@ -191,7 +191,7 @@
 /(pcba?|printed.circuit.board).{1,10}manufacturer (from|in) china/i
 
 /plastic.{1,10}metal limited/i
-/printing center.{1,10}china/i
+/printing center.{1,10}(china|ltd)/i
 /professional.{1,10}freight forwarding/i
 
 /publication.{1,10}printing.{1,10}services/i

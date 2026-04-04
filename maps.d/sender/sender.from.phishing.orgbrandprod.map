@@ -189,6 +189,7 @@
 
 /(dhl|dpd|fedex|gls|ups).{0,5}(messages?|tracking|versand|your)/i
 /(dhl|dpd|fedex|gls|ups).{0,5}(offers?|online|order)/i
+/(dhl|dpd|fedex|gls|ups).{0,5}post/i
 /(dhl|dpd|fedex|gls|ups).{0,5}(sendung|service|shipping|support|surveys?)/i
 
 /(dhl|dpd|fedex|gls|ups).{0,5}(deutschland|germany|schweiz)/i
@@ -287,6 +288,7 @@
 /amaz0n/i
 #/amazon\.de/i
 
+/amazon.?co/i
 /amazon.{0,10}(visa|xmas)/i
 /amazon.{0,10}customer.?service/i
 /amazon.{0,10}(gutschein|weihnachten)/i

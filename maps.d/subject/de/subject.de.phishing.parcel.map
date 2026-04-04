@@ -105,6 +105,8 @@
 /eingehende sendung für ihre/iu
 #/(einfuhrabgaben?|einlieferungsbeleg) für ihre?.{1,10}(lieferung|paket|sendung)/iu
 /einfuhrabgaben? für ihre?.{1,10}(lieferung|paket|sendung)/iu
+/einfuhrumsatzsteuer.{1,15}zollgebühren/iu
+
 /erhalten sie ihre lieferung/i
 
 /es ist ein lieferfehler aufgetreten/i
@@ -202,6 +204,7 @@
 /(lieferung|paket|sendung|versand|zustellung).{1,10}benachrichtigung.{1,10}überprüfung/iu
 /(lieferung|paket|sendung|versand|zustellung).{1,10}bereit.{1,30}bestätigen sie sofort/iu
 /(lieferung|paket|sendung|versand|zustellung).{1,10}bitte antworten/i
+/(lieferung|paket|sendung|versand|zustellung).{1,10}einfuhrumsatzsteuer/i
 /(lieferung|paket|sendung|versand|zustellung).{1,10}(benötigt|erfordert) eine.{1,15}bestätigung/iu
 /(lieferung|paket|sendung|versand|zustellung).{1,10}für sie zurückgehalten/iu
 /(lieferung|paket|sendung|versand|zustellung).{1,10}handlungsbedarf/i
