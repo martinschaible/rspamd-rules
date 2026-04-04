@@ -60,6 +60,7 @@
 # Mein ROSSMANN
 # Meta
 # METRO
+# Microsoft 365
 # Microsoft account team
 # Microsoft Defender
 # Migros
@@ -182,11 +183,13 @@
 /(dhl|dpd|fedex|gls|ups).{0,5}global mail/i
 /(dhl|dpd|fedex|gls|ups).{0,10}helpdesk/i
 /(dhl|dpd|fedex|gls|ups).{0,10}info(.?zentrum)?/i
+/(dhl|dpd|fedex|gls|ups).{0,5}ekunde/i
 /(dhl|dpd|fedex|gls|ups).{0,5}(kundendienst|kundenservice)/i
 /(dhl|dpd|fedex|gls|ups).{0,5}(lieferdienst|lieferung)/i
 /(dhl|dpd|fedex|gls|ups).{0,10}(logistik.?team|logistikzentrum)/i
 /(dhl|dpd|fedex|gls|ups).{0,5}(gmbh|noreply)/i
 
+/(dhl|dpd|fedex|gls|ups).{0,5}mitteilung/i
 /(dhl|dpd|fedex|gls|ups).{0,5}(messages?|tracking|versand|your)/i
 /(dhl|dpd|fedex|gls|ups).{0,5}(offers?|online|order)/i
 /(dhl|dpd|fedex|gls|ups).{0,5}post/i
@@ -679,7 +682,7 @@
 /metanet-ch/i
 /metanet.{0,10}(kundendienst|kundenservice)/i
 
-/microsoft (365|ads)/i
+/microsoft ads/i
 /microsoft.{0,10}(advertising|billing|gmbh|rewards?|subscription)/i
 /microsoft.{0,10}(cashback|corporation)/i
 /microsoft.{0,10}schweiz/i
@@ -956,7 +959,7 @@
 /sumxup/i
 
 /sumup.{0,10}(assistenz|kundendienst|service(.?desk)?|sicherheit|support|limited|team)/i
-/(account|mein|team|von).{0,10}sumup/i
+/(account|logins?|mein|team|von).{0,10}sumup/i
 
 /sunrise.{0,10}support/i
 

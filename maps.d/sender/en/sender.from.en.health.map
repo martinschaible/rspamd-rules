@@ -383,7 +383,7 @@
 /bladder.{0,10}support/i
 
 /bleeding.{0,10}gums/i
-/bloat(ing)?.{0,10}(free|fruits?|solution)/i
+/bloat(ing)?.{0,10}(free|fruits?|relief|solution)/i
 
 /blocking.{0,10}teas?/i
 /blood.{0,10}(balance|boost|clots?|flow|glucose|pressure|solution|sugar|thinner)/i
@@ -546,7 +546,8 @@
 /detox.{0,10}(drink|guide|lab|minute|patch(es)?|solution|your)/i
 /deficiency.{0,10}alert/i
 
-/digestive.{0,10}(boost|fix|food|guide|health|help|insider|insight|reset)/i
+/digestive.{0,10}(boost|guide|health|help|insider|insight|reset)/i
+/digestive.{0,10}(fix|food)/i
 /digestive.{0,10}(support|system)/i
 /digestion/i
 
@@ -611,6 +612,7 @@
 
 # F
 # ------------------------------------------------------------------------------
+/falls?.{0,10}asleep/i
 /fasting.{0,10}seeds/i
 
 /fatigue.{0,10}bloating/i
@@ -690,7 +692,7 @@
 
 /gut.{0,10}(balance|check|cleanse|fix|flush|freedom)/i
 /gut.{0,10}(health|insider|quiz)/i
-/gut.{0,10}(reboot|repair|reset|rituals?)/i
+/gut.{0,10}(reboot|relief|repair|reset|rituals?)/i
 /gut.{0,10}(solution|support|symptoms?)/i
 /gut.{0,10}(tip|trick)/i
 
@@ -1078,7 +1080,7 @@
 
 /shoulder.{0,10}(pain|relief)/i
 
-/skin.{0,10}(confidence|health|insider)/i
+/skin.{0,10}(confidence|experts?|health|insider|secrets?)/i
 
 /side.{0,10}back/i
 /sight.{0,10}care/i
@@ -1123,7 +1125,7 @@
 /spine.{0,10}(hack|health)/i
 /spinal.{0,10}pain/i
 
-/stay.{0,10}(asleep|hard|slim|trim)/i
+/stay.{0,10}(asleep|hard|regular|slim|trim)/i
 /steady.{0,10}steps/i
 
 /stiff.{0,10}(joints|painful|shoulder)/i

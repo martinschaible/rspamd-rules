@@ -139,13 +139,13 @@
 /(custom|excellent).{1,10}(pcba?|printed.circuits?.board)/i
 /custom.{1,10}manufacturing.{1,10}prototype/i
 
-/custom.{1,10}products? manufacturing/i
-/custom.{1,10}printing solutions?/i
-/custom.{1,10}(t.?)shirts.{1,10}tracksuits/i
-/custom.{1,10}transformer.{1,10}manufacturer/i
-/custom.{1,10}wire.{1,10}harness/i
-/custom.{1,10}women.{1,10}clothing/i
-
+/custom.{1,15}products? manufacturing/i
+/custom.{1,15}printing solutions?/i
+/custom.{1,15}(t.?)shirts.{1,10}tracksuits/i
+/custom.{1,15}transformer.{1,10}manufacturer/i
+/custom.{1,15}underwear/i
+/custom.{1,15}wire.{1,10}harness/i
+/custom.{1,15}women.{1,10}clothing/i
 
 /(customizable|customized).{1,10}(freight|packaging).{1,10}solutions?/i
 /(customizable|customized).{1,10}(mannequins|metal solutions|pvc.?hoses?)/i
@@ -528,6 +528,8 @@
 
 # T
 # ------------------------------------------------------------------------------
+/tailored.{1,10}plush.{1,10}solutions?/i
+
 /tooling.{1,10}mold(ing)? parts/i
 /top.{1,15}shipping company/i
 

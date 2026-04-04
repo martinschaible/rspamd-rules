@@ -410,6 +410,8 @@
 
 /information erforderlich no\b/i 
 /information zur vorübergehenden einschränkung/iu
+/information zu.{1,10}wartenden lieferung/i
+
 
 /ist.{1,10}abgelaufen.{1,10}(handeln sie sofort|jetzt handeln)/i
 /ist.{1,10}ungesichert.{1,10}jetzt handeln/i
@@ -539,6 +541,8 @@
 /(letzter|verbleibender).{1,10}versuch.{1,10}planen sie/i
 
 /letztes.{1,10}stunden.{1,10}verlängerungsfenster/iu
+
+/login.?versuch.{1,10}alarm/i
 
 # M
 # ------------------------------------------------------------------------------
