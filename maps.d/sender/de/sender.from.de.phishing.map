@@ -122,7 +122,9 @@
 
 /in kooperation mit/i
 /info.{0,10}paketzentrum/i
+
 /international(er).{0,10}(kurier|lieferung)/i
+/internationales.{0,10}logistikzentrum/i
 
 # J
 # ------------------------------------------------------------------------------
@@ -171,6 +173,7 @@
 # ------------------------------------------------------------------------------
 /meine.{0,10}post/i
 
+/mehrwertsteuer.{0,10}zoll/i
 /mitglied(er)?.{0,10}vorteile?/i
 /modern.{0,10}vertrieb/i
 
@@ -226,6 +229,8 @@
 # ------------------------------------------------------------------------------
 #/team (vom|von)/i
 #/team vom/i
+
+/team.{0,10}mehrwertsteuer/i
 /technischer.{0,10}support/i
 
 # U
