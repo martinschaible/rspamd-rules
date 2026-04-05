@@ -178,6 +178,7 @@
 
 /my names? (are|is) (miss|ms\b|mrs?)/i
 /my name is.{5,35}a registered/i
+/my name is.{5,25}emailing you about/i
 /my name is.{5,25}employee of/i
 /my name is.{5,35}from.{5,25}i was married/i
 /my name is.{5,25}how.{1,10}everything/i
@@ -189,6 +190,7 @@
 /my name is.{5,25}i am representing/i
 /my name is.{5,25}i specialize in/i
 /my name is.{5,25}i am writing to you/i
+
 
 /my name is.{5,25}i have.{1,10}(decided|urgent)/i
 /my name is.{5,25}i have been.{1,10}victim/i

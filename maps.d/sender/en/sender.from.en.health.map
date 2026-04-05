@@ -434,7 +434,7 @@
 /cabernet.{0,10}merlot/i
 /calorie.{0,10}(active|booster|burn)/i
 /calcium.{0,10}boost/i
-/calm.{0,10}(ears|nights?)/i
+/calm.{0,10}(body|ears|nights?)/i
 /calorie.{0,10}bypass/i
 
 /cancel(ed)?.{0,10}surgery/i
@@ -917,7 +917,7 @@
 /nerves?.{0,10}(care|comfort)/i
 /nerves?.{0,10}(recovery|repair|revival)/i
 
-/(neural|neuro).{0,10}(boost|detox|fix|healing|report)/i
+/(neural|neuro).{0,10}(boost|detox|fix|healing|health|report)/i
 
 /never.{0,10}(eat|forget)/i
 /nerve.{0,10}(damage|do this|ease|pain|regrowth|research|reset)/i
@@ -1130,6 +1130,8 @@
 
 /stiff.{0,10}(joints|painful|shoulder)/i
 /stinky.{0,10}breath/i
+
+/stomach.{0,10}discomfort/i
 
 /stop the/i
 /stop.{0,10}(breating|brushing|flossing|pain)/i
