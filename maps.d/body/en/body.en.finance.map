@@ -101,6 +101,7 @@
 /(loan|credit)s?.{1,10}offer.{1,10}with.{1,10}perfect/i
 /(loan|credit)s?.{1,10}options.{1,15}feel free to contact/i
 /(loan|credit)s?.{1,15}that will help you/i
+/(loan|credit)s?.{1,15}to pay urgent/i
 /(loan|credit)s?.{1,10}unsecured.{1,15}funding/i
 /(loan|credit)s?.{1,15}we (manage|offer)/i
 
@@ -226,6 +227,7 @@
 
 /you need.{1,10}loan/i
 
+/you need.{1,15}(fast|legit).{1,10}loan/i
 /you need.{1,15}(business|personal).{1,10}loan/i
 /you need.{1,10}(reputable|urgent).{1,10}loan/i
 
