@@ -156,9 +156,12 @@
 # 18.11.25 - EMail Marketing, Belongs to "Select GmbH"
 /shopping-infos\.com/i
 
+# 04.04.26
+/shopping-trend\.net/i
+
 # 12.01.25 - EMail Marketing, Belongs to "Swissad GMBH"
 # -> Fallback if Rspamd can't catch the company name
-/swissad.de/i
+/swissad\.de/i
 
 # 16.09.25
 /schnapper-empfehlung\.de/i
