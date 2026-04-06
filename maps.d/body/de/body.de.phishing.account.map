@@ -116,6 +116,7 @@
 /(konto|profil).{1,10}(ausgesetzt|begrenzt|eingeschränkt|gesperrt).{1,10}aktualisieren sie ihre zahlungsdetails/i
 /(konto|profil).{1,10}(ausgesetzt|begrenzt|eingeschränkt|gesperrt).{1,10}um es.{1,10}(online|wieder).{1,10}zu aktivieren/iu
 
+/(konto|profil).{1,10}nicht aktualisiert wurde/i
 /(konto|profil).{1,10}nicht mit den.{1,15}sicherheitsstandards aktualisiert/i
 
 /(konto|profil).{1,15}sicher zu halten.{1,10}ist eine identitätsbestätigung/iu
@@ -123,6 +124,7 @@
 /(konto|profil).{1,15}wieder freizuschalten.{1,10}bestätigen sie/iu
 
 /(konto|profil).{1,15}(wird|wurde) aufgrund.{1,10}(fehlers|sicherheitsüberprüfung)/iu
+/(konto|profil).{1,15}innerhalb der nächsten.{1,10}Stunden eingeschränkt/iu
 
 /(konto|profil).{1,15}wurde vorsorglich gesichert/i
 /(konto|profil).{1,10}wurde zum schutz vorübergehend.{1,10}(ausgesetzt|begrenzt|eingeschränkt|gesperrt)/iu
