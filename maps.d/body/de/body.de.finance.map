@@ -22,6 +22,8 @@
 
 /angebot zu erhalten.{1,10}(darlehen|kredite?)/i
 
+/(angebot|anspruch).{1,15}(darlehen|kredit)/i
+
 # B
 # ------------------------------------------------------------------------------
 /beantragen sie.{1,15}ein(en)?.{1,10}(dringend)?.{1,10}(darlehen|kredite?)/i

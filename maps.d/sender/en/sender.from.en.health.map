@@ -1063,7 +1063,7 @@
 /science.{0,10}(leak|update)/i
 /scientists?.{0,10}reveals?/i
 
-/sec(ond)?.{1,10}(move|neck lift|tweak)/i
+/sec(ond)?.{1,10}(flush|move|neck lift|tweak)/i
 
 /secret.{0,15}(african|ancient|herb|revealed|organ|ritual|weapon)/i
 /secret.{0,10}(big|of)/i
@@ -1103,6 +1103,7 @@
 
 /small.{0,10}stomach/i
 /smile.{0,10}(fix|health|secret|science)/i
+/smooth(er)?.{0,10}skin/i
 
 /skin.{0,10}(boost|insight|renewal|rescue|tip)/i
 /skip this/i
@@ -1275,7 +1276,7 @@
 /wine.{0,10}(insight|secret)/i
 /without.{0,10}glasses/i
 
-/womens?.{0,10}(intimacy|secret)/i
+/womens?.{0,10}(\d{2}|intimacy|secret)/i
 /wonder.?bread/i
 /worst.{0,10}(breakfast|fruits?|food|veggie)/i
 

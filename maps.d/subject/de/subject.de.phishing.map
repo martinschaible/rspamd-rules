@@ -28,6 +28,8 @@
 /(angebot|auszug|inventargegenständen?).{1,25}insolvenzverfahren/i
 /(fahrzeuge|maschinen|vermögenswerte).{1,25}insolvenzverfahren/i
 
+/neuware.{1,10}sonderkonditionen/i
+
 /katalog.{1,10}masseverwertung/i
 /neue.{1,10}insolvenzposten/i
 /posten aus.{1,15}insolvenz/i
