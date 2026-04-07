@@ -162,8 +162,10 @@
 
 /die casting solutions/i
 
-/direct (factory|manufacturer) of/i
-/direct (factory|manufacturer).{1,10}vacuum/i
+/direct.{1,10}(factory|manufacturer) of/i
+/direct.{1,10}(factory|manufacturer).{1,10}vacuum/i
+/direct.{1,10}steel factory/i
+
 /discuss.{1,10}(pcba?|printed.?circuits?.?board).{1,10}products/i
 
 /discover.{1,10}cnc.{1,20}for your business/i
@@ -318,7 +320,10 @@
 # ------------------------------------------------------------------------------
 /machines from.{1,10}leading factory/i
 /machining.{1,10}engineering.{1,10}services?/i
+
 /machined.{1,10}(main shaft|parts vendor)/i
+/machined.{1,10}parts supplier/i
+
 /machinery parts tailor/i
 
 /magnet manufacturer?/i
@@ -514,6 +519,8 @@
 /stable pricing.{1,10}fast lead times/i
 /stainless steel.{1,10}wire rope/i
 /standard mold(ing)?/i
+
+/steel factory since/i
 
 /stuffed toys.{1,10}manufactory/i
 

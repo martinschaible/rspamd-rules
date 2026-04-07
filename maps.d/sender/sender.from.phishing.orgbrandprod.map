@@ -377,6 +377,7 @@
 /chatgpt.{0,10}zahlung(en)?/i
 /chatgpt.{0,10}(account|billing|payments|team)/i
 /chatgpt.{0,10}(services|serviceportal|subscription)/i
+/chatgpt.{0,10}team/i
 
 /coca.?cola company/i
 
@@ -782,10 +783,12 @@
 /open.?ai.{0,5}llc/i
 /open.?ai.{0,5}(account|billing|company|team|upgrade)/i
 /open.?ai.{0,5}(services?|subscriptions?|support)/i
+/open.?ai.{0,5}team/i
 /open.?ai.{0,5}(mitgliederverwaltung|zahlung(en)?)/i
 /open.?ai.{0,5}via/i
 
-/kundendienst.{0,10}open.?ai/i
+/hilfe.{0,10}open.?ai/i
+/(kontakt|kundendienst).{0,10}open.?ai/i
 /service.{0,10}open.?ai/i
 
 /oral.?b/i
@@ -980,6 +983,7 @@
 
 /swiss a\.g$/i
 /swiss federal railways/i
+/swiss.?gov/i
 
 /swissch/i
 

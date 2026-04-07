@@ -19,7 +19,9 @@
 # A
 # ------------------------------------------------------------------------------
 /anspruch.{1,10}(betrag|geld)/i
-/auszahlung des zuschusses/i
+
+/auszahlung.{1,10}des zuschusses/i
+/auszahlung.{1,10}nicht eingeforderter preisgelder/i
 
 # B
 # ------------------------------------------------------------------------------

@@ -38,6 +38,8 @@
 
 /bestätigen sie.{1,10}auszahlungsdetails/iu
 
+/bitte erstattung bestätigen/iu
+
 # C
 # ------------------------------------------------------------------------------
 
@@ -203,5 +205,6 @@
 # Z
 # ------------------------------------------------------------------------------
 /zahlung.{1,5}id:\d/i
+/zahlungsfehler.{1,10}erstattung/i
 
 /zu ihrer vergutung/i

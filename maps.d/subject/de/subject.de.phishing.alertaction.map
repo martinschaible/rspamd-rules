@@ -201,6 +201,8 @@
 /bestätigung.{1,10}ihrer.{1,10}kundendaten/iu
 /bestätigung.{1,10}ihrer.{1,10}telefonnummer erforderlich/iu
 
+/bestätigung.{1,10}kartenaktivität/iu
+
 /betreff.{1,5}(achtung|wichtige information)/i
 /betreff.{1,5}wichtiges software.?update/i
 
@@ -242,6 +244,7 @@
 
 /(dringend|wichtig).{1,10}ihnen entgehen/i
 /(dringend|wichtig).{1,10}ihr systemschutz läuft heute ab/iu
+/(dringend|wichtig).{1,10}ihre? (paket|sendung)/i
 /(dringend|wichtig).{1,10}ihre kundendaten/i
 /(dringend|wichtig).{1,10}kontodatenbestätigung steht aus/i
 /(dringend|wichtig).{1,10}möglicherweise unautorisierte/iu

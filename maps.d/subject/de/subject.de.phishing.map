@@ -9,7 +9,8 @@
 # Cloud  Storage
 # ------------------------------------------------------------------------------
 /cloud.{1,10}speicher.{1,10}kritisch voll/i
-/cloud.{1,10}speicher ist voll.{1,10}dateien in gefahr/i
+//cloud.{1,10}speicher ist voll/i
+#/cloud.{1,10}speicher ist voll.{1,10}dateien in gefahr/i
 /cloud.{1,10}speicher sind da/i
 
 /gb kostenlos(en).{1,10}i?cloud.?speicher/i
@@ -314,6 +315,7 @@
 /sicherheitsüberprüfung.{1,10}ihrer.{1,10}identitätsdokumente/iu
 /sicherheitsupdate.{1,10}control.?panel/i
 
+/sie ihre daten.{1,10}aktuell/i
 /sie sicher.{1,10}dass alle informationen korrekt sind/iu
 /sie wurden für die.{1,15}woche ausgewählt/i
 
