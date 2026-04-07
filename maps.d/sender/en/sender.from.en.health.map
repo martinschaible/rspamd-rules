@@ -383,7 +383,7 @@
 /bladder.{0,10}support/i
 
 /bleeding.{0,10}gums/i
-/bloat(ing)?.{0,10}(free|fruits?|relief|solution)/i
+/bloat(ing)?.{0,10}(cleanse|free|fruits?|relief|solution)/i
 
 /blocking.{0,10}teas?/i
 /blood.{0,10}(balance|boost|clots?|flow|glucose|pressure|solution|sugar|thinner)/i
@@ -399,7 +399,8 @@
 /brain.{0,10}(report|research|reset|revival|routine)/i
 /brain.{0,10}test/i
 
-/breakfast.{0,10}(alert|boost|burner|insider|juice|mistake|myth|treat|quiz)/i
+/breakfast.{0,10}(alert|insider|juice|mistake|myth|treat|quiz)/i
+/breakfast.{0,10}(bloat|boost|burner)/i
 /(breathe|breathing).{0,10}(better|clearer|easier|easy)/i
 
 /bright.{0,10}smile/i
