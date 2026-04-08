@@ -266,7 +266,7 @@
 /adac_/i
 /adac\.de/i
 /adac.?202\d/i
-/adac.{0,10}(abteilung|deutschland|exklusiv|forschung|gmbh|mitglieder|online|support)/i
+/adac.{0,10}(abteilung|deutschland|exklusiv|forschung|gmbh|insider|mitglieder|online|support)/i
 /adac.{0,10}(servies?|sicherheit)/i
 /adac.{0,10}(karten.?service|kreditkarte|kundendienst)/i
 
@@ -1094,6 +1094,8 @@
 /von.{0,10}swica/i
 
 /vr.?(bank|gruppe).{0,10}(deutschland|online|zentrale)/i
+
+/www\.vr\.de/i
 
 # W
 # ------------------------------------------------------------------------------

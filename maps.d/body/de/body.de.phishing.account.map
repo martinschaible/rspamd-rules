@@ -18,6 +18,7 @@
 
 # A
 # ------------------------------------------------------------------------------
+/aktualisierung.{1,10}erfolgt über unser.{1,15}portal/i
 /aktualisierung.{1,20}(kontoinformationen|kontosicherheit|kontozugriffs?)/i
 /aktualisierung.{1,20}kundendaten.{1,10}(erforderlich|durch)/i
 
@@ -57,6 +58,7 @@
 # ------------------------------------------------------------------------------
 /facebook.{1,10}kontoüberprüfung/iu
 
+/fehlende aktualisierung führt zu/iu
 /fehlende (konto|profil).?bereinigung/i
 /fehlende (konto|profil).?pflege/i
 
