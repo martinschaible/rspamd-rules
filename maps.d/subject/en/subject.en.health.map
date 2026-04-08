@@ -430,6 +430,7 @@
 /for.{1,15}back pain/i
 /for.{1,10}better memory/i
 /for.{1,10}sugar balance/i
+/for.{1,10}stronger nails/i
 
 /forget.{1,10}dieting/i
 
@@ -464,6 +465,8 @@
 /gets? rid of.{1,10}these.{1,10}fruits/i
 /gets? rid of.{1,10}(nasty|unwanted)/i
 /gets? rid of.{1,15}(infections?|nail)/i
+
+/glp.?1.{1,10}naturally/i
 
 /(gum|gut).{0,10}(cleanse|cleansing)/i
 /(gum|gut).{0,10}(doctor|fix|health|message)/i
@@ -855,6 +858,7 @@
 /simple.{1,10}(habit|routine).{1,10}(destroys|fewer|inspired|that)/i
 /simple.{1,10}inspired trick/i
 /simple.{1,10}oral flush/i
+/simple.{1,10}rinse for/i
 /simple.{1,15}solution.{1,15}(back|neck|pain)/i
 /simple.{1,10}spine/i
 /simple.{1,10}stretch/i

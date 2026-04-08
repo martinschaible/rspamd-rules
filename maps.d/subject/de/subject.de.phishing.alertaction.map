@@ -251,6 +251,7 @@
 /(dringend|wichtig).{1,10}möglicherweise unautorisierte/iu
 /(dringend|wichtig).{1,10}registrieren sie sich/i
 /(dringend|wichtig).{1,10}sie verpassen/i
+/(dringend|wichtig).{1,10}sofortige überprüfung/iu
 /(dringend|wichtig).{1,10}ungewöhnliche aktivitäten/iu
 /(dringend|wichtig).{1,10}(verifizierung|zahlungsdetails)/i
 
@@ -552,7 +553,8 @@
 
 # M
 # ------------------------------------------------------------------------------
-/maßnahme notwendig vor dem/i
+/maßnahme.{1,10}erforderlich.{1,10}konto einschränken/iu
+/maßnahme.{1,10}notwendig vor dem/i
 
 /(meldung|mitteilung).{1,10}ihrem geräteschutz/iu
 /(meldung|mitteilung).{1,10}sicherstellung.{1,10}uneingeschränkten nutzung/iu

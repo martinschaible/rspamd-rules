@@ -172,7 +172,9 @@
 # ------------------------------------------------------------------------------
 /letzte erinnerung.{1,10}nur solange der vorrat reicht/i
 
-/lieb ,/i
+/lieb(er)? ,/i
+/lieber.{1,5}ich bin/i
+
 /lieber?.{1,10}(kunde|nutzer).{1,10}aus sicherheitsgründen/iu
 /lieber?.{1,10}(kunde|nutzer).{1,10}betrügerische aktivitäten/iu
 /lieber?.{1,10}(kunde|nutzer).{1,10}beim letzten versuch konnte ihre?.{1,10}(paket|sendung)/i
@@ -186,8 +188,9 @@
 /lieber?.{1,10}(kunde|nutzer).{1,10}wir haben.{1,10}(dein|ihr).{1,15}konto/i
 /lieber?.{1,10}(kunde|nutzer).{1,10}wir haben (ungewöhnliche|versucht)/iu
 
+/lieber?.{1,10}ansprechpartner/iu
 #/lieber?.{1,10}(paket)?empfänger/iu
-/lieber?.{1,10}paket?empfänger/iu
+/lieber?.{1,10}paket.?empfänger/iu
 
 /(lieferung|paket|sendung).{1,10}zurückgehalten.{1,10}sehr geehrter?.{1,15}(damen|herren|kunde|kundin)/i
 

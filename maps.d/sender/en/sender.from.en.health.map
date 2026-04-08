@@ -570,7 +570,7 @@
 
 /dreamful.{0,10}(nights?|sleep)/i
 /dribbling.{0,10}urine/i
-/drink.{0,10}(recipes?|smart)/i
+/drink.{0,10}(hack|recipes?|smart)/i
 /dying.{0,10}signal/i
 
 # E
@@ -1128,7 +1128,7 @@
 /spine.{0,10}(hack|health)/i
 /spinal.{0,10}pain/i
 
-/stay.{0,10}(asleep|hard|regular|slim|trim)/i
+/stay.{0,10}(asleep|fit$|hard|regular|slim|trim)/i
 /steady.{0,10}steps/i
 
 /stiff.{0,10}(joints|painful|shoulder)/i
