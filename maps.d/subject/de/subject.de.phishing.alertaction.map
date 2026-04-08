@@ -59,6 +59,7 @@
 
 /aktion erforderlich.{1,10}(dpd|sepa)/i
 
+/aktion erforderlich.{1,10}endgültiger kündigung/iu
 /aktion erforderlich.{1,10}freigabe.{1,10}(paket|sendung)/i
 
 /aktion erforderlich.{1,15}identität bestätigen/iu
@@ -703,6 +704,7 @@
 /umgehende aufmerksamkeit benötigt/iu
 
 /unbefugte nutzung von.{1,30}aktion erforderlich/i
+/unmittelbare aktion.{1,10}erforderlich/i
 /unterbrochen.{1,10}jetzt zahlungsdetails prüfen/iu
 
 /(ungewöhnliche|verdächtige) kontoaktivität festgestellt/iu

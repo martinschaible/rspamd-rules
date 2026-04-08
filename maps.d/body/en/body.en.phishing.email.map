@@ -142,6 +142,8 @@
 /server has important.{1,10}(e?.?mail|message)s?.{1,10}suspended/i
 /server issues.{1,10}port:993.{1,10}incoming/i
 
+/service update notification.{1,10}important information/i
+
 /settings to continue receiving.{1,15}(e?.?mail|message)s?/i
 
 # T

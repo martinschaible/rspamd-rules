@@ -33,7 +33,9 @@
 # A
 # ------------------------------------------------------------------------------
 /ab 250 (euro|€) einsteigen/i
+
 /automatische geldanlage/i
+/automatischer handelsstart/i
 
 /armut.{1,10}kryptowährung(en)?/iu
 
@@ -59,6 +61,8 @@
 # E
 # ------------------------------------------------------------------------------
 /einkommen.{1,10}bitcoin/i
+
+/einzahlung vornehmen.{1,10}folgen sie dem link/i
 
 /endlich reich werden/i
 /enthüllt.{1,20}(finanztrick|ki.?system)/iu

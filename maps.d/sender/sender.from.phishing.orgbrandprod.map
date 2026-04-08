@@ -106,7 +106,7 @@
 
 /(aave|adac|apple).?(™|®|©)$/i
 /(balea|baumarkt|bosch).?(™|®|©)$/i
-/(carrefour|cpanel).?(™|®|©)$/i
+/(carrefour|cpanel).?(™|®|©)/i
 /galaxus.?(™|®|©)$/i
 /(hetzner|hermes|hornbach).?(™|®|©)$/i
 /ihk.?(™|®|©)?$/i
@@ -373,7 +373,7 @@
 
 /chat-gpt/i
 /chatgpt.?(ai|\+|plus)/i
-/chatgpt.{0,10}(abonnement|kundenservice)/i
+/chatgpt.{0,10}(abonnement|hinweis|kundenservice)/i
 /chatgpt.{0,10}zahlung(en)?/i
 /chatgpt.{0,10}(account|billing|payments|team)/i
 /chatgpt.{0,10}(services|serviceportal|subscription)/i
@@ -400,7 +400,8 @@
 
 /\.(ch|de) cpanel/i
 /^cpanel$/i
-/cpanel.{0,10}(host|roundcube|server|service|team|zertifikatsstelle)/i
+/cpanel.{0,10}(host|roundcube|team|zertifikatsstelle)/i
+/cpanel.{0,10}(server|service|suppport)/i
 /cpanel.{5,15}\.(ch|de)/i
 /cpanel on/i
 
