@@ -210,6 +210,7 @@
 
 # Weightloss
 # ------------------------------------------------------------------------------
+/(fat|weight).{0,10}(battle|loss)/i
 /(fat|weight).{0,10}(blocking|fast|fix|flush|gain|goals|journey|lock|loss|vanish)/i
 /(fat|weight).{0,10}(banish|burn(er)?|burning|eraser|drop(er)?)/i
 /(fat|weight).{0,10}(metabolism|melting)/i
@@ -989,6 +990,7 @@
 /potent.{0,10}drink/i
 /pooch.{0,10}belly/i
 /poop.{0,10}(stuck|type)/i
+/poor.{0,10}(posture|sleep|water)/i
 
 /posture.{0,10}(check|fix|scan|test|update)/i
 /pounding.{0,10}pressure/i

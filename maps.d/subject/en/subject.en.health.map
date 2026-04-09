@@ -376,6 +376,7 @@
 /(eliminates?|eradicates?|erases?).{1,10}(nerve|swelling|type 2)/i
 /(eliminates?|eradicates?|erases?).{1,15}eye bags/i
 /(eliminates?|eradicates?|erases?).{1,15}knee pain/i
+/(eliminates?|eradicates?|erases?).{1,15}nail infections?/i
 /(eliminates?|eradicates?|erases?).{1,15}without meds/i
 
 /erases?.{1,10}back.?pain|(breath|decay)/i
@@ -482,6 +483,8 @@
 
 /hair.?loss\.\./i
 /hair.?loss.{1,10}reversed/i
+
+/hard time.{1,15}peeing/i
 
 /(harm(ing)?|sabotaging) your.{1,10}(gut|health)/i
 
@@ -992,7 +995,7 @@
 /this.{1,10}cuts heart attack/i
 /this.{1,10}dangerous ingredient/i
 /this.{1,10}drink.{1,10}(could|extend)/i
-/this.{1,10}(easy|simple) stretch/i
+/this.{1,10}(easy|simple) (rinse|stretch)/i
 /this.{1,10}everyday habit/i
 
 /this.{1,10}food scam/i
