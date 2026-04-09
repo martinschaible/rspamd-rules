@@ -1087,8 +1087,7 @@
 /volksbank(en)? deutschland eg/i
 /volksbank(en)? eg deutschland/i
 /volksbank(en)?.?(eg|vr)/i
-
-/volksbankengruppe eg/i
+/volksbank(en)?.?gruppe eg/i
 
 /volks\.eg.{0,10}service/i
 
@@ -1098,6 +1097,8 @@
 /von.{0,10}swica/i
 
 /vr.?(bank|gruppe).{0,10}(deutschland|online|zentrale)/i
+/vr.?(bank|gruppe).?eg/i
+/vr.?verbund/i
 
 /www\.vr\.de/i
 
