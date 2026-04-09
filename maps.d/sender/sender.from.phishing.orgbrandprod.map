@@ -612,6 +612,8 @@
 /kauflandmarkt/i
 
 /klarna.{0,10}(finanzservice|kundenservice|support)/i
+/klarna.{0,10}germany/i
+
 /info.{0,10}klarna/i
 
 /kleinanzeigen.{0,10}team/i
@@ -1027,7 +1029,7 @@
 /ihre techniker.?krankenkasse/i
 
 /telekom-/i
-/telekom.{0,10}bonus/i
+/telekom.{0,10}(bonus|kunden)/i
 
 /temu-/i
 /temu.?(ch|schweiz)/i
