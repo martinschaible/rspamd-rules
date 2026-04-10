@@ -80,6 +80,8 @@
 /(hard|iron).{0,10}erection/i
 /(fix your|goodbye).{0,10}ed/i
 
+/naturally.{0,10}hard/i
+
 # Eyes, Vision
 # ------------------------------------------------------------------------------
 /(20|bad|blurred|blurry|clear|declining|enhancing|flawless).{0,10}(eye.?sight|view|vision)/i
@@ -116,6 +118,7 @@
 /healthy?.{0,10}(aging|alerts?|alternative)/i
 /healthy?.{0,10}(brain|brief(ing)?|choice(es)?|conspiracy|deals?|digest)/i
 /health.?.{0,10}(discovery|digest|drink|enigma)/i
+/health.?.{0,10}expert/i
 /healthy?.{0,10}(feet|fibes|files?|flush|foods?|freedom)/i
 /healthy?.{0,10}(gift|guides?|gut)/i
 /healthy?.{0,10}(habit|hack|hair|heart|heaven|hero)/i
@@ -880,6 +883,7 @@
 /morning.{0,10}(habit|hack)/i
 /morning.{0,10}kickstart/i
 /morning.{0,10}(melt|metabolics|metabolism|mistake)/i
+/morning.{0,10}nerve/i
 /morning.{0,10}(secret|slimmer|smoothie)/i
 /morning.{0,10}(oil|reset|ritual|routine|tweak|vitality|wood)/i
 
@@ -916,7 +920,7 @@
 /neck.{0,10}(sagging|skin)/i
 /nectar.{0,10}fix/i
 
-/nerves?.{0,10}(damage|defense|health|killing|pain|quiz|support|tip)/i
+/nerves?.{0,10}(damage|defense|fix|health|killing|pain|quiz|support|tip)/i
 /nerves?.{0,10}(care|comfort)/i
 /nerves?.{0,10}(recovery|repair|revival)/i
 
@@ -1069,7 +1073,9 @@
 
 /sec(ond)?.{1,10}(flush|move|neck lift|tweak)/i
 
-/secret.{0,15}(african|ancient|herb|revealed|organ|ritual|weapon)/i
+/secret.{0,15}(african|ancient|herb|organ|ritual|weapon)/i
+/secret.{0,15}(receipe|revealed)/i
+
 /secret.{0,10}(big|of)/i
 /sea.?sugar/i
 /see.{0,10}clear(er)/i

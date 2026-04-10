@@ -372,7 +372,8 @@
 
 # O
 # ------------------------------------------------------------------------------
-/(odm|oem).{1,10}(manufacturer|plastic|products?|service|supplier)/i
+/(odm|oem|wholesale).{1,10}(manufacturer|plastic|products?|service|supplier)/i
+/(odm|oem|wholesale).{1,10}seamless underwear/i
 
 /offers? for rectifiers/i
 

@@ -202,7 +202,7 @@
 /(dhl|dpd|fedex|gls|ups).{0,5}(package|payment|paketinfo)/i
 /(dhl|dpd|fedex|gls|ups).{0,10}team/i
 /(dhl|dpd|fedex|gls|ups).{0,5}verteilzentrum/i
-/(dhl|dpd|fedex|gls|ups).{0,5}zoll/i
+/(dhl|dpd|fedex|gls|ups).{0,5}(zustellung|zoll)/i
 
 /(dhl|fedex|gls|ups).{0,5}(deutschland|germany|schweiz)/i
 /dpd.{0,5}(deutschland|germany)/i
@@ -996,7 +996,9 @@
 /swiss-pass/i
 #/swisspas\./i
 #/swisspass\.ch/i
-/swisspass.{1,5}(benachrichtigung|cff|kartendienst|kunden?(dienst)?|sbb|support)/i
+/swisspass.{1,5}(benachrichtigung|cff|sbb|support)/i
+/swisspass.{1,5}(kartendienst|kunden?(dienst)?|konto)/i
+
 #/swisspass\./i
 /swisspass-/i
 
