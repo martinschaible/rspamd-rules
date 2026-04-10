@@ -31,6 +31,9 @@
 # Sample: http://16x9inc.com/http://malkermalrdimlfasmalrdi-4654.twil.io
 /https?:\/\/[a-z0-9-]{3,30}\.[a-z]{2,4}\/https?:\/\//i
 
+# Sample: .com.ar.abakotest.com.ar
+/\com\.ar\.[a-z0-9-]{3,30}\.com/i
+
 # Combination of TLDs pretending to be the real domain
 # ------------------------------------------------------------------------------
 

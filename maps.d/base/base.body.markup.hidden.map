@@ -25,7 +25,13 @@
 
 # 06.01.24
 /<font style=(3d)?"color:transparent;.?font-size:0px">/i
-/<font color=(3d)?"#ffffff">[a-z]<\/font>/i
+/(<font color=(3d)?"#ffffff">[a-z]<\/font>.{0,40}){5,}/i
+
+# 10.04.26 - Catch repeated white-font filler tokens (obfuscation), not single white text
+/(<font[^>]{0,120}color=(3d)?"#ffffff"[^>]{0,120}>[a-z]<\/font>.{0,40}){5,}/i
+
+# 10.04.26 - Catch repeated quoted-printable filler blocks like =A0/=C2=A0 in white font
+/(<font[^>]{0,120}color=(3d)?"#ffffff"[^>]{0,120}>=(c2)?a0<\/font>.{0,40}){3,}/i
 
 # 01.03.25
 /<div style=(3d)?"text-align:.?center;.?opacity:.?0;.?display:.?none;.?color:.?#fff"/i

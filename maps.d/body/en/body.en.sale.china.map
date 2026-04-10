@@ -164,6 +164,8 @@
 
 # O
 # ------------------------------------------------------------------------------
+/offers.{1,10}top.?notch.{1,15}(accessories|components|communication|electronic|modules|products)/i
+
 /our steel is manufactured/i
 
 /our.{1,10}competency.{1,15}manufacturing/i
@@ -194,6 +196,7 @@
 /(pcba?|printed.circuit.board).{1,10}customer.{1,10}the past.{1,10}years/i
 /(pcba?|printed.circuit.board).{1,10}in china for.{1,10}years/i
 /(pcba?|printed.circuit.board).{1,10}manufacturer (from|in) china/i
+/(pcba?|printed.circuit.board).{1,10}tailored to meet/i
 
 /plastic.{1,10}metal limited/i
 /printing center.{1,10}(china|ltd)/i
