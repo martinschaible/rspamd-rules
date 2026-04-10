@@ -240,6 +240,8 @@
 
 /wird.{1,15}wegen fehlender zollangaben zurückgehalten/iu
 
+/wurde im zollumschlagzentrum zurückgehalten/i
+
 # X
 # ------------------------------------------------------------------------------
 
@@ -256,10 +258,10 @@
 /(zoll|zölle).{1,10}(steuergebühren|steuerzahlung).{1,10}erforderlich/iu
 /(zoll|zölle).{1,10}steuern steht noch aus/i
 
-/zollzahlung ist erforderlich/i
-
 /zollabfertigung.{1,10}angaben erforderlich/i
 /zollabfertigung.{1,10}begleichung der zölle/iu
+
+/(zollfreigabe|zollzahlung).{1,10}erforderlich/i
 
 /zurückgehalten.{1,10}fälliger betrag/iu
 

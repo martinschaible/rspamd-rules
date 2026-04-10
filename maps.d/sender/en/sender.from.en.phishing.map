@@ -317,7 +317,7 @@
 
 # S
 # ------------------------------------------------------------------------------
-/safety.{0,10}(alert|check|kit)/i
+/safety.{0,10}(alert|bonus|check|kit)/i
 /security.{0,10}(alert|compliance)/i
 
 /server.?(admin|support|update)/i

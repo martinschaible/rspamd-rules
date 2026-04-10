@@ -57,7 +57,7 @@
 
 /gruß.{1,10}liebling/i
 
-/^grüße$/i
+/^grüße.?$/i
 /(grüsse|grüße).?:/i
 
 /(grüsse|grüße).{1,10}(an sie|liebling|meine liebe)/i

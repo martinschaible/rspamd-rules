@@ -184,7 +184,7 @@
 /(dhl|dpd|fedex|gls|ups).{0,10}helpdesk/i
 /(dhl|dpd|fedex|gls|ups).{0,10}info(.?zentrum)?/i
 /(dhl|dpd|fedex|gls|ups).{0,5}ekunde/i
-/(dhl|dpd|fedex|gls|ups).{0,5}(kundendienst|kundenservice)/i
+/(dhl|dpd|fedex|gls|ups).{0,5}(kundendienst|kundenportal|kundenservice)/i
 /(dhl|dpd|fedex|gls|ups).{0,5}(lieferdienst|lieferung)/i
 /(dhl|dpd|fedex|gls|ups).{0,10}(logistik.?team|logistikzentrum)/i
 /(dhl|dpd|fedex|gls|ups).{0,5}(gmbh|noreply)/i
@@ -440,6 +440,8 @@
 /deutschland.?radio.{0,10}nachrichtendienst/i
 /deutschland.?ticket.{0,10}(service|team|zentrale)/i
 /deutschland.?tickets/i
+
+/www\.deutsche-rentenversicherung\.de/i
 
 /diba-ag/i
 /digitech/i

@@ -479,4 +479,5 @@
 /(zollgebühr|zustellgebühr)(en)?.{1,10}ausstehend.{1,10}\d(\.|,)\d{2}/i
 /(zollgebühr|zustellgebühr)(en)?.{1,10}zustellung (erforderlich|fällig)/iu
 
+/zollvorgang.{1,10}abgeschlossen/i
 /zwischenlager erhalten/i
