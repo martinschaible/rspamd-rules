@@ -40,7 +40,7 @@ It's necessary to split existing map files into smaller ones. Sometimes, when an
 
 | Date     | File                                       | Reason                        |
 | -------- | -------------------------------------------| ----------------------------- |
-| xx.04.26 |                                            |                               |
+| 14.04.26 | multimap.body.de.conf                      | body.de/en.ucase.map added    |
 
 ## Content
 :point_right: All map files of the *first version* are stored in the folder `/etc/rspamd/maps.d/legacy`.<br>
@@ -118,7 +118,7 @@ body
   │   ├─ body.de.singleword.special.map           ├─ multimap.body.de.conf 
   │   ├─ body.de.singleword.ucase.map             │
   │   │                                           │
-  │   ├─ body.de.ucase.map                      x │ 
+  │   ├─ body.de.ucase.map                        │ 
   │   ├─ body.de.unsubscribe.map                 ─┘
   │   │
   │   ├─ body.de.adult.map                       --- multimap.body.de.adult.conf
