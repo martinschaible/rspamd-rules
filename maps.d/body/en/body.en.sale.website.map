@@ -24,7 +24,7 @@
 
 # C
 # ------------------------------------------------------------------------------
-/customised.{1,10}high.?quality.{1,10}web.?sites?/i
+/customised.{1,10}high.?quality.{1,10}(web)?.?sites?/i
 
 # D
 # ------------------------------------------------------------------------------
@@ -74,7 +74,7 @@
 
 # N
 # ------------------------------------------------------------------------------
-/noticed.{1,10}issues on your website while browsing/i
+/noticed.{1,10}issues on your.{1,10}(web)?.?site.{1,10}while browsing/i
 
 # O
 # ------------------------------------------------------------------------------
@@ -121,26 +121,27 @@
 /we.{1,10}team from india/i
 /we.{1,10}india.?based.{1,10}development/i
 
-/we are.{1,15}helping.{1,15}(shops|web.?sites).{1,15}with/i
+/we are.{1,15}helping.{1,15}(shops?|web.?sites?).{1,15}with/i
 
 /we are.{1,20}web.?design.{1,15}(company|development)/i
 /we are.{1,20}professional.{1,10}(web)?.?sites?/i 
 
 /we.{1,10}(build|create|design|develop|make|specialize).{1,20}(building|develop|responsive).{1,10}(web)?.?sites?/i 
-/we.{1,10}(build|create|design|develop|make|specialize).{1,20}(high.?performance|modern).{1,20}(web)?.?site/i
+/we.{1,10}(build|create|design|develop|make|specialize).{1,20}(high.?performance|modern).{1,20}(web)?.?sites?/i
 /we.{1,10}(build|create|design|develop|make|specialize).{1,20}(new|your).{1,10}(web)?.?site/i
 /we.{1,10}(build|create|design|develop|make|specialize).{1,15}re.?design/i
 
 /(i|we).{1,10}offer.{1,10}expert.{1,10}(web)?.?site/i
-/(i|we).{1,10}offer.{1,10}(web.?design|website)/i
+/(i|we).{1,10}offer.{1,10}(web.?design|(web)?.?site)/i
 
 /web.{1,10}mobile.?app.{1,10}development/i
 
 /(homepage|web.?site).{1,10}businesses.{1,10}personal/i
 /(homepage|web.?site).{1,10}design(ing)?.{1,10}web.?development/i
 /(homepage|web.?site).{1,10}design.{1,10}(redesign|revamp)/i
+
 /(homepage|web.?site).{1,10}developer.{1,10}graphic designer/i
-/(homepage|web.?site).{1,10}development.{1,10}custom web.?site/i
+/(homepage|web.?site).{1,10}development.{1,10}custom/i
 /(homepage|web.?site).{1,10}development.{1,10}mobile app/i
 
 /(homepage|web.?site).{1,10}for your business/i

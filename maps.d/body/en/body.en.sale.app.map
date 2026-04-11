@@ -18,7 +18,9 @@
 
 # A
 # ------------------------------------------------------------------------------
-/apps?.{1,10}development services/i
+/apps?.{1,10}development.{1,10}android.{1,10}ios/i
+/apps?.{1,10}development.{1,10}services/i
+
 /apps?.{1,10}proposal with you/i
 /apps?.{1,10}aligns with your brand/i
 /apps?.{1,10}you are interested/i
@@ -46,7 +48,7 @@
 
 # H
 # ------------------------------------------------------------------------------
-/helping companies.{1,10}build.{1,15}mobile apps/i
+/helping companies.{1,10}build.{1,15}mobile.?apps/i
 
 # I
 # ------------------------------------------------------------------------------
@@ -59,13 +61,13 @@
 
 # L
 # ------------------------------------------------------------------------------
-/launch.{1,10}mobile app/i
+/launch.{1,10}mobile.?app/i
 
 # M
 # ------------------------------------------------------------------------------
 /(my|our).{1,10}app.{1,10}services/i
 
-/mobile app.{1,10}website.{1,10}development/i
+/mobile.?app.{1,10}website.{1,10}development/i
 
 # N
 # ------------------------------------------------------------------------------
@@ -110,7 +112,8 @@
 
 /we.{1,10}have.{1,10}developed.{1,10}of.{1,10}applications/i
 /we.{1,10}help brands build/i
-/we.{1,10}specialize in.{1,10}app.?development/i
+
+/we.{1,10}(offer|specialize).{1,20}app.?development/i
 
 # X
 # ------------------------------------------------------------------------------
