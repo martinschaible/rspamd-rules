@@ -62,6 +62,7 @@
 # METRO
 # Microsoft 365
 # Microsoft account team
+# Microsoft-Konto-Team
 # Microsoft Defender
 # Migros
 # Migros: Aktionen und News
@@ -784,11 +785,13 @@
 
 #/^open.?ai$/i
 
+/open.?ai.{0,5}.?\|/i
+
 /open.?ai.{0,5}chatgpt/i
 /open.?ai.{0,5}llc/i
 /open.?ai.{0,5}(account|billing|company|team|upgrade)/i
 /open.?ai.{0,5}(services?|subscriptions?|support)/i
-/open.?ai.{0,5}team/i
+/open.?ai.{0,5}(team|tech)/i
 /open.?ai.{0,5}(mitgliederverwaltung|zahlung(en)?)/i
 /open.?ai.{0,5}via/i
 

@@ -1009,7 +1009,7 @@
 /posture.{0,10}(help|reset)/i
 /promising.{0,10}therapy/i
 /proper.{0,15}detox/i
-/protein.{0,10}(danger|hack)/i
+/protein.{0,10}(danger|discovery|hack)/i
 
 /purple.{1,10}(drink|pee|powder|tonic)/i
 
@@ -1071,7 +1071,8 @@
 /science.{0,10}(leak|update)/i
 /scientists?.{0,10}reveals?/i
 
-/sec(ond)?.{1,10}(flush|move|neck lift|tweak)/i
+/sec(ond)?.{1,10}(flush|move|neck lift)/i
+/sec(ond)?.{1,10}(trick|tweak)/i
 
 /secret.{0,15}(african|ancient|herb|organ|ritual|weapon)/i
 /secret.{0,15}(receipe|revealed)/i
