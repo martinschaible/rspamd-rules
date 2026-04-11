@@ -90,9 +90,8 @@ Folder structure:
 ```
 body
   ├─ body.attachment.map                         ─┐
+  ├─ body.attachment.ext.map                      │
   ├─ body.emergency.map                           │
-  ├─ body.emergency.ext.map                       │
-  ├─ body.orgbrandprod.map                      x │
   ├─ body.special.map                             │
   │                                               │
   ├─ body.az.orgname.map                          ├─ multimap.body.conf
