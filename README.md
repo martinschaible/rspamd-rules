@@ -40,7 +40,7 @@ It's necessary to split existing map files into smaller ones. Sometimes, when an
 
 | Date     | File                                       | Reason                        |
 | -------- | -------------------------------------------| ----------------------------- |
-| 10.04.26 | multimap.header.conf                       | Configuration finalized       |
+| xx.04.26 |                                            |                               |
 
 ## Content
 :point_right: All map files of the *first version* are stored in the folder `/etc/rspamd/maps.d/legacy`.<br>
