@@ -121,6 +121,8 @@
 /bad.{1,10}digestion/i
 
 /balanced?.{1,10}blood (pressure|sugar)/i
+/balance.{1,10}with this/i
+
 /banish(ing)?.{1,10}(ear noise|toenail)/i
 
 /beats?.{1,10}(alzheimer|dementia|tinnitus)/i
@@ -241,7 +243,9 @@
 /craving.{1,10}cleanse/i
 /culprid.{1,10}strokes?/i
 
+/cup before you go/i
 /cup of this/i
+
 /cure.{1,10}(approved|fda|neuropathy)/i
 /curbs?.{1,10}appetite/i
 
@@ -419,12 +423,13 @@
 
 /focus.{1,10}memory/i
 
-/foods?.{1,10}contain this/i
+/foods?.{1,10}(color|contain this)/i
 /foods?.{1,10}healthy.{1,15}(blood|sugar)/i
 /foods?.{1,10}that.{1,10}(dissolves|fights?|poisonous|prevents)/i
 /foods?.{1,10}that.{1,10}makes? you/i
 /foods?.{1,10}to (avoid|skip)/i
 /foods?.{1,10}slowing you/i
+/foods?.{1,10}should you skip/i
 
 /follow these steps at/i
 
@@ -687,7 +692,7 @@
 /nobel prize.{1,10}discovery/i
 /normalize.{1,10}blood sugar/i
 
-/nutrition.{1,10}alerts/i
+/nutrition(al)?.{1,10}(alerts?|safety)/i
 /nutritionists warn/i
 
 # O
@@ -1040,6 +1045,7 @@
 /trick.{1,10}heres why/i
 /trick melts.{1,10}fat/i
 /trick that may/i
+/trick.{1,10}sharper vision/i
 /trick to end.{1,15}pain/i
 
 /trim your.{1,10}waistline/i

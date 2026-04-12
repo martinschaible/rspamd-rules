@@ -309,6 +309,7 @@
 /apobank -/i
 /apobank.{0,10}(kunden.?service|mitglieder.?service)/i
 
+/appſe/i
 /apiie ld/i
 /apple.{0,10}airtag/i
 /apple.{0,10}(autorisierung|kunden.?service|netzwerk|zahlung)/i
@@ -785,8 +786,9 @@
 
 #/^open.?ai$/i
 
-/open.?ai.{0,5}.?\|/i
+/^openal/i
 
+/open.?ai.{0,5}.?\|/i
 /open.?ai.{0,5}chatgpt/i
 /open.?ai.{0,5}llc/i
 /open.?ai.{0,5}(account|billing|company|team|upgrade)/i

@@ -23,7 +23,7 @@
 /(fat|weight).{1,10}blocking herbs/i
 /(fat|weight).{1,10}gain.{1,10}fatigue/i
 /(fat|weight).{1,10}\[learn more\]/i
-/(fat|weight).{1,10}success proven/i
+/(fat|weight).{1,10}(success proven|switch)/i
 /(fat|weight).{1,10}with this.{1,10}hack/i
 
 /(burn|drop|erase|flush|lose|melt|remove|shed).{1,10}(belly|more|pounds).{1,10}(fat|flab|lbs|weight)/i
@@ -52,6 +52,7 @@
 
 /diet.{1,10}doctor says/i
 /diet.{1,10}spray/i
+/diets?.{1,10}stops? working/i
 
 /(dissolves?|evacuates?).{1,10}(fat|flab|lbs|pounds|weight)/i
 /drink.{1,10}shed.{1,10}(inches|lbs|pounds|weight)/i

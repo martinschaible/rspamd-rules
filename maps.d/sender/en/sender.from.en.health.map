@@ -348,7 +348,7 @@
 /(bad|evil).{0,10}(bacteria|foods?|fruits?)/i
 
 /balance.{0,10}(blood|booster|brain|clinic|lab|project|science|your)/i
-/balance.{0,10}(recovery|reset|restored)/i
+/balance.{0,10}(fix|recovery|reset|restored)/i
 
 /balanced.{0,10}breakfast/i
 /balanced.?(bp|glucose)/i
@@ -622,7 +622,7 @@
 
 /fatigue.{0,10}bloating/i
 
-/fat.{0,5}(hack|water)/i
+/fat.{0,5}(hack|water|switch)/i
 /fat(ty)?.{0,10}(artery|dissolving)/i
 /fat(ty)?.{0,10}arteries/i
 
@@ -924,6 +924,8 @@
 /nerves?.{0,10}(care|comfort)/i
 /nerves?.{0,10}(recovery|repair|revival)/i
 
+/nervous.{0,10}system/i
+
 /(neural|neuro).{0,10}(boost|detox|fix|healing|health|report)/i
 
 /never.{0,10}(eat|forget)/i
@@ -946,6 +948,7 @@
 /nutrition.{0,15}(insider|insights|intelligence)/i
 /nutrition.{0,15}(nuances?|notes?)/i
 /nutrition.{0,15}(paradox|report|tips?|truth|veggies)/i
+/nutrition(al)?.{0,15}safety/i
 
 # O
 # ------------------------------------------------------------------------------
@@ -1273,8 +1276,9 @@
 # ------------------------------------------------------------------------------
 /\bw.?loss/i
 
-/water.{0,10}(flush|pill|lab|report|science|watch|weight)/i
 /water.{0,10}(detox|diy)/i
+/water.{0,10}(flush|pill|lab|report|watch|weight)/i
+/water.{0,10}(science|scientists?)/i
 
 /warning.{0,10}signs?/i
 /wax.{0,10}free/i
