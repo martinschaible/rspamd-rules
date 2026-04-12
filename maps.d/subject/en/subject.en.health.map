@@ -347,11 +347,12 @@
 
 /easy.?to.?do technique/i
 
-/eat \d cup/i
-/eat this.{1,15}(arteries|breakfast|daily|every|fruit|spice)/i
-/eat this.{1,15}for.{1,10}(days|perfect)/i
-/eat this.{1,15}to clear/i
-/eat this to/i
+/eat(ing)? \d cup/i
+/eat(ing)? this.{1,15}(arteries|breakfast|daily|every|fruit|spice)/i
+/eat(ing)? this.{1,15}for.{1,10}(days|perfect)/i
+/eat(ing)? this.{1,15}to clear/i
+/eat(ing)? this.{1,15}learn more/i
+/eat(ing)? this to/i
 
 /ears?.{1,10}(rub trick|try this)/i
 /ear noises/i
@@ -688,6 +689,8 @@
 /no pills.{1,10}no side effects/i
 /no sit.?ups/i
 /no surgery needed/i
+
+/not eating this/i
 
 /nobel prize.{1,10}discovery/i
 /normalize.{1,10}blood sugar/i

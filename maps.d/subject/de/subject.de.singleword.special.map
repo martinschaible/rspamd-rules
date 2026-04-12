@@ -155,6 +155,8 @@
 
 /k!reditangebot/i
 
+/\d.?kreditangebot/i
+/-kreditangebot/i
 /kreditangebot.?(@|!|\?|-)/i
 
 /kreditangebot.?\?/i

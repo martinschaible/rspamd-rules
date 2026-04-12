@@ -842,7 +842,7 @@
 /pay-pal/i
 /pay-pai/i
 
-/ihr paypal/i
+/(ihr|service).{0,10}paypal/i
 
 /^penny$/i
 
