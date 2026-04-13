@@ -177,6 +177,7 @@
 /(targeted|verified).{1,15}databases?.{1,10}businesses.{1,10}operating/i
 /(targeted|verified).{1,15}e?.?mail.{1,10}(databases?|leads?|lists?)/i
 /(targeted|verified).{1,15}list.{1,10}decision.?makers/i
+/(targeted|verified).{1,15}data from.{1,10}target audience/i
 /(targeted|verified).{1,15}visitors.{1,10}for just/i
 
 /targeted.{1,15}e?.?mail.{1,10}campaigns.{1,10}generate/i
@@ -196,7 +197,9 @@
 /we are.{1,10}offering.{1,15}leads/i
 
 /we can send.{1,10}targeted.{1,10}(campaigns|e?.?mail)/i
-/we can help.{1,10}your business solve/i
+
+/we.{1,10}help.{1,15}business solve/i
+/we.{1,10}help.{1,15}clients to reach new/i
 
 /we have.{1,15}access.{1,15}your target audience/i
 /we have.{1,15}compiled total.{1,10}(attendees?|contacts|registrants|visitors?)/i

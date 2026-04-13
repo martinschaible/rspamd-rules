@@ -88,11 +88,11 @@
 
 # I
 # ------------------------------------------------------------------------------
-/ihre.{1,10}e?.?mail.{1,15}bei einer ziehung/i
-/ihre.{1,10}e?.?mail.{1,15}hat gewonnen/i
+/ihre?.{1,10}(e?.?mail|name).{1,15}bei einer ziehung/i
+/ihre?.{1,10}(e?.?mail|name).{1,15}hat gewonnen/i
 
-/ihre.{1,10}e?.?mail.{1,15}wurde mit.{1,15}(gewinn|gutschein|nummer)/i
-/ihre.{1,10}e?.?mail.{1,15}wurde nach dem zufallsprinzip/i
+/ihre?.{1,10}(e?.?mail|name).{1,15}wurde mit.{1,15}(coupon|gewinn|gutschein|nummer)/i
+/ihre?.{1,10}(e?.?mail|name).{1,15}wurde nach dem zufallsprinzip/i
 
 /ihrem.{1,10}möglichen gewinn/iu
 /ihnen.{1,10}eine.{1,15}gewinnchance/i
