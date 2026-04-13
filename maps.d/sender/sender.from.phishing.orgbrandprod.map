@@ -308,6 +308,7 @@
 
 /apobank -/i
 /apobank.{0,10}(kunden.?service|mitglieder.?service)/i
+/apotheke.{0,10}apobank/i
 
 /appſe/i
 /apiie ld/i
@@ -430,6 +431,8 @@
 /\|.?denner/i
 /^denner$/i
 
+/deutsche.{0,10}apotheke$/i
+
 /deutschpost/i
 /deutsche.?bnk/i
 /deutschen.?bahn/i
@@ -489,8 +492,8 @@
 
 /easyb-ank/i
 /easy_bank/i
-/easybank.{0,10}(app|support)/i
-/easybank.{0,10}kundenservice/i
+/easybank.{0,10}(app|digital|finanzservice|support)/i
+/easybank.{0,10}(kundenbetreuung|kundenservice)/i
 /easybank.{0,10}service.?team/i
 /easybank.{0,10}team/i
 
