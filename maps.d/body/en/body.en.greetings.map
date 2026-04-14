@@ -249,6 +249,7 @@
 
 /(hello|hi).{5,35}from.{5,35}(in)? (china|india|ukraine)/i
 /(hello|hi).{1,10}glad to meet you/i
+/(hello|hi).{1,10}here is in attachment/i
 /(hello|hi\b).{1,10}herr/i
 /(hello|hi\b).{1,10}greetings for the day/i
 
@@ -273,6 +274,7 @@
 /(hello|hi).{1,10}this is mrs?/i
 
 /(hello|hi).{1,5}we are interested in your products/i
+/(hello|hi).{1,5}we would like to present/i
 /(hello|hi).{1,5}we mainly produce/i
 /(hello|hi).{1,5}we need your products/i
 /(hello|hi).{1,5}we offer a solution for/i

@@ -41,23 +41,28 @@
 /e(lectric)?.{0,10}(bicycle|bike|velo).{1,15}(adventrue|built|cooperation)/i
 /e(lectric)?.{0,10}(bicycle|bike|velo).{1,15}(day shipping|delivers?|distribution)/i
 /e(lectric)?.{0,10}(bicycle|bike|velo).{1,15}in stock/i
-/e(lectric)?.{0,10}(bicycle|bike|velo).{1,15}(factory|germany|interest|performance|ready)/i
+/e(lectric)?.{0,10}(bicycle|bike|velo).{1,15}(factory|germany|interest|performance)/i
+/e(lectric)?.{0,10}(bicycle|bike|velo).{1,15}models.{1,15}(partners|trade)/i
+/e(lectric)?.{0,10}(bicycle|bike|velo).{1,15}(ready|retailers)/i
 /e(lectric)?.{0,10}(bicycle|bike|velo).{1,15}(shipped|shipping|supplier|supply)/i
 
 /fat.?tire.{1,10}e(lectric)?.{0,10}(bicycle|bike|velo)/i
 
-/(about|battery|cobblestone|confirmed).{1,15}e(lectric)?.{0,10}(bicycle|bike|velo)/i
+/(about|battery).{1,15}e(lectric)?.{0,10}(bicycle|bike|velo)/i
+/(cobblestone|comuter|commuting|confirmed).{1,15}e(lectric)?.{0,10}(bicycle|bike|velo)/i
 /(deals|dual.?purpose|expand|germany).{1,15}e(lectric)?.{0,10}(bicycle|bike|velo)/i
-/(high.?performance|inspired|interested).{1,15}e(lectric)?.{0,10}(bicycle|bike|velo)/i
-/(next|portable|premium|revolutionary).{1,15}e(lectric)?.{0,10}(bicycle|bike|velo)/i
+/(factory.?direct|fat tire|find your).{1,20}e(lectric)?.{0,10}(bicycle|bike|velo)/i
+/high.?performance.{1,15}e(lectric)?.{0,10}(bicycle|bike|velo)/i
+/(inspired|interested|introducing).{1,20}e(lectric)?.{0,10}(bicycle|bike|velo)/i/i
+/next.{1,15}e(lectric)?.{0,10}(bicycle|bike|velo)/i
+/(portable|premium).{1,15}e(lectric)?.{0,10}(bicycle|bike|velo)/i
+/(ready|revolutionary).{1,15}e(lectric)?.{0,10}(bicycle|bike|velo)/i
 /(seamless|shipping|simple|stylish|summit).{1,15}e(lectric)?.{0,10}(bicycle|bike|velo)/i
 /(proceed|trusted|ultimate|our).{1,15}e(lectric)?.{0,10}(bicycle|bike|velo)/i
 
-/commuting.{1,10}e(lectric)?.{0,10}(bicycle|bike|velo)/i
-/find your.{1,15}e(lectric)?.{0,10}(bicycle|bike|velo)/i
-/with these.{1,15}e(lectric)?.{0,10}(bicycle|bike|velo)/i
 /(in|with) our.{1,10}e(lectric)?.{0,10}(bicycle|bike|velo)/i
 /(product|quality).{1,15}e(lectric)?.{0,10}(bicycle|bike|velo)/i
+/(wholesale with).{1,20}e(lectric)?.{0,10}(bicycle|bike|velo)/i
 
 /your.{1,10}e.?bike/i
 
