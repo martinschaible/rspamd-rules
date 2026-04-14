@@ -563,7 +563,14 @@
 /harbor.?freight.{0,10}department/i
 
 /hetzner, inc/i
+
+/hetzner.{0,10}alert/i
+/hetzner.{0,0}accounts?/i
+/hetzner.{0,10}billing/i
 /hetzner.{0,5}(invoice|online)$/i
+/hetzner.{0,5}payment/i
+/hetzner.{0,5}service/i
+
 /hetznersupport/i
 
 /login.?hetzner/i
