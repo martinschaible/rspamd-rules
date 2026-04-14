@@ -136,6 +136,7 @@
 /^konto gesperrt$/i
 
 /(karte|konto).{1,10}in der warteschleife/i
+/(karte|konto) gesperrt\?/i
 
 # Sample: Kontoinformationen - 420998446741
 /kontoinformationen.{1,10}\d{4,20}/i
@@ -150,6 +151,7 @@
 /konto.{1,10}eingeschränkt.{1,10}id/i
 /konto.{1,10}einschränken in/i
 /konto.{1,10}erfordert eine.{1,15}ihrerseits/iu
+/konto.{1,10}gesperrt.{1,20}zahlungsproblem/i
 
 /konto.{1,10}innerhalb der nächsten.{1,10}stunden vorübergehend/iu
 /konto.{1,10}ist betroffen.{1,10}vertrauliche nachricht/i

@@ -657,7 +657,7 @@
 
 /sicherheits.?(benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,10}verdächtige (anmeldung|dateien)/i
 /sicherheits.?(benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,10}verdächtiger/i
-/sicherheits.?(benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,10}verifizierung notwendig/i
+/sicherheits.?(benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,10}verifizierung (erforderlich|notwendig)/i
 
 /sicherheits.?(benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,10}wichtige aktualisierung/i
 /sicherheits.?(benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,10}zu.{1,10}(gerät|karte)/iu
@@ -818,6 +818,7 @@
 /wichtige?.{1,15}info(rmation)?.{1,10}zu ihrem.{1,10}(eintrag|kundenportal)/i
 /wichtige?.{1,15}info(rmation)?.{1,10}zu.{1,10}(ihrem|ihrer).{1,10}(paket|sendung)/i
 /wichtige?.{1,15}info(rmation)?.{1,10}zur?.{1,10}sendung.{1,20}adresse unvollständig/iu
+/wichtige?.{1,15}info(rmation)?.{1,10}zur aktuellen abrechnung/i
 
 /wichtige?.{1,15}kontofunktion(en)?/i
 /wichtige?.{1,10}kontoverifizierung erforderlich/i

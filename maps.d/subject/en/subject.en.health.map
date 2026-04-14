@@ -352,7 +352,7 @@
 /eat(ing)? this.{1,15}for.{1,10}(days|perfect)/i
 /eat(ing)? this.{1,15}to clear/i
 /eat(ing)? this.{1,15}learn more/i
-/eat(ing)? this to/i
+/eat(ing)? this.{1,10}(feel|to)/i
 
 /ears?.{1,10}(rub trick|try this)/i
 /ear noises/i
