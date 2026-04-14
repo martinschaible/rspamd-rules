@@ -846,7 +846,7 @@
 /pay-pal/i
 /pay-pai/i
 
-/(ihr|service).{0,10}paypal/i
+/ihr.{0,10}paypal/i
 
 /^penny$/i
 
@@ -1012,7 +1012,7 @@
 
 #/swisspass\./i
 /swisspass-/i
-
+/sbb.{1,5}swisspass/i
 /swisspass.?id/i
 /-swisspass/i
 /suisspass/i
