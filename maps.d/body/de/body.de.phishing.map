@@ -257,7 +257,7 @@
 
 # V
 # ------------------------------------------------------------------------------
-/verpflichtendes kundenupdate/i
+/verpflichtendes?.{1,10}(aktivierung|kundenupdate)/i
 
 /vignette.{1,10}ihres fahrzeugs.{1,15}deaktiviert wurde/i
 /vignette.{1,15}kontrollschild ist.{1,15}deaktiviert/i

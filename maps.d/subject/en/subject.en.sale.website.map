@@ -17,6 +17,8 @@
 # ------------------------------------------------------------------------------
 /affordable.{1,10}(home.?page|web.?site).{1,10}design/i
 
+/agency working offer/i
+
 /(about|boost) your.{1,10}(home.?page|web.?site)/i
 
 # B
@@ -173,7 +175,7 @@
 /we specialize in.{1,20}(agile|development|support)/i
 /we are.{1,10}(developer|web.?design)/i
 
-/web.{1,10}(design(ing)?|development).{1,15}(offer|proposal|service)/i
+/web.{1,10}(design(ing)?|development).{1,15}(offer|proposal|service|support)/i
 /web.?design.{1,10}seo/i
 
 /web.{1,5}applications?/i

@@ -450,7 +450,7 @@
 /can.?t.{0,10}sleep/i
 /candy.{0,10}(cure|fix)/i
 
-/carb.{0,10}(control|secrets?|tricks?)/i
+/carb.{0,10}(control|fix|secrets?|tricks?)/i
 /cardiac.{0,10}(clock|health|insights?)/i
 /cardio.{0,10}(boost|care|coach|health|insights|kitchen|wellness)/i
 /care.{0,10}secret/i
@@ -1117,6 +1117,7 @@
 /slim.{0,10}(drink|hack)/i
 
 /small.{0,10}stomach/i
+/smart.{0,10}(brain|carbs|drugs?|exercise|food|insight|keto|lifestyle|sleep|supplement|trick)/i
 /smile.{0,10}(fix|health|secret|science)/i
 /smooth(er)?.{0,10}skin/i
 
