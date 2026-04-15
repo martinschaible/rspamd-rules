@@ -50,6 +50,8 @@
 
 # G
 # ------------------------------------------------------------------------------
+/geschäft.{0,5}(angebot|vorschlag).{1,10}im wert von.{1,15}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£)/iu
+/geschäft.{0,5}(angebot|vorschlag).{1,10}im wert von.{1,15}millionen/iu
 
 # H
 # ------------------------------------------------------------------------------

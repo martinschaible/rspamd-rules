@@ -18,7 +18,11 @@
 
 # A
 # ------------------------------------------------------------------------------
-/angebot.{1,10}das ich mit ihnen teilen/i
+/(angebot|vorschlag).{1,10}ich mit ihnen teilen/i
+/(angebot|vorschlag).{1,10}für eine.{1,10}geschäfts.?partnerschaft/iu
+/(angebot|vorschlag).{1,10}im wert von.{1,10}millionen.{1,10}(dollar|euro?|gbp|usd)/i
+/(angebot|vorschlag).{1,10}mit ihnen besprechen.{1,10}sie ihn.{1,25}berücksichtigen/iu
+/(angebot|vorschlag).{1,15}wir beide profitieren/i
 
 # B
 # ------------------------------------------------------------------------------
@@ -45,6 +49,15 @@
 
 # G
 # ------------------------------------------------------------------------------
+/geschäft.{1,10}für sie.{1,10}kontaktieren sie mich/iu
+/geschäft.{1,10}im wert von.{1,25}(von dem ich|zu besprechen)/iu
+
+/geschäft.{0,5}(angebot|vorschlag).{1,10}schreiben sie.{1,10}meine e?.?mail/iu
+/geschäft.{0,5}(angebot|vorschlag).{1,10}sie interessiert sind/iu
+/geschäft.{0,5}(angebot|vorschlag).{1,10}von dem wir.{1,10}profitieren/iu
+/geschäft.{0,5}(angebot|vorschlag).{1,10}zu kontaktieren/iu
+
+/geschäfts.{0,5}partnerschaft.{1,10}kontaktieren sie mich/i
 
 # H
 # ------------------------------------------------------------------------------
