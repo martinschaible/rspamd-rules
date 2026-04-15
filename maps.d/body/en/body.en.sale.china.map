@@ -38,14 +38,18 @@
 /export group.{1,10}co.{1,5}(limited|ltd)/i
 
 /auto.?parts.{1,10}co.{1,5}(limited|ltd)/i
-/(fiberglass|goods|hardware|jewelry|material|packaging|plastic|product).{1,10}co.{1,5}(limited|ltd)/i
+/(fiberglass|goods|hardware|jewelry|material).{1,10}co.{1,5}(limited|ltd)/i
 /international trade.{1,10}co.{1,5}(limited|ltd)/i
+/(packaging|plastic|product).{1,10}co.{1,5}(limited|ltd)/i
+/recare.{1,10}co.{1,5}(limited|ltd)/i
 
 /this is.{1,15}from.{1,15}technology (limited|ltd)/i
 /this is.{1,25}co.{1,5}(limited|ltd)/i
 
 /(limited|ltd).{1,10}(specializes in|we are major)/i
 /(limited|ltd).{1,10}we (provide|specialize)/i
+
+/we are china.{4,35}co.{1,5}(limited|ltd)/i
 
 # Address patterns
 # ------------------------------------------------------------------------------

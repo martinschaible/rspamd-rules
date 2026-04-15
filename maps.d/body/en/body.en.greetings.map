@@ -246,20 +246,21 @@
 /(hello|hi).{1,15}btc.{1,10}usd?/i
 
 /(hello|hi).{1,10}first.?name/i
-
 /(hello|hi).{5,35}from.{5,35}(in)? (china|india|ukraine)/i
+
+/(hello|hi\b).{1,10}greetings for the day/i
 /(hello|hi).{1,10}glad to meet you/i
 /(hello|hi).{1,10}here is in attachment/i
+/(hello|hi).{1,10}hope you are well.{1,10}this is.{5,35}from/i
 /(hello|hi\b).{1,10}herr/i
-/(hello|hi\b).{1,10}greetings for the day/i
 
 /(hello|hi).{1,35}i am.{1,10}(employee|professional)/i
 /(hello|hi).{1,15}i am.{1,10}who has access/i
 /(hello|hi).{1,10}(i am|we) are reaching out/i
 /(hello|hi).{1,10}(i am|we) contacting you/i
-/(hello|hi).{1,10}i have.{1,10}proposal/i
-/(hello|hi).{5,35}i hope this.{1,10}(e?.?mail|message) (finds|meets) you/i
-/(hello|hi).{1,10}i work for.{1,10}company/i
+/(hello|hi).{1,10}(i am|we) have.{1,10}proposal/i
+/(hello|hi).{5,35}(i am|we) hope this.{1,10}(e?.?mail|message) (finds|meets) you/i
+/(hello|hi).{1,10}(i am|we) work for.{1,10}company/i
 
 /(hello|hi).{1,10}glad to (contact|connect|know|write)/i
 
