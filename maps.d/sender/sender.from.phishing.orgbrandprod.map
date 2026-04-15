@@ -177,7 +177,7 @@
 /(dhl|dpd|fedex|gls|ups).{0,5}\d{1,2}/i
 
 /(dhl|dpd|fedex|gls|ups).{0,5}abteilung/i
-/(dhl|dpd|fedex|gls|ups).{0,5}boten/i
+/(dhl|dpd|fedex|gls|ups).{0,5}(boten|bezogservice)/i
 /(dhl|dpd|fedex|gls|ups).{0,5}clearance/i
 /(dhl|dpd|fedex|gls|ups).{0,5}delivery express/i
 /(dhl|dpd|fedex|gls|ups).{0,5}express info/i
@@ -353,6 +353,8 @@
 /binance.{0,10}(customer|security|support|web3)/i
 /binance.{0,10}sicherheit/i
 
+/mitteilung.{0,10}binance/i
+
 /bíngo/i
 
 /bmw.?x/i
@@ -360,6 +362,8 @@
 /\|.?brack/i
 /brack\.ch/i
 /brack.?\|/i
+
+/bund.{0,10}zahlungsverkehr/i
 
 /bundeskriminalpolizei/i
 /bundessteueramt/i
@@ -377,7 +381,7 @@
 
 /chat-gpt/i
 /chatgpt.?(ai|\+|plus)/i
-/chatgpt.{0,10}(abonnement|hinweis|kundenservice)/i
+/chatgpt.{0,10}(abonnement|hinweis|kundenservice|kontakt)/i
 /chatgpt.{0,10}zahlung(en)?/i
 /chatgpt.{0,10}(account|billing|payments|team)/i
 /chatgpt.{0,10}(services|serviceportal|subscription)/i
@@ -838,7 +842,8 @@
 /paypal.{0,15}(department|europe?|help.?desk|inc)/i
 
 /paypal.{0,15}(abteilung|account|admin|alarme?)/i
-/paypal.{0,15}(benachrichtigung(en)?|betrieb|kunden|konto|nachricht|sicherheit|verifizierung|vertrauen)/i
+/paypal.{0,15}(benachrichtigung(en)?|betrieb|nachricht|sicherheit|verifizierung|vertrauen)/i
+/paypal.{0,15}(kunden|konto)/i
 /paypal.{0,15}(rechtliches|rechtsabteilung)/i
 /paypal.{0,15}guthaben/i
 /paypal.{0,15}hilfe/i
@@ -916,6 +921,8 @@
 /sbb(.?cff.?ffs)?.{0,5}(konto|support|technikzentrum)/i
 /sbb(.?cff.?ffs)?.{0,5}(kunden)?service/i
 /sbb\.cff\.ffs/i
+
+/mitteilung.{0,10}sbb/i
 
 #/sbb.?ffs$/i
 
