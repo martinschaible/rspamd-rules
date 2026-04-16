@@ -38,7 +38,7 @@
 /export group.{1,10}co.{1,5}(limited|ltd)/i
 
 /auto.?parts.{1,10}co.{1,5}(limited|ltd)/i
-/(fiberglass|goods|hardware|jewelry|material).{1,10}co.{1,5}(limited|ltd)/i
+/(fiberglass|goods|hardware|industry|jewelry|material).{1,10}co.{1,5}(limited|ltd)/i
 /international trade.{1,10}co.{1,5}(limited|ltd)/i
 /(packaging|plastic|product).{1,10}co.{1,5}(limited|ltd)/i
 /recare.{1,10}co.{1,5}(limited|ltd)/i
@@ -130,6 +130,8 @@
 /i am.{5,35}from.{1,10}china.{5,40}manufacturer/i
 
 /inquiries.{1,10}feel free to share/i
+
+/interest.{1,10}(pcba?|printed.?circuit.?board).{1,10}technology/i
 
 /is.{1,10}well.{1,10}established.{1,10}(company|factory|supplier) of /i
 /is a professional iso \d{4,5}/i

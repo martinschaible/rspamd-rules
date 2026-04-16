@@ -413,7 +413,7 @@
 /(pcba?|printed.?circuits?.?board).{1,10}manufactuer for.{1,15}(customers|worldwide)/i
 /(pcba?|printed.?circuits?.?board).{1,10}material supplier/i
 /(pcba?|printed.?circuits?.?board).{1,10}mould partner/i
-/(pcba?|printed.?circuits?.?board).{1,10}production line/i
+/(pcba?|printed.?circuits?.?board).{1,10}(procurement|production line)/i
 /(pcba?|printed.?circuits?.?board).{1,10}quality.{1,10}(counts|delivery)/i
 /(pcba?|printed.?circuits?.?board).{1,10}(partner|supplier).{1,10}(for|with)/i
 /(pcba?|printed.?circuits?.?board).{1,10}(partner|supplier).{1,10}(iso|worthy)/i
@@ -469,6 +469,8 @@
 
 # Q
 # ------------------------------------------------------------------------------
+/question regarding.{1,15}(steel|supply)/i
+
 /quality.{1,10}electronic.{1,10}parts/i
 /quality.{1,10}paper.{1,10}(bags|boxes)/i
 /quality.{1,10}printing.{1,10}services/i
@@ -479,7 +481,7 @@
 # R
 # ------------------------------------------------------------------------------
 /reduce.{1,10}printing costs/i
-/regarding your.{1,10}(pcba?|printed.?circuits?.?board)/i
+/regarding.{1,15}(pcba?|printed.?circuits?.?board)/i
 
 /reliable.{1,10}(china|chinese).{1,20}(freight|forwarder)/i
 /reliable.{1,20}(faucets|freight|forwarder)/i

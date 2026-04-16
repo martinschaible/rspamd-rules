@@ -149,6 +149,8 @@
 
 /(redo\b|re.?make|re.?vamping).{1,10}(homepage|web.?site)/i
 
+/revamp.{1,10}www/i
+
 # S
 # ------------------------------------------------------------------------------
 /site upgrade.?\?/i
