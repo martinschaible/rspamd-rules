@@ -548,12 +548,12 @@
 /dermatology.{0,10}insights/i
 /desire.{0,10}revival/i
 
-/detox.{0,10}(drink|guide|lab|minute|patch(es)?|solution|your)/i
+/detox.{0,10}(drink|guide|lab|minute|patch(es)?|ritual|solution|your)/i
 /deficiency.{0,10}alert/i
 
-/digestive.{0,10}(boost|guide|health|help|insider|insight|reset)/i
-/digestive.{0,10}(fix|food)/i
-/digestive.{0,10}(support|system)/i
+/digest(ive)?.{0,10}(boost|guide|health|help|insider|insight|reset)/i
+/digest(ive)?.{0,10}(fix|food)/i
+/digest(ive)?.{0,10}(support|system)/i
 /digestion/i
 
 /dinner.{0,10}(ritual|secret)/i

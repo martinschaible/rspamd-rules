@@ -63,7 +63,7 @@
 
 /catalog is of interest.{1,10}contact us/i
 
-/company.{1,10}vendor.{1,10}contractor partnership/i
+/company.{1,20}(contractor|vendor).{1,20}partnership/i
 
 # D
 # ------------------------------------------------------------------------------
@@ -163,6 +163,7 @@
 # V
 # ------------------------------------------------------------------------------
 /vendor.{1,20}potential collaborations?/i
+/vendor.{1,10}questionnaire/i
 
 # W
 # ------------------------------------------------------------------------------

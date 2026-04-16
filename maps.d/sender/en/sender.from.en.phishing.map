@@ -153,7 +153,7 @@
 # ------------------------------------------------------------------------------
 /cargo notification/i
 
-/claim.{0,10}(free|refund|your)/i
+/claim.{0,10}(free|refund|reward|your)/i
 /clean.{0,10}(experts?|support)/i
 
 /customer.{0,10}(engagement|experience|feedback|survey|support)/i
@@ -314,7 +314,8 @@
 /refund.{0,10}support/i
 
 /revise.id/i
-/rewards?.{0,10}(center|notification|status|team)/i
+/rewards?.{0,10}(center|notification|team|update)/i
+/rewards?.{0,10}(status|survey)/i
 
 # S
 # ------------------------------------------------------------------------------
