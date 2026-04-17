@@ -91,6 +91,8 @@
 /designed.{0,10}(americans|for|to)/i
 /detector.{0,10}team/i
 
+/digital.{0,10}info/i
+
 /dogs?.{0,5}(armour|behaviour|trainers)/i
 /^dogs?.{0,5}food/i
 
@@ -218,6 +220,7 @@
 
 # M
 # ------------------------------------------------------------------------------
+/media now/i
 /meet.{0,10}your/i
 /military.{0,10}grade/i
 /mini.{0,10}(blower|cool|heater|jet)/i
@@ -307,6 +310,7 @@
 
 /^smart.?deals$/i
 
+/smart.{0,10}media/i
 /smart.{0,10}glasses/i
 /smart.{0,10}(cleaning|deals|guard|protect|traveler)/i
 /smart.{0,10}(security|sleep|stick)/i
@@ -361,7 +365,9 @@
 
 /truth.{0,10}(finder|watch)/i
 /tv.{0,10}access?/i
-/tv.{0,10}(deals|offers?|premium|streaming|upgrade)/i
+/tv.{0,10}(deals|offers?|streaming|upgrade)/i
+/tv.{0,10}(portal|premium)/i
+/tv.{0,10}trends/i
 
 # U
 # ------------------------------------------------------------------------------
@@ -375,6 +381,8 @@
 # V
 # ------------------------------------------------------------------------------
 /vaccum.{0,10}(go|pro)/i
+
+/video.{0,10}(desk|news)/i
 
 /value for money/i
 /vending.{0,10}machines?/i
