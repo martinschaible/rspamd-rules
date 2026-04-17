@@ -117,7 +117,8 @@
 /(\bi\s*(am|'m)\b|my name is).{5,35}(accountant|agent|adviser|ambassador|analyst|assistant|attorney|anthropologist)/i
 /(\bi\s*(am|'m)\b|my name is).{5,35}(bank(er)?|barr(\.|ister)|broker|business)/i
 /(\bi\s*(am|'m)\b|my name is).{5,35}(citizen of|chief|collector|colonel|consultant)/i
-/(\bi\s*(am|'m)\b|my name is).{5,35}(development|director|entrepreneur|expert|financial|forensic|general)/i
+/(\bi\s*(am|'m)\b|my name is).{5,35}(development|director|entrepreneur|expert|financial|forensic)/i
+/(\bi\s*(am|'m)\b|my name is).{5,35}(general|german)/i
 /(\bi\s*(am|'m)\b|my name is).{5,35}(import|international|investigator|investment|investor)/i
 /(\bi\s*(am|'m)\b|my name is).{5,35}lawyer/i
 /(\bi\s*(am|'m)\b|my name is).{5,35}legal practitioner/i

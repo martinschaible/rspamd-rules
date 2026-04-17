@@ -365,8 +365,10 @@
 
 /truth.{0,10}(finder|watch)/i
 /tv.{0,10}access?/i
-/tv.{0,10}(deals|offers?|streaming|upgrade)/i
+/tv.{0,10}(deals|offers?|upgrade)/i
 /tv.{0,10}(portal|premium)/i
+/tv.{0,10}(center|streaming)/i
+/tv.{0,10}service/i
 /tv.{0,10}trends/i
 
 # U

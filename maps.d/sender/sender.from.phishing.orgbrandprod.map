@@ -1128,6 +1128,7 @@
 /vr.?(bank|gruppe).{0,10}(deutschland|online|zentrale)/i
 /vr.?(bank|gruppe).?eg/i
 /vr.?verbund/i
+/^vr eg$/i
 
 /www\.vr\.de/i
 
