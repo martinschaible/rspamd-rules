@@ -704,6 +704,7 @@
 /gut.{0,10}(reboot|relief|repair|reset|rituals?)/i
 /gut.{0,10}(solution|support|symptoms?)/i
 /gut.{0,10}(tip|trick)/i
+/gut.{0,10}wrecker/i
 
 # H
 # ------------------------------------------------------------------------------
@@ -1096,6 +1097,8 @@
 
 /shed.{1,15}faster/i
 /shed.{1,10}ibs by/i
+
+/simplest.{0,10}way/i
 
 /shoulder.{0,10}(pain|relief)/i
 

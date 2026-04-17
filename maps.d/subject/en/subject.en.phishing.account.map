@@ -48,6 +48,8 @@
 
 /account setup.{1,10}final step/i
 
+/(account|login|profile).{1,15}you will lose access/I
+
 /authentication expires? today id/i
 /authentication expires?.{1,10}id.?\d{5,15}/i
 /authentication on your.{1,15}(account|profile)/i
@@ -150,7 +152,10 @@
 # ------------------------------------------------------------------------------
 #/your.{5,20}details/i
 
+/you must update your login/i
+
 /your account!/i
+
 /your.{1,15}account is temporarily blocked/i
 /your.{1,15}account is on hold/i
 
