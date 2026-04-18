@@ -177,6 +177,8 @@
 
 # K
 # ------------------------------------------------------------------------------
+/keine kosten.{1,10}kein risiko/i
+
 /(kostenloses|kostenfreies).{1,10}geschenk/i
 
 # L
@@ -270,6 +272,9 @@
 /was sie erwartet.{1,10}(airpod|apple|iphone|ipad)/i
 
 /wenige angaben.{1,15}erfolgreichen zustellung/i
+
+/wert von.{1,10}keine kosten/i
+
 /wlan.?geschenk/i
 
 /woche.{1,10}dein.{1,15}paket ist bereit/i

@@ -938,7 +938,7 @@
 /schweizer.?post/i
 /secureplus.{0,5}support/i
 
-/securego.?plus/i
+/securego(.?plus)?/i
 
 /serafe(.?ag)?.?\|/i
 /serafe\.ag/i
@@ -993,6 +993,7 @@
 /sum.?up.{0,10}(kundenservice|kontakt)/i
 /sumxup/i
 
+/sumup.{0,10}(germany|schweiz|suisse|switzerland)/i
 /sumup.{0,10}(assistenz|kundendienst|service(.?desk)?|sicherheit|support|limited|team)/i
 /(account|logins?|mein|team|von).{0,10}sumup/i
 

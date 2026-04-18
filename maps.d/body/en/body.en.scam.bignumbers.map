@@ -104,6 +104,8 @@
 /you will be awarded.{1,15}(dollars?|euro?|gbp|usd|€|\$|£)/i
 /you will be awarded.{1,15}million/i
 
+/you have received.{1,10}\d{1,4}(\.|,)?\d{3,4}.{1,10}to your account/i
+
 /your fund.{1,10}\d{2,4}(\.|,)?\d{3,4}/i
 
 # Z

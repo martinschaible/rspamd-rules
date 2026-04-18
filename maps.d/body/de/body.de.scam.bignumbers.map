@@ -65,6 +65,7 @@
 
 /ich habe.{1,10}beschlossen.{1,10}\d{2,4}(\.|,)?\d{3,4}.{1,15}an sie/i
 
+/ich spende.{1,15}millionen.{1,15}(euro?|dollars?|gbp|usd|€|\$|£)/i
 /ich spenden ihnen.{1,10}\d{2,4}(\.|,)?\d{3,4}.{1,10}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£)/i
 /ich verfüge über eine summe von.{1,15}millionen/iu
 
@@ -89,6 +90,8 @@
 # ------------------------------------------------------------------------------
 /(million(en)?|tausend).{1,15}ausgewählt.{1,10}für weitere informationen wenden sie sich/iu
 /(million(en)?|tausend).{1,10}wurden? an sie überwiesen/iu
+
+/(million(en)?|tausend).{1,10}(euro?|dollars?|gbp|usd|€|\$|£).{1,10}ich spende/i
 
 # N
 # ------------------------------------------------------------------------------
