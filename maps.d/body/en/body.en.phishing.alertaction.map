@@ -70,7 +70,8 @@
 
 # I
 # ------------------------------------------------------------------------------
-/immediate verification required.{1,15}(asset|secure)/i
+/immediate (review|verification) required.{1,15}(asset|secure)/i
+/immediate (review|verification) required.{1,15}we detected/i
 
 /(important|notice).{1,10}tax (details|document)/i
 
