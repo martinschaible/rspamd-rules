@@ -44,6 +44,8 @@
 /boom de vendas/i
 /boom of sales/i
 
+/boost(er)?.{0,10}(pro|wifi)/i
+
 /boresighter/i
 
 /breaking.{0,10}deals?/i
@@ -399,7 +401,7 @@
 /well.{0,10}heater/i
 /website.{0,10}seo/i
 
-/wi.?fi.{0,15}(booster|projector)/i
+/wi.?fi.{0,15}(boost(er)?|projector)/i
 
 /woodwork(ing)?.{0,10}(plans|tooling)/i
 
