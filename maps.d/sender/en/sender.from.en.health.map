@@ -473,6 +473,9 @@
 /cell(ar|ular)?.{0,10}(cure|health|rewind|science)/i
 
 /chemo.{0,10}secret/i
+
+/certified.{0,10}nutritionist/i
+
 /chicken.{0,10}protein/i
 /child.{0,10}psychology/i
 /citrus.{0,10}slim/i
@@ -1206,8 +1209,8 @@
 # T
 # ------------------------------------------------------------------------------
 /tap your/i
+/tea.{0,10}(cure|detox|discovery|health|recipe|reset|trick|weight)/i
 
-/thanksgiving.{0,10}delight/i
 /the.{0,10}(pain|spray)/i
 
 /thicker.{0,10}harder/i

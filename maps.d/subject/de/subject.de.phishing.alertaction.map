@@ -182,6 +182,8 @@
 # Sample: bestätigen (792254690993421)
 /bestätigen.{1,10}\(.?\d{4,20}.?\)/i
 
+/bestätigen.{1,10}sicherheitseinstellungen/i
+
 /bestätigen sie ihre.{1,5}adresse/i
 /bestätigen sie (die|ihre).{1,10}aktuellen (angaben|kontaktdaten)/i
 /bestätigen sie (die|ihre).{1,10}(lieferadresse|lieferdaten)/i

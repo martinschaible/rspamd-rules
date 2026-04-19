@@ -192,7 +192,7 @@
 
 # I
 # ------------------------------------------------------------------------------
-/immediate (action|verification) (needed|required)/i
+/immediate (action|approval|verification) (needed|required)/i
 
 /important.{1,10}lose access.{1,15}account/i
 /important.{1,10}account (alert|update)/i
