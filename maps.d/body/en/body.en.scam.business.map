@@ -26,11 +26,12 @@
 /beneficial.{1,10}for both of us upon its completion/i
 /beneficial.{1,10}business.{1,10}proposal/i
 
-/(business|proposal|transaction).{1,10}discuss with you/i
-/(business|proposal|transaction).{1,10}discussion.{1,10}you are interested/i
-/(business|proposal|transaction).{1,10}(for|with) you/i
-/(business|proposal|transaction).{1,10}offer that will benefit both/i
-/(business|proposal|transaction).{1,10}will benefit us both/i
+/(business|proposal|transaction).{1,20}discuss with you/i
+/(business|proposal|transaction).{1,20}discussion.{1,10}you are interested/i
+/(business|proposal|transaction).{1,20}(for|with) you/i
+/(business|proposal|transaction).{1,20}offer that will benefit both/i
+/(business|proposal|transaction).{1,20}may be of interest to you/i
+/(business|proposal|transaction).{1,20}will benefit us both/i
 
 # C
 # ------------------------------------------------------------------------------
@@ -106,11 +107,13 @@
 /partner with you.{1,15}let me know if you/i
 /partnership.{1,10}representation.{1,10}interested/i
 
-/profitable.{1,10}its?.{1,10}risk.?free/i
-/profiting.{1,10}venture that concerns you/i
+/present.{1,10}business proposal/i
 
 /potential business cooperation.{1,10}your.{1,10}company/i
 /potential collaborative.{1,10}business project/i
+
+/profitable.{1,10}its?.{1,10}risk.?free/i
+/profiting.{1,10}venture that concerns you/i
 
 /project opportunity.{1,10}mentioned.{1,10}is genuine/i
 /project proposal.{1,15}(contact|did you receive)/i

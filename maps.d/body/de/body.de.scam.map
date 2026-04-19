@@ -228,6 +228,8 @@
 
 # B
 # ------------------------------------------------------------------------------
+/begünstigten.{1,10}kontaktieren sie mich/iu
+
 /bist du tot oder (lebst du|lebendig)/i
 
 /(blanko|leere).{1,10}bank.?karte/i
@@ -350,6 +352,7 @@
 # ------------------------------------------------------------------------------
 /sie als einen.{1,15}begünstigten ausgewählt/iu
 /sie.{1,15}einer nicht beanspruchten leistung/i
+/sie sind einer der.{1,15}begünstigten/iu
 /sie wurden für diese besondere gelegenheit ausgewählt/iu
 /sind sie tot oder noch am leben/i
 
