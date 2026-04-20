@@ -84,6 +84,7 @@
 # C
 # ------------------------------------------------------------------------------
 /certified.{1,10}(company|factory|supplier).{1,10}manufactures/i
+/certified.{1,10}electronic.{1,20}(components|supplier)/i
 
 /china.{1,10}our (company|factory).{1,15}(provide|supply)/i
 /china.{1,10}thank you for taking the time/i

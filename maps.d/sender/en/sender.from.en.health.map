@@ -341,6 +341,7 @@
 # ------------------------------------------------------------------------------
 /(bad|big|enhanced|poor|weak).{0,10}(bladder|eyes|memory|veggies)/i
 /bad.{0,10}breath/i
+/bad.{0,10}posture/i
 
 /back.{0,10}(aches?|fixer|health|leg|neck|pain|stretch)/i
 /back.{0,10}(carte|cure)/i
@@ -1037,7 +1038,7 @@
 /rare.{0,10}hormone/i
 
 /real.{0,10}(cause|result)/i
-
+/recovery.{0,10}(plan|research|secret|solution)/i
 /red.{0,10}(berry|elixir|juice|meat|water)/i
 /regain your/i
 /regenerate.{0,10}eyes?/i

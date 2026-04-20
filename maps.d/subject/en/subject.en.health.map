@@ -820,7 +820,7 @@
 /ritual revealed/i
 
 /rock.?(hard|solid) (erections?|in just|stiffness)/i
-/routine.{1,10}no exercise/i
+/routine.{1,10}(for joint|no exercise)/i
 /Rotten.{1,10}Nails/i
 
 # S
@@ -997,6 +997,7 @@
 /the.{1,10}minute morning/i
 /the.{1,10}secret ingredient/i
 /the.{1,10}secret many/i
+/the.{1,15}sleep ritual/i
 /the.{1,10}thing killing your/i
 /the.{1,10}truth about/i
 
@@ -1155,6 +1156,8 @@
 /wrinkle.{1,10}(fast|free|hormone|instantly|skin)/i
 
 /what.{1,10}(causes|really).{1,10}diabetes/i
+
+/why.{1,10}bloating/i
 /why.{1,10}climax(ing)?/i
 /why some.{1,10}fruits/i
 /why your.{1,10}joints/i

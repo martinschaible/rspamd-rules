@@ -351,6 +351,7 @@
 
 /handle jetzt.{1,10}deine?.{1,10}(lieferung|paket)/i
 /handlung erforderlich/i
+/^handlungsbedarf erforderlich$/i
 
 /handlungsbedarf.{1,15}abgabe/i
 /handlungsbedarf.{1,10}aktualisierung (ihrer|ihres).{1,15}(banking|online)/i
