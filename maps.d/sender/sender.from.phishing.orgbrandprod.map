@@ -413,7 +413,8 @@
 /cpanel.{5,15}\.(ch|de)/i
 /cpanel on/i
 
-/css.{0,10}(info|kundeninformation|online)/i
+/css.{0,10}(kundeninformation|kundenservice)/i
+/css.{0,10}(info|online)/i
 
 /cvs.{0,10}health.?support/i
 /cvs.{0,10}team/i
@@ -637,6 +638,9 @@
 /info.{0,10}klarna/i
 
 /kleinanzeigen.{0,10}team/i
+
+# Shampoo
+/klorane/i
 
 /kunden.?dm/i
 /kundenservice.{0,10}telecom/i

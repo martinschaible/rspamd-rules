@@ -343,7 +343,8 @@
 /bad.{0,10}breath/i
 /bad.{0,10}posture/i
 
-/back.{0,10}(aches?|fixer|health|leg|neck|pain|stretch)/i
+/back.{0,10}(aches?|fixer|health|leg|neck|pain)/i
+/back.{0,10}(stretch|support)/i
 /back.{0,10}(carte|cure)/i
 
 /bacon.{0,10}eggs/i
@@ -1298,7 +1299,8 @@
 /wax.{0,10}free/i
 
 /weird.{0,10}sound/i
-/wellness.{0,10}(alert|archive|bulletin|brief|files?|insider|insights|living|news|report|watch|weekly)/i
+/wellness.{0,10}(alert|archive|bulletin|brief|files?|insider|insights|living|news|watch|weekly)/i
+/wellness.{0,10}(report|research)/i
 /wellness.{0,10}(daily|dairy|discovery)/i
 
 /white.{0,10}(carb|smile)/i
