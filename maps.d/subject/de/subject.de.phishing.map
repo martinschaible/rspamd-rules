@@ -215,7 +215,9 @@
 
 /ihrer letzten handelsaktivität erforderlich/iu
 
-/informationen zu ihrem steuerpostfach/i
+/information(en)?.{1,10}zu ihrem.{1,10}steuerpostfach/i
+/information(en)?.{1,10}zur.{1,10}turnusgemäßen/iu
+
 /interface aktualisiert werden/i
 
 # J
@@ -225,6 +227,8 @@
 
 # K
 # ------------------------------------------------------------------------------
+/kundenbeziehung.{1,10}frist/i
+
 /kundendaten.{1,10}benötigen eine aktualisierung/iu
 /kundendaten.{1,10}sind (abgelaufen|veraltet)/i
 

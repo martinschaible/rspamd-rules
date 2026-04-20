@@ -210,8 +210,9 @@
 
 /price\.\?/i
 /price\.!!/i
-/price list\.\?/i
-/price list.?\?\?/i
+/price.?list\.\?/i
+/price.?list\.\./i
+/price.?list.?\?\?/i
 
 /projects.?\.\./i
 

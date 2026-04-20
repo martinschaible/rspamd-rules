@@ -35,6 +35,8 @@
 
 # E
 # ------------------------------------------------------------------------------
+/(e?.?mail|sie zu kontaktieren).{1,10}mein name ist/i
+
 /entschuldige mich für dieses eindringen/iu
 
 /entschuldigen sie.{1,10}art der kontaktaufnahme/i
@@ -51,7 +53,7 @@
 /geschatzter kunde/i
 /gespendet.{1,10}mein name ist/i
 
-/glückwunsch.{1,15}mein name ist/i
+/glückwunsch.{1,20}mein name ist/i
 
 /gott segne sie.{1,10}(frau|herr)/i
 
@@ -71,7 +73,9 @@
 
 # Title, Occupation
 /ich bin.{1,5}(barrister|captain|general|hauptmann|mutter|oberst)/i
-/ich bin.{5,45}deutscher.{1,10}wirtschaftsmagnat/i
+/ich bin.{5,45}(deutscher|schweizer).{1,10}wirtschaftsmagnat/iu
+/ich bin.{5,30}(deutscher|schweizer).{1,10}staatsbürger.{1,10}wohne in/iu
+
 /ich bin.{5,45}(investor|philanthrop|unternehmer|wirtschaftsmagnat)(in)?/i
 /ich bin.{5,45}eine?.{1,15}(geschäftsfrau|geschäftsmann)/i
 /ich bin.{5,45}content strategy manager(in)?/i
@@ -103,7 +107,11 @@
 
 /ich bin hier.{1,10}um ihnen/i
 /ich bin mutter.{5,25}frau/i
+
+/ich brauche.{1,10}hilfe.{1,10}mein name ist/i
+
 /ich habe einen grund.{1,10}sie zu kontaktieren/i
+/ich habe weniger als.{1,10}wochen zu leben/i
 
 # :-)
 /ich bin.{1,10}elon musk/i
@@ -145,7 +153,14 @@
 /mein name ist.{1,10}(frau|fräulein|herr)/iu
 /mein name ist.{1,10}(dr\.|mrs?|ms|leutnant|sir)/i
 
+/mein name ist.{5,25}aus.{1,10}(indien|vereinigten staaten)/i
+
+/mein name ist.{5,25}(die|eine) witwe/i
+/mein name ist.{5,25}deutscher? herkunft/i
+
+/mein name ist.{5,30}ein.{1,15}philanthrop/i
 /mein name ist.{5,35}einem renommierten/i
+
 /mein name ist.{5,35}geschäftsführerin der/iu
 #/mein name ist.{5,25}geboren am/i
 /mein name ist.{5,40}gründer von/iu
@@ -156,15 +171,26 @@
 /mein name ist.{5,35}(ich bin.{1,20})?(geschäftsmann|gewinner(in)?)/i
 /mein name ist.{5,35}(ich bin.{1,20})?(manager|professor|rechtsanwalt)/i
 
+/mein name ist.{5,30}ich arbeite (als|für)/i
+
 /mein name ist.{5,40}ich bin.{1,10}amerikanische/i
 /mein name ist.{5,40}ich bin.{1,10}jahre alt.{1,10}waise/i
+
+/mein name ist.{5,25}ich bin eine?.{1,10}deutsch(er)?/i
+/mein name ist.{5,30}ich bin eine?.{1,15}finanzberater(in)?/i
 /mein name ist.{5,40}ich bin eine.{1,15}(frau|witwe)/i
+
+/mein name ist.{5,25}ich bin (das einzige kind|eine witwe)/i
+/mein name ist.{5,25}ich bin die persönliche/iu
 /mein name ist.{5,35}ich bin offen/i
 
 /mein name ist.{5,40}ich bitte sie um ihre unterstützung/iu
 
-/mein name ist {5,35}ich habe deine adresse/i
-/mein name ist {5,35}ich habe über.{1,10}jahre erfahrung/i
+
+/mein name ist {5,35}ich habe.{1,10}deine adresse/i
+/mein name ist.{5,25}ich habe.{1,15}krebs/i
+/mein name ist.{5,25}ich habe.{1,10}mich darauf spezialisiert/i
+/mein name ist {5,35}ich habe.{1,10}über.{1,10}jahre erfahrung/i
 
 /mein name ist.{5,25}ich.{1,15}eine dringende/i
 /mein name ist.{5,35}ich lebe.{1,10}in/i
@@ -183,6 +209,7 @@
 /mein name ist.{5,35}ich vertrete/i
 
 /mein name ist.{5,35}von.{5,25}(co\.|holdings|ltd|trading)/i
+/mein name ist.{5,25}von.{1,25}(agentur|marketing)/i
 /mein name ist.{5,35}von.{1,20}ich melde mich bei ihnen.{1,10}weil/i
 
 /mein vollständiger name ist/iu
@@ -225,6 +252,7 @@
 /(dem|vom) schreibtisch (des|von) (herr|vize)/i
 
 /von unserem schreibtisch.{1,10}ref/i
+/von dr\..{5,30}ich bin dr\./i
 
 /vorzustellen.{1,10}mein name ist/i
 
@@ -237,6 +265,7 @@
 /wie geht es (dir|ihnen).{1,10}mein name ist/i
 
 /wie geht es ihnen.{1,10}ich warte noch auf ihre antwort/i
+/wie geht es ihnen.{1,10}mein guter freund/i
 
 /wie fühlst du dich.{1,10}mein name ist/iu
 
