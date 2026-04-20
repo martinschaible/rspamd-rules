@@ -75,7 +75,7 @@
 
 # B
 # ------------------------------------------------------------------------------
-/(bag|luggage).{1,10}(manufacturer|supplier)/i
+/(bag|luggage).{1,10}(factory|manufacturer|supplier)/i
 /(bag|luggage).{1,10}turn.?key/i
 
 /(batteries|rechargeable).{1,15}lithium prices/i
@@ -122,7 +122,6 @@
 /components?.{1,10}distributor.{1,10}rfq/i
 /components?.{1,10}rfqs? dealing/i
 /components?.{1,10}inquiry welcome/i
-
 
 /connectors?.{1,10}brands?.{1,10}rfq/i
 /contact.{1,10}pcba?.{1,10}supplier/i
