@@ -79,6 +79,8 @@
 /guten (abend|morgen|tag).{1,10}ich habe ihren namen/i
 
 /guten (abend|morgen|tag).{1,10}ihr.{1,15}abonnement zum preis/i
+/guten (abend|morgen|tag).{1,10}ihr.{1,15}(konto|profil) wurde aufgrund/i
+
 /guten (abend|morgen|tag).{1,10}ihre?.{1,15}befindet sich/i
 /guten (abend|morgen|tag).{1,10}ihre?.{1,15}(paket|sendung)/i
 /guten (abend|morgen|tag).{1,10}ihre? (paket|sendung) mit der/i
@@ -211,6 +213,7 @@
 
 # O
 # ------------------------------------------------------------------------------
+/online.?banking.{1,10}guten (abend|morgen|tag)/i
 
 # P
 # ------------------------------------------------------------------------------
