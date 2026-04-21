@@ -131,7 +131,8 @@
 
 /you.{1,10}are interested.{1,10}donation/i
 
-/you.{1,10}have been.{1,10}selected (by|for).{1,10}(donation|financing|foundation|grant)/i
+/you.{1,10}have been.{1,10}selected as.{1,10}recipient /i
+/you.{1,10}have been.{1,10}selected.{1,15}(by|for|of a).{1,10}(donation|financing|foundation|grant)/i
 /you.{1,10}have been.{1,50}with.{1,10}(donation|financing|foundation|grant)/i
 
 /your.{1,10}e?.?mail.{1,20}(has been|was).{1,15}(choo?sen|drawn|picked|selected).{1,10}for.{1,10}(donation|financing|grant)/i
