@@ -105,6 +105,7 @@
 
 /bestätigen sie.{1,10}ihre.{1,15}prämie/i
 /bestätigen sie.{1,10}innerhalb der nächsten.{1,15}ihre.{1,15}adresse/i
+/bestätigen sie.{1,10}nur noch ihre angaben/io
 
 # C
 # ------------------------------------------------------------------------------
@@ -143,6 +144,8 @@
 # ------------------------------------------------------------------------------
 /gelegenheit anbieten.{1,10}erhalten sie eine/i
 /geringe gebühr von (chf|euro).{1,10}für den versand/iu
+
+/gewinnen sie.{1,10}\d{2,4}.{1,15}guthaben/i
 
 /gratis.{1,10}genuss.?box/i
 

@@ -128,6 +128,7 @@
 /(konto|profil).{1,15}(wird|wurde) aufgrund.{1,10}(fehlers|sicherheitsüberprüfung)/iu
 /(konto|profil).{1,15}innerhalb der nächsten.{1,10}Stunden eingeschränkt/iu
 
+/(konto|profil).{1,15}wurde festgestellt.{1,15}hinterlegte zahlungsmethode/i
 /(konto|profil).{1,15}wurde vorsorglich gesichert/i
 /(konto|profil).{1,10}wurde zum schutz vorübergehend.{1,10}(ausgesetzt|begrenzt|eingeschränkt|gesperrt)/iu
 /(konto|profil).{1,15}wurden einige funktionen vorübergehend.{1,10}(ausgesetzt|begrenzt|eingeschränkt|gesperrt)/iu

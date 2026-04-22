@@ -316,7 +316,8 @@
 
 /aged.{0,10}spot/i
 #/ageless.{0,10}(beauty|movement|look|project|secrets?|skin|treat)/i
-/aging.{0,10}(fruits?|reversed?|trigger)/i
+/aging.{0,10}(fruits?|reversed?)/i
+/aging.{0,10}(trigger|truth)/i
 
 /aligend.{0,10}intimacy/i
 /alignment.{0,10}(fix|method|trick)/i
@@ -931,7 +932,7 @@
 
 /nature.{0,10}(cure|morphine|opioids?|tea)/i
 
-/neck.{0,10}(sagging|skin)/i
+/neck.{0,10}(aging|sagging|skin)/i
 /nectar.{0,10}fix/i
 
 /nerves?.{0,10}(damage|defense|fix|health|killing|pain|quiz|support|tip)/i

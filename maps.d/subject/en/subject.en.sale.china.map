@@ -185,6 +185,7 @@
 # E
 # ------------------------------------------------------------------------------
 /efficient.{1,15}logistics.{1,10}(business|europe)/i
+/effective.{1,10}electronic.{1,10}components/i
 
 /exclusive freight rates/i
 
@@ -411,6 +412,7 @@
 /(pcba?|printed.?circuits?.?board).{1,20}(assembly|business|cooperation|enquiry|fabrication|factory)/i
 /(pcba?|printed.?circuits?.?board).{1,10}(manufacturer?|manufacturing|needs|provider|service|solutions?)/i
 
+/(pcba?|printed.?circuits?.?board).{1,10}capability overview/i
 /(pcba?|printed.?circuits?.?board).{1,10}co.{1,5}ltd/i
 /(pcba?|printed.?circuits?.?board).{1,10}from (china|shenzhen)/i
 /(pcba?|printed.?circuits?.?board).{1,10}industry.{1,10}sourcing/i

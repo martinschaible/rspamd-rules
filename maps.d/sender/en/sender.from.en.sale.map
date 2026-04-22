@@ -202,6 +202,8 @@
 # ------------------------------------------------------------------------------
 /jet.{0,10}fan/i
 
+/jetzt.{0,10}bestellen/i
+
 # K
 # ------------------------------------------------------------------------------
 /knives?.{0,10}(set|team)/i
@@ -401,7 +403,8 @@
 /well.{0,10}heater/i
 /website.{0,10}seo/i
 
-/wi.?fi.{0,15}(boost(er)?|projector)/i
+/(wi.?fi|wlan).{0,15}(boost(er)?|projector)/i
+/(wi.?fi|wlan).{0,15}upgrade/i
 
 /woodwork(ing)?.{0,10}(plans|tooling)/i
 
