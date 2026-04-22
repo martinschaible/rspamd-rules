@@ -149,7 +149,9 @@
 
 /(rück)?erstattung.{1,10}kann nicht bearbeitet werden/iu
 /(rück)?erstattung.{1,10}läuft bald ab/iu
-/(rück)?erstattung.{1,10}steht zur auszahlung/iu
+
+/(rück)?erstattung.{1,10}steht.{1,10}sie bereit/iu
+/(rück)?erstattung.{1,10}steht.{1,10}zur auszahlung/iu
 
 /(rück)?erstattung.{1,10}von.{1,15}ihre krankenversicherung/i
 /(rück)?erstattung.{1,10}wegen.{1,15}doppelabbuchung/iu

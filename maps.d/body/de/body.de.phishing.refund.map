@@ -26,6 +26,8 @@
 
 /abschluss ihrer rückerstattung/i
 
+/aktuelle.{1,10}gutschrift.{1,10}rückerstattung/iu
+
 # B
 # ------------------------------------------------------------------------------
 
@@ -41,11 +43,14 @@
 
 # F
 # ------------------------------------------------------------------------------
+/fordern sie.{1,10}auszahlung.{1,10}an/i
 
 # G
 # ------------------------------------------------------------------------------
-/gutschrift jetzt abrufen/i
-/gutschrift über chf.{1,15}bestätigen/iu
+/(guthaben|gutschrift).{1,10}(abrufen|claimen)/i
+/(guthaben|gutschrift).{1,10}chf.{1,15}bestätigen/iu
+/(guthaben|gutschrift).{1,10}entstand durch eine zu viel gezahlte/i
+/(guthaben|gutschrift).{1,10}unser kundencenter/iu
 
 # H
 # ------------------------------------------------------------------------------
