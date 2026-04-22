@@ -10,8 +10,9 @@
 # ------------------------------------------------------------------------------
 /(alze?heimer|dementia).{1,10}(alert|brain|sign|test|trigger|warning)/i
 
-/brain.{0,10}(booster|cell|damage|ears|experts?|hack|health|logic)/i
+/brain.{0,10}(booster|cell|damage|ears|experts?|insight|logic)/i
 /brain.{0,10}(fuel|fixer|food|fog)/i
+/brain.{0,10}(hack|health)/i
 /brain.{0,10}(nutrient|power|waves?)/i
 /brain.{0,10}(scan|science|sleep|signal|steroid)/i
 /brain.{0,10}(technique|threat|tonic|trick)/i
@@ -524,7 +525,7 @@
 
 /core.{0,10}(vitality|well?ness)/i
 /correct.{0,10}use/i
-/cortisol.{0,10}level/i
+/cortisol.{0,10}(level|spike)/i
 
 /covid.{0,10}truth/i
 
@@ -851,6 +852,7 @@
 
 /make your own/i
 /male.{0,10}(virility|vitality)/i
+/male.{0,10}trick/i
 
 /med.?journal/i
 /media.{0,10}leak/i
@@ -943,7 +945,7 @@
 /never.{0,10}(eat|forget)/i
 /nerve.{0,10}(damage|do this|ease|pain)/i
 /nerve.{0,10}(regrowth|research|rescue|reset)/i
-/new.{0,10}(energy|findings?|hair|research)/i
+/new.{0,10}(energy|findings?|hair|male|research)/i
 
 /night(time)?.{0,10}(capsule|fix|flush|reset|sip)/i
 

@@ -28,6 +28,7 @@
 
 /(angebot|auszug|inventargegenständen?).{1,25}insolvenzverfahren/i
 /(fahrzeuge|maschinen|vermögenswerte).{1,25}insolvenzverfahren/i
+/laufenden?.{1,25}insolvenzverfahren/i
 
 /gerichtlicher? verwertung/i
 
