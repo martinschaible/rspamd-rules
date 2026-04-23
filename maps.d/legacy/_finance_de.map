@@ -110,8 +110,6 @@
 /wir ihnen ein.{1,10}(darlehen|kredit).{1,10}von.{1,10}\d{2,3}.{0,5}\d{2,3}.{1,10}euro/i
 
 /wir sind bereit.{1,10}ihnen ein(en)?.{1,10}(darlehen|kredit)/i
-/wir sind ein.{1,20}(finanzdienstleister|kreditgeber)/i
-/wir sind ein.{1,10}privater.{1,10}finanz/i
 /wir sind für.{1,15}(arten von krediten|kreditarten)/iu
 
 /zins.?satz von.{1,10}antworten sie mit/i
@@ -158,10 +156,6 @@
 /unser.{1,10}finanzierungsprogramm/i
 
 /vergibt derzeit.{1,10}finanz.?kredite/i
-
-/wir bieten.{1,10}finanzierungen (bereits ab|zwischen)/i
-/wir bieten.{1,10}finanzdienstleistungen/i
-/wir bieten.{1,10}privatfinanzierungen/i
 
 /wir sind.{1,10}aktiv in der.{1,15}finanzierung/i
 /wir sind.{1,10}ein privates (finanz.?unternehmen|kredit)/i
