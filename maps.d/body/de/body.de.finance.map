@@ -198,13 +198,17 @@
 # ------------------------------------------------------------------------------
 /wenn sie an einem.{1,10}(darlehen|kredit)/i
 
+/wir bieten.{1,10}(finanzdienstleistungen|finanzierungen|finanzierungslösungen)/iu
 /wir bieten.{1,10}ihnen alle.{1,10}finanzierungsarten/i
 /wir bieten.{1,10}privatpersonen.{1,10}unternehmen/i
 /wir bieten.{1,25}(schnelle|unbesicherte|unkomplizierte).{1,25}finanzierungen/i
 /wir bieten.{1,25}(kurz|langfristige).{1,25}(darlehen|investitionen)/i
 
 /wir finanzieren.{1,10}(alle projekte|weltweit)/i
-/wir sind.{1,35}ein.{1,20}kredit.?(geber|unternehmen)/i
+
+/wir sind.{1,35}kredit.?(geber|unternehmen)/i
+/wir sind.{1,35}finanzdienstleister/i
+/wir sind.{1,35}privater.{1,10}finanz/i
 
 # X
 # ------------------------------------------------------------------------------
