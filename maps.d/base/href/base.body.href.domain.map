@@ -35,7 +35,8 @@
 /\com\.ar\.[a-z0-9-]{3,30}\.com/i
 
 # Sample: http://010036057337/
-/https?://(www.)?[0-9]{10,20}\//i
+#         http://35466348728.heli-beauty.de
+/https?://[0-9]{10,20}(\/|\.)/i
 
 # Combination of TLDs pretending to be the real domain
 # ------------------------------------------------------------------------------
