@@ -26,12 +26,14 @@
 /beneficial.{1,10}for both of us upon its completion/i
 /beneficial.{1,10}business.{1,10}proposal/i
 
-/(business|proposal|transaction).{1,20}discuss with you/i
-/(business|proposal|transaction).{1,20}discussion.{1,10}you are interested/i
-/(business|proposal|transaction).{1,20}(for|with) you/i
-/(business|proposal|transaction).{1,20}offer that will benefit both/i
-/(business|proposal|transaction).{1,20}may be of interest to you/i
-/(business|proposal|transaction).{1,20}will benefit us both/i
+/(business|deal|proposal|transaction).{1,20}discuss with you/i
+/(business|deal|proposal|transaction).{1,20}discussion.{1,10}you are interested/i
+/(business|deal|proposal|transaction).{1,20}(for|with) you/i
+/(business|deal|proposal|transaction).{1,15}i need a partner/i
+/(business|deal|proposal|transaction).{1,15}i would like to introduce to you/i
+/(business|deal|proposal|transaction).{1,20}offer that will benefit both/i
+/(business|deal|proposal|transaction).{1,20}may be of interest to you/i
+/(business|deal|proposal|transaction).{1,20}will benefit us both/i
 
 # C
 # ------------------------------------------------------------------------------
@@ -39,9 +41,6 @@
 
 # D
 # ------------------------------------------------------------------------------
-/deal.{1,10}discuss with you/i
-/deal.{1,15}i need a partner/i
-
 /(discuss|has a).{1,15}(business|project) proposal/i
 
 # E

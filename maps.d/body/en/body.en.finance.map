@@ -130,12 +130,15 @@
 
 /our.{1,10}business loan offers/i
 /our.{1,15}funding programs/i
+/our.{1,10}investment.{1,10}loan/i
 /our.{1,10}investors.{1,10}are ready to provide/i
 
 /organization.{1,10}(offering|offers?|provides?|providing).{1,10}(financial|funding)/i
 
 # P
 # ------------------------------------------------------------------------------
+/partnership project funding/i
+
 /presently providing.{1,15}(financial|loans)/i
 
 # Q

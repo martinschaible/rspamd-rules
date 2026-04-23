@@ -40,7 +40,8 @@
 /(bewundernswert|deutche|fehlerlos|glänzend|interessant|nützlich|wunderbar|zielstrebige).{1,10}(freund|herr|mann)/i
 /ergeben.{1,10}(freund|herr|mann)/i
 /(hell|heutig).{1,10}(freund|herr|mann)/i
-/(scharfsinnig|sympathisch).{1,10}(freund|herr|mann)/i
+/jetzig? freund/i
+/(scharfsinnig|sittlich|sympathisch).{1,10}(freund|herr|mann)/i
 
 #
 #
@@ -188,7 +189,6 @@
 
 /jetzt im chat/i
 /jetzt verabredung/i
-/(jetzig|sittlich)? freund/i
 
 # K
 # ------------------------------------------------------------------------------

@@ -67,7 +67,8 @@
 
 /cpanel.{0,10}(webhost|webmail)/i
 
-/(data|digital|e.?mail).{0,10}(protection|retention|service|storage)/i
+# digital service
+/(data|e.?mail).{0,10}(protection|retention|service|storage)/i
 
 /digital.{0,10}support/i
 
