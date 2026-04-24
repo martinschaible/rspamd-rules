@@ -103,9 +103,9 @@
 /(belohnung|geschenk|gutschein|gewinn|preis).{1,10}wurde noch nicht/i
 
 
-/bestätigen sie.{1,10}ihre.{1,15}prämie/i
-/bestätigen sie.{1,10}innerhalb der nächsten.{1,15}ihre.{1,15}adresse/i
-/bestätigen sie.{1,10}nur noch ihre angaben/io
+/bestätigen sie.{1,10}ihre.{1,15}prämie/iu
+/bestätigen sie.{1,10}innerhalb der nächsten.{1,15}ihre.{1,15}adresse/iu
+/bestätigen sie.{1,10}nur noch ihre angaben/iu
 
 # C
 # ------------------------------------------------------------------------------
