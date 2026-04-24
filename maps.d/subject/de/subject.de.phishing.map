@@ -217,6 +217,7 @@
 /ihre parkgebühr ist noch offen/iu
 /ihre überprüfung wird empfohlen/iu
 
+/ihrer app bis \d{1,2}/i
 /ihrer letzten handelsaktivität erforderlich/iu
 
 /information(en)?.{1,10}zu ihrem.{1,10}steuerpostfach/i
@@ -377,7 +378,7 @@
 /verlieren sie nicht den zugriff auf/i
 
 /vermeiden sie dienstunterbrechungen/i
-/verpflichtende aktivierung/i
+/verpflichtende (aktivierung|aktualisierung)/i
 
 /vignette.{1,10}jetzt (klären|klaren)/i
 

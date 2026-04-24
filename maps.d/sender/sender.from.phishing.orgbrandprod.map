@@ -471,7 +471,8 @@
 /dkb.?ag/i
 /dkb\.de/i
 /dkb.{0,5}communications/i
-/dkb.{0,5}(kundenbetreuung|kundenservice|team)/i
+/dkb.{0,5}(kundenbetreuung|kundencenter|kundenservice)/i
+/dkb.{0,5}team/i
 
 /info.{0,10}dkb/i
 
@@ -865,6 +866,8 @@
 /pay pal/i
 /pay-pal/i
 /pay-pai/i
+
+/support.{0,10}(paypal|pypl)/i
 
 /ihr.{0,10}paypal/i
 
