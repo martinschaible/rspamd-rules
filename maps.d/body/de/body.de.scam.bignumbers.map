@@ -51,10 +51,12 @@
 # G
 # ------------------------------------------------------------------------------
 /geschäft.{0,5}(angebot|vorschlag).{1,10}im wert von.{1,15}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£)/iu
-/geschäft.{0,5}(angebot|vorschlag).{1,10}im wert von.{1,15}millionen/iu
+/geschäft.{0,5}(angebot|vorschlag).{1,10}im wert von.{1,15}(millionen|tausend)/iu
 
 # H
 # ------------------------------------------------------------------------------
+/hallo.{1,10}sie haben.{1,15}(millionen|tausend)/i
+
 /hat ihnen.{1,10}\d{2,4}(\.|,)?\d{3,4}.{1,10}gespendet/i
 
 /(glückwunsch|hallo).{1,10}sie haben.{1,10}\d{2,4}(\.|,)?\d{3,4}.{1,10}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£)/i
