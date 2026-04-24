@@ -1192,7 +1192,7 @@
 
 /sugar.{0,10}(balance|control|eraser|fix|free|guilty|hack|traps|trick)/i
 /sugar.{0,10}(reboot|report)/i
-/sugar.{0,10}(shock|solution|spike|surprise)/i
+/sugar.{0,10}(shock|solution|spike|study|surprise)/i
 
 /super.{0,10}(fruits?|water)/i
 /supplement.{0,10}(alert|choice|insider|mistake|review|truth)/i
@@ -1337,6 +1337,7 @@
 /your.{1,10}(ears?|energy|eyes|eyesight)/i
 /your.{1,10}(health|heart|hips|intimacy|knees)/i
 /your.{1,10}(live.?span|liver)/i
+/your.{1,10}nails?/i
 /your.{1,10}(pantry|pee|pelvic|poop|posture)/i
 /your.{1,10}recipes/i
 /your.{1,10}(skin|smile|stomach)/i

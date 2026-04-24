@@ -107,8 +107,9 @@
 /charger.{1,10}solar products?/i
 /chicken products.{1,10}sale/i
 /chips.{1,10}competitive prices/i
-/choose us.{1,10}(pcba?|printed.?circuits?.?board)/i
 
+/choose us.{1,10}(pcba?|printed.?circuits?.?board)/i
+/choosing.{1,10}backup supplier/i
 
 /clothing.{1,15}manufacturer/i
 /cnc.{1,10}precision (in|parts)/i
@@ -136,6 +137,7 @@
 /custom.{1,10}metal (components|parts)/i
 /custom.{1,10}(bags?|cap|machined parts|metal stamping)/i
 /(custom|excellent).{1,10}(pcba?|printed.circuits?.board)/i
+/custom.{1,10}keychain.{1,15}(brand|solutions)/i
 /custom.{1,10}manufacturing.{1,10}prototype/i
 
 /custom.{1,15}products? manufacturing/i
@@ -488,6 +490,8 @@
 
 # R
 # ------------------------------------------------------------------------------
+/raw material.{1,10}steel/i
+
 /reduce.{1,10}printing costs/i
 /regarding.{1,15}(pcba?|printed.?circuits?.?board)/i
 

@@ -216,7 +216,10 @@
 /cavity.{0,10}cure/i
 
 /calorie burn with/i
+
+/(change|for).{1,10}better balance/i
 /change this.{1,10}habit/i
+
 /chew this to fix/i
 /cholesterol danger/i
 /celebrity.?secret/i
@@ -681,7 +684,7 @@
 
 /needs this drink/i
 /nerve.?pain.{1,10}(getting|trigger)/i
-/nerve.?pain.{1,10}(strikes|this may|with this|wont)/i
+/nerve.?pain.{1,10}(interrupting|strikes|this may|with this|wont)/i
 /nerve.{1,10}(comfort|reset)/i
 
 /never eat these/i
@@ -774,6 +777,8 @@
 /really hiding in your/i
 
 /recipe.{1,10}that might change/i
+/recipe.{1,10}helping.{1,15}(at home|thousands)/i
+
 /reclaim.{1,10}perfect vision/i
 /reclaim.{1,10}your.{1,10}(strength|vitality)/i
 
