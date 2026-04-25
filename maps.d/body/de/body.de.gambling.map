@@ -9,6 +9,7 @@
 # Topics
 # ==============================================================================
 
+
 #
 #
 #
@@ -30,6 +31,9 @@
 
 # C
 # ------------------------------------------------------------------------------
+/casino.{1,10}(von zu hause aus|zu hause wartet)/i
+/casino.{1,10}spielen sie kostenlos/i
+
 /(casino|willkommens).?bonus.{1,15}(bonus|bis zu|cashback|echte)/i
 
 # D
@@ -37,11 +41,15 @@
 
 # E
 # ------------------------------------------------------------------------------
+/erhalte.{1,10}freispiele/i
+/erhalten einen kostenlosen bonus/i
+
 /extreme.{1,10}frei.?spiele/i
 
 # F
 # ------------------------------------------------------------------------------
-/freispiele.{1,15}(registrierung|willkommensbonus)/i
+/freispiele.{1,15}(willkommensangebot|willkommensbonus)/i
+/freispiele.{1,15}(anmeldung|registrierung)/i
 
 # G
 # ------------------------------------------------------------------------------
@@ -61,6 +69,7 @@
 
 # K
 # ------------------------------------------------------------------------------
+/kostenlos(en)?.{1,10}online.?jackpot/i
 
 # L
 # ------------------------------------------------------------------------------
@@ -85,12 +94,18 @@
 
 # S
 # ------------------------------------------------------------------------------
+/sensationeller.{1,10}bonus.{1,10}wartet dich/i
+
 /(fantastischen|riesiger).{1,10}(casino|willkommens).?bonus/i
 /(slots|spins).{1,10}(casino|willkommens).?bonus/i
+
+/sommer.{1,10}casino.{1,10}erlebnis/i
 
 # T
 # ------------------------------------------------------------------------------
 /tausende.{1,10}(slots|spins)/i
+
+/top.{1,10}online.?spiele anbieten/i
 
 # U
 # ------------------------------------------------------------------------------
@@ -100,7 +115,9 @@
 
 # W
 # ------------------------------------------------------------------------------
-/willkommen bei.{1,15}casino/i
+/willkommen.{1,10}bei.{1,15}casino/i
+/willkommen.{1,10}online.?casino/i
+/willkommensbonus.{1,15}casino/i
 
 # X
 # ------------------------------------------------------------------------------
