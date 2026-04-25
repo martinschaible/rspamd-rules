@@ -18,33 +18,50 @@
 
 # A
 # ------------------------------------------------------------------------------
+/(adult|casual|german|sex).{1,10}dating.?(club|community|portal|site)/i
+
+/(attractive|find|meet).{0,10}(russian|ukrainian).{0,10}(female|girl|lady|miss|woman)/i
 
 # B
 # ------------------------------------------------------------------------------
 
 # C
 # ------------------------------------------------------------------------------
+/cam.?to.?cam/i
+/chat.{0,10}(flirt|free)/i
 
 # D
 # ------------------------------------------------------------------------------
+/(dating|web).?site.{1,15}(for free|register|this link)/i
+/(dating|web).?site.{1,10}came across you/i
 
 # E
 # ------------------------------------------------------------------------------
 
 # F
 # ------------------------------------------------------------------------------
+/(female|girl|lady|miss|woman|women).{1,10}looking for love/i
+/(female|girl|lady|miss|woman|women).{1,10}from kazakhstan/i
+/(female|girl|lady|miss|woman|women).{1,10}want sex/i
+/(female|girl|lady|miss|woman|women).{1,10}waiting to meet/i
+
 /(find|looking|seeking).{1,10}(charming|good|hot|perfectible|supreme|unstained).{1,10}(buddy|dude|locals|male|man|mister)/i
 /(find|looking|seeking).{1,10}serious romantic/i
 
+/free.{1,10}adult.?dating/i
+
+/fuck me today/i
+
 # G
 # ------------------------------------------------------------------------------
+/(german|online).{1,10}casual.?(club|dating)/i
 
 # H
 # ------------------------------------------------------------------------------
 
 # I
 # ------------------------------------------------------------------------------
-/i.?a?m{1,10}(alone|breezy|curvy|single|solitary|unmarried).{1,15}(female|girl|lady|miss|woman)/i
+/i.?a?m.{1,10}(alone|breezy|curvy|single|solitary|unmarried).{1,15}(female|girl|lady|miss|woman|women)/i
 
 # J
 # ------------------------------------------------------------------------------
@@ -57,6 +74,9 @@
 
 # M
 # ------------------------------------------------------------------------------
+/meet for sex/i
+/milf.{0,10}(date|match)/i
+
 /mystic.?bliss/i
 
 # N
@@ -70,7 +90,10 @@
 # ------------------------------------------------------------------------------
 /personally connect.{1,10}my name is/i
 
-/profile here.{1,10}my photos are/i
+/(photos?|pictures?).{1,10}attached.{1,10}(reply me to|response me at)/i
+/(photos?|pictures?).{1,10}(my|of).{1,10}vagina/i
+
+/profile here.{1,10}my.{1,10}(photos?|pictures?) are/i
 
 # Q
 # ------------------------------------------------------------------------------
@@ -78,13 +101,26 @@
 # R
 # ------------------------------------------------------------------------------
 /real people.{1,10}real dates/i
+/reply.{1,10}you my.{1,10}(photos?|pictures?)/i
+
 /romance.{1,10}ukraine/i
+
+/(russian|ukrainian).{0,10}(beauties|beauty|bride)/i
 
 # S
 # ------------------------------------------------------------------------------
+/(secret|single).{0,10}milf/i
+/see her.{1,10}profile/i
+/sex with you/i
+
 /sexy.{1,10}addict/i
+/sexy?.{1,10}(cam.?show|dating|date)/i
+/(sexy?|webcam).?chat/i
 
 /singles are waiting/i
+
+/social.{1,10}sex.?(club|community|portal|site)/i
+
 /start chatting in minutes/i
 
 # T
@@ -92,16 +128,21 @@
 
 # U
 # ------------------------------------------------------------------------------
-/ukrainian.{0,10}bride/i
 
 # V
 # ------------------------------------------------------------------------------
 
 # W
 # ------------------------------------------------------------------------------
+/want sex with you/i
 
 # X
 # ------------------------------------------------------------------------------
+/you my.{1,10}(photos?|pictures?).{1,10}attach/i
+/you need.{1,10}dating.?site/i
+/you with.{1,10}link to my profile/i
+
+/your.{1,10}(photos?|pictures?).{1,10}in this link/i
 
 # Y
 # ------------------------------------------------------------------------------
