@@ -41,6 +41,7 @@ It's necessary to split existing map files into smaller ones. Sometimes, when an
 | Date     | File                                       | Reason                        |
 | -------- | -------------------------------------------| ----------------------------- |
 | 14.04.26 | multimap.body.de.conf                      | body.de/en.ucase.map added    |
+| 25.04.26 | multimap.conf                              | Legacy map files removed      |
 
 ## Content
 :point_right: All map files of the *first version* are stored in the folder `/etc/rspamd/maps.d/legacy`.<br>
