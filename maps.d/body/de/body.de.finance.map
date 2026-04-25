@@ -44,7 +44,6 @@
 /(benötigen|brauchen) sie.{1,10}sie.{1,10}geld/iu
 /(benötigen|brauchen) sie.{1,15}zusätzliches geld/iu
 
-
 /bieten? (ich|wir).{1,20}(kurz|mittel|langfristige).{1,20}(darlehen|kredite?)/iu
 
 /bietet.{1,10}einzelpersonen.{1,10}unternehmen.{1,10}finanzielle/i
@@ -105,6 +104,7 @@
 /(ich|wir) (biete|gewähre|vergebe)n?.{1,15}(alle arten von)?.{1,15}(darlehen|kredit)/iu
 /(ich|wir) (biete|gewähre|vergebe)n?.{1,15}(darlehensbeträge|finanzlösungen|kreditlösungen)/iu
 /(ich|wir) (biete|gewähre|vergebe)n?.{1,15}investitionsfinanzierungen/i
+/(ich|wir) (biete|gewähre|vergebe)n?.{1,20}finanzielle hilfe/iu
 
 /ihnen.{1,20}beratung.{1,15}(geschäfts|privat).{1,15}krediten/iu
 /ihnen.{1,10}den benötigten kredit/iu

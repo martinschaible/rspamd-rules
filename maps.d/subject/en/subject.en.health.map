@@ -475,6 +475,7 @@
 # ------------------------------------------------------------------------------
 /get.{1,15}thick hair/i
 /get.{1,10}hard on demand/i
+/get.{1,10}healthy blood/i
 /get.{1,10}tinnitus/i
 /get hard.{1,10}stay hard/i
 
@@ -784,6 +785,7 @@
 
 /recover your.{1,10}memory/i
 
+/reduces?.{1,10}cardiac risk/i
 /reduces?.{1,10}heart attack/i
 /reduces?.{1,10}(dizziness|inflammation|joint.?pain|prostate|snoring)/i
 
@@ -828,6 +830,8 @@
 /ritual revealed/i
 
 /rock.?(hard|solid) (erections?|in just|stiffness)/i
+
+/routine.{1,10}clear(er)? sight/i
 /routine.{1,10}(for joint|no exercise)/i
 /rotten.{1,10}nails/i
 
@@ -1045,7 +1049,8 @@
 /this.{1,15}reset hack/i
 
 /this.{1,10}second twist/i
-/this.{1,10}simple.{1,15}(mixture|pill|routine|stretch|vitamin)/i
+/this.{1,10}simple.{1,15}(mixture|pill|routine|vitamin)/i
+/this.{1,10}simple.{1,15}(snack|stretch|trick)/i
 /this.{1,10}speeds up memory/i
 /this.{1,10}stops.{1,10}diabetes/i
 /this.{1,10}stops.{1,15}in seconds/i

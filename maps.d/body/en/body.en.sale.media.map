@@ -45,7 +45,8 @@
 
 # C
 # ------------------------------------------------------------------------------
-/came across your instagram/i
+/came across.{1,10}your instagram/i
+/came across.{1,20}\.(ch|com|de|org).{1,10}today.{1,10}looks good/i
 
 /complete.{1,10}e?.?mail.?marketing.{1,10}for you/i
 /comprehensive.{1,10}contact.{1,10}company.{1,10}data/i

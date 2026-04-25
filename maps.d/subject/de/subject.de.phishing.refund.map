@@ -155,7 +155,7 @@
 
 /(rück)?erstattung.{1,10}von.{1,15}ihre krankenversicherung/i
 /(rück)?erstattung.{1,10}wegen.{1,15}doppelabbuchung/iu
-/(rück)?erstattung.{1,10}wurde (angenommen|genehmigt)/i
+/(rück)?erstattung.{1,10}wurde (angenommen|bestätigt|genehmigt)/iu
 /(rück)?erstattung.{1,10}zur verfügung/iu
 
 /(rück)?kerstattung.{1,5}id:\d/i
