@@ -45,6 +45,9 @@
 # ------------------------------------------------------------------------------
 /mein.{1,10}(liebevolle|munter).{1,10}(freund|herr|mann)/i
 
+/(aufrichtig|deutche|wunderbar|zielstrebige).{1,10}(freund|herr|mann)/i
+/(gegenwärtig|glänzend).{1,10}(freund|herr|mann)/i
+
 #
 #
 #
@@ -62,8 +65,7 @@
 /alles ist anonym.{1,10}diskret/i
 /auf.{1,10}dating.?website/i
 
-/(aufrichtig|deutche|wunderbar|zielstrebige).{1,10}(freund|herr|mann)/i
-/(gegenwärtig|glänzend).{1,10}(freund|herr|mann)/i
+/arsch eindringen/i
 
 /authentische.{1,10}respektvolle mitglieder/i
 
@@ -76,21 +78,54 @@
 
 /bereit für ein.{1,10}date/iu
 
+/besprechen.{1,10}im chat/i
+/beste online.?dating/i
+
 /besser kennenlernen möchtest/iu
 /betrachte ihr.{1,10}profil/i
+
+/bild von mir mitgeschickt/i
+/(bilder|fotos?).{1,10}live ansehen/i
+/(bilder|fotos?) von.{5,25}sind live/i
 
 /bin.{1,10}(auf|über) dein.{1,10}profil/iu
 /bin.{1,10}(gerade|kürzlich|zufällig) (auf|über).{1,10}profil/iu
 
 /blick auf (dein|ihr).{1,10}profil/i
 
+/(brüste|titten).{1,10}spielen/iu
+
 # C
 # ------------------------------------------------------------------------------
-/chatten hast.{1,10}schreibe?/i
+/casual.?club.{1,10}kostenlos/i
+
+/chat auf der.{1,10}(dating.?)?web.?site/i
+/chat ist.{1,10}kostenlos/i
+
+/chats? mit.{5,25}starten/i
+/chats? mit geilen/i
+
+/chatten.{1,10}(dating|treffen)/i
+/chatten.{1,10}hast.{1,10}schreibe?/i
+
+/club.{1,10}singles/i
+
+/(community|website).{1,20}(bekanntschaften|chatten|echte kontakte)/i
 
 # D
 # ------------------------------------------------------------------------------
-/dating.?seiten?/i
+/da sind.{1,10}(bilder|fotos) von mir/i
+
+/date.{1,10}(treffen|vereinbaren)/i
+
+/(dating|hookup).{0,10}(seite|site).{1,10}für (alle|erwachsene)/iu
+/(dating|hookup).{0,10}(seite|site).{1,10}ist dein/i
+/(dating|hookup).{0,10}(seite|site).{1,10}profil/i
+/(dating|hookup).{0,10}(seite|site).{1,10}(anschauen|bei mir|fortzusetzen|kommunizieren|kostenlose?|treffen)/iu
+/(dating|hookup).{0,10}(seite|site).{1,20}registrierung/i
+
+/(dating|online).{0,15}apps.{1,10}singles/i
+/(dating|online).{1,10}(in deiner stadt|singles treffen)/i
 
 /dein.{1,10}(penis|schwanz)/i
 /dein.{1,10}profil hat meine/i
@@ -102,11 +137,17 @@
 /dich gerne.{1,10}kennen(zu)?lernen/i
 
 /direkter zugriff auf.{1,10}profile/i
+
+/diskrete?.{1,10}jetzt anmelden/i
 /diskrete?.{1,10}sichere unterhaltungen/i
 
 /du eine frau suchst/i
+/du hast.{1,10}neue (bilder|fotos) von.{5,25}erhalten/i
 /du mehr sehen.{1,10}hier der link/i
 /du siehst.{1,15}interessant aus/i
+
+/(du|sie) mit.{1,10}flirten/i
+
 
 # E
 # ------------------------------------------------------------------------------
@@ -122,17 +163,26 @@
 
 # F
 # ------------------------------------------------------------------------------
-/finde mich auf der.{1,15}(web)?site/i
+/finde(st)? mich.{1,10}auf der.{1,15}(web)?site/i
+/finde(st)? mich.{1,10}mit dem.{1,15}namen/i
+
+/finden sie mich nach.{1,10}profil/i
+
+/flirt.{1,10}kostenlos/i
 
 /fotze|muschi|möse|pussy.{1,10}(leckst|lecken)/iu
 
-/frau(en)? (aus|in) deiner.{1,10}(nähe|region|umgebung) hat dein.{1,10}profil/iu
-/frau(en)? (aus|in) deiner.{1,10}(nähe|region|umgebung) hat dich bemerkt/iu
-/frau(en)? (aus|in) deiner.{1,10}(nähe|region|umgebung) (findet|ist auf) dich/iu
+/frau(en)? (aus|in) deiner.{1,10}(nähe|region|umgebung).{1,10}hat dein.{1,10}profil/iu
+/frau(en)? (aus|in) deiner.{1,10}(nähe|region|umgebung).{1,10}hat dich bemerkt/iu
+/frau(en)? (aus|in) deiner.{1,10}(nähe|region|umgebung).{1,10}(findet|ist auf) dich/iu
 
 /frau(en)? (aus|in) deiner.{1,10}nachbarschaft/i
 
 /frauen.{1,10}schreiben täglich/iu
+
+/freuen unsere.{1,10}(bilder|fotos).{1,10}austauschen/i
+/freund.{1,10}schreibe? mir/i
+/freundschaftsanfrage.{1,15}neue.{1,10}nachricht geschickt/i
 
 /freizügiges (foto|selfie) von mir/iu
 
@@ -144,9 +194,18 @@
 # ------------------------------------------------------------------------------
 /ganz unverbindlich kennenlernen/i
 
-/geile zeit bescheren/i
-/geilen.{1,10}schwanz/i
-/geilen sx/i
+/geile.{1,10}ficksau/i
+/geile.{1,10}zeit bescheren/i
+/geilen.{1,10}(fick|orgasmus|se?x|schwanz)/i
+
+/geile.{1,10}(frauen|milf)/i
+/geile.{1,10}private.{1,10}(bilder|fotos)/i
+/geile.{1,10}(stellungen|sex.?abenteuer)/i
+
+/geiles.{1,10}vorspiel/i
+/(geiles|hart).?ficken/i
+
+/(geilen|groben|kostenlos|ungezwungen|unkompliziert|suche nach|verdorbenen).{1,10}sex/i
 
 # H
 # ------------------------------------------------------------------------------
@@ -166,12 +225,16 @@
 /ich bin (bereit|offen).{1,10}bekanntschaften/i
 /ich bin.{1,10}geil/i
 
+/ich (dir|ihnen) mein.{1,10}(bild|foto) (anhängen|senden)/iu
+
 /ich ficke gerne/i
 /ich füge ein.{1,10}foto bei/iu
 
 /ich habe dich.{1,10}online gesehen/i
+/ich heisse.{5,25}wohne in deiner nachbarschaft/i
 
 /ich liebe.{1,10}oral.?sex/i
+/ich lebe in.{1,20}ich bin.{1,10}jahre alt/i
 
 /ich möchte dich.{1,15}kennenlernen/iu
 /ich möchte einfach.{1,10}jemanden finden/iu
@@ -191,22 +254,32 @@
 
 # J
 # ------------------------------------------------------------------------------
+/jetzt.{1,10}liebe finden/i
+/junge single.?frau/i
 
 # K
 # ------------------------------------------------------------------------------
-/klick einfach weiter/i
+/klicke? einfach weiter/i
+/klicke? hier.{1,10}um ihre.{1,10}profile?/i
 
 /kontaktdaten findest du auf.{1,15}(web)?site/i
 
-/kostenlos reinschauen auf/i
+/kostenlos.{1,10}auf unserer.{1,10}seite/i
+/kostenlos.{1,10}diskret.{1,10}anonym/i
+/kostenlos.{1,10}reinschauen auf/i
+
 /(kostenlos|online).{1,10}fick/i
 /(kostenlos|online).{1,10}sex.?(dating|treff(en)?)/i
 /(kostenlos|online).{1,10}(dating|treff(en)?).{1,10}sex/i
+
+/(kostenlos|mit mir).?chatten/i
 
 /kostenlosen.{1,10}(video?.?)chat/i
 
 # L
 # ------------------------------------------------------------------------------
+/leidenschaftlich.{1,10}se?x/i
+
 /link zu meinem profil/i
 
 /lokalen? chat.?kontakten?/i
@@ -225,18 +298,32 @@
 /mein.{1,10}profil ansehen/i
 
 /meine freunde nennen mich/i
-/meine.{0,10}(fotze|muschi|möse|pussy)/iu
-/meine.{1,10}nippel/i
+
+/meine.{1,10}(bilder|fotos).{1,10}video/i
 /meine.{1,10}ecke ist hier/i
+/meine.{0,10}(fotze|muschi|möse|pussy)/iu
+/meine.{1,10}(großen|perfekten) (brüste|titten)/iu
+/meine.{1,10}nippel/i
 /meine.{1,10}nacktfotos/i
 /meine.{1,10}online.{1,10}wartet auf dich/i
 /meine.{1,10}sexy fotos/i
 
-/meinen.{1,10}arsch/i
+/meine.{1,10}(geilen|intimen|privaten).{1,10}(bilder|fotos)/i
 
+/mein(em)?.{1,10}(anonymen|dating|geheimen|privaten).{1,10}profil/i
+
+/meinen.{1,10}arsch/i
+/meinen?.{1,10}(brüste|titten)/i
+
+/mehr.{1,10}(bilder|fotos).{1,10}kontakt/i
+/möchten.{1,15}(bilder|fotos) mit dir tauschen/iu
+
+/mich.{1,10}nackt zu/i
 /mich.{1,10}noch geiler/i
 /mich.{1,10}kennenlernen möchtet.{1,10}(schreibe?|schreibt) mir/iu
+
 /(mich|profil) auf.{1,10}dating.?(web)?.?site/i
+
 
 # N
 # ------------------------------------------------------------------------------
@@ -247,23 +334,47 @@
 
 # O
 # ------------------------------------------------------------------------------
+/online.?dating.?club/i
+/online.?dating.{1,20}(bezahlen|für alle|warten sie nicht)/iu
 
 # P
 # ------------------------------------------------------------------------------
 /(penis|schwanz).{1,10}brauche/i
 
 /porno zu schauen/i
+/portal.{1,10}deine e?.?mail.{1,10}gegeben/i
 
 /profil nicht entgehen/i
+/profil.{1,10}(auf dich warten|besuchen|ist hier|wartet auf dich)/i
+
+/profil.{1,10}alles.{1,10}ist kostenlos/i
+/profil.{1,10}auf unserer seite erstellt/i
+/profil.{1,10}auf der dating.?seite/i
+
+/profil.{1,10}dating.{0,10}site/i
+/profil.{1,10}erstellen.{1,10}antworten/i
+/profil.{1,10}gehen.{1,10}mir dort schreiben/i
+/profil.{1,15}gibt.{1,10}weitere fotos/i
+/profil.{1,15}ist versaut/i
+/profil.{1,15}mir zu schreiben/i
+/profil.{1,10}schreiben sie mir/i
+/profil.{1,10}sie können mich finden/iu
+/profil.{1,10}warte dort/i
+/profil.{1,10}zuzugreifen.{1,10}mehr zu erfahren/i
 
 # Q
 # ------------------------------------------------------------------------------
 
 # R
 /registriere dich kostenlos auf der (web)?site/i
+# ------------------------------------------------------------------------------
+/richtig.{1,10}geil.{1,10}hart/i
 
 # S
 # ------------------------------------------------------------------------------
+/saugen.{1,10}schwanz/i
+/sauge.{1,10}(deinen|deinem).{1,10}schwanz/i
+
 /schreibe?.{1,10}mir hier/i
 
 /schreibe?.{1,10}mir.{1,10}auf der web.?site/i
@@ -276,6 +387,8 @@
 
 /schreibe?.{1,10}sie mir.{1,10}(bitte hier|profil)/i
 
+/schwanz.{1,10}lutschen/i
+
 /sein intimstes foto/i
 /sende mir eine freundschaftsanfrage/i
 
@@ -286,34 +399,59 @@
 /sexpartner.{1,10}(finden|findest)/i
 
 /sex-online/i
-/sex.?kontakte in ihrem land/i
+
+/sex.?(chat|dating|kontakte?).{1,15}(cams|club|mitglied)/i
+/sex.?(chat|dating|kontakte?).{1,10}in (deinem|ihrem) land/i
 
 /sichere?.{1,10}diskrete?.{1,10}(kommunikation|neues)/i
 
 /sie diskrete kontakte/i
+/sie gerne besser kennen lernen/i
+/sie kommt aus ihrer stadt/i
 /sie möchten chatten/iu
+
 /siehe? dir ihre seite an/i
+
+/single.?frauen in kontakt/i
+/singles.{1,10}(aus deiner gegend|in ihrer nähe)/iu
+/singles.{1,10}sehr geil/i
 
 /stehe auf.{1,10}reife männer/iu
 
-/suche einen mann.{1,10}mit dem ich/i
+/sperma.{1,10}schlucken/i
+
+/suche.{1,10}diskretes?.{1,10}treffen/i
+/suche.{1,10}einen deutschen mann/i
+/suche.{1,10}mann.{1,10}mit dem ich/i
+/suche.{1,10}nach.{1,10}(dates|treffen sind)/i
+/suche.{1,10}nach einem.{1,10}dating/i
+
 /suchen sie diskrete/i
+
+/suchst.{1,10}ein erotisches abenteuer/i
 /suchst.{1,10}schreibe? mir/i
 
 # T
 # ------------------------------------------------------------------------------
 /traust.{1,10}schaue? hier vorbei/i
 
-/treffe.{1,10}junge.{1,10}singles/i
+/treffen?.{1,10}junge.{1,10}singles/i
+/treffen?.{1,10}organisieren mit.{1,10}frauen/i
+/treffen?.{1,10}sie ältere frauen/iu
 
 # U
 # ------------------------------------------------------------------------------
 /unbefriedigte frau/i
 
+/unsere.{1,10}(dating.?app|live.?cams?)/i
+
 # V
 # ------------------------------------------------------------------------------
+/verabredung mit einheimischen/i
+/verbinden.{1,10}kontaktdaten.{1,10}austauschen/i
+
 /verifizierte mitglieder.{1,10}keine.{1,10}fake.?profile/i
-/versauten.{1,10}(fick|sex)/i
+/versauten?.{1,10}(fick|sex|treffen)/i
 
 # W
 # ------------------------------------------------------------------------------
