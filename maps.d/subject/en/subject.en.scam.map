@@ -30,6 +30,12 @@
 # ------------------------------------------------------------------------------
 /hello.{1,10}there is.{1,10}unclaimed/i
 
+# Illuminati
+# ------------------------------------------------------------------------------
+/illuminate your path/i
+/illuminati.{1,10}(brotherhood|membership|recruiter|society)/i
+/(great|the).{1,10}illuminati/i
+
 # People (Temporary)
 # ------------------------------------------------------------------------------
 /maria.?elisabeth schaeffler/i
@@ -183,13 +189,12 @@
 
 # I
 # ------------------------------------------------------------------------------
-/i (need|wish to seek) your.{1,10}assistance/i
-/i seek.{1,10}reliable individual/i
+/i have.{1,10}confidential information/i
+
+/i (need|seek).{1,10}reliable individual/i
+/i (need|seek).{1,10}your.{1,10}assistance/i
 
 /if we can work together/i
-
-/illuminati.{1,10}(membership|recruiter|society)/i
-/(great|the).{1,10}illuminati/i
 
 /important.{1,10}million/i
 /important.{1,10}(beneficiary|business|proposal|proposition)/i

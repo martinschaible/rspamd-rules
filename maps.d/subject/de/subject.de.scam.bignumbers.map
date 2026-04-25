@@ -51,16 +51,18 @@
 /\d{2,4}(\.|,)?\d{3,4}.{0,5}bitcoin/i
 /\d{3,4}(\.|,)?\d{3,4}.{1,10}millionen.{1,10}(dollar|euro?|gbp|usd|€|\$|£)/i
 
-
 # Just big number in words
 # ------------------------------------------------------------------------------
 /millionen.{1,15}tausend.{1,10}(dollar|euro?|gbp|usd|€|\$|£)/i
 
 /(million|mio\b).{1,10}(dollar|euro?|gbp|usd|€|\$|£)!/i
 /(million|mio\b).{1,10}(dollar|euro?|gbp|usd|€|\$|£).{1,10}für sie/iu
-
 # Sample:  Millionen Euro (Eine Million fünfhunderttausend Euro)
 /(million|mio\b).{1,10}(dollar|euro?|gbp|usd|€|\$|£).{1,10}million/i
+
+# Just currency
+# ------------------------------------------------------------------------------
+/(dollar|euro?|gbp|usd|€|\$|£).{1,10}dividendenauszahlung/i
 
 # Generic
 # ==============================================================================
