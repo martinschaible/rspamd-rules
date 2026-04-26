@@ -938,6 +938,7 @@
 /sbb(.?cff.?ffs)?.{0,5}(konto|support|technikzentrum)/i
 /sbb(.?cff.?ffs)?.{0,5}(kunden)?service/i
 /sbb\.cff\.ffs/i
+/sbb c ff ff s/i
 
 /mitteilung.{0,10}sbb/i
 

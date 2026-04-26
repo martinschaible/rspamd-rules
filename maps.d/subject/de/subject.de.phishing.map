@@ -30,6 +30,7 @@
 /(fahrzeuge|maschinen|vermögenswerte).{1,25}insolvenzverfahren/i
 /laufenden?.{1,25}insolvenzverfahren/i
 
+/betriebsgüter verfügbar/iu
 /gerichtlicher? verwertung/i
 
 /neuware.{1,10}sonderkonditionen/i
@@ -388,7 +389,7 @@
 # ------------------------------------------------------------------------------
 /wartet auf ihre eingabe/i
 
-/wichtige überprüfung ihrer.{1,10}einstellungen/iu
+/wichtige überprüfung ihrer.{1,10}(daten|einstellungen)/iu
 /wichtige information.{1,10}datenaktualisierung/i
 
 /wir benötigen.{1,10}(einige|noch).{1,10}informationen von ihnen/iu

@@ -21,7 +21,7 @@
 
 /chinese.{1,10}cold rolled/i
 /chinese.{1,15}shoe factory/i
-/chinese.{1,10}steel manufacturer/i
+/chinese.{1,10}steel.{1,10}(coil|manufacturer)/i
 
 /best prices.{1,10}china/i
 /freight.{1,10}china/i
@@ -630,9 +630,10 @@
 
 /your.{1,10}next.{1,10}(pcba?|printed.?circuits?.?board)/i
 /your.{1,15}plastic.?(mold|mould)/i
+/your.{1,10}printing needs/i
 
 /your.{1,10}trusted (odm|oem).{1,10}partner/i
-/your trustworth.{1,10}pcba?/i
+/your.{1,10}trustworth.{1,10}pcba?/i
 
 # Z
 # ------------------------------------------------------------------------------
