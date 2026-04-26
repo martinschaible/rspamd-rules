@@ -116,8 +116,11 @@
 # W
 # ------------------------------------------------------------------------------
 /we.{1,10}accessed your phone/i
+
 /we.{1,10}have your private.{1,20}out of your device/i
-/we.{1,10}installed spyware on your.{1,15}(account|computer|devices?|mobile|system)/i
+/we.{1,10}have your photos/i
+
+/we.{1,10}installed.{1,10}(exploit|spyware) on your/i
 
 /who hacked into your.{1,15}(account|computer|devices?|mobile|system)/i
 

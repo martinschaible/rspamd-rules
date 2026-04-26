@@ -132,7 +132,9 @@
 /rückbuchung.{1,10}ihrer zahlung bei/iu
 
 /rückerstattungsanfrage.{1,10}erforderlich/iu
-/(rück)?erstattung.{1,10}angefordert/i
+
+/(rück)?erstattung.{1,10}202\d/iu
+/(rück)?erstattung.{1,10}angefordert/iu
 /(rück)?erstattung.{1,10}für doppelte/iu
 
 /(rück)?erstattung.{1,10}(aufgrund|bei|ihrer|wegen).{1,10}(doppelten|doppelter) zahlung/iu

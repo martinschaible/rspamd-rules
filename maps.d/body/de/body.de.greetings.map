@@ -49,6 +49,8 @@
 
 # G
 # ------------------------------------------------------------------------------
+/geschätzter.{1,10}empfänger(in)?/iu
+
 /(grüsse|grüße).{1,15}antworten sie auf meine/iu
 /(grüsse|grüße).{1,10}diese.{1,10}e?.?mail/iu
 /(grüsse|grüße).{1,10}frieden sei mit ihnen/i
@@ -158,6 +160,7 @@
 /hallo.{1,10}ich hoffe.{1,10}alles gut/i
 /hallo.{1,10}ich schreibe ihnen/i
 /hallo.{1,10}ich warte noch auf ihre antwort/i
+/hallo.{1,10}ich wende mich an sie aufgrund/i
 /hallo.{1,10}ich würde mich freuen/iu
 
 /hallo.{1,10}ihre e?.?mail.?adresse/i

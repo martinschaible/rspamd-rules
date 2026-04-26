@@ -114,6 +114,8 @@
 
 # P
 # ------------------------------------------------------------------------------
+/perfect quotation/i
+
 /price.?list.{1,10}(brochure|catalog|catalogue)/i
 
 /^po#? \d{4,6}/i
