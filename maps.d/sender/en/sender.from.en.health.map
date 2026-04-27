@@ -119,7 +119,7 @@
 /healthy?.{0,10}(aging|alerts?|alternative)/i
 /healthy?.{0,10}(brain|brief(ing)?|choice(es)?|conspiracy|deals?|digest)/i
 /health.?.{0,10}(desk|discovery|digest|drink|enigma)/i
-/health.?.{0,10}expert/i
+/health.?.{0,10}(eating|expert)/i
 /healthy?.{0,10}(feet|fibes|files?|flush|foods?|freedom)/i
 /healthy?.{0,10}(gift|guides?|gut)/i
 /healthy?.{0,10}(habit|hack|hair|heart|heaven|hero)/i
@@ -744,6 +744,7 @@
 /heart.{0,10}(protection|wellness)/i
 /heart.{0,10}(rate|report|risk)/i
 /heart.{0,10}(saver|secret|shield|science|surgeon)/i
+/heart.{0,10}truth/i
 
 /helps?.{0,10}you/i
 

@@ -115,6 +115,7 @@
 #/ihre identität verifizieren/iu
 
 /ihre (daten|konto.?informationen) aktuell sind/i
+/ihre.{1,10}identität als rechtmäßiger kontoinhaber/iu
 /ihre?.{1,10}legitimations.?prozess/i
 /ihren.{1,10}kontozugang wiederherzustellen/i
 /ihrer?.{1,10}(kontosperrung|kontosicherheit)/i

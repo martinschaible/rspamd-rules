@@ -940,6 +940,9 @@
 /sbb\.cff\.ffs/i
 /sbb c ff ff s/i
 
+/bundesbahnen.{0,5}sbb/i
+/schweizerische.{0,5}bundesbahnen/i
+
 /mitteilung.{0,10}sbb/i
 
 #/sbb.?ffs$/i
@@ -960,6 +963,7 @@
 
 /serafe(.?ag)?.?\|/i
 /serafe\.ag/i
+/serafe-ag/i
 /serafe.{0,5}schweiz/i
 
 /server.?\|/i
