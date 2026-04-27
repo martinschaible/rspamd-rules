@@ -27,6 +27,7 @@
 
 /(action|update) (needed|required).{1,10}agreement confirmation/i
 /(action|update) (needed|required).{1,10}continue enjoying/i
+/(action|update) (needed|required).{1,10}immediate.{1,15}verification/i
 /(action|update) (needed|required).{1,10}incoming.{1,10}(e?.?mail|message)s?.{1,10}witheld/i
 /(action|update) (needed|required).{1,10}(e?.?mail|message)s?.{1,10}quarantined/i
 /(action|update) (needed|required).{1,10}protect your.{1,15}account/i
@@ -73,13 +74,18 @@
 /immediate (review|verification) required.{1,15}(asset|secure)/i
 /immediate (review|verification) required.{1,15}we detected/i
 
+/immediate identity verification required/i
+
 /(important|notice).{1,10}tax (details|document)/i
+
+/important.{1,10}account (alert|update)/i
 
 /important.{1,10}information.{1,15}security/i
 /important.{1,10}information is missing from your.{1,15}account/i
 
 /important.{1,10}notification.{1,10}we noticed.{1,10}recent update/i
 /important.{1,10}security update.{1,10}dear valued customer/i
+/important.{1,10}update notification.{1,10}dear/i
 
 # J
 # ------------------------------------------------------------------------------

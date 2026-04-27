@@ -9,6 +9,18 @@
 # Topics
 # ==============================================================================
 
+# Asian
+# ------------------------------------------------------------------------------
+
+# Account Block Notification
+/アカウントブロックのお知らせ/i
+
+# 02.06.25 - Chinese: Click to verify your account
+/单击以验证您的帐户/i
+
+# 18.08.25 - Log in to view
+/ログインして表示/i
+
 #
 #
 #
@@ -18,24 +30,28 @@
 
 # A
 # ------------------------------------------------------------------------------
-/account below.{1,10}to prevent disconnection/i
-/account closing soon.{1,10}hello/i
-/account settings.{1,10}complete the.{1,15}update/i
+/account.{1,10}below.{1,10}to (avoid|prevent) (disconnection|permanent)/i
 
-/avoid disabling your.{1,15}(account|profile).{1,10}update/i
+/account.{1,10}closing soon.{1,10}hello/i
+/account.{1,15}has been temporarily (blocked|restricted|suspended)/i
+/account.{1,30}is scheduled to be closed/i
+/account.{1,10}settings.{1,10}complete the.{1,15}update/i
 
-# Account Block Notification
-/アカウントブロックのお知らせ/i
+/account.{1,15}regain access.{1,15}complete.{1,10}required/i
+/account.{1,15}review payment details/i
+
+/avoid.{1,10}account deletion{1,10}verify your.{1,15}account/i
+/avoid.{1,10}disabling your.{1,15}(account|profile).{1,10}update/i
 
 # B
 # ------------------------------------------------------------------------------
 
 # C
 # ------------------------------------------------------------------------------
-/continue accessing your.{1,15}accoun.{1,10}click confirm/i
+/confirm.{1,10}e?.?mail.?address for.{5,30}to avoid login/i
+/confirm.{1,15}ownership below to.{1,10}avoid account/i
 
-# 02.06.25 - Chinese: Click to verify your account
-/单击以验证您的帐户/i
+/continue accessing your.{1,15}accoun.{1,10}click confirm/i
 
 # D
 # ------------------------------------------------------------------------------
@@ -66,9 +82,6 @@
 
 # L
 # ------------------------------------------------------------------------------
-
-# 18.08.25 - Log in to view
-/ログインして表示/i
 
 # M
 # ------------------------------------------------------------------------------
@@ -111,7 +124,8 @@
 
 # W
 # ------------------------------------------------------------------------------
-/we are.{1,15}(closing|deactivation|suspending).{1,10}all (inactive|unused).{1,10}accounts/i
+/we are.{1,15}(closing|deactivating|deactivation|suspending).{1,15}(inactive|unused).{1,10}accounts/i
+
 /we have noticed some unusual.{1,10}activity associated/i
 /we need you to update your.{1,15}account/i
 
