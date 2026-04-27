@@ -390,7 +390,8 @@
 /biological.{0,10}fix/i
 
 /black.{0,10}coffee/i
-/bladder.{0,10}(boost|care|coach|control|danger|fix|flush|health)/i
+/bladder.{0,10}(boost|danger|fix|flush|health)/i
+/bladder.{0,10}(care|coach|control)/i
 /bladder.{0,10}(leaks?|leakage|leaking|issues?)/i
 /bladder.{0,10}support/i
 
@@ -406,11 +407,12 @@
 /breaking.{0,10}health/i
 /breath(ing)?.{0,10}(clear|science)/i
 
-/brain.{0,10}(exercise|health|noise|shrinkage|solution|upgrade)/i
+/brain.{0,10}(exercise|health|noise|upgrade)/i
 /brain.{0,10}(fix|flow)/i
 /brain.{0,10}(balance|boost|re?(boot))/i
 /brain.{0,10}(care|check|clarity|consequence)/i
 /brain.{0,10}(report|research|reset|revival|routine)/i
+/brain.{0,10}(shrinkage|solution)/i
 /brain.{0,10}test/i
 
 /breakfast.{0,10}(alert|insider|juice|mistake|myth|treat|quiz)/i
@@ -816,6 +818,7 @@
 /latte.{0,10}hack/i
 
 /leak.{0,10}(free|stop(per)?)/i
+/leaked.{0,10}video/i
 /leaky.{0,10}(brain|gut)/i
 
 /leakage.{0,10}(fixer|prevention)/i
