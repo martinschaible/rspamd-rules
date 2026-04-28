@@ -614,7 +614,8 @@
 /end.{0,10}type.{0,10}2/i
 /endless.{0,10}energy/i
 
-/energy.{0,10}(balance|boost|unlock|without)/i
+/energy.{0,10}(balance|boost)/i
+/energy.{0,10}(code|unlock|without)/i
 /enhanced.{0,10}recall/i
 
 /erase.{0,10}fat/i
