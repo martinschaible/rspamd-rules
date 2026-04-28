@@ -163,6 +163,7 @@
 
 /die casting solutions/i
 
+/direct.{1,10}(factory|manufacturer).{1,10}coorporation/i
 /direct.{1,10}(factory|manufacturer) of/i
 /direct.{1,10}(factory|manufacturer).{1,10}vacuum/i
 /direct.{1,10}steel factory/i
@@ -423,10 +424,11 @@
 /(pcba?|printed.?circuits?.?board).{1,10}mould partner/i
 /(pcba?|printed.?circuits?.?board).{1,10}procurement/i
 /(pcba?|printed.?circuits?.?board).{1,10}production.{1,10}(case|line)/i
-/(pcba?|printed.?circuits?.?board).{1,10}quality.{1,10}(counts|delivery)/i
 /(pcba?|printed.?circuits?.?board).{1,10}(partner|supplier).{1,10}(for|with)/i
 /(pcba?|printed.?circuits?.?board).{1,10}(partner|supplier).{1,10}(iso|worthy)/i
+/(pcba?|printed.?circuits?.?board).{1,10}partnership/i
 /(pcba?|printed.?circuits?.?board).{1,10}pricing/i
+/(pcba?|printed.?circuits?.?board).{1,10}quality.{1,10}(counts|delivery)/i
 /(pcba?|printed.?circuits?.?board).{1,10}supply chain/i
 /(pcba?|printed.?circuits?.?board).{1,10}turnaround/i
 /(pcba?|printed.?circuits?.?board).{1,10}with (high quality|plated)/i

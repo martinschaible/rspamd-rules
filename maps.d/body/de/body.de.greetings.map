@@ -78,6 +78,7 @@
 
 /guten (abend|morgen|tag).{1,10}ich bin.{1,10}(dr\.|frau|herr)/i
 /guten (abend|morgen|tag).{1,10}ich bin.{1,10}content.?verantwortlich/i
+/guten (abend|morgen|tag).{5,35}ich bin.{1,10}von der/i
 /guten (abend|morgen|tag).{1,10}ich bitte um entschuldigung/i
 /guten (abend|morgen|tag).{1,10}ich brauche ihre hilfe/i
 /guten (abend|morgen|tag).{1,10}ich habe keine antwort auf meine.{1,15}e?.?mail/i
@@ -102,6 +103,7 @@
 /guten (abend|morgen|tag).{1,10}meine damen und herren/i
 
 /guten (abend|morgen|tag).{1,10}schön sie zu sehen/iu
+/guten (abend|morgen|tag).{1,10}sehr geehrter herr/i
 /guten (abend|morgen|tag).{1,10}sie haben eine spende/i
 
 /guten (abend|morgen|tag).{5,35}was ich ihnen jetzt/i
