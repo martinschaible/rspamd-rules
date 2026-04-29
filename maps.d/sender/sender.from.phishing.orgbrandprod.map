@@ -196,7 +196,7 @@
 /(dhl|dpd|fedex|gls|ups).{0,5}post/i
 /(dhl|dpd|fedex|gls|ups).{0,5}(sendung|service|shipping|support|surveys?)/i
 
-/(dhl|dpd|fedex|gls|ups).{0,5}(deutschland|germany|schweiz)/i
+/(dhl|dpd|fedex|gls|ups).{0,5}(deutschland|germany|schweiz|swiss)/i
 
 /(dhl|dpd|fedex|gls|ups).{0,5}umfrage/i
 /(dhl|dpd|fedex|gls|ups).{0,5}paket.?(status|zentrum)/i

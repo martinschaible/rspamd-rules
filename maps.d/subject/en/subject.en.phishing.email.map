@@ -246,8 +246,8 @@
 /you have.{1,10}failed.{1,10}(e?.?mail|message)s? deliveries/i
 /you have.{1,10}unread.{1,10}(e?.?mail|message)s? from/i
 
-/you can no longer send.{1,10}receive.{1,10}e?.?mails/i
-/you no longer can send.{1,10}receive.{1,10}e?.?mails/i
+/you can no longer.{1,10}(receive|send).{1,10}e?.?mails?/i
+/you no longer can send.{1,10}(receive|send).{1,10}e?.?mails?/i
 
 /your.{1,10}e?.?mail.?account.{1,10}closure/i
 /your.{1,10}e?.?mail.?account.{1,10}has been limited/i
