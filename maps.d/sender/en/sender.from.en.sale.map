@@ -133,6 +133,7 @@
 
 /everyday.{0,10}(carry|comfort|gear|health)/i
 
+/expert.{0,10}nails?/i
 /exclusive.{0,10}(deals?|offers?)/i
 
 # F
@@ -169,7 +170,7 @@
 
 /(gogo|portable|small|space).{0,10}(heater|heating)/i
 
-/gps.?tracker/i
+/gps.{0,10}(air.?tag|tracker)/i
 
 /groovy.{0,10}chews/i
 
@@ -234,6 +235,8 @@
 
 # N
 # ------------------------------------------------------------------------------
+/nail.{0,10}(care|refresh)/i
+
 /next.?gen.{0,10}flight/i
 /night.{0,10}(balance|drive|driving|vision)/i
 
