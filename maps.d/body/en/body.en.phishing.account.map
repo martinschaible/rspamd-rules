@@ -33,7 +33,9 @@
 /account.{1,10}below.{1,10}to (avoid|prevent) (disconnection|permanent)/i
 
 /account.{1,10}closing soon.{1,10}hello/i
+/account.{1,10}deletion.{1,10}verify your account/i
 /account.{1,15}has been temporarily (blocked|restricted|suspended)/i
+/account.{1,30}is scheduled for suspension/i
 /account.{1,30}is scheduled to be closed/i
 /account.{1,10}settings.{1,10}complete the.{1,15}update/i
 

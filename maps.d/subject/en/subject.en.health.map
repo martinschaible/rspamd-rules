@@ -601,6 +601,8 @@
 
 /kills.{1,10}(pain|nerve|tinnitus)/i
 
+/kills.{1,10}(back|hip|knee).{1,10}pain/i
+
 # L
 # ------------------------------------------------------------------------------
 /(lbs|pounds|weight) of fat/i
@@ -839,6 +841,8 @@
 # ------------------------------------------------------------------------------
 /safe way to stop/i
 /safety of fruit/i
+/saggy.{1,10}(breasts?|chin)/i
+
 /salt.?water.{1,10}method/i
 
 /save your.{1,10}(exe.?sight|nails)/i
@@ -935,6 +939,7 @@
 /spikes with.{1,10}drop/i
 
 /spot.{1,10}(alzheimer|erazer)/i
+
 /stabilize your blood/i
 /stable blood sugar/i
 
@@ -944,10 +949,10 @@
 /start.{1,10}with.{1,10}drink/i
 
 /stay away from these.{1,10}fruits/i
-/strange.{1,10}pain.{1,10}relieving/i
 
+/steady a1c/i
 /stir this into/i
-
+/strange.{1,10}pain.{1,10}relieving/i
 /stubborn.{1,10}(fat|mucus)/i
 
 /stomach in less than/i
