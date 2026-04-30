@@ -356,7 +356,9 @@
 /^handlungsbedarf erforderlich$/i
 
 /handlungsbedarf.{1,15}abgabe/i
+/handlungsbedarf.{1,10}aktualisierung ihrer.{1,15}zahlungsdetails/i
 /handlungsbedarf.{1,10}aktualisierung (ihrer|ihres).{1,15}(banking|online)/i
+
 /handlungsbedarf.{1,10}bestätigen sie ihre identität/iu
 /handlungsbedarf.{1,10}bestätigen sie ihren/iu
 /handlungsbedarf.{1,10}daten.{1,10}handelsregister bestätigen/iu
@@ -536,6 +538,8 @@
 
 #/letzte erinnerung.{1,10}zahlungsinformationen aktualisieren/i
 /letzte erinnerung.{1,10}zustimmung zur neuen/i
+
+/letzte mahnung.{1,10}zahlungsdetails/i
 
 /letzte stunden.{1,10}ihre lieferung/i
 
