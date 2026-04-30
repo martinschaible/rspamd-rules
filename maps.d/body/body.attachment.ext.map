@@ -33,11 +33,14 @@
 /\.r18$/i
 
 /\.dhtml$/i
-/\.smtml$/i
+    /\.smtml$/i
 
 # Special
 /\.\.docx/i
 /\.xlsx?_/i
+
+# 30.03 26 - We're now blocking html files. A few banking institutions send secure messages as html attachments.
+/\.html?$/i
 
 # Double Extension
 # ------------------------------------------------------------------------------
