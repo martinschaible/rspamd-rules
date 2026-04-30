@@ -325,7 +325,9 @@
 
 /allergy.{0,10}(fix|medication|sufferers)/i
 
-/ancient.{0,20}(enzyme|drink|fruit|health|ritual|tea|wellness|wine)/i
+/ancient.{0,20}(enzyme|drink|fruit|ritual|tea|wellness|wine)/i
+/ancient.{0,20}(health|himalayan)/i
+
 /anti.{0,10}(aging|fungal|fungus|wrinkle)/i
 
 /apnea.{0,10}(cure|watch)/i

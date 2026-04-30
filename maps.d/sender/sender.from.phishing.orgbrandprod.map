@@ -221,6 +221,7 @@
 /logistikbenachrichtigung.{0,5}(dhl|dpd|fedex|gls|ups)/i
 /(info|my).{0,5}(dhl|dpd|fedex|gls|ups)/i
 /(kundeninfo|kundenservice|kurier).{0,5}(dhl|dpd|fedex|gls|ups)/i
+/swiss.{0,5}(dhl|dpd|fedex|gls|ups)/i
 /zoll.{0,5}(dhl|dpd|fedex|gls|ups)/i
 
 /paket.{0,5}(dhl|dpd|fedex|gls|ups)/i
@@ -359,6 +360,7 @@
 
 /bíngo/i
 
+/bitpanda.{0,10}(kundendienst|kundenservice)/i
 /bmw.?x/i
 
 /\|.?brack/i

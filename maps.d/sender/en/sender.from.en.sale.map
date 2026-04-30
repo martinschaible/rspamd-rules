@@ -126,6 +126,7 @@
 /esaver/i
 
 /(essential|outdoor).{0,10}gloves?/i
+/essential.{0,10}offers?/i
 
 /_experience/i
 
@@ -152,6 +153,7 @@
 /food.{0,10}supply/i
 /fox.{0,10}scope/i
 
+/freedom.{0,10}alert/i
 /free.{0,10}gear/i
 /franking.{0,10}machine/i
 
@@ -245,7 +247,7 @@
 
 # O
 # ------------------------------------------------------------------------------
-/offers?.{0,10}program/i
+/offers?.{0,10}(alert|program)/i
 
 /online.{0,10}online/i
 
