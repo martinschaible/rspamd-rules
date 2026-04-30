@@ -47,6 +47,12 @@ It's necessary to split existing map files into smaller ones. Sometimes, when an
 :point_right: All map files of the *first version* are stored in the folder `/etc/rspamd/maps.d/legacy`.<br>
 :point_right: The files of the *second edition* are stored in subfolders according to the topic.
 
+----
+
+>The document below, which lists the files and directories, will be revised shortly.
+
+Instead of a tree structure, I find a thematically relevant structure more appropriate.
+
 ### Setup for "base"
 
 Folder structure:
