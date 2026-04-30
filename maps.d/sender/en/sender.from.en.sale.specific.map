@@ -37,6 +37,7 @@
 
 /ip.?tv_/i
 /ip.?tv.{1,10}(access|channels|company)/i
+/ip.?tv.{1,10}(france|germany|italy|spain|switzerland)/i
 /ip.?tv.{1,10}(deal|live|max|movies|rise|royals|offer|trial|today)/i
 /ip.?tv.{1,10}(show|stream(ing)?|support)/i
 /ip.?tv.{1,10}unlimited/i
