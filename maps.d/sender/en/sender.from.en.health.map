@@ -541,7 +541,7 @@
 
 # D
 # ------------------------------------------------------------------------------
-/daily.{0,10}(aches|burn|comfort|detox|energy|fatigue|gut|heart|metabolism|ritual|skin|soup)/i
+/daily.{0,10}(aches|burn|comfort|detox|energy|fatigue|gut|heart|metabolism|pad|ritual|skin|soup)/i
 /daily.{0,10}(wellness|wisdom)/i
 
 /dairy.{0,10}(recipe|ritual)/i
@@ -617,7 +617,7 @@
 /endless.{0,10}energy/i
 
 /energy.{0,10}(balance|boost)/i
-/energy.{0,10}(code|unlock|without)/i
+/energy.{0,10}(code|drain|unlock|without)/i
 /enhanced.{0,10}recall/i
 
 /erase.{0,10}fat/i
@@ -647,6 +647,7 @@
 
 /fda.{0,10}alert/i
 
+/feel.{0,10}(dizzy|mentally|younger)/i
 /feeling.{0,10}(dizzy|younger)/i
 /female.{0,10}desire/i
 /female o$/i
@@ -993,6 +994,8 @@
 
 # P
 # ------------------------------------------------------------------------------
+/pads?.{0,10}(for|relief|solution)/i
+
 /pain.{0,10}(alert|culprit|reset|support)/i
 /painful.{0,10}piles/i
 /pancreas.{0,10}(health|reset)/i
