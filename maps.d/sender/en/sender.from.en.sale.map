@@ -229,8 +229,9 @@
 /media now/i
 /meet.{0,10}your/i
 /military.{0,10}grade/i
-/mini.{0,10}(blower|cool|heater|jet)/i
 
+/mini.{0,10}(blower|cool|heater|jet)/i
+/mini.{0,10}(wi.?fi|wlan)/i
 /mobile.{0,10}photography/i
 
 # N
@@ -410,6 +411,7 @@
 /website.{0,10}seo/i
 
 /(wi.?fi|wlan).{0,15}(boost(er)?|projector)/i
+/(wi.?fi|wlan).{0,15}camera/i
 /(wi.?fi|wlan).{0,15}upgrade/i
 
 /woodwork(ing)?.{0,10}(plans|tooling)/i

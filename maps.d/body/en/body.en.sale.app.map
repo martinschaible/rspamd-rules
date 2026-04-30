@@ -18,6 +18,8 @@
 
 # A
 # ------------------------------------------------------------------------------
+/an ios.{1,10}android.{1,10}developer/i
+
 /(applications?|apps?).{1,10}development.{1,10}android.{1,10}ios/i
 /(applications?|apps?).{1,10}development.{1,10}services/i
 
@@ -122,9 +124,9 @@
 
 # Y
 # ------------------------------------------------------------------------------
-/you.{1,10}(considering|interested|looking|need|thinking).{1,15}(applications?|apps?).{1,10}(android|ios|iphone)/i
-/you.{1,10}(considering|interested|looking|need|thinking).{1,15}(about|for|in).{1,15}(android|ios|iphone|mobile)?.?(app|web)/i
-/you.{1,10}(considering|interested|looking|need|thinking).{1,15}(create|creating|develop).{1,15}(android|ios|iphone|mobile)?.?(app|web)/i
+/you.{1,10}(considering|interested|looking|need|planning|thinking).{1,15}(applications?|apps?).{1,10}(android|ios|iphone)/i
+/you.{1,10}(considering|interested|looking|need|planning|thinking).{1,15}(about|for|in).{1,15}(android|ios|iphone|mobile)?.?(app|web)/i
+/you.{1,10}(considering|interested|looking|need|planning|thinking).{1,15}(build|create|creating|develop).{1,15}(android|ios|iphone|mobile)?.?(app|web)/i
 
 /your.{1,10}mobile.?app.{1,10}requirement/i
 
