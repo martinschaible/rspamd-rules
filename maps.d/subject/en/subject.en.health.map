@@ -356,6 +356,8 @@
 /easy.?to.?do technique/i
 
 /eat(ing)? \d cup/i
+/eat(ing)?.{1,10}simple fruit/i
+
 /eat(ing)? this.{1,15}(arteries|breakfast|daily|every|fruit|spice)/i
 /eat(ing)? this.{1,15}for.{1,10}(days|perfect)/i
 /eat(ing)? this.{1,15}to clear/i
@@ -460,6 +462,7 @@
 /(fruits?|vegetable|veggies?).{1,10}(for brain|is safe)/i
 /(fruits?|vegetable|veggies?).{1,10}(harmful|harm your)/i
 /(fruits?|vegetable|veggies?).{1,10}helps memory/i
+/(fruits?|vegetable|veggies?).{1,10}learn more/i
 /(fruits?|vegetable|veggies?).{1,10}might not/i
 /(fruits?|vegetable|veggies?).{1,10}that.{1,10}(fights|harm|might|may|weakens)/i
 /(fruits?|vegetable|veggies?).{1,10}that (cause|ends|make you)/i
