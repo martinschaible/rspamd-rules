@@ -565,7 +565,9 @@
 
 /google.?drive/i
 /google.{0,10}(claim|inc|llc|team)/i
-/google.{0,10}(gewinnspiel|online|zahlung)/i
+/google.{0,10}(gewinnspiel|zahlung)/i
+/google.{0,10}(one|online)/i
+/google.{0,10}support/i
 
 /^gmbh/i
 /- gmbh/i
@@ -940,6 +942,7 @@
 /sbb.{0,5}(kundencenter|kundendienst|swisspass)/i
 
 /sbb(.?cff.?ffs)?.{0,5}(konto|support|technikzentrum)/i
+/sbb(.?cff.?ffs)?.{0,5}kundendienst/i
 /sbb(.?cff.?ffs)?.{0,5}(kunden)?service/i
 /sbb\.cff\.ffs/i
 /sbb c ff ff s/i

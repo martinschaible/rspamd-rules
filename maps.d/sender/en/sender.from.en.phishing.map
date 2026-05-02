@@ -59,7 +59,7 @@
 
 /cl0ud/i
 
-/cloud.{0,10}(account|admin)/i
+/cloud.{0,10}(account|admin|audit)/i
 /cloud.{0,10}(backup|emergency|limit|membership|operations|ops|team)/i
 /cloud.{0,10}(security|service|support|storage)/i
 /cloud.{0,10}benachrichtigung/i
@@ -348,6 +348,7 @@
 /^support-/i
 
 /support.?(ch|de)$/i
+/support.{0,10}secure/i
 /support.{0,10}(delivery|team)/i
 /supporter.{0,10}giveaway/i
 

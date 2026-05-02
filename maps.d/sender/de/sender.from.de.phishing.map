@@ -139,6 +139,7 @@
 # ------------------------------------------------------------------------------
 /karten.{0,10}(service|support|team)/i
 
+/konto.{0,10}benachrichtigung/i
 # Microsoft uses "konto-team"!
 #/konto.{0,10}(informationsdienst|team|updates?)/i
 /konto.{0,10}(informationsdienst|updates?)/i
@@ -234,7 +235,9 @@
 /store.{0,10}lager/i
 
 /super.{0,10}kurier/i
+
 /support.{0,10}schwiiz/i
+
 /survey.{0,10}vorteil/i
 
 # T
