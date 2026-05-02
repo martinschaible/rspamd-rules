@@ -18,6 +18,8 @@
 
 # A
 # ------------------------------------------------------------------------------
+/aktivieren si.{1,10}nicht zugestellte.{1,10}(e?.?mails|nachrichten)/i
+
 /aktualisierung ihres postfachs/i
 
 # B
@@ -61,6 +63,7 @@
 
 # N
 # ------------------------------------------------------------------------------
+/(e?.?mails|nachrichten) blockiert.{1,10}sie haben/i
 
 # O
 # ------------------------------------------------------------------------------
@@ -76,6 +79,8 @@
 
 # S
 # ------------------------------------------------------------------------------
+/sie haben.{1,10}nicht zugestellte.{1,10}(e?.?mails|nachrichten)/i
+
 /sichere postfachbenachrichtigung/i
 
 # T

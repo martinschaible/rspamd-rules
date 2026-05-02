@@ -45,8 +45,6 @@
 
 # D
 # ------------------------------------------------------------------------------
-/(doppelabbuchung|zahlung).{1,10}id:\d/i
-
 /doppelt erfolgter zahlung/i
 /doppelte abbuchung erkannt/i
 /doppelte.{1,10}berechnung rückerstattung/iu
@@ -54,8 +52,10 @@
 /doppelte.{1,10}zahlung.{1,10}rückerstattung beantragen/iu
 /doppelte.{1,10}zahlung.{1,10}wird erstattet/i
 
-/doppelabbuchung erkannt/i
-/doppelzahlung beantragen/i
+/(doppelabbuchung|zahlung).{1,10}id:\d/i
+/(doppelabbuchung|doppelzahlung).{1,10}(beantragen|erkannt)/i
+/(doppelabbuchung|doppelzahlung).{1,10}rückerstattung eingeleitet/iu
+/(doppelabbuchung|doppelzahlung).{1,10}(vignette|202\d)/i
 
 # E
 # ------------------------------------------------------------------------------
@@ -63,6 +63,8 @@
 
 # F
 # ------------------------------------------------------------------------------
+/falschbelastung.{1,15}doppelzahlung/i
+
 /fehler in ihrer letzten.{1,10}rechnung/i
 
 /fordern sie.{1,10}eine.{1,10}(rück)?erstattung/iu
@@ -156,6 +158,7 @@
 /(rück)?erstattung.{1,10}steht.{1,10}sie bereit/iu
 /(rück)?erstattung.{1,10}steht.{1,10}zur auszahlung/iu
 
+/(rück)?erstattung.{1,10}verfällt in.{1,10}stunden/iu
 /(rück)?erstattung.{1,10}von.{1,15}ihre krankenversicherung/i
 /(rück)?erstattung.{1,10}wegen.{1,15}doppelabbuchung/iu
 /(rück)?erstattung.{1,10}wurde (angenommen|bestätigt|genehmigt)/iu

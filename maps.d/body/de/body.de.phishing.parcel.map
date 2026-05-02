@@ -28,6 +28,8 @@
 /(begleichen|bezahlen) sie.{1,10}(die|eine).{1,10}(ausstehenden?|erforderlichen?).{1,10}(versandkosten|verwaltungsgebühr|zollgebühr)/iu
 /(begleichen|bezahlen) sie.{1,10}eventuelle.{1,10}(steuer|zoll).{1,15}gebühren/iu
 
+/(begleichen|bezahlen).{1,10}zustellung starten/i
+
 /begleichung.{1,10}der.{1,10}(bearbeitungs|zoll).?gebühr erforderlich/iu
 
 /benötigen wir eine.{1,10}(bearbeitungs|zoll).?gebühr/iu
@@ -53,7 +55,9 @@
 # F
 # ------------------------------------------------------------------------------
 /freigabe.{1,10}(lieferung|paket|sendung).{1,10}ist eine bearbeitungsgebühr/iu
+
 /freigabe.{1,10}zustellung.{1,10}(lieferung|paket|sendung)/i
+/freigabe.{1,10}zustellung.{1,10}ist eine gebühr/iu
 
 # G
 # ------------------------------------------------------------------------------
@@ -243,6 +247,7 @@
 /wird.{1,15}wegen fehlender zollangaben zurückgehalten/iu
 
 /wurde im zollumschlagzentrum zurückgehalten/i
+/wurde.{1,15}verzollt.{1,10}steht zur auslieferung bereit/i
 
 # X
 # ------------------------------------------------------------------------------

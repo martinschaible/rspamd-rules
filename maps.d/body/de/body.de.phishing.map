@@ -92,6 +92,7 @@
 /bestätigen.{1,15}bereitgestellten daten/iu
 
 /bestätigen.{1,10}sie.{1,20}ihre (aktuellen|hinterlegten).{1,10}(informationen|kontaktdaten)/i
+/bestätigen.{1,10}sie.{1,20}vorgang.{1,15}untenstehenden link/i
 
 /bestätigung.{1,10}dauert nur.{1,10}minuten/i
 /bestätigung.{1,10}jetzt durchführen/iu
@@ -129,6 +130,7 @@
 /domain erneuere/i
 
 /domain ist.{1,10}nicht aktiv.{1,10}die laufzeit abgelaufen ist/i
+/domain ist aktuell abgelaufen/i
 
 # E
 # ------------------------------------------------------------------------------
@@ -269,7 +271,9 @@
 /verpflichtendes?.{1,10}(aktivierung|kundenupdate)/i
 
 /vignette.{1,10}ihres fahrzeugs.{1,15}deaktiviert wurde/i
+/vignette.{1,10}jetzt registrieren/i
 /vignette.{1,15}kontrollschild ist.{1,15}deaktiviert/i
+/vignette.{1,10}umgehend online abzuschliessen/i
 /vignette.{1,10}vorübergehend deaktiviert wurde/i
 /vignette.{1,10}wir müssen sie bedauerlicherweise/iu
 

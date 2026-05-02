@@ -242,6 +242,8 @@
 /find.{1,10}tooling maker/i
 /find your.{1,15}supplier/i
 
+/first.{1,10}(pcba?|printed.?circuits?.?board).{1,10}order/i
+
 /for sale.{1,10}export/i
 /for your.{1,10}packaging/i
 

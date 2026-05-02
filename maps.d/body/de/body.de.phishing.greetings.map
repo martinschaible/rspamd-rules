@@ -48,6 +48,7 @@
 
 # D
 # ------------------------------------------------------------------------------
+/domain ist.{1,15}abgelaufen.{1,10}sehr geehrter?.{1,15}(damen|herren|kunde|kundin)/i
 
 # E
 # ------------------------------------------------------------------------------
@@ -255,6 +256,8 @@
 /sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,20}dies ist eine benachrichtigung/i
 /sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,25}dies ist eine dringende mitteilung/i
 /sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,20}diese e?.?mail wurde an/i
+/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,15}domain ist.{1,15}abgelaufen/i
+
 
 /sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,20}es liegt ein unbefugter zugriff/i
 /sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,20}es wurde eine aktivität/iu
@@ -361,6 +364,7 @@
 /sehr geehrter?.{1,10}(anleger|geschäftsführer|geschäftspartner)/iu
 /sehr geehrter?.{1,15}bank.{1,10}(kunde|kundin)/i
 /sehr geehrter?.{1,20}(exchange|microsoft).{1,15}benutzer/i
+/sehr geehrter?.{1,10}fahrzeughalter(in)/i
 
 /sehr geehrter.?,/i
 

@@ -508,7 +508,7 @@
 /easy_bank/i
 /easybank.{0,10}(app|digital|finanzservice|support)/i
 /easybank.{0,10}(kundenbetreuung|kundenservice)/i
-/easybank.{0,10}service.?team/i
+/easybank.{0,10}service(.?team)?/i
 /easybank.{0,10}team/i
 
 # 08.06.25
@@ -894,6 +894,8 @@
 /post(_|-)ch/i
 
 /post.?finance.{0,5}benachrichtigungen/i
+
+/schweizerische post.{1,10}la poste suisse/i
 
 /premium.{0,10}spοtify/i
 /prime.{0,5}notification/i
