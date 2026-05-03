@@ -33,20 +33,22 @@
 /competitive.{1,15}from.{1,10}china/i
 /(components|plastic|supply|toolmaking).{1,15}china/i
 
-/(disposer|solutions|parts).{1,15}(from|in|of).{1,10}china/i
+/(disposer|solutions).{1,15}(from|in|of).{1,10}china/i
 /option.{1,15}(from|in|of).{1,10}china/i
+/(parts|pumps?).{1,15}(from|in|of).{1,10}china/i
 
-/hot.{1,15}from china/i
-/(manufacturer?|moulding|suppliers?).{1,10}(from|in|of).{1,10}china/i
-/moulding.{1,10}services.{1,10}(from|in|of).{1,10}china/i
-/shoe factory.{1,10}(from|in|of).{1,10}china/i
-/simplifying.{1,10}china.{1,10}imports/i
+/hot.{1,15}(from|in|of).{1,10}china/i
+/inverter.{1,15}(from|in|of).{1,10}china/i
+/(manufacturer?|moulding|suppliers?).{1,15}(from|in|of).{1,10}china/i
+/moulding.{1,10}services.{1,150}(from|in|of).{1,10}china/i
+/(shoe factory|solar).{1,15}(from|in|of).{1,10}china/i
+/simplifying.{1,10}china.{1,15}imports/i
 
-/logistic company.{1,10}(from|in|of).{1,10}china/i
-/(pcba?|printed.?circuits?.?board).{1,10}(company|factory) (from|in) china/i
+/logistic company.{1,15}(from|in|of).{1,10}china/i
+/(pcba?|printed.?circuits?.?board).{1,15}(company|factory) (from|in) china/i
 
-/we are.{1,10}china.{1,15}(dropshipping|leading|platform|supplier)/i
-/we are.{1,10}the best chinese/i
+/we are.{1,15}china.{1,15}(dropshipping|leading|platform|supplier)/i
+/we are.{1,15}the best chinese/i
 
 #
 #

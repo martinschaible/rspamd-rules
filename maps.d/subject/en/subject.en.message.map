@@ -35,11 +35,14 @@
 /for your.{1,10}attention/i
 /i need your.{1,10}attention/i
 /your urgent attention/i
+/your urgent response please/i
 
 # Message
 # ------------------------------------------------------------------------------
 # Starts with a number
 /\(\d\) message from/i
+
+/\d{2}\.\d{2}\.\d{4}.{1,5}(e?.?mail|message)/i
 
 /message in your.{1,15}support.?panel/i
 
@@ -92,6 +95,7 @@
 /^e?.?mail.?message$/i
 /^(e?.?mail|message) for you$/i
 
+/(e?.?mail|message).{1,5}\d{3,6}/i
 /(e?.?mail|message).{1,10}from last week received on your/i
 /(e?.?mail|message).{1,10}i sent on.{1,10}reach you/i
 /(e?.?mail|message).{1,10}must not be ignored/i

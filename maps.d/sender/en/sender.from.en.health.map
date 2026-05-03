@@ -674,6 +674,7 @@
 
 /full(er)?.{0,10}hair/i
 /(fungal|fungus).{0,10}(cure|eliminator|fix|free|infection|remover?|vanishing)/i
+/(fungal|fungus).{0,10}gone/i
 
 /focus.{0,10}clarity/i
 /fountain of/i
@@ -751,7 +752,7 @@
 /heart.{0,10}(attack|boost|cells|check|danger|disease|freedom|health|helper)/i
 /heart.{0,10}(protection|wellness)/i
 /heart.{0,10}(rate|report|risk)/i
-/heart.{0,10}(saver|secret|shield|science|surgeon)/i
+/heart.{0,10}(saver|science|secret|shield|signal|surgeon)/i
 /heart.{0,10}truth/i
 
 /helps?.{0,10}you/i
@@ -1319,6 +1320,8 @@
 
 /warning.{0,10}signs?/i
 /wax.{0,10}free/i
+
+/weak.{0,10}(bladder|bones|heart|muscles?)/i
 
 /weird.{0,10}sound/i
 /wellness.{0,10}(alert|archive|bulletin|brief|files?|insider|insights|living|news|watch|weekly)/i
