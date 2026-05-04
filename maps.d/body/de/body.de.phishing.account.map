@@ -94,42 +94,59 @@
 
 /kontaktdaten jetzt aktualisieren/i
 
-/(konto|profil).{1,15}automatisch eingeschränkt/iu
-
-/(konto|profil).{1,15}(benötigen|benötigt|erfordert).{1,10}eine? (aktualisierung|update)/i
-/(konto|profil).{1,15}(benötigen|benötigt|erfordert).{1,10}sofortige aufmerksamkeit/i
-
-/(konto|profil).{1,15}bestätigen sie.{1,10}ihre kontoinformationen/iu
-/(konto|profil).{1,15}bleibt bis zur.{1,25}datenüberprüfung eingeschränkt/iu
-
-/(konto|profil).{1,10}damit wir den vollen betrag/i
-
-/(konto|profil).{1,10}erfordert eine turnusgemäße/iu
 /(konto|profil).{1,10}aktualisierung.{1,15}funktionalität eingeschränkt/iu
-/(konto|profil).{1,10}einer verifizierung bedarf/i
-/(konto|profil).{1,15}festgestellt.{1,10}die ungewöhnlich erscheint/iu
-/(konto|profil).{1,10}haben wir ein update durchgeführt/iu
-/(konto|profil).{1,15}innerhalb der nächsten.{1,10}Stunden zu bestätigen/iu
-
-/(konto|profil).{0,10}informationen.{1,10}sicherheitsgründen/iu
-
-/(konto|profil).{1,15}ist.{1,10}(dauerhaft|derzeit|möglicherweise|vorübergehend).{1,10}(ausgesetzt|eingeschränkt|begrenzt|gesperrt)/iu
-/(konto|profil).{1,15}ist.{1,10}verpflichtende handlung/i
+/(konto|profil).{1,10}aktualisieren.{1,10}um.{1,15}(sicherheit|unterbrechungen)/i
 
 /(konto|profil).{1,10}(ausgesetzt|begrenzt|eingeschränkt|gesperrt).{1,10}da die anmeldung bei ihrem.{1,15}konto/i
 /(konto|profil).{1,10}(ausgesetzt|begrenzt|eingeschränkt|gesperrt).{1,10}bis/iu
 /(konto|profil).{1,10}(ausgesetzt|begrenzt|eingeschränkt|gesperrt).{1,10}aktualisieren sie ihre zahlungsdetails/i
 /(konto|profil).{1,10}(ausgesetzt|begrenzt|eingeschränkt|gesperrt).{1,10}um es.{1,10}(online|wieder).{1,10}zu aktivieren/iu
 
+/(konto|profil).{1,15}automatisch eingeschränkt/iu
+
+/(konto|profil).{1,15}(benötigen|benötigt|erfordert).{1,10}eine? (aktualisierung|update)/i
+/(konto|profil).{1,15}(benötigen|benötigt|erfordert).{1,10}sofortige aufmerksamkeit/i
+
+/(konto|profil).{1,10}bestätigen.{1,10}unterbrechungen/i
+/(konto|profil).{1,15}bestätigen sie.{1,10}ihre kontoinformationen/iu
+/(konto|profil).{1,15}bleibt bis zur.{1,25}datenüberprüfung eingeschränkt/iu
+/(konto|profil).{1,10}damit wir den vollen betrag/i
+/(konto|profil).{1,10}erfordert eine turnusgemäße/iu
+/(konto|profil).{1,10}erneut zu reaktivieren/i
+/(konto|profil).{1,15}festgestellt.{1,10}die ungewöhnlich erscheint/iu
+/(konto|profil).{1,15}freizuschalten.{1,10}bestätigen sie/iu
+/(konto|profil).{1,10}haben wir ein update durchgeführt/iu
+
+/(konto|profil).{1,15}innerhalb der nächsten.{1,10}stunden.{1,10}(bestätigen|eingeschränkt)/iu
+
+/(konto|profil).{0,10}informationen.{1,10}sicherheitsgründen/iu
+
+/(konto|profil).{1,15}ist.{1,10}(dauerhaft|derzeit|möglicherweise|vorübergehend).{1,10}(ausgesetzt|eingeschränkt|begrenzt|gesperrt)/iu
+/(konto|profil).{1,15}ist.{1,10}verpflichtende handlung/i
+
 /(konto|profil).{1,10}nicht aktualisiert wurde/i
 /(konto|profil).{1,10}nicht mit den.{1,15}sicherheitsstandards aktualisiert/i
 
 /(konto|profil).{1,15}sicher zu halten.{1,10}ist eine identitätsbestätigung/iu
-/(konto|profil).{1,15}vorübergehend eingeschränkt/iu
-/(konto|profil).{1,15}wieder freizuschalten.{1,10}bestätigen sie/iu
+/(konto|profil).{1,10}schützen.{1,10}sicherzustellen/i
+
+/(konto|profil).{1,15}überprüfen.{1,10}damit wir es.{1,10}aktivieren können/iu
+/(konto|profil).{1,15}überprüfen.{1,10}um eine.{1,15}nutzung/iu
+/(konto|profil).{1,15}überprüfen.{1,10}und auf.{1,10}nachrichten/iu
+
+/(konto|profil).{1,10}verifiziert werden muss/i
+/(konto|profil).{1,15}verifizierung bedarf/i
+
+/(konto|profil).{1,10}verknüpfte zahlungsmethode abgelaufen ist/iu
+
+/(konto|profil).{1,10}vorübergehend.{1,10}(de.?aktiviert|eingeschränkt|einzuschränken|gesperrt)/i
+/(konto|profil).{1,10}vorübergehend.{1,10}sicherheitsgründen.{1,10}(ausgesetzt|eingeschränkt|begrenzt|gesperrt)/iu
+/(konto|profil).{1,15}vorübergehend.{1,10}sperrung zu schützen/iu
+/(konto|profil).{1,15}vorübergehende beschränkung/iu
+
+/(konto|profil).{1,10}vorsorglich sperren/i
 
 /(konto|profil).{1,15}(wird|wurde) aufgrund.{1,10}(fehlers|sicherheitsüberprüfung)/iu
-/(konto|profil).{1,15}innerhalb der nächsten.{1,10}Stunden eingeschränkt/iu
 
 /(konto|profil).{1,15}wurde festgestellt.{1,15}hinterlegte zahlungsmethode/i
 /(konto|profil).{1,15}wurde vorsorglich gesichert/i
@@ -137,14 +154,8 @@
 /(konto|profil).{1,10}wurde zum schutz vorübergehend.{1,10}(ausgesetzt|begrenzt|eingeschränkt|gesperrt)/iu
 /(konto|profil).{1,15}wurden einige funktionen vorübergehend.{1,10}(ausgesetzt|begrenzt|eingeschränkt|gesperrt)/iu
 
-/(konto|profil).{1,10}zu gewährleisten.{1,10}müssen sie ihre identität/iu
-
-/(konto|profil).{1,15}überprüfen.{1,10}damit wir es.{1,10}aktivieren können/iu
-/(konto|profil).{1,15}überprüfen.{1,10}um eine.{1,15}nutzung/iu
-/(konto|profil).{1,15}überprüfen.{1,10}und auf.{1,10}nachrichten/iu
-
-/(konto|profil).{1,10}verknüpfte zahlungsmethode abgelaufen ist/iu
 /(konto|profil).{1,10}zu gewährleisten.{1,10}bitten wir sie.{1,10}innerhalb/iu
+/(konto|profil).{1,10}zu gewährleisten.{1,10}müssen sie ihre identität/iu
 /(konto|profil).{1,20}zu können.{1,10}ist eine kurze verifizierung/i
 
 /kontoinformationen.{1,10}aktualisierung.{1,10}empfohlen/i
