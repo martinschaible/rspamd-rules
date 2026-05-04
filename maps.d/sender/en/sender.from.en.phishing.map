@@ -123,8 +123,7 @@
 
 /(aca|health).{0,10}plans?/i
 
-#/accounts?.?(department|help|payable|protection)/i
-/accounts?.?(department|help|payable|protection)/i
+/accounts?.?(department|help|notice|payable|protection)/i
 
 /^accounts?.?team/i
 

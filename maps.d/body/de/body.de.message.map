@@ -29,12 +29,13 @@
 /dies ist eine sehr wichtige botschaft/i
 
 /dringend.{1,10}fordern sie/i
-/dringende?.{1,10}vertrauliche nachricht für sie/iu
+
+/(dringende?|wichtige?).{1,10}mitteilung.{1,10}ich schreibe ihnen/i
+/(dringende?|wichtige?).{1,10}mitteilung.{1,10}sehr geehrter kunde/i
+/(dringende?|wichtige?).{1,10}vertrauliche nachricht für sie/iu
 
 /informationen zu dieser.{1,15}wichtigen.{1,10}angelegenheit/i
 /sehr dringend lieber/i
-
-/wichtige mitteilung.{1,10}sehr geehrter kunde/i
 
 # Message
 # ------------------------------------------------------------------------------

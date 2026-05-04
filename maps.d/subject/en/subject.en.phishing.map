@@ -50,6 +50,10 @@
 /improper use of.{1,10}protected audio/i
 /improper use of.{1,20}in media content/i
 
+# TLD in front, usualy (ch|com|de|org)
+# ------------------------------------------------------------------------------
+/\.[a-z]\d{2,4} to continue/i
+
 #
 #
 #

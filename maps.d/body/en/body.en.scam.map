@@ -83,6 +83,10 @@
 
 /(great|join|world of).{1,10}illuminati/i
 
+# TLD in front, usualy (ch|com|de|org)
+# ------------------------------------------------------------------------------
+/\.[a-z]\d{2,4} to continue/i
+
 #
 #
 #
