@@ -24,8 +24,8 @@
 
 # Exotic TLD
 # ------------------------------------------------------------------------------
-/http:\/\/(www\.)?[a-z0-9-]{3,25}\.(fun|holiday|life|shop)\//i
-/http:\/\/(www\.)?[a-z0-9-]{3,25}\.[a-z0-9-]{3,25}\.(fun|holiday|life|shop)\//i
+/http:\/\/(www\.)?[a-z0-9-]{3,25}\.(biz|fun|holiday|life|shop)\//i
+/http:\/\/(www\.)?[a-z0-9-]{3,25}\.[a-z0-9-]{3,25}\.(biz|fun|holiday|life|shop)\//i
 
 # Damn long domain name
 # Sample: http://IBBK4M5NLH3DTIR7PVDIU5OO7P13CN-ip.hinet.net
