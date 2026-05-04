@@ -29,6 +29,7 @@
 /(audi|mercedes.?benz|porsche|volkswagen|vw).{1,15}(ab lager|sofort|werkszugang)/i
 /(audi|mercedes.?benz|porsche|volkswagen|vw).{1,10}(fahrzeuge|fahrzeugübersicht)/i
 /(audi|mercedes.?benz|porsche|volkswagen|vw).{1,15}modelle verfügbar/iu
+/(audi|mercedes.?benz|porsche|volkswagen|vw).{1,15}direktverkauf/i
 /(audi|mercedes.?benz|porsche|volkswagen|vw).{1,15}vertragsrücklauf/iu
 /(audi|mercedes.?benz|porsche|volkswagen|vw).{1,10}werksvertrieb/i
 
@@ -37,7 +38,8 @@
 /(fahrzeuge|jahreswagen|werksmodelle).{1,10}sofort lieferbar/i
 /(fahrzeuge|jahreswagen|werksmodelle).{1,10}direkt (mitnehmen|verfügbar)/iu
 
-/(geprüfte|lagerabverkauf|verfügbare|zertifizierte).{1,10}(audi|mercedes.?benz|porsche)/iu
+/direktangebote.{1,10}(audi|mercedes.?benz|porsche|volkswagen|vw)/iu
+/(geprüfte|lagerabverkauf|verfügbare|zertifizierte).{1,10}(audi|mercedes.?benz|porsche|volkswagen|vw)/iu
 /(geprüfte|lagerabverkauf|verfügbare|zertifizierte).{1,10}fahrzeuge/iu
 
 /sofort verfügbare.{1,10}(audi|mercedes.?benz|porsche|volkswagen|vw).{1,10}modelle/i
@@ -357,8 +359,6 @@
 
 # T
 # ------------------------------------------------------------------------------
-/teleskop.{1,10}waschbürste/iu
-
 /treten sie der bruderschaft bei/i
 
 # U

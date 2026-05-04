@@ -61,7 +61,8 @@
 /camo.{0,10}lighter/i
 /canvas.{0,10}prints/i
 
-/car.{0,10}(play|repair|shield)/i
+/car.{0,10}(play|repair)/i
+/car.{0,10}(safety|shield)/i
 /car.{0,10}tech.{0,5}daily/i
 
 /cheech.{0,10}chong/i
@@ -291,11 +292,13 @@
 /review.{0,10}service/i
 /rk.?pro/i
 
+/roadside.{0,10}insider/i
 /roof.{0,10}replacement/i
 
 # S
 # ------------------------------------------------------------------------------
 /safe.{0,10}(tech|living)/i
+/safety.{0,10}column/i
 /safety on/i
 
 /^sales.?team$/i
@@ -339,6 +342,7 @@
 /spin.{0,10}scrubber/i
 /spirual.{0,10}waterfall?/i
 
+/staff.{0,10}picks?/i
 /stop wasting/i
 
 /stunning.{0,10}(4k|footage)/i

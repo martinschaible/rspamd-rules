@@ -39,7 +39,7 @@
 # ------------------------------------------------------------------------------
 /accelerate your business/i
 
-/attendees list.{1,10}202\d/i
+/attendees (details|list).{1,10}202\d/i
 
 # B
 # ------------------------------------------------------------------------------
@@ -93,7 +93,7 @@
 /effortless.{1,10}e?.?mail.{1,10}marketing/i
 /enhance your brand.{1,10}online presence/i
 
-/exclusive.{1,10}attendees list/i
+/(202\d|exclusive|tech).{1,10}attendees (details|list)/i
 /exclusive.{1,10}guest posting/i
 
 # F
