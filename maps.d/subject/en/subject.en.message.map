@@ -13,6 +13,7 @@
 
 /(attn|attention).{1,10}(attention|confidential)/i
 /(attn|attention).{1,5}(madam|sir)/i
+/(attn|attention).{1,5}id.? \d{2,10}/i
 
 /(attn|attention).{1,10}e?.?mail.?(address|id).?owner/i
 /(attn|attention).{1,10}(beneficiary|dear|madam|please|sir)/i
