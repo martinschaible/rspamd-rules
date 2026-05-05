@@ -142,7 +142,7 @@
 # ------------------------------------------------------------------------------
 /redesign your.{1,10}(homepage|web.?site)/i
 
-/re.?-(design|make|redo).{1,5}(homepage|web.?site)/i
+/re.?-.?(design|make|redo).{1,5}(homepage|web.?site)/i
 /re-(design|redo)/i
 
 /^re.?designing$/i
