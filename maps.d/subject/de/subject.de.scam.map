@@ -43,15 +43,23 @@
 /(geprüfte|lagerabverkauf|verfügbare|zertifizierte).{1,10}fahrzeuge/iu
 
 /sofort verfügbare.{1,10}(audi|mercedes.?benz|porsche|volkswagen|vw).{1,10}modelle/i
+/gebrauchtfahrzeuge.{1,10}verfügbar/iu
+
 
 /direkt vom händler.{1,10}verfügbare?/iu
 /exklusiven katalog anfordern/i
+/firmenflotten?.{1,25}(bestand|fahrzeuge)/i
 
+/ihre.{1,10}fahrzeugauswahl/i
 /jetzt werkskatalog/i
 /jetzt zugang anfordern/i
 
 /neue fahrzeuge auf lager/i
 /rabatte?.{1,10}über.{1,10}fahrzeuge/iu
+
+/aktueller?.{1,10}fahrzeug(e|bestand)/i
+/unser(em)?.{1,10}fahrzeugbestand/i
+
 /sonderkontingent freigegeben/i
 /vertragsrückläufer.{1,10}sonderkonditionen/iu
 
