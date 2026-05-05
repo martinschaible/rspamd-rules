@@ -942,7 +942,8 @@
 /sbb.{0,5}aktuell/i
 /sbb.{0,5}(kundencenter|kundendienst|swisspass)/i
 
-/sbb(.?cff.?ffs)?.{0,5}(konto|support|technikzentrum)/i
+/sbb(.?cff.?ffs)?.{0,5}(konto|support)/i
+/sbb(.?cff.?ffs)?.{0,5}(team|technikzentrum)/i
 /sbb(.?cff.?ffs)?.{0,5}kundendienst/i
 /sbb(.?cff.?ffs)?.{0,5}(kunden)?service/i
 /sbb\.cff\.ffs/i
@@ -972,6 +973,7 @@
 /serafe(.?ag)?.?\|/i
 /serafe\.ag/i
 /serafe-ag/i
+/serafe.{0,5}kundendienst/i
 /serafe.{0,5}schweiz/i
 
 /server.?\|/i

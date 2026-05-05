@@ -126,6 +126,7 @@
 
 /invite you to register as.{1,10}vendor/i
 /invite your esteemed company.{1,10}participate/i
+/invite your.{1,15}(company|organization).{1,10}to bid/i
 
 /(items?|offerings?|products?).{1,15}caught our attention/i
 /(items?|offerings?|products?).{1,15}start a conversation/i
@@ -196,6 +197,7 @@
 /your.{1,10}(company|organization).{1,10}profile.{1,10}products/i
 /your.{1,15}(company|organization).{1,10}to sign up/i
 /your.{1,15}(company|organization).{1,10}vendor?.{1,10}registration/i
+/your.{1,15}(company|organization).{1,10}to bid for.{1,15}(tender|urgent)/i
 
 /your.{1,10}most recent.{1,10}(brochure|catalog|catalogue)/i
 /your.{1,15}website.{1,10}were genuinely impressed/i
