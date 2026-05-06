@@ -20,6 +20,7 @@
 # ------------------------------------------------------------------------------
 /e(lectric)?.{0,10}(bicycle|bike|cycle|velo).{1,10}from german stock/i
 
+/(experienced|reliable).{1,10}e(lectric)?.{0,10}(bicycle|bike|cycle|velo).{1,10}directly from/i
 /(experienced|reliable).{1,10}e(lectric)?.{0,10}(bicycle|bike|cycle|velo).{1,10}(factory|manufacturer)/i
 /(fat.?tire|moped).{1,15}e(lectric)?.{0,10}(bicycle|bike|cycle|velo)/i
 
@@ -53,9 +54,12 @@
 /with warehouses?.{1,10}in.{1,10}(europe|states|usa)/i
 /(electric|pedal).{1,10}assistant bicycles/i
 
+/supply.{1,15}(practical|reliable).{1,15}e(lectric)?.{0,10}(bicycle|bike|cycle|velo)/i
+
 /this velo is/i
 
 #
+/ccatalog.{1,10}discuss suitable cooperation/i
 /hello.{1,10}we produce around/i
 
 # Night Glasses
