@@ -86,7 +86,7 @@
 # ------------------------------------------------------------------------------
 /details.{1,10}did you get them/i
 
-/did my.{1,10}(e?.?mail|message) reach you?/i
+/did my.{1,10}(e?.?mail|message).{1,15}reach you?/i
 /did you see my.{1,10}(e?.?mail|message)/i
 /did you receive\?/i
 
@@ -140,6 +140,7 @@
 # ------------------------------------------------------------------------------
 /missed my message last week/i
 
+/my.{1,10}(e?.?mail|message).{1,10}reached you/i
 /my (last|previous).{1,10}(e?.?mail|message).{1,10}(delivered|received)/i
 /my update from last week reached/i
 
@@ -185,6 +186,7 @@
 
 # S
 # ------------------------------------------------------------------------------
+/sure you received my.{1,10}(e?.?mail|message)/i
 
 # T
 # ------------------------------------------------------------------------------
@@ -221,7 +223,7 @@
 /you checked.{1,10}(e?.?mail|message).{1,10}from/i
 /you (getting|receive) my (e?.?mail|message)s?/i
 
-/you have.{1,10}chance to see.{1,10}(e?.?mail|message)/i
+/you (had|have).{1,10}(chance|time) (review|to see).{1,10}(e?.?mail|message)/i
 
 /you (caught|get|received?|saw).{1,10}(e?.?mail|message).{1,10}last week/i
 /you (caught|get|received?|saw).{1,10}(earlier|last|previous).{1,10}(e?.?mail|message)/i
@@ -230,6 +232,8 @@
 /you recive my.{1,10}e?.?mail/i
 
 /you received? the.{1,10}(e?.?mail|message)/i
+/you see.{1,10}(e?.?mail|message).{1,10}i sent recently/i
+
 
 /your attention!/i
 /your utmost attention/i
