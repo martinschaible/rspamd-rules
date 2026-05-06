@@ -20,6 +20,7 @@
 /china.{1,10}with.{1,10}certification/i
 
 /chinese.{1,10}cold rolled/i
+/chinese.{1,10}footwear/i
 /chinese.{1,15}shoe factory/i
 /chinese.{1,10}steel.{1,10}(coil|manufacturer)/i
 
@@ -409,9 +410,10 @@
 /passive.{1,10}component.{1,10}(broker|supply)/i
 /passive.{1,10}parts?.{1,10}(req|xilinx)/i
 
-/partner.{1,15}with us for/i
-/partner for.{1,15}(pcba?|printed.?circuits?.?board)/i
-/partners worthy of your/i
+/partners?.{1,10}for.{1,15}(pcba?|printed.?circuits?.?board)/i
+/partners?.{1,10}in printing/i
+/partners?.{1,15}with us for/i
+/partners?.{1,10}worthy of your/i
 
 /parts from china/i
 /(parts|source).{1,10}manufacturer/i

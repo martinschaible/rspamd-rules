@@ -35,6 +35,7 @@
 
 /account.{1,10}avoid restrictions/i
 /account.{1,10}de.?activation.{1,10}progress/i
+/account.{1,10}disable request/i
 /account.{1,15}(has been temporarily|might be).{1,10}(restricted|suspended)/i
 /account.{1,10}information update required/i
 /account.{1,10}locked.{1,10}resolve now/i
@@ -115,6 +116,7 @@
 
 # P
 # ------------------------------------------------------------------------------
+/permanently.{1,15}(account|profile)/i
 
 # Q
 # ------------------------------------------------------------------------------

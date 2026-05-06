@@ -876,7 +876,9 @@
 /medical.{0,10}update/i
 /medical.{0,10}watchdog/i
 
-/men.?s?.{0,10}(only|power|vitality|wellness)/i
+/men.?s?.{0,10}(only|vitality|wellness)/i
+/men.?s?.{0,10}(power|pride)/i
+
 /mental.{0,10}clarity/i
 
 /(metabolic|metabolism).{0,10}(balance|boost(er)?)/i
