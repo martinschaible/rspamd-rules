@@ -135,7 +135,9 @@
 /interest.{1,10}(pcba?|printed.?circuit.?board).{1,10}technology/i
 
 /is.{1,10}well.{1,10}established.{1,10}(company|factory|supplier) of /i
+
 /is a professional iso \d{4,5}/i
+/is a professional distributor of/i
 
 # J
 # ------------------------------------------------------------------------------

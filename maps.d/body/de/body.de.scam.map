@@ -60,7 +60,8 @@
 
 /(werksmodelle|werkswagen).{1,15}(anfragen|direkt|katalog|persönlich)/i
 
-/fahrzeugen?.{1,25}aus dem leasingrücklauf vermarktet/iu
+/fahrzeugen?.{1,15}finanzierungsrücklauf/i
+/fahrzeugen?.{1,25}leasingrücklauf vermarktet/iu
 /fahrzeugen?.{1,15}(direktverwertung|sind direkt|zwischenlager)/i
 /fahrzeugen?.{1,10}inkl.{1,10}mwst.{1,10}fahrbereit/i
 /fahrzeugen?.{1,15}klarer historie/i
@@ -79,6 +80,9 @@
 
 /verträgen stammen.{1,10}sofort für sie/iu
 /werksfahrzeug.?team/i
+
+#
+/verkaufsberater.{1,10}volkswagen ag/i
 
 # Comparing price for solar energy at home
 # ------------------------------------------------------------------------------
