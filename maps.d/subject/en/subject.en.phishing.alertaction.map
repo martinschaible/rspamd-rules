@@ -176,11 +176,15 @@
 # ------------------------------------------------------------------------------
 /final compliance.{1,10}alert/i
 
-/final (notice|reminder|warning).{1,10}account (information|termination)/i
-/final (notice|reminder|warning).{1,10}(confirm|refresh|verify) your/i
-/final (notice|reminder|warning).{1,10}do not miss/i
-/final (notice|reminder|warning).{1,10}enable.{1,20}2fa/i
-/final (notice|reminder|warning).{1,10}unpaid delivery charges/i
+/(final|last) (notice|reminder|warning).{1,10}account (information|termination)/i
+/(final|last) (notice|reminder|warning).{1,10}(action|update) (needed|required)/i
+/(final|last) (notice|reminder|warning).{1,10}e?.?mail.{1,10}(shutdown|suspension)/i
+/(final|last) (notice|reminder|warning).{1,10}(confirm|refresh|verify) your/i
+/(final|last) (notice|reminder|warning).{1,10}do not miss/i
+/(final|last) (notice|reminder|warning).{1,10}enable.{1,20}2fa/i
+/(final|last) (notice|reminder|warning).{1,10}unpaid delivery charges/i
+/(final|last) (notice|reminder|warning).{1,10}your access to/i
+/(final|last) (notice|reminder|warning).{1,10}we noticed/i
 
 /form renewal required/i
 
@@ -240,11 +244,6 @@
 # L
 # ------------------------------------------------------------------------------
 /last chance to avoid.{1,20}interruption/i
-
-/last reminder.{1,10}(action|update) (needed|required)/i
-/last reminder.{1,10}e?.?mail.{1,10}shutdown/i
-/last reminder.{1,10}we noticed/i
-/last reminder.{1,10}your access to/i
 
 /login.{1,10}detected.{1,10}(action|update) (needed|required)/i
 /login.{1,10}detected.{1,15}verify your.{1,15}account/i
