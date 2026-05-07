@@ -1158,7 +1158,10 @@
 
 /small.{0,10}stomach/i
 /smart.{0,10}(brain|carbs|drugs?|exercise|food|insight|keto|lifestyle|sleep|supplement|trick)/i
-/smile.{0,10}(fix|health|recovery|secret|science)/i
+
+/smile.{0,10}(essentials|fix|health|recovery)/i
+/smile.{0,10}(secret|science)/i
+
 /smooth(er)?.{0,10}skin/i
 
 /skin.{0,10}(boost|insight|renewal|rescue|tip)/i

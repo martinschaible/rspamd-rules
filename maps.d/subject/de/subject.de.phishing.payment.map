@@ -38,6 +38,8 @@
 
 /dein konto hat eine offene rechnung/i
 
+/dienst pausiert.{1,10}zahlung von/i
+
 # E
 # ------------------------------------------------------------------------------
 /erfordert eine zahlung/i
@@ -149,6 +151,7 @@
 /zahlung.{1,10}geldstrafe.{1,10}nicht erhalten/i
 /zahlung.{1,10}konnte nicht verarbeitet werden/i
 /zahlung.{1,10}noch nicht bestätigt/iu
+/zahlung.{1,10}von chf.{1,10}ausstehend/i
 
 /zahlung fehlgeschlagen/i
 /zahlung nicht abgewickelt/i
