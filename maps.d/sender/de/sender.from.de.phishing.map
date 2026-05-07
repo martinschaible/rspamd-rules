@@ -118,7 +118,7 @@
 # ------------------------------------------------------------------------------
 /ihr.{0,15}(geschenk|gewinn|vorteil)/i
 
-/ihr.{1,15}bank.?team/i
+/ihr.{1,15}(bank.?team|kundendienst|kundenservice)/i
 
 /ihre.{0,15}(bestellung|chance)/i
 /ihre?.{0,15}(paket|sendung)/i
