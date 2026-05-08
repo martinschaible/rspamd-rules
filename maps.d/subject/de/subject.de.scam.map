@@ -39,6 +39,7 @@
 /(fahrzeuge|jahreswagen|werksmodelle).{1,10}sofort lieferbar/i
 /(fahrzeuge|jahreswagen|werksmodelle).{1,10}direkt (mitnehmen|verfügbar)/iu
 
+/fahrzeugangebote.{1,10}geprüfte modelle/iu
 /direktangebote.{1,10}(audi|mercedes.?benz|porsche|volkswagen|vw)/iu
 /(geprüfte|lagerabverkauf|verfügbare|zertifizierte).{1,10}(audi|mercedes.?benz|porsche|volkswagen|vw)/iu
 /(geprüfte|lagerabverkauf|verfügbare|zertifizierte).{1,10}fahrzeuge/iu

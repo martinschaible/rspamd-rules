@@ -317,9 +317,10 @@
 /apiie ld/i
 /apple.{0,10}airtag/i
 /apple.{0,10}(autorisierung|kunden.?service|netzwerk|zahlung)/i
+/apple.{0,10}center/i
 /apple.{0,10}online/i
 /apple.{0,10}rechnung/i
-/apple.{0,10}services/i
+/apple.{0,10}services?/i
 /apple.{0,10}warnsystem/i
 
 /apple.?pay/i

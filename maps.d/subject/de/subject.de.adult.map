@@ -11,8 +11,8 @@
 /(bezaubernde|entzückende|freche|heiße|leidenschaftliche)s?.{1,10}(dame|frauen|mädchen)/iu
 /(bezaubernde|entzückende|freche|heiße|leidenschaftliche)s?.{1,10}ukrainische/i
 
-/(magische|schöne|spektakuläre|süße|verführerische)s?.{1,10}(dame|frauen|mädchen)/iu
-/(magische|schöne|spektakuläre|süße|verführerische)s?.{1,10}ukrainische/iu
+/(echte|magische|schöne|spektakuläre|süße|verführerische)s?.{1,10}(dame|frauen|mädchen)/iu
+/(echte|magische|schöne|spektakuläre|süße|verführerische)s?.{1,10}ukrainische/iu
 
 /frauen warten.{1,15}auf dich/i
 
@@ -192,6 +192,8 @@
 
 # K
 # ------------------------------------------------------------------------------
+/keine.{1,10}fake.?profile/i
+
 /kommen sie zu uns/i
 /kommt ein neues profil/i
 /könnte zu dir passen/i
