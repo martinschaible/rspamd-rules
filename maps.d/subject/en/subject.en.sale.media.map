@@ -58,6 +58,7 @@
 
 # C
 # ------------------------------------------------------------------------------
+/(casino|forex).{1,10}(databases?|leads)/i
 /cheap(er)? lead tools/i
 
 /customized list.{1,10}education/i
@@ -142,6 +143,7 @@
 # L
 # ------------------------------------------------------------------------------
 /leads.{1,10}databases/i
+/leads.{1,10}for sale/i
 /leads.{1,10}from.{1,10}events/i
 
 /^link affinity$/i
