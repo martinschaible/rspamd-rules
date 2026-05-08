@@ -44,6 +44,8 @@
 /capital.{1,10}your profitable project/i
 /(company|finance).{1,15}offering.{1,15}project funding/i
 
+/(complete|urgently).{1,15}need funding/i
+
 /corporate funding opportunities/i
 
 # D
@@ -122,12 +124,13 @@
 
 # O
 # ------------------------------------------------------------------------------
-/(offering|offers?|provides?|providing).{1,10}corporate.{1,10}(financing|personal).{1,10}loans/i
+/(offering|offers?|provides?|providing).{1,10}corporate.{1,10}(financing|personal).{1,10}(financing|loans?)/i
 /(offering|offers?|provides?|providing).{1,10}business loans.{1,10}interest.?rate/i
 /(offering|offers?|provides?|providing).{1,10}business loans.{1,10}personal loans/i
 /(offering|offers?|provides?|providing).{1,15}financial support to/i
 /(offering|offers?|provides?|providing).{1,20}financing solutions/i
 /(offering|offers?|provides?|providing).{1,15}financing to.{1,15}companies/i
+/(offering|offers?|provides?|providing).{1,15}reliable.{1,15}(financing|loans?)/i
 
 /our.{1,10}business loan offers/i
 /our.{1,15}funding programs/i
