@@ -18,8 +18,15 @@
 
 # A
 # ------------------------------------------------------------------------------
-/an unserer kurzen.{1,10}umfrage teilzunehmen/i
+/als dankeschön haben sie die chance/iu
+/an unserer kurzen.{1,10}(befragung|umfrage) teilzunehmen/i
+
+/anspruch geltend zu machen.{1,10}beantworten sie.{1,10}die folgenden/i
+/anspruch zu nehmen.{1,10}nehmen sie.{1,15}an dieser.{1,10}(befragung|umfrage)/i
+
 /antworten und gewinnen/i
+
+/auserwählten.{1,10}(die|eine).{1,15}(befragung|umfrage)/iu
 
 # B
 # ------------------------------------------------------------------------------
@@ -64,6 +71,8 @@
 
 # E
 # ------------------------------------------------------------------------------
+/einige fragen.{1,10}erhalten.{1,10}sie ihr/i
+/ergebnisse unserer wöchentlichen.{1,20}(befragung|umfrage) sind da/i
 /exklusive nutzerumfrage ausgewählt wurde/iu
 
 # F
@@ -77,17 +86,22 @@
 
 # G
 # ------------------------------------------------------------------------------
+/geltend zu machen.{1,10}nehmen sie.{1,15}an dieser.{1,10}(befragung|umfrage)/i
+
+/gewinner unserer neuesten.{1,10}(befragung|umfrage)/i
 
 # H
 # ------------------------------------------------------------------------------
 
 # I
 # ------------------------------------------------------------------------------
-/ihre meinung zählt.{1,10}kurze umfrage/iu
+/ihr name wurde für.{1,15}(befragung|umfrage).{1,20}vorgeschlagen/iu
+/ihre meinung zählt.{1,10}kurze.{1,10}(befragung|umfrage)/iu
 
 # J
 # ------------------------------------------------------------------------------
-/jetzt an der befragung teilnehmen/i
+/jetzt.{1,10}an der.{1,10}(befragung|umfrage) teilnehmen/i
+
 /jetzt gewinnerstatus.{1,10}prüfen/iu
 
 # K
@@ -95,22 +109,24 @@
 /kundenfeedback programm.{1,10}ihre meinung zählt/iu
 /kundenumfrage.{1,10}sie wurden als einer/i
 
-/kurze umfrage starten/i
+/kurze.{1,10}(befragung|umfrage) starten/i
 
 /kostenlos.{1,10}es dauert nur eine minute/i
 /kostenlosen?.{1,10}kundenumfrage/i
 
-/können heute an.{1,10}umfrage teilnehmen/iu
+/können heute an.{1,10}(befragung|umfrage) teilnehmen/iu
 
 # L
 # ------------------------------------------------------------------------------
+/lohnenswerten?.{1,10}(befragung|umfrage).{1,10}teilzunehmen/i
 
 # M
 # ------------------------------------------------------------------------------
+/minuten teil.{1,10}erhalten sie einen fantastischen preis/i
 
 # N
 # ------------------------------------------------------------------------------
-/nehmen sie kurz an unserer.{1,15}befragung teil/iu
+/nehmen sie kurz an unserer.{1,15}(befragung|umfrage) teil/iu
 /nimm jetzt.{1,15}offiziellen.{1,15}kundenumfrage/i
 
 # O
@@ -121,24 +137,25 @@
 
 # Q
 # ------------------------------------------------------------------------------
+/qualifizieren.{1,10}müssen sie.{1,10}die folgenden.{1,10}fragen/i
 
 # R
 # ------------------------------------------------------------------------------
-/rahmen einer kurzen mitgliederumfrage/i
+/rahmen einer kurzen.{1,15}(befragung|umfrage)/i
 
 # S
 # ------------------------------------------------------------------------------
-/sie.{1,10}an unserer.{1,10}umfrage teilgenommen haben/i
-/sie.{1,10}an unserer.{1,10}kurzen umfrage teilnehmen/i
+/sie.{1,10}an unserer.{1,10}(befragung|umfrage) teilgenommen haben/i
+/sie.{1,10}an unserer.{1,10}kurzen.{1,10}(befragung|umfrage) teilnehmen/i
 
-/sie.{1,10}eine kurze umfrage/i
+/sie.{1,10}eine kurze.{1,10}(befragung|umfrage)/i
 /sie.{1,10}einen kurzen fragebogen/i
 
-/sie.{1,10}(dazu|einfach).{1,15}kurze umfrage/i
+/sie.{1,10}(dazu|einfach).{1,15}kurze.{1,10}(befragung|umfrage)/i
 /sie.{1,10}haben.{1,10}minuten.{1,10}um die folgenden fragen zu beantworten/i
 
-/sie.{1,10}wurden ausgewählt.{1,10}nehmen sie an unserer.{1,10}umfrage/i
-/sie.{1,10}wurden ausgewählt.{1,10}um an unserer.{1,10}umfrage/iu
+/sie.{1,10}wurden ausgewählt.{1,10}an unserer.{1,10}(befragung|umfrage)/iu
+/sie.{1,10}wurden ausgewählt.{1,10}nehmen sie an unserer.{1,10}(befragung|umfrage)/i
 
 # T
 # ------------------------------------------------------------------------------

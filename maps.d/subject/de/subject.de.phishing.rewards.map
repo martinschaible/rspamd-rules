@@ -43,12 +43,10 @@
 /(rituals|shein|zalando).{0,10}mystery.?box/i
 /(die|eine).{1,10}mystery.?box/i
 
-/box.?set wartet auf sie/i
-/mystery.?box.{1,10}(erwartet dich|ist da)/i
+/(box.?set|mystery.?box|werkzeug.?set).{1,10}(erwartet dich|ist da)/i
+/(box.?set|mystery.?box|werkzeug.?set).{1,10}wartet auf sie/i
 
 /preise?.{1,15}mystery.?box/i
-
-/werkzeug.?set.{1,10}wartet auf sie/i
 
 # Apple
 /(airpods|apple|ipad|iphone|macbook|watch ultra).{1,15}ausgewählte.{1,20}(gewinner|kunden)/i
@@ -342,7 +340,8 @@
 /ihr.{1,10}name steht.{1,15}auf der liste/i
 /ihr.{1,10}name wurde für ein/iu
 
-/ihr.{1,10}(neuer|neues).{1,20}(im wert|wartet)/i
+#/ihr.{1,10}(neuer|neues).{1,20}(im wert|wartet)/i
+/ihr.{1,10}(neuer|neues).{1,20}im wert/i
 
 /ihr.{1,15}rewards/i
 
