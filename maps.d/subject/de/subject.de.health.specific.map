@@ -25,12 +25,8 @@
 
 # Men
 # ------------------------------------------------------------------------------
-/(erektions|potenz).?(mittel|leistung|pillen|stundenlang)/i
-/erektion nicht/i
-
 /extrastärke wartet/iu
 
-/(garantierte|starke).?erektion/i
 /produktion.{1,10}sexualhormonen/i
 
 /(gut|schlecht).{1,10}beim (beischlaf|lieben|liebesspiel|sex|s\.e\.x)/i
@@ -39,7 +35,6 @@
 /hart.{1,10}bis.{1,10}morgen/i
 /hart.{1,10}wenn es/i
 
-/(harte|härtere|längere|sofortige|starke).{1,10}erektion(en)?/iu
 /gigantischer.?penis/i
 
 /(glied|penis).{1,10}erigiert/i
@@ -50,7 +45,7 @@
 
 /intensive.{1,5}sex/i
 /intensive.{1,5}lust/i
-/intensiver.{1,5}orgasmus/i
+/(intensiver?|starker|stärkere).{1,5}(orgasmen|orgasmus)/i
 
 /diskrete.{1,10}unterstützung/iu
 /deine?.{1,10}potenz/i
@@ -63,6 +58,8 @@
 /(herren|männer).{1,10}(medizin|meds)/iu
 /(herren|männer).{1,10}vitalprodukt/i
 
+/(orgasmen|orgasmus).{1,10}probieren/i
+
 /unersättliche nächte/iu
 /ursache.{1,10}erektionsstörung(en)?/i
 
@@ -71,6 +68,17 @@
 
 /verbotene.{1,10}härte/iu
 /vollen?.{1,10}standfestigkeit/i
+
+# Erection
+# ------------------------------------------------------------------------------
+/(erektions|potenz).?(mittel|leistung|pillen|stundenlang)/i
+/erektion(en)? nicht/i
+
+
+/(garantierte|längere).{1,10}erektion(en)?/iu
+/(harte|härtere).{1,10}erektion(en)?/iu
+/(sofortige|starke).{1,10}erektion(en)?/iu
+/wenn die.{1,10}erektion(en)?/i
 
 # Potency
 # ------------------------------------------------------------------------------
@@ -116,7 +124,6 @@
 /volle.{1,10}manneskraft/i
 /vorzeitigem höhepunkt/iu
 
-/wenn die erektion/i
 /(blauen?|rezepfreie).{1,10}(pillen?|tabletten?)/i
 
 /zu frühes kommen/iu
