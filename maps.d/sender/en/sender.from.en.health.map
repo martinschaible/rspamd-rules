@@ -509,7 +509,7 @@
 /click(ing)?.{0,10}(free|noise|sounds?)/i
 /clinically.{0,10}proven/i
 
-/clog(ged)?.{0,10}(arteries|artery|liver)/i
+/clog(ged)?.{0,10}(arteries|artery|colon|liver)/i
 /closed.{0,10}arteries/i
 
 /coffee.{0,10}(drop|extracts?)/i
@@ -1091,6 +1091,8 @@
 /reverse.{0,10}(aging|gum)/i
 /revive.{0,10}your/i
 
+/ringing.{0,10}(ears|gone)/i
+
 /rise.{0,10}again/i
 /rock.{0,10}(hard|solid)/i
 /root.{0,10}(cause|power)/i
@@ -1109,8 +1111,8 @@
 
 /sciatica.{0,10}(fix|pain|solution)/i
 
-/science.{0,10}(leak|update)/i
-/scientists?.{0,10}reveals?/i
+/(science|scientists?).{0,10}(insider|leak|update)/i
+/(science|scientists?).{0,10}reveals?/i
 
 /sec(ond)?.{1,10}(flush|move|neck lift)/i
 /sec(ond)?.{1,10}(trick|tweak)/i

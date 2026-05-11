@@ -39,6 +39,7 @@
 
 # Amazon uses this
 #/account.?update/i
+/account.{1,10}support/i
 
 /admin\d@/i
 /admin-support@/i
@@ -197,6 +198,8 @@
 
 #  24.06.25 - Sample: store+90808156488@t.shopifyemail.com
 #/store\+\d{4,10}/i
+
+/support.?account/i
 
 #/system@/i
 

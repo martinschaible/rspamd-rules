@@ -920,6 +920,7 @@
 /(info|twint).{0,10}raiffeisen/i
 
 /rentenversicherung.{0,10}bund/i
+/rentenversicherung.?-/i
 
 /rituals.{0,10}team/i
 
@@ -1060,7 +1061,9 @@
 /swiss-pass/i
 #/swisspas\./i
 #/swisspass\.ch/i
+/swisspass.?ag/i
 /swisspass.{1,5}(benachrichtigung|cff|sbb|support)/i
+/swisspass.{1,5}finanzdienst/i
 /swisspass.{1,5}(kartendienst|kunden?(dienst)?|konto)/i
 
 #/swisspass\./i
@@ -1129,6 +1132,7 @@
 
 /-ubereats/i
 
+/usa.?today.{0,10}home/i
 # V
 # ------------------------------------------------------------------------------
 /via cpanel/i
