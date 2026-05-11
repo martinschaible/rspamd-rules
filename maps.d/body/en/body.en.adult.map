@@ -138,6 +138,7 @@
 
 # X
 # ------------------------------------------------------------------------------
+/you.{1,10}private.{1,10}(photos?|pictures?)/i
 /you my.{1,10}(photos?|pictures?).{1,10}attach/i
 /you need.{1,10}dating.?site/i
 /you with.{1,10}link to my profile/i
