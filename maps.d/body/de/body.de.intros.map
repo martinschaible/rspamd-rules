@@ -125,7 +125,8 @@
 
 /ich hoffe.{1,10}es geht ihnen gut.{1,10}mein name/i
 
-/ich möchte mit ihnen kommunizieren/iu
+/ich möchte mit.{1,10}ihnen kommunizieren/iu
+/ich möchte mich.{1,10}vorstellen.{1,10}mein name ist/i
 
 /ich vertrete ein führendes unternehmen/iu
 /ihnen.{1,10}unser unternehmen vorzustellen/i
@@ -207,6 +208,8 @@
 /mein name ist.{5,35}eine?.{1,15}(angestellter?|wirtschaftsmagnat)/i
 
 /mein name ist.{5,35}ich vertrete/i
+
+/mein name ist.{5,35}senior partner/i
 
 /mein name ist.{5,35}von.{5,25}(co\.|holdings|ltd|trading)/i
 /mein name ist.{5,25}von.{1,25}(agentur|marketing)/i

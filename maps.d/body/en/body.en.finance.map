@@ -37,6 +37,11 @@
 /based.{1,10}investment.{1,10}loan company/i
 /based.{1,10}lender offering/i
 
+/(business|corporate).{1,10}loans?.{1,10}personal loans/i
+/(business|corporate|personal).{1,10}loans?.{1,10}(business|investment).{1,10}loans?/i
+/(business|corporate|personal).{1,10}loans?.{1,10}for any purpose/i
+/(business|personal).{1,10}loans?.{1,10}corporate loans?/i
+
 /business opportunities.{1,10}potential.{1,15}(funding|investment)/i
 
 # C
@@ -58,10 +63,12 @@
 # ------------------------------------------------------------------------------
 /flexible.{1,10}confidential.{1,10}loan/i
 
-/(finance|financing).{1,10}all types of.{1,15}(investments|projects)/i
-/(finance|financing).{1,10}competitive.{1,10}interest rates/i
-/(finance|financing).{1,20}funding opportunities/i
-/(finance|financing).{1,10}solutions suitable for any/i
+/(finance|financing|funding).{1,10}all types of.{1,15}(investments|projects)/i
+/(finance|financing|funding).{1,10}competitive.{1,10}interest rates/i
+/(finance|financing|funding).{1,10}for your business/i
+/(finance|financing|funding).{1,20}opportunities/i
+/(finance|financing|funding).{1,10}program.{1,15}do not hesitate/i
+/(finance|financing|funding).{1,10}solutions suitable/i
 
 /first.?class.{1,10}financial.{1,10}institution/i
 
@@ -99,6 +106,7 @@
 /(loan|credit)s?.{1,15}business with low interest/i
 /(loan|credit)s?.{1,10}finance.{1,10}project/i
 /(loan|credit)s?.{1,10}for your.{1,10}(business|personal)/i
+/(loan|credit)s?.{1,10}here to help/i
 /(loan|credit)s?.{1,10}small.{1,10}medium business(es)/i
 /(loan|credit)s?.{1,10}offer.{1,10}interest rate/i
 /(loan|credit)s?.{1,10}offer.{1,10}with.{1,10}perfect/i
@@ -106,7 +114,7 @@
 /(loan|credit)s?.{1,15}that will help you/i
 /(loan|credit)s?.{1,15}to pay urgent/i
 /(loan|credit)s?.{1,10}unsecured.{1,15}funding/i
-/(loan|credit)s?.{1,15}we (manage|offer)/i
+/(loan|credit)s?.{1,15}we (manage|offer|provide)/i
 
 /(loan|credit)s?.{1,10}you can.{1,10}get up/i
 /(loan|credit)s?.{1,10}your needs/i
@@ -144,6 +152,10 @@
 /partnership project funding/i
 
 /presently providing.{1,15}(financial|loans)/i
+
+/project.{1,10}investment loans/i
+
+/provide.{1,15}(fast|reliable).{1,10}financial/i
 
 # Q
 # ------------------------------------------------------------------------------
@@ -229,6 +241,8 @@
 # ------------------------------------------------------------------------------
 /you.{1,10}have.{1,10}project.{1,10}requires funding/i
 /you.{1,10}have.{1,10}project.{1,10}(in|that) need.{1,10}(financial|funded)/i
+
+/you.{1,10}looking for.{1,15}oan/i
 
 /you.{1,10}(pre)?qualified for our business/i
 /you.{1,10}(pre)?qualified for up to \{d3,6}/i

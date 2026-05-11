@@ -281,7 +281,8 @@
 
 /sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,20}ihnen auch (in zukunft|weiterhin)/i
 
-/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,20}im rahmen.{1,10}unserer{1,15}system/i
+/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,20}im rahmen.{1,10}unserer.{1,15}system/i
+/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,20}im rahmen.{1,10}unseres.{1,15}engagements/i
 /sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,20}im rahmen.{1,10}(der|ihrer) gesetzlich(en)?/i
 /sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,20}im rahmen.{1,25}(datenschutz|eintragung|europäischen|optimierung|sicherheits|verpflichtungen)/iu
 /sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,20}im rahmen.{1,15}(jährlichen|regelmäßigen).{1,10}(datenpflege|kontrolle|qualitätskontrolle)/iu
