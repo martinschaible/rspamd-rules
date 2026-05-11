@@ -34,6 +34,7 @@
 # Numeric
 # ------------------------------------------------------------------------------
 /202\d contact.?list/i
+\d{3,5} client profiles/i
 
 # A
 # ------------------------------------------------------------------------------
@@ -92,7 +93,8 @@
 /e?.?mail.{1,10}success starts with us/i
 
 /effortless.{1,10}e?.?mail.{1,10}marketing/i
-/enhance your brand.{1,10}online presence/i
+
+/(empower|enhance|make) your.{1,10}(brand|business)/i
 
 /(202\d|exclusive|tech).{1,10}attendees (details|list)/i
 /exclusive.{1,10}guest posting/i
@@ -155,8 +157,6 @@
 
 # M
 # ------------------------------------------------------------------------------
-/make your brand/i
-
 /mailing.{1,10}for your clients/i
 /mailing.{1,10}lead generation/i
 
@@ -246,7 +246,6 @@
 /with.{1,10}wikipedia listing/i
 /with full contact details/i
 
-
 # X
 # ------------------------------------------------------------------------------
 
@@ -255,7 +254,9 @@
 /you grow your.{1,10}(brand|business|online)/i
 /you utilizing.{1,10}visitors.{1,10}e?.?mails/i
 
-/your.{1,10}brand stand out/i
+/your.{1,10}brand.{1,10}stand out/i
+/your.{1,10}brand.{1,10}online presence/i
+
 /your.{1,10}business (as|on).{1,25}wikipedia/i
 /your.{1,10}(content|instagram) deserves/i
 /your.{1,10}lead potential/i
