@@ -30,6 +30,9 @@
 /from.{1,10}china.{1,10}(recently|to)/i
 /from.{1,10}ports.{1,10}china/i
 
+/business.{1,20}china.{1,10}supplier/i
+/(backback|gift|totes|wallets).{1,10}china.{1,10}supplier/i
+
 /custom shirts.{1,15}from.{1,10}china/i
 /competitive.{1,15}from.{1,10}china/i
 /(components|plastic|supply|toolmaking).{1,15}china/i
@@ -81,6 +84,8 @@
 # ------------------------------------------------------------------------------
 /(bag|luggage).{1,10}(factory|manufacturer|supplier)/i
 /(bag|luggage).{1,10}turn.?key/i
+
+/bathroom..{1,10}storage solutions/i
 
 /(batteries|rechargeable).{1,15}lithium prices/i
 
@@ -142,7 +147,7 @@
 /custom.{1,10}(bags?|cap|machined parts|metal stamping)/i
 /(custom|excellent).{1,10}(pcba?|printed.circuits?.board)/i
 /custom.{1,10}keychain.{1,15}(brand|solutions)/i
-/custom.{1,10}manufacturing.{1,10}prototype/i
+/custom.{1,10}manufacturing.{1,10}(prototype|solutions?)/i
 
 /custom.{1,10}packaging.{1,10}printing/i
 /custom.{1,15}products? manufacturing/i
@@ -543,6 +548,8 @@
 /(shipping|shipment|transport) from.{1,20}competitive price/i
 
 /shoes direct factory/i
+/shop.{1,10}acrylic bathroom/i
+
 /shower sets?.{1,10}faucets/i
 
 /(scarves|silk).{1,10}for your brand/i

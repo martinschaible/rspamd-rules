@@ -893,7 +893,9 @@
 /min.?stretch/i
 /mind.{0,10}(balance|barriers?|blow|button|body|boost)/i
 /mind.{0,10}discovery/i
-/mind.{0,10}(clarity|clear|focus|health|mood|recovery|restore|science)/i
+/mind.{0,10}(clarity|clear)/i
+/mind.{0,10}(focus|health|mood|science|wealth)/i
+/mind.{0,10}(recovery|restore)/i
 
 /mineral.{0,10}(combination|magic)/i
 
@@ -1260,7 +1262,8 @@
 
 /tiktok.{0,10}viral/i
 
-/(tingling|numb).{0,10}(feet|hand|nerves)/i
+/(tingling|numb).{0,10}(feet|hand)/i
+/tingling.{0,10}(nerves|numbness)/i
 
 /toned.{0,10}belly/i
 /tongue.{0,10}move/i
