@@ -19,6 +19,10 @@
 # Generic
 # ==============================================================================
 
+# Number in front
+# ------------------------------------------------------------------------------
+\d{3,4}.{1,5}(rück)?erstattung/iu
+
 # A
 # ------------------------------------------------------------------------------
 /abrechnung.{1,15}rückerstattungsanfrage/iu
@@ -108,6 +112,8 @@
 # ------------------------------------------------------------------------------
 /konto weist.{1,10}verfügbares guthaben/iu
 
+/krankenversicherung.{1,10}erhalten haben/i
+
 # L
 # ------------------------------------------------------------------------------
 
@@ -129,6 +135,7 @@
 
 # R
 # ------------------------------------------------------------------------------
+
 /rechnung.{1,10}steht zur überprüfung bereit/iu
 /rechnung.{1,10}wird zweimal bezahlt/i
 
@@ -162,6 +169,7 @@
 
 /(rück)?erstattung.{1,10}verfällt in.{1,10}stunden/iu
 /(rück)?erstattung.{1,10}von.{1,15}ihre krankenversicherung/i
+/(rück)?erstattung.{1,10}von.{1,10}\d{3,4}/iu
 /(rück)?erstattung.{1,10}wegen.{1,15}doppelabbuchung/iu
 /(rück)?erstattung.{1,10}wurde (angenommen|bestätigt|genehmigt)/iu
 /(rück)?erstattung.{1,10}zur verfügung/iu
