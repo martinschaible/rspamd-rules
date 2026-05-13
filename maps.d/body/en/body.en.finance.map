@@ -133,6 +133,7 @@
 # O
 # ------------------------------------------------------------------------------
 /(offering|offers?|provides?|providing).{1,10}corporate.{1,10}(financing|personal).{1,10}(financing|loans?)/i
+/(offering|offers?|provides?|providing).{1,10}business loans.{1,10}investment/i
 /(offering|offers?|provides?|providing).{1,10}business loans.{1,10}interest.?rate/i
 /(offering|offers?|provides?|providing).{1,10}business loans.{1,10}personal loans/i
 /(offering|offers?|provides?|providing).{1,15}financial support to/i
@@ -239,6 +240,8 @@
 
 # Y
 # ------------------------------------------------------------------------------
+/you are.{1,15}seeking funding/i
+
 /you.{1,10}have.{1,10}project.{1,10}requires funding/i
 /you.{1,10}have.{1,10}project.{1,10}(in|that) need.{1,10}(financial|funded)/i
 

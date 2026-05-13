@@ -32,6 +32,8 @@
 
 /(abonnementverlängerung|authentifizierung).{1,15}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/iu
 
+/aktion ist erforderlich.{1,15}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/i
+
 /anmeldung festgestellt.{1,15}guten (abend|morgen|tag)/i
 
 # B
@@ -268,6 +270,7 @@
 /sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,20}führt regelmäßig eine überprüfung/iu
 
 /sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,20}ihr.{1,15}(konto|profil).{1,10}wurde aktualisiert/i
+/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,20}ihr.{1,25}in höhe von/iu
 
 /sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,20}ihre?.{1,10}speicher ist voll/i
 /sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,20}ihre?.{1,10}photo.?tan/i
