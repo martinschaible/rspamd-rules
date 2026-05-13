@@ -268,6 +268,7 @@
 /adac_/i
 /adac\.de/i
 /adac.?202\d/i
+/adac.{0,10}breaker/i
 /adac.{0,10}(abteilung|deutschland|exklusiv|forschung|gmbh|insider|mitglieder|online|support)/i
 /adac.{0,10}(servies?|sicherheit)/i
 /adac.{0,10}(karten.?service|kreditkarte|kundendienst)/i
