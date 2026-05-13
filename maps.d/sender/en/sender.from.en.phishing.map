@@ -330,11 +330,11 @@
 /secure.{0,10}notification/i
 /security.{0,10}(alert|compliance)/i
 
-/server.?(admin|support|update)/i
+/server.?(admin|notice|support|update)/i
 /service.{0,10}client/i
 
 /session.{0,10}(alert|control)/i
-/service.{0,10}notifications?/i
+/service.{0,10}(information|notifications?)/i
 /(service|storage).{0,10}(upgrades?|updates?)/i
 
 /settlement.{0,10}administrator/i
