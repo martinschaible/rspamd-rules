@@ -306,6 +306,8 @@
 
 /anthropic.{0,10}pbc/i
 
+/aok\.de/i
+
 # Poochy Couture
 /ap.?vertrieb/i
 
@@ -340,6 +342,8 @@
 /au pay/i
 
 #
+/axa.{0,10}(kundendienst|kundenservice)/i
+
 /app.{0,10}axa/i
 
 # B
@@ -456,7 +460,9 @@
 /deutsche.?bahn.{0,10}(gutschein|service|team|umfrage)/i
 
 /deutsche-bank/i
+/deutsche bank.{0,10}hotline/i
 /deutsche bank.{0,10}kundenservice/i
+/hilfe.{0,10}deutsche.?bank/i
 
 /deutschland.?radio.{0,10}nachrichtendienst/i
 /deutschland.?ticket.{0,10}(service|team|zentrale)/i
@@ -714,7 +720,8 @@
 /meta(mask)?.{0,5}(security|system)/i
 /meta(mask)?.{0,5}verifiziert/i
 
-/metamask.?id/i
+/metamask.?(id|io)/i
+/metamsak/i
 
 /meta for business/i
 /meta help center/i

@@ -24,12 +24,13 @@
 # ------------------------------------------------------------------------------
 /abteilung.{1,10}rückerstattungen/iu
 
-/abschluss ihrer rückerstattung/i
+/abschluss ihrer (rückerstattung|rückzahlung)/i
 
-/aktuelle.{1,10}gutschrift.{1,10}rückerstattung/iu
+/aktuelle.{1,10}gutschrift.{1,10}(rückerstattung|rückzahlung)/iu
 
 # B
 # ------------------------------------------------------------------------------
+/benachrichtigung zur?.{1,10}(rückerstattung|rückzahlung)/iu
 
 # C
 # ------------------------------------------------------------------------------
@@ -46,6 +47,9 @@
 # F
 # ------------------------------------------------------------------------------
 /fordern sie.{1,10}auszahlung.{1,10}an/i
+
+/füllen sie.{1,10}das rückerstattungsformular.{1,10}aus/iu
+/füllen sie.{1,10}das rückerstattungsformular.{1,10}bis spätestens/iu
 
 # G
 # ------------------------------------------------------------------------------
@@ -69,7 +73,7 @@
 
 # J
 # ------------------------------------------------------------------------------
-/jetzt.{1,15}rückerstattung beantragen/iu
+/jetzt.{1,15}(rückerstattung|rückzahlung) beantragen/iu
 
 # K
 # ------------------------------------------------------------------------------
@@ -97,15 +101,22 @@
 # R
 # ------------------------------------------------------------------------------
 /(rückerstattung|rückzahlung).{1,15}bearbeiten zu können.{1,10}ist.{1,10}bestätigung/iu
-/(rückerstattung|rückzahlung).{1,10}(bearbeiten|beantragen|prüfen)/iu
+/(rückerstattung|rückzahlung).{1,10}(bearbeiten|beantragen|bestätigen|prüfen)/iu
 /(rückerstattung|rückzahlung).{1,15}damit diese.{1,15}erfolgen/iu
 /(rückerstattung|rückzahlung).{1,10}erfolgreich geprüft wurde/iu
+/(rückerstattung|rückzahlung).{1,10}in höhe von.{1,25}bereitsteht/iu
 /(rückerstattung|rückzahlung).{1,15}ist (bereit|vorbereitet)/iu
 /(rückerstattung|rückzahlung).{1,15}für sie verfügbar/iu
+/(rückerstattung|rückzahlung).{1,10}wird.{1,15}bearbeitet/iu
 /(rückerstattung|rückzahlung).{1,15}zahlung zu beantragen/i
 /(rückerstattung|rückzahlung).{1,10}zu beantragen.{1,10}füllen sie.{1,10}das/i
+/(rückerstattung|rückzahlung).{1,10}zu überprüfen/iu
 
+/(rückerstattung|rückzahlung)s?.?link/iu
+
+/rückerstattungsanforderung.{1,10}erfolgreich akzeptiert/iu
 /rückerstattungsanfrage.{1,10}sehr geehrter?/i
+/rückerstattungsstatus überprüfen/iu
 
 # S
 # ------------------------------------------------------------------------------
@@ -119,6 +130,8 @@
 
 /sie ihre rückerstattungsrechnung/iu
 /sie werden gebeten.{1,10}rückerstattungsformular/iu
+
+/sie (haben|möglicherweise).{1,10}anspruch.{1,15}(rückerstattung|rückzahlung)/i
 
 /swisspass\.ch.{1,10}(rück)?erstattung/iu
 
