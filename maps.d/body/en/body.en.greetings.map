@@ -96,6 +96,7 @@
 /(dear|hello|hi\b).{1,10}(buyer|customer|director|friend|madam|manager|partner|purchaser|respected|sir).{1,10}how are you/i
 /(dear|hello|hi\b).{1,10}(buyer|customer|director|friend|madam|manager|partner|purchaser|respected|sir).{1,10}i am writing to/i
 /(dear|hello|hi\b).{1,10}(buyer|customer|director|friend|madam|manager|partner|purchaser|respected|sir).{1,15}i work with a/i
+/(dear|hello|hi\b).{1,10}(buyer|customer|director|friend|madam|manager|partner|purchaser|respected|sir).{1,15}ich bin/i
 /(dear|hello|hi\b).{1,10}(buyer|customer|director|friend|madam|manager|partner|purchaser|respected|sir).{1,15}my name is.{5,35}i am from/i
 /(dear|hello|hi\b).{1,10}(buyer|customer|director|friend|madam|manager|partner|purchaser|respected|sir).{1,15}please find attached/i
 /(dear|hello|hi\b).{1,10}(buyer|customer|director|friend|madam|manager|partner|purchaser|respected|sir).{1,10}this is.{5,35}(from|representing)/i

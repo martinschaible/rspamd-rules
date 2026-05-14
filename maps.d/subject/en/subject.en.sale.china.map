@@ -225,6 +225,8 @@
 
 /enhance your.{1,10}(pcba?|printed.?circuits?.?board)/i
 
+/eol.?parts.{1,10}quick check/i
+
 /exclusive offer from/i
 
 /experience.{1,10}excellent.{1,15}quality/i
@@ -317,7 +319,7 @@
 
 /inquiry about.{1,10}pcba?/i
 
-/iso.{1,10}qualified.{1,10}factory/i
+/iso.{1,10}(certified|qualified).{1,10}(factory|production)/i
 
 /invitation.{1,10}discuss potential/i
 
@@ -360,8 +362,8 @@
 
 /manufacture.{1,10}vendor from china/i
 
+/manufacturers?.{1,20}(column|distillation)/i
 /manufacturers?.{1,10}for.{1,15}packing/i
-
 /manufacturers?.{5,25}good rate/i
 /manufacturers?.{1,10}looking.{1,10}(cooperate|cooperation|opportunities)/i
 /manufacturers?.{1,10}of all kinds/i
@@ -408,6 +410,7 @@
 /our.{1,10}advanced.{1,10}(pcba?|printed.?circuits?.?board)?/i
 /our.{1,10}latest.{1,20}for your reference/i
 /our.{1,10}high.?quality.{1,10}(pcba?|printed.?circuits?.?board)?/i
+/our.{1,10}iso.{1,15}certified procedures?/i
 /our.{1,10}paper.?bag.{1,10}solutions?/i
 /our.{1,10}silicone oil.{1,10}solutions?/i
 /our.{1,10}wide range of/i

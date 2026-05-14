@@ -186,7 +186,8 @@
 
 # E
 # ------------------------------------------------------------------------------
-/(e?.?)?mail.{0,10}(account|administration|hosters?|support)/i
+/(e?.?)?mail.{0,10}(account|administration|hosters?)/i
+/(e?.?)?mail.{0,10}(status|support)/i
 
 /employee.{0,10}approval/i
 /exclusive.{0,10}(benefits?|deals?|offers?)/i
@@ -330,7 +331,8 @@
 /secure.{0,10}notification/i
 /security.{0,10}(alert|compliance)/i
 
-/server.?(admin|notice|support|update)/i
+/server.{0,10}(status|support|update)/i
+
 /service.{0,10}client/i
 
 /session.{0,10}(alert|control)/i
@@ -391,7 +393,7 @@
 /usa.{0,10}(affiliate|partner)/i
 /user assistance/i
 
-/(upgrade|update).{0,10}(alert|notice)/i
+/(upgrade|update).{0,10}(alert|from|notice)/i
 
 /urgent.{0,10}(action|required|security)/i
 

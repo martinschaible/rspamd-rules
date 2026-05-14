@@ -46,7 +46,8 @@
 
 /empfänger des fonds/iu
 
-/entschädigungszahlungen?.{1,25}(betrugsopfer|covid.?19)/iu
+/entschädigung(szahlung)? wegen betrugs/i
+/entschädigung(szahlung)?.{1,25}(betrugsopfer|covid.?19)/iu
 
 # F
 # ------------------------------------------------------------------------------
@@ -64,6 +65,8 @@
 
 # I
 # ------------------------------------------------------------------------------
+/ihnen eine entschädigung für ihren.{1,10}betrugsfall bewilligt/i
+
 /ihr geld ist zur abholung bereit/i
 
 /ihr.{1,10}geldanspruch/i

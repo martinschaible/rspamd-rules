@@ -1007,7 +1007,9 @@
 # ------------------------------------------------------------------------------
 /pads?.{0,10}(for|relief|solution)/i
 
-/pain.{0,10}(alert|culprit|reset|support)/i
+/pain.{0,10}(alert|culprit|reset)/i
+/pain.{0,10}(stopper|support)/i
+
 /painful.{0,10}piles/i
 /pancreas.{0,10}(health|reset)/i
 /passion.{0,10}tea/i

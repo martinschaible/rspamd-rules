@@ -166,7 +166,8 @@
 
 /pending e?.?mail errors/i
 /pending.{1,10}important.{1,10}(e?.?mail|message)s?/i
-/pending.{1,10}incoming.{1,10}(e?.?mail|message)s?.{1,10}information/i
+
+/pending.{1,10}incoming.{1,10}(e?.?mail|message)s?.{1,10}(current|delivery|information)/i
 
 /pending.{1,10}undelivered.{1,10}(e?.?mail|message)s?.{1,10}to your inbox/i
 
@@ -203,6 +204,8 @@
 /server.{1,20}\.[a-z]{1,4}.{1,10}expired/i
 /server.{1,10}malfunction notice/i
 /server.{1,10}refresh required/i
+
+/server status.{1,10}pending incoming{1,15}(e?.?mail|message)s?/i
 
 # T
 # ------------------------------------------------------------------------------
