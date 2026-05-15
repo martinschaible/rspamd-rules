@@ -421,6 +421,8 @@
 
 /consorsbank.{0,10}(informations|kunden)?service/i
 
+/-.?coop/i
+
 /\.(ch|de) cpanel/i
 /^cpanel$/i
 /cpanel.{0,10}(host|roundcube|team|zertifikatsstelle)/i
