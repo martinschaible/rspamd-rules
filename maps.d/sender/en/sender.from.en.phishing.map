@@ -60,8 +60,9 @@
 
 /cl0ud/i
 
+/cloud.{0,5}team/i
 /cloud.{0,10}(account|admin|audit)/i
-/cloud.{0,10}(backup|emergency|limit|membership|operations|ops|team)/i
+/cloud.{0,10}(backup|emergency|limit|membership|operations|ops)/i
 /cloud.{0,10}(security|service|support|storage)/i
 /cloud.{0,10}benachrichtigung/i
 
@@ -89,7 +90,7 @@
 /^server$/i
 /server.?(notification|report|team)/i
 
-/storage.{0,10}admin/i
+/storage.{0,10}(admin|quota)/i
 
 /^support.?(access|client|desk|team)$/i
 /support.{0,5}(admin|webmail)/i

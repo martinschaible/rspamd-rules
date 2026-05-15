@@ -14,7 +14,7 @@
 # ------------------------------------------------------------------------------
 /(abnehmen|abzunehmen).{1,10}ganz ohne hungern/i
 /(abnehmen|abzunehmen).{1,10}in nur einer woche/i
-/(abnehmen|abzunehmen).{1,15}ohne verzicht/i
+/(abnehmen|abzunehmen).{1,15}ohne.{1,15}(komplizierte|verzicht|ziele)/i
 
 /bauchfett.{1,10}(los(zu)?werden|verlieren|verschwindet|weg)/i
 /bauchfett.{1,10}lösung/iu
