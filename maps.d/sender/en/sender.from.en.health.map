@@ -8,7 +8,7 @@
 
 # Alzheimer, Dementia, Memory
 # ------------------------------------------------------------------------------
-/(alze?heimer|dementia).{1,10}(alert|brain|sign|test|trigger|warning)/i
+/(alze?heimer|dementia).{1,10}(alert|brain|reversed?|sign|test|trigger|warning)/i
 
 /brain.{0,10}(booster|cell|damage|ears|experts?|insight|logic)/i
 /brain.{0,10}(fuel|fixer|food|fog)/i
@@ -1143,7 +1143,8 @@
 
 /shoulder.{0,10}(pain|relief)/i
 
-/skin.{0,10}(confidence|experts?|glow|health|insider|report|secrets?)/i
+/skin.{0,10}(confidence|experts?|glow|health|insider|report)/i
+skin.{0,10}(safety|secrets?)/i
 
 /side.{0,10}back/i
 /sight.{0,10}care/i
