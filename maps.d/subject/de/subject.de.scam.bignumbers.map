@@ -34,6 +34,7 @@
 # ------------------------------------------------------------------------------
 /\d{3,4}.{1,10}(dollars?|euro?|gbp|usd|€|\$|£) (auszahlen lassen|auszahlung)/i
 /\d{2,4}(\.|,)?\d{3,4}.{0,5}(dollars?|euro?|gbp|usd|€|\$|£).{1,10}wurden ihnen gespendet/i
+/\d{2,4}(\.|,)?\d{3,4}.{1,10}vertrauen/i
 
 /(ansprüche|überweisen|überweisung von).{1,10}(dollars?|euro?|gbp|usd|€|\$|£).{0,5}\d{2,4}(\.|,)?\d{3,4}/iu
 /(ansprüche|überweisen|überweisung von).{1,10}\d{2,3}(\.|,)?\d{3,4}.{0,5}(dollars?|euro?|gbp|usd|€|\$|£)/iu
