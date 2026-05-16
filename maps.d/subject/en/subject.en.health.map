@@ -240,7 +240,7 @@
 
 /concerning.{1,10}ingredient.{1,10}found/i
 
-/constant.{1,10}(buzzing|ringing)/i
+/constant.{1,10}(buzzing|ringing|tingling)/i
 /constant.{1,10}brain.?fog/i
 
 /conquer.{1,10}tinnitus/i
@@ -442,6 +442,7 @@
 
 /foods?.{1,10}(color|contain this)/i
 /foods?.{1,10}healthy.{1,15}(blood|sugar)/i
+/foods?.{1,10}hurting/i
 /foods?.{1,10}that.{1,10}(dissolves|fights?|poisonous|prevents)/i
 /foods?.{1,10}that.{1,10}makes? you/i
 /foods?.{1,10}to (avoid|skip)/i
@@ -706,6 +707,8 @@
 /new.{1,10}nerve relief/i
 /new way.{1,10}eliminate/i
 
+/night(time)?.{1,10}pee(ing)?/i
+
 /no (exercise|gym).{1,15}secret/i
 /no (exercise|gym).{1,10}no bs/i
 
@@ -751,6 +754,7 @@
 /passion.{1,10}brew/i
 
 /pee.{1,10}(fast|freely|leaks|night|strong)/i
+/pee.{1,10}learn more/i
 /pee.{1,10}try this/i
 /penis.{1,10}(enlargement|growth|ritual|size|stiffness)/i
 /perfect vision/i
