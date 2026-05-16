@@ -29,7 +29,10 @@
 /apps?.{1,10}creating info(rmation)?/i
 /apps?.{1,10}creation.{1,10}services/i
 
-/apps?.{1,5}development.{1,10}(android|apple|mobile)/i
+/^apps?.{1,5}(developer|development)$/i
+
+/apps?.{1,5}(developer|development).{1,10}(android|apple|mobile)/i
+/apps?.{1,5}(developer|development).{1,10}for/i
 /apps?.{1,5}(cost enquiry|proposal|we build)/i
 /apps?.{1,5}for your.{1,10}(business|company|practice|web.?site)/i
 /apps?.{1,5}(promotion|quotes)/i
@@ -84,6 +87,7 @@
 # ------------------------------------------------------------------------------
 /^mobile.?apps?$/i
 /mobile apps?.{1,10}(boost|business)/i
+/mobile apps?.{1,10}for you/i
 /modify your.{1,10}apps/i
 
 # N

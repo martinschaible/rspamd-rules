@@ -130,7 +130,9 @@
 # S
 # ------------------------------------------------------------------------------
 /sicheres.{1,10}reibungsloses.{1,10}online.?banking/i
+
 /sicherheitsupdate.{1,15}online.?banking/i
+/(sicherheitsupdate|update ihrer).{1,15}(best.?sign|securego tan).?app/i
 
 /sie daran erinnern.{1,10}dass ihre.{1,10}(photo|push).?tan/i
 

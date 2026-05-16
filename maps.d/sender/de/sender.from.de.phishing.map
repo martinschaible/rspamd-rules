@@ -157,6 +157,8 @@
 /kundenportal.{0,10}service/i
 /^kundenservice.{0,10}schweiz/i
 /kundenservice.{0,10}sicherheit/i
+/kundenservice.?de$/i
+
 /kurier.{0,10}agent/i
 
 /kurier\d{1,2}/i

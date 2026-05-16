@@ -78,7 +78,8 @@
 # ------------------------------------------------------------------------------
 /abgleich ihrer mobilfunknummer/i
 
-/adresse bestätigen.{1,10}für eine sendung im auftrag der/iu
+/(adresse|adressangaben).{1,10}bestätigen.{1,10}für eine sendung im auftrag der/iu
+/(adresse|adressangaben).{1,20}unser kundenportal.{1,10}aktualisieren/iu
 
 /angaben müssen sofort.{1,10}aktualisiert/i
 /angaben sind veraltet.{1,10}wodurch der zugriff/i
@@ -135,6 +136,8 @@
 # E
 # ------------------------------------------------------------------------------
 /einwilligung zur systemumstellung/i
+
+/erreichen können.{1,10}bitten wir sie.{1,10}adresse/i
 
 # F
 # ------------------------------------------------------------------------------
