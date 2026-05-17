@@ -38,6 +38,7 @@
 
 # F
 # ------------------------------------------------------------------------------
+/funds?.{1,10}associated with your name/i
 /funds?.{1,10}funds were approved.{1,10}transferred/i
 /funds?.{1,10}invest in your.{1,15}country/i
 /funds?.{1,10}left by your.{1,15}relative/i
@@ -70,12 +71,14 @@
 
 # O
 # ------------------------------------------------------------------------------
-/obtaining .{1,10}unclaimed.{1,10}funds/i
+/obtaining.{1,10}unclaimed.{1,10}funds/i
 
 # P
 # ------------------------------------------------------------------------------
 /pandemic fund.{1,10}(payment|relief)/i
 /please collect your.{1,10}funds/i
+
+/proceed with.{1,10}claim(ing)?.{1,15}funds/i
 
 # Q
 # ------------------------------------------------------------------------------
