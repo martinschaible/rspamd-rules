@@ -504,8 +504,9 @@
 
 /cleansing.{0,10}(fruit|pads)/i
 
-/clear.{0,10}(arteries|breathing|complexion|eyes|(toe)?nails|mind|skin)/i
+/clear.{0,10}(arteries|breathing|complexion|eyes|(toe)?nails|mind)/i
 /clear.{0,10}lungs/i
+/clear.{0,10}(sight|skin)/i
 
 /click(ing)?.{0,10}(free|noise|sounds?)/i
 /clinically.{0,10}proven/i
@@ -1332,6 +1333,8 @@ skin.{0,10}(safety|secrets?)/i
 # W
 # ------------------------------------------------------------------------------
 /\bw.?loss/i
+
+/wake.up.{0,10}fix/i
 
 /water.{0,10}(detox|diy)/i
 /water.{0,10}(flush|pill|lab|report|watch|weight)/i

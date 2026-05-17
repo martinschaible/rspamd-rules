@@ -361,6 +361,8 @@
 # Very funny these suckers
 /bank of nigeria/i
 
+/best.?sign.{0,10}konto/i
+
 /support.{0,10}(barclays|binance)/i
 /binance.{0,10}(customer|security|support|web3)/i
 /binance.{0,10}sicherheit/i
@@ -718,7 +720,7 @@
 /meta(mask)?.{0,5}ads$/i
 /meta(mask)?.{0,5}(ads|support).?team/i
 
-/meta(mask)?.{0,5}(account|advertising|alert)/i
+/meta(mask)?.{0,15}(account|advertising|alert)/i
 /meta(mask)?.{0,5}business/i
 /meta(mask)?.{0,5}(inc|trust|updates?|verification|wallet)/i
 /meta(mask)?.{0,5}(security|system)/i
