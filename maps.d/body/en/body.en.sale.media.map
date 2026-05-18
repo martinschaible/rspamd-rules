@@ -50,10 +50,12 @@
 
 /campaigns on your behalf/i
 
-/(casino|forex).{1,10}(databases?|leads)/i
+/(casino|forex).{1,15}(databases?|leads)/i
 
 /complete.{1,10}e?.?mail.?marketing.{1,10}for you/i
 /comprehensive.{1,10}contact.{1,10}company.{1,10}data/i
+
+/crypto casino/i
 
 # D
 # ------------------------------------------------------------------------------
@@ -122,6 +124,9 @@
 # ------------------------------------------------------------------------------
 /including complete.{1,15}(company|contact).{1,15}details/i
 /increasing.{1,10}leads.{1,10}sales/i
+
+# Selling address databases
+/i accept only bitcoin/i
 
 /i will write.{1,20}guest.?posts/i
 
