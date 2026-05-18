@@ -65,6 +65,7 @@
 
 # A
 # ------------------------------------------------------------------------------
+/adresse jetzt aktualisieren/i
 /adressdaten ihres unternehmens aktualisieren/i
 
 /aktualisierung.{1,10}ihrer daten für/iu
@@ -236,6 +237,8 @@
 
 # K
 # ------------------------------------------------------------------------------
+/kreditkarten.?.{1,10}kontaktdaten/i
+
 /kundenbeziehung.{1,10}frist/i
 
 /kundendaten.{1,10}benötigen eine aktualisierung/iu
@@ -246,8 +249,9 @@
 # Sample: Kurzer Check 3/10/2026
 /kurzer check.{1,10}\d{1,2}\/\d{1,2}\/\d{4}/i
 
+/kontaktdaten.{1,10}fortsetzen/iu
+
 # Paypal
-# ------------------------------------------------------------------------------
 /kontoauszug für.{1,10}ist verfügbar.{1,10}ref/iu
 
 /kurze datenprüfung.{1,10}erforderlich/iu
