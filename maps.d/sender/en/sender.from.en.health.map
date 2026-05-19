@@ -617,6 +617,8 @@
 
 /embarassing.{0,10}leaks/i
 
+/empty.{0,10}bowel/i
+
 /end.{0,10}noise/i
 /end.{0,10}type.{0,10}2/i
 /endless.{0,10}energy/i
@@ -637,7 +639,8 @@
 
 /extend.{0,10}(life|reveals)/i
 
-/eye.{0,10}(bags?|cell|check|exercise|fix|health|surgery|trick)/i
+/eye.{0,10}(bags?|detox|exercise|fix|health|surgery|trick)/i
+/eye.{0,10}(cell|check)/i
 
 # F
 # ------------------------------------------------------------------------------
@@ -1200,7 +1203,7 @@ skin.{0,10}(safety|secrets?)/i
 /stay.{0,10}(asleep|fit$|hard|regular|slim|trim)/i
 /steady.{0,10}steps/i
 
-/stiff.{0,10}(joints|painful|shoulder)/i
+/stiff.{0,10}(joints|knees|painful|shoulder)/i
 /stinky.{0,10}breath/i
 
 /stomach.{0,10}discomfort/i

@@ -197,7 +197,8 @@
 /(dhl|dpd|fedex|gls|ups).{0,5}post/i
 /(dhl|dpd|fedex|gls|ups).{0,5}(sendung|service|shipping|support|surveys?)/i
 
-/(dhl|dpd|fedex|gls|ups).{0,5}(deutschland|germany|schweiz|swiss)/i
+/(dhl|dpd|fedex|gls|ups).{0,5}(deutschland|germany|swiss)/i
+/(dhl|fedex|gls|ups).{0,5}schweiz/i
 
 /(dhl|dpd|fedex|gls|ups).{0,5}umfrage/i
 /(dhl|dpd|fedex|gls|ups).{0,5}paket.?(status|zentrum)/i
@@ -661,6 +662,7 @@
 /kauflandmarkt/i
 
 /klarna.{0,10}(finanzservice|kundenservice|support)/i
+/klarna.{0,10}deutschland/i
 /klarna.{0,10}germany/i
 
 /info.{0,10}klarna/i
@@ -965,6 +967,7 @@
 /sbb.{0,5}aktuell/i
 /sbb.{0,5}(kundencenter|kundendienst|swisspass)/i
 
+/sbb.?cff$/i
 /sbb(.?cff.?ffs)?.{0,5}(konto|support)/i
 /sbb(.?cff.?ffs)?.{0,5}(team|technikzentrum)/i
 /sbb(.?cff.?ffs)?.{0,5}kundendienst/i
