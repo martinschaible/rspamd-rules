@@ -181,6 +181,7 @@
 /our.{1,10}competency.{1,15}manufacturing/i
 
 /our.{1,10}(company|factory|supplier).{1,10}leading/i
+/our.{1,10}(company|factory|supplier).{1,10}offers.{1,15}(gps|tracking)/i
 /our.{1,10}(company|factory|supplier).{1,10}specializes.{1,10}producing/i
 
 /our.{1,10}focus.{1,10}stable quality/i
@@ -266,6 +267,7 @@
 /we.{1,15}(independent|leading|professional|specialized?|top|trusted).{1,20}provider/i 
 /we.{1,15}(independent|leading|professional|specialized?|top|trusted).{1,20}pvc hose/i 
 
+/we.{1,10}are.{1,20}devices manufacturer/i
 /we.{1,10}are.{1,10}forwarding agent/i
 /we.{1,10}are.{5,25}from.{5,35}a leading/i
 /we.{1,10}are.{1,20}manufacturers?.{1,10}exporters?/i
