@@ -258,6 +258,7 @@
 /(hello|hi).{1,10}hope you are well.{1,10}this is.{5,35}from/i
 /(hello|hi\b).{1,10}herr/i
 
+/(hello|hi).{1,5}i represent/i
 /(hello|hi).{1,35}i am.{1,10}(employee|professional)/i
 /(hello|hi).{1,15}i am.{1,10}who has access/i
 /(hello|hi).{1,10}(i am|we) are reaching out/i
