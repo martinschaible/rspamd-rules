@@ -25,10 +25,11 @@
 
 # B
 # ------------------------------------------------------------------------------
+/(begleichen|bezahlen).{1,10}andernfalls wird das paket/i
+/(begleichen|bezahlen).{1,10}zustellung starten/i
+
 /(begleichen|bezahlen) sie.{1,10}(die|eine).{1,10}(ausstehenden?|erforderlichen?).{1,10}(versandkosten|verwaltungsgebühr|zollgebühr)/iu
 /(begleichen|bezahlen) sie.{1,10}eventuelle.{1,10}(steuer|zoll).{1,15}gebühren/iu
-
-/(begleichen|bezahlen).{1,10}zustellung starten/i
 
 /begleichung.{1,10}der.{1,10}(bearbeitungs|zoll).?gebühr erforderlich/iu
 
