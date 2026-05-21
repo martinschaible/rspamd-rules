@@ -659,7 +659,7 @@
 /sicherheits.?(benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,10}\d{2,4} dateien/i
 /sicherheits.?(benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,10}authentifizierung für/iu
 /sicherheits.?(benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,10}bestätigen sie/iu
-/sicherheits.?(benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,10}für ihr konto/iu
+/sicherheits.?(benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,10}für ihr.{1,15}(konto|profil)/iu
 
 /sicherheits.?(benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,15}karte reaktivieren/i
 /sicherheits.?(benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,15}konto verifizieren/i
