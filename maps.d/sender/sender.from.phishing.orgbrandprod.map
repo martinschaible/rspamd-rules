@@ -212,7 +212,7 @@
 
 /(dhl|dpd|fedex|gls|ups).{0,5}express (germany|schweiz)/i
 
-/dh.?express/i
+/dh.?(express|versand)/i
 
 /hermes.{0,5}zoll/i
 
@@ -492,7 +492,7 @@
 /dkb.?ag/i
 /dkb\.de/i
 /dkb.{0,5}communications/i
-/dkb.{0,5}(kundenbetreuung|kundencenter|kundenservice)/i
+/dkb.{0,5}(konto|kundenbetreuung|kundencenter|kundenservice)/i
 /dkb.{0,5}team/i
 
 /info.{0,10}dkb/i
@@ -731,6 +731,7 @@
 /meta(mask)?.{0,5}(security|system)/i
 /meta(mask)?.{0,5}verifiziert/i
 
+/metamaskconsensys/i
 /metamask.?(id|io)/i
 /metamsak/i
 
@@ -941,6 +942,7 @@
 /rentenversicherung.?-/i
 
 /rituals.{0,10}team/i
+/rituals.{0,10}(deutschland|schweiz)/i
 
 /\| rewe$/i
 
@@ -1157,6 +1159,9 @@
 /-ubereats/i
 
 /usa.?today.{0,10}home/i
+
+/uta.{0,10}team/i
+
 # V
 # ------------------------------------------------------------------------------
 /via cpanel/i
