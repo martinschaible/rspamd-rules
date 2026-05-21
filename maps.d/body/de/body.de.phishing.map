@@ -84,6 +84,8 @@
 /angaben müssen sofort.{1,10}aktualisiert/i
 /angaben sind veraltet.{1,10}wodurch der zugriff/i
 
+# Login attempt from a new device
+/anmeldedetails.{1,15}(land|region).{1,15}palästina/iu
 /anmeldeversuch.{1,15}ungewöhnlichen standort registriert/iu
 
 # B
@@ -115,10 +117,13 @@
 /daten müssen spätestens bis.{1,35}aktualisiert sein/iu
 /daten zu bestätigen.{1,10}am gewinnspiel/iu
 
+
 /plattform.{1,10}überprüfen.{1,10}aktualisieren/iu
 
 /datenabgleich.{1,10}erforderlich/i
-/datenüberprüfung ist eine verbindliche pflicht/iu
+
+/daten(über)?prüfung.{1,10}erforderlich.{1,10}schützen sie/iu
+/daten(über)?prüfung.{1,10}ist eine verbindliche pflicht/iu
 
 /derzeitige warnung aktiv/i
 
@@ -168,6 +173,7 @@
 
 /ihre.{1,10}informationen.{1,10}aktualisiert werden/i
 /ihre.{1,10}kundenpunkte verfallen bald/i
+/ihre.{1,10}persönlichen.{1,10}daten zu bestätigen/iu
 /ihre.{1,10}rechtsform.{1,10}(über)?prüfen/iu
 /ihre.{1,10}steuererstattung ist ausgesetzt/i
 /ihre.{1,10}telefonnummer.{1,10}(aktualisieren|überprüfen)/iu
