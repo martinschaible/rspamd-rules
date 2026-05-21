@@ -590,7 +590,7 @@
 /do not (consume|drink|eat|take)/i
 /do this/i
 
-/doctors?.{0,10}(oral|tip|warning)/i
+/doctors?.{0,10}(oral|recommend(ed)?|tip|warning)/i
 /dog.{0,10}health/i
 
 /dr\.?.?(derm|health|wellness)/i
@@ -1147,16 +1147,16 @@
 
 /shoulder.{0,10}(pain|relief)/i
 
-/skin.{0,10}(confidence|experts?|glow|health|insider|report)/i
-skin.{0,10}(safety|secrets?)/i
-
 /side.{0,10}back/i
 /sight.{0,10}care/i
 /silence.{0,10}(buzz(ing)?|foundry|hack|pain|restored?)/i
 /silent.{0,10}(danger|infection)/i
 /simpler.{0,10}slim/i
 
-/skin.{0,10}(alert|doctor|fix|nail|restore|sculptor|secret|tightening)/i
+/skin.{0,10}(alert|doctor|fix|nail|tightening)/i
+/skin.{0,10}(confidence|experts?|glow|health|insider)/i
+/skin.{0,10}(report|restore)/i
+/skin.{0,10}(safety|sculptor|secrets?)/i
 
 /slash.{0,10}calories/i
 /sleep.{0,10}(care|connection)/i
@@ -1248,7 +1248,9 @@ skin.{0,10}(safety|secrets?)/i
 /stop.{0,10}dieting/i
 /(strange|spice).{0,10}trick/i
 
-/sweet.{0,10}(balance|control|deal|fix|solution|trick)/i
+/sweet.{0,10}(balance|control|deal|fix|solution)/i
+/sweet.{0,10}(tee|trick)/i
+
 /swelling.{0,10}solution/i
 
 /swollen.{0,10}(belly|feet|foot|gut|legs)/i

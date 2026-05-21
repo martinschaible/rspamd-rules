@@ -646,8 +646,9 @@
 # ------------------------------------------------------------------------------
 /major.{1,10}fat.?loss/i
 
-/makes you (hard|thin)/i
-/makes you gain weight/i
+/makes you.{1,10}fat/i
+/makes you.{1,10}(hard|thin)/i
+/makes you.{1,10}gain weight/i
 
 /massage restores/i
 
@@ -979,7 +980,7 @@
 
 /stomach in less than/i
 
-/stop.{1,10}(doing|drinking) this/i
+/stop.{1,10}(doing|drinking) (it|this)/i
 /stop.{1,10}eating (now|them)/i
 /stop.{1,10}pain today/i
 

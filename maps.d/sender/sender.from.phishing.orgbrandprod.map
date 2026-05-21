@@ -875,6 +875,7 @@
 /paypal.?(™|®)$/i
 /paypal.?lu/i
 
+/paypal[a-z].{1,15}@/i
 /paypal.{0,15}(billing|case.?id|customer)/i
 /paypal.{0,15}(department|europe?|help.?desk|inc)/i
 
@@ -1088,6 +1089,7 @@
 #/swisspas\./i
 #/swisspass\.ch/i
 /swisspass.?ag/i
+/swisspass.{1,5}billing/i
 /swisspass.{1,5}(benachrichtigung|cff|sbb|support)/i
 /swisspass.{1,5}finanzdienst/i
 /swisspass.{1,5}(kartendienst|kunden?(dienst)?|konto)/i
