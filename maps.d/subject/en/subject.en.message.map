@@ -47,10 +47,6 @@
 
 /message in your.{1,15}support.?panel/i
 
-/message.{1,10}from.{1,10}friend/i
-/message.{1,10}for you.{1,10}(important|urgent)/i
-/message.{1,10}confidential.{1,10}urgent/i
-
 #
 #
 #
@@ -102,11 +98,17 @@
 /^(e?.?mail|message) for you$/i
 
 /(e?.?mail|message).{1,5}\d{3,6}/i
-/(e?.?mail|message).{1,10}from last week received on your/i
+/(e?.?mail|message).{1,10}confidential.{1,10}urgent/i
+/(e?.?mail|message).{1,10}for you.{1,10}(important|urgent)/i
+
+/(e?.?mail|message).{1,10}from.{1,10}friend/i
+/(e?.?mail|message).{1,10}from.{5,25}this is worth/i
+/(e?.?mail|message).{1,10}from last week.{1,10}reach you/i
+/(e?.?mail|message).{1,10}from last week.{1,10}received on your/i
+
 /(e?.?mail|message).{1,10}i sent on.{1,10}reach you/i
 /(e?.?mail|message).{1,10}must not be ignored/i
 
-/(e?.?mail|message).{1,10}from last week reach you/i
 /(e?.?mail|message).{1,10}reach.{1,10}the right person/i
 /(e?.?mail|message).{1,10}still valid/i
 /(e?.?mail|message).{1,10}your interest/i
