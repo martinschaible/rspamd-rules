@@ -228,6 +228,8 @@
 /ihrer app bis \d{1,2}/i
 /ihrer letzten handelsaktivität erforderlich/iu
 
+/innerhalb von.{1,10}stunden.{1,10}(abschliessen|abschließen)/iu
+
 /information(en)?.{1,10}zu ihrem.{1,10}steuerpostfach/i
 /information(en)?.{1,10}zur.{1,10}turnusgemäßen/iu
 

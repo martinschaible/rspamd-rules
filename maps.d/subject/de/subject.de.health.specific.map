@@ -74,8 +74,8 @@
 # Erection
 # ------------------------------------------------------------------------------
 /(erektions|potenz).?(mittel|leistung|pillen|stundenlang)/i
-/erektion(en)? nicht/i
-
+/erektion(en)?.{1,10}in nur/i
+/erektion(en)?.{1,10}nicht/i
 
 /(garantierte|längere).{1,10}erektion(en)?/iu
 /(harte|härtere).{1,10}erektion(en)?/iu

@@ -1149,7 +1149,8 @@
 
 /side.{0,10}back/i
 /sight.{0,10}care/i
-/silence.{0,10}(buzz(ing)?|foundry|hack|pain|restored?)/i
+/silence.{0,10}(buzz(ing)?|foundry|hack|pain)/i
+/silence.{0,10}(restored?|restoration)/i
 /silent.{0,10}(danger|infection)/i
 /simpler.{0,10}slim/i
 
