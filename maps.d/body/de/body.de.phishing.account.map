@@ -55,13 +55,14 @@
 
 /erfolgen.{1,10}um eine.{1,20}sperre zu vermeiden/i
 
+/etwas ihrem.{1,15}(konto|profil) hinzugefügt/iu
 # F
 # ------------------------------------------------------------------------------
 /facebook.{1,10}kontoüberprüfung/iu
 
 /fehlende aktualisierung führt zu/iu
-/fehlende (konto|profil).?bereinigung/i
-/fehlende (konto|profil).?pflege/i
+/fehlende.{1,15}(konto|profil).?bereinigung/i
+/fehlende.{1,15}(konto|profil).?pflege/i
 
 /führen sie die aktualisierung sofort/i
 /führen sie eine identitätsprüfung durch/iu

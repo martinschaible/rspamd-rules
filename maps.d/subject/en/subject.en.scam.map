@@ -194,7 +194,7 @@
 # I
 # ------------------------------------------------------------------------------
 /i have.{1,10}confidential information/i
-/I have.{1,10}free/i
+/i have.{1,10}free/i
 
 /i (need|seek).{1,10}reliable individual/i
 /i (need|seek).{1,10}your.{1,10}assistance/i
@@ -224,6 +224,7 @@
 
 # L
 # ------------------------------------------------------------------------------
+/looking for.{1,10}partner/i
 
 # M
 # ------------------------------------------------------------------------------
@@ -249,6 +250,7 @@
 
 # P
 # ------------------------------------------------------------------------------
+/partner to build.{1,10}legacy/i
 /partnership intention/i
 
 /pay immediately.{1,15}video will be released/i
