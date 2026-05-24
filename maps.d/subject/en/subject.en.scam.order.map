@@ -130,7 +130,6 @@
 /products?.{1,10}order.{1,10}export capabilities/i
 /products?.{1,10}purchase order contract/i
 /products?.{1,10}range.{1,10}pricing/i
-/products?.{1,10}(sourcing|supply).{1,10}inquiry/i
 /products?.{1,10}tender supply/i
 
 /projects?.?inq no/i
@@ -194,6 +193,8 @@
 /(supplier|supply).{1,10}distribution inquiry/i
 /(supplier|supply).{1,10}inquiry.{1,10}(catalog|terms)/i
 /^(supplier|supply).{1,10}(partnership|proposal)/i
+
+/(sourcing|supply).{1,10}inquiry/i
 
 # T
 # ------------------------------------------------------------------------------

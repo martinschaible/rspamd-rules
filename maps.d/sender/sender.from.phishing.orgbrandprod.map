@@ -136,6 +136,7 @@
 /d h l/i
 
 /dhi.?express/i
+dh.?benachrichtigung/i
 /dh.?(e.?commerce|frachtlogistik|luftfracht|servicezentrum|versandzentrum)/i
 
 /\(dhl\)/i
@@ -160,6 +161,14 @@
 /g-l-s/i
 /^gls$/i
 /^gls\./i
+
+# Hermes
+/-hermes$/i
+/^hermes$/i
+
+/hermes.{0,10}(germany|gmbh)/i
+/hermes.{0,15}(logistik|zentrum)/i
+/hermes.{0,5}zoll/i
 
 # UPS
 /u\.p\.s/i
@@ -213,8 +222,6 @@
 /(dhl|dpd|fedex|gls|ups).{0,5}express (germany|schweiz)/i
 
 /dh.?(express|versand)/i
-
-/hermes.{0,5}zoll/i
 
 #/gls.?paket$/i
 
@@ -610,14 +617,9 @@
 
 /login.?hetzner/i
 
-/hermes.{0,10}(germany|gmbh)/i
-
 /help.{0,10}spotify/i
 
 /helsana.{0,10}(team|support)/i
-
-/-hermes$/i
-/^hermes$/i
 
 # Note relevant in Europe
 /home.?(depot|warranty)/i

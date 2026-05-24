@@ -79,6 +79,8 @@
 /helpdesk-/i
 /hosting.?team/i
 
+/imap.{0,10}notification/i
+
 /mail.?(admin|alert|helpdesk|server|update)/i
 /mail.?security.?team/i
 

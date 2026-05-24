@@ -97,6 +97,7 @@
 # ------------------------------------------------------------------------------
 /(income|money|security).{1,15}without leaving home/i
 
+/insights? into.{1,15}ipo/i
 /inspired property.{1,10}dubai/i
 
 /invest in.{1,15}(booming|student).{1,15}(hotel|property)/i
