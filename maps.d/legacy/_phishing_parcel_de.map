@@ -244,14 +244,6 @@
 /zollgebühren in höhe von.{1,10}euro zu begleichen/iu
 
 #
-/\d(\.|,)\d{2}.{1,10}zollgebühren wurden nicht bezahlt/i
-/gebühren.{1,10}(chf|euro) (1|2)(\.|,)99/iu
-/fälliger betrag: (1|2)(\.|,)99/iu
-/fälliger betrag: \d,(\.|,) (chf|euro)/iu
-
-/betrag beträgt (1|2)(\.|,)99 (chf|euro)/iu
-
-#
 /kaufen sie eine paysafecard/i
 
 # 
