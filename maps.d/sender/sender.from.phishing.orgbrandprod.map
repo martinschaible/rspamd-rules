@@ -405,10 +405,13 @@ dh.?benachrichtigung/i
 /chat-gpt/i
 /chatgpt.?(ai|\+|plus)/i
 /chatgpt.{0,10}(abonnement|hinweis|kundenservice|kontakt)/i
+/chatgpt.{0,10}billing/i
+/chatgpt.{0,10}konto/i
 /chatgpt.{0,10}zahlung(en)?/i
-/chatgpt.{0,10}(account|billing|payments|team)/i
-/chatgpt.{0,10}(services|serviceportal|subscription)/i
-/chatgpt.{0,10}(team|tech)/i
+/chatgpt.{0,10}(account|billing|team)/i
+/chatgpt.{0,10}(payments|premium)/i
+/chatgpt.{0,15}(services?|serviceportal|subscription)/i
+/chatgpt.{0,20}(team|tech)/i
 
 /coca.?cola company/i
 
@@ -864,7 +867,7 @@ dh.?benachrichtigung/i
 
 /oral.?b/i
 
-/otto.{0,10}prämien/iu
+/otto.{0,10}(feedback|prämien)/iu
 
 # P
 # ------------------------------------------------------------------------------
