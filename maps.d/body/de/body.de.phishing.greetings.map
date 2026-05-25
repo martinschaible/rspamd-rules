@@ -71,11 +71,13 @@
 
 /guten (abend|morgen|tag).{1,10}bei der überprüfung/iu
 
-/guten (abend|morgen|tag).{1,10}das sicherheitssystem/i
-/guten (abend|morgen|tag).{1,10}dies ist.{1,10}letzte benachrichtigung/i
-/guten (abend|morgen|tag).{1,10}ein verdächtiger login/i
-/guten (abend|morgen|tag).{1,10}erhalten sie eine korrigierte rechnung/i
-/guten (abend|morgen|tag).{1,10}es wurde eine ungewöhnliche anmeldung/iu
+/guten (abend|morgen|tag).{1,15}das sicherheitssystem/i
+/guten (abend|morgen|tag).{1,15}dauerhaften schutz/i
+/guten (abend|morgen|tag).{1,15}die sicherheit/i
+/guten (abend|morgen|tag).{1,15}dies ist.{1,10}letzte benachrichtigung/i
+/guten (abend|morgen|tag).{1,15}ein verdächtiger login/i
+/guten (abend|morgen|tag).{1,15}erhalten sie eine korrigierte rechnung/i
+/guten (abend|morgen|tag).{1,15}es wurde eine ungewöhnliche anmeldung/iu
 
 /guten (abend|morgen|tag).{1,10}haben sie sich schon gefragt/i
 /guten (abend|morgen|tag).{1,10}hiermit informieren wir sie/i
@@ -412,6 +414,7 @@
 
 # W
 # ------------------------------------------------------------------------------
+/wichtige kontobenachrichtigung.{1,10}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/i
 /wichtiger? (mitteilung|sicherheitshinweis).{1,10}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/iu
 
 # X

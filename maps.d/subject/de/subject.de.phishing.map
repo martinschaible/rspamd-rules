@@ -393,12 +393,15 @@
 
 # V
 # ------------------------------------------------------------------------------
-/verbindliche anweisung zum jahresabschluss/i
+/verbindliche.{1,10}anweisung.{1,10}jahresabschluss/i
+/verbindliche.{1,10}geräteverifizierung/iu
 
 # Google Speicher
 /verlieren sie.{1,15}videos.{1,15}bilder nicht/i
 
 /verlieren sie nicht den zugriff auf/i
+
+/vertrauenswürdige(n|r).{1,10}zugriffs?/i
 
 /vermeiden sie dienstunterbrechungen/i
 /verpflichtende (aktivierung|aktualisierung)/i
