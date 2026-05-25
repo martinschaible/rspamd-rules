@@ -630,6 +630,10 @@ dh.?benachrichtigung/i
 
 # I
 # ------------------------------------------------------------------------------
+
+# Interactive Brokers
+/ibkr.{0,10}(invest|message|reply|support)/i
+
 /icloud.{0,10}(idrive|storage)/i
 
 /icorner.{0,10}(kundenservice|sicherheitsdienst)/i

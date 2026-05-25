@@ -175,6 +175,7 @@
 /good (afternoon|day|evening|morning).{1,10}i.?a?m.{1,10}(dr\.|mrs?\.)/i
 /good (afternoon|day|evening|morning).{1,10}i.?a?m.{5,25}(chairman|director)/i
 /good (afternoon|day|evening|morning).{1,10}i.?a?m.{5,25}from/i
+/good (afternoon|day|evening|morning).{1,10}i.?a?m writing to inquire/i
 
 /good (afternoon|day|evening|morning).{1,10}i am writing to you with/i
 /good (afternoon|day|evening|morning).{1,10}i (apologize|represent)/i
@@ -243,7 +244,9 @@
 /(hello|hi).{1,5}(dear|friend|manager).{1,10}(confidential|customer|private|strictly|urgent)/i
 /(hello|hi).{1,5}(dear|friend|manager).{1,10}good day/i
 /(hello|hi).{1,5}(dear|friend|manager).{1,10}hope this.{1,10}(e?.?mail|message) finds/i
-/(hello|hi).{1,5}(dear|friend|manager).{1,10}i am.{5,35}this is to officially inform you/i
+/(hello|hi).{1,5}(dear|friend|manager).{1,10}(i?a?.?m|we).{5,35}this is to officially inform you/i
+/(hello|hi).{1,5}(dear|friend|manager).{5,35}(i?a?.?m|we) are reaching out/i
+
 /(hello|hi).{1,5}(dear|friend|manager).{1,10}i came across/i
 /(hello|hi).{1,5}(dear|friend|manager).{1,10}my name  is/i
 /(hello|hi).{1,5}(dear|friend|manager).{1,10}nice monday/i
