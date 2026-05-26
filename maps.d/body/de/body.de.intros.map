@@ -73,8 +73,9 @@
 
 # Title, Occupation
 /ich bin.{1,5}(barrister|captain|general|hauptmann|mutter|oberst)/i
-/ich bin.{5,45}(deutscher|schweizer).{1,10}wirtschaftsmagnat/iu
-/ich bin.{5,30}(deutscher|schweizer).{1,10}staatsbürger.{1,10}wohne in/iu
+/ich bin.{5,45}(deutscher|schwedisch|schweizer).{1,10}wirtschaftsmagnat/iu
+/ich bin.{5,30}(deutscher|schwedisch|schweizer).{1,10}staatsbürger(in)?.{1,10}war mit dem verstorbenen/iu
+/ich bin.{5,30}(deutscher|schwedisch|schweizer).{1,10}staatsbürger(in)?.{1,20}wohne in/iu
 
 /ich bin.{5,45}(investor|philanthrop|unternehmer|wirtschaftsmagnat)(in)?/i
 /ich bin.{5,45}eine?.{1,15}(geschäftsfrau|geschäftsmann)/i
@@ -129,6 +130,8 @@
 /ich möchte mich.{1,10}vorstellen.{1,10}mein name ist/i
 
 /ich vertrete ein führendes unternehmen/iu
+
+/ihnen.{1,15}meine person vorstellen/i
 /ihnen.{1,10}unser unternehmen vorzustellen/i
 /ihnen vor(zu)?stellen.{1,10}ich bin/i
 
