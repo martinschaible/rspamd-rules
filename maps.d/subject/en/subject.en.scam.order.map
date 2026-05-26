@@ -202,6 +202,8 @@
 
 # U
 # ------------------------------------------------------------------------------
+/urgnt (inquiry|rfq)/i
+
 /^urgent (inquiry|rfq)$/i
 
 /urgent.{1,10}inquiry.{1,15}needed by/i

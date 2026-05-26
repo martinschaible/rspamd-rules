@@ -28,8 +28,7 @@
 /abrechnung.{1,15}rückerstattungsanfrage/iu
 /abrechnungsprüfung abgeschlossen.{1,10}rückzahlung/iu
 
-
-/abschluss.{1,10}(rück)?erstattung/i
+/(abschluss|anforderung).{1,10}(rück)?erstattung/i
 /anspruch.{1,15}steuer(rück)?erstattung/i
 
 # B

@@ -457,7 +457,10 @@
 # C
 # ------------------------------------------------------------------------------
 /cabernet.{0,10}merlot/i
-/calorie.{0,10}(active|booster|burn)/i
+
+/calorie.{0,10}(active|tracking)/i
+/calorie.{0,10}(booster|burn)/i
+
 /calcium.{0,10}boost/i
 /calm.{0,10}(body|ears|nights?)/i
 /calorie.{0,10}bypass/i

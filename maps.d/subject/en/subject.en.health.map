@@ -318,6 +318,7 @@
 /(dentists?|doctors?).{1,10}never eat/i
 /(dentists?|doctors?).{1,10}says to avoid/i
 
+/do not consume/i
 /does to joint pain/i
 
 /do(ing)? this to reverse/i
@@ -774,7 +775,10 @@
 /poop.{1,10}read this/i
 /predicts.{1,10}memory.?loss/i
 /prevent.{1,15}(bladder|decay|disease|gum|memory|tooth)/i
-/prostate.{1,15}(comfort|friendly|issues|relief|solution|swelling)/i
+
+/prostate.{1,15}(comfort|enlargement|friendly|issues|relief)/i
+/prostate.{1,15}(solution|swelling)/i
+
 /protects? your.{1,10}heart/i
 
 # Q
@@ -870,6 +874,7 @@
 
 /say goodbye.{1,15}(fungus|nights?|pain|prostate|restless)/i
 
+/scared.{1,10}(aging|diabetes)/i
 /scientifically proven/i
 
 /(science|scientists?).{1,10}(confirm|discover).{1,10}(the|this|real|secret|works)/i
