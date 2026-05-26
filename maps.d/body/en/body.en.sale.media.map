@@ -50,10 +50,13 @@
 
 /campaigns on your behalf/i
 
-/(casino|forex).{1,15}(databases?|leads)/i
+/(casino|companies|forex).{1,15}(databases?|leads)/i
+/(casino|companies|forex).{1,15}(addresses?|phone)/i
 
 /complete.{1,10}e?.?mail.?marketing.{1,10}for you/i
+
 /comprehensive.{1,10}contact.{1,10}company.{1,10}data/i
+/comprehensive.{1,10}dataset .{1,10}(companies|professionals)/i
 
 /crypto casino/i
 

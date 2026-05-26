@@ -414,10 +414,11 @@
 /breath(ing)?.{0,10}(clear|science)/i
 
 /brain.{0,10}(exercise|health|noise|upgrade)/i
-/brain.{0,10}(fix|flow)/i
 /brain.{0,10}(balance|boost|re?(boot))/i
 /brain.{0,10}(care|check|clarity|consequence)/i
+/brain.{0,10}(fix|flow)/i
 /brain.{0,10}longevity/i
+/brain.{0,10}method/i
 /brain.{0,10}(report|research|reset|revival|routine)/i
 /brain.{0,10}(shrinkage|solution)/i
 /brain.{0,10}test/i
@@ -1156,7 +1157,7 @@
 /silence.{0,10}(buzz(ing)?|foundry|hack|noise|pain)/i
 /silence.{0,10}(restored?|restoration)/i
 
-/silent.{0,10}(danger|infection)/i
+/silent.{0,10}(brain|danger|infection)/i
 /simpler.{0,10}slim/i
 
 /skin.{0,10}(alert|doctor|fix|nail|tightening)/i

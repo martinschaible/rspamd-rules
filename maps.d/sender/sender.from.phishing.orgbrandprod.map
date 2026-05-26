@@ -344,7 +344,7 @@ dh.?benachrichtigung/i
 /ard.?zdf.?(radio|service|team)/i
 /(ard|zdf).{0,10}(gebühren|service|support)/iu
 
-/aarp.{0,10}(advertiser|offer|opportunity)/i
+/aarp.{0,10}(advertiser|help|offer|opportunity)/i
 
 /autotrader.{0,10}rewards?/i
 
@@ -799,6 +799,8 @@ dh.?benachrichtigung/i
 # N
 # ------------------------------------------------------------------------------
 /n26.{0,10}benachrichtigung(en)?/i
+
+/natwestbank/i
 
 /netflix\.com/i
 /netflix.{0,10}(kundendienst|konto)/i

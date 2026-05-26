@@ -343,6 +343,8 @@
 /(gefahr|warnung).{1,10}spam.{1,10}nachrichten entdeckt/i
 
 /gesetzliche änderungen.{1,25}handlungsbedarf/iu
+/gesperrt.{1,10}(maßnahmen|massnahmen) ergreifen/iu
+
 /gewinner(liste)?.{1,10}jetzt bestätigen/iu
 /guthaben verfällt heute.{1,10}letzte erinnerung/iu
 
@@ -648,6 +650,7 @@
 /sicherheits.?check.{1,10}reagieren sie/i
 /sicherheits.?alarm.{1,10}ungewöhnliche kontoaktivität/iu
 
+/sicherheitscheck.{1,15}konto überprüfen/iu
 /sicherheitsmaßnahmen.{1,15}jetzt.{1,15}konto/i
 /sicherheits.?nachricht.{1,10}online/i
 
