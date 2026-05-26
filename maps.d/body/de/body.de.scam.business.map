@@ -53,6 +53,7 @@
 /geschäft.{1,10}für sie.{1,10}kontaktieren sie mich/iu
 /geschäft.{1,10}im wert von.{1,25}(von dem ich|zu besprechen)/iu
 
+/geschäft.{0,5}(angebot|vorschlag).{1,10}der für sie.{1,15}von.{1,15}interesse/iu
 /geschäft.{0,5}(angebot|vorschlag).{1,10}schreiben sie.{1,10}meine e?.?mail/iu
 /geschäft.{0,5}(angebot|vorschlag).{1,10}sie interessiert sind/iu
 /geschäft.{0,5}(angebot|vorschlag).{1,10}von dem wir.{1,10}profitieren/iu
@@ -69,7 +70,15 @@
 # ------------------------------------------------------------------------------
 /ich habe.{1,10}ein.{1,10}(dringendes|wichtiges).{1,15}(angebot|geschäft)/iu
 /ich habe.{1,10}ein.{1,10}lukratives angebot für sie/iu
+
+/ich habe.{1,10}ein.{1,15}geschäft für sie/iu
+/ich habe.{1,10}ein.{1,15}geschäfts.?.{0,5}(angebot|vorschlag)/iu
+/ich habe.{1,10}ein.{1,15}geschäfts?.{1,15}das ich.{1,10}mit ihnen/i
+/ich habe.{1,10}ein.{1,10}projekt.{1,15}kontaktieren sie mich/i
 /ich habe.{1,10}ein.{1,10}projektangebot für sie/iu
+/ich habe.{1,10}ein.{1,15}vorschlag.{1,10}der für uns von vorteil/i
+
+/ich habe.{1,10}einen.{1,10}deal für sie/i
 
 /ich möchte ihnen ein.{1,10}geschäftsvorhaben/iu
 
