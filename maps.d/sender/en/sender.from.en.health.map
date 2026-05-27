@@ -1377,7 +1377,10 @@
 
 /womens?.{0,10}(\d{2}|intimacy|only|secret)/i
 /wonder.?bread/i
-/worst.{0,10}(breakfast|fruits?|food|pain|veggie)/i
+
+/(worse|worst).{0,10}(breakfast|pain)/i
+/(worse|worst).{0,10}(fruits?|food)/i
+/(worse|worst).{0,10}(veggie|vision)/i
 
 /wrinkle.{0,10}(cream|eraser|solution|trick)/i
 /wrinkle.{0,10}(filler|filter|fix|free)/i

@@ -147,11 +147,13 @@
 
 /cost.{1,10}(pcb.?pcba|printed.?circuits?.?board)/i
 
-/custom.{1,10}metal (components|parts)/i
 /custom.{1,10}(bags?|cap|machined parts|metal stamping)/i
 /(custom|excellent).{1,10}(pcba?|printed.circuits?.board)/i
 /custom.{1,10}keychain.{1,15}(brand|solutions)/i
+
 /custom.{1,10}manufacturing.{1,10}(prototype|solutions?)/i
+/custom.{1,10}metal (components|parts)/i
+/custom.{1,10}mold.{1,10}services/i
 
 /custom.{1,10}packaging.{1,10}printing/i
 /custom.{1,15}products? manufacturing/i
@@ -489,6 +491,7 @@
 
 /(professional|reliable|trusted).{1,10}book printing/i
 /(professional|reliable|trusted).{1,20}(components|electronic).{1,15}(manufacturer|partners?|suppliers?)/i
+/(professional|reliable|trusted).{1,10}custom.{1,10}mold/i
 /(professional|reliable|trusted).{1,20}supplier.{1,15}partnership/i
 
 /(professional|reliable|trusted).{1,10}(capacitor|chain|cnc|drag).{1,10}(manufacturer|partners?|suppliers?)/i
