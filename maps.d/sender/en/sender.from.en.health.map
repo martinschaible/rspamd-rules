@@ -658,7 +658,7 @@
 /fat(ty)?.{0,10}(artery|dissolving)/i
 /fat(ty)?.{0,10}arteries/i
 
-/fda.{0,10}alert/i
+/fda.{0,10}(alert|loophole)/i
 
 /feel.{0,10}(dizzy|mentally|younger)/i
 /feeling.{0,10}(dizzy|younger)/i
@@ -861,6 +861,7 @@
 
 /lung.{0,10}(brew|care|cleans?er|ease|health|heart|research|trust)/i
 /longer.{0,10}life/i
+/longest.{0,10}(lived|living)/i
 
 /look.{0,10}younger/i
 /loose.{0,10}flesh/i
@@ -1110,6 +1111,8 @@
 /ringing.{0,10}(ears|gone)/i
 
 /rise.{0,10}again/i
+/risky.{0,10}(food|veggies?|vitamins?)/i
+
 /rock.{0,10}(hard|solid)/i
 /root.{0,10}(cause|power)/i
 /rotten.{0,10}(breath|teeth)/i

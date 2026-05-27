@@ -35,6 +35,8 @@
 /(business|deal|proposal|transaction).{1,20}may be of interest to you/i
 /(business|deal|proposal|transaction).{1,20}will benefit us both/i
 
+/business partnership.{1,10}kindly reply/i
+
 # C
 # ------------------------------------------------------------------------------
 /(completion|you for).{1,15}business.{1,10}transaction/i

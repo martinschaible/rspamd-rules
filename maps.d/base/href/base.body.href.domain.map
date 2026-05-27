@@ -47,3 +47,6 @@
 # Companies and Brands masked
 # ------------------------------------------------------------------------------
 /_interactivebrokers_/i
+
+# Localhost and ports
+/http://localhost:(0903|9000)/i

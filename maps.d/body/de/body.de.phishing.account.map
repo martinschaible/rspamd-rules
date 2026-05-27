@@ -239,7 +239,8 @@
 
 # O
 # ------------------------------------------------------------------------------
-/ohne.{1,10}(konto|profil).?aktualisierung kann/i
+/ohne.{1,15}(konto|profil).?aktualisierung kann/i
+/ohne bestätigung kann kein vollständiger zugriff.{1,15}(konto|profil)/iu
 
 # P
 # ------------------------------------------------------------------------------

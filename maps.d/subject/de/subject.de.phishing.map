@@ -233,7 +233,7 @@
 /innerhalb von.{1,10}stunden.{1,10}(abschliessen|abschließen)/iu
 
 /information(en)?.{1,10}zu ihrem.{1,10}steuerpostfach/i
-/information(en)?.{1,10}zur.{1,10}turnusgemäßen/iu
+/information(en)?.{1,10}zur.{1,10}(turnusgemässen|turnusgemäßen)/iu
 
 /interface aktualisiert werden/i
 
@@ -378,8 +378,10 @@
 # Paypal
 /transaktionshistorie freigegeben.{1,10}ref/i
 
-/turnusgemäßen.{1,10}(aktualisierung|datenfreigabe)/iu
-/turnusgemäßen.{1,10}kundenkommunikation/iu
+/(turnusgemässen|turnusgemäßen).{1,10}(aktualisierung|datenfreigabe)/iu
+/(turnusgemässen|turnusgemäßen).{1,10}kundenkommunikation/iu
+
+/(turnusmässige|turnusmäßige).{1,10}datenaktualisierung/iu
 
 # U
 # ------------------------------------------------------------------------------
@@ -392,6 +394,8 @@
 /uebergang.{1,10}einmalige anpassung/i
 
 /überweisung gesperrt/iu
+
+/überprüfen.{1,10}sie ihre adressangaben/iu
 
 /überprüfung.{1,10}aktualisierung.{1,10}adresse/iu
 /überprüfung.{1,10}(unternehmensangaben|unternehmensinformationen)/iu
