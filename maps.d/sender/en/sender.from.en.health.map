@@ -830,8 +830,9 @@
 /kilo{0,10}day/i
 /killing.{0,10}(pain|protein)/i
 
-/knee.{0,10}(coach|comfort|mistake|mobility|myth|pinch)/i
-/knee.{0,10}(reset|restore|ritual)/i
+/knee.{0,10}(coach|comfort|hack|pinch)/i
+/knee.{0,10}(mistake|mobility|myth)/i
+/knee.{0,10}(relief|reset|restore|ritual)/i
 /knee.{0,10}(saver|stretch|support|surprise)/i
 
 # L
@@ -1090,7 +1091,7 @@
 /(re)?grows?.{1,10}lost hair/i
 /(re)?ignite.{1,10}passion/i
 
-/relief.{0,10}(discovery|update)/i
+/relief.{0,10}(alert|discovery|update)/i
 
 /remote.{0,10}pharmacy/i
 /removal.{0,10}expert/i
