@@ -170,7 +170,10 @@
 # P
 # ------------------------------------------------------------------------------
 /(gesunde|perfekte).{0,10}nägel/iu
-/pillen.{0,10}(empfehlung|gratis|info|nachrichten)/i
+
+/(pillen|tabletten).{0,10}(empfehlung|gratis|info|nachrichten)/i
+/(pillen|tabletten).{0,10}versand/i
+
 
 /praxis.{0,10}(health|strategie)/i
 /pure.{0,10}balance/i
