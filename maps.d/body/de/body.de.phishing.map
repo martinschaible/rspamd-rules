@@ -177,7 +177,8 @@
 /ihre.{1,10}persönlichen.{1,10}daten zu bestätigen/iu
 /ihre.{1,10}rechtsform.{1,10}(über)?prüfen/iu
 /ihre.{1,10}steuererstattung ist ausgesetzt/i
-/ihre.{1,10}telefonnummer.{1,10}(aktualisieren|überprüfen)/iu
+
+/ihre.{1,15}(mobilfunknummer|telefonnummer).{1,15}(aktualisieren|bestätigen|überprüfen)/iu
 
 /ihrer internetverbindungsdaten festgestellt haben/i
 
@@ -189,10 +190,11 @@
 
 # J
 # ------------------------------------------------------------------------------
-/jetzt auf digitech\.ch kaufen/i
-/jetzt bestätigung vornehmen/iu
+/jetzt.{1,10}auf digitech\.ch kaufen/i
+/jetzt.{1,10}bestätigung vornehmen/iu
 
-/jetzt e.?vignette online kaufen/i
+/jetzt.{1,10}(mobilfunknummer|telefonnummer) bestätigen/iu
+/jetzt.{1,10}e.?vignette online kaufen/i
 
 # K
 # ------------------------------------------------------------------------------
@@ -252,6 +254,7 @@
 # S
 # ------------------------------------------------------------------------------
 /sicherer zugriff auf.{1,10}aktualisierungsdienste/i
+/sicherheitsprüfung.{1,10}mobilfunknummer/iu
 
 /sie.{1,10}datenaktualisierung bis spätestens/iu
 /sie haben ein neues update erhalten/i
