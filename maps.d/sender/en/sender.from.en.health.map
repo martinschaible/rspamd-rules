@@ -1123,7 +1123,7 @@
 # S
 # ------------------------------------------------------------------------------
 /safe.{0,10}foods?/i
-/sagging.{0,10}(neck|skin)/i
+/(sagging|saggy).{0,10}(butt|neck|skin)/i
 
 /salad.{0,10}alert/i
 /salty?.{0,10}(drink|heart|solution|swap|trick|water)/i
@@ -1180,7 +1180,7 @@
 /sleep.{0,10}(science|secret|shortcut|slim|solution|support)/i
 /sleep.{0,10}(tonight|trick)/i
 
-/slim.{0,10}diet/i
+/slim.{0,10}(diet|soup)/i
 
 /(slim|skinny).{0,10}(boost|waist)/i
 /slim.{0,10}(drink|hack)/i

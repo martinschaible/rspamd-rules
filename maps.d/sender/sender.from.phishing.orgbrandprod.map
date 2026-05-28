@@ -137,7 +137,8 @@
 
 /dhi.?express/i
 /dh.?benachrichtigung/i
-/dh.?(e.?commerce|frachtlogistik|luftfracht|servicezentrum|versandzentrum)/i
+/dh.?(e.?commerce|frachtlogistik|servicezentrum|versandzentrum)/i
+/dh.?(lieferung|luftfracht)/i
 
 /\(dhl\)/i
 /dhl\./i
@@ -501,7 +502,9 @@
 /_dkb/i
 /dkb.?ag/i
 /dkb\.de/i
+
 /dkb.{0,5}communications/i
+/dkb.{0,5}deutsche/i
 /dkb.{0,5}(konto|kundenbetreuung|kundencenter|kundenservice)/i
 /dkb.{0,5}team/i
 
@@ -857,7 +860,7 @@
 /open.?ai.{0,5}.?\|/i
 /open.?ai.{0,5}chatgpt/i
 /open.?ai.{0,5}llc/i
-/open.?ai.{0,5}(account|billing|company|team|upgrade)/i
+/open.?ai.{0,5}(account|billing|company|premium|team|upgrade)/i
 /open.?ai.{0,5}(services?|subscriptions?|support)/i
 /open.?ai.{0,5}(team|tech)/i
 /open.?ai.{0,5}(mitgliederverwaltung|zahlung(en)?)/i
