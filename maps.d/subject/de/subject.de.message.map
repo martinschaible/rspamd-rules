@@ -277,7 +277,9 @@
 /wenn dieser brief/i
 
 /wichtige?.{1,15}(erinnerung|nachricht\b)/i
-/wichtige?.{1,10}mitteilung.{1,10}(des|zahlung der)/i
+
+/wichtige?.{1,10}(e?.?mail|mitteilung|nachricht).{1,10}(des|zahlung der)/i
+/wichtige?.{1,10}(e?.?mail|mitteilung|nachricht) von/i
 
 /wichtige?.{1,10}?.?mail.{1,10}ihr konto/i
 /wichtige?.{1,10}?.?mail.{1,10}zustellungsbericht/i

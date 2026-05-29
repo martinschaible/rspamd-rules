@@ -18,6 +18,7 @@
 
 # A
 # ------------------------------------------------------------------------------
+/aktualisierung.{1,10}dient der sicherstellung/i
 /aktualisierung.{1,10}erfolgt über unser.{1,15}portal/i
 /aktualisierung.{1,20}(kontoinformationen|kontosicherheit|kontozugriffs?)/i
 /aktualisierung.{1,20}kundendaten.{1,10}(erforderlich|durch)/i
@@ -34,6 +35,8 @@
 /aktualisierung.{1,10}zahlungsangaben/i
 
 /aktualisieren.{1,10}sie ihr.{1,15}(konto|profil)/i
+
+/angaben jetzt aktualisieren/i
 
 /aufzuheben.{1,10}bestätigen sie.{1,10}ihre identität/iu
 /aufrechterhaltung (des|ihres) zugangs/i
@@ -64,6 +67,7 @@
 /erfolgen.{1,10}um eine.{1,20}sperre zu vermeiden/i
 
 /etwas ihrem.{1,15}(konto|profil) hinzugefügt/iu
+
 # F
 # ------------------------------------------------------------------------------
 /facebook.{1,10}kontoüberprüfung/iu
@@ -88,7 +92,11 @@
 /ihre.{1,15}identitätsinformationen überprüfen/iu
 /ihre.{1,15}kontoinformationen erneut bestätigen/i
 /ihre.{1,15}kontosicherheit so bald wie möglich zu überprüfen/iu
-/ihre.{1,15}kontaktdaten zu bestätigen/iu
+
+/ihre.{1,25}(kunden|kontakt)?daten in unserem system aktualisieren/i
+/ihre.{1,10}(kunden|kontakt)?daten.{1,25}zu (aktualisieren|bestätigen|überprüfen)/i
+
+/ihre.{1,10}persönlichen daten zu aktualisieren/iu
 
 /ist eine neue verifizierung erforderlich/i
 /ist eine kurze kontoverifizierung erforderlich/i

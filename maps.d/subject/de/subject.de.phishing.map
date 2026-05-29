@@ -68,7 +68,9 @@
 # A
 # ------------------------------------------------------------------------------
 /adresse jetzt aktualisieren/i
-/adressdaten ihres unternehmens aktualisieren/i
+
+/adressdaten.{1,10}reibungslose kommunikation/iu
+/adressdaten.{1,10}unternehmens aktualisieren/i
 
 /aktualisierung.{1,10}ihrer daten für/iu
 /aktualisierung.{1,15}(kundendaten|stammdaten)/i
@@ -447,6 +449,7 @@
 /zahlung.{1,10}sofortige unterstützung/iu
 
 /zugang wartet auf ihre zahlung/i
+/zugriff wurde vorübergehend pausiert/iu
 
 /zugangskontinuität.{1,10}datenpflege erforderlich/iu
 /zustimmung.{1,10}aktualisierten kontaktdaten/iu

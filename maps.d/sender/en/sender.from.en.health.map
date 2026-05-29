@@ -556,7 +556,7 @@
 
 /dairy.{0,10}(recipe|ritual)/i
 
-/damaged.{0,10}nerves/i
+/damaged?.{0,10}(alert|nerves)/i
 /dangerous.{0,10}(pills|veggies?)/i
 
 /dark.{0,10}milk/i
@@ -1009,7 +1009,7 @@
 
 /optical.{0,10}science/i
 /oral.{0,10}(care|flush|health|help|repair)/i
-/organ.{0,10}report/i
+/organ.{0,10}(damage|report)/i
 /oriental.{0,10}secret/i
 
 /over \d{2}/i
