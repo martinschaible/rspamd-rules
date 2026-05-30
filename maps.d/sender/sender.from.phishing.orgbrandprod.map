@@ -406,7 +406,7 @@
 /chat-gpt/i
 /chatgpt.?(ai|\+|plus)/i
 /chatgpt.{0,10}(abonnement|hinweis|kundenservice|kontakt)/i
-/chatgpt.{0,10}billing/i
+/chatgpt.{0,10}(betreuung|billing)/i
 /chatgpt.{0,10}konto/i
 /chatgpt.{0,10}zahlung(en)?/i
 /chatgpt.{0,10}(account|billing|team)/i
@@ -503,9 +503,12 @@
 /dkb.?ag/i
 /dkb\.de/i
 
+/dkb.{0,5}alert/i
 /dkb.{0,5}communications/i
 /dkb.{0,5}deutsche/i
 /dkb.{0,5}(konto|kundenbetreuung|kundencenter|kundenservice)/i
+/dkb.{0,5}monitoring/i
+/dkb.{0,5}(service|sicherheitsdienst|schutz)/i
 /dkb.{0,5}team/i
 
 /info.{0,10}dkb/i
@@ -803,7 +806,10 @@
 # ------------------------------------------------------------------------------
 /^n-26$/i
 
-/n26.{0,10}benachrichtigung(en)?/i
+/n-?26.{0,10}app/i
+/n-?26.{0,10}benachrichtigung(en)?/i
+/n-?26.{0,10}online/i
+/n-?26.{0,10}support/i
 
 /natwestbank/i
 
