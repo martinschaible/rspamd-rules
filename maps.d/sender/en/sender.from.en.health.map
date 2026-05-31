@@ -333,9 +333,10 @@
 
 /apnea.{0,10}(cure|watch)/i
 
-/artery.{0,10}(cleanse|cure|fix|flush|health|plaque)/i
-/artery.{0,10}(research|reset|resque)/i
-/artery.{0,10}(tea|tip)/i
+/(arterial|artery).{0,10}(fix|flush|health|plaque)/i
+/(arterial|artery).{0,10}(cleanse|cure)/i
+/(arterial|artery).{0,10}(research|reset|resque)/i
+/(arterial|artery).{0,10}(tea|tip)/i
 
 /arthritis.{0,10}(alert|gone|trigger)/i
 
@@ -1084,7 +1085,8 @@
 /rapid.{0,10}aging/i
 /rare.{0,10}hormone/i
 
-/real.{0,10}(cause|result)/i
+/real.{0,10}(cause|quick|result)/i
+
 /recovery.{0,10}(plan|research|secret|solution)/i
 /red.{0,10}(berry|elixir|juice|meat|water)/i
 /regain your/i
