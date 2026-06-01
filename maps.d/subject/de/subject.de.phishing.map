@@ -62,6 +62,7 @@
 
 # TLD in front, usualy (ch|com|de|org)
 # ------------------------------------------------------------------------------
+/\.[a-z]{1,4}.{1,10}aktualisieren sie den server/i
 /\.[a-z]{1,4}.{1,10}wichtiger hinweis/i
 /\.[a-z]{1,4}.{1,10}zur beendigung vorgemerkt/i
 
@@ -216,7 +217,7 @@
 /ihre.{1,10}anmeldung ist unvollständig/iu
 /ihre.{1,10}bestätigung wird noch benötigt/iu
 
-/ihre.{1,10}daten benötigen ein update/iu
+/ihre.{1,10}daten benötigen eine?.{1,10}(aktualisierung|update)/iu
 /ihre.{1,10}daten müssen überprüft werden/iu
 
 /ihre.{1,15}daten sind veraltet/i
@@ -388,6 +389,8 @@
 
 # U
 # ------------------------------------------------------------------------------
+/unregelmäßigkeit im vertrag/iu
+
 /unstimmigkeitsmeldung nach.{1,10}gwg/i
 
 /unternehmensdaten.{1,10}müssen bestätigt/iu

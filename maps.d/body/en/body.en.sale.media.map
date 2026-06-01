@@ -227,7 +227,7 @@
 /we have.{1,15}compiled total.{1,10}(attendees?|contacts|registrants|visitors?)/i
 /we have.{1,15}sourced contact details/i
 
-/we.{1,10}help (businesses|creators) grow/i
+/we.{1,10}help (businesses|creators|organizations).{1,10}(establish|grow)/i
 
 /we.{1,10}offer(ing)?.{1,20}ai.?powered solution to fix them/i
 /we.{1,10}offer(ing)?.{1,20}bulk.{1,10}e?.?mailing tools/i

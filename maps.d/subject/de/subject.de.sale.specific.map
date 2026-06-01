@@ -243,7 +243,10 @@
 /unverbindliche anfrage.{1,15}personalbedarf/i
 
 /kurzfristig personal gesucht/i
-/qualifizierte fachkräfte.{1,15}projekt/i
+
+/qualifizierte (fachkräfte|mitarbeiter).{1,15}projekt/i
+/qualifizierte (fachkräfte|mitarbeiter).{1,15}auf/iu
+
 /vermitteln produktionshelfer/i
 
 /zuverlässig.{1,10}(baltikum|litauen)/iu

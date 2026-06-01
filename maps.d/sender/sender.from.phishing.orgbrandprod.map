@@ -296,6 +296,8 @@
 
 /allgemeiner deutscher/i
 
+/anthropic.?ai/i
+/anthropic.{0,10}claude/i
 /ahv.?iv/i
 
 #/aldi-/i
@@ -382,6 +384,8 @@
 
 /bitpanda.{0,10}(kundendienst|kundenservice)/i
 /bmw.?x/i
+
+/blockchain\.com/i
 
 /\|.?brack/i
 /brack\.ch/i
@@ -643,7 +647,8 @@
 # ------------------------------------------------------------------------------
 
 # Interactive Brokers
-/ibkr.{0,10}(invest|message|reply|support)/i
+/ibkr.{0,10}(message|reply|support)/i
+/ibkr.{0,10}(info|invest)/i
 
 /icloud.{0,10}(idrive|storage)/i
 
