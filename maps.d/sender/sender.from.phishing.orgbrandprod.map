@@ -281,7 +281,7 @@
 /adac.{0,10}breaker/i
 /adac.{0,10}(abteilung|deutschland|exklusiv|forschung|gmbh|insider|mitglieder|online|support)/i
 /adac.{0,10}(servies?|sicherheit)/i
-/adac.{0,10}(karten.?service|kreditkarte|kundendienst)/i
+/adac.{0,10}(karten.?service|kreditkarte|kundencenter|kundendienst)/i
 
 /adac.?mitglied$/i
 
@@ -458,6 +458,8 @@
 # D
 # ------------------------------------------------------------------------------
 /danke.{0,5}kaufland/i
+
+/datev.{0,5}konto/i
 
 /db.{0,5}deutschland/i
 
@@ -1171,7 +1173,8 @@
 
 /tepco/i
 /tfbank.{0,10}service/i
-/tk.{0,10}(mitglieder|kundenservice)/i
+
+/tk.{0,10}(gesundheit|mitglieder|kundenservice)/i
 
 /touringclubsuisse/i
 

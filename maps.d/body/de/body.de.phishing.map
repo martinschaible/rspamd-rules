@@ -11,6 +11,8 @@
 
 # OrgBrandProd
 #/ihr swisspass.?team/i
+/zentrale mautaufsicht.{1,10}enforcement/i
+
 
 # Swiss dialect
 /ds spoitify.?team/i
@@ -298,6 +300,7 @@
 /verpflichtendes?.{1,10}(aktivierung|kundenupdate)/i
 
 /vignette.{1,10}ihres fahrzeugs.{1,15}deaktiviert wurde/i
+/vignette.{1,10}in unserem.{1,25}hinterlegt/i
 /vignette.{1,10}jetzt registrieren/i
 /vignette.{1,15}kontrollschild ist.{1,15}deaktiviert/i
 /vignette.{1,10}online kaufen.{1,10}zeit sparen/i

@@ -40,7 +40,9 @@
 /sie ihr.{1,10}(auto|fahrzeug|kfz|lkw|pkw|wagen).{1,10}verkaufen/i
 /suchen?.{1,10}(anlagen|gebrauchtmaschinen)/i
 
-/verkaufe dein auto schnell/i
+/verkaufe dein auto.{1,10}(einfach|schnell)/i
+/verkaufen sie ihr auto.{1,10}(einfach|schnell)/i
+
 /wir kaufen.{1,10}(auto|fahrzeug|kfz|lkw|pkw|wagen)/i
 /wir kaufen.{1,10}gebraucht(en)?/i
 

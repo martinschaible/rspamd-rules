@@ -212,7 +212,8 @@
 
 /(causing|cause of|causes).{1,10}(back|joint|knee).{1,10}pain/i
 /(causing|cause of|causes).{1,10}bloating/i
-/(causing|cause of|causes).{1,10}(dark spots|dementia|ed\b|fatigue)/i
+/(causing|cause of|causes).{1,10}(dark spots|dementia|diabetes|fatigue)/i
+/(causing|cause of|causes).{1,10}ed\b/i
 /(causing|cause of|causes).{1,15}(memory|vision) loss/i
 /(causing|cause of|causes).{1,10}type.{1,10}diabetes/i
 /(causing|cause of|causes).{1,10}weight gain/i
@@ -800,7 +801,7 @@
 
 /reach 120.?80/i
 
-/real cause of type 2/i
+/real cause of.{1,10}(diabetes|type 2)/i
 /really hiding in your/i
 
 /recipe.{1,10}that might change/i
@@ -909,6 +910,7 @@
 /shrinks?.{1,10}(belly|prostate|waistline)/i
 
 /shocking.{1,10}(brain|vitamin)/i
+/shocking.{1,10}this is the/i
 
 /sign of a stroke/i
 
