@@ -38,8 +38,6 @@
 /\.(agency|cam|cat|chat|click|fun|top|work|xyz)$/i
 /\.(biz|co|net|or)\.id$/i
 
-/[a-z]{2,4}\.io$/i
-
 # First seen Dezember 2025
 /\.hair$/i
 /\.makeup$/i
@@ -80,7 +78,9 @@
 /[a-z]{2,5}\.ru/i 3.0
 
 # 15.01.26 - Sample: @dpj.io
-/[a-z]{2,3}\.io/i 3.0
+
+#/[a-z]{2,3}\.io/i 3.0
+
 
 # 25.03.26 - Sample: projecthju77876.info
 /\d{3,10}\.info/i 3.0
