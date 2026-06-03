@@ -73,7 +73,7 @@
 
 /claim.{0,10}(drone|off)/i
 
-/clean.{0,10}(living|shower)/i
+/clean(er)?.{0,10}(living|shower|wc)/i
 /clear.{0,10}road/i
 
 /combat.{0,10}(gear|ready|tactic)/i
