@@ -365,7 +365,8 @@
 
 /support.?(ch|de)$/i
 /support.{0,10}secure/i
-/support.{0,10}(delivery|team)/i
+#/support.{0,10}(delivery|team)/i
+/support.{0,10}delivery/i
 /supporter.{0,10}giveaway/i
 
 /survey.{0,10}team/i
