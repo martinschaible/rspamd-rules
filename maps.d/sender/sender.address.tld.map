@@ -10,10 +10,10 @@
 # ------------------------------------------------------------------------------
 
 # Azerbaijan
-/[a-z]{2,4}\.edu\.az/i
+/[a-z]{2,4}\.edu\.az$/i
 
 # Bangladesh - Sample: info@aldm118596.edu.bd
-/\d{2,6}\.edu\.bd/i
+/\d{2,6}\.edu\.bd$/i
 
 # Brunai - Sample: smssa.moe.edu.bn
 /\.[a-z]{2,4}\.edu\.bn$/i
@@ -28,8 +28,8 @@
 /\.net\.pe$/i
 
 # Russia
-/\.gov\.ru/i
-/\.ru\.com/i
+/\.gov\.ru$/i
+/\.ru\.com$/i
 
 # Vietnam
 /\.edu\.vn/i
@@ -58,7 +58,7 @@
 # ------------------------------------------------------------------------------
 
 # Bangladesh, Education Board Bangladesh
-/[a-z]{2,4}\.edu\.bd/i 3.0
+/[a-z]{2,4}\.edu\.bd$/i 3.0
 
 # Brazil, Government
 /[a-z]{2,4}\.gov\.br$/i 3.0
@@ -71,11 +71,11 @@
 
 # 15.07.25 - Sample: ad.tjulete@service.vggrt.cn
 # -> No subdomain accepted
-/[a-z]{3,15}\.[a-z]{3,15}\.cn/i 3.0
+/[a-z]{3,15}\.[a-z]{3,15}\.cn$/i 3.0
 
 # 16.07.24 - Sample: support@rea.ru
 # -> No short domain name accepted
-/[a-z]{2,5}\.ru/i 3.0
+/[a-z]{2,5}\.ru$/i 3.0
 
 # 15.01.26 - Sample: @dpj.io
 
@@ -83,7 +83,7 @@
 
 
 # 25.03.26 - Sample: projecthju77876.info
-/\d{3,10}\.info/i 3.0
+/\d{3,10}\.info$/i 3.0
 
 # Triple
 # ------------------------------------------------------------------------------
