@@ -75,6 +75,8 @@
 /ihnen.{1,15}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,15}wohltätige zwecke gespendet/iu
 /ihnen.{1,15}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,15}spenden/i
 
+/ihre.{1,20}atm.?karte im wert von.{1,15}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£)/i
+
 /ihnen eine entschädigung in höhe von.{1,10}\d{2,4}(\.|,)?\d{3,4}.{1,15}zugesprochen/iu
 
 /ihrer? zahlung von.{1,10}\d{2,4}(\.|,)?\d{3,4}/i

@@ -234,6 +234,7 @@
 /(lieferung|paket|sendung|versand|zustellung).{1,10}zustellversuch fehlgeschlagen/i
 /(lieferung|paket|sendung|versand|zustellung).{1,10}zuzustellen.{1,10}\d{5,20}/i
 
+/lieferinformation.{1,10}versandkosten bezahlen/i
 /lieferstatusinformationen id.?\d{3,10}/i
 
 #/live verfolgen.{1,10}(paket|sendung)/i
