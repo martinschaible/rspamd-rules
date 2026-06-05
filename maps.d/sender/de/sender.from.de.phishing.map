@@ -208,6 +208,8 @@
 
 /paketdienst.{0,10}(deutschland|schweiz)/i
 #/paketinfo/i
+
+/paket.{0,10}verwaltung/i
 /paket.?(express|service|update)/i
 
 /(photo|push).?tan/i
