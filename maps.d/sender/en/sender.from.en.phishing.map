@@ -167,7 +167,8 @@
 /claim.{0,10}(free|refund|reward|your)/i
 /clean.{0,10}(experts?|support)/i
 
-/customer.{0,10}(engagement|experience|feedback|survey|support)/i
+#/customer.{0,10}(engagement|experience|feedback|survey|support)/i
+/customer.{0,10}(engagement|experience|survey|support)/i
 
 /complimentary.{0,10}gift/i
 
