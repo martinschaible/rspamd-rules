@@ -1125,11 +1125,11 @@
 #/swisspas\./i
 #/swisspass\.ch/i
 /swisspass.?ag/i
-/swisspass.{1,5}billing/i
-/swisspass.{1,5}(benachrichtigung|cff)/i
-/swisspass.{1,5}finanzdienst/i
-/swisspass.{1,5}(kartendienst|kunden?(dienst)?|konto)/i
-/swisspass.{1,5}(sbb|service|support)/i
+/swisspass.{1,10}billing/i
+/swisspass.{1,10}(benachrichtigung|cff)/i
+/swisspass.{1,10}finanzdienst/i
+/swisspass.{1,10}(kartendienst|kunden?(dienst)?|konto)/i
+/swisspass.{1,10}(sbb|service|support)/i
 
 #/swisspass\./i
 /swisspass-/i
