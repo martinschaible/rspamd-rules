@@ -803,6 +803,8 @@
 # I
 # ------------------------------------------------------------------------------
 /iced?.{0,10}(hack|trick|water)/i
+
+/ignore this/i
 /immune.{0,10}(booster|health|link|system)/i
 
 /improve.{0,10}circulation/i
@@ -904,6 +906,8 @@
 /(metabolic|metabolism).{0,10}(reactivation|research|reset|revival|wine)/i
 
 /(mexican|rare).{0,10}salt/i
+
+/milk.{0,10}danger/i
 /midnight.{0,10}bathroom/i
 
 /min.?stretch/i
@@ -1113,7 +1117,8 @@
 /reverse.{0,10}(aging|gum)/i
 /revive.{0,10}your/i
 
-/ringing.{0,10}(ears|gone)/i
+/ringing.{0,10}(ears|sound)/i
+/ringing.{0,15}(guide|gone)/i
 
 /rise.{0,10}again/i
 /risky.{0,10}(food|veggies?|vitamins?)/i
@@ -1252,7 +1257,7 @@
 
 /sugar.{0,10}(balance|control|eraser|fix|free|guilty|hack|traps|trick)/i
 /sugar.{0,10}(reboot|report)/i
-/sugar.{0,10}(shock|solution|spike|study|surprise)/i
+/sugar.{0,10}(scarring|shock|solution|spike|study|surprise)/i
 
 /super.{0,10}(fruits?|water)/i
 /supplement.{0,10}(alert|choice|insider|mistake|review|truth)/i

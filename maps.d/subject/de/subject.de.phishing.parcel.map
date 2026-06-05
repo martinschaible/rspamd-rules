@@ -308,6 +308,7 @@
 /(paket|sendung).{1,10}mit der nummer/i
 /(paket|sendung).{1,10}neueste aktualisierung/i
 /(paket|sendung).{1,10}nicht möglich.{1,10}fehlerhafte.{1,10}(adresse?|angaben|mwst)/iu
+/(paket|sendung).{1,10}rücksendung bestätigen/iu
 /(paket|sendung).{1,10}überprüfung erforderlich/iu
 
 /(paket|sendung).{1,10}sendungs.?id/i
@@ -342,6 +343,7 @@
 
 # R
 # ------------------------------------------------------------------------------
+/rücksendung für.{1,15}(paket|sendung).{1,10}eingeleitet/iu
 
 # S
 # ------------------------------------------------------------------------------

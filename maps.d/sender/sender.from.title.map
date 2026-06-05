@@ -10,6 +10,8 @@
 # English
 # ------------------------------------------------------------------------------
 /^attorney/i
+
+/administrative.?officer/i
 /executive.?director/i
 /(purchase|sales).?manager/i
 
@@ -23,6 +25,7 @@
 /from (capt|dr|mrs?)\.\s/i
 
 /ceo\b/i
+/chief.?administrative/i
 
 /head of procurement/i
 

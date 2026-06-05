@@ -168,8 +168,8 @@
 /^hermes$/i
 
 /hermes.{0,10}(germany|gmbh)/i
-/hermes.{0,15}(logistik|zentrum)/i
-/hermes.{0,5}zoll/i
+/hermes.{0,15}(kundenservice|logistik)/i
+/hermes.{0,5}(zentrum|zoll)/i
 
 # UPS
 /u\.p\.s/i

@@ -109,9 +109,13 @@
 /avoid.{1,10}early diabetes/i
 /avoid.{1,10}heart attack/i
 /avoid.{1,10}here.{1,10}why/i
+
 /avoid.{1,10}(these|this).{1,15}(back|breakfast)/i
-/avoid.{1,10}(these|this).{1,15}(damaging|dangerous|deadly|diabetic|foods?|fruit|ingredient)/i
-/avoid.{1,10}(these|this).{1,15}(common|gut)/i
+/avoid.{1,10}(these|this).{1,15}(damaging|dangerous|deadly|diabetic|ingredient)/i
+/avoid.{1,10}(these|this).{1,15}(foods?|fruit)/i
+/avoid.{1,10}(these|this).{1,15}gut/i
+/avoid.{1,10}(these|this).{1,15}(causes|common)/i
+
 /avoid.{1,10}this\.\./i
 /avoid.{1,10}tinnitus/i
 
@@ -135,7 +139,9 @@
 /bedtime.{1,10}(drink|hack|habit|trick)/i
 /bedroom.{1,10}magic/i
 /before bed tonight/i
+
 /belly.{1,10}(fat|overnight)/i
+/bell.{1,10}massage helps/i
 
 /behind.{1,10}(bloat|nerve pain)/i
 
@@ -372,7 +378,7 @@
 /eat(ing)? this.{1,10}(feel|to)/i
 
 /ears?.{1,10}(rub trick|try this)/i
-/ear noises/i
+/ear (noises?|ringing)/i
 
 /eliminates?.{1,10}(buzzing|clogged|neuropathy|tinnitus)/i
 
