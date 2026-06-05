@@ -205,9 +205,11 @@
 
 /danke für ihr feedback.{1,10}jetzt/iu
 
+/deals.{1,10}ihr freischaltcode/i
+
 /(dein|ihr).{1,10}\d{3,4}.{1,15}gutschein wartet auf dich/i
-/(dein|ihr) geschenk schon gesehen/i
-/(dein|ihr) preis ist auf dem weg/i
+/(dein|ihr).{1,10}geschenk schon gesehen/i
+/(dein|ihr).{1,10}preis ist auf dem weg/i
 
 /deine.{1,15}belohnung abholen/i
 /deine.{1,15}bestätigung läuft gleich ab/iu
