@@ -426,7 +426,10 @@
 
 /breakfast.{0,10}(alert|insider|juice|mistake|myth|treat|quiz)/i
 /breakfast.{0,10}(bloat|boost|burner)/i
-/(breathe|breathing).{0,10}(better|clearer|easier|easy)/i
+
+/(breathe|breathing).{0,10}(better|clearer)/i
+/(breathe|breathing).{0,10}(easier|easy)/i
+/(breathe|breathing).{0,10}support/i
 
 /bright.{0,10}smile/i
 

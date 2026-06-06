@@ -1127,6 +1127,8 @@
 /swiss-pass/i
 #/swisspas\./i
 #/swisspass\.ch/i
+/^swisspass$/i
+
 /swisspass.?ag/i
 /swisspass.{1,10}billing/i
 /swisspass.{1,10}(benachrichtigung|cff)/i
@@ -1201,6 +1203,7 @@
 # U
 # ------------------------------------------------------------------------------
 /ubs.?ag.?ch/i
+/ubs.{0,10}kundenservice/i
 
 /-ubereats/i
 
