@@ -154,7 +154,7 @@
 
 /konto.{1,10}(abgelaufen|eingeschränkt)/iu
 /konto.{0,15}(aktualisierung|update|überprüfung) erforderlich/iu
-/konto.{1,10}benötigt ein sicherheitsupdate/iu
+/konto.{1,10}benötigt eine?.{1,10}(aktualisierung|sicherheitsupdate)/iu
 /konto.{1,10}eingeschränkt.{1,10}id/i
 /konto.{1,10}einschränken in/i
 /konto.{1,10}erfordert eine.{1,15}ihrerseits/iu
