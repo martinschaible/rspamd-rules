@@ -17,6 +17,14 @@
 # ------------------------------------------------------------------------------
 /jetzt 2fa aktivieren/i
 
+# Twint
+# ------------------------------------------------------------------------------
+/twint.?id.{1,10}identifizierung/i
+/twint.{1,15}wurde aus sicherheitsgründen gesperrt/iu
+
+/ihre twint\./i
+/sofort den neuen twint.?dienst/i
+
 #
 #
 #

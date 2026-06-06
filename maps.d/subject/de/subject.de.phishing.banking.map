@@ -18,6 +18,18 @@
 
 /(photo|push).?tan.{1,10}legitimation/i
 
+
+# Twint
+# ------------------------------------------------------------------------------
+/twint.{1,10}verbindung
+/twint.{1,10}wartet auf die verifizierung/i
+
+/dienst(es)?.{1,10}twint/i
+/kontaktdaten.{1,10}twint/i
+/app.?twint/i
+
+/ihre.{1,15}app wird bald gesperrt/i
+
 #
 #
 #

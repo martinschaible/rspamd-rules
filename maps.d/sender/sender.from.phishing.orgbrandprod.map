@@ -214,6 +214,7 @@
 /(dhl|dpd|fedex|gls|ups).{0,5}paket.?(status|zentrum)/i
 /(dhl|dpd|fedex|gls|ups).{0,5}(package|payment|paketinfo)/i
 /(dhl|dpd|fedex|gls|ups).{0,10}team/i
+/(dhl|dpd|fedex|gls|ups).{0,10}update/i
 /(dhl|dpd|fedex|gls|ups).{0,5}verteilzentrum/i
 /(dhl|dpd|fedex|gls|ups).{0,5}(zustellung|zoll)/i
 
@@ -1203,6 +1204,7 @@
 # U
 # ------------------------------------------------------------------------------
 /ubs.?ag.?ch/i
+/ubs.{0,10}digital-?services/i
 /ubs.{0,10}kundenservice/i
 
 /-ubereats/i
