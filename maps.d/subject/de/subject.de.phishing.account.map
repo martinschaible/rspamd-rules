@@ -22,7 +22,7 @@
 
 # TLD in front, usualy (ch|com|de|org)
 # ------------------------------------------------------------------------------
-/\.[a-z]{1,4}.{1,5}mitteilung zu ihrem.{1,15}konto/i
+/\.[a-z]{1,4}.{1,5}mitteilung zu ihrem.{1,15}(konto|profil)/i
 
 # A
 # ------------------------------------------------------------------------------
@@ -32,7 +32,7 @@
 /aktualisierung ihres.{1,10}(kontos?|profils?).{1,10}update/i
 /aktualisierung ihrer.{1,10}vertragsbedingungen.{1,10}zustimmung/i
 
-/anderes gerät ist mit ihrem.{1,15}konto/iu
+/anderes gerät ist mit ihrem.{1,15}(konto|profil)/iu
 /anfrage.{1,10}ungewöhnlichen?.{1,10}aktivitäten/iu
 
 /anmeldung bei deinem metamask/i
@@ -45,11 +45,12 @@
 # B
 # ------------------------------------------------------------------------------
 /^benutzerkonto gesperrt/i
-/bestätigen sie jetzt ihr/iu
-/bestätigung des.{1,15}kontos/iu
+
+/bestätigen sie jetzt ihr.{1,15}(konto|profil)/iu
+/bestätigung des.{1,15}(kontos|profils)/iu
 
 #/(aktualisieren?|bestätigen?).{1,10}(deine|sie).{1,15}(kontakt|konto).?daten/i
-/aktualisieren.{1,10}(deine|sie).{1,15}(kontakt|konto).?daten/i
+/aktualisieren.{1,10}(deine|sie).{1,15}(kontakt|konto|profil).?daten/i
 
 /bitte login bestätigen/iu
 /bitte loggen sie sich/i
@@ -60,7 +61,7 @@
 
 # D
 # ------------------------------------------------------------------------------
-/datensicherheit ihres.{1,15}kontos/i
+/datensicherheit ihres.{1,15}(kontos|profils)/i
 
 /dringend.{1,10}die 2.?faktor.{1,10}authentifizierung/i
 /dringende aktivierung der/i
@@ -70,14 +71,14 @@
 # ------------------------------------------------------------------------------
 /eine sperrung zu vermeiden/i
 
-/(eingeschränkten|eingeschränkter) zugriff auf ihr.{1,15}konto/iu
+/(eingeschränkten|eingeschränkter) zugriff auf ihr.{1,15}(konto|profil)/iu
 
 /erforderliche.{1,10}konten.?synchronisation/i
 /erweiterte sicherheit.{1,10}verfügbar/iu
 
 # F
 # ------------------------------------------------------------------------------
-/funktionen.{1,15}konto aktualisieren/i
+/funktionen.{1,15}(konto|profil) aktualisieren/i
 
 # Too generic
 #/für ihr.{1,15}(konto|profile)/i
@@ -93,23 +94,23 @@
 
 # H
 # ------------------------------------------------------------------------------
-/halten sie ihr.{1,15}konto aktiv/i
+/halten sie ihr.{1,15}(konto|profil) aktiv/i
 
-/(sicherheits)?hinweis zu ihrem.{1,15}konto/i
+/(sicherheits)?hinweis zu ihrem.{1,15}(konto|profil)/i
 
-/helfen sie uns.{1,10}ihr.{1,15}konto sicher zu halten/i
+/helfen sie uns.{1,10}ihr.{1,15}(konto|profil) sicher zu halten/i
 
 # I
 # ------------------------------------------------------------------------------
 /identitätscheck.{1,10}schritt für schritt/iu
 
-/ihr.{1,15}konto(:|!)/i
-/ihr.{1,15}konto aktiv zu halten/i
-/ihr.{1,15}konto erfordert eine aktualisierung/i
+/ihr.{1,15}(konto|profil)(:|!)/i
+/ihr.{1,15}(konto|profil) aktiv zu halten/i
+/ihr.{1,15}(konto|profil) erfordert eine aktualisierung/i
 
-/ihr.{1,15}konto ist gefährdet/i
-/ihr.{1,15}konto jetzt/i
-/ihr.{1,15}konto.{1,10}wichtige information/i
+/ihr.{1,15}(konto|profil) ist gefährdet/i
+/ihr.{1,15}(konto|profil) jetzt/i
+/ihr.{1,15}(konto|profil).{1,10}wichtige information/i
 
 /ihr.{1,10}kundenprofil wurde gesperrt/i
 
@@ -119,12 +120,13 @@
 /ihre.{1,10}identität als rechtmäßiger kontoinhaber/iu
 /ihre?.{1,10}legitimations.?prozess/i
 
-/ihrem.{1,10}konto.{1,10}ch/i
+/ihrem.{1,10}(konto|profil).{1,10}ch/i
+
 /ihren.{1,10}kontozugang wiederherzustellen/i
 /ihrer?.{1,10}(kontosperrung|kontosicherheit)/i
 
 /in ihrem.{1,10}online.?konto/i
-/in ihrem.{1,15}konto erkannt/i
+/in ihrem.{1,15}(konto|profil) erkannt/i
 
 /information zur kontoverifizierung/i
 /information.{1,15}kontoverwaltung/i
@@ -152,29 +154,29 @@
 /kontosperrung zu vermeiden/i
 /kontosperrung droht.{1,10}(ref(erenz)?|id)/i
 
-/konto.{1,10}(abgelaufen|eingeschränkt)/iu
-/konto.{0,15}(aktualisierung|update|überprüfung) erforderlich/iu
-/konto.{1,10}benötigt eine?.{1,10}(aktualisierung|sicherheitsupdate)/iu
-/konto.{1,10}eingeschränkt.{1,10}id/i
-/konto.{1,10}einschränken in/i
-/konto.{1,10}erfordert eine.{1,15}ihrerseits/iu
-/konto.{1,10}gesperrt.{1,20}zahlungsproblem/i
+/(konto|profil).{1,10}(abgelaufen|eingeschränkt)/iu
+/(konto|profil).{0,15}(aktualisierung|update|überprüfung) erforderlich/iu
+/(konto|profil).{1,10}benötigt eine?.{1,10}(aktualisierung|sicherheitsupdate)/iu
+/(konto|profil).{1,10}eingeschränkt.{1,10}id/i
+/(konto|profil).{1,10}einschränken in/i
+/(konto|profil).{1,10}erfordert eine.{1,15}ihrerseits/iu
+/(konto|profil).{1,10}gesperrt.{1,20}zahlungsproblem/i
 
-/konto.{1,10}innerhalb der nächsten.{1,10}stunden vorübergehend/iu
-/konto.{1,10}ist betroffen.{1,10}vertrauliche nachricht/i
-/konto.{1,10}(bleibt|ist|kann|wird|wurde).{1,20}(begrenzt|deaktiviert|eingeschränkt|inaktiv|gesperrt|verifiziert)/i
-/konto.{1,10}(braucht|erfordert) ihre aufmerksamkeit/i
-/konto.{1,10}ihre.{1,15}daten zu schützen/iu
-/konto.{1,10}muss innerhalb von.{1,15}aktualisiert/i
-/konto.{1,10}(stillgelegt|vorübergehende?)/iu
-/konto.{1,10}(schutzmassnahme|schutzmaßnahme) aktiv/i
-/konto.{1,10}um es aktiv zu halten/i
-/konto.{1,10}unvollständig.{1,10}nicht aktuell sind/iu
-/konto.{1,15}verifizierung.{1,10}einkommensteuer/i
-/konto.{1,15}vor einer endgültigen sperrung/iu
-/konto.{1,10}vorgang.{1,10}\d{4,10}/i
-/konto.{1,10}wird überprüft/iu
-/konto.{1,10}wurde aufgrund ungewöhnlicher/i
+/(konto|profil).{1,10}innerhalb der nächsten.{1,10}stunden vorübergehend/iu
+/(konto|profil).{1,10}ist betroffen.{1,10}vertrauliche nachricht/i
+/(konto|profil).{1,10}(bleibt|ist|kann|wird|wurde).{1,20}(begrenzt|deaktiviert|eingeschränkt|inaktiv|gesperrt|verifiziert)/i
+/(konto|profil).{1,10}(braucht|erfordert) ihre aufmerksamkeit/i
+/(konto|profil).{1,10}ihre.{1,15}daten zu schützen/iu
+/(konto|profil).{1,10}muss innerhalb von.{1,15}aktualisiert/i
+/(konto|profil).{1,10}(stillgelegt|vorübergehende?)/iu
+/(konto|profil).{1,10}(schutzmassnahme|schutzmaßnahme) aktiv/i
+/(konto|profil).{1,10}um es aktiv zu halten/i
+/(konto|profil).{1,10}unvollständig.{1,10}nicht aktuell sind/iu
+/(konto|profil).{1,15}verifizierung.{1,10}einkommensteuer/i
+/(konto|profil).{1,15}vor einer endgültigen sperrung/iu
+/(konto|profil).{1,10}vorgang.{1,10}\d{4,10}/i
+/(konto|profil).{1,10}wird überprüft/iu
+/(konto|profil).{1,10}wurde aufgrund ungewöhnlicher/i
 
 /(konto|profil).{0,10}aktualisierung.{1,10}frist/i
 /(konto|profil).{1,10}bleibe geschützt/iu
@@ -185,6 +187,8 @@
 /kontostatus.{1,10}aktualisierung no\b/i
 
 /kontozugriff.{1,10}sichern/i
+
+/kümmern sie sich um ihr.{1,15}(konto|profil)/iu
 
 /kurze (überprüfung|verifizierung) (für ihr.{1,15}konto|ihrer angaben)/iu
 
@@ -199,7 +203,7 @@
 
 # N
 # ------------------------------------------------------------------------------
-/nachricht zur sicherheit ihres.{1,15}kontos/i
+/nachricht zur sicherheit ihres.{1,15}(kontos|profils)/i
 
 /nicht verifizierte.{1,15}(konten|profile) werden.{1,20}gesperrt/i
 
@@ -228,23 +232,23 @@
 
 # S
 # ------------------------------------------------------------------------------
-/schutzblock für.{1,10}konto/iu
-/schützen sie ihr konto.{1,10}aktivieren sie/iu
+/schutzblock für.{1,15}(konto|profil)/iu
+/schützen sie ihr.{1,15}(konto|profil).{1,10}aktivieren sie/iu
 
-/sicheres.{1,10}konto.?dokument/i
+/sicheres.{1,15}(konto|profil).?dokument/i
 /sichern.{1,10}vor dem.{1,10}202\d.{1,10}handeln/i
 /sicherheit ihrer.{1,15}kontoaktivität/iu
 
-/sicherheitsmitteilung für ihr.{1,15}konto/iu
+/sicherheitsmitteilung für ihr.{1,15}(konto|profil)/iu
 /sicherheitsteam.{1,20}unautorisierter zugriff/i
 
-/(sicherheits|system).?(aktualisierung|update).{1,10}ihr.{1,15}konto/i
+/(sicherheits|system).?(aktualisierung|update).{1,10}ihr.{1,15}(konto|profil)/i
 
-/sicherheitsüberprüfung ihres.{1,15}kontos/iu
+/sicherheitsüberprüfung ihres.{1,15}(kontos|profils)/iu
 
 /sie sollten ihren kontostatus.{1,10}(über)?prüfen/iu
 
-/sperrung ihres.{1,15}kontos zu vermeiden/i
+/sperrung ihres.{1,15}(kontos|profils).{1,10}zu vermeiden/i
 
 /system.{1,15}ausstehende bestätigung/iu
 
@@ -253,9 +257,9 @@
 
 # U
 # ------------------------------------------------------------------------------
-/unvollständige verifizierung.{1,10}ihr.{1,15}konto/iu
+/unvollständige verifizierung.{1,10}ihr.{1,15}(konto|profil)/iu
 
-/überprüfung deines.{1,15}kontos.{1,10}erforderlich/iu
+/überprüfung deines.{1,15}(konto|profil).{1,10}erforderlich/iu
 /überprüfung ihrer.{1,15}(konto|profil).?(daten|informationen)/iu
 
 /um den service fortzusetzen/i
@@ -264,7 +268,7 @@
 /umgehende bestätigung ihrer.{1,15}daten erforderlich/iu
 
 /unbekannter anmeldeversuch erkannt.{1,10}bitte prüfen/iu
-/(ungewöhnliche|verdächtige).{1,10}(aktivitäten|vorgänge) (auf|in) (dem|ihrem).{1,15}konto/iu
+/(ungewöhnliche|verdächtige).{1,10}(aktivitäten|vorgänge) (auf|in) (dem|ihrem).{1,15}(konto|profil)/iu
 
 /unserer?.{1,10}login.?methoden?/i
 /unserer?.{1,15}sicherheitsaktualisierung/i
@@ -287,7 +291,7 @@
 /warnung zur kontosperrung/i
 /weiterhin vollen kontozugriff/i
 
-/wichtige informationen zu ihrem.{1,15}konto/i
+/wichtige informationen zu ihrem.{1,15}(konto|profil)/i
 /wichtiger schritt.{1,15}sicherheit/i
 
 /wir haben.{1,15}zugriff eingeschränkt/iu
@@ -301,7 +305,7 @@
 
 # Z
 # ------------------------------------------------------------------------------
-/zahlungserinnerung für ihr.{1,15}konto/iu
+/zahlungserinnerung für ihr.{1,15}(konto|profil)/iu
 
 /zu ihrer.{1,10}kontosperrung/i
 /zur vermeidung einer zugangssperre/i
