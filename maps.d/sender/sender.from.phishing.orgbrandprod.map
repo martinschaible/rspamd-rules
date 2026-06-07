@@ -197,7 +197,7 @@
 /(dhl|dpd|fedex|gls|ups).{0,10}info(.?zentrum)?/i
 /(dhl|dpd|fedex|gls|ups).{0,5}ekunde/i
 /(dhl|dpd|fedex|gls|ups).{0,5}(kundendienst|kundenportal|kundenservice)/i
-/(dhl|dpd|fedex|gls|ups).{0,5}(lieferdienst|lieferung)/i
+/(dhl|dpd|fedex|gls|ups).{0,5}(lieferdienst|lieferung|logistik)/i
 /(dhl|dpd|fedex|gls|ups).{0,10}(logistik.?team|logistikzentrum)/i
 /(dhl|dpd|fedex|gls|ups).{0,5}(gmbh|noreply)/i
 
@@ -490,6 +490,8 @@
 /hilfe.{0,10}deutsche.?bank/i
 
 /deutschland.?radio.{0,10}nachrichtendienst/i
+
+/^deutschland.?ticket$/i
 /deutschland.?ticket.{0,10}(service|team|zentrale)/i
 /deutschland.?tickets/i
 
@@ -1072,6 +1074,8 @@
 /^stanley$/i
 
 /\.starbucks/i
+
+/strato.{0,10}rechnung/i
 
 #/(service|support).{0,10}paypal/i
 /support.{0,10}(netflix|paypal|roundcube)/i
