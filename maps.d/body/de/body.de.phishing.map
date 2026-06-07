@@ -161,9 +161,10 @@
 
 # I
 # ------------------------------------------------------------------------------
-/im rahmen.{1,10}einer systemüberprüfung ist/iu
-/im rahmen.{1,15}aktuellen sicherheitsrichtlinien/i
-/im rahmen.{1,15}laufenden sicherheitsverbesserungen/i
+/im rahmen.{1,10}einer.{1,10}systemüberprüfung ist/iu
+/im rahmen.{1,15}(aktuellen|laufenden).{1,10}sicherheitsrichtlinien/i
+/im rahmen.{1,15}(aktuellen|laufenden).{1,10}sicherheitsverbesserungen/i
+/im rahmen.{1,15}(aktuellen|laufenden).{1,10}(massnahmen|maßnahmen).{1,10}sicherstellung/iu
 
 /ihr.{1,10}sicherheitsteam/i
 
