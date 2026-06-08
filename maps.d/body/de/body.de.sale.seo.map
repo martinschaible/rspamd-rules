@@ -42,21 +42,23 @@
 
 # G
 # ------------------------------------------------------------------------------
+/google ihre (web.?)?site.{1,10}nicht.{1,20}zu berücksichtigen/iu
 
 # H
 # ------------------------------------------------------------------------------
 
 # I
 # ------------------------------------------------------------------------------
-/ich habe ihre web.?site angesehen/i
-/ich habe ihre web.?site überprüft.{1,10}glaube/iu
+/ich habe ihre (web.?)?site angesehen/i
+/ich habe ihre (web.?)?site überprüft.{1,10}glaube/iu
 
 /ihre sichtbarkeit.{1,10}google/i
 
-/ihrer? web.?site.{1,15}auf einige probleme/i
-/ihrer? web.?site.{1,10}bei Google/i
-/ihrer? web.?site.{1,10}bestimmte keywords/i
-/ihrer? web.?site.{1,15}ersten seite von/i
+/ihrer? (web.?)?site.{1,15}auf einige probleme/i
+/ihrer? (web.?)?site.{1,10}bei Google/i
+/ihrer? (web.?)?site.{1,10}erhält.{1,15}wenig Traffic/i
+/ihrer? (web.?)?site.{1,10}bestimmte keywords/i
+/ihrer? (web.?)?site.{1,15}ersten seite von/i
 
 # J
 # ------------------------------------------------------------------------------
