@@ -63,8 +63,8 @@
 
 /(grüsse|grüße).{1,10}(an sie|liebling|liebste|meine liebe)/i
 /(grüsse|grüße).{1,10}(dich|sie).{1,10}ich bin/i
-/(grüsse|grüße).{1,10}(dich|sie).{1,10}im namen des herrn/iu
-/(grüsse|grüße).{1,10}im herrn/i
+/(grüsse|grüße).{1,15}im namen/iu
+/(grüsse|grüße).{1,15}im herrn/i
 /(grüsse|grüße).{1,10}e?.?mail inhaber/i
 /(grüsse|grüße).{1,10}von herrn/i
 /(grüsse|grüße).{1,10}wie geht es ihnen/i
