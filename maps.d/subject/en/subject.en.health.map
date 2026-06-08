@@ -109,6 +109,7 @@
 /avoid.{1,10}early diabetes/i
 /avoid.{1,10}heart attack/i
 /avoid.{1,10}here.{1,10}why/i
+/avoid.{1,10}surgery with
 
 /avoid.{1,10}(these|this).{1,15}(back|breakfast)/i
 /avoid.{1,10}(these|this).{1,15}(damaging|dangerous|deadly|diabetic|ingredient)/i
@@ -757,6 +758,7 @@
 /pain in.{1,10}minutes?/i
 
 /pain.{1,15}(after|do) this/i
+/pain.{1,10}fix alternative/i
 /pain.{1,10}(getting worse|try this)/i
 /pain.{1,10}learn more/i
 /pain.{1,10}melt away/i
@@ -787,6 +789,7 @@
 /prevent.{1,15}(bladder|decay|disease|gum|memory|tooth)/i
 
 /prostate.{1,15}(comfort|enlargement|friendly|issues|relief)/i
+/prostate.{1,15}here is/i
 /prostate.{1,15}(solution|swelling)/i
 
 /protects? your.{1,10}heart/i
