@@ -205,6 +205,7 @@
 # P
 # ------------------------------------------------------------------------------
 /paket in/i
+/paket.{0,10}koordination/i
 
 /paketdienst.{0,10}(deutschland|schweiz)/i
 #/paketinfo/i
@@ -292,6 +293,8 @@
 # Z
 # ------------------------------------------------------------------------------
 /zahlung.{0,10}abgelehnt/i
+
+/zentrale.{0,10}paket/i
 
 #/zoll.{0,10}(paket|service)/i
 /zoll.{0,10}paket/i

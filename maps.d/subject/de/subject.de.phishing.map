@@ -204,6 +204,8 @@
 
 # H
 # ------------------------------------------------------------------------------
+/ihre hinterlegten kundendaten/i
+
 /hinweis zur.{1,15}(datenpflege|systemintegrität)/iu
 
 # I
@@ -404,7 +406,7 @@
 
 /überweisung gesperrt/iu
 
-/überprüfen.{1,10}sie ihreg.{1,15}(adressangaben|hinterlegten|kundendaten)/iu
+/überprüfen.{1,10}sie ihre.{1,15}(adressangaben|hinterlegten|kundendaten)/iu
 
 /überprüfung.{1,10}aktualisierung.{1,10}adresse/iu
 /überprüfung.{1,10}(unternehmensangaben|unternehmensinformationen)/iu

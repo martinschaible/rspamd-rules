@@ -36,6 +36,8 @@
 /adresse.{1,10}bestätigen.{1,10}zustellung vereinbaren/iu
 /adresse.{1,15}lieferung erforderlich/i
 
+/adressvalidierung.{1,20}(fehlgeschlagen|überprüfung)/i
+
 /angekommen.{1,10}verzollt/i
 /anleitung.{1,10}(zollabfertigung|zollabwicklung)/i
 
@@ -383,6 +385,7 @@
 # ------------------------------------------------------------------------------
 /vernichtung ihres.{1,10}pakets/i
 
+/verfuegbarkeit.{1,15}empfaenger/iu
 /verfolgen.{1,10}zu erhalten/i
 /verifizierung.{1,15}zustellung erforderlich/i
 
