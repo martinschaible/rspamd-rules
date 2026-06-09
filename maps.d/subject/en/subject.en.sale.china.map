@@ -290,6 +290,8 @@
 
 /high.?performance.{1,10}quartz.{1,10}products/i
 
+/hotel.{1,10}furniture.{1,10}factory/i
+
 # H
 # ------------------------------------------------------------------------------
 /heavy copper.{1,10}(pcba?|printed.?circuits?.?board)/i
@@ -526,7 +528,7 @@
 /raw material.{1,10}steel/i
 
 /reduce.{1,10}printing costs/i
-/regarding.{1,15}(pcba?|printed.?circuits?.?board)/i
+/(regarding|requirement).{1,15}(pcba?|printed.?circuits?.?board)/i
 
 /reliable.{1,10}(china|chinese).{1,20}(freight|forwarder)/i
 /reliable.{1,20}(faucets|freight|forwarder)/i
