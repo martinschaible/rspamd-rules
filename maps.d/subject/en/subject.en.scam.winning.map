@@ -15,7 +15,9 @@
 
 # Lottery
 # ------------------------------------------------------------------------------
-/(lottery|lotto).{1,10}promotion prize/i
+/(lottery|lott?o).{1,10}promotion prize/i
+/(lottery|lott?o).{1,10}team/i
+
 /loterie covid/i
 
 /covid.{1,10}(lottery|lotto)/i
