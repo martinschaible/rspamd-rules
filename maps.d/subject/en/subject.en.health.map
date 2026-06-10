@@ -667,7 +667,7 @@
 
 /may block.{1,10}tinnitus/i
 
-/memory.?loss.{1,10}(comes from|discovery|unveiled)/i
+/memory.?loss.{1,10}(comes from|discovery|food|unveiled)/i
 /memory.{1,10}in just/i
 /memory.{1,10}(boost(ing)?|rescue|steroid)/i
 /memory.{1,10}starting.{1,15}(slow|to get)/i
@@ -1131,6 +1131,8 @@
 /trick melts.{1,10}fat/i
 /trick that may/i
 /trick to end.{1,15}pain/i
+
+/triggers?.{1,10}joint.?pain/i
 
 /trim your.{1,10}waistline/i
 
