@@ -189,8 +189,9 @@
 /restore.{1,10}e?.?mail delivery/i
 /returning.{1,10}(e?.?mail|message)s?.{1,10}to the sender/i
 
-/review incoming.{1,15}(e?.?mail|message)s?/i
+/review.{1,15}@/i
 /review.{1,10}(e?.?mail|message).{1,10}in.{1,10}spam quarantine/i
+/review.{1,10}incoming.{1,15}(e?.?mail|message)s?/i
 
 /roundcube webmail.{1,15}@/i
 

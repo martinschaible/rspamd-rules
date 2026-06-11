@@ -114,6 +114,8 @@
 
 # R
 # ------------------------------------------------------------------------------
+/ref_id_\d{2,10}/i
+
 /rewards?.{1,10}expiring soon/i
 /rewards?.{1,10}for?.{1,20}customers?/i
 /rewards?.{1,10}has been authorized/i
