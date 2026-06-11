@@ -140,6 +140,8 @@
 # ------------------------------------------------------------------------------
 /karten.{0,10}(service|support|team)/i
 
+/kontakt.{0,10}(team|support|service)/i
+
 /konto.{0,10}benachrichtigung/i
 # Microsoft uses "konto-team"!
 #/konto.{0,10}(informationsdienst|team|updates?)/i
