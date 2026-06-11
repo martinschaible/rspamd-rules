@@ -582,7 +582,7 @@
 
 /european union/i
 
-/estv.{0,5}dpd/i
+/estv.{0,5}(ch|dpd)/i
 
 # 24.02.26
 /e.?tax/i
@@ -799,6 +799,7 @@
 
 /migros.{0,10}(kundendienst|kundenservice)/i
 /migros.{0,10}(gewinn|markt|kommunikation|oral.?b)/i
+/migros.{0,10}schweiz/i
 /(deine|dini).{0,10}migros/i
 
 /^migrol$/i
