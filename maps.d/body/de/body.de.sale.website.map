@@ -18,6 +18,7 @@
 
 # A
 # ------------------------------------------------------------------------------
+/aktualisierung ihrer.{1,15}(home.?page|web.?site)/i
 
 # B
 # ------------------------------------------------------------------------------
@@ -39,6 +40,7 @@
 
 # G
 # ------------------------------------------------------------------------------
+/gestaltung einer neuen.{1,15}(home.?page|web.?site)/i
 
 # H
 # ------------------------------------------------------------------------------
@@ -80,6 +82,7 @@
 
 # P
 # ------------------------------------------------------------------------------
+/professionelle.{1,15}(home.?page|web.?site).{1,10}fairen? preisen?/i
 
 # Q
 # ------------------------------------------------------------------------------
@@ -89,11 +92,17 @@
 
 # S
 # ------------------------------------------------------------------------------
+/sie bereits eine .{1,15}(home.?page|web.?site).{1,10}haben/i 
+
 /sie ein.{1,10}(home.?page|web.?site).?(re)?design/i
-/sie eine.{1,15}(home.?page|web.?site) erstellen/i
+/sie eine.{1,15}(home.?page|web.?site).{1,10}erstellen/i
+
+/sie ein.{1,10}neues.{1,10}webdesign/i
 
 /sie eine.{1,15}(kreative|neue|schnelle).{1,10}(home.?page|web.?site)/i
-/sie ihre.{1,15}(home.?page|web.?site) mit einem neuen/i
+
+/sie ihre bestehende.{1,15}(home.?page|web.?site)/i
+/sie ihre.{1,15}(home.?page|web.?site).{1,10}mit einem neuen/i
 
 # T
 # ------------------------------------------------------------------------------
@@ -110,7 +119,7 @@
 /(home.?page|web.?site).{1,10}aktuell mit.{1,15}erstellt wurde/i
 /(home.?page|web.?site).{1,10}erschwinglichen preis(en)?/i
 /(home.?page|web.?site).{1,10}erstellt.{1,10}gepflegt/i
-/(home.?page|web.?site).{1,10}ich kann helfen/i
+/(home.?page|web.?site).{1,10}ich kann.{1,10}helfen/i
 /(home.?page|web.?site).{1,10}upgrades?.{1,10}redesigns?/i
 
 /web.?design.{1,10}entwicklung.{1,10}(php|wordpress|woocommerce)/i
