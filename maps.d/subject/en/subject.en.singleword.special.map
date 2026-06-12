@@ -126,6 +126,9 @@
 /financing(_|-)/i
 /financing.?!/i
 
+/@follow/i
+/follow.?\.\./i
+
 /friend\.\./i
 /^from:/i
 /funding!/i
@@ -280,6 +283,8 @@
 /request_/i
 /request\//i
 /required.?!/i
+
+/@response/i
 
 /revamp.?\?/i
 

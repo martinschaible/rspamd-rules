@@ -997,7 +997,7 @@
 
 /r0ssmann/i
 
-/(beitrag|rundfunk).{0,10}info/i
+/rtl.{0,10}support/i
 
 # S
 # ------------------------------------------------------------------------------
@@ -1265,7 +1265,7 @@
 /vr.?(bank|gruppe).?eg/i
 /^vr eg$/i
 
-/vr.{0,5}(banking|verbund)/i
+/vr.{0,5}(banking|kundenservice|verbund)/i
 
 /www\.vr\.de/i
 
