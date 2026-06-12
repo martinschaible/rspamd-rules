@@ -12,12 +12,19 @@
 
 # Products
 # ------------------------------------------------------------------------------
+/aktion.{1,20}(photo|push).?tan/i
+
 /(best.?sign|securego tan).?app/i
 
 /securego plus.{1,5}\d{1,4}/i
 
+/(photo|push).?tan.{1,15}(aktivieren sie|aktivierung)/i
 /(photo|push).?tan.{1,10}legitimation/i
+/(photo|push).?tan.{1,15}(brief|erforderlich|ihre konto|ist nicht|verfahren)/i
+/(photo|push).?tan.{1,10}gesperrt/i
+/(photo|push).?tan.{1,10}läuft innerhalb/iu
 
+/neues?.{1,10}(photo|push).?tan/i
 
 # Twint
 # ------------------------------------------------------------------------------

@@ -31,8 +31,8 @@
 /co.{1,5}(limited|ltd).{1,10}to you/i
 /co.{1,5}(limited|ltd).{1,10}whatsapp/i
 
-/(enterprise|equipment|logistics|technology|trade).{1,15}co.{1,5}(limited|ltd)/i
-/(enterprise|equipment|logistics|technology|trade).{1,10}ltd.{1,5}whatsapp/i
+/(enterprise|equipment|logistics|technology|toys|trade).{1,15}co.{1,5}(limited|ltd)/i
+/(enterprise|equipment|logistics|technology|toys|trade).{1,10}ltd.{1,5}whatsapp/i
 
 /(ceramics|clothing|crafts).{1,10}co.{1,5}(limited|ltd)/i
 /export group.{1,10}co.{1,5}(limited|ltd)/i
@@ -264,12 +264,13 @@
 # W
 # ------------------------------------------------------------------------------
 /we.{1,15}(independent|leading|professional|specialized?|top|trusted).{1,10}professional.{1,10}(company|product|textile)/i
-/we.{1,15}(independent|leading|professional|specialized?|top|trusted).{1,20}(distributor|domestic|manufacturer|supplier).{1,10}(in the|of|with)/i
-/we.{1,15}(independent|leading|professional|specialized?|top|trusted).{1,20}(distributor|domestic|manufacturer|supplier).{1,10}(producing|specializing)/i
+/we.{1,15}(independent|leading|professional|specialized?|top|trusted).{1,20}(distributor|domestic).{1,15}(in the|of|with)/i
+/we.{1,15}(independent|leading|professional|specialized?|top|trusted).{1,20}(distributor|domestic).{1,15}(producing|specializing)/i
 /we.{1,15}(independent|leading|professional|specialized?|top|trusted).{1,20}(factory|forwarder)/i
-/we.{1,15}(independent|leading|professional|specialized?|top|trusted).{1,20}(electric|bycycle)/i
+/we.{1,15}(independent|leading|professional|specialized?|top|trusted).{1,20}(electric|bicycle)/i
 /we.{1,15}(independent|leading|professional|specialized?|top|trusted).{1,20}provider/i 
 /we.{1,15}(independent|leading|professional|specialized?|top|trusted).{1,20}pvc hose/i 
+/we.{1,15}(independent|leading|professional|specialized?|top|trusted).{1,20}(manufacturer|supplier)/i
 
 /we.{1,10}are.{1,20}devices manufacturer/i
 /we.{1,10}are.{1,10}forwarding agent/i

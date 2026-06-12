@@ -59,6 +59,9 @@
 
 /(chance|hochwertiges|kostenloses).{1,10}(medicare|notfall).?(kit|set)/i
 
+/erste.?hilfe.?set.{1,10}(befristetes|sonderangebot)/i
+/taktischen etui/i
+
 # Nespresso
 /(jetzt|neue)(.{1,10}nespresso)?.{1,10}maschine sichern/iu
 

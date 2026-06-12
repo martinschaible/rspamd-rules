@@ -512,6 +512,7 @@
 /llc.{0,10}disney/i
 
 /_dkb/i
+/-dkb-/i
 /dkb.?ag/i
 /dkb\.de/i
 
@@ -1261,8 +1262,9 @@
 
 /vr.?(bank|gruppe).{0,10}(deutschland|online|service|zentrale)/i
 /vr.?(bank|gruppe).?eg/i
-/vr.?verbund/i
 /^vr eg$/i
+
+/vr.{0,5}(banking|verbund)/i
 
 /www\.vr\.de/i
 
