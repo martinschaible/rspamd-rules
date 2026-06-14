@@ -460,11 +460,13 @@
 /foods?.{1,10}to (avoid|skip)/i
 /foods?.{1,10}slowing you/i
 /foods?.{1,10}should you skip/i
+/foods?.{1,10}tip for.{1,10}memory/i
 
 /follow these steps at/i
 
 /for.{1,15}back pain/i
 /for.{1,10}better memory/i
+/for.{1,10}ringing ears/i
 /for.{1,10}sugar balance/i
 /for.{1,10}stronger nails/i
 
@@ -665,6 +667,7 @@
 
 /m\.?d\.? (discovers|leaks)/i
 
+/may affect.{1,10}memory/i
 /may block.{1,10}tinnitus/i
 
 /memory.?loss.{1,10}(comes from|discovery|food|unveiled)/i
@@ -1120,6 +1123,8 @@
 
 /tip.{1,10}blurry vision/i
 /tip.{1,10}enhanced performance/i
+/tip.{1,10}ringing ears/i
+
 /tired of that ringing/i
 /tired of.{1,20}try this/i
 

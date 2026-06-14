@@ -545,7 +545,8 @@
 
 # S
 # ------------------------------------------------------------------------------
-/saving cost.{1,15}manufacuring/i
+/(save|saving) cost.{1,10}ensure quality/i
+/(save|saving) cost.{1,15}manufacuring/i
 /screw.{1,10}manufacturer/i
 
 /sea freight quote/i
