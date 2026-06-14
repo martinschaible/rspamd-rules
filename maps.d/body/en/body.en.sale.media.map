@@ -193,6 +193,7 @@
 
 # T
 # ------------------------------------------------------------------------------
+/(targeted|verified).{1,15}b2b.{1,10}lead.{1,10}generation/i
 /(targeted|verified).{1,15}contact.?lists (from|of)/i
 /(targeted|verified).{1,15}databases?.{1,10}businesses.{1,10}operating/i
 /(targeted|verified).{1,15}e?.?mail.{1,10}(databases?|leads?|lists?)/i
@@ -210,6 +211,8 @@
 
 # V
 # ------------------------------------------------------------------------------
+/verified.{1,10}decision.?maker.{1,15}(e?.?mail|lists)/i
+
 /visitors only.{1,10}no bots/i
 
 # W
@@ -220,6 +223,7 @@
 
 /we.{1,10}help.{1,15}business solve/i
 /we.{1,10}help.{1,15}clients to reach new/i
+/we.{1,10}help.{1,15}companies.{1,20}(b2b|generate|leads|qualified)/i
 /we.{1,10}help.{1,10}companies identify/i
 /we.{1,10}help.{1,10}identify audiences/i
 

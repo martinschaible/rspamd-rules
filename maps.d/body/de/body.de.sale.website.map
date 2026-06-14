@@ -104,6 +104,8 @@
 /sie ihre bestehende.{1,15}(home.?page|web.?site)/i
 /sie ihre.{1,15}(home.?page|web.?site).{1,10}mit einem neuen/i
 
+/sie interesse.{1,10}ihre.{1,15}(home.?page|web.?site)/i
+
 # T
 # ------------------------------------------------------------------------------
 
@@ -128,6 +130,10 @@
 
 /wir haben uns gerade ihren.{1,15}online.?auftritt.{1,25}angesehen/i
 /wir sind experten.{1,10}webdesign/i
+
+/wir sind ein in.{1,10}(china|indien).{1,10}ansässige(r|s)/iu
+/wir sind ein in.{1,10}(china|indien).{1,15}(it.?dienstleister|unternehmen|web.?site)/i
+/wir sind.{1,10}indisches unternehmen.{1,10}webdesign/i
 
 # X
 # ------------------------------------------------------------------------------
