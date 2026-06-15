@@ -970,6 +970,7 @@
 /post(_|-)ch/i
 
 /post.?finance.{0,5}benachrichtigungen/i
+/post.?finance.{0,5}twint/i
 
 /schweizerische post.{1,10}la poste suisse/i
 
@@ -1216,6 +1217,7 @@
 
 /twint-[a-z]{2}/i
 /twint.?(ag|offer|team)/i
+/twint.{0,10}kundenservice/i
 
 # U
 # ------------------------------------------------------------------------------
