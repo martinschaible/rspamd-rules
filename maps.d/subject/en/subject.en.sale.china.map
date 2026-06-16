@@ -117,6 +117,8 @@
 /cast iron.{1,10}supplier/i
 
 /change.{1,10}printing supplier/i
+/chance.{1,10}elevate your.{1,15}collection/i
+
 /charger.{1,10}solar products?/i
 /chicken products.{1,10}sale/i
 /chips.{1,10}competitive prices/i
@@ -287,9 +289,11 @@
 /good.{1,10}supplier for you/i
 
 /(good|high).?quality.{1,10}chinese/i
+/(good|high).?quality.{1,15}collection/i
 /(good|high).?quality.{1,10}(pcba?|printed.?circuits?.?board)/i
 
 /high.?performance.{1,10}quartz.{1,10}products/i
+
 
 /hotel.{1,10}furniture.{1,10}factory/i
 

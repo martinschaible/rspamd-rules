@@ -761,6 +761,8 @@
 /mediamarkt.{0,5}customer/i
 /mediamarkt.{0,5}(aktion(en)?|gutschein|räumungsverkauf|team)/i
 
+/mein.{0,5}mediamarkt/i
+
 /^mercedes$/i
 
 /meta\./i
@@ -1058,6 +1060,8 @@
 /serafe(.?ag)?.?\|/i
 /serafe\.ag/i
 /serafe-ag/i
+/serafe ag.?-/i
+
 /serafe.{0,5}(kundendienst|kundenservice)/i
 /serafe.{0,5}schweiz/i
 
