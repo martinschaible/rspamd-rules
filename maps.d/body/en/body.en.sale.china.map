@@ -381,10 +381,14 @@
 /you.{1,15}looking for.{1,10}reliable.{1,10}(pcba?|printed.?circuit.?board)/i
 /you.{1,15}looking for.{1,10}reliable.{1,10}supplier/i
 
+/you.{1,10}need.{1,20}machining parts/i
+/you.{1,10}need.{1,20}precision cnc/i
+
 /you.{1,10}place some.{1,15}orders? to us/i
 /you.{1,15}sourcing.{1,15}(coats|spring|women)/i
 
 /your.{1,10}next.{1,10}(pcba?|printed.?circuits?.?board)/i
+
 /your.{1,10}(pcba?|printed.?circuits?.?board).{1,10}projects?/i
 /your.{1,10}trusted.{1,15}experienced custom/i
 /your.{1,10}web.?site.{1,20}we are in the same/i

@@ -81,6 +81,8 @@
 # I
 # ------------------------------------------------------------------------------
 /i am (engr|madam)/i
+
+/i am.{5,35}accomplished investment/i
 /i am contacting you.{1,10}after making/i
 /i am delighted to contact you/i
 /i am.{5,35}glad to contact you/i
@@ -91,6 +93,7 @@
 
 /i am presently working as a/i
 /i am writing to introduce/i
+
 
 /i represent a team of over/i
 
