@@ -683,7 +683,7 @@
 /sicherheits.?(benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,10}für ihr.{1,15}(konto|profil)/iu
 
 /sicherheits.?(benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,15}karte reaktivieren/i
-/sicherheits.?(benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,15}konto verifizieren/i
+/sicherheits.?(benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,15}konto(daten)?.{1,10}(bestätigen|verifizieren)/i
 /sicherheits.?(benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,10}kontozugriff.{1,10}stunden/i
 
 /sicherheits.?(benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,10}handlungsbedarf/i
