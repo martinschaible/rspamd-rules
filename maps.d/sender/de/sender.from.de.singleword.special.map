@@ -104,7 +104,9 @@
 /_klimaanlage/i
 
 /konto\./i
-/-konto/i
+
+# Microsoft uses this
+/^(?!.*microsoft).*-team/i
 
 /-.?kreditkarte/i
 /_.?kreditkarte/i

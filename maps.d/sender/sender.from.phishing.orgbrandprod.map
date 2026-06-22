@@ -407,6 +407,8 @@
 
 /bw.?bank.{0,10}kundendienst/i
 
+/bzst.{0,10}mitteilung(en)/i
+
 # C
 # ------------------------------------------------------------------------------
 /cembra.{0,10}kundeninformation/i
@@ -556,6 +558,7 @@
 
 /easyb-ank/i
 /easy_bank/i
+/easybank.?de/i
 /easybank.{0,10}(app|digital|finanzservice|support)/i
 /easybank.{0,10}deutschland/i
 /easybank.{0,10}(kundenbetreuung|kundenservice)/i

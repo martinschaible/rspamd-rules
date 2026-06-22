@@ -451,9 +451,11 @@
 /ihre zustimmung ist dringend erforderlich/i
 
 /information erforderlich no\b/i 
-/information zur vorübergehenden einschränkung/iu
+
+/information zu.{1,10}ihrem vorgang/i
 /information zu.{1,10}wartenden lieferung/i
 
+/information zur.{1,10}vorübergehenden einschränkung/iu
 
 /ist.{1,10}abgelaufen.{1,10}(handeln sie sofort|jetzt handeln)/i
 /ist.{1,10}ungesichert.{1,10}jetzt handeln/i
