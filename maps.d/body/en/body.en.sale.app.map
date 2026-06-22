@@ -78,6 +78,7 @@
 
 # O
 # ------------------------------------------------------------------------------
+/our app.{1,10}development.{1,10}(pricing|process)/i
 
 # P
 # ------------------------------------------------------------------------------
@@ -102,13 +103,15 @@
 
 # W
 # ------------------------------------------------------------------------------
-/we.{1,10}(build|create|design|develop|make).{1,15}(applications?|apps?).{1,10}just/i
-/we.{1,10}(build|create|design|develop|make).{1,15}(android|ios)/i
+/we.{1,10}(build|create|design|develop|make).{1,25}(applications?|apps?).{1,10}just/i
+/we.{1,10}(build|create|design|develop|make).{1,25}(android|ios)/i
 
 /we.{1,10}(build|create|design|develop|make).{1,15}launch/i
 
 /we.{1,10}(build|create|design|develop|make).{1,15}(all|any) kinds? of (applications?|apps?)/i
 /we.{1,10}(build|create|design|develop|make).{1,15}(all kinds of|tailored).{1,20}apps/i
+
+/we.{1,10}(build|create|design|develop|make).{1,15}high.?performance.{1,20}apps/i
 
 /we.{1,10}(build|create|design|develop|make).{1,15}mobile.?apps/i
 /we.{1,10}(build|create|design|develop|make).{1,15}personalized mobile.{1,10}(applications?|apps?)/i

@@ -167,14 +167,14 @@
 /claim.{0,10}(free|refund|reward|your)/i
 /clean.{0,10}(experts?|support)/i
 
-/cloud.{0,10}billing/i
+/cloud.{0,10}(billing|response)/i
 
 #/customer.{0,10}(engagement|experience|feedback|survey|support)/i
 /customer.{0,10}(engagement|experience|survey|support)/i
 
 /complimentary.{0,10}gift/i
 
-/confirmation.{0,10}(needed|required)/i
+/confirmation.{0,10}(needed|protection|required)/i
 
 /copyright.{0,10}team/i
 /coverage.{0,10}guide/i

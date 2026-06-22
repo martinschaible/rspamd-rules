@@ -43,10 +43,12 @@
 # ------------------------------------------------------------------------------
 /(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,15}ausgewählt.{1,10}(bestätigen|kontaktieren) sie/iu
 /(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,15}die an ihre e?.?mail.?adresse/i
-/(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,10}die nutzung.{1,10}google/i
+/(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,15}die nutzung.{1,10}google/i
+/(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,15}weitere informationen kontaktieren sie/i
 
 # F
 # ------------------------------------------------------------------------------
+/reiwilligen spende in höhe von.{1,10}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£)/i
 
 # G
 # ------------------------------------------------------------------------------
