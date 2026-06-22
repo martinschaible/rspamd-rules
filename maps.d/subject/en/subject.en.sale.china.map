@@ -151,13 +151,15 @@
 
 /custom.{1,10}(bags?|cap|machined parts|metal stamping)/i
 /(custom|excellent).{1,10}(pcba?|printed.circuits?.board)/i
-/custom.{1,10}keychain.{1,15}(brand|solutions)/i
+
+/custom.{1,10}keychain.{1,15}(brand|design|free|solutions)/i
 
 /custom.{1,10}manufacturing.{1,10}(prototype|solutions?)/i
 /custom.{1,10}metal (components|parts)/i
 /custom.{1,10}mold.{1,10}services/i
 
 /custom.{1,10}packaging.{1,10}printing/i
+/custom.{1,10}(pet|plush).{1,10}toy/i
 /custom.{1,15}products? manufacturing/i
 /custom.{1,15}printing solutions?/i
 /custom.{1,15}stickers?.{1,10}emblems/i
@@ -307,7 +309,7 @@
 /high.?quality.{1,10}good service/i
 /high.?quality.{1,10}(athletic|jersey|shoes)/i
 
-/high.?quality.{1,10}transformers?/i
+/high.?quality.{1,10}(bra collection|transformers?)/i
 
 /home.?appliances.{1,10}manufacturer/i
 
@@ -428,10 +430,12 @@
 /our.{1,10}silicone oil.{1,10}solutions?/i
 /our.{1,10}wide range of/i
 
+/over.{1,10}years.{1,15}manufacturing/i
+
 # P
 # ------------------------------------------------------------------------------
 /passive.{1,10}component.{1,10}(broker|supply)/i
-/passive.{1,10}parts?.{1,10}(req|xilinx)/i
+/passive.{1,10}parts?.{1,10}(capacitor|req|xilinx)/i
 
 /partners?.{1,10}for.{1,15}(pcba?|printed.?circuits?.?board)/i
 /partners?.{1,10}in printing/i
@@ -468,6 +472,7 @@
 /(pcba?|printed.?circuits?.?board).{1,10}turnaround/i
 /(pcba?|printed.?circuits?.?board).{1,10}with (high quality|plated)/i
 
+/(pet|plush).{1,10}toys?.{1,10}solutions/i
 /plastic.?injection.{1,10}mould.?maker/i
 /plastic.?(mold|tooling|toolmaking).{1,10}(making|quotation|services|solution)/i
 /plastic.?mould.{1,10}molding/i
@@ -595,6 +600,7 @@
 
 /superior.{1,10}silicone.{1,10}oil/i
 
+/supplier.{1,10}elevator parts/i
 /supplier.{1,10}high.{1,10}(precision|quality)/i
 /supplier.{1,10}mold.?products/i
 /supplier.{1,10}who can serve/i
@@ -602,6 +608,8 @@
 /supply(ing)?.{1,15}(electronic|quality).{1,15}components/i
 /supply(ing)?.{1,15}raw.{1,15}material/i
 /supply(ing)?.{1,15}steel plates/i
+
+/support.{1,10}(ems|bom).{1,10}shortage parts/i
 
 # T
 # ------------------------------------------------------------------------------
@@ -621,6 +629,8 @@
 
 # U
 # ------------------------------------------------------------------------------
+/underwear factory/i
+
 /unlock.{1,10}rapid market.{1,20}with/i
 
 /urgent.{1,10}(pcba?|printed.?circuits?.?board).{1,10}orders?/i
