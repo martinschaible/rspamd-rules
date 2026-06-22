@@ -127,6 +127,7 @@
 /aktualisierung ihrer.{1,15}(banking|kunden|unternehmens).?daten/i
 /aktualisierung ihrer.{1,10}daten (erforderlich|notwendig)/i
 /aktualisierung ihrer.{1,10}telefonnummer/i
+/aktualisierung ihrer.{1,10}persönlichen informationen/iu
 /aktualisierung ihres.{1,10}profils empfohlen/i
 /aktualisierung ihrer.{1,10}zahlungs.{1,10}rechnungsdaten/i
 
@@ -171,6 +172,8 @@
 
 # B
 # ------------------------------------------------------------------------------
+/beachten.{1,10}ihre hinterlegten daten/i
+
 /(bedroht|festgestellt).{1,10}ergreifen sie maßnahmen/iu
 
 /benachrichtigung.{1,15}account suspendiert/i
@@ -212,7 +215,7 @@
 
 /bestätigung.{1,10}ihrer.{1,10}zwei.?faktor.?authentifizierung.{1,10}erforderlich/i
 /bestätigung.{1,10}ihrer.{1,15}bestellung.{1,10}jetzt handeln/i
-/bestätigung.{1,10}ihrer.{1,10}kundendaten/iu
+/bestätigung.{1,10}ihrer.{1,10}(kontodaten|kundendaten)/iu
 /bestätigung.{1,10}ihrer.{1,10}telefonnummer erforderlich/iu
 
 /bestätigung.{1,10}kartenaktivität/iu

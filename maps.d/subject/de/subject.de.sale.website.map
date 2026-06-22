@@ -25,6 +25,7 @@
 
 # D
 # ------------------------------------------------------------------------------
+/design.{1,10}neuaufbau/i
 
 # E
 # ------------------------------------------------------------------------------
@@ -44,7 +45,7 @@
 
 /(home.?page|web.?site).{1,25}bereit für ein.{1,15}makeover/iu
 /(home.?page|web.?site).{1,15}(erstellen|erneuern|gestalten|umgestalten|umsatz)/i
-/(home.?page|web.?site).{1,10}(neuerstellung|umgestaltung)/i
+/(home.?page|web.?site).{1,10}(neufassung|neuerstellung|umgestaltung)/i
 /(home.?page|web.?site).{1,10}für ihr unternehmen/iu
 /(home.?page|web.?site).{1,10}kosten/i
 
@@ -57,6 +58,7 @@
 # K
 # ------------------------------------------------------------------------------
 /kosten.{1,10}makeover/i
+/kosten.{1,10}(das|für).{1,10}re.?design/i
 
 # L
 # ------------------------------------------------------------------------------
@@ -106,7 +108,7 @@
 
 # W
 # ------------------------------------------------------------------------------
-/webdesign.{1,10}(entwicklung|partnerschaft)/i
+/webdesign.{1,10}(angebot|entwicklung|partnerschaft)/i
 
 /web.{1,5}neugestaltung/i
 
