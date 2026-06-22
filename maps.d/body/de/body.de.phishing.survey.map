@@ -30,12 +30,12 @@
 
 # B
 # ------------------------------------------------------------------------------
-/beantworten sie.{1,20}(ein paar|einige) fragen/i
-/beantworten sie.{1,20}ein paar kurze fragen/i
-/beantworten sie.{1,15}(kurze|wenige).{1,15}fragen/i
-/beantworten sie.{1,15}fragen.{1,25}erhalten sie.{1,10}geschenk/i
-/beantworten sie.{1,15}fragen.{1,10}gewinnen/i
-/beantworten sie.{1,10}unseren?.{1,10}(befragung|fragebogen)/i
+/(beantworte|beantworten sie).{1,20}(ein paar|einige) fragen/i
+/(beantworte|beantworten sie).{1,20}ein paar kurze fragen/i
+/(beantworte|beantworten sie).{1,15}(kurze|wenige).{1,15}fragen/i
+/(beantworte|beantworten sie).{1,15}fragen.{1,25}erhalten sie.{1,10}geschenk/i
+/(beantworte|beantworten sie).{1,15}fragen.{1,10}gewinnen/i
+/(beantworte|beantworten sie).{1,10}unseren?.{1,10}(befragung|fragebogen)/i
 
 /(befragung|feedback|umfrage).{1,10}abgeschlossen.{1,20}dir.{1,10}gratulieren/i
 /(befragung|feedback|umfrage).{1,10}aus.{1,10}und.{1,10}sie ihren gewinn/i

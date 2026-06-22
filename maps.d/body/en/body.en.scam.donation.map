@@ -42,6 +42,8 @@
 
 # D
 # ------------------------------------------------------------------------------
+/donate.{1,10}to you as.{1,10}dying/i
+
 /(donating|donation).{1,10}million.{1,10}to you/i
 
 /donation.{1,10}code/i
