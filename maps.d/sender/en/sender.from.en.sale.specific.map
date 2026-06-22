@@ -63,7 +63,7 @@
 # WLAN Router, Scam
 # ------------------------------------------------------------------------------
 /hotspot.{0,10}central/i
-/portable.{0,10}wi.?fi/i
+/(fast|portable).{0,10}wi.?fi/i
 /technology.{0,10}travel/i
 
 /travel.{0,10}router/i
