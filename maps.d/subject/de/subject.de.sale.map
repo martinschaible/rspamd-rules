@@ -74,7 +74,9 @@
 # D
 # ------------------------------------------------------------------------------
 /datenschutz.{1,10}(flatrate|zum halben preis)/i
-/datenschutzbeauftragter mit.{1,15}rabatt/i
+
+/datenschutzbeauftragter.{1,10}mit.{1,15}rabatt/i
+/datenschutzbeauftragter.{1,10}zum halben preis/i
 
 /dein.{1,10}ip.?tv.{1,10}erlebnis/i
 

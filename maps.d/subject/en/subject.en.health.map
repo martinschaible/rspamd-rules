@@ -153,7 +153,7 @@
 /(best|worst).{1,10}habit that/i
 /(best|worst).{1,10}veggies?/i
 
-/better.{1,10}(bladder|metabolism)/i
+/better.{1,10}(bladder|metabolism|nails)/i
 /better.{1,10}sugar balance/i
 /better.{1,10}than ibuprofen/i
 /better.{1,10}than.{1,10}(hearing|retinol)/i
@@ -192,7 +192,7 @@
 /boost.{1,15}(memory|metabolism)/i
 /boost.{1,15}(brain|cellular|focus|health|stamina|vitality)/i
 /boost.{1,10}recall.{1,15}minutes/i
-/boost your.{1,10}(iq|nerve)/i
+/boost your.{1,10}(energy|iq|nerve)/i
 
 /breakfast.{1,10}(avoid|memory)/i
 /breakthrough method transforming/i
@@ -1272,6 +1272,7 @@
 /your.{1,10}brain with this/i
 /your.{1,10}drink be linked/i
 /your.{1,10}ears wont/i
+/your.{1,10}energy naturally/i
 /your.{1,10}(bladder|bloating|digestion|erection|hearing|liver|manhood|pecker|prostate|wrinkles)/i
 /your.{1,10}nails? looks?/i
 /your.{1,10}gut.{1,10}(could|knows|making|might|warning)/i

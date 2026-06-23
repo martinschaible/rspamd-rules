@@ -1180,7 +1180,7 @@
 
 #/swiss post/i
 /^swisspost$/i
-/swisspost.{0,5}service/i
+/swisspost.{0,5}(betreuung|service)/i
 
 /id.?swiss/i
 

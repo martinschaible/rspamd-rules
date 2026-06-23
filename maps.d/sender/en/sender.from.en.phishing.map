@@ -128,7 +128,7 @@
 
 /(aca|health).{0,10}plans?/i
 
-/accounts?.?(department|help|notice|payable|protection|security/i
+/accounts?.?(department|help|notice|payable|protection|security)/i
 
 /^accounts?.?team/i
 
@@ -143,7 +143,7 @@
 
 # B
 # ------------------------------------------------------------------------------
-/backup.{0,10}service/i
+/backup.{0,10}(admin|service)/i
 
 /banking.{0,10}services?/i
 /benefits.{0,10}(center|offer|points|reward|treat)/i
@@ -200,6 +200,8 @@
 
 /employee.{0,10}approval/i
 /exclusive.{0,10}(benefits?|deals?|offers?)/i
+
+/expand your cloud storage/i
 /experts.{0,10}team/i
 
 /express.{0,10}(gruppe|tracking|updates?)/i

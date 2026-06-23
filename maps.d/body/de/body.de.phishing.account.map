@@ -111,7 +111,7 @@
 # ------------------------------------------------------------------------------
 /klicken.{1,10}ihre daten.{1,10}aktualisieren/i
 
-/kontaktdaten jetzt aktualisieren/i
+/(kontakt|konto|profil).?(daten|details).{1,10}(aktualisieren|verifizieren)/i
 
 /(konto|profil).{1,10}aktivieren.{1,15}wird von ihnen eine gebühr/iu
 

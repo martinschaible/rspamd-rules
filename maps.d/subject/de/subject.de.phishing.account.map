@@ -154,6 +154,7 @@
 # Sample: Kontoinformationen - 420998446741
 /kontoinformationen.{1,10}\d{4,20}/i
 
+/kontodaten.{1,5}verifizierung/i
 /kontosicherheit.{1,5}ref\./i
 /kontosperrung zu vermeiden/i
 /kontosperrung droht.{1,10}(ref(erenz)?|id)/i
