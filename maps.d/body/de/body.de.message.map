@@ -107,9 +107,10 @@
 # ------------------------------------------------------------------------------
 /e?.?mail.?adresse verwendet.{1,10}ich keine antwort erhalten/i
 /e?.?mail.?inhaber/i
-/e?.?mail mit ihrem vollständigen namen/iu
-/e?.?mail wurde ihnen direkt vom/i
-/e?.?mail zu.{1,10}geschäftsvorschlag/iu
+/e?.?mail.{1,15}mit ihrem vollständigen namen/iu
+/e?.?mail.{1,15}wurde.{1,35}als.{1,15}internetnutzer mitgeteilt/i
+/e?.?mail.{1,15}wurde.{1,15}ihnen direkt vom/i
+/e?.?mail.{1,15}zu.{1,10}geschäftsvorschlag/iu
 
 /exklusive.{1,10}benachrichtigung/i
 
