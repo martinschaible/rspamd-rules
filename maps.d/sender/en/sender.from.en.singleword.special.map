@@ -170,6 +170,11 @@
 
 /team!/i
 
+# Microsoft uses this
+/^(?!.*microsoft).*-team/i
+/^(?!.*somnovia).*-team/i
+/^(?!.*vinted).*-team/i
+
 /^tesla \($/i
 
 /(-|_)tracker/i
@@ -182,6 +187,8 @@
 # U
 # ------------------------------------------------------------------------------
 /_update/i
+/update.?\./i
+
 /urgent_/i
 
 /urgent$/i

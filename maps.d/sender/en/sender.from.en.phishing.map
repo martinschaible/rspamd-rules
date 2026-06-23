@@ -49,6 +49,7 @@
 /admin(-|_)[a-z]{5,15}\.[a-z]{1,4}/i
 
 /admin.?it$/i
+/admin(istration)?.{0,5}dept/i
 /admin(istration)?.{0,5}(notification|technical|updates)/i
 /admin(istration)?.{0,5}(support|team)/i
 
@@ -56,6 +57,8 @@
 
 /i\.?t (admin|notice|management|notification|server)/i
 /^it.?support$/i
+
+/backup.{0,10}(admin|authority|service)/i
 
 /cl0ud/i
 
@@ -69,7 +72,7 @@
 /cpanel.{0,10}(webhost|webmail)/i
 
 # digital service
-/(data|e.?mail).{0,10}(protection|retention|service|storage)/i
+/(data|e.?mail).{0,10}(backup|protection|retention|service|storage)/i
 /data.?loss/i
 
 /digital.{0,10}support/i

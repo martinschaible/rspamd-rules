@@ -286,7 +286,7 @@
 /adac.?202\d/i
 /adac.{0,10}breaker/i
 /adac.{0,10}(abteilung|deutschland|exklusiv|forschung|gmbh|insider|mitglieder|online|support)/i
-/adac.{0,10}(servies?|sicherheit)/i
+/adac.{0,10}(services?|sicherheit)/i
 /adac.{0,10}(karten.?service|kreditkarte|kundencenter|kundendienst)/i
 
 /adac.?mitglied$/i
@@ -339,9 +339,10 @@
 /apple.{0,10}airtag/i
 /apple.{0,10}(autorisierung|kunden.?service|netzwerk|zahlung)/i
 /apple.{0,10}center/i
+/apple.{0,10}dienst/i
 /apple.{0,10}online/i
 /apple.{0,10}rechnung/i
-/apple.{0,10}services?/i
+/apple.{0,10}(services?|sicherheit)/i
 /apple.{0,10}warnsystem/i
 /apple.{0,10}zentrum/i
 
@@ -388,6 +389,8 @@
 /binance.{0,10}sicherheit/i
 
 /mitteilung.{0,10}binance/i
+
+/bild.{0,10}nachrichten/i
 
 /bíngo/i
 

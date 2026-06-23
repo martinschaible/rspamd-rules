@@ -474,7 +474,7 @@
 /zustellung.{1,10}möglich.{1,10}paket noch nicht abgeholt/iu
 
 /(zustellung|zustellversuch).{1,25}(ausstehend|fehlgeschlagen)/i
-/(zustellung|zustellversuch).{1,10}fehlgeschlagen.{1,10}sendungs.?id/i
+/(zustellung|zustellversuch).{1,10}(erfolglos|fehlgeschlagen).{1,10}(referenz|sendungs.?id)/i
 /(zustellung|zustellversuch).{1,10}nicht (erfolgreich|möglich).{1,5}(dpd_|\d{4,10})/i
 /(zustellung|zustellversuch).{1,10}nicht (erfolgreich|möglich).{1,5}falsche adresse/iu
 
