@@ -32,7 +32,7 @@
 # ------------------------------------------------------------------------------
 /best online.{1,10}casino/i
 
-/bonus.{1,15}(free|gratis).?spin/i
+/bonus.{1,15}(free|gratis).{1,10}spins?/i
 /bonus up to.{1,10}\d{2,4}.{1,10}with only/i
 /bonus play.{1,10}(games|more)/i
 
@@ -57,6 +57,7 @@
 
 # G
 # ------------------------------------------------------------------------------
+/gaming.{1,10}slots/i
 /(green|spin).{1,10}casino/i
 
 # H
