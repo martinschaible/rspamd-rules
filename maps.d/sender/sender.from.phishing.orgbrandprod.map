@@ -87,6 +87,7 @@
 # swisspass.ch
 # SwissPass Newsletter
 # Spotify
+# SumUp
 # Support - Hetzner Online GmbH
 # TARGOBANK Online-Postfach
 # Telekom Deutschland GmbH
@@ -209,7 +210,7 @@
 /(dhl|dpd|fedex|gls|ups).{0,5}routing/i
 /(dhl|dpd|fedex|gls|ups).{0,5}(sendung|service|shipping|support|surveys?)/i
 
-/(dhl|dpd|fedex|gls|ups).{0,5}(deutschland|germany|swiss)/i
+/(dhl|dpd|fedex|gls|ups).{0,5}(deutschland|germany|korea|swiss)/i
 /(dhl|fedex|gls|ups).{0,5}schweiz/i
 
 /(dhl|dpd|fedex|gls|ups).{0,5}umfrage/i
@@ -1073,7 +1074,7 @@
 /serafe ag.?-/i
 
 /serafe.{0,5}(kundendienst|kundenservice)/i
-/serafe.{0,5}schweiz/i
+/serafe.{0,5}(ch|schweiz)/i
 
 /server.?\|/i
 
@@ -1122,7 +1123,7 @@
 /support.{0,5}(open.?ia|apple|swica)/i
 
 /#?sumup/i
-/^sumup\.?$/i
+#/^sumup\.?$/i
 /sum(-|_)up\./i
 /sum up/i
 /sumup-/i
