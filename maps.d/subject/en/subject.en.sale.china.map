@@ -150,6 +150,8 @@
 /cost.{1,10}(pcb.?pcba|printed.?circuits?.?board)/i
 
 /custom.{1,10}(bags?|cap|machined parts|metal stamping)/i
+/custom.{1,10}color.{1,10}masterbatch/i
+
 /(custom|excellent).{1,10}(pcba?|printed.circuits?.board)/i
 
 /custom.{1,10}keychain.{1,15}(brand|design|free|solutions)/i
@@ -521,6 +523,8 @@
 /promotional.{1,10}bags/i
 
 /prototype (manufacturer?|mould)/i
+
+/proof pants from/i
 
 # Q
 # ------------------------------------------------------------------------------
