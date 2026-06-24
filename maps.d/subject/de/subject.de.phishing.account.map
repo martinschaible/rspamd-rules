@@ -143,6 +143,7 @@
 # J
 # ------------------------------------------------------------------------------
 /jetzt die wiederherstellung/i
+/jetzt ihr.{1,15}(konto|profil).{1,10}verifizieren/i
 
 # K
 # ------------------------------------------------------------------------------
@@ -179,6 +180,8 @@
 /(konto|profil).{1,10}(schutzmassnahme|schutzmaßnahme) aktiv/i
 /(konto|profil).{1,10}um es aktiv zu halten/i
 /(konto|profil).{1,10}unvollständig.{1,10}nicht aktuell sind/iu
+
+/(konto|profil).{1,10}verifizieren.{1,5}ref/i
 /(konto|profil).{1,15}verifizierung.{1,10}einkommensteuer/i
 /(konto|profil).{1,15}vor einer endgültigen sperrung/iu
 /(konto|profil).{1,10}vorgang.{1,10}\d{4,10}/i
