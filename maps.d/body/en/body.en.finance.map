@@ -248,8 +248,8 @@
 # ------------------------------------------------------------------------------
 /you are.{1,15}seeking funding/i
 
-/you.{1,10}have.{1,10}project.{1,10}requires funding/i
-/you.{1,10}have.{1,10}project.{1,10}(in|that) need.{1,10}(financial|funded)/i
+/you.{1,10}have.{1,15}projects?.{1,10}requires funding/i
+/you.{1,10}have.{1,15}projects?.{1,10}(in|that) (need|required).{1,10}(financial|financing|funded)/i
 
 /you.{1,10}looking for.{1,15}oan/i
 
