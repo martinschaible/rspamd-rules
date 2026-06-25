@@ -84,6 +84,7 @@
 # Rewe Kundendienst
 # Ricardo Info
 # service@paypal.com
+# swisspass
 # swisspass.ch
 # SwissPass Newsletter
 # Spotify
@@ -1165,7 +1166,7 @@
 /swiss-pass/i
 #/swisspas\./i
 #/swisspass\.ch/i
-/^swisspass$/i
+#/^swisspass$/i
 
 /swisspass.?ag/i
 /swisspass.{1,10}billing/i
