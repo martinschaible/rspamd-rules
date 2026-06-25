@@ -16,28 +16,28 @@
 #/inv(oice)?.?\d{0,10}\.((?!pdf$)[^.]*)/i
 #/(receipt|winner).?\d{0,10}\.((?!pdf$)[^.]*)/i
 
-/(account|advice|arrival|bookings?|business year).{0,25}\.(7z|docx|gz|html|rar|tar|tgz|xla|xls|zip)/i
-/drawing.{0,25}\.(7z|docx|gz|html|rar|tar|tgz|xla|xls|zip)/i
-/(enquiry|fatura).{0,25}\.(7z|docx|gz|html|rar|tar|tgz|xla|xls|zip)/i
-/(inquiry|invoice).{0,25}\.(7z|docx|gz|html|rar|tar|tgz|xla|xls|zip)/i
-/(lading|notice).{0,25}\.(7z|docx|gz|html|rar|tar|tgz|xla|xls|zip)/i
-/(order|payment|price.?list|proforma|project|purchase).{0,25}\.(7z|docx|gz|html|rar|tar|tgz|xla|xls|zip)/i
-/provision.{0,25}\.(7z|docx|gz|html|rar|tar|tgz|xla|xls|zip)/i
-/(quotation|quote).{0,25}\.(7z|docx|gz|html|rar|tar|tgz|xla|xls|zip)/i
-/(receipt|request).{0,25}\.(7z|docx|gz|html|rar|tar|tgz|xla|xls|zip)/i
-/rechnung.{0,25}\.(7z|docx|gz|html|rar|tar|tgz|xla|xls|zip)/i
-/(shipping|specifications?|swift).{0,25}\.(7z|docx|gz|html|rar|tar|tgz|xla|xls|zip)/i
-/(update|urgent).{0,25}\.(7z|docx|gz|html|rar|tar|tgz|xla|xls|zip)/i
-/zahlungsnachweis.{0,25}\.(7z|docx|gz|html|rar|tar|tgz|xla|xls|zip)/i
+/(account|advice|arrival|bookings?|business year).{0,25}\.(7z|docx|gz|rar|tar|tgz|xla|xls|zip)/i
+/drawing.{0,25}\.(7z|docx|gz|rar|tar|tgz|xla|xls|zip)/i
+/(enquiry|fatura).{0,25}\.(7z|docx|gz|rar|tar|tgz|xla|xls|zip)/i
+/(inquiry|invoice).{0,25}\.(7z|docx|gz|rar|tar|tgz|xla|xls|zip)/i
+/(lading|notice).{0,25}\.(7z|docx|gz|rar|tar|tgz|xla|xls|zip)/i
+/(order|payment|price.?list|proforma|project|purchase).{0,25}\.(7z|docx|gz|rar|tar|tgz|xla|xls|zip)/i
+/provision.{0,25}\.(7z|docx|gz|rar|tar|tgz|xla|xls|zip)/i
+/(quotation|quote).{0,25}\.(7z|docx|gz|rar|tar|tgz|xla|xls|zip)/i
+/(receipt|request).{0,25}\.(7z|docx|gz|rar|tar|tgz|xla|xls|zip)/i
+/rechnung.{0,25}\.(7z|docx|gz|rar|tar|tgz|xla|xls|zip)/i
+/(shipping|specifications?|swift).{0,25}\.(7z|docx|gz|rar|tar|tgz|xla|xls|zip)/i
+/(update|urgent).{0,25}\.(7z|docx|gz|rar|tar|tgz|xla|xls|zip)/i
+/zahlungsnachweis.{0,25}\.(7z|docx|gz|rar|tar|tgz|xla|xls|zip)/i
 
-/new.?order.{0,25}\.(7z|docx|gz|html|rar|tar|tgz|xla|xls|zip)/i
+/new.?order.{0,25}\.(7z|docx|gz|rar|tar|tgz|xla|xls|zip)/i
 
 /payment\.z$/i
 
-/(bestell|bestätigung|ordnung).{0,25}\.(7z|gz|html|rar|tar|tgz|xla|xls|zip)/i
+/(bestell|bestätigung|ordnung).{0,25}\.(7z|gz|rar|tar|tgz|xla|xls|zip)/i
 
 # Letter of Intent
-/loi.{0,5}\.(7z|gz|html|rar|tar|tgz|xla|xls|zip)/i
+/loi.{0,5}\.(7z|gz|rar|tar|tgz|xla|xls|zip)/i
 
 /rechnung.{0,45}\.svg/i
 
@@ -94,10 +94,10 @@
 /\b\d{6,20}\.html?/i
 
 # Just a date
-/d{2}(-|\.)\d{2}(-|\.)\d{2,4}\.(gz|html?)/i
+/d{2}(-|\.)\d{2}(-|\.)\d{2,4}\.(gz?)/i
 
 # 03 10.25 - Sample: 2025-10-03.html
-/\d{4}(-|\.)\d{2}(-|\.)\d{2}\.(gz|html?)/i
+/\d{4}(-|\.)\d{2}(-|\.)\d{2}\.(gz?)/i
 
 # 20.01.25 - Sample: PO# 4502288112.gz
 #                    PO200000035.gz
@@ -196,8 +196,8 @@
 
 # Documents
 # ------------------------------------------------------------------------------
-/(document|email|preview|scan).{0,20}\.(7z|gz|html?)/i
-/doc\d.{0,20}\.(7z|gz|html?)/i
+/(document|email|preview|scan).{0,20}\.(7z|gz?)/i
+/doc\d.{0,20}\.(7z|gz?)/i
 
 /contract\.docx?/i
 
