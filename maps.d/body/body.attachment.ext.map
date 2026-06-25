@@ -40,7 +40,8 @@
 /\.xlsx?_/i
 
 # 30.03 26 - We're now blocking html files. A few banking institutions send secure messages as html attachments.
-/\.html?$/i
+# 25.06.26 - Exception: allow incamail.html
+/^(?!incamail\.html?$).+\.html?$/i
 
 # Double Extension
 # ------------------------------------------------------------------------------
@@ -48,9 +49,9 @@
 /\.img\.gz/i
 /\.pdf\.rar/i
 
-/\.(jpg|pdf|xlsx|xlx|xml)\.(html?|lz|t?gz|zip)/i
+/\.(jpg|pdf|xlsx|xlx|xml)\.(lz|t?gz|zip)/i
 
-/\.xlxs\.(html?|lz|t?gz|zip)/i
+/\.xlxs\.(ehe ?|lz|t?gz|zip)/i
 
 /xlsxr?\.tar/i
 /pdf\.z$/i
@@ -59,13 +60,10 @@
 
 # Pseudo Double Extension
 # ------------------------------------------------------------------------------
-/(,|_|-)(doc|pdf)\.(docx|gz|htm|rar|svg|tar|zip)/i
+/(,|_|-)(doc|pdf)\.(docx|gz|rar|svg|tar|zip)/i
 
 # Sample: pdf (4kb).docx
 /pdf.?\(\d{1,5}kb\).?\.docx/i
-
-# Sample: .xlxs(8).htm
-/\xlsx\(\d{1,5}\)\.html/i
 
 # Triple Extension
 # ------------------------------------------------------------------------------
