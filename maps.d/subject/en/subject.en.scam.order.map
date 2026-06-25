@@ -45,6 +45,7 @@
 
 # E
 # ------------------------------------------------------------------------------
+/enquiry.{1,10}dubai/i
 /enquiry.{1,10}letter/i
 /enquiry.{1,10}submit quotation/i
 
@@ -76,6 +77,8 @@
 /inquiry.{1,10}urgent procurement/i
 /inquiry.{1,10}product.?list/i
 /inquiry.{1,10}your.{1,10}products/i
+
+/introduction.{1,10}supply of/i
 
 /invitation.{1,10}(contractors?|tender|vendors?)/i
 /invitation.{1,10}register.{1,10}(contractors?|tender|vendors?)/i
@@ -109,6 +112,7 @@
 /order inquiry.?--/i
 /order inquiry.{1,10}shipping/i
 
+/order.{1,10}confirmation.{1,10}request/i
 /order.{1,10}(cooperation|supply)/i
 /order.{1,10}request.{1,10}(new|partnership|project|via)/i
 
@@ -128,6 +132,7 @@
 
 /products?.{1,10}price.?list/i
 /products?.{1,10}(brochure|catalog|catalogue).{1,10}pricing/i
+/products?.{1,10}information.{1,10}contact details/i
 /products?.{1,10}(inquiry|pricing).{1,10}shipping/i
 /products?.{1,10}order.{1,10}export capabilities/i
 /products?.{1,10}purchase order contract/i
@@ -135,6 +140,7 @@
 /products?.{1,10}tender supply/i
 
 /projects?.?inq no/i
+/proposal.{1,10}pricing/i
 
 /purchase inquiry.{1,15}group/i
 
@@ -152,11 +158,16 @@
 
 # R
 # ------------------------------------------------------------------------------
+/re_quote/i
+
 /req for quotation/i
 
 /request.{1,10}(company|products?).{1,20}(brochure|catalog|catalogue)/i
 /request.{1,15}company products/i
+/request.{1,10}distibutorship/i
 /request.{1,10}for offer/i
+/request.{1,10}machine.{1,10}quotation/i
+/request.{1,10}quotation{1,15}(july|order)/i
 /request.{1,10}update pricelist/i
 
 /request.?quotation/i
@@ -211,8 +222,9 @@
 /urgent.{1,10}inquiry.{1,15}needed by/i
 /urgent.{1,10}need for.{1,10}supplier/i
 /urgent.{1,10}s o a/i
-/urgent.{1,5}project/i
 /urgent.{1,10}order inquiry/i
+/urgent.{1,5}project/i
+/urgent.{1,5}quotation.{1,10}order/i
 /urgent.{1,10}request.{1,10}(quotation|quote)/i
 /urgent.{1,10}rfq.{1,25}offer/i
 
@@ -250,6 +262,8 @@
 
 /you received.{1,10}new order/i
 /you share.{1,10}product details/i
+
+/your.{1,15}best price for the.{1,10}products/i
 
 /your product range/i
 /your products.{1,10}(brochure|catalog|catalogue)/i
