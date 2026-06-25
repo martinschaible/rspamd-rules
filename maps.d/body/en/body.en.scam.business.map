@@ -135,7 +135,7 @@
 
 # S
 # ------------------------------------------------------------------------------
-/(seeking|new|share with) you.{1,10}(business|investment).{1,10}(opportunities|opportunity)/i
+/(seek(ing)?|new|share with) you.{1,10}(business|investment).{1,10}(opportunities|opportunity)/i
 
 /share.{1,10}you.{1,10}business opportunity/i
 /share.{1,10}you.{1,10}private proposal/i
@@ -162,6 +162,7 @@
 
 # Y
 # ------------------------------------------------------------------------------
+/you to seek.{1,10}possible.{1,10}opportunity/i
 
 # Z
 # ------------------------------------------------------------------------------
