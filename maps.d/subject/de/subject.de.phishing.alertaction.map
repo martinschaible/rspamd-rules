@@ -45,6 +45,7 @@
 /achtung.{1,10}unautorisierte.{1,10}e?.?mails/i
 /achtung.{1,10}unbezahlte gebühr/iu
 /achtung.{1,10}verdächtige.{1,10}(aktivität|vorgänge)/iu
+/achtung.{1,10}verifizierung der.{1,15}zahlung ausstehend/i
 
 /administrative mitteilung.{1,10}referenz/i
 
@@ -124,7 +125,7 @@
 /aktualisierung.{1,10}zur bestandsprüfung/iu
 /aktualisierung.{1,10}zugangseinstellungen.{1,10}erforderlich/i
 
-/aktualisierung ihrer.{1,15}(banking|kunden|unternehmens).?daten/i
+/aktualisierung ihrer.{1,15}(banking|kunden|konto|unternehmens).?daten/i
 /aktualisierung ihrer.{1,10}daten (erforderlich|notwendig)/i
 /aktualisierung ihrer.{1,10}telefonnummer/i
 /aktualisierung ihrer.{1,10}persönlichen informationen/iu
@@ -936,8 +937,8 @@
 
 /wichtige?.{1,10}update ihrer.{1,25}app/i
 
-/wichtige?.{1,10}überprüfung (deines|für)/iu
-/wichtige?.{1,10}zahlung für lieferung/iu
+/wichtige?.{1,10}überprüfung.{1,10}(deines|für)/iu
+/wichtige?.{1,10}zahlung für.{1,15}(dienst|lieferung)/iu
 
 /wichtiger.{1,10}handlungsbedarf/i
 

@@ -310,6 +310,7 @@
 
 #/aldi-/i
 /aldi.{0,15}(deals?|support)/i
+/aldi-(ch|de)/i
 
 /amaz0n/i
 #/amazon\.de/i
@@ -339,10 +340,11 @@
 /appſe/i
 /apiie ld/i
 /apple.{0,10}airtag/i
-/apple.{0,10}(autorisierung|kunden.?service|netzwerk|zahlung)/i
+/apple.{0,10}(autorisierung|kunden.?service|zahlung)/i
 /apple.{0,10}center/i
 /apple.{0,10}dienst/i
 /apple.{0,10}online/i
+/apple.{0,10}(netzwerk|nutzer)/i
 /apple.{0,10}rechnung/i
 /apple.{0,10}(services?|sicherheit|support)/i
 /apple.{0,10}warnsystem/i
@@ -491,6 +493,8 @@
 
 /\|.?denner/i
 /^denner$/i
+
+/deutschtelekom/i
 
 /deutsche.{0,10}apotheke$/i
 
@@ -983,7 +987,7 @@
 /post(ch|de)/i
 /post ch$/i
 /post.{1,5}schweiz/i
-/post(_|-)ch/i
+/post(\.|_|-)ch/i
 
 /post.?finance.{0,5}benachrichtigungen/i
 /post.?finance.{0,5}twint/i
@@ -1038,6 +1042,7 @@
 /sbb.?cff$/i
 
 /sbb.{0,5}aktuell/i
+/sbb.{0,5}info/i
 /sbb.{0,5}(kundencenter|kundendienst|swisspass)/i
 
 /sbb.?cff$/i
@@ -1211,7 +1216,7 @@
 
 /_telekom/i
 /telekom-/i
-/telekom.{0,10}(bonus|kunden)/i
+/telekom.{0,10}(bonus|insider|kunden)/i
 
 /temu-/i
 /temu.?(ch|schweiz)/i

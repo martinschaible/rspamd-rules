@@ -1315,9 +1315,10 @@
 /tongue.{0,10}move/i
 
 /top.{0,10}(experts?|fruits?|medication)/i
+
 /toxic.{0,10}(food|fruits?)/i
 /toxic.{0,10}(ingredient|liquid|milk|mineral|veggies)/i
-/toxin.{0,10}(destroyer|flush|mineral|removal|watch)/i
+/toxin.{0,10}(destroyer|flush|mineral|protein|removal|watch)/i
 
 /trapped.{0,10}toxins/i
 /trick.{0,10}revealed/i

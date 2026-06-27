@@ -12,7 +12,9 @@
 # Pattern
 # ------------------------------------------------------------------------------
 # Sample: Sales098@topmail.com
-/(gratis|kontakt|versand)\d{1,10}@/i
+/brille\d{1,15}@/i
+/freunde\d{1,15}@/i
+/(gratis|kontakt|versand)\d{1,15}@/i
 
 #
 #
