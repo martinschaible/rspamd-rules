@@ -68,6 +68,8 @@
 # ------------------------------------------------------------------------------
 /google street view.{1,15}(aufnahmen|standort)/i
 
+/google.{1,10}bewertungen.{1,10}bewertungen/i
+
 # H
 # ------------------------------------------------------------------------------
 /(hochwertige|redaktionelle).{1,10}inhalte auf.{1,10}webseite/i

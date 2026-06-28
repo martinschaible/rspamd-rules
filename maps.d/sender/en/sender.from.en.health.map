@@ -100,6 +100,8 @@
 
 /sight.{0,10}restored?/i
 
+/vision.{0,10}test/i
+
 # Fungus, Nails
 # ------------------------------------------------------------------------------
 /(attack|end|fight|foot|goodbye).{0,10}fungus/i
@@ -389,7 +391,8 @@
 /biblical.{0,10}herbs?/i
 
 /big o$/i
-/big.{0,10}secret/i
+/big.{0,10}(pharma|secret)/i
+
 /(big|flat(ten)?).{0,10}stomach/i
 
 /bitter.{0,10}fruit/i

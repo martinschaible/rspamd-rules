@@ -660,8 +660,10 @@
 
 /welding hose supply/i
 /(welding|wire).{1,20}for your needs/i
+
 /with.{1,20}services/i
 /with our precision.{1,20}(engineered|solutions)/i
+/with your.{1,10}(pcba?|printed.?circuits?.?board)/i
 
 # X
 # ------------------------------------------------------------------------------
