@@ -28,7 +28,9 @@
 # ------------------------------------------------------------------------------
 /aktivitäten vorübergehend geschlossen/iu
 
-/aktualisierung.{1,10}(kontoinformationen|kontosicherheit|zahlungsangaben)/i
+/aktualisierung.{1,10}(kontodaten|kontoinformationen|kontosicherheit)/i
+/aktualisierung.{1,10}zahlungsangaben/i
+
 /aktualisierung ihres.{1,10}(kontos?|profils?).{1,10}update/i
 /aktualisierung ihrer.{1,10}vertragsbedingungen.{1,10}zustimmung/i
 

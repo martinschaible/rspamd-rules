@@ -34,7 +34,7 @@
 
 /(bestätigen sie|sie mir.{1,10}mitteilen).{1,10}den besitz/i
 
-/bitte aufmerksam lesen/i
+/bitte (aufmerksam|kurz) lesen/i
 
 # C
 # ------------------------------------------------------------------------------
@@ -93,6 +93,8 @@
 
 # K
 # ------------------------------------------------------------------------------
+/klingt komisch/i
+
 #/kontaktieren sie mich/i
 /kontaktieren sie uns sofort/i
 /kontaktieren sie.{1,10}umgehend.{1,10}e?.?mail/i
