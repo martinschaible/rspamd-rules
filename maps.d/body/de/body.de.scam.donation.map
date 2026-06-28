@@ -125,7 +125,8 @@
 
 /ihre?.{1,10}e?.?mail.?(adresse|konto)?.{1,15}zufällig aus einer.{1,15}datenbank/i
 
-/ihrer.{1,10}familie eine spende (von|zukommen)/i
+/ihrer.{1,10}familie eine spende.{1,10}(von|zukommen)/i
+/ihrer.{1,10}familie eine spende.{1,10}in höhe von/iu
 
 /ihnen.{1,10}eine spende in höhe von/iu
 /ihnen.{1,10}eine spende zukommen lassen/i

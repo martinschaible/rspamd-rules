@@ -295,6 +295,7 @@
 /geschenk bereit/i
 /(gewinn|geschenk).{1,25}(bestätigt|bestätigung)/iu
 
+/geschenke?.{1,15}geschenk von .{1,15}ist in.{1,20}eingetroffen/i
 /geschenke?.{1,10}für sie verfügbar/iu
 /geschenke?.{1,15}holen sie sich den/i
 /geschenke?.{1,15}ihre treue.{1,10}nur noch kurze zeit/i
