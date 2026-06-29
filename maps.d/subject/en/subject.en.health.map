@@ -1004,7 +1004,10 @@
 
 /stay away from these.{1,10}fruits/i
 
-/steady a1c/i
+/(steadier|steady).{1,10}a1c/i
+/(steadier|steady).{1,10}blood sugar/i
+
+
 /stir this into/i
 /strange.{1,10}pain.{1,10}relieving/i
 /stubborn.{1,10}(fat|mucus)/i
