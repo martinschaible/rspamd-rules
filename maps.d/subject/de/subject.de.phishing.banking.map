@@ -41,6 +41,7 @@
 
 #
 /aktualisieren sie.{1,10}bw.?secure/i
+/aktualisierung ihrer{1,10}secure.?app/i
 
 # Twint
 # ------------------------------------------------------------------------------
@@ -88,6 +89,7 @@
 /app\b.{1,10}authentifizierung läuft.{1,10}ab/iu
 
 /app\b.{1,10}benötigt eine synchronisierung/iu
+/app.{1,10}entspricht nicht mehr dem neuesten stand/i
 /app\b.{1,10}es gibt neue/i
 /app.{1,10}verknüpfung bestätigen/iu
 

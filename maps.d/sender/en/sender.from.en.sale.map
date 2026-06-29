@@ -20,10 +20,16 @@
 
 /\d{1,2}.{0,10}(discount|off)/i
 /\d{1,2}.{0,10}languages/i
+/250.{0,10}coins/i
 
 # A
 # ------------------------------------------------------------------------------
-/american.{0,10}(discounts|pope|seniors)/i
+/(american|patriots?|veterans?).{0,10}brands?/i
+/(american|patriots?|veterans?).{0,10}(discounts)/i
+/(american|patriots?|veterans?).{0,10}(coins?|discounts?)/i
+/(american|patriots?|veterans?).{0,10}(perks?|pope)/i
+/(american|patriots?|veterans?).{0,10}(save|seniors|store)/i
+
 /anti.{0,10}(glare|loss|noise)/i
 
 /arctic.{0,10}air/i
@@ -76,6 +82,8 @@
 /clean(er)?.{0,10}(living|shower|wc)/i
 /clear.{0,10}road/i
 
+/coin.{0,10}(collector|collections?)/i
+/coin.{0,10}store/i
 /combat.{0,10}(gear|ready|tactic)/i
 
 /comfort.{0,10}only/i
@@ -186,7 +194,7 @@
 
 /health(care)?.{0,10}enrollment/i
 /heating.{0,10}(bill|system)/i
-/heritage.{0,10}team/i
+/heritage.{0,10}(coins?|team)/i
 
 /home.{0,10}(cool|warranty)/i
 
@@ -261,8 +269,7 @@
 # ------------------------------------------------------------------------------
 /path.{0,10}team/i
 
-/(patriot|survival).{0,10}(apparel|saw|studio)/i
-/patriot.{0,10}brands?/i
+/(patriot|survival).{0,10}(apparel|collectibles|saw|studio)/i
 
 /peak.{0,10}design/i
 /perfect.{0,10}(glow|light)/i
@@ -408,7 +415,6 @@
 # ------------------------------------------------------------------------------
 /vaccum.{0,10}(go|pro)/i
 
-/veterans?.{0,10}(discounts?|perks?|save)/i
 
 /video.{0,10}(desk|news)/i
 
