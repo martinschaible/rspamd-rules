@@ -54,8 +54,11 @@
 /below.{1,10}your.{1,10}(price|product).?list/i
 
 /(brochure|catalog|catalogue).{1,10}e?.?mail for our consideration/i
-/(brochure|catalog|catalogue).{1,10}your company products/i
+
+/(brochure|catalog|catalogue).{1,10}price list.{1,10}inform us about/i
 /(brochure|catalog|catalogue).{1,10}price list.{1,10}payment (method|terms)/i
+
+/(brochure|catalog|catalogue).{1,10}your company products/i
 
 # C
 # ------------------------------------------------------------------------------
@@ -170,10 +173,11 @@
 
 # W
 # ------------------------------------------------------------------------------
-/we are interested.{1,10}collaborating with your.{1,10}company/i
-/we are interested.{1,10}obtaining.{1,10}quotation/i
-/we are interested.{1,10}your product range/i
-/we are open.{1,10}cooperation across a wide/i
+/we are.{1,10}interested.{1,10}establishing.{1,10}business relations/i
+/we are.{1,10}interested.{1,10}collaborating.{1,10}with your.{1,10}company/i
+/we are.{1,10}interested.{1,10}obtaining.{1,10}quotation/i
+/we are.{1,10}interested.{1,10}your product range/i
+/we are.{1,10}open.{1,10}cooperation across a wide/i
 
 /we have reviewed your.{1,10}website directory/i
 /we.{1,10}(looking|reviewing).{1,10}(innovative|potential|reliable).{1,20}(contractors|manufacturers|suppliers?)/i
