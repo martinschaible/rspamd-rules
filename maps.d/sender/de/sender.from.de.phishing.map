@@ -45,7 +45,8 @@
 
 /ch.?zustellung/i
 
-/cloud.{0,10}(hinweis|konto|wichtig(er)?)/i
+/cloud.{0,10}(hinweis|wichtig(er)?)/i
+/cloud.{0,10}(konto|kundendienst)/i
 /cloud.{0,10}(sicherheit|speicher)/i
 
 # D
