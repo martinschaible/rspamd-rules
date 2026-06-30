@@ -199,15 +199,18 @@
 
 /seo.{1,10}affordable.{1,10}price/i
 /seo.{1,10}analysis report/i
-/seo.{1,10}(agency|best cost|bundle|expert|low cost|meeting|monthly cost)/i
+/seo.{1,10}(agency|best cost|bundle|expert|low cost)/i
 /seo.{1,10}discuss/i
 /seo.{1,10}feedback/i
 /seo.{1,10}(guide|growth)/i
+/seo.{1,10}(meeting|monthly cost)/i
 /seo.{1,10}(offer|opportunities|opportunity)/i
 /seo.{1,10}(portal|price)/i
 /seo.{1,10}quotes?.{1,10}price/i
 /seo.{1,10}quotes?.?\?/i
 /seo.{1,10}(package|performance|plans?|portfolio|pricing|proposal)/i
+/seo.{1,10}recommendations?/i
+/seo.{1,10}report.{1,10}price.?list/i
 /seo.{1,15}(services?|social media|services|success)/i
 
 /seo.{1,10}content.{1,10}strategy/i
@@ -260,8 +263,9 @@
 
 # Y
 # ------------------------------------------------------------------------------
-/you need.{1,15}seo/i
-/you want.{1,10}promote.{1,15}customers/i
+/you.{1,10}short.{1,10}seo/i
+/you.{1,10}need.{1,15}seo/i
+/you.{1,10}want.{1,10}promote.{1,15}customers/i
 
 /your seo.?\?/i
 
