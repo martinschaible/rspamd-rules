@@ -153,8 +153,9 @@
 /(lieferung|paket|sendung).{1,15}in unserer bearbeitung befindet/i
 /(lieferung|paket|sendung).{1,10}in vorbereitung.{1,10}zahlung ausstehend/i
 
-/(lieferung|paket|sendung).{1,10}ist versandfertig.{1,10}aber die versandkosten/i
+/(lieferung|paket|sendung).{1,15}ist beim zoll eingetroffen/i
 /(lieferung|paket|sendung).{1,15}ist fast zugestellt/i
+/(lieferung|paket|sendung).{1,10}ist versandfertig.{1,10}aber die versandkosten/i
 /(lieferung|paket|sendung).{1,10}ist im.{1,15}paketshop/i
 /(lieferung|paket|sendung).{1,10}ist im.{1,20}(empfangsland|zielland|verteilzentrum).{1,10}(angekommen|eingetroffen)/i
 /(lieferung|paket|sendung).{1,10}ist in.{1,15}(deutschland|schweiz).{1,10}(angekommen|eingetroffen)/i
@@ -257,6 +258,8 @@
 
 # W
 # ------------------------------------------------------------------------------
+/wartet auf zollanweisungen/i
+
 /wichtiges update zu.{1,15}(lieferung|paket|sendung)/i
 
 /wir halten ihre?.{1,10}(paket|sendung).{1,10}im depot/i
