@@ -210,7 +210,7 @@
 # P
 # ------------------------------------------------------------------------------
 /paket in/i
-/paket.{0,10}koordination/i
+/paket.{0,10}(group|koordination)/i
 
 /paketdienst.{0,10}(deutschland|schweiz)/i
 #/paketinfo/i
