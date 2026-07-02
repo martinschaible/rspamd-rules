@@ -146,7 +146,7 @@
 # ------------------------------------------------------------------------------
 /leads.{1,10}(databases|samples?)/i
 /leads.{1,10}for sale/i
-/leads.{1,10}from.{1,10}events/i
+/leads.{1,10}from.{1,10}(events|linked.?in)/i
 
 /^link affinity$/i
 /link building opportunities/i
