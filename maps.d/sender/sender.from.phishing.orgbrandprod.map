@@ -228,7 +228,7 @@
 
 /(dhl|dpd|fedex|gls|ups).{0,5}express (germany|schweiz)/i
 
-/dh.?(documentation|express|versand)/i
+/dh.?(documentation|zustellhub|express|versand)/i
 
 #/gls.?paket$/i
 
