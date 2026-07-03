@@ -11,6 +11,7 @@
 
 # Organisations
 /google.{1,10}(lotterie|zuschuss)/i
+/google.{1,10}online.?verlosung/i
 
 #
 #
@@ -143,6 +144,7 @@
 
 # S
 # ------------------------------------------------------------------------------
+/sie als aktiver nutzer zu den.{1,15}gewinnern/iu
 /sie als potenzieller.{1,10}gewinner ausgewählt/iu
 
 /sie.{1,10}exklusiven preis.{1,10}(das|der) brandneue/i
