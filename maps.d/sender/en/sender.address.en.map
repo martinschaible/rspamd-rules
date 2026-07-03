@@ -168,7 +168,7 @@
 # Sample: reply+58215353.52017217@capture.hireology.com
 #/reply.?\+/i
 
-/recommendation/i
+/recommendation@/i
 
 /reset@/i
 
@@ -198,7 +198,7 @@
 
 /slim.?diet/i
 
-/(sales|sender|services|suite)/i
+/(sales|sender|suite)/i
 
 #  24.06.25 - Sample: store+90808156488@t.shopifyemail.com
 #/store\+\d{4,10}/i
