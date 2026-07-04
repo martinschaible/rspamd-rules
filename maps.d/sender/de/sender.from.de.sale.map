@@ -100,7 +100,7 @@
 
 /hochdruck.?reiniger/i
 
-/hörgeräte?.{0,10}(innovation|sensation|test)/i
+/hörgeräte?.{0,10}(innovation|neuheit|sensation|test)/i
 
 # I
 # ------------------------------------------------------------------------------
@@ -150,6 +150,7 @@
 # M
 # ------------------------------------------------------------------------------
 /mini.{0,10}preis/i
+/mini.{0,10}hörgeräte?/i
 
 /mobile.{0,10}klima(anlagen?|geräte)/iu
 /mobiler.{0,10}hotspot/i
