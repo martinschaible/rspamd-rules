@@ -141,7 +141,7 @@
 /dh.?benachrichtigung/i
 /dh.?(e.?commerce|frachtlogistik|servicezentrum|versandzentrum)/i
 /dh.?(lieferung|luftfracht)/i
-/dh.?(servicezentrum|support)/i
+/dh.?(service.?team|service.?zentrum|support)/i
 
 /\(dhl\)/i
 /dhl\./i
@@ -172,6 +172,7 @@
 
 /hermes.{0,10}(germany|gmbh)/i
 /hermes.{0,15}(kundenservice|logistik)/i
+/hermes.{0,10}world/i
 /hermes.{0,5}(zentrum|zoll)/i
 
 # UPS

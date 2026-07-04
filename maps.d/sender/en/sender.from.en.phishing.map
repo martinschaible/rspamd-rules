@@ -110,7 +110,7 @@
 /team.?©/i
 /^webmail/i
 
-/web.?admin/i
+/web.{0,5}(admin|support)/i
 
 #
 /microsoft.{0,10}admin/i
@@ -180,7 +180,7 @@
 
 /complimentary.{0,10}gift/i
 
-/confirmation.{0,10}(needed|protection|required)/i
+/confirmation.{0,10}(client|needed|protection|required)/i
 
 /copyright.{0,10}team/i
 /coverage.{0,10}guide/i
