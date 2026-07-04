@@ -141,6 +141,7 @@
 /dh.?benachrichtigung/i
 /dh.?(e.?commerce|frachtlogistik|servicezentrum|versandzentrum)/i
 /dh.?(lieferung|luftfracht)/i
+/dh.?(servicezentrum|support)/i
 
 /\(dhl\)/i
 /dhl\./i
@@ -339,7 +340,7 @@
 
 /appſe/i
 /apiie ld/i
-/apple.{0,10}airtag/i
+/apple.{0,10}(abo|airtag)/i
 /apple.{0,10}(autorisierung|kunden.?service|zahlung)/i
 /apple.{0,10}center/i
 /apple.{0,10}dienst/i

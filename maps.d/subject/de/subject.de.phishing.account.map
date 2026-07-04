@@ -22,6 +22,7 @@
 
 # TLD in front, usualy (ch|com|de|org)
 # ------------------------------------------------------------------------------
+/\.[a-z]{1,4}.{1,5}eingeschränkt.{1,10}verifizierung/iu
 /\.[a-z]{1,4}.{1,5}mitteilung zu ihrem.{1,15}(konto|profil)/i
 
 # A
