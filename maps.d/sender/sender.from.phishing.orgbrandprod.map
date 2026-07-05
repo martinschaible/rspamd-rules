@@ -917,10 +917,15 @@
 /open.?ai.{0,5}.?\|/i
 /open.?ai.{0,5}chatgpt/i
 /open.?ai.{0,5}llc/i
-/open.?ai.{0,5}(account|billing|company|premium|team|upgrade)/i
+/open.?ai.{0,5}(account|team|upgrade)/i
+/open.?ai.{0,5}billing/i
+/open.?ai.{0,5}(customer|company)/i
+/open.?ai.{0,5}ireland/i
+/open.?ai.{0,5}(payments?|premium)/i
 /open.?ai.{0,5}(services?|subscriptions?|support)/i
 /open.?ai.{0,5}(team|tech)/i
 /open.?ai.{0,5}(mitgliederverwaltung|zahlung(en)?)/i
+/open.?ai.{0,5}notifications?/i
 /open.?ai.{0,5}via/i
 
 /hilfe.{0,10}open.?ai/i

@@ -33,6 +33,7 @@
 /ausgewählt.{1,10}erhalten eine spende/iu
 /ausgewählt.{1,10}erhält eine.{1,10}spende.{1,10}(in höhe|von)/iu
 /ausgewählt.{1,15}um eine.{1,10}spende.{1,15}(in höhe|von)/iu
+/ausgewählt.{1,15}um eine.{1,10}spende.{1,10}zu erhalten/i
 /ausgewählt.{1,10}weitere informationen kontaktieren sie/iu
 
 /ausgewählt.{1,15}wurden.{1,15}spende in höhe von/iu
@@ -229,8 +230,10 @@
 /sie wurden als.{1,15}empfänger einer auszeichnung/iu
 /sie wurden als.{1,15}potenzieller empfänger/iu
 
-/sie wurden für.{1,10}(die|einen?).{1,15}(förderung|geldbetrag|spende|zuschuss)/iu
-/sie wurden per zufallsprinzip.{1,15}eine.{1,10}(spende|zuschuss|zuwendung)/iu
+/sie wurden.{1,10}für.{1,10}(die|einen?).{1,15}(förderung|geldbetrag|spende|zuschuss)/iu
+/sie wurden.{1,10}(nach dem|per) zufallsprinzip.{1,15}eine.{1,10}(spende|zuschuss|zuwendung)/iu
+/sie wurden.{1,10}zufallsprinzip durch ein.{1,15}online/i
+
 /sie wurden von unserer stiftung/i
 
 /sie zu einem.{1,10}spendenfonds/i
