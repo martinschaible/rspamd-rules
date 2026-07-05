@@ -518,8 +518,9 @@
 
 /cleansing.{0,10}(fruit|pads)/i
 
-/clear.{0,10}(arteries|breathing|complexion|eyes|(toe)?nails|mind)/i
+/clear.{0,10}(arteries|breathing|complexion|eyes|mind)/i
 /clear.{0,10}lungs/i
+/clear.{0,10}(toe)?nails?/i
 /clear.{0,10}(sight|skin)/i
 
 /click(ing)?.{0,10}(free|noise|sounds?)/i

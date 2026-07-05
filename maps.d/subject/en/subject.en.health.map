@@ -679,7 +679,8 @@
 /memory.?loss.{1,10}(comes from|discovery|food|unveiled)/i
 /memory.{1,10}in just/i
 /memory.{1,10}(boost(ing)?|rescue|steroid)/i
-/memory.{1,10}starting.{1,15}(slow|to get)/i
+/memory.{1,10}(starts|starting).{1,15}(slow|to get)/i
+/memory.{1,10}(starts|starting).{1,10}failing/i
 
 /men.{1,10}horny/i
 /message.{1,10}uncovered/i
