@@ -505,7 +505,8 @@
 /get.{1,10}hard on demand/i
 /get.{1,10}healthy blood/i
 /get.{1,10}tinnitus/i
-/get hard.{1,10}stay hard/i
+/get.{1,10}hard.{1,10}stay hard/i
+/get.{1,10}the best.{1,10}(medication|meds)/i
 
 /gets? rid of.{1,10}(brain fog|bloated|cavity|glasses|pain)/i
 /gets? rid of.{1,10}burning/i
@@ -677,6 +678,8 @@
 
 /may affect.{1,10}memory/i
 /may block.{1,10}tinnitus/i
+
+/(medication|meds).{1,10}today/i
 
 /memory.?loss.{1,10}(comes from|discovery|food|unveiled)/i
 /memory.{1,10}in just/i

@@ -110,6 +110,7 @@
 /cables durable.{1,10}flexible/i
 
 /capacitors?.{1,10}active.{1,10}passive/i
+/capacitors?.{1,10}competitive.{1,10}pricing/i
 /capacitors?.{1,10}special.{1,10}offer/i
 /capacitors?.{1,10}reliable supplier/i
 /capacitors?.{1,10}resistors?/i
@@ -230,6 +231,8 @@
 
 /(electrical|electronic|network).{1,15}(components?|products?).{1,10}supply/i
 
+/electrolytic capacitors.{1,10}available/i
+
 /electronic components?.{1,10}(distributor|rfq|stock|supplier|supply)/i
 /electronic components?.{1,10}solutions?/i
 /electronic components?.{1,10}you need/i
@@ -278,6 +281,8 @@
 /freight.{1,10}(forwarding|service|transport).{1,20}promotion/i
 /freight.{1,10}(forwarding|service|transport).{1,20}solutions/i
 /freight.{1,10}(forwarding|service|transport).{1,20}tailored/i
+
+/freight.{1,10}offers.{1,10}china to europe/i
 
 /from.{1,10}year manufacturer/i
 /from.{1,10}(experienced|trustful).{1,10}manufacturer/i
@@ -660,6 +665,8 @@
 /we (make|supply).{1,20}(bags|majority|microphone|packing|priced chips|wireless)/i
 /we (make|supply).{1,10}high.?quality.{1,15}with full/i
 /we (make|supply).{1,10}high.?quality.{1,10}products/i
+
+/weekly.{1,10}freight offers/i
 
 /welding hose supply/i
 /(welding|wire).{1,20}for your needs/i
