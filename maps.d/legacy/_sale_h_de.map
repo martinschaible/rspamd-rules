@@ -220,15 +220,6 @@
 /\d{2,3}.?teiliges.{1,10}werkzeugset/i
 /netto.{1,10}komplett mit inhalt/i
 
-# Umbrellas
-# ------------------------------------------------------------------------------
-/(meter|patenter|sonnen).{1,10}ampelschirm/i
-/schirm.{1,10}ampelschirm/i
-
-/(ampel|sonnen).?schirme?.{1,10}(alu mit|verschiedenen farben)/i
-/(ampel|sonnen).?schirme?.{1,10}durchmesser.{1,10}nur.{1,10}statt/i
-/(ampel|sonnen).?schirme?.{1,10}perfekten sonnenschutz/i
-
 # Vacuum Cleaner
 # ------------------------------------------------------------------------------
 /patenter.{1,10}waschsauger/i
