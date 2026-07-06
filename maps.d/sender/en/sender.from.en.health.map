@@ -326,7 +326,7 @@
 /alignment.{0,10}(fix|method|trick)/i
 /(alkaline|spring).{0,10}water/i
 
-/allergy.{0,10}(fix|medication|sufferers)/i
+/allergy.{0,10}(experts?|fix|medication|sufferers)/i
 
 /ancient.{0,20}(enzyme|drink|fruit|ritual|tea|wellness|wine)/i
 /ancient.{0,20}(health|himalayan)/i
@@ -498,7 +498,7 @@
 /celeb(rity)?.{0,10}doc(tor)?/i
 /celeb(rity)?.{0,10}diet/i
 
-/cell.{0,10}rewind/i
+/cell.{0,10}(reset|rewind)/i
 /cell(ar|ular)?.{0,10}(cure|health|rewind|science)/i
 
 /chemo.{0,10}secret/i
@@ -816,7 +816,7 @@
 /iced?.{0,10}(hack|trick|water)/i
 
 /ignore this/i
-/immune.{0,10}(booster|health|link|system)/i
+/(immune|immunity).{0,10}(booster|health|link|system|test)/i
 
 /improve.{0,10}circulation/i
 /improved.{0,10}brain/i
