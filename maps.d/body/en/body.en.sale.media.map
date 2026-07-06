@@ -52,6 +52,7 @@
 
 /(casino|companies|forex).{1,15}(databases?|leads)/i
 /(casino|companies|forex).{1,15}(addresses?|phone)/i
+/(casino|companies|forex).{1,15}complete business database/i
 
 /complete.{1,10}e?.?mail.?marketing.{1,10}for you/i
 
@@ -207,6 +208,8 @@
 
 # U
 # ------------------------------------------------------------------------------
+/updated list of all companies in/i
+
 /unrestricted.{1,10}bulk mailing/i
 
 # V
