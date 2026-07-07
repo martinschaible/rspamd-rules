@@ -483,11 +483,13 @@
 /(pcba?|printed.?circuits?.?board).{1,10}with (high quality|plated)/i
 
 /(pet|plush).{1,10}toys?.{1,10}solutions/i
+/(pet|plush).{1,10}toys.{1,10}(manufacturer|supplier)/i
+
 /plastic.?injection.{1,10}mould.?maker/i
 /plastic.?(mold|tooling|toolmaking).{1,10}(making|quotation|services|solution)/i
 /plastic.?mould.{1,10}molding/i
 
-/plate.{1,10}mesh.{1,10}manufacturer/i
+/plate.{1,10}mesh.{1,10}(manufacturer|supplier)/i
 
 /polo.{1,10}lanyard.{1,10}supplier/i
 
@@ -497,7 +499,7 @@
 /precision.{1,10}machining.{1,10}engineering/i
 /precision.{1,10}(pcba?|printed.?circuits?.?board).{1,10}from/i
 
-/premium.{1,10}bags.{1,10}manufacturer/i
+/premium.{1,10}bags.{1,10}(manufacturer|supplier)/i
 /premium.{1,10}paper.{1,10}printing/i
 
 /printing.{1,10}for your/i

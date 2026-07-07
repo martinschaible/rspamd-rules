@@ -256,6 +256,7 @@
 /(specializes|specialized).{1,10}producing.{1,10}(injection|moulding|parts)/i
 
 /supplying.{1,10}shower hardware/i
+/supporting.{1,10}equipment oems?/i
 
 # T
 # ------------------------------------------------------------------------------
@@ -360,7 +361,7 @@
 /we.{1,10}specialize.{1,20}electronic/i
 /we.{1,10}specialize.{1,20}hard.?to.?find/i
 /we.{1,10}specialize.{1,20}(manufacture|manufacturing|metal)/i
-/we.{1,10}specialize.{1,20}(printing|producing|supplying)/i
+/we.{1,10}specialize.{1,20}(printing|producing|prototyping|supplying)/i
 /we.{1,10}specialize.{1,10}(eu|us).{1,10}designs/i
 /we.{1,10}specialize.{1,20}heavy copper/i
 /we.{1,10}specialize.{1,10}high.?(current|quality)/i
