@@ -50,6 +50,8 @@
 
 # G
 # ------------------------------------------------------------------------------
+/(geld|summe).{1,10}mit ihrem.{1,10}(nach)?namen verbunden/i
+
 /geldanspruchs?.{1,10}erhalten.{1,10}wenden sie sich.{1,10}an/i
 /geldautomaten geld abheben kann/i
 
