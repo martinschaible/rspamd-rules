@@ -181,7 +181,10 @@
 
 /(bedroht|festgestellt).{1,10}ergreifen sie maßnahmen/iu
 
+/benachrichtigung.{1,15}\.[a-z]{1,4}.{1,5}referenz/i
+
 /benachrichtigung.{1,15}account suspendiert/i
+/benachrichtigung.{1,15}ihrer akte/i
 /benachrichtigung.{1,10}kontoaktivität/iu
 /benachrichtigung.{1,10}kümmern sie/iu
 /benachrichtigung.{1,10}sofortige aktion/i
@@ -549,6 +552,8 @@
 /letzte erinnerung.{1,10}aktualisierung zu (ihrem|ihrer)/i
 /letzte erinnerung.{1,10}änderungen.{1,10}(card|karte)/i
 /letzte erinnerung.{1,20}ausstehenden lieferung/i
+
+/letzte erinnerung.{1,10}benachrichtigung/i
 
 /letzte erinnerung.{1,10}datenbestätigung/iu
 /letzte erinnerung.{1,10}daten (aktualisieren|bestätigen)/i
