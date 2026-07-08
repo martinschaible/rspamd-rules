@@ -66,7 +66,8 @@
 
 /cloud.{0,5}team/i
 /cloud.{0,10}(account|admin|audit)/i
-/cloud.{0,10}(backup|emergency|limit|membership|notify)/i
+/cloud.{0,10}(backup|emergency|limit|notify)/i
+/cloud.{0,10}(management|membership)/i
 /cloud.{0,10}(operations|ops)/i
 /cloud.{0,10}(security|service|support|storage)/i
 /cloud.{0,10}benachrichtigung/i

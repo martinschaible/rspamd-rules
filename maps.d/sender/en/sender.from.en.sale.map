@@ -80,6 +80,8 @@
 /claim.{0,10}(drone|off)/i
 
 /clean(er)?.{0,10}(living|shower|wc)/i
+/cleaning.{0,10}brush/i
+
 /clear.{0,10}road/i
 
 /coin.{0,10}(collector|collections?)/i
@@ -184,6 +186,7 @@
 
 /gps.{0,10}(air.?tag|tracker)/i
 
+/grill.{0,10}(cleaner|cleaning)/i
 /groovy.{0,10}chews/i
 
 # H

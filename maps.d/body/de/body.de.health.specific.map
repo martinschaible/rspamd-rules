@@ -23,12 +23,15 @@
 /diät ohne verzicht.{1,10}jetzt/iu
 
 /fettanteil.{1,10}drastisch reduziert/i
+/geheimnis zum abnehmen/i
 
 /(kg|kilo).{1,10}(in|pro).{1,10}monat.{1,10}ohne (diät|fasten)/i
 /(kg|kilo).{1,10}(in|pro).{1,10}monat.{1,10}sind.{1,10}kein problem/i
 /(kg|kilo).{1,10}(in|pro).{1,10}(tagen|stunden|woche) abnehmen/i
 
 /\d{1,2}.{1,5}(kg|kilo).{1,10}in.{1,10}monat/i
+
+/in nur.{1,10}(Monaten|wochen).{1,15}(kg|kilo) abgenommen/i
 
 /jetzt testen.{1,10}diät/iu
 /keine? kalorien.{1,15}kein stress/iu
