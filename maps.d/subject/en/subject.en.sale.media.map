@@ -40,6 +40,8 @@
 # ------------------------------------------------------------------------------
 /accelerate your business/i
 
+/(accounts?|content) gets?.{1,10}followers/i
+
 /attendees (details|list).{1,10}202\d/i
 
 # B
