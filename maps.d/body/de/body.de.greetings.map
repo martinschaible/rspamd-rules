@@ -66,6 +66,9 @@
 /gruß.{1,10}geliebte/i
 
 /guten (abend|morgen|tag).{1,10}begünstigter/iu
+/guten (abend|morgen|tag).{1,10}brauchen sie einen/i
+
+/guten (abend|morgen|tag).{1,15}(damen|herren).{1,15}wie geht es dir/i
 /guten (abend|morgen|tag).{1,10}bitcoin/i
 /guten (abend|morgen|tag).{1,10}dies ist die ankündigung/iu
 /guten (abend|morgen|tag).{1,10}dieses?.{1,10}e?.?mail ist von/i
@@ -73,15 +76,23 @@
 /guten (abend|morgen|tag).{1,10}ehrenwert/i
 #/guten (abend|morgen|tag).{1,10}e?.?mail/i
 /guten (abend|morgen|tag).{1,10}geliebt in christus/i
+/guten (abend|morgen|tag).{1,10}(geliebte|gewinner|mein lieber)/i
+
 /guten (abend|morgen|tag).{1,10}gute nachrichten/i
 /guten (abend|morgen|tag).{1,10}haben sie interesse/i
 /guten (abend|morgen|tag).{1,10}hier (ist|spricht)/i
 
 /guten (abend|morgen|tag).{1,10}ich bin.{1,10}(dr\.|frau|herr)/i
 /guten (abend|morgen|tag).{1,10}ich bin.{1,10}content.?verantwortlich/i
+/guten (abend|morgen|tag).{1,10}ich bin (der|ein)/i
+/guten (abend|morgen|tag).{1,10}ich bin.{5,25}eine.{1,20}investor(in)?/i
+/guten (abend|morgen|tag).{1,10}ich bin.{1,10}jahre alt/i
+/guten (abend|morgen|tag).{1,10}ich bin.{1,10}von beruf/i
 /guten (abend|morgen|tag).{5,35}ich bin.{1,10}von der/i
+
+
 /guten (abend|morgen|tag).{1,10}ich bitte um entschuldigung/i
-/guten (abend|morgen|tag).{1,10}ich brauche ihre hilfe/i
+/guten (abend|morgen|tag).{1,10}ich brauche ihre (hilfe|unterstützung)/iu
 /guten (abend|morgen|tag).{1,10}ich habe keine antwort auf meine.{1,15}e?.?mail/i
 /guten (abend|morgen|tag).{1,10}ich hoffe.{1,10}dieser?.{1,10}(brief|e?.?mail|nachricht)/i
 /guten (abend|morgen|tag).{1,10}ich schreibe ihnen/i
@@ -100,6 +111,9 @@
 
 /guten (abend|morgen|tag).{1,10}mein.{1,15}herr/i
 /guten (abend|morgen|tag).{1,10}mein.{1,15}mann/i
+
+/guten (abend|morgen|tag).{1,10}mein freund/i
+
 /guten (abend|morgen|tag).{1,10}mein name ist.{5,35}ich bin ihre/i
 /guten (abend|morgen|tag).{1,10}mein name ist.{5,35}von der/i
 /guten (abend|morgen|tag).{1,10}meine damen und herren/i
@@ -107,6 +121,9 @@
 /guten (abend|morgen|tag).{1,10}schön sie zu sehen/iu
 /guten (abend|morgen|tag).{1,10}sehr geehrter herr/i
 /guten (abend|morgen|tag).{1,10}sie haben eine spende/i
+/guten (abend|morgen|tag).{1,10}suche ihre dienste/i
+
+/guten (abend|morgen|tag).{1,10}ich vertraue darauf/i
 
 /guten (abend|morgen|tag).{5,35}was ich ihnen jetzt/i
 /guten (abend|morgen|tag).{1,10}wie geht es dir/i
