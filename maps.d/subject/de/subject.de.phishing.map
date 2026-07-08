@@ -43,6 +43,7 @@
 /neue.{1,10}insolvenzposten/i
 /posten aus.{1,15}insolvenz/i
 /positionsübersicht.{1,10}verfahren/iu
+/restbestände.{1,10}betriebsauflösung/iu
 /unser(em)?.{1,10}insolvenzkatalog/i
 
 /(verwertung|waren).{1,15}(insolvenzverfahren|liquidationen)/i
@@ -68,6 +69,8 @@
 /\.[a-z]{1,4}.{1,10}wichtiger hinweis/i
 /\.[a-z]{1,4}.{1,10}zur beendigung vorgemerkt/i
 
+/202\d.{1,10}bitte angaben bestätigen/i
+
 # A
 # ------------------------------------------------------------------------------
 /adresse jetzt aktualisieren/i
@@ -91,6 +94,9 @@
 /aktivierung ihres sicherheitsmoduls/i
 
 /aussetzung ihrer dienste/i
+
+/angaben bestatigen/i
+
 /antworten sie innerhalb von/i
 
 /ankündigung.{1,10}facebook.?seite/iu
@@ -153,7 +159,8 @@
 /datenpflege.{1,10}umgehend handeln/i
 
 /daten(über)?prüfung.{1,10}auf unserer plattform/iu
-/daten(über)?prüfung.{1,10}erforderlich/i
+/daten(über)?prüfung.{1,10}erforderlich/iu
+/daten(über)?prüfung.{1,10}zur einhaltung/iu
 
 /deaktivierung ihrer.{1,10}vignette/i
 /dienste erfordert zahlung von/i

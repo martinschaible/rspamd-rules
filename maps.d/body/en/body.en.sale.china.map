@@ -42,7 +42,7 @@
 /(export|goods|hardware|industry|jewelry).{1,10}co.{1,5}(limited|ltd)/i
 /international trade.{1,10}co.{1,5}(limited|ltd)/i
 /(machinery|material).{1,10}co.{1,5}(limited|ltd)/i
-/(packaging|plastic|product).{1,10}co.{1,5}(limited|ltd)/i
+/(packaging|plastic|product|prototype).{1,10}co.{1,5}(limited|ltd)/i
 /recare.{1,10}co.{1,5}(limited|ltd)/i
 
 /this is.{1,15}from.{1,15}technology (limited|ltd)/i
@@ -194,6 +194,7 @@
 
 /our.{1,10}(company|factory|supplier).{1,10}leading/i
 /our.{1,10}(company|factory|supplier).{1,10}offers.{1,15}(gps|tracking)/i
+/our.{1,10}(company|factory|supplier).{1,10}professional.{1,10}manufacturing/i
 /our.{1,10}(company|factory|supplier).{1,10}specializes.{1,10}producing/i
 
 /our.{1,10}consolidated.{1,10}logistics/i
