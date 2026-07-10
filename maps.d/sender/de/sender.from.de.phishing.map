@@ -263,7 +263,8 @@
 #/team vom/i
 
 /team.{0,10}mehrwertsteuer/i
-/technischer.{0,10}support/i
+
+/technischer?.{0,10}(infrastruktur|support)/i
 
 # U
 # ------------------------------------------------------------------------------

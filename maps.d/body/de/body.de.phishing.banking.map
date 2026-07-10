@@ -17,6 +17,10 @@
 # ------------------------------------------------------------------------------
 /jetzt 2fa aktivieren/i
 
+# TAN
+# ------------------------------------------------------------------------------
+/(photo|push).?tan.{1,10}verfahren/i
+
 # Twint
 # ------------------------------------------------------------------------------
 /twint.?id.{1,10}identifizierung/i
@@ -44,6 +48,7 @@
 /aktualisieren sie ihre.{1,10}secure.?app/i
 
 /aktualisierung ihres.{1,10}online.?zugangs?/i
+/aktualisierung ihres.{1,10}(photo|push).?tan/i
 
 /app.{1,10}Authentifizierung.{1,15}endet am/i
 /app.{1,10}indem sie auf den folgenden link/i
@@ -92,6 +97,8 @@
 /ihre mitwirkung.{1,10}für einen reibungslosen übergang/iu
 
 /information zu ihrer (photo|push).?tan/i
+
+/ist eine kurze aktualisierung/i
 
 # J
 # ------------------------------------------------------------------------------
@@ -143,6 +150,8 @@
 
 /sicherheitsupdate.{1,15}online.?banking/i
 /(sicherheitsupdate|update ihrer).{1,15}(best.?sign|securego tan).?app/i
+
+/sicherheitsgründen ist eine.{1,10}aktualisierung/iu
 
 /sie daran erinnern.{1,10}dass ihre.{1,10}(photo|push).?tan/i
 

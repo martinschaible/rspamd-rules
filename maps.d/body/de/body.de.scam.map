@@ -258,6 +258,9 @@
 /e?.?mail informiert sie.{1,15}e.?mail ausgewählt wurde/iu
 
 /erbes? meines verstorbenen.{1,10}(klient|kunde|mandant|mann|vater)/i
+
+/erbschaft.{1,15}die mit ihrem.{1,10}namen/i
+
 /es ist risikofrei.{1,10}legal/i
 
 # F
@@ -348,7 +351,7 @@
 # ------------------------------------------------------------------------------
 /neuigkeiten für sie.{1,10}bitten sie um ihr feedback/iu
 
-/nicht beanspruchten.{1,10}erbschaftsvermögen/iu
+/nicht beanspruchten.{1,10}(erbschaftsgelder|erbschaftsvermögen)/iu
 /nicht beanspruchten.{1,10}leistung an sie/i
 
 # O
