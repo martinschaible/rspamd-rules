@@ -131,6 +131,8 @@
 /(lieferung|paket|sendung).{1,20}auf.{1,15}(anweisungen|bearbeitung).{1,15}(bezüglich|wartet)/i
 /(lieferung|paket|sendung).{1,15}auf.{1,15}(lieferung|zustellung) wartet/i
 
+/(lieferung|paket|sendung).{1,15}angegebene.{1,10}(liefer)?adresse ist unvollständig/iu
+
 /(lieferung|paket|sendung).{1,20}aufgrund eines barcode.?fehlers/i
 /(lieferung|paket|sendung).{1,20}aufgrund einer falschen.{1,15}adresse/i
 /(lieferung|paket|sendung).{1,20}aufgrund einer fehlenden.{1,15}zahlung/i

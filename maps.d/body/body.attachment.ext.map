@@ -43,6 +43,7 @@
 # 30.03 26 - We're now blocking html files. A few banking institutions send secure messages as html attachments.
 # 25.06.26 - Exception: allow incamail.html
 /^(?!incamail\.html?$).+\.html?$/i
+/^(?!secure-email\.html?$).+\.html?$/i
 
 # Double Extension
 # ------------------------------------------------------------------------------
