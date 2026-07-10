@@ -37,7 +37,6 @@
 /(grund|status|zustellversuch).{1,20}adresse.{1,10}unvollständig/iu
 /(grund|status|zustellversuch).{1,10}(fehlerhafte|unvollständige|unzureichende).{1,20}adresse/iu
 
-/(lieferung|paket|sendung).{1,10}angegebene.{1,15}adresse ist unvollständig/iu
 /(lieferung|paket|sendung).{1,10}zu bestätigen.{1,10}klicken sie.{1,10}auf/iu
 /(lieferung|paket|sendung).{1,10}wurde aufgrund falschen.{1,10}angaben gestoppt/i
 /(lieferung|paket|sendung).{1,10}nicht an die angegebene.{1,15}adresse zustellen/i
