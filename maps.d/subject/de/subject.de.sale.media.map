@@ -40,8 +40,9 @@
 
 # B
 # ------------------------------------------------------------------------------
-/bewertungen.{1,15}(entfernen|erfolgreich|löschen)/iu
-/bewertungen.{1,15}unverbindliche prüfung/iu
+/bewertung(en)?.{1,15}(entfernen|erfolgreich|löschen)/iu
+/bewertung(en)?.{1,15}unverbindliche prüfung/iu
+/bewertung(en)?.{1,15}google.?profil/i
 
 # C
 # ------------------------------------------------------------------------------
