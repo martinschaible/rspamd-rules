@@ -41,6 +41,10 @@
 /vr.?securego/i
 
 #
+/secure.?plus.{1,10}(aktualisierung|einstellungen|sicherheitsupdate)/i
+(aktualisierung|sicherheitsupdate).{1,10}secure.?plus/i
+
+#
 /aktualisieren sie.{1,10}bw.?secure/i
 /aktualisierung ihrer{1,10}secure.?app/i
 

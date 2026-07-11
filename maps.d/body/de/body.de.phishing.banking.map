@@ -21,6 +21,10 @@
 # ------------------------------------------------------------------------------
 /(photo|push).?tan.{1,10}verfahren/i
 
+/secure.?plus.{1,10}(aktualisierung|einstellungen|sicherheitsupdate)/i
+
+(aktualisierung|sicherheitsupdate).{1,10}secure.?plus/i
+
 # Twint
 # ------------------------------------------------------------------------------
 /twint.?id.{1,10}identifizierung/i

@@ -48,6 +48,8 @@
 
 # Form Spam
 # ------------------------------------------------------------------------------
+/\.com.{1,10}(binance|coinbase).{1,10}(btc|euro|usd)/i
+
 /(binance|coinbase).{1,10}(btc|euro|usd).{1,10}your password/i
 /(binance|coinbase) \d\.\d{4,10}(btc|euro|usd)/i
 /(binance|coinbase).{1,10}to set your password/i
