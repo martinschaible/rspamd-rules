@@ -8,6 +8,7 @@
 
 # A
 # ------------------------------------------------------------------------------
+/approval.{0,10}desk/i
 
 # B
 # ------------------------------------------------------------------------------
@@ -26,10 +27,10 @@
 
 # F
 # ------------------------------------------------------------------------------
-/financial.?(advisor|consultant|help)/i
+/(financial|finance).{0,10}(advisor|approval)/i
+/(financial|finance).{0,10}(consultant|help)/i
+/(financial|finance).{0,10}(group|loan)/i
 
-/finance.{0,10}help/i
-/finance.{0,10}(group|loan)/i
 /(fast|free|investment|net|personal|secure).{0,10}(credit|funding|loans?)/i
 
 # G

@@ -6,6 +6,10 @@
 # Topics
 # ==============================================================================
 
+# Companies/Organizations
+# ------------------------------------------------------------------------------
+/(open.?ai|limited).{1,10}ist fehlgeschlagen/i
+
 #
 #
 #
@@ -70,7 +74,9 @@
 /ihre online.?rückzahlung/iu
 /ihre rückzahlung wartet/iu
 
-/ihre zahlung für.{10,20}ist ausstehend/i
+/ihre.{1,15}zahlung für.{10,20}ist ausstehend/i
+/ihre.{1,15}zahlung ist abgelaufen/i
+
 /ihre zahlungsdaten sind unvollständig/iu
 
 /information(en)? zu einer aktuellen auszahlung/i

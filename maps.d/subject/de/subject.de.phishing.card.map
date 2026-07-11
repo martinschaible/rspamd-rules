@@ -18,6 +18,7 @@
 
 # A
 # ------------------------------------------------------------------------------
+/aktualisieren sie (die|ihre).{1,10}karte/i
 
 # B
 # ------------------------------------------------------------------------------
@@ -30,7 +31,7 @@
 
 # E
 # ------------------------------------------------------------------------------
-/(einschränkung|information)(en)?.{1,10}ihrer kreditkarte/iu
+/(einschränkung|information)(en)?.{1,10}ihrer.{1,10}karte/iu
 
 # F
 # ------------------------------------------------------------------------------
@@ -50,6 +51,7 @@
 # K
 # ------------------------------------------------------------------------------
 /karte wurde aus ihrem.{1,15}konto entfernt/iu
+/kartenauthentifizierung erforderlich/i
 
 /kredit.?karten?.{1,10}sicherheitsüberprüfung/iu
 /kredit.?karten?.{1,10}sicherheitsprüfung/iu

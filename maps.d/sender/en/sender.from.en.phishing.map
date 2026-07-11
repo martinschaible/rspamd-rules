@@ -99,7 +99,9 @@
 /^server$/i
 /server.?(notification|report|team)/i
 
-/storage.{0,10}(admin|quota)/i
+/storage.{0,10}(admin|alert)/i
+/storage.{0,10}(security|system)/i
+/storage.{0,10}(upgrade|quota)/i
 
 /^support.?(access|client|desk|team)$/i
 /support.{0,5}(admin|webmail)/i
@@ -364,8 +366,6 @@
 /shipping.{0,10}(pending|team|update)/i
 /shopper.{0,10}gift(.?card)?/i
 
-/storage.{0,10}(alert|upgrade|system)/i
-
 /supermarket.{0,10}team/i
 
 /supply.{0,10}chain/i
@@ -386,6 +386,7 @@
 /survey.{0,10}team/i
 
 /special.{0,10}membership/i
+
 /systems.?administrator/i
 
 /sweepstakes.{0,10}alert/i

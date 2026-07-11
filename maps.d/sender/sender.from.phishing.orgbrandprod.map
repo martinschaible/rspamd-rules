@@ -934,8 +934,11 @@
 /open.?ai.{0,5}notifications?/i
 /open.?ai.{0,5}via/i
 
+/account.{0,10}open.?ai/i
+/finanzen.{0,10}open.?ai/i
 /hilfe.{0,10}open.?ai/i
-/(kontakt|kundendienst).{0,10}open.?ai/i
+
+/(kontakt|kundendienst|kundenservice).{0,10}open.?ai/i
 /service.{0,10}open.?ai/i
 
 /oral.?b/i
