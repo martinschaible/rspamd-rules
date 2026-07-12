@@ -116,6 +116,8 @@
 
 /spenden?.{1,10}in höhe von/iu
 /spenden?.{1,10}investitions.?programm/i
+
+/spende profitieren.{1,10}\d{2,5}/i
 /spenden?.{1,10}von.{1,10}(btc|frau|herr)/i
 /spenden?.{1,10}zu dir/i
 

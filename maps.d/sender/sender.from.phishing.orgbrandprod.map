@@ -318,6 +318,8 @@
 /amaz0n/i
 #/amazon\.de/i
 
+/amazon\.com\.jp/i
+
 /amazon.?co/i
 /amazon.{0,10}(visa|xmas)/i
 /amazon.{0,10}customer.?service/i
@@ -432,14 +434,15 @@
 
 /chat-gpt/i
 /chatgpt.?(ai|\+|plus)/i
-/chatgpt.{0,10}(abonnement|hinweis|kundenservice|kontakt)/i
+/chatgpt.{0,10}(abonnement|hinweis)/i
 /chatgpt.{0,10}(betreuung|billing)/i
-/chatgpt.{0,10}konto/i
-/chatgpt.{0,10}zahlung(en)?/i
+/chatgpt.{0,10}dienst/i
+/chatgpt.{0,10}(kundenservice|kontakt|konto)/i
 /chatgpt.{0,10}(account|billing|team)/i
 /chatgpt.{0,10}(payments|premium)/i
 /chatgpt.{0,15}(services?|serviceportal|subscription)/i
 /chatgpt.{0,20}(team|tech)/i
+/chatgpt.{0,10}zahlung(en)?/i
 
 /coca.?cola company/i
 
@@ -519,6 +522,8 @@
 /^deutschland.?ticket$/i
 /deutschland.?ticket.{0,10}(service|team|zentrale)/i
 /deutschland.?tickets/i
+
+/deusche-telekom/i
 
 /www\.deutsche-rentenversicherung\.de/i
 

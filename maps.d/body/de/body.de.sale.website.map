@@ -120,6 +120,7 @@
 # W
 # ------------------------------------------------------------------------------
 /(home.?page|web.?site).{1,10}aktuell mit.{1,15}erstellt wurde/i
+/(home.?page|web.?site).{1,15}kurz zusenden/i
 /(home.?page|web.?site).{1,10}erschwinglichen preis(en)?/i
 /(home.?page|web.?site).{1,10}erstellt.{1,10}gepflegt/i
 /(home.?page|web.?site).{1,10}ich kann.{1,10}helfen/i
@@ -131,7 +132,8 @@
 
 /wir haben uns gerade ihren.{1,15}online.?auftritt.{1,25}angesehen/i
 
-/wir konzipieren.{1,20}performance.{1,30}(home.?page|web.?site)/i
+/wir (entwickeln|konzipieren).{1,20}performance.{1,30}(home.?page|web.?site)/i
+/wir (entwickeln|konzipieren).{1,20}(home.?page|web.?site)/i
 
 /wir sind experten.{1,10}webdesign/i
 

@@ -377,7 +377,7 @@
 
 /basic.{0,10}protein/i
 
-/beauty.{0,10}(acid|glow|hack|revival|secret|tip)/i
+/beauty.{0,10}(acid|glow|hack|revival|secret|tip|update)/i
 
 /bed.{0,10}(hack|stretch)/i
 /bed.?time.{0,10}(brew|habit|move|note|reset|solution)/i
@@ -591,8 +591,9 @@
 
 /diet.{0,10}soda/i
 
-/digest(ive)?.{0,10}(boost|guide|health|help|insider|insight|reset)/i
+/digest(ive)?.{0,10}(boost|guide|health|help|reset)/i
 /digest(ive)?.{0,10}(fix|food)/i
+/digest(ive)?.{0,10}(insider|insight|issues?)/i
 /digest(ive)?.{0,10}(support|system)/i
 /digestion/i
 
@@ -966,8 +967,11 @@
 
 /mucus.{0,10}cleanse/i
 /muffled.{0,10}hearing/i
-/muscle.{0,10}(care|pain|relax|repair|stretch)/i
+
+/muscle.{0,10}(boost|care|pain|stretch)/i
 /muscle.{0,10}(miracle|myth)/i
+/muscle.{0,10}(relax|repair)/i
+
 /mushroom.{0,10}magic/i
 
 # N
@@ -1192,7 +1196,7 @@
 /silence.{0,10}(buzz(ing)?|foundry|hack|noise|pain)/i
 /silence.{0,10}(restored?|restoration)/i
 
-/silent.{0,10}(brain|danger|infection)/i
+/silent.{0,10}(brain|danger|infection|killer)/i
 /simpler.{0,10}slim/i
 
 /skin.{0,10}(alert|doctor|fix|nail|tightening)/i
