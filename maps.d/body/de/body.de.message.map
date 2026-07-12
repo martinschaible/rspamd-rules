@@ -99,6 +99,7 @@
 /dieser?.{1,10}(brief|e?.?mail|nachricht).{1,10}erreicht.{1,10}(sicher|wohlbehalten)/i
 /dieser?.{1,10}(brief|e?.?mail|nachricht).{1,10}könnte ihnen nützlich sein/iu
 /dieser?.{1,10}(brief|e?.?mail|nachricht).{1,10}wird sie überraschen/iu
+/dieser?.{1,10}(brief|e?.?mail|nachricht).{1,10}wurde nach analyse.{1,15}(oeffentlich|zugaenglicher).{1,15}daten versendet/i
 
 /(diesen?|meine).{1,10}(brief|e?.?mail|nachricht).{1,10}aufmerksam zu lesen/i
 /(diesen?|meine).{1,10}(brief|e?.?mail|nachricht).{1,10}sorgfältig durchzulesen/iu
@@ -152,6 +153,7 @@
 
 # K
 # ------------------------------------------------------------------------------
+/(können|koennen) sie mit abmeldung antworten/i
 
 # L
 # ------------------------------------------------------------------------------

@@ -32,6 +32,8 @@
 # ------------------------------------------------------------------------------
 /abnehm.{0,10}(experte|quiz|trend)/i
 
+/(aktiv|vital).{0,10}redaktion/i
+
 /^apotheken?.{0,10}(nachrichten|versand)/i
 /^apotheken?.{0,10}news(letter)?/i
 
@@ -150,6 +152,8 @@
 # M
 # ------------------------------------------------------------------------------
 /mag.{0,10}boost/i
+
+/männer.{0,10}praxis/i
 
 /massage.{0,10}pflaster/i
 /medizin.{0,10}(heute|shop|zukunft)/i

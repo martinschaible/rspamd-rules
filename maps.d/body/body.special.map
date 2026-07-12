@@ -20,6 +20,10 @@
 # Sample: info[a]caridako[.]com
 /[a-z]{3,10}\[a\][a-z0-9=]{4,15}\[\.\](com|de|net|org)/i
 
+
+# Sample: 【全屋家具定制专家】
+/【.{3,15}】/i
+
 #
 #
 #
