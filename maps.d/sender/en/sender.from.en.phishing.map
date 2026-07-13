@@ -323,7 +323,7 @@
 /premium.{0,10}price/i
 
 /prime.{0,10}(customer|membership|reward)/i
-/privacy.{0,10}policy/i
+/privacy.{0,10}(policy|security)/i
 
 /(promotion|protection).{0,10}team/i
 /provider.{0,10}support/i
@@ -339,6 +339,8 @@
 
 /ref.?#/i
 /refund.{0,10}(service|support)/i
+
+/renewal.{0,10}(alert|notification|team)/i
 
 /revise.id/i
 /rewards?.{0,10}(center|notification|team|update)/i
