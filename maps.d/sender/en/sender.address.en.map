@@ -155,7 +155,7 @@
 
 #/(offer|order)\./i
 
-/online.?bank/i
+#/online.?bank/i
 
 # P
 # ------------------------------------------------------------------------------
@@ -214,7 +214,7 @@
 # AliExpress uses this
 #/transaction@/i
 
-/@team\./i
+#/@team\./i
 
 /testwp/i
 
