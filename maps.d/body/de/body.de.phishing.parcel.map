@@ -110,6 +110,17 @@
 # ------------------------------------------------------------------------------
 /letzter status.{1,10}zahlung erforderlich/i
 
+/(liefer)?adresse.{1,10}falsch ist.{1,10}bestätigen sie ihre angaben/iu
+/(liefer)?adresse.{1,10}für dieses.{1,10}paket mitteilen/iu
+/(liefer)?adresse.{1,10}innerhalb der.{1,20}stunden zu aktualisieren/i
+/(liefer)?adresse.{1,10}ist unvollständig/iu
+/(liefer)?adresse.{1,10}jetzt korrigieren/i
+/(liefer)?adresse.{1,10}korrigieren und.{1,15}zu bezahlen/i
+/(liefer)?adresse.{1,10}nicht korrekt.{1,15}die zustellung fehlschlug/i
+/(liefer)?adresse.{1,10}ungültige adresse/iu
+#/adresse.{1,20}zu (bestätigen|überprüfen)/i
+/(liefer)?adresse.{1,20}zu überprüfen/i
+
 /lieferdaten.{1,10}bezahlen sie die versandkosten/i
 
 /lieferung.{1,10}aufgeschobenen.{1,10}pakets/i
