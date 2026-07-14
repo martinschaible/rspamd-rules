@@ -30,6 +30,8 @@
 
 # A
 # ------------------------------------------------------------------------------
+/added.{1,10}security features for all.{1,10}accounts/i
+
 /account.{1,10}below.{1,10}to (avoid|prevent) (disconnection|permanent)/i
 
 /account.{1,10}closing soon.{1,10}hello/i
@@ -41,6 +43,7 @@
 
 /account.{1,15}regain access.{1,15}complete.{1,10}required/i
 /account.{1,15}review payment details/i
+/account.{1,15}will be temporarily blocked if/i 
 
 /avoid.{1,10}account deletion{1,10}verify your.{1,15}account/i
 /avoid.{1,10}disabling your.{1,15}(account|profile).{1,10}update/i

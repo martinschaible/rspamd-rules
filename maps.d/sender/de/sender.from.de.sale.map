@@ -116,6 +116,7 @@
 # ------------------------------------------------------------------------------
 /^jacke\b/i
 
+/jetzt.{0,10}bestellen/i
 /jetzt.{0,10}(kostenlos|offerte)/i
 /jetzt.{0,10}nutzen/i
 
@@ -134,6 +135,7 @@
 /kissen.?nr\./i
 
 /klima.{0,10}direkt/i
+/klimatechnik.{0,10}(experte|spezialist)/i
 
 /kostenloser.{0,15}(report|spezial)/i
 /krankenkasse.{0,10}wechseln?/i

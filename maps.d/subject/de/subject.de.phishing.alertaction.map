@@ -743,6 +743,7 @@
 /sicherheits.?(funktionen|option|upgrade).{1,10}mobilfunknummer/i
 
 /systemmeldung.{1,10}neue nachricht/i
+/systemmitteilung.{1,10}zahlung nicht/i
 
 /(systemaktualisierung|sicherheitssystem|systemmeldung|systemmitteilung).{1,10}jetzt (aktualisieren|sofort handeln)/i
 /(systemaktualisierung|sicherheitssystem|systemmeldung|systemmitteilung).{1,10}letzter schritt/i
