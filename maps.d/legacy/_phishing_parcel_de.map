@@ -17,15 +17,6 @@
 
 # Missing, wrong address
 # ------------------------------------------------------------------------------
-/adresse.{1,10}falsch ist.{1,10}bestätigen sie ihre angaben/iu
-/adresse.{1,10}für dieses.{1,10}paket mitteilen/iu
-/adresse.{1,10}innerhalb der.{1,20}stunden zu aktualisieren/i
-/adresse.{1,10}korrigieren und.{1,15}zu bezahlen/i
-/adresse.{1,10}nicht korrekt.{1,15}die zustellung fehlschlug/i
-/adresse.{1,10}ungültige adresse/iu
-#/adresse.{1,20}zu (bestätigen|überprüfen)/i
-/adresse.{1,20}zu überprüfen/i
-
 /aufgrund einer falschen adresse scheiterte die zustellung/i
 
 /bestätigen sie.{1,15}adresse.{1,15}liefergebühr/iu
@@ -93,8 +84,6 @@
 /ihr örtlicher kurier.{1,20}ihre? (paket|sendung)/iu
 
 /letzte erinnerung.{1,10}zustellung fehlgeschlagen/i
-
-/lieferadresse jetzt korrigieren/i
 
 /aufgrund unvollständiger.{1,15}angaben nicht zugestellt werden/iu
 /nicht zustellen.{1,10}da keine.{1,20}anwesend war/i
