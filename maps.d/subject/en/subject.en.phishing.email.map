@@ -209,6 +209,8 @@
 
 /server status.{1,10}pending incoming{1,15}(e?.?mail|message)s?/i
 
+/service status.{1,10}compliance failure/i
+
 # T
 # ------------------------------------------------------------------------------
 /termination notice.{1,10}important/i

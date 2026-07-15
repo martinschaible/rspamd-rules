@@ -329,24 +329,24 @@
 
 /we.{1,10}mainly deal with chinese/i
 
-/we.{1,10}offer.{1,10}exquisite designs/i
-/we.{1,10}offer.{1,10}high quality.{1,10}custom/i
-/we.{1,10}offer.{1,10}manufacturing/i
-/we.{1,10}offer.{1,10}modern designs/i
-/we.{1,10}offer.{1,10}professional proposals/i
-/we.{1,10}offer.{1,10}range of.{1,15}(detailed|highly)/i
-/we.{1,10}offer.{1,10}stop solution/i
+/we.{1,10}(deliver|offer|provide).{1,10}(air|sea).{1,10}freight/i
+/we.{1,10}(deliver|offer|provide).{1,10}customized.{1,10}(odm|oem)/i
+/we.{1,10}(deliver|offer|provide).{1,10}(cnc|machining|oem|printing)/i
+/we.{1,10}(deliver|offer|provide).{1,10}comprehensive.{1,10}custom/i
+/we.{1,10}(deliver|offer|provide).{1,15}following.{1,10}custom/i
+/we.{1,10}(deliver|offer|provide).{1,10}reliable custom/i
+/we.{1,10}(deliver|offer|provide).{1,10}exquisite designs/i
+/we.{1,10}(deliver|offer|provide).{1,10}high quality.{1,10}custom/i
+/we.{1,10}(deliver|offer|provide).{1,10}manufacturing/i
+/we.{1,10}(deliver|offer|provide).{1,10}modern designs/i
+/we.{1,10}(deliver|offer|provide).{1,10}one.?stop services/i
+/we.{1,10}(deliver|offer|provide).{1,10}professional proposals/i
+/we.{1,10}(deliver|offer|provide).{1,10}range of.{1,15}(detailed|highly)/i
+/we.{1,10}(deliver|offer|provide).{1,10}reliable.{1,10}high.?performance/i
+/we.{1,10}(deliver|offer|provide).{1,10}reliable.{1,10}(capacitors|connectors|ics|resistors)/i
+/we.{1,10}(deliver|offer|provide).{1,10}stop solution/i
 
 /we.{1,10}produce.{1,10}(film|metal|pet|series|toys)/i
-
-/we.{1,10}provide.{1,10}(air|sea).{1,10}freight/i
-/we.{1,10}provide.{1,10}customized.{1,10}(odm|oem)/i
-/we.{1,10}provide.{1,10}(cnc|machining|oem|printing)/i
-/we.{1,10}provide.{1,10}comprehensive.{1,10}custom/i
-/we.{1,10}provide.{1,10}one.?stop services/i
-/we.{1,10}provide.{1,10}reliable.{1,10}high.?performance/i
-/we.{1,10}provide.{1,10}reliable.{1,10}(capacitors|connectors|ics|resistors)/i
-/we.{1,10}provide.{1,10}the following.{1,10}custom/i
 
 /we.{1,10}run.{1,10}(pcba?|printed.?circuit.?board).{1,10}fabrication/i
 /we.{1,10}setup.{1,10}(our|own).{1,10}manufacturing/i
