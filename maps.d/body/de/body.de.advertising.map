@@ -50,6 +50,8 @@
 # ------------------------------------------------------------------------------
 /ihre.{1,10}kontaktdaten haben wir aus öffentlich.{1,20}quellen/iu
 
+/ihre.{1,20}e?.?mail.{1,10}im rahmen einer öffentlich zugänglichen recherche/iu
+
 # J
 # ------------------------------------------------------------------------------
 
@@ -87,8 +89,10 @@
 /sie an einem.{1,15}wettbewerb im internet teilgenommen haben/i
 /sie (bekommen|erhalten).{1,10}kostenlosen informationen.{1,10}(da|weil).{1,10}sie/i
 
-/sie (bekommen|erhalten).{1,15}(e?.?mail|informationen|nachricht|newsletter).{1,15}an.{5,45}da sie an einem angebot/i
-/sie (bekommen|erhalten).{1,15}(e?.?mail|informationen|nachricht|newsletter).{1,15}an.{5,45}da sie sich bei uns oder einem/i
+/sie (bekommen|erhalten).{1,15}(e?.?mail|informationen|nachricht|newsletter).{1,15}an.{5,45}sie an einem angebot/i
+/sie (bekommen|erhalten).{1,15}(e?.?mail|informationen|nachricht|newsletter).{1,15}an.{5,45}sie sich bei uns oder einem/i
+
+/sie (bekommen|erhalten).{1,15}(e?.?mail|informationen|nachricht|newsletter).{1,15}(da|weil).{1,10}ihre geschäftliche.{1,10}e?.?mail.{1,10}im rahmen/iu
 
 /sie (bekommen|erhalten).{1,15}(e?.?mail|informationen|nachricht|newsletter).{1,15}(da|weil).{1,10}sie an.{1,15}umfrage teilgenommen haben/i
 /sie (bekommen|erhalten).{1,15}(e?.?mail|informationen|nachricht|newsletter).{1,15}(da|weil).{1,10}sie dem erhalt von werbematerialien/i
@@ -99,7 +103,6 @@
 /sie (bekommen|erhalten).{1,15}(e?.?mail|informationen|nachricht|newsletter).{1,15}(da|weil).{1,10}sie sich für.{1,15}angebote von.{1,20}angemeldet haben/iu
 /sie (bekommen|erhalten).{1,15}(e?.?mail|informationen|nachricht|newsletter).{1,15}(da|weil).{1,10}sie sich für.{1,35}interessieren/iu
 /sie (bekommen|erhalten).{1,15}(e?.?mail|informationen|nachricht|newsletter).{1,15}(da|weil).{1,10}sie unsere dienste in anspruch nehmen/i
-
 
 /sie (bekommen|erhalten).{1,15}(e?.?mail|informationen|nachricht|newsletter).{1,15}(da|weil).{1,10}unser angebot.{1,15}relevant.{1,15}ist/i
 

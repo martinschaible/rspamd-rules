@@ -151,6 +151,7 @@
 # Microsoft uses "konto-team"!
 #/konto.{0,10}(informationsdienst|team|updates?)/i
 /konto.{0,10}(informationsdienst|notfall|updates?)/i
+/konto.{0,10}sicherheit/i
 /konto.?id/i
 
 /krankenkassen?.{0,10}team/i

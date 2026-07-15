@@ -82,6 +82,8 @@
 # ------------------------------------------------------------------------------
 /(ihnen|ihre) google.?(bewertungen|einträge)/i
 
+/ihr unternehmen in der region.{1,25}(un)?sichtbar/i
+
 /ihren guten ruf bei google/i
 
 /informationen.{1,10}unternehmen.{1,10}(deutschland|schweiz)/iu

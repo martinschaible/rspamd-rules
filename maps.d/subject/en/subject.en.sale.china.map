@@ -209,6 +209,7 @@
 /discover.{1,10}reliability of/i
 /discover.{1,10}stainless steel/i
 
+/disposable.{1,10}thermocouple.{1,10}manufacturer/i
 /distribution.{1,15}manufactory/i
 
 /^do you buy/i
@@ -348,6 +349,7 @@
 /international.{1,10}freight forwarding/i
 
 /inquiry about.{1,10}pcba?/i
+/(inquiry|product).{1,15}ring.?binders/i
 
 /iso.{1,10}(certified|qualified).{1,10}(factory|production)/i
 

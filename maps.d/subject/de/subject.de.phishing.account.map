@@ -80,6 +80,8 @@
 
 /(eingeschränkten|eingeschränkter) zugriff auf ihr.{1,15}(konto|profil)/iu
 
+/einschränkungen verhindern/iu
+
 /erforderliche.{1,10}konten.?synchronisation/i
 /erweiterte sicherheit.{1,10}verfügbar/iu
 
@@ -250,7 +252,9 @@
 
 /sicheres.{1,15}(konto|profil).?dokument/i
 /sichern.{1,10}vor dem.{1,10}202\d.{1,10}handeln/i
+
 /sicherheit ihrer.{1,15}kontoaktivität/iu
+/sicherheit ihres.{1,15}(konto|profil) \d{2}(\.|\/)/iu/i
 
 /sicherheitsmitteilung für ihr.{1,15}(konto|profil)/iu
 /sicherheitsteam.{1,20}unautorisierter zugriff/i
