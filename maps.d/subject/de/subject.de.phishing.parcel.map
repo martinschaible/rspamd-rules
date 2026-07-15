@@ -94,7 +94,8 @@
 
 /(die|ihre) lieferadresse.{1,5}\d{3,5}/i
 
-/dhl.{1,10}zahlungsaufforderung/i
+/(dhl|dpd).{1,10}zahlungsaufforderung/i
+/\((dhl|dpd)_\d{4,10}\)/i
 
 /dokumentaktualisierung.{1,10}bitte prüfen/iu
 
