@@ -21,7 +21,7 @@
 /(photo|push).?tan -/i
 /(photo|push).?tan.{1,15}(aktivieren sie|aktivierung)/i
 /(photo|push).?tan.{1,10}legitimation/i
-/(photo|push).?tan.{1,15}(brief|erforderlich|ihre konto|ist nicht|verfahren)/i
+/(photo|push).?tan.{1,15}(brief|erforderlich|ihre konto|ist nicht)/i
 /(photo|push).?tan.{1,10}gesperrt/i
 /(photo|push).?tan.{1,10}läuft (ab|innerhalb)/iu
 

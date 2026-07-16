@@ -90,7 +90,7 @@
 /(dubai|italian|malta|uae|uk).{0,10}(central|district|estate|hills|marina|property)/i
 /(dubai|italian|malta|uae|uk).{0,10}(freehold|freezone)/i
 /(dubai|italian|malta|uae|uk).{0,10}(invest|island)/i
-/(dubai|italian|malta|uae|uk).{0,10}(residence|residency)/i
+/(dubai|italian|malta|uae|uk).{0,10}(residence|residency|resort)/i
 
 # E
 # ------------------------------------------------------------------------------
@@ -115,6 +115,7 @@
 
 # H
 # ------------------------------------------------------------------------------
+/heritage.{0,10}(residence|residency|resort)/i
 
 # I
 # ------------------------------------------------------------------------------

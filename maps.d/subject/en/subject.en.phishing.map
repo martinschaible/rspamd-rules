@@ -83,6 +83,8 @@
 /confirm your tax residency/i
 /credit contact missing/i
 
+/cloud.{1,10}your plan is full/i
+
 # D
 # ------------------------------------------------------------------------------
 /delete notice{1,5}attn/i
@@ -203,7 +205,9 @@
 
 /your.{1,10}files are about to be lost/i
 
+/your.{1,10}photos are not saving/i
 /your.{1,10}photos will be deleted tonight/i
+
 /your.{1,10}storage usage immediately/i
 /your.{1,10}tax records require.{1,10}(attention|immediate)/i
 

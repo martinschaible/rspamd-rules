@@ -69,6 +69,7 @@
 /cloud.{0,10}(account|admin|audit)/i
 /cloud.{0,10}(backup|emergency|limit|notify)/i
 /cloud.{0,10}(management|membership)/i
+/cloud.{0,10}notices?/i
 /cloud.{0,10}(operations|ops)/i
 /cloud.{0,10}(security|service|support|storage)/i
 /cloud.{0,10}benachrichtigung/i
@@ -101,6 +102,7 @@
 /server.?(notification|report|team)/i
 
 /storage.{0,10}(admin|alert)/i
+/storage.{0,10}operations?/i
 /storage.{0,10}(security|system)/i
 /storage.{0,10}(upgrade|quota)/i
 

@@ -477,6 +477,7 @@
 /for.{1,10}stronger nails/i
 
 /forget.{1,10}dieting/i
+/forgotten.{1,10}nerve healing/i
 
 /formula restored by/i
 
@@ -867,7 +868,9 @@
 
 /rest.{1,10}signals?/i
 /restless.{1,10}prostate/i
-/restores?.{1,10}(brain|gut|hearing|help|joint|memory|nerve|perfect|teeth)/i
+
+/(restores?|restoring).{1,10}(brain|gut|hearing|help|joint|memory|nerve|perfect|teeth)/i
+/(restores?|restoring){1,10}pain free/i
 
 /reveals hidden.{1,10}(food|triggers)/i
 
@@ -875,13 +878,16 @@
 /(reverse|reversing).{1,10}(hair|vision).?loss/i
 /(reverse|reversing).{1,10}premature aging/i
 /(reverse|reversing).{1,20}(high blood|sugar levels?)/i
+/(reverse|reversing).{1,10}joint damage/i
 
 /revives.{1,10}memory fast/i
 /revolutionary all natural/i
 
 /ringing.{1,10}buzzing/i
 /ringing.{1,10}(naturally|your ears)/i
-/ritual revealed/i
+
+/ritual.{1,10}that works/i
+/ritual.{1,10}revealed/i
 
 /rock.?(hard|solid) (erections?|in just|stiffness)/i
 
