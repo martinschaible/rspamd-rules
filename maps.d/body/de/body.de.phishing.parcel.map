@@ -47,7 +47,7 @@
 
 /benötigen wir eine.{1,10}(bearbeitungs|zoll).?gebühr/iu
 
-/bestätigen sie ihre lieferadresse/iu
+/(bestätigen|korrigieren) sie ihre lieferadresse/iu
 
 /(bestaetigung|bestätigung).{1,10}bearbeitungsstatus/iu
 
@@ -69,6 +69,8 @@
 
 # F
 # ------------------------------------------------------------------------------
+/fehlerhaften adresse.{1,10}nicht zugestellt werden/i
+
 /freigabe.{1,10}(lieferung|paket|sendung).{1,10}ist eine bearbeitungsgebühr/iu
 
 /freigabe.{1,10}zustellung.{1,10}(lieferung|paket|sendung)/i

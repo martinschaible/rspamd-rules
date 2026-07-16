@@ -186,7 +186,8 @@
 
 # O
 # ------------------------------------------------------------------------------
-/offers.{1,10}top.?notch.{1,15}(accessories|components|communication|electronic|modules|products)/i
+/offers?.{1,10}top.?notch.{1,15}(accessories|components|communication|electronic|modules|products)/i
+/offers?.{1,10}range of card designs/i
 
 /our steel is manufactured/i
 
@@ -330,7 +331,8 @@
 /we.{1,10}mainly deal with chinese/i
 
 /we.{1,10}(deliver|offer|provide).{1,10}(air|sea).{1,10}freight/i
-/we.{1,10}(deliver|offer|provide).{1,10}customized.{1,10}(odm|oem)/i
+/we.{1,10}(deliver|offer|provide).{1,10}custom(ized)?.{1,10}(odm|oem)/i
+/we.{1,10}(deliver|offer|provide).{1,10}custom(ized)?.{1,10}(design|personalized)/i
 /we.{1,10}(deliver|offer|provide).{1,10}(cnc|machining|oem|printing)/i
 /we.{1,10}(deliver|offer|provide).{1,10}comprehensive.{1,10}custom/i
 /we.{1,10}(deliver|offer|provide).{1,15}following.{1,10}custom/i
