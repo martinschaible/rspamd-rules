@@ -84,8 +84,11 @@
 /(home.?page|web.?site).{1,10}for \d{2}% off/i
 /(home.?page|web.?site).{1,10}maintenance contracts?/i
 /(home.?page|web.?site).{1,10}need.{1,10}update/i
+
 /(home.?page|web.?site).{1,10}re.?(build|design)(ing)?/i
-/(home.?page|web.?site).{1,10}(overhaul|quotation|re.?make|renew|revamping|upgrade|upgrading)/i
+/(home.?page|web.?site).{1,10}(re.?make|renew|revamping)/i
+
+/(home.?page|web.?site).{1,10}(overhaul|quotation|upgrade|upgrading)/i
 /(home.?page|web.?site).{1,20}should be driving/i
 
 /hire shopify developer/i
@@ -122,7 +125,8 @@
 /need.{1,10}web.?site.{1,10}services/i
 
 /new.?redesign/i
-/new site.{1,10}redesign/i
+/new (web)?site.{1,10}redesign/i
+/new (web)?site.{1,10}brand/i
 
 /new web.?site(\?|!)/i
 

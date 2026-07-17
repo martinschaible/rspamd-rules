@@ -189,6 +189,8 @@
 /(lieferung|paket|sendung).{1,20}konnte nicht.{1,20}werden.{1,10}da bei.{1,15}zustellung/i
 /(lieferung|paket|sendung).{1,10}könnte zum absender zurückgeschickt werden/iu
 
+/(lieferung|paket|sendung).{1,10}liegt in unserem/i
+
 /(lieferung|paket|sendung).{1,15}(muessen|müssen) sie umgehend/iu
 /(lieferung|paket|sendung).{1,10}mit der nummer.{1,20}erfordert vor der freigabe/iu
 /(lieferung|paket|sendung).{1,20}nicht zugestellt werden.{1,20}fehler beim barcode/i
@@ -272,6 +274,8 @@
 /versandverzögerung.{1,10}zahlung erforderlich/iu
 
 /verifizierung der lieferadresse/i
+
+/vorgang ist dort angehalten/i
 
 # W
 # ------------------------------------------------------------------------------

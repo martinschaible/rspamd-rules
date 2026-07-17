@@ -559,6 +559,8 @@
 
 /quotation.{1,15}(multilayer)?.{1,10}(pcba?|printed.?circuits?.?board)/i
 /quotation.{1,15}injection mold/i
+/quotation.{1,10}support.{1,10}reply/i
+
 
 # R
 # ------------------------------------------------------------------------------

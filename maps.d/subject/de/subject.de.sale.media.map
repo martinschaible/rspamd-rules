@@ -132,7 +132,9 @@
 # ------------------------------------------------------------------------------
 /rezensionen.{1,10}google.?bewertung/i
 /rufschädigung.{1,10}durch.{1,15}google.?bewertung/iu
-/rückfrage zu .{1,15}google.?bewertung/iu
+
+/(rückfrage|rückmeldung).{1,15}google.?bewertung/iu
+/(rückfrage|rückmeldung).{1,15}rezension/iu
 
 
 # S

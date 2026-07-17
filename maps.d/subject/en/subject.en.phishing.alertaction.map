@@ -49,6 +49,8 @@
 /^action required$/i
 /^action-required$/i
 
+/action (needed|required).{1,10}confirm deposit/i
+
 # Sample: Action needed: (1585755969)
 /^(action|update) (needed|required)$/i
 
