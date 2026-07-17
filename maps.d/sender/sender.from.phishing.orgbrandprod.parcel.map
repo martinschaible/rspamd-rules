@@ -1,9 +1,18 @@
 # ==============================================================================
+# In the scam and phishing area, spammers like to use names of well-known
+# companies or organisations.
+# 
+# These names are kept generic, fake and sometimes silly because the companies
+# and organisations usually have personalized senders.
 #
+# Allowed entries are: - Name of organisations
+#                      - Name of brands
+#                      - Name of products
+#                      - Masked entries are allowed
 #
 # ------------------------------------------------------------------------------
 # Language: -
-# Weight:   6.0
+# Weight:   12.0
 # ==============================================================================
 
 # Combined
