@@ -180,8 +180,6 @@
 
 /allgemeiner deutscher/i
 
-/anthropic.?ai/i
-/anthropic.{0,10}claude/i
 /ahv.?iv/i
 
 #/aldi-/i
@@ -203,8 +201,6 @@
 /^ana$/i
 /ana.?card/i
 /ana.?sky.?web/i
-
-/anthropic.{0,10}pbc/i
 
 /aok\.de/i
 
@@ -339,11 +335,11 @@
 
 /deutsche.{0,10}apotheke$/i
 
-/deutsche.?bnk/i
 /deutschen.?bahn/i
 
 /deutsche.?bahn.{0,10}(gutschein|service|team|umfrage)/i
 
+/deutsche.?bnk/i
 /deutsche-bank/i
 /deutsche bank.{0,10}hotline/i
 /deutsche bank.{0,10}kundenservice/i
