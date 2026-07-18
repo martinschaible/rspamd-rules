@@ -1,26 +1,28 @@
 # ==============================================================================
-# In the scam and phishing area, spammers like to use names of well-known
-# companies or organisations.
-# 
-# These names are kept generic, fake and sometimes silly because the companies
-# and organisations usually have personalized senders.
+# The sender's name uses the names of organizations,
+# banks, or even specific product names.
+#
+# This is a typical phishing attempt aimed at stealing money or data.
+#
+# The only unusual aspect here is the exclusive use of Japanese characters.
 #
 # Allowed entries are: - Name of organisations
 #                      - Name of brands
 #                      - Name of products
 #                      - Masked entries are allowed
 #
+# Disclaimer:
+#
+# It's entirely possible that I've unintentionally entered the correct names
+# of the organizations or banks here.
+# I have no idea how these organizations or banks present themselves.
+# Assuming someone has a relationship with one of the listed Japanese companies,
+# false positives could occur.
+#
 # ------------------------------------------------------------------------------
-# Language: chinese and japanese
+# Language: japanese
 # Weight:   12.0
 # ==============================================================================
-
-# Topics
-# ==============================================================================
-
-#
-#
-#
 
 # Generic
 # ==============================================================================
@@ -106,6 +108,7 @@
 
 # 24.02.26 - Electronic national tax return
 /国税電子申告/i
+
 # F
 # ------------------------------------------------------------------------------
 
