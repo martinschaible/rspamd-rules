@@ -17,7 +17,6 @@
 
 # Real sender names are:
 # ------------------------------------------------------------------------------
-# Accounting - Hetzner Online GmbH
 # Aktuelle Lidl Angebote
 # aldi-now
 # ALDI SÜD newslsetter
@@ -27,9 +26,7 @@
 # Allianz
 # Amazon Business
 # amazon.de
-# Apple
 # BahnBonus Service
-# ChatGPT
 # CH Media Markt Kundendienst
 # Coop Aktionen
 # Denner Aktionen
@@ -44,8 +41,6 @@
 # google
 # Google Payments
 # Google Search Console Team
-# Hetzner Cloud
-# iCloud
 # ING
 # Kaufland Card
 # LANDI Kundendienst
@@ -55,10 +50,6 @@
 # Mein ROSSMANN
 # Meta
 # METRO
-# Microsoft 365
-# Microsoft account team
-# Microsoft-Konto-Team
-# Microsoft Defender
 # Migros
 # Migros: Aktionen und News
 # Migros - Cumulus
@@ -80,7 +71,6 @@
 # SwissPass Newsletter
 # Spotify
 # SumUp
-# Support - Hetzner Online GmbH
 # TARGOBANK Online-Postfach
 # Telekom Deutschland GmbH
 # Touring Club Schweiz
@@ -225,25 +215,6 @@
 /apobank.{0,10}(kunden.?service|mitglieder.?service)/i
 /apotheke.{0,10}apobank/i
 
-/appſe/i
-/apiie ld/i
-/apple.{0,10}(abo|airtag)/i
-/apple.{0,10}(autorisierung|kunden.?service|zahlung)/i
-/apple.{0,10}center/i
-/apple.{0,10}dienst/i
-/apple.{0,10}info/i
-/apple.{0,10}online/i
-/apple.{0,10}mail/i
-/apple.{0,10}(netzwerk|nutzer)/i
-/apple.{0,10}rechnung/i
-/apple.{0,10}(services?|sicherheit|support)/i
-/apple.{0,10}warnsystem/i
-/apple.{0,10}(zahlung|zentrum)/i
-
-/apple.?pay/i
-/(app|apple).?store.{0,10}rechnung/i
-
-/apple-/i
 
 /^ard.?zdf$/i
 /ard.?zdf.?(radio|service|team)/i
@@ -313,20 +284,6 @@
 
 /cff.?sbb/i
 
-/chatgbt/i
-
-/chat-gpt/i
-/chatgpt.?(ai|\+|plus)/i
-/chatgpt.{0,10}(abonnement|hinweis)/i
-/chatgpt.{0,10}(betreuung|billing)/i
-/chatgpt.{0,10}dienst/i
-/chatgpt.{0,10}(kundenservice|kontakt|konto)/i
-/chatgpt.{0,10}(account|billing|team)/i
-/chatgpt.{0,10}(payments|premium)/i
-/chatgpt.{0,15}(services?|serviceportal|subscription)/i
-/chatgpt.{0,20}(team|tech)/i
-/chatgpt.{0,10}zahlung(en)?/i
-
 /coca.?cola company/i
 
 /combo.{0,10}kit/i
@@ -351,13 +308,6 @@
 /consorsbank.{0,10}(informations|kunden)?service/i
 
 /-.?coop/i
-
-/\.(ch|de) cpanel/i
-/^cpanel$/i
-/cpanel.{0,10}(host|roundcube|team|zertifikatsstelle)/i
-/cpanel.{0,10}(server|service|suppport)/i
-/cpanel.{5,15}\.(ch|de)/i
-/cpanel on/i
 
 /css.{0,10}(kundeninformation|kundenservice)/i
 /css.{0,10}(info|online)/i
@@ -545,20 +495,6 @@
 # ------------------------------------------------------------------------------
 /harbor.?freight.{0,10}department/i
 
-/hetzner, inc/i
-
-/hetzner.{0,10}alert/i
-/hetzner.{0,0}accounts?/i
-/hetzner.{0,10}billing/i
-/hetzner.{0,10}domains/i
-/hetzner.{0,5}(invoice|online)$/i
-/hetzner.{0,5}payment/i
-/hetzner.{0,5}service/i
-
-/hetznersupport/i
-
-/login.?hetzner/i
-
 /help.{0,10}spotify/i
 
 /helsana.{0,10}(team|support)/i
@@ -568,8 +504,6 @@
 
 /hsbc.?bank.{0,10}plc/i
 
-/hostpoint.{0,10}webdomain/i
-
 # I
 # ------------------------------------------------------------------------------
 
@@ -577,7 +511,6 @@
 /ibkr.{0,10}(message|reply|support)/i
 /ibkr.{0,10}(info|invest)/i
 
-/icloud.{0,10}(idrive|storage)/i
 
 /icorner.{0,10}(kundenservice|sicherheitsdienst)/i
 
@@ -693,14 +626,6 @@
 
 /info.{0,5}metamask/i
 
-/metanet-ch/i
-/metanet.{0,10}(kundendienst|kundenservice)/i
-
-/microsoft ads/i
-/microsoft.{0,10}(advertising|billing|gmbh|rewards?|subscription)/i
-/microsoft.{0,10}(cashback|corporation)/i
-/microsoft.{0,10}schweiz/i
-#/microsoft.{0,10}konto/i
 
 /(service|support).{0,10}(hetzner|microsoft)/i
 
@@ -796,34 +721,6 @@
 # 01.02.25 - Orico Corporation
 /e-orico/i
 
-/office365admin/i
-
-#/^open.?ai$/i
-
-/^openal/i
-/^open.?ai$/i
-
-/open.?ai.{0,5}.?\|/i
-/open.?ai.{0,5}chatgpt/i
-/open.?ai.{0,5}llc/i
-/open.?ai.{0,5}(account|team|upgrade)/i
-/open.?ai.{0,5}billing/i
-/open.?ai.{0,5}(customer|company)/i
-/open.?ai.{0,5}ireland/i
-/open.?ai.{0,5}(payments?|premium)/i
-/open.?ai.{0,5}(services?|subscriptions?|support)/i
-/open.?ai.{0,5}(team|tech)/i
-/open.?ai.{0,5}(mitgliederverwaltung|zahlung(en)?)/i
-/open.?ai.{0,5}notifications?/i
-/open.?ai.{0,5}via/i
-
-/account.{0,10}open.?ai/i
-/finanzen.{0,10}open.?ai/i
-/hilfe.{0,10}open.?ai/i
-
-/(kontakt|kundendienst|kundenservice).{0,10}open.?ai/i
-/service.{0,10}open.?ai/i
-
 /oral.?b/i
 
 /otto.{0,10}(feedback|prämien)/iu
@@ -883,7 +780,6 @@
 /pf.?konto/i
 /post.?finance.{0,5}benachrichtigungen/i
 /post.?finance.{0,5}twint/i
-
 
 /premium.{0,10}spοtify/i
 /prime.{0,5}notification/i
@@ -1003,8 +899,6 @@
 /^stanley$/i
 
 /\.starbucks/i
-
-/strato.{0,10}rechnung/i
 
 #/(service|support).{0,10}paypal/i
 /support.{0,10}(netflix|paypal|roundcube)/i
