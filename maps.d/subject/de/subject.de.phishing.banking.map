@@ -229,7 +229,8 @@
 
 /sicherheits(funktion|update).{1,10}ihre.{1,10}(app|karte)/i
 /sicherheitsüberprüfung.{1,10}online.?bankings?/iu
-/sicherheitsrelevante information zu ihrem zugang/i
+/sicherheitsrelevante.{1,10}information zu ihrem zugang/i
+/sicherheitsumgebung.{1,10}modernisiert/i
 
 /sperrung.{1,10}diensten.{1,10}nichtbefolgung/i
 /sperrung.{1,10}ihrer.{1,15}(card|karte)/i
