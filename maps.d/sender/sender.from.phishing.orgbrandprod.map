@@ -11,29 +11,22 @@
 #                      - Masked entries are allowed
 #
 # ------------------------------------------------------------------------------
-# Language: -
+# Language: german and english
 # Weight:   12.0
 # ==============================================================================
 
+#
+#
+#
+
 # Real sender names are:
 # ------------------------------------------------------------------------------
-# Aktuelle Lidl Angebote
-# aldi-now
-# ALDI SÜD newslsetter
-# Aldi Suisse AG News
-# ALDI SUISSE AG - News
 # Aliexpress
 # Allianz
 # Amazon Business
 # amazon.de
 # BahnBonus Service
-# CH Media Markt Kundendienst
-# Coop Aktionen
-# Denner Aktionen
-# dm-drogerie markt
-# DocMorris - Ihre Apotheke
 # Dropbox
-# EDEKA
 # E.ON Kundenservice
 # facebook
 # Facebook Freundschaftsvorschläge
@@ -41,48 +34,33 @@
 # google
 # Google Payments
 # Google Search Console Team
-# ING
-# Kaufland Card
-# LANDI Kundendienst
-# Lidl Küchenliebe
-# Lidl lohnt sich
 # McAfee
-# Mein ROSSMANN
 # Meta
-# METRO
-# Migros
-# Migros: Aktionen und News
-# Migros - Cumulus
-# Migros Online
 # Miles & More
 # Miles & More Newsletter
 # My AXA
-# myMediaMarkt
 # mySWICA
-# Nespresso
 # playstation
 # parkingpay
-# Qualipet
-# Rewe Kundendienst
 # Ricardo Info
 # service@paypal.com
 # swisspass
 # swisspass.ch
 # SwissPass Newsletter
 # Spotify
-# SumUp
-# TARGOBANK Online-Postfach
 # Telekom Deutschland GmbH
-# Touring Club Schweiz
-# UBS Switzerland AG
-# Viseca
 # Wetransfer
+# ------------------------------------------------------------------------------
+
+#
+#
+#
 
 # Topics
 # ==============================================================================
 
-# Generic Companies
-# ------------------------------------------------------------------------------
+# Combined
+# ==============================================================================
 /(adac|metamask|netflix).{0,10}(account|assistance|billing|customer|help.?desk)/i
 /(adac|metamask|netflix).{0,10}(info.?desk|notifications?|protection)/i
 /(adac|metamask|netflix).{0,10}(security|service|support|team|update|user|verification|wallet)/i
@@ -165,10 +143,6 @@
 /adobe.?acrobat (document|e.?signature|sign)/i
 /adobe.?pdf/i
 
-/advanzia@advanzia/i
-
-/service.{0,10}advancia/i
-
 /ag.?twint/i
 
 /allianz.{0,10}insights/i
@@ -193,19 +167,10 @@
 
 /(kundenservice|von).{1,10}amazon/i
 
-/^ana$/i
-/ana.?card/i
-/ana.?sky.?web/i
-
 /aok\.de/i
 
 # Poochy Couture
 /ap.?vertrieb/i
-
-/apobank -/i
-/apobank.{0,10}(kunden.?service|mitglieder.?service)/i
-/apotheke.{0,10}apobank/i
-
 
 /^ard.?zdf$/i
 /ard.?zdf.?(radio|service|team)/i
@@ -226,17 +191,8 @@
 
 # B
 # ------------------------------------------------------------------------------
-
 /bahn\.de/i
 /bahn.{0,10}bonus/i
-
-/banksantander/i
-
-/bank.{0,10}sicherheit(sdienst)?/i
-/bank ag-?-.?(kundenbetreuung|kundenservice)/i
-
-# Very funny these suckers
-/bank of nigeria/i
 
 /best.?sign.{0,10}konto/i
 
@@ -265,27 +221,16 @@
 /bundessteueramt/i
 /bundeszentralamt.{0,10}steuern/i
 
-/bw.?bank.{0,10}kundendienst/i
 
 /bzst.{0,10}mitteilung(en)/i
 
 # C
 # ------------------------------------------------------------------------------
-/cembra.{0,10}kundeninformation/i
-
 /cff.?sbb/i
 
 /coca.?cola company/i
 
 /combo.{0,10}kit/i
-/commerz-bank/i
-/commerz$/i
-
-/commerzbank.{0,10}(sicherheitszentrum|support|team)/i
-/commerzbank.{0,10}(kundenbetreuung|kundenservice)/i
-
-/consorbank\./i
-/consorsfinanz/i
 
 /^coop$/i
 /\| coop$/i
@@ -295,8 +240,6 @@
 /communication.{0,10}wix/i
 
 /confirmation.{0,10}temu/i
-
-/consorsbank.{0,10}(informations|kunden)?service/i
 
 /-.?coop/i
 
@@ -314,9 +257,6 @@
 
 /db.{0,5}deutschland/i
 
-/-debix/i
-/debix+/i
-/debbix\+/i
 /decathlon-/i
 
 /denner.{0,10}(kundenservice|schweiz|support|team|überraschung)/i
@@ -333,12 +273,6 @@
 /deutschen.?bahn/i
 
 /deutsche.?bahn.{0,10}(gutschein|service|team|umfrage)/i
-
-/deutsche.?bnk/i
-/deutsche-bank/i
-/deutsche bank.{0,10}hotline/i
-/deutsche bank.{0,10}kundenservice/i
-/hilfe.{0,10}deutsche.?bank/i
 
 /deutschland.?radio.{0,10}nachrichtendienst/i
 
@@ -357,27 +291,6 @@
 /disney.{0,10}(support|verify)/i
 /disneyplus/i
 /llc.{0,10}disney/i
-
-# DKB - Deutsche Kreditbank AG
-/das.?kann.?bank/i
-/_dkb/i
-/-dkb-/i
-/dkb.?ag/i
-/dkb\.de/i
-
-/dkb.{0,5}alert/i
-/dkb.{0,5}communications/i
-/dkb.{0,5}deutsche/i
-/dkb.{0,5}(konto|kundenbetreuung|kundencenter|kundenservice)/i
-/dkb.{0,5}monitoring/i
-/dkb.{0,5}(service|sicherheitsdienst|schutz)/i
-/dkb.{0,5}team/i
-
-/info.{0,10}dkb/i
-
-/d k b.{0,5}(ag|info)/i
-
-/kundenservice.{0,10}dkb/i
 
 # Real Sender: "Digitec"
 /digitec\.ch/i
@@ -401,18 +314,6 @@
 
 # E
 # ------------------------------------------------------------------------------
-
-/easyb-ank/i
-/easy_bank/i
-/easybank.?de/i
-/easybank.{0,10}(app|digital|finanzservice|support)/i
-/easybank.{0,10}deutschland/i
-/easybank.{0,10}(kundenbetreuung|kundenservice)/i
-/easybank.{0,10}service(.?team)?/i
-/easybank.{0,10}team/i
-
-# 08.06.25
-/ebanking.{0,10}(ubs|postfinance)/i
 
 # 29.11.25
 /ebay.{0,10}member/i
@@ -468,8 +369,6 @@
 
 /vom galaxus/i
 
-/gls.{0,10}service/i
-
 /google.?drive/i
 /google.{0,10}benachrichtigung/i
 /google.{0,10}(claim|inc|llc|team)/i
@@ -493,8 +392,6 @@
 # Note relevant in Europe
 /home.?(depot|warranty)/i
 
-/hsbc.?bank.{0,10}plc/i
-
 # I
 # ------------------------------------------------------------------------------
 
@@ -502,10 +399,7 @@
 /ibkr.{0,10}(message|reply|support)/i
 /ibkr.{0,10}(info|invest)/i
 
-
 /icorner.{0,10}(kundenservice|sicherheitsdienst)/i
-
-/storage.{0,10}(alert|icloud)/i
 
 /info@galaxus\.ch/i
 
@@ -515,9 +409,6 @@
 /investigation.{0,10}department/i
 
 /ihre?.{0,5}(migros|spotify)/i
-/ihre volksbank eg/i
-
-/i0n0s/i
 
 # J
 # ------------------------------------------------------------------------------
@@ -535,12 +426,6 @@
 
 /kauf\.land/i
 /kauflandmarkt/i
-
-/klarna.{0,10}(finanzservice|kundenservice|support)/i
-/klarna.{0,10}deutschland/i
-/klarna.{0,10}germany/i
-
-/info.{0,10}klarna/i
 
 /kleinanzeigen.{0,10}team/i
 
@@ -617,9 +502,6 @@
 
 /info.{0,5}metamask/i
 
-
-/(service|support).{0,10}(hetzner|microsoft)/i
-
 /migrol.{0,10}automobil/i
 
 /migros - online/i
@@ -643,8 +525,6 @@
 
 /^milka$/i
 
-/money.?bank.{0,10}support/i
-
 /^mycss$/i
 /my-css/i
 /mycss.{0,5}krankenversicherung/i
@@ -657,15 +537,6 @@
 
 # N
 # ------------------------------------------------------------------------------
-/^n-26$/i
-
-/n-?26.{0,10}app/i
-/n-?26.{0,10}benachrichtigung(en)?/i
-/n-?26.{0,10}online/i
-/n-?26.{0,10}support/i
-
-/natwestbank/i
-
 /netflix\.com/i
 /netflix.{0,10}(kundendienst|konto)/i
 /netflix.{0,10}(expiration|services|support|team|updates)/i
@@ -768,10 +639,6 @@
 
 /porsche.{0,10}werk/i
 
-/pf.?konto/i
-/post.?finance.{0,5}benachrichtigungen/i
-/post.?finance.{0,5}twint/i
-
 /premium.{0,10}spοtify/i
 /prime.{0,5}notification/i
 
@@ -781,22 +648,14 @@
 
 # R
 # ------------------------------------------------------------------------------
-/raiffeisen.{0,10}(gruppe|kundenservice|team|twint)/i
-/raiffeisen.{0,10}(sicherheit|support)/i
-
-/_raiffeisen/i
-/^raiffeisen$/i
-
-/raiffeisenbanken,/i
-/(info|twint).{0,10}raiffeisen/i
-
 /rentenversicherung.{0,10}bund/i
 /rentenversicherung.?-/i
 
+/\| rewe$/i
+/rewe.{0,10}geschenke/i
+
 /rituals.{0,10}team/i
 /rituals.{0,10}(deutschland|schweiz)/i
-
-/\| rewe$/i
 
 /r0ssmann/i
 
@@ -847,9 +706,6 @@
 /\|.?sbb/i
 
 /schaeffler.?gruppe/iu
-/secure.?(go|plus).{0,5}(home|support)/i
-
-/securego(.?plus)?/i
 
 /^serafe$/i
 /serafe(.?ag)?.?\|/i
@@ -860,20 +716,12 @@
 /serafe.{0,5}(kundendienst|kundenservice)/i
 /serafe.{0,5}(ch|schweiz)/i
 
-/server.?\|/i
-
 /service.?center.?ard.?zdf/i
 /secretary.{0,5}treasury/i
 
 /shell.{0,10}(partner|research|support|team)/i
 
 /shopify.{0,10}nachricht/i
-
-/spar-kasse/i
-/^sparkasse$/i
-/sparkasse -/i
-/sparkasse.{0,10}(kunden?|noreply)/i
-/sparkasse-de/i
 
 /spyrec.?pro/i
 
@@ -892,7 +740,7 @@
 /\.starbucks/i
 
 #/(service|support).{0,10}paypal/i
-/support.{0,10}(netflix|paypal|roundcube)/i
+/support.{0,10}(netflix|paypal)/i
 
 /shell.?partner/i
 
@@ -900,19 +748,7 @@
 
 /state.?farm/i
 
-/support.{0,5}(open.?ia|apple|swica)/i
-
-/#?sumup/i
-#/^sumup\.?$/i
-/sum(-|_)up\./i
-/sum up/i
-/sumup-/i
-/sum.?up.{0,10}(kundenservice|kontakt)/i
-/sumxup/i
-
-/sumup.{0,10}(germany|schweiz|suisse|switzerland)/i
-/sumup.{0,10}(assistenz|kundendienst|service(.?desk)?|sicherheit|support|limited|team)/i
-/(account|logins?|mein|team|von).{0,10}sumup/i
+/support.{0,5}swica/i
 
 /sunrise.{0,10}support/i
 
@@ -970,7 +806,6 @@
 
 # T
 # ------------------------------------------------------------------------------
-/targ0bank/i
 
 /tcs.?car/i
 /tcs.{0,10}(abteilung|ngebote?|admin|kundenservice|mitglieder|vip|werbung)/i
@@ -1008,19 +843,8 @@
 /treasury.{0,10}department/i
 /ts cubic card/i
 
-/noreply.{0,10}twint/i
-/twint$/i
-/twint\.ch/i
-
-/twint-[a-z]{2}/i
-/twint.?(ag|offer|team)/i
-/twint.{0,10}kundenservice/i
-
 # U
 # ------------------------------------------------------------------------------
-/ubs.?ag.?ch/i
-/ubs.{0,10}digital-?services/i
-/ubs.{0,10}kundenservice/i
 
 /-ubereats/i
 
@@ -1030,49 +854,7 @@
 
 # V
 # ------------------------------------------------------------------------------
-/via cpanel/i
-
-/vcb.?card/i
-
-/^visa$/i
-/visajapan/i
-
-/visa.?karte/i
-/visa.{0,10}secure/i
-#/^viseca$/i
-/viseca.?one.?app/i
-
-/^volksbank$/i
-/volksbank -/i
-
-/volksbanken$/i
-/volksbank(en)?.{0,10}(service|support|team)/i
-/volksbank(en)?.{0,10}(kundenbetreuung|kundenservice)/i
-/volksbank(en)?.{0,10}online/i
-
-/volksbank(en)?.{0,10}raiffeisenbankenverbund/i
-
-/volksbank(en)? deutschland eg/i
-/volksbank(en)? eg deutschland/i
-/volksbank(en)?.?(eg|vr)/i
-/volksbank(en)?.?gruppe eg/i
-
-/volks\.eg.{0,10}service/i
-
-/vb.{0,5}(kundenbetreuung|kundenservice)/i
-
-/kundenservice.{0,10}volksbank(en)?/i
-/kunden volks\./i
-
 /von.{0,10}swica/i
-
-/vr.?(bank|gruppe).{0,10}(deutschland|online|service|zentrale)/i
-/vr.?(bank|gruppe).?eg/i
-/^vr eg$/i
-
-/vr.{0,5}(banking|kundenservice|verbund)/i
-
-/www\.vr\.de/i
 
 # W
 # ------------------------------------------------------------------------------
