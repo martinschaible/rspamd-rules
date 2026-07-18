@@ -1,9 +1,10 @@
 # ==============================================================================
-# In the scam and phishing area, spammers like to use names of well-known
-# companies or organisations.
+# People are lured here with false rewards, gifts and discounts.
 # 
-# These names are kept generic, fake and sometimes silly because the companies
-# and organisations usually have personalized senders.
+# As always, the gangsters want your money and your data.
+#
+# They use the well-known names of international, national, and local companies
+# as the sender, modifying them or adding extra information.
 #
 # Allowed entries are: - Name of organisations
 #                      - Name of brands
@@ -55,80 +56,267 @@
 
 # Combined
 # ==============================================================================
+/\|.?(brack|coop|denner|migros|rewe)/i
+/-.?(brack|coop|denner|migros|rewe)/i
 
+#
+#
+#
 
 # Generic
 # ==============================================================================
 
+# Number
+# ------------------------------------------------------------------------------
+/202\d.{0,10}lidl/i
+
 # A
 # ------------------------------------------------------------------------------
+#/aldi-/i
+/aldi.{0,15}(deals?|support)/i
+/aldi-(ch|de)/i
+
+/amaz0n/i
+#/amazon\.de/i
+
+/amazon\.com\.jp/i
+
+/amazon.?co/i
+/amazon.{0,10}customer.?service/i
+/amazon.{0,10}(visa|xmas)/i
+
+/amazon.{0,10}(gutschein|weihnachten)/i
 
 # B
 # ------------------------------------------------------------------------------
+/brack\.ch/i
+/brack.?\|/i
 
 # C
 # ------------------------------------------------------------------------------
+/christmas.{0,10}edeka/i
+
+/confirmation.{0,10}temu/i
+
+/^coop$/i
+
+/coop.{0,10}(kundenservice|team)/i
 
 # D
 # ------------------------------------------------------------------------------
+/danke.{0,5}kaufland/i
+
+/decathlon-/i
+/decathlon.{0,5}noreply/i
+
+/denner.?-/i
+/^denner$/i
+
+/denner.{0,10}(kundenservice|schweiz|support|team|überraschung)/i
+#/denner.{0,10}(aktionen|kundenservice|schweiz|support|team|überraschung)/i
+
+/(deine|dini).{0,10}migros/i
+
+#
+/digitech/i
+/digitec\.ch/i
+
+#
+/douglas$/i
+/douglas.{0,5}team/i
+
+/dyson.{0,10}(special|vacuum)/i
 
 # E
 # ------------------------------------------------------------------------------
+/edeka.?(™|®)$/i
+/edeka.{0,10}2026/i
+/edeka.{0,10}markt/i
 
 # F
 # ------------------------------------------------------------------------------
 
 # G
 # ------------------------------------------------------------------------------
+/-galaxus/i
+/galaxus.{0,10}(angebote|markt|team)/i
+/galaxus.{0,10}(kundenservice|kundenzufriedenheit)/i
+
+/galaxus.?ag/i
+/galaxus\.ch/i
 
 # H
 # ------------------------------------------------------------------------------
+/harbor.?freight.{0,10}department/i
+
+# Note relevant in Europe
+/home.?(depot|warranty)/i
 
 # I
 # ------------------------------------------------------------------------------
-/info\edeka\.de/i
+/ihr.{0,10}starbucks/i
+
+/info@edeka\.de/i
+/info@galaxus\.ch/i
 
 # J
 # ------------------------------------------------------------------------------
+/jura.{0,10}(kundenservice|team)/i
 
 # K
 # ------------------------------------------------------------------------------
+/kaufland.{0,10}(geschenk|team)/i
+/kaufland.{0,10}#\d{1,10}/i
+
+/kauf\.land/i
+/kauflandmarkt/i
+
+/kleinanzeigen.{0,10}team/i
+
+# Shampoo
+/klorane/i
+
+/kunden.?dm/i
+
+/(kundenservice|von).{1,10}amazon/i
 
 # L
 # ------------------------------------------------------------------------------
+/lidl\./i
+/lidl.?\*/i
+/lidl.?202\d/i
+/lidl.?ch/i
+/lidl - /i
+/lidl_/i
+
+/lidl.{0,5}(einladung|exklusiv|kundenservice|markt|team|versand|vip)/i
+/lidl.{0,5}(deutschland|schweiz)/i
+
+/^lowe$/i
+
+/lowe.{0,10}winner/i
 
 # M
 # ------------------------------------------------------------------------------
+/media.?mart/i
+/media markt/i
+/mediamarkt.?!/i
+/mediamarkt.{0,5}customer/i
+/mediamarkt.{0,5}(aktion(en)?|gutschein|räumungsverkauf|team)/i
+
+/mein.{0,5}mediamarkt/i
+
+#
+/^migrol$/i
+/migrol.{0,10}automobil/i
+
+/migros - online/i
+/migros!/i
+/migros\.ch/i
+
+/migros.{0,10}(kundendienst|kundenservice)/i
+/migros.{0,10}(gewinn|markt|kommunikation|oral.?b)/i
+/migros.{0,10}schweiz/i
+
+#
+/^milka$/i
 
 # N
 # ------------------------------------------------------------------------------
+/nespresso.?\./i
+/nespresso.{0,10}(deutschland|schweiz)/i
+/nespresso.{0,10}(club|exclusives|gifts|kundenservice|mitgliedschaft|team)/i
+/nespresso.{0,5}(ch|de)$/i
+
+/netto_/i
+
+/ninja.?air.?fryer/i
+
+/^nutella$/i
 
 # O
 # ------------------------------------------------------------------------------
+/obi-/i
+/^obi -/i
+/obi.gmbh/i
+
+/ohama.{0,5}steaks/i
+
+/oral.?b/i
+
+/otto.{0,10}(feedback|prämien)/iu
 
 # P
 # ------------------------------------------------------------------------------
+/payback.{0,10}(deutschland|österreich|schweiz)/i
+
+/^penny$/i
 
 # Q
 # ------------------------------------------------------------------------------
 
 # R
 # ------------------------------------------------------------------------------
+/rewe.{0,10}geschenke/i
+
+/rituals.{0,10}team/i
+/rituals.{0,10}(deutschland|schweiz)/i
+
+/r0ssmann/i
+
+/rtl.{0,10}support/i
 
 # S
 # ------------------------------------------------------------------------------
+/salt\./i
+/salt.{0,5}team/i
+
+/sam.{0,5}club.{0,15}(deals|insider|member|specials)/i
+
+/shell.{0,10}(partner|research|support|team)/i
+
+/^stanley$/i
+
+/\.starbucks/i
+
+/sunrise.{0,10}support/i
 
 # T
 # ------------------------------------------------------------------------------
+/tcs.?car/i
+/tcs.{0,10}(abteilung|angebote?|admin|kundenservice|mitglieder|vip|werbung)/i
+/tcs.{0,10}(partner|prioritäts?)/i
+
+#
+/temu-/i
+/temu.?(ch|schweiz)/i
+
+/temu.{0,10}exclusive/i
+/temu.{0,10}gewinnen/i
+/temu.{0,10}kundenservice/i
+
+/^@tesla/i
+
+/touringclubsuisse/i
+/tractor.{0,10}supply/i
 
 # U
 # ------------------------------------------------------------------------------
+/-ubereats/i
+
+/usa.?today.{0,10}home/i
 
 # V
 # ------------------------------------------------------------------------------
+/vom galaxus/i
 
 # W
 # ------------------------------------------------------------------------------
+/walmart.?\./i
+/walmart.{0,10}(confirmation|essentionals?|deals?|shipment|winner)/i
+/walmart.{0,10}pet/i
+
+/win.{0,10}dyson/i
 
 # X
 # ------------------------------------------------------------------------------
@@ -138,3 +326,4 @@
 
 # Z
 # ------------------------------------------------------------------------------
+/zalando.{0,5}kunden/i
