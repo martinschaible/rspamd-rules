@@ -91,6 +91,171 @@ lists
 
 * -> "one_shot" is set
 
+### Setup for "malware"
+
+Folder structure:
+```
+body
+  ├─ de
+  │   └─ malware.de.map
+  └─ en
+      └─ ....
+
+sender
+  ├─ de
+  │   └─ malware.de.map
+  └─ en
+      └─ ....
+
+subject
+  ├─ de
+  │   └─ malware.de.map
+  └─ en
+      └─ ....
+```
+
+### Setup for "phishing"
+
+Folder structure:
+```
+body
+  ├─ de
+  │   ├─ body.de.phishing.map
+  │   │
+  │   ├─ body.de.phishing.account.map
+  │   ├─ body.de.phishing.alertaction.map
+  │   ├─ body.de.phishing.banking.map
+  │   ├─ body.de.phishing.card.map
+  │   ├─ body.de.phishing.email.map
+  │   ├─ body.de.phishing.greetings.map
+  │   ├─ body.de.phishing.malware.map
+  │   ├─ body.de.phishing.obfuscation.map
+  │   ├─ body.de.phishing.parcel.map
+  │   ├─ body.de.phishing.password.map
+  │   ├─ body.de.phishing.payment.map
+  │   ├─ body.de.phishing.refund.map
+  │   ├─ body.de.phishing.rewards.map
+  │   ├─ body.de.phishing.subscription.map
+  │   ├─ body.de.phishing.survey.map
+  │   └─ body.de.phishing.wallet.map
+  └─ en
+      └─ ....
+
+sender
+  ├─ de
+  │   └─ sender.de.phishing.map
+  ├─ en
+  │   └─ ....
+  │
+  ├─ sender.from.phishing.orgbrandprod.map
+  ├─ sender.from.phishing.orgbrandprod.asia.map
+  ├─ sender.from.phishing.orgbrandprod.banking.map
+  ├─ sender.from.phishing.orgbrandprod.it.map
+  ├─ sender.from.phishing.orgbrandprod.parcel.map
+  └─ sender.from.phishing.orgbrandprod.ucase.map
+
+subject
+  ├─ de
+  │   ├─ subject.de.phishing.map
+  │   │
+  │   ├─ subject.de.phishing.account.map
+  │   ├─ subject.de.phishing.alertaction.map
+  │   ├─ subject.de.phishing.banking.map
+  │   ├─ subject.de.phishing.card.map
+  │   ├─ subject.de.phishing.email.map
+  │   ├─ subject.de.phishing.parcel.map
+  │   ├─ subject.de.phishing.password.map
+  │   ├─ subject.de.phishing.payment.map
+  │   ├─ subject.de.phishing.refund.map
+  │   ├─ subject.de.phishing.rewards.map
+  │   ├─ subject.de.phishing.subscription.map
+  │   ├─ subject.de.phishing.survey.map
+  │   └─ subject.de.phishing.wallet.map
+  └─ en
+      └─ ....
+
+```
+
+### Setup for "sale"
+
+Folder structure:
+```
+body
+  ├─ de
+  │   ├─ body.de.sale.map
+  │   │
+  │   ├─ body.de.sale.app.map
+  │   ├─ body.de.sale.greetings.map
+  │   ├─ body.de.sale.china.map
+  │   ├─ body.de.sale.media.map
+  │   ├─ body.de.sale.seo.map
+  │   ├─ body.de.sale.specific.map
+  │   └─ body.de.sale.website.map
+  └─ en
+      └─ ....
+
+sender
+  ├─ de
+  │   ├─ sender.from.de.sale.map
+  │   └─ sender.from.de.sale.specific.map
+  └─ en
+      └─ ....
+
+subject  
+  ├─ de
+  │   ├─ subject.de.sale.map
+  │   │
+  │   ├─ subject.de.sale.app.map
+  │   ├─ subject.de.sale.china.map
+  │   ├─ subject.de.sale.media.map
+  │   ├─ subject.de.sale.seo.map
+  │   ├─ subject.de.sale.specific.map
+  │   └─ subject.de.sale.website.map
+  └─ en
+      └─ ....
+```
+
+### Setup for "scam"
+Folder structure:
+
+```
+body
+  ├─ de
+  │   ├─ body.de.scam.map
+  │   │
+  │   ├─ body.de.scam.business.map
+  │   ├─ body.de.scam.bignumbers.map
+  │   ├─ body.de.scam.donation.map
+  │   ├─ body.de.scam.funds.map
+  │   ├─ body.de.scam.investment.map
+  │   ├─ body.de.scam.order.map
+  │   ├─ body.de.scam.payment.map
+  │   ├─ body.de.scam.ransom.map
+  │   └─ body.de.scam.winning.map
+  └─ en
+      └─ ....
+
+sender
+  ├─ de
+  │   └─ sender.from.de.scam.map
+  └─ en
+      └─ ....
+
+subject  
+  ├─ de
+  │   ├─ subject.de.scam.map
+  │   ├─ subject.de.scam.bignumbers.map
+  │   ├─ subject.de.scam.business.map
+  │   ├─ subject.de.scam.donation.map
+  │   ├─ subject.de.scam.funds.map
+  │   ├─ subject.de.scam.investment.map
+  │   ├─ subject.de.scam.order.map
+  │   ├─ subject.de.scam.payment.map
+  │   └─ subject.de.scam.winning.map
+  └─ en
+      └─ ....
+```
+
 ### Setup for "body"
 
 Folder structure:
@@ -134,49 +299,6 @@ body
   │   ├─ body.de.health.specific.map             --- multimap.body.de.health.conf
   │   ├─ body.de.makemoney.map                   --- multimap.body.de.makemoney.conf
   │   │
-  │   ├─ body.de.phishing.map                    ─┐
-  │   ├─ body.de.phishing.account.map             │
-  │   ├─ body.de.phishing.alertaction.map         │
-  │   ├─ body.de.phishing.asian.map             X │
-  │   ├─ body.de.phishing.banking.map             │
-  │   ├─ body.de.phishing.card.map                │
-  │   ├─ body.de.phishing.email.map               │
-  │   ├─ body.de.phishing.greetings.map           │
-  │   ├─ body.de.phishing.malware.map             │
-  │   ├─ body.de.phishing.obfuscation.map         │
-  │   ├─ body.de.phishing.parcel.map              ├─ multimap.body.de.phishing.conf
-  │   ├─ body.de.phishing.password.map            │
-  │   ├─ body.de.phishing.payment.map             │
-  │   ├─ body.de.phishing.refund.map              │
-  │   ├─ body.de.phishing.rewards.map             │
-  │   ├─ body.de.phishing.rewards.products.map  x │
-  │   ├─ body.de.phishing.sale.map              x │
-  │   ├─ body.de.phishing.security.map          x │
-  │   ├─ body.de.phishing.subscription.map        │
-  │   ├─ body.de.phishing.survey.map              │
-  │   ├─ body.de.phishing.wallet.map             ─┘
-  │   │
-  │   ├─ body.de.sale.map                        ─┐
-  │   ├─ body.de.sale.app.map                     │
-  │   ├─ body.de.sale.greetings.map               │
-  │   ├─ body.de.sale.china.map                   ├─ multimap.body.de.sale.conf
-  │   ├─ body.de.sale.media.map                   │
-  │   ├─ body.de.sale.specific.map                │
-  │   ├─ body.de.sale.seo.map                     │
-  │   ├─ body.de.sale.website.map                ─┘
-  │   │
-  │   ├─ body.de.scam.map                        ─┐
-  │   ├─ body.de.scam.beneficiary-choosen.map   x │
-  │   ├─ body.de.scam.business.map                │
-  │   ├─ body.de.scam.bignumbers.map              │
-  │   ├─ body.de.scam.donation.map                │
-  │   ├─ body.de.scam.funds.map                   ├─ multimap.body.de.scam.conf
-  │   ├─ body.de.scam.investment.map              │
-  │   ├─ body.de.scam.order.map                   │
-  │   ├─ body.de.scam.payment.map                 │
-  │   ├─ body.de.scam.ransom.map                  │
-  │   ├─ body.de.scam.winning.map                ─┘
-  │   │
   │   └─ body.de.stocks.map                      --- multimap.body.de.stocks.conf
   │
   └─ en
@@ -208,10 +330,6 @@ sender
   ├─ de
   │   └─ sender.address.de.map                   --- multimap.sender.address.de.conf 
   │
-  ├─ sender.from.phishing.orgbrandprod.map       ─┐
-  ├─ sender.from.phishing.orgbrandprod.asia.map   ├─ multimap.sender.from.phishing.conf
-  ├─ sender.from.phishing.orgbrandprod.ucase.map ─┘
-  │
   ├─ sender.from.orgbrandprod.map                ─┐
   ├─ sender.from.people.map                       │
   ├─ sender.from.special.map                      ├─ multimap.sender.from.conf
@@ -230,12 +348,7 @@ sender
   │   ├─ sender.from.de.health.map               --- multimap.sender.from.de.health.conf
   │   ├─ sender.from.de.health.specific.map    X --- multimap.sender.from.de.health.conf
   │   ├─ sender.from.de.lottery.map              --- multimap.sender.from.de.lottery.conf
-  │   ├─ sender.from.de.makemoney.map            --- multimap.sender.from.de.makemoney.conf
-  │   ├─ sender.from.de.phishing.map             --- multimap.sender.from.de.phishing.conf
-  │   ├─ sender.from.de.phishing.malware.map     --- multimap.sender.from.de.phishing.malware.conf
-  │   ├─ sender.from.de.sale.map                 --- multimap.sender.from.de.sale.conf
-  │   ├─ sender.from.de.sale.specific.map        --- multimap.sender.from.de.sale.conf
-  │   └─ sender.from.de.scam.map                 --- multimap.sender.from.de.scam.conf
+  │   └─ sender.from.de.makemoney.map            --- multimap.sender.from.de.makemoney.conf
   │
   └─ en
       └─ ....
@@ -270,44 +383,6 @@ subject
   │   ├─ subject.de.health.map                   --- multimap.subject.de.health.conf
   │   ├─ subject.de.health.specific.map          --- multimap.subject.de.health.conf
   │   │
-  │   ├─ subject.de.phishing.map                 ─┐
-  │   ├─ subject.de.phishing.account.map          │
-  │   ├─ subject.de.phishing.alertaction.map      │
-  │   ├─ subject.de.phishing.banking.map          │
-  │   ├─ subject.de.phishing.card.map             │
-  │   ├─ subject.de.phishing.email.map            │
-  │   ├─ subject.de.phishing.malware.map          │
-  │   ├─ subject.de.phishing.orgbrandprod.map     │ X
-  │   ├─ subject.de.phishing.parcel.map           │
-  │   ├─ subject.de.phishing.password.map         ├─ multimap.subject.de.phishing.conf
-  │   ├─ subject.de.phishing.payment.map          │
-  │   ├─ subject.de.phishing.refund.map           │
-  │   ├─ subject.de.phishing.rewards.map          │
-  │   ├─ subject.de.phishing.rewards.products.map │ X
-  │   ├─ subject.de.phishing.sale.map             │ X
-  │   ├─ subject.de.phishing.security.map         │ X
-  │   ├─ subject.de.phishing.survey.map           │
-  │   ├─ subject.de.phishing.wallet.map          ─┘
-  │   │
-  │   ├─ subject.de.sale.map                     ─┐
-  │   ├─ subject.de.sale.app.map                  │
-  │   ├─ subject.de.sale.china.map                │
-  │   ├─ subject.de.sale.media.map                ├─ multimap.subject.de.sale.conf
-  │   ├─ subject.de.sale.seo.map                  │
-  │   ├─ subject.de.sale.specific.map             │
-  │   ├─ subject.de.sale.website.map             ─┘
-  │   │
-  │   ├─ subject.de.scam.map                     ─┐
-  │   ├─ subject.de.scam.bignumbers.map           │
-  │   ├─ subject.de.scam.business.map             │
-  │   ├─ subject.de.scam.choosen.map              │ X
-  │   ├─ subject.de.scam.donation.map             │
-  │   ├─ subject.de.scam.funds.map                ├─ multimap.subject.de.scam.conf
-  │   ├─ subject.de.scam.investment.map           │
-  │   ├─ subject.de.scam.order.map                │
-  │   ├─ subject.de.scam.payment.map              │
-  │   ├─ subject.de.scam.winning.map             ─┘
-  │   │
   │   └─ subject.de.stocks.map                   --- multimap.subject.de.stocks.conf
   │
   └─ en
@@ -321,42 +396,39 @@ Folder structure:
 ```
 whitelist
   ├─ header
-  │    ├─ header.ipaddress.map                   --- multimap.whitelist.header.conf
-  │    └─ header.hostname.map                    --- multimap.whitelist.header.conf 
+  │    ├─ header.ipaddress.map
+  │    └─ header.hostname.map
   │
   ├─ body
-  │    ├─ body.emergency.map                     ─┐
-  │    ├─ body.az.orgname.map                     │
-  │    ├─ body.ch.orgname.map                     ├─ multimap.whitelist.body.conf
-  │    ├─ body.de.orgname.map                     │
-  │    ├─ body.us.orgname.map                    ─┘
+  │    ├─ body.emergency.map
+  │    ├─ body.az.orgname.map
+  │    ├─ body.ch.orgname.map
+  │    ├─ body.de.orgname.map
+  │    ├─ body.us.orgname.map
   │    │
   │    ├─ href
-  │    │   ├─ body.href.az.url.map               ─┐ 
-  │    │   ├─ body.href.ch.url.map                │
-  │    │   ├─ body.href.de.url.map                ├─ multimap.whitelist.body.href.conf
-  │    │   ├─ body.href.us.url.map                │
-  │    │   └─ body.href.mailing.url.map          ─┘
+  │    │   ├─ body.href.az.url.map
+  │    │   ├─ body.href.ch.url.map
+  │    │   ├─ body.href.de.url.map
+  │    │   ├─ body.href.us.url.map
+  │    │   └─ body.href.mailing.url.map
   │    │
   │    ├─ de
-  │    │   ├─ body.de.orgbrandprod.map         X ─┐
-  │    │   ├─ body.de.singleword.map              ├─ multimap.whitelist.body.de.conf
-  │    │   └─ body.de.map                        ─┘
-  │    │ 
+  │    │   ├─ body.de.singleword.map
+  │    │   └─ body.de.map
   │    └─ en
   │        └─ ....
+  │
   ├─ sender
   │    ├─ de
-  │    │   └─ sender.from.de.map                 --- multimap.whitelist.sender.from.de.conf
-  │    │
+  │    │   └─ sender.from.de.map
   │    └─ en
   │        └─ ....
   │
   └─ subject
        ├─ de
-       │   ├─ subject.de.map                     --- multimap.whitelist.subject.de.conf
-       │   └─ subject.de.singleword.map       X  --- multimap.whitelist.subject.de.conf
-       │
+       │   ├─ subject.de.map
+       │   └─ subject.de.singleword.map
        └─ en
            └─ ....
 ```
