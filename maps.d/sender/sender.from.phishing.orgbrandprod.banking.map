@@ -1,9 +1,9 @@
 # ==============================================================================
-# In the scam and phishing area, spammers like to use names of well-known
-# companies or organisations.
-# 
-# These names are kept generic, fake and sometimes silly because the companies
-# and organisations usually have personalized senders.
+# This is about the usual bank phishing:
+# The fraudsters want either your money or your data.
+#
+# The sender's name includes the names of the banks/organizations
+# or specific product names.
 #
 # Allowed entries are: - Name of organisations
 #                      - Name of brands
@@ -11,31 +11,113 @@
 #                      - Masked entries are allowed
 #
 # ------------------------------------------------------------------------------
-# Language: -
+# Language: german and english
 # Weight:   12.0
 # ==============================================================================
 
-# Combined
-# ==============================================================================
+#
+#
+#
 
+# Real sender names are:
+# ------------------------------------------------------------------------------
+# ING
+# SumUp
+# TARGOBANK Online-Postfach
+# UBS Switzerland AG
+# Viseca
+# ------------------------------------------------------------------------------
 
-# Companies
+#
+#
+#
+
+# Generic
 # ==============================================================================
 
 # A
 # ------------------------------------------------------------------------------
+/advanzia@advanzia/i
+
+/^ana$/i
+/ana.?card/i
+/ana.?sky.?web/i
+
+/apobank -/i
+/apobank.{0,10}(kunden.?service|mitglieder.?service)/i
+/apotheke.{0,10}apobank/i
 
 # B
 # ------------------------------------------------------------------------------
+/banksantander/i
+
+/bank.{0,10}sicherheit(sdienst)?/i
+/bank ag-?-.{0,10}(kundenbetreuung|kundenservice)/i
+
+# Very funny these suckers
+/bank of nigeria/i
+
+/bw.?bank.{0,10}kundendienst/i
 
 # C
 # ------------------------------------------------------------------------------
+/cembra.{0,10}kundeninformation/i
+
+/commerz-bank/i
+/commerz$/i
+
+/commerzbank.{0,10}(sicherheitszentrum|support|team)/i
+/commerzbank.{0,10}(kundenbetreuung|kundenservice)/i
+
+/consorbank\./i
+/consorsbank.{0,10}(informations|kunden)?service/i
+
+/consorsfinanz/i
 
 # D
 # ------------------------------------------------------------------------------
 
+/-debix/i
+/debix+/i
+/debbix\+/i
+
+/deutsche.?bnk/i
+/deutsche-bank/i
+/deutsche bank.{0,10}hotline/i
+/deutsche bank.{0,10}kundenservice/i
+
+# DKB - Deutsche Kreditbank AG
+/d k b.{0,5}(ag|info)/i
+
+/das.?kann.?bank/i
+/_dkb/i
+/-dkb-/i
+/dkb.?ag/i
+/dkb\.de/i
+
+/dkb.{0,5}alert/i
+/dkb.{0,5}communications/i
+/dkb.{0,5}deutsche/i
+/dkb.{0,5}(konto|kundenbetreuung|kundencenter|kundenservice)/i
+/dkb.{0,5}monitoring/i
+/dkb.{0,5}(service|sicherheitsdienst|schutz)/i
+/dkb.{0,5}team/i
+
 # E
 # ------------------------------------------------------------------------------
+/easyb-ank/i
+/easy_bank/i
+
+/easybank.?de/i
+/easybank.{0,10}(app|digital|finanzservice)/i
+/easybank.{0,10}deutschland/i
+/easybank.{0,10}(kundenbetreuung|kundenservice)/i
+/easybank.{0,10}service(.?team)?/i
+/easybank.{0,10}support/i
+/easybank.{0,10}team/i
+
+# 08.06.25
+/ebanking.{0,10}(ubs|postfinance)/i
 
 # F
 # ------------------------------------------------------------------------------
@@ -45,51 +127,165 @@
 
 # H
 # ------------------------------------------------------------------------------
+/hilfe.{0,10}deutsche.?bank/i
+
+/hsbc.?bank.{0,10}plc/i
 
 # I
 # ------------------------------------------------------------------------------
+/ihre volksbank eg/i
+
+/info.{0,10}dkb/i
+/info.{0,10}klarna/i
+/info|.{0,10}raiffeisen/i
 
 # J
 # ------------------------------------------------------------------------------
 
 # K
 # ------------------------------------------------------------------------------
+/klarna.{0,10}(finanzservice|kundenservice|support)/i
+/klarna.{0,10}deutschland/i
+/klarna.{0,10}germany/i
+
+/kundenservice.{0,10}dkb/i
+/kundenservice.{0,10}volksbank(en)?/i
+
+/kunden volks\./i
 
 # L
 # ------------------------------------------------------------------------------
 
 # M
 # ------------------------------------------------------------------------------
+/money.?bank.{0,10}support/i
 
 # N
 # ------------------------------------------------------------------------------
+/^n-26$/i
+
+/n-?26.{0,10}app/i
+/n-?26.{0,10}benachrichtigung(en)?/i
+/n-?26.{0,10}online/i
+/n-?26.{0,10}support/i
+
+/natwestbank/i
+
+/noreply.{0,10}twint/i
 
 # O
 # ------------------------------------------------------------------------------
 
 # P
 # ------------------------------------------------------------------------------
+/pf.?konto/i
+
+/post.?finance.{0,5}benachrichtigungen/i
+/post.?finance.{0,5}twint/i
 
 # Q
 # ------------------------------------------------------------------------------
 
 # R
 # ------------------------------------------------------------------------------
+/raiffeisen.{0,10}(gruppe|kundenservice)/i
+/raiffeisen.{0,10}(sicherheit|support)/i
+/raiffeisen.{0,10}(team|twint)/i
+
+/_raiffeisen/i
+/^raiffeisen$/i
+
+/raiffeisenbanken,/i
 
 # S
 # ------------------------------------------------------------------------------
+/secure.?(go|plus).{0,5}(home|support)/i
+
+/securego(.?plus)?/i
+
+/service.{0,10}advancia/i
+
+/spar-kasse/i
+/^sparkasse$/i
+/sparkasse -/i
+/sparkasse.{0,10}(kunden?|noreply)/i
+/sparkasse-de/i
+
+/#?sumup/i
+#/^sumup\.?$/i
+/sum(-|_)up\./i
+/sum up/i
+/sumup-/i
+/sumxup/i
+
+/sum.?up.{0,10}(germany|schweiz|suisse|switzerland)/i
+/sum.?up.{0,10}(kundendienst|kundenservice|kontakt)/i
+/sum.?up.{0,10}(assistenz|limited)/i
+/sum.?up.{0,10}(service(.?desk)?|sicherheit|support)/i
+/sum.?up.{0,10}team/i
+/(account|logins?|mein|team|von).{0,10}sumup/i
+
 
 # T
 # ------------------------------------------------------------------------------
+/targ0bank/i
+
+/twint$/i
+/twint\.ch/i
+
+/twint-[a-z]{2}/i
+/twint.{0,10}(ag|offer|team)/i
+/twint.{0,10}kundenservice/i
+/twint.{0,10}raiffeisen/i
 
 # U
 # ------------------------------------------------------------------------------
+/ubs.?ag.?ch/i
+/ubs.{0,10}digital-?services/i
+/ubs.{0,10}kundenservice/i
 
 # V
 # ------------------------------------------------------------------------------
+/vcb.?card/i
+
+/^visa$/i
+/visajapan/i
+
+#/^viseca$/i
+/visa.?karte/i
+/visa.{0,10}secure/i
+/viseca.?one.?app/i
+
+# Volksbank
+/vb.{0,5}(kundenbetreuung|kundenservice)/i
+
+/^volksbank$/i
+/volksbank -/i
+/volksbanken$/i
+
+/volksbank(en)?.{0,10}deutschland eg/i
+/volksbank(en)?.{0,10}eg deutschland/i
+/volksbank(en)?.?(eg|vr)/i
+/volksbank(en)?.?gruppe eg/i
+
+/volksbank(en)?.{0,10}(kundenbetreuung|kundenservice)/i
+/volksbank(en)?.{0,10}(service|support|team)/i
+/volksbank(en)?.{0,10}online/i
+
+/volksbank(en)?.{0,10}raiffeisenbankenverbund/i
+
+/volks\.eg.{0,10}service/i
+
+#
+/vr.?(bank|gruppe).{0,10}(deutschland|online|service|zentrale)/i
+/vr.?(bank|gruppe).?eg/i
+/^vr eg$/i
+
+/vr.{0,5}(banking|kundenservice|verbund)/i
 
 # W
 # ------------------------------------------------------------------------------
+/www\.vr\.de/i
 
 # X
 # ------------------------------------------------------------------------------
