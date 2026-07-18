@@ -23,7 +23,7 @@
 
 /secure.?plus.{1,10}(aktualisierung|einstellungen|sicherheitsupdate)/i
 
-(aktualisierung|sicherheitsupdate).{1,10}secure.?plus/i
+/(aktualisierung|sicherheitsupdate).{1,10}secure.?plus/i
 
 # Twint
 # ------------------------------------------------------------------------------

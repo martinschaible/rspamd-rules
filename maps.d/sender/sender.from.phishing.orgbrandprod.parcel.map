@@ -45,7 +45,7 @@
 /(dhl|dpd|fedex|gls|ups).{0,5}abteilung/i
 /(dhl|dpd|fedex|gls|ups).{0,5}(betrieb|bezugservice|buero|boten)/i
 /(dhl|dpd|fedex|gls|ups).{0,5}clearance/i
-/(dhl|dpd|fedex|gls|ups).{0,5}delivery express/
+/(dhl|dpd|fedex|gls|ups).{0,5}delivery express/i
 
 /(dhl|dpd|fedex|gls|ups).{0,5}express info/i
 /(dhl|dpd|fedex|gls|ups).{0,5}express (germany|schweiz)/i
