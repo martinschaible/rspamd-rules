@@ -1,31 +1,109 @@
 # ==============================================================================
-# In the scam and phishing area, spammers like to use names of well-known
-# companies or organisations.
-# 
-# These names are kept generic, fake and sometimes silly because the companies
-# and organisations usually have personalized senders.
+# These scammers want your passwords for cloud/mail/webmail accounts.
+# You'll be asked to check a password, renew your service, or increase a limit.
+# And of course, they want your credit card number.
 #
-# Allowed entries are: - Name of organisations
-#                      - Name of brands
-#                      - Name of products
-#                      - Masked entries are allowed
+# So we have company names from the IT sector here like:
+# - Cloud Storage
+# - EMail Services
+# - Hosting
+# - Domains
+# - Office
+#
+# Additionally, we are including AI service providers here.
+# The criminals want to renew the subscription.
+#
+# Real sender names are:
+# ------------------------------------------------------------------------------
+# Accounting - Hetzner Online GmbH
+# Apple
+# Hetzner Cloud
+# iCloud
+# Support - Hetzner Online GmbH
+#
+# Microsoft 365
+# Microsoft account team
+# Microsoft-Konto-Team
+# Microsoft Defender
+#
+# ChatGPT
 #
 # ------------------------------------------------------------------------------
-# Language: -
+# Language: german and english
 # Weight:   12.0
 # ==============================================================================
+
+# Specific
+# ------------------------------------------------------------------------------
+
+# AI Subscriptions
+/chatgbt/i
+
+/chat-gpt/i
+/chatgpt.?(ai|\+|plus)/i
+
+/(chatgpt|open.?ai).{0,5}.?\|/i
+/(chatgpt|open.?ai).{0,5}llc/i
+
+/(chatgpt|open.?ai).{0,10}(abonnement|account)/i
+/(chatgpt|open.?ai).{0,10}(betreuung|billing)/i
+/(chatgpt|open.?ai).{0,5}(customer|company)/i
+/(chatgpt|open.?ai).{0,10}dienst/i
+/(chatgpt|open.?ai).{0,10}hinweis/i
+/(chatgpt|open.?ai).{0,5}ireland/i
+/(chatgpt|open.?ai).{0,10}(kundenservice|kontakt|konto)/i
+/(chatgpt|open.?ai).{0,5}mitgliederverwaltung/i
+/(chatgpt|open.?ai).{0,5}notifications?/i
+/(chatgpt|open.?ai).{0,10}(payments|premium)/i
+/(chatgpt|open.?ai).{0,15}(services?|serviceportal|subscriptions?|support)/i
+/(chatgpt|open.?ai).{0,20}(team|tech)/i
+/(chatgpt|open.?ai).{0,5}upgrade/i
+/(chatgpt|open.?ai).{0,5}via/i
+/(chatgpt|open.?ai).{0,10}zahlung(en)?/i
+
+/account.{0,10}(chatgpt|open.?ai)/i
+/finanzen.{0,10}(chatgpt|open.?ai)/i
+/hilfe.{0,10}(chatgpt|open.?ai)/i
+
+/(kontakt|kundendienst|kundenservice).{0,10}(chatgpt|open.?ai)/i
+/service.{0,10}(chatgpt|open.?ai)/i
 
 # Generic
 # ==============================================================================
 
 # A
 # ------------------------------------------------------------------------------
+/appſe/i
+/apiie ld/i
+/apple.{0,10}(abo|airtag)/i
+/apple.{0,10}(autorisierung|kunden.?service|zahlung)/i
+/apple.{0,10}center/i
+/apple.{0,10}dienst/i
+/apple.{0,10}info/i
+/apple.{0,10}online/i
+/apple.{0,10}mail/i
+/apple.{0,10}(netzwerk|nutzer)/i
+/apple.{0,10}rechnung/i
+/apple.{0,10}(services?|sicherheit|support)/i
+/apple.{0,10}warnsystem/i
+/apple.{0,10}(zahlung|zentrum)/i
+
+/apple.?pay/i
+/(app|apple).?store.{0,10}rechnung/i
+
+/apple-/i
 
 # B
 # ------------------------------------------------------------------------------
 
 # C
 # ------------------------------------------------------------------------------
+/\.(ch|de) cpanel/i
+/^cpanel$/i
+/cpanel.{0,10}(host|roundcube|team|zertifikatsstelle)/i
+/cpanel.{0,10}(server|service|suppport)/i
+/cpanel.{5,15}\.(ch|de)/i
+/cpanel on/i
 
 # D
 # ------------------------------------------------------------------------------
@@ -41,9 +119,23 @@
 
 # H
 # ------------------------------------------------------------------------------
+/hetzner, inc/i
+
+/hetzner.{0,10}alert/i
+/hetzner.{0,0}accounts?/i
+/hetzner.{0,10}billing/i
+/hetzner.{0,10}domains/i
+/hetzner.{0,5}(invoice|online)$/i
+/hetzner.{0,5}payment/i
+/hetzner.{0,5}service/i
+
+/hetznersupport/i
+
+/hostpoint.{0,10}webdomain/i
 
 # I
 # ------------------------------------------------------------------------------
+/icloud.{0,10}(idrive|storage)/i
 
 # J
 # ------------------------------------------------------------------------------
@@ -53,15 +145,31 @@
 
 # L
 # ------------------------------------------------------------------------------
+/login.?hetzner/i
 
 # M
 # ------------------------------------------------------------------------------
+/metanet-ch/i
+/metanet.{0,10}(kundendienst|kundenservice)/i
+
+/microsoft ads/i
+/microsoft.{0,10}(advertising|billing|gmbh|rewards?|subscription)/i
+/microsoft.{0,10}(cashback|corporation)/i
+/microsoft.{0,10}schweiz/i
+#/microsoft.{0,10}konto/i
 
 # N
 # ------------------------------------------------------------------------------
 
 # O
 # ------------------------------------------------------------------------------
+/office365admin/i
+
+#/^open.?ai$/i
+
+/^openal/i
+/^open.?ai$/i
+/open.?ai.{0,5}chatgpt/i
 
 # P
 # ------------------------------------------------------------------------------
@@ -74,6 +182,7 @@
 
 # S
 # ------------------------------------------------------------------------------
+/strato.{0,10}rechnung/i
 
 # T
 # ------------------------------------------------------------------------------
