@@ -1,23 +1,98 @@
 # ==============================================================================
-# In the scam and phishing area, spammers like to use names of well-known
-# companies or organisations.
+# Phishing is very frequently used by shipping and postal companies
+# The criminals want to obtain addresses and credit card information.
 # 
-# These names are kept generic, fake and sometimes silly because the companies
-# and organisations usually have personalized senders.
+# They use the sender addresses of well-known parcel companies,
+# modifying them or adding extra information.
 #
-# Allowed entries are: - Name of organisations
-#                      - Name of brands
-#                      - Name of products
-#                      - Masked entries are allowed
+# The goal is to create a sense of urgency and make the email appear important.
+#
+# Real sender names are:
+# ------------------------------------------------------------------------------
+# DHL Express
+# DHL Paket
+# DPD Schweiz
+# GLS Paket
+# Hermes Benachrichtigungsfunktion
+# Hermes Paketankündigung
+# Hermes Paketversand
+# MyDPD
+# Planzer Paket
+#
+# Die Schweizerische Post
+# Post CH AG - Info Sendungsstatus
 #
 # ------------------------------------------------------------------------------
-# Language: -
+# Language: german and english
 # Weight:   12.0
 # ==============================================================================
 
 # Combined
 # ==============================================================================
 
+# DHL, DPD, GLS and UPS combinations
+/_(dhl|dpd|fedex|gls|ups)/i
+
+/(dhl|dpd|fedex|gls|ups).?\|/i
+
+/(dhl|dpd|fedex|gls|ups)\d{3,10}/i
+/(dhl|dpd|fedex|gls|ups).?(™|®|©)$/i
+/(dhl|dpd|fedex|gls|ups)-(ch|eu)/i
+/(dhl|dpd|fedex|gls|ups)-paket$/i
+/(dhl|dpd|fedex|gls|ups)_paket/i
+/(dhl|dpd|fedex|gls|ups).{0,5}\d{1,2}/i
+
+/(dhl|dpd|fedex|gls|ups).{0,5}abteilung/i
+/(dhl|dpd|fedex|gls|ups).{0,5}(betrieb|bezugservice|buero|boten)/i
+/(dhl|dpd|fedex|gls|ups).{0,5}clearance/i
+/(dhl|dpd|fedex|gls|ups).{0,5}delivery express/
+
+/(dhl|dpd|fedex|gls|ups).{0,5}express info/i
+/(dhl|dpd|fedex|gls|ups).{0,5}express (germany|schweiz)/i
+
+/(dhl|dpd|fedex|gls|ups).{0,5}global mail/i
+/(dhl|dpd|fedex|gls|ups).{0,10}helpdesk/i
+/(dhl|dpd|fedex|gls|ups).{0,10}info(.?zentrum)?/i
+/(dhl|dpd|fedex|gls|ups).{0,5}ekunde/i
+/(dhl|dpd|fedex|gls|ups).{0,5}(kundendienst|kundenportal|kundenservice)/i
+/(dhl|dpd|fedex|gls|ups).{0,5}(lieferdienst|lieferung|logistik)/i
+/(dhl|dpd|fedex|gls|ups).{0,10}(logistik.?team|logistikzentrum)/i
+/(dhl|dpd|fedex|gls|ups).{0,5}(gmbh|noreply)/i
+
+/(dhl|dpd|fedex|gls|ups).{0,5}mitteilung/i
+/(dhl|dpd|fedex|gls|ups).{0,5}(messages?|tracking|versand|your)/i
+/(dhl|dpd|fedex|gls|ups).{0,5}(offers?|online|order)/i
+/(dhl|dpd|fedex|gls|ups).{0,5}post/i
+/(dhl|dpd|fedex|gls|ups).{0,5}routing/i
+/(dhl|dpd|fedex|gls|ups).{0,5}(sendung|service|shipping|support|surveys?)/i
+
+/(dhl|dpd|fedex|gls|ups).{0,5}(deutschland|germany|korea|swiss)/i
+/(dhl|fedex|gls|ups).{0,5}schweiz/i
+
+/(dhl|dpd|fedex|gls|ups).{0,5}umfrage/i
+/(dhl|dpd|fedex|gls|ups).{0,5}paket.?(status|zentrum)/i
+/(dhl|dpd|fedex|gls|ups).{0,5}(package|payment|paketinfo)/i
+/(dhl|dpd|fedex|gls|ups).{0,10}team/i
+/(dhl|dpd|fedex|gls|ups).{0,10}update/i
+/(dhl|dpd|fedex|gls|ups).{0,5}verteilzentrum/i
+/(dhl|dpd|fedex|gls|ups).{0,5}(zustellung|zoll)/i
+
+/(dhl|fedex|gls|ups).{0,5}(deutschland|germany|schweiz)/i
+
+/paket.{0,5}(dhl|dpd|fedex|gls|ups)/i
+/paket.?(dienst|service|status).{0,5}(dhl|dpd|fedex|gls|ups)/i
+
+/(deutschland|germany|schweiz).{0,5}(dhl|dpd|fedex|gls|ups)/i
+/(center|europa|express|group|notification|on.?demand|support).{0,5}(dhl|dpd|fedex|gls|ups)/i
+/logistikbenachrichtigung.{0,5}(dhl|dpd|fedex|gls|ups)/i
+/(info|my).{0,5}(dhl|dpd|fedex|gls|ups)/i
+/(kundeninfo|kundenservice|kurier).{0,5}(dhl|dpd|fedex|gls|ups)/i
+/swiss.{0,5}(dhl|dpd|fedex|gls|ups)/i
+/zoll.{0,5}(dhl|dpd|fedex|gls|ups)/i
+
+#
+#
+#
 
 # Companies
 # ==============================================================================
@@ -30,21 +105,63 @@
 
 # C
 # ------------------------------------------------------------------------------
+/\.(ch|de).?\(dhl\)/i
 
 # D
 # ------------------------------------------------------------------------------
+/deutschpost/i
+
+/die(\.|-)?post/i
+/die schweizerische$/i
+
+/d\.h\.l/i
+/d h l/i
+
+/dhi.?express/i
+/dh.?benachrichtigung/i
+/dh.?(e.?commerce|frachtlogistik|servicezentrum|versandzentrum)/i
+/dh.?(lieferung|luftfracht)/i
+/dh.?routing/i
+/dh.?(service.?team|service.?zentrum|support)/i
+/dh.?(documentation|zustellhub|express|versand)/i
+
+/\(dhl\)/i
+/dhl\./i
+/dhl.?(cn|hk)/i
+
+/dhl.?ups/i
+
+/dpdepot/i
+/dpdgroup/i
+
+/dpd.{0,5}(deutschland|germany)/i
+/dpd eu/i
+/dpd_/i
 
 # E
 # ------------------------------------------------------------------------------
 
 # F
 # ------------------------------------------------------------------------------
+/fedex$/i
+/fedex.?(express|ups)/i
 
 # G
 # ------------------------------------------------------------------------------
+/g-l-s/i
+/^gls$/i
+/^gls\./i
 
 # H
 # ------------------------------------------------------------------------------
+/-hermes$/i
+/^hermes$/i
+
+/hermes.{0,10}express/i
+/hermes.{0,10}(germany|gmbh)/i
+/hermes.{0,15}(kundenservice|logistik)/i
+/hermes.{0,10}world/i
+/hermes.{0,5}(zentrum|zoll)/i
 
 # I
 # ------------------------------------------------------------------------------
@@ -57,9 +174,11 @@
 
 # L
 # ------------------------------------------------------------------------------
+/lepostesuisse/i
 
 # M
 # ------------------------------------------------------------------------------
+/mydhl.{0,5}express/i
 
 # N
 # ------------------------------------------------------------------------------
@@ -69,6 +188,19 @@
 
 # P
 # ------------------------------------------------------------------------------
+/post ch sa/i
+/post.{1,15}informationen/i
+
+/^post\.ch$/i
+/^postb$/i
+/post\.ch ag/i
+
+/postag/i
+/post(ch|de)/i
+/post ch$/i
+/post.{1,5}schweiz/i
+/post(\.|_|-)ch/i
+
 
 # Q
 # ------------------------------------------------------------------------------
@@ -78,12 +210,23 @@
 
 # S
 # ------------------------------------------------------------------------------
+/service.{0,10}hermes/i
+
+/schweizer.?post/i
+/schweizerische post.{1,10}la poste suisse/i
+
+/suiss.?post/i
+#/swiss post/i
+/^swisspost$/i
+/swisspost.{0,5}(betreuung|service)/i
 
 # T
 # ------------------------------------------------------------------------------
 
 # U
 # ------------------------------------------------------------------------------
+/u\.p\.s/i
+/ups(-|_)/i
 
 # V
 # ------------------------------------------------------------------------------
