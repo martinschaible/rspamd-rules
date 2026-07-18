@@ -33,25 +33,17 @@
 # CH Media Markt Kundendienst
 # Coop Aktionen
 # Denner Aktionen
-# DHL Express
-# DHL Paket
-# Die Schweizerische Post
 # dm-drogerie markt
 # DocMorris - Ihre Apotheke
 # Dropbox
-# DPD Schweiz
 # EDEKA
 # E.ON Kundenservice
 # facebook
 # Facebook Freundschaftsvorschläge
 # Facebook-Seiten
-# GLS Paket
 # google
 # Google Payments
 # Google Search Console Team
-# Hermes Benachrichtigungsfunktion
-# Hermes Paketankündigung
-# Hermes Paketversand
 # Hetzner Cloud
 # iCloud
 # ING
@@ -74,14 +66,11 @@
 # Miles & More
 # Miles & More Newsletter
 # My AXA
-# MyDPD
 # myMediaMarkt
 # mySWICA
 # Nespresso
-# Planzer Paket
 # playstation
 # parkingpay
-# Post CH AG - Info Sendungsstatus
 # Qualipet
 # Rewe Kundendienst
 # Ricardo Info
@@ -136,125 +125,6 @@
 /vw.?golf.?gti/i
 
 /samsung.?s26/i
-
-# Parcel Companies
-# ------------------------------------------------------------------------------
-
-# DHL 
-/\.(ch|de).?\(dhl\)/i
-
-/d\.h\.l/i
-/d h l/i
-
-/dhi.?express/i
-/dh.?benachrichtigung/i
-/dh.?(e.?commerce|frachtlogistik|servicezentrum|versandzentrum)/i
-/dh.?(lieferung|luftfracht)/i
-/dh.?routing/i
-/dh.?(service.?team|service.?zentrum|support)/i
-
-/\(dhl\)/i
-/dhl\./i
-/dhl.?(cn|hk)/i
-
-/mydhl.{0,5}express/i
-/dhl.?ups/i
-
-# DPD
-/dpdepot/i
-/dpdgroup/i
-
-/dpd eu/i
-/dpd_/i
-
-# Fedex
-/fedex$/i
-/fedex.?(express|ups)/i
-
-# GLS
-/g-l-s/i
-/^gls$/i
-/^gls\./i
-
-# Hermes
-/-hermes$/i
-/^hermes$/i
-
-/hermes.{0,10}express/i
-/hermes.{0,10}(germany|gmbh)/i
-/hermes.{0,15}(kundenservice|logistik)/i
-/hermes.{0,10}world/i
-/hermes.{0,5}(zentrum|zoll)/i
-
-# UPS
-/u\.p\.s/i
-/ups(-|_)/i
-
-# DHL, DPD, GLS and UPS combinations
-/_(dhl|dpd|fedex|gls|ups)/i
-
-/(dhl|dpd|fedex|gls|ups).?\|/i
-
-/(dhl|dpd|fedex|gls|ups)\d{3,10}/i
-/(dhl|dpd|fedex|gls|ups).?(™|®|©)$/i
-/(dhl|dpd|fedex|gls|ups)-(ch|eu)/i
-/(dhl|dpd|fedex|gls|ups)-paket$/i
-/(dhl|dpd|fedex|gls|ups)_paket/i
-/(dhl|dpd|fedex|gls|ups).{0,5}\d{1,2}/i
-
-/(dhl|dpd|fedex|gls|ups).{0,5}abteilung/i
-/(dhl|dpd|fedex|gls|ups).{0,5}(betrieb|bezugservice|buero|boten)/i
-/(dhl|dpd|fedex|gls|ups).{0,5}clearance/i
-/(dhl|dpd|fedex|gls|ups).{0,5}delivery express/i
-/(dhl|dpd|fedex|gls|ups).{0,5}express info/i
-/(dhl|dpd|fedex|gls|ups).{0,5}global mail/i
-/(dhl|dpd|fedex|gls|ups).{0,10}helpdesk/i
-/(dhl|dpd|fedex|gls|ups).{0,10}info(.?zentrum)?/i
-/(dhl|dpd|fedex|gls|ups).{0,5}ekunde/i
-/(dhl|dpd|fedex|gls|ups).{0,5}(kundendienst|kundenportal|kundenservice)/i
-/(dhl|dpd|fedex|gls|ups).{0,5}(lieferdienst|lieferung|logistik)/i
-/(dhl|dpd|fedex|gls|ups).{0,10}(logistik.?team|logistikzentrum)/i
-/(dhl|dpd|fedex|gls|ups).{0,5}(gmbh|noreply)/i
-
-/(dhl|dpd|fedex|gls|ups).{0,5}mitteilung/i
-/(dhl|dpd|fedex|gls|ups).{0,5}(messages?|tracking|versand|your)/i
-/(dhl|dpd|fedex|gls|ups).{0,5}(offers?|online|order)/i
-/(dhl|dpd|fedex|gls|ups).{0,5}post/i
-/(dhl|dpd|fedex|gls|ups).{0,5}routing/i
-/(dhl|dpd|fedex|gls|ups).{0,5}(sendung|service|shipping|support|surveys?)/i
-
-/(dhl|dpd|fedex|gls|ups).{0,5}(deutschland|germany|korea|swiss)/i
-/(dhl|fedex|gls|ups).{0,5}schweiz/i
-
-/(dhl|dpd|fedex|gls|ups).{0,5}umfrage/i
-/(dhl|dpd|fedex|gls|ups).{0,5}paket.?(status|zentrum)/i
-/(dhl|dpd|fedex|gls|ups).{0,5}(package|payment|paketinfo)/i
-/(dhl|dpd|fedex|gls|ups).{0,10}team/i
-/(dhl|dpd|fedex|gls|ups).{0,10}update/i
-/(dhl|dpd|fedex|gls|ups).{0,5}verteilzentrum/i
-/(dhl|dpd|fedex|gls|ups).{0,5}(zustellung|zoll)/i
-
-/(dhl|fedex|gls|ups).{0,5}(deutschland|germany|schweiz)/i
-/dpd.{0,5}(deutschland|germany)/i
-
-/(dhl|dpd|fedex|gls|ups).{0,5}express (germany|schweiz)/i
-
-/dh.?(documentation|zustellhub|express|versand)/i
-
-#/gls.?paket$/i
-
-/(deutschland|germany|schweiz).{0,5}(dhl|dpd|fedex|gls|ups)/i
-/(center|europa|express|group|notification|on.?demand|support).{0,5}(dhl|dpd|fedex|gls|ups)/i
-/logistikbenachrichtigung.{0,5}(dhl|dpd|fedex|gls|ups)/i
-/(info|my).{0,5}(dhl|dpd|fedex|gls|ups)/i
-/(kundeninfo|kundenservice|kurier).{0,5}(dhl|dpd|fedex|gls|ups)/i
-/swiss.{0,5}(dhl|dpd|fedex|gls|ups)/i
-/zoll.{0,5}(dhl|dpd|fedex|gls|ups)/i
-
-/paket.{0,5}(dhl|dpd|fedex|gls|ups)/i
-/paket.?(dienst|service|status).{0,5}(dhl|dpd|fedex|gls|ups)/i
-
-/service.{0,10}hermes/i
 
 # Products
 # ------------------------------------------------------------------------------
@@ -519,7 +389,6 @@
 
 /deutsche.{0,10}apotheke$/i
 
-/deutschpost/i
 /deutsche.?bnk/i
 /deutschen.?bahn/i
 
@@ -542,9 +411,6 @@
 
 /diba-ag/i
 /digitech/i
-
-/die(\.|-)?post/i
-/die schweizerische$/i
 
 /dlsney/i
 /disney.{0,10}(support|verify)/i
@@ -766,7 +632,6 @@
 
 # L
 # ------------------------------------------------------------------------------
-/lepostesuisse/i
 
 /lidl\./i
 /lidl.?\*/i
@@ -1015,24 +880,10 @@
 
 /porsche.{0,10}werk/i
 
-/post ch sa/i
-/post.{1,15}informationen/i
-
-/^post\.ch$/i
-/^postb$/i
-/post\.ch ag/i
-
-/postag/i
-/post(ch|de)/i
-/post ch$/i
-/post.{1,5}schweiz/i
-/post(\.|_|-)ch/i
-
 /pf.?konto/i
 /post.?finance.{0,5}benachrichtigungen/i
 /post.?finance.{0,5}twint/i
 
-/schweizerische post.{1,10}la poste suisse/i
 
 /premium.{0,10}spοtify/i
 /prime.{0,5}notification/i
@@ -1109,7 +960,6 @@
 /\|.?sbb/i
 
 /schaeffler.?gruppe/iu
-/schweizer.?post/i
 /secure.?(go|plus).{0,5}(home|support)/i
 
 /securego(.?plus)?/i
@@ -1160,8 +1010,6 @@
 /support.{0,10}(netflix|paypal|roundcube)/i
 
 /shell.?partner/i
-
-/suiss.?post/i
 
 /ihr starbucks/i
 
@@ -1228,10 +1076,6 @@
 /suisspass/i
 
 /service.{0,10}swisspass/i
-
-#/swiss post/i
-/^swisspost$/i
-/swisspost.{0,5}(betreuung|service)/i
 
 /id.?swiss/i
 
