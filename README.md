@@ -212,6 +212,7 @@ subject
   │   │
   │   ├─ subject.de.sale.app.map
   │   ├─ subject.de.sale.china.map
+  │   ├─ subject.de.sale.greetings.map
   │   ├─ subject.de.sale.media.map
   │   ├─ subject.de.sale.seo.map
   │   ├─ subject.de.sale.specific.map
