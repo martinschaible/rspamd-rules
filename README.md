@@ -40,8 +40,7 @@ It's necessary to split existing map files into smaller ones. Sometimes, when an
 
 | Date     | File                                       | Reason                        |
 | -------- | -------------------------------------------| ----------------------------- |
-| 14.04.26 | multimap.body.de.conf                      | body.de/en.ucase.map added    |
-| 25.04.26 | multimap.conf                              | Legacy map files removed      |
+| 18.07.26 | multimap.conf                              | New map files added           |
 
 ## Content
 :point_right: All map files of the *first version* are stored in the folder `/etc/rspamd/maps.d/legacy`.<br>
@@ -51,9 +50,9 @@ It's necessary to split existing map files into smaller ones. Sometimes, when an
 
 >The document below, which lists the files and directories, will be revised shortly.
 
-Instead of a tree structure, I find a thematically relevant structure more appropriate.
-
 ### Setup for "base"
+
+Description of the topic goes here.....
 
 Folder structure:
 
@@ -93,6 +92,8 @@ lists
 
 ### Setup for "malware"
 
+Description of the topic goes here.....
+
 Folder structure:
 ```
 body
@@ -115,6 +116,8 @@ subject
 ```
 
 ### Setup for "phishing"
+
+Description of the topic goes here.....
 
 Folder structure:
 ```
@@ -178,6 +181,8 @@ subject
 
 ### Setup for "sale"
 
+Description of the topic goes here.....
+
 Folder structure:
 ```
 body
@@ -216,6 +221,9 @@ subject
 ```
 
 ### Setup for "scam"
+
+Description of the topic goes here.....
+
 Folder structure:
 
 ```
@@ -255,6 +263,8 @@ subject
   └─ en
       └─ ....
 ```
+
+>Old description, needs to be changed...
 
 ### Setup for "body"
 
@@ -359,31 +369,30 @@ sender
 Folder structure:
 ```
 subject  
-  ├─ subject.health.medname.map                  --- multimap.subject.health.conf
-  ├─ subject.asia.map                            ─┐
-  ├─ subject.orgbrandprod.map                     │
-  ├─ subject.special.map                          ├─ multimap.subject.conf
-  ├─ subject.special.emoji.map                   ─┘
+  ├─ subject.health.medname.map
+  ├─ subject.asia.map
+  ├─ subject.orgbrandprod.map
+  ├─ subject.special.map
+  ├─ subject.special.emoji.map
   │
   ├─ de
-  │   ├─ subject.de.map                          ─┐  
-  │   ├─ subject.de.greetings.map                 │
-  │   ├─ subject.de.message.map                   │
-  │   │                                           │
-  │   ├─ subject.de.singleword.map                ├─ multimap.subject.de.conf
-  │   ├─ subject.de.singleword.special.map        │
-  │   ├─ subject.de.singleword.ucase.map          │
-  │   │                                           │
-  │   ├─ subject.de.special.map                X  │
-  │   ├─ subject.de.ucase.map                    ─┘
+  │   ├─ subject.de.map
+  │   ├─ subject.de.greetings.map
+  │   ├─ subject.de.message.map
   │   │
-  │   ├─ subject.de.adult.map                    --- multimap.subject.de.adult.conf
-  │   ├─ subject.de.finance.map                  --- multimap.subject.de.finance.conf
-  │   ├─ subject.de.gambling.map                 --- multimap.subject.de.gambling.conf
-  │   ├─ subject.de.health.map                   --- multimap.subject.de.health.conf
-  │   ├─ subject.de.health.specific.map          --- multimap.subject.de.health.conf
+  │   ├─ subject.de.singleword.map
+  │   ├─ subject.de.singleword.special.map
+  │   ├─ subject.de.singleword.ucase.map
   │   │
-  │   └─ subject.de.stocks.map                   --- multimap.subject.de.stocks.conf
+  │   ├─ subject.de.ucase.map
+  │   │
+  │   ├─ subject.de.adult.map
+  │   ├─ subject.de.finance.map
+  │   ├─ subject.de.gambling.map
+  │   ├─ subject.de.health.map
+  │   ├─ subject.de.health.specific.map
+  │   │
+  │   └─ subject.de.stocks.map
   │
   └─ en
       └─ ....
