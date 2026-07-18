@@ -50,7 +50,7 @@
 
 /account setup.{1,10}final step/i
 
-/(account|login|profile).{1,15}you will lose access/I
+/(account|login|profile).{1,15}you will lose access/i
 
 /authentication expires? today id/i
 /authentication expires?.{1,10}id.?\d{5,15}/i
