@@ -155,6 +155,7 @@ sender
   ├─ sender.from.phishing.orgbrandprod.banking.map
   ├─ sender.from.phishing.orgbrandprod.it.map
   ├─ sender.from.phishing.orgbrandprod.parcel.map
+  ├─ sender.from.phishing.orgbrandprod.rewards.map
   └─ sender.from.phishing.orgbrandprod.ucase.map
 
 subject
