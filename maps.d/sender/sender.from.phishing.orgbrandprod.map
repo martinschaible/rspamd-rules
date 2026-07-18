@@ -76,6 +76,7 @@
 /lidl.?(™|®|©)$/i
 /meta(mask)?.?(™|®|©)$/i
 /(microsoft|mediamarkt|metamask|migros).?(™|®|©)$/i
+/(obi|otto).?(™|®)$/i
 /(paypal|pch).?(™|®|©)$/i
 /(rewe|\brossmann).?(™|®|©)$/i
 /(schweizerische|shein|smava|spotify).?(™|®|©)/i
@@ -102,10 +103,6 @@
 
 # Generic
 # ==============================================================================
-
-# Number
-# ------------------------------------------------------------------------------
-/202\d.{0,10}lidl/i
 
 # A
 # ------------------------------------------------------------------------------
@@ -143,29 +140,11 @@
 /adobe.?acrobat (document|e.?signature|sign)/i
 /adobe.?pdf/i
 
-/ag.?twint/i
-
 /allianz.{0,10}insights/i
 
 /allgemeiner deutscher/i
 
 /ahv.?iv/i
-
-#/aldi-/i
-/aldi.{0,15}(deals?|support)/i
-/aldi-(ch|de)/i
-
-/amaz0n/i
-#/amazon\.de/i
-
-/amazon\.com\.jp/i
-
-/amazon.?co/i
-/amazon.{0,10}(visa|xmas)/i
-/amazon.{0,10}customer.?service/i
-/amazon.{0,10}(gutschein|weihnachten)/i
-
-/(kundenservice|von).{1,10}amazon/i
 
 /aok\.de/i
 
@@ -211,16 +190,11 @@
 
 /blockchain\.com/i
 
-/\|.?brack/i
-/brack\.ch/i
-/brack.?\|/i
-
 /bund.{0,10}zahlungsverkehr/i
 
 /bundeskriminalpolizei/i
 /bundessteueramt/i
 /bundeszentralamt.{0,10}steuern/i
-
 
 /bzst.{0,10}mitteilung(en)/i
 
@@ -232,16 +206,7 @@
 
 /combo.{0,10}kit/i
 
-/^coop$/i
-/\| coop$/i
-
-/coop.{0,10}(kundenservice|team)/i
-
 /communication.{0,10}wix/i
-
-/confirmation.{0,10}temu/i
-
-/-.?coop/i
 
 /css.{0,10}(kundeninformation|kundenservice)/i
 /css.{0,10}(info|online)/i
@@ -251,27 +216,16 @@
 
 # D
 # ------------------------------------------------------------------------------
-/danke.{0,5}kaufland/i
 
 #/datev.{0,5}konto/i
 
 /db.{0,5}deutschland/i
-
-/decathlon-/i
-
-/denner.{0,10}(kundenservice|schweiz|support|team|überraschung)/i
-#/denner.{0,10}(aktionen|kundenservice|schweiz|support|team|überraschung)/i
-/denner.?-/i
-
-/\|.?denner/i
-/^denner$/i
 
 /deutschtelekom/i
 
 /deutsche.{0,10}apotheke$/i
 
 /deutschen.?bahn/i
-
 /deutsche.?bahn.{0,10}(gutschein|service|team|umfrage)/i
 
 /deutschland.?radio.{0,10}nachrichtendienst/i
@@ -284,16 +238,10 @@
 
 /www\.deutsche-rentenversicherung\.de/i
 
-/diba-ag/i
-/digitech/i
-
 /dlsney/i
 /disney.{0,10}(support|verify)/i
 /disneyplus/i
 /llc.{0,10}disney/i
-
-# Real Sender: "Digitec"
-/digitec\.ch/i
 
 #/disney.?account/i
 /disney{0,5}suisse/i
@@ -301,16 +249,7 @@
 #
 /drv.?de/i
 
-/decathlon.{0,5}noreply/i
-
 /docu.?sign.{0,10}notification/i
-
-/douglas$/i
-/douglas.{0,5}team/i
-
-#
-/dyson.{0,10}(special|vacuum)/i
-/win.{0,10}dyson/i
 
 # E
 # ------------------------------------------------------------------------------
@@ -319,12 +258,6 @@
 /ebay.{0,10}member/i
 
 /\|.?express/i
-
-# 23.11.25
-/edeka.?(™|®)$/i
-/edeka.{0,10}2026/i
-/edeka.{0,10}markt/i
-/christmas.{0,10}edeka/i
 
 /e l (i )?s t e r/i
 /^elster$/i
@@ -360,16 +293,6 @@
 
 # G
 # ------------------------------------------------------------------------------
-/-galaxus/i
-/galaxus.{0,10}(angebote|markt|team)/i
-/galaxus.{0,10}(kundenservice|kundenzufriedenheit)/i
-
-/galaxus.?ag/i
-/galaxus\.ch/i
-
-/vom galaxus/i
-
-/google.?drive/i
 /google.{0,10}benachrichtigung/i
 /google.{0,10}(claim|inc|llc|team)/i
 /google.{0,10}(gewinnspiel|zahlung)/i
@@ -383,14 +306,9 @@
 
 # H
 # ------------------------------------------------------------------------------
-/harbor.?freight.{0,10}department/i
-
 /help.{0,10}spotify/i
 
 /helsana.{0,10}(team|support)/i
-
-# Note relevant in Europe
-/home.?(depot|warranty)/i
 
 # I
 # ------------------------------------------------------------------------------
@@ -401,10 +319,6 @@
 
 /icorner.{0,10}(kundenservice|sicherheitsdienst)/i
 
-/info@galaxus\.ch/i
-
-/ing-diba/i
-
 /international.{0,10}investigation/i
 /investigation.{0,10}department/i
 
@@ -413,26 +327,8 @@
 # J
 # ------------------------------------------------------------------------------
 
-/^jcb/i
-/jcbカ/i
-/my.?jcb/i
-
-/jura.{0,10}(kundenservice|team)/i
-
 # K
 # ------------------------------------------------------------------------------
-/kaufland.{0,10}(geschenk|team)/i
-/kaufland.{0,10}#\d{1,10}/i
-
-/kauf\.land/i
-/kauflandmarkt/i
-
-/kleinanzeigen.{0,10}team/i
-
-# Shampoo
-/klorane/i
-
-/kunden.?dm/i
 /kundenservice.{0,10}telecom/i
 
 /kontakt.{0,10}(spotify|swisspass)/i
@@ -442,44 +338,17 @@
 # L
 # ------------------------------------------------------------------------------
 
-/lidl\./i
-/lidl.?\*/i
-/lidl.?202\d/i
-/lidl.?ch/i
-/lidl - /i
-/lidl_/i
-
-/lidl.{0,5}(einladung|exklusiv|kundenservice|markt|team|versand|vip)/i
-/lidl.{0,5}(deutschland|schweiz)/i
-
-/lieferung.{0,5}dhl/i
-
-/^lowe$/i
-
-/lowe.{0,10}winner/i
-
 # M
 # ------------------------------------------------------------------------------
-/^mastercard$/i
-
 /mccafee/i
 
 /(-|\|).?mcafee/i
 /mcafee.{0,10}(kundendienst|kundenservice|security|support|team)/i
 /mcafee.?\//i
 
-/media markt/i
-
 /m e t a/i
 #/^meta$/i
 /ads.?meta/i
-
-/media.?mart/i
-/mediamarkt.?!/i
-/mediamarkt.{0,5}customer/i
-/mediamarkt.{0,5}(aktion(en)?|gutschein|räumungsverkauf|team)/i
-
-/mein.{0,5}mediamarkt/i
 
 /^mercedes$/i
 
@@ -502,28 +371,8 @@
 
 /info.{0,5}metamask/i
 
-/migrol.{0,10}automobil/i
-
-/migros - online/i
-/-.?migros/i
-/\|.?migros/i
-/migros!/i
-/migros\.ch/i
-
-#/^migros$/i
-#/migros.{0,10}(aktionen|markt|oral.?b)/i
-
-/migros.{0,10}(kundendienst|kundenservice)/i
-/migros.{0,10}(gewinn|markt|kommunikation|oral.?b)/i
-/migros.{0,10}schweiz/i
-/(deine|dini).{0,10}migros/i
-
-/^migrol$/i
-
 /miles&more/i
 /miles & more.{0,10}support/i
-
-/^milka$/i
 
 /^mycss$/i
 /my-css/i
@@ -553,29 +402,11 @@
 /(membership|no.?reply).{0,10}netflix/i
 /support.{0,10}netflix/i
 
-/nespresso.?\./i
-/nespresso.{0,10}(deutschland|schweiz)/i
-/nespresso.{0,10}(club|exclusives|gifts|kundenservice|mitgliedschaft|team)/i
-/nespresso.{0,5}(ch|de)$/i
-
-/netto_/i
-
-/ninja.?air.?fryer/i
-
 /nortonav$/i
 /norton.{0,5}(official|original)/i
 
-/^nutella$/i
-
 # O
 # ------------------------------------------------------------------------------
-/(obi|otto).?(™|®)$/i
-/obi-/i
-/^obi -/i
-/obi.gmbh/i
-
-/ohama.{0,5}steaks/i
-
 /official.{0,5}(netflix|spotify)/i
 
 /^onedrive$/i
@@ -583,18 +414,12 @@
 # 01.02.25 - Orico Corporation
 /e-orico/i
 
-/oral.?b/i
-
-/otto.{0,10}(feedback|prämien)/iu
-
 # P
 # ------------------------------------------------------------------------------
 /partner.{0,10}mcafee/i
 
 /^parking.?pay$/i
 /parking.?pay\+/i
-
-/payback.{0,10}(deutschland|österreich|schweiz)/i
 
 #/^parkingpay$/i
 
@@ -635,8 +460,6 @@
 
 /ihr.{0,10}paypal/i
 
-/^penny$/i
-
 /porsche.{0,10}werk/i
 
 /premium.{0,10}spοtify/i
@@ -651,23 +474,8 @@
 /rentenversicherung.{0,10}bund/i
 /rentenversicherung.?-/i
 
-/\| rewe$/i
-/rewe.{0,10}geschenke/i
-
-/rituals.{0,10}team/i
-/rituals.{0,10}(deutschland|schweiz)/i
-
-/r0ssmann/i
-
-/rtl.{0,10}support/i
-
 # S
 # ------------------------------------------------------------------------------
-/salt\./i
-/salt.{0,5}team/i
-
-/sam.{0,5}club.{0,15}(deals|insider|member|specials)/i
-
 /cff.?support/i
 
 /^sbb$/i
@@ -719,8 +527,6 @@
 /service.?center.?ard.?zdf/i
 /secretary.{0,5}treasury/i
 
-/shell.{0,10}(partner|research|support|team)/i
-
 /shopify.{0,10}nachricht/i
 
 /spyrec.?pro/i
@@ -735,22 +541,12 @@
 
 /from.{0,10}spotify/i
 
-/^stanley$/i
-
-/\.starbucks/i
-
 #/(service|support).{0,10}paypal/i
 /support.{0,10}(netflix|paypal)/i
-
-/shell.?partner/i
-
-/ihr starbucks/i
 
 /state.?farm/i
 
 /support.{0,5}swica/i
-
-/sunrise.{0,10}support/i
 
 /202\d.{0,10}swica/i
 
@@ -806,14 +602,9 @@
 
 # T
 # ------------------------------------------------------------------------------
-
-/tcs.?car/i
-/tcs.{0,10}(abteilung|ngebote?|admin|kundenservice|mitglieder|vip|werbung)/i
-/tcs.{0,10}(partner|prioritäts?)/i
-
 /team_/i
 /team.{0,10}(account|paletten?)/i
-/team.{0,10}(consorbank|dhl|netflix|spotify)/i
+/team.{0,10}(dhl|netflix|spotify)/i
 /team.{0,15}krankenkasse/i
 
 /ihre techniker.?krankenkasse/i
@@ -822,34 +613,13 @@
 /telekom-/i
 /telekom.{0,10}(bonus|insider|kunden)/i
 
-/temu-/i
-/temu.?(ch|schweiz)/i
-
-/temu.{0,10}exclusive/i
-/temu.{0,10}gewinnen/i
-/temu.{0,10}kundenservice/i
-
-/^@tesla/i
-
-/tepco/i
-/tfbank.{0,10}service/i
-
 /tk.{0,10}(gesundheit|mitglieder|kundenservice)/i
-
-/touringclubsuisse/i
-
-/tractor.{0,10}supply/i
 
 /treasury.{0,10}department/i
 /ts cubic card/i
 
 # U
 # ------------------------------------------------------------------------------
-
-/-ubereats/i
-
-/usa.?today.{0,10}home/i
-
 /uta.{0,10}team/i
 
 # V
@@ -858,10 +628,6 @@
 
 # W
 # ------------------------------------------------------------------------------
-/walmart.?\./i
-/walmart.{0,10}(confirmation|essentionals?|deals?|shipment|winner)/i
-/walmart.{0,10}pet/i
-
 /we transfer/i
 /we-transfer/i
 /we.?transfer.?\|/i
@@ -889,4 +655,3 @@
 
 # Z
 # ------------------------------------------------------------------------------
-/zalando.{0,5}kunden/i
