@@ -83,8 +83,10 @@
 /paket.?(dienst|service|status).{0,5}(dhl|dpd|fedex|gls|ups)/i
 
 /(deutschland|germany|schweiz).{0,5}(dhl|dpd|fedex|gls|ups)/i
-/(center|europa|express|group|notification|on.?demand|support).{0,5}(dhl|dpd|fedex|gls|ups)/i
-/logistikbenachrichtigung.{0,5}(dhl|dpd|fedex|gls|ups)/i
+
+/(center|group|notification|on.?demand|support).{0,5}(dhl|dpd|fedex|gls|ups)/i
+/(europa|express).{0,5}(dhl|dpd|fedex|gls|ups)/i
+/(lieferung|logistikbenachrichtigung).{0,5}(dhl|dpd|fedex|gls|ups)/i
 /(info|my).{0,5}(dhl|dpd|fedex|gls|ups)/i
 /(kundeninfo|kundenservice|kurier).{0,5}(dhl|dpd|fedex|gls|ups)/i
 /swiss.{0,5}(dhl|dpd|fedex|gls|ups)/i
