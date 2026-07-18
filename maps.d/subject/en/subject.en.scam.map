@@ -118,6 +118,7 @@
 /claim now/i
 
 /collaboration.{1,10}(funding|project)/i
+/collaboration.{1,10}invitations?/i
 
 /^confidential information/i
 
@@ -258,6 +259,8 @@
 /partnership intention/i
 
 /pay immediately.{1,15}video will be released/i
+
+/possible collaboration with/i
 
 # Q
 # ------------------------------------------------------------------------------
