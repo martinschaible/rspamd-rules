@@ -41,7 +41,7 @@
 
 # Amazon uses this
 #/account.?update/i
-/account.{0,10}(support|update)/i
+/account.{0,10}support/i
 
 /admin\d@/i
 /admin-support@/i
