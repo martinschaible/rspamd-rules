@@ -76,7 +76,7 @@
 /(dear|greetings?|good day|hello|hi\b).{1,15}this is.{5,25}from/i
 
 /(dear|greetings?|good day|hello|hi\b).{1,10}i am.{1,15}broker/i
-/(dear|greetings?|good day|hello|hi\b).{1,10}i work as a/i
+/(dear|greetings?|good day|hello|hi\b).{1,10}i work (as|with) a/i
 
 /(dear|greetings?|good day|hello|hi\b).{1,10}we are.{1,10}supplier/i
 
