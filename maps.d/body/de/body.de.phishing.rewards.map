@@ -225,8 +225,9 @@
 
 /(person hat|sie haben) noch nicht geantwortet/i
 
-/prämie an einen anderen teilnehmer weitergegeben/iu
-/prämie zu sichern.{1,10}bestätigen sie.{1,10}ihre.{1,15}adresse/iu
+/prämien?.{1,10}an einen anderen teilnehmer weitergegeben/iu
+/prämien?.{1,10}zu sichern.{1,10}bestätigen sie.{1,10}ihre.{1,15}adresse/iu
+/prämien?.{1,10}wurde freigeschaltet/iu
 
 /preise?.{1,10}ein brandneues/i
 
