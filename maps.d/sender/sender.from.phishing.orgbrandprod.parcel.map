@@ -31,6 +31,13 @@
 # ==============================================================================
 
 # DHL, DPD, GLS and UPS combinations
+# ------------------------------------------------------------------------------
+
+# Locations
+/(dhl|dpd|fedex|gls|ups).{0,5}(deutschland|germany|korea|swiss)/i
+/(dhl|fedex|gls|ups).{0,5}schweiz/i
+
+#
 /_(dhl|dpd|fedex|gls|ups)/i
 
 /(dhl|dpd|fedex|gls|ups).?\|/i
@@ -47,33 +54,34 @@
 /(dhl|dpd|fedex|gls|ups).{0,5}clearance/i
 /(dhl|dpd|fedex|gls|ups).{0,5}delivery express/i
 
+/(dhl|dpd|fedex|gls|ups).{0,5}ekunde/i
 /(dhl|dpd|fedex|gls|ups).{0,5}express info/i
 /(dhl|dpd|fedex|gls|ups).{0,5}express (germany|schweiz)/i
 
-/(dhl|dpd|fedex|gls|ups).{0,5}global mail/i
+/(dhl|dpd|fedex|gls|ups).{0,5}(global mail|gmbh)/i
 /(dhl|dpd|fedex|gls|ups).{0,10}helpdesk/i
 /(dhl|dpd|fedex|gls|ups).{0,10}info(.?zentrum)?/i
-/(dhl|dpd|fedex|gls|ups).{0,5}ekunde/i
 /(dhl|dpd|fedex|gls|ups).{0,5}(kundendienst|kundenportal|kundenservice)/i
+
 /(dhl|dpd|fedex|gls|ups).{0,5}(lieferdienst|lieferung|logistik)/i
 /(dhl|dpd|fedex|gls|ups).{0,10}(logistik.?team|logistikzentrum)/i
-/(dhl|dpd|fedex|gls|ups).{0,5}(gmbh|noreply)/i
 
 /(dhl|dpd|fedex|gls|ups).{0,5}mitteilung/i
 /(dhl|dpd|fedex|gls|ups).{0,5}(messages?|tracking|versand|your)/i
+
+/(dhl|dpd|fedex|gls|ups).{0,5}noreply/i
+
 /(dhl|dpd|fedex|gls|ups).{0,5}(offers?|online|order)/i
 /(dhl|dpd|fedex|gls|ups).{0,5}post/i
 /(dhl|dpd|fedex|gls|ups).{0,5}routing/i
-/(dhl|dpd|fedex|gls|ups).{0,5}(sendung|service|shipping|support|surveys?)/i
 
-/(dhl|dpd|fedex|gls|ups).{0,5}(deutschland|germany|korea|swiss)/i
-/(dhl|fedex|gls|ups).{0,5}schweiz/i
+/(dhl|dpd|fedex|gls|ups).{0,5}(sendung|service|shipping|support|surveys?|solutions?)/i
 
 /(dhl|dpd|fedex|gls|ups).{0,5}umfrage/i
 /(dhl|dpd|fedex|gls|ups).{0,5}paket.?(status|zentrum)/i
 /(dhl|dpd|fedex|gls|ups).{0,5}(package|payment|paketinfo)/i
 /(dhl|dpd|fedex|gls|ups).{0,10}team/i
-/(dhl|dpd|fedex|gls|ups).{0,10}update/i
+/(dhl|dpd|fedex|gls|ups).{0,10}(update|user)/i
 /(dhl|dpd|fedex|gls|ups).{0,5}verteilzentrum/i
 /(dhl|dpd|fedex|gls|ups).{0,5}(zustellung|zoll)/i
 

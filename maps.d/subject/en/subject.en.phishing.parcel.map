@@ -101,6 +101,7 @@
 
 # P
 # ------------------------------------------------------------------------------
+/(package|parcel|shipment).{1,10}arrived at.{1,10}warehouse/i
 /(package|parcel|shipment).{1,10}(awaiting|pending|ready).{1,10}(collection|delivery|processing|shipping)/i
 /(package|parcel|shipment).{1,10}awaits final confirmation/i
 /(package|parcel|shipment).{1,10}has been denied/i

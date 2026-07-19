@@ -58,6 +58,7 @@
 /district.{1,10}beijing.{1,10}china.{1,10}wechat/i
 
 /shenzhen city.{1,10}p\.b.{1,10}china/i
+/zhongshan.{1,10}guangdong.{1,10}china/i
 
 # Phone related
 # ------------------------------------------------------------------------------
@@ -178,6 +179,8 @@
 /manufacturing.{1,10}exporting.{1,10}(custom|shirts|tracksuits)/i
 /manufacturing.{1,10}one.?stop.{1,10}(pcba?|printed.?circuit.?board)/i
 /manufacturing.{1,10}partner trusted.{1,10}industry/i
+
+/metal craft.{1,10}products.{1,10}factory/i
 
 /mold parts.{1,10}located in shenzhen/i
 
