@@ -90,6 +90,23 @@ lists
 
 * -> "one_shot" is set
 
+### Setup for "asia"
+
+Description of the topic goes here.....
+
+Folder structure:
+```
+body  
+  └─ body.asia.map
+
+sender  
+  ├─ sender.from.asia.map **
+  └─ sender.from.phishing.orgbrandprod.asia.map
+
+subject  
+  └─ subject.asia.map
+```
+
 ### Setup for "malware"
 
 Description of the topic goes here.....
@@ -151,7 +168,7 @@ sender
   │   └─ ....
   │
   ├─ sender.from.phishing.orgbrandprod.map
-  ├─ sender.from.phishing.orgbrandprod.asia.map
+  ├─ sender.from.phishing.orgbrandprod.account.map
   ├─ sender.from.phishing.orgbrandprod.banking.map
   ├─ sender.from.phishing.orgbrandprod.it.map
   ├─ sender.from.phishing.orgbrandprod.parcel.map
@@ -372,7 +389,6 @@ Folder structure:
 ```
 subject  
   ├─ subject.health.medname.map
-  ├─ subject.asia.map
   ├─ subject.orgbrandprod.map
   ├─ subject.special.map
   ├─ subject.special.emoji.map
