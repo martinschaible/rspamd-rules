@@ -12,6 +12,7 @@
 # DHL Express
 # DHL Paket
 # DPD Schweiz
+# Fedex Tracking
 # GLS Paket
 # Hermes Benachrichtigungsfunktion
 # Hermes Paketankündigung
@@ -67,7 +68,7 @@
 /(dhl|dpd|fedex|gls|ups).{0,10}(logistik.?team|logistikzentrum)/i
 
 /(dhl|dpd|fedex|gls|ups).{0,5}mitteilung/i
-/(dhl|dpd|fedex|gls|ups).{0,5}(messages?|tracking|versand|your)/i
+/(dhl|dpd|fedex|gls|ups).{0,5}(messages?|versand|your)/i
 
 /(dhl|dpd|fedex|gls|ups).{0,5}noreply/i
 
@@ -81,6 +82,7 @@
 /(dhl|dpd|fedex|gls|ups).{0,5}paket.?(status|zentrum)/i
 /(dhl|dpd|fedex|gls|ups).{0,5}(package|payment|paketinfo)/i
 /(dhl|dpd|fedex|gls|ups).{0,10}team/i
+/(dhl|dpd|gls|ups).{0,10}tracking/i
 /(dhl|dpd|fedex|gls|ups).{0,10}(update|user)/i
 /(dhl|dpd|fedex|gls|ups).{0,5}verteilzentrum/i
 /(dhl|dpd|fedex|gls|ups).{0,5}(zustellung|zoll)/i
