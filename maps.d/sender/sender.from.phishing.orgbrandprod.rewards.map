@@ -72,6 +72,7 @@
 /aldi.{0,15}(deals?|support)/i
 /aldi-(ch|de)/i
 
+#
 /amaz0n/i
 #/amazon\.de/i
 
@@ -83,8 +84,13 @@
 
 /amazon.{0,10}(gutschein|weihnachten)/i
 
+#
+/autotrader.{0,10}rewards?/i
+
 # B
 # ------------------------------------------------------------------------------
+/bild.{0,10}nachrichten/i
+
 /brack\.ch/i
 /brack.?\|/i
 
@@ -150,7 +156,8 @@
 
 # I
 # ------------------------------------------------------------------------------
-/ihr.{0,10}starbucks/i
+/ihre?.{0,10}migros/i
+/ihre?.{0,10}starbucks/i
 
 /info@edeka\.de/i
 /info@galaxus\.ch/i
@@ -279,6 +286,9 @@
 
 # T
 # ------------------------------------------------------------------------------
+/team.{0,10}paletten?/i
+
+#
 /tcs.?car/i
 /tcs.{0,10}(abteilung|angebote?|admin|kundenservice|mitglieder|vip|werbung)/i
 /tcs.{0,10}(partner|prioritäts?)/i
