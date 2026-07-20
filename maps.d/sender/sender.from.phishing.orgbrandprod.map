@@ -28,7 +28,7 @@
 # Allianz
 # Amazon Business
 # amazon.de
-# BahnBonus Service
+# BahnBonus
 # Dropbox
 # E.ON Kundenservice
 # facebook
@@ -41,7 +41,6 @@
 # Meta
 # Miles & More
 # Miles & More Newsletter
-# My AXA
 # mySWICA
 # playstation
 # parkingpay
@@ -138,16 +137,10 @@
 # 07.03.25 - au FINANCIAL SERVICE CORPORATION
 /au pay/i
 
-#
-/axa.{0,10}(kundendienst|kundenservice)/i
-/axa.{0,10}schweiz/i
-
-/app.{0,10}axa/i
 
 # B
 # ------------------------------------------------------------------------------
 /bahn\.de/i
-/bahn.{0,10}bonus/i
 
 /best.?sign.{0,10}konto/i
 
