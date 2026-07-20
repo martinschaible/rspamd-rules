@@ -40,7 +40,7 @@
 
 #
 /_(dhl|dpd|fedex|gls|ups)/i
-
+/\[(dhl|dpd|fedex|gls|ups)\]/i
 /(dhl|dpd|fedex|gls|ups).?\|/i
 
 /(dhl|dpd|fedex|gls|ups)\d{3,10}/i
