@@ -1,20 +1,14 @@
 # ==============================================================================
-# In the scam and phishing area, spammers like to use names of well-known
-# companies or organisations.
-# 
-# These names are kept generic, fake and sometimes silly because the companies
-# and organisations usually have personalized senders.
+# Companies and organizations rarely use their names in all caps in the sender's address.
+# Therefore, we can be highly confident in prohibiting company and organization
+#names in all caps.
 #
-# Allowed entries are: - Name of organisations
-#                      - Name of brands
-#                      - Name of products
-#                      - Masked entries are allowed
-#
-# This file only contains UPPERCASE words, one per entry.
+# This file only contains UPPERCASE words.
 #
 # ------------------------------------------------------------------------------
 # Language: -
-# Weight:   6.0
+# Weight:   12
+.0
 # ==============================================================================
 
 # Generic
@@ -105,7 +99,6 @@
 
 /POLIZEI/
 
-/PROGRAMM/
 # Q
 # ------------------------------------------------------------------------------
 
