@@ -43,11 +43,9 @@
 # playstation
 # parkingpay
 # Ricardo Info
-# service@paypal.com
 # swisspass
 # swisspass.ch
 # SwissPass Newsletter
-# Spotify
 # Telekom Deutschland GmbH
 # Wetransfer
 # ------------------------------------------------------------------------------
@@ -147,8 +145,6 @@
 /allgemeiner deutscher/i
 
 /ahv.?iv/i
-
-/aok\.de/i
 
 # Poochy Couture
 /ap.?vertrieb/i
@@ -256,9 +252,6 @@
 # E
 # ------------------------------------------------------------------------------
 
-# 29.11.25
-/ebay.{0,10}member/i
-
 /\|.?express/i
 
 /e l (i )?s t e r/i
@@ -354,25 +347,6 @@
 
 /^mercedes$/i
 
-/meta\./i
-/meta(mask)?.{0,5}ads$/i
-/meta(mask)?.{0,5}(ads|support).?team/i
-
-/meta(mask)?.{0,15}(account|advertising|alert)/i
-/meta(mask)?.{0,5}business/i
-/meta(mask)?.{0,5}(inc|trust|updates?|verification|wallet)/i
-/meta(mask)?.{0,5}(security|system)/i
-/meta(mask)?.{0,5}verifiziert/i
-
-/metamaskconsensys/i
-/metamask.?(id|io)/i
-/metamsak/i
-
-/meta for business/i
-/meta help center/i
-
-/info.{0,5}metamask/i
-
 /miles&more/i
 /miles & more.{0,10}support/i
 
@@ -388,28 +362,11 @@
 
 # N
 # ------------------------------------------------------------------------------
-/netflix\.com/i
-/netflix.{0,10}(kundendienst|konto)/i
-/netflix.{0,10}(expiration|services|support|team|updates)/i
-/netflix.{0,10}(premium|prémium)/i
-/netflix.{0,10}(schweiz|suisse)/i
-
-/netflix\./i
-/netƒlix/i
-/nflix/i
-/nflx/i
-
-/n e t f i i x/i
-
-/(membership|no.?reply).{0,10}netflix/i
-/support.{0,10}netflix/i
-
 /nortonav$/i
 /norton.{0,5}(official|original)/i
 
 # O
 # ------------------------------------------------------------------------------
-/official.{0,5}(netflix|spotify)/i
 
 /^onedrive$/i
 
@@ -424,43 +381,6 @@
 /parking.?pay\+/i
 
 #/^parkingpay$/i
-
-/p a y p a l/i
-
-/paypl/i
-/paypi@/i
-/päypäl/i
-/ρауℙаӏ/i
-/раурαӏ/i
-
-/paypal.?(™|®)$/i
-/paypal.?lu/i
-
-/paypal[a-z].{1,15}@/i
-/paypal.{0,15}(billing|case.?id|customer)/i
-/paypal.{0,15}(department|europe?|help.?desk|inc)/i
-
-/paypal.{0,15}(abteilung|account|admin|alarme?)/i
-/paypal.{0,15}(benachrichtigung(en)?|betrieb|nachricht|sicherheit|verifizierung|vertrauen)/i
-/paypal.{0,15}(kunden|konto)/i
-/paypal.{0,15}(rechtliches|rechtsabteilung)/i
-/paypal.{0,15}guthaben/i
-/paypal.{0,15}hilfe/i
-
-/paypal.{0,15}(compliance|concierge|management|update|payments?)/i
-/paypal.{0,15}(safety|security|services?|support)/i
-/paypal.{0,15}(technischer|team|ticket|trust)/i
-/paypal.{0,15}updates?/i
-/paypal.{0,15}voucher/i
-
-/paypal(-|_)/i
-/pay pal/i
-/pay-pal/i
-/pay-pai/i
-
-/support.{0,10}(paypal|pypl)/i
-
-/ihr.{0,10}paypal/i
 
 /porsche.{0,10}werk/i
 
@@ -533,19 +453,6 @@
 
 /spyrec.?pro/i
 
-/spotlfy/i
-/sp0tify/i
-/s p o t i f y/i
-/@spotify$/i
-/spotify_/i
-/spotify.{0,10}(ab|inc\.|notice|premium|support|team)/i
-/spotify.{0,10}kunden.?service/i
-
-/from.{0,10}spotify/i
-
-#/(service|support).{0,10}paypal/i
-/support.{0,10}(netflix|paypal)/i
-
 /state.?farm/i
 
 /support.{0,5}swica/i
@@ -604,7 +511,6 @@
 
 # T
 # ------------------------------------------------------------------------------
-/team_/i
 /team.{0,10}(account|paletten?)/i
 /team.{0,10}(dhl|netflix|spotify)/i
 /team.{0,15}krankenkasse/i
