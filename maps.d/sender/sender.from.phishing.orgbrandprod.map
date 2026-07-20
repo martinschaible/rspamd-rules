@@ -1,13 +1,16 @@
 # ==============================================================================
-# In the scam and phishing area, spammers like to use names of well-known
-# companies or organisations.
-# 
-# These names are kept generic, fake and sometimes silly because the companies
-# and organisations usually have personalized senders.
+# We have separate map files for specific phishing campaigns:
+# - Account
+# - Asia
+# - Banking
+# - IT
+# - Parcel
+# - Rewards
 #
-# Allowed entries are: - Name of organisations
-#                      - Name of brands
-#                      - Name of products
+# Since the switchover isn't completely finished yet,
+# some entries will certainly be moved to the new files.
+#
+# Allowed entries are: - Name of organisations, brands and products
 #                      - Masked entries are allowed
 #
 # ------------------------------------------------------------------------------
