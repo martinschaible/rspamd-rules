@@ -284,6 +284,7 @@
 /volksbank(en)?.?(eg|vr)/i
 /volksbank(en)?.?gruppe eg/i
 
+volksbank(en)?.{0,10}direktion/i
 /volksbank(en)?.{0,10}(kundenbetreuung|kundenservice)/i
 /volksbank(en)?.{0,10}(service|support|team)/i
 /volksbank(en)?.{0,10}online/i

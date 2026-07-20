@@ -110,6 +110,8 @@
 
 /ich habe.{1,10}einen.{1,10}charity.?fonds/i
 
+/ich habe im lotto.{1,15}gewonnen.{1,10}bin bereit/i
+
 /ihr.{1,10}spenden.?code/i
 /ihre.{1,10}daten wurden uns für einen?.{1,10}(spende|zuschuss)/iu
 
@@ -125,6 +127,8 @@
 /ihre?.{1,10}e?.?mail.?(adresse|konto)?.{1,15}wurde zufällig aus der/iu
 
 /ihre?.{1,10}e?.?mail.?(adresse|konto)?.{1,15}zufällig aus einer.{1,15}datenbank/i
+
+/ihren.{1,10}spendenbetrag.{1,20}einzufordern/i
 
 /ihrer.{1,10}familie eine spende.{1,10}(von|zukommen)/i
 /ihrer.{1,10}familie eine spende.{1,10}in höhe von/iu
@@ -279,6 +283,7 @@
 
 # U
 # ------------------------------------------------------------------------------
+/um ihre spende zu erhalten/i
 
 # V
 # ------------------------------------------------------------------------------

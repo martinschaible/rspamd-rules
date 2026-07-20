@@ -134,6 +134,8 @@
 
 # I
 # ------------------------------------------------------------------------------
+/includes names.{1,10}titles.{1,10}e?.?mails?/i
+
 /including complete.{1,15}(company|contact).{1,15}details/i
 /increasing.{1,10}leads.{1,10}sales/i
 
@@ -251,6 +253,7 @@
 /we.{1,10}have.{1,15}access.{1,15}your target audience/i
 /we.{1,10}have.{1,15}(compiled|curated).{1,20}(attendees?|contacts|registrants|visitors?)/i
 /we.{1,10}have.{1,15}sourced contact details/i
+/we.{1,10}have.{1,15}updated e?.?mail.?list of/i
 
 /we.{1,10}help (businesses|creators|organizations).{1,10}(establish|grow)/i
 

@@ -67,15 +67,17 @@
 /(e?.?mail|message)s?.{1,10}do not reach your.{1,10}inbox/i
 /(e?.?mail|message)s?.{1,10}from your contacts are.{1,15}on hold/i
 
+/(e?.?mail|message)s?.{1,10}has been blocked by.{1,10}administrator/i
+/(e?.?mail|message)s?.{1,15}has exceeded its limits.{1,10}needs to be increased/i
+
 /(e?.?mail|message)s?.{1,10}have been put on hold from/i
 /(e?.?mail|message)s?.{1,10}have failed to send.{1,20}due.{1,10}server error/i
-/(e?.?mail|message)s?.{1,10}has been blocked by.{1,10}administrator/i
-/(e?.?mail|message)s?.{1,10}were blocked.{1,10}view.{1,10}e?.?mails here/i
 
 /(e?.?mail|message)s?.{1,10}marked.{1,10}important.{1,10}pending/i
 /(e?.?mail|message)s?.{1,10}pending on your.{1,10}server/i
 /(e?.?mail|message)s?.{1,10}restriction activity/i
 /(e?.?mail|message)s?.{1,10}sent to you.{1,10}but.{1,10}not.{1,20}delivered/i
+/(e?.?mail|message)s?.{1,10}were blocked.{1,10}view.{1,10}e?.?mails here/i
 /(e?.?mail|message)s?.{1,10}you are yet to receive/i
 
 /e?.?mail.?(update|upgrade).{1,10}latest version/i
@@ -152,6 +154,8 @@
 /service update notification.{1,10}important information/i
 
 /settings to continue receiving.{1,15}(e?.?mail|message)s?/i
+
+/space.{1,10}to avoid missing.{1,10}mails/i
 
 # T
 # ------------------------------------------------------------------------------

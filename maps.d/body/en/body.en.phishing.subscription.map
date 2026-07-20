@@ -58,8 +58,9 @@
 
 # M
 # ------------------------------------------------------------------------------
-/membership has been paused/i
-/membership is.{1,15}on hold/i
+/(membership|subscription).{1,10}because the payment method/i
+/(membership|subscription).{1,10}has been paused/i
+/(membership|subscription) is.{1,15}on hold/i
 
 # N
 # ------------------------------------------------------------------------------
@@ -69,19 +70,19 @@
 
 # P
 # ------------------------------------------------------------------------------
-/paypal.{1,10}subscription renewal is complete/i
+/paypal.{1,10}(membership|subscription) renewal is complete/i
 
 # Q
 # ------------------------------------------------------------------------------
 
 # R
 # ------------------------------------------------------------------------------
-/(review|verify) your.{1,10}membership (details|info)/i
+/(review|verify) your.{1,10}(membership|subscription).{1,10}(details|info)/i
+
+/reviewed your.{1,10}(membership|subscription).{1,10}no further action/i
 
 # S
 # ------------------------------------------------------------------------------
-/subscription.{1,10}because the payment method/i
-/subscription.{1,10}has been paused/i
 
 # T
 # ------------------------------------------------------------------------------

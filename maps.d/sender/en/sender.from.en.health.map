@@ -947,7 +947,7 @@
 
 /minute.{0,10}fix/i
 
-/(miracle|miraculous).{0,10}(brand|fruit|mind|syrup)/i
+/(miracle|miraculous).{0,10}(brand|fruit|mind|syrup|water)/i
 
 /missing.{0,10}nutrients?/i
 
@@ -1161,6 +1161,8 @@
 
 # S
 # ------------------------------------------------------------------------------
+/sacret.{0,10}(cure|health|ritual)/i
+
 /safe.{0,10}foods?/i
 /(sagging|saggy).{0,10}(butt|neck|skin)/i
 
