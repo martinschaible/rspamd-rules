@@ -40,7 +40,7 @@ It's necessary to split existing map files into smaller ones. Sometimes, when an
 
 | Date     | File                                       | Reason                        |
 | -------- | -------------------------------------------| ----------------------------- |
-| 18.07.26 | multimap.conf                              | New map files added           |
+| 20.07.26 | multimap.conf                              | New map files added           |
 
 ## Content
 :point_right: All map files of the *first version* are stored in the folder `/etc/rspamd/maps.d/legacy`.<br>
@@ -100,7 +100,7 @@ body
   └─ body.asia.map
 
 sender  
-  ├─ sender.from.asia.map **
+  ├─ sender.from.asia.map
   └─ sender.from.phishing.orgbrandprod.asia.map
 
 subject  
@@ -172,6 +172,7 @@ sender
   ├─ sender.from.phishing.orgbrandprod.banking.map
   ├─ sender.from.phishing.orgbrandprod.it.map
   ├─ sender.from.phishing.orgbrandprod.parcel.map
+  ├─ sender.from.phishing.orgbrandprod.refund.map   **
   ├─ sender.from.phishing.orgbrandprod.rewards.map
   └─ sender.from.phishing.orgbrandprod.ucase.map
 
@@ -290,45 +291,45 @@ subject
 Folder structure:
 ```
 body
-  ├─ body.attachment.map                         ─┐
-  ├─ body.attachment.ext.map                      │
-  ├─ body.emergency.map                           │
-  ├─ body.special.map                             │
-  │                                               │
-  ├─ body.az.orgname.map                          ├─ multimap.body.conf
-  ├─ body.ch.orgname.map                          │
-  ├─ body.de.orgname.map                          │
-  ├─ body.us.orgname.map                         ─┘
+  ├─ body.attachment.map
+  ├─ body.attachment.ext.map
+  ├─ body.emergency.map
+  ├─ body.special.map
+  │
+  ├─ body.az.orgname.map 
+  ├─ body.ch.orgname.map
+  ├─ body.de.orgname.map
+  ├─ body.us.orgname.map
   │
   ├─ href
-  │   ├─ body.href.az.domain.name.map            ─┐
-  │   ├─ body.href.ch.domain.name.map             │
-  │   ├─ body.href.de.domain.name.map             ├─ multimap.body.href.conf
-  │   ├─ body.href.us.domain.name.map             │
-  │   ├─ body.href.domain.name.pattern.map        │
-  │   └─ body.href.url.path.orgbrandprod.map     ─┘
+  │   ├─ body.href.az.domain.name.map
+  │   ├─ body.href.ch.domain.name.map
+  │   ├─ body.href.de.domain.name.map
+  │   ├─ body.href.us.domain.name.map
+  │   ├─ body.href.domain.name.pattern.map
+  │   └─ body.href.url.path.orgbrandprod.map
   │
   ├─ de
-  │   ├─ body.de.map                             ─┐
-  │   ├─ body.de.greetings.map                    │
-  │   ├─ body.de.intros.map                       │
-  │   ├─ body.de.message.map                      │
-  │   │                                           │      
-  │   ├─ body.de.singleword.map                   │
-  │   ├─ body.de.singleword.special.map           ├─ multimap.body.de.conf 
-  │   ├─ body.de.singleword.ucase.map             │
-  │   │                                           │
-  │   ├─ body.de.ucase.map                        │ 
-  │   ├─ body.de.unsubscribe.map                 ─┘
+  │   ├─ body.de.map
+  │   ├─ body.de.greetings.map
+  │   ├─ body.de.intros.map
+  │   ├─ body.de.message.map
+  │   │    
+  │   ├─ body.de.singleword.map
+  │   ├─ body.de.singleword.special.map
+  │   ├─ body.de.singleword.ucase.map
   │   │
-  │   ├─ body.de.adult.map                       --- multimap.body.de.adult.conf
-  │   ├─ body.de.finance.map                     --- multimap.body.de.finance.conf
-  │   ├─ body.de.gambling.map                    --- multimap.body.de.gambling.conf
-  │   ├─ body.de.health.map                      --- multimap.body.de.health.conf
-  │   ├─ body.de.health.specific.map             --- multimap.body.de.health.conf
-  │   ├─ body.de.makemoney.map                   --- multimap.body.de.makemoney.conf
+  │   ├─ body.de.ucase.map
+  │   ├─ body.de.unsubscribe.map
   │   │
-  │   └─ body.de.stocks.map                      --- multimap.body.de.stocks.conf
+  │   ├─ body.de.adult.map
+  │   ├─ body.de.finance.map
+  │   ├─ body.de.gambling.map
+  │   ├─ body.de.health.map
+  │   ├─ body.de.health.specific.map
+  │   ├─ body.de.makemoney.map
+  │   │
+  │   └─ body.de.stocks.map
   │
   └─ en
       └─ ....
@@ -339,10 +340,10 @@ body
 ### Setup for "header"
 ```
 header
-  ├─ header.hostname.map                         ─┐
-  ├─ header.ipaddress.map                         ├─ multimap.header.conf
-  ├─ header.googlegroups.groupid.map              │
-  └─ header.googlegroups.listpost.map            ─┘
+  ├─ header.hostname.map
+  ├─ header.ipaddress.map
+  ├─ header.googlegroups.groupid.map
+  └─ header.googlegroups.listpost.map
 ```
 
 ### Setup for "sender"
@@ -350,34 +351,33 @@ header
 Folder structure:
 ```
 sender
-  ├─ sender.address.map                          ─┐
-  ├─ sender.address.domain.name.map               │
-  ├─ sender.address.orgbrandprod.map              ├─ multimap.sender.address.conf
-  ├─ sender.address.people.map                    │
-  ├─ sender.address.tld.map                      ─┘
+  ├─ sender.address.map
+  ├─ sender.address.domain.name.map
+  ├─ sender.address.orgbrandprod.map
+  ├─ sender.address.people.map
+  ├─ sender.address.tld.map
   │
   ├─ de
-  │   └─ sender.address.de.map                   --- multimap.sender.address.de.conf 
+  │   └─ sender.address.de.map
   │
-  ├─ sender.from.orgbrandprod.map                ─┐
-  ├─ sender.from.people.map                       │
-  ├─ sender.from.special.map                      ├─ multimap.sender.from.conf
-  ├─ sender.from.special.emoji.map              X │
-  ├─ sender.from.title.map                       ─┘
+  ├─ sender.from.orgbrandprod.map
+  ├─ sender.from.people.map
+  ├─ sender.from.special.map
+  ├─ sender.from.special.emoji.map **
+  ├─ sender.from.title.map 
   │
   ├─ de
-  │   ├─ sender.from.de.singleword.map           ─┐
-  │   ├─ sender.from.de.singleword.special.map    ├─ multimap.sender.from.de.conf
-  │   ├─ sender.from.de.singleword.ucase.map     ─┘
+  │   ├─ sender.from.de.singleword.map
+  │   ├─ sender.from.de.singleword.special.map
+  │   ├─ sender.from.de.singleword.ucase.map
   │   │
-  │   ├─ sender.from.de.map                      --- multimap.sender.from.de.conf 
-  │   ├─ sender.from.de.adult.map                --- multimap.sender.from.de.adult.conf
-  │   ├─ sender.from.de.finance.map              --- multimap.sender.from.de.finance.conf
-  │   ├─ sender.from.de.gambling.map             --- multimap.sender.from.de.gambling.conf
-  │   ├─ sender.from.de.health.map               --- multimap.sender.from.de.health.conf
-  │   ├─ sender.from.de.health.specific.map    X --- multimap.sender.from.de.health.conf
-  │   ├─ sender.from.de.lottery.map              --- multimap.sender.from.de.lottery.conf
-  │   └─ sender.from.de.makemoney.map            --- multimap.sender.from.de.makemoney.conf
+  │   ├─ sender.from.de.map
+  │   ├─ sender.from.de.adult.map
+  │   ├─ sender.from.de.gambling.map
+  │   ├─ sender.from.de.health.map
+  │   ├─ sender.from.de.health.specific.map   **
+  │   ├─ sender.from.de.lottery.map
+  │   └─ sender.from.de.makemoney.map
   │
   └─ en
       └─ ....
