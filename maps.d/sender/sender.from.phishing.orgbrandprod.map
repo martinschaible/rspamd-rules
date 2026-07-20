@@ -116,29 +116,6 @@
 
 /^ace_/i
 
-/-adac/i
-/a\.dac/i
-/a.d.a.c/i
-/a\.d\.a\.c/i
-/a d a c/i
-
-/ad4c/i
-/adac \|/i
-/adac_/i
-/\[adac\]/i
-
-/adac\./i
-/adac\.de/i
-
-/adac.?202\d/i
-/adac.{0,10}breaker/i
-/adac.{0,10}(abteilung|deutschland|exklusiv|forschung|gmbh|insider|mitglieder|online)/i
-/adac.{0,10}logistik/i
-/adac.{0,10}(karten.?service|kreditkarte|kundencenter|kundendienst)/i
-/adac.{0,10}(services?|sicherheit|support)/i
-/adac.{0,10}zentrum/i
-
-/adac.?mitglied$/i
 
 /adobe.?acrobat (document|e.?signature|sign)/i
 /adobe.?pdf/i
