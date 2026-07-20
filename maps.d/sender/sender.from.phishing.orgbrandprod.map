@@ -66,7 +66,7 @@
 /(adac|metamask|netflix).{0,10}(info.?desk|notifications?|protection)/i
 /(adac|metamask|netflix).{0,10}(security|service|support|team|update|user|verification|wallet)/i
 
-#
+# Copyright/Trademark sign
 /(aave|adac|apple).?(™|®|©)$/i
 /(balea|baumarkt|bosch).?(™|®|©)$/i
 /(carrefour|cpanel).?(™|®|©)/i
@@ -158,8 +158,6 @@
 
 /aarp.{0,10}(advertiser|help|offer|opportunity)/i
 
-/autotrader.{0,10}rewards?/i
-
 # 07.03.25 - au FINANCIAL SERVICE CORPORATION
 /au pay/i
 
@@ -181,8 +179,6 @@
 /binance.{0,10}sicherheit/i
 
 /mitteilung.{0,10}binance/i
-
-/bild.{0,10}nachrichten/i
 
 /bíngo/i
 
@@ -293,19 +289,19 @@
 # ------------------------------------------------------------------------------
 /google.{0,10}benachrichtigung/i
 /google.{0,10}(claim|inc|llc|team)/i
-/google.{0,10}(gewinnspiel|zahlung)/i
+/google.{0,10}gewinnspiel/i
 /google.{0,10}(one|online)/i
 /google.{0,10}support/i
-
-/^gmbh/i
-/- gmbh/i
+/google.{0,10}zahlung/i
 
 /gyms1/i
 
+#
+/^gmbh/i
+/- gmbh/i
+
 # H
 # ------------------------------------------------------------------------------
-/help.{0,10}spotify/i
-
 /helsana.{0,10}(team|support)/i
 
 # I
@@ -320,16 +316,12 @@
 /international.{0,10}investigation/i
 /investigation.{0,10}department/i
 
-/ihre?.{0,5}(migros|spotify)/i
-
 # J
 # ------------------------------------------------------------------------------
 
 # K
 # ------------------------------------------------------------------------------
 /kundenservice.{0,10}telecom/i
-
-/kontakt.{0,10}(spotify|swisspass)/i
 
 /rechnung.{0,10}klarna/i
 
@@ -370,9 +362,6 @@
 
 # O
 # ------------------------------------------------------------------------------
-
-/^onedrive$/i
-
 # 01.02.25 - Orico Corporation
 /e-orico/i
 
@@ -387,7 +376,6 @@
 
 /porsche.{0,10}werk/i
 
-/premium.{0,10}spοtify/i
 /prime.{0,5}notification/i
 
 # Q
@@ -514,8 +502,6 @@
 
 # T
 # ------------------------------------------------------------------------------
-/team.{0,10}(account|paletten?)/i
-/team.{0,10}(dhl|netflix|spotify)/i
 /team.{0,15}krankenkasse/i
 
 /ihre techniker.?krankenkasse/i
