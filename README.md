@@ -194,8 +194,11 @@ subject
   │   ├─ subject.de.phishing.subscription.map
   │   ├─ subject.de.phishing.survey.map
   │   └─ subject.de.phishing.wallet.map
-  └─ en
-      └─ ....
+  ├─ en
+  │   └─ ....
+  │
+  ├─ subject.phishing.orgbrandprod.map
+  └─ subject.phishing.orgbrandprod.ucase.map
 
 ```
 
@@ -237,8 +240,10 @@ subject
   │   ├─ subject.de.sale.seo.map
   │   ├─ subject.de.sale.specific.map
   │   └─ subject.de.sale.website.map
-  └─ en
-      └─ ....
+  ├─ en
+  │    └─ ....
+  │
+  └─ subject.sale.orgbrandproduct.map
 ```
 
 ### Setup for "scam"
