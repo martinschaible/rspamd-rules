@@ -147,7 +147,7 @@ body
   │   ├─ body.de.phishing.banking.map
   │   ├─ body.de.phishing.card.map
   │   ├─ body.de.phishing.email.map
-  │   ├─ body.de.phishing.it.map                           **
+  │   ├─ body.de.phishing.it.map
   │   ├─ body.de.phishing.greetings.map
   │   ├─ body.de.phishing.obfuscation.map
   │   ├─ body.de.phishing.parcel.map
@@ -185,7 +185,7 @@ subject
   │   ├─ subject.de.phishing.banking.map
   │   ├─ subject.de.phishing.card.map
   │   ├─ subject.de.phishing.email.map
-  │   ├─ subject.de.phishing.it.map                        **
+  │   ├─ subject.de.phishing.it.map
   │   ├─ subject.de.phishing.parcel.map
   │   ├─ subject.de.phishing.password.map
   │   ├─ subject.de.phishing.payment.map
