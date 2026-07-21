@@ -61,11 +61,15 @@
 # I
 # ------------------------------------------------------------------------------
 /ihnen.{1,15}betrag von.{1,15}millionen.{1,10}steuerfrei zu überweisen/iu
+
+/ihnen.{1,10}entschädigungs.?summe von/iu
 /ihnen.{1,15}(entschädigungszahlung|überweisung) in höhe von/iu
+
 /ihnen.{1,15}nicht abgeholte gelder zustehen/i
 
 /ihre abbuchung nicht verarbeiten/i
 /ihre bewilligte.{1,10}entschädigung in höhe/iu
+/ihre entschädigungsgelder/i
 /ihre gelder zu erhalten.{1,10}kontaktieren sie uns.{1,10}unter/i
 /ihre unterstützung.{1,15}überweisung/iu
 /ihre zahlung durch korrupte/i
@@ -116,7 +120,7 @@
 
 /sie um.{1,10}unterstützung bei.{1,10}überweisung/iu
 
-/sie vom entschädigungsausschuss.{1,10}europäischen union/iu
+/sie vom entschädigungsausschuss/iu
 
 # T
 # ------------------------------------------------------------------------------
