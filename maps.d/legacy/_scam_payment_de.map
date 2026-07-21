@@ -9,11 +9,8 @@
 
 # Compensation
 # ------------------------------------------------------------------------------
-/ihnen ein betrag von.{1,10}\d{3}.{0,5}\d{3}.{1,10}als entschädigungszahlung/iu
-/ihnen eine entschädigungs.?summe von/iu
+/ihnen ein betrag von.{1,10}\d{3}.{0,5}\d{3}.{1,10}entschädigungszahlung/iu
 /ihnen eine entschädigung.{1,10}in höhe von.{1,10}\d{3}.{0,5}\d{3}.{1,10}als beitrag/iu
-
-/ihre entschädigungsgelder/i
 
 /entschädigungs.?(fonds|gelder).{1,10}in höhe von.{1,10}millionen/i
 /entschädigungs.?(fonds|gelder).{1,10}per.{1,10}bankkarte/iu
@@ -23,7 +20,6 @@
 /erbschafts.{1,10}entschädigungs.?zahlung/iu
 
 /sie mit.{1,10}\d{3}.{0,5}\d{3}.{1,10}zu entschädigen/iu
-/sie vom entschädigungsausschuss/iu
 
 # Google
 /entschädigt google sie mit/iu
