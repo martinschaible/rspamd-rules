@@ -172,7 +172,7 @@ sender
   ├─ sender.from.phishing.orgbrandprod.banking.map
   ├─ sender.from.phishing.orgbrandprod.it.map
   ├─ sender.from.phishing.orgbrandprod.parcel.map
-  ├─ sender.from.phishing.orgbrandprod.refund.map   **
+  ├─ sender.from.phishing.orgbrandprod.refund.map          **
   ├─ sender.from.phishing.orgbrandprod.rewards.map
   └─ sender.from.phishing.orgbrandprod.ucase.map
 
@@ -255,10 +255,12 @@ body
   │   ├─ body.de.scam.bignumbers.map
   │   ├─ body.de.scam.donation.map
   │   ├─ body.de.scam.funds.map
+  │   ├─ body.de.scam.heir.map                             **
   │   ├─ body.de.scam.investment.map
   │   ├─ body.de.scam.order.map
   │   ├─ body.de.scam.payment.map
   │   ├─ body.de.scam.ransom.map
+  │   ├─ body.de.scam.transaction.map                      **
   │   └─ body.de.scam.winning.map
   └─ en
       └─ ....
