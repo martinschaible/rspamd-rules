@@ -147,8 +147,8 @@ body
   │   ├─ body.de.phishing.banking.map
   │   ├─ body.de.phishing.card.map
   │   ├─ body.de.phishing.email.map
+  │   ├─ body.de.phishing.it.map                           **
   │   ├─ body.de.phishing.greetings.map
-  │   ├─ body.de.phishing.malware.map
   │   ├─ body.de.phishing.obfuscation.map
   │   ├─ body.de.phishing.parcel.map
   │   ├─ body.de.phishing.password.map
@@ -172,7 +172,7 @@ sender
   ├─ sender.from.phishing.orgbrandprod.banking.map
   ├─ sender.from.phishing.orgbrandprod.it.map
   ├─ sender.from.phishing.orgbrandprod.parcel.map
-  ├─ sender.from.phishing.orgbrandprod.refund.map          **
+  ├─ sender.from.phishing.orgbrandprod.refund.map
   ├─ sender.from.phishing.orgbrandprod.rewards.map
   └─ sender.from.phishing.orgbrandprod.ucase.map
 
@@ -185,6 +185,7 @@ subject
   │   ├─ subject.de.phishing.banking.map
   │   ├─ subject.de.phishing.card.map
   │   ├─ subject.de.phishing.email.map
+  │   ├─ subject.de.phishing.it.map                        **
   │   ├─ subject.de.phishing.parcel.map
   │   ├─ subject.de.phishing.password.map
   │   ├─ subject.de.phishing.payment.map

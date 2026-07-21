@@ -107,6 +107,9 @@
 /sie.{1,10}verfügen.{1,10}spenden/iu
 
 /^spende für wohltätige zwecke/iu
+
+/spende chf \d{2}.?\d{3}/i
+
 /spende.{1,5}gift/i
 /spende.{1,5}glückwunsch/iu
 
