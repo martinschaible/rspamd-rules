@@ -49,36 +49,54 @@
 # D
 # ------------------------------------------------------------------------------
 /(dear|greetings?|good day|hello|hi\b).{1,5}(friend|madam|sir).{1,10}attached.{1,10}find/i
-/(dear|greetings?|good day|hello|hi\b).{1,5}(friend|madam|sir).{1,10}barrister/i
 /(dear|greetings?|good day|hello|hi\b).{1,5}(friend|madam|sir).{1,10}congratulations on/i
 /(dear|greetings?|good day|hello|hi\b).{1,5}(friend|madam|sir).{1,15}find the attached/i
+/(dear|greetings?|good day|hello|hi\b).{1,5}(friend|madam|sir).{1,15}do you require/i
 /(dear|greetings?|good day|hello|hi\b).{1,5}(friend|madam|sir).{1,10}good day/i
-/(dear|greetings?|good day|hello|hi\b).{1,5}(friend|madam|sir).{1,15}greetings from/i
+/(dear|greetings?|good day|hello|hi\b).{1,5}(friend|madam|sir).{1,15}how are you/i
 /(dear|greetings?|good day|hello|hi\b).{1,5}(friend|madam|sir).{1,15}in the (lord|name of)/i
 /(dear|greetings?|good day|hello|hi\b).{1,5}(friend|madam|sir).{1,15}representing/i
 /(dear|greetings?|good day|hello|hi\b).{1,5}(friend|madam|sir).{1,10}my name is/i
 /(dear|greetings?|good day|hello|hi\b).{1,5}(friend|madam|sir).{1,10}nice to write you/i
 /(dear|greetings?|good day|hello|hi\b).{1,5}(friend|madam|sir).{1,15}this.{1,10}(e?.?mail|message) is strictly/i
 
-/(dear|greetings?|good day|hello|hi\b).{1,15}(agency|beneficiary|engineer|manager|owner|purchasing)/i
-/(dear|greetings?|good day|hello|hi\b).{1,15}(domain.?name|site|web)/i
-/(dear|greetings?|good day|hello|hi\b).{1,15}(business|investment)/i
-/(dear|greetings?|good day|hello|hi\b).{1,15}(managing)?.?director/i
-
-/(dear|greetings?|good day|hello|hi\b).{1,10}apologize for sending you/i
-/(dear|greetings?|good day|hello|hi\b).{1,10}from.{5,35}the.{1,15}manager/i
-/(dear|greetings?|good day|hello|hi\b).{1,20}nice to meet you/i
-
-/(dear|greetings?|good day|hello|hi\b).{1,10}pleased to introduce myself as/i
-
-/(dear|greetings?|good day|hello|hi\b).{1,15}this might come.{1,10}surprise/i
-/(dear|greetings?|good day|hello|hi\b).{1,15}this is.{5,25}contacting you/i
-/(dear|greetings?|good day|hello|hi\b).{1,15}this is.{5,25}from/i
+# Greetings with title or position
+/(dear|greetings?|good day|hello|hi\b).{1,20}(barrister|beneficiary|boss)/i
+/(dear|greetings?|good day|hello|hi\b).{1,20}(agency|agent|attorney)/i
+/(dear|greetings?|good day|hello|hi\b).{1,20}(engineer|entrepreneur)/i
+/(dear|greetings?|good day|hello|hi\b).{1,20}investment banker/i
+/(dear|greetings?|good day|hello|hi\b).{1,20}manager/i
+/(dear|greetings?|good day|hello|hi\b).{1,20}(managing|purchase|purchasing|sourcing)?.?director/i
+/(dear|greetings?|good day|hello|hi\b).{1,20}(owner)/i
 
 /(dear|greetings?|good day|hello|hi\b).{1,10}i am.{1,15}broker/i
+/(dear|greetings?|good day|hello|hi\b).{1,20}from.{5,35}the.{1,15}manager/i
+
+/(dear|greetings?|good day|hello|hi\b).{1,20}apologize for sending you/i
+/(dear|greetings?|good day|hello|hi\b).{1,20}(domain.?name|site|web)/i
+/(dear|greetings?|good day|hello|hi\b).{1,20}(business|investment)/i
+/(dear|greetings?|good day|hello|hi\b).{1,20}greetings (from|of the day)/i
+/(dear|greetings?|good day|hello|hi\b).{1,20}my name is.{5,25}we specialize/i
+/(dear|greetings?|good day|hello|hi\b).{1,20}nice to meet you/i
+
+/(dear|greetings?|good day|hello|hi\b).{1,20}purchasing/i
+
+/(dear|greetings?|good day|hello|hi\b).{1,20}i am.{5,25}working with.{1,10}reputed/i
+
+/(dear|greetings?|good day|hello|hi\b).{1,20}our company is a/i
+
+/(dear|greetings?|good day|hello|hi\b).{1,20}pleased to introduce myself as/i
+
+/(dear|greetings?|good day|hello|hi\b).{1,20}this might come.{1,10}surprise/i
+/(dear|greetings?|good day|hello|hi\b).{1,20}this is.{5,25}contacting you/i
+/(dear|greetings?|good day|hello|hi\b).{1,20}this is.{5,25}from/i
+
+/(dear|greetings?|good day|hello|hi\b).{1,10}i am.{1,15}seeking/i
 /(dear|greetings?|good day|hello|hi\b).{1,10}i work (as|with) a/i
 
+/(dear|greetings?|good day|hello|hi\b).{1,10}we are.{1,20}(manufacturer?|supplier)/i
 /(dear|greetings?|good day|hello|hi\b).{1,10}we are.{1,10}supplier/i
+/(dear|greetings?|good day|hello|hi\b).{1,10}we got.{1,10}your name/i
 
 /(greetings?|good day|hello|hi\b).{1,5}sir.{1,5}(madam|mam)/i
 
@@ -124,6 +142,7 @@
 
 /(dear|hello|hi\b).{1,10}(esteemed|valued) customer.{1,10}(good day|how are you|this is)/i
 /(dear|hello|hi\b).{1,10}(esteemed|valued) customer.{1,10}our (company|factory|firm)/i
+/(dear|hello|hi\b).{1,10}greetings.{1,10}i am.{5,25}manager/i
 
 /(dear|hi).{1,10}friend.{1,10}nice day/i
 /(dear|hi).{1,10}i am.{5,35}i have been diagnosed/i
@@ -153,10 +172,11 @@
 /dear.{1,10}supplier.{1,15}send me a quote/i
 /dear.{1,10}we confirm that your exchange/i
 
-/DEAR SIR/
-
 /dear sir.{1,10}we are interested/i
+
 /dearest one.{1,10}accept my greetings/i
+/dearest one.{1,10}introducing myself as/i
+/dearest possible{1,10}companion/i
 
 /dear ,.{1,10}we wanted to inform you/i
 
@@ -350,13 +370,17 @@
 
 # R
 # ------------------------------------------------------------------------------
+/respected.{1,10}e?.?mail.?user/i
 
 # S
 # ------------------------------------------------------------------------------
 /salaam.{1,10}my name is/i
 /salaam.{1,10}we are impressed/i
 
+/salaam sir.{1,5}madam/i
+
 # T
+# ------------------------------------------------------------------------------
 /top of the day to you/i
 
 # U

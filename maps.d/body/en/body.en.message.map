@@ -22,9 +22,12 @@
 /(attn|attention).{1,10}lucky one/i
 
 /(attn|attention).{1,10}i am.{1,10}(attorney|bar\.|seeking)/i
+/(attn|attention).{1,10}i am (mrs?|ms)/i
 /(attn|attention).{1,10}i am.{1,10}reaching out/i
 
 /(attn|attention).{1,10}(beneficiary|ceo|honorable|madam|managing partner|president|relative|sir|vendor)/i
+/(attn|attention).{1,10}my name is/i
+
 /(attn|attention).{1,10}read this message/i
 /(attn|attention).{1,10}owner/i
 /(attn|attention).{1,10}this is very urgent/i

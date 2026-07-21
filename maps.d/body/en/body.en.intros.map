@@ -8,7 +8,7 @@
 #
 # ------------------------------------------------------------------------------
 # Language: english
-# Weight:   6.0
+# Weight:   12.0
 # ==============================================================================
 
 # Generic
@@ -66,38 +66,47 @@
 /glad to (know|hear) that you.{1,10}on the market for/i
 /glad to (know|hear) that you.{1,15}professional/i
 
+/glad to write to you.{1,10}keen hope to open/i
+
 # H
 # ------------------------------------------------------------------------------
 /hope this e?.?mail finds you well.{1,10}i.?a?m (miss|mrs?|ms)/i
 /hope this e?.?mail finds you well.{1,10}my name is/i
 /hope this e?.?mail finds you well.{1,10}we are.{1,10}professional/i
 
-/hope you.{1,10}doing well.{1,10}my name is/i
+/hope you.{1,15}well.{1,10}my name is/i
+/hope you.{1,15}well.{1,10}this is.{5,25}from/i
+
+/how are you.{1,10}click/i
+/how are you.{1,10}confirm your.{1,10}e?.?mail/i
 
 /how are you.{1,15}following up to confirm/i
 /how are you.{1,15}this is.{5,35}member from/i
 /how are you.{1,15}this is mrs?/i
+/how are you.{1,10}we learned that you/i
 
 # I
 # ------------------------------------------------------------------------------
 /i am (engr|madam)/i
 
 /i am.{5,35}accomplished investment/i
-/i am contacting you.{1,10}after making/i
-/i am delighted to contact you/i
+/i am.{1,10}contacting you.{1,10}after making/i
+/i am.{1,10}delighted to contact you/i
 /i am.{5,35}glad to contact you/i
 
-/i am reaching out.{1,10}acquaint our company/i
-/I am reaching out.{1,10}express my interest/i
-/i am reaching out.{1,10}with a sincere heart/i
+/i am.{1,10}reaching out.{1,10}acquaint our company/i
+/I am.{1,10}reaching out.{1,10}express my interest/i
+/i am.{1,10}reaching out.{1,10}with a sincere heart/i
 
-/i am presently working as a/i
-/i am writing to introduce/i
+/i am.{1,10}presently working as a/i
 
+/i am {1,10}writing to.{1,10}introduce/i
+/i am.{1,10}writing to.{1,10}seek.{1,10}attention/i
+
+/i have (less than|only).{1,15}(month|weeks) to live/i
 
 /i represent a team of over/i
 
-/i am writing to.{1,10}seek.{1,10}attention/i
 
 /i.{1,10}represent(ing)?.{1,10}(company|my)/i
 /i.{1,10}represent(ing)?.{1,10}leading.{1,20}institution/i
@@ -105,6 +114,7 @@
 /i (came across|found) your.{1,10}(contact|details|e?.?mail|information|name|profile)/i
 /i (came across|found) your.{1,10}web.?site.{1,10}google/i
 
+/i have been diagnosed with.{1,15}cancer/i
 /i hold the position.{1,15}(director|finance)/i
 
 /i was inspired after.{1,20}your.{1,15}profile/i
@@ -162,7 +172,9 @@
 /(\bi\s*(am|'m)\b|my name is).{5,35}(dr\.|sir)/i
 /(\bi\s*(am|'m)\b|my name is).{5,35}(miss|mrs?|ms)/i
 
+/introduce myself.{1,10}member of/i
 /introduce myself.{1,10}my name is/i
+
 /introduce our company/i
 /introduce you to my company/i
 
@@ -178,12 +190,21 @@
 
 # L
 # ------------------------------------------------------------------------------
+/ladies and gentlemen.{1,10}i.?a?m (miss|mrs?|ms)/i
 
 # M
 # ------------------------------------------------------------------------------
 /mine real name is/i
 
+# Without leading "i am"
+/(miss|mrs?|ms).{5,25}a citizen of/i
+/(miss|mrs?|ms).{5,25}libian nationality/i
+/(miss|mrs?|ms).{5,25}from.{1,10}kuwait/i
+
+/my days on.{1,10}earth are numbered/i
+
 /my names? (are|is) (miss|ms\b|mrs?)/i
+
 /my name is.{5,35}a registered/i
 /my name is.{5,25}emailing you about/i
 /my name is.{5,25}employee of/i
@@ -252,10 +273,15 @@
 
 # T
 # ------------------------------------------------------------------------------
+/this is.{5,25}did you receive.{1,10}e?.?mail/i
+
 /this is.{5,25}from.{5,25}electronics/i
 /this is.{5,25}from.{5,25}(limited|ltd)/i
 /this is.{5,25}from.{5,25}(co|pe)\..{0,5}(limited|ltd)/i
-/this is.{5,20}from.{5,20}(manufacturer of|reliable)/i
+/this is.{5,20}from.{5,20}(company|manufacturer|reliable)/i
+
+/this is.{5,25}from.{5,25}we are focus on/i
+
 /this is.{5,20}from.{5,20}mould/i
 /this is.{5,25}from.{5,25}nice to meet you/i
 /this is.{5,25}from.{1,10}shenzhen/i
@@ -263,6 +289,8 @@
 
 /this is.{5,30}sales representative from/i
 /this is.{5,25}the head of/i
+
+/this is.{5,25}we are specialized/i
 /this is.{5,25}we can supply/i
 
 /this.{1,10}e?.?mail.{1,10}come to you as.{1,10}surprise/i
@@ -293,12 +321,17 @@
 
 /we got.{1,10}contact from your.{1,10}instagram/i
 
+/with all due respect.{1,10}my name is/i
+
+/writing to you based on trust/i
+
 # X
 # ------------------------------------------------------------------------------
 
 # Y
 # ------------------------------------------------------------------------------
 /you are (doing|going) well.{1,10}my name is/i
+/you through this medium.{1,10}my name is/i
 /you with.{1,10}keen hope to open.{1,10}business/i
 
 /your (contact|details|e?.?mail|information|name).{1,10}business directory/i
@@ -310,6 +343,8 @@
 /your (contact|details|e?.?mail|information|name).{1,20}from.{1,15}(data.?base|marketing)/i
 /your (contact|details|e?.?mail|information|name).{1,20}through.{1,10}online ad/i
 /your (contact|details|e?.?mail|information|name).{1,20}was provided as an active/i
+
+/your.{1,10} privacy.{1,10}my name is/i
 
 /your.{1,15}profile.{1,10}(caught|drew) my.{1,10}attention/i
 /your.{1,15}profile.{1,10}jumped out at me/i
