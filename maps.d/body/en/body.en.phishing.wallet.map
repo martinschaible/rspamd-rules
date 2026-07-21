@@ -73,6 +73,9 @@
 
 # R
 # ------------------------------------------------------------------------------
+/regain access.{1,10}your.{1,10}wallet/i
+/requires.{1,10}all users.{1,10}verify.{1,10}wallets/i
+
 /rolling out.{1,10}wallet update/i
 
 # S
@@ -99,7 +102,11 @@
 
 # Y
 # ------------------------------------------------------------------------------
-/your.{1,10}wallet has not yet been verified/i
+/your.{1,10}wallet.{1,10}been upgraded/i
+/your.{1,10}wallet.{1,10}continues to function normally/i
+/your.{1,10}wallet.{1,10}has not yet been verified/i
+/your.{1,10}wallet.{1,10}may be at risk/i
+/your.{1,10}wallet.{1,10}not been synchronized/i
 
 # Z
 # ------------------------------------------------------------------------------
