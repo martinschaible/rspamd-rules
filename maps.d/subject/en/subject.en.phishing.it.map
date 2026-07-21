@@ -43,6 +43,7 @@
 
 # C
 # ------------------------------------------------------------------------------
+/cloud.{1,10}your plan is full/i
 
 # D
 # ------------------------------------------------------------------------------
@@ -98,7 +99,9 @@
 
 # S
 # ------------------------------------------------------------------------------
+/server administrator.{1,10}(it|support)/i
 /server upgrade.{1,10}improved performance/i
+
 /service.?request.{1,30}domain renewal/i
 
 /storage is full.{1,10}click to upgrade/i

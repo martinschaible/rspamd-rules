@@ -127,6 +127,7 @@
 
 /paypal.{1,10}ref.?nr\./i
 /paypal.{1,10}referenznummer/i
+/paypal.{1,10}please review/i
 /paypal.{1,10}support/i
 
 /postbank.{1,10}best.?sign/i
@@ -140,6 +141,8 @@
 
 # R
 # ------------------------------------------------------------------------------
+/rechnung swisspass.{1,10}fällig bis/iu
+
 /reminder.{1,10}your netflix payment/i
 
 # S
