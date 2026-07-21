@@ -16,9 +16,6 @@
 # ------------------------------------------------------------------------------
 /(geschätzter|hallo|händen|lieber|sehr geehrter).{1,15}begünstigter?/iu
 
-# Scam
-# ------------------------------------------------------------------------------
-/hallo.{1,10}sie wurden ausgewählt/iu
 
 #
 #
@@ -152,6 +149,8 @@
 
 # H
 # ------------------------------------------------------------------------------
+/hallo.{1,10}(auserwählte|geliebte)/iu
+
 /hallo.{1,10}(das|dies) ist ihre letzte chance/i
 /hallo.{1,10}damen und herren/i
 
@@ -163,8 +162,11 @@
 /hallo.{1,10}ich bin.{5,35}von.{10,30}ltd/i
 
 /hallo.{1,10}(bezaubernder|geheimnisvoller|unbekannter|unberechenbarer)/i
+/hallo.{1,10}(hübscher?|schöne).{1,10}fremder?/iu
 /hallo.{1,10}dieses schreiben dient als endgültige/iu
 
+/hallo.{1,10}ein betrag von/i
+/hallo.{1,10}freund.{1,10}mein name ist/i
 /hallo.{1,10}ehrenwwert/iu
 /hallo.{1,10}erlauben sie mir/i
 
@@ -177,8 +179,18 @@
 
 /hallo.{1,10}ich benötige.{1,15}ihre hilfe/iu
 
+/hallo.{1,10}ich bin.{5,25}aus.{1,10}deutschland/i
 /hallo.{1,10}ich bin.{1,10}(finanzberater|web.?designer)/i
+
+/hallo.{1,10}ich bin.{5,25}ceo (der|von)/i
+/hallo.{1,10}ich bin.{5,25}eine?.{1,15}milliardär(in)?/iu
+/hallo.{1,10}ich bin.{5,25}eine?.{1,15}person/i
+
+/hallo.{1,10}ich bin.{5,25}ich bin.{1,10}jahre alt/i
+/hallo.{1,10}ich bin.{5,25}ich komme aus/i
 /hallo.{1,10}ich bin.{1,10}single/i
+/hallo.{1,10}ich bin.{5,25}und schreibe dir/i
+/hallo.{1,10}ich bin.{5,25}von beruf/i
 
 /hallo.{1,10}ich habe spenden?/i
 /hallo.{1,10}ich muss mit ihnen sprechen/i
@@ -194,17 +206,28 @@
 /hallo.{1,10}interessanter mensch/i
 
 /hallo.{1,10}mein lieber.{1,10}ich heiße/i
+
 /hallo.{1,10}mein name ist.{5,25}ich bin.{1,10}jahre alt/i
 /hallo.{1,10}mein name ist.{5,25}ich bin.{1,10}mitarbeiter/i
 /hallo.{1,10}mein name ist.{5,25}ich wende mich von/i
+
 /hallo.{1,10}mein profil ist/i
 
 /hallo.{1,10}perverser/i
+
 /hallo.{1,10}sehr geehrter kunde/i
 /hallo.{1,10}seitenadministrator/i
+
+/hallo.{1,10}sie wurden ausgewählt/iu
+/hallo.{1,10}sie wurden von einem online/i
+
+/hallo.{1,10}unsere namen sind/i
+
 /hallo.{1,10}wenn sie finanzielle/i
 
+/hallo.{1,10}wie geht es dir.{1,10}ich möchte etwas mit dir besprechen/iu
 /hallo.{1,10}wie geht es ihnen/i
+
 /hallo.{1,10}wir schreiben ihnen/i
 /hallo.{1,10}wir sind ein in/i
 
@@ -213,6 +236,8 @@
 /hallo von (frau|herr)/i
 # Used for ransom attacks 
 /hallo perversling/i
+
+/hallo.{1,10}verzeihen sie mein eindringen/i
 
 /hallo.{1,10}wir freuen uns.{1,10}ihnen mitteilen/i
 
