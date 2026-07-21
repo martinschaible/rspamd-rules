@@ -382,6 +382,8 @@
 
 /bed.{0,10}(hack|stretch)/i
 /bed.?time.{0,10}(brew|habit|move|note|reset|solution)/i
+/bed.?time.{0,10}update/i
+
 /bedroom.{0,10}(fix|master|secrets?)/i
 
 /belly.{0,10}(bulge|burn|massage|tip)/i
@@ -650,7 +652,9 @@
 /erase.{0,10}fat/i
 /estrogen.{0,10}belly/i
 /everyday.{0,10}(remedies|smile)/i
+
 /(exotic|kitchen).{0,10}(flower|spice)/i
+/exotic.{0,10}veggie/i
 
 /(expert|neurologist).{0,15}(recommends?|recommendation|reveals)/i
 

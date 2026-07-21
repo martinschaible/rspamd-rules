@@ -208,6 +208,8 @@
 /storage.{0,10}(alert|icloud)/i
 /strato.{0,10}rechnung/i
 
+/secure.{0,10}recovery/i
+
 /(service|support).{0,5}apple/i
 /(service|support).{0,10}(hetzner|microsoft)/i
 /(service|support).{0,10}(roundcube)/i

@@ -87,8 +87,9 @@
 /adac.{0,10}(abteilung|deutschland|exklusiv|forschung|gmbh|insider|mitglieder|online)/i
 /adac.{0,10}logistik/i
 /adac.{0,10}mitglied$/i
-/adac.{0,10}(karten.?service|kreditkarte|kundencenter|kundendienst)/i
-/adac.{0,10}(services?|sicherheit|support)/i
+/adac.{0,10}(kreditkarte|kundencenter|kundendienst)/i
+/adac.{0,15}(services?|sicherheit|support)/i
+/adac.{0,15}system.?meldung/i
 /adac.{0,10}zentrum/i
 
 #

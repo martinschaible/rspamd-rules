@@ -171,7 +171,7 @@
 /free.{0,10}gear/i
 /franking.{0,10}machine/i
 
-/fuel.{0,10}saver/i
+/fuel.{0,10}(saver|savings)/i
 
 /furniture.{0,10}plans?/i
 
@@ -396,7 +396,9 @@
 
 /tracking.{0,10}card/i
 /translation.{0,10}(device|services?)/i
-/traveler.{0,10}deals/i
+
+/travel(er)?.{0,10}deals/i
+/travel(er)?.{0,10}wi.?fi/i
 
 /trend.{0,10}toys/i
 

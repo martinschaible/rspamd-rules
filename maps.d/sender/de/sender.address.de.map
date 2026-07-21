@@ -14,7 +14,9 @@
 # Sample: Sales098@topmail.com
 /brille\d{1,15}@/i
 /freunde\d{1,15}@/i
-/(gratis|kontakt|versand)\d{1,15}@/i
+
+/(gewinn|gratis)\d{1,15}@/i
+/(kontakt|versand)\d{1,15}@/i
 
 #
 #

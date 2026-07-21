@@ -61,9 +61,9 @@
 
 # Combined
 # ==============================================================================
-/(adac|metamask|netflix).{0,10}(account|assistance|billing|customer|help.?desk)/i
-/(adac|metamask|netflix).{0,10}(info.?desk|notifications?|protection)/i
-/(adac|metamask|netflix).{0,10}(security|service|support|team|update|user|verification|wallet)/i
+/(metamask|netflix).{0,10}(account|assistance|billing|customer|help.?desk)/i
+/(metamask|netflix).{0,10}(info.?desk|notifications?|protection)/i
+/(metamask|netflix).{0,10}(security|service|support|team|update|user|verification|wallet)/i
 
 # Copyright/Trademark sign
 /(aave|adac|apple).?(™|®|©)$/i

@@ -39,6 +39,9 @@
 /(dhl|fedex|gls|ups).{0,5}schweiz/i
 
 #
+/(d h l|d p d|f e d e x|g l s|h e r m e s|u p s)/i
+
+#
 /_(dhl|dpd|fedex|gls|ups)/i
 /\[(dhl|dpd|fedex|gls|ups)\]/i
 /(dhl|dpd|fedex|gls|ups).?\|/i
