@@ -33,13 +33,6 @@
 /wir heute eine internationale zahlung/i
 /können wir bezahlen.{1,15}heute/i
 
-# Cloud  Storage
-# ------------------------------------------------------------------------------
-/cloud.?konto wurde gesperrt/i
-/cloud.?speicher ist vollständig ausgelastet/iu
-
-/riskieren sie eine sperrung des zugriffs/i
-
 # Insolvenz
 # ------------------------------------------------------------------------------
 /(insolvenzverfahren|liquidierungen|insolvenzverwaltung).{1,10}(anbieten|bieten wir|verwerten)/i
@@ -138,13 +131,6 @@
 /dies ist eine mitteilung der bundesverwaltung/i
 
 /durchsage an alle kunden/i
-
-# Swiss Dialect
-/(dere|dini) domain/i
-/domain erneuere/i
-
-/domain ist.{1,10}nicht aktiv.{1,10}die laufzeit abgelaufen ist/i
-/domain ist aktuell abgelaufen/i
 
 # E
 # ------------------------------------------------------------------------------

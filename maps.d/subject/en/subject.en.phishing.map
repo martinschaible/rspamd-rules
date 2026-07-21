@@ -12,7 +12,6 @@
 # TLD in front, usualy (ch|com|de|org)
 # ------------------------------------------------------------------------------
 /\.[a-z]{1,4}.{1,5}reminder/i
-/\.[a-z]{1,4}.{1,5}storage is almost full/i
 
 # Invoices
 # ------------------------------------------------------------------------------
@@ -67,7 +66,6 @@
 
 # B
 # ------------------------------------------------------------------------------
-/before your backup fails/i
 
 # C
 # ------------------------------------------------------------------------------
@@ -83,8 +81,6 @@
 # ------------------------------------------------------------------------------
 /delete notice{1,5}attn/i
 
-/device update request/i
-
 /don’t lose access to/i
 
 # E
@@ -93,12 +89,9 @@
 
 # F
 # ------------------------------------------------------------------------------
-/file deletion scheduled/i
-/files rejected.{1,10}storage full/i
 
 # G
 # ------------------------------------------------------------------------------
-/get more space to avoid losing files/i
 /gift.?card.{1,10}opportunity/i
 
 # H
@@ -115,8 +108,6 @@
 
 # L
 # ------------------------------------------------------------------------------
-/Last chance to save your photos/i
-
 /licensing.{1,15}used without authorization/i
 
 /limited the visibility of your.{1,10}campaign/i
@@ -154,10 +145,6 @@
 # ------------------------------------------------------------------------------
 /secure your.{1,15}(access|wallet)/i
 
-/server upgrade.{1,10}improved performance/i
-/service.?request.{1,30}domain renewal/i
-
-/storage is full.{1,10}click to upgrade/i
 /sponsored post{1,10}https/i
 
 # T
@@ -173,8 +160,6 @@
 
 # Policy violations
 /update.{1,15}advertising (notice|requests).{1,10}(contacts|first strike)/i
-
-/upgrade.{1,10}instant relief/i
 
 # V
 # ------------------------------------------------------------------------------
@@ -194,15 +179,6 @@
 
 # Y
 # ------------------------------------------------------------------------------
-/your.{1,10}data will be removed in.{1,10}hours/i
-/your.{1,10}domain service needs attention/i
-
-/your.{1,10}files are about to be lost/i
-
-/your.{1,10}photos are not saving/i
-/your.{1,10}photos will be deleted tonight/i
-
-/your.{1,10}storage usage immediately/i
 /your.{1,10}tax records require.{1,10}(attention|immediate)/i
 
 # Z

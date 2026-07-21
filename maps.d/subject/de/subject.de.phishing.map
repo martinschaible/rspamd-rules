@@ -250,8 +250,6 @@
 /ihre.{1,10}firmendaten aktualisieren/i
 /ihre.{1,10}(mobil|telefon).?nummer bestätigen/iu
 
-/ihre?.{1,15}wallet wird gesperrt/i
-
 /ihre offene verkehrsstrafe/i
 /ihre parkgebühr ist noch offen/iu
 /ihre überprüfung wird empfohlen/iu
@@ -310,7 +308,6 @@
 # M
 # ------------------------------------------------------------------------------
 /mit der richtigen adresse/i
-/mit neuem gerät anmelden/iu
 
 /mitteilung der bundesbehörde/iu
 /mitteilung zu ihrem zugang/i
@@ -448,12 +445,7 @@
 /verbindliche.{1,10}anweisung.{1,10}jahresabschluss/i
 /verbindliche.{1,10}geräteverifizierung/iu
 
-/Verifizierung Ihrer Daten/i
-
-# Google Speicher
-/verlieren sie.{1,15}videos.{1,15}bilder nicht/i
-
-/verlieren sie nicht den zugriff auf/i
+/verifizierung ihrer daten/i
 
 /vertrag.{1,10}aktuelle abrechnung/i
 /vertrauenswürdige(n|r).{1,10}zugriffs?/i
