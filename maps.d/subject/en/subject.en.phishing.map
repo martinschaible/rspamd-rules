@@ -12,6 +12,7 @@
 # TLD in front, usualy (ch|com|de|org)
 # ------------------------------------------------------------------------------
 /\.[a-z]{1,4}.{1,5}reminder/i
+/\.[a-z]\d{2,4} to continue/i
 
 # Invoices
 # ------------------------------------------------------------------------------
@@ -43,14 +44,6 @@
 /improper use of.{1,10}protected audio/i
 /improper use of.{1,20}in media content/i
 
-# TLD in front, usualy (ch|com|de|org)
-# ------------------------------------------------------------------------------
-/\.[a-z]\d{2,4} to continue/i
-
-# Subject pretending to be from the IT department
-# ------------------------------------------------------------------------------
-/server administrator.{1,10}(it|support)/i
-
 #
 #
 #
@@ -74,8 +67,6 @@
 
 /confirm your tax residency/i
 /credit contact missing/i
-
-/cloud.{1,10}your plan is full/i
 
 # D
 # ------------------------------------------------------------------------------
@@ -129,7 +120,6 @@
 
 # P
 # ------------------------------------------------------------------------------
-/paypal.{1,10}please review/i
 /please confirm to continue/i
 
 /processing form.{1,10}signature requested/i
@@ -145,7 +135,7 @@
 # ------------------------------------------------------------------------------
 /secure your.{1,15}(access|wallet)/i
 
-/sponsored post{1,10}https/i
+/sponsored post.{1,10}https/i
 
 # T
 # ------------------------------------------------------------------------------
@@ -169,7 +159,6 @@
 
 # W
 # ------------------------------------------------------------------------------
-/wallet updates?.{1,10}required/i
 /was used to sign in to.{1,10}trust/i
 
 /we.{1,10}refreshing records/i
