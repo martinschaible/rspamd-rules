@@ -58,34 +58,34 @@ Folder structure:
 
 ```
 base
-  ├─ base.country.map                            ─┐
-  ├─ base.body.charenc.koi8r.map              *   │
-  ├─ base.body.charenc.windows1251.map        *   ├─ multimap.base.conf
-  ├─ base.body.markup.hidden.map                  │
-  ├─ base.body.markup.map                        ─┘
+  ├─ base.country.map
+  ├─ base.body.charenc.koi8r.map              *
+  ├─ base.body.charenc.windows1251.map        *
+  ├─ base.body.markup.hidden.map
+  ├─ base.body.markup.map
   │
   ├─ href
-  │   ├─ base.body.href.domain.map            *  ─┐
-  │   ├─ base.body.href.domain.ip.map         *   │
-  │   ├─ base.body.href.domain.tld.map        *   │
-  │   ├─ base.body.href.domain.google.map     *   │
-  │   ├─ base.body.href.nossl.map             *   ├─ multimap.base.body.href.conf
-  │   ├─ base.body.href.path.map              *   │
-  │   ├─ base.body.href.path.filename.map     *   │
-  │   └─ base.body.href.path.wordpress.map    *  ─┘
+  │   ├─ base.body.href.domain.map            *
+  │   ├─ base.body.href.domain.ip.map         *
+  │   ├─ base.body.href.domain.tld.map        *
+  │   ├─ base.body.href.domain.google.map     *
+  │   ├─ base.body.href.nossl.map             *
+  │   ├─ base.body.href.path.map              *
+  │   ├─ base.body.href.path.filename.map     *
+  │   └─ base.body.href.path.wordpress.map    *
   │
   └─ img
-      ├─ base.body.img.domain.ip.map          *  ─┐
-      ├─ base.body.img.domain.tld.map         *   │
-      ├─ base.body.img.domain.name.map        *   ├─ multimap.base.body.img.conf
-      ├─ base.body.img.nossl.map              *   │
-      ├─ base.body.img.path.map               *   │
-      └─ base.body.img.shortener.map          *  ─┘
+      ├─ base.body.img.domain.ip.map          *
+      ├─ base.body.img.domain.tld.map         *
+      ├─ base.body.img.domain.name.map        *
+      ├─ base.body.img.nossl.map              *
+      ├─ base.body.img.path.map               *
+      └─ base.body.img.shortener.map          *
 
 lists
-  ├─ list.tld.map                             *  --- multimap.base.body.href.conf
-  │                                           *  --- multimap.sender.address.conf
-  └─ list.url.shortener.map                   *  --- multimap.base.body.href.conf
+  ├─ list.tld.map                             *
+  │                                           *
+  └─ list.url.shortener.map                   *
 ```
 
 * -> "one_shot" is set
@@ -220,8 +220,10 @@ body
   │   ├─ body.de.sale.seo.map
   │   ├─ body.de.sale.specific.map
   │   └─ body.de.sale.website.map
-  └─ en
-      └─ ....
+  ├─ en
+  │    └─ ....
+  │
+  └─ body.sale.orgbrandproduct.map                         **
 
 sender
   ├─ de
@@ -346,8 +348,6 @@ body
   └─ en
       └─ ....
 ```
-
-* x -> Not yet implemented
 
 ### Setup for "header"
 ```
