@@ -162,7 +162,9 @@
 # Sample: Kontoinformationen - 420998446741
 /kontoinformationen.{1,10}\d{4,20}/i
 
-/kontodaten.{1,5}verifizierung/i
+/kontodaten.{1,10}frist/i
+/kontodaten.{1,10}verifizierung/i
+
 /kontosicherheit.{1,5}ref\./i
 /kontosperrung zu vermeiden/i
 /kontosperrung droht.{1,10}(ref(erenz)?|id)/i
@@ -298,7 +300,8 @@
 # ------------------------------------------------------------------------------
 /verbindliches konto.?update/i
 
-/verifizierung ihrer kontaktdaten/i
+/verifizierung ihrer (konto|profil).?daten/i
+/verifizierung ihrer kontakt.?daten/i
 /verifizierung noch ausstehend/i
 
 /vermeiden sie die aussetzung/i

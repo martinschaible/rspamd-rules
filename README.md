@@ -257,6 +257,7 @@ body
   ├─ de
   │   ├─ body.de.scam.map
   │   │
+  │   ├─ body.de.scam.awards.map                           **
   │   ├─ body.de.scam.business.map
   │   ├─ body.de.scam.bignumbers.map
   │   ├─ body.de.scam.donation.map
@@ -280,6 +281,7 @@ sender
 subject  
   ├─ de
   │   ├─ subject.de.scam.map
+  │   ├─ subject.de.scam.awards.map                        **
   │   ├─ subject.de.scam.bignumbers.map
   │   ├─ subject.de.scam.business.map
   │   ├─ subject.de.scam.donation.map

@@ -32,6 +32,7 @@
 
 # C
 # ------------------------------------------------------------------------------
+/(chatgpt|open.?ai):/i
 /(chatgpt|open.?ai).{0,5}account/i
 
 # D
@@ -44,8 +45,7 @@
 /(dhl|dpd)(-|_)ref/i
 
 /(dhl|dpd).{1,10}letzte mahnung/i
-# Sample: DPD Paket. 37854970
-/(dhl|dpd).{1,5}paket.{1,5}?\d{4,10}/i
+/(dhl|dpd).{1,5}paket/i
 
 /dh express/i
 
@@ -108,6 +108,7 @@
 /metamask.{1,10}was used to sign.?in/i
 
 /microsoft.{1,10}last reminder/i
+/microsoft.{1,10}payment issue/i
 
 /mytokyogas/i
 
@@ -163,6 +164,10 @@
 /swisscomm/i
 
 #/swiss post/i
+
+# Swisspass
+/sbb.{1,5}swisspass/i
+
 /^swisspass$/i
 
 # 20.12.24 - Real name: "swisspass"

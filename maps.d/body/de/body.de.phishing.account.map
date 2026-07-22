@@ -113,6 +113,8 @@
 
 /(kontakt|konto|profil).?(daten|details).{1,10}(aktualisieren|verifizieren)/i
 
+/konto für den.{1,15}zahlungsverkehr gesperrt/iu
+
 /(konto|profil).{1,10}aktivieren.{1,15}wird von ihnen eine gebühr/iu
 
 /(konto|profil).{1,10}aktualisierung.{1,15}funktionalität eingeschränkt/iu

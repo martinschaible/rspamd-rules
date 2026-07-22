@@ -134,6 +134,7 @@
 
 # I
 # ------------------------------------------------------------------------------
+/ihre vr eg/i
 /ihre volksbank eg/i
 
 /info.{0,10}dkb/i
@@ -299,7 +300,7 @@ volksbank(en)?.{0,10}direktion/i
 /vr.?(bank|gruppe).?eg/i
 /^vr eg$/i
 
-/vr.{0,5}(banking|kundenservice|verbund)/i
+/vr.{0,5}(banking|hauptstelle|kundenservice|verbund)/i
 
 # W
 # ------------------------------------------------------------------------------
