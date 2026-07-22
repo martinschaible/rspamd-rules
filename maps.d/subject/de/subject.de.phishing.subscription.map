@@ -13,38 +13,6 @@
 # Topics
 # ==============================================================================
 
-# Antivirus - Pressure buildup: System is infected
-# ------------------------------------------------------------------------------
-/\d{2,3}.{1,5}infizierte dateien erkannt/i
-
-/(bedrohungen|dateien) auf ihrem.{1,10}(computer|gerät|system).{1,10}erkannt/iu
-
-/blockiert.{1,10}ausstehender gerätescan/iu
-/handeln.{1,10}daten schützen/iu
-/hinweis.{1,10}verdächtige.{1,10}(system)?aktivität(en)?/i
-
-/prozesse erkannt auf ihrem.{1,10}(computer|gerät|system)/i
-
-/sie sind hackern ausgeliefert/i
-
-/sichern sie ihre daten sofort/i
-
-/sicherheitslücke.{1,10}entdeckt/iu
-/sicherheitsstatus.{1,10}jetzt scan/i
-
-/stellen sie die sicherheit.{1,10}wieder her/i
-
-/systempflege fällig/iu
-
-/(überprüfung|systemprüfung) empfohlen.{1,10}für ihr system/iu
-/(überprüfung|systemprüfung) empfohlen.{1,10}verdächtige aktivität/iu
-
-/verdächtige.{1,10}(system)?aktivität(en)?.{1,10}(erkannt|festgestellt|jetzt)/iu
-/verdächtige.{1,10}dateien erkannt.{1,10}schützen sie/iu
-
-/(viren|virus) infiziert.{1,10}jetzt.{1,10}(computer|gerät|system) scannen/iu
-/(viren|virus) in ihrem.{1,10}(computer|gerät|system)/iu
-
 #
 #
 #
