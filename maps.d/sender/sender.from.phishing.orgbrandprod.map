@@ -42,6 +42,7 @@
 # Meta
 # Miles & More
 # Miles & More Newsletter
+# myCSS
 # mySWICA
 # playstation
 # parkingpay
@@ -50,6 +51,7 @@
 # swisspass.ch
 # SwissPass Newsletter
 # Telekom Deutschland GmbH
+# The Google Ads Team
 # Wetransfer
 # ------------------------------------------------------------------------------
 
@@ -259,7 +261,7 @@
 # G
 # ------------------------------------------------------------------------------
 /google.{0,10}benachrichtigung/i
-/google.{0,10}(claim|inc|llc|team)/i
+/google.{0,10}(claim|inc|llc)/i
 /google.{0,10}gewinnspiel/i
 /google.{0,10}(one|online)/i
 /google.{0,10}support/i
@@ -316,7 +318,6 @@
 /miles&more/i
 /miles & more.{0,10}support/i
 
-/^mycss$/i
 /my-css/i
 /mycss.{0,5}krankenversicherung/i
 /mycss.{0,5}(team|via)/i
