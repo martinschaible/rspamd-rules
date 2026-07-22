@@ -15,12 +15,6 @@
 # Topics
 # ==============================================================================
 
-# French
-# ------------------------------------------------------------------------------
-# Selling address lists for spamming
-/emails à jour.{1,20}professionnels/i
-/une liste.{1,10}emails/i
-
 # Google Reviews
 # ------------------------------------------------------------------------------
 
@@ -31,74 +25,32 @@
 # Generic
 # ==============================================================================
 
-# Numeric
-# ------------------------------------------------------------------------------
-/202\d contact.?list/i
-/\d{3,5} client profiles/i
-
 # A
 # ------------------------------------------------------------------------------
 /accelerate your business/i
 
 /(accounts?|content) gets?.{1,10}followers/i
 
-/attendees (details|list).{1,10}202\d/i
-
 # B
 # ------------------------------------------------------------------------------
 /backlinks?.{1,10}services.{1,10}proposal/i
 /backlinks?.{1,10}(i|we) can help/i
 
-/boost.{1,10}leads.{1,10}sales/i
 /boost.{1,10}your instagram/i
 
-/bulk.{1,10}e?.?mail.{1,10}(marketing|strategies)/i
 /bulk.{1,10}mailing/i
-
-/business.{1,10}contacts now/i
-/business.{1,10}database.{1,25}to connect/i
-/business.{1,10}development proposal/i
 
 # C
 # ------------------------------------------------------------------------------
-/(casino|forex).{1,10}(databases?|leads)/i
-/cheap(er)? lead tools/i
-
-/customized list.{1,10}education/i
-
-/collaboration.{1,15}users.{1,10}(database|list)/i
-
-/company data.{1,10}contact.{1,10}e?.?mails/i
-/complete visitor.{1,10}(database|list)/i
-
-/connect with more.{1,10}customers/i
-/contact list of.{1,15}stores/i
-
-/(customers|visitors) database/i
 
 # D
 # ------------------------------------------------------------------------------
-/(database|list).{1,10}(germany|switzerland).{1,15}companies/i
-/(database|list).{1,10}database contains.{1,15}customers/i
-
 /digital marketing.{1,10}proposal/i
-
-/directory.{1,10}registered.{1,10}participants/i
 
 # E
 # ------------------------------------------------------------------------------
-/e?.?mail.{1,10}lists?.{1,10}202\d/i
-/e?.?mail.{1,10}lists?.{1,10}(for sale|lead|valid)/i
-
-/e?.?mail.{1,10}per leads?/i
-/e?.?mail.{1,10}platform.{1,20}campaigns/i
-/e?.?mail.{1,10}success starts with us/i
-
-/effortless.{1,10}e?.?mail.{1,10}marketing/i
-
 /(empower|enhance|make) your.{1,10}(brand|business)/i
 
-/(202\d|exclusive|tech).{1,10}attendees (details|list)/i
 /exclusive.{1,10}guest posting/i
 
 # F
@@ -108,18 +60,8 @@
 /followers.{1,15}youtube views/i
 /followers.{1,10}from.{1,10}ai content/i
 
-/(full|win).{1,10}(database|list).{1,10}for sale/i
-
 # G
 # ------------------------------------------------------------------------------
-/genuine leads/i
-
-/get.{1,15}business contacts/i
-/get.{1,15}instagram followers/i
-/get.{1,15}trustpilot reviews/i
-
-/(germany|switzerland).{1,10}company.{1,10}database/i
-
 /guest post(ing)?.{1,10}(backlinks|services)/i
 /guest post(ing)?.{1,10}(opportunities|opportunity)/i
 
@@ -127,7 +69,6 @@
 
 # H
 # ------------------------------------------------------------------------------
-/(hr|payroll|software).{1,15}users.{1,10}contact.{1,10}(database|list)/i
 
 # I
 # ------------------------------------------------------------------------------
@@ -138,8 +79,6 @@
 
 /instagram.{1,10}(marketing|service)/i
 
-/interested in the.{1,15}visitor.{1,10}(database|list)/i
-
 # J
 # ------------------------------------------------------------------------------
 
@@ -148,32 +87,17 @@
 
 # L
 # ------------------------------------------------------------------------------
-/leads.{1,10}(databases|samples?)/i
-/leads.{1,10}for sale/i
-/leads.{1,10}from.{1,10}(events|linked.?in)/i
-
-/^link affinity$/i
-/link building opportunities/i
-
-/list of attendees for.{1,15}202\d/i
-
 /looking.{1,10}(for|buy).{1,15}quality backlinks/i
 
 # M
 # ------------------------------------------------------------------------------
-/mailing.{1,10}for your clients/i
-/mailing.{1,10}lead generation/i
-
 /market entry.{1,10}built for/i
 /maximize.{1,10}sales.{1,10}(customer|engagement)/i
-
-/industry.?list.{1,10}202\d/i
 
 /mx tested e?.?mails/i
 
 # N
 # ------------------------------------------------------------------------------
-/new leads.{1,10}linkedin/i
 
 # O
 # ------------------------------------------------------------------------------
@@ -184,47 +108,27 @@
 
 # P
 # ------------------------------------------------------------------------------
-/professionals?.{1,10}e?.?mail.?list/i
-
-/promote to millions of people/i
-
 /providing.{1,10}e?.?mail delivery.{1,10}service/i
 
 # Q
 # ------------------------------------------------------------------------------
-/qualified.{1,10}leads/i
 /quality.{1,10}link.?building/i
 
 # R
 # ------------------------------------------------------------------------------
-/registered.{1,15}(contact|participants).{1,15}directory/i
-
 /reputable.{1,10}review.{1,10}(web)?site/i
 
 # S
 # ------------------------------------------------------------------------------
-/selling.{1,10}(e?.?mail.?addresses|leads)/i
-/selling.{1,10}(database|list)/i
-
 /send unlimited.{1,10}e?.?mails/i
 
 /social.?media.{1,10}management.{1,10}content.?creation/i
 /social.?media.{1,10}(boost|packages?|services?)/i
 
-/software users data/i
-
 /start your brand with just/i
 
 # T
 # ------------------------------------------------------------------------------
-/targeted.{1,10}verified/i
-/(targeted|verified).{1,15}(contact lists|e?.?mail.?list|leads)/i
-
-/thousands of leads/i
-
-/traffic.{1,10}increase sales/i
-
-/turn visitors into leads/i
 
 # U
 # ------------------------------------------------------------------------------
@@ -232,21 +136,16 @@
 
 /unlock.{1,15}instagram growth/i
 /unlock.{1,10}power.{1,10}wikipedia/i
-/unlock.{1,10}your leads?/i
 
 /unrestricted.{1,10}e?.?mail.{1,10}marketing/i
 /unrestricted.{1,10}reach to.{1,15}(clients|potential)/i
 
 # V
 # ------------------------------------------------------------------------------
-/verified client details/i
-
-/view.{1,10}business database/i
 
 # W
 # ------------------------------------------------------------------------------
 /we.{1,10}offer.{1,10}social media services/i
-/we.{1,10}provide.{1,15}(fresh|quality|targeted|verified).{1,15}leads/i
 /we.{1,10}support.{1,10}by.{1,10}connecting.{1,10}businesses/i
 
 /wikipedia.{1,10}for your/i
@@ -255,7 +154,6 @@
 
 /will help your.{1,15}stand out/i
 /with.{1,10}wikipedia listing/i
-/with full contact details/i
 
 # X
 # ------------------------------------------------------------------------------
@@ -263,14 +161,12 @@
 # Y
 # ------------------------------------------------------------------------------
 /you grow your.{1,10}(brand|business|online)/i
-/you utilizing.{1,10}visitors.{1,10}e?.?mails/i
 
 /your.{1,10}brand.{1,10}stand out/i
 /your.{1,10}brand.{1,10}online presence/i
 
 /your.{1,10}business (as|on).{1,25}wikipedia/i
 /your.{1,10}(content|instagram) deserves/i
-/your.{1,10}lead potential/i
 
 # Z
 # ------------------------------------------------------------------------------

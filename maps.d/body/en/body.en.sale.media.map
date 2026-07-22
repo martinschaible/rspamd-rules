@@ -9,10 +9,6 @@
 # Topics
 # ==============================================================================
 
-# Spanish
-# ------------------------------------------------------------------------------
-/emails com.{1,10}de custo.{1,10}sucesso.{1,10}vendas/i
-
 #
 #
 #
@@ -25,11 +21,6 @@
 /advertise.{1,10}to.{1,10}million.{1,10}e?.?mails/i
 
 /ai business team/i
-
-/(attendees|visitors).{1,10}list.{1,10}available.{1,30}(discounted|promotional)/i
-/(attendees|visitors).{1,10}list.{1,10}with.{1,10}exclusive fee/i
-
-/acquired.{1,10}event attendees/i
 
 /available.{1,10}guest posts?/i
 
@@ -55,51 +46,13 @@
 
 /campaigns on your behalf/i
 
-/(casino|companies|forex).{1,15}(databases?|leads)/i
-/(casino|companies|forex).{1,15}(addresses?|phone)/i
-/(casino|companies|forex).{1,15}complete business database/i
-
-/complete.{1,10}e?.?mail.?marketing.{1,10}for you/i
-
-/comprehensive.{1,10}contact.{1,10}company.{1,10}data/i
-/comprehensive.{1,10}dataset.{1,10}(companies|professionals)/i
-
-/contacts.{1,10}database covering.{1,15}europe/i
-
 /crypto casino/i
 
 # D
 # ------------------------------------------------------------------------------
-/database includes.{1,15}(name|title).{1,10}business e?.?mail/i
-/database includes.{1,10}verified.{1,15}contacts/i
-
-/discounted.{1,10}contact lists/i
 
 # E
 # ------------------------------------------------------------------------------
-/each.{1,10}million e?.?mails/i
-/each.{1,10}contact person with.{1,10}name/i
-
-/e?.?mail.{1,10}addresses.{1,10}for sale/i
-/e?.?mail.{1,10}are verified.{1,10}valid/i
-
-/e?.?mail.{1,10}campaigns?.{1,10}platform/i
-/e?.?mail.{1,10}campaigns?.{1,10}tailored to your/i
-
-/e?.?mail.{1,10}credits.{1,10}lead lists/i
-/e?.?mail.{1,10}marketing.{1,10}(bulk|mass).{0,10}mailing/i
-/e?.?mail.{1,10}maximum efficiency/i
-/e?.?mail.{1,10}with.{1,10}(efficiency|speed)/i
-
-/e?.?mail.{0,10}lists?.{1,10}202\d/i
-/e?.?mail.{0,10}lists collected from/i
-/e?.?mail.{0,10}lists?.{1,10}for your e?.?mail blasting/i
-/e?.?mail.{0,10}lists?.{1,10}leads/i
-/e?.?mail.{0,10}lists?.{1,10}rental/i
-/e?.?mail.{0,10}lists?.{1,10}of any country/i
-/e?.?mail.{0,10}lists?.{1,10}your.{1,10}marketing/i
-
-
 /e?.?mail.?marketing.{1,10}(free|for you|works)/i
 /e?.?mail.?marketing.{1,10}service.{1,10}boost/i
 
@@ -107,24 +60,13 @@
 
 /errors.{1,10}correspond with.{1,50}website traffic/i
 
-/event attendees.{1,10}contact list/i
-/event attendees.{1,10}e?.?mail.{1,10}(databases?|leads?|lists?)/i
-
 /expert.{1,10}guest blogger/i
 
 # F
 # ------------------------------------------------------------------------------
-/followers.{1,15}free for you/i
-
-/fresh leads daily with/i
 
 # G
 # ------------------------------------------------------------------------------
-/generate leads for you/i
-
-/get new.{1,10}leads for just/i
-/get the best.{1,10}e?.?mail.?lists/i
-
 /guest posts.{1,10}reputable websites/i
 /guest.?post.{1,10}services?/i
 
@@ -134,13 +76,6 @@
 
 # I
 # ------------------------------------------------------------------------------
-/includes names.{1,10}titles.{1,10}e?.?mails?/i
-
-/including complete.{1,15}(company|contact).{1,15}details/i
-/increasing.{1,10}leads.{1,10}sales/i
-
-/interested.{1,10}seeing.{1,10}sample file/i
-
 # Selling address databases
 /i accept only bitcoin/i
 
@@ -154,27 +89,14 @@
 
 # L
 # ------------------------------------------------------------------------------
-/leads.{1,10}e?.?mail.{1,10}addresses/i
-/leads.{1,10}databases/i
-/leads.{1,15}complete data fields/i
-
-/list is available.{1,15}your promotional/i
-/list includes.{1,10}contact information/i
-/list comes with.{1,10}unrestricted.{1,10}rights/i
-
 /looking.{1,10}(for|buy).{1,15}quality backlinks/i
-/looking.{1,20}qualified leads/i
 
 # M
 # ------------------------------------------------------------------------------
 /marketing plan that.{1,15}bring real value/i
-/millions?.{1,10}e?.?mails.{1,15}lowest price/i
-
-/mx tested e?.?mails/i
 
 # N
 # ------------------------------------------------------------------------------
-/new(ly)?.{1,10}validated.{1,10}business contacts/i
 
 # O
 # ------------------------------------------------------------------------------
@@ -194,11 +116,6 @@
 
 # S
 # ------------------------------------------------------------------------------
-/sample of.{1,10}contact.?list/i
-
-/sell.{1,10}million.{1,10}e?.?mails/i
-/selling e?.?mail.?lists/i
-
 /simple content creation tools/i
 
 /stay consistent.{1,10}grow audiences/i
@@ -210,61 +127,28 @@
 
 # T
 # ------------------------------------------------------------------------------
-/(targeted|verified).{1,15}b2b.{1,10}lead.{1,10}generation/i
-/(targeted|verified).{1,15}contact.?lists (from|of)/i
-/(targeted|verified).{1,15}databases?.{1,10}businesses.{1,10}operating/i
-/(targeted|verified).{1,15}e?.?mail.{1,10}(databases?|leads?|lists?)/i
-/(targeted|verified).{1,15}list.{1,10}decision.?makers/i
-/(targeted|verified).{1,15}data from.{1,10}target audience/i
-/(targeted|verified).{1,15}visitors.{1,10}for just/i
-
-/targeted.{1,15}e?.?mail.{1,10}campaigns.{1,10}generate/i
-/targeted.{1,15}e?.?mail.{1,10}sequence.{1,10}campaign/i
-
-
 /turning traffic into.{1,10}sales/i
 
 # U
 # ------------------------------------------------------------------------------
-/updated list of all companies in/i
-
 /unrestricted.{1,10}bulk mailing/i
 
 # V
 # ------------------------------------------------------------------------------
-/verified.{1,10}decision.?maker.{1,15}(e?.?mail|lists)/i
-/verified.{1,10}professional data sources/i
-/verified.{1,10}business contacts/i
-
-/visitors only.{1,10}no bots/i
 
 # W
 # ------------------------------------------------------------------------------
 /we are.{1,10}able.{1,10}grow.{1,10}followers/i
-/we are.{1,10}leading.{1,10}data solutions provider/i
-/we are.{1,10}offering.{1,15}leads/i
 
 /we.{1,10}help.{1,15}business solve/i
 /we.{1,10}help.{1,15}clients to reach new/i
-/we.{1,10}help.{1,15}companies.{1,20}(b2b|generate|leads|qualified)/i
 /we.{1,10}help.{1,10}companies identify/i
 /we.{1,10}help.{1,10}identify audiences/i
-
-/we.{1,10}have.{1,15}access.{1,15}your target audience/i
-/we.{1,10}have.{1,15}(compiled|curated).{1,20}(attendees?|contacts|registrants|visitors?)/i
-/we.{1,10}have.{1,15}sourced contact details/i
-/we.{1,10}have.{1,15}updated e?.?mail.?list of/i
 
 /we.{1,10}help (businesses|creators|organizations).{1,10}(establish|grow)/i
 
 /we.{1,10}offer(ing)?.{1,20}ai.?powered solution to fix them/i
 /we.{1,10}offer(ing)?.{1,20}bulk.{1,10}e?.?mailing tools/i
-/we.{1,10}offer(ing)?.{1,20}targeted.{1,15}(contact|list)/i
-
-/we.{1,10}provide.{1,15}(accurate|customizable).{1,15}datasets/i
-/we.{1,10}provide.{1,15}contacting website owners/i
-/we.{1,10}provide.{1,15}high(ly)?.{1,10}targeted.{1,20}contact/i
-/we.{1,10}provide.{1,15}verified.{1,10}reliable.{1,10}marketing data/i
 
 /we.{1,10}send.{1,10}targeted.{1,10}(campaigns|e?.?mail)/i
 
@@ -279,30 +163,8 @@
 
 # Y
 # ------------------------------------------------------------------------------
-/you be interested in.{1,10}data lists?/i
 /you looking.{1,15}e?.?mail.?marketing/i
 
-/you.{1,10}(are|interested|want).{1,10}(accessing|acquiring|purchase|purchasing|receive|receiving).{1,10}list/i
-/you.{1,10}(are|interested|want).{1,10}(accessing|acquiring|purchase|purchasing|receive|receiving).{1,10}contact.{1,10}details of/i
-
-/you.{1,10}(are|interested|want).{1,10}(accessing|acquiring|purchase|purchasing|receive|receiving).{1,15}any specific/i
-/you.{1,10}(are|interested|want).{1,10}(accessing|acquiring|purchase|purchasing|receive|receiving).{1,15}(attendees?|contacts|registrants|visitors?)/i
-/you.{1,10}(are|interested|want).{1,10}(accessing|acquiring|purchase|purchasing|receive|receiving).{1,10}linkedin.{1,10}leads/i
-/you.{1,10}(are|interested|want).{1,10}(accessing|acquiring|purchase|purchasing|receive|receiving).{1,10}unlimited targeted/i
-/you.{1,10}(are|interested|want).{1,10}(accessing|acquiring|purchase|purchasing|receive|receiving).{1,10}(event|tradeshow).{1,10}attendees/i
-/you.{1,10}(are|interested|want).{1,10}(accessing|acquiring|purchase|purchasing|receive|receiving).{1,10}tradeshow.{1,10}event/i
-/you.{1,10}(are|interested|want).{1,10}(accessing|acquiring|purchase|purchasing|receive|receiving).{1,10}software.{1,10}users/i
-/you.{1,10}(are|interested|want).{1,10}(accessing|acquiring|purchase|purchasing|receive|receiving).{1,10}verified list/i
-
-/you.{1,10}(are|interested|want).{1,10}(acquiring|purchase|purchasing|receive).{1,10}targeted.{1,10}e?.?mail/i
-/you.{1,10}looking for.{1,10}(targeted|verified) list of users/i
-
-/you.{1,10}interested.{1,10}e?.?mail.?(list|marketing)/i
-
-/you.{1,10}connect with.{1,15}decision.?makers/i
-/you.{1,10}counts.{1,10}samples/i
-
-/your.{1,10}business with.{1,10}leads/i
 /your.{1,10}digital presence could be optimized/i
 
 

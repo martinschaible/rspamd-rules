@@ -34,8 +34,6 @@
 
 # A
 # ------------------------------------------------------------------------------
-/aktuellen.{1,10}datenbank von/i
-
 /auffällige.{1,15}bewertung entdeckt/iu
 
 # B
@@ -46,23 +44,15 @@
 
 # C
 # ------------------------------------------------------------------------------
-/(casino|crypto).{1,10}leads/i
 
 # D
 # ------------------------------------------------------------------------------
-/datenbank(en)?.{0,20}(deutschen|schweizer|unternehmen)/i
 
 # E
 # ------------------------------------------------------------------------------
-/e?.?mail.{0,10}(adressen|listen) zu verkaufen/i
-/e?.?mail.{0,10}versand.{0,10}service/i
-
-/kontaktdaten.{1,10}zu verkaufen/i
 
 # F
 # ------------------------------------------------------------------------------
-/firmendaten aus.{1,10}(deutschland|schweiz)/i
-
 /frage zu google.?bewertungen/i
 
 # G
@@ -86,8 +76,6 @@
 
 /ihren guten ruf bei google/i
 
-/informationen.{1,10}unternehmen.{1,10}(deutschland|schweiz)/iu
-
 # J
 # ------------------------------------------------------------------------------
 
@@ -101,16 +89,12 @@
 /(kooperationsanfrage|kooperationsangebot).{1,10}(hochwertige|redaktionelle).{1,10}inhalte/i
 /(kooperationsanfrage|kooperationsangebot).{1,10}medienproduktion/i
 
-
 # L
 # ------------------------------------------------------------------------------
-/leads?.{1,10}datenbank(en)?/i
-
 /lokale sichtbarkeit.{1,15}google.{1,10}bewertungen/i
 
 # M
 # ------------------------------------------------------------------------------
-/mehr leads.{1,10}sichtbarkeit/i
 /mehr verkaufen mit ki/i
 
 # N
@@ -155,7 +139,6 @@
 
 # V
 # ------------------------------------------------------------------------------
-/verifizierte.{1,10}(b2b|deutsche).{1,10}(geschäfts)?kontakte/i
 
 # W
 # ------------------------------------------------------------------------------
