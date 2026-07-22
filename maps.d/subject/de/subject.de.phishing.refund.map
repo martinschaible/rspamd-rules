@@ -162,8 +162,8 @@
 /(rück)?erstattung.{1,10}ihrer (september|oktober|november|dezember).?rechnung/iu
 /(rück)?erstattung.{1,10}ihres beitrags/iu
 
-/(rück)?erstattung.{1,10}ist.{1,10}(abholbereit|bereit|online|verfügbar)/iu
-/(rück)?erstattung.{1,10}ist.{1,10}zur bearbeitung bereit/iu
+/(rück)?erstattung.{1,10}ist.{1,15}(abholbereit|ausstehend|bereit|online|verfügbar)/iu
+/(rück)?erstattung.{1,10}ist.{1,15}zur bearbeitung bereit/iu
 
 /(rück)?erstattung.{1,10}(jetzt|möglich|verfügbar)/iu
 
