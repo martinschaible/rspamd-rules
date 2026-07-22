@@ -32,6 +32,8 @@
 # ------------------------------------------------------------------------------
 /accuracy of.{1,10}delivery address/i
 
+/address below to release your.{1,10}(package|parcel|shipment)/i
+
 # B
 # ------------------------------------------------------------------------------
 
@@ -85,6 +87,8 @@
 /(package|parcel|shipment).{1,15}has arrived at the office/i
 /(package|parcel|shipment).{1,15}has arrived at our logistics/i
 
+/payment is required to release.{1,25}(package|parcel|shipment)/i
+
 # Q
 # ------------------------------------------------------------------------------
 
@@ -93,6 +97,7 @@
 
 # S
 # ------------------------------------------------------------------------------
+/shipment (notification|update).{1,10}delivery on hold/i
 /shipment.{1,15}is still waiting/i
 
 # T

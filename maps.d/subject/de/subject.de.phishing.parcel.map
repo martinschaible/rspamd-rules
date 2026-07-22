@@ -273,6 +273,7 @@
 
 # Sample: nicht zugestellt werden - [ 100483 ]
 /nicht zugestellt werden.{1,10}\[.?\d{4,10}.?\]/i
+/nicht zugestellt werden.{1,10}ref/i
 
 /nicht zugestelltes paket.{1,10}\d{4,15}/i
 
@@ -406,6 +407,8 @@
 
 /versand.{1,10}ist (auf seinem weg|unterwegs)/i
 /versand.{1,10}versendet wird/i
+
+/versandart.{1,10}standard.{1,10}express/i
 
 /versandbenachrichtigung.{1,10}zahlungserinnerung/i
 /versandbereit.{1,10}bestätigung nötig/iu

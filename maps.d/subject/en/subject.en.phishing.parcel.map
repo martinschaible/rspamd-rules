@@ -125,8 +125,9 @@
 
 # S
 # ------------------------------------------------------------------------------
-/shipping notification.{1,10}information needed/i
-/shipment notification.{1,10}ref.?id/i
+/shipment (notification|update).{1,10}delivery on hold/i
+/shipping (notification|update).{1,10}information needed/i
+/shipment (notification|update).{1,10}ref.?id/i
 
 /shipping documents?.{1,10}for.{1,15}@/i
 /shipping documents?.{1,10}set to expire on/i

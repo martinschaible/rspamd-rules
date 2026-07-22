@@ -236,6 +236,7 @@
 
 /paketfreigabe.{1,10}erforderlich/i
 /paketdienste?.{1,10}weiterhin ohne unterbrechung/i
+/paketnummer.{1,20}mit freundlichen grüßen/iu
 
 /prüfen sie den.{1,20}fortschritt ihrer zustellung/i
 
@@ -268,6 +269,8 @@
 # V
 # ------------------------------------------------------------------------------
 /verwenden.{1,10}die notwendigen angaben zu bestätigen/iu
+
+/versandart.{1,10}standard.{1,10}express/i
 
 /(versandkosten|versandgebühr).{1,10}jetzt bezahlen/i
 
@@ -313,6 +316,8 @@
 /(zollfreigabe|zollzahlung).{1,10}erforderlich/i
 
 /zurückgehalten.{1,10}fälliger betrag/iu
+
+/zustellung wird eine.{1,10}gebühr erhoben/iu
 
 /(zustellung|zustellversuch).{1,10}aufgrund einer (falschen|unvollständigen).{1,10}adresse/iu
 /(zustellung|zustellversuch).{1,10}aufgrund falscher angaben/i
