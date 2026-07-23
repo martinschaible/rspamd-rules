@@ -158,8 +158,10 @@ body
   │   ├─ body.de.phishing.subscription.map
   │   ├─ body.de.phishing.survey.map
   │   └─ body.de.phishing.wallet.map
-  └─ en
-      └─ ....
+  ├─ en
+  │    └─ ....
+  │
+  └─ body.phishing.orgbrandprod.ucase.map                  **
 
 sender
   ├─ de
