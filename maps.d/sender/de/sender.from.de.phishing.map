@@ -125,6 +125,8 @@
 # I
 # ------------------------------------------------------------------------------
 /ihr.{0,15}(geschenk|gewinn|vorteil)/i
+/ihr.{0,15}team/i
+
 /ihr.{0,10}logistik/i
 
 /ihr.{1,15}(bank.?team|kundendienst|kundenservice)/i
