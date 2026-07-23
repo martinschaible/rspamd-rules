@@ -37,13 +37,14 @@
 /(ceramics|clothing|crafts).{1,10}co.{1,5}(limited|ltd)/i
 /export group.{1,10}co.{1,5}(limited|ltd)/i
 
-/auto.?parts.{1,10}co.{1,5}(limited|ltd)/i
+/(automotive|auto.?parts).{1,10}co.{1,5}(limited|ltd)/i
 /fiber(glass)?.{1,10}co.{1,5}(limited|ltd)/i
 /(export|goods|hardware|industry|jewelry).{1,10}co.{1,5}(limited|ltd)/i
 /international trade.{1,10}co.{1,5}(limited|ltd)/i
 /(machinery|material).{1,10}co.{1,5}(limited|ltd)/i
 /(packaging|plastic|product|prototype).{1,10}co.{1,5}(limited|ltd)/i
 /recare.{1,10}co.{1,5}(limited|ltd)/i
+/supplies.{1,10}co.{1,5}(limited|ltd)/i
 
 /this is.{1,15}from.{1,15}technology (limited|ltd)/i
 /this is.{1,25}co.{1,5}(limited|ltd)/i
@@ -57,9 +58,10 @@
 # ------------------------------------------------------------------------------
 /district.{1,10}beijing.{1,10}china.{1,10}wechat/i
 
+/ningbo.{1,10}zhejiang.{1,10}china/i
 /shenzhen city.{1,10}p\.b.{1,10}china/i
 /zhongshan.{1,10}guangdong.{1,10}china/i
-/zhongkain.{1,10}huizhou guangdongn.{1,10}china/i
+/zhongkain.{1,10}huizhou guangdong.{1,10}china/i
 
 # Phone related
 # ------------------------------------------------------------------------------

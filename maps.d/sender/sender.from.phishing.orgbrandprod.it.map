@@ -91,11 +91,13 @@
 # ------------------------------------------------------------------------------
 /appſe/i
 /apiie ld/i
-/apple.{0,10}(abo|airtag)/i
-/apple.{0,10}(autorisierung|kunden.?service|zahlung)/i
+
+/apple.{0,10}(abo|airtag|autorisierung)/i
+/apple.{0,10}benachrichtigung/i
 /apple.{0,10}center/i
 /apple.{0,10}dienst/i
 /apple.{0,10}info/i
+/apple.{0,10}kunden.?service/i
 /apple.{0,10}online/i
 /apple.{0,10}mail/i
 /apple.{0,10}(netzwerk|nutzer)/i

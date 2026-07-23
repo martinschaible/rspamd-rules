@@ -33,6 +33,7 @@
 
 /(bulk|mass).{1,10}(e?.?mail|mailing).{1,10}marketing/i
 /(bulk|mass).{1,10}(e?.?mail|mailing).{1,10}marketer/i
+/(bulk|mass).{1,10}(e?.?mail|mailing).{1,10}sending platform/i
 /(bulk|mass).{1,10}(e?.?mail|mailing).{1,10}tools service provider/i
 
 /business.{1,10}that helps transform/i
@@ -131,7 +132,7 @@
 
 # U
 # ------------------------------------------------------------------------------
-/unrestricted.{1,10}bulk mailing/i
+/unrestricted.{1,10}bulk (email|mailing)/i
 
 # V
 # ------------------------------------------------------------------------------

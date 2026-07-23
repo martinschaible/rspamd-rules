@@ -49,7 +49,8 @@
 /database includes.{1,15}(name|title).{1,10}business e?.?mail/i
 /database includes.{1,10}verified.{1,15}contacts/i
 
-/discounted.{1,10}contact lists/i
+/decision.?maker.{1,10}contact lists?/i
+/discounted.{1,10}contact lists?/i
 
 # E
 # ------------------------------------------------------------------------------

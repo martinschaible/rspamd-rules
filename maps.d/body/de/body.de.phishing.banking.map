@@ -21,9 +21,10 @@
 # ------------------------------------------------------------------------------
 /(photo|push).?tan.{1,10}verfahren/i
 
-/secure.?plus.{1,10}(aktualisierung|einstellungen|sicherheitsupdate)/i
+/secure.?(app|plus).{1,10}(aktualisierung|einstellungen|sicherheitsupdate)/i
+/secure.?(app|plus).{1,10}wird gesperrt/i
 
-/(aktualisierung|sicherheitsupdate).{1,10}secure.?plus/i
+/(aktualisierung|sicherheitsupdate).{1,10}secure.?(app|plus)/i
 
 # Twint
 # ------------------------------------------------------------------------------
