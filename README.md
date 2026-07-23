@@ -231,8 +231,10 @@ sender
   ├─ de
   │   ├─ sender.from.de.sale.map
   │   └─ sender.from.de.sale.specific.map
-  └─ en
-      └─ ....
+  ├─ en
+  │   └─ ....
+  │
+  └─ sender.sale.orgbrandproduct.map                       **
 
 subject  
   ├─ de
