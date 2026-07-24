@@ -115,19 +115,19 @@ Folder structure:
 ```
 body
   ├─ de
-  │   └─ malware.de.map
+  │   └─ body.malware.de.map
   └─ en
       └─ ....
 
 sender
   ├─ de
-  │   └─ malware.de.map
+  │   └─ sender.malware.de.map
   └─ en
       └─ ....
 
 subject
   ├─ de
-  │   └─ malware.de.map
+  │   └─ subject.malware.de.map
   └─ en
       └─ ....
 ```
@@ -273,7 +273,6 @@ body
   │   ├─ body.de.scam.donation.map
   │   ├─ body.de.scam.funds.map
   │   ├─ body.de.scam.heir.map                             **
-  │   ├─ body.de.scam.insolvency.map                       **
   │   ├─ body.de.scam.investment.map
   │   ├─ body.de.scam.order.map
   │   ├─ body.de.scam.payment.map
@@ -297,7 +296,6 @@ subject
   │   ├─ subject.de.scam.business.map
   │   ├─ subject.de.scam.donation.map
   │   ├─ subject.de.scam.funds.map
-  │   ├─ subject.de.scam.insolvency.map                    **
   │   ├─ subject.de.scam.investment.map
   │   ├─ subject.de.scam.order.map
   │   ├─ subject.de.scam.payment.map
@@ -305,6 +303,33 @@ subject
   └─ en
       └─ ....
 ```
+
+### Setup for "seasonal"
+
+Spam attacks occur regularly but are short-lived.
+Therefore, any RexEx filters have a limited lifespan.
+The topics cover everything from scams and phishing to sales.
+Such rules belong here.
+
+Folder structure:
+```
+body
+  ├─ de
+  │   └─ subject.en.seasonal.map
+  └─ en
+      └─ ....
+
+sender
+  └─ sender.seasonal.map
+
+subject
+  ├─ de
+  │   └─ subject.de.seasonal.map
+  └─ en
+      └─ ....
+
+```
+
 
 >Old description, needs to be changed...
 
