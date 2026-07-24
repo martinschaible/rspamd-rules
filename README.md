@@ -165,7 +165,9 @@ body
 
 sender
   ├─ de
-  │   └─ sender.de.phishing.map
+  │   ├─ sender.from.de.phishing.map
+  │   │
+  │   └─ sender.from.de.phishing.it.map
   ├─ en
   │   └─ ....
   │
