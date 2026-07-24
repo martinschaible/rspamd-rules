@@ -27,6 +27,7 @@
 /(attendees|visitors).{1,10}list.{1,10}with.{1,10}exclusive fee/i
 
 /acquired.{1,10}event attendees/i
+/automation.{1,10}convert.{1,10}leads/i
 
 # B
 # ------------------------------------------------------------------------------
@@ -86,7 +87,9 @@
 
 # G
 # ------------------------------------------------------------------------------
-/generate leads for you/i
+/generate.{1,10}leads.{1,10}for you/i
+/generate.{1,10}leads.{1,10}here.{1,10}how/i
+/generate.{1,10}leads.{1,10}promote/i
 
 /get the best.{1,10}e?.?mail.?lists/i
 /get new.{1,10}leads for just/i
@@ -111,9 +114,12 @@
 
 # L
 # ------------------------------------------------------------------------------
-/leads.{1,10}e?.?mail.{1,10}addresses/i
-/leads.{1,10}databases/i
-/leads.{1,15}complete data fields/i
+/leads?.{1,10}can do for your/i
+/leads?.{1,10}databases/i
+/leads?.{1,15}complete data fields/i
+/leads?.{1,10}e?.?mail.{1,10}addresses/i
+/leads?.{1,10}feature.{1,10}you can automatically/i
+/leads?.{1,15}interested parties/i
 
 /list is available.{1,15}your promotional/i
 /list includes.{1,10}contact information/i
@@ -157,6 +163,7 @@
 /(targeted|verified).{1,15}databases?.{1,10}businesses.{1,10}operating/i
 /(targeted|verified).{1,15}e?.?mail.{1,10}(databases?|leads?|lists?)/i
 /(targeted|verified).{1,15}list.{1,10}decision.?makers/i
+/(targeted|verified).{1,10}leads from linkedin/i
 /(targeted|verified).{1,15}data from.{1,10}target audience/i
 /(targeted|verified).{1,15}visitors.{1,10}for just/i
 
@@ -194,6 +201,10 @@
 /we.{1,10}provide.{1,15}high(ly)?.{1,10}targeted.{1,20}contact/i
 /we.{1,10}provide.{1,15}verified.{1,10}reliable.{1,10}marketing data/i
 
+/(web)?site.{1,25}generate more leads/i
+
+/will provide.{1,15}leads/i
+
 # X
 # ------------------------------------------------------------------------------
 
@@ -220,6 +231,9 @@
 
 /you.{1,10}connect with.{1,15}decision.?makers/i
 /you.{1,10}counts.{1,10}samples/i
+
+/you.{1,10}like to generate.{1,15}leads/i
+/you.{1,10}need.{1,10}(fresh|new).{1,10}leads/i
 
 /your.{1,10}business with.{1,10}leads/i
 
