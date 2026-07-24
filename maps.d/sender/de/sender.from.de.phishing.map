@@ -55,7 +55,6 @@
 /dankt ihnen/i
 /das team von/i
 
-/^data.?center$/i
 /daten.{0,10}update/i
 /datensicherungs?.{0,10}garantie/i
 /demand.{0,10}paket/i
@@ -80,7 +79,6 @@
 /e.?vignette/i
 
 /exklusiv.{0,10}(angebot|punkte)/i
-/exklusiv.{0,15}(löwen|vox)/iu
 
 /express.{0,10}(deutschland|schweiz)/i
 /express.{0,10}versand/i
@@ -246,9 +244,7 @@
 /servicecenter.{0,10}verifizierung/i
 
 /sicherheits?.{0,10}(kartenservice|support|vertrauen)/i
-/sie haben/i
 
-/speicher.{0,5}(i?cloud|dienste?|team|update)/i
 /spezielle.{0,10}nachricht/i
 
 /store.{0,10}lager/i
