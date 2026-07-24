@@ -273,6 +273,7 @@ body
   │   ├─ body.de.scam.donation.map
   │   ├─ body.de.scam.funds.map
   │   ├─ body.de.scam.heir.map                             **
+  │   ├─ body.de.scam.insolvency.map                       **
   │   ├─ body.de.scam.investment.map
   │   ├─ body.de.scam.order.map
   │   ├─ body.de.scam.payment.map
@@ -296,6 +297,7 @@ subject
   │   ├─ subject.de.scam.business.map
   │   ├─ subject.de.scam.donation.map
   │   ├─ subject.de.scam.funds.map
+  │   ├─ subject.de.scam.insolvency.map                    **
   │   ├─ subject.de.scam.investment.map
   │   ├─ subject.de.scam.order.map
   │   ├─ subject.de.scam.payment.map
