@@ -160,7 +160,7 @@
 /(rück)?erstattung.{1,10}ihrer? zugreise/iu
 /(rück)?erstattung.{1,10}ihrer doppelten.{1,10}(buchung|zahlung)/iu
 /(rück)?erstattung.{1,10}ihrer (september|oktober|november|dezember).?rechnung/iu
-/(rück)?erstattung.{1,10}ihres beitrags/iu
+/(rück)?erstattung.{1,10}(ihrer|ihres).{1,15}(beitrags|gebühren)/iu
 
 /(rück)?erstattung.{1,10}ist.{1,15}(abholbereit|ausstehend|bereit|online|verfügbar)/iu
 /(rück)?erstattung.{1,10}ist.{1,15}zur bearbeitung bereit/iu

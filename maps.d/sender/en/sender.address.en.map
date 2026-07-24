@@ -20,6 +20,7 @@
 /marketing\.?\d{1,10}@/i
 /mail\.?\d{1,10}@/i
 /notes\.?\d{1,10}@/i
+/reports\.?\d{1,10}@/i
 /support\.?\d{1,10}@/i
 
 /do.?not.?reply\.?\d{1,10}@/i
@@ -28,6 +29,9 @@
 
 # Sample: marketing8989ptm@
 /marketing\d{1,10}[a-z]{1,5}@/i
+
+# Sample: 535383885759232@kiarx.com
+/\d{10,20}@/i
 
 #
 #
