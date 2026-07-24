@@ -125,11 +125,12 @@
 # I
 # ------------------------------------------------------------------------------
 /ihr.{0,15}(geschenk|gewinn|vorteil)/i
-/ihr.{0,15}team/i
 
 /ihr.{0,10}logistik/i
 
 /ihr.{1,15}(bank.?team|kundendienst|kundenservice)/i
+
+/ihr.{0,15}service.?team/i
 
 /ihre.{0,15}(bestellung|chance)/i
 /ihre?.{0,15}(lieferung|paket|sendung)/i
@@ -271,7 +272,7 @@
 
 /team.{0,10}mehrwertsteuer/i
 
-/technischer?.{0,10}(infrastruktur|support)/i
+/technischer?.{0,10}(infrastruktur|koordination|support)/i
 
 # U
 # ------------------------------------------------------------------------------
