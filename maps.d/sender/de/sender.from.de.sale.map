@@ -58,8 +58,6 @@
 
 # E
 # ------------------------------------------------------------------------------
-/(e.?bike|elektro.?moped).{0,10}(hersteller|verkauf|vertrieb)/i
-
 /energie sparen/i
 /energiespar.{0,10}profi/i
 
@@ -162,8 +160,6 @@
 /mobile.{0,10}klima(anlagen?|geräte)/iu
 /mobiler.{0,10}hotspot/i
 /mobilitäts?.{0,10}support/i
-
-/motorad.{0,10}produktion/i
 
 # N
 # ------------------------------------------------------------------------------
@@ -271,8 +267,6 @@
 
 # W
 # ------------------------------------------------------------------------------
-/wallet.{0,10}lösung/iu
-
 /werkzeug.{0,10}deals/i
 
 /(wi.?fi|wlan).{0,15}(abdeckung|experten?|ratgeber)/i
