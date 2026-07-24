@@ -19,105 +19,6 @@
 
 /(cvs|loyalty).{0,10}rewards/i
 
-# Senders pretending to be from the IT department
-# ------------------------------------------------------------------------------
-
-# TLD at the front
-/\.[a-z]{1,4}.{1,5}(admin$|administrator|helpdesk|update)/i
-/\.[a-z]{1,4}.{1,5}(certificate|cpanel)/i
-/\.[a-z]{1,4}.{1,5}it.?team/i
-
-/\.[a-z]{1,4}.{1,5}mail.?(notification|service|system)/i
-/\.[a-z]{1,4}.{1,5}(notice|notification alert)/i
-/\.[a-z]{1,4}.{1,5}(portal|postmaster)/i
-/\.[a-z]{1,4}.{1,5}(security|server|service|support)/i
-/\.[a-z]{1,4}.{1,5}(service|support).?(deck|team)/i
-
-/\.[a-z]{1,4}.{1,5}(verification|voicemail)/i
-/\.[a-z]{1,4}.{1,5}webmail/i
-
-# TLD at the end
-/system.?administrator.{0,10}\.[a-z]{1,4}$/i
-
-/\|.{1,5}delivery.?report/i
-/\|.{1,5}system.?notification/i
-
-/(e?.?mail|webmail).{0,5}(admin|hosting|manager|notice|server|support|team)/i
-
-/account.{0,5}(alert|support)/i
-
-# Sample: Admin-mydomain.ch
-/admin(-|_)[a-z]{5,15}\.[a-z]{1,4}/i
-
-/admin.?it$/i
-/admin(istration)?.{0,5}dept/i
-/admin(istration)?.{0,5}(notification|technical|updates)/i
-/admin(istration)?.{0,5}(support|team)/i
-
-/^administrator/i
-
-/i\.?t (admin|notice|management|notification|server)/i
-/^it.?support$/i
-
-/backup.{0,10}(admin|authority|desk|service)/i
-
-/capacity.{0,10}alert/i
-
-/cl0ud/i
-
-/cloud.{0,5}team/i
-/cloud.{0,10}(account|admin|audit)/i
-/cloud.{0,10}drive/i
-/cloud.{0,10}(backup|emergency|limit|notify)/i
-/cloud.{0,10}(management|membership)/i
-/cloud.{0,10}notices?/i
-/cloud.{0,10}(operations|ops)/i
-/cloud.{0,10}(security|service|support|storage)/i
-
-# digital service
-/(data|e.?mail).{0,10}(backup|protection|retention|service|storage)/i
-/data.?loss/i
-
-/digital.{0,10}support/i
-
-/helpdesk©/i
-/help-desk/i
-/helpdesk-/i
-/hosting.?team/i
-
-/imap.{0,10}notification/i
-
-/mail.?(admin|alert|helpdesk|server|update)/i
-/mail.?security.?team/i
-
-/mx.?support/i
-
-/^roundcube$/i
-/roundcube on/i
-/roundcube.{0,5}(administration|server|support)/i
-
-/^server$/i
-/server.?(notification|report|team)/i
-
-/storage.{0,10}(admin|alert)/i
-/storage.{0,10}operations?/i
-/storage.{0,10}(security|system)/i
-/storage.{0,10}(upgrade|quota)/i
-
-/^support.?(access|client|desk|team)$/i
-/support.{0,5}(admin|webmail)/i
-
-/system.?report.?center/i
-
-/(imap|pop3).{0,10}settings/i
-
-/team.?©/i
-/^webmail/i
-
-/web.{0,5}(admin|support)/i
-
-#
-/microsoft.{0,10}admin/i
 
 # Kits for cars and stupid people
 # ------------------------------------------------------------------------------
@@ -153,8 +54,6 @@
 
 # B
 # ------------------------------------------------------------------------------
-/backup.{0,10}(admin|service)/i
-
 /banking.{0,10}services?/i
 /benefits.{0,10}(center|offer|points|reward|treat)/i
 
@@ -177,8 +76,6 @@
 /claim.{0,10}(free|refund|reward|your)/i
 /clean.{0,10}(experts?|support)/i
 
-/cloud.{0,10}(billing|response)/i
-
 #/customer.{0,10}(engagement|experience|feedback|survey|support)/i
 /customer.{0,10}(engagement|experience|survey|support)/i
 
@@ -196,18 +93,11 @@
 /delivery.{0,10}management/i
 
 /dental.{0,10}kit/i
-/domain.{0,10}(provider|support)/i
-
-# Cloud Storage
-/drive.{0,10}alert/i
 
 /\| de$/i
 
 # E
 # ------------------------------------------------------------------------------
-/(e?.?)?mail.{0,10}(account|administration|hosters?)/i
-/(e?.?)?mail.{0,10}(status|support)/i
-
 /employee.{0,10}approval/i
 /exclusive.{0,10}(benefits?|deals?|offers?)/i
 
@@ -276,9 +166,6 @@
 
 # M
 # ------------------------------------------------------------------------------
-/mail.{0,10}(center|client|security)/i
-/mail.{0,10}host service/i
-/mailbox.{0,10}(storage|team)/i
 
 /meat.{0,10}box/i
 
@@ -327,7 +214,6 @@
 /privacy.{0,10}(policy|security)/i
 
 /(promotion|protection).{0,10}team/i
-/provider.{0,10}support/i
 
 # Q
 # ------------------------------------------------------------------------------
@@ -354,13 +240,10 @@
 /secure.{0,10}notification/i
 /security.{0,10}(alert|compliance)/i
 
-/server.{0,10}(status|support|update)/i
-
 /service.{0,10}client/i
 
 /session.{0,10}(alert|control)/i
 /service.{0,10}(information|notifications?)/i
-/(service|storage).{0,10}(upgrades?|updates?)/i
 
 /settlement.{0,10}administrator/i
 
@@ -374,23 +257,11 @@
 /supply.{0,10}chain/i
 /supply.{0,10}reward/i
 
-/supportch/i
-
-/^support-/i
-
-/support.?(ch|de)$/i
-/support.{0,10}secure/i
-#/support.{0,10}(delivery|team)/i
-/support.{0,10}delivery/i
-/support.{0,10}unit/i
-
 /supporter.{0,10}giveaway/i
 
 /survey.{0,10}team/i
 
 /special.{0,10}membership/i
-
-/systems.?administrator/i
 
 /sweepstakes.{0,10}alert/i
 
