@@ -225,7 +225,7 @@ body
   ├─ en
   │    └─ ....
   │
-  └─ body.sale.orgbrandproduct.map                         **
+  └─ body.sale.orgbrandproduct.map
 
 sender
   ├─ de
@@ -234,7 +234,7 @@ sender
   ├─ en
   │   └─ ....
   │
-  └─ sender.sale.orgbrandproduct.map                       **
+  └─ sender.from.sale.orgbrandproduct.map
 
 subject  
   ├─ de
