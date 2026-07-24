@@ -116,10 +116,14 @@
 
 # C
 # ------------------------------------------------------------------------------
+
+#
 /\.(ch|de) cpanel/i
 /^cpanel$/i
 /cpanel.{0,10}(host|roundcube|team|zertifikatsstelle)/i
 /cpanel.{0,10}(server|service|suppport)/i
+/cpanel.{0,10}(webhost|webmail)/i
+
 /cpanel.{5,15}\.(ch|de)/i
 /cpanel on/i
 
