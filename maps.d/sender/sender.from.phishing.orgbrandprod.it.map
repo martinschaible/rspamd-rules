@@ -178,6 +178,8 @@
 /metanet.{0,10}(kundendienst|kundenservice)/i
 
 /microsoft ads/i
+
+/microsoft.{0,10}admin/i
 /microsoft.{0,10}(advertising|billing|gmbh|rewards?|subscription)/i
 /microsoft.{0,10}(cashback|corporation)/i
 /microsoft.{0,10}schweiz/i
@@ -206,6 +208,9 @@
 
 # R
 # ------------------------------------------------------------------------------
+/^roundcube$/i
+/roundcube on/i
+/roundcube.{0,5}(administration|server|support)/i
 
 # S
 # ------------------------------------------------------------------------------

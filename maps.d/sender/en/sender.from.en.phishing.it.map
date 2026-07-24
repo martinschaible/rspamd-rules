@@ -1,0 +1,205 @@
+# ==============================================================================
+#
+#
+# ------------------------------------------------------------------------------
+# Language: english
+# Weight:   12.0
+# ==============================================================================
+
+# Topics
+# ==============================================================================
+
+# TLD at the front
+/\.[a-z]{1,4}.{1,5}(admin$|administrator|helpdesk|update)/i
+/\.[a-z]{1,4}.{1,5}(certificate|cpanel)/i
+/\.[a-z]{1,4}.{1,5}it.?team/i
+
+/\.[a-z]{1,4}.{1,5}mail.?(notification|service|system)/i
+/\.[a-z]{1,4}.{1,5}(notice|notification alert)/i
+/\.[a-z]{1,4}.{1,5}(portal|postmaster)/i
+/\.[a-z]{1,4}.{1,5}(security|server|service|support)/i
+/\.[a-z]{1,4}.{1,5}(service|support).?(deck|team)/i
+
+/\.[a-z]{1,4}.{1,5}(verification|voicemail)/i
+/\.[a-z]{1,4}.{1,5}webmail/i
+
+#
+/\|.{1,5}delivery.?report/i
+/\|.{1,5}system.?notification/i
+
+#
+#
+#
+
+# Generic
+# ==============================================================================
+
+# A
+# ------------------------------------------------------------------------------
+/account.{0,5}(alert|support)/i
+
+# Sample: Admin-mydomain.ch
+/admin(-|_)[a-z]{5,15}\.[a-z]{1,4}/i
+
+/admin.?it$/i
+/admin(istration)?.{0,5}dept/i
+/admin(istration)?.{0,5}(notification|technical|updates)/i
+/admin(istration)?.{0,5}(support|team)/i
+
+/^administrator/i
+
+# B
+# ------------------------------------------------------------------------------
+/backup.{0,10}(admin|authority|desk|service)/i
+
+# C
+# ------------------------------------------------------------------------------
+/capacity.{0,10}alert/i
+
+/cl0ud/i
+
+/cloud.{0,5}team/i
+/cloud.{0,10}(account|admin|audit)/i
+/cloud.{0,10}drive/i
+/cloud.{0,10}(backup|billing)/i
+/cloud.{0,10}(emergency|limit|notify)/i
+/cloud.{0,10}(management|membership)/i
+/cloud.{0,10}notices?/i
+/cloud.{0,10}(operations|ops)/i
+/cloud.{0,10}(response)/i
+/cloud.{0,10}(security|service|support|storage)/i
+
+# D
+# ------------------------------------------------------------------------------
+/(data|e.?mail).{0,10}(backup|protection|retention|service|storage)/i
+/data.?loss/i
+
+/digital.{0,10}support/i
+
+/domain.{0,10}(provider|support)/i
+
+/drive.{0,10}alert/i
+
+# E
+# ------------------------------------------------------------------------------
+/(e?.?mail|webmail).{0,5}(account|admin(strator)?)/i
+/(e?.?mail|webmail).{0,10}(hosting|hosters?)/i
+/(e?.?mail|webmail).{0,10}(manager|notice|team)/i
+/(e?.?mail|webmail).{0,10}(server|status|support)/i
+
+# F
+# ------------------------------------------------------------------------------
+
+# G
+# ------------------------------------------------------------------------------
+
+# H
+# ------------------------------------------------------------------------------
+/helpdesk©/i
+/help-desk/i
+/helpdesk-/i
+/hosting.?team/i
+
+# I
+# ------------------------------------------------------------------------------
+/i\.?t (admin|notice|management|notification|server)/i
+/^it.?support$/i
+
+
+/(imap|pop3).{0,10}notification/i
+/(imap|pop3).{0,10}settings/i
+
+# J
+# ------------------------------------------------------------------------------
+
+# K
+# ------------------------------------------------------------------------------
+
+# L
+# ------------------------------------------------------------------------------
+
+# M
+# ------------------------------------------------------------------------------
+/mail(box)?.{0,10}(admin|alert)/i
+/mail(box)?.{0,10}(center|client)/i
+/mail(box)?.{0,10}(helpdesk|update)/i
+/mail(box)?.{0,10}(security|server|storage)/i
+/mail(box)?.{0,10}host service/i
+/mail(box)?.{0,10}team/i
+
+/mx.?support/i
+
+# N
+# ------------------------------------------------------------------------------
+
+# O
+# ------------------------------------------------------------------------------
+
+# P
+# ------------------------------------------------------------------------------
+/provider.{0,10}support/i
+
+# Q
+# ------------------------------------------------------------------------------
+
+# R
+# ------------------------------------------------------------------------------
+
+# S
+# ------------------------------------------------------------------------------
+/^server$/i
+/server.?(notification|report|team)/i
+
+/service.{0,10}(upgrades?|updates?)/i
+
+/storage.{0,10}(admin|alert)/i
+/storage.{0,10}operations?/i
+/storage.{0,10}(security|status|support|system)/i
+/storage.{0,10}quota/i
+/storage.{0,10}(upgrades?|updates?)/i
+
+/supportch/i
+
+/^support-/i
+
+/support.?(ch|de)$/i
+
+/^support.?(client|desk|team)$/i
+
+/support.{0,5}(admin|access)/i
+#/support.{0,10}(delivery|team)/i
+/support.{0,10}delivery/i
+/support.{0,10}secure/i
+/support.{0,10}unit/i
+/support.{0,10}webmail/i
+
+# TLD at the end
+/system.?administrator.{0,10}\.[a-z]{1,4}$/i
+/system.{0,10}report.?center/i
+
+/systems.?administrator/i
+
+# T
+# ------------------------------------------------------------------------------
+/team.?©/i
+
+# U
+# ------------------------------------------------------------------------------
+
+# V
+# ------------------------------------------------------------------------------
+
+# W
+# ------------------------------------------------------------------------------
+/web.{0,5}(admin|support)/i
+
+/^webmail/i
+
+# X
+# ------------------------------------------------------------------------------
+
+# Y
+# ------------------------------------------------------------------------------
+
+# Z
+# ------------------------------------------------------------------------------
