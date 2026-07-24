@@ -306,7 +306,7 @@ subject
 
 ### Setup for "seasonal"
 
-Spam attacks occur regularly but are short-lived.
+Some Spam attacks occur regularly but are short-lived.
 Therefore, any RexEx filters have a limited lifespan.
 The topics cover everything from scams and phishing to sales.
 Such rules belong here.
@@ -320,7 +320,7 @@ body
       └─ ....
 
 sender
-  └─ sender.seasonal.map
+  └─ sender.from.seasonal.map
 
 subject
   ├─ de
