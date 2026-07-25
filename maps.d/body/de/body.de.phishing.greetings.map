@@ -206,6 +206,7 @@
 /lieber?.{1,10}(kunde|kundin|nutzer).{1,10}ein verdächtiger zugriff/i
 
 /lieber?.{1,10}(kunde|kundin|nutzer).{1,10}ihr.{1,15}(konto|passwort)/i
+/lieber?.{1,10}(kunde|kundin|nutzer).{1,10}ihr domain.?name/i
 /lieber?.{1,10}(kunde|kundin|nutzer).{1,10}ihre?.{1,10}(paket|sendung) konnte nicht zugestellt/i
 /lieber?.{1,10}(kunde|kundin|nutzer).{1,10}ihre?.{1,25}wurde vorübergehend/iu
 
