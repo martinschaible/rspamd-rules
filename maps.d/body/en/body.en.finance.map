@@ -46,7 +46,9 @@
 
 # C
 # ------------------------------------------------------------------------------
+/capable.{1,10}funding your project/i
 /capital.{1,10}your profitable project/i
+
 /(company|finance).{1,15}offering.{1,15}project funding/i
 
 /(complete|urgently).{1,15}need funding/i
@@ -73,6 +75,7 @@
 /(finance|financing|financial|funding).{1,20}opportunities/i
 /(finance|financing|financial|funding).{1,10}program.{1,15}do not hesitate/i
 /(finance|financing|financial|funding).{1,10}solutions suitable/i
+/(finance|financing|financial|funding).{1,10}we will.{1,20}work with you/i
 
 /first.?class.{1,10}financial.{1,10}institution/i
 
@@ -82,17 +85,21 @@
 
 # G
 # ------------------------------------------------------------------------------
+/genuine.{1,10}lender on the internet/i
 /great.{1,10}l0an/i
 
 # H
 # ------------------------------------------------------------------------------
 /help you improve your finances/i
+/help you provide.{1,10}funds/i
 
 # I
 # ------------------------------------------------------------------------------
 /i am a private.{1,10}lender/i
+/i represent a.{1,10}group of.{1,15}(lenders|investors)/i
 
 /introduce ourselves as.{1,15}(lenders|investors)/i
+/investment.?company offering.{1,10}funding/i
 
 # J
 # ------------------------------------------------------------------------------
@@ -139,13 +146,18 @@
 # O
 # ------------------------------------------------------------------------------
 /(offering|offers?|provides?|providing).{1,10}corporate.{1,10}(financing|personal).{1,10}(financing|loans?)/i
+/(offering|offers?|provides?|providing).{1,15}business expansion/i
+
 /(offering|offers?|provides?|providing).{1,10}business loans.{1,10}investment/i
 /(offering|offers?|provides?|providing).{1,10}business loans.{1,10}interest.?rate/i
 /(offering|offers?|provides?|providing).{1,10}business loans.{1,10}personal loans/i
+
 /(offering|offers?|provides?|providing).{1,15}financial support to/i
 /(offering|offers?|provides?|providing).{1,20}financing solutions/i
 /(offering|offers?|provides?|providing).{1,15}financing to.{1,15}companies/i
+
 /(offering|offers?|provides?|providing).{1,15}reliable.{1,15}(financing|loans?)/i
+
 
 /our.{1,10}business loan offers/i
 /our.{1,15}funding programs/i
@@ -166,6 +178,8 @@
 
 # Q
 # ------------------------------------------------------------------------------
+/qualified for.{1,10}business.{1,10}loan/i
+
 /quick.{1,10}reliable.{1,10}financial support/i
 
 # R
@@ -200,6 +214,7 @@
 
 /we are.{1,20}based investment company/i
 /we are.{1,15}debt.{1,15}funding/i
+/we are.{1,10}dedicated.{1,10}granting loans/i
 /we are.{1,10}fiduciary.{1,10}asset/i
 
 /we are.{1,15}(financial|investment).{1,10}(advisors|company|consultant|institution)/i
@@ -219,10 +234,12 @@
 /we are required.{1,10}by our.{1,10}funders/i
 /we fund.{1,10}wide range/i
 
+/we have.{1,15}available.{1,10}funds/i
 /we have.{1,10}checked your company records/i
 /we have.{1,10}funding.{1,10}solutions/i
 
 /we.{1,15}(give|issuing|offer|offering|provide|providing|specialize|source).{1,20}(business|corporate|home|independent|personal|student).{1,20}(financial|financing|funding|loans)/i
+/we.{1,15}(give|issuing|offer|offering|provide|providing|specialize|source).{1,15}debt relief/i
 /we.{1,15}(give|issuing|offer|offering|provide|providing|specialize|source).{1,15}personal.{1,10}business.{1,10}financial/i
 
 /we.{1,15}(give|issuing|offer|offering|provide|providing|specialize|source).{1,15}(financial|financing|funding)/i
@@ -234,10 +251,11 @@
 /we.{1,15}(give|issuing|offer|offering|provide|providing|specialize|source).{1,15}(debt|financing|non.?recourse|unbeatable).{1,10}loans?/i
 /we.{1,15}(give|issuing|offer|offering|provide|providing|specialize|source).{1,15}(all|various).{1,10}(kinds|types) of.{1,15}loans?/i
 
-/we process.{1,10}(financing|loans)/i
+/we.{1,15}guarantee.{1,10}project funding/i
+/we.{1,15}process.{1,10}(financing|loans)/i
 
-/we represent.{1,10}financial institution/i
-/we represent.{1,10}reputable financial/i
+/we.{1,15}represent.{1,10}financial institution/i
+/we.{1,15}represent.{1,10}reputable financial/i
 
 /who can provide loans/i
 
@@ -246,16 +264,18 @@
 
 # Y
 # ------------------------------------------------------------------------------
-/you are.{1,15}seeking funding/i
+/you are.{1,15}(looking|seeking).{1,10}(funding|funds)/i
+/you are.{1,15}(looking|seeking).{1,10}loan/i
 
 /you.{1,10}have.{1,15}projects?.{1,10}requires funding/i
 /you.{1,10}have.{1,15}projects?.{1,10}(in|that) (need|required).{1,10}(financial|financing|funded)/i
 
-/you.{1,10}looking for.{1,15}oan/i
+/you need funds.{1,10}injected/i
 
 /you.{1,10}(pre)?qualified for our business/i
 /you.{1,10}(pre)?qualified for up to \{d3,6}/i
 
+/you need.{1,10}(funding|funds)/i
 /you need.{1,10}loan/i
 
 /you need.{1,15}(fast|legit).{1,10}loan/i
@@ -265,7 +285,9 @@
 /you to an.{1,15}investment program/i
 /you urgently need.{1,10}(loan|money)/i
 
-/your (company|organization).{1,10}(require|seeking).{1,10}(capital|financing|project)/i
+/your.{1,10}(business|company|organization).{1,10}(needs?|require|seeking).{1,10}(capital|financing|funding|project)/i
+/your.{1,10}(business|company|organization).{1,10}growth through funding/i
+/your.{1,10}(business|company|organization).{1,10}is.{1,15}(pre)?.?approved.{1,10}up to/i
 
 # Z
 # ------------------------------------------------------------------------------

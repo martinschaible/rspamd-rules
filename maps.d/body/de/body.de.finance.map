@@ -20,39 +20,58 @@
 # ------------------------------------------------------------------------------
 /alle bonitäten willkommen/iu
 
-/angebot zu erhalten.{1,10}(darlehen|kredite?)/i
+/angebot zu erhalten.{1,10}(darlehen|kredit)/i
+
+/angebot.{1,10}(darlehen|kredit)/i
 
 /(angebot|anspruch).{1,15}(darlehen|kredit)/i
 
 # B
 # ------------------------------------------------------------------------------
-/beantragen sie.{1,15}ein(en)?.{1,10}(dringend)?.{1,10}(darlehen|kredite?)/i
-/beantragung eines.{1,10}(darlehen|kredite?)/i
+/beantragen sie.{1,10}(darlehen|kredit) noch heute/i
+/beantragen sie.{1,15}ein(en)?.{1,10}(dringend)?.{1,10}(darlehen|kredit)/i
+
+/beantragung eines.{1,10}(darlehen|kredit)/i
 
 /sie sich in finanziellen schwierigkeiten/i
 
-/bekommen sie.{1,10}(darlehen|kredite?)/i
- 
+/bekommen sie.{1,10}(darlehen|kredit)/i
+
 /(benötigen|brauchen) sie.{1,15}ein darlehen/iu
 /(benötigen|brauchen) sie.{1,20}geschäfts.{1,10}privatdarlehen/iu
 
 /(benötigen|brauchen) sie.{1,15}einen.{1,15}kredit/i
 /(benötigen|brauchen) sie.{1,10}finanzielle unterstützung/iu
 /(benötigen|brauchen) sie.{1,20}finanzierungsangebot/i
+
 /(benötigen|brauchen) sie.{1,10}eine.{1,10}finanzierung/iu
+/(benötigen|brauchen) sie.{1,15}einen.{1,15}(geschäfts|persönlichen|privat|schnellen).{1,15}kredit/iu
+/(benötigen|brauchen) sie.{1,15}einen.{1,10}privat.{1,10}geschäfts.?kredit/iu
+
 /(benötigen|brauchen) sie.{1,10}geld.{1,10}um (ein|ihre?)/i
 /(benötigen|brauchen) sie.{1,10}geld.{1,10}den persönlichen/iu
+
+/(benötigen|brauchen) sie.{1,15}kredite/iu
 /(benötigen|brauchen) sie.{1,10}kapital/iu
-/(benötigen|brauchen) sie.{1,20}(darlehen|kredite?)/i
+/(benötigen|brauchen) sie.{1,20}(darlehen|kredit)/i
 /(benötigen|brauchen) sie.{1,10}persönliche finanzen/iu
-/(benötigen|brauchen) sie.{1,10}sie.{1,10}geld/iu
-/(benötigen|brauchen) sie.{1,15}zusätzliches geld/iu
+
+/(benötigen|brauchen).{1,20}(projekt|unternehmens).{1,20}finanzierung/i
+
+/(benötigen|brauchen).{1,10}sie.{1,10}einen investor/i
+/(benötigen|brauchen).{1,10}sie.{1,10}geld/iu
+/(benötigen|brauchen).{1,10}sie.{1,15}zusätzliches geld/iu
+
+/benötigter betrag.{1,10}laufzeit/i
 
 /betrag.{1,15}verwendungszweck/i
+/bewerben sie sich.{1,15}(darlehen|kredit)/i
 
-/bieten? (ich|wir).{1,20}(kurz|mittel|langfristige).{1,20}(darlehen|kredite?)/iu
-/bieten? (ich|wir).{1,10}(darlehen|kredite?) mit/i
-/bieten? (ich|wir).{1,10}internationale.{1,15}(firmen|privat).{1,15}(darlehen|kredite?)/i
+/bietet.{1,10}online.?darlehen/i
+
+/bieten? (ich|wir).{1,20}(kurz|mittel|langfristige).{1,20}(darlehen|kredit)/iu
+/bieten? (ich|wir).{1,10}(darlehen|kredit) mit/i
+/bieten? (ich|wir).{1,10}internationale.{1,15}(firmen|privat).{1,15}(darlehen|kredit)/i
 
 /bietet.{1,10}einzelpersonen.{1,10}unternehmen.{1,10}finanzielle/i
 /bietet.{1,10}finanzierungslösungen.{1,30}(geschäftliche|private)/iu
@@ -66,26 +85,47 @@
 
 # D
 # ------------------------------------------------------------------------------
-/(darlehen|kredite?).{1,10}benötigen.{1,10}schreiben sie/i
-/(darlehen|kredite?).{1,15}ihre rechnungen zu bezahlen/i
-/(darlehen|kredite?).{1,10}interessiert sind/i
+/(darlehen|kredit).{1,25}antworten sie bei interesse/iu
+/(darlehen|kredit).{1,10}benötigen.{1,10}schreiben sie/i
+/(darlehen|kredit).{1,10}geschäftlich.{1,10}privat/iu
 
-/(darlehen|kredite?).{1,15}mit einem günstigen/iu
-/(darlehen|kredite?).{1,15}mit günstigen konditionen an/i
+/(darlehen|kredit).{1,10}ihr leben für immer/iu
+/(darlehen|kredit).{1,15}ihre rechnungen zu bezahlen/i
+/(darlehen|kredit).{1,10}interessiert sind/i
+/(darlehen|kredit).{1,10}investitions.?angebot/i
 
-/(darlehen|kredite?).{1,15}privatpersonen.{1,10}unternehmen/i
+/(darlehen|kredit).{1,10}jetzt beantragen/i
+
+/(darlehen|kredit).{1,10}(kontaktieren sie uns|senden sie uns)/i
+
+/(darlehen|kredit).{1,15}mit einem günstigen/iu
+/(darlehen|kredit).{1,15}mit günstigen konditionen an/i
+
+/(darlehen|kredit).{1,20}name.{1,10}betrag/i
+
+/(darlehen|kredit).{1,10}privat.{1,10}geschäfts.?kredit/iu
+/(darlehen|kredit).{1,15}privatpersonen.{1,10}unternehmen/i
+
+/(darlehen|kredit).{1,10}sind weiterhin mit.{1,10}zinsen/i
 
 /(darlehen|kredit).{1,10}(mit|zu).{1,15}erschwinglichen rückzahlungsfristen/iu
 /(darlehen|kredit).{1,10}(mit|zu).{1,15}(günstigen|jährlichen|wettbewerbsfähigen).{1,20}zins.?satz/iu
 /(darlehen|kredit).{1,10}(mit|zu).{1,15}(zins.?satz|zinssätzen) (ab|von)/i
 
-/(darlehen|kredit).{1,15}schnell.{1,10}sicher/i
+/(darlehen|kredit).{1,15}schnell.{1,10}(sicher|zuverlässig)/i
 
+/(darlehen|kredit).{1,10}verschiedene Zwecke/iu
+
+/(darlehen|kredit).{0,10}wenden sie sich bitte an/i
+
+/derzeit vergeben wir.{1,10}geschäfts.{1,10}privat/iu
 /dieses.{1,15}kreditunternehmen entdeckte/i
+/dringend.{1,10}kostenlos.{1,10}(darlehen|kredit)/i
 
 # E
 # ------------------------------------------------------------------------------
 /effiziente.{1,10}schnelle.{1,10}finanzlösungen/iu
+/einfaches.{1,15}kredit.?angebot/i
 
 /erhalten sie.{1,10}benötigten mittel/iu
 /erhalten sie.{1,10}finanzierung/i
@@ -96,8 +136,10 @@
 
 # F
 # ------------------------------------------------------------------------------
+/finanzierung.{1,10}benötigen.{1,15}antworten sie/iu
 /finanzierung.{1,10}ohne.{1,10}grenzen/i
 /finanzierung.{1,10}sollten sie.{1,10}interessiert sein.{1,10}kontaktieren/i
+/finanzierung.{1,10}zu.{1,10}zinsen/i
 
 /finanzierungsangebot für sie/iu
 /finanzierungslösung(en)?.{1,10}geschäfts.{1,10}privatkunden/iu
@@ -107,10 +149,12 @@
 
 # G
 # ------------------------------------------------------------------------------
+/garantiert.{1,10}günstigen.{1,10}zinssatz/i
 /geld.{1,10}wir helfen ihnen/i
 
 /geschäfts.{1,15}privat.?kredit/iu
 /geschäftskredit.{1,10}hypothek/iu
+/geschäfts.?(darlehen|kredit).{1,15}privat.?kredit/iu
 
 /gewünschten betrag.{1,10}verwendungszweck/iu
 /günstiges kreditangebot der.{1,15}bank/i
@@ -121,19 +165,53 @@
 
 # I
 # ------------------------------------------------------------------------------
-/(ich|wir) (biete|gewähre|vergebe)n?.{1,15}(alle arten von)?.{1,15}(darlehen|kredit)/iu
-/(ich|wir) (biete|gewähre|vergebe)n?.{1,15}(darlehensbeträge|finanzlösungen|kreditlösungen)/iu
-/(ich|wir) (biete|gewähre|vergebe)n?.{1,15}investitionsfinanzierungen/i
-/(ich|wir) (biete|gewähre|vergebe)n?.{1,20}finanzielle hilfe/iu
+/ich arbeite als.{1,10}finanz.?berater/i
+
+/ich bin.{5,25}(darlehensgeber|kreditgeber)/i
+/ich bin.{5,25}(registrierter|zugelassener).{1,10}zertifizierter/i
+
+/(ich|wir).{1,10}alle arten von.{1,15}(darlehen|kredite) anbieten/i
+/(ich|wir).{1,10}bereit.{1,10}ihnen ein.{1,15}(darlehen|kredit)/i
+
+/(ich|wir).{1,10}(biete|gewähre|vergebe)n?.{1,15}(alle arten von)?.{1,15}(darlehen|kredit)/iu
+/(ich|wir).{1,10}(biete|gewähre|vergebe)n?.{1,15}allen bedürftigen geld/iu
+
+/(ich|wir).{1,10}(biete|gewähre|vergebe)n?.{1,15}(darlehen|kredit).{1,10}einzelpersonen/iu
+/(ich|wir).{1,10}(biete|gewähre|vergebe)n?.{1,15}(darlehen|kredit).{1,10}von.{1,15}bis/i
+
+/(ich|wir).{1,10}(biete|gewähre|vergebe)n?.{1,15}(darlehensbeträge|finanzlösungen|kreditlösungen)/iu
+/(ich|wir).{1,10}(biete|gewähre|vergebe)n?.{1,15}investitionsfinanzierungen/i
+/(ich|wir).{1,10}(biete|gewähre|vergebe)n?.{1,20}finanzielle hilfe/iu
+
+/(ich|wir).{1,10}(biete|gewähre|vergebe)n?.{1,15}kurz(fristige)?.{1,10}lang.?fristige.{1,15}(darlehen|kredit)/i
+
+/(ich|wir).{1,10}(biete|gewähre|vergebe)n?.{1,15}privatpersonen.{1,10}unternehmen/i
+/(ich|wir).{1,10}(biete|gewähre|vergebe)n?.{1,15}private?.{1,10}(darlehen|kredit)/i
+/(ich|wir).{1,10}(biete|gewähre|vergebe)n?.{1,15}private?.{1,15}(geschäfts|geschäftliche).{1,15}(darlehen|kredit)/iu
+/(ich|wir).{1,10}(biete|gewähre|vergebe)n?.{1,15}private?.{1,10}geschäfts/i
+
+/(ich|wir).{1,10}für.{1,15}(arten von krediten|kreditarten)/iu
+/(ich|wir).{1,10}haben?.{1,15}kredit.?angebot/i
+/(ich|wir).{1,10}ihnen.{1,15}(darlehen|kredit).{1,10}von.{1,10}\d{2,3}.{0,5}\d{2,3}.{1,10}euro/i
+/(ich|wir).{1,10}leihen.{1,15}(darlehen|kredit)/i
+/(ich|wir).{1,10}privatpersonen.{1,15}unternehmen.{1,10}(darlehen|kredit)/i
+/(ich|wir).{1,10}stellen? mittel zur verfügung/iu
+
+/ihnen.{1,10}eine finanzierung/i
+
+/ihnen.{1,10}attraktives.{1,10}(darlehensangebot|kreditangebot)/i
+/ihnen.{1,10}besondere.{1,10}(darlehen|kredit)/i
 
 /ihnen.{1,20}beratung.{1,15}(geschäfts|privat).{1,15}krediten/iu
+/ihnen.{1,10}(darlehen|kredit).{1,10}(mit|zu).{1,20}zinssatz/iu
 /ihnen.{1,10}den benötigten kredit/iu
-/ihnen.{1,10}eine.{1,10}kreditoption/i
-/ihnen.{1,10}finanzierungslösung(en)?.{1,10}in höhe von/iu
-/ihnen.{1,10}finanzierungsmöglichkeit(en)?.{1,10}präsentieren/iu
 /ihnen.{1,10}einzigartige finanzielle/i
-/ihnen.{1,10}einen kredit anbieten/i
-/ihnen.{1,10}unser kreditprogramm/i
+/ihnen.{1,10}(ein|unser).{1,10}(darlehen|kredit) anbieten/i
+/ihnen.{1,10}(ein|unser).{1,10}(kreditoption|kreditprogramm)/i
+
+/ihnen.{1,10}finanzierungslösung.{1,10}in höhe von/iu
+/ihnen.{1,10}finanzierungsmöglichkeit.{1,10}präsentieren/iu
+/ihnen.{1,10}möglichkeit zu bieten.{1,20}(darlehen|kredit)/iu
 
 /(geschäftskredit|immobilienkredit).{1,10}autokredit/i
 
@@ -142,6 +220,7 @@
 
 /informationen zum benötigten betrag/iu
 
+/investition.{1,15}finanzierung/i
 /investitionsfinanzierungen.{1,10}projektfinanzierungen/i
 
 # J
@@ -151,10 +230,13 @@
 # ------------------------------------------------------------------------------
 /keine sicherheiten.{1,20}keine bonitätsprüfung/iu
 
-/kontaktieren sie uns für ein(en)?.{1,10}(darlehen|kredit)/iu
+/kontaktieren sie uns.{1,20}(darlehen|geld|kredit)/iu
 
 /kredit ohne schufa/i
+
+/kreditarten sind wir zertifiziert/i
 /kreditangebote von.{1,15}bis/i
+/kreditprogramm vorstellen/i
 
 /kredit.?betrag.{1,20}kredit.?laufzeit/i
 /kreditlaufzeit.{1,10}zweck/i
@@ -165,6 +247,8 @@
 # M
 # ------------------------------------------------------------------------------
 /maßgeschneiderte.{1,10}kreditoptionen/iu
+
+/mit.{1,10}online.{1,10}(darlehen|kredit)/iu
 
 # N
 # ------------------------------------------------------------------------------
@@ -194,14 +278,26 @@
 
 /sie an einem.{1,10}(darlehen|kredit) interessiert sind/i
 /sie auf der suche nach.{1,15}(darlehen|kredit)/i
+
 /sie bei ihren.{1,10}finanzierungsbedürfnissen/iu
-/sie eine zuverlässige.{1,10}finanzierung/iu
-/sie ein(en)?.{1,10}(darlehen|kredit) benötigen/iu
-/sie interesse an einer.{1,20}finanzierung/i
+
+/sie (benötigen|brauchen|möchten).{1,10}ein(en)?.{1,10}(darlehen|kredit)/iu
+/sie (benötigen|brauchen|möchten).{1,10}geld.{1,10}(darlehen|kredit)/iu
+
+/sie.{1,15}(dringend|heute|interesse).{1,20}(darlehen|kredit)/iu
+/sie.{1,15}(garantiert|schnell).{1,20}(darlehen|kredit)/i
+
+/sie.{1,10}eine zuverlässige.{1,10}finanzierung/iu
+/sie.{1,10}ein(en)?.{1,10}(darlehen|kredit).{1,10}benötigen/iu
+/sie.{1,10}einen.{1,10}seriösen.{1,10}zuverlässigen.{1,10}kreditgeber/iu
+/sie.{1,10}einen.{1,15}sofort.?kredit/i
 
 /sie.{1,10}finanzielle.{1,10}(hilfe|unterstützung) (benötigen|brauchen)/iu
+/sie.{1,10}interesse an einer.{1,20}finanzierung/i
 
 /sie suchen nach einem.{1,10}(darlehen|kredit)/i
+
+/sofort.?(darlehen|kredit).{1,15}ohne sicherheiten/i
 
 /suchen?.{1,10}(ein(en)?|nach).{1,10}(darlehen|kapital|kredit)/i
 /suche.{1,10}nach.{1,10}finanzieller unterstützung sind/iu
@@ -211,8 +307,14 @@
 
 # U
 # ------------------------------------------------------------------------------
+/(unglaublich|unschlagbar|zuverlässig).{1,10}kredit.?angebot/i
+
+/unser geschäft ist die kreditvergabe/iu
+
+/unsere?.{1,10}angebote?.{1,10}unternehmens.?kredit/i
 /unsere.{1,10}(darlehen|kredite).{1,10}bieten.{1,10}(attraktiven?|flexible)/i
 /unsere.{1,10}(darlehen|kredite).{1,10}sind/i
+/unsere.{1,10}kreditbeträge reichen/i
 
 /unseren?.{1,10}investitions.{1,10}kreditangeboten?/i
 
@@ -220,13 +322,16 @@
 
 # V
 # ------------------------------------------------------------------------------
+/vergibt derzeit.{1,15}(darlehen|kredit)/i
+
+/vollständiger name.{1,10}betrag/iu
 
 # W
 # ------------------------------------------------------------------------------
 /wenn sie an einem.{1,10}(darlehen|kredit)/i
 
 /wir bieten.{1,15}finanzielle lösungen/iu
-/wir bieten.{1,15}(finanzdienstleistungen|finanzierungen|finanzierungslösungen)/iu
+/wir bieten.{1,20}(finanzdienstleistungen|finanzierungen|finanzierungslösungen|finanzierungsmöglichkeiten)/iu
 /wir bieten.{1,15}ihnen alle.{1,10}finanzierungsarten/i
 /wir bieten.{1,15}privatpersonen.{1,10}unternehmen/i
 /wir bieten.{1,25}(schnelle|unbesicherte|unkomplizierte).{1,25}finanzierungen/i
@@ -235,10 +340,17 @@
 /wir ein.{1,25}kreditangebot/i
 /wir finanzieren.{1,10}(alle projekte|weltweit)/i
 
-/wir sind.{1,35}kredit.?(geber|unternehmen)/i
-/wir sind.{1,35}finanzdienstleister/i
-/wir sind.{1,35}privater.{1,10}finanz/i
+/wir sind.{1,10}aktiv in der.{1,15}finanzierung/i
+
+/wir sind.{1,25}(finanzdienstleister|finanzkreditgeber|finanzinstitut)/iu
 /wir sind.{1,10}folgende kreditarten/i
+
+/wir sind.{1,20}kapitalanlagegesellschaft/i
+/wir sind.{1,35}kredit.?(geber|unternehmen)/i
+/wir sind.{1,15}gruppe.{1,15}investoren/i
+
+/wir sind.{1,35}privater.{1,10}finanz/i
+/wir sind.{1,15}privates.{1,10}(finanz.?unternehmen|kredit)/i
 
 # X
 # ------------------------------------------------------------------------------
@@ -250,7 +362,13 @@
 # ------------------------------------------------------------------------------
 /zeitnahe finanzierungshilfe/i
 
-/zinssatz von.{1,10}senden sie uns/i
+/zertifizierter privater geldverleiher/i
 
-/zinsgünstige.{1,10}(darlehen|kredite?).{1,10}privatpersonen/iu
-/zuverlässigen kredit/i
+/zins.?satz von.{1,10}antworten sie mit/i
+/zins.?satz von.{1,10}bewerben sie sich jetzt/i
+/zins.?satz von.{1,10}senden sie uns/i
+
+/zinsgünstige.{1,10}(darlehen|kredit).{1,10}privatpersonen/iu
+
+/zuverlässige.{1,10}finanzunternehmen bietet/iu
+/zuverlässigen.{1,10}kredit/i
