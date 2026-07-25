@@ -24,56 +24,6 @@
 /begünstigter.{1,10}des/i
 /begünstigter für.{1,15}ausgewählt/iu
 
-# Cars
-# ------------------------------------------------------------------------------
-/(audi|mercedes.?benz|porsche|volkswagen|vw).{1,15}(ab lager|sofort|werkszugang)/i
-/(audi|mercedes.?benz|porsche|volkswagen|vw).{1,10}(fahrzeuge|fahrzeugübersicht)/i
-/(audi|mercedes.?benz|porsche|volkswagen|vw).{1,25}geprüfte modelle/iu
-/(audi|mercedes.?benz|porsche|volkswagen|vw).{1,15}modelle verfügbar/iu
-/(audi|mercedes.?benz|porsche|volkswagen|vw).{1,15}(direktverkauf|konzern)/i
-/(audi|mercedes.?benz|porsche|volkswagen|vw).{1,15}vertragsrücklauf/iu
-/(audi|mercedes.?benz|porsche|volkswagen|vw).{1,10}werksvertrieb/i
-
-/(fahrzeuge|jahreswagen|werksmodelle).{1,10}bis zu.{1,10}rabatt/i
-/(fahrzeuge|jahreswagen|werksmodelle).{1,10}unter listenpreis/i
-/(fahrzeuge|jahreswagen|werksmodelle).{1,10}(verfügbar|vertragsauflösungen)/iu
-/(fahrzeuge|jahreswagen|werksmodelle).{1,10}sofort lieferbar/i
-/(fahrzeuge|jahreswagen|werksmodelle).{1,10}direkt (mitnehmen|verfügbar)/iu
-/(fahrzeuge|jahreswagen|werksmodelle).{1,10}unter marktwert/i
-
-/fahrzeugangebote.{1,10}geprüfte modelle/iu
-/fahrzeugübersicht.{1,10}aktualisierter bestand/iu
-
-/direktangebote.{1,10}(audi|mercedes.?benz|porsche|volkswagen|vw)/iu
-/(geprüfte|lagerabverkauf|verfügbare|zertifizierte).{1,10}(audi|mercedes.?benz|porsche|volkswagen|vw)/iu
-/(geprüfte|lagerabverkauf|verfügbare|zertifizierte).{1,10}fahrzeuge/iu
-
-/sofort verfügbare.{1,10}(audi|mercedes.?benz|porsche|volkswagen|vw).{1,10}modelle/i
-/gebrauchtfahrzeuge.{1,10}verfügbar/iu
-
-/direkt vom händler.{1,10}verfügbare?/iu
-
-/exklusive.{1,10}gebrauchtwagen.{1,10}angebote/i
-/exklusiven.{1,10}katalog anfordern/i
-
-/firmenflotten?.{1,25}(bestand|fahrzeuge)/i
-
-/ihre.{1,10}fahrzeugauswahl/i
-/jetzt werkskatalog/i
-/jetzt zugang anfordern/i
-
-/modelle.{1,15}monatsliste/i
-/modelle.{1,10}sofortkauf/i
-
-/neue fahrzeuge auf lager/i
-/rabatte?.{1,10}über.{1,10}fahrzeuge/iu
-
-/aktueller?.{1,10}fahrzeug(e|bestand)/i
-/unser(em)?.{1,10}fahrzeugbestand/i
-
-/sonderkontingent freigegeben/i
-/vertragsrückläufer.{1,10}sonderkonditionen/iu
-
 # Comparing price for solar energy at home
 # ------------------------------------------------------------------------------
 # -> They are stealing personal information

@@ -6,43 +6,6 @@
 # Topics
 # ==============================================================================
 
-# Companies/Organizations
-# ------------------------------------------------------------------------------
-/parkingpay.{1,10}kontoverifikation erforderlich/i
-
-# Insolvenz
-# ------------------------------------------------------------------------------
-/insolvenz(en)?.{1,10}günstigen.{1,10}konditionen/iu
-/insolvenz(en)?.{1,10}verwertung/i
-
-/(angebot|auszug|inventargegenständen?).{1,25}insolvenzverfahren/i
-/(fahrzeuge|maschinen|vermögenswerte).{1,25}insolvenzverfahren/i
-/laufenden?.{1,25}insolvenzverfahren/i
-
-/betriebsgüter verfügbar/iu
-/gerichtlicher? verwertung/i
-
-/neuware.{1,10}sonderkonditionen/i
-
-/aus insolvenzmasse/i
-/auszug verfügbarer sachgruppen/iu
-/hinweis.{1,10}bestandsverwertung/i
- 
-/fristgebundene.{1,10}aufstellung/i
-
-/katalog.{1,10}masseverwertung/i
-/neue.{1,10}insolvenzposten/i
-/posten aus.{1,15}insolvenz/i
-/positionsübersicht.{1,10}verfahren/iu
-/restbestände.{1,10}betriebsauflösung/iu
-/unser(em)?.{1,10}insolvenzkatalog/i
-
-/(verwertung|waren).{1,15}(insolvenzverfahren|liquidationen)/i
-/vermögensveräußerung.{1,15}(insolvenzverfahren|liquidationen)/iu
-/veräußerungsmandat.{1,15}aktuelle positionen/iu
-
-/verfügbare bestandspositionen/i
-
 # Fake Selling
 # ------------------------------------------------------------------------------
 /nur noch wenige flaschen/i

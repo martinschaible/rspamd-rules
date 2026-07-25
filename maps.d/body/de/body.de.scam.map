@@ -48,42 +48,6 @@
 
 /wir.{1,10}das verzeichnis.{1,40}aktualisieren/i
 
-# Cars
-# ------------------------------------------------------------------------------
-/(audi|mercedes.?benz|porsche|volkswagen|vw) team/i
-/(audi|mercedes.?benz|porsche|volkswagen|vw).{1,10}unangefochtenen preisen/i
-/(audi|mercedes.?benz|porsche|volkswagen|vw).{1,15}kundenauftrag/i
-/(audi|mercedes.?benz|porsche|volkswagen|vw).{1,10}werkswagen/i
-
-/direktvertrieb.{1,10}(audi|mercedes.?benz|porsche|volkswagen|vw)/i
-/kollektion.{1,10}(audi|mercedes.?benz|porsche|volkswagen|vw)/i
-
-/(werksmodelle|werkswagen).{1,15}(anfragen|direkt|katalog|persönlich)/i
-
-/fahrzeugen?.{1,15}finanzierungsrücklauf/i
-/fahrzeugen?.{1,25}leasingrücklauf vermarktet/iu
-/fahrzeugen?.{1,15}(direktverwertung|sind direkt|zwischenlager)/i
-/fahrzeugen?.{1,10}inkl.{1,10}mwst.{1,10}fahrbereit/i
-/fahrzeugen?.{1,15}klarer historie/i
-
-/(direkten|direkter) zugriff.{1,15}limitierte auswahl/i
-/jetzt verfügbar.{1,10}(audi|mercedes.?benz|porsche)/i
-
-/entdecken sie unsere.{1,15}werksfahrzeuge/i
-/katalogzugang auf anfrage/i
-/konditionen.{1,10}vertragsrückläufer/iu
-/modelle im kundenauftrag/i
-/unsere geprüften.{1,10}fahrzeuge/iu
-/unsere.{1,10}(werksmodelle|werkswagen)/i
-
-/sofort verfügbaren.{1,10}fahrzeugen?/iu
-
-/verträgen stammen.{1,10}sofort für sie/iu
-/werksfahrzeug.?team/i
-
-#
-/verkaufsberater.{1,10}volkswagen ag/i
-
 # Comparing price for solar energy at home
 # ------------------------------------------------------------------------------
 # -> They are stealing personal information
