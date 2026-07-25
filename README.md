@@ -161,7 +161,8 @@ body
   ├─ en
   │    └─ ....
   │
-  └─ body.phishing.orgbrandprod.ucase.map                  **
+  ├─ body.phishing.orgbrandprod.map                  **
+  └─ body.phishing.orgbrandprod.ucase.map            **
 
 sender
   ├─ de
