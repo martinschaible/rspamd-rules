@@ -28,7 +28,7 @@
 /memory.{0,10}(drink|fix(er)?|gap|guide|enhancement|fruit|guard)/i
 /memory.{0,10}(hack|health)/i
 /memory.{0,10}(improver|improvement|insider|killer|laps(es)?|loss)/i
-/memory.{0,10}master/i
+/memory.{0,10}(master|matters)/i
 /memory.{0,10}notes/i
 /memory.{0,10}protection/i
 /memory.{0,10}(recovery|report|research|restoration|restore|rescue|revival|revive)/i
@@ -118,21 +118,21 @@
 # ------------------------------------------------------------------------------
 /(health|quick).{0,10}(boost(er)?|fix|guide)/i
 
-/healthy?.{0,10}(advisory|aging|alerts?|alternative)/i
-/healthy?.{0,10}(brain|brief(ing)?|choice(es)?|conspiracy|deals?|digest)/i
-/health.?.{0,10}(desk|discovery|digest|drink|enigma)/i
-/health.?.{0,10}(eating|expert)/i
-/healthy?.{0,10}(feet|fibes|files?|flush|foods?|freedom)/i
-/healthy?.{0,10}(gift|guides?|gut)/i
-/healthy?.{0,10}(habit|hack|hair|heart|heaven|hero)/i
-/healthy?.{0,10}(insider|insights?|investigators?)/i
-/healthy?.{0,10}(liver|mornings?|mouth|now|power)/i
-/healthy?.{0,10}metabolism/i
-/healthy?.{0,10}(research|routine)/i
-/healthy?.{0,10}(secret|skin|smile|spine|start)/i
-/healthy?.{0,10}(trainer|transformation|truth)/i
-/healthy?.{0,10}(vibes|wire)/i
-/healthy?.{0,10}update/i
+/(healthier|healthy?).{0,10}(advisory|aging|alerts?|alternative)/i
+/(healthier|healthy?).{0,10}(brain|brief(ing)?|choice(es)?|conspiracy|deals?|digest)/i
+/(healthier|healthy?).{0,10}(desk|discovery|digest|drink|enigma)/i
+/(healthier|healthy?).{0,10}(eating|eyes|expert)/i
+/(healthier|healthy?).{0,10}(feet|fibes|files?|flush|foods?|freedom)/i
+/(healthier|healthy?).{0,10}(gift|guides?|gut)/i
+/(healthier|healthy?).{0,10}(habit|hack|hair|heart|heaven|hero)/i
+/(healthier|healthy?).{0,10}(insider|insights?|investigators?)/i
+/(healthier|healthy?){0,10}(liver|mornings?|mouth|now|power)/i
+/(healthier|healthy?).{0,10}metabolism/i
+/(healthier|healthy?).{0,10}(research|routine)/i
+/(healthier|healthy?).{0,10}(secret|skin|smile|spine|start)/i
+/(healthier|healthy?).{0,10}(trainer|transformation|truth)/i
+/(healthier|healthy?).{0,10}(vibes|wire)/i
+/(healthier|healthy?).{0,10}update/i
 
 /(american|daily|insider|intimate|mens|simple|womens).{0,10}health/i
 
