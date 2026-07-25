@@ -338,23 +338,27 @@
 
 /we.{1,10}mainly deal with chinese/i
 
-/we.{1,10}(deliver|offer|provide).{1,10}(air|sea).{1,10}freight/i
-/we.{1,10}(deliver|offer|provide).{1,10}custom(ized)?.{1,10}(odm|oem)/i
-/we.{1,10}(deliver|offer|provide).{1,10}custom(ized)?.{1,10}(design|personalized)/i
-/we.{1,10}(deliver|offer|provide).{1,10}(cnc|machining|oem|printing)/i
-/we.{1,10}(deliver|offer|provide).{1,10}comprehensive.{1,10}custom/i
-/we.{1,10}(deliver|offer|provide).{1,15}following.{1,10}custom/i
-/we.{1,10}(deliver|offer|provide).{1,10}reliable custom/i
-/we.{1,10}(deliver|offer|provide).{1,10}exquisite designs/i
-/we.{1,10}(deliver|offer|provide).{1,10}high quality.{1,10}custom/i
-/we.{1,10}(deliver|offer|provide).{1,10}manufacturing/i
-/we.{1,10}(deliver|offer|provide).{1,10}modern designs/i
-/we.{1,10}(deliver|offer|provide).{1,10}one.?stop services/i
-/we.{1,10}(deliver|offer|provide).{1,10}professional proposals/i
-/we.{1,10}(deliver|offer|provide).{1,10}range of.{1,15}(detailed|highly)/i
-/we.{1,10}(deliver|offer|provide).{1,10}reliable.{1,10}high.?performance/i
-/we.{1,10}(deliver|offer|provide).{1,10}reliable.{1,10}(capacitors|connectors|ics|resistors)/i
-/we.{1,10}(deliver|offer|provide).{1,10}stop solution/i
+/we.{1,10}(deliver|offer|provide|supply).{1,15}(active|passive).{1,15}(components|electronic)/i
+/we.{1,10}(deliver|offer|provide|supply).{1,10}(air|sea).{1,10}freight/i
+/we.{1,10}(deliver|offer|provide|supply).{1,10}(bluetooth|main board)/i
+/we.{1,10}(deliver|offer|provide|supply).{1,15}glass.{1,10}(bricks|products)/i
+/we.{1,10}(deliver|offer|provide|supply).{1,15}(custom digital|displays|printing products)/i
+/we.{1,10}(deliver|offer|provide|supply).{1,10}custom(ized)?.{1,10}(odm|oem)/i
+/we.{1,10}(deliver|offer|provide|supply).{1,10}custom(ized)?.{1,10}(design|personalized)/i
+/we.{1,10}(deliver|offer|provide|supply).{1,10}(cnc|machining|oem|printing)/i
+/we.{1,10}(deliver|offer|provide|supply).{1,10}comprehensive.{1,10}custom/i
+/we.{1,10}(deliver|offer|provide|supply).{1,15}following.{1,10}custom/i
+/we.{1,10}(deliver|offer|provide|supply).{1,10}reliable custom/i
+/we.{1,10}(deliver|offer|provide|supply).{1,10}exquisite designs/i
+/we.{1,10}(deliver|offer|provide|supply).{1,10}high quality.{1,10}custom/i
+/we.{1,10}(deliver|offer|provide|supply).{1,10}manufacturing/i
+/we.{1,10}(deliver|offer|provide|supply).{1,10}modern designs/i
+/we.{1,10}(deliver|offer|provide|supply).{1,10}one.?stop services/i
+/we.{1,10}(deliver|offer|provide|supply).{1,10}professional proposals/i
+/we.{1,10}(deliver|offer|provide|supply).{1,10}range of.{1,15}(detailed|highly)/i
+/we.{1,10}(deliver|offer|provide|supply).{1,10}reliable.{1,10}high.?performance/i
+/we.{1,10}(deliver|offer|provide|supply).{1,10}reliable.{1,10}(capacitors|connectors|ics|resistors)/i
+/we.{1,10}(deliver|offer|provide|supply).{1,10}stop solution/i
 
 /we.{1,10}produce.{1,10}(film|metal|pet|series|toys)/i
 
@@ -363,9 +367,6 @@
 
 /we.{1,15}seek long.?term.{1,10}stable cooperation/i
 
-/we.{1,10}supply.{1,15}(custom digital|displays|printing products)/i
-/we.{1,10}supply.{1,15}(active|passive).{1,15}(components|electronic)/i
-/we.{1,10}supply.{1,15}glass.{1,10}(bricks|products)/i
 /we.{1,10}support.{1,10}(odm|oem)/i
 
 /we.{1,10}specialize.{1,20}(advanced|bearings|design|groove)/i
