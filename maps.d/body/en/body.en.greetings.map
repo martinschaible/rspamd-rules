@@ -244,10 +244,12 @@
 
 /greetings?.?(of the day)?.{1,15}(global|investment)/i 
 
-/greetings?.{1,10}recipient/i
+/greetings?.{1,10}from.{1,15}investors/i
 /greetings?.{1,10}from.{5,35}distributors? of/i
 /greetings?.{1,10}from the republic/i
+
 /greetings?.{1,10}join the/i
+/greetings?.{1,10}recipient/i
 
 # Funny :-)
 /gooday sir.?ma/i
