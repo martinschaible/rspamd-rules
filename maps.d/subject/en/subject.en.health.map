@@ -23,7 +23,9 @@
 # Special
 # ------------------------------------------------------------------------------
 /\[.?avoid (these|this)/i
-/\[heres how\]/i
+/\[.?avoid.?\]/i
+
+/\[.?heres? how.?\]/i
 
 /\].?(find out here|here.{1,5}how)/i
 
@@ -648,7 +650,9 @@
 
 /life.?changing.{1,10}video/i
 /lift(ed)?.{1,10}butt/i
-/link to.{1,10}nails/i
+
+/link to.{1,10}(alzheimer|nails)/i
+
 /listen to your.{1,10}gut/i
 /liver is in.{1,10}danger/i
 /liver link/i
