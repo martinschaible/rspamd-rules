@@ -17,8 +17,68 @@
 # Scam: Selling Cars 
 # ------------------------------------------------------------------------------
 
+# Brands & models
+/(audi|mercedes.?benz|porsche|volkswagen|vw) team/i
+/(audi|mercedes.?benz|porsche|volkswagen|vw).{1,10}unangefochtenen preisen/i
+/(audi|mercedes.?benz|porsche|volkswagen|vw).{1,15}kundenauftrag/i
+/(audi|mercedes.?benz|porsche|volkswagen|vw).{1,10}werkswagen/i
+
+/direktvertrieb.{1,10}(audi|mercedes.?benz|porsche|volkswagen|vw)/i
+/kollektion.{1,10}(audi|mercedes.?benz|porsche|volkswagen|vw)/i
+/jetzt verfügbar.{1,10}(audi|mercedes.?benz|porsche|volkswagen|vw)/i
+/verkaufsberater.{1,10}(audi|mercedes.?benz|porsche|volkswagen|vw)/i
+
+#
+/fahrzeugen?.{1,15}abgelaufenen leasingverträgen/iu
+/fahrzeugen?.{1,15}finanzierungsrücklauf/i
+/fahrzeugen?.{1,25}leasingrücklauf vermarktet/iu
+/fahrzeugen?.{1,15}(direktverwertung|sind direkt|zwischenlager)/i
+/fahrzeugen?.{1,10}inkl.{1,10}mwst.{1,10}fahrbereit/i
+/fahrzeugen?.{1,15}klarer historie/i
+/fahrzeugen?.{1,15}sofort übernahmefähig/i
+
+/aktuellen? fahrzeugangebote vorstellen/i
+
+/(direkten|direkter) zugriff.{1,15}limitierte auswahl/i
+
+/entdecken sie unsere.{1,15}werksfahrzeuge/i
+
+/firmenbestand.{1,10}alle fahrzeuge/i
+/führender anbieter.{1,10}geprüften.{1,10}geschäftswagen/iu
+
+/gebrauchtwagen.{1,10}bis zu.{1,10}unter listenpreis/i
+
+/katalogzugang auf anfrage/i
+/konditionen.{1,10}vertragsrückläufer/iu
+/modelle im kundenauftrag/i
+/sofort verfügbaren.{1,10}fahrzeugen?/iu
+/strategischen partner.{1,10}professionelle/i
+
+/unsere geprüften.{1,10}fahrzeuge/iu
+/unsere.{1,10}(werksmodelle|werkswagen)/i
+
+/verträgen stammen.{1,10}sofort für sie/iu
+
+/werksfahrzeug.?team/i
+/(werksmodelle|werkswagen).{1,15}(anfragen|direkt|katalog|persönlich)/i
+
 # Scam: Insolvency, selling stuff, etc.
 # ------------------------------------------------------------------------------
+/(angebote?|positionen|posten).{1,10}(insolvenzverwertung|insolvenzmasse|insolvenzware)/i
+/(angebote?|positionen|posten|).{1,15}insolvenz(en)?/i
+
+/aktuelle verwertungsangebote/i
+
+/(angebotsübersicht|unsere).{1,10}insolvenzmassen?/iu
+
+/(insolvenzverfahren|liquidierungen|insolvenzverwaltung).{1,10}(anbieten|bieten wir|verwerten)/i
+/(insolvenzverfahren|liquidierungen|insolvenzverwaltung).{1,20}ihnen.{1,20}verzeichnis/i
+/(insolvenzverfahren|liquidierungen|insolvenzverwaltung).{1,20}veräußern wir aktuell/iu
+
+/liquidationen aus.{1,15}(insolvenzmasse|insolvenzverfahren)/i
+/treuhänderisch.{1,15}(insolvenzmasse|insolvenzverfahren)/iu
+/verwertung.{1,10}(aus|von).{1,10}(insolvenzmasse|insolvenzverfahren)/i
+/verwertung.{1,15}gegenstände.{1,10}(insolvenzmasse|insolvenzverfahren)/iu
 
 #
 #

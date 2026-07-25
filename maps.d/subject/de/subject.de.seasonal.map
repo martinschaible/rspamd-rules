@@ -17,8 +17,92 @@
 # Scam: Selling Cars 
 # ------------------------------------------------------------------------------
 
+# Brands & models
+/(audi|mercedes.?benz|porsche|volkswagen|vw).{1,15}(ab lager|sofort|werkszugang)/i
+/(audi|mercedes.?benz|porsche|volkswagen|vw).{1,10}(fahrzeuge|fahrzeugübersicht)/i
+/(audi|mercedes.?benz|porsche|volkswagen|vw).{1,25}geprüfte modelle/iu
+/(audi|mercedes.?benz|porsche|volkswagen|vw).{1,15}modelle verfügbar/iu
+/(audi|mercedes.?benz|porsche|volkswagen|vw).{1,15}(direktverkauf|konzern)/i
+/(audi|mercedes.?benz|porsche|volkswagen|vw).{1,15}vertragsrücklauf/iu
+/(audi|mercedes.?benz|porsche|volkswagen|vw).{1,10}werksvertrieb/i
+
+/(fahrzeuge|jahreswagen|werksmodelle).{1,10}bis zu.{1,10}rabatt/i
+/(fahrzeuge|jahreswagen|werksmodelle).{1,10}unter listenpreis/i
+/(fahrzeuge|jahreswagen|werksmodelle).{1,10}(verfügbar|vertragsauflösungen)/iu
+/(fahrzeuge|jahreswagen|werksmodelle).{1,10}sofort lieferbar/i
+/(fahrzeuge|jahreswagen|werksmodelle).{1,10}direkt (mitnehmen|verfügbar)/iu
+/(fahrzeuge|jahreswagen|werksmodelle).{1,10}unter marktwert/i
+
+/direktangebote.{1,10}(audi|mercedes.?benz|porsche|volkswagen|vw)/iu
+/(geprüfte|lagerabverkauf|verfügbare|zertifizierte).{1,10}(audi|mercedes.?benz|porsche|volkswagen|vw)/iu
+/sofort verfügbare.{1,10}(audi|mercedes.?benz|porsche|volkswagen|vw).{1,10}modelle/i
+
+#
+/aktueller?.{1,10}fahrzeug(e|bestand)/i
+/direkt vom händler.{1,10}verfügbare?/iu
+
+/exklusive.{1,10}gebrauchtwagen.{1,10}angebote/i
+/exklusiven.{1,10}katalog anfordern/i
+
+/fahrzeugangebote.{1,10}geprüfte modelle/iu
+/fahrzeugübersicht.{1,10}aktualisierter bestand/iu
+/firmenflotten?.{1,25}(bestand|fahrzeuge)/i
+
+/(geprüfte|lagerabverkauf|verfügbare|zertifizierte).{1,10}fahrzeuge/iu
+
+/gebrauchtfahrzeuge.{1,10}verfügbar/iu
+
+/ihre.{1,10}fahrzeugauswahl/i
+/jetzt werkskatalog/i
+/jetzt zugang anfordern/i
+
+/modelle.{1,15}monatsliste/i
+/modelle.{1,10}sofortkauf/i
+
+/neue fahrzeuge auf lager/i
+/rabatte?.{1,10}über.{1,10}fahrzeuge/iu
+/sonderkontingent freigegeben/i
+
+/unser(em)?.{1,10}fahrzeugbestand/i
+
+/vertragsrückläufer.{1,10}sonderkonditionen/iu
+
 # Scam: Insolvency, selling stuff, etc.
 # ------------------------------------------------------------------------------
+/aus insolvenzmasse/i
+/auszug verfügbarer sachgruppen/iu
+
+/betriebsgüter verfügbar/iu
+/fristgebundene.{1,10}aufstellung/i
+/gerichtlicher? verwertung/i
+/hinweis.{1,10}bestandsverwertung/i
+
+/insolvenz(en)?.{1,10}günstigen.{1,10}konditionen/iu
+/insolvenz(en)?.{1,10}verwertung/i
+
+/(angebot|auszug|inventargegenständen?).{1,25}insolvenzverfahren/i
+/(fahrzeuge|maschinen|vermögenswerte).{1,25}insolvenzverfahren/i
+/laufenden?.{1,25}insolvenzverfahren/i
+
+/katalog.{1,10}masseverwertung/i
+/neue.{1,10}insolvenzposten/i
+/neuware.{1,10}sonderkonditionen/i
+/posten aus.{1,15}insolvenz/i
+/positionsübersicht.{1,10}verfahren/iu
+/restbestände.{1,10}betriebsauflösung/iu
+/unser(em)?.{1,10}insolvenzkatalog/i
+
+/veräußerungsmandat.{1,15}aktuelle positionen/iu
+/vermögensveräußerung.{1,15}(insolvenzverfahren|liquidationen)/iu
+/verfügbare bestandspositionen/i
+/(verwertung|waren).{1,15}(insolvenzverfahren|liquidationen)/i
+
+# Single words
+/insolvenzauszug/i
+/insolvenzmassen?/i
+/insolvenzposition(en)?/i
+/insolvenzverwalter/i
+/insolvenzverwertung/i
 
 #
 #

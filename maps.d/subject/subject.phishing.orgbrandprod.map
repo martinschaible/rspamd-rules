@@ -124,7 +124,9 @@
 # P
 # ------------------------------------------------------------------------------
 /\[parking.?pay\]/i
+/parkingpay.{1,10}kontoverifikation erforderlich/i
 
+#
 /pay pal:/i
 /paypai/i
 
