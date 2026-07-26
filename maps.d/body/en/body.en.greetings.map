@@ -104,6 +104,7 @@
 /dear.{1,10}friend.{1,10}i am (mrs?|ms)/i
 /dear.{1,10}friend.{1,10}i got your contact/i
 /dear.{1,10}friend.{1,10}it might be a surprise/i
+/dear.{1,10}friend.{1,10}my name is/i
 
 /(dear|hello|hi\b).{1,10}(buyer|customer|director|friend|madam|manager|partner|purchaser|respected|sir).{1,15}attached order/i
 /(dear|hello|hi\b).{1,10}(buyer|customer|director|friend|madam|manager|partner|purchaser|respected|sir).{1,15}are you looking for/i

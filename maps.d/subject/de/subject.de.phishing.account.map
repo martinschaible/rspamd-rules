@@ -89,6 +89,8 @@
 # ------------------------------------------------------------------------------
 /funktionen.{1,15}(konto|profil) aktualisieren/i
 
+/für ihr.{1,15}(konto|profil) aktivieren/iu
+
 # Too generic
 #/für ihr.{1,15}(konto|profile)/i
 
@@ -259,7 +261,7 @@
 /sicherheit ihrer.{1,15}kontoaktivität/iu
 /sicherheit ihres.{1,15}(konto|profil) \d{2}(\.|\/)/iu/i
 
-/sicherheitsmitteilung für ihr.{1,15}(konto|profil)/iu
+/(sicherheitsempfehlung|sicherheitsmitteilung).{1,25}für ihr.{1,15}(konto|profil)/iu
 /sicherheitsteam.{1,20}unautorisierter zugriff/i
 
 /(sicherheits|system).?(aktualisierung|update).{1,10}ihr.{1,15}(konto|profil)/i

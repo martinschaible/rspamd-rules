@@ -476,7 +476,7 @@
 /zahlungserinnerung.{1,10}(import|zoll).?gebühren/iu
 /zahlungserinnerung.{1,15}(paket|sendung)/i
 
-/zugestellt werden.{1,10}(dhl|dpd)_/i
+/zustellfenster bestätigen.{1,10}id/iu
 
 /zum bestätigen.{1,10}\d{5,10}/i
 
