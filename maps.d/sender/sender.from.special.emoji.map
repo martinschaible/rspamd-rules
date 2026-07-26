@@ -1,0 +1,17 @@
+# ==============================================================================
+# Here we check for emojis.
+# Phishing mail like to use emojis to attract attention and to exert pressure.
+#
+# False positives can occur occasionally.
+# It's a mystery why people put emojis in the sender.
+# The main thing is that they stand out.
+#
+# ------------------------------------------------------------------------------
+# Language: -
+# Weight:   6.0
+#           1.0 (use muliplicator 0.17)
+#           2.0 (use muliplicator 0.34)
+# ==============================================================================
+
+/🦊/i
+/✓/i
