@@ -23,11 +23,23 @@
 # A
 # ------------------------------------------------------------------------------
 /abonnement.{1,10}abgelehnt/i
-/abonnement.{1,10}jetzt reparieren/i
-/abonnement.{1,10}wurde aufgrund einer fehlgeschlagenen zahlung/i
-/abonnement.{1,10}wurde pausiert/i
 
-/aktualisierung ihres abonnements erforderlich/i
+/abonnements?.{1,10}aufgrund fehlerhafter zahlungsinformationen/i
+/abonnements?.{1,10}aufgrund fehlgeschlagener zahlung(en)? ausgesetzt wurden?/i
+/abonnements?.{1,10}ausgesetzt wurde.{1,10}beim letzten versuch/i
+
+/abonnements?.{1,10}jetzt reparieren/i
+/abonnements?.{1,10}nicht autorisieren/i
+/abonnements?.{1,10}vorübergehend.{1,10}deaktivieren/iu
+
+/abonnements?.{1,10}wurde aufgrund einer fehlgeschlagenen zahlung/i
+/abonnements?.{1,10}wurde pausiert/i
+
+/abonnements?.{1,10}zahlung wurde abgelehnt/i
+
+/antworten sie.{1,10}bevor ihre.{1,10}mitgliedschaft/i
+
+/aktualisierung ihres abonnements.{1,10}erforderlich/i
 
 # B
 # ------------------------------------------------------------------------------
@@ -50,23 +62,28 @@
 
 # G
 # ------------------------------------------------------------------------------
+/gesperrt.{1,15}verlängerung.{1,15}abonnements?/iu
 
 # H
 # ------------------------------------------------------------------------------
 
 # I
 # ------------------------------------------------------------------------------
+/ihr.{1,15}schutz ist abgelaufen/i
+/ihr.{1,15}schutz ist möglicherweise abgelaufen/iu
+/ihr.{1,15}schutz ist nicht mehr aktiv/i
+
 /ihre?.{1,15}(abonnement|mitgliedschaft).{1,10}derzeit zurückgestellt/iu
 /ihre?.{1,10}(abonnement|mitgliedschaft).{1,10}gefährdet ist/iu
 /ihre?.{1,15}(abonnement|mitgliedschaft).{1,10}(ist|wurde) vorübergehend pausiert/iu
 /ihre?.{1,15}(abonnement|mitgliedschaft).{1,15}wird sistiert/iu
 
-/ihr.{1,15}schutz ist abgelaufen/i
-/ihr.{1,15}schutz ist möglicherweise abgelaufen/iu
-/ihr.{1,15}schutz ist nicht mehr aktiv/i
-
 /ihre?.{1,10}(computer|gerät|system).{1,15}(derzeit|möglicherweise).{1,15}nicht geschützt/iu
 /ihre?.{1,10}(computer|gerät|system).{1,10}ist.{1,15}einem hohen risiko für malware/i
+
+/ihre.{1,10}abonnementzahlung zu aktualisieren/i
+/ihre.{1,10}mitgliedschaft.{1,10}ausgesetzt haben/i
+/ihre.{1,10}zahlungsdaten.{1,10}noch einmal angeben/i
 
 # J
 # ------------------------------------------------------------------------------
@@ -94,6 +111,7 @@
 
 # R
 # ------------------------------------------------------------------------------
+/reaktiviere mein.{1,10}abonnement/i
 
 # S
 # ------------------------------------------------------------------------------
@@ -116,8 +134,11 @@
 /verlängern sie einfach.{1,10}abo(nnement)?.{1,10}der vorgang dauert/iu
 /verlängern sie noch heute.{1,10}erhalten sie vollständigen schutz/iu
 
+/verlieren sie ihre aktuellen episoden nicht/i
+
 # W
 # ------------------------------------------------------------------------------
+/wir wollen dich immer noch zurück/i
 
 # X
 # ------------------------------------------------------------------------------
@@ -128,6 +149,7 @@
 # Z
 # ------------------------------------------------------------------------------
 /zahlung für ihr.{1,20}abonnement ist.{1,15}fehlgeschlagen/iu
+/zahlungsinformationen.{1,15}sie ihre vorteile nicht verlieren/i
 
 # Spotify
 /zurück zu premium/iu

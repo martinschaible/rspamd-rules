@@ -14,9 +14,17 @@
 /rechnungsnummer.{1,10}apple/i
 /offene rechnung.{1,10}swisspass/i
 
+/estv rückerstattung/iu
+
+/lieber autoscout24.?kunde/i
+/reaktivieren sie ihre.{1,10}apple.?id/i
+/sbb cff ffs.{1,10}sehr geehrter kunde/i
+/sie ihre.{1,10}apple.?id wieder aktivieren/i
+
 #/ihr swisspass.?team/i
 /zentrale mautaufsicht.{1,10}enforcement/i
 
+/paypal support.{1,10}sehr geehrter? (kunde|kundin)/i
 
 # Swiss dialect
 /ds spoitify.?team/i

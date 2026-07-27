@@ -13,6 +13,10 @@
 # ------------------------------------------------------------------------------
 /rückerstattig vo chf/iu
 
+# Companies
+# ------------------------------------------------------------------------------
+/swisspass\.ch.{1,10}(rück)?erstattung/iu
+
 #
 #
 #
@@ -22,25 +26,34 @@
 
 # Numeric
 # ------------------------------------------------------------------------------
-/202\d.{1,10}rechnung zurückerstatten/iu
+/(202\d|monat).{1,10}rechnung zurückerstatten/iu
+/(202\d|monat).{1,15}versehentlich doppelt erfolgt ist/i
 
 # A
 # ------------------------------------------------------------------------------
 /abteilung.{1,10}rückerstattungen/iu
 
-/abschluss ihrer (rückerstattung|rückzahlung)/i
+/abschluss ihrer (rück)?(erstattung|rückzahlung)/i
 
-/aktuelle.{1,10}gutschrift.{1,10}(rückerstattung|rückzahlung)/iu
+/aktuelle.{1,10}gutschrift.{1,10}(rück)?(erstattung|rückzahlung)/iu
 
 # B
 # ------------------------------------------------------------------------------
-/benachrichtigung zur?.{1,10}(rückerstattung|rückzahlung)/iu
+/benachrichtigung zur?.{1,10}(rück)?(erstattung|rückzahlung)/iu
 
 # C
 # ------------------------------------------------------------------------------
 
 # D
 # ------------------------------------------------------------------------------
+/doppelte zahlung.{1,15}ihre rechnung/i
+/doppelte zahlung.{1,15}rechnung.{1,15}verursacht wurden/i
+/doppelte zahlung.{1,10}verarbeitet wurde/i
+
+/(doppelt|zweimal).{1,10}(bezahlt wurde|erfolgt ist).{1,10}um eine erstattung/i
+/(doppelt|zweimal).{1,10}in rechnung gestellt wurden?/i
+
+/doppelabrechnung für.{1,25}gibt/i
 
 # E
 # ------------------------------------------------------------------------------
@@ -71,29 +84,34 @@
 
 /ihre.{1,15}rechnung für den monat.{1,25}doppelt bezahlt/iu
 /ihre.{1,15}rechnung versehentlich zweimal beglichen/i
-/ihre.{1,15}rückerstattung bei der/iu
+/ihre.{1,15}(rück)?erstattung bei der/iu
 
 /information.{1,10}bearbeitung.{1,10}rückzahlungsanspruchs/iu
 
 # J
 # ------------------------------------------------------------------------------
-/jetzt.{1,15}(rückerstattung|rückzahlung) beantragen/iu
+/jetzt.{1,15}(rück)?(erstattung|zahlung) beantragen/iu
 
 # K
 # ------------------------------------------------------------------------------
 /klicken sie.{1,15}auszahlung beantragen/i
 
+/kredit?.karte.{1,10}wurde doppelt belastet/i
+
 # L
 # ------------------------------------------------------------------------------
+/(link|sie ein).{1,15}eine.{1,10}(rück)?erstattung.{1,10}(beantragen|erhalten)/iu
 
 # M
 # ------------------------------------------------------------------------------
+/mitteilung zur rückerstattungsanfrage/iu
 
 # N
 # ------------------------------------------------------------------------------
 
 # O
 # ------------------------------------------------------------------------------
+/online.?erstattungszahlung/i
 
 # P
 # ------------------------------------------------------------------------------
@@ -104,23 +122,26 @@
 
 # R
 # ------------------------------------------------------------------------------
-/(rückerstattung|rückzahlung).{1,15}bearbeiten zu können.{1,10}ist.{1,10}bestätigung/iu
-/(rückerstattung|rückzahlung).{1,10}(bearbeiten|beantragen|bestätigen|prüfen)/iu
-/(rückerstattung|rückzahlung).{1,15}damit diese.{1,15}erfolgen/iu
-/(rückerstattung|rückzahlung).{1,10}erfolgreich geprüft wurde/iu
-/(rückerstattung|rückzahlung).{1,10}ihrer prämienzahlung/iu
-/(rückerstattung|rückzahlung).{1,10}in höhe von.{1,25}bereitsteht/iu
+/rechnung.{1,20}(für|monat).{1,30}(doppelt|zweimal).{1,10}(bezahlt wurde|erfolgt ist)/i
+/rechnung.{1,10}versehentlich doppelt bezahlt wurde/i
 
-/(rückerstattung|rückzahlung).{1,15}ist (bereit|vorbereitet)/iu
-/(rückerstattung|rückzahlung).{1,15}ist online verfügbar/iu
+/(rück)?(erstattung|rückzahlung).{1,15}bearbeiten zu können.{1,10}ist.{1,10}bestätigung/iu
+/(rück)?(erstattung|rückzahlung).{1,10}(bearbeiten|beantragen|bestätigen|prüfen)/iu
+/(rück)?(erstattung|rückzahlung).{1,15}damit diese.{1,15}erfolgen/iu
+/(rück)?(erstattung|rückzahlung).{1,10}erfolgreich geprüft wurde/iu
+/(rück)?(erstattung|rückzahlung).{1,10}ihrer prämienzahlung/iu
+/(rück)?(erstattung|rückzahlung).{1,10}in höhe von.{1,25}bereitsteht/iu
 
-/(rückerstattung|rückzahlung).{1,15}für sie verfügbar/iu
-/(rückerstattung|rückzahlung).{1,10}wird.{1,15}bearbeitet/iu
-/(rückerstattung|rückzahlung).{1,15}zahlung zu beantragen/i
-/(rückerstattung|rückzahlung).{1,10}zu beantragen.{1,10}füllen sie.{1,10}das/i
-/(rückerstattung|rückzahlung).{1,10}zu überprüfen/iu
+/(rück)?(erstattung|rückzahlung).{1,15}ist (bereit|vorbereitet)/iu
+/(rück)?(erstattung|rückzahlung).{1,15}ist online verfügbar/iu
 
-/(rückerstattung|rückzahlung)s?.?link/iu
+/(rück)?(erstattung|rückzahlung).{1,15}für sie verfügbar/iu
+/(rück)?(erstattung|rückzahlung).{1,10}wird.{1,15}bearbeitet/iu
+/(rück)?(erstattung|rückzahlung).{1,15}zahlung zu beantragen/i
+/(rück)?(erstattung|rückzahlung).{1,10}zu beantragen.{1,10}füllen sie.{1,10}das/i
+/(rück)?(erstattung|rückzahlung).{1,10}zu überprüfen/iu
+
+/(rück)?(erstattung|rückzahlung)s?.?link/iu
 
 /rückerstattungsanforderung.{1,10}erfolgreich akzeptiert/iu
 /rückerstattungsanfrage.{1,10}sehr geehrter?/i
@@ -139,9 +160,10 @@
 /sie ihre rückerstattungsrechnung/iu
 /sie werden gebeten.{1,10}rückerstattungsformular/iu
 
-/sie (haben|möglicherweise).{1,10}anspruch.{1,15}(rückerstattung|rückzahlung)/i
+/sie (haben|möglicherweise).{1,10}anspruch.{1,15}(rück)?(erstattung|rückzahlung)/i
 
-/swisspass\.ch.{1,10}(rück)?erstattung/iu
+/sofortige.{1,10}(rück)?erstattung zu erhalten/iu
+
 
 # T
 # ------------------------------------------------------------------------------
@@ -156,7 +178,12 @@
 
 # W
 # ------------------------------------------------------------------------------
-/wir festgestellt.{1,10}dass sie anspruch auf eine.{1,10}(rück)?erstattung/iu
+/wichtige (informationen|mitteilung).{1,10}(rück)?erstattung/iu
+
+/ihnen eine steuererstattung/i
+
+/wir festgestellt.{1,10}dass.{1,10}eine.{1,10}(rück)?erstattung/iu
+/wir festgestellt.{1,10}dass.{1,10}anspruch auf eine.{1,10}(rück)?erstattung/iu
 
 /wir haben eine.{1,10}(rück)?erstattung für sie/iu
 /wir haben ihre versicherungsprämien?.{1,10}für das.{1,15}jahr überprüft/i
