@@ -145,6 +145,7 @@ body
   │   ├─ body.de.phishing.account.map
   │   ├─ body.de.phishing.alertaction.map
   │   ├─ body.de.phishing.banking.map
+  │   ├─ body.de.phishing.banking.app.map
   │   ├─ body.de.phishing.banking.tan.map
   │   ├─ body.de.phishing.card.map
   │   ├─ body.de.phishing.email.map
@@ -189,6 +190,7 @@ subject
   │   ├─ subject.de.phishing.account.map
   │   ├─ subject.de.phishing.alertaction.map
   │   ├─ subject.de.phishing.banking.map
+  │   ├─ subject.de.phishing.banking.app.map
   │   ├─ subject.de.phishing.banking.tan.map
   │   ├─ subject.de.phishing.card.map
   │   ├─ subject.de.phishing.email.map
