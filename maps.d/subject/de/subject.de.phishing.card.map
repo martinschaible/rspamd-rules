@@ -76,11 +76,13 @@
 
 # R
 # ------------------------------------------------------------------------------
-/reaktivieren sie ihre.{1,20}karte.{1,10}blockierungen/i
-/reaktivierung ihrer.{1,20}karte/i
+/(re)?aktivieren sie ihre.{1,20}karte.{1,10}blockierungen/i
+/(re)?aktivierung ihrer.{1,20}karte/i
 
 # S
 # ------------------------------------------------------------------------------
+/sperrung.{1,10}ihrer.{1,15}(card|karte)/i
+/sperrung.{1,10}ihrer.{1,10}zahlungsmittel/i
 
 # T
 # ------------------------------------------------------------------------------
