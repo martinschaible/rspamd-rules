@@ -5,46 +5,6 @@
 #  10 | German         |
 # ==============================================================================
 
-# Cards
-# ------------------------------------------------------------------------------
-/credit.?card für sie weiterentwickelt/i
-/(debit|kredit)?karte.{1,10}sehr geehrter?/i
-
-/kredit.?karten.{1,10}score auf den betrug/i
-/kredit,?karteninformationen aktualisieren/i
-
-/ihre.{1,20}(debit|kredit)?karte.{1,10}(temporär|vorsorglich|vorübergehend).{1,10}sperren.{1,10}damit sie wieder/i
-
-/ihre.{1,20}(debit|kredit)?karte.{1,10}wurde aus sicherheitsgründen/iu
-/ihre.{1,20}(debit|kredit)?karte.{1,10}wurde mit sofortiger wirkung gesperrt/i
-/ihre.{1,20}(debit|kredit)?karte.{1,10}wurde vorübergehend gesperrt/i
-
-/ihre.{1,20}(kredit)?karte.{1,10}ist uns sehr wichtig/i
-
-/ihre.{1,20}(debit|kredit)?karte.{1,10}gespeicherten daten.{1,10}beschafft/i
-/ihre.{1,20}(debit|kredit)?karte.{1,10}zu ihrem.{1,15}schutz gesperrt haben/i
-/ihre.{1,20}(debit|kredit)?karte.{1,10}zu verifizieren/i
-
-/haben wir ihre.{1,20}(debit|kredit)?karte.{1,10}eingeschränkt/iu
-
-/karte.{1,10}aktualisieren sie ihre.{1,15}informationen/i
-/karte.{1,10}dieses sicherheits.?verfahren erforderlich/i
-/karte.{1,10}genehmigen.{1,10}aktivieren sie.{1,10}sofort/i
-/karte.{1,10}ist ein.{1,10}ungewöhnlicher fehler aufgetreten/iu
-/karte.{1,10}ist ein.{1,15}prozess erforderlich/i
-/karte.{1,10}mit der endnummer.{1,15}zur reaktivierung/i
-
-/karte.{1,10}wurde aufgrund.{1,25}inaktivität.{1,15}deaktiviert/i
-
-/ablaufdatum ihrer.{1,10}(kredit)?karte.{1,10}ist nicht aktuell/i
-
-/sie ihre.{1,10}(debit|kredit)?karte.{1,10}nicht bestätigt haben/iu
-/sicherheitsinformation.{1,10}vorübergehende sperrung/iu
-/zahlung mit ihrer.{1,20}(debit|kredit)?karte.{1,10}gesperrt/i
-
-#
-/ihre.{1,10}zahlungsfunktion ist gesperrt/i
-
 # Data no more valid
 # ------------------------------------------------------------------------------
 /ihre hinterlegten daten nicht mehr aktuell sind/i
@@ -105,34 +65,6 @@
 
 /verifizieren sie ihre telefon.?nummer/i
 
-# App
-/app.{1,10}aktualisierung.{1,10}erforderlich/i
-/app.{1,10}authentifizierung verfällt/iu
-/app.{1,10}die neueste version zu aktualisieren/i
-/app.{1,10}erneut zu registrieren/i
-/app.{1,10}informieren.{1,10}ihr schutz.{1,10}die sicherheit/iu
-/app.{1,10}umgehend zu aktualisieren/i
-
-/aktualisieren.{1,10}app/i
-/aktualisieren sie ihre.{1,15}app/i
-
-/aktivieren.{1,10}sie ein.{1,10}anwendungsupdate/i
-
-/banking.?app wird in kürze ablaufen/iu
-/(banking|sichere).{1,15}app.{1,10}aktualisieren/i
-
-/erneuerung ihrer.{1,10}app/i
-/verfahren aufgrund ungewöhnlicher aktivitäten deaktiviert wurde/iu
-
-/wichtige sicherheitsaktualisierung.{1,20}(app|debix)/i
-/wichtiges update für ihre.{1,20}(app|debix)/iu
-
-/securego.?plus zu aktivieren/i
-/secure.?plus anhand der anleitung bestätigen/iu
-
-/umstellung ist obligatorisch/i
-/umstellung sofort erforderlich/i
-
 /wichtige hinweise.{1,15}diese aktualisierung/i
 /wichtige mitteilung{1,15}update erforderlich/i
 
@@ -150,9 +82,6 @@
 # Signing documents
 # ------------------------------------------------------------------------------
 /melden sie sich an.{1,10}um vereinbarungen anzuzeigen/i
-
-# Wallet
-# ------------------------------------------------------------------------------
 
 # Message
 # ------------------------------------------------------------------------------
