@@ -25,9 +25,21 @@
 
 # C
 # ------------------------------------------------------------------------------
+/(card|karte).{1,10}aktualisieren sie ihre.{1,15}informationen/i
+/(card|karte).{1,10}bis.{1,20}reaktiviert werden/i
+/(card|karte).{1,15}sicherheits.?verfahren erforderlich/i
+/(card|karte).{1,10}genehmigen.{1,10}aktivieren sie.{1,10}sofort/i
+/(card|karte).{1,10}ist ein.{1,10}ungewöhnlicher fehler aufgetreten/iu
+/(card|karte).{1,10}ist ein.{1,15}prozess erforderlich/i
+/(card|karte).{1,10}mit der endnummer.{1,15}zur reaktivierung/i
+/(card|karte).{1,10}per.{1,10}an ihre.{1,10}adresse schicken/i
+/(card|karte).{1,10}über den untenstehenden.{1,10}link verknüpfen/iu
+/(card|karte).{1,10}wurde aufgrund.{1,25}inaktivität.{1,15}deaktiviert/i
 
 # D
 # ------------------------------------------------------------------------------
+/(debit|kredit).?(card|karte).{1,10}für sie weiterentwickelt/i
+/(debit|kredit).?(card|karte).{1,10}sehr geehrter?/i
 
 # E
 # ------------------------------------------------------------------------------
@@ -40,11 +52,25 @@
 
 # H
 # ------------------------------------------------------------------------------
+/haben wir ihre.{1,20}(card|karte).{1,10}eingeschränkt/iu
 
 # I
 # ------------------------------------------------------------------------------
-/ihre.{1,20}karte.{1,10}(temporär|vorsorglich|vorübergehend).{1,10}(einschränken|eingeschränkt)/iu
-/ihre.{1,20}karte.{1,10}(temporär|vorsorglich|vorübergehend).{1,10}(deaktiviert|gesperrt)/iu
+/ihre.{1,20}(card|karte).{1,10}gespeicherten daten.{1,10}beschafft/i
+/ihre.{1,20}(card|karte).{1,10}ist uns sehr wichtig/i
+
+/ihre.{1,20}(card|karte).{1,10}(temporär|vorsorglich|vorübergehend).{1,10}(einschränken|eingeschränkt)/iu
+/ihre.{1,20}(card|karte).{1,10}(temporär|vorsorglich|vorübergehend).{1,10}(deaktiviert|gesperrt)/iu
+
+/ihre.{1,20}(card|karte).{1,10}(temporär|vorsorglich|vorübergehend).{1,10}sperren.{1,10}damit sie wieder/i
+
+/ihre.{1,20}(card|karte).{1,10}wurde aus sicherheitsgründen/iu
+/ihre.{1,20}(card|karte).{1,10}wurde mit sofortiger wirkung gesperrt/i
+
+/ihre.{1,20}(card|karte).{1,10}zu ihrem.{1,15}schutz gesperrt haben/i
+/ihre.{1,20}(card|karte).{1,10}zu verifizieren/i
+
+/ihre.{1,10}(card|karte).{1,10}zahlungsfunktion ist gesperrt/i
 
 # J
 # ------------------------------------------------------------------------------
@@ -52,9 +78,6 @@
 
 # K
 # ------------------------------------------------------------------------------
-/karte bis.{1,20}reaktiviert werden/i
-/karte per.{1,10}an ihre.{1,10}adresse schicken/i
-/karte über den untenstehenden.{1,10}link verknüpfen/iu
 
 # L
 # ------------------------------------------------------------------------------
@@ -76,12 +99,15 @@
 
 # R
 # ------------------------------------------------------------------------------
-/re.?aktivieren sie ihre.{1,10}(handy|karte)/i
-/reaktivierung.{1,10}durch.{1,10}damit ihre.{1,20}karte/i
+/re.?aktivieren sie ihre.{1,10}(handy|card|karte)/i
+/reaktivierung.{1,10}durch.{1,10}damit ihre.{1,20}(card|karte)/i
 
 # S
 # ------------------------------------------------------------------------------
-/sie ihre.{1,20}card mit einem guthaben/i
+/sie ihre.{1,20}(card|karte).{1,10}mit einem guthaben/i
+/sie ihre.{1,20}(card|karte).{1,10}nicht bestätigt haben/iu
+
+/sicherheitsinformation.{1,10}vorübergehende sperrung/iu
 
 # T
 # ------------------------------------------------------------------------------
@@ -91,7 +117,7 @@
 
 # V
 # ------------------------------------------------------------------------------
-/verifizierung.{1,10}ihrer.{1,20}karte sofort durch/i
+/verifizierung.{1,10}ihrer.{1,20}(card|karte) sofort durch/i
 
 # W
 # ------------------------------------------------------------------------------
@@ -104,3 +130,4 @@
 
 # Z
 # ------------------------------------------------------------------------------
+/zahlung mit ihrer.{1,20}(card|karte).{1,10}gesperrt/i

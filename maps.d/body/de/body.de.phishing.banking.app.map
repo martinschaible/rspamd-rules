@@ -18,14 +18,26 @@
 
 # A
 # ------------------------------------------------------------------------------
-/aktivieren sie.{1,10}ihre.{1,20}app/i
+/(aktualisieren|aktivieren) sie.{1,10}ihre.{1,20}app/i
+/(aktualisieren|aktivieren).{1,10}sie ein.{1,10}anwendungsupdate/i
+/aktualisieren.{1,10}app/i
 
+/app.{1,10}aktualisierung.{1,10}erforderlich/i
 /app.{1,10}authentifizierung.{1,15}endet am/i
+/app.{1,10}authentifizierung.{1,10}verfällt/iu
+
+/app.{1,10}die neueste version zu aktualisieren/i
+/app.{1,10}erneut zu registrieren/i
 /app.{1,10}indem sie auf den folgenden link/i
+/app.{1,10}informieren.{1,10}ihr schutz.{1,10}die sicherheit/iu
+/app.{1,10}umgehend.{1,10}aktualisieren/i
 /app.{1,10}unverzüglich.{1,10}aktualisieren/iu
 
 # B
 # ------------------------------------------------------------------------------
+/banking.?app wird in kürze ablaufen/iu
+/(banking|sichere).{1,15}app.{1,10}aktualisieren/i
+
 
 # C
 # ------------------------------------------------------------------------------
@@ -36,6 +48,7 @@
 # E
 # ------------------------------------------------------------------------------
 /erneuern sie ihre app/i
+/erneuerung ihrer.{1,10}app/i
 
 # F
 # ------------------------------------------------------------------------------
@@ -85,12 +98,16 @@
 
 # U
 # ------------------------------------------------------------------------------
+/umstellung ist obligatorisch/i
+/umstellung sofort erforderlich/i
 
 # V
 # ------------------------------------------------------------------------------
 
 # W
 # ------------------------------------------------------------------------------
+/wichtige sicherheitsaktualisierung.{1,20}(app|debix)/i
+/wichtiges update für ihre.{1,20}(app|debix)/iu
 
 # X
 # ------------------------------------------------------------------------------

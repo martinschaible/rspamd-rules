@@ -21,12 +21,12 @@
 /aktiviere das neue.{1,15}(photo|push).?tan/i
 
 /(aktivieren|aktualisieren) sie.{1,20}(photo|push).?tan/i
-/(aktivieren|aktualisieren) sie.{1,20}secure.?(app|plus)/i
+/(aktivieren|aktualisieren) sie.{1,20}secure.{0,5}(go|plus)/i
 
 /aktualisiert.{1,20}alle.{1,15}(photo|push).?tan/i
 
 /(aktualisierung|sicherheitsupdate).{1,10}(photo|push).?tan/i
-/(aktualisierung|sicherheitsupdate).{1,10}secure.?(app|plus)/i
+/(aktualisierung|sicherheitsupdate).{1,10}secure.{0,5}(go|plus)/i
 
 /app.?tan.{1,5}dienst zu aktivieren/i
 
@@ -72,7 +72,7 @@
 # N
 # ------------------------------------------------------------------------------
 /neue.{1,15}(photo|push).?tan.{1,10}authentifizierung.{1,10}aktivieren/i
-/neuen.{1,10}secure.?(go|plus).{1,10}systems?/i
+/neuen.{1,10}secure.{0,5}(go|plus).{1,10}systems?/i
 
 # O
 # ------------------------------------------------------------------------------
@@ -97,13 +97,15 @@
 
 # S
 # ------------------------------------------------------------------------------
-/secure.?(app|plus).{1,10}(aktualisierung|einstellungen|sicherheitsupdate)/i
-/secure.?(app|plus).{1,10}wird gesperrt/i
+/secure.{0,5}(go|plus).{1,10}(aktualisierung|einstellungen|sicherheitsupdate)/i
+/secure.{0,5}(go|plus).{1,15}anleitung bestätigen/iu
+/secure.{0,5}(go|plus).{1,10}wird gesperrt/i
+/secure.{0,5}(go|plus).{1,10}zu aktivieren/i
 
 /sehr geehrter?.{1,30}ihre?.{1,10}(photo|push).?tan/i
 
 /(sicherheitsupdate|update ihrer).{1,15}best.?sign?app/i
-/(sicherheitsupdate|update ihrer).{1,15}secure.?(go|plus)/i
+/(sicherheitsupdate|update ihrer).{1,15}secure.{0,5}(go|plus)/i
 
 /sie die mobile.?token.?funktion aktivieren/i
 /sie ihr.{1,10}tan.?verfahren/i
@@ -124,6 +126,7 @@
 
 # V
 # ------------------------------------------------------------------------------
+/verfahren aufgrund ungewöhnlicher aktivitäten deaktiviert wurde/iu
 /vorzustellen.{1,10}das neue.{1,15}(photo|push).?tan/i
 
 # W
