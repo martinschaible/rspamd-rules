@@ -14,10 +14,6 @@
 /(activate|enable).{1,10}free badge/i
 /complete.{1,10}form to receive your.{1,10}badge/i
 
-# Companies
-# ------------------------------------------------------------------------------
-/hello.{1,10}microsoft advertising/i
-
 # Tax W-8BEN
 # ------------------------------------------------------------------------------
 /w.?8ben.{1,10}(documentation|form|records?|renewal)/i

@@ -9,15 +9,6 @@
 # Topics
 # ==============================================================================
 
-# Companies
-# ------------------------------------------------------------------------------
-/(deutsche bank|myswica|swisspass).{1,10}sehr geehrter? (kunde|kundin)/i
-/(deutsche bank|myswica|swisspass).{1,10}lieber? (nutzer|nutzerin)/i
-
-/swica.{1,10}guten tag/i
-
-/sehr geehrter? swisspass (kunde|kundin)/i
-
 #
 #
 #
@@ -401,12 +392,8 @@
 /sehr geehrte\/?r?.{1,5}kontoinhaber/i
 /sehr geehrte\/?r?.{1,5}wir möchten sie informieren/iu
 
-
 /sehr geehrter.{1,5}mein name ist/i
 /sehr geehrtes.{1,15}mitglied.{1,15}wir (haben|hatten) ein problem/i
-
-# Companies/Organizations
-/sehr geehrter? volksbank.?(kunde|kundin)/i
 
 /sicherheitsaktualisierung.{1,10}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/i
 /sicherheitsgründen gesperrt.{1,10}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/i
