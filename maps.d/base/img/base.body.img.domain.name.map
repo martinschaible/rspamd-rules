@@ -36,7 +36,6 @@
 /(background|src)=.{0,5}https?:\/\/(i\.)?imgur\.com/i
 /(background|src)=.{0,5}https?:\/\/[a-z0-9]{5,20}\.imgur\.com/i
 /(background|src)=.{0,5}https?:\/\/[a-z0-9]{5,20}\.softr-files\.com/i
-
 /(background|src)=.{0,5}https?:\/\/assets\.unlayer\.com/i
 # 16.05.25
 /(background|src)=.{0,5}https?:\/\/attachment\.freshservice\.com/i
@@ -50,6 +49,8 @@
 /(background|src)=.{0,5}https?:\/\/media\.letterbucket\.com/i
 /(background|src)=.{0,5}https?:\/\/trueimgs\.com/i
 /(background|src)=.{0,5}https?:\/\/zupimages\.net/i
+
+/idxu7timbikn.compat.objectstorage.us-ashburn-1.oraclecloud.com/
 
 /(background|src)=.{0,5}https?:\/\/msys\.leadfairtrade\.de/i
 
@@ -78,6 +79,10 @@
 /(background|src)=.{0,5}https?:\/\/i\.ibb\.co/i
 /(background|src)=.{0,5}https?:\/\/upload\.wikimedia\.org\/wikipedia\/commons/i
 /(background|src)=.{0,5}https?:\/\/yahoo\.com/i
+
+# Oracle Cloud
+/(background|src)=.{0,5}https?:\/\/[a-z0-9]{20,50}compat\.objectstorage/i
+/(background|src)=.{0,5}https?:\/\/[a-z0-9]{20,50}\.oraclecloud\.com/i
 
 # 01.07.25
 /(background|src)=.{0,5}https?:\/\/v2cdn\.nodesite\.eu/i
