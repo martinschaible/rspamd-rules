@@ -19,8 +19,6 @@
 /kontaktdaten.{1,10}twint/i
 /app.?twint/i
 
-/ihre.{1,15}app wird bald gesperrt/i
-
 #
 #
 #
@@ -36,9 +34,6 @@
 # A
 # ------------------------------------------------------------------------------
 /aktivieren sie 2fa/i
-/aktivieren sie ihre.{1,20}app/i
-
-/aktualisierung ihrer.{1,10}banking.?app/i
 /aktualisierung ihrer.{1,10}persönlichen daten/iu
 
 /antrag auf reaktivierung.{1,10}ihrer.{1,15}card/i
@@ -48,14 +43,6 @@
 
 /authentifizierung.{1,15}ihre.{1,15}(kredit)?karte/iu
 /authentifizierung .{1,15}verlängerung erforderlich bis/iu
-
-/app\b.{1,10}authentifizierung (endet|verlängern)/iu
-/app\b.{1,10}authentifizierung läuft.{1,10}ab/iu
-
-/app\b.{1,10}benötigt eine synchronisierung/iu
-/app.{1,10}entspricht nicht mehr dem neuesten stand/i
-/app\b.{1,10}es gibt neue/i
-/app.{1,10}verknüpfung bestätigen/iu
 
 # B
 # ------------------------------------------------------------------------------
@@ -107,7 +94,6 @@
 /ihr.{1,10}online.?(banking|zugang) ist gefährdet/iu
 /ihr.{1,10}online.?(banking|zugang) ist nicht.{1,15}(geschützt|vollständig)/iu
 
-/ihre.{1,15}app.{1,10}authentifizierung/i
 /ihre.{1,10}bank informiert zu/i
 /ihre.{1,20}kreditkarten.?app/i
 /ihre.{1,10}zahlungsmittel.{1,10}vorübergehend gesperrt/iu
@@ -169,27 +155,19 @@
 
 # R
 # ------------------------------------------------------------------------------
-/reaktivierung ihrer.{1,20}kredit.?karte/i
-
 /registrieren sie sich (jetzt|umgehend) für/iu
-/registrierung ihrer.{1,15}app/i
 
 /routineupdate für.{1,20}verfügbar/iu
 
 # S
 # ------------------------------------------------------------------------------
-/securego.{1,10}zertifikatsablauf/i
-
-
 /sicherheitscheck.{1,10}jetzt bestätigen/iu
-/sicherheits(funktion|update).{1,10}ihre.{1,10}(app|karte)/i
+/sicherheits(funktion|update).{1,10}ihre.{1,10}karte/i
 /sicherheitsüberprüfung.{1,10}online.?bankings?/iu
 /sicherheitsrelevante.{1,10}information zu ihrem zugang/i
 /sicherheitsumgebung.{1,10}modernisiert/i
 
 /sperrung.{1,10}diensten.{1,10}nichtbefolgung/i
-/sperrung.{1,10}ihrer.{1,15}(card|karte)/i
-/sperrung.{1,10}ihrer.{1,10}zahlungsmittel/i
 
 /systemanpassung.{1,10}ihre bestätigung/i
 
@@ -201,8 +179,6 @@
 
 # U
 # ------------------------------------------------------------------------------
-/update für ihre.{1,10}securego/i
-
 /überweisung in prüfung/iu
 
 # V

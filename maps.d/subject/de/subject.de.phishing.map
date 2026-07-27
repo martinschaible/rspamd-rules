@@ -71,8 +71,6 @@
 # ------------------------------------------------------------------------------
 /beachten sie die vorgehensweise/i
 
-/bevor die dateien gelöscht werden/iu
-
 /benachrichtigung.{1,15}kundenservice/i
 /benachrichtigung.{1,10}systemwartung/i
 
@@ -207,7 +205,6 @@
 /ihre parkgebühr ist noch offen/iu
 /ihre überprüfung wird empfohlen/iu
 
-/ihrer app bis \d{1,2}/i
 /ihrer letzten handelsaktivität erforderlich/iu
 
 /innerhalb von.{1,10}stunden.{1,10}(abschliessen|abschließen)/iu
@@ -336,7 +333,6 @@
 /sicherheitsüberprüfung.{1,10}ihrer.{1,10}identitätsdokumente/iu
 
 /sicherheitsupdate.{1,10}authentifizierungsdienst/i
-/sicherheitsupdate.{1,10}control.?panel/i
 /sicherheitsupdate.{1,10}steht bevor/i
 
 /sie ihr serviceportal/i
