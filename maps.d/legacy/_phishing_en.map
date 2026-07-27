@@ -55,10 +55,6 @@
 /hr.?department.{1,10}(has released|is releasing).{1,10}the annual/i
 /requested.{1,10}hr.?department.{1,10}position/i
 
-# Malware
-# ------------------------------------------------------------------------------
-/jetzt viren entfernen/i
-
 # Messages
 # ------------------------------------------------------------------------------
 /this is a secure.{1,10}encrypted message/i
@@ -108,34 +104,3 @@
 
 /add a payment.{1,10}start streaming/i
 /payment information.{1,10}you can.{1,10}streaming/i
-
-# PayPal
-# ------------------------------------------------------------------------------
-/paypal support.{1,10}sehr geehrter? (kunde|kundin)/i
-
-# Sick and Family Leave Act
-# ------------------------------------------------------------------------------
-/covid pandemic impacted all of us/i
-
-/individuals to receive up to.{1,10}through the/i
-
-# Swiss Police
-# ------------------------------------------------------------------------------
-/read the attached document carefully/i
-
-#
-#
-#
-
-
-
-#
-#
-#
-
-# Unclassified
-# ------------------------------------------------------------------------------
-/urgent.{1,10}wallet maintenance/i
-
-# Masked
-# ------------------------------------------------------------------------------
