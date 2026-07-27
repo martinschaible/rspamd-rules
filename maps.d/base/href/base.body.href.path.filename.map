@@ -15,6 +15,9 @@
 
 /\.s?html/i
 
+# Used by SVA Zürich
+#/\.xhtml/i
+
 # Files
 # ==============================================================================
 
@@ -86,9 +89,6 @@
 /\/[a-z]{1,15}\.index\.html?/i
 /\/[a-z]{0,10}keto[a-z]{0,10}\.html?/i
 
-# Used by SVA Zürich
-#/\.xhtml/i
-
 # Invoices
 /re\d{1,10}\.zip/i
 
@@ -124,7 +124,7 @@
 
 # 03.04 - Sample: /bvhvdbvhdbhdbhdbvh.html
 # 15 as a start is to low, trying 20
-/\/[a-z]{20,50}\.html/i
+#/\/[a-z]{20,50}\.html/i
 
 # 04.06.25 - Sample: /e0620e415e71f660ae89.html
 #/\/[0-9]{1,6}[a-z]{1,6}[0-9]{1,6}[a-z]{1,6}[0-9]{1,6}\.html/i
