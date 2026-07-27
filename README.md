@@ -161,8 +161,8 @@ body
   ├─ en
   │    └─ ....
   │
-  ├─ body.phishing.orgbrandprod.map                  **
-  └─ body.phishing.orgbrandprod.ucase.map            **
+  ├─ body.phishing.orgbrandprod.map                        **
+  └─ body.phishing.orgbrandprod.ucase.map                  **
 
 sender
   ├─ de
@@ -175,6 +175,7 @@ sender
   ├─ sender.from.phishing.orgbrandprod.map
   ├─ sender.from.phishing.orgbrandprod.account.map
   ├─ sender.from.phishing.orgbrandprod.banking.map
+  ├─ sender.from.phishing.orgbrandprod.banking.tan.map     **
   ├─ sender.from.phishing.orgbrandprod.it.map
   ├─ sender.from.phishing.orgbrandprod.parcel.map
   ├─ sender.from.phishing.orgbrandprod.refund.map
@@ -188,6 +189,7 @@ subject
   │   ├─ subject.de.phishing.account.map
   │   ├─ subject.de.phishing.alertaction.map
   │   ├─ subject.de.phishing.banking.map
+  │   ├─ subject.de.phishing.banking.tan.map               **
   │   ├─ subject.de.phishing.card.map
   │   ├─ subject.de.phishing.email.map
   │   ├─ subject.de.phishing.it.map

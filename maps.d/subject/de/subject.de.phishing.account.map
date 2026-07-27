@@ -29,11 +29,14 @@
 # ------------------------------------------------------------------------------
 /aktivitäten vorübergehend geschlossen/iu
 
+/aktualisieren ihres.{1,15}(kontos|profils?)/i
+
 /aktualisierung.{1,10}(kontodaten|kontoinformationen|kontosicherheit)/i
 /aktualisierung.{1,10}zahlungsangaben/i
 
-/aktualisierung ihres.{1,10}(kontos?|profils?).{1,10}update/i
-/aktualisierung ihrer.{1,10}vertragsbedingungen.{1,10}zustimmung/i
+/aktualisierung ihres.{1,15}(kontos?|profils?).{1,10}erforderlich/i
+/aktualisierung ihres.{1,15}(kontos?|profils?).{1,10}update/i
+/aktualisierung ihrer.{1,15}vertragsbedingungen.{1,10}zustimmung/i
 
 /anderes gerät ist mit ihrem.{1,15}(konto|profil)/iu
 /anfrage.{1,10}ungewöhnlichen?.{1,10}aktivitäten/iu
@@ -179,12 +182,16 @@
 /(konto|profil).{1,10}erfordert eine.{1,15}ihrerseits/iu
 /(konto|profil).{1,10}gesperrt.{1,20}zahlungsproblem/i
 
+/(konto|profil).{1,10}informationen müssen aktualisiert werden/i
 /(konto|profil).{1,10}innerhalb der nächsten.{1,10}stunden vorübergehend/iu
 /(konto|profil).{1,10}ist betroffen.{1,10}vertrauliche nachricht/i
+
 /(konto|profil).{1,10}(bleibt|ist|kann|wird|wurde).{1,20}(begrenzt|deaktiviert|eingeschränkt|inaktiv|gesperrt|verifiziert)/i
 /(konto|profil).{1,10}(braucht|erfordert) ihre (aufmerksamkeit|bestätigung)/iu
 /(konto|profil).{1,10}ihre.{1,15}daten zu schützen/iu
+
 /(konto|profil).{1,10}muss innerhalb von.{1,15}aktualisiert/i
+
 /(konto|profil).{1,10}(stillgelegt|vorübergehende?)/iu
 /(konto|profil).{1,10}(schutzmassnahme|schutzmaßnahme) aktiv/i
 /(konto|profil).{1,10}um es aktiv zu halten/i
