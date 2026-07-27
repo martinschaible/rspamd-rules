@@ -19,16 +19,20 @@
 # A
 # ------------------------------------------------------------------------------
 /aktiviere das neue.{1,15}(photo|push).?tan/i
+
 /(aktivieren|aktualisieren) sie.{1,20}(photo|push).?tan/i
+/(aktivieren|aktualisieren) sie.{1,20}secure.?(app|plus)/i
 
 /aktualisiert.{1,20}alle.{1,15}(photo|push).?tan/i
-/aktualisierung.{1,10}(photo|push).?tan/i
+
+/(aktualisierung|sicherheitsupdate).{1,10}(photo|push).?tan/i
+/(aktualisierung|sicherheitsupdate).{1,10}secure.?(app|plus)/i
 
 /app.?tan.{1,5}dienst zu aktivieren/i
 
 # B
 # ------------------------------------------------------------------------------
-
+/banking.?app.{1,10}tan.?verfahren/i
 
 # C
 # ------------------------------------------------------------------------------
@@ -68,13 +72,21 @@
 # N
 # ------------------------------------------------------------------------------
 /neue.{1,15}(photo|push).?tan.{1,10}authentifizierung.{1,10}aktivieren/i
-/neuen.{1,10}vr.?securego.?(go|plus).{1,10}systems?/i
+/neuen.{1,10}secure.?(go|plus).{1,10}systems?/i
 
 # O
 # ------------------------------------------------------------------------------
 
 # P
 # ------------------------------------------------------------------------------
+/(photo|push).?tan.{1,10}(aktivierungsbrief|gesperrt wurde|ist da)/i
+/(photo|push).?tan.{1,15}damit die sicherheit ihres/i
+/(photo|push).?tan.{1,10}(aktualisieren|reaktivieren|synchronisieren)/i
+/(photo|push).?tan.{1,10}ist abgelaufen/i
+/(photo|push).?tan.{1,10}ist leider nicht.{1,10}gültig/iu
+/(photo|push).?tan.{1,10}läuft bald ab/iu
+/(photo|push).?tan.{1,10}muss erneuert werden/i
+/(photo|push).?tan.{1,10}verfahren/i
 
 # Q
 # ------------------------------------------------------------------------------
@@ -85,12 +97,20 @@
 
 # S
 # ------------------------------------------------------------------------------
+/secure.?(app|plus).{1,10}(aktualisierung|einstellungen|sicherheitsupdate)/i
+/secure.?(app|plus).{1,10}wird gesperrt/i
+
 /sehr geehrter?.{1,30}ihre?.{1,10}(photo|push).?tan/i
+
+/(sicherheitsupdate|update ihrer).{1,15}best.?sign?app/i
+/(sicherheitsupdate|update ihrer).{1,15}secure.?(go|plus)/i
 
 /sie die mobile.?token.?funktion aktivieren/i
 /sie ihr.{1,10}tan.?verfahren/i
+
+/sie ihren.{1,15}(photo|push).?tan.{1,10}bestätigen/i
+
 /sie müssen ihre?.{1,15}(photo|push).?tan/i
-/sie ihren.{1,15}(photo|push).?tan bestätigen/i
 
 /sicherheitsupdate unserer.{1,15}(photo|push).?tan/i
 
