@@ -10,44 +10,6 @@
 # ------------------------------------------------------------------------------
 /die.{1,10}zwei.?faktor.{1,10}authentifizierung/i
 
-# Products
-# ------------------------------------------------------------------------------
-/aktion.{1,20}(photo|push).?tan/i
-
-/(best.?sign|securego tan).?app/i
-
-/securego plus.{1,5}\d{1,4}/i
-
-/(photo|push).?tan -/i
-/(photo|push).?tan.{1,15}(aktivieren sie|aktivierung)/i
-/(photo|push).?tan.{1,10}legitimation/i
-/(photo|push).?tan.{1,15}(brief|erforderlich|ihre konto|ist nicht)/i
-/(photo|push).?tan.{1,10}gesperrt/i
-/(photo|push).?tan.{1,10}läuft (ab|innerhalb)/iu
-
-/(photo|push).?tan.{1,10}(systems?|verfahren)/i
-/(photo|push).?tan.{1,10}innerhalb der/i
-/(photo|push).?tan.{1,10}jetzt aktivieren/i
-/(photo|push).?tan.{1,10}profil/i
-/(photo|push).?tan.{1,10}registrierung läuft/i
-/(photo|push).?tan.{1,10}vorübergehend aufgehoben/iu
-
-/^(photo|push).?tan$/i
-
-/ihre? tan.{1,20}aktualisierung/i
-/neues?.{1,10}(photo|push).?tan/i
-
-#
-/vr.?securego/i
-
-#
-/secure.?plus.{1,10}(aktualisierung|einstellungen|sicherheitsupdate)/i
-/(aktualisierung|sicherheitsupdate).{1,10}secure.?plus/i
-
-#
-/aktualisieren sie.{1,10}bw.?secure/i
-/aktualisierung ihrer{1,10}secure.?app/i
-
 # Twint
 # ------------------------------------------------------------------------------
 /twint.{1,10}verbindung/i
@@ -76,12 +38,8 @@
 /aktivieren sie 2fa/i
 /aktivieren sie ihre.{1,20}app/i
 
-#/(aktivieren|aktualisieren|aktivierung|entdecken|sicherheit).{1,20}(photo|push).?tan/i
-/(aktualisieren|entdecken|sicherheit).{1,20}(photo|push).?tan/i
-
 /aktualisierung ihrer.{1,10}banking.?app/i
 /aktualisierung ihrer.{1,10}persönlichen daten/iu
-/aktualisierung ihres.{1,10}(photo|push).?tan/i
 
 /antrag auf reaktivierung.{1,10}ihrer.{1,15}card/i
 /antrag auf reaktivierung.{1,10}ihrer.{1,15}(kredit)?karte/i
@@ -149,8 +107,6 @@
 /ihr.{1,10}online.?(banking|zugang) ist gefährdet/iu
 /ihr.{1,10}online.?(banking|zugang) ist nicht.{1,15}(geschützt|vollständig)/iu
 
-/ihr.{1,10}(photo|push).?tan/iu
-
 /ihre.{1,15}app.{1,10}authentifizierung/i
 /ihre.{1,10}bank informiert zu/i
 /ihre.{1,20}kreditkarten.?app/i
@@ -214,7 +170,6 @@
 # R
 # ------------------------------------------------------------------------------
 /reaktivierung ihrer.{1,20}kredit.?karte/i
-/reaktivierung ihrer.{1,10}(photo|push).?tan/i
 
 /registrieren sie sich (jetzt|umgehend) für/iu
 /registrierung ihrer.{1,15}app/i
@@ -225,7 +180,6 @@
 # ------------------------------------------------------------------------------
 /securego.{1,10}zertifikatsablauf/i
 
-/(sie müssen|wichtige?).{1,10}photo.?tan/iu
 
 /sicherheitscheck.{1,10}jetzt bestätigen/iu
 /sicherheits(funktion|update).{1,10}ihre.{1,10}(app|karte)/i
