@@ -15,7 +15,6 @@
 
 # Accounts
 # ------------------------------------------------------------------------------
-/aktualisieren ihres.{1,15}(kontos|profils)/i
 
 /anpassen ihrer.{1,10}kontodaten/i
 
@@ -28,8 +27,6 @@
 /konto.{1,10}wird.{1,10}sicherheitsgründen überprüft/iu
 
 /kontosperrung.{1,10}vermeiden/i
-
-/(konto|profil).?informationen müssen aktualisiert werden/i
 
 /wir mussten.{1,15}konto.?funktionen einschränken/iu
 
@@ -105,7 +102,6 @@
 # ------------------------------------------------------------------------------
 /ihre rechnung wurde zweimal bezahlt/i
 /informationen zu ihrer rückzahlung/iu
-/mitteilung zur rückerstattungsanfrage/iu
 
 /rechnung erstattungsfähig/iu
 /rückerstattungsdetails ausstehend/iu
@@ -145,9 +141,6 @@
 /sollten aktualisiert werden/i
 
 /authentifizieren sie sich.{1,15}klicks/i
-
-#
-/dringende mitteilung.{1,10}bitte bestätigen/iu
 
 # Reminder
 /erinnerung aktualisierung/i
