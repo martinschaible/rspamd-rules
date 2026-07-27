@@ -107,6 +107,9 @@
 # ------------------------------------------------------------------------------
 /secure.{0,5}(go|plus).{1,5}\d{1,4}/i
 /secure.{0,5}(go|plus).{1,10}(aktualisierung|einstellungen|sicherheitsupdate)/i
+/secure.{0,5}(go|plus).{1,10}zertifikatsablauf/i
+
+/sicherheits(funktion|update).{1,10}ihrer.{1,10}app/i
 
 /(sie müssen|wichtige?).{1,10}(photo|push).?tan/iu
 
@@ -116,6 +119,7 @@
 
 # U
 # ------------------------------------------------------------------------------
+/update für ihre.{1,10}secure.{0,5}(go|plus)/i
 
 # V
 # ------------------------------------------------------------------------------
