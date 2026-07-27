@@ -64,8 +64,6 @@
 
 /diese.{1,10}authentifizierungsmethode einzurichten/i
 
-/reaktivieren sie die.{1,20}tan.?app/i
-
 /ihr banking.{1,20}ist veraltet/i
 
 /registrieren sie sich.{1,15}den neuen.{1,10}sicherheitsstandard/i
@@ -107,27 +105,6 @@
 
 /verifizieren sie ihre telefon.?nummer/i
 
-# Photo TAN
-/aktualisiert die.{1,20}alle.{1,15}(photo|push).?tan/i
-/aktiviere das neue.{1,15}(photo|push).?tan/i
-
-/wurde festgestellt.{1,10}dass ihre.{1,15}(photo|push).?tan/i
-
-/sie die mobile.?token.?funktion aktivieren/i
-/sie müssen ihre?.{1,15}(photo|push).?tan/i
-/sie ihren.{1,15}(photo|push).?tan bestätigen/i
-
-/sicherheitsupdate unserer.{1,15}(photo|push).?tan/i
-/sperrung ihrer.{1,10}(photo|push).?tan/i
-
-/vorzustellen.{1,10}das neue.{1,15}(photo|push).?tan/i
-
-/neue.{1,15}(photo|push).?tan.{1,10}authentifizierung.{1,10}aktivieren/i
-/neuen.{1,10}vr.?securego.?plus.{1,10}systems?/i
-
-# TAN
-/app.?tan.{1,5}dienst zu aktivieren/i
-
 # App
 /app.{1,10}aktualisierung.{1,10}erforderlich/i
 /app.{1,10}authentifizierung verfällt/iu
@@ -138,7 +115,6 @@
 
 /aktualisieren.{1,10}app/i
 /aktualisieren sie ihre.{1,15}app/i
-/aktualisierung.{1,10}phototan.?app/i
 
 /aktivieren.{1,10}sie ein.{1,10}anwendungsupdate/i
 
