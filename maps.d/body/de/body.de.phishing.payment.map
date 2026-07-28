@@ -39,6 +39,8 @@
 
 # E
 # ------------------------------------------------------------------------------
+/es gibt ein problem mit ihrer bank/i
+
 /euro  erhalten.{1,10}bitte antworten sie/i
 
 # F
@@ -52,6 +54,7 @@
 
 # I
 # ------------------------------------------------------------------------------
+/ihre abbuchung nicht verarbeiten/i
 /ihre zahlung fehlgeschlagen/i
 
 /ihre zahlungsmethode ist möglicherweise abgelaufen/iu
@@ -103,6 +106,7 @@
 
 # T
 # ------------------------------------------------------------------------------
+/transaktion wurde blockiert.{1,10}mehrere fehlgeschlagene/i
 
 # U
 # ------------------------------------------------------------------------------
@@ -124,7 +128,10 @@
 
 # Z
 # ------------------------------------------------------------------------------
+/zahlung.{1,10}fehlgeschlagen.{1,15}lizenz läuft ab/iu
 /zahlung.{1,10}fehlgeschlagen.{1,10}speicher wird gelöscht/iu
+
+/zahlungsverifizierung.{1,10}fehlgeschlagen/i
 
 /zahlungsdaten jetzt aktualisieren/i
 /zahlungsmethode für ihr.{1,25}zu belasten/i

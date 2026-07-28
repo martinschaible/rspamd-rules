@@ -18,17 +18,28 @@
 
 # A
 # ------------------------------------------------------------------------------
+/attention.{1,10}you have been compensated/i
 
 # B
 # ------------------------------------------------------------------------------
 
 # C
 # ------------------------------------------------------------------------------
-/claim associated with your.{1,10}name/i
-/claim process.{1,10}respond/i
-/claim your.{1,15}relief/i
+/claim.{1,10}associated with your.{1,10}name/i
+/claim.{1,10}of your compensation/i
+/claim.{1,10}process.{1,10}respond/i
+
+/claim.{1,10}your.{1,15}relief/i
+/(claim|receive).{1,10}your compensation.{1,10}(payment|entitlement)/i
+
+/compensated.{1,10}the money you have loosed/i
+
+/compensation.{1,10}donation/i
+/compensation.{1,10}for scam victims/i
 
 /congratulations.{1,10}your payment/i
+
+/contact my.{1,15}immediately for your compensation/i
 
 /covid.{1,10}relief package/i
 
@@ -95,7 +106,14 @@
 
 # T
 # ------------------------------------------------------------------------------
-/transfer your.{1,10}compensation payment/i
+/transaction.{1,15}attached to your.{1,10}(e?.?mail|name)/i
+/transaction.{1,20}if you are (interested|sure you can handle)/i
+/transaction.{1,10}that will benefit you/i
+/transaction.{1,10}value is.{1,10}million.{1,10}you will receive/i
+
+/transfer your.{1,10}compensation.{1,10}payment/i
+
+/trustworthy individual.{1,10}transaction/i
 
 # U
 # ------------------------------------------------------------------------------
@@ -111,29 +129,36 @@
 
 # Y
 # ------------------------------------------------------------------------------
-/you are to be.{1,10}compensated with the sum/i
-/you have the.{1,10}chance.{1,10}receive.{1,10}million/i
-/you were selected.{1,10}receive.{1,10}the sum/i
+/you.{1,10}are eligible for.{1,10}(payment|payout)/i
+/you.{1,10}are to be.{1,10}compensated with the sum/i
 
-/you have been awarded.{1,10}settlement package/i
+/you.{1,10}have the.{1,10}chance.{1,10}receive.{1,10}million/i
+/you.{1,10}have been.{1,10}compensated.{1,10}(contact|e?.?mail back)/i
+
+/you.{1,10}help.{1,15}(manage|move|transfer).{1,15}(asset|sum)/i
+/you.{1,10}play.{1,20}role in the completion of this business/i
 /you.{1,10}receive.{1,10}settlement totaling/i
+/you.{1,10}were selected.{1,10}receive.{1,10}the sum/i
 
 /your.{1,15}account.{1,10}confirm the operation/i
+/your.{1,10}assistance.{1,10}(manage|move|transfer|transferring).{1,10}the sum/i
 
-/your.{1,10}compensation fund/i
+/your.{1,10}compensation.{1,10}payment.{1,20}million/i
+/your.{1,20}compensation.{1,10}fund payment/i
 
-/your.{1,20}funds have been.{1,15}loaded/i
-/your.{1,20}funds? of.{1,15}is ready to pay/i
+/your.{1,10}grants?.{1,10}sum.{1,10}ready/i
 
 /your.{1,15}million compensation payment/i
 /your.{1,10}million payment/i
 
 /your.{1,10}name is among.{1,10}scam victims/i
 
+
 /your.{1,10}pending inheritance disbursement/i
 /your.{1,10}pending policy claims/i
 
 /your.{1,10}trust in moving.{1,10}(dollars?|euro?|gbp|usd|€|\$|£)/i
+/your.{1,10}trust in this.{1,10}transaction/i
 
 # Z
 # ------------------------------------------------------------------------------

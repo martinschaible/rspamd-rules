@@ -1,5 +1,6 @@
 # ==============================================================================
-#
+# This involves payments and transactions.
+# The recipient is promised money, which obviously amounts to fraud.
 #
 # ------------------------------------------------------------------------------
 # Language: german
@@ -21,28 +22,38 @@
 /aktivitäten betroffen sind.{1,10}anspruch auf entschädigung/iu
 /anspruch geltend zu machen.{1,10}wenden sie sich/i
 
+/antworten sie.{1,10}ihr.{1,10}geld anfordern/i
+/antworten sie.{1,10}um.{1,10}anspruch geltend zu machen/i
+
 # B
 # ------------------------------------------------------------------------------
-/betreff.{1,10}zahlungserinnerung.{1,10}abonnement/i
 
 # C
 # ------------------------------------------------------------------------------
 
 # D
 # ------------------------------------------------------------------------------
+/der mit ihrem namen verknüpft ist/iu
+
 /die mit ihrem.{1,10}namen verknüpft ist/iu
+/dringende.{1,10}geschäfts.?transaktion/iu
 
 # E
 # ------------------------------------------------------------------------------
 /einen nicht.{1,10}(abgeholten|beanspruchten|eingeforderten).{1,10}betrag/i
 
 /entschädigung.{1,10}beantragen.{1,10}antworten sie.{1,10}so schnell wie möglich/iu
+/entschädigungs.?(fonds|gelder).{1,10}in höhe von.{1,10}millionen/i
+/entschädigungs.?(fonds|gelder).{1,10}per.{1,10}bankkarte/iu
+
+
+/erbschafts.{1,10}entschädigungs.?zahlung/iu
+
 /entschädigungszuschuss in höhe von.{1,20}ausgewählt wurden/iu
 
-/(e?.?mail|nachricht).{1,10}bezüglich ihres geldanspruch/iu
+/(e?.?mail|nachricht).{1,10}bezüglich.{1,10}entschädigung von.{1,10}(millionen|mio).{1,10}erhalten/iu
+/(e?.?mail|nachricht).{1,10}bezüglich.{1,10}ihres geldanspruch/iu
 /(e?.?mail|nachricht).{1,10}detaillierte anweisungen zum erhalt/i
-
-/es gibt ein problem mit ihrer bank/i
 
 # F
 # ------------------------------------------------------------------------------
@@ -57,6 +68,7 @@
 
 # H
 # ------------------------------------------------------------------------------
+/helfen sie mir.{1,15}geld auf ihr konto/i
 
 # I
 # ------------------------------------------------------------------------------
@@ -67,7 +79,19 @@
 
 /ihnen.{1,15}nicht abgeholte gelder zustehen/i
 
-/ihre abbuchung nicht verarbeiten/i
+/ihre?.{1,10}geld(er)?.{1,10}einzufordern.{1,10}wenden sie sich/i
+/ihre?.{1,10}geld(er)?.{1,10}freigegeben.{1,10}kontaktieren sie uns/i
+
+/ihre.{1,10}zahlung zu genehmigen.{1,15}registrieren/i
+
+/ihre (hilfe|unterstützung|zustimmung).{1,10}beim transfer von/i
+/ihre (hilfe|unterstützung|zustimmung).{1,20}transaktion.{1,10}im wert von/iu
+/ihre (hilfe|unterstützung|zustimmung).{1,10}um.{1,15}millionen.{1,15}aus/i
+/ihre (hilfe|unterstützung|zustimmung).{1,15}vertrauliche transaktion/i
+/ihre (hilfe|unterstützung|zustimmung).{1,10}zu einer.{1,20}transaktion/i
+
+/ich habe.{1,10}transaktions?.{0,10}vorschlag/i
+
 /ihre bewilligte.{1,10}entschädigung in höhe/iu
 /ihre entschädigungsgelder/i
 /ihre gelder zu erhalten.{1,10}kontaktieren sie uns.{1,10}unter/i
@@ -83,6 +107,8 @@
 
 # K
 # ------------------------------------------------------------------------------
+/kontaktiere sie bezüglich einer.{1,10}transaktion/iu
+/kontaktiere ich sie.{1,10}wegen.{1,10}anspruchs/i
 
 # L
 # ------------------------------------------------------------------------------
@@ -100,7 +126,6 @@
 
 # P
 # ------------------------------------------------------------------------------
-/pandemie.{1,10}auszeichnung/i
 
 # Q
 # ------------------------------------------------------------------------------
@@ -110,34 +135,50 @@
 
 # S
 # ------------------------------------------------------------------------------
+/scheck.zustellung ihres anspruchs/i
 /schritte.{1,15}auszahlung zu erfahren/iu
 
 /sie die(se)?.{1,10}gelder beanspruchen/i
 /sie die(se)?.{1,10}gelder legal beanspruchen/i
 
-/sie haben anspruch auf.{1,10}millionen/i
-/sie wurden.{1,10}mit.{1,15}millionen.{1,10}entschädigt/iu
+/sie.{1,10}aufgrund einer ausstehenden.{1,10}überweisung/iu
 
-/sie um.{1,10}unterstützung bei.{1,10}überweisung/iu
+/sie.{1,10}eine.{1,10}transaktion.{1,15}zu kontaktieren/i
+/sie.{1,10}haben anspruch auf.{1,10}millionen/i
+/sie.{1,10}helfen.{1,15}geld.{1,10}millionen/i
+/sie.{1,10}hilfe bei der überweisung eines betrags/iu
+/sie.{1,10}um.{1,10}unterstützung bei.{1,10}überweisung/iu
+/sie.{1,10}vom entschädigungsausschuss/iu
 
-/sie vom entschädigungsausschuss/iu
+/sie.{1,10}(werden|wurden).{1,10}mit.{1,10}summe entschädigt/iu
+/sie.{1,10}(werden|wurden).{1,10}mit.{1,15}millionen.{1,10}entschädigt/iu
+
+/sie.{1,10}zu bitten.{1,10}mir dabei zu helfen.{1,10}geld/i
+/sie.{1,10}zur geltendmachung ihres anspruchs/i
 
 # T
 # ------------------------------------------------------------------------------
-/transaktion wurde blockiert.{1,10}da mehrere fehlgeschlagene/i
+/transaktion.{1,10}bezüglich.{1,15}(e?.?mail|namens?)/i
+/transaktion.{1,10}ist risikofrei/i
+/transaktion.{1,10}in ihrem namen/i
+/transaktion.{1,10}mit ihrem.{1,10}namen/i
+/transaktion.{1,10}teilzunehmen/i
+/transaktion.{1,10}zum gegenseitigen nutzen/i
+
+/transfer.{1,15}anvertrauen kann/i
 
 # U
 # ------------------------------------------------------------------------------
 
 # V
 # ------------------------------------------------------------------------------
+/verpflichtung.{1,10}während der.{1,10}transaktion/iu
+/vertraulichen.{1,10}transaktion im wert von/i
 
 # W
 # ------------------------------------------------------------------------------
-/western.{1,5}union.{1,15}vereinten nationen/i
-
 /wir haben eine nicht beanspruchte summe/i 
-/wir ihre ausstehende transaktion/i
+/wir ihre ausstehende.{1,10}transaktion/i
 
 /wir richten ein.{1,10}online.?banking.{1,10}in ihrem namen ein/i
 
@@ -149,6 +190,5 @@
 
 # Z
 # ------------------------------------------------------------------------------
-/zahlung fehlgeschlagen.{1,15}lizenz läuft ab/iu
-
-/zahlungsverifizierung.{1,10}fehlgeschlagen/i
+/zahlung auf ihren namen vor/i
+/zahlung nicht beanspruchter gelder/i

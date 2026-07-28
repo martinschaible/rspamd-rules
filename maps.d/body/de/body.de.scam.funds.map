@@ -34,6 +34,12 @@
 
 # F
 # ------------------------------------------------------------------------------
+/fonds.{1,10}direkt an ihre privatadresse/i
+/fonds.{1,10}in ihrem land anlegen/i
+/fonds.{1,10}mit ihrem rat/i
+/fonds.{1,10}problemlos zu beanspruchen/i
+
+/freigabe ihres.{1,10}fonds erteilen/i
 
 # G
 # ------------------------------------------------------------------------------
@@ -43,8 +49,18 @@
 
 # I
 # ------------------------------------------------------------------------------
+/ich einen.{1,20}vorschlag bezüglich.{1,15}fonds/i
+
+/ich habe einen.{1,10}fonds in höhe von/iu
+/ich habe einen.{1,15}kunden.{1,10}der die summe/i
+
 /ihre?.{1,10}fonds wurde genehmigt/i
-/ihre.{1,10}nicht beanspruchten gelder/i
+
+/ihre.{1,10}e?.?mail.?adresse.{1,10}wurde ausgewählt.{1,20}fonds/iu
+/ihre.{1,10}nicht beanspruchten (fonds|gelder)/i
+
+/ihren.{1,10}namen lauten nicht beansprucht.{1,10}(fonds|geld)/i
+/ihren.{1,10}nicht in anspruch genommenen.{1,15}fonds/i
 
 # J
 # ------------------------------------------------------------------------------
@@ -82,6 +98,7 @@
 
 # U
 # ------------------------------------------------------------------------------
+/um den.{1,10}fonds zu beanspruchen/i
 
 # V
 # ------------------------------------------------------------------------------

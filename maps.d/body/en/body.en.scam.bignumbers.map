@@ -24,15 +24,20 @@
 
 # C
 # ------------------------------------------------------------------------------
+/claim your.{1,10}\d{2,4}(\.|,)?\d{3,4}/i
 
 # D
 # ------------------------------------------------------------------------------
 /\d{2,4}(\.|,)?\d{3,4}.{1,10}(dollars?|euro?|gbp|usd|€|\$|£).{1,10}your designated bank account/i
+/\d{2,4}(\.|,)?\d{3,4}.{1,10}(dollars?|euro?|gbp|usd|€|\$|£).{1,10}your name/i
 
+/\d{2,4}(\.|,)?\d{3,4}.{1,10}awaiting.{1,10}transferred.{1,10}your.{1,10}account/i
 /\d{2,4}(\.|,)?\d{3,4}.{1,10}because your.{1,10}e?.?mail was selected/i
 /\d{2,4}(\.|,)?\d{3,4}.{1,10}if interested.{1,15}contact/i
 /\d{2,4}(\.|,)?\d{3,4}.{1,10}linked to your name/i
 /\d{2,4}(\.|,)?\d{3,4}.{1,10}to be credited into your.{1,15}account/i
+
+/(dollars?|euro?|gbp|usd|€|\$|£).{1,10}compensation amount.{1,10}kindly reply back/i
 
 # E
 # ------------------------------------------------------------------------------
@@ -50,6 +55,7 @@
 # I
 # ------------------------------------------------------------------------------
 /i donate.{1,10}\d{2,4}(\.|,)?\d{3,4}.{1,10}to you/i
+/i want to transfer.{1,10}(dollars?|euro?|gbp|usd|€|\$|£).{1,10}million/i
 
 # J
 # ------------------------------------------------------------------------------
@@ -62,8 +68,9 @@
 
 # M
 # ------------------------------------------------------------------------------
-/million.{1,10}(dollars?|euro?|gbp|usd|€|\$|£).{1,10}contact this e?.?mail/i
-/million.{1,10}we are open.{1,15}discussions/i
+/millions?.{1,10}(dollars?|euro?|gbp|usd|€|\$|£).{1,10}contact this e?.?mail/i
+/millions?.{1,10}you have been waiting/i
+/millions?.{1,10}we are open.{1,15}discussions/i
 
 # N
 # ------------------------------------------------------------------------------
@@ -82,7 +89,7 @@
 
 # S
 # ------------------------------------------------------------------------------
-/sum of.{1,10}million.{1,10}(dollars?|euro?|gbp|usd|€|\$|£).{1,10}for you/i
+/sum of.{1,10}million.{1,10}(dollars?|euro?|gbp|usd|€|\$|£).{1,10}(for|to) you/i
 
 # T
 # ------------------------------------------------------------------------------
@@ -106,7 +113,13 @@
 
 /you have received.{1,10}\d{1,4}(\.|,)?\d{3,4}.{1,10}to your account/i
 
-/your fund.{1,10}\d{2,4}(\.|,)?\d{3,4}/i
+/your.{1,10}assistance.{1,10}(manage|move|transfer|transferring).{1,20}(dollars?|euro?|gbp|usd|€|\$|£)/i
+
+/your.{1,10}funds?.{1,10}\d{3}.{0,5}\d{3}.{1,10}(dollars?|euro?|gbp|usd|€|\$|£)/i
+/your.{1,10}funds?.{1,10}\d{2,4}(\.|,)?\d{3,4}/i
+
+/your.{1,10}pending transfer of.{1,10}\d{1,4}(\.|,)?\d{3,4}.{1,10}(dollars?|euro?|gbp|usd|€|\$|£)/i
+/your.{1,10}total sum of.{1,10}\d{1,4}(\.|,)?\d{3,4}.{1,10}(dollars?|euro?|gbp|usd|€|\$|£)/i
 
 # Z
 # ------------------------------------------------------------------------------

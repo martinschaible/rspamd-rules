@@ -29,6 +29,8 @@
 
 # A
 # ------------------------------------------------------------------------------
+/auszahlung ihres fonds.{1,20}\d{2,4}(\.|,)?\d{3,4}/i
+/auszahlung ihres fonds.{1,20}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£)/i
 
 # B
 # ------------------------------------------------------------------------------
@@ -44,11 +46,14 @@
 /(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,15}ausgewählt.{1,10}(bestätigen|kontaktieren) sie/iu
 /(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,15}die an ihre e?.?mail.?adresse/i
 /(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,15}die nutzung.{1,10}google/i
+/(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,10}ihrem.{1,10}namen zugeordnet ist/i
 /(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,15}weitere informationen kontaktieren sie/i
 
 # F
 # ------------------------------------------------------------------------------
-/reiwilligen spende in höhe von.{1,10}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£)/i
+/freiwilligen spende in höhe von.{1,10}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£)/i
+
+/fonds.{1,10}in höhe von.{1,20}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,10}auf ihr.{1,25}konto/i
 
 # G
 # ------------------------------------------------------------------------------
@@ -68,6 +73,7 @@
 /ich besitze.{1,15}millionen.{1,10}(euro?|dollars?|gbp|usd|€|\$|£)/i
 
 /ich habe.{1,10}beschlossen.{1,10}\d{2,4}(\.|,)?\d{3,4}.{1,15}an sie/i
+/ich habe einen.{1,10}fonds von.{1,10}\d{2,4}(\.|,)?\d{3,4}/i
 
 /ich spende.{1,15}millionen.{1,15}(euro?|dollars?|gbp|usd|€|\$|£)/i
 /ich spenden ihnen.{1,10}\d{2,4}(\.|,)?\d{3,4}.{1,10}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£)/i
@@ -77,7 +83,13 @@
 /ihnen.{1,15}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,15}wohltätige zwecke gespendet/iu
 /ihnen.{1,15}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,15}spenden/i
 
+/ihnen.{1,10}betrag von.{1,10}\d{2,4}(\.|,)?\d{3,4}.{1,10}entschädigungszahlung/iu
+/ihnen.{1,10}entschädigung.{1,10}in höhe von.{1,10}\d{2,4}(\.|,)?\d{3,4}.{1,10}als beitrag/iu
+
 /ihre.{1,20}atm.?karte im wert von.{1,15}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£)/i
+/ihres.{1,10}fonds in höhe von.{1,10}\d{2,4}(\.|,)?\d{3,4}/i
+
+/ihrem.{1,10}konto.{1,10}\d{2,4}(\.|,)?\d{3,4}.{1,15}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,10}gutzuschreiben/i
 
 /ihnen eine entschädigung in höhe von.{1,10}\d{2,4}(\.|,)?\d{3,4}.{1,15}zugesprochen/iu
 
@@ -120,12 +132,16 @@
 # ------------------------------------------------------------------------------
 /sie ausgewählt wurden.{1,10}um.{1,10}millionen/iu
 
-/sie ein.{1,10}million.{1,15}zu gewinnen/i
+/sie.{1,10}million.{1,15}zu gewinnen/i
+/sie.{1,10}million.{1,10}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,10}auf ihrem konto erhalten/i
 
 /sie.{1,10}(erhalt|spende) von.{1,10}\d{2,4}(\.|,)?\d{3,4}.{0,10}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£)/i
 
 /sie haben einen.{1,15}gewinn von.{1,10}\d{2,4}(\.|,)?\d{3,4}.{0,10}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£)/i
 /sie haben.{1,10}\d{2,4}(\.|,)?\d{3,4}.{0,10}bei der.{1,15}(euromillion|lottery)/i
+
+/sie mit.{1,10}\d{2,4}(\.|,)?\d{3,4}.{1,10}zu entschädigen/iu
+/sie (werden|wurden).{1,10}mit.{1,10}summe von.{1,10}\d{2,4}(\.|,)?\d{3,4}/i
 
 /sie wurden ausgewählt.{1,15}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,15}zu erhalten/iu
 
