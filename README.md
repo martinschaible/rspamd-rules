@@ -107,6 +107,31 @@ subject
   └─ subject.asia.map
 ```
 
+### Setup for "lottery"
+
+Description of the topic goes here.....
+
+Folder structure:
+```
+body
+  ├─ de
+  │   └─ body.lottery.de.map
+  └─ en
+      └─ ....
+
+sender
+  ├─ de
+  │   └─ sender.lottery.de.map
+  └─ en
+      └─ ....
+
+subject
+  ├─ de
+  │   └─ subject.lottery.de.map
+  └─ en
+      └─ ....
+```
+
 ### Setup for "malware"
 
 Description of the topic goes here.....
@@ -175,6 +200,7 @@ sender
   │   └─ ....
   │
   ├─ sender.from.phishing.orgbrandprod.map
+  │
   ├─ sender.from.phishing.orgbrandprod.account.map
   ├─ sender.from.phishing.orgbrandprod.banking.map
   ├─ sender.from.phishing.orgbrandprod.it.map
@@ -282,7 +308,6 @@ body
   │   ├─ body.de.scam.order.map
   │   ├─ body.de.scam.payment.map
   │   ├─ body.de.scam.ransom.map
-  │   ├─ body.de.scam.transaction.map                      **
   │   └─ body.de.scam.winning.map
   └─ en
       └─ ....
@@ -301,6 +326,7 @@ subject
   │   ├─ subject.de.scam.business.map
   │   ├─ subject.de.scam.donation.map
   │   ├─ subject.de.scam.funds.map
+  │   ├─ subject.de.scam.heir.map                          **
   │   ├─ subject.de.scam.investment.map
   │   ├─ subject.de.scam.order.map
   │   ├─ subject.de.scam.payment.map
