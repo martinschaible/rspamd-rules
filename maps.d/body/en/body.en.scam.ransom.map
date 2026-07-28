@@ -31,6 +31,8 @@
 
 # B
 # ------------------------------------------------------------------------------
+/below is my.{1,10}(bitcoin|btc).{1,10}cryptowallet/i
+
 /(bitcoin|btc).{1,10}(address|wallet).{1,10}for.{1,10}(payment|transaction|transfer)/i
 /(bitcoin|btc).{1,10}(address|wallet).{1,10}is/i
 /(bitcoin|btc).{1,15}below.{1,15}spaces/i
@@ -72,6 +74,8 @@
 
 /i was able to put.{1,15}(malware|spyware|trojan|virus)/i
 
+/will receive a alert.{1,15}after/i
+
 # J
 # ------------------------------------------------------------------------------
 
@@ -105,10 +109,13 @@
 
 # T
 # ------------------------------------------------------------------------------
+/thing is.{1,10}device was hacked/i
+
 /this is a hacker/i
 
 # U
 # ------------------------------------------------------------------------------
+/use (bitcoin|btc).?atm.{1,10}near you/i
 
 # V
 # ------------------------------------------------------------------------------

@@ -38,7 +38,7 @@
 # B
 # ------------------------------------------------------------------------------
 /(begleichen|bezahlen).{1,10}andernfalls wird das paket/i
-/(begleichen|bezahlen).{1,10}zustellung starten/i
+/(begleichen|bezahlen).{1,10}zustellung (freigeben|starten)/i
 
 /(begleichen|bezahlen) sie.{1,10}(die|eine).{1,10}(ausstehenden?|erforderlichen?).{1,10}(versandkosten|verwaltungsgebühr|zollgebühr)/iu
 /(begleichen|bezahlen) sie.{1,10}eventuelle.{1,10}(steuer|zoll).{1,15}gebühren/iu
@@ -321,6 +321,6 @@
 
 /(zustellung|zustellversuch).{1,10}aufgrund einer (falschen|unvollständigen).{1,10}adresse/iu
 /(zustellung|zustellversuch).{1,10}aufgrund falscher angaben/i
-/(zustellung|zustellversuch).{1,10}ist eine.{1,10}zahlung von/i
+/(zustellung|zustellversuch).{1,10}ist eine.{1,10}(gebühr|zahlung) von/i
 /(zustellung|zustellversuch).{1,10}ist eine.{1,15}(kurze|online).{1,10}bestätigung erforderlich/iu
 /(zustellung|zustellversuch).{1,10}sind mit zusätzlichen gebühren verbunden/iu
