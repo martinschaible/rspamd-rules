@@ -54,11 +54,24 @@
 
 /estv.{1,10}rückerstattung/iu
 
+/euro.?millions.{1,10}(international|nationale).{1,10}(lotterie|lotto)/i
+/euro.?millions.{1,10}(international|nationale).{1,10}promo/i
+/euro.?millones.{1,10}lottery board/i
+
+/euro.?mega.?jackpot/i
+
 # F
 # ------------------------------------------------------------------------------
 
 # G
 # ------------------------------------------------------------------------------
+/gewinner.{1,15}google mit gesponserten/i
+
+/(facebook|google|microsoft).{1,10}(lotterie|zuschuss)/i
+/(facebook|google|microsoft).{1,10}(e?.?mail|online).?(direktor|verlosung)/i
+/(facebook|google|microsoft).{1,20}(lotto|lotterie)/i
+/(facebook|google|microsoft).{1,10}promotion.?award/i
+/(facebook|google|microsoft).{1,10}online.?ziehung/i
 
 # H
 # ------------------------------------------------------------------------------
@@ -91,6 +104,8 @@
 # ------------------------------------------------------------------------------
 /offene rechnung.{1,10}swisspass/i
 
+/online.{1,10}el.?gordo/i
+
 # P
 # ------------------------------------------------------------------------------
 /paypal support.{1,10}sehr geehrter? (kunde|kundin)/i
@@ -112,6 +127,7 @@
 /sbb cff ffs.{1,10}sehr geehrter kunde/i
 /sie ihre.{1,10}apple.?id wieder aktivieren/i
 
+
 /sumitomo mitsui card co/i
 
 /swica.{1,10}guten tag/i
@@ -125,6 +141,7 @@
 
 # V
 # ------------------------------------------------------------------------------
+/visa.?karte.{1,10}lotterie/iu
 
 # W
 # ------------------------------------------------------------------------------

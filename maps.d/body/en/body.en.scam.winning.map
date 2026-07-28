@@ -54,8 +54,6 @@
 # ------------------------------------------------------------------------------
 /lucky winner.{1,10}please contact our/i
 
-/lottery.{1,10}team/i
-
 # M
 # ------------------------------------------------------------------------------
 
@@ -94,12 +92,31 @@
 
 # Y
 # ------------------------------------------------------------------------------
-/you can win an.{1,10}exclusive prize/i
+/you.{1,10}are.{1,10}selected winner/i
+/you.{1,10}are.{1,10}lucky for.{1,10}prize/i
 
-/your.{1,10}e?.?mail.?(address|id)?.{1,10}appears to be amongst the.{1,10}(lucky|winner)/i
+/you.{1,10}can win.{1,10}exclusive prize/i
+/you.{1,10}have been selected.{1,15}prize/i
+/you.{1,10}have been selected.{1,10}as one of the.{1,15}winners/i
 
-/your.{1,10}e?.?mail.?(address|id)?.{1,10}has won/i
-/your.{1,10}e?.?mail.?(address|id)?.{1,10}won sum of/i
+/you.{1,10}have received.{1,10}prize of/i
+
+/your.{1,10}e?.?mail.?(account|address|id)?.{1,10}appears to be amongst the.{1,10}(lucky|winner)/i
+
+/your.{1,10}e?.?mail.?(account|address|id)?.{1,10}(appeared|selected).{1,10}(among|as one of) the.{1,10}winners/i
+
+/your.{1,10}e?.?mail.?(account|address|id)?.{1,10}has been selected for.{1,10}united states?/i
+/your.{1,10}e?.?mail.?(account|address|id)?.{1,10}has been selected randomly.{1,10}receive/i
+/your.{1,10}e?.?mail.?(account|address|id)?.{1,10}has won/i
+
+/your.{1,10}e?.?mail.?(account|address|id)?.{1,10}is the lucky winner/i
+
+/your.{1,10}e?.?mail.?(account|address|id)?.{1,10}was among the.{1,15}winners/i
+/your.{1,10}e?.?mail.?(account|address|id)?.{1,10}was chosen at random/i
+/your.{1,10}e?.?mail.?(account|address|id)?.{1,10}was randomly selected.{1,25}(charity|electronic|from|gift|spin)/i
+
+/your.{1,10}e?.?mail.?(account|address|id)?.{1,10}won.{1,10}million/i
+/your.{1,10}e?.?mail.?(account|address|id)?.{1,10}won.{1,10}sum of/i
 
 /your.{1,10}name was among the winners/i
 
