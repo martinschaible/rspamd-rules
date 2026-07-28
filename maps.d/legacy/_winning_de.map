@@ -7,43 +7,10 @@
 #  10 | German         |
 # ==============================================================================
 
-# Organisations and Programs
-# ------------------------------------------------------------------------------
-/euromillions.?nationale.?(lotterie|lotto)/i
-/euro.?mega.?jackpot/i
-
-/gewinner.{1,15}google mit gesponserten/i
-
-/(google|microsoft).{1,10}(e?.?mail|online).?(direktor|lotterie|lotto|verlosung)/i
-/(google|microsoft).{1,10}(lotto|lotterie|online.?ziehung)/i
-
-/online.{1,10}el.?gordo/i
-/mega.?jackpot.?aktion/i
-
-/spanischen?.{1,10}(lotterie|lotto)/i
-/spanischenn?.{1,10}euro.?mega/i
-
-/visa.?karte.{1,10}lotterie/iu
-
-#
-#
-#
-
-# Awards
-# ------------------------------------------------------------------------------
-
 # Draw
 # ------------------------------------------------------------------------------
 /internet.{1,10}e?.?mail.?verlosung/i
 /link unten.{1,10}nimm an unserem gewinnspiel/i
-
-# Lottery
-# ------------------------------------------------------------------------------
-/lieber lotto.?gewinner/i
-/sie sind der.{1,15}gewinner unserer lotterie/i
-
-#
-/gewinnnummer.{1,30}referenznummer/i
 
 # Payments
 # ------------------------------------------------------------------------------
