@@ -1,6 +1,11 @@
 # ==============================================================================
+# This is about supposed lottery winnings. Of course, it's just a nasty scam.
+#
+# There's a separate map file for other winnings, e.g., from fake competitions.
+#
+# ------------------------------------------------------------------------------
 # Language: english
-# Weight:   6.0
+# Weight:   12.0
 # ==============================================================================
 
 # Generic
@@ -104,8 +109,8 @@
 # ------------------------------------------------------------------------------
 /welfare.{0,10}lotter(ie|y)/i
 
-/win(ning)?.{0,10}lotter(ie|y)/i
-/win(ning)?.{0,10}lotto/i
+/win(ing)?.{0,10}lotter(ie|y)/i
+/win(ing)?.{0,10}lotto/i
 
 # X
 # ------------------------------------------------------------------------------
