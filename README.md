@@ -50,7 +50,7 @@ It's necessary to split existing map files into smaller ones. Sometimes, when an
 
 >The document below, which lists the files and directories, will be revised shortly.
 
-### Setup for "base"
+### Setup for "Base"
 
 Description of the topic goes here.....
 
@@ -90,7 +90,103 @@ lists
 
 * -> "one_shot" is set
 
-### Setup for "asia"
+### Setup for "Common"
+
+Description of the topic goes here.....
+
+Folder structure:
+```
+body
+  ├─ body.attachment.map
+  ├─ body.attachment.ext.map
+  ├─ body.emergency.map
+  ├─ body.special.map
+  │
+  ├─ body.az.orgname.map 
+  ├─ body.ch.orgname.map
+  ├─ body.de.orgname.map
+  ├─ body.us.orgname.map
+  │
+  ├─ body.orgbrandprod.map
+  │
+  ├─ href
+  │   ├─ body.href.az.domain.name.map
+  │   ├─ body.href.ch.domain.name.map
+  │   ├─ body.href.de.domain.name.map
+  │   ├─ body.href.us.domain.name.map
+  │   ├─ body.href.domain.name.pattern.map
+  │   └─ body.href.url.path.orgbrandprod.map
+  │
+  ├─ de
+  │   ├─ body.de.map
+  │   ├─ body.de.greetings.map
+  │   ├─ body.de.intros.map
+  │   ├─ body.de.message.map
+  │   │    
+  │   ├─ body.de.singleword.map
+  │   ├─ body.de.singleword.special.map
+  │   ├─ body.de.singleword.ucase.map
+  │   │
+  │   ├─ body.de.ucase.map
+  │   └─ body.de.unsubscribe.map
+  └─ en
+      └─ ....
+
+header
+  ├─ header.hostname.map
+  ├─ header.ipaddress.map
+  ├─ header.googlegroups.groupid.map
+  └─ header.googlegroups.listpost.map
+
+sender
+  ├─ sender.address.map
+  ├─ sender.address.domain.name.map
+  ├─ sender.address.orgbrandprod.map
+  ├─ sender.address.people.map
+  ├─ sender.address.tld.map
+  │
+  ├─ de
+  │   └─ sender.address.de.map
+  ├─ en
+  │   └─ ....
+  │
+  ├─ sender.from.orgbrandprod.map
+  ├─ sender.from.people.map
+  ├─ sender.from.special.map
+  ├─ sender.from.special.emoji.map
+  ├─ sender.from.title.map 
+  ├─ sender.from.tld.map                                   **
+  │
+  ├─ de
+  │   ├─ sender.from.de.singleword.map
+  │   ├─ sender.from.de.singleword.special.map
+  │   ├─ sender.from.de.singleword.ucase.map
+  │   │
+  │   └─ sender.from.de.map
+  └─ en
+      └─ ....
+
+subject  
+  ├─ subject.health.medname.map
+  ├─ subject.orgbrandprod.map
+  ├─ subject.special.map
+  ├─ subject.special.emoji.map
+  │
+  ├─ de
+  │   ├─ subject.de.map
+  │   ├─ subject.de.greetings.map
+  │   ├─ subject.de.message.map
+  │   │
+  │   ├─ subject.de.singleword.map
+  │   ├─ subject.de.singleword.special.map
+  │   ├─ subject.de.singleword.ucase.map
+  │   │
+  │   └─ subject.de.ucase.map
+  └─ en
+      └─ ....
+```
+
+### Setup for "Asia"
 
 Description of the topic goes here.....
 
@@ -107,7 +203,49 @@ subject
   └─ subject.asia.map
 ```
 
-### Setup for "lottery"
+### Setup for "Health"
+
+Description of the topic goes here.....
+
+Folder structure:
+
+```
+body
+  ├─ de
+  │   ├─ bodyde,.health.map
+  │   │
+  │   ├─ body.de.health.meds.map                           **
+  │   ├─ body.de.health.men.map                            **
+  │   ├─ body.de.health.specific.map                       ??
+  │   └─ body.de.health.wl.map                             **
+  └─ en
+      └─ ....
+
+sender
+  ├─ de
+  │   ├─ sender.de.health.map
+  │   │
+  │   ├─ sender.de.health.meds.map                         **
+  │   ├─ sender.de.health.men.map                          **
+  │   ├─ sender.de.health.specific.map                     ??
+  │   └─ sender.de.health.wl.map                           **
+  └─ en
+      └─ ....
+
+subject
+  ├─ de
+  │   ├─ subject.de.health.map
+  │   │
+  │   ├─ subject.de.health.meds.map                        **
+  │   ├─ subject.de.health.men.map                         **
+  │   ├─ subject.de.health.specific.map                    ??
+  │   └─ subject.de.health.wl.map                          **
+  └─ en
+      └─ ....
+```
+
+
+### Setup for "Malware"
 
 Description of the topic goes here.....
 
@@ -115,49 +253,24 @@ Folder structure:
 ```
 body
   ├─ de
-  │   └─ body.lottery.de.map
+  │   └─ body.de.malware.map
   └─ en
       └─ ....
 
 sender
   ├─ de
-  │   └─ sender.lottery.de.map
+  │   └─ sender.de.malware.map
   └─ en
       └─ ....
 
 subject
   ├─ de
-  │   └─ subject.lottery.de.map
+  │   └─ subject.de.malware.map
   └─ en
       └─ ....
 ```
 
-### Setup for "malware"
-
-Description of the topic goes here.....
-
-Folder structure:
-```
-body
-  ├─ de
-  │   └─ body.malware.de.map
-  └─ en
-      └─ ....
-
-sender
-  ├─ de
-  │   └─ sender.malware.de.map
-  └─ en
-      └─ ....
-
-subject
-  ├─ de
-  │   └─ subject.malware.de.map
-  └─ en
-      └─ ....
-```
-
-### Setup for "phishing"
+### Setup for "Phishing"
 
 Description of the topic goes here.....
 
@@ -237,7 +350,7 @@ subject
 
 ```
 
-### Setup for "sale"
+### Setup for "Sale"
 
 Description of the topic goes here.....
 
@@ -287,7 +400,7 @@ subject
   └─ subject.sale.orgbrandproduct.map
 ```
 
-### Setup for "scam"
+### Setup for "Scam"
 
 Description of the topic goes here.....
 
@@ -335,7 +448,7 @@ subject
       └─ ....
 ```
 
-### Setup for "seasonal"
+### Setup for "Seasonal"
 
 Some Spam attacks occur regularly but are short-lived.
 Therefore, any RexEx filters have a limited lifespan.
@@ -361,140 +474,44 @@ subject
 
 ```
 
+### Setup for "Other Topics"
 
->Old description, needs to be changed...
-
-### Setup for "body"
+Description of the topic goes here.....
 
 Folder structure:
 ```
 body
-  ├─ body.attachment.map
-  ├─ body.attachment.ext.map
-  ├─ body.emergency.map
-  ├─ body.special.map
-  │
-  ├─ body.az.orgname.map 
-  ├─ body.ch.orgname.map
-  ├─ body.de.orgname.map
-  ├─ body.us.orgname.map
-  │
-  ├─ body.orgbrandprod.map
-  │
-  ├─ href
-  │   ├─ body.href.az.domain.name.map
-  │   ├─ body.href.ch.domain.name.map
-  │   ├─ body.href.de.domain.name.map
-  │   ├─ body.href.us.domain.name.map
-  │   ├─ body.href.domain.name.pattern.map
-  │   └─ body.href.url.path.orgbrandprod.map
-  │
   ├─ de
-  │   ├─ body.de.map
-  │   ├─ body.de.greetings.map
-  │   ├─ body.de.intros.map
-  │   ├─ body.de.message.map
-  │   │    
-  │   ├─ body.de.singleword.map
-  │   ├─ body.de.singleword.special.map
-  │   ├─ body.de.singleword.ucase.map
-  │   │
-  │   ├─ body.de.ucase.map
-  │   ├─ body.de.unsubscribe.map
-  │   │
   │   ├─ body.de.adult.map
   │   ├─ body.de.finance.map
   │   ├─ body.de.gambling.map
-  │   ├─ body.de.health.map
-  │   ├─ body.de.health.specific.map
+  │   ├─ body.de.lottery.map
   │   ├─ body.de.makemoney.map
-  │   │
   │   └─ body.de.stocks.map
-  │
   └─ en
       └─ ....
-```
 
-### Setup for "header"
-```
-header
-  ├─ header.hostname.map
-  ├─ header.ipaddress.map
-  ├─ header.googlegroups.groupid.map
-  └─ header.googlegroups.listpost.map
-```
-
-### Setup for "sender"
-
-Folder structure:
-```
 sender
-  ├─ sender.address.map
-  ├─ sender.address.domain.name.map
-  ├─ sender.address.orgbrandprod.map
-  ├─ sender.address.people.map
-  ├─ sender.address.tld.map
-  │
   ├─ de
-  │   └─ sender.address.de.map
-  │
-  ├─ sender.from.orgbrandprod.map
-  ├─ sender.from.people.map
-  ├─ sender.from.special.map
-  ├─ sender.from.special.emoji.map
-  ├─ sender.from.title.map 
-  ├─ sender.from.tld.map                                   **
-  │
-  ├─ de
-  │   ├─ sender.from.de.singleword.map
-  │   ├─ sender.from.de.singleword.special.map
-  │   ├─ sender.from.de.singleword.ucase.map
-  │   │
-  │   ├─ sender.from.de.map
   │   ├─ sender.from.de.adult.map
+  │   ├─ sender.from.de.finance.map
   │   ├─ sender.from.de.gambling.map
-  │   ├─ sender.from.de.health.map
-  │   ├─ sender.from.de.health.specific.map                **
   │   ├─ sender.from.de.lottery.map
   │   └─ sender.from.de.makemoney.map
-  │
   └─ en
       └─ ....
-```
 
-### Setup for "subject"
-
-Folder structure:
-```
-subject  
-  ├─ subject.health.medname.map
-  ├─ subject.orgbrandprod.map
-  ├─ subject.special.map
-  ├─ subject.special.emoji.map
-  │
+subject
   ├─ de
-  │   ├─ subject.de.map
-  │   ├─ subject.de.greetings.map
-  │   ├─ subject.de.message.map
-  │   │
-  │   ├─ subject.de.singleword.map
-  │   ├─ subject.de.singleword.special.map
-  │   ├─ subject.de.singleword.ucase.map
-  │   │
-  │   ├─ subject.de.ucase.map
-  │   │
   │   ├─ subject.de.adult.map
   │   ├─ subject.de.finance.map
   │   ├─ subject.de.gambling.map
-  │   ├─ subject.de.health.map
-  │   ├─ subject.de.health.specific.map
-  │   │
+  │   ├─ subject.de.lottery.map
+  │   ├─ subject.de.makemoney.map
   │   └─ subject.de.stocks.map
-  │
   └─ en
       └─ ....
 ```
-
 
 ### Setup for "whitelist"
 
