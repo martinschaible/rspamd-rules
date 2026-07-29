@@ -73,6 +73,8 @@
 /auszug verfügbarer sachgruppen/iu
 
 /betriebsgüter verfügbar/iu
+
+
 /fristgebundene.{1,10}aufstellung/i
 /gerichtlicher? verwertung/i
 /hinweis.{1,10}bestandsverwertung/i
@@ -93,9 +95,12 @@
 /unser(em)?.{1,10}insolvenzkatalog/i
 
 /veräußerungsmandat.{1,15}aktuelle positionen/iu
-/vermögensveräußerung.{1,15}(insolvenzverfahren|liquidationen)/iu
 /verfügbare bestandspositionen/i
+/vermögensveräußerung.{1,15}(insolvenzverfahren|liquidationen)/iu
+
+/verwertungsmandat.{1,10}aufstellung/i
 /(verwertung|waren).{1,15}(insolvenzverfahren|liquidationen)/i
+/(verwertung|waren).{1,15}marktwert/i
 
 # Single words
 /insolvenzauszug/i

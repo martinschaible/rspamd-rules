@@ -49,6 +49,8 @@
 
 # E
 # ------------------------------------------------------------------------------
+/e?.?mail.{1,10}sender.{1,10}fastest/i
+
 /(empower|enhance|make) your.{1,10}(brand|business)/i
 
 /exclusive.{1,10}guest posting/i
@@ -132,7 +134,8 @@
 
 # U
 # ------------------------------------------------------------------------------
-/unlimited (mailing for|smtp)/i
+/unlimited.{1,10}(mailing for|smtp)/i
+/unlimited.{1,10}e.?mail blasting/i
 
 /unlock.{1,15}instagram growth/i
 /unlock.{1,10}power.{1,10}wikipedia/i

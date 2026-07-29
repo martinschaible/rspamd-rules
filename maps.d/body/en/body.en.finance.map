@@ -120,9 +120,13 @@
 /(loan|credit)s?.{1,10}for your.{1,10}(business|personal)/i
 /(loan|credit)s?.{1,10}here to help/i
 /(loan|credit)s?.{1,10}small.{1,10}medium business(es)/i
+
 /(loan|credit)s?.{1,10}offer.{1,10}interest rate/i
 /(loan|credit)s?.{1,10}offer.{1,10}with.{1,10}perfect/i
-/(loan|credit)s?.{1,10}options.{1,15}feel free to contact/i
+
+/(loan|credit)s?.{1,10}(options?|solutions?).{1,15}feel free to contact/i
+/(loan|credit)s?.{1,10}(options?|solutions?).{1,10}tailored.{1,10}for you/i
+
 /(loan|credit)s?.{1,15}that will help you/i
 /(loan|credit)s?.{1,15}to pay urgent/i
 /(loan|credit)s?.{1,10}unsecured.{1,15}funding/i
@@ -130,6 +134,8 @@
 
 /(loan|credit)s?.{1,10}you can.{1,10}get up/i
 /(loan|credit)s?.{1,10}your needs/i
+
+/loan.{1,10}investment department/i
 
 /(long|short).?term.{1,10}funding.{1,10}program/i
 /(looking|seeking).{1,15}(financial|reliable).{1,15}(assistance|partner)/i

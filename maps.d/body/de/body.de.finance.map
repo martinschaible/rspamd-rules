@@ -86,6 +86,8 @@
 # D
 # ------------------------------------------------------------------------------
 /(darlehen|kredit).{1,25}antworten sie bei interesse/iu
+/(darlehen|kredit).{1,15}attraktiven.{1,10}jahreszinssatz von nur/i
+
 /(darlehen|kredit).{1,10}benötigen.{1,10}schreiben sie/i
 /(darlehen|kredit).{1,10}geschäftlich.{1,10}privat/iu
 
@@ -237,6 +239,7 @@
 /kreditarten sind wir zertifiziert/i
 /kreditangebote von.{1,15}bis/i
 /kreditprogramm vorstellen/i
+/kreditsummen reichen von{1,15}bis/i
 
 /kredit.?betrag.{1,20}kredit.?laufzeit/i
 /kreditlaufzeit.{1,10}zweck/i
