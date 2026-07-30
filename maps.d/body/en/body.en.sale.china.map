@@ -57,6 +57,8 @@
 
 # Address patterns
 # ------------------------------------------------------------------------------
+/co.{1,5}(limited|ltd).{1,10}guangdong.{1,10}(china|province)/i
+
 /district.{1,10}beijing.{1,10}china.{1,10}wechat/i
 
 /ningbo.{1,10}zhejiang.{1,10}china/i
