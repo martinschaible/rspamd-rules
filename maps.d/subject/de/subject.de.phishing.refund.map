@@ -189,8 +189,8 @@
 /(rück)?erstattungs.?prozess(es)?.{1,10}\d{2,3}/i
 /(rück)?erstattungsbestätigung.{1,10}antrag genehmigt/i
 
-/rückzahlung bei doppelt/iu
-
+/(rückzahlung|rueckzahlung).{1,15}auszahlung veranlassen/iu
+/(rückzahlung|rueckzahlung).{1,10}bei doppelt/iu
 /(rückzahlung|rueckzahlung).{1,10}bereit zur auszahlung/iu
 /(rückzahlung|rueckzahlung).{1,10}letzte schritte/iu
 
