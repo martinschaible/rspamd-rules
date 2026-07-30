@@ -14,7 +14,8 @@
 # -> Theses RegEx might be constructed easier and better
 
 /\[.?e.?mail.?\]/i
-/\[(confidential|donation|letter|offer|proposal|urgent|warning)\]/i
+
+/\[(donation|letter|offer|proposal|urgent|warning)\]/i
 /\{(confidential|donation|letter|offer|proposal|urgent|warning)\}/i
 /\*(confidential|donation|letter|offer|proposal|urgent|warning)\*/i
 
