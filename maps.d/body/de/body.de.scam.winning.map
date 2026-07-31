@@ -18,14 +18,20 @@
 
 # A
 # ------------------------------------------------------------------------------
+/als aktiver benutzer wurden sie.{1,10}gewinner/i
+/anspruch geltend zu machen.{1,10}senden sie eine e?.?mail/i
+
 /auserwählten für das.{1,20}gewinnspiel/i
+
+/(aus)?zahlung.{1,10}nicht (eingeforderten|beansprucht).{1,10}(preis|gewinn).?geld(es)?/i
 
 # B
 # ------------------------------------------------------------------------------
 /beanspruchen sie ihren.{1,15}gewinn jetzt/i
+/benachrichtigung{1,15}gewinn.?auszahlung/i
 /betreff.{1,10}nicht abgeholter gewinn/i
 
-/berechtigt.{1,10}zu einem.{1,10}geldpreis/i
+/berechtigt.{1,10}zu einem.{1,10}(geld|haupt).?preis/i
 
 /bestätigt ihren exklusiven gewinn/iu
 /bestätigen sie.{1,10}gewinn innerhalb von/i
@@ -51,6 +57,8 @@
 /(glückwunsch|hallo).{1,10}ihre.{1,10}e?.?mail?adresse gehört zu den glücklichen/i
 /(glückwunsch|hallo).{1,10}sie gehören zu den glücklichen.{1,10}gewinnern/iu
 
+/gewinn.{1,10}auf ihren namen ausstellen/i
+/gewinn.{1,10}beanspruchen.{1,10}kontaktieren sie/i
 /gewinn.{1,10}(das|ein) brandneues?/i
 /gewinn.{1,10}hiermit informieren wir sie/i
 /gewinn.{1,10}jetzt (beanspruchen|bestätigen)/iu
@@ -61,22 +69,34 @@
 /gewinne.{1,10}einen.{1,15}einkaufgutschein im wert/i
 
 /gewinnspiel.?team/i
-/gewinnspiels?.{1,10}bekanntzugeben.{1,10}der preis in diesem monat/i
+
+/gewinnspiel.{1,10}bekanntzugeben.{1,10}der preis in diesem monat/i
+/gewinnspiel.{1,10}ihr exklusiver preis/i
 
 /gewinne ein(en)?.{5,25}gratis teilnehmen/i
 
+/gewinnen.{1,10}echtes geld/i
 /gewinnen.{1,10}teilnahme in nur wenigen klicks/i
+
 /gewinnenden preis/i
 
-/gewinner des brandneuen/i
-/gewinner erhält ein brandneues/iu
-/gewinner sind.{1,10}klicken sie auf den.{1,15}link/i
-/gewinner werden.{1,10}zufallsziehung/i
+/gewinner.{1,10}ausgewählt.{1,10}als aktiver benutzer/iu
+/gewinner.{1,10}des brandneuen/i
+/gewinner.{1,10}erhält ein brandneues/iu
+/gewinner.{1,10}ihre gewinndaten/i
+/gewinner.{1,10}sind.{1,10}klicken sie auf den.{1,15}link/i
+/gewinner.{1,10}überprüfe dies/iu
+/gewinner.{1,10}werden.{1,10}zufallsziehung/i
 
 /gewinnspielziehung ausgewählt/iu
 
+/gewonnen.{1,10}antwort mit ihrem vollständigen namen/iu
+/gewonnen.{1,10}antworten sie auf.{1,10}e?.?mail/i
+/gewonnen.{1,10}reagieren sie auf.{1,10}forderungen/i
+
 /gewonnen.{1,10}haben.{1,10}in.{1,10}minuten/i
 /gewonnen.{1,10}bestätigen sie ihren gewinn/i
+/gewonnen.{1,10}kontaktieren sie uns/i
 /gewonnen.{1,10}sie wurden von einem/i
 /gewonnen.{1,10}spendennummer/i
 /gewonnen.{1,10}weitere informationen kontaktieren sie/i
@@ -90,12 +110,24 @@
 
 # I
 # ------------------------------------------------------------------------------
-/ihre?.{1,10}(e?.?mail|name).{1,15}bei einer ziehung/i
-/ihre?.{1,10}(e?.?mail|name).{1,15}die verlosung/i
-/ihre?.{1,10}(e?.?mail|name).{1,15}hat gewonnen/i
+/ihre?.{1,15}(e?.?mail|name).{1,15}bei einer ziehung/i
+/ihre?.{1,15}(e?.?mail|name).{1,15}die verlosung/i
+/ihre?.{1,15}(e?.?mail|name).{1,15}einen geldpreis/i
+/ihre?.{1,15}(e?.?mail|name).{1,15}gehört zu den.{1,15}gewinnern/iu
 
-/ihre?.{1,10}(e?.?mail|name).{1,15}wurde mit.{1,15}(coupon|gewinn|gutschein|nummer)/i
-/ihre?.{1,10}(e?.?mail|name).{1,15}wurde nach dem zufallsprinzip/i
+/ihre?.{1,15}(e?.?mail|name).{1,15}hat den betrag von.{1,15}(millionen|tausend)/i
+/ihre?.{1,15}(e?.?mail|name).{1,15}hat gewonnen/i
+/ihre?.{1,15}(e?.?mail|name).{1,15}hat ihnen.{1,10}(den|einen).{1,10}betrag von/i
+
+/ihre?.{1,15}(e?.?mail|name).{1,15}mit der seriennummer/i
+/ihre?.{1,15}(e?.?mail|name).{1,15}unter den empfängern/iu
+
+/ihre?.{1,15}(e?.?mail|name).{1,15}wurde ausgewählt.{1,20}um.{1,15}(den betrag|zu erhalten)/iu
+/ihre?.{1,15}(e?.?mail|name).{1,15}wurde bei einer.{1,15}verlosung/iu
+/ihre?.{1,15}(e?.?mail|name).{1,15}wurde mit.{1,15}(coupon|gewinn|gutschein|nummer)/i
+/ihre?.{1,15}(e?.?mail|name).{1,15}wurde nach dem zufallsprinzip/i
+/ihre?.{1,15}(e?.?mail|name).{1,15}wurde zufällig (aus|von) einer.{1,15}(e?.?mail|datenbank|software)/iu
+
 
 /ihrem.{1,10}möglichen gewinn/iu
 /ihnen.{1,10}eine.{1,15}gewinnchance/i
@@ -131,6 +163,7 @@
 
 # P
 # ------------------------------------------------------------------------------
+/preis.?geld.{1,10}das auf ihrem namen/i
 
 # Q
 # ------------------------------------------------------------------------------
@@ -144,16 +177,23 @@
 /sie als potenzieller.{1,10}gewinner ausgewählt/iu
 
 /sie.{1,10}exklusiven preis.{1,10}(das|der) brandneue/i
+/sie.{1,10}preisgeld.{1,10}von.{1,15}millionen.{1,15}gewonnen/i
 
 /sie gehören zu den.{1,10}gewinnern/iu
-/sie sind einer der.{1,10}gewinner/i
+/sie.{1,15}als.{1,15}gewinner von insgesamt.{1,10}millionen/i
+
+/sie sind auf.{1,15}gewinnerliste/i
+/sie sind einer der.{1,15}gewinner/i
 
 /sie haben.{1,10}ein brandneues.{1,20}gewonnen/i
 /sie haben.{1,10}einen.{1,10}einmaligen.{1,10}gewinn/i
+/sie haben.{1,10}in der.{1,10}kategorie gewonnen/i
+/sie haben.{1,10}ihrer.{1,10}e?.?mail.{1,10}adresse gewonnen/i
 
 /sie haben.{1,10}millionen euro gewonnen/i
 
-/sie wurden.{1,10}als.{1,10}gewinner.{1,10}ausgewählt.{1,10}erhalten die summe/iu
+/sie wurden.{1,10}als.{1,20}glücklichen gewinnern?/iu
+/sie wurden.{1,10}als.{1,20}gewinner.{1,10}ausgewählt.{1,10}erhalten die summe/iu
 /sie wurden.{1,10}als.{1,15}(web)?nutzer.{1,10} ausgewählt/iu
 /sie wurden.{1,10}durch ein.{1,15}glücksrad/iu
 /sie wurden.{1,10}unter.{1,15}möglichen gewinnern/iu
@@ -191,6 +231,4 @@
 
 # Z
 # ------------------------------------------------------------------------------
-/zahlung des nicht beanspruchten preisgeldes/i
-
 /zeitraums reagieren.{1,10}verfällt ihr anspruch/iu
