@@ -201,7 +201,9 @@
 /web re.?builder/i
 
 /web.?price\.\./i
-/web.?site.{1,10}inquiry/i
+
+/(web.?)?site{1,10}idea.{1,10}quotes?/i
+/(web.?)?site.{1,10}inquiry/i
 
 /with a web.?site/i
 
