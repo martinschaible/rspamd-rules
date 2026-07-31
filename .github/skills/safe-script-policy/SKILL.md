@@ -8,25 +8,20 @@ user-invocable: true
 # Safe Script Policy (Strict)
 
 ## Goal
-Do not execute external scripts.
-
-This is a strict policy:
-- The agent must not run external scripts.
-- No automatic or ad-hoc exceptions.
+Never execute external scripts in this workspace.
 
 ## Default Rule
-Never run external scripts.
+Never run external scripts. No exceptions.
 
 ## Exception List (Workspace)
 No exceptions.
 
 ## Behavior
 1. First, use non-script alternatives (direct file edits, static checks, native tools).
-2. If script execution would help, do not run it.
-3. Explain that script execution is blocked by workspace policy.
-4. If needed, ask the user to run the script manually outside the agent workflow.
-5. Never run downloaded or remote scripts.
-6. Never run scripts outside the workspace.
+2. If script execution would help, explain that it is blocked by workspace policy.
+3. If needed, ask the user to run the script manually outside the agent workflow.
+4. Never run downloaded or remote scripts.
+5. Never run scripts outside the workspace.
 
 ## Notes
 - This policy guides behavior and is not a hard technical sandbox.
