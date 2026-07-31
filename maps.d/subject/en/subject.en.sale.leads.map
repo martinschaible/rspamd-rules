@@ -43,11 +43,14 @@
 /boost.{1,10}leads.{1,10}sales/i
 
 /bulk.{1,10}e?.?mail.{1,10}(marketing|strategies)/i
+/bulk.{1,10}lead generation/i
 
 # C
 # ------------------------------------------------------------------------------
 /(casino|forex).{1,10}(databases?|leads)/i
 /cheap(er)? lead tools/i
+
+/clean.{1,10}accurate.{1,10}leads/i
 
 /collaboration.{1,15}users.{1,10}(database|list)/i
 
@@ -115,9 +118,11 @@
 
 # L
 # ------------------------------------------------------------------------------
-/leads.{1,10}(databases|samples?)/i
-/leads.{1,10}for sale/i
-/leads.{1,10}from.{1,10}(events|linked.?in)/i
+/leads?.{1,10}(databases|samples?)/i
+/leads?.{1,10}for sale/i
+/leads?.{1,10}from.{1,10}(events|linked.?in)/i
+/leads?.{1,10}ready for you/i
+/leads?.{1,10}generation solution/i
 
 /^link affinity$/i
 /link building opportunities/i
@@ -131,12 +136,16 @@
 /mailing.{1,10}for your clients/i
 /mailing.{1,10}lead generation/i
 
+/millions.{1,10}leads/i
+
 # N
 # ------------------------------------------------------------------------------
 /new leads.{1,10}linkedin/i
 
 # O
 # ------------------------------------------------------------------------------
+/our e?.?mail.?lists/i
+
 
 # P
 # ------------------------------------------------------------------------------
@@ -152,6 +161,8 @@
 
 # R
 # ------------------------------------------------------------------------------
+/reach.{1,10}leads today/i
+
 /registered.{1,15}(contact|participants).{1,15}directory/i
 
 # S
@@ -164,6 +175,8 @@
 # T
 # ------------------------------------------------------------------------------
 /targeted.{1,10}verified/i
+
+/(targeted|verified).{1,15}linkedin leads/i
 /(targeted|verified).{1,15}(contact lists|e?.?mail.?list|leads)/i
 
 /thousands of leads/i
@@ -175,6 +188,8 @@
 # U
 # ------------------------------------------------------------------------------
 /unlock.{1,10}your leads?/i
+
+/u\.?s\.?.{1,10}business.{1,10}leads/i
 
 # V
 # ------------------------------------------------------------------------------
@@ -192,6 +207,8 @@
 # Y
 # ------------------------------------------------------------------------------
 /you utilizing.{1,10}visitors.{1,10}e?.?mails/i
+/you want.{1,15}e?.?mail.?list/i
+
 /your.{1,10}lead potential/i
 
 # Z

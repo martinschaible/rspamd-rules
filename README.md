@@ -364,6 +364,7 @@ body
   │   ├─ body.de.sale.greetings.map
   │   ├─ body.de.sale.china.map
   │   ├─ body.de.sale.leads.map
+  │   ├─ body.de.sale.mailings.map                         **
   │   ├─ body.de.sale.media.map
   │   ├─ body.de.sale.seo.map
   │   ├─ body.de.sale.specific.map
@@ -390,6 +391,7 @@ subject
   │   ├─ subject.de.sale.china.map
   │   ├─ subject.de.sale.greetings.map
   │   ├─ subject.de.sale.leads.map
+  │   ├─ subject.de.sale.mailings.map                      **
   │   ├─ subject.de.sale.media.map
   │   ├─ subject.de.sale.seo.map
   │   ├─ subject.de.sale.specific.map
