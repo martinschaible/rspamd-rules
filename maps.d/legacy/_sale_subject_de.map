@@ -235,20 +235,6 @@
 
 /(kleiner preis|ihren|neuen|neuer).{1,10}(tisch|turnier).?kicker/i
 
-#
-#
-#
-
-# Address lists for spamming, EMail Marketing
-# ------------------------------------------------------------------------------
-/(dienstleistung|informationen).{1,10}e?.?mail.?marketing/i
-/unsere.{1,10}deutschland.{1,10}datenbank/i
-/datenbank von unternehmen/i
-
-# Leads
-# ------------------------------------------------------------------------------
-/mit gezielten leads/i
-
 # Developing Websites
 # ------------------------------------------------------------------------------
 /kreative website.{1,10}wartung/i
