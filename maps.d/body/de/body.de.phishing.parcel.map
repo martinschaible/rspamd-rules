@@ -11,9 +11,10 @@
 
 # Fee
 # ------------------------------------------------------------------------------
-/\d(\.|,)\d{2}.{1,10}zollgebühren wurden nicht bezahlt/iu
+/\d(\.|,)\d{2}.{1,10}\bgebühren wurden nicht bezahlt/iu
 
-/(betrag beträgt|gebühren|servicegebühr).{1,5}(1|2)(\.|,)\d{2}/iu
+/betrag beträgt.{1,5}(1|2)(\.|,)\d{2}/iu
+/bgebühr(en)?.{1,5}(1|2)(\.|,)\d{2}/iu
 
 /(fälliger|offener) betrag: \d(\.|,)\d{2}/iu
 
