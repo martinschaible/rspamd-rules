@@ -48,6 +48,8 @@
 /(bitcoin|btc|crypto).{0,10}bank.{0,10}breaker/i
 /(bitcoin|btc|crypto).{0,10}waiting for you/i
 
+/build(ing)?.{1,10}your.{1,10}online income/i
+
 # Form Spam
 # ------------------------------------------------------------------------------
 /\.com.{1,10}(binance|coinbase).{1,10}(btc|euro|usd)/i
@@ -155,6 +157,8 @@
 # ------------------------------------------------------------------------------
 /you to.{1,10}exclusive investment option/i
 /you want.{1,10}extra income/i
+
+/your.{1,10}online income stream/i
 
 # Z
 # ------------------------------------------------------------------------------

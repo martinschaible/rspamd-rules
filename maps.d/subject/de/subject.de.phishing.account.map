@@ -29,7 +29,8 @@
 # ------------------------------------------------------------------------------
 /aktivitäten vorübergehend geschlossen/iu
 
-/aktualisieren ihres.{1,15}(kontos|profils?)/i
+/aktualisieren.{1,10}ihres.{1,15}(kontos|profils?)/i
+/aktualisieren.{1,10}sie ihr.{1,15}(konto|profil)/i
 
 /aktualisierung.{1,10}(kontodaten|kontoinformationen|kontosicherheit)/i
 /aktualisierung.{1,10}zahlungsangaben/i
@@ -309,6 +310,8 @@
 # V
 # ------------------------------------------------------------------------------
 /verbindliches konto.?update/i
+
+/verhindern sie die kontosperrung/i
 
 /verifizierung ihrer (konto|profil).?daten/i
 /verifizierung ihrer kontakt.?daten/i
