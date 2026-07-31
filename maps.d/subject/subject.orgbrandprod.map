@@ -1,5 +1,16 @@
 # ==============================================================================
+# This is where company names, organization names or product names go.
 #
+# This is where entries go that do not fit into the categories
+# - Phishing
+# - Sales
+# - Regional files
+#
+# Scam and lottery would be appropriate categories.
+# And whatever else is left.
+# 
+# Allowed entries are: - Name of organisations, brands and products
+#                      - Masked entries are allowed
 #
 # ------------------------------------------------------------------------------
 # Language: english and german
@@ -33,9 +44,11 @@
 
 # F
 # ------------------------------------------------------------------------------
+/facebook 202\d/i
 
 # G
 # ------------------------------------------------------------------------------
+/google.{1,15}reward/i
 
 # H
 # ------------------------------------------------------------------------------
