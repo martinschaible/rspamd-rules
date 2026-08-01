@@ -1,5 +1,10 @@
 # ==============================================================================
+# This is about social and internet media in the broadest sense.
 #
+# We check for dubious deals such as:
+# - Measures to improve visibility for Instagram, for example
+# - Fake reviews
+# - Removing bad reviews
 #
 # ------------------------------------------------------------------------------
 # Language: english
@@ -18,8 +23,6 @@
 
 # A
 # ------------------------------------------------------------------------------
-/advertise.{1,10}to.{1,10}million.{1,10}e?.?mails/i
-
 /ai business team/i
 
 /available.{1,10}guest posts?/i
@@ -28,25 +31,15 @@
 # ------------------------------------------------------------------------------
 /blog content.{1,10}product review/i
 
-/(bulk|mass).{1,10}(advertising|marketing).{1,10}(e?.?mail|mailing).{1,10}service/i
-/(bulk|mass).{1,10}(advertising|marketing).{1,10}plan/i
-
-/(bulk|mass).{1,10}(e?.?mail|mailing|smtp).{1,15}marketing/i
-/(bulk|mass).{1,10}(e?.?mail|mailing|smtp).{1,15}(marketer|marketing)/i
-/(bulk|mass).{1,10}(e?.?mail|mailing|smtp).{1,15}(platform|provider)/i
-/(bulk|mass).{1,10}(e?.?mail|mailing|smtp).{1,15}sending/i
-/(bulk|mass).{1,10}(e?.?mail|mailing|smtp).{1,15}tools service/i
-
 /business.{1,10}that helps transform/i
 
-/buy traffic today/i
+/buy.{1,10}google reviews.{1,10}start/i
+/buy.{1,10}traffic today/i
 
 # C
 # ------------------------------------------------------------------------------
 /came across.{1,10}your instagram/i
 /came across.{1,20}\.(ch|com|de|org).{1,10}today.{1,10}looks good/i
-
-/campaigns on your behalf/i
 
 /crypto casino/i
 
@@ -55,13 +48,6 @@
 
 # E
 # ------------------------------------------------------------------------------
-/e?.?mail.?marketing.{1,10}(free|for you|works)/i
-/e?.?mail.?marketing.{1,10}service.{1,10}boost/i
-
-/(e?.?mail|smtp).{1,10}server.{1,20}database marketing/i
-
-/effortless.{1,10}bulk e?.?mail.?marketing/i
-
 /errors.{1,10}correspond with.{1,50}website traffic/i
 
 /expert.{1,10}guest blogger/i
@@ -71,8 +57,10 @@
 
 # G
 # ------------------------------------------------------------------------------
+/generate.{1,15}affiliate links/i
+
 /guest posts.{1,10}reputable websites/i
-/guest.?post.{1,10}services?/i
+/guest.?post(ing)?.{1,10}services?/i
 
 # H
 # ------------------------------------------------------------------------------
@@ -84,6 +72,8 @@
 /i accept only bitcoin/i
 
 /i will write.{1,20}guest.?posts/i
+
+/instagram followers.{1,10}limited offer/i
 
 # J
 # ------------------------------------------------------------------------------
@@ -104,8 +94,6 @@
 
 # O
 # ------------------------------------------------------------------------------
-/offer.{1,10}e?.?mail.{1,10}marketing/i
-
 
 # P
 # ------------------------------------------------------------------------------
@@ -117,6 +105,7 @@
 
 # R
 # ------------------------------------------------------------------------------
+/referral marketing is.{1,10}proven/i
 
 # S
 # ------------------------------------------------------------------------------
@@ -126,8 +115,11 @@
 
 /supercharge your.{1,10}(online|sales)/i
 
+/(seo|our) guest postings?/i
+
 /(specialize|specializing).{1,10}guest.?posts/i
 /(specialize|specializing).{1,10}link building/i
+/(specialize|specializing).{1,20}referral programs/i
 
 # T
 # ------------------------------------------------------------------------------
@@ -135,7 +127,6 @@
 
 # U
 # ------------------------------------------------------------------------------
-/unrestricted.{1,10}bulk (email|mailing)/i
 
 # V
 # ------------------------------------------------------------------------------
@@ -148,20 +139,20 @@
 /we.{1,10}help.{1,15}clients to reach new/i
 /we.{1,10}help.{1,10}companies identify/i
 /we.{1,10}help.{1,10}identify audiences/i
+/we.{1,10}help.{1,10}increase your.{1,10}visibility/i
 
 /we.{1,10}help (businesses|creators|organizations).{1,10}(establish|grow)/i
 
-/we.{1,10}offer(ing)?.{1,20}ai.?powered solution to fix them/i
-/we.{1,10}offer(ing)?.{1,20}bulk.{1,10}e?.?mailing tools/i
-/we.{1,10}offer(ing)?.{1,10}instagram followers/i
-
-/we.{1,10}send.{1,10}targeted.{1,10}(campaigns|e?.?mail)/i
+/we.{1,10}offer(ing)?.{1,20}ai.?powered.{1,10}solution to fix them/i
+/we.{1,10}offer(ing)?.{1,10}instagram.{1,10}followers/i
+/we{1,10}offer(ing)?.{1,10}likes.{1,10}followers/i
 
 /we.{1,10}specialize.{1,10}helping businesses/i
 /we.{1,10}specialize.{1,10}link.?building/i
 
 /we.{1,10}work on.{1,10}social media/i
 /we.{1,10}work with brands to help them/i
+
 
 # X
 # ------------------------------------------------------------------------------
@@ -171,6 +162,7 @@
 /you looking.{1,15}e?.?mail.?marketing/i
 
 /your.{1,10}digital presence could be optimized/i
+/your guest post price/i
 
 
 # Z
