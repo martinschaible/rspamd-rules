@@ -172,9 +172,10 @@
 /team!/i
 
 # Microsoft uses this
-/^(?!.*microsoft).*-team/i
-/^(?!.*somnovia).*-team/i
-/^(?!.*vinted).*-team/i
+# 01.08.26 - Disabled: negative lookahead is unreliable in this map context and caused false positives
+#/^(?!.*microsoft).*-team/i
+#/^(?!.*somnovia).*-team/i
+#/^(?!.*vinted).*-team/i
 
 /^tesla \($/i
 
