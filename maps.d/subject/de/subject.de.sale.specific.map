@@ -24,7 +24,10 @@
 
 /(btu|mobilen?|mobiles?).{1,15}klima.?(anlage|geräte?)/iu
 
+/(echtes?|hitze|lieferbar|sommerhit|ventilatoren).{1,15}klima.?(anlage|geräte?)/i
 /(sichern Sie sich|sommerhitze).{1,10}klima.?(anlage|geräte?)/iu
+
+/jetzt.{1,15}klima.?(anlage|geräte?).{1,10}kaufen/i
 
 # Cars (Not selling, buying your old car)
 # ------------------------------------------------------------------------------
@@ -234,12 +237,19 @@
 #
 /(werkstatt|werkzeug).{0,10}(trolley|wagen)/i
 
+/werkzeug.?(koffer|set).{1,15}(dramatisch|stark) reduziert/i
+/werkzeug.?(koffer|set).{1,15}(handwerker|schnäppchen|sonderpreis|unschlagbar|wartet)/iu
+/werkzeug.?(koffer|set).{1,10}(für \d{3}|jetzt nur)/i
 /werkzeug.?(koffer|set).{1,20}(für|mit|teilen)/i
+/werkzeug.?(koffer|set).{1,10}(trolley|wagen)/i
+/werkzeug.?(koffer|set).{1,10}\d{3,4} (teilen|teilig)/i
 /werkzeug.?(koffer|set).{1,20}jetzt sichern/i
 /werkzeug.?(koffer|set).{1,10}nur heute/i
+/werkzeug.?(koffer|set).{1,10}teile.{1,10}nur/i
 
 /werkzeuge?.{1,10}(aktion|highlight|power|sparpaket|upgrade)/i
 /werkzeuge?.{1,10}(klassiker|komplett)/i
+/werkzeuge?.{1,10}(die begeistern|komplettes set|schnäppchen)/i
 /werkzeuge?.{1,15}(für|fuer|nur) \d/i
 
 /werkstatt.{1,15}in profi.?qualität/iu

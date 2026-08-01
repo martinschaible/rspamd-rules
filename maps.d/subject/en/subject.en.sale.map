@@ -25,6 +25,7 @@
 /\d{3,5}.{1,10}global channels/i
 /\d(0|o).{0,5}reduction/i
 
+
 # Nonsense
 # ------------------------------------------------------------------------------
 /^\d (did|have) you/i
@@ -55,12 +56,16 @@
 /care for your.{1,10}dog/i
 
 /create your own.{1,15}girlfriend/i
+
+/cushion.{1,10}revolutionize/i
 /customize socks/i
 
 /compare low.?cost/i
 
 # D
 # ------------------------------------------------------------------------------
+/designer.{1,10}watches (for just|on sale|starting at)/i
+/discount.{1,10}designer.{1,10}watches/i
 
 # E
 # ------------------------------------------------------------------------------
@@ -200,6 +205,7 @@
 # ------------------------------------------------------------------------------
 /watch.{1,10}\d{3,4}.{1,10}channels worldwide/i
 /watch.{1,10}free.{1,10}sports live/i
+/watch(es)?.{1,10}on sale.{1,10}starting at/i
 
 # X
 # ------------------------------------------------------------------------------
