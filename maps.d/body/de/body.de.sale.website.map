@@ -22,6 +22,7 @@
 
 # B
 # ------------------------------------------------------------------------------
+/(bieten|bietet).{1,10}schnell.{1,10}professionelle?.{1,10}(home.?page|web.?site)?/i
 
 # C
 # ------------------------------------------------------------------------------
@@ -48,11 +49,17 @@
 
 # I
 # ------------------------------------------------------------------------------
-/ich biete kostengünstige website/iu
+/ich biete.{1,10}kostengünstige.{1,10}web.?site/iu
+/ich biete.{1,10}neue.{1,10}web.?site/i
+
 /ich habe mir ihre.{1,10}(home.?page|web.?site).{1,20}angesehen/i
 
 /ihnen.{1,10}ein angebot für ihre.{1,10}(home.?page|web.?site)/iu
 /ihnen.{1,10}(home.?page|web.?site).{1,10}entwurf.{1,10}schicken/i
+
+/ihnen eine.{1,20}(professionelle|schnelle).{1,20}(home.?page|web.?site)/i
+
+/ihre.{1,10}aktuelle.{1,15}(home.?page|web.?site) aktualisieren/i
 
 /ihre.{1,10}(home.?page|web.?site).{1,10}aussehen könnte/iu
 /ihre.{1,10}(home.?page|web.?site).{1,10}moderner/iu
@@ -107,6 +114,8 @@
 
 /sie interesse.{1,10}ihre.{1,15}(home.?page|web.?site)/i
 
+/suchen?.{1,10}sie.{1,15}(web.?seiten.?design|web.?design)/i
+
 # T
 # ------------------------------------------------------------------------------
 
@@ -120,6 +129,7 @@
 # W
 # ------------------------------------------------------------------------------
 /(home.?page|web.?site).{1,10}aktuell mit.{1,15}erstellt wurde/i
+/(home.?page|web.?site).{1,10}design.{1,10}entwicklungs.?dienste/i
 /(home.?page|web.?site).{1,15}kurz zusenden/i
 /(home.?page|web.?site).{1,10}erschwinglichen preis(en)?/i
 /(home.?page|web.?site).{1,10}erstellt.{1,10}gepflegt/i
@@ -130,15 +140,17 @@
 
 /webseite.{1,10}ohne kosten.{1,10}das design/i
 
-/wir haben uns gerade ihren.{1,15}online.?auftritt.{1,25}angesehen/i
+/wir haben ein.{1,10}professionelles team.{1,15}web(.?site)?.{1,20}(designer|entwickler)/i
+/wir haben uns.{1,10}ihren.{1,15}online.?auftritt.{1,25}angesehen/i
 
 /wir (entwickeln|konzipieren).{1,20}performance.{1,30}(home.?page|web.?site)/i
 /wir (entwickeln|konzipieren).{1,20}(home.?page|web.?site)/i
 
-/wir sind experten.{1,10}webdesign/i
+/wir sind ein.{1,10}(china|indien).{1,10}ansässige(r|s)/iu
+/wir sind ein.{1,10}(china|indien).{1,15}(it.?dienstleister|unternehmen|web.?site)/i
+/wir sind ein.{1,15}web.?site.?entwicklung/i
 
-/wir sind ein in.{1,10}(china|indien).{1,10}ansässige(r|s)/iu
-/wir sind ein in.{1,10}(china|indien).{1,15}(it.?dienstleister|unternehmen|web.?site)/i
+/wir sind.{1,10}experten.{1,10}webdesign/i
 /wir sind.{1,10}indisches unternehmen/i
 
 # X

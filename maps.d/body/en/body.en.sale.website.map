@@ -20,11 +20,13 @@
 # ------------------------------------------------------------------------------
 
 # B
+
 # ------------------------------------------------------------------------------
 
 # C
 # ------------------------------------------------------------------------------
-/i came across your website/i
+/came across your (web)?.?site/i
+/checked your.{1,15}(web)?.?site.{1,15}www.{1,25}and found/i
 
 /create.{1,10}modern.{1,10}responsive.{1,10}(web)?.?sites?/i
 
@@ -32,10 +34,9 @@
 
 # D
 # ------------------------------------------------------------------------------
-/development.{1,10}company based in/i
-/development.{1,10}service at a very.{1,15}cost/i
-
+/(developer|development).{1,10}company based in/i
 /(developer|development).{1,10}offering.{1,10}wide range/i
+/(developer|development).{1,10}service at a very.{1,15}cost/i
 /(developer|development).{1,10}with more than.{1,10}years of experience/i
 
 # E
@@ -52,17 +53,40 @@
 
 # H
 # ------------------------------------------------------------------------------
+/(homepage|web.?site).{1,10}businesses.{1,10}personal/i
+
+/(homepage|web.?site).{1,10}design(ing)?.{1,10}web.?development/i
+/(homepage|web.?site).{1,10}design.{1,10}(redesign|revamp)/i
+
+/(homepage|web.?site).{1,10}developer.{1,10}graphic designer/i
+/(homepage|web.?site).{1,10}development.{1,10}company.{1,10}india/i
+/(homepage|web.?site).{1,10}development.{1,10}custom/i
+/(homepage|web.?site).{1,10}development.{1,10}mobile app/i
+
+/(homepage|web.?site).{1,10}for your business/i
+/(homepage|web.?site).{1,10}kindly consider us/i
+/(homepage|web.?site).{1,10}message us/i
+/(homepage|web.?site).{1,10}(re)design.?services?/i
+/(homepage|web.?site).{1,10}want to improve/i
 
 # I
 # ------------------------------------------------------------------------------
-/(i.?a?m|we are).{1,10}indian?.{1,10}(based|development|web)/i
+/(i.?a?m|we are).{1,10}(expert|professional).{1,15}wordpress/i
+/(i.?a?m|we are).{1,15}professional web.?(designer|developer)/i
 
-/i.?a?m.{1,10}(expert|professional).{1,15}wordpress/i
-/i.?a?m.{1,15}professional web.?(designer|developer)/i
-/i.?a?m.{1,15}web.{0,10}development.{1,10}manager/i
-/i.?a?m.{1,15}web.{0,10}(designer|developer)/i
+/(i.?a?m|we are).{1,15}web.{0,10}development.{1,10}manager/i
+/(i.?a?m|we are).{1,15}web.{0,10}(designer|developer)/i
+
+/(i.?a?m|we are).{1,10}indian?.{1,10}(based|development|web)/i
+/(i.?a?m|we are).{1,10}(it|software development) company.{1,10}in india/i
 
 /improve your.{1,10}(web)?.?site.{1,10}performance/i
+
+/india.{1,10}based.{1,10}(web)?.?site.{1,15}(agency|design)/i
+/india.{1,10}having.{1,10}years.{1,10}working experience/i
+/india.{1,10}we design/i
+
+/interested.{1,10}outsourcing.{1,10}wordpress/i
 
 # J
 # ------------------------------------------------------------------------------
@@ -72,6 +96,7 @@
 
 # L
 # ------------------------------------------------------------------------------
+/leading.{1,10}service providers?.{1,10}india/i
 
 # M
 # ------------------------------------------------------------------------------
@@ -97,6 +122,7 @@
 
 # R
 # ------------------------------------------------------------------------------
+/recently.{1,10}explored your.{1,15}(web)?.?site/i
 /reliable.{1,10}creative.{1,10}(web)?.?site/i
 
 /(rebuilding|redesign|refurbish|revamp|repairing|upgrade).{1,10}modernizing your.{1,15}(web)?.?site/i
@@ -124,13 +150,23 @@
 # ------------------------------------------------------------------------------
 /wanted to say your.{1,15}(web)?.?site/i
 
+/web.{1,10}(design|development).{1,10}apps?.{1,20}development/i
+
+/web.{1,10}(design|development).{1,10}company.{1,10}offering/i
+/web.{1,10}(design|development).{1,10}company.{1,10}specialized in/i
+/web.{1,10}(design|development).{1,10}company.{1,10}with.{1,10}primary/i
+/web.{1,10}(design|development).{1,10}php.?development/i
+
 /we.{1,10}team from india/i
 /we.{1,10}india.?based.{1,10}development/i
 
 /we are.{1,15}helping.{1,15}(shops?|web.?sites?).{1,15}with/i
+/we are.{1,10}mobile.?apps.{1,10}(web)?.?site development/i
+/we are.{1,20}professional.{1,10}(web)?.?sites?/i 
 
 /we are.{1,20}web.?design.{1,15}(company|development)/i
-/we are.{1,20}professional.{1,10}(web)?.?sites?/i 
+/we are.{1,10}web.?(design|development).{1,20}(company|firm|team)/i
+/we are.{1,10}web.?site.{1,10}development.{1,10}design/i
 
 /we.{1,10}(build|create|design|develop|make|specialize).{1,20}(building|develop|responsive).{1,10}(web)?.?sites?/i 
 /we.{1,10}(build|create|design|develop|make|specialize).{1,20}crafting innovative/i
@@ -139,32 +175,30 @@
 /we.{1,10}(build|create|design|develop|make|specialize).{1,15}re.?design/i
 /we.{1,10}(build|create|design|develop|make|specialize).{1,15}responsive.{1,10}seo.?friendly/i
 
+/we.{1,10}can deliver.{1,10}quality.{1,10}wordpress/i
+
+/we.{1,10}have.{1,10}expertise.{1,10}developing.{1,10}(web)?.?site/i
+/we.{1,10}have.{1,15}professional.{1,10}team.{1,10}(web)?.?site/i
+/We.{1,10}have.{1,15}professional.{1,10}expert/i
+
 /(i|we).{1,10}offer.{1,10}expert.{1,10}(web)?.?site/i
 /(i|we).{1,10}offer.{1,10}(web.?design|(web)?.?site)/i
 
 /web.{1,10}mobile.?app.{1,10}development/i
 
-/(homepage|web.?site).{1,10}businesses.{1,10}personal/i
-/(homepage|web.?site).{1,10}design(ing)?.{1,10}web.?development/i
-/(homepage|web.?site).{1,10}design.{1,10}(redesign|revamp)/i
-
-/(homepage|web.?site).{1,10}developer.{1,10}graphic designer/i
-/(homepage|web.?site).{1,10}development.{1,10}custom/i
-/(homepage|web.?site).{1,10}development.{1,10}mobile app/i
-
-/(homepage|web.?site).{1,10}for your business/i
-/(homepage|web.?site).{1,10}kindly consider us/i
-/(homepage|web.?site).{1,10}message us/i
-/(homepage|web.?site).{1,10}(re)design.?services?/i
-/(homepage|web.?site).{1,10}want to improve/i
+/working with.{1,10}india.?based.{1,15}company/i
 
 # X
 # ------------------------------------------------------------------------------
 
 # Y
 # ------------------------------------------------------------------------------
+/years.{1,10}experience based.{1,10}india/i
+
 /you.{1,10}(interested|looking|considering).{1,10}(for|in).{1,10}(web)?.?site/i
+
 /you.{1,10}(looking|need|planning|want).{1,15}(create|make).{1,15}(business|new)?.{1,10}(web)?.?site/i
+/you.{1,10}(looking|need|planning|want).{1,10}experienced.{1,10}wordpress/i
 /you.{1,10}(looking|need|planning|want).{1,15}(new|quality).{1,15}(web)?.?site/i
 
 /your.{1,10}attention.{1,15}concerning issues regarding your.{1,25}(web)?.?site/i

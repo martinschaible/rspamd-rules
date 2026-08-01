@@ -35,13 +35,15 @@
 /benefit from.{1,10}mobile app/i
 
 /build(ing)?.{1,10}(applications?|apps?).{1,10}your.{1,10}requirements?/i
+/build(ing)?.{1,10}your.{1,10}mobile.?apps/i
 
 # C
 # ------------------------------------------------------------------------------
 
 # D
 # ------------------------------------------------------------------------------
-/like to discuss.{1,15}(applications?|apps?).{1,10}development/i
+/develop.{1,10}app for your.{1,10}business/i
+/develop.{1,10}your own mobile.?app(lication)?/i
 
 # E
 # ------------------------------------------------------------------------------
@@ -68,6 +70,7 @@
 # L
 # ------------------------------------------------------------------------------
 /launch.{1,10}mobile.?(applications?|apps?)/i
+/like to discuss.{1,15}(applications?|apps?).{1,10}development/i
 
 # M
 # ------------------------------------------------------------------------------
@@ -105,6 +108,13 @@
 
 # W
 # ------------------------------------------------------------------------------
+/we are.{1,20}(android|ios|mobile).?app{1,10}development/i
+/we are.{1,10}expert.{1,10}apps?/i
+/we are.{1,10}leading.{1,15}app.{1,10}development/i
+/we are.{1,10}one of the (best|fastest).{1,10}growing.{1,15}apps?/i
+/we are.{1,10}team.{1,10}professional.{1,10}(android|ios)/i
+/we are.{1,10}well.?versed.{1,10}mobile.?apps?/i
+
 /we.{1,10}(build|create|design|develop|make).{1,25}(applications?|apps?).{1,10}just/i
 /we.{1,10}(build|create|design|develop|make).{1,25}(android|ios)/i
 
@@ -120,9 +130,12 @@
 /we.{1,10}(build|create|design|develop|make).{1,15}your.{1,10}(applications?|apps?)/i
 
 /we.{1,10}have.{1,10}developed.{1,10}of.{1,10}(applications?|apps?)/i
+/we.{1,10}have.{1,15}(experience|expertise).{1,20}apps?/i
+
 /we.{1,10}help brands build/i
 
 /we.{1,10}(offer|specialize).{1,20}(applications?|apps?).?development/i
+/we.{1,10}work in.{1,15}(android|ios)/i
 
 # X
 # ------------------------------------------------------------------------------
@@ -132,6 +145,9 @@
 /you.{1,10}(considering|interested|looking|need|planning|thinking).{1,15}(applications?|apps?).{1,10}(android|ios|iphone)/i
 /you.{1,10}(considering|interested|looking|need|planning|thinking).{1,15}(about|for|in).{1,15}(android|ios|iphone|mobile)?.?(app|web)/i
 /you.{1,10}(considering|interested|looking|need|planning|thinking).{1,15}(build|create|creating|develop).{1,15}(android|ios|iphone|mobile)?.?(app|web)/i
+
+/your business.{1,15}app.{1,10}software/i
+/your business.{1,15}(android|ios|mobile)?.app/i
 
 /your.{1,10}mobile.?app.{1,10}requirement/i
 
