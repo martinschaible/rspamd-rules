@@ -1,0 +1,20 @@
+# ==============================================================================
+# This map file is not in use!
+#
+# Instead of deleting the rules, I'm saving them.
+# They might be needed again in the future.
+#
+# ==============================================================================
+
+# Plants
+# ------------------------------------------------------------------------------
+/(eleganz|lieferbar|pflegefreie|setzen sie auf|sparen).{1,15}kunstpflanzen/i
+
+/(bäume|palmen).{1,15}(sonderpreis|und mehr)/iu
+
+/(bäumen?|palmen|pflanzen).{1,10}mini.?preisen/i
+/(bäumen?|palmen|pflanzen).{1,15}(budget schonen|geld sparen|investition|sparwunder|vorteil)/i
+/(bäumen?|palmen|pflanzen).{1,15}radikalen? preisen?/i
+/(bäumen?|palmen|pflanzen).{1,15}warten auf Sie/i
+
+/sonderpreise auf.{1,15}(bäumen?|palmen|pflanzen)/i
