@@ -22,6 +22,7 @@
 
 /(affordable|looking for).{1,10}seo/i
 
+/attract more.{1,10}traffic/i
 /audit proposal/i
 
 # B
@@ -123,8 +124,10 @@
 /(improve|improving).{1,10}your ranking/i
 /(improve|improving).{1,10}your.{1,10}((home)?page|(web)?site).{1,10}visibility/i
 
-/increase local leads/i
-/increase your.{1,10}traffic/i
+/increase.{1,10}local leads/i
+/increase.{1,10}revenue.{1,10}profits/i
+/increase.{1,10}your.{1,10}business sells/i
+/increase.{1,10}your.{1,10}traffic/i
 
 # J
 # ------------------------------------------------------------------------------
@@ -145,8 +148,8 @@
 # ------------------------------------------------------------------------------
 /^more traffic$/i
 
-/more traffic.{1,10}revenue/i
-/more traffic.{1,10}your business/i
+/more.{1,10}traffic.{1,10}revenue/i
+/more.{1,10}traffic.{1,10}your.{1,10}business/i
 
 # N
 # ------------------------------------------------------------------------------
@@ -255,6 +258,7 @@
 /we manage.{1,10}seo/i
 
 /(web)?site.{1,10}rankings?/i
+/(web)?site.{1,10}traffic.{1,10}growth/i
 
 /with.{1,10}quality.?backlinks/i
 /with our.{1,10}seo/i

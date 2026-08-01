@@ -78,9 +78,12 @@
 # ------------------------------------------------------------------------------
 /(home.?page|web.?site).{1,5}create/i
 /(home.?page|web.?site).{1,10}creation.{1,10}(maintenance|update)/i
-/(home.?page|web.?site).{1,10}design(ing)?.{1,10}(development|help)/i
+/(home.?page|web.?site).{1,10}design(ing)?.{1,10}(development|help|re.?design)/i
 /(home.?page|web.?site).{1,10}design(ing)?.?!/i
+
+/(home.?page|web.?site).{1,10}development.{1,10}affordable prices/i
 /(home.?page|web.?site).{1,10}development.{1,10}(redesign|solutions?)/i
+
 /(home.?page|web.?site).{1,10}for \d{2}% off/i
 /(home.?page|web.?site).{1,10}maintenance contracts?/i
 /(home.?page|web.?site).{1,10}need.{1,10}update/i
@@ -212,6 +215,9 @@
 
 # Y
 # ------------------------------------------------------------------------------
+/you (need|want).{1,15}designing.{1,20}web.?site/i
+/you (need|want).{1,15}web.?site.{1,10}development/i
+
 /your.{1,10}(web)?.?site.?\?/i
 /your.{1,10}(web)?.?site!!/i
 

@@ -51,9 +51,12 @@
 
 # E
 # ------------------------------------------------------------------------------
+/(entfernen|löschen).{1,15}bewertungen/i
+/(entfernen|löschen).{1,10}bei google/i
 
 # F
 # ------------------------------------------------------------------------------
+/festpreis.{1,15}(je|pro) erfolg/i
 /frage zu google.?bewertungen/i
 
 # G
@@ -61,6 +64,7 @@
 /google street view.{1,15}(aufnahmen|standort)/i
 
 /google.{1,10}bewertungen/i
+/google.{1,10}festpreis/i
 /google.{1,10}profil.{1,10}aufgefallen sind/i
 
 # H

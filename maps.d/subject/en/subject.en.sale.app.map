@@ -19,11 +19,13 @@
 
 # A
 # ------------------------------------------------------------------------------
+/all type.{1,10}app.{1,10}develop(ment)?/i
 /an app\?/i
 
 /(agency|real estate|shoppping).{1,10}apps/i
 
 /(android|mobile|perfect).{1,10}apps?.{1,5}(development|service)/i
+
 
 /apps?.{1,10}affordable rates?/i
 
@@ -54,11 +56,13 @@
 #/(business|creat|creating).{1,10}apps?/i
 /(create|creating).{1,15}apps?/i
 /(create|creating).{1,10}any.{1,15}application/i
+/(create|regarding).{1,10}(mobile|an).{1,10}app/i
 
 /cost for apps?/i
 /cost of the re.?design/i
 
 /(ch|com|de|org)\..{1,10}into app/i
+
 # D
 # ------------------------------------------------------------------------------
 
@@ -96,8 +100,11 @@
 # M
 # ------------------------------------------------------------------------------
 /^mobile.?apps?$/i
-/mobile apps?.{1,10}(boost|business)/i
-/mobile apps?.{1,10}for you/i
+
+/mobile.?apps?.{1,10}(boost|business)/i
+/mobile.?apps?.{1,10}costing/i
+/mobile.?apps?.{1,10}for you/i
+
 /modify your.{1,10}apps/i
 
 # N
@@ -143,7 +150,8 @@
 
 # Y
 # ------------------------------------------------------------------------------
-/you need.{1,10}mobile.?app/i
+/you.{1,10}looking.{1,10}create.{1,10}mobile.?app/i
+/you.{1,10}need.{1,10}mobile.?app/i
 
 /your app ideas?/i
 /your own app/i
