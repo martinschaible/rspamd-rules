@@ -103,6 +103,8 @@
 
 # J
 # ------------------------------------------------------------------------------
+/jetzt aktualisieren.{1,10}sonst kein zugriff/i
+
 /jetzt.{1,10}kundendaten.{1,10}aktualisieren/i
 /jetzt.{1,10}(daten|konto|profil).{1,10}(aktualisieren|entsperren)/i
 /jetzt.{1,10}(daten|konto|profil).{1,10}(bestätigen|verifizieren)/iu

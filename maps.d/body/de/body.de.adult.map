@@ -135,6 +135,7 @@
 
 /dich auf.{1,10}(plattform|seite|website).{1,10}(sehen|treffen)/i
 /dich gerne.{1,10}kennen(zu)?lernen/i
+/dich mit.{1,15}frauen zusammen/i
 
 /direkter zugriff auf.{1,10}profile/i
 
@@ -156,8 +157,10 @@
 /(echten|harten).{1,10}(penis|schwanz)/i
 
 /eigene sex.?seite/i
+
 /ein echtes (date|treffen)/i
 /einfach nur ficken/i
+/entdecke neue.{1,10}bekanntschaften/i
 
 /erwarten dich.{1,10}auf dieser seite/i
 
@@ -446,7 +449,8 @@
 # ------------------------------------------------------------------------------
 /unbefriedigte frau/i
 
-/unsere.{1,10}(dating.?app|live.?cams?)/i
+/unsere.{1,10}live.?cams?/i
+/unsere.{1,10}dating.?(app|plattform)/i
 
 # V
 # ------------------------------------------------------------------------------

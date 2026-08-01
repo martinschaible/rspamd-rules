@@ -16,7 +16,8 @@
 
 /co.{1,5}(limited|ltd).{1,10}a trusted/i
 /co.{1,5}(limited|ltd).{1,10}tel: \+86/i
-/co.{1,5}(limited|ltd).{1,10}excited to introduce/i
+/co.{1,5}(limited|ltd).{1,15}(excited|export)/i
+/co.{1,5}(limited|ltd).{1,15}import/i
 /co.{1,5}(limited|ltd).{1,15}(manufacturer|professional|specialize|supplier)/i
 
 /co.{1,5}(limited|ltd).{1,10}is.{1,10}experienced/i
@@ -45,7 +46,7 @@
 /mold industrial.{1,10}co.{1,5}(limited|ltd)/i
 /(packaging|plastic|product|prototype).{1,10}co.{1,5}(limited|ltd)/i
 /recare.{1,10}co.{1,5}(limited|ltd)/i
-/supplies.{1,10}co.{1,5}(limited|ltd)/i
+/(supplies|supply chain).{1,10}co.{1,5}(limited|ltd)/i
 
 /this is.{1,15}from.{1,15}technology (limited|ltd)/i
 /this is.{1,25}co.{1,5}(limited|ltd)/i
