@@ -1,5 +1,10 @@
 # ==============================================================================
+# This is about social and internet media in the broadest sense.
 #
+# We check for dubious deals such as:
+# - Measures to improve visibility for Instagram, for example
+# - Fake reviews
+# - Removing bad reviews
 #
 # ------------------------------------------------------------------------------
 # Language: german
@@ -37,6 +42,11 @@
 
 /einträge.{1,10}rechtssicher.{1,10}dauerhaft entfernen/iu
 
+/(entfernen|entfernung).{1,10}rechtswidrigen.{1,20}sterne bewertungen/i
+/(entfernen|entfernung).{1,10}unfairen rezensionen.{1,10}erstellen/i
+
+/erreichen sie über.{1,15}unternehmen in/i
+
 # F
 # ------------------------------------------------------------------------------
 
@@ -51,10 +61,15 @@
 /ihnen.{1,10}garantierte bewertungen bietet/i
 
 /ihr unternehmen in der region.{1,25}(un)?sichtbar/i
+
 /ihre.{1,10}negativen.{1,10}google.?bewertungen/i
+/ihre.{1,10}sichtbarkeit in sozialen netzwerken zu erhöhen/iu
+
+/ihrem.{1,10}unternehmen ungerechtfertigte negative bewertungen.{1,10}google/i
 
 # J
 # ------------------------------------------------------------------------------
+/jede art.{1,15}google.?bewertung.{1,10}entfernen/i
 
 # K
 # ------------------------------------------------------------------------------
@@ -96,6 +111,9 @@
 
 # U
 # ------------------------------------------------------------------------------
+/ungerechtfertigte bewertungen.{1,10}hilfe unseres medienanwalts/i
+
+/unser zielgerichteter{1,10}marketing.?service/i
 
 # V
 # ------------------------------------------------------------------------------
@@ -104,8 +122,10 @@
 
 # W
 # ------------------------------------------------------------------------------
-/wir helfen unternehmen aus der region/i
-/wir übernehmen.{1,10}social.?media/iu
+/wir.{1,10}bieten.{1,10}(follower|likes)/i
+/wir.{1,10}helfen können.{1,10}ihre sichtbarkeit/iu
+/wir.{1,10}helfen unternehmen aus der region/i
+/wir.{1,10}übernehmen.{1,10}social.?media/iu
 
 # X
 # ------------------------------------------------------------------------------

@@ -47,7 +47,7 @@
 
 # C
 # ------------------------------------------------------------------------------
-/your website.{1,10}you have.{1,10}impressive/i
+/your (web)?.?site.{1,10}you have.{1,10}impressive/i
 
 # D
 # ------------------------------------------------------------------------------
@@ -68,44 +68,54 @@
 /greetings.{1,10}your search/i
 
 /google.{1,10}at.{1,10}low cost/i
+
 /google.{1,10}other major search engines/i
 /google.{1,10}reviewed.{1,10}your (web)?.?site/i
+
+/google.{1,10}we can help you/i
 /google.{1,10}we can optimize/i
 
 # H
 # ------------------------------------------------------------------------------
 /help you with.{1,10}seo/i
+/help (improve|increase).{1,15}your.{1,10}(rankings|seo)/i
 
 # I
 # ------------------------------------------------------------------------------
 /i.?a?.?m.{1,20}seo.?(consultant|expert|manager)/i
 
-/i came across your.{1,10}(web)?site and saw/i
+/i came across your.{1,10}(web)?.?site and saw/i
 /i found a number.{1,10}seo.{1,10}issues/i
 
-/improve.{1,15}rankings?.{1,10}(customer|leads|traffic)/i
-/improve your.{1,10}website.{1,10}visibility/i
+/(improve|increase).{1,15}rankings?.{1,10}(customer|leads|traffic)/i
+/(improve|increase).{1,15}search engine rankings/i
+/(improve|increase).{1,15}(web)?.?site.{1,10}visibility/i
 
 /(i|we).{1,10}can get your (web)?.?site/i
 
-/(i|we).{1,10}can help you attract.{1,10}visitors?/i
+/(i|we).{1,10}can help.{1,10}attract.{1,10}visitors?/i
 /(i|we).{1,10}can help.{1,10}seo/i
-/(i|we).{1,10}can help improve your rankings?/i
+/(i|we).{1,10}can help.{1,10}(improve|increase).{1,10}rankings?/i
 
 /(i|we).{1,10}help seo/i
 
-/(i|we).{1,10}(checked|explored) your.{1,10}(web.?)?site.{1,10}(found|noticed)/i
-/(i|we).{1,10}(came|went).{1,10}(across|through) your.{1,10}(web)?site.{1,10}(found|noticed)/i
+/(i|we).{1,10}(checked|explored) your.{1,10}(web)?.?site.{1,10}(found|noticed)/i
+/(i|we).{1,10}(came|went).{1,10}(across|through) your.{1,10}(web)?.?site.{1,10}(found|noticed)/i
 
-/(i|we).{1,10}have gone through your.{1,10}(web)?site/i
-/(i|we).{1,10}have studied your.{1,10}(web)?site/i
+/(i|we).{1,10}have gone through your.{1,10}(web)?.?site/i
+/(i|we).{1,10}have studied your.{1,10}(web)?.?site/i
 
-/(i|we).{1,10}visited your.{1,10}(web)?site www\./i
+/(i|we).{1,10}offer(ing)?.{1,10}range.{1,10}seo.?services/i
+/(i|we).{1,10}offer(ing)?.{1,10}(seo|search engine optimization)/i
 
-/i was.{1,10}(browsing|reviewing|visiting) your (web.?)?site.{1,25}it looks like/i
-/i was.{1,10}(browsing|reviewing|visiting) your (web.?)?site.{1,10}(found|noticed)/i
+/(i|we).{1,10}visited your.{1,10}(web)?.?site www\./i
+
+/i was.{1,10}(browsing|reviewing|visiting) your (web)?.?site.{1,25}it looks like/i
+/i was.{1,10}(browsing|reviewing|visiting) your (web)?.?site.{1,10}(found|noticed)/i
 
 /it.{1,10}not ranking on.{1,10}(bing|google|yahoo)/i
+
+/we.{1,10}boost.{1,10}seo.?ranking/i
 
 # J
 # ------------------------------------------------------------------------------
@@ -133,12 +143,13 @@
 
 # O
 # ------------------------------------------------------------------------------
-/observation on your website/i
+/observation on your (web)?.?site/i
 
 /on to the front page of.{1,10}(bing|google|yahoo)/i
 
-/our.{1,10}seo services/i
 /our.{1,10}(complete|comprehensive).{1,10}seo/i
+
+/our.{1,10}seo.{1,10}(feedbacks?|services?)/i
 /our.{1,10}services.{1,15}(include|on.?page).{1,15}seo/i
 
 # P
@@ -155,19 +166,24 @@
 # ------------------------------------------------------------------------------
 /rank higher.{1,10}get.{1,15}leads/i
 
-/rankings?.{1,10}our.{1,10}effective/i
-/rankings?.{1,10}issues on your.{1,10}(web)?site/i
+/rank(ing)?.{1,10}(bing|google|yahoo).{1,10}other/i
 
-/reviewed your.{1,10}(web)?site.{1,10}was impressed/i
+/rank(ing)?.{1,10}not good.{1,15}(bing|google|yahoo)/i
+/rank(ing)?.{1,10}issues on your.{1,10}(web)?site/i
+/rank(ing)?.{1,10}our.{1,10}effective/i
+/rank(ing)?.{1,10}your.{1,10}business.{1,10}(bing|google|yahoo)/i
+
+/reputed.{1,10}seo.?company/i
+/reviewed your.{1,10}(web)?.?site.{1,10}was impressed/i
 
 /run.{1,10}free seo/i
 
 # S
-/search.?engine.{1,10}came across your.{1,15}(web)?site/i
+/search.?engine.{1,10}came across your.{1,15}(web)?.?site/i
 
-/seo.{1,10}based.{1,10}(web)?site.{1,10}design/i
+/seo.{1,10}based.{1,10}(web)?.?site.{1,10}design/i
 /seo.{1,10}(bundle|success)/i
-/seo.{1,10}backlinks.{1,10}increase your (web)?site/i
+/seo.{1,10}backlinks.{1,10}increase your (web)?.?site/i
 
 /seo.{1,10}check now/i
 /seo.{1,15}could help/i
@@ -196,9 +212,9 @@
 /seo.{1,10}technical optimization/i
 
 /seo.{1,10}(web)?site.{1,10}design.{1,10}development/i
-/seo.{1,15}web.?design.{1,15}(web)?site/i
+/seo.{1,15}web.?design.{1,15}(web)?.?site/i
 
-/services.{1,10}seo.{1,10}website/i
+/services.{1,10}seo.{1,10}(web)?.?site/i
 
 /short.{1,10}seo.{1,10}report/i
 
@@ -221,6 +237,7 @@
 /we are.{1,10}seo.?agency/i
 
 /we can.{1,10}(promote|put|rank) your.{1,10}(web)?site/i
+
 /we can.{1,10}help you.{1,15}(rank higher|seo)/i
 /we can.{1,10}help get your.{1,10}(web)?site/i
 /we do.{1,10}seo for all/i
@@ -246,17 +263,32 @@
 
 # Y
 # ------------------------------------------------------------------------------
-/you aiming.{1,10}(1st|first).?page.{1,10}(bing|google|yahoo)/i
-/you like.{1,10}optimize your.{1,10}(web)?.?site/i
+/you.{1,10}1st.{1,10}page.{1,10}(bing|google|yahoo)/i
 
-/you have.{1,10}seo projects/i
-/you top positions.{1,10}low cost/i
-/you from getting.{1,10}traffic/i
+/you.{1,10}aiming.{1,10}(1st|first).?page.{1,10}(bing|google|yahoo)/i
+/you.{1,10}from getting.{1,10}traffic/i
+/you.{1,10}have.{1,10}seo projects/i
+/you.{1,10}like.{1,10}optimize your.{1,10}(web)?.?site/i
+
+/you.{1,10}looking.{1,10}boost your (web)?.?site/i
+/you.{1,10}looking.{1,10}for.{1,10}seo/i
+/you.{1,10}losing.{1,15}traffic.{1,10}sales/i
+
+/you.{1,10}need.{1,10}seo.{1,10}(packages?|services?)/i
+
+/you.{1,10}seo.?(packages?|proposal)/i
+/you.{1,10}top positions.{1,10}low cost/i
 
 /your.{1,10}search.?rankings?.{1,15}improvement/i
 
-/your business to the top of.{1,15}rankings/i
-/your online presence.{1,10}(bing|google|yahoo)/i
+/your.{1,10}business to the top of.{1,15}rankings/i
+/your.{1,10}business keywords/i
+/your.{1,10}business.{1,25}(web)?.?site.?traffic/i
+
+/your.{1,10}company.{1,10}position.{1,15}(bing|google|yahoo)/i
+/your.{1,10}(competitors|page.?rank).{1,15}(bing|google|yahoo)/i
+
+/your.{1,10}online presence.{1,10}(bing|google|yahoo)/i
 
 /your.{1,10}(web)?.?site.{1,10}(1st|first) page.?rank/i
 

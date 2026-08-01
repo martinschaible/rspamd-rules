@@ -31,6 +31,8 @@
 
 # B
 # ------------------------------------------------------------------------------
+/business.{1,10}contact.{1,10}details for only/i
+/business.{1,10}e?.?mail.{1,10}addresses across/i
 
 # C
 # ------------------------------------------------------------------------------
@@ -43,12 +45,24 @@
 /comprehensive.{1,10}contact.{1,10}company.{1,10}data/i
 /comprehensive.{1,10}dataset.{1,10}(companies|professionals)/i
 
-/contacts.{1,10}database covering.{1,15}europe/i
+/contacts?.{1,10}database covering.{1,15}europe/i
+
+/contacts?.{1,10}details.{1,10}from your industry/i
+/contacts?.{1,10}details.{1,10}verified e?.?mail/i
+
+/contacts?.{1,10}targeted.{1,10}database.{1,10}verified/i
 
 # D
 # ------------------------------------------------------------------------------
-/database includes.{1,15}(name|title).{1,10}business e?.?mail/i
-/database includes.{1,10}verified.{1,15}contacts/i
+/(database|list).{1,10}available.{1,15}your promotional/i
+/(database|list).{1,10}comes with.{1,10}unrestricted.{1,10}rights/i
+
+/(database|list).{1,10}includes.{1,10}contact information/i
+/(database|list).{1,10}includes.{1,15}(name|title).{1,10}business e?.?mail/i
+/(database|list).{1,10}includes.{1,10}verified.{1,15}contacts/i
+
+/(database|list).{1,10}targeted.{1,10}(business|residential)/i
+/(database|list).{1,10}top decision makers/i
 
 /decision.?maker.{1,10}contact lists?/i
 /discounted.{1,10}contact lists?/i
@@ -121,15 +135,16 @@
 /leads?.{1,10}feature.{1,10}you can automatically/i
 /leads?.{1,15}interested parties/i
 
-/list is available.{1,15}your promotional/i
-/list includes.{1,10}contact information/i
-/list comes with.{1,10}unrestricted.{1,10}rights/i
-
 /looking.{1,20}qualified leads/i
 
 # M
 # ------------------------------------------------------------------------------
+/millions?.{1,10}business database/i
+
 /millions?.{1,10}e?.?mails.{1,15}lowest price/i
+/millions?.{1,10}e?.?mails.{1,10}the lowest price/i
+
+/millions?.{1,10}usa?.{1,10}business contacts/i
 
 /mx tested e?.?mails/i
 
@@ -188,6 +203,7 @@
 /we are.{1,10}offering.{1,15}leads/i
 
 /we.{1,10}have.{1,15}access.{1,15}your target audience/i
+/we.{1,10}have.{1,20}datasets available/i
 /we.{1,10}have.{1,15}(compiled|curated).{1,20}(attendees?|contacts|registrants|visitors?)/i
 /we.{1,10}have.{1,15}sourced contact details/i
 /we.{1,10}have.{1,15}updated e?.?mail.?list of/i
@@ -231,9 +247,11 @@
 
 /you.{1,10}connect with.{1,15}decision.?makers/i
 /you.{1,10}counts.{1,10}samples/i
+/you.{1,10}high quality leads/i
 
 /you.{1,10}like to generate.{1,15}leads/i
 /you.{1,10}need.{1,10}(fresh|new).{1,10}leads/i
+/you.{1,15}(premium|quality).{1,15}leads/i
 
 /your.{1,10}business with.{1,10}leads/i
 
