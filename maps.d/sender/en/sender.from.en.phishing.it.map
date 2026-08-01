@@ -175,6 +175,8 @@
 
 # TLD at the end
 /system.?administrator.{0,10}\.[a-z]{1,4}$/i
+
+/system.{0,10}alert.{0,10}service/i
 /system.{0,10}report.?center/i
 
 /systems.?administrator/i

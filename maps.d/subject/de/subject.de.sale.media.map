@@ -114,7 +114,9 @@
 
 # R
 # ------------------------------------------------------------------------------
-/rezensionen.{1,10}google.?bewertung/i
+/rezension(en)?.{1,10}google.?bewertung/i
+/rezension(en)?.{1,10}ihrem unternehmensprofil/i
+
 /rufschädigung.{1,10}durch.{1,15}google.?bewertung/iu
 
 /(rückfrage|rückmeldung).{1,15}google.?bewertung/iu
