@@ -1,11 +1,10 @@
 # ==============================================================================
 # This is about social and internet media in the broadest sense.
+#
 # We check for dubious deals such as:
-# - Email lists for spamming
 # - Measures to improve visibility for Instagram, for example
 # - Fake reviews
 # - Removing bad reviews
-# - Leads
 #
 # ------------------------------------------------------------------------------
 # Language: english
@@ -38,8 +37,6 @@
 
 /boost.{1,10}your instagram/i
 
-/bulk.{1,10}mailing/i
-
 # C
 # ------------------------------------------------------------------------------
 
@@ -49,8 +46,6 @@
 
 # E
 # ------------------------------------------------------------------------------
-/e?.?mail.{1,10}sender.{1,10}fastest/i
-
 /(empower|enhance|make) your.{1,10}(brand|business)/i
 
 /exclusive.{1,10}guest posting/i
@@ -96,8 +91,6 @@
 /market entry.{1,10}built for/i
 /maximize.{1,10}sales.{1,10}(customer|engagement)/i
 
-/mx tested e?.?mails/i
-
 # N
 # ------------------------------------------------------------------------------
 
@@ -122,8 +115,6 @@
 
 # S
 # ------------------------------------------------------------------------------
-/send unlimited.{1,10}e?.?mails/i
-
 /social.?media.{1,10}management.{1,10}content.?creation/i
 /social.?media.{1,10}(boost|packages?|services?)/i
 
