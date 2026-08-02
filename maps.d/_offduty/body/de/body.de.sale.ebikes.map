@@ -1,13 +1,18 @@
 # ==============================================================================
 # This map file is not in use!
 #
-# Instead of deleting the rules, I'm saving them.
-# They might be needed again in the future.
-#
+# To keep the active map files as small and efficient as possible,
+# it makes sense to outsource older or no longer current rules.
+# 
+# ------------------------------------------------------------------------------
+# Language: german
+# Weight:   -
 # ==============================================================================
 
-# E-Bikes
+# E Bike, Scooter
 # ------------------------------------------------------------------------------
+# -> I think, this is scam
+
 /(neues|premium|unser).{1,15}(e.?bike|elektro.?moped)/i
 /eu.?konformes?.{1,10}(e.?bike|elektro.?moped)/i
 
