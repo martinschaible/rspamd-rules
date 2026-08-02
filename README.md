@@ -40,15 +40,13 @@ It's necessary to split existing map files into smaller ones. Sometimes, when an
 
 | Date     | File                                       | Reason                        |
 | -------- | -------------------------------------------| ----------------------------- |
-| 20.07.26 | multimap.conf                              | New map files added           |
+| 02.08.26 | multimap.conf                              | New map files added           |
 
 ## Content
 :point_right: All map files of the *first version* are stored in the folder `/etc/rspamd/maps.d/legacy`.<br>
 :point_right: The files of the *second edition* are stored in subfolders according to the topic.
 
 ----
-
->The document below, which lists the files and directories, will be revised shortly.
 
 ### Setup for "Base"
 
@@ -114,6 +112,7 @@ body
   │   ├─ body.href.ch.domain.name.map
   │   ├─ body.href.de.domain.name.map
   │   ├─ body.href.us.domain.name.map
+  │   │
   │   ├─ body.href.domain.name.pattern.map
   │   └─ body.href.url.path.orgbrandprod.map
   │
@@ -122,7 +121,7 @@ body
   │   ├─ body.de.greetings.map
   │   ├─ body.de.intros.map
   │   ├─ body.de.message.map
-  │   │    
+  │   │
   │   ├─ body.de.singleword.map
   │   ├─ body.de.singleword.special.map
   │   ├─ body.de.singleword.ucase.map
@@ -135,6 +134,7 @@ body
 header
   ├─ header.hostname.map
   ├─ header.ipaddress.map
+  │
   ├─ header.googlegroups.groupid.map
   └─ header.googlegroups.listpost.map
 
@@ -364,7 +364,7 @@ body
   │   ├─ body.de.sale.greetings.map
   │   ├─ body.de.sale.china.map
   │   ├─ body.de.sale.leads.map
-  │   ├─ body.de.sale.mailings.map                         **
+  │   ├─ body.de.sale.mailings.map
   │   ├─ body.de.sale.media.map
   │   ├─ body.de.sale.seo.map
   │   ├─ body.de.sale.specific.map
@@ -391,7 +391,7 @@ subject
   │   ├─ subject.de.sale.china.map
   │   ├─ subject.de.sale.greetings.map
   │   ├─ subject.de.sale.leads.map
-  │   ├─ subject.de.sale.mailings.map                      **
+  │   ├─ subject.de.sale.mailings.map
   │   ├─ subject.de.sale.media.map
   │   ├─ subject.de.sale.seo.map
   │   ├─ subject.de.sale.specific.map
