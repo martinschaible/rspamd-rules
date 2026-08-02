@@ -43,14 +43,16 @@
 
 # I
 # ------------------------------------------------------------------------------
-/ich ihnen in dieser angelegenheit vertrauen kann/i
-/ich in ihrem land investieren kann/i
+/ich.{1,10}geld in ihrem land investieren kann/i
+/ich.{1,10}ihnen in dieser angelegenheit vertrauen kann/i
+
+/ihnen einen.{1,20}investitionsvorschlag/i
+
 /ihre unterstützung (bei|für).{1,10}investition/iu
+/ihrem land.{1,10}investieren.{1,10}(die für sie|kontaktieren sie mich)/iu
 
-/ihrem land zu investieren.{1,10}(die für sie|kontaktieren sie mich)/iu
-
-/in ihrem land investieren.{1,10}kontaktieren sie mich/i
-/in ihrem land investieren möchte/iu
+/in (deinem|ihrem) land investieren (kann|möchte)/iu
+/in (deinem|ihrem) land in ein.{1,10}projekt investieren/i
 
 # J
 # ------------------------------------------------------------------------------
@@ -72,7 +74,8 @@
 
 # P
 # ------------------------------------------------------------------------------
-/projekte in ihrem land zu investieren/i
+/projekte?.{1,10}in ihrem land zu investieren/i
+/projekte?.{1,10}investieren.{1,10}gut kennst/i
 
 # Q
 # ------------------------------------------------------------------------------
@@ -82,6 +85,7 @@
 
 # S
 # ------------------------------------------------------------------------------
+/sie wegen einer.{1,15}(geschäfts|investitions).?summe/i
 
 # T
 # ------------------------------------------------------------------------------

@@ -18,6 +18,8 @@
 
 # A
 # ------------------------------------------------------------------------------
+/assist (me|us).{1,10}establishing.{1,15}investment/i
+/assist (me|us).{1,10}solution.{1,10}reliable.{1,10}investment/i
 
 # B
 # ------------------------------------------------------------------------------
@@ -25,6 +27,7 @@
 
 # C
 # ------------------------------------------------------------------------------
+/confidential.{1,10}investment.{1,10}partnership/i
 
 # D
 # ------------------------------------------------------------------------------
@@ -35,6 +38,7 @@
 
 # F
 # ------------------------------------------------------------------------------
+
 
 # G
 # ------------------------------------------------------------------------------
@@ -48,15 +52,37 @@
 # I
 # ------------------------------------------------------------------------------
 /i have.{1,15}(client|customer) who has money.{1,15}invest/i
-/i have funds for.{1,10}investment/i
-/i (like|want) to invest in your.{1,10}(company|country|location|nation)/i
-/i represent an investor/i
+/i have.{1,10}funds for.{1,10}investment/i
+
+/i have.{1,10}(investment|investor).{1,10}(like|want).{1,10}invest/i
+/i have.{1,10}(investment|investor).{1,10}(fund|opportunities)/i
+
+/i (like|want).{1,10}invest in.{1,10}legitimate fund/i
+/i (like|want).{1,10}invest in your.{1,10}(company|country|location|nation)/i
+
+/i represent.{1,15}(finance|investor)/i
+
+/important.{1,20}investment proposal/i
+
+/interest(ed)?.{1,10}investing.{1,10}your.{1,10}(company|country|location|nation)/i
+/interest(ed)?.{1,25}joint venture.{1,10}in your.{1,15}(country|nation)/i
+
+/inquiry.{1,10}investment/i
 
 /invest(ing)?.{1,10}funds through you/i
+/invest(ing)?.{1,10}your.{1,10}(company|country|location|nation).{1,10}as.{1,10}foreign partner/i
 
-/investment opportunity.{1,10}your.{1,10}(company|country|location|nation)/i
-/investment opportunity.{1,10}with you/i
+/investment.{1,10}opportunity.{1,20}your.{1,10}(company|country|location|nation)/i
+/investment.{1,10}opportunity.{1,10}with you/i
 
+/investment.{1,10}project.{1,20}your.{1,10}(company|country|location|nation)/i
+/investment.{1,10}proposition/i
+
+/investing.{1,10}your.{1,10}(company|country|location|nation).{1,15}contact me/i
+/investing.{1,10}your.{1,10}(company|country|location|nation).{1,20}your.{1,10}assistance/i
+
+/investors?.{1,10}invest in.{1,10}viable/i
+/investors?.{1,10}seek.{1,10}business.{1,10}opportunities/i
 
 # J
 # ------------------------------------------------------------------------------
@@ -66,9 +92,13 @@
 
 # L
 # ------------------------------------------------------------------------------
+/looking for.{1,10}partnership.{1,10}investment/i
+/lucrative.{1,10}investment.{1,10}project with you/i
 
 # M
 # ------------------------------------------------------------------------------
+/my need for assistance.{1,10}profiling.{1,20}(funds|investment)/i
+/my investment proposal/i
 
 # N
 # ------------------------------------------------------------------------------
@@ -86,6 +116,7 @@
 # R
 # ------------------------------------------------------------------------------
 /receiving.{1,10}investing.{1,10}money in any business of your/i
+/regarding.{1,10}potential.{1,10}investment.{1,10}opportunity/i
 
 # S
 # ------------------------------------------------------------------------------
@@ -102,13 +133,28 @@
 # W
 # ------------------------------------------------------------------------------
 /we are looking for foreign.{1,15}investment/i
-/we are a team of.{1,15}investment managers/i
+/we are a team of.{1,15}investment.{1,10}managers/i
+
+/we have an.{1,10}investor interested in you/i
 
 # X
 # ------------------------------------------------------------------------------
 
 # Y
 # ------------------------------------------------------------------------------
+/you.{1,10}about.{1,10}investment.{1,10}opportunity/i
+/you.{1,10}assist me.{1,10}invest/i
+/you.{1,10}help me invest.{1,10}funds/i
+/you.{1,10}regarding.{1,10}potential.{1,10}investment/i
+/you.{1,10}take a moment.{1,10}discuss.{1,10}investment/i
+/you.{1,10}that our client is willing to.{1,10}invest/i
+/you.{1,10}viable.{1,10}investment.{1,10}proposal/i
+
+/your available investment projects/i
+
+/your (country|location).{1,10}i can invest/i
+/your (country|location).{1,15}i can make.{1,10}investment/i
+
 /your willingness.{1,10}accept.{1,10}foreign investment/i
 
 # Z
