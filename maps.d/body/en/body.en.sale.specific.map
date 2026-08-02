@@ -39,6 +39,8 @@
 /\d{3,4}.{1,10}(live|worldwide).{1,10}channels/i
 /\d{3,4}.{1,10}movies.{1,10}series/i
 
+/ip.?tv premium.{1,10}year/i
+
 /(affordable|experience|premium|strong).{1,10}ip.?tv.{1,10}(service|streaming|subscription)/i
 
 /live channels.{1,10}movies.{1,10}series/i

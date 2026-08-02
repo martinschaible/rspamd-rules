@@ -32,7 +32,7 @@
 /memory.{0,10}notes/i
 /memory.{0,10}protection/i
 /memory.{0,10}(recovery|report|research|restoration|restore|rescue|revival|revive)/i
-/memory.{0,10}(saver|saving|secret|solution|strengthener|support)/i
+/memory.{0,10}(saver|saving|secret|slips|solution|strengthener|support)/i
 /memory.{0,10}(tonic|toxin)/i
 /memory.{0,10}update/i
 /memory.{0,10}vitamins?/i
@@ -1270,7 +1270,9 @@
 /spine.{0,10}(hack|health)/i
 /spinal.{0,10}pain/i
 
-/stay.{0,10}(asleep|fit$|hard|regular|trim)/i
+/stay.{0,10}(active|asleep)/i
+/stay.{0,10}(fit$|hard|regular|trim)/i
+
 /steady.{0,10}(slim|steady|steps)/i
 
 /stiff.{0,10}(joints|knees|painful|shoulder)/i

@@ -47,7 +47,11 @@
 /i p-tv/i
 /i p t v/i
 
-/(best|free|mega|nex.?|unlimited|value).?ip.?tv/i
+/(best|free|unlimited|value).?ip.?tv/i
+/(mega||my|nex.?).?ip.?tv/i
+
+/myptv5/i
+
 /unlimited.{0,10}tv/i
 
 # Replicas
