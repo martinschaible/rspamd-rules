@@ -162,6 +162,8 @@
 # ------------------------------------------------------------------------------
 /(durham|european|luxury|social|student|thai).{0,10}(housing|pods|property|residency|resort)/i
 
+/small.?cap/i
+
 /smart.{0,10}(income|invest|money)/i
 
 /swiss.?banking/i
