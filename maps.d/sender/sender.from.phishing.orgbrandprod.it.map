@@ -64,12 +64,13 @@
 /(chatgpt|open.?ai).{0,10}(abonnement|account)/i
 /(chatgpt|open.?ai).{0,10}(betreuung|billing)/i
 /(chatgpt|open.?ai).{0,5}(customer|company)/i
-/(chatgpt|open.?ai).{0,10}dienst/i
+/(chatgpt|open.?ai).{0,10}(dienst|digital)/i
 /(chatgpt|open.?ai).{0,10}(hilfe|hinweis)/i
 /(chatgpt|open.?ai).{0,5}ireland/i
 /(chatgpt|open.?ai).{0,10}(kundenservice|kontakt|konto)/i
 /(chatgpt|open.?ai).{0,5}mitgliederverwaltung/i
 /(chatgpt|open.?ai).{0,5}notifications?/i
+/(chatgpt|open.?ai).{0,5}online/i
 /(chatgpt|open.?ai).{0,10}(payments|premium)/i
 /(chatgpt|open.?ai).{0,15}(services?|serviceportal|subscriptions?|support)/i
 /(chatgpt|open.?ai).{0,20}(team|tech)/i

@@ -177,7 +177,10 @@
 
 /(konto|profil).{1,10}(abgelaufen|eingeschränkt)/iu
 /(konto|profil).{0,15}(aktualisierung|update|überprüfung) erforderlich/iu
-/(konto|profil).{1,10}benötigt eine?.{1,10}(aktualisierung|sicherheitsupdate)/iu
+
+/(konto|profil).{1,10}benötigt ein.{1,10}(sicherheits)?update/iu
+/(konto|profil).{1,10}benötigt eine?.{1,10}aktualisierung/iu
+
 /(konto|profil).{1,10}eingeschränkt.{1,10}id/i
 /(konto|profil).{1,10}einschränken in/i
 /(konto|profil).{1,10}erfordert eine.{1,15}ihrerseits/iu
@@ -233,6 +236,7 @@
 # ------------------------------------------------------------------------------
 /nachricht zur sicherheit ihres.{1,15}(kontos|profils)/i
 
+/neue.{1,15}richtlinien.{1,10}ihr.{1,15}(konto|profil)/i
 /nicht verifizierte.{1,15}(konten|profile) werden.{1,20}gesperrt/i
 
 # O
