@@ -43,6 +43,8 @@
 # ------------------------------------------------------------------------------
 /abgleich ihrer mobilfunknummer/i
 
+/abzuschliessen.{1,10}ihr(en)?.{1,20}wieder nutzen zu können/iu
+
 /(adresse|adressangaben).{1,10}bestätigen.{1,10}für eine sendung im auftrag der/iu
 /(adresse|adressangaben).{1,20}unser kundenportal.{1,10}aktualisieren/iu
 
@@ -297,4 +299,4 @@
 /zugesandt.{1,10}ihr system zu aktualisieren/i
 
 /zugang prüfen.{1,10}freigeben/iu
-/zugang vorübergehend eingeschränkt wurde/iu
+/zugang vorübergehend (deaktiviert|eingeschränkt) wurde/iu
