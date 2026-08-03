@@ -37,6 +37,7 @@
 /deblt lnf0/i
 /0rder details/i
 
+
 #
 #
 #
@@ -57,8 +58,9 @@
 
 /(brochure|catalog|catalogue).{1,10}price list.{1,10}inform us about/i
 /(brochure|catalog|catalogue).{1,10}price list.{1,10}payment (method|terms)/i
+/(brochure|catalog|catalogue).{1,10}product.{1,20}price details/i
 
-/(brochure|catalog|catalogue).{1,10}your company products/i
+/(brochure|catalog|catalogue).{1,10}your.{1,10}(company|organization) products/i
 
 # C
 # ------------------------------------------------------------------------------
@@ -66,7 +68,9 @@
 
 /catalog is of interest.{1,10}contact us/i
 
-/company.{1,20}(contractor|vendor).{1,20}partnership/i
+/(co|ltd|company).{1,15}we are interested in your.{1,15}products?/i
+
+/(company|organization).{1,20}(contractor|vendor).{1,20}partnership/i
 
 # D
 # ------------------------------------------------------------------------------
@@ -74,13 +78,16 @@
 
 /download.{1,10}(purchase.?order|po_)/i
 
+/draft bl for po/i
+
 # E
 # ------------------------------------------------------------------------------
-/esteemed company to vendor/i
+/email me your.{1,15}(company|organization).{1,15}(brochure|catalog|catalogue)/i
+/esteemed.{1,15}(company|organization) to vendor/i
 
 # F
 # ------------------------------------------------------------------------------
-/following up.{1,10}regarding your company/i
+/following up.{1,10}regarding your.{1,15}(company|organization)/i
 
 # G
 # ------------------------------------------------------------------------------
@@ -91,15 +98,30 @@
 
 # I
 # ------------------------------------------------------------------------------
-/i would like.{1,10}receive your.{1,10}price.?list/i
+/(i|we) will need your.{1,10}(brochure|catalog|catalogue)/i
+/(i|we) would like.{1,10}discuss placing an.{1,10}order/i
+/(i|we) would like.{1,10}have.{1,20}your.{1,10}(brochure|catalog|catalogue)/i
+/(i|we) would like.{1,10}receive your.{1,10}price.?list/i
 
-/invitation.{1,10}your company to supply us/i
+/(items?|offerings?|products?).{1,15}caught our attention/i
+/(items?|offerings?|products?).{1,15}start a conversation/i
+/(items?|offerings?|products?).{1,15}whatsapp below/i
+/(items?|offerings?|products?).{1,15}we can be reached on/i
+/(items?|offerings?|products?).{1,15}you can message us/i
+
+/inventory.{1,10}start.{1,10}conversation with us/i
+/invitation.{1,10}your.{1,15}(company|organization).{1,10}supply us/i
+
+/invite you to register as.{1,10}vendor/i
+/invite your.{1,10}esteemed.{1,15}(company|organization).{1,10}participate/i
+/invite your.{1,15}(company|organization).{1,10}to bid/i
 
 # J
 # ------------------------------------------------------------------------------
 
 # K
 # ------------------------------------------------------------------------------
+/know more about your products.{1,10}your.{1,15}(company|organization)/i
 
 # L
 # ------------------------------------------------------------------------------
@@ -108,34 +130,30 @@
 
 # M
 # ------------------------------------------------------------------------------
-/(my|our).{1,10}company is currently in need of.{1,10}sourcing/i
+/(my|our).{1,15}(company|organization).{1,10}currently in need of.{1,10}sourcing/i
 
 # N
 # ------------------------------------------------------------------------------
 
 # O
 # ------------------------------------------------------------------------------
+/order.{1,10}large quantity.{1,10}your products/i
+
+/open tender for supply.{1,10}your.{1,15}products/i
 /our web.?portal is.{1,10}purchase order/i
 
 # P
 # ------------------------------------------------------------------------------
+/pi for.{1,10}attached po/i
+/po attached.{1,10}best regards/i
+
 /(pricing|prices|price.?list).{1,15}(could you deliver|drop it|with me.{1,10}provide it)/i
+
+/product along with your.{1,15}(brochure|catalog|catalogue)/i
 
 /provide us.{1,15}(brochure|catalog|catalogue).{1,10}of your products/i
 /provide us.{1,15}(brochure|catalog|catalogue).{1,10}data.?sheet for approval/i
 /provide us.{1,15}(brochure|catalog|catalogue).{1,10}price list/i
-
-/inventory.{1,10}start.{1,10}conversation with us/i
-
-/invite you to register as.{1,10}vendor/i
-/invite your esteemed company.{1,10}participate/i
-/invite your.{1,15}(company|organization).{1,10}to bid/i
-
-/(items?|offerings?|products?).{1,15}caught our attention/i
-/(items?|offerings?|products?).{1,15}start a conversation/i
-/(items?|offerings?|products?).{1,15}whatsapp below/i
-/(items?|offerings?|products?).{1,15}we can be reached on/i
-/(items?|offerings?|products?).{1,15}you can message us/i
 
 /products details.{1,15}(brochure|catalog|catalogue).{1,10}link/i
 
@@ -145,6 +163,8 @@
 
 # R
 # ------------------------------------------------------------------------------
+/register as.{1,10}potential.{1,15}vendor/i
+/reply.{1,10}your product.{1,10}(brochure|catalog|catalogue)/i
 /request.{1,15}(brochure|catalog|catalogue)/i
 
 /review.{1,10}attached.{1,10}quotation/i
@@ -152,13 +172,27 @@
 # S
 # ------------------------------------------------------------------------------
 /send.{1,10}copy of your.{1,15}(brochure|catalog|catalogue)/i
+
+/send.{1,10}official quotation.{1,10}price/i
+/send.{1,10}price.?list.{1,10}products.?pictures via/i
+/send.{1,10}pictures.{1,15}(brochure|catalog|catalogue).{1,20}price.?list/i
+
 /send.{1,10}through e?.?mail.{1,10}your.{1,15}(brochure|catalog|catalogue)/i
-/send.{1,10}your (current|latest|newest).{1,15}(brochure|catalog|catalogue)/i
+
+/send.{1,10}(me|us).{1,10}(brochure|catalog|catalogue) of your.{1,10}products/i
+/send.{1,10}(me|us).{1,10}your.{1,10}(brochure|catalog|catalogue).{1,10}price.?list/i
+/send.{1,10}(me|us).{1,10}your.{1,10}company.{1,15}(brochure|catalog|catalogue|price.?list)/i
+/send.{1,10}(me|us).{1,10}your.{1,10}product.{1,10}(brochure|catalog|catalogue|price.?list)/i
 
 /send.{1,10}your.{1,15}(brochure|catalog|catalogue).{1,10}company profile/i
 /send.{1,10}your.{1,15}(brochure|catalog|catalogue).{1,10}e?.?mail urgently/i
 /send.{1,10}your.{1,15}(brochure|catalog|catalogue).{1,10}through e?.?mail/i
 /send.{1,10}your.{1,15}(brochure|catalog|catalogue).{1,10}that we can place/i
+
+/send.{1,10}your.{1,10}(current|latest|newest).{1,15}(brochure|catalog|catalogue)/i
+
+/share with us your.{1,15}(brochure|catalog|catalogue)/i
+/share your product.{1,15}(brochure|catalog|catalogue)/i
 
 /suppliers?.{1,10}hit us up on/i
 
@@ -167,6 +201,7 @@
 
 # U
 # ------------------------------------------------------------------------------
+/updating.{1,10}supplier database with the aim/i
 
 # V
 # ------------------------------------------------------------------------------
@@ -175,10 +210,17 @@
 
 # W
 # ------------------------------------------------------------------------------
+/we are.{1,10}currently.{1,10}in need.{1,15}products/i
+
+/we are.{1,10}interested.{1,10}buying your products/i
 /we are.{1,10}interested.{1,10}establishing.{1,10}business relations/i
 /we are.{1,10}interested.{1,10}collaborating.{1,10}with your.{1,10}company/i
 /we are.{1,10}interested.{1,10}obtaining.{1,10}quotation/i
+
 /we are.{1,10}interested.{1,10}your product range/i
+/we are.{1,10}interested.{1,10}your products.{1,15}your.{1,10}web.?site/i
+/we are.{1,10}interested.{1,10}your products.{1,15}you to get back/i
+
 /we are.{1,10}open.{1,10}cooperation across a wide/i
 
 /we have reviewed your.{1,10}website directory/i
@@ -193,21 +235,55 @@
 
 # Y
 # ------------------------------------------------------------------------------
-/you may contact us.{1,10}whatsapp/i
-/you send us your.{1,15}price.?list/i
-/you supply.{1,10}your product.{1,10}in large quantities/i
+/you.{1,10}exported to.{1,10}before/i
+/you.{1,10}have.{1,10}companies interested in your product/i
+/you.{1,10}linkedin.{1,10}am a (buyer|seller)/i
+/you.{1,10}participate.{1,25}tender for the supply/i
+/you.{1,10}received.{1,5}new order/i
 
-/you to submit.{1,10}tender quotation/i
+/you.{1,10}send us your.{1,15}price.?list/i
+/you.{1,10}submit.{1,10}tender quotation/i
+/you.{1,10}supply.{1,10}your product.{1,10}in large quantities/i
+
+/your.{1,15}(brochure|catalog|catalogue).{1,10}product.{1,10}(brochure|catalog|catalogue)/i
+/your.{1,15}(brochure|catalog|catalogue).{1,10}quotation/i
+/your.{1,15}(brochure|catalog|catalogue).{1,10}to learn more about your products/i
+
+/your.{1,15}(brochure|catalog|catalogue).{1,10}we can (discuss|select)/i
+/your.{1,15}(brochure|catalog|catalogue).{1,10}we can learn.{1,15}your products/i
+/your.{1,15}(brochure|catalog|catalogue).{1,10}web.?site link/i
+/your.{1,15}(brochure|catalog|catalogue).{1,10}with the best price/i
+
+/your (brochure|catalog|catalogue).{1,10}price.?list.{1,10}(as soon as possible|for an urgent)/i
 
 /your.{1,15}best price for the.{1,10}products/i
 
+/your.{1,15}(company|organization).{1,15}(brochure|catalog|catalogue).{1,15}our reference/i
+/your.{1,15}(company|organization).{1,15}(brochure|catalog|catalogue).{1,15}price list.{1,15}help us/i
+/your.{1,15}(company|organization).{1,15}(brochure|catalog|catalogue).{1,15}pricing information/i
+/your.{1,15}(company|organization).{1,15}(brochure|catalog|catalogue).{1,15}your.{1,10}price.?list/i
+/your.{1,15}(company|organization).{1,15}(brochure|catalog|catalogue).{1,15}with your best price/i
+
+/your.{1,15}(company|organization).{1,10}(product|recent).{1,10}(brochure|catalog|catalogue).{1,10}prices?/i
+
 /your.{1,15}(company|organization).{1,10}to register as a vendor/i
 /your.{1,15}(company|organization).{1,10}participate in our supplier/i
-/your.{1,10}(company|organization).{1,10}product catalogue/i
+
+/your.{1,15}(company|organization).{1,10}partake.{1,10}vendor/i
+/your.{1,15}(company|organization).{1,10}participate.{1,45}vendors?.{1,10}registration/i
+
+/your.{1,10}(company|organization).{1,10}product (brochure|catalog|catalogue)/i
+/your.{1,15}(company|organization).{1,10}product.{1,10}could you ship to/i
 /your.{1,10}(company|organization).{1,10}profile.{1,10}products/i
+
+/your.{1,15}(company|organization).{1,10}register.{1,10}potential.{1,10}suppliers?/i
+/your.{1,15}(company|organization).{1,10}supply us with.{1,10}attached.{1,10}product/i
+
+/your.{1,15}(company|organization).{1,10}to bid for.{1,15}(tender|urgent)/i
 /your.{1,15}(company|organization).{1,10}to sign up/i
 /your.{1,15}(company|organization).{1,10}vendor?.{1,10}registration/i
-/your.{1,15}(company|organization).{1,10}to bid for.{1,15}(tender|urgent)/i
+/your.{1,15}(company|organization).{1,15}we want to.{1,15}your products/i
+/your.{1,15}(company|organization).{1,15}we are.{1,15}interested.{1,15}your products/i
 
 /your.{1,10}most recent.{1,10}(brochure|catalog|catalogue)/i
 /your.{1,15}website.{1,10}were genuinely impressed/i
@@ -215,8 +291,15 @@
 /your.{1,10}pricing.{1,10}(brochure|catalog|catalogue) on our/i
 
 /your.{1,10}(prices|price.?list).{1,10}(available|whatsapp)/i
+/your.{1,10}(prices|price.?list).{1,10}comprehensive details/i
 
-/your.{1,10}products are needed in.{1,10}large quantities/i
+/your.{1,10}products?.{1,10}are needed in.{1,10}large quantities/i
+/your.{1,10}products?.{1,10}(price|product)s?.{1,10}(brochure|catalog|catalogue)/i
+/your.{1,10}products?.{1,10}please.{1,10}send the us/i
+/your.{1,15}products?.{1,10}the government of/i
+
+/your website.{1,10}our.{1,15}(company|organization).{1,10}interested in your products?/i
+/your website.{1,10}we like to purchase your products?/i
 
 # Z
 # ------------------------------------------------------------------------------

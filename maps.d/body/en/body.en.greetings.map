@@ -320,11 +320,12 @@
 /(hello|hi).{1,10}this is mrs?/i
 /(hello|hi).{1,10}to the.{1,25}owner/i
 
-/(hello|hi).{1,5}we are interested in your products/i
+/(hello|hi).{1,5}we are interested in your.{1,10}products/i
 /(hello|hi).{1,5}we would like to present/i
 /(hello|hi).{1,5}we mainly produce/i
 /(hello|hi).{1,5}we need your products/i
 /(hello|hi).{1,5}we offer a solution for/i
+/(hello|hi).{1,5}we want to order your.{1,10}products/i
 
 /hi \[first.?name\]/i
 /hi user.{1,10}you have requested/i
