@@ -29,6 +29,10 @@
 
 /jetzt.{1,15}klima.?(anlage|geräte?).{1,10}kaufen/i
 
+# Ventilator
+# ------------------------------------------------------------------------------
+/(stand)?ventilator.{1,10}kraftvoll.{1,10}leise/i
+
 # Cars (Not selling, buying your old car)
 # ------------------------------------------------------------------------------
 /ankauf.{1,10}fahrzeugen?/i

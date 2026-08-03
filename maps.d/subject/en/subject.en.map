@@ -117,7 +117,7 @@
 /please reply for.{1,10}(details|more)/i
 /please reply me/i
 
-/^pls respond$/i
+/^.?pls respond.?$/i
 
 /(private|strictly|urgent).{1,10}confidential/i
 

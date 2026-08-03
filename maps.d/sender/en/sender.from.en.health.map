@@ -490,7 +490,10 @@
 
 /carb.{0,10}(control|fix|secrets?|tricks?)/i
 /cardiac.{0,10}(clock|health|insights?)/i
-/cardio(logy)?.{0,10}(boost|care|coach|discovery|health|insights|kitchen|wellness)/i
+
+/cardio(logy)?.{0,10}(boost|discovery|health|insights|kitchen|strength|wellness)/i
+/cardio(logy)?.{0,10}(care|coach)/i
+
 /care.{0,10}secret/i
 /cartilage.{0,10}care/i
 
@@ -1354,9 +1357,9 @@
 
 /top.{0,10}(experts?|fruits?|medication)/i
 
-/toxic.{0,10}(food|fruits?)/i
-/toxic.{0,10}(ingredient|liquid|milk|mineral|veggies)/i
-/toxin.{0,10}(destroyer|flush|mineral|protein|removal|watch)/i
+/(toxic|toxin).{0,10}(food|fruits?)/i
+/(toxic|toxin).{0,10}(ingredient|liquid|milk|mineral|veggies)/i
+/(toxic|toxin).{0,10}(destroyer|flush|mineral|protein|removal|watch)/i
 
 /trapped.{0,10}toxins/i
 /trick.{0,10}revealed/i
