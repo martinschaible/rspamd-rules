@@ -163,6 +163,8 @@
 /better.{1,10}than ibuprofen/i
 /better.{1,10}than.{1,10}(hearing|retinol)/i
 
+/before.{1,20}try this/i
+
 /beware of these.{1,10}fruits/i
 
 /big o$/i
@@ -280,7 +282,8 @@
 
 # D
 # ------------------------------------------------------------------------------
-/(damaging|detox(es)?|upsetting).{1,10}your (gut|memory)/i
+/(detox(es)?|upsetting).{1,10}your.{1,10}(brain|gut|memory)/i
+/(damaging|damages).{1,10}your.{1,10}(brain|gut|memory)/i
 
 /(dangerous|dark side).{1,10}(fruits?|veggies)/i
 /dark spots.{1,10}aging/i
