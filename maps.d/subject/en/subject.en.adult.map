@@ -116,8 +116,8 @@
 /want to meet/i
 /want you in.{1,10}bed/i
 
-/woman are in your area/i
-/woman in \d min(utes)?/i
+/woman.{1,10}in your area/i
+/woman.{1,10}in \d min(utes)?/i
 
 # X
 # ------------------------------------------------------------------------------
