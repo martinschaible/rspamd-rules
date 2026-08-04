@@ -90,6 +90,7 @@
 
 /(home.?page|web.?site).{1,10}re.?(build|design)(ing)?/i
 /(home.?page|web.?site).{1,10}(re.?make|renew|revamping)/i
+/(home.?page|web.?site).{1,10}review.{1,10}growth/i
 
 /(home.?page|web.?site).{1,10}(overhaul|quotation|upgrade|upgrading)/i
 /(home.?page|web.?site).{1,20}should be driving/i
@@ -143,6 +144,7 @@
 # ------------------------------------------------------------------------------
 /potential with our.{1,10}expertise/i
 
+/professional.{1,10}(homepage|web.?site).{1,10}review/i
 /proposal.{1,10}(design|develop|re.?built)/i
 
 /(php|shopify|wordpress).{1,15}experts at/i
@@ -163,7 +165,7 @@
 
 /^re.?designing$/i
 
-/(redo\b|re.?build|re.?make|re.?vamping|re.?vising).{1,10}(homepage|web.?site)/i
+/(redo\b|re.?build|re.?make|re.?vamping|re.?vising).{1,10}(home.?page|web.?site)/i
 
 /revamp.{1,10}www/i
 
@@ -179,17 +181,17 @@
 
 # U
 # ------------------------------------------------------------------------------
-/((re)?.?build|refresh|remake|unleash|update|upgrade).{1,10}(current|existing).{1,10}(homepage|web.?site)/i
-/((re)?.?build|refresh|remake|unleash|update|upgrade).{1,10}your.{1,10}(homepage|web.?site)/i
+/((re)?.?build|refresh|remake|unleash|update|upgrade).{1,10}(current|existing).{1,10}(home.?page|web.?site)/i
+/((re)?.?build|refresh|remake|unleash|update|upgrade).{1,10}your.{1,10}(home.?page|web.?site)/i
 
-/unlock your.{1,10}(homepage|web.?site) potential/i
+/unlock your.{1,10}(home.?page|web.?site) potential/i
 
 # V
 # ------------------------------------------------------------------------------
 
 # W
 # ------------------------------------------------------------------------------
-/want.{1,10}fresh.{1,10}(homepage|web.?site)/i
+/want.{1,10}fresh.{1,10}(home.?page|web.?site)/i
 
 /we specialize in.{1,20}(agile|development|support)/i
 /we are.{1,10}(developer|web.?design)/i

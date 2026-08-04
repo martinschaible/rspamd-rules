@@ -35,6 +35,7 @@
 /(enterprise|equipment|logistics|technology|toys|trade).{1,15}co.{1,5}(limited|ltd)/i
 /(enterprise|equipment|logistics|technology|toys|trade).{1,10}ltd.{1,5}whatsapp/i
 
+/case manufacturing.{1,10}co.{1,5}(limited|ltd)/i
 /(ceramics|clothing|crafts).{1,10}co.{1,5}(limited|ltd)/i
 /export group.{1,10}co.{1,5}(limited|ltd)/i
 
@@ -67,7 +68,10 @@
 
 /baoan district.{1,10}shenzhen.{1,10}china/i
 /chengdu.{1,10}sichuan.{1,10}china/i
+
+/huadu district.{1,10}guangzhou city.{1,10}china/i
 /huizhou.{1,10}guangdong.{1,10}china/i
+/linyi city.{1,10}shandong province.{1,10}china/i
 /ningbo.{1,10}zhejiang.{1,10}china/i
 /shenzhen city.{1,10}p\.b.{1,10}china/i
 /zhongshan.{1,10}guangdong.{1,10}china/i

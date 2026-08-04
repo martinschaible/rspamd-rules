@@ -10,7 +10,9 @@
 # ------------------------------------------------------------------------------
 /(alze?heimer|dementia).{1,10}(alert|brain|reversed?|sign|test|trigger|warning)/i
 
-/brain.{0,10}(booster|cell|damage|ears|experts?|insight|logic)/i
+/brain.{0,10}alert/i
+/brain.{0,10}(booster|cell|damage|insight|logic)/i
+/brain.{0,10}(ears|experts?)/i
 /brain.{0,10}(fuel|fixer|food|fog)/i
 /brain.{0,10}(hack|health)/i
 /brain.{0,10}(nutrient|power|waves?)/i
@@ -770,6 +772,7 @@
 
 /hanging.{0,10}belly/i
 
+/hard.{0,10}stool/i
 /hard(er)? (in\b|tonight)/i
 
 /happy.{0,10}(gut|knees)/i
@@ -896,10 +899,12 @@
 /living.{0,10}(longer|natural)/i
 
 /lung.{0,10}(brew|care|cleans?er|ease|health|heart|research|trust)/i
-/longer.{0,10}life/i
-/longest.{0,10}(lived|living)/i
 
+/(longest|longer).{0,10}(life|lived|living)/i
+
+/longevity.{0,10}lab/i
 /look.{0,10}younger/i
+
 /loose.{0,10}flesh/i
 /loosened.{0,10}hips/i
 
