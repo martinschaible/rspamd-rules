@@ -106,6 +106,7 @@
 /(action|update) (needed|required).{1,10}subscription renewal/i
 
 /(action|update) (needed|required).{1,15}tax (documents|records incomplete)/i
+/(action|update) (needed|required).{1,10}transaction with.{1,10}problem/i
 
 /(action|update) (needed|required).{1,10}unable to process your/i
 /(action|update) (needed|required).{1,10}upgrade for/i

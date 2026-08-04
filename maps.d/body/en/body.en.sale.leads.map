@@ -45,7 +45,8 @@
 /comprehensive.{1,10}contact.{1,10}company.{1,10}data/i
 /comprehensive.{1,10}dataset.{1,10}(companies|professionals)/i
 
-/contacts?.{1,10}database covering.{1,15}europe/i
+/contacts?.{1,10}(database|list).{1,10}covering.{1,15}europe/i
+/contacts?.{1,10}(database|list).{1,10}your target industry/i
 
 /contacts?.{1,10}details.{1,10}from your industry/i
 /contacts?.{1,10}details.{1,10}verified e?.?mail/i
@@ -204,7 +205,7 @@
 
 /we.{1,10}have.{1,15}access.{1,15}your target audience/i
 /we.{1,10}have.{1,20}datasets available/i
-/we.{1,10}have.{1,15}(compiled|curated).{1,20}(attendees?|contacts|registrants|visitors?)/i
+/we.{1,10}have.{1,15}(compiled|curated).{1,20}(attendees?|contacts?|registrants|visitors?)/i
 /we.{1,10}have.{1,15}sourced contact details/i
 /we.{1,10}have.{1,15}updated e?.?mail.?list of/i
 

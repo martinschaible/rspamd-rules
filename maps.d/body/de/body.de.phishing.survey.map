@@ -137,7 +137,9 @@
 # N
 # ------------------------------------------------------------------------------
 /nehmen sie kurz an unserer.{1,15}(befragung|umfrage) teil/iu
-/nimm jetzt.{1,15}offiziellen.{1,15}kundenumfrage/i
+
+/nimm (einfach|jetzt){1,15}dieser kurzen umfrage/i
+/nimm (einfach|jetzt){1,15}offiziellen.{1,15}kundenumfrage/i
 
 # O
 # ------------------------------------------------------------------------------
