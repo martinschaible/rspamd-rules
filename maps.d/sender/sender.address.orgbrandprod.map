@@ -166,7 +166,9 @@
 
 /microosft365/i
 /microsft.?365/i
-/microsoft.?\d{2,6}@/i
+
+# Microsoft uses this: microsoft365@
+/microsoft.?\d{4,6}@/i
 
 /@miles.?and.?more/i
 
