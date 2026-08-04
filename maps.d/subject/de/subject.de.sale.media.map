@@ -120,7 +120,8 @@
 # R
 # ------------------------------------------------------------------------------
 /rezension(en)?.{1,10}google.?bewertung/i
-/rezension(en)?.{1,10}ihrem unternehmensprofil/i
+/rezension(en)?.{1,10}ihrem.{1,10}unternehmensprofil/i
+/rezension(en)?.{1,10}ihrem.{1,10}(google|profil).{1,10}aufgefallen/i
 
 /rufschädigung.{1,10}durch.{1,15}google.?bewertung/iu
 

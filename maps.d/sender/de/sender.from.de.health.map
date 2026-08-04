@@ -31,6 +31,7 @@
 # A
 # ------------------------------------------------------------------------------
 /abnehm.{0,10}(experte|quiz|trend)/i
+/abnehm.{0,10}journal/i
 
 /(aktiv|vital).{0,10}redaktion/i
 
@@ -86,6 +87,8 @@
 /(flacher|frei).{0,10}bauch/i
 
 /fit.{0,10}(alltag|leicht|maker|pro|trainer)/i
+/fit.{0,10}einfach/i
+/fit.{0,10}heute/i
 
 /fungo.{0,10}(creme|killer|lösung|spray)/i
 /(fuss|fuß).{0,10}(freude|pflaster|power|pro)/iu
@@ -120,6 +123,7 @@
 /ihre?.{1,10}gesundheitsberater/i
 /ihre.{1,10}(leber|prostata)/i
 
+/insider.{0,10}(bericht|wissen)/i
 /intensiv.{0,10}(erleben|stark)/i
 
 # J
@@ -224,6 +228,8 @@
 # T
 # ------------------------------------------------------------------------------
 /tipps von/i
+
+/trend.{0,10}vital/i
 
 # U
 # ------------------------------------------------------------------------------
