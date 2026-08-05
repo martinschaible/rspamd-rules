@@ -54,13 +54,6 @@
 
 # Beneficiary
 # ------------------------------------------------------------------------------
-/(beneficiaries|beneficiary).{1,10}(dollar|euro?|euros?|gbp|usd).{1,10}\d{3}.{0,5}\d{3}/i
-/(beneficiaries|beneficiary).{1,10}to late mrs?/i
-/(beneficiaries|beneficiary).{1,10}which is you.{1,10}your name/i
-/(beneficiaries|beneficiary).{1,10}as next of kin/i
-/(beneficiaries|beneficiary).{1,10}to receive the{1,15}donation/i
-
-/present you.{1,25}as.{1,10}(beneficiaries|beneficiary|contractor)/i
 
 /you.{1,15}(appear|are|selected|emerged).{1,10}(among|as one|to be one|one).{1,10}(of|the).{1,20}(beneficiaries|beneficiary)/i
 /you.{1,10}have been (listed|named|selected) as.{1,20}(beneficiaries|beneficiary)/i
@@ -77,15 +70,6 @@
 # ------------------------------------------------------------------------------
 /you about.{1,10}confidential topic/i
 /urgent information that.{1,10}would like to discuss/i
-
-# Fake Organisations
-# ------------------------------------------------------------------------------
-/jeff bezos.{1,10}management funds/i
-/microsoft.{1,10}anniversary grant/i
-/united.nations.{1,10}compensation.commission/i
-
-# Heir
-# ------------------------------------------------------------------------------
 
 # Important
 # ------------------------------------------------------------------------------
@@ -131,13 +115,6 @@
 # ------------------------------------------------------------------------------
 /we can split the fund in the ratio of/i
 
-# Trustworthy Person
-# ------------------------------------------------------------------------------
-/i am looking for.{1,10}(trusted|trustworthy).{1,10}person outside/i
-/i want is.{1,10}honest.{1,10}reliable.{1,10}person/i
-
-/we are seeking.{1,10}(trusted|trustworthy).{1,10}individual/i
-
 #
 #
 #
@@ -179,15 +156,6 @@
 # Nomination
 # ------------------------------------------------------------------------------
 /the nominations team/i
-
-# Scam Victims
-# ------------------------------------------------------------------------------
-/scam(med)? victims?.{1,10}compensation/i
-/scam(med)? victims?.{1,10}to be paid/i
-
-/compensate.{1,10}the scam victims/i
-
-/we specializ.{1,10}helping people who have been scammed/i
 
 #
 #
