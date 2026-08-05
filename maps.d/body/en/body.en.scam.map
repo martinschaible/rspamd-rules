@@ -111,6 +111,11 @@
 # B
 # ------------------------------------------------------------------------------
 /(beneficiaries|beneficiary).{1,10}the total sum of/i
+/(beneficiaries|beneficiary).{1,10}to late mrs?/i
+/(beneficiaries|beneficiary).{1,10}which is you.{1,10}your name/i
+/(beneficiaries|beneficiary).{1,10}as next of kin/i
+/(beneficiaries|beneficiary).{1,10}to receive the{1,15}donation/i
+
 
 # C
 # ------------------------------------------------------------------------------
@@ -158,6 +163,8 @@
 /i have.{1,10}diagnosed with.{1,15}cancer/i
 /i have.{1,10}vital information for you/i
 
+/i want is.{1,10}honest.{1,10}reliable.{1,10}person/i
+
 /immediate release of your.{1,10}funds?/i
 /inheritance.{1,15}(associated|linked) (to|with) your.{1,15}name/i
 
@@ -167,6 +174,7 @@
 /introduce.{1,10}partnership intention/i
 
 /invited you to be.{1,10}member of the.{1,10}organization/i
+
 
 # J
 # ------------------------------------------------------------------------------
@@ -180,9 +188,10 @@
 # L
 # ------------------------------------------------------------------------------
 /(seeking|looking).{1,10}someone.{1,10}(capable|reliable|sincere).{1,10}trustworthy/i
-/(seeking|looking).{1,10}(capable|reliable|sincere).{1,10}trustworthy.{1,10}(individual|representative)/i
+/(seeking|looking).{1,10}(capable|reliable|sincere).{1,10}trustworthy.{1,10}(individual|person|representative)/i
+/(seeking|looking).{1,10}(trusted|trustworthy).{1,10}(individual|person|representative)/i
 
-/(seeking|looking).{1,10}for .{1,10}trustworthy.{1,10}individual/i
+/(seeking|looking).{1,10}for .{1,10}trustworthy.{1,10}(individual|person|representative)/i
 
 /sorry for contacting you directly/i
 
@@ -203,6 +212,8 @@
 
 # P
 # ------------------------------------------------------------------------------
+/present you.{1,25}as.{1,10}(beneficiaries|beneficiary|contractor)/i
+
 /process your.{1,10}claim/i
 
 # Q
@@ -215,6 +226,9 @@
 # S
 # ------------------------------------------------------------------------------
 /sale.{1,10}high.?quality gold bars/i
+
+/scam(med)? victims?.{1,10}compensation/i
+/scam(med)? victims?.{1,10}to be paid/i
 
 /searching for.{1,10}kind.?hearted partner.{1,20}(build|legacy)/i
 
@@ -253,6 +267,7 @@
 
 /we have.{1,15}gold nuggets/i
 /we seek.{1,10}individuals.{1,10}who can be trusted/i
+/we specialize.{1,10}helping people.{1,10}have been scammed/i
 /we want.{1,10}transfer.{1,10}fund out of the country/i
 
 /write me for.{1,15}business/i
