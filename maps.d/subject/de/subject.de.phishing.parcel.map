@@ -343,6 +343,8 @@
 /paketbenachrichtigung.{1,10}ihre?.{1,10}(paket|sendung)/iu
 /paketbenachrichtigung.{1,10}zustellung verzögert sich/iu
 
+/paketnummer #\d/i
+
 /paketstatus.{1,10}aktion erforderlich/i
 
 /paketzustellung.{1,10}benötigt weitere informationen/iu
