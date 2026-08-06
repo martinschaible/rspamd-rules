@@ -189,9 +189,12 @@
 /haben sie gewichtsprobleme/i
 /hartnäckiges bauchfett/iu
 
-/höhle.{0,5}(der|des).{0,5}löwen.{1,10}(test)?sieger/iu
-
 /jetzt abnehmen/i
+/kapsel stoppt/i
+
+/kapsel ersetzt (alle|jede)/i
+/kapsel schockt alle/i
+
 /kostenlos.{1,10}abnehmen/i
 
 /mühelos \d{1,2} kilo/iu
@@ -218,6 +221,8 @@
 
 /sie hat.{1,10}kilo verloren/i
 /sicherer.{1,10}gewichts.?verlust/i
+
+/stoppt (heißhunger|heisshunger)/i
 
 /tipp gegen bauchfett/i
 

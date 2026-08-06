@@ -10,6 +10,12 @@
 # Topics
 # ==============================================================================
 
+# Höhle des Löwen
+# ------------------------------------------------------------------------------
+/(loewen|löwen).{1,10}(sonder)?angebot/i
+
+/schocken die.{1,10}(loewen|löwen)/iu
+
 # Weight Loss
 # ------------------------------------------------------------------------------
 /(abnehmen|abzunehmen).{1,10}ganz ohne hungern/i
@@ -24,6 +30,9 @@
 
 /fettanteil.{1,10}drastisch reduziert/i
 /geheimnis zum abnehmen/i
+
+/kapsel.{1,10}fett schmelzen/i
+/kapsel.{1,10}überflüssiges fett/iu
 
 /(kg|kilo).{1,10}(in|pro).{1,10}monat.{1,10}ohne (diät|fasten)/i
 /(kg|kilo).{1,10}(in|pro).{1,10}monat.{1,10}sind.{1,10}kein problem/i
@@ -40,7 +49,8 @@
 /natürlich abnehmen.{1,10}ganz ohne/iu
 /noch heute aus und erleben?.{1,10}den unterschied/i
 
-/ohne diät.{1,10}ohne sport/iu
+/ohne (diät|hungern).{1,10}ohne jo.?jo/iu
+/ohne (diät|hungern).{1,10}ohne sport/iu
 
 /schmilzt.{1,10}kg weg/i
 /rabatt auf.{1,15}diät.?kapseln/iu
