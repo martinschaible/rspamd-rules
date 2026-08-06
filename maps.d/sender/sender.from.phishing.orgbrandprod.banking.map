@@ -70,6 +70,8 @@
 /commerzbank.{0,10}(kundenbetreuung|kundenservice)/i
 
 /consorbank\./i
+
+/consorsbank.{0,10}modul/i
 /consorsbank.{0,10}(informations|kunden)?service/i
 
 /consorsfinanz/i
@@ -153,6 +155,8 @@
 
 # K
 # ------------------------------------------------------------------------------
+/klarna.?ab/i
+
 /klarna.{0,10}(finanzservice|kundenservice|support)/i
 /klarna.{0,10}deutschland/i
 /klarna.{0,10}germany/i

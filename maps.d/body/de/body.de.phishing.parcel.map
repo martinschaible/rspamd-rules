@@ -151,6 +151,7 @@
 /(lieferung|paket|sendung).{1,20}aufgrund einer falschen.{1,15}adresse/i
 /(lieferung|paket|sendung).{1,20}aufgrund einer fehlenden.{1,15}zahlung/i
 
+/(lieferung|paket|sendung).{1,10}befindet sich.{1,10}aufgrund einer abweichung/i
 /(lieferung|paket|sendung).{1,10}befindet sich.{1,10}(finalen|letzten).{1,10}(zustellphase|zustellprozess)/i
 /(lieferung|paket|sendung).{1,10}befindet sich.{1,10}derzeit.{1,20}(versandzentrum|zoll)/i
 /(lieferung|paket|sendung).{1,10}befindet sich.{1,10}in der zollabfertigung/i
