@@ -13,12 +13,24 @@
 # ------------------------------------------------------------------------------
 #/\d{2,4}(\.|,)?\d{3,4}.{1,10}für sie/iu
 /\d{2,4}(\.|,)?\d{3,4}.{0,10}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,10}(an|für) sie/iu
+/\d{2,4}(\.|,)?\d{3,4}.{1,10}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,10}anbietet.{1,20}informationen kontaktieren sie/i
 /\d{2,4}(\.|,)?\d{3,4}.{0,10}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,10}auf ihr.{1,15}konto/i
 /\d{2,4}(\.|,)?\d{3,4}.{0,10}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,15}antworten sie/i
+
+/\d{2,4}(\.|,)?\d{3,4}.{1,10}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,10}e?.?mail für details jetzt/iu
+/\d{2,4}(\.|,)?\d{3,4}.{1,10}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,10}erhalten.{1,10}kontaktieren sie mich/i
+
 /\d{2,4}(\.|,)?\d{3,4}.{1,10}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,10}gewonnen.{1,10}zahlungsnummer/i
 /\d{2,4}(\.|,)?\d{3,4}.{0,10}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,10}kontaktieren sie/i
 /\d{2,4}(\.|,)?\d{3,4}.{0,10}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,15}steht weiterhin zur verfügung/iu
 
+/\d{2,4}(\.|,)?\d{3,4}.{1,10}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,15}weitere informationen kontaktieren sie/i
+/\d{2,4}(\.|,)?\d{3,4}.{1,10}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,10}wurde ihrer.{1,10}e?.?mail.?adresse/i
+/\d{2,4}(\.|,)?\d{3,4}.{1,10}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,10}wurden ihnen von/i
+
+/\d{2,4}(\.|,)?\d{3,4}.{1,10}bitte kontaktieren sie/i
+
+/\d{2,4}(\.|,)?\d{3,4}.{1,10}wenn ja.{1,10}kontaktieren sie mich/i
 /\d{2,4}(\.|,)?\d{3,4}.{1,10}wurden an sie gespendet/i
 
 #
@@ -45,9 +57,18 @@
 # E
 # ------------------------------------------------------------------------------
 /(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,15}ausgewählt.{1,10}(bestätigen|kontaktieren) sie/iu
+/(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,10}an sie gespendet.{1,10}details antworten/i
+
 /(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,15}die an ihre e?.?mail.?adresse/i
 /(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,15}die nutzung.{1,10}google/i
+
+/(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,20}erhalten.{1,10}kontaktieren sie/i
+
+/(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,10}gewährt.{1,10}antworten.{1,15}weitere details/iu
+/(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,10}gewonnen.{1,10}meine familie.{1,15}(spenden|spendet)/i
+
 /(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,10}ihrem.{1,10}namen zugeordnet ist/i
+/(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,10}kontaktieren sie.{1,15}weitere einzelheiten/i
 /(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,15}weitere informationen kontaktieren sie/i
 
 # F
@@ -116,11 +137,17 @@
 
 # M
 # ------------------------------------------------------------------------------
-/(million(en)?|tausend).{1,15}ausgewählt.{1,10}für weitere informationen wenden sie sich/iu
-/(million(en)?|tausend).{1,10}wurden? an sie überwiesen/iu
+/(million(en)?|tausend).{1,10}(euro?|dollars?|gbp|usd|€|\$|£).{1,10}e?.?mail für details/iu
+/(million(en)?|tausend).{1,10}(euro?|dollars?|gbp|usd|€|\$|£).{1,10}erhalten.{1,10}(antworten|kontaktieren) sie/i
+/(million(en)?|tausend).{1,10}(euro?|dollars?|gbp|usd|€|\$|£).{1,10}haben wir ihnen/i
 
 /(million(en)?|tausend).{1,10}(euro?|dollars?|gbp|usd|€|\$|£).{1,10}ich spende/i
 /(million(en)?|tausend).{1,10}(euro?|dollars?|gbp|usd|€|\$|£).{1,10}in ihrem namen genehmigt/i
+
+/(million(en)?|tausend).{1,10}(euro?|dollars?|gbp|usd|€|\$|£).{1,10}kontaktieren sie mich/i
+
+/(million(en)?|tausend).{1,15}ausgewählt.{1,10}für weitere informationen wenden sie sich/iu
+/(million(en)?|tausend).{1,10}wurden? an sie überwiesen/iu
 
 # N
 # ------------------------------------------------------------------------------
@@ -160,6 +187,8 @@
 /sie (werden|wurden).{1,10}mit.{1,10}summe von.{1,10}\d{2,4}(\.|,)?\d{3,4}/i
 
 /sie wurden ausgewählt.{1,15}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,15}zu erhalten/iu
+/sie wurden ausgewählt.{1,10}um.{1,10}\d{2,4}(\.|,)?\d{3,4}.{1,10}zu erhalten/iu
+
 
 /spenden?.{1,10}ihnen die summe von.{1,10}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£)/i
 

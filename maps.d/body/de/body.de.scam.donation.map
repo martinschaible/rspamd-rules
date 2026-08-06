@@ -165,7 +165,13 @@
 
 # M
 # ------------------------------------------------------------------------------
-/millionen.{1,10}(dollar|euro?|gbp|usd|€|\$|£).{1,10}erhalten.{1,10}(antworten|kontaktieren) sie uns/i
+/(million(en)?|tausend).{1,15}von der.{1,25}foundation.{1,15} ausgewählt/i
+/(million(en)?|tausend).{1,15}gespendet.{1,10}antworten sie für.{1,10}details/iu
+/(million(en)?|tausend).{1,15}spenden.{1,10}was einen teil meiner investition/i
+
+/(million(en)?|tausend).{1,15}weitere informationen erhalten sie/i
+/(million(en)?|tausend).{1,15}wurden ihnen von der.{1,25}gespended/i
+/(million(en)?|tausend).{1,15}wurden ihnen von.{1,10}(frau|herr)/i
 
 # N
 # ------------------------------------------------------------------------------
