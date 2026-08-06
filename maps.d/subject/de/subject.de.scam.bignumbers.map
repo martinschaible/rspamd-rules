@@ -102,7 +102,9 @@
 # I
 # ------------------------------------------------------------------------------
 /ihnen.{1,10}millionen.{1,10}anvertrauen/i
+
 /ihre.{1,10}\d{2,4}(\.|,)?\d{3,4}.{0,5}(dollars?|euro?|gbp|usd|€|\$|£).{1,10}warten/i
+/ihr(es)?.{1,15}kontos in höhe von.{1,10}millionen/i
 
 /investitions.?fonds.{1,10}\d{2,4}(\.|,)?\d{3,4}.{0,5}(dollars?|euro?|gbp|usd|€|\$|£)/i
 

@@ -380,6 +380,8 @@
 
 /led.{1,10}components.{1,10}distributor/i
 
+/(lingerie|underwear).{1,15}(factory|manufacturer?)/i
+
 /looking.{1,10}potential.{1,10}partnerships/i
 
 /low(est)? prices?.{1,10}(pcba?|printed.?circuits?.?board)/i
@@ -402,6 +404,7 @@
 /manufacture.{1,10}vendor from china/i
 
 /manufacturers?.{1,20}(column|distillation)/i
+/manufacturers?.{1,10}partnership.{1,10}evaluation/i
 /manufacturers?.{1,10}for.{1,15}packing/i
 /manufacturers?.{5,25}good rate/i
 /manufacturers?.{1,10}looking.{1,10}(cooperate|cooperation|opportunities)/i
@@ -666,8 +669,6 @@
 
 # U
 # ------------------------------------------------------------------------------
-/underwear{1,50}(factory|manufacturer?)/i
-
 /unlock.{1,10}rapid market.{1,20}with/i
 
 /urgent.{1,10}(pcba?|printed.?circuits?.?board).{1,10}orders?/i

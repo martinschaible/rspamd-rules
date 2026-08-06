@@ -25,6 +25,8 @@
 
 # C
 # ------------------------------------------------------------------------------
+/card worth.{1,15}(million|thousand).{1,15}will be paid.{1,15}through/i
+
 /claim your.{1,10}\d{2,4}(\.|,)?\d{3,4}/i
 
 # D
@@ -56,7 +58,7 @@
 # I
 # ------------------------------------------------------------------------------
 /i donate.{1,10}\d{2,4}(\.|,)?\d{3,4}.{1,10}to you/i
-/i want to transfer.{1,10}(dollars?|euro?|gbp|usd|€|\$|£).{1,10}million/i
+/i want to transfer.{1,10}(dollars?|euro?|gbp|usd|€|\$|£).{1,10}(million|thousand)/i
 
 # J
 # ------------------------------------------------------------------------------
@@ -69,9 +71,9 @@
 
 # M
 # ------------------------------------------------------------------------------
-/millions?.{1,10}(dollars?|euro?|gbp|usd|€|\$|£).{1,10}contact this e?.?mail/i
-/millions?.{1,10}you have been waiting/i
-/millions?.{1,10}we are open.{1,15}discussions/i
+/(million|thousand).{1,10}(dollars?|euro?|gbp|usd|€|\$|£).{1,10}contact this e?.?mail/i
+/(million|thousand).{1,10}you have been waiting/i
+/(million|thousand).{1,10}we are open.{1,15}discussions/i
 
 # N
 # ------------------------------------------------------------------------------

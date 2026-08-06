@@ -102,7 +102,7 @@
 
 /sight.{0,10}restored?/i
 
-/vision.{0,10}test/i
+/vision.{0,10}(daily|test)/i
 
 # Fungus, Nails
 # ------------------------------------------------------------------------------
@@ -572,7 +572,8 @@
 
 # D
 # ------------------------------------------------------------------------------
-/daily.{0,10}(aches|burn|comfort|detox|energy|fatigue|gut|heart|metabolism|pad|ritual|skin|soup)/i
+/daily.{0,10}(glow|gut)/i
+/daily.{0,10}(aches|burn|comfort|detox|energy|fatigue|heart|metabolism|pad|ritual|skin|soup)/i
 /daily.{0,10}(wellness|wisdom)/i
 
 /dairy.{0,10}(recipe|ritual)/i
