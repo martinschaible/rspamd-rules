@@ -36,6 +36,23 @@
 # ------------------------------------------------------------------------------
 /(european|german|switzerland).{1,10}(business|enterprise|excellence|prestige).{1,10}awards?/i
 
+# Beneficiary
+# ------------------------------------------------------------------------------
+/(beneficiaries|beneficiary).{1,10}the total sum of/i
+/(beneficiaries|beneficiary).{1,10}to late mrs?/i
+/(beneficiaries|beneficiary).{1,10}which is you.{1,10}your name/i
+/(beneficiaries|beneficiary).{1,10}as next of kin/i
+/(beneficiaries|beneficiary).{1,10}to receive the{1,15}donation/i
+
+/present you.{1,25}as.{1,10}(beneficiaries|beneficiary|contractor)/i
+
+/you.{1,15}(appear|are|selected|emerged).{1,10}(among|as one|to be one|one).{1,30}(beneficiaries|beneficiary)/i
+/you.{1,10}have been (listed|named|selected) as.{1,30}(beneficiaries|beneficiary)/i
+/you.{1,10}to be.{1,10}nearest.{1,10}(beneficiaries|beneficiary)/i
+
+/your.{1,10}(application as|help to stand as).{1,10}(beneficiaries|beneficiary)/i
+/your.{1,10}name (as|is one of).{1,20}(beneficiaries|beneficiary)/i
+
 # Business in Dubai
 # ------------------------------------------------------------------------------
 /choose to start.{1,15}their businesses in/i
@@ -106,16 +123,16 @@
 # ------------------------------------------------------------------------------
 /attached with your.{1,10}(sur)?name/i
 
+/assist me.{1,10}moving out late/i
+/assist me.{1,10}sincerely.{1,10}confident/i
+
+/assistance.{1,15}establish.{1,10}business in your country/i
+/assistance.{1,10}receiving the consignment/i
+
 /awarding you.{1,10}million/i
 
 # B
 # ------------------------------------------------------------------------------
-/(beneficiaries|beneficiary).{1,10}the total sum of/i
-/(beneficiaries|beneficiary).{1,10}to late mrs?/i
-/(beneficiaries|beneficiary).{1,10}which is you.{1,10}your name/i
-/(beneficiaries|beneficiary).{1,10}as next of kin/i
-/(beneficiaries|beneficiary).{1,10}to receive the{1,15}donation/i
-
 
 # C
 # ------------------------------------------------------------------------------
@@ -163,6 +180,8 @@
 /i have.{1,10}diagnosed with.{1,15}cancer/i
 /i have.{1,10}vital information for you/i
 
+/i solicit for your.{1,15}assistance/i
+
 /i want is.{1,10}honest.{1,10}reliable.{1,10}person/i
 
 /immediate release of your.{1,10}funds?/i
@@ -199,6 +218,16 @@
 # ------------------------------------------------------------------------------
 /my need for assistance in profiling/i
 
+/(my|our).{1,10}(deceased|late).{1,10}(client|customer|father|husband|relative).{1,10}diverted this funds?/i
+
+/(my|our).{1,10}(deceased|late).{1,10}(client|customer|father|husband|relative).{1,10}left me with/i
+/(my|our).{1,10}(deceased|late).{1,10}(client|customer|father|husband|relative).{1,10}left (some|you) money/i
+
+/(my|our).{1,10}(deceased|late).{1,10}(client|customer|father|husband|relative).{1,10}(major|mrs?)/i
+/(my|our).{1,10}(deceased|late).{1,10}(client|customer|father|husband|relative).{1,10}made a deposit/i
+/(my|our).{1,10}(deceased|late).{1,10}(client|customer|father|husband|relative).{1,10}with no next of kin/i
+/(my|our).{1,10}(deceased|late).{1,10}(client|customer|father|husband|relative).{1,15}will be of interest/i
+
 /(my|your).{1,10}name.{1,15}as the next of kin/i
 
 # N
@@ -212,8 +241,6 @@
 
 # P
 # ------------------------------------------------------------------------------
-/present you.{1,25}as.{1,10}(beneficiaries|beneficiary|contractor)/i
-
 /process your.{1,10}claim/i
 
 # Q
@@ -222,6 +249,7 @@
 # R
 # ------------------------------------------------------------------------------
 /remittance advice.{1,15}ref/i
+/retrieve my.{1,10}(deceased|late).{1,10}(father|husband|relative).{1,10}funds/i
 
 # S
 # ------------------------------------------------------------------------------
@@ -294,12 +322,21 @@
 /you.{1,10}unclaimed inheritance/i
 
 /your.{1,10}atm.?card has been.{1,10}released/i
-/your.{1,10}assistance in providing your.{1,15}banking/i
+
+/your?.{1,15}assist(ance)? in.{1,10}receipt/i
+/your?.{1,15}assist(ance)? to.{1,10}receive.{1,10}sum/i
+/your?.{1,15}assist(ance)? in.{1,10}providing your.{1,15}banking/i
+/your?.{1,10}assist(ance)? in.{1,10}retrieving.{1,15}deposit/i
+
+/your?.{1,10}(deceased|late).{1,10}(father|husband|relative).{1,10}who left behind/i
+/your?.{1,10}(deceased|late).{1,10}(father|husband|relative).{1,15}you.{1,15}(confidentially|confirm)/i
+
+/your.{1,10}indulgence to assist me/i
+
 /your.{1,10}business isn.?t.{1,10}registered with/i
 /your.{1,10}help to recover my inheritance/i
 /your.{1,10}funds.{1,10}waiting for your.{1,10}response/i
 
-/your.{1,10}name as.{1,10}beneficiary/i
 /your.{1,10}name.{1,10} search for.{1,10}foreign partner/i
 
 # Z
