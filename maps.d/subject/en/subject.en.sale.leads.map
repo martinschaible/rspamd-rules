@@ -26,7 +26,7 @@
 # Numeric
 # ------------------------------------------------------------------------------
 /202\d contact.?list/i
-/(202\d|exclusive|tech).{1,10}attendees (details|list)/i
+/(202\d|exclusive|tech).{1,10}attendees?.{1,10}(database|details|list)/i
 
 /\d{3,5} client profiles/i
 
