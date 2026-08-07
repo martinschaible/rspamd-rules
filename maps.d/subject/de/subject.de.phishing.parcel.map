@@ -83,6 +83,8 @@
 /(be)?zahlen sie jetzt.{1,10}\d(\.|,)\d{2}/i
 /(be)?zahlen sie.{1,10}(versandgebühr|versandkosten)/iu
 
+/bitte lieferadresse prüfen/iu
+
 /blockiert ihre.{1,10}zustellung/i
 
 # C
@@ -125,6 +127,8 @@
 /fehlgeschlagener zustellversuch/i
 
 /fortschritt bei.{1,10}(lieferung|paket|sendung)/i
+
+/freigabe ihrer.{1,10}(privat)?sendung/i
 /freigegeben.{1,10}zahlung erforderlich/i
 
 # G

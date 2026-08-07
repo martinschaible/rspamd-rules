@@ -68,6 +68,8 @@
 /guten (abend|morgen|tag).{1,15}der schutz ihrer/i
 /guten (abend|morgen|tag).{1,15}die sicherheit/i
 /guten (abend|morgen|tag).{1,15}dies ist.{1,10}letzte benachrichtigung/i
+/guten (abend|morgen|tag).{1,15}du hast.{1,15}euro von/i
+
 /guten (abend|morgen|tag).{1,15}ein verdächtiger login/i
 /guten (abend|morgen|tag).{1,15}erhalten sie eine korrigierte rechnung/i
 /guten (abend|morgen|tag).{1,15}es wurde eine ungewöhnliche anmeldung/iu
@@ -85,6 +87,8 @@
 
 /guten (abend|morgen|tag).{1,10}ihre?.{1,15}befindet sich/i
 #/guten (abend|morgen|tag).{1,10}ihre?.{1,15}(paket|sendung)/i
+
+/guten (abend|morgen|tag).{1,10}ihre? (paket|sendung) aus dem ausland/i
 /guten (abend|morgen|tag).{1,10}ihre? (paket|sendung) (konnte am|mit der)/i
 /guten (abend|morgen|tag).{1,15}ihre? internationales? (paket|sendung)/i
 /guten (abend|morgen|tag).{1,15}ihre hinterlegte zahlungsmethode/i
