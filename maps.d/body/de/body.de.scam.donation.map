@@ -192,7 +192,9 @@
 
 # S
 # ------------------------------------------------------------------------------
-/sie.{1,10}als empfänger (einer|von).{1,15}(humanitären|mitteln?|spende)/iu
+/sie.{1,10}als empfänger eines.{1,15}in höhe von/iu
+/sie.{1,10}als empfänger (einer|von).{1,15}(humanitären|mitteln?|spende|stipendiums?)/iu
+
 /sie ausgewählt hat.{1,25}stipendium in höhe von/iu
 
 /sie.{1,10}an meiner spende interessiert sind/i
