@@ -12,29 +12,6 @@
 #
 #
 
-# Abandoned stuff
-# ------------------------------------------------------------------------------
-/consignment was abandoned/i
-/i discovered.{1,10}abandoned shipment/i
-
-# Assistance
-# ------------------------------------------------------------------------------
-/assist me.{1,10}sincerely.{1,10}confident/i
-/assistance.{1,15}establish.{1,10}business in your country/i
-/assistance.{1,10}receiving the consignment/i
-
-/you.{1,10}help me receive.{1,10}secure/i
-/you.{1,10}assist in retrieving.{1,15}deposit/i
-
-/your.{1,10}assistance to receive.{1,10}sum/i
-/your.{1,10}help.{1,10}assistance in.{1,10}receipt/i
-/your.{1,10}indulgence to assist me/i
-
-/i solicit for your.{1,15}assistance/i
-
-/requesting your cooperation.{1,10}receive/i
-/this is.{1,10}urgent solicitation.{1,15}assistance/i
-
 # Award
 # ------------------------------------------------------------------------------
 /award winning.{1,10}notification/i
@@ -52,15 +29,6 @@
 
 /your.{1,15}(donation|stock) awards?/i
 
-# Beneficiary
-# ------------------------------------------------------------------------------
-
-/you.{1,15}(appear|are|selected|emerged).{1,10}(among|as one|to be one|one).{1,10}(of|the).{1,20}(beneficiaries|beneficiary)/i
-/you.{1,10}have been (listed|named|selected) as.{1,20}(beneficiaries|beneficiary)/i
-/you.{1,10}to be.{1,10}nearest.{1,10}beneficiary/i
-
-/your.{1,10}(application as|help to stand as|name as).{1,10}(beneficiaries|beneficiary)/i
-/your.{1,10}name is one of the.{1,10}(beneficiaries|beneficiary)/i
 
 # Currency, Big numbers
 # ------------------------------------------------------------------------------
@@ -118,24 +86,6 @@
 #
 #
 #
-
-# Dead Customers, Family Members
-# ------------------------------------------------------------------------------
-/(my|our).{1,10}(deceased|late).{1,10}(client|customer|husband|relative).{1,10}left (some|you) money/i
-/(my|our).{1,10}(deceased|late).{1,10}(client|customer|husband|relative).{1,10}(major|mrs?)/i
-/(my|our).{1,10}(deceased|late).{1,10}(client|customer|husband|relative).{1,10}made a deposit/i
-/(my|our).{1,10}(deceased|late).{1,10}(client|customer|husband|relative).{1,10}with no next of kin/i
-/(my|our).{1,10}(deceased|late).{1,10}(client|customer|husband|relative).{1,15}will be of interest/i
-
-/(my|our).{1,10}(deceased|late).{1,10}(father|husband|relative).{1,10}diverted this funds?/i
-/(my|our).{1,10}(deceased|late).{1,10}(father|husband|relative).{1,10}left me with/i
-
-/retrieve my.{1,10}(deceased|late).{1,10}(father|husband|relative) funds/i
-
-/assist me in moving out late/i
-
-/your.{1,10}(deceased|late).{1,10}(father|husband|relative).{1,10}who left behind/i
-/your.{1,10}(deceased|late).{1,10}(father|husband|relative).{1,15}you.{1,15}(confidentially|confirm)/i
 
 # Next Of Kin
 # ------------------------------------------------------------------------------
@@ -249,14 +199,4 @@
 /your urgent attention.{1,15}view the attached notice/i
 /we are seeking.{1,10}passionate.{1,10}entrepreneurs/i
 
-# Masked
-# ------------------------------------------------------------------------------
-
-#
-#
-#
-
-# FRENCH
-# ------------------------------------------------------------------------------
-/je suis un hacker professionnel/i
 /vous avez gagné un don de.{1,10}millions.{1,10}euros?/iu
