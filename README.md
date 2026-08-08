@@ -413,6 +413,7 @@ body
   ├─ de
   │   ├─ body.de.scam.map
   │   │
+  │   ├─ body.de.scam.atm.map                              **
   │   ├─ body.de.scam.awards.map                           **
   │   ├─ body.de.scam.business.map
   │   ├─ body.de.scam.bignumbers.map
@@ -436,6 +437,7 @@ sender
 subject  
   ├─ de
   │   ├─ subject.de.scam.map
+  │   ├─ subject.de.scam.atm.map                           **
   │   ├─ subject.de.scam.awards.map                        **
   │   ├─ subject.de.scam.bignumbers.map
   │   ├─ subject.de.scam.business.map
