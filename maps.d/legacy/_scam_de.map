@@ -39,18 +39,6 @@
 /sie per zufall als.{1,10}begünstigten/iu
 /sie zu den begünstigten gehören/iu
 
-# Currency, Big numbers
-# ------------------------------------------------------------------------------
-/millionen.{1,10}(dollar|euro?|gbp|usd).{1,10}kontaktieren sie (mich|uns)/i
-
-/\d{3}.{0,5}\d{3}.{1,10}antworten sie auf/i
-/\d{3}.{0,5}\d{3}.{1,10}der mit ihrem.{1,10}namen/i
-/\d{3}.{0,5}\d{3}.{1,10}(dollar|euro?|gbp|usd).{1,10}zugewiesen wurde/i
-
-/mein geld von.{1,15}millionen.{1,15}tausend.{1,10}(dollar|euro?|gbp|usd)/i
-
-/millionen.{1,10}(dollar|euro?|gbp|usd).{1,10}ich werde ihnen.{1,15}einzelheiten/i
-
 # Discuss something
 # ------------------------------------------------------------------------------
 /uns beide gewinnbringend besprechen/i
@@ -108,7 +96,7 @@
 
 # Legal
 # ------------------------------------------------------------------------------
-/legal in Ihrem Namen beanspruchen/i
+/legal in ihrem namen beanspruchen/i
 
 # Moving
 # ------------------------------------------------------------------------------

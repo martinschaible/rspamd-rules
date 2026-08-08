@@ -18,21 +18,14 @@
 /award you the sum of/i
 /awarded to your.{1,10}e?.?mail/i
 
-/congratulations.{1,10}\d{3}.{0,5}\d{3}.{1,10}has been awarded to/i
 /nomination.{1,10}global business award/i
 
 /participate.{1,10}our global.?awards?/i
 /pending nomination for the.{1,20}awards?/i
 
-/you have been awarded.{1,10}\d{3}.{0,5}\d{3}/i
 /you have been awarded.{1,10}compensation/i
 
 /your.{1,15}(donation|stock) awards?/i
-
-
-# Currency, Big numbers
-# ------------------------------------------------------------------------------
-/million to you for business/i
 
 # Discuss something
 # ------------------------------------------------------------------------------
@@ -43,65 +36,9 @@
 # ------------------------------------------------------------------------------
 /urgent.{1,10}there is.{1,10}unclaimed benefit/i
 
-# Inheritance
-# ------------------------------------------------------------------------------
-/i inherited money from my.{1,10}late.{1,10}husband/i
-/invest my inheritance fund/i
-
-/inheritance funds.{1,10}your bank account/i
-/inheritance claim.{1,10}in my bank/i
-
-/unclaimed inheritance.{1,10}your last.?name/i
-
-/your inheritance.{1,10}contract.{1,10}payment/i
-
-# Legal
-# ------------------------------------------------------------------------------
-/this venture is legal/i
-/it is legal and genuine/i
-
-# No risk
-# ------------------------------------------------------------------------------
-/you.{1,10}this deal has no risk/i
-/this transaction is.{1,15}(legit|risk free)/i
-
-# Share the same name or same nationality
-# ------------------------------------------------------------------------------
-/contacting.{1,20}you.{1,10}share the.{1,10}same (family|last|sur).?name/i
-/(deceased|late).{1,10}(client|customer).{1,10}of mine.{1,10}shares the same.{1,10}name/i
-/(family|last|sur).?name with.{1,10}(deceased|late).{1,10}(client|customer)/i
-
-/he has the same.{1,10}name as you/i
-/same name with.{1,20}kindly confirm.{1,10}if your related/i
-
-/who shares the same.{1,10}name with you/i
-
-/you bear the.{1,10}(family|last|sur).?name/i
-/you have the same.{1,10}(family|last|sur).?name/i
-
 # Sharing money
 # ------------------------------------------------------------------------------
 /we can split the fund in the ratio of/i
-
-#
-#
-#
-
-# Next Of Kin
-# ------------------------------------------------------------------------------
-/claim as his.{1,10}next of kin/i
-
-/i am the.{1,10}next of kin of/i
-
-/seek a next of kin/i
-
-# Insurance Policy
-# ------------------------------------------------------------------------------
-/you about an unclaimed.{1,15}life insurance policy/i
-
-#
-#
-#
 
 # Nomination
 # ------------------------------------------------------------------------------
@@ -111,15 +48,6 @@
 #
 #
 
-# Business Register
-# ------------------------------------------------------------------------------
-/eu.business.register/i
-/world business directory/i
-
-/your company.{1,15}in the.{1,15}(business|world.?company).?(directory|register)/i
-/your company.{1,15}in the.{1,15}yellow.?pages.?web/i
-
-/yellow.?pages.?web.{1,10}(p\.o\.|for 202\d)/i
 
 # Collecting postal stamps
 # ------------------------------------------------------------------------------
