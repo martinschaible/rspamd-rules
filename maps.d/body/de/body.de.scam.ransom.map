@@ -9,10 +9,6 @@
 # Topics
 # ==============================================================================
 
-# French
-# ------------------------------------------------------------------------------
-/je suis un hacker professionnel/i
-
 #
 #
 #
@@ -25,15 +21,18 @@
 
 # B
 # ------------------------------------------------------------------------------
+/(btc|bitcoin) an die.{1,10}adresse unten/i
 
 # C
 # ------------------------------------------------------------------------------
 
 # D
 # ------------------------------------------------------------------------------
+/dieser.{1,10}(trojaner|virus) ermöglichte? mir/iu
 
 # E
 # ------------------------------------------------------------------------------
+/euro? an meine? (btc|bitcoin).?(adresse|brieftasche|geldbörse|wallet)/i
 
 # F
 # ------------------------------------------------------------------------------
@@ -44,22 +43,31 @@
 
 # H
 # ------------------------------------------------------------------------------
+/habe ich.{1,10}(zugang|zugriff) auf.{1,10}dateien/i
+/habe ich.{1,10}unbefugten.{1,10}(zugang|zugriff)/i
 
 # I
 # ------------------------------------------------------------------------------
 /ich bin ein professioneller (hacker|häcker)/i
 /ich bin ein (hacker|häcker)/i
 
+/ich erfolgreich.{1,10}(trojaner|virus)/i
+/ich habe einen.{1,10}(trojaner|virus) in.{1,10}betriebssystemen/i
+
 /ich\b.{1,25}(zugang|zugriff).{1,10}(auf|zu).{1,10}(alle|deine?|ihre?).{1,10}(dateien|geräte|konto)/i
 /ich\b.{1,25}(zugang|zugriff).{1,10}(auf|zu).{1,10}(computer|system).{1,10}verschafft/i
 /ich\b.{1,25}(zugang|zugriff).{1,10}auf alle ihre kontakte/i
+
 /ich\b.{1,25}(zugang|zugriff).{1,10}ihrer?.{1,10}kontakt(en)?liste/i
 
-/ihr (computer|system) mit.{1,10}virus/i
+/ihr (computer|system) mit.{1,10}(trojaner|virus)/i
 /ihr (computer|system) wurde (gehackt|geknackt) mit/i
 /ihr.{1,25}zu häcken/i
 
 /ihre aktivitäten heimlich überwacht/iu
+
+/installierte ich.{1,10}(trojaner|virus) erfolgreich/i
+/installierte ich.{1,10}(trojaner|virus)/i
 
 # J
 # ------------------------------------------------------------------------------
@@ -72,7 +80,13 @@
 
 # M
 # ------------------------------------------------------------------------------
-/mein(em)?.{1,10}bitcoins?.?konto.{1,10}bitcoins?.?wallet/i
+/mein.{1,10}(trojaner|virus) (hat|ist)/i
+
+/mein(em)?.{1,10}(btc|bitcoin).?konto.{1,10}(btc|bitcoin).?wallet/i
+
+/meine?.{1,10}(btc|bitcoin).{0,10}(adresse|brieftasche|geldbörse|konto|wallet).{1,10}sieht so aus/iu
+/meine?.{1,10}(btc|bitcoin).{0,10}(adresse|brieftasche|geldbörse|konto|wallet).{1,10}(btc|bitcoin).?wallet.{1,10}lautet/iu
+/meine?.{1,10}(btc|bitcoin).{0,10}(adresse|brieftasche|geldbörse|konto|wallet).{1,15}zahlung/iu
 
 # N
 # ------------------------------------------------------------------------------
@@ -91,12 +105,18 @@
 
 # S
 # ------------------------------------------------------------------------------
+/sie.{1,10}einfach.{1,10}(btc|bitcoin).{1,10}kaufen/i
+/sie.{1,10}müssen mir.{1,10}euro überweisen.{1,10}(btc|bitcoin).{1,10}gegenwert/i
 
 # T
 # ------------------------------------------------------------------------------
+/(trojaner|virus) hat mir.{1,10}zugriff auf ihre dateien/i
 
 # U
 # ------------------------------------------------------------------------------
+/überweise.{1,10}euro?.{1,25}auf mein (btc|bitcoin).?(adresse|brieftasche|geldbörse|konto|wallet)/iu
+
+/unten ist mein.{1,10}(btc|bitcoin).{0,10}(adresse|brieftasche|geldbörse|konto|wallet)/i
 
 # V
 # ------------------------------------------------------------------------------

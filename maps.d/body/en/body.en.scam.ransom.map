@@ -16,8 +16,15 @@
 /my perverted friend/i
 /mi pervertido amigo/i
 
+# French
+# ------------------------------------------------------------------------------
+/je suis un hacker professionnel/i
+
 # Polish
+# ------------------------------------------------------------------------------
+/do twojego systemu operacyjnego/i
 /mój adres (bitcoin|btc).{1,10}(address|wallet)/i
+/adres (bitcoin|btc).{1,10}btc wallet/i
 
 #
 #
@@ -28,10 +35,12 @@
 
 # A
 # ------------------------------------------------------------------------------
+/adult.{1,10}(web)?site that you visited/i
 
 # B
 # ------------------------------------------------------------------------------
-/below is my.{1,10}(bitcoin|btc).{1,10}cryptowallet/i
+/below is.{1,10}(bitcoin|btc).{1,10}cryptowallet/i
+/below is.{1,10}(bitcoin|btc).?(address|wallet) of mine/i
 
 /(bitcoin|btc).{1,10}(address|wallet).{1,10}for.{1,10}(payment|transaction|transfer)/i
 /(bitcoin|btc).{1,10}(address|wallet).{1,10}is/i
@@ -67,10 +76,16 @@
 /i have.{1,10}tracking your.{1,10}online.{1,10}activities/i
 
 /i.{1,10}have.{1,10}installed.{1,15}(malware|spyware|trojan|virus)/i
+
+/i.{1,10}(have|managed).{1,10}to get.{1,10}access.{1,10}all.{1,10}(account|computer|devices?|mobile)/i
 /i.{1,10}(have|managed).{1,10}install(ed)?.{1,15}(malware|spyware|trojan|virus)/i
 
-/i\b.{1,10}(gained|get|have|obtained|succeeded).{1,20}access.{1,15}your.{1,10}(account|computer|devices?|messenger|mobile)/i
-/i\b.{1,10}(hacked|monitored) your.{1,15}(account|computer|devices?|mobile|system)/i
+/i.{1,10}can see your.{1,10}screen/i
+/i.{1,10}have.{1,10}access? to your.{1,15}(account|contacts?|device|e?.?mail|messenger|networks|social)/i
+/i.{1,10}recorded some videos of you/i
+
+/i.{1,10}(gained|get|have|obtained|succeeded).{1,20}access.{1,15}your.{1,10}(account|computer|devices?|messenger|mobile)/i
+/i.{1,10}(hacked|monitored) your.{1,15}(account|computer|devices?|mobile|system)/i
 
 /i was able to put.{1,15}(malware|spyware|trojan|virus)/i
 
@@ -87,6 +102,13 @@
 
 # M
 # ------------------------------------------------------------------------------
+/(malware|spyware|trojan|virus).{1,15}enabled me to connect/i
+/(malware|spyware|trojan|virus).{1,15}gives me full access/i
+/(malware|spyware|trojan|virus).{1,15}through one of your/i
+
+/my.{1,10}(malware|spyware|trojan|virus).{1,10}gave me/i
+
+/my.{1,10} private.{1,10}(malware|spyware|trojan|virus)/i
 
 # N
 # ------------------------------------------------------------------------------
@@ -107,6 +129,10 @@
 # ------------------------------------------------------------------------------
 /(send|transfer).{1,10}(us dollars|usd).{1,10}to.{1,10}(bitcoin|btc|cryptocurrency)/i
 
+/(send|transfer).{1,10}\d{3,4}.{1,15}to my (bitcoin|btc|cryptocurrency).{1,10}wallet/i
+/(send|transfer).{1,10}(us dollars|usd).{1,10}in bitcoin equivalent/i
+/(send|transfer).{1,10}(bitcoin|btc).{1,15}to my.{1,10}wallet/i
+
 # T
 # ------------------------------------------------------------------------------
 /thing is.{1,10}device was hacked/i
@@ -119,24 +145,35 @@
 
 # V
 # ------------------------------------------------------------------------------
+/video that you watched/i
 
 # W
 # ------------------------------------------------------------------------------
 /we.{1,10}accessed your phone/i
 
+/we.{1,10}hacked your system/i
+
 /we.{1,10}have your private.{1,20}out of your device/i
 /we.{1,10}have your photos/i
 
-/we.{1,10}installed.{1,10}(exploit|spyware) on your/i
+/we.{1,10}installed.{1,10}exploit on your/i
+/we.{1,10}installed.{1,10}(malware|spyware|trojan|virus) on your/i
 
 /who hacked into your.{1,15}(account|computer|devices?|mobile|system)/i
 
 # X
 # ------------------------------------------------------------------------------
+
 # Y
 # ------------------------------------------------------------------------------
-/your?.{1,10}been infected with malware/i
-/your.{1,10}device is infected with.{1,15}(trojan|virus)/i
+/you.{1,10}need to transfer.{1,15}(dollars|usd).{1,15}(bitcoin|btc)/i
+/you.{1,10}to send me.{1,10}of.{1,10}usd.{1,10}(bitcoin|btc)/i
+/you.{1,10}working days.{1,10}transfer the money/i
+
+/your?.{1,10}been infected with.{1,10}(malware|spyware|trojan|virus)/i
+/your.{1,10}device is infected with.{1,15}(malware|spyware|trojan|virus)/i
+
+/your.{1,10}e?.?mails are infected with.{1,15}(malware|spyware|trojan|virus)/i
 
 # Z
 # ------------------------------------------------------------------------------
