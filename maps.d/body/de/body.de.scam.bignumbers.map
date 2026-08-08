@@ -27,11 +27,15 @@
 /\d{2,4}(\.|,)?\d{3,4}.{1,10}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,15}weitere informationen kontaktieren sie/i
 /\d{2,4}(\.|,)?\d{3,4}.{1,10}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,10}wurde ihrer.{1,10}e?.?mail.?adresse/i
 /\d{2,4}(\.|,)?\d{3,4}.{1,10}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,10}wurden ihnen von/i
+/\d{2,4}(\.|,)?\d{3,4}.{1,10}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,10}zugewiesen wurde/i
 
+/\d{2,4}(\.|,)?\d{3,4}.{1,10}antworten sie auf/i
 /\d{2,4}(\.|,)?\d{3,4}.{1,10}bitte kontaktieren sie/i
+/\d{2,4}(\.|,)?\d{3,4}.{1,10}mit ihrem.{1,10}namen/i
 
 /\d{2,4}(\.|,)?\d{3,4}.{1,10}wenn ja.{1,10}kontaktieren sie mich/i
 /\d{2,4}(\.|,)?\d{3,4}.{1,10}wurden an sie gespendet/i
+
 
 #
 #
@@ -142,12 +146,15 @@
 /(million(en)?|tausend).{1,10}(euro?|dollars?|gbp|usd|€|\$|£).{1,10}haben wir ihnen/i
 
 /(million(en)?|tausend).{1,10}(euro?|dollars?|gbp|usd|€|\$|£).{1,10}ich spende/i
+/(million(en)?|tausend).{1,10}(euro?|dollars?|gbp|usd|€|\$|£).{1,10}ich werde ihnen.{1,15}einzelheiten/i
 /(million(en)?|tausend).{1,10}(euro?|dollars?|gbp|usd|€|\$|£).{1,10}in ihrem namen genehmigt/i
 
-/(million(en)?|tausend).{1,10}(euro?|dollars?|gbp|usd|€|\$|£).{1,10}kontaktieren sie mich/i
+/(million(en)?|tausend).{1,10}(euro?|dollars?|gbp|usd|€|\$|£).{1,10}kontaktieren sie (mich|uns)/i
 
 /(million(en)?|tausend).{1,15}ausgewählt.{1,10}für weitere informationen wenden sie sich/iu
 /(million(en)?|tausend).{1,10}wurden? an sie überwiesen/iu
+
+/mein geld von.{1,15}(million(en)?|tausend).{1,15}(euro?|dollars?|gbp|usd|€|\$|£)/i
 
 # N
 # ------------------------------------------------------------------------------

@@ -25,13 +25,6 @@
 # ------------------------------------------------------------------------------
 /you.{1,10}have been awarded.{1,10}settlement package/i
 
-# Fake Companies and organisations
-# ------------------------------------------------------------------------------
-/european anti.?fraud commission/i
-/google relief support/i
-/musk foundation charity/i
-/scam victims compensation/i
-
 # Fake Awards
 # ------------------------------------------------------------------------------
 /(european|german|switzerland).{1,10}(business|enterprise|excellence|prestige).{1,10}awards?/i
@@ -62,6 +55,24 @@
 # ------------------------------------------------------------------------------
 /ihnen meine erbschaft.{1,15}anvertrauen/i
 
+# Share the same name or same nationality
+# ------------------------------------------------------------------------------
+/contacting.{1,20}you.{1,10}share the.{1,10}same.{1,10}name/i
+/(deceased|late).{1,10}(client|customer).{1,10}of mine.{1,10}shares the same.{1,10}name/i
+
+/has the same.{1,10}name as you/i
+
+/name with.{1,10}(deceased|late).{1,10}(client|customer)/i
+
+/same name with.{1,20}kindly confirm.{1,10}if your related/i
+
+/shares.{1,10}the same.{1,10}name with you/i
+/shares.{1,10}your.{1,10}name/i
+
+/you.{1,10}bear the.{1,10}name/i
+/you.{1,10}have the same.{1,10}name/i
+/you.{1,10}share.{1,10}name.{1,10}please contact/i
+
 #
 #
 #
@@ -70,13 +81,12 @@
 # ------------------------------------------------------------------------------
 /att(ention)?.{1,15}card.{1,10}owner/i
 
-/atm.{0,10}card.{1,10}bearing your name/i
+/atm.{0,10}card.{1,10}(bearing|in) your.{1,10}name/i
 /atm.{0,10}card.{1,10}contact mr/i
 /atm.{0,10}card.{1,10}delivery/i
 /atm.{0,10}card.{1,10}for you worth/i
 /atm.{0,10}card.{1,10}has been approved/i
 /atm.{0,10}card.{1,10}i am contacting you/i
-/atm.{0,10}card.{1,10}in your name/i
 /atm.{0,10}card.{1,10}to you.{1,10}contact/i
 /atm.{0,10}card.{1,10}parcel valued/i
 /atm.{0,10}card.{1,10}we have deposited/i
@@ -121,7 +131,7 @@
 
 # A
 # ------------------------------------------------------------------------------
-/attached with your.{1,10}(sur)?name/i
+/attached with your.{1,10}name/i
 
 /assist me.{1,10}moving out late/i
 /assist me.{1,10}sincerely.{1,10}confident/i
@@ -136,17 +146,14 @@
 
 # C
 # ------------------------------------------------------------------------------
+/claim as his.{1,10}next of kin/i
 /claim your.{1,15}british pounds from mr/i
 
-# No idea what this is for
-# ------------------------------------------------------------------------------
-/click below for.{1,10}complimentary copy of/i
-
 /commission basis.{1,10}if you.{1,10}interested/i
+/confidential.{1,15}would like to discuss with you/i
 
 /crucial discussion with you/i
 
-/confidential.{1,15}would like to discuss with you/i
 
 # D
 # ------------------------------------------------------------------------------
@@ -174,6 +181,8 @@
 
 # I
 # ------------------------------------------------------------------------------
+/i am the.{1,10}next of kin of/i
+
 /i have.{1,10}a deposit fund/i
 /i have.{1,25}a few months to live/i
 /i have.{1,10}some funds.{1,10}inherited/i
@@ -185,15 +194,22 @@
 /i want is.{1,10}honest.{1,10}reliable.{1,10}person/i
 
 /immediate release of your.{1,10}funds?/i
+
 /inheritance.{1,15}(associated|linked) (to|with) your.{1,15}name/i
+/inheritance.{1,10}(claim|funds).{1,10}in my bank/i
+/inheritance.{1,10}(claim|funds).{1,10}your.{1,15}(account|bank)/i
+
+/inherited.{1,10}money from my.{1,10}late.{1,10}husband/i
 
 /interest(ed)?.{1,10}to you.{1,10}kindly contact me/i
 /interest(ed)?.{1,10}entering into.{1,10}joint venture corporation/i
 
 /introduce.{1,10}partnership intention/i
 
+/invest my inheritance.{1,10}fund/i
 /invited you to be.{1,10}member of the.{1,10}organization/i
 
+/it is legal and genuine/i
 
 # J
 # ------------------------------------------------------------------------------
@@ -206,11 +222,10 @@
 
 # L
 # ------------------------------------------------------------------------------
-/(seeking|looking).{1,10}someone.{1,10}(capable|reliable|sincere).{1,10}trustworthy/i
-/(seeking|looking).{1,10}(capable|reliable|sincere).{1,10}trustworthy.{1,10}(individual|person|representative)/i
-/(seeking|looking).{1,10}(trusted|trustworthy).{1,10}(individual|person|representative)/i
-
-/(seeking|looking).{1,10}for .{1,10}trustworthy.{1,10}(individual|person|representative)/i
+/(looking|seeking).{1,10}someone.{1,10}(capable|reliable|sincere).{1,10}trustworthy/i
+/(looking|seeking).{1,10}(capable|reliable|sincere).{1,10}trustworthy.{1,10}(individual|person|representative)/i
+/(looking|seeking).{1,10}(trusted|trustworthy).{1,10}(individual|person|representative)/i
+/(looking|seeking).{1,10}for.{1,10}trustworthy.{1,10}(individual|person|representative)/i
 
 /sorry for contacting you directly/i
 
@@ -259,10 +274,9 @@
 /scam(med)? victims?.{1,10}to be paid/i
 
 /searching for.{1,10}kind.?hearted partner.{1,20}(build|legacy)/i
+/seek.{1,10}next of kin/i
 
 /share.{1,10}profitable supply/i
-
-/shares your surname/i
 
 /subject.{1,10}copyright notification.{1,10}music usage review/i
 
@@ -271,10 +285,14 @@
 /their.{1,10}potential benefits for you/i
 /there.{1,10}is a grant for you/i
 
+/this.{1,10}deal has no risk/i
+/this.{1,10}venture is legal/i
+
 /transfer.{1,10}funds to your country/i
 
 # U
 # ------------------------------------------------------------------------------
+/unclaimed inheritance.{1,10}your.{1,10}name/i
 
 # V
 # ------------------------------------------------------------------------------
@@ -306,6 +324,7 @@
 
 # Y
 # ------------------------------------------------------------------------------
+
 /you.{1,10}been.{1,15}identified as.{1,15}recipient/i
 /you.{1,10}been.{1,15}selected.{1,10}as one of.{1,10}recipients/i
 /you.{1,10}been.{1,15}selected.{1,10}beneficiary/i
@@ -318,7 +337,6 @@
 /you.{1,10}regarding.{1,10}this.{1,10}claim/i
 
 /you.{1,10}respect.{1,20}my (client|customer)/i
-/you.{1,10}share.{1,10}last.?name.{1,10}please contact/i
 /you.{1,10}unclaimed inheritance/i
 
 /your.{1,10}atm.?card has been.{1,10}released/i
@@ -332,6 +350,7 @@
 /your?.{1,10}(deceased|late).{1,10}(father|husband|relative).{1,15}you.{1,15}(confidentially|confirm)/i
 
 /your.{1,10}indulgence to assist me/i
+/your .{1,10}inheritance.{1,10}contract.{1,10}payment/i
 
 /your.{1,10}business isn.?t.{1,10}registered with/i
 /your.{1,10}help to recover my inheritance/i

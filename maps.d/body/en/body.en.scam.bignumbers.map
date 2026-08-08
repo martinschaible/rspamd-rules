@@ -29,6 +29,8 @@
 
 /claim your.{1,10}\d{2,4}(\.|,)?\d{3,4}/i
 
+/congratulations.{1,10}\d{2,4}(\.|,)?\d{3,4}.{1,10}has been awarded to/i
+
 # D
 # ------------------------------------------------------------------------------
 /\d{2,4}(\.|,)?\d{3,4}.{1,10}(dollars?|euro?|gbp|usd|€|\$|£).{1,10}your designated bank account/i
@@ -72,6 +74,7 @@
 # M
 # ------------------------------------------------------------------------------
 /(million|thousand).{1,10}(dollars?|euro?|gbp|usd|€|\$|£).{1,10}contact this e?.?mail/i
+/(million|thousand).{1,10}to you for business/i
 /(million|thousand).{1,10}you have been waiting/i
 /(million|thousand).{1,10}we are open.{1,15}discussions/i
 
@@ -114,7 +117,8 @@
 /you will be awarded.{1,15}(dollars?|euro?|gbp|usd|€|\$|£)/i
 /you will be awarded.{1,15}million/i
 
-/you have received.{1,10}\d{1,4}(\.|,)?\d{3,4}.{1,10}to your account/i
+/you have.{1,10}been awarded.{1,10}\d{1,4}(\.|,)?\d{3,4}/i
+/you have.{1,10}received.{1,10}\d{1,4}(\.|,)?\d{3,4}.{1,10}to your account/i
 
 /your.{1,10}assistance.{1,10}(manage|move|transfer|transferring).{1,20}(dollars?|euro?|gbp|usd|€|\$|£)/i
 
