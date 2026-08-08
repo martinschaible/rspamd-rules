@@ -47,7 +47,6 @@
 
 # C
 # ------------------------------------------------------------------------------
-/your (web)?.?site.{1,10}you have.{1,10}impressive/i
 
 # D
 # ------------------------------------------------------------------------------
@@ -74,6 +73,8 @@
 
 /google.{1,10}we can help you/i
 /google.{1,10}we can optimize/i
+
+/grow your busines.{1,10}seo/i
 
 # H
 # ------------------------------------------------------------------------------
@@ -158,6 +159,8 @@
 /page 1 of.{1,10}(bing|google|yahoo)/i
 
 /proposal.{1,10}of your.{1,10}(web)?.?site/i
+
+/(provide|providing).{1,10}free.{1,10}seo/i
 
 # Q
 # ------------------------------------------------------------------------------
@@ -302,6 +305,7 @@
 
 /your.{1,10}(web)?.?site.{1,10}has.{1,10}broken links/i
 /your.{1,10}(web)?.?site.{1,25}has.{1,10}problems.{1,10}you.{1,10}(might|need)/i
+/your.{1,10}(web)?.?site.{1,15}have.{1,10}impressive/i
 
 /your.{1,10}(web)?.?site.{1,15}impressed /i
 /your.{1,10}(web)?.?site.{1,10}indexed on the (1st|first).?page/i
