@@ -66,8 +66,8 @@
 
 # M
 # ------------------------------------------------------------------------------
-/mit ihren.{1,10}(nach)?namen in verbindung steht/i
-/mit ihrem.{1,10}(nach)?namen zusammenhängt/iu
+/mit ihren.{1,10}(nach)?namen.{1,10}in verbindung steht/i
+/mit ihrem.{1,10}(nach)?namen.{1,10}zusammenhängt/iu
 
 # N
 # ------------------------------------------------------------------------------
@@ -87,10 +87,9 @@
 
 # S
 # ------------------------------------------------------------------------------
-/sie.{1,10}als.{1,10}nächste.{1,10}angehörige vorzustellen/i
-/sie.{1,10}als.{1,10}nächsten.{1,10}angehörigen/iu
-/sie.{1,10}als.{1,10}verwandter.{1,15}verstorbenen (mandanten|kunden)/i
+/sie.{1,10}als.{1,10}nächsten?.{1,10}(angehörige|angehörigen)/i
 
+/sie.{1,10}als.{1,10}verwandter.{1,15}verstorbenen (mandanten|kunden)/i
 /sie.{1,15}eines verstorbenen.{1,10}(mandanten|kunden)/i
 
 /sie zum offiziellen.{1,10}empfänger/iu
