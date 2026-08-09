@@ -14,16 +14,6 @@
 #            https://www.scamadviser.com/check-website/shops1000.com
 /erinnerung.{1,10}ihre? (eintrag|eintragung|liste) (auf|bei).{1,10}(fashionshops10|gyms1|ngos1|shops1000)/i
 
-# Beneficiary
-# ------------------------------------------------------------------------------
-/(achtung|benannter|glücklicher|händen|neuer).{1,15}begünstigter?/iu
-
-/sie sind.{1,15}begünstigten/iu
-/sie wurden als.{1,10}begünstigter/iu
-
-/begünstigter.{1,10}des/i
-/begünstigter für.{1,15}ausgewählt/iu
-
 # Comparing price for solar energy at home
 # ------------------------------------------------------------------------------
 # -> They are stealing personal information
@@ -303,8 +293,6 @@
 
 # M
 # ------------------------------------------------------------------------------
-/mastercard im wert/i
-
 /mit ihrer.{1,10}e?.?mail qualifiziert/i
 
 /mögliche zusammenarbeit in/iu
