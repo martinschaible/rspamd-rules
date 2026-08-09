@@ -415,6 +415,7 @@ body
   │   │
   │   ├─ body.de.scam.atm.map                              **
   │   ├─ body.de.scam.awards.map                           **
+  │   ├─ body.de.scam.beneficiary.map                      **
   │   ├─ body.de.scam.business.map
   │   ├─ body.de.scam.bignumbers.map
   │   ├─ body.de.scam.donation.map
@@ -439,6 +440,7 @@ subject
   │   ├─ subject.de.scam.map
   │   ├─ subject.de.scam.atm.map                           **
   │   ├─ subject.de.scam.awards.map                        **
+  │   ├─ subject.de.scam.beneficiary.map                   **
   │   ├─ subject.de.scam.bignumbers.map
   │   ├─ subject.de.scam.business.map
   │   ├─ subject.de.scam.donation.map
