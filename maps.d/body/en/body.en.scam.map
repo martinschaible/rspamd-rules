@@ -29,23 +29,6 @@
 # ------------------------------------------------------------------------------
 /(european|german|switzerland).{1,10}(business|enterprise|excellence|prestige).{1,10}awards?/i
 
-# Beneficiary
-# ------------------------------------------------------------------------------
-/(beneficiaries|beneficiary).{1,10}the total sum of/i
-/(beneficiaries|beneficiary).{1,10}to late mrs?/i
-/(beneficiaries|beneficiary).{1,10}which is you.{1,10}your name/i
-/(beneficiaries|beneficiary).{1,10}as next of kin/i
-/(beneficiaries|beneficiary).{1,10}to receive the{1,15}donation/i
-
-/present you.{1,25}as.{1,10}(beneficiaries|beneficiary|contractor)/i
-
-/you.{1,15}(appear|are|selected|emerged).{1,10}(among|as one|to be one|one).{1,30}(beneficiaries|beneficiary)/i
-/you.{1,10}have been (listed|named|selected) as.{1,30}(beneficiaries|beneficiary)/i
-/you.{1,10}to be.{1,10}nearest.{1,10}(beneficiaries|beneficiary)/i
-
-/your.{1,10}(application as|help to stand as).{1,10}(beneficiaries|beneficiary)/i
-/your.{1,10}name (as|is one of).{1,20}(beneficiaries|beneficiary)/i
-
 # Business in Dubai
 # ------------------------------------------------------------------------------
 /choose to start.{1,15}their businesses in/i
@@ -76,40 +59,6 @@
 #
 #
 #
-
-# ATM Card
-# ------------------------------------------------------------------------------
-/att(ention)?.{1,15}card.{1,10}owner/i
-
-/atm.{0,10}card.{1,10}(bearing|in) your.{1,10}name/i
-/atm.{0,10}card.{1,10}contact mr/i
-/atm.{0,10}card.{1,10}delivery/i
-/atm.{0,10}card.{1,10}for you worth/i
-/atm.{0,10}card.{1,10}has been approved/i
-/atm.{0,10}card.{1,10}i am contacting you/i
-/atm.{0,10}card.{1,10}to you.{1,10}contact/i
-/atm.{0,10}card.{1,10}parcel valued/i
-/atm.{0,10}card.{1,10}we have deposited/i
-/atm.{0,10}card.{1,10}worth.{1,10}(million|sum of)/i
-/atm.{0,10}card.{1,10}worth.{1,10}sum of/i
-/atm.{0,10}card.{1,10}worth.{1,10}(dollar|euro?|gbp|usd)/i
-
-/\d{3}.{0,5}\d{3}.{1,10}million.{1,10}atm.{1,10}card/i
-
-/delivery? of your.{1,10}atm.{1,10}card to you/i
-/donation.{1,10}atm.{0,10}card/i
-/we received an.{1,10}atm.{0.10}card/i
-
-/your.{1,10}atm.{0.10}card.{1,10}has been deposited/i
-/your.{1,10}atm.{0.10}card.{1,10}ready for delivery/i
-/your.{1,10}atm.{0.10}card.{1,10}to your address/i
-/your.{1,10}atm.{0,10}card.{1,10}worth of/i
-
-/your.{1,10}name with.{1,10}atm.{0,10}card/i
-/your.{1,10}package.{1,10}atm.{0,10}card/i
-/your.{1,10}payment of.{1,10}million.{1,10}through.{1,10}atm.{1,10}card/i
-
-/your.{1,10}upgraded atm.{0.10}card/i
 
 # Illuminati
 # ------------------------------------------------------------------------------
@@ -324,10 +273,8 @@
 
 # Y
 # ------------------------------------------------------------------------------
-
 /you.{1,10}been.{1,15}identified as.{1,15}recipient/i
 /you.{1,10}been.{1,15}selected.{1,10}as one of.{1,10}recipients/i
-/you.{1,10}been.{1,15}selected.{1,10}beneficiary/i
 /you.{1,10}been.{1,10}quietly selected for something/i
 
 /you.{1,10}regarding.{1,10}deceased (client|customer)/i
@@ -338,8 +285,6 @@
 
 /you.{1,10}respect.{1,20}my (client|customer)/i
 /you.{1,10}unclaimed inheritance/i
-
-/your.{1,10}atm.?card has been.{1,10}released/i
 
 /your?.{1,15}assist(ance)? in.{1,10}receipt/i
 /your?.{1,15}assist(ance)? to.{1,10}receive.{1,10}sum/i
