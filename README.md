@@ -203,6 +203,12 @@ subject
   └─ subject.asia.map
 ```
 
+**Configuration:**
+
+* multimap.body.conf
+* multimap.sender.from.conf
+* multimap.subject.conf
+
 ### Setup for "Health"
 
 Description of the topic goes here.....
@@ -212,7 +218,7 @@ Folder structure:
 ```
 body
   ├─ de
-  │   ├─ bodyde,.health.map
+  │   ├─ body.de.health.map
   │   │
   │   ├─ body.de.health.meds.map                           **
   │   ├─ body.de.health.men.map                            **
@@ -242,8 +248,19 @@ subject
   │   └─ subject.de.health.wl.map                          **
   └─ en
       └─ ....
+
+lists
+  └─ list.medname.map
+
 ```
 
+**Configuration:**
+
+* multimap.body.(de|en).health.conf
+* multimap.sender.from.health.conf
+* multimap.sender.from.(de|en).health.conf
+* multimap.subject.health.conf
+* multimap.subject.(de|en).health.conf
 
 ### Setup for "Malware"
 
@@ -269,6 +286,12 @@ subject
   └─ en
       └─ ....
 ```
+
+**Configuration:**
+
+* multimap.body.(de|en).malware.conf
+* multimap.sender.from.(de|en).malware.conf
+* multimap.subject.(de|en).malware.conf
 
 ### Setup for "Phishing"
 
@@ -350,6 +373,15 @@ subject
 
 ```
 
+**Configuration:**
+
+* multimap.body.phishing.conf
+* multimap.body.(de|en).phishing.conf
+* multimap.sender.from.phishing.conf
+* multimap.sender.from.(de|en).phishing.conf
+* multimap.subject.phishing.conf
+* multimap.subject.(de|en).phishing.conf
+
 ### Setup for "Sale"
 
 Description of the topic goes here.....
@@ -401,6 +433,15 @@ subject
   │
   └─ subject.sale.orgbrandproduct.map
 ```
+
+**Configuration:**
+
+* multimap.body.sale.conf
+* multimap.body.(de|en).sale.conf
+* multimap.sender.from.sale.conf
+* multimap.sender.from.(de|en).sale.conf
+* multimap.subject.sale.conf
+* multimap.subject.(de|en).sale.conf
 
 ### Setup for "Scam"
 
@@ -454,6 +495,12 @@ subject
       └─ ....
 ```
 
+**Configuration:**
+
+* multimap.body.(de|en).scam.conf
+* multimap.sender.from.(de|en).scam.conf
+* multimap.subject.(de|en).scam.conf
+
 ### Setup for "Seasonal"
 
 Some Spam attacks occur regularly but are short-lived.
@@ -479,6 +526,12 @@ subject
       └─ ....
 
 ```
+
+**Configuration:**
+
+* multimap.body.(de|en).seasonal.conf
+* multimap.sender.from.conf
+* multimap.subject.(de|en).seasonal.conf
 
 ### Setup for "Other Topics"
 
@@ -518,6 +571,27 @@ subject
   └─ en
       └─ ....
 ```
+
+**Configuration:**
+* multimap.body.(de|en).adult.conf
+* multimap.body.(de|en).finance.conf
+* multimap.body.(de|en).gambling.conf
+* multimap.body.(de|en).lottery.conf
+* multimap.body.(de|en).makemoney.conf
+* multimap.body.(de|en).stocks.conf
+
+* multimap.sender.from.(de|en).adult.conf
+* multimap.sender.from.(de|en).finance.conf
+* multimap.sender.from.(de|en).gambling.conf
+* multimap.sender.from.(de|en).lottery.conf
+* multimap.sender.from.(de|en).makemoney.conf
+
+* multimap.subject.(de|en).adult.conf
+* multimap.subject.(de|en).finance.conf
+* multimap.subject.(de|en).gambling.conf
+* multimap.subject.(de|en).lottery.conf
+* multimap.subject.(de|en).makemoney.conf
+* multimap.subject.(de|en).stocks.conf
 
 ### Setup for "whitelist"
 
