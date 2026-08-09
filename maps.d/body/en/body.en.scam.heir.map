@@ -47,6 +47,10 @@
 
 # I
 # ------------------------------------------------------------------------------
+/inheritance.{1,15}(associated|linked) (to|with) your.{1,15}name/i
+/inheritance.{1,10}(claim|funds).{1,10}in my bank/i
+/inheritance.{1,10}(claim|funds).{1,10}your.{1,15}(account|bank)/i
+
 /inherited.{1,10}money from my.{1,10}late.{1,10}husband/i
 
 # J
@@ -98,6 +102,7 @@
 
 # U
 # ------------------------------------------------------------------------------
+/unclaimed inheritance.{1,10}your.{1,10}name/i
 
 # V
 # ------------------------------------------------------------------------------
