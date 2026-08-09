@@ -176,7 +176,9 @@
 /sp0tify/i
 /s p o t i f y/i
 /@spotify$/i
+/spotify.{0,5}#/i
 /spotify_/i
+/spotify\.(ch|de)/i
 
 /spotify.{0,10}(ab|inc\.|notice|premium|support|team)/i
 /spotify.{0,10}kunden.?service/i
