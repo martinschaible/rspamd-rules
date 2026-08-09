@@ -162,10 +162,6 @@
 
 /willkommen auf unserem verzeichnis/i
 
-# Nomination for fake awards
-# ------------------------------------------------------------------------------
-/arbeitgeber der zukunft.{1,10}nominiert/i
-
 #
 #
 #
@@ -185,10 +181,9 @@
 /antworten sie für weitere details/iu
 /antworten sie so bald wie möglich/iu
 
-
 /aufmerksamkeit.{1,10}einen deal/i
 /aufmerksamkeit.{1,15}erforderlich/i
-/aufmerksamkeit.{1,10}(begünstigten|begünstigter|frau|herr)/iu
+/aufmerksamkeit.{1,10}(frau|herr)/iu
 /aufmerksamkeit.{1,10}ist gefragt/i
 
 /arbeiten sie mit mir/i
@@ -202,8 +197,6 @@
 
 /bestatigen sie/i
 /bestätigung.{1,10}zuschussauswahl/iu
-
-/betrieb des jahres deutschland/i
 
 /bist du tot oder (lebst du|lebendig)/i
 /(blanko|leere).{1,10}bank.?karte/i
@@ -227,16 +220,12 @@
 
 # E
 # ------------------------------------------------------------------------------
-/erbanspruch.{1,10}ihren namen/i
-
 /e?.?mail(.?adresse)?.{1,10}wurde.{1,15}(ausgewählt|zufallsprinzip)/iu
 
 /erhalten sie ihr verlorenes geld zurück/iu
 /ernsthafte anfrage/i
 
 /edle einladung/i
-
-/erbe für sie/iu
 
 # F
 # ------------------------------------------------------------------------------
@@ -285,7 +274,6 @@
 
 # L
 # ------------------------------------------------------------------------------
-/leere.{1,10}geldkarte/i
 /lesen.{1,10}bestätigen/iu
 
 /letzte chance auf günstige/iu
@@ -299,7 +287,6 @@
 
 # N
 # ------------------------------------------------------------------------------
-/nominierung.{1,10}auszeichnung/i
 
 # O
 # ------------------------------------------------------------------------------
@@ -316,8 +303,6 @@
 /privatsphäre wurde aufgrund illegaler.{1,20}verletzt/iu
 
 /prüfen sie mein angebot/iu
-
-/programmierte.{1,10}geldautomatenkarte/i
 
 # Q
 # ------------------------------------------------------------------------------

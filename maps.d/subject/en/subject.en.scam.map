@@ -18,14 +18,6 @@
 # ------------------------------------------------------------------------------
 /secure.{1,15}tokens today/i
 
-# Awards
-# ------------------------------------------------------------------------------
-/corporate.{1,15}global awards/i
-/innovation.{1,10}excellence awards/i
-
-/your.{1,10}award nomination/i
-/your.{1,10}compensation award/i
-
 # Greetings
 # ------------------------------------------------------------------------------
 /hello.{1,10}there is.{1,10}unclaimed/i
@@ -61,16 +53,6 @@
 /your payment.{1,10}to stop/i
 /your payment.{1,10}your video.{1,10}be sent/i
 
-# Fake Organisations
-# ------------------------------------------------------------------------------
-
-# Fake Awards
-# ------------------------------------------------------------------------------
-/(german|switzerland).{1,10}business awards 202\d/i
-/(german|switzerland).{1,10}Prestige Awards/i
-
-/golden business awards/i
-
 #
 #
 #
@@ -91,12 +73,8 @@
 /assistance needed.{1,10}charitable/i
 /are you dead/i
 
-/award nomination.{1,10}unique approach/i
-/award.{1,10}ref.?code/i
-
 # B
 # ------------------------------------------------------------------------------
-/be the next of kin/i
 
 # C
 # ------------------------------------------------------------------------------
@@ -108,7 +86,6 @@
 /charity.{1,10}inquiry/i
 
 /check your gold/i
-/celebrating your.{1,10}award nomination/i
 
 /claim now/i
 
@@ -163,7 +140,6 @@
 # G
 # ------------------------------------------------------------------------------
 /genuine collaboration$/i
-/get.{1,15}golden visa/i
 
 /get.{1,15}retirement residency visa/i
 /get.{1,10}your nomination.{1,10}today/i
@@ -225,8 +201,6 @@
 
 # M
 # ------------------------------------------------------------------------------
-/mutual investment/i
-
 /^my proposal/i
 
 # N
@@ -235,7 +209,6 @@
 
 /^next of kin/i
 
-/notification.{1,10}approved compensation/i
 /notice of your.{1,10}funds/i
 
 # O
@@ -351,8 +324,6 @@
 /your.{1,10}competitors are getting found/i
 
 /your.{1,15}immigration to the usa?/i
-
-/your.{1,10}(last).?name matches/i
 
 /your.{1,10}listing is live on/i
 /your.{1,10}listing on.{5,35}important information/i

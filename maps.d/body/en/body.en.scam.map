@@ -21,22 +21,10 @@
 /claim your.{1,10}airdrop/i
 /selected for the.{1,15}airdrop/i
 
-# Awards
-# ------------------------------------------------------------------------------
-/you.{1,10}have been awarded.{1,10}settlement package/i
-
-# Fake Awards
-# ------------------------------------------------------------------------------
-/(european|german|switzerland).{1,10}(business|enterprise|excellence|prestige).{1,10}awards?/i
-
 # Business in Dubai
 # ------------------------------------------------------------------------------
 /choose to start.{1,15}their businesses in/i
 /why is.{1,15}the best city for business/i
-
-# Heir
-# ------------------------------------------------------------------------------
-/ihnen meine erbschaft.{1,15}anvertrauen/i
 
 # Share the same name or same nationality
 # ------------------------------------------------------------------------------
@@ -88,14 +76,11 @@
 /assistance.{1,15}establish.{1,10}business in your country/i
 /assistance.{1,10}receiving the consignment/i
 
-/awarding you.{1,10}million/i
-
 # B
 # ------------------------------------------------------------------------------
 
 # C
 # ------------------------------------------------------------------------------
-/claim as his.{1,10}next of kin/i
 /claim your.{1,15}british pounds from mr/i
 
 /commission basis.{1,10}if you.{1,10}interested/i
@@ -106,9 +91,6 @@
 
 # D
 # ------------------------------------------------------------------------------
-/deceased.{1,10}(client|customer).{1,10}of mine who passed away/i
-/deceased.{1,10}(client|customer).{1,20}to be your relative/i
-
 /discuss something.{1,10}important with you/i
 
 # E
@@ -148,8 +130,6 @@
 /inheritance.{1,10}(claim|funds).{1,10}in my bank/i
 /inheritance.{1,10}(claim|funds).{1,10}your.{1,15}(account|bank)/i
 
-/inherited.{1,10}money from my.{1,10}late.{1,10}husband/i
-
 /interest(ed)?.{1,10}to you.{1,10}kindly contact me/i
 /interest(ed)?.{1,10}entering into.{1,10}joint venture corporation/i
 
@@ -182,23 +162,9 @@
 # ------------------------------------------------------------------------------
 /my need for assistance in profiling/i
 
-/(my|our).{1,10}(deceased|late).{1,10}(client|customer|father|husband|relative).{1,10}diverted this funds?/i
-
-/(my|our).{1,10}(deceased|late).{1,10}(client|customer|father|husband|relative).{1,10}left me with/i
-/(my|our).{1,10}(deceased|late).{1,10}(client|customer|father|husband|relative).{1,10}left (some|you) money/i
-
-/(my|our).{1,10}(deceased|late).{1,10}(client|customer|father|husband|relative).{1,10}(major|mrs?)/i
-/(my|our).{1,10}(deceased|late).{1,10}(client|customer|father|husband|relative).{1,10}made a deposit/i
-/(my|our).{1,10}(deceased|late).{1,10}(client|customer|father|husband|relative).{1,10}with no next of kin/i
-/(my|our).{1,10}(deceased|late).{1,10}(client|customer|father|husband|relative).{1,15}will be of interest/i
-
-/(my|your).{1,10}name.{1,15}as the next of kin/i
-
 # N
 # ------------------------------------------------------------------------------
 /need your services urgently.{1,15}reply/i
-
-/next of kin.{1,15}contact us/i
 
 # O
 # ------------------------------------------------------------------------------
@@ -254,7 +220,7 @@
 
 /we are.{1,10}gold cooperatives?/i
 
-/we are impressed with your company/i
+/we are.{1,10}impressed with your company/i
 /we are.{1,10}interested.{1,10}exploring your services/i
 /we are.{1,10}job consulting agency/i
 
@@ -277,9 +243,6 @@
 /you.{1,10}been.{1,15}selected.{1,10}as one of.{1,10}recipients/i
 /you.{1,10}been.{1,10}quietly selected for something/i
 
-/you.{1,10}regarding.{1,10}deceased (client|customer)/i
-/you.{1,10}represent.{1,10}next of kin/i
-
 /you.{1,10}regarding.{1,10}package.{1,15}arrived at our custody/i
 /you.{1,10}regarding.{1,10}this.{1,10}claim/i
 
@@ -290,9 +253,6 @@
 /your?.{1,15}assist(ance)? to.{1,10}receive.{1,10}sum/i
 /your?.{1,15}assist(ance)? in.{1,10}providing your.{1,15}banking/i
 /your?.{1,10}assist(ance)? in.{1,10}retrieving.{1,15}deposit/i
-
-/your?.{1,10}(deceased|late).{1,10}(father|husband|relative).{1,10}who left behind/i
-/your?.{1,10}(deceased|late).{1,10}(father|husband|relative).{1,15}you.{1,15}(confidentially|confirm)/i
 
 /your.{1,10}indulgence to assist me/i
 /your .{1,10}inheritance.{1,10}contract.{1,10}payment/i

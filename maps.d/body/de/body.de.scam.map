@@ -118,10 +118,6 @@
 /jetzt.{1,10}förderung sichern/iu
 /wärmepumpen.{1,10}vergleich/iu
 
-# Fake Companies and organisations
-# ------------------------------------------------------------------------------
-/(europäischen|europäischer).{1,10}entschädigungsausschuss/iu
-
 # Illuminati
 # ------------------------------------------------------------------------------
 /(bruderschaft|imperium|mitglied|namens).{1,15}(illuminaten|illuminati)/i
@@ -137,10 +133,6 @@
 /sie wurden ausgewählt.{1,15}(bruderschaft|illuminaten|illuminati)/i
 
 /werdet?.{1,10}teil dieser.{1,10}eliteorganisation/i
-
-# Nomination for fake awards
-# ------------------------------------------------------------------------------
-/arbeitgeber der zukunft.{1,10}nominiert/i
 
 #
 #
@@ -160,12 +152,7 @@
 
 # B
 # ------------------------------------------------------------------------------
-/begünstigten.{1,10}kontaktieren sie mich/iu
-
-/bezüglich eines verstorbenen.{1,10}(klient|kunde|mandant|mann|vater)/i
 /bist du tot oder (lebst du|lebendig)/i
-
-/(blanko|leere).{1,10}bank.?karte/i
 
 # C
 # ------------------------------------------------------------------------------
@@ -186,10 +173,6 @@
 
 /e?.?mail.{1,15}per zufallsprinzip von einer/i
 /e?.?mail informiert sie.{1,15}e.?mail ausgewählt wurde/iu
-
-/erbes? meines verstorbenen.{1,10}(klient|kunde|mandant|mann|vater)/i
-
-/erbschaft.{1,15}die mit ihrem.{1,10}namen/i
 
 /es ist risikofrei.{1,10}legal/i
 
@@ -232,14 +215,13 @@
 
 /ihres.{1,10}familienerbes/i
 
-/ihre?.{1,10}e?.?mail.{1,15}per zufallsauswahl/i
 /ihre?.{1,10}e?.?mail.{1,15}von meiner persönlichen suche/iu
 
-/ihre?.{1,10}e?.?mail.{1,25}wurde ausgewählt.{1,15}(als|begünstigter)/iu
 /ihre?.{1,10}e?.?mail.{1,15}wurde unter.{1,15}glücklichen empfänger/iu
 /ihre?.{1,10}e?.?mail.{1,15}wurde zufällig/iu
 
 /ihre?.{1,10}e?.?mail.{1,15}zufällig ausgewählt wurde/iu
+/ihre?.{1,10}e?.?mail.{1,15}zufallsauswahl/i
 /ihre?.{1,10}e?.?mail.{1,20}zufallsprinzip ausgewählt wurde/iu
 
 /ihre.{1,10}hilfe.{1,10}um mein vermögen/iu
@@ -276,9 +258,6 @@
 
 /mit ihnen sprechen.{1,10}es ist wichtig/i
 
-/mit ihren.{1,10}(nach)?namen in verbindung steht/i
-/mit ihrem.{1,10}(nach)?namen zusammenhängt/iu
-
 /möglichkeit.{1,10}die für uns beide von interesse/iu
 
 # N
@@ -287,7 +266,6 @@
 
 /neuigkeiten für sie.{1,10}bitten sie um ihr feedback/iu
 
-/nicht beanspruchten.{1,10}(erbschaftsgelder|erbschaftsvermögen)/iu
 /nicht beanspruchten.{1,10}leistung an sie/i
 
 # O
@@ -306,14 +284,9 @@
 # ------------------------------------------------------------------------------
 /selben nachnamen wie sie/i
 
-/sie.{1,10}als.{1,10}nächsten angehörigen/iu
-/sie.{1,15}eines verstorbenen (mandanten|kunden)/i
-
-/sie als einen.{1,15}begünstigten ausgewählt/iu
 /sie auf legalem weg als.{1,15}empfänger/iu
 
 /sie.{1,15}einer nicht beanspruchten leistung/i
-/sie sind einer der.{1,15}begünstigten/iu
 /sie wurden für diese besondere gelegenheit ausgewählt/iu
 /sind sie tot oder noch am leben/i
 
@@ -334,7 +307,6 @@
 /wichtige informationen für sie.{1,10}anworten sie/iu
 
 /wie sie die entschädigung erhalten möchten/iu
-/wir verwahren eine erbschaft/i
 
 # X
 # ------------------------------------------------------------------------------
@@ -344,8 +316,6 @@
 
 # Z
 # ------------------------------------------------------------------------------
-/z\..?hd\..{1,10}begünstigter/iu
-
 /zu händen des empfängers/iu
 
 # Police
