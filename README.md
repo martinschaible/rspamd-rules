@@ -413,15 +413,15 @@ body
   ├─ de
   │   ├─ body.de.scam.map
   │   │
-  │   ├─ body.de.scam.atm.map                              **
-  │   ├─ body.de.scam.awards.map                           **
-  │   ├─ body.de.scam.beneficiary.map                      **
+  │   ├─ body.de.scam.beneficiary.map
   │   ├─ body.de.scam.business.map
   │   ├─ body.de.scam.bignumbers.map
+  │   ├─ body.de.scam.card.map
   │   ├─ body.de.scam.donation.map
   │   ├─ body.de.scam.funds.map
-  │   ├─ body.de.scam.heir.map                             **
+  │   ├─ body.de.scam.heir.map
   │   ├─ body.de.scam.investment.map
+  │   ├─ body.de.scam.nomination.map
   │   ├─ body.de.scam.order.map
   │   ├─ body.de.scam.payment.map
   │   ├─ body.de.scam.ransom.map
@@ -438,15 +438,15 @@ sender
 subject  
   ├─ de
   │   ├─ subject.de.scam.map
-  │   ├─ subject.de.scam.atm.map                           **
-  │   ├─ subject.de.scam.awards.map                        **
-  │   ├─ subject.de.scam.beneficiary.map                   **
+  │   ├─ subject.de.scam.beneficiary.map
   │   ├─ subject.de.scam.bignumbers.map
   │   ├─ subject.de.scam.business.map
+  │   ├─ subject.de.scam.card.map
   │   ├─ subject.de.scam.donation.map
   │   ├─ subject.de.scam.funds.map
-  │   ├─ subject.de.scam.heir.map                          **
+  │   ├─ subject.de.scam.heir.map
   │   ├─ subject.de.scam.investment.map
+  │   ├─ subject.de.scam.nomination.map
   │   ├─ subject.de.scam.order.map
   │   ├─ subject.de.scam.payment.map
   │   └─ subject.de.scam.winning.map
