@@ -22,6 +22,7 @@
 
 # B
 # ------------------------------------------------------------------------------
+/begünstigten.{1,10}kontaktieren sie mich/iu
 
 # C
 # ------------------------------------------------------------------------------
@@ -44,6 +45,8 @@
 # I
 # ------------------------------------------------------------------------------
 /ihr.{1,10}name ist unter den.{1,10}begünstigten/iu
+
+/ihre?.{1,10}e?.?mail.{1,25}wurde ausgewählt.{1,15}begünstigter/iu
 /ihre.{1,10}hilfe.{1,10}als begünstigter?/iu
 
 # J
@@ -57,6 +60,14 @@
 
 # M
 # ------------------------------------------------------------------------------
+/mein.{1,10}verstorbene(n|r).{1,15}(klient|kunde|mann|vater).{1,30}den.?selben.{1,10}namen/i
+/mein.{1,10}verstorbene(n|r).{1,15}(klient|kunde|mann|vater).{5,25}geerbt/i
+/mein.{1,10}verstorbene(n|r).{1,15}(klient|kunde|mann|vater).{1,10}gehört/i
+/mein.{1,10}verstorbene(n|r).{1,15}(klient|kunde|mann|vater).{1,10}hat vor seinem tod.{1,10}(euro?|millionen|usd)/i
+/mein.{1,10}verstorbene(n|r).{1,15}(klient|kunde|mann|vater).{1,10}hinterlassenen geldes/i
+/mein.{1,10}verstorbene(n|r).{1,15}(klient|kunde|mann|vater).{1,10}war ein erfolgreicher/i
+/mein.{1,10}verstorbene(n|r).{1,15}(klient|kunde|mann|vater).{1,10}verfügt über/iu
+/mein.{1,10}verstorbene(n|r).{1,15}(klient|kunde|mann|vater).{1,10}verwandt/i
 
 # N
 # ------------------------------------------------------------------------------
@@ -76,6 +87,7 @@
 # S
 # ------------------------------------------------------------------------------
 /sie.{1,10}als.{1,25}begünstigten?.{1,10}(aufgeführt|ausgewählt)/iu
+/sie.{1,10}sind einer der.{1,15}begünstigten/iu
 /sie.{1,10}unter den.{1,15}begünstigten.{1,10}(aufgeführt|ausgewählt)/iu
 
 /sie gehören zu den.{1,10}begünstigten/iu
@@ -102,3 +114,4 @@
 
 # Z
 # ------------------------------------------------------------------------------
+/z\..?hd\..{1,10}begünstigter/iu

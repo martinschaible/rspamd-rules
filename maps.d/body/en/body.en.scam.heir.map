@@ -24,9 +24,12 @@
 
 # C
 # ------------------------------------------------------------------------------
+/claim as his.{1,10}next of kin/i
 
 # D
 # ------------------------------------------------------------------------------
+/deceased.{1,10}(client|customer).{1,10}of mine who passed away/i
+/deceased.{1,10}(client|customer).{1,20}to be your relative/i
 
 # E
 # ------------------------------------------------------------------------------
@@ -42,6 +45,7 @@
 
 # I
 # ------------------------------------------------------------------------------
+/inherited.{1,10}money from my.{1,10}late.{1,10}husband/i
 
 # J
 # ------------------------------------------------------------------------------
@@ -54,9 +58,21 @@
 
 # M
 # ------------------------------------------------------------------------------
+/(my|our).{1,10}(deceased|late).{1,10}(client|customer|father|husband|relative).{1,10}diverted this funds?/i
+
+/(my|our).{1,10}(deceased|late).{1,10}(client|customer|father|husband|relative).{1,10}left me with/i
+/(my|our).{1,10}(deceased|late).{1,10}(client|customer|father|husband|relative).{1,10}left (some|you) money/i
+
+/(my|our).{1,10}(deceased|late).{1,10}(client|customer|father|husband|relative).{1,10}(major|mrs?)/i
+/(my|our).{1,10}(deceased|late).{1,10}(client|customer|father|husband|relative).{1,10}made a deposit/i
+/(my|our).{1,10}(deceased|late).{1,10}(client|customer|father|husband|relative).{1,10}with no next of kin/i
+/(my|our).{1,10}(deceased|late).{1,10}(client|customer|father|husband|relative).{1,15}will be of interest/i
+
+/(my|your).{1,10}name.{1,15}as the next of kin/i
 
 # N
 # ------------------------------------------------------------------------------
+/next of kin.{1,15}contact us/i
 
 # O
 # ------------------------------------------------------------------------------
@@ -69,6 +85,8 @@
 
 # R
 # ------------------------------------------------------------------------------
+/you.{1,10}regarding.{1,10}deceased (client|customer)/i
+/you.{1,10}represent.{1,10}next of kin/i
 
 # S
 # ------------------------------------------------------------------------------
@@ -90,6 +108,8 @@
 
 # Y
 # ------------------------------------------------------------------------------
+/your?.{1,10}(deceased|late).{1,10}(father|husband|relative).{1,10}who left behind/i
+/your?.{1,10}(deceased|late).{1,10}(father|husband|relative).{1,15}you.{1,15}(confidentially|confirm)/i
 
 # Z
 # ------------------------------------------------------------------------------
