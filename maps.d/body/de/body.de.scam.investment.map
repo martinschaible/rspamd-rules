@@ -45,14 +45,18 @@
 # ------------------------------------------------------------------------------
 /ich.{1,10}geld in ihrem land investieren kann/i
 /ich.{1,10}ihnen in dieser angelegenheit vertrauen kann/i
+/ich.{1,10}ihre hilfe bei.{1,10}investition/i
 
 /ihnen einen.{1,20}investitionsvorschlag/i
 
-/ihre unterstützung (bei|für).{1,10}investition/iu
+/ihre.{1,10}unterstützung (bei|für).{1,10}investition/iu
 /ihrem land.{1,10}investieren.{1,10}(die für sie|kontaktieren sie mich)/iu
 
 /in (deinem|ihrem) land investieren (kann|möchte)/iu
 /in (deinem|ihrem) land in ein.{1,10}projekt investieren/i
+
+/investition.{1,10}in ihr unternehmen informieren/i
+/investition.{1,10}unserem beiderseitigen nutzen/i
 
 # J
 # ------------------------------------------------------------------------------
@@ -99,6 +103,8 @@
 # W
 # ------------------------------------------------------------------------------
 /wir bringen vermögende anleger/iu
+
+/wir vertreten eine.{1,10}gruppe.{1,10}investoren/i
 
 # X
 # ------------------------------------------------------------------------------
