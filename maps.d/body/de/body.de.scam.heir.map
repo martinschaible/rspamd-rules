@@ -23,7 +23,6 @@
 
 # B
 # ------------------------------------------------------------------------------
-
 /bezüglich eines verstorbenen.{1,10}(klient|kunde|mandant|mann|vater)/i
 
 # C
@@ -56,6 +55,7 @@
 /ihnen meine erbschaft.{1,15}anvertrauen/i
 
 /ihr(em)?.{1,10}namen.{1,10}nächster angehöriger/iu
+/ihres.{1,10}familien.?erbes/i
 
 # J
 # ------------------------------------------------------------------------------
@@ -68,6 +68,15 @@
 
 # M
 # ------------------------------------------------------------------------------
+/mein.{1,10}verstorbene(n|r).{1,15}(klient|kunde|mann|vater).{1,30}den.?selben.{1,10}namen/i
+/mein.{1,10}verstorbene(n|r).{1,15}(klient|kunde|mann|vater).{5,25}geerbt/i
+/mein.{1,10}verstorbene(n|r).{1,15}(klient|kunde|mann|vater).{1,10}gehört/i
+/mein.{1,10}verstorbene(n|r).{1,15}(klient|kunde|mann|vater).{1,10}hat vor seinem tod.{1,10}(euro?|millionen|usd)/i
+/mein.{1,10}verstorbene(n|r).{1,15}(klient|kunde|mann|vater).{1,10}hinterlassenen geldes/i
+/mein.{1,10}verstorbene(n|r).{1,15}(klient|kunde|mann|vater).{1,10}war ein erfolgreicher/i
+/mein.{1,10}verstorbene(n|r).{1,15}(klient|kunde|mann|vater).{1,10}verfügt über/iu
+/mein.{1,10}verstorbene(n|r).{1,15}(klient|kunde|mann|vater).{1,10}verwandt/i
+
 /mit ihren.{1,10}(nach)?namen.{1,10}in verbindung steht/i
 /mit ihrem.{1,10}(nach)?namen.{1,10}zusammenhängt/iu
 
@@ -89,6 +98,8 @@
 
 # S
 # ------------------------------------------------------------------------------
+/selben nachnamen wie sie/i
+
 /sie.{1,10}als.{1,10}nächsten?.{1,10}(angehörige|angehörigen)/i
 
 /sie.{1,10}als.{1,10}verwandter.{1,15}verstorbenen (mandanten|kunden)/i
