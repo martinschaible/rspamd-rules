@@ -88,6 +88,13 @@ lists
 
 * -> "one_shot" is set
 
+**Configuration**
+
+:small_blue_diamond: <br>
+:small_blue_diamond: <br>
+:small_blue_diamond: <br>
+:small_blue_diamond: <br>
+
 ----
 
 ### Setup for "Common"
@@ -188,6 +195,13 @@ subject
       └─ ....
 ```
 
+**Configuration**
+
+:small_blue_diamond: <br>
+:small_blue_diamond: <br>
+:small_blue_diamond: <br>
+:small_blue_diamond: <br>
+
 ----
 
 ### Setup for "Asia"
@@ -209,9 +223,9 @@ subject
 
 **Configuration:**
 
-* multimap.body.conf
-* multimap.sender.from.conf
-* multimap.subject.conf
+:small_blue_diamond: multimap.body.conf<br>
+:small_blue_diamond: multimap.sender.from.conf<br>
+:small_blue_diamond: multimap.subject.conf<br>
 
 ----
 
@@ -262,11 +276,11 @@ lists
 
 **Configuration:**
 
-* multimap.body.(de|en).health.conf
-* multimap.sender.from.health.conf
-* multimap.sender.from.(de|en).health.conf
-* multimap.subject.health.conf
-* multimap.subject.(de|en).health.conf
+:small_blue_diamond: multimap.body.(de|en).health.conf<br>
+:small_blue_diamond: multimap.sender.from.health.conf<br>
+:small_blue_diamond: multimap.sender.from.(de|en).health.conf<br>
+:small_blue_diamond: multimap.subject.health.conf<br>
+:small_blue_diamond: multimap.subject.(de|en).health.conf<br>
 
 ----
 
@@ -297,9 +311,9 @@ subject
 
 **Configuration:**
 
-* multimap.body.(de|en).malware.conf
-* multimap.sender.from.(de|en).malware.conf
-* multimap.subject.(de|en).malware.conf
+:small_blue_diamond: multimap.body.(de|en).malware.conf<br>
+:small_blue_diamond: multimap.sender.from.(de|en).malware.conf<br>
+:small_blue_diamond: multimap.subject.(de|en).malware.conf<br>
 
 ----
 
@@ -385,12 +399,12 @@ subject
 
 **Configuration:**
 
-* multimap.body.phishing.conf
-* multimap.body.(de|en).phishing.conf
-* multimap.sender.from.phishing.conf
-* multimap.sender.from.(de|en).phishing.conf
-* multimap.subject.phishing.conf
-* multimap.subject.(de|en).phishing.conf
+:small_blue_diamond: multimap.body.phishing.conf<br>
+:small_blue_diamond: multimap.body.(de|en).phishing.conf<br>
+:small_blue_diamond: multimap.sender.from.phishing.conf<br>
+:small_blue_diamond: multimap.sender.from.(de|en).phishing.conf<br>
+:small_blue_diamond: multimap.subject.phishing.conf<br>
+:small_blue_diamond: multimap.subject.(de|en).phishing.conf<br>
 
 ----
 
@@ -448,12 +462,12 @@ subject
 
 **Configuration:**
 
-* multimap.body.sale.conf
-* multimap.body.(de|en).sale.conf
-* multimap.sender.from.sale.conf
-* multimap.sender.from.(de|en).sale.conf
-* multimap.subject.sale.conf
-* multimap.subject.(de|en).sale.conf
+:small_blue_diamond: multimap.body.sale.conf<br>
+:small_blue_diamond: multimap.body.(de|en).sale.conf<br>
+:small_blue_diamond: multimap.sender.from.sale.conf<br>
+:small_blue_diamond: multimap.sender.from.(de|en).sale.conf<br>
+:small_blue_diamond: multimap.subject.sale.conf<br>
+:small_blue_diamond: multimap.subject.(de|en).sale.conf<br>
 
 ----
 
@@ -511,9 +525,9 @@ subject
 
 **Configuration:**
 
-* multimap.body.(de|en).scam.conf
-* multimap.sender.from.(de|en).scam.conf
-* multimap.subject.(de|en).scam.conf
+:small_blue_diamond: multimap.body.(de|en).scam.conf<br>
+:small_blue_diamond: multimap.sender.from.(de|en).scam.conf<br>
+:small_blue_diamond: multimap.subject.(de|en).scam.conf<br>
 
 ----
 
@@ -545,9 +559,9 @@ subject
 
 **Configuration:**
 
-* multimap.body.(de|en).seasonal.conf
-* multimap.sender.from.conf
-* multimap.subject.(de|en).seasonal.conf
+:small_blue_diamond: multimap.body.(de|en).seasonal.conf<br>
+:small_blue_diamond: multimap.sender.from.conf<br>
+:small_blue_diamond: multimap.subject.(de|en).seasonal.conf<br>
 
 ----
 
@@ -592,25 +606,25 @@ subject
 
 **Configuration:**
 
-* multimap.body.(de|en).adult.conf
-* multimap.body.(de|en).finance.conf
-* multimap.body.(de|en).gambling.conf
-* multimap.body.(de|en).lottery.conf
-* multimap.body.(de|en).makemoney.conf
-* multimap.body.(de|en).stocks.conf
+:small_blue_diamond: multimap.body.(de|en).adult.conf<br>
+:small_blue_diamond: multimap.body.(de|en).finance.conf<br>
+:small_blue_diamond: multimap.body.(de|en).gambling.conf<br>
+:small_blue_diamond: multimap.body.(de|en).lottery.conf<br>
+:small_blue_diamond: multimap.body.(de|en).makemoney.conf<br>
+:small_blue_diamond: multimap.body.(de|en).stocks.conf<br>
 
-* multimap.sender.from.(de|en).adult.conf
-* multimap.sender.from.(de|en).finance.conf
-* multimap.sender.from.(de|en).gambling.conf
-* multimap.sender.from.(de|en).lottery.conf
-* multimap.sender.from.(de|en).makemoney.conf
+:small_blue_diamond: multimap.sender.from.(de|en).adult.conf<br>
+:small_blue_diamond: multimap.sender.from.(de|en).finance.conf<br>
+:small_blue_diamond: multimap.sender.from.(de|en).gambling.conf<br>
+:small_blue_diamond: multimap.sender.from.(de|en).lottery.conf<br>
+:small_blue_diamond: multimap.sender.from.(de|en).makemoney.conf<br>
 
-* multimap.subject.(de|en).adult.conf
-* multimap.subject.(de|en).finance.conf
-* multimap.subject.(de|en).gambling.conf
-* multimap.subject.(de|en).lottery.conf
-* multimap.subject.(de|en).makemoney.conf
-* multimap.subject.(de|en).stocks.conf
+:small_blue_diamond: multimap.subject.(de|en).adult.conf<br>
+:small_blue_diamond: multimap.subject.(de|en).finance.conf<br>
+:small_blue_diamond: multimap.subject.(de|en).gambling.conf<br>
+:small_blue_diamond: multimap.subject.(de|en).lottery.conf<br>
+:small_blue_diamond: multimap.subject.(de|en).makemoney.conf<br>
+:small_blue_diamond: multimap.subject.(de|en).stocks.conf<br>
 
 ----
 
@@ -665,8 +679,8 @@ If you want to increase or decrease a symbol's score, you can do so in the UI.
 Click "Symbols" in the menu, then find the desired symbol and change the score.
 
 Important
-* You can change the scoring for a map file, or rather its **symbol**, and **not for a single rule**.
-* The scoring for an individual rule can *only* be changed in the map file. Depending on the rule, I do it this way.
+:small_blue_diamond: You can change the scoring for a map file, or rather its **symbol**, and **not for a single rule**.<br>
+:small_blue_diamond: The scoring for an individual rule can *only* be changed in the map file. Depending on the rule, I do it this way.<br>
 
 A score of 6 can be considered SPAM-LOW.
 Using SmarterMail, this value is multiplied by 1.7 to reach 10 points.
