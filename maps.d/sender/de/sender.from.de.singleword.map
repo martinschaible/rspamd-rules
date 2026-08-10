@@ -21,7 +21,7 @@
 # ------------------------------------------------------------------------------
 
 # Already covered by FROM_NAME_HAS_TITLE (1)
-#/^dr\.?\b/i
+# /^dr\.?\b/i
 
 /^frau\b/i
 /^herr\b/i
@@ -74,8 +74,8 @@
 
 /ampelschirme?/i
 
-#/-angebote/i
-#/\bangebote/i
+# /-angebote/i
+# /\bangebote/i
 /angebotsteam/i
 
 /anlageexperten?/i
@@ -339,7 +339,7 @@
 /Fristwarnung/i
 
 # Used by Facebook
-#/freundschaftsvorschläge/i
+# /freundschaftsvorschläge/i
 
 /frühlingskredit/iu
 
@@ -449,7 +449,7 @@
 
 /gratisproben/i
 
-#/gratuliert/i
+# /gratuliert/i
 /grundeinkommen/i
 /grundgehalt/i
 /grundlagen.?system/i
@@ -459,7 +459,7 @@
 /grösserer/i
 
 /guthaben/i
-#/gutscheine?/i
+#/ gutscheine?/i
 /^gutscheine?$/i
 /gutschrift/i
 
@@ -545,9 +545,9 @@
 
 /kartenkonto/i
 
-#/karten.?service/i
+# /karten.?service/i
 /^karten.?service/i
-#/kreditkarten.?service/i
+# /kreditkarten.?service/i
 
 /kasino/i
 /kassen$/i
@@ -604,7 +604,7 @@
 
 /kunden.?(feedback|helpdesk|id|informationen|unterstützung)$/iu
 
-#/kundenbetreuung/i
+# /kundenbetreuung/i
 /kundenabrechnung/i
 /kundenbefragung/i
 /^kundenbetreuung$/i
@@ -612,12 +612,12 @@
 /kundenbewertung/i
 /kundenbindungsteam/i
 /kundenmanagement/i
-#/kundenportal/i
+# /kundenportal/i
 
 /kundenclub/i
 
 /^kundendienst$/i
-#/^kunden.?(dienst|service)$/i
+# /^kunden.?(dienst|service)$/i
 /kundendienst!/i
 /kunden-dienst/i
 /kundendienstes/i
@@ -630,7 +630,7 @@
 /kundenkontakt/i
 /kundenpflege/i
 /kundeninfo\b/i
-#/kundeninformation/i
+# /kundeninformation/i
 
 /kundennummer/i
 /kunden.?pakete/i
@@ -648,7 +648,7 @@
 /kundenteam/i
 /kundenumfrage/i
 /kundenvertrauen/i
-#/kundenzufriedenheit/i
+# /kundenzufriedenheit/i
 
 /küchenhelfer/iu
 /küchennachrichten/iu
@@ -688,7 +688,7 @@
 /liebestreff/i
 /liebster?$/i
 
-#/lieferung/i
+# /lieferung/i
 /^lieferung$/i
 /^lieferdienst$/i
 
@@ -807,12 +807,11 @@
 /^paket$/i
 /^paketdienst$/i
 
-#/paketankündigung/iu
+# /paketankündigung/iu
 /paketbenachrichtigung(en)?/i
 /paketmanagement/i
 /paketteam/i
-/paketzustellung/i
-#/^paketzustellung!/i
+# /^paketzustellung!/i
 
 /pakketdiensten/i
 
@@ -839,7 +838,7 @@
 /pramie/i
 /prämien?/i
 /prämiencenter/i
-#/präsident/iu
+# /präsident/iu
 /preisabteilung/i
 /preisträger/i
 
@@ -872,7 +871,7 @@
 /rechnungsstelle/i
 /rechnungsservice/i
 /rechnungsversand/i
-#/^rechtsanwalt/i
+# /^rechtsanwalt/i
 /reichtum/i
 
 /reifendruck/i
@@ -979,7 +978,7 @@
 /sendungsbereitmeldung/i
 
 /sendungsservice/i
-#/sendungsstatus/i
+# /sendungsstatus/i
 /sendungsstelle/i
 /sendungsupdate/i
 /sendungsverfolgung/i
@@ -1043,7 +1042,7 @@
 /spielvorteil/i
 
 /sprachgenie/i
-#/sprach.?nachricht(en)?/i
+# /sprach.?nachricht(en)?/i
 
 /standbriefkasten/i
 /startseite/i
@@ -1086,7 +1085,7 @@
 
 # T
 # ------------------------------------------------------------------------------
-#/täglich/i
+# /täglich/i
 
 /tabletten$/i
 
@@ -1194,7 +1193,7 @@
 /versandabteilung/i
 /versandaktualisierung/i
 /versandalarm/i
-#/versandapotheke/i
+# /versandapotheke/i
 
 /versandbenachrichtigung/i
 /versandbereitstellung/i
