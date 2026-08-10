@@ -159,6 +159,8 @@
 /handeln sie schnell.{1,10}nur noch wenige/i
 /handgefertigte messer/i
 
+/heckenschere mit.{1,10}akkus/i
+
 /hochdruck.?reiniger.{1,10}ab \d{2}/i
 /hochdruck.?reiniger.{1,10}für nur/iu
 /hochdruck.?reiniger.{1,10}statt.{1,10}jetzt/i
@@ -201,7 +203,8 @@
 
 /komfort.{1,10}(magnetfeldtherapie|spezialisten)/i
 
-/komplett für nur \d{2,3}.{1,10}netto/iu
+/komplett.{1,10}nur \d{2,3}.{1,10}netto/iu
+
 /kooperationsmöglichkeit.{1,10}qualifiziertes?/iu
 
 /kraftstoff.{0,10}chip/i
@@ -224,6 +227,8 @@
 /magnetischen?.{1,10}einlagen?/i
 /magnetischen?.{1,10}mini.?kamera/i
 
+/marke in der komfortzone/i
+
 /mehr halt.{1,10}mehr balance/i
 /mehr licht.{1,10}mehr/i
 
@@ -235,6 +240,7 @@
 
 # N
 # ------------------------------------------------------------------------------
+/nur \d{2,3}.{1,10}netto zzgl.{1,10}mwst/i
 
 # O
 # ------------------------------------------------------------------------------
