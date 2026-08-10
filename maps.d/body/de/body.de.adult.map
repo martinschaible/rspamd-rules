@@ -224,12 +224,14 @@
 
 # I
 # ------------------------------------------------------------------------------
+/ich auf einer neuen.{1,10}seite/i
+
 /ich bin eine.{1,10}alleinstehende/i
 /ich bin ein.{1,10}romantisches mädchen/iu
 /ich bin (bereit|offen).{1,10}bekanntschaften/i
 /ich bin.{1,10}geil/i
 
-/ich (dir|ihnen) mein.{1,10}(bild|foto) (anhängen|senden)/iu
+/ich (dir|ihnen) mein.{1,10}(bild|foto).{1,10}(anhängen|senden)/iu
 
 /ich ficke gerne/i
 /ich füge ein.{1,10}foto bei/iu
@@ -267,6 +269,8 @@
 /klicke? hier.{1,10}um ihre.{1,10}profile?/i
 
 /kontaktdaten findest du auf.{1,15}(web)?site/i
+
+/kontakte.{1,10}wie echte menschen/i
 
 /kostenlos.{1,10}auf unserer.{1,10}seite/i
 /kostenlos.{1,10}diskret.{1,10}anonym/i

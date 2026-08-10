@@ -42,7 +42,9 @@
 
 /bestätigen sie.{1,10}auszahlungsdetails/iu
 
-/bestaetigung.{1,10}leistungserstattung/i
+/(bestaetigung|bestätigung).{1,10}leistungserstattung/i
+/(bestaetigung|bestätigung).{1,10}nötig zur Überweisung/iu
+
 /bitte erstattung bestätigen/iu
 
 # C
@@ -219,6 +221,8 @@
 
 # V
 # ------------------------------------------------------------------------------
+/veranlagung.{1,15}freigabe erforderlich/i
+
 /verpassen sie nicht ihre (rück)?erstattung/iu
 
 # W

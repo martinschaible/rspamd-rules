@@ -793,6 +793,7 @@
 /hearing.{0,10}(habit|support|trouble)/i
 
 /heart.{0,10}(attack|boost|cells|check|danger|disease|freedom|health|helper)/i
+/heart.{0,10}killer/i
 /heart.{0,10}(protection|wellness)/i
 /heart.{0,10}(rate|report|risk)/i
 /heart.{0,10}(saver|science|secret|shield|signal|surgeon)/i
@@ -936,6 +937,7 @@
 /media.{0,10}leak/i
 
 /(medical|medicinal|medication).{0,15}(alert|daily|discovery|findings?|patch(es)?|shock|unit)/i
+/medical.{0,10}history/i
 /medical.{0,10}update/i
 /medical.{0,10}watchdog/i
 

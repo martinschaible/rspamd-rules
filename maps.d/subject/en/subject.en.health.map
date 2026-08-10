@@ -869,7 +869,8 @@
 /relief(es)?.{1,15}(constipation|joint|pain|tinnitus)/i
 /relief(es)?.{1,10}chronic/i
 
-/remedy (restores|unleashes)/i
+/remedy.{1,10}(restores|unleashes)/i
+/remedy.{1,10}rapid.{1,10}pain/i
 
 /remove.{1,10}from your diet/i
 /removes?.{1,10}dark spots/i
@@ -1248,6 +1249,8 @@
 # W
 # ------------------------------------------------------------------------------
 /watch.{1,10}before they delete/i
+
+/what.{1,10}doctors found/i
 
 /want to (sleep|slim)/i
 /wants.{1,10}burn fat/i
