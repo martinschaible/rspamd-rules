@@ -90,10 +90,9 @@ lists
 
 **Configuration**
 
-:small_blue_diamond: <br>
-:small_blue_diamond: <br>
-:small_blue_diamond: <br>
-:small_blue_diamond: <br>
+:small_blue_diamond: multimap.base.conf<br>
+:small_blue_diamond: multimap.base.body.href.conf<br>
+:small_blue_diamond: multimap.base.body.img.conf<br>
 
 ----
 
@@ -197,10 +196,20 @@ subject
 
 **Configuration**
 
-:small_blue_diamond: <br>
-:small_blue_diamond: <br>
-:small_blue_diamond: <br>
-:small_blue_diamond: <br>
+:small_blue_diamond: multimap.body.conf<br>
+:small_blue_diamond: multimap.body.(de|en).conf<br>
+:small_blue_diamond: multimap.body.href.conf<br>
+
+:small_blue_diamond: multimap.header.conf<br>
+
+:small_blue_diamond: multimap.sender.address.conf<br>
+:small_blue_diamond: multimap.sender.address.(de|en).conf<br>
+:small_blue_diamond: multimap.sender.from.conf<br>
+:small_blue_diamond: multimap.sender.from.conf<br>
+:small_blue_diamond: multimap.sender.from.(de|en).conf<br>
+
+:small_blue_diamond: multimap.subject.conf<br>
+:small_blue_diamond: multimap.subject.(de|en).conf<br>
 
 ----
 
@@ -630,6 +639,8 @@ subject
 
 ### Setup for "whitelist"
 
+Description of the topic goes here.....
+
 Folder structure:
 ```
 whitelist
@@ -670,6 +681,17 @@ whitelist
        └─ en
            └─ ....
 ```
+
+**Configuration**
+
+:small_blue_diamond: multimap.whitelist.body.conf<br>
+:small_blue_diamond: multimap.whitelist.body.(de|en).conf<br>
+:small_blue_diamond: multimap.whitelist.body.href.conf<br>
+:small_blue_diamond: multimap.whitelist.header.conf<br>
+:small_blue_diamond: multimap.whitelist.sender.from.(de|en).conf<br>
+:small_blue_diamond: multimap.whitelist.subject.(de|en).conf<br>
+
+----
 
 ## Tips and Tricks
 
