@@ -28,19 +28,20 @@ Finally, the Rspamd service must be restarted
 systemctl restart rspamd
 ```
 
-The map files in the folder `/etc/rspamd/maps.d` do not need to be copied. **Rspamd** loads them directly from Github and caches them locally. New versions are checked periodically.
+The map files in the folder `/etc/rspamd/maps.d` does not need to be copied. **Rspamd** loads them directly from Github and caches them locally. New versions are checked periodically.
 
 ## Configuration files: Changes and Updates
 In the near future, I will be creating more map files.
 It's necessary to split existing map files into smaller ones. Sometimes, when analyzing false positives, it's really difficult to find the underlying rule. Splitting them into smaller files will help with this.
 
-:small_blue_diamond:  Please note: This means that the configuration files will need to be updated regularly, and the service will need to be restarted.<br>
+:point_right:  Please note: This means that the configuration files will need to be updated regularly, and the service will need to be restarted.<br>
 
 :collision: Latest Changes:
 
 | Date     | File                                       | Reason                        |
 | -------- | -------------------------------------------| ----------------------------- |
-| 02.08.26 | multimap.conf                              | New map files added           |
+| 09.08.26 | multimap.conf                              | Legacy files removed          |
+| 10.08.26 | multimap.conf                              | New map files added           |
 
 ## Content
 :point_right: All map files of the *first version* are stored in the folder `/etc/rspamd/maps.d/legacy`.<br>
