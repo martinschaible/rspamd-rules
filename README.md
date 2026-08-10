@@ -88,6 +88,8 @@ lists
 
 * -> "one_shot" is set
 
+----
+
 ### Setup for "Common"
 
 Description of the topic goes here.....
@@ -186,6 +188,8 @@ subject
       └─ ....
 ```
 
+----
+
 ### Setup for "Asia"
 
 Description of the topic goes here.....
@@ -208,6 +212,8 @@ subject
 * multimap.body.conf
 * multimap.sender.from.conf
 * multimap.subject.conf
+
+----
 
 ### Setup for "Health"
 
@@ -262,6 +268,8 @@ lists
 * multimap.subject.health.conf
 * multimap.subject.(de|en).health.conf
 
+----
+
 ### Setup for "Malware"
 
 Description of the topic goes here.....
@@ -292,6 +300,8 @@ subject
 * multimap.body.(de|en).malware.conf
 * multimap.sender.from.(de|en).malware.conf
 * multimap.subject.(de|en).malware.conf
+
+----
 
 ### Setup for "Phishing"
 
@@ -382,6 +392,8 @@ subject
 * multimap.subject.phishing.conf
 * multimap.subject.(de|en).phishing.conf
 
+----
+
 ### Setup for "Sale"
 
 Description of the topic goes here.....
@@ -443,6 +455,8 @@ subject
 * multimap.subject.sale.conf
 * multimap.subject.(de|en).sale.conf
 
+----
+
 ### Setup for "Scam"
 
 Description of the topic goes here.....
@@ -501,6 +515,8 @@ subject
 * multimap.sender.from.(de|en).scam.conf
 * multimap.subject.(de|en).scam.conf
 
+----
+
 ### Setup for "Seasonal"
 
 Some Spam attacks occur regularly but are short-lived.
@@ -532,6 +548,8 @@ subject
 * multimap.body.(de|en).seasonal.conf
 * multimap.sender.from.conf
 * multimap.subject.(de|en).seasonal.conf
+
+----
 
 ### Setup for "Other Topics"
 
@@ -573,6 +591,7 @@ subject
 ```
 
 **Configuration:**
+
 * multimap.body.(de|en).adult.conf
 * multimap.body.(de|en).finance.conf
 * multimap.body.(de|en).gambling.conf
@@ -592,6 +611,8 @@ subject
 * multimap.subject.(de|en).lottery.conf
 * multimap.subject.(de|en).makemoney.conf
 * multimap.subject.(de|en).stocks.conf
+
+----
 
 ### Setup for "whitelist"
 
