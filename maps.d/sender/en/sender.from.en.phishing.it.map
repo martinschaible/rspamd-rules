@@ -38,6 +38,9 @@
 # ------------------------------------------------------------------------------
 /account.{0,5}(alert|support)/i
 
+# Domain Renewal
+/account.{0,5}management/i
+
 # Sample: Admin-mydomain.ch
 /admin(-|_)[a-z]{5,15}\.[a-z]{1,4}/i
 

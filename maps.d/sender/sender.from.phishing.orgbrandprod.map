@@ -258,6 +258,8 @@
 
 /fedpol/i
 
+/finanzamt.{0,10}mitteilungen/i
+
 /finom.{0,10}team/i
 
 /f.?secure.{0,10}deals/i
@@ -382,7 +384,8 @@
 
 /sbb.{0,5}aktuell/i
 /sbb.{0,5}info/i
-/sbb.{0,5}(kundencenter|kundendienst|swisspass)/i
+/sbb.{0,5}(kundencenter|kundendienst|kundenservice)/i
+/sbb.{0,5}swisspass/i
 
 /sbb.?cff$/i
 /sbb(.?cff.?ffs)?.{0,5}(konto|support)/i
@@ -395,6 +398,7 @@
 /bundesbahnen.{0,5}sbb/i
 /schweizerische.{0,5}bundesbahnen/i
 
+/(kundencenter|kundendienst|kundenservice).{0,10}sbb/i
 /mitteilung.{0,10}sbb/i
 
 #/sbb.?ffs$/i
