@@ -69,11 +69,13 @@
 /commerzbank.{0,10}(sicherheitszentrum|support|team)/i
 /commerzbank.{0,10}(kundenbetreuung|kundenservice)/i
 
-/consorbank\./i
+/consors?bank\./i
 
-/consorsbank.{0,10}finanz/i
-/consorsbank.{0,10}modul/i
-/consorsbank.{0,10}(informations|kunden)?service/i
+/consors?bank.{0,10}center/i
+/consors?bank.{0,10}finanz/i
+/consors?bank.{0,10}modul/i
+/consorbank.{0,10}(informations|kunden)?service/i
+/consors?bank.{0,10}strategie/i
 
 /consorsfinanz/i
 

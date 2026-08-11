@@ -102,7 +102,8 @@
 
 # D
 # ------------------------------------------------------------------------------
-/daten müssen.{1,15}aktualisiert werden/iu
+/daten.{1,10}müssen.{1,15}aktualisiert werden/iu
+/daten.{1,10}prüfen.{1,10}frist/i
 
 /datensatz.{1,10}mitgliedsunternehmen/i
 /^datenätze.{1,10}aktualisieren/iu
@@ -195,11 +196,12 @@
 /ihre.{1,10}anmeldung ist unvollständig/iu
 /ihre.{1,10}bestätigung wird noch benötigt/iu
 
-/ihre.{1,10}daten.{1,10}bei.{1,15}prüfen/iu
-/ihre.{1,10}daten.{1,10}benötigen eine?.{1,10}(aktualisierung|update)/iu
-/ihre.{1,10}daten.{1,10}geschützt.{1,10}aktuell/iu
-/ihre.{1,10}daten.{1,10}müssen überprüft werden/iu
-/ihre.{1,10}daten.{1,10}nicht vorliegen/i
+/ihre.{1,15}daten.{1,10}bei.{1,15}prüfen/iu
+/ihre.{1,15}daten.{1,10}benötigen eine?.{1,10}(aktualisierung|update)/iu
+/ihre.{1,15}daten.{1,10}geschützt.{1,10}aktuell/iu
+/ihre.{1,15}daten.{1,10}müssen überprüft werden/iu
+/ihre.{1,15}daten.{1,10}nicht vorliegen/i
+/ihre.{1,15}daten.{1,10}prüfung bis/iu
 
 /ihre.{1,15}daten sind veraltet/i
 
