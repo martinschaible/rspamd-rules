@@ -103,10 +103,12 @@
 
 /geld zum besten zinssatz/i
 
-/geschäfts.{1,10}privatkredite?/iu
+/(genehmigter|genehmigtes).{1,10}(darlehen|kredit)/i
+
+/geschäfts.{1,10}privat.?kredite?/iu
 /geschäfts.{1,10}(privat|projekt).?finanzierung/iu
 
-/gewähren?.{1,15}(darlehen|kredite)/i
+/gewähren?.{1,15}(darlehen|kredit)/i
 /guten.{1,10}kredit/i
 /günstiges.{1,10}kreditangebot/iu
 

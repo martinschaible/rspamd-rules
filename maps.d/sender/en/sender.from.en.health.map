@@ -462,6 +462,8 @@
 
 /bubble.{0,10}bootie/i
 /bulging.{0,10}discs/i
+
+/buried.{0,10}secret/i
 /burn(ing)?.{0,10}(boost|calories|feet|slim)/i
 /butt.{0,10}lift/i
 /buzzing.{0,10}(ears|sounds?)/i
@@ -1368,8 +1370,10 @@
 
 /top.{0,10}(experts?|fruits?|medication)/i
 
+/(toxic|toxin).{0,10}brain/i
 /(toxic|toxin).{0,10}(food|fruits?)/i
-/(toxic|toxin).{0,10}(ingredient|liquid|milk|mineral|veggies)/i
+/(toxic|toxin).{0,10}(ingredient|liquid|veggies)/i
+/(toxic|toxin).{0,10}(milk|mineral)/i
 /(toxic|toxin).{0,10}(destroyer|flush|mineral|protein|removal|watch)/i
 
 /trapped.{0,10}toxins/i

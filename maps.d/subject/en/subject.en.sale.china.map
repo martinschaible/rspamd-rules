@@ -138,8 +138,11 @@
 /choosing.{1,10}backup supplier/i
 
 /clothing.{1,15}manufacturer/i
-/cnc.{1,10}precision (in|parts)/i
+
 /cnc.{1,10}machining/i
+/cnc.{1,10}parts supply/i
+/cnc.{1,10}precision (in|parts)/i
+
 /(design|manufacture|you need).{1,15}pcba?/i
 
 /co.{1,5}(limited|ltd)/i
