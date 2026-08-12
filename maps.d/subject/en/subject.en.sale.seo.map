@@ -148,6 +148,9 @@
 
 # M
 # ------------------------------------------------------------------------------
+# Sample: Miss Your domain.de SEO Report
+/(miss|reminder) your.{5,35}\.[a-z]{2,4}.{1,10}seo.?(audit|report)/i
+
 /^more traffic$/i
 
 /more.{1,10}traffic.{1,10}revenue/i

@@ -35,9 +35,12 @@
 /\d{2,6} (euro|usd) (binance|btc|trade|upbit)/i
 
 # 29.06.25 - Sample: www.koiyvf.blogspot.ch - 1.353244 BTC
-/\.[a-z]{1,3} - \d\.\d{4,10}.{1,6}(btc|coinbase)/i
+/\.[a-z]{1,3} - \d\.\d{4,10}.{1,10}(btc|coinbase)/i
 # 30.07.26 - Sample: www.setfsww.blogspot.am - 39427 USD COINBASE
-/\.[a-z]{1,3} - \d{4,10}.{1,6}(btc|coinbase)/i
+/\.[a-z]{1,3} - \d{4,10}.{1,10}(btc|coinbase)/i
+
+# 12.08.26 - Sample: www.stfsfzs.blogspot.fr - 39 440 USD COINBASE
+/\.[a-z]{1,3} - \d{2,3} \d{2,6}.{1,10}(btc|coinbase)/i
 
 # A
 # ------------------------------------------------------------------------------

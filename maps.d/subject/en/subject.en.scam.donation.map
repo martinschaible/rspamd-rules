@@ -40,7 +40,7 @@
 
 # D
 # ------------------------------------------------------------------------------
-/donation.{1,10}award/i
+/donation.{1,10}(award|grants)/i
 
 /(donated|donation).{1,10}(claim|code|fund|offer)/i
 /(donated|donation).{1,15}(for|to) you/i
