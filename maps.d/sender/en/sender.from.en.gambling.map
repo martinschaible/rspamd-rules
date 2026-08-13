@@ -18,7 +18,9 @@
 /big.{0,10}winners?/i
 
 /bonus.{0,10}(desk|offers?|team)/i
-/bonus.{0,10}(services?|spins?)/i
+/bonus.{0,10}spins?/i
+
+/\bbonus.{0,10}services?/i
 
 # C
 # ------------------------------------------------------------------------------

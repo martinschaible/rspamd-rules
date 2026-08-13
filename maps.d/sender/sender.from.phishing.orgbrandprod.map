@@ -54,6 +54,7 @@
 # SwissPass Newsletter
 # Telekom Deutschland GmbH
 # The Google Ads Team
+# ... über Adobe Acrobat Sign
 # Wetransfer
 # ------------------------------------------------------------------------------
 
@@ -120,8 +121,7 @@
 
 /^ace_/i
 
-
-/adobe.?acrobat (document|e.?signature|sign)/i
+# /adobe.?acrobat (document|e.?signature|sign)/i
 /adobe.?pdf/i
 
 /allianz.{0,10}insights/i
