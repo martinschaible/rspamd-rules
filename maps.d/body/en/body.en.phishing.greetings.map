@@ -39,7 +39,9 @@
 
 # D
 # ------------------------------------------------------------------------------
+/dear.{1,15}(buyer|customer|madam|manager|partner|purchaser|sir).{1,10}one.?stop/i
 /dear.{1,15}(buyer|customer|madam|manager|partner|purchaser|sir).{1,10}your.{1,15}(package|parcel|shipment) is (on its way|ready)/i
+
 /dear.{1,10}member.{1,10}your.{1,15}account is on hold/i
 
 /dear.{1,15}(client|customer|madam|sir).{1,15}as part of our.{1,15}(commitment|efforts)/i

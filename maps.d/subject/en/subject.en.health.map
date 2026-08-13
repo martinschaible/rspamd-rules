@@ -172,7 +172,8 @@
 
 /bizarre.{1,10}(drink|spice)/i
 
-/bladder (control|leaks|relief)/i
+/bladder.{1,10}(control|leaks|relief)/i
+/bladder.{1,10}muscle/i
 
 /bleeding gums/i
 
@@ -726,6 +727,7 @@
 /nails?.{1,10}(discoloration|do this|in just)/i
 /nails?.{1,10}here.?i?s how/i
 
+/natural.{1,10}bladder/i
 /natural.{1,10}heart solution/i
 /natural.{1,10}tinnitus/i
 /natural.{1,10}remedy inside/i

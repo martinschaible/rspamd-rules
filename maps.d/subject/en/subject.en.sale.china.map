@@ -268,6 +268,8 @@
 # F
 # ------------------------------------------------------------------------------
 /factory 202\d\//i
+
+/factory.{1,10}brand cases/i
 /factory.{1,10}direct.{1,20}(custom|kitchen|sink|waste)/i
 /factory.{1,20}from china/i
 /factory.{1,10}looking for.{1,10}cooperation/i
@@ -589,6 +591,7 @@
 /(regarding|requirement).{1,15}(pcba?|printed.?circuits?.?board)/i
 
 /reliable.{1,10}(china|chinese).{1,20}(freight|forwarder)/i
+/reliable.{1,20}factory with/i
 /reliable.{1,20}(faucets|freight|forwarder)/i
 /reliable.{1,10}distributor of.{1,15}components/i
 /reliable.{1,10}shower/i
