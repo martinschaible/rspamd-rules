@@ -86,6 +86,9 @@
 # G
 # ------------------------------------------------------------------------------
 /genuine.{1,10}lender on the internet/i
+
+/get (loan|credit)s? up to/i
+
 /great.{1,10}l0an/i
 
 # H
@@ -129,7 +132,10 @@
 
 /(loan|credit)s?.{1,15}that will help you/i
 /(loan|credit)s?.{1,15}to pay urgent/i
+
 /(loan|credit)s?.{1,10}unsecured.{1,15}funding/i
+/(loan|credit)s?.{1,10}up to.{1,15}in cash/i
+
 /(loan|credit)s?.{1,15}we (manage|offer|provide)/i
 
 /(loan|credit)s?.{1,10}you can.{1,10}get up/i
