@@ -665,6 +665,8 @@
 
 /erase.{0,10}fat/i
 /estrogen.{0,10}belly/i
+
+/evening.{0,10}(ritual|routine)/i
 /everyday.{0,10}(remedies|smile)/i
 
 /(exotic|kitchen).{0,10}(flower|spice)/i
@@ -776,8 +778,11 @@
 
 # H
 # ------------------------------------------------------------------------------
-/hair.{0,5}(balding|enhancer|experts?|growth|loss)/i
-/hair.{0,5}(renewal|restoration|restorer?|revival|strength|thinning|vitality)/i
+/hair.{0,5}(balding|growth|loss)/i
+/hair.{0,5}digest/i
+/hair.{0,5}(enhancer|experts?)/i
+/hair.{0,5}(renewal|restoration|restorer?|revival)/i
+/hair.{0,5}(strength|thinning|vitality)/i
 
 /hanging.{0,10}belly/i
 

@@ -19,7 +19,8 @@
 
 # A
 # ------------------------------------------------------------------------------
-/angebots.?guru/i
+/angebots.{0,10}(guru|team)/i
+/angebots.{0,10}update/i
 
 /arbeitslicht.?pro/i
 
@@ -48,6 +49,8 @@
 
 # D
 # ------------------------------------------------------------------------------
+/deal.{0,10}redaktion/i
+
 /dein.{0,10}glücks?/i
 /deine?.{0,10}(seele|schritt)/i
 /deine?.{0,10}experten?/i
@@ -273,6 +276,8 @@
 /verkehrs.{0,10}report/i
 /versand.{0,10}gratis/i
 /verstehen.{0,10}(pro|sprechen)/i
+
+/vorteils?.{0,10}info/i
 
 # W
 # ------------------------------------------------------------------------------

@@ -60,6 +60,8 @@
 
 /aktionsdetails?/i
 /aktionskonditionen/i
+/aktionspartner/i
+/aktionsteam/i
 
 /aktivitäts.?center/i
 /aktivierung/i
@@ -161,7 +163,8 @@
 /beseitigt/i
 
 /bestandsfahrzeuge/i
-/^bestellung/i
+/^bestellung\b/i
+/^bestellung$/i
 
 /bestpreis/i
 
@@ -652,7 +655,9 @@
 
 /küchenhelfer/iu
 /küchennachrichten/iu
+/kühlungsexperten?/i
 /kündigung(sfrist)?/i
+
 /körper.?balance/i
 
 /kontaktstelle/i
@@ -1030,6 +1035,7 @@
 /sparplan/i
 /sparpreis/i
 /sparservice/i
+/sparteam/i
 
 /spanische/i
 /sparbuch/i
