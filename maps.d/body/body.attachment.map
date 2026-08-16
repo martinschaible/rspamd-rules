@@ -21,20 +21,32 @@
 /(enquiry|fatura).{0,25}\.(7z|docx|gz|rar|tar|tgz|xla|xls|zip)/i
 /(inquiry|invoice).{0,25}\.(7z|docx|gz|rar|tar|tgz|xla|xls|zip)/i
 /(lading|notice).{0,25}\.(7z|docx|gz|rar|tar|tgz|xla|xls|zip)/i
-/(order|payment|price.?list|proforma|project|purchase).{0,25}\.(7z|docx|gz|rar|tar|tgz|xla|xls|zip)/i
+/(price.?list|proforma|project|purchase).{0,25}\.(7z|docx|gz|rar|tar|tgz|xla|xls|zip)/i
 /provision.{0,25}\.(7z|docx|gz|rar|tar|tgz|xla|xls|zip)/i
 /(quotation|quote).{0,25}\.(7z|docx|gz|rar|tar|tgz|xla|xls|zip)/i
 /(receipt|request).{0,25}\.(7z|docx|gz|rar|tar|tgz|xla|xls|zip)/i
 /\brechnung.{0,25}\.(7z|docx|gz|rar|tar|tgz|xla|xls|zip)/i
 /(shipping|specifications?|swift).{0,25}\.(7z|docx|gz|rar|tar|tgz|xla|xls|zip)/i
 /(update|urgent).{0,25}\.(7z|docx|gz|rar|tar|tgz|xla|xls|zip)/i
+
+# Order
+# ------------------------------------------------------------------------------
+/(bestell|bestätigung|ordnung).{0,25}\.(7z|gz|rar|tar|tgz|xla|xls|zip)/i
+/(new.?)?order.{0,25}\.(7z|docx|gz|rar|tar|tgz|xla|xls|zip)/i
+
+# Payment
+# ------------------------------------------------------------------------------
+/payment\.z$/i
+/payment.{0,25}\.(7z|docx|gz|rar|tar|tgz|xla|xls|zip)/i
+
+# Sample: payment_recelpt-direct-1.pdf
+/payment.{0,25}direct.{0,5}\.pdf/i
+
 /zahlungsnachweis.{0,25}\.(7z|docx|gz|rar|tar|tgz|xla|xls|zip)/i
 
-/new.?order.{0,25}\.(7z|docx|gz|rar|tar|tgz|xla|xls|zip)/i
-
-/payment\.z$/i
-
-/(bestell|bestätigung|ordnung).{0,25}\.(7z|gz|rar|tar|tgz|xla|xls|zip)/i
+#
+#
+#
 
 # Letter of Intent
 /loi.{0,5}\.(7z|gz|rar|tar|tgz|xla|xls|zip)/i

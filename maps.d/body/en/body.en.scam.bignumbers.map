@@ -127,6 +127,8 @@
 /your.{1,10}funds?.{1,10}\d{3}.{0,5}\d{3}.{1,10}(dollars?|euro?|gbp|usd|€|\$|£)/i
 /your.{1,10}funds?.{1,10}\d{2,4}(\.|,)?\d{3,4}/i
 
+/your.{1,10}funds?.{1,10}worth.{1,10}million/i
+
 /your.{1,10}pending transfer of.{1,10}\d{1,4}(\.|,)?\d{3,4}.{1,10}(dollars?|euro?|gbp|usd|€|\$|£)/i
 /your.{1,10}total sum of.{1,10}\d{1,4}(\.|,)?\d{3,4}.{1,10}(dollars?|euro?|gbp|usd|€|\$|£)/i
 

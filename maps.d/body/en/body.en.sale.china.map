@@ -196,6 +196,7 @@
 # M
 # ------------------------------------------------------------------------------
 /manufacturer.{1,10}china.{1,10}who are in industry/i
+/manufacturer.{1,10}specializing in custom/i
 /manufacturer.{1,10}with.{1,15}years.{1,10}experience/i
 
 /manufacturing.{1,10}exporting all types/i
@@ -316,6 +317,8 @@
 /we.{1,15}(independent|leading|professional|specialized?|top|trusted).{1,20}(manufacturer|supplier)/i
 
 /we.{1,10}are.{1,20}devices manufacturer/i
+/we.{1,10}are.{1,10}direct.{1,10}manufacturer/i
+
 /we.{1,10}are.{1,10}forwarding agent/i
 /we.{1,10}are.{5,25}from.{5,35}a leading/i
 /we.{1,10}are.{1,20}manufacturers?.{1,10}exporters?/i

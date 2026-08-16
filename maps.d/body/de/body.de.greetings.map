@@ -175,7 +175,10 @@
 /hallo.{1,10}glückwunsch/iu
 
 #/hallo.{1,10}herr.{1,10}frau/i
-/hallo.{1,10}herzliche (grüsse|grüße).{1,10}(an sie|hiermit)/iu
+
+/hallo.{1,10}(herzliche|herzlichste) (grüsse|grüße).{1,10}(an sie|hiermit)/iu
+/hallo.{1,10}(herzliche|herzlichste) (grüsse|grüße).{1,20}ich hoffe.{1,10}ihr tag/iu
+
 /hallo.{1,10}herzlichen glückwunsch/iu
 
 /hallo.{1,10}ich benötige.{1,15}ihre hilfe/iu
