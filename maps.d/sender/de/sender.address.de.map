@@ -14,11 +14,13 @@
 # Sample: Sales098@topmail.com
 /brille\d{1,15}@/i
 /doppelt\.?\d{1,10}@/i
+/(gewinn|gratis)\d{1,15}@/i
 /(finanz|freunde)\d{1,15}@/i
 /hoeren\.?\d{1,10}@/i
 /licht\.?\d{1,10}@/i
 
-/(gewinn|gratis)\d{1,15}@/i
+/\.nr\.\d{1,15}@/i
+
 /(kontakt|versand)\d{1,15}@/i
 /sport\.?\d{1,10}@/i
 
