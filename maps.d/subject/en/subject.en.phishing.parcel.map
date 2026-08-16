@@ -110,6 +110,7 @@
 /(package|parcel|shipment).{1,10}awaits final confirmation/i
 /(package|parcel|shipment).{1,10}has been denied/i
 /(package|parcel|shipment).{1,10}immediate action/i
+/(package|parcel|shipment).{1,10}is .{1,10}waiting for.{1,10}delivery/i
 /(package|parcel|shipment).{1,10}on hold.{1,10}address confirmation/i
 /(package|parcel|shipment).{1,10}(re)?delivery reminder/i
 /(package|parcel|shipment).{1,10}requires address confirmation/i

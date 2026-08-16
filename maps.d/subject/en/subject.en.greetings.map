@@ -63,9 +63,10 @@
 /good day(\.|,)/i
 
 /^good (day|morning)$/i
-/good (day|morning)(:|,)/i
-/good (day|morning).{1,10}please reply/i
-/good (day|morning).{1,10}(madam|sir)/i
+/good (day|evening|morning)(:|,)/i
+/good (day|evening|morning).{1,10}please reply/i
+/good (day|evening|morning).{1,10}(madam|sir)/i
+/good (day|evening|morning).{1,10}shall we/i
 
 /good day.{1,10}my.{1,10}friend/i
 /good day.{1,10}dear/i

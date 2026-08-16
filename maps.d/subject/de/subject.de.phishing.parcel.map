@@ -241,7 +241,7 @@
 /(lieferung|paket|sendung|versand|zustellung).{1,10}steht zur zustellung bereit/i
 
 /(lieferung|paket|sendung|versand|zustellung).{1,10}transportprozess/i
-/(lieferung|paket|sendung|versand|zustellung).{1,20}warten auf freigabe/i
+/(lieferung|paket|sendung|versand|zustellung).{1,20}warten auf.{1,10}freigabe/i
 /(lieferung|paket|sendung|versand|zustellung).{1,10}wurde ausgesetzt/i
 /(lieferung|paket|sendung|versand|zustellung).{1,10}wurde aufgrund falscher angaben/i
 
