@@ -72,6 +72,8 @@
 #  |- TLD -|
 /\.[a-z]{2,4}.{1,10}your.{1,10}(active|valid) e?.?mail/i
 
+/(call|whatsapp).{1,20}urgently.{1,10}\+27/i
+
 # D
 # ------------------------------------------------------------------------------
 /decided to contact you.{1,10}directly/i

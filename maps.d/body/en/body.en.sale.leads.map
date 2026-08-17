@@ -26,7 +26,9 @@
 /(attendees|visitors).{1,10}list.{1,10}available.{1,30}(discounted|promotional)/i
 /(attendees|visitors).{1,10}list.{1,10}with.{1,10}exclusive fee/i
 
+/acquired.{1,20}contact details/i
 /acquired.{1,10}event attendees/i
+
 /automation.{1,10}convert.{1,10}leads/i
 
 # B
@@ -48,6 +50,7 @@
 /contacts?.{1,10}(database|list).{1,10}covering.{1,15}europe/i
 /contacts?.{1,10}(database|list).{1,10}your target industry/i
 
+/contacts?.{1,10}details.{1,15}event attendees/i
 /contacts?.{1,10}details.{1,10}from your industry/i
 /contacts?.{1,10}details.{1,10}verified e?.?mail/i
 

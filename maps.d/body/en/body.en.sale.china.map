@@ -39,7 +39,7 @@
 /(ceramics|clothing|crafts).{1,10}co.{1,5}(limited|ltd)/i
 /export group.{1,10}co.{1,5}(limited|ltd)/i
 
-/(automotive|auto.?parts).{1,10}co.{1,5}(limited|ltd)/i
+/(appliances|automotive|auto.?parts).{1,10}co.{1,5}(limited|ltd)/i
 /fiber(glass)?.{1,10}co.{1,5}(limited|ltd)/i
 /(export|goods|hardware|industry|jewelry).{1,10}co.{1,5}(limited|ltd)/i
 /international trade.{1,10}co.{1,5}(limited|ltd)/i
@@ -64,6 +64,7 @@
 
 /co.{1,5}(limited|ltd).{1,10}guangdong.{1,10}(china|province)/i
 /co.{1,5}(limited|ltd).{1,10}huzhou.{1,10}zhejiang/i
+/co.{1,5}(limited|ltd).{1,10}jiangsu.{1,10}china/i
 
 /district.{1,10}beijing.{1,10}china.{1,10}wechat/i
 
