@@ -27,6 +27,7 @@
 /(audi|mercedes.?benz|porsche|volkswagen|vw).{1,10}werksvertrieb/i
 
 /(fahrzeuge|jahreswagen|werksmodelle).{1,10}bis zu.{1,10}rabatt/i
+/(fahrzeuge|jahreswagen|werksmodelle).{1,10}mit servicehistorie/i
 /(fahrzeuge|jahreswagen|werksmodelle).{1,10}unter listenpreis/i
 /(fahrzeuge|jahreswagen|werksmodelle).{1,10}(verfügbar|vertragsauflösungen)/iu
 /(fahrzeuge|jahreswagen|werksmodelle).{1,10}sofort lieferbar/i
@@ -39,22 +40,31 @@
 
 #
 /aktueller?.{1,10}fahrzeug(e|bestand)/i
+/bestandsliste als pdf beigefügt/iu
 /direkt vom händler.{1,10}verfügbare?/iu
 
 /exklusive.{1,10}gebrauchtwagen.{1,10}angebote/i
 /exklusiven.{1,10}katalog anfordern/i
 
-/fahrzeugangebote.{1,10}geprüfte modelle/iu
-/fahrzeugübersicht.{1,10}aktualisierter bestand/iu
+/(fahrzeugangebote|fahrzeugübersicht).{1,10}aktuelle bestandsübersicht/iu
+/(fahrzeugangebote|fahrzeugübersicht).{1,10}aktualisierter bestand/iu
+/(fahrzeugangebote|fahrzeugübersicht).{1,10}geprüfte modelle/iu
+
 /firmenflotten?.{1,25}(bestand|fahrzeuge)/i
 
 /(geprüfte|lagerabverkauf|verfügbare|zertifizierte).{1,10}fahrzeuge/iu
+/gepflegter?.{1,10}gebrauchtfahrzeuge/i
 
-/gebrauchtfahrzeuge.{1,10}verfügbar/iu
+/(gebrauchtfahrzeuge|gebrauchtwagen).{1,15}aktuell.{1,10}(auswahl|bestand)/i
+/(gebrauchtfahrzeuge|gebrauchtwagen).{1,10}verfügbar/iu
+
+/gebrauchtwagen.?angebote?.{1,10}für sie/iu
 
 /ihre.{1,10}fahrzeugauswahl/i
 /jetzt werkskatalog/i
 /jetzt zugang anfordern/i
+
+/leasingrückläufer.{1,10}übersicht/iu
 
 /modelle.{1,15}monatsliste/i
 /modelle.{1,10}sofortkauf/i

@@ -960,7 +960,7 @@
 
 /mental.{0,10}clarity/i
 
-/(metabolic|metabolism).{0,10}(balance|boost(er)?)/i
+/(metabolic|metabolism).{0,10}(balance|boost(er)?|brief)/i
 /(metabolic|metabolism).{0,10}(health|hack)/i
 /(metabolic|metabolism).{0,10}(cause|discovery|flow|insider|insights?|loophole|mute|organ|unleash)/i
 /(metabolic|metabolism).{0,10}(reactivation|research|reset|revival|wine)/i
@@ -1222,6 +1222,7 @@
 /see.{0,10}clear(er)/i
 
 /smart.{0,10}choice/i
+/smile.{0,10}(boost|care|cure|fix|health|insider|restore|secret)/i
 
 /senior.{0,10}(health|moments)/i
 /severe.{0,10}pain/i

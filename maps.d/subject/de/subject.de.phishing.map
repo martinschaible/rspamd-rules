@@ -171,6 +171,7 @@
 /(geschäfts|unternehmens)?adresse muss.{1,10}bestätigt werden/iu
 
 /gesperrte aktivitat auf/iu
+/gespeicherten daten bei uns/i
 
 # Swiss german :-)
 /gwünne e/i
@@ -218,6 +219,7 @@
 /innerhalb von.{1,10}stunden.{1,10}(abschliessen|abschließen)/iu
 
 /information(en)?.{1,10}zu ihrem.{1,10}steuerpostfach/i
+/information(en)?.{1,10}zur.{1,10}datenaktualisierung/i
 /information(en)?.{1,10}zur.{1,10}(turnusgemässen|turnusgemäßen)/iu
 
 /interface aktualisiert werden/i

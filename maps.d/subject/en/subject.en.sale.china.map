@@ -16,7 +16,7 @@
 /china.{1,10}freight down/i
 /china.{1,10}leading.{1,15}(factory|manufacturer|supplier)/i
 /china.{1,20}(logistics|manufacturing)/i
-/china.{1,15}sourcing agent/i
+/china.{1,15}sourcing.{1,10}(agent|solution)/i
 /china.{1,10}with.{1,10}certification/i
 
 /chinese.{1,10}cold rolled/i
@@ -177,6 +177,7 @@
 /custom.{1,10}mold.{1,10}services/i
 
 /custom.{1,10}packaging.{1,10}printing/i
+/custom.{1,15}parts.{1,10}service/i
 /custom.{1,10}(pet|plush).{1,10}toy/i
 /custom.{1,15}products? manufacturing/i
 /custom.{1,15}printing solutions?/i
@@ -639,6 +640,8 @@
 
 /solutions?.{1,10}precision.{1,10}quality/i
 /solutions?.{1,10}your (brand|projects)/i
+
+/sourcing.{1,10}shipping solution/i
 
 /sportswear.{1,10}manufacturer/i
 
