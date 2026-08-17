@@ -25,6 +25,8 @@
 
 /(aktualisieren?|aktualisierung).{1,10}(deine|sie ihrer?).{1,10}zahlungs.?(details|methode)/i
 
+/ausstehender betrag.{1,10}vorgang/i
+
 # B
 # ------------------------------------------------------------------------------
 #/begleichen sie die rechnung.{1,10}re-/i
