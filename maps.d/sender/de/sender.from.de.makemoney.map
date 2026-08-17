@@ -77,6 +77,8 @@
 
 /deutsche?.{0,10}(banken|wahrheit)/i
 
+/dunkle.{0,10}wahrheit/i
+
 # E
 # ------------------------------------------------------------------------------
 /erfolgsquelle/i
@@ -112,6 +114,8 @@
 /ihre.{0,10}(aktien|finanzen|rendite)/i
 
 /invest.?(ai|ki)/i
+/investition.{0,10}wissen/i
+
 /insider.{0,10}(archiv|handel|wissen)/i
 
 # K
@@ -146,6 +150,7 @@
 
 # P
 # ------------------------------------------------------------------------------
+/politik.{0,10}enthüllung/iu
 /portfolio?.{0,10}kontakt/i
 
 /private?.{0,10}finanzen/i
@@ -185,6 +190,7 @@
 # ------------------------------------------------------------------------------
 /verdienen.{0,10}(neu|sie)/i
 /verbotenes?.{0,10}wissen/i
+/versteckte.{0,10}fakten/i
 
 # W
 # ------------------------------------------------------------------------------
