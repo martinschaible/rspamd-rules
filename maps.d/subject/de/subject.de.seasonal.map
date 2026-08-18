@@ -39,8 +39,12 @@
 /sofort verfügbare.{1,10}(audi|mercedes.?benz|porsche|volkswagen|vw).{1,10}modelle/i
 
 #
+/aktuelle.{1,10}gebrauchtwagen bei/i
 /aktueller?.{1,10}fahrzeug(e|bestand)/i
-/bestandsliste als pdf beigefügt/iu
+
+/bestandsliste.{1,10}als pdf/iu
+/bestandsliste.{1,10}fahrzeuge.{1,10}stand/i
+
 /direkt vom händler.{1,10}verfügbare?/iu
 
 /exklusive.{1,10}gebrauchtwagen.{1,10}angebote/i
@@ -56,9 +60,12 @@
 /gepflegter?.{1,10}gebrauchtfahrzeuge/i
 
 /(gebrauchtfahrzeuge|gebrauchtwagen).{1,15}aktuell.{1,10}(auswahl|bestand)/i
+/(gebrauchtfahrzeuge|gebrauchtwagen).{1,10}mit uvp/iu
 /(gebrauchtfahrzeuge|gebrauchtwagen).{1,10}verfügbar/iu
 
 /gebrauchtwagen.?angebote?.{1,10}für sie/iu
+
+/(informationen|unseren).{1,20}bestandsfahrzeugen/i
 
 /ihre.{1,10}fahrzeugauswahl/i
 /jetzt werkskatalog/i
@@ -68,6 +75,8 @@
 
 /modelle.{1,15}monatsliste/i
 /modelle.{1,10}sofortkauf/i
+
+/neu eingetroffen.{1,15}(gebrauchtfahrzeuge|gebrauchtwagen)/i
 
 /neue fahrzeuge auf lager/i
 /rabatte?.{1,10}über.{1,10}fahrzeuge/iu

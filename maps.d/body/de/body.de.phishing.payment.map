@@ -55,7 +55,9 @@
 # I
 # ------------------------------------------------------------------------------
 /ihre abbuchung nicht verarbeiten/i
-/ihre zahlung fehlgeschlagen/i
+
+/ihre zahlung.{1,10}fehlgeschlagen/i
+/ihre zahlung.{1,10}ist verspätet.{1,10}lösen sie es/iu
 
 /ihre zahlungsmethode ist möglicherweise abgelaufen/iu
 
