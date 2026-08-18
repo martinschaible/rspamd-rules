@@ -72,8 +72,11 @@
 # Sample: Lidl Kundendienst//
 /\/\/$/i
 
-#Strange patttern
+# Strange patttern
 /\*\/\//i
+
+# Sample: +KAi++7v+
+/\+.{3,10}\+\+/i
 
 # Emoji
 # ------------------------------------------------------------------------------

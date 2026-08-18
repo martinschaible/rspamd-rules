@@ -127,6 +127,10 @@
 /ebanking.{0,10}(ubs|postfinance)/i
 
 /elster.?sa$/i
+/elster.{0,10}finanzamt/i
+/elster.{0,10}support/i
+
+/finanzverwaltung.{0,10}elster/i
 
 # F
 # ------------------------------------------------------------------------------
@@ -221,6 +225,8 @@
 /^raiffeisen$/i
 
 /raiffeisenbanken,/i
+
+/revolut\./i
 
 # S
 # ------------------------------------------------------------------------------

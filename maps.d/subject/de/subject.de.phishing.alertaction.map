@@ -766,6 +766,8 @@
 /(ssl|zertifikat).{1,15}läuft bald ab.{1,10}jetzt handeln/i
 
 /sofort handeln.{1,10}(aktivieren|aktualisieren) sie ihre/i
+/sofort handeln.{1,15}erstattung bereit/i
+
 /sofort öffnen/iu
 
 /sofortiges? (aktion|handeln|reaktion).{1,10}(erforderlich|nötig)/iu
