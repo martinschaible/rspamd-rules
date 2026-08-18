@@ -161,7 +161,7 @@
 /handeln sie schnell.{1,10}nur noch wenige/i
 /handgefertigte messer/i
 
-/heckenschere mit.{1,10}akkus/i
+/(heckenschere|rasenkantentrimmer) mit.{1,10}akkus/i
 
 /hochdruck.?reiniger.{1,10}ab \d{2}/i
 /hochdruck.?reiniger.{1,10}euro netto/i
@@ -243,7 +243,8 @@
 
 # N
 # ------------------------------------------------------------------------------
-/nur \d{2,3}.{1,10}netto zzgl.{1,10}mwst/i
+/nur \d{2,3}.{1,10}netto.{1,10}zzgl.{1,10}mwst/i
+/nur \d{2,3}.{1,10}netto.{1,15}stück sofort lieferbar/iu
 
 # O
 # ------------------------------------------------------------------------------

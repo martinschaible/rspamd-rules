@@ -90,6 +90,8 @@
 
 /gewinnspielziehung ausgewählt/iu
 
+/gewonnen.{1,10}bitte kontaktieren sie/i
+
 /gewonnen.{1,10}antwort mit ihrem vollständigen namen/iu
 /gewonnen.{1,10}antworten sie auf.{1,10}e?.?mail/i
 /gewonnen.{1,10}reagieren sie auf.{1,10}forderungen/i
@@ -110,7 +112,8 @@
 
 # I
 # ------------------------------------------------------------------------------
-/ihre?.{1,15}(e?.?mail|name).{1,15}bei einer ziehung/i
+/ihre?.{1,15}(e?.?mail|name).{1,15}bei (einem|einer).{1,15}(gewinnspiel|ziehung)/i
+
 /ihre?.{1,15}(e?.?mail|name).{1,15}die verlosung/i
 /ihre?.{1,15}(e?.?mail|name).{1,15}einen geldpreis/i
 /ihre?.{1,15}(e?.?mail|name).{1,15}gehört zu den.{1,15}gewinnern/iu

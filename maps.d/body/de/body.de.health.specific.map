@@ -14,7 +14,7 @@
 # ------------------------------------------------------------------------------
 /(loewen|löwen).{1,10}(sonder)?angebot/i
 
-/schocken die.{1,10}(loewen|löwen)/iu
+/schocken (alle|die).{1,10}(loewen|löwen)/iu
 
 # Weight Loss
 # ------------------------------------------------------------------------------
@@ -49,6 +49,8 @@
 
 /jetzt testen.{1,10}diät/iu
 /keine? kalorien.{1,15}kein stress/iu
+
+/lässt fett schmelzen/iu
 /lösung zur.{1,10}gewichtsreduktion/iu
 
 /natürlich abnehmen.{1,10}ganz ohne/iu

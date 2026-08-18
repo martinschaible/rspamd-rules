@@ -126,11 +126,16 @@
 # 08.06.25
 /ebanking.{0,10}(ubs|postfinance)/i
 
+/e l (i )?s t e r/i
+/^elster$/i
+
 /elster.?sa$/i
-/elster.{0,10}finanzamt/i
-/elster.{0,10}support/i
+/elster.{0,10}(finanzamt|finanzverwaltung)/i
+/elster.{0,10}mitteilung/i
+/elster.{0,10}(service|support)/i
 
 /finanzverwaltung.{0,10}elster/i
+/meine.{0,10}elster/i
 
 # F
 # ------------------------------------------------------------------------------
