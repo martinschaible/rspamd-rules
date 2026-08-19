@@ -104,7 +104,8 @@
 
 /dkb.{0,5}alert/i
 /dkb.{0,5}communications/i
-/dkb.{0,5}deutsche/i
+/dkb.{0,5}(deutsche|direkt)/i
+/dkb.{0,5}info/i
 /dkb.{0,5}(konto|kundenbetreuung|kundencenter|kundenservice)/i
 /dkb.{0,5}monitoring/i
 /dkb.{0,5}(service|sicherheitsdienst|schutz)/i
@@ -159,6 +160,12 @@
 /info.{0,10}raiffeisen/i
 
 /ing-diba/i
+
+# Interactive Brokers
+/ibkr.{0,10}(message|reply|support)/i
+/ibkr.{0,10}(info|invest)/i
+
+/interactive.{0,10}brokers/i
 
 # J
 # ------------------------------------------------------------------------------

@@ -1142,12 +1142,13 @@
 /proper.{0,15}detox/i
 /protein.{0,10}(danger|discovery|hack)/i
 
-/purple.{1,10}(drink|pee|powder|tonic)/i
+/puffy.{0,10}eyes/i
+/purple.{0,10}(drink|pee|powder|tonic)/i
 
 # Q
 # ------------------------------------------------------------------------------
-/quick.{1,10}(stretch|technique)/i
-/quiet.{1,10}(mind|mornings?|nights?)/i
+/quick.{0,10}(stretch|technique)/i
+/quiet.{0,10}(mind|mornings?|nights?)/i
 
 # R
 # ------------------------------------------------------------------------------

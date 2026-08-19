@@ -279,11 +279,6 @@
 
 # I
 # ------------------------------------------------------------------------------
-
-# Interactive Brokers
-/ibkr.{0,10}(message|reply|support)/i
-/ibkr.{0,10}(info|invest)/i
-
 /icorner.{0,10}(kundenservice|sicherheitsdienst)/i
 
 /internal revenue service/i
