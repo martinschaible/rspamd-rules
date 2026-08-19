@@ -50,9 +50,6 @@
 
 # Heart, Blood pressure
 # ------------------------------------------------------------------------------
-/blut(hoch)?druck.{1,10}auf.{1,10}normal/i
-/blut(hoch)?druck.{1,10}kann.eine/i
-/blut(hoch)?druck.{1,10}wird ihnen dabei behilflich/i
 
 /hoher.blutdruck/i
 /regulierung.{1,10}blut(hoch)?druck/i
@@ -62,30 +59,9 @@
 
 /(normalisiert|stabilisiert).{1,10}den.{1,10}blut(hoch)?druck/i
 
-# Muscle Pain
-# ------------------------------------------------------------------------------
-/muskelschmerzen.{1,15}minuten ohne medikamente/i
-
-# Prostatitis
-# ------------------------------------------------------------------------------
-/prostata zuhause in nur/i
-/prost.?aktiv/i
-
-# Tinnitus
-# ------------------------------------------------------------------------------
-
-# Veins
-# ------------------------------------------------------------------------------
-/krampfadern.{1,20}waffe gegen sie/i
-
-#
-#
-#
-
 # Miracle, Breaktrough, Secrets, Videos
 # ------------------------------------------------------------------------------
 /bahnbrechende formel.{1,10}entwickelt wurde/i
-/geheime express.?methode/i
 
 /revolution.{1,10}behandlung der/i
 /revolutioniert.{1,10}das leben von millionen/i
