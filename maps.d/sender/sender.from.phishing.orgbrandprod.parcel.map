@@ -74,6 +74,7 @@
 /(dhl|dpd|fedex|gls|ups).{0,5}(messages?|versand|your)/i
 
 /(dhl|dpd|fedex|gls|ups).{0,5}noreply/i
+/(dhl|dpd|fedex|gls|ups).{0,5}notfallservice/i
 
 /(dhl|dpd|fedex|gls|ups).{0,5}(offers?|online|order)/i
 /(dhl|dpd|fedex|gls|ups).{0,5}post/i
