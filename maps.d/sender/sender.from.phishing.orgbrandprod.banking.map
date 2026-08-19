@@ -108,8 +108,12 @@
 /dkb.{0,5}info/i
 /dkb.{0,5}(konto|kundenbetreuung|kundencenter|kundenservice)/i
 /dkb.{0,5}monitoring/i
+/dkb.{0,5}online/i
+/dkb.{0,5}post/i
 /dkb.{0,5}(service|sicherheitsdienst|schutz)/i
 /dkb.{0,5}team/i
+
+/(ihre|meine).{0,5}dkb/i
 
 # E
 # ------------------------------------------------------------------------------

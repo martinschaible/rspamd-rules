@@ -243,7 +243,8 @@
 # Sample: Kurzer Check 3/10/2026
 /kurzer check.{1,10}\d{1,2}\/\d{1,2}\/\d{4}/i
 
-/kontaktdaten.{1,10}fortsetzen/iu
+/kontaktdaten.{1,15}ein update/i
+/kontaktdaten.{1,10}fortsetzen/i
 
 # Paypal
 /kontoauszug für.{1,10}ist verfügbar.{1,10}ref/iu

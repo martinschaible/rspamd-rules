@@ -85,6 +85,8 @@
 
 # F
 # ------------------------------------------------------------------------------
+/fakten.{0,10}jetzt/i
+
 /finanz.?(gewitter|mentor|trends)/i
 
 /fokus.{0,10}intern/i
@@ -163,6 +165,8 @@
 /regierung.{0,10}zensiert/i
 /reich.{0,10}(sein|werden)/i
 /report.{0,10}(einheit|finanz)/i
+
+/riskante?.{0,10}wahrheit/i
 
 # S
 # ------------------------------------------------------------------------------

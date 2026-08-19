@@ -893,8 +893,10 @@
 /rest.{1,10}signals?/i
 /restless.{1,10}prostate/i
 
-/(restores?|restoring).{1,10}(brain|gut|hearing|help|joint|memory|nerve|perfect|teeth)/i
-/(restores?|restoring){1,10}pain free/i
+/(restores?|restoring).{1,10}(brain|gut|joint|memory|nerve|teeth)/i
+/(restores?|restoring).{1,10}(hearing|help)/i
+/(restores?|restoring).{1,10}(deep|restful).{1,10}sleep/i
+/(restores?|restoring).{1,10}(pain free|perfect)/i
 
 /reveals hidden.{1,10}(food|triggers)/i
 
