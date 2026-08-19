@@ -41,7 +41,8 @@
 
 /(appliances|automotive|auto.?parts).{1,10}co.{1,5}(limited|ltd)/i
 /fiber(glass)?.{1,10}co.{1,5}(limited|ltd)/i
-/(export|goods|hardware|industry|jewelry).{1,10}co.{1,5}(limited|ltd)/i
+/(goods|hardware|industry|jewelry).{1,10}co.{1,5}(limited|ltd)/i
+/(electronics hk|export).{1,10}co.{1,5}(limited|ltd)/i
 /international trade.{1,10}co.{1,5}(limited|ltd)/i
 /(machinery|material).{1,10}co.{1,5}(limited|ltd)/i
 /mold industrial.{1,10}co.{1,5}(limited|ltd)/i
@@ -56,6 +57,8 @@
 /(limited|ltd).{1,10}we (provide|specialize)/i
 
 /we are china.{4,35}co.{1,5}(limited|ltd)/i
+
+/xiamen.{1,10}(limited|ltd)/i
 
 # Address patterns
 # ------------------------------------------------------------------------------
@@ -100,6 +103,7 @@
 /manager.{1,10}wechat.{1,10}whatsapp/i
 
 /wuzhen.{1,10}zhejiang.{1,10}whatsapp/i
+/xiamen city.{1,10}whatsapp/i
 
 # Mainland China mobile phone: +86
 /大陸手機.{1,10}\+86/i
