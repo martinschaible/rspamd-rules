@@ -23,6 +23,8 @@
 
 /anspruch.{1,10}(betrag|geld)/i
 
+/ausstehende parkgebühr.{1,10}fällig/iu
+
 /auszahlung.{1,10}des zuschusses/i
 /auszahlung.{1,10}nicht eingeforderter preisgelder/i
 

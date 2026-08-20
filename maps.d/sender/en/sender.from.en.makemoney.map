@@ -21,9 +21,11 @@
 # Crypto
 # ------------------------------------------------------------------------------
 /(bitcoin|btc|crypto|krypto).{0,10}admin/i
+/(bitcoin|btc|crypto|krypto).{0,10}(ai\b|ai$)
 /(bitcoin|btc|crypto|krypto).{0,10}(bank|billionaire|blog|boom|broker|bulletin)/i
 /(bitcoin|btc|crypto|krypto).{0,10}(casino|currency|era$|etf|forex|fund)/i
 /(bitcoin|btc|crypto|krypto).{0,10}(genius|guidence)/i
+/(bitcoin|btc|crypto|krypto).{0,10}helix/i
 /(bitcoin|btc|crypto|krypto).{0,10}(insider|insights|invest(ment)?)/i
 /(bitcoin|btc|crypto|krypto).{0,10}(lander|life)/i
 /(bitcoin|btc|crypto|krypto).{0,10}(master|millionaire|network|news)/i
