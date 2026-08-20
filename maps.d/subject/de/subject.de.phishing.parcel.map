@@ -242,6 +242,8 @@
 
 /(lieferung|paket|sendung|versand|zustellung).{1,10}transportprozess/i
 
+/(lieferung|paket|sendung|versand|zustellung).{1,10}unterwegs.{1,10}angaben überprüfen/iu
+
 /(lieferung|paket|sendung|versand|zustellung).{1,20}wartet auf.{1,10}(zoll)?freigabe/i
 /(lieferung|paket|sendung|versand|zustellung).{1,10}wird in.{1,10}retourniert/i
 /(lieferung|paket|sendung|versand|zustellung).{1,10}wurde ausgesetzt/i

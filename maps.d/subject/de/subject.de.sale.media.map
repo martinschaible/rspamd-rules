@@ -67,6 +67,8 @@
 /google.{1,10}festpreis/i
 /google.{1,10}profil.{1,10}aufgefallen sind/i
 
+/(google|negative?).{1,5}bewertung auf ihrem profil/i
+
 # H
 # ------------------------------------------------------------------------------
 /(hochwertige|redaktionelle).{1,10}inhalte auf.{1,10}webseite/i
@@ -104,7 +106,6 @@
 
 # N
 # ------------------------------------------------------------------------------
-/negativbewertung auf ihrem profil/i
 
 # O
 # ------------------------------------------------------------------------------

@@ -24,6 +24,10 @@
 /(car|fire).{0,10}emergency.?(kit|set)/i
 /medicare.?(kit|set)/i
 
+# Month and year
+# ------------------------------------------------------------------------------
+/(january|february|march|april|may|june|july|august|september|october|november|december).{0,10}202\d/i
+
 #
 #
 #
