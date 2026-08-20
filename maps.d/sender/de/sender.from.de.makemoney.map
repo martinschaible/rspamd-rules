@@ -186,7 +186,8 @@
 /trading.{0,10}experte/i
 /trend.{0,10}signal/i
 
-/tv.?(schock|moderatoren)/i
+/tv.{0,5}moderatoren/i
+/tv.{0,5}(schock|skandal)/i
 
 # U
 # ------------------------------------------------------------------------------
