@@ -53,7 +53,7 @@
 
 # A
 # ------------------------------------------------------------------------------
-/access denied in {1,2}.?hrs/i
+/access denied in.{1,2}.?hrs/i
 
 /leave compliance report/i
 
@@ -62,6 +62,9 @@
 
 # C
 # ------------------------------------------------------------------------------
+/complete.{1,10}security update/i
+/confirm.{1,10}your details to complete /i
+
 /copyright infringement notice.{1,10}unauthorized/i
 /copyright notification.{1,10}music usage review/i
 
