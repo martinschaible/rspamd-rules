@@ -36,7 +36,7 @@
 
 # Sample: http://010036057337/
 #         http://35466348728.heli-beauty.de
-/https?://[0-9]{10,20}(\/|\.)/i
+/https?:\/\/[0-9]{10,20}(\/|\.)/i
 
 # Combination of TLDs pretending to be the real domain
 # ------------------------------------------------------------------------------
@@ -48,11 +48,11 @@
 # ------------------------------------------------------------------------------
 
 # Sample: https://ccmbq.com/RUXK6bl5ap.world
-/https://[a-z]{3,15}\.com\/[a-z]{3,15}\.(jpn|or)\.com/i
-/https://[a-z]{3,15}\.com\/[a-z]{3,15}\.world/i
+/https?:\/\/[a-z]{3,15}\.com\/[a-z]{3,15}\.(jpn|or)\.com/i
+/https?:\/\/[a-z]{3,15}\.com\/[a-z]{3,15}\.world/i
 
 # Others
 # ------------------------------------------------------------------------------
 
 # Localhost and ports
-/http://localhost:(0903|9000)/i
+/https?:\/\/localhost:(0903|9000)/i
