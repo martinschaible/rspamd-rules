@@ -65,7 +65,8 @@
 # ------------------------------------------------------------------------------
 /einkommen.{1,10}bitcoin/i
 
-/einzahlung vornehmen.{1,10}folgen sie dem link/i
+/Einzahlung.{1,10}beginnt das System/i
+/einzahlung.{1,10}vornehmen.{1,10}folgen sie dem link/i
 
 /endlich reich werden/i
 /enthüllt.{1,20}(finanztrick|ki.?system)/iu
@@ -179,6 +180,8 @@
 
 /sie mit krypto reich/i
 /sofort mindestens.{1,15}euro pro tag verdienen/i
+
+/start beträgt 250 euro/iu
 
 /starten sie ihren.{1,10}wachstumskurs/i
 /starten sie klein.{1,10}ab \d{3,5}/i

@@ -320,7 +320,9 @@
 
 /verhindern sie die kontosperrung/i
 
-/verifizierung ihrer (konto|profil).?daten/i
+/verifiziere dein.{1,15}(konto|profil).{1,10}202\d/i
+
+/verifizierung ihrer.{1,15}(konto|profil).?daten/i
 /verifizierung ihrer kontakt.?daten/i
 /verifizierung noch ausstehend/i
 
