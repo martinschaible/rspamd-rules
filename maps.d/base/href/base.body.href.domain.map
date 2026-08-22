@@ -51,15 +51,8 @@
 /https://[a-z]{3,15}\.com\/[a-z]{3,15}\.(jpn|or)\.com/i
 /https://[a-z]{3,15}\.com\/[a-z]{3,15}\.world/i
 
-# Companies and Brands masked
+# Others
 # ------------------------------------------------------------------------------
-/_interactivebrokers_/i
-
-#
-/https://n26-/i
-
-#
-/https://user\d{1,10}/i
 
 # Localhost and ports
 /http://localhost:(0903|9000)/i
