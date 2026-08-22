@@ -58,5 +58,8 @@
 #
 /https://n26-/i
 
+#
+/https://user\d{1,10}/i
+
 # Localhost and ports
 /http://localhost:(0903|9000)/i
