@@ -483,7 +483,9 @@
 /partners?.{1,15}with us for/i
 /partners?.{1,10}worthy of your/i
 
-/parts from china/i
+/parts.{1,10}cooperation.{1,10}proposal/i
+/parts.{1,10}from.{1,10}china/i
+
 /(parts|source).{1,10}manufacturer/i
 
 /pc.?board.{1,10}(pcba?|printed.?circuits?.?board)/i
@@ -596,6 +598,7 @@
 /reduce.{1,10}printing costs/i
 /(regarding|requirement).{1,15}(pcba?|printed.?circuits?.?board)/i
 
+/reliable.{1,10}auto parts/i
 /reliable.{1,10}(china|chinese).{1,20}(freight|forwarder)/i
 /reliable.{1,20}factory with/i
 /reliable.{1,20}(faucets|freight|forwarder)/i

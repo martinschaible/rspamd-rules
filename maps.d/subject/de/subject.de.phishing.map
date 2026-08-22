@@ -11,6 +11,13 @@
 /nur noch wenige flaschen/i
 /sichere dir dein angebot/i
 
+# Car Parking
+# ------------------------------------------------------------------------------
+/parkgebühr.{1,10}ref/iu
+/parkvorgang aktualisieren/i
+
+/ihre parkgebühr ist noch offen/iu
+
 #
 #
 #
@@ -126,7 +133,10 @@
 /daten(über)?prüfung.{1,10}zur einhaltung/iu
 
 /deaktivierung ihrer.{1,10}vignette/i
-/dienste erfordert zahlung von/i
+
+/dienste? zu aktivieren/i
+/dienste? erfordert zahlung von/i
+
 /digitale.{1,10}vignette ist ungültig/iu
 
 /dringende.{1,10}notwendige mahnung/i
@@ -213,7 +223,6 @@
 /ihre.{1,10}(mobil|telefon).?nummer bestätigen/iu
 
 /ihre offene verkehrsstrafe/i
-/ihre parkgebühr ist noch offen/iu
 /ihre überprüfung wird empfohlen/iu
 
 /ihrer letzten handelsaktivität erforderlich/iu
@@ -333,7 +342,9 @@
 
 # S
 # ------------------------------------------------------------------------------
-/schutz ohne unterbrechung fortzusetzen/i
+/schutz.{1,10}jetzt aktiviert verbessert/i
+/schutz.{1,10}ohne unterbrechung fortzusetzen/i
+/schutz sofort.?$/i
 
 /sendung(en)? konnten? nicht zugestellt werden/i
 

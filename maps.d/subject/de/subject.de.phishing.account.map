@@ -35,8 +35,11 @@
 /aktualisierung.{1,10}(kontodaten|kontoinformationen|kontosicherheit)/i
 /aktualisierung.{1,10}zahlungsangaben/i
 
+/aktualisierung ihres.{1,15}(kontos?|profils?).{1,10}freischaltung/i
 /aktualisierung ihres.{1,15}(kontos?|profils?).{1,10}erforderlich/i
 /aktualisierung ihres.{1,15}(kontos?|profils?).{1,10}update/i
+
+/aktualisierung ihres.{1,10}kunden.?profils/i
 /aktualisierung ihrer.{1,15}vertragsbedingungen.{1,10}zustimmung/i
 
 /anderes gerät ist mit ihrem.{1,15}(konto|profil)/iu

@@ -21,6 +21,18 @@
 # ------------------------------------------------------------------------------
 /(herren|pillen|playboy).{0,10}apotheke/i
 
+# Prescription
+# ------------------------------------------------------------------------------
+/rezepte?.{0,10}update/i
+
+/e.?rezept/i
+
+/digital(es)?.{0,10}rezept/i
+/(ohne|online).{0,10}rezept/i
+/sofort.{0,10}rezept/i
+
+/ihr.{0,10}rezept/i
+
 #
 #
 #
@@ -74,8 +86,6 @@
 
 # E
 # ------------------------------------------------------------------------------
-/e.?rezept/i
-
 /ed.?lösung/i
 
 /einfach.{0,10}leben/i
@@ -88,6 +98,8 @@
 /fett.{0,10}(reset|schnell)/i
 
 /(flacher|frei).{0,10}bauch/i
+
+/figur.{0,10}update/i
 
 /fit.{0,10}(alltag|leicht|maker|pro|trainer)/i
 /fit.{0,10}einfach/i
@@ -126,8 +138,6 @@
 
 # I
 # ------------------------------------------------------------------------------
-/ihr.{0,10}rezept/i
-
 /ihre?.{1,10}gesundheitsberater/i
 /ihre.{1,10}(leber|prostata)/i
 
@@ -183,7 +193,6 @@
 
 # O
 # ------------------------------------------------------------------------------
-/ohne.{0,10}rezept/i
 /original aus/i
 
 # P
@@ -206,7 +215,6 @@
 /rauchen.{0,10}aufhören/i
 
 /reduzieren sie.{1,15}fett/i
-/rezepte.{0,10}update/i
 
 /ruhe.{0,10}(fit|plan)/i
 
@@ -232,7 +240,7 @@
 
 /stille?.{0,10}(direkt|klar|plus|vorteil|wirkung)/i
 
-/sofort.{0,10}(kick|rezept)/i
+/sofort.{0,10}kick/i
 
 # T
 # ------------------------------------------------------------------------------

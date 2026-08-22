@@ -243,6 +243,11 @@
 # 24.02.26
 /e.?tax/i
 
+#
+/easypark.{0,10}(ab|system)/i
+/kontakt.{0,10}easypark/i
+/support.{0,10}easypark/i
+
 # F
 # ------------------------------------------------------------------------------
 /facebook.{0,10}(ads.?team|inc)/i
