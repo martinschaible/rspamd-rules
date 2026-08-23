@@ -92,7 +92,10 @@
 /ihre zahlungsdaten sind unvollständig/iu
 
 /information(en)? zu einer aktuellen auszahlung/i
-/information(en)? zu ihrer zahlungsmethode/i
+
+/information(en)? zu (deiner|ihrer).{1,20}zahlung/i
+/information(en)? zu (deiner|ihrer).{1,15}zahlungsmethode/i
+
 
 # J
 # ------------------------------------------------------------------------------

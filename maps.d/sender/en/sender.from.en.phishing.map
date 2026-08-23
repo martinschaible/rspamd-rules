@@ -249,6 +249,9 @@
 /session.{0,10}(alert|control)/i
 /service.{0,10}(information|notifications?)/i
 
+# French
+/service de support/i
+
 /settlement.{0,10}administrator/i
 
 /shared?.{0,10}file/i

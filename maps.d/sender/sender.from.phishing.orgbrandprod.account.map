@@ -185,8 +185,8 @@
 /spotify.{0,10}(ab|inc\.|notice|premium|support|team)/i
 /spotify.{0,10}kunden.?service/i
 
-/(support|team).{0,10}(netflix|spotify)/i
-/(support|team).{0,10}(paypal|pypl)/i
+/(mein|support|team).{0,10}(netflix|spotify)/i
+/(mein|support|team).{0,10}(paypal|pypl)/i
 
 # T
 # ------------------------------------------------------------------------------
