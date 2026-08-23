@@ -22,12 +22,16 @@
 
 # Special
 # ------------------------------------------------------------------------------
-/\[.?avoid (these|this)/i
+/\[.?avoid (these|this)?\]/i
 /\[.?avoid.?\]/i
 
-/\[.?heres? how.?\]/i
+/\[.?here.?s the secret.?\]/i
 
-/\].?(find out here|here.{1,5}how)/i
+/\[.?find out here.?\]/i
+/\[.?find out now.?\]/i
+/\[.?full list here.?\]/i
+
+/\[.?here.{1,5}how.?\]/i
 
 #
 #
@@ -52,7 +56,7 @@
 /\d step solution to/i
 /\d stretch/i
 /\d surprising fruits/i
-/\d tbsp stops/i
+/\d tbsp (stops|trick)/i
 /\d way to (clear up|eliminate)/i
 /\d word ritual/i
 
@@ -612,8 +616,11 @@
 
 # I
 # ------------------------------------------------------------------------------
+/impacts?.{1,10}brain health/i
+
 /improved? memory.{1,10}(instantly|in.{1,15}seconds|memory)/i
 /improved? memory.{1,10}(concentration|easy|glucose|simple)/i
+
 /improved?.{1,15}(digestion|hearing|urination|vision)/i
 /improve your.{1,10}clarity/i
 
