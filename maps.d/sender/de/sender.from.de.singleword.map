@@ -51,6 +51,9 @@
 
 /achtung/i
 
+/adresscenter/i
+/adressqualität/iu
+
 /^ag$/i
 /ag.?angebote?/i
 
@@ -220,6 +223,7 @@
 # ------------------------------------------------------------------------------
 /danke\b/i
 
+/datenkompetenz/i
 /datenschutz$/i
 /datenüberprüfung/iu
 
@@ -663,6 +667,7 @@
 
 /körper.?balance/i
 
+/kontaktlösung(en)?/iu
 /kontaktstelle/i
 
 /kontenabteilung/i
@@ -1000,6 +1005,7 @@
 /sendungsverfolgung/i
 
 /serviceberater/i
+/service.?experten/i
 /servicehilfe/i
 /servicekarte/i
 /servicekunden/i

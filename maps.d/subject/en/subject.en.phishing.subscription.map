@@ -75,6 +75,7 @@
 
 # P
 # ------------------------------------------------------------------------------
+/payment failed.{1,10}reactivate your.{1,15}subscription/i
 
 # 09.08.25 - Payment authentication failure detected
 /支払い情報の認証に失敗しが検出され/i
@@ -89,7 +90,7 @@
 # ------------------------------------------------------------------------------
 /subscription.{1,10}ref.?id/i
 /subscription.{1,10}access has been paused/i
-/subscription paused/i
+/subscription.{1,15}paused/i
 
 # T
 # ------------------------------------------------------------------------------

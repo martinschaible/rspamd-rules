@@ -170,9 +170,10 @@
 
 /^re.?designing$/i
 
-/(redo\b|re.?build|re.?make|re.?vamping|re.?vising).{1,10}(home.?page|web.?site)/i
+/(redo\b|re.?build|re.?make|re.?vising).{1,10}(home.?page|web.?site)/i
 
-/revamp.{1,10}www/i
+/re.?vamp(ing)?.{1,10}(home.?page|web.?site)/i
+/re.?vamp(ing)?.{1,10}www/i
 
 # S
 # ------------------------------------------------------------------------------

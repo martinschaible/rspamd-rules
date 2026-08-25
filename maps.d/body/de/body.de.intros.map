@@ -62,6 +62,8 @@
 /hier ist.{1,10}botschafter(in)?/i
 /hier spricht.{1,10}(frau|herr)/i
 
+/hilfe benötigt.{1,10}mein name ist/iu
+
 # I
 # ------------------------------------------------------------------------------
 
@@ -192,7 +194,7 @@
 
 /mein name ist.{5,25}ich bin eine?.{1,10}deutsch(er)?/i
 /mein name ist.{5,30}ich bin eine?.{1,15}finanzberater(in)?/i
-/mein name ist.{5,40}ich bin eine.{1,15}(frau|witwe)/i
+/mein name ist.{5,40}ich bin eine.{1,35}(frau|witwe)/i
 
 /mein name ist.{5,25}ich bin (das einzige kind|eine witwe)/i
 /mein name ist.{5,25}ich bin die persönliche/iu

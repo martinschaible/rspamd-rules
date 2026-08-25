@@ -141,6 +141,7 @@
 
 /(konto|profil).{1,15}bei.{1,15}verknüpft ist.{1,15}nicht für die nutzung/iu
 
+/(konto|profil).{1,15}befindet sich im status der/iu
 /(konto|profil).{1,15}(benötigen|benötigt|erfordert).{1,10}eine? (aktualisierung|update)/i
 /(konto|profil).{1,15}(benötigen|benötigt|erfordert).{1,10}sofortige aufmerksamkeit/i
 
@@ -328,6 +329,8 @@
 /verifizierung.{1,10}baldmöglichst durchzuführen.{1,10}um unterbrechungen/iu
 /verifizierung.{1,10}ihres.{1,15}kontos bisher nicht/i
 /verifizierung.{1,10}nicht innerhalb von.{1,10}stunden (abschliessen|abschließen)/iu
+
+/vorübergehenden einschränkung/iu
 
 # W
 # ------------------------------------------------------------------------------
