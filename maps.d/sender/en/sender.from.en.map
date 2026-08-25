@@ -34,9 +34,6 @@
 
 # Faked Company or Department names
 # ------------------------------------------------------------------------------
-/(eu|world).?(business|company).{0,10}(directory|register)/i
-/trade.?register/i
-
 # 25.12.24 - Sample: Email amelec.ch
 /e?.?mail.{1,15}\[a-z]{2,4}/i
 
