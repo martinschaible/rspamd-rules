@@ -248,6 +248,9 @@
 /kontakt.{0,10}easypark/i
 /support.{0,10}easypark/i
 
+#
+/(eu|world).?(business|company).{0,10}(directory|register)/i
+
 # F
 # ------------------------------------------------------------------------------
 /facebook.{0,10}(ads.?team|inc)/i
@@ -492,6 +495,8 @@
 /telekom.{0,10}(bonus|insider|kunden)/i
 
 /tk.{0,10}(gesundheit|mitglieder|kundenservice)/i
+
+/trade.?register/i
 
 /treasury.{0,10}department/i
 /ts cubic card/i
