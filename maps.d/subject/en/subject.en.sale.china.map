@@ -534,7 +534,7 @@
 
 /precise.{1,10}mold(ing)?.{1,10}solutions?/i
 
-/precision.{1,10}component.{1,10}solutions/i
+/precision.{1,10}(component|welding).{1,10}solutions/i
 /precision.{1,10}custom.{1,10}parts/i
 /precision.{1,10}machining.{1,10}engineering/i
 /precision.{1,10}(pcba?|printed.?circuits?.?board).{1,10}from/i
@@ -610,6 +610,8 @@
 /reliable.{1,10}shower/i
 /reliable.{1,10}tantalum.{1,10}capacitors?/i
 /reliable.{1,10}wire.{1,10}harness/i
+
+/replacement.{1,20}compliant alternative/i
 
 /rfq.{1,15}(injection|moulding|plastic)/i
 /rfq.{1,10}parts quote/i
