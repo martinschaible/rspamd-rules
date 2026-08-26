@@ -430,8 +430,10 @@
 /materials.{1,10}suppliers/i
 
 /medals.{1,10}apparel/i
-/medical.{1,10}transformer.{1,10}manufacturer/i
-/metal sheet.{1,10}(supplier|supply)/i
+/medical.{1,10}transformer.{1,10}(factory|manufacturer?)/i
+
+/metal.{1,10}sheet.{1,10}(supplier|supply)/i
+/metal.{1,10}souvenir.{1,10}(factory|manufacturer?)/i
 
 /microchip.{1,10}offer/i
 /microchip.{1,10}parts request/i
