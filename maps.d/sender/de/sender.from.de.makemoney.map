@@ -91,7 +91,11 @@
 # ------------------------------------------------------------------------------
 /fakten.{0,10}jetzt/i
 
-/finanz.?(gewitter|mentor|trends)/i
+/finanz.{0,10}direkt/i
+/finanz.{0,10}(gewitter|mentor|trends)/i
+/finanz.{0,10}report/i
+/finanz.{0,10}quelle/i
+/finanz.{0,10}update/i
 
 /fokus.{0,10}intern/i
 /fonds.{0,10}sichern/i
@@ -101,7 +105,15 @@
 # G
 # ------------------------------------------------------------------------------
 /geheim(es)?.{0,10}(aktuell|geld)/i
-/geld.{0,10}(gratis|info|strategien|verdienen)/i
+
+/geld.{0,10}(gratis|strategien|verdienen)/i
+
+/geld.{0,10}aktuell/i
+/geld.{0,10}experte/i
+/geld.{0,10}(info|insider)/i
+/geld.{0,10}magazin/i
+/geld.{0,10}report/i
+/geld.{0,10}wissen/i
 
 # H
 # ------------------------------------------------------------------------------
