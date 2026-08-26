@@ -106,6 +106,8 @@
 /fit.{0,10}heute/i
 
 /fungo.{0,10}(creme|killer|lösung|spray)/i
+
+/(fuss|fuß).{0,10}gesundheit/i
 /(fuss|fuß).{0,10}(freude|pflaster|power|pro)/iu
 
 # G
@@ -229,6 +231,9 @@
 /schlaf.{0,10}(scout|spur)/i
 
 /schlank.{0,10}(aktuell|booster|check|hilfe|welt)/i
+/schlank.{0,10}experte/i
+/schlank.{0,10}geheimnis/i
+
 /schmerzen in/i
 
 /schöne.{0,10}(nägel|zähne)/iu
@@ -236,7 +241,10 @@
 /sex.{0,10}produkt/i
 
 /(gigantische|starke).{0,10}lust/i
+
+/starke.{0,10}(erregung|lust|potenz)/i
 /starker.{0,10}penis/i
+
 /start.{0,10}(klar|wohl)/i
 /starten sie/i
 
@@ -261,6 +269,8 @@
 /verstopfter.{0,10}darm/i
 
 /vital.{0,10}(experten?|fit|pro)/i
+/vital.{0,10}kraft/i
+/vital.{0,10}leben/i
 
 /vorsicht.{0,10}zimt/i
 

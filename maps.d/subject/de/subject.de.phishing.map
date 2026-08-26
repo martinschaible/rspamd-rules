@@ -144,6 +144,8 @@
 
 # E
 # ------------------------------------------------------------------------------
+/e?.?mail.?adresse erfolgreich bestätigen/iu
+
 /e.?vignette.{1,5}ref/i
 /e.?vignette.{1,10}service unterbrochen/i
 /e.?vignette.{1,10}vorübergehend deaktiviert/iu
@@ -306,6 +308,8 @@
 
 # P
 # ------------------------------------------------------------------------------
+/park.{1,10}control.{1,10}vorgangsnummer/i
+
 /prüfen.{1,10}sie ihre firmenunterlagen/iu
 /prüfen.{1,10}verifizieren sie ihre?/i
 
