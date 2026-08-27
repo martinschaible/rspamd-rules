@@ -124,6 +124,8 @@
 /gut.{0,10}start/i
 /gewichts?.{0,10}(verliert|weg)/i
 
+/gewürz.{0,10}experte/i
+
 # H
 # ------------------------------------------------------------------------------
 /haar.{0,10}(ausfall|wachstum)/i
@@ -284,8 +286,11 @@
 /wirkung.{0,10}jetzt/i
 /wohl.{1,10}(detox|klar|vital)/i
 
-/würze.{0,10}(insider|tages|wunder)/iu
+/würze.{0,10}entdecker/i
+/würze.{0,10}guru/i
+/würze.{0,10}(insider|tages)/iu
 /würze.{0,10}(ratgeber|revolution)/i
+/würze.{0,10}wunder/i
 
 # X
 # ------------------------------------------------------------------------------
@@ -295,10 +300,18 @@
 
 # Z
 # ------------------------------------------------------------------------------
-/zimt.{0,10}(hinweis|könig|spezialist)/iu
 /zimt.{0,10}(berater|bericht|booster)/i
 /zimt.{0,10}experte/i
+/zimt.{0,10}verfechter/i
+/zimt.{0,10}guru/i
+/zimt.{0,10}liebhaber/i
+/zimt.{0,10}hinweis/i
+/zimt.{0,10}könig/iu
 /zimt.{0,10}notiz/i
 /zimt.{0,10}pionier/i
 /zimt.{0,10}(ratgeber|risiken|risiko)/i
+/zimt.{0,10}spezialist/i
 /zimt.{0,10}(warnung|wissen)/i
+/zimt.{0,10}zauberer/i
+
+/zuckerfrei.{0,10}fit/i
