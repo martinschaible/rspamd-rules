@@ -55,8 +55,17 @@
 /deal.{0,10}redaktion/i
 
 /dein.{0,10}glücks?/i
-/deine?.{0,10}(seele|schritt)/i
-/deine?.{0,10}experten?/i
+
+/(dein|ihr).{0,10}experten?/i
+/(dein|ihr).{1,15}team/i
+/(dein|ihr).{0,10}(seele|schritt)/i
+/(dein|ihr).{0,10}solar.?experte/i
+/(dein|ihr).{1,10}solaranlage/i
+/(dein|ihr).{1,15}wifi/i
+
+/(dein|ihr).{0,15}vorteil/i
+
+#/ihre?.{0,10}online/i
 
 /digital.{0,10}(blick|team)/i
 /direkt.?sprach/i
@@ -117,12 +126,6 @@
 
 # I
 # ------------------------------------------------------------------------------
-/ihr.{1,15}team/i
-/ihr.{0,10}solar.?experte/i
-/ihre.{1,10}(solaranlage|wifi)/i
-
-#/ihre?.{0,10}online/i
-
 /insider.{0,10}wissen/i
 
 # J
