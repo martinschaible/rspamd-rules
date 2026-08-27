@@ -28,6 +28,7 @@
 
 # B
 # ------------------------------------------------------------------------------
+/b2b.{0,10}kaffee/i
 /bequemes.{0,10}sitzen/i
 
 /besseres.{0,10}w.?lan/i
@@ -135,7 +136,7 @@
 
 # K
 # ------------------------------------------------------------------------------
-/kaffee.{0,10}mieten/i
+/kaffee.{0,10}mieten?/i
 /kamera.{0,10}(experten|fahrer|profis)/i
 
 # Cutting board
@@ -295,6 +296,7 @@
 /(wi.?fi|wlan).{0,15}(abdeckung|experten?|ratgeber)/i
 /(wi.?fi|wlan).{0,15}verstärker/iu
 
+/wohn.{0,10}(komfort|support)/i
 /wort.{0,10}direkt/i
 /(schnelle(re)?s|tragbares).?(wi.?fi|w.?lan)/i
 

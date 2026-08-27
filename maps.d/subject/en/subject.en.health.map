@@ -270,6 +270,7 @@
 /constant.{1,10}(buzzing|ringing|tingling)/i
 /constant.{1,10}brain.?fog/i
 
+/control.{1,10}blood sugar.{1,10}with/i
 /conquer.{1,10}tinnitus/i
 /constipation.{1,10}(read this|worse)/i
 
@@ -935,7 +936,7 @@
 
 /routine.{1,10}clear(er)? sight/i
 /routine.{1,10}(for joint|no exercise)/i
-/rotten.{1,10}nails/i
+/(rotten|rotting).{1,10}(nails|teeth)/i
 
 /rub this on/i
 /runs? to pee/i

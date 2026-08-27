@@ -163,6 +163,7 @@
 
 /req for quotation/i
 
+/request.{1,10}(brochure|catalog|catalogue).{1,10}price.?list/i
 /request.{1,10}(company|products?).{1,20}(brochure|catalog|catalogue)/i
 /request.{1,15}company products/i
 /request.{1,10}distibutorship/i
