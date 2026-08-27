@@ -123,7 +123,9 @@
 /(e?.?mail|letter|message).{1,10}finds you well.{1,10}following up/i
 /(e?.?mail|letter|message).{1,10}finds you well.{1,10}reaching out/i
 /(e?.?mail|letter|message).{1,10}i sent.{1,15}regarding the idea i shared/i
+
 /(e?.?mail|letter|message).{1,10}will definitely come to you as/i
+/(e?.?mail|letter|message).{1,10}without prior acquaintance/i
 
 # N
 # ------------------------------------------------------------------------------
