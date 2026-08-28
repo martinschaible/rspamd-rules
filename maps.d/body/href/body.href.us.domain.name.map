@@ -214,6 +214,10 @@
 # 27.07.26 - Phishing
 /\.vercel\.app\/\?token=/i
 
+# 28.08.26 - Phishing
+# Sample: https://zbibidan.vercel.app
+/https:\/\/[a-z0-9]{4,15}\.vercel\.app/i
+
 # W
 # ------------------------------------------------------------------------------
 

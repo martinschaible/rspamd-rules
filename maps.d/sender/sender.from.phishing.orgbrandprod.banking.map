@@ -239,7 +239,8 @@
 
 # R
 # ------------------------------------------------------------------------------
-/raiffeisen.{0,10}(gruppe|kundenservice)/i
+/raiffeisen.{0,10}gruppe/i
+/raiffeisen.{0,10}(kundenbetreuung|kundenservice)/i
 /raiffeisen.{0,10}(sicherheit|support)/i
 /raiffeisen.{0,10}(team|twint)/i
 

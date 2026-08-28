@@ -73,6 +73,8 @@
 /participate.{1,10}our global.?awards?/i
 /pending nomination for the.{1,20}awards?/i
 
+/promo.{1,10}award.{1,10}prize/i
+
 # Q
 # ------------------------------------------------------------------------------
 
@@ -102,6 +104,8 @@
 # ------------------------------------------------------------------------------
 /you.{1,10}have been awarded.{1,10}compensation/i
 /you.{1,10}have been awarded.{1,10}settlement package/i
+
+/your.{1,15}e?.?mail has been selected for.{1,30}(award|promo)/i
 
 /your.{1,15}(donation|stock) awards?/i
 
