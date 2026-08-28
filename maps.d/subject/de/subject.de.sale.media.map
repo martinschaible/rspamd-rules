@@ -137,7 +137,8 @@
 # ------------------------------------------------------------------------------
 /sichtbarkeit.{1,10}sichern/i
 
-/sind sie für.{1,25}\.[a-z]{2,4}.{1,150}verantwortlich/iu
+#               | domain.tld |       
+/sind sie für.{1,50}\.[a-z]{2,4}.{1,15}verantwortlich/iu
 
 /social.?media.{1,10}betreuung/i
 
