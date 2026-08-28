@@ -335,8 +335,11 @@
 /allergy.{0,10}(experts?|fix|sufferers)/i
 /allergy.{0,10}(medication|misery)/i
 
-/ancient.{0,20}(enzyme|drink|fruit|ritual|tea|wellness|wine)/i
+/always.{0,10}dizzy/i
+
+/ancient.{0,20}(enzyme|drink|fruit|ritual|wellness|wine)/i
 /ancient.{0,20}(health|himalayan)/i
+/ancient.{0,20}(tea|text)/i
 
 /anti.{0,10}(aging|fungal|fungus|wrinkle)/i
 
@@ -662,6 +665,8 @@
 
 /energy.{0,10}(balance|boost)/i
 /energy.{0,10}(code|drain|unlock|without)/i
+/energy.{0,10}reset/i
+
 /enhanced.{0,10}recall/i
 
 /erase.{0,10}fat/i

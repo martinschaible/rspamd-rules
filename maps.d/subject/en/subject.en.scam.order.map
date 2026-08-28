@@ -168,6 +168,7 @@
 /request.{1,15}company products/i
 /request.{1,10}distibutorship/i
 /request.{1,10}for offer/i
+/request.{1,10}latest product.{1,10}(brochure|catalog|catalogue)/i
 /request.{1,10}machine.{1,10}quotation/i
 /request.{1,10}quotation{1,15}(july|order)/i
 /request.{1,10}update pricelist/i
@@ -205,6 +206,8 @@
 
 /shipping.{1,10}order terms/i
 /sourcing.{1,10}raw materials/i
+
+/supplier.{1,10}review.{1,10}request/i
 
 /(supplier|supply).{1,10}distribution inquiry/i
 /(supplier|supply).{1,10}inquiry.{1,10}(catalog|terms)/i

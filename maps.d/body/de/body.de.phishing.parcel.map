@@ -29,6 +29,7 @@
 # ------------------------------------------------------------------------------
 /abgaben.{1,5}2\.99/i
 
+/administrative.{1,10}mitteilung.{1,10}(lieferung|paket|sendung)/i
 /administrative.{1,10}versandmitteilung/i
 
 /aktualisieren sie.{1,10}adresse.{1,10}bezahlen sie/i
@@ -130,24 +131,9 @@
 
 /lieferdaten.{1,10}bezahlen sie die versandkosten/i
 
-/lieferung.{1,10}aufgeschobenen.{1,10}pakets/i
-
-# M
-# ------------------------------------------------------------------------------
-
-# N
-# ------------------------------------------------------------------------------
-/nicht zugestellt werden.{1,10}die lieferadresse fehlt/i
-
-# O
-# ------------------------------------------------------------------------------
-
-/offizielle mitteilung zum lieferstatus/i
-
-# P
-# ------------------------------------------------------------------------------
 /(lieferung|paket|sendung).{1,20}auf.{1,15}(anweisungen|bearbeitung).{1,15}(bezüglich|wartet)/i
 /(lieferung|paket|sendung).{1,15}auf.{1,15}(lieferung|zustellung) wartet/i
+/(lieferung|paket|sendung).{1,10}aufgeschobenen.{1,10}pakets/i
 
 /(lieferung|paket|sendung).{1,15}angegebene.{1,10}(liefer)?adresse ist unvollständig/iu
 
@@ -240,6 +226,19 @@
 /(lieferung|paket|sendung).{1,20}(zu liefern|zustellen).{1,10}ihre adresse falsch (ist|war)/i
 /(lieferung|paket|sendung).{1,20}(zu liefern|zustellen).{1,10}jedoch aufgrund eines barcode/i
 
+# M
+# ------------------------------------------------------------------------------
+
+# N
+# ------------------------------------------------------------------------------
+/nicht zugestellt werden.{1,10}die lieferadresse fehlt/i
+
+# O
+# ------------------------------------------------------------------------------
+/offizielle mitteilung zum (lieferstatus|zustellstatus)/i
+
+# P
+# ------------------------------------------------------------------------------
 /paketfreigabe.{1,10}erforderlich/i
 /paketdienste?.{1,10}weiterhin ohne unterbrechung/i
 /paketnummer.{1,20}mit freundlichen grüßen/iu
@@ -274,7 +273,7 @@
 
 # V
 # ------------------------------------------------------------------------------
-/verwenden.{1,10}die notwendigen angaben zu bestätigen/iu
+/verifizierung der lieferadresse/i
 
 /versandart.{1,10}standard.{1,10}express/i
 
@@ -282,7 +281,8 @@
 
 /versandverzögerung.{1,10}zahlung erforderlich/iu
 
-/verifizierung der lieferadresse/i
+/verwaltungsstand ihres zustellvorgangs/i
+/verwenden.{1,10}die notwendigen angaben zu bestätigen/iu
 
 /vorgang ist dort angehalten/i
 

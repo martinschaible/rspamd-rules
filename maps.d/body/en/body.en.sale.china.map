@@ -48,7 +48,7 @@
 /mold industrial.{1,10}co.{1,5}(limited|ltd)/i
 /(packaging|plastic|product|prototype).{1,10}co.{1,5}(limited|ltd)/i
 /recare.{1,10}co.{1,5}(limited|ltd)/i
-/(supplies|supply chain).{1,10}co.{1,5}(limited|ltd)/i
+/(sportswear|supplies|supply chain).{1,10}co.{1,5}(limited|ltd)/i
 
 /this is.{1,15}from.{1,15}technology (limited|ltd)/i
 /this is.{1,25}co.{1,5}(limited|ltd)/i
@@ -282,6 +282,7 @@
 # ------------------------------------------------------------------------------
 /(shanghai|shenzhen).{1,10}based.{1,10}(pcba?|printed.circuit.board)/i
 /(shanghai|shenzhen).{1,15}co.{1,5}ltd/i
+/(shanghai|shenzhen).{1,15}sportswear/i
 /(shanghai|shenzhen).{1,15}technology.{1,10}co.{1,5}ltd/i
 
 /shipping services from.{1,10}china/i
