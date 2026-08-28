@@ -174,8 +174,6 @@
 
 /^migros\./i
 
-/\d{1,4}\.onmicrosoft\.com/i
-
 /myhermes@/i
 /myhermes.?-/i
 
@@ -200,6 +198,8 @@
 
 # 03.04.26 - Sample: @xoeulKMFIOS.onmicrosoft.com
 # / @[a-z]{6,25}\.onmicrosoft\.com/i
+
+/\d{3,4}\.onmicrosoft\.com/i
 
 # Sample: outlook.com@shared1.ccsend.com
 /outlook\.com@/i
