@@ -41,7 +41,7 @@
 # -> Theses RegEx might be constructed easier and better
 
 # 25.12.24 - DLH uses this: "Jetzt Live verfolgen..."
-#/\.\.\?/i
+# /\.\.\?/i
 
 #
 /\[\[/i
@@ -171,7 +171,7 @@
 /^©/i
 /^~/i
 
-#Sample: Re:/./n/
+# Sample: Re:/./n/
 /:\/\.\//i
 
 # 23.06.25 - Sample: ID: cKrQA
@@ -183,7 +183,7 @@
 /^#re:/i
 
 # 16.08.25 - Just a simple long row of numbers. Sample: 73315681477562151626
-#/\d{10,25}$/i
+# /\d{10,25}$/i
 
 /re:\/w\//i
 
@@ -199,15 +199,15 @@
 
 
 # Too many False/Positives 
-#/[a-z]{5,15}(!!|\.\.)/i
+# /[a-z]{5,15}(!!|\.\.)/i
 
 # Too many False/Positives 
-#/\.\.\.[a-z]{5,15}/i
+# /\.\.\.[a-z]{5,15}/i
 
 /\(action required.?\)/i
 
 # Sample: (Germany) |
-#/\([a-z]{2,10}\) \|/i
+# /\([a-z]{2,10}\) \|/i
 
 # Sample: *spende*
 /\*[a-z]{2,15}\*/i
@@ -216,7 +216,7 @@
 /~[a-z]{3,15}~/i
 
 # False/Positives seen 
-#/\([a-z]{2,15}\)/i
+# /\([a-z]{2,15}\)/i
 
 /--[a-z]{3,15}--/i
 
@@ -225,7 +225,7 @@
 
 # 17.06.25 - Sample: Beginnen_Sie_Ihre_Reise
 # False/Postives seen
-#/\[a-z]{3,15}_[a-z]{3,15}_[a-z]{3,15}/i
+# /\[a-z]{3,15}_[a-z]{3,15}_[a-z]{3,15}/i
 
 # Placeholders
 # ------------------------------------------------------------------------------
