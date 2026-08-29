@@ -67,6 +67,7 @@
 /guten (abend|morgen|tag).{1,15}dauerhaften schutz/i
 /guten (abend|morgen|tag).{1,15}der schutz ihrer/i
 
+/guten (abend|morgen|tag).{1,15}die bestätigung ihres/i
 /guten (abend|morgen|tag).{1,15}die sicherheit/i
 /guten (abend|morgen|tag).{1,15}die zahlung über/iu
 
@@ -186,9 +187,9 @@
 
 # K
 # ------------------------------------------------------------------------------
-/kontoaktualisierung.{1,15}guten (abend|morgen|tag)/i
-/kontaktdaten.{1,15}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/i
+/(kontoaktualisierung|kontobestätigung).{1,20}guten (abend|morgen|tag)/i
 
+/kontaktdaten.{1,15}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/i
 /(kontoinformationen|kontosicherheit|zahlungsangaben).{1,15}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/i
 
 /konto verifizieren.{1,10}lieber?.{1,10}kunde/i

@@ -208,6 +208,7 @@
 /bestätigen sie (die|ihre).{1,10}aktuellen (angaben|kontaktdaten)/i
 /bestätigen sie (die|ihre).{1,10}(lieferadresse|lieferdaten)/i
 /bestätigen sie (die|ihre).{1,10}(prämie|rechtsform|telefonnummer|zahlung|zusendung)/iu
+/bestätigen sie ihr.{1,15}konto innerhalb/i
 
 # This is used everywhere
 #/^bestätigen (die|ihre) ihre e?.?mail adresse$/iu
@@ -779,8 +780,9 @@
 /sofortiges? (aktion|handeln|reaktion).{1,10}(erforderlich|nötig)/iu
 /sofortige.{1,10}aktion no\b/i
 
-/sofortige sicherheitswarnung/i
-/sofortiger zugriff empfohlen/i
+/sofortige.{1,10}kontoprüfung.{1,10}erforderlich/iu
+/sofortige.{1,10}sicherheitswarnung/i
+/sofortiger.{1,10}zugriff empfohlen/i
 
 /starten sie den reaktivierungsprozess/i
 /statusaktualisierung.{1,15}steuerbescheid/iu
@@ -818,8 +820,10 @@
 
 # Microsoft uses this
 #/update.{1,15}(abonnement|kontosicherheit)/i
-/update.{1,15}kontosicherheit/i
+
 /update.{1,10}app.?service.{1,10}erforderlich/i
+/update.{1,10}information.{1,10}jetzt prüfen/iu
+/update.{1,15}kontosicherheit/i
 
 /überprüfen sie bestellung/i
 

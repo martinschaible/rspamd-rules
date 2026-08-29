@@ -80,7 +80,7 @@
 /consors?bank.{0,10}finanz/i
 /consors?bank.{0,10}modul/i
 /consorbank.{0,10}(informations|kunden)?service/i
-/consors?bank.{0,10}(schutz|strategie)/i
+/consors?bank.{0,10}(schutz|strategie|support)/i
 
 /consorsfinanz/i
 
@@ -214,7 +214,8 @@
 /n-?26.{0,10}benachrichtigung(en)?/i
 /n-?26.{0,10}kundenservice/i
 /n-?26.{0,10}online/i
-/n-?26.{0,10}support/i
+/n-?26.{0,10}(sicherheit|support)/i
+/n-?26.{0,10}team/i
 
 /natwestbank/i
 

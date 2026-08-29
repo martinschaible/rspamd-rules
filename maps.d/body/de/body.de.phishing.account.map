@@ -185,7 +185,8 @@
 /(konto|profil).{1,10}sicherheitsgründen.{1,10}abläuft/iu
 /(konto|profil).{1,10}sicherheitsgründen.{1,10}vorübergehend.{1,10}(ausgesetzt|eingeschränkt|begrenzt|gesperrt)/iu
 /(konto|profil).{1,10}sperren.{1,10}bis wir ihre identität/iu
-/(konto|profil).{1,10}sperrung ihres kontos zu vermeiden/i
+/(konto|profil).{1,10}sperrung ihres.{1,15}(konto|profil).{1,10}zu vermeiden/i
+/(konto|profil).{1,10}steht aufgrund.{1,10}gesetzlicher vorgaben/iu
 
 /(konto|profil).{1,10}überprüfen.{1,15}aktualisieren/iu
 /(konto|profil).{1,15}überprüfen.{1,10}damit wir es.{1,10}aktivieren können/iu
