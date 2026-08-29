@@ -40,10 +40,13 @@
 /export group.{1,10}co.{1,5}(limited|ltd)/i
 
 /(appliances|automotive|auto.?parts).{1,10}co.{1,5}(limited|ltd)/i
-/fiber(glass)?.{1,10}co.{1,5}(limited|ltd)/i
-/(goods|hardware|industry|jewelry).{1,10}co.{1,5}(limited|ltd)/i
+/chain.{1,10}co.{1,5}(limited|ltd)/i
 /(electronics hk|export).{1,10}co.{1,5}(limited|ltd)/i
-/international trade.{1,10}co.{1,5}(limited|ltd)/i
+/fiber(glass)?.{1,10}co.{1,5}(limited|ltd)/i
+/goods.{1,10}co.{1,5}(limited|ltd)/i
+/hardware.{1,10}co.{1,5}(limited|ltd)/i
+/(international trade|industry).{1,10}co.{1,5}(limited|ltd)/i
+/jewelry.{1,10}co.{1,5}(limited|ltd)/i
 /(machinery|material).{1,10}co.{1,5}(limited|ltd)/i
 /mold industrial.{1,10}co.{1,5}(limited|ltd)/i
 /(packaging|plastic|product|prototype).{1,10}co.{1,5}(limited|ltd)/i
@@ -75,6 +78,7 @@
 /chengdu.{1,10}sichuan.{1,10}china/i
 /dongguan city.{1,10}guangdong province/i
 
+/hangzhou city.{1,10}zhejiang province.{1,10}china/i
 /huadu district.{1,10}guangzhou city.{1,10}china/i
 /huizhou.{1,10}guangdong.{1,10}china/i
 
