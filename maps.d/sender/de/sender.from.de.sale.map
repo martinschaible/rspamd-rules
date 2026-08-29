@@ -109,7 +109,12 @@
 # ------------------------------------------------------------------------------
 /haltungskorrektor/i
 
+/haus.{0,10}direkt/i
+/haus.{0,10}fokus/i
+/haus.{0,10}komfort/i
+/haus.{0,10}praxis/i
 /haus.{0,10}schützer/iu
+
 /haushalts.{0,10}(helfer|insider)/i
 
 /hd.{0,10}überwachung/i
@@ -299,8 +304,14 @@
 /(wi.?fi|wlan).{0,15}(abdeckung|experten?|ratgeber)/i
 /(wi.?fi|wlan).{0,15}verstärker/iu
 
-/wohn.{0,10}(komfort|support)/i
 /wort.{0,10}direkt/i
+/wort.{0,10}hilfe/i
+
+/wohn.{0,10}idee/i
+/wohn.{0,10}komfort/i
+/wohn.{0,10}(service|support)/i
+/wohn.{0,10}welt/i
+
 /(schnelle(re)?s|tragbares).?(wi.?fi|w.?lan)/i
 
 # X

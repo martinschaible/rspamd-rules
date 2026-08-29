@@ -70,7 +70,9 @@
 # ------------------------------------------------------------------------------
 /darm.{0,10}(gesundheit|power)/i
 
-/dein.{0,10}(berater|haar)/i
+/dein.{0,10}berater/i
+/dein.{0,10}(haar|helfer)/i
+/dein.{0,10}weg/i
 
 /deutsches.{0,10}gesundheits.{0,10}magazin/i
 /(deutsche|neue).{0,10}gesundheit/i
@@ -115,7 +117,9 @@
 /gefahr durch/i
 /gelenk.{0,10}(gesundheit|pflege|retter)/i
 
-/gesund.?heute/i
+/gesund.{0,10}(happy|heute)/i
+/gesund.{0,10}(sein|stark)/i
+
 /gesunde.{0,10}(augen|ohren)/i
 /gesundheits.{0,10}(performance|rundschau)/i
 
