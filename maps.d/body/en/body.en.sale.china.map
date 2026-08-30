@@ -266,6 +266,8 @@
 /(pcba?|printed.circuit.board).{1,10}tailored to meet/i
 
 /plastic.{1,10}metal limited/i
+
+/producer.{1,10}specializes in making/i
 /printing center.{1,10}(china|ltd)/i
 
 /professional.{1,10}freight forwarding/i
@@ -302,7 +304,9 @@
 /(specializes|specialized).{1,10}producing.{1,10}(injection|moulding|parts)/i
 
 /supplying.{1,10}shower hardware/i
-/supporting.{1,10}equipment oems?/i
+
+/support(ing)?.{1,10}equipment.{1,10}oems?/i
+/support(ing)?.{1,10}(odm|oem).{1,10}designs/i
 
 # T
 # ------------------------------------------------------------------------------
@@ -319,14 +323,14 @@
 
 # W
 # ------------------------------------------------------------------------------
-/we.{1,15}(independent|leading|professional|specialized?|top|trusted).{1,10}professional.{1,10}(company|product|textile)/i
-/we.{1,15}(independent|leading|professional|specialized?|top|trusted).{1,20}(distributor|domestic).{1,15}(in the|of|with)/i
-/we.{1,15}(independent|leading|professional|specialized?|top|trusted).{1,20}(distributor|domestic).{1,15}(producing|specializing)/i
-/we.{1,15}(independent|leading|professional|specialized?|top|trusted).{1,20}(factory|forwarder)/i
-/we.{1,15}(independent|leading|professional|specialized?|top|trusted).{1,20}(electric|bicycle)/i
-/we.{1,15}(independent|leading|professional|specialized?|top|trusted).{1,20}provider/i 
-/we.{1,15}(independent|leading|professional|specialized?|top|trusted).{1,20}pvc hose/i 
-/we.{1,15}(independent|leading|professional|specialized?|top|trusted).{1,20}(manufacturer|supplier)/i
+/we.{1,15}(independent|leading|premium|professional|specialized?|top|trusted).{1,10}professional.{1,10}(company|product|textile)/i
+/we.{1,15}(independent|leading|premium|professional|specialized?|top|trusted).{1,20}(distributor|domestic).{1,15}(in the|of|with)/i
+/we.{1,15}(independent|leading|premium|professional|specialized?|top|trusted).{1,20}(distributor|domestic).{1,15}(producing|specializing)/i
+/we.{1,15}(independent|leading|premium|professional|specialized?|top|trusted).{1,20}(factory|forwarder)/i
+/we.{1,15}(independent|leading|premium|professional|specialized?|top|trusted).{1,20}(electric|bicycle)/i
+/we.{1,15}(independent|leading|premium|professional|specialized?|top|trusted).{1,20}(producer|provider)/i
+/we.{1,15}(independent|leading|premium|professional|specialized?|top|trusted).{1,20}pvc hose/i 
+/we.{1,15}(independent|leading|premium|professional|specialized?|top|trusted).{1,20}(manufacturer|supplier)/i
 
 /we.{1,10}are.{1,10}clothing.{1,10}manufacturer/i
 /we.{1,10}are.{1,20}devices manufacturer/i

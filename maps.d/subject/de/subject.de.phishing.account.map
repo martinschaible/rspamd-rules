@@ -208,6 +208,7 @@
 /(konto|profil).{1,10}(stillgelegt|vorübergehende?)/iu
 /(konto|profil).{1,10}(schutzmassnahme|schutzmaßnahme) aktiv/i
 /(konto|profil).{1,10}um es aktiv zu halten/i
+/(konto|profil).{1,10}überprüfen.{1,5}202\d/i
 /(konto|profil).{1,10}unvollständig.{1,10}nicht aktuell sind/iu
 /(konto|profil).{1,10}update für mehr sicherheit/i
 
