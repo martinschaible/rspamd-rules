@@ -166,6 +166,7 @@
 /hallo.{1,15}wir haben.{1,10}einen anmeldeversuch/i
 /hallo.{1,15}wir haben.{1,15}ungewöhnlichen?.{1,10}(anmeldevorgang|anmeldung)/iu
 /hallo.{1,15}wir haben.{1,15}ungewöhnliche.{1,10}aktivitäten/iu
+/hallo.{1,15}wir haben.{1,15}wichtige aktualisierung/i
 
 /handlungsbedarf erforderlich.{1,15}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/i
 
@@ -188,6 +189,7 @@
 # K
 # ------------------------------------------------------------------------------
 /(kontoaktualisierung|kontobestätigung).{1,20}guten (abend|morgen|tag)/i
+/(kontoaktualisierung|kontobestätigung).{1,20}hallo/i
 
 /kontaktdaten.{1,15}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/i
 /(kontoinformationen|kontosicherheit|zahlungsangaben).{1,15}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/i

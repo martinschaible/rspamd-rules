@@ -36,6 +36,7 @@
 # ------------------------------------------------------------------------------
 /erbes?vmeines verstorbenen.{1,10}(klient|kunde|mandant|mann|vater)/i
 
+/erbschaft.{1,15}ausfindig gemacht haben/i
 /erbschaft.{1,15}die mit ihrem.{1,10}namen/i
 
 # F
@@ -77,8 +78,8 @@
 /mein.{1,10}verstorbene(n|r).{1,15}(klient|kunde|mann|vater).{1,10}verfügt über/iu
 /mein.{1,10}verstorbene(n|r).{1,15}(klient|kunde|mann|vater).{1,10}verwandt/i
 
-/mit ihren.{1,10}(nach)?namen.{1,10}in verbindung steht/i
-/mit ihrem.{1,10}(nach)?namen.{1,10}zusammenhängt/iu
+/mit (ihrem|ihren).{1,10}(nach)?namen.{1,10}in verbindung steht/i
+/mit (ihrem|ihren).{1,10}(nach)?namen.{1,10}zusammenhängt/iu
 
 # N
 # ------------------------------------------------------------------------------
