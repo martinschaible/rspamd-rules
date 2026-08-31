@@ -970,8 +970,11 @@
 
 /(metabolic|metabolism).{0,10}(balance|boost(er)?|brief)/i
 /(metabolic|metabolism).{0,10}(health|hack)/i
-/(metabolic|metabolism).{0,10}(cause|discovery|flow|insider|insights?|loophole|mute|organ|unleash)/i
-/(metabolic|metabolism).{0,10}(reactivation|research|reset|revival|wine)/i
+/(metabolic|metabolism).{0,10}(insider|insights?)/i
+/(metabolic|metabolism).{0,10}(cause|discovery|flow|loophole|mute|organ|unleash)/i
+/(metabolic|metabolism).{0,10}(reactivation|research|reset|revival)/i
+/(metabolic|metabolism).{0,10}switch/i
+/(metabolic|metabolism).{0,10}wine/i
 
 /(mexican|rare).{0,10}salt/i
 
