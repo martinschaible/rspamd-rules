@@ -35,6 +35,8 @@
 /besondere.{0,10}nachricht/i
 /beste.{0,10}fracht/i
 
+/bitte bis.{1,15}handeln/i
+
 /bitcoin.{0,10}swiss/i
 
 /_[a-z].{0,15}box/i
@@ -249,6 +251,7 @@
 /schutz.{0,10}(team|update)/i
 
 /service.{0,10}anfrage/i
+/service.{0,10}benachrichtigung/i
 /service.{0,10}büro/iu
 /service.{0,10}(deutschland|schweiz)/i
 /service.{0,10}meldung(en)?/i
