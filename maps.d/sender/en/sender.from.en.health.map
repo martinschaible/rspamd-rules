@@ -732,7 +732,9 @@
 /flush.{0,10}(trick|toxins?)/i
 
 /full(er)?.{0,10}hair/i
-/(fungal|fungus).{0,10}(cure|eliminator|fix|free|infection|remover?|vanishing)/i
+
+/(fungal|fungus).{0,10}(care|cure)/i
+/(fungal|fungus).{0,10}(eliminator|fix|free|infection|remover?|vanishing)/i
 /(fungal|fungus).{0,10}gone/i
 
 /focus.{0,10}clarity/i

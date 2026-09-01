@@ -22,7 +22,7 @@
 /(abnehmen|abzunehmen).{1,10}in nur einer woche/i
 /(abnehmen|abzunehmen).{1,15}ohne.{1,15}(komplizierte|verzicht|ziele)/i
 
-/abnehm.{1,5}industrie/i
+/abnehm.{1,5}(industrie|welt)/i
 
 /bauchfett.{1,10}(verlieren|verschwindet|weg)/i
 /bauchfett.{1,10}los(zu)?werden/iu
@@ -36,8 +36,9 @@
 
 /injektions.{1,10}alternative/i
 
-/kapsel.{1,10}fett schmelzen/i
-/kapsel.{1,10}überflüssiges fett/iu
+/kapseln?.{1,10}alle verkaufsrekorde/i
+/kapseln?.{1,10}fett schmelzen/i
+/kapseln?.{1,10}überflüssiges fett/iu
 
 /(kg|kilo).{1,10}(in|pro).{1,10}monat.{1,10}ohne (diät|fasten)/i
 /(kg|kilo).{1,10}(in|pro).{1,10}monat.{1,10}sind.{1,10}kein problem/i

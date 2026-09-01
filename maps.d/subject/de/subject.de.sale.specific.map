@@ -244,6 +244,8 @@
 #
 /(werkstatt|werkzeug).{0,10}(trolley|wagen)/i
 
+/werkzeug.?(koffer|set).{1,10}\d{2,3}.{1,10}jetzt.{1,5}\d{2,3}/i
+
 /werkzeug.?(koffer|set).{1,15}(dramatisch|stark) reduziert/i
 /werkzeug.?(koffer|set).{1,15}(handwerker|schnäppchen|sonderpreis|unschlagbar|wartet)/iu
 /werkzeug.?(koffer|set).{1,10}(für \d{3}|jetzt nur)/i
