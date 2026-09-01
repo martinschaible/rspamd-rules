@@ -128,7 +128,7 @@
 /(healthier|healthy?).{0,10}(gift|guides?|gut)/i
 /(healthier|healthy?).{0,10}(habit|hack|hair|heart|heaven|hero)/i
 /(healthier|healthy?).{0,10}(insider|insights?|investigators?)/i
-/(healthier|healthy?){0,10}(liver|mornings?|mouth|now|power)/i
+/(healthier|healthy?).{0,10}(liver|mornings?|mouth|now|power)/i
 /(healthier|healthy?).{0,10}metabolism/i
 /(healthier|healthy?).{0,10}(research|routine)/i
 /(healthier|healthy?).{0,10}(secret|skin|smile|spine|start)/i
@@ -229,9 +229,11 @@
 
 /belly.{0,10}(buddy|buster)/i
 /belly.{0,10}(detox|fix|flattening|melt|reset)/i
-/body.{0,10}fat/i
 
 /(belly|burn|eliminates?|lose|losing|melt|shed|stubborn|wobbly).{0,10}(belly|bloat|carbs|fat|flab|lbs|pounds|weight)/i
+
+/body.{0,10}fat/i
+
 /(lose|melt|shed).{0,10}\d{2}/i
 
 /(bulging|flat|slimmer|tiny|your).{0,10}belly/i
@@ -258,8 +260,8 @@
 /your.{0,10}fitness/i
 
 /flow.{0,10}diet/i
-#/forget.{0,10}keto/i
-#/keto.{0,10}(coffee|diet|power|slim)/i
+# /forget.{0,10}keto/i
+# /keto.{0,10}(coffee|diet|power|slim)/i
 /huge.{0,10}belly/i
 
 /^w.?loss/i
@@ -303,6 +305,7 @@
 
 /1 surprising update/i
 /(120|150)\/80/i
+
 /20\/20.{0,10}(hearing|solution)/i
 
 # A
@@ -451,6 +454,7 @@
 /(breathe|breathing).{0,10}(better|clearer)/i
 /(breathe|breathing).{0,10}(easier|easy)/i
 /(breathe|breathing).{0,10}support/i
+/(breathe|breathing).{0,10}tip/i
 
 /bright.{0,10}smile/i
 
@@ -1291,6 +1295,8 @@
 /skin.{0,10}(boost|insight|renewal|rescue|tip)/i
 /skip this/i
 /silent.{0,10}signal/i
+
+/simple.{0,10}breathing/i
 /simple.{0,10}natural/i
 
 /soft.{0,10}mineral/i
