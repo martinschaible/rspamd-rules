@@ -234,6 +234,8 @@
 /renewal.{0,10}(alert|notification|team)/i
 
 /revise.id/i
+
+/rewards?.{0,10}alert/i
 /rewards?.{0,10}(center|notification|team|update)/i
 /rewards?.{0,10}(status|survey)/i
 
@@ -300,7 +302,8 @@
 
 /(upgrade|update).{0,10}(alert|from|notice)/i
 
-/urgent.{0,10}(action|required|security|update)/i
+/(urgency|urgent).{0,10}(action|alerts?)/i
+/(urgency|urgent).{0,10}(required|security|update)/i
 
 # V
 # ------------------------------------------------------------------------------
