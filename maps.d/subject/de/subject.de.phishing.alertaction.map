@@ -89,7 +89,6 @@
 
 /aktiv werden.{1,10}online.?zahlungen/i
 
-/aktivieren?.{1,10}telefonnummer/i
 /aktivieren sie.{1,10}ihre.{1,15}sicherheit/i
 /aktivieren sie.{1,10}ihren schutz.{1,10}(bevor|erneut)/i
 /aktivieren sie.{1,25}(sicherheitslösung|sicherheitssystem)/iu
@@ -127,7 +126,6 @@
 
 /aktualisierung ihrer.{1,15}(banking|kunden|konto|unternehmens).?daten/i
 /aktualisierung ihrer.{1,10}daten (erforderlich|notwendig)/i
-/aktualisierung ihrer.{1,10}telefonnummer/i
 /aktualisierung ihrer.{1,10}persönlichen informationen/iu
 /aktualisierung ihres.{1,10}profils empfohlen/i
 /aktualisierung ihrer.{1,10}zahlungs.{1,10}rechnungsdaten/i
@@ -142,7 +140,7 @@
 /(aktualisieren?|bestätigen?).{1,10}sie.{1,10}ihre?.{1,15}(daten|identität|informationen)/i
 /(aktualisieren?|bestätigen?).{1,10}sie.{1,10}ihre?.{1,15}(adresse|angaben|app)/i
 /(aktualisieren?|bestätigen?).{1,10}sie.{1,10}ihre?.{1,10}(kontoangaben|kontoidentität)/iu
-/(aktualisieren?|bestätigen?).{1,10}sie.{1,10}ihre?.{1,10}(profil|sicherheit|stammdaten|telefon.?nummer)/iu
+/(aktualisieren?|bestätigen?).{1,10}sie.{1,10}ihre?.{1,10}(profil|sicherheit|stammdaten)/iu
 /(aktualisieren?|bestätigen?).{1,10}sie.{1,10}ihre.{1,20}(verifizierung|zahlung(sdaten)?)/iu
 /(aktualisieren?|bestätigen?).{1,10}sie.{1,10}ihren.{1,15}zugang/i
 
@@ -207,7 +205,7 @@
 /bestätigen sie ihre.{1,5}adresse/i
 /bestätigen sie (die|ihre).{1,10}aktuellen (angaben|kontaktdaten)/i
 /bestätigen sie (die|ihre).{1,10}(lieferadresse|lieferdaten)/i
-/bestätigen sie (die|ihre).{1,10}(prämie|rechtsform|telefonnummer|zahlung|zusendung)/iu
+/bestätigen sie (die|ihre).{1,10}(prämie|rechtsform|zahlung|zusendung)/iu
 /bestätigen sie ihr.{1,15}konto innerhalb/i
 
 # This is used everywhere
@@ -225,7 +223,6 @@
 /bestätigung.{1,10}ihrer.{1,10}zwei.?faktor.?authentifizierung.{1,10}erforderlich/i
 /bestätigung.{1,10}ihrer.{1,15}bestellung.{1,10}jetzt handeln/i
 /bestätigung.{1,10}ihrer.{1,10}(kontodaten|kundendaten)/iu
-/bestätigung.{1,10}ihrer.{1,10}telefonnummer erforderlich/iu
 
 /bestätigung.{1,10}kartenaktivität/iu
 
@@ -416,7 +413,6 @@
 /handlungsbedarf.{1,10}problem mit.{1,10}rechnung/i
 /handlungsbedarf.{1,10}reaktivierung ihrer/i
 /(erinnerung|handlungsbedarf).{1,10}schützen sie ihr.{1,15}(gerät|konto)/i
-/handlungsbedarf.{1,10}telefonnummer überprüfen/iu
 /handlungsbedarf.{1,10}überprüfung.{1,10}aktualisierung/iu
 /handlungsbedarf.{1,10}überprüfung.{1,10}ihrer/iu
 /handlungsbedarf.{1,10}unvollständige.{1,10}(lieferadresse|sendungsdaten)/iu
@@ -708,7 +704,9 @@
 /sicherheits.?alarm.{1,10}ungewöhnliche kontoaktivität/iu
 
 /sicherheitscheck.{1,15}konto überprüfen/iu
-/sicherheitsmaßnahmen.{1,15}jetzt.{1,15}konto/i
+
+/sicherheitsmaßnahmen?.{1,15}jetzt.{1,15}konto/i
+
 /sicherheits.?nachricht.{1,10}online/i
 
 /sicherheits.?problem.{1,10}erkannt.{1,10}zahlung/i
@@ -766,7 +764,6 @@
 /(systemaktualisierung|sicherheitssystem|systemmeldung|systemmitteilung).{1,10}letzter schritt/i
 /(systemaktualisierung|sicherheitssystem|systemmeldung|systemmitteilung).{1,10}umgehend durchführen/iu
 
-/sicherheitsupdate.{1,10}telefonnummer.{0,10}bestätigung/iu
 /sicherheitsupdate.{1,10}verifiziere dein.{1,15}(konto|profil)/iu
 
 /sicherheitsstatus.{1,10}risiko erkannt/i
@@ -802,7 +799,6 @@
 # T
 # ------------------------------------------------------------------------------
 /technische systemanpassung.{1,10}ihre/i
-/telefonnummer.{1,10}bestätigung erforderlich/iu
 
 /transaktion.{1,10}aktion erforderlich/i
 
@@ -840,7 +836,6 @@
 /(überprüfung|verifizierung).{1,10}der sicherheit/iu
 /(überprüfung|verifizierung).{1,10}(erforderlich|notwendig).{1,10}erhalten sie weiterhin/i
 /(überprüfung|verifizierung).{1,10}(erforderlich|notwendig).{1,10}um eine sperrung/i
-/(überprüfung|verifizierung).{1,10}ihrer.{1,10}telefon.?nummer ausstehend/i
 /(überprüfung|verifizierung).{1,10}ihres.{1,15}kontos.{1,10}(erforderlich|jetzt)/i
 /(überprüfung|verifizierung).{1,10}jetzt erforderlich/i
 
