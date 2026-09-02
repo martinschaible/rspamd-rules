@@ -482,7 +482,9 @@
 /id.?swiss/i
 
 #
+/swissquote.?bank/i
 /swissquote.?(bank)?.?ltd/i
+
 /swissquote.{0,10}(invest|message|reply)/i
 /swissquote.{0,10}support/i
 
