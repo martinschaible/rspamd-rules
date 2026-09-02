@@ -38,6 +38,31 @@
 
 /hinweis.{1,10}ihre parkgebühr/iu
 
+# Confirmation Phone number
+# ------------------------------------------------------------------------------
+/telefon.?nummer.{1,10}(aktualisieren|verifizieren)/i
+/telefon.?nummer.{1,10}diese bestätigung dient/iu
+/telefon.?nummer.{1,10}innerhalb von.{1,10}stunden zu bestätigen/iu
+/telefon.?nummer.{1,10}ist erforderlich.{1,10}damit sie in ihrem konto/i
+/telefon.?nummer.{1,10}kreditkarte.{1,10}aktualisieren/i
+
+/telefon.?nummer.{1,10}nicht aktiviert haben.{1,10}damit sie/i
+/telefon.?nummer.{1,10}nicht mit ihrem.{1,10}online.?banking/i
+
+/aktualisieren sie umgehend ihre telefon.?nummer/i
+
+/bestätigen.{1,10}sie.{1,10}(meine|ihre).{1,10}telefon.?nummer/iu
+
+/konto angemeldet.{1,20}aktivieren sie ihre telefon.?nummer/i
+
+/ihre.{1,10}(telefon.?)?nummer.{1,10}ist nicht mehr gültig/i
+/ihre.{1,10}(telefon.?)?nummer.{1,10}nicht bestätigt (haben|wurde)/iu
+/ihre.{1,10}(telefon.?)?nummer.{1,10}zu aktualisieren/i
+
+/eine.{1,10}prüfung ihrer.{1,10}telefon.?nummer vorzunehmen/i
+
+/verifizieren sie ihre telefon.?nummer/i
+
 #
 #
 #
