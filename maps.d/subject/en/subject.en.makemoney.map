@@ -10,6 +10,9 @@
 # ------------------------------------------------------------------------------
 /(bitcoin|btc|crypto|krypto).{0,10}(insider|insights|invest(ment)?)/i
 /(bitcoin|btc|crypto|krypto).{0,10}(movement|platform|portfolio|revolution|trader)/i
+
+/(bitcoin|btc|crypto|krypto).{1,10}is up.{1,10}lock in/i
+
 /bitcoin.?etf/i
 
 /bitcoin funded/i

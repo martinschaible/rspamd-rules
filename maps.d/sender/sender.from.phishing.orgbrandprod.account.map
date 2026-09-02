@@ -93,6 +93,7 @@
 
 /meta\./i
 /meta(mask)?.{0,5}ads$/i
+/meta(mask)?.{0,5}admin/i
 /meta(mask)?.{0,5}(ads|support).?team/i
 
 /meta(mask)?.{0,15}(account|admin|advertising|alert)/i

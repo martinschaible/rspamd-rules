@@ -189,8 +189,10 @@
 # ------------------------------------------------------------------------------
 /konto im minus\?/i
 
-/kontostand kletterte/i
-/kontostand nun unglaubliche/i
+/kontostand.{1,10}kletterte/i
+/kontostand.{1,10}unglaubliche/i
+
+/könnte.{1,10}trading.{1,10}verändern/iu
 
 # L
 # ------------------------------------------------------------------------------
