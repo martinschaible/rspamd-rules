@@ -119,6 +119,7 @@
 /ihnen.{1,10}entschädigung.{1,10}in höhe von.{1,10}\d{2,4}(\.|,)?\d{3,4}.{1,10}als beitrag/iu
 
 /ihnen.{1,10}einen investitionsvorschlag.{1,10}\d{2,4}(\.|,)?\d{3,4}/i
+/ihnen.{1,15}spende in höhe von.{1,15}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,10}zukommen lassen/i
 
 /ihre?.{1,15}(e?.?mail|name).{1,15}die summe.{1,10}\d{2,4}(\.|,)?\d{3,4}/i
 /ihre?.{1,15}(e?.?mail|name).{1,15}hat.{1,15}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,20}gewonnen/i

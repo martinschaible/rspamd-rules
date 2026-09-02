@@ -222,9 +222,6 @@
 # ------------------------------------------------------------------------------
 /(ihr|lhr).{1,20}ist nicht mehr (gültig|gultig)/i
 
-/ihr speicher wird entfernt/i
-/ihr zusätzlicher.{1,10}cloud.?speicher/iu
-
 /ihrer? akte.{1,15}\[ref/i
 /(ihre?|lhre?).{1,20}(ist|wurde).{1,20}(deaktiviert|gesperrt|nicht mehr gültig)/iu
 
