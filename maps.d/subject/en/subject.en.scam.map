@@ -22,6 +22,16 @@
 # ------------------------------------------------------------------------------
 /hello.{1,10}there is.{1,10}unclaimed/i
 
+# Grant
+# ------------------------------------------------------------------------------
+/grant for you/i
+/grant newsletter/i
+
+/e?.?mail confirmation.{1,10}grant/i
+/official.{1,10}grant notification/i
+/there is.{1,10}grant/i
+/we.{1,10}offering grants/i
+
 # Illuminati
 # ------------------------------------------------------------------------------
 /illuminate your path/i
@@ -152,9 +162,6 @@
 
 /good news.{1,10}respond/i
 
-/grant for you/i
-/grant newsletter/i
-
 # H
 # ------------------------------------------------------------------------------
 /help with your/i
@@ -213,8 +220,6 @@
 
 # O
 # ------------------------------------------------------------------------------
-/official.{1,10}grant notification/i
-
 /open your.{1,10}offshore bank.{1,10}account/i
 
 /opportunity.{1,10}you.{1,10}afford to miss/i
@@ -277,7 +282,6 @@
 
 # T
 # ------------------------------------------------------------------------------
-/there is a grant/i
 
 /trust you with this/i
 
@@ -297,7 +301,6 @@
 # ------------------------------------------------------------------------------
 /we have.{1,10}gold/i
 /we.{1,5}love your vote/i
-/we.{1,10}offering grants/i
 /we want to invest/i
 
 /welfare.{0,10}lottery/i
@@ -320,7 +323,6 @@
 /you were selected/i
 
 /your.{1,10}a.?t.?m.?card/i
-/your awarded.{1,10}(cash|grant)/i
 
 /your.{1,10}claim today/i
 /your.{1,10}e?.?mail.{1,15}has.{1,15}been.{1,15}selected/i

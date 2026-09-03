@@ -213,6 +213,8 @@
 /direct.{1,10}(factory|manufacturer).{1,10}coorporation/i
 /direct.{1,10}(factory|manufacturer) of/i
 /direct.{1,10}(factory|manufacturer).{1,10}vacuum/i
+
+/direct.{1,10}from the factory.{1,10}\d{2,4}/i
 /direct.{1,10}steel factory/i
 
 /discuss.{1,10}(pcba?|printed.?circuits?.?board).{1,10}products/i
@@ -261,6 +263,8 @@
 /electronic components?.{1,10}you need/i
 
 /^electronic components$/i
+
+/elevate your.{1,10}welding/i
 
 /enhance your.{1,10}(pcba?|printed.?circuits?.?board)/i
 
@@ -545,6 +549,8 @@
 /plastic.?mould.{1,10}molding/i
 
 /plate.{1,10}mesh.{1,10}(manufacturer|supplier)/i
+
+/plush animal.{1,10}(manufacturer|supplier)/i
 
 /polo.{1,10}lanyard.{1,10}supplier/i
 
