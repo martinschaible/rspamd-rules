@@ -17,9 +17,9 @@
 /co.{1,5}(limited|ltd).{1,10}a trusted/i
 /co.{1,5}(limited|ltd).{1,10}tel: \+86/i
 /co.{1,5}(limited|ltd).{1,15}(excited|export)/i
+/co.{1,5}(limited|ltd).{1,15}(factory|manufacturer)/i
 /co.{1,5}(limited|ltd).{1,15}import/i
-/co.{1,5}(limited|ltd).{1,15}(manufacturer|professional|specialize|supplier)/i
-
+/co.{1,5}(limited|ltd).{1,15}(professional|specialize|supplier)/i
 /co.{1,5}(limited|ltd).{1,10}is.{1,10}experienced/i
 /co.{1,5}(limited|ltd).{1,10}is.{1,10}popular in/i
 
@@ -89,6 +89,7 @@
 /ningbo.{1,10}zhejiang.{1,10}china/i
 /shenzhen city.{1,10}p\.b.{1,10}china/i
 
+/yixing city.{1,10}jiangsu province.{1,10}china/i
 /zhongshan.{1,10}guangdong.{1,10}china/i
 /zhongkain.{1,10}huizhou guangdong.{1,10}china/i
 
@@ -124,7 +125,7 @@
 
 # A
 # ------------------------------------------------------------------------------
-/as a (established|leading){1,15}manufacturer.{1,10}(of|we)/i
+/as a (established|leading){1,15}(factory|manufacturer).{1,10}(of|we)/i
 
 # B
 # ------------------------------------------------------------------------------
@@ -139,7 +140,7 @@
 /china.{1,10}thank you for taking the time/i
 /china.{1,10}we can offer/i
 
-/chinese manufacturer that produce/i
+/chinese.{1,10}(factory|manufacturer) that produce/i
 /(company|factory|supplier) of.{1,10}electronic components since/i
 
 /comparing.{1,10}printing.{1,10}quotations?/i
@@ -148,7 +149,7 @@
 
 # D
 # ------------------------------------------------------------------------------
-/direct.{1,10}(pcba?|printed.?circuit.?board).{1,10}manufacturer/i
+/direct.{1,10}(pcba?|printed.?circuit.?board).{1,10}(factory|manufacturer)/i
 /discover our stunning.{1,15}(acrylic|furniture)/i
 
 /distributor.{1,10}specializing in a wide range of/i
@@ -166,7 +167,10 @@
 
 # F
 # ------------------------------------------------------------------------------
-/factory offers comprehensive.{1,10}(odm|oem)/i
+/(factory|manufacturer).{1,10}china.{1,10}who are in industry/i
+/(factory|manufacturer).{1,10}offers comprehensive.{1,10}(odm|oem)/i
+/(factory|manufacturer).{1,10}specializing in custom/i
+/(factory|manufacturer).{1,10}with.{1,15}years.{1,10}experience/i
 
 /footwear brand.{1,10}china/i
 
@@ -181,7 +185,7 @@
 
 # I
 # ------------------------------------------------------------------------------
-/i am.{5,35}from.{1,10}china.{5,40}manufacturer/i
+/i am.{5,35}from.{1,10}china.{5,40}(factory|manufacturer)/i
 
 /inquiries.{1,10}feel free to share/i
 
@@ -201,7 +205,9 @@
 
 # L
 # ------------------------------------------------------------------------------
-/(leading|trusted|your).{1,10}(pcba?|printed.?circuit.?board).{1,10}(company|factory|supplier)/i
+/(leading|trusted|your).{1,10}(pcba?|printed.?circuit.?board).{1,10}(company|supplier)/i
+/(leading|trusted|your).{1,10}(pcba?|printed.?circuit.?board).{1,10}(factory|manufacturer)/i
+
 /(leading|trusted).{1,10}partner to oem/i
 /(leading|trusted).{1,10}warehouse distributor/i
 
@@ -209,10 +215,6 @@
 
 # M
 # ------------------------------------------------------------------------------
-/manufacturer.{1,10}china.{1,10}who are in industry/i
-/manufacturer.{1,10}specializing in custom/i
-/manufacturer.{1,10}with.{1,15}years.{1,10}experience/i
-
 /manufacturing.{1,10}exporting all types/i
 /manufacturing.{1,10}exporting.{1,10}(custom|shirts|tracksuits)/i
 /manufacturing.{1,10}one.?stop.{1,10}(pcba?|printed.?circuit.?board)/i
@@ -264,8 +266,8 @@
 # ------------------------------------------------------------------------------
 /(pcba?|printed.circuit.board).{1,10}component sourcing/i
 /(pcba?|printed.circuit.board).{1,10}customer.{1,10}the past.{1,10}years/i
+/(pcba?|printed.circuit.board).{1,10}(factory|manufacturer) (from|in) china/i
 /(pcba?|printed.circuit.board).{1,10}in china for.{1,10}years/i
-/(pcba?|printed.circuit.board).{1,10}manufacturer (from|in) china/i
 /(pcba?|printed.circuit.board).{1,10}tailored to meet/i
 
 /plastic.{1,10}metal limited/i
@@ -275,6 +277,7 @@
 
 /professional.{1,10}freight forwarding/i
 /professional.{1,10}electronics.{1,10}distributor since/i
+/professional.{1,10}direct.{1,10}(factory|manufacturer).{1,10}specialized/i
 
 /(provider|service).{1,16}(pcba?|printed.circuit.board).{1,15}manufacturing/i
 
@@ -316,7 +319,7 @@
 /trade.{1,10}industry co.{1,5}ltd/i
 
 /top choice.{1,10}railway transport/i
-/top.{1,10}pcb.{1,10}manufacturer of/i
+/top.{1,10}pcb.{1,10}(factory|manufacturer) of/i
 
 # U
 # ------------------------------------------------------------------------------
@@ -329,25 +332,26 @@
 /we.{1,15}(independent|leading|premium|professional|specialized?|top|trusted).{1,10}professional.{1,10}(company|product|textile)/i
 /we.{1,15}(independent|leading|premium|professional|specialized?|top|trusted).{1,20}(distributor|domestic).{1,15}(in the|of|with)/i
 /we.{1,15}(independent|leading|premium|professional|specialized?|top|trusted).{1,20}(distributor|domestic).{1,15}(producing|specializing)/i
-/we.{1,15}(independent|leading|premium|professional|specialized?|top|trusted).{1,20}(factory|forwarder)/i
+/we.{1,15}(independent|leading|premium|professional|specialized?|top|trusted).{1,20}forwarder/i
+/we.{1,15}(independent|leading|premium|professional|specialized?|top|trusted).{1,20}(factory|manufacturer)/i
 /we.{1,15}(independent|leading|premium|professional|specialized?|top|trusted).{1,20}(electric|bicycle)/i
 /we.{1,15}(independent|leading|premium|professional|specialized?|top|trusted).{1,20}(producer|provider)/i
 /we.{1,15}(independent|leading|premium|professional|specialized?|top|trusted).{1,20}pvc hose/i 
-/we.{1,15}(independent|leading|premium|professional|specialized?|top|trusted).{1,20}(manufacturer|supplier)/i
+/we.{1,15}(independent|leading|premium|professional|specialized?|top|trusted).{1,20}supplier/i
 
-/we.{1,10}are.{1,10}clothing.{1,10}manufacturer/i
-/we.{1,10}are.{1,20}devices manufacturer/i
+/we.{1,10}are.{1,10}clothing.{1,10}(factory|manufacturer)/i
+/we.{1,10}are.{1,20}devices.{1,10}manu(factory|manufacturer)facturer/i
 /we.{1,10}are.{1,10}direct.{1,10}(factory|manufacturer)/i
 
+/we.{1,10}are.{1,20}(factory|manufacturer).{1,10}exporters?/i
 /we.{1,10}are.{1,10}forwarding agent/i
 /we.{1,10}are.{5,25}from.{5,35}a leading/i
-/we.{1,10}are.{1,20}manufacturers?.{1,10}exporters?/i
 
 /we.{1,10}are.{1,10}pcb.{1,10}(factory|manufacturer)/i
 /We.{1,10}are.{1,10}prototyping.{1,10}tooling.{1,10}(factory|manufacturer)/i
 
 /we.{1,10}are.{1,10}china.{1,15}steel ltd/i
-/we.{1,10}are.{1,10}chinese.{1,20}manufacturer/i
+/we.{1,10}are.{1,10}chinese.{1,20}(factory|manufacturer)/i
 /we.{1,10}are.{1,10}electronic.{1,10}parts/i
 
 /we.{1,10}are.{1,15}custom oem/i
@@ -434,7 +438,7 @@
 
 /we do oem/i
 
-/which is.{1,10}professional manufacturer/i
+/which is.{1,10}professional.{1,10}(factory|manufacturer)/i
 /wide range.{1,15}(led|lighting|products)/i
 
 # X
