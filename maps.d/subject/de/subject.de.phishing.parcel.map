@@ -215,6 +215,7 @@
 /(lieferung|paket|sendung|versand|zustellung).{1,5}dpd_/i
 
 /(lieferung|paket|sendung|versand|zustellung).{1,10}adresse unvollständig/i
+/(lieferung|paket|sendung|versand|zustellung).{1,10}adressprüfung freigeben/iu
 /(lieferung|paket|sendung|versand|zustellung).{1,10}(ausstehende|unbezahlte).{1,10}(versandkosten|zollgebühren)/iu
 
 /(lieferung|paket|sendung|versand|zustellung).{1,10}befindet sich.{1,15}in unserem Lager/i
@@ -377,7 +378,8 @@
 
 /sendungs.?id.{1,5}dpd_/i
 
-/sendungsinformation zu ihrer lieferung/i
+/sendungsdetails.{1,10}prüfen/iu
+/sendungsinformation.{1,10}zu ihrer lieferung/i
 /sendungsverfolgung.{1,5}suivi/i
 
 /sich im distributionszentrum befindet/i

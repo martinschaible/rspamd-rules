@@ -173,6 +173,7 @@
 
 /(lieferung|paket|sendung).{1,10}ist in.{1,20}(angekommen|eingetroffen).{1,15}(den zoll|wurde verzollt)/i
 /(lieferung|paket|sendung).{1,10}ist noch nicht bezahlt/i
+/(lieferung|paket|sendung).{1,10}ist zustellbereit.{1,10}vor der freigabe/i
 
 /(lieferung|paket|sendung).{1,10}jetzt freischalten/i
 
