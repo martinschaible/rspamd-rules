@@ -203,6 +203,7 @@
 /sie wurden ausgewählt.{1,15}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,15}zu erhalten/iu
 /sie wurden ausgewählt.{1,10}um.{1,10}\d{2,4}(\.|,)?\d{3,4}.{1,10}zu erhalten/iu
 
+/sie zu den glücklichen gehören.{1,10}die.{1,15}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£)/iu
 
 /spenden?.{1,10}ihnen die summe von.{1,10}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£)/i
 

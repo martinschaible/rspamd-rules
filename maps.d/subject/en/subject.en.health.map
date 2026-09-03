@@ -34,7 +34,7 @@
 /\[.?here.{1,5}how.?\]/i
 
 /\[.?take the quiz.?\]/i
-/\[.?quiz inside.?\]/i
+/\[.?quiz (included|inside).?\]/i
 
 #
 #
@@ -704,6 +704,8 @@
 /makes you.{1,10}fat/i
 /makes you.{1,10}(hard|thin)/i
 /makes you.{1,10}gain weight/i
+
+/manage.{1,10}blood sugar.{1,10}levels?/i
 
 /massage restores/i
 

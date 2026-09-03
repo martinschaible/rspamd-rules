@@ -232,6 +232,8 @@
 
 /pf.?konto/i
 
+/post.?bank.{0,5}sicherheitsalarm/i
+
 /post.?finance.{0,5}benachrichtigungen/i
 /post.?finance.{0,5}twint/i
 
@@ -278,6 +280,12 @@
 /sum.?up.{0,10}(service(.?desk)?|security|sicherheit|support)/i
 /sum.?up.{0,10}team/i
 /(account|logins?|mein|team|von).{0,10}sumup/i
+
+/swissquote.?bank/i
+/swissquote.?(bank)?.?ltd/i
+
+/swissquote.{0,10}(invest|message|reply)/i
+/swissquote.{0,10}support/i
 
 # T
 # ------------------------------------------------------------------------------

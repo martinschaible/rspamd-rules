@@ -701,7 +701,6 @@
 /(sicherheits|system).?aktualisierung.{1,10}jetzt handeln/i
 
 /sicherheits.?check.{1,10}reagieren sie/i
-/sicherheits.?alarm.{1,10}ungewöhnliche kontoaktivität/iu
 
 /sicherheitscheck.{1,15}konto überprüfen/iu
 
@@ -718,39 +717,40 @@
 
 /sicherheits.?update.{1,10}überprüfen sie ihr/i
 
-/sicherheits.?(benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,10}\d{2,4} dateien/i
-/sicherheits.?(benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,10}authentifizierung für/iu
-/sicherheits.?(benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,10}bei der anmeldung/i
-/sicherheits.?(benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,10}bestätigen sie/iu
-/sicherheits.?(benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,10}für ihr.{1,15}(konto|profil)/iu
+/sicherheits.?(alarm|benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,10}\d{2,4} dateien/i
+/sicherheits.?(alarm|benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,10}authentifizierung für/iu
+/sicherheits.?(alarm|benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,10}bei der anmeldung/i
+/sicherheits.?(alarm|benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,10}bestätigen sie/iu
+/sicherheits.?(alarm|benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,10}für ihr.{1,15}(konto|profil)/iu
 
-/sicherheits.?(benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,15}karte reaktivieren/i
-/sicherheits.?(benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,15}konto(daten)?.{1,10}(bestätigen|verifizieren)/i
-/sicherheits.?(benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,10}kontozugriff.{1,10}stunden/i
+/sicherheits.?(alarm|benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,15}karte reaktivieren/i
+/sicherheits.?(alarm|benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,15}konto(daten)?.{1,10}(bestätigen|verifizieren)/i
+/sicherheits.?(alarm|benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,10}kontozugriff.{1,10}stunden/i
 
-/sicherheits.?(benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,10}handlungsbedarf/i
-/sicherheits.?(benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,10}ihr gerät benötigt/iu
-/sicherheits.?(benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,10}ihre daten/i
-/sicherheits.?(benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,10}jetzt handeln/i
-/sicherheits.?(benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,10}mehrere anmeldeversuche/i
-/sicherheits.?(benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,10}neue verbindung au/i
+/sicherheits.?(alarm|benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,10}handlungsbedarf/i
+/sicherheits.?(alarm|benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,10}ihr gerät benötigt/iu
+/sicherheits.?(alarm|benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,10}ihre daten/i
+/sicherheits.?(alarm|benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,10}jetzt handeln/i
+/sicherheits.?(alarm|benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,10}mehrere anmeldeversuche/i
+/sicherheits.?(alarm|benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,10}neue verbindung au/i
+/sicherheits.?(alarm|benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,10}nicht autorisierte zahlung/i
 
-/sicherheits.?(benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,10}schützen sie jetzt ihr/iu
-/sicherheits.?(benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,10}sofortige verlängerung/iu
-/sicherheits.?(benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,10}sicherheitswartung/i
+/sicherheits.?(alarm|benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,10}schützen sie jetzt ihr/iu
+/sicherheits.?(alarm|benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,10}sofortige verlängerung/iu
+/sicherheits.?(alarm|benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,10}sicherheitswartung/i
 
-/sicherheits.?(benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,10}unbefugter zugriff auf/i
-/sicherheits.?(benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,10}ungewöhnliche.{1,10}(anmelde)?aktivität(en)?.{1,10}festgestellt/iu
-/sicherheits.?(benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,10}(neuer|unbekannter) gerätezugriff/iu
-/sicherheits.?(benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,10}unbekanntes gerät hat sich/iu
-/sicherheits.?(benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,10}unbekannte anmeldung/i
+/sicherheits.?(alarm|benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,10}unbefugter zugriff auf/i
+/sicherheits.?(alarm|benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,10}ungewöhnliche.{1,10}(anmelde|konto)?aktivität(en)?.{1,10}festgestellt/iu
+/sicherheits.?(alarm|benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,10}(neuer|unbekannter).{1,10}gerätezugriff/iu
+/sicherheits.?(alarm|benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,10}unbekanntes gerät hat sich/iu
+/sicherheits.?(alarm|benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,10}unbekannte anmeldung/i
 
-/sicherheits.?(benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,10}verdächtige (anmeldung|dateien)/i
-/sicherheits.?(benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,10}verdächtiger/i
-/sicherheits.?(benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,10}verifizierung (erforderlich|notwendig)/i
+/sicherheits.?(alarm|benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,10}verdächtige (anmeldung|dateien)/i
+/sicherheits.?(alarm|benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,10}verdächtiger/i
+/sicherheits.?(alarm|benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,10}verifizierung (erforderlich|notwendig)/i
 
-/sicherheits.?(benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,10}wichtige aktualisierung/i
-/sicherheits.?(benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,10}zu.{1,10}(gerät|karte)/iu
+/sicherheits.?(alarm|benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,10}wichtige aktualisierung/i
+/sicherheits.?(alarm|benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,10}zu.{1,10}(gerät|karte)/iu
 
 /sicherheits.?(funktionen|option|update|upgrade).{1,10}für ihr.{1,15}konto (aktivieren|aktualisieren)/i
 /sicherheits.?(funktionen|option|update|upgrade).{1,10}jetzt (aktivieren|aktualisieren)/i
