@@ -247,6 +247,8 @@
 
 # Mostly domain renewal
 /^wix$/i
+
+/wix.{0,10}international/i
 /wix.{0,10}(support|team)/i
 /wix\.com/i
 

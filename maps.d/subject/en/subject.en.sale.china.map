@@ -314,10 +314,11 @@
 /freight.{1,10}(forwarding|service|transport).{1,20}solutions/i
 /freight.{1,10}(forwarding|service|transport).{1,20}tailored/i
 
+/freight.{1,10}days delivery/i
 /freight.{1,10}offers.{1,10}china to europe/i
 
-/from.{1,10}year manufacturer/i
-/from.{1,10}(experienced|trustful).{1,10}manufacturer/i
+/from.{1,10}year (factory|manufacturer)/i
+/from.{1,10}(experienced|trustful).{1,10}(factory|manufacturer)/i
 
 /from.{1,15}company.{1,10}china/i
 /from.{1,15}guangdong.{1,10}china/i
@@ -355,7 +356,7 @@
 
 /high.?quality.{1,10}(bra collection|transformers?)/i
 
-/home.?appliances.{1,10}manufacturer/i
+/home.?appliances.{1,10}(factory|manufacturer)/i
 
 /household.{1,10}commercial use/i
 
@@ -363,7 +364,7 @@
 # ------------------------------------------------------------------------------
 /ic microchip request/i
 
-/industrial.{1,15}product.{1,10} manufacturer/i
+/industrial.{1,15}product.{1,10}(factory|manufacturer)/i
 
 /injection.{1,15}molded parts/i
 /injection.{1,15}mold(ing)/i
