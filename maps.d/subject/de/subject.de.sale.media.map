@@ -79,11 +79,12 @@
 
 # I
 # ------------------------------------------------------------------------------
-/(ihnen|ihre) google.?(bewertungen|einträge)/i
+/(ihnen|ihre).{1,10}google.?(bewertungen|einträge)/i
 
-/ihr unternehmen in der region.{1,25}(un)?sichtbar/i
+/ihr.{1,10}unternehmen in der region.{1,25}(un)?sichtbar/i
 
-/ihren guten ruf bei google/i
+/ihre.{1,10}online.{1,10}reputation/i
+/ihren.{1,10}guten ruf bei google/i
 
 # J
 # ------------------------------------------------------------------------------

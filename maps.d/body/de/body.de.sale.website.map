@@ -57,10 +57,10 @@
 
 /ich habe mir ihre.{1,10}(home.?page|web.?site).{1,20}angesehen/i
 
-/ihnen.{1,10}ein angebot für ihre.{1,10}(home.?page|web.?site)/iu
-/ihnen.{1,10}(home.?page|web.?site).{1,10}entwurf.{1,10}schicken/i
+/ihnen.{1,10}ein.{1,10}angebot für.{1,10}(eine|ihre).{1,10}(home.?page|web.?site)/iu
+/ihnen.{1,10}eine.{1,20}(professionelle|schnelle).{1,20}(home.?page|web.?site)/i
 
-/ihnen eine.{1,20}(professionelle|schnelle).{1,20}(home.?page|web.?site)/i
+/ihnen.{1,10}(home.?page|web.?site).{1,10}entwurf.{1,10}schicken/i
 
 /ihre.{1,10}aktuelle.{1,15}(home.?page|web.?site) aktualisieren/i
 
@@ -147,8 +147,8 @@
 /wir haben ein.{1,10}professionelles team.{1,15}web(.?site)?.{1,20}(designer|entwickler)/i
 /wir haben uns.{1,10}ihren.{1,15}online.?auftritt.{1,25}angesehen/i
 
-/wir (entwickeln|konzipieren).{1,20}performance.{1,30}(home.?page|web.?site)/i
-/wir (entwickeln|konzipieren).{1,20}(home.?page|web.?site)/i
+/wir (entwickeln|erstellen|konzipieren).{1,20}(moderne|performance|schnelle).{1,30}(home.?page|web.?site)/i
+/wir (entwickeln|erstellen|konzipieren).{1,20}(home.?page|web.?site)/i
 
 /wir sind ein.{1,10}(china|indien).{1,10}ansässige(r|s)/iu
 /wir sind ein.{1,10}(china|indien).{1,15}(it.?dienstleister|unternehmen|web.?site)/i
