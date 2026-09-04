@@ -90,9 +90,11 @@
 # ------------------------------------------------------------------------------
 /ihr.{1,10}kundenprofil ist nicht aktuell/i
 
-/ihre.{1,15}identitätsinformationen überprüfen/iu
-/ihre.{1,15}kontoinformationen erneut bestätigen/i
-/ihre.{1,15}kontosicherheit so bald wie möglich zu überprüfen/iu
+/ihre.{1,15}identitätsinformationen.{1,10}überprüfen/iu
+
+/ihre.{1,15}kontofunktionen.{1,10}vorübergehend einschränken/i
+/ihre.{1,15}kontoinformationen.{1,10}erneut bestätigen/i
+/ihre.{1,15}kontosicherheit.{1,10}so bald wie möglich zu überprüfen/iu
 
 /ihre.{1,25}(kunden|kontakt)?daten in unserem system aktualisieren/i
 /ihre.{1,10}(kunden|kontakt)?daten.{1,25}zu (aktualisieren|bestätigen|überprüfen)/i
