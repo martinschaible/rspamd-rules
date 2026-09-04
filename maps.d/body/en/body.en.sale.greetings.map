@@ -67,20 +67,20 @@
 # ------------------------------------------------------------------------------
 /good (afternoon|day|evening|morning).{1,10}we are.{1,10}manufacturer?/i
 
-/greetings.?(of the day)?.{1,15}professional.{1,10}(designer|graphic)/i 
+/greetings.?(of the day)?.{1,15}professional.{1,10}(designer|graphic)/i
 /greetings.?(of the day)?.{1,20}welcome to our company/i
 
 # H
 # ------------------------------------------------------------------------------
-/(hello|hi).{1,10}are you interested in/i
-/(hello|hi).{1,10}are you seeking/i
+/(hello|hi\b).{1,10}are you interested in/i
+/(hello|hi\b).{1,10}are you seeking/i
 
-/(hello|hi).{1,10}as a factory for/i
-/(hello|hi).{1,5}(madam|sir).{1,15}we are.{1,25}a factory/i
+/(hello|hi\b).{1,10}as a factory for/i
+/(hello|hi\b).{1,5}(madam|sir).{1,15}we are.{1,25}a factory/i
 
-/(hello|hi).{1,10}glad to hear.{1,10}your company/i
-/(hello|hi).{1,15}we would like to introduce/i
-/(hello|hi).{1,15}we are one of the/i
+/(hello|hi\b).{1,10}glad to hear.{1,10}your company/i
+/(hello|hi\b).{1,15}we would like to introduce/i
+/(hello|hi\b).{1,15}we are one of the/i
 
 # I
 # ------------------------------------------------------------------------------
