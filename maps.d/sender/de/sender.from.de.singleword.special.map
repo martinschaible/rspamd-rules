@@ -168,7 +168,9 @@
 
 /schlaf-/i
 /-schlafen/i
-/\|.?sicherheitsdienst/i
+
+/\|.?sicherheit/i
+/sicherheit.?\|/i
 
 /support.?(™|®|©)/i
 
