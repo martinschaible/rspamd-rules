@@ -43,8 +43,8 @@
 
 # G
 # ------------------------------------------------------------------------------
-/(german|switzerland).{1,10}business awards 202\d/i
-/(german|switzerland).{1,10}Prestige Awards/i
+/(germany?|switzerland).{1,10}business awards 202\d/i
+/(germany?|switzerland).{1,10}prestige awards/i
 
 /golden business awards/i
 
