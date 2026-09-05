@@ -120,7 +120,9 @@
 /einen mann.{1,10}sex/i
 
 /entdecke die.{1,15}chats/i
-/entfernung.{1,10}sich unterhalten/iu
+
+/(entfernung|entfernt).{1,10}sie wartet auf dich/i
+/(entfernung|entfernt).{1,10}sich unterhalten/iu
 
 /erregt mich/i
 
