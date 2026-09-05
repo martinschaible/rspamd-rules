@@ -51,17 +51,18 @@
 
 /\d{1,3}.?(lbs|pounds).{1,10}(gone|flab|transformation)/i
 
-/\d breakfast mistake/i
-/\d cause of/i
-/\d (daily|easy|simple|sleep|week).{1,10}(fix|habit|hack|stretch|trick|tweak)/i
-/\d fix for/i
-/\d simple (ingredient|vitamin)/i
+/\d{1,2}breakfast mistake/i
+/\d{1,2}cause of/i
+/\d{1,2}(daily|easy|simple|sleep|week).{1,10}(fix|habit|hack|stretch|trick|tweak)/i
+/\d{1,2}fix for/i
+/\d{1,2}morning drink/i
+/\d{1,2}simple (ingredient|vitamin)/i
 /\d step solution to/i
-/\d stretch/i
-/\d surprising fruits/i
-/\d tbsp (stops|trick)/i
-/\d way to (clear up|eliminate)/i
-/\d word ritual/i
+/\d{1,2}stretch/i
+/\d{1,2}surprising fruits/i
+/\d{1,2}tbsp (stops|trick)/i
+/\d{1,2}way to (clear up|eliminate)/i
+/\d{1,2}word ritual/i
 
 # A
 # ------------------------------------------------------------------------------
