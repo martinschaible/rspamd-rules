@@ -1244,6 +1244,8 @@
 /see.{0,10}clear(er)/i
 
 /smart.{0,10}choice/i
+/smell.{0,10}this/i
+
 /smile.{0,10}(boost|care|cure|fix|health|insider|restore|secret)/i
 
 /senior.{0,10}(health|moments)/i
@@ -1332,7 +1334,10 @@
 /stomach.{0,10}discomfort/i
 
 /stop the/i
-/stop.{0,10}(breating|brushing|flossing|pain)/i
+/stop.{0,10}(breating|brushing)/i
+/stop.{0,10}flossing/i
+/stop.{0,10}leaks?/i
+/stop.{0,10}pain/i
 /stop.{0,10}taking/i
 
 /strange.{0,10}(acid|berry)/i
