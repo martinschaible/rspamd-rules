@@ -44,24 +44,6 @@
 # Sample: https://trustwallet.com.loginfn.cc/public/index.html
 /\.com\.[a-z]{5,15}\.cc\//i
 
-# Double Domain names
-# ------------------------------------------------------------------------------
-
-# Sample: https://ccmbq.com/RUXK6bl5ap.world
-/https?:\/\/[a-z]{3,15}\.com\/[a-z]{3,15}\.(jpn|or)\.com/i
-/https?:\/\/[a-z]{3,15}\.com\/[a-z]{3,15}\.world/i
-
-# Sample: https://jdx21cn.com/IJjtZkIh2q.co.jp
-/https?:\/\/[a-z]{3,15}\.com\/[a-z]{3,15}\.co\.jp/i
-
-# Sample: https://mlzhzp.com/iRQnA5CzvC.name.jp
-/https?:\/\/[a-z]{3,15}\.com\/[a-z]{3,15}\.name\.jp/i
-/https?:\/\/[a-z]{3,15}\.com\/[a-z]{3,15}\.jp/i
-/https?:\/\/[a-z]{3,15}\.com\/[a-z]{3,15}\.pics/i
-
-# Sample: https://zznss.com/VEDsApOWvA.takamatsu.jp
-/https?:\/\/[a-z]{3,15}\.com\/[a-z]{3,15}\.[a-z]{3,15}\.jp/i
-
 # Others
 # ------------------------------------------------------------------------------
 
