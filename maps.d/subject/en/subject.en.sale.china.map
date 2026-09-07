@@ -635,6 +635,7 @@
 /reliable.{1,20}factory with/i
 /reliable.{1,20}(faucets|freight|forwarder)/i
 /reliable.{1,10}distributor of.{1,15}components/i
+/reliable.{1,10}glass marble/i
 /reliable.{1,10}shower/i
 /reliable.{1,10}tantalum.{1,10}capacitors?/i
 /reliable.{1,10}wire.{1,10}harness/i
@@ -685,6 +686,8 @@
 /sourcing.{1,10}shipping solution/i
 
 /spare parts.{1,15}(supplier|supply)/i
+
+/springs.{1,10}verified quality/i
 /sportswear.{1,10}manufacturer/i
 
 /stable pricing.{1,10}fast lead times/i
