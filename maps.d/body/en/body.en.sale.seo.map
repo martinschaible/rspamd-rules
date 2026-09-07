@@ -47,6 +47,7 @@
 
 # C
 # ------------------------------------------------------------------------------
+/can i send.{1,10}seo report/i
 
 # D
 # ------------------------------------------------------------------------------
@@ -210,7 +211,7 @@
 /seo.{1,10}price.?list/i
 /seo.{1,10}pricing.{1,15}interested/i
 
-/seo.{1,10}report.{1,10}price.?list/i
+/seo.{1,10}report.{1,10}(price.?list|pricing)/i
 /seo.{1,15}saw that your.{1,10}(web)?site/i
 /seo.{1,10}technical optimization/i
 
