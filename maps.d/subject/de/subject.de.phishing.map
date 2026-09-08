@@ -135,16 +135,17 @@
 # D
 # ------------------------------------------------------------------------------
 /daten.{1,10}müssen.{1,15}aktualisiert werden/iu
-/daten.{1,10}prüfen.{1,10}frist/i
+/daten.{1,10}prüfen.{1,10}(bestätigen|frist)/i
 
 /datensatz.{1,10}mitgliedsunternehmen/i
 /^datenätze.{1,10}aktualisieren/iu
 
-/(datenaktualisierung|datenbestätigung).{1,15}gesetzlicher vorgaben/iu
-/(datenaktualisierung|datenbestätigung).{1,10}erforderlich/iu
-/(datenaktualisierung|datenbestätigung).{1,10}frist/iu
-/(datenaktualisierung|datenbestätigung).{1,10}gesetzliche pflicht/iu
-/(datenaktualisierung|datenbestätigung).{1,10}zur vermeidung/iu
+/(datenabgleich|datenaktualisierung|datenbestätigung).{1,15}jetzt durchführen/iu
+/(datenabgleich|datenaktualisierung|datenbestätigung).{1,15}gesetzlicher vorgaben/iu
+/(datenabgleich|datenaktualisierung|datenbestätigung).{1,10}erforderlich/iu
+/(datenabgleich|datenaktualisierung|datenbestätigung).{1,10}frist/iu
+/(datenabgleich|datenaktualisierung|datenbestätigung).{1,10}gesetzliche pflicht/iu
+/(datenabgleich|datenaktualisierung|datenbestätigung).{1,10}zur vermeidung/iu
 
 /datenfreigabe.{1,10}frist/i
 
