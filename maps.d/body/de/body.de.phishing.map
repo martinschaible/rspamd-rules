@@ -13,7 +13,9 @@
 # ------------------------------------------------------------------------------
 # See: https://www.spam-info.de/11514/achtung-ceo-betrug-was-ist-unser-kontostand/
 
-/(bankguthaben|kontostand).{1,20}können wir heute.{1,10}bezahlen/i
+/(bankguthaben|bankkonto|kontostand).{1,20}können wir heute.{1,15}(bezahlen|überweisen)/iu
+
+/guten morgen.{1,10}wie hoch ist der saldo/i
 
 /(was|wie) ist unser kontostand/i
 /wie (hoch|viel) ist unser.{1,15}(bankguthaben|kontostand)/i

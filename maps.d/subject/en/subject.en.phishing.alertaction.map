@@ -101,7 +101,9 @@
 /(action|update) (needed|required).{1,20}payment update/i
 /(action|update) (needed|required).{1,15}prevent account/i
 
+/(action|update) (needed|required).{1,15}security firmware update/i
 /(action|update) (needed|required).{1,10}security upgrade/i
+
 /(action|update) (needed|required).{1,10}secure.{1,10}wallet/i
 /(action|update) (needed|required).{1,10}subscription renewal/i
 
@@ -330,6 +332,7 @@
 /security (alert|notice|notification|warning).{1,10}confirm access/i
 /security (alert|notice|notification|warning).{1,10}funds/i
 /security (alert|notice|notification|warning).{1,25}immediate.{1,10}(action|review|update).{1,10}(needed|required|suggested)/i
+/security (alert|notice|notification|warning).{1,10}new untrusted device/i
 /security (alert|notice|notification|warning).{1,10}please (confirm|validate)/i
 /security (alert|notice|notification|warning).{1,10}user confirmation required/i
 /security (alert|notice|notification|warning).{1,10}validate your.{1,15}access/i

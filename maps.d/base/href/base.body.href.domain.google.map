@@ -58,3 +58,7 @@
 
 # Google uses never a hyphen in their domains, so this is a good indicator for spam.
 /https:\/\/google-/i
+
+# Google Programmable Search Engine
+# ------------------------------------------------------------------------------
+/https:\/\/cse\.google\.com\/url\?q=https/i
