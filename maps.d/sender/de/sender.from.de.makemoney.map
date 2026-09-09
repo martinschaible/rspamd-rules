@@ -24,7 +24,14 @@
 
 # KI
 # ------------------------------------------------------------------------------
-/(ai|ki).?(investment|rendite)/i
+/(ai|ki).?automatik/i
+/(ai|ki).?börse/i
+/(ai|ki).?digital/i
+/(ai|ki).?gewinn/i
+/(ai|ki).?rendite/i
+/(ai|ki).?trends/i
+
+/(ai|ki).{0,5}(deutschland|schweiz)/i
 
 /arbeit.?(ai|ki)/i
 
@@ -55,9 +62,6 @@
 
 # A
 # ------------------------------------------------------------------------------
-/(ai|ki).{0,5}(deutschland|schweiz)/i
-/(ai|ki).{0,5}(gewinn|rendite)/i
-
 /ard.{0,5}aktuell/i
 
 /auto.{0,10}gewinn/i
@@ -157,7 +161,9 @@
 
 # M
 # ------------------------------------------------------------------------------
+/markt.{0,10}focus/i
 /markt.{0,10}update/i
+/markt.{0,10}wissen/i
 
 # N
 # ------------------------------------------------------------------------------
@@ -193,6 +199,8 @@
 
 /skandal.{0,10}fakten/i
 
+/smart.{0,10}handel/i
+
 # T
 # ------------------------------------------------------------------------------
 /teuer.{0,10}verkaufen/i
@@ -200,6 +208,10 @@
 /top.?picks/i
 
 /trading.{0,10}experte/i
+/trading.{0,10}fokus/i
+/trading.{0,10}heute/i
+/trading.{0,10}wissen/i
+
 /trend.{0,10}signal/i
 
 /tv.{0,5}moderatoren/i

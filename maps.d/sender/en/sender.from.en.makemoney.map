@@ -46,8 +46,13 @@
 
 # KI
 # ------------------------------------------------------------------------------
-/(immediate|portfolio|smart).?(ai|ki)/i
-/(ai|ki).?(growth|investing|wealth)/i
+/(immediate|portfolio).?(ai|ki)$/i
+/(signals|smart).?(ai|ki)$/i
+
+/(ai|ki).?bot$/i
+/(ai|ki).?(growth|wealth)/i
+/(ai|ki).?(investing|investment)/i
+/(ai|ki).?trading/i
 
 #
 #
@@ -170,6 +175,7 @@
 /small.?cap/i
 
 /smart.{0,10}(income|invest|money)/i
+/smart.{0,10}trading/i
 
 /swiss.?banking/i
 
@@ -177,9 +183,14 @@
 
 # T
 # ------------------------------------------------------------------------------
+/trade.{0,10}(insights|intelligence)/i
+/trade.{0,10}monitor/i
+
 /trader.?v\d/i
 
 /trading.{0,10}(bot|system)/i
+/trading.{0,10}insights/i
+/trading.{0,10}tech/i
 
 /trump.{0,10}tower/i
 

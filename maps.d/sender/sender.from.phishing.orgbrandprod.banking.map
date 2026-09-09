@@ -76,10 +76,13 @@
 
 /consors?bank\./i
 
+/^consors$/i
+/consors.{0,10}invest/i
+
 /consors?bank.{0,10}center/i
 /consors?bank.{0,10}finanz/i
 /consors?bank.{0,10}modul/i
-/consorbank.{0,10}(informations|kunden)?service/i
+/consors?bank.{0,10}(informations|kunden)?service/i
 /consors?bank.{0,10}(schutz|strategie|support)/i
 
 /consorsfinanz/i

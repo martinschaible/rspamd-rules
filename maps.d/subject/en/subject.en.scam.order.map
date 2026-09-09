@@ -73,6 +73,7 @@
 
 /inquiry.{1,10}investment/i
 /inquiry.{1,15}about your.{1,10}products/i
+/inquiry.{1,10}request for.{1,10}(brochure|catalog|catalogue)/i
 /inquiry.{1,10}urgent procurement/i
 /inquiry.{1,10}product.?list/i
 /inquiry.{1,10}your.{1,10}products/i
@@ -165,7 +166,7 @@
 
 /req for quotation/i
 
-/request.{1,10}(brochure|catalog|catalogue).{1,10}price.?list/i
+/request.{1,10}(brochure|catalog|catalogue).{1,10}(price.?list|pricing)/i
 /request.{1,10}(company|products?).{1,20}(brochure|catalog|catalogue)/i
 /request.{1,15}company products/i
 /request.{1,10}distibutorship/i
