@@ -85,6 +85,8 @@
 /(adresse|adressangaben).{1,10}bestätigen.{1,10}für eine sendung im auftrag der/iu
 /(adresse|adressangaben).{1,20}unser kundenportal.{1,10}aktualisieren/iu
 
+/aktualisierung.{1,10}hinterlegten angaben/i
+
 /angaben müssen sofort.{1,10}aktualisiert/i
 /angaben sind veraltet.{1,10}wodurch der zugriff/i
 
@@ -111,7 +113,8 @@
 
 /bleiben ihre dienste dauerhaft gesperrt/i
 
-/bundeskriminalpolizei fordert sie auf/i
+/bundeseinheitlichen.{1,10}datenabgleichs?/i
+/bundeskriminalpolizei.{1,10}fordert sie auf/i
 
 # C
 # ------------------------------------------------------------------------------

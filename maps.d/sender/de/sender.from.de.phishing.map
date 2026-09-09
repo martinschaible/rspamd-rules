@@ -298,6 +298,8 @@
 # ------------------------------------------------------------------------------
 /(versand|vertrieb).{0,10}(koordination|lieferung|llc|logistik)/i
 
+/verwaltung.{0,10}mitarbeiter/i
+
 /(e-)?vignette.{0,10}(kundenservice|service|support|system)/i
 
 /vom kundenservice/i
