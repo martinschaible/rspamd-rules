@@ -29,7 +29,7 @@
 
 /\[.?find out here.?\]/i
 /\[.?find out now.?\]/i
-/\[.?full list here.?\]/i
+/\[.?full list (here|inside).?\]/i
 
 /\[.?here.{1,5}how.?\]/i
 
@@ -157,7 +157,7 @@
 /belly.{1,10}(fat|overnight)/i
 /bell.{1,10}massage helps/i
 
-/behind.{1,10}(bloat|nerve pain)/i
+/behind.{1,10}(bloat|nerve.?pain)/i
 
 /(best|worst).{1,10}breakfast foods?/i
 /(best|worst).{1,10}for.{1,10}(blood sugar|heart|type.?2|weight)/i
@@ -410,7 +410,7 @@
 
 /empty.{1,10}colon/i
 
-/end.{1,10}(back|knee|nerve) pain/i
+/end.{1,10}(back|knee|nerve).?pain/i
 /end.{1,10}ear (buzzing|ringing)/i
 
 /end.{1,10}(constipation|neuropathy|tinnitus)/i
@@ -459,7 +459,7 @@
 /finger rub fix/i
 
 /fix ed\b/i
-/fix.{1,10}(back|nerve) pain/i
+/fix.{1,10}(back|nerve).?pain/i
 /fix.{1,10}blurry vision/i
 /fix.{1,10}(cavities|gum)/i
 /fix.{1,10}ear noises?/i
@@ -1046,6 +1046,7 @@
 /solve.{1,10}prostate problems/i
 /(fueling|soothe).{1,10}joint.?pain/i
 
+/soothe.{1,10}nerve pain/i
 /sore.{1,10}joints?/i
 /speeds? up.{1,10}memory.?loss/i
 
@@ -1314,6 +1315,7 @@
 /with.{1,10}simple.{1,10}(drink|press)/i
 
 /without.{1,10}exercise/i
+/without.{1,10}prescription/i
 
 /wrinkle.{1,10}(fast|free|hormone|instantly|skin)/i
 

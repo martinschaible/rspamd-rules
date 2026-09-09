@@ -55,7 +55,10 @@
 # D
 # ------------------------------------------------------------------------------
 /doppelt erfolgter zahlung/i
-/doppelte abbuchung erkannt/i
+
+/doppelte.{1,10}abbuchung.{1,10}erkannt/i
+/doppelte.{1,10}abbuchung.{1,10}rückerstattung/iu
+
 /doppelte.{1,10}berechnung rückerstattung/iu
 
 /doppelte.{1,10}zahlung.{1,10}rückerstattung beantragen/iu
@@ -163,6 +166,8 @@
 
 /(rück)?erstattung.{1,10}bearbeitung läuft/iu
 /(rück)?erstattung.{1,10}bei der/iu
+
+/(rück)?erstattung.{1,10}eingeleitet/iu
 /(rück)?erstattung.{1,10}erfolgreich (eingeleitet|vorbereitet)/iu
 
 /(rück)?erstattung.{1,10}freigegeben.{1,10}bestätigung erforderlich/iu
@@ -220,7 +225,7 @@
 /steuererstattung.{1,10}bundeszentralamt/i
 /steuererstattung.{1,10}genehmigt/i
 
-/steuerguthaben.{1,10}freigeben/i
+/steuerguthaben.{1,10}frei(ge)?geben/i
 
 # T
 # ------------------------------------------------------------------------------

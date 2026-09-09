@@ -162,6 +162,7 @@
 
 /dienste? zu aktivieren/i
 /dienste? erfordert zahlung von/i
+/dienste? vorübergehend deaktiviert/iu
 
 /digitale.{1,10}vignette ist ungültig/iu
 
@@ -193,6 +194,8 @@
 
 # 19.05.25 - Sample: Finanznachrichten im Juni - 225292232502
 /finanznachrichten im.{1,20}\d{10,20}/i
+
+/freigegeben.{1,10}verifizierung erforderlich/i
 
 /frist zur.{1,10}datenaktualisierung/i
 /fristgerechte aktualisierung ihrer adresse/i
@@ -245,6 +248,7 @@
 /ihre.{1,15}daten.{1,10}müssen überprüft werden/iu
 /ihre.{1,15}daten.{1,10}nicht vorliegen/i
 /ihre.{1,15}daten.{1,10}prüfung bis/iu
+/ihre.{1,15}daten.{1,10}zu überprüfen/iu
 
 /ihre.{1,15}daten sind veraltet/i
 
@@ -340,6 +344,9 @@
 # P
 # ------------------------------------------------------------------------------
 /park.{1,10}control.{1,10}vorgangsnummer/i
+
+/post.{1,10}kam zu uns zurück/i
+/postdienstleister an uns zurückgeschickt/i
 
 /prüfen.{1,10}sie ihre firmenunterlagen/iu
 /prüfen.{1,10}verifizieren sie ihre?/i
@@ -462,6 +469,7 @@
 /verbindliche.{1,10}geräteverifizierung/iu
 
 /verifizierung ihrer daten/i
+/verifizierung nicht abgeschlossen/i
 
 /vertrag.{1,10}aktuelle abrechnung/i
 /vertrauenswürdige(n|r).{1,10}zugriffs?/i

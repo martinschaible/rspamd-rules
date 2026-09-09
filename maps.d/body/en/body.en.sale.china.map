@@ -42,7 +42,7 @@
 /export group.{1,10}co.{1,5}(limited|ltd)/i
 
 /(appliances|automotive|auto.?parts).{1,10}co.{1,5}(limited|ltd)/i
-/chain.{1,10}co.{1,5}(limited|ltd)/i
+/(chain|cultural development).{1,10}co.{1,5}(limited|ltd)/i
 /(electronics hk|export).{1,10}co.{1,5}(limited|ltd)/i
 /fiber(glass)?.{1,10}co.{1,5}(limited|ltd)/i
 /goods.{1,10}co.{1,5}(limited|ltd)/i
@@ -154,6 +154,7 @@
 
 /distributor.{1,10}specializing in a wide range of/i
 /distributor.{1,10}specializing in all kinds of/i
+/distributor.{1,15}years of expertise in.{1,10}(global|supply)/i
 
 # E
 # ------------------------------------------------------------------------------
@@ -342,6 +343,7 @@
 /we.{1,10}are.{1,10}clothing.{1,10}(factory|manufacturer)/i
 /we.{1,10}are.{1,20}devices.{1,10}manu(factory|manufacturer)facturer/i
 /we.{1,10}are.{1,10}direct.{1,10}(factory|manufacturer)/i
+/We.{1,10}are.{1,10}electronic.{1,10}components.{1,10}distributor/i
 
 /we.{1,10}are.{1,20}(factory|manufacturer).{1,10}exporters?/i
 /we.{1,10}are.{1,10}forwarding agent/i
