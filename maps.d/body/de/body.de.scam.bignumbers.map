@@ -190,6 +190,8 @@
 
 /sie.{1,10}(erhalt|spende) von.{1,10}\d{2,4}(\.|,)?\d{3,4}.{0,10}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£)/i
 
+/sie.{1,10}erhalten.{1,10}\d{2,4}(\.|,)?\d{3,4}.{1,10}als spende/i
+
 /sie haben einen.{1,15}gewinn von.{1,10}\d{2,4}(\.|,)?\d{3,4}.{0,10}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£)/i
 
 /sie haben.{1,10}\d{2,4}(\.|,)?\d{3,4}.{1,10}bei der.{1,15}(euromillion|lottery)/i
