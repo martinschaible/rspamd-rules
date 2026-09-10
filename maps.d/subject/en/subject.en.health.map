@@ -1348,6 +1348,7 @@
 /your.{1,10}aging memory/i
 /your.{1,10}arms without/i
 /your.{1,10}arteries/i
+/your.{1,10}(bladder|bloating)/i
 /your.{1,10}blood pressure/i
 /your.{1,10}back pain/i
 /your.{1,10}body stuck/i
@@ -1355,7 +1356,8 @@
 /your.{1,10}drink be linked/i
 /your.{1,10}ears wont/i
 /your.{1,10}energy naturally/i
-/your.{1,10}(bladder|bloating|digestion|erection|hearing|liver|manhood|pecker|prostate|wrinkles)/i
+/your.{1,10}(digestion|erection|hearing|liver|manhood)/i
+/your.{1,15}meds/i
 /your.{1,10}nails? looks?/i
 /your.{1,10}gut.{1,10}(could|knows|making|might|warning)/i
 /your.{1,10}(super)?food.{1,10}(harmful|secret)/i
@@ -1364,10 +1366,12 @@
 /your.{1,10}heart health/i
 /your.{1,10}knees deserve/i
 /your.{1,10}leg swelling/i
+/your.{1,10}(pecker|prostate)/i
 /your.{1,10}tingling feet/i
 /your.{1,10}toenails are/i
 /your.{1,10}veins hurt/i
 /your.{1,15}with.{1,10}natural/i
+/your.{1,10}wrinkles/i
 
 # Z
 # ------------------------------------------------------------------------------
