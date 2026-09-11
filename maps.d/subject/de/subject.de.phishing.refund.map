@@ -185,7 +185,8 @@
 
 /(rück)?erstattung.{1,10}(jetzt|möglich|verfügbar)/iu
 
-/(rück)?erstattung.{1,10}kann nicht bearbeitet werden/iu
+/(rück)?erstattung.{1,10}(kann|konnte) nicht (bearbeitet|überwiesen)/iu
+
 /(rück)?erstattung.{1,10}läuft bald ab/iu
 
 /(rück)?erstattung.{1,10}steht.{1,10}sie bereit/iu

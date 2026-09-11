@@ -89,19 +89,24 @@
 
 # E
 # ------------------------------------------------------------------------------
+/elite.{0,10}finanz(welt)?/i
+
 /erfolgsquelle/i
 
 /experten.{0,10}blick/i
 
 # F
 # ------------------------------------------------------------------------------
-/fakten.{0,10}jetzt/i
+/fakten.{0,10}(jäger|jetzt)/iu
 
 /finanz.{0,10}direkt/i
 /finanz.{0,10}(gewitter|mentor|trends)/i
 /finanz.{0,10}report/i
 /finanz.{0,10}quelle/i
 /finanz.{0,10}update/i
+
+/(finanz|wirtschaft|politik).{0,10}enthüllung/iu
+/(finanz|wirtschaft|politik).{0,10}wahrheit(en)?/i
 
 /fokus.{0,10}intern/i
 /fonds.{0,10}sichern/i
@@ -115,7 +120,7 @@
 /geld.{0,10}(gratis|strategien|verdienen)/i
 
 /geld.{0,10}aktuell/i
-/geld.{0,10}experte/i
+/geld.{0,10}(elite|experte)/i
 /geld.{0,10}(info|insider)/i
 /geld.{0,10}magazin/i
 /geld.{0,10}report/i
@@ -198,6 +203,7 @@
 /sicheres?.{0,10}investments?/i
 
 /skandal.{0,10}fakten/i
+/skandal.{0,10}news/i
 
 /smart.{0,10}handel/i
 

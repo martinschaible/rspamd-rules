@@ -299,6 +299,7 @@
 /dringend.{1,10}wir konnten sie/i
 /dringend.{1,15}wird weitergegeben/i
 
+/^dringende angelegenheit$/i
 /dringende information.{1,10}korrektur/i
 /dringende (sicherheitsprüfung|sicherheitswarnung)/iu
 
@@ -431,6 +432,8 @@
 /hinweis.{1,10}neue.{1,15}sicherheitsprotokolle/i
 /hinweis.{1,10}personalisiertes angebot/i
 /hinweis.{1,10}update endet/i
+
+/hinweis.{1,10}vollständigkeit ihrer daten/iu
 /hinweis.{1,10}zu ihren kontoinformationen/i
 
 # Swiss Dialect
@@ -919,6 +922,7 @@
 /wichtige?.{1,15}hinweis?.{1,10}sperrung ihrer/i
 /wichtige?.{1,15}hinweis?.{1,10}von/i
 /wichtige?.{1,15}hinweis?.{1,10}zur datensicherheit/i
+/wichtige?.{1,15}hinweis?.{1,10}zu ihren kontaktdaten/i
 
 #/wichtige?.{1,15}informationen/i
 /wichtige info(rmation)?.{1,10}zur lieferung.{1,20}zahlung/i
