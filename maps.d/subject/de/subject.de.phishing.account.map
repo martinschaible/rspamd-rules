@@ -53,6 +53,7 @@
 
 /anderes gerät ist mit ihrem.{1,15}(konto|profil)/iu
 /anfrage.{1,10}ungewöhnlichen?.{1,10}aktivitäten/iu
+
 /angaben für ihr.{1,15}(konto|profil).{1,10}aktualisieren/iu
 
 /anmeldung bei deinem metamask/i
@@ -147,8 +148,10 @@
 
 #/ihre identität verifizieren/iu
 
-/ihre (daten|konto.?informationen) aktuell sind/i
+/ihre.{1,10}angaben zu aktualisieren/i
+/ihre.{1,10}(daten|konto.?informationen) aktuell sind/i
 /ihre.{1,10}identität als rechtmäßiger kontoinhaber/iu
+
 /ihre?.{1,10}legitimations.?prozess/i
 
 /ihrem.{1,10}(konto|profil).{1,10}ch/i

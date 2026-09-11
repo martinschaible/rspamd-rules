@@ -423,23 +423,31 @@
 
 /hier ist die letzte warnung/i
 
-/hinweis.{1,10}datenaktualisierung/iu
-/hinweis.{1,10}empfang bestätigen/iu
-/hinweis.{1,10}handeln ist erforderlich/iu
-/hinweis.{1,10}ihre daten müssen bestätigt/iu
-/hinweis.{1,10}kontaktdaten prüfen/iu
-/hinweis.{1,10}logistische fortschritt/i
-/hinweis.{1,10}neue.{1,15}sicherheitsprotokolle/i
-/hinweis.{1,10}personalisiertes angebot/i
-/hinweis.{1,10}update endet/i
+/(hinweis|meldung|mitteilung).{1,10}datenaktualisierung/iu
+/(hinweis|meldung|mitteilung).{1,10}empfang bestätigen/iu
+/(hinweis|meldung|mitteilung).{1,10}handeln ist erforderlich/iu
+/(hinweis|meldung|mitteilung).{1,10}ihre daten müssen bestätigt/iu
+/(hinweis|meldung|mitteilung).{1,10}ihrem geräteschutz/iu
 
-/hinweis.{1,10}vollständigkeit ihrer daten/iu
-/hinweis.{1,10}zu ihren kontoinformationen/i
+/(hinweis|meldung|mitteilung).{1,10}kontaktdaten prüfen/iu
+/(hinweis|meldung|mitteilung).{1,10}kontoführung/i
+
+/(hinweis|meldung|mitteilung).{1,10}logistische fortschritt/i
+/(hinweis|meldung|mitteilung).{1,10}lösen sie ihr/iu
+/(hinweis|meldung|mitteilung).{1,10}neue.{1,15}sicherheitsprotokolle/i
+/(hinweis|meldung|mitteilung).{1,10}personalisiertes angebot/i
+/(hinweis|meldung|mitteilung).{1,10}sicherstellung.{1,10}uneingeschränkten nutzung/iu
+/(hinweis|meldung|mitteilung).{1,10}technischen aktualisierungen/i
+/(hinweis|meldung|mitteilung).{1,10}update endet/i
+
+/(hinweis|meldung|mitteilung).{1,10}vollständigkeit ihrer daten/iu
+/(hinweis|meldung|mitteilung).{1,10}vorübergehende einschränkung/iu
+
+/(hinweis|meldung|mitteilung).{1,10}zu ihren.{1,10}(kontoangaben|kontoinformationen)/i
+/(hinweis|meldung|mitteilung).{1,10}zu ihrer.{5,25}zahlungsmethode/i
 
 # Swiss Dialect
-/hinweis.{1,10}automatische verlängerig/iu
-/hinweis.{1,10}lösen sie ihr/iu
-/hinweis.{1,10}vorübergehende einschränkung/iu
+/(hinweis|meldung|mitteilung).{1,10}automatische verlängerig/iu
 
 /hohe dringlichkeit/i
 /höchste warnstufe.{1,15}abonnement/iu
@@ -629,12 +637,6 @@
 
 /maßnahme.{1,10}erforderlich.{1,10}konto einschränken/iu
 /maßnahme.{1,10}notwendig vor dem/i
-
-/(meldung|mitteilung).{1,10}ihrem geräteschutz/iu
-/(meldung|mitteilung).{1,10}sicherstellung.{1,10}uneingeschränkten nutzung/iu
-/(meldung|mitteilung).{1,10}technischen aktualisierungen/i
-/(meldung|mitteilung).{1,10}kontoführung/i
-/(meldung|mitteilung).{1,10}zu ihrer.{5,25}zahlungsmethode/i
 
 /mobilfunknummer erforderlich/i
 
