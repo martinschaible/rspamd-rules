@@ -34,6 +34,9 @@
 # Sample: 535383885759232@kiarx.com
 #/\d{10,20}@/i
 
+# Sample: @contact22.populaire-qrcode.com
+/@contact\d{1,10}\./i
+
 #
 #
 #

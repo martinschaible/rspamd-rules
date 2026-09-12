@@ -41,7 +41,9 @@
 /(ceramics|clothing|crafts).{1,10}co.{1,5}(limited|ltd)/i
 /export group.{1,10}co.{1,5}(limited|ltd)/i
 
-/(appliances|automotive|auto.?parts).{1,10}co.{1,5}(limited|ltd)/i
+/auto.?(accessory|parts).{1,10}co.{1,5}(limited|ltd)/i
+/(appliances|automotive).{1,10}co.{1,5}(limited|ltd)/i
+
 /(chain|cultural development).{1,10}co.{1,5}(limited|ltd)/i
 /(electronics hk|elevator|export).{1,15}co.{1,5}(limited|ltd)/i
 /fiber(glass)?.{1,10}co.{1,5}(limited|ltd)/i

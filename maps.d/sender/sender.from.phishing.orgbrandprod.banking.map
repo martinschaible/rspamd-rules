@@ -240,7 +240,8 @@
 
 /pf.?konto/i
 
-/post.?bank.{0,5}sicherheitsalarm/i
+/post.?bank.{0,15}routine/i
+/post.?bank.{0,10}sicherheitsalarm/i
 
 /post.?finance.{0,5}benachrichtigungen/i
 /post.?finance.{0,5}twint/i

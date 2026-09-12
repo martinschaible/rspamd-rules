@@ -86,6 +86,8 @@
 
 /dr\..?(apotheke|gesund|versand)/i
 
+/drive.{0,10}plus/i
+
 # E
 # ------------------------------------------------------------------------------
 /ed.?lösung/i
@@ -93,6 +95,9 @@
 /einfach.{0,10}leben/i
 
 /energie.{0,10}(booster|formel|heilung|plus|quelle)/i
+
+/eros.{0,10}held/i
+/erotik.{0,10}max/i
 /exklusives.{0,10}cbd/i
 
 # F
@@ -180,7 +185,10 @@
 /leise.{0,10}nacht/i
 
 /lust.{0,10}(boost|spass)/i
+/lust.{0,10}held/i
 /lust.{0,10}impuls/i
+/lust.{0,10}level/i
+/lust.{0,10}pilot/i
 /lust.{0,10}welt/i
 
 # M
@@ -193,6 +201,8 @@
 /massage.{0,10}pflaster/i
 /medizin.{0,10}(heute|shop|zukunft)/i
 /medizinisch.{0,10}geprüft/i
+
+/mega.{0,10}mann/i
 
 /mehr.{0,10}(ausdauer|energie|erregung|standfestigkeit|vitalität)/i
 /muskeln?.{0,10}(fit|start|team|up)/i
@@ -243,6 +253,7 @@
 /schlank.{0,10}(aktuell|booster|check|hilfe|welt)/i
 /schlank.{0,10}experte/i
 /schlank.{0,10}geheimnis/i
+/schlank.{0,10}profi/i
 
 /schmerzen in/i
 
@@ -251,6 +262,8 @@
 /sex.{0,10}produkt/i
 
 /(gigantische|starke).{0,10}lust/i
+
+/stark(er).{0,10}mann/i
 
 /starke.{0,10}(erregung|lust|potenz)/i
 /starker.{0,10}penis/i
