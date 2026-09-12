@@ -43,7 +43,7 @@
 
 /(appliances|automotive|auto.?parts).{1,10}co.{1,5}(limited|ltd)/i
 /(chain|cultural development).{1,10}co.{1,5}(limited|ltd)/i
-/(electronics hk|export).{1,10}co.{1,5}(limited|ltd)/i
+/(electronics hk|elevator|export).{1,15}co.{1,5}(limited|ltd)/i
 /fiber(glass)?.{1,10}co.{1,5}(limited|ltd)/i
 /goods.{1,10}co.{1,5}(limited|ltd)/i
 /hardware.{1,10}co.{1,5}(limited|ltd)/i
@@ -63,7 +63,9 @@
 
 /we are china.{4,35}co.{1,5}(limited|ltd)/i
 
+/suzhou.{1,10}(limited|ltd)/i
 /xiamen.{1,10}(limited|ltd)/i
+/zhejiang.{1,10}(limited|ltd)/i
 
 # Address patterns
 # ------------------------------------------------------------------------------

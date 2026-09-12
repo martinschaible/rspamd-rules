@@ -49,6 +49,8 @@
 /aktualisierung.{1,10}(deines|ihres).{1,10}kunden.?profils/i
 /aktualisierung.{1,10}(deines|ihres).{1,15}vertragsbedingungen.{1,10}zustimmung/i
 
+/aktualisierung.{1,10}ihrer.{1,10}profilangaben/i
+
 /aktualisierung.{1,10}für (dein|ihr).{1,15}(konto|profil).{1,10}erforderlich/i
 
 /anderes gerät ist mit ihrem.{1,15}(konto|profil)/iu
@@ -236,6 +238,7 @@
 /kontostand ist (höher|hoeher) als/iu
 /kontostatus.{1,10}aktualisierung no\b/i
 
+/kontoverwaltung.{1,10}aktualisierung/i
 /(kontozugang|kontozugriff).{1,10}(gefährdet|sichern)/i
 
 /kümmern sie sich um ihr.{1,15}(konto|profil)/iu

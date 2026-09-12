@@ -290,6 +290,7 @@
 
 /(dringende?|letzte|wichtige?).{1,10}mitteilung.{1,10}ihre.{1,15}rechnung/i
 /(dringende?|letzte|wichtige?).{1,10}mitteilung.{1,10}ihr.{1,15}speicherplatz/i
+/(dringende?|letzte|wichtige?).{1,10}mitteilung.{1,10}ihr.{1,15}wallet/i
 
 /(dringende?|letzte|wichtige?).{1,10}mitteilung.{1,10}zoll.{1,10}steuerzahlung/i
 /(dringende?|letzte|wichtige?).{1,10}mitteilung.{1,10}zollgebühren/iu
@@ -917,14 +918,16 @@
 /wichtige?.{1,10}informationen zu.{1,10}rückerstattung/iu
 /wichtige?.{1,20}kontosicherheit erforderlich/i
 
-/wichtige?.{1,15}hinweis?.{1,10}aktualisieren sie ihr konto/i
-/wichtige?.{1,15}hinweis?.{1,10}geräteschutzplan/i
-/wichtige?.{1,15}hinweis?.{1,10}bestätigen sie/iu
-/wichtige?.{1,15}hinweis?.{1,10}nachrichten warten/i
-/wichtige?.{1,15}hinweis?.{1,10}sperrung ihrer/i
-/wichtige?.{1,15}hinweis?.{1,10}von/i
-/wichtige?.{1,15}hinweis?.{1,10}zur datensicherheit/i
-/wichtige?.{1,15}hinweis?.{1,10}zu ihren kontaktdaten/i
+/wichtige?.{1,15}hinweis.{1,10}aktualisieren sie ihr konto/i
+/wichtige?.{1,15}hinweis.{1,10}geräteschutzplan/i
+/wichtige?.{1,15}hinweis.{1,10}bestätigen sie/iu
+/wichtige?.{1,15}hinweis.{1,10}nachrichten warten/i
+/wichtiger.{1,10}hinweis.{1,10}offizielle/i
+/wichtige?.{1,15}hinweis.{1,10}sperrung ihrer/i
+/wichtige?.{1,15}hinweis.{1,15}validierung/i
+/wichtige?.{1,15}hinweis.{1,10}von/i
+/wichtige?.{1,15}hinweis.{1,10}zur datensicherheit/i
+/wichtige?.{1,15}hinweis.{1,10}zu ihren kontaktdaten/i
 
 #/wichtige?.{1,15}informationen/i
 /wichtige info(rmation)?.{1,10}zur lieferung.{1,20}zahlung/i

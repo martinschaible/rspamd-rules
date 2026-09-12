@@ -203,8 +203,9 @@
 /sie.{1,10}von der.{1,30}stiftung eine förderung/iu
 
 /sie an.{1,10}spende interessiert sind/i
-/sie als einer der.{1,15}(begünstigten|empfänger).{1,10}ausgewählt/i
-/sie als einer der.{1,15}(begünstigten|empfänger).{1,10}(\d{3,4}|der)/i
+/sie als.{1,10}einer der.{1,15}(begünstigten|empfänger).{1,10}ausgewählt/i
+/sie als.{1,10}einer der.{1,15}(begünstigten|empfänger).{1,10}(\d{3,4}|der)/i
+/sie als.{1,15}potenzieller empfänger einer.{1,15}spende/iu
 
 /sie.{1,15}ausgewählt wurden.{1,10}um einen.{1,15}betrag/iu
 /sie.{1,15}ausgewählt wurden.{1,10}eine.{1,10}(förder)?finanzierung/iu
