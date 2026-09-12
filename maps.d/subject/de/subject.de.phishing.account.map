@@ -296,7 +296,7 @@
 /sichern.{1,10}vor dem.{1,10}202\d.{1,10}handeln/i
 
 /sicherheit.{1,10}(deiner|ihrer).{1,15}kontoaktivität/iu
-/sicherheit.{1,10}(deines|ihres).{1,15}(konto|profil) \d{2}(\.|\/)/iu/i
+/sicherheit.{1,10}(deines|ihres).{1,15}(konto|profil) \d{2}(\.|\/)/i
 
 /(sicherheitsempfehlung|sicherheitsmitteilung).{1,25}für ihr.{1,15}(konto|profil)/iu
 /sicherheitsteam.{1,20}unautorisierter zugriff/i
