@@ -89,7 +89,7 @@
 # H
 # ------------------------------------------------------------------------------
 /hello attention/i
-/Hello Customers?/i
+/hello customers?/i
 /hello dear(est)?/i
 /hello (madam|sir)/i
 
@@ -97,6 +97,7 @@
 /hello.{1,10}(dear|good)?.?friend/i
 /hello.{1,10}greetings from/i
 /hello.{1,10}my (dear|friend)/i
+/hello.{1,10}www\./i
 
 /hi my friend/i
 

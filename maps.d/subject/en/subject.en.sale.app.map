@@ -19,6 +19,8 @@
 
 # A
 # ------------------------------------------------------------------------------
+/(about|talk).{1,10}your.{1,10}app/i
+
 /all type.{1,10}app.{1,10}develop(ment)?/i
 /an app\?/i
 
@@ -43,6 +45,8 @@
 /apps?.{1,5}(developer|development).{1,10}for/i
 /apps?.{1,5}(cost enquiry|proposal|we build)/i
 /apps?.{1,5}idea (\?|for)/i
+/apps?.{1,5}idea.{1,10}www\./i
+
 /apps?.{1,5}for your.{1,10}(business|company|practice|web.?site)/i
 /apps?.{1,5}(promotion|quotes)/i
 /apps?.{1,5}software service/i
@@ -51,6 +55,8 @@
 # ------------------------------------------------------------------------------
 /build(ing)? (an|custom|own|your).{1,10}app/i
 /build(ing)? web.?apps?/i
+
+/build(ing)? your.{1,10}digital solution/i
 
 # C
 # ------------------------------------------------------------------------------
@@ -109,6 +115,8 @@
 
 /modify your.{1,10}apps/i
 
+/more value with.{1,10}app/i
+
 # N
 # ------------------------------------------------------------------------------
 /need.{1,15}apps?\b/i
@@ -156,6 +164,7 @@
 /you.{1,10}need.{1,10}mobile.?app/i
 
 /your app ideas?/i
+/your business.{1,10}www\./i
 /your own app/i
 
 # Z

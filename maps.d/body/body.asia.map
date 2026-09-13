@@ -107,6 +107,8 @@
 
 # Delivery company
 /配送業者/i
+/配送担当.{0,5}業⁠者/i
+
 
 # Delivery Information
 /配.?送‍ご案‌内‍/i
@@ -212,6 +214,9 @@
 # Open regular tickets on behalf of others and add WeChat
 /代 开正 规普票加微 信/i
 
+# Ordered items
+/ご注‍文商品/i
+
 # P
 # ------------------------------------------------------------------------------
 
@@ -253,6 +258,9 @@
 
 # Scheduled for delivery tomorrow
 /明日配送予定/i
+
+# Shipping notification
+/配送‌のお知‌らせ/i
 
 # Special offer
 /特典を今すぐ受け取る/i

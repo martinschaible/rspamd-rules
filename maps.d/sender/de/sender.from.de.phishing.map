@@ -228,6 +228,7 @@
 /paket in/i
 
 /paket.?(express|service|update)/i
+/paket.{0,10}\d{3,10}/i
 /paket.{0,10}(group|koordination)/i
 /paket.{0,10}partner/i
 /paket.{0,10}verwaltung/i

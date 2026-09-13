@@ -20,6 +20,7 @@
 # ------------------------------------------------------------------------------
 /an ios.{1,10}android.{1,10}developer/i
 
+/(applications?|apps?).{1,10}(design|rebuild)/i
 /(applications?|apps?).{1,10}development.{1,10}android.{1,10}ios/i
 /(applications?|apps?).{1,10}development.{1,10}services/i
 
@@ -142,9 +143,9 @@
 
 # Y
 # ------------------------------------------------------------------------------
-/you.{1,10}(considering|interested|looking|need|planning|thinking).{1,15}(applications?|apps?).{1,10}(android|ios|iphone)/i
-/you.{1,10}(considering|interested|looking|need|planning|thinking).{1,15}(about|for|in).{1,15}(android|ios|iphone|mobile)?.?(app|web)/i
-/you.{1,10}(considering|interested|looking|need|planning|thinking).{1,15}(build|create|creating|develop).{1,15}(android|ios|iphone|mobile)?.?(app|web)/i
+/you.{1,10}(considering|interested|looking|need|planning|thinking|want).{1,15}(applications?|apps?).{1,10}(android|ios|iphone)/i
+/you.{1,10}(considering|interested|looking|need|planning|thinking|want).{1,15}(about|for|in).{1,15}(android|ios|iphone|mobile)?.?(app|web)/i
+/you.{1,10}(considering|interested|looking|need|planning|thinking|want).{1,15}(build|create|creating|develop).{1,15}(android|ios|iphone|mobile)?.?(app|web)/i
 
 /your business.{1,15}app.{1,10}software/i
 /your business.{1,15}(android|ios|mobile)?.app/i
