@@ -180,6 +180,8 @@
 
 /eingestellt.{1,5}#\d{2,15}/i
 
+/einkommensteuerbescheid.{1,15}steht bereit/i
+
 # Meta wants to delete your account
 /endgültige löschung ihrer seite/iu
 
@@ -230,16 +232,15 @@
 
 # H
 # ------------------------------------------------------------------------------
-/einkommensteuerbescheid.{1,15}steht bereit/i
-
-/identität muss bestätigt werden/iu
-
 /ihre hinterlegten kundendaten/i
 
+/handeln.{1,10}daten bestätigen/iu
 /hinweis zur.{1,15}(datenpflege|systemintegrität)/iu
 
 # I
 # ------------------------------------------------------------------------------
+/identität muss bestätigt werden/iu
+
 /(ihr|lhr).{1,20}ist nicht mehr (gültig|gultig)/i
 
 /ihrer? akte.{1,15}\[ref/i
@@ -406,6 +407,7 @@
 
 /sicherer zugriff.{1,10}verifizieren/i
 
+/sicherheitsinformationen erforderlich/i
 /sicherheitsnachweis erforderlich.{1,10}steuerguthaben/i
 
 /sicherheitssystem wurde aktualisiert/i
@@ -485,6 +487,7 @@
 
 /verifizierung ihrer daten/i
 /verifizierung nicht abgeschlossen/i
+/verifizierung unvollständig/iu
 
 /vertrag.{1,10}aktuelle abrechnung/i
 /vertrauenswürdige(n|r).{1,10}zugriffs?/i

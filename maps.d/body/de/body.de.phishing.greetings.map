@@ -442,8 +442,9 @@
 
 # V
 # ------------------------------------------------------------------------------
-/verifizierung ihres.{1,15}kontos?.{1,10}guten tag/i
-/verifizierung notwendig.{1,10}(sehr geehrter?|werter?).{1,10}(damen|herren|kunde|kundin)/i
+/verifizierung ihres.{1,15}kontos?.{1,10}guten (abend|morgen|tag)/i
+/verifizierung.{1,10}notwendig.{1,10}(sehr geehrter?|werter?).{1,10}(damen|herren|kunde|kundin)/i
+/verifizierung.{1,10}unvollständig.{1,15}guten (abend|morgen|tag)/iu
 
 # W
 # ------------------------------------------------------------------------------

@@ -211,6 +211,7 @@
 # ------------------------------------------------------------------------------
 /teuer.{0,10}verkaufen/i
 
+/til.{0,5}enthüllt/iu
 /top.?picks/i
 
 /trading.{0,10}experte/i
@@ -230,7 +231,10 @@
 # V
 # ------------------------------------------------------------------------------
 /verdienen.{0,10}(neu|sie)/i
+
+/verbotenes?.{0,10}tip?ps?/i
 /verbotenes?.{0,10}wissen/i
+
 /versteckte.{0,10}fakten/i
 
 # W

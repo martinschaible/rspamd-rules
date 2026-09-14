@@ -256,6 +256,8 @@
 /reliable.{1,10}trustworthy/i
 /relief.{1,10}recovery support/i
 
+/reminder.{1,10}(proposal|propsoal|quotes?).{1,15}@/i
+
 /remittance advice.{1,10}\d{2,10}/i
 
 /request.{1,10}moment of your time/i
