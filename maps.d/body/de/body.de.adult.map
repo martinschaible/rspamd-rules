@@ -222,6 +222,7 @@
 
 /(geilen|groben|kostenlos|ungezwungen|unkompliziert|suche nach|verdorbenen).{1,10}sex/i
 
+/(geprüfte|verifizierte).{1,10}aktive.{1,10}mitglieder/i
 /geschützter.{1,10}raum mit verifizierten/iu
 
 # H
@@ -482,6 +483,8 @@
 
 # U
 # ------------------------------------------------------------------------------
+/unauffällige treffen.{1,10}ohne drama/iu
+
 /unbefriedigte.{1,10}frau/i
 /unkompliziert.{1,10}diskret/i
 
@@ -495,6 +498,7 @@
 
 /verifizierte mitglieder.{1,10}keine.{1,10}fake.?profile/i
 /versauten?.{1,10}(fick|sex|treffen)/i
+/vertraulichkeit.{1,10}anonymität/iu
 
 # W
 # ------------------------------------------------------------------------------

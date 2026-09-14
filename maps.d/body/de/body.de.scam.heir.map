@@ -39,6 +39,8 @@
 /erbschaft.{1,15}ausfindig gemacht haben/i
 /erbschaft.{1,15}die mit ihrem.{1,10}namen/i
 
+/es liegt ein nicht beanspruchtes erbe/i
+
 # F
 # ------------------------------------------------------------------------------
 /fonds.{1,10}verstorbenen.{1,10}(klienten|kunden|mann|vater)/i
@@ -83,6 +85,8 @@
 
 # N
 # ------------------------------------------------------------------------------
+/namens?.{1,10}um den anspruch geltend zu machen/i
+
 /nicht beanspruchten.{1,10}(erbschaftsgelder|erbschaftsvermögen)/iu
 
 # O

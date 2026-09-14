@@ -241,11 +241,13 @@
 
 /pf.?konto/i
 
+/post.?bank.{0,10}banking/i
 /post.?bank.{0,10}bestsign/i
 
 /post.?bank.{0,15}routine/i
 /post.?bank.{0,10}richtlinie/i
 /post.?bank.{0,10}sicherheitsalarm/i
+/post.?bank.{0,10}verification/i
 
 /post.?finance.{0,5}benachrichtigungen/i
 /post.?finance.{0,5}twint/i
