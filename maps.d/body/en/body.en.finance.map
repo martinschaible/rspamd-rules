@@ -302,7 +302,7 @@
 
 /your.{1,10}(business|company|organization).{1,10}(needs?|require|seeking).{1,10}(capital|financing|funding|project)/i
 /your.{1,10}(business|company|organization).{1,10}growth through funding/i
-/your.{1,10}(business|company|organization).{1,10}is.{1,15}(pre)?.?approved.{1,10}up to/i
+/your.{1,10}(business|company|organization).{1,10}is.{1,15}(pre)?.?(approved|qualified).{1,10}up to/i
 
 # Z
 # ------------------------------------------------------------------------------
