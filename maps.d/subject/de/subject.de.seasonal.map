@@ -135,7 +135,8 @@
 /(verwertung|waren).{1,15}(insolvenzverfahren|liquidationen)/i
 /(verwertung|waren).{1,15}marktwert/i
 
-/warenbestände zur unverbindlichen/iu
+/(warenbestände|warenverfügbarkeit).{1,10}unverbindlichen/iu
+/(warenbestände|warenverfügbarkeit).{1,10}zusammengefasst/iu
 
 # Single words
 /insolvenzauszug/i

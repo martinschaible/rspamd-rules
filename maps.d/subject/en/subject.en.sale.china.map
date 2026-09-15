@@ -263,7 +263,7 @@
 /electrolytic capacitors.{1,10}available/i
 
 /electronic components?.{1,10}(distributor|rfq|stock|supplier|supply)/i
-/electronic components?.{1,10}solutions?/i
+/electronic components?.{1,10}(solutions?|support)/i
 /electronic components?.{1,10}you need/i
 
 /^electronic components$/i
@@ -290,7 +290,8 @@
 
 /factory.{1,10}brand cases/i
 
-/factory.{1,10}direct.{1,20}(custom|kitchen|sink)/i
+/factory.{1,10}direct.{1,20}(custom|kitchen)/i
+/factory.{1,10}direct.{1,20}(sink|supply)/i
 /factory.{1,10}direct.{1,20}(waste|wholesale)/i
 
 /factory.{1,20}from china/i
