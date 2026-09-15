@@ -194,7 +194,7 @@
 /(kontoaktualisierung|kontobestätigung).{1,20}hallo/i
 
 /kontaktdaten.{1,15}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/i
-/(kontoinformationen|kontosicherheit|zahlungsangaben).{1,15}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/i
+/(kontodaten|kontoinformationen|kontosicherheit).{1,15}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/i
 
 /konto verifizieren.{1,10}lieber?.{1,10}kunde/i
 
@@ -466,6 +466,8 @@
 # ------------------------------------------------------------------------------
 /zahlung wurde nicht ausgeführt.{1,10}hallo/iu
 /zahlung fehlgeschlagen.{1,10}hallo/i
+
+/zahlungsangaben.{1,15}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/i
 
 /(zahlungsinformationen|zahlungsprüfung).{1,10}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/i
 /zahlungsproblem.{1,10}sehr geehrtes mitglied/i
