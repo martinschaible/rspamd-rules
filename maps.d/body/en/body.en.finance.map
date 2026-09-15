@@ -74,6 +74,7 @@
 /(finance|financing|financial|funding).{1,10}if yes.{1,10}contact/i
 /(finance|financing|financial|funding).{1,20}opportunities/i
 /(finance|financing|financial|funding).{1,10}program.{1,15}do not hesitate/i
+/(finance|financing|financial|funding).{1,10}support your personal needs/i
 /(finance|financing|financial|funding).{1,10}solutions suitable/i
 /(finance|financing|financial|funding).{1,10}we will.{1,20}work with you/i
 
@@ -279,8 +280,8 @@
 
 # Y
 # ------------------------------------------------------------------------------
-/you are.{1,15}(looking|seeking).{1,10}(funding|funds)/i
-/you are.{1,15}(looking|seeking).{1,10}loan/i
+/you.{1,15}(looking|seeking).{1,10}(financing|funding|funds)/i
+/you.{1,15}(looking|seeking).{1,10}loan/i
 
 /you.{1,10}have.{1,15}projects?.{1,10}requires funding/i
 /you.{1,10}have.{1,15}projects?.{1,10}(in|that) (need|required).{1,10}(financial|financing|funded)/i

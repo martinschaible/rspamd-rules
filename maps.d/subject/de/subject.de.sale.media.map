@@ -53,6 +53,8 @@
 
 # E
 # ------------------------------------------------------------------------------
+/^ein vorschlag$/i
+
 /(entfernen|löschen).{1,15}bewertungen/i
 /(entfernen|löschen).{1,10}bei google/i
 
