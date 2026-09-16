@@ -203,7 +203,9 @@
 /(rück)?erstattung.{1,5}id:\d/i
 /(rück)?erstattung.{1,10}\d{1,4}.{1,5}\[id/i
 
-/(rück)?erstattungs.?anfrage.{1,10}online einreichen/iu
+/(rück)?erstattungs.?(anspruch|anfrage).{1,10}fehler bei der/i
+/(rück)?erstattungs.?(anfrage|anspruch).{1,10}online einreichen/iu
+
 /(rück)?erstattungs.?prozess(es)?.{1,10}\d{2,3}/i
 /(rück)?erstattungsbestätigung.{1,10}antrag genehmigt/i
 

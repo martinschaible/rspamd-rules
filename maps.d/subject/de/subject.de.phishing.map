@@ -190,6 +190,7 @@
 /endgueitige aufforderung/i
 
 /erforderlich.{1,10}referenznummer/i
+/ergänzen sie.{1,15}steuerangaben/i
 /erinnerung.{1,10}aktualisiere deine/i
 
 # Sample: erneuern (#7ZXTB8)
@@ -438,11 +439,13 @@
 
 /steht ein neues.{1,15}update aus/i
 
-/steuerdaten.{1,10}bis.{1,15}prüfen/iu
-/steuerdaten.{1,10}handlungsbedarf/i
-/steuerdaten.{1,10}letzte chance bis/i
+/(steuerangaben|steuerdaten).{1,10}bis.{1,15}prüfen/iu
+/(steuerangaben|steuerdaten).{1,10}fehlen.{1,10}ihrem.{1,15}konto/i
+/(steuerangaben|steuerdaten).{1,10}handlungsbedarf/i
+/(steuerangaben|steuerdaten).{1,10}letzte chance bis/i
 
 /steuerbescheid.{1,10}liegt vor/iu
+/steuerformular.{1,10}muss.{1,10}ergänzt werden/iu
 
 /synchronisierung erforderlich/i
 

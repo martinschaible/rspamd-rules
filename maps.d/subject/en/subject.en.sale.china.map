@@ -388,7 +388,10 @@
 /(international|shenzhen|trading).{1,15}co.{1,5}ltd/i
 /international.{1,10}freight forwarding/i
 
-/inquiry about.{1,10}pcba?/i
+/inquiry (about|regarding).{1,10}(pcba?|printed.?circuits?.?board)/i
+/inquiry (about|regarding).{1,10}footwear/i
+/inquiry (about|regarding).{1,20}(distribution|partnership)/i
+
 /(inquiry|product).{1,15}ring.?binders/i
 
 /iso.{1,10}(certified|qualified).{1,10}(factory|production)/i
