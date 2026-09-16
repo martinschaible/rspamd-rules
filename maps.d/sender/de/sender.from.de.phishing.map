@@ -147,7 +147,9 @@
 
 # K
 # ------------------------------------------------------------------------------
-/karten.{0,10}(service|support|team)/i
+
+/karten.{1,10}service/i
+/karten.{0,10}(support|team|verwaltung)/i
 
 /kontakt.{0,10}(team|support|service)/i
 
