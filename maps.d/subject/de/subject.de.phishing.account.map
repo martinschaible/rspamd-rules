@@ -322,8 +322,8 @@
 
 /unvollständige verifizierung.{1,10}ihr.{1,15}(konto|profil)/iu
 
-/überprüfung.{1,10}(deines|ihres).{1,15}(konto|profil).{1,10}erforderlich/iu
-/überprüfung.{1,10}(deiner|ihrer).{1,15}(konto|profil).?(daten|informationen)/iu
+/(überprüfung|ueberpruefung).{1,10}(deines|ihres).{1,15}(konto|profil).{1,10}erforderlich/iu
+/(überprüfung|ueberpruefung).{1,10}(deiner|ihrer).{1,15}(konto|profil).?(daten|informationen)/iu
 
 /um den service fortzusetzen/i
 /um vollen zugriff zu behalten/i

@@ -127,6 +127,9 @@
 /(ihre|meine).{0,5}dkb/i
 /info@dkb\.de/i
 
+#
+/drv.{0,5}team/i
+
 # E
 # ------------------------------------------------------------------------------
 /easyb-ank/i
@@ -302,7 +305,10 @@
 /swissquote.?(bank)?.?ltd/i
 
 /swissquote.{0,10}(invest|message|reply)/i
-/swissquote.{0,10}support/i
+/swissquote.{0,10}(security|support)/i
+
+/invest.{0,10}swissquote/i
+/security.{0,10}swissquote/i
 
 # T
 # ------------------------------------------------------------------------------

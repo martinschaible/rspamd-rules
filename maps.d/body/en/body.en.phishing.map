@@ -28,6 +28,10 @@
 # ------------------------------------------------------------------------------
 /copyright notification.{1,10}music usage review/i
 
+# Files listing
+# ------------------------------------------------------------------------------
+/salary.?increment.?review\.pdf
+
 #
 #
 #
@@ -110,6 +114,8 @@
 
 /review.{1,10}confirm your details/i
 /review.{1,10}devices.{1,10}secure your account/i
+/review.{1,10}required.{1,10}staff payroll documents/i
+
 
 # Login attempt from a new device
 /russian federation.{1,10}high.?risk zone/i
