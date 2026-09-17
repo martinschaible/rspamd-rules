@@ -197,6 +197,7 @@
 /supply.?-pdf/i
 /swift.{0,10}(message|transaction)/i
 
+/transaction.{0,10}(reference|successful)/i
 /updated.?price/i
 
 /valued.?partner/i
