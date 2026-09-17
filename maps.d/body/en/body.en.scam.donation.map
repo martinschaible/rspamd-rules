@@ -49,12 +49,14 @@
 /donation.{1,10}code/i
 /donation.{1,10}contact me for more information/i
 
+/donation.{1,10}help the.{1,20}children.{1,10}in your/i
 /donation.{1,10}how to claim it/i
 /donation.{1,10}kindly.{1,10}send this/i
 /donation.{1,10}opportunity to you/i
 /donation.{1,10}please reply at/i
 /donation.{1,10}reply for claims/i
-/donation.{1,10}to you and your family/i
+
+/donation.{1,10}you and your family/i
 
 # E
 # ------------------------------------------------------------------------------
@@ -135,8 +137,8 @@
 /you.{1,10}awarded.{1,10}(cash|grant)/i
 
 /you.{1,10}have.{1,10}generous donation.{1,10}from/i
-/you.{1,10}have been.{1,10}selected as.{1,10}recipient /i
-/you.{1,10}have been.{1,10}selected.{1,15}(by|for|of a).{1,10}(donation|financing|foundation|grant)/i
+/you.{1,10}have been.{1,10}(awarded|selected) as.{1,10}recipient /i
+/you.{1,10}have been.{1,10}(awarded|selected).{1,20}(donation|financing|foundation|grant)/i
 /you.{1,10}have been.{1,50}with.{1,10}(donation|financing|foundation|grant)/i
 
 /you.{1,10}received.{1,10}\d{3,4}.{1,15}stock/i
