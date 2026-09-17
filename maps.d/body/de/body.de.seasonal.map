@@ -65,7 +65,7 @@
 # Scam: Insolvency, selling stuff, etc.
 # ------------------------------------------------------------------------------
 /(angebote?|positionen|posten).{1,10}(insolvenzverwertung|insolvenzmasse|insolvenzware)/i
-/(angebote?|positionen|posten|).{1,15}insolvenz(en)?/i
+/(angebote?|positionen|posten).{1,15}insolvenz(en)?/i
 
 /aktuelle verwertungsangebote/i
 
@@ -155,6 +155,9 @@
 
 # V
 # ------------------------------------------------------------------------------
+
+# WhatsApp
+/vorschau.{1,10}hey mama und papa/i
 
 # W
 # ------------------------------------------------------------------------------
