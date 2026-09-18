@@ -96,6 +96,8 @@
 
 # G
 # ------------------------------------------------------------------------------
+/get profit in.{1,10}days/i
+
 /guaranteed returns yearly/i
 
 /\d{2,3}.{1,10}guaranteed returns/i
@@ -188,8 +190,7 @@
 # ------------------------------------------------------------------------------
 /secured.{1,15}property investment/i
 
-
-/start earning commissions?/i
+/start earning.{1,10}(commissions?|profits)/i
 
 /steady income.{1,10}any age/i
 
