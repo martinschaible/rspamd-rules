@@ -49,6 +49,7 @@
 # B
 # ------------------------------------------------------------------------------
 /bankrichtlinien.{1,10}handlungsbedarf bis/i
+/bankverbindung.{1,10}bestätigen bis/iu
 
 /bestätigung für die.{1,15}systemaktualisierung/iu
 
@@ -166,7 +167,9 @@
 # ------------------------------------------------------------------------------
 /sicherheitscheck.{1,10}jetzt bestätigen/iu
 /sicherheitseinstellungen aktualisieren.{1,10}handlungsbedarf/i
-/sicherheits(funktion|update).{1,10}ihre.{1,10}karte/i
+
+/sicherheits.?(funktion|update).{1,10}ihre.{1,10}karte/i
+
 /sicherheitsüberprüfung.{1,10}online.?bankings?/iu
 /sicherheitsrelevante.{1,10}information zu ihrem zugang/i
 /sicherheitsumgebung.{1,10}modernisiert/i

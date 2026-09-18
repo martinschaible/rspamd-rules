@@ -80,6 +80,8 @@
 
 /data.?loss/i
 
+/delivery.{0,10}failed/i
+
 /digital.{0,10}support/i
 
 /domain.{0,10}(provider|support)/i

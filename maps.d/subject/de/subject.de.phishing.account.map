@@ -290,6 +290,9 @@
 
 # S
 # ------------------------------------------------------------------------------
+/schritte.{1,10}ihr.{1,20}(konto|profil)/i
+/schritte.{1,10}weiterführung ihres.{1,15}(konto|profil)/iu
+
 /schutzblock für.{1,15}(konto|profil)/iu
 /schützen sie ihr.{1,15}(konto|profil).{1,10}aktivieren sie/iu
 
@@ -301,8 +304,9 @@
 
 /(sicherheitsempfehlung|sicherheitsmitteilung).{1,25}für ihr.{1,15}(konto|profil)/iu
 /sicherheitsteam.{1,20}unautorisierter zugriff/i
+/sicherheitsstandards?.{1,10}ihr(es)?.{1,15}(kontos|profils)/i
 
-/(sicherheits|system).?(aktualisierung|update).{1,10}ihr.{1,15}(konto|profil)/i
+/(sicherheits|system).?(aktualisierung|funktion|update).{1,10}ihr.{1,15}(konto|profil)/i
 
 /sicherheitsüberprüfung.{1,10}(deines|ihres).{1,15}(kontos|profils)/iu
 /sicherheitsüberprüfung.{1,10}notwendig/iu
