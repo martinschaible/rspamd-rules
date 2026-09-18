@@ -331,7 +331,7 @@
 /(paket|sendung).{1,10}ist zur (lieferung|zustellung) bereit/i
 
 /(paket|sendung).{1,10}kann nicht ohne sie/i
-/(paket|sendung).{1,10}kann nicht.{1,15}geliefert werden/i
+/(paket|sendung).{1,10}(konnte|kann) nicht.{1,15}(geliefert|zugestellt) werden/i
 
 /(paket|sendung).{1,10}liegt in der filiale lieferbereit/i
 /(paket|sendung).{1,10}mit der nummer/i
@@ -368,6 +368,8 @@
 /probleme? mit (der|ihrer).{1,10}(sendungs)?adresse/i
 
 /(prüfen|pruefen) sie den.{1,10}zollstatus/i
+
+/prüfung.{1,10}sendungsdaten.{1,10}erforderlich/iu
 
 # Q
 # ------------------------------------------------------------------------------
