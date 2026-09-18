@@ -236,4 +236,4 @@
 
 # Example: "Ak­tu­ali­sie­rung" goes to "Ak-tu-ali-sie-rung" (with a soft hyphen in the middle)
 
-/(=c2=ad|\x{00ad})/iu
+/(=c2=ad|\x{00ad})/i
