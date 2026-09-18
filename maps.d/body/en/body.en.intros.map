@@ -220,7 +220,6 @@
 /my name is.{5,25}i specialize in/i
 /my name is.{5,25}i am writing to you/i
 
-
 /my name is.{5,25}i have.{1,10}(decided|urgent)/i
 /my name is.{5,25}i have been.{1,10}victim/i
 
@@ -228,6 +227,8 @@
 
 /my name is.{5,30}reaching out from/i
 /my name is.{5,25}represent(ing)?/i
+/my name is.{5,25}responsible.{1,25}nominations/i
+
 /my name is.{5,25}senior business/i
 /my name is.{5,25}unmarried/i
 
