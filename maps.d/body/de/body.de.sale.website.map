@@ -87,6 +87,8 @@
 
 # M
 # ------------------------------------------------------------------------------
+/mir ist ihre.{1,10}(home.?page|web.?site).{1,10}aufgefallen/i
+
 /möchten sie ihre.{1,10}(home.?page|web.?site)/iu
 
 # N
@@ -159,6 +161,8 @@
 
 /wir sind.{1,10}experten.{1,10}webdesign/i
 /wir sind.{1,10}indisches unternehmen/i
+
+/wir unterstützen.{1,15}unternehmen dabei.{1,10}(home.?page|web.?site)/i
 
 # X
 # ------------------------------------------------------------------------------
