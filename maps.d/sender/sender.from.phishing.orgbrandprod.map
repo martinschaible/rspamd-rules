@@ -331,6 +331,8 @@
 #/^meta$/i
 /ads.?meta/i
 
+/meta.?ads.{0,10}support/i
+
 /^mercedes$/i
 /mercedes.?cla/i
 

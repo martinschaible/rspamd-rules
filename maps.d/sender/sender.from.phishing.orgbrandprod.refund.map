@@ -32,6 +32,9 @@
 
 # A
 # ------------------------------------------------------------------------------
+/liefer.?zentrum.{0,10}amazon/i
+/versand.?zentrale.{0,10}amazon/i
+
 /app.{0,10}axa/i
 
 /axa.{0,10}(kundendienst|kundenservice)/i

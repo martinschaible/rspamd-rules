@@ -109,7 +109,8 @@
 /amazon.{0,10}customer.?service/i
 /amazon.{0,10}(visa|xmas)/i
 
-/amazon.{0,10}(gutschein|weihnachten)/i
+/amazon.{0,10}(geschenk|gutschein)/i
+/amazon.{0,10}weihnachten/i
 
 #
 /autotrader.{0,10}rewards?/i
