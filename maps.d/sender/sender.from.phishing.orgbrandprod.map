@@ -365,7 +365,6 @@
 # ------------------------------------------------------------------------------
 /partner.{0,10}mcafee/i
 
-/^parking.?pay$/i
 /parking.?pay\+/i
 
 #/^parkingpay$/i
@@ -457,6 +456,7 @@
 
 /swiscomm/i
 /swisscom-ag/i
+/swisscomag/i
 /swisscom.{0,10}(exklusiv|info|mitteilung(en)?|support)/i
 /swisscom.{0,10}(kommunikation|kundenbetreuu?ng|kundenservice)/i
 /swisscom.{0,10}rechnung/i
