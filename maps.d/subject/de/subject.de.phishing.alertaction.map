@@ -956,6 +956,7 @@
 /wichtige?.{1,15}kontowarnung/i
 /wichtige?.{1,15}(konto|profil).?informationen/i
 
+/wichtige?.{1,10}(hinweis|mitteilung).{1,10}bestätigung ihrer.{1,10}daten/iu
 /wichtige?.{1,10}(hinweis|mitteilung).{1,10}für sie/iu
 /wichtige?.{1,10}(hinweis|mitteilung).{1,10}ihre zahlungsdaten/i
 /wichtige?.{1,10}(hinweis|mitteilung).{1,10}jetzt bestätigen/iu
@@ -1034,16 +1035,18 @@
 /zahlungsproblem.{1,10}(erkannt|festgestellt).{1,15}konto aktualisieren/i
 /zahlungsproblem.{1,10}(erkannt|festgestellt).{1,15}jetzt manuell/i
 
-/zahlungsprüfung erforderlich/iu
 /zahlung.{1,10}jetzt erneuern/i
 /zahlungsinformationen bei.{1,15}sind veraltet/i
+/zahlungsprüfung.{1,10}erforderlich/iu
 
+/zugang reaktivieren.{1,10}jetzt handeln/i
 /zugangseinschränkung.{1,10}bevorstehend/iu
-/zugriffseinschränkung.{1,10}fehlender aktualisierung/iu
 /zugangssperre verhindern.{1,10}jetzt/i
 
 /zugriff blockiert.{1,10}starten sie/i
 /zugriff gesperrt.{1,10}begleichen sie/i
+
+/zugriffseinschränkung.{1,10}fehlender aktualisierung/iu
 
 /zustellungsupdate.{1,10}bestaetigen/iu
 /zustellversuch.{1,10}fehlgeschlagen.{1,10}sendungs.?id/i
