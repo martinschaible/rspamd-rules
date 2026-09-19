@@ -110,6 +110,8 @@
 # O
 # ------------------------------------------------------------------------------
 /(offering|offers).{1,10}wide range.{1,10}services/i
+
+/offering.{1,10}responsive.{1,10}web.?design.{1,10}(globally|services|since)/i
 /offering.{1,10}web.{1,10}mobile developers/i
 
 /our designers.{1,10}developers have/i
