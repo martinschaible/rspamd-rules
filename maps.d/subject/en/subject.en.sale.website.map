@@ -92,8 +92,9 @@
 /(home.?page|web.?site).{1,10}maintenance contracts?/i
 /(home.?page|web.?site).{1,10}need.{1,10}update/i
 
-/(home.?page|web.?site).{1,10}re.?(build|design)(ing)?/i
-/(home.?page|web.?site).{1,10}(re.?make|renew|revamping)/i
+/(home.?page|web.?site).{1,10}re.?(build|design|make)(ing)?/i
+/(home.?page|web.?site).{1,10}(refresh|renew|revamping)/i
+
 /(home.?page|web.?site).{1,10}review.{1,10}growth/i
 
 /(home.?page|web.?site).{1,10}(overhaul|quotation|upgrade|upgrading)/i
