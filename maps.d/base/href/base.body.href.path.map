@@ -170,13 +170,14 @@
 
 # Sample: https://mlzhzp.com/iRQnA5CzvC.name.jp
 /https?:\/\/[a-z0-9-]{3,15}\.com\/[a-z0-9]{3,15}\.agency/i
-/https?:\/\/[a-z0-9-]{3,15}\.com\/[a-z0-9]{3,15}\.city/i
+/https?:\/\/[a-z0-9-]{3,15}\.com\/[a-z0-9]{3,15}\.(city|click)/i
 /https?:\/\/[a-z0-9-]{3,15}\.com\/[a-z0-9]{3,15}\.guru/i
 /https?:\/\/[a-z0-9-]{3,15}\.com\/[a-z0-9]{3,15}\.money/i
 /https?:\/\/[a-z0-9-]{3,15}\.com\/[a-z0-9]{3,15}\.name/i
 /https?:\/\/[a-z0-9-]{3,15}\.com\/[a-z0-9]{3,15}\.jp/i
 /https?:\/\/[a-z0-9-]{3,15}\.com\/[a-z0-9]{3,15}\.jp\.net/i
-/https?:\/\/[a-z0-9-]{3,15}\.com\/[a-z0-9]{3,15}\.pics/i
+/https?:\/\/[a-z0-9-]{3,15}\.com\/[a-z0-9]{3,15}\.(pics|place)/i
+/https?:\/\/[a-z0-9-]{3,15}\.com\/[a-z0-9]{3,15}\.technology/i
 /https?:\/\/[a-z0-9-]{3,15}\.com\/[a-z0-9]{3,15}\.xyz/i
 /https?:\/\/[a-z0-9-]{3,15}\.com\/[a-z0-9]{3,15}\.zone/i
 

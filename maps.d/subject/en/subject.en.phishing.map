@@ -163,6 +163,8 @@
 
 # V
 # ------------------------------------------------------------------------------
+/verify your.{1,10}transaction before/i
+
 /violation.{1,10}egregious.{1,10}policy/i
 
 /voice message attached from.{1,5}\d{8,15}/i

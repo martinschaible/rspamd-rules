@@ -93,19 +93,20 @@
 /appſe/i
 /apiie ld/i
 
-/apple.{0,10}(abo|airtag|autorisierung)/i
-/apple.{0,10}benachrichtigung/i
-/apple.{0,10}center/i
-/apple.{0,10}dienst/i
-/apple.{0,10}info/i
-/apple.{0,10}kunden.?service/i
-/apple.{0,10}mail/i
-/apple.{0,10}(netzwerk|nutzer)/i
-/apple.{0,10}online/i
-/apple.{0,10}rechnung/i
-/apple.{0,10}(services?|sicherheit|support)/i
-/apple.{0,10}warnsystem/i
-/apple.{0,10}(zahlung|zentrum)/i
+/(appie|apple).{0,10}(abo|airtag|autorisierung)/i
+/(appie|apple).{0,10}benachrichtigung/i
+/(appie|apple).{0,10}center/i
+/(appie|apple).{0,10}dienst/i
+/(appie|apple).{0,10}info/i
+/(appie|apple).{0,10}kunden.?service/i
+/(appie|apple).{0,10}lizenzierung/i
+/(appie|apple).{0,10}mail/i
+/(appie|apple).{0,10}(netzwerk|nutzer)/i
+/(appie|apple).{0,10}online/i
+/(appie|apple).{0,10}rechnung/i
+/(appie|apple).{0,10}(services?|sicherheit|support)/i
+/(appie|apple).{0,10}warnsystem/i
+/(appie|apple).{0,10}(zahlung|zentrum)/i
 
 /apple.?id/i
 /apple.?pay/i
