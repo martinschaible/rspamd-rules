@@ -166,11 +166,11 @@
 /https?:\/\/[a-z0-9]{3,15}\.com\/[a-z0-9]{3,15}\.world/i
 
 # Sample: https://zznss.com/VEDsApOWvA.takamatsu.jp
-/https?:\/\/[a-z0-9-]{3,15}\.(cn|com)\/[a-z0-9]{3,15}\.[a-z0-9]{3,15}\.jp/i
+/https?:\/\/[a-z0-9-]{3,15}\.(cn|com)\/[a-z0-9]{3,15}\.[a-z0-9]{2,15}\.jp/i
 
 # Sample: https://mlzhzp.com/iRQnA5CzvC.name.jp
-/https?:\/\/[a-z0-9-]{3,15}\.com\/[a-z0-9]{3,15}\.agency/i
-/https?:\/\/[a-z0-9-]{3,15}\.com\/[a-z0-9]{3,15}\.(city|click)/i
+/https?:\/\/[a-z0-9-]{3,15}\.com\/[a-z0-9]{3,15}\.(agency|asia)/i
+/https?:\/\/[a-z0-9-]{3,15}\.com\/[a-z0-9]{3,15}\.(city|click|coupon)/i
 /https?:\/\/[a-z0-9-]{3,15}\.com\/[a-z0-9]{3,15}\.guru/i
 /https?:\/\/[a-z0-9-]{3,15}\.com\/[a-z0-9]{3,15}\.money/i
 /https?:\/\/[a-z0-9-]{3,15}\.com\/[a-z0-9]{3,15}\.name/i
@@ -180,9 +180,6 @@
 /https?:\/\/[a-z0-9-]{3,15}\.com\/[a-z0-9]{3,15}\.technology/i
 /https?:\/\/[a-z0-9-]{3,15}\.com\/[a-z0-9]{3,15}\.xyz/i
 /https?:\/\/[a-z0-9-]{3,15}\.com\/[a-z0-9]{3,15}\.zone/i
-
-# Sample: https://kybc-china.com/VhNuEk09lZ.biz.jp
-/https?:\/\/[a-z0-9-]{3,15}\.com\/[a-z0-9]{3,15}\.biz\.jp/i
 
 # Sample: https://kybc-china.com/v2FyTMAi7B.name
 /https?:\/\/[a-z0-9-]{3,15}\.com\/[a-z0-9]{3,15}\.(name|solutions)/i
