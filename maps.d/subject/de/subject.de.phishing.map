@@ -56,6 +56,8 @@
 
 # A
 # ------------------------------------------------------------------------------
+/abweichung im datenabgleich/i
+
 /adresse.{1,10}aktualisieren.{1,10}referenz/i
 /adresse.{1,10}jetzt aktualisieren/i
 
@@ -118,6 +120,7 @@
 
 /bestätigung.{1,15}informationsservice/iu
 /bestätigung.{1,10}ihrer.{1,15}(mobilfunknummer|telefonnummer)/iu
+/bestätigung.{1,10}ihrer.{1,10}registerdaten/i
 
 /betreff.{1,10}zahlungserinnerung/i
 
@@ -131,6 +134,7 @@
 
 /betreff.{1,10}prüfen sie/iu
 
+/bitte um bestätigung ihrer.{1,10}daten/iu
 /brief vom finanzamt.{1,10}#/i
 
 # C
@@ -144,7 +148,7 @@
 /datensatz.{1,10}mitgliedsunternehmen/i
 /^datenätze.{1,10}aktualisieren/iu
 
-/(datenabgleich|datenaktualisierung|datenbestätigung).{1,15}bitte bis/i
+/(datenabgleich|datenaktualisierung|datenbestätigung).{1,15}bitte (bis|um)/i
 /(datenabgleich|datenaktualisierung|datenbestätigung).{1,10}ihrer angaben/i
 /(datenabgleich|datenaktualisierung|datenbestätigung).{1,15}jetzt durchführen/iu
 /(datenabgleich|datenaktualisierung|datenbestätigung).{1,15}gesetzlicher vorgaben/iu
@@ -304,6 +308,8 @@
 
 /kundendaten.{1,10}benötigen eine aktualisierung/iu
 /kundendaten.{1,10}sind (abgelaufen|veraltet)/i
+
+/kundeninformation.{1,10}angabenstatus überprüfen/iu
 
 /kundenservice von/i
 

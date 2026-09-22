@@ -253,13 +253,12 @@
 
 /dringends:/i
 
-/dringende aufforderung.{1,10}zur aktualisierung/i
-
 /(dringende|erforderliche?).{1,10}aktion/i
 /(dringende|erforderliche?).{1,10}(sicherheits)?aktualisierung/i
 
 /(dringend|wichtig).{1,5}(aktion|aktualisierung) erforderlich/i
 /(dringend|wichtig).{1,10}aktualisierung ihrer/i
+/(dringend|wichtig).{1,10}aufforderung.{1,10}zur aktualisierung/i
 
 /(dringend|wichtig).{1,10}bestätigen sie ihre/iu
 /(dringend|wichtig).{1,10}bestätigung ihrer/iu
@@ -272,7 +271,8 @@
 /(dringend|wichtig).{1,10}ihnen entgehen/i
 /(dringend|wichtig).{1,10}ihr systemschutz läuft heute ab/iu
 /(dringend|wichtig).{1,10}ihre? (paket|sendung)/i
-/(dringend|wichtig).{1,10}ihre kundendaten/i
+/(dringend|wichtig).{1,10}ihren?.{1,10}daten/i
+
 /(dringend|wichtig).{1,10}konto aktualisieren/i
 /(dringend|wichtig).{1,10}kontodatenbestätigung steht aus/i
 /(dringend|wichtig).{1,10}möglicherweise unautorisierte/iu
@@ -911,6 +911,7 @@
 
 /wichtige?.{1,10}aktualisieren sie/i
 /wichtige?.{1,10}änderungen.{1,10}ihre umgehende/i
+/wichtige?.{1,10}aufforderung/i
 
 /wichtige?.{1,10}benachrichtigung.{1,10}urheberrechtsverstoß/iu
 /wichtige?.{1,10}bestätigung erforderlich/i
