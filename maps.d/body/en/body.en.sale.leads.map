@@ -54,7 +54,8 @@
 /contacts?.{1,10}(database|list).{1,10}your target industry/i
 
 /contacts?.{1,10}details.{1,15}event attendees/i
-/contacts?.{1,10}details.{1,10}from your industry/i
+/contacts?.{1,10}details.{1,10}from your.{1,15}customers/i
+/contacts?.{1,10}details.{1,10}from your.{1,15}(ideal|industry)/i
 /contacts?.{1,10}details.{1,10}verified e?.?mail/i
 
 /contacts?.{1,10}targeted.{1,10}database.{1,10}verified/i
@@ -218,8 +219,9 @@
 /we.{1,10}have.{1,15}access.{1,15}your target audience/i
 /we.{1,10}have.{1,20}datasets available/i
 
-/we.{1,10}have.{1,15}(compiled|curated).{1,20}(attendees?|contacts?|registrants|visitors?)/i
-/we.{1,10}have.{1,15}(compiled|curated).{1,10}database of/i
+/we.{1,10}have.{1,15}(collected|compiled|curated).{1,20}(attendees?|contacts?|registrants|visitors?)/i
+/we.{1,10}have.{1,15}(collected|compiled|curated).{1,10}database of/i
+/we.{1,10}have.{1,15}(collected|compiled|curated).{1,10}verified.{1,20}decision.?makers/i
 
 /we.{1,10}have.{1,15}sourced contact details/i
 /we.{1,10}have.{1,15}updated e?.?mail.?list of/i

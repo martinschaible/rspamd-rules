@@ -548,7 +548,8 @@
 
 /(kunde|kundin).{1,10}servicemeldung/i
 /kundenservice.{1,10}bitte prüfen/iu
-/kundenmitteilung.{1,10}profilpflege/i
+
+/(kundeninformation|kundenmitteilung).{1,10}(profilangaben|profilpflege)/i
 
 /kurz prüfen.{1,10}ihre zahlungsdaten/iu
 /kurze bestätigung erforderlich/iu

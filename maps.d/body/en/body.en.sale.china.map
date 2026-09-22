@@ -346,10 +346,11 @@
 /we.{1,15}(independent|leading|premium|professional|specialized?|top|trusted).{1,20}pvc hose/i 
 /we.{1,15}(independent|leading|premium|professional|specialized?|top|trusted).{1,20}supplier/i
 
-/we.{1,10}are.{1,10}clothing.{1,10}(factory|manufacturer)/i
-/we.{1,10}are.{1,20}devices.{1,10}manu(factory|manufacturer)facturer/i
-/we.{1,10}are.{1,10}direct.{1,10}(factory|manufacturer)/i
-/We.{1,10}are.{1,10}electronic.{1,10}components.{1,10}distributor/i
+/we.{1,10}are.{1,10}clothing.{1,15}(factory|manufacturer)/i
+/we.{1,10}are.{1,20}devices.{1,15}manu(factory|manufacturer)facturer/i
+/we.{1,10}are.{1,10}direct.{1,15}(factory|manufacturer)/i
+/we.{1,10}are.{1,10}domestic.{1,15}(factory|manufacturer)/i
+/We.{1,10}are.{1,10}electronic.{1,15}components.{1,10}distributor/i
 
 /we.{1,10}are.{1,20}(factory|manufacturer).{1,10}exporters?/i
 /we.{1,10}are.{1,10}forwarding agent/i
@@ -396,6 +397,7 @@
 /we.{1,10}(make|manufacture).{1,30}(backpacks|sportswear)/i
 
 /we.{1,10}mainly deal with chinese/i
+/we.{1,10}notice you are in.{10,25}industry/i
 
 /we.{1,10}(deliver|offer|provide|supply).{1,15}(active|passive).{1,15}(components|electronic)/i
 /we.{1,10}(deliver|offer|provide|supply).{1,10}(air|sea).{1,10}freight/i

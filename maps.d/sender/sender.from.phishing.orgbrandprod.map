@@ -130,10 +130,13 @@
 
 /ahv.?iv/i
 
+/amazon1/i
 /amazon\.co\.jp/i
 /amazon\.com\.jp/i
 
 /amazon.?co/i
+
+/amazon.{0,10}nachricht/i
 
 # Poochy Couture
 /ap.?vertrieb/i
