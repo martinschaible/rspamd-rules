@@ -101,6 +101,8 @@
 
 # N
 # ------------------------------------------------------------------------------
+/nicht abgeholte.{1,10}lottogewinne/i
+
 /nicht beanspruchte(n|r)?.{1,10}(betrag|entschädigung|gelder|transaktion)/i
 /nicht beanspruchte(n|r)?.{1,10}(preis)?geld(es)?/i
 

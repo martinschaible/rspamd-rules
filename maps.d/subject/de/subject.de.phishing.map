@@ -364,7 +364,9 @@
 
 # O
 # ------------------------------------------------------------------------------
+/offene.{1,10}kontoverifizierung/i
 /offizielle.{1,10}sicherheitsmitteilung/i
+
 /ohne verifizierung keine.{1,20}möglich/iu
 /online.?dienste sind eingestellt/i
 
@@ -506,6 +508,7 @@
 /verbindliche.{1,10}anweisung.{1,10}jahresabschluss/i
 /verbindliche.{1,10}geräteverifizierung/iu
 
+/verifizierung ref\./i
 /verifizierung ihrer daten/i
 /verifizierung nicht abgeschlossen/i
 /verifizierung unvollständig/iu
