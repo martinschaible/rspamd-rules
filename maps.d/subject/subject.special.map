@@ -49,7 +49,8 @@
 /\]\|/i
 
 # Used in Japanese phishing mails
-/【.{2,20}】/i
+/【.{2,30}】/i
+/】.{2,30}【/i
 
 # Three question marks
 /\?\?\?/i
