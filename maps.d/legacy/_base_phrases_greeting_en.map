@@ -69,9 +69,6 @@
 /good (day|evening|morning).{1,10}salamalaikum/i
 /good (day|evening|morning).{1,10}this is.{5,25}from/i
 
-/good (day|evening|morning).{1,15}our company.{1,10}(established|specialized|specializing)/i
-/good (day|evening|morning).{1,10}our.{1,10}investors/i
-
 /good (day|evening|morning).{1,10}(sir|madam).{1,10}i am.{5,25}sales.?manager/i
 /good (day|evening|morning).{1,10}(sir|madam).{1,10}salamalaikum/i
 
@@ -145,7 +142,6 @@
 /hello.{1,10}our names are/i
 
 /(dear.{1,10}friend|good day|greetings).{1,10}my name (again|is)/i
-
 
 /(you in good health|write you today).{1,10}my name is/i
 
