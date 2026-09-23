@@ -46,12 +46,12 @@
 /sie meinen website.?entwurf/i
 
 /(home.?page|web.?site).{1,25}bereit für ein.{1,15}makeover/iu
-/(home.?page|web.?site).{1,15}(erstellen|erneuern|gestalten|umgestalten|umsatz)/i
-/(home.?page|web.?site).{1,10}(neuaufbau|neufassung|neuerstellung)/i
+/(home.?page|web.?site).{1,15}(erstellen|erstellung|erneuern)/i
 /(home.?page|web.?site).{1,10}für ihr unternehmen/iu
+/(home.?page|web.?site).{1,15}gestalten/i
 /(home.?page|web.?site).{1,10}kosten/i
-/(home.?page|web.?site).{1,10}neugestaltung/i
-/(home.?page|web.?site).{1,10}umgestaltung/i
+/(home.?page|web.?site).{1,10}(neuaufbau|neufassung|neuerstellung|neugestaltung)/i
+/(home.?page|web.?site).{1,10}(umgestalten|umgestaltung|umsatz)/i
 /(home.?page|web.?site).{1,10}überarbeitung/iu
 
 # I

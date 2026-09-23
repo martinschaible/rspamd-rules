@@ -86,6 +86,8 @@
 /(dear|greetings?|good day|hello|hi\b).{1,20}i am.{5,25}working with.{1,10}reputed/i
 
 /(dear|greetings?|good day|hello|hi\b).{1,20}our company is a/i
+/(dear|greetings?|good day|hello|hi\b).{1,20}our company.{1,10}(established|specialized|specializing)/i
+/(dear|greetings?|good day|hello|hi\b).{1,20}our investors/i
 
 /(dear|greetings?|good day|hello|hi\b).{1,20}pleased to introduce myself as/i
 
