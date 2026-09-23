@@ -289,7 +289,7 @@
 /you need funds.{1,10}injected/i
 
 /you.{1,10}(pre)?qualified for our business/i
-/you.{1,10}(pre)?qualified for up to \{d3,6}/i
+/you.{1,10}(pre)?qualified for up to.{1,5}\d{3,6}/i
 
 /you need.{1,10}(funding|funds)/i
 /you need.{1,10}loan/i

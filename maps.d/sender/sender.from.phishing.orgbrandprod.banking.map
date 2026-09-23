@@ -154,8 +154,10 @@
 /elster.?sa$/i
 /elster.{0,10}(finanzamt|finanzverwaltung)/i
 /elster.{0,10}(meldestelle|mitteilung|mobile)/i
+/elster.{0,10}online/i
 /elster.{0,10}rechnung/i
 /elster.{0,10}(security|service|support|system)/i
+/elster.{0,10}team/i
 /elster.{0,10}verwaltung/i
 
 /finanzverwaltung.{0,10}elster/i
@@ -307,8 +309,11 @@
 /swissquote.?bank/i
 /swissquote.?(bank)?.?ltd/i
 
-/swissquote.{0,10}(invest|message|reply)/i
+/swissquote.{0,10}direct/i
+/swissquote.{0,10}invest(ing)?/i
+/swissquote.{0,10}(message|reply)/i
 /swissquote.{0,10}(security|support)/i
+/swissquote.{0,10}trade/i
 
 /invest.{0,10}swissquote/i
 /security.{0,10}swissquote/i
