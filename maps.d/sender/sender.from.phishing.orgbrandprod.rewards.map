@@ -275,7 +275,9 @@
 /nespresso.?\./i
 /nespresso.{0,10}(deutschland|schweiz)/i
 /nespresso.{0,10}(club|coffee)/i
-/nespresso.{0,10}(exclusives|gifts|kundenservice|mitgliedschaft|team)/i
+/nespresso.{0,10}exclusiv(es)?/i
+/nespresso.{0,10}(genussaktion|gift)/i
+/nespresso.{0,10}(kundenservice|mitgliedschaft|team)/i
 /nespresso.{0,5}(ch|de)$/i
 
 /netto_/i
