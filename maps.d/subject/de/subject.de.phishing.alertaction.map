@@ -77,7 +77,10 @@
 /aktion erforderlich.{1,15}(schliessen|schließen) sie/i
 /aktion erforderlich.{1,15}(rückerstattung|zahlungsstatus)/i
 /aktion erforderlich.{1,20}(änderungen|sozialabgaben)/i
-/aktion erforderlich.{1,15}konto verifizieren/i
+
+/aktion erforderlich.{1,15}(konto|profil) verifizieren/i
+/aktion erforderlich.{1,10}kundenkonto/i
+
 /aktion erforderlich.{1,20}(online)?.?banking.?zugang/i
 /aktion erforderlich.{1,10}(paket|sendung).{1,25}konnte nicht/i
 /aktion erforderlich.{1,15}um ihren (artikel|kontozugang)/i
@@ -797,6 +800,7 @@
 /sofortiges? (aktion|handeln|reaktion).{1,10}(erforderlich|nötig)/iu
 /sofortige.{1,10}aktion no\b/i
 
+/sofortige.{1,10}maßnahme.{1,10}erforderlich/iu
 /sofortige.{1,10}kontoprüfung.{1,10}erforderlich/iu
 /sofortige.{1,10}rückmeldung.{1,10}erforderlich/iu
 /sofortige.{1,10}sicherheitswarnung/i

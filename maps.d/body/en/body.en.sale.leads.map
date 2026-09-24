@@ -48,6 +48,7 @@
 /comprehensive.{1,10}contact.{1,10}company.{1,10}data/i
 /comprehensive.{1,10}dataset.{1,10}(companies|professionals)/i
 
+/contacts?.{1,10}align with your.{1,15}(customer|ideal|profile)/i
 /contacts?.{1,10}at a very affordable cost/i
 
 /contacts?.{1,10}(database|list).{1,10}covering.{1,15}europe/i
@@ -226,7 +227,8 @@
 /we.{1,10}have.{1,15}sourced contact details/i
 /we.{1,10}have.{1,15}updated e?.?mail.?list of/i
 
-/we.{1,10}help.{1,15}companies.{1,20}(b2b|generate|leads|qualified)/i
+/we.{1,10}help.{1,15}(businesses|companies).{1,20}(b2b|leads?|qualified)/i
+/we.{1,10}help.{1,15}(businesses|companies).{1,20}(generate|generating)/i
 
 /we.{1,10}offer(ing)?.{1,20}targeted.{1,15}(contact|list)/i
 
@@ -235,7 +237,7 @@
 /we.{1,10}provide.{1,15}high(ly)?.{1,10}targeted.{1,20}contact/i
 /we.{1,10}provide.{1,15}verified.{1,10}reliable.{1,10}marketing data/i
 
-/(web)?site.{1,25}generate more leads/i
+/(web)?site.{1,25}(generate|generating).{1,10}more leads/i
 
 /will provide.{1,15}leads/i
 
