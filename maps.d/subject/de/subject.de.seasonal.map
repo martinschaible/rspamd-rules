@@ -106,6 +106,8 @@
 /insolvenz(en)?.{1,10}günstigen.{1,10}konditionen/iu
 /insolvenz(en)?.{1,10}verwertung/i
 
+/insolvenzimmobilien.{1,10}ersteigern/i
+
 /(angebot|auszug|inventargegenständen?).{1,25}insolvenzverfahren/i
 /(fahrzeuge|maschinen|vermögenswerte).{1,25}insolvenzverfahren/i
 /laufenden?.{1,25}insolvenzverfahren/i
@@ -113,6 +115,8 @@
 /katalog.{1,10}masseverwertung/i
 /neue.{1,10}insolvenzposten/i
 /neuware.{1,10}sonderkonditionen/i
+
+/objekte.{1,10}insolvenzverkäufen/iu
 
 /posten aus.{1,15}insolvenz/i
 /positionen.{1,10}restrukturierungsmandat/i
