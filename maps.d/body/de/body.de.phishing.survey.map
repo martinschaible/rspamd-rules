@@ -95,7 +95,8 @@
 # ------------------------------------------------------------------------------
 /geltend zu machen.{1,10}nehmen sie.{1,15}an dieser.{1,10}(befragung|umfrage)/i
 
-/gewinner unserer neuesten.{1,10}(befragung|umfrage)/i
+/gewinner.{1,10}umfrage.{1,10}demo/i
+/gewinner.{1,10}unserer neuesten.{1,10}(befragung|umfrage)/i
 
 # H
 # ------------------------------------------------------------------------------
@@ -128,6 +129,8 @@
 # L
 # ------------------------------------------------------------------------------
 /lohnenswerten?.{1,10}(befragung|umfrage).{1,10}teilzunehmen/i
+
+/(lokaler|sicherer).{1,15}fragebogen/i
 
 # M
 # ------------------------------------------------------------------------------

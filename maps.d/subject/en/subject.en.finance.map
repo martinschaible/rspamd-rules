@@ -267,7 +267,8 @@
 /we.{1,10}(give out|provide).{1,10}loans/i
 /we.{1,10}help (finance|financing|loan)/i
 
-/we.{1,10}offer(ing)?.{1,10}financial assistance/i
+
+/we.{1,10}offer(ing)?.{1,10}financial.{1,10}(assistance|solutions)/i
 /we.{1,10}offer(ing)?.{1,30}(grants|loans)/i
 
 /with.{1,10}low interest loans/i

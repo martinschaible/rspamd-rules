@@ -119,7 +119,7 @@
 # ------------------------------------------------------------------------------
 #/^einkaufsgutschein/i
 /einlegesohlen/i
-/^einsam$/i
+/^einsam.?$/i
 
 /elektro.?heizer/i
 /^elektrofahrrad/i
@@ -484,6 +484,8 @@
 /telefonnummernverifizierung/i
 #/teilnahme/i
 /teleskopleiter/i
+
+/terminverschiebung/i
 
 /transaktionsschutz/i
 /transparenzregister/i
