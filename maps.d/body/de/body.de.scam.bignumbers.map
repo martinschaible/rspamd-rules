@@ -46,8 +46,8 @@
 
 # A
 # ------------------------------------------------------------------------------
-/atm.{0.10}(card|karte).{1,10}enthält.{1,15}\d{2,4}(\.|,)?\d{3,4}.{1,10}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£)/i
-/atm.{0.10}(card|karte).{1,10}mit.{1,15}\d{2,4}(\.|,)?\d{3,4}.{1,10}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,10}gesendet wird/i
+/atm.{0,10}(card|karte).{1,10}enthält.{1,15}\d{2,4}(\.|,)?\d{3,4}.{1,10}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£)/i
+/atm.{0,10}(card|karte).{1,10}mit.{1,15}\d{2,4}(\.|,)?\d{3,4}.{1,10}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,10}gesendet wird/i
 
 /auszahlung ihres fonds.{1,20}\d{2,4}(\.|,)?\d{3,4}/i
 /auszahlung ihres fonds.{1,20}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£)/i
