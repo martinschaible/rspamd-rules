@@ -63,7 +63,7 @@
 
 # E
 # ------------------------------------------------------------------------------
-/(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,15}atm.{0.10}(card|karte)/i
+/(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,15}atm.{0,10}(card|karte)/i
 /(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,15}ausgewählt.{1,10}(bestätigen|kontaktieren) sie/iu
 /(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,10}an sie gespendet.{1,10}details antworten/i
 

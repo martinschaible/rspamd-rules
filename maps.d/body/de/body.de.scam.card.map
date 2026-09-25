@@ -18,9 +18,9 @@
 
 # A
 # ------------------------------------------------------------------------------
-/atm.{0.10}(card|karte).{1,15}die auf ihren.{1,10}namen ausgestellt/i
-/atm.{0.10}(card|karte).{1,10}(in höhe von|mitbringen)/iu
-/atm.{0.10}(card|karte).{1,15}kontaktieren sie herrn/i
+/atm.{0,10}(card|karte).{1,15}die auf ihren.{1,10}namen ausgestellt/i
+/atm.{0,10}(card|karte).{1,10}(in höhe von|mitbringen)/iu
+/atm.{0,10}(card|karte).{1,15}kontaktieren sie herrn/i
 
 # B
 # ------------------------------------------------------------------------------
@@ -57,13 +57,13 @@
 /ihre?.{1,10}e?.?mail.?(adresse|konto)?.{1,15}wurde bei einer.{1,15}(online|suche)/i
 
 /ihre.{1,10}atm.{1,10}(kredit|swift).{0,10}karte/i
-/ihre.{1,10}atm.{0.10}(card|karte).{1,10}zu liefern/i
+/ihre.{1,10}atm.{0,10}(card|karte).{1,10}zu liefern/i
 
 /ihre.{1,10}geldautomaten.?karte im wert von/i
 /ihre.{1,10}gold.{1,10}debit.{1,10}mastercard/i
 
 /ihren.{1,10}namen ausgestellte.{1,10}geldautomaten.?karte/i
-/ihre.{1,10}swift.{1,10} atm.{0.10}(card|karte)/i
+/ihre.{1,10}swift.{1,10} atm.{0,10}(card|karte)/i
 /ihre.{1,10}zahlung.{1,10}atm.{0,10}(card|karte)/i
 
 
@@ -120,4 +120,4 @@
 
 # Z
 # ------------------------------------------------------------------------------
-/zahlung an sie.{1,10}eine atm.{0.10}(card|karte)/i
+/zahlung an sie.{1,10}eine atm.{0,10}(card|karte)/i
