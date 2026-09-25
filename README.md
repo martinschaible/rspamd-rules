@@ -696,6 +696,17 @@ whitelist
 
 ## Tips and Tricks
 
+To keep map rules consistent, use the following quick reference for regex flags:
+
+| Pattern type | Recommended ending | Reason |
+| ----------- | ------------------ | ------ |
+| ASCII text only (A-Z, a-z) | `/i` | Case-insensitive matching is enough |
+| Text with German umlauts (äöüÄÖÜß) | `/iu` | Unicode + case-insensitive matching for umlaut handling |
+| Emojis/symbols only | `/i` or `/iu` | `i` has no practical effect on emojis |
+| Emoji + text without umlauts | `/i` | `i` applies to text only |
+| Emoji + text with umlauts | `/iu` | Needed for the umlaut text part |
+| UCASE files (filename contains `ucase`) | `/.../` (no flag) | Matches the dedicated ucase convention |
+
 ### Scoring
 
 If you want to increase or decrease a symbol's score, you can do so in the UI.
