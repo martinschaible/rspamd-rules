@@ -169,6 +169,7 @@
 /sendungsstatus.{1,10}aktion erforderlich/i
 
 /sicherheits.?(hinweis|mitteilung|warnung).{1,10}für ihr.{1,15}konto/iu
+/sicherheits.?(hinweis|mitteilung|warnung).{1,10}identitätsprüfung erforderlich/i
 /sicherheits.?(hinweis|mitteilung|warnung).{1,10}(kontakt|konto|profil).?(daten|details)/i
 /sicherheits.?(hinweis|mitteilung|warnung).{1,10}(neuer|unbekannter) gerätezugriff/iu
 /sicherheits.?(hinweis|mitteilung|warnung).{1,10}ungewöhnliche aktivität festgestellt/iu
