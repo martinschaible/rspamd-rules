@@ -190,7 +190,9 @@
 
 /umfrage.{1,10}dauert weniger.{1,10}minuten.{1,10}als dankeschön/iu
 /umfrage.{1,10}für (kostenlosen|kunden|sie)/iu
+
 /umfrage.{1,10}teil.{1,10}sichere dir/i
+/umfrage.{1,10}teil.{1,10}um d?eine.{1,30}anzufordern/i
 
 /umfrage.{1,10}teilnehmen.{1,20}bekommst du ein geschenk/i
 /umfrage.{1,10}teilnehmen.{1,20}dankeschön.{1,15}teilnahme dürfen sie/iu
@@ -201,6 +203,8 @@
 
 # W
 # ------------------------------------------------------------------------------
+/wert von.{1,10}völlig gratis zu erhalten/iu
+
 /wir haben vor kurzem unsere.{1,10}(kunden)?umfrage/i
 
 /wir laden sie ein.{1,10}an unserem kurzen/i

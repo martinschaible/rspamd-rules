@@ -300,7 +300,7 @@
 /(dringende?|letzte|wichtige?).{1,10}mitteilung.{1,10}zoll.{1,10}steuerzahlung/i
 /(dringende?|letzte|wichtige?).{1,10}mitteilung.{1,10}zollgebühren/iu
 
-/dringend.{1,10}wir konnten sie/i
+/dringend.{1,10}ihre.{1,30}muss.{1,10}bestätigt werden/iu
 /dringend.{1,10}vermeidung der/i
 /dringend.{1,10}wir konnten sie/i
 /dringend.{1,15}wird weitergegeben/i
@@ -737,6 +737,7 @@
 /sicherheits.?update.{1,10}überprüfen sie ihr/i
 
 /sicherheits.?(alarm|benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,10}\d{2,4} dateien/i
+/sicherheits.?(alarm|benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,10}anmeldung von einem neuen/i
 /sicherheits.?(alarm|benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,10}authentifizierung für/iu
 /sicherheits.?(alarm|benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,10}bei der anmeldung/i
 /sicherheits.?(alarm|benachrichtigung|hinweis|meldung|mitteilung|warnung).{1,10}bestätigen sie/iu

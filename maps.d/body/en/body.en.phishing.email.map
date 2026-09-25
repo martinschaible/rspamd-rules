@@ -80,8 +80,9 @@
 /(e?.?mail|message)s?.{1,10}were blocked.{1,10}view.{1,10}e?.?mails here/i
 /(e?.?mail|message)s?.{1,10}you are yet to receive/i
 
-/e?.?mail.?(update|upgrade).{1,10}latest version/i
 /e?.?mail.{1,15}below to secure your account/i
+/e?.?mail.{1,10}security center.{1,10}mailbox/i
+/e?.?mail.{0,10}(update|upgrade).{1,10}latest version/i
 
 # F
 # ------------------------------------------------------------------------------
@@ -96,6 +97,8 @@
 # I
 # ------------------------------------------------------------------------------
 /imap.{1,10}pop3.{1,10}delivery incomplete/i
+
+/inbound messages.{1,10}triggered automated inspection/i
 
 /important.{1,10}(e?.?mail|message).{1,10}suspended/i
 /important.{1,10}(action|update) (needed|required)/i
