@@ -116,19 +116,20 @@
 /we are.{1,10}team.{1,10}professional.{1,10}(android|ios)/i
 /we are.{1,10}well.?versed.{1,10}mobile.?apps?/i
 
-/we.{1,10}(build|create|design|develop|make).{1,25}(applications?|apps?).{1,10}just/i
-/we.{1,10}(build|create|design|develop|make).{1,25}(android|ios)/i
+/we.{1,10}(build|create|design|develop|make|provide).{1,25}(applications?|apps?).{1,10}just/i
+/we.{1,10}(build|create|design|develop|make|provide).{1,25}(android|ios)/i
+/we.{1,10}(build|create|design|develop|make|provide).{1,25}development.{1,10}(android|ios)/i
 
-/we.{1,10}(build|create|design|develop|make).{1,15}launch/i
+/we.{1,10}(build|create|design|develop|make|provide).{1,15}launch/i
 
-/we.{1,10}(build|create|design|develop|make).{1,15}(all|any) kinds? of (applications?|apps?)/i
-/we.{1,10}(build|create|design|develop|make).{1,15}(all kinds of|tailored).{1,20}apps/i
+/we.{1,10}(build|create|design|develop|make|provide).{1,15}(all|any) kinds? of (applications?|apps?)/i
+/we.{1,10}(build|create|design|develop|make|provide).{1,15}(all kinds of|tailored).{1,20}apps/i
 
-/we.{1,10}(build|create|design|develop|make).{1,15}high.?performance.{1,20}apps/i
+/we.{1,10}(build|create|design|develop|make|provide).{1,15}high.?performance.{1,20}apps/i
 
-/we.{1,10}(build|create|design|develop|make).{1,15}mobile.?apps/i
-/we.{1,10}(build|create|design|develop|make).{1,15}personalized mobile.{1,10}(applications?|apps?)/i
-/we.{1,10}(build|create|design|develop|make).{1,15}your.{1,10}(applications?|apps?)/i
+/we.{1,10}(build|create|design|develop|make|provide).{1,15}mobile.?apps/i
+/we.{1,10}(build|create|design|develop|make|provide).{1,15}personalized mobile.{1,10}(applications?|apps?)/i
+/we.{1,10}(build|create|design|develop|make|provide).{1,15}your.{1,10}(applications?|apps?)/i
 
 /we.{1,10}have.{1,10}developed.{1,10}of.{1,10}(applications?|apps?)/i
 /we.{1,10}have.{1,15}(experience|expertise).{1,20}apps?/i

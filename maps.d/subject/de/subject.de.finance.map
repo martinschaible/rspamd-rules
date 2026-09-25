@@ -75,7 +75,9 @@
 
 # F
 # ------------------------------------------------------------------------------
+
 /finanzangebot.{1,15}bewerben/i
+
 /finanzhilfe.{1,10}innerhalb von.{1,10}stunden/i
 /finanzielle mitteilung/i
 
@@ -84,8 +86,9 @@
 /(finanzieren|finanzierung).{1,10}für ihr/iu
 /(finanzieren|finanzierung).{1,15}individuelle lösung/iu
 /(finanzieren|finanzierung).{1,10}ohne.{1,10}grenzen/i
-/(finanzieren|finanzierung).{1,10}privates.{1,10}geschäftliches/i
+/(finanzieren|finanzierung).{1,10}privates?.{1,10}geschäftliches?/iu
 
+/finanzierungsanfrage.{1,10}informationen/i
 /finanzierungs?.{0,10}(angebot|investition|möglichkeit)/i
 /finanzierungs?.{0,10}(darlehen|kredite)/i
 
