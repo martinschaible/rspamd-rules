@@ -1095,6 +1095,7 @@
 
 /night(time)?.{0,10}(capsule|fix|flush|reset|sip)/i
 
+/nightly.{0,10}clarity/i
 /nightly.{0,10}reset/i
 /night(ly)?.{1,10}rituals?/i
 
@@ -1543,8 +1544,10 @@
 
 /your.{1,10}(a1c|alcohol)/i
 /your.{1,10}(balance|bladder|brain)/i
-/your.{1,10}(calories|craving|diet|feet|figure|gut)/i
+/your.{1,10}(calories|craving|gut)/i
+/your.{1,10}(diet|drinking)/i
 /your.{1,10}(ears?|energy|eyes|eyesight)/i
+/your.{1,10}(feet|figure)/i
 /your.{1,10}(health|heart|hips|intimacy|knees)/i
 /your.{1,10}(live.?span|liver)/i
 /your.{0,10}nails?/i

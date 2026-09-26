@@ -43,7 +43,8 @@
 
 /benachrichtigung zur?.{1,10}(rück)?(erstattung|rückzahlung)/iu
 
-/bestätigung.{1,15}auf ihr kont.{1,15} überwiesen werden/iu
+/(bestätigen|bestätigung).{1,15}auf ihr kont.{1,15} überwiesen werden/iu
+/(bestätigen|bestätigung).{1,10}damit die rückerstattung ausbezahlt/iu
 
 # C
 # ------------------------------------------------------------------------------

@@ -134,7 +134,8 @@
 # ------------------------------------------------------------------------------
 /finde mich in dieser.{1,20}gruppe/i
 
-/flirt.{1,10}(nachricht|treffen)/i
+/flirt(en)?.{1,10}im kostenlosen/i
+/flirt(en)?.{1,10}(nachricht|treffen)/i
 
 /frau.{1,5}ledig/i
 /frau.{1,10}ist ihre wahl/i

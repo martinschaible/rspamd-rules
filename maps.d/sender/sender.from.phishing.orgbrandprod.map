@@ -404,6 +404,7 @@
 /sbb.{0,5}swisspass/i
 
 /sbb.?cff$/i
+/sbb(.?cff.?ffs)?.{0,5}agentur/i
 /sbb(.?cff.?ffs)?.{0,5}(konto|support)/i
 /sbb(.?cff.?ffs)?.{0,5}(team|technikzentrum)/i
 /sbb(.?cff.?ffs)?.{0,5}kundendienst/i
@@ -412,10 +413,11 @@
 /sbb c ff ff s/i
 
 /bundesbahnen.{0,5}sbb/i
-/schweizerische.{0,5}bundesbahnen/i
-
 /(kundencenter|kundendienst|kundenservice).{0,10}sbb/i
+/meine?.{0,5}sbb/i
 /mitteilung.{0,10}sbb/i
+
+/schweizerische.{0,5}bundesbahnen/i
 
 #/sbb.?ffs$/i
 /cff.?ffs.?sbb/i
