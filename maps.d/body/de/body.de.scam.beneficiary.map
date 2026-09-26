@@ -87,7 +87,7 @@
 # S
 # ------------------------------------------------------------------------------
 /sie.{1,10}als.{1,25}begünstigten?.{1,10}(aufgeführt|ausgewählt)/iu
-/Sie.{1,10}als.{1,25}begünstigten?.{1,20}(großzügigen|grosszügigen)/iu
+/sie.{1,10}als.{1,25}begünstigten?.{1,20}(großzügigen|grosszügigen)/iu
 /Sie.{1,10}als.{1,25}begünstigten?.{1,20}spende/iu
 
 /sie.{1,10}sind einer der.{1,15}begünstigten/iu
@@ -118,3 +118,5 @@
 # Z
 # ------------------------------------------------------------------------------
 /z\..?hd\..{1,10}begünstigter/iu
+
+/zu händen.{1,10}begünstigten/iu

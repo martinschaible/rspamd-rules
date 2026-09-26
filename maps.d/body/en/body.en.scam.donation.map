@@ -146,7 +146,9 @@
 /your.{1,10}e?.?mail.{1,20}(has been|was).{1,15}(choo?sen|drawn|picked|selected).{1,10}for.{1,10}(donation|financing|grant)/i
 /your.{1,10}e?.?mail.{1,20}(has been|was).{1,15}(choo?sen|drawn|picked|selected).{1,10}to be a part/i
 
-/your.{1,10}e?.?mail.{1,20}was (choo?sen|drawn|picked|selected) at random/i
+/your.{1,10}e?.?mail.{1,20}was (choo?sen|drawn|picked|selected).{1,10}(claim|donation)/i
+/your.{1,10}e?.?mail.{1,20}was (choo?sen|drawn|picked|selected).{1,10}random/i
+
 /your.{1,10}e?.?mail.{1,20}was randomly selected from the/i
 /your.{1,10}e?.?mail.{1,20}won.{1,10}(donation|financing|grant)/i
 
