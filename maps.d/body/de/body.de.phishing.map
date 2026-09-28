@@ -181,7 +181,8 @@
 
 /(ihre?|lhre?).{1,20}(ist|wurde).{1,20}(deaktiviert|gesperrt|nicht mehr gültig)/iu
 
-/ihre.{1,10}angaben müssen.{1,10}aktualisiert werden/iu
+/ihre.{1,15}angaben.{1,15}aktualisiert werden/iu
+/ihre.{1,15}angaben.{1,15}prüfen/i
 
 /ihre.{1,20}daten erneut zu bestätigen/iu
 /ihre.{1,20}daten trotz mehrerer aufforderungen/i
@@ -191,6 +192,7 @@
 /ihre.{1,10}kundenpunkte verfallen bald/i
 /ihre.{1,10}persönlichen.{1,10}daten zu bestätigen/iu
 /ihre.{1,10}rechtsform.{1,10}(über)?prüfen/iu
+/ihre.{1,10}situation zu entsperren/i
 /ihre.{1,10}steuererstattung ist ausgesetzt/i
 
 /ihre.{1,10}hinterlegten angaben zu überprüfen/iu
@@ -294,8 +296,6 @@
 /sie ihre daten.{1,10}nicht bestätigt/iu
 
 /sie unseren nachrichtendienst länger als eine woche nicht genutzt/i
-
-/ihre situation zu entsperren/i
 
 /suspendierung ihrer e.?vignette/i
 
