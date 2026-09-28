@@ -44,13 +44,17 @@
 
 # F
 # ------------------------------------------------------------------------------
+/feedback geben.{1,10}gratis/i
+
 /fragen.{1,10}(belohnung|rabatt)/i
 
 # G
 # ------------------------------------------------------------------------------
-/geschenk für ihr feedback/i
+/geschenk.{1,10}bestellnummer.{1,10}/i
+/geschenk.{1,10}für ihr feedback/iu
 
-/gratis.{0,10}set für ihre antwort/iu
+/gratis.{0,10}(parfum|set).{1,10}erhalten.{1,10}anfrage/i
+/gratis.{0,10}(parfum|set).{1,10}für ihre antwort/iu
 
 # H
 # ------------------------------------------------------------------------------
@@ -120,6 +124,7 @@
 
 # P
 # ------------------------------------------------------------------------------
+/profitieren.{1,10}kundenzufriedenheitsumfrage/i
 
 # Q
 # ------------------------------------------------------------------------------
@@ -158,6 +163,7 @@
 /umfrage.{1,10}für (kostenlosen|kunden|sie)/iu
 /umfrage.{1,10}ihre chance/i
 
+/umfrage.{1,10}mit geschenk/i
 /umfrage.{1,15}(neue belohnung|verdienen sie)/i
 /umfrage.{1,15}sichern sie (ihr|sich)/i
 

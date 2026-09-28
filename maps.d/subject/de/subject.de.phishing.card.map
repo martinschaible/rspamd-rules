@@ -31,6 +31,7 @@
 
 # D
 # ------------------------------------------------------------------------------
+/deaktiviert jetzt reaktivieren/i
 
 # E
 # ------------------------------------------------------------------------------
@@ -53,7 +54,9 @@
 
 # K
 # ------------------------------------------------------------------------------
-/kartenauthentifizierung erforderlich/i
+/kartenauthentifizierung.{1,10}erforderlich/i
+
+/kartenstatus.{1,10}deaktiviert/i
 
 /kredit.?karten?.{1,10}sicherheitsüberprüfung/iu
 /kredit.?karten?.{1,10}sicherheitsprüfung/iu
