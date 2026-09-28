@@ -381,14 +381,15 @@
 /bathroom.{0,10}hack/i
 /bathroom.{0,10}(trick|trips?)/i
 
-/balance.{0,10}(clinic|coach)/i
-/balance.{0,10}(blood|booster|brain|fix|lab|project)/i
-/balance.{0,10}(recovery|reset|restored)/i
-/balance.{0,10}(science|study)/i
-/balance.{0,10}your/i
-
 /balanced.{0,10}breakfast/i
-/balanced.?(bp|glucose)/i
+/balanced?.{0,10}(clinic|coach)/i
+/balanced.?(blood|booster|bp|brain)/i
+/balanced?.{0,10}(fix|lab|project)/i
+/balanced?.{0,10}glucose/i
+/balanced?.{0,10}(recovery|reset|restored)/i
+/balanced?.{0,10}(science|study|sugar)/i
+/balanced?.{0,10}your/i
+
 /bald.{0,10}spot/i
 
 /banana vs/i
