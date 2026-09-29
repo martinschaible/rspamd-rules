@@ -74,6 +74,7 @@
 /(insolvenzverfahren|liquidierungen|insolvenzverwaltung).{1,10}(anbieten|bieten wir|verwerten)/i
 /(insolvenzverfahren|liquidierungen|insolvenzverwaltung).{1,20}ihnen.{1,20}verzeichnis/i
 /(insolvenzverfahren|liquidierungen|insolvenzverwaltung).{1,20}veräußern wir aktuell/iu
+/(insolvenzverfahren|liquidierungen|insolvenzverwaltung).{1,10}warenverwertung/i
 
 /insolvenzimmobilien direkt ersteigern/i
 
@@ -160,6 +161,8 @@
 # V
 # ------------------------------------------------------------------------------
 /(veräusserung|veräußerung).{1,10}von insolvenzware/i
+
+/verwertungsliste.{1,10}aus laufendem verfahren/i
 
 # WhatsApp
 /vorschau.{1,10}hey mama und papa/i
