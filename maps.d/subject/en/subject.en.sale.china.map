@@ -105,13 +105,14 @@
 
 /best quotation.{1,10}best quality/i
 
-/(best|better) (price|quality) pcba?/i
-/better (pcba?|printed.?circuits?.?board).{1,10}supplier/i
+/(best|better).{1,10}(price|quality).{1,10}(pcba?|printed.?circuits?.?board)/i
 
 /boost your.{1,15}profit by/i
 
 /brief introductory.{1,10}zoom call/i
 /building steel.{1,10}materials/i
+
+/business cooperation.{1,10}supply/i
 
 # C
 # ------------------------------------------------------------------------------
@@ -729,6 +730,8 @@
 /supply(ing)?.{1,15}(electronic|quality).{1,15}components/i
 /supply(ing)?.{1,15}raw.{1,15}material/i
 /supply(ing)?.{1,15}steel plates/i
+
+/supply.{1,10}water treatment systems/i
 
 /support.{1,10}(ems|bom).{1,10}shortage parts/i
 

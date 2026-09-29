@@ -381,6 +381,8 @@
 #
 /vr.?(bank|gruppe).{0,10}(deutschland|online|service|zentrale)/i
 /vr.?(bank|gruppe).?eg/i
+
+/^vr.?(bank|gruppe)$/i
 /^vr eg$/i
 
 /vr.{0,5}deutschland/i
