@@ -99,7 +99,9 @@
 # ------------------------------------------------------------------------------
 /(dubai|italian|malta|portugal|uae|uk).{0,10}(central|district|estate|hills|marina|property)/i
 /(dubai|italian|malta|portugal|uae|uk).{0,10}(freehold|freezone)/i
+/(dubai|italian|malta|portugal|uae|uk).{0,10}(homes|hotels|housing)/i
 /(dubai|italian|malta|portugal|uae|uk).{0,10}(invest|island)/i
+/(dubai|italian|malta|portugal|uae|uk).{0,10}nursing/i
 /(dubai|italian|malta|portugal|uae|uk).{0,10}(residence|residency|resort)/i
 
 # E
@@ -137,7 +139,6 @@
 
 # K
 # ------------------------------------------------------------------------------
-/ki.?gesteuert/i
 
 # L
 # ------------------------------------------------------------------------------
@@ -197,8 +198,9 @@
 
 # U
 # ------------------------------------------------------------------------------
-/(uae|uk).{0,10}(freehold|homes|hotels|housing|nursing)/i
 /uk.{0,10}manchester/i
+
+/usa.{0,10}property/i
 
 /unlock.{0,10}financial/i
 
