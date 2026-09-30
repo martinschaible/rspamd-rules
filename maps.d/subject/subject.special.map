@@ -243,11 +243,11 @@
 # ------------------------------------------------------------------------------
 
 # Detect standalone bidirectional control characters used to spoof visual order
-/[‮‬‭‪‫⁦⁧⁨⁩]/i
+# /[‮‬‭‪‫⁦⁧⁨⁩]/i
 
 # Detect text wrapped in RLO/PDF markers (U+202E ... U+202C), a common masking trick
-/‮.{0,80}‬/i
+# /‮.{0,80}‬/i
 
 # Detect repeated invisible Unicode separator characters used as letter gaps or placeholders
-/[​‌‍﻿‏⁠]{4,}/i
+# /[​‌‍﻿‏⁠]{4,}/i
 
