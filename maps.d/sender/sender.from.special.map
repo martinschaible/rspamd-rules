@@ -91,11 +91,7 @@
 # ------------------------------------------------------------------------------
 /(™|®|©)$/i
 
-# Detect standalone bidirectional control characters used to spoof visual order
-/[‮‬‭‪‫⁦⁧⁨⁩]/i
 
-# Detect text wrapped in RLO/PDF markers (U+202E ... U+202C), a common masking trick
-/‮.{0,80}‬/i
 
 /】.{3,30}【/i
 /【.{3,30}】/i
@@ -104,17 +100,21 @@
 # ------------------------------------------------------------------------------
 /%(last|user)_name%/i
 
+# Obfuscation patterns
+# ------------------------------------------------------------------------------
+# Detect standalone bidirectional control characters used to spoof visual order
+/[‮‬‭‪‫⁦⁧⁨⁩]/i
+
+# Detect text wrapped in RLO/PDF markers (U+202E ... U+202C), a common masking trick
+/‮.{0,80}‬/i
+
+# Detect repeated invisible Unicode separator characters used as letter gaps or placeholders
+/[​‌‍﻿‏⁠]{4,}/i
 
 # Amazon with hidden Unicode separators like A‌m⁠a‌z​on\.co\.jp
 # ------------------------------------------------------------------------------
-# /a[​‌‍﻿‏⁠]*m[​‌‍﻿‏⁠]*a[​‌‍﻿‏⁠]*z[​‌‍﻿‏⁠]*o[​‌‍﻿‏⁠]*n(?:[​‌‍﻿‏⁠]*\.?[​‌‍﻿‏⁠]*c[​‌‍﻿‏⁠]*o[​‌‍﻿‏⁠]*\.?[​‌‍﻿‏⁠]*j[​‌‍﻿‏⁠]*p)?/i
-
-# Backwards
-/n[​‌‍﻿‏⁠]*o[​‌‍﻿‏⁠]*z[​‌‍﻿‏⁠]*a[​‌‍﻿‏⁠]*m[​‌‍﻿‏⁠]*a/i
-
-# Tight signature for samples like "pj.oc.nozamA" with zero-width separators
-/p[​‌‍﻿‏⁠]*j[​‌‍﻿‏⁠]*\.[​‌‍﻿‏⁠]*o[​‌‍﻿‏⁠]*c[​‌‍﻿‏⁠]*\.[​‌‍﻿‏⁠]*n[​‌‍﻿‏⁠]*o[​‌‍﻿‏⁠]*z[​‌‍﻿‏⁠]*a[​‌‍﻿‏⁠]*m[​‌‍﻿‏⁠]*a/i
+/a(?:[​‌‍﻿‏⁠]+[​‌‍﻿‏⁠]*|)m(?:[​‌‍﻿‏⁠]+[​‌‍﻿‏⁠]*|)a(?:[​‌‍﻿‏⁠]+[​‌‍﻿‏⁠]*|)z(?:[​‌‍﻿‏⁠]+[​‌‍﻿‏⁠]*|)o[​‌‍﻿‏⁠]+[​‌‍﻿‏⁠]*n(?:[​‌‍﻿‏⁠]*\.[​‌‍﻿‏⁠]*c(?:[​‌‍﻿‏⁠]+[​‌‍﻿‏⁠]*|)o[​‌‍﻿‏⁠]*\.[​‌‍﻿‏⁠]*j[​‌‍﻿‏⁠]*p)?/i
 
 # Apple with hidden Unicode separators like A‌p⁠p‌l​e
 # ------------------------------------------------------------------------------
-# /a[​‌‍﻿‏⁠]*p[​‌‍﻿‏⁠]*p[​‌‍﻿‏⁠]*l[​‌‍﻿‏⁠]*e/i
+/a(?:[​‌‍﻿‏⁠]+[​‌‍﻿‏⁠]*|)p(?:[​‌‍﻿‏⁠]+[​‌‍﻿‏⁠]*|)p(?:[​‌‍﻿‏⁠]+[​‌‍﻿‏⁠]*|)l[​‌‍﻿‏⁠]+[​‌‍﻿‏⁠]*e/i
