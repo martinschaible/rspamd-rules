@@ -188,10 +188,11 @@
 
 /re:\/w\//i
 
-# Worda in brackets
+# Words in brackets
 # ------------------------------------------------------------------------------
 # -> Theses RegEx might be constructed easier and better
 
+/\[noch \d{1,2} stunden\]/iu
 /\[zahlung nötig\]/iu
 
 /\[action requise\]/i
