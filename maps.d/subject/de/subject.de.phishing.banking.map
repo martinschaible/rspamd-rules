@@ -170,7 +170,9 @@
 
 /sicherheits.?(funktion|update).{1,10}ihre.{1,10}karte/i
 
+/sicherheitsüberprüfung.{1,10}(für|ihre).{1,15}bank/i
 /sicherheitsüberprüfung.{1,10}online.?bankings?/iu
+
 /sicherheitsrelevante.{1,10}information zu ihrem zugang/i
 /sicherheitsumgebung.{1,10}modernisiert/i
 

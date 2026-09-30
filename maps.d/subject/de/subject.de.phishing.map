@@ -35,7 +35,7 @@
 
 # Tax W-8BEN
 # ------------------------------------------------------------------------------
-/w.?8ben.{1,10}aktualisierung/i
+/w.?8ben.{1,10}(abgelaufen|aktualisierung)/i
 /w.?8ben.{1,10}formular/i
 
 /wichtiger hinweis.{1,10}w.?8ben/i
@@ -464,6 +464,8 @@
 /sie wurden für die.{1,15}woche ausgewählt/i
 
 /sind momentan vorübergehend gesperrt/iu
+
+/sonst zugriff verlieren/i
 
 /stammdatenstatus prüfen/iu
 /statusprüfung.{1,10}unterlagenprüfung/iu

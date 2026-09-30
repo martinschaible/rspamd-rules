@@ -128,7 +128,10 @@
 /dkb.{0,5}team/i
 
 /(ihre|meine).{0,5}dkb/i
+
+/contact@dkb\.de/i
 /info@dkb\.de/i
+/secure@dkb\.de/i
 
 #
 /drv.{0,5}team/i
@@ -315,12 +318,14 @@
 
 /swissquote.{0,10}direct/i
 /swissquote.{0,10}invest(ing)?/i
-/swissquote.{0,10}(message|reply)/i
+/swissquote.{0,10}(market|message)/i
+/swissquote.{0,10}reply/i
 /swissquote.{0,10}(security|support)/i
 /swissquote.{0,10}trade/i
 
 /invest.{0,10}swissquote/i
 /security.{0,10}swissquote/i
+/(trade|trading).{0,10}swissquote/i
 
 # T
 # ------------------------------------------------------------------------------
@@ -364,8 +369,7 @@
 /volksbank -/i
 /volksbanken$/i
 
-/volksbank(en)?.{0,10}deutschland eg/i
-/volksbank(en)?.{0,10}eg deutschland/i
+/volksbank(en)?.{0,10}deutschland/i
 /volksbank(en)?.?(eg|vr)/i
 /volksbank(en)?.?gruppe eg/i
 
