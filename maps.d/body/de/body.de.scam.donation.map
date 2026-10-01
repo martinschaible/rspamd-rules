@@ -290,6 +290,7 @@
 
 /spendenangebot in höhe von/iu
 /spendencode an die unten stehende/i
+/spendenprogramms für eine zuwendung in höhe von.{10,20}ausgewählt wurden/iu
 
 /spendet.{1,20}(dollar|euro?|gbp|usd|€|\$|£).{1,10}wohltätige zwecke.{1,10}um.{1,50}in ihrer stadt/i
 
@@ -305,7 +306,7 @@
 
 # W
 # ------------------------------------------------------------------------------
-/weitere informationen zu dieser.{1,15}spende/i
+/weitere (einzelheiten|informationen) zu dieser.{1,15}(spende|zuwendung)/i
 
 /wir haben ihnen.{1,15}eine spende/i
 
