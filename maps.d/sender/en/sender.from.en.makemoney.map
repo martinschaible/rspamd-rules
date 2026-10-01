@@ -185,14 +185,13 @@
 
 # T
 # ------------------------------------------------------------------------------
-/trade.{0,10}(insights|intelligence)/i
-/trade.{0,10}monitor/i
+/(trade|trading).{0,10}bot/i
+/(trade|trading).{0,10}(insights?|intelligence)/i
+/(trade|trading).{0,10}monitor/i
+/(trade|trading).{0,10}tech/i
+/(trade|trading).{0,10}system/i
 
 /trader.?v\d/i
-
-/trading.{0,10}(bot|system)/i
-/trading.{0,10}insights/i
-/trading.{0,10}tech/i
 
 /trump.{0,10}tower/i
 
