@@ -243,6 +243,9 @@
 # Obfuscation patterns
 # ------------------------------------------------------------------------------
 
+# Sample: Wicht‏ige Mitt‏eilung
+/‏[a-z\s]{4,15}‏/i
+
 # Detect standalone bidirectional control characters used to spoof visual order
 # /[‮‬‭‪‫⁦⁧⁨⁩]/i
 
