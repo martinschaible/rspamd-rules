@@ -1,0 +1,27 @@
+# ==============================================================================
+# As a sender, strange characters and combinations are very suspicious.
+# Here we check the sender for obfuscation patterns
+#
+# ------------------------------------------------------------------------------
+# Language: -
+# Weight:   12.0
+# ==============================================================================
+
+# Obfuscation patterns
+# ------------------------------------------------------------------------------
+# Detect standalone bidirectional control characters used to spoof visual order
+# /[‮‬‭‪‫⁦⁧⁨⁩]/i
+
+# Detect text wrapped in RLO/PDF markers (U+202E ... U+202C), a common masking trick
+# /‮.{0,80}‬/i
+
+# Detect repeated invisible Unicode separator characters used as letter gaps or placeholders
+# /[​‌‍﻿‏⁠]{4,}/i
+
+# Amazon with hidden Unicode separators like A‌m⁠a‌z​on\.co\.jp
+# ------------------------------------------------------------------------------
+/a(?:[​‌‍﻿‏⁠]+[​‌‍﻿‏⁠]*|)m(?:[​‌‍﻿‏⁠]+[​‌‍﻿‏⁠]*|)a(?:[​‌‍﻿‏⁠]+[​‌‍﻿‏⁠]*|)z(?:[​‌‍﻿‏⁠]+[​‌‍﻿‏⁠]*|)o[​‌‍﻿‏⁠]+[​‌‍﻿‏⁠]*n(?:[​‌‍﻿‏⁠]*\.[​‌‍﻿‏⁠]*c(?:[​‌‍﻿‏⁠]+[​‌‍﻿‏⁠]*|)o[​‌‍﻿‏⁠]*\.[​‌‍﻿‏⁠]*j[​‌‍﻿‏⁠]*p)?/i
+
+# Apple with hidden Unicode separators like A‌p⁠p‌l​e
+# ------------------------------------------------------------------------------
+/a(?:[​‌‍﻿‏⁠]+[​‌‍﻿‏⁠]*|)p(?:[​‌‍﻿‏⁠]+[​‌‍﻿‏⁠]*|)p(?:[​‌‍﻿‏⁠]+[​‌‍﻿‏⁠]*|)l[​‌‍﻿‏⁠]+[​‌‍﻿‏⁠]*e/i
