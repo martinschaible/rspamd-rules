@@ -108,6 +108,7 @@ body
   ├─ body.attachment.ext.map
   ├─ body.emergency.map
   ├─ body.special.map
+  ├─ body.special.obfuscation.map
   │
   ├─ body.az.orgname.map 
   ├─ body.ch.orgname.map
@@ -163,6 +164,7 @@ sender
   ├─ sender.from.people.map
   ├─ sender.from.special.map
   ├─ sender.from.special.emoji.map
+  ├─ sender.from.special.obfuscation.map
   ├─ sender.from.title.map 
   ├─ sender.from.tld.map                                   **
   │
@@ -180,6 +182,7 @@ subject
   ├─ subject.orgbrandprod.map
   ├─ subject.special.map
   ├─ subject.special.emoji.map
+  ├─ subject.special.obfuscation.map
   │
   ├─ de
   │   ├─ subject.de.map
@@ -346,7 +349,6 @@ body
   │   ├─ body.de.phishing.email.map
   │   ├─ body.de.phishing.it.map
   │   ├─ body.de.phishing.greetings.map
-  │   ├─ body.de.phishing.obfuscation.map
   │   ├─ body.de.phishing.parcel.map
   │   ├─ body.de.phishing.password.map
   │   ├─ body.de.phishing.payment.map
