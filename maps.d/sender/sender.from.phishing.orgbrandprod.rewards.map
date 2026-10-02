@@ -38,6 +38,7 @@
 # Migros
 # Migros: Aktionen und News
 # Migros - Cumulus
+# Migros Migipedia
 # Migros Mobile
 # Migros Online
 # myMediaMarkt
@@ -133,6 +134,7 @@
 /^coop$/i
 
 /coop.{0,10}(kundenservice|team)/i
+/coop.{0,10}schweiz/i
 
 /cumulus.{0,10}kundendienst/i
 /kundendienst.{0,10}cumulus/i
