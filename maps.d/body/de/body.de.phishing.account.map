@@ -231,13 +231,13 @@
 /(konto|profil).{1,10}wird bald gesperrt/i
 /(konto|profil).{1,15}wird in diesem stadium blockiert/i
 
-/(konto|profil).{1,15}wurde auf einem neuen gerät eröffnet/iu
-/(konto|profil).{1,15}wurde festgestellt.{1,15}hinterlegte zahlungsmethode/i
-/(konto|profil).{1,15}wurde mit einem neuen.{1,15}geöffnet/iu
-/(konto|profil).{1,15}wurde vorsorglich gesichert/i
-/(konto|profil).{1,15}wurde vorübergehend gesperrt/iu
-/(konto|profil).{1,15}wurde aufgrund von.{1,15}fehlern.{1,10}(ausgesetzt|begrenzt|eingeschränkt|gesperrt)/i
-/(konto|profil).{1,10}wurde zum schutz vorübergehend.{1,10}(ausgesetzt|begrenzt|eingeschränkt|gesperrt)/iu
+/(konto|profil).{1,15}wurde.{1,10}auf einem neuen gerät eröffnet/iu
+/(konto|profil).{1,15}wurde.{1,10}festgestellt.{1,15}hinterlegte zahlungsmethode/i
+/(konto|profil).{1,15}wurde.{1,10}mit einem neuen.{1,15}geöffnet/iu
+/(konto|profil).{1,15}wurde.{1,10}vorsorglich (eingeschränkt|gesichert)/i
+/(konto|profil).{1,15}wurde.{1,10}vorübergehend gesperrt/iu
+/(konto|profil).{1,15}wurde.{1,10}aufgrund von.{1,15}fehlern.{1,10}(ausgesetzt|begrenzt|eingeschränkt|gesperrt)/i
+/(konto|profil).{1,10}wurde.{1,10}zum schutz vorübergehend.{1,10}(ausgesetzt|begrenzt|eingeschränkt|gesperrt)/iu
 /(konto|profil).{1,15}wurden einige funktionen vorübergehend.{1,10}(ausgesetzt|begrenzt|eingeschränkt|gesperrt)/iu
 
 /(konto|profil).{1,10}zu gewährleisten.{1,10}bitten wir sie.{1,10}innerhalb/iu
