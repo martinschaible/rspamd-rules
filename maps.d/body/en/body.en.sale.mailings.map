@@ -114,7 +114,8 @@
 
 # W
 # ------------------------------------------------------------------------------
-/we.{1,10}offer(ing)?.{1,20}(bulk|mass).{1,10}e?.?mailing tools/i
+/we.{1,10}do (bulk|mass).{1,10}e?.?mailing/i
+/we.{1,10}offer(ing)?.{1,20}(bulk|mass).{1,10}e?.?mailing/i
 /we.{1,10}professional.{1,10}(bulk|mass).{1,10}mailing/i
 
 /we.{1,10}send.{1,10}targeted.{1,10}(campaigns|e?.?mail)/i
