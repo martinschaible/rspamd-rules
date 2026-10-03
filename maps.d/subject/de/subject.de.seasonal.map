@@ -142,6 +142,8 @@
 /(warenbestände|warenverfügbarkeit).{1,10}unverbindlichen/iu
 /(warenbestände|warenverfügbarkeit).{1,10}zusammengefasst/iu
 
+/(benzin|heizöl){1,10}insolvenzmasse/iu
+
 # Single words
 /insolvenzauszug/i
 /insolvenzmassen?/i

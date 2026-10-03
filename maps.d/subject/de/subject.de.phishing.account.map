@@ -210,11 +210,14 @@
 
 /(konto|profil).{1,10}informationen müssen aktualisiert werden/i
 /(konto|profil).{1,10}innerhalb der nächsten.{1,10}stunden vorübergehend/iu
+/(konto|profil).{1,10}ihre.{1,15}daten zu schützen/iu
 /(konto|profil).{1,10}ist betroffen.{1,10}vertrauliche nachricht/i
 
-/(konto|profil).{1,10}(bleibt|ist|kann|wird|wurde).{1,20}(begrenzt|deaktiviert|eingeschränkt|inaktiv|gesperrt|verifiziert)/i
+/(konto|profil).{1,10} jetzt aktualisieren/i
+
+# Don't use "ist gesperrt" as it may lead to false positives
+/(konto|profil).{1,10}(bleibt|kann|wird|wurde).{1,20}(begrenzt|deaktiviert|eingeschränkt|inaktiv|gesperrt|verifiziert)/i
 /(konto|profil).{1,10}(braucht|erfordert) ihre (aufmerksamkeit|bestätigung)/iu
-/(konto|profil).{1,10}ihre.{1,15}daten zu schützen/iu
 
 /(konto|profil).{1,10}muss innerhalb von.{1,15}aktualisiert/i
 
