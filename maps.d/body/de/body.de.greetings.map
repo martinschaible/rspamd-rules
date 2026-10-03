@@ -70,7 +70,7 @@
 /guten (abend|morgen|tag).{1,10}dieses?.{1,10}e?.?mail ist von/i
 /guten (abend|morgen|tag).{1,10}entschuldigen sie.{1,20}(ich sie|kontaktaufnahme)/i
 /guten (abend|morgen|tag).{1,10}ehrenwert/i
-#/guten (abend|morgen|tag).{1,10}e?.?mail/i
+# /guten (abend|morgen|tag).{1,10}e?.?mail/i
 /guten (abend|morgen|tag).{1,10}geliebt in christus/i
 /guten (abend|morgen|tag).{1,10}(geliebte|gewinner|mein lieber)/i
 
@@ -80,7 +80,10 @@
 
 /guten (abend|morgen|tag).{1,10}ich bin.{1,10}(dr\.|frau|herr)/i
 /guten (abend|morgen|tag).{1,10}ich bin.{1,10}content.?verantwortlich/i
-/guten (abend|morgen|tag).{1,10}ich bin (der|ein)/i
+
+# /guten (abend|morgen|tag).{1,10}ich bin (der|ein)/i
+/guten (abend|morgen|tag).{1,10}ich bin der/i
+
 /guten (abend|morgen|tag).{1,10}ich bin.{5,25}eine.{1,20}investor(in)?/i
 /guten (abend|morgen|tag).{1,10}ich bin.{1,10}jahre alt/i
 /guten (abend|morgen|tag).{1,10}ich bin.{1,10}von beruf/i
