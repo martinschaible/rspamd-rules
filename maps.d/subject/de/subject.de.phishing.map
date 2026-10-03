@@ -154,25 +154,21 @@
 /datensatz.{1,10}mitgliedsunternehmen/i
 /^datenätze.{1,10}aktualisieren/iu
 
-/(datenabgleich|datenaktualisierung|datenbestätigung).{1,15}bitte (bis|um)/i
-/(datenabgleich|datenaktualisierung|datenbestätigung).{1,10}ihrer angaben/i
-/(datenabgleich|datenaktualisierung|datenbestätigung).{1,15}jetzt durchführen/iu
-/(datenabgleich|datenaktualisierung|datenbestätigung).{1,15}gesetzlicher vorgaben/iu
-/(datenabgleich|datenaktualisierung|datenbestätigung).{1,10}erforderlich/iu
-/(datenabgleich|datenaktualisierung|datenbestätigung).{1,10}frist/iu
-/(datenabgleich|datenaktualisierung|datenbestätigung).{1,10}gesetzliche pflicht/iu
-/(datenabgleich|datenaktualisierung|datenbestätigung).{1,25}wichtig bis.{1,10}erledigen/i
-/(datenabgleich|datenaktualisierung|datenbestätigung).{1,10}wichtige mitteilung/i
-/(datenabgleich|datenaktualisierung|datenbestätigung).{1,10}zur vermeidung/iu
+/(datenabgleich|datenaktualisierung|datenbestätigung|datenpflege).{1,15}bitte (bis|um)/i
+/(datenabgleich|datenaktualisierung|datenbestätigung|datenpflege).{1,10}erforderlich/iu
+/(datenabgleich|datenaktualisierung|datenbestätigung|datenpflege).{1,10}frist/iu
+/(datenabgleich|datenaktualisierung|datenbestätigung|datenpflege).{1,10}gesetzlicher?.{1,10}(pflicht|vorgaben)/iu
+/(datenabgleich|datenaktualisierung|datenbestätigung|datenpflege).{1,10}ihr unternehmen/i
+/(datenabgleich|datenaktualisierung|datenbestätigung|datenpflege).{1,10}ihrer angaben/i
+/(datenabgleich|datenaktualisierung|datenbestätigung|datenpflege).{1,10}im rahmen.{1,10}regulatorischer/i
+/(datenabgleich|datenaktualisierung|datenbestätigung|datenpflege).{1,15}jetzt (durchführen|handeln)/iu
+/(datenabgleich|datenaktualisierung|datenbestätigung|datenpflege).{1,10}umgehend handeln/i
+/(datenabgleich|datenaktualisierung|datenbestätigung|datenpflege).{1,25}wichtig bis.{1,10}erledigen/i
+/(datenabgleich|datenaktualisierung|datenbestätigung|datenpflege).{1,10}wichtige mitteilung/i
+/(datenabgleich|datenaktualisierung|datenbestätigung|datenpflege).{1,10}zur vermeidung/iu
 
 /datenabweichung.{1,10}festgestellt/i
 /datenfreigabe.{1,10}frist/i
-
-/datenpflege.{1,10}gesetzlicher vorgaben/i
-/datenpflege.{1,10}ihr unternehmen/i
-/datenpflege.{1,10}im rahmen.{1,10}regulatorischer/i
-/datenpflege.{1,10}jetzt durchführen/iu
-/datenpflege.{1,10}umgehend handeln/i
 
 /daten(über)?prüfung.{1,10}auf unserer plattform/iu
 /daten(über)?prüfung.{1,10}erforderlich/iu
