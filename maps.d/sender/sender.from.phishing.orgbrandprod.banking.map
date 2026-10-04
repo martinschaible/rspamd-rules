@@ -129,6 +129,7 @@
 
 /(ihre|meine).{0,5}dkb/i
 
+/dkb\.(ch|org)/i
 /contact@dkb\.de/i
 /info@dkb\.de/i
 /secure@dkb\.de/i
@@ -385,6 +386,7 @@
 
 /volksbank(en)?.{0,10}raiffeisenbankenverbund/i
 
+/^volks$/i
 /volks\.eg.{0,10}service/i
 
 #

@@ -546,7 +546,9 @@
 
 /kontosicherheit.{1,10}starten sie/i
 /kontrollschild.{1,15}prüfen sie ihre angaben/iu
-/kontoverifizierung.{1,10}erforderlich no\b/i
+
+/(kontoüberprüfung|kontoverifizierung).{1,10}bitte handeln/iu
+/(kontoüberprüfung|kontoverifizierung).{1,10}erforderlich no\b/i
 
 /kritischer?.{1,10}(alarm|sicherheitshinweis|systemmeldung|warnung).{1,10}ihre (domainverlängerung|geräte)/iu
 /kritischer?.{1,10}(alarm|sicherheitshinweis|systemmeldung|warnung).{1,10}ihr konto/i
