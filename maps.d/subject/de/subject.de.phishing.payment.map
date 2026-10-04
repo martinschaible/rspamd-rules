@@ -51,9 +51,11 @@
 
 # D
 # ------------------------------------------------------------------------------
-/(deine|ihre).{1,10}(ein)?zahlung wurde pausiert/i
 /(deine|ihre).{1,10}(ein)?zahlung ist fehlgeschlagen/i
 /(deine|ihre).{1,10}(ein)?zahlung wurde nicht ausgeführt/iu
+/(deine|ihre).{1,10}(ein)?zahlung wurde pausiert/i
+
+/(deine|ihre).{1,10}zahlung nicht entgegennehmen/iu
 
 /dein konto hat eine offene rechnung/i
 

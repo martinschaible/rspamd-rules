@@ -393,7 +393,7 @@
 /postdienstleister an uns zurückgeschickt/i
 
 /prüfen.{1,5}#\d{4,10}/i
-/prüfen.{1,10}sie ihre firmenunterlagen/iu
+/prüfen.{1,10}sie ihre.{1,10}(steuerdaten|firmenunterlagen)/iu
 /prüfen.{1,10}verifizieren sie ihre?/i
 
 /prüfung.{1,10}hinterlegter angaben/iu
