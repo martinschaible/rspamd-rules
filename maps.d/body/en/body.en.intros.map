@@ -296,8 +296,11 @@
 /this is.{5,25}we are specialized/i
 /this is.{5,25}we can supply/i
 
-/this.{1,10}e?.?mail.{1,10}come to you as.{1,10}surprise/i
-/this.{1,10}e?.?mail does not suit your.{1,15}(business|ethics|personal)/i
+/(my|this).{1,10}(e?.?mail|letter|message).{1,10}(came|come).{1,10}surprise to you/i
+/(my|this).{1,10}(e?.?mail|letter|message).{1,10}(came|come).{1,10}to you as.{1,10}surprise/i
+
+/(my|this).{1,10}(e?.?mail|letter|message).{1,10}does not suit your.{1,15}(business|ethics|personal)/i
+/(my|this).{1,10}(e?.?mail|letter|message).{1,10}is definitely.{1,10} surprise to you/i
 
 /to whom it may concern.{1,10}my name is/i
 /to whom it may concern.{1,10}nice.{1,10}(write|writing).{1,10}you/i
@@ -335,6 +338,7 @@
 # Y
 # ------------------------------------------------------------------------------
 /you are (doing|going) well.{1,10}my name is/i
+/you as.{1,10}surprise as we have.{1,10}no previous correspondence/i
 /you through this medium.{1,10}my name is/i
 /you with.{1,10}keen hope to open.{1,10}business/i
 

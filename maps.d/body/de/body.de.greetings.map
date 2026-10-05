@@ -89,15 +89,16 @@
 /guten (abend|morgen|tag).{1,10}ich bin.{1,10}von beruf/i
 /guten (abend|morgen|tag).{5,35}ich bin.{1,10}von der/i
 
-
 /guten (abend|morgen|tag).{1,10}ich bitte um entschuldigung/i
 /guten (abend|morgen|tag).{1,10}ich brauche ihre (hilfe|unterstützung)/iu
 /guten (abend|morgen|tag).{1,10}ich habe keine antwort auf meine.{1,15}e?.?mail/i
 /guten (abend|morgen|tag).{1,10}ich hoffe.{1,10}dieser?.{1,10}(brief|e?.?mail|nachricht)/i
 /guten (abend|morgen|tag).{1,10}ich schreibe ihnen/i
-/guten (abend|morgen|tag).{1,10}ich vertrete eine?.{1,15}(firma|seriöses|unternehmen)/iu
 /guten (abend|morgen|tag).{1,10}ich.{1,35}spende ihnen/i
+
 /guten (abend|morgen|tag).{1,10}ich verkaufe/i
+/guten (abend|morgen|tag).{1,10}ich vertraue darauf/i
+/guten (abend|morgen|tag).{1,10}ich vertrete eine?.{1,15}(firma|seriöses|unternehmen)/iu
 
 /guten (abend|morgen|tag).{1,10}kann ich sie kontaktieren/i
 /guten (abend|morgen|tag).{1,10}kontoinhaber/i
@@ -122,7 +123,7 @@
 /guten (abend|morgen|tag).{1,10}sie haben eine spende/i
 /guten (abend|morgen|tag).{1,10}suche ihre dienste/i
 
-/guten (abend|morgen|tag).{1,10}ich vertraue darauf/i
+/guten (abend|morgen|tag).{1,10}diese nachricht mag sie überraschen/iu
 
 /guten (abend|morgen|tag).{5,35}was ich ihnen jetzt/i
 
