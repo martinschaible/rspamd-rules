@@ -52,6 +52,7 @@
 /(shoe factory|shoes|solar).{1,15}(from|in|of).{1,10}china/i
 /simplifying.{1,10}china.{1,15}imports/i
 
+/(odm|oem).{1,20}manufacturer.{1,15}(from|in|of).{1,10}china/i
 /logistic company.{1,15}(from|in|of).{1,10}china/i
 /(pcba?|printed.?circuits?.?board).{1,15}(company|factory) (from|in) china/i
 
@@ -326,6 +327,8 @@
 /for your.{1,10}brand/i
 /for your.{1,10}packaging/i
 
+/footwear.{1,10}sourcing for/i
+
 /freight.{1,10}(forwarding|service|transport).{1,20}china/i
 /freight.{1,10}(forwarding|service|transport).{1,20}promotion/i
 /freight.{1,10}(forwarding|service|transport).{1,20}solutions/i
@@ -356,10 +359,6 @@
 /(good|high).?quality.{1,15}collection/i
 /(good|high).?quality.{1,10}(pcba?|printed.?circuits?.?board)/i
 
-/high.?performance.{1,10}quartz.{1,10}products/i
-
-
-/hotel.{1,10}furniture.{1,10}factory/i
 
 # H
 # ------------------------------------------------------------------------------
@@ -368,10 +367,15 @@
 /help increasing in.{1,15}market/i
 
 /high performance.{1,20}solution/i
-/high.?quality.{1,10}good service/i
-/high.?quality.{1,10}(athletic|jersey|shoes)/i
 
-/high.?quality.{1,10}(bra collection|transformers?)/i
+/high.?(performance|quality).{1,10}good service/i
+/high.?(performance|quality).{1,10}(athletic|jersey|shoes)/i
+/high.?(performance|quality).{1,10}(bra collection|transformers?)/i
+
+/high.?(performance|quality).{1,10}(odm|oem).{1,20}manufacturer/i
+/high.?(performance|quality).{1,10}quartz.{1,10}products/i
+
+/hotel.{1,10}furniture.{1,10}factory/i
 
 /home.?appliances.{1,10}(factory|manufacturer)/i
 
