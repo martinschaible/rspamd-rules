@@ -112,8 +112,8 @@
 
 /(i|we).{1,10}visited your.{1,10}(web)?.?site www\./i
 
-/i was.{1,10}(browsing|reviewing|visiting) your (web)?.?site.{1,25}it looks like/i
-/i was.{1,10}(browsing|reviewing|visiting) your (web)?.?site.{1,10}(found|noticed)/i
+/i was.{1,10}(browsing|checking|reviewing|visiting) your (web)?.?site.{1,25}it looks like/i
+/i was.{1,10}(browsing|checking|reviewing|visiting) your (web)?.?site.{1,10}(found|noticed)/i
 
 /it.{1,10}not ranking on.{1,10}(bing|google|yahoo)/i
 
@@ -199,7 +199,9 @@
 /seo.{1,10}growth.{1,10}analytics/i
 
 /seo.{1,10}improvement.{1,10}reach more/i
-/seo.{1,10}issues.{1,10}that might/i
+
+/seo.{1,10}issues.{1,15}affecting.{1,15}(google|rankings?)/i
+/seo.{1,10}issues.{1,10}that (may|might)/i
 /seo.{1,10}issues.{1,10}your.{1,10}(web)?site/i
 
 /seo.{1,10}needs.{1,15}(improvement|significant)/i
