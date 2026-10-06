@@ -11,8 +11,9 @@
 # Obfuscation patterns
 # ------------------------------------------------------------------------------
 
-# Sample: Wicht‏ige Mitt‏eilung
-/‏[a-z\s]{4,15}‏/i
+# Safer version: only split words with repeated soft-hyphen-like gaps, avoiding the broader
+# hidden Unicode separator pattern that can trigger false positives.
+/[a-z](?:[­]{1,4})[a-z](?:[­]{1,4})[a-z]/i
 
 # Detect standalone bidirectional control characters used to spoof visual order
 # /[‮‬‭‪‫⁦⁧⁨⁩]/i
