@@ -72,7 +72,9 @@
 
 /^benutzerkonto gesperrt/i
 
-/bestätigen sie jetzt ihr.{1,15}(konto|profil)/iu
+/(bestätigen|bestaetigen) sie ihren.{1,15}kontozugang/iu
+/(bestätigen|bestaetigen) sie jetzt ihr.{1,15}(konto|profil)/iu
+
 /bestätigung des.{1,15}(kontos|profils)/iu
 
 #/(aktualisieren?|bestätigen?).{1,10}(deine|sie).{1,15}(kontakt|konto).?daten/i

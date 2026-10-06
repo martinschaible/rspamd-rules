@@ -731,7 +731,8 @@
 
 /sicherheitscheck.{1,15}konto überprüfen/iu
 
-/sicherheitsmaßnahmen?.{1,15}jetzt.{1,15}konto/i
+/(sicherheitsmassnahmen?|sicherheitsmaßnahmen?).{1,10}(bestätigen|bestaetigen) sie ihren/i
+/(sicherheitsmassnahmen?|sicherheitsmaßnahmen?).{1,15}jetzt.{1,15}konto/i
 
 /sicherheits.?nachricht.{1,10}online/i
 
