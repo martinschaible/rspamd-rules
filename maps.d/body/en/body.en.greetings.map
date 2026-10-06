@@ -16,6 +16,7 @@
 # ------------------------------------------------------------------------------
 /bonjour.{1,10}(je.{1,5}appelle|nos noms sont)/i
 /bonjour.{1,10}désolé pour cette façon/iu
+/bonjour.{1,10}nous sommes une agence/i
 
 # Netherlands
 # ------------------------------------------------------------------------------
@@ -325,6 +326,8 @@
 
 /(hello|hi).{1,5}sir.{1,10}assalamu alaikum/i
 /(hello|hi).{1,5}sir.{1,10}i am dr\./i
+
+/(hello|hi).{1,5}sorry for.{1,10}unexpected message/i
 
 /(hello|hi).{1,10}thank you for opening/i
 

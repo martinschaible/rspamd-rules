@@ -88,7 +88,7 @@
 /warenverwertung aus insolvenz/i
 
 /objekte aus insolvenzverkäufen/iu
-/(benzin|heizöl){1,10}insolvenzmasse/iu
+/(benzin|heizöl).{1,10}insolvenzmasse/iu
 
 #
 #
@@ -126,6 +126,9 @@
 
 # I
 # ------------------------------------------------------------------------------
+
+# 06.10.26
+/ich melde mich wegen.{1,10}jährlichen elektroautoprämie/iu
 
 # J
 # ------------------------------------------------------------------------------
