@@ -43,6 +43,8 @@
 /(developer|development).{1,10}service at a very.{1,15}cost/i
 /(developer|development).{1,10}with more than.{1,10}years of experience/i
 
+/discussing.{1,10}(web)?.?site update/i
+
 # E
 # ------------------------------------------------------------------------------
 /explored your.{1,10}business domain/i
@@ -85,6 +87,7 @@
 /(i.?a?m|we are).{1,10}(it|software development) company.{1,10}in india/i
 
 /improve your.{1,10}(web)?.?site.{1,10}performance/i
+/improving.{1,10}updating.{1,10}(web)?.?site/i
 
 /india.{1,10}based.{1,10}(web)?.?site.{1,15}(agency|design)/i
 /india.{1,10}having.{1,10}years.{1,10}working experience/i
@@ -133,7 +136,7 @@
 /recently.{1,10}explored your.{1,15}(web)?.?site/i
 /reliable.{1,10}creative.{1,10}(web)?.?site/i
 
-/(rebuilding|redesign|refurbish|revamp|repairing|upgrade).{1,10}modernizing your.{1,15}(web)?.?site/i
+/(rebuilding|redesign|refurbish|revamp|repairing|upgrade).{1,10}(modernize|modernizing).{1,15}(web)?.?site/i
 
 /(rebuilding|redesign|refurbish|revamp|repairing|upgrade).{1,10}your.{1,15}business/i
 /(rebuilding|redesign|refurbish|revamp|repairing|upgrade).{1,10}your.{1,15}(web)?.?site/i
@@ -188,6 +191,8 @@
 /we.{1,10}have.{1,10}expertise.{1,10}developing.{1,10}(web)?.?site/i
 /we.{1,10}have.{1,15}professional.{1,10}team.{1,10}(web)?.?site/i
 /We.{1,10}have.{1,15}professional.{1,10}expert/i
+
+/we.{1,10}help businesses redesign.{1,10}modernize/i
 
 /(i|we).{1,10}offer.{1,10}expert.{1,10}(web)?.?site/i
 /(i|we).{1,10}offer.{1,10}(web.?design|(web)?.?site)/i
