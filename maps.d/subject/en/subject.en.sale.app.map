@@ -63,6 +63,8 @@
 
 /build(ing)? your.{1,10}digital solution/i
 
+/business mobile.{1,10}app/i
+
 # C
 # ------------------------------------------------------------------------------
 #/(business|creat|creating).{1,10}apps?/i
@@ -94,6 +96,7 @@
 
 # G
 # ------------------------------------------------------------------------------
+/grow with an.{1,10}app/i
 
 # H
 # ------------------------------------------------------------------------------
@@ -118,9 +121,11 @@
 # ------------------------------------------------------------------------------
 /^mobile.?apps?$/i
 
+/mobile.?apps?.{1,10}company/i
 /mobile.?apps?.{1,10}(boost|business)/i
 /mobile.?apps?.{1,10}costing/i
 /mobile.?apps?.{1,10}for you/i
+/mobile.?apps?.{1,10}www/i
 
 /modify your.{1,10}apps/i
 
@@ -175,6 +180,8 @@
 /you.{1,10}need.{1,10}mobile.?app/i
 
 /your app ideas?/i
+/your apps?.{1,10}www/i
+
 /your business.{1,10}www\./i
 /your own app/i
 

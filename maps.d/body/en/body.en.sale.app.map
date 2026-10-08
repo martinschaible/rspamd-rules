@@ -138,6 +138,7 @@
 
 /we.{1,10}specialize.{1,10}using ai.?technology/i
 /we.{1,10}specialize.{1,10}powered.{1,10}(android|ios)/i
+/we.{1,10}specialize.{1,10}android.{1,5}ios/i
 
 /we.{1,10}(offer|specialize).{1,20}(applications?|apps?).?development/i
 /we.{1,10}work in.{1,15}(android|ios)/i
@@ -148,6 +149,8 @@
 # Y
 # ------------------------------------------------------------------------------
 /you.{1,10}(considering|interested|looking|need|planning|thinking|want).{1,15}(applications?|apps?).{1,10}(android|ios|iphone)/i
+/you.{1,10}(considering|interested|looking|need|planning|thinking|want).{1,15}(applications?|apps?).{1,10}development/i
+
 /you.{1,10}(considering|interested|looking|need|planning|thinking|want).{1,15}(about|for|in).{1,15}(android|ios|iphone|mobile)?.?(app|web)/i
 /you.{1,10}(considering|interested|looking|need|planning|thinking|want).{1,15}(build|create|creating|develop).{1,15}(android|ios|iphone|mobile)?.?(app|web)/i
 /you.{1,10}(considering|interested|looking|need|planning|thinking|want).{1,15}new.{1,15}apps?/i
