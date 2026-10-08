@@ -73,7 +73,8 @@
 /(database|list).{1,10}targeted.{1,10}(business|residential)/i
 /(database|list).{1,10}top decision makers/i
 
-/decision.?maker.{1,10}contact lists?/i
+/decision.?maker.{1,10}contact (details|lists?)/i
+
 /discounted.{1,10}contact lists?/i
 
 # E
@@ -166,6 +167,8 @@
 # N
 # ------------------------------------------------------------------------------
 /new(ly)?.{1,10}validated.{1,10}business contacts/i
+
+/no.?cost samples from databases/i
 
 # O
 # ------------------------------------------------------------------------------

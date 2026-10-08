@@ -72,7 +72,8 @@
 # I
 # ------------------------------------------------------------------------------
 /ich habe.{1,10}ein.{1,10}(dringendes|wichtiges).{1,15}(angebot|geschäft)/iu
-/ich habe.{1,10}ein.{1,10}lukratives angebot für sie/iu
+/ich habe.{1,10}ein.{1,10}lukratives.{1,10}angebot für sie/iu
+/ich habe.{1,10}ein.{1,10}lukratives.{1,10}geschäftsvorhaben/iu
 
 /ich habe.{1,10}ein.{1,15}geschäft für sie/iu
 /ich habe.{1,10}ein.{1,15}geschäfts.?.{0,5}(angebot|vorschlag)/iu
@@ -94,6 +95,7 @@
 
 # K
 # ------------------------------------------------------------------------------
+/könnte für sie von.{1,10}interesse sein.{1,15}kontaktieren sie (mich|uns)/iu
 
 # L
 # ------------------------------------------------------------------------------

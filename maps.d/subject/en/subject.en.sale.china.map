@@ -508,6 +508,7 @@
 /offers? for rectifiers/i
 
 /one?.?(stop|time).{1,10}(pcba?|printed.?circuits?.?board)?/i
+/one supplier.{1,10}(casting|cnc|finishing)/i
 
 /optimize.{1,10}your.{1,10}import logistics/i
 
@@ -734,6 +735,7 @@
 
 /superior.{1,10}silicone.{1,10}oil/i
 
+/supplier.{1,10}cnc.{1,10}casting/i
 /supplier.{1,10}elevator parts/i
 /supplier.{1,10}high.{1,10}(precision|quality)/i
 /supplier.{1,10}mold.?products/i
