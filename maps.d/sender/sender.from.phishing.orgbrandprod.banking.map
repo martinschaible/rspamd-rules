@@ -37,6 +37,7 @@
 # A
 # ------------------------------------------------------------------------------
 /advanzia@advanzia/i
+/^advanzia$/i
 
 /ag.?twint/i
 
@@ -249,6 +250,8 @@
 
 /natwestbank/i
 
+/ninja.{0,10}trader/i
+
 /noreply.{0,10}twint/i
 
 # O
@@ -330,7 +333,7 @@
 /swissquote.{0,10}invest(ing)?/i
 /swissquote.{0,10}(market|message)/i
 /swissquote.{0,10}reply/i
-/swissquote.{0,10}(security|support)/i
+/swissquote.{0,10}(secure|security|support)/i
 /swissquote.{0,10}trade/i
 
 /invest.{0,10}swissquote/i
