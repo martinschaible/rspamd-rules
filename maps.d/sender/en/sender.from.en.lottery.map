@@ -34,7 +34,7 @@
 # ------------------------------------------------------------------------------
 /elgordo.{0,10}primitiva/i
 /euro.?milions/i
-/(euro.?online|super).{0,10}(lotto|lotter(ie|y))/i
+/(euro.?online|super|usa).{0,10}(lotto|lotter(ie|y))/i
 
 /el.?mundo/i
 
@@ -71,6 +71,7 @@
 /lott?eria.{0,10}lott?eria/i
 /lott?eria.{0,10}(la.?primitiva|nacional|navidad)/i
 /lotto.?denavidad/i
+/lotto\.gov/i
 
 # M
 # ------------------------------------------------------------------------------
