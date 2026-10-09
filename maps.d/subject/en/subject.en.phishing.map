@@ -163,7 +163,8 @@
 
 # V
 # ------------------------------------------------------------------------------
-/verify your.{1,10}transaction before/i
+/verify.{1,10}your.{1,10}transaction before/i
+/verify.{1,10}device.{1,10}update safely/i
 
 /violation.{1,10}egregious.{1,10}policy/i
 
