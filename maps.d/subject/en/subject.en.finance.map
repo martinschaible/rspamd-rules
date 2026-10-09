@@ -48,6 +48,8 @@
 
 # B
 # ------------------------------------------------------------------------------
+/^business capital$/i
+
 /business.{1,10}financing.{1,10}202\d/i
 /business.{1,10}lending/i
 /business.{1,10}project.{1,15}loans?/i

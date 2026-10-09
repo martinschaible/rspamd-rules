@@ -18,7 +18,8 @@
 
 # A
 # ------------------------------------------------------------------------------
-/aktivieren sie ihre.{1,20}app/i
+/(aktivieren|aktualisieren) sie ihre.{1,20}(anwendung|app)/i
+
 /aktualisierung ihrer.{1,20}app/i
 
 /app\b.{1,10}authentifizierung (endet|verlängern)/iu

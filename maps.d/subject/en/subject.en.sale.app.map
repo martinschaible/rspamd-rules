@@ -125,7 +125,8 @@
 /mobile.?apps?.{1,10}(boost|business)/i
 /mobile.?apps?.{1,10}costing/i
 /mobile.?apps?.{1,10}for you/i
-/mobile.?apps?.{1,10}www/i
+
+/(ios|mobile).?apps?.{1,10}www/i
 
 /modify your.{1,10}apps/i
 
