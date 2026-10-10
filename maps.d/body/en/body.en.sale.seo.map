@@ -112,8 +112,8 @@
 
 /(i|we).{1,10}visited your.{1,10}(web)?.?site www\./i
 
-/i was.{1,10}(browsing|checking|reviewing|visiting) your (web)?.?site.{1,25}it looks like/i
-/i was.{1,10}(browsing|checking|reviewing|visiting) your (web)?.?site.{1,10}(found|noticed)/i
+/i was.{1,10}(browsing|checking|examining|reviewing|visiting) your (web)?.?site.{1,35}it looks like/i
+/i was.{1,10}(browsing|checking|examining|reviewing|visiting) your (web)?.?site.{1,35}(found|noticed)/i
 
 /it.{1,10}not ranking on.{1,10}(bing|google|yahoo)/i
 
@@ -139,6 +139,8 @@
 /needs better seo/i
 
 /not (good|ranking) on.{1,10}(bing|google|yahoo)/i
+/not (good|ranking) on.{1,10}search engine/i
+
 /not (ranking|showing).{1,10}well.{1,10}(bing|google|yahoo)/i
 
 /not showing on.{1,10}(1st|first) page/i
@@ -323,6 +325,7 @@
 /your.{1,10}(web)?.?site.{1,10}on.{1,10}(1st|first) page/i
 /your.{1,10}(web)?.?site.{1,10}on.{1,10}google.{1,10}top/i
 /your.{1,10}(web)?.?site.{1,10}on.{1,10}page one of/i
+/your.{1,10}(web)?.?site.{1,10}on.{1,10}starting pages/i
 
 /your.{1,10}(web)?.?site.{1,10}position.{1,15}(bing|google|yahoo)/i
 /your.{1,10}(web)?.?site.{1,15}promote it.{1,10}(bing|google|yahoo)/i

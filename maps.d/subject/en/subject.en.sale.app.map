@@ -49,8 +49,10 @@
 /apps?.{1,5}(developer|development).{1,10}(android|apple|mobile)/i
 /apps?.{1,5}(developer|development).{1,10}for/i
 /apps?.{1,5}(cost enquiry|proposal|we build)/i
+
+/apps?.{1,5}idea.?-/i
 /apps?.{1,5}idea (\?|for)/i
-/apps?.{1,5}idea.{1,10}www\./i
+/apps?.{1,5}idea.{1,15}(@|www)\./i
 
 /apps?.{1,5}for your.{1,10}(business|company|practice|web.?site)/i
 /apps?.{1,5}(promotion|quotes)/i
@@ -167,7 +169,8 @@
 
 # W
 # ------------------------------------------------------------------------------
-/whatsapp number.{1,10}www/i
+/whatsapp number.{1,5}idea.?-/i
+/whatsapp number.{1,15}(@|www)/i
 
 /web.{1,10}app.{1,10}solutions?/i
 /web.{0,10}mobile.?app/i
