@@ -73,10 +73,17 @@
 # WLAN Router, Scam
 # ------------------------------------------------------------------------------
 /hotspot.{0,10}central/i
-/(fast|portable).{0,10}wi.?fi/i
 /technology.{0,10}travel/i
-
 /travel.{0,10}router/i
 
-/(wi.?fi|wlan).{0,15}(boost(ing)?|connection|router|team)/i
+/(fast|global|portable).{0,10}(wi.?fi|wlan)/i
 
+/mini.{0,10}(wi.?fi|wlan)/i
+
+/(wi.?fi|wlan).{0,15}(boost(ing)?|boost(er)?)/i
+/(wi.?fi|wlan).{0,15}(camera|connection)/i
+/(wi.?fi|wlan).{0,15}network/i
+/(wi.?fi|wlan).{0,15}projector/i
+/(wi.?fi|wlan).{0,15}router/i
+/(wi.?fi|wlan).{0,15}team/i
+/(wi.?fi|wlan).{0,15}upgrade/i
