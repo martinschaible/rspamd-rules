@@ -186,6 +186,8 @@
 
 /belohnt.{1,5}\d{3,10}/i
 
+/benachrichtigung.{1,10}exklusiver bonus/i
+
 /bereit zur versandbestätigung/iu
 /bereiten sie ihre.{1,15}prämie/iu
 
@@ -207,6 +209,8 @@
 /bestätigt.{1,10}jetzt prämie sichern/iu
 
 /bitte kurz bestätigen/iu
+
+/bonus.{1,15}guthaben sichern/i
 
 /(brand)?neuer.{1,25}ist für Sie reserviert/iu
 
@@ -289,7 +293,9 @@
 /exklusiven?.{1,10}gratisproben/i
 /exklusiven?.{1,10}mystery.?box/i
 
+/exklusiver.{1,10}bonus ist bereit/i
 /exklusiver.{1,10}zugang endet/i
+
 /exklusives.{1,10}geschenk wartet auf sie/i
 
 # F

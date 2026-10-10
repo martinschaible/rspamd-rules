@@ -131,6 +131,7 @@
 
 # K
 # ------------------------------------------------------------------------------
+/(kritische|wichtige).{1,10}cloud.?speicherwarnung/i
 /(kritische|wichtige).{1,10}sicherheitswarnung.{1,10}(konto|lizenz)/i
 
 # L

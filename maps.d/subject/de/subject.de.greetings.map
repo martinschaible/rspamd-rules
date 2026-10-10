@@ -151,10 +151,13 @@
 
 # M
 # ------------------------------------------------------------------------------
-/meine grüße/iu
 /mein name ist/i
 /mein (guter|lieber).{1,10}(freund|geliebter)/i
+/mein göttlicher freund/iu
+
 /meine? liebster?\b/i
+
+/meine grüße/iu
 /meine lieben? im herrn/i
 
 /mit freundlichen (grüssen?|grüßen?)/i
