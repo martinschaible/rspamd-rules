@@ -285,6 +285,8 @@
 /hello.{1,10}my dear.{1,10}i sent you an e?.?mail/i
 /hello.{1,10}my dear.{1,10}my name is/i
 
+/(hello|hi).{1,5}\[/i
+
 /(hello|hi).{1,10}(attention|customer|owner)/i
 
 /(hello|hi).{1,5}(dear|friend|manager).{1,10}(confidential|customer|private|strictly|urgent)/i
@@ -320,9 +322,10 @@
 /(hello|hi).{5,35}(i am|we) hope this.{1,10}(e?.?mail|message) (finds|meets) you/i
 /(hello|hi).{1,10}(i am|we) work for.{1,10}company/i
 /(hello|hi).{1,10}i came across your/i
+/(hello|hi).{1,10}i work at.{5,35}we help/i
+
 /(hello|hi).{1,15}is something confidential/i
 
-/(hello|hi).{1,5}\[/i
 /(hello|hi).{1,5}partner.{1,10}good day/i
 
 /(hello|hi).{1,5}sir.{1,10}assalamu alaikum/i
