@@ -58,8 +58,9 @@
 # ------------------------------------------------------------------------------
 /elevate your.{1,10}(home.?page|web.?site)/i
 
-/(enhance|enhancing) for mobile experience/i
+/(enhance|enhancing) for.{1,10}mobile experience/i
 /(enhance|enhancing) your.{1,10}online presence/i
+/(enhance|enhancing) your.{1,10}(home.?page|web.?site).{1,10}design/i
 
 /enquiry from.{1,10}web.?site/i
 
@@ -69,7 +70,7 @@
 # F
 # ------------------------------------------------------------------------------
 /fix.{1,10}web.?site issues/i
-/fully functional.{1,10}web.?site/i
+/fully functional.{1,10}(home.?page|web.?site)/i
 
 /free web.{1,10}consultation/i
 /fresh website look/i

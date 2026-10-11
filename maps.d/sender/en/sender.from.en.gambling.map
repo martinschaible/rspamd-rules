@@ -25,6 +25,8 @@
 # C
 # ------------------------------------------------------------------------------
 /casino.{0,10}(deal|for you|gaming|luck|special|team|you)/i
+/casino.?\d{2,3}/i
+
 /casino4/i
 
 /clash.{0,10}royale/i

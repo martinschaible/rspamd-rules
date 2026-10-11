@@ -47,6 +47,7 @@
 /abnehm.{0,10}(experte|quiz|trend)/i
 /abnehm.{0,10}journal/i
 
+/(aktiv|vital).{0,10}leben/i
 /(aktiv|vital).{0,10}redaktion/i
 
 /^apotheken?.{0,10}(nachrichten|versand)/i
@@ -190,6 +191,8 @@
 /längere.{0,10}lust/iu
 
 /leben.{0,10}aktiv/i
+/leben.{0,10}journal/i
+
 /leber.{0,10}detox/i
 
 /leise.{0,10}nacht/i
