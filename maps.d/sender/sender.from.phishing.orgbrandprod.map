@@ -114,7 +114,9 @@
 
 # A
 # ------------------------------------------------------------------------------
-/aaa.{0,10}(benefits|car|department|rewards|travel)/i
+
+# don't use "travel"
+/aaa.{0,10}(benefits|car|department|rewards)/i
 
 /aarp.{0,10}(benefits|invitation|offer|opportunity)/i
 /join.{0,10}aarp/i
