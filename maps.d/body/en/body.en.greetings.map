@@ -350,6 +350,8 @@
 /(hello|hi).{1,5}we offer a solution for/i
 /(hello|hi).{1,5}we want to order your.{1,10}products/i
 
+/(hello|hi).{1,5}you.{1,10}been selected/i
+
 /hi \[first.?name\]/i
 /hi user.{1,10}you have requested/i
 
