@@ -24,7 +24,9 @@
 # ------------------------------------------------------------------------------
 /beispiel.{0,10}webseiten?.{1,15}preisangebot/i
 
-/(bieten|bietet).{1,10}schnell.{1,10}professionelle?.{1,10}(home.?page|web.?site)?/i
+/(bieten|bietet).{1,10}schnell.{1,10}professionelle?.{1,10}(home.?page|web.?site)/i
+
+/bauen für.{1,20}(home.?page|web.?site)/i
 
 # C
 # ------------------------------------------------------------------------------
@@ -37,6 +39,8 @@
 /e?.?mail bezüglich.{1,10}webdesign/iu
 
 /entwickeln wir moderne.{1,10}(home.?page|web.?site)/i
+
+/erstellen wir.{1,15}einen kostenlosen entwurf/i
 
 /europäischer.{1,10}website.{1,10}builder/i
 

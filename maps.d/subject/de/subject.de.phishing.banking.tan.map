@@ -80,6 +80,8 @@
 # ------------------------------------------------------------------------------
 /(photo|push).?tan -/i
 /(photo|push).?tan.{1,15}(aktivieren sie|aktivierung)/i
+/(photo|push).?tan.{1,10}aktualisieren/i
+
 /(photo|push).?tan.{1,10}ihre daten/i
 /(photo|push).?tan.{1,10}legitimation/i
 /(photo|push).?tan.{1,15}(brief|erforderlich|ihre konto|ist nicht)/i
@@ -130,7 +132,8 @@
 # W
 # ------------------------------------------------------------------------------
 /wichtige?.{1,10}aktion.{1,10}(photo|push).?tan/i
-/wichtige?.{1,15}hinweis?.{1,10}mtan/i
+/wichtige?.{1,15}(hinweis|mitteilung).{1,10}mtan/i
+/wichtige?.{1,15}(hinweis|mitteilung).{1,10}(photo|push).?tan/i
 /wichtiges.{1,10}update.{1,15}(photo|push).?tan/i
 
 # X
