@@ -80,11 +80,13 @@
 # ------------------------------------------------------------------------------
 /(photo|push).?tan -/i
 /(photo|push).?tan.{1,15}(aktivieren sie|aktivierung)/i
+/(photo|push).?tan.{1,10}ihre daten/i
 /(photo|push).?tan.{1,10}legitimation/i
 /(photo|push).?tan.{1,15}(brief|erforderlich|ihre konto|ist nicht)/i
 /(photo|push).?tan.{1,10}gesperrt/i
 /(photo|push).?tan.{1,10}läuft (ab|innerhalb)/iu
 
+/(photo|push).?tan.{1,10}online/i
 /(photo|push).?tan.{1,10}(systems?|verfahren)/i
 /(photo|push).?tan.{1,10}innerhalb der/i
 /(photo|push).?tan.{1,10}jetzt aktivieren/i
