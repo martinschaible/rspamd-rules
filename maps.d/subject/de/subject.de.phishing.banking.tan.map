@@ -79,6 +79,8 @@
 # P
 # ------------------------------------------------------------------------------
 /(photo|push).?tan -/i
+
+/(photo|push).?tan.{1,10}änderung/iu
 /(photo|push).?tan.{1,15}(aktivieren sie|aktivierung)/i
 /(photo|push).?tan.{1,10}aktualisieren/i
 
