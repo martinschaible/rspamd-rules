@@ -106,6 +106,7 @@
 /(eingeschränkten|eingeschränkter) zugriff auf ihr.{1,15}(konto|profil)/iu
 
 /einschränkungen verhindern/iu
+/einschränkung ihres.{1,15}kontos/iu
 
 /erforderliche.{1,10}konten.?synchronisation/i
 /erweiterte sicherheit.{1,10}verfügbar/iu
@@ -142,6 +143,8 @@
 # I
 # ------------------------------------------------------------------------------
 /identitätscheck.{1,10}schritt für schritt/iu
+
+/ihr(es)?.{1,15}banking.?kontos?/i
 
 /ihr.{1,15}(konto|profil)(:|!)/i
 /ihr.{1,15}(konto|profil) aktiv zu halten/i

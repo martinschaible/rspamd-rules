@@ -60,6 +60,8 @@
 # D
 # ------------------------------------------------------------------------------
 /delivery delayed.{1,10}payment verification/i
+/delivery on hold.{1,10}action required/i
+
 /(delivered|delivery).{1,10}confirm details/i
 
 /details delaying your.{1,10}(package|parcel|shipment)/i
@@ -158,6 +160,7 @@
 
 # W
 # ------------------------------------------------------------------------------
+/we tried to deliver.{1,10}contact us/i
 
 # X
 # ------------------------------------------------------------------------------

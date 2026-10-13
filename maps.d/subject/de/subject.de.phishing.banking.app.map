@@ -25,10 +25,13 @@
 /app\b.{1,10}authentifizierung (endet|verlängern)/iu
 /app\b.{1,10}authentifizierung läuft.{1,10}ab/iu
 
-/app\b.{1,10}benötigt eine synchronisierung/iu
 /app.{1,10}entspricht nicht mehr dem neuesten stand/i
-/app\b.{1,10}es gibt neue/i
 /app.{1,10}verknüpfung bestätigen/iu
+
+/app\b.{1,10}benötigt eine synchronisierung/iu
+/app\b.{1,10}es gibt neue/i
+/app\b.{1,10}exklusive funktionen/i
+/app\b.{1,10}passen sie ihre einstellungen/i
 
 # B
 # ------------------------------------------------------------------------------
@@ -44,6 +47,7 @@
 
 # F
 # ------------------------------------------------------------------------------
+/funktionen in ihrer.{1,15}app/iu
 
 # G
 # ------------------------------------------------------------------------------
@@ -72,6 +76,7 @@
 
 # N
 # ------------------------------------------------------------------------------
+/neue funktionen für ihre.{1,15}app/iu
 
 # O
 # ------------------------------------------------------------------------------
