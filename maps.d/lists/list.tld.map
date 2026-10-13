@@ -72,7 +72,7 @@
 # These are bad too:
 /\.makeup$/i
 /\.men$/i
-#/\.work$/i
+# /\.work$/i
 /\.yachts$/i
 
 # First seen August 2023
@@ -102,8 +102,8 @@
 /\.bar$/i
 /\.su$/i
 
-# removed on request
-#/\.one$/i
+# Removed on request
+# /\.one$/i
 
 # First seen August 2024
 /\.hair$/i
@@ -115,7 +115,9 @@
 # First seen November 2024
 /\.boutique$/i
 /\.fun$/i
-#/\.link$/i                                                 # False Positives: 4
+
+# False Positives: 4
+# /\.link$/i
 
 # First seen December 2024
 /\.holiday$/i
@@ -124,6 +126,7 @@
 # First seen February 2025
 # Country Belize
 /\.bz$/i
+
 # Country Uzbekistan
 /\.uz$/i
 
