@@ -200,6 +200,7 @@
 /sie haben.{1,10}\d{2,4}(\.|,)?\d{3,4}.{1,10}gewonnen/i
 /sie haben.{1,10}\d{2,4}(\.|,)?\d{3,4}.{1,10}zur auszahlung/i
 
+/sie haben.{1,20}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,10}als spende/i
 /sie haben.{1,20}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,10}zur auszahlung/i
 
 /sie mit.{1,10}\d{2,4}(\.|,)?\d{3,4}.{1,10}zu entschädigen/iu

@@ -100,6 +100,7 @@
 # ------------------------------------------------------------------------------
 /ich beschlossen.{1,10}eine.{1,10}spende an jemanden/i
 
+/ich biete ihnen einen privaten zuschuss/i
 /ich bin.{1,10}susanne klatten/i
 
 /ich habe.{1,10}beschlossen.{1,10}ihnen die summe/i
@@ -262,6 +263,7 @@
 /sie zu einem.{1,10}spendenfonds/i
 /sie zum erhalt.{1,10}betrags berechtigt/i
 
+/(spende|zuschuss).{1,10}antworten Sie bitte/i
 /(spende|zuschuss).{1,10}auf sie.{1,10}einzufordern/i
 /(spende|zuschuss).{1,10}erhalten.{1,10}schreiben Sie uns.{1,10}damit/iu
 
@@ -271,14 +273,14 @@
 
 /(spende|zuschuss).{1,10}ist für die ersten.{1,10}personen/i
 
+/(spende|zuschuss).{1,10}von uns gewonnen/i
+
+/(spende|zuschuss).{1,10}weltweit.{1,10}sie gehören zu den.{1,10}begünstigten/iu
 /(spende|zuschuss).{1,10}wurde bearbeitet und kann an sie/i
-/(spende|zuschuss).{1,10}antworten Sie bitte/i
-/(spende|zuschuss).{1,10}zugesprochen.{1,15}weitere informationen/iu
 
 /(spende|zuschuss).{1,10}zu erhalten.{1,10}kontaktieren sie/i
 /(spende|zuschuss).{1,10}zu erhalten.{1,10}senden sie.{1,10}eine e?.?mail/i
-
-/(spende|zuschuss)weltweit.{1,10}sie gehören zu den.{1,10}begünstigten/iu
+/(spende|zuschuss).{1,10}zugesprochen.{1,15}weitere informationen/iu
 
 /spenden?.{1,10}an.{1,10}zufällige personen/iu
 /spenden?.{1,10}an.{1,10}zufällig ausgewählte personen/iu

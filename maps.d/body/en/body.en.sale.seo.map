@@ -89,15 +89,16 @@
 /i came across your.{1,10}(web)?.?site and saw/i
 /i found a number.{1,10}seo.{1,10}issues/i
 
-/(improve|increase).{1,15}rankings?.{1,10}(customer|leads|traffic)/i
-/(improve|increase).{1,15}search engine rankings/i
-/(improve|increase).{1,15}(web)?.?site.{1,10}visibility/i
+/(improve|improving|increase|increasing).{1,15}rankings?.{1,10}(customer|leads|traffic)/i
+/(improve|improving|increase|increasing).{1,15}search engine rankings/i
+/(improve|improving|increase|increasing).{1,15}(web)?.?site.{1,10}visibility/i
+/(improve|improving|increase|increasing).{1,15}Google visibility is currently/i
 
 /(i|we).{1,10}can get your (web)?.?site/i
 
 /(i|we).{1,10}can help.{1,10}attract.{1,10}visitors?/i
 /(i|we).{1,10}can help.{1,10}seo/i
-/(i|we).{1,10}can help.{1,10}(improve|increase).{1,10}rankings?/i
+/(i|we).{1,10}can help.{1,10}(improve|improving|increase|increasing).{1,10}rankings?/i
 
 /(i|we).{1,10}help seo/i
 
@@ -114,6 +115,8 @@
 
 /i was.{1,10}(browsing|checking|examining|reviewing|visiting) your (web)?.?site.{1,35}it looks like/i
 /i was.{1,10}(browsing|checking|examining|reviewing|visiting) your (web)?.?site.{1,35}(found|noticed)/i
+
+/i was looking.{1,10}through.{1,10}www/i
 
 /it.{1,10}not ranking on.{1,10}(bing|google|yahoo)/i
 
