@@ -53,6 +53,8 @@
 /(bestaetigung|bestätigung).{1,10}leistungserstattung/i
 /(bestaetigung|bestätigung).{1,10}nötig zur Überweisung/iu
 
+/bezüglich einer rückerstattung/iu
+
 /bitte erstattung bestätigen/iu
 
 # C
@@ -182,6 +184,7 @@
 
 /(rück)?erstattung.{1,10}freigegeben.{1,10}bestätigung erforderlich/iu
 /(rück)?erstattung.{1,10}für doppelte/iu
+/(rück)?erstattung.{1,10}für ihr.{1,15}konto/i
 
 /(rück)?erstattung.{1,10}(aufgrund|bei|ihrer|wegen).{1,10}(doppelten|doppelter) zahlung/iu
 

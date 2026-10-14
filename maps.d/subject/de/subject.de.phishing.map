@@ -36,7 +36,7 @@
 # Tax W-8BEN
 # ------------------------------------------------------------------------------
 /w.?8ben.{1,10}(abgelaufen|aktualisierung)/i
-/w.?8ben.{1,10}erneuern/i
+/w.?8ben.{1,10}(erneuerung|erneuern)/i
 /w.?8ben.{1,10}formular/i
 /w.?8ben.{1,10}rechtzeitig/i
 
