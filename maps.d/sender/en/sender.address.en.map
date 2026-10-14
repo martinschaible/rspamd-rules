@@ -56,7 +56,7 @@
 
 /application/i
 
-/auth@/i
+/^auth@/i
 /auth\d{1,10}/i
 
 /authorized/i
