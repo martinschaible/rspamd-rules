@@ -86,8 +86,8 @@
 /(home.?page|web.?site).{1,10}design(ing)?.{1,10}(development|help|re.?design)/i
 /(home.?page|web.?site).{1,10}design(ing)?.?!/i
 
-/(home.?page|web.?site).{1,10}development.{1,10}affordable prices/i
-/(home.?page|web.?site).{1,10}development.{1,10}(redesign|solutions?)/i
+/(home.?page|web.?site).{1,10}(development|revamp).{1,10}affordable prices/i
+/(home.?page|web.?site).{1,10}(development|revamp).{1,10}(redesign|solutions?)/i
 
 /(home.?page|web.?site).{1,10}for \d{2}% off/i
 /(home.?page|web.?site).{1,10}maintenance contracts?/i
