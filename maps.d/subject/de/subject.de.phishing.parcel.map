@@ -460,9 +460,10 @@
 /wichtige?.{1,15}zustellung nicht möglich/iu
 /wichtige?.{1,15}zu ihrer sendung/i
 
-/wichtige information(en)?.{1,15}lieferung/i
+/wichtige information(en)?.{1,15}(lieferung|paket|sendung)/i
 
 /wir benötigen ihre anweisungen/iu
+/wir bitten um neuterminierung.{1,10}(lieferung|paket|sendung)/i
 
 /wir haben eine? nicht zugestelltes?.{1,10}(paket|sendung)/i
 /wir haben ihre?.{1,10}(paket|sendung).{1,10}bereit/i
