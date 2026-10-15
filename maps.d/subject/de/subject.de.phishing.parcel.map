@@ -515,8 +515,10 @@
 /zustellung.{1,10}kann.{1,15}nach zahlung erfolgen/i
 /zustellung.{1,10}kann.{1,15}nicht geplant werden/i
 /zustellung.{1,10}(fuer|für).{1,20}(bestaetigen|bestätigen)/i
-/zustellung.{1,10}(paket|sendung).{1,10}(angehalten|wartet auf sie)/i
 /zustellung.{1,10}möglich.{1,10}paket noch nicht abgeholt/iu
+
+/zustellung.{1,10}(paket|sendung).{1,10}(angehalten|wartet auf sie)/i
+/zustellung.{1,10}planen.{1,10}paket/i
 
 /(zustellung|zustellversuch).{1,25}(ausstehend|fehlgeschlagen)/i
 /(zustellung|zustellversuch).{1,10}(erfolglos|fehlgeschlagen).{1,10}(referenz|sendungs.?id)/i

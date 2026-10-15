@@ -150,6 +150,7 @@
 /(home.?page|web.?site).{1,10}upgrades?.{1,10}redesigns?/i
 
 /web.?design.{1,10}entwicklung.{1,10}(php|wordpress|woocommerce)/i
+/web.?design.?agentur.{1,10}sitz in indien/i
 
 /webseite.{1,10}ohne kosten.{1,10}das design/i
 
@@ -163,7 +164,9 @@
 /wir sind ein.{1,10}(china|indien).{1,15}(it.?dienstleister|unternehmen|web.?site)/i
 /wir sind ein.{1,15}web.?site.?entwicklung/i
 
-/wir sind.{1,10}experten.{1,10}webdesign/i
+/wir sind eine.{1,15}webdesign.?agentur/i
+
+/wir sind.{1,10}experten.{1,10}web.?design/i
 /wir sind.{1,10}indisches unternehmen/i
 
 /wir unterstützen.{1,15}unternehmen dabei.{1,10}(home.?page|web.?site)/i

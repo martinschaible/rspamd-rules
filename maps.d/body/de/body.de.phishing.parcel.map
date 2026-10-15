@@ -196,8 +196,8 @@
 /(lieferung|paket|sendung).{1,15}sich im.{1,15}(distributions|verteil).{1,15}befindet/i
 /(lieferung|paket|sendung).{1,10}status.{1,10}warteposition/i
 
-/(lieferung|paket|sendung).{1,15}wartet auf (die|eine).{1,15}(lieferung|zustellung)/i
-/(lieferung|paket|sendung).{1,15}wartet auf sie/i
+/(lieferung|paket|sendung).{1,20}wartet auf (die|eine).{1,15}(lieferung|zustellung)/i
+/(lieferung|paket|sendung).{1,20}wartet auf sie/i
 
 /(lieferung|paket|sendung).{1,15}weitertransport freigegeben/i
 /(lieferung|paket|sendung).{1,15}welches kurz vor der.{1,10}(lieferung|zustellung) steht/i
