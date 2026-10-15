@@ -205,6 +205,7 @@
 
 /(konto|profil).{1,10}(abgelaufen|eingeschränkt)/iu
 /(konto|profil).{0,15}(aktualisierung|update|überprüfung) erforderlich/iu
+/(konto|profil).{1,10}aktualisieren.{1,10}Zugriff zu behalten/i
 
 /(konto|profil).{1,10}benötigt ein.{1,10}(sicherheits)?update/iu
 /(konto|profil).{1,10}benötigt eine?.{1,10}aktualisierung/iu

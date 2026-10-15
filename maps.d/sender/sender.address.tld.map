@@ -88,10 +88,10 @@
 # 16.07.24 - Sample: support@rea.ru
 # -> No short domain name accepted
 /[a-z]{2,5}\.ru$/i 3.0
+/[0-9]{2,6}\.ru$/i
 
 # 15.01.26 - Sample: @dpj.io
-
-#/[a-z]{2,3}\.io/i 3.0
+# /[a-z]{2,3}\.io/i 3.0
 
 
 # 25.03.26 - Sample: projecthju77876.info
