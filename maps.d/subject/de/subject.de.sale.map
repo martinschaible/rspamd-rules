@@ -67,6 +67,8 @@
 
 /bedruckten?.{1,10}werbeartikel/i
 
+/beleuchtung.{1,10}statt uvp/i
+
 /besser.{1,10}günstiger.{1,10}schlafen/i
 /besser.{1,10}schlafen.{1,10}schnarchen/i
 /beste.{1,10}dash.?cam(era)?/i
@@ -346,6 +348,7 @@
 
 /statt \d{2,3}(,-)?.{1,10}(jetzt|nur).{1,10}\d{2,3}(,-)?/i
 /statt \d{2,3}.{1,10}(jetzt|nur).{1,10}\d{2,3}.{1,10}sofort einsatzbereit/i
+/statt uvp \d{2,3}.{1,10}(jetzt|nur).{1,10}\d{2,3}/i
 
 /sprachen sofort/i
 /sprechen sie.{1,15}in jeder sprache/i
