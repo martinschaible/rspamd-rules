@@ -22,6 +22,7 @@
 
 # B
 # ------------------------------------------------------------------------------
+/business.{1,10}correspondence.{1,10}proposal/i
 /business.{1,10}partnership/i
 /business.{1,10}reminder/i
 /business.{1,10}venture/i
@@ -132,7 +133,8 @@
 /proposal\.\./i
 
 /(proposal|proposition).{1,10}(\.\.|!)/i
-/(proposal|proposition).{1,10}for (business|you)/i
+/(proposal|proposition).{1,10}for.{1,10}(business|you)/i
+/(proposal|proposition).{1,10}for.{1,10}consideration/i
 /(proposal|proposition).{1,10}from banker/i
 /(proposal|proposition).{1,10}strategic investment/i
 /(proposal|proposition).{1,10}work together/i

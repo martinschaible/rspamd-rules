@@ -225,7 +225,8 @@
 # K
 # ------------------------------------------------------------------------------
 /kaufland.{0,10}angebote?/i
-/kaufland.{0,10}(geschenk|team)/i
+/kaufland.{0,10}(geschenk|gutschein)/i
+/kaufland.{0,10}team/i
 /kaufland.{0,10}#\d{1,10}/i
 
 /kauf\.land/i

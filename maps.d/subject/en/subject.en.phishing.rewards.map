@@ -15,6 +15,7 @@
 # ------------------------------------------------------------------------------
 /car emergency.?(kit|set)/i
 /medicare.?(kit|set)/i
+/medicare.{1,10}opportunity/i
 
 /rituals.{1,10}gift.?set/i
 
