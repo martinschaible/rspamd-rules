@@ -69,7 +69,8 @@
 
 # F
 # ------------------------------------------------------------------------------
-/fehlgeschlagene.{1,10}transaktion.{1,10}erkannt/i
+/fehlgeschlagene.{1,10}(transaktion|zahlung) für/iu
+/fehlgeschlagene.{1,10}(transaktion|zahlung).{1,10}erkannt/i
 
 /finanzamt.{1,10}auszahlung verfügbar/iu
 

@@ -46,6 +46,8 @@
 /abonnement.{1,10}(wird|wurde).{1,10}(ausgesetzt|pausiert)/i
 /abonnement.{1,15}vorübergehend.{1,10}(ausgesetzt|pausiert)/iu
 
+/abrechnung für.{1,15}unterbrochen/iu
+
 /aktualisieren sie ihr.{1,20}abonnement/iu
 
 /achtung.{1,10}ihr.{1,10}(computer|gerät|system) ist/i
@@ -73,6 +75,8 @@
 # ------------------------------------------------------------------------------
 /dateien auf ihrem.{1,10}gerät(computer|gerät|system).{1,10}sind infiziert/iu
 
+/dein.{1,15}abo(nnement)? benötigt aufmerksamkeit/iu
+
 # E
 # ------------------------------------------------------------------------------
 /(erneuern|reaktivieren) sie.{1,10}es jetzt/i
@@ -86,6 +90,8 @@
 
 # F
 # ------------------------------------------------------------------------------
+/fehlgeschlagener.{1,10}zahlungseinzug.{5,15}abo(nnement)?/i
+
 
 # G
 # ------------------------------------------------------------------------------
