@@ -33,6 +33,8 @@
 /deceased.{1,10}(client|customer).{1,10}of mine who passed away/i
 /deceased.{1,10}(client|customer).{1,20}to be your relative/i
 
+/discuss.{1,10}private inheritance/i
+
 # E
 # ------------------------------------------------------------------------------
 
@@ -50,6 +52,7 @@
 /inheritance.{1,15}(associated|linked) (to|with) your.{1,15}name/i
 /inheritance.{1,10}(claim|funds).{1,10}in my bank/i
 /inheritance.{1,10}(claim|funds).{1,10}your.{1,15}(account|bank)/i
+/inheritance.{1,10}matter with you/i
 
 /inherited.{1,10}money from my.{1,10}late.{1,10}husband/i
 
