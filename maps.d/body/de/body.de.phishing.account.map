@@ -130,6 +130,7 @@
 
 /konto für den.{1,15}zahlungsverkehr gesperrt/iu
 
+/(konto|profil).{1,15}abschluss des verfahrens.{1,20}gesperrt/i
 /(konto|profil).{1,10}aktivieren.{1,15}wird von ihnen eine gebühr/iu
 
 /(konto|profil).{1,10}aktualisierung.{1,15}funktionalität eingeschränkt/iu
@@ -353,6 +354,8 @@
 /verifizierung.{1,10}baldmöglichst durchzuführen.{1,10}um unterbrechungen/iu
 /verifizierung.{1,10}ihres.{1,15}kontos bisher nicht/i
 /verifizierung.{1,10}nicht innerhalb von.{1,10}stunden (abschliessen|abschließen)/iu
+
+/verpflichtendes update.{1,10}aktivierung/i
 
 /vorübergehenden einschränkung/iu
 

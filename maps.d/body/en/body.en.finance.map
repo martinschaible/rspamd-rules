@@ -118,7 +118,10 @@
 /llc.{1,15}investment (company|firm)/i
 
 /(loan|credit)s?.{1,10}apply/i
-/(loan|credit)s?.{1,10}at a competitive/i
+
+/(loan|credit)s?.{1,10}at a.{1,10}competitive/i
+/(loan|credit)s?.{1,15}at a.{1,10}reasonable rate/i
+
 /(loan|credit)s?.{1,15}business with low interest/i
 /(loan|credit)s?.{1,10}finance.{1,10}project/i
 /(loan|credit)s?.{1,10}for your.{1,10}(business|personal)/i
@@ -149,8 +152,9 @@
 
 # M
 # ------------------------------------------------------------------------------
-/(my|our) company.{1,10}(offering|offers?|provides?|providing).{1,10}(competitive|corporate).{1,15}loans/i
-/(my|our) company.{1,10}(offering|offers?|provides?|providing).{1,15}loans/i
+/(my|our) (company|group).{1,10}(offering|offers?|provides?|providing|renders).{1,10}(competitive|corporate).{1,15}loans/i
+/(my|our) (company|group).{1,10}(offering|offers?|provides?|providing|renders).{1,15}loans/i
+/(my|our) (company|group).{1,10}(offering|offers?|provides?|providing|renders).{1,15}financial/i
 
 # N
 # ------------------------------------------------------------------------------

@@ -161,6 +161,7 @@
 /ihre.{1,10}angaben zu aktualisieren/i
 /ihre.{1,10}(daten|konto.?informationen) aktuell sind/i
 /ihre.{1,10}identität als rechtmäßiger kontoinhaber/iu
+/ihre.{1,10}kontodaten veralten/i
 
 /ihre?.{1,10}legitimations.?prozess/i
 
@@ -227,6 +228,7 @@
 /(konto|profil).{1,10}(bleibt|kann|wird|wurde).{1,20}(begrenzt|deaktiviert|eingeschränkt|inaktiv|gesperrt|verifiziert)/i
 /(konto|profil).{1,10}(braucht|erfordert) ihre (aufmerksamkeit|bestätigung)/iu
 
+/(konto|profil).{1,15}minute für.{1,10}update/iu
 /(konto|profil).{1,10}muss innerhalb von.{1,15}aktualisiert/i
 
 /(konto|profil).{1,10}(stillgelegt|vorübergehende?)/iu
@@ -354,7 +356,7 @@
 /unserer?.{1,10}login.?methoden?/i
 /unserer?.{1,15}sicherheitsaktualisierung/i
 
-/update zu.{1,10}(deinem|ihrem).{1,15}(konto|profil)/i
+/update (für|zu).{1,10}(deinem|ihr).{1,15}(konto|profil)/iu
 
 # V
 # ------------------------------------------------------------------------------
