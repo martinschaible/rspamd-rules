@@ -160,6 +160,7 @@
 # 08.06.25
 /ebanking.{0,10}(ubs|postfinance)/i
 
+/elister/i
 /e l (i )?s t e r/i
 /^elster$/i
 
@@ -221,6 +222,8 @@
 /kiarna/i
 
 /klarna.?ab/i
+
+/klarna.{0,10}abrechnung/i
 /klarna.{0,10}(finanzservice|kundenservice|support)/i
 /klarna.{0,10}deutschland/i
 /klarna.{0,10}germany/i

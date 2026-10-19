@@ -312,6 +312,8 @@
 # ------------------------------------------------------------------------------
 /icorner.{0,10}(kundenservice|sicherheitsdienst)/i
 
+/instagram_/i
+
 /internal revenue service/i
 
 /international.{0,10}monetary.?fund/i
@@ -550,6 +552,8 @@
 
 # W
 # ------------------------------------------------------------------------------
+/webull.{0,10}support/i
+
 /we transfer/i
 /we-transfer/i
 /we.?transfer.?\|/i
