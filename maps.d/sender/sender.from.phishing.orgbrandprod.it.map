@@ -59,6 +59,7 @@
 
 /chat-gpt/i
 /chatgpt.?(ai|\+|plus)/i
+/chatgpt.{0,10}open.?ai/i
 
 /(chatgpt|open.?ai).{0,5}.?\|/i
 /(chatgpt|open.?ai).{0,5}llc/i
