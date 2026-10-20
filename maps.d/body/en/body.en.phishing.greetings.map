@@ -73,7 +73,7 @@
 /dear.{1,15}(client|customer|madam|sir).{1,15}we have detected.{1,10}iscrepancy/i
 /dear.{1,15}(client|customer|madam|sir).{1,15}we.{1,15}inform you.{1,15}domain.?name/i
 
-/dear.{1,15}(client|customer|madam|sir).{1,15}we were unable to process/i
+/dear.{1,15}(client|customer|madam|sir).{1,15}we were unable to.{1,20}process/i
 /dear.{1,15}(client|customer|madam|sir).{1,15}we were not able to complete your last/i
 /dear.{1,10}(client|customer|madam|sir).{1,10}we recently detected an issue/i
 
