@@ -151,7 +151,8 @@
 /^(,|\.|!|\$)/i
 
 # A subject does never end with a special character
-/“$/i
+# -> Too many False/Positives
+# /“$/i
 
 # A subject does never start with a comma
 /^,/i
