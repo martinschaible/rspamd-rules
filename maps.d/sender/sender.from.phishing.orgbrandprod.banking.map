@@ -59,8 +59,6 @@
 
 # B
 # ------------------------------------------------------------------------------
-/banksantander/i
-
 /bank.{0,10}sicherheit(sdienst)?/i
 /bank ag-?-.{0,10}(kundenbetreuung|kundenservice)/i
 
@@ -307,6 +305,10 @@
 
 # S
 # ------------------------------------------------------------------------------
+/santander.{0,10}app/i
+/santander.{0,10}direkt/i
+/banksantander/i
+
 /saxo.{0,5}bank/i
 /saxo.{0,5}support/i
 /saxo.{0,5}trader/i
