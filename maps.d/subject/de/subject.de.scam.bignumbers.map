@@ -6,9 +6,9 @@
 # Donation
 # ------------------------------------------------------------------------------
 /\d{2,4}(\.|,)?\d{3,4}.{1,10}(dollars?|euro?|gbp|usd|€|\$|£) spende/i
-/\d{2,4}(\.|,)?\d{3,4}.{1,10}(millionen)?.{1,10}(dollar|euro?|gbp|usd|€|\$|£)/i
-
 /^\d{1,2}.{1,10}millionen.{1,10}(dollars?|euro?|gbp|usd|€|\$|£) spende/i
+
+# /\d{2,4}(\.|,)?\d{3,4}.{1,10}(millionen)?.{1,10}(dollar|euro?|gbp|usd|€|\$|£)/i
 
 /^spende.{1,10}\d{2,4}(\.|,)?\d{3,4}/i
 
