@@ -86,7 +86,9 @@
 /(photo|push).?tan.{1,15}(aktivieren sie|aktivierung)/i
 /(photo|push).?tan.{1,10}aktualisieren/i
 
+/(photo|push).?tan.{1,10}innerhalb der/i
 /(photo|push).?tan.{1,10}ihre daten/i
+/(photo|push).?tan.{1,10}jetzt (aktivieren|handeln)/i
 /(photo|push).?tan.{1,10}legitimation/i
 /(photo|push).?tan.{1,15}(brief|erforderlich|ihre konto|ist nicht)/i
 /(photo|push).?tan.{1,10}gesperrt/i
@@ -94,13 +96,13 @@
 
 /(photo|push).?tan.{1,10}online/i
 /(photo|push).?tan.{1,10}(systems?|verfahren)/i
-/(photo|push).?tan.{1,10}innerhalb der/i
-/(photo|push).?tan.{1,10}jetzt aktivieren/i
 /(photo|push).?tan.{1,10}profil/i
 /(photo|push).?tan.{1,10}registrierung läuft/i
 /(photo|push).?tan.{1,10}vorübergehend aufgehoben/iu
 
 /^(photo|push).?tan$/i
+
+/pflicht.?update.{1,10}(photo|push).?tan/i
 
 # Q
 # ------------------------------------------------------------------------------
