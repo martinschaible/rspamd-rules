@@ -380,6 +380,8 @@
 /high.?(performance|quality).{1,10}(odm|oem).{1,20}manufacturer/i
 /high.?(performance|quality).{1,10}quartz.{1,10}products/i
 
+/high quality.{1,10}plastic.{1,10}products/i
+
 /hotel.{1,10}furniture.{1,10}factory/i
 
 /home.?appliances.{1,10}(factory|manufacturer)/i
@@ -585,6 +587,8 @@
 /plastic.?injection.{1,10}mould.?maker/i
 /plastic.?(mold|tooling|toolmaking).{1,10}(making|quotation|services|solution)/i
 /plastic.?mould.{1,10}molding/i
+
+/plastic.{1,10}products.{1,10}for you/i
 
 /plate.{1,10}mesh.{1,10}(manufacturer|supplier)/i
 
