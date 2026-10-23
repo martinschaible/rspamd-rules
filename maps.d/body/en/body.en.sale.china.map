@@ -369,8 +369,10 @@
 /we.{1,10}are.{1,10}electronic.{1,10}parts/i
 
 /we.{1,10}are.{1,15}custom oem/i
-/we.{1,10}are.{1,15}(factory|manufacturer).{1,10}from.{1,10}china/i
-/we.{1,10}are.{1,10}(factory|manufacturer).{1,15}(catalogue|folder|printing|sticker)/i
+/we.{1,10}are.{1,15}(factory|manufacturer|supplier).{1,10}from.{1,10}china/i
+/we.{1,10}are.{1,10}(factory|manufacturer|supplier).{1,15}(catalogue|folder|printing|sticker)/i
+/we.{1,10}are.{1,10}(factory|manufacturer|supplier).{1,15}electronic components/i
+
 /we.{1,10}are.{1,10}printer/i
 /we.{1,10}are.{1,20}strong in supplying/i
 /we.{1,10}are.{1,10}top.?notch.{1,10}producer/i
