@@ -1005,7 +1005,10 @@
 /wichtige?.{1,10}(hinweis|info(rmation)?|mitteilung).{1,10}zu.{1,15}konto/i
 /wichtige?.{1,15}(hinweis|info(rmation)?|mitteilung).{1,10}zu.{1,15}kontaktdaten/i
 /wichtige?.{1,10}(hinweis|info(rmation)?|mitteilung).{1,10}zu.{1,15}rückerstattung/iu
+
 /wichtige?.{1,15}(hinweis|info(rmation)?|mitteilung).{1,10}zu.{1,15}sicherheitseinstellungen/i
+/wichtige?.{1,15}(hinweis|info(rmation)?|mitteilung).{1,10}zu.{1,15}(sicherheitsmassnahmen|sicherheitsmaßnahmen)/i
+
 /wichtige?.{1,10}(hinweis|info(rmation)?|mitteilung).{1,10}zu.{1,15}vorgang/i
 
 /wichtige?.{1,15}(hinweis|info(rmation)?|mitteilung).{1,10}zur.{1,15}aktuellen abrechnung/i
