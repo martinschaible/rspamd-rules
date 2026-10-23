@@ -18,6 +18,30 @@
 # Detect repeated invisible Unicode separator characters used as letter gaps or placeholders
 # /[​‌‍﻿‏⁠]{4,}/i
 
+# Mixed-script homoglyphs: one Latin letter directly beside a lookalike
+# ------------------------------------------------------------------------------
+# Spammers spell a Latin word with Cyrillic or Greek letters that look the same.
+# Sample: "АDАС Vеrѕаnԁаbtеіlυng" reads as "ADAC Versandabteilung".
+#
+# These maps cannot ask for "a foreign letter somewhere in the word": Hyperscan
+# has no Unicode script properties and no lookahead. The pattern therefore
+# matches only an immediate pair, Latin then lookalike or lookalike then Latin.
+# A space, hyphen, or other character between the two scripts does not match.
+# A name that is entirely Latin or entirely Cyrillic does not match either.
+#
+# The symbol scores 12 and two characters are enough for a hit, so the class
+# holds only letters that look like Latin. The rest of Cyrillic and Greek is
+# left out on purpose.
+#
+# The flag u is required. Without it a character class matches single UTF-8
+# bytes and hits unrelated text. The flag i does not case-fold Cyrillic or
+# Greek, so both cases are written out.
+#
+# Cyrillic: А а В Е е К М Н О о Р С с Т Х х ѕ і ԁ
+# Greek:    υ
+# ------------------------------------------------------------------------------
+/(?:[A-Za-z][АаВЕеКМНОоРСсТХхѕіԁυ]|[АаВЕеКМНОоРСсТХхѕіԁυ][A-Za-z])/iu
+
 # Amazon with hidden Unicode separators like A‌m⁠a‌z​on\.co\.jp
 # ------------------------------------------------------------------------------
 /a(?:[​‌‍﻿‏⁠]+[​‌‍﻿‏⁠]*|)m(?:[​‌‍﻿‏⁠]+[​‌‍﻿‏⁠]*|)a(?:[​‌‍﻿‏⁠]+[​‌‍﻿‏⁠]*|)z(?:[​‌‍﻿‏⁠]+[​‌‍﻿‏⁠]*|)o[​‌‍﻿‏⁠]+[​‌‍﻿‏⁠]*n(?:[​‌‍﻿‏⁠]*\.[​‌‍﻿‏⁠]*c(?:[​‌‍﻿‏⁠]+[​‌‍﻿‏⁠]*|)o[​‌‍﻿‏⁠]*\.[​‌‍﻿‏⁠]*j[​‌‍﻿‏⁠]*p)?/i
@@ -41,6 +65,9 @@
 # ------------------------------------------------------------------------------
 /A⁠p‍ple‌/i
 /App‍le⁠/i
+
+# Mixed-script homoglyphs for "ADAC"
+/АDАС/i
 
 # B
 # ------------------------------------------------------------------------------
@@ -104,6 +131,9 @@
 
 # V
 # ------------------------------------------------------------------------------
+
+# Mixed-script homoglyphs for "Versandabteilung"
+/Vеrѕаnԁаbtеіlυng/i
 
 # W
 # ------------------------------------------------------------------------------
