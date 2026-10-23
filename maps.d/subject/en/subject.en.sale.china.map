@@ -199,7 +199,7 @@
 /custom.{1,10}steel inserts/i
 /custom.{1,15}stickers?.{1,10}emblems/i
 /custom.{1,15}(t.?)shirts.{1,10}tracksuits/i
-/custom.{1,15}transformer.{1,10}manufacturer/i
+/custom.{1,15}(bag|transformer).{1,10}manufacturer/i
 /custom.{1,15}underwear/i
 /custom.{1,15}wire.{1,10}harness/i
 /custom.{1,15}women.{1,10}clothing/i
@@ -460,6 +460,7 @@
 /manufacture.{1,10}vendor from china/i
 
 /manufacturers?.{1,20}(column|distillation)/i
+/manufacturers?.{1,20}full customization available/i
 /manufacturers?.{1,10}partnership.{1,10}evaluation/i
 /manufacturers?.{1,10}for.{1,15}packing/i
 /manufacturers?.{5,25}good rate/i
