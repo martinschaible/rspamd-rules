@@ -136,11 +136,11 @@
 # ------------------------------------------------------------------------------
 /mastercard.{1,10}identity.?check/i
 
-/mtan.{1,10}verifizierung.{1,10}ausstehend/i
-
 # N
 # ------------------------------------------------------------------------------
 /neue agb.{1,20}daten aktualisieren/i
+
+/neue sicherheitsvorschriften.{1,10}erforderlich/i
 /neue starke authentifizierungsdienst/i
 
 /^neuigkeiten für sie/i
