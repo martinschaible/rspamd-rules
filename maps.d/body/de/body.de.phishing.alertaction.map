@@ -137,10 +137,11 @@
 
 # L
 # ------------------------------------------------------------------------------
-/letzte (aufforderung|erinnerung|warnung).{1,10}datenaktualisierung/i
-/letzte (aufforderung|erinnerung|warnung).{1,10}ihre geräte/iu
-/letzte (aufforderung|erinnerung|warnung).{1,10}ihre lieferung/i
-/letzte (aufforderung|erinnerung|warnung).{1,10}vor rücksendung/iu
+/letzte.{1,10}(aufforderung|erinnerung|warnung).{1,10}angebot verfällt/iu
+/letzte.{1,10}(aufforderung|erinnerung|warnung).{1,10}datenaktualisierung/i
+/letzte.{1,10}(aufforderung|erinnerung|warnung).{1,10}ihre geräte/iu
+/letzte.{1,10}(aufforderung|erinnerung|warnung).{1,10}ihre lieferung/i
+/letzte.{1,10}(aufforderung|erinnerung|warnung).{1,10}vor rücksendung/iu
 
 # M
 # ------------------------------------------------------------------------------
