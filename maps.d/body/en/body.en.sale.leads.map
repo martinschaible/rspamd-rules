@@ -172,6 +172,7 @@
 
 # O
 # ------------------------------------------------------------------------------
+/our databases.{1,10}include.{1,10}names/i
 
 # P
 # ------------------------------------------------------------------------------
@@ -235,9 +236,12 @@
 
 /we.{1,10}offer(ing)?.{1,20}targeted.{1,15}(contact|list)/i
 
-/we.{1,10}provide.{1,15}(accurate|customizable).{1,15}datasets/i
+/we.{1,10}provide.{1,15}accurate.{1,15}(databases|datasets)/i
+/we.{1,10}provide.{1,15}(contact|customizable).{1,15}(databases|datasets)/i
+.
 /we.{1,10}provide.{1,15}contacting website owners/i
-/we.{1,10}provide.{1,15}high(ly)?.{1,10}targeted.{1,20}contact/i
+/we.{1,10}provide.{1,30}targeted.{1,20}contact/i
+/we.{1,10}provide.{1,30}targeted.{1,20}technology/i
 /we.{1,10}provide.{1,15}verified.{1,10}reliable.{1,10}marketing data/i
 
 /(web)?site.{1,25}(generate|generating).{1,10}more leads/i
