@@ -257,7 +257,7 @@
 /sie ein.{1,10}exklusives geschenk auszuwählen/iu
 
 /sie für ein exklusives geschenk ausgewählt/iu
-/sie gehören zu.{1,10}auserwählten/iu
+/sie gehören zu.{1,15}(auserwählten|ausgewählten)/iu
 
 /sie.{1,10}(als|sind unser).{1,10}möglicher gewinner/iu
 /sie.{1,10}als einer der.{1,15}teilnehmer unserer exklusiven/iu
@@ -267,7 +267,7 @@
 /sie sich für die aktuelle.{1,30}prämie qualifizieren/iu
 
 /sie sind auf unserer.{1,10}gewinnerliste/i
-/sie sind einer.{1,20}exklusiv ausgewählten empfänger/i
+/sie sind einer.{1,20}exklusiv.{1,10}(auserwählten|ausgewählten)/i
 
 /sie.{1,10}nicht handeln.{1,10}wird.{1,20}an eine andere person/i
 
