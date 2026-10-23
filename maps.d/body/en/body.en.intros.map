@@ -322,6 +322,8 @@
 # ------------------------------------------------------------------------------
 /we.{1,10}(contacting you|reaching out|writing).{1,15}introduce.{1,10}(company|ourselves)/i
 
+/we are.{1,10}based in.{1,30}we specialize in/i
+
 /we are.{1,10}company (based|located) in/i
 /we are.{1,10}digital marketing company/i
 /we are.{1,10}from.{1,20}we found your e?.?mail/i
