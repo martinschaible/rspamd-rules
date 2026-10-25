@@ -739,9 +739,9 @@
 
 /(sicherheitsmassnahmen?|sicherheitsmaßnahmen?).{1,10}(bestätigen|bestaetigen) sie ihren/i
 /(sicherheitsmassnahmen?|sicherheitsmaßnahmen?).{1,15}jetzt.{1,15}konto/i
+/(sicherheitsmassnahmen?|sicherheitsmaßnahmen?).{1,10}jetzt.{1,10}(durchführen|handeln)/iu
 
 /sicherheits.?nachricht.{1,10}online/i
-
 /sicherheits.?problem.{1,10}erkannt.{1,10}zahlung/i
 
 /sicherheitsstatus kritisch.{1,10}jetzt reagieren/i
