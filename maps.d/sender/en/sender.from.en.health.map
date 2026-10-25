@@ -324,6 +324,7 @@
 
 /african.{0,10}(candy|ritual)/i
 
+/age.{0,10}backwards/i
 /age.{0,10}(freezing|spots?)/i
 /age.{0,10}(reset|reversal|rewind)/i
 /age.{0,10}slower/i
@@ -806,7 +807,8 @@
 
 /greek.{0,10}brew/i
 /green.{0,10}(black|clay|oil|remedy)/i
-/grow.{0,10}(hair|trick)/i
+
+/grow(ing)?.{0,10}(hair|trick)/i
 
 /guilt.{0,10}free/i
 /gum.{0,10}(bleeding|disease|health|saver)/i

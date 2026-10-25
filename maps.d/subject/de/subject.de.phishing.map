@@ -225,6 +225,8 @@
 # 19.05.25 - Sample: Finanznachrichten im Juni - 225292232502
 /finanznachrichten im.{1,20}\d{10,20}/i
 
+/folgen sie den anweisungen/i
+
 /freigegeben.{1,10}verifizierung erforderlich/i
 
 /frist zur.{1,10}datenaktualisierung/i
@@ -458,6 +460,9 @@
 /sicherheitsinformationen erforderlich/i
 
 /(sicherheitsmassnahmen|sicherheitsmaßnahmen).{1,10}aktivieren.{1,10}jetzt starten/i
+/(sicherheitsmassnahmen|sicherheitsmaßnahmen).{1,10}bis.{1,10}\d{2,}\.\d{2,}\.\d{2,4}/i
+/(sicherheitsmassnahmen|sicherheitsmaßnahmen).{1,10}jetzt durchführen/i
+
 /sicherheitsnachweis erforderlich.{1,10}steuerguthaben/i
 
 /sicherheitssystem wurde aktualisiert/i

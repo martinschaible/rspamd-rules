@@ -323,7 +323,9 @@
 /sie gebeten.{1,10}sich.{1,10}zu identifizieren/i
 
 /sie ihre?.{1,15}(informationen|konto|profil) aktualisieren/i
-/sie ihre.{1,10}kontodaten aktualisiert haben/i
+
+/sie ihre.{1,10}(kontaktdaten|kontodaten).{1,10}aktualisiert haben/i
+/sie ihre.{1,10}(kontaktdaten|kontodaten).{1,10}überprüfen/iu
 
 /sie sämtlichen angeforderten anweisungen folgen/i
 

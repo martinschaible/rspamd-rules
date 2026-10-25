@@ -88,9 +88,11 @@
 /^consors$/i
 /consors.{0,10}invest/i
 
+/consors?bank.{0,10}benachrichtigung/i
 /consors?bank.{0,10}center/i
 /consors?bank.{0,10}finanz/i
-/consors?bank.{0,10}modul/i
+/consors?bank.{0,10}(message|modul)/i
+/consors?bank.{0,10}newsletter/i
 /consors?bank.{0,10}(informations|kunden)?service/i
 /consors?bank.{0,10}portal/i
 /consors?bank.{0,10}(schutz|strategie|support)/i
@@ -367,6 +369,7 @@
 
 /twint$/i
 /twint\.ch/i
+/twint_/i
 
 /twint-[a-z]{2}/i
 /twint.{0,10}(ag|offer|team)/i
