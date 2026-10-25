@@ -15,6 +15,18 @@
 # Detect text wrapped in RLO/PDF markers (U+202E ... U+202C), a common masking trick
 # /‮.{0,80}‬/i
 
+# Right-to-left override (U+202E) in the display name
+# ------------------------------------------------------------------------------
+# Sample: U+202E followed by "troppuS yfitopS" is displayed as "Spotify Support".
+# The stored characters are the reverse of the words the reader sees.
+#
+# Only U+202E is matched. The broader bidi class above also contains marks that
+# appear in ordinary mixed-direction names, and it stays commented out.
+# A pattern that requires a closing U+202C misses this sample, because the
+# override runs through to the end of the name.
+# ------------------------------------------------------------------------------
+/‮/i
+
 # Detect repeated invisible Unicode separator characters used as letter gaps or placeholders
 # /[​‌‍﻿‏⁠]{4,}/i
 
