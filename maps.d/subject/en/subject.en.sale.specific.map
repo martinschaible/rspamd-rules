@@ -71,6 +71,8 @@
 /\d{3,4}.{1,5}live.?channels/i
 /subscription covers everything/i
 
+/your ip.?tv is expiring soon.{1,10}renew.{1,10}get/i
+
 # WiFi
 # ------------------------------------------------------------------------------
 /(boost|improve) your (internet|wi.?fi|wireless)/i
