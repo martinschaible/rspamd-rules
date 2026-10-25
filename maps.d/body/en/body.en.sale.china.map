@@ -173,7 +173,8 @@
 
 /experience.{1,15}(electronic|components).{1,15}distributor/i
 
-/exporter specializing.{1,10}variety of/i
+/(exporter|exporting).{1,10}printing products.{1,10}good quality/i
+/(exporter|exporting).{1,10}specializing.{1,10}variety of/i
 
 # F
 # ------------------------------------------------------------------------------
@@ -219,6 +220,7 @@
 /(leading|trusted|your).{1,10}(pcba?|printed.?circuit.?board).{1,10}(factory|manufacturer)/i
 
 /(leading|trusted).{1,10}partner to oem/i
+/(leading|trusted).{1,10}supplier with.{1,10}15 years of experience/i
 /(leading|trusted).{1,10}warehouse distributor/i
 
 /looking for.{1,10}premium custom/i
@@ -283,7 +285,9 @@
 /plastic.{1,10}metal limited/i
 
 /producer.{1,10}specializes in making/i
+
 /printing center.{1,10}(china|ltd)/i
+/printing products.{1,10}good quality.{1,10}low price/i
 
 /professional.{1,10}freight forwarding/i
 /professional.{1,10}electronics.{1,10}distributor since/i
@@ -446,6 +450,7 @@
 /we.{1,10}support.{1,10}(odm|oem)/i
 
 /we.{1,10}specialize.{1,20}(advanced|bearings|design|groove)/i
+/we.{1,10}specialize.{1,20}bulk procure/i
 /we.{1,10}specialize.{1,20}(cleanroom|cnc|components|custom)/i
 /we.{1,10}specialize.{1,20}electronic/i
 /we.{1,10}specialize.{1,20}hard.?to.?find/i

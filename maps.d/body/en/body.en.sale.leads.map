@@ -23,11 +23,12 @@
 
 # A
 # ------------------------------------------------------------------------------
-/(attendees|visitors).{1,10}list.{1,10}available.{1,30}(discounted|promotional)/i
-/(attendees|visitors).{1,10}list.{1,10}with.{1,10}exclusive fee/i
-
+/accurate database in.{1,10}excel file/i
 /acquired.{1,20}contact details/i
 /acquired.{1,10}event attendees/i
+
+/(attendees|visitors).{1,10}list.{1,10}available.{1,30}(discounted|promotional)/i
+/(attendees|visitors).{1,10}list.{1,10}with.{1,10}exclusive fee/i
 
 /automation.{1,10}convert.{1,10}leads/i
 
@@ -289,8 +290,9 @@
 
 /your.{1,10}business with.{1,10}leads/i
 
-/your.{1,10}target (audience|clients).{1,15}with name/i
-/your.{1,10}target (audience|clients).{1,15}your business/i
+/your.{1,10}target (audience|clients|industry).{1,15}we have.{1,15}ideal customers/i
+/your.{1,10}target (audience|clients|industry).{1,15}with name/i
+/your.{1,10}target (audience|clients|industry).{1,15}your business/i
 
 # Z
 # ------------------------------------------------------------------------------
