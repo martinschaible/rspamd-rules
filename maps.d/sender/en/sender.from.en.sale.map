@@ -406,10 +406,11 @@
 
 /tax.{0,10}(consultant|helpers?|resolvers?)/i
 
-/tech.{0,10}(digest|safety)/i
-
 /team.{0,10}team/i
+/tech.{0,10}(digest|safety)/i
 /text.{0,10}voice/i
+
+/thermo.{0,10}heat/i
 
 /timeshare.{0,10}owner/i
 /tiny.{0,10}(camera|drone|phone|projector)/i

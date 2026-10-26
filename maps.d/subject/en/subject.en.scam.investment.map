@@ -51,8 +51,10 @@
 /^investment.{1,10}(funds?|partner)$/i
 
 /investment fund$/i
+
 /investment.{1,10}(business|collaboration|deal|fund of|funds|inquiry)/i
 /investment.{1,10}(partnership|proposal|proposition|relocation|request)/i
+/investment.{1,10}project.{1,10}partnerships?/i
 
 /investor seeking/i
 

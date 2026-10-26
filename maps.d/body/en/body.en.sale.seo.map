@@ -72,6 +72,8 @@
 /google.{1,10}other major search engines/i
 /google.{1,10}reviewed.{1,10}your (web)?.?site/i
 
+/google.{1,10}visibility.{1,10}www/i
+
 /google.{1,10}we can help you/i
 /google.{1,10}we can optimize/i
 
@@ -87,13 +89,15 @@
 /i.?a?.?m.{1,20}seo.?(consultant|expert|manager)/i
 
 /i came across your.{1,10}(web)?.?site and saw/i
+/i came across.{1,5}www/i
+
 /i explored.{1,10}www.{10,40}identified some opportunities/i
 /i found a number.{1,10}seo.{1,10}issues/i
 
 /(improve|improving|increase|increasing).{1,15}rankings?.{1,10}(customer|leads|traffic)/i
 /(improve|improving|increase|increasing).{1,15}search engine rankings/i
 /(improve|improving|increase|increasing).{1,15}(web)?.?site.{1,10}visibility/i
-/(improve|improving|increase|increasing).{1,15}Google visibility is currently/i
+/(improve|improving|increase|increasing).{1,15}google visibility is currently/i
 
 /improved seo.{1,10}traditional/i
 
@@ -191,7 +195,10 @@
 /run.{1,10}free seo/i
 
 # S
+# ------------------------------------------------------------------------------
 /search.?engine.{1,10}came across your.{1,15}(web)?.?site/i
+
+/send.{1,10}seo.{1,10}report for/i
 
 /seo.{1,10}based.{1,10}(web)?.?site.{1,10}design/i
 /seo.{1,10}(bundle|success)/i

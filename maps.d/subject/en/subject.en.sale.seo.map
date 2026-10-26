@@ -102,13 +102,17 @@
 
 /(get found|guaranteed|top rank(ing)?).{1,10}(bing|google|yahoo)/i
 
-/get more (web?).?site traffic/i
+/get.{1,10}more (web?).?site traffic/i
+/get.{1,10}ranking report.{1,10}www/i
+/get.{1,10}traffic.{1,10}autopilot/i
+
 /get price\.?/i
-/get traffic.{1,10}autopilot/i
 
 /^google.{1,10}position$/i
-/google.{1,10}keyword ranking/i
 /google.?s top/i
+
+/google.{1,10}keyword ranking/i
+/google.{1,10}visibility.{1,10}www/i
 
 /grow.{1,10}sales.{1,10}traffic/i
 /grow your.{1,10}business with/i
