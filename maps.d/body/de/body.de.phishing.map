@@ -125,6 +125,8 @@
 # ------------------------------------------------------------------------------
 /das zugangs.?team/i
 
+/datenbestätigung innerhalb von.{1,10}tagen/iu
+
 /daten.{1,10}im portal zu.{1,10}prüfen/iu
 /daten.{1,10}korrekt sind.{1,10}bitten wir um.{1,15}bestätigung/iu
 /daten.{1,10}müssen spätestens bis.{1,35}aktualisiert sein/iu
@@ -334,6 +336,8 @@
 # V
 # ------------------------------------------------------------------------------
 /vervollständigen sie.{1,10}innerhalb von.{1,20}verifizierung/i
+
+/verifizierung.{1,10}aktuellen postadresse.{1,10}erforderlich/i
 
 /verpflichtendes?.{1,10}(aktivierung|kundenupdate)/i
 /verpflichtende?.{1,10}verifizierung/i
