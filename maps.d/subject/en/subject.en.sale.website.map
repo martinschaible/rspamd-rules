@@ -113,7 +113,8 @@
 # ------------------------------------------------------------------------------
 /ideas? to refresh.{1,10}www/i
 
-/improve your.{1,10}(home.?page|web.?site).{1,10}www/i
+/improve your.{1,10}(home.?page|web.?site).{1,10}(\||www)/i
+
 /issues on your.{1,10}(homepage|web.?site)/i
 
 # J
