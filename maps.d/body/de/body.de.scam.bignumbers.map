@@ -130,6 +130,7 @@
 
 /ihres.{1,10}fonds in höhe von.{1,10}\d{2,4}(\.|,)?\d{3,4}/i
 /ihrem.{1,10}konto.{1,10}\d{2,4}(\.|,)?\d{3,4}.{1,15}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,10}gutzuschreiben/i
+/ihren.{1,10}gewinn von.{1,15§}(euro?|dollars?|gbp|millionen|tausend|usd|€|\$|£).{1,10}erhalten/i
 
 /ihnen eine entschädigung in höhe von.{1,10}\d{2,4}(\.|,)?\d{3,4}.{1,15}zugesprochen/iu
 
