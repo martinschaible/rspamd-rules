@@ -139,6 +139,12 @@
 # 23.11.25 - Phishing
 /\.cn\/portal\/jp\//i
 
+# 27.10.26 - Sample: https://s3.us-east-1.amazonaws.com/turbify.biz.help.centre.blob.core.windows.web.6126754686/log.html
+/amazonaws\.com\/[a-z0-9-]{4,25}\.[a-z]{2,10}\.[a-z]{2,10}\.[a-z]{2,10}\./i
+
+# 27.10.26 - Sample: blob.core.windows.web.6126754686/log.html
+/core\.windows\.web\.[0-9]{10,25}\//i
+
 # Path and file
 # ------------------------------------------------------------------------------
 
