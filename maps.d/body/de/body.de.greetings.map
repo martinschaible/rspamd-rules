@@ -109,7 +109,7 @@
 /guten (abend|morgen|tag).{1,10}lieber?.{1,15}(kunde|kundin)/i
 
 # Swiss uses "guten tag ms"
-#/guten (abend|morgen|tag).{1,10}(madam|ms|sir)/i
+# /guten (abend|morgen|tag).{1,10}(madam|ms|sir)/i
 /guten (abend|morgen|tag).{1,10}(madam|sir)/i
 /guten (abend|morgen|tag).{5,35}meldet sich/i
 
@@ -137,7 +137,7 @@
 /guten (abend|morgen|tag).{1,25}wir entwickeln.{1,10}software/i
 /guten (abend|morgen|tag).{1,10}wir wollten sie kurz/i
 
-#/guten (abend|morgen|tag).{1,10}wir kontaktieren sie/i
+# /guten (abend|morgen|tag).{1,10}wir kontaktieren sie/i
 
 # Finance
 /guten (abend|morgen|tag).{1,10}benötigen sie finanzhilfe/iu
@@ -184,7 +184,7 @@
 /hallo.{1,10}gewinner/i
 /hallo.{1,10}glückwunsch/iu
 
-#/hallo.{1,10}herr.{1,10}frau/i
+# /hallo.{1,10}herr.{1,10}frau/i
 
 /hallo.{1,10}(herzliche|herzlichste) (grüsse|grüße).{1,10}(an sie|hiermit)/iu
 /hallo.{1,10}(herzliche|herzlichste) (grüsse|grüße).{1,20}ich hoffe.{1,10}ihr tag/iu
@@ -312,10 +312,10 @@
 /lieber?.{1,10}(kunde|nutzer).{1,10}ich hoffe.{1,10}es geht ihnen gut/i
 /lieber?.{1,10}(kunde|nutzer).{5,35}im rahmen unserer/i
 
-#/liebe.{1,15}shop kund\*?in/i
+# /liebe.{1,15}shop kund\*?in/i
 
 # DPD uses this, how stupid
-#/lieber?.{1,10}empfänger(in)?/iu
+# /lieber?.{1,10}empfänger(in)?/iu
 /(lieber?|sehr geehrter?).{1,5}e?.?mail.{0,15}(besitzer|eigentümer|inhaber)/iu
 
 /liebster.{1,10}(freund|geliebter)/i
@@ -363,7 +363,7 @@
 /sehr geehrter herr.{1,5}frau/i
 
 /sehr geehrter?.{1,15}(administrator|bankkunde|begünstigter?|empfänger|fahrer|firma|käufer)/iu
-#/sehr geehrter?.{1,10}geschäftspartner/iu
+# /sehr geehrter?.{1,10}geschäftspartner/iu
 /sehr geehrter?.{1,10}geschäftsmann/iu
 /sehr geehrter?.{1,10}nachfolger/i
 /sehr geehrter?.{1,10}(preisträger|unternehmer)/iu
