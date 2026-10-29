@@ -217,7 +217,7 @@
 
 /lieferung nicht möglich.{1,10}falsche adresse/i
 
-/(lieferung|paket|sendung|versand|zustellung).{1,10}bestätigt/iu
+/(lieferung|paket|versand|zustellung).{1,10}bestätigt/iu
 /(lieferung|paket|sendung|versand|zustellung).{1,10}jetzt bestätigen/i
 
 /(lieferung|paket|sendung|versand|zustellung).{1,10}\.\.\.\]/i
