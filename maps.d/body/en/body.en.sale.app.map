@@ -57,6 +57,8 @@
 
 # H
 # ------------------------------------------------------------------------------
+/help with an.{1,10}(android|ios) project/i
+
 /helping companies.{1,10}build.{1,15}mobile.?apps/i
 
 # I
@@ -154,6 +156,8 @@
 /you.{1,10}(considering|interested|looking|need|planning|thinking|want).{1,15}(about|for|in).{1,15}(android|ios|iphone|mobile)?.?(app|web)/i
 /you.{1,10}(considering|interested|looking|need|planning|thinking|want).{1,15}(build|create|creating|develop).{1,15}(android|ios|iphone|mobile)?.?(app|web)/i
 /you.{1,10}(considering|interested|looking|need|planning|thinking|want).{1,15}new.{1,15}apps?/i
+
+/you.{1,10}exploring options for.{1,10}app/i
 
 /your.{1,10}(android|ios).{1,15}apps? development/i
 

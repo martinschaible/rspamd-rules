@@ -133,7 +133,8 @@
 
 # P
 # ------------------------------------------------------------------------------
-/pending delivery to your inbox/i
+/pending.{1,10}delivery to your inbox/i
+/pending.{1,10}(e?.?mail|message)s?.{1,10}verify to resolve/i
 
 # Q
 # ------------------------------------------------------------------------------
