@@ -164,7 +164,8 @@
 /dear.{1,10}hiring manager/i
 /dear.{1,10}industry professional/i
 
-/dear.{1,10}(good day|greetings)/i
+# /dear.{1,10}(good day|greetings)/i
+/dear.{1,10}greetings?/i
 /dear.{1,10}i hope you are doing well.{1,10}i am.{5,35}from/i
 /dear.{1,25}this is.{5,25}from/i
 
