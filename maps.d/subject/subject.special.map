@@ -124,11 +124,17 @@
 # Two periods and a at sign
 /\.\.@/i
 
+# Two periods and a hash sign
+/\.\.#/i
+
 # Two periods and a exclamation mark, twice
 /\.\.\.!\.\.\.!/i
 
 # Two stars and a question mark 
 /\*\*\?/i
+
+# Two stars and a hash sign
+/\*\*#/i
 
 # Two and three periods and a exclamation mark at the end of the line
 /\.\.!$/i
