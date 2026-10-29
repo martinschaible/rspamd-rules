@@ -145,8 +145,9 @@
 
 # M
 # ------------------------------------------------------------------------------
-/mitteilung zur?.{1,10}erstattungsanspruch/i
-/mitteilung zur?.{1,10}rückerstattungsanfrage/iu
+/(mitteilung|nachricht) zur?.{1,10}erstattung/iu
+/(mitteilung|nachricht) zur?.{1,10}erstattungsanspruch/i
+/(mitteilung|nachricht) zur?.{1,10}rückerstattungsanfrage/iu
 
 # N
 # ------------------------------------------------------------------------------
