@@ -63,6 +63,9 @@
 /americanexpress-/i
 /\.americanexpress\./i
 
+#
+/amt.?handelsregister/i
+
 /app.?store/i
 
 /apple-bank/i
@@ -135,6 +138,10 @@
 
 # H
 # ------------------------------------------------------------------------------
+/-handelsregister-/i
+/handelsregister@/i
+/handelsregister.?support/i
+
 /hermes\.de@/i
 
 /hl.?group/i
@@ -257,6 +264,8 @@
 # ------------------------------------------------------------------------------
 /telekom\.de@/i
 /telekom@/i
+
+/twint_/i
 
 # U
 # ------------------------------------------------------------------------------

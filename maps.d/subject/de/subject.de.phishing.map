@@ -203,6 +203,7 @@
 /eingestellt.{1,5}#\d{2,15}/i
 
 /einkommensteuerbescheid.{1,15}steht bereit/i
+/eintragung enthält.{1,20}fehlerhafte informationen/i
 
 # Meta wants to delete your account
 /endgültige löschung ihrer seite/iu
@@ -377,6 +378,9 @@
 /mitteilung zur turnusgemäßen/i
 
 /müssen jetzt bestätigt werden/iu
+
+/möglicherweise fehlerhaft registriert/iu
+/möglicherweise fehlerhafte informationen/iu
 
 # N
 # ------------------------------------------------------------------------------

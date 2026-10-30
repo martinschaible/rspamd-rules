@@ -353,7 +353,7 @@
 
 /(arterial|artery).{0,10}(fix|flush|health|plaque)/i
 /(arterial|artery).{0,10}(cleanse|cleansing|cure)/i
-/(arterial|artery).{0,10}(research|reset|resque)/i
+/(arterial|artery).{0,10}(report|research|reset|resque)/i
 /(arterial|artery).{0,10}(tea|tip)/i
 
 /arthritis.{0,10}(alert|gone|trigger)/i
@@ -660,7 +660,9 @@
 /do not (consume|drink|eat|take|use)/i
 /do this/i
 
+/doctors?.{0,10}discovery/i
 /doctors?.{0,10}(oral|recommend(ed)?|tip|warning)/i
+
 /dog.{0,10}health/i
 
 /double.{0,10}chin/i
@@ -820,7 +822,7 @@
 /gut.{0,10}alert/i
 /gut.{0,10}balance/i
 /gut.{0,10}(check|cleanse)/i
-/gut.{0,10}discomfort/i
+/gut.{0,10}(discovery|discomfort|doctor)/i
 /gut.{0,10}(fix|flush|freedom)/i
 /gut.{0,10}(health|insider|quiz)/i
 /gut.{0,10}(reboot|relief|repair|reset|rituals?)/i
