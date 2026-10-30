@@ -214,6 +214,8 @@
 
 # Y
 # ------------------------------------------------------------------------------
+/you allowed someone access.{1,10}your.{1,10}e?.?mail/i
+
 /you have.{1,5}\d.{1,5}(bounced|delayed|important|incoming|new|pending|suspended|undelivered|unreceived).{1,10}(e?.?mail|message)s?/i
 
 /you have.{1,10}(bounced|delayed|important|incoming|new|pending|suspended|undelivered|unreceived).{1,10}(e?.?mail|message)s?.{1,10}as of/i

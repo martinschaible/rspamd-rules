@@ -471,8 +471,8 @@
 
 # W
 # ------------------------------------------------------------------------------
-/wichtige kontobenachrichtigung.{1,10}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/i
-/wichtiger? (mitteilung|sicherheitshinweis).{1,10}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/iu
+/wichtige?.{1,10}kontobenachrichtigung.{1,10}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/i
+/wichtige?.{1,10}(benachrichtigung|mitteilung|sicherheitshinweis).{1,10}sehr geehrter?.{1,10}(damen|herren|kunde|kundin)/iu
 
 # X
 # ------------------------------------------------------------------------------
