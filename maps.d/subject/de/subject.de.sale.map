@@ -202,10 +202,12 @@
 
 /jederzeit multilingual/i
 
+/jetzt.{1,10}bestellen.{1,10}starten/i
 /jetzt.{1,10}(nur)? \d{2,3}.{1,10}statt \d{2,3}/i
-/jetzt zugreifen.{1,10}teile/i
-#/jetzt zuschlagen/i
-/jetzt zum vorteilspreis/i
+/jetzt.{1,10}zugreifen.{1,10}teile/i
+/jetzt.{1,10}zum vorteilspreis/i
+
+# /jetzt zuschlagen/i
 
 /(beheizbare|wärmende).{1,10}(daunen)?jacke/i
 

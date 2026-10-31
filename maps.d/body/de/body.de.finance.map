@@ -240,10 +240,13 @@
 
 /kredit ohne schufa/i
 
+/kreditangebote?.{1,15}für.{1,15}effektiven jahreszins/iu
+/kreditangebote?.{1,10}von.{1,15}bis/i
+
 /kreditarten sind wir zertifiziert/i
-/kreditangebote von.{1,15}bis/i
+
 /kreditprogramm vorstellen/i
-/kreditsummen reichen von{1,15}bis/i
+/kreditsummen reichen von.{1,15}bis/i
 
 /kredit.?betrag.{1,20}kredit.?laufzeit/i
 /kreditlaufzeit.{1,10}zweck/i

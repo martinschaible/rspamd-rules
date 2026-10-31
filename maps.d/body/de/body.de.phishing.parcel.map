@@ -196,6 +196,8 @@
 /(lieferung|paket|sendung).{1,15}sich im.{1,15}(distributions|verteil).{1,15}befindet/i
 /(lieferung|paket|sendung).{1,10}status.{1,10}warteposition/i
 
+/(lieferung|paket|sendung).{1,20}verknüpfte adresse ungültig/iu
+
 /(lieferung|paket|sendung).{1,20}wartet auf (die|eine).{1,15}(lieferung|zustellung)/i
 /(lieferung|paket|sendung).{1,20}wartet auf sie/i
 
@@ -333,4 +335,5 @@
 /(zustellung|zustellversuch).{1,10}aufgrund falscher angaben/i
 /(zustellung|zustellversuch).{1,10}ist eine.{1,10}(gebühr|zahlung) von/i
 /(zustellung|zustellversuch).{1,10}ist eine.{1,15}(kurze|online).{1,10}bestätigung erforderlich/iu
+/(zustellung|zustellversuch).{1,10}konnte nicht abgeschlossen werden/i
 /(zustellung|zustellversuch).{1,10}sind mit zusätzlichen gebühren verbunden/iu

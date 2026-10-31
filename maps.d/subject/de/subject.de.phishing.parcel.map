@@ -41,7 +41,8 @@
 /adresse.{1,15}lieferung erforderlich/i
 
 /angaben zur sendung müssen korrigiert werden/i
-/adressvalidierung.{1,20}(fehlgeschlagen|überprüfung)/i
+/(adressprüfung|adressvalidierung).{1,20}(fehlgeschlagen|überprüfung)/i
+/(adressprüfung|adressvalidierung).{1,10}paketzustellung/i
 
 /angekommen.{1,10}verzollt/i
 /anleitung.{1,10}(zollabfertigung|zollabwicklung)/i
@@ -363,6 +364,8 @@
 
 /paketbenachrichtigung.{1,10}ihre?.{1,10}(paket|sendung)/iu
 /paketbenachrichtigung.{1,10}zustellung verzögert sich/iu
+
+/pakethinweis.{1,10}adressbestätigung/iu
 
 /paketnummer #\d/i
 
