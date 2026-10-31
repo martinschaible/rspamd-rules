@@ -139,9 +139,10 @@
 
 /gesunde.{0,10}(augen|ohren)/i
 
-/gesundheits.{0,10}(performance|rundschau)/i
-/gesundheits.{0,10}update/i
-/gesundheit.?team/i
+/gesundheits?.{0,10}(performance|rundschau)/i
+/gesundheits?.{0,10}update/i
+/gesundheits?.{0,10}schlaf/i
+/gesundheits?.{0,10}team/i
 
 /gewichts?.{0,10}lösung/iu
 
