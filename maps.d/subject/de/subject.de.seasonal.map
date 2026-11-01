@@ -40,6 +40,7 @@
 
 #
 /aktuelle.{1,10}gebrauchtwagen bei/i
+/aktuelle.{1,10}leasingrückläufer/i
 /aktueller?.{1,10}fahrzeug(e|bestand)/i
 
 /bestandsliste.{1,10}als pdf/iu
@@ -57,6 +58,8 @@
 /firmenflotten?.{1,25}(bestand|fahrzeuge)/i
 
 /(geprüfte|lagerabverkauf|verfügbare|zertifizierte).{1,10}fahrzeuge/iu
+/(geprüfte|lagerabverkauf|verfügbare|zertifizierte).{1,10}leasingrückläufer/iu
+
 /gepflegter?.{1,10}gebrauchtfahrzeuge/i
 
 /(gebrauchtfahrzeuge|gebrauchtwagen).{1,15}aktuell.{1,10}(auswahl|bestand)/i
@@ -72,6 +75,7 @@
 /jetzt zugang anfordern/i
 
 /leasingrückläufer.{1,10}übersicht/iu
+/leasingrückläufer.{1,10}.{1,10}jahren.{1,10}garantie/i
 
 /modelle.{1,15}monatsliste/i
 /modelle.{1,10}sofortkauf/i
