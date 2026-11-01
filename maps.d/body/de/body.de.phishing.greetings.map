@@ -97,6 +97,8 @@
 /guten (abend|morgen|tag).{1,10}ihr.{1,25}abo(nnement)? endet in kürze/iu
 /guten (abend|morgen|tag).{1,10}ihr.{1,25}abo(nnement)? zum preis/i
 
+/guten (abend|morgen|tag).{1,10}ihr.{1,10}domain.?name.{10,30}ist abgelaufen/i
+
 /guten (abend|morgen|tag).{1,10}ihr.{1,15}(konto|profil) wurde aufgrund/i
 
 /guten (abend|morgen|tag).{1,10}ihre?.{1,15}befindet sich/i
