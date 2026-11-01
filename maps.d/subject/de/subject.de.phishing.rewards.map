@@ -210,6 +210,8 @@
 /bestätigt.{1,10}dein.{1,15}geschenk ist bereit/iu
 /bestätigt.{1,10}jetzt prämie sichern/iu
 
+/bestätigung.{1,10}postleitzahl.{1,10}erforderlich/iu
+
 /bitte kurz bestätigen/iu
 
 /bonus.{1,15}guthaben sichern/i
@@ -322,7 +324,6 @@
 /(geschenk|gewinn).{1,25}(bestätigt|bestätigung)/iu
 /(geschenk|gewinn).{1,15}wurde noch nicht angefordert/i
 
-/geschenke?.{1,15}geschenk von .{1,15}ist in.{1,20}eingetroffen/i
 /geschenke?.{1,10}für sie verfügbar/iu
 /geschenke?.{1,15}holen sie sich den/i
 /geschenke?.{1,15}ihre treue.{1,10}nur noch kurze zeit/i
@@ -331,6 +332,8 @@
 /geschenke?.{1,10}schon angefordert/i
 /geschenke?.{1,15}stunden verfügbar/iu
 /geschenke?.{1,15}umfrage von/i
+
+/geschenke?.{1,15}von.{1,15}ist in.{1,20}eingetroffen/i
 /geschenke?.{1,15}von.{1,15}sichern/i
 
 /geschenk(box)?.{1,10}ist für sie reserviert/i

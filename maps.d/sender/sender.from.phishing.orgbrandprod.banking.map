@@ -406,6 +406,7 @@
 /volksbank(en)?.?(eg|vr)/i
 /volksbank(en)?.?gruppe eg/i
 
+/volksbank(en)?.{0,10}account/i
 /volksbank(en)?.{0,10}benachrichtigung/i
 /volksbank(en)?.{0,10}direktion/i
 /volksbank(en)?.{0,10}(kundenbetreuung|kundenservice)/i

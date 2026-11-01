@@ -132,6 +132,7 @@
 
 # U
 # ------------------------------------------------------------------------------
+/update (abschließen|abschliessen) jetzt/iu
 /update für ihre.{1,10}secure.{0,5}(go|plus)/i
 
 # V
@@ -139,6 +140,8 @@
 
 # W
 # ------------------------------------------------------------------------------
+/wichtig.{1,10}secure.{0,5}(go|plus).{1,10}update/i
+
 /wichtige?.{1,10}aktion.{1,10}(photo|push).?tan/i
 /wichtige?.{1,15}(hinweis|mitteilung).{1,10}mtan/i
 /wichtige?.{1,15}(hinweis|mitteilung).{1,10}(photo|push).?tan/i

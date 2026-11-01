@@ -66,6 +66,8 @@
 /ihnen.{1,10}millionen.{1,15}gespendet/i
 /ihnen.{1,10}(million)?.{1,10}(dollars?|euro?|gbp|usd|€|\$|£).{1,15}gespendet/i
 
+/ihnen wurde der betrag.{1,15}geschenkt/i
+
 /ihnen.{1,10}wurde.{1,10}(grosszügiger|großzügiger).{1,10}(beitrag|betrag)/iu
 
 /ihre e?.?mail.{1,15}wurde.{1,15}spende/i
