@@ -414,14 +414,11 @@
 /sbb ag/i
 /sbb ch/i
 /sbb\.ch.{0,5}cff/i
-/sbb.?cff$/i
 
 /sbb.{0,5}aktuell/i
 /sbb.{0,5}info/i
 /sbb.{0,5}(kundencenter|kundendienst|kundenservice)/i
 /sbb.{0,5}swisspass/i
-
-/sbb.?cff$/i
 
 /sbb(.?cff.?ffs)?.{0,5}agentur/i
 /sbb(.?cff.?ffs)?.{0,5}(konto|support)/i
@@ -429,8 +426,9 @@
 /sbb(.?cff.?ffs)?.{0,5}kundendienst/i
 /sbb(.?cff.?ffs)?.{0,5}(kunden)?service/i
 
+/sbb.?cff$/i
+/sbb cff ffc/i
 /sbb\.cff\.ffc/i
-/sbb\.cff\.ffs/i
 /sbb c ff ff s/i
 
 /bundesbahnen.{0,5}sbb/i
