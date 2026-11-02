@@ -92,6 +92,9 @@
 
 /could generate.{1,10}mutual business/i
 
+# Selling domain
+/currently selling.{10,25}since you already own/i
+
 # D
 # ------------------------------------------------------------------------------
 /discuss something.{1,10}important with you/i
@@ -251,6 +254,9 @@
 /you.{1,10}been.{1,15}(chosen|selected).{1,10}as one of.{1,10}recipients/i
 /you.{1,10}been.{1,15}(chosen|selected).{1,10}to be a part of.{1,15}blessings/i
 /you.{1,10}been.{1,10}quietly selected for something/i
+
+# Selling domain
+/you.{1,15}about the matching domain/i
 
 /you.{1,10}regarding.{1,10}package.{1,15}arrived at our custody/i
 /you.{1,10}regarding.{1,10}this.{1,10}claim/i
