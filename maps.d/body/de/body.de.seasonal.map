@@ -40,6 +40,7 @@
 /aktuellen? fahrzeugangebote vorstellen/i
 
 /(direkten|direkter) zugriff.{1,15}limitierte auswahl/i
+/direktkauf.{1,10}keine finanzierung/i
 
 /entdecken sie unsere.{1,15}werksfahrzeuge/i
 
@@ -54,7 +55,8 @@
 /sofort verfügbaren.{1,10}fahrzeugen?/iu
 /strategischen partner.{1,10}professionelle/i
 
-/unsere geprüften.{1,10}fahrzeuge/iu
+/unsere.{1,10}geprüften.{1,10}fahrzeuge/iu
+/unsere.{1,10}neuen leasingrückläufer/iu
 /unsere.{1,10}(werksmodelle|werkswagen)/i
 
 /verträgen stammen.{1,10}sofort für sie/iu
