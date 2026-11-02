@@ -321,8 +321,9 @@
 /special sea freight space to/i
 /specialist.{1,15}plastic products factory/i
 
-/(specializes|specialized).{1,10}rapid prototyping/i
-/(specializes|specialized).{1,10}producing.{1,10}(injection|moulding|parts)/i
+/(specializes|specializing|specialized).{1,10}rapid prototyping/i
+/(specializes|specializing|specialized).{1,10}original plush/i
+/(specializes|specializing|specialized).{1,10}producing.{1,10}(injection|moulding|parts)/i
 
 /supplying.{1,10}shower hardware/i
 
@@ -344,6 +345,8 @@
 
 # W
 # ------------------------------------------------------------------------------
+/we.{1,15}(independent|leading|premium|professional|specialized?|top|trusted).{1,10}chinese/i
+
 /we.{1,15}(independent|leading|premium|professional|specialized?|top|trusted).{1,10}professional.{1,10}(company|product|textile)/i
 /we.{1,15}(independent|leading|premium|professional|specialized?|top|trusted).{1,20}(distributor|domestic).{1,15}(in the|of|with)/i
 /we.{1,15}(independent|leading|premium|professional|specialized?|top|trusted).{1,20}(distributor|domestic).{1,15}(producing|specializing)/i
