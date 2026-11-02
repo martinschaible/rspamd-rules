@@ -109,6 +109,7 @@
 /(belohnung|geschenk|gutschein|preis).{1,10}wartet auf sie/i
 /(belohnung|geschenk|gutschein|gewinn|preis).{1,10}wurde noch nicht/i
 
+/bestätigen.{1,10}ihren.{1,20}gutschein sichern/iu
 
 /bestätigen sie.{1,10}ihre.{1,15}prämie/iu
 /bestätigen sie.{1,10}innerhalb der nächsten.{1,15}ihre.{1,15}adresse/iu
@@ -202,6 +203,7 @@
 # ------------------------------------------------------------------------------
 /keine kosten.{1,10}kein risiko/i
 
+/klick trennt sie von ihrem.{1,10}gutschein/i
 /kostenlos.{1,10}chance auf diesen.{1,20}gutschein/i
 /(kostenloses|kostenfreies).{1,10}geschenk/i
 
