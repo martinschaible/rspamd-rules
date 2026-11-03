@@ -50,6 +50,7 @@
 # ------------------------------------------------------------------------------
 /^business capital$/i
 
+/business.{1,10}capital.{1,10}potential/i
 /business.{1,10}financing.{1,10}202\d/i
 /business.{1,10}financing.{1,10}inquiry/i
 
