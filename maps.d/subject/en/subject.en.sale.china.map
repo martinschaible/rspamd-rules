@@ -578,10 +578,9 @@
 /(pcba?|printed.?circuits?.?board).{1,10}turnaround/i
 /(pcba?|printed.?circuits?.?board).{1,10}with (high quality|plated)/i
 
-/(pet|plush).{1,10}animal.{1,10}(manufacturer|supplier)/i
-/(pet|plush).{1,10}toys?.{1,10}solutions/i
-/(pet|plush).{1,10}toys.{1,10}(manufacturer|supplier)/i
-/(pet|plush).{1,10}toys.{1,10}to lower/i
+/(pet|plush).{1,10}(animal|toys?).{1,10}manufacturer/i
+/(pet|plush).{1,10}(animal|toys?).{1,10}(solutions|supplier)/i
+/(pet|plush).{1,10}(animal|toys?).{1,10}to lower/i
 
 /performance.{1,10}apparel.{1,10}partner/i
 
