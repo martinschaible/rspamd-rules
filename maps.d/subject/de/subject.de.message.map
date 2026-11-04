@@ -36,8 +36,8 @@
 /(dringende?|wichtige?).{1,10}(angelegenheit|aufmerksamkeit|benachrichtigung|nachricht)/i
 
 # False/Positive 1x
-#/(dringend|wichtig)e?.{1,15}(information(en)?|info\b)/i
-/dringende?.{1,15}(erinnerung|mitteilung|nachricht\b)/i
+# /(dringend|wichtig)e?.{1,15}(information(en)?|info\b)/i
+/dringende?.{1,15}(mitteilung|nachricht\b)/i
 
 /ich habe eine.{1,10}wichtige information/i
 
@@ -180,7 +180,6 @@
 
 /ist (deine|die(se)?|ihre).{1,10}e?.?mail.{1,15}(aktiv|gültig)/iu
 /ist (deine|die(se)?|ihre).{1,10}e?.?mail.{1,15}noch aktuell/i
-
 
 /ist meine.{1,10}(e?.?mail|nachricht) angekommen/i
 
