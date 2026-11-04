@@ -43,7 +43,11 @@
 /ip.?tv.{1,10}exclusive.{1,10}stable/i
 /ip.?tv.{1,10}vertex/i
 
+/lp.?tv.{1,10}subscription/i
+
 /(affordable|experience|premium|strong).{1,10}ip.?tv.{1,10}(service|streaming|subscription)/i
+
+/includes.{1,15}channels.{1,10}movies.{1,10}series/i
 
 /live channels.{1,10}movies.{1,10}series/i
 
