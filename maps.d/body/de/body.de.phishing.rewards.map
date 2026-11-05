@@ -167,7 +167,7 @@
 /exklusive.{1,10}rabattkarte.{1,10}aktivieren/i
 
 /exklusives dankeschön/iu
-/exklusives punktekonto läuft in kürze ab/iu
+/exklusives.{1,10}punktekonto läuft.{1,15}ab/iu
 
 # F
 # ------------------------------------------------------------------------------
@@ -262,6 +262,8 @@
 
 /premium.{1,10}(angebot|box|paket)/i
 /produktbox.{1,10}(information|zugeteilt)/i
+
+/punktguthaben verfällt unwiderruflich/iu
 
 # Q
 # ------------------------------------------------------------------------------
