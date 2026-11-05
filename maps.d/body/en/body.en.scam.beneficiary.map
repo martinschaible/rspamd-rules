@@ -29,8 +29,9 @@
 
 # B
 # ------------------------------------------------------------------------------
-/(beneficiaries|beneficiary).{1,10}estate held in trust/i
-/(beneficiaries|beneficiary).{1,10}to receive the.{1,10}funds?/i
+/(beneficial|beneficiaries|beneficiary).{1,10}estate held in trust/i
+/(beneficial|beneficiaries|beneficiary).{1,10}of this sum/i
+/(beneficial|beneficiaries|beneficiary).{1,10}to receive the.{1,10}funds?/i
 
 # C
 # ------------------------------------------------------------------------------
@@ -64,7 +65,7 @@
 
 # M
 # ------------------------------------------------------------------------------
-/(made|named) you.{1,15}beneficiary/i
+/(made|make|named) you.{1,15}(beneficial|beneficiary)/i
 
 # N
 # ------------------------------------------------------------------------------

@@ -62,6 +62,8 @@
 
 # H
 # ------------------------------------------------------------------------------
+/having reviewed your.{1,15}(homepage|web.?site)/i
+
 /(homepage|web.?site).{1,10}businesses.{1,10}personal/i
 
 /(homepage|web.?site).{1,10}design(ing)?.{1,10}web.?development/i
