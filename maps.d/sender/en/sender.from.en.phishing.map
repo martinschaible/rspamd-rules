@@ -274,7 +274,9 @@
 /service.{0,10}client/i
 
 /session.{0,10}(alert|control)/i
-/service.{0,10}(information|notifications?)/i
+
+/service.{0,10}information/i
+/service.{0,10}(no.?reply|notifications?)/i
 
 # French
 /service de support/i

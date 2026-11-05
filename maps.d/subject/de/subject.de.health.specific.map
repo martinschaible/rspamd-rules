@@ -204,10 +204,11 @@
 /hartnäckiges bauchfett/iu
 
 /jetzt abnehmen/i
-/kapsel stoppt/i
 
-/kapsel ersetzt (alle|jede)/i
-/kapsel schockt alle/i
+/kapseln?.{1,10}ersetzt (alle|jede)/i
+/kapseln?.{1,10}schockt alle/i
+/kapseln?.{1,10}stoppt/i
+/kapseln?.{1,10}über die.{1,10}alle sprechen/iu
 
 /kostenlos.{1,10}abnehmen/i
 
