@@ -304,7 +304,9 @@
 
 /ihre.{1,15}daten sind veraltet/i
 
-/ihre.{1,10}firmendaten aktualisieren/i
+/ihre.{1,10}(firmenangaben|firmendaten).{1,10}aktualisieren/i
+/ihre.{1,10}(firmenangaben|firmendaten).{1,10}im überblick/i
+
 /ihre.{1,10}hinterlegte adresse ist veraltet/i
 
 /ihre.{1,10}(mobil|telefon).?nummer bestätigen/iu
@@ -611,6 +613,7 @@
 # ------------------------------------------------------------------------------
 /zahlung.{1,10}sofortige unterstützung/iu
 
+/zugang.{1,10}benötigt bestätigung/iu
 /zugang.{1,10}wartet auf ihre zahlung/i
 /zugang.{1,10}wird in kürze aktualisiert/iu
 

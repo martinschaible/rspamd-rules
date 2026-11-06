@@ -117,7 +117,8 @@
 
 /gewähren?.{1,15}(darlehen|kredit)/i
 /guten.{1,10}kredit/i
-/günstiges.{1,10}kreditangebot/iu
+
+/(gunstiges|günstiges).{1,10}kreditangebot/iu
 
 # H
 # ------------------------------------------------------------------------------
