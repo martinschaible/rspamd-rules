@@ -74,9 +74,12 @@
 # ------------------------------------------------------------------------------
 /changes to your.{1,15}(account|profile)/i
 
-/check your.{1,15}(account|profile) security/i
-/confirmation required.{1,10}please complete/i
+/check your.{1,15}(account|profile).{1,10}security/i
+
 /continue enjoying disney.{1,20}verify your/i
+
+/confirm your.{1,15}(account|profile).{1,10}to continue/i
+/confirmation required.{1,10}please complete/i
 
 /credentials security maintainance/i
 

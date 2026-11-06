@@ -218,7 +218,8 @@
 /nachricht zur verfuegung/i
 
 #/nachricht.{1,10}für (dich|sie)/i
-/(nachricht|mitteilung).{1,10}ref\b/i
+/(nachricht|mitteilung).{1,15}ref\b/i
+/(nachricht|mitteilung).{1,10}wartet auf Sie/i
 
 /neue (nachricht|mitteilung) wurde empfangen/i
 /neue (nachricht|mitteilung) ist eingegangen/i

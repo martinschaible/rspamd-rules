@@ -27,9 +27,14 @@
 /memory.{0,10}(bean|boost(er)?|brief)/i
 /memory.{0,10}(cure|decline)/i
 
-/memory.{0,10}(drink|fix(er)?|gap|guide|enhancement|fruit|guard)/i
+/memory.{0,10}(discovery|drink)/i
+/memory.{0,10}enhancement/i
+/memory.{0,10}(fix(er)?|fruit)/i
+/memory.{0,10}(gap|guide|guard)/i
 /memory.{0,10}(hack|health)/i
-/memory.{0,10}(improver|improvement|insider|killer|laps(es)?|loss)/i
+/memory.{0,10}(improver|improvement|insider)/i
+/memory.{0,10}killer/i
+/memory.{0,10}(laps(es)?|loss)/i
 /memory.{0,10}(master|matters)/i
 /memory.{0,10}notes/i
 /memory.{0,10}protection/i
