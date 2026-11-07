@@ -87,7 +87,9 @@
 
 /die.{0,15}formel/i
 
-/diät.{0,10}alternative/i
+/(diat|diät).{0,10}alternative/i
+/(diat|diät).{0,10}kapseln/i
+
 /diabetes.{0,10}(ernährung|lösung)/iu
 
 /diskret.{0,10}effektiv/i
