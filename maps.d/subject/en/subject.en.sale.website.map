@@ -249,6 +249,7 @@
 
 /web.?price\.\./i
 
+/(web.?)?site.{1,10}design!/i
 /(web.?)?site.{1,10}idea.{1,10}quotes?/i
 /(web.?)?site.{1,10}inquiry/i
 /(web.?)?site review.{1,10}www/i
