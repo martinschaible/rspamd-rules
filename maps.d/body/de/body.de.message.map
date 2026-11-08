@@ -100,7 +100,7 @@
 /dies eine gültige.{1,10}e?.?mail.?adresse ist/i
 /dies noch ihre e?.?mail.?adresse ist/i
 
-/(deine?|diese|ihre).{1,10}e?.?mail(.?adresse)?.{1,10}(aktiv|gültig\b)/i
+/(deine?|diese|ihre).{1,10}e?.?mail(.?adresse)?.{1,10}(aktiv\b|gültig\b)/i
 
 /dies ist eine persönliche.{1,10}vertrauliche.{1,10}nachricht/iu
 
