@@ -118,6 +118,8 @@
 /(ohne rezept|rezeptfrei).{1,10}sofort bestellbar/i
 /(ohne rezept|rezeptfrei).{1,10}(potenzmittel|potenztabletten)/i
 
+/kapsel.{1,15}die.{1,15}(potenz|erektion)/iu
+
 /kein arztbesuch nötig.{1,10}(ohne rezept|rezeptfrei)/iu
 /kein rezept.{1,10}keine arztpraxis/i
 
@@ -125,6 +127,7 @@
 /stunden.{1,10}diskret geliefert/i
 
 #
+/männliche.{1,15}(potenz|erektion)/iu
 /männer.{1,10}die zu früh kommen/iu
 /natürliche männerformel/iu
 
