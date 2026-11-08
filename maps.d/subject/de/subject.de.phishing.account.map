@@ -269,7 +269,8 @@
 
 /kümmern sie sich um ihr.{1,15}(konto|profil)/iu
 
-/kurze (überprüfung|verifizierung) (für ihr.{1,15}konto|ihrer angaben)/iu
+/kurzer? (check|überprüfung|verifizierung).{1,10}für ihr.{1,15}(konto|profil)/i
+/kurzer? (check|überprüfung|verifizierung).{1,10}ihrer?.{1,15}angaben/iu
 
 # L
 # ------------------------------------------------------------------------------

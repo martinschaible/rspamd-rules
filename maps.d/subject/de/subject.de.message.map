@@ -194,6 +194,8 @@
 # ------------------------------------------------------------------------------
 /lesen sie diesen?.{1,10}(brief|e?.?mail|mitteilung|nachricht)/i
 
+/^letzte mitteilung!.?$/i
+
 /lies (den|diesen) brief/i
 /lies diese nachricht/i
 
