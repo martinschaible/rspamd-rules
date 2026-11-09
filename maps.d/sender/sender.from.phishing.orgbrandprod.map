@@ -269,6 +269,8 @@
 
 #
 /^ehra$/i
+
+/ehra.{0,10}auskunft/i
 /ehra.{0,10}eintrag/i
 /ehra.{0,10}online/i
 /ehra.{0,10}switzerland/i
