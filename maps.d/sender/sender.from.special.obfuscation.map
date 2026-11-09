@@ -30,6 +30,18 @@
 # Detect repeated invisible Unicode separator characters used as letter gaps or placeholders
 # /[​‌‍﻿‏⁠]{4,}/i
 
+# Soft hyphens (U+00AD) used as letter gaps
+# ------------------------------------------------------------------------------
+# Soft hyphens look like short dashes in many mail clients, but they are not the
+# ASCII hyphen-minus. Sample: "S­­u­­pp­­or­­t" reads as "Support" with two
+# soft hyphens between letter groups.
+#
+# The pattern needs two gaps of 1 to 4 soft hyphens between three Latin letters.
+# A single soft hyphen, or a normal hyphen, does not match. Same approach as
+# subject.special.obfuscation.map.
+# ------------------------------------------------------------------------------
+/[a-z](?:[­]{1,4})[a-z](?:[­]{1,4})[a-z]/i
+
 # Mixed-script homoglyphs: one Latin letter directly beside a lookalike
 # ------------------------------------------------------------------------------
 # Spammers spell a Latin word with Cyrillic or Greek letters that look the same.
