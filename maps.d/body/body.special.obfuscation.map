@@ -9,6 +9,7 @@
 # U+200C (Zero Width Non-Joiner)
 # U+200D (Zero Width Joiner)
 # U+FEFF (Zero Width No-Break Space / BOM)
+# U+2060 (Word Joiner)
 # 
 # ------------------------------------------------------------------------------
 # Language: any
@@ -24,6 +25,18 @@
 # Using actual UTF-8 characters for Hyperscan compatibility
 
 /[a-z][​‌‍﻿][a-z][​‌‍﻿][a-z]/i 0.1
+
+# Sparse zero-width separators across a short span
+# ------------------------------------------------------------------------------
+# Some mails put only one separator inside each word, so the dense pattern above
+# misses them. Sample: "Redak‍tion | Aktuali﻿siert vor⁠ ﻿wenigen Stund﻿en"
+# uses U+200D, U+FEFF and U+2060 once per word.
+#
+# This pattern needs three letter-separator-letter pairs within 60 characters
+# of each other. A single soft insertion is not enough. U+2060 is included here
+# because Word Joiners appear in the same campaigns.
+# ------------------------------------------------------------------------------
+/[a-z][​‌‍﻿⁠][a-z].{0,60}[a-z][​‌‍﻿⁠][a-z].{0,60}[a-z][​‌‍﻿⁠][a-z]/i
 
 # Soft Hyphen obfuscation (HTML &shy; = U+00AD)
 # ------------------------------------------------------------------------------
