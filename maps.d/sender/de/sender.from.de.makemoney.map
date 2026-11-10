@@ -102,6 +102,7 @@
 /finanz.{0,10}direkt/i
 /finanz.{0,10}(gewitter|mentor|trends)/i
 /finanz.{0,10}report/i
+/finanz.{0,10}strategie/i
 /finanz.{0,10}quelle/i
 /finanz.{0,10}update/i
 
@@ -116,6 +117,8 @@
 # G
 # ------------------------------------------------------------------------------
 /geheim(es)?.{0,10}(aktuell|geld)/i
+/geheime.{0,10}(akte|wahrheit)/i
+
 
 /geld.{0,10}(gratis|strategien|verdienen)/i
 
@@ -135,6 +138,8 @@
 /ihre?.{0,15}(produkt|sendung)/i
 
 /insider.{0,10}(news|risiko)/i
+/insider.{0,10}zugang/i
+
 /investment.{0,10}(guide|strategie)/i
 
 # J

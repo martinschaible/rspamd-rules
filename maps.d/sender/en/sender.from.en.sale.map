@@ -338,7 +338,6 @@
 # S
 # ------------------------------------------------------------------------------
 /safe.{0,10}(tech|living)/i
-/save at the pump/i
 
 /safety.{0,10}column/i
 /safety on/i
@@ -346,6 +345,8 @@
 /^sales.?team$/i
 
 /save (more|on|today)/i
+/save at the pump/i
+/saving.{0,10}stars/i
 
 /seat.?cushion/i
 
@@ -409,6 +410,8 @@
 /team.{0,10}team/i
 /tech.{0,10}(digest|safety)/i
 /text.{0,10}voice/i
+
+/the.{0,10}secret/i
 
 /thermo.{0,10}heat/i
 
