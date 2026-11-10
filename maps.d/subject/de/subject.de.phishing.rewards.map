@@ -488,9 +488,9 @@
 
 /letzter schritt zur belohnung/i
 
-/(lieferadresse|lieferdetails|lieferung) für ihre.{1,15}bestätigen/iu
-/(lieferadresse|lieferdetails|lieferung) für ihre prämie/iu
-/(lieferadresse|lieferdetails|lieferung) ihre?.{1,15}prämie bestätigen/iu
+/(lieferadresse|lieferdetails|lieferung).{1,10}für ihre.{1,15}bestätigen/iu
+/(lieferadresse|lieferdetails|lieferung).{1,10}für ihre prämie/iu
+/(lieferadresse|lieferdetails|lieferung).{1,10}ihre?.{1,15}prämie bestätigen/iu
 
 /lösen sie ihr punkteguthaben.{1,15}ein/iu
 /lösen sie ihren bonuscode/i
@@ -499,6 +499,7 @@
 # ------------------------------------------------------------------------------
 /marke.{1,15}hat ein sonderangebot/i
 
+/minuten zeit.{1,10}teilen sie uns.{1,10}meinung mit/i
 /mit einer geschenkkarte/i
 
 /mitmachen.{1,10}belohnung sichern/i
@@ -514,8 +515,10 @@
 /nicht verpassen.{1,25}verlosung/i
 
 /nur eine minute zeit/i
-#/nur einen klick entfernt/i
-/nur noch ein schritt zum gratis/i
+# /nur einen klick entfernt/i
+
+/nur noch.{1,10}rabattcodes verfügbar/iu
+/nur noch.{1,10}schritt zum gratis/i
 
 /nutze deine.{1,10}punkte bis zum/i
 

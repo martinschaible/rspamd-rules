@@ -88,7 +88,8 @@
 
 # O
 # ------------------------------------------------------------------------------
-/opt.?out of this advertiser.{1,10}mailings.{1,10}(please|visit)/i
+/opt.?out.{1,10}disappear from your inbox/i
+/opt.?out.{1,10}of this advertiser.{1,10}mailings.{1,10}(please|visit)/i
 
 /or send post.?mail to \d{3,5}/i
 
