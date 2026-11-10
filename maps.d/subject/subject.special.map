@@ -236,6 +236,9 @@
 # False/Postives seen
 # /\[a-z]{3,15}_[a-z]{3,15}_[a-z]{3,15}/i
 
+# 10.11.26 - Silly "id" at the end of the line
+/id#\d{3,6}.?$/i
+
 # Placeholders
 # ------------------------------------------------------------------------------
 /%(last|user)_name%/i

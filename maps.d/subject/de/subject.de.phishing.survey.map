@@ -26,6 +26,7 @@
 
 /beantworten.{1,10}bevor.{1,10}die belohnung/i
 /beantworten.{1,10}sie.{1,20}(einige fragen|unsere befragung)/i
+/beantworten.{1,10}sie.{1,10}kundenumfrage/i
 
 # C
 # ------------------------------------------------------------------------------
@@ -57,6 +58,8 @@
 
 /fragen.{1,10}(belohnung|rabatt)/i
 
+/freischalten id#/i
+
 # G
 # ------------------------------------------------------------------------------
 /geschenk.{1,10}bestellnummer.{1,10}/i
@@ -87,12 +90,15 @@
 
 /in unserer.{1,15}umfrage/i
 
+/ist nur eine.{1,10}umfrage entfernt/i
+
 # J
 # ------------------------------------------------------------------------------
 
 # K
 # ------------------------------------------------------------------------------
 /kundenbefragung.{1,10}überraschung/iu
+/kundenumfrage.{1,5}id/i
 
 /kurzen Befragung von.{1,25}teilzunehmen/i
 
@@ -144,6 +150,7 @@
 
 # R
 # ------------------------------------------------------------------------------
+/rabatt.{1,10}die.{1,10}umfrage freischalten/i
 /referenznummer.{1,15}umfrage/i
 
 # S
