@@ -231,7 +231,9 @@
 # ------------------------------------------------------------------------------
 /^roundcube$/i
 /roundcube on/i
-/roundcube.{0,5}(administration|server|support)/i
+/roundcube.{0,5}administration/i
+/roundcube.{0,5}cpanel/i
+/roundcube.{0,5}(server|support)/i
 
 # S
 # ------------------------------------------------------------------------------
