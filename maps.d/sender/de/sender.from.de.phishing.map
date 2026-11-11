@@ -253,6 +253,8 @@
 /paket.{0,10}verwaltung/i
 
 /paketdienst.{0,10}(deutschland|schweiz)/i
+/paketdienst.{0,5}ch/i
+
 #/paketinfo/i
 
 /(photo|push).?tan/i
@@ -293,6 +295,7 @@
 
 /spezielle.{0,10}nachricht/i
 
+/steuerverwaltung.{0,10}switzerland/i
 /store.{0,10}lager/i
 
 /super.{0,10}kurier/i

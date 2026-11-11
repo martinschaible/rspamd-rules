@@ -280,7 +280,8 @@
 # ------------------------------------------------------------------------------
 /mahnung.{1,10}(import|zoll).?gebühren.{1,10}fällig/iu
 
-/maßnahmen zu ihrem paket/i
+/(massnahme|maßnahme).{1,10}erforderlich.{1,10}(lieferung|paket|sendung|versand|zustellung)/i
+/(massnahme|maßnahme).{1,10}zu (ihrem|ihrer).{1,10}(lieferung|paket|sendung|versand|zustellung)/i
 
 /mitteilung.{1,10}die zustellung.{1,10}(paket|sendung)/iu
 /mussen uns kontaktieren/i
@@ -532,6 +533,8 @@
 
 /zustellinformation(en)?.{1,15}aktualisieren/i
 /zustellinformation(en)?.{1,10}für ihre.{1,10}paketsendung/iu
+
+/zustellhinweis.{1,10}(massnahme|maßnahme)/i
 
 /zustellproblem.{1,5}\d{4,10}/i
 /zustellverifizierung erforderlich/i

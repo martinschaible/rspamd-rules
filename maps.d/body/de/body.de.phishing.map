@@ -55,6 +55,8 @@
 /telefon.?nummer.{1,10}nicht aktiviert haben.{1,10}damit sie/i
 /telefon.?nummer.{1,10}nicht mit ihrem.{1,10}online.?banking/i
 
+/aktualität.{1,10}hinterlegten.{1,10}unternehmensinformationen/i
+
 /aktualisieren sie umgehend ihre telefon.?nummer/i
 
 /bestätigen.{1,10}sie.{1,10}(meine|ihre).{1,10}telefon.?nummer/iu
@@ -316,6 +318,8 @@
 
 /sie unseren nachrichtendienst länger als eine woche nicht genutzt/i
 
+/steuerdaten sind deshalb nicht vollständig/iu
+
 /suspendierung ihrer e.?vignette/i
 
 /so aktualisieren sie ihre daten/i
@@ -345,6 +349,7 @@
 # ------------------------------------------------------------------------------
 /unstimmigkeitsmeldung nach.{1,10}23 a gwg/i
 
+/unternehmensdaten.{1,15}zu überprüfen/iu
 /überprüfen wir (die|ihre).{1,10}(unternehmensangaben|unternehmensinformationen)/i
 
 # V
@@ -367,6 +372,8 @@
 
 # W
 # ------------------------------------------------------------------------------
+/website.{1,10}finden sie die.{1,15}(mitteilung|nachricht)/i
+
 /wenn sie ihn nicht durchführen/iu
 
 /wichtige systemaktualisierung.{1,10}202\d/i

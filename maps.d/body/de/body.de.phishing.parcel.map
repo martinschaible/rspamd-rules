@@ -188,11 +188,15 @@
 /(lieferung|paket|sendung).{1,10}liegt in unserem/i
 
 /(lieferung|paket|sendung).{1,15}(muessen|müssen) sie umgehend/iu
-/(lieferung|paket|sendung).{1,10}mit der nummer.{1,20}erfordert vor der freigabe/iu
-/(lieferung|paket|sendung).{1,20}nicht zugestellt werden.{1,20}fehler beim barcode/i
 
 /(lieferung|paket|sendung).{1,10}mit der nummer.{1,20}anweisungen/i
+/(lieferung|paket|sendung).{1,10}mit der nummer.{1,20}erfordert vor der freigabe/iu
+
 /(lieferung|paket|sendung).{1,10}nicht zustellen.{1,10}informationen fehlen/i
+/(lieferung|paket|sendung).{1,20}nicht zugestellt werden.{1,20}fehler beim barcode/i
+
+/(lieferung|paket|sendung).{1,10}ohne vollständige anschrift/iu
+
 /(lieferung|paket|sendung).{1,15}sich im.{1,15}(distributions|verteil).{1,15}befindet/i
 /(lieferung|paket|sendung).{1,10}status.{1,10}warteposition/i
 
@@ -247,7 +251,8 @@
 # ------------------------------------------------------------------------------
 /paketfreigabe.{1,10}erforderlich/i
 /paketdienste?.{1,10}weiterhin ohne unterbrechung/i
-/paketnummer.{1,20}mit freundlichen grüßen/iu
+/paketdepot.{1,10}bereitgehalten.{1,10}wird/i
+/paketnummer.{1,20}mit freundlichen.{1,10}(grüssen|grüßen)/iu
 
 /prüfen sie den.{1,20}fortschritt ihrer zustellung/i
 
