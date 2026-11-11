@@ -141,6 +141,9 @@
 
 # R
 # ------------------------------------------------------------------------------
+/received.{1,10}request to disable your.{1,10}(e?.?mail|mail.?box)/i
+/reduce the numbers?.{1,10}dormant.{1,10}accounts/i
+
 /(release|retrieve|review|unlock|view).{1,15}(important|incoming|pending|suspended).{1,15}(e?.?mail|message)s?/i
 /(release|retrieve|review|unlock|view).{1,15}(e?.?mail|message)s?.{1,10}stuck on the server/i
 
@@ -195,9 +198,8 @@
 
 # W
 # ------------------------------------------------------------------------------
-/we are closing.{1,10}old versions/i
-/we.{1,15}received.{1,10}request to disable your.{1,10}(e?.?mail|mail.?box)/i
-/we want to reduce the numbers?.{1,10}dormant.{1,10}accounts/i
+/we are.{1,10}closing.{1,10}old versions/i
+/we have.{1,10}paused.{1,10}delivery of.{1,10}incoming.{1,10}(e?.?mail|message)s?/i
 
 /webmail.{1,10}account credentials/i
 /Webmail.{1,10}e.?mail.{1,10}prevented the delivery/i

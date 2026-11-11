@@ -218,6 +218,8 @@
 
 /service status.{1,10}compliance failure/i
 
+/storage.{1,10}limit reached.{1,10}delivery paused/i
+
 # T
 # ------------------------------------------------------------------------------
 /termination notice.{1,10}important/i
