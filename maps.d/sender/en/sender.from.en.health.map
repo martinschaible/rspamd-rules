@@ -407,6 +407,7 @@
 /basic.{0,10}protein/i
 
 /beauty.{0,10}(acid|glow|hack|revival|secret|tip|update)/i
+/beauty.{0,10}expert/i
 
 /bed.{0,10}(hack|stretch)/i
 /bed.?time.{0,10}(brew|habit|move|note|reset|solution)/i
@@ -725,6 +726,7 @@
 /(exotic|kitchen).{0,10}(flower|spice)/i
 /exotic.{0,10}veggie/i
 
+/(expert|neurologist).{0,15}approved/i
 /(expert|neurologist).{0,15}(recommends?|recommendation|reveals)/i
 
 /expert.{0,10}(approved|warn(ing)?)/i
