@@ -175,61 +175,62 @@
 
 /rückerstattungsanfrage.{1,10}erforderlich/iu
 
-/(rück)?erstattung.{1,10}202\d/iu
-/(rück)?erstattung.{1,10}angefordert/iu
-/(rück)?erstattung.{1,10}antrag ausfüllen/iu
-/(rück)?erstattung.{1,10}auszahlung veranlassen/iu
+/(rück)?(erstattung|zahlung).{1,10}202\d/iu
+/(rück)?(erstattung|zahlung).{1,10}angefordert/iu
+/(rück)?(erstattung|zahlung).{1,10}antrag ausfüllen/iu
+/(rück)?(erstattung|zahlung).{1,10}auszahlung veranlassen/iu
 
-/(rück)?erstattung.{1,10}bearbeitung läuft/iu
-/(rück)?erstattung.{1,10}bei der/iu
-/(rück)?erstattung.{1,15}bitte.{1,50}bestätigen/iu
+/(rück)?(erstattung|zahlung).{1,10}bearbeitung läuft/iu
+/(rück)?(erstattung|zahlung).{1,10}bei der/iu
+/(rück)?(erstattung|zahlung).{1,15}bitte.{1,50}bestätigen/iu
 
-/(rück)?erstattung.{1,10}eingeleitet/iu
-/(rück)?erstattung.{1,10}erfolgreich (eingeleitet|vorbereitet)/iu
+/(rück)?(erstattung|zahlung).{1,10}eingeleitet/iu
+/(rück)?(erstattung|zahlung).{1,10}erfolgreich (eingeleitet|vorbereitet)/iu
 
-/(rück)?erstattung.{1,10}freigegeben.{1,10}bestätigung erforderlich/iu
-/(rück)?erstattung.{1,10}für doppelte/iu
-/(rück)?erstattung.{1,10}für ihr.{1,15}konto/i
+/(rück)?(erstattung|zahlung).{1,10}freigegeben.{1,10}bestätigung erforderlich/iu
+/(rück)?(erstattung|zahlung).{1,10}für doppelte/iu
+/(rück)?(erstattung|zahlung).{1,10}für ihr.{1,15}konto/i
 
-/(rück)?erstattung.{1,10}(aufgrund|bei|ihrer|wegen).{1,10}(doppelten|doppelter) zahlung/iu
+/(rück)?(erstattung|zahlung).{1,10}(aufgrund|bei|ihrer|wegen).{1,10}(doppelten|doppelter) zahlung/iu
 
-/(rück)?erstattung.{1,10}ihrer? zugreise/iu
-/(rück)?erstattung.{1,10}ihrer doppelten.{1,10}(buchung|zahlung)/iu
-/(rück)?erstattung.{1,10}ihrer (september|oktober|november|dezember).?rechnung/iu
-/(rück)?erstattung.{1,10}(ihrer|ihres).{1,15}(beitrags|gebühren)/iu
+/(rück)?(erstattung|zahlung).{1,10}ihrer? zugreise/iu
+/(rück)?(erstattung|zahlung).{1,10}ihrer doppelten.{1,10}(buchung|zahlung)/iu
+/(rück)?(erstattung|zahlung).{1,10}ihrer (september|oktober|november|dezember).?rechnung/iu
+/(rück)?(erstattung|zahlung).{1,10}(ihrer|ihres).{1,15}(beitrags|gebühren)/iu
 
-/(rück)?erstattung.{1,10}ist.{1,15}(abholbereit|ausstehend|bereit|online|verfügbar)/iu
-/(rück)?erstattung.{1,10}ist.{1,15}zur bearbeitung bereit/iu
+/(rück)?(erstattung|zahlung).{1,10}ist.{1,15}(abholbereit|ausstehend|bereit|online|verfügbar)/iu
+/(rück)?(erstattung|zahlung).{1,10}ist.{1,15}zur bearbeitung bereit/iu
 
-/(rück)?erstattung.{1,10}(jetzt|möglich|verfügbar)/iu
+/(rück)?(erstattung|zahlung).{1,10}(jetzt|möglich|verfügbar)/iu
 
-/(rück)?erstattung.{1,10}(kann|konnte) nicht (bearbeitet|überwiesen)/iu
+/(rück)?(erstattung|zahlung).{1,10}(kann|konnte) nicht (bearbeitet|überwiesen)/iu
 
-/(rück)?erstattung.{1,10}läuft bald ab/iu
+/(rück)?(erstattung|zahlung).{1,10}läuft bald ab/iu
 
-/(rück)?erstattung.{1,10}offen.{1,10}zahlungsdaten/iu
+/(rück)?(erstattung|zahlung).{1,10}offen.{1,10}zahlungsdaten/iu
 
-/(rück)?erstattung.{1,10}steht.{1,10}sie bereit/iu
-/(rück)?erstattung.{1,10}steht.{1,10}zur auszahlung/iu
-/(rück)?erstattung.{1,10}so erhalten sie ihr geld/i
+/(rück)?(erstattung|zahlung).{1,10}steht.{1,10}sie bereit/iu
+/(rück)?(erstattung|zahlung).{1,10}steht.{1,10}zur auszahlung/iu
+/(rück)?(erstattung|zahlung).{1,10}so erhalten sie ihr geld/i
 
-/(rück)?erstattung.{1,10}verfällt in.{1,10}stunden/iu
-/(rück)?erstattung.{1,10}von.{1,15}ihre krankenversicherung/i
-/(rück)?erstattung.{1,10}von.{1,10}\d{3,4}/iu
-/(rück)?erstattung.{1,10}wegen.{1,15}doppelabbuchung/iu
+/(rück)?(erstattung|zahlung).{1,10}verfällt in.{1,10}stunden/iu
+/(rück)?(erstattung|zahlung).{1,10}von.{1,15}ihre krankenversicherung/i
+/(rück)?(erstattung|zahlung).{1,10}von.{1,10}\d{3,4}/iu
+/(rück)?(erstattung|zahlung).{1,10}wegen.{1,15}doppelabbuchung/iu
 
-/(rück)?erstattung.{1,10}wurde.{1,10}(angenommen|bestätigt|genehmigt)/iu
-/(rück)?erstattung.{1,10}wurde.{1,10}nicht in anspruch genommen/i
+/(rück)?(erstattung|zahlung).{1,10}wurde.{1,15}(angenommen|bestätigt|genehmigt)/iu
+/(rück)?(erstattung|zahlung).{1,10}wurde.{1,10}erfolgreich/i
+/(rück)?(erstattung|zahlung).{1,10}wurde.{1,10}nicht in anspruch genommen/i
 
-/(rück)?erstattung.{1,10}zur verfügung/iu
+/(rück)?(erstattung|zahlung).{1,10}zur verfügung/iu
 
-/(rück)?erstattung.{1,5}id:\d/i
-/(rück)?erstattung.{1,10}\d{1,4}.{1,5}\[id/i
+/(rück)?(erstattung|zahlung).{1,5}id:\d/i
+/(rück)?(erstattung|zahlung).{1,10}\d{1,4}.{1,5}\[id/i
 
-/(rück)?erstattungs.?(anspruch|anfrage).{1,10}fehler bei der/i
-/(rück)?erstattungs.?(anfrage|anspruch).{1,10}online einreichen/iu
+/(rück)?(erstattung|zahlung).{0,5}(anspruch|anfrage).{1,10}fehler bei der/i
+/(rück)?(erstattung|zahlung).{0,5}(anfrage|anspruch).{1,10}online einreichen/iu
 
-/(rück)?erstattungs.?prozess(es)?.{1,10}\d{2,3}/i
+/(rück)?(erstattung|zahlung).{0,5}prozess(es)?.{1,10}\d{2,3}/i
 /(rück)?erstattungsbestätigung.{1,10}antrag genehmigt/i
 
 /(rückzahlung|rueckzahlung).{1,15}auszahlung veranlassen/iu
