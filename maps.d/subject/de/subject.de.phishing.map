@@ -322,10 +322,11 @@
 
 /ihre.{1,10}(mobil|telefon).?nummer bestätigen/iu
 
-/ihre offene verkehrsstrafe/i
-/ihre überprüfung wird empfohlen/iu
+/ihre.{1,10}offene verkehrsstrafe/i
+/ihre.{1,10}steuerdaten.{1,10}weichen ab/i
+/ihre.{1,10}überprüfung wird empfohlen/iu
 
-/ihrer letzten handelsaktivität erforderlich/iu
+/ihrer.{1,10}letzten handelsaktivität.{1,10}erforderlich/iu
 
 /innerhalb von.{1,10}stunden.{1,10}(abschliessen|abschließen)/iu
 

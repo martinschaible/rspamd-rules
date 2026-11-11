@@ -284,6 +284,8 @@
 
 /estv.{0,5}(ch|dpd)/i
 /estv.{0,10}(auskunft|eintrag)/i
+/estv.{0,5}online/i
+/estv.{0,5}(schweiz|switzerland)/i
 
 #
 /easypark.{0,10}(ab|system)/i
@@ -499,6 +501,7 @@
 /sw\/ca/i
 /swicach/i
 /swica.?ag/i
+/swica.{0,10}kundendienst/i
 /swica.{0,10}(leistungszentrum|support|versicherung)/i
 /swica.?-/i
 
