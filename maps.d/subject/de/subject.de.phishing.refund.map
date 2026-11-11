@@ -82,6 +82,7 @@
 # ------------------------------------------------------------------------------
 /entschuldigen uns.{1,10}(rück)?erstattung/iu
 
+/erhalten sie ihr geld zurück/iu
 /erstattung veranlasst.{1,10}jetzt handeln/i
 
 # F
@@ -207,8 +208,10 @@
 /(rück)?erstattung.{1,10}läuft bald ab/iu
 
 /(rück)?erstattung.{1,10}offen.{1,10}zahlungsdaten/iu
+
 /(rück)?erstattung.{1,10}steht.{1,10}sie bereit/iu
 /(rück)?erstattung.{1,10}steht.{1,10}zur auszahlung/iu
+/(rück)?erstattung.{1,10}so erhalten sie ihr geld/i
 
 /(rück)?erstattung.{1,10}verfällt in.{1,10}stunden/iu
 /(rück)?erstattung.{1,10}von.{1,15}ihre krankenversicherung/i
