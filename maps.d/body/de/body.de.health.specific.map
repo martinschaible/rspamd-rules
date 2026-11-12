@@ -119,6 +119,7 @@
 /(ohne rezept|rezeptfrei).{1,10}(potenzmittel|potenztabletten)/i
 
 /kapsel.{1,15}die.{1,15}(potenz|erektion)/iu
+/kapsel.{1,15}erektionsstörung(en)?/iu
 
 /kein arztbesuch nötig.{1,10}(ohne rezept|rezeptfrei)/iu
 /kein rezept.{1,10}keine arztpraxis/i
@@ -135,6 +136,8 @@
 
 # Potency
 # ------------------------------------------------------------------------------
+/patentierte.{1,15}kapsel/i
+
 /potenz.{1,10}sind mit modernen mitteln/i
 /potenzmittel.{1,10}(ganz legal|wirken schon)/i
 

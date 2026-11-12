@@ -178,8 +178,11 @@
 /hartes für mich/iu
 
 /hat.{1,10}den chat/i
-/heißen?.{1,10}(frauen|singles)/i
-/heißen?.{1,10}bilder/i
+
+/(heissen?|heißen?)?.{1,10}(frauen|singles?)/i
+/(heisseste|heißeste).{1,10}(frauen|singles?)/i
+
+/(heissen?|heißen?)?.{1,10}bilder/i
 
 /hey.{1,10}bist du/i
 /hey.{1,10}hier bin ich/i
@@ -305,6 +308,7 @@
 
 /sie hat einen.{1,10}ordner.{1,10}geteilt/i
 
+/singles.{1,10}in deiner nähe/iu
 /singles.{1,10}sind.{1,10}online/i
 /singles.{1,10}(treffen|warten auf)/i
 

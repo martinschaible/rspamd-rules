@@ -240,6 +240,9 @@
 
 # H
 # ------------------------------------------------------------------------------
+/(heissen?|heißen?).{1,10}(frauen|singles?)/i
+/(heisseste|heißeste).{1,10}(frauen|singles?)/i
+
 /heute bin ich in deiner stadt/i
 
 /hier findest du.{1,10}(frauen|mich)/i
