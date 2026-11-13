@@ -29,7 +29,7 @@
 
 /dich direkt.{1,10}ohne kosten austragen/i
 
-/dies ist eine werbeanzeige/i
+/dies ist eine?.{1,10}(werbeanzeige|werbebeitrag)/i
 
 /diese.{1,10}(e?.?mail|nachricht).{1,10}bewirbt.{1,10}produkt eines drittanbieters/i
 /diese.{1,10}(e?.?mail|nachricht).{1,10}dient.{1,10}ausschließlich.{1,10}informations.{1,10}werbezwecken/i
@@ -159,6 +159,8 @@
 # W
 # ------------------------------------------------------------------------------
 /wenn sie keine eingehenden.{1,10}e?.?mails mehr erhalten möchten/iu
+
+/(werbeanzeige|werbebeitrag).{1,10}zur/i
 
 /wir haben ihre.{1,10}e?.?mail.?adresse aus öffentlich verfügbaren kanälen/iu
 /wir kontaktieren sie.{1,10}weil wir aufgrund öffentlich/iu
