@@ -107,12 +107,12 @@
 
 # Y
 # ------------------------------------------------------------------------------
-/you have sufficient funds in your.{1,15}account/i
+/you.{1,10}have sufficient funds in your.{1,15}account/i
+/you.{1,10}received.{1,10}compensation money/i
+/you.{1,10}to transfer it right away/i
 /you that.{1,15}have been.{1,15}credited to your/i
-/you received.{1,10}compensation money/i
 
 /your billing details.{1,10}continue.{1,15}uninterrupted access/i
-
 /your paypal to btc payment/i
 /your services.{1,15}update your payment method/i
 
