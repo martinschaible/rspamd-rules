@@ -362,6 +362,8 @@
 
 /gute nachrichten.{1,10}sie sind berechtigt/i
 
+/gutschein offen.{1,10}(chf|euro).{1,10}statt.{1,10}(chf|euro)/i
+
 # H
 # ------------------------------------------------------------------------------
 /hast im.{1,15}bei.{1,15}gewonnen/i
@@ -506,8 +508,10 @@
 /mitmachen.{1,10}jetzt.{1,15}sichern/i
 
 /möglichen.{1,10}gutschein.?gewinner/i
+
 /mystery.?box.{1,15}(gelegenheit|sendung|sichern|steht bereit)/i
 /mystery.?box.{1,15}(erhalten|für sie)/iu
+/mystery.?box.{1,15}im wert von/i
 
 # N
 # ------------------------------------------------------------------------------
