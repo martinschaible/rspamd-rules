@@ -151,6 +151,8 @@
 /vertragsende.{1,10}letzter bescheid/i
 /verwenden sie diese e?.?mail/i
 
+/vielen dank.{1,5}\d{5,10}/i
+
 /^von (frau|fräulein|herr)/iu
 /^von (miss|mister)/i
 

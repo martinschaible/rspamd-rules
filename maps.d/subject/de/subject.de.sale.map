@@ -239,6 +239,8 @@
 # ------------------------------------------------------------------------------
 /(innovativen?|perfekte|smarte).{1,10}lampe/i
 
+/lampen.{1,10}solarbetrieb/i
+
 /lebensverändernde.{1,10}(wasser)?.?flasche/i
 
 /led.{0,10}beleuchtung.{1,10}bestpreis/i
@@ -328,6 +330,9 @@
 /sekunden bis zur abkühlung/iu
 
 /sehen sie über.{1,10}kanäle/iu
+
+/set led wandlampen/i
+
 /sichern sie.{1,10}teile/i
 
 # Sicherheitskamera

@@ -120,6 +120,7 @@
 /interested to become.{1,10}reseller/i
 
 /ip.?tv.{1,10}(deal|for less)/i
+/ip.?tv.{1,10}from just.{1,10}mo(nth)?/i
 /ip.?tv.{1,10}subscribe before/i
 
 # J
@@ -173,6 +174,8 @@
 
 # S
 # ------------------------------------------------------------------------------
+/sale.{1,10}premium.{1,10}ip.?tv/i
+
 /scientists say this/i
 
 /(cam|secure).?(mini|protect|vision)/i
