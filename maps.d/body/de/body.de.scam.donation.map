@@ -125,7 +125,8 @@
 /ihre?.{1,10}e?.?mail.?(adresse|konto)?.{1,15}eine spende/i
 
 /ihre?.{1,10}e?.?mail.?(adresse|konto)?.{1,25}wurde.{1,15}für.{1,15}(investitionshilfe|spende|wohltätigkeitsspende)/iu
-/ihre?.{1,10}e?.?mail.?(adresse|konto)?.{1,15}wurde ausgewählt.{1,10}um einen zuschuss/iu
+/ihre?.{1,10}e?.?mail.?(adresse|konto)?.{1,15}wurde ausgewählt.{1,10}um einen?.{1,15}(spende|zuschuss)/iu
+
 /ihre?.{1,10}e?.?mail.?(adresse|konto)?.{1,15}wurde per zufallsprinzip/i
 /ihre?.{1,10}e?.?mail.?(adresse|konto)?.{1,15}wurde bei einer.{1,20}zufällig ausgewählt/iu
 /ihre?.{1,10}e?.?mail.?(adresse|konto)?.{1,15}wurde von.{1,15}zufällig/i
@@ -227,6 +228,7 @@
 /sie.{1,10}für eine.{1,10}philanthropische spende/iu
 
 /sie.{1,10}gehören zu den.{1,50}begünstigten/iu
+/sie.{1,10}gehören zu den.{1,10}empfängern.{1,15}spende/iu
 
 /sie.{1,10}haben.{1,10}anspruch auf.{1,10}allgemeine unterstützung/iu
 
