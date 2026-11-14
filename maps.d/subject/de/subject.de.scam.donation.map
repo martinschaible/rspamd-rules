@@ -40,7 +40,8 @@
 
 /einladung.{1,10}bewerben sie sich/i
 
-/e?.?mail enthält.{1,10}spendengelder/i
+/e?.?mail.{1,10}bestätigung.{1,10}zuwendung/iu
+/e?.?mail.{1,10}enthält.{1,10}spendengelder/i
 
 /empfänger von \d{1,4}btc/i
 
