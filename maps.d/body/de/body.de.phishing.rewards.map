@@ -70,6 +70,11 @@
 # Food Box
 /(sie|teilnehmende) eine produktprobe erhalten/i
 
+# Genussbox
+# ------------------------------------------------------------------------------
+/genussbox.{1,10}premium/i
+/genussbox.{1,10}warenwert/i
+
 # Gutschein
 # ------------------------------------------------------------------------------
 /bestätigen.{1,10}ihren.{1,20}gutschein/iu
