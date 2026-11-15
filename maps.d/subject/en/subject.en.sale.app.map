@@ -143,7 +143,7 @@
 # N
 # ------------------------------------------------------------------------------
 /need.{1,15}apps?\b/i
-/need.{1,10}(android|ios) app/i
+/need.{1,10}(android|ios).{1,10}app/i
 
 /new apps?.{1,5}launch/i
 /new mobile apps?/i
