@@ -59,11 +59,13 @@
 # CEO NVIDIA 
 /jensen huang/i
 
-/(jeff|preston).?bezos/i
-/john.?travolta/i
+/(jeff|preston).{0,5}bezos/i
+/john.{0,5}travolta/i
 
 # K
 # ------------------------------------------------------------------------------
+/kash.{0,5}patel/i
+
 /^klatten$/i
 
 /kristi.{0,5}noem/i
