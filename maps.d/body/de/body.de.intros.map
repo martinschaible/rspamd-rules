@@ -278,6 +278,8 @@
 # ------------------------------------------------------------------------------
 /(dem|vom) schreibtisch (des|von) (herr|vize)/i
 
+/vertrete ich eine.{1,10}investmentgesellschaft/i
+
 /von unserem schreibtisch.{1,10}ref/i
 /von dr\..{5,30}ich bin dr\./i
 
