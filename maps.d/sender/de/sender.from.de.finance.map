@@ -18,7 +18,7 @@
 
 # D
 # ------------------------------------------------------------------------------
-/(darlehen|kredit).{0,10}anfrage/i
+/(darlehen|kredit).{0,10}(anfrage|assistent)/i
 /(darlehen|kredit).{1,10}(deal|dringend|finanzen|ohne|schufa)/i
 
 /(diskret|günstige?|kostenlos|schnell|top|urlaubs|wunsch).{0,10}(darlehen|kredit)/i

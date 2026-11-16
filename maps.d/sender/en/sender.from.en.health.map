@@ -684,7 +684,10 @@
 
 /dreamful.{0,10}(nights?|sleep)/i
 /dribbling.{0,10}urine/i
-/drink.{0,10}(hack|recipes?|smart)/i
+
+/drink.{0,10}(hack|smart)/i
+/drink.{0,10}(recipes?|ritual)/i
+
 /dying.{0,10}signal/i
 
 # E

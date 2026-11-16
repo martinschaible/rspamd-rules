@@ -152,6 +152,7 @@
 /hr.{0,5}finance department/i
 
 /human resource dept/i
+/hr department \|/i
 
 # I
 # ------------------------------------------------------------------------------
@@ -276,6 +277,7 @@
 
 /session.{0,10}(alert|control)/i
 
+/service.{0,10}customer/i
 /service.{0,10}information/i
 /service.{0,10}(no.?reply|notifications?)/i
 
