@@ -64,6 +64,7 @@
 
 # Nespresso
 /(jetzt|neue)(.{1,10}nespresso)?.{1,10}maschine sichern/iu
+/kapseln.{1,10}noch nicht bestätigt/iu
 
 /maschine sichern.{1,10}ohne aufpreis/i
 
