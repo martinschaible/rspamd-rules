@@ -114,7 +114,8 @@
 
 # Deutsche Bahn
 /gratis.{1,10}bahngutschein zu erhalten/i
-/gewinnen sie das deutschlandticket/i
+/gewinnen sie das.{1,20}deutschland.?ticket/i
+/gewinnen sie das.{1,20}ticket für 1 jahr/iu
 
 #
 /heissluftfritteuse wartet auf sie/i
