@@ -290,7 +290,10 @@
 /estv.{0,5}(ch|dpd)/i
 /estv.{0,10}(auskunft|eintrag)/i
 /estv.{0,5}online/i
+/estv.{0,5}kontakt/i
 /estv.{0,5}(schweiz|switzerland)/i
+
+/steuerverwaltung.{0,5}schweiz/i
 
 #
 /easypark.{0,10}(ab|system)/i

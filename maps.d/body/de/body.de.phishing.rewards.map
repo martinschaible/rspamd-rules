@@ -134,10 +134,10 @@
 /(belohnung|geschenk|gutschein|preis).{1,10}wartet auf sie/i
 /(belohnung|geschenk|gutschein|gewinn|preis).{1,10}wurde noch nicht/i
 
-
 /bestätigen sie.{1,10}ihre.{1,15}prämie/iu
 /bestätigen sie.{1,10}innerhalb der nächsten.{1,15}ihre.{1,15}adresse/iu
 /bestätigen sie.{1,10}nur noch ihre angaben/iu
+/bestätigen sie.{1,10}ihre zustelldaten/i
 
 /bonus.{1,10}sofort für sie bereitsteht/iu
 /bonus.{1,15}guthaben sichern/i
