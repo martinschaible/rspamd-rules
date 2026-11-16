@@ -38,7 +38,8 @@
 # C
 # ------------------------------------------------------------------------------
 /(chatgpt|open.?ai):/i
-/(chatgpt|open.?ai).{0,5}account/i
+
+# /(chatgpt|open.?ai).{0,5}account/i
 
 /consorbank.?-/i
 
