@@ -63,6 +63,8 @@
 # ------------------------------------------------------------------------------
 /idee.{1,10}ihre.{1,10}(home.?page|web.?site)/i
 
+/^ihre.{1,10}(home.?page|web.?site)$/i
+
 # Sample: 1st xxx.ch noch bei Wix
 /ist .{5,30}/\.[a-z]{1,4}.{1,10}noch bei/i
 
