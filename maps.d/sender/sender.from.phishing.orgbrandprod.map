@@ -279,14 +279,16 @@
 
 /ehra.{0,10}auskunft/i
 /ehra.{0,10}eintrag/i
+/ehra.{0,10}kontakt/i
 /ehra.{0,10}online/i
-/ehra.{0,10}switzerland/i
+/ehra.{0,10}(schweiz|switzerland)/i
 
 # 30.07.25 - Scam
 /eu.?finma/i
 
 /european union/i
 
+/estv.{0,5}\d{4,8}/i
 /estv.{0,5}(ch|dpd)/i
 /estv.{0,10}(auskunft|eintrag)/i
 /estv.{0,5}online/i
@@ -294,6 +296,7 @@
 /estv.{0,5}kontakt/i
 /estv.{0,5}(schweiz|switzerland)/i
 
+/postfach.{0,10}estv/i
 /steuerverwaltung.{0,5}schweiz/i
 
 #
