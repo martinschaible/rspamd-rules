@@ -166,6 +166,7 @@
 /service.{0,10}(upgrades?|updates?)/i
 
 /storage.{0,10}(admin|alert)/i
+/storage.{0,10}notification/i
 /storage.{0,10}operations?/i
 /storage.{0,10}(security|status|support|system)/i
 /storage.{0,10}quota/i

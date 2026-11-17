@@ -268,7 +268,8 @@
 
 /geplant.{1,10}ihre.{1,15}automatisch zu löschen/iu
 
-/(geschäfts|unternehmens)?adresse muss.{1,10}bestätigt werden/iu
+/(geschäfts|unternehmens)?adresse.{1,10}konnte nicht erreicht werden/iu
+/(geschäfts|unternehmens)?adresse.{1,10}muss.{1,10}bestätigt werden/iu
 
 /gesperrte aktivitat auf/iu
 
@@ -283,6 +284,8 @@
 /ihre hinterlegten kundendaten/i
 
 /handeln.{1,10}daten bestätigen/iu
+
+/handelsregister.{1,10}prüfen.{1,10}bestätigen/i
 /handelsregisterdaten.{1,10}wichtige information/i
 
 /handlungsbedarf.{1,10}datenabgleich/i
