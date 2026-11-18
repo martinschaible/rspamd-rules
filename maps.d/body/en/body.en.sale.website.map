@@ -209,12 +209,15 @@
 /we.{1,10}have.{1,15}professional.{1,10}team.{1,10}(web)?.?site/i
 /We.{1,10}have.{1,15}professional.{1,10}expert/i
 
-/we.{1,10}help businesses redesign.{1,10}modernize/i
+/we.{1,10}help businesses (redesign|refresh).{1,10}(modernize|outdated)/i
+/we.{1,10}help businesses (redesign|refresh).{1,15}websites/i
 
 /(i|we).{1,10}offer.{1,10}expert.{1,10}(web)?.?site/i
 /(i|we).{1,10}offer.{1,10}(web.?design|(web)?.?site)/i
 
 /web.{1,10}mobile.?app.{1,10}development/i
+
+/website experience on.{1,10}www/i
 
 /working with.{1,10}india.?based.{1,15}company/i
 
