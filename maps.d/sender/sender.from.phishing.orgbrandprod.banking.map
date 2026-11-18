@@ -177,7 +177,7 @@
 /elster.{0,10}info(rmation)?/i
 /elster.{0,10}(meldestelle|mitteilung|mobile)/i
 /elster.{0,10}online/i
-/elster.{0,10}portal/i
+/elster.{0,10}(portal|poststelle)/i
 /elster.{0,10}rechnung/i
 /elster.{0,10}(security|service|sicherheit|support|system)/i
 /elster.{0,10}team/i
@@ -185,6 +185,9 @@
 
 /(finanzamt|finanzverwaltung).{0,10}elster/i
 /meine?.{0,10}elster/i
+/poststelle.{0,10}elster/i
+/steuerportal.{0,10}elster/i
+
 /portal@elster\.de/i
 
 # F

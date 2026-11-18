@@ -263,7 +263,8 @@
 
 /^sehr wichtig$/i
 
-/servicehinweis zu ihren daten/i
+/service.?(hinweis|update).{1,10}neue mitteilung/i
+/service.?(hinweis|update).{1,10}zu ihren daten/i
 
 /sie diese.{1,15}benachrichtigung schon gesehen/i
 
