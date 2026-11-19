@@ -8,11 +8,11 @@
 
 # Women, Girl, Lady
 # ------------------------------------------------------------------------------
-/(bezaubernde|entzückende|freche|heiße|leidenschaftliche)s?.{1,10}(dame|frauen|mädchen)/iu
-/(bezaubernde|entzückende|freche|heiße|leidenschaftliche)s?.{1,10}ukrainische/i
+/(bezaubernde|entzückende|freche|heiße|leidenschaftliche).{1,10}(dame|frauen|mädchen)/iu
+/(bezaubernde|entzückende|freche|heiße|leidenschaftliche).{1,10}ukrainische/i
 
-/(echte|magische|schöne|spektakuläre|süße|verführerische)s?.{1,10}(dame|frauen|mädchen)/iu
-/(echte|magische|schöne|spektakuläre|süße|verführerische)s?.{1,10}ukrainische/iu
+/(echte|magische|schöne|spektakuläre|süße|verführerische).{1,10}(dame|frauen|mädchen)/iu
+/(echte|magische|schöne|spektakuläre|süße|verführerische).{1,10}ukrainische/iu
 
 /frauen warten.{1,15}auf dich/i
 
@@ -181,7 +181,7 @@
 
 /hat.{1,10}den chat/i
 
-/(heissen?|heißen?)?.{1,10}(frauen|singles?)/i
+/(heissen?|heißen?).{1,10}(frauen|singles?)/i
 /(heisseste|heißeste).{1,10}(frauen|singles?)/i
 
 /(heissen?|heißen?)?.{1,10}bilder/i
