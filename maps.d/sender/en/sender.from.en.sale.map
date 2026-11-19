@@ -123,6 +123,9 @@
 
 /digital.{0,10}info/i
 
+# Selling probably illegal software
+/digital.{0,10}license.?center/i
+
 /dogs?.{0,5}(armour|behaviour|trainers)/i
 /^dogs?.{0,5}food/i
 

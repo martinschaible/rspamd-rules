@@ -30,6 +30,20 @@
 # Detect repeated invisible Unicode separator characters used as letter gaps or placeholders
 # /[​‌‍﻿‏⁠]{4,}/i
 
+# Sparse zero-width separators across a short span
+# ------------------------------------------------------------------------------
+# Display names often put only one separator between letters, so a run of four
+# consecutive marks (commented out above) misses them. Sample:
+# "P⁠la‌nz⁠er‌\ P⁠ak‌et⁠ A‌G" reads as "Planzer Paket AG" with U+2060 and
+# U+200C between letters.
+#
+# This pattern needs three letter-separator-letter pairs within 20 characters
+# of each other. A single soft insertion is not enough. Same approach as
+# body.special.obfuscation.map. Separators: U+200B, U+200C, U+200D, U+FEFF,
+# U+2060.
+# ------------------------------------------------------------------------------
+/[a-z][​‌‍﻿⁠][a-z].{0,20}[a-z][​‌‍﻿⁠][a-z].{0,20}[a-z][​‌‍﻿⁠][a-z]/i
+
 # Soft hyphens (U+00AD) used as letter gaps
 # ------------------------------------------------------------------------------
 # Soft hyphens look like short dashes in many mail clients, but they are not the
