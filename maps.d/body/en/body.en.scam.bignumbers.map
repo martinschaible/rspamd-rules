@@ -117,11 +117,12 @@
 
 # Y
 # ------------------------------------------------------------------------------
-/you will be awarded.{1,15}(dollars?|euro?|gbp|usd|€|\$|£)/i
-/you will be awarded.{1,15}million/i
-
+/you have.{1,10}been authorized.{1,10}receive.{1,10}(dollars?|euro?|gbp|usd|€|\$|£)/i
 /you have.{1,10}been awarded.{1,10}\d{1,4}(\.|,)?\d{3,4}/i
 /you have.{1,10}received.{1,10}\d{1,4}(\.|,)?\d{3,4}.{1,10}to your account/i
+
+/you will be awarded.{1,15}(dollars?|euro?|gbp|usd|€|\$|£)/i
+/you will be awarded.{1,15}million/i
 
 /your.{1,10}assistance.{1,10}(manage|move|transfer|transferring).{1,20}(dollars?|euro?|gbp|usd|€|\$|£)/i
 

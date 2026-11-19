@@ -26,14 +26,16 @@
 # ------------------------------------------------------------------------------
 /(publikation|schaltung|veröffentlichung|werbeanzeige|wichtig).{1,10}(branchen.?buch|branchen.?führer|firmen.?eintrag)/iu
 
-/(branchen.?buch|branchen.?führer|firmen.?eintrag).{1,10}\d{4}/i
-/(branchen.?buch|branchen.?führer|firmen.?eintrag).{1,20}(202\d|publikation|veröffentlichung)/iu
-/(branchen.?buch|branchen.?führer|firmen.?eintrag).{1,10}werbe.?(anzeige|annonce)/i
+/(branchen.?buch|branchen.?guide|branchen.?führer|firmen.?eintrag).{1,10}\d{4}/i
+/(branchen.?buch|branchen.?guide|branchen.?führer|firmen.?eintrag).{1,20}(202\d|publikation|veröffentlichung)/iu
+/(branchen.?buch|branchen.?guide|branchen.?führer|firmen.?eintrag).{1,10}werbe.?(anzeige|annonce)/i
 
 /(annonce|anzeige).{1,10}(branchen|firmen).?führer/i
 
 /eintrag im firmenverzeichnis/i
-/firmen.?eintrag.{1,10}werbeanzeige/i
+
+/firmen.?(eintrag|verzeichnis).{1,10}\d{4}/i
+/firmen.?(eintrag|verzeichnis).{1,10}werbeanzeige/i
 
 /ihre aufnahme.{1,10}unserem verzeichnis/i
 /ihre organisation wurde.{1,20}in unserem verzeichnis/i
