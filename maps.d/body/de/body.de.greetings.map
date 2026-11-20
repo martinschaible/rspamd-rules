@@ -371,12 +371,17 @@
 /sehr geehrter herr.{1,5}frau/i
 
 /sehr geehrter?.{1,15}(administrator|bankkunde|begünstigter?|empfänger|fahrer|firma|\bkäufer)/iu
+
+/sehr geehrter?.{1,10}abschließende mitteilung/iu
+/sehr geehrter?.{1,10}ansprechpartner des/i
+
 # /sehr geehrter?.{1,10}geschäftspartner/iu
 /sehr geehrter?.{1,10}geschäftsmann/iu
 /sehr geehrter?.{1,10}nachfolger/i
 /sehr geehrter?.{1,10}(preisträger|unternehmer)/iu
 /sehr geehrter?.{1,15}(director|direktor)/i
 /sehr geehrter?.{1,15}(manager|managing)/iu
+/sehr geehrter?.{1,15}verantwortlichen?/i
 
 # Used by UZI
 # /sehr geehrter?.{1,15}versicherter?/i
@@ -421,10 +426,8 @@
 /sehr geehrter?.{1,15}(kunde|kundin).{1,10}hallo/i
 /sehr geehrter?.{1,15}(kunde|kundin).{1,15}@/i
 
-/sehr geehrte.{1,10}abschließende mitteilung/iu
-/sehr geehrte.{1,10}steuerpflichtiger?/i
+/sehr geehrter?.{1,10}steuerpflichtiger?/i
 
-/sehr geehrter?.{1,10}ansprechpartner des/i
 /sehr geehrter?.{1,10}geschäftspartner/i
 /sehr geehrter?.{1,10}zahlungspflichtiger?/i
 
