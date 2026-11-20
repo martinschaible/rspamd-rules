@@ -281,7 +281,6 @@
 
 /sie sich eine minute für diese.{1,15}mitteilung/iu
 
-/(sie|wir) haben eine.{1,15}nachricht/i
 /(sofort|unverzüglich) öffnen/iu
 
 # T
@@ -315,6 +314,7 @@
 /wichtige?.{1,10}?.?mail.{1,10}zustellungsbericht/i
 
 /wir erwarten ihre freundliche antwort/i
+/wir haben eine.{1,15}nachricht/i
 
 /wurde meine?.{1,10}(e?.?mail|nachricht).{1,10}(empfangen|zugestellt)/i
 
