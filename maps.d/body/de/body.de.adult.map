@@ -371,12 +371,13 @@
 
 # N
 # ------------------------------------------------------------------------------
-/nachricht auf der.{1,15}(web)?site/i
+/nachricht.{1,10}auf der.{1,15}(web)?site/i
+/nachricht.{1,10}starte einen chat/i
 
 /neue.{1,10}frauen.{1,10}freundliche/i
 /neue.{1,10}frauen.{1,10}treffen/i
 
-/neue.{1,10}profile entdecken/i
+/neue.{1,10}profile.{1,10}(entdecken|neue)/i
 
 /neuesten.{1,10}profile schweifen/i
 
