@@ -175,7 +175,7 @@
 
 /rückerstattungsanfrage.{1,10}erforderlich/iu
 
-/(rück)?(erstattung|zahlung).{1,10}202\d/iu
+# /(rück)?(erstattung|zahlung).{1,10}202\d/iu
 /(rück)?(erstattung|zahlung).{1,10}angefordert/iu
 /(rück)?(erstattung|zahlung).{1,10}antrag ausfüllen/iu
 /(rück)?(erstattung|zahlung).{1,10}auszahlung veranlassen/iu
