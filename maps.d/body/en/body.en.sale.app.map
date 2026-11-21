@@ -150,12 +150,12 @@
 
 # Y
 # ------------------------------------------------------------------------------
-/you.{1,10}(considering|interested|looking|need|planning|thinking|want).{1,15}(applications?|apps?).{1,10}(android|ios|iphone)/i
-/you.{1,10}(considering|interested|looking|need|planning|thinking|want).{1,15}(applications?|apps?).{1,10}development/i
+/you.{1,15}(considering|interested|looking|need|planning|thinking|want).{1,15}(applications?|apps?).{1,10}(android|ios|iphone)/i
+/you.{1,15}(considering|interested|looking|need|planning|thinking|want).{1,15}(applications?|apps?).{1,10}development/i
 
-/you.{1,10}(considering|interested|looking|need|planning|thinking|want).{1,15}(about|for|in).{1,15}(android|ios|iphone|mobile)?.?(app|web)/i
-/you.{1,10}(considering|interested|looking|need|planning|thinking|want).{1,15}(build|create|creating|develop).{1,15}(android|ios|iphone|mobile)?.?(app|web)/i
-/you.{1,10}(considering|interested|looking|need|planning|thinking|want).{1,15}new.{1,15}apps?/i
+/you.{1,15}(considering|interested|looking|need|planning|thinking|want).{1,15}(about|for|in).{1,15}(android|ios|iphone|mobile)?.?(app|web)/i
+/you.{1,15}(considering|interested|looking|need|planning|thinking|want).{1,15}(build|create|creating|develop).{1,15}(android|ios|iphone|mobile)?.?(app|web)/i
+/you.{1,15}(considering|interested|looking|need|planning|thinking|want).{1,15}new.{1,15}apps?/i
 
 /you.{1,10}exploring options for.{1,10}app/i
 
