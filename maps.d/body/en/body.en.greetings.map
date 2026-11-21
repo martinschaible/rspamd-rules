@@ -66,6 +66,7 @@
 
 # Greetings with title or position
 /(dear|greetings?|good day|hello|hi\b).{1,20}(barrister|beneficiary|boss)/i
+# /(dear|greetings?|good day|hello|hi\b).{1,20}(agency|attorney)/i
 /(dear|greetings?|good day|hello|hi\b).{1,20}(agency|agent|attorney)/i
 /(dear|greetings?|good day|hello|hi\b).{1,20}(engineer|entrepreneur)/i
 /(dear|greetings?|good day|hello|hi\b).{1,20}investment banker/i
