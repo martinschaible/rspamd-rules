@@ -54,6 +54,7 @@
 # ------------------------------------------------------------------------------
 /cents?.{0,10}liter/i
 
+/clean.{0,10}zuhause/i
 /clever.{0,10}tanken/i
 /clever.{0,10}versichert/i
 
@@ -122,9 +123,11 @@
 
 /haus.{0,10}direkt/i
 /haus.{0,10}fokus/i
+/haus.{0,10}lösung/iu
 /haus.{0,10}komfort/i
 /haus.?praxis/i
 /haus.{0,10}schützer/iu
+/haus.?system/i
 
 /haushalts.{0,10}(helfer|insider)/i
 
@@ -260,6 +263,7 @@
 /sicherheits?.{0,10}(kamera|profis)/i
 
 /smart.{0,10}(büro|empfang|sohle)/iu
+/smart.{0,10}leben/i
 
 /solar.{0,10}(aktion|angebot|lösungen|preis)/i
 /solar.{0,10}(special|spezial)/i
@@ -332,6 +336,7 @@
 
 /wohn.{0,10}idee/i
 /wohn.{0,10}komfort/i
+/wohn.{0,10}profi/i
 /wohn.{0,10}(service|support)/i
 /wohn.{0,10}welt/i
 
