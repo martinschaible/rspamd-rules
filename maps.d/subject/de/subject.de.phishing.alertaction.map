@@ -144,8 +144,10 @@
 # Sample: Aktualisiere deine Prime-Zahlungsart (2187697782)
 /(aktualisieren?|bestätigen?).{1,10}deine.{1,15}zahlungsart \(\d{4,20}\)/i
 
+# Problem: matching "email-adresse"
+/(aktualisieren?|bestätigen?).{1,10}sie.{1,10}ihre?.(adresse|angaben|app)/i
+
 /(aktualisieren?|bestätigen?).{1,10}sie.{1,10}ihre?.{1,15}(daten|identität|informationen)/i
-/(aktualisieren?|bestätigen?).{1,10}sie.{1,10}ihre?.{1,15}(adresse|angaben|app)/i
 /(aktualisieren?|bestätigen?).{1,10}sie.{1,10}ihre?.{1,10}(kontoangaben|kontoidentität)/iu
 /(aktualisieren?|bestätigen?).{1,10}sie.{1,10}ihre?.{1,10}(profil|sicherheit|stammdaten)/iu
 /(aktualisieren?|bestätigen?).{1,10}sie.{1,10}ihre.{1,20}(verifizierung|zahlung(sdaten)?)/iu
