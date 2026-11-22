@@ -165,6 +165,7 @@
 /^server$/i
 /server.?(notification|report|team)/i
 
+/service.?id#/i
 /service.{0,10}(upgrades?|updates?)/i
 
 /storage.{0,10}(admin|alert)/i

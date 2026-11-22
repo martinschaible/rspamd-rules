@@ -291,11 +291,14 @@
 # N
 # ------------------------------------------------------------------------------
 /nespresso.?\./i
+/nespresso.?id#/i
 /nespresso.{0,10}(deutschland|schweiz)/i
 /nespresso.{0,10}(club|coffee)/i
 /nespresso.{0,10}exclusiv(es)?/i
 /nespresso.{0,10}(genussaktion|gift)/i
+/nespresso.{0,10}insider/i
 /nespresso.{0,10}(kundenservice|mitgliedschaft)/i
+/nespresso.{0,10}privileg/i
 /nespresso.{0,10}support/i
 /nespresso.{0,10}team/i
 
