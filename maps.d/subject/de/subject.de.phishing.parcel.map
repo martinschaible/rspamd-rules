@@ -413,8 +413,9 @@
 /statusmeldung.{1,10}grenzüberschreitende?/i
 
 /steht aus.{1,10}zahlung erforderlich/i
-/steht noch aus/i
 /steht zur zustellung an/i
+
+# /steht noch aus/i
 
 /(steuer|zoll).{1,15}ihre?.{1,10}(paket|sendung)/i
 
