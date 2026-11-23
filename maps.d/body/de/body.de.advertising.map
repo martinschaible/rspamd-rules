@@ -29,7 +29,7 @@
 
 /dich direkt.{1,10}ohne kosten austragen/i
 
-/dies ist eine?.{1,10}(werbeanzeige|werbebeitrag)/i
+/dies ist eine?.{1,10}(werbeanzeige|werbebeitrag|werbemitteilung)/i
 
 /diese.{1,10}(e?.?mail|nachricht).{1,10}bewirbt.{1,10}produkt eines drittanbieters/i
 /diese.{1,10}(e?.?mail|nachricht).{1,10}dient.{1,10}ausschließlich.{1,10}informations.{1,10}werbezwecken/i
@@ -113,7 +113,7 @@
 
 /sie (bekommen|erhalten).{1,15}(e?.?mail|informationen|nachricht|newsletter).{1,15}(da|weil).{1,10}sie an.{1,15}umfrage teilgenommen haben/i
 /sie (bekommen|erhalten).{1,15}(e?.?mail|informationen|nachricht|newsletter).{1,10}(da|weil).{1,10}sie an einem angebot.{1,40}an einem gewinnspiel/i
-/sie (bekommen|erhalten).{1,15}(e?.?mail|informationen|nachricht|newsletter).{1,15}(da|weil).{1,10}sie dem erhalt von werbematerialien/i
+/sie (bekommen|erhalten).{1,15}(e?.?mail|informationen|nachricht|newsletter).{1,15}(da|weil).{1,10}sie dem erhalt von (werbe.?e.?mails|werbe.?materialien)/i
 
 /sie (bekommen|erhalten).{1,15}(e?.?mail|informationen|nachricht|newsletter).{1,15}(da|weil).{1,10}sie in der.{1,15}(adress)?datenbank von.{10,50}registriert/i 
 /sie (bekommen|erhalten).{1,15}(e?.?mail|informationen|nachricht|newsletter).{1,10}(da|weil).{1,10}sie in der.{1,15}partnerdatenbank/i

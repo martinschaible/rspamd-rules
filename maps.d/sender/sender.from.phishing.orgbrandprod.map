@@ -456,6 +456,7 @@
 /sbb.{0,5}swisspass/i
 
 /sbb(.?cff.?ffs)?.{0,5}agentur/i
+/sbb(.?cff.?ffs)?.{0,5}(benachrichtigung|bestätigung)/i
 /sbb(.?cff.?ffs)?.{0,5}(konto|support)/i
 /sbb(.?cff.?ffs)?.{0,5}(team|technikzentrum)/i
 /sbb(.?cff.?ffs)?.{0,5}kundendienst/i
