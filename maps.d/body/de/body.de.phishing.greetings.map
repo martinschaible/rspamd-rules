@@ -344,7 +344,7 @@
 /sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,20}ihrem.{1,15}(konto|profil)/i
 /sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,20}ihrer im.{1,15}konto/i
 
-/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,20}im rahmen.{1,10}aktualisierung/i
+# /sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,20}im rahmen.{1,10}aktualisierung/i
 /sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,20}ihnen auch (in zukunft|weiterhin)/i
 
 /sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,20}im rahmen.{1,10}automatisierten/i
@@ -357,7 +357,7 @@
 /sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,20}im rahmen.{1,15}(einer|unserer).{1,20}(digitalisierungsoffensive|kontinuierlichen|systemaktualisierung|sicherheitsupdates)/i
 /sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,20}im rahmen.{1,15}(einer|unserer).{1,20}durchgeführten/iu
 /sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,20}im rahmen.{1,10}kontinuierlichen/i
-/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,20}im rahmen.{1,10}unserer (regelmässigen|regelmäßigen)/iu
+/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,20}im rahmen.{1,10}unserer.{1,10}(regelmässigen|regelmäßigen)/iu
 
 /sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,20}im zuge.{1,10}europaweiten anpassung/i
 /sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,20}im zuge.{1,25}(sicherheitsrelevanten|systemaktualisierung)/i
@@ -420,7 +420,9 @@
 /sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,20}wir modernisieren unsere systeme/i
 
 /sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,20}wir möchten ihnen ein/iu
-/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,20}wir möchten sie.{1,15}(dringend|informieren)/iu
+
+# /sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,20}wir möchten sie.{1,15}(dringend|informieren)/iu
+/sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,20}wir möchten sie.{1,15}dringend/iu
 /sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,20}wir möchten sie.{1,15}darauf aufmerksam machen/iu
 /sehr geehrter?.{1,15}(damen|herren|kunde|kundin).{1,20}wir mussten feststellen/i
 
