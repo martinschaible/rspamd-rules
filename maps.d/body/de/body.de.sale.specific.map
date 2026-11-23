@@ -66,6 +66,20 @@
 /kaffee.?vollautomat(en)?.{1,10}firmen/i
 /firmen.{1,10}kaffee.?vollautomat(en)?/i
 
+# Cushion
+# ------------------------------------------------------------------------------
+/kissen.{1,10}in.{1,10}(deutschland|schweiz)/i
+/kissen.{1,10}(revolutionieren|sonderpreis)/i
+
+/lendenstützkissen.{1,10}rückenkissen/i
+
+/(derila|klaudena).{1,15}entwickelt/i
+/(derila|klaudena).{1,15}(kissen|komfort|memory)/i
+
+/wir haben.{1,15}(derila|klaudena)/i
+
+/unser.{1,10}(lendenstützkissen|rückenkissen)/i
+
 # Dirt-trapping mats
 # ------------------------------------------------------------------------------
 /(fussmatten|fußmatten|sauberlaufmatten|schmutzfangmatten).{1,10}verschieden farben/iu

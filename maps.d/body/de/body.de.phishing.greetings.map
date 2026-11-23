@@ -59,6 +59,8 @@
 /grüezi.{5,35}vielen dank für ihre treue/iu
 
 /guten (abend|morgen|tag).{1,10}aktualisieren sie ihr.{1,10}(konto|profil)/i
+/guten (abend|morgen|tag).{1,10}aktualisierung.{1,10}erforderlich/i
+
 /guten (abend|morgen|tag).{1,10}als treuer.{1,15}kunde/i
 
 /guten (abend|morgen|tag).{1,10}aufgrund neuer.{1,10}(internationaler|regulatorischer)/i
@@ -124,6 +126,7 @@
 /guten (abend|morgen|tag).{1,10}leider konnten wir ihre?.{1,10}(paket|sendung)/i
 /guten (abend|morgen|tag).{1,10}sichern sie ihr.{1,15}konto/i
 /guten (abend|morgen|tag).{1,10}sicherheitswarnung/i
+/guten (abend|morgen|tag).{1,10}status.{1,10}aktualisierung/i
 
 /guten (abend|morgen|tag).{1,10}um den schutz ihres/i
 /guten (abend|morgen|tag).{1,10}um die sicherheit/i
@@ -206,7 +209,8 @@
 /ihre rechnung ist fällig.{1,10}sehr geehrter?/iu
 /ihre rückerstattung von.{1,15}sehr geehrter?/iu
 
-/information zu (ihrem|ihrer) (paket|sendung).{1,10}sehr geehrter?/i
+/information.{1,10}zu (ihrem|ihrer) (paket|sendung).{1,10}sehr geehrter?/i
+/information.{1,10}zu ihrem (kundenkonto|kundenprofil).{1,10}guten (abend|morgen|tag)/i
 
 # J
 # ------------------------------------------------------------------------------

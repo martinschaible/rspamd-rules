@@ -58,6 +58,8 @@
 
 /anti.{1,10}schnarch(en)?/i
 
+/auf rechnung.{1,10}zu nur/i
+
 /ausverkauf.{1,5}id.?\d{4,10}/i
 
 # B
@@ -375,6 +377,8 @@
 /testen.{1,10}hörgeräte/iu
 
 /tracking.{1,10}karte/i
+
+/traglast.{1,10}plattformwagen/i
 
 /tragbare.{1,10}heizung/i
 /tragbarer.{1,10}drahtloser.{1,10}router/i
