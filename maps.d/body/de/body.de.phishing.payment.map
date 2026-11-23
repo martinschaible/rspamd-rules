@@ -62,6 +62,8 @@
 
 # I
 # ------------------------------------------------------------------------------
+/ihre (parkzahlung|zahlung) konnte nicht.{1,10}abgeschlossen werden/i
+
 /ihre zahlung.{1,10}ist verspätet.{1,10}lösen sie es/iu
 
 # J
