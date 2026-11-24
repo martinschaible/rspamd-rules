@@ -45,10 +45,15 @@
 /aussetzung ihrer.{1,15}(kredit)?karte/i
 
 /authentifizierung.{1,15}ihre.{1,15}(kredit)?karte/iu
+/authentifizierung.{1,10}(online.?)?banking erforderlich/iu
+
 /authentifizierung .{1,15}verlängerung erforderlich bis/iu
 
 # B
 # ------------------------------------------------------------------------------
+/banking erforderlich.{1,5}#id/i
+/banking erforderlich.{1,5}id#/i
+
 /bankrichtlinien.{1,10}handlungsbedarf bis/i
 /bankverbindung.{1,10}bestätigen bis/iu
 

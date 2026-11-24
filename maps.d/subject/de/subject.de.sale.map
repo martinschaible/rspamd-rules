@@ -171,6 +171,8 @@
 /(gesunden?|neuen?).{1,10}augen/i
 /guenstiges fernsehen/i
 
+/gps.{1,10}tracker/i 0.25
+
 # H
 # ------------------------------------------------------------------------------
 /handeln sie schnell.{1,10}nur noch wenige/i
@@ -376,7 +378,8 @@
 /teleskop.{1,10}waschbürste/iu
 /testen.{1,10}hörgeräte/iu
 
-/tracking.{1,10}karte/i
+/(tracker|tracking).{1,10}an board/i
+/(tracker|tracking).{1,10}karte/i
 
 /traglast.{1,10}plattformwagen/i
 
