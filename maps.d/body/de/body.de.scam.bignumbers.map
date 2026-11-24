@@ -151,6 +151,8 @@
 
 # M
 # ------------------------------------------------------------------------------
+/stiftung möchte ihnen.{1,10}(euro?|dollars?|gbp|usd|€|\$|£).{1,10}zur verfügung stellen/iu
+
 /(million(en)?|tausend).{1,10}(euro?|dollars?|gbp|usd|€|\$|£).{1,10}e?.?mail für details/iu
 /(million(en)?|tausend).{1,10}(euro?|dollars?|gbp|usd|€|\$|£).{1,10}erhalten.{1,10}(antworten|kontaktieren) sie/i
 /(million(en)?|tausend).{1,10}(euro?|dollars?|gbp|usd|€|\$|£).{1,10}haben wir ihnen/i
