@@ -117,7 +117,7 @@
 /apple.?id/i
 /apple.?pay/i
 
-/(app|apple).?store.{0,10}kundenservice/i
+/(app|apple).?store.{0,10}(kundenbetreuung|kundenservice)/i
 /(app|apple).?store.{0,10}rechnung/i
 
 /apple-/i
@@ -223,6 +223,7 @@
 
 #/^open.?ai$/i
 
+/^onvsm$/i
 /^openal/i
 /open.?ai.{0,5}chatgpt/i
 

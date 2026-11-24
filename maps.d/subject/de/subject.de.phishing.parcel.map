@@ -515,6 +515,7 @@
 /zahlungserinnerung.{1,10}(import|zoll).?gebühren/iu
 /zahlungserinnerung.{1,15}(paket|sendung)/i
 
+/zustellbenachrichtigung.{1,5}id/i
 /zustellfenster bestätigen.{1,10}id/iu
 
 /zum bestätigen.{1,10}\d{5,10}/i
