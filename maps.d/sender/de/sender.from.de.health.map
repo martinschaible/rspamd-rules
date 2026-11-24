@@ -172,7 +172,9 @@
 
 # I
 # ------------------------------------------------------------------------------
+/ihre?.{1,10}gesundheit/i
 /ihre?.{1,10}gesundheitsberater/i
+
 /ihre.{1,10}(leber|prostata)/i
 
 /insider.{0,10}(bericht|wissen)/i
@@ -280,6 +282,7 @@
 
 /schlaf.{0,10}(code|direkt|hilfe|plus|raum|vorteil)/i
 /schlaf.{0,10}klar/i
+/schlaf.{0,10}magazin/i
 /schlaf.{0,10}(scout|spur)/i
 
 /schlank.{0,10}(aktuell|booster|check|hilfe|welt)/i

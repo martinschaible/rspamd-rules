@@ -216,8 +216,10 @@
 /ing-diba/i
 
 # Interactive Brokers
-/ibkr.{0,10}(message|reply|support)/i
+/ibkr.{0,10}client/i
+/ibkr.{0,10}(message|reply)/i
 /ibkr.{0,10}(info|invest)/i
+/ibkr.{0,10}(services|support)/i
 
 /interactive.{0,10}brokers/i
 
@@ -440,7 +442,7 @@
 /vr.{0,5}(banking|bestätigung)/iu
 /vr.{0,5}(hauptstelle|kundenservice|verbund)/i
 /vr.{0,5}portal/i
-/vr.{0,5}(service|support)/i
+/vr.{0,5}(service|sicherheit|support)/i
 
 # W
 # ------------------------------------------------------------------------------
