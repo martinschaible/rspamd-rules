@@ -179,7 +179,11 @@
 /^datenätze.{1,10}aktualisieren/iu
 
 /(datenabgleich|datenaktualisierung|datenbestätigung|datenpflege).{1,15}(abschliessen|aktualisierung)/iu
-/(datenabgleich|datenaktualisierung|datenbestätigung|datenpflege).{1,15}bitte (bis|um)/i
+
+/(datenabgleich|datenaktualisierung|datenbestätigung|datenpflege).{1,15}bitte (bestätigen|bis)/iu
+/(datenabgleich|datenaktualisierung|datenbestätigung|datenpflege).{1,15}bitte handeln/i
+/(datenabgleich|datenaktualisierung|datenbestätigung|datenpflege).{1,15}bitte um/i
+
 /(datenabgleich|datenaktualisierung|datenbestätigung|datenpflege).{1,10}erforderlich/iu
 /(datenabgleich|datenaktualisierung|datenbestätigung|datenpflege).{1,10}frist/iu
 /(datenabgleich|datenaktualisierung|datenbestätigung|datenpflege).{1,10}gesetzlicher?.{1,10}(pflicht|vorgaben)/iu
@@ -614,6 +618,7 @@
 
 /vignette.{1,10}jetzt (klären|klaren)/i
 
+/vorgang konnte nicht abgeschlossen werden/i
 /vorladung des bundesamts/i
 /^vorübergehende aussetzung/iu
 
@@ -624,6 +629,7 @@
 /wichtige aktualisierung.?\|/i
 
 /wichtige information.{1,10}datenaktualisierung/i
+/wichtige rückmeldung.{1,10}kundenbereich/i
 /wichtige sicherheitsüberprüfung ihrer.{1,10}(daten|einstellungen)/iu
 /wichtige überprüfung ihrer/i
 
