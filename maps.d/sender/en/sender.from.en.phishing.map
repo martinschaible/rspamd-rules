@@ -202,6 +202,8 @@
 # /noreply.{0,10}billing/i
 
 /notice.{0,10}ads/i
+
+/notification.{0,10}\d{2,3}/i
 /notification.{0,10}company/i
 
 /no.?reply.?service/i

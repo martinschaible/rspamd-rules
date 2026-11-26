@@ -38,6 +38,8 @@
 
 /andernfalls ist ihr.{1,15}(konto|profil) gesperrt/i
 
+/anmeldedaten.{1,10}bestätigen.{1,10}um die löschung ihres kontos/iu
+
 /angaben.{1,10}jetzt aktualisieren/i
 /angaben.{1,10}nicht aktualisiert werden/i
 /angaben.{1,10}sind abgelaufen.{1,10}veraltet/i
@@ -117,6 +119,7 @@
 # J
 # ------------------------------------------------------------------------------
 /jetzt aktualisieren.{1,10}sonst kein zugriff/i
+/jetzt bestätigen.{1,10}freischalten/iu
 
 /jetzt.{1,10}kundendaten.{1,10}aktualisieren/i
 /jetzt.{1,10}(daten|konto|profil).{1,10}(aktualisieren|entsperren)/i

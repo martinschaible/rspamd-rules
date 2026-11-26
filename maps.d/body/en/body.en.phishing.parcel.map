@@ -55,6 +55,7 @@
 /(delivery|package|parcel|shipment).{1,15}cannot be delivered.{1,25}due to an error/i
 /(delivery|package|parcel|shipment).{1,15}has arrived at the office/i
 /(delivery|package|parcel|shipment).{1,15}has arrived at our logistics/i
+/(delivery|package|parcel|shipment).{1,15}is currently on hold/i
 
 # E
 # ------------------------------------------------------------------------------
@@ -116,6 +117,7 @@
 
 # U
 # ------------------------------------------------------------------------------
+/update your delivery information below/i
 
 # V
 # ------------------------------------------------------------------------------
