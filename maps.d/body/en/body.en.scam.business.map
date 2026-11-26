@@ -28,7 +28,7 @@
 
 /(business|deal|proposal|transaction).{1,20}discuss with you/i
 /(business|deal|proposal|transaction).{1,20}discussion.{1,10}you are interested/i
-/(business|deal|proposal|transaction).{1,20}(for|with) you/i
+/(business|deal|proposal|transaction).{1,20}(for|with) you\b/i
 /(business|deal|proposal|transaction).{1,15}i need a partner/i
 /(business|deal|proposal|transaction).{1,15}i would like to introduce to you/i
 /(business|deal|proposal|transaction).{1,20}offer that will benefit both/i
