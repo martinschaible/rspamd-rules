@@ -577,7 +577,8 @@
 
 /_telekom/i
 /telekom-/i
-/telekom.{0,10}(bonus|insider|kunden)/i
+/telekom.{0,10}(bonus|insider)/i
+/telekom.{0,10}kunden(service)?/i
 
 /tk.{0,10}(gesundheit|mitglieder|kundenservice)/i
 

@@ -90,7 +90,9 @@
 /keeping you fat/i
 
 /(lbs|kg).{1,10}with just/i
-/lost weight after/i
+
+/lost.{1,10}(lbs|kg) for.{1,10}years/i
+/lost.{1,10}weight after/i
 
 /may aid.{1,10}weight.?loss/i
 /melt extra.{1,10}(fat|lbs|weight)/i

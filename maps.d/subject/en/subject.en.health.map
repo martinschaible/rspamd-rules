@@ -1101,9 +1101,10 @@
 /stops?.{1,10}ringing.{1,10}fast/i
 /stops?.{1,10}(ear ringing|tinnitus)/i
 /stops?.{1,10}(artery|decay|dieting|sciatica|secret|teeth)/i
-/stops?.{1,10}(eating|taking|using) (these|this)/i
+/stops?.{1,10}(eating|taking|using).{1,10}(these|this)/i
 /stops?.{1,10}(these|this).{1,10}(hidden|morning)/i
 
+/stopped.{1,10}eating.{1,10}this/i
 /stopped.{1,10}(knee|ringing)/i
 
 /strange.{1,15}(acid|boosts|tea)/i
