@@ -40,7 +40,9 @@
 /\d{3,4}.{1,10}movies.{1,10}series/i
 
 /ip.?tv.{1,10}premium.{1,10}year/i
+/ip.?tv.{1,10}(europa|europe)/i
 /ip.?tv.{1,10}exclusive.{1,10}stable/i
+/ip.?tv.{1,10}premium/i
 /ip.?tv.{1,10}vertex/i
 
 /lp.?tv.{1,10}subscription/i
