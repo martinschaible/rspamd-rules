@@ -50,6 +50,8 @@
 /(donated|donation).{1,10}relief fund/i
 /(donated|donation).{1,15}reply back/i
 
+/donation sum of \d\.\dm/i
+
 # E
 # ------------------------------------------------------------------------------
 

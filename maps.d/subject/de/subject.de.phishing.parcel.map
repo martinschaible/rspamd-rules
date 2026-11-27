@@ -209,7 +209,7 @@
 
 # L
 # ------------------------------------------------------------------------------
-/letzte chance.{1,10}(lieferung|versand|zustellung) wird/i
+/letzte chance.{1,10}(lieferung|versand|zustellung) (morgen|wird)/i
 
 /letzter schritt.{1,10}(vor der|zur).{1,10}(lieferung|zustellung)/i
 
@@ -246,6 +246,8 @@
 /(lieferung|paket|sendung|versand|zustellung).{1,15}im.{1,15}(paketshop|paketzentrum)/i
 
 /(lieferung|paket|sendung|versand|zustellung).{1,10}kann erst nach gebührenzahlung/iu
+
+/(lieferung|paket|sendung|versand|zustellung).{1,10}konnte nicht zugestellt werden.{1,10}\d{3,10}/i
 /(lieferung|paket|sendung|versand|zustellung).{1,10}konnte nicht zugestellt werden.{1,10}id/i
 /(lieferung|paket|sendung|versand|zustellung).{1,10}konnte nicht zugestellt werden.{1,10}verschieben sie/i
 
