@@ -109,7 +109,8 @@
 /^confidential information/i
 /confidential.{1,10}proposal/i
 
-/confirmation.{1,10}next of kin/i
+/confirmation.{1,10}next.?of.?kin/i
+
 /congrats your e.?mail/i
 /contact.{1,10}https/i
 

@@ -95,7 +95,7 @@
 # ------------------------------------------------------------------------------
 /million.{1,10}contact.{1,15}for claims/i
 
-/my success.{1,10} getting.{1,15}fund.{1,10}transferred/i
+/my success.{1,10}getting.{1,15}fund.{1,10}transferred/i
 
 # N
 # ------------------------------------------------------------------------------
@@ -106,6 +106,8 @@
 
 # P
 # ------------------------------------------------------------------------------
+/partner with me.{1,10}claim(ing)?.{1,10}benefit/i
+
 /pandemic fund.{1,10}(payment|relief)/i
 /please collect your.{1,10}funds/i
 
@@ -160,6 +162,8 @@
 /your.{1,10}funds?.{1,10}processed.{1,10}released to you/i
 /your.{1,10}funds?.{1,10}still in our bank/i
 /your.{1,10}funds?.{1,10}(total|worth).{1,10}sum of.{1,10}million/i
+
+/yourr.{1,10}name to the claim/i
 
 /your.{1,10}unclaimed.{1,10}funds.{1,10}(are due|need to be)/iu
 
